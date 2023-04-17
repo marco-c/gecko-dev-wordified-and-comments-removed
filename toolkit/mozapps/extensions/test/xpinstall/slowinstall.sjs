@@ -1,4 +1,4 @@
-ChromeUtils
+Cu
 .
 import
 (
@@ -17,7 +17,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -36,7 +36,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -71,7 +71,6 @@ test
 /
 xpinstall
 "
-;
 const
 NOTIFICATION_TOPIC
 =
@@ -217,7 +216,6 @@ if
 !
 match
 )
-{
 throw
 "
 Bad
@@ -237,7 +235,6 @@ i
 '
 "
 ;
-}
 params
 [
 decodeURIComponent
@@ -351,7 +348,6 @@ aRequest
 .
 queryString
 )
-{
 params
 =
 parseQueryString
@@ -361,7 +357,6 @@ aRequest
 queryString
 )
 ;
-}
 if
 (
 params
@@ -587,6 +582,7 @@ addObserver
 (
 complete
 NOTIFICATION_TOPIC
+false
 )
 ;
 }
@@ -758,6 +754,7 @@ notifyObservers
 (
 null
 NOTIFICATION_TOPIC
+null
 )
 ;
 }

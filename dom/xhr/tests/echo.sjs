@@ -108,7 +108,6 @@ available
 >
 0
 )
-{
 body
 +
 =
@@ -127,7 +126,6 @@ bodyAvail
 )
 )
 ;
-}
 response
 .
 write

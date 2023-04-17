@@ -51,9 +51,9 @@ aRequest
 .
 hasHeader
 (
-"
+'
 Cookie
-"
+'
 )
 )
 {

@@ -158,16 +158,13 @@ Cookie
 =
 cookie
 )
-{
 title
 =
 "
 Cookie
 "
 ;
-}
 else
-{
 response
 .
 setHeader
@@ -181,7 +178,6 @@ cookie
 false
 )
 ;
-}
 response
 .
 write

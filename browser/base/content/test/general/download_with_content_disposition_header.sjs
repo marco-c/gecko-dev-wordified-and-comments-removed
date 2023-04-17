@@ -97,9 +97,9 @@ queryString
 .
 split
 (
-"
+'
 =
-"
+'
 )
 ;
 let

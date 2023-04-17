@@ -57,10 +57,10 @@ request
 response
 )
 {
-let
+var
 match
 ;
-let
+var
 requestAuth
 =
 true
@@ -79,14 +79,14 @@ for
 POST
 requests
 .
-let
+var
 query
 =
 request
 .
 queryString
 ;
-let
+var
 user
 =
 null
@@ -128,7 +128,6 @@ if
 (
 match
 )
-{
 user
 =
 match
@@ -136,7 +135,6 @@ match
 1
 ]
 ;
-}
 /
 /
 pass
@@ -171,7 +169,6 @@ if
 (
 match
 )
-{
 pass
 =
 match
@@ -179,7 +176,6 @@ match
 1
 ]
 ;
-}
 response
 .
 setStatusLine

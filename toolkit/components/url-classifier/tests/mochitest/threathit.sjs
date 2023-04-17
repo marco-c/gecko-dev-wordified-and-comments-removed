@@ -183,6 +183,8 @@ state
 dataStr
 )
 ;
+return
+;
 }
 else
 if
@@ -386,9 +388,9 @@ responseBody
 var
 base64Pad
 =
-"
+'
 =
-"
+'
 ;
 /
 *
@@ -606,8 +608,8 @@ data
 var
 result
 =
-"
-"
+'
+'
 ;
 var
 leftbits
@@ -682,6 +684,7 @@ i
 var
 padding
 =
+(
 data
 [
 i
@@ -689,6 +692,7 @@ i
 =
 =
 base64Pad
+)
 ;
 /
 /
@@ -705,10 +709,8 @@ c
 -
 1
 )
-{
 continue
 ;
-}
 /
 /
 Collect
@@ -773,7 +775,6 @@ if
 !
 padding
 )
-{
 result
 +
 =
@@ -791,7 +792,6 @@ leftbits
 0xff
 )
 ;
-}
 leftdata
 &
 =
@@ -823,20 +823,18 @@ if
 (
 leftbits
 )
-{
 throw
 Components
 .
 Exception
 (
-"
+'
 Corrupted
 base64
 string
-"
+'
 )
 ;
-}
 return
 result
 ;

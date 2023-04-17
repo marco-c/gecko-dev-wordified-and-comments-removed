@@ -16,14 +16,17 @@ x
 =
 {
 data
+:
+data
 QueryInterface
+:
+function
 (
 iid
 )
 {
 return
 this
-;
 }
 }
 ;
@@ -548,6 +551,8 @@ JSON
 stringify
 (
 {
+count
+:
 count
 }
 )

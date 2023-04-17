@@ -225,7 +225,6 @@ if
 (
 match
 )
-{
 expected_user
 =
 match
@@ -233,7 +232,6 @@ match
 1
 ]
 ;
-}
 /
 /
 pass
@@ -266,7 +264,6 @@ if
 (
 match
 )
-{
 expected_pass
 =
 match
@@ -274,7 +271,6 @@ match
 1
 ]
 ;
-}
 /
 /
 realm
@@ -307,7 +303,6 @@ if
 (
 match
 )
-{
 realm
 =
 match
@@ -315,7 +310,6 @@ match
 1
 ]
 ;
-}
 /
 /
 proxy_user
@@ -344,7 +338,6 @@ if
 (
 match
 )
-{
 proxy_expected_user
 =
 match
@@ -352,7 +345,6 @@ match
 1
 ]
 ;
-}
 /
 /
 proxy_pass
@@ -381,7 +373,6 @@ if
 (
 match
 )
-{
 proxy_expected_pass
 =
 match
@@ -389,7 +380,6 @@ match
 1
 ]
 ;
-}
 /
 /
 proxy_realm
@@ -418,7 +408,6 @@ if
 (
 match
 )
-{
 proxy_realm
 =
 match
@@ -426,7 +415,6 @@ match
 1
 ]
 ;
-}
 /
 /
 huge
@@ -449,12 +437,10 @@ if
 (
 match
 )
-{
 huge
 =
 true
 ;
-}
 /
 /
 plugin
@@ -477,12 +463,10 @@ if
 (
 match
 )
-{
 plugin
 =
 true
 ;
-}
 /
 /
 multiple
@@ -511,7 +495,6 @@ if
 (
 match
 )
-{
 authHeaderCount
 =
 match
@@ -521,7 +504,6 @@ match
 +
 0
 ;
-}
 /
 /
 anonymous
@@ -544,12 +526,10 @@ if
 (
 match
 )
-{
 anonymous
 =
 true
 ;
-}
 /
 /
 Look
@@ -670,7 +650,6 @@ length
 =
 2
 )
-{
 throw
 new
 Error
@@ -688,7 +667,6 @@ header
 authHeader
 )
 ;
-}
 var
 userpass
 =
@@ -737,7 +715,6 @@ length
 =
 3
 )
-{
 throw
 new
 Error
@@ -755,7 +732,6 @@ header
 userpass
 )
 ;
-}
 actual_user
 =
 match
@@ -832,7 +808,6 @@ length
 =
 2
 )
-{
 throw
 new
 Error
@@ -850,7 +825,6 @@ header
 authHeader
 )
 ;
-}
 var
 userpass
 =
@@ -899,7 +873,6 @@ length
 =
 3
 )
-{
 throw
 new
 Error
@@ -917,7 +890,6 @@ header
 userpass
 )
 ;
-}
 proxy_actual_user
 =
 match
@@ -1042,6 +1014,7 @@ found
 }
 }
 else
+{
 if
 (
 requestProxyAuth
@@ -1078,7 +1051,6 @@ authHeaderCount
 +
 i
 )
-{
 response
 .
 setHeader
@@ -1088,22 +1060,23 @@ Proxy
 -
 Authenticate
 "
-'
+"
 basic
 realm
 =
+\
 "
-'
+"
 +
 proxy_realm
 +
-'
 "
-'
+\
+"
+"
 true
 )
 ;
-}
 }
 else
 if
@@ -1141,7 +1114,6 @@ authHeaderCount
 +
 i
 )
-{
 response
 .
 setHeader
@@ -1151,22 +1123,23 @@ WWW
 -
 Authenticate
 "
-'
+"
 basic
 realm
 =
+\
 "
-'
+"
 +
 realm
 +
-'
 "
-'
+\
+"
+"
 true
 )
 ;
-}
 }
 else
 {
@@ -1185,6 +1158,7 @@ OK
 "
 )
 ;
+}
 }
 response
 .
@@ -1837,9 +1811,9 @@ toBinaryTable
 const
 base64Pad
 =
-"
+'
 =
-"
+'
 ;
 function
 base64ToString
@@ -1850,8 +1824,8 @@ data
 var
 result
 =
-"
-"
+'
+'
 ;
 var
 leftbits
@@ -1926,6 +1900,7 @@ i
 var
 padding
 =
+(
 data
 [
 i
@@ -1933,6 +1908,7 @@ i
 =
 =
 base64Pad
+)
 ;
 /
 /
@@ -1949,10 +1925,8 @@ c
 -
 1
 )
-{
 continue
 ;
-}
 /
 /
 Collect
@@ -2017,7 +1991,6 @@ if
 !
 padding
 )
-{
 result
 +
 =
@@ -2035,7 +2008,6 @@ leftbits
 0xff
 )
 ;
-}
 leftdata
 &
 =
@@ -2067,20 +2039,18 @@ if
 (
 leftbits
 )
-{
 throw
 Components
 .
 Exception
 (
-"
+'
 Corrupted
 base64
 string
-"
+'
 )
 ;
-}
 return
 result
 ;

@@ -110,7 +110,6 @@ xpinstall
 =
 "
 )
-{
 cookie
 =
 cookies
@@ -123,7 +122,6 @@ substring
 10
 )
 ;
-}
 }
 }
 if

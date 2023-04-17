@@ -268,7 +268,6 @@ Setting
 Headers
 "
 )
-;
 response
 .
 setHeader

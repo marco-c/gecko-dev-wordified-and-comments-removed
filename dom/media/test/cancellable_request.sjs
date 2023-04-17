@@ -14,9 +14,9 @@ queryString
 .
 split
 (
-"
+'
 &
-"
+'
 )
 ;
 for
@@ -52,11 +52,9 @@ p
 =
 key
 )
-{
 return
 true
 ;
-}
 if
 (
 p
@@ -73,7 +71,6 @@ key
 =
 0
 )
-{
 return
 p
 .
@@ -86,7 +83,6 @@ length
 1
 )
 ;
-}
 if
 (
 p
@@ -107,11 +103,9 @@ key
 "
 "
 )
-{
 return
 p
 ;
-}
 }
 return
 false
@@ -189,7 +183,9 @@ String
 .
 fromCharCode
 (
+(
 input
+)
 &
 0xff
 )
@@ -211,7 +207,9 @@ String
 .
 fromCharCode
 (
+(
 input
+)
 &
 0xff
 )
@@ -290,7 +288,9 @@ String
 .
 fromCharCode
 (
+(
 input
+)
 &
 0xff
 )
@@ -797,7 +797,6 @@ rangeMatch
 =
 undefined
 )
-{
 start
 =
 parseInt
@@ -809,7 +808,6 @@ rangeMatch
 10
 )
 ;
-}
 if
 (
 rangeMatch
@@ -821,7 +819,6 @@ rangeMatch
 =
 undefined
 )
-{
 end
 =
 parseInt
@@ -833,7 +830,6 @@ rangeMatch
 10
 )
 ;
-}
 /
 /
 No
@@ -912,7 +908,6 @@ bytes
 .
 length
 )
-{
 end
 =
 bytes
@@ -921,7 +916,6 @@ length
 -
 1
 ;
-}
 if
 (
 end

@@ -40,7 +40,7 @@ processAsync
 (
 )
 ;
-const
+let
 params
 =
 request
@@ -54,7 +54,7 @@ split
 "
 )
 ;
-const
+let
 status
 =
 params
@@ -88,7 +88,7 @@ split
 1
 ]
 ;
-const
+let
 cached
 =
 params
@@ -102,9 +102,9 @@ s
 =
 =
 =
-"
+'
 cached
-"
+'
 )
 .
 length

@@ -130,7 +130,7 @@ file
 each
 time
 .
-const
+let
 counter
 =
 1
@@ -147,7 +147,7 @@ counter
 2
 )
 ;
-const
+let
 index
 =
 request
@@ -161,7 +161,7 @@ lastIndexOf
 "
 )
 ;
-const
+let
 newPath
 =
 request
@@ -189,7 +189,7 @@ js
 map
 "
 ;
-const
+let
 newUrl
 =
 request

@@ -80,7 +80,6 @@ if
 !
 match
 )
-{
 throw
 "
 Bad
@@ -100,7 +99,6 @@ i
 '
 "
 ;
-}
 params
 [
 decodeURIComponent

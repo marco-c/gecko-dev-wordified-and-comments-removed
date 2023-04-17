@@ -72,7 +72,6 @@ v
 response
 =
 v
-;
 }
 )
 ;
@@ -87,7 +86,7 @@ request
 response
 )
 {
-const
+let
 {
 queryString
 }
@@ -151,7 +150,7 @@ write
 return
 ;
 }
-const
+let
 [
 command
 value
@@ -161,9 +160,9 @@ queryString
 .
 split
 (
-"
+'
 =
-"
+'
 )
 ;
 switch

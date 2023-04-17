@@ -114,11 +114,11 @@ file
 .
 append
 (
-"
+'
 blue
 .
 png
-"
+'
 )
 ;
 setState
@@ -136,11 +136,11 @@ file
 .
 append
 (
-"
+'
 red
 .
 png
-"
+'
 )
 ;
 setState
@@ -223,7 +223,7 @@ Components
 .
 classes
 [
-"
+'
 mozilla
 .
 org
@@ -237,7 +237,7 @@ input
 stream
 ;
 1
-"
+'
 ]
 .
 createInstance

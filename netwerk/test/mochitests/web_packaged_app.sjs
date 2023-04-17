@@ -33,6 +33,8 @@ getData
 )
 )
 ;
+return
+;
 }
 /
 /
@@ -311,6 +313,8 @@ gc0pJq0M
 08jU534c0p
 "
 getData
+:
+function
 (
 )
 {
@@ -439,4 +443,3 @@ str
 ;
 }
 }
-;

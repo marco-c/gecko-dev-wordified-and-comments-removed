@@ -139,7 +139,6 @@ if
 (
 match
 )
-{
 expected_user
 =
 match
@@ -147,7 +146,6 @@ match
 1
 ]
 ;
-}
 /
 /
 pass
@@ -180,7 +178,6 @@ if
 (
 match
 )
-{
 expected_pass
 =
 match
@@ -188,7 +185,6 @@ match
 1
 ]
 ;
-}
 /
 /
 realm
@@ -221,7 +217,6 @@ if
 (
 match
 )
-{
 realm
 =
 match
@@ -229,7 +224,6 @@ match
 1
 ]
 ;
-}
 /
 /
 Look
@@ -350,7 +344,6 @@ length
 =
 2
 )
-{
 throw
 new
 Error
@@ -368,7 +361,6 @@ header
 authHeader
 )
 ;
-}
 var
 userpass
 =
@@ -417,7 +409,6 @@ length
 =
 3
 )
-{
 throw
 new
 Error
@@ -435,7 +426,6 @@ header
 userpass
 )
 ;
-}
 actual_user
 =
 match
@@ -519,18 +509,20 @@ WWW
 -
 Authenticate
 "
-'
+"
 basic
 realm
 =
+\
 "
-'
+"
 +
 realm
 +
-'
 "
-'
+\
+"
+"
 true
 )
 ;
@@ -1014,9 +1006,9 @@ toBinaryTable
 const
 base64Pad
 =
-"
+'
 =
-"
+'
 ;
 function
 base64ToString
@@ -1027,8 +1019,8 @@ data
 var
 result
 =
-"
-"
+'
+'
 ;
 var
 leftbits
@@ -1103,6 +1095,7 @@ i
 var
 padding
 =
+(
 data
 [
 i
@@ -1110,6 +1103,7 @@ i
 =
 =
 base64Pad
+)
 ;
 /
 /
@@ -1126,10 +1120,8 @@ c
 -
 1
 )
-{
 continue
 ;
-}
 /
 /
 Collect
@@ -1194,7 +1186,6 @@ if
 !
 padding
 )
-{
 result
 +
 =
@@ -1212,7 +1203,6 @@ leftbits
 0xff
 )
 ;
-}
 leftdata
 &
 =
@@ -1244,20 +1234,18 @@ if
 (
 leftbits
 )
-{
 throw
 Components
 .
 Exception
 (
-"
+'
 Corrupted
 base64
 string
-"
+'
 )
 ;
-}
 return
 result
 ;

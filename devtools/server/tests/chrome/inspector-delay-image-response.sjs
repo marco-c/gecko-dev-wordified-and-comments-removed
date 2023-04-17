@@ -103,7 +103,7 @@ request
 response
 )
 {
-const
+let
 query
 =
 {
@@ -127,7 +127,7 @@ function
 val
 )
 {
-const
+let
 [
 name
 value

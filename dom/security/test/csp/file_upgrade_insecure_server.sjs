@@ -441,6 +441,7 @@ https
 queryString
 +
 =
+(
 request
 .
 scheme
@@ -449,6 +450,7 @@ scheme
 "
 https
 "
+)
 ?
 "
 -
@@ -705,6 +707,7 @@ insecure
 .
 if
 (
+(
 queryString
 =
 =
@@ -713,8 +716,10 @@ iframe
 -
 ok
 "
+)
 |
 |
+(
 queryString
 =
 =
@@ -723,6 +728,7 @@ iframe
 -
 error
 "
+)
 )
 {
 response

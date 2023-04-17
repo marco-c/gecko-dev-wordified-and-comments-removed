@@ -72,7 +72,6 @@ if
 (
 value
 )
-{
 aResponse
 .
 setHeader
@@ -85,7 +84,6 @@ Control
 value
 )
 ;
-}
 /
 /
 Set

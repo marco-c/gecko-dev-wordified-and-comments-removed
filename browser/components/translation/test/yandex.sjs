@@ -521,7 +521,6 @@ pl
 ;
 while
 (
-(
 match
 =
 search
@@ -529,7 +528,6 @@ search
 exec
 (
 query
-)
 )
 )
 {
@@ -569,7 +567,6 @@ k
 instanceof
 Array
 )
-{
 params
 [
 k
@@ -580,9 +577,7 @@ push
 v
 )
 ;
-}
 else
-{
 params
 [
 k
@@ -596,7 +591,6 @@ k
 v
 ]
 ;
-}
 }
 else
 {
@@ -870,7 +864,6 @@ available
 >
 0
 )
-{
 Array
 .
 prototype
@@ -888,7 +881,6 @@ avail
 )
 )
 ;
-}
 return
 String
 .
@@ -956,7 +948,6 @@ split
 "
 )
 )
-{
 file
 .
 append
@@ -964,7 +955,6 @@ append
 part
 )
 ;
-}
 let
 fileStream
 =
@@ -1115,7 +1105,6 @@ in
 params
 )
 )
-{
 throw
 new
 HTTPError
@@ -1123,7 +1112,6 @@ HTTPError
 400
 )
 ;
-}
 let
 key
 =
@@ -1141,25 +1129,31 @@ key
 yandexValidKey
 "
 )
-{
 return
 true
 ;
-}
 let
 invalidKeys
 =
 {
+"
 yandexInvalidKey
+"
 :
 401
+"
 yandexBlockedKey
+"
 :
 402
+"
 yandexOutOfRequestsKey
+"
 :
 403
+"
 yandexOutOfCharsKey
+"
 :
 404
 }
@@ -1170,7 +1164,6 @@ key
 in
 invalidKeys
 )
-{
 throw
 new
 HTTPError
@@ -1181,7 +1174,6 @@ key
 ]
 )
 ;
-}
 throw
 new
 HTTPError
@@ -1219,9 +1211,9 @@ req
 method
 =
 =
-"
+'
 POST
-"
+'
 )
 {
 params
@@ -1264,8 +1256,11 @@ params
 )
 ;
 methodHandlers
-.
+[
+'
 translate
+'
+]
 (
 res
 params
@@ -1293,6 +1288,8 @@ methodHandlers
 =
 {
 translate
+:
+function
 (
 res
 params

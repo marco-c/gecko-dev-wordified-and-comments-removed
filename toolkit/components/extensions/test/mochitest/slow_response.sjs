@@ -63,7 +63,7 @@ unused
 vars
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

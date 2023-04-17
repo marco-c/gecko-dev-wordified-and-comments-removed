@@ -34,7 +34,7 @@ const
 body
 =
 [
-0xc1
+0xC1
 ]
 ;
 var
