@@ -210,6 +210,26 @@ inline
 <
 script
 >
+/
+/
+Account
+for
+rounding
+differences
+when
+viewport
+sizes
+can
+'
+t
+cleanly
+divide
+.
+const
+epsilon
+=
+1
+;
 promise_test
 (
 async
@@ -327,7 +347,7 @@ r2
 label
 )
 {
-assert_equals
+assert_approx_equals
 (
 r1
 .
@@ -335,6 +355,7 @@ top
 r2
 .
 top
+epsilon
 label
 +
 "
@@ -346,7 +367,7 @@ equal
 "
 )
 ;
-assert_equals
+assert_approx_equals
 (
 r1
 .
@@ -354,6 +375,7 @@ right
 r2
 .
 right
+epsilon
 label
 +
 "
@@ -365,7 +387,7 @@ equal
 "
 )
 ;
-assert_equals
+assert_approx_equals
 (
 r1
 .
@@ -373,6 +395,7 @@ bottom
 r2
 .
 bottom
+epsilon
 label
 +
 "
@@ -384,7 +407,7 @@ equal
 "
 )
 ;
-assert_equals
+assert_approx_equals
 (
 r1
 .
@@ -392,6 +415,7 @@ left
 r2
 .
 left
+epsilon
 label
 +
 "
