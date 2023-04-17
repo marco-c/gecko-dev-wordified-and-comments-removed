@@ -512,7 +512,7 @@ max_events
 None
 delay_ping_lifetime_io
 :
-false
+true
 channel
 :
 Some
