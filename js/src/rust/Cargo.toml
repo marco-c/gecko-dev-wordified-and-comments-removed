@@ -87,6 +87,17 @@ jsrust_shared
 cranelift_none
 '
 ]
+moz_memory
+=
+[
+'
+mozglue
+-
+static
+/
+moz_memory
+'
+]
 simd
 -
 accel
