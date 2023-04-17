@@ -252,7 +252,11 @@ type
 vendoring
 enabled
 :
-False
+True
+frequency
+:
+3
+weeks
 vendoring
 :
 url
