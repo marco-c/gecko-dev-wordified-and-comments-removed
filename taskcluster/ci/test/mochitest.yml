@@ -227,8 +227,6 @@ em
 0
 -
 x86_64
--
-qr
 /
 debug
 -
@@ -692,8 +690,6 @@ em
 0
 -
 x86_64
--
-qr
 /
 debug
 -
@@ -2616,8 +2612,6 @@ em
 0
 -
 x86_64
--
-qr
 /
 debug
 -
@@ -2683,8 +2677,6 @@ em
 0
 -
 x86_64
--
-qr
 /
 debug
 -
@@ -3458,8 +3450,6 @@ em
 0
 -
 x86_64
--
-qr
 /
 debug
 -
@@ -3681,8 +3671,6 @@ em
 0
 -
 x86_64
--
-qr
 /
 debug
 -
@@ -3856,6 +3844,19 @@ ipc
 '
 '
 noqr
+'
+]
+android
+-
+em
+-
+7
+.
+*
+:
+[
+'
+fission
 '
 ]
 android
@@ -4318,8 +4319,6 @@ em
 0
 -
 x86_64
--
-qr
 /
 debug
 -
@@ -5183,8 +5182,6 @@ aarch
 *
 -
 shippable
--
-qr
 /
 opt
 :
@@ -5602,8 +5599,6 @@ aarch
 *
 -
 shippable
--
-qr
 /
 opt
 :
@@ -5985,8 +5980,6 @@ aarch
 *
 -
 shippable
--
-qr
 /
 opt
 :
