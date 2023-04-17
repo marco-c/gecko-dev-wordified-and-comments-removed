@@ -1377,7 +1377,7 @@ mozilla
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;

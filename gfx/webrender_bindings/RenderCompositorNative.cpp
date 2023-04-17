@@ -1014,7 +1014,7 @@ mBeginFrameTimeStamp
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;

@@ -374,7 +374,7 @@ mozilla
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 )
@@ -390,7 +390,7 @@ mozilla
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 )
@@ -6626,7 +6626,7 @@ while
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 <
@@ -9078,7 +9078,7 @@ now
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;
@@ -9087,7 +9087,7 @@ while
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 =
@@ -25567,7 +25567,7 @@ start
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;
@@ -30745,7 +30745,7 @@ mozilla
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;
@@ -30810,7 +30810,7 @@ mozilla
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;

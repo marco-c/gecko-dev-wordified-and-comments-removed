@@ -4731,7 +4731,7 @@ ts1
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;
@@ -4749,7 +4749,7 @@ ts2
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;

@@ -16106,7 +16106,7 @@ mozilla
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;
