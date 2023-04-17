@@ -794,6 +794,12 @@ shouldDestroyTargetFront
 {
 targetFront
 .
+baseFrontClassDestroy
+(
+)
+;
+targetFront
+.
 destroy
 (
 )
