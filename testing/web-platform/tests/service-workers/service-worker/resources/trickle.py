@@ -1,9 +1,5 @@
 import
 time
-from
-six
-import
-range
 def
 main
 (
