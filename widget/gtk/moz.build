@@ -188,6 +188,11 @@ UNIFIED_SOURCES
 =
 [
 "
+GfxInfo
+.
+cpp
+"
+"
 IMContextWrapper
 .
 cpp

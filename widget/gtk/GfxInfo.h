@@ -1,9 +1,9 @@
 #
 ifndef
-__GfxInfoX11_h__
+WIDGET_GTK_GFXINFO_h__
 #
 define
-__GfxInfoX11_h__
+WIDGET_GTK_GFXINFO_h__
 #
 include
 "

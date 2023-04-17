@@ -235,7 +235,7 @@ LinuxWakeLock
 )
 ;
 enum
-DesktopEnvironment
+WakeLockDesktopEnvironment
 {
 FreeDesktop
 GNOME
@@ -442,7 +442,7 @@ DBusConnection
 >
 mConnection
 ;
-DesktopEnvironment
+WakeLockDesktopEnvironment
 mDesktopEnvironment
 ;
 uint32_t
