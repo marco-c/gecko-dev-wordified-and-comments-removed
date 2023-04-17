@@ -134,6 +134,14 @@ third_party
 libwebrtc
 /
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 UNIFIED_SOURCES
 +

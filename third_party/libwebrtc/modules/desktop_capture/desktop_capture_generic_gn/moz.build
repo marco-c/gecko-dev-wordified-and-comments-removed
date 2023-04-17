@@ -259,6 +259,14 @@ third_party
 pipewire
 /
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 UNIFIED_SOURCES
 +
