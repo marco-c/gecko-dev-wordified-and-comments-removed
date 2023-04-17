@@ -689,7 +689,7 @@ Table
 element
 :
 '
-anyfunc
+funcref
 '
 initial
 :
