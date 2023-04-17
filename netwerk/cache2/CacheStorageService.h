@@ -285,12 +285,6 @@ DropPrivateBrowsingEntries
 )
 ;
 static
-void
-CleaupCacheDirectories
-(
-)
-;
-static
 CacheStorageService
 *
 Self
