@@ -222,14 +222,6 @@ why
 )
 override
 ;
-void
-OnChannelConnected
-(
-int32_t
-pid
-)
-override
-;
 mozilla
 :
 :
@@ -453,6 +445,12 @@ RecvResetPuppet
 ;
 private
 :
+void
+ActorAlloc
+(
+)
+override
+;
 void
 ActorDealloc
 (

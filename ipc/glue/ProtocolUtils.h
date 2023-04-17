@@ -1758,15 +1758,6 @@ aMsgName
 )
 {
 }
-virtual
-void
-OnChannelConnected
-(
-int32_t
-peer_pid
-)
-{
-}
 bool
 Open
 (
