@@ -644,13 +644,6 @@ straight
 from
 Compiler
 Explorer
-and
-then
-ran
-through
-clang
--
-format
 :
 :
 :
@@ -678,6 +671,13 @@ hasType
 (
 enumDecl
 (
+)
+.
+bind
+(
+"
+enum
+"
 )
 )
 )
