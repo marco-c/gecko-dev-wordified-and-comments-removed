@@ -905,6 +905,9 @@ C
 fn
 l10nregistry_new
 (
+use_isolating
+:
+bool
 )
 -
 >
@@ -937,11 +940,9 @@ reg
 set_adapt_bundle
 (
 GeckoBundleAdapter
-:
-:
-default
-(
-)
+{
+use_isolating
+}
 )
 .
 report_error
