@@ -202,6 +202,12 @@ aInvalidRegion
 final
 ;
 void
+Reset
+(
+)
+override
+;
+void
 FlushPendingCommits
 (
 )
