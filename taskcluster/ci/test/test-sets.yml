@@ -586,6 +586,10 @@ browsertime
 first
 -
 install
+-
+browsertime
+-
+responsiveness
 browsertime
 -
 profiling
