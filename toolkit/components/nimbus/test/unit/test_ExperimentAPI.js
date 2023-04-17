@@ -181,7 +181,6 @@ childStore
 )
 )
 ;
-await
 manager
 .
 store
@@ -366,7 +365,6 @@ ready
 (
 )
 ;
-await
 manager
 .
 store
@@ -502,7 +500,6 @@ ready
 (
 )
 ;
-await
 manager
 .
 store
@@ -891,9 +888,6 @@ cfr
 enabled
 :
 true
-value
-:
-null
 }
 }
 }
@@ -942,7 +936,6 @@ recordExposureEvent
 "
 )
 ;
-await
 manager
 .
 store
@@ -1609,9 +1602,6 @@ purple
 enabled
 :
 true
-value
-:
-null
 }
 }
 }
@@ -1693,7 +1683,6 @@ purple
 featureStub
 )
 ;
-await
 store
 .
 addExperiment
@@ -1856,9 +1845,6 @@ purple
 enabled
 :
 true
-value
-:
-null
 }
 }
 }
@@ -1906,7 +1892,6 @@ ready
 (
 )
 ;
-await
 store
 .
 addExperiment
@@ -2111,9 +2096,6 @@ purple
 enabled
 :
 true
-value
-:
-null
 }
 }
 }
@@ -2195,7 +2177,6 @@ purple
 featureStub
 )
 ;
-await
 store
 .
 addExperiment
@@ -2349,9 +2330,6 @@ green
 enabled
 :
 true
-value
-:
-null
 }
 }
 }
@@ -2364,7 +2342,6 @@ init
 (
 )
 ;
-await
 store
 .
 addExperiment
@@ -2586,7 +2563,6 @@ init
 (
 )
 ;
-await
 store
 .
 addExperiment
@@ -2810,7 +2786,6 @@ init
 (
 )
 ;
-await
 store
 .
 addExperiment
@@ -2981,7 +2956,6 @@ init
 (
 )
 ;
-await
 store
 .
 addExperiment
