@@ -786,7 +786,37 @@ alias
 "
 )
     
+digest_data
+=
+get_digest_data
+(
+config
+run
+taskdesc
+)
+    
 if
+job
+.
+get
+(
+"
+attributes
+"
+{
+}
+)
+.
+get
+(
+"
+cached_task
+"
+)
+is
+not
+False
+and
 not
 taskgraph
 .
@@ -848,12 +878,7 @@ digest
 data
 "
 :
-get_digest_data
-(
-config
-run
-taskdesc
-)
+digest_data
         
 }
     
@@ -1222,7 +1247,37 @@ alias
 "
 )
     
+digest_data
+=
+get_digest_data
+(
+config
+run
+taskdesc
+)
+    
 if
+job
+.
+get
+(
+"
+attributes
+"
+{
+}
+)
+.
+get
+(
+"
+cached_task
+"
+)
+is
+not
+False
+and
 not
 taskgraph
 .
@@ -1284,12 +1339,7 @@ digest
 data
 "
 :
-get_digest_data
-(
-config
-run
-taskdesc
-)
+digest_data
         
 }
     
