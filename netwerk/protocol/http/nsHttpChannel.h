@@ -1700,6 +1700,11 @@ redirectFlags
 )
 override
 ;
+void
+HandleAsyncRedirectToUnstrippedURI
+(
+)
+;
 [
 [
 nodiscard
