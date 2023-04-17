@@ -118,14 +118,15 @@ nsWrapperCache
 public
 TypeUtils
 {
-typedef
+using
+PBackgroundChild
+=
 mozilla
 :
 :
 ipc
 :
 :
-PBackgroundChild
 PBackgroundChild
 ;
 public
