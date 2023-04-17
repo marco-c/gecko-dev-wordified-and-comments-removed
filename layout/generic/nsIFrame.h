@@ -6481,6 +6481,15 @@ StyleImage
 &
 )
 ;
+mozilla
+:
+:
+StyleImageRendering
+UsedImageRendering
+(
+)
+const
+;
 enum
 class
 AllowCustomCursorImage
