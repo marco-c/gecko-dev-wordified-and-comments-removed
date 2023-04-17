@@ -113,9 +113,6 @@ alignment
 "
 )
 ;
-#
-ifndef
-MOZ_TASK_TRACER
 static
 const
 uint32_t
@@ -123,17 +120,6 @@ kHeaderSegmentCapacity
 =
 64
 ;
-#
-else
-static
-const
-uint32_t
-kHeaderSegmentCapacity
-=
-128
-;
-#
-endif
 static
 const
 uint32_t
