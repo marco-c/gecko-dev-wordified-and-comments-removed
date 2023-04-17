@@ -6678,7 +6678,11 @@ true
 }
 }
 }
-else
+if
+(
+!
+fontEntry
+)
 {
 gfxFontFamily
 *
