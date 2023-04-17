@@ -245,15 +245,6 @@ aRoot
 ;
 #
 endif
-enum
-ENameValueFlag
-{
-eNameOK
-eNoNameOnPurpose
-eNameFromSubtree
-eNameFromTooltip
-}
-;
 struct
 GroupPos
 {
@@ -600,6 +591,7 @@ nsString
 aName
 )
 const
+override
 ;
 virtual
 void

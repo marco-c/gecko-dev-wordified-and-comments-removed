@@ -16,7 +16,7 @@ NativeState
 )
 const
 ;
-uint32_t
+ENameValueFlag
 Name
 (
 nsString
@@ -24,6 +24,7 @@ nsString
 aName
 )
 const
+override
 ;
 void
 Value
