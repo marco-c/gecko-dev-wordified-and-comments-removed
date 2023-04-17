@@ -52,13 +52,6 @@ test
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -109,7 +102,6 @@ reset
 }
 )
 ;
-}
 waitForExplicitFinish
 (
 )

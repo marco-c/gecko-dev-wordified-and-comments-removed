@@ -63,13 +63,6 @@ history
 clear
 )
 ;
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -135,7 +128,6 @@ button
 }
 )
 ;
-}
 }
 )
 ;

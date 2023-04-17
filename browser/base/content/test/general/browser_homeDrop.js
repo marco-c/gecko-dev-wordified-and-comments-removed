@@ -6,13 +6,6 @@ setupHomeButton
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -61,7 +54,6 @@ bar
 "
 )
 ;
-}
 registerCleanupFunction
 (
 async

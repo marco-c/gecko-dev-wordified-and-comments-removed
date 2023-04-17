@@ -76,13 +76,6 @@ setupHomeButton
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -115,7 +108,6 @@ position
 1
 )
 ;
-}
 }
 )
 ;

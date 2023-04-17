@@ -10,13 +10,6 @@ test_setup
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -33,7 +26,6 @@ bar
 "
 )
 ;
-}
 registerCleanupFunction
 (
 (
@@ -122,13 +114,6 @@ clipboardCopyString
 "
 )
 ;
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 removeWidgetFromArea
@@ -140,7 +125,6 @@ button
 "
 )
 ;
-}
 }
 )
 ;

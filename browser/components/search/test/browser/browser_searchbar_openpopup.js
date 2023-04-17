@@ -3118,13 +3118,6 @@ drop_opens_popup
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -3141,7 +3134,6 @@ bar
 "
 )
 ;
-}
 let
 focusEventPromise
 =
@@ -3292,13 +3284,6 @@ value
 "
 "
 ;
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 removeWidgetFromArea
@@ -3310,7 +3295,6 @@ button
 "
 )
 ;
-}
 }
 )
 ;

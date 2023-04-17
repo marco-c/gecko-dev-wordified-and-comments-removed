@@ -65,13 +65,6 @@ registerCleanupFunction
 =
 >
 {
-if
-(
-PanelUI
-.
-protonAppMenuEnabled
-)
-{
 gBrowser
 .
 removeAllTabsBut
@@ -84,7 +77,6 @@ tabs
 ]
 )
 ;
-}
 Services
 .
 prefs

@@ -11,13 +11,6 @@ setup_home_button
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -52,7 +45,6 @@ button
 )
 )
 ;
-}
 }
 )
 ;

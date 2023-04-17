@@ -294,13 +294,6 @@ testLibraryButtonPress
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -317,7 +310,6 @@ bar
 "
 )
 ;
-}
 let
 button
 =
@@ -421,13 +413,6 @@ hidePopup
 await
 hidden
 ;
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 removeWidgetFromArea
@@ -439,7 +424,6 @@ button
 "
 )
 ;
-}
 }
 )
 ;
@@ -1365,13 +1349,6 @@ testSidebarsButtonPress
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -1388,7 +1365,6 @@ bar
 "
 )
 ;
-}
 let
 button
 =
@@ -1585,13 +1561,6 @@ press
 "
 )
 ;
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 removeWidgetFromArea
@@ -1603,7 +1572,6 @@ button
 "
 )
 ;
-}
 }
 )
 ;
