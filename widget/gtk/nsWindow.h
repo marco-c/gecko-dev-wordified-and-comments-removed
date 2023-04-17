@@ -1865,6 +1865,14 @@ aState
 )
 override
 ;
+mozilla
+:
+:
+LayoutDeviceIntCoord
+GetTitlebarRadius
+(
+)
+;
 LayoutDeviceIntRect
 GetTitlebarRect
 (
