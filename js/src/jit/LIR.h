@@ -63,7 +63,7 @@ include
 "
 jit
 /
-LOpcodesGenerated
+LIROpsGenerated
 .
 h
 "
