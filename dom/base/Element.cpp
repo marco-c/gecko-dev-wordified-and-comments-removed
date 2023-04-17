@@ -9191,12 +9191,6 @@ if
 MayHaveStyle
 (
 )
-&
-&
-!
-IsXULElement
-(
-)
 )
 {
 static_cast
