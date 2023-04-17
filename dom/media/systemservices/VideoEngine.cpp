@@ -17,8 +17,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -33,8 +31,6 @@ WEBRTC_ANDROID
 #
 include
 "
-webrtc
-/
 modules
 /
 video_capture

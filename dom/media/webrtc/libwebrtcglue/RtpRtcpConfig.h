@@ -7,9 +7,9 @@ __RTPRTCP_CONFIG_H__
 #
 include
 "
-webrtc
+api
 /
-common_types
+rtp_headers
 .
 h
 "

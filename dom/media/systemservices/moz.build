@@ -103,14 +103,6 @@ libwebrtc
 "
 "
 /
-third_party
-/
-libwebrtc
-/
-webrtc
-"
-"
-/
 tools
 /
 profiler

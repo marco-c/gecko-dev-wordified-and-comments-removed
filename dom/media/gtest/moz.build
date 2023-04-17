@@ -52,14 +52,6 @@ third_party
 /
 libwebrtc
 "
-"
-/
-third_party
-/
-libwebrtc
-/
-webrtc
-"
 ]
 UNIFIED_SOURCES
 +

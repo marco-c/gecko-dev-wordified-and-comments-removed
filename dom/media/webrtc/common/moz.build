@@ -58,8 +58,6 @@ libekr
 third_party
 /
 libwebrtc
-/
-webrtc
 "
 ]
 UNIFIED_SOURCES

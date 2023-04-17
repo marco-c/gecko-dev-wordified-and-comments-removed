@@ -49,8 +49,6 @@ h
 #
 include
 "
-webrtc
-/
 common_video
 /
 include
@@ -62,8 +60,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 video_coding
