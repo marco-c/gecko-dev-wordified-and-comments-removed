@@ -518,6 +518,11 @@ WebAssembly
 /
 simd
 "
+branch
+=
+"
+main
+"
 parent
 =
 "
