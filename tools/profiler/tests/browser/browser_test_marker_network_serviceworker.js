@@ -1,3 +1,12 @@
+const
+serviceWorkerFileName
+=
+"
+serviceworker_cache_first
+.
+js
+"
+;
 registerCleanupFunction
 (
 (
@@ -156,10 +165,12 @@ spawn
 (
 contentBrowser
 [
+serviceWorkerFileName
 ]
 async
 function
 (
+serviceWorkerFileName
 )
 {
 await
@@ -169,6 +180,7 @@ wrappedJSObject
 .
 registerServiceWorkerAndWait
 (
+serviceWorkerFileName
 )
 ;
 }
