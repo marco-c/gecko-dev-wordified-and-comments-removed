@@ -218,6 +218,10 @@ null
 ;
 }
 return
+[
+OnboardingMessage
+(
+)
 div
 (
 {
@@ -228,9 +232,6 @@ perf
 -
 devtools
 }
-OnboardingMessage
-(
-)
 RecordingButton
 (
 {
@@ -262,6 +263,7 @@ onEditSettingsLinkClicked
 }
 )
 )
+]
 ;
 }
 }
