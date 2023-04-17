@@ -753,6 +753,13 @@ persist
 "
 :
 true
+"
+event
+-
+breakpoints
+"
+:
+true
 }
 }
 ;
