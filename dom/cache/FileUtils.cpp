@@ -552,8 +552,6 @@ kMorgueDirectory
 ;
 QM_TRY
 (
-QM_OR_ELSE_WARN
-(
 ToResult
 (
 bodyDir
@@ -568,6 +566,9 @@ DIRECTORY_TYPE
 0755
 )
 )
+.
+orElse
+(
 ErrToDefaultOkOrErr
 <
 NS_ERROR_FILE_ALREADY_EXISTS
