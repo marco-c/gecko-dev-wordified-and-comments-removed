@@ -566,11 +566,6 @@ mFirstFramePromise
 }
 private
 :
-void
-Init
-(
-)
-;
 size_t
 NumCapabilities
 (
