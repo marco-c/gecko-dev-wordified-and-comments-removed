@@ -7116,10 +7116,6 @@ T
 byteLength
 (
 )
-.
-get
-(
-)
 ;
 args
 .
@@ -7218,10 +7214,6 @@ obj
 -
 >
 byteLength
-(
-)
-.
-get
 (
 )
 ;
@@ -9278,10 +9270,6 @@ source
 length
 (
 )
-.
-get
-(
-)
 )
 ;
 MOZ_ASSERT
@@ -9293,10 +9281,6 @@ source
 -
 >
 length
-(
-)
-.
-get
 (
 )
 -
@@ -9312,10 +9296,6 @@ unsafeTypedArrayCrossCompartment
 -
 >
 length
-(
-)
-.
-get
 (
 )
 )
@@ -9668,10 +9648,6 @@ target
 -
 >
 length
-(
-)
-.
-get
 (
 )
 )

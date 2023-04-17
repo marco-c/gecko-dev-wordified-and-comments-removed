@@ -496,10 +496,6 @@ typedArray
 length
 (
 )
-.
-get
-(
-)
 ;
 uint64_t
 accessIndex
@@ -3298,10 +3294,6 @@ unwrappedTypedArray
 byteOffset
 (
 )
-.
-get
-(
-)
 ;
 size_t
 indexedPosition
@@ -4125,10 +4117,6 @@ unwrappedTypedArray
 -
 >
 byteOffset
-(
-)
-.
-get
 (
 )
 ;

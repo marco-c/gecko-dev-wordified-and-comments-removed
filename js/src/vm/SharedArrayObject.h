@@ -174,7 +174,7 @@ SharedArrayRawBuffer
 uint8_t
 *
 buffer
-BufferSize
+size_t
 length
 uint64_t
 maxSize
@@ -191,10 +191,6 @@ refcount_
 length_
 (
 length
-.
-get
-(
-)
 )
 growLock_
 (
@@ -295,7 +291,7 @@ SharedArrayRawBuffer
 *
 Allocate
 (
-BufferSize
+size_t
 length
 const
 mozilla
@@ -421,17 +417,14 @@ SharedArrayRawBuffer
 )
 ;
 }
-BufferSize
+size_t
 volatileByteLength
 (
 )
 const
 {
 return
-BufferSize
-(
 length_
-)
 ;
 }
 uint64_t
@@ -477,7 +470,7 @@ wasmGrowToSizeInPlace
 const
 Lock
 &
-BufferSize
+size_t
 newLength
 )
 ;
@@ -641,7 +634,7 @@ New
 JSContext
 *
 cx
-BufferSize
+size_t
 length
 HandleObject
 proto
@@ -660,7 +653,7 @@ cx
 SharedArrayRawBuffer
 *
 buffer
-BufferSize
+size_t
 length
 HandleObject
 proto
@@ -747,15 +740,13 @@ asValue
 )
 ;
 }
-BufferSize
+size_t
 byteLength
 (
 )
 const
 {
 return
-BufferSize
-(
 size_t
 (
 getFixedSlot
@@ -765,7 +756,6 @@ LENGTH_SLOT
 .
 toPrivate
 (
-)
 )
 )
 ;
@@ -819,7 +809,7 @@ cx
 SharedArrayRawBuffer
 *
 buffer
-BufferSize
+size_t
 initialSize
 )
 ;
@@ -882,7 +872,7 @@ acceptRawBuffer
 SharedArrayRawBuffer
 *
 buffer
-BufferSize
+size_t
 length
 )
 ;

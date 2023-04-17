@@ -12051,10 +12051,6 @@ arrayBuffer
 byteLength
 (
 )
-.
-get
-(
-)
 ;
 return
 arrayBuffer
@@ -12126,10 +12122,7 @@ ArrayBufferObject
 createForContents
 (
 cx
-BufferSize
-(
 length
-)
 contents
 )
 )
@@ -42045,7 +42038,7 @@ SharedArrayRawBuffer
 *
 buffer
 ;
-BufferSize
+size_t
 length
 ;
 }
@@ -42361,7 +42354,7 @@ sarb
 .
 buffer
 ;
-BufferSize
+size_t
 length
 =
 mbx
@@ -43712,13 +43705,10 @@ ArrayBufferObject
 createZeroed
 (
 cx
-BufferSize
-(
 bytes
 .
 length
 (
-)
 )
 )
 )

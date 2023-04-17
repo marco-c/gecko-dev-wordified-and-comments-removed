@@ -2131,10 +2131,6 @@ typedArray
 length
 (
 )
-.
-get
-(
-)
 =
 =
 length
@@ -15220,10 +15216,6 @@ TypedArrayObject
 )
 .
 length
-(
-)
-.
-get
 (
 )
 ;

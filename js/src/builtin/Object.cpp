@@ -7729,10 +7729,6 @@ tobj
 length
 (
 )
-.
-get
-(
-)
 ;
 if
 (

@@ -4021,10 +4021,6 @@ TypedArrayObject
 length
 (
 )
-.
-get
-(
-)
 )
 {
 propp

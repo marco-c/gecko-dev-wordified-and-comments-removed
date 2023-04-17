@@ -3772,10 +3772,6 @@ TypedArrayObject
 length
 (
 )
-.
-get
-(
-)
 >
 0
 )
@@ -20494,10 +20490,6 @@ TypedArrayObject
 )
 .
 byteLength
-(
-)
-.
-get
 (
 )
 ;

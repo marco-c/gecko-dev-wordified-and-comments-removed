@@ -9741,10 +9741,6 @@ TypedArrayObject
 length
 (
 )
-.
-get
-(
-)
 )
 ;
 if

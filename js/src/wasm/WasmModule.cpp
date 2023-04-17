@@ -2803,10 +2803,6 @@ memoryObj
 volatileMemoryLength
 (
 )
-.
-get
-(
-)
 ;
 uint8_t
 *
@@ -3625,10 +3621,6 @@ memory
 -
 >
 volatileMemoryLength
-(
-)
-.
-get
 (
 )
 )

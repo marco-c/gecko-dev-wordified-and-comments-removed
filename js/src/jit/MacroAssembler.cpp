@@ -4184,10 +4184,6 @@ templateObj
 length
 (
 )
-.
-get
-(
-)
 ;
 MOZ_ASSERT
 (

@@ -1088,10 +1088,6 @@ TypedArrayObject
 length
 (
 )
-.
-get
-(
-)
 ;
 static_assert
 (
