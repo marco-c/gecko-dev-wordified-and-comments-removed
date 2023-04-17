@@ -8,6 +8,13 @@ intl
 "
 src
 /
+Bidi
+.
+h
+"
+"
+src
+/
 Calendar
 .
 h
@@ -150,6 +157,13 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+src
+/
+Bidi
+.
+cpp
+"
 "
 src
 /
