@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+unnecessary_wraps
+)
+]
 mod
 drop
 ;
