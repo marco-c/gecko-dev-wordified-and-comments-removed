@@ -1376,6 +1376,13 @@ KintoHttpClient
 Utils
 .
 SERVER_URL
+{
+fetchFunc
+:
+Utils
+.
+fetch
+}
 )
 ;
 return
