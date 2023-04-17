@@ -356,7 +356,8 @@ DevicesInitialized
 )
 override
 ;
-bool
+gfxPlatformFontList
+*
 CreatePlatformFontList
 (
 )

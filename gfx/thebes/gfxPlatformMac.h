@@ -120,7 +120,8 @@ aFormat
 )
 override
 ;
-bool
+gfxPlatformFontList
+*
 CreatePlatformFontList
 (
 )

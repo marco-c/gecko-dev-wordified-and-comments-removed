@@ -96,7 +96,8 @@ return
 mOffscreenFormat
 ;
 }
-bool
+gfxPlatformFontList
+*
 CreatePlatformFontList
 (
 )

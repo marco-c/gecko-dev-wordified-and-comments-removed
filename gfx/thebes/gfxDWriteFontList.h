@@ -1376,12 +1376,7 @@ gfxDWriteFontList
 *
 >
 (
-gfxPlatformFontList
-:
-:
-PlatformFontList
-(
-)
+sPlatformFontList
 )
 ;
 }

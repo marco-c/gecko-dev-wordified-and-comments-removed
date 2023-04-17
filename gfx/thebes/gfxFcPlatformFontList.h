@@ -977,12 +977,7 @@ gfxFcPlatformFontList
 *
 >
 (
-gfxPlatformFontList
-:
-:
-PlatformFontList
-(
-)
+sPlatformFontList
 )
 ;
 }
