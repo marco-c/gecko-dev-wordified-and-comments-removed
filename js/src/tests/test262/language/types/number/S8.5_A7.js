@@ -18,7 +18,9 @@ number
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -69,7 +71,9 @@ number
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

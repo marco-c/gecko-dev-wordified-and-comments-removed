@@ -12,7 +12,9 @@ parseFloat
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -60,7 +62,9 @@ x
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -110,7 +114,9 @@ parseFloat
 10
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -160,7 +166,9 @@ parseFloat
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -218,7 +226,9 @@ parseFloat
 01
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

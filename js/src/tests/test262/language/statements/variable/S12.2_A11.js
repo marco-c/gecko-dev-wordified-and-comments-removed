@@ -25,7 +25,9 @@ baloon
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -81,7 +83,9 @@ baloon
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

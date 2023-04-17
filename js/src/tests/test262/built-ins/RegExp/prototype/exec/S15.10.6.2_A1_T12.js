@@ -64,7 +64,9 @@ Array
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -122,7 +124,9 @@ __expected
 length
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -191,7 +195,9 @@ __expected
 index
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -260,7 +266,9 @@ __expected
 input
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -349,7 +357,9 @@ index
 ]
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

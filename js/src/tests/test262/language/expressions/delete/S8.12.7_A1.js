@@ -10,7 +10,9 @@ E
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -47,7 +49,9 @@ E
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

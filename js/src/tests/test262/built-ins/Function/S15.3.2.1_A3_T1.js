@@ -44,7 +44,9 @@ p
 body
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -70,7 +72,9 @@ e
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

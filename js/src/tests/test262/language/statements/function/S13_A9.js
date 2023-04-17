@@ -43,7 +43,9 @@ __func__INC
 6
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

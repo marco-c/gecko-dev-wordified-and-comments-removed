@@ -12,7 +12,9 @@ getMonth
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ getMonth
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

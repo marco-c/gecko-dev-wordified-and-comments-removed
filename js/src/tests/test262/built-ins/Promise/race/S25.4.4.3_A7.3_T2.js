@@ -51,7 +51,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Should
@@ -80,7 +82,9 @@ arg
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

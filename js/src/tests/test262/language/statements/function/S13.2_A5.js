@@ -20,7 +20,9 @@ __func
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -62,7 +64,9 @@ __gunc
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

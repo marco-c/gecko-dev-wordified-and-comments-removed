@@ -22,7 +22,9 @@ err
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -61,7 +63,9 @@ constructor
 Error
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -113,7 +117,9 @@ err
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -199,7 +205,9 @@ toString
 to_string_result
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -276,7 +284,9 @@ toString
 to_string_result
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

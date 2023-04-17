@@ -26,7 +26,9 @@ arguments
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -69,7 +71,9 @@ A
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -107,7 +111,9 @@ __func
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

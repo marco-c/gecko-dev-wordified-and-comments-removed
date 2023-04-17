@@ -7393,7 +7393,9 @@ catch
 unused
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Conforms

@@ -12,7 +12,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -57,7 +59,9 @@ Array
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

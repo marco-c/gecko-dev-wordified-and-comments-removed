@@ -20,7 +20,9 @@ return
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -90,7 +92,9 @@ return
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -165,7 +169,9 @@ return
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -240,7 +246,9 @@ if
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

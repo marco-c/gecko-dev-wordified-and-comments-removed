@@ -12,7 +12,9 @@ getDate
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ getDate
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

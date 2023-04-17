@@ -13,7 +13,9 @@ x
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -51,7 +53,9 @@ y
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -90,7 +94,9 @@ MyFunction
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -131,7 +137,9 @@ MyObject
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

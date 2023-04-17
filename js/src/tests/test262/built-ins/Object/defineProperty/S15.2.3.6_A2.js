@@ -52,7 +52,9 @@ foo
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Accessor

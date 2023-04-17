@@ -31,7 +31,9 @@ new
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -105,7 +107,9 @@ zoo
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

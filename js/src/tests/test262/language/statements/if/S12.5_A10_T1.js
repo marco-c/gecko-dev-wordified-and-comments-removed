@@ -15,7 +15,9 @@ return
 }
 else
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -19,7 +19,9 @@ toExponential
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -59,7 +61,9 @@ prototype
 toExponential
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

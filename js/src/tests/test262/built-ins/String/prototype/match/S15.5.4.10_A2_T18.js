@@ -48,7 +48,9 @@ __re
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -102,7 +104,9 @@ length
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -152,7 +156,9 @@ index
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -205,7 +211,9 @@ __num
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

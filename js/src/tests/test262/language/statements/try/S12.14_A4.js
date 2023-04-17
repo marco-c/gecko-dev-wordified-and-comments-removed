@@ -5,7 +5,9 @@ throw
 catchme
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -36,7 +38,9 @@ delete
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -63,7 +67,9 @@ catchme
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -99,7 +105,9 @@ throw
 catchme
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -129,7 +137,9 @@ try
 {
 e
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -39,7 +39,9 @@ foo
 )
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 "
 o

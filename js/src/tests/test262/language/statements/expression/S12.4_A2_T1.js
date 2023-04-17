@@ -31,7 +31,9 @@ __evaluated
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -80,7 +82,9 @@ __evaluated
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

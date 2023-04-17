@@ -3,7 +3,9 @@ try
 new
 1
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -37,7 +39,9 @@ TypeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -66,7 +70,9 @@ x
 new
 x
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -105,7 +111,9 @@ TypeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -141,7 +149,9 @@ x
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -182,7 +192,9 @@ TypeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -18,7 +18,9 @@ length
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -51,7 +53,9 @@ length
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

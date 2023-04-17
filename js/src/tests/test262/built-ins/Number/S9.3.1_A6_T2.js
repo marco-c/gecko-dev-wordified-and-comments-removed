@@ -39,7 +39,9 @@ Number
 POSITIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -85,7 +87,9 @@ nity
 10e10000
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -129,7 +133,9 @@ nity
 10E10000
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -178,7 +184,9 @@ Number
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

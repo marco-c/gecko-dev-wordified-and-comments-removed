@@ -57,7 +57,9 @@ printShape
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -100,7 +102,9 @@ printShape
 __CUBE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

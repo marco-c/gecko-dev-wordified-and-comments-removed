@@ -17,7 +17,9 @@ length
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -49,7 +51,9 @@ propertyIsEnumerable
 length
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -99,7 +99,9 @@ x1
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -141,7 +143,9 @@ a
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -187,7 +191,9 @@ value
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

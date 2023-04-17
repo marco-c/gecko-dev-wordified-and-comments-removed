@@ -21,7 +21,9 @@ object
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -74,7 +76,9 @@ flag
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

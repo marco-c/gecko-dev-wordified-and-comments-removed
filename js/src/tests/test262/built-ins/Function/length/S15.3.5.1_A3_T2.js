@@ -26,7 +26,9 @@ length
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -74,7 +76,9 @@ length
 flength
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -101,7 +105,9 @@ length
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -146,7 +152,9 @@ length
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

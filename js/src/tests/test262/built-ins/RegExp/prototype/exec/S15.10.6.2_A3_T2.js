@@ -1714,7 +1714,9 @@ __matched
 NEVERMORE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

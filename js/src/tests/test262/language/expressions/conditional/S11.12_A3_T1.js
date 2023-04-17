@@ -13,7 +13,9 @@ true
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -58,7 +60,9 @@ z
 z
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

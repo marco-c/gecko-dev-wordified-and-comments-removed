@@ -8,7 +8,9 @@ break
 "
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -55,7 +57,9 @@ SyntaxError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -125,7 +129,9 @@ break
 ;
 }
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -172,7 +178,9 @@ SyntaxError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

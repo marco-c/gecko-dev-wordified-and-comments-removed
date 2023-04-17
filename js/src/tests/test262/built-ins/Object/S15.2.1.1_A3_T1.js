@@ -19,7 +19,9 @@ constructor
 Number
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -61,7 +63,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -110,7 +114,9 @@ obj
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 3

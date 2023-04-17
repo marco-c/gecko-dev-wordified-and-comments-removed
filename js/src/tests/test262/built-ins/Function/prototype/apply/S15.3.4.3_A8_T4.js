@@ -19,7 +19,9 @@ p1
 apply
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -62,7 +64,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

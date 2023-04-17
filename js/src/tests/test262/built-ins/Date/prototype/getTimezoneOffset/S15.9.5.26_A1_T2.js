@@ -12,7 +12,9 @@ getTimezoneOffset
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ getTimezoneOffset
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

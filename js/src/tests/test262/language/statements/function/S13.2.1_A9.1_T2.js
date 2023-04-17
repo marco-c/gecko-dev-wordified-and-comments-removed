@@ -24,7 +24,9 @@ __func
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -61,7 +63,9 @@ if
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

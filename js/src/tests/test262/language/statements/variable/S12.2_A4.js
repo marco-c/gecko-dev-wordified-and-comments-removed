@@ -10,7 +10,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -49,7 +51,9 @@ __var
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

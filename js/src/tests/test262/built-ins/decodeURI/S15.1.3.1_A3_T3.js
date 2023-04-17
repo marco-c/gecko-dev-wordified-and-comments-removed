@@ -56,7 +56,9 @@ decodeURI
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -187,7 +189,9 @@ decodeURI
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

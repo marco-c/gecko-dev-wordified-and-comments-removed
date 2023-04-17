@@ -21,7 +21,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -71,7 +73,9 @@ constructor
 String
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -126,7 +130,9 @@ __str
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -18,7 +18,9 @@ string
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -78,7 +80,9 @@ string
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

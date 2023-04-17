@@ -16,7 +16,9 @@ parseFloat
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -71,7 +73,9 @@ parseFloat
 01
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -127,7 +131,9 @@ parseFloat
 022
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

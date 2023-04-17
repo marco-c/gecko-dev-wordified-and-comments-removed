@@ -26,7 +26,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -72,7 +74,9 @@ sputnik
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

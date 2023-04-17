@@ -16,7 +16,9 @@ xy
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -58,7 +60,9 @@ xx
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -100,7 +104,9 @@ y
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -141,7 +147,9 @@ aba
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -196,7 +204,9 @@ u0061
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -263,7 +273,9 @@ u0000b
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -311,7 +323,9 @@ aa
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

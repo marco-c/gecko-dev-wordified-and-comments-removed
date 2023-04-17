@@ -18,7 +18,9 @@ y
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -68,7 +70,9 @@ y
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

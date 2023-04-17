@@ -20,7 +20,9 @@ string
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -60,7 +62,9 @@ constructor
 String
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -96,7 +100,9 @@ object
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -128,7 +134,9 @@ n_obj
 str
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -161,7 +169,9 @@ n_obj
 str
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

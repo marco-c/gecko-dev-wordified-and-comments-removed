@@ -41,7 +41,9 @@ arr
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -111,7 +113,9 @@ arr
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -185,7 +189,9 @@ hasOwnProperty
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

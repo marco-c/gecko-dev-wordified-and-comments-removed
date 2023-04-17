@@ -60,7 +60,9 @@ wiki
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -170,7 +172,9 @@ wiki
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -312,7 +316,9 @@ wiki
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -5,7 +5,9 @@ if
 1
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -28,7 +30,9 @@ if
 true
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -53,7 +57,9 @@ if
 "
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -80,7 +86,9 @@ A
 "
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

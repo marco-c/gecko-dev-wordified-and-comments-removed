@@ -30,7 +30,9 @@ length
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -63,7 +65,9 @@ length
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -96,7 +100,9 @@ length
 5
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

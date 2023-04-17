@@ -56,7 +56,9 @@ Array
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -116,7 +118,9 @@ length
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -178,7 +182,9 @@ arr
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -242,7 +248,9 @@ arr
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -306,7 +314,9 @@ arr
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -370,7 +380,9 @@ arr
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

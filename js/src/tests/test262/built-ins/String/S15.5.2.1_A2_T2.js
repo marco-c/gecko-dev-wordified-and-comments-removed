@@ -24,7 +24,9 @@ __custom__prop
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -101,7 +103,9 @@ bor
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

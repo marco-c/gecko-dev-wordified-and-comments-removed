@@ -47,7 +47,9 @@ __str
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -23,7 +23,9 @@ object
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -96,7 +98,9 @@ object
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -179,7 +183,9 @@ object
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -264,7 +270,9 @@ object
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -339,7 +347,9 @@ object
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -412,7 +422,9 @@ object
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -497,7 +509,9 @@ object
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -583,7 +597,9 @@ object
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

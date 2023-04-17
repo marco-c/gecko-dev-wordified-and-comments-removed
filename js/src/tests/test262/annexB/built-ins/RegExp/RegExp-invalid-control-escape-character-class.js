@@ -167,7 +167,9 @@ arr
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 Character
 {
@@ -201,7 +203,9 @@ arr
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 Character
 {
@@ -238,7 +242,9 @@ arr
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 Character
 \
@@ -272,7 +278,9 @@ arr
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 Character
 c

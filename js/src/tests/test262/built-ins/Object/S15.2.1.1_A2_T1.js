@@ -15,7 +15,9 @@ boolean
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -49,7 +51,9 @@ constructor
 Boolean
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -80,7 +84,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -105,7 +111,9 @@ if
 obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -133,7 +141,9 @@ obj
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

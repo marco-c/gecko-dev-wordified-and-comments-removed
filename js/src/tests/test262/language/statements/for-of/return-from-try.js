@@ -7,7 +7,9 @@ values
 yield
 1
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -61,7 +63,9 @@ i
 return
 34
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -83,7 +87,9 @@ catch
 err
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -100,7 +106,9 @@ block
 )
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -117,7 +125,9 @@ statement
 )
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This

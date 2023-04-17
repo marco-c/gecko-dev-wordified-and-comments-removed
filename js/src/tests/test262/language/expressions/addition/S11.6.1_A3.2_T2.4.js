@@ -13,7 +13,9 @@ null
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -60,7 +62,9 @@ null1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -111,7 +115,9 @@ null
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -170,7 +176,9 @@ null1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

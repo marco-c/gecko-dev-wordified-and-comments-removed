@@ -16,7 +16,9 @@ POSITIVE_INFINITY
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -56,7 +58,9 @@ NEGATIVE_INFINITY
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -97,7 +101,9 @@ NEGATIVE_INFINITY
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -138,7 +144,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -176,7 +184,9 @@ if
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

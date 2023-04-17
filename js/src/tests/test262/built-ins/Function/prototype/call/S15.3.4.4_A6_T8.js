@@ -61,7 +61,9 @@ shifted
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -42,7 +42,9 @@ decodeURIComponent
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -159,7 +161,9 @@ decodeURIComponent
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

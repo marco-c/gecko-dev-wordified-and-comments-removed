@@ -16,7 +16,9 @@ x
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -58,7 +60,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -100,7 +104,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -142,7 +148,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -186,7 +194,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -232,7 +242,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -278,7 +290,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

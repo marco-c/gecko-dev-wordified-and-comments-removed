@@ -82,7 +82,9 @@ i
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 (

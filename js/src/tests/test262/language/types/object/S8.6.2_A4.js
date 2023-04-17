@@ -14,7 +14,9 @@ Object
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -57,7 +59,9 @@ instanceof
 Function
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -100,7 +104,9 @@ instanceof
 String
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -143,7 +149,9 @@ instanceof
 Number
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -186,7 +194,9 @@ instanceof
 Array
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

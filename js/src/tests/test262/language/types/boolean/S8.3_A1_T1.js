@@ -7,7 +7,9 @@ x
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -45,7 +47,9 @@ x
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -75,7 +79,9 @@ y
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

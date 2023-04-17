@@ -25,7 +25,9 @@ exception
 1
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -85,7 +87,9 @@ exception
 1
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

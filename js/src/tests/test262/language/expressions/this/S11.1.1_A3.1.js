@@ -17,7 +17,9 @@ ReturnThis
 this
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -75,7 +77,9 @@ ReturnEvalThis
 this
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

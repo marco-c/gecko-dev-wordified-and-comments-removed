@@ -25,7 +25,9 @@ if
 (
 exception
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -64,7 +66,9 @@ if
 !
 exception
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

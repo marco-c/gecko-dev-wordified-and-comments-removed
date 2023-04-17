@@ -21,7 +21,9 @@ global
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -65,7 +67,9 @@ global
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -107,7 +111,9 @@ global
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

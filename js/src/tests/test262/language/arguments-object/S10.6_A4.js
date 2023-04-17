@@ -22,7 +22,9 @@ f1
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -45,7 +47,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -88,7 +92,9 @@ f2
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -111,7 +117,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

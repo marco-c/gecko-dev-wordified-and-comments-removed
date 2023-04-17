@@ -72,7 +72,9 @@ ru
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -167,7 +169,9 @@ ru
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -262,7 +266,9 @@ ru
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -357,7 +363,9 @@ ru
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

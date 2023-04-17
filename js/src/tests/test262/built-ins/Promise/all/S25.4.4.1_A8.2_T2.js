@@ -42,7 +42,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Did
@@ -71,7 +73,9 @@ rejected
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

@@ -39,7 +39,9 @@ constructor
 Array
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -97,7 +99,9 @@ length
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -156,7 +160,9 @@ shifted
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

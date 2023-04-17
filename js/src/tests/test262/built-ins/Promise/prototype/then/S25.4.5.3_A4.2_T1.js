@@ -38,7 +38,9 @@ arg
 obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

@@ -37,7 +37,9 @@ __in__do__before__break
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -73,7 +75,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -111,7 +115,9 @@ __evaluated
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

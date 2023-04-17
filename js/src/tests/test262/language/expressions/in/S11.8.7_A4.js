@@ -28,7 +28,9 @@ in
 object
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -92,7 +94,9 @@ in
 object
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -153,7 +157,9 @@ in
 object
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -217,7 +223,9 @@ in
 object
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

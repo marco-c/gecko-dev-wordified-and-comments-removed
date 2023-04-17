@@ -35,7 +35,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -90,7 +92,9 @@ __z
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -168,7 +172,9 @@ smeagol
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

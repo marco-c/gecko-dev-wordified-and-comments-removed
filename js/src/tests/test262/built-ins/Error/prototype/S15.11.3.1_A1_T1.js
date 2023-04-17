@@ -29,7 +29,9 @@ prototype
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -80,7 +82,9 @@ prototype
 proto
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

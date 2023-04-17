@@ -10,7 +10,7 @@ SharedArrayBuffer
 }
 )
 .
-resizable
+growable
 false
 )
 ;
@@ -29,7 +29,7 @@ undefined
 }
 )
 .
-resizable
+growable
 false
 )
 ;

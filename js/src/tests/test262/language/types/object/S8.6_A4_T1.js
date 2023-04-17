@@ -40,7 +40,9 @@ count
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -138,7 +140,9 @@ count
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -247,7 +251,9 @@ count
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

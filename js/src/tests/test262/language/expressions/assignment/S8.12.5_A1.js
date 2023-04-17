@@ -47,7 +47,9 @@ one
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -126,7 +128,9 @@ two
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -209,7 +213,9 @@ tre
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

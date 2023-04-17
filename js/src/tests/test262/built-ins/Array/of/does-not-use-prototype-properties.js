@@ -16,7 +16,9 @@ function
 v
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Should
@@ -75,7 +77,9 @@ function
 v
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Should

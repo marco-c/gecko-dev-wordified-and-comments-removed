@@ -2,7 +2,9 @@ try
 {
 y
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -36,7 +38,9 @@ try
 {
 someValue
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -77,7 +81,9 @@ c2
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -111,7 +117,9 @@ x3
 =
 someValue
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -158,7 +166,9 @@ x3
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -186,7 +196,9 @@ c3
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

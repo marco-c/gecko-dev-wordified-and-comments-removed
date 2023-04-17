@@ -25,7 +25,9 @@ x
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -85,7 +87,9 @@ x
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -145,7 +149,9 @@ x
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

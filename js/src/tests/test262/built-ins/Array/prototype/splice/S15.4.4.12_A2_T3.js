@@ -74,7 +74,9 @@ Array
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -152,7 +154,9 @@ length
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -231,7 +235,9 @@ length
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -311,7 +317,9 @@ obj
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -393,7 +401,9 @@ obj
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -475,7 +485,9 @@ obj
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -557,7 +569,9 @@ obj
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -639,7 +653,9 @@ obj
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

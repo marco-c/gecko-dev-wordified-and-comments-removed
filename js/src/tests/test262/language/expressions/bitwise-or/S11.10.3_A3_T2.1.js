@@ -11,7 +11,9 @@ true
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -54,7 +56,9 @@ true
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -101,7 +105,9 @@ true
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -156,7 +162,9 @@ true
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -211,7 +219,9 @@ Number
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -266,7 +276,9 @@ true
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -325,7 +337,9 @@ Number
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -392,7 +406,9 @@ true
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -9,7 +9,7 @@ SharedArrayBuffer
 null
 )
 .
-resizable
+growable
 false
 '
 null
@@ -27,7 +27,7 @@ SharedArrayBuffer
 true
 )
 .
-resizable
+growable
 false
 '
 boolean
@@ -48,7 +48,7 @@ Symbol
 )
 )
 .
-resizable
+growable
 false
 '
 symbol
@@ -66,7 +66,7 @@ SharedArrayBuffer
 1n
 )
 .
-resizable
+growable
 false
 '
 bigint
@@ -86,7 +86,7 @@ string
 '
 )
 .
-resizable
+growable
 false
 '
 string
@@ -104,7 +104,7 @@ SharedArrayBuffer
 9
 )
 .
-resizable
+growable
 false
 '
 number
@@ -122,7 +122,7 @@ SharedArrayBuffer
 undefined
 )
 .
-resizable
+growable
 false
 '
 undefined

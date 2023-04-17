@@ -15,7 +15,9 @@ propFoo
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -61,7 +63,9 @@ propFoo
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -15,7 +15,9 @@ constructor
 Object
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -64,7 +66,9 @@ constructor
 Number
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -12,7 +12,9 @@ u2029
 .
 source
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -66,7 +68,9 @@ SyntaxError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

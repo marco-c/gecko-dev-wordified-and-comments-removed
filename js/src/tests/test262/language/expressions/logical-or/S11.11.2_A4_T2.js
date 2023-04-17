@@ -14,7 +14,9 @@ if
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -54,7 +56,9 @@ Number
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -94,7 +98,9 @@ NaN
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -144,7 +150,9 @@ Number
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -207,7 +215,9 @@ Number
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -268,7 +278,9 @@ NaN
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

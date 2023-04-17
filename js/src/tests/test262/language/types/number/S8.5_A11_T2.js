@@ -24,7 +24,9 @@ n_zero
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -64,7 +66,9 @@ n_zero
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -105,7 +109,9 @@ p_zero
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -147,7 +153,9 @@ p_zero
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -190,7 +198,9 @@ n_zero
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

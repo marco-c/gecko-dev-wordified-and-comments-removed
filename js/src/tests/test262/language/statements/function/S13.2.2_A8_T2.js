@@ -76,7 +76,9 @@ first
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -117,7 +119,9 @@ prop
 __SCND
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -163,7 +167,9 @@ SAMBA
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

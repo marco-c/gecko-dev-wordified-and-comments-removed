@@ -38,7 +38,9 @@ touched
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

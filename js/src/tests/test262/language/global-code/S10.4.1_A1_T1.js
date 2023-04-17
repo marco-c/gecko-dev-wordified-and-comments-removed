@@ -14,7 +14,9 @@ x
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -44,7 +46,9 @@ x
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

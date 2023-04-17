@@ -34,7 +34,9 @@ __obj
 0x65
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -14,7 +14,9 @@ Number
 POSITIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -50,7 +52,9 @@ Infinity
 10e10000
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -84,7 +88,9 @@ Infinity
 10E10000
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -123,7 +129,9 @@ Number
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

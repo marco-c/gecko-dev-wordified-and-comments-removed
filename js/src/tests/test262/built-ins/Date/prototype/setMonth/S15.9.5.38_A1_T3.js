@@ -12,7 +12,9 @@ setMonth
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -54,7 +56,9 @@ setMonth
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

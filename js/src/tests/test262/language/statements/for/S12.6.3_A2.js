@@ -56,7 +56,9 @@ reached
 "
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -100,7 +102,9 @@ NoInExpression
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -135,7 +139,9 @@ in_for
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

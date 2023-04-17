@@ -12,7 +12,9 @@ decodeURIComponent
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -52,7 +54,9 @@ ru
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -146,7 +150,9 @@ liveandwork
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -234,7 +240,9 @@ Description
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -10,7 +10,9 @@ Number
 13
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -52,7 +54,9 @@ Number
 13
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -99,7 +103,9 @@ Number
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -151,7 +157,9 @@ Number
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

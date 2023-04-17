@@ -33,7 +33,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -87,7 +89,9 @@ __monster
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -117,7 +121,9 @@ type
 __MONSTER
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

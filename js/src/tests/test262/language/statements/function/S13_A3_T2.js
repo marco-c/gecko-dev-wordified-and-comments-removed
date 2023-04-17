@@ -51,7 +51,9 @@ fact_of_3
 6
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

@@ -19,7 +19,9 @@ test
 ;
 try
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -91,7 +93,9 @@ true
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -11,7 +11,9 @@ if
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -58,7 +60,9 @@ Number
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -113,7 +117,9 @@ Number
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -172,7 +178,9 @@ Number
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

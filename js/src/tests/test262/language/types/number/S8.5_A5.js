@@ -75,7 +75,9 @@ if
 x_geq_0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -96,7 +98,9 @@ if
 x_leq_0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -117,7 +121,9 @@ if
 x_leq_0_OR_geq_0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -143,7 +149,9 @@ if
 x_geq_0_ADD_leq_0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

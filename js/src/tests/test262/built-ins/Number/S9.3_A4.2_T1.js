@@ -26,7 +26,9 @@ Number
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -77,7 +79,9 @@ Number
 POSITIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -119,7 +123,9 @@ Number
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -170,7 +176,9 @@ Number
 NEGATIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -214,7 +222,9 @@ Number
 POSITIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -261,7 +271,9 @@ Number
 NEGATIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -308,7 +320,9 @@ Number
 MAX_VALUE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -358,7 +372,9 @@ Number
 MIN_VALUE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

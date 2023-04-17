@@ -36,7 +36,9 @@ __func
 THE_ANSWER
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -73,7 +75,9 @@ Question
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

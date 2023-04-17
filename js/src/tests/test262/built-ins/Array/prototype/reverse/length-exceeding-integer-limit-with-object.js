@@ -29,7 +29,9 @@ get
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Get
@@ -45,7 +47,9 @@ get
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Get

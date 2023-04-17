@@ -18,7 +18,9 @@ p_inf
 inf
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

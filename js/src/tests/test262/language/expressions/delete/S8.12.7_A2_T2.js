@@ -36,7 +36,9 @@ red
 0xff0000
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -97,7 +99,9 @@ red
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -158,7 +162,9 @@ red
 0xff0000
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

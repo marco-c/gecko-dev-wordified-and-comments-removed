@@ -26,7 +26,9 @@ A
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -89,7 +91,9 @@ __func
 5
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

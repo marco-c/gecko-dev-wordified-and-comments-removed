@@ -59,7 +59,9 @@ valueOf
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -110,7 +112,9 @@ typeof
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -158,7 +162,9 @@ constructor
 prototype
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -207,7 +213,9 @@ y
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

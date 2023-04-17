@@ -19,7 +19,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -65,7 +67,9 @@ Object
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -106,7 +110,9 @@ prototype
 toString
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -157,7 +163,9 @@ object
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -198,7 +206,9 @@ object
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

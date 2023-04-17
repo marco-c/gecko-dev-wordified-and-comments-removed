@@ -52,7 +52,9 @@ d
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -196,7 +198,9 @@ d
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -339,7 +343,9 @@ void
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -479,7 +485,9 @@ length
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -616,7 +624,9 @@ index
 14
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -753,7 +763,9 @@ input
 __string
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

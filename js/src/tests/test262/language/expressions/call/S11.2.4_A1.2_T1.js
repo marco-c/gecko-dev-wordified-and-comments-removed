@@ -25,7 +25,9 @@ length
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -90,7 +92,9 @@ f_arg
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -157,7 +161,9 @@ f_arg
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -224,7 +230,9 @@ f_arg
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -291,7 +299,9 @@ f_arg
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

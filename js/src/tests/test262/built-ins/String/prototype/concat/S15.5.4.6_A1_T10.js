@@ -83,7 +83,9 @@ legoA
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -177,7 +179,9 @@ legoAtrue42undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

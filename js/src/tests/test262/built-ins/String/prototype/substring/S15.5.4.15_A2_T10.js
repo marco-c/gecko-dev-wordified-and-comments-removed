@@ -27,7 +27,9 @@ this_is_
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

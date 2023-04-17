@@ -11,7 +11,9 @@ if
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ return
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

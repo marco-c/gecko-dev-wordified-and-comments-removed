@@ -31,7 +31,9 @@ __reg
 9
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

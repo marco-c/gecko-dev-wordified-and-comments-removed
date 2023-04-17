@@ -18,7 +18,9 @@ f1
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -55,7 +57,9 @@ f2
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -16,7 +16,9 @@ if
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -62,7 +64,9 @@ String
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

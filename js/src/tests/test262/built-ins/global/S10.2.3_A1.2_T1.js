@@ -12,7 +12,9 @@ NaN
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -36,7 +38,9 @@ Infinity
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -60,7 +64,9 @@ undefined
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

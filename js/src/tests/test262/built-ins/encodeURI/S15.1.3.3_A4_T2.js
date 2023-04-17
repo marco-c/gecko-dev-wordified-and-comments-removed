@@ -131,7 +131,9 @@ toLowerCase
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -338,7 +340,9 @@ toLowerCase
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -608,7 +612,9 @@ toLowerCase
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -21,7 +21,9 @@ hole
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -70,7 +72,9 @@ notexist
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -120,7 +124,9 @@ __obj
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -158,7 +164,9 @@ __obj
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

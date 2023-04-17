@@ -63,7 +63,9 @@ x
 10
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

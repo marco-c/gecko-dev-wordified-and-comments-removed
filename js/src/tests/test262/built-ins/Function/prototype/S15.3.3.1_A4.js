@@ -41,7 +41,9 @@ prototype
 value
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 A

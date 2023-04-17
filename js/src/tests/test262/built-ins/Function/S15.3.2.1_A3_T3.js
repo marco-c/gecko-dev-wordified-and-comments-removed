@@ -50,7 +50,9 @@ p
 body
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -78,7 +80,9 @@ body
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -124,7 +128,9 @@ p
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

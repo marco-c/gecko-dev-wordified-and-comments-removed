@@ -80,7 +80,9 @@ e
 ex
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

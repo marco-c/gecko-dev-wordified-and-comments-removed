@@ -33,7 +33,9 @@ pow
 307
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -142,7 +144,9 @@ pow
 308
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -257,7 +261,9 @@ pow
 307
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

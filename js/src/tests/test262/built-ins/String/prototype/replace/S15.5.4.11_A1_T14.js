@@ -36,7 +36,9 @@ u0031BBAA
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

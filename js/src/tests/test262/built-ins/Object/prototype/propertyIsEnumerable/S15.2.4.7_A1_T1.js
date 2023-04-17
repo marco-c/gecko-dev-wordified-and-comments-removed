@@ -14,7 +14,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -83,7 +85,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -112,7 +116,9 @@ name
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -138,7 +144,9 @@ rootprop
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

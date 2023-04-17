@@ -26,7 +26,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -74,7 +76,9 @@ toStr
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

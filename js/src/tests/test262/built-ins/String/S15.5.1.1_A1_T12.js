@@ -22,7 +22,9 @@ string
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -73,7 +75,9 @@ NaN
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -133,7 +137,9 @@ string
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -184,7 +190,9 @@ NaN
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -242,7 +250,9 @@ string
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -291,7 +301,9 @@ NaN
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

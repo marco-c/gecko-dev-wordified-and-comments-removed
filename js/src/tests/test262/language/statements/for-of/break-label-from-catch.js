@@ -7,7 +7,9 @@ values
 yield
 1
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -72,7 +74,9 @@ i
 break
 outer
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -89,7 +93,9 @@ statement
 )
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -106,7 +112,9 @@ statement
 )
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This

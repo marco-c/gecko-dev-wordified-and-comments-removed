@@ -8,7 +8,9 @@ true
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -37,7 +39,9 @@ true
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -71,7 +75,9 @@ x
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -110,7 +116,9 @@ x
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -160,7 +168,9 @@ prop
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

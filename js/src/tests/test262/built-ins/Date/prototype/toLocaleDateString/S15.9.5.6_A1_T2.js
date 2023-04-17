@@ -12,7 +12,9 @@ toLocaleDateString
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ toLocaleDateString
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

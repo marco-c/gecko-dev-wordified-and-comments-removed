@@ -49,7 +49,9 @@ Array
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -103,7 +105,9 @@ arr
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -160,7 +164,9 @@ arr
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -216,7 +222,9 @@ length
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -268,7 +276,9 @@ arr
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

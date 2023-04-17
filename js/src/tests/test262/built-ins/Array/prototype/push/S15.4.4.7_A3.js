@@ -28,7 +28,9 @@ push
 4294967295
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -76,7 +78,9 @@ x
 "
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -134,7 +138,9 @@ RangeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -189,7 +195,9 @@ x
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -259,7 +267,9 @@ length
 4294967295
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

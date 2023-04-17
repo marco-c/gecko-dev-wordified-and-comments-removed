@@ -38,7 +38,9 @@ constructor
 RegExp
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -110,7 +112,9 @@ c
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

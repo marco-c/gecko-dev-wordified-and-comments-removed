@@ -30,7 +30,9 @@ i
 =
 0
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -82,7 +84,9 @@ i
 =
 3
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

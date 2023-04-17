@@ -27,7 +27,9 @@ p_zero
 n_zero
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

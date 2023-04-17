@@ -9,7 +9,9 @@ undefined
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ void
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -88,7 +92,9 @@ null
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

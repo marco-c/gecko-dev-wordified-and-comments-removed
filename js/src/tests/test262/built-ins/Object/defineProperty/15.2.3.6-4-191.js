@@ -54,7 +54,9 @@ hasOwnProperty
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -98,7 +100,9 @@ prototype
 11
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -140,7 +144,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

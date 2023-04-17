@@ -145,7 +145,7 @@ resize
 (
 BPE
 *
-3
+2
 )
 ;
 expectedError

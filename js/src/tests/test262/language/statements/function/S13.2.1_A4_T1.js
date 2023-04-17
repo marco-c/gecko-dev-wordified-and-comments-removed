@@ -33,7 +33,9 @@ foo
 7
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

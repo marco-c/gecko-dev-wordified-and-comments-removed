@@ -38,7 +38,9 @@ p
 body
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -76,7 +78,9 @@ SyntaxError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

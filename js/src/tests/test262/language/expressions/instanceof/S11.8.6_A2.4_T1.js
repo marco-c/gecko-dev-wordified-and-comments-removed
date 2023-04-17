@@ -20,7 +20,9 @@ OBJECT
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -70,7 +72,9 @@ Object
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

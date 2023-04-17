@@ -39,7 +39,9 @@ Promise
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -68,7 +70,9 @@ Array
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -101,7 +105,9 @@ length
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -141,7 +147,9 @@ result
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

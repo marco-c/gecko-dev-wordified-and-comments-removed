@@ -12,7 +12,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -45,7 +47,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -77,7 +81,9 @@ length
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -14,7 +14,9 @@ isNaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -64,7 +66,9 @@ isNaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -114,7 +118,9 @@ isNaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -164,7 +170,9 @@ isNaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -28,7 +28,9 @@ __map
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

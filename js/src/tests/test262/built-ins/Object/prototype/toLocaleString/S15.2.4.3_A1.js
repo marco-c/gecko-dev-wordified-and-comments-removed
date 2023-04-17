@@ -14,7 +14,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ toString
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -87,7 +91,9 @@ toString
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

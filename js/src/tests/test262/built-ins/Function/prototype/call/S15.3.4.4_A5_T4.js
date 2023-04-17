@@ -38,7 +38,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -82,7 +84,9 @@ touched
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

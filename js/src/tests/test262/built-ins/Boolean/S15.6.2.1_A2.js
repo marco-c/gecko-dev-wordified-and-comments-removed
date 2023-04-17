@@ -23,7 +23,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -67,7 +69,9 @@ x2
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -109,7 +113,9 @@ constructor
 prototype
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

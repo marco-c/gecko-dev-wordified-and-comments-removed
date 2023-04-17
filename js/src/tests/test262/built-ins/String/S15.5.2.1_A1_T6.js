@@ -19,7 +19,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -67,7 +69,9 @@ constructor
 String
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -118,7 +122,9 @@ false
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

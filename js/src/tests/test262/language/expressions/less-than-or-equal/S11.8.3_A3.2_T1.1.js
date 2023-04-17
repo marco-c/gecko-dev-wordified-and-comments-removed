@@ -14,7 +14,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -56,7 +58,9 @@ String
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -102,7 +106,9 @@ String
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -152,7 +158,9 @@ String
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -198,7 +206,9 @@ x
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -236,7 +246,9 @@ x
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

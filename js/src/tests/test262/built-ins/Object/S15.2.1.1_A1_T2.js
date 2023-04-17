@@ -34,7 +34,9 @@ toString
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -56,7 +58,9 @@ n__obj
 constructor
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -78,7 +82,9 @@ n__obj
 prototype
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -104,7 +110,9 @@ toLocaleString
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -124,7 +132,9 @@ typeof
 n__obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

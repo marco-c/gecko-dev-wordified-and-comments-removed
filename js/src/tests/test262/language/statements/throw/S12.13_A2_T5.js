@@ -17,7 +17,9 @@ e
 =
 13
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -65,7 +67,9 @@ e
 =
 13
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -112,7 +116,9 @@ e
 .
 13
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -184,7 +190,9 @@ e
 +
 Infinity
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -230,7 +238,9 @@ e
 -
 Infinity
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -276,7 +286,9 @@ e
 +
 0
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -322,7 +334,9 @@ e
 -
 0
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

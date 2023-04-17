@@ -11,7 +11,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -76,7 +78,9 @@ x1
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -113,7 +117,9 @@ c1
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -159,7 +165,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -213,7 +221,9 @@ x2
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -250,7 +260,9 @@ c2
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

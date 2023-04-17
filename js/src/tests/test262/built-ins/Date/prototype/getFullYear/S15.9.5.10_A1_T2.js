@@ -12,7 +12,9 @@ getFullYear
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ getFullYear
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

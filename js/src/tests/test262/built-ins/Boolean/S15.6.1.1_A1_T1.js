@@ -12,7 +12,9 @@ boolean
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -58,7 +60,9 @@ boolean
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -112,7 +116,9 @@ boolean
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -176,7 +182,9 @@ boolean
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

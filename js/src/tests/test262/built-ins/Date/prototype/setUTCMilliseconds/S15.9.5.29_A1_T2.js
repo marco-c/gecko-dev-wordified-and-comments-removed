@@ -12,7 +12,9 @@ setUTCMilliseconds
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ setUTCMilliseconds
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

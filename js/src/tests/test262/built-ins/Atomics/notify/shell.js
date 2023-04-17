@@ -298,7 +298,9 @@ catch
 error
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 {
 Constructor

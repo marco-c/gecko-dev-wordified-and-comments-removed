@@ -46,7 +46,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Promise
@@ -81,7 +83,9 @@ Error
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected

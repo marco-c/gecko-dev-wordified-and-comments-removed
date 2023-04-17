@@ -54,7 +54,9 @@ callee
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -91,7 +93,9 @@ a
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -134,7 +138,9 @@ callee
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -174,7 +180,9 @@ b
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

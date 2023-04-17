@@ -25,7 +25,9 @@ p1
 p2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

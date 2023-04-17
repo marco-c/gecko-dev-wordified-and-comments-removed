@@ -17,7 +17,9 @@ MAX_VALUE
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -47,7 +49,9 @@ MAX_VALUE
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

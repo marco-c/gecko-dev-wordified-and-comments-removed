@@ -47,7 +47,9 @@ beyba
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

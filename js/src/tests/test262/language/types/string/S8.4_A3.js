@@ -16,7 +16,9 @@ length
 8
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

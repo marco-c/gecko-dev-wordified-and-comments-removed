@@ -12,7 +12,9 @@ valueOf
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ valueOf
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

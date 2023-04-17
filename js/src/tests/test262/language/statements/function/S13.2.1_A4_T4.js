@@ -42,7 +42,9 @@ E
 74
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -44,7 +44,9 @@ p1
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -72,7 +74,9 @@ p1
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -113,7 +117,9 @@ del
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -156,7 +162,9 @@ a
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -36,7 +36,9 @@ object
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -129,7 +131,9 @@ object
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

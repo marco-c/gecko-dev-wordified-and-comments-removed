@@ -57,7 +57,9 @@ floatValues
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Value
@@ -88,7 +90,9 @@ floatValues
 324
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Min
@@ -134,7 +138,9 @@ index
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 2
@@ -175,7 +181,9 @@ index
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Value
@@ -207,7 +215,9 @@ Infinity
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Max
@@ -244,7 +254,9 @@ Infinity
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 1

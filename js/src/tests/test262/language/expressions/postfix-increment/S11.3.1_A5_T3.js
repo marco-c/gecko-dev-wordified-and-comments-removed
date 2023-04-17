@@ -54,7 +54,9 @@ x
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -91,7 +93,9 @@ x
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

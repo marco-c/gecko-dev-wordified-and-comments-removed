@@ -33,7 +33,9 @@ __func
 (
 CATCH_ME_IF_YOU_CAN
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -65,7 +67,9 @@ if
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

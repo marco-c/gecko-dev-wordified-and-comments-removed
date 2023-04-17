@@ -27,7 +27,9 @@ __in__do
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -60,7 +62,9 @@ __evaluated
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

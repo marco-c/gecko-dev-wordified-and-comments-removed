@@ -54,7 +54,9 @@ __ROBOT
 __ROBOT
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

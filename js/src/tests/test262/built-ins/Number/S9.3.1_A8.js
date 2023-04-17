@@ -19,7 +19,9 @@ Number
 1e5
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -69,7 +71,9 @@ e5
 1e5
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

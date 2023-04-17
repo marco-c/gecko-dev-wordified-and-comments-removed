@@ -3,7 +3,9 @@ try
 new
 this
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -35,7 +37,9 @@ TypeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -57,7 +61,9 @@ this
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -91,7 +97,9 @@ TypeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

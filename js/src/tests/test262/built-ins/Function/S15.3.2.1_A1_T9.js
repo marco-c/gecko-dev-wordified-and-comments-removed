@@ -24,7 +24,9 @@ Function
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -73,7 +75,9 @@ A
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

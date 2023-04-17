@@ -19,7 +19,9 @@ toPrecision
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -59,7 +61,9 @@ prototype
 toPrecision
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

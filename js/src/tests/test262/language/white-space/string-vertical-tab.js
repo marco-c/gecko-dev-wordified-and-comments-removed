@@ -26,7 +26,9 @@ u000B
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -96,7 +98,9 @@ v
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

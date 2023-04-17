@@ -19,7 +19,9 @@ WORLD
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -85,7 +87,9 @@ WORLD
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -155,7 +159,9 @@ WORLD
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

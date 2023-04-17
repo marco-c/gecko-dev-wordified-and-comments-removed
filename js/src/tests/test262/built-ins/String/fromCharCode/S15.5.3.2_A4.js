@@ -24,7 +24,9 @@ __fcc__func
 65
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

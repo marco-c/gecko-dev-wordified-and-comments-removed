@@ -29,7 +29,9 @@ function
 assert
 (
 typeof
-ERROR
+Test262Error
+.
+thrower
 =
 =
 =

@@ -37,7 +37,9 @@ Date
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -92,7 +94,9 @@ Date
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -147,7 +151,9 @@ Date
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -202,7 +208,9 @@ Date
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -257,7 +265,9 @@ Date
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -312,7 +322,9 @@ Date
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -367,7 +379,9 @@ Date
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -422,7 +436,9 @@ Date
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

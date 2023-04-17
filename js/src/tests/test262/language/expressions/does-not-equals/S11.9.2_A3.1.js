@@ -12,7 +12,9 @@ true
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -46,7 +48,9 @@ false
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -80,7 +84,9 @@ false
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -114,7 +120,9 @@ true
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

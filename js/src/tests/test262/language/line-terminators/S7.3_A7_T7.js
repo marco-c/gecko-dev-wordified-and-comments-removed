@@ -25,7 +25,9 @@ x
 16
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -101,7 +103,9 @@ x
 16
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -193,7 +197,9 @@ result
 16
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -301,7 +307,9 @@ result
 16
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

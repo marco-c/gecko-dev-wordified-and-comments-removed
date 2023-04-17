@@ -13,7 +13,9 @@ source
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -41,7 +43,9 @@ a
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -69,7 +73,9 @@ source
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -95,7 +101,9 @@ source
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -125,7 +133,9 @@ u0041
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

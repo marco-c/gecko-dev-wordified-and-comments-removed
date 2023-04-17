@@ -12,7 +12,9 @@ Number
 14
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -58,7 +60,9 @@ Number
 14
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -104,7 +108,9 @@ Number
 14
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -150,7 +156,9 @@ if
 14
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

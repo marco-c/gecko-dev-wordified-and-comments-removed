@@ -24,7 +24,9 @@ toString
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -92,7 +94,9 @@ f2
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -177,7 +181,9 @@ f3
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -278,7 +284,9 @@ f4
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

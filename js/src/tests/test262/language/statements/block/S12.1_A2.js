@@ -23,7 +23,9 @@ throw
 catchme
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -57,7 +59,9 @@ catchme
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

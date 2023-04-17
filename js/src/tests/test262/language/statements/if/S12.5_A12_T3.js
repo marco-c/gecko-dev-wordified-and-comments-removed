@@ -6,7 +6,9 @@ if
 (
 false
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -42,7 +44,9 @@ true
 )
 ;
 else
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -74,7 +78,9 @@ if
 (
 true
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -99,7 +105,9 @@ branches
 )
 ;
 else
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -131,7 +139,9 @@ if
 (
 true
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -156,7 +166,9 @@ branches
 )
 ;
 else
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

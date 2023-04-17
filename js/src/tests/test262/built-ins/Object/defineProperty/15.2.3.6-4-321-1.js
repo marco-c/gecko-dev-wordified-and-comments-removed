@@ -77,7 +77,9 @@ overideGenericPropertyString
 }
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -102,7 +104,9 @@ a
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -166,7 +170,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

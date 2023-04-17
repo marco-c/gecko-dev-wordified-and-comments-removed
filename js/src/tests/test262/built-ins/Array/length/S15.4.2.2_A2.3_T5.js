@@ -28,7 +28,9 @@ length
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -85,7 +87,9 @@ x
 obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -161,7 +165,9 @@ length
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -217,7 +223,9 @@ x
 obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -292,7 +300,9 @@ length
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -348,7 +358,9 @@ x
 obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

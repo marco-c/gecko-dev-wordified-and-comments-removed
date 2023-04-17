@@ -35,7 +35,9 @@ uno
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -109,7 +111,9 @@ _map
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -196,7 +200,9 @@ two
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -294,7 +300,9 @@ duo
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

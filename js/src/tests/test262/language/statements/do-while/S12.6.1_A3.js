@@ -28,7 +28,9 @@ __in__do
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -61,7 +63,9 @@ __evaluated
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

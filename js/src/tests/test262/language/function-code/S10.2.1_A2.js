@@ -25,7 +25,9 @@ f1
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -77,7 +79,9 @@ f2
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 f2
@@ -127,7 +131,9 @@ a2
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

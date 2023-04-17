@@ -12,7 +12,9 @@ toUTCString
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ toUTCString
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

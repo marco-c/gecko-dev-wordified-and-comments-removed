@@ -24,7 +24,9 @@ Function
 body
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -73,7 +75,9 @@ e
 7
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

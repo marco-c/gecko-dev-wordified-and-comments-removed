@@ -21,7 +21,9 @@ __proto
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -85,7 +87,9 @@ __my__robin
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -149,7 +153,9 @@ phylum
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

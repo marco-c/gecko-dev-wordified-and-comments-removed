@@ -9,7 +9,9 @@ x
 ;
 x
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -46,7 +48,9 @@ ReferenceError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -17,7 +17,9 @@ Number
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -77,7 +79,9 @@ if
 4294967295
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

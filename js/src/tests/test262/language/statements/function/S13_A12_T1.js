@@ -21,7 +21,9 @@ delete
 __func
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -46,7 +48,9 @@ __func
 ALIVE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -48,7 +48,9 @@ __evaluated
 __str
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -145,7 +147,9 @@ indexOf
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

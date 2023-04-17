@@ -29,7 +29,9 @@ sort
 (
 myComparefn
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -64,7 +66,9 @@ error
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

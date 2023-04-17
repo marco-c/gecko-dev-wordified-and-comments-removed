@@ -30,7 +30,9 @@ ru
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -116,7 +118,9 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -194,7 +198,9 @@ abcdefghijklmnopqrstuvwxyz
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

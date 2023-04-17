@@ -12,7 +12,9 @@ false
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -46,7 +48,9 @@ true
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -89,7 +93,9 @@ true
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -140,7 +146,9 @@ y
 y
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -200,7 +208,9 @@ y
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -266,7 +276,9 @@ y
 y
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -350,7 +362,9 @@ objecty
 prop
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -454,7 +468,9 @@ objectx
 prop
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

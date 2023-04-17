@@ -7,7 +7,9 @@ if
 10
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -31,7 +33,9 @@ if
 11
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -55,7 +59,9 @@ if
 12
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -79,7 +85,9 @@ if
 13
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -103,7 +111,9 @@ if
 14
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -127,7 +137,9 @@ if
 15
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

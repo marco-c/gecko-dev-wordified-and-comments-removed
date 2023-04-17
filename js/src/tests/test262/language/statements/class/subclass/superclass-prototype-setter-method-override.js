@@ -15,7 +15,9 @@ m
 _
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Base

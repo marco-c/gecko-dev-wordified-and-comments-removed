@@ -53,7 +53,9 @@ YELLOW_NUM
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -127,7 +129,9 @@ YELLOW_STR
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -214,7 +218,9 @@ BLUE_STR
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -296,7 +302,9 @@ BLUE_NUM
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

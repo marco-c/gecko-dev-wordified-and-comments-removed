@@ -46,7 +46,9 @@ __store__func
 __func
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -79,7 +81,9 @@ __1
 __A
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

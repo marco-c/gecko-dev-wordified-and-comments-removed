@@ -30,7 +30,9 @@ this
 global
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -53,7 +55,9 @@ this
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

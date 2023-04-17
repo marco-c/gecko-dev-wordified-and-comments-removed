@@ -34,7 +34,9 @@ while
 0
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -72,7 +74,9 @@ SyntaxError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 1

@@ -41,7 +41,9 @@ position
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -116,7 +118,9 @@ position
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

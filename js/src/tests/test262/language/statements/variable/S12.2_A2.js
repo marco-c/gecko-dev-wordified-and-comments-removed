@@ -6,7 +6,9 @@ __variable
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -37,7 +39,9 @@ __variable
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -88,7 +92,9 @@ __variable
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -146,7 +152,9 @@ defined
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

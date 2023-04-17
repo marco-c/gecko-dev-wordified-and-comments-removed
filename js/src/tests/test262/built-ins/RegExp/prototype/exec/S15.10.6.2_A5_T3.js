@@ -48,7 +48,9 @@ cd2
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -114,7 +116,9 @@ lastIndex
 5
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -207,7 +211,9 @@ cd2
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -291,7 +297,9 @@ lastIndex
 5
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

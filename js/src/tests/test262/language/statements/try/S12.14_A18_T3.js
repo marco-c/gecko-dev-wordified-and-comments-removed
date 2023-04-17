@@ -17,7 +17,9 @@ e
 =
 true
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -60,7 +62,9 @@ e
 =
 false
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -108,7 +112,9 @@ e
 =
 false
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -156,7 +162,9 @@ e
 =
 true
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -207,7 +215,9 @@ e
 =
 false
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -258,7 +268,9 @@ e
 =
 true
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

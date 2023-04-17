@@ -25,7 +25,9 @@ number
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -87,7 +89,9 @@ __device
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

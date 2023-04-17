@@ -14,7 +14,9 @@ parseFloat
 11
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -63,7 +65,9 @@ parseFloat
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -115,7 +119,9 @@ parseFloat
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -170,7 +176,9 @@ parseFloat
 10
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -216,7 +224,9 @@ parseFloat
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -262,7 +272,9 @@ parseFloat
 10
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -308,7 +320,9 @@ parseFloat
 10
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

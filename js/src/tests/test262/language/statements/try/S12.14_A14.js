@@ -134,7 +134,9 @@ e
 ex
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -186,7 +188,9 @@ e
 a
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -233,7 +237,9 @@ p1
 pass
 '
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -284,7 +290,9 @@ e
 b
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -340,7 +348,9 @@ p1
 pass
 '
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -371,7 +381,9 @@ p2
 pass
 '
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -439,7 +451,9 @@ p1
 pass
 '
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

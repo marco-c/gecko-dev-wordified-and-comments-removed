@@ -19,7 +19,9 @@ object
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -69,7 +71,9 @@ constructor
 __func
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -137,7 +141,9 @@ if
 __constructor_was__enumed
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

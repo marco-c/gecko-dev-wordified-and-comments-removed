@@ -11,7 +11,9 @@ constructor
 Object
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

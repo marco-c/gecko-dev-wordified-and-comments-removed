@@ -20,7 +20,9 @@ __in__while
 reached
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -71,7 +73,9 @@ e
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -108,7 +112,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

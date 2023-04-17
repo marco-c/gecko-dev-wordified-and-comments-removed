@@ -71,7 +71,9 @@ first
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -112,7 +114,9 @@ prop
 __SCND
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -154,7 +158,9 @@ __instance
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -21,7 +21,9 @@ MyFunction
 this
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -88,7 +90,9 @@ MyFunction
 this
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

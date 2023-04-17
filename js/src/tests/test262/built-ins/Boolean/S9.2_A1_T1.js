@@ -10,7 +10,9 @@ undefined
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -51,7 +53,9 @@ void
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -97,7 +101,9 @@ x
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -148,7 +154,9 @@ Boolean
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

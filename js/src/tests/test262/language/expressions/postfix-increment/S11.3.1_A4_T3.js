@@ -21,7 +21,9 @@ y
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -83,7 +85,9 @@ y
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -152,7 +156,9 @@ y
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -27,7 +27,9 @@ String
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

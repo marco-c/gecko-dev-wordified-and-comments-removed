@@ -65,7 +65,9 @@ reached
 "
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -105,7 +107,9 @@ FirstExpression
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -156,7 +160,9 @@ passed
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -197,7 +203,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

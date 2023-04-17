@@ -53,7 +53,9 @@ string
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -101,7 +103,9 @@ __ARRAY__
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

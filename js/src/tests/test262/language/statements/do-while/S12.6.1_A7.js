@@ -40,7 +40,9 @@ __condition
 5
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -72,7 +74,9 @@ __evaluated
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

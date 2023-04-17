@@ -20,7 +20,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 toString
@@ -41,7 +43,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 valueOf

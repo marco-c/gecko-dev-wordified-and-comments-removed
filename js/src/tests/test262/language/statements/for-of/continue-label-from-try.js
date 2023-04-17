@@ -56,7 +56,9 @@ i
 continue
 outer
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -79,7 +81,9 @@ err
 )
 {
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -96,7 +100,9 @@ statment
 )
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This

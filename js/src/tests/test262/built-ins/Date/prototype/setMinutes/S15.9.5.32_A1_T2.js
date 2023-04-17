@@ -12,7 +12,9 @@ setMinutes
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ setMinutes
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

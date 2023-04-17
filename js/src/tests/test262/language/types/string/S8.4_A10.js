@@ -21,7 +21,9 @@ AABBCC
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -90,7 +92,9 @@ ABCABC
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -165,7 +169,9 @@ ABCABC
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

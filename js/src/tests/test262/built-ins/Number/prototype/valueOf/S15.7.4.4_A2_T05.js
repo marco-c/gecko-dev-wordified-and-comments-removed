@@ -28,7 +28,9 @@ valueOf
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -66,7 +68,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -123,7 +127,9 @@ myValueOf
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -161,7 +167,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

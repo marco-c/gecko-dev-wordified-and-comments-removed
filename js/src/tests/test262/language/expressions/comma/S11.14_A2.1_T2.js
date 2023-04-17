@@ -3,7 +3,9 @@ try
 x
 1
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -45,7 +47,9 @@ ReferenceError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

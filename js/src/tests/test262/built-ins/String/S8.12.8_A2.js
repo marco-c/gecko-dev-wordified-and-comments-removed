@@ -42,7 +42,9 @@ __obj
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -109,7 +111,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

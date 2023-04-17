@@ -43,7 +43,9 @@ function
 resolve
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Did
@@ -72,7 +74,9 @@ rejected
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

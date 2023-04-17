@@ -10,7 +10,9 @@ if
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -49,7 +51,9 @@ if
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -87,7 +91,9 @@ if
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -126,7 +132,9 @@ if
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -168,7 +176,9 @@ Number
 MAX_VALUE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -217,7 +227,9 @@ Number
 MAX_VALUE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -265,7 +277,9 @@ Number
 MIN_VALUE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -314,7 +328,9 @@ Number
 MIN_VALUE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

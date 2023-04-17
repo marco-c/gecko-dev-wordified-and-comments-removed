@@ -45,7 +45,9 @@ setDate
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -40,7 +40,9 @@ p1
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -83,7 +85,9 @@ a
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

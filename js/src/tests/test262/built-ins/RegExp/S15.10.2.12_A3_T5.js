@@ -62,7 +62,9 @@ non_w
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -126,7 +128,9 @@ length
 k
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

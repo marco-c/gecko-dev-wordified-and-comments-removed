@@ -27,7 +27,9 @@ __func
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -96,7 +98,9 @@ __func
 HERE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

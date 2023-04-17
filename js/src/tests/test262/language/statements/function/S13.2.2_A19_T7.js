@@ -41,7 +41,9 @@ __func
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -80,7 +82,9 @@ __func
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -111,7 +115,9 @@ in
 __obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -141,7 +147,9 @@ __func
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -96,7 +96,9 @@ value
 }
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -138,7 +140,9 @@ get
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -179,7 +183,9 @@ value
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -258,7 +264,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

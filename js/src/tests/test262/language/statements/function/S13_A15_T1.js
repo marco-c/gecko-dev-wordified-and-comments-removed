@@ -21,7 +21,9 @@ __func
 42
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

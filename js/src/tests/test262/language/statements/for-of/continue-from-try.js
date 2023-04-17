@@ -39,7 +39,9 @@ i
 ;
 continue
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -62,7 +64,9 @@ err
 )
 {
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This

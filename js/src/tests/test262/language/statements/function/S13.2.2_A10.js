@@ -48,7 +48,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -89,7 +91,9 @@ id
 5
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -12,7 +12,9 @@ number
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -54,7 +56,9 @@ Number
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -93,7 +97,9 @@ Number
 POSITIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

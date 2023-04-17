@@ -73,7 +73,9 @@ xx
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -96,7 +98,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -125,7 +129,9 @@ errorCount
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Total

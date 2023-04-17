@@ -12,7 +12,9 @@ undefined
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -47,7 +49,9 @@ undefined
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -88,7 +92,9 @@ x
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -128,7 +134,9 @@ null
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -163,7 +171,9 @@ void
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -198,7 +208,9 @@ null
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

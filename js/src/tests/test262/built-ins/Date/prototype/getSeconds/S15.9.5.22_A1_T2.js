@@ -12,7 +12,9 @@ getSeconds
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -48,7 +50,9 @@ getSeconds
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

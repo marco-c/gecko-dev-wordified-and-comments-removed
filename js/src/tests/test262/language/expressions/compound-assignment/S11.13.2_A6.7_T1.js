@@ -51,7 +51,9 @@ innerX
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -82,7 +84,9 @@ x
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -10,7 +10,9 @@ throw
 dontcatchme
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -46,7 +48,9 @@ dontcatchme
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -76,7 +80,9 @@ catchme
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -178,7 +184,9 @@ e
 4
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -220,7 +228,9 @@ ex
 "
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -262,7 +272,9 @@ SwitchTest1
 =
 4
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -291,7 +303,9 @@ SwitchTest1
 =
 64
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

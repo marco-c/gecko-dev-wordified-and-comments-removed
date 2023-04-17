@@ -74,7 +74,9 @@ myObj
 )
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -111,7 +113,9 @@ valueOf
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -147,7 +151,9 @@ myObj
 )
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -184,7 +190,9 @@ valueOf
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

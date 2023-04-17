@@ -10,7 +10,9 @@ true
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -50,7 +52,9 @@ false
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

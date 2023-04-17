@@ -30,7 +30,9 @@ __pattern
 source
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -92,7 +94,9 @@ __pattern
 multiline
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -154,7 +158,9 @@ __pattern
 global
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -216,7 +222,9 @@ __pattern
 ignoreCase
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

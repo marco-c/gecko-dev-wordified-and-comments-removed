@@ -10,7 +10,9 @@ if
 13
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -52,7 +54,9 @@ if
 13
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -99,7 +103,9 @@ if
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -151,7 +157,9 @@ if
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
