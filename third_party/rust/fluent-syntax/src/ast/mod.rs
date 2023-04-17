@@ -694,6 +694,7 @@ derive
 Debug
 PartialEq
 Clone
+Default
 )
 ]
 #
@@ -898,12 +899,9 @@ S
 >
 arguments
 :
-Option
-<
 CallArguments
 <
 S
->
 >
 }
 MessageReference
@@ -1020,7 +1018,7 @@ Expression
 S
 >
 {
-SelectExpression
+Select
 {
 selector
 :
@@ -1038,7 +1036,7 @@ S
 >
 >
 }
-InlineExpression
+Inline
 (
 InlineExpression
 <

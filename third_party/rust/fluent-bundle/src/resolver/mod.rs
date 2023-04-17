@@ -85,8 +85,6 @@ source
 errors
 R
 M
-:
-MemoizerKind
 >
 (
 &
@@ -121,6 +119,9 @@ Borrow
 <
 FluentResource
 >
+M
+:
+MemoizerKind
 ;
 }
 pub
@@ -140,8 +141,6 @@ errors
 W
 R
 M
-:
-MemoizerKind
 >
 (
 &
@@ -186,6 +185,9 @@ Borrow
 <
 FluentResource
 >
+M
+:
+MemoizerKind
 ;
 fn
 write_error

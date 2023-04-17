@@ -101,8 +101,6 @@ errors
 W
 R
 M
-:
-MemoizerKind
 >
 (
 &
@@ -147,6 +145,9 @@ Borrow
 <
 FluentResource
 >
+M
+:
+MemoizerKind
 {
 match
 self
@@ -154,7 +155,7 @@ self
 Self
 :
 :
-InlineExpression
+Inline
 (
 exp
 )
@@ -170,7 +171,7 @@ scope
 Self
 :
 :
-SelectExpression
+Select
 {
 selector
 variants
@@ -367,7 +368,7 @@ self
 Self
 :
 :
-InlineExpression
+Inline
 (
 exp
 )
@@ -382,7 +383,7 @@ w
 Self
 :
 :
-SelectExpression
+Select
 {
 .
 .

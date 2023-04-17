@@ -52,14 +52,10 @@ new
 (
 args
 .
-add
+set
 (
 key
 value
-.
-into
-(
-)
 )
 ;
 )
