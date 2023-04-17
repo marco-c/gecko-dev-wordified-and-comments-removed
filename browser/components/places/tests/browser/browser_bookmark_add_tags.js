@@ -885,6 +885,12 @@ tags
 )
 ;
 await
+promiseLibraryClosed
+(
+library
+)
+;
+await
 PlacesUtils
 .
 bookmarks
