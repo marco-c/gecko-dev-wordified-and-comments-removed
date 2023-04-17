@@ -83,6 +83,14 @@ jar
 mn
 "
 ]
+DIRS
++
+=
+[
+"
+unitconverters
+"
+]
 EXTRA_JS_MODULES
 +
 =
@@ -189,6 +197,11 @@ jsm
 "
 "
 UrlbarProviderUnifiedComplete
+.
+jsm
+"
+"
+UrlbarProviderUnitConversion
 .
 jsm
 "
