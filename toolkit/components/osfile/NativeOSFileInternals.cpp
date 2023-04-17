@@ -2826,12 +2826,12 @@ return
 nsString
 resultString
 ;
-bool
-ok
+auto
+resultSpan
 =
 resultString
 .
-SetLength
+GetMutableData
 (
 needed
 .
@@ -2844,7 +2844,7 @@ fallible
 if
 (
 !
-ok
+resultSpan
 )
 {
 Fail
@@ -2890,7 +2890,8 @@ mDecoder
 DecodeToUTF16
 (
 src
-resultString
+*
+resultSpan
 false
 )
 ;
@@ -2931,6 +2932,7 @@ Unused
 <
 hadErrors
 ;
+bool
 ok
 =
 resultString
