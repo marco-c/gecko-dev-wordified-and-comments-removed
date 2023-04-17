@@ -10611,7 +10611,7 @@ type
 bool
 value
 :
-false
+IS_ANDROID
 mirror
 :
 always
@@ -10644,7 +10644,7 @@ type
 bool
 value
 :
-false
+IS_ANDROID
 mirror
 :
 always
