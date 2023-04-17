@@ -135,11 +135,6 @@ dbg
 js
 "
 "
-defer
-.
-js
-"
-"
 DevToolsUtils
 .
 js
