@@ -16619,6 +16619,12 @@ StyleWindowShadow
 :
 Sheet
 :
+case
+StyleWindowShadow
+:
+:
+Cliprounded
+:
 return
 kWindowShadowOptionsMenu
 ;

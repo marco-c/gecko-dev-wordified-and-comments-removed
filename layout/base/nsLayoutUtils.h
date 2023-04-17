@@ -4566,6 +4566,16 @@ aSide
 )
 ;
 static
+LayoutDeviceIntSize
+GetBorderRadiusForMenuDropShadow
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
 nsTransparencyMode
 GetFrameTransparency
 (

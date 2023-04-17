@@ -1617,6 +1617,7 @@ Default
 Menu
 Tooltip
 Sheet
+Cliprounded
 }
 ;
 enum

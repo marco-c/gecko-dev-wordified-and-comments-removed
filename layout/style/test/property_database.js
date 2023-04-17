@@ -83757,6 +83757,9 @@ tooltip
 "
 sheet
 "
+"
+cliprounded
+"
 ]
 invalid_values
 :
