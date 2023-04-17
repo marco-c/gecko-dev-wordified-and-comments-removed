@@ -24204,6 +24204,13 @@ GetZoom
 )
 )
 ;
+FrameMetrics
+metricsToRequestRepaintWith
+=
+Metrics
+(
+)
+;
 ParentLayerPoint
 velocity
 (
@@ -24216,7 +24223,7 @@ displayportMargins
 =
 CalculatePendingDisplayPort
 (
-endZoomToMetrics
+metricsToRequestRepaintWith
 velocity
 ZoomInProgress
 :
@@ -24224,7 +24231,7 @@ ZoomInProgress
 Yes
 )
 ;
-endZoomToMetrics
+metricsToRequestRepaintWith
 .
 SetPaintRequestTime
 (
@@ -24267,7 +24274,7 @@ IsRepaintThread
 {
 RequestContentRepaint
 (
-endZoomToMetrics
+metricsToRequestRepaintWith
 velocity
 displayportMargins
 RepaintUpdateType
@@ -24283,7 +24290,7 @@ mExpectedGeckoMetrics
 .
 UpdateFrom
 (
-endZoomToMetrics
+metricsToRequestRepaintWith
 )
 ;
 auto
@@ -24343,7 +24350,7 @@ ZoomToRect
 "
 this
 func
-endZoomToMetrics
+metricsToRequestRepaintWith
 velocity
 displayportMargins
 RepaintUpdateType
