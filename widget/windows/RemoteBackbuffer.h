@@ -33,9 +33,11 @@ h
 "
 #
 include
-<
-thread
->
+"
+prthread
+.
+h
+"
 #
 include
 <
@@ -206,10 +208,8 @@ mSharedDataPtr
 bool
 mStopServiceThread
 ;
-std
-:
-:
-thread
+PRThread
+*
 mServiceThread
 ;
 std
