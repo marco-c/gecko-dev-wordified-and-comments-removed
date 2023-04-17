@@ -3417,10 +3417,6 @@ pseudo
 pseudos
 +
 =
-"
-:
-"
-+
 pseudo
 ;
 }

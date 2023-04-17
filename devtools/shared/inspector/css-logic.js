@@ -1671,6 +1671,7 @@ pseudo
 =
 "
 :
+:
 marker
 "
 ;
@@ -1698,6 +1699,7 @@ pseudo
 =
 "
 :
+:
 before
 "
 ;
@@ -1724,6 +1726,7 @@ parentNode
 pseudo
 =
 "
+:
 :
 after
 "
