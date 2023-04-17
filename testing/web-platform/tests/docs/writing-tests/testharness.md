@@ -387,7 +387,7 @@ testharness
 -
 api
 .
-md
+html
 #
 single
 -
@@ -453,7 +453,7 @@ testharness
 -
 api
 .
-md
+html
 #
 asynchronous
 -
@@ -474,7 +474,7 @@ testharness
 -
 api
 .
-md
+html
 #
 promise
 -
