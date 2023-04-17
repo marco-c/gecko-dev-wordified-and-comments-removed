@@ -9692,6 +9692,7 @@ nsIFile
 :
 DIRECTORY_TYPE
 0755
+false
 )
 .
 map

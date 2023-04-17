@@ -658,6 +658,8 @@ uint32_t
 aType
 uint32_t
 aPermissions
+bool
+aSkipAncestors
 )
 {
 return
