@@ -472,6 +472,13 @@ TAIL_SUGGESTION
 ]
 }
 {
+group
+:
+UrlbarUtils
+.
+RESULT_GROUP
+.
+GENERAL_PARENT
 flex
 :
 1
@@ -715,6 +722,13 @@ children
 :
 [
 {
+group
+:
+UrlbarUtils
+.
+RESULT_GROUP
+.
+GENERAL_PARENT
 flex
 :
 2

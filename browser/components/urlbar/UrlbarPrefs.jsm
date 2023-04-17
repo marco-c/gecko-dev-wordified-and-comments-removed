@@ -855,6 +855,13 @@ TAIL_SUGGESTION
 ]
 }
 {
+group
+:
+UrlbarUtils
+.
+RESULT_GROUP
+.
+GENERAL_PARENT
 children
 :
 [
