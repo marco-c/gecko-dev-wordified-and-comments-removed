@@ -31,7 +31,7 @@ nightly
 "
 feature
 (
-const_fn
+const_fn_trait_bound
 )
 )
 ]
@@ -61,6 +61,13 @@ mut
 )
 )
 ;
+unsafe
+impl
+Sync
+for
+GuardNoSend
+{
+}
 mod
 mutex
 ;
