@@ -117,16 +117,6 @@ uint64_t
 aRequestContextId
 )
 ;
-void
-SetGroupObserver
-(
-nsIRequestObserver
-*
-aObserver
-bool
-aIncludeBackgroundRequests
-)
-;
 protected
 :
 virtual
@@ -261,9 +251,6 @@ mBrowsingContextDiscarded
 ;
 bool
 mExternalRequestContext
-;
-bool
-mNotifyObserverAboutBackgroundRequests
 ;
 mozilla
 :
