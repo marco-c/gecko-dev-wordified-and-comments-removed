@@ -4631,7 +4631,6 @@ aState
 )
 )
 ;
-}
 LOG
 (
 "
@@ -4664,6 +4663,7 @@ UpdateTelemetryHelperBasedOnPlayState
 aState
 )
 ;
+}
 }
 TelemetryProbesReporter
 :
