@@ -145,13 +145,15 @@ aLocale
 if
 (
 !
-strncmp
+std
+:
+:
+strcmp
 (
 locale
 "
 und
 "
-3
 )
 )
 {
