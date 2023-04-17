@@ -12,7 +12,6 @@ width
 rtt
 downlink
 ect
-lang
 mobile
 sec
 -
@@ -55,13 +54,6 @@ viewport
 width
 '
 self
-'
-;
-ch
--
-lang
-'
-none
 '
 ;
 ch
