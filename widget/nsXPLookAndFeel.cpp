@@ -3349,6 +3349,9 @@ NS_RGB
 ;
 break
 ;
+#
+ifndef
+XP_WIN
 case
 ColorID
 :
@@ -3366,6 +3369,8 @@ NS_RGB
 ;
 break
 ;
+#
+endif
 case
 ColorID
 :
@@ -3382,13 +3387,16 @@ case
 ColorID
 :
 :
-MozDialogtext
+TextForeground
 :
+#
+ifndef
+XP_WIN
 case
 ColorID
 :
 :
-TextForeground
+MozDialogtext
 :
 case
 ColorID
@@ -3402,6 +3410,8 @@ ColorID
 :
 Buttontext
 :
+#
+endif
 color
 =
 NS_RGB
@@ -3430,6 +3440,9 @@ NS_RGB
 ;
 break
 ;
+#
+ifndef
+XP_WIN
 case
 ColorID
 :
@@ -3476,6 +3489,8 @@ NS_RGB
 ;
 break
 ;
+#
+endif
 case
 ColorID
 :
