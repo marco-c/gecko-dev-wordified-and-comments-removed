@@ -300,8 +300,9 @@ slug
 "
 variant
 "
-feature
+features
 :
+[
 {
 featureId
 :
@@ -312,6 +313,7 @@ enabled
 :
 true
 }
+]
 }
 lastSeen
 :
