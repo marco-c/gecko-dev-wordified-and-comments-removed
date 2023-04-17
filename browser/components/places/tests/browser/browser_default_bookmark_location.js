@@ -539,6 +539,10 @@ selectedBrowser
 await
 promisePopupShown
 ;
+contextMenu
+.
+activateItem
+(
 win
 .
 document
@@ -551,9 +555,6 @@ context
 bookmarklink
 "
 )
-.
-click
-(
 )
 ;
 }
