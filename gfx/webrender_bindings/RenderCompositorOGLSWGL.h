@@ -133,6 +133,16 @@ aDirtyRects
 override
 ;
 bool
+UsePartialPresent
+(
+)
+override
+{
+return
+true
+;
+}
+bool
 RequestFullRender
 (
 )
