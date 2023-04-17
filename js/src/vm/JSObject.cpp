@@ -17821,10 +17821,10 @@ id
 ShapeProperty
 prop
 =
-ShapeProperty
-(
-&
 shape
+.
+property
+(
 )
 ;
 if
@@ -18007,7 +18007,7 @@ prop
 }
 if
 (
-shape
+prop
 .
 hasSlot
 (
@@ -18023,7 +18023,7 @@ slot
 %
 u
 "
-shape
+prop
 .
 slot
 (

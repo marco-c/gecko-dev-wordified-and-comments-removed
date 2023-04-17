@@ -4106,9 +4106,11 @@ propp
 >
 setNativeProperty
 (
-ShapeProperty
-(
 shape
+-
+>
+property
+(
 )
 )
 ;
