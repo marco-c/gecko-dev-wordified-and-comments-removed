@@ -1842,6 +1842,16 @@ hostPos
 hostLen
 )
 ;
+host
+.
+Trim
+(
+"
+[
+]
+"
+)
+;
 }
 if
 (
