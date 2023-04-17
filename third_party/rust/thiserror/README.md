@@ -793,9 +793,7 @@ expected
 i32
 :
 :
-max_value
-(
-)
+MAX
 )
 ]
 InvalidLookahead
