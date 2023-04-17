@@ -108,7 +108,7 @@ aOriginAttributes
 ;
 static
 bool
-VerifyValidPartitionedPrincipalInfoForPrincipalInfo
+VerifyValidStoragePrincipalInfoForPrincipalInfo
 (
 const
 mozilla
@@ -119,7 +119,7 @@ ipc
 :
 PrincipalInfo
 &
-aPartitionedPrincipalInfo
+aStoragePrincipalInfo
 const
 mozilla
 :
@@ -130,8 +130,6 @@ ipc
 PrincipalInfo
 &
 aPrincipalInfo
-bool
-aIgnoreSpecForContentPrincipal
 )
 ;
 enum
@@ -171,15 +169,6 @@ nsIPrincipal
 *
 *
 aPrincipal
-)
-;
-static
-bool
-ShouldUsePartitionPrincipalForServiceWorker
-(
-nsIDocShell
-*
-aDocShell
 )
 ;
 static
