@@ -1059,7 +1059,7 @@ info
 (
 )
 .
-funMaybeLazy
+hasFunMaybeLazy
 (
 )
 )
@@ -2500,7 +2500,7 @@ info
 (
 )
 .
-funMaybeLazy
+hasFunMaybeLazy
 (
 )
 )
@@ -10282,7 +10282,7 @@ info
 (
 )
 .
-funMaybeLazy
+hasFunMaybeLazy
 (
 )
 )
@@ -14903,7 +14903,7 @@ info
 (
 )
 .
-funMaybeLazy
+hasFunMaybeLazy
 (
 )
 )
