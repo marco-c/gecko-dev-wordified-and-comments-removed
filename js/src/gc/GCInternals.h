@@ -36,6 +36,15 @@ include
 "
 vm
 /
+GeckoProfiler
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 .
 h
