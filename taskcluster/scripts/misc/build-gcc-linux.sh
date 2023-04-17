@@ -95,7 +95,6 @@ mpfr
 source
 mpfr
 popd
-build_binutils
 build_gcc
 #
 Put

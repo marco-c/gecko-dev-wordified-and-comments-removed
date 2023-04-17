@@ -120,16 +120,6 @@ sf
 .
 .
 /
-binutils
--
-source
-binutils
-ln
--
-sf
-.
-.
-/
 gmp
 -
 source
