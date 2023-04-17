@@ -48,14 +48,6 @@ BUGNUMBER
 summary
 )
 ;
-if
-(
-getBuildConfiguration
-(
-)
-.
-release_or_beta
-)
 {
 function
 assertThrowsSyntaxError
