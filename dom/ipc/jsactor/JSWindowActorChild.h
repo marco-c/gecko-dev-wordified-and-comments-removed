@@ -218,6 +218,13 @@ GetManager
 )
 const
 ;
+WindowContext
+*
+GetWindowContext
+(
+)
+const
+;
 void
 Init
 (

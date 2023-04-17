@@ -23,6 +23,12 @@ WindowGlobalParent
 ?
 manager
 ;
+readonly
+attribute
+WindowContext
+?
+windowContext
+;
 [
 Throws
 ]
@@ -59,6 +65,12 @@ attribute
 WindowGlobalChild
 ?
 manager
+;
+readonly
+attribute
+WindowContext
+?
+windowContext
 ;
 [
 Throws
