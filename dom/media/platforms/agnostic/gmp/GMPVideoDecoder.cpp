@@ -195,6 +195,12 @@ aParams
 .
 mCrashHelper
 )
+mKnowsCompositor
+(
+aParams
+.
+mKnowsCompositor
+)
 {
 }
 void
@@ -488,6 +494,7 @@ FromMicroseconds
 1
 )
 pictureRegion
+mKnowsCompositor
 )
 ;
 RefPtr
@@ -812,6 +819,12 @@ mImageContainer
 aParams
 .
 mImageContainer
+)
+mKnowsCompositor
+(
+aParams
+.
+mKnowsCompositor
 )
 {
 }

@@ -482,6 +482,7 @@ aSample
 >
 mTime
 mPicture
+nullptr
 )
 ;
 }

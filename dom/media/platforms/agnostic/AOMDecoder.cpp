@@ -1596,6 +1596,7 @@ img
 >
 d_h
 )
+nullptr
 )
 ;
 if
