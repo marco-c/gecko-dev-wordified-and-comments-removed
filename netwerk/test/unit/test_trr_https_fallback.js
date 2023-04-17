@@ -3446,8 +3446,6 @@ req
 protocolVersion
 "
 h3
--
-27
 "
 )
 ;
@@ -4675,8 +4673,6 @@ req
 protocolVersion
 "
 h3
--
-27
 "
 )
 ;
@@ -5434,8 +5430,6 @@ req
 protocolVersion
 "
 h3
--
-27
 "
 )
 ;
