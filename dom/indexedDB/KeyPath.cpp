@@ -1256,7 +1256,10 @@ IDB_REPORT_INTERNAL_ERR_LAMBDA
 }
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 rv
+)
 )
 ;
 return

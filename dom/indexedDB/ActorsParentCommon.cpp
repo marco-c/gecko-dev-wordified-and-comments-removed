@@ -1680,6 +1680,8 @@ blobDataLength
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 aSource
 .
 GetSharedBlob
@@ -1689,6 +1691,7 @@ aColumnIndex
 blobDataLength
 &
 blobData
+)
 )
 )
 ;
@@ -1704,6 +1707,8 @@ IDB_REPORT_INTERNAL_ERR_LAMBDA
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 ReadCompressedIndexDataValuesFromBlob
 (
 Span
@@ -1712,6 +1717,7 @@ blobData
 blobDataLength
 )
 aOutIndexValues
+)
 )
 )
 ;
@@ -2266,11 +2272,14 @@ fileInputStream
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 SnappyUncompressStructuredCloneData
 (
 *
 fileInputStream
 data
+)
 )
 )
 ;
@@ -2478,6 +2487,8 @@ blobDataLength
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 aSource
 -
 >
@@ -2488,6 +2499,7 @@ aDataIndex
 blobDataLength
 &
 blobData
+)
 )
 )
 ;
@@ -3835,11 +3847,14 @@ aSQLCommand
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 aConnection
 .
 ExecuteSimpleSQL
 (
 aSQLCommand
+)
 )
 )
 ;
