@@ -711,6 +711,8 @@ AddFontPattern
 FcPattern
 *
 aFontPattern
+bool
+aSingleName
 )
 ;
 void
