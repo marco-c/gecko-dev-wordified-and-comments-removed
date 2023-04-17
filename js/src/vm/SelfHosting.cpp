@@ -9090,6 +9090,7 @@ type
 define
 INIT_TYPED_ARRAY
 (
+_
 T
 N
 )
