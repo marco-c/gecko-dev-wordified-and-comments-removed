@@ -1113,7 +1113,7 @@ wr
 OpacityType
 :
 :
-Opaque
+HasAlphaChannel
 preferCompositorSurface
 )
 ;
