@@ -47,3 +47,7 @@ structs
 as
 bindings
 ;
+pub
+mod
+profiling_categories
+;

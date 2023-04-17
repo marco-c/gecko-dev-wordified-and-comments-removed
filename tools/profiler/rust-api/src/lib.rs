@@ -9,6 +9,16 @@ thread
 ;
 pub
 use
+gecko_bindings
+:
+:
+profiling_categories
+:
+:
+*
+;
+pub
+use
 profiler_state
 :
 :
