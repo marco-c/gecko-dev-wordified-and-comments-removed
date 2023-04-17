@@ -4121,11 +4121,6 @@ report
 &
 mut
 MemoryReport
-swgl
-:
-*
-mut
-c_void
 )
 {
 *
@@ -4136,7 +4131,6 @@ renderer
 .
 report_memory
 (
-swgl
 )
 ;
 }
