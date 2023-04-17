@@ -29,6 +29,26 @@ mozilla
 .
 geckoview
 .
+GeckoSession
+.
+NavigationDelegate
+import
+org
+.
+mozilla
+.
+geckoview
+.
+GeckoSession
+.
+PermissionDelegate
+import
+org
+.
+mozilla
+.
+geckoview
+.
 test
 .
 rule
@@ -50,18 +70,6 @@ rule
 GeckoSessionTestRule
 .
 RejectedPromiseException
-import
-org
-.
-mozilla
-.
-geckoview
-.
-test
-.
-util
-.
-Callbacks
 import
 android
 .
@@ -465,8 +473,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -804,8 +810,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -1022,8 +1026,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -1405,8 +1407,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -1545,8 +1545,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -1795,8 +1793,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -1952,8 +1948,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -2178,8 +2172,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -2361,8 +2353,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -2554,8 +2544,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -2701,8 +2689,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -2837,8 +2823,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -3083,8 +3067,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -3233,8 +3215,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -3476,8 +3456,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -3645,8 +3623,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -3883,8 +3859,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -4071,8 +4045,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -4330,8 +4302,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -4518,8 +4488,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -4777,8 +4745,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
@@ -4906,8 +4872,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PermissionDelegate
 {
 AssertCalled
