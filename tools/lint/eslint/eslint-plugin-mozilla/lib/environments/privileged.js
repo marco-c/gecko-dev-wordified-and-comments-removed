@@ -929,9 +929,6 @@ false
 KeyframeEffect
 :
 false
-L10nFileSource
-:
-false
 Localization
 :
 false

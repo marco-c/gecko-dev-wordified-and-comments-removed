@@ -2480,6 +2480,12 @@ jsm
 "
 L10nRegistry
 "
+"
+FileSource
+"
+"
+IndexedFileSource
+"
 ]
 "
 Launcher

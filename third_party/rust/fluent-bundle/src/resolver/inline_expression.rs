@@ -114,6 +114,8 @@ errors
 W
 R
 M
+:
+MemoizerKind
 >
 (
 &
@@ -158,9 +160,6 @@ Borrow
 <
 FluentResource
 >
-M
-:
-MemoizerKind
 {
 match
 self
@@ -414,10 +413,6 @@ scope
 get_arguments
 (
 arguments
-.
-as_ref
-(
-)
 )
 ;
 scope
@@ -568,10 +563,7 @@ scope
 .
 get_arguments
 (
-Some
-(
 arguments
-)
 )
 ;
 let
@@ -1013,6 +1005,8 @@ source
 errors
 R
 M
+:
+MemoizerKind
 >
 (
 &
@@ -1047,9 +1041,6 @@ Borrow
 <
 FluentResource
 >
-M
-:
-MemoizerKind
 {
 match
 self

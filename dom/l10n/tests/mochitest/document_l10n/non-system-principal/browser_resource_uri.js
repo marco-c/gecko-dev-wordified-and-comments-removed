@@ -1,6 +1,7 @@
 const
 {
 L10nRegistry
+FileSource
 }
 =
 ChromeUtils
@@ -105,10 +106,10 @@ locale
 appLocalesAsBCP47
 ;
 let
-source
+mockSource
 =
 new
-L10nFileSource
+FileSource
 (
 "
 test
@@ -126,7 +127,7 @@ L10nRegistry
 registerSources
 (
 [
-source
+mockSource
 ]
 )
 ;

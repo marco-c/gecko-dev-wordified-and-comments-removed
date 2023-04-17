@@ -108,6 +108,8 @@ errors
 W
 R
 M
+:
+MemoizerKind
 >
 (
 &
@@ -152,9 +154,6 @@ Borrow
 <
 FluentResource
 >
-M
-:
-MemoizerKind
 {
 let
 len
@@ -321,7 +320,7 @@ ast
 Expression
 :
 :
-Inline
+InlineExpression
 (
 ast
 :
@@ -342,7 +341,7 @@ ast
 Expression
 :
 :
-Inline
+InlineExpression
 (
 ast
 :
@@ -363,7 +362,7 @@ ast
 Expression
 :
 :
-Inline
+InlineExpression
 (
 ast
 :
@@ -495,6 +494,8 @@ source
 errors
 R
 M
+:
+MemoizerKind
 >
 (
 &
@@ -529,9 +530,6 @@ Borrow
 <
 FluentResource
 >
-M
-:
-MemoizerKind
 {
 let
 len

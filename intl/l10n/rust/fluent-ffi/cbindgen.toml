@@ -171,6 +171,13 @@ intl
 memoizer
 "
 ]
+exclude
+=
+[
+"
+fxhash
+"
+]
 [
 enum
 ]

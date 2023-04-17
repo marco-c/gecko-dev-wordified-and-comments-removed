@@ -344,14 +344,6 @@ extern
 crate
 fluent_ffi
 ;
-extern
-crate
-fluent_fallback
-;
-extern
-crate
-l10nregistry
-;
 #
 [
 cfg
