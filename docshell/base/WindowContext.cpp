@@ -344,7 +344,7 @@ bool
 WindowContext
 :
 :
-IsCached
+IsCurrent
 (
 )
 const
@@ -354,7 +354,7 @@ mBrowsingContext
 -
 >
 mCurrentWindowContext
-!
+=
 =
 this
 ;
@@ -627,8 +627,7 @@ aBrowsingContext
 ;
 if
 (
-!
-IsCached
+IsCurrent
 (
 )
 )
@@ -683,8 +682,7 @@ aBrowsingContext
 ;
 if
 (
-!
-IsCached
+IsCurrent
 (
 )
 )
@@ -2462,8 +2460,7 @@ IsInProcess
 ;
 MOZ_ASSERT
 (
-!
-IsCached
+IsCurrent
 (
 )
 )

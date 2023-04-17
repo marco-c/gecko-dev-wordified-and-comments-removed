@@ -666,7 +666,7 @@ mIsDiscarded
 ;
 }
 bool
-IsCached
+IsCurrent
 (
 )
 const

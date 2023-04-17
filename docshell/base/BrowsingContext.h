@@ -1900,12 +1900,6 @@ aURI
 )
 ;
 bool
-IsCached
-(
-)
-const
-;
-bool
 IsTargetable
 (
 )
