@@ -181,9 +181,6 @@ enum
 short_message
 "
 "
-message_and_animation
-"
-"
 icon_and_message
 "
 "
