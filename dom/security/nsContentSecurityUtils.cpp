@@ -2512,6 +2512,17 @@ XRE_IsParentProcess
 return
 ;
 }
+if
+(
+!
+NS_IsMainThread
+(
+)
+)
+{
+return
+;
+}
 nsCString
 previous_crashes
 (
