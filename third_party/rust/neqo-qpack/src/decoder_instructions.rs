@@ -588,9 +588,13 @@ NoInstruction
 )
 ;
 }
-_
+DecoderInstruction
+:
+:
+NoInstruction
 =
 >
+{
 unreachable
 !
 (
@@ -605,6 +609,7 @@ state
 .
 "
 )
+}
 }
 }
 }
