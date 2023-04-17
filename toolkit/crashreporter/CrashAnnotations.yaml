@@ -2775,7 +2775,7 @@ enum
 type
 :
 integer
-LowCommitSpaceEvents
+LowPhysicalMemoryEvents
 :
 description
 :
@@ -2789,12 +2789,11 @@ memory
 tracker
 has
 detected
-a
 that
-commit
--
-space
-was
+free
+physical
+memory
+is
 running
 low
 .
