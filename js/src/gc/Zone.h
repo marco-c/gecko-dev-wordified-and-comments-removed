@@ -264,11 +264,6 @@ JSString
 *
 JSString
 *
-DefaultHasher
-<
-JSString
-*
->
 ZoneAllocPolicy
 DuplicatesPossible
 >

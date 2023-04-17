@@ -128,11 +128,6 @@ JSObject
 *
 JSObject
 *
-DefaultHasher
-<
-JSObject
-*
->
 ZoneAllocPolicy
 >
 ;
@@ -1495,11 +1490,6 @@ JSString
 *
 JSString
 *
-DefaultHasher
-<
-JSString
-*
->
 ZoneAllocPolicy
 DuplicatesPossible
 >
