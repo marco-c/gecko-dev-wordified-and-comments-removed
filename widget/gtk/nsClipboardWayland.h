@@ -68,9 +68,6 @@ nsWaylandDisplay
 .
 h
 "
-struct
-FastTrackClipboard
-;
 class
 DataOffer
 {
@@ -609,6 +606,8 @@ GtkSelectionData
 aSelectionData
 )
 ;
+private
+:
 virtual
 ~
 nsRetrievalContextWayland
@@ -616,8 +615,6 @@ nsRetrievalContextWayland
 )
 override
 ;
-private
-:
 RefPtr
 <
 DataOffer
@@ -645,9 +642,6 @@ aDataOffer
 ;
 private
 :
-bool
-mInitialized
-;
 RefPtr
 <
 mozilla

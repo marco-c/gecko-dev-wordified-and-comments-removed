@@ -110,6 +110,10 @@ nsRetrievalContext
 {
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+nsRetrievalContext
+)
 virtual
 const
 char
@@ -176,6 +180,8 @@ void
 =
 0
 ;
+protected
+:
 virtual
 ~
 nsRetrievalContext
@@ -292,10 +298,7 @@ nsITransferable
 >
 mGlobalTransferable
 ;
-mozilla
-:
-:
-UniquePtr
+RefPtr
 <
 nsRetrievalContext
 >
