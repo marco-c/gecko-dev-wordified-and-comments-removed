@@ -154,15 +154,9 @@ filePaths
 )
 ;
 }
-async
 cancel
 (
 )
-:
-Promise
-<
-void
->
 {
 assert
 (

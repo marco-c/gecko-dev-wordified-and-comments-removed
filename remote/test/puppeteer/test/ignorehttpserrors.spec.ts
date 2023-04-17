@@ -8,6 +8,8 @@ expect
 import
 {
 getTestState
+describeFailsFirefox
+itFailsFirefox
 }
 from
 '

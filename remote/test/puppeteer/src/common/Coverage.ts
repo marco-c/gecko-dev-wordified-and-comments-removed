@@ -64,6 +64,11 @@ js
 '
 ;
 export
+{
+PuppeteerEventListener
+}
+;
+export
 interface
 CoverageEntry
 {
@@ -259,6 +264,7 @@ stop
 ;
 }
 }
+export
 class
 JSCoverage
 {
@@ -928,6 +934,7 @@ coverage
 ;
 }
 }
+export
 class
 CSSCoverage
 {

@@ -83,7 +83,7 @@ automatically
 for
 you
 :
-*
+-
 puppeteer
 :
 an
@@ -111,7 +111,7 @@ puppeteer
 '
 )
 .
-*
+-
 puppeteerPath
 :
 the
@@ -124,7 +124,7 @@ file
 for
 Puppeteer
 .
-*
+-
 defaultBrowserOptions
 :
 the
@@ -149,7 +149,7 @@ override
 if
 required
 .
-*
+-
 server
 :
 a
@@ -166,7 +166,7 @@ for
 more
 )
 .
-*
+-
 httpsServer
 :
 a
@@ -184,7 +184,7 @@ for
 more
 )
 .
-*
+-
 isFirefox
 :
 true
@@ -193,7 +193,7 @@ running
 in
 Firefox
 .
-*
+-
 isChrome
 :
 true
@@ -201,7 +201,7 @@ if
 running
 Chromium
 .
-*
+-
 isHeadless
 :
 true
@@ -442,7 +442,7 @@ environment
 variables
 .
 [
-Mocha
+mocha
 ]
 :
 https
@@ -454,7 +454,7 @@ mochajs
 org
 /
 [
-Expect
+expect
 ]
 :
 https
@@ -506,7 +506,11 @@ npm
 run
 unit
 -
-__Important__
+*
+*
+Important
+*
+*
 :
 don
 '
@@ -618,10 +622,8 @@ mnemonic
 rule
 :
 '
-*
-cross
-it
-*
+_cross
+it_
 '
 )
 :

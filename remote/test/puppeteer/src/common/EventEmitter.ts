@@ -25,6 +25,12 @@ js
 '
 ;
 export
+{
+EventType
+Handler
+}
+;
+export
 interface
 CommonEventEmitter
 {

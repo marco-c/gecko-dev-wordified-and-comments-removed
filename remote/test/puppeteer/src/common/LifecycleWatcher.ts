@@ -126,6 +126,7 @@ networkidle0
 networkidle2
 '
 ;
+export
 type
 ProtocolLifeCycleEvent
 =

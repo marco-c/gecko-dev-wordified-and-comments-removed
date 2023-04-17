@@ -44,8 +44,8 @@ and
 extract
 public
 API
--
-note
+.
+Note
 that
 we
 run
@@ -112,6 +112,7 @@ and
 extract
 described
 API
+.
 3
 .
 Compare
@@ -119,6 +120,7 @@ one
 API
 to
 another
+.
 Doclint
 is
 also

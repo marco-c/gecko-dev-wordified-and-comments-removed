@@ -14,6 +14,7 @@ js
 import
 {
 Browser
+TargetFilterCallback
 }
 from
 '
@@ -119,11 +120,18 @@ defaultViewport
 ?
 :
 Viewport
+|
+null
 ;
 slowMo
 ?
 :
 number
+;
+targetFilter
+?
+:
+TargetFilterCallback
 ;
 }
 const
@@ -232,6 +240,7 @@ transport
 slowMo
 =
 0
+targetFilter
 }
 =
 options
@@ -433,6 +442,7 @@ catch
 (
 debugError
 )
+targetFilter
 )
 ;
 }

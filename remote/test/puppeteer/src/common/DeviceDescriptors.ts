@@ -1,3 +1,4 @@
+export
 interface
 Device
 {
@@ -6201,6 +6202,7 @@ Device
 ;
 }
 ;
+export
 const
 devicesMap
 :
@@ -6224,9 +6226,4 @@ name
 ]
 =
 device
-;
-export
-{
-devicesMap
-}
 ;

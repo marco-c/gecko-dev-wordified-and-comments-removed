@@ -389,7 +389,7 @@ Type
 '
 ElementHandle
 <
-Element
+HTMLElement
 >
 |
 null
@@ -501,7 +501,7 @@ Type
 '
 ElementHandle
 <
-Element
+HTMLElement
 >
 |
 null
@@ -613,7 +613,7 @@ Type
 '
 ElementHandle
 <
-Element
+HTMLElement
 >
 |
 null
@@ -725,7 +725,7 @@ Type
 '
 ElementHandle
 <
-Element
+HTMLElement
 >
 |
 null

@@ -9,6 +9,7 @@ import
 {
 getTestState
 setupTestBrowserHooks
+itFailsFirefox
 }
 from
 '

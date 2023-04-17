@@ -117,7 +117,7 @@ headers
 Record
 <
 string
-string
+unknown
 >
 ;
 contentType
@@ -721,7 +721,10 @@ respond
 (
 response
 :
+Partial
+<
 ResponseForRequest
+>
 )
 :
 Promise
@@ -864,12 +867,15 @@ toLowerCase
 )
 ]
 =
+String
+(
 response
 .
 headers
 [
 header
 ]
+)
 ;
 }
 if

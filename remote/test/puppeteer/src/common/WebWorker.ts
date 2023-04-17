@@ -88,6 +88,7 @@ EvalTypes
 js
 '
 ;
+export
 type
 ConsoleAPICalledCallback
 =
@@ -112,6 +113,7 @@ StackTrace
 >
 void
 ;
+export
 type
 ExceptionThrownCallback
 =

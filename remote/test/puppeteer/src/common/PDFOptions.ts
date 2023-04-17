@@ -153,6 +153,11 @@ path
 :
 string
 ;
+omitBackground
+?
+:
+boolean
+;
 }
 export
 interface

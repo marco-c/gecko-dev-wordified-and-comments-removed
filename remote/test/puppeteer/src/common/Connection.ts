@@ -108,6 +108,13 @@ EventEmitter
 js
 '
 ;
+export
+{
+ConnectionTransport
+ProtocolMapping
+}
+;
+export
 interface
 ConnectionCallback
 {
@@ -965,6 +972,7 @@ sessionId
 ;
 }
 }
+export
 interface
 CDPSessionOnMessageObject
 {
