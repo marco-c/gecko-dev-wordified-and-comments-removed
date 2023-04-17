@@ -803,6 +803,10 @@ font
 :
 inherit
 ;
+color
+:
+FieldText
+;
 }
 menulist
 >
@@ -825,10 +829,6 @@ max
 width
 :
 none
-;
-color
-:
-FieldText
 ;
 }
 /
