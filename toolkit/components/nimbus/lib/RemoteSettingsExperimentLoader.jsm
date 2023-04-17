@@ -347,9 +347,6 @@ const
 RemoteDefaultsLoader
 =
 {
-_initialized
-:
-false
 async
 syncRemoteDefaults
 (
@@ -371,6 +368,7 @@ NimbusFeatures
 ;
 try
 {
+await
 this
 .
 _onUpdatesReady
@@ -383,6 +381,14 @@ _remoteSettingsClient
 get
 (
 )
+)
+;
+ExperimentManager
+.
+store
+.
+finalizeRemoteConfigs
+(
 )
 ;
 }
