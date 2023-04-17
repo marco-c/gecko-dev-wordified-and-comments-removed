@@ -129,6 +129,13 @@ ProfilerMarkers
 cpp
 "
 "
+core
+/
+RegisteredThread
+.
+cpp
+"
+"
 gecko
 /
 ChildProfilerController
@@ -1011,13 +1018,6 @@ h
 public
 /
 ProfilerThreadRegistry
-.
-h
-"
-"
-public
-/
-ProfilerThreadState
 .
 h
 "

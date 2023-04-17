@@ -22,6 +22,13 @@ h
 #
 include
 "
+ThreadInfo
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ProfileJSONWriter
