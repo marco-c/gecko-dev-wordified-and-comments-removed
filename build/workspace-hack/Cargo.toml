@@ -439,6 +439,9 @@ ioapiset
 libloaderapi
 "
 "
+knownfolders
+"
+"
 memoryapi
 "
 "
@@ -469,10 +472,16 @@ processenv
 profileapi
 "
 "
+psapi
+"
+"
 rpcndr
 "
 "
 setupapi
+"
+"
+shlobj
 "
 "
 std
