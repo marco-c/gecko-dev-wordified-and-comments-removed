@@ -161,12 +161,9 @@ bool
 )
 IsImageContainerAvailable
 (
-layers
-:
-:
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 uint32_t
 aFlags
 )

@@ -18313,7 +18313,7 @@ nsDisplayBackgroundImage
 :
 CanBuildWebRenderDisplayItems
 (
-LayerManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder

@@ -18,12 +18,6 @@ layers
 :
 ImageContainer
 ;
-using
-layers
-:
-:
-LayerManager
-;
 namespace
 image
 {
@@ -201,9 +195,9 @@ FrozenImage
 :
 IsImageContainerAvailable
 (
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 uint32_t
 aFlags
 )
@@ -223,7 +217,7 @@ InnerImage
 >
 IsImageContainerAvailable
 (
-aManager
+aRenderer
 aFlags
 )
 ;

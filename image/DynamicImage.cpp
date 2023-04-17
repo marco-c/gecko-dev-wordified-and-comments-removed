@@ -120,15 +120,6 @@ layers
 :
 ImageContainer
 ;
-using
-mozilla
-:
-:
-layers
-:
-:
-LayerManager
-;
 namespace
 mozilla
 {
@@ -819,9 +810,9 @@ DynamicImage
 :
 IsImageContainerAvailable
 (
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 uint32_t
 aFlags
 )

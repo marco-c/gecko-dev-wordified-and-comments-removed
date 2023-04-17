@@ -85,12 +85,6 @@ layers
 :
 ImageContainer
 ;
-using
-layers
-:
-:
-LayerManager
-;
 namespace
 image
 {
@@ -800,9 +794,9 @@ ImageWrapper
 :
 IsImageContainerAvailable
 (
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 uint32_t
 aFlags
 )
@@ -813,7 +807,7 @@ mInnerImage
 >
 IsImageContainerAvailable
 (
-aManager
+aRenderer
 aFlags
 )
 ;

@@ -119,7 +119,7 @@ class
 WebRenderParentCommand
 ;
 class
-LayerManager
+WebRenderLayerManager
 ;
 class
 RenderRootStateManager
@@ -302,8 +302,8 @@ mozilla
 layers
 :
 :
-LayerManager
-LayerManager
+WebRenderLayerManager
+WebRenderLayerManager
 ;
 typedef
 mozilla
@@ -1712,7 +1712,7 @@ static
 bool
 CanBuildWebRenderDisplayItemsForStyleImageLayer
 (
-LayerManager
+WebRenderLayerManager
 *
 aManager
 nsPresContext

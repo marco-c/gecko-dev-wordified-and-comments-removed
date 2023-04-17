@@ -14969,7 +14969,10 @@ protected
 bool
 CanBuildWebRenderDisplayItems
 (
-LayerManager
+layers
+:
+:
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder

@@ -9082,7 +9082,7 @@ nsCSSRendering
 :
 CanBuildWebRenderDisplayItemsForStyleImageLayer
 (
-LayerManager
+WebRenderLayerManager
 *
 aManager
 nsPresContext
