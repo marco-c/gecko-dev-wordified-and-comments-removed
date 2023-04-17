@@ -118,7 +118,7 @@ const
 uint32_t
 kNumContentProcessIDBits
 =
-7UL
+8UL
 ;
 static
 const

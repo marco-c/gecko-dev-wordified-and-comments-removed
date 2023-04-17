@@ -246,7 +246,7 @@ const
 uint32_t
 kIdContentProcessMask
 =
-0x7F000000
+0x7F800000
 ;
 static
 mscom
