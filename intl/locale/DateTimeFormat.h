@@ -104,6 +104,8 @@ Skeleton
 {
 yyyyMM
 yyyyMMMM
+E
+EEEE
 }
 ;
 static
