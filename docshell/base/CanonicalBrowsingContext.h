@@ -549,7 +549,10 @@ LoadingSessionHistoryInfo
 aInfo
 nsIChannel
 *
-aChannel
+aOldChannel
+nsIChannel
+*
+aNewChannel
 )
 ;
 already_AddRefed

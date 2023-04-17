@@ -11791,6 +11791,7 @@ mLoadingSessionHistoryInfo
 get
 (
 )
+aOldChannel
 aNewChannel
 )
 ;

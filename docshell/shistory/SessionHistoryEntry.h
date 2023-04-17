@@ -174,7 +174,10 @@ SessionHistoryInfo
 (
 nsIChannel
 *
-aChannel
+aOldChannel
+nsIChannel
+*
+aNewChannel
 uint32_t
 aLoadType
 nsIPrincipal

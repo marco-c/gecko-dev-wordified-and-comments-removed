@@ -521,7 +521,10 @@ SessionHistoryInfo
 (
 nsIChannel
 *
-aChannel
+aOldChannel
+nsIChannel
+*
+aNewChannel
 uint32_t
 aLoadType
 nsIPrincipal
@@ -532,7 +535,7 @@ nsIContentSecurityPolicy
 aCsp
 )
 {
-aChannel
+aNewChannel
 -
 >
 GetURI
@@ -553,7 +556,7 @@ nsILoadInfo
 >
 loadInfo
 ;
-aChannel
+aNewChannel
 -
 >
 GetLoadInfo
@@ -633,7 +636,7 @@ mCsp
 =
 aCsp
 ;
-aChannel
+aNewChannel
 -
 >
 GetContentType
@@ -648,7 +651,7 @@ Get
 mContentType
 )
 ;
-aChannel
+aOldChannel
 -
 >
 GetOriginalURI
@@ -662,7 +665,7 @@ mOriginalURI
 uint32_t
 loadFlags
 ;
-aChannel
+aNewChannel
 -
 >
 GetLoadFlags
@@ -698,7 +701,7 @@ httpChannel
 =
 do_QueryInterface
 (
-aChannel
+aNewChannel
 )
 )
 {
