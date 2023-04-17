@@ -371,6 +371,14 @@ true
 "
 suggest
 .
+calculator
+"
+false
+]
+[
+"
+suggest
+.
 quicksuggest
 "
 true

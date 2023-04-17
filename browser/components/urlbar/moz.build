@@ -108,6 +108,11 @@ UrlbarProviderAutofill
 jsm
 "
 "
+UrlbarProviderCalculator
+.
+jsm
+"
+"
 UrlbarProviderExtension
 .
 jsm
