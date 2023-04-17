@@ -8041,6 +8041,17 @@ if
 mbPromise
 )
 {
+if
+(
+!
+mbPromise
+-
+>
+IsResolved
+(
+)
+)
+{
 nsJSContext
 :
 :
@@ -8167,6 +8178,7 @@ r
 return
 true
 ;
+}
 }
 break
 ;
