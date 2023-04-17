@@ -939,6 +939,12 @@ gfxVars
 WebRenderRequiresHardwareDriver
 (
 )
+StaticPrefs
+:
+:
+gfx_webrender_low_quality_pinch_zoom_AtStartup
+(
+)
 )
 )
 {

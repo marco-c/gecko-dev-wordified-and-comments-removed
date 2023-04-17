@@ -4796,6 +4796,11 @@ force_invalidation
 :
 false
 is_software
+low_quality_pinch_zoom
+:
+options
+.
+low_quality_pinch_zoom
 }
 ;
 info
@@ -24890,6 +24895,10 @@ pub
 reject_software_rasterizer
 :
 bool
+pub
+low_quality_pinch_zoom
+:
+bool
 }
 impl
 RendererOptions
@@ -25105,6 +25114,9 @@ enable_instancing
 :
 true
 reject_software_rasterizer
+:
+false
+low_quality_pinch_zoom
 :
 false
 }

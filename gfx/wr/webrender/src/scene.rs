@@ -1487,6 +1487,9 @@ false
 is_software
 :
 false
+low_quality_pinch_zoom
+:
+false
 }
 }
 }
