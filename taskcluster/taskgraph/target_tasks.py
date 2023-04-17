@@ -6368,6 +6368,8 @@ linux1804
 clang
 -
 trunk
+-
+qr
 /
 opt
 "
