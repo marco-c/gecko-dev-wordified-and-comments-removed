@@ -31581,6 +31581,11 @@ nscoord
 aBoxSizingToMarginEdge
 ExtremumLength
 aSize
+Maybe
+<
+nscoord
+>
+aAvailableISizeOverride
 const
 StyleSizeOverrides
 &
@@ -31835,6 +31840,11 @@ aRenderingContext
 nscoord
 fill
 =
+aAvailableISizeOverride
+?
+*
+aAvailableISizeOverride
+:
 aContainingBlockSize
 .
 ISize
