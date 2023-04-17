@@ -2198,6 +2198,14 @@ netwerk
 /
 dns
 /
+nsHostRecord
+.
+cpp
+-
+netwerk
+/
+dns
+/
 nsHostResolver
 .
 cpp
