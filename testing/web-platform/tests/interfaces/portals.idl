@@ -104,7 +104,7 @@ postMessage
 any
 message
 optional
-PostMessageOptions
+StructuredSerializeOptions
 options
 =
 {
@@ -124,7 +124,7 @@ onmessageerror
 dictionary
 PortalActivateOptions
 :
-PostMessageOptions
+StructuredSerializeOptions
 {
 any
 data
@@ -159,7 +159,7 @@ postMessage
 any
 message
 optional
-PostMessageOptions
+StructuredSerializeOptions
 options
 =
 {
