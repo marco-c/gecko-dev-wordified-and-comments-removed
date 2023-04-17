@@ -57079,9 +57079,13 @@ aanpe
 cx_
 )
 ;
-#
-ifdef
-FUZZING
+if
+(
+IsFuzzing
+(
+)
+)
+{
 TRY_ATTACH
 (
 tryAttachPlainObject
@@ -57089,8 +57093,7 @@ tryAttachPlainObject
 )
 )
 ;
-#
-endif
+}
 TRY_ATTACH
 (
 tryAttachTemplateObject
