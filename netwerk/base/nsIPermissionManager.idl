@@ -256,14 +256,6 @@ AString
 patternAsJSON
 )
 ;
-void
-broadcastPermissionsForPrincipalToAllContentProcesses
-(
-in
-nsIPrincipal
-aPrincipal
-)
-;
 }
 ;
 %
