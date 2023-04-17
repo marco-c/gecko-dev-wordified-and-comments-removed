@@ -12,7 +12,7 @@ mozconfigs
 /
 android
 -
-arm
+x86_64
 /
 nightly
 "
