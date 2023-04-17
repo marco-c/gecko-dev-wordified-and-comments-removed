@@ -523,9 +523,11 @@ aIsExtra
 extraState
 ;
 return
-aState
-|
 extraState
+?
+extraState
+:
+aState
 ;
 }
 static
