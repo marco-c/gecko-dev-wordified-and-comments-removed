@@ -240,7 +240,9 @@ vp8
 hardwareAcceleration
 :
 "
-require
+prefer
+-
+hardware
 "
 width
 :
@@ -405,7 +407,9 @@ avc1
 hardwareAcceleration
 :
 "
-allow
+no
+-
+preference
 "
 width
 :
@@ -443,7 +447,9 @@ vp8
 hardwareAcceleration
 :
 "
-allow
+no
+-
+preference
 "
 width
 :
@@ -493,7 +499,9 @@ vp09
 hardwareAcceleration
 :
 "
-allow
+no
+-
+preference
 "
 width
 :
