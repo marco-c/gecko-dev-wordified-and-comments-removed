@@ -874,7 +874,7 @@ QM_TRY_UNWRAP
 (
 auto
 conn
-QM_OR_ELSE_WARN
+QM_OR_ELSE_WARN_IF
 (
 MOZ_TO_RESULT_INVOKE_TYPED
 (
@@ -889,6 +889,7 @@ dbFileUrl
 "
 _ns
 )
+IsDatabaseCorruptionError
 (
 [
 &
@@ -915,14 +916,6 @@ mozIStorageConnection
 >
 nsresult
 >
-{
-if
-(
-IsDatabaseCorruptionError
-(
-rv
-)
-)
 {
 NS_WARNING
 (
@@ -962,13 +955,6 @@ dbFileUrl
 "
 _ns
 )
-)
-;
-}
-return
-Err
-(
-rv
 )
 ;
 }

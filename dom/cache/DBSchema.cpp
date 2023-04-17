@@ -3018,7 +3018,7 @@ kPageSize
 ;
 QM_TRY
 (
-QM_OR_ELSE_WARN
+QM_OR_ELSE_WARN_IF
 (
 ToResult
 (
@@ -3032,9 +3032,12 @@ kGrowthSize
 _ns
 )
 )
-ErrToDefaultOkOrErr
+IsSpecificError
 <
 NS_ERROR_FILE_TOO_BIG
+>
+ErrToDefaultOk
+<
 >
 )
 )
