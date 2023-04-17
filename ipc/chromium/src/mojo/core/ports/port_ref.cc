@@ -61,7 +61,7 @@ const
 PortName
 &
 name
-scoped_refptr
+RefPtr
 <
 Port
 >
