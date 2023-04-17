@@ -489,9 +489,15 @@ Throws
 PeriodicWave
 createPeriodicWave
 (
-Float32Array
+sequence
+<
+float
+>
 real
-Float32Array
+sequence
+<
+float
+>
 imag
 optional
 PeriodicWaveConstraints
