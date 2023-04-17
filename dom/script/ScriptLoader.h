@@ -991,11 +991,6 @@ return
 mDocument
 ;
 }
-void
-Shutdown
-(
-)
-;
 private
 :
 virtual
