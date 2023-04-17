@@ -951,8 +951,6 @@ MachCommandBase
 )
 :
     
-property
-    
 def
 artifact_cache_path
 (
@@ -992,8 +990,6 @@ cache
 browsertime
 "
 )
-    
-property
     
 def
 state_path
@@ -1218,6 +1214,8 @@ ArtifactCache
 self
 .
 artifact_cache_path
+(
+)
 log
 =
 self
@@ -1294,6 +1292,8 @@ mkdir
 self
 .
 state_path
+(
+)
 )
                     
 os
@@ -1303,6 +1303,8 @@ chdir
 self
 .
 state_path
+(
+)
 )
                     
 self
@@ -1382,6 +1384,8 @@ join
 self
 .
 state_path
+(
+)
 fetch
 .
 get
@@ -1405,6 +1409,8 @@ chdir
 self
 .
 state_path
+(
+)
 )
                     
 else
@@ -1426,6 +1432,8 @@ join
 self
 .
 state_path
+(
+)
 fetch
 .
 get
@@ -2153,6 +2161,8 @@ join
 self
 .
 state_path
+(
+)
 fetches
 [
 "
@@ -2188,6 +2198,8 @@ join
 self
 .
 state_path
+(
+)
 fetches
 [
 "
@@ -2216,6 +2228,8 @@ insert
 self
 .
 state_path
+(
+)
                 
 if
 host_platform
