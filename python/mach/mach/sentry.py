@@ -266,16 +266,30 @@ topsrcdir
 )
 :
     
+repo
+=
+_get_repository_object
+(
+topsrcdir
+)
+    
+if
+repo
+is
+None
+:
+        
+return
+    
 if
 not
 _is_unmodified_mach_core
 (
-topsrcdir
+repo
 )
 :
         
 return
-None
     
 for
 map_fn
@@ -293,6 +307,31 @@ map_fn
 (
 sentry_event
 topsrcdir
+)
+    
+sentry_event
+[
+"
+release
+"
+]
+=
+"
+hg
+-
+rev
+-
+{
+}
+"
+.
+format
+(
+repo
+.
+base_ref_as_hg
+(
+)
 )
     
 return
@@ -697,7 +736,7 @@ None
 def
 _is_unmodified_mach_core
 (
-topsrcdir
+repo
 )
 :
     
@@ -824,22 +863,6 @@ tree
 "
 "
 "
-    
-repo
-=
-_get_repository_object
-(
-topsrcdir
-)
-    
-if
-repo
-is
-None
-:
-        
-return
-False
     
 try
 :
