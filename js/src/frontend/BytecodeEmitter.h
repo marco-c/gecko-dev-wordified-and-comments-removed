@@ -922,11 +922,14 @@ TaggedParserAtomIndex
 name
 )
 ;
-NameLocation
+bool
 lookupPrivate
 (
 TaggedParserAtomIndex
 name
+NameLocation
+&
+loc
 mozilla
 :
 :
