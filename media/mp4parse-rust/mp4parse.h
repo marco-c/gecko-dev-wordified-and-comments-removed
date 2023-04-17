@@ -5,6 +5,10 @@ mp4parse_rust_mp4parse_h
 define
 mp4parse_rust_mp4parse_h
 #
+define
+MP4PARSE_UNSTABLE_API
+1
+#
 include
 "
 mp4parse_ffi_generated

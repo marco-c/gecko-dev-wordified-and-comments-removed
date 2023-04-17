@@ -163,6 +163,17 @@ xml
 "
 MP4PARSE_FEATURE_META_XML
 "
+"
+feature
+=
+unstable
+-
+api
+"
+=
+"
+MP4PARSE_UNSTABLE_API
+"
 [
 parse
 ]

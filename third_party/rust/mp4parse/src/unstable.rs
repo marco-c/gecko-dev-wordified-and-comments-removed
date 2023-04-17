@@ -780,10 +780,6 @@ stco
 offsets
 )
 .
-by_ref
-(
-)
-.
 map
 (
 |
@@ -799,9 +795,15 @@ to_usize
 )
 )
 .
-sum
+try_fold
 (
+0usize
+usize
+:
+:
+checked_add
 )
+?
 ;
 let
 mut
