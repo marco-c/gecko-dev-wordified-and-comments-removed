@@ -18,9 +18,6 @@ first
 #
 endif
 #
-ifdef
-QM_ERROR_STACKS_ENABLED
-#
 include
 "
 mozilla
@@ -29,6 +26,9 @@ Result
 .
 h
 "
+#
+ifdef
+QM_ERROR_STACKS_ENABLED
 #
 include
 "
@@ -42,6 +42,17 @@ h
 include
 "
 nsError
+.
+h
+"
+#
+else
+#
+include
+"
+mozilla
+/
+ResultExtensions
 .
 h
 "
