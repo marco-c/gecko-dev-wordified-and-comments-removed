@@ -126,6 +126,14 @@ docShell
 chromeEventHandler
 ;
 }
+isDestroyed
+(
+)
+{
+return
+false
+;
+}
 }
 function
 MockWindow
