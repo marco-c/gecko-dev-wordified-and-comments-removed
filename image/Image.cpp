@@ -753,9 +753,12 @@ ImageResource
 :
 GetImageContainerImpl
 (
-WindowRenderer
+layers
+:
+:
+LayerManager
 *
-aRenderer
+aManager
 const
 gfx
 :
@@ -797,7 +800,7 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-aRenderer
+aManager
 )
 ;
 MOZ_ASSERT
@@ -847,7 +850,7 @@ size
 =
 GetImageContainerSize
 (
-aRenderer
+aManager
 aSize
 aFlags
 )

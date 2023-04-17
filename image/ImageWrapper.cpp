@@ -830,9 +830,9 @@ ImageWrapper
 :
 GetImageContainer
 (
-WindowRenderer
+LayerManager
 *
-aRenderer
+aManager
 uint32_t
 aFlags
 )
@@ -843,7 +843,7 @@ mInnerImage
 >
 GetImageContainer
 (
-aRenderer
+aManager
 aFlags
 )
 ;
@@ -889,9 +889,12 @@ ImageWrapper
 :
 GetImageContainerAtSize
 (
-WindowRenderer
+layers
+:
+:
+LayerManager
 *
-aRenderer
+aManager
 const
 gfx
 :
@@ -930,7 +933,7 @@ mInnerImage
 >
 GetImageContainerAtSize
 (
-aRenderer
+aManager
 aSize
 aSVGContext
 aRegion
