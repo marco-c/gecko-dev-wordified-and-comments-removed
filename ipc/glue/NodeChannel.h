@@ -562,6 +562,8 @@ mClosed
 =
 false
 ;
+WeakPtr
+<
 IPC
 :
 :
@@ -569,10 +571,8 @@ Channel
 :
 :
 Listener
-*
+>
 mExistingListener
-=
-nullptr
 ;
 }
 ;
