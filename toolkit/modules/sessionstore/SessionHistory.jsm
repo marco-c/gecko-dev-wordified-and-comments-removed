@@ -789,7 +789,7 @@ if
 (
 shEntry
 .
-srcdocData
+isSrcdocEntry
 )
 {
 entry
@@ -800,14 +800,6 @@ shEntry
 .
 srcdocData
 ;
-}
-if
-(
-shEntry
-.
-isSrcdocEntry
-)
-{
 entry
 .
 isSrcdocEntry
