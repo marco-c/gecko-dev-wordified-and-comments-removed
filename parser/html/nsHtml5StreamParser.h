@@ -346,10 +346,6 @@ friend
 class
 nsHtml5StreamParserPtr
 ;
-friend
-class
-nsHtml5StreamListener
-;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
