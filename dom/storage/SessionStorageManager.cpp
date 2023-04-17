@@ -72,6 +72,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StoragePrincipalHelper
 .
 h
