@@ -287,16 +287,6 @@ build
 /
 .
 gitignore
--
-doc
--
-examples
--
-package
--
-tests
--
-tools
 update
 -
 actions
