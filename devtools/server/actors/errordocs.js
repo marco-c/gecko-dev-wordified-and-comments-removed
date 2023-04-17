@@ -148,11 +148,6 @@ JSMSG_BAD_SORT_ARG
 "
 Array_sort_argument
 "
-JSMSG_BAD_WITHSORTED_ARG
-:
-"
-Array_withSorted_argument
-"
 JSMSG_UNEXPECTED_TYPE
 :
 "
