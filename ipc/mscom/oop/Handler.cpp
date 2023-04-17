@@ -1098,6 +1098,9 @@ Register
 (
 REFCLSID
 aClsid
+const
+bool
+aMsixContainer
 )
 {
 return
@@ -1121,6 +1124,8 @@ ClassType
 :
 :
 InprocHandler
+nullptr
+aMsixContainer
 )
 ;
 }

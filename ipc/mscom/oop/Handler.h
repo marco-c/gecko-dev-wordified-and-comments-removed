@@ -301,6 +301,11 @@ Register
 (
 REFCLSID
 aClsid
+const
+bool
+aMsixContainer
+=
+false
 )
 ;
 static

@@ -122,6 +122,11 @@ const
 aAppId
 =
 nullptr
+const
+bool
+aMsixContainer
+=
+false
 )
 {
 const
@@ -143,6 +148,7 @@ clsidArray
 aThreadingModel
 aClassType
 aAppId
+aMsixContainer
 )
 ;
 }
@@ -183,6 +189,11 @@ const
 aAppId
 =
 nullptr
+const
+bool
+aMsixContainer
+=
+false
 )
 {
 return
@@ -193,6 +204,7 @@ N
 aThreadingModel
 aClassType
 aAppId
+aMsixContainer
 )
 ;
 }
@@ -294,6 +306,9 @@ GUID
 *
 const
 aAppId
+const
+bool
+aMsixContainer
 )
 ;
 static
