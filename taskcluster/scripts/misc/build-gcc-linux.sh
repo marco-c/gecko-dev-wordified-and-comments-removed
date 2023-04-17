@@ -31,6 +31,15 @@ unix
 build
 -
 gcc
+PATH
+=
+MOZ_FETCHES_DIR
+/
+gcc
+/
+bin
+:
+PATH
 .
 data_dir
 /
