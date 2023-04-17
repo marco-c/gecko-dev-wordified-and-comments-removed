@@ -277,6 +277,12 @@ nsIPrincipal
 aPrecursor
 =
 nullptr
+const
+nsID
+*
+aPrincipalID
+=
+nullptr
 )
 ;
 virtual

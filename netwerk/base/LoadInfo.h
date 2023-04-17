@@ -558,9 +558,6 @@ nsIPrincipal
 aPrincipalToInherit
 nsIPrincipal
 *
-aSandboxedLoadingPrincipal
-nsIPrincipal
-*
 aTopLevelPrincipal
 nsIPrincipal
 *
@@ -574,6 +571,10 @@ aCookieJarSettings
 nsIContentSecurityPolicy
 *
 aCspToInherit
+const
+nsID
+&
+aSandboxedNullPrincipalID
 const
 Maybe
 <
@@ -916,12 +917,6 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mSandboxedLoadingPrincipal
-;
-nsCOMPtr
-<
-nsIPrincipal
->
 mTopLevelPrincipal
 ;
 nsCOMPtr
@@ -953,6 +948,9 @@ nsCOMPtr
 nsIContentSecurityPolicy
 >
 mCspToInherit
+;
+nsID
+mSandboxedNullPrincipalID
 ;
 Maybe
 <

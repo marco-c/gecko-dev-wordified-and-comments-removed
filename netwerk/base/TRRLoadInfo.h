@@ -143,6 +143,9 @@ nsCString
 >
 mCorsUnsafeHeaders
 ;
+nsID
+mSandboxedNullPrincipalID
+;
 Maybe
 <
 mozilla
