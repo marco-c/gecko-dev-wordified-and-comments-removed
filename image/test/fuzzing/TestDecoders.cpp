@@ -640,6 +640,9 @@ avif
 )
 ;
 }
+#
+ifdef
+MOZ_JXL
 static
 int
 RunDecodeToSurfaceFuzzingJXL
@@ -663,6 +666,8 @@ jxl
 )
 ;
 }
+#
+endif
 int
 FuzzingInitImage
 (
