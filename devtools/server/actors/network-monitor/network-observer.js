@@ -440,11 +440,10 @@ channel
 if
 (
 topFrame
-&
-&
-topFrame
+?
 .
 browsingContext
+?
 .
 browserId
 =
