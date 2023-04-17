@@ -854,7 +854,11 @@ TimeStamp
 Now
 (
 )
+-
+now
 future
+-
+now
 )
 ;
 ASSERT_EQ
