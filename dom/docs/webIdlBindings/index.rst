@@ -650,8 +650,7 @@ nsISupports
 code
 :
 :
-brush
-:
+cpp
 /
 /
 Add
@@ -1851,7 +1850,7 @@ webidl
 code
 :
 :
-notranslate
+webidl
 interface
 MyInterface
 {
@@ -1929,8 +1928,7 @@ declarations
 code
 :
 :
-brush
-:
+cpp
 class
 MyClass
 {
@@ -2404,7 +2402,7 @@ IDL
 code
 :
 :
-notranslate
+webidl
 interface
 MyInterface
 {
@@ -2434,8 +2432,7 @@ MyClass
 code
 :
 :
-brush
-:
+cpp
 class
 MyClass
 {
@@ -3338,7 +3335,7 @@ WebIDL
 code
 :
 :
-notranslate
+webidl
 interface
 Test
 {
@@ -3378,8 +3375,7 @@ declarations
 code
 :
 :
-brush
-:
+cpp
 void
 MyAttr
 (
@@ -3509,7 +3505,7 @@ WebIDL
 code
 :
 :
-notranslate
+webidl
 interface
 Test
 {
@@ -3542,8 +3538,7 @@ declarations
 code
 :
 :
-brush
-:
+cpp
 bool
 MyAttr
 (
@@ -3608,7 +3603,7 @@ WebIDL
 code
 :
 :
-notranslate
+webidl
 interface
 Test
 {
@@ -3643,8 +3638,7 @@ declarations
 code
 :
 :
-brush
-:
+cpp
 int16_t
 MyAttr
 (
@@ -3742,7 +3736,7 @@ WebIDL
 code
 :
 :
-notranslate
+webidl
 interface
 Test
 {
@@ -3775,8 +3769,7 @@ declarations
 code
 :
 :
-brush
-:
+cpp
 float
 MyAttr
 (
@@ -3977,7 +3970,7 @@ WebIDL
 code
 :
 :
-notranslate
+webidl
 interface
 Test
 {
@@ -4020,8 +4013,7 @@ declarations
 code
 :
 :
-brush
-:
+cpp
 void
 GetMyAttr
 (
@@ -4561,7 +4553,7 @@ WebIDL
 code
 :
 :
-notranslate
+webidl
 interface
 Test
 {
@@ -4607,8 +4599,7 @@ declarations
 code
 :
 :
-brush
-:
+cpp
 void
 GetMyAttr
 (
@@ -5216,7 +5207,7 @@ WebIDL
 code
 :
 :
-notranslate
+webidl
 callback
 interface
 MyCallback
@@ -5289,8 +5280,7 @@ namespace
 code
 :
 :
-brush
-:
+cpp
 class
 MyCallback
 :
@@ -5408,7 +5398,7 @@ MyInterface
 code
 :
 :
-notranslate
+cpp
 already_AddRefed
 <
 MyCallback
@@ -5457,8 +5447,7 @@ this
 code
 :
 :
-brush
-:
+cpp
 void
 SomeClass
 :
@@ -6099,7 +6088,7 @@ WebIDL
 code
 :
 :
-notranslate
+webidl
 interface
 MyInterface
 {
@@ -6170,8 +6159,7 @@ declarations
 code
 :
 :
-brush
-:
+cpp
 already_AddRefed
 <
 MyClass
@@ -6325,7 +6313,7 @@ WebIDL
 code
 :
 :
-notranslate
+webidl
 interface
 Test
 {
@@ -6367,8 +6355,7 @@ declarations
 code
 :
 :
-brush
-:
+cpp
 void
 PassTypedArrayBuffer
 (
@@ -6837,7 +6824,7 @@ WebIDL
 code
 :
 :
-notranslate
+webidl
 dictionary
 Dict
 {
@@ -6882,8 +6869,7 @@ declaration
 code
 :
 :
-brush
-:
+cpp
 void
 InitSomething
 (
@@ -6907,8 +6893,7 @@ this
 code
 :
 :
-brush
-:
+cpp
 struct
 Dict
 {
@@ -7167,8 +7152,7 @@ above
 code
 :
 :
-brush
-:
+cpp
 void
 MyInterface
 :
@@ -7444,7 +7428,7 @@ WebIDL
 code
 :
 :
-notranslate
+webidl
 enum
 MyEnum
 {
@@ -7478,8 +7462,7 @@ declaration
 code
 :
 :
-brush
-:
+cpp
 enum
 class
 MyEnum
@@ -7781,7 +7764,7 @@ WebIDL
 code
 :
 :
-notranslate
+webidl
 callback
 MyCallback
 =
@@ -7829,8 +7812,7 @@ namespace
 code
 :
 :
-brush
-:
+cpp
 class
 MyCallback
 :
@@ -7901,7 +7883,7 @@ class
 code
 :
 :
-notranslate
+cpp
 already_AddRefed
 <
 MyCallback
@@ -7950,8 +7932,7 @@ this
 code
 :
 :
-brush
-:
+cpp
 void
 SomeClass
 :
@@ -8358,7 +8339,7 @@ IDL
 code
 :
 :
-notranslate
+webidl
 void
 passUnion
 (
@@ -8421,8 +8402,7 @@ declarations
 code
 :
 :
-brush
-:
+cpp
 void
 PassUnion
 (
@@ -8556,8 +8536,7 @@ methods
 code
 :
 :
-brush
-:
+cpp
 bool
 IsObject
 (
@@ -8761,7 +8740,7 @@ Interface
 code
 :
 :
-notranslate
+webidl
 interface
 StringToLongMap
 {
@@ -8816,8 +8795,7 @@ follows
 code
 :
 :
-brush
-:
+cpp
 namespace
 StringToLongMapBinding
 {
@@ -8932,7 +8910,7 @@ Interface
 code
 :
 :
-notranslate
+webidl
 interface
 StringSet
 {
@@ -8986,8 +8964,7 @@ follows
 code
 :
 :
-brush
-:
+cpp
 namespace
 StringSetBinding
 {
@@ -9170,7 +9147,7 @@ iterator
 code
 :
 :
-notranslate
+webidl
 interface
 LongIterable
 {
@@ -9253,7 +9230,7 @@ iterator
 code
 :
 :
-notranslate
+webidl
 interface
 StringAndLongIterable
 {
@@ -9291,8 +9268,7 @@ object
 code
 :
 :
-brush
-:
+cpp
 class
 StringAndLongIterable
 {
@@ -9407,7 +9383,7 @@ IDL
 code
 :
 :
-notranslate
+webidl
 interface
 FirstInterface
 {
@@ -9439,7 +9415,7 @@ be
 code
 :
 :
-notranslate
+cpp
 class
 FirstInterface
 {
@@ -9551,7 +9527,7 @@ IDL
 code
 :
 :
-notranslate
+webidl
 interface
 InterfaceWithCall
 {
@@ -9577,8 +9553,7 @@ be
 code
 :
 :
-brush
-:
+cpp
 class
 InterfaceWithCall
 {
@@ -9816,7 +9791,7 @@ IDL
 code
 :
 :
-notranslate
+webidl
 interface
 InterfaceWithNamedGetter
 {
@@ -9842,8 +9817,7 @@ be
 code
 :
 :
-brush
-:
+cpp
 class
 InterfaceWithNamedGetter
 {
@@ -10003,7 +9977,7 @@ IDL
 code
 :
 :
-notranslate
+webidl
 interface
 InterfaceWithIndexedGetter
 {
@@ -10036,8 +10010,7 @@ be
 code
 :
 :
-brush
-:
+cpp
 class
 InterfaceWithIndexedGetter
 {
@@ -10333,7 +10306,7 @@ example
 code
 :
 :
-notranslate
+webidl
 interface
 MyInterface
 {
@@ -10597,7 +10570,7 @@ example
 code
 :
 :
-notranslate
+webidl
 interface
 MyInterface
 {
@@ -11068,7 +11041,7 @@ used
 code
 :
 :
-notranslate
+webidl
 interface
 MyInterface
 {
@@ -11274,7 +11247,7 @@ used
 code
 :
 :
-notranslate
+webidl
 [
 Pref
 =
@@ -11440,7 +11413,7 @@ used
 code
 :
 :
-notranslate
+webidl
 interface
 MyInterface
 {
@@ -11565,8 +11538,7 @@ C
 code
 :
 :
-brush
-:
+cpp
 class
 MyClass
 {
@@ -11758,7 +11730,7 @@ used
 code
 :
 :
-notranslate
+webidl
 [
 Func
 =
@@ -11812,8 +11784,7 @@ this
 code
 :
 :
-brush
-:
+cpp
 class
 MyClass
 {
@@ -13512,7 +13483,7 @@ IDL
 code
 :
 :
-notranslate
+webidl
 interface
 MyInterface
 {
@@ -13807,7 +13778,7 @@ IDL
 code
 :
 :
-notranslate
+webidl
 interface
 MyInterface
 {
@@ -14062,7 +14033,7 @@ IDL
 code
 :
 :
-notranslate
+webidl
 interface
 InterfaceWithRenamedThings
 {
@@ -14104,8 +14075,7 @@ be
 code
 :
 :
-brush
-:
+cpp
 class
 InterfaceWithRenamedThings
 {
@@ -16800,7 +16770,7 @@ like
 code
 :
 :
-notranslate
+webidl
 attribute
 EventHandler
 onthingchange
@@ -16838,7 +16808,7 @@ macro
 code
 :
 :
-notranslate
+cpp
 IMPL_EVENT_HANDLER
 (
 onthingchange
@@ -16864,7 +16834,7 @@ file
 code
 :
 :
-notranslate
+py
 Atom
 (
 "
@@ -16896,7 +16866,7 @@ like
 code
 :
 :
-notranslate
+cpp
 nsresult
 MyInterface
 :
@@ -17456,8 +17426,7 @@ example
 code
 :
 :
-brush
-:
+js
 var
 contentObject
 =
@@ -17631,8 +17600,7 @@ example
 code
 :
 :
-brush
-:
+js
 var
 contentObject
 =
@@ -17687,8 +17655,7 @@ like
 code
 :
 :
-brush
-:
+js
 var
 contentObject
 =
@@ -18005,7 +17972,7 @@ example
 code
 :
 :
-notranslate
+webidl
 [
 JSImplementation
 =
@@ -18457,7 +18424,7 @@ name
 code
 :
 :
-notranslate
+webidl
 [
 JSImplementation
 =
@@ -18790,8 +18757,7 @@ method
 code
 :
 :
-brush
-:
+js
 Components
 .
 utils
@@ -19542,8 +19508,7 @@ work
 code
 :
 :
-brush
-:
+js
 if
 (
 !
@@ -19575,8 +19540,7 @@ or
 code
 :
 :
-brush
-:
+js
 if
 (
 !
@@ -19653,8 +19617,7 @@ so
 code
 :
 :
-brush
-:
+js
 try
 {
 someOperationThatCanThrow
@@ -19913,7 +19876,7 @@ JavaScript
 code
 :
 :
-notranslate
+webidl
 [
 JSImplementation
 =
@@ -19968,8 +19931,7 @@ boilerplate
 code
 :
 :
-brush
-:
+js
 function
 MyEventTargetImpl
 (
