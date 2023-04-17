@@ -4383,6 +4383,16 @@ options
 popupIconURL
 )
 ;
+popupnotification
+.
+setAttribute
+(
+"
+hasicon
+"
+true
+)
+;
 }
 popupnotification
 .
