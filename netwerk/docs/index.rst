@@ -51,6 +51,9 @@ cache2
 doc
 http
 /
+lifecycle
+http
+/
 logging
 dns
 /
