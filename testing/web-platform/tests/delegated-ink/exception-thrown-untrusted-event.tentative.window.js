@@ -7,13 +7,6 @@ ink
 .
 requestPresenter
 (
-'
-delegated
--
-ink
--
-trail
-'
 )
 ;
 let
