@@ -244,11 +244,7 @@ Reset
 (
 )
 override
-{
-return
-NS_OK
 ;
-}
 NS_IMETHOD
 SubmitNamesValues
 (

@@ -238,6 +238,16 @@ namespaceURI
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ]
 callback
+LifecycleFormResetCallback
+=
+void
+(
+)
+;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
+callback
 LifecycleGetCustomInterfaceCallback
 =
 object
@@ -264,6 +274,9 @@ adoptedCallback
 ;
 LifecycleAttributeChangedCallback
 attributeChangedCallback
+;
+LifecycleFormResetCallback
+formResetCallback
 ;
 [
 ChromeOnly
