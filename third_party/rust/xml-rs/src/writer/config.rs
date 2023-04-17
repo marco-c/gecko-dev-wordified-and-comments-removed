@@ -82,6 +82,10 @@ pub
 autopad_comments
 :
 bool
+pub
+pad_self_closing
+:
+bool
 }
 impl
 EmitterConfig
@@ -138,6 +142,9 @@ keep_element_names_stack
 :
 true
 autopad_comments
+:
+true
+pad_self_closing
 :
 true
 }
@@ -245,6 +252,10 @@ keep_element_names_stack
 val
 bool
 autopad_comments
+:
+val
+bool
+pad_self_closing
 :
 val
 bool

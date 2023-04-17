@@ -1,3 +1,11 @@
+#
+!
+[
+forbid
+(
+unsafe_code
+)
+]
 extern
 crate
 xml
