@@ -26745,6 +26745,11 @@ failure
 "
 :
 true
+"
+inputCanBeRelative
+"
+:
+true
 }
 {
 "
@@ -26773,6 +26778,11 @@ blank
 "
 "
 failure
+"
+:
+true
+"
+inputCanBeRelative
 "
 :
 true
@@ -50718,6 +50728,11 @@ failure
 "
 :
 true
+"
+inputCanBeRelative
+"
+:
+true
 }
 "
 #
@@ -51156,6 +51171,11 @@ blank
 "
 "
 failure
+"
+:
+true
+"
+inputCanBeRelative
 "
 :
 true
