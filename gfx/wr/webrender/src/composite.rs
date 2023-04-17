@@ -3573,7 +3573,6 @@ sort_by_key
 |
 tile
 |
--
 tile
 .
 z_id
@@ -4656,7 +4655,7 @@ occluder
 z_id
 .
 0
->
+<
 z_id
 .
 0
