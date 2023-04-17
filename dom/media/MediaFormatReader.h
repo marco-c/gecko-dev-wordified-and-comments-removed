@@ -2169,6 +2169,11 @@ mIsNullDecode
 bool
 mHardwareDecodingDisabled
 ;
+bool
+mHasReportedVideoHardwareSupportTelemtry
+=
+false
+;
 class
 {
 public
