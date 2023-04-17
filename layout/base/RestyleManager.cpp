@@ -6792,18 +6792,9 @@ InsertionKind
 Sync
 )
 ;
-frame
-=
-content
--
->
-GetPrimaryFrame
-(
-)
+continue
 ;
 }
-else
-{
 MOZ_ASSERT
 (
 frame
@@ -7809,7 +7800,6 @@ UpdateVisibleDescendantsState
 (
 )
 ;
-}
 }
 }
 aChangeList
