@@ -372,17 +372,6 @@ nsString
 h
 "
 #
-include
-"
-protobuf
-/
-LayerScopePacket
-.
-pb
-.
-h
-"
-#
 undef
 compress
 #

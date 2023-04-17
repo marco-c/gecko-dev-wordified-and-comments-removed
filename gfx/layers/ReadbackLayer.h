@@ -89,13 +89,6 @@ layers
 class
 ReadbackProcessor
 ;
-namespace
-layerscope
-{
-class
-LayersPacket
-;
-}
 class
 ReadbackSink
 {

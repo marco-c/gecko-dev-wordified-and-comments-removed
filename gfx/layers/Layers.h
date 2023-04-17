@@ -422,13 +422,6 @@ TransformData
 struct
 PropertyAnimationGroup
 ;
-namespace
-layerscope
-{
-class
-LayersPacket
-;
-}
 #
 define
 MOZ_LAYER_DECL_NAME
