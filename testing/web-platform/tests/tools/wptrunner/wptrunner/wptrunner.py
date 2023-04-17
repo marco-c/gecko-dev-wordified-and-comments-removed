@@ -380,6 +380,13 @@ include_file
 :
         
 include
+=
+include
+or
+[
+]
+        
+include
 .
 extend
 (
