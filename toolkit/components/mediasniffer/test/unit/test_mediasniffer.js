@@ -227,7 +227,7 @@ expectedContentType
 "
 application
 /
-something
+ogg
 "
 flags
 :
