@@ -12311,6 +12311,7 @@ aCBSize
 boxSizingAdjust
 boxSizingToMarginEdgeISize
 styleISize
+aSizeOverrides
 aFlags
 )
 .
@@ -12542,6 +12543,7 @@ aCBSize
 boxSizingAdjust
 boxSizingToMarginEdgeISize
 maxISizeCoord
+aSizeOverrides
 aFlags
 )
 .
@@ -12600,6 +12602,7 @@ aCBSize
 boxSizingAdjust
 boxSizingToMarginEdgeISize
 minISizeCoord
+aSizeOverrides
 aFlags
 )
 .
