@@ -3852,6 +3852,9 @@ mDidLoadURLInit
 bool
 mSkipKeyPress
 ;
+bool
+mDidSetEffectsInfo
+;
 mozilla
 :
 :
