@@ -9614,7 +9614,7 @@ void
 BaseCompiler
 :
 :
-emitMemCopyInline
+memCopyInlineM32
 (
 )
 {
@@ -10639,7 +10639,7 @@ void
 BaseCompiler
 :
 :
-emitMemFillInline
+memFillInlineM32
 (
 )
 {
