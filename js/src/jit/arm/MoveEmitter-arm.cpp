@@ -100,6 +100,14 @@ numCycles
 )
 )
 {
+static_assert
+(
+SpillSlotSize
+=
+=
+8
+)
+;
 masm
 .
 reserveStack
@@ -110,10 +118,7 @@ numCycles
 (
 )
 *
-sizeof
-(
-double
-)
+SpillSlotSize
 )
 ;
 pushedAtCycle_
