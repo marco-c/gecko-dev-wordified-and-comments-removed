@@ -105,11 +105,9 @@ account
 .
 account
 -
-reconnect
--
-to
--
-fxa
+disconnected
 =
-Account
-Disconnected
+You
+ve
+been
+disconnected
