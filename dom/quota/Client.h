@@ -168,12 +168,13 @@ Client
 {
 public
 :
-typedef
+using
+AtomicBool
+=
 Atomic
 <
 bool
 >
-AtomicBool
 ;
 enum
 Type
