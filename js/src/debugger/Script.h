@@ -87,6 +87,7 @@ class_
 ;
 enum
 {
+SCRIPT_SLOT
 OWNER_SLOT
 RESERVED_SLOTS
 }
@@ -175,9 +176,9 @@ clearReferent
 (
 )
 {
-setPrivate
+clearReservedSlotGCThingAsPrivate
 (
-nullptr
+SCRIPT_SLOT
 )
 ;
 }

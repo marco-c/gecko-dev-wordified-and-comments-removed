@@ -442,8 +442,6 @@ class_
 "
 Script
 "
-JSCLASS_HAS_PRIVATE
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 RESERVED_SLOTS
@@ -463,12 +461,6 @@ JSTracer
 trc
 )
 {
-JSObject
-*
-upcast
-=
-this
-;
 gc
 :
 :
@@ -515,7 +507,7 @@ BaseScript
 TraceManuallyBarrieredCrossCompartmentEdge
 (
 trc
-upcast
+this
 &
 script
 "
@@ -527,8 +519,9 @@ referent
 "
 )
 ;
-setPrivateUnbarriered
+setReservedSlotGCThingAsPrivateUnbarriered
 (
+SCRIPT_SLOT
 script
 )
 ;
@@ -552,7 +545,7 @@ JSObject
 TraceManuallyBarrieredCrossCompartmentEdge
 (
 trc
-upcast
+this
 &
 wasm
 "
@@ -577,8 +570,9 @@ WasmInstanceObject
 )
 )
 ;
-setPrivateUnbarriered
+setReservedSlotGCThingAsPrivateUnbarriered
 (
+SCRIPT_SLOT
 wasm
 )
 ;
@@ -702,8 +696,9 @@ scriptHandle
 scriptobj
 -
 >
-setPrivateGCThing
+setReservedSlotGCThingAsPrivate
 (
+SCRIPT_SLOT
 scriptHandle
 )
 ;
