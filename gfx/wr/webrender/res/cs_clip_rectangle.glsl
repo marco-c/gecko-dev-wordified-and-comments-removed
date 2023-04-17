@@ -234,7 +234,7 @@ cmi
 struct
 ClipRect
 {
-RectWithSize
+RectWithEndpoint
 rect
 ;
 float
@@ -245,7 +245,7 @@ mode
 struct
 ClipCorner
 {
-RectWithSize
+RectWithEndpoint
 rect
 ;
 vec4
@@ -287,7 +287,7 @@ rect
 =
 ClipRect
 (
-RectWithSize
+RectWithEndpoint
 (
 aClipLocalRect
 .
@@ -305,7 +305,7 @@ top_left
 =
 ClipCorner
 (
-RectWithSize
+RectWithEndpoint
 (
 aClipRect_TL
 .
@@ -323,7 +323,7 @@ top_right
 =
 ClipCorner
 (
-RectWithSize
+RectWithEndpoint
 (
 aClipRect_TR
 .
@@ -341,7 +341,7 @@ bottom_left
 =
 ClipCorner
 (
-RectWithSize
+RectWithEndpoint
 (
 aClipRect_BL
 .
@@ -359,7 +359,7 @@ bottom_right
 =
 ClipCorner
 (
-RectWithSize
+RectWithEndpoint
 (
 aClipRect_BR
 .
@@ -419,7 +419,7 @@ fetch_clip
 (
 )
 ;
-RectWithSize
+RectWithEndpoint
 local_rect
 =
 clip
@@ -428,6 +428,17 @@ rect
 .
 rect
 ;
+vec2
+diff
+=
+cmi
+.
+local_pos
+-
+local_rect
+.
+p0
+;
 local_rect
 .
 p0
@@ -435,6 +446,13 @@ p0
 cmi
 .
 local_pos
+;
+local_rect
+.
+p1
++
+=
+diff
 ;
 ClipVertexInfo
 vi
@@ -517,9 +535,10 @@ half_size
 .
 5
 *
+rect_size
+(
 local_rect
-.
-size
+)
 ;
 float
 radius
@@ -569,10 +588,7 @@ else
 RectWithEndpoint
 clip_rect
 =
-to_rect_with_endpoint
-(
 local_rect
-)
 ;
 vec2
 r_tl
