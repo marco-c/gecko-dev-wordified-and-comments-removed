@@ -100,6 +100,15 @@ h
 #
 include
 "
+wasm
+/
+WasmLog
+.
+h
+"
+#
+include
+"
 vm
 /
 JSObject
