@@ -800,6 +800,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -813,10 +815,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -

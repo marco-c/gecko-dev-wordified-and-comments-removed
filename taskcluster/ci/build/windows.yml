@@ -359,6 +359,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -366,10 +368,6 @@ x86_64
 linux
 -
 gnu
--
-win64
--
-nsis
 fetch
 :
 -
@@ -662,6 +660,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -669,10 +669,6 @@ x86_64
 linux
 -
 gnu
--
-win64
--
-nsis
 fetch
 :
 -
@@ -964,6 +960,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -977,10 +975,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -
@@ -1264,6 +1258,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -1277,10 +1273,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -
@@ -1581,6 +1573,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -1594,10 +1588,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -
@@ -1812,8 +1802,6 @@ mozmake
 win64
 -
 dump_syms
--
-win64
 -
 nsis
 -
@@ -2154,6 +2142,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -2167,10 +2157,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -
@@ -2378,8 +2364,6 @@ mozmake
 win64
 -
 dump_syms
--
-win64
 -
 nsis
 -
@@ -2744,6 +2728,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -2751,10 +2737,6 @@ x86_64
 linux
 -
 gnu
--
-win64
--
-nsis
 fetch
 :
 -
@@ -3063,6 +3045,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -3076,10 +3060,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -
@@ -3395,6 +3375,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -3402,10 +3384,6 @@ x86_64
 linux
 -
 gnu
--
-win64
--
-nsis
 fetch
 :
 -
@@ -3719,6 +3697,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -3732,10 +3712,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -
@@ -4030,6 +4006,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -4043,10 +4021,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -
@@ -4341,6 +4315,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -4348,10 +4324,6 @@ x86_64
 linux
 -
 gnu
--
-win64
--
-nsis
 fetch
 :
 -
@@ -5528,8 +5500,6 @@ win64
 -
 dump_syms
 -
-win64
--
 nsis
 -
 sysroot
@@ -5810,6 +5780,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -5829,10 +5801,6 @@ win64
 llvm
 -
 symbolizer
--
-win64
--
-nsis
 fetch
 :
 -
@@ -6127,6 +6095,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -6146,10 +6116,6 @@ win64
 llvm
 -
 symbolizer
--
-win64
--
-nsis
 fetch
 :
 -
@@ -6517,6 +6483,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -6536,10 +6504,6 @@ win64
 llvm
 -
 symbolizer
--
-win64
--
-nsis
 fetch
 :
 -
@@ -6825,6 +6789,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -6844,10 +6810,6 @@ win64
 llvm
 -
 symbolizer
--
-win64
--
-nsis
 fetch
 :
 -
@@ -7223,6 +7185,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -7230,10 +7194,6 @@ x86_64
 linux
 -
 gnu
--
-win64
--
-nsis
 fetch
 :
 -
@@ -7556,6 +7516,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -7569,10 +7531,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -
@@ -7862,6 +7820,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -7875,10 +7835,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -
@@ -8233,6 +8189,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -8246,10 +8204,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -
@@ -8511,8 +8465,6 @@ node
 linux64
 -
 wine
--
-win64
 -
 nsis
 fetch
@@ -9167,8 +9119,6 @@ node
 linux64
 -
 wine
--
-win64
 -
 nsis
 fetch
@@ -9558,6 +9508,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -9571,10 +9523,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -
@@ -10249,8 +10197,6 @@ linux64
 -
 wine
 -
-win64
--
 nsis
 fetch
 :
@@ -10640,6 +10586,8 @@ linux64
 -
 winchecksec
 -
+nsis
+-
 sysroot
 -
 x86_64
@@ -10653,10 +10601,6 @@ sysroot
 wasm32
 -
 wasi
--
-win64
--
-nsis
 fetch
 :
 -
