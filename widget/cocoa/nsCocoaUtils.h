@@ -1016,6 +1016,17 @@ aString
 )
 ;
 static
+NSURL
+*
+ToNSURL
+(
+const
+nsAString
+&
+aURLString
+)
+;
+static
 NSString
 *
 ToNSString
