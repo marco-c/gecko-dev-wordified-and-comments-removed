@@ -1566,6 +1566,12 @@ svg
 pass
 .
 svg
+skip
+-
+if
+(
+fission
+)
 =
 =
 data
@@ -1592,6 +1598,9 @@ filter
 ref
 .
 svg
+#
+Bug
+1669323
 =
 =
 data
