@@ -274,8 +274,10 @@ GB
 "
 Englisch
 (
-Traditionell
 GB
+)
+(
+Traditionell
 )
 "
 "

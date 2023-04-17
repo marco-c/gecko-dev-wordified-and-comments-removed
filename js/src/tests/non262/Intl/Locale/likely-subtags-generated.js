@@ -2951,7 +2951,7 @@ daf
 -
 Latn
 -
-ZZ
+CI
 "
 "
 dag
@@ -3202,7 +3202,7 @@ doi
 "
 doi
 -
-Arab
+Deva
 -
 IN
 "
@@ -13492,7 +13492,7 @@ trw
 -
 Arab
 -
-ZZ
+PK
 "
 "
 ts
@@ -15523,7 +15523,7 @@ GE
 "
 :
 "
-ab
+os
 -
 Cyrl
 -
@@ -15911,7 +15911,7 @@ en
 -
 Latn
 -
-GB
+IE
 "
 "
 und
@@ -25257,6 +25257,8 @@ IN
 :
 "
 doi
+-
+Arab
 "
 "
 doi
