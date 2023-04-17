@@ -12324,9 +12324,6 @@ nullptr
 }
 if
 (
-aFocusChanged
-|
-|
 !
 focusInOtherContentProcess
 )
