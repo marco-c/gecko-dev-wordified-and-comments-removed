@@ -82190,7 +82190,7 @@ return
 LookAndFeel
 :
 :
-SystemColorScheme
+ColorSchemeForChrome
 (
 )
 ;
