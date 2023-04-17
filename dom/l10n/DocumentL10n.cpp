@@ -1473,9 +1473,8 @@ InitialTranslationCompleted
 )
 ;
 }
-SetIsSync
+SetAsync
 (
-false
 )
 ;
 }
