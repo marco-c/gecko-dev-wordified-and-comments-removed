@@ -370,6 +370,8 @@ absolute_capture_time_
 ;
 int64_t
 receive_time_ms_
+=
+0
 ;
 }
 ;
