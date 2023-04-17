@@ -171,6 +171,7 @@ css
 ]
 resizeCallback
 :
+async
 (
 {
 title
@@ -180,6 +181,7 @@ frame
 =
 >
 {
+await
 gSearchResultsPane
 .
 searchWithinNode
@@ -190,6 +192,7 @@ gSearchResultsPane
 query
 )
 ;
+await
 gSearchResultsPane
 .
 searchWithinNode
