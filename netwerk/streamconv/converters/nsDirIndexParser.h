@@ -53,6 +53,8 @@ virtual
 nsDirIndexParser
 (
 )
+=
+default
 ;
 nsDirIndexParser
 (
@@ -220,15 +222,6 @@ Field
 gFieldTable
 [
 ]
-;
-static
-nsrefcnt
-gRefCntParser
-;
-static
-nsITextToSubURI
-*
-gTextToSubURI
 ;
 }
 ;
