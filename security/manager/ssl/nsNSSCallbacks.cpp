@@ -1188,6 +1188,16 @@ nsIRequest
 :
 LOAD_ANONYMOUS
 |
+nsIRequest
+:
+:
+LOAD_BYPASS_CACHE
+|
+nsIRequest
+:
+:
+INHIBIT_CACHING
+|
 nsIChannel
 :
 :
