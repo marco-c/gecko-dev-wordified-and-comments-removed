@@ -227,3 +227,6 @@ cl
 AllowCompilerWarnings
 (
 )
+REQUIRES_UNIFIED_BUILD
+=
+True

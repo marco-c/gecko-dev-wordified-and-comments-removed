@@ -511,3 +511,6 @@ Firefox
 Installer
 "
 )
+REQUIRES_UNIFIED_BUILD
+=
+True

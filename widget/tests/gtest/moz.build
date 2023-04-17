@@ -28,3 +28,6 @@ LOCAL_INCLUDES
 widget
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

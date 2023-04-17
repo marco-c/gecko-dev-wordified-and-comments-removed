@@ -157,3 +157,6 @@ base
 /
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

@@ -79,3 +79,6 @@ c
 DisableCompilerWarnings
 (
 )
+REQUIRES_UNIFIED_BUILD
+=
+True

@@ -107,3 +107,6 @@ protocol
 http
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

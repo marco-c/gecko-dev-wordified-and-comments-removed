@@ -844,3 +844,6 @@ config
 mozbuild
 '
 )
+REQUIRES_UNIFIED_BUILD
+=
+True

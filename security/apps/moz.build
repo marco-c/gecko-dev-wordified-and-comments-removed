@@ -287,3 +287,6 @@ inputs
 cert
 ]
 )
+REQUIRES_UNIFIED_BUILD
+=
+True

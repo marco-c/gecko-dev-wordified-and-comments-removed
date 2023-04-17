@@ -186,3 +186,6 @@ Wno
 varargs
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

@@ -1269,3 +1269,6 @@ TEST_DIRS
 gtest
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

@@ -121,3 +121,6 @@ widget
 android
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True
