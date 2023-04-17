@@ -54,6 +54,10 @@ template
 <
 class
 units
+class
+Rep
+=
+int32_t
 >
 struct
 IntCoordTyped
@@ -85,6 +89,8 @@ template
 class
 units
 class
+Rep
+class
 primitive
 >
 struct
@@ -93,6 +99,7 @@ CommonType
 IntCoordTyped
 <
 units
+Rep
 >
 primitive
 >
@@ -102,7 +109,7 @@ type
 =
 decltype
 (
-int32_t
+Rep
 (
 )
 +
@@ -414,6 +421,8 @@ template
 <
 class
 units
+class
+Rep
 >
 struct
 IntCoordTyped
@@ -421,10 +430,11 @@ IntCoordTyped
 public
 BaseCoord
 <
-int32_t
+Rep
 IntCoordTyped
 <
 units
+Rep
 >
 >
 public
@@ -436,6 +446,7 @@ true
 IntCoordTyped
 <
 units
+Rep
 >
 float
 >
@@ -446,6 +457,7 @@ true
 IntCoordTyped
 <
 units
+Rep
 >
 double
 >
@@ -477,10 +489,11 @@ Super
 =
 BaseCoord
 <
-int32_t
+Rep
 IntCoordTyped
 <
 units
+Rep
 >
 >
 ;
@@ -498,7 +511,7 @@ constexpr
 MOZ_IMPLICIT
 IntCoordTyped
 (
-int32_t
+Rep
 aValue
 )
 :
