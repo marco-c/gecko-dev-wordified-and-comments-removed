@@ -2605,6 +2605,16 @@ tiltY
 aPointerEvent
 -
 >
+twist
+=
+aTouch
+-
+>
+twist
+;
+aPointerEvent
+-
+>
 mTime
 =
 aTouchEvent
