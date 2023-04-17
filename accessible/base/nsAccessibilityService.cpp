@@ -1132,6 +1132,13 @@ HTMLMarkupMap
 .
 h
 "
+#
+include
+"
+MathMLMarkupMap
+.
+h
+"
 }
 ;
 #
