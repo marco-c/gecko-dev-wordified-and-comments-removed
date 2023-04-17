@@ -21331,17 +21331,6 @@ js
 #
 endif
 #
-elif
-defined
-(
-XP_BEOS
-)
-"
-beos
-.
-js
-"
-#
 endif
 }
 ;
