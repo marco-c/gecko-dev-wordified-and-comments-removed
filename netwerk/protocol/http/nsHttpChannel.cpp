@@ -6858,14 +6858,12 @@ eOther
 bool
 isThirdParty
 =
-nsContentUtils
+AntiTrackingUtils
 :
 :
-IsThirdPartyWindowOrChannel
+IsThirdPartyChannel
 (
-nullptr
 this
-mURI
 )
 ;
 HttpTrafficAnalyzer

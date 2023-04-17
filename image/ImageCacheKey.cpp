@@ -15,6 +15,15 @@ include
 "
 mozilla
 /
+AntiTrackingUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ContentBlocking
 .
 h
@@ -639,10 +648,10 @@ suffix
 }
 if
 (
-nsContentUtils
+AntiTrackingUtils
 :
 :
-IsThirdPartyWindowOrChannel
+IsThirdPartyWindow
 (
 aDocument
 -
@@ -650,7 +659,6 @@ aDocument
 GetInnerWindow
 (
 )
-nullptr
 nullptr
 )
 )
