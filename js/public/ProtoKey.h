@@ -119,10 +119,7 @@ REAL
 (
 Function
 &
-JSFunction
-:
-:
-class_
+FunctionClass
 )
 \
 REAL

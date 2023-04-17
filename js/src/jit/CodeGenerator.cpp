@@ -87803,10 +87803,7 @@ getClass
 =
 =
 &
-JSFunction
-:
-:
-class_
+FunctionClass
 )
 {
 masm
