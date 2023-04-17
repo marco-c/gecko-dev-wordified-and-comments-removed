@@ -359,6 +359,8 @@ cmd
 show
 -
 button
+-
+2
 "
 descriptionL10nId
 :
@@ -370,6 +372,8 @@ cmd
 show
 -
 description
+-
+2
 "
 panelL10nId
 :
@@ -381,6 +385,8 @@ cmd
 show
 -
 panel
+-
+2
 "
 iconClass
 :
