@@ -2225,6 +2225,16 @@ IntSize
 aWindowSize
 )
 {
+if
+(
+!
+mCompositingStarted
+)
+{
+return
+true
+;
+}
 layers
 :
 :
