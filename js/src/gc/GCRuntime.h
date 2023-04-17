@@ -2925,12 +2925,16 @@ TenuredChunkInfo
 info
 )
 ;
-inline
 void
 updateOnArenaFree
 (
 )
+{
++
++
+numArenasFreeCommitted
 ;
+}
 ChunkPool
 &
 fullChunks
