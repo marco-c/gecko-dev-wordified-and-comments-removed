@@ -178,7 +178,6 @@ recording
 (
 if
 you
-\
 '
 re
 not
@@ -590,7 +589,6 @@ Note
 that
 while
 it
-\
 '
 s
 possible

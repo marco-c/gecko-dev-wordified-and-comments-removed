@@ -94,6 +94,16 @@ CSS
 position
 ]
 (
+(
+https
+:
+/
+/
+developer
+.
+mozilla
+.
+org
 /
 en
 -
@@ -143,6 +153,15 @@ or
 transform
 ]
 (
+https
+:
+/
+/
+developer
+.
+mozilla
+.
+org
 /
 en
 -
@@ -251,7 +270,6 @@ synchronously
 on
 the
 browser
-\
 '
 s
 main
@@ -529,10 +547,8 @@ listener
 to
 reposition
 the
-\
 "
 toolbar
-\
 "
 div
 .
@@ -548,7 +564,6 @@ JavaScript
 on
 the
 browser
-\
 '
 s
 main
@@ -601,7 +616,6 @@ move
 with
 the
 user
-\
 '
 s
 scrolling
@@ -774,7 +788,6 @@ destination
 when
 the
 user
-\
 '
 s
 scrolling
@@ -1048,7 +1061,6 @@ JavaScript
 on
 the
 browser
-\
 '
 s
 main
@@ -1224,7 +1236,6 @@ Javascript
 on
 the
 browser
-\
 '
 s
 main
@@ -1579,7 +1590,6 @@ chunks
 provided
 it
 doesn
-\
 '
 t
 cause

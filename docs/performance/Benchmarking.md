@@ -195,10 +195,6 @@ with
 level
 2
 :
-{
-.
-notranslate
-}
 ac_add_options
 RUSTC_OPT_LEVEL
 =
@@ -274,10 +270,6 @@ setting
 the
 environment
 variable
-{
-.
-notranslate
-}
 JSGC_DISABLE_POISONING
 =
 1
