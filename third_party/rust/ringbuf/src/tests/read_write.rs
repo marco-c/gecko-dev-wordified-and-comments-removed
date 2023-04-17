@@ -3,11 +3,6 @@ std
 :
 :
 io
-:
-:
-{
-self
-}
 ;
 use
 crate
