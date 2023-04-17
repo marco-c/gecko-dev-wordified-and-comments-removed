@@ -128,7 +128,7 @@ DevToolsModules
 "
 devtools
 -
-fission
+experimental
 -
 prefs
 .
