@@ -241,6 +241,14 @@ gecko_profile_entries
 "
     
 "
+gecko_profile_features
+"
+    
+"
+gecko_profile_threads
+"
+    
+"
 tpcycles
 "
     

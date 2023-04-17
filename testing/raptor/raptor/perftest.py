@@ -303,6 +303,18 @@ gecko_profile_entries
 =
 None
         
+gecko_profile_extra_threads
+=
+None
+        
+gecko_profile_threads
+=
+None
+        
+gecko_profile_features
+=
+None
+        
 symbols_path
 =
 None
@@ -500,6 +512,24 @@ gecko_profile_entries
 "
 :
 gecko_profile_entries
+            
+"
+gecko_profile_extra_threads
+"
+:
+gecko_profile_extra_threads
+            
+"
+gecko_profile_threads
+"
+:
+gecko_profile_threads
+            
+"
+gecko_profile_features
+"
+:
+gecko_profile_features
             
 "
 symbols_path
