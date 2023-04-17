@@ -1728,6 +1728,7 @@ MaxValue
 (
 )
 const
+override
 ;
 virtual
 double
@@ -1735,6 +1736,7 @@ MinValue
 (
 )
 const
+override
 ;
 virtual
 double
@@ -1742,6 +1744,7 @@ CurValue
 (
 )
 const
+override
 ;
 virtual
 double
@@ -1749,6 +1752,7 @@ Step
 (
 )
 const
+override
 ;
 virtual
 bool
