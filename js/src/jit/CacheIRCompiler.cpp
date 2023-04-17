@@ -34393,7 +34393,7 @@ masm
 callWithABI
 <
 Fn
-TypeOfNameObject
+TypeOfObject
 >
 (
 )

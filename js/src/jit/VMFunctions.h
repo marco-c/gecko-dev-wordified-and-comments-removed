@@ -2262,7 +2262,7 @@ getterSetter
 ;
 JSString
 *
-TypeOfNameObject
+TypeOfObject
 (
 JSObject
 *
