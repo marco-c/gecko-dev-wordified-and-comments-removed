@@ -542,7 +542,7 @@ tab2
 )
 )
 ;
-todo_is
+is
 (
 storage
 [
@@ -631,7 +631,7 @@ tab2
 )
 )
 ;
-todo_is
+is
 (
 storage
 [

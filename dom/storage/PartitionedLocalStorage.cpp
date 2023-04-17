@@ -116,10 +116,6 @@ mCache
 >
 GetOriginQuotaUsage
 (
-SessionStorageCache
-:
-:
-eSessionSetType
 )
 ;
 }
@@ -163,10 +159,6 @@ mCache
 >
 Length
 (
-SessionStorageCache
-:
-:
-eSessionSetType
 )
 ;
 }
@@ -213,10 +205,6 @@ mCache
 >
 Key
 (
-SessionStorageCache
-:
-:
-eSessionSetType
 aIndex
 aResult
 )
@@ -267,10 +255,6 @@ mCache
 >
 GetItem
 (
-SessionStorageCache
-:
-:
-eSessionSetType
 aKey
 aResult
 )
@@ -319,10 +303,6 @@ mCache
 >
 GetKeys
 (
-SessionStorageCache
-:
-:
-eSessionSetType
 aKeys
 )
 ;
@@ -379,10 +359,6 @@ mCache
 >
 SetItem
 (
-SessionStorageCache
-:
-:
-eSessionSetType
 aKey
 aValue
 oldValue
@@ -469,10 +445,6 @@ mCache
 >
 RemoveItem
 (
-SessionStorageCache
-:
-:
-eSessionSetType
 aKey
 oldValue
 )
@@ -534,10 +506,6 @@ mCache
 >
 Clear
 (
-SessionStorageCache
-:
-:
-eSessionSetType
 )
 ;
 }

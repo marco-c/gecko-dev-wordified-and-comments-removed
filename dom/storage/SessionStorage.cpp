@@ -67,33 +67,6 @@ nsThreadUtils
 .
 h
 "
-#
-define
-DATASET
-\
-(
-!
-IsPrivateBrowsing
-(
-)
-&
-&
-IsSessionScopedOrLess
-(
-)
-\
-?
-SessionStorageCache
-:
-:
-eSessionSetType
-\
-:
-SessionStorageCache
-:
-:
-eDefaultSetType
-)
 namespace
 mozilla
 {
@@ -233,7 +206,6 @@ mCache
 >
 GetOriginQuotaUsage
 (
-DATASET
 )
 ;
 }
@@ -306,7 +278,6 @@ mCache
 >
 Length
 (
-DATASET
 )
 ;
 }
@@ -381,7 +352,6 @@ mCache
 >
 Key
 (
-DATASET
 aIndex
 aResult
 )
@@ -460,7 +430,6 @@ mCache
 >
 GetItem
 (
-DATASET
 aKey
 aResult
 )
@@ -536,7 +505,6 @@ mCache
 >
 GetKeys
 (
-DATASET
 aKeys
 )
 ;
@@ -620,7 +588,6 @@ mCache
 >
 SetItem
 (
-DATASET
 aKey
 aValue
 oldValue
@@ -741,7 +708,6 @@ mCache
 >
 RemoveItem
 (
-DATASET
 aKey
 oldValue
 )
@@ -840,7 +806,6 @@ mCache
 >
 Clear
 (
-DATASET
 )
 ;
 BroadcastChangeNotification
