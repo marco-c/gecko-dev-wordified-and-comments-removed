@@ -3038,7 +3038,7 @@ if
 shape
 -
 >
-inDictionary
+isDictionary
 (
 )
 )

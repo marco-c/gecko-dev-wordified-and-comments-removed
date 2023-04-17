@@ -2214,7 +2214,7 @@ lastProperty
 )
 -
 >
-inDictionary
+isDictionary
 (
 )
 |
@@ -2222,7 +2222,7 @@ inDictionary
 shape
 -
 >
-inDictionary
+isDictionary
 (
 )
 )
@@ -3926,12 +3926,12 @@ inDictionaryMode
 const
 {
 return
-lastProperty
+shape
 (
 )
 -
 >
-inDictionary
+isDictionary
 (
 )
 ;

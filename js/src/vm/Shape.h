@@ -1229,7 +1229,7 @@ BitMask
 (
 4
 )
-IN_DICTIONARY
+IS_DICTIONARY
 =
 1
 <
@@ -1310,7 +1310,7 @@ flags
 {
 MOZ_ASSERT
 (
-inDictionary
+isDictionary
 (
 )
 )
@@ -1409,7 +1409,7 @@ const
 MOZ_ASSERT
 (
 !
-inDictionary
+isDictionary
 (
 )
 )
@@ -1436,7 +1436,7 @@ const
 {
 MOZ_ASSERT
 (
-inDictionary
+isDictionary
 (
 )
 )
@@ -1555,7 +1555,7 @@ propMapLength
 MOZ_ASSERT
 (
 !
-inDictionary
+isDictionary
 (
 )
 )
@@ -1820,7 +1820,7 @@ immutableFlags
 (
 isDictionary
 ?
-IN_DICTIONARY
+IS_DICTIONARY
 :
 0
 )
@@ -1897,7 +1897,7 @@ delete
 public
 :
 bool
-inDictionary
+isDictionary
 (
 )
 const
@@ -1905,7 +1905,7 @@ const
 return
 immutableFlags
 &
-IN_DICTIONARY
+IS_DICTIONARY
 ;
 }
 uint32_t
@@ -1917,7 +1917,7 @@ const
 MOZ_ASSERT
 (
 !
-inDictionary
+isDictionary
 (
 )
 )
@@ -1955,7 +1955,7 @@ initSmallSlotSpan
 MOZ_ASSERT
 (
 !
-inDictionary
+isDictionary
 (
 )
 )
@@ -2011,7 +2011,7 @@ const
 MOZ_ASSERT
 (
 !
-inDictionary
+isDictionary
 (
 )
 )
@@ -2135,7 +2135,7 @@ base
 ;
 MOZ_ASSERT
 (
-inDictionary
+isDictionary
 (
 )
 )
@@ -2288,7 +2288,7 @@ mapLength
 {
 MOZ_ASSERT
 (
-inDictionary
+isDictionary
 (
 )
 )
@@ -2817,7 +2817,7 @@ isDictionary_
 shape
 -
 >
-inDictionary
+isDictionary
 (
 )
 )
@@ -2878,7 +2878,7 @@ isDictionary_
 shape
 -
 >
-inDictionary
+isDictionary
 (
 )
 )
