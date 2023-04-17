@@ -1985,8 +1985,6 @@ RendererOptions
 {
 clear_color
 :
-Some
-(
 ColorF
 :
 :
@@ -2004,7 +2002,6 @@ new
 1
 .
 0
-)
 )
 debug_flags
 compositor_config
