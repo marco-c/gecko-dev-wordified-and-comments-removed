@@ -793,7 +793,7 @@ stub
 (
 PingCentre
 "
-_sendInGzip
+_sendStandalonePing
 "
 )
 .
@@ -827,7 +827,7 @@ ok
 (
 PingCentre
 .
-_sendInGzip
+_sendStandalonePing
 .
 notCalled
 "
@@ -858,7 +858,7 @@ stub
 (
 PingCentre
 "
-_sendInGzip
+_sendStandalonePing
 "
 )
 .
@@ -880,7 +880,7 @@ equal
 (
 PingCentre
 .
-_sendInGzip
+_sendStandalonePing
 .
 callCount
 1
