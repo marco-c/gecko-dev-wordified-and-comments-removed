@@ -63,9 +63,6 @@ gl_generator
 gleam
 "
 "
-rand
-"
-"
 rand_core
 "
 #
