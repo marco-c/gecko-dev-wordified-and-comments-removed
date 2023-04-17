@@ -169,16 +169,6 @@ python
 /
 which
 "
-    
-"
-toolkit
-/
-components
-/
-glean
-/
-sphinx
-"
 )
 sys
 .
@@ -294,10 +284,6 @@ sphinx_markdown_tables
     
 "
 sphinx_panels
-"
-    
-"
-glean
 "
 ]
 js_source_path
