@@ -1356,6 +1356,7 @@ catch
 ex
 )
 {
+}
 domain
 |
 |
@@ -1366,7 +1367,6 @@ URI
 .
 prePath
 ;
-}
 let
 [
 allowFocusMsg

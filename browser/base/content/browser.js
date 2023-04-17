@@ -38947,6 +38947,15 @@ _onLastDialogClose
 if
 (
 allowFocusCheckbox
+&
+&
+!
+event
+.
+detail
+?
+.
+abort
 )
 {
 this
