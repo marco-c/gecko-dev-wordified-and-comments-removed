@@ -474,6 +474,21 @@ timeoutAsPass
 ]
 =
 True
+        
+runtests
+.
+mozinfo
+.
+update
+(
+{
+"
+selftest
+"
+:
+True
+}
+)
     
 if
 not
