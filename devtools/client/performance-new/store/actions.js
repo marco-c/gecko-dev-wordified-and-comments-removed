@@ -84,7 +84,10 @@ exports
 .
 reportProfilerReady
 =
-recordingState
+(
+isActive
+isLockedForPrivateBrowsing
+)
 =
 >
 (
@@ -94,7 +97,8 @@ type
 "
 REPORT_PROFILER_READY
 "
-recordingState
+isActive
+isLockedForPrivateBrowsing
 }
 )
 ;

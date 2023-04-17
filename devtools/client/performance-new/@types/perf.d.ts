@@ -983,9 +983,13 @@ type
 REPORT_PROFILER_READY
 "
 ;
-recordingState
+isActive
 :
-RecordingState
+boolean
+;
+isLockedForPrivateBrowsing
+:
+boolean
 ;
 }
 |
