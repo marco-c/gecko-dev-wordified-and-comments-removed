@@ -1577,6 +1577,18 @@ browsingContextGroupId
 }
 ;
 dictionary
+WebAccessibleResourceInit
+{
+required
+sequence
+<
+MatchGlobOrString
+>
+resources
+;
+}
+;
+dictionary
 WebExtensionInit
 {
 required
@@ -1621,7 +1633,7 @@ permissions
 ;
 sequence
 <
-MatchGlobOrString
+WebAccessibleResourceInit
 >
 webAccessibleResources
 =

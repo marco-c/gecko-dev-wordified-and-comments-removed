@@ -150,6 +150,10 @@ all_urls
 webAccessibleResources
 :
 [
+{
+resources
+:
+[
 "
 /
 foo
@@ -175,6 +179,8 @@ MatchGlob
 glob
 )
 )
+}
+]
 }
 )
 ;
