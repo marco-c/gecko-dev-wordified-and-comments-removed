@@ -99,11 +99,6 @@ aCenter
 ;
 PER_INSTANCE
 in
-vec2
-aScale
-;
-PER_INSTANCE
-in
 float
 aStartRadius
 ;
@@ -284,8 +279,6 @@ zw
 aPosition
 .
 xy
-*
-aScale
 -
 aCenter
 )
