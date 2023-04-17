@@ -261,18 +261,6 @@ exclude
 =
 __pycache__
 "
-                
-"
--
--
-exclude
-=
-*
-.
-egg
--
-info
-"
             
 ]
         
