@@ -35,6 +35,13 @@ h
 #
 include
 "
+SystemTime
+.
+h
+"
+#
+include
+"
 api
 /
 video
@@ -276,11 +283,8 @@ MediaSessionConduit
 >
 mConduits
 ;
-dom
-:
-:
-RTCStatsTimestampMaker
-mTimestampMaker
+RTCStatsTimestampMakerRealtimeClock
+mClock
 ;
 UniquePtr
 <

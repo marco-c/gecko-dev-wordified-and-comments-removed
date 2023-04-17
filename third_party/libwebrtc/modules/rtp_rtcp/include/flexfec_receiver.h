@@ -101,17 +101,6 @@ public
 :
 FlexfecReceiver
 (
-uint32_t
-ssrc
-uint32_t
-protected_media_ssrc
-RecoveredPacketReceiver
-*
-recovered_packet_receiver
-)
-;
-FlexfecReceiver
-(
 Clock
 *
 clock
