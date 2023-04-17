@@ -5712,6 +5712,13 @@ defined
 (
 JS_CODEGEN_X64
 )
+|
+|
+\
+defined
+(
+JS_CODEGEN_ARM64
+)
 )
 if
 (
