@@ -311,11 +311,6 @@ const
 int
 kClipboardTimeout
 ;
-extern
-const
-int
-kClipboardFastIterationNum
-;
 GdkAtom
 GetSelectionAtom
 (

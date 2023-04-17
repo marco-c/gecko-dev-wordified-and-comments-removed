@@ -205,13 +205,7 @@ const
 int
 kClipboardTimeout
 =
-1000000
-;
-const
-int
-kClipboardFastIterationNum
-=
-3
+500000
 ;
 static
 const
