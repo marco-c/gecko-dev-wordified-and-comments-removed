@@ -180,9 +180,6 @@ skip
 if
 (
 Android
-&
-&
-webrender
 )
 include
 bmp
@@ -198,9 +195,6 @@ skip
 if
 (
 Android
-&
-&
-webrender
 )
 include
 ico

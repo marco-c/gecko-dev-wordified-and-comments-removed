@@ -1532,9 +1532,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 51
 -
 52
@@ -1559,9 +1556,6 @@ fails
 if
 (
 geckoview
-&
-&
-webrender
 )
 =
 =
@@ -1643,9 +1637,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 51
 -
 52
@@ -1670,9 +1661,6 @@ fails
 if
 (
 geckoview
-&
-&
-webrender
 )
 =
 =

@@ -164,10 +164,7 @@ ref
 .
 xhtml
 fuzzy
--
-if
 (
-true
 0
 -
 140
@@ -197,10 +194,7 @@ xhtml
 Bug
 776089
 fuzzy
--
-if
 (
-true
 0
 -
 140
@@ -630,10 +624,7 @@ ref
 .
 svg
 fuzzy
--
-if
 (
-webrender
 0
 -
 1
@@ -660,10 +651,7 @@ ref
 .
 svg
 fuzzy
--
-if
 (
-webrender
 0
 -
 1
@@ -723,10 +711,7 @@ to
 bug
 877661
 fuzzy
--
-if
 (
-webrender
 0
 -
 1

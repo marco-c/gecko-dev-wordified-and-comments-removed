@@ -1827,9 +1827,6 @@ if
 winWidget
 &
 &
-webrender
-&
-&
 !
 swgl
 &
@@ -1864,9 +1861,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 &
 &

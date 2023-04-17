@@ -78,10 +78,7 @@ ref
 .
 svg
 fuzzy
--
-if
 (
-webrender
 0
 -
 5
@@ -193,9 +190,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 9
 -
 9
@@ -209,9 +203,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 &
 &
 swgl
@@ -242,9 +233,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 9
 -
 9
@@ -258,9 +246,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 &
 &
 swgl
@@ -324,9 +309,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 9
 -
 9
@@ -340,9 +322,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 &
 &
 swgl
@@ -381,9 +360,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 9
 -
 9
@@ -397,9 +373,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 &
 &
 swgl

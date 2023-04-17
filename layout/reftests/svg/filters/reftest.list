@@ -243,13 +243,7 @@ ref
 .
 svg
 fuzzy
--
-if
 (
-d2d
-|
-|
-webrender
 0
 -
 1
@@ -510,9 +504,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 177
 -
 178
@@ -535,10 +526,7 @@ ref
 .
 svg
 fuzzy
--
-if
 (
-webrender
 0
 -
 2
@@ -581,9 +569,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 2
 -
 5
@@ -610,9 +595,6 @@ fuzzy
 if
 (
 geckoview
-&
-&
-webrender
 0
 -
 4
@@ -870,9 +852,6 @@ fuzzy
 if
 (
 geckoview
-&
-&
-webrender
 0
 -
 36
@@ -1307,9 +1286,6 @@ fuzzy
 if
 (
 winWidget
-&
-&
-webrender
 0
 -
 1
@@ -1505,9 +1481,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 55
 -
 98
@@ -1547,9 +1520,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 20
 -
 21
@@ -1862,9 +1832,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 )
 =
 =
@@ -1888,9 +1855,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 )
 =
 =

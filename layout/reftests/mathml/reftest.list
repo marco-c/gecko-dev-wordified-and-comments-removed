@@ -725,9 +725,6 @@ fuzzy
 if
 (
 geckoview
-&
-&
-webrender
 201
 -
 216
@@ -739,9 +736,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 114
 -
@@ -754,9 +748,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 OSX
 79
 -
@@ -2526,9 +2517,6 @@ fails
 if
 (
 geckoview
-&
-&
-webrender
 &
 &
 device
@@ -6959,9 +6947,6 @@ fuzzy
 if
 (
 geckoview
-&
-&
-webrender
 0
 -
 239
@@ -7032,9 +7017,6 @@ fuzzy
 if
 (
 geckoview
-&
-&
-webrender
 0
 -
 239
@@ -7183,9 +7165,6 @@ fuzzy
 if
 (
 geckoview
-&
-&
-webrender
 0
 -
 239
@@ -7225,9 +7204,6 @@ fuzzy
 if
 (
 geckoview
-&
-&
-webrender
 0
 -
 239
@@ -7345,9 +7321,6 @@ fuzzy
 if
 (
 geckoview
-&
-&
-webrender
 0
 -
 239
@@ -7387,9 +7360,6 @@ fuzzy
 if
 (
 geckoview
-&
-&
-webrender
 0
 -
 239
@@ -7484,9 +7454,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 !
 gtkWidget
 0
@@ -7500,9 +7467,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 0
 -

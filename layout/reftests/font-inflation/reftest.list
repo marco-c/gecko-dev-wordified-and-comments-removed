@@ -1625,10 +1625,7 @@ lineThreshold
 0
 )
 fuzzy
--
-if
 (
-webrender
 0
 -
 1
@@ -3789,12 +3786,7 @@ skip
 -
 if
 (
-(
 Android
-&
-&
-webrender
-)
 |
 |
 cocoaWidget

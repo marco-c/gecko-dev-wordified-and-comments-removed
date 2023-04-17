@@ -2838,9 +2838,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -2879,9 +2876,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -3055,10 +3049,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-webrender
 0
 -
 2
@@ -3096,9 +3087,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -4914,10 +4902,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-webrender
 0
 -
 2
@@ -6375,9 +6360,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -6516,9 +6498,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -6567,9 +6546,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 swgl
 0
 -
@@ -6600,9 +6576,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -6989,9 +6962,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -7024,9 +6994,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -7099,9 +7066,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -7294,9 +7258,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 0
 -
@@ -7329,9 +7290,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 0
 -
@@ -7364,9 +7322,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 0
 -
@@ -7399,9 +7354,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 0
 -
@@ -7434,9 +7386,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 0
 -
@@ -7589,9 +7538,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -7624,9 +7570,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -7659,9 +7602,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 swgl
 0
 -
@@ -7694,9 +7634,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 swgl
 0
 -
@@ -7729,9 +7666,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 swgl
 0
 -
@@ -7764,9 +7698,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 swgl
 0
 -
@@ -7799,9 +7730,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 swgl
 0
 -
@@ -7834,9 +7762,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -7869,9 +7794,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -7904,9 +7826,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -7939,9 +7858,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -7974,9 +7890,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -
@@ -8187,9 +8100,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 swgl
 0
 -

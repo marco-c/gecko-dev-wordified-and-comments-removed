@@ -443,9 +443,6 @@ if
 geckoview
 &
 &
-webrender
-&
-&
 device
 )
 =
@@ -467,9 +464,6 @@ fails
 if
 (
 geckoview
-&
-&
-webrender
 &
 &
 device

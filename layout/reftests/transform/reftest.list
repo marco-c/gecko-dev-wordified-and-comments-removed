@@ -46,10 +46,7 @@ nested
 divs
 .
 fuzzy
--
-if
 (
-webrender
 0
 -
 1
@@ -1099,10 +1096,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-webrender
 0
 -
 1
@@ -1340,10 +1334,7 @@ two
 parameters
 .
 fuzzy
--
-if
 (
-webrender
 0
 -
 1
@@ -1392,10 +1383,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-webrender
 0
 -
 1
@@ -2124,9 +2112,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 swgl
 0
 -
@@ -2225,9 +2210,6 @@ skip
 if
 (
 useDrawSnapshot
-&
-&
-webrender
 )
 fuzzy
 -
@@ -3495,11 +3477,6 @@ ref
 .
 html
 skip
--
-if
-(
-webrender
-)
 test
 -
 pref
@@ -3701,9 +3678,6 @@ skip
 if
 (
 useDrawSnapshot
-&
-&
-webrender
 )
 test
 -
@@ -3786,11 +3760,6 @@ ref
 .
 html
 skip
--
-if
-(
-webrender
-)
 test
 -
 pref

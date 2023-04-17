@@ -8,7 +8,6 @@ fuzzy
 -
 if
 (
-(
 /
 ^
 Windows
@@ -27,10 +26,8 @@ http
 .
 oscpu
 )
-)
 &
 &
-(
 /
 ^
 aarch64
@@ -43,7 +40,6 @@ test
 xulRuntime
 .
 XPCOMABI
-)
 )
 0
 -

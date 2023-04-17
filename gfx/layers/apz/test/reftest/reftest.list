@@ -103,9 +103,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 1
 -
@@ -118,9 +115,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 cocoaWidget
 18
 -
@@ -181,9 +175,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 1
 -
@@ -196,9 +187,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 cocoaWidget
 18
 -
@@ -259,9 +247,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 1
 -
@@ -274,9 +259,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 cocoaWidget
 14
 -
@@ -337,9 +319,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 1
 -
@@ -352,9 +331,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 cocoaWidget
 18
 -
@@ -419,9 +395,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 1
 -
@@ -434,9 +407,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 cocoaWidget
 18
 -
@@ -501,9 +471,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 8
 -
@@ -516,9 +483,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 cocoaWidget
 14
 -

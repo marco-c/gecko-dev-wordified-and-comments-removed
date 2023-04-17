@@ -200,9 +200,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 swgl
 &
 &
@@ -220,9 +217,6 @@ random
 if
 (
 useDrawSnapshot
-&
-&
-webrender
 )
 =
 =
@@ -648,10 +642,7 @@ html
 bug
 692744
 fuzzy
--
-if
 (
-webrender
 0
 -
 19

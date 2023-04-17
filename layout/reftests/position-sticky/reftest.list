@@ -765,9 +765,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 swgl
 &
 &
@@ -1078,9 +1075,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 10
 -
@@ -1093,9 +1087,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 cocoaWidget
 7
 -
@@ -1157,9 +1148,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 19
 -
@@ -1172,9 +1160,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 cocoaWidget
 13
 -
@@ -1233,9 +1218,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 gtkWidget
 19
 -
@@ -1248,9 +1230,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 cocoaWidget
 13
 -

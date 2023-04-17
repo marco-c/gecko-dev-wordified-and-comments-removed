@@ -1396,7 +1396,6 @@ skip
 -
 if
 (
-(
 /
 ^
 Windows
@@ -1415,10 +1414,8 @@ http
 .
 oscpu
 )
-)
 &
 &
-(
 /
 ^
 aarch64
@@ -1431,7 +1428,6 @@ test
 xulRuntime
 .
 XPCOMABI
-)
 )
 )
 skip
@@ -1461,7 +1457,6 @@ skip
 -
 if
 (
-(
 /
 ^
 Windows
@@ -1480,10 +1475,8 @@ http
 .
 oscpu
 )
-)
 &
 &
-(
 /
 ^
 aarch64
@@ -1496,7 +1489,6 @@ test
 xulRuntime
 .
 XPCOMABI
-)
 )
 )
 skip
@@ -1521,7 +1513,6 @@ skip
 -
 if
 (
-(
 /
 ^
 Windows
@@ -1540,10 +1531,8 @@ http
 .
 oscpu
 )
-)
 &
 &
-(
 /
 ^
 aarch64
@@ -1556,7 +1545,6 @@ test
 xulRuntime
 .
 XPCOMABI
-)
 )
 )
 skip
@@ -2088,9 +2076,6 @@ skip
 if
 (
 geckoview
-&
-&
-webrender
 )
 skip
 -

@@ -1349,9 +1349,6 @@ random
 if
 (
 useDrawSnapshot
-&
-&
-webrender
 )
 =
 =

@@ -1239,12 +1239,6 @@ for
 layersGPUAccelerated
 failures
 fails
--
-if
-(
-layersGPUAccelerated
-)
-fails
 =
 =
 object
@@ -1282,12 +1276,6 @@ Bug
 for
 layersGPUAccelerated
 failures
-fails
--
-if
-(
-layersGPUAccelerated
-)
 fails
 =
 =

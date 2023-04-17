@@ -586,9 +586,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 0
 -

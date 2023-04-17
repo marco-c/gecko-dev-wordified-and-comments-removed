@@ -2645,11 +2645,6 @@ load
 .
 html
 skip
--
-if
-(
-webrender
-)
 =
 =
 640272

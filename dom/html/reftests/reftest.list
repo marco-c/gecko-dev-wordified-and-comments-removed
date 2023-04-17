@@ -603,9 +603,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 !
 geckoview
 2

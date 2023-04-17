@@ -31,12 +31,6 @@ the
 same
 attribute
 )
-skip
--
-if
-(
-ThreadSanitizer
-)
 random
 =
 =

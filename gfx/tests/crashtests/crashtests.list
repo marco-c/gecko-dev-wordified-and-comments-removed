@@ -961,9 +961,6 @@ skip
 if
 (
 geckoview
-&
-&
-webrender
 )
 load
 1317403
@@ -980,9 +977,6 @@ skip
 if
 (
 geckoview
-&
-&
-webrender
 )
 load
 1325159
@@ -998,9 +992,6 @@ skip
 if
 (
 geckoview
-&
-&
-webrender
 )
 load
 1331683
@@ -1037,9 +1028,6 @@ skip
 if
 (
 geckoview
-&
-&
-webrender
 )
 load
 1408078
@@ -1244,10 +1232,6 @@ skip
 -
 if
 (
-!
-webrender
-|
-|
 AddressSanitizer
 )
 load
@@ -1268,16 +1252,10 @@ skip
 -
 if
 (
-!
-webrender
-|
-|
-(
 Android
 &
 &
 swgl
-)
 )
 load
 1678938

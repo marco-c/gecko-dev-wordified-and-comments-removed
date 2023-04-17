@@ -101,9 +101,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 )
 =
 =
@@ -283,9 +280,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 &
 &
 !

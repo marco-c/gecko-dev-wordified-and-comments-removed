@@ -25,9 +25,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 47
 -
@@ -86,9 +83,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 47
 -
@@ -162,9 +156,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 47
 -
@@ -177,9 +168,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 OSX
 0
 -
@@ -214,9 +202,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 47
 -
@@ -251,9 +236,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 47
 -
@@ -311,9 +293,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 !
 (
 gtkWidget
@@ -354,9 +333,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 47
 -
@@ -403,9 +379,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 47
 -
@@ -436,9 +409,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 47
 -
@@ -783,9 +753,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 47
 -
@@ -798,9 +765,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 OSX
 23
 -
@@ -896,9 +860,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 47
 -
@@ -1222,9 +1183,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 47
 -
@@ -4414,9 +4372,6 @@ fuzzy
 if
 (
 geckoview
-&
-&
-webrender
 0
 -
 49
@@ -4740,9 +4695,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 !
 geckoview
 0
@@ -4759,9 +4711,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 55
 -
@@ -4806,9 +4755,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 55
 -
@@ -4854,9 +4800,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 55
 -
@@ -4869,9 +4812,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 OSX
 1
 -
@@ -4921,9 +4861,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 125
 -
@@ -4995,9 +4932,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 134
 -

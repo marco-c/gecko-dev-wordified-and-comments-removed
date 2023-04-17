@@ -2291,10 +2291,7 @@ html
 Bug
 1392106
 fuzzy
--
-if
 (
-webrender
 0
 -
 52
@@ -2483,10 +2480,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-webrender
 0
 -
 137
@@ -2509,10 +2503,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-webrender
 0
 -
 137

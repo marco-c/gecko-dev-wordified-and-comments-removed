@@ -465,9 +465,6 @@ fuzzy
 if
 (
 remoteCanvas
-&
-&
-webrender
 0
 -
 97
@@ -527,9 +524,6 @@ fuzzy
 if
 (
 remoteCanvas
-&
-&
-webrender
 0
 -
 97
@@ -681,9 +675,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 winWidget
 &
 &
@@ -701,9 +692,6 @@ fuzzy
 if
 (
 remoteCanvas
-&
-&
-webrender
 &
 &
 !
@@ -2142,9 +2130,6 @@ fuzzy
 if
 (
 geckoview
-&
-&
-webrender
 0
 -
 255
@@ -2206,9 +2191,6 @@ fuzzy
 if
 (
 geckoview
-&
-&
-webrender
 0
 -
 255
@@ -2357,11 +2339,6 @@ ref
 .
 html
 skip
--
-if
-(
-webrender
-)
 =
 =
 img
@@ -2720,9 +2697,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 255
 -
 255
@@ -2735,9 +2709,6 @@ random
 if
 (
 geckoview
-&
-&
-webrender
 )
 =
 =
@@ -2833,9 +2804,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 255
 -
 255
@@ -2848,9 +2816,6 @@ random
 if
 (
 geckoview
-&
-&
-webrender
 )
 =
 =
@@ -2946,9 +2911,6 @@ if
 (
 !
 useDrawSnapshot
-&
-&
-webrender
 255
 -
 255
@@ -2961,9 +2923,6 @@ random
 if
 (
 geckoview
-&
-&
-webrender
 )
 =
 =

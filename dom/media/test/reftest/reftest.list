@@ -308,7 +308,6 @@ fuzzy
 -
 if
 (
-(
 /
 ^
 Windows
@@ -327,10 +326,8 @@ http
 .
 oscpu
 )
-)
 &
 &
-(
 /
 ^
 aarch64
@@ -343,7 +340,6 @@ test
 xulRuntime
 .
 XPCOMABI
-)
 )
 0
 -
@@ -391,7 +387,6 @@ skip
 -
 if
 (
-(
 /
 ^
 Windows
@@ -410,10 +405,8 @@ http
 .
 oscpu
 )
-)
 &
 &
-(
 /
 ^
 aarch64
@@ -426,7 +419,6 @@ test
 xulRuntime
 .
 XPCOMABI
-)
 )
 )
 fuzzy
@@ -474,7 +466,6 @@ skip
 -
 if
 (
-(
 /
 ^
 Windows
@@ -493,10 +484,8 @@ http
 .
 oscpu
 )
-)
 &
 &
-(
 /
 ^
 aarch64
@@ -509,7 +498,6 @@ test
 xulRuntime
 .
 XPCOMABI
-)
 )
 )
 fuzzy

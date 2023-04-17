@@ -2446,9 +2446,6 @@ fuzzy
 -
 if
 (
-webrender
-&
-&
 swgl
 0
 -

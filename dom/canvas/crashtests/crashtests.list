@@ -406,9 +406,6 @@ skip
 if
 (
 geckoview
-&
-&
-webrender
 )
 load
 1349067
