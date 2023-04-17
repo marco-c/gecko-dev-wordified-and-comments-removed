@@ -56,7 +56,10 @@ os
 raw
 :
 :
+{
 c_char
+c_void
+}
 ;
 #
 [
@@ -180,6 +183,11 @@ baseprofiler
 :
 :
 SpliceableJSONWriter
+streamed_names_set
+:
+*
+mut
+c_void
 )
 {
 let
@@ -252,6 +260,7 @@ deref_mut
 as_mut_ptr
 (
 )
+streamed_names_set
 )
 }
 }
