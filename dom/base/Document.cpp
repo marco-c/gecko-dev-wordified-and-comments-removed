@@ -61089,9 +61089,7 @@ sheet
 Clone
 (
 nullptr
-nullptr
 clonedDoc
-nullptr
 )
 ;
 NS_WARNING_ASSERTION
@@ -61194,9 +61192,7 @@ sheet
 Clone
 (
 nullptr
-nullptr
 clonedDoc
-nullptr
 )
 ;
 NS_WARNING_ASSERTION

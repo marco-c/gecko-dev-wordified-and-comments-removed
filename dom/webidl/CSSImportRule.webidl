@@ -258,6 +258,11 @@ id
 .
 [
 SameObject
+BinaryName
+=
+"
+styleSheetForBindings
+"
 ]
 readonly
 attribute

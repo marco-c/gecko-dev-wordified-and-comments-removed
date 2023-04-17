@@ -112,6 +112,16 @@ return
 mRawRule
 ;
 }
+void
+SetRawAfterClone
+(
+RefPtr
+<
+RawServoFontFeatureValuesRule
+>
+aRaw
+)
+;
 uint16_t
 Type
 (
