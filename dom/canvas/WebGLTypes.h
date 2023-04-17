@@ -692,7 +692,6 @@ EXT_texture_compression_rgtc
 EXT_texture_filter_anisotropic
 EXT_texture_norm16
 MOZ_debug
-OES_draw_buffers_indexed
 OES_element_index_uint
 OES_fbo_render_mipmap
 OES_standard_derivatives
@@ -5136,17 +5135,6 @@ get
 )
 byteSize
 )
-;
-}
-namespace
-webgl
-{
-inline
-constexpr
-size_t
-kMaxDrawBuffers
-=
-8
 ;
 }
 }
