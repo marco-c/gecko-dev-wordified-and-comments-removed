@@ -1,4 +1,9 @@
 const
+PR_USEC_PER_SEC
+=
+1000000
+;
+const
 NS_ERROR_STORAGE_BUSY
 =
 Cr
