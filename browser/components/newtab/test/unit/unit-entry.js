@@ -2081,6 +2081,13 @@ EventEmitter
 ShellService
 :
 {
+doesAppNeedPin
+:
+(
+)
+=
+>
+false
 isDefaultBrowser
 :
 (

@@ -101,7 +101,7 @@ enzyme
 ;
 import
 {
-AboutWelcomeDefaults
+DEFAULT_WELCOME_CONTENT
 }
 from
 "
@@ -130,15 +130,6 @@ aboutwelcome
 -
 utils
 "
-;
-const
-DEFAULT_WELCOME_CONTENT
-=
-AboutWelcomeDefaults
-.
-getDefaults
-(
-)
 ;
 describe
 (
