@@ -14,13 +14,6 @@ h
 #
 include
 "
-Common
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Components

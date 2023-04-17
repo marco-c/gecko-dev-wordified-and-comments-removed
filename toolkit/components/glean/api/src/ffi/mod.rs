@@ -30,9 +30,6 @@ mod
 datetime
 ;
 mod
-denominator
-;
-mod
 event
 ;
 mod
@@ -42,16 +39,10 @@ mod
 memory_distribution
 ;
 mod
-numerator
-;
-mod
 ping
 ;
 mod
 quantity
-;
-mod
-rate
 ;
 mod
 string
