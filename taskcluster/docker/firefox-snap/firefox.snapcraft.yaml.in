@@ -108,6 +108,10 @@ control
 -
 gsettings
 -
+hardware
+-
+observe
+-
 home
 -
 joystick
@@ -204,6 +208,8 @@ glib
 2
 -
 libasound2
+-
+libpci3
 -
 libpulse0
 -
