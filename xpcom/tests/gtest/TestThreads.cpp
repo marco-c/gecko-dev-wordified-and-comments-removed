@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 nsXPCOM
 .
 h
@@ -58,6 +65,10 @@ gtest
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsRunner
 final
