@@ -112,7 +112,13 @@ name_
 GCThingIndex
 atomIndex_
 ;
+mozilla
+:
+:
+Maybe
+<
 NameLocation
+>
 loc_
 ;
 mozilla
