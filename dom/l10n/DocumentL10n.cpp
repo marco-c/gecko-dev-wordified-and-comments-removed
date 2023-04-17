@@ -222,8 +222,6 @@ GetScopeObject
 (
 )
 aSync
-{
-}
 )
 mDocument
 (
