@@ -4782,8 +4782,6 @@ hidden
 =
 true
 ;
-return
-;
 }
 let
 {
