@@ -130,6 +130,9 @@ wantGlobalProperties
 :
 [
 "
+AbortController
+"
+"
 atob
 "
 "
@@ -192,6 +195,7 @@ XMLHttpRequest
 ;
 const
 {
+AbortController
 atob
 btoa
 Blob
@@ -672,6 +676,7 @@ exports
 globals
 =
 {
+AbortController
 atob
 Blob
 btoa
