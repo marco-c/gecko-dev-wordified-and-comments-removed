@@ -103,6 +103,8 @@ utils
 \
 libxt6
 \
+libxtst6
+\
 python
 \
 shellcheck
