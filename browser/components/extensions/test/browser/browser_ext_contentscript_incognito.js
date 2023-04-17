@@ -35,7 +35,7 @@ matches
 :
 [
 "
-http
+https
 :
 /
 /
@@ -153,7 +153,7 @@ winPrivate
 .
 gBrowser
 "
-http
+https
 :
 /
 /
