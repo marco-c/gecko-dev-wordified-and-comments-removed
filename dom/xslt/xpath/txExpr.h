@@ -852,7 +852,7 @@ Expr
 {
 public
 :
-nsresult
+void
 addParam
 (
 Expr
@@ -866,9 +866,6 @@ AppendElement
 (
 aExpr
 )
-;
-return
-NS_OK
 ;
 }
 virtual
