@@ -3124,12 +3124,6 @@ ds
 ;
 if
 (
-!
-ServiceWorkerParentInterceptEnabled
-(
-)
-|
-|
 XRE_IsParentProcess
 (
 )

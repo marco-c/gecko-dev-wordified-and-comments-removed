@@ -184,9 +184,6 @@ include
 PContentPermission
 ;
 include
-ServiceWorkerConfiguration
-;
-include
 GraphicsMessages
 ;
 include
@@ -2807,13 +2804,6 @@ RemoteType
 (
 nsCString
 aRemoteType
-)
-;
-async
-InitServiceWorkers
-(
-ServiceWorkerConfiguration
-aConfig
 )
 ;
 async

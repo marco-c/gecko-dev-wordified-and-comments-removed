@@ -5733,12 +5733,6 @@ if
 XRE_IsParentProcess
 (
 )
-|
-|
-!
-ServiceWorkerParentInterceptEnabled
-(
-)
 )
 {
 nsCOMPtr
@@ -5932,12 +5926,6 @@ mID
 if
 (
 XRE_IsParentProcess
-(
-)
-|
-|
-!
-ServiceWorkerParentInterceptEnabled
 (
 )
 )

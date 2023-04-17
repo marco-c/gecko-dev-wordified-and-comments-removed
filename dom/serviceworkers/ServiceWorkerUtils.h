@@ -138,11 +138,6 @@ ErrorResult
 ServiceWorkerFailureCallback
 ;
 bool
-ServiceWorkerParentInterceptEnabled
-(
-)
-;
-bool
 ServiceWorkerRegistrationDataIsValid
 (
 const

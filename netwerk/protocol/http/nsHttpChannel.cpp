@@ -43393,13 +43393,6 @@ rv
 rv
 )
 ;
-if
-(
-ServiceWorkerParentInterceptEnabled
-(
-)
-)
-{
 nsCOMPtr
 <
 nsIHttpHeaderVisitor
@@ -43425,7 +43418,6 @@ rv
 rv
 )
 ;
-}
 mRedirectChannel
 =
 intercepted

@@ -210,15 +210,6 @@ dom
 :
 ServiceWorkerInterceptController
 ;
-using
-mozilla
-:
-:
-dom
-:
-:
-ServiceWorkerParentInterceptEnabled
-;
 namespace
 mozilla
 {
@@ -276,13 +267,6 @@ aListener
 )
 )
 ;
-if
-(
-ServiceWorkerParentInterceptEnabled
-(
-)
-)
-{
 mInterceptController
 =
 new
@@ -290,7 +274,6 @@ ServiceWorkerInterceptController
 (
 )
 ;
-}
 }
 ParentChannelListener
 :
