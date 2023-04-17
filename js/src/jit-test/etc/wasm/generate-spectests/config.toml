@@ -170,6 +170,11 @@ bytes
 now
 "
 binary
+.
+wast
+"
+"
+binary
 -
 leb128
 .

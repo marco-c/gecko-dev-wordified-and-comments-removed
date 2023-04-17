@@ -71,6 +71,17 @@ value_
 public
 :
 constexpr
+Pages
+(
+)
+:
+value_
+(
+0
+)
+{
+}
+constexpr
 explicit
 Pages
 (
