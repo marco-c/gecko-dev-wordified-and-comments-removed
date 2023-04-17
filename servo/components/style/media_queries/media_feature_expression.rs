@@ -1248,6 +1248,14 @@ colors
 {
 return
 !
+context
+.
+in_ua_or_chrome_sheet
+(
+)
+&
+&
+!
 static_prefs
 :
 :
