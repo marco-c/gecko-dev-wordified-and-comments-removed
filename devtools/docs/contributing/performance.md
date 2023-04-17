@@ -1468,10 +1468,7 @@ fuzzy
 query
 "
 '
-linux64
--
-shippable
-/
+linux
 '
 damp
 "
