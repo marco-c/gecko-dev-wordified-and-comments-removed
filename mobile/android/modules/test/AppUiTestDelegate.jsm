@@ -172,11 +172,11 @@ support
 /
 /
 "
+}
+data
 extensionId
 :
 TEST_SUPPORT_EXTENSION_ID
-}
-data
 nativeApp
 :
 "
