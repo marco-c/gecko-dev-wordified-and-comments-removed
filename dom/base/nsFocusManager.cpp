@@ -21956,6 +21956,10 @@ mFocusedElement
 =
 nullptr
 ;
+mFocusedWindow
+=
+nullptr
+;
 }
 bool
 nsFocusManager
