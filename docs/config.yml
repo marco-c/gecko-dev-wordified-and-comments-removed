@@ -98,6 +98,10 @@ profiler
 performance
 -
 xpcom
+-
+security
+/
+nss
 build_doc
 :
 -
