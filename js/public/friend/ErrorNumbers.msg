@@ -8430,12 +8430,16 @@ in
 MSG_DEF
 (
 JSMSG_DUPLICATE_VARIANT_SUBTAG
-0
+1
 JSEXN_RANGEERR
 "
 duplicate
 variant
 subtag
+:
+{
+0
+}
 "
 )
 MSG_DEF
