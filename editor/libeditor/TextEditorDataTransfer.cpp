@@ -450,6 +450,10 @@ rv
 InsertTextAsSubAction
 (
 stuffToPaste
+SelectionHandling
+:
+:
+Delete
 )
 ;
 if

@@ -4598,6 +4598,14 @@ nsAString
 aStringToInsert
 )
 ;
+enum
+class
+SelectionHandling
+{
+Ignore
+Delete
+}
+;
 [
 [
 nodiscard
@@ -4611,6 +4619,8 @@ const
 nsAString
 &
 aStringToInsert
+SelectionHandling
+aSelectionHandling
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -5309,6 +5319,8 @@ const
 nsAString
 &
 aInsertionString
+SelectionHandling
+aSelectionHandling
 )
 =
 0

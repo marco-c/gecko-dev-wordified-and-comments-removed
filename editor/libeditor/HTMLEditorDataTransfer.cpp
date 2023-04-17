@@ -9378,6 +9378,10 @@ rv
 InsertTextAsSubAction
 (
 stuffToPaste
+SelectionHandling
+:
+:
+Delete
 )
 ;
 if
@@ -13703,6 +13707,10 @@ rv
 InsertTextAsSubAction
 (
 quotedStuff
+SelectionHandling
+:
+:
+Delete
 )
 ;
 NS_WARNING_ASSERTION
@@ -14168,6 +14176,10 @@ rv
 InsertTextAsSubAction
 (
 curHunk
+SelectionHandling
+:
+:
+Delete
 )
 ;
 NS_WARNING_ASSERTION
@@ -15093,6 +15105,10 @@ rv
 InsertTextAsSubAction
 (
 aQuotedText
+SelectionHandling
+:
+:
+Delete
 )
 ;
 if
@@ -16431,6 +16447,10 @@ rv
 InsertTextAsSubAction
 (
 aQuotedText
+SelectionHandling
+:
+:
+Delete
 )
 ;
 if

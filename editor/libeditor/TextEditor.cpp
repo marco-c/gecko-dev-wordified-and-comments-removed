@@ -2890,6 +2890,10 @@ rv
 InsertTextAsSubAction
 (
 quotedStuff
+SelectionHandling
+:
+:
+Delete
 )
 ;
 NS_WARNING_ASSERTION
