@@ -502,12 +502,9 @@ applicationDidReceiveMemoryWarning
 "
 )
 ;
-NS_NotifyOfMemoryPressure
+NS_DispatchMemoryPressure
 (
-MemoryPressureState
-:
-:
-LowMemory
+MemPressure_New
 )
 ;
 }

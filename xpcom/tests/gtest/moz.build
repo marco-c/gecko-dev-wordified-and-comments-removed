@@ -113,11 +113,6 @@ TestLogging
 cpp
 "
 "
-TestMemoryPressure
-.
-cpp
-"
-"
 TestMoveString
 .
 cpp
@@ -515,11 +510,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-TestAvailableMemoryWatcherWin
-.
-cpp
-"
 "
 TestFileNTFSSpecialPaths
 .
