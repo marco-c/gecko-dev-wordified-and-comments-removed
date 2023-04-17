@@ -700,7 +700,11 @@ it
 "
 )
 ;
-click
+table
+.
+menupopup
+.
+activateItem
 (
 menuItem
 )
@@ -864,7 +868,11 @@ hiding
 it
 )
 ;
-click
+table
+.
+menupopup
+.
+activateItem
 (
 menuItem
 )
