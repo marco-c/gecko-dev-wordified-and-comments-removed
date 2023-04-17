@@ -43,6 +43,17 @@ include
 "
 mozilla
 /
+intl
+/
+ICUError
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Result
 .
 h

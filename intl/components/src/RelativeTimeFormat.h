@@ -22,6 +22,17 @@ mozilla
 /
 intl
 /
+ICUError
+.
+h
+"
+#
+include
+"
+mozilla
+/
+intl
+/
 NumberFormatFields
 .
 h
