@@ -460,7 +460,7 @@ isSelfHosting
 =
 false
 bool
-hasUnclonedName
+forceExtended
 =
 false
 )
