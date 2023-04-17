@@ -7,7 +7,7 @@ const
 EXAMPLE_NET_URI
 =
 "
-http
+https
 :
 /
 /

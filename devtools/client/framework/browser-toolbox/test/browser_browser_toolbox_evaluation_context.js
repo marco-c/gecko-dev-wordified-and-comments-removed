@@ -81,7 +81,7 @@ await
 addTab
 (
 "
-http
+https
 :
 /
 /
@@ -299,7 +299,7 @@ pid
 processID
 }
 )
-http
+https
 :
 /
 /
