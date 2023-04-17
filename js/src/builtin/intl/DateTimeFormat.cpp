@@ -615,9 +615,6 @@ Intl_DateTimeFormat_formatToParts
 1
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -640,8 +637,6 @@ Intl_DateTimeFormat_formatRangeToParts
 2
 0
 )
-#
-endif
 JS_FN
 (
 js_toSource_str
