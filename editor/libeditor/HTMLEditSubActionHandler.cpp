@@ -33654,6 +33654,9 @@ ignored
 if
 (
 splitAfterNewBR
+&
+&
+brContent
 )
 {
 pointToSplitParentDivOrP
