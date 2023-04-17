@@ -11277,7 +11277,7 @@ id
 aLayer
 -
 >
-IsAsyncZoomContainer
+GetAsyncZoomContainerId
 (
 )
 )
@@ -37399,7 +37399,7 @@ containerParameters
 layer
 -
 >
-SetIsAsyncZoomContainer
+SetAsyncZoomContainerId
 (
 Some
 (
