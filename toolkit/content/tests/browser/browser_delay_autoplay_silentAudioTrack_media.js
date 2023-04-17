@@ -37,7 +37,7 @@ icon
 =
 tab
 .
-soundPlayingIcon
+overlayIcon
 ;
 await
 hover_icon
