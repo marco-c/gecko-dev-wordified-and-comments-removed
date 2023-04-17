@@ -124,8 +124,6 @@ apiRedirectTo
 CorsPreflightArgs
 ?
 corsPreflightArgs
-bool
-chooseAppcache
 )
 ;
 async
@@ -133,11 +131,6 @@ DocumentChannelCleanup
 (
 bool
 clearCacheEntry
-)
-;
-async
-MarkOfflineCacheEntryAsForeign
-(
 )
 ;
 async
