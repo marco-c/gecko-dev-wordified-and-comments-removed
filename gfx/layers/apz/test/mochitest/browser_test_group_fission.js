@@ -357,6 +357,15 @@ helper_fission_initial_displayport
 html
 "
 }
+{
+file
+:
+"
+helper_fission_checkerboard_severity
+.
+html
+"
+}
 ]
 ;
 if
