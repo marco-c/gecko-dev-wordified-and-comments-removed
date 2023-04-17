@@ -8269,9 +8269,6 @@ rust
 Memcheck
 :
 Cond
-.
-.
-.
 fun
 :
 _ZN5style10properties10shorthands4font10parse_into

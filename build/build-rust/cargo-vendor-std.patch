@@ -376,7 +376,7 @@ dep
 Dependency
 :
 :
-parse
+parse_no_deprecated
 (
 name
 None
@@ -733,7 +733,7 @@ dep
 Dependency
 :
 :
-parse
+parse_no_deprecated
 (
 &
 name
