@@ -4078,10 +4078,8 @@ obj
 )
 ;
 }
+static
 bool
-js
-:
-:
 NewObjectWithTaggedProtoIsCachable
 (
 JSContext
