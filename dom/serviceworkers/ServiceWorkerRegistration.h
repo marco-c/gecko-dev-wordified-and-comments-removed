@@ -78,6 +78,9 @@ namespace
 dom
 {
 class
+NavigationPreloadManager
+;
+class
 Promise
 ;
 class
@@ -292,6 +295,14 @@ GetActive
 (
 )
 const
+;
+already_AddRefed
+<
+NavigationPreloadManager
+>
+NavigationPreload
+(
+)
 ;
 void
 UpdateState
@@ -517,6 +528,12 @@ RefPtr
 ServiceWorker
 >
 mActiveWorker
+;
+RefPtr
+<
+NavigationPreloadManager
+>
+mNavigationPreloadManager
 ;
 RefPtr
 <
