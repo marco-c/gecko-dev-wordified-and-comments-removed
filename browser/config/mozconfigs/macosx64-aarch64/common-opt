@@ -16,16 +16,6 @@ topsrcdir
 /
 build
 /
-mozconfig
-.
-wasm
--
-sandboxing
-.
-topsrcdir
-/
-build
-/
 macosx
 /
 mozconfig

@@ -35,16 +35,6 @@ optimize
 -
 O1
 "
-.
-topsrcdir
-/
-build
-/
-mozconfig
-.
-wasm
--
-sandboxing
 #
 ASan
 specific

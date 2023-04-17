@@ -30,16 +30,6 @@ tables
 -
 only
 "
-.
-topsrcdir
-/
-build
-/
-mozconfig
-.
-wasm
--
-sandboxing
 #
 ASan
 specific

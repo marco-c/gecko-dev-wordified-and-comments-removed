@@ -42,16 +42,6 @@ not
 enforced
 MOZ_REQUIRE_SIGNING
 =
-.
-topsrcdir
-/
-build
-/
-mozconfig
-.
-wasm
--
-sandboxing
 #
 ASan
 specific
