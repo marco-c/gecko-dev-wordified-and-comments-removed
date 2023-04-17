@@ -66,6 +66,13 @@ h
 #
 include
 "
+nsIPipe
+.
+h
+"
+#
+include
+"
 nsAboutProtocolUtils
 .
 h
