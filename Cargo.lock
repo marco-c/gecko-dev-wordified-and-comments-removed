@@ -11468,7 +11468,7 @@ glean
 version
 =
 "
-41
+40
 .
 1
 .
@@ -11500,7 +11500,7 @@ index
 checksum
 =
 "
-902bb302c950d15ccb253285666ddb6831976c7841063d0110924f3d66072efa
+6e5a8f84d2fde6fd00464853df398213c29eab988406d6dd24ba610a24de96f5
 "
 dependencies
 =
@@ -11561,7 +11561,7 @@ core
 version
 =
 "
-41
+40
 .
 1
 .
@@ -11593,7 +11593,7 @@ index
 checksum
 =
 "
-2c750625f7772518f3f41ab920406e867f1e52d09bd4fd47e3cf09b0aa40df20
+b80bf28ad601449d6d159ddceb4ee5bb30fc229e6027f2c1488c248232e8c143
 "
 dependencies
 =
@@ -11652,7 +11652,7 @@ ffi
 version
 =
 "
-41
+40
 .
 1
 .
@@ -11684,7 +11684,7 @@ index
 checksum
 =
 "
-5d9f603e4eeccdc13012388e225802596dd2a474aa6daf806d5b90c1803a1d6d
+58e68d41f1a8a06fe66cc8537f6286bf7a9e2f7868e1f776aaa4295f555d4390
 "
 dependencies
 =
