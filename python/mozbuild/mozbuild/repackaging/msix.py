@@ -2321,10 +2321,13 @@ next
 values
 )
     
+if
+not
+displayname
+:
+        
 displayname
 =
-displayname
-or
 "
 Mozilla
 {
@@ -2335,6 +2338,22 @@ format
 (
 first
 )
+        
+if
+channel
+=
+=
+"
+beta
+"
+:
+            
+displayname
++
+=
+"
+Beta
+"
     
 second
 =
@@ -2576,6 +2595,22 @@ strip
 (
 )
     
+if
+channel
+=
+=
+"
+beta
+"
+:
+        
+brandFullName
++
+=
+"
+Beta
+"
+    
 lines
 =
 [
@@ -2708,29 +2743,6 @@ channel
 )
     
 )
-    
-if
-channel
-=
-=
-"
-beta
-"
-:
-        
-displayname
-+
-=
-"
-Beta
-"
-        
-brandFullName
-+
-=
-"
-Beta
-"
     
 instdir
 =
