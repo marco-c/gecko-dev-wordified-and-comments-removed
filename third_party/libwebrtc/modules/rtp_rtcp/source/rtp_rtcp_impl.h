@@ -894,9 +894,9 @@ packet_count
 uint32_t
 *
 octet_count
-NtpTime
+int64_t
 *
-ntp_timestamp
+ntp_timestamp_ms
 )
 const
 override
