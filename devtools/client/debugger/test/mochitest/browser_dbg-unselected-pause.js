@@ -1126,8 +1126,13 @@ resume
 await
 pausedReload
 ;
-ok
+await
+waitUntil
 (
+(
+)
+=
+>
 !
 toolbox
 .
@@ -1137,6 +1142,10 @@ isHighlighted
 jsdebugger
 "
 )
+)
+ok
+(
+true
 "
 Debugger
 is
