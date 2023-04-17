@@ -3196,7 +3196,7 @@ MOZ_KnownLive
 mHTMLEditor
 )
 .
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 ;
@@ -3225,7 +3225,7 @@ rv
 HTMLEditor
 :
 :
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 "
@@ -12679,7 +12679,7 @@ IsCollapsed
 nsresult
 rv
 =
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 ;
@@ -12714,7 +12714,7 @@ rv
 HTMLEditor
 :
 :
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 "
@@ -13614,7 +13614,7 @@ IsCollapsed
 nsresult
 rv
 =
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 ;
@@ -13643,7 +13643,7 @@ rv
 HTMLEditor
 :
 :
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 "
@@ -14695,7 +14695,7 @@ IsCollapsed
 nsresult
 rv
 =
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 ;
@@ -14724,7 +14724,7 @@ rv
 HTMLEditor
 :
 :
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 "
@@ -16067,7 +16067,7 @@ IsCollapsed
 nsresult
 rv
 =
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 ;
@@ -16096,7 +16096,7 @@ rv
 HTMLEditor
 :
 :
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 "
