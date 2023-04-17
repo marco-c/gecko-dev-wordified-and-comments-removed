@@ -2965,7 +2965,7 @@ JS
 GCOptions
 :
 :
-Shrink
+Normal
 JS
 :
 :
