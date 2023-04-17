@@ -24821,6 +24821,10 @@ HTMAXBUTTON
 &
 &
 mCustomNonClient
+&
+&
+!
+mWindowButtonsRect
 )
 {
 DispatchMouseEvent
