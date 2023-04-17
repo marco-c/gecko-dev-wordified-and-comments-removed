@@ -648,6 +648,13 @@ WaveShaperNode
 .
 h
 "
+#
+include
+"
+Tracing
+.
+h
+"
 extern
 mozilla
 :
@@ -4977,6 +4984,10 @@ ErrorResult
 aRv
 )
 {
+TRACE
+(
+)
+;
 RefPtr
 <
 Promise
@@ -5380,6 +5391,10 @@ ErrorResult
 aRv
 )
 {
+TRACE
+(
+)
+;
 RefPtr
 <
 Promise
@@ -6055,6 +6070,10 @@ ErrorResult
 aRv
 )
 {
+TRACE
+(
+)
+;
 RefPtr
 <
 Promise
