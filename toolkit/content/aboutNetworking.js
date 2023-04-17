@@ -649,7 +649,7 @@ sockets
 i
 ]
 .
-tcp
+type
 )
 )
 ;

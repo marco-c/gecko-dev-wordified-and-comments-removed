@@ -124,10 +124,11 @@ active
 =
 false
 ;
-boolean
-tcp
+DOMString
+type
 =
-false
+"
+"
 ;
 double
 sent

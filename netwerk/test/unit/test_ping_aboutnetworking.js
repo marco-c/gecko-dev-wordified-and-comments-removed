@@ -242,8 +242,10 @@ sockets
 index
 ]
 .
-tcp
-1
+type
+"
+TCP
+"
 )
 ;
 do_test_finished
