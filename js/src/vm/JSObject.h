@@ -182,6 +182,13 @@ Sealed
 Frozen
 }
 ;
+enum
+NewObjectKind
+{
+GenericObject
+TenuredObject
+}
+;
 bool
 PreventExtensions
 (
