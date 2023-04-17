@@ -127,6 +127,7 @@ is_port_locked
 +
 i
 )
+{
 if
 (
 port_refs_
@@ -146,10 +147,13 @@ port
 (
 )
 )
+{
 is_port_locked
 =
 true
 ;
+}
+}
 DCHECK
 (
 is_port_locked
