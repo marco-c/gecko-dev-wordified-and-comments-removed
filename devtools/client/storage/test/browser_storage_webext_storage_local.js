@@ -133,6 +133,12 @@ id
 }
 )
 ;
+descriptor
+.
+shouldCloseClient
+=
+true
+;
 const
 {
 toolbox
@@ -160,12 +166,6 @@ target
 toolbox
 .
 target
-;
-target
-.
-shouldCloseClient
-=
-true
 ;
 return
 {

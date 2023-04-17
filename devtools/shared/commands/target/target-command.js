@@ -1970,12 +1970,6 @@ if
 targetFront
 )
 {
-targetFront
-.
-shouldCloseClient
-=
-false
-;
 await
 targetFront
 .
