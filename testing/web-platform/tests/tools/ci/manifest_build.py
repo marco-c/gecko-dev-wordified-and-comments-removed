@@ -1087,13 +1087,20 @@ release_id
     
 edit_data
 =
-{
+create_data
+.
+copy
+(
+)
+    
+edit_data
+[
 "
 draft
 "
-:
+]
+=
 False
-}
     
 edit_resp
 =
