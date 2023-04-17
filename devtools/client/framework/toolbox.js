@@ -3287,6 +3287,11 @@ console
 "
 )
 ;
+if
+(
+consoleFront
+)
+{
 consoleFront
 .
 off
@@ -3299,6 +3304,7 @@ this
 _onInspectObject
 )
 ;
+}
 targetFront
 .
 off
