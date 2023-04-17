@@ -1364,7 +1364,7 @@ else
 await
 wait
 (
-500
+250
 )
 ;
 is
@@ -1604,7 +1604,7 @@ true
 await
 wait
 (
-1000
+250
 )
 ;
 is
@@ -1734,7 +1734,7 @@ true
 await
 wait
 (
-1000
+250
 )
 ;
 is
@@ -2164,7 +2164,7 @@ true
 await
 wait
 (
-1000
+250
 )
 ;
 is
@@ -2341,7 +2341,7 @@ documentEvents
 await
 wait
 (
-1000
+250
 )
 ;
 is

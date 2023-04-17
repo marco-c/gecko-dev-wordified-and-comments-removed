@@ -22,7 +22,7 @@ emitter
 const
 WILL_NAVIGATE_TIME_SHIFT
 =
-10
+20
 ;
 exports
 .
