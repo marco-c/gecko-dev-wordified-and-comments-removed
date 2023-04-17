@@ -1,6 +1,8 @@
 ;
 Copyright
 2018
+-
+2021
 VideoLAN
 and
 dav1d
@@ -2575,7 +2577,7 @@ endmacro
 INIT_XMM
 avx2
 cglobal
-inv_txfm_add_wht_wht_4x4
+inv_txfm_add_wht_wht_4x4_8bpc
 3
 3
 4
@@ -2668,7 +2670,7 @@ inv_txfm_add_
 %
 2_
 %
-3
+3_8bpc
 4
 5
 0
@@ -2688,7 +2690,7 @@ i
 %
 1_
 %
-3_internal
+3_internal_8bpc
 )
 lea
 rax
@@ -2734,7 +2736,7 @@ i
 %
 2_
 %
-3_internal
+3_internal_8bpc
 )
 .
 pass2
@@ -2853,7 +2855,7 @@ m0
 jmp
 m
 (
-iadst_4x4_internal
+iadst_4x4_internal_8bpc
 )
 .
 end2
@@ -3119,7 +3121,7 @@ INV_TXFM_4X4_FN
 dct
 identity
 cglobal
-idct_4x4_internal
+idct_4x4_internal_8bpc
 0
 5
 6
@@ -3216,7 +3218,7 @@ INV_TXFM_4X4_FN
 adst
 identity
 cglobal
-iadst_4x4_internal
+iadst_4x4_internal_8bpc
 0
 5
 6
@@ -3320,7 +3322,7 @@ INV_TXFM_4X4_FN
 flipadst
 identity
 cglobal
-iflipadst_4x4_internal
+iflipadst_4x4_internal_8bpc
 0
 5
 6
@@ -3350,7 +3352,7 @@ cq
 call
 m
 (
-iadst_4x4_internal
+iadst_4x4_internal_8bpc
 )
 .
 main
@@ -3376,7 +3378,7 @@ pass2
 call
 m
 (
-iadst_4x4_internal
+iadst_4x4_internal_8bpc
 )
 .
 main
@@ -3425,7 +3427,7 @@ INV_TXFM_4X4_FN
 identity
 identity
 cglobal
-iidentity_4x4_internal
+iidentity_4x4_internal_8bpc
 0
 5
 6
@@ -3516,7 +3518,7 @@ m3
 jmp
 m
 (
-iadst_4x4_internal
+iadst_4x4_internal_8bpc
 )
 .
 end
@@ -3769,7 +3771,7 @@ m0
 jmp
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 end3
@@ -4493,7 +4495,7 @@ INV_TXFM_4X8_FN
 dct
 identity
 cglobal
-idct_4x8_internal
+idct_4x8_internal_8bpc
 0
 5
 7
@@ -4600,7 +4602,7 @@ q1032
 jmp
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 end2
@@ -4625,7 +4627,7 @@ INV_TXFM_4X8_FN
 adst
 identity
 cglobal
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 0
 5
 7
@@ -4671,7 +4673,7 @@ m2
 call
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 main
@@ -4827,7 +4829,7 @@ INV_TXFM_4X8_FN
 flipadst
 identity
 cglobal
-iflipadst_4x8_internal
+iflipadst_4x8_internal_8bpc
 0
 5
 7
@@ -4873,7 +4875,7 @@ m2
 call
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 main
@@ -4915,7 +4917,7 @@ q1032
 call
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 main_pass2
@@ -4952,7 +4954,7 @@ q1032
 jmp
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 end
@@ -4969,7 +4971,7 @@ INV_TXFM_4X8_FN
 identity
 identity
 cglobal
-iidentity_4x8_internal
+iidentity_4x8_internal_8bpc
 0
 5
 7
@@ -5063,7 +5065,7 @@ pw_4096
 jmp
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 end2
@@ -5146,7 +5148,7 @@ m0
 jmp
 m
 (
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 )
 .
 end3
@@ -5669,7 +5671,7 @@ INV_TXFM_4X16_FN
 dct
 identity
 cglobal
-idct_4x16_internal
+idct_4x16_internal_8bpc
 0
 5
 11
@@ -5717,7 +5719,7 @@ cq
 call
 m
 (
-idct_16x4_internal
+idct_16x4_internal_8bpc
 )
 .
 main
@@ -5826,7 +5828,7 @@ q1032
 jmp
 m
 (
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 )
 .
 end2
@@ -5851,7 +5853,7 @@ INV_TXFM_4X16_FN
 adst
 identity
 cglobal
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 0
 5
 11
@@ -5899,7 +5901,7 @@ cq
 call
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 main
@@ -6665,7 +6667,7 @@ INV_TXFM_4X16_FN
 flipadst
 identity
 cglobal
-iflipadst_4x16_internal
+iflipadst_4x16_internal_8bpc
 0
 5
 11
@@ -6713,7 +6715,7 @@ cq
 call
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 main
@@ -6771,7 +6773,7 @@ pass2
 call
 m
 (
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 )
 .
 main
@@ -6862,7 +6864,7 @@ m6
 jmp
 m
 (
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 )
 .
 end
@@ -6879,7 +6881,7 @@ INV_TXFM_4X16_FN
 identity
 identity
 cglobal
-iidentity_4x16_internal
+iidentity_4x16_internal_8bpc
 0
 5
 11
@@ -7141,7 +7143,7 @@ m8
 jmp
 m
 (
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 )
 .
 end2
@@ -7384,7 +7386,7 @@ m0
 jmp
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 end3
@@ -7405,7 +7407,7 @@ INV_TXFM_8X4_FN
 dct
 identity
 cglobal
-idct_8x4_internal
+idct_8x4_internal_8bpc
 0
 5
 7
@@ -7464,7 +7466,7 @@ cq
 call
 m
 (
-idct_4x8_internal
+idct_4x8_internal_8bpc
 )
 .
 main
@@ -7518,7 +7520,7 @@ q2031
 jmp
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 end2
@@ -7535,7 +7537,7 @@ INV_TXFM_8X4_FN
 adst
 identity
 cglobal
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 0
 5
 7
@@ -7601,7 +7603,7 @@ xm0
 call
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 main_pass1
@@ -7727,7 +7729,7 @@ INV_TXFM_8X4_FN
 flipadst
 identity
 cglobal
-iflipadst_8x4_internal
+iflipadst_8x4_internal_8bpc
 0
 5
 7
@@ -7793,7 +7795,7 @@ xm0
 call
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 main_pass1
@@ -7833,7 +7835,7 @@ pass2
 call
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 main
@@ -7851,7 +7853,7 @@ q2031
 jmp
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 end2
@@ -7868,7 +7870,7 @@ INV_TXFM_8X4_FN
 identity
 identity
 cglobal
-iidentity_8x4_internal
+iidentity_8x4_internal_8bpc
 0
 5
 7
@@ -7978,7 +7980,7 @@ m3
 jmp
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 end
@@ -8102,7 +8104,7 @@ INV_TXFM_8X8_FN
 dct
 identity
 cglobal
-idct_8x8_internal
+idct_8x8_internal_8bpc
 0
 5
 7
@@ -8277,7 +8279,7 @@ q2031
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 end2
@@ -8301,7 +8303,7 @@ INV_TXFM_8X8_FN
 adst
 identity
 cglobal
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 0
 5
 7
@@ -8621,7 +8623,7 @@ INV_TXFM_8X8_FN
 flipadst
 identity
 cglobal
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 0
 5
 7
@@ -8685,7 +8687,7 @@ q3120
 call
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 main_pass1
@@ -8779,7 +8781,7 @@ q1032
 call
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 main_pass2
@@ -8839,7 +8841,7 @@ m4
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 end3
@@ -8856,7 +8858,7 @@ INV_TXFM_8X8_FN
 identity
 identity
 cglobal
-iidentity_8x8_internal
+iidentity_8x8_internal_8bpc
 0
 5
 7
@@ -8985,7 +8987,7 @@ pw_4096
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 end
@@ -9062,7 +9064,7 @@ r2d
 jmp
 m
 (
-inv_txfm_add_dct_dct_8x8
+inv_txfm_add_dct_dct_8x8_8bpc
 )
 .
 end2
@@ -9181,7 +9183,7 @@ INV_TXFM_8X16_FN
 dct
 identity
 cglobal
-idct_8x16_internal
+idct_8x16_internal_8bpc
 0
 5
 13
@@ -9194,7 +9196,7 @@ ITX_8X16_LOAD_COEFS
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -9481,7 +9483,7 @@ INV_TXFM_8X16_FN
 adst
 identity
 cglobal
-iadst_8x16_internal
+iadst_8x16_internal_8bpc
 0
 5
 13
@@ -9494,14 +9496,14 @@ ITX_8X16_LOAD_COEFS
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main_pass1_end
@@ -9527,7 +9529,7 @@ m9
 jmp
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 pass1_end
@@ -9586,7 +9588,7 @@ m7
 jmp
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end2
@@ -10415,7 +10417,7 @@ INV_TXFM_8X16_FN
 flipadst
 identity
 cglobal
-iflipadst_8x16_internal
+iflipadst_8x16_internal_8bpc
 0
 5
 13
@@ -10428,14 +10430,14 @@ ITX_8X16_LOAD_COEFS
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main_pass1_end
@@ -10515,7 +10517,7 @@ m1
 jmp
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 pass1_end2
@@ -10525,14 +10527,14 @@ pass2
 call
 m
 (
-iadst_8x16_internal
+iadst_8x16_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_8x16_internal
+iadst_8x16_internal_8bpc
 )
 .
 main_pass2_end
@@ -10618,7 +10620,7 @@ m8
 jmp
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end3
@@ -10699,7 +10701,7 @@ m
 %
 endmacro
 cglobal
-iidentity_8x16_internal
+iidentity_8x16_internal_8bpc
 0
 5
 13
@@ -10989,7 +10991,7 @@ x
 jmp
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end
@@ -11271,7 +11273,7 @@ INV_TXFM_16X4_FN
 dct
 identity
 cglobal
-idct_16x4_internal
+idct_16x4_internal_8bpc
 0
 5
 11
@@ -11355,7 +11357,7 @@ cq
 call
 m
 (
-idct_4x16_internal
+idct_4x16_internal_8bpc
 )
 .
 main
@@ -11407,7 +11409,7 @@ m6
 jmp
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 pass1_end
@@ -11420,7 +11422,7 @@ main
 jmp
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 end
@@ -11459,7 +11461,7 @@ INV_TXFM_16X4_FN
 adst
 identity
 cglobal
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 0
 5
 11
@@ -11511,14 +11513,14 @@ q2103
 call
 m
 (
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 )
 .
 main2
 call
 m
 (
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 )
 .
 main_pass1_end
@@ -12059,7 +12061,7 @@ INV_TXFM_16X4_FN
 flipadst
 identity
 cglobal
-iflipadst_16x4_internal
+iflipadst_16x4_internal_8bpc
 0
 5
 11
@@ -12111,14 +12113,14 @@ q2103
 call
 m
 (
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 )
 .
 main2
 call
 m
 (
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 )
 .
 main_pass1_end
@@ -12171,7 +12173,7 @@ m6
 jmp
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 pass1_end
@@ -12183,7 +12185,7 @@ pass2
 call
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 main
@@ -12289,7 +12291,7 @@ INV_TXFM_16X4_FN
 identity
 identity
 cglobal
-iidentity_16x4_internal
+iidentity_16x4_internal_8bpc
 0
 5
 11
@@ -12512,7 +12514,7 @@ m7
 jmp
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 end
@@ -12572,7 +12574,7 @@ r2d
 jmp
 m
 (
-inv_txfm_add_dct_dct_16x4
+inv_txfm_add_dct_dct_16x4_8bpc
 )
 .
 dconly
@@ -12716,7 +12718,7 @@ INV_TXFM_16X8_FN
 dct
 identity
 cglobal
-idct_16x8_internal
+idct_16x8_internal_8bpc
 0
 5
 13
@@ -12730,7 +12732,7 @@ ITX_16X8_LOAD_COEFS
 call
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 main
@@ -13059,7 +13061,7 @@ INV_TXFM_16X8_FN
 adst
 identity
 cglobal
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 0
 5
 13
@@ -13073,14 +13075,14 @@ ITX_16X8_LOAD_COEFS
 call
 m
 (
-iadst_8x16_internal
+iadst_8x16_internal_8bpc
 )
 .
 main2
 call
 m
 (
-iadst_8x16_internal
+iadst_8x16_internal_8bpc
 )
 .
 main_pass1_end
@@ -13129,7 +13131,7 @@ m6
 jmp
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 pass1_end
@@ -13163,7 +13165,7 @@ m6
 jmp
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 end2
@@ -13534,7 +13536,7 @@ INV_TXFM_16X8_FN
 flipadst
 identity
 cglobal
-iflipadst_16x8_internal
+iflipadst_16x8_internal_8bpc
 0
 5
 13
@@ -13548,14 +13550,14 @@ ITX_16X8_LOAD_COEFS
 call
 m
 (
-iadst_8x16_internal
+iadst_8x16_internal_8bpc
 )
 .
 main2
 call
 m
 (
-iadst_8x16_internal
+iadst_8x16_internal_8bpc
 )
 .
 main_pass1_end
@@ -13710,14 +13712,14 @@ pass2
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main_pass2_end
@@ -13789,7 +13791,7 @@ r3
 jmp
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 end3
@@ -13806,7 +13808,7 @@ INV_TXFM_16X8_FN
 identity
 identity
 cglobal
-iidentity_16x8_internal
+iidentity_16x8_internal_8bpc
 0
 5
 13
@@ -14126,7 +14128,7 @@ pw_4096
 jmp
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 end
@@ -14189,7 +14191,7 @@ r2d
 jmp
 m
 (
-inv_txfm_add_dct_dct_16x4
+inv_txfm_add_dct_dct_16x4_8bpc
 )
 .
 dconly
@@ -14370,7 +14372,7 @@ INV_TXFM_16X16_FN
 dct
 identity
 cglobal
-idct_16x16_internal
+idct_16x16_internal_8bpc
 0
 5
 16
@@ -15250,7 +15252,7 @@ INV_TXFM_16X16_FN
 adst
 flipadst
 cglobal
-iadst_16x16_internal
+iadst_16x16_internal_8bpc
 0
 5
 16
@@ -15348,7 +15350,7 @@ m1
 jmp
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 pass1_end2
@@ -15396,7 +15398,7 @@ m1
 jmp
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 end2
@@ -16409,7 +16411,7 @@ INV_TXFM_16X16_FN
 flipadst
 flipadst
 cglobal
-iflipadst_16x16_internal
+iflipadst_16x16_internal_8bpc
 0
 5
 16
@@ -16425,14 +16427,14 @@ ITX_16X16_LOAD_COEFS
 call
 m
 (
-iadst_16x16_internal
+iadst_16x16_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x16_internal
+iadst_16x16_internal_8bpc
 )
 .
 main_pass1_end
@@ -16642,7 +16644,7 @@ rsp
 jmp
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 pass1_end3
@@ -16652,14 +16654,14 @@ pass2
 call
 m
 (
-iadst_16x16_internal
+iadst_16x16_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x16_internal
+iadst_16x16_internal_8bpc
 )
 .
 main_pass2_end
@@ -16827,7 +16829,7 @@ r3
 jmp
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 end3
@@ -16879,7 +16881,7 @@ INV_TXFM_16X16_FN
 identity
 identity
 cglobal
-iidentity_16x16_internal
+iidentity_16x16_internal_8bpc
 0
 5
 16
@@ -17251,7 +17253,7 @@ m0
 jmp
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 pass1_end3
@@ -17342,7 +17344,7 @@ m1
 jmp
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 end
@@ -17866,7 +17868,7 @@ m
 %
 endmacro
 cglobal
-inv_txfm_add_dct_dct_8x32
+inv_txfm_add_dct_dct_8x32_8bpc
 4
 4
 0
@@ -17917,7 +17919,7 @@ cq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -18114,7 +18116,7 @@ cq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -18396,7 +18398,7 @@ r2d
 jmp
 m
 (
-inv_txfm_add_dct_dct_8x8
+inv_txfm_add_dct_dct_8x8_8bpc
 )
 .
 end2
@@ -18703,7 +18705,7 @@ zero
 call
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 main
@@ -18847,7 +18849,7 @@ main
 call
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 main
@@ -19642,7 +19644,7 @@ m
 %
 endmacro
 cglobal
-inv_txfm_add_dct_dct_32x8
+inv_txfm_add_dct_dct_32x8_8bpc
 4
 4
 0
@@ -19938,7 +19940,7 @@ m7
 call
 m
 (
-inv_txfm_add_dct_dct_8x32
+inv_txfm_add_dct_dct_8x32_8bpc
 )
 .
 main_fast
@@ -20055,7 +20057,7 @@ m8
 call
 m
 (
-inv_txfm_add_dct_dct_8x32
+inv_txfm_add_dct_dct_8x32_8bpc
 )
 .
 main
@@ -20256,7 +20258,7 @@ xm10
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -20492,7 +20494,7 @@ xm12
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main2
@@ -20574,7 +20576,7 @@ strideq
 r2
 RET
 cglobal
-inv_txfm_add_identity_identity_8x32
+inv_txfm_add_identity_identity_8x32_8bpc
 4
 5
 11
@@ -21022,7 +21024,7 @@ m6
 m8
 ret
 cglobal
-inv_txfm_add_identity_identity_32x8
+inv_txfm_add_identity_identity_32x8_8bpc
 4
 6
 10
@@ -21244,7 +21246,7 @@ m8
 call
 m
 (
-inv_txfm_add_identity_identity_8x32
+inv_txfm_add_identity_identity_8x32_8bpc
 )
 .
 transpose8x8
@@ -21909,7 +21911,7 @@ m
 %
 endmacro
 cglobal
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 4
 4
 0
@@ -21954,7 +21956,7 @@ cq
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -22323,7 +22325,7 @@ r2d
 jmp
 m
 (
-inv_txfm_add_dct_dct_16x4
+inv_txfm_add_dct_dct_16x4_8bpc
 )
 .
 dconly
@@ -22411,7 +22413,7 @@ cq
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -22891,7 +22893,7 @@ m15
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -24699,7 +24701,7 @@ xm
 %
 endmacro
 cglobal
-inv_txfm_add_dct_dct_32x16
+inv_txfm_add_dct_dct_32x16_8bpc
 4
 4
 0
@@ -24754,7 +24756,7 @@ r2d
 jmp
 m
 (
-inv_txfm_add_dct_dct_32x8
+inv_txfm_add_dct_dct_32x8_8bpc
 )
 .
 dconly
@@ -24962,7 +24964,7 @@ tmp1q
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf
@@ -25035,7 +25037,7 @@ zero_loop
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -25066,14 +25068,14 @@ pw_16384
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 transpose_2x8x8_round
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -25416,7 +25418,7 @@ IDCT32_PASS1_END
 7
 ret
 cglobal
-inv_txfm_add_identity_identity_16x32
+inv_txfm_add_identity_identity_16x32_8bpc
 4
 5
 13
@@ -25710,7 +25712,7 @@ x
 call
 m
 (
-inv_txfm_add_identity_identity_8x32
+inv_txfm_add_identity_identity_8x32_8bpc
 )
 .
 transpose8x8
@@ -25911,7 +25913,7 @@ jg
 zero_loop
 RET
 cglobal
-inv_txfm_add_identity_identity_32x16
+inv_txfm_add_identity_identity_32x16_8bpc
 4
 6
 12
@@ -26192,7 +26194,7 @@ m7
 call
 m
 (
-inv_txfm_add_identity_identity_8x32
+inv_txfm_add_identity_identity_8x32_8bpc
 )
 .
 transpose8x8
@@ -26376,7 +26378,7 @@ jge
 zero_loop
 RET
 cglobal
-inv_txfm_add_dct_dct_32x32
+inv_txfm_add_dct_dct_32x32_8bpc
 4
 4
 0
@@ -26428,7 +26430,7 @@ r2d
 jmp
 m
 (
-inv_txfm_add_dct_dct_32x8
+inv_txfm_add_dct_dct_32x8_8bpc
 )
 .
 dconly
@@ -26532,7 +26534,7 @@ cq
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf
@@ -26591,7 +26593,7 @@ fast
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf_fast
@@ -26653,14 +26655,14 @@ m15
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
 call
 m
 (
-inv_txfm_add_dct_dct_32x16
+inv_txfm_add_dct_dct_32x16_8bpc
 )
 .
 pass1_end
@@ -26675,7 +26677,7 @@ pw_8192
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 transpose_2x8x8_round
@@ -26933,7 +26935,7 @@ tmp1q
 call
 m
 (
-inv_txfm_add_identity_identity_8x32
+inv_txfm_add_identity_identity_8x32_8bpc
 )
 .
 transpose8x8
@@ -27092,7 +27094,7 @@ tmp2q
 call
 m
 (
-inv_txfm_add_identity_identity_8x32
+inv_txfm_add_identity_identity_8x32_8bpc
 )
 .
 transpose8x8
@@ -27253,7 +27255,7 @@ tmp3q
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf
@@ -27283,7 +27285,7 @@ fast2
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf_fast
@@ -27326,14 +27328,14 @@ m15
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 pass2_end
@@ -27380,7 +27382,7 @@ ret
 :
 RET
 cglobal
-inv_txfm_add_identity_identity_32x32
+inv_txfm_add_identity_identity_32x32_8bpc
 4
 6
 10
@@ -27597,7 +27599,7 @@ cq
 call
 m
 (
-inv_txfm_add_identity_identity_8x32
+inv_txfm_add_identity_identity_8x32_8bpc
 )
 .
 transpose8x8
@@ -28376,7 +28378,7 @@ endif
 %
 endmacro
 cglobal
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 4
 4
 0
@@ -28428,7 +28430,7 @@ r2d
 jmp
 m
 (
-inv_txfm_add_dct_dct_16x4
+inv_txfm_add_dct_dct_16x4_8bpc
 )
 .
 dconly
@@ -28484,7 +28486,7 @@ cq
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -28526,7 +28528,7 @@ pw_8192
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 transpose_2x8x8_round
@@ -28949,7 +28951,7 @@ rsp
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -29333,7 +29335,7 @@ tmp1q
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf_fast
@@ -29576,7 +29578,7 @@ o_idct64_offset
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part1
@@ -29801,14 +29803,14 @@ fast4
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part1
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part2_pass2
@@ -31199,7 +31201,7 @@ jne
 main_part2_pass2_loop
 ret
 cglobal
-inv_txfm_add_dct_dct_64x16
+inv_txfm_add_dct_dct_64x16_8bpc
 4
 4
 0
@@ -31431,7 +31433,7 @@ rsp
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -31642,7 +31644,7 @@ tmp1q
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf_fast
@@ -31765,7 +31767,7 @@ o_idct64_offset
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part1
@@ -31880,14 +31882,14 @@ m8
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part1
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part2_pass1
@@ -32283,14 +32285,14 @@ pw_8192
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 transpose_2x8x8_round
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -32482,7 +32484,7 @@ jg
 pass2_loop
 RET
 cglobal
-inv_txfm_add_dct_dct_32x64
+inv_txfm_add_dct_dct_32x64_8bpc
 4
 4
 0
@@ -32537,7 +32539,7 @@ r2d
 jmp
 m
 (
-inv_txfm_add_dct_dct_32x8
+inv_txfm_add_dct_dct_32x8_8bpc
 )
 .
 dconly
@@ -32640,7 +32642,7 @@ cq
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf
@@ -32700,7 +32702,7 @@ fast
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf_fast
@@ -32763,14 +32765,14 @@ m15
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
 call
 m
 (
-inv_txfm_add_dct_dct_32x16
+inv_txfm_add_dct_dct_32x16_8bpc
 )
 .
 pass1_end
@@ -32785,7 +32787,7 @@ pw_16384
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 transpose_2x8x8_round
@@ -33043,7 +33045,7 @@ tmp1q
 call
 m
 (
-inv_txfm_add_identity_identity_8x32
+inv_txfm_add_identity_identity_8x32_8bpc
 )
 .
 transpose8x8
@@ -33202,7 +33204,7 @@ tmp2q
 call
 m
 (
-inv_txfm_add_identity_identity_8x32
+inv_txfm_add_identity_identity_8x32_8bpc
 )
 .
 transpose8x8
@@ -33448,7 +33450,7 @@ rsp
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -33720,7 +33722,7 @@ tmp1q
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf_fast
@@ -33841,7 +33843,7 @@ o_idct64_offset
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part1
@@ -33954,14 +33956,14 @@ fast5
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part1
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part2_pass2
@@ -34011,7 +34013,7 @@ ret
 :
 RET
 cglobal
-inv_txfm_add_dct_dct_64x32
+inv_txfm_add_dct_dct_64x32_8bpc
 4
 4
 0
@@ -34066,7 +34068,7 @@ r2d
 jmp
 m
 (
-inv_txfm_add_dct_dct_64x16
+inv_txfm_add_dct_dct_64x16_8bpc
 )
 .
 dconly
@@ -34162,7 +34164,7 @@ m8
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -34374,7 +34376,7 @@ tmp1q
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf_fast
@@ -34512,7 +34514,7 @@ o_idct64_offset
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part1
@@ -34646,14 +34648,14 @@ m8
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part1
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part2_pass1
@@ -34673,7 +34675,7 @@ pw_16384
 call
 m
 (
-inv_txfm_add_dct_dct_64x32
+inv_txfm_add_dct_dct_64x32_8bpc
 )
 .
 transpose_round_interleave
@@ -34747,7 +34749,7 @@ tmp2q
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf
@@ -34781,7 +34783,7 @@ fast
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf_fast
@@ -34827,14 +34829,14 @@ tmp3q
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 pass2_end
@@ -35053,7 +35055,7 @@ m7
 call
 m
 (
-inv_txfm_add_identity_identity_8x32
+inv_txfm_add_identity_identity_8x32_8bpc
 )
 .
 transpose8x8
@@ -35336,7 +35338,7 @@ m7
 call
 m
 (
-inv_txfm_add_identity_identity_8x32
+inv_txfm_add_identity_identity_8x32_8bpc
 )
 .
 transpose8x8
@@ -35424,7 +35426,7 @@ jg
 loop
 ret
 cglobal
-inv_txfm_add_dct_dct_64x64
+inv_txfm_add_dct_dct_64x64_8bpc
 4
 4
 0
@@ -35476,7 +35478,7 @@ r2d
 jmp
 m
 (
-inv_txfm_add_dct_dct_64x16
+inv_txfm_add_dct_dct_64x16_8bpc
 )
 .
 dconly
@@ -35567,7 +35569,7 @@ m8
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -35778,7 +35780,7 @@ tmp1q
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf_fast
@@ -35901,7 +35903,7 @@ o_idct64_offset
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part1
@@ -36016,14 +36018,14 @@ m8
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part1
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part2_pass1
@@ -36043,7 +36045,7 @@ pw_8192
 call
 m
 (
-inv_txfm_add_dct_dct_64x32
+inv_txfm_add_dct_dct_64x32_8bpc
 )
 .
 transpose_round_interleave
@@ -36197,7 +36199,7 @@ fast
 call
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 main
@@ -36469,7 +36471,7 @@ tmp1q
 call
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 main_oddhalf_fast
@@ -36616,7 +36618,7 @@ o_idct64_offset
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part1
@@ -36745,14 +36747,14 @@ fast4
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part1
 call
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 main_part2_pass2

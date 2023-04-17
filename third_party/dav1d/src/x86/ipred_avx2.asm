@@ -1,6 +1,8 @@
 ;
 Copyright
 2018
+-
+2021
 VideoLAN
 and
 dav1d
@@ -1598,7 +1600,7 @@ private_prefix
 +
 _
 %
-1_
+1_8bpc_
 %
 2
 )
@@ -1855,7 +1857,7 @@ text
 INIT_YMM
 avx2
 cglobal
-ipred_dc_top
+ipred_dc_top_8bpc
 3
 7
 6
@@ -1930,7 +1932,7 @@ r5
 jmp
 r6
 cglobal
-ipred_dc_left
+ipred_dc_left_8bpc
 3
 7
 6
@@ -2091,7 +2093,7 @@ m0
 jmp
 wq
 cglobal
-ipred_dc
+ipred_dc_8bpc
 3
 7
 6
@@ -3004,7 +3006,7 @@ jg
 s64
 RET
 cglobal
-ipred_dc_128
+ipred_dc_128_8bpc
 2
 7
 6
@@ -3059,7 +3061,7 @@ strideq
 jmp
 wq
 cglobal
-ipred_v
+ipred_v_8bpc
 3
 7
 6
@@ -3220,7 +3222,7 @@ endmacro
 INIT_XMM
 avx2
 cglobal
-ipred_h
+ipred_h_8bpc
 3
 6
 4
@@ -3581,7 +3583,7 @@ m1
 %
 endmacro
 cglobal
-ipred_paeth
+ipred_paeth_8bpc
 3
 6
 9
@@ -4247,7 +4249,7 @@ m1
 %
 endmacro
 cglobal
-ipred_smooth_v
+ipred_smooth_v_8bpc
 3
 7
 0
@@ -5030,7 +5032,7 @@ ALLOC_STACK
 %
 endmacro
 cglobal
-ipred_smooth_h
+ipred_smooth_h_8bpc
 3
 7
 0
@@ -6180,7 +6182,7 @@ m1
 %
 endmacro
 cglobal
-ipred_smooth
+ipred_smooth_8bpc
 3
 7
 0
@@ -7627,7 +7629,7 @@ r3
 hq
 ret
 cglobal
-ipred_z1
+ipred_z1_8bpc
 3
 8
 0
@@ -11834,7 +11836,7 @@ w64_end
 :
 RET
 cglobal
-ipred_z2
+ipred_z2_8bpc
 3
 10
 16
@@ -16809,7 +16811,7 @@ jmp
 .
 w32_filter_above
 cglobal
-ipred_z3
+ipred_z3_8bpc
 4
 9
 0
@@ -23195,7 +23197,7 @@ ___
 8
 i
 cglobal
-ipred_filter
+ipred_filter_8bpc
 3
 7
 0
@@ -24791,7 +24793,7 @@ m0
 %
 endmacro
 cglobal
-ipred_cfl_top
+ipred_cfl_top_8bpc
 3
 7
 6
@@ -24871,7 +24873,7 @@ acmp
 jmp
 r6
 cglobal
-ipred_cfl_left
+ipred_cfl_left_8bpc
 3
 7
 6
@@ -25003,7 +25005,7 @@ xm0
 jmp
 wq
 cglobal
-ipred_cfl
+ipred_cfl_8bpc
 3
 7
 6
@@ -25785,7 +25787,7 @@ jg
 s32_loop
 RET
 cglobal
-ipred_cfl_128
+ipred_cfl_128_8bpc
 3
 7
 6
@@ -25834,7 +25836,7 @@ acmp
 jmp
 wq
 cglobal
-ipred_cfl_ac_420
+ipred_cfl_ac_420_8bpc
 4
 9
 5
@@ -26547,7 +26549,7 @@ jg
 sub_loop
 RET
 cglobal
-ipred_cfl_ac_422
+ipred_cfl_ac_422_8bpc
 4
 9
 6
@@ -27324,7 +27326,7 @@ jg
 sub_loop
 RET
 cglobal
-ipred_cfl_ac_444
+ipred_cfl_ac_444_8bpc
 4
 9
 6
@@ -28213,7 +28215,7 @@ jg
 sub_loop
 RET
 cglobal
-pal_pred
+pal_pred_8bpc
 4
 6
 5

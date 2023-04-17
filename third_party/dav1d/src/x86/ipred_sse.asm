@@ -1,6 +1,8 @@
 ;
 Copyright
 2018
+-
+2021
 VideoLAN
 and
 dav1d
@@ -648,7 +650,7 @@ private_prefix
 +
 _
 %
-1_
+1_8bpc_
 %
 2
 )
@@ -1321,7 +1323,7 @@ endmacro
 INIT_XMM
 ssse3
 cglobal
-ipred_h
+ipred_h_8bpc
 3
 6
 2
@@ -1590,7 +1592,7 @@ a
 -
 -
 cglobal
-ipred_v
+ipred_v_8bpc
 3
 7
 6
@@ -1862,7 +1864,7 @@ a
 -
 -
 cglobal
-ipred_dc
+ipred_dc_8bpc
 3
 7
 6
@@ -3088,7 +3090,7 @@ a
 -
 -
 cglobal
-ipred_dc_left
+ipred_dc_left_8bpc
 3
 7
 6
@@ -3507,7 +3509,7 @@ a
 -
 -
 cglobal
-ipred_dc_128
+ipred_dc_128_8bpc
 2
 7
 6
@@ -3769,7 +3771,7 @@ a
 -
 -
 cglobal
-ipred_dc_top
+ipred_dc_top_8bpc
 3
 7
 6
@@ -4234,7 +4236,7 @@ m0
 %
 endmacro
 cglobal
-ipred_smooth_v
+ipred_smooth_v_8bpc
 3
 7
 7
@@ -5185,7 +5187,7 @@ a
 -
 -
 cglobal
-ipred_smooth_h
+ipred_smooth_h_8bpc
 3
 7
 8
@@ -6720,7 +6722,7 @@ recovery
 %
 endmacro
 cglobal
-ipred_smooth
+ipred_smooth_8bpc
 3
 7
 8
@@ -8569,7 +8571,7 @@ h
 -
 -
 cglobal
-pal_pred
+pal_pred_8bpc
 4
 6
 5
@@ -9246,7 +9248,7 @@ DECLARE_REG_TMP
 %
 endif
 cglobal
-ipred_cfl
+ipred_cfl_8bpc
 3
 7
 6
@@ -10372,7 +10374,7 @@ alpha
 -
 -
 cglobal
-ipred_cfl_left
+ipred_cfl_left_8bpc
 3
 7
 6
@@ -10738,7 +10740,7 @@ alpha
 -
 -
 cglobal
-ipred_cfl_top
+ipred_cfl_top_8bpc
 3
 7
 6
@@ -11025,7 +11027,7 @@ alpha
 -
 -
 cglobal
-ipred_cfl_128
+ipred_cfl_128_8bpc
 3
 7
 6
@@ -11087,7 +11089,7 @@ endmacro
 if
 ARCH_X86_64
 cglobal
-ipred_cfl_ac_420
+ipred_cfl_ac_420_8bpc
 4
 8
 7
@@ -11109,7 +11111,7 @@ pb_2
 %
 else
 cglobal
-ipred_cfl_ac_420
+ipred_cfl_ac_420_8bpc
 4
 7
 7
@@ -12038,7 +12040,7 @@ RET
 if
 ARCH_X86_64
 cglobal
-ipred_cfl_ac_422
+ipred_cfl_ac_422_8bpc
 4
 8
 7
@@ -12058,7 +12060,7 @@ pb_4
 %
 else
 cglobal
-ipred_cfl_ac_422
+ipred_cfl_ac_422_8bpc
 4
 7
 7
@@ -13161,7 +13163,7 @@ RET
 if
 ARCH_X86_64
 cglobal
-ipred_cfl_ac_444
+ipred_cfl_ac_444_8bpc
 4
 8
 7
@@ -13185,7 +13187,7 @@ pb_4
 %
 else
 cglobal
-ipred_cfl_ac_444
+ipred_cfl_ac_444_8bpc
 4
 7
 7
@@ -15965,7 +15967,7 @@ m5
 %
 endmacro
 cglobal
-ipred_paeth
+ipred_paeth_8bpc
 3
 6
 8
@@ -16754,7 +16756,7 @@ m
 %
 endmacro
 cglobal
-ipred_filter
+ipred_filter_8bpc
 3
 7
 8

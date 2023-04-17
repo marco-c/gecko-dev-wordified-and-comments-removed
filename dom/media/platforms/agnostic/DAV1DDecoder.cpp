@@ -208,7 +208,7 @@ decoder_threads
 }
 settings
 .
-n_frame_threads
+n_threads
 =
 static_cast
 <
@@ -226,12 +226,6 @@ GetNumberOfProcessors
 )
 )
 )
-;
-settings
-.
-n_tile_threads
-=
-2
 ;
 int
 res

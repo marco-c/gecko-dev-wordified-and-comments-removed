@@ -2923,9 +2923,6 @@ secdmpd
 add
 secdmpd
 dampingd
-cmovs
-secdmpd
-zerod
 mov
 [
 rsp
@@ -3397,9 +3394,6 @@ secdmpd
 add
 secdmpd
 dampingd
-cmovs
-secdmpd
-zerod
 mov
 [
 rsp
@@ -10289,9 +10283,6 @@ secdmpd
 add
 secdmpd
 dampingd
-cmovs
-secdmpd
-zerod
 mov
 [
 rsp
@@ -10735,9 +10726,6 @@ secdmpd
 add
 secdmpd
 dampingd
-cmovs
-secdmpd
-zerod
 mov
 [
 rsp

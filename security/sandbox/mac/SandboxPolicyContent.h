@@ -979,6 +979,16 @@ name
 "
 hw
 .
+logicalcpu
+"
+)
+(
+sysctl
+-
+name
+"
+hw
+.
 logicalcpu_max
 "
 )

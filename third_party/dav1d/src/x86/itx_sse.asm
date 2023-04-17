@@ -1,6 +1,8 @@
 ;
 Copyright
 2018
+-
+2021
 VideoLAN
 and
 dav1d
@@ -1762,7 +1764,7 @@ inv_txfm_add_
 %
 2_
 %
-3
+3_8bpc
 4
 6
 %
@@ -1783,7 +1785,7 @@ i
 %
 1_
 %
-3_internal
+3_internal_8bpc
 )
 %
 if
@@ -1822,7 +1824,7 @@ i
 %
 2_
 %
-3_internal
+3_internal_8bpc
 )
 .
 pass2
@@ -1850,7 +1852,7 @@ i
 %
 2_
 %
-3_internal
+3_internal_8bpc
 )
 .
 pass2
@@ -1962,7 +1964,7 @@ m0
 TAIL_CALL
 m
 (
-iadst_4x4_internal
+iadst_4x4_internal_8bpc
 )
 .
 end2
@@ -1972,6 +1974,26 @@ endif
 endmacro
 INIT_XMM
 ssse3
+;
+itx16
+relies
+on
+dct_dct
+being
+the
+first
+function
+.
+If
+you
+change
+the
+order
+adjust
+itx8_start
+in
+itx16
+.
 INV_TXFM_4X4_FN
 dct
 dct
@@ -1985,7 +2007,7 @@ INV_TXFM_4X4_FN
 dct
 identity
 cglobal
-idct_4x4_internal
+idct_4x4_internal_8bpc
 0
 0
 0
@@ -2129,7 +2151,7 @@ INV_TXFM_4X4_FN
 adst
 identity
 cglobal
-iadst_4x4_internal
+iadst_4x4_internal_8bpc
 0
 0
 0
@@ -2231,9 +2253,9 @@ ITX4_END
 3
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 punpcklwd
 m2
 m0
@@ -2475,7 +2497,7 @@ INV_TXFM_4X4_FN
 flipadst
 identity
 cglobal
-iflipadst_4x4_internal
+iflipadst_4x4_internal_8bpc
 0
 0
 0
@@ -2505,7 +2527,7 @@ coeffq
 call
 m
 (
-iadst_4x4_internal
+iadst_4x4_internal_8bpc
 )
 .
 main
@@ -2547,7 +2569,7 @@ pass2
 call
 m
 (
-iadst_4x4_internal
+iadst_4x4_internal_8bpc
 )
 .
 main
@@ -2596,7 +2618,7 @@ INV_TXFM_4X4_FN
 identity
 identity
 cglobal
-iidentity_4x4_internal
+iidentity_4x4_internal_8bpc
 0
 0
 0
@@ -2703,7 +2725,7 @@ m3
 jmp
 m
 (
-iadst_4x4_internal
+iadst_4x4_internal_8bpc
 )
 .
 end
@@ -2814,7 +2836,7 @@ out3
 %
 endmacro
 cglobal
-inv_txfm_add_wht_wht_4x4
+inv_txfm_add_wht_wht_4x4_8bpc
 3
 3
 4
@@ -3727,7 +3749,7 @@ m0
 TAIL_CALL
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 end3
@@ -3748,7 +3770,7 @@ INV_TXFM_4X8_FN
 dct
 identity
 cglobal
-idct_4x8_internal
+idct_4x8_internal_8bpc
 0
 0
 0
@@ -3810,14 +3832,14 @@ pass1
 call
 m
 (
-idct_8x4_internal
+idct_8x4_internal_8bpc
 )
 .
 main
 jmp
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 pass1_end
@@ -3846,15 +3868,15 @@ pw_2048
 jmp
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 end2
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 IDCT8_1D_PACKED
 ret
 INV_TXFM_4X8_FN
@@ -3870,7 +3892,7 @@ INV_TXFM_4X8_FN
 adst
 identity
 cglobal
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 0
 0
 0
@@ -3932,7 +3954,7 @@ pass1
 call
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 main
@@ -4041,9 +4063,9 @@ WRITE_4X8
 RET
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 mova
 m6
 [
@@ -4408,7 +4430,7 @@ INV_TXFM_4X8_FN
 flipadst
 identity
 cglobal
-iflipadst_4x8_internal
+iflipadst_4x8_internal_8bpc
 0
 0
 0
@@ -4470,7 +4492,7 @@ pass1
 call
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 main
@@ -4547,7 +4569,7 @@ q1032
 call
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 main
@@ -4590,7 +4612,7 @@ m5
 jmp
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 end
@@ -4607,7 +4629,7 @@ INV_TXFM_4X8_FN
 identity
 identity
 cglobal
-iidentity_4x8_internal
+iidentity_4x8_internal_8bpc
 0
 0
 0
@@ -4704,7 +4726,7 @@ m7
 jmp
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 pass1_end
@@ -4722,7 +4744,7 @@ pw_4096
 jmp
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 end2
@@ -4984,7 +5006,7 @@ m0
 TAIL_CALL
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 end2
@@ -5005,7 +5027,7 @@ INV_TXFM_8X4_FN
 dct
 identity
 cglobal
-idct_8x4_internal
+idct_8x4_internal_8bpc
 0
 0
 0
@@ -5064,7 +5086,7 @@ coeffq
 call
 m
 (
-idct_4x8_internal
+idct_4x8_internal_8bpc
 )
 .
 main
@@ -5144,15 +5166,15 @@ main
 jmp
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 end
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 mova
 m6
 [
@@ -5183,7 +5205,7 @@ INV_TXFM_8X4_FN
 adst
 identity
 cglobal
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 0
 0
 0
@@ -5250,7 +5272,7 @@ q1032
 call
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 main
@@ -5401,9 +5423,9 @@ WRITE_8X4
 RET
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 punpckhwd
 m6
 m0
@@ -5864,7 +5886,7 @@ INV_TXFM_8X4_FN
 flipadst
 identity
 cglobal
-iflipadst_8x4_internal
+iflipadst_8x4_internal_8bpc
 0
 0
 0
@@ -5931,7 +5953,7 @@ q1032
 call
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 main
@@ -6003,7 +6025,7 @@ pass2
 call
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 main
@@ -6028,7 +6050,7 @@ m4
 jmp
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 end
@@ -6045,7 +6067,7 @@ INV_TXFM_8X4_FN
 identity
 identity
 cglobal
-iidentity_8x4_internal
+iidentity_8x4_internal_8bpc
 0
 0
 0
@@ -6206,7 +6228,7 @@ m7
 jmp
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 end
@@ -6292,7 +6314,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_8x8
+inv_txfm_add_dct_dct_8x8_8bpc
 )
 .
 end3
@@ -6670,7 +6692,7 @@ INV_TXFM_8X8_FN
 dct
 identity
 cglobal
-idct_8x8_internal
+idct_8x8_internal_8bpc
 0
 0
 0
@@ -6746,9 +6768,9 @@ gprsize
 *
 0
 ]
+cglobal_label
 .
 pass1_end3
-:
 punpcklwd
 m6
 m1
@@ -7116,7 +7138,7 @@ o
 (
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end4
@@ -7288,9 +7310,9 @@ m7
 ret
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 mova
 [
 rsp
@@ -7542,7 +7564,7 @@ INV_TXFM_8X8_FN
 adst
 identity
 cglobal
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 0
 0
 0
@@ -7610,7 +7632,7 @@ m6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end2
@@ -7626,7 +7648,7 @@ o
 (
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end4
@@ -7685,15 +7707,15 @@ m6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end2
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 mova
 [
 rsp
@@ -8239,9 +8261,9 @@ gprsize
 ret
 ALIGN
 function_align
+cglobal_label
 .
 main_pass2_end
-:
 paddsw
 m7
 m4
@@ -8319,7 +8341,7 @@ INV_TXFM_8X8_FN
 flipadst
 identity
 cglobal
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 0
 0
 0
@@ -8337,14 +8359,14 @@ pass1
 call
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 main_pass1_end
@@ -8437,7 +8459,7 @@ m6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end3
@@ -8453,7 +8475,7 @@ o
 (
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end4
@@ -8465,14 +8487,14 @@ pass2_main
 call
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 main_pass2_end
@@ -8576,7 +8598,7 @@ m7
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end3
@@ -8593,7 +8615,7 @@ INV_TXFM_8X8_FN
 identity
 identity
 cglobal
-iidentity_8x8_internal
+iidentity_8x8_internal_8bpc
 0
 0
 0
@@ -8619,7 +8641,7 @@ m6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end3
@@ -8635,7 +8657,7 @@ o
 (
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end4
@@ -8709,7 +8731,7 @@ m6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end3
@@ -8866,7 +8888,7 @@ INV_TXFM_4X16_FN
 dct
 identity
 cglobal
-idct_4x16_internal
+idct_4x16_internal_8bpc
 0
 0
 0
@@ -8882,7 +8904,7 @@ o
 (
 m
 (
-idct_4x8_internal
+idct_4x8_internal_8bpc
 )
 .
 pass1
@@ -8936,7 +8958,7 @@ o
 (
 m
 (
-idct_4x16_internal
+idct_4x16_internal_8bpc
 )
 .
 pass1_2
@@ -9026,7 +9048,7 @@ o
 (
 m
 (
-idct_4x16_internal
+idct_4x16_internal_8bpc
 )
 .
 pass1_end
@@ -9113,7 +9135,7 @@ pass2
 call
 m
 (
-idct_16x4_internal
+idct_16x4_internal_8bpc
 )
 .
 main
@@ -9272,7 +9294,7 @@ INV_TXFM_4X16_FN
 adst
 identity
 cglobal
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 0
 0
 0
@@ -9288,7 +9310,7 @@ o
 (
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 pass1
@@ -9297,7 +9319,7 @@ pass1
 jmp
 m
 (
-idct_4x16_internal
+idct_4x16_internal_8bpc
 )
 .
 pass1
@@ -9307,14 +9329,14 @@ pass2
 call
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 main_pass2_end
@@ -9727,7 +9749,7 @@ INV_TXFM_4X16_FN
 flipadst
 identity
 cglobal
-iflipadst_4x16_internal
+iflipadst_4x16_internal_8bpc
 0
 0
 0
@@ -9743,7 +9765,7 @@ o
 (
 m
 (
-iflipadst_4x8_internal
+iflipadst_4x8_internal_8bpc
 )
 .
 pass1
@@ -9752,7 +9774,7 @@ pass1
 jmp
 m
 (
-idct_4x16_internal
+idct_4x16_internal_8bpc
 )
 .
 pass1
@@ -9762,14 +9784,14 @@ pass2
 call
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 main_pass2_end
@@ -9912,7 +9934,7 @@ pw_m2048
 jmp
 m
 (
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 )
 .
 end1
@@ -9993,7 +10015,7 @@ m
 %
 endmacro
 cglobal
-iidentity_4x16_internal
+iidentity_4x16_internal_8bpc
 0
 0
 0
@@ -10119,7 +10141,7 @@ m5
 jmp
 m
 (
-iadst_4x8_internal
+iadst_4x8_internal_8bpc
 )
 .
 pass1_end
@@ -10363,7 +10385,7 @@ m4
 jmp
 m
 (
-iadst_4x16_internal
+iadst_4x16_internal_8bpc
 )
 .
 end2
@@ -10425,7 +10447,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_16x4
+inv_txfm_add_dct_dct_16x4_8bpc
 )
 .
 end
@@ -11162,7 +11184,7 @@ INV_TXFM_16X4_FN
 dct
 identity
 cglobal
-idct_16x4_internal
+idct_16x4_internal_8bpc
 0
 0
 0
@@ -11541,7 +11563,7 @@ o
 (
 m
 (
-idct_8x4_internal
+idct_8x4_internal_8bpc
 )
 .
 pass2
@@ -11634,9 +11656,9 @@ jmp
 tx2q
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 punpckhqdq
 m7
 m0
@@ -11929,7 +11951,7 @@ INV_TXFM_16X4_FN
 adst
 identity
 cglobal
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 0
 0
 0
@@ -12117,7 +12139,7 @@ m7
 jmp
 m
 (
-idct_16x4_internal
+idct_16x4_internal_8bpc
 )
 .
 pass1_end3
@@ -12131,7 +12153,7 @@ o
 (
 m
 (
-iadst_8x4_internal
+iadst_8x4_internal_8bpc
 )
 .
 pass2
@@ -12140,15 +12162,15 @@ pass2
 jmp
 m
 (
-idct_16x4_internal
+idct_16x4_internal_8bpc
 )
 .
 pass2_end
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 mova
 [
 coeffq
@@ -13075,9 +13097,9 @@ coeffq
 ret
 ALIGN
 function_align
+cglobal_label
 .
 main_pass2_end
-:
 mova
 m7
 [
@@ -13246,7 +13268,7 @@ INV_TXFM_16X4_FN
 flipadst
 identity
 cglobal
-iflipadst_16x4_internal
+iflipadst_16x4_internal_8bpc
 0
 0
 0
@@ -13261,14 +13283,14 @@ coeffq
 call
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 main_pass1_end
@@ -13387,7 +13409,7 @@ pw_m16384
 jmp
 m
 (
-iadst_16x4_internal
+iadst_16x4_internal_8bpc
 )
 .
 pass1_end
@@ -13401,7 +13423,7 @@ o
 (
 m
 (
-iflipadst_8x4_internal
+iflipadst_8x4_internal_8bpc
 )
 .
 pass2
@@ -13410,7 +13432,7 @@ pass2
 jmp
 m
 (
-idct_16x4_internal
+idct_16x4_internal_8bpc
 )
 .
 pass2_end
@@ -13427,7 +13449,7 @@ INV_TXFM_16X4_FN
 identity
 identity
 cglobal
-iidentity_16x4_internal
+iidentity_16x4_internal_8bpc
 0
 0
 0
@@ -13729,7 +13751,7 @@ out14
 jmp
 m
 (
-idct_16x4_internal
+idct_16x4_internal_8bpc
 )
 .
 pass1_end3
@@ -13743,7 +13765,7 @@ o
 (
 m
 (
-iidentity_8x4_internal
+iidentity_8x4_internal_8bpc
 )
 .
 pass2
@@ -13752,7 +13774,7 @@ pass2
 jmp
 m
 (
-idct_16x4_internal
+idct_16x4_internal_8bpc
 )
 .
 pass2_end
@@ -13937,7 +13959,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_8x16
+inv_txfm_add_dct_dct_8x16_8bpc
 )
 .
 end
@@ -13946,7 +13968,7 @@ end
 jmp
 m
 (
-inv_txfm_add_dct_dct_8x8
+inv_txfm_add_dct_dct_8x8_8bpc
 )
 .
 loop
@@ -13971,7 +13993,7 @@ INV_TXFM_8X16_FN
 dct
 identity
 cglobal
-idct_8x16_internal
+idct_8x16_internal_8bpc
 0
 0
 0
@@ -13987,7 +14009,7 @@ o
 (
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1
@@ -14022,7 +14044,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 pass1_end
@@ -14071,7 +14093,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end
@@ -14167,7 +14189,7 @@ pass2_main
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -14255,7 +14277,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -14274,7 +14296,7 @@ strideq
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end
@@ -14308,7 +14330,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end1
@@ -14320,7 +14342,7 @@ r3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end
@@ -14372,7 +14394,7 @@ INV_TXFM_8X16_FN
 adst
 identity
 cglobal
-iadst_8x16_internal
+iadst_8x16_internal_8bpc
 0
 0
 0
@@ -14388,7 +14410,7 @@ o
 (
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 pass1
@@ -14397,7 +14419,7 @@ pass1
 jmp
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 pass1
@@ -14411,7 +14433,7 @@ o
 (
 m
 (
-iadst_8x16_internal
+iadst_8x16_internal_8bpc
 )
 .
 end
@@ -14598,14 +14620,14 @@ coeffq
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main_pass2_end
@@ -14624,7 +14646,7 @@ strideq
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 end
@@ -14658,7 +14680,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end1
@@ -14670,7 +14692,7 @@ r3
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 end
@@ -14687,7 +14709,7 @@ INV_TXFM_8X16_FN
 flipadst
 identity
 cglobal
-iflipadst_8x16_internal
+iflipadst_8x16_internal_8bpc
 0
 0
 0
@@ -14703,7 +14725,7 @@ o
 (
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 pass1
@@ -14712,7 +14734,7 @@ pass1
 jmp
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 pass1
@@ -14726,7 +14748,7 @@ o
 (
 m
 (
-iflipadst_8x16_internal
+iflipadst_8x16_internal_8bpc
 )
 .
 end
@@ -14922,21 +14944,21 @@ coeffq
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main_pass2_end
 jmp
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 end
@@ -14970,7 +14992,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end1
@@ -14982,7 +15004,7 @@ r3
 jmp
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 end
@@ -14999,7 +15021,7 @@ INV_TXFM_8X16_FN
 identity
 identity
 cglobal
-iidentity_8x16_internal
+iidentity_8x16_internal_8bpc
 0
 0
 0
@@ -15026,7 +15048,7 @@ o
 (
 m
 (
-iidentity_8x16_internal
+iidentity_8x16_internal_8bpc
 )
 .
 pass1_end
@@ -15046,7 +15068,7 @@ m6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end3
@@ -15085,7 +15107,7 @@ m6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end3
@@ -15099,7 +15121,7 @@ o
 (
 m
 (
-iidentity_8x16_internal
+iidentity_8x16_internal_8bpc
 )
 .
 end1
@@ -15260,7 +15282,7 @@ m7
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end3
@@ -15281,7 +15303,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end1
@@ -15363,7 +15385,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_16x8
+inv_txfm_add_dct_dct_16x8_8bpc
 )
 .
 end
@@ -15372,7 +15394,7 @@ end
 jmp
 m
 (
-inv_txfm_add_dct_dct_16x4
+inv_txfm_add_dct_dct_16x4_8bpc
 )
 .
 dconly
@@ -15397,7 +15419,7 @@ INV_TXFM_16X8_FN
 dct
 identity
 cglobal
-idct_16x8_internal
+idct_16x8_internal_8bpc
 0
 0
 0
@@ -15417,7 +15439,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -15451,7 +15473,7 @@ o
 (
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 pass1_end
@@ -15460,7 +15482,7 @@ pass1_end
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -15500,7 +15522,7 @@ r3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -15514,7 +15536,7 @@ o
 (
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 end
@@ -15530,7 +15552,7 @@ dstq
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass2_main
@@ -15551,7 +15573,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end1
@@ -15563,15 +15585,15 @@ r3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass2_main
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 mova
 [
 rsp
@@ -16321,7 +16343,7 @@ INV_TXFM_16X8_FN
 adst
 identity
 cglobal
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 0
 0
 0
@@ -16601,7 +16623,7 @@ o
 (
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 pass1_end
@@ -16610,7 +16632,7 @@ pass1_end
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -16650,7 +16672,7 @@ r3
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -16664,7 +16686,7 @@ o
 (
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 end
@@ -16680,7 +16702,7 @@ dstq
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 pass2_main
@@ -16701,7 +16723,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end1
@@ -16713,15 +16735,15 @@ r3
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 pass2_main
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 mova
 [
 rsp
@@ -18563,9 +18585,9 @@ out14
 ret
 ALIGN
 function_align
+cglobal_label
 .
 main_pass2_end
-:
 mova
 m7
 [
@@ -18812,7 +18834,7 @@ INV_TXFM_16X8_FN
 flipadst
 identity
 cglobal
-iflipadst_16x8_internal
+iflipadst_16x8_internal_8bpc
 0
 0
 0
@@ -19079,14 +19101,14 @@ coeffq
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main_pass1_end
@@ -19138,7 +19160,7 @@ o
 (
 m
 (
-iflipadst_16x8_internal
+iflipadst_16x8_internal_8bpc
 )
 .
 pass1_end
@@ -19147,7 +19169,7 @@ pass1_end
 jmp
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -19185,7 +19207,7 @@ r3
 jmp
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -19199,7 +19221,7 @@ o
 (
 m
 (
-iflipadst_16x8_internal
+iflipadst_16x8_internal_8bpc
 )
 .
 end
@@ -19215,7 +19237,7 @@ dstq
 jmp
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 pass2_main
@@ -19236,7 +19258,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end1
@@ -19248,7 +19270,7 @@ r3
 jmp
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 pass2_main
@@ -19265,7 +19287,7 @@ INV_TXFM_16X8_FN
 identity
 identity
 cglobal
-iidentity_16x8_internal
+iidentity_16x8_internal_8bpc
 0
 0
 0
@@ -19325,7 +19347,7 @@ o
 (
 m
 (
-iidentity_16x8_internal
+iidentity_16x8_internal_8bpc
 )
 .
 pass1_end
@@ -19546,7 +19568,7 @@ m6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end3
@@ -19677,7 +19699,7 @@ o
 (
 m
 (
-iidentity_16x8_internal
+iidentity_16x8_internal_8bpc
 )
 .
 end
@@ -19693,7 +19715,7 @@ dstq
 jmp
 m
 (
-iidentity_8x8_internal
+iidentity_8x8_internal_8bpc
 )
 .
 end
@@ -19714,7 +19736,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end1
@@ -19726,7 +19748,7 @@ r3
 jmp
 m
 (
-iidentity_8x8_internal
+iidentity_8x8_internal_8bpc
 )
 .
 end
@@ -19791,7 +19813,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_16x16
+inv_txfm_add_dct_dct_16x16_8bpc
 )
 .
 end
@@ -19800,7 +19822,7 @@ end
 jmp
 m
 (
-inv_txfm_add_dct_dct_16x4
+inv_txfm_add_dct_dct_16x4_8bpc
 )
 .
 dconly
@@ -19825,7 +19847,7 @@ INV_TXFM_16X16_FN
 dct
 identity
 cglobal
-idct_16x16_internal
+idct_16x16_internal_8bpc
 0
 0
 0
@@ -19844,7 +19866,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -19867,7 +19889,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -19881,7 +19903,7 @@ o
 (
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 pass1_end
@@ -19898,7 +19920,7 @@ pw_8192
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -19939,7 +19961,7 @@ o
 (
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 pass1_end1
@@ -19956,7 +19978,7 @@ pw_8192
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -19980,7 +20002,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -20003,7 +20025,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -20014,7 +20036,7 @@ o
 (
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 pass1_end2
@@ -20031,7 +20053,7 @@ pw_8192
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -20079,7 +20101,7 @@ pw_8192
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -20093,7 +20115,7 @@ o
 (
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 end
@@ -20102,7 +20124,7 @@ end
 jmp
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 pass2_pre
@@ -20136,7 +20158,7 @@ o
 (
 m
 (
-idct_16x16_internal
+idct_16x16_internal_8bpc
 )
 .
 end1
@@ -20155,7 +20177,7 @@ dstq
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end
@@ -20280,7 +20302,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end
@@ -20289,7 +20311,7 @@ end
 jmp
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 pass2_main
@@ -20779,7 +20801,7 @@ INV_TXFM_16X16_FN
 adst
 flipadst
 cglobal
-iadst_16x16_internal
+iadst_16x16_internal_8bpc
 0
 0
 0
@@ -20792,14 +20814,14 @@ ITX_16X16_ADST_LOAD_ODD_COEFS
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main_pass1_end
@@ -20813,7 +20835,7 @@ o
 (
 m
 (
-iadst_16x16_internal
+iadst_16x16_internal_8bpc
 )
 .
 pass1_end
@@ -20830,7 +20852,7 @@ pw_8192
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -20871,7 +20893,7 @@ o
 (
 m
 (
-iadst_16x16_internal
+iadst_16x16_internal_8bpc
 )
 .
 pass1_end1
@@ -20888,7 +20910,7 @@ pw_8192
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -20906,14 +20928,14 @@ ITX_16X16_ADST_LOAD_EVEN_COEFS
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main_pass1_end
@@ -20924,7 +20946,7 @@ o
 (
 m
 (
-iadst_16x16_internal
+iadst_16x16_internal_8bpc
 )
 .
 pass1_end2
@@ -20941,7 +20963,7 @@ pw_8192
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -20989,7 +21011,7 @@ pw_8192
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -21003,7 +21025,7 @@ o
 (
 m
 (
-iadst_16x16_internal
+iadst_16x16_internal_8bpc
 )
 .
 end
@@ -21012,7 +21034,7 @@ end
 jmp
 m
 (
-iadst_8x16_internal
+iadst_8x16_internal_8bpc
 )
 .
 pass2_pre
@@ -21046,7 +21068,7 @@ o
 (
 m
 (
-iadst_16x16_internal
+iadst_16x16_internal_8bpc
 )
 .
 end1
@@ -21065,7 +21087,7 @@ dstq
 jmp
 m
 (
-iadst_8x8_internal
+iadst_8x8_internal_8bpc
 )
 .
 end
@@ -21234,7 +21256,7 @@ o
 (
 m
 (
-iadst_8x16_internal
+iadst_8x16_internal_8bpc
 )
 .
 end
@@ -21243,7 +21265,7 @@ end
 jmp
 m
 (
-iadst_8x16_internal
+iadst_8x16_internal_8bpc
 )
 .
 pass2_main
@@ -21257,7 +21279,7 @@ INV_TXFM_16X16_FN
 flipadst
 flipadst
 cglobal
-iflipadst_16x16_internal
+iflipadst_16x16_internal_8bpc
 0
 0
 0
@@ -21270,14 +21292,14 @@ ITX_16X16_ADST_LOAD_ODD_COEFS
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main_pass1_end
@@ -21291,7 +21313,7 @@ o
 (
 m
 (
-iflipadst_16x16_internal
+iflipadst_16x16_internal_8bpc
 )
 .
 pass1_end
@@ -21308,7 +21330,7 @@ pw_m8192
 jmp
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -21349,7 +21371,7 @@ o
 (
 m
 (
-iflipadst_16x16_internal
+iflipadst_16x16_internal_8bpc
 )
 .
 pass1_end1
@@ -21366,7 +21388,7 @@ pw_m8192
 jmp
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -21384,14 +21406,14 @@ ITX_16X16_ADST_LOAD_EVEN_COEFS
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main
 call
 m
 (
-iadst_16x8_internal
+iadst_16x8_internal_8bpc
 )
 .
 main_pass1_end
@@ -21440,7 +21462,7 @@ o
 (
 m
 (
-iflipadst_16x16_internal
+iflipadst_16x16_internal_8bpc
 )
 .
 pass1_end2
@@ -21457,7 +21479,7 @@ pw_m8192
 jmp
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -21503,7 +21525,7 @@ pw_m8192
 jmp
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -21517,7 +21539,7 @@ o
 (
 m
 (
-iflipadst_16x16_internal
+iflipadst_16x16_internal_8bpc
 )
 .
 end
@@ -21533,7 +21555,7 @@ dstq
 jmp
 m
 (
-iflipadst_8x16_internal
+iflipadst_8x16_internal_8bpc
 )
 .
 pass2_pre
@@ -21567,7 +21589,7 @@ o
 (
 m
 (
-iflipadst_16x16_internal
+iflipadst_16x16_internal_8bpc
 )
 .
 end1
@@ -21585,7 +21607,7 @@ strideq
 jmp
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 end
@@ -21751,7 +21773,7 @@ o
 (
 m
 (
-iflipadst_16x16_internal
+iflipadst_16x16_internal_8bpc
 )
 .
 end2
@@ -21763,7 +21785,7 @@ r3
 jmp
 m
 (
-iflipadst_8x16_internal
+iflipadst_8x16_internal_8bpc
 )
 .
 pass2_main
@@ -21797,7 +21819,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end1
@@ -21815,7 +21837,7 @@ strideq
 jmp
 m
 (
-iflipadst_8x8_internal
+iflipadst_8x8_internal_8bpc
 )
 .
 end
@@ -21860,7 +21882,7 @@ INV_TXFM_16X16_FN
 identity
 identity
 cglobal
-iidentity_16x16_internal
+iidentity_16x16_internal_8bpc
 0
 0
 0
@@ -21884,7 +21906,7 @@ o
 (
 m
 (
-iidentity_16x16_internal
+iidentity_16x16_internal_8bpc
 )
 .
 pass1_end
@@ -22008,7 +22030,7 @@ IDTX16B
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end3
@@ -22028,7 +22050,7 @@ o
 (
 m
 (
-iidentity_16x16_internal
+iidentity_16x16_internal_8bpc
 )
 .
 pass1_end1
@@ -22055,7 +22077,7 @@ o
 (
 m
 (
-iidentity_16x16_internal
+iidentity_16x16_internal_8bpc
 )
 .
 pass1_end2
@@ -22096,7 +22118,7 @@ o
 (
 m
 (
-iidentity_16x16_internal
+iidentity_16x16_internal_8bpc
 )
 .
 end1
@@ -22242,7 +22264,7 @@ m6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end3
@@ -22263,7 +22285,7 @@ o
 (
 m
 (
-iidentity_16x16_internal
+iidentity_16x16_internal_8bpc
 )
 .
 end2
@@ -22330,7 +22352,7 @@ o
 (
 m
 (
-iidentity_16x16_internal
+iidentity_16x16_internal_8bpc
 )
 .
 end3
@@ -22359,7 +22381,7 @@ o
 (
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 end1
@@ -22378,7 +22400,7 @@ jmp
 .
 end
 cglobal
-inv_txfm_add_dct_dct_8x32
+inv_txfm_add_dct_dct_8x32_8bpc
 4
 6
 8
@@ -22406,7 +22428,7 @@ dconly
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 RET
 .
@@ -22470,7 +22492,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_8x32
+inv_txfm_add_dct_dct_8x32_8bpc
 )
 .
 end
@@ -22479,7 +22501,7 @@ end
 jmp
 m
 (
-inv_txfm_add_dct_dct_8x8
+inv_txfm_add_dct_dct_8x8_8bpc
 )
 .
 loop
@@ -22488,7 +22510,7 @@ end
 :
 RET
 cglobal
-idct_8x32_internal
+idct_8x32_internal_8bpc
 0
 0
 0
@@ -22516,7 +22538,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -22535,7 +22557,7 @@ o
 (
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 pass1
@@ -22544,7 +22566,7 @@ pass1
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -22665,7 +22687,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -22684,7 +22706,7 @@ o
 (
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 pass1_1
@@ -22693,7 +22715,7 @@ pass1_1
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -22817,7 +22839,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -22836,7 +22858,7 @@ o
 (
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 pass1_end
@@ -22845,7 +22867,7 @@ pass1_end
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -22966,7 +22988,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -22985,7 +23007,7 @@ o
 (
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 pass1_end1
@@ -22994,7 +23016,7 @@ pass1_end1
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -23131,7 +23153,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -23203,7 +23225,7 @@ m7
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -23291,7 +23313,7 @@ in28
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -23316,7 +23338,7 @@ gprsize
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -23353,7 +23375,7 @@ o
 (
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 end6
@@ -23380,7 +23402,7 @@ o
 (
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 end2
@@ -23451,7 +23473,7 @@ o
 (
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 end3
@@ -23460,7 +23482,7 @@ end3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end
@@ -23503,7 +23525,7 @@ o
 (
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 end4
@@ -23512,7 +23534,7 @@ end4
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end
@@ -23555,7 +23577,7 @@ o
 (
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 end5
@@ -23564,7 +23586,7 @@ end5
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end
@@ -23606,7 +23628,7 @@ r3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end
@@ -23616,9 +23638,9 @@ end6
 ret
 ALIGN
 function_align
+cglobal_label
 .
 main_veryfast
-:
 mova
 m0
 [
@@ -23997,9 +24019,9 @@ jmp
 main2
 ALIGN
 function_align
+cglobal_label
 .
 main_fast
-:
 ;
 bottom
 half
@@ -24561,9 +24583,9 @@ jmp
 main2
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 mova
 m7
 [
@@ -26892,7 +26914,7 @@ gprsize
 out1
 ret
 cglobal
-inv_txfm_add_dct_dct_32x8
+inv_txfm_add_dct_dct_32x8_8bpc
 4
 6
 8
@@ -26920,7 +26942,7 @@ dconly
 call
 m
 (
-idct_32x8_internal
+idct_32x8_internal_8bpc
 )
 RET
 .
@@ -26963,7 +26985,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_32x8
+inv_txfm_add_dct_dct_32x8_8bpc
 )
 .
 end
@@ -27090,7 +27112,7 @@ end
 :
 RET
 cglobal
-idct_32x8_internal
+idct_32x8_internal_8bpc
 0
 0
 0
@@ -27112,7 +27134,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -27135,7 +27157,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -27279,7 +27301,7 @@ full
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main_fast
@@ -27403,7 +27425,7 @@ in31
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main
@@ -27428,7 +27450,7 @@ o
 (
 m
 (
-idct_32x8_internal
+idct_32x8_internal_8bpc
 )
 .
 end
@@ -27437,7 +27459,7 @@ end
 jmp
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 end1
@@ -27459,7 +27481,7 @@ o
 (
 m
 (
-idct_32x8_internal
+idct_32x8_internal_8bpc
 )
 .
 end1
@@ -27468,7 +27490,7 @@ end1
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -27489,7 +27511,7 @@ o
 (
 m
 (
-idct_32x8_internal
+idct_32x8_internal_8bpc
 )
 .
 end2
@@ -27498,7 +27520,7 @@ end2
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass2_main
@@ -27540,7 +27562,7 @@ o
 (
 m
 (
-idct_32x8_internal
+idct_32x8_internal_8bpc
 )
 .
 end3
@@ -27549,7 +27571,7 @@ end3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -27569,7 +27591,7 @@ o
 (
 m
 (
-idct_32x8_internal
+idct_32x8_internal_8bpc
 )
 .
 end4
@@ -27578,7 +27600,7 @@ end4
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass2_main
@@ -27620,7 +27642,7 @@ o
 (
 m
 (
-idct_32x8_internal
+idct_32x8_internal_8bpc
 )
 .
 end5
@@ -27629,7 +27651,7 @@ end5
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -27649,7 +27671,7 @@ o
 (
 m
 (
-idct_32x8_internal
+idct_32x8_internal_8bpc
 )
 .
 end6
@@ -27658,7 +27680,7 @@ end6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass2_main
@@ -27700,7 +27722,7 @@ o
 (
 m
 (
-idct_32x8_internal
+idct_32x8_internal_8bpc
 )
 .
 end7
@@ -27709,7 +27731,7 @@ end7
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -27726,7 +27748,7 @@ o
 (
 m
 (
-idct_32x8_internal
+idct_32x8_internal_8bpc
 )
 .
 end8
@@ -27735,7 +27757,7 @@ end8
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass2_main
@@ -27744,7 +27766,7 @@ end8
 :
 ret
 cglobal
-inv_txfm_add_identity_identity_8x32
+inv_txfm_add_identity_identity_8x32_8bpc
 4
 6
 8
@@ -27785,7 +27807,7 @@ o
 (
 m
 (
-idct_32x8_internal
+idct_32x8_internal_8bpc
 )
 .
 end8
@@ -27842,7 +27864,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end3
@@ -27890,7 +27912,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end3
@@ -27936,7 +27958,7 @@ jg
 loop
 RET
 cglobal
-inv_txfm_add_identity_identity_32x8
+inv_txfm_add_identity_identity_32x8_8bpc
 4
 6
 8
@@ -28025,7 +28047,7 @@ o
 (
 m
 (
-idct_32x8_internal
+idct_32x8_internal_8bpc
 )
 .
 end8
@@ -28034,7 +28056,7 @@ end8
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end3
@@ -28081,7 +28103,7 @@ o
 (
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end4
@@ -28090,7 +28112,7 @@ end4
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end3
@@ -28125,7 +28147,7 @@ jnc
 loop
 RET
 cglobal
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 4
 6
 8
@@ -28153,7 +28175,7 @@ dconly
 call
 m
 (
-idct_16x32_internal
+idct_16x32_internal_8bpc
 )
 RET
 .
@@ -28199,7 +28221,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_16x32
+inv_txfm_add_dct_dct_16x32_8bpc
 )
 .
 end
@@ -28208,7 +28230,7 @@ end
 jmp
 m
 (
-inv_txfm_add_dct_dct_16x4
+inv_txfm_add_dct_dct_16x4_8bpc
 )
 .
 dconly
@@ -28217,7 +28239,7 @@ end
 :
 RET
 cglobal
-idct_16x32_internal
+idct_16x32_internal_8bpc
 0
 0
 0
@@ -28240,7 +28262,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -28264,7 +28286,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -28275,7 +28297,7 @@ o
 (
 m
 (
-idct_16x32_internal
+idct_16x32_internal_8bpc
 )
 .
 pass1_end
@@ -28284,7 +28306,7 @@ pass1_end
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -28329,7 +28351,7 @@ o
 (
 m
 (
-idct_16x32_internal
+idct_16x32_internal_8bpc
 )
 .
 pass1_end1
@@ -28338,7 +28360,7 @@ pass1_end1
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -28456,7 +28478,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -28480,7 +28502,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -28491,7 +28513,7 @@ o
 (
 m
 (
-idct_16x32_internal
+idct_16x32_internal_8bpc
 )
 .
 pass1_end2
@@ -28500,7 +28522,7 @@ pass1_end2
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -28545,7 +28567,7 @@ o
 (
 m
 (
-idct_16x32_internal
+idct_16x32_internal_8bpc
 )
 .
 pass1_end3
@@ -28554,7 +28576,7 @@ pass1_end3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -28687,7 +28709,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -28767,7 +28789,7 @@ m7
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -28794,7 +28816,7 @@ gprsize
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main_fast
@@ -28837,7 +28859,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -28861,7 +28883,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -28872,7 +28894,7 @@ o
 (
 m
 (
-idct_16x32_internal
+idct_16x32_internal_8bpc
 )
 .
 pass1_end4
@@ -28881,7 +28903,7 @@ pass1_end4
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -28926,7 +28948,7 @@ o
 (
 m
 (
-idct_16x32_internal
+idct_16x32_internal_8bpc
 )
 .
 pass1_end5
@@ -28935,7 +28957,7 @@ pass1_end5
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -29053,7 +29075,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -29077,7 +29099,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -29088,7 +29110,7 @@ o
 (
 m
 (
-idct_16x32_internal
+idct_16x32_internal_8bpc
 )
 .
 pass1_end6
@@ -29097,7 +29119,7 @@ pass1_end6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -29142,7 +29164,7 @@ o
 (
 m
 (
-idct_16x32_internal
+idct_16x32_internal_8bpc
 )
 .
 pass1_end7
@@ -29151,7 +29173,7 @@ pass1_end7
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -29315,7 +29337,7 @@ in20
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -29340,7 +29362,7 @@ gprsize
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -29367,7 +29389,7 @@ gprsize
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main
@@ -29414,7 +29436,7 @@ o
 (
 m
 (
-idct_16x32_internal
+idct_16x32_internal_8bpc
 )
 .
 end
@@ -29423,7 +29445,7 @@ end
 jmp
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 end
@@ -29718,7 +29740,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -29790,7 +29812,7 @@ m7
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -29817,7 +29839,7 @@ gprsize
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main_fast
@@ -29874,7 +29896,7 @@ in26
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -29978,7 +30000,7 @@ in30
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -30197,7 +30219,7 @@ in31
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main
@@ -30207,12 +30229,12 @@ end1
 jmp
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 pass2
 cglobal
-inv_txfm_add_dct_dct_32x16
+inv_txfm_add_dct_dct_32x16_8bpc
 4
 6
 8
@@ -30240,12 +30262,12 @@ dconly
 call
 m
 (
-idct_32x16_internal
+idct_32x16_internal_8bpc
 )
 call
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 pass2
@@ -30284,7 +30306,7 @@ o
 (
 m
 (
-idct_32x16_internal
+idct_32x16_internal_8bpc
 )
 .
 end
@@ -30293,14 +30315,14 @@ end
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
 call
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 pass2
@@ -30339,7 +30361,7 @@ o
 (
 m
 (
-idct_32x16_internal
+idct_32x16_internal_8bpc
 )
 .
 end
@@ -30348,14 +30370,14 @@ end
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
 call
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 pass2
@@ -30394,7 +30416,7 @@ o
 (
 m
 (
-idct_32x16_internal
+idct_32x16_internal_8bpc
 )
 .
 end
@@ -30403,14 +30425,14 @@ end
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
 call
 m
 (
-idct_8x16_internal
+idct_8x16_internal_8bpc
 )
 .
 pass2
@@ -30458,7 +30480,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_32x8
+inv_txfm_add_dct_dct_32x8_8bpc
 )
 .
 end
@@ -30467,12 +30489,12 @@ end
 jmp
 m
 (
-inv_txfm_add_dct_dct_32x8
+inv_txfm_add_dct_dct_32x8_8bpc
 )
 .
 body
 cglobal
-idct_32x16_internal
+idct_32x16_internal_8bpc
 0
 0
 0
@@ -30494,7 +30516,7 @@ o
 (
 m
 (
-idct_32x16_internal
+idct_32x16_internal_8bpc
 )
 .
 pass1_end1
@@ -30514,7 +30536,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -30538,7 +30560,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -30789,7 +30811,7 @@ in31
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main
@@ -30813,7 +30835,7 @@ r3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -30854,7 +30876,7 @@ o
 (
 m
 (
-idct_32x16_internal
+idct_32x16_internal_8bpc
 )
 .
 pass1_end2
@@ -30863,7 +30885,7 @@ pass1_end2
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -30904,7 +30926,7 @@ o
 (
 m
 (
-idct_32x16_internal
+idct_32x16_internal_8bpc
 )
 .
 pass1_end3
@@ -30913,7 +30935,7 @@ pass1_end3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -30954,7 +30976,7 @@ o
 (
 m
 (
-idct_32x16_internal
+idct_32x16_internal_8bpc
 )
 .
 pass1_end4
@@ -30963,7 +30985,7 @@ pass1_end4
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -30987,7 +31009,7 @@ o
 (
 m
 (
-idct_32x16_internal
+idct_32x16_internal_8bpc
 )
 .
 end
@@ -31001,7 +31023,7 @@ end
 :
 ret
 cglobal
-inv_txfm_add_identity_identity_16x32
+inv_txfm_add_identity_identity_16x32_8bpc
 4
 6
 8
@@ -31164,7 +31186,7 @@ o
 (
 m
 (
-idct_32x16_internal
+idct_32x16_internal_8bpc
 )
 .
 end
@@ -31173,7 +31195,7 @@ end
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end3
@@ -31342,7 +31364,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end3
@@ -31423,7 +31445,7 @@ jnz
 loop
 RET
 cglobal
-inv_txfm_add_identity_identity_32x16
+inv_txfm_add_identity_identity_32x16_8bpc
 4
 6
 8
@@ -31552,7 +31574,7 @@ o
 (
 m
 (
-idct_32x16_internal
+idct_32x16_internal_8bpc
 )
 .
 end
@@ -31561,7 +31583,7 @@ end
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end3
@@ -31689,7 +31711,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end3
@@ -31795,7 +31817,7 @@ ret
 :
 RET
 cglobal
-inv_txfm_add_dct_dct_32x32
+inv_txfm_add_dct_dct_32x32_8bpc
 4
 6
 8
@@ -31823,7 +31845,7 @@ dconly
 call
 m
 (
-idct_32x32_internal
+idct_32x32_internal_8bpc
 )
 RET
 .
@@ -31866,7 +31888,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_32x8
+inv_txfm_add_dct_dct_32x8_8bpc
 )
 .
 end
@@ -31875,12 +31897,12 @@ end
 jmp
 m
 (
-inv_txfm_add_dct_dct_32x8
+inv_txfm_add_dct_dct_32x8_8bpc
 )
 .
 body
 cglobal
-idct_32x32_internal
+idct_32x32_internal_8bpc
 0
 0
 0
@@ -32087,7 +32109,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -32112,7 +32134,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -32252,7 +32274,7 @@ in31
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main
@@ -32313,7 +32335,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -32377,7 +32399,7 @@ m7
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -32404,7 +32426,7 @@ gprsize
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main_fast
@@ -32437,7 +32459,7 @@ o
 (
 m
 (
-idct_32x32_internal
+idct_32x32_internal_8bpc
 )
 .
 pass1_end1
@@ -32446,7 +32468,7 @@ pass1_end1
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -32495,7 +32517,7 @@ o
 (
 m
 (
-idct_32x32_internal
+idct_32x32_internal_8bpc
 )
 .
 pass1_end2
@@ -32504,7 +32526,7 @@ pass1_end2
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -32553,7 +32575,7 @@ o
 (
 m
 (
-idct_32x32_internal
+idct_32x32_internal_8bpc
 )
 .
 pass1_end3
@@ -32562,7 +32584,7 @@ pass1_end3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -32611,7 +32633,7 @@ o
 (
 m
 (
-idct_32x32_internal
+idct_32x32_internal_8bpc
 )
 .
 pass1_end4
@@ -32620,7 +32642,7 @@ pass1_end4
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -32668,7 +32690,7 @@ o
 (
 m
 (
-idct_32x32_internal
+idct_32x32_internal_8bpc
 )
 .
 pass2_end
@@ -32983,7 +33005,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -33071,7 +33093,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -33274,7 +33296,7 @@ in31
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main
@@ -33334,7 +33356,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -33398,7 +33420,7 @@ m7
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -33425,7 +33447,7 @@ gprsize
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main_fast
@@ -33441,7 +33463,7 @@ o
 (
 m
 (
-idct_32x32_internal
+idct_32x32_internal_8bpc
 )
 .
 pass2_end1
@@ -33450,7 +33472,7 @@ pass2_end1
 jmp
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 end
@@ -33464,7 +33486,7 @@ o
 (
 m
 (
-idct_32x32_internal
+idct_32x32_internal_8bpc
 )
 .
 pass2_end
@@ -33508,7 +33530,7 @@ jg
 pass2_loop
 ret
 cglobal
-inv_txfm_add_identity_identity_32x32
+inv_txfm_add_identity_identity_32x32_8bpc
 4
 6
 8
@@ -33623,7 +33645,7 @@ o
 (
 m
 (
-idct_32x16_internal
+idct_32x16_internal_8bpc
 )
 .
 end
@@ -33632,7 +33654,7 @@ end
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end3
@@ -33695,7 +33717,7 @@ m5
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end3
@@ -33855,7 +33877,7 @@ ret
 :
 RET
 cglobal
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 4
 6
 8
@@ -33883,7 +33905,7 @@ dconly
 call
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 RET
 .
@@ -33926,7 +33948,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_16x64
+inv_txfm_add_dct_dct_16x64_8bpc
 )
 .
 end
@@ -33935,7 +33957,7 @@ end
 jmp
 m
 (
-inv_txfm_add_dct_dct_16x4
+inv_txfm_add_dct_dct_16x4_8bpc
 )
 .
 dconly
@@ -33944,7 +33966,7 @@ end
 :
 RET
 cglobal
-idct_16x64_internal
+idct_16x64_internal_8bpc
 0
 0
 0
@@ -34016,7 +34038,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -34041,7 +34063,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -34060,7 +34082,7 @@ o
 (
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 pass1_end
@@ -34069,7 +34091,7 @@ pass1_end
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -34118,7 +34140,7 @@ o
 (
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 pass1_end1
@@ -34127,7 +34149,7 @@ pass1_end1
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -34192,7 +34214,7 @@ o
 (
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 end1
@@ -34479,7 +34501,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -34543,7 +34565,7 @@ m7
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -34730,7 +34752,7 @@ m7
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main_fast
@@ -34958,7 +34980,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -35006,7 +35028,7 @@ m7
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -35121,7 +35143,7 @@ in7
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main_veryfast
@@ -35166,7 +35188,7 @@ r4
 jmp
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 end2
@@ -35203,7 +35225,7 @@ o
 (
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 end2
@@ -35212,7 +35234,7 @@ end2
 jmp
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 end
@@ -35282,7 +35304,7 @@ o
 (
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 end1
@@ -35296,9 +35318,9 @@ pass2_loop
 ret
 ALIGN
 function_align
+cglobal_label
 .
 main_fast
-:
 mova
 m0
 [
@@ -36107,9 +36129,9 @@ jmp
 main2
 ALIGN
 function_align
+cglobal_label
 .
 main
-:
 mova
 m0
 [
@@ -42138,7 +42160,7 @@ m1
 out15
 ret
 cglobal
-inv_txfm_add_dct_dct_64x16
+inv_txfm_add_dct_dct_64x16_8bpc
 4
 6
 8
@@ -42166,7 +42188,7 @@ dconly
 call
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 RET
 .
@@ -42209,7 +42231,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_64x16
+inv_txfm_add_dct_dct_64x16_8bpc
 )
 .
 end
@@ -42577,7 +42599,7 @@ m7
 %
 endmacro
 cglobal
-idct_64x16_internal
+idct_64x16_internal_8bpc
 0
 0
 0
@@ -42640,7 +42662,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -42677,7 +42699,7 @@ m7
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -42801,7 +42823,7 @@ m7
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main_fast
@@ -43043,7 +43065,7 @@ in31
 call
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 main
@@ -43082,7 +43104,7 @@ o
 (
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 .
 pass1_end
@@ -43091,7 +43113,7 @@ pass1_end
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -43140,7 +43162,7 @@ o
 (
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 .
 pass1_end1
@@ -43149,7 +43171,7 @@ pass1_end1
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -43198,7 +43220,7 @@ o
 (
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 .
 pass1_end2
@@ -43207,7 +43229,7 @@ pass1_end2
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -43256,7 +43278,7 @@ o
 (
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 .
 pass1_end3
@@ -43265,7 +43287,7 @@ pass1_end3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -43314,7 +43336,7 @@ o
 (
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 .
 pass1_end4
@@ -43323,7 +43345,7 @@ pass1_end4
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -43372,7 +43394,7 @@ o
 (
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 .
 pass1_end5
@@ -43381,7 +43403,7 @@ pass1_end5
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -43430,7 +43452,7 @@ o
 (
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 .
 pass1_end6
@@ -43439,7 +43461,7 @@ pass1_end6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -43488,7 +43510,7 @@ o
 (
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 .
 pass1_end7
@@ -43497,7 +43519,7 @@ pass1_end7
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -43581,7 +43603,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -43615,7 +43637,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -43629,7 +43651,7 @@ o
 (
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 .
 end
@@ -43647,7 +43669,7 @@ strideq
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end
@@ -43681,7 +43703,7 @@ o
 (
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 .
 end1
@@ -43693,7 +43715,7 @@ r3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end
@@ -43834,7 +43856,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -43868,7 +43890,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -43882,7 +43904,7 @@ o
 (
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 .
 end2
@@ -43900,7 +43922,7 @@ strideq
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end
@@ -43934,7 +43956,7 @@ o
 (
 m
 (
-idct_64x16_internal
+idct_64x16_internal_8bpc
 )
 .
 end3
@@ -43946,7 +43968,7 @@ r3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 end
@@ -44007,7 +44029,7 @@ jg
 pass2_loop2
 ret
 cglobal
-inv_txfm_add_dct_dct_32x64
+inv_txfm_add_dct_dct_32x64_8bpc
 4
 6
 8
@@ -44035,7 +44057,7 @@ dconly
 call
 m
 (
-idct_32x64_internal
+idct_32x64_internal_8bpc
 )
 RET
 .
@@ -44081,7 +44103,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_32x64
+inv_txfm_add_dct_dct_32x64_8bpc
 )
 .
 end
@@ -44090,7 +44112,7 @@ end
 jmp
 m
 (
-inv_txfm_add_dct_dct_32x8
+inv_txfm_add_dct_dct_32x8_8bpc
 )
 .
 body
@@ -44099,7 +44121,7 @@ end
 :
 RET
 cglobal
-idct_32x64_internal
+idct_32x64_internal_8bpc
 0
 0
 0
@@ -44308,7 +44330,7 @@ coeffq
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -44334,7 +44356,7 @@ coeffq
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -44475,7 +44497,7 @@ in31
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main
@@ -44504,7 +44526,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -44540,7 +44562,7 @@ m7
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -44567,7 +44589,7 @@ gprsize
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main_fast
@@ -44592,7 +44614,7 @@ o
 (
 m
 (
-idct_32x64_internal
+idct_32x64_internal_8bpc
 )
 .
 pass1_end1
@@ -44601,7 +44623,7 @@ pass1_end1
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -44642,7 +44664,7 @@ o
 (
 m
 (
-idct_32x64_internal
+idct_32x64_internal_8bpc
 )
 .
 pass1_end2
@@ -44651,7 +44673,7 @@ pass1_end2
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -44692,7 +44714,7 @@ o
 (
 m
 (
-idct_32x64_internal
+idct_32x64_internal_8bpc
 )
 .
 pass1_end3
@@ -44701,7 +44723,7 @@ pass1_end3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -44742,7 +44764,7 @@ o
 (
 m
 (
-idct_32x64_internal
+idct_32x64_internal_8bpc
 )
 .
 pass1_end4
@@ -44751,7 +44773,7 @@ pass1_end4
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -44819,7 +44841,7 @@ o
 (
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 end1
@@ -44828,12 +44850,12 @@ end1
 jmp
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 pass2_loop
 cglobal
-inv_txfm_add_dct_dct_64x32
+inv_txfm_add_dct_dct_64x32_8bpc
 4
 6
 8
@@ -44861,7 +44883,7 @@ dconly
 call
 m
 (
-idct_64x32_internal
+idct_64x32_internal_8bpc
 )
 RET
 .
@@ -44907,7 +44929,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_64x32
+inv_txfm_add_dct_dct_64x32_8bpc
 )
 .
 end
@@ -44916,7 +44938,7 @@ end
 jmp
 m
 (
-inv_txfm_add_dct_dct_64x16
+inv_txfm_add_dct_dct_64x16_8bpc
 )
 .
 body
@@ -44925,7 +44947,7 @@ end
 :
 RET
 cglobal
-idct_64x32_internal
+idct_64x32_internal_8bpc
 0
 0
 0
@@ -45047,7 +45069,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -45085,7 +45107,7 @@ m7
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -45210,7 +45232,7 @@ m7
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main_fast
@@ -45454,7 +45476,7 @@ in31
 call
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 main
@@ -45485,7 +45507,7 @@ o
 (
 m
 (
-idct_64x32_internal
+idct_64x32_internal_8bpc
 )
 .
 pass1_end
@@ -45494,7 +45516,7 @@ pass1_end
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -45535,7 +45557,7 @@ o
 (
 m
 (
-idct_64x32_internal
+idct_64x32_internal_8bpc
 )
 .
 pass1_end1
@@ -45544,7 +45566,7 @@ pass1_end1
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -45585,7 +45607,7 @@ o
 (
 m
 (
-idct_64x32_internal
+idct_64x32_internal_8bpc
 )
 .
 pass1_end2
@@ -45594,7 +45616,7 @@ pass1_end2
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -45635,7 +45657,7 @@ o
 (
 m
 (
-idct_64x32_internal
+idct_64x32_internal_8bpc
 )
 .
 pass1_end3
@@ -45644,7 +45666,7 @@ pass1_end3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -45685,7 +45707,7 @@ o
 (
 m
 (
-idct_64x32_internal
+idct_64x32_internal_8bpc
 )
 .
 pass1_end4
@@ -45694,7 +45716,7 @@ pass1_end4
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -45735,7 +45757,7 @@ o
 (
 m
 (
-idct_64x32_internal
+idct_64x32_internal_8bpc
 )
 .
 pass1_end5
@@ -45744,7 +45766,7 @@ pass1_end5
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -45785,7 +45807,7 @@ o
 (
 m
 (
-idct_64x32_internal
+idct_64x32_internal_8bpc
 )
 .
 pass1_end6
@@ -45794,7 +45816,7 @@ pass1_end6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -45835,7 +45857,7 @@ o
 (
 m
 (
-idct_64x32_internal
+idct_64x32_internal_8bpc
 )
 .
 pass1_end7
@@ -45844,7 +45866,7 @@ pass1_end7
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end
@@ -45938,7 +45960,7 @@ o
 (
 m
 (
-idct_64x32_internal
+idct_64x32_internal_8bpc
 )
 .
 pass2_end
@@ -45950,7 +45972,7 @@ r3d
 jmp
 m
 (
-idct_32x32_internal
+idct_32x32_internal_8bpc
 )
 .
 pass2_loop
@@ -45975,7 +45997,7 @@ o
 (
 m
 (
-idct_64x32_internal
+idct_64x32_internal_8bpc
 )
 .
 pass2_end1
@@ -45984,7 +46006,7 @@ pass2_end1
 jmp
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 end2
@@ -45998,7 +46020,7 @@ o
 (
 m
 (
-idct_64x32_internal
+idct_64x32_internal_8bpc
 )
 .
 pass2_end
@@ -46040,7 +46062,7 @@ r3d
 jg
 m
 (
-idct_32x32_internal
+idct_32x32_internal_8bpc
 )
 .
 pass2_loop
@@ -46080,7 +46102,7 @@ o
 (
 m
 (
-idct_32x32_internal
+idct_32x32_internal_8bpc
 )
 .
 pass2_end
@@ -46092,12 +46114,12 @@ r3d
 jmp
 m
 (
-idct_32x32_internal
+idct_32x32_internal_8bpc
 )
 .
 pass2_loop
 cglobal
-inv_txfm_add_dct_dct_64x64
+inv_txfm_add_dct_dct_64x64_8bpc
 4
 6
 8
@@ -46125,7 +46147,7 @@ dconly
 call
 m
 (
-idct_64x64_internal
+idct_64x64_internal_8bpc
 )
 RET
 .
@@ -46168,7 +46190,7 @@ o
 (
 m
 (
-inv_txfm_add_dct_dct_64x32
+inv_txfm_add_dct_dct_64x32_8bpc
 )
 .
 end
@@ -46177,12 +46199,12 @@ end
 jmp
 m
 (
-inv_txfm_add_dct_dct_64x16
+inv_txfm_add_dct_dct_64x16_8bpc
 )
 .
 body
 cglobal
-idct_64x64_internal
+idct_64x64_internal_8bpc
 0
 0
 0
@@ -46306,7 +46328,7 @@ m7
 call
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 main
@@ -46343,7 +46365,7 @@ m7
 call
 m
 (
-idct_16x8_internal
+idct_16x8_internal_8bpc
 )
 .
 main
@@ -46467,7 +46489,7 @@ m7
 call
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 main_fast
@@ -46709,7 +46731,7 @@ in31
 call
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 main
@@ -46748,7 +46770,7 @@ o
 (
 m
 (
-idct_64x64_internal
+idct_64x64_internal_8bpc
 )
 .
 pass1_end
@@ -46757,7 +46779,7 @@ pass1_end
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -46806,7 +46828,7 @@ o
 (
 m
 (
-idct_64x64_internal
+idct_64x64_internal_8bpc
 )
 .
 pass1_end1
@@ -46815,7 +46837,7 @@ pass1_end1
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -46864,7 +46886,7 @@ o
 (
 m
 (
-idct_64x64_internal
+idct_64x64_internal_8bpc
 )
 .
 pass1_end2
@@ -46873,7 +46895,7 @@ pass1_end2
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -46922,7 +46944,7 @@ o
 (
 m
 (
-idct_64x64_internal
+idct_64x64_internal_8bpc
 )
 .
 pass1_end3
@@ -46931,7 +46953,7 @@ pass1_end3
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -46980,7 +47002,7 @@ o
 (
 m
 (
-idct_64x64_internal
+idct_64x64_internal_8bpc
 )
 .
 pass1_end4
@@ -46989,7 +47011,7 @@ pass1_end4
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -47038,7 +47060,7 @@ o
 (
 m
 (
-idct_64x64_internal
+idct_64x64_internal_8bpc
 )
 .
 pass1_end5
@@ -47047,7 +47069,7 @@ pass1_end5
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -47096,7 +47118,7 @@ o
 (
 m
 (
-idct_64x64_internal
+idct_64x64_internal_8bpc
 )
 .
 pass1_end6
@@ -47105,7 +47127,7 @@ pass1_end6
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -47154,7 +47176,7 @@ o
 (
 m
 (
-idct_64x64_internal
+idct_64x64_internal_8bpc
 )
 .
 pass1_end7
@@ -47163,7 +47185,7 @@ pass1_end7
 jmp
 m
 (
-idct_8x8_internal
+idct_8x8_internal_8bpc
 )
 .
 pass1_end1
@@ -47254,7 +47276,7 @@ o
 (
 m
 (
-idct_64x64_internal
+idct_64x64_internal_8bpc
 )
 .
 pass2_end
@@ -47263,7 +47285,7 @@ pass2_end
 jmp
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 pass2_loop
@@ -47311,7 +47333,7 @@ o
 (
 m
 (
-idct_64x64_internal
+idct_64x64_internal_8bpc
 )
 .
 pass2_end1
@@ -47320,7 +47342,7 @@ pass2_end1
 jmp
 m
 (
-idct_8x32_internal
+idct_8x32_internal_8bpc
 )
 .
 end2
@@ -47390,7 +47412,7 @@ o
 (
 m
 (
-idct_64x64_internal
+idct_64x64_internal_8bpc
 )
 .
 pass2_end
@@ -47401,7 +47423,7 @@ r3d
 jg
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 pass2_loop
@@ -47467,7 +47489,7 @@ o
 (
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 end1
@@ -47476,7 +47498,7 @@ end1
 jmp
 m
 (
-idct_16x64_internal
+idct_16x64_internal_8bpc
 )
 .
 pass2_loop

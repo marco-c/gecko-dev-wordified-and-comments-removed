@@ -1,6 +1,8 @@
 ;
 Copyright
 2018
+-
+2021
 VideoLAN
 and
 dav1d
@@ -12654,7 +12656,7 @@ ssse3
 if
 ARCH_X86_64
 cglobal
-lpf_v_sb_y
+lpf_v_sb_y_8bpc
 7
 11
 16
@@ -12677,7 +12679,7 @@ mask_bits
 %
 else
 cglobal
-lpf_v_sb_y
+lpf_v_sb_y_8bpc
 6
 7
 8
@@ -13056,7 +13058,7 @@ ssse3
 if
 ARCH_X86_64
 cglobal
-lpf_h_sb_y
+lpf_h_sb_y_8bpc
 7
 11
 16
@@ -13079,7 +13081,7 @@ mask_bits
 %
 else
 cglobal
-lpf_h_sb_y
+lpf_h_sb_y_8bpc
 6
 7
 8
@@ -13498,7 +13500,7 @@ ssse3
 if
 ARCH_X86_64
 cglobal
-lpf_v_sb_uv
+lpf_v_sb_uv_8bpc
 7
 11
 16
@@ -13521,7 +13523,7 @@ mask_bits
 %
 else
 cglobal
-lpf_v_sb_uv
+lpf_v_sb_uv_8bpc
 6
 7
 8
@@ -13831,7 +13833,7 @@ ssse3
 if
 ARCH_X86_64
 cglobal
-lpf_h_sb_uv
+lpf_h_sb_uv_8bpc
 7
 11
 16
@@ -13854,7 +13856,7 @@ mask_bits
 %
 else
 cglobal
-lpf_h_sb_uv
+lpf_h_sb_uv_8bpc
 6
 7
 8

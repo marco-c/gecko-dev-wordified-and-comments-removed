@@ -25,9 +25,6 @@ offsets
 .
 h
 "
-#
-if
-ARCH_AARCH64
 CHECK_OFFSET
 (
 Dav1dFilmGrainData
@@ -188,8 +185,6 @@ GEN_GRAIN_UV
 444
 )
 ;
-#
-endif
 void
 BF
 (
@@ -1299,15 +1294,6 @@ DAV1D_ARM_CPU_FLAG_NEON
 )
 return
 ;
-#
-if
-ARCH_AARCH64
-&
-&
-BITDEPTH
-=
-=
-8
 c
 -
 >
@@ -1367,8 +1353,6 @@ dav1d_generate_grain_uv_444
 neon
 )
 ;
-#
-endif
 c
 -
 >

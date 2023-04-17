@@ -1912,7 +1912,7 @@ _
 %
 1_
 %
-2_
+2_8bpc_
 %
 3
 )
@@ -2105,13 +2105,15 @@ endmacro
 %
 macro
 BIDIR_JMP_TABLE
-1
+2
 -
 *
 %
 xdefine
 %
-1_table
+1_
+%
+2_table
 (
 %
 %
@@ -2120,7 +2122,7 @@ table
 2
 *
 %
-2
+3
 )
 %
 xdefine
@@ -2128,7 +2130,9 @@ xdefine
 %
 base
 %
-1_table
+1_
+%
+2_table
 %
 xdefine
 %
@@ -2141,7 +2145,9 @@ private_prefix
 +
 _
 %
-1
+1_8bpc_
+%
+2
 )
 %
 %
@@ -2152,7 +2158,7 @@ rep
 %
 0
 -
-1
+2
 dd
 %
 %
@@ -2162,7 +2168,7 @@ prefix
 .
 w
 %
-2
+3
 -
 %
 %
@@ -2182,7 +2188,7 @@ mangle
 private_prefix
 %
 +
-_prep_bilin_avx512icl
+_prep_bilin_8bpc_avx512icl
 .
 prep
 )
@@ -2240,7 +2246,8 @@ avx512icl
 64
 128
 BIDIR_JMP_TABLE
-avg_avx512icl
+avg
+avx512icl
 4
 8
 16
@@ -2248,7 +2255,8 @@ avg_avx512icl
 64
 128
 BIDIR_JMP_TABLE
-w_avg_avx512icl
+w_avg
+avx512icl
 4
 8
 16
@@ -2256,7 +2264,8 @@ w_avg_avx512icl
 64
 128
 BIDIR_JMP_TABLE
-mask_avx512icl
+mask
+avx512icl
 4
 8
 16
@@ -2264,7 +2273,8 @@ mask_avx512icl
 64
 128
 BIDIR_JMP_TABLE
-w_mask_420_avx512icl
+w_mask_420
+avx512icl
 4
 8
 16
@@ -2272,7 +2282,8 @@ w_mask_420_avx512icl
 64
 128
 BIDIR_JMP_TABLE
-w_mask_422_avx512icl
+w_mask_422
+avx512icl
 4
 8
 16
@@ -2280,7 +2291,8 @@ w_mask_422_avx512icl
 64
 128
 BIDIR_JMP_TABLE
-w_mask_444_avx512icl
+w_mask_444
+avx512icl
 4
 8
 16
@@ -2346,7 +2358,7 @@ DECLARE_REG_TMP
 INIT_ZMM
 avx512icl
 cglobal
-prep_bilin
+prep_bilin_8bpc
 3
 7
 0
@@ -5594,7 +5606,7 @@ cglobal
 %
 1_
 %
-2
+2_8bpc
 mov
 t0d
 FILTER_
@@ -5639,7 +5651,7 @@ private_prefix
 +
 _
 %
-1
+1_8bpc
 %
 +
 SUFFIX
@@ -5807,7 +5819,7 @@ regular
 REGULAR
 REGULAR
 cglobal
-prep_8tap
+prep_8tap_8bpc
 3
 8
 0
@@ -10742,7 +10754,7 @@ mmsize
 %
 endmacro
 cglobal
-avg
+avg_8bpc
 4
 7
 3
@@ -10991,7 +11003,7 @@ define
 W_AVG_INC_PTR
 AVG_INC_PTR
 cglobal
-w_avg
+w_avg_8bpc
 4
 7
 6
@@ -11344,7 +11356,7 @@ tmp1q
 %
 endmacro
 cglobal
-mask
+mask_8bpc
 4
 8
 6
@@ -11570,7 +11582,7 @@ m1
 %
 endmacro
 cglobal
-w_mask_420
+w_mask_420_8bpc
 4
 8
 16
@@ -12594,7 +12606,7 @@ jg
 w128_loop
 RET
 cglobal
-w_mask_422
+w_mask_422_8bpc
 4
 8
 14
@@ -13449,7 +13461,7 @@ jg
 w128_loop
 RET
 cglobal
-w_mask_444
+w_mask_444_8bpc
 4
 8
 12

@@ -1,0 +1,13 @@
+#
+include
+DAV1D_TEST_HEADER
+int
+main
+(
+void
+)
+{
+return
+0
+;
+}

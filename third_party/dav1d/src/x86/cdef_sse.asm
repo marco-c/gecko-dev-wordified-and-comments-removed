@@ -3918,7 +3918,7 @@ pri_only
 movd
 m10
 r5m
-bsr
+tzcnt
 secd
 secd
 and
@@ -3943,9 +3943,6 @@ pridmpd
 dampingd
 neg
 secd
-cmovs
-secd
-dampingd
 PSHUFB_0
 m1
 m7
@@ -4709,7 +4706,7 @@ endif
 movd
 m1
 r5m
-bsr
+tzcnt
 secd
 secd
 mov
