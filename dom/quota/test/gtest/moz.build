@@ -22,6 +22,11 @@ TestPersistenceType
 cpp
 "
 "
+TestQMResult
+.
+cpp
+"
+"
 TestQuotaCommon
 .
 cpp
