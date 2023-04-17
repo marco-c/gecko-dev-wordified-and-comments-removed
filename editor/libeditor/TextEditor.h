@@ -256,7 +256,7 @@ aFlags
 const
 nsAString
 &
-aValue
+aInitialValue
 )
 final
 ;
