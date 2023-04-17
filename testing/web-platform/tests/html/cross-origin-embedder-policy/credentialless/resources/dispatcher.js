@@ -135,9 +135,9 @@ resolve
 setTimeout
 (
 resolve
-50
+10
 +
-100
+90
 *
 Math
 .
@@ -153,7 +153,7 @@ limiter
 =
 concurrencyLimiter
 (
-1
+6
 )
 ;
 const
