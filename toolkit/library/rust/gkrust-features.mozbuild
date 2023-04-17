@@ -462,6 +462,13 @@ CONFIG
 MOZ_USING_WASM_SANDBOXING
 '
 ]
+and
+CONFIG
+[
+'
+LUCETC
+'
+]
 :
 gkrust_features
 +
