@@ -20,7 +20,7 @@ mozboot
 .
 util
 import
-get_state_dir
+get_tools_dir
 from
 mozfile
 import
@@ -88,33 +88,9 @@ directory
 "
 "
     
-if
-"
-MOZ_FETCHES_DIR
-"
-in
-os
-.
-environ
-:
-        
-mozbuild_state_dir
+mozbuild_tools_dir
 =
-os
-.
-environ
-[
-"
-MOZ_FETCHES_DIR
-"
-]
-    
-else
-:
-        
-mozbuild_state_dir
-=
-get_state_dir
+get_tools_dir
 (
 )
     
@@ -139,7 +115,7 @@ path
 .
 join
 (
-mozbuild_state_dir
+mozbuild_tools_dir
 "
 node
 "
@@ -156,7 +132,7 @@ path
 .
 join
 (
-mozbuild_state_dir
+mozbuild_tools_dir
 "
 node
 "

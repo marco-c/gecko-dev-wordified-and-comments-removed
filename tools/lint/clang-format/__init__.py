@@ -13,7 +13,7 @@ mozboot
 .
 util
 import
-get_state_dir
+get_tools_dir
 from
 mozlint
 import
@@ -464,7 +464,7 @@ path
 .
 join
 (
-get_state_dir
+get_tools_dir
 (
 )
 "
