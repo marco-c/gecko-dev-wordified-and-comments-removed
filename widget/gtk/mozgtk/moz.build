@@ -14,6 +14,15 @@ mozgtk
 c
 "
 ]
+CFLAGS
++
+=
+CONFIG
+[
+"
+XCFLAGS
+"
+]
 if
 CONFIG
 [

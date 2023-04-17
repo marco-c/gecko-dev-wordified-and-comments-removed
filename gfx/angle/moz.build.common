@@ -63,6 +63,15 @@ loop
 construct
 '
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+XCFLAGS
+'
+]
 if
 CONFIG
 [
