@@ -2372,14 +2372,14 @@ nsIProfiler
 h
 "
 #
+endif
+#
 include
 "
 ProfilerParent
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_CODE_COVERAGE
@@ -9305,9 +9305,6 @@ endif
 }
 #
 endif
-#
-ifdef
-MOZ_GECKO_PROFILER
 Unused
 <
 <
@@ -9324,8 +9321,6 @@ OtherPid
 )
 )
 ;
-#
-endif
 EnsurePermissionsByKey
 (
 "

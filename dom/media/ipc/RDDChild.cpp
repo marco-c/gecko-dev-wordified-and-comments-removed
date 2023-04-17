@@ -139,17 +139,12 @@ h
 #
 endif
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 ProfilerParent
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -339,9 +334,6 @@ CanRecordReleaseData
 )
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 Unused
 <
 <
@@ -358,8 +350,6 @@ OtherPid
 )
 )
 ;
-#
-endif
 gfxVars
 :
 :
