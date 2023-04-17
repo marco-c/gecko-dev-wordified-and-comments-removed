@@ -181,6 +181,12 @@ GetSelectedBox
 (
 )
 ;
+bool
+HasPossiblyRemoteContents
+(
+)
+const
+;
 protected
 :
 void
