@@ -1081,6 +1081,14 @@ reason_phrase
 =
 reason_phrase
 )
+        
+self
+.
+_protocol
+.
+transmit
+(
+)
     
 def
 create_unidirectional_stream
