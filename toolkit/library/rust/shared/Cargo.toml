@@ -1751,11 +1751,6 @@ enabled
 "
 profiler_helper
 "
-"
-geckoservo
-/
-gecko_profiler
-"
 ]
 gecko_profiler_parse_elf
 =

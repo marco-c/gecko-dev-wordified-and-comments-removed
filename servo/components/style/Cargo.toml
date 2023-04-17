@@ -201,10 +201,6 @@ gecko_refcount_logging
 =
 [
 ]
-gecko_profiler
-=
-[
-]
 [
 dependencies
 ]

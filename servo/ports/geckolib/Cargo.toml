@@ -66,15 +66,6 @@ nsstring
 gecko_debug
 "
 ]
-gecko_profiler
-=
-[
-"
-style
-/
-gecko_profiler
-"
-]
 gecko_refcount_logging
 =
 [
