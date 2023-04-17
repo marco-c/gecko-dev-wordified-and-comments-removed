@@ -5,10 +5,10 @@ mod
 cork_state
 ;
 mod
-intern
+stream
 ;
 mod
-stream
+intern
 ;
 pub
 use
