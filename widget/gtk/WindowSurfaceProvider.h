@@ -183,7 +183,7 @@ aInvalidRegion
 ;
 private
 :
-UniquePtr
+RefPtr
 <
 WindowSurface
 >
@@ -204,7 +204,7 @@ mXVisual
 int
 mXDepth
 ;
-UniquePtr
+RefPtr
 <
 WindowSurface
 >

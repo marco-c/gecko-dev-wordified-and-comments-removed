@@ -214,7 +214,7 @@ mWindowSurface
 nullptr
 ;
 }
-UniquePtr
+RefPtr
 <
 WindowSurface
 >
@@ -254,7 +254,7 @@ mWidget
 )
 ;
 return
-MakeUnique
+MakeRefPtr
 <
 WindowSurfaceWayland
 >
@@ -303,7 +303,7 @@ mXWindow
 )
 ;
 return
-MakeUnique
+MakeRefPtr
 <
 WindowSurfaceXRender
 >
@@ -357,7 +357,7 @@ mXWindow
 )
 ;
 return
-MakeUnique
+MakeRefPtr
 <
 WindowSurfaceX11SHM
 >
@@ -394,7 +394,7 @@ mXWindow
 )
 ;
 return
-MakeUnique
+MakeRefPtr
 <
 WindowSurfaceX11Image
 >
@@ -532,7 +532,7 @@ backend
 ;
 mWindowSurface
 =
-MakeUnique
+MakeRefPtr
 <
 WindowSurfaceX11Image
 >
