@@ -363,7 +363,7 @@ parse
           
 [
 Global
-OverrideBuiltins
+LegacyOverrideBuiltIns
 Exposed
 =
 Foo
@@ -422,7 +422,7 @@ a
         
 "
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 ]
 "
     
@@ -469,7 +469,7 @@ Bar
 ;
           
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 Exposed
 =
 Foo
@@ -528,7 +528,7 @@ an
         
 "
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 ]
 ancestor
 "

@@ -92,7 +92,7 @@ MPL
 *
 /
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 Exposed
 =
 Window

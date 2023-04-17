@@ -93,7 +93,7 @@ MPL
 /
 [
 ChromeOnly
-OverrideBuiltins
+LegacyOverrideBuiltIns
 Exposed
 =
 Window

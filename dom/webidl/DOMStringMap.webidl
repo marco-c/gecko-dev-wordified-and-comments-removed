@@ -170,7 +170,7 @@ document
 *
 /
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 Exposed
 =
 Window

@@ -7804,7 +7804,7 @@ self
 getExtendedAttribute
 (
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
 )
 :
@@ -7824,7 +7824,7 @@ has
 "
 "
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 ]
 "
                     
@@ -7852,7 +7852,7 @@ parent
 getExtendedAttribute
 (
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
 )
 :
@@ -7875,7 +7875,7 @@ from
 interface
 with
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 ]
 "
                         
@@ -10704,7 +10704,7 @@ identifier
 =
 =
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
                 
 or

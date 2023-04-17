@@ -159,7 +159,7 @@ document
 *
 /
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 LegacyUnenumerableNamedProperties
 Exposed
 =
