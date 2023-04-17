@@ -57,6 +57,18 @@ sleep
 delay
 )
     
+if
+not
+b
+"
+notype
+"
+in
+request
+.
+GET
+:
+        
 response
 .
 headers
