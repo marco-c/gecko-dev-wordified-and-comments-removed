@@ -5389,7 +5389,6 @@ mStorage
 >
 Init
 (
-nullptr
 )
 )
 )
@@ -7737,12 +7736,6 @@ mStorage
 {
 nsTArray
 <
-mozilla
-:
-:
-psm
-:
-:
 DataStorageItem
 >
 items
@@ -7773,8 +7766,6 @@ AppendElement
 item
 .
 key
-(
-)
 )
 ;
 }
