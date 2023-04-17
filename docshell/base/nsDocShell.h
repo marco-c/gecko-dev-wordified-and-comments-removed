@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIDeprecationWarner
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -389,8 +382,6 @@ nsILoadContext
 public
 nsINetworkInterceptController
 public
-nsIDeprecationWarner
-public
 mozilla
 :
 :
@@ -555,7 +546,6 @@ NS_DECL_NSIREFRESHURI
 NS_DECL_NSIWEBPAGEDESCRIPTOR
 NS_DECL_NSIAUTHPROMPTPROVIDER
 NS_DECL_NSINETWORKINTERCEPTCONTROLLER
-NS_DECL_NSIDEPRECATIONWARNER
 static
 already_AddRefed
 <
