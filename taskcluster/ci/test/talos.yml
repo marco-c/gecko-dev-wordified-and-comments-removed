@@ -353,6 +353,11 @@ beta
 trunk
 '
 ]
+python
+-
+3
+:
+true
 talos
 -
 bcv
@@ -4217,6 +4222,11 @@ talos
 windows_vm_config
 .
 py
+python
+-
+3
+:
+false
 talos
 -
 realworld
