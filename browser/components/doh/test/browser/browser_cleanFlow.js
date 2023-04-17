@@ -381,7 +381,7 @@ ensureNoTRRSelectionTelemetry
 )
 ;
 await
-ensureNoTRRModeChange
+ensureTRRMode
 (
 2
 )
