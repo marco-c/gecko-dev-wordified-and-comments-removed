@@ -1936,6 +1936,14 @@ aFlags
 override
 ;
 bool
+SupportsExternalCompositing
+(
+WebRenderBackend
+aBackend
+)
+override
+;
+bool
 NeedsDeferredDeletion
 (
 )
