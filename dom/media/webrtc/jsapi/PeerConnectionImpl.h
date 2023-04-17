@@ -1949,7 +1949,7 @@ aInternalStats
 )
 ;
 void
-RecordConduitTelemetry
+CollectConduitTelemetryData
 (
 )
 ;

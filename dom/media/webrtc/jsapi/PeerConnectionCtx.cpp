@@ -1499,7 +1499,7 @@ idAndPc
 second
 -
 >
-RecordConduitTelemetry
+CollectConduitTelemetryData
 (
 )
 ;

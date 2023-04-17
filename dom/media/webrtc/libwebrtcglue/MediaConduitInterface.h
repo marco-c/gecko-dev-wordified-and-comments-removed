@@ -1464,7 +1464,7 @@ const
 ;
 virtual
 void
-RecordTelemetry
+CollectTelemetryData
 (
 )
 =

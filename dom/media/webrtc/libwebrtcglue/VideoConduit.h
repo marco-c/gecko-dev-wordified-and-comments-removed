@@ -1037,7 +1037,7 @@ false
 ;
 }
 void
-RecordTelemetry
+CollectTelemetryData
 (
 )
 override
