@@ -749,8 +749,13 @@ AudioSegment
 >
 AppendAndConsumeChunk
 (
-&
+std
+:
+:
+move
+(
 chunk
+)
 )
 ;
 }
