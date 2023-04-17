@@ -650,8 +650,6 @@ aForceAllowDataURI
 bool
 aAllowInsecureRedirectToDataURI
 bool
-aBypassCORSChecks
-bool
 aSkipContentPolicyCheckForWebRequest
 bool
 aOriginalFrameSrcLoad
@@ -1082,11 +1080,6 @@ false
 ;
 bool
 mAllowInsecureRedirectToDataURI
-=
-false
-;
-bool
-mBypassCORSChecks
 =
 false
 ;

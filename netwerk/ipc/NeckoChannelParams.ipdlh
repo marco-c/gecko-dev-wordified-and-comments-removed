@@ -339,9 +339,6 @@ bool
 allowInsecureRedirectToDataURI
 ;
 bool
-bypassCORSChecks
-;
-bool
 skipContentPolicyCheckForWebRequest
 ;
 bool
@@ -485,9 +482,6 @@ ParentLoadInfoForwarderArgs
 {
 bool
 allowInsecureRedirectToDataURI
-;
-bool
-bypassCORSChecks
 ;
 IPCServiceWorkerDescriptor
 ?
