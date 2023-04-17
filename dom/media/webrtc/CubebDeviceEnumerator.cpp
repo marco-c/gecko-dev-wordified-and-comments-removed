@@ -245,6 +245,16 @@ mscom
 :
 EnsureMTA
 (
+)
+;
+mozilla
+:
+:
+mscom
+:
+:
+EnsureMTA
+(
 [
 &
 ]
