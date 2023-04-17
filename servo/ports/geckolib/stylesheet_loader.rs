@@ -748,12 +748,6 @@ ImportSheet
 :
 new_pending
 (
-self
-.
-origin
-self
-.
-quirks_mode
 )
 ;
 let
