@@ -4507,6 +4507,30 @@ True
             
 )
         
+else
+:
+            
+self
+.
+prefs
+.
+update
+(
+                
+{
+                    
+"
+fission
+.
+autostart
+"
+:
+False
+                
+}
+            
+)
+        
 if
 self
 .
