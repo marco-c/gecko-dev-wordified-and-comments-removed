@@ -588,6 +588,8 @@ context
 -
 close
 -
+n
+-
 tabs
 =
 .
@@ -607,6 +609,9 @@ Tab
 other
 ]
 Close
+{
+tabCount
+}
 Tabs
 }
 .
