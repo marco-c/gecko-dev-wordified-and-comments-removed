@@ -500,7 +500,7 @@ dom
 .
 webcomponents
 .
-formAssociatedCustomElement
+elementInternals
 .
 enabled
 "

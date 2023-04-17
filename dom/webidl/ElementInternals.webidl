@@ -123,7 +123,7 @@ dom
 .
 webcomponents
 .
-formAssociatedCustomElement
+elementInternals
 .
 enabled
 "
@@ -134,5 +134,16 @@ Window
 interface
 ElementInternals
 {
+/
+/
+Shadow
+root
+access
+readonly
+attribute
+ShadowRoot
+?
+shadowRoot
+;
 }
 ;

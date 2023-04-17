@@ -1846,9 +1846,6 @@ ElementInternals
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name

@@ -41,6 +41,9 @@ namespace
 dom
 {
 class
+ShadowRoot
+;
+class
 ElementInternals
 final
 :
@@ -89,6 +92,13 @@ JSObject
 aGivenProto
 )
 override
+;
+ShadowRoot
+*
+GetShadowRoot
+(
+)
+const
 ;
 private
 :
