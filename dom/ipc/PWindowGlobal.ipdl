@@ -718,6 +718,11 @@ Destroy
 (
 )
 ;
+async
+ReloadWithHttpsOnlyException
+(
+)
+;
 }
 ;
 }

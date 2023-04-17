@@ -17327,8 +17327,9 @@ break
 ;
 }
 }
-if
-(
+bool
+isHttpsOnlyError
+=
 nsHTTPSOnlyUtils
 :
 :
@@ -17337,6 +17338,10 @@ CouldBeHttpsOnlyError
 aFailedChannel
 aError
 )
+;
+if
+(
+isHttpsOnlyError
 )
 {
 errorPage
@@ -17376,7 +17381,13 @@ loadURIDelegate
 HandleLoadError
 (
 aURI
+(
+isHttpsOnlyError
+?
+NS_ERROR_HTTPS_ONLY
+:
 aError
+)
 NS_ERROR_GET_MODULE
 (
 aError
