@@ -56,9 +56,6 @@ gTestTab
 var
 gContentAPI
 ;
-var
-gContentWindow
-;
 function
 test
 (

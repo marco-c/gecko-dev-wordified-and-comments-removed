@@ -42,9 +42,6 @@ gTestTab
 var
 gContentAPI
 ;
-var
-gContentWindow
-;
 requestLongerTimeout
 (
 2

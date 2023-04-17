@@ -10,9 +10,6 @@ var
 gContentAPI
 ;
 var
-gContentWindow
-;
-var
 setDefaultBrowserCalled
 =
 false

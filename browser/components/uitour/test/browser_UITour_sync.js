@@ -9,9 +9,6 @@ gTestTab
 var
 gContentAPI
 ;
-var
-gContentWindow
-;
 const
 MOCK_FLOW_ID
 =
