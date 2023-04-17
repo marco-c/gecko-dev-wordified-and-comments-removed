@@ -506,6 +506,13 @@ return
 true
 ;
 }
+{
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 mRecvStreamConfig
 .
 rtp
@@ -517,6 +524,7 @@ aSSRCs
 0
 ]
 ;
+}
 mSendStreamConfig
 .
 rtp
