@@ -1809,6 +1809,11 @@ aEvent
 )
 ;
 bool
+HasNonPassiveWheelListener
+(
+)
+;
+bool
 IsNonChromeClickListener
 (
 Listener
