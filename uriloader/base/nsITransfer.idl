@@ -20,9 +20,6 @@ nsIMIMEInfo
 interface
 nsIFile
 ;
-interface
-nsIReferrerInfo
-;
 webidl
 BrowsingContext
 ;
@@ -97,9 +94,6 @@ aIsPrivate
 in
 long
 aDownloadClassification
-in
-nsIReferrerInfo
-aReferrerInfo
 )
 ;
 void
@@ -132,9 +126,6 @@ aIsPrivate
 in
 long
 aDownloadClassification
-in
-nsIReferrerInfo
-aReferrerInfo
 in
 BrowsingContext
 aBrowsingContext
