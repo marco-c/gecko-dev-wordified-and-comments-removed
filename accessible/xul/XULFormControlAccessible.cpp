@@ -603,6 +603,14 @@ nsGkAtoms
 :
 popup
 )
+|
+|
+aEl
+-
+>
+IsText
+(
+)
 ;
 }
 bool
