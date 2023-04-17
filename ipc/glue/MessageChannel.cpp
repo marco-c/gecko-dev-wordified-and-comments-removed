@@ -4765,10 +4765,6 @@ Message
 aMsg
 )
 {
-AssertLinkThread
-(
-)
-;
 mMonitor
 -
 >
@@ -5150,10 +5146,6 @@ Message
 aMsg
 )
 {
-AssertLinkThread
-(
-)
-;
 mMonitor
 -
 >
@@ -5168,8 +5160,10 @@ MaybeInterceptSpecialIOMessage
 aMsg
 )
 )
+{
 return
 ;
+}
 mListener
 -
 >
@@ -5653,9 +5647,8 @@ IPC_LOG
 (
 "
 Receive
-on
+from
 link
-thread
 ;
 seqno
 =
@@ -11601,10 +11594,6 @@ OnChannelErrorFromLink
 (
 )
 {
-AssertLinkThread
-(
-)
-;
 mMonitor
 -
 >
