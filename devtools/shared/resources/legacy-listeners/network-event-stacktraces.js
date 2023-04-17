@@ -31,7 +31,7 @@ async
 function
 (
 {
-targetList
+targetCommand
 targetFront
 onAvailable
 }

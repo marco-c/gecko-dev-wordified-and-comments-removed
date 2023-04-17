@@ -2534,7 +2534,7 @@ resourceType
 ]
 (
 {
-targetList
+targetCommand
 :
 this
 .

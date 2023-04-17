@@ -31,7 +31,7 @@ async
 function
 (
 {
-targetList
+targetCommand
 targetFront
 onAvailable
 }
@@ -51,7 +51,7 @@ targetType
 =
 =
 =
-targetList
+targetCommand
 .
 TYPES
 .

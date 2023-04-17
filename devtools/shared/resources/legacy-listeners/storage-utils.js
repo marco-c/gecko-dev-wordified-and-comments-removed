@@ -104,7 +104,7 @@ async
 function
 (
 {
-targetList
+targetCommand
 targetType
 targetFront
 onAvailable

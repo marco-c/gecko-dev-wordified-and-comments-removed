@@ -31,7 +31,7 @@ async
 function
 (
 {
-targetList
+targetCommand
 targetFront
 onAvailable
 onUpdated
@@ -41,7 +41,7 @@ onUpdated
 const
 listenForFrames
 =
-targetList
+targetCommand
 .
 descriptorFront
 .
@@ -61,7 +61,7 @@ targetType
 =
 =
 =
-targetList
+targetCommand
 .
 TYPES
 .
@@ -75,7 +75,7 @@ targetType
 =
 =
 =
-targetList
+targetCommand
 .
 TYPES
 .
