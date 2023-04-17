@@ -6356,11 +6356,14 @@ flags
 :
 PrependFlags
 (
+            
 [
+                
 "
 -
 isysroot
 "
+                
 xcrun
 (
 "
@@ -6380,7 +6383,22 @@ path
 [
 1
 ]
+                
+"
+-
+mmacosx
+-
+version
+-
+min
+=
+10
+.
+12
+"
+            
 ]
+        
 )
     
 }
@@ -13581,18 +13599,19 @@ __value_for_depends
 "
 )
 [
-            
 (
 dep
 )
-        
 ]
 =
+(
+            
 arm_target
+            
 or
 ReadOnlyNamespace
 (
-            
+                
 arm_arch
 =
 7
@@ -13609,6 +13628,8 @@ float_abi
 "
 softfp
 "
+            
+)
         
 )
         
