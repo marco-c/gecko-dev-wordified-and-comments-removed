@@ -38,13 +38,6 @@ h
 #
 include
 "
-ProxyWrappers
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

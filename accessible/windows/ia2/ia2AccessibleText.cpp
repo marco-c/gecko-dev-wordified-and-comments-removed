@@ -45,13 +45,6 @@ h
 #
 include
 "
-ProxyWrappers
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ClearOnShutdown

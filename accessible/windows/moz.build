@@ -15,17 +15,3 @@ sdn
 uia
 "
 ]
-EXPORTS
-.
-mozilla
-.
-a11y
-+
-=
-[
-"
-ProxyWrappers
-.
-h
-"
-]
