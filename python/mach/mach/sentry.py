@@ -281,6 +281,21 @@ None
         
 return
     
+base_ref
+=
+repo
+.
+base_ref_as_hg
+(
+)
+    
+if
+not
+base_ref
+:
+        
+return
+    
 if
 not
 _is_unmodified_mach_core
@@ -327,11 +342,7 @@ rev
 .
 format
 (
-repo
-.
-base_ref_as_hg
-(
-)
+base_ref
 )
     
 return
