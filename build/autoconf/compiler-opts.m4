@@ -1229,6 +1229,15 @@ dnl
 =
 SANCOV
 =
+if
+test
+-
+n
+"
+LIBFUZZER
+"
+;
+then
 case
 "
 LIBFUZZER_FLAGS
@@ -1254,6 +1263,7 @@ SANCOV
 ;
 ;
 esac
+fi
 if
 test
 "
