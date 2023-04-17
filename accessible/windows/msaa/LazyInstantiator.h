@@ -55,7 +55,7 @@ namespace
 a11y
 {
 class
-RootAccessibleWrap
+MsaaRootAccessible
 ;
 class
 LazyInstantiator
@@ -483,9 +483,9 @@ ResolveDispatch
 (
 )
 ;
-RootAccessibleWrap
+MsaaRootAccessible
 *
-ResolveRootAccWrap
+ResolveMsaaRoot
 (
 )
 ;
@@ -528,9 +528,9 @@ IUnknown
 >
 mStdDispatch
 ;
-RootAccessibleWrap
+MsaaRootAccessible
 *
-mWeakRootAccWrap
+mWeakMsaaRoot
 ;
 IAccessible
 *
