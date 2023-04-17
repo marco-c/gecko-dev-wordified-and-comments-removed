@@ -349,6 +349,9 @@ SWGL_ANTIALIAS
 define
 SWGL_BLEND
 #
+define
+SWGL_CLIP_DIST
+#
 endif
 #
 ifdef
