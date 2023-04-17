@@ -9378,7 +9378,7 @@ if
 map
 -
 >
-hasDebugFrame
+hasDebugFrameWithLiveRefs
 )
 {
 DebugFrame
