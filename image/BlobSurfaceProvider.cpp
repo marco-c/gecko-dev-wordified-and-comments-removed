@@ -1,7 +1,7 @@
 #
 include
 "
-SourceSurfaceBlobImage
+BlobSurfaceProvider
 .
 h
 "
