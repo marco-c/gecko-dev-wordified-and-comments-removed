@@ -151,13 +151,6 @@ private
 LookAndFeelTables
 mTables
 ;
-static
-StaticAutoPtr
-<
-FullLookAndFeel
->
-sCachedLookAndFeelData
-;
 }
 ;
 }

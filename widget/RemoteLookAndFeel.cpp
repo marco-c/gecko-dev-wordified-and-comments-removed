@@ -99,6 +99,13 @@ mozilla
 :
 widget
 {
+static
+StaticAutoPtr
+<
+FullLookAndFeel
+>
+sCachedLookAndFeelData
+;
 RemoteLookAndFeel
 :
 :
@@ -1405,13 +1412,4 @@ sCachedLookAndFeelData
 nullptr
 ;
 }
-StaticAutoPtr
-<
-FullLookAndFeel
->
-RemoteLookAndFeel
-:
-:
-sCachedLookAndFeelData
-;
 }
