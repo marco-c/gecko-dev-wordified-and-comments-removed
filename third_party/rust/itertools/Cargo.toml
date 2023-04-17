@@ -127,7 +127,7 @@ version
 .
 10
 .
-0
+1
 "
 authors
 =
@@ -231,10 +231,10 @@ github
 .
 com
 /
-bluss
-/
 rust
 -
+itertools
+/
 itertools
 "
 [

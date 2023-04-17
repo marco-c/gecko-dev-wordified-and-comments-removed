@@ -8,6 +8,7 @@ iter
 {
 Fuse
 Peekable
+FusedIterator
 }
 ;
 #
@@ -411,5 +412,19 @@ where
 I
 :
 ExactSizeIterator
+{
+}
+impl
+<
+I
+:
+Iterator
+>
+FusedIterator
+for
+WithPosition
+<
+I
+>
 {
 }

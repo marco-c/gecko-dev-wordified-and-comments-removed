@@ -97,7 +97,7 @@ crates
 image
 :
 :
-http
+https
 :
 /
 /
@@ -143,7 +143,9 @@ itertools
 "
 0
 .
-9
+10
+.
+0
 "
 How
 to
@@ -238,7 +240,6 @@ rust
 lang
 /
 rust
-/
 >
 _
 adding
@@ -362,7 +363,7 @@ Version
 2
 .
 0
-http
+https
 :
 /
 /
@@ -383,7 +384,7 @@ or
 the
 MIT
 license
-http
+https
 :
 /
 /
