@@ -3284,7 +3284,6 @@ value
 }
 )
 }
-;
 let
 desc
 =
