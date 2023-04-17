@@ -8451,7 +8451,7 @@ mozilla
 ipc
 :
 :
-PreloadSandboxedDynamicLibraries
+PreloadSandboxedDynamicLibrary
 (
 )
 ;

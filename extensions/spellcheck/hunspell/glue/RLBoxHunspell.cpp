@@ -238,7 +238,7 @@ mozilla
 ipc
 :
 :
-GetSandboxedHunspellPath
+GetSandboxedRLBoxPath
 (
 )
 .

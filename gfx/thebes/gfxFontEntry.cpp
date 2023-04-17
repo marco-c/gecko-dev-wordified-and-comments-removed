@@ -3061,7 +3061,7 @@ mozilla
 ipc
 :
 :
-GetSandboxedGraphitePath
+GetSandboxedRLBoxPath
 (
 )
 .
