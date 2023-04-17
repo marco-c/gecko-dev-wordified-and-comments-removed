@@ -81,6 +81,10 @@ SunOS
 "
 WINNT
 "
+    
+"
+WASI
+"
 )
 Kernel
 =
@@ -123,6 +127,10 @@ SunOS
     
 "
 WINNT
+"
+    
+"
+WASI
 "
 )
 CPU_bitness
@@ -236,6 +244,12 @@ x86_64
 "
 :
 64
+    
+"
+wasm32
+"
+:
+32
 }
 CPU
 =
@@ -469,6 +483,15 @@ sh4
 __sh__
 "
 )
+        
+(
+"
+wasm32
+"
+"
+__wasm32__
+"
+)
     
 )
 )
@@ -566,6 +589,14 @@ _WIN32
 |
 |
 __CYGWIN__
+"
+    
+"
+WASI
+"
+:
+"
+__wasi__
 "
 }
 assert

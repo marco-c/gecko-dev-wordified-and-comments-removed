@@ -1201,6 +1201,9 @@ info
 split_triplet
 (
 t
+allow_wasi
+=
+True
 )
 except
 ValueError
@@ -1316,6 +1319,9 @@ info
 split_triplet
 (
 retry
+allow_wasi
+=
+True
 )
 except
 ValueError
