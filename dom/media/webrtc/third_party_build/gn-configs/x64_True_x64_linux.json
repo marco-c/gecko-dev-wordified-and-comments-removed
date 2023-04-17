@@ -193963,6 +193963,17 @@ include_dirs
 [
 "
 /
+media
+/
+libyuv
+/
+libyuv
+/
+include
+/
+"
+"
+/
 third_party
 /
 libwebrtc
