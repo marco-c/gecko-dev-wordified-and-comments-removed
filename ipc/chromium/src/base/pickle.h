@@ -744,6 +744,14 @@ len
 )
 const
 ;
+void
+Truncate
+(
+PickleIterator
+*
+iter
+)
+;
 bool
 WriteBool
 (
