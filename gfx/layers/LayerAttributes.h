@@ -613,7 +613,7 @@ true
 ;
 }
 bool
-SetAsyncZoomContainerId
+SetIsAsyncZoomContainer
 (
 const
 Maybe
@@ -629,7 +629,7 @@ aViewId
 {
 if
 (
-mAsyncZoomContainerId
+mIsAsyncZoomContainerForViewId
 =
 =
 aViewId
@@ -639,7 +639,7 @@ return
 false
 ;
 }
-mAsyncZoomContainerId
+mIsAsyncZoomContainerForViewId
 =
 aViewId
 ;
@@ -1114,13 +1114,13 @@ FrameMetrics
 :
 ViewID
 >
-GetAsyncZoomContainerId
+IsAsyncZoomContainer
 (
 )
 const
 {
 return
-mAsyncZoomContainerId
+mIsAsyncZoomContainerForViewId
 ;
 }
 const
@@ -1400,12 +1400,12 @@ aOther
 mIsFixedPosition
 &
 &
-mAsyncZoomContainerId
+mIsAsyncZoomContainerForViewId
 =
 =
 aOther
 .
-mAsyncZoomContainerId
+mIsAsyncZoomContainerForViewId
 &
 &
 mScrollbarData
@@ -1471,7 +1471,7 @@ FrameMetrics
 :
 ViewID
 >
-mAsyncZoomContainerId
+mIsAsyncZoomContainerForViewId
 ;
 ScrollbarData
 mScrollbarData

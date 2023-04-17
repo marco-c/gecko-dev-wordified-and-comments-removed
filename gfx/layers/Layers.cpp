@@ -8936,7 +8936,7 @@ ViewID
 >
 viewId
 =
-GetAsyncZoomContainerId
+IsAsyncZoomContainer
 (
 )
 )

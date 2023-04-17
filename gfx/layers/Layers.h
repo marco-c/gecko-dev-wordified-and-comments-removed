@@ -1696,7 +1696,7 @@ MutatedSimple
 }
 }
 void
-SetAsyncZoomContainerId
+SetIsAsyncZoomContainer
 (
 const
 Maybe
@@ -1714,7 +1714,7 @@ if
 (
 mSimpleAttrs
 .
-SetAsyncZoomContainerId
+SetIsAsyncZoomContainer
 (
 aViewId
 )
@@ -1733,7 +1733,7 @@ Mutated
 %
 p
 )
-AsyncZoomContainerId
+IsAsyncZoomContainer
 "
 this
 )
@@ -2348,14 +2348,14 @@ FrameMetrics
 :
 ViewID
 >
-GetAsyncZoomContainerId
+IsAsyncZoomContainer
 (
 )
 {
 return
 mSimpleAttrs
 .
-GetAsyncZoomContainerId
+IsAsyncZoomContainer
 (
 )
 ;
