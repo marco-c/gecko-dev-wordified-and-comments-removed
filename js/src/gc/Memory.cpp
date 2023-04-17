@@ -498,9 +498,9 @@ return
 SystemPageSize
 (
 )
-<
 =
-ArenaSize
+=
+PageSize
 ;
 }
 static
