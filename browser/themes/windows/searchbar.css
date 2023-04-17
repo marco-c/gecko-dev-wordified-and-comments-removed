@@ -79,10 +79,9 @@ off
 -
 item
 :
+focus
 -
-moz
--
-focusring
+visible
 {
 outline
 :
@@ -90,13 +89,6 @@ none
 ;
 }
 media
-(
--
-moz
--
-proton
-)
-and
 (
 -
 moz

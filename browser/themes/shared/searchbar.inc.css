@@ -439,6 +439,16 @@ inline
 -
 block
 ;
+background
+-
+color
+:
+transparent
+;
+border
+:
+none
+;
 min
 -
 width
