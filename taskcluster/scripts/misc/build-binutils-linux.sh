@@ -23,6 +23,15 @@ Linux
 .
 cd
 GECKO_PATH
+PATH
+=
+MOZ_FETCHES_DIR
+/
+gcc
+/
+bin
+:
+PATH
 build
 /
 unix
