@@ -58,6 +58,11 @@ TestRelativeTimeFormat
 cpp
 "
 "
+TestString
+.
+cpp
+"
+"
 TestTimeZone
 .
 cpp
