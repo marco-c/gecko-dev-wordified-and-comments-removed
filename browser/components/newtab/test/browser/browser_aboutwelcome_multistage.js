@@ -1341,6 +1341,14 @@ createSandbox
 (
 )
 ;
+NimbusFeatures
+.
+aboutwelcome
+.
+_sendExposureEventOnce
+=
+true
+;
 await
 setAboutWelcomePref
 (
@@ -1940,7 +1948,7 @@ expose
 #
 nimbus_experiment
 "
-2
+1
 )
 ;
 await
