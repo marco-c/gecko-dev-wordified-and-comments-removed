@@ -85,6 +85,15 @@ h
 #
 include
 "
+jit
+/
+BaselineIC
+.
+h
+"
+#
+include
+"
 js
 /
 CharacterEncoding

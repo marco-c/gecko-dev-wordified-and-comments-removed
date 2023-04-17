@@ -28,6 +28,15 @@ h
 #
 include
 "
+jit
+/
+JitOptions
+.
+h
+"
+#
+include
+"
 js
 /
 Printf
