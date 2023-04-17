@@ -3253,6 +3253,9 @@ GeckoProcessType_Content
 return
 :
 :
+mozilla
+:
+:
 SendGetModulesTrust
 (
 dom
@@ -3280,6 +3283,9 @@ GeckoProcessType_RDD
 :
 {
 return
+:
+:
+mozilla
 :
 :
 SendGetModulesTrust

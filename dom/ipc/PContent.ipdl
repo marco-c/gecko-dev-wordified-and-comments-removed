@@ -844,6 +844,12 @@ TelemetryComms
 h
 "
 ;
+#
+if
+defined
+(
+XP_WIN
+)
 [
 MoveOnly
 ]
@@ -895,6 +901,8 @@ UntrustedModulesData
 h
 "
 ;
+#
+endif
 using
 mozilla
 :
@@ -2427,6 +2435,12 @@ nsID
 aID
 )
 ;
+#
+if
+defined
+(
+XP_WIN
+)
 async
 GetUntrustedModulesData
 (
@@ -2438,6 +2452,8 @@ UntrustedModulesData
 data
 )
 ;
+#
+endif
 async
 BidiKeyboardNotify
 (
@@ -4701,6 +4717,12 @@ bool
 aShouldAddCount
 )
 ;
+#
+if
+defined
+(
+XP_WIN
+)
 async
 GetModulesTrust
 (
@@ -4716,6 +4738,8 @@ ModulesMapResult
 modMapResult
 )
 ;
+#
+endif
 async
 ReportServiceWorkerShutdownProgress
 (

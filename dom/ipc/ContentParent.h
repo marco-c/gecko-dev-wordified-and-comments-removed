@@ -5960,6 +5960,12 @@ bool
 aShouldAddCount
 )
 ;
+#
+if
+defined
+(
+XP_WIN
+)
 mozilla
 :
 :
@@ -5981,6 +5987,8 @@ GetModulesTrustResolver
 aResolver
 )
 ;
+#
+endif
 mozilla
 :
 :
