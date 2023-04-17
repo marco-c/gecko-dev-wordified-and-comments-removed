@@ -355,11 +355,9 @@ command
 CC
 =
 broken_compiler
-python
-setup
-.
-py
+pip
 install
+.
 -
 -
 user

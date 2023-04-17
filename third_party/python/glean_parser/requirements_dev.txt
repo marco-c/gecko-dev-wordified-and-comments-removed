@@ -1,9 +1,9 @@
 black
 =
 =
-20
+21
 .
-8b1
+5b1
 coverage
 =
 =
@@ -17,7 +17,7 @@ flake8
 .
 9
 .
-1
+2
 flake8
 -
 bugbear
@@ -60,7 +60,7 @@ pytest
 .
 2
 .
-3
+4
 recommonmark
 =
 =
@@ -72,11 +72,11 @@ recommonmark
 Sphinx
 =
 =
-3
-.
-5
-.
 4
+.
+0
+.
+1
 twine
 =
 =
@@ -90,9 +90,9 @@ watchdog
 =
 2
 .
-0
+1
 .
-2
+1
 wheel
 yamllint
 =
