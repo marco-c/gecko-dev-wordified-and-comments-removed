@@ -659,11 +659,11 @@ nsWindow
 *
 mWindow
 ;
-LayoutDeviceIntRect
-mMozContainerRect
+LayoutDeviceIntSize
+mMozContainerSize
 ;
-LayoutDeviceIntRect
-mWLBufferRect
+LayoutDeviceIntSize
+mWLBufferSize
 ;
 RefPtr
 <
