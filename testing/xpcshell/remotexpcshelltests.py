@@ -3533,15 +3533,6 @@ chmod
 remotePrefsFile
 )
         
-os
-.
-remove
-(
-self
-.
-prefsFile
-)
-        
 self
 .
 prefsFile
