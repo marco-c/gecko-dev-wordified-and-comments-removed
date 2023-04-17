@@ -233,7 +233,7 @@ NS_DECL_NSINAMED
 NS_IMETHOD
 GetTextLength
 (
-int32_t
+uint32_t
 *
 aCount
 )

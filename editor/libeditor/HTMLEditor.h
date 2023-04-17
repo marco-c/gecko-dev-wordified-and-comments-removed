@@ -2029,9 +2029,9 @@ aDir
 Text
 &
 aTextNode
-int32_t
+uint32_t
 aStartOffset
-int32_t
+uint32_t
 aEndOffset
 )
 ;
@@ -3489,7 +3489,7 @@ aHeader
 nsINode
 &
 aNode
-int32_t
+uint32_t
 aOffset
 )
 ;
@@ -3508,7 +3508,7 @@ aListItem
 nsINode
 &
 aNode
-int32_t
+uint32_t
 aOffset
 )
 ;

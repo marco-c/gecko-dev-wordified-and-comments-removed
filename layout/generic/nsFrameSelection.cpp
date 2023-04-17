@@ -3355,7 +3355,7 @@ nsINode
 >
 node
 ;
-int32_t
+uint32_t
 offset
 ;
 if

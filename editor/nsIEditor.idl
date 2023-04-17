@@ -631,6 +631,7 @@ in
 Node
 parent
 in
+unsigned
 long
 aPosition
 )
@@ -762,6 +763,7 @@ passwordMask
 ;
 readonly
 attribute
+unsigned
 long
 textLength
 ;

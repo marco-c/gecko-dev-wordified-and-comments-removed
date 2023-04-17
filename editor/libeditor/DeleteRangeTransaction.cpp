@@ -1244,8 +1244,8 @@ Container
 )
 )
 {
-int32_t
-numToDel
+uint32_t
+textLengthToDelete
 ;
 if
 (
@@ -1255,14 +1255,14 @@ aStart
 aEnd
 )
 {
-numToDel
+textLengthToDelete
 =
 1
 ;
 }
 else
 {
-numToDel
+textLengthToDelete
 =
 *
 aEnd
@@ -1294,7 +1294,7 @@ kValidOffsets
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-numToDel
+textLengthToDelete
 >
 0
 )
@@ -1328,7 +1328,7 @@ OffsetFilter
 :
 kValidOffsets
 )
-numToDel
+textLengthToDelete
 )
 ;
 if
