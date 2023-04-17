@@ -223,6 +223,8 @@ test_file_menu
 (
 )
 {
+gFileMenu
+.
 updateImportCommandEnabledState
 (
 )
