@@ -170,6 +170,17 @@ getReferent
 )
 const
 ;
+void
+clearReferent
+(
+)
+{
+setPrivate
+(
+nullptr
+)
+;
+}
 static
 DebuggerScript
 *

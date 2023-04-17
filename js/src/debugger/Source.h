@@ -138,6 +138,17 @@ getReferent
 )
 const
 ;
+void
+clearReferent
+(
+)
+{
+setPrivate
+(
+nullptr
+)
+;
+}
 static
 DebuggerSource
 *
