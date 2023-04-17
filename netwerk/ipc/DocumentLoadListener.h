@@ -1030,6 +1030,16 @@ return
 mIsDocumentLoad
 ;
 }
+enum
+ProcessBehavior
+:
+uint8_t
+{
+PROCESS_BEHAVIOR_DISABLED
+PROCESS_BEHAVIOR_STANDARD
+PROCESS_BEHAVIOR_SUBFRAME_ONLY
+}
+;
 protected
 :
 virtual
