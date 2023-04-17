@@ -173,7 +173,7 @@ Init
 )
 ;
 void
-SelfDestruct
+Shutdown
 (
 )
 ;
@@ -576,16 +576,6 @@ StunAddrsHandler
 {
 }
 }
-;
-void
-ShutdownMediaTransport_s
-(
-)
-;
-void
-SelfDestruct_m
-(
-)
 ;
 void
 UpdateTransport
