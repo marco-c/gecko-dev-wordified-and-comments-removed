@@ -2728,17 +2728,6 @@ disabled
 heading
 =
 Disabled
-ask
--
-to
--
-activate
--
-button
-=
-Ask
-to
-Activate
 always
 -
 activate
