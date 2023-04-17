@@ -362,14 +362,11 @@ resolve
 }
 )
 ;
-EventUtils
+contextMenu
 .
-synthesizeMouseAtCenter
+activateItem
 (
 testMenuItem
-{
-}
-window
 )
 ;
 await
