@@ -61,6 +61,12 @@ esr78
 "
     
 "
+mozilla
+-
+esr91
+"
+    
+"
 comm
 -
 central
@@ -76,6 +82,12 @@ beta
 comm
 -
 esr78
+"
+    
+"
+comm
+-
+esr91
 "
     
 "

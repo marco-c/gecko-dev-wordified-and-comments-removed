@@ -139,6 +139,7 @@ releases
 :
 [
 esr78
+esr91
 ]
 shipping
 -
@@ -390,7 +391,7 @@ include
 -
 version
 :
-esr78
+esr91
 -
 next
 last
