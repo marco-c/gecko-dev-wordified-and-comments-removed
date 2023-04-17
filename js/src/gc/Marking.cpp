@@ -12783,6 +12783,13 @@ MarkColor
 newColor
 )
 {
+MOZ_ASSERT
+(
+isMarkStackEmpty
+(
+)
+)
+;
 if
 (
 newColor
@@ -12791,13 +12798,6 @@ newColor
 mainStackColor
 )
 {
-MOZ_ASSERT
-(
-isMarkStackEmpty
-(
-)
-)
-;
 mainStackColor
 =
 newColor
