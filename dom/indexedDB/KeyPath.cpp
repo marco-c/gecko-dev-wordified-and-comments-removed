@@ -577,10 +577,16 @@ JS
 :
 Rooted
 <
+mozilla
+:
+:
+Maybe
+<
 JS
 :
 :
 PropertyDescriptor
+>
 >
 desc
 (
@@ -629,7 +635,7 @@ if
 (
 desc
 .
-object
+isSome
 (
 )
 )
@@ -637,7 +643,8 @@ object
 intermediate
 =
 desc
-.
+-
+>
 value
 (
 )
