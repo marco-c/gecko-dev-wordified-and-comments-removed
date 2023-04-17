@@ -1847,10 +1847,6 @@ browser
 /
 skin
 /
-notification
--
-icons
-/
 canvas
 .
 svg
@@ -1883,10 +1879,6 @@ chrome
 browser
 /
 skin
-/
-notification
--
-icons
 /
 canvas
 -
@@ -1936,11 +1928,7 @@ browser
 /
 skin
 /
-notification
--
-icons
-/
-webauthn
+fingerprint
 .
 svg
 )
