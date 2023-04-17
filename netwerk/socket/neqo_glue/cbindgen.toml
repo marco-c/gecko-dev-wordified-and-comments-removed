@@ -95,6 +95,9 @@ net
 class
 NeqoHttp3Conn
 ;
+union
+NetAddr
+;
 }
 /
 /
@@ -161,6 +164,9 @@ exclude
 [
 "
 NeqoHttp3Conn
+"
+"
+NetAddr
 "
 ]
 item_types

@@ -18861,6 +18861,9 @@ dependencies
 =
 [
 "
+libc
+"
+"
 log
 "
 "
@@ -18901,6 +18904,9 @@ qlog
 thin
 -
 vec
+"
+"
+winapi
 "
 "
 xpcom
