@@ -1,5 +1,5 @@
 thunderbird
-:
+-
 packages
 .
 txt
