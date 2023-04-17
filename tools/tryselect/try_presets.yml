@@ -298,6 +298,8 @@ target
 windows10
 -
 64
+-
+qr
 /
 "
 to
@@ -305,9 +307,10 @@ avoid
 duplicate
 jobs
 on
--
-qr
-platforms
+asan
+&
+shippable
+builds
 -
 "
 '
@@ -327,6 +330,8 @@ chrome
 windows10
 -
 64
+-
+qr
 /
 |
 '
