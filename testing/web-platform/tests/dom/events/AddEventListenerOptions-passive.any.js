@@ -128,6 +128,7 @@ testPassiveValue
 (
 optionsValue
 expectedDefaultPrevented
+existingEventTarget
 )
 {
 var
@@ -173,6 +174,9 @@ defaultPrevented
 const
 et
 =
+existingEventTarget
+|
+|
 new
 EventTarget
 (
@@ -192,9 +196,7 @@ optionsValue
 var
 uncanceled
 =
-document
-.
-body
+et
 .
 dispatchEvent
 (
@@ -654,6 +656,7 @@ testPassiveValue
 (
 optionsValue
 expectedDefaultPrevented
+et
 )
 ;
 assert_true
