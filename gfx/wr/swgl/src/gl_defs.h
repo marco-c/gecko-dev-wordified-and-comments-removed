@@ -80,6 +80,10 @@ GL_NO_ERROR
 0
 #
 define
+GL_OUT_OF_MEMORY
+0x0505
+#
+define
 GL_RGBA32F
 0x8814
 #
