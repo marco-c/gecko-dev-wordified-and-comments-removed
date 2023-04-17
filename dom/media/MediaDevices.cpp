@@ -277,7 +277,7 @@ topDoc
 doc
 -
 >
-GetTopLevelContentDocument
+GetTopLevelContentDocumentIfSameProcess
 (
 )
 ;
@@ -639,7 +639,7 @@ topDoc
 doc
 -
 >
-GetTopLevelContentDocument
+GetTopLevelContentDocumentIfSameProcess
 (
 )
 ;

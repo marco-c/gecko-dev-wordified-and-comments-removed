@@ -3497,7 +3497,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+RefPtr
 <
 Document
 >
@@ -3506,7 +3506,7 @@ topLevelDoc
 doc
 -
 >
-GetTopLevelContentDocument
+GetTopLevelContentDocumentIfSameProcess
 (
 )
 ;

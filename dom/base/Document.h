@@ -8773,14 +8773,14 @@ const
 ;
 Document
 *
-GetTopLevelContentDocument
+GetTopLevelContentDocumentIfSameProcess
 (
 )
 ;
 const
 Document
 *
-GetTopLevelContentDocument
+GetTopLevelContentDocumentIfSameProcess
 (
 )
 const

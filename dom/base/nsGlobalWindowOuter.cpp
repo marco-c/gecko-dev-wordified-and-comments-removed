@@ -17014,7 +17014,7 @@ topInProcessContentDoc
 =
 aDocument
 .
-GetTopLevelContentDocument
+GetTopLevelContentDocumentIfSameProcess
 (
 )
 ;
