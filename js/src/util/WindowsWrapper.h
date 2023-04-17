@@ -1,9 +1,9 @@
 #
 ifndef
-util_Windows_h
+util_WindowsWrapper_h
 #
 define
-util_Windows_h
+util_WindowsWrapper_h
 #
 ifdef
 XP_WIN
