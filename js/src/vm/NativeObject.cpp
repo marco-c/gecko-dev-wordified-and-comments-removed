@@ -1323,7 +1323,7 @@ isEmptyShape
 shape
 -
 >
-isDataProperty
+hasSlot
 (
 )
 shape
@@ -1521,7 +1521,7 @@ MOZ_ASSERT_IF
 shape
 -
 >
-isDataProperty
+hasSlot
 (
 )
 prev
