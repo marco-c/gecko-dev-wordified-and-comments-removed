@@ -20,6 +20,13 @@ defined
 (
 WEBRTC_CHROMIUM_BUILD
 )
+&
+&
+!
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 void
 WarnThatTheCurrentThreadIsProbablyDeadlocked
 (
