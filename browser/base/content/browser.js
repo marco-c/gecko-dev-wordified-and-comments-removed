@@ -9248,6 +9248,12 @@ refreshIdentityBlock
 (
 )
 ;
+gPermissionPanel
+.
+updateSharingIndicator
+(
+)
+;
 }
 true
 )
