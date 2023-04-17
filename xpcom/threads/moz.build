@@ -185,6 +185,11 @@ DeadlockDetector
 h
 "
 "
+DelayedRunnable
+.
+h
+"
+"
 EventQueue
 .
 h
@@ -361,6 +366,11 @@ cpp
 "
 "
 CPUUsageWatcher
+.
+cpp
+"
+"
+DelayedRunnable
 .
 cpp
 "
