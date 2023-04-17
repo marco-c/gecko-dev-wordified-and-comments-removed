@@ -312,7 +312,7 @@ final_pos
 ;
 init_transform_vs
 (
-prim_transform
+clip_transform
 .
 is_axis_aligned
 ?

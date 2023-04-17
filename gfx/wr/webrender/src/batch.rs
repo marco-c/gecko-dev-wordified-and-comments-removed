@@ -14783,7 +14783,7 @@ Some
 local_rect
 )
 if
-prim_transform_id
+clip_transform_id
 .
 transform_kind
 (
