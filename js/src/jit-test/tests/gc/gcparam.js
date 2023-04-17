@@ -295,13 +295,6 @@ mallocThresholdBase
 testChangeParam
 (
 "
-mallocGrowthFactor
-"
-)
-;
-testChangeParam
-(
-"
 nurseryTimeoutForIdleCollectionMS
 "
 )
