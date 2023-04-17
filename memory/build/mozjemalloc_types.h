@@ -135,15 +135,6 @@ size_t
 quantum_max
 ;
 size_t
-quantum_wide
-;
-size_t
-quantum_wide_max
-;
-size_t
-subpage_max
-;
-size_t
 large_max
 ;
 size_t
@@ -203,7 +194,7 @@ jemalloc_bin_stats_t
 #
 define
 JEMALLOC_MAX_STATS_BINS
-51
+40
 enum
 PtrInfoTag
 {
