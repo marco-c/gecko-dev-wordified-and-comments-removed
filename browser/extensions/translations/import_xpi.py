@@ -375,10 +375,32 @@ extension_folder
     
 )
     
+env
+=
+{
+        
+*
+*
+os
+.
+environ
+        
+"
+MC
+"
+:
+str
+(
+1
+)
+    
+}
+    
 subprocess
 .
 call
 (
+        
 "
 yarn
 build
@@ -396,6 +418,10 @@ split
 cwd
 =
 extension_folder
+env
+=
+env
+    
 )
 shutil
 .
