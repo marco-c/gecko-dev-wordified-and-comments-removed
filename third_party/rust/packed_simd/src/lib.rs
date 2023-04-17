@@ -3,9 +3,9 @@
 [
 feature
 (
+const_generics
 repr_simd
 rustc_attrs
-const_fn
 platform_intrinsics
 stdsimd
 aarch64_target_feature
@@ -25,6 +25,7 @@ allow
 non_camel_case_types
 non_snake_case
 improper_ctypes_definitions
+incomplete_features
 clippy
 :
 :
@@ -53,6 +54,10 @@ clippy
 :
 :
 wrong_self_convention
+clippy
+:
+:
+from_over_into
 )
 ]
 #
