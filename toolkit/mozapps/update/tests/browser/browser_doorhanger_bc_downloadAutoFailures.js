@@ -71,13 +71,6 @@ button
 checkActiveUpdate
 :
 null
-pageURLs
-:
-{
-whatsNew
-:
-gDefaultWhatsNewURL
-}
 }
 {
 notificationId
@@ -95,13 +88,6 @@ button
 checkActiveUpdate
 :
 null
-pageURLs
-:
-{
-whatsNew
-:
-gDefaultWhatsNewURL
-}
 }
 {
 notificationId
@@ -122,9 +108,6 @@ null
 pageURLs
 :
 {
-whatsNew
-:
-gDefaultWhatsNewURL
 manual
 :
 URL_MANUAL_UPDATE

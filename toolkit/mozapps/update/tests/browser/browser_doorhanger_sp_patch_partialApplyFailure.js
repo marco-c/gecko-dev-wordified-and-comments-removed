@@ -89,9 +89,6 @@ null
 pageURLs
 :
 {
-whatsNew
-:
-gDefaultWhatsNewURL
 manual
 :
 URL_MANUAL_UPDATE
