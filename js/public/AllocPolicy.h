@@ -468,6 +468,7 @@ cx
 )
 ;
 class
+JS_PUBLIC_API
 TempAllocPolicy
 :
 public
@@ -478,7 +479,6 @@ JSContext
 const
 cx_
 ;
-JS_PUBLIC_API
 void
 *
 onOutOfMemory
@@ -874,7 +874,6 @@ p
 )
 ;
 }
-JS_PUBLIC_API
 void
 reportAllocOverflow
 (
