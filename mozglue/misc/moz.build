@@ -245,6 +245,11 @@ NativeNt
 h
 "
 "
+WindowsDpiInitialization
+.
+h
+"
+"
 WindowsEnumProcessModules
 .
 h
@@ -285,6 +290,11 @@ cpp
 "
 "
 TimeStamp_windows
+.
+cpp
+"
+"
+WindowsDpiInitialization
 .
 cpp
 "
