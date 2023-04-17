@@ -195,11 +195,6 @@ mach
 "
 lint
 "
-"
--
--
-quiet
-"
 ]
     
 if
