@@ -334,8 +334,15 @@ d
 %
 s
 "
+int
+(
 profiler_current_process_id
 (
+)
+.
+ToNumber
+(
+)
 )
 str
 )

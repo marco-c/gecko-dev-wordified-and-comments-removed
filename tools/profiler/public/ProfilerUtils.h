@@ -44,13 +44,15 @@ nodiscard
 ]
 ]
 inline
-int
+ProfilerProcessId
 profiler_current_process_id
 (
 )
 {
 return
-0
+ProfilerProcessId
+{
+}
 ;
 }
 [
@@ -105,7 +107,7 @@ else
 nodiscard
 ]
 ]
-int
+ProfilerProcessId
 profiler_current_process_id
 (
 )
