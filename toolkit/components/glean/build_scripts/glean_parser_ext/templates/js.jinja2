@@ -474,17 +474,6 @@ type_id
 }
 :
 {
-#
-ifdef
-MOZ_GLEAN_ANDROID
-auto
-id
-=
-*
-aSubmetricId
-;
-#
-else
 auto
 id
 =
@@ -509,8 +498,6 @@ aSubmetricId
 =
 id
 ;
-#
-endif
 return
 MakeAndAddRef
 <
