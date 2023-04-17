@@ -25,6 +25,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 gc
 /
 Barrier
