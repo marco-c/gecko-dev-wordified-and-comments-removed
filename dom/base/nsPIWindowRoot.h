@@ -215,11 +215,12 @@ aBrowser
 =
 0
 ;
-typedef
+using
+BrowserEnumerator
+=
 void
 (
 *
-BrowserEnumerator
 )
 (
 nsIRemoteTab

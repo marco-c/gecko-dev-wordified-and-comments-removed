@@ -182,14 +182,15 @@ nsIDOMWindowUtils
 public
 nsSupportsWeakReference
 {
-typedef
+using
+TextEventDispatcher
+=
 mozilla
 :
 :
 widget
 :
 :
-TextEventDispatcher
 TextEventDispatcher
 ;
 public

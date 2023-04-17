@@ -23,11 +23,12 @@ h
 class
 nsAtom
 ;
-typedef
+using
+NSPropertyFunc
+=
 void
 (
 *
-NSPropertyFunc
 )
 (
 void
@@ -44,9 +45,10 @@ void
 aData
 )
 ;
-typedef
-NSPropertyFunc
+using
 NSPropertyDtorFunc
+=
+NSPropertyFunc
 ;
 class
 nsINode

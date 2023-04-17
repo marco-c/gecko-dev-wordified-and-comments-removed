@@ -95,9 +95,10 @@ sCrossOriginProperties
 {
 public
 :
-typedef
-RemoteObjectProxy
+using
 Base
+=
+RemoteObjectProxy
 ;
 constexpr
 RemoteOuterWindowProxy

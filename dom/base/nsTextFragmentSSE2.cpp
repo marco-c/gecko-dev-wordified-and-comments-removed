@@ -81,7 +81,9 @@ numUnicharsPerVector
 =
 8
 ;
-typedef
+using
+p
+=
 Non8BitParameters
 <
 sizeof
@@ -89,7 +91,6 @@ sizeof
 size_t
 )
 >
-p
 ;
 const
 size_t

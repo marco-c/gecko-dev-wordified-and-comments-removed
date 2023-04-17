@@ -434,7 +434,9 @@ EventTarget
 >
 mParent
 ;
-typedef
+using
+WeakBrowserTable
+=
 nsTHashSet
 <
 RefPtr
@@ -442,7 +444,6 @@ RefPtr
 nsIWeakReference
 >
 >
-WeakBrowserTable
 ;
 WeakBrowserTable
 mWeakBrowsers

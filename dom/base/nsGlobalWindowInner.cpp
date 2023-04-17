@@ -26331,7 +26331,9 @@ GetCurrentInnerWindowInternal
 )
 )
 {
-typedef
+using
+returnType
+=
 decltype
 (
 (
@@ -26348,7 +26350,6 @@ aArgs
 .
 )
 )
-returnType
 ;
 state
 =

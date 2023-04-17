@@ -100,14 +100,15 @@ nsMappedAttributeElement
 class
 AttrArray
 {
-typedef
+using
+BorrowedAttrInfo
+=
 mozilla
 :
 :
 dom
 :
 :
-BorrowedAttrInfo
 BorrowedAttrInfo
 ;
 public

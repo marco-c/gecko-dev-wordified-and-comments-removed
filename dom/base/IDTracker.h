@@ -62,14 +62,15 @@ IDTracker
 {
 public
 :
-typedef
+using
+Element
+=
 mozilla
 :
 :
 dom
 :
 :
-Element
 Element
 ;
 IDTracker

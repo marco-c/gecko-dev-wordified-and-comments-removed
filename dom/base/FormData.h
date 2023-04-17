@@ -555,11 +555,12 @@ aDirectory
 )
 override
 ;
-typedef
+using
+FormDataEntryCallback
+=
 bool
 (
 *
-FormDataEntryCallback
 )
 (
 const

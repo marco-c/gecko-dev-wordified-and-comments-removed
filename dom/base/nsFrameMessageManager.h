@@ -402,7 +402,9 @@ dom
 :
 MessageManagerReporter
 ;
-typedef
+using
+StructuredCloneData
+=
 mozilla
 :
 :
@@ -412,12 +414,13 @@ dom
 ipc
 :
 :
-StructuredCloneData
 StructuredCloneData
 ;
 protected
 :
-typedef
+using
+MessageManagerFlags
+=
 mozilla
 :
 :
@@ -427,7 +430,6 @@ dom
 ipc
 :
 :
-MessageManagerFlags
 MessageManagerFlags
 ;
 nsFrameMessageManager
@@ -1357,7 +1359,9 @@ nsSameProcessAsyncMessageBase
 {
 public
 :
-typedef
+using
+StructuredCloneData
+=
 mozilla
 :
 :
@@ -1367,7 +1371,6 @@ dom
 ipc
 :
 :
-StructuredCloneData
 StructuredCloneData
 ;
 nsSameProcessAsyncMessageBase

@@ -2345,7 +2345,9 @@ js
 Wrapper
 >
 {
-typedef
+using
+Base
+=
 MaybeCrossOriginObject
 <
 js
@@ -2353,7 +2355,6 @@ js
 :
 Wrapper
 >
-Base
 ;
 public
 :

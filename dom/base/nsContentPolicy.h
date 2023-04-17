@@ -48,7 +48,9 @@ nsIContentPolicy
 >
 mPolicies
 ;
-typedef
+using
+CPMethod
+=
 decltype
 (
 &
@@ -57,7 +59,6 @@ nsIContentPolicy
 :
 ShouldProcess
 )
-CPMethod
 ;
 nsresult
 CheckPolicy

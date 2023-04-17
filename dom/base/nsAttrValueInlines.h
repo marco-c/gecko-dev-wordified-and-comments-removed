@@ -67,11 +67,12 @@ struct
 MiscContainer
 final
 {
-typedef
+using
+ValueType
+=
 nsAttrValue
 :
 :
-ValueType
 ValueType
 ;
 ValueType

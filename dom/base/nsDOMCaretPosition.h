@@ -51,14 +51,15 @@ nsISupports
 public
 nsWrapperCache
 {
-typedef
+using
+DOMRect
+=
 mozilla
 :
 :
 dom
 :
 :
-DOMRect
 DOMRect
 ;
 public
