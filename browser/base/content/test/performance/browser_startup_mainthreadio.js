@@ -1346,10 +1346,10 @@ fsync
 3
 read
 :
-40
+44
 write
 :
-156
+164
 }
 {
 path
@@ -1397,7 +1397,7 @@ stat
 3
 write
 :
-1313
+1317
 }
 {
 path
