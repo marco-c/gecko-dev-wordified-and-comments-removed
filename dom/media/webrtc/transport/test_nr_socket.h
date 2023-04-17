@@ -135,6 +135,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -444,6 +445,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -487,6 +489,7 @@ override
 int
 connect
 (
+const
 nr_transport_addr
 *
 addr
@@ -628,15 +631,8 @@ nr_transport_addr_copy
 (
 &
 remote_address_
-const_cast
-<
-nr_transport_addr
-*
->
-(
 &
 addr
-)
 )
 ;
 }
@@ -791,6 +787,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 addr
@@ -1036,6 +1033,7 @@ void
 msg
 size_t
 len
+const
 nr_transport_addr
 *
 to
@@ -1050,6 +1048,7 @@ nsCString
 >
 maybe_get_redirect_targets
 (
+const
 nr_transport_addr
 *
 to

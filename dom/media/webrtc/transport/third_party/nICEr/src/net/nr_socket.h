@@ -132,6 +132,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 addr
@@ -199,6 +200,7 @@ connect
 void
 *
 obj
+const
 nr_transport_addr
 *
 addr
@@ -392,6 +394,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 addr
@@ -455,6 +458,7 @@ nr_socket_connect
 nr_socket
 *
 sock
+const
 nr_transport_addr
 *
 addr

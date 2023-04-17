@@ -793,6 +793,7 @@ nr_transport_addr_copy
 nr_transport_addr
 *
 to
+const
 nr_transport_addr
 *
 from
@@ -891,6 +892,7 @@ nr_transport_addr_copy_keep_ifname
 nr_transport_addr
 *
 to
+const
 nr_transport_addr
 *
 from
@@ -1550,6 +1552,7 @@ _status
 int
 nr_transport_addr_get_port
 (
+const
 nr_transport_addr
 *
 addr
@@ -1711,9 +1714,11 @@ _status
 int
 nr_transport_addr_cmp
 (
+const
 nr_transport_addr
 *
 addr1
+const
 nr_transport_addr
 *
 addr2
@@ -1972,6 +1977,7 @@ return
 int
 nr_transport_addr_is_loopback
 (
+const
 nr_transport_addr
 *
 addr
@@ -2094,6 +2100,7 @@ return
 int
 nr_transport_addr_is_link_local
 (
+const
 nr_transport_addr
 *
 addr
@@ -2205,6 +2212,7 @@ return
 int
 nr_transport_addr_is_mac_based
 (
+const
 nr_transport_addr
 *
 addr
@@ -2335,6 +2343,7 @@ return
 int
 nr_transport_addr_is_teredo
 (
+const
 nr_transport_addr
 *
 addr
@@ -2421,9 +2430,11 @@ return
 int
 nr_transport_addr_check_compatibility
 (
+const
 nr_transport_addr
 *
 addr1
+const
 nr_transport_addr
 *
 addr2
@@ -2517,6 +2528,7 @@ return
 int
 nr_transport_addr_is_wildcard
 (
+const
 nr_transport_addr
 *
 addr
@@ -2667,6 +2679,7 @@ nr_private_ipv4_addrs
 int
 nr_transport_addr_get_private_addr_range
 (
+const
 nr_transport_addr
 *
 addr
@@ -2779,6 +2792,7 @@ return
 int
 nr_transport_addr_is_reliable_transport
 (
+const
 nr_transport_addr
 *
 addr

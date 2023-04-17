@@ -260,6 +260,7 @@ NrTcpSocket
 :
 connect
 (
+const
 nr_transport_addr
 *
 aAddr
@@ -796,6 +797,7 @@ size_t
 aCount
 int
 aFlags
+const
 nr_transport_addr
 *
 aAddr

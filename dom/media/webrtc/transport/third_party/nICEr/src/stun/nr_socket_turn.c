@@ -108,6 +108,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -363,6 +364,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 addr

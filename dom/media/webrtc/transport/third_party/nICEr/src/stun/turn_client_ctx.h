@@ -313,6 +313,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 remote_addr
@@ -351,6 +352,7 @@ nr_turn_client_ensure_perm
 nr_turn_client_ctx
 *
 ctx
+const
 nr_transport_addr
 *
 addr

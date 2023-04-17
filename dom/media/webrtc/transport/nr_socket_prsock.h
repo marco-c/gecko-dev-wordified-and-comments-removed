@@ -304,6 +304,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -355,6 +356,7 @@ virtual
 int
 connect
 (
+const
 nr_transport_addr
 *
 addr
@@ -651,6 +653,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -698,6 +701,7 @@ virtual
 int
 connect
 (
+const
 nr_transport_addr
 *
 addr
@@ -1001,6 +1005,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -1048,6 +1053,7 @@ virtual
 int
 connect
 (
+const
 nr_transport_addr
 *
 addr
@@ -1328,6 +1334,7 @@ keep
 int
 nr_transport_addr_get_addrstring_and_port
 (
+const
 nr_transport_addr
 *
 addr

@@ -1275,15 +1275,8 @@ sizeof
 buf
 )
 0
-const_cast
-<
-nr_transport_addr
-*
->
-(
 &
 to
-)
 )
 ;
 }

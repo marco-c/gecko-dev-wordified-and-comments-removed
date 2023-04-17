@@ -52,6 +52,7 @@ nr_socket_multi_tcp_stun_server_connect
 nr_socket
 *
 sock
+const
 nr_transport_addr
 *
 addr
