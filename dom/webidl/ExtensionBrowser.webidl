@@ -188,6 +188,11 @@ BinaryName
 "
 AcquireExtensionBrowser
 "
+BindingAlias
+=
+"
+chrome
+"
 Func
 =
 "
