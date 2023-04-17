@@ -637,10 +637,12 @@ nWrite
 1
 ;
 #
-endif
+else
 return
 false
 ;
+#
+endif
 }
 void
 mozilla
