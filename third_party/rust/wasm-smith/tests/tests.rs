@@ -67,6 +67,9 @@ true
 memory64
 :
 true
+exceptions
+:
+true
 .
 .
 WasmFeatures

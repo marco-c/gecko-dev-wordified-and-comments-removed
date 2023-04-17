@@ -53,6 +53,9 @@ mod
 tables
 ;
 mod
+tags
+;
+mod
 types
 ;
 pub
@@ -156,6 +159,13 @@ start
 pub
 use
 tables
+:
+:
+*
+;
+pub
+use
+tags
 :
 :
 *
@@ -553,6 +563,9 @@ Data
 DataCount
 =
 12
+Tag
+=
+13
 Module
 =
 14
