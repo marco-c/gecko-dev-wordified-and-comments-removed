@@ -1739,14 +1739,7 @@ imgLoader
 :
 SupportImageWithMimeType
 (
-PromiseFlatCString
-(
 aMimeType
-)
-.
-get
-(
-)
 AcceptedMimeTypes
 :
 :

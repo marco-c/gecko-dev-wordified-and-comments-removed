@@ -984,9 +984,8 @@ bool
 SupportImageWithMimeType
 (
 const
-char
-*
-aMimeType
+nsACString
+&
 AcceptedMimeTypes
 aAccept
 =

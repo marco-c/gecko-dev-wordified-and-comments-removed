@@ -49906,10 +49906,6 @@ imgLoader
 SupportImageWithMimeType
 (
 aMIMEType
-.
-get
-(
-)
 )
 )
 {

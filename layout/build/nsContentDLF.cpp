@@ -499,10 +499,6 @@ if
 IsImageContentType
 (
 type
-.
-get
-(
-)
 )
 )
 {
@@ -829,10 +825,6 @@ if
 IsImageContentType
 (
 contentType
-.
-get
-(
-)
 )
 )
 {
@@ -1488,8 +1480,8 @@ nsContentDLF
 IsImageContentType
 (
 const
-char
-*
+nsACString
+&
 aContentType
 )
 {

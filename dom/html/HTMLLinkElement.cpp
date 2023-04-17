@@ -3951,10 +3951,6 @@ NS_ConvertUTF16toUTF8
 (
 type
 )
-.
-get
-(
-)
 AcceptedMimeTypes
 :
 :

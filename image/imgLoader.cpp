@@ -12788,8 +12788,8 @@ imgLoader
 SupportImageWithMimeType
 (
 const
-char
-*
+nsACString
+&
 aMimeType
 AcceptedMimeTypes
 aAccept
