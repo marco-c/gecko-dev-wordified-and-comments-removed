@@ -1,0 +1,17 @@
+UNIFIED_SOURCES
++
+=
+[
+"
+NimbusFeatures_GetTest
+.
+cpp
+"
+]
+FINAL_LIBRARY
+=
+"
+xul
+-
+gtest
+"
