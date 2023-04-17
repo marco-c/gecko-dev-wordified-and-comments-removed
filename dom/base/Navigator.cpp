@@ -6519,10 +6519,6 @@ Navigator
 :
 MozGetUserMediaDevices
 (
-const
-MediaStreamConstraints
-&
-aConstraints
 MozGetUserMediaDevicesSuccessCallback
 &
 aOnSuccess
@@ -6646,7 +6642,6 @@ manager
 GetUserMediaDevices
 (
 window
-aConstraints
 aOnSuccess
 aInnerWindowID
 aCallID

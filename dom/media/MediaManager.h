@@ -1098,13 +1098,6 @@ GetUserMediaDevices
 nsPIDOMWindowInner
 *
 aWindow
-const
-dom
-:
-:
-MediaStreamConstraints
-&
-aConstraints
 dom
 :
 :
