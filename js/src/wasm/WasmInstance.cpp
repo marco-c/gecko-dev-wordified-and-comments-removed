@@ -7997,7 +7997,7 @@ empty
 {
 if
 (
-GcTypesAvailable
+GcAvailable
 (
 cx
 )

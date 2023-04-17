@@ -5586,7 +5586,7 @@ if
 !
 env
 .
-gcTypesEnabled
+gcEnabled
 (
 )
 )
@@ -9885,7 +9885,7 @@ if
 !
 env
 .
-gcTypesEnabled
+gcEnabled
 (
 )
 )
@@ -12688,7 +12688,7 @@ if
 env
 -
 >
-gcTypesEnabled
+gcEnabled
 (
 )
 )
@@ -13067,7 +13067,7 @@ if
 env
 -
 >
-gcTypesEnabled
+gcEnabled
 (
 )
 )
@@ -17256,7 +17256,7 @@ refType
 env
 -
 >
-gcTypesEnabled
+gcEnabled
 (
 )
 )

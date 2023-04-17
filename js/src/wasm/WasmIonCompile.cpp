@@ -29614,7 +29614,7 @@ moduleEnv
 (
 )
 .
-gcTypesEnabled
+gcEnabled
 (
 )
 )

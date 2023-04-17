@@ -83269,7 +83269,7 @@ if
 !
 moduleEnv_
 .
-gcTypesEnabled
+gcEnabled
 (
 )
 )
@@ -83381,7 +83381,7 @@ if
 !
 moduleEnv_
 .
-gcTypesEnabled
+gcEnabled
 (
 )
 )

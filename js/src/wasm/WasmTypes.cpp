@@ -5645,7 +5645,7 @@ if
 (
 features_
 .
-gcTypes
+gc
 )
 {
 if
@@ -6347,7 +6347,7 @@ if
 (
 features_
 .
-gcTypes
+gc
 )
 {
 if
