@@ -667,7 +667,7 @@ Fail
 bool
 isArray
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -686,7 +686,7 @@ QM_VOID
 failOnErr
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -718,7 +718,7 @@ toObject
 uint32_t
 length
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -768,7 +768,7 @@ value
 aCx
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -785,7 +785,7 @@ QM_VOID
 failOnErr
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -824,7 +824,7 @@ Response
 >
 response
 ;
-CACHE_TRY
+QM_TRY
 (
 (
 UNWRAP_OBJECT
@@ -838,7 +838,7 @@ QM_VOID
 failOnErr
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (

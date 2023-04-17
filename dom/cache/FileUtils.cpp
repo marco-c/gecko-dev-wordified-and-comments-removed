@@ -459,7 +459,7 @@ nsID
 aId
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 cacheDir
@@ -470,7 +470,7 @@ kMorgueDirectory
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 cacheDir
 -
@@ -537,7 +537,7 @@ nsIFile
 aBaseDir
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -592,7 +592,7 @@ nsIFile
 aBaseDir
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -605,7 +605,7 @@ kMorgueDirectory
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 RemoveNsIFileRecursively
 (
@@ -663,7 +663,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aCallback
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -698,7 +698,7 @@ generator
 nsID
 id
 ;
-CACHE_TRY
+QM_TRY
 (
 idGen
 -
@@ -710,7 +710,7 @@ id
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -725,7 +725,7 @@ BODY_FILE_FINAL
 )
 ;
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -739,7 +739,7 @@ Exists
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -753,7 +753,7 @@ NS_ERROR_FILE_ALREADY_EXISTS
 )
 ;
 }
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -767,7 +767,7 @@ BODY_FILE_TMP
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -823,7 +823,7 @@ nsISupports
 >
 copyContext
 ;
-CACHE_TRY
+QM_TRY
 (
 NS_AsyncCopy
 (
@@ -897,7 +897,7 @@ nsID
 aId
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -911,7 +911,7 @@ BODY_FILE_TMP
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -928,7 +928,7 @@ BODY_FILE_FINAL
 nsAutoString
 finalFileName
 ;
-CACHE_TRY
+QM_TRY
 (
 finalFile
 -
@@ -939,7 +939,7 @@ finalFileName
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 tmpFile
 -
@@ -981,7 +981,7 @@ nsID
 aId
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -995,7 +995,7 @@ BODY_FILE_FINAL
 )
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 CreateFileInputStream
 (
@@ -1077,7 +1077,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aPaddingSizeInOut
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1243,7 +1243,7 @@ id
 aIdList
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1286,7 +1286,7 @@ nsresult
 nsID
 fileId
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1378,7 +1378,7 @@ false
 ;
 }
 ;
-CACHE_TRY
+QM_TRY
 (
 BodyTraverseFiles
 (
@@ -1423,7 +1423,7 @@ BodyFileType
 aType
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 bodyFile
@@ -1485,7 +1485,7 @@ tmp
 )
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 bodyFile
 -
@@ -1629,7 +1629,7 @@ aPaddingSize
 0
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1658,7 +1658,7 @@ PADDING_FILE_NAME
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1681,7 +1681,7 @@ NS_NewObjectOutputStream
 outputStream
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 objectStream
 -
@@ -1716,7 +1716,7 @@ nsID
 aKnownBodyIdList
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1729,7 +1729,7 @@ kMorgueDirectory
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 quota
 :
@@ -1761,7 +1761,7 @@ Ok
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1851,7 +1851,7 @@ result
 nsID
 id
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1895,7 +1895,7 @@ false
 ;
 }
 ;
-CACHE_TRY
+QM_TRY
 (
 ToResult
 (
@@ -2026,7 +2026,7 @@ QuotaInfo
 aQuotaInfo
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 marker
@@ -2044,7 +2044,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 marker
 -
@@ -2075,7 +2075,7 @@ QuotaInfo
 aQuotaInfo
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2122,7 +2122,7 @@ QuotaInfo
 aQuotaInfo
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2169,7 +2169,7 @@ QuotaInfo
 aQuotaInfo
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2182,7 +2182,7 @@ aQuotaInfo
 false
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -2208,7 +2208,7 @@ bool
 aTrackQuota
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2231,7 +2231,7 @@ nsIFileKind
 :
 ExistsAsDirectory
 :
-CACHE_TRY
+QM_TRY
 (
 quota
 :
@@ -2262,7 +2262,7 @@ Ok
 nsresult
 >
 {
-CACHE_TRY
+QM_TRY
 (
 RemoveNsIFileRecursively
 (
@@ -2282,7 +2282,7 @@ Ok
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aFile
 .
@@ -2346,7 +2346,7 @@ if
 aTrackQuota
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2500,7 +2500,7 @@ DirPaddingFile
 aPaddingFileType
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2530,7 +2530,7 @@ PADDING_FILE_NAME
 false
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -2566,7 +2566,7 @@ TMP_FILE
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2582,7 +2582,7 @@ PADDING_FILE_NAME
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 stream
@@ -2592,7 +2592,7 @@ file
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2621,7 +2621,7 @@ NS_NewObjectInputStream
 bufferedStream
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -2658,7 +2658,7 @@ nsIFile
 aBaseDir
 )
 {
-CACHE_TRY
+QM_TRY
 (
 DirectoryPaddingWrite
 (
@@ -2729,7 +2729,7 @@ int64_t
 aBaseDir
 ]
 {
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 QM_OR_ELSE_WARN
 (
@@ -2765,7 +2765,7 @@ int64_t
 (
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -2797,7 +2797,7 @@ if
 directoryPaddingGetResult
 )
 {
-CACHE_TRY
+QM_TRY
 (
 DirectoryPaddingDeleteFile
 (
@@ -2809,7 +2809,7 @@ FILE
 )
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 db
 :
@@ -2903,7 +2903,7 @@ if
 shouldRevise
 )
 {
-CACHE_TRY
+QM_TRY
 (
 DirectoryPaddingDeleteFile
 (
@@ -2915,7 +2915,7 @@ FILE
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 currentPaddingSize
 db
@@ -2951,7 +2951,7 @@ lastPaddingSize
 =
 currentPaddingSize
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 currentPaddingSize
 db
@@ -2990,7 +2990,7 @@ currentPaddingSize
 0
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 DirectoryPaddingWrite
 (
@@ -3027,7 +3027,7 @@ TMP_FILE
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -3043,7 +3043,7 @@ PADDING_TMP_FILE_NAME
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 file
 -
@@ -3080,7 +3080,7 @@ bool
 aMustRestore
 )
 {
-CACHE_TRY
+QM_TRY
 (
 DirectoryPaddingDeleteFile
 (
@@ -3092,7 +3092,7 @@ FILE
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -3115,7 +3115,7 @@ paddingSize
 0
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 DirectoryPaddingWrite
 (
@@ -3145,7 +3145,7 @@ paddingSize
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 DirectoryPaddingDeleteFile
 (
@@ -3171,7 +3171,7 @@ DirPaddingFile
 aPaddingFileType
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto

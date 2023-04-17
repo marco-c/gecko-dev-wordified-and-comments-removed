@@ -301,7 +301,7 @@ aDecreaseSize
 temporaryPaddingFileExist
 )
 {
-CACHE_TRY
+QM_TRY
 (
 aCommitHook
 (
@@ -312,7 +312,7 @@ return
 NS_OK
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 UpdateDirectoryPaddingFile
 (
@@ -324,7 +324,7 @@ temporaryPaddingFileExist
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aCommitHook
 (

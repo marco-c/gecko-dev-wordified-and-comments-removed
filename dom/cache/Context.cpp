@@ -1670,7 +1670,7 @@ MOZ_DIAGNOSTIC_ASSERT
 quotaManager
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -1680,7 +1680,7 @@ EnsureStorageIsInitialized
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -1690,7 +1690,7 @@ EnsureTemporaryStorageIsInitialized
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 mQuotaInfo
 .

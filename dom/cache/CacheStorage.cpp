@@ -522,7 +522,7 @@ return
 true
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -601,7 +601,7 @@ authPos
 int32_t
 authLen
 ;
-CACHE_TRY
+QM_TRY
 (
 urlParser
 -
@@ -698,7 +698,7 @@ hostPos
 int32_t
 hostLen
 ;
-CACHE_TRY
+QM_TRY
 (
 urlParser
 -
@@ -785,7 +785,7 @@ NS_IsMainThread
 PrincipalInfo
 principalInfo
 ;
-CACHE_TRY
+QM_TRY
 (
 PrincipalToPrincipalInfo
 (
@@ -814,7 +814,7 @@ rv
 }
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1104,7 +1104,7 @@ GetEffectiveStoragePrincipalInfo
 (
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
