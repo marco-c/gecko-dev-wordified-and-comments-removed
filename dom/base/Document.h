@@ -1369,6 +1369,12 @@ NOT_ONLY_TOPLEVEL_IN_BCG
 <
 <
 12
+ABOUT_PAGE
+=
+1
+<
+<
+13
 }
 ;
 }

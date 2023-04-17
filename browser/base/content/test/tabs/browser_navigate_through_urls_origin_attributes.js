@@ -410,11 +410,6 @@ privatePage
 await
 openURIInPrivateTab
 (
-"
-about
-:
-blank
-"
 )
 ;
 gPrevRemoteTypePrivateTab
