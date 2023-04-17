@@ -30,9 +30,6 @@ ShutdownPhase_Length
 First
 =
 AppShutdownConfirmed
-Last
-=
-XPCOMShutdownFinal
 }
 ;
 }
