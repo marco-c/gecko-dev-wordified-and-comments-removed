@@ -1654,12 +1654,6 @@ title
 Corrupted
 Content
 Error
-remoteXUL
--
-title
-=
-Remote
-XUL
 sslv3Used
 -
 title
