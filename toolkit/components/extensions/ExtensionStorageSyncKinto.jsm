@@ -11,6 +11,9 @@ EXPORTED_SYMBOLS
 ExtensionStorageSync
 "
 "
+KintoStorageTestUtils
+"
+"
 extensionStorageSync
 "
 ]
@@ -5296,4 +5299,17 @@ ExtensionStorageSync
 (
 _fxaService
 )
+;
+const
+KintoStorageTestUtils
+=
+{
+CollectionKeyEncryptionRemoteTransformer
+CryptoCollection
+EncryptionRemoteTransformer
+KeyRingEncryptionRemoteTransformer
+cleanUpForContext
+idToKey
+keyToId
+}
 ;
