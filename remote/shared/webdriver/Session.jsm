@@ -545,7 +545,6 @@ module
 commandName
 :
 command
-params
 destination
 :
 {
@@ -555,6 +554,7 @@ RootMessageHandler
 .
 type
 }
+params
 }
 )
 ;
