@@ -201,6 +201,15 @@ end
 ;
 }
 #
+commonDialog
+:
+not
+(
+[
+subdialog
+]
+)
+#
 infoTitle
 {
 font
