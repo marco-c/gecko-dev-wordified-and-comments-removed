@@ -4348,17 +4348,6 @@ agrFrame
 isAsync
 )
 ;
-mFrameToAnimatedGeometryRootMap
-.
-InsertOrUpdate
-(
-aFrame
-RefPtr
-{
-result
-}
-)
-;
 return
 result
 ;
