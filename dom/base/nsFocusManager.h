@@ -79,14 +79,6 @@ h
 "
 #
 define
-FOCUSMETHOD_MASK
-0xF000
-#
-define
-FOCUSMETHODANDRING_MASK
-0xF0F000
-#
-define
 FOCUSMANAGER_CONTRACTID
 "
 mozilla
@@ -1200,8 +1192,6 @@ aDocument
 nsISupports
 *
 aTarget
-uint32_t
-aFocusMethod
 bool
 aWindowRaised
 bool
