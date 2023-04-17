@@ -1128,7 +1128,7 @@ sHTMLMarkupMapList
 #
 include
 "
-MarkupMap
+HTMLMarkupMap
 .
 h
 "
