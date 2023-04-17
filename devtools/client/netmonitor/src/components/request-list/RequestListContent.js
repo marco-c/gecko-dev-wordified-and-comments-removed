@@ -1036,6 +1036,17 @@ this
 onResize
 )
 ;
+if
+(
+this
+.
+intersectionObserver
+!
+=
+=
+null
+)
+{
 this
 .
 intersectionObserver
@@ -1050,6 +1061,7 @@ intersectionObserver
 =
 null
 ;
+}
 }
 onResize
 (
