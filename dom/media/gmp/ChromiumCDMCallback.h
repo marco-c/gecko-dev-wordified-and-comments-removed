@@ -209,6 +209,14 @@ aSessionId
 ;
 virtual
 void
+QueryOutputProtectionStatus
+(
+)
+=
+0
+;
+virtual
+void
 Terminated
 (
 )
