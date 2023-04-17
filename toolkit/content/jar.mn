@@ -293,15 +293,6 @@ global
 plugins
 .
 js
-content
-/
-global
-/
-browser
--
-child
-.
-js
 *
 content
 /

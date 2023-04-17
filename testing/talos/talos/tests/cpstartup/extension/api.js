@@ -44,7 +44,7 @@ CPStartup
 Go
 "
 "
-Content
+CPStartup
 :
 BrowserChildReady
 "
@@ -273,7 +273,7 @@ break
 }
 case
 "
-Content
+CPStartup
 :
 BrowserChildReady
 "
