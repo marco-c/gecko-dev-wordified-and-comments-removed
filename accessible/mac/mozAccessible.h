@@ -566,13 +566,6 @@ moxSelected
 ;
 -
 (
-NSValue
-*
-)
-moxFrame
-;
--
-(
 NSString
 *
 )
