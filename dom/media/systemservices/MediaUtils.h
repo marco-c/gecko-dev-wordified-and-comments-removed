@@ -574,6 +574,7 @@ mName
 }
 ;
 namespace
+anon_media_utils
 {
 class
 RefCountedTicket
@@ -585,6 +586,9 @@ final
 {
 RefPtr
 <
+anon_media_utils
+:
+:
 RefCountedTicket
 >
 mTicket

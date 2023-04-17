@@ -141,6 +141,7 @@ ShutdownBlocker
 nsIAsyncShutdownBlocker
 )
 namespace
+anon_media_utils
 {
 class
 MediaEventBlocker
@@ -394,6 +395,9 @@ mTicket
 (
 MakeAndAddRef
 <
+anon_media_utils
+:
+:
 RefCountedTicket
 >
 (
