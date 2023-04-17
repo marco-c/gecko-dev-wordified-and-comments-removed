@@ -647,11 +647,6 @@ mRasterizeLocally
 aParams
 .
 mRasterizeLocally
-|
-|
-aParentSC
-.
-mRasterizeLocally
 )
 {
 MOZ_ASSERT
