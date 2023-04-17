@@ -52,6 +52,7 @@ nsString
 aDesc
 )
 const
+override
 ;
 void
 Attributes
