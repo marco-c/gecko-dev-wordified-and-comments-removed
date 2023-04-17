@@ -1344,6 +1344,11 @@ SyncStateFromParentWindow
 (
 )
 ;
+void
+UpdateBackgroundState
+(
+)
+;
 mozilla
 :
 :
