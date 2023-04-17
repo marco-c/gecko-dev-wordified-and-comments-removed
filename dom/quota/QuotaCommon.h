@@ -2658,7 +2658,7 @@ QM_OR_ELSE_REPORT
 (
 severity
 expr
-orElseFunc
+fallback
 )
 \
 (
@@ -2710,7 +2710,7 @@ severity
 ;
 \
 return
-orElseFunc
+fallback
 (
 firstRes
 )
