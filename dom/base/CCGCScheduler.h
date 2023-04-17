@@ -605,6 +605,11 @@ GCReason
 NO_REASON
 )
 {
+mReadyForMajorGC
+=
+true
+;
+}
 mMajorGCReason
 =
 JS
@@ -615,11 +620,6 @@ GCReason
 :
 INTER_SLICE_GC
 ;
-mReadyForMajorGC
-=
-true
-;
-}
 }
 void
 BlockCC
@@ -1148,8 +1148,6 @@ mCleanupsSinceLastGC
 =
 UINT32_MAX
 ;
-public
-:
 JS
 :
 :
@@ -1164,6 +1162,8 @@ GCReason
 :
 NO_REASON
 ;
+public
+:
 uint32_t
 mCCollectedWaitingForGC
 =
