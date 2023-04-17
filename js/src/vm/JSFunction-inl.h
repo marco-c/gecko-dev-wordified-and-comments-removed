@@ -398,14 +398,11 @@ nobj
 fun
 -
 >
-initializeSlotRange
+initFixedSlots
 (
-0
-shape
--
->
-slotSpan
+JSCLASS_RESERVED_SLOTS
 (
+clasp
 )
 )
 ;

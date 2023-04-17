@@ -330,9 +330,8 @@ slotSpan
 aobj
 -
 >
-initializeSlotRange
+initDynamicSlots
 (
-0
 slotSpan
 )
 ;
