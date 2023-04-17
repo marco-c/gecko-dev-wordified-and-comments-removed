@@ -19063,6 +19063,7 @@ mCORSMode
 )
 {
 auto
+*
 decoder
 =
 static_cast
