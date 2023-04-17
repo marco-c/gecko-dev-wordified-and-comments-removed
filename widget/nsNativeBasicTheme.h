@@ -1403,15 +1403,6 @@ aMeterState
 UseSystemColors
 )
 ;
-sRGBColor
-ComputeMenulistArrowButtonColor
-(
-const
-EventStates
-&
-UseSystemColors
-)
-;
 std
 :
 :
