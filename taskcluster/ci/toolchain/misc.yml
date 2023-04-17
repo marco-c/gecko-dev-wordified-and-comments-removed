@@ -520,13 +520,11 @@ clang
 -
 11
 -
+linux64
+-
+toolchain
+-
 sysroot
--
-x86_64
--
-linux
--
-gnu
 linux64
 -
 mar
