@@ -12275,6 +12275,9 @@ task
 =
 >
 {
+let
+urlQueryStrippingListService
+=
 Cc
 [
 "
@@ -12299,6 +12302,12 @@ getService
 Ci
 .
 nsIURLQueryStrippingListService
+)
+;
+urlQueryStrippingListService
+.
+init
+(
 )
 ;
 }

@@ -66,6 +66,9 @@ PREF_STRIP_ENABLED
 )
 )
 {
+let
+urlQueryStrippingListService
+=
 Cc
 [
 "
@@ -90,6 +93,12 @@ getService
 Ci
 .
 nsIURLQueryStrippingListService
+)
+;
+urlQueryStrippingListService
+.
+init
+(
 )
 ;
 }
@@ -134,6 +143,9 @@ PREF_STRIP_ENABLED
 )
 )
 {
+let
+urlQueryStrippingListService
+=
 Cc
 [
 "
@@ -158,6 +170,12 @@ getService
 Ci
 .
 nsIURLQueryStrippingListService
+)
+;
+urlQueryStrippingListService
+.
+init
+(
 )
 ;
 Services
