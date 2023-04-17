@@ -1034,7 +1034,7 @@ istream
 available
 (
 )
-960
+955
 )
 ;
 referenceBytes
@@ -1133,7 +1133,7 @@ istream
 available
 (
 )
-3123
+3026
 )
 ;
 referenceBytes
@@ -1322,7 +1322,7 @@ istream
 available
 (
 )
-2113
+2280
 )
 ;
 referenceBytes
@@ -1404,7 +1404,7 @@ istream
 available
 (
 )
-315
+520
 )
 ;
 referenceBytes
