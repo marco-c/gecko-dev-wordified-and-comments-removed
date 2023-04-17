@@ -9847,13 +9847,15 @@ mDomSelections
 index
 ]
 ;
-return
 selection
 -
 >
 NotifySelectionListeners
 (
 )
+;
+return
+NS_OK
 ;
 }
 return

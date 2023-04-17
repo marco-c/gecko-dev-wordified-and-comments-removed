@@ -522,7 +522,7 @@ RemoveCollapsedRanges
 (
 )
 ;
-nsresult
+void
 Clear
 (
 nsPresContext
@@ -2314,7 +2314,7 @@ get
 ;
 }
 MOZ_CAN_RUN_SCRIPT
-nsresult
+void
 NotifySelectionListeners
 (
 bool
@@ -2322,7 +2322,7 @@ aCalledByJS
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-nsresult
+void
 NotifySelectionListeners
 (
 )
