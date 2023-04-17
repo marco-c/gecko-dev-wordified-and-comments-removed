@@ -1551,6 +1551,10 @@ INT_CONSTANT
 (
 ERANGE
 )
+INT_CONSTANT
+(
+ENOSYS
+)
 #
 if
 defined
