@@ -2741,6 +2741,16 @@ src
 ]
         
 [
+rust
+]
+        
+ignore
+-
+git
+=
+false
+        
+[
 install
 ]
         

@@ -3493,6 +3493,13 @@ fetch
 type
 :
 git
+include
+-
+dot
+-
+git
+:
+true
 repo
 :
 https
