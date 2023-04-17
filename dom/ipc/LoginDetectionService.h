@@ -101,8 +101,6 @@ private
 LoginDetectionService
 (
 )
-=
-default
 ;
 virtual
 ~
@@ -130,6 +128,9 @@ nsCOMPtr
 nsIObserverService
 >
 mObs
+;
+bool
+mIsLoginsLoaded
 ;
 }
 ;
