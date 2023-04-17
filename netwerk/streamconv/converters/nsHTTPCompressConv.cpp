@@ -96,6 +96,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtrExtensions
+.
+h
+"
+#
+include
+"
 state
 .
 h
