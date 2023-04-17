@@ -158,6 +158,12 @@ kIgnoreUnresponsive
 <
 <
 1
+kIgnoreCurrentProcessWindows
+=
+1
+<
+<
+2
 }
 ;
 bool
@@ -273,6 +279,8 @@ DesktopCapturer
 SourceList
 *
 results
+bool
+enumerate_current_process_windows
 )
 ;
 private

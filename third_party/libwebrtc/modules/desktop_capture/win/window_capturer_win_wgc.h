@@ -57,6 +57,8 @@ public
 :
 WindowCapturerWinWgc
 (
+bool
+enumerate_current_process_windows
 )
 ;
 WindowCapturerWinWgc
@@ -149,6 +151,9 @@ nullptr
 ;
 WindowCaptureHelperWin
 window_capture_helper_
+;
+bool
+enumerate_current_process_windows_
 ;
 }
 ;

@@ -76,8 +76,11 @@ DesktopCapturer
 {
 public
 :
+explicit
 WindowCapturerWinGdi
 (
+bool
+enumerate_current_process_windows
 )
 ;
 WindowCapturerWinGdi
@@ -213,6 +216,9 @@ previous_size_
 ;
 WindowCaptureHelperWin
 window_capture_helper_
+;
+bool
+enumerate_current_process_windows_
 ;
 std
 :

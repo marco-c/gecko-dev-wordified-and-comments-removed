@@ -389,6 +389,13 @@ WindowCapturerWinGdi
 :
 WindowCapturerWinGdi
 (
+bool
+enumerate_current_process_windows
+)
+:
+enumerate_current_process_windows_
+(
+enumerate_current_process_windows
 )
 {
 }
@@ -420,6 +427,7 @@ window_capture_helper_
 EnumerateCapturableWindows
 (
 sources
+enumerate_current_process_windows_
 )
 )
 return
@@ -1575,6 +1583,7 @@ make_unique
 WindowCapturerWinGdi
 >
 (
+enumerate_current_process_windows_
 )
 ;
 }
@@ -1745,6 +1754,11 @@ DesktopCapturer
 new
 WindowCapturerWinGdi
 (
+options
+.
+enumerate_current_process_windows
+(
+)
 )
 )
 ;
