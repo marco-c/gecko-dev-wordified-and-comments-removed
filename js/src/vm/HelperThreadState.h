@@ -514,6 +514,11 @@ dispatchTaskCallback
 =
 nullptr
 ;
+size_t
+externalTasksPending_
+=
+0
+;
 bool
 isInitialized_
 =
@@ -1907,6 +1912,14 @@ runTaskLocked
 HelperThreadTask
 *
 task
+AutoLockHelperThreadState
+&
+lock
+)
+;
+void
+runTaskFromExternalThread
+(
 AutoLockHelperThreadState
 &
 lock
