@@ -2384,6 +2384,15 @@ playback
 hfr
 :
 3600
+youtube
+-
+playback
+-
+widevine
+.
+*
+:
+3600
 default
 :
 by
