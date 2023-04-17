@@ -3478,6 +3478,10 @@ cur_ref
 =
 vcs
 .
+branch
+or
+vcs
+.
 head_ref
 [
 :
