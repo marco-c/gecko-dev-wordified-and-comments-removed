@@ -464,6 +464,9 @@ to
 make
 changes
 .
+.
+/
+mach
 npm
 install
 echo
