@@ -351,11 +351,6 @@ virtual
 void
 BeginCycleCollectionCallback
 (
-mozilla
-:
-:
-CCReason
-aReason
 )
 override
 {
@@ -417,10 +412,6 @@ GetContext
 {
 nsCycleCollector_collect
 (
-CCReason
-:
-:
-GC_FINISHED
 nullptr
 )
 ;
