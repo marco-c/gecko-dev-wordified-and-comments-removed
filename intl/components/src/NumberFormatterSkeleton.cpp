@@ -422,7 +422,7 @@ currencyDisplay
 NumberFormatOptions
 :
 :
-CurrencyDisplayStyle
+CurrencyDisplay
 display
 )
 {
@@ -435,7 +435,7 @@ case
 NumberFormatOptions
 :
 :
-CurrencyDisplayStyle
+CurrencyDisplay
 :
 :
 Code
@@ -461,7 +461,7 @@ case
 NumberFormatOptions
 :
 :
-CurrencyDisplayStyle
+CurrencyDisplay
 :
 :
 Name
@@ -487,7 +487,7 @@ case
 NumberFormatOptions
 :
 :
-CurrencyDisplayStyle
+CurrencyDisplay
 :
 :
 Symbol
@@ -501,7 +501,7 @@ case
 NumberFormatOptions
 :
 :
-CurrencyDisplayStyle
+CurrencyDisplay
 :
 :
 NarrowSymbol

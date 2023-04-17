@@ -121,7 +121,7 @@ NumberFormatOptions
 {
 enum
 class
-CurrencyDisplayStyle
+CurrencyDisplay
 {
 Symbol
 Code
@@ -140,7 +140,7 @@ std
 :
 :
 string_view
-CurrencyDisplayStyle
+CurrencyDisplay
 >
 >
 mCurrency
