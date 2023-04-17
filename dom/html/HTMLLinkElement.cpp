@@ -907,13 +907,8 @@ nullptr
 if
 (
 !
-nsContentUtils
-:
-:
 HasNonEmptyAttr
 (
-this
-kNameSpaceID_None
 nsGkAtoms
 :
 :
