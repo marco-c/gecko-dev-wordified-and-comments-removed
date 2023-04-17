@@ -869,7 +869,7 @@ SPSCData
 >
 mSPSCQueue
 {
-20
+40
 }
 ;
 AudioSegment
