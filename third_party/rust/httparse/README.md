@@ -349,7 +349,7 @@ LICENSE
 APACHE
 )
 or
-http
+https
 :
 /
 /
@@ -380,7 +380,7 @@ LICENSE
 MIT
 )
 or
-http
+https
 :
 /
 /
