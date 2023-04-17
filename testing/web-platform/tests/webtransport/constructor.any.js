@@ -1,13 +1,4 @@
 const
-HOST
-=
-get_host_info
-(
-)
-.
-ORIGINAL_HOST
-;
-const
 BAD_URLS
 =
 [
@@ -162,7 +153,9 @@ ready
 '
 ready
 promise
-rejects
+should
+be
+rejected
 '
 )
 promise_rejects_js
@@ -175,7 +168,9 @@ closed
 '
 closed
 promise
-rejects
+should
+be
+rejected
 '
 )
 ]
@@ -183,7 +178,7 @@ rejects
 ;
 }
 '
-connection
+Connection
 to
 port
 0

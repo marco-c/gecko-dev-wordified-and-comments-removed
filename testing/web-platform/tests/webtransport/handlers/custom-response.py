@@ -12,13 +12,13 @@ request_headers
 response_headers
 )
 :
-  
+    
 for
 data
 in
 request_headers
 :
-    
+        
 if
 data
 [
@@ -32,7 +32,7 @@ b
 path
 '
 :
-      
+            
 path
 =
 data
@@ -48,7 +48,7 @@ utf
 8
 '
 )
-      
+            
 qs
 =
 dict
@@ -63,7 +63,7 @@ path
 query
 )
 )
-      
+            
 for
 key
 value
@@ -74,7 +74,7 @@ items
 (
 )
 :
-        
+                
 response_headers
 .
 append
@@ -102,7 +102,7 @@ utf
 )
 )
 )
-      
+            
 break
-  
+    
 return
