@@ -926,7 +926,7 @@ process
 -
 type
 -
-browser
+default
 "
 "
 The
