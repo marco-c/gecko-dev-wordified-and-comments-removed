@@ -1857,8 +1857,6 @@ already_validated
 =
 0
 {
-&
-mut
 (
 handle
 .
@@ -2769,8 +2767,6 @@ valid_up_to
 =
 0
 {
-&
-mut
 (
 handle
 .
