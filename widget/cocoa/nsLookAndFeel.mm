@@ -917,12 +917,6 @@ case
 ColorID
 :
 :
-TextForeground
-:
-case
-ColorID
-:
-:
 Captiontext
 :
 case
