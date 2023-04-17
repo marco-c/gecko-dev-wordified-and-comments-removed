@@ -121,16 +121,6 @@ mNSResult
 }
 ;
 }
-operator
-nsresult
-(
-)
-const
-{
-return
-mNSResult
-;
-}
 private
 :
 QMResult
