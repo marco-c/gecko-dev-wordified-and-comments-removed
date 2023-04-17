@@ -2576,6 +2576,7 @@ GetNextGCRunnerAction
 TimeStamp
 aDeadline
 )
+const
 {
 MOZ_ASSERT
 (

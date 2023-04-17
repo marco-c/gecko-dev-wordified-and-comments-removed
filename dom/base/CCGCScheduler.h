@@ -1218,6 +1218,7 @@ GetNextGCRunnerAction
 TimeStamp
 aDeadline
 )
+const
 ;
 CCRunnerStep
 AdvanceCCRunner
