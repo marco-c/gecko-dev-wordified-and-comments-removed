@@ -1982,12 +1982,12 @@ aInfo
 >
 mOffset
 )
-mLoadingCurrentActiveEntry
+mLoadingCurrentEntry
 (
 aInfo
 -
 >
-mLoadingCurrentActiveEntry
+mLoadingCurrentEntry
 )
 {
 MOZ_ASSERT
@@ -8274,7 +8274,7 @@ aMsg
 aActor
 aParam
 .
-mLoadingCurrentActiveEntry
+mLoadingCurrentEntry
 )
 ;
 WriteIPDLParam
@@ -8388,7 +8388,7 @@ aActor
 aResult
 -
 >
-mLoadingCurrentActiveEntry
+mLoadingCurrentEntry
 )
 |
 |

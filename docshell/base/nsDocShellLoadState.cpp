@@ -2848,7 +2848,7 @@ SetLoadIsFromSessionHistory
 int32_t
 aOffset
 bool
-aLoadingFromActiveEntry
+aLoadingCurrentEntry
 )
 {
 if
@@ -2873,9 +2873,9 @@ aOffset
 mLoadingSessionHistoryInfo
 -
 >
-mLoadingCurrentActiveEntry
+mLoadingCurrentEntry
 =
-aLoadingFromActiveEntry
+aLoadingCurrentEntry
 ;
 }
 }
