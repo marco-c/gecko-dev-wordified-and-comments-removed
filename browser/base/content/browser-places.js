@@ -2486,6 +2486,7 @@ promiseNodeLikeFromFetchInfo
 bm
 )
 ;
+await
 PlacesUIUtils
 .
 showBookmarkDialog
@@ -2537,6 +2538,7 @@ parentGuid
 }
 )
 ;
+await
 PlacesUIUtils
 .
 showBookmarkDialog

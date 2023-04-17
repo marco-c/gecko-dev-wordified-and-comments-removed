@@ -3024,6 +3024,7 @@ NS_ERROR_NOT_AVAILABLE
 let
 bookmarkGuid
 =
+await
 PlacesUIUtils
 .
 showBookmarkDialog
