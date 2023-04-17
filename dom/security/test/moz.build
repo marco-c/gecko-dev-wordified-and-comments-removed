@@ -178,6 +178,15 @@ browser
 ini
 "
 "
+referrer
+-
+policy
+/
+browser
+.
+ini
+"
+"
 sec
 -
 fetch
