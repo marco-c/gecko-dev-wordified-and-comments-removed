@@ -821,6 +821,15 @@ if
 isFissionEnabled
 (
 )
+|
+|
+targetCommand
+.
+targetFront
+.
+targetForm
+.
+followWindowGlobalLifeCycle
 )
 {
 is
