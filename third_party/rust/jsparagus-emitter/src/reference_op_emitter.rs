@@ -1579,9 +1579,8 @@ emitter
 .
 emit
 .
-g_implicit_this
+undefined
 (
-name_index
 )
 ;
 }
@@ -1605,9 +1604,8 @@ emitter
 .
 emit
 .
-g_implicit_this
+undefined
 (
-name_index
 )
 ;
 }
