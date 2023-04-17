@@ -524,6 +524,15 @@ name
 haxe
 "
 }
+http
+:
+{
+name
+:
+"
+http
+"
+}
 html
 :
 {
