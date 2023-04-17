@@ -112,7 +112,6 @@ cacheService
 diskCacheStorage
 (
 loadContext
-false
 )
 ;
 this

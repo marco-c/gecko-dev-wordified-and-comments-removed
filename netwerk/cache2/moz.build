@@ -178,11 +178,6 @@ CacheStorageService
 .
 cpp
 "
-"
-OldWrappers
-.
-cpp
-"
 ]
 LOCAL_INCLUDES
 +

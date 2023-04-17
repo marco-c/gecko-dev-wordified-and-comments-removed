@@ -2753,7 +2753,6 @@ mCacheStorageService
 DiskCacheStorage
 (
 lci
-false
 getter_AddRefs
 (
 cacheDiskStorage
@@ -3571,7 +3570,6 @@ mCacheStorageService
 DiskCacheStorage
 (
 lci
-false
 getter_AddRefs
 (
 cacheDiskStorage
@@ -6775,7 +6773,6 @@ mCacheStorageService
 DiskCacheStorage
 (
 lci
-false
 getter_AddRefs
 (
 cacheDiskStorage
@@ -9279,7 +9276,6 @@ mCacheStorageService
 DiskCacheStorage
 (
 aInfo
-false
 getter_AddRefs
 (
 cacheDiskStorage
@@ -9477,7 +9473,6 @@ infosToVisit
 [
 i
 ]
-false
 getter_AddRefs
 (
 cacheDiskStorage
@@ -11374,7 +11369,6 @@ mCacheStorageService
 DiskCacheStorage
 (
 lci
-false
 getter_AddRefs
 (
 cacheDiskStorage

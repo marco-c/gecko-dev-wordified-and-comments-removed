@@ -16488,7 +16488,6 @@ cacheStorageService
 DiskCacheStorage
 (
 info
-false
 getter_AddRefs
 (
 cacheStorage
@@ -21356,7 +21355,6 @@ cacheStorageService
 DiskCacheStorage
 (
 info
-false
 getter_AddRefs
 (
 cacheStorage
@@ -39058,7 +39056,6 @@ cacheStorageService
 DiskCacheStorage
 (
 info
-false
 getter_AddRefs
 (
 cacheStorage

@@ -332,7 +332,6 @@ cache2
 diskCacheStorage
 (
 loadContextInfo
-false
 )
 ;
 storage

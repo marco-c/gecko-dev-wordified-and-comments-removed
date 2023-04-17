@@ -1151,7 +1151,6 @@ cacheService
 DiskCacheStorage
 (
 loadInfo
-false
 getter_AddRefs
 (
 cacheStorage

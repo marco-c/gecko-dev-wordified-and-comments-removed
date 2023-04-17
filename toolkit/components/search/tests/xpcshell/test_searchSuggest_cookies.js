@@ -107,7 +107,6 @@ Services
 loadContextInfo
 .
 default
-false
 )
 ;
 storage

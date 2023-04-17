@@ -202,7 +202,6 @@ Services
 loadContextInfo
 .
 default
-false
 )
 ;
 storage
@@ -301,7 +300,6 @@ svc
 diskCacheStorage
 (
 lci
-false
 )
 ;
 case
