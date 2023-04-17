@@ -118,6 +118,11 @@ jsmScope
 const
 debuggerSandbox
 =
+(
+exports
+.
+internalSandbox
+=
 Cu
 .
 Sandbox
@@ -192,6 +197,7 @@ XMLHttpRequest
 "
 ]
 }
+)
 )
 ;
 const
