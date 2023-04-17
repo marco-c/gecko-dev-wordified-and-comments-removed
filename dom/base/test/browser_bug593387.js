@@ -35,6 +35,16 @@ skip_about_page_has_csp_assert
 "
 true
 ]
+[
+"
+dom
+.
+security
+.
+https_first
+"
+false
+]
 ]
 }
 )

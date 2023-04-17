@@ -7,7 +7,7 @@ const
 gHttpTestRoot
 =
 "
-http
+https
 :
 /
 /
