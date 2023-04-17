@@ -899,6 +899,10 @@ IsMetaRefresh
 nsIURI
 UnstrippedURI
 ;
+nsCString
+?
+RemoteTypeOverride
+;
 }
 ;
 struct
