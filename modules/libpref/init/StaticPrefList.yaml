@@ -3761,7 +3761,7 @@ type
 AtomicFloat
 value
 :
-400
+200
 mirror
 :
 always
@@ -3780,7 +3780,7 @@ value
 :
 1
 .
-2
+1
 mirror
 :
 always
