@@ -5138,12 +5138,6 @@ ctx
 GetSharedWebrtcState
 (
 )
-ctx
--
->
-GetTrials
-(
-)
 &
 transceiverImpl
 )

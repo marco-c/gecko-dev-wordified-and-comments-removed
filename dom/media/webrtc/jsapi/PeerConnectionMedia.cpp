@@ -3587,12 +3587,6 @@ aSendTrack
 SharedWebrtcState
 *
 aSharedWebrtcState
-webrtc
-:
-:
-WebRtcKeyValueConfig
-*
-aTrials
 RefPtr
 <
 TransceiverImpl
@@ -3642,7 +3636,6 @@ __FILE__
 __LINE__
 )
 aSharedWebrtcState
-aTrials
 )
 ;
 }
