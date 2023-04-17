@@ -2792,7 +2792,7 @@ GLuint
 *
 shaders
 GLenum
-binaryFormat
+binaryformat
 const
 void
 *
@@ -4791,7 +4791,7 @@ GLuint
 *
 shaders
 GLenum
-binaryFormat
+binaryformat
 const
 void
 *
@@ -8089,7 +8089,7 @@ sync
 GLenum
 pname
 GLsizei
-count
+bufSize
 GLsizei
 *
 length
@@ -8517,7 +8517,7 @@ internalformat
 GLenum
 pname
 GLsizei
-count
+bufSize
 GLint
 *
 params
@@ -9710,7 +9710,7 @@ sync
 GLenum
 pname
 GLsizei
-count
+bufSize
 GLsizei
 *
 length
@@ -10084,7 +10084,7 @@ internalformat
 GLenum
 pname
 GLsizei
-count
+bufSize
 GLint
 *
 params

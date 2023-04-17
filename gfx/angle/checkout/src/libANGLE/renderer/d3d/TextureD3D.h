@@ -830,13 +830,6 @@ gl
 Buffer
 *
 unpackBuffer
-const
-gl
-:
-:
-PixelUnpackState
-&
-unpack
 GLenum
 sizedInternalFormat
 )

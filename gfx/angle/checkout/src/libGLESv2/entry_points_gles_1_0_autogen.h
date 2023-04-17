@@ -20,15 +20,13 @@ export
 .
 h
 >
-extern
-"
-C
-"
+namespace
+gl
 {
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_AlphaFunc
+AlphaFunc
 (
 GLenum
 func
@@ -39,7 +37,7 @@ ref
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_AlphaFuncx
+AlphaFuncx
 (
 GLenum
 func
@@ -50,7 +48,7 @@ ref
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ClearColorx
+ClearColorx
 (
 GLfixed
 red
@@ -65,7 +63,7 @@ alpha
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ClearDepthx
+ClearDepthx
 (
 GLfixed
 depth
@@ -74,7 +72,7 @@ depth
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ClientActiveTexture
+ClientActiveTexture
 (
 GLenum
 texture
@@ -83,7 +81,7 @@ texture
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ClipPlanef
+ClipPlanef
 (
 GLenum
 p
@@ -96,7 +94,7 @@ eqn
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ClipPlanex
+ClipPlanex
 (
 GLenum
 plane
@@ -109,7 +107,7 @@ equation
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Color4f
+Color4f
 (
 GLfloat
 red
@@ -124,7 +122,7 @@ alpha
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Color4ub
+Color4ub
 (
 GLubyte
 red
@@ -139,7 +137,7 @@ alpha
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Color4x
+Color4x
 (
 GLfixed
 red
@@ -154,7 +152,7 @@ alpha
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ColorPointer
+ColorPointer
 (
 GLint
 size
@@ -171,7 +169,7 @@ pointer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_DepthRangex
+DepthRangex
 (
 GLfixed
 n
@@ -182,7 +180,7 @@ f
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_DisableClientState
+DisableClientState
 (
 GLenum
 array
@@ -191,7 +189,7 @@ array
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_EnableClientState
+EnableClientState
 (
 GLenum
 array
@@ -200,7 +198,7 @@ array
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Fogf
+Fogf
 (
 GLenum
 pname
@@ -211,7 +209,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Fogfv
+Fogfv
 (
 GLenum
 pname
@@ -224,7 +222,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Fogx
+Fogx
 (
 GLenum
 pname
@@ -235,7 +233,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Fogxv
+Fogxv
 (
 GLenum
 pname
@@ -248,7 +246,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Frustumf
+Frustumf
 (
 GLfloat
 l
@@ -267,7 +265,7 @@ f
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Frustumx
+Frustumx
 (
 GLfixed
 l
@@ -286,7 +284,7 @@ f
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetClipPlanef
+GetClipPlanef
 (
 GLenum
 plane
@@ -298,7 +296,7 @@ equation
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetClipPlanex
+GetClipPlanex
 (
 GLenum
 plane
@@ -310,7 +308,7 @@ equation
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetFixedv
+GetFixedv
 (
 GLenum
 pname
@@ -322,7 +320,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetLightfv
+GetLightfv
 (
 GLenum
 light
@@ -336,7 +334,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetLightxv
+GetLightxv
 (
 GLenum
 light
@@ -350,7 +348,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetMaterialfv
+GetMaterialfv
 (
 GLenum
 face
@@ -364,7 +362,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetMaterialxv
+GetMaterialxv
 (
 GLenum
 face
@@ -378,7 +376,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetTexEnvfv
+GetTexEnvfv
 (
 GLenum
 target
@@ -392,7 +390,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetTexEnviv
+GetTexEnviv
 (
 GLenum
 target
@@ -406,7 +404,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetTexEnvxv
+GetTexEnvxv
 (
 GLenum
 target
@@ -420,7 +418,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetTexParameterxv
+GetTexParameterxv
 (
 GLenum
 target
@@ -434,7 +432,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_LightModelf
+LightModelf
 (
 GLenum
 pname
@@ -445,7 +443,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_LightModelfv
+LightModelfv
 (
 GLenum
 pname
@@ -458,7 +456,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_LightModelx
+LightModelx
 (
 GLenum
 pname
@@ -469,7 +467,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_LightModelxv
+LightModelxv
 (
 GLenum
 pname
@@ -482,7 +480,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Lightf
+Lightf
 (
 GLenum
 light
@@ -495,7 +493,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Lightfv
+Lightfv
 (
 GLenum
 light
@@ -510,7 +508,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Lightx
+Lightx
 (
 GLenum
 light
@@ -523,7 +521,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Lightxv
+Lightxv
 (
 GLenum
 light
@@ -538,7 +536,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_LineWidthx
+LineWidthx
 (
 GLfixed
 width
@@ -547,14 +545,14 @@ width
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_LoadIdentity
+LoadIdentity
 (
 )
 ;
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_LoadMatrixf
+LoadMatrixf
 (
 const
 GLfloat
@@ -565,7 +563,7 @@ m
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_LoadMatrixx
+LoadMatrixx
 (
 const
 GLfixed
@@ -576,7 +574,7 @@ m
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_LogicOp
+LogicOp
 (
 GLenum
 opcode
@@ -585,7 +583,7 @@ opcode
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Materialf
+Materialf
 (
 GLenum
 face
@@ -598,7 +596,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Materialfv
+Materialfv
 (
 GLenum
 face
@@ -613,7 +611,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Materialx
+Materialx
 (
 GLenum
 face
@@ -626,7 +624,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Materialxv
+Materialxv
 (
 GLenum
 face
@@ -641,7 +639,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_MatrixMode
+MatrixMode
 (
 GLenum
 mode
@@ -650,7 +648,7 @@ mode
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_MultMatrixf
+MultMatrixf
 (
 const
 GLfloat
@@ -661,7 +659,7 @@ m
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_MultMatrixx
+MultMatrixx
 (
 const
 GLfixed
@@ -672,7 +670,7 @@ m
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_MultiTexCoord4f
+MultiTexCoord4f
 (
 GLenum
 target
@@ -689,7 +687,7 @@ q
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_MultiTexCoord4x
+MultiTexCoord4x
 (
 GLenum
 texture
@@ -706,7 +704,7 @@ q
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Normal3f
+Normal3f
 (
 GLfloat
 nx
@@ -719,7 +717,7 @@ nz
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Normal3x
+Normal3x
 (
 GLfixed
 nx
@@ -732,7 +730,7 @@ nz
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_NormalPointer
+NormalPointer
 (
 GLenum
 type
@@ -747,7 +745,7 @@ pointer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Orthof
+Orthof
 (
 GLfloat
 l
@@ -766,7 +764,7 @@ f
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Orthox
+Orthox
 (
 GLfixed
 l
@@ -785,7 +783,7 @@ f
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_PointParameterf
+PointParameterf
 (
 GLenum
 pname
@@ -796,7 +794,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_PointParameterfv
+PointParameterfv
 (
 GLenum
 pname
@@ -809,7 +807,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_PointParameterx
+PointParameterx
 (
 GLenum
 pname
@@ -820,7 +818,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_PointParameterxv
+PointParameterxv
 (
 GLenum
 pname
@@ -833,7 +831,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_PointSize
+PointSize
 (
 GLfloat
 size
@@ -842,7 +840,7 @@ size
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_PointSizex
+PointSizex
 (
 GLfixed
 size
@@ -851,7 +849,7 @@ size
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_PolygonOffsetx
+PolygonOffsetx
 (
 GLfixed
 factor
@@ -862,21 +860,21 @@ units
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_PopMatrix
+PopMatrix
 (
 )
 ;
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_PushMatrix
+PushMatrix
 (
 )
 ;
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Rotatef
+Rotatef
 (
 GLfloat
 angle
@@ -891,7 +889,7 @@ z
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Rotatex
+Rotatex
 (
 GLfixed
 angle
@@ -906,7 +904,7 @@ z
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_SampleCoveragex
+SampleCoveragex
 (
 GLclampx
 value
@@ -917,7 +915,7 @@ invert
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Scalef
+Scalef
 (
 GLfloat
 x
@@ -930,7 +928,7 @@ z
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Scalex
+Scalex
 (
 GLfixed
 x
@@ -943,7 +941,7 @@ z
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ShadeModel
+ShadeModel
 (
 GLenum
 mode
@@ -952,7 +950,7 @@ mode
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_TexCoordPointer
+TexCoordPointer
 (
 GLint
 size
@@ -969,7 +967,7 @@ pointer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_TexEnvf
+TexEnvf
 (
 GLenum
 target
@@ -982,7 +980,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_TexEnvfv
+TexEnvfv
 (
 GLenum
 target
@@ -997,7 +995,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_TexEnvi
+TexEnvi
 (
 GLenum
 target
@@ -1010,7 +1008,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_TexEnviv
+TexEnviv
 (
 GLenum
 target
@@ -1025,7 +1023,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_TexEnvx
+TexEnvx
 (
 GLenum
 target
@@ -1038,7 +1036,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_TexEnvxv
+TexEnvxv
 (
 GLenum
 target
@@ -1053,7 +1051,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_TexParameterx
+TexParameterx
 (
 GLenum
 target
@@ -1066,7 +1064,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_TexParameterxv
+TexParameterxv
 (
 GLenum
 target
@@ -1081,7 +1079,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Translatef
+Translatef
 (
 GLfloat
 x
@@ -1094,7 +1092,7 @@ z
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_Translatex
+Translatex
 (
 GLfixed
 x
@@ -1107,7 +1105,7 @@ z
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_VertexPointer
+VertexPointer
 (
 GLint
 size

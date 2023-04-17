@@ -131,9 +131,6 @@ gl
 Context
 *
 context
-bool
-*
-successOut
 )
 ;
 protected
@@ -165,9 +162,6 @@ gl
 Context
 *
 context
-bool
-*
-successOut
 )
 {
 return

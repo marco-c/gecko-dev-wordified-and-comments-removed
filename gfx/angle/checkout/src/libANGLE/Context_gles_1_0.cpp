@@ -530,13 +530,7 @@ Color
 )
 size
 type
-type
-=
-=
-VertexAttribType
-:
-:
-UnsignedByte
+GL_FALSE
 stride
 ptr
 )

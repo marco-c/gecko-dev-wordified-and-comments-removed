@@ -505,7 +505,7 @@ const
 Program
 *
 program
-UniformBlockIndex
+GLuint
 uniformBlockIndex
 GLenum
 pname
@@ -900,7 +900,7 @@ Program
 program
 GLenum
 programInterface
-UniformBlockIndex
+GLuint
 index
 GLsizei
 propCount
@@ -1397,13 +1397,6 @@ const
 Display
 *
 display
-const
-gl
-:
-:
-Context
-*
-context
 const
 Surface
 *
