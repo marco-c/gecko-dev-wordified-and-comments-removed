@@ -347,7 +347,7 @@ rv
 mozIntl
 -
 >
-GetDisplayNamesDeprecated
+GetDisplayNames
 (
 locales
 options
