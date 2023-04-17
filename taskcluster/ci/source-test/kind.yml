@@ -130,10 +130,6 @@ codeql
 .
 yml
 -
-coverity
-.
-yml
--
 cram
 .
 yml
