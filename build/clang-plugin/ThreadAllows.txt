@@ -63,7 +63,6 @@ IdentityCrypto
 ImageBridgeChld
 LS
 Thread
-LayerScope
 MDCDMThread
 MWQThread
 MediaCache

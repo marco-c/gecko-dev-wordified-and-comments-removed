@@ -138,16 +138,6 @@ Top
 level
 .
 regenerate
-gfx
-/
-layers
-/
-protobuf
-/
-LayerScopePacket
-.
-proto
-regenerate
 devtools
 /
 shared
