@@ -1403,6 +1403,10 @@ media
 TimeUnit
 &
 aCurrentTime
+bool
+aRequestNextKeyFrame
+=
+false
 )
 ;
 void

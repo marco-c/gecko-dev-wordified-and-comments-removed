@@ -414,6 +414,8 @@ media
 TimeUnit
 &
 aTimeThreshold
+bool
+aRequestNextVideoKeyFrame
 )
 {
 MOZ_ASSERT
@@ -484,6 +486,7 @@ MediaFormatReader
 :
 RequestVideoData
 threshold
+aRequestNextVideoKeyFrame
 )
 -
 >

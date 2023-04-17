@@ -152,6 +152,8 @@ media
 TimeUnit
 &
 aTimeThreshold
+bool
+aRequestNextVideoKeyFrame
 )
 ;
 RefPtr
