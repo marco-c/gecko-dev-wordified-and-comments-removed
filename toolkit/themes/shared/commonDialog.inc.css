@@ -56,16 +56,6 @@ MPL
 .
 *
 /
-media
-(
--
-moz
--
-proton
--
-modals
-)
-{
 #
 commonDialog
 [
@@ -91,5 +81,4 @@ deemphasized
 text
 )
 ;
-}
 }
