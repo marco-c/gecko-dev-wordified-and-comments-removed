@@ -208,7 +208,7 @@ typename
 Wrapper
 >
 class
-RootedBase
+RootedOperations
 :
 public
 MutableWrappedPtrOperations
@@ -227,7 +227,7 @@ typename
 Wrapper
 >
 class
-HandleBase
+HandleOperations
 :
 public
 WrappedPtrOperations
@@ -246,7 +246,7 @@ typename
 Wrapper
 >
 class
-MutableHandleBase
+MutableHandleOperations
 :
 public
 MutableWrappedPtrOperations
@@ -265,7 +265,7 @@ typename
 Wrapper
 >
 class
-HeapBase
+HeapOperations
 :
 public
 MutableWrappedPtrOperations
@@ -916,7 +916,7 @@ public
 js
 :
 :
-HeapBase
+HeapOperations
 <
 T
 Heap
@@ -1689,7 +1689,7 @@ public
 js
 :
 :
-HeapBase
+HeapOperations
 <
 T
 TenuredHeap
@@ -2352,7 +2352,7 @@ public
 js
 :
 :
-HandleBase
+HandleOperations
 <
 T
 Handle
@@ -2791,7 +2791,7 @@ public
 js
 :
 :
-MutableHandleBase
+MutableHandleOperations
 <
 T
 MutableHandle
@@ -4794,7 +4794,7 @@ public
 js
 :
 :
-RootedBase
+RootedOperations
 <
 T
 Rooted
@@ -5546,7 +5546,7 @@ typename
 Container
 >
 class
-RootedBase
+RootedOperations
 <
 JSObject
 *
@@ -5589,7 +5589,7 @@ typename
 Container
 >
 class
-HandleBase
+HandleOperations
 <
 JSObject
 *
@@ -5988,7 +5988,7 @@ public
 js
 :
 :
-RootedBase
+RootedOperations
 <
 T
 PersistentRooted
