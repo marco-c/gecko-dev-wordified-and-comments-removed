@@ -248,6 +248,15 @@ aVolume
 )
 ;
 void
+SetStreamName
+(
+const
+nsAString
+&
+aStreamName
+)
+;
+void
 SetPlaybackRate
 (
 double

@@ -2705,6 +2705,9 @@ class
 ShutdownObserver
 ;
 class
+TitleChangeObserver
+;
+class
 MediaControlKeyListener
 ;
 MediaDecoderOwner
@@ -3742,6 +3745,13 @@ ShutdownObserver
 >
 mShutdownObserver
 ;
+const
+RefPtr
+<
+TitleChangeObserver
+>
+mTitleChangeObserver
+;
 RefPtr
 <
 MediaSource
@@ -4454,6 +4464,11 @@ RefPtr
 MediaControlKeyListener
 >
 mMediaControlKeyListener
+;
+void
+UpdateStreamName
+(
+)
 ;
 bool
 IsBeingUsedInPictureInPictureMode

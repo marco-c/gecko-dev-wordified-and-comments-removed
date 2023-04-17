@@ -744,6 +744,15 @@ double
 aVolume
 )
 ;
+void
+SetStreamName
+(
+const
+nsAString
+&
+aStreamName
+)
+;
 Result
 <
 already_AddRefed

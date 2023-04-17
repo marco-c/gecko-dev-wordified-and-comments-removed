@@ -1182,6 +1182,11 @@ LoopingChanged
 )
 ;
 void
+StreamNameChanged
+(
+)
+;
+void
 UpdateSecondaryVideoContainer
 (
 )
@@ -2005,6 +2010,12 @@ Mirror
 bool
 >
 mLooping
+;
+Mirror
+<
+nsAutoString
+>
+mStreamName
 ;
 Mirror
 <
