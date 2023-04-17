@@ -825,6 +825,16 @@ p
 0
 ;
 }
+else
+{
+table
+-
+>
+compact
+(
+)
+;
+}
 }
 else
 if
