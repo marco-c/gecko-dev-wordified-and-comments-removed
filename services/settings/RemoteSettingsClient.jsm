@@ -259,18 +259,6 @@ jsm
 }
 )
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-this
-[
-"
-fetch
-"
-]
-)
-;
 const
 TELEMETRY_COMPONENT
 =
@@ -3709,6 +3697,8 @@ certChain
 await
 (
 await
+Utils
+.
 fetch
 (
 x5u
