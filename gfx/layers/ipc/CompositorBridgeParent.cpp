@@ -6419,6 +6419,9 @@ mRootLayerTreeID
 if
 (
 mLayerManager
+|
+|
+mWrBridge
 )
 {
 Unused
