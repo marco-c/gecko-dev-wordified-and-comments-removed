@@ -3811,7 +3811,7 @@ mRemoteTargetSetsCursor
 1
 ;
 bool
-mPreserveLayers
+mIsPreservingLayers
 :
 1
 ;
