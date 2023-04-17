@@ -2058,17 +2058,6 @@ aNode
 )
 ;
 static
-nsNameSpaceManager
-*
-NameSpaceManager
-(
-)
-{
-return
-sNameSpaceManager
-;
-}
-static
 nsIIOService
 *
 GetIOService

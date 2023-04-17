@@ -4400,10 +4400,10 @@ _empty
 ?
 kNameSpaceID_None
 :
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -
@@ -4424,10 +4424,10 @@ MOZ_ASSERT
 ns
 =
 =
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -

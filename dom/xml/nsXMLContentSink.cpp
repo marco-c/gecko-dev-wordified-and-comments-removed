@@ -2270,10 +2270,10 @@ mPrettyPrintXML
 {
 mPrettyPrintHasFactoredElements
 =
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -

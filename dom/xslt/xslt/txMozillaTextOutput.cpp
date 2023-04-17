@@ -741,10 +741,10 @@ namespaceID
 ;
 rv
 =
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -

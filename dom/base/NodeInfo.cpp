@@ -794,10 +794,10 @@ mNamespaceID
 nsresult
 rv
 =
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -
@@ -849,10 +849,10 @@ const
 int32_t
 nsid
 =
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -

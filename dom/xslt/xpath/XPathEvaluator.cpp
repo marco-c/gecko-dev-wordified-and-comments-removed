@@ -878,10 +878,10 @@ NS_OK
 ;
 }
 return
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -

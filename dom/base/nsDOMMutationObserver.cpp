@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsNameSpaceManager
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -995,10 +1002,10 @@ true
 }
 else
 {
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -

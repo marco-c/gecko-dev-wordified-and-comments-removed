@@ -17024,7 +17024,10 @@ rv
 *
 aNamespace
 =
-NameSpaceManager
+nsNameSpaceManager
+:
+:
+GetInstance
 (
 )
 -
