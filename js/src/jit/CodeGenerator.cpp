@@ -20274,9 +20274,12 @@ ArgCountShift
 ;
 masm
 .
-store32
+storeValue
 (
-Imm32
+JS
+:
+:
+PrivateUint32Value
 (
 flagsAndArgs
 )
