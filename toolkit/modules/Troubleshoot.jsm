@@ -513,11 +513,6 @@ privacy
 .
 "
 "
-remote
-.
-enabled
-"
-"
 security
 .
 "
