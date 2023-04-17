@@ -2241,7 +2241,9 @@ debugTargetInfo
 .
 runtimeLabel
 .
-thisFirefox
+thisRuntime
+-
+NodeTest
 -
 1
 .
@@ -2758,7 +2760,9 @@ debugTargetInfo
 .
 runtimeLabel
 .
-thisFirefox
+thisRuntime
+-
+NodeTest
 -
 1
 .
