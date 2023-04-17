@@ -3432,7 +3432,7 @@ if
 holder
 -
 >
-hasUncacheableProto
+hasInvalidatedTeleporting
 (
 )
 )

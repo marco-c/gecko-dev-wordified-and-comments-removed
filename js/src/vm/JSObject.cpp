@@ -9830,7 +9830,7 @@ if
 pobj
 -
 >
-hasUncacheableProto
+hasInvalidatedTeleporting
 (
 )
 )
@@ -9841,7 +9841,7 @@ if
 JSObject
 :
 :
-setUncacheableProto
+setInvalidatedTeleporting
 (
 cx
 pobj
@@ -18114,7 +18114,7 @@ if
 obj
 -
 >
-hasUncacheableProto
+hasInvalidatedTeleporting
 (
 )
 )
@@ -18124,7 +18124,7 @@ out
 put
 (
 "
-has_uncacheable_proto
+invalidated_teleporting
 "
 )
 ;

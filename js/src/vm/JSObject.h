@@ -892,14 +892,14 @@ const
 ;
 inline
 bool
-hasUncacheableProto
+hasInvalidatedTeleporting
 (
 )
 const
 ;
 static
 bool
-setUncacheableProto
+setInvalidatedTeleporting
 (
 JSContext
 *
@@ -930,7 +930,7 @@ hasStaticPrototype
 (
 )
 "
-uncacheability
+teleporting
 as
 a
 concept
@@ -962,7 +962,7 @@ js
 ObjectFlag
 :
 :
-UncacheableProto
+InvalidatedTeleporting
 )
 ;
 }
