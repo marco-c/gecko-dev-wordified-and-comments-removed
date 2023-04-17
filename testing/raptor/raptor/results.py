@@ -3424,6 +3424,10 @@ extra_options
 =
 [
 ]
+        
+accept_zero_vismet
+=
+False
     
 )
 :
@@ -3516,6 +3520,12 @@ extra_options
 "
 :
 extra_options
+            
+"
+accept_zero_vismet
+"
+:
+accept_zero_vismet
         
 }
     
@@ -3750,6 +3760,18 @@ test
 name
 "
 ]
+            
+accept_zero_vismet
+=
+test
+.
+get
+(
+"
+accept_zero_vismet
+"
+False
+)
             
 bt_res_json
 =
@@ -4102,6 +4124,10 @@ list
 (
 extra_options
 )
+                            
+accept_zero_vismet
+=
+accept_zero_vismet
                         
 )
                     
@@ -4155,6 +4181,10 @@ list
 (
 extra_options
 )
+                            
+accept_zero_vismet
+=
+accept_zero_vismet
                         
 )
                     
@@ -4174,13 +4204,19 @@ _extract_vmetrics
 (
                             
 test_name
+                            
 bt_res_json
+                            
 extra_options
 =
 list
 (
 extra_options
 )
+                            
+accept_zero_vismet
+=
+accept_zero_vismet
                         
 )
                     

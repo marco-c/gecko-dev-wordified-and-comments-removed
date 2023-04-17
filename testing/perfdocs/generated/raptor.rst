@@ -120,6 +120,16 @@ c
 *
 *
 *
+accept
+zero
+vismet
+*
+*
+:
+true
+*
+*
+*
 alert
 on
 *
