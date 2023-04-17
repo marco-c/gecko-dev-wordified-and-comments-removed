@@ -33,7 +33,7 @@ bar
 c
 "
 "
-bar
+baz
 .
 cpp
 "
@@ -43,7 +43,7 @@ foo
 c
 "
 "
-foo
+qux
 .
 cpp
 "
