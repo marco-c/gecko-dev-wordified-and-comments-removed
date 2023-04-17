@@ -2565,6 +2565,17 @@ aDefer
 )
 override
 ;
+void
+HandleKeyboardActivation
+(
+mozilla
+:
+:
+EventChainPostVisitor
+&
+)
+;
+static
 nsresult
 DispatchSimulatedClick
 (
