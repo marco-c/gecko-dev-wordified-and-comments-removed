@@ -6,6 +6,11 @@ define
 mozInlineSpellWordUtil_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -420,7 +425,13 @@ aLength
 :
 mNodeOffset
 (
+std
+:
+:
+move
+(
 aNodeOffset
+)
 )
 mSoftTextOffset
 (
