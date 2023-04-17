@@ -634,14 +634,9 @@ ICUError
 :
 OutOfMemory
 :
-MOZ_ASSERT
+ReportOutOfMemory
 (
 cx
--
->
-isThrowingOutOfMemory
-(
-)
 )
 ;
 return
