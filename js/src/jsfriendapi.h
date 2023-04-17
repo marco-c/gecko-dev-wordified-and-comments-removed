@@ -1962,6 +1962,10 @@ fun
 -
 >
 flagsAndArgCount
+.
+toPrivateUint32
+(
+)
 &
 js
 :
@@ -2025,6 +2029,10 @@ fun
 -
 >
 flagsAndArgCount
+.
+toPrivateUint32
+(
+)
 &
 js
 :
