@@ -67,6 +67,15 @@ include
 "
 mozilla
 /
+mozalloc
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PowerOfTwo
 .
 h
