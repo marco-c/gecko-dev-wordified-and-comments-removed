@@ -1316,8 +1316,6 @@ tests
 set
 .
 -
-jsreftest
--
 marionette
 -
 mochitest
@@ -1435,6 +1433,8 @@ cppunit
 crashtest
 -
 gtest
+-
+jsreftest
 -
 mochitest
 -
