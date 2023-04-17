@@ -215,6 +215,7 @@ AllPointerCapabilities
 SystemVerticalScrollbarWidth
 SystemHorizontalScrollbarHeight
 TouchDeviceSupportPresent
+TitlebarRadius
 End
 }
 ;
@@ -307,7 +308,6 @@ IMEUnderlineRelativeSize
 SpellCheckerUnderlineRelativeSize
 CaretAspectRatio
 TextScaleFactor
-TitlebarRadius
 End
 }
 ;

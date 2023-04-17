@@ -978,6 +978,11 @@ ui
 .
 touchDeviceSupportPresent
 "
+"
+ui
+.
+titlebarRadius
+"
 }
 ;
 static_assert
@@ -1040,11 +1045,6 @@ caretAspectRatio
 ui
 .
 textScaleFactor
-"
-"
-ui
-.
-titlebarRadius
 "
 }
 ;
