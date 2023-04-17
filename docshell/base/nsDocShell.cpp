@@ -45933,6 +45933,14 @@ isXFOError
 )
 )
 ;
+aLoadState
+-
+>
+MaybeStripTrackerQueryStrings
+(
+mBrowsingContext
+)
+;
 nsCOMPtr
 <
 nsIChannel
