@@ -79,7 +79,7 @@ public
 /
 build
 /
-debian
+apt
 /
 "
 >
