@@ -903,11 +903,6 @@ nsDMABufDevice
 (
 )
 ;
-~
-nsDMABufDevice
-(
-)
-;
 gbm_device
 *
 GetGbmDevice
@@ -987,10 +982,6 @@ bool
 IsDMABufEnabled
 (
 )
-;
-void
-*
-mRegistry
 ;
 GbmFormat
 mXRGBFormat
