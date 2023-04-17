@@ -297,10 +297,9 @@ pluralRules
 =
 uplrules_openForType
 (
-aLocale
-.
-data
+AssertNullTerminatedString
 (
+aLocale
 )
 pluralType
 &

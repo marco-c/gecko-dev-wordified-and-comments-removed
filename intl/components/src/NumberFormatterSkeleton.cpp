@@ -2727,10 +2727,9 @@ mVector
 length
 (
 )
-locale
-.
-data
+AssertNullTerminatedString
 (
+locale
 )
 &
 status
@@ -2973,10 +2972,9 @@ ToUNumberRangeIdentityFallback
 (
 identity
 )
-locale
-.
-data
+AssertNullTerminatedString
 (
+locale
 )
 perror
 &

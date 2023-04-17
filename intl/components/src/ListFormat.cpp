@@ -88,10 +88,9 @@ fmt
 =
 ulistfmt_openForType
 (
-aLocale
-.
-data
+AssertNullTerminatedString
 (
+aLocale
 )
 utype
 uwidth
