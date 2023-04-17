@@ -893,6 +893,8 @@ mallocSizeOf
 ;
 aSizes
 .
+mDOMSizes
+.
 mDOMResizeObserverControllerSize
 +
 =

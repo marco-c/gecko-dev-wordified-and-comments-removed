@@ -339,6 +339,8 @@ mStyleSheets
 ;
 aSizes
 .
+mDOMSizes
+.
 mDOMOtherSize
 +
 =
