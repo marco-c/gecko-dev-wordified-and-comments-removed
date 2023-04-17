@@ -2843,7 +2843,9 @@ n
 }
 if
 (
-mFontlistInitCount
+IsInitialized
+(
+)
 )
 {
 MOZ_ASSERT
