@@ -988,7 +988,7 @@ Document
 PutForwards
 =
 href
-Unforgeable
+LegacyUnforgeable
 ]
 readonly
 attribute

@@ -29,7 +29,7 @@ Parent
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 readonly
 attribute
@@ -77,9 +77,10 @@ an
 interface
 with
 "
+        
 "
 [
-Unforgeable
+LegacyUnforgeable
 ]
 properties
 .
@@ -125,7 +126,7 @@ Parent
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 readonly
 attribute
@@ -176,7 +177,7 @@ with
         
 "
 [
-Unforgeable
+LegacyUnforgeable
 ]
 properties
 even
@@ -234,7 +235,7 @@ Parent
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 readonly
 attribute
@@ -285,7 +286,7 @@ with
         
 "
 [
-Unforgeable
+LegacyUnforgeable
 ]
 properties
 even
@@ -345,7 +346,7 @@ Parent
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 readonly
 attribute
@@ -396,7 +397,7 @@ with
         
 "
 [
-Unforgeable
+LegacyUnforgeable
 ]
 properties
 even
@@ -462,7 +463,7 @@ Parent
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 readonly
 attribute
@@ -565,7 +566,7 @@ Parent
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 void
 foo
@@ -667,7 +668,7 @@ Parent
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 readonly
 attribute
@@ -772,7 +773,7 @@ Parent
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 void
 foo
@@ -872,7 +873,7 @@ Mixin
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 readonly
 attribute
@@ -931,7 +932,7 @@ a
 mixin
 with
 [
-Unforgeable
+LegacyUnforgeable
 ]
 properties
 .
@@ -990,7 +991,7 @@ Mixin
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 readonly
 attribute
@@ -1109,7 +1110,7 @@ Mixin
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 readonly
 attribute
@@ -1250,7 +1251,7 @@ Mixin
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 void
 foo
@@ -1360,7 +1361,7 @@ iface
 {
           
 [
-Unforgeable
+LegacyUnforgeable
 ]
 attribute
 long
@@ -1388,6 +1389,7 @@ harness
 .
 check
 (
+        
 len
 (
 results
@@ -1398,11 +1400,12 @@ Should
 allow
 writable
 [
-Unforgeable
+LegacyUnforgeable
 ]
 attribute
 .
 "
+    
 )
     
 parser
@@ -1434,7 +1437,7 @@ iface
 {
               
 [
-Unforgeable
+LegacyUnforgeable
 ]
 static
 readonly
@@ -1479,7 +1482,7 @@ thrown
 for
 static
 [
-Unforgeable
+LegacyUnforgeable
 ]
 attribute
 .

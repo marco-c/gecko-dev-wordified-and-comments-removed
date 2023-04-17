@@ -322,7 +322,7 @@ boolean
 composed
 ;
 [
-Unforgeable
+LegacyUnforgeable
 Pure
 ]
 readonly

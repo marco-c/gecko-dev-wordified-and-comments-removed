@@ -681,7 +681,7 @@ current
 browsing
 context
 [
-Unforgeable
+LegacyUnforgeable
 Constant
 StoreInSlot
 CrossOriginReadable
@@ -703,7 +703,7 @@ WindowProxy
 self
 ;
 [
-Unforgeable
+LegacyUnforgeable
 StoreInSlot
 Pure
 ]
@@ -724,7 +724,7 @@ name
 PutForwards
 =
 href
-Unforgeable
+LegacyUnforgeable
 CrossOriginReadable
 CrossOriginWritable
 ]
@@ -911,7 +911,7 @@ WindowProxy
 top
 ;
 [
-Unforgeable
+LegacyUnforgeable
 Throws
 CrossOriginReadable
 ]

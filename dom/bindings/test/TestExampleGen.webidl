@@ -6879,7 +6879,7 @@ long
 attrWithLenientThis
 ;
 [
-Unforgeable
+LegacyUnforgeable
 ]
 readonly
 attribute
@@ -6887,7 +6887,7 @@ long
 unforgeableAttr
 ;
 [
-Unforgeable
+LegacyUnforgeable
 ChromeOnly
 ]
 readonly
@@ -6896,7 +6896,7 @@ long
 unforgeableAttr2
 ;
 [
-Unforgeable
+LegacyUnforgeable
 ]
 long
 unforgeableMethod
@@ -6904,7 +6904,7 @@ unforgeableMethod
 )
 ;
 [
-Unforgeable
+LegacyUnforgeable
 ChromeOnly
 ]
 long

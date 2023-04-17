@@ -1878,7 +1878,7 @@ True
 return
 False
 def
-MemberIsUnforgeable
+MemberIsLegacyUnforgeable
 (
 member
 descriptor
@@ -1916,7 +1916,7 @@ and
             
 member
 .
-isUnforgeable
+isLegacyUnforgeable
 (
 )
             
@@ -1928,7 +1928,7 @@ interface
 getExtendedAttribute
 (
 "
-Unforgeable
+LegacyUnforgeable
 "
 )
         
@@ -2549,7 +2549,7 @@ concreteDefault
         
 self
 .
-hasUnforgeableMembers
+hasLegacyUnforgeableMembers
 =
 self
 .
@@ -2558,7 +2558,7 @@ and
 any
 (
             
-MemberIsUnforgeable
+MemberIsLegacyUnforgeable
 (
 m
 self

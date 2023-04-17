@@ -26,7 +26,7 @@ TestExtendedAttr
 {
           
 [
-Unforgeable
+LegacyUnforgeable
 ]
 readonly
 attribute

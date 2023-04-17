@@ -160,7 +160,7 @@ document
 *
 /
 [
-Unforgeable
+LegacyUnforgeable
 Exposed
 =
 Window
