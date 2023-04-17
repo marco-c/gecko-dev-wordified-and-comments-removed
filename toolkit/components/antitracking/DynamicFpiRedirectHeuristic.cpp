@@ -916,6 +916,15 @@ if
 StaticPrefs
 :
 :
+privacy_antitracking_enableWebcompat
+(
+)
+|
+|
+!
+StaticPrefs
+:
+:
 privacy_restrict3rdpartystorage_heuristic_recently_visited
 (
 )

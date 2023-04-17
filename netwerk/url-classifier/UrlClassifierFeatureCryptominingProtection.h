@@ -25,7 +25,7 @@ UrlClassifierFeatureCryptominingProtection
 final
 :
 public
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 {
 public
 :

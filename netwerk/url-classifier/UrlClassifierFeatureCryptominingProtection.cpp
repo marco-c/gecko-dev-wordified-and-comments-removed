@@ -163,7 +163,7 @@ UrlClassifierFeatureCryptominingProtection
 (
 )
 :
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 (
 nsLiteralCString
 (

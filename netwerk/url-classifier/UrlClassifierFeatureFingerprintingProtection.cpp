@@ -163,7 +163,7 @@ UrlClassifierFeatureFingerprintingProtection
 (
 )
 :
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 (
 nsLiteralCString
 (

@@ -163,7 +163,7 @@ UrlClassifierFeatureSocialTrackingProtection
 (
 )
 :
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 (
 nsLiteralCString
 (

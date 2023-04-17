@@ -168,7 +168,7 @@ UrlClassifierFeatureFingerprintingAnnotation
 (
 )
 :
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 (
 nsLiteralCString
 (

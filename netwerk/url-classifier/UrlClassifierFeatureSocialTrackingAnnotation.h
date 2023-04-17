@@ -25,7 +25,7 @@ UrlClassifierFeatureSocialTrackingAnnotation
 final
 :
 public
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 {
 public
 :

@@ -25,7 +25,7 @@ UrlClassifierFeatureTrackingProtection
 final
 :
 public
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 {
 public
 :

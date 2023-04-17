@@ -177,7 +177,7 @@ UrlClassifierFeatureTrackingAnnotation
 (
 )
 :
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 (
 nsLiteralCString
 (

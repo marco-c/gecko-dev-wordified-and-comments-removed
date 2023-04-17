@@ -25,7 +25,7 @@ UrlClassifierFeatureFingerprintingAnnotation
 final
 :
 public
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 {
 public
 :
