@@ -1094,6 +1094,12 @@ TransformBounds
 surfaceRectClipped
 )
 ;
+bufferClip
+.
+Round
+(
+)
+;
 layer
 -
 >
