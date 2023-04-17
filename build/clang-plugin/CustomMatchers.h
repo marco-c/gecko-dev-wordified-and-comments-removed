@@ -18,6 +18,18 @@ Utils
 .
 h
 "
+#
+if
+CLANG_VERSION_FULL
+>
+=
+1300
+#
+define
+isRValue
+isPRValue
+#
+endif
 namespace
 clang
 {
@@ -2137,5 +2149,8 @@ Field
 }
 }
 }
+#
+undef
+isRValue
 #
 endif
