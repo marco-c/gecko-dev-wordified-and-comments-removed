@@ -9020,14 +9020,6 @@ mSocketControl
 HasServerCert
 (
 )
-&
-&
-StaticPrefs
-:
-:
-network_ssl_tokens_cache_enabled
-(
-)
 )
 {
 mSocketControl

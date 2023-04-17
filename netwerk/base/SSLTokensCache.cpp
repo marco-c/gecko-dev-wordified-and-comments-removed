@@ -2082,6 +2082,15 @@ StaticPrefs
 network_ssl_tokens_cache_enabled
 (
 )
+&
+&
+!
+StaticPrefs
+:
+:
+network_http_http3_enable_0rtt
+(
+)
 )
 {
 return
