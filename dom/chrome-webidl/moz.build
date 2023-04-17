@@ -300,6 +300,11 @@ L10nOverlays
 webidl
 "
 "
+L10nRegistry
+.
+webidl
+"
+"
 MatchGlob
 .
 webidl
