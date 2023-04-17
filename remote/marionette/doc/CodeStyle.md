@@ -1322,9 +1322,9 @@ remote
 /
 components
 /
-Marionette
+marionette
 .
-jsm
+js
 which
 does
 require
