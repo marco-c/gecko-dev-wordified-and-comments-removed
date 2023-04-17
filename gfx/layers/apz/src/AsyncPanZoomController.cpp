@@ -26633,6 +26633,12 @@ uint64_t
 aZoomAnimationId
 )
 {
+RecursiveMutexAutoLock
+lock
+(
+mRecursiveMutex
+)
+;
 mZoomAnimationId
 =
 aZoomAnimationId
@@ -26650,6 +26656,12 @@ GetZoomAnimationId
 )
 const
 {
+RecursiveMutexAutoLock
+lock
+(
+mRecursiveMutex
+)
+;
 return
 mZoomAnimationId
 ;
