@@ -2128,6 +2128,8 @@ linux
 shippable
 )
 ?
+-
+qr
 /
 opt
 :
@@ -2200,6 +2202,8 @@ linux
 shippable
 )
 ?
+-
+qr
 /
 (
 opt
@@ -2286,11 +2290,8 @@ linux
 shippable
 )
 ?
-(
 -
 qr
-)
-?
 /
 (
 opt
@@ -2307,11 +2308,8 @@ windows10
 shippable
 )
 ?
-(
 -
 qr
-)
-?
 /
 (
 opt
@@ -2412,6 +2410,8 @@ linux
 .
 *
 64
+-
+qr
 /
 debug
 :
@@ -2420,6 +2420,8 @@ macosx
 .
 *
 64
+-
+qr
 /
 debug
 :
@@ -2477,6 +2479,11 @@ linux
 at
 ]
 san
+(
+-
+qr
+)
+?
 /
 opt
 :
