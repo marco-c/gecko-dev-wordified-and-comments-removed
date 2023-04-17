@@ -3353,6 +3353,15 @@ ReleaseCapturingRemoteTarget
 this
 )
 ;
+ProcessPriorityManager
+:
+:
+ActivityChanged
+(
+this
+false
+)
+;
 }
 void
 BrowserParent
