@@ -2532,11 +2532,6 @@ ProfilerScreenshots
 cpp
 "
 "
-ReadbackProcessor
-.
-cpp
-"
-"
 RepaintRequest
 .
 cpp
