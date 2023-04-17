@@ -32383,6 +32383,7 @@ mIncomingMediaKeys
 )
 {
 auto
+*
 cdmProxy
 =
 mIncomingMediaKeys
