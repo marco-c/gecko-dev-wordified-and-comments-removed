@@ -44564,7 +44564,7 @@ NoTypePolicy
 :
 Data
 {
-uint32_t
+uint64_t
 offset_
 ;
 wasm
@@ -44578,7 +44578,7 @@ MWasmAddOffset
 MDefinition
 *
 base
-uint32_t
+uint64_t
 offset
 wasm
 :
@@ -44686,7 +44686,7 @@ None
 )
 ;
 }
-uint32_t
+uint64_t
 offset
 (
 )

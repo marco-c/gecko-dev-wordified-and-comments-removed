@@ -3605,7 +3605,7 @@ ptr
 void
 branchAddNoOverflow
 (
-Imm32
+uint64_t
 offset
 RegI32
 ptr
@@ -3653,7 +3653,7 @@ ok
 void
 branchAddNoOverflow
 (
-Imm32
+uint64_t
 offset
 RegI64
 ptr
