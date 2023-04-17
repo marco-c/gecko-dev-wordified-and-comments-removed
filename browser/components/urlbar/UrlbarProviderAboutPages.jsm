@@ -137,9 +137,6 @@ queryContext
 )
 {
 return
-false
-;
-return
 (
 queryContext
 .
