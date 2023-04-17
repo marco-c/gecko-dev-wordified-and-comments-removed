@@ -31,6 +31,9 @@ class
 nsFontMetrics
 ;
 class
+nsPageContentFrame
+;
+class
 nsSharedPageData
 ;
 namespace
@@ -214,6 +217,12 @@ GetTransformGetter
 )
 const
 override
+;
+nsPageContentFrame
+*
+PageContentFrame
+(
+)
 ;
 protected
 :
