@@ -107,11 +107,6 @@ extends
 prettier
 "
 "
-prettier
-/
-react
-"
-"
 plugin
 :
 jest

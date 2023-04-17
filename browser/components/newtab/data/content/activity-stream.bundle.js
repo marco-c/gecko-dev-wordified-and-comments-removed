@@ -36140,6 +36140,7 @@ hidden
 ;
 }
 return
+(
 react__WEBPACK_IMPORTED_MODULE_3___default
 .
 a
@@ -36677,6 +36678,7 @@ this
 props
 .
 children
+)
 )
 )
 )
@@ -66611,6 +66613,11 @@ linkTag
 ]
 .
 entrypoint_value
+rel
+:
+"
+noreferrer
+"
 onClick
 :
 sendClick

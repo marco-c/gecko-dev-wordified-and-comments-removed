@@ -121,8 +121,6 @@ recommended
 "
 "
 prettier
-/
-react
 "
 ]
 overrides
