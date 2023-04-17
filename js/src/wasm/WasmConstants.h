@@ -1669,6 +1669,12 @@ F32x4RelaxedFms
 I32x4Sub
 =
 0xb1
+I8x16LaneSelect
+=
+0xb2
+I16x8LaneSelect
+=
+0xb3
 F32x4RelaxedMin
 =
 0xb4
@@ -1753,6 +1759,12 @@ F64x2RelaxedFms
 I64x2Sub
 =
 0xd1
+I32x4LaneSelect
+=
+0xd2
+I64x2LaneSelect
+=
+0xd3
 F64x2RelaxedMin
 =
 0xd4

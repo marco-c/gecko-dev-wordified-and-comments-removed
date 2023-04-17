@@ -6225,6 +6225,16 @@ emitVectorShuffle
 (
 )
 ;
+[
+[
+nodiscard
+]
+]
+bool
+emitVectorLaneSelect
+(
+)
+;
 #
 if
 defined
