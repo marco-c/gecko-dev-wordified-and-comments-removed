@@ -13582,6 +13582,15 @@ frame
 return
 nullptr
 ;
+nsFrameSelection
+:
+:
+AdjustFrameForLineStart
+(
+frame
+frameOffset
+)
+;
 bool
 isText
 =
