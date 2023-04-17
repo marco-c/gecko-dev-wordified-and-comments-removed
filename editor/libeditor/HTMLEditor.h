@@ -2286,6 +2286,7 @@ Document
 *
 aSrcDocument
 )
+final
 ;
 [
 [
