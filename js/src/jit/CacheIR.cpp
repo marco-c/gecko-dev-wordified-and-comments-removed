@@ -1434,6 +1434,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 )
 :
 writer
@@ -1460,6 +1462,10 @@ mode_
 (
 mode
 )
+isFirstStub_
+(
+isFirstStub
+)
 {
 }
 GetPropIRGenerator
@@ -1480,6 +1486,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 CacheKind
 cacheKind
 HandleValue
@@ -1495,6 +1503,7 @@ script
 pc
 cacheKind
 mode
+isFirstStub
 )
 val_
 (
@@ -13684,6 +13693,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleObject
 env
 HandlePropertyName
@@ -13700,6 +13711,7 @@ CacheKind
 :
 GetName
 mode
+isFirstStub
 )
 env_
 (
@@ -15145,6 +15157,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleObject
 env
 HandlePropertyName
@@ -15161,6 +15175,7 @@ CacheKind
 :
 BindName
 mode
+isFirstStub
 )
 env_
 (
@@ -15927,6 +15942,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 CacheKind
 cacheKind
 HandleValue
@@ -15942,6 +15959,7 @@ script
 pc
 cacheKind
 mode
+isFirstStub
 )
 val_
 (
@@ -17451,6 +17469,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 CacheKind
 cacheKind
 HandleValue
@@ -17466,6 +17486,7 @@ script
 pc
 cacheKind
 mode
+isFirstStub
 )
 val_
 (
@@ -18031,6 +18052,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 lhsVal
 HandleValue
@@ -18046,6 +18069,7 @@ script
 pc
 cacheKind
 mode
+isFirstStub
 )
 lhsVal_
 (
@@ -23779,6 +23803,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 lhs
 HandleObject
@@ -23795,6 +23821,7 @@ CacheKind
 :
 InstanceOf
 mode
+isFirstStub
 )
 lhsVal_
 (
@@ -24403,6 +24430,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 value
 )
@@ -24417,6 +24446,7 @@ CacheKind
 :
 TypeOf
 mode
+isFirstStub
 )
 val_
 (
@@ -24726,6 +24756,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 value
 )
@@ -24740,6 +24772,7 @@ CacheKind
 :
 GetIterator
 mode
+isFirstStub
 )
 val_
 (
@@ -25070,6 +25103,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 value
 )
@@ -25084,6 +25119,7 @@ CacheKind
 :
 OptimizeSpreadCall
 mode
+isFirstStub
 )
 val_
 (
@@ -25595,16 +25631,8 @@ tryAttachArray
 {
 if
 (
-mode_
 !
-=
-ICState
-:
-:
-Mode
-:
-:
-Specialized
+isFirstStub_
 )
 {
 return
@@ -26033,14 +26061,11 @@ CacheKind
 :
 Call
 mode
+isFirstStub
 )
 op_
 (
 op
-)
-isFirstStub_
-(
-isFirstStub
 )
 argc_
 (
@@ -48035,6 +48060,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 JSOp
 op
 HandleValue
@@ -48053,6 +48080,7 @@ CacheKind
 :
 Compare
 mode
+isFirstStub
 )
 op_
 (
@@ -51022,6 +51050,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 val
 )
@@ -51036,6 +51066,7 @@ CacheKind
 :
 ToBool
 mode
+isFirstStub
 )
 val_
 (
@@ -51699,6 +51730,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 val
 )
@@ -51713,6 +51746,7 @@ CacheKind
 :
 GetIntrinsic
 mode
+isFirstStub
 )
 val_
 (
@@ -51829,6 +51863,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 JSOp
 op
 HandleValue
@@ -51847,6 +51883,7 @@ CacheKind
 :
 UnaryArith
 mode
+isFirstStub
 )
 op_
 (
@@ -53443,6 +53480,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 val
 )
@@ -53457,6 +53496,7 @@ CacheKind
 :
 ToPropertyKey
 mode
+isFirstStub
 )
 val_
 (
@@ -53917,6 +53957,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 JSOp
 op
 HandleValue
@@ -53937,6 +53979,7 @@ CacheKind
 :
 BinaryArith
 mode
+isFirstStub
 )
 op_
 (
@@ -56725,6 +56768,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 JSOp
 op
 HandleObject
@@ -56741,6 +56786,7 @@ CacheKind
 :
 NewObject
 mode
+isFirstStub
 )
 #
 ifdef
