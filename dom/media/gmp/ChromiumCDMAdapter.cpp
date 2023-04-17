@@ -576,6 +576,14 @@ aKeySystem
 .
 EqualsLiteral
 (
+EME_KEY_SYSTEM_CLEARKEY_WITH_PROTECTION_QUERY
+)
+|
+|
+aKeySystem
+.
+EqualsLiteral
+(
 "
 fake
 "
