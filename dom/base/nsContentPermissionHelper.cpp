@@ -2296,6 +2296,7 @@ ContentPermissionRequestBase
 CheckPromptPrefs
 (
 )
+const
 {
 MOZ_ASSERT
 (

@@ -430,6 +430,7 @@ PromptResult
 CheckPromptPrefs
 (
 )
+const
 ;
 bool
 CheckPermissionDelegate
@@ -507,9 +508,11 @@ PermissionDelegateHandler
 >
 mPermissionHandler
 ;
+const
 nsCString
 mPrefName
 ;
+const
 nsCString
 mType
 ;
