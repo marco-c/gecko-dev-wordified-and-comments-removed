@@ -7091,7 +7091,9 @@ OutputWrap
 {
 if
 (
-mPaddingBRElementForEmptyEditor
+IsEmpty
+(
+)
 )
 {
 aOutputString
