@@ -112,7 +112,7 @@ const
 CROSS_ORIGIN
 =
 "
-http
+https
 :
 /
 /
