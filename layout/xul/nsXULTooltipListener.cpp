@@ -1059,7 +1059,7 @@ type
 EqualsLiteral
 (
 "
-DOMMouseScroll
+wheel
 "
 )
 |
@@ -1947,7 +1947,7 @@ AddSystemEventListener
 (
 u
 "
-DOMMouseScroll
+wheel
 "
 _ns
 this
@@ -3077,7 +3077,7 @@ RemoveSystemEventListener
 (
 u
 "
-DOMMouseScroll
+wheel
 "
 _ns
 this
