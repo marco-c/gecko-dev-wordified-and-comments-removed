@@ -5943,6 +5943,12 @@ markAtomsUsedByUncollectedZones
 rt
 )
 ;
+SweepingTracer
+trc
+(
+rt
+)
+;
 rt
 -
 >
@@ -5950,8 +5956,10 @@ symbolRegistry
 (
 )
 .
-sweep
+traceWeak
 (
+&
+trc
 )
 ;
 }
