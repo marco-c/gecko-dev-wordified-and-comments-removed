@@ -1556,7 +1556,7 @@ ChromeOnly
 readonly
 attribute
 double
-totalPlayTime
+totalVideoPlayTime
 ;
 [
 ChromeOnly

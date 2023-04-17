@@ -2049,7 +2049,7 @@ IsVideoDecodingSuspended
 const
 ;
 double
-TotalPlayTime
+TotalVideoPlayTime
 (
 )
 const
