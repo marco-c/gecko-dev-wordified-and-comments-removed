@@ -8557,11 +8557,6 @@ aCx
 if
 (
 sShuttingDown
-|
-|
-aDesc
-.
-isComplete_
 )
 {
 sScheduler

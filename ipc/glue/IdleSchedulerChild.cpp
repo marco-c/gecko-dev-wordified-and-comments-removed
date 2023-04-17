@@ -489,7 +489,14 @@ mIsDoingGC
 )
 {
 return
-nullptr
+MayGCPromise
+:
+:
+CreateAndResolve
+(
+false
+__func__
+)
 ;
 }
 TimeStamp
