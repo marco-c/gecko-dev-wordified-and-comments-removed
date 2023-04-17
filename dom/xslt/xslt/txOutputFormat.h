@@ -94,7 +94,7 @@ mCDATASectionElements
 txThreeState
 mIndent
 ;
-nsString
+nsCString
 mMediaType
 ;
 }

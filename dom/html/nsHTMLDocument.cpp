@@ -962,7 +962,7 @@ mForms
 =
 nullptr
 ;
-SetContentTypeInternal
+SetContentType
 (
 nsDependentCString
 (

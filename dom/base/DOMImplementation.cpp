@@ -536,7 +536,6 @@ doc
 >
 SetContentType
 (
-u
 "
 application
 /
@@ -578,7 +577,6 @@ doc
 >
 SetContentType
 (
-u
 "
 image
 /
@@ -597,7 +595,6 @@ doc
 >
 SetContentType
 (
-u
 "
 application
 /
