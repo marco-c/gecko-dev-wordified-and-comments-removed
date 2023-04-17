@@ -6894,14 +6894,11 @@ regs
 ;
 if
 (
-MOZ_UNLIKELY
-(
 cx
 -
 >
 isPropagatingForcedReturn
 (
-)
 )
 )
 {

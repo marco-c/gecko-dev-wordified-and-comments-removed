@@ -4444,6 +4444,13 @@ isExceptionPending
 )
 )
 {
+cx
+-
+>
+clearInterrupt
+(
+)
+;
 continue
 ;
 }

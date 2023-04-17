@@ -130,6 +130,16 @@ Capture
 extern
 JS_PUBLIC_API
 void
+JS_SetPendingInterrupt
+(
+JSContext
+*
+cx
+)
+;
+extern
+JS_PUBLIC_API
+void
 JS_ClearPendingException
 (
 JSContext
@@ -162,6 +172,7 @@ ExceptionStatus
 {
 None
 ForcedReturn
+Interrupt
 Throwing
 OutOfMemory
 OverRecursed

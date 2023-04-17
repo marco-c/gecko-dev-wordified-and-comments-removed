@@ -2259,6 +2259,11 @@ gQuitting
 =
 true
 ;
+JS_SetPendingInterrupt
+(
+cx
+)
+;
 return
 false
 ;
