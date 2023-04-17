@@ -14225,6 +14225,7 @@ function
 )
 {
 return
+(
 this
 .
 tests
@@ -14232,6 +14233,16 @@ tests
 length
 >
 0
+|
+|
+this
+.
+pending_remotes
+.
+length
+>
+0
+)
 &
 &
 test_environment
