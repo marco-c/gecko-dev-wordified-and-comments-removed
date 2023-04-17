@@ -744,6 +744,13 @@ UTF8String
 name
 )
 ;
+JSWindowActorParent
+getExistingActor
+(
+UTF8String
+name
+)
+;
 /
 *
 *
@@ -1126,6 +1133,13 @@ Throws
 ]
 JSWindowActorChild
 getActor
+(
+UTF8String
+name
+)
+;
+JSWindowActorChild
+getExistingActor
 (
 UTF8String
 name
