@@ -320,7 +320,7 @@ null
 ;
 async
 function
-UpdateSelectEventsOntextControlsPref
+UpdateSelectEventsOnTextControlsPref
 (
 aEnabled
 )
@@ -344,6 +344,22 @@ select_events
 .
 textcontrols
 .
+selectstart
+.
+enabled
+'
+aEnabled
+]
+[
+'
+dom
+.
+select_events
+.
+textcontrols
+.
+selectionchange
+.
 enabled
 '
 aEnabled
@@ -354,7 +370,7 @@ aEnabled
 ;
 }
 await
-UpdateSelectEventsOntextControlsPref
+UpdateSelectEventsOnTextControlsPref
 (
 false
 )
@@ -2368,7 +2384,7 @@ mouseup
 )
 ;
 await
-UpdateSelectEventsOntextControlsPref
+UpdateSelectEventsOnTextControlsPref
 (
 true
 )
@@ -2783,7 +2799,7 @@ mouseup
 )
 ;
 await
-UpdateSelectEventsOntextControlsPref
+UpdateSelectEventsOnTextControlsPref
 (
 false
 )
@@ -2886,7 +2902,7 @@ mouseup
 )
 ;
 await
-UpdateSelectEventsOntextControlsPref
+UpdateSelectEventsOnTextControlsPref
 (
 true
 )
