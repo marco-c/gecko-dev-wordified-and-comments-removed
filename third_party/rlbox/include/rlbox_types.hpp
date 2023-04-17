@@ -367,6 +367,16 @@ T_Sbx
 class
 sandbox_callback
 ;
+template
+<
+typename
+T
+typename
+T_Sbx
+>
+class
+app_pointer
+;
 class
 rlbox_noop_sandbox
 ;
