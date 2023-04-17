@@ -517,6 +517,15 @@ _initialized
 =
 false
 ;
+this
+.
+off
+(
+"
+connectionchange
+"
+)
+;
 dumpn
 (
 "
