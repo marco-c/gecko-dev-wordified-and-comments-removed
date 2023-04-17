@@ -13296,7 +13296,7 @@ calleeReg
 JSFunction
 :
 :
-offsetOfNative
+offsetOfNativeOrEnv
 (
 )
 )
