@@ -204,6 +204,9 @@ buffer
 instrumenting
 -
 javascript
+instrumenting
+-
+rust
 markers
 -
 guide
@@ -220,9 +223,6 @@ LUL
 *
 Instrumenting
 Java
-*
-Instrumenting
-Rust
 *
 Registering
 Threads
