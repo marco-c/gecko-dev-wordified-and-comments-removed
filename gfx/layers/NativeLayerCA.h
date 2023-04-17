@@ -403,6 +403,11 @@ mRootCALayer
 nullptr
 ;
 bool
+mIsIsolatingVideo
+=
+false
+;
+bool
 mMutatedLayerStructure
 =
 false
