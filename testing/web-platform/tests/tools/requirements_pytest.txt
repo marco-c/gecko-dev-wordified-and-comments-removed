@@ -16,14 +16,6 @@ cov
 12
 .
 1
-mock
-=
-=
-4
-.
-0
-.
-3
 hypothesis
 =
 =
