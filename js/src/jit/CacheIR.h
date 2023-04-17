@@ -7595,6 +7595,13 @@ ValOperandId
 valId
 )
 ;
+AttachDecision
+tryAttachMegamorphic
+(
+ValOperandId
+valId
+)
+;
 public
 :
 GetIteratorIRGenerator
