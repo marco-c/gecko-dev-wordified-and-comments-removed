@@ -1705,10 +1705,6 @@ tp5o
 -
 talos
 -
-xperf
--
-talos
--
 tabswitch
 -
 talos
@@ -1734,6 +1730,14 @@ not
 finding
 actionable
 regressions
+talos
+-
+xperf
+:
+-
+talos
+-
+xperf
 #
 macOS
 macosx1100

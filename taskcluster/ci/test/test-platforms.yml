@@ -1304,6 +1304,10 @@ windows10
 failure
 -
 tests
+-
+talos
+-
+xperf
 windows10
 -
 64
@@ -1377,6 +1381,10 @@ windows10
 failure
 -
 tests
+-
+talos
+-
+xperf
 windows10
 -
 64
