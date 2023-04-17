@@ -348,17 +348,6 @@ shared
 glean_with_gecko
 "
 ]
-rust_fxa_client
-=
-[
-"
-gkrust
--
-shared
-/
-rust_fxa_client
-"
-]
 with_dbus
 =
 [

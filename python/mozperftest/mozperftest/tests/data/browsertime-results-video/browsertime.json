@@ -519,11 +519,6 @@ MOZ_REQUIRE_SIGNING
 :
 false
 "
-MOZ_RUST_FXA_CLIENT
-"
-:
-true
-"
 MOZ_SANDBOX
 "
 :
@@ -969,11 +964,6 @@ MOZ_REQUIRE_SIGNING
 "
 :
 false
-"
-MOZ_RUST_FXA_CLIENT
-"
-:
-true
 "
 MOZ_SANDBOX
 "
