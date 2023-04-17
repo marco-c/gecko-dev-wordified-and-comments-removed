@@ -694,19 +694,9 @@ _virtualenv_name
 =
 virtualenv_name
 or
-(
 "
-init_py3
+common
 "
-if
-six
-.
-PY3
-else
-"
-init
-"
-)
         
 self
 .
