@@ -187,10 +187,13 @@ uint32_t
 tabBarColor
 ;
 uint32_t
-chromeContentDividerColor
+tabColor
 ;
 uint32_t
-tabLineColor
+tabOutlineColor
+;
+uint32_t
+chromeContentDividerColor
 ;
 uint32_t
 urlbarColor
