@@ -96,6 +96,11 @@ MediaElementEventRunners
 h
 "
 "
+PerformanceRecorder
+.
+h
+"
+"
 TelemetryProbesReporter
 .
 h
@@ -107,6 +112,11 @@ UNIFIED_SOURCES
 [
 "
 MediaElementEventRunners
+.
+cpp
+"
+"
+PerformanceRecorder
 .
 cpp
 "

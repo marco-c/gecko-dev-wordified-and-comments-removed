@@ -1147,6 +1147,9 @@ mBase
 bool
 mEOS
 ;
+int32_t
+mHeight
+;
 uint32_t
 mDiscardPadding
 ;
