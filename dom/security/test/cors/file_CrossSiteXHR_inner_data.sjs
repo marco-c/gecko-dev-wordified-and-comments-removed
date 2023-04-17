@@ -824,11 +824,9 @@ replace
 "
 /
 ^
-\
 s
 +
 |
-\
 s
 +
 /
@@ -886,6 +884,7 @@ n
 html
 >
 '
+;
 function
 handleRequest
 (

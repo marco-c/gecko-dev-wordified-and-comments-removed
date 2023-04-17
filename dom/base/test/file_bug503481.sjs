@@ -58,6 +58,7 @@ x
 wrappedJSObject
 .
 r
+;
 }
 )
 ;
@@ -138,6 +139,7 @@ attemptUnblock
 (
 s
 )
+;
 }
 500
 nsITimer
@@ -166,9 +168,9 @@ queryString
 .
 split
 (
-'
+"
 &
-'
+"
 )
 .
 forEach
@@ -188,9 +190,9 @@ val
 .
 split
 (
-'
+"
 =
-'
+"
 )
 ;
 query
@@ -258,14 +260,13 @@ r
 :
 response
 QueryInterface
-:
-function
 (
 iid
 )
 {
 return
 this
+;
 }
 }
 ;

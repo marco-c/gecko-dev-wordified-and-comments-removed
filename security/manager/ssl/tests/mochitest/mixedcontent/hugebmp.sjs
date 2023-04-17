@@ -324,6 +324,7 @@ i
 +
 i
 )
+{
 response
 .
 bodyOutputStream
@@ -334,4 +335,5 @@ bmpdatapiece
 64
 )
 ;
+}
 }

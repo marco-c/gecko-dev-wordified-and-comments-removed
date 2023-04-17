@@ -267,10 +267,8 @@ csp
 default
 -
 src
-\
 '
 self
-\
 '
 ;
 report
@@ -361,7 +359,7 @@ above
 var
 content
 =
-"
+'
 <
 !
 DOCTYPE
@@ -377,7 +375,6 @@ body
 img
 src
 =
-\
 "
 http
 :
@@ -392,7 +389,6 @@ domain
 example
 .
 com
-\
 "
 >
 <
@@ -403,7 +399,7 @@ body
 /
 html
 >
-"
+'
 ;
 response
 .

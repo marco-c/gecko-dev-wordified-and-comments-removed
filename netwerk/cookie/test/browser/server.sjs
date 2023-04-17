@@ -21,9 +21,9 @@ aRequest
 .
 hasHeader
 (
-'
+"
 Cookie
-'
+"
 )
 )
 {

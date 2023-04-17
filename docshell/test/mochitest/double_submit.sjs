@@ -8,6 +8,27 @@ self
 =
 this
 ;
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+mozilla
+/
+use
+-
+chromeutils
+-
+import
+let
+{
+setTimeout
+}
+=
 Cu
 .
 import
@@ -136,6 +157,7 @@ size
 chunkSize
 }
 )
+;
 while
 (
 remaining
@@ -222,6 +244,7 @@ chunk
 remaining
 }
 )
+;
 remaining
 -
 =
@@ -281,8 +304,8 @@ result
 .
 join
 (
-'
-'
+"
+"
 )
 ;
 }
@@ -569,6 +592,7 @@ Set
 headers
 "
 )
+;
 response
 .
 setHeader
@@ -652,6 +676,7 @@ Write
 body
 "
 )
+;
 for
 (
 let
@@ -677,6 +702,7 @@ now
 (
 )
 )
+;
 log
 (
 Delay
@@ -790,6 +816,7 @@ left
 fragments
 }
 )
+;
 }
 log
 (
@@ -798,6 +825,7 @@ Write
 footer
 "
 )
+;
 response
 .
 write

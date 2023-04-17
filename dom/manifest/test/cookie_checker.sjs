@@ -3,9 +3,12 @@ use
 strict
 "
 ;
-Components
-.
-utils
+let
+{
+NetUtil
+}
+=
+ChromeUtils
 .
 import
 (

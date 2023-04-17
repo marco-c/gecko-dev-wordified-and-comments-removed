@@ -34,7 +34,7 @@ request
 response
 )
 {
-let
+const
 params
 =
 request
@@ -48,7 +48,7 @@ split
 "
 )
 ;
-let
+const
 limit
 =
 (
@@ -56,9 +56,7 @@ params
 .
 filter
 (
-(
 s
-)
 =
 >
 s

@@ -95,7 +95,7 @@ response
 var
 body
 =
-'
+"
 <
 html
 >
@@ -108,7 +108,7 @@ Outer
 POST
 data
 :
-'
+"
 ;
 var
 bodyStream
@@ -144,6 +144,7 @@ available
 >
 0
 )
+{
 body
 +
 =
@@ -162,6 +163,7 @@ avail
 )
 )
 ;
+}
 body
 +
 =

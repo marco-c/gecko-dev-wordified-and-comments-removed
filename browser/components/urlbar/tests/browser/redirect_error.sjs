@@ -90,7 +90,6 @@ value
 let
 hash
 =
-(
 /
 \
 #
@@ -103,7 +102,6 @@ test
 aRequest
 .
 path
-)
 )
 ?
 "

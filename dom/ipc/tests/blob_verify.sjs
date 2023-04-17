@@ -87,6 +87,7 @@ available
 >
 0
 )
+{
 Array
 .
 prototype
@@ -104,6 +105,7 @@ bodyAvail
 )
 )
 ;
+}
 var
 bos
 =

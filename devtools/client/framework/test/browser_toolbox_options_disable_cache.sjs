@@ -34,7 +34,7 @@ request
 response
 )
 {
-let
+const
 Etag
 =
 '
@@ -47,7 +47,7 @@ b03
 "
 '
 ;
-let
+const
 IfNoneMatch
 =
 request
@@ -79,10 +79,10 @@ Match
 "
 "
 ;
-let
+const
 guid
 =
-'
+"
 xxxxxxxx
 -
 xxxx
@@ -92,7 +92,7 @@ xxxx
 yxxx
 -
 xxxxxxxxxxxx
-'
+"
 .
 replace
 (
@@ -107,9 +107,10 @@ function
 c
 )
 {
-let
+const
 r
 =
+(
 Math
 .
 random
@@ -117,10 +118,11 @@ random
 )
 *
 16
+)
 |
 0
 ;
-let
+const
 v
 =
 c
@@ -137,9 +139,9 @@ r
 r
 &
 0x3
+)
 |
 0x8
-)
 ;
 return
 v
@@ -152,7 +154,7 @@ toString
 }
 )
 ;
-let
+const
 page
 =
 "

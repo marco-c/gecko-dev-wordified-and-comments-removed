@@ -12,10 +12,12 @@ str
 "
 "
 )
+{
 return
 {
 }
 ;
+}
 var
 paramArray
 =
@@ -92,6 +94,7 @@ if
 !
 match
 )
+{
 throw
 "
 Bad
@@ -111,6 +114,7 @@ i
 '
 "
 ;
+}
 params
 [
 decodeURIComponent
@@ -167,7 +171,6 @@ lng
 }
 accuracy
 :
-(
 action
 =
 =
@@ -176,7 +179,6 @@ worse
 -
 accuracy
 "
-)
 ?
 100
 :
@@ -408,9 +410,9 @@ delay
 ;
 if
 (
-'
+"
 delay
-'
+"
 in
 params
 )
@@ -453,8 +455,8 @@ Found
 ;
 position
 =
-'
-'
+"
+"
 ;
 }
 timer

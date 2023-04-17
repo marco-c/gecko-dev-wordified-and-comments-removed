@@ -603,6 +603,7 @@ queryString
 "
 )
 }
+;
 reports
 .
 push

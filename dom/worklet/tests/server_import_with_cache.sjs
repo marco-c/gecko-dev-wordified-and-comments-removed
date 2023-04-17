@@ -55,11 +55,11 @@ response
 .
 setStatusLine
 (
-'
+"
 1
 .
 1
-'
+"
 404
 "
 Not

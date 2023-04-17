@@ -86,11 +86,11 @@ file
 .
 append
 (
-'
+"
 lime100x100
 .
 svg
-'
+"
 )
 ;
 response
@@ -136,7 +136,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -150,7 +150,7 @@ input
 stream
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -179,7 +179,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -187,7 +187,7 @@ org
 binaryinputstream
 ;
 1
-'
+"
 ]
 .
 createInstance
