@@ -779,6 +779,15 @@ EnsureUpToDateIndex
 (
 )
 ;
+bool
+IsBufferedIntervalValid
+(
+uint64_t
+start
+uint64_t
+end
+)
+;
 media
 :
 :
