@@ -1995,7 +1995,6 @@ FrameMsg
 :
 HitTest
 (
-pipeline_id
 point
 tx
 )
@@ -2040,7 +2039,6 @@ HitTest
 :
 new
 (
-pipeline_id
 point
 )
 )

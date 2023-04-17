@@ -2890,10 +2890,6 @@ Epoch
 )
 HitTest
 (
-Option
-<
-PipelineId
->
 WorldPoint
 Sender
 <
@@ -5281,12 +5277,6 @@ self
 document_id
 :
 DocumentId
-pipeline_id
-:
-Option
-<
-PipelineId
->
 point
 :
 WorldPoint
@@ -5315,7 +5305,6 @@ FrameMsg
 :
 HitTest
 (
-pipeline_id
 point
 tx
 )

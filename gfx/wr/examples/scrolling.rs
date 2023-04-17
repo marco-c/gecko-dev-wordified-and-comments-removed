@@ -1358,7 +1358,6 @@ api
 hit_test
 (
 document_id
-None
 self
 .
 cursor_position

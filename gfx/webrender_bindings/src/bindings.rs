@@ -18499,7 +18499,6 @@ unwrap
 .
 hit_test
 (
-None
 point
 )
 ;

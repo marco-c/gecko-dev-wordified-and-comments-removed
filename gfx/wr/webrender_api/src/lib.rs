@@ -948,12 +948,6 @@ hit_test
 (
 &
 self
-pipeline_id
-:
-Option
-<
-PipelineId
->
 point
 :
 WorldPoint
