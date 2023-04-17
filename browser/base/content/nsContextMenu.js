@@ -7161,7 +7161,7 @@ function
 blobURL
 )
 {
-openUILinkIn
+openLinkIn
 (
 blobURL
 where
@@ -7197,7 +7197,7 @@ nsIScriptSecurityManager
 DISALLOW_SCRIPT
 )
 ;
-openUILinkIn
+openLinkIn
 (
 this
 .
