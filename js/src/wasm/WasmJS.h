@@ -1353,6 +1353,11 @@ exportsObj
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
 static
 bool
 getExportedFunction
