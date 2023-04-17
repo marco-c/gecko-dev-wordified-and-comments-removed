@@ -354,14 +354,6 @@ False
 )
 :
     
-if
-isinstance
-(
-line
-bytes
-)
-:
-        
 line_str
 =
 line
@@ -374,12 +366,13 @@ utf
 8
 "
 )
-    
+if
+isinstance
+(
+line
+bytes
+)
 else
-:
-        
-line_str
-=
 line
     
 if
@@ -475,16 +468,30 @@ out
 1
 ]
     
-return
-bytes
+if
+not
+isinstance
 (
 out
+bytes
+)
+:
+        
+out
+=
+out
+.
+encode
+(
 "
 utf
 -
 8
 "
 )
+    
+return
+out
 if
 __name__
 =

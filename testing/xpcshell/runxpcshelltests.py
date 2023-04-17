@@ -4402,6 +4402,13 @@ line
 )
 :
         
+line
+=
+cleanup_encoding
+(
+line
+)
+        
 if
 self
 .
@@ -4420,11 +4427,29 @@ stack_fixer_function
 line
 )
         
-return
-cleanup_encoding
+if
+isinstance
 (
 line
+bytes
 )
+:
+            
+line
+=
+line
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
+        
+return
+line
     
 def
 log_line
