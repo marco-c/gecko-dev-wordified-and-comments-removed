@@ -1399,7 +1399,6 @@ def
 mochitest
 (
 self
-command_context
 *
 *
 kwargs
@@ -1463,7 +1462,6 @@ def
 geckoview_junit
 (
 self
-command_context
 *
 *
 kwargs

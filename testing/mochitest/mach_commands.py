@@ -1721,21 +1721,15 @@ run_mochitest_general
 (
         
 self
-        
-command_context
-        
 flavor
 =
 None
-        
 test_objects
 =
 None
-        
 resolve_tests
 =
 True
-        
 *
 *
 kwargs
@@ -3033,7 +3027,6 @@ def
 run_junit
 (
 self
-command_context
 no_install
 *
 *

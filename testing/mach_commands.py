@@ -1007,8 +1007,6 @@ addtest
         
 self
         
-command_context
-        
 suite
 =
 None
@@ -2209,7 +2207,6 @@ def
 test
 (
 self
-command_context
 what
 extra_args
 *
@@ -4657,9 +4654,7 @@ options
 def
 cramtest
 (
-        
 self
-command_context
 cram_args
 =
 None
@@ -4669,7 +4664,6 @@ None
 test_objects
 =
 None
-    
 )
 :
         

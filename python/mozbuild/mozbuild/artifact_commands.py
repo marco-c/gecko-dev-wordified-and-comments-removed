@@ -377,7 +377,6 @@ def
 artifact
 (
 self
-command_context
 )
 :
         
@@ -1069,8 +1068,6 @@ artifact_install
         
 self
         
-command_context
-        
 source
 =
 None
@@ -1211,7 +1208,6 @@ def
 artifact_clear_cache
 (
 self
-command_context
 tree
 =
 None
@@ -1591,8 +1587,6 @@ artifact_toolchain
 (
         
 self
-        
-command_context
         
 verbose
 =

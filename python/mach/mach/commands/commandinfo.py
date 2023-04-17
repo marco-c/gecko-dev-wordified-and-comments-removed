@@ -721,7 +721,6 @@ def
 run_commands
 (
 self
-command_context
 )
 :
         
@@ -812,7 +811,6 @@ def
 run_debug_commands
 (
 self
-command_context
 match
 =
 None
@@ -1002,7 +1000,6 @@ def
 run_completion
 (
 self
-command_context
 args
 )
 :
@@ -1431,7 +1428,6 @@ def
 completion_bash
 (
 self
-command_context
 outfile
 )
 :
@@ -2041,7 +2037,6 @@ def
 completion_zsh
 (
 self
-command_context
 outfile
 )
 :
@@ -2670,7 +2665,6 @@ def
 completion_fish
 (
 self
-command_context
 outfile
 )
 :

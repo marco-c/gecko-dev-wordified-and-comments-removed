@@ -76,7 +76,6 @@ def
 throw
 (
 self
-command_context
 message
 )
 :
@@ -122,7 +121,6 @@ def
 throw_deep
 (
 self
-command_context
 message
 )
 :

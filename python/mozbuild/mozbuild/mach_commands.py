@@ -432,7 +432,6 @@ def
 watch
 (
 self
-command_context
 verbose
 =
 False
@@ -709,7 +708,6 @@ def
 cargo
 (
 self
-command_context
 )
 :
         
@@ -907,9 +905,7 @@ output
 def
 check
 (
-        
 self
-command_context
 all_crates
 =
 None
@@ -922,7 +918,6 @@ jobs
 verbose
 =
 False
-    
 )
 :
         
@@ -1247,7 +1242,6 @@ def
 doctor
 (
 self
-command_context
 fix
 =
 None
@@ -1436,7 +1430,6 @@ def
 clobber
 (
 self
-command_context
 what
 full
 =
@@ -2280,7 +2273,6 @@ def
 show_log
 (
 self
-command_context
 log_file
 =
 None
@@ -2774,7 +2766,6 @@ def
 summary
 (
 self
-command_context
 directory
 =
 None
@@ -3034,7 +3025,6 @@ def
 list
 (
 self
-command_context
 directory
 =
 None
@@ -4090,8 +4080,6 @@ gtest
 (
         
 self
-        
-command_context
         
 shuffle
         
@@ -5319,7 +5307,6 @@ def
 package
 (
 self
-command_context
 verbose
 =
 False
@@ -5576,7 +5563,6 @@ def
 install
 (
 self
-command_context
 *
 *
 kwargs
@@ -7740,7 +7726,6 @@ def
 run
 (
 self
-command_context
 *
 *
 kwargs
@@ -11287,7 +11272,6 @@ def
 buildsymbols
 (
 self
-command_context
 )
 :
         
@@ -11449,7 +11433,6 @@ def
 environment
 (
 self
-command_context
 format
 output
 =
@@ -12405,7 +12388,6 @@ def
 repackage_dmg
 (
 self
-command_context
 input
 output
 )
@@ -12765,21 +12747,12 @@ repackage_installer
 (
         
 self
-        
-command_context
-        
 tag
-        
 setupexe
-        
 package
-        
 output
-        
 package_name
-        
 sfx_stub
-        
 use_upx
     
 )
@@ -13071,23 +13044,13 @@ repackage_msi
 (
         
 self
-        
-command_context
-        
 wsx
-        
 version
-        
 locale
-        
 arch
-        
 setupexe
-        
 candle
-        
 light
-        
 output
     
 )
@@ -13290,7 +13253,6 @@ def
 repackage_mar
 (
 self
-command_context
 input
 mar
 output
@@ -13502,7 +13464,6 @@ def
 package_l10n
 (
 self
-command_context
 verbose
 =
 False
@@ -14353,7 +14314,6 @@ def
 create_mach_environment
 (
 self
-command_context
 force
 =
 False

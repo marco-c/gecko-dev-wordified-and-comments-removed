@@ -324,7 +324,6 @@ def
 run_marionette_test
 (
 self
-command_context
 *
 *
 kwargs

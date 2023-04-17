@@ -512,7 +512,6 @@ def
 run_firefox_ui_functional
 (
 self
-command_context
 *
 *
 kwargs
