@@ -79,6 +79,11 @@ WebGLExtensionMOZDebug
 )
 DEFINE_WEBGL_EXTENSION_GOOP
 (
+OES_draw_buffers_indexed
+WebGLExtensionDrawBuffersIndexed
+)
+DEFINE_WEBGL_EXTENSION_GOOP
+(
 OES_element_index_uint
 WebGLExtensionElementIndexUint
 )

@@ -364,6 +364,17 @@ transformFeedbackBufferMode
 std
 :
 :
+bitset
+<
+kMaxDrawBuffers
+>
+hasOutput
+=
+0
+;
+std
+:
+:
 unordered_map
 <
 uint8_t
