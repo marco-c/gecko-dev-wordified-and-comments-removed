@@ -4857,7 +4857,6 @@ GetComputedStyle
 (
 &
 aElement
-nullptr
 )
 ;
 if

@@ -986,10 +986,10 @@ new
 nsComputedDOMStyle
 (
 element
-u
-"
-"
-_ns
+PseudoStyleType
+:
+:
+NotPseudo
 element
 -
 >
@@ -999,7 +999,10 @@ OwnerDoc
 nsComputedDOMStyle
 :
 :
-eAll
+StyleType
+:
+:
+All
 )
 ;
 aRv

@@ -5345,7 +5345,6 @@ nsComputedDOMStyle
 GetComputedStyle
 (
 mCanvasElement
-nullptr
 )
 ;
 if
@@ -7553,7 +7552,6 @@ nsComputedDOMStyle
 GetComputedStyle
 (
 mCanvasElement
-nullptr
 )
 ;
 if
@@ -11298,7 +11296,6 @@ nsComputedDOMStyle
 GetComputedStyle
 (
 aElement
-nullptr
 )
 ;
 if
@@ -19310,7 +19307,6 @@ nsComputedDOMStyle
 GetComputedStyle
 (
 mCanvasElement
-nullptr
 )
 ;
 if

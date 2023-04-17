@@ -3433,7 +3433,6 @@ nsComputedDOMStyle
 GetComputedStyle
 (
 aElement
-nullptr
 )
 ;
 if

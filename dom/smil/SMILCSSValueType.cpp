@@ -2429,7 +2429,6 @@ nsComputedDOMStyle
 GetComputedStyle
 (
 aTargetElement
-nullptr
 )
 ;
 if
