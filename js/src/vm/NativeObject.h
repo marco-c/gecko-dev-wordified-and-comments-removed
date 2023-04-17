@@ -2426,10 +2426,6 @@ Shape
 newShape
 =
 nullptr
-bool
-accessorShape
-=
-false
 )
 ;
 inline

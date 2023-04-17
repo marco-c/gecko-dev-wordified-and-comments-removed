@@ -784,13 +784,6 @@ Arena
 >
 gcShapeArenasToUpdate
 ;
-ZoneData
-<
-Arena
-*
->
-gcAccessorShapeArenasToUpdate
-;
 ZoneOrGCTaskData
 <
 Arena

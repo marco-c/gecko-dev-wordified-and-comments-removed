@@ -1040,10 +1040,6 @@ initialShapes_
 this
 this
 )
-nurseryShapes_
-(
-this
-)
 finalizationRegistries_
 (
 this

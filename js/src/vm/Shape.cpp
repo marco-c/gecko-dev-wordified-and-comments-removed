@@ -5237,7 +5237,6 @@ cx
 obj
 shape
 nullptr
-false
 )
 ;
 if
@@ -5771,7 +5770,6 @@ cx
 obj
 shape
 nullptr
-true
 )
 ;
 if
@@ -6696,8 +6694,6 @@ oldShape
 Shape
 *
 newShape
-bool
-accessorShape
 )
 {
 MOZ_ASSERT
