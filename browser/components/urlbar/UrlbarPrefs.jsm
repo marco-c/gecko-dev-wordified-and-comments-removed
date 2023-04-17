@@ -492,6 +492,16 @@ true
 "
 quicksuggest
 .
+scenario
+"
+"
+history
+"
+]
+[
+"
+quicksuggest
+.
 shouldShowOnboardingDialog
 "
 true

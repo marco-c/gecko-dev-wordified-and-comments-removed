@@ -329,6 +329,11 @@ quickSuggestNonSponsoredIndex
 :
 -
 1
+quickSuggestScenario
+:
+"
+history
+"
 quickSuggestShouldShowOnboardingDialog
 :
 true
