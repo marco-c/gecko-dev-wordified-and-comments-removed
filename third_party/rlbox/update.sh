@@ -61,6 +61,9 @@ com
 PLSysSec
 /
 rlbox_sandboxing_api
+-
+b
+fallible_create
 {
 MY_TEMP_DIR
 }
