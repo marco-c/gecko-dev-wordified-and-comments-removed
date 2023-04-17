@@ -2212,6 +2212,10 @@ ComputeTextfieldColors
 (
 aState
 aColors
+OutlineCoversBorder
+:
+:
+No
 )
 ;
 }
@@ -2292,6 +2296,8 @@ const
 Colors
 &
 aColors
+OutlineCoversBorder
+aOutlineCoversBorder
 )
 {
 bool
@@ -2376,6 +2382,15 @@ sColorGrey40Alpha50
 if
 (
 isFocused
+&
+&
+aOutlineCoversBorder
+=
+=
+OutlineCoversBorder
+:
+:
+Yes
 )
 {
 return
@@ -2561,6 +2576,10 @@ ComputeBorderColor
 (
 aState
 aColors
+OutlineCoversBorder
+:
+:
+Yes
 )
 ;
 return
@@ -2607,6 +2626,8 @@ const
 Colors
 &
 aColors
+OutlineCoversBorder
+aOutlineCoversBorder
 )
 {
 nscolor
@@ -2688,6 +2709,7 @@ ComputeBorderColor
 (
 aState
 aColors
+aOutlineCoversBorder
 )
 ;
 return
@@ -7000,6 +7022,10 @@ ComputeTextfieldColors
 (
 aState
 aColors
+OutlineCoversBorder
+:
+:
+Yes
 )
 ;
 const
@@ -7094,6 +7120,10 @@ ComputeTextfieldColors
 (
 aState
 aColors
+OutlineCoversBorder
+:
+:
+Yes
 )
 ;
 PaintRoundedRectWithRadius

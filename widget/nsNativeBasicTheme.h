@@ -1226,6 +1226,16 @@ Colors
 &
 )
 ;
+enum
+class
+OutlineCoversBorder
+:
+bool
+{
+No
+Yes
+}
+;
 sRGBColor
 ComputeBorderColor
 (
@@ -1235,6 +1245,7 @@ EventStates
 const
 Colors
 &
+OutlineCoversBorder
 )
 ;
 std
@@ -1275,6 +1286,7 @@ EventStates
 const
 Colors
 &
+OutlineCoversBorder
 )
 ;
 std
