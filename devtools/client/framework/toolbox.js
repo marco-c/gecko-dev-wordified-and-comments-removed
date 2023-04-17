@@ -14980,6 +14980,12 @@ _componentMount
 ;
 this
 .
+component
+=
+null
+;
+this
+.
 _componentMount
 =
 null
