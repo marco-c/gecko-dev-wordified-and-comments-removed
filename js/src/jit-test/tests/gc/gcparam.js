@@ -295,6 +295,13 @@ mallocThresholdBase
 testChangeParam
 (
 "
+urgentThreshold
+"
+)
+;
+testChangeParam
+(
+"
 nurseryTimeoutForIdleCollectionMS
 "
 )
