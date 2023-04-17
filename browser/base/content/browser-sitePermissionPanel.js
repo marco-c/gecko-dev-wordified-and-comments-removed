@@ -1385,15 +1385,6 @@ this
 _permissionPopup
 )
 {
-PopupNotifications
-.
-suppressWhileOpen
-(
-this
-.
-_permissionPopup
-)
-;
 window
 .
 addEventListener
