@@ -544,13 +544,12 @@ screenshot
 -
 clipboard
 -
-tooltip
+tooltip2
 =
 .
 title
 =
 Saves
-to
 the
 screenshot
 directly
