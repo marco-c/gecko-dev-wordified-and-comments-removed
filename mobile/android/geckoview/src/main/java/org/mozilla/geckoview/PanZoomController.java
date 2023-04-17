@@ -2123,6 +2123,14 @@ action
 MotionEvent
 .
 ACTION_UP
+|
+|
+action
+=
+=
+MotionEvent
+.
+ACTION_CANCEL
 )
 )
 )
