@@ -1291,28 +1291,13 @@ page_cycles
 -
 browsertime
 .
-test_url
+url
 "
         
 mock_test
 [
 "
 test_url
-"
-]
-        
-"
--
--
-browsertime
-.
-secondary_url
-"
-        
-mock_test
-[
-"
-secondary_url
 "
 ]
         
