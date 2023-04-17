@@ -495,7 +495,7 @@ object
 for
 setting
 the
-wptsync
+wptserve
 config
 .
     
