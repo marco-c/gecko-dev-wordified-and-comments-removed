@@ -887,37 +887,6 @@ PY_SOURCE
 import
 runtestsremote
         
-from
-mozrunner
-.
-devices
-.
-android_device
-import
-get_adb_path
-        
-if
-not
-kwargs
-[
-"
-adbPath
-"
-]
-:
-            
-kwargs
-[
-"
-adbPath
-"
-]
-=
-get_adb_path
-(
-command_context
-)
-        
 options
 =
 Namespace
@@ -2650,6 +2619,8 @@ android_device
 import
 (
             
+get_adb_path
+            
 verify_android_device
             
 InstallIntent
@@ -2739,6 +2710,28 @@ device_serial
 =
 device_serial
         
+)
+        
+if
+not
+kwargs
+[
+"
+adbPath
+"
+]
+:
+            
+kwargs
+[
+"
+adbPath
+"
+]
+=
+get_adb_path
+(
+command_context
 )
         
 run_mochitest
