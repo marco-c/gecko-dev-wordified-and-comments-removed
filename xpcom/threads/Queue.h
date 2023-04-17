@@ -34,6 +34,13 @@ Assertions
 .
 h
 "
+#
+include
+"
+mozalloc
+.
+h
+"
 namespace
 mozilla
 {
