@@ -793,8 +793,6 @@ newExpr
 =
 nullptr
 ;
-rv
-=
 optimizer
 .
 optimize
@@ -806,12 +804,6 @@ get
 )
 &
 newExpr
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 *

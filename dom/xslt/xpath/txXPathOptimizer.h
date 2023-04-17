@@ -19,7 +19,7 @@ txXPathOptimizer
 {
 public
 :
-nsresult
+void
 optimize
 (
 Expr
@@ -33,7 +33,7 @@ aOutExpr
 ;
 private
 :
-nsresult
+void
 optimizeStep
 (
 Expr
@@ -45,7 +45,7 @@ Expr
 aOutExpr
 )
 ;
-nsresult
+void
 optimizePath
 (
 Expr
@@ -57,7 +57,7 @@ Expr
 aOutExpr
 )
 ;
-nsresult
+void
 optimizeUnion
 (
 Expr

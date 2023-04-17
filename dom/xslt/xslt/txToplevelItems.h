@@ -222,7 +222,7 @@ txStripSpaceItem
 )
 ;
 TX_DECL_TOPLEVELITEM
-nsresult
+void
 addStripSpaceTest
 (
 txStripSpaceTest

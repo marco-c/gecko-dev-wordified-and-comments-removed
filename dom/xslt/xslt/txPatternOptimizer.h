@@ -19,7 +19,7 @@ txPatternOptimizer
 {
 public
 :
-nsresult
+void
 optimize
 (
 txPattern
@@ -33,7 +33,7 @@ aOutPattern
 ;
 private
 :
-nsresult
+void
 optimizeStep
 (
 txPattern
