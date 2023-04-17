@@ -170,6 +170,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIEditingSession
 .
 h
@@ -1526,9 +1533,8 @@ if
 mDocumentNode
 -
 >
-HasFlag
+IsInDesignMode
 (
-NODE_IS_EDITABLE
 )
 &
 &

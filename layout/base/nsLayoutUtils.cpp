@@ -1033,6 +1033,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIContentViewer
 .
 h
@@ -38896,9 +38903,8 @@ aDocument
 aDocument
 -
 >
-HasFlag
+IsInDesignMode
 (
-NODE_IS_EDITABLE
 )
 )
 {

@@ -245,6 +245,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsRange
 .
 h
@@ -14361,9 +14368,8 @@ window
 document
 -
 >
-HasFlag
+IsInDesignMode
 (
-NODE_IS_EDITABLE
 )
 &
 &

@@ -3726,6 +3726,13 @@ IsEditable
 )
 const
 ;
+inline
+bool
+IsInDesignMode
+(
+)
+const
+;
 bool
 IsInNativeAnonymousSubtree
 (
