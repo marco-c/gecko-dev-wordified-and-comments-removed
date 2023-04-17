@@ -36,6 +36,7 @@ from
 .
 import
 GECKO
+create
 from
 .
 actions
@@ -1276,6 +1277,13 @@ True
     
 )
     
+if
+not
+create
+.
+testing
+:
+        
 set_decision_indexes
 (
 decision_task_id

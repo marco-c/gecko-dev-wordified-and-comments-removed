@@ -138,6 +138,9 @@ task_id
 )
                 
 if
+not
+status
+or
 status
 .
 get
