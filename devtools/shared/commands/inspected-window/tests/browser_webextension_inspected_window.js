@@ -7,7 +7,7 @@ const
 TEST_RELOAD_URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 /
 inspectedwindow
@@ -438,7 +438,7 @@ fakeExtCallerInfo
 await
 setup
 (
-URL_ROOT
+URL_ROOT_SSL
 )
 ;
 const
@@ -483,7 +483,7 @@ result
 value
 .
 href
-URL_ROOT
+URL_ROOT_SSL
 "
 Got
 the
@@ -506,7 +506,7 @@ value
 .
 protocol
 "
-http
+https
 :
 "
 "
@@ -554,7 +554,7 @@ webConsoleFront
 await
 setup
 (
-URL_ROOT
+URL_ROOT_SSL
 )
 ;
 let
@@ -916,7 +916,7 @@ fakeExtCallerInfo
 await
 setup
 (
-URL_ROOT
+URL_ROOT_SSL
 )
 ;
 const
@@ -1349,7 +1349,7 @@ fakeExtCallerInfo
 await
 setup
 (
-URL_ROOT
+URL_ROOT_SSL
 )
 ;
 const

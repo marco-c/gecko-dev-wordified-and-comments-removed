@@ -141,7 +141,7 @@ tab
 await
 addTab
 (
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 sse_frontend

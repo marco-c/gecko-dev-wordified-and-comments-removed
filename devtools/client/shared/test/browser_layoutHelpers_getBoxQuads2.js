@@ -6,7 +6,7 @@ strict
 const
 TEST_URI
 =
-TEST_URI_ROOT
+TEST_URI_ROOT_SSL
 +
 "
 doc_layoutHelpers_getBoxQuads2
