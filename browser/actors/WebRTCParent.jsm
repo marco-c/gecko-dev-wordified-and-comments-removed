@@ -5684,12 +5684,6 @@ secondOrigin
 )
 ;
 }
-mainAction
-.
-disableHighlight
-=
-true
-;
 notification
 =
 chromeDoc

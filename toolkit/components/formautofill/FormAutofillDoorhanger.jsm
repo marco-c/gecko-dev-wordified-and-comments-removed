@@ -283,9 +283,6 @@ open
 -
 pref
 "
-disableHighlight
-:
-true
 }
 options
 :
@@ -1172,7 +1169,6 @@ let
 {
 label
 accessKey
-disableHighlight
 callbackState
 }
 =
@@ -1196,7 +1192,6 @@ mainAction
 label
 accessKey
 callback
-disableHighlight
 }
 ;
 if

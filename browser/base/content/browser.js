@@ -33827,9 +33827,6 @@ ALLOW_ACTION
 )
 ;
 }
-disableHighlight
-:
-true
 }
 ;
 var
@@ -34192,9 +34189,6 @@ checkboxChecked
 )
 ;
 }
-disableHighlight
-:
-true
 }
 ;
 let
@@ -34918,12 +34912,6 @@ _tid
 ;
 }
 }
-;
-mainAction
-.
-disableHighlight
-=
-true
 ;
 this
 .

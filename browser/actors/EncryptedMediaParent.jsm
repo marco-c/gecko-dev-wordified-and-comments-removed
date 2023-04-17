@@ -1185,9 +1185,6 @@ drm
 dismiss
 :
 true
-disableHighlight
-:
-true
 }
 ;
 let

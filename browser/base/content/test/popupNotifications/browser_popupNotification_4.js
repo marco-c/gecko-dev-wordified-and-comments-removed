@@ -1310,16 +1310,6 @@ this
 .
 notifyObj
 .
-mainAction
-.
-disableHighlight
-=
-true
-;
-this
-.
-notifyObj
-.
 secondaryActions
 =
 undefined
