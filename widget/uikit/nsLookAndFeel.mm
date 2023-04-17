@@ -2011,7 +2011,7 @@ else
 {
 mColorTextSelectForeground
 =
-NS_DONT_CHANGE_COLOR
+NS_SAME_AS_FOREGROUND_COLOR
 ;
 }
 mColorDarkText
