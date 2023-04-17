@@ -330,16 +330,6 @@ properties
 -
 moz
 -
-control
--
-character
--
-visibility
-"
-"
--
-moz
--
 default
 -
 appearance
