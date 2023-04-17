@@ -343,6 +343,12 @@ mElement
 ;
 RefPtr
 <
+CancelableRunnable
+>
+mOpenRunnable
+;
+RefPtr
+<
 nsMenuGroupOwnerX
 >
 mMenuGroupOwner
