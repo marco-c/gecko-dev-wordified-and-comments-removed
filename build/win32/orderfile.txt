@@ -120066,12 +120066,6 @@ PAVShadowableLayer
 23
 Z
 ?
-MayResample
-Layer
-layers
-mozilla
-QAE_NXZ
-?
 DrawTo
 ContentClientBasic
 layers

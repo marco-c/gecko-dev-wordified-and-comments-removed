@@ -119168,12 +119168,6 @@ PEAVShadowableLayer
 23
 Z
 ?
-MayResample
-Layer
-layers
-mozilla
-QEAA_NXZ
-?
 DrawTo
 ContentClientBasic
 layers

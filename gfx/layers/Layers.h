@@ -500,9 +500,6 @@ CONTENT_COMPONENT_ALPHA
 CONTENT_EXTEND_3D_CONTEXT
 =
 0x08
-CONTENT_MAY_CHANGE_TRANSFORM
-=
-0x10
 CONTENT_DISABLE_SUBPIXEL_AA
 =
 0x20
@@ -3278,11 +3275,6 @@ GetMaxTextureSize
 )
 ;
 }
-bool
-MayResample
-(
-)
-;
 RenderTargetRect
 TransformRectToRenderTarget
 (
