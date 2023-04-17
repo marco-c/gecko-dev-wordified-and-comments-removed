@@ -1039,7 +1039,7 @@ add_task
 (
 async
 function
-test_experiments_over_rtamo
+test_rtamo_over_experimnts
 (
 )
 {
@@ -1085,12 +1085,9 @@ test_screen_content
 browser
 "
 Experiment
-no
 RTAMO
 UI
 "
-[
-]
 [
 "
 h2
@@ -1114,6 +1111,8 @@ title
 '
 ]
 "
+]
+[
 ]
 )
 ;
