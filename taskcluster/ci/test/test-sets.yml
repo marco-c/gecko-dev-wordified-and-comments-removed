@@ -1286,8 +1286,6 @@ windows
 tests
 :
 -
-cppunit
--
 crashtest
 -
 firefox
@@ -1435,6 +1433,8 @@ windows10
 -
 tests
 :
+-
+cppunit
 -
 mochitest
 -
