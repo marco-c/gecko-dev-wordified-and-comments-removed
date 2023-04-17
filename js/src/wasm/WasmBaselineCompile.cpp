@@ -32352,6 +32352,8 @@ if
 moduleEnv_
 .
 maxMemoryLength
+(
+)
 .
 isNothing
 (
@@ -32361,6 +32363,8 @@ isNothing
 moduleEnv_
 .
 maxMemoryLength
+(
+)
 .
 value
 (
@@ -58902,6 +58906,8 @@ limit
 moduleEnv_
 .
 minMemoryLength
+(
+)
 +
 offsetGuardLimit
 ;

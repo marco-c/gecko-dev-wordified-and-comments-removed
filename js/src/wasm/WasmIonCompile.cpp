@@ -4620,6 +4620,8 @@ aliases
 moduleEnv_
 .
 maxMemoryLength
+(
+)
 .
 isSome
 (
@@ -4748,6 +4750,8 @@ aliases
 moduleEnv_
 .
 maxMemoryLength
+(
+)
 .
 isSome
 (
@@ -4828,6 +4832,8 @@ aliases
 moduleEnv_
 .
 maxMemoryLength
+(
+)
 .
 isSome
 (
@@ -5254,6 +5260,8 @@ check64
 moduleEnv_
 .
 maxMemoryLength
+(
+)
 .
 isNothing
 (
@@ -5263,6 +5271,8 @@ isNothing
 moduleEnv_
 .
 maxMemoryLength
+(
+)
 .
 value
 (
@@ -35632,6 +35642,15 @@ Wasm
 )
 )
 ;
+if
+(
+moduleEnv
+.
+usesMemory
+(
+)
+)
+{
 mir
 .
 initMinWasmHeapLength
@@ -35639,8 +35658,11 @@ initMinWasmHeapLength
 moduleEnv
 .
 minMemoryLength
+(
+)
 )
 ;
+}
 {
 FunctionCompiler
 f
