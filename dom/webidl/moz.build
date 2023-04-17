@@ -2140,8 +2140,7 @@ Core
 "
 DOM
 :
-Device
-Interfaces
+Networking
 "
 )
 with
@@ -2289,8 +2288,7 @@ Core
 "
 DOM
 :
-Device
-Interfaces
+Networking
 "
 )
 with
@@ -2355,8 +2353,8 @@ Core
 "
 DOM
 :
-Device
-Interfaces
+Web
+Authentication
 "
 )
 with
@@ -2377,8 +2375,7 @@ Core
 "
 DOM
 :
-Device
-Interfaces
+Networking
 "
 )
 with
@@ -2557,8 +2554,8 @@ Core
 "
 DOM
 :
-Device
-Interfaces
+Web
+Authentication
 "
 )
 with
