@@ -383,7 +383,7 @@ aMenuChildElement
 )
 ;
 void
-ActivateItemAndClose
+ActivateItemAfterClosing
 (
 RefPtr
 <

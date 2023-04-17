@@ -2810,7 +2810,7 @@ void
 nsMenuX
 :
 :
-ActivateItemAndClose
+ActivateItemAfterClosing
 (
 RefPtr
 <
@@ -2962,17 +2962,6 @@ NS_DispatchToCurrentThread
 doCommandAsync
 )
 ;
-if
-(
-mIsOpen
-)
-{
-[
-mNativeMenu
-cancelTrackingWithoutAnimation
-]
-;
-}
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
