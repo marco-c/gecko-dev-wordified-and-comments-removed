@@ -52,7 +52,6 @@ UpdateSessionStore
 (
 aBrowser
 aBrowsingContext
-aPermanentKey
 aEpoch
 aCollectSHistory
 aData
@@ -65,7 +64,6 @@ updateSessionStore
 (
 aBrowser
 aBrowsingContext
-aPermanentKey
 aEpoch
 aCollectSHistory
 aData
@@ -77,7 +75,6 @@ UpdateSessionStoreForWindow
 (
 aBrowser
 aBrowsingContext
-aPermanentKey
 aEpoch
 aData
 )
@@ -89,7 +86,6 @@ updateSessionStoreForWindow
 (
 aBrowser
 aBrowsingContext
-aPermanentKey
 aEpoch
 aData
 )
@@ -100,7 +96,6 @@ UpdateSessionStoreForStorage
 (
 aBrowser
 aBrowsingContext
-aPermanentKey
 aEpoch
 aData
 )
@@ -112,7 +107,6 @@ updateSessionStoreForStorage
 (
 aBrowser
 aBrowsingContext
-aPermanentKey
 aEpoch
 aData
 )
@@ -144,7 +138,6 @@ SSF_updateSessionStore
 (
 aBrowser
 aBrowsingContext
-aPermanentKey
 aEpoch
 aCollectSHistory
 aData
@@ -206,7 +199,6 @@ updateSessionStoreFromTablistener
 (
 aBrowser
 aBrowsingContext
-aPermanentKey
 {
 data
 :
@@ -228,25 +220,26 @@ SSF_updateSessionStoreForWindow
 (
 aBrowser
 aBrowsingContext
-aPermanentKey
 aEpoch
 aData
 )
 {
+let
+windowstatechange
+=
+aData
+;
 SessionStore
 .
 updateSessionStoreFromTablistener
 (
 aBrowser
 aBrowsingContext
-aPermanentKey
 {
 data
 :
 {
 windowstatechange
-:
-aData
 }
 epoch
 :
@@ -262,7 +255,6 @@ SSF_updateSessionStoreForWindow
 (
 aBrowser
 aBrowsingContext
-aPermanentKey
 aEpoch
 aData
 )
@@ -273,7 +265,6 @@ updateSessionStoreFromTablistener
 (
 aBrowser
 aBrowsingContext
-aPermanentKey
 {
 data
 :
