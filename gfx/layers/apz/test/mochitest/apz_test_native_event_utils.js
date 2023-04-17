@@ -5464,7 +5464,7 @@ await
 transformEndPromise
 ;
 await
-promiseOnlyApzControllerFlushed
+promiseApzFlushedRepaints
 (
 )
 ;
