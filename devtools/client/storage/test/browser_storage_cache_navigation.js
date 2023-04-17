@@ -10,23 +10,10 @@ function
 (
 )
 {
-await
-pushPref
-(
-"
-dom
-.
-security
-.
-https_first
-"
-false
-)
-;
 const
 URL1
 =
-buildInsecureURLWithContent
+buildURLWithContent
 (
 "
 example
@@ -68,7 +55,7 @@ add
 (
 "
 {
-URL_ROOT_COM
+URL_ROOT_COM_SSL
 }
 storage
 -
@@ -105,7 +92,7 @@ script
 const
 URL2
 =
-buildInsecureURLWithContent
+buildURLWithContent
 (
 "
 example
@@ -147,7 +134,7 @@ add
 (
 "
 {
-URL_ROOT_NET
+URL_ROOT_NET_SSL
 }
 storage
 -
@@ -202,7 +189,7 @@ doc
 Cache
 "
 "
-http
+https
 :
 /
 /
@@ -224,7 +211,7 @@ selectTreeItem
 Cache
 "
 "
-http
+https
 :
 /
 /
@@ -240,7 +227,7 @@ lorem
 ;
 checkCacheData
 (
-URL_ROOT_COM
+URL_ROOT_COM_SSL
 +
 "
 storage
@@ -309,7 +296,7 @@ selectTreeItem
 Cache
 "
 "
-http
+https
 :
 /
 /
@@ -347,7 +334,7 @@ doc
 Cache
 "
 "
-http
+https
 :
 /
 /
@@ -373,7 +360,7 @@ doc
 Cache
 "
 "
-http
+https
 :
 /
 /
@@ -405,7 +392,7 @@ selectTreeItem
 Cache
 "
 "
-http
+https
 :
 /
 /
@@ -421,7 +408,7 @@ foo
 ;
 checkCacheData
 (
-URL_ROOT_NET
+URL_ROOT_NET_SSL
 +
 "
 storage
