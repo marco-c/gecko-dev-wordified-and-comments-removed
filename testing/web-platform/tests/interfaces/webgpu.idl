@@ -729,7 +729,7 @@ Window
 DedicatedWorker
 )
 ]
-interface
+namespace
 GPUBufferUsage
 {
 const
@@ -810,7 +810,7 @@ Window
 DedicatedWorker
 )
 ]
-interface
+namespace
 GPUMapMode
 {
 const
@@ -927,7 +927,7 @@ Window
 DedicatedWorker
 )
 ]
-interface
+namespace
 GPUTextureUsage
 {
 const
@@ -1651,7 +1651,7 @@ Window
 DedicatedWorker
 )
 ]
-interface
+namespace
 GPUShaderStage
 {
 const
@@ -2429,7 +2429,7 @@ Window
 DedicatedWorker
 )
 ]
-interface
+namespace
 GPUColorWrite
 {
 const
