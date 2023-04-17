@@ -96,7 +96,7 @@ previousEchKdfId
 HpkeAeadId
 *
 previousEchAeadId
-SECItem
+PRUint8
 *
 previousEchConfigId
 HpkeContext

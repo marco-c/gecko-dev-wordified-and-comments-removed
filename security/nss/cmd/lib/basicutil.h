@@ -287,9 +287,6 @@ int
 len
 )
 ;
-#
-ifdef
-HAVE_EPV_TEMPLATE
 extern
 int
 SECU_PrintPrivateKey
@@ -307,8 +304,6 @@ int
 level
 )
 ;
-#
-endif
 extern
 SECStatus
 SECU_PKCS11Init

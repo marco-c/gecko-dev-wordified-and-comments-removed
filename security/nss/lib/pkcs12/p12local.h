@@ -225,6 +225,14 @@ algtag
 )
 ;
 extern
+CK_MECHANISM_TYPE
+sec_pkcs12_algtag_to_keygen_mech
+(
+SECOidTag
+algtag
+)
+;
+extern
 SEC_PKCS12PFXItem
 *
 sec_pkcs12_new_pfx

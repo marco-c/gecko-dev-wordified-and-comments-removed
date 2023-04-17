@@ -19398,7 +19398,7 @@ EnableTls13GreaseEch
 )
 EXP
 (
-EncodeEchConfig
+EncodeEchConfigId
 )
 EXP
 (

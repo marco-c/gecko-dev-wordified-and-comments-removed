@@ -346,6 +346,7 @@ certificate
 -
 request
 pkcs7
+pkcs12
 or
 crl
 files
@@ -426,7 +427,11 @@ request
 |
 pkcs7
 |
+pkcs12
+|
 crl
+|
+name
 }
 <
 /

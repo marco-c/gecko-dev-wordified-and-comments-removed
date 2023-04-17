@@ -1043,9 +1043,6 @@ CheckForCompatHandshake
 )
 ;
 }
-#
-ifdef
-NSS_ENABLE_DRAFT_HPKE
 TEST_F
 (
 Tls13CompatTest
@@ -1143,8 +1140,6 @@ kTlsAlertWarning
 )
 ;
 }
-#
-endif
 class
 TlsSessionIDEchoFilter
 :

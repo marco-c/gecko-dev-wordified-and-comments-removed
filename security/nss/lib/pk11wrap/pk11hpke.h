@@ -20,13 +20,6 @@ seccomon
 h
 "
 #
-ifdef
-NSS_ENABLE_DRAFT_HPKE
-#
-define
-HPKE_DRAFT_VERSION
-7
-#
 define
 CLEANUP
 \
@@ -122,8 +115,6 @@ cleanup
 ;
 \
 }
-#
-endif
 typedef
 enum
 {
@@ -166,6 +157,9 @@ enum
 HpkeAeadAes128Gcm
 =
 1
+HpkeAeadAes256Gcm
+=
+2
 HpkeAeadChaCha20Poly1305
 =
 3
