@@ -1062,14 +1062,6 @@ aName
 const
 override
 ;
-index_t
-ConvertMagicOffset
-(
-int32_t
-aOffset
-)
-const
-;
 uint32_t
 AdjustCaretOffset
 (
