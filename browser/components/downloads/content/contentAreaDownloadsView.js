@@ -65,6 +65,11 @@ downloadsRichListBox
 .
 focus
 (
+{
+preventFocusRing
+:
+true
+}
 )
 ;
 }
