@@ -317,6 +317,15 @@ default
 ;
 private
 :
+static
+bool
+IsBackgroundRequestRedirected
+(
+nsIHttpChannel
+*
+aChannel
+)
+;
 RefPtr
 <
 nsIURI
