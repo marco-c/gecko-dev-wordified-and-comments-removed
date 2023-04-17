@@ -640,6 +640,9 @@ mMinidumpFile
 40
 ]
 ;
+size_t
+mOOMAllocationSize
+;
 }
 ;
 #
