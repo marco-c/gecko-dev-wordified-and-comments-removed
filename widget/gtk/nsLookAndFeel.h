@@ -156,6 +156,14 @@ LookAndFeelTheme
 )
 override
 ;
+void
+GetThemeInfo
+(
+nsACString
+&
+)
+override
+;
 static
 void
 ConfigureTheme

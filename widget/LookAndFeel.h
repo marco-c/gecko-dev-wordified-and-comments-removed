@@ -660,6 +660,14 @@ GetPasswordMaskDelay
 ;
 static
 void
+GetThemeInfo
+(
+nsACString
+&
+)
+;
+static
+void
 Refresh
 (
 )

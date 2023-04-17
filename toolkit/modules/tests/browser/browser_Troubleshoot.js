@@ -1704,6 +1704,15 @@ type
 string
 "
 }
+osTheme
+:
+{
+type
+:
+"
+string
+"
+}
 rosetta
 :
 {

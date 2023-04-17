@@ -517,6 +517,16 @@ basics
 os
 =
 OS
+app
+-
+basics
+-
+os
+-
+theme
+=
+OS
+Theme
 #
 Rosetta
 is
