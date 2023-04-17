@@ -405,8 +405,8 @@ downloads
 label
 =
 Show
-downloads
-folder
+Downloads
+Folder
 downloads
 -
 cmd
