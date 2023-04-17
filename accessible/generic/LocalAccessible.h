@@ -1244,7 +1244,6 @@ Bounds
 (
 )
 const
-override
 ;
 virtual
 nsIntRect
@@ -1263,12 +1262,6 @@ nsIFrame
 aRelativeFrame
 )
 const
-;
-virtual
-nsRect
-ParentRelativeBounds
-(
-)
 ;
 virtual
 void
@@ -2520,12 +2513,6 @@ mChildren
 ;
 int32_t
 mIndexInParent
-;
-Maybe
-<
-nsRect
->
-mBounds
 ;
 static
 const
