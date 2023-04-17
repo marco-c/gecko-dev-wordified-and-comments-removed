@@ -106,6 +106,16 @@ GetRollupWidget
 =
 0
 ;
+virtual
+bool
+RollupNativeMenu
+(
+)
+{
+return
+false
+;
+}
 }
 ;
 #

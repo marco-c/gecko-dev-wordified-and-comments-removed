@@ -1209,6 +1209,13 @@ GetRollupWidget
 )
 override
 ;
+virtual
+bool
+RollupNativeMenu
+(
+)
+override
+;
 void
 OnNativeMenuOpened
 (
