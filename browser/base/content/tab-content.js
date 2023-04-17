@@ -22,11 +22,6 @@ jsm
 "
 )
 ;
-var
-global
-=
-this
-;
 Services
 .
 obs
@@ -44,7 +39,4 @@ frameloader
 created
 "
 )
-;
-void
-content
 ;
