@@ -48,7 +48,6 @@ remove_file_from_moz_build_file
 DEFAULT_EXCLUDE_FILES
 =
 [
-    
 "
 .
 git
@@ -132,7 +131,78 @@ get_source_host
 (
 )
         
+if
+"
+updatebot
+"
+in
+self
+.
+manifest
+:
+            
+ref_type
+=
+self
+.
+manifest
+[
+"
+updatebot
+"
+]
+[
+"
+tracking
+"
+]
+            
+if
+ref_type
+=
+=
+"
+tag
+"
+:
+                
+ref
+timestamp
+=
+self
+.
+source_host
+.
+upstream_tag
+(
+revision
+)
+            
+else
+:
+                
+ref
+timestamp
+=
+self
+.
+source_host
+.
+upstream_commit
+(
+revision
+)
+        
+else
+:
+            
+ref_type
+=
+"
 commit
+"
+            
+ref
 timestamp
 =
 self
@@ -159,10 +229,15 @@ vendor
             
 {
 "
-commit
+ref_type
 "
 :
-commit
+ref_type
+"
+ref
+"
+:
+ref
 "
 timestamp
 "
@@ -172,10 +247,12 @@ timestamp
             
 "
 Latest
-commit
+{
+ref_type
+}
 is
 {
-commit
+ref
 }
 from
 {
@@ -201,7 +278,7 @@ revision
 ]
 =
 =
-commit
+ref
 :
             
 self
@@ -218,14 +295,23 @@ vendor
 "
                 
 {
+"
+ref_type
+"
+:
+ref_type
 }
                 
 "
 Latest
 upstream
-commit
+{
+ref_type
+}
 matches
-commit
+{
+ref_type
+}
 in
 -
 tree
@@ -252,7 +338,7 @@ s
 "
 %
 (
-commit
+ref
 timestamp
 )
 )
@@ -263,7 +349,7 @@ self
 .
 fetch_and_unpack
 (
-commit
+ref
 )
         
 self
@@ -318,7 +404,7 @@ self
 update_yaml
 (
 yaml_file
-commit
+ref
 timestamp
 )
         
@@ -344,7 +430,7 @@ self
 .
 update_files
 (
-commit
+ref
 yaml_file
 )
         
@@ -356,14 +442,11 @@ log
 logging
 .
 INFO
-            
 "
 vendor
 "
-            
 {
 }
-            
 "
 Registering
 changes
@@ -1963,21 +2046,17 @@ self
 .
 run_process
 (
-                    
 args
 =
 [
 script
 ]
-                    
 cwd
 =
 run_dir
-                    
 log_name
 =
 script
-                
 )
             
 else
