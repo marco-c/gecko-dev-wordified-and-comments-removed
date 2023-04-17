@@ -1465,7 +1465,7 @@ _onInspectObject
 }
 attachAndInitThread
 (
-targetList
+targetCommand
 )
 {
 if
@@ -1489,7 +1489,7 @@ this
 .
 _attachAndInitThread
 (
-targetList
+targetCommand
 )
 ;
 return
@@ -1501,7 +1501,7 @@ _onThreadInitialized
 async
 _attachAndInitThread
 (
-targetList
+targetCommand
 )
 {
 if
@@ -1534,7 +1534,7 @@ attach
 const
 isBrowserToolbox
 =
-targetList
+targetCommand
 .
 targetFront
 .
@@ -1555,7 +1555,7 @@ targetType
 =
 =
 =
-targetList
+targetCommand
 .
 TYPES
 .
@@ -1574,7 +1574,7 @@ return
 }
 if
 (
-targetList
+targetCommand
 .
 descriptorFront
 .
@@ -1677,7 +1677,7 @@ wrongOrder
 "
 )
 {
-targetList
+targetCommand
 .
 emit
 (
