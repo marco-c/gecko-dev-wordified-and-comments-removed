@@ -77,10 +77,6 @@ toolchain
 -
 win64
 -
-dump_syms
--
-win64
--
 pdbstr
 win32
 /
@@ -1833,6 +1829,10 @@ win64
 -
 mozmake
 -
+win64
+-
+dump_syms
+-
 sysroot
 -
 wasm32
@@ -2394,6 +2394,10 @@ winchecksec
 win64
 -
 mozmake
+-
+win64
+-
+dump_syms
 -
 sysroot
 -
@@ -4612,6 +4616,10 @@ winchecksec
 win64
 -
 mozmake
+-
+win64
+-
+dump_syms
 optimization
 :
 test
@@ -4837,6 +4845,10 @@ winchecksec
 win64
 -
 mozmake
+-
+win64
+-
+dump_syms
 optimization
 :
 test
@@ -5051,6 +5063,10 @@ winchecksec
 win64
 -
 mozmake
+-
+win64
+-
+dump_syms
 -
 sysroot
 -
@@ -5271,6 +5287,10 @@ winchecksec
 win64
 -
 mozmake
+-
+win64
+-
+dump_syms
 -
 sysroot
 -
@@ -5543,6 +5563,10 @@ winchecksec
 win64
 -
 mozmake
+-
+win64
+-
+dump_syms
 -
 sysroot
 -
