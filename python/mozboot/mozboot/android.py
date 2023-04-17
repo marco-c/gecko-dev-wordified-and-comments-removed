@@ -1362,7 +1362,7 @@ NDK_VERSION
     
 )
     
-avd_path
+avd_home_path
 =
 os
 .
@@ -1426,7 +1426,7 @@ return
 mozbuild_path
 sdk_path
 ndk_path
-avd_path
+avd_home_path
 emulator_path
 )
 def
@@ -1790,7 +1790,7 @@ windows
 mozbuild_path
 sdk_path
 ndk_path
-avd_path
+avd_home_path
 emulator_path
 =
 get_paths
@@ -2017,9 +2017,9 @@ emulator_tool
 sdk_path
 )
         
-avd_path
+avd_home_path
 =
-avd_path
+avd_home_path
         
 sdk_path
 =
@@ -2369,7 +2369,7 @@ adb_tool
     
 emulator_tool
     
-avd_path
+avd_home_path
     
 sdk_path
     
@@ -2426,7 +2426,7 @@ return
     
 ensure_dir
 (
-avd_path
+avd_home_path
 )
     
 ensure_dir
@@ -2541,7 +2541,7 @@ ANDROID_AVD_HOME
 "
 ]
 =
-avd_path
+avd_home_path
     
 proc
 =
@@ -2620,7 +2620,7 @@ path
 .
 join
 (
-avd_path
+avd_home_path
 avd_name
 +
 "
@@ -3299,7 +3299,7 @@ False
 moz_state_dir
 sdk_path
 ndk_path
-avd_path
+avd_home_path
 emulator_path
 =
 get_paths
@@ -3352,9 +3352,9 @@ ndk_path
 =
 ndk_path
         
-avd_path
+avd_home_path
 =
-avd_path
+avd_home_path
         
 moz_state_dir
 =
