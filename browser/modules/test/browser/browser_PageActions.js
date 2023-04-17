@@ -451,7 +451,7 @@ equal
 action
 .
 pinnedToUrlbar
-gProton
+gProtonUrlbar
 "
 pinnedToUrlbar
 "
@@ -702,7 +702,7 @@ Assert
 equal
 (
 onPlacedInUrlbarCallCount
-gProton
+gProtonUrlbar
 ?
 1
 :
@@ -970,7 +970,7 @@ actionsInUrlbar
 window
 )
 (
-gProton
+gProtonUrlbar
 ?
 [
 action
@@ -1199,7 +1199,7 @@ equal
 !
 !
 urlbarButtonNode
-gProton
+gProtonUrlbar
 "
 urlbarButtonNode
 "
@@ -3895,7 +3895,7 @@ panelButtonNode
 if
 (
 !
-gProton
+gProtonUrlbar
 )
 {
 let
@@ -6080,7 +6080,7 @@ Assert
 equal
 (
 onBeforePlacedInWindowCount
-gProton
+gProtonUrlbar
 ?
 1
 :

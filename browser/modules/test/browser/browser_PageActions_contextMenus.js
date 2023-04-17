@@ -185,7 +185,7 @@ menuItems
 if
 (
 !
-gProton
+gProtonUrlbar
 )
 {
 contextMenuPromise
@@ -449,7 +449,7 @@ true
 let
 manageItemIndex
 =
-gProton
+gProtonUrlbar
 ?
 0
 :
@@ -557,7 +557,7 @@ urlbarButton
 if
 (
 !
-gProton
+gProtonUrlbar
 )
 {
 urlbarButton
@@ -1585,7 +1585,7 @@ Extension
 if
 (
 !
-gProton
+gProtonUrlbar
 )
 {
 items
