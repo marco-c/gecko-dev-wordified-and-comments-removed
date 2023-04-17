@@ -99,7 +99,7 @@ tab
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -110,16 +110,16 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
-targetList
+targetCommand
 .
 listenForServiceWorkers
 =
 true
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -128,7 +128,7 @@ startListening
 const
 serviceWorkerTargets
 =
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -227,7 +227,7 @@ targetFront
 )
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -343,7 +343,7 @@ length
 0
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

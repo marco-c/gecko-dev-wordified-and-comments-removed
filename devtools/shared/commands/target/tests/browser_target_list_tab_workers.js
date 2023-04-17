@@ -181,7 +181,7 @@ attach
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -192,16 +192,16 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
-targetList
+targetCommand
 .
 listenForWorkers
 =
 true
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -224,7 +224,7 @@ const
 workers
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -499,7 +499,7 @@ targetFront
 }
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -1969,7 +1969,7 @@ destroyed
 "
 )
 ;
-targetList
+targetCommand
 .
 unwatchTargets
 (
@@ -1985,7 +1985,7 @@ onAvailable
 onDestroy
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

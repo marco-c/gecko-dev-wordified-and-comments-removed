@@ -80,14 +80,14 @@ tab
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
 targetCommand
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -98,7 +98,7 @@ const
 watcherFront
 }
 =
-targetList
+targetCommand
 ;
 ok
 (
@@ -109,7 +109,7 @@ watcherFront
 is
 available
 on
-targetList
+targetCommand
 "
 )
 ;
@@ -243,7 +243,7 @@ configuration
 "
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

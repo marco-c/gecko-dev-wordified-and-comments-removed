@@ -143,7 +143,7 @@ forMainProcess
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -154,10 +154,10 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -167,7 +167,7 @@ const
 frames
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -218,7 +218,7 @@ const
 frames2
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -326,7 +326,7 @@ targets
 const
 topLevelTarget
 =
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -393,7 +393,7 @@ targetFront
 }
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -480,7 +480,7 @@ watchTargets
 )
 ;
 }
-targetList
+targetCommand
 .
 unwatchTargets
 (
@@ -492,7 +492,7 @@ FRAME
 onAvailable
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -501,7 +501,7 @@ destroy
 await
 waitForAllTargetsToBeAttached
 (
-targetList
+targetCommand
 )
 ;
 await
@@ -554,7 +554,7 @@ tab
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -565,10 +565,10 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -578,7 +578,7 @@ const
 frames
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -631,7 +631,7 @@ destroyedTargets
 const
 topLevelTarget
 =
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -745,7 +745,7 @@ isTargetSwitching
 }
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -986,7 +986,7 @@ swich
 await
 waitForAllTargetsToBeAttached
 (
-targetList
+targetCommand
 )
 ;
 await
@@ -1323,7 +1323,7 @@ destroyed
 ;
 is
 (
-targetList
+targetCommand
 .
 targetFront
 targets
@@ -1347,7 +1347,7 @@ same
 ok
 (
 !
-targetList
+targetCommand
 .
 targetFront
 .
@@ -1365,7 +1365,7 @@ destroyed
 )
 ;
 }
-targetList
+targetCommand
 .
 unwatchTargets
 (
@@ -1377,7 +1377,7 @@ FRAME
 onAvailable
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

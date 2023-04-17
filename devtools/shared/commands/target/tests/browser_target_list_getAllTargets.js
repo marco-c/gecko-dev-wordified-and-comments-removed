@@ -142,7 +142,7 @@ forMainProcess
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -153,10 +153,10 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -184,7 +184,7 @@ throws
 )
 =
 >
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -219,7 +219,7 @@ throws
 )
 =
 >
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -265,7 +265,7 @@ types
 const
 workerTargets
 =
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -279,7 +279,7 @@ WORKER
 const
 serviceWorkerTargets
 =
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -293,7 +293,7 @@ SERVICE_WORKER
 const
 sharedWorkerTargets
 =
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -307,7 +307,7 @@ SHARED_WORKER
 const
 processTargets
 =
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -321,7 +321,7 @@ PROCESS
 const
 frameTargets
 =
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -353,7 +353,7 @@ sharedWorkerTargets
 const
 allWorkerTargets
 =
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -449,11 +449,11 @@ frameTargets
 const
 allTargets
 =
-targetList
+targetCommand
 .
 getAllTargets
 (
-targetList
+targetCommand
 .
 ALL_TYPES
 )
@@ -508,7 +508,7 @@ targets
 "
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -517,7 +517,7 @@ destroy
 await
 waitForAllTargetsToBeAttached
 (
-targetList
+targetCommand
 )
 ;
 await

@@ -143,7 +143,7 @@ forMainProcess
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -154,10 +154,10 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -180,7 +180,7 @@ const
 workers
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -237,7 +237,7 @@ const
 sharedWorkers
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -295,7 +295,7 @@ const
 serviceWorkers
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -362,7 +362,7 @@ const
 workers2
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -377,7 +377,7 @@ const
 sharedWorkers2
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -392,7 +392,7 @@ const
 serviceWorkers2
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -743,7 +743,7 @@ targetFront
 }
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -853,7 +853,7 @@ watchTargets
 )
 ;
 }
-targetList
+targetCommand
 .
 unwatchTargets
 (
@@ -906,7 +906,7 @@ targetFront
 return
 ;
 }
-targetList
+targetCommand
 .
 unwatchTargets
 (
@@ -925,7 +925,7 @@ targetFront
 ;
 }
 ;
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -1001,7 +1001,7 @@ const
 workers3
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -1050,7 +1050,7 @@ getAllTargets
 "
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

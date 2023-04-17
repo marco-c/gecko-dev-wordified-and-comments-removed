@@ -99,7 +99,7 @@ forMainProcess
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -110,10 +110,10 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -122,7 +122,7 @@ startListening
 const
 mainProcess
 =
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -130,7 +130,7 @@ const
 processes
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -166,7 +166,7 @@ const
 frames
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -243,7 +243,7 @@ targetFront
 }
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -273,7 +273,7 @@ off
 "
 )
 ;
-targetList
+targetCommand
 .
 unwatchTargets
 (
@@ -349,7 +349,7 @@ targetFront
 }
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -401,7 +401,7 @@ watchTargets
 "
 )
 ;
-targetList
+targetCommand
 .
 unwatchTargets
 (
@@ -413,7 +413,7 @@ FRAME
 onFrameAvailable
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
