@@ -3018,7 +3018,7 @@ name
 )
 ;
 bool
-cloneSelfHostedFunctionScript
+delazifySelfHostedFunction
 (
 JSContext
 *

@@ -7841,7 +7841,7 @@ runtime
 )
 -
 >
-cloneSelfHostedFunctionScript
+delazifySelfHostedFunction
 (
 cx
 funName
