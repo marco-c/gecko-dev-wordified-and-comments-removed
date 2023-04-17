@@ -461,6 +461,7 @@ bool
 Active
 (
 )
+const
 {
 return
 mCacheInitialized
