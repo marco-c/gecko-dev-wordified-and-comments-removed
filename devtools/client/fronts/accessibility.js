@@ -334,7 +334,7 @@ getParent
 ;
 }
 get
-useChildTargetToFetchChildren
+remoteFrame
 (
 )
 {
@@ -356,13 +356,6 @@ false
 ;
 }
 return
-this
-.
-_form
-.
-useChildTargetToFetchChildren
-|
-|
 this
 .
 _form
@@ -852,7 +845,7 @@ if
 !
 this
 .
-useChildTargetToFetchChildren
+remoteFrame
 )
 {
 return
@@ -954,7 +947,7 @@ snapshot
 const
 {
 childCount
-useChildTargetToFetchChildren
+remoteFrame
 }
 =
 snapshot
@@ -975,7 +968,7 @@ snapshot
 if
 (
 !
-useChildTargetToFetchChildren
+remoteFrame
 )
 {
 const
@@ -1055,7 +1048,7 @@ contentDOMReference
 delete
 snapshot
 .
-useChildTargetToFetchChildren
+remoteFrame
 ;
 if
 (
@@ -1841,7 +1834,7 @@ if
 (
 currentElm
 .
-useChildTargetToFetchChildren
+remoteFrame
 )
 {
 const

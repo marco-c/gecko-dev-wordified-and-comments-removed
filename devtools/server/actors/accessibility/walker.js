@@ -178,7 +178,7 @@ getCurrentZoom
 isWindowIncluded
 "
 "
-isFrameWithChildTarget
+isRemoteFrame
 "
 ]
 "
@@ -3298,11 +3298,8 @@ this
 _isPicking
 |
 |
-isFrameWithChildTarget
+isRemoteFrame
 (
-this
-.
-targetActor
 event
 .
 originalTarget
