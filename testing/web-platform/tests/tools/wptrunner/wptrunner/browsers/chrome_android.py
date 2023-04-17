@@ -16,6 +16,11 @@ import
 get_timeout_multiplier
 from
 .
+base
+import
+NullBrowser
+from
+.
 chrome
 import
 executor_kwargs
@@ -70,9 +75,21 @@ check_args
 browser
 "
 :
+{
+None
+:
 "
 ChromeAndroidBrowser
 "
+                             
+"
+wdspec
+"
+:
+"
+NullBrowser
+"
+}
                  
 "
 executor

@@ -9,6 +9,7 @@ from
 .
 base
 import
+NullBrowser
 get_timeout_multiplier
 from
 .
@@ -67,9 +68,21 @@ check_args
 browser
 "
 :
+{
+None
+:
 "
 ChromeiOSBrowser
 "
+                             
+"
+wdspec
+"
+:
+"
+NullBrowser
+"
+}
                  
 "
 executor
