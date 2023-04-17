@@ -12862,7 +12862,7 @@ iter
 (
 )
 .
-readFunctionEnd
+endFunction
 (
 f
 .
@@ -24568,7 +24568,7 @@ iter
 (
 )
 .
-readFunctionStart
+startFunction
 (
 f
 .
