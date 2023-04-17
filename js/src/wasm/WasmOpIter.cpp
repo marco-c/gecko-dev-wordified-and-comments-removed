@@ -3226,7 +3226,7 @@ WASM_SIMD_OP
 OpKind
 :
 :
-VectorSelect
+Ternary
 )
 ;
 case
