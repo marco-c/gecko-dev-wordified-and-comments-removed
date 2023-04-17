@@ -714,7 +714,7 @@ mStartingTime
 return
 duration
 .
-ToMilliseconds
+ToSeconds
 (
 )
 ;
