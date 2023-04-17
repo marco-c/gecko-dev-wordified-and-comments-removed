@@ -8052,11 +8052,7 @@ GetCurrentPanGestureBlock
 {
 if
 (
-state
-.
-mHit
-.
-mTargetApzc
+block
 &
 &
 (
