@@ -2988,7 +2988,7 @@ maybeCspToInheritInfo
 aLoadInfo
 -
 >
-GetHasStoragePermission
+GetStoragePermission
 (
 )
 aLoadInfo
@@ -4334,7 +4334,7 @@ parserCreatedScript
 )
 loadInfoArgs
 .
-hasStoragePermission
+storagePermission
 (
 )
 loadInfoArgs
@@ -4702,7 +4702,7 @@ GetRequestBlockingReason
 aLoadInfo
 -
 >
-GetHasStoragePermission
+GetStoragePermission
 (
 )
 aLoadInfo
@@ -5116,11 +5116,11 @@ rv
 aLoadInfo
 -
 >
-SetHasStoragePermission
+SetStoragePermission
 (
 aForwarderArgs
 .
-hasStoragePermission
+storagePermission
 (
 )
 )
