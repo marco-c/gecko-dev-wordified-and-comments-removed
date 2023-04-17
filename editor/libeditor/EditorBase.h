@@ -4827,8 +4827,6 @@ const
 WalkTreeOptions
 &
 aOptions
-EditorType
-aEditorType
 const
 Element
 *
@@ -4850,8 +4848,6 @@ const
 WalkTreeOptions
 &
 aOptions
-EditorType
-aEditorType
 const
 Element
 *
@@ -4873,8 +4869,6 @@ const
 WalkTreeOptions
 &
 aOptions
-EditorType
-aEditorType
 const
 Element
 *
@@ -4896,8 +4890,6 @@ const
 WalkTreeOptions
 &
 aOptions
-EditorType
-aEditorType
 const
 Element
 *
@@ -5600,8 +5592,6 @@ const
 WalkTreeOptions
 &
 aOptions
-EditorType
-aEditorType
 const
 Element
 *

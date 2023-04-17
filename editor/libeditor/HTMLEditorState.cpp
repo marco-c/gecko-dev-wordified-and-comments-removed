@@ -1230,10 +1230,6 @@ WalkTreeOption
 :
 IgnoreNonEditableNode
 }
-EditorType
-:
-:
-HTML
 aHTMLEditor
 .
 GetActiveEditingHost
