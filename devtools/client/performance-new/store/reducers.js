@@ -537,11 +537,6 @@ perfFront
 action
 .
 perfFront
-receiveProfile
-:
-action
-.
-receiveProfile
 setRecordingSettings
 :
 action
@@ -557,11 +552,6 @@ pageContext
 action
 .
 pageContext
-getSymbolTableGetter
-:
-action
-.
-getSymbolTableGetter
 supportedFeatures
 :
 action

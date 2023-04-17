@@ -195,6 +195,7 @@ render
 const
 {
 isSupportedPlatform
+onProfileReceived
 }
 =
 this
@@ -230,6 +231,9 @@ OnboardingMessage
 )
 RecordingButton
 (
+{
+onProfileReceived
+}
 )
 Description
 (
