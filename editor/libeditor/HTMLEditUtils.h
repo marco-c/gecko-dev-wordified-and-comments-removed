@@ -640,6 +640,16 @@ aNode
 ;
 static
 bool
+IsDisplayOutsideInline
+(
+const
+Element
+&
+aElement
+)
+;
+static
+bool
 IsRemovableInlineStyleElement
 (
 Element
