@@ -918,6 +918,15 @@ futures
 )
 :
         
+output_file
+=
+options
+[
+"
+output_file
+"
+]
+        
 spec
 =
 futures
@@ -958,6 +967,19 @@ e
 __traceback__
 )
 )
+            
+if
+options
+[
+"
+diff
+"
+]
+:
+                
+output_file
+=
+None
         
 else
 :
@@ -977,12 +999,7 @@ out
             
 path
 =
-options
-[
-"
 output_file
-"
-]
             
 params_spec
 =
