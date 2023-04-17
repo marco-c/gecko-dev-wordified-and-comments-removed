@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EditAction
 .
 h
@@ -4856,7 +4865,7 @@ dom
 :
 :
 Selection
-*
+&
 aSpellCheckSelection
 const
 mozilla
@@ -4869,7 +4878,7 @@ mozInlineSpellStatus
 &
 aStatus
 bool
-*
+&
 aDoneChecking
 )
 :
@@ -4894,6 +4903,11 @@ mDoneChecking
 aDoneChecking
 }
 {
+MOZ_ASSERT
+(
+aStatus
+)
+;
 }
 [
 [
@@ -4922,7 +4936,7 @@ dom
 :
 :
 Selection
-*
+&
 mSpellCheckSelection
 ;
 const
@@ -4937,7 +4951,7 @@ mozInlineSpellStatus
 mStatus
 ;
 bool
-*
+&
 mDoneChecking
 ;
 }
@@ -4969,7 +4983,6 @@ __FUNCTION__
 )
 )
 ;
-*
 mDoneChecking
 =
 true
@@ -5051,8 +5064,7 @@ int32_t
 originalRangeCount
 =
 mSpellCheckSelection
--
->
+.
 RangeCount
 (
 )
@@ -5364,6 +5376,7 @@ mInlineSpellChecker
 .
 CheckWordsAndAddRangesForMisspellings
 (
+&
 mSpellCheckSelection
 words
 std
@@ -5402,7 +5415,6 @@ return
 NS_OK
 ;
 }
-*
 mDoneChecking
 =
 false
@@ -5529,8 +5541,7 @@ nsRange
 ranges
 ;
 mSpellCheckSelection
--
->
+.
 GetRangesForInterval
 (
 *
@@ -5578,6 +5589,7 @@ mInlineSpellChecker
 .
 RemoveRange
 (
+&
 mSpellCheckSelection
 ranges
 [
@@ -5683,6 +5695,7 @@ mInlineSpellChecker
 .
 CheckWordsAndAddRangesForMisspellings
 (
+&
 mSpellCheckSelection
 words
 std
@@ -5715,6 +5728,7 @@ mInlineSpellChecker
 .
 CheckWordsAndAddRangesForMisspellings
 (
+&
 mSpellCheckSelection
 words
 std
@@ -5754,14 +5768,21 @@ bool
 aDoneChecking
 )
 {
+MOZ_ASSERT
+(
+aDoneChecking
+)
+;
 SpellCheckerTimeSlice
 spellCheckerTimeSlice
 {
 *
 this
 aWordUtil
+*
 aSpellCheckSelection
 aStatus
+*
 aDoneChecking
 }
 ;
