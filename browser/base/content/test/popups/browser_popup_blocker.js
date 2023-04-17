@@ -328,7 +328,13 @@ waitForBlockedPopups
 2
 )
 ;
+EventUtils
+.
+synthesizeMouseAtCenter
+(
 notification
+.
+buttonContainer
 .
 querySelector
 (
@@ -336,9 +342,8 @@ querySelector
 button
 "
 )
-.
-doCommand
-(
+{
+}
 )
 ;
 let
