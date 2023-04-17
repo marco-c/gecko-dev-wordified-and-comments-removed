@@ -17882,6 +17882,14 @@ DontReuseHttp3Conn
 (
 )
 ;
+ent
+-
+>
+CancelAllTransactions
+(
+NS_ERROR_NET_RESET
+)
+;
 }
 void
 nsHttpConnectionMgr
