@@ -159,14 +159,6 @@ this
 targetActor
 .
 attached
-&
-&
-!
-this
-.
-targetActor
-.
-followWindowGlobalLifeCycle
 )
 {
 this
