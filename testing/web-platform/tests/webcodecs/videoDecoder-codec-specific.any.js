@@ -29,7 +29,7 @@ codedWidth
 codedHeight
 :
 240
-visibleRegion
+visibleRect
 :
 {
 left
@@ -163,7 +163,7 @@ codedWidth
 codedHeight
 :
 240
-visibleRegion
+visibleRect
 :
 {
 left
