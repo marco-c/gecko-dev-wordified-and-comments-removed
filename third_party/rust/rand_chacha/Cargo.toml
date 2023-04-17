@@ -127,7 +127,7 @@ version
 .
 2
 .
-1
+2
 "
 authors
 =
@@ -231,7 +231,7 @@ license
 =
 "
 MIT
-/
+OR
 Apache
 -
 2
@@ -258,9 +258,9 @@ rand
 [
 dependencies
 .
-c2
+ppv
 -
-chacha
+lite86
 ]
 version
 =
@@ -269,7 +269,7 @@ version
 .
 2
 .
-2
+6
 "
 features
 =
@@ -316,9 +316,9 @@ std
 =
 [
 "
-c2
+ppv
 -
-chacha
+lite86
 /
 std
 "
