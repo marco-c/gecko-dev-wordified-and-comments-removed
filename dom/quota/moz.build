@@ -248,6 +248,11 @@ SerializationHelpers
 h
 "
 "
+StorageHelpers
+.
+h
+"
+"
 UsageInfo
 .
 h
@@ -359,6 +364,11 @@ cpp
 "
 "
 ScopedLogExtraInfo
+.
+cpp
+"
+"
+StorageHelpers
 .
 cpp
 "
