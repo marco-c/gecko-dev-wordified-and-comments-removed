@@ -148,13 +148,6 @@ mozilla
 :
 SpinEventLoopUntil
 (
-"
-nsSyncStreamListener
-:
-:
-Create
-"
-_ns
 [
 &
 ]

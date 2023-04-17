@@ -719,12 +719,6 @@ DISPATCH_NORMAL
 ;
 SpinEventLoopUntil
 (
-"
-xre
-:
-ProfileResetCreateBackup
-"
-_ns
 [
 &
 ]

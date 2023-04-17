@@ -1251,13 +1251,6 @@ mozilla
 :
 SpinEventLoopUntil
 (
-"
-nsAutoConfig
-:
-:
-downloadAutoConfig
-"
-_ns
 [
 &
 ]

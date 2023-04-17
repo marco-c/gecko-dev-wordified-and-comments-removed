@@ -175,13 +175,6 @@ true
 ;
 SpinEventLoopUntil
 (
-"
-BenchmarkRunner
-:
-:
-Run
-"
-_ns
 [
 &
 ]

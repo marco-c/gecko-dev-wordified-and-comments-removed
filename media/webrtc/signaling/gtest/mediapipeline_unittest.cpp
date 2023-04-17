@@ -2103,14 +2103,6 @@ ProcessFailureBehavior
 IgnoreAndContinue
 >
 (
-"
-WaitFor
-(
-TimeDuration
-aDuration
-)
-"
-_ns
 [
 &
 ]

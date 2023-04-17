@@ -685,13 +685,6 @@ rv
 }
 SpinEventLoopUntil
 (
-"
-nsHttpConnectionMgr
-:
-:
-Shutdown
-"
-_ns
 [
 &
 shutdownWrapper

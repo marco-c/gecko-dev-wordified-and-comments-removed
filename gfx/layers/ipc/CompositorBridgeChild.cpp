@@ -1110,13 +1110,6 @@ Destroy
 ;
 SpinEventLoopUntil
 (
-"
-CompositorBridgeChild
-:
-:
-ShutDown
-"
-_ns
 [
 &
 ]

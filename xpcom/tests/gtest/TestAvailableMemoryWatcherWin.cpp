@@ -248,14 +248,6 @@ __func__
 ;
 SpinEventLoopUntil
 (
-"
-xpcom
--
-tests
-:
-WaitUntil
-"
-_ns
 [
 &
 ]

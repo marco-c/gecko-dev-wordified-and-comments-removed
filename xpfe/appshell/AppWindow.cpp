@@ -2453,13 +2453,6 @@ nojsapi
 ;
 SpinEventLoopUntil
 (
-"
-AppWindow
-:
-:
-ShowModal
-"
-_ns
 [
 &
 ]
@@ -11025,13 +11018,6 @@ nojsapi
 ;
 SpinEventLoopUntil
 (
-"
-AppWindow
-:
-:
-CreateNewContentWindow
-"
-_ns
 [
 &
 ]

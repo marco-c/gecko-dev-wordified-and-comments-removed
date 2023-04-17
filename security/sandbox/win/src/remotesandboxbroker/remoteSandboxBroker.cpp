@@ -390,13 +390,6 @@ reject
 ;
 SpinEventLoopUntil
 (
-"
-RemoteSandboxBroker
-:
-:
-LaunchApp
-"
-_ns
 [
 &
 ]

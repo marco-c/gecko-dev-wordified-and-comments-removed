@@ -1267,14 +1267,6 @@ rejected
 ;
 SpinEventLoopUntil
 (
-"
-TestMediaDataEncoder
-.
-cpp
-:
-WaitForShutdown
-"
-_ns
 [
 &
 result
