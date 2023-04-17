@@ -6763,6 +6763,15 @@ aAttribute
 nsGkAtoms
 :
 :
+aria_multiselectable
+|
+|
+aAttribute
+=
+=
+nsGkAtoms
+:
+:
 contenteditable
 |
 |
