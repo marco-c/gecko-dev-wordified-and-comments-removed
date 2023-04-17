@@ -111,7 +111,6 @@ TestThreadsMain
 Testing
 Thread
 Timer
-Thread
 ToastBgThread
 TRR
 Background
