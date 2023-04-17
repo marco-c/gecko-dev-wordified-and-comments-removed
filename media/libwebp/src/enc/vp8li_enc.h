@@ -178,6 +178,12 @@ palette_
 MAX_PALETTE_SIZE
 ]
 ;
+uint32_t
+palette_sorted_
+[
+MAX_PALETTE_SIZE
+]
+;
 struct
 VP8LBackwardRefs
 refs_

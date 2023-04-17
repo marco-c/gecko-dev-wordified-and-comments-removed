@@ -29,6 +29,7 @@ ExtractAlpha_SSE41
 const
 uint8_t
 *
+WEBP_RESTRICT
 argb
 int
 argb_stride
@@ -38,6 +39,7 @@ int
 height
 uint8_t
 *
+WEBP_RESTRICT
 alpha
 int
 alpha_stride

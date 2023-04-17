@@ -155,7 +155,7 @@ int
 VP8LGetHistogramSize
 (
 int
-palette_code_bits
+cache_bits
 )
 ;
 void
@@ -311,7 +311,7 @@ cache_bits
 VP8LHistogramSet
 *
 const
-image_in
+image_histo
 VP8LHistogram
 *
 const

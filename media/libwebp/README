@@ -80,7 +80,7 @@ v1
 .
 2
 .
-0
+1
 Description
 :
 =
@@ -6158,7 +6158,7 @@ height
 if
 (
 !
-WebPPictureAllocate
+WebPPictureAlloc
 (
 &
 pic

@@ -155,6 +155,7 @@ VP8LoadNewBytes
 (
 VP8BitReader
 *
+WEBP_RESTRICT
 const
 br
 )
@@ -493,6 +494,7 @@ VP8GetBit
 (
 VP8BitReader
 *
+WEBP_RESTRICT
 const
 br
 int
@@ -670,6 +672,7 @@ VP8GetSigned
 (
 VP8BitReader
 *
+WEBP_RESTRICT
 const
 br
 int
@@ -821,6 +824,7 @@ VP8GetBitAlt
 (
 VP8BitReader
 *
+WEBP_RESTRICT
 const
 br
 int

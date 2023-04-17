@@ -1644,7 +1644,7 @@ NULL
 if
 defined
 (
-WEBP_USE_SSE2
+WEBP_HAVE_SSE2
 )
 if
 (
@@ -1665,7 +1665,7 @@ endif
 if
 defined
 (
-WEBP_USE_SSE41
+WEBP_HAVE_SSE41
 )
 if
 (
@@ -1843,7 +1843,7 @@ NULL
 if
 defined
 (
-WEBP_USE_SSE2
+WEBP_HAVE_SSE2
 )
 if
 (
@@ -1864,7 +1864,7 @@ endif
 if
 defined
 (
-WEBP_USE_SSE41
+WEBP_HAVE_SSE41
 )
 if
 (
@@ -1928,7 +1928,7 @@ endif
 if
 defined
 (
-WEBP_USE_NEON
+WEBP_HAVE_NEON
 )
 if
 (

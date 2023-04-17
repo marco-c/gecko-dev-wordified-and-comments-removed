@@ -144,7 +144,7 @@ frow
 ;
 }
 ;
-void
+int
 WebPRescalerInit
 (
 WebPRescaler

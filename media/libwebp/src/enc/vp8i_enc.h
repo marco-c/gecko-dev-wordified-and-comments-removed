@@ -98,7 +98,7 @@ ENC_MIN_VERSION
 #
 define
 ENC_REV_VERSION
-0
+1
 enum
 {
 MAX_LF_LEVELS
@@ -1078,7 +1078,7 @@ VP8EncIterator
 const
 it
 int
-final_delta_percent
+delta
 )
 ;
 void
