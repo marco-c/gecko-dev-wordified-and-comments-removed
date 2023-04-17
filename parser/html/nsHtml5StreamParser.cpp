@@ -5407,6 +5407,11 @@ bytes
 "
 )
 ;
+(
+void
+)
+totalRead
+;
 if
 (
 mDecodingLocalFileWithoutTokenizing
