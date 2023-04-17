@@ -156,9 +156,6 @@ nsISupports
 void
 resetInterception
 (
-in
-boolean
-bypass
 )
 ;
 void

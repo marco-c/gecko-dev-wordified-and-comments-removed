@@ -4329,15 +4329,6 @@ IsNonSubresourceRequest
 (
 channel
 )
-mOuter
--
->
-mInfo
--
->
-TestingInjectCancellation
-(
-)
 )
 ;
 if

@@ -647,7 +647,6 @@ chan
 .
 resetInterception
 (
-false
 )
 ;
 }
@@ -731,7 +730,6 @@ chan
 .
 resetInterception
 (
-false
 )
 ;
 }
@@ -940,7 +938,6 @@ chan
 .
 resetInterception
 (
-false
 )
 ;
 }
@@ -1157,7 +1154,6 @@ chan
 .
 resetInterception
 (
-false
 )
 ;
 do_timeout
