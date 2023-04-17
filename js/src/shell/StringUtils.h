@@ -7,7 +7,9 @@ shell_StringUtils_h
 #
 include
 "
-jsapi
+js
+/
+StableStringChars
 .
 h
 "
@@ -16,7 +18,7 @@ include
 "
 js
 /
-StableStringChars
+String
 .
 h
 "
