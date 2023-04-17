@@ -74,12 +74,12 @@ if
 (
 AppConstants
 .
-BETA_OR_RELEASE
+RELEASE_OR_BETA
 )
 {
 return
 "
-beta_or_release
+release_or_beta
 "
 ;
 }
