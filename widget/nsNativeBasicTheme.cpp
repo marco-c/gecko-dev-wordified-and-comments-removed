@@ -1518,10 +1518,6 @@ NS_EVENT_STATE_DISABLED
 bool
 isPressed
 =
-!
-isDisabled
-&
-&
 aState
 .
 HasAllStates
@@ -1534,10 +1530,6 @@ NS_EVENT_STATE_ACTIVE
 bool
 isHovered
 =
-!
-isDisabled
-&
-&
 aState
 .
 HasState
@@ -1903,10 +1895,6 @@ NS_EVENT_STATE_ACTIVE
 bool
 isHovered
 =
-!
-isDisabled
-&
-&
 aState
 .
 HasState
@@ -2013,10 +2001,6 @@ NS_EVENT_STATE_DISABLED
 bool
 isHovered
 =
-!
-isDisabled
-&
-&
 aState
 .
 HasState
@@ -2274,10 +2258,6 @@ NS_EVENT_STATE_DISABLED
 bool
 isHovered
 =
-!
-isDisabled
-&
-&
 aState
 .
 HasState
@@ -2399,10 +2379,6 @@ NS_EVENT_STATE_DISABLED
 bool
 isHovered
 =
-!
-isDisabled
-&
-&
 aState
 .
 HasState
@@ -2524,10 +2500,6 @@ NS_EVENT_STATE_DISABLED
 bool
 isHovered
 =
-!
-isDisabled
-&
-&
 aState
 .
 HasState
