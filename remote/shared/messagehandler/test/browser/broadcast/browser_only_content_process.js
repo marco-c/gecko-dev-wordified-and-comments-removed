@@ -39,7 +39,7 @@ tab1
 .
 linkedBrowser
 "
-http
+https
 :
 /
 /

@@ -104,7 +104,7 @@ addTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
@@ -433,7 +433,7 @@ addTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
@@ -623,7 +623,7 @@ addTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
