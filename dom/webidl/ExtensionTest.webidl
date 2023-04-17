@@ -358,7 +358,7 @@ Throws
 WebExtensionStub
 =
 "
-NotImplementedNoReturn
+AssertEq
 "
 ]
 void
