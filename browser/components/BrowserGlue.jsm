@@ -24016,7 +24016,7 @@ add
 type
 request
 .
-isHandlingUserInput
+hasValidTransientUserGestureActivation
 )
 ;
 }

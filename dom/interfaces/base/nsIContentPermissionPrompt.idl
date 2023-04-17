@@ -338,7 +338,7 @@ element
 readonly
 attribute
 boolean
-isHandlingUserInput
+hasValidTransientUserGestureActivation
 ;
 /
 *

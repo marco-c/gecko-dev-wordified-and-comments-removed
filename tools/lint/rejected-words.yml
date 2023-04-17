@@ -1016,7 +1016,7 @@ test
 /
 chrome
 /
-test_permission_isHandlingUserInput
+test_permission_hasValidTransientUserActivation
 .
 xhtml
 -

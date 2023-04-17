@@ -634,7 +634,7 @@ this
 .
 request
 .
-isHandlingUserInput
+hasValidTransientUserGestureActivation
 )
 {
 if
