@@ -28120,8 +28120,6 @@ script
 jsbytecode
 *
 pc
-NewObjectKind
-newKind
 )
 {
 if
@@ -28166,7 +28164,7 @@ CopyTemplateObject
 (
 cx
 baseObject
-newKind
+GenericObject
 )
 ;
 }
@@ -28192,7 +28190,7 @@ PlainObject
 >
 (
 cx
-newKind
+GenericObject
 )
 ;
 }

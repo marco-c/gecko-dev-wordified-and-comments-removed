@@ -40809,14 +40809,6 @@ else
 {
 pushArg
 (
-Imm32
-(
-GenericObject
-)
-)
-;
-pushArg
-(
 ImmPtr
 (
 lir
@@ -40880,7 +40872,6 @@ HandleScript
 jsbytecode
 *
 pc
-NewObjectKind
 )
 ;
 callVM

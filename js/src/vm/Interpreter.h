@@ -2278,10 +2278,6 @@ script
 jsbytecode
 *
 pc
-NewObjectKind
-newKind
-=
-GenericObject
 )
 ;
 JSObject
