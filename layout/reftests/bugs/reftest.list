@@ -25156,6 +25156,12 @@ fuzzy
 if
 (
 appleSilicon
+&
+&
+nativeThemePref
+&
+&
+webrender
 100
 -
 100
