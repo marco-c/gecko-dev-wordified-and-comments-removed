@@ -77,6 +77,11 @@ EXTRA_JS_MODULES
 =
 [
 "
+CommonNames
+.
+jsm
+"
+"
 Interactions
 .
 jsm
