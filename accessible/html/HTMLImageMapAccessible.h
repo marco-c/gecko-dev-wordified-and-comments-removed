@@ -177,6 +177,13 @@ const
 override
 ;
 virtual
+nsRect
+ParentRelativeBounds
+(
+)
+override
+;
+virtual
 uint32_t
 StartOffset
 (
