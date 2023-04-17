@@ -9,6 +9,12 @@ taskgraph
 import
 files_changed
 from
+taskgraph
+.
+util
+import
+hg
+from
 mozunit
 import
 main
@@ -260,7 +266,7 @@ self
 .
 old_get
 =
-files_changed
+hg
 .
 requests
 .
@@ -281,7 +287,7 @@ FakeResponse
 (
 )
         
-files_changed
+hg
 .
 requests
 .
@@ -296,7 +302,7 @@ self
 )
 :
         
-files_changed
+hg
 .
 requests
 .
