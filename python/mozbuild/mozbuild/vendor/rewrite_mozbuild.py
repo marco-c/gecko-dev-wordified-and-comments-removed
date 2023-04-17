@@ -5924,6 +5924,14 @@ HAS_RELATIVE_CHILD
     
 return
 modes
+class
+MozBuildRewriteException
+(
+Exception
+)
+:
+    
+pass
 def
 remove_file_from_moz_build_file
 (
@@ -6151,7 +6159,7 @@ normalized_filename_to_remove
 original_normalized_filename_to_remove
     
 raise
-Exception
+MozBuildRewriteException
 (
 "
 Could
@@ -6564,8 +6572,9 @@ unnormalized_list_of_files
             
 return
     
-assert
-False
+raise
+MozBuildRewriteException
+(
 "
 Could
 not
@@ -6579,6 +6588,7 @@ file
 to
 edit
 "
+)
 def
 get_all_target_filenames_normalized
 (
