@@ -4312,9 +4312,9 @@ XPCJSRuntime
 :
 WeakPointerZonesCallback
 (
-JSContext
+JSTracer
 *
-cx
+trc
 void
 *
 data
@@ -4378,9 +4378,9 @@ XPCJSRuntime
 :
 WeakPointerCompartmentCallback
 (
-JSContext
+JSTracer
 *
-cx
+trc
 JS
 :
 :

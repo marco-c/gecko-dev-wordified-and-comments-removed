@@ -1900,9 +1900,9 @@ static
 void
 WeakPointerZonesCallback
 (
-JSContext
+JSTracer
 *
-cx
+trc
 void
 *
 data
@@ -1912,9 +1912,9 @@ static
 void
 WeakPointerCompartmentCallback
 (
-JSContext
+JSTracer
 *
-cx
+trc
 JS
 :
 :
