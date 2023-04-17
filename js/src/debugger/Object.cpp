@@ -11861,6 +11861,15 @@ desc_
 ;
 if
 (
+desc
+.
+hasValue
+(
+)
+)
+{
+if
+(
 !
 dbg
 -
@@ -11879,6 +11888,7 @@ value
 return
 false
 ;
+}
 }
 if
 (

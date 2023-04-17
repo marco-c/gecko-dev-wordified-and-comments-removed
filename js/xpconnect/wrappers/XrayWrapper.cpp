@@ -9384,6 +9384,14 @@ valueWasWaived
 orig
 -
 >
+hasValue
+(
+)
+&
+&
+orig
+-
+>
 value
 (
 )

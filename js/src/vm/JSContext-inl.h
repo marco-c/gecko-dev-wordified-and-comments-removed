@@ -1229,6 +1229,15 @@ argIndex
 )
 ;
 }
+if
+(
+desc
+.
+hasValue
+(
+)
+)
+{
 check
 (
 desc
@@ -1239,6 +1248,7 @@ value
 argIndex
 )
 ;
+}
 }
 void
 check

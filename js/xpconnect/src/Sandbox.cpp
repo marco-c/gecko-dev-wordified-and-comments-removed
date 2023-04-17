@@ -4045,6 +4045,13 @@ if
 (
 desc
 .
+hasValue
+(
+)
+&
+&
+desc
+.
 value
 (
 )

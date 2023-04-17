@@ -638,6 +638,14 @@ desc
 isSome
 (
 )
+&
+&
+desc
+-
+>
+isDataDescriptor
+(
+)
 )
 {
 intermediate
