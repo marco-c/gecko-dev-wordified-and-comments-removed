@@ -724,14 +724,6 @@ cache
 /
 .
 npm
-apt
--
-get
-clean
-apt
--
-get
-autoclean
 rm
 -
 f

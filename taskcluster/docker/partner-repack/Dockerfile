@@ -59,13 +59,6 @@ client
 unzip
 \
 zip
-&
-&
-\
-apt
--
-get
-clean
 #
 Add
 wrapper

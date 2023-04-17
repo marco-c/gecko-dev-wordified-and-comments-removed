@@ -205,13 +205,6 @@ sudo
 &
 &
 \
-apt
--
-get
-clean
-&
-&
-\
 locale
 -
 gen

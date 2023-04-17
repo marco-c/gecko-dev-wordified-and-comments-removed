@@ -125,14 +125,6 @@ rm
 -
 rf
 BUILD
-apt
--
-get
-clean
-apt
--
-get
-autoclean
 rm
 -
 rf

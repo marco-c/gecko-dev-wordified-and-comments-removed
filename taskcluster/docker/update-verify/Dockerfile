@@ -121,13 +121,6 @@ libgtk
 0
 :
 i386
-\
-&
-&
-apt
--
-get
-clean
 RUN
 mkdir
 /

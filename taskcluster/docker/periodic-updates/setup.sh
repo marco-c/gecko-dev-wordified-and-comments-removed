@@ -167,11 +167,6 @@ shellcheck
 unzip
 \
 wget
-\
-apt
--
-get
-clean
 .
 install
 -
