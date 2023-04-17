@@ -2937,6 +2937,9 @@ return
 1
 ;
 }
+#
+ifndef
+WIN32
 if
 (
 stricmp
@@ -2987,6 +2990,8 @@ return
 1
 ;
 }
+#
+endif
 PEHeaders
 ntdllheaders
 (
