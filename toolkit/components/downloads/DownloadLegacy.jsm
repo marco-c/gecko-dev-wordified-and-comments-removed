@@ -674,7 +674,6 @@ aTempFile
 aCancelable
 aIsPrivate
 aDownloadClassification
-aReferrerInfo
 )
 {
 return
@@ -691,7 +690,6 @@ aTempFile
 aCancelable
 aIsPrivate
 aDownloadClassification
-aReferrerInfo
 )
 ;
 }
@@ -706,7 +704,6 @@ aTempFile
 aCancelable
 aIsPrivate
 aDownloadClassification
-aReferrerInfo
 aBrowsingContext
 aHandleInternally
 )
@@ -770,7 +767,6 @@ aTempFile
 aCancelable
 aIsPrivate
 aDownloadClassification
-aReferrerInfo
 userContextId
 browsingContextId
 aHandleInternally
@@ -788,7 +784,6 @@ aTempFile
 aCancelable
 isPrivate
 aDownloadClassification
-referrerInfo
 userContextId
 =
 0
@@ -898,7 +893,6 @@ spec
 isPrivate
 userContextId
 browsingContextId
-referrerInfo
 }
 target
 :
