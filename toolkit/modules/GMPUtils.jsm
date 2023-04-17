@@ -566,6 +566,17 @@ cert
 .
 requireBuiltIn
 "
+KEY_CHECK_CONTENT_SIGNATURE
+:
+"
+media
+.
+gmp
+-
+manager
+.
+checkContentSignature
+"
 KEY_UPDATE_LAST_CHECK
 :
 "
