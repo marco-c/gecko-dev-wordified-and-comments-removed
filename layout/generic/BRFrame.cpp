@@ -588,7 +588,7 @@ logicalHeight
 =
 aReflowInput
 .
-CalcLineHeight
+GetLineHeight
 (
 )
 ;

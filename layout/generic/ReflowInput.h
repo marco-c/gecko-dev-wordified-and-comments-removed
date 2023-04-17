@@ -2223,7 +2223,7 @@ Nothing
 )
 ;
 nscoord
-CalcLineHeight
+GetLineHeight
 (
 )
 const
@@ -3119,6 +3119,12 @@ mWritingMode
 NS_UNCONSTRAINEDSIZE
 NS_UNCONSTRAINEDSIZE
 }
+;
+mutable
+nscoord
+mLineHeight
+=
+NS_UNCONSTRAINEDSIZE
 ;
 }
 ;

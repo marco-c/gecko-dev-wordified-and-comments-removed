@@ -1823,7 +1823,7 @@ nullptr
 reflowInput
 -
 >
-CalcLineHeight
+GetLineHeight
 (
 )
 -
