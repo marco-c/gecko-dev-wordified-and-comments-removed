@@ -4700,6 +4700,10 @@ arenaList
 void
 unprotectHeldRelocatedArenas
 (
+const
+AutoLockGC
+&
+lock
 )
 ;
 void
@@ -5534,7 +5538,7 @@ ZoneList
 >
 zonesToMaybeCompact
 ;
-MainThreadData
+GCLockData
 <
 Arena
 *
