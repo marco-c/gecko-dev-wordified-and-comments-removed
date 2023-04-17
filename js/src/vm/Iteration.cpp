@@ -502,14 +502,14 @@ prop
 ;
 }
 using
-IdSet
+PropertyKeySet
 =
 GCHashSet
 <
-jsid
+PropertyKey
 DefaultHasher
 <
-jsid
+PropertyKey
 >
 >
 ;
@@ -536,7 +536,7 @@ unsigned
 flags
 MutableHandle
 <
-IdSet
+PropertyKeySet
 >
 visited
 MutableHandleIdVector
@@ -548,7 +548,7 @@ if
 CheckForDuplicates
 )
 {
-IdSet
+PropertyKeySet
 :
 :
 AddPtr
@@ -727,7 +727,7 @@ unsigned
 flags
 MutableHandle
 <
-IdSet
+PropertyKeySet
 >
 visited
 MutableHandleIdVector
@@ -926,7 +926,7 @@ unsigned
 flags
 MutableHandle
 <
-IdSet
+PropertyKeySet
 >
 visited
 MutableHandleIdVector
@@ -1616,7 +1616,7 @@ unsigned
 flags
 MutableHandle
 <
-IdSet
+PropertyKeySet
 >
 visited
 MutableHandleIdVector
@@ -1676,7 +1676,7 @@ unsigned
 flags
 MutableHandle
 <
-IdSet
+PropertyKeySet
 >
 visited
 MutableHandleIdVector
@@ -2325,12 +2325,12 @@ props
 {
 Rooted
 <
-IdSet
+PropertyKeySet
 >
 visited
 (
 cx
-IdSet
+PropertyKeySet
 (
 cx
 )
