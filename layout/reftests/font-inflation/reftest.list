@@ -3642,7 +3642,6 @@ no
 inflation
 .
 html
-fails
 asserts
 (
 0
@@ -3786,7 +3785,6 @@ inflation
 ref
 .
 html
-fails
 skip
 -
 if
