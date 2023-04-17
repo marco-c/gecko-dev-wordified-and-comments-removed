@@ -699,7 +699,6 @@ raw
 [
 derive
 (
-Copy
 Clone
 Deserialize
 Serialize
