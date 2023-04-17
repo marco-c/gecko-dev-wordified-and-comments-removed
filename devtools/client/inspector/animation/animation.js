@@ -734,9 +734,9 @@ this
 .
 inspector
 .
-toolbox
+commands
 .
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -745,9 +745,9 @@ this
 .
 inspector
 .
-toolbox
+commands
 .
-targetList
+targetCommand
 .
 TYPES
 .
