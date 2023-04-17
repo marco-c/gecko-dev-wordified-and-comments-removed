@@ -288,6 +288,11 @@ FileStreams
 cpp
 "
 "
+InitializationTypes
+.
+cpp
+"
+"
 MemoryOutputStream
 .
 cpp
