@@ -5388,6 +5388,9 @@ None
 metrics
 =
 None
+no_auto_log
+=
+False
 )
 :
         
@@ -5735,14 +5738,7 @@ fileno
 )
 and
 not
-getattr
-(
-self
-"
-NO_AUTO_LOG
-"
-False
-)
+no_auto_log
 :
             
 self
