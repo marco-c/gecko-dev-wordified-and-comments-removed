@@ -550,15 +550,6 @@ aContent
 ;
 static
 bool
-IsTextNode
-(
-nsIContent
-*
-aContent
-)
-;
-static
-bool
 DidSkip
 (
 FilteredContentIterator
