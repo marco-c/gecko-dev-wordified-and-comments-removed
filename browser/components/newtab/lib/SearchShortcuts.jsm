@@ -410,6 +410,12 @@ includes
 (
 keyword
 )
+&
+&
+!
+e
+.
+hidden
 )
 ;
 }
