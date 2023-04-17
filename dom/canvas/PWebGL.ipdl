@@ -2,6 +2,10 @@ include
 protocol
 PCompositorBridge
 ;
+include
+protocol
+PCanvasManager
+;
 using
 mozilla
 :
@@ -328,6 +332,8 @@ PWebGL
 {
 manager
 PCompositorBridge
+or
+PCanvasManager
 ;
 parent
 :

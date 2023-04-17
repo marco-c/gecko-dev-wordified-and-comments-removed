@@ -488,6 +488,15 @@ IsInRenderThread
 )
 ;
 static
+already_AddRefed
+<
+nsIThread
+>
+GetRenderThread
+(
+)
+;
+static
 RefPtr
 <
 MemoryReportPromise
