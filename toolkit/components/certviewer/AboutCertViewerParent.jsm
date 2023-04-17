@@ -13,11 +13,6 @@ AboutCertViewerParent
 ]
 ;
 const
-TYPE_UNKNOWN
-=
-0
-;
-const
 TYPE_CA
 =
 1
@@ -50,12 +45,6 @@ let
 certs
 =
 {
-[
-TYPE_UNKNOWN
-]
-:
-[
-]
 [
 TYPE_CA
 ]
