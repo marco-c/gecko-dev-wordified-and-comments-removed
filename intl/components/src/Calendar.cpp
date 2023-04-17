@@ -464,6 +464,8 @@ const
 char
 *
 aLocale
+CommonlyUsed
+aCommonlyUsed
 )
 {
 UErrorCode
@@ -481,7 +483,13 @@ ucal_getKeywordValuesForLocale
 calendar
 "
 aLocale
-false
+static_cast
+<
+bool
+>
+(
+aCommonlyUsed
+)
 &
 status
 )

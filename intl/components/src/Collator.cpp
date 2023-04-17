@@ -1288,6 +1288,8 @@ const
 char
 *
 aLocale
+CommonlyUsed
+aCommonlyUsed
 )
 {
 UErrorCode
@@ -1305,7 +1307,13 @@ ucol_getKeywordValuesForLocale
 collation
 "
 aLocale
-false
+static_cast
+<
+bool
+>
+(
+aCommonlyUsed
+)
 &
 status
 )
