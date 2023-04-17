@@ -237,9 +237,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSISERVICEWORKERREGISTRATIONINFO
-using
-TryToActivateCallback
-=
+typedef
 std
 :
 :
@@ -249,6 +247,7 @@ void
 (
 )
 >
+TryToActivateCallback
 ;
 ServiceWorkerRegistrationInfo
 (
