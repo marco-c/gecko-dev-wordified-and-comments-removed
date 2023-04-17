@@ -6246,7 +6246,7 @@ external
 }
 pub
 fn
-optimal_texture_stride_alignment
+required_texture_stride_alignment
 (
 &
 self
@@ -6262,7 +6262,7 @@ self
 .
 device
 .
-optimal_pbo_stride
+required_pbo_stride
 (
 )
 .
