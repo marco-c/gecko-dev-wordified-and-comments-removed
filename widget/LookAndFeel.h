@@ -152,7 +152,6 @@ WindowsDefaultTheme
 DWMCompositor
 WindowsClassic
 WindowsGlass
-TouchEnabled
 MacGraphiteTheme
 MacBigSurTheme
 AlertNotificationOrigin
@@ -179,14 +178,14 @@ GTKCSDTransparentBackground
 GTKCSDMinimizeButton
 GTKCSDMaximizeButton
 GTKCSDCloseButton
+GTKCSDMinimizeButtonPosition
+GTKCSDMaximizeButtonPosition
+GTKCSDCloseButtonPosition
 GTKCSDReversedPlacement
 SystemUsesDarkTheme
 PrefersReducedMotion
 PrimaryPointerCapabilities
 AllPointerCapabilities
-GTKCSDCloseButtonPosition
-GTKCSDMinimizeButtonPosition
-GTKCSDMaximizeButtonPosition
 SystemVerticalScrollbarWidth
 SystemHorizontalScrollbarHeight
 End

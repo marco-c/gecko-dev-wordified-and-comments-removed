@@ -1656,12 +1656,6 @@ IntID
 :
 WindowsDefaultTheme
 :
-case
-IntID
-:
-:
-TouchEnabled
-:
 aResult
 =
 0

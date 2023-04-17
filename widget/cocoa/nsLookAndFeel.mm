@@ -2100,12 +2100,6 @@ case
 IntID
 :
 :
-TouchEnabled
-:
-case
-IntID
-:
-:
 WindowsThemeIdentifier
 :
 case

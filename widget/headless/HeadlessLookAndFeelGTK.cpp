@@ -963,12 +963,6 @@ case
 IntID
 :
 :
-TouchEnabled
-:
-case
-IntID
-:
-:
 MacGraphiteTheme
 :
 case
