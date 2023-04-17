@@ -116,11 +116,6 @@ apk
 default
 :
 null
-python
--
-3
-:
-true
 mozharness
 :
 script

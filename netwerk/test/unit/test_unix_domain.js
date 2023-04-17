@@ -1064,7 +1064,15 @@ socketName
 append
 (
 "
-missing
+directory
+-
+that
+-
+does
+-
+not
+-
+exist
 "
 )
 ;
