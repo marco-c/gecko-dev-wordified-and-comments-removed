@@ -556,6 +556,14 @@ ref
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+entry
+.
+mDirty
+)
+;
 }
 }
 if

@@ -204,7 +204,9 @@ mExternalSurfaces
 )
 mDirty
 (
-false
+aOther
+.
+mDirty
 )
 {
 }
@@ -261,6 +263,12 @@ aOther
 .
 mExternalSurfaces
 )
+;
+mDirty
+=
+aOther
+.
+mDirty
 ;
 return
 *
