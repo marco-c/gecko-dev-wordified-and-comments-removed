@@ -624,7 +624,7 @@ notification
 =
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 getNotificationWithValue
 (
@@ -754,7 +754,7 @@ is
 (
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 getNotificationWithValue
 (

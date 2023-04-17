@@ -220,7 +220,7 @@ browser
 .
 ownerGlobal
 .
-gHighPriorityNotificationBox
+gNotificationBox
 ;
 }
 else

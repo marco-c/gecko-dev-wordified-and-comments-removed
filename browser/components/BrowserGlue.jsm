@@ -8302,7 +8302,7 @@ true
 ;
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 appendNotification
 (
@@ -8318,7 +8318,7 @@ disabled
 "
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 PRIORITY_WARNING_MEDIUM
 buttons

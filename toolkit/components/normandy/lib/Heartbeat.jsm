@@ -811,7 +811,7 @@ this
 .
 chromeWindow
 .
-gHighPriorityNotificationBox
+gNotificationBox
 ;
 this
 .

@@ -6555,7 +6555,7 @@ waitForNotificationInNotificationBox
 (
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 notificationValue
 )
 ;

@@ -27,7 +27,7 @@ value
 let
 priority
 =
-gHighPriorityNotificationBox
+gNotificationBox
 [
 PRIORITY_
 {
@@ -75,7 +75,7 @@ getNotificationBox
 ;
 ok
 (
-gHighPriorityNotificationBox
+gNotificationBox
 .
 stack
 .
@@ -124,7 +124,7 @@ browserOne
 await
 addNotification
 (
-gHighPriorityNotificationBox
+gNotificationBox
 "
 My
 first
@@ -170,7 +170,7 @@ browserTwo
 await
 addNotification
 (
-gHighPriorityNotificationBox
+gNotificationBox
 "
 My
 second
@@ -193,7 +193,7 @@ browserThree
 await
 addNotification
 (
-gHighPriorityNotificationBox
+gNotificationBox
 "
 My
 third
@@ -269,7 +269,7 @@ browserOne
 .
 .
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 stack
 .
@@ -308,7 +308,7 @@ appended
 "
 )
 ;
-gHighPriorityNotificationBox
+gNotificationBox
 .
 removeAllNotifications
 (

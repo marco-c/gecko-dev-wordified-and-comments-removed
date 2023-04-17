@@ -2215,7 +2215,7 @@ notification
 =
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 getNotificationWithValue
 (
@@ -2331,7 +2331,7 @@ win
 }
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 appendNotification
 (
@@ -2358,7 +2358,7 @@ png
 "
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 PRIORITY_INFO_HIGH
 buttons
@@ -2408,7 +2408,7 @@ notification
 =
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 getNotificationWithValue
 (
@@ -2426,7 +2426,7 @@ notification
 {
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 removeNotification
 (

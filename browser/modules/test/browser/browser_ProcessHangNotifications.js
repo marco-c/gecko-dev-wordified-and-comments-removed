@@ -73,7 +73,7 @@ notificationBox
 =
 aWindow
 .
-gHighPriorityNotificationBox
+gNotificationBox
 ;
 notificationBox
 .
