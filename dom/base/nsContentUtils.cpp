@@ -33244,7 +33244,7 @@ PLUGIN_DLF_CONTRACTID
 *
 aLoaderType
 =
-TYPE_PLUGIN
+TYPE_FALLBACK
 ;
 else
 *
@@ -49688,7 +49688,7 @@ supported
 nsIWebNavigationInfo
 :
 :
-PLUGIN
+FALLBACK
 ;
 }
 nsCOMPtr
@@ -49923,7 +49923,7 @@ TYPE_DOCUMENT
 ;
 }
 bool
-isPlugin
+isSpecialPlugin
 =
 nsPluginHost
 :
@@ -49941,14 +49941,14 @@ eSpecialType_None
 ;
 if
 (
-isPlugin
+isSpecialPlugin
 )
 {
 return
 nsIObjectLoadingContent
 :
 :
-TYPE_PLUGIN
+TYPE_FALLBACK
 ;
 }
 return

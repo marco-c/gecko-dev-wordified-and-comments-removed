@@ -185,12 +185,6 @@ using
 Document
 :
 :
-GetPlugins
-;
-using
-Document
-:
-:
 SetDocumentURI
 ;
 nsHTMLDocument
