@@ -15,6 +15,13 @@ h
 "
 src
 /
+DateTimePatternGenerator
+.
+h
+"
+"
+src
+/
 ICU4CGlue
 .
 h
@@ -42,6 +49,13 @@ UNIFIED_SOURCES
 src
 /
 DateTimeFormat
+.
+cpp
+"
+"
+src
+/
+DateTimePatternGenerator
 .
 cpp
 "
