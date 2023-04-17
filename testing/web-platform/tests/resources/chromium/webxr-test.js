@@ -4448,7 +4448,7 @@ const
 frameData
 =
 {
-pose
+mojoFromViewer
 :
 this
 .
