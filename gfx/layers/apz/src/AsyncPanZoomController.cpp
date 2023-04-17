@@ -21419,15 +21419,6 @@ GetSnapInfo
 ;
 mScrollMetadata
 .
-SetScrollClip
-(
-Nothing
-(
-)
-)
-;
-mScrollMetadata
-.
 SetIsLayersIdRoot
 (
 aScrollMetadata
