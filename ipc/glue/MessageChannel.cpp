@@ -9752,7 +9752,7 @@ routing_id
 MSG_ROUTING_NONE
 )
 {
-MOZ_CRASH
+NS_WARNING
 (
 "
 unhandled
@@ -9761,6 +9761,17 @@ message
 !
 "
 )
+;
+MaybeHandleError
+(
+MsgNotKnown
+aMsg
+"
+DispatchAsyncMessage
+"
+)
+;
+return
 ;
 }
 Result
