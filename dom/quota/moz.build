@@ -173,6 +173,16 @@ FileStreams
 h
 "
 "
+FirstInitializationAttempts
+.
+h
+"
+"
+FirstInitializationAttemptsImpl
+.
+h
+"
+"
 InitializationTypes
 .
 h
