@@ -133,17 +133,6 @@ mozilla
 /
 dom
 /
-WebComponentsBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 DocGroup
 .
 h

@@ -5677,11 +5677,6 @@ WebAuthentication
 webidl
 "
 "
-WebComponents
-.
-webidl
-"
-"
 WebGL2RenderingContext
 .
 webidl
