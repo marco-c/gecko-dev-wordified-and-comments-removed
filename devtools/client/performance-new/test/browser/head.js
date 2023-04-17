@@ -42,7 +42,7 @@ registerCleanupFunction
 {
 BackgroundJSM
 .
-revertRecordingPreferences
+revertRecordingSettings
 (
 )
 ;

@@ -381,7 +381,7 @@ state
 receiveProfile
 ;
 const
-getSetRecordingPreferencesFn
+getSetRecordingSettingsFn
 =
 state
 =
@@ -391,7 +391,7 @@ getInitializedValues
 state
 )
 .
-setRecordingPreferences
+setRecordingSettings
 ;
 const
 getPageContext
@@ -465,7 +465,7 @@ getRecordingSettings
 getInitializedValues
 getPerfFront
 getReceiveProfileFn
-getSetRecordingPreferencesFn
+getSetRecordingSettingsFn
 getPageContext
 getSymbolTableGetter
 getPromptEnvRestart
