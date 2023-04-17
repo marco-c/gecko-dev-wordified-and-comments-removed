@@ -405,12 +405,6 @@ aDelay
 ;
 static
 void
-KillGCTimer
-(
-)
-;
-static
-void
 PokeShrinkingGC
 (
 )
