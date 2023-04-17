@@ -1458,6 +1458,8 @@ accesskey
 d
 switch
 -
+links
+-
 to
 -
 new
@@ -1472,9 +1474,6 @@ you
 open
 a
 link
-image
-or
-media
 in
 a
 new
