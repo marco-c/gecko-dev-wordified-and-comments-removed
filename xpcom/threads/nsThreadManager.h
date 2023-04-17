@@ -146,6 +146,11 @@ char
 aName
 )
 ;
+void
+CancelBackgroundDelayedRunnables
+(
+)
+;
 ~
 nsThreadManager
 (

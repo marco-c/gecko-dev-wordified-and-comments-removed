@@ -103,6 +103,11 @@ nsICancelableRunnable
 h
 "
 "
+nsIDelayedRunnableObserver
+.
+h
+"
+"
 nsIDiscardableRunnable
 .
 h
