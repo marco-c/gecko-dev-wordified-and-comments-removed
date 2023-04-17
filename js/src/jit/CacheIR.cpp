@@ -57023,6 +57023,17 @@ writer
 .
 guardNoAllocationMetadataBuilder
 (
+cx_
+-
+>
+realm
+(
+)
+-
+>
+addressOfMetadataBuilder
+(
+)
 )
 ;
 writer
