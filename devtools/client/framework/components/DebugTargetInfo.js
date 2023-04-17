@@ -1728,11 +1728,9 @@ props
 .
 toolbox
 .
-commands
+target
 .
-targetCommand
-.
-reloadTopLevelTarget
+reload
 (
 )
 }

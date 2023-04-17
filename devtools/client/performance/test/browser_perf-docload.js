@@ -108,6 +108,7 @@ function
 const
 {
 panel
+target
 }
 =
 await
@@ -141,7 +142,7 @@ panel
 await
 reload
 (
-panel
+target
 )
 ;
 await
