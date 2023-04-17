@@ -1,7 +1,5 @@
 import
 collections
-import
-json
 from
 typing
 import
@@ -16,7 +14,7 @@ Exception
 )
 :
     
-error
+error_code
 =
 None
     
@@ -193,7 +191,7 @@ BidiException
 )
 :
     
-error
+error_code
 =
 "
 invalid
@@ -206,7 +204,7 @@ BidiException
 )
 :
     
-error
+error_code
 =
 "
 unknown
@@ -219,7 +217,7 @@ BidiException
 )
 :
     
-error
+error_code
 =
 "
 unknown
@@ -290,13 +288,16 @@ stacktrace
 def
 get
 (
-error
+error_code
 :
 str
 )
 -
 >
+Type
+[
 BidiException
+]
 :
     
 "
@@ -331,7 +332,7 @@ _errors
 .
 get
 (
-error
+error_code
 UnknownErrorException
 )
 _errors
@@ -385,7 +386,7 @@ _errors
 [
 item
 .
-error
+error_code
 ]
 =
 item
