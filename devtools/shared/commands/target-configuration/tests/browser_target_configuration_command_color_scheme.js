@@ -7,7 +7,7 @@ const
 TEST_DOCUMENT
 =
 "
-doc_media_queries
+target_configuration_test_doc
 .
 sjs
 "
