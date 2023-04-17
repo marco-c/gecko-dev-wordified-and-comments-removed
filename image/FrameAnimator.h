@@ -138,10 +138,6 @@ mCompositedFrameInvalid
 (
 false
 )
-mCompositedFrameRequested
-(
-false
-)
 mDiscarded
 (
 false
@@ -481,9 +477,6 @@ mIsCurrentlyDecoded
 ;
 bool
 mCompositedFrameInvalid
-;
-bool
-mCompositedFrameRequested
 ;
 bool
 mDiscarded
