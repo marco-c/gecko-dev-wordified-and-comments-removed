@@ -2473,6 +2473,15 @@ info
 )
 ;
 async
+CreateAboutBlankContentViewer
+(
+nsIPrincipal
+principal
+nsIPrincipal
+partitionedPrincipal
+)
+;
+async
 ResumeLoad
 (
 uint64_t
