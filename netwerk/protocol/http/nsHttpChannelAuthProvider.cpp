@@ -5102,6 +5102,16 @@ return
 NS_ERROR_FACTORY_NOT_REGISTERED
 ;
 }
+if
+(
+!
+authenticator
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 MOZ_ASSERT
 (
 authenticator
