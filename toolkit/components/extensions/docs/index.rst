@@ -233,5 +233,6 @@ events
 manifest
 lifecycle
 incognito
+webidl_bindings
 other
 reference
