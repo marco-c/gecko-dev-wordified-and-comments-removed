@@ -14514,7 +14514,7 @@ get
 TEST_F
 (
 VideoConduitTest
-DISABLED_TestVideoEncodeMaxWidthAndHeight
+TestVideoEncodeMaxWidthAndHeight
 )
 {
 mControl
