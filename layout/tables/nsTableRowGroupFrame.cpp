@@ -8716,6 +8716,7 @@ GetLine
 int32_t
 aLineNumber
 )
+const
 {
 if
 (
@@ -9042,6 +9043,7 @@ bool
 *
 aPosIsAfterLastFrame
 )
+const
 {
 nsTableFrame
 *
