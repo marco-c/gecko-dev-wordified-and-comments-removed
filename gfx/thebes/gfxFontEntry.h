@@ -1597,6 +1597,11 @@ HasItalicVariation
 (
 )
 ;
+bool
+HasOpticalSize
+(
+)
+;
 void
 CheckForVariationAxes
 (
@@ -1953,6 +1958,14 @@ eNonCSSStretch
 <
 <
 6
+)
+eOpticalSize
+=
+(
+1
+<
+<
+7
 )
 }
 ;

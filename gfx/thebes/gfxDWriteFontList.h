@@ -801,6 +801,15 @@ DWRITE_FONT_SIMULATIONS
 aSimulations
 =
 DWRITE_FONT_SIMULATIONS_NONE
+const
+nsTArray
+<
+gfxFontVariation
+>
+*
+aVariations
+=
+nullptr
 )
 ;
 static

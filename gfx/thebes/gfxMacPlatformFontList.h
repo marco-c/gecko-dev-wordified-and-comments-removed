@@ -335,12 +335,6 @@ mHasAATSmallCaps
 bool
 mHasAATSmallCapsInitialized
 ;
-bool
-mCheckedForOpszAxis
-;
-bool
-mHasOpszAxis
-;
 gfxFontVariationAxis
 mOpszAxis
 ;
