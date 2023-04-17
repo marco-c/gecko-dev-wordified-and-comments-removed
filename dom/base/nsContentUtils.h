@@ -999,6 +999,16 @@ JSObject
 ;
 static
 bool
+IsCallerChromeOrErrorPage
+(
+JSContext
+*
+JSObject
+*
+)
+;
+static
+bool
 IsSystemCaller
 (
 JSContext

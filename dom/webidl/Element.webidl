@@ -1161,7 +1161,14 @@ editable
 element
 .
 [
-ChromeOnly
+Func
+=
+"
+nsContentUtils
+:
+:
+IsCallerChromeOrErrorPage
+"
 ]
 boolean
 preventFocusRing
