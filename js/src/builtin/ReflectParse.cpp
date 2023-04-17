@@ -326,7 +326,6 @@ BINOP_BITXOR
 BINOP_BITAND
 BINOP_IN
 BINOP_INSTANCEOF
-BINOP_PIPELINE
 BINOP_COALESCE
 BINOP_LIMIT
 }
@@ -555,10 +554,6 @@ in
 "
 "
 instanceof
-"
-"
-|
->
 "
 "
 ?
@@ -9884,15 +9879,6 @@ case
 ParseNodeKind
 :
 :
-PipelineExpr
-:
-return
-BINOP_PIPELINE
-;
-case
-ParseNodeKind
-:
-:
 CoalesceExpr
 :
 return
@@ -16482,12 +16468,6 @@ dst
 )
 ;
 }
-case
-ParseNodeKind
-:
-:
-PipelineExpr
-:
 case
 ParseNodeKind
 :

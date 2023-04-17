@@ -961,12 +961,6 @@ cpp
 \
 F
 (
-PipelineExpr
-ListNode
-)
-\
-F
-(
 CoalesceExpr
 ListNode
 )
@@ -1284,7 +1278,7 @@ BinOpFirst
 ParseNodeKind
 :
 :
-PipelineExpr
+CoalesceExpr
 BinOpLast
 =
 ParseNodeKind
