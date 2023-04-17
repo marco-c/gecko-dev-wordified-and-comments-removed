@@ -2293,7 +2293,7 @@ Expr
 {
 public
 :
-nsresult
+void
 addExpr
 (
 Expr
@@ -2307,9 +2307,6 @@ AppendElement
 (
 aExpr
 )
-;
-return
-NS_OK
 ;
 }
 void
