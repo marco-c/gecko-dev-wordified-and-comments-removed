@@ -31,6 +31,10 @@ jsonschema
 "
     
 "
+attr
+"
+    
+"
 mozlog
 >
 =
