@@ -370,8 +370,6 @@ NS_STANDARDURLMUTATOR_CONTRACTID
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIStandardURLMutator
 :
@@ -387,7 +385,6 @@ spec
 charset
 nullptr
 nullptr
-)
 )
 .
 Finalize
@@ -1134,8 +1131,6 @@ NS_STANDARDURLMUTATOR_CONTRACTID
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIStandardURLMutator
 :
@@ -1161,7 +1156,6 @@ otherJAR
 >
 mJAREntry
 nullptr
-)
 )
 .
 Finalize
@@ -2369,8 +2363,6 @@ mJAREntry
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIURLMutator
 :
@@ -2381,7 +2373,6 @@ nsCString
 fileName
 )
 nullptr
-)
 )
 .
 Finalize
@@ -2431,8 +2422,6 @@ mJAREntry
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIURLMutator
 :
@@ -2443,7 +2432,6 @@ nsCString
 fileBaseName
 )
 nullptr
-)
 )
 .
 Finalize
@@ -2493,8 +2481,6 @@ mJAREntry
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIURLMutator
 :
@@ -2505,7 +2491,6 @@ nsCString
 fileExtension
 )
 nullptr
-)
 )
 .
 Finalize

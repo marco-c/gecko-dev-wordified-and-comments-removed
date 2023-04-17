@@ -266,8 +266,6 @@ Mutator
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIStandardURLMutator
 :
@@ -284,9 +282,8 @@ nsCString
 aSpec
 )
 aCharset
-base
+aBaseURI
 nullptr
-)
 )
 .
 Finalize

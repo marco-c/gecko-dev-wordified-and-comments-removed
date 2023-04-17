@@ -8204,8 +8204,6 @@ Mutator
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIStandardURLMutator
 :
@@ -8223,7 +8221,6 @@ aSpec
 aCharset
 base
 nullptr
-)
 )
 .
 Finalize
@@ -8677,19 +8674,14 @@ Mutator
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIFileURLMutator
 :
 :
 MarkFileURL
 )
-)
 .
 Apply
-(
-NS_MutatorMethod
 (
 &
 nsIStandardURLMutator
@@ -8706,7 +8698,6 @@ buf
 aCharset
 base
 nullptr
-)
 )
 .
 Finalize
@@ -9010,8 +9001,6 @@ Mutator
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIStandardURLMutator
 :
@@ -9029,7 +9018,6 @@ aSpec
 aCharset
 base
 nullptr
-)
 )
 .
 Finalize
@@ -9236,8 +9224,6 @@ Mutator
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIJARURIMutator
 :
@@ -9249,7 +9235,6 @@ aSpec
 )
 base
 aCharset
-)
 )
 .
 Finalize
@@ -9343,8 +9328,6 @@ Mutator
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIStandardURLMutator
 :
@@ -9363,7 +9346,6 @@ aSpec
 aCharset
 base
 nullptr
-)
 )
 .
 Finalize
@@ -9403,8 +9385,6 @@ NS_STANDARDURLMUTATOR_CONTRACTID
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIStandardURLMutator
 :
@@ -9423,7 +9403,6 @@ aSpec
 aCharset
 base
 nullptr
-)
 )
 .
 Finalize
@@ -14810,8 +14789,6 @@ mutator
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIStandardURLMutator
 :
@@ -14819,7 +14796,6 @@ nsIStandardURLMutator
 SetDefaultPort
 443
 nullptr
-)
 )
 ;
 }
