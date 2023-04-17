@@ -575,7 +575,7 @@ void
 float
 alpha
 =
-init_transform_fs
+init_transform_rough_fs
 (
 vLocalPos
 )
