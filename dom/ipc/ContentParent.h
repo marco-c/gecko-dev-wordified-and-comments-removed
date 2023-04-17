@@ -2587,9 +2587,6 @@ TransmitBlobDataIfBlobURL
 nsIURI
 *
 aURI
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 void

@@ -344,6 +344,15 @@ nsIPrincipal
 aPrincipal
 )
 ;
+static
+bool
+IsBlobURLBroadcastPrincipal
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 private
 :
 ~
