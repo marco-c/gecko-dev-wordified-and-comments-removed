@@ -2971,7 +2971,10 @@ else
 AutoSelectionRestorer
 restoreSelectionLater
 (
+MOZ_KnownLive
+(
 mHTMLEditor
+)
 )
 ;
 rv
