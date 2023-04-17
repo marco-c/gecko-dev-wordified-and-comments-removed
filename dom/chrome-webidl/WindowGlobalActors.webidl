@@ -830,6 +830,7 @@ name
 )
 ;
 JSWindowActorParent
+?
 getExistingActor
 (
 UTF8String
@@ -1275,6 +1276,7 @@ name
 )
 ;
 JSWindowActorChild
+?
 getExistingActor
 (
 UTF8String
