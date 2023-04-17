@@ -689,6 +689,18 @@ _ignore_children
 =
 ignore_children
             
+self
+.
+_job
+=
+None
+            
+self
+.
+_io_port
+=
+None
+            
 if
 not
 self
