@@ -63,6 +63,8 @@ public
 DOMEventTargetHelper
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
@@ -81,6 +83,7 @@ aConduit
 )
 ;
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (

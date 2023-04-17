@@ -694,9 +694,12 @@ final
 :
 public
 nsITimerCallback
+public
+nsINamed
 {
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 private
 :
 static

@@ -174,12 +174,14 @@ public
 HttpConnectionMgrShell
 public
 nsIObserver
+nsINamed
 {
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_HTTPCONNECTIONMGRSHELL
 NS_DECL_NSIOBSERVER
+NS_DECL_NSINAMED
 nsHttpConnectionMgr
 (
 )
