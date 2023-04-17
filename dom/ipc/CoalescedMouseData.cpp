@@ -281,6 +281,13 @@ aEvent
 event
 -
 >
+mMessage
+=
+ePointerMove
+;
+event
+-
+>
 mFlags
 .
 mBubbles
