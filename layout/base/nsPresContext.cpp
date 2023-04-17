@@ -11138,7 +11138,7 @@ true
 ;
 if
 (
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 )
@@ -11529,7 +11529,7 @@ mPresShell
 ;
 if
 (
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 )
