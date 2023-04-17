@@ -662,6 +662,9 @@ Option
 <
 Level
 >
+host
+:
+String
 address
 :
 SocketAddr
@@ -1180,6 +1183,13 @@ Operation
 Server
 {
 log_level
+host
+:
+host
+.
+into
+(
+)
 address
 settings
 deprecated_storage_arg
@@ -1249,6 +1259,7 @@ Operation
 Server
 {
 log_level
+host
 address
 settings
 deprecated_storage_arg
@@ -1342,6 +1353,7 @@ server
 :
 start
 (
+host
 address
 handler
 extension_routes
