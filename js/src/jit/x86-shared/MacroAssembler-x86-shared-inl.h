@@ -10368,8 +10368,6 @@ FloatRegister
 src
 FloatRegister
 dest
-FloatRegister
-temp
 )
 {
 MacroAssemblerX86Shared
@@ -10379,7 +10377,6 @@ packedRightShiftByScalarInt8x16
 (
 count
 src
-temp
 dest
 )
 ;

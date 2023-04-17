@@ -3026,8 +3026,6 @@ count
 FloatRegister
 src
 FloatRegister
-temp
-FloatRegister
 dest
 )
 ;
