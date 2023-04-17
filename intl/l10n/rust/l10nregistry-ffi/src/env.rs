@@ -1,13 +1,4 @@
 use
-crate
-:
-:
-xpcom_utils
-:
-:
-get_app_locales
-;
-use
 cstr
 :
 :
