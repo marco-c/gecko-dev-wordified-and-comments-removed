@@ -266,6 +266,9 @@ class
 RegExpStatics
 ;
 class
+RegExpStaticsObject
+;
+class
 GlobalObjectData
 {
 friend
@@ -309,6 +312,13 @@ GlobalScope
 *
 >
 emptyGlobalScope
+;
+HeapPtr
+<
+RegExpStaticsObject
+*
+>
+regExpStatics
 ;
 void
 trace
@@ -371,7 +381,6 @@ IMPORT_ENTRY_PROTO
 EXPORT_ENTRY_PROTO
 REQUESTED_MODULE_PROTO
 MODULE_REQUEST_PROTO
-REGEXP_STATICS
 INTRINSICS
 FOR_OF_PIC_CHAIN
 WINDOW_PROXY
