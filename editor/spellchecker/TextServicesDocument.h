@@ -197,13 +197,13 @@ Maybe
 <
 uint32_t
 >
-mSelStartOffset
+mSelectionStartOffsetInTextInBlock
 ;
 Maybe
 <
 uint32_t
 >
-mSelEndOffset
+mSelectionEndOffsetInTextInBlock
 ;
 uint32_t
 mTxtSvcFilterType
