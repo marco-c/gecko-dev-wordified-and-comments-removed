@@ -1165,6 +1165,7 @@ dst
 TextureId
 subresource_range
 :
+&
 ImageSubresourceRange
 )
 -

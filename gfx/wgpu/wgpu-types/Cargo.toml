@@ -13,7 +13,7 @@ version
 "
 0
 .
-8
+9
 .
 0
 "
@@ -80,7 +80,9 @@ graphics
 license
 =
 "
-MPL
+MIT
+OR
+Apache
 -
 2
 .

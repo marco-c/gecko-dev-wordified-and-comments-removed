@@ -125,7 +125,7 @@ version
 "
 0
 .
-22
+23
 .
 0
 "
@@ -537,9 +537,11 @@ version
 [
 dependencies
 .
-cocoa
+core
 -
-foundation
+graphics
+-
+types
 ]
 version
 =
