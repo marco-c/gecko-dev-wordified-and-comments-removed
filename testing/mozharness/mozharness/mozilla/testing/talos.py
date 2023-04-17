@@ -1789,6 +1789,21 @@ installer_url
         
 self
 .
+test_packages_url
+=
+self
+.
+config
+.
+get
+(
+"
+test_packages_url
+"
+)
+        
+self
+.
 talos_json_url
 =
 self
