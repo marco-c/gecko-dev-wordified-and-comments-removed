@@ -18,6 +18,10 @@ import
 subprocess
 import
 sys
+from
+tempfile
+import
+TemporaryDirectory
 IS_NATIVE_WIN
 =
 sys
@@ -2557,14 +2561,6 @@ installed
 "
 "
         
-import
-mozfile
-        
-from
-mozfile
-import
-TemporaryDirectory
-        
 if
 sys
 .
@@ -2766,7 +2762,7 @@ zip
 package
 )
                 
-mozfile
+shutil
 .
 move
 (
