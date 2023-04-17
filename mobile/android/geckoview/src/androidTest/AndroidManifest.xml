@@ -463,7 +463,7 @@ name
 .
 crash
 .
-RemoteGeckoService
+RuntimeCrashTestService
 "
 android
 :
@@ -485,7 +485,7 @@ process
 =
 "
 :
-gecko
+crashtest
 "
 >
 <
@@ -496,11 +496,13 @@ service
 !
 -
 -
-This
-is
-needed
-for
-ProfileLockedTest
+Used
+to
+run
+multiple
+runtimes
+during
+tests
 -
 -
 >
@@ -512,8 +514,8 @@ name
 =
 "
 .
-TestProfileLockService
-p0
+TestRuntimeService
+instance0
 "
 android
 :
@@ -535,7 +537,7 @@ process
 =
 "
 :
-profiletest0
+runtime0
 "
 /
 >
@@ -547,8 +549,8 @@ name
 =
 "
 .
-TestProfileLockService
-p1
+TestRuntimeService
+instance1
 "
 android
 :
@@ -570,7 +572,7 @@ process
 =
 "
 :
-profiletest1
+runtime1
 "
 /
 >
