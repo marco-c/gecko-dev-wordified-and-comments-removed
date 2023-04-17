@@ -1407,6 +1407,14 @@ MozWinCommunicationstext
 MozNativehyperlinktext
 #
 [
+css
+(
+skip
+)
+]
+MozNativevisitedhyperlinktext
+#
+[
 parse
 (
 aliases
