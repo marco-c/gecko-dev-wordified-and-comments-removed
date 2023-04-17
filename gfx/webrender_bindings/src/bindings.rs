@@ -9337,13 +9337,18 @@ preserve_frame_state
 true
 ;
 let
-dl_vec
+payload
 =
+DisplayListPayload
+{
+data
+:
 dl_data
 .
 flush_into_vec
 (
 )
+}
 ;
 let
 dl
@@ -9353,7 +9358,7 @@ BuiltDisplayList
 :
 from_data
 (
-dl_vec
+payload
 dl_descriptor
 )
 ;
@@ -18248,7 +18253,7 @@ finalize
 ;
 let
 (
-data
+payload
 descriptor
 )
 =
@@ -18266,6 +18271,8 @@ WrVecU8
 :
 from_vec
 (
+payload
+.
 data
 )
 ;
