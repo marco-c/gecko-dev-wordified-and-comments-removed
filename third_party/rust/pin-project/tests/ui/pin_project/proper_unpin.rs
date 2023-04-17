@@ -52,7 +52,6 @@ U
 [
 pin_project
 ]
-pub
 struct
 TrivialBounds
 {

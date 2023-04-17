@@ -94,7 +94,7 @@ marker
 Unpin
 for
 type
-Foo
+Struct
 <
 _
 >
@@ -136,7 +136,7 @@ pin_project
 conflicting
 implementation
 for
-Foo
+Struct
 <
 _
 >
@@ -151,13 +151,16 @@ T
 >
 Unpin
 for
-Foo
+Struct
 <
 T
 >
 {
 }
 |
+-
+-
+-
 -
 -
 -

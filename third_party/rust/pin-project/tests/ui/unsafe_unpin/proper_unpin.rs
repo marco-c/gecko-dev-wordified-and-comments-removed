@@ -34,7 +34,6 @@ pin_project
 UnsafeUnpin
 )
 ]
-pub
 struct
 Blah
 <
@@ -53,13 +52,6 @@ field2
 :
 T
 }
-#
-[
-allow
-(
-unsafe_code
-)
-]
 unsafe
 impl
 <
@@ -84,7 +76,6 @@ pin_project
 UnsafeUnpin
 )
 ]
-pub
 struct
 TrivialBounds
 {
@@ -103,7 +94,6 @@ pin_project
 UnsafeUnpin
 )
 ]
-pub
 struct
 OverlappingLifetimeNames
 <
@@ -138,13 +128,6 @@ pin
 (
 )
 }
-#
-[
-allow
-(
-unsafe_code
-)
-]
 unsafe
 impl
 <

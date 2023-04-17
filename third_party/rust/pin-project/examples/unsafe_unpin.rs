@@ -24,7 +24,7 @@ UnsafeUnpin
 ]
 pub
 struct
-Foo
+Struct
 <
 T
 U
@@ -51,7 +51,7 @@ U
 >
 UnsafeUnpin
 for
-Foo
+Struct
 <
 T
 U
