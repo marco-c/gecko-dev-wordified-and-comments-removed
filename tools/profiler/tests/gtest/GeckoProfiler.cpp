@@ -26,6 +26,13 @@ h
 #
 include
 "
+NetworkMarker
+.
+h
+"
+#
+include
+"
 platform
 .
 h
@@ -5592,6 +5599,9 @@ GET
 _ns
 34
 1
+net
+:
+:
 NetworkLoadType
 :
 :
@@ -5615,6 +5625,9 @@ GET
 _ns
 34
 2
+net
+:
+:
 NetworkLoadType
 :
 :
@@ -5684,6 +5697,9 @@ GET
 _ns
 34
 3
+net
+:
+:
 NetworkLoadType
 :
 :
@@ -5721,6 +5737,9 @@ GET
 _ns
 34
 4
+net
+:
+:
 NetworkLoadType
 :
 :
@@ -5758,6 +5777,9 @@ GET
 _ns
 34
 5
+net
+:
+:
 NetworkLoadType
 :
 :
@@ -5795,6 +5817,9 @@ GET
 _ns
 34
 6
+net
+:
+:
 NetworkLoadType
 :
 :

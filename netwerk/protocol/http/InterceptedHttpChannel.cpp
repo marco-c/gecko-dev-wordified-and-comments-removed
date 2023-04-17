@@ -8,6 +8,13 @@ h
 #
 include
 "
+NetworkMarker
+.
+h
+"
+#
+include
+"
 nsContentSecurityManager
 .
 h
@@ -16,15 +23,6 @@ h
 include
 "
 nsEscape
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ProfilerMarkers
 .
 h
 "
@@ -2130,9 +2128,6 @@ rv
 rv
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -2270,8 +2265,6 @@ ChannelId
 )
 ;
 }
-#
-endif
 rv
 =
 SetupReplacementChannel
@@ -4051,9 +4044,6 @@ MaybeReportTimingData
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -4156,8 +4146,6 @@ get
 )
 ;
 }
-#
-endif
 nsresult
 rv
 =

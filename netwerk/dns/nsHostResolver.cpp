@@ -209,13 +209,6 @@ h
 #
 include
 "
-GeckoProfiler
-.
-h
-"
-#
-include
-"
 TRR
 .
 h
