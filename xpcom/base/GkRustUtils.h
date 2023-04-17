@@ -17,15 +17,6 @@ GkRustUtils
 public
 :
 static
-void
-GenerateUUID
-(
-nsACString
-&
-aResult
-)
-;
-static
 bool
 ParseSemVer
 (
