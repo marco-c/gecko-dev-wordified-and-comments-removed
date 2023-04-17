@@ -3024,7 +3024,7 @@ result_type
 Double
 alias_set
 :
-none
+custom
 possibly_calls
 :
 true

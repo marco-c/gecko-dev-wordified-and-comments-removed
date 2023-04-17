@@ -1792,9 +1792,15 @@ MapOrSetHashTable
 <
 <
 15
+RNG
+=
+1
+<
+<
+16
 Last
 =
-MapOrSetHashTable
+RNG
 Any
 =
 Last
@@ -1806,7 +1812,7 @@ Last
 )
 NumCategories
 =
-16
+17
 Store_
 =
 1
