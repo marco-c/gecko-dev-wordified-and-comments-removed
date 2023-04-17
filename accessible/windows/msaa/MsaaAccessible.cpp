@@ -7458,14 +7458,14 @@ return
 E_NOTIMPL
 ;
 }
-LocalAccessible
+Accessible
 *
 accessible
 =
-localAcc
+mAcc
 -
 >
-LocalChildAtPoint
+ChildAtPoint
 (
 xLeft
 yTop
@@ -7488,7 +7488,7 @@ if
 accessible
 =
 =
-localAcc
+mAcc
 )
 {
 pvarChild
