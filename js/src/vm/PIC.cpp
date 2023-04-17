@@ -510,7 +510,7 @@ arrayProtoShape_
 arrayProto
 -
 >
-lastProperty
+shape
 (
 )
 ;
@@ -532,7 +532,7 @@ arrayIteratorProtoShape_
 arrayIteratorProto
 -
 >
-lastProperty
+shape
 (
 )
 ;
@@ -741,7 +741,7 @@ cx
 array
 -
 >
-lastProperty
+shape
 (
 )
 )
@@ -995,7 +995,7 @@ if
 arrayProto_
 -
 >
-lastProperty
+shape
 (
 )
 !

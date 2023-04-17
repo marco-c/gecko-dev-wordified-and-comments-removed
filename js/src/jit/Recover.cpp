@@ -10802,7 +10802,7 @@ cx
 templateObj
 -
 >
-lastProperty
+shape
 (
 )
 )

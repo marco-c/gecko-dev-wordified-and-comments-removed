@@ -202,7 +202,7 @@ gc
 :
 MaybeForwarded
 (
-lastProperty
+shape
 (
 )
 )

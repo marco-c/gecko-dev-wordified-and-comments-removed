@@ -801,7 +801,7 @@ IsInsideNursery
 promiseCtor
 -
 >
-lastProperty
+shape
 (
 )
 )
@@ -818,7 +818,7 @@ IsInsideNursery
 promiseProto
 -
 >
-lastProperty
+shape
 (
 )
 )
@@ -836,7 +836,7 @@ promiseConstructorShape_
 promiseCtor
 -
 >
-lastProperty
+shape
 (
 )
 ;
@@ -845,7 +845,7 @@ promiseProtoShape_
 promiseProto
 -
 >
-lastProperty
+shape
 (
 )
 ;
@@ -973,7 +973,7 @@ if
 promiseProto
 -
 >
-lastProperty
+shape
 (
 )
 !
@@ -990,7 +990,7 @@ if
 promiseCtor
 -
 >
-lastProperty
+shape
 (
 )
 !
