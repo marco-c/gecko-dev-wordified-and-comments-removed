@@ -4176,6 +4176,18 @@ Note
 Log
 }
 ;
+#
+if
+defined
+(
+EARLY_BETA_OR_EARLIER
+)
+|
+|
+defined
+(
+DEBUG
+)
 using
 ResultType
 =
@@ -4207,6 +4219,8 @@ Severity
 aSeverity
 )
 ;
+#
+endif
 #
 ifdef
 DEBUG
