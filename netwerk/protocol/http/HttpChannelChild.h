@@ -1172,6 +1172,13 @@ nsresult
 aRv
 )
 ;
+nsresult
+MaybeLogCOEPError
+(
+nsresult
+aStatus
+)
+;
 private
 :
 nsCOMPtr
