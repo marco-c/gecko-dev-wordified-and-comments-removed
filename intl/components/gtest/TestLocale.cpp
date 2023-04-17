@@ -82,6 +82,8 @@ locale
 .
 setUnicodeExtension
 (
+MakeStringSpan
+(
 "
 u
 -
@@ -89,6 +91,7 @@ ca
 -
 gregory
 "
+)
 )
 .
 isOk
