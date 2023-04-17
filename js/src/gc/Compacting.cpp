@@ -64,6 +64,17 @@ h
 #
 include
 "
+gc
+/
+Zone
+-
+inl
+.
+h
+"
+#
+include
+"
 jit
 /
 JitCode
