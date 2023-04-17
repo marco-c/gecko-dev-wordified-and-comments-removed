@@ -220,7 +220,6 @@ InitializeListFormat
 listFormat
 locales
 options
-supportsTypeAndStyle
 )
 {
 assert
@@ -380,8 +379,6 @@ type
 "
 string
 "
-supportsTypeAndStyle
-?
 [
 "
 conjunction
@@ -391,12 +388,6 @@ disjunction
 "
 "
 unit
-"
-]
-:
-[
-"
-conjunction
 "
 ]
 "
@@ -422,8 +413,6 @@ style
 "
 string
 "
-supportsTypeAndStyle
-?
 [
 "
 long
@@ -433,12 +422,6 @@ short
 "
 "
 narrow
-"
-]
-:
-[
-"
-long
 "
 ]
 "
