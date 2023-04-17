@@ -18240,10 +18240,15 @@ out
 expiry_version
 :
 "
-93
+never
 "
 notification_emails
 :
+-
+dothayer
+mozilla
+.
+com
 -
 esmyth
 mozilla
