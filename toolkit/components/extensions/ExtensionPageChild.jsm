@@ -1230,12 +1230,6 @@ new
 Map
 (
 )
-extensionWorkerContexts
-:
-new
-Map
-(
-)
 apiManager
 _init
 (
