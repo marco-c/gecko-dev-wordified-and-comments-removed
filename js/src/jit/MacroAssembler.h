@@ -3372,6 +3372,17 @@ inline
 void
 mul32
 (
+Imm32
+imm
+Register
+srcDest
+)
+PER_SHARED_ARCH
+;
+inline
+void
+mul32
+(
 Register
 src1
 Register
