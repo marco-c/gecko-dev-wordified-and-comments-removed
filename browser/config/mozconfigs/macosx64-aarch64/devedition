@@ -28,7 +28,6 @@ for
 DevEdition
 MOZ_REQUIRE_SIGNING
 =
-0
 ac_add_options
 -
 -

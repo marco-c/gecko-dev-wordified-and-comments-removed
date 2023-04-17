@@ -82,7 +82,6 @@ trusted
 root
 MOZ_REQUIRE_SIGNING
 =
-0
 .
 "
 topsrcdir
