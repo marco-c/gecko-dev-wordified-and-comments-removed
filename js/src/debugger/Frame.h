@@ -474,9 +474,10 @@ class_
 ;
 enum
 {
-OWNER_SLOT
+FRAME_ITER_SLOT
 =
 0
+OWNER_SLOT
 ARGUMENTS_SLOT
 ONSTEP_HANDLER_SLOT
 ONPOP_HANDLER_SLOT
@@ -791,12 +792,6 @@ thisv
 ;
 bool
 isOnStack
-(
-)
-const
-;
-bool
-isOnStackMaybeForwarded
 (
 )
 const
