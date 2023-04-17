@@ -5521,11 +5521,20 @@ _get_config_environment
 command_context
 )
         
+if
+rc
+!
+=
+0
+:
+            
+return
+rc
+None
+        
 rc
 cov
 =
-rc
-or
 self
 .
 get_coverity_secrets
