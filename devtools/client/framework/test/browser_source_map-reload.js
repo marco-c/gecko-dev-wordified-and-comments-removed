@@ -6,7 +6,7 @@ strict
 const
 INITIAL_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_empty
@@ -21,7 +21,7 @@ html
 const
 PAGE_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_reload
@@ -32,7 +32,7 @@ html
 const
 JS_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 sjs_code_reload

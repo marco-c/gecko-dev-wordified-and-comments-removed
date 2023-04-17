@@ -2,7 +2,7 @@ var
 URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 doc_viewsource
 .
@@ -12,7 +12,7 @@ var
 JS_URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 code_math
 .

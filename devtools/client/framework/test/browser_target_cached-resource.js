@@ -7,7 +7,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -118,7 +118,7 @@ PARENT_MESSAGE
 Message
 from
 parent
-doument
+document
 is
 in
 console
@@ -136,7 +136,7 @@ CHILD_MESSAGE
 Message
 from
 child
-doument
+document
 is
 in
 console

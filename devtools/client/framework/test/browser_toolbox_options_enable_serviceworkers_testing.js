@@ -1,7 +1,7 @@
 const
 TEST_URI
 =
-URL_ROOT
+URL_ROOT_MOCHI_8888
 +
 "
 browser_toolbox_options_enable_serviceworkers_testing

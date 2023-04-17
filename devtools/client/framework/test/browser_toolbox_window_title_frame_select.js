@@ -24,7 +24,7 @@ toolbox
 const
 URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 browser_toolbox_window_title_frame_select_page
@@ -35,7 +35,7 @@ html
 const
 IFRAME_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 browser_toolbox_window_title_changes_page
