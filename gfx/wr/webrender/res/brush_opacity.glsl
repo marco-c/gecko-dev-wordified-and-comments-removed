@@ -185,9 +185,9 @@ VertexInfo
 vi
 int
 prim_address
-RectWithSize
+RectWithEndpoint
 local_rect
-RectWithSize
+RectWithEndpoint
 segment_rect
 ivec4
 prim_user_data
@@ -257,9 +257,10 @@ local_rect
 p0
 )
 /
+rect_size
+(
 local_rect
-.
-size
+)
 ;
 f
 =

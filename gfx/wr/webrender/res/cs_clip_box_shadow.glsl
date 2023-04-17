@@ -227,7 +227,7 @@ stretch_mode_x
 int
 stretch_mode_y
 ;
-RectWithSize
+RectWithEndpoint
 dest_rect
 ;
 }
@@ -250,7 +250,7 @@ x
 aStretchMode
 .
 y
-RectWithSize
+RectWithEndpoint
 (
 aClipDestRect
 .
@@ -319,7 +319,7 @@ cmi
 resource_address
 )
 ;
-RectWithSize
+RectWithEndpoint
 dest_rect
 =
 bs_data
@@ -397,6 +397,14 @@ vi
 .
 local_pos
 ;
+vec2
+dest_rect_size
+=
+rect_size
+(
+dest_rect
+)
+;
 switch
 (
 bs_data
@@ -421,9 +429,7 @@ vEdge
 z
 =
 (
-dest_rect
-.
-size
+dest_rect_size
 .
 x
 /
@@ -496,9 +502,7 @@ p0
 x
 )
 /
-dest_rect
-.
-size
+dest_rect_size
 .
 x
 ;
@@ -530,9 +534,7 @@ vEdge
 w
 =
 (
-dest_rect
-.
-size
+dest_rect_size
 .
 y
 /
@@ -605,9 +607,7 @@ p0
 y
 )
 /
-dest_rect
-.
-size
+dest_rect_size
 .
 y
 ;
