@@ -1172,6 +1172,15 @@ StaticPrefs
 network_proxy_allow_hijacking_localhost
 (
 )
+&
+&
+!
+StaticPrefs
+:
+:
+network_proxy_testing_localhost_is_secure_when_hijacked
+(
+)
 )
 {
 return

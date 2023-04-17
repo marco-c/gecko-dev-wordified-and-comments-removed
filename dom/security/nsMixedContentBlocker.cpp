@@ -1067,6 +1067,16 @@ nsIURI
 aURL
 )
 {
+if
+(
+!
+aURL
+)
+{
+return
+false
+;
+}
 nsAutoCString
 asciiHost
 ;
