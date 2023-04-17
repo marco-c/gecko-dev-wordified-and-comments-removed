@@ -4140,7 +4140,10 @@ true
 }
 else
 {
-NS_GetComplexLineBreaks
+ComplexBreaker
+:
+:
+GetBreaks
 (
 aChars
 +

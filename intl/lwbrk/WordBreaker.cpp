@@ -845,7 +845,10 @@ range
 mBegin
 )
 ;
-NS_GetComplexLineBreaks
+ComplexBreaker
+:
+:
+GetBreaks
 (
 aText
 +
@@ -1077,7 +1080,10 @@ SetLength
 segLen
 )
 ;
-NS_GetComplexLineBreaks
+ComplexBreaker
+:
+:
+GetBreaks
 (
 segStart
 segLen
