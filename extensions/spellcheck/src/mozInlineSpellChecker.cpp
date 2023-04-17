@@ -4218,7 +4218,6 @@ nsINode
 *
 aNode
 )
-const
 {
 MOZ_ASSERT
 (
@@ -5636,8 +5635,9 @@ continue
 if
 (
 !
-mInlineSpellChecker
-.
+mozInlineSpellChecker
+:
+:
 ShouldSpellCheckNode
 (
 textEditor

@@ -644,6 +644,7 @@ int32_t
 aEndOffset
 )
 ;
+static
 bool
 ShouldSpellCheckNode
 (
@@ -657,7 +658,6 @@ nsINode
 *
 aNode
 )
-const
 ;
 nsresult
 ScheduleSpellCheck
