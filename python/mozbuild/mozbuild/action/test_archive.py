@@ -170,7 +170,6 @@ mozglue
 GMP_TEST_PLUGIN_DIRS
 =
 [
-    
 "
 gmp
 -
@@ -179,7 +178,6 @@ fake
 *
 *
 "
-    
 "
 gmp
 -
@@ -438,7 +436,6 @@ fuzztest
 }
         
 {
-            
 "
 source
 "
@@ -446,7 +443,6 @@ source
 buildconfig
 .
 topobjdir
-            
 "
 base
 "
@@ -454,7 +450,6 @@ base
 "
 _tests
 "
-            
 "
 pattern
 "
@@ -465,7 +460,6 @@ modules
 *
 *
 "
-        
 }
         
 {
@@ -493,27 +487,23 @@ patterns
 "
 :
 [
-                
 "
 client
 /
 *
 *
 "
-                
 "
 harness
 /
 *
 *
 "
-                
 "
 mach_test_package_commands
 .
 py
 "
-            
 ]
             
 "
@@ -529,13 +519,11 @@ ignore
 "
 :
 [
-                
 "
 client
 /
 docs
 "
-                
 "
 harness
 /
@@ -543,7 +531,6 @@ marionette_harness
 /
 tests
 "
-            
 ]
         
 }
@@ -623,7 +610,6 @@ tests
 }
         
 {
-            
 "
 source
 "
@@ -631,7 +617,6 @@ source
 buildconfig
 .
 topobjdir
-            
 "
 base
 "
@@ -639,7 +624,6 @@ base
 "
 _tests
 "
-            
 "
 pattern
 "
@@ -650,7 +634,6 @@ mozbase
 *
 *
 "
-        
 }
         
 {
@@ -689,7 +672,6 @@ ignore
 "
 :
 [
-                
 "
 firefox
 -
@@ -697,7 +679,6 @@ ui
 /
 tests
 "
-            
 ]
         
 }
@@ -796,7 +777,6 @@ marionette
 }
         
 {
-            
 "
 source
 "
@@ -804,7 +784,6 @@ source
 buildconfig
 .
 topsrcdir
-            
 "
 base
 "
@@ -812,7 +791,6 @@ base
 "
 testing
 "
-            
 "
 pattern
 "
@@ -823,7 +801,6 @@ tps
 *
 *
 "
-        
 }
         
 {
@@ -901,57 +878,6 @@ dest
 tps
 /
 tests
-"
-        
-}
-        
-{
-            
-"
-source
-"
-:
-buildconfig
-.
-topsrcdir
-            
-"
-base
-"
-:
-"
-testing
-/
-web
--
-platform
-/
-mozilla
-/
-tests
-/
-tools
-/
-wptserve_py2
-"
-            
-"
-pattern
-"
-:
-"
-*
-*
-"
-            
-"
-dest
-"
-:
-"
-tools
-/
-wptserve_py2
 "
         
 }
@@ -1182,7 +1108,6 @@ distro
 }
         
 {
-            
 "
 source
 "
@@ -1190,14 +1115,12 @@ source
 buildconfig
 .
 topobjdir
-            
 "
 base
 "
 :
 "
 "
-            
 "
 pattern
 "
@@ -1207,7 +1130,6 @@ mozinfo
 .
 json
 "
-        
 }
         
 {
@@ -1379,19 +1301,16 @@ patterns
 "
 :
 [
-                
 "
 dmd
 .
 py
 "
-                
 "
 fix_stacks
 .
 py
 "
-            
 ]
             
 "
@@ -1431,13 +1350,11 @@ patterns
 "
 :
 [
-                
 "
 httpd
 .
 js
 "
-            
 ]
             
 "
@@ -1502,20 +1419,17 @@ cppunittest
 [
         
 {
-            
 "
 source
 "
 :
 STAGE
-            
 "
 base
 "
 :
 "
 "
-            
 "
 pattern
 "
@@ -1526,7 +1440,6 @@ cppunittest
 *
 *
 "
-        
 }
         
 {
@@ -1727,22 +1640,18 @@ gtest
 "
 :
 [
-        
 {
-            
 "
 source
 "
 :
 STAGE
-            
 "
 base
 "
 :
 "
 "
-            
 "
 pattern
 "
@@ -1753,9 +1662,7 @@ gtest
 *
 *
 "
-        
 }
-    
 ]
     
 "
@@ -1805,20 +1712,17 @@ mochitest
 }
         
 {
-            
 "
 source
 "
 :
 STAGE
-            
 "
 base
 "
 :
 "
 "
-            
 "
 pattern
 "
@@ -1829,7 +1733,6 @@ mochitest
 *
 *
 "
-        
 }
         
 {
@@ -2247,7 +2150,6 @@ reftest
 [
         
 {
-            
 "
 source
 "
@@ -2255,7 +2157,6 @@ source
 buildconfig
 .
 topobjdir
-            
 "
 base
 "
@@ -2263,7 +2164,6 @@ base
 "
 _tests
 "
-            
 "
 pattern
 "
@@ -2274,7 +2174,6 @@ reftest
 *
 *
 "
-        
 }
         
 {
@@ -2478,7 +2377,6 @@ talos
 [
         
 {
-            
 "
 source
 "
@@ -2486,7 +2384,6 @@ source
 buildconfig
 .
 topsrcdir
-            
 "
 base
 "
@@ -2494,7 +2391,6 @@ base
 "
 testing
 "
-            
 "
 pattern
 "
@@ -2505,7 +2401,6 @@ talos
 *
 *
 "
-        
 }
         
 {
@@ -2610,7 +2505,6 @@ perftests
 [
         
 {
-            
 "
 source
 "
@@ -2618,7 +2512,6 @@ source
 buildconfig
 .
 topsrcdir
-            
 "
 pattern
 "
@@ -2631,11 +2524,9 @@ mozbase
 *
 *
 "
-        
 }
         
 {
-            
 "
 source
 "
@@ -2643,7 +2534,6 @@ source
 buildconfig
 .
 topsrcdir
-            
 "
 pattern
 "
@@ -2656,11 +2546,9 @@ condprofile
 *
 *
 "
-        
 }
         
 {
-            
 "
 source
 "
@@ -2668,7 +2556,6 @@ source
 buildconfig
 .
 topsrcdir
-            
 "
 pattern
 "
@@ -2681,11 +2568,9 @@ python
 *
 *
 "
-        
 }
         
 {
-            
 "
 source
 "
@@ -2693,7 +2578,6 @@ source
 buildconfig
 .
 topsrcdir
-            
 "
 pattern
 "
@@ -2708,7 +2592,6 @@ eslint
 *
 *
 "
-        
 }
         
 {
@@ -3464,7 +3347,6 @@ raptor
 [
         
 {
-            
 "
 source
 "
@@ -3472,7 +3354,6 @@ source
 buildconfig
 .
 topsrcdir
-            
 "
 base
 "
@@ -3480,7 +3361,6 @@ base
 "
 testing
 "
-            
 "
 pattern
 "
@@ -3491,7 +3371,6 @@ raptor
 *
 *
 "
-        
 }
         
 {
@@ -3596,7 +3475,6 @@ awsy
 [
         
 {
-            
 "
 source
 "
@@ -3604,7 +3482,6 @@ source
 buildconfig
 .
 topsrcdir
-            
 "
 base
 "
@@ -3612,7 +3489,6 @@ base
 "
 testing
 "
-            
 "
 pattern
 "
@@ -3623,7 +3499,6 @@ awsy
 *
 *
 "
-        
 }
     
 ]
@@ -3744,7 +3619,6 @@ ignore
 "
 :
 [
-                
 "
 web
 -
@@ -3756,7 +3630,6 @@ tools
 /
 wpt_third_party
 "
-            
 ]
         
 }
@@ -3968,20 +3841,17 @@ xpcshell
 }
         
 {
-            
 "
 source
 "
 :
 STAGE
-            
 "
 base
 "
 :
 "
 "
-            
 "
 pattern
 "
@@ -3992,7 +3862,6 @@ xpcshell
 *
 *
 "
-        
 }
         
 {
@@ -4311,22 +4180,18 @@ jsreftest
 "
 :
 [
-        
 {
-            
 "
 source
 "
 :
 STAGE
-            
 "
 base
 "
 :
 "
 "
-            
 "
 pattern
 "
@@ -4337,9 +4202,7 @@ jsreftest
 *
 *
 "
-        
 }
-    
 ]
     
 "
@@ -4349,7 +4212,6 @@ fuzztest
 [
         
 {
-            
 "
 source
 "
@@ -4357,7 +4219,6 @@ source
 buildconfig
 .
 topsrcdir
-            
 "
 pattern
 "
@@ -4372,7 +4233,6 @@ smoke
 *
 *
 "
-        
 }
     
 ]
@@ -4718,14 +4578,12 @@ patterns
 "
 :
 [
-                
 "
 mozpack
 /
 *
 *
 "
-                
 "
 mozbuild
 /
@@ -4734,7 +4592,6 @@ codecoverage
 *
 *
 "
-            
 ]
         
 }
@@ -5332,7 +5189,6 @@ entry
 entry
 =
 {
-            
 "
 source
 "
@@ -5340,7 +5196,6 @@ source
 buildconfig
 .
 topobjdir
-            
 "
 base
 "
@@ -5348,14 +5203,12 @@ base
 "
 _tests
 "
-            
 "
 patterns
 "
 :
 [
 ]
-        
 }
         
 for
@@ -5577,9 +5430,7 @@ ignore
 .
 extend
 (
-            
 [
-                
 "
 *
 *
@@ -5587,7 +5438,6 @@ extend
 .
 flake8
 "
-                
 "
 *
 *
@@ -5597,7 +5447,6 @@ mkdir
 .
 done
 "
-                
 "
 *
 *
@@ -5606,9 +5455,7 @@ done
 .
 pyc
 "
-            
 ]
-        
 )
         
 if
@@ -5670,19 +5517,16 @@ base
 common_kwargs
 =
 {
-            
 "
 find_dotfiles
 "
 :
 True
-            
 "
 ignore
 "
 :
 ignore
-        
 }
         
 finder
