@@ -689,7 +689,7 @@ nameID
 HBUINT16
 length
 ;
-NNOffsetTo
+NNOffset16To
 <
 UnsizedArrayOf
 <
@@ -1140,6 +1140,8 @@ c
 -
 >
 ran_out_of_room
+(
+)
 )
 )
 return_trace
@@ -2011,7 +2013,7 @@ format
 HBUINT16
 count
 ;
-NNOffsetTo
+NNOffset16To
 <
 UnsizedArrayOf
 <

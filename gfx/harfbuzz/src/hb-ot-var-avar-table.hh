@@ -85,7 +85,7 @@ DEFINE_SIZE_STATIC
 struct
 SegmentMaps
 :
-ArrayOf
+Array16Of
 <
 AxisValueMap
 >

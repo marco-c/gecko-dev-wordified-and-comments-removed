@@ -1065,7 +1065,7 @@ tag
 OT
 :
 :
-OffsetTo
+Offset16To
 <
 OT
 :
@@ -1087,7 +1087,7 @@ typedef
 OT
 :
 :
-ArrayOf
+Array16Of
 <
 ManifestLookup
 >

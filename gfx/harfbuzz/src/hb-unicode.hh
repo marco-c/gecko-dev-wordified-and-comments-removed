@@ -927,6 +927,9 @@ HB_MODIFIED_COMBINING_CLASS_CCC18
 /
 *
 qamats
+&
+qamats
+qatan
 *
 /
 #
@@ -936,6 +939,11 @@ HB_MODIFIED_COMBINING_CLASS_CCC19
 /
 *
 holam
+&
+holam
+haser
+for
+vav
 *
 /
 #

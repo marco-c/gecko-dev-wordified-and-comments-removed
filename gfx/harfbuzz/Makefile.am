@@ -87,12 +87,6 @@ wrap
 \
 subprojects
 /
-fontconfig
-.
-wrap
-\
-subprojects
-/
 freetype2
 .
 wrap

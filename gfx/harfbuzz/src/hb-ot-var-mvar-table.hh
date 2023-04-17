@@ -309,7 +309,7 @@ valueRecordSize
 HBUINT16
 valueRecordCount
 ;
-OffsetTo
+Offset16To
 <
 VariationStore
 >

@@ -2314,10 +2314,7 @@ DWRITE_READING_DIRECTION_LEFT_TO_RIGHT
 uint32_t
 textLength
 =
-buffer
--
->
-len
+chars_len
 ;
 TextAnalysis
 analysis

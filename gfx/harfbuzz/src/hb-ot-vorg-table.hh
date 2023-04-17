@@ -456,7 +456,7 @@ version
 FWORD
 defaultVertOriginY
 ;
-SortedArrayOf
+SortedArray16Of
 <
 VertOriginMetric
 >

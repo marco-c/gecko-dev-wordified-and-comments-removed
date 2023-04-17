@@ -664,7 +664,7 @@ last
 HBGlyphID
 first
 ;
-NNOffsetTo
+NNOffset16To
 <
 UnsizedArrayOf
 <
@@ -3152,7 +3152,7 @@ protected
 HBGlyphID
 firstGlyph
 ;
-ArrayOf
+Array16Of
 <
 HBUCHAR
 >
@@ -3227,6 +3227,7 @@ return
 (
 offset
 -
+unsigned
 (
 (
 const

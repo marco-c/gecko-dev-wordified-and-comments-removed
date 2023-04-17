@@ -1980,7 +1980,7 @@ DEFINE_SIZE_STATIC
 TupleVarCount
 tupleVarCount
 ;
-OffsetTo
+Offset16To
 <
 HBUINT8
 >
@@ -4099,7 +4099,7 @@ axisCount
 HBUINT16
 sharedTupleCount
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -4114,7 +4114,7 @@ glyphCount
 HBUINT16
 flags
 ;
-LOffsetTo
+Offset32To
 <
 GlyphVariationData
 >

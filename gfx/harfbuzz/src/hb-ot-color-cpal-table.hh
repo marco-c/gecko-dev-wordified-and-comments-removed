@@ -290,7 +290,7 @@ color_count
 }
 protected
 :
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -299,7 +299,7 @@ HBUINT32
 >
 paletteFlagsZ
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -308,7 +308,7 @@ NameID
 >
 paletteLabelsZ
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -692,7 +692,7 @@ numPalettes
 HBUINT16
 numColorRecords
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <

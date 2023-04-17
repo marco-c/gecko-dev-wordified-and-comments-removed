@@ -1000,7 +1000,7 @@ false
 hb_array_t
 <
 const
-OffsetTo
+Offset16To
 <
 AxisValue
 >
@@ -1352,7 +1352,7 @@ designAxisCount
 hb_array_t
 <
 const
-OffsetTo
+Offset16To
 <
 AxisValue
 >
@@ -1389,7 +1389,7 @@ designAxisSize
 HBUINT16
 designAxisCount
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -1401,11 +1401,11 @@ designAxesOffset
 HBUINT16
 axisValueCount
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
-OffsetTo
+Offset16To
 <
 AxisValue
 >

@@ -92,7 +92,7 @@ length
 }
 protected
 :
-NNOffsetTo
+NNOffset16To
 <
 UnsizedArrayOf
 <
@@ -217,7 +217,7 @@ version
 HBUINT32
 flags
 ;
-LArrayOf
+Array32Of
 <
 FTStringRange
 >

@@ -1549,6 +1549,14 @@ vector
 hh
 \
 hb
+-
+priority
+-
+queue
+.
+hh
+\
+hb
 .
 hh
 \
@@ -2208,6 +2216,12 @@ cc
 hb
 -
 subset
+.
+hh
+\
+hb
+-
+repacker
 .
 hh
 \

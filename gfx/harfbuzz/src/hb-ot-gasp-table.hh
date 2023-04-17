@@ -190,7 +190,7 @@ protected
 HBUINT16
 version
 ;
-ArrayOf
+Array16Of
 <
 GaspRange
 >

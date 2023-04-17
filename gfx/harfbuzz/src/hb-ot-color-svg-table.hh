@@ -139,7 +139,7 @@ startGlyphID
 HBUINT16
 endGlyphID
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -344,9 +344,9 @@ protected
 HBUINT16
 version
 ;
-LOffsetTo
+Offset32To
 <
-SortedArrayOf
+SortedArray16Of
 <
 SVGDocumentIndexEntry
 >

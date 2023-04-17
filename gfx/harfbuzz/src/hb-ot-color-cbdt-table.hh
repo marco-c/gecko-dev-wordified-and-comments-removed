@@ -2448,7 +2448,7 @@ firstGlyphIndex
 HBGlyphID
 lastGlyphIndex
 ;
-LOffsetTo
+Offset32To
 <
 IndexSubtable
 >
@@ -3380,7 +3380,7 @@ true
 }
 protected
 :
-LNNOffsetTo
+NNOffset32To
 <
 IndexSubtableArray
 >
@@ -3434,7 +3434,7 @@ GlyphBitmapDataFormat17
 SmallGlyphMetrics
 glyphMetrics
 ;
-LArrayOf
+Array32Of
 <
 HBUINT8
 >
@@ -3456,7 +3456,7 @@ GlyphBitmapDataFormat18
 BigGlyphMetrics
 glyphMetrics
 ;
-LArrayOf
+Array32Of
 <
 HBUINT8
 >
@@ -3475,7 +3475,7 @@ data
 struct
 GlyphBitmapDataFormat19
 {
-LArrayOf
+Array32Of
 <
 HBUINT8
 >
@@ -3932,7 +3932,7 @@ FixedVersion
 >
 version
 ;
-LArrayOf
+Array32Of
 <
 BitmapSizeTable
 >

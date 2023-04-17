@@ -1157,7 +1157,7 @@ const
 return
 length
 <
-hb_null_size
+hb_min_size
 (
 T
 )

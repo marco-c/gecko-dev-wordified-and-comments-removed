@@ -479,7 +479,7 @@ feature
 HBUINT16
 nSettings
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <

@@ -133,7 +133,7 @@ protected
 Tag
 tag
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -378,7 +378,7 @@ flags
 HBUINT32
 dataOffset
 ;
-LArrayOf
+Array32Of
 <
 DataMap
 >

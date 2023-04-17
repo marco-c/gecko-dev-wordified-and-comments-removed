@@ -44,7 +44,7 @@ HB_SANITIZE_MAX_OPS_FACTOR
 #
 define
 HB_SANITIZE_MAX_OPS_FACTOR
-8
+64
 #
 endif
 #
@@ -869,12 +869,15 @@ p
 len
 &
 &
+(
 this
 -
 >
 max_ops
 -
--
+=
+len
+)
 >
 0
 )

@@ -840,9 +840,9 @@ FixedVersion
 >
 version
 ;
-LArrayOf
+Array32Of
 <
-LOffsetTo
+Offset32To
 <
 OpenTypeOffsetTable
 >
@@ -1150,13 +1150,12 @@ nameOffset
 HBUINT8
 attrs
 ;
-NNOffsetTo
+NNOffset24To
 <
-LArrayOf
+Array32Of
 <
 HBUINT8
 >
-HBUINT24
 >
 offset
 ;
@@ -1314,7 +1313,7 @@ tag
 HBUINT16
 resCountM1
 ;
-NNOffsetTo
+NNOffset16To
 <
 UnsizedArrayOf
 <
@@ -1597,7 +1596,7 @@ resreved2
 HBUINT16
 attrs
 ;
-NNOffsetTo
+NNOffset16To
 <
 ArrayOfM1
 <
@@ -1758,7 +1757,7 @@ data
 }
 protected
 :
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -1767,7 +1766,7 @@ HBUINT8
 >
 data
 ;
-LNNOffsetTo
+NNOffset32To
 <
 ResourceMap
 >

@@ -7590,7 +7590,7 @@ HBUINT8
 >
 version
 ;
-OffsetTo
+NNOffsetTo
 <
 CFF1NameIndex
 HBUINT8

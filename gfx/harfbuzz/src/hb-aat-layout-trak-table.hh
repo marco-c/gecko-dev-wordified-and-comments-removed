@@ -171,7 +171,7 @@ track
 NameID
 trackNameID
 ;
-NNOffsetTo
+NNOffset16To
 <
 UnsizedArrayOf
 <
@@ -567,7 +567,7 @@ nTracks
 HBUINT16
 nSizes
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -975,13 +975,13 @@ version
 HBUINT16
 format
 ;
-OffsetTo
+Offset16To
 <
 TrackData
 >
 horizData
 ;
-OffsetTo
+Offset16To
 <
 TrackData
 >

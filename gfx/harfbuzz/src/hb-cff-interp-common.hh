@@ -2107,6 +2107,7 @@ check_assign
 *
 ip
 value
+HB_SERIALIZE_ERROR_INT_OVERFLOW
 )
 )
 ;
