@@ -667,6 +667,11 @@ kPageSize
 )
 ;
 }
+(
+void
+)
+x
+;
 }
 static
 uint32_t
@@ -740,11 +745,6 @@ size_t
 currentSize
 =
 aSize
-;
-size_t
-consumed
-=
-0
 ;
 while
 (
@@ -833,11 +833,6 @@ continue
 }
 aSize
 -
-=
-currentSize
-;
-consumed
-+
 =
 currentSize
 ;
