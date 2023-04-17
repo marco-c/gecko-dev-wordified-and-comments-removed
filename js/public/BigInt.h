@@ -396,7 +396,7 @@ const
 char
 >
 chars
-unsigned
+uint8_t
 radix
 )
 ;

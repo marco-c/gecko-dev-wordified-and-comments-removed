@@ -20128,7 +20128,7 @@ const
 Latin1Char
 >
 chars
-unsigned
+uint8_t
 radix
 bool
 *
@@ -20265,7 +20265,7 @@ const
 char
 >
 chars
-unsigned
+uint8_t
 radix
 )
 {
