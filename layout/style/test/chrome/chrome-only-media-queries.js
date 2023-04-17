@@ -290,14 +290,6 @@ moz
 -
 proton
 -
-urlbar
-"
-"
--
-moz
--
-proton
--
 contextmenus
 "
 "

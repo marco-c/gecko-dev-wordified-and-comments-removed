@@ -18808,11 +18808,6 @@ updateOpenSearchBadge
 if
 (
 gProton
-&
-&
-gURLBar
-.
-addSearchEngineHelper
 )
 {
 gURLBar
