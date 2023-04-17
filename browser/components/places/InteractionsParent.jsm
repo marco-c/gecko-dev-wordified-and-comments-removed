@@ -88,6 +88,7 @@ registerEndOfInteraction
 this
 .
 browsingContext
+?
 .
 embedderElement
 )

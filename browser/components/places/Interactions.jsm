@@ -438,6 +438,15 @@ registerEndOfInteraction
 browser
 )
 {
+if
+(
+!
+browser
+)
+{
+return
+;
+}
 this
 .
 logConsole
