@@ -2466,11 +2466,6 @@ aPushedStreamId
 )
 ;
 void
-MaybeWarnAboutAppCache
-(
-)
-;
-void
 SetOriginHeader
 (
 )
@@ -2505,12 +2500,6 @@ SetCachedContentType
 ;
 private
 :
-nsCOMPtr
-<
-nsIApplicationCache
->
-mApplicationCacheForWrite
-;
 nsCOMPtr
 <
 nsIHttpChannelAuthProvider
