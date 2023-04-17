@@ -1919,15 +1919,6 @@ aText
 const
 ;
 bool
-IsVisibleTextNode
-(
-Text
-&
-aText
-)
-const
-;
-bool
 IsEmptyNode
 (
 nsINode

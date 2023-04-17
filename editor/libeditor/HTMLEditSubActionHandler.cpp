@@ -29893,10 +29893,16 @@ GetAsText
 if
 (
 !
+HTMLEditUtils
+:
+:
 IsVisibleTextNode
 (
 *
 text
+GetActiveEditingHost
+(
+)
 )
 )
 {
