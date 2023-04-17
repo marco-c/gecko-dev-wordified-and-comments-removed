@@ -338,6 +338,8 @@ platform
 *
 -
 tsan
+-
+qr
 /
 opt
 :
@@ -470,6 +472,8 @@ debug
 *
 -
 tsan
+-
+qr
 /
 opt
 :
@@ -543,6 +547,8 @@ qr
 *
 -
 tsan
+-
+qr
 /
 opt
 :

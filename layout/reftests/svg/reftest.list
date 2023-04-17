@@ -10882,6 +10882,13 @@ svg
 pass
 .
 svg
+defaults
+skip
+-
+if
+(
+ThreadSanitizer
+)
 =
 =
 mask
