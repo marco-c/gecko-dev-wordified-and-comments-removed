@@ -215,7 +215,7 @@ animationName
 "
 overflow
 -
-fade
+animation
 "
 )
 {
