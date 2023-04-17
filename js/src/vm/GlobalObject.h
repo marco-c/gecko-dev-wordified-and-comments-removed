@@ -324,7 +324,7 @@ WINDOW_PROXY
 GLOBAL_THIS_RESOLVED
 INSTRUMENTATION
 SOURCE_URLS
-REALM_WEAK_MAP_KEY
+REALM_KEY_OBJECT
 RESERVED_SLOTS
 }
 ;
@@ -4582,7 +4582,7 @@ UndefinedValue
 static
 JSObject
 *
-getOrCreateRealmWeakMapKey
+getOrCreateRealmKeyObject
 (
 JSContext
 *

@@ -4705,7 +4705,7 @@ JSObject
 GlobalObject
 :
 :
-getOrCreateRealmWeakMapKey
+getOrCreateRealmKeyObject
 (
 JSContext
 *
@@ -4734,7 +4734,7 @@ global
 >
 getReservedSlot
 (
-REALM_WEAK_MAP_KEY
+REALM_KEY_OBJECT
 )
 ;
 if
@@ -4782,7 +4782,7 @@ global
 >
 setReservedSlot
 (
-REALM_WEAK_MAP_KEY
+REALM_KEY_OBJECT
 ObjectValue
 (
 *

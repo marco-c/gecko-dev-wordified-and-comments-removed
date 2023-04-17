@@ -393,7 +393,7 @@ extern
 JS_PUBLIC_API
 JSObject
 *
-GetRealmWeakMapKey
+GetRealmKeyObject
 (
 JSContext
 *

@@ -108,7 +108,7 @@ tests
 /
 browser
 /
-browser_realm_weak_map_object_prototype_top
+browser_realm_key_object_prototype_top
 .
 html
 "
@@ -149,7 +149,7 @@ tests
 /
 browser
 /
-browser_realm_weak_map_promise_top
+browser_realm_key_promise_top
 .
 html
 "
