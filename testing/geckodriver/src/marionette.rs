@@ -8579,15 +8579,6 @@ Ok
 (
 Window
 {
-name
-:
-self
-.
-handle
-.
-clone
-(
-)
 handle
 :
 self
