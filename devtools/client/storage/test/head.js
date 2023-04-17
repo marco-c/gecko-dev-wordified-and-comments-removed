@@ -1723,9 +1723,15 @@ false
 }
 if
 (
+typeof
 rule
 .
 name
+=
+=
+"
+string
+"
 )
 {
 const
