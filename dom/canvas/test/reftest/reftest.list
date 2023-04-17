@@ -22,13 +22,6 @@ force
 enabled
 true
 )
-pref
-(
-media
-.
-useAudioChannelAPI
-true
-)
 skip
 -
 if
