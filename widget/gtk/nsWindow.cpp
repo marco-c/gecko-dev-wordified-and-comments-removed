@@ -9009,6 +9009,10 @@ hints
 =
 GdkAnchorHints
 (
+GDK_ANCHOR_FLIP
+|
+GDK_ANCHOR_SLIDE_X
+|
 GDK_ANCHOR_RESIZE
 )
 ;
