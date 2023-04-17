@@ -3,10 +3,10 @@ scroll_derive
 :
 :
 {
-Pread
-Pwrite
 IOread
 IOwrite
+Pread
+Pwrite
 SizeWith
 }
 ;
@@ -52,9 +52,9 @@ scroll
 :
 :
 {
+Cread
 Pread
 Pwrite
-Cread
 LE
 }
 ;
