@@ -240,6 +240,12 @@ failCantDeleteWindowElement
 ;
 JS_PUBLIC_API
 bool
+failCantDefineWindowNamedProperty
+(
+)
+;
+JS_PUBLIC_API
+bool
 failCantDeleteWindowNamedProperty
 (
 )
