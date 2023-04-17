@@ -4738,11 +4738,6 @@ shallow
 (
 <
 TopSiteLink
-newNewtabExperienceEnabled
-=
-{
-true
-}
 colors
 =
 {
@@ -4862,11 +4857,6 @@ shallow
 (
 <
 TopSiteLink
-newNewtabExperienceEnabled
-=
-{
-true
-}
 colors
 =
 {
@@ -4957,11 +4947,6 @@ shallow
 (
 <
 TopSiteLink
-newNewtabExperienceEnabled
-=
-{
-true
-}
 colors
 =
 {
@@ -7948,7 +7933,7 @@ topsites
 -
 add
 -
-topsites
+shortcut
 -
 header
 "
@@ -8828,7 +8813,7 @@ topsites
 -
 edit
 -
-topsites
+shortcut
 -
 header
 "
