@@ -71335,6 +71335,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+ANDROID
+)
 value
 :
 true
