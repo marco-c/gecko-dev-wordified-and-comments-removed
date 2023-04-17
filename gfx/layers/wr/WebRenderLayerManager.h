@@ -574,6 +574,11 @@ aObserver
 void
 FlushRendering
 (
+wr
+:
+:
+RenderReasons
+aReasons
 )
 override
 ;
@@ -595,6 +600,11 @@ aRegion
 void
 ScheduleComposite
 (
+wr
+:
+:
+RenderReasons
+aReasons
 )
 ;
 void

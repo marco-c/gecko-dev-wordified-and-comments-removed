@@ -3665,6 +3665,13 @@ controller
 >
 ScheduleRenderOnCompositorThread
 (
+wr
+:
+:
+RenderReasons
+:
+:
+ANIMATED_PROPERTY
 )
 ;
 }

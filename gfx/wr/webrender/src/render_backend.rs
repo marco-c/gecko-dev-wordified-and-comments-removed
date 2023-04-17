@@ -46,6 +46,7 @@ api
 :
 {
 PrimitiveKeyKind
+RenderReasons
 }
 ;
 use
@@ -2316,6 +2317,9 @@ Option
 <
 FullFrameStats
 >
+render_reasons
+:
+RenderReasons
 )
 -
 >
@@ -2529,6 +2533,7 @@ take_and_reset
 frame_stats
 :
 frame_stats
+render_reasons
 }
 }
 fn
@@ -4222,6 +4227,10 @@ take
 txn
 .
 render_frame
+RenderReasons
+:
+:
+SCENE
 None
 txn
 .
@@ -6065,6 +6074,9 @@ as_bool
 )
 txn
 .
+render_reasons
+txn
+.
 generate_frame
 .
 id
@@ -6226,6 +6238,12 @@ default
 (
 )
 false
+RenderReasons
+:
+:
+empty
+(
+)
 None
 false
 frame_counter
@@ -6296,6 +6314,9 @@ mut
 render_frame
 :
 bool
+render_reasons
+:
+RenderReasons
 generated_frame_id
 :
 Option
@@ -6650,6 +6671,7 @@ self
 .
 tile_caches
 frame_stats
+render_reasons
 )
 ;
 debug
@@ -7770,6 +7792,12 @@ self
 .
 tile_caches
 None
+RenderReasons
+:
+:
+empty
+(
+)
 )
 ;
 let
@@ -9983,6 +10011,14 @@ TransactionProfile
 :
 :
 new
+(
+)
+render_reasons
+:
+RenderReasons
+:
+:
+empty
 (
 )
 frame_stats

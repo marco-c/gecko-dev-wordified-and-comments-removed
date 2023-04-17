@@ -491,6 +491,13 @@ parent
 >
 ScheduleComposition
 (
+wr
+:
+:
+RenderReasons
+:
+:
+OTHER
 )
 ;
 }
@@ -717,6 +724,13 @@ mWrBridge
 >
 ScheduleForcedGenerateFrame
 (
+wr
+:
+:
+RenderReasons
+:
+:
+OTHER
 )
 ;
 }

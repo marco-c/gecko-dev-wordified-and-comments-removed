@@ -6572,6 +6572,11 @@ wr
 :
 WrWindowId
 aWindowId
+wr
+:
+:
+RenderReasons
+aReasons
 )
 {
 RefPtr
@@ -6610,6 +6615,7 @@ cbp
 >
 ScheduleComposition
 (
+aReasons
 )
 ;
 }
@@ -6625,6 +6631,11 @@ wr
 :
 WrWindowId
 aWindowId
+wr
+:
+:
+RenderReasons
+aReasons
 )
 {
 layers
@@ -6645,6 +6656,7 @@ NotifyScheduleRender
 &
 NotifyScheduleRender
 aWindowId
+aReasons
 )
 )
 ;

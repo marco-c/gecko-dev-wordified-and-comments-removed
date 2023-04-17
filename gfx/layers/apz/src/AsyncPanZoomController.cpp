@@ -17340,6 +17340,13 @@ mCompositorController
 >
 ScheduleRenderOnCompositorThread
 (
+wr
+:
+:
+RenderReasons
+:
+:
+APZ
 )
 ;
 }

@@ -8,6 +8,7 @@ DocumentId
 ExternalImageId
 PrimitiveFlags
 Parameter
+RenderReasons
 }
 ;
 use
@@ -3452,6 +3453,10 @@ pub
 profile
 :
 TransactionProfile
+pub
+render_reasons
+:
+RenderReasons
 pub
 frame_stats
 :

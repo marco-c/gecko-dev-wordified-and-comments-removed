@@ -1158,6 +1158,12 @@ txn
 generate_frame
 (
 0
+RenderReasons
+:
+:
+empty
+(
+)
 )
 ;
 }
@@ -1321,6 +1327,12 @@ txn
 generate_frame
 (
 0
+RenderReasons
+:
+:
+empty
+(
+)
 )
 ;
 }
