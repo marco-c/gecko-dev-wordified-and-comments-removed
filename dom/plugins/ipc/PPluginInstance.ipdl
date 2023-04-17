@@ -19,10 +19,6 @@ protocol
 PStreamNotify
 ;
 include
-protocol
-PPluginSurface
-;
-include
 "
 gfxipc
 /
@@ -368,8 +364,6 @@ Shmem
 ;
 SurfaceDescriptorX11
 ;
-PPluginSurface
-;
 IOSurfaceDescriptor
 ;
 null_t
@@ -394,9 +388,6 @@ PBrowserStream
 ;
 manages
 PStreamNotify
-;
-manages
-PPluginSurface
 ;
 child
 :
@@ -904,17 +895,6 @@ returns
 (
 SurfaceDescriptor
 prevSurface
-)
-;
-async
-PPluginSurface
-(
-WindowsSharedMemoryHandle
-handle
-IntSize
-size
-bool
-transparent
 )
 ;
 intr
