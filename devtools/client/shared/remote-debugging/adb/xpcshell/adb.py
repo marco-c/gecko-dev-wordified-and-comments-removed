@@ -15,7 +15,7 @@ absolute_import
 import
 os
 import
-SocketServer
+socketserver
 import
 sys
 HOST
@@ -35,7 +35,7 @@ PORT
 class
 ADBRequestHandler
 (
-SocketServer
+socketserver
 .
 BaseRequestHandler
 )
@@ -98,6 +98,18 @@ all_data
 sent_length
 :
 ]
+.
+encode
+(
+"
+utf
+-
+8
+"
+"
+replace
+"
+)
 )
             
 sent_length
@@ -126,6 +138,18 @@ request
 recv
 (
 4096
+)
+.
+decode
+(
+"
+utf
+-
+8
+"
+"
+replace
+"
 )
             
 if
@@ -211,7 +235,7 @@ break
 class
 ADBServer
 (
-SocketServer
+socketserver
 .
 TCPServer
 )
@@ -225,7 +249,7 @@ server_address
 )
 :
         
-SocketServer
+socketserver
 .
 TCPServer
 .
