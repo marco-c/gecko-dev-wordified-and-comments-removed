@@ -7,10 +7,6 @@ collections
 import
 defaultdict
 from
-six
-.
-moves
-.
 urllib
 .
 parse

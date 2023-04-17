@@ -4,8 +4,6 @@ import
 os
 import
 re
-import
-six
 from
 voluptuous
 import
@@ -1425,10 +1423,6 @@ task
 reference
 "
 :
-six
-.
-ensure_text
-(
 json
 .
 dumps
@@ -1437,7 +1431,6 @@ extra_config
 sort_keys
 =
 True
-)
 )
     
 }
@@ -1584,15 +1577,11 @@ MOZHARNESS_TEST_PATHS
 "
 ]
 =
-six
-.
-ensure_text
-(
-            
 json
 .
 dumps
 (
+            
 {
 test
 [
@@ -1613,7 +1602,6 @@ manifests
 sort_keys
 =
 True
-)
         
 )
     
@@ -2725,10 +2713,6 @@ task
 reference
 "
 :
-six
-.
-ensure_text
-(
 json
 .
 dumps
@@ -2737,7 +2721,6 @@ extra_config
 sort_keys
 =
 True
-)
 )
     
 }
@@ -3267,15 +3250,11 @@ MOZHARNESS_TEST_PATHS
 "
 ]
 =
-six
-.
-ensure_text
-(
-            
 json
 .
 dumps
 (
+            
 {
 test
 [
@@ -3296,7 +3275,6 @@ manifests
 sort_keys
 =
 True
-)
         
 )
     

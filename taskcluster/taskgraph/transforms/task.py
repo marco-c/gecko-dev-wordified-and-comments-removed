@@ -67,8 +67,6 @@ copy
 import
 deepcopy
 import
-six
-import
 attr
 from
 mozbuild
@@ -3534,11 +3532,15 @@ hashlib
 sha256
 (
                     
-six
-.
-ensure_binary
-(
 out_of_tree_image
+.
+encode
+(
+"
+utf
+-
+8
+"
 )
                 
 )
@@ -3780,17 +3782,6 @@ TASKCLUSTER_VOLUMES
 .
 join
 (
-            
-[
-six
-.
-ensure_text
-(
-s
-)
-for
-s
-in
 sorted
 (
 worker
@@ -3800,8 +3791,6 @@ volumes
 "
 ]
 )
-]
-        
 )
     
 if
@@ -14658,12 +14647,7 @@ nothing
 volumes
 =
 {
-six
-.
-ensure_text
-(
 s
-)
 for
 s
 in
@@ -14683,11 +14667,6 @@ volumes
 paths
 =
 {
-        
-six
-.
-ensure_text
-(
 c
 [
 "
@@ -14696,7 +14675,6 @@ mount
 point
 "
 ]
-)
 for
 c
 in
@@ -14715,7 +14693,6 @@ caches
 [
 ]
 )
-    
 }
     
 missing

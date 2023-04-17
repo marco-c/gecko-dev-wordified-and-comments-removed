@@ -16,8 +16,6 @@ import
 get_repository_object
 import
 hashlib
-import
-six
 memoize
 def
 hash_path
@@ -274,11 +272,6 @@ h
 update
 (
             
-six
-.
-ensure_binary
-(
-                
 "
 {
 }
@@ -290,7 +283,7 @@ n
 .
 format
 (
-                    
+                
 hash_path
 (
 mozpath
@@ -306,16 +299,23 @@ path
 )
 )
 )
-                    
+                
 mozpath
 .
 normsep
 (
 path
 )
-                
-)
             
+)
+.
+encode
+(
+"
+utf
+-
+8
+"
 )
         
 )

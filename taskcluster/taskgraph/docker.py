@@ -3,8 +3,6 @@ json
 import
 os
 import
-six
-import
 tarfile
 from
 io
@@ -146,10 +144,6 @@ params
 level
 "
 :
-six
-.
-ensure_text
-(
 os
 .
 environ
@@ -162,7 +156,6 @@ MOZ_SCM_LEVEL
 "
 3
 "
-)
 )
 }
     

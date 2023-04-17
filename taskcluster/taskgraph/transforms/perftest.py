@@ -28,10 +28,6 @@ timedelta
 import
 json
 from
-six
-import
-ensure_text
-from
 voluptuous
 import
 (
@@ -1629,13 +1625,11 @@ PERFTEST_OPTIONS
 "
 ]
 =
-ensure_text
-(
-            
 json
 .
 dumps
 (
+            
 config
 .
 params
@@ -1652,7 +1646,6 @@ perftest
 -
 options
 "
-)
 )
         
 )

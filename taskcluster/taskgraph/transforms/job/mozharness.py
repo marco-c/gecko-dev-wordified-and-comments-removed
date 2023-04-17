@@ -30,8 +30,6 @@ approach
 "
 import
 json
-import
-six
 from
 textwrap
 import
@@ -1109,11 +1107,6 @@ EXTRA_MOZHARNESS_CONFIG
 "
 ]
 =
-six
-.
-ensure_text
-(
-        
 json
 .
 dumps
@@ -1122,8 +1115,6 @@ extra_config
 sort_keys
 =
 True
-)
-    
 )
     
 if
@@ -1799,11 +1790,6 @@ EXTRA_MOZHARNESS_CONFIG
 "
 ]
 =
-six
-.
-ensure_text
-(
-        
 json
 .
 dumps
@@ -1812,8 +1798,6 @@ extra_config
 sort_keys
 =
 True
-)
-    
 )
     
 if

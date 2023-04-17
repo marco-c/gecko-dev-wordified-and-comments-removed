@@ -23,8 +23,6 @@ import
 json
 import
 logging
-import
-six
 from
 taskgraph
 .
@@ -692,20 +690,15 @@ ATTRIBUTION_CONFIG
 "
 ]
 =
-six
-.
-ensure_text
-(
-            
 json
 .
 dumps
 (
+            
 attributions
 sort_keys
 =
 True
-)
         
 )
         

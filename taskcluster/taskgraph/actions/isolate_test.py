@@ -8,8 +8,6 @@ import
 os
 import
 re
-import
-six
 from
 taskgraph
 .
@@ -1300,21 +1298,16 @@ env
 "
 ]
 [
-                
 "
 MOZHARNESS_TEST_PATHS
 "
-            
 ]
 =
-six
-.
-ensure_text
-(
 json
 .
 dumps
 (
+                
 {
 suite
 :
@@ -1325,7 +1318,7 @@ failure_path
 sort_keys
 =
 True
-)
+            
 )
             
 logger

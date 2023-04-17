@@ -2,8 +2,6 @@ import
 hashlib
 import
 time
-import
-six
 TARGET_CACHE_INDEX
 =
 "
@@ -371,10 +369,6 @@ hashlib
 .
 sha256
 (
-six
-.
-ensure_binary
-(
 "
 \
 n
@@ -384,6 +378,14 @@ join
 (
 digest_data
 )
+.
+encode
+(
+"
+utf
+-
+8
+"
 )
 )
 .
