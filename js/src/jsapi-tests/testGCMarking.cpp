@@ -2049,7 +2049,8 @@ WorkBudget
 )
 )
 ;
-JS_SetGCParameter
+AutoGCParameter
+param
 (
 cx
 JSGC_INCREMENTAL_GC_ENABLED
