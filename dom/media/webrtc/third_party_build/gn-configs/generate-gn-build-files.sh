@@ -695,6 +695,13 @@ CONFIGS
 =
 "
 CONFIGS
+x64_False_arm64_linux
+x64_True_arm64_linux
+"
+CONFIGS
+=
+"
+CONFIGS
 x64_False_arm_android
 x64_True_arm_android
 "
