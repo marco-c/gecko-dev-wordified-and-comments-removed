@@ -1831,10 +1831,11 @@ added
 DMD
 ]
 (
-DMD
+.
+/
+dmd
 .
 md
-"
 )
 can
 be

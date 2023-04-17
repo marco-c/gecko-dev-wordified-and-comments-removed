@@ -1276,7 +1276,7 @@ is
 outlined
 in
 [
-CONTRIBUTING
+Contributing
 .
 md
 ]
@@ -1489,15 +1489,14 @@ MPL
 0
 /
 [
-CONTRIBUTING
+Contributing
 .
 md
 ]
 :
 .
-.
 /
-CONTRIBUTING
+Contributing
 .
 md
 Python

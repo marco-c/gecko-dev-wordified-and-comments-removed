@@ -347,7 +347,7 @@ DMD
 (
 memory
 /
-DMD
+dmd
 .
 md
 )
@@ -638,6 +638,8 @@ tips
 .
 ]
 (
+memory
+/
 leak_hunting_strategies_and_tips
 .
 md

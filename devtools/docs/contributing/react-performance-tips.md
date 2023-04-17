@@ -1377,6 +1377,7 @@ details
 below
 ]
 (
+#
 shouldcomponentupdate
 -
 and

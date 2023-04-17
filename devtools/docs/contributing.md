@@ -486,6 +486,8 @@ bugs
 (
 .
 /
+contributing
+/
 filing
 -
 good
@@ -569,6 +571,8 @@ guide
 ]
 (
 .
+/
+contributing
 /
 filing
 -

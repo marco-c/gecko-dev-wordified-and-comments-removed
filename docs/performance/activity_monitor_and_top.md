@@ -381,6 +381,7 @@ as
 powermetrics
 ]
 (
+.
 /
 powermetrics
 .
@@ -449,6 +450,7 @@ as
 powermetrics
 ]
 (
+.
 /
 powermetrics
 .
@@ -561,6 +563,7 @@ as
 powermetrics
 ]
 (
+.
 /
 powermetrics
 .

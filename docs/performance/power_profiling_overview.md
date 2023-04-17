@@ -1001,7 +1001,6 @@ and
 turbostat
 ]
 (
-/
 turbostat
 .
 md

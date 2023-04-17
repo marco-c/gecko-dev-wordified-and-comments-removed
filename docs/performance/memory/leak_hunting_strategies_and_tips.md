@@ -870,7 +870,7 @@ CC
 logs
 ]
 (
-GC_and_CC_logs
+gc_and_cc_logs
 .
 md
 )
