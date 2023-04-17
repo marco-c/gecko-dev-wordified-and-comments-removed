@@ -11173,6 +11173,15 @@ if
 sysroot_path
 and
 multiarch_dir
+and
+target
+.
+os
+!
+=
+"
+WASI
+"
 :
 for
 d
