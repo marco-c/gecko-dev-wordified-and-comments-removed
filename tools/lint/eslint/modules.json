@@ -3152,14 +3152,6 @@ PHONE_NUMBER_META_DATA
 "
 ]
 "
-PluginProvider
-.
-jsm
-"
-:
-[
-]
-"
 PointerAdapter
 .
 jsm
