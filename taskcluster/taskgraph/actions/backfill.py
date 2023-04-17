@@ -58,6 +58,10 @@ get_decision_task_id
 get_pushes_from_params_input
     
 trigger_action
+    
+get_tasks_with_downstream
+    
+rename_browsertime_vismet_task
 )
 logger
 =
@@ -1725,6 +1729,46 @@ full_task_graph
 tasks
 )
     
+to_run
+=
+[
+label
+]
+    
+if
+"
+browsertime
+"
+in
+label
+:
+        
+if
+"
+vismet
+"
+in
+label
+:
+            
+label
+=
+rename_browsertime_vismet_task
+(
+label
+)
+        
+to_run
+=
+get_tasks_with_downstream
+(
+[
+label
+]
+full_task_graph
+label_to_taskid
+)
+    
 modifier
 =
 do_not_modify
@@ -1822,9 +1866,7 @@ create_tasks
             
 graph_config
             
-[
-label
-]
+to_run
             
 full_task_graph
             
