@@ -31,9 +31,6 @@ h
 if
 !
 JS_HAS_INTL_API
-|
-|
-MOZ_SYSTEM_ICU
 struct
 PRMJTime
 {
@@ -132,9 +129,6 @@ endif
 if
 !
 JS_HAS_INTL_API
-|
-|
-MOZ_SYSTEM_ICU
 extern
 size_t
 PRMJ_FormatTime
