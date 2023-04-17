@@ -1386,7 +1386,7 @@ JS
 :
 :
 UniqueTwoByteChars
-ToJSStringBuffer
+ToNullTerminatedJSStringBuffer
 (
 JSContext
 *
@@ -1400,10 +1400,14 @@ aStr
 size_t
 nbytes
 =
+(
 aStr
 .
 Length
 (
+)
++
+1
 )
 *
 sizeof
@@ -1819,7 +1823,7 @@ JS
 UniqueTwoByteChars
 buffer
 =
-ToJSStringBuffer
+ToNullTerminatedJSStringBuffer
 (
 aCx
 sourceLine
