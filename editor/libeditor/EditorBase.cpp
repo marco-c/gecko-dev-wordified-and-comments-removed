@@ -1307,10 +1307,6 @@ mRootElement
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mPaddingBRElementForEmptyEditor
-)
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
 mSelectionController
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
@@ -1415,10 +1411,6 @@ NS_SUCCESS_INTERRUPTED_TRAVERSE
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mRootElement
-)
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
-mPaddingBRElementForEmptyEditor
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -3122,10 +3114,6 @@ mSpellcheckCheckboxState
 eTriUnset
 ;
 mRootElement
-=
-nullptr
-;
-mPaddingBRElementForEmptyEditor
 =
 nullptr
 ;

@@ -1635,15 +1635,6 @@ IsEmpty
 )
 const
 {
-if
-(
-mPaddingBRElementForEmptyEditor
-)
-{
-return
-true
-;
-}
 Element
 *
 anonymousDivElement
