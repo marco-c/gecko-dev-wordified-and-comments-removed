@@ -8947,8 +8947,6 @@ rv
 rv
 )
 ;
-rv
-=
 aState
 .
 mSorter
@@ -8991,12 +8989,6 @@ move
 (
 caseOrder
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 return
