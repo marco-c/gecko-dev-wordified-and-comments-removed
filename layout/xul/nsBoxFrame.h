@@ -574,6 +574,17 @@ aResult
 )
 override
 ;
+static
+nsIFrame
+*
+SlowOrdinalGroupAwareSibling
+(
+nsIFrame
+*
+bool
+aNext
+)
+;
 private
 :
 explicit
