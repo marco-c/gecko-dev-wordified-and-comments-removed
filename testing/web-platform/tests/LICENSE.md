@@ -6,7 +6,6 @@ Clause
 BSD
 License
 Copyright
-2019
 web
 -
 platform
