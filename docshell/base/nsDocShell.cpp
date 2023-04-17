@@ -21240,6 +21240,15 @@ EvictLocalContentViewers
 if
 (
 mWillChangeProcess
+&
+&
+!
+mBrowsingContext
+-
+>
+IsDiscarded
+(
+)
 )
 {
 mBrowsingContext
