@@ -908,7 +908,7 @@ aError
 ;
 }
 using
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetForm
@@ -1615,7 +1615,7 @@ HTMLTextAreaElement
 )
 ;
 using
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IsSingleLineTextControl

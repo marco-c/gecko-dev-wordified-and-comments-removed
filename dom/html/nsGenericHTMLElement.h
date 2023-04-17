@@ -3769,14 +3769,14 @@ nsGenericHTMLFormControlElement
 }
 ;
 class
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 public
 nsGenericHTMLFormControlElement
 {
 public
 :
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 (
 already_AddRefed
 <

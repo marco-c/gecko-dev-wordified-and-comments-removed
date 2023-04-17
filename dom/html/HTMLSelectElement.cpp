@@ -520,7 +520,7 @@ FromParser
 aFromParser
 )
 :
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 (
 std
 :
@@ -631,7 +631,7 @@ HTMLSelectElement
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 HTMLSelectElement
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -649,7 +649,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 HTMLSelectElement
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -663,7 +663,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 HTMLSelectElement
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 nsIConstraintValidation
 )
 NS_IMPL_ELEMENT_CLONE
@@ -814,7 +814,7 @@ index
 aNotify
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 InsertChildBefore
@@ -868,7 +868,7 @@ aKid
 aNotify
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 RemoveChildNode
@@ -4137,7 +4137,7 @@ aTabIndex
 {
 if
 (
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IsHTMLFocusable
@@ -4312,7 +4312,7 @@ aParent
 nsresult
 rv
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 BindToTree
@@ -4350,7 +4350,7 @@ bool
 aNullParent
 )
 {
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 UnbindFromTree
@@ -4454,7 +4454,7 @@ aNotify
 }
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 BeforeSetAttr
@@ -4607,7 +4607,7 @@ aNotify
 }
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 AfterSetAttr
@@ -4816,7 +4816,7 @@ MappedDeclarations
 aDecls
 )
 {
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapImageAlignAttributeInto
@@ -4825,7 +4825,7 @@ aAttributes
 aDecls
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapCommonAttributesInto
@@ -4853,7 +4853,7 @@ const
 nsChangeHint
 retval
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetAttributeChangeHint
@@ -5021,7 +5021,7 @@ mEvent
 return
 ;
 }
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetEventTargetParent
@@ -5102,7 +5102,7 @@ true
 ;
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 PostHandleEvent
@@ -5123,7 +5123,7 @@ const
 EventStates
 state
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IntrinsicState
@@ -6557,7 +6557,7 @@ bool
 aNotify
 )
 {
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 FieldSetDisabledChanged

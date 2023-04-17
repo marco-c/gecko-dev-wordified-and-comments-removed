@@ -61,7 +61,7 @@ class
 TextControlElement
 :
 public
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 {
 public
 :
@@ -86,7 +86,7 @@ FormControlType
 aType
 )
 :
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 (
 std
 :
@@ -105,7 +105,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 TextControlElement
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 )
 bool
 IsTextControlElement

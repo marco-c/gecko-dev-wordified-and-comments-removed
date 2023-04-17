@@ -5813,7 +5813,7 @@ true
 }
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 BeforeSetAttr
@@ -6772,7 +6772,7 @@ RunDOMEventWhenSafe
 }
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 AfterSetAttr
@@ -13195,7 +13195,7 @@ true
 ;
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 SetAttr
@@ -14114,7 +14114,7 @@ FormControlType
 InputHidden
 |
 |
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IsInteractiveHTMLContent
@@ -15148,7 +15148,7 @@ StopNumberControlSpinnerSpin
 }
 }
 }
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetEventTargetParent
@@ -15333,7 +15333,7 @@ FireChangeEventIfNeeded
 ;
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 PreHandleEvent
@@ -19698,7 +19698,7 @@ aParent
 nsresult
 rv
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 BindToTree
@@ -20001,7 +20001,7 @@ UnbindFromTree
 aNullParent
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 UnbindFromTree
@@ -24155,7 +24155,7 @@ MappedDeclarations
 aDecls
 )
 {
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapImageBorderAttributeInto
@@ -24164,7 +24164,7 @@ aAttributes
 aDecls
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapImageMarginAttributeInto
@@ -24173,7 +24173,7 @@ aAttributes
 aDecls
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapImageSizeAttributesInto
@@ -24186,7 +24186,7 @@ MapAspectRatio
 Yes
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapImageAlignAttributeInto
@@ -24195,7 +24195,7 @@ aAttributes
 aDecls
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapCommonAttributesInto
@@ -24223,7 +24223,7 @@ const
 nsChangeHint
 retval
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetAttributeChangeHint
@@ -27420,7 +27420,7 @@ const
 EventStates
 state
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IntrinsicState
@@ -28480,7 +28480,7 @@ aTabIndex
 {
 if
 (
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IsHTMLFocusable
@@ -31047,7 +31047,7 @@ bool
 aNotify
 )
 {
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 FieldSetDisabledChanged

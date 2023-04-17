@@ -427,13 +427,13 @@ InputType
 public
 :
 using
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetForm
 ;
 using
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetFormAction
@@ -3575,7 +3575,7 @@ aGivenProto
 override
 ;
 using
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IsSingleLineTextControl

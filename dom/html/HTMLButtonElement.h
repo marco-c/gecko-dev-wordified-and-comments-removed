@@ -47,7 +47,7 @@ HTMLButtonElement
 final
 :
 public
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 public
 nsIConstraintValidation
 {
@@ -84,7 +84,7 @@ NOT_FROM_PARSER
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLButtonElement
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 )
 NS_DECL_ISUPPORTS_INHERITED
 virtual
