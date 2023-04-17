@@ -26126,6 +26126,13 @@ IsEmpty
 )
 )
 {
+NS_ENSURE_STATE
+(
+GetOwnerGlobal
+(
+)
+)
+;
 ErrorResult
 rv
 ;
