@@ -66,17 +66,6 @@ shadow
 "
 error
 "
-"
-mozilla
-/
-no
--
-task
-"
-:
-"
-error
-"
 }
 }
 ;
