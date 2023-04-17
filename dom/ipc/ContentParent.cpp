@@ -4963,11 +4963,13 @@ forget
 )
 ;
 }
-static
 already_AddRefed
 <
 nsIPrincipal
 >
+ContentParent
+:
+:
 CreateRemoteTypeIsolationPrincipal
 (
 const
