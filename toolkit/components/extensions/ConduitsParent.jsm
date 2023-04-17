@@ -619,9 +619,10 @@ url
 =
 actor
 .
-browsingContext
+manager
 .
-currentURI
+documentURI
+?
 .
 spec
 ;
