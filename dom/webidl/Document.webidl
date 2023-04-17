@@ -1377,10 +1377,6 @@ attribute
 EventHandler
 onafterscriptexecute
 ;
-attribute
-EventHandler
-onselectionchange
-;
 /
 *
 *
