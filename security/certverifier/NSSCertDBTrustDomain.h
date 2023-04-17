@@ -384,11 +384,6 @@ PinningTelemetryInfo
 pinningTelemetryInfo
 =
 nullptr
-CRLiteLookupResult
-*
-crliteLookupResult
-=
-nullptr
 const
 char
 *
@@ -1075,10 +1070,6 @@ mBuiltChain
 PinningTelemetryInfo
 *
 mPinningTelemetryInfo
-;
-CRLiteLookupResult
-*
-mCRLiteLookupResult
 ;
 const
 char

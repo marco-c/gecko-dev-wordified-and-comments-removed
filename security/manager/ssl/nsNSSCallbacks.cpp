@@ -5197,7 +5197,6 @@ nullptr
 nullptr
 &
 certificateTransparencyInfo
-nullptr
 &
 isBuiltCertChainRootBuiltInRoot
 )
