@@ -3438,12 +3438,6 @@ case
 JSOp
 :
 :
-GImplicitThis
-:
-case
-JSOp
-:
-:
 CheckClassHeritage
 :
 case

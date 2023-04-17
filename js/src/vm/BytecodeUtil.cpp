@@ -11232,12 +11232,6 @@ case
 JSOp
 :
 :
-GImplicitThis
-:
-case
-JSOp
-:
-:
 FunctionThis
 :
 case

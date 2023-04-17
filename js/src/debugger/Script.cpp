@@ -8383,12 +8383,6 @@ case
 JSOp
 :
 :
-GImplicitThis
-:
-case
-JSOp
-:
-:
 ImplicitThis
 :
 case
