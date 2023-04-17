@@ -335,6 +335,7 @@ nsRange
 *
 aRange
 )
+const
 ;
 static
 already_AddRefed
