@@ -4693,6 +4693,15 @@ aState
 )
 ;
 async
+AddOrRemovePageAwakeRequest
+(
+MaybeDiscardedBrowsingContext
+aContext
+bool
+aShouldAddCount
+)
+;
+async
 GetModulesTrust
 (
 ModulePaths
