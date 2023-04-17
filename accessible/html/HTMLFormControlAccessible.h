@@ -360,6 +360,16 @@ NativeAttributes
 override
 ;
 virtual
+bool
+AttributeChangesState
+(
+nsAtom
+*
+aAttribute
+)
+override
+;
+virtual
 uint8_t
 ActionCount
 (

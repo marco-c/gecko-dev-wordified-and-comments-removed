@@ -2169,6 +2169,7 @@ NativeAttributes
 (
 )
 ;
+virtual
 bool
 AttributeChangesState
 (
