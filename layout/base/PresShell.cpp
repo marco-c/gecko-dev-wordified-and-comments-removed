@@ -39515,7 +39515,7 @@ root
 nsContentUtils
 :
 :
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 doc
 )

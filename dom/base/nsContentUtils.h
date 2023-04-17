@@ -5335,7 +5335,7 @@ aContent
 static
 Document
 *
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 Document
 *

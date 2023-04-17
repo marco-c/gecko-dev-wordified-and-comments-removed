@@ -64712,7 +64712,7 @@ root
 nsContentUtils
 :
 :
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 aDoc
 )
@@ -64863,7 +64863,7 @@ root
 nsContentUtils
 :
 :
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 aDoc
 )
@@ -66062,7 +66062,7 @@ root
 nsContentUtils
 :
 :
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 aDoc
 )
@@ -69249,7 +69249,7 @@ applyFullScreenDirectly
 nsContentUtils
 :
 :
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 this
 )
@@ -69710,7 +69710,7 @@ fullScreenRootDoc
 nsContentUtils
 :
 :
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 this
 )
