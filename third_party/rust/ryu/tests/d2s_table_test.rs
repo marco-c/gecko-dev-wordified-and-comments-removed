@@ -6,10 +6,6 @@ allow
 dead_code
 )
 ]
-extern
-crate
-core
-;
 #
 [
 path
@@ -159,6 +155,11 @@ entry
 )
 in
 DOUBLE_POW5_INV_SPLIT
+[
+.
+.
+292
+]
 .
 iter
 (

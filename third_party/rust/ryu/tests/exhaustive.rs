@@ -6,14 +6,6 @@ cfg
 exhaustive
 )
 ]
-extern
-crate
-num_cpus
-;
-extern
-crate
-ryu
-;
 use
 std
 :
