@@ -11435,12 +11435,7 @@ profiler_init
 "
 )
 ;
-detail
-:
-:
-scProfilerMainThreadId
-=
-profiler_current_thread_id
+profiler_init_main_thread_id
 (
 )
 ;

@@ -70,6 +70,11 @@ h
 #
 define
 AUTO_PROFILER_INIT
+:
+:
+profiler_init_main_thread_id
+(
+)
 #
 define
 AUTO_PROFILER_INIT2
