@@ -2696,6 +2696,13 @@ aSkipCheckingDynEntries
 )
 ;
 void
+ThawFreezeNonRecursive
+(
+bool
+aThaw
+)
+;
+void
 FirePageHideShowNonRecursive
 (
 bool
