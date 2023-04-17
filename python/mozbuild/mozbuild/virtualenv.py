@@ -324,15 +324,25 @@ self
         
 topsrcdir
         
-virtualenv_path
+virtualenvs_dir
         
-log_handle
+virtualenv_name
         
-manifest_path
+*
         
 populate_local_paths
 =
 True
+        
+log_handle
+=
+sys
+.
+stdout
+        
+manifest_path
+=
+None
     
 )
 :
@@ -378,6 +388,18 @@ to
 "
 "
         
+virtualenv_path
+=
+os
+.
+path
+.
+join
+(
+virtualenvs_dir
+virtualenv_name
+)
+        
 super
 (
 VirtualenvManager
@@ -399,33 +421,6 @@ pop
 __PYVENV_LAUNCHER__
 "
 None
-)
-        
-assert
-os
-.
-path
-.
-isabs
-(
-            
-manifest_path
-        
-)
-"
-manifest_path
-must
-be
-an
-absolute
-path
-:
-%
-s
-"
-%
-(
-manifest_path
 )
         
 self
@@ -462,15 +457,44 @@ log_handle
         
 self
 .
-manifest_path
+populate_local_paths
 =
-manifest_path
+populate_local_paths
         
 self
 .
-populate_local_paths
+_virtualenv_name
 =
-populate_local_paths
+virtualenv_name
+        
+self
+.
+_manifest_path
+=
+manifest_path
+or
+os
+.
+path
+.
+join
+(
+            
+topsrcdir
+"
+build
+"
+f
+"
+{
+virtualenv_name
+}
+_virtualenv_packages
+.
+txt
+"
+        
+)
     
 property
     
@@ -1778,7 +1802,7 @@ topsrcdir
 is_thunderbird
 self
 .
-manifest_path
+_manifest_path
         
 )
     
@@ -2386,13 +2410,24 @@ self
 .
 topsrcdir
             
+os
+.
+path
+.
+dirname
+(
 self
 .
 virtualenv_root
+)
             
 self
 .
-manifest_path
+_virtualenv_name
+            
+self
+.
+_manifest_path
         
 ]
         
@@ -3642,7 +3677,16 @@ parser
 add_argument
 (
 "
-virtualenv_path
+virtualenvs_dir
+"
+)
+    
+parser
+.
+add_argument
+(
+"
+virtualenv_name
 "
 )
     
@@ -3741,21 +3785,23 @@ topsrcdir
         
 opts
 .
-virtualenv_path
-        
-sys
-.
-stdout
+virtualenvs_dir
         
 opts
 .
-manifest_path
+virtualenv_name
         
 populate_local_paths
 =
 opts
 .
 populate_local_paths
+        
+manifest_path
+=
+opts
+.
+manifest_path
     
 )
     

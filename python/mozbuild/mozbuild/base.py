@@ -1827,33 +1827,11 @@ topobjdir
 "
 _virtualenvs
 "
+)
+                
 self
 .
 _virtualenv_name
-)
-                
-sys
-.
-stdout
-                
-os
-.
-path
-.
-join
-(
-self
-.
-topsrcdir
-"
-build
-"
-"
-build_virtualenv_packages
-.
-txt
-"
-)
             
 )
         
