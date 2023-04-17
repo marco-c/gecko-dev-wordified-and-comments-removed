@@ -2004,16 +2004,6 @@ nsINode
 aNode
 )
 ;
-bool
-IsVisibleBRElement
-(
-const
-nsINode
-*
-aNode
-)
-const
-;
 enum
 class
 FontSize
