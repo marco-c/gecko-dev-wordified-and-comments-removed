@@ -295,6 +295,11 @@ state
 "
 start
 "
+"
+check
+initial
+state
+"
 )
 ;
 state
@@ -401,6 +406,11 @@ iframes
 .
 await
 promiseApzFlushedRepaints
+(
+)
+;
+await
+waitUntilApzStable
 (
 )
 ;
