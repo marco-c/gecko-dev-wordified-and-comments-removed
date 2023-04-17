@@ -1486,6 +1486,23 @@ args
 formats
 :
                 
+if
+isinstance
+(
+fmt
+tuple
+)
+:
+                    
+formats
+.
+append
+(
+fmt
+)
+                    
+continue
+                
 path
 =
 None
