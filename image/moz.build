@@ -317,6 +317,11 @@ Resolution
 .
 h
 "
+"
+SourceSurfaceBlobImage
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -464,6 +469,11 @@ cpp
 "
 "
 SourceBuffer
+.
+cpp
+"
+"
+SourceSurfaceBlobImage
 .
 cpp
 "

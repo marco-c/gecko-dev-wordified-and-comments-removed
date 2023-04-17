@@ -633,6 +633,13 @@ FLAG_DECODE_TO_SRGB_COLORSPACE
 const
 unsigned
 long
+FLAG_RECORD_BLOB
+=
+0x1000
+;
+const
+unsigned
+long
 DECODE_FLAGS_DEFAULT
 =
 0

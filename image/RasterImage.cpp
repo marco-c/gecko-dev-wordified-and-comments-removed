@@ -2839,6 +2839,16 @@ uint32_t
 aFlags
 )
 {
+uint32_t
+flags
+=
+aFlags
+&
+~
+(
+FLAG_RECORD_BLOB
+)
+;
 RefPtr
 <
 ImageContainer
@@ -2859,7 +2869,7 @@ ToUnknownSize
 Nothing
 (
 )
-aFlags
+flags
 getter_AddRefs
 (
 container
