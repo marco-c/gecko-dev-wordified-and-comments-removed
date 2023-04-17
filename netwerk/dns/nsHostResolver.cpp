@@ -7401,6 +7401,15 @@ TRRSkippedReason
 :
 :
 TRR_DISABLED_FLAG
+|
+|
+aReason
+=
+=
+TRRSkippedReason
+:
+:
+TRR_NOT_CONFIRMED
 ;
 if
 (
