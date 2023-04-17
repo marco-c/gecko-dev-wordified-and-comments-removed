@@ -2691,7 +2691,7 @@ ePushNewContext
 )
 ;
 }
-nsresult
+void
 txStylesheetCompilerState
 :
 :
@@ -2716,9 +2716,6 @@ txList
 >
 (
 )
-;
-return
-NS_OK
 ;
 }
 void
