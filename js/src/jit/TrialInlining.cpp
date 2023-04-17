@@ -612,11 +612,6 @@ cx
 entry
 )
 ;
-bool
-attached
-=
-false
-;
 auto
 *
 newStub
@@ -631,8 +626,6 @@ kind
 script_
 icScript_
 fallback
-&
-attached
 )
 ;
 if
@@ -668,11 +661,6 @@ return
 false
 ;
 }
-MOZ_ASSERT
-(
-attached
-)
-;
 MOZ_ASSERT
 (
 fallback

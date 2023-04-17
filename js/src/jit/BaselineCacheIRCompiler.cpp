@@ -11100,9 +11100,6 @@ icScript
 ICFallbackStub
 *
 stub
-bool
-*
-attached
 )
 {
 AutoAssertNoPendingException
@@ -11116,13 +11113,6 @@ JS
 :
 AutoCheckCannotGC
 nogc
-;
-MOZ_ASSERT
-(
-!
-*
-attached
-)
 ;
 if
 (
@@ -11693,11 +11683,6 @@ addNewStub
 icEntry
 newStub
 )
-;
-*
-attached
-=
-true
 ;
 return
 newStub
