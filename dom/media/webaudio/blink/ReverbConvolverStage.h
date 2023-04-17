@@ -149,7 +149,7 @@ ReverbAccumulationBuffer
 *
 m_accumulationBuffer
 ;
-int
+size_t
 m_accumulationReadIndex
 ;
 int
