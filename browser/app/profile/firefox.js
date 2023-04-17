@@ -10964,15 +10964,6 @@ cfr
 "
 \
 "
-whats
--
-new
--
-panel
-\
-"
-\
-"
 moments
 -
 page

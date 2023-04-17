@@ -694,13 +694,6 @@ RS_PROVIDERS_WITH_L10N
 "
 cfr
 "
-"
-whats
--
-new
--
-panel
-"
 ]
 ;
 const
@@ -778,6 +771,12 @@ cfr
 moments
 -
 page
+"
+"
+infobar
+"
+"
+spotlight
 "
 ]
 ;
