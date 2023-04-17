@@ -72,6 +72,11 @@ QMResult
 h
 "
 "
+QMResultInlines
+.
+h
+"
+"
 StorageManager
 .
 h
