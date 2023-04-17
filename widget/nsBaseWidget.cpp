@@ -1794,7 +1794,7 @@ mWindowRenderer
 mWindowRenderer
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 )
@@ -1805,7 +1805,7 @@ return
 mWindowRenderer
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 -
