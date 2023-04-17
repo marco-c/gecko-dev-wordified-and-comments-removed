@@ -270,6 +270,12 @@ RefPtr
 <
 ID3D11BlendState
 >
+mPremulCopyState
+;
+RefPtr
+<
+ID3D11BlendState
+>
 mNonPremulBlendState
 ;
 RefPtr
