@@ -2331,8 +2331,8 @@ SprintfLiteral
 (
 buf
 "
+0x
 %
-#
 llx
 "
 pcULL
