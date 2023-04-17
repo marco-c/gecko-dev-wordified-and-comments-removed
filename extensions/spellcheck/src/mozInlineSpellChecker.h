@@ -384,6 +384,7 @@ GetDocument
 )
 const
 ;
+static
 already_AddRefed
 <
 nsRange
@@ -396,7 +397,6 @@ aNode
 uint32_t
 aOffset
 )
-const
 ;
 }
 ;
