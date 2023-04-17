@@ -18143,6 +18143,9 @@ gfxFont
 :
 InitFakeSmallCapsRun
 (
+nsPresContext
+*
+aPresContext
 DrawTarget
 *
 aDrawTarget
@@ -18894,6 +18897,9 @@ gfxFont
 :
 InitFakeSmallCapsRun
 (
+nsPresContext
+*
+aPresContext
 DrawTarget
 *
 aDrawTarget
@@ -18944,6 +18950,7 @@ aLength
 return
 InitFakeSmallCapsRun
 (
+aPresContext
 aDrawTarget
 aTextRun
 static_cast

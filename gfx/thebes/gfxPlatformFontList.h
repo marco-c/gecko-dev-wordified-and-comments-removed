@@ -836,6 +836,9 @@ gfxFont
 *
 SystemFindFontForChar
 (
+nsPresContext
+*
+aPresContext
 uint32_t
 aCh
 uint32_t
@@ -893,6 +896,9 @@ virtual
 bool
 FindAndAddFamilies
 (
+nsPresContext
+*
+aPresContext
 mozilla
 :
 :
@@ -932,6 +938,9 @@ gfxFontEntry
 *
 FindFontForFamily
 (
+nsPresContext
+*
+aPresContext
 const
 nsACString
 &
@@ -1243,6 +1252,9 @@ aDefer
 FontFamily
 GetDefaultFont
 (
+nsPresContext
+*
+aPresContext
 const
 gfxFontStyle
 *
@@ -1268,6 +1280,9 @@ gfxFontEntry
 *
 LookupLocalFont
 (
+nsPresContext
+*
+aPresContext
 const
 nsACString
 &
@@ -1487,6 +1502,9 @@ virtual
 void
 AddGenericFonts
 (
+nsPresContext
+*
+aPresContext
 mozilla
 :
 :
@@ -1532,6 +1550,9 @@ PrefFontList
 *
 GetPrefFontsLangGroup
 (
+nsPresContext
+*
+aPresContext
 mozilla
 :
 :
@@ -1690,6 +1711,8 @@ aGenericType
 bool
 SkipFontFallbackForChar
 (
+FontVisibility
+aVisibility
 uint32_t
 aCh
 )
@@ -1698,7 +1721,7 @@ const
 return
 mCodepointsWithNoFonts
 [
-mVisibilityLevel
+aVisibility
 ]
 .
 test
@@ -1714,6 +1737,8 @@ const
 gfxFontFamily
 &
 aFamily
+FontVisibility
+aVisibility
 )
 const
 ;
@@ -1730,13 +1755,10 @@ fontlist
 Family
 &
 aFamily
+FontVisibility
+aVisibility
 )
 const
-;
-void
-SetVisibilityLevel
-(
-)
 ;
 void
 InitializeCodepointsWithNoFonts
@@ -2208,6 +2230,9 @@ Family
 *
 FindSharedFamily
 (
+nsPresContext
+*
+aPresContext
 const
 nsACString
 &
@@ -2241,6 +2266,9 @@ gfxFontFamily
 *
 FindUnsharedFamily
 (
+nsPresContext
+*
+aPresContext
 const
 nsACString
 &
@@ -2292,6 +2320,7 @@ if
 (
 FindAndAddFamilies
 (
+aPresContext
 mozilla
 :
 :
@@ -2327,6 +2356,9 @@ nullptr
 FontFamily
 FindFamily
 (
+nsPresContext
+*
+aPresContext
 const
 nsACString
 &
@@ -2368,6 +2400,7 @@ FontFamily
 (
 FindSharedFamily
 (
+aPresContext
 aFamily
 aFlags
 aStyle
@@ -2382,6 +2415,7 @@ FontFamily
 (
 FindUnsharedFamily
 (
+aPresContext
 aFamily
 aFlags
 aStyle
@@ -2443,6 +2477,9 @@ gfxFont
 *
 CommonFontFallback
 (
+nsPresContext
+*
+aPresContext
 uint32_t
 aCh
 uint32_t
@@ -2464,6 +2501,9 @@ gfxFont
 *
 GlobalFontFallback
 (
+nsPresContext
+*
+aPresContext
 uint32_t
 aCh
 uint32_t
@@ -2489,6 +2529,9 @@ gfxFontEntry
 *
 PlatformGlobalFontFallback
 (
+nsPresContext
+*
+aPresContext
 const
 uint32_t
 aCh
@@ -2589,6 +2632,9 @@ gfxFontEntry
 *
 LookupInSharedFaceNameList
 (
+nsPresContext
+*
+aPresContext
 const
 nsACString
 &
@@ -2674,6 +2720,9 @@ false
 void
 ResolveGenericFontNames
 (
+nsPresContext
+*
+aPresContext
 mozilla
 :
 :
@@ -2689,6 +2738,9 @@ aGenericFamilies
 void
 ResolveEmojiFontNames
 (
+nsPresContext
+*
+aPresContext
 PrefFontList
 *
 aGenericFamilies
@@ -2697,6 +2749,9 @@ aGenericFamilies
 void
 GetFontFamiliesFromGenericFamilies
 (
+nsPresContext
+*
+aPresContext
 mozilla
 :
 :
@@ -2870,6 +2925,9 @@ virtual
 FontFamily
 GetDefaultFontForPlatform
 (
+nsPresContext
+*
+aPresContext
 const
 gfxFontStyle
 *
@@ -3209,14 +3267,6 @@ uint32_t
 mStartedLoadingCmapsFrom
 =
 0xffffffffu
-;
-FontVisibility
-mVisibilityLevel
-=
-FontVisibility
-:
-:
-Unknown
 ;
 bool
 mFontFamilyWhitelistActive

@@ -552,6 +552,9 @@ gfxFontEntry
 *
 LookupLocalFont
 (
+nsPresContext
+*
+aPresContext
 const
 nsACString
 &
@@ -839,6 +842,9 @@ aFNC
 FontFamily
 GetDefaultFontForPlatform
 (
+nsPresContext
+*
+aPresContext
 const
 gfxFontStyle
 *
