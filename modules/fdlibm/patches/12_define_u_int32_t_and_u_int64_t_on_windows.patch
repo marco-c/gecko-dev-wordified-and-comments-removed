@@ -183,6 +183,8 @@ ints
 #
 if
 MOZ_BIG_ENDIAN
+(
+)
 typedef
 union
 {
