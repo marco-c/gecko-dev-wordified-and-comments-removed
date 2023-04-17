@@ -261,7 +261,13 @@ estimate_dtx_delay
 "
 <
 <
+static_cast
+<
+bool
+>
+(
 estimate_dtx_delay_
+)
 <
 <
 "
@@ -270,7 +276,13 @@ time_stretch_cn
 "
 <
 <
+static_cast
+<
+bool
+>
+(
 time_stretch_cn_
+)
 <
 <
 "

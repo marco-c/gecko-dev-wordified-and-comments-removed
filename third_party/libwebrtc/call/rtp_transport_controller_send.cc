@@ -2599,7 +2599,13 @@ cap
 =
 is_relayed
 ?
+static_cast
+<
+DataRate
+>
+(
 relay_bandwidth_cap_
+)
 :
 DataRate
 :
