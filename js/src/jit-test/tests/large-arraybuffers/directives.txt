@@ -3,12 +3,6 @@ jit
 -
 test
 |
--
--
-large
--
-arraybuffers
-;
 allow
 -
 oom

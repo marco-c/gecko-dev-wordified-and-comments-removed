@@ -65749,6 +65749,8 @@ op
 getBoolOption
 (
 "
+no
+-
 large
 -
 arraybuffers
@@ -65761,7 +65763,7 @@ JS
 :
 SetLargeArrayBuffersEnabled
 (
-true
+false
 )
 ;
 }
@@ -70235,12 +70237,14 @@ addBoolOption
 0
 '
 "
+no
+-
 large
 -
 arraybuffers
 "
 "
-Allow
+Disallow
 creating
 ArrayBuffers
 larger
@@ -70254,10 +70258,6 @@ on
 -
 bit
 platforms
-(
-experimental
-!
-)
 "
 )
 |
