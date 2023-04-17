@@ -6684,7 +6684,7 @@ arrayLike
 other
 ;
 }
-uint32_t
+uint64_t
 len
 ;
 if
@@ -6730,6 +6730,18 @@ return
 nullptr
 ;
 }
+MOZ_ASSERT
+(
+len
+<
+=
+maxByteLength
+(
+)
+/
+BYTES_PER_ELEMENT
+)
+;
 Rooted
 <
 TypedArrayObject
