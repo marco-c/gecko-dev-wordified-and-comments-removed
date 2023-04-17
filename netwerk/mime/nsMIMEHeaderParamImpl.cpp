@@ -5942,7 +5942,7 @@ n
 &
 &
 !
-PL_strncmp
+strncmp
 (
 r
 -
