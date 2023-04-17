@@ -1124,7 +1124,7 @@ above
 separated
 by
 a
-colon
+semicolon
 e
 .
 g
@@ -1278,6 +1278,12 @@ range
 200
 -
 300
+.
+These
+range
+checks
+are
+inclusive
 .
 In
 cases
