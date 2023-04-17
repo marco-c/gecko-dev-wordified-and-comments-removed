@@ -893,6 +893,14 @@ ServiceWorkerRegistrationInfo
 aRegistrationInfo
 )
 ;
+int32_t
+GetPrincipalQuotaUsageCheckCount
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 uint32_t
 MaybeInitServiceWorkerShutdownProgress
 (
