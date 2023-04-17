@@ -21,16 +21,10 @@ nsIContent
 .
 h
 "
-using
+namespace
 mozilla
 :
 :
-LookAndFeel
-;
-namespace
-mozilla
-{
-namespace
 widget
 {
 static
@@ -45,10 +39,6 @@ HeadlessLookAndFeel
 :
 HeadlessLookAndFeel
 (
-const
-LookAndFeelCache
-*
-aCache
 )
 {
 }
@@ -1594,6 +1584,5 @@ GetEchoPasswordImpl
 return
 false
 ;
-}
 }
 }

@@ -41,10 +41,6 @@ public
 explicit
 HeadlessLookAndFeel
 (
-const
-LookAndFeelCache
-*
-aCache
 )
 ;
 virtual

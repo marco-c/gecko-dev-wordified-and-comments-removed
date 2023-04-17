@@ -58,14 +58,8 @@ nsLookAndFeel
 :
 nsLookAndFeel
 (
-LookAndFeelCache
-*
-aCache
 )
 :
-nsXPLookAndFeel
-(
-)
 mInitialized
 (
 false
