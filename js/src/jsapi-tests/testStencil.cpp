@@ -15,6 +15,15 @@ h
 #
 include
 "
+frontend
+/
+CompilationStencil
+.
+h
+"
+#
+include
+"
 js
 /
 CompilationAndEvaluation
@@ -1739,7 +1748,10 @@ DecodeStencil
 cx
 options
 range
+getter_AddRefs
+(
 stencil
+)
 )
 ;
 CHECK

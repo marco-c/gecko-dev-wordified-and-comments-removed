@@ -608,7 +608,7 @@ callbackData
 ;
 }
 JS_PUBLIC_API
-RefPtr
+already_AddRefed
 <
 JS
 :
