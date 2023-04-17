@@ -932,11 +932,15 @@ if
 host
 .
 os
-=
-=
+in
+(
 "
 OSX
 "
+"
+WINNT
+"
+)
 and
 is_nightly
 :
