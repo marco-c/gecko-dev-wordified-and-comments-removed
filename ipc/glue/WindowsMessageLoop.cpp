@@ -4441,12 +4441,6 @@ if
 InterruptStackDepth
 (
 )
-&
-&
-!
-AwaitingIncomingMessage
-(
-)
 )
 {
 MOZ_CRASH
