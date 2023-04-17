@@ -6,7 +6,7 @@ strict
 const
 IFRAME_TEST_COM_URI
 =
-http
+https
 :
 /
 /
@@ -53,7 +53,7 @@ script
 const
 IFRAME_TEST_URI
 =
-http
+https
 :
 /
 /
