@@ -188,9 +188,6 @@ self
 .
 install_mitmproxy_cert
 (
-self
-.
-browser_path
 )
     
 def
@@ -734,7 +731,6 @@ def
 install_mitmproxy_cert
 (
 self
-browser_path
 )
 :
         
