@@ -2090,9 +2090,9 @@ sandbox
 .
 spy
 (
-global
+Services
 .
-gUUIDGenerator
+uuid
 "
 generateUUID
 "
@@ -2114,9 +2114,9 @@ assert
 .
 calledOnce
 (
-global
+Services
 .
-gUUIDGenerator
+uuid
 .
 generateUUID
 )
@@ -2128,9 +2128,9 @@ equal
 session
 .
 session_id
-global
+Services
 .
-gUUIDGenerator
+uuid
 .
 generateUUID
 .
@@ -12570,9 +12570,9 @@ sandbox
 .
 stub
 (
-global
+Services
 .
-gUUIDGenerator
+uuid
 "
 generateUUID
 "
