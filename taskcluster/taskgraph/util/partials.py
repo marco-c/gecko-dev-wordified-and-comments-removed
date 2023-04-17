@@ -1318,6 +1318,9 @@ None
     
 if
 partial_updates
+is
+not
+None
 :
         
 return
