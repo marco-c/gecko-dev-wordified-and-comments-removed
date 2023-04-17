@@ -868,14 +868,12 @@ const
 auto
 &
 storageService
-ToResultGet
-<
+MOZ_TO_RESULT_GET_TYPED
+(
 nsCOMPtr
 <
 mozIStorageService
 >
->
-(
 MOZ_SELECT_OVERLOAD
 (
 do_GetService

@@ -622,14 +622,12 @@ const
 auto
 &
 idGen
-ToResultGet
-<
+MOZ_TO_RESULT_GET_TYPED
+(
 nsCOMPtr
 <
 nsIUUIDGenerator
 >
->
-(
 MOZ_SELECT_OVERLOAD
 (
 do_GetService

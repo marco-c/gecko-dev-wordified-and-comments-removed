@@ -592,11 +592,9 @@ const
 auto
 &
 id
-ToResultGet
-<
-int32_t
->
+MOZ_TO_RESULT_GET_TYPED
 (
+int32_t
 ToInteger
 type
 =

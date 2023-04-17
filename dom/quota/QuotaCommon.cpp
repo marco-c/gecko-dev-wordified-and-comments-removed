@@ -667,14 +667,12 @@ const
 auto
 &
 winFile
-ToResultGet
-<
+MOZ_TO_RESULT_GET_TYPED
+(
 nsCOMPtr
 <
 nsILocalFileWin
 >
->
-(
 MOZ_SELECT_OVERLOAD
 (
 do_QueryInterface
