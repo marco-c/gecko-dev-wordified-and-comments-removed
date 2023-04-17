@@ -449,15 +449,6 @@ bool
 aOutIsMaskComplete
 )
 ;
-static
-bool
-IsMaskResourceReady
-(
-nsIFrame
-*
-aFrame
-)
-;
 using
 SVGFilterPaintCallback
 =
