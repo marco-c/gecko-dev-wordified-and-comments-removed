@@ -771,7 +771,7 @@ aCharset
 int32_t
 aCharsetSource
 bool
-aChannelHadCharset
+aForceAutoDetection
 )
 {
 mCharset
