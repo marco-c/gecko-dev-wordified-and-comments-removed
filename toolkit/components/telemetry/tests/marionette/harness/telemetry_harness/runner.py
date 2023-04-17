@@ -273,6 +273,18 @@ enabled
 "
 :
 False
+                
+"
+app
+.
+shield
+.
+optoutstudies
+.
+enabled
+"
+:
+False
             
 }
         
