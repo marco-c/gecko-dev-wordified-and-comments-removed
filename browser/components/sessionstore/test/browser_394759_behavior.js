@@ -117,15 +117,10 @@ win
 let
 closedWindowData
 =
-JSON
-.
-parse
-(
 ss
 .
 getClosedWindowData
 (
-)
 )
 ;
 let

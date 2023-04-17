@@ -645,15 +645,10 @@ clearHistoryPromise
 let
 closedWindowData
 =
-JSON
-.
-parse
-(
 ss
 .
 getClosedWindowData
 (
-)
 )
 ;
 let

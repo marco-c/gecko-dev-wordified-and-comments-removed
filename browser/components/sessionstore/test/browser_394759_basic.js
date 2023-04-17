@@ -243,7 +243,6 @@ SessionStore
 .
 getClosedWindowData
 (
-false
 )
 ;
 is

@@ -360,15 +360,10 @@ storage
 }
 ]
 =
-JSON
-.
-parse
-(
 ss
 .
 getClosedWindowData
 (
-)
 )
 ;
 is
