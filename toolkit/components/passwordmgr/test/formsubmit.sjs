@@ -60,6 +60,11 @@ response
 let
 match
 ;
+let
+requestAuth
+=
+true
+;
 /
 /
 XXX

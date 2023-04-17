@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 function
 handleRequest
 (
@@ -38,7 +33,7 @@ prettier
 prettier
 *
 /
-let
+var
 bytes
 =
 [
@@ -139,7 +134,7 @@ plain
 false
 )
 ;
-let
+var
 bos
 =
 Components

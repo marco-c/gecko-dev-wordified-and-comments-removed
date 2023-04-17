@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 CC
 =
@@ -134,7 +129,7 @@ utf
 false
 )
 ;
-let
+var
 body
 =
 "
@@ -152,7 +147,7 @@ POST
 "
 )
 {
-const
+var
 bodyStream
 =
 new
@@ -163,7 +158,11 @@ request
 bodyInputStream
 )
 ;
-let
+var
+bytes
+=
+[
+]
 avail
 =
 0
@@ -203,7 +202,7 @@ avail
 ;
 }
 }
-const
+var
 contentType
 =
 request
@@ -231,7 +230,7 @@ type
 "
 "
 ;
-const
+var
 bodyOutput
 =
 [

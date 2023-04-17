@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 function
 handleRequest
 (
@@ -725,7 +720,7 @@ authHeader
 )
 ;
 }
-let
+var
 userpass
 =
 base64ToString
@@ -887,7 +882,7 @@ authHeader
 )
 ;
 }
-let
+var
 userpass
 =
 base64ToString

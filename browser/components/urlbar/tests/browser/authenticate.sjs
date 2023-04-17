@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 function
 handleRequest
 (
@@ -62,10 +57,10 @@ request
 response
 )
 {
-let
+var
 match
 ;
-let
+var
 requestAuth
 =
 true
@@ -139,7 +134,7 @@ the
 query
 string
 .
-let
+var
 query
 =
 "
@@ -150,7 +145,7 @@ request
 .
 queryString
 ;
-let
+var
 expected_user
 =
 "
@@ -165,7 +160,7 @@ realm
 mochitest
 "
 ;
-let
+var
 proxy_expected_user
 =
 "
@@ -182,7 +177,7 @@ mochi
 proxy
 "
 ;
-let
+var
 huge
 =
 false
@@ -193,7 +188,7 @@ anonymous
 =
 false
 ;
-let
+var
 authHeaderCount
 =
 1
@@ -610,7 +605,7 @@ with
 base64
 encoding
 .
-let
+var
 actual_user
 =
 "
@@ -690,7 +685,7 @@ header
 authHeader
 ;
 }
-let
+var
 userpass
 =
 base64ToString
@@ -768,7 +763,7 @@ match
 ]
 ;
 }
-let
+var
 proxy_actual_user
 =
 "
@@ -844,7 +839,7 @@ header
 authHeader
 ;
 }
-let
+var
 userpass
 =
 base64ToString
@@ -1856,13 +1851,13 @@ base64ToString
 data
 )
 {
-let
+var
 result
 =
 "
 "
 ;
-let
+var
 leftbits
 =
 0
@@ -1878,7 +1873,7 @@ yet
 to
 be
 appended
-let
+var
 leftdata
 =
 0
@@ -1901,7 +1896,7 @@ one
 .
 for
 (
-let
+var
 i
 =
 0
@@ -1917,7 +1912,7 @@ i
 +
 )
 {
-let
+var
 c
 =
 toBinaryTable
@@ -1932,7 +1927,7 @@ i
 0x7f
 ]
 ;
-let
+var
 padding
 =
 data

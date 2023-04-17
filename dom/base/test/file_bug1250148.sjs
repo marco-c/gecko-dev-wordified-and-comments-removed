@@ -162,12 +162,12 @@ forEach
 (
 function
 (
-str
+s
 )
 {
 if
 (
-str
+s
 .
 indexOf
 (
@@ -186,7 +186,7 @@ name
 value
 ]
 =
-str
+s
 .
 split
 (
@@ -211,7 +211,7 @@ contentTypeParams
 "
 ]
 =
-str
+s
 ;
 }
 }
@@ -321,7 +321,7 @@ forEach
 (
 function
 (
-str
+s
 )
 {
 /
@@ -339,7 +339,7 @@ name
 value
 ]
 =
-str
+s
 .
 split
 (

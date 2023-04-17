@@ -75,7 +75,7 @@ queryString
 }
 else
 {
-let
+var
 body
 =
 new
@@ -86,10 +86,10 @@ request
 bodyInputStream
 )
 ;
-let
+var
 avail
 ;
-let
+var
 bytes
 =
 [
@@ -128,7 +128,7 @@ avail
 )
 ;
 }
-let
+var
 data
 =
 String

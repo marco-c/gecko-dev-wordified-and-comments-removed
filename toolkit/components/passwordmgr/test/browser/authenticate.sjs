@@ -295,6 +295,9 @@ actual_pass
 "
 "
 authHeader
+authPresent
+=
+false
 ;
 if
 (
@@ -308,6 +311,10 @@ Authorization
 )
 )
 {
+authPresent
+=
+true
+;
 authHeader
 =
 request

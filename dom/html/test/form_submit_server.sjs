@@ -321,7 +321,7 @@ forEach
 (
 function
 (
-str
+s
 )
 {
 /
@@ -339,7 +339,7 @@ name
 value
 ]
 =
-str
+s
 .
 split
 (

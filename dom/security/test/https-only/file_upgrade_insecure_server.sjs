@@ -768,6 +768,7 @@ queryResponse
 return
 ;
 }
+var
 receivedQueries
 =
 getState

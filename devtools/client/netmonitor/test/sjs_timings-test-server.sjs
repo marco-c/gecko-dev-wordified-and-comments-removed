@@ -27,12 +27,7 @@ zero
 /
 *
 /
-"
-use
-strict
-"
-;
-const
+var
 trailerServerTiming
 =
 [
@@ -76,7 +71,7 @@ time4
 }
 ]
 ;
-const
+var
 responseServerTiming
 =
 [
@@ -125,7 +120,7 @@ request
 response
 )
 {
-const
+var
 body
 =
 "
@@ -278,7 +273,7 @@ createServerTimingHeader
 headerData
 )
 {
-let
+var
 header
 =
 "
@@ -286,7 +281,7 @@ header
 ;
 for
 (
-let
+var
 i
 =
 0
