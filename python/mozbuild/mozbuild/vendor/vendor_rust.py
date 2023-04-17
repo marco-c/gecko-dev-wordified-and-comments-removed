@@ -2948,11 +2948,6 @@ vendor
 "
 vendor_dir
 ]
-stderr
-=
-subprocess
-.
-STDOUT
 cwd
 =
 self
