@@ -22734,13 +22734,6 @@ if
 sizeOverrides
 .
 mStyleBSize
-&
-&
-aItem
-.
-HadMeasuringReflow
-(
-)
 )
 {
 aItem
