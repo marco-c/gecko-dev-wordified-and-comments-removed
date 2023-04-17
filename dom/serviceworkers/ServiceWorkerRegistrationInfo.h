@@ -769,6 +769,11 @@ ServiceWorkerInfo
 )
 )
 ;
+void
+CheckQuotaUsage
+(
+)
+;
 }
 ;
 }
