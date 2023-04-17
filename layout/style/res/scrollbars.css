@@ -219,6 +219,15 @@ opacity
 0
 ;
 }
+scrollcorner
+{
+pointer
+-
+events
+:
+none
+;
+}
 }
 slider
 {
