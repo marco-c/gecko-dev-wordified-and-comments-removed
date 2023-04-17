@@ -47025,6 +47025,8 @@ catch
 )
 ;
 }
+try
+{
 await
 gImageLoading
 .
@@ -47033,6 +47035,15 @@ get
 imageUrl
 )
 ;
+}
+catch
+(
+ex
+)
+{
+return
+;
+}
 if
 (
 content_src_lib_screenshot_utils__WEBPACK_IMPORTED_MODULE_6__
