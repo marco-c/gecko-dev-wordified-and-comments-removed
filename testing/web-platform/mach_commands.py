@@ -3265,6 +3265,7 @@ self
 .
 run_web_platform_tests
 (
+command_context
 *
 *
 params
@@ -3446,6 +3447,7 @@ self
 .
 update_web_platform_tests
 (
+command_context
 *
 *
 params
