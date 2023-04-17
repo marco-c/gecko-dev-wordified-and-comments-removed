@@ -63,17 +63,6 @@ mozilla
 /
 layers
 /
-LayerMetricsWrapper
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 OMTAController
 .
 h
