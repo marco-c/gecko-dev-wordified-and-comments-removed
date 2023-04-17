@@ -5639,6 +5639,11 @@ final
 {
 public
 :
+using
+PointType
+=
+EditorDOMPointType
+;
 EditorDOMRangeBase
 (
 )
