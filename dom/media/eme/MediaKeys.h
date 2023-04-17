@@ -288,6 +288,11 @@ Unbind
 )
 ;
 void
+CheckIsElementCapturePossible
+(
+)
+;
+void
 GetKeySystem
 (
 nsString
