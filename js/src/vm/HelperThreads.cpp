@@ -484,6 +484,9 @@ DestroyHelperThreadsState
 (
 )
 {
+AutoLockHelperThreadState
+lock
+;
 if
 (
 !
@@ -498,6 +501,7 @@ gHelperThreadState
 >
 finish
 (
+lock
 )
 ;
 js_delete
@@ -7231,11 +7235,11 @@ GlobalHelperThreadState
 :
 finish
 (
+AutoLockHelperThreadState
+&
+lock
 )
 {
-AutoLockHelperThreadState
-lock
-;
 if
 (
 !
