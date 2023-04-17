@@ -3431,6 +3431,9 @@ send_in_pings
 :
 -
 store1
+telemetry_mirror
+:
+TELEMETRY_TEST_MIRROR_FOR_RATE
 rate_with_external_denominator
 :
 type
