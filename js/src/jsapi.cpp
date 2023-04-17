@@ -348,6 +348,15 @@ include
 "
 js
 /
+ScriptPrivate
+.
+h
+"
+#
+include
+"
+js
+/
 StableStringChars
 .
 h
