@@ -86124,9 +86124,10 @@ JS
 :
 AtomToLinearString
 (
-JSID_TO_ATOM
-(
 id
+.
+toAtom
+(
 )
 )
 ;

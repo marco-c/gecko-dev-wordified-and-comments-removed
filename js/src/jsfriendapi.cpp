@@ -2521,9 +2521,10 @@ id
 {
 MOZ_ASSERT
 (
-JSID_IS_STRING
-(
 id
+.
+isAtom
+(
 )
 )
 ;
@@ -2560,9 +2561,10 @@ RootedAtom
 atom
 (
 cx
-JSID_TO_ATOM
-(
 id
+.
+toAtom
+(
 )
 )
 ;
