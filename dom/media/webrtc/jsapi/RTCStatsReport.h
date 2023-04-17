@@ -205,6 +205,17 @@ webrtc
 :
 :
 Timestamp
+ConvertMozTimeToRealtime
+(
+TimeStamp
+aMozTime
+)
+const
+;
+webrtc
+:
+:
+Timestamp
 ConvertRealtimeTo1Jan1970
 (
 webrtc
