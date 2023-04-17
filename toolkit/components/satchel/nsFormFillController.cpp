@@ -3406,7 +3406,6 @@ mLastFormAutoComplete
 nullptr
 ;
 }
-else
 if
 (
 mLoginManagerAC
