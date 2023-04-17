@@ -41,7 +41,7 @@ html
 const
 URL1
 =
-http
+https
 :
 /
 /
@@ -56,7 +56,7 @@ PATH
 const
 URL2
 =
-http
+https
 :
 /
 /
