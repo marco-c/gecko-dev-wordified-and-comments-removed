@@ -1425,6 +1425,14 @@ nullptr
 )
 ;
 void
+HideMenu
+(
+nsIContent
+*
+aMenu
+)
+;
+void
 HidePopupAfterDelay
 (
 nsMenuPopupFrame
