@@ -1461,6 +1461,10 @@ const
 nsRect
 &
 aRect
+const
+nsMargin
+&
+aMargin
 ScrollAxis
 aVertical
 ScrollAxis

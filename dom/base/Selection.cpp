@@ -8465,6 +8465,9 @@ nsSize
 0
 )
 )
+nsMargin
+(
+)
 ScrollAxis
 (
 )
@@ -14241,6 +14244,9 @@ ScrollFrameRectIntoView
 (
 frame
 rect
+nsMargin
+(
+)
 aVertical
 aHorizontal
 scrollFlags
