@@ -14500,6 +14500,9 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
+skipLoad
+:
+true
 }
 )
 ;
