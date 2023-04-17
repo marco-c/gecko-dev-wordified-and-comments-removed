@@ -1978,6 +1978,9 @@ GetMenuPopupContent
 if
 (
 mObserver
+&
+&
+popupContent
 )
 {
 mObserver
@@ -2446,6 +2449,9 @@ status
 if
 (
 mObserver
+&
+&
+popupContent
 )
 {
 mObserver
@@ -3421,6 +3427,9 @@ GetMenuPopupContent
 if
 (
 mObserver
+&
+&
+popupContent
 )
 {
 mObserver
