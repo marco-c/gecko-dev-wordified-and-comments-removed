@@ -539,7 +539,7 @@ appMenu
 -
 fxa
 -
-label
+label2
 "
 }
 ]
