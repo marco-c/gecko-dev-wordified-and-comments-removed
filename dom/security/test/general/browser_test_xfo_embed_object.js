@@ -116,13 +116,6 @@ msgObj
 .
 message
 ;
-const
-logLevel
-=
-msgObj
-.
-logLevel
-;
 if
 (
 message
@@ -205,9 +198,6 @@ waitForCondition
 =
 >
 xfoBlocked
-=
-=
-true
 )
 ;
 Services
@@ -280,9 +270,6 @@ waitForCondition
 =
 >
 xfoBlocked
-=
-=
-true
 )
 ;
 Services
