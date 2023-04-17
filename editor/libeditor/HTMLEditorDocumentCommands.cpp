@@ -12,7 +12,7 @@ include
 "
 mozilla
 /
-HTMLEditor
+EditorBase
 .
 h
 "
@@ -21,7 +21,7 @@ include
 "
 mozilla
 /
-TextEditor
+HTMLEditor
 .
 h
 "
@@ -166,9 +166,9 @@ IsCommandEnabled
 (
 Command
 aCommand
-TextEditor
+EditorBase
 *
-aTextEditor
+aEditorBase
 )
 const
 {
@@ -186,14 +186,14 @@ SetDocumentReadOnly
 return
 !
 !
-aTextEditor
+aEditorBase
 ;
 }
 return
-aTextEditor
+aEditorBase
 &
 &
-aTextEditor
+aEditorBase
 -
 >
 AsHTMLEditor
@@ -209,9 +209,9 @@ DoCommand
 (
 Command
 aCommand
-TextEditor
+EditorBase
 &
-aTextEditor
+aEditorBase
 nsIPrincipal
 *
 aPrincipal
@@ -237,9 +237,9 @@ bool
 >
 &
 aBoolParam
-TextEditor
+EditorBase
 &
-aTextEditor
+aEditorBase
 nsIPrincipal
 *
 aPrincipal
@@ -276,7 +276,7 @@ SetDocumentReadOnly
 NS_WARN_IF
 (
 !
-aTextEditor
+aEditorBase
 .
 IsHTMLEditor
 (
@@ -312,7 +312,7 @@ value
 nsresult
 rv
 =
-aTextEditor
+aEditorBase
 .
 IncrementModificationCount
 (
@@ -343,7 +343,7 @@ rv
 nsresult
 rv
 =
-aTextEditor
+aEditorBase
 .
 ResetModificationCount
 (
@@ -379,7 +379,7 @@ SetDocumentReadOnly
 {
 if
 (
-aTextEditor
+aEditorBase
 .
 IsTextEditor
 (
@@ -390,7 +390,7 @@ Element
 *
 inputOrTextArea
 =
-aTextEditor
+aEditorBase
 .
 GetExposedRoot
 (
@@ -583,7 +583,7 @@ value
 nsresult
 rv
 =
-aTextEditor
+aEditorBase
 .
 AddFlags
 (
@@ -621,7 +621,7 @@ rv
 nsresult
 rv
 =
-aTextEditor
+aEditorBase
 .
 RemoveFlags
 (
@@ -668,7 +668,7 @@ rv
 =
 MOZ_KnownLive
 (
-aTextEditor
+aEditorBase
 .
 AsHTMLEditor
 (
@@ -716,7 +716,7 @@ SetDocumentInsertBROnEnterKeyPress
 nsresult
 rv
 =
-aTextEditor
+aEditorBase
 .
 AsHTMLEditor
 (
@@ -763,7 +763,7 @@ ToggleObjectResizers
 {
 MOZ_KnownLive
 (
-aTextEditor
+aEditorBase
 .
 AsHTMLEditor
 (
@@ -793,7 +793,7 @@ ToggleInlineTableEditor
 {
 MOZ_KnownLive
 (
-aTextEditor
+aEditorBase
 .
 AsHTMLEditor
 (
@@ -823,7 +823,7 @@ ToggleAbsolutePositionEditor
 {
 MOZ_KnownLive
 (
-aTextEditor
+aEditorBase
 .
 AsHTMLEditor
 (
@@ -863,9 +863,9 @@ const
 nsACString
 &
 aCStringParam
-TextEditor
+EditorBase
 &
-aTextEditor
+aEditorBase
 nsIPrincipal
 *
 aPrincipal
@@ -893,9 +893,9 @@ if
 NS_WARN_IF
 (
 !
-aTextEditor
+aEditorBase
 .
-AsHTMLEditor
+IsHTMLEditor
 (
 )
 )
@@ -929,7 +929,7 @@ div
 )
 )
 {
-aTextEditor
+aEditorBase
 .
 AsHTMLEditor
 (
@@ -960,7 +960,7 @@ p
 )
 )
 {
-aTextEditor
+aEditorBase
 .
 AsHTMLEditor
 (
@@ -991,7 +991,7 @@ br
 )
 )
 {
-aTextEditor
+aEditorBase
 .
 AsHTMLEditor
 (
@@ -1042,9 +1042,9 @@ aCommand
 nsCommandParams
 &
 aParams
-TextEditor
+EditorBase
 *
-aTextEditor
+aEditorBase
 nsIEditingSession
 *
 aEditingSession
@@ -1056,7 +1056,7 @@ if
 NS_WARN_IF
 (
 !
-aTextEditor
+aEditorBase
 )
 )
 {
@@ -1069,10 +1069,10 @@ if
 NS_WARN_IF
 (
 !
-aTextEditor
+aEditorBase
 -
 >
-AsHTMLEditor
+IsHTMLEditor
 (
 )
 )
@@ -1093,7 +1093,7 @@ STATE_ENABLED
 IsCommandEnabled
 (
 aCommand
-aTextEditor
+aEditorBase
 )
 )
 ;
@@ -1129,7 +1129,7 @@ modified
 ;
 rv
 =
-aTextEditor
+aEditorBase
 -
 >
 GetDocumentModified
@@ -1209,7 +1209,7 @@ aParams
 SetBool
 (
 STATE_ATTRIBUTE
-aTextEditor
+aEditorBase
 -
 >
 IsReadonly
@@ -1250,7 +1250,7 @@ HTMLEditor
 *
 htmlEditor
 =
-aTextEditor
+aEditorBase
 -
 >
 AsHTMLEditor
@@ -1318,7 +1318,7 @@ HTMLEditor
 *
 htmlEditor
 =
-aTextEditor
+aEditorBase
 -
 >
 AsHTMLEditor
@@ -1417,7 +1417,7 @@ HTMLEditor
 *
 htmlEditor
 =
-aTextEditor
+aEditorBase
 -
 >
 AsHTMLEditor
@@ -1625,7 +1625,7 @@ HTMLEditor
 *
 htmlEditor
 =
-aTextEditor
+aEditorBase
 -
 >
 AsHTMLEditor
@@ -1693,7 +1693,7 @@ HTMLEditor
 *
 htmlEditor
 =
-aTextEditor
+aEditorBase
 -
 >
 AsHTMLEditor
@@ -1761,7 +1761,7 @@ HTMLEditor
 *
 htmlEditor
 =
-aTextEditor
+aEditorBase
 -
 >
 AsHTMLEditor
@@ -1820,9 +1820,9 @@ IsCommandEnabled
 (
 Command
 aCommand
-TextEditor
+EditorBase
 *
-aTextEditor
+aEditorBase
 )
 const
 {
@@ -1838,9 +1838,9 @@ DoCommand
 (
 Command
 aCommand
-TextEditor
+EditorBase
 &
-aTextEditor
+aEditorBase
 nsIPrincipal
 *
 aPrincipal
@@ -1862,9 +1862,9 @@ aCommand
 nsCommandParams
 &
 aParams
-TextEditor
+EditorBase
 *
-aTextEditor
+aEditorBase
 nsIEditingSession
 *
 aEditingSession
@@ -1937,7 +1937,7 @@ rv
 else
 if
 (
-aTextEditor
+aEditorBase
 )
 {
 editorStatus
@@ -1991,7 +1991,7 @@ EditorObserverDocumentLocationChanged
 if
 (
 !
-aTextEditor
+aEditorBase
 )
 {
 return
@@ -2002,7 +2002,7 @@ Document
 *
 document
 =
-aTextEditor
+aEditorBase
 -
 >
 GetDocument
