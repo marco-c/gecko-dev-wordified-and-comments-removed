@@ -3403,6 +3403,7 @@ async
 function
 (
 fieldValues
+browser
 )
 {
 is
@@ -3509,9 +3510,6 @@ notif
 REMOVE_LOGIN_MENUITEM
 )
 ;
-}
-)
-;
 const
 forceClosePopup
 =
@@ -3529,15 +3527,16 @@ verifyConfirmationHint
 await
 verifyConfirmationHint
 (
-gBrowser
-.
-selectedBrowser
+browser
 forceClosePopup
 "
 identity
 -
 icon
 "
+)
+;
+}
 )
 ;
 let
