@@ -298,6 +298,16 @@ content
 "
 )
 ;
+frame
+.
+setAttribute
+(
+"
+remote
+"
+true
+)
+;
 panelNode
 .
 appendChild
