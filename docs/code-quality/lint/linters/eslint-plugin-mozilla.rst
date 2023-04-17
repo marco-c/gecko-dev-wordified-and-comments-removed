@@ -355,6 +355,15 @@ mozilla
 /
 reject
 -
+scriptableunicodeconverter
+eslint
+-
+plugin
+-
+mozilla
+/
+reject
+-
 some
 -
 requires

@@ -529,6 +529,17 @@ warn
 "
 mozilla
 /
+reject
+-
+scriptableunicodeconverter
+"
+:
+"
+warn
+"
+"
+mozilla
+/
 rejects
 -
 requires
