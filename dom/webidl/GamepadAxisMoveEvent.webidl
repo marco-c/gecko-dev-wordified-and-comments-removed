@@ -106,6 +106,7 @@ enabled
 Exposed
 =
 Window
+SecureContext
 ]
 interface
 GamepadAxisMoveEvent
