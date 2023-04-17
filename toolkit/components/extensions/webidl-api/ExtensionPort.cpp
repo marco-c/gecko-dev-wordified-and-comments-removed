@@ -71,6 +71,7 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 ExtensionPort
 mGlobal
+mExtensionBrowser
 mOnDisconnectEventMgr
 mOnMessageEventMgr
 )
@@ -97,6 +98,9 @@ Create
 nsIGlobalObject
 *
 aGlobal
+ExtensionBrowser
+*
+aExtensionBrowser
 JS
 :
 :
@@ -207,6 +211,7 @@ new
 ExtensionPort
 (
 aGlobal
+aExtensionBrowser
 std
 :
 :
@@ -232,6 +237,9 @@ ExtensionPort
 nsIGlobalObject
 *
 aGlobal
+ExtensionBrowser
+*
+aExtensionBrowser
 UniquePtr
 <
 dom
@@ -245,6 +253,10 @@ aPortDescriptor
 mGlobal
 (
 aGlobal
+)
+mExtensionBrowser
+(
+aExtensionBrowser
 )
 mPortDescriptor
 (
@@ -260,6 +272,11 @@ aPortDescriptor
 MOZ_DIAGNOSTIC_ASSERT
 (
 mGlobal
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mExtensionBrowser
 )
 ;
 }
