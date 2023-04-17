@@ -489,6 +489,11 @@ attribute
 boolean
 createdDynamically
 ;
+readonly
+attribute
+boolean
+isInBFCache
+;
 /
 *
 *
