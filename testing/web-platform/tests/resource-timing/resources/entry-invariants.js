@@ -181,7 +181,7 @@ const
 invariants
 =
 {
-assert_http_resource
+assert_tao_pass_no_redirect
 :
 entry
 =
