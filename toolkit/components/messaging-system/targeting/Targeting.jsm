@@ -207,7 +207,7 @@ targeting
 const
 DEFAULT_TIMEOUT
 =
-3000
+5000
 ;
 const
 ERROR_TYPES
