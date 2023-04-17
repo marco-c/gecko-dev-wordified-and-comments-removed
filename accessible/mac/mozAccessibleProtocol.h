@@ -16,6 +16,9 @@ h
 "
 protocol
 mozAccessible
+<
+NSObject
+>
 -
 (
 BOOL
