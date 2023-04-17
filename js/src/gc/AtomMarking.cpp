@@ -192,12 +192,9 @@ isAtomsZone
 )
 )
 ;
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 freeArenaIndexes
 .
 ref
