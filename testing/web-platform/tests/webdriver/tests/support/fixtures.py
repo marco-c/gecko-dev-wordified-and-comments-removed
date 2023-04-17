@@ -375,7 +375,6 @@ def
 reset_current_session_if_necessary
 (
 caps
-request_bidi
 )
 :
     
@@ -389,6 +388,16 @@ not
 None
 :
         
+if
+not
+_current_session
+.
+match
+(
+caps
+)
+:
+            
 is_bidi
 =
 isinstance
@@ -398,21 +407,6 @@ webdriver
 .
 BidiSession
 )
-        
-if
-is_bidi
-!
-=
-request_bidi
-or
-not
-_current_session
-.
-match
-(
-caps
-)
-:
             
 if
 is_bidi
@@ -585,7 +579,6 @@ await
 reset_current_session_if_necessary
 (
 caps
-False
 )
     
 if
@@ -821,6 +814,19 @@ capabilities
 ]
 )
     
+caps
+.
+update
+(
+{
+"
+webSocketUrl
+"
+:
+True
+}
+)
+    
 deep_update
 (
 caps
@@ -841,7 +847,6 @@ await
 reset_current_session_if_necessary
 (
 caps
-True
 )
     
 if
