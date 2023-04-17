@@ -248,6 +248,11 @@ nsMacSharingService
 mm
 "
 "
+nsMacUserActivityUpdater
+.
+mm
+"
+"
 nsMacWebAppUtils
 .
 mm

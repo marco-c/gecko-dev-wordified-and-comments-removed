@@ -256,6 +256,11 @@ nsIMacSharingService
 idl
 "
 "
+nsIMacUserActivityUpdater
+.
+idl
+"
+"
 nsIMacWebAppUtils
 .
 idl

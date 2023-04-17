@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsCocoaUtils
+.
+h
+"
+#
+include
+"
 nsObjCExceptions
 .
 h
