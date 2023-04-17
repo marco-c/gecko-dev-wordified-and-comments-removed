@@ -81,6 +81,9 @@ function
 (
 asyncFn
 shouldSwallow
+retValue
+=
+SWALLOWED_RET
 )
 {
 return
@@ -138,7 +141,7 @@ e
 )
 ;
 return
-SWALLOWED_RET
+retValue
 ;
 }
 throw
