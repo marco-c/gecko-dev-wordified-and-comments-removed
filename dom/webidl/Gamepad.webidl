@@ -165,6 +165,7 @@ enabled
 Exposed
 =
 Window
+SecureContext
 ]
 interface
 GamepadButton
@@ -274,6 +275,7 @@ enabled
 Exposed
 =
 Window
+SecureContext
 ]
 interface
 Gamepad
