@@ -2269,7 +2269,7 @@ result
 }
 #
 define
-COUNT
+TEST_COUNT
 10000
 MOZ_GTEST_BENCH
 (
@@ -2320,7 +2320,7 @@ for
 int
 i
 =
-COUNT
+TEST_COUNT
 ;
 i
 ;
