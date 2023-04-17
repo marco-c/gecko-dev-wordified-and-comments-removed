@@ -1142,6 +1142,9 @@ extra_keys
 :
 an_extra_key
 :
+type
+:
+string
 description
 :
 An
@@ -1150,6 +1153,9 @@ key
 description
 another_extra_key
 :
+type
+:
+string
 description
 :
 Another
