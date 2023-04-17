@@ -24046,6 +24046,16 @@ if
 aDocShellToCloneInto
 )
 {
+Unused
+<
+<
+aDocShellToCloneInto
+-
+>
+GetDocument
+(
+)
+;
 bc
 =
 aDocShellToCloneInto
