@@ -205,6 +205,8 @@ dom
 enum
 class
 AudioContextOperation
+:
+uint8_t
 ;
 }
 struct
