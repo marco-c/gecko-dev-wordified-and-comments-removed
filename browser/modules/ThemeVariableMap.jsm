@@ -395,6 +395,8 @@ toolbar_bottom_separator
 "
 -
 -
+lwt
+-
 toolbarbutton
 -
 icon
