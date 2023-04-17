@@ -906,9 +906,14 @@ JSProto_WasmGlobal
 case
 JSProto_WasmTag
 :
+#
+ifdef
+ENABLE_WASM_TYPE_REFLECTIONS
 case
 JSProto_WasmFunction
 :
+#
+endif
 case
 JSProto_WasmException
 :
