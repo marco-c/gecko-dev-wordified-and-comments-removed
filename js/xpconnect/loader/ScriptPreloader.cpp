@@ -4054,6 +4054,12 @@ setSourceIsLazy
 true
 )
 ;
+options
+.
+borrowBuffer
+=
+true
+;
 }
 already_AddRefed
 <

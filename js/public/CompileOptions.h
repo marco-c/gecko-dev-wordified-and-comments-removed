@@ -210,6 +210,11 @@ useOffThreadParseGlobal
 true
 ;
 bool
+borrowBuffer
+=
+false
+;
+bool
 usePinnedBytecode
 =
 false

@@ -174,6 +174,9 @@ mode
 >
 *
 xdr
+LifoAlloc
+&
+alloc
 BigIntStencil
 &
 stencil
@@ -194,6 +197,9 @@ mode
 >
 *
 xdr
+LifoAlloc
+&
+alloc
 ObjLiteralStencil
 &
 stencil
@@ -214,6 +220,9 @@ mode
 >
 *
 xdr
+LifoAlloc
+&
+alloc
 ScopeStencil
 &
 stencil
@@ -281,6 +290,9 @@ mode
 >
 *
 xdr
+LifoAlloc
+&
+alloc
 ParserAtom
 *
 *

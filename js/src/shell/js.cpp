@@ -12464,6 +12464,12 @@ setdeferDebugMetadata
 (
 )
 ;
+options
+.
+borrowBuffer
+=
+true
+;
 global
 =
 JS
@@ -36524,6 +36530,12 @@ BytecodeCacheKind
 :
 :
 Stencil
+;
+options
+.
+borrowBuffer
+=
+true
 ;
 options
 .
