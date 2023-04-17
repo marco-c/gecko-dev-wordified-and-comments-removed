@@ -328,6 +328,13 @@ destroy
 (
 )
 ;
+await
+descriptor
+.
+destroy
+(
+)
+;
 }
 add_task
 (
