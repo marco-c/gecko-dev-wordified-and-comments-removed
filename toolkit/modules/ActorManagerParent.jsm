@@ -1049,6 +1049,10 @@ DOMFormHasPassword
 :
 {
 }
+DOMFormHasPossibleUsername
+:
+{
+}
 DOMInputPasswordAdded
 :
 {
