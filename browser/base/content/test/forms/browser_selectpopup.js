@@ -5336,7 +5336,7 @@ newWin
 innerHeight
 <
 =
-400
+450
 ;
 }
 )
@@ -5346,7 +5346,7 @@ newWin
 resizeTo
 (
 600
-400
+450
 )
 ;
 await
@@ -7052,6 +7052,18 @@ toggleZoom
 )
 ;
 }
+FullZoom
+.
+setZoom
+(
+1
+.
+0
+tab
+.
+linkedBrowser
+)
+;
 BrowserTestUtils
 .
 removeTab
