@@ -6485,6 +6485,13 @@ aScanFromCaretPointResult
 ReachedBRElement
 (
 )
+|
+|
+aScanFromCaretPointResult
+.
+ReachedNonEditableOtherBlockElement
+(
+)
 )
 {
 if
@@ -7226,6 +7233,13 @@ ReachedSpecialContent
 aScanFromCaretPointResult
 .
 ReachedBRElement
+(
+)
+|
+|
+aScanFromCaretPointResult
+.
+ReachedNonEditableOtherBlockElement
 (
 )
 )
