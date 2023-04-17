@@ -915,6 +915,11 @@ resourceCommand
 TYPES
 .
 NETWORK_EVENT_STACKTRACE
+resourceCommand
+.
+TYPES
+.
+CLONED_CONTENT_PROCESS_MESSAGE
 ]
 {
 onAvailable
