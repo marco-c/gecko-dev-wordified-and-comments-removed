@@ -400,7 +400,7 @@ txIEvalContext
 aContext
 )
 ;
-nsresult
+void
 pushBool
 (
 bool
