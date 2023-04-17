@@ -2558,6 +2558,16 @@ RTC_SUPPORTS_METAL
 "
 ]
 }
+cflags
+=
+[
+"
+-
+fobjc
+-
+arc
+"
+]
 }
 }
 if

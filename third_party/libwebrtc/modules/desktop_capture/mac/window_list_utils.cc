@@ -755,6 +755,7 @@ DesktopCapturer
 Source
 {
 window_id
+pid
 owner_name
 }
 )
@@ -836,6 +837,7 @@ DesktopCapturer
 Source
 {
 window_id
+pid
 title
 }
 )
