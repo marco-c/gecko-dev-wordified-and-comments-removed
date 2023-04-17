@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsIScriptError
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
