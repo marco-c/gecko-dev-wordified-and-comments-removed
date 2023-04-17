@@ -799,17 +799,6 @@ curr
 NS_LINEBREAKER_NEED_MORE_TEXT
 )
 {
-result
-.
-AppendElement
-(
-input
-.
-Length
-(
-)
-)
-;
 break
 ;
 }
