@@ -121,13 +121,6 @@ const
 nsACString
 &
 aPrePath
-const
-dom
-:
-:
-FileSourceOptions
-&
-aOptions
 ErrorResult
 &
 aRv
@@ -162,13 +155,6 @@ const
 nsACString
 &
 aPrePath
-const
-dom
-:
-:
-FileSourceOptions
-&
-aOptions
 const
 dom
 :

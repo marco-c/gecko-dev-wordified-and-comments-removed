@@ -63,6 +63,7 @@ Create
 Document
 *
 aDocument
+const
 bool
 aSync
 )
@@ -75,9 +76,16 @@ DocumentL10n
 Document
 *
 aDocument
+const
 bool
 aSync
 )
+;
+bool
+Init
+(
+)
+override
 ;
 virtual
 ~

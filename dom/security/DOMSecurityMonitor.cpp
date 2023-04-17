@@ -136,10 +136,6 @@ GetCurrentJSContext
 if
 (
 !
-cx
-|
-|
-!
 nsJSUtils
 :
 :
