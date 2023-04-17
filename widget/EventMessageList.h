@@ -383,6 +383,10 @@ eXULCommandUpdate
 )
 NS_EVENT_MESSAGE
 (
+eXULSystemStatusBarClick
+)
+NS_EVENT_MESSAGE
+(
 eLegacyMouseLineOrPageScroll
 )
 NS_EVENT_MESSAGE
