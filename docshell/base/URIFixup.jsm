@@ -310,9 +310,6 @@ http
 https
 "
 "
-ftp
-"
-"
 file
 "
 ]
