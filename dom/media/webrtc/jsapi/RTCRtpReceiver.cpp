@@ -3224,10 +3224,7 @@ std
 :
 vector
 <
-UniquePtr
-<
 VideoCodecConfig
->
 >
 configs
 ;
@@ -3565,10 +3562,7 @@ std
 :
 vector
 <
-UniquePtr
-<
 AudioCodecConfig
->
 >
 configs
 ;

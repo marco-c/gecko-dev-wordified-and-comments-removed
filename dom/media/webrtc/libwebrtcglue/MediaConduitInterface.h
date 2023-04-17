@@ -1196,7 +1196,7 @@ ConfigureSendMediaCodec
 (
 const
 VideoCodecConfig
-*
+&
 sendSessionConfig
 const
 RtpRtcpConfig
@@ -1216,10 +1216,7 @@ std
 :
 vector
 <
-UniquePtr
-<
 VideoCodecConfig
->
 >
 &
 recvCodecConfigList
@@ -1494,7 +1491,7 @@ ConfigureSendMediaCodec
 (
 const
 AudioCodecConfig
-*
+&
 sendCodecConfig
 )
 =
@@ -1510,10 +1507,7 @@ std
 :
 vector
 <
-UniquePtr
-<
 AudioCodecConfig
->
 >
 &
 recvCodecConfigList

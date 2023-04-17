@@ -549,10 +549,7 @@ std
 :
 vector
 <
-UniquePtr
-<
 AudioCodecConfig
->
 >
 *
 aConfigs
@@ -571,10 +568,7 @@ std
 :
 vector
 <
-UniquePtr
-<
 VideoCodecConfig
->
 >
 *
 aConfigs
