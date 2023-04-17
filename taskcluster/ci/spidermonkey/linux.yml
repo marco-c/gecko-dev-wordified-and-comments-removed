@@ -941,6 +941,15 @@ variant
 arm64
 -
 sim
+worker
+:
+env
+:
+MOZ_JS_UPLOAD_BINARIES_DEFAULT
+:
+"
+1
+"
 fetches
 :
 toolchain
