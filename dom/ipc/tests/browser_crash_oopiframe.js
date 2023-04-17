@@ -682,6 +682,8 @@ buttons
 =
 notification
 .
+buttonContainer
+.
 querySelectorAll
 (
 "
@@ -718,6 +720,8 @@ let
 links
 =
 notification
+.
+messageText
 .
 querySelectorAll
 (
