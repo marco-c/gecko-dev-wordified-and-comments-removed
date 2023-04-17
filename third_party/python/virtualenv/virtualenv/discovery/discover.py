@@ -122,14 +122,6 @@ self
 _interpreter
 =
 None
-        
-self
-.
-_env
-=
-options
-.
-env
     
 abstractmethod
     

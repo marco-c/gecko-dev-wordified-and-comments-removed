@@ -7,8 +7,6 @@ unicode_literals
 import
 logging
 import
-os
-import
 sys
 from
 datetime
@@ -23,23 +21,8 @@ None
 options
 =
 None
-env
-=
-None
 )
 :
-    
-env
-=
-os
-.
-environ
-if
-env
-is
-None
-else
-env
     
 start
 =
@@ -90,7 +73,6 @@ cli_run
 (
 args
 options
-env
 )
         
 logging
@@ -469,9 +451,6 @@ run_with_catch
 args
 =
 None
-env
-=
-None
 )
 :
     
@@ -486,18 +465,6 @@ parser
 import
 VirtualEnvOptions
     
-env
-=
-os
-.
-environ
-if
-env
-is
-None
-else
-env
-    
 options
 =
 VirtualEnvOptions
@@ -511,7 +478,6 @@ run
 (
 args
 options
-env
 )
     
 except

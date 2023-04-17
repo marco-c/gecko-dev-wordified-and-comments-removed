@@ -136,7 +136,6 @@ wheel
 search_dirs
 app_data
 do_periodic_update
-env
 )
 :
     
@@ -151,7 +150,6 @@ for_py_version
 wheel
 search_dirs
 app_data
-env
 )
     
 now
@@ -325,7 +323,6 @@ for_py_version
 wheel
 search_dirs
 app_data
-env
 )
 :
     
@@ -395,9 +392,6 @@ app_data
 periodic
 =
 True
-env
-=
-env
 )
 DATETIME_FMT
 =
@@ -1075,7 +1069,6 @@ for_py_version
 wheel
 search_dirs
 app_data
-env
 periodic
 )
 :
@@ -1208,7 +1201,9 @@ periodic
     
 debug
 =
-env
+os
+.
+environ
 .
 get
 (
@@ -1644,12 +1639,6 @@ app_data
 to_folder
 =
 wheelhouse
-            
-env
-=
-os
-.
-environ
         
 )
         
@@ -2107,7 +2096,6 @@ def
 manual_upgrade
 (
 app_data
-env
 )
 :
     
@@ -2150,7 +2138,6 @@ args
 app_data
 distribution
 for_py_version
-env
 )
 )
             
@@ -2184,7 +2171,6 @@ _run_manual_upgrade
 app_data
 distribution
 for_py_version
-env
 )
 :
     
@@ -2231,10 +2217,6 @@ app_data
 do_periodic_update
 =
 False
-        
-env
-=
-env
     
 )
     

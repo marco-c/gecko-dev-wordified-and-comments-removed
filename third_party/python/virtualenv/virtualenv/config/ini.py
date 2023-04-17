@@ -8,7 +8,7 @@ logging
 import
 os
 from
-platformdirs
+appdirs
 import
 user_config_dir
 from
@@ -92,27 +92,14 @@ def
 __init__
 (
 self
-env
-=
-None
 )
 :
         
-env
+config_file
 =
 os
 .
 environ
-if
-env
-is
-None
-else
-env
-        
-config_file
-=
-env
 .
 get
 (

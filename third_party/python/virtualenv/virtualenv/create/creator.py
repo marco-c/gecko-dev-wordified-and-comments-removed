@@ -270,14 +270,6 @@ app_data
 options
 .
 app_data
-        
-self
-.
-env
-=
-options
-.
-env
     
 def
 __repr__
@@ -1446,9 +1438,6 @@ debug_script
 self
 .
 app_data
-self
-.
-env
 )
         
 return
@@ -1471,13 +1460,14 @@ get_env_debug_info
 env_exe
 debug_script
 app_data
-env
 )
 :
     
 env
 =
-env
+os
+.
+environ
 .
 copy
 (

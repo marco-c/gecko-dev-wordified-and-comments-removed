@@ -68,35 +68,6 @@ interpreter
     
 )
     
-choices
-=
-_get_default_discovery
-(
-discover_types
-)
-    
-choices
-=
-sorted
-(
-choices
-key
-=
-lambda
-a
-:
-0
-if
-a
-=
-=
-"
-builtin
-"
-else
-1
-)
-    
 discovery_parser
 .
 add_argument
@@ -110,15 +81,23 @@ discovery
         
 choices
 =
-choices
+_get_default_discovery
+(
+discover_types
+)
         
 default
 =
 next
 (
-iter
+i
+for
+i
+in
+discover_types
+.
+keys
 (
-choices
 )
 )
         

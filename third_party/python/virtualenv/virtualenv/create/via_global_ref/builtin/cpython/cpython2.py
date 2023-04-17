@@ -192,12 +192,12 @@ self
 .
 interpreter
 .
-install_path
-(
+distutils_install
+[
 "
 headers
 "
-)
+]
 )
 .
 parent

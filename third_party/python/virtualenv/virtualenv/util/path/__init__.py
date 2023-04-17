@@ -23,11 +23,6 @@ copytree
 ensure_dir
 safe_delete
 symlink
-from
-.
-_win
-import
-get_short_path_name
 __all__
 =
 (
@@ -62,9 +57,5 @@ set_tree
     
 "
 safe_delete
-"
-    
-"
-get_short_path_name
 "
 )

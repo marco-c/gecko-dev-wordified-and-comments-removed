@@ -3,8 +3,6 @@ __future__
 import
 absolute_import
 unicode_literals
-import
-os
 from
 argparse
 import
@@ -341,9 +339,6 @@ self
 options
 =
 None
-env
-=
-None
 *
 args
 *
@@ -352,25 +347,12 @@ kwargs
 )
 :
         
-env
-=
-os
-.
-environ
-if
-env
-is
-None
-else
-env
-        
 self
 .
 file_config
 =
 IniConfig
 (
-env
 )
         
 self
@@ -379,12 +361,6 @@ epilog_list
 =
 [
 ]
-        
-self
-.
-env
-=
-env
         
 kwargs
 [
@@ -640,9 +616,6 @@ get_env_var
 (
 name
 as_type
-self
-.
-env
 )
                 
 if
@@ -844,14 +817,6 @@ cli
         
 try
 :
-            
-namespace
-.
-env
-=
-self
-.
-env
             
 return
 super

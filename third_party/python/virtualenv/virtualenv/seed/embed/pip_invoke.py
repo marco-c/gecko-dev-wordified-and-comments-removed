@@ -118,9 +118,6 @@ extra_search_dir
 self
 .
 app_data
-self
-.
-env
 )
             
 self
@@ -345,12 +342,6 @@ do_periodic_update
 self
 .
 periodic_update
-                
-env
-=
-self
-.
-env
             
 )
             
