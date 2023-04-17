@@ -29613,6 +29613,11 @@ pocket_id
 site
 .
 pocket_id
+isSponsoredTopSite
+:
+site
+.
+sponsored_position
 .
 .
 .

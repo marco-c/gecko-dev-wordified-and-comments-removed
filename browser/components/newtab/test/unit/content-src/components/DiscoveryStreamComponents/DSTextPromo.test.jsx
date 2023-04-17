@@ -485,6 +485,9 @@ undefined
 pocket_id
 :
 undefined
+isSponsoredTopSite
+:
+undefined
 }
 ]
 )

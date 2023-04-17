@@ -3079,6 +3079,9 @@ pocket_id
 FAKE_SITE
 .
 pocket_id
+isSponsoredTopSite
+:
+undefined
 }
 ]
 menu_action_webext_dismiss

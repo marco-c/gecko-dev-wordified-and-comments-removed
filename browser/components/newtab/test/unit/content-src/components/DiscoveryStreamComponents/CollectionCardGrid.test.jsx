@@ -612,7 +612,7 @@ it
 (
 "
 should
-dispath
+dispatch
 telemety
 events
 on
@@ -702,6 +702,9 @@ url
 pocket_id
 :
 undefined
+isSponsoredTopSite
+:
+undefined
 }
 {
 url
@@ -712,6 +715,9 @@ url
 pocket_id
 :
 undefined
+isSponsoredTopSite
+:
+undefined
 }
 {
 url
@@ -720,6 +726,9 @@ url
 789
 "
 pocket_id
+:
+undefined
+isSponsoredTopSite
 :
 undefined
 }
