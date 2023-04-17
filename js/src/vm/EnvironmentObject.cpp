@@ -5664,7 +5664,7 @@ MOZ_ASSERT
 env
 -
 >
-slotSpan
+shape
 (
 )
 =
@@ -5672,7 +5672,7 @@ slotSpan
 copy
 -
 >
-slotSpan
+shape
 (
 )
 )
