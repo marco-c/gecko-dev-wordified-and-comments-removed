@@ -772,8 +772,7 @@ __init__
 self
 qname
 refcounted
-sendmoveonly
-datamoveonly
+moveonly
 )
 :
         
@@ -806,15 +805,9 @@ refcounted
         
 self
 .
-sendmoveonly
+moveonly
 =
-sendmoveonly
-        
-self
-.
-datamoveonly
-=
-datamoveonly
+moveonly
     
 def
 isCxx
@@ -849,7 +842,7 @@ self
 refcounted
     
 def
-isSendMoveOnly
+isMoveonly
 (
 self
 )
@@ -858,19 +851,7 @@ self
 return
 self
 .
-sendmoveonly
-    
-def
-isDataMoveOnly
-(
-self
-)
-:
-        
-return
-self
-.
-datamoveonly
+moveonly
     
 def
 name
@@ -5720,15 +5701,7 @@ attributes
 MoveOnly
 "
 :
-(
 None
-"
-data
-"
-"
-send
-"
-)
                 
 "
 RefCounted
@@ -5831,22 +5804,14 @@ using
 type
 .
 spec
-                
 using
 .
 isRefcounted
 (
 )
-                
 using
 .
-isSendMoveOnly
-(
-)
-                
-using
-.
-isDataMoveOnly
+isMoveonly
 (
 )
             
@@ -5928,11 +5893,9 @@ type
 )
                 
 if
-(
-                    
 ipdltype
 .
-isSendMoveOnly
+isMoveonly
 (
 )
 !
@@ -5941,26 +5904,8 @@ existingType
 .
 type
 .
-isSendMoveOnly
+isMoveonly
 (
-)
-                    
-or
-ipdltype
-.
-isDataMoveOnly
-(
-)
-!
-=
-existingType
-.
-type
-.
-isDataMoveOnly
-(
-)
-                
 )
 :
                     

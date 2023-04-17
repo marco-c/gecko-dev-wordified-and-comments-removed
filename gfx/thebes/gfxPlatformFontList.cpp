@@ -14695,13 +14695,7 @@ ShmBlockAdded
 (
 aGeneration
 aIndex
-std
-:
-:
-move
-(
 aHandle
-)
 )
 ;
 }

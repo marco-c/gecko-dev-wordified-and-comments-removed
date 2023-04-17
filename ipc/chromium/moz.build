@@ -578,6 +578,17 @@ chrome
 /
 common
 /
+file_descriptor_set_posix
+.
+cc
+"
+"
+src
+/
+chrome
+/
+common
+/
 ipc_channel_posix
 .
 cc

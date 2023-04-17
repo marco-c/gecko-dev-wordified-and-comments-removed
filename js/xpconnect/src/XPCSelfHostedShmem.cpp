@@ -370,13 +370,7 @@ shm
 >
 SetHandle
 (
-std
-:
-:
-move
-(
 aHandle
-)
 true
 )
 )

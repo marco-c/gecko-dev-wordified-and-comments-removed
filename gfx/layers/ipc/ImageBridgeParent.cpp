@@ -1490,6 +1490,7 @@ const
 SurfaceDescriptor
 &
 aSharedData
+const
 ReadLockDescriptor
 &
 aReadLock
@@ -1522,13 +1523,7 @@ CreateIPDLActor
 (
 this
 aSharedData
-std
-:
-:
-move
-(
 aReadLock
-)
 aLayersBackend
 aFlags
 aSerial

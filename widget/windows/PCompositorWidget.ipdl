@@ -66,13 +66,13 @@ widget
 struct
 RemoteBackbufferHandles
 {
-FileDescriptor
+WindowsHandle
 fileMapping
 ;
-FileDescriptor
+WindowsHandle
 requestReadyEvent
 ;
-FileDescriptor
+WindowsHandle
 responseReadyEvent
 ;
 }

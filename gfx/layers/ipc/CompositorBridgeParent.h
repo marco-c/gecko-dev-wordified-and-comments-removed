@@ -883,6 +883,7 @@ const
 SurfaceDescriptor
 &
 aSharedData
+const
 ReadLockDescriptor
 &
 aReadLock
@@ -2104,6 +2105,7 @@ const
 SurfaceDescriptor
 &
 aSharedData
+const
 ReadLockDescriptor
 &
 aReadLock

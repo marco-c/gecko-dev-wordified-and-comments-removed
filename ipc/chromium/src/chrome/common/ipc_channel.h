@@ -356,13 +356,6 @@ GetServerPipeHandle
 )
 const
 ;
-void
-StartAcceptingHandles
-(
-Mode
-mode
-)
-;
 #
 endif
 static

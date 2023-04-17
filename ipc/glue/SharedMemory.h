@@ -497,7 +497,9 @@ virtual
 bool
 SetHandle
 (
+const
 Handle
+&
 aHandle
 OpenRights
 aRights
@@ -547,13 +549,7 @@ IPC
 WriteParam
 (
 aMessage
-std
-:
-:
-move
-(
 handle
-)
 )
 ;
 return
@@ -601,13 +597,7 @@ handle
 &
 SetHandle
 (
-std
-:
-:
-move
-(
 handle
-)
 RightsReadWrite
 )
 ;

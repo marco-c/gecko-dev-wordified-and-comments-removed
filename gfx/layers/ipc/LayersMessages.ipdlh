@@ -660,9 +660,6 @@ LayersTypes
 h
 "
 ;
-[
-MoveOnly
-]
 using
 mozilla
 :

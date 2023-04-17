@@ -2012,6 +2012,7 @@ AllocPTextureChild
 const
 SurfaceDescriptor
 &
+const
 ReadLockDescriptor
 &
 const
@@ -2746,8 +2747,8 @@ const
 SurfaceDescriptor
 &
 aSharedData
+const
 ReadLockDescriptor
-&
 &
 aReadLock
 LayersBackend
@@ -2802,13 +2803,7 @@ SendPTextureConstructor
 (
 textureChild
 aSharedData
-std
-:
-:
-move
-(
 aReadLock
-)
 aLayersBackend
 aFlags
 LayersId

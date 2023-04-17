@@ -503,12 +503,6 @@ UniquePtr
 Event
 >
 aEvent
-const
-NodeName
-*
-aRelayTarget
-=
-nullptr
 uint32_t
 aType
 =
@@ -529,11 +523,6 @@ IPC
 Message
 >
 aMessage
-NodeName
-*
-aRelayTarget
-=
-nullptr
 )
 ;
 already_AddRefed
