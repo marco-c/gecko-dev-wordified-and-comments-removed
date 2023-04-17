@@ -22,6 +22,15 @@ UErrorCode
 status
 )
 {
+MOZ_ASSERT
+(
+!
+U_SUCCESS
+(
+status
+)
+)
+;
 if
 (
 status
