@@ -6530,7 +6530,6 @@ transformItem
 MayBeAnimated
 (
 aDisplayListBuilder
-false
 )
 |
 |
@@ -6590,7 +6589,6 @@ opacityItem
 Frame
 (
 )
-false
 )
 ;
 GP
