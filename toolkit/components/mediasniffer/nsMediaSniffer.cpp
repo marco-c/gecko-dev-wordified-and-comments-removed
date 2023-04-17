@@ -33,6 +33,15 @@ h
 #
 include
 "
+mozilla
+/
+ScopeExit
+.
+h
+"
+#
+include
+"
 mp3sniff
 .
 h
