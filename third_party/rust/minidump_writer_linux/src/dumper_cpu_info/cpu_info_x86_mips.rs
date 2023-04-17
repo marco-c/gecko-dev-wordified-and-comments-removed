@@ -418,9 +418,9 @@ line
 .
 split
 (
-"
+'
 :
-"
+'
 )
 .
 map
@@ -600,9 +600,6 @@ x
 x
 .
 found
-=
-=
-true
 )
 {
 return

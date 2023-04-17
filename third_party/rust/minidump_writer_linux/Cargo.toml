@@ -160,6 +160,11 @@ rust
 -
 minidump
 "
+rev
+=
+"
+9652b3b
+"
 }
 minidump
 -
@@ -182,5 +187,10 @@ luser
 rust
 -
 minidump
+"
+rev
+=
+"
+9652b3b
 "
 }

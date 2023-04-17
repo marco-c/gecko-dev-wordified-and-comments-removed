@@ -255,6 +255,8 @@ println
 curr_thread
 :
 {
+:
+?
 }
 "
 curr_thread

@@ -171,14 +171,8 @@ elf_identifier_for_mapping_index
 map_idx
 )
 .
-unwrap_or
+unwrap_or_default
 (
-Default
-:
-:
-default
-(
-)
 )
 ;
 if

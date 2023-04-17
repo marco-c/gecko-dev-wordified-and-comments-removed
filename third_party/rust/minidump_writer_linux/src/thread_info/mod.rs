@@ -524,8 +524,10 @@ get
 6
 )
 .
-ok_or
+ok_or_else
 (
+|
+|
 ThreadInfoError
 :
 :
@@ -564,8 +566,10 @@ get
 .
 )
 .
-ok_or
+ok_or_else
 (
+|
+|
 ThreadInfoError
 :
 :
@@ -611,8 +615,10 @@ get
 .
 )
 .
-ok_or
+ok_or_else
 (
+|
+|
 ThreadInfoError
 :
 :
