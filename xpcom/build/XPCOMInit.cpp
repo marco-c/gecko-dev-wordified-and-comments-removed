@@ -2712,6 +2712,17 @@ ShutdownPhase
 XPCOMShutdownThreads
 )
 ;
+nsThreadManager
+:
+:
+get
+(
+)
+.
+CancelBackgroundDelayedRunnables
+(
+)
+;
 gXPCOMThreadsShutDown
 =
 true
