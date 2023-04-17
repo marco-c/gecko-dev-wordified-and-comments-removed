@@ -67,7 +67,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+target
 /
 legacy
 -
@@ -95,7 +97,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+target
 /
 legacy
 -
@@ -123,7 +127,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+target
 /
 legacy
 -
@@ -151,7 +157,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+target
 /
 legacy
 -
