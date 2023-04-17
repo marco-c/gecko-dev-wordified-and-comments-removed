@@ -193,10 +193,6 @@ nsWaylandDisplay
 wl_display
 *
 aDisplay
-bool
-aLighWrapper
-=
-false
 )
 ;
 bool
@@ -557,10 +553,6 @@ mRelativePointerManager
 zwp_pointer_constraints_v1
 *
 mPointerConstraints
-;
-wl_registry
-*
-mRegistry
 ;
 wp_viewporter
 *
