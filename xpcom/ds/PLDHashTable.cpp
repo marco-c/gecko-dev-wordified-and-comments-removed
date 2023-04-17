@@ -34,6 +34,13 @@ h
 #
 include
 "
+nsDebug
+.
+h
+"
+#
+include
+"
 mozilla
 /
 HashFunctions
