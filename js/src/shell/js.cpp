@@ -34660,11 +34660,6 @@ setIsRunOnce
 (
 true
 )
-.
-setSourceIsLazy
-(
-false
-)
 ;
 options
 .
@@ -53970,6 +53965,9 @@ OffThreadCompileToStencil
 offThreadCompileToStencil
 (
 code
+[
+options
+]
 )
 "
 "
