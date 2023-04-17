@@ -3074,9 +3074,6 @@ vp
 void
 assertSelfHostedFunctionHasCanonicalName
 (
-JSContext
-*
-cx
 js
 :
 :
