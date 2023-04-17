@@ -1142,10 +1142,7 @@ nsIStandardURL
 URLTYPE_NO_AUTHORITY
 -
 1
-nsCString
-(
 aSpec
-)
 mCharsetHint
 .
 get
@@ -2368,10 +2365,7 @@ nsIURLMutator
 :
 :
 SetFileName
-nsCString
-(
 fileName
-)
 nullptr
 )
 .
@@ -2427,10 +2421,7 @@ nsIURLMutator
 :
 :
 SetFileBaseName
-nsCString
-(
 fileBaseName
-)
 nullptr
 )
 .
@@ -2486,10 +2477,7 @@ nsIURLMutator
 :
 :
 SetFileExtension
-nsCString
-(
 fileExtension
-)
 nullptr
 )
 .
