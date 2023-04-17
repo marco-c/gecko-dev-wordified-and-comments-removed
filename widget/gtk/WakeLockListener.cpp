@@ -46,13 +46,6 @@ MOZ_X11
 #
 include
 "
-gfxPlatformGtk
-.
-h
-"
-#
-include
-"
 prlink
 .
 h

@@ -2308,9 +2308,6 @@ mHandleTouchEvent
 bool
 mIsDragPopup
 ;
-bool
-mIsX11Display
-;
 #
 ifdef
 MOZ_WAYLAND

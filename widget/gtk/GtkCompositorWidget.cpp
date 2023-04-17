@@ -8,13 +8,6 @@ h
 #
 include
 "
-gfxPlatformGtk
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers

@@ -8335,15 +8335,7 @@ ifdef
 MOZ_WAYLAND
 if
 (
-gfxPlatformGtk
-:
-:
-GetPlatform
-(
-)
--
->
-IsWaylandDisplay
+GdkIsWaylandDisplay
 (
 )
 &

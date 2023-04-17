@@ -144,7 +144,7 @@ h
 #
 include
 "
-gfxPlatformGtk
+WidgetUtilsGtk
 .
 h
 "
@@ -695,15 +695,10 @@ NS_GIOSERVICE_CONTRACTID
 ;
 if
 (
-gfxPlatformGtk
+widget
 :
 :
-GetPlatform
-(
-)
--
->
-IsWaylandDisplay
+GdkIsWaylandDisplay
 (
 )
 )

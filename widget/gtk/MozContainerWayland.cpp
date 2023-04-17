@@ -38,13 +38,6 @@ h
 #
 include
 "
-gfxPlatformGtk
-.
-h
-"
-#
-include
-"
 nsGtkUtils
 .
 h
