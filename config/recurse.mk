@@ -1695,8 +1695,6 @@ endif
 endif
 ifdef
 MOZ_USING_WASM_SANDBOXING
-ifndef
-LUCETC
 security
 /
 rlbox
@@ -1725,7 +1723,6 @@ rlbox
 target
 -
 objects
-endif
 endif
 #
 Most

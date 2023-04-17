@@ -284,17 +284,6 @@ shared
 webrtc
 "
 ]
-wasm_library_sandboxing
-=
-[
-"
-gkrust
--
-shared
-/
-wasm_library_sandboxing
-"
-]
 webgpu
 =
 [
