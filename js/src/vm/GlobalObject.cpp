@@ -5797,13 +5797,12 @@ regExpStatics
 size
 +
 =
-mallocSizeOf
-(
 regExpStatics
-.
-get
+-
+>
+sizeOfIncludingThis
 (
-)
+mallocSizeOf
 )
 ;
 }
