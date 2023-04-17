@@ -124,7 +124,7 @@ nsIChannel
 *
 aChannel
 nsresult
-aError
+aStatus
 )
 ;
 static

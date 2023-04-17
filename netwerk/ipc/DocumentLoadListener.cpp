@@ -10576,12 +10576,6 @@ false
 ;
 if
 (
-NS_FAILED
-(
-aStatus
-)
-&
-&
 !
 newURI
 )
