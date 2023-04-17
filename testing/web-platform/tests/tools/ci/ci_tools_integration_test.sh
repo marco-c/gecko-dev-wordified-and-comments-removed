@@ -85,7 +85,6 @@ user
 -
 U
 tox
-codecov
 #
 wpt
 commands

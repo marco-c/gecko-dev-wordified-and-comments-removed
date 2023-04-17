@@ -161,7 +161,6 @@ user
 -
 U
 tox
-codecov
 cd
 tools
 run_applicable_tox
