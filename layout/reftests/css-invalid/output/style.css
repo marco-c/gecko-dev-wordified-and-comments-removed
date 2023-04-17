@@ -1,3 +1,10 @@
+/
+*
+Override
+default
+style
+*
+/
 output
 {
 color
@@ -31,7 +38,7 @@ invalid
 {
 color
 :
-red
+green
 ;
 }
 output
@@ -42,7 +49,7 @@ invalid
 {
 color
 :
-green
+red
 ;
 }
 output
