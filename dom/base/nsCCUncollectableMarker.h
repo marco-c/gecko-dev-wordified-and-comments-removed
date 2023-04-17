@@ -126,8 +126,6 @@ TraceBlackJS
 JSTracer
 *
 aTrc
-bool
-aIsShutdownGC
 )
 ;
 }
