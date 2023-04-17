@@ -713,16 +713,6 @@ this
 .
 webConsoleUI
 .
-networkDataProvider
-.
-destroy
-(
-)
-;
-this
-.
-webConsoleUI
-.
 emitForTests
 (
 "
