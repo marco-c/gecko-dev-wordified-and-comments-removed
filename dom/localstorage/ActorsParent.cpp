@@ -2173,7 +2173,7 @@ QM_TRY
 (
 QM_OR_ELSE_WARN_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 aConnection
 -
@@ -2317,7 +2317,7 @@ QM_TRY
 (
 QM_OR_ELSE_WARN_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 aUsageFile
 .
@@ -4002,7 +4002,7 @@ QM_TRY
 (
 QM_OR_ELSE_WARN
 (
-ToResult
+MOZ_TO_RESULT
 (
 StorageDBUpdater
 :

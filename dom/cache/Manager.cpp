@@ -1237,7 +1237,7 @@ ioThread
 ;
 QM_TRY
 (
-ToResult
+MOZ_TO_RESULT
 (
 NS_NewNamedThread
 (

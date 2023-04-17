@@ -439,7 +439,7 @@ QM_TRY
 (
 QM_OR_ELSE_LOG_VERBOSE_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 cacheDir
 -
@@ -502,7 +502,7 @@ QM_TRY
 (
 QM_OR_ELSE_LOG_VERBOSE_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 bodyDir
 -
@@ -1876,7 +1876,7 @@ QM_TRY
 (
 QM_OR_ELSE_LOG_VERBOSE_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 BodyTraverseFiles
 (
@@ -2041,7 +2041,7 @@ QM_TRY
 (
 QM_OR_ELSE_LOG_VERBOSE_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 marker
 -
@@ -2360,7 +2360,7 @@ QM_TRY
 (
 QM_OR_ELSE_WARN_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 aFile
 .
@@ -3193,7 +3193,7 @@ QM_TRY
 (
 QM_OR_ELSE_WARN_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 file
 -

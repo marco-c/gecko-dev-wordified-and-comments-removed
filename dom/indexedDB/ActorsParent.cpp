@@ -3698,7 +3698,7 @@ QM_TRY
 (
 QM_OR_ELSE_WARN_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 aConnection
 .
@@ -23445,7 +23445,7 @@ auto
 didExist
 QM_OR_ELSE_LOG_VERBOSE_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 aFile
 .
@@ -23609,7 +23609,7 @@ auto
 didExist
 QM_OR_ELSE_WARN_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 aFile
 .
@@ -23784,7 +23784,7 @@ QM_TRY
 (
 QM_OR_ELSE_LOG_VERBOSE_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 markerFile
 -
@@ -28316,7 +28316,7 @@ QM_TRY
 (
 QM_OR_ELSE_WARN_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 beginStmt
 -
@@ -28425,7 +28425,7 @@ break
 }
 }
 return
-ToResult
+MOZ_TO_RESULT
 (
 rv
 )
@@ -28669,7 +28669,7 @@ Reset
 }
 QM_WARNONLY_TRY
 (
-ToResult
+MOZ_TO_RESULT
 (
 ExecuteCachedStatement
 (
@@ -29314,7 +29314,7 @@ beginStmt
 {
 QM_WARNONLY_TRY
 (
-ToResult
+MOZ_TO_RESULT
 (
 beginStmt
 .
@@ -64246,7 +64246,7 @@ QM_TRY
 (
 QM_OR_ELSE_LOG_VERBOSE_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 borrowedStmt
 -
@@ -88766,7 +88766,7 @@ IDB_REPORT_INTERNAL_ERR_LAMBDA
 ;
 QM_TRY
 (
-ToResult
+MOZ_TO_RESULT
 (
 fileHelper
 -

@@ -18670,7 +18670,7 @@ QM_WARNONLY_TRY_UNWRAP
 (
 auto
 res
-ToResult
+MOZ_TO_RESULT
 (
 LoadQuotaFromCache
 (
@@ -21134,7 +21134,7 @@ QM_TRY
 (
 QM_OR_ELSE_WARN_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 InitializeOrigin
 (
@@ -24303,7 +24303,7 @@ aLsArchiveFile
 ;
 QM_TRY
 (
-ToResult
+MOZ_TO_RESULT
 (
 StorageDBUpdater
 :
@@ -30783,7 +30783,7 @@ auto
 moved
 QM_OR_ELSE_WARN_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 directory
 -
@@ -31468,7 +31468,7 @@ rv
 ;
 QM_TRY
 (
-ToResult
+MOZ_TO_RESULT
 (
 rv
 )
@@ -47144,7 +47144,7 @@ QM_TRY
 (
 QM_OR_ELSE_WARN_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 idbDirectory
 -
@@ -47404,7 +47404,7 @@ QM_WARNONLY_TRY_UNWRAP
 const
 auto
 maybeDirectoryMetadata
-ToResult
+MOZ_TO_RESULT
 (
 GetDirectoryMetadata
 (
@@ -47905,7 +47905,7 @@ QM_WARNONLY_TRY_UNWRAP
 const
 auto
 maybeDirectoryMetadata
-ToResult
+MOZ_TO_RESULT
 (
 GetDirectoryMetadata
 (
@@ -48387,7 +48387,7 @@ QM_WARNONLY_TRY_UNWRAP
 const
 auto
 maybeDirectoryMetadata
-ToResult
+MOZ_TO_RESULT
 (
 GetDirectoryMetadata
 (
@@ -48434,7 +48434,7 @@ QM_WARNONLY_TRY_UNWRAP
 const
 auto
 maybeDirectoryMetadata2
-ToResult
+MOZ_TO_RESULT
 (
 GetDirectoryMetadata2
 (
@@ -48655,7 +48655,7 @@ QM_WARNONLY_TRY_UNWRAP
 const
 auto
 maybeDirectoryMetadata
-ToResult
+MOZ_TO_RESULT
 (
 GetDirectoryMetadata
 (
@@ -48702,7 +48702,7 @@ QM_WARNONLY_TRY_UNWRAP
 const
 auto
 maybeDirectoryMetadata2
-ToResult
+MOZ_TO_RESULT
 (
 GetDirectoryMetadata2
 (
@@ -48902,7 +48902,7 @@ QM_WARNONLY_TRY_UNWRAP
 const
 auto
 maybeDirectoryMetadata
-ToResult
+MOZ_TO_RESULT
 (
 GetDirectoryMetadata
 (
@@ -48949,7 +48949,7 @@ QM_WARNONLY_TRY_UNWRAP
 const
 auto
 maybeDirectoryMetadata2
-ToResult
+MOZ_TO_RESULT
 (
 GetDirectoryMetadata2
 (

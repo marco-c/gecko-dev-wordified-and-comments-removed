@@ -580,7 +580,7 @@ QM_TRY
 (
 QM_OR_ELSE_LOG_VERBOSE_IF
 (
-ToResult
+MOZ_TO_RESULT
 (
 BodyTraverseFiles
 (
