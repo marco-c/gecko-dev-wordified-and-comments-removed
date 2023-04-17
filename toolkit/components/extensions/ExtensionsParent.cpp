@@ -148,11 +148,6 @@ WebNavigationManager
 "
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-mWebNavigation
-)
-;
 }
 return
 mWebNavigation
