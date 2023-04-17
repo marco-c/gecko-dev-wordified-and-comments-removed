@@ -5274,6 +5274,13 @@ RESOLVE_TYPE_HTTPSSVC
 }
 )
 ;
+dns
+.
+clearCache
+(
+true
+)
+;
 Services
 .
 prefs
