@@ -158,6 +158,13 @@ disableOneOffsHorizontalKeyNavigation
 =
 true
 ;
+this
+.
+_webEngines
+=
+[
+]
+;
 }
 get
 localButtons
