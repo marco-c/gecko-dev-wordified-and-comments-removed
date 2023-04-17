@@ -2154,6 +2154,11 @@ mPrefMaxBitrate
 0
 ;
 int
+mNegotiatedMaxBitrate
+=
+0
+;
+int
 mMinBitrateEstimate
 =
 0
