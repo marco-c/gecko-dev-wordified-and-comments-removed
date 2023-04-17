@@ -75,13 +75,6 @@ config
 js
 content
 /
-extension
--
-content
-.
-js
-content
-/
 geckoview
 .
 xhtml

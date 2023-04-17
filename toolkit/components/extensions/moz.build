@@ -162,11 +162,6 @@ NativeMessaging
 jsm
 "
 "
-onExtensionBrowser
-.
-js
-"
-"
 PerformanceCounters
 .
 jsm
