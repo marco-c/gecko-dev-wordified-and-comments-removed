@@ -356,8 +356,6 @@ initial
 ;
 -
 -
-lwt
--
 toolbar
 -
 field
@@ -430,8 +428,6 @@ var
 (
 -
 -
-lwt
--
 toolbar
 -
 field
@@ -439,7 +435,6 @@ field
 border
 -
 color
-ThreeDShadow
 )
 )
 ;
