@@ -1306,9 +1306,6 @@ true
 supportsTopLevelTargetFlag
 :
 true
-supportsFollowWindowGlobalLifeCycleFlag
-:
-true
 }
 }
 ;
