@@ -129,6 +129,9 @@ true
 rdmPaneOrientation
 :
 true
+recordAllocations
+:
+true
 reloadOnTouchSimulationToggle
 :
 true

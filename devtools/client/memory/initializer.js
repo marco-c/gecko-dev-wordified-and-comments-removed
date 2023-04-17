@@ -148,6 +148,7 @@ initialize
 async
 function
 (
+commands
 )
 {
 const
@@ -186,6 +187,9 @@ App
 toolbox
 :
 gToolbox
+commands
+:
+commands
 heapWorker
 :
 gHeapAnalysesClient

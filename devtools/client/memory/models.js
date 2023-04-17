@@ -2080,6 +2080,11 @@ exports
 app
 =
 {
+commands
+:
+PropTypes
+.
+object
 front
 :
 PropTypes

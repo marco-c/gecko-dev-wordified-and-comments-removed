@@ -513,6 +513,11 @@ censusDisplay
 appModel
 .
 censusDisplay
+commands
+:
+appModel
+.
+commands
 diffing
 :
 appModel
@@ -1112,6 +1117,7 @@ render
 {
 const
 {
+commands
 dispatch
 snapshots
 front
@@ -1277,7 +1283,7 @@ dispatch
 (
 toggleRecordingAllocationStacks
 (
-front
+commands
 )
 )
 allocations
