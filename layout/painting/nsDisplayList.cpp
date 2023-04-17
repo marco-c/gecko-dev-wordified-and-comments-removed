@@ -7185,7 +7185,7 @@ if
 asr
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 aAncestor
@@ -48478,7 +48478,10 @@ aASR
 )
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+#
+ifdef
+DEBUG
+MOZ_ASSERT
 (
 false
 "
@@ -48494,6 +48497,8 @@ aASR
 "
 )
 ;
+#
+endif
 return
 Nothing
 (
