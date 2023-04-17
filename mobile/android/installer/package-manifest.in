@@ -540,13 +540,6 @@ components
 TestInterfaceJS
 .
 manifest
-BINPATH
-/
-components
-/
-TestInterfaceJSMaplike
-.
-js
 #
 endif
 ;
