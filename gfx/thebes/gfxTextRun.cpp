@@ -3581,6 +3581,14 @@ GetDrawTarget
 (
 )
 ;
+params
+.
+allowGDI
+=
+aParams
+.
+allowGDI
+;
 GlyphRunIterator
 iter
 (
