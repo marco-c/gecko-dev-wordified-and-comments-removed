@@ -639,6 +639,13 @@ Target
 T
 ]
 ;
+#
+[
+inline
+(
+always
+)
+]
 fn
 deref
 (
@@ -698,6 +705,13 @@ ArrayLength
 T
 >
 {
+#
+[
+inline
+(
+always
+)
+]
 fn
 deref_mut
 (
