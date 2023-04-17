@@ -83,8 +83,6 @@ anon
 search
 -
 settings
--
-compact
 "
 )
 ;

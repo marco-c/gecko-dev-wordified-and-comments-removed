@@ -323,8 +323,6 @@ search
 setting
 -
 button
--
-compact
 "
 )
 "
@@ -375,7 +373,7 @@ getOneOffSearchButtons
 window
 )
 .
-settingsButton
+settingsButtonCompact
 .
 click
 (
