@@ -244,13 +244,8 @@ move
 (
 jitFrameInfo
 )
-)
-;
-uniqueStacks
-.
-mCodeAddressService
-=
 aService
+)
 ;
 MOZ_ASSERT
 (

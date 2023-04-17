@@ -1608,6 +1608,11 @@ JITFrameInfo
 &
 &
 aJITFrameInfo
+ProfilerCodeAddressService
+*
+aCodeAddressService
+=
+nullptr
 )
 ;
 [

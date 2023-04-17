@@ -1440,6 +1440,9 @@ JITFrameInfo
 &
 &
 aJITFrameInfo
+ProfilerCodeAddressService
+*
+aCodeAddressService
 )
 :
 mUniqueStrings
@@ -1453,6 +1456,10 @@ aJITFrameInfo
 .
 mUniqueStrings
 )
+)
+mCodeAddressService
+(
+aCodeAddressService
 )
 mJITInfoRanges
 (
