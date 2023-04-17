@@ -5060,9 +5060,6 @@ gHttpHandler
 CoalesceSpdy
 (
 )
-&
-&
-ent
 )
 {
 if
