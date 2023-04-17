@@ -1637,6 +1637,17 @@ None
 }
 }
 if
+cfg
+!
+(
+target_os
+=
+"
+macos
+"
+)
+&
+&
 !
 seen_foreground
 {
