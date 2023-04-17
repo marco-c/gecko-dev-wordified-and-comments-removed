@@ -576,9 +576,11 @@ outSources
 0
 ;
 virtual
-uint64_t
-CodecPluginID
+bool
+HasCodecPluginID
 (
+uint64_t
+aPluginID
 )
 =
 0
