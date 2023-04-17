@@ -56,10 +56,15 @@ posture
 )
 [
 SecureContext
+Exposed
+=
+(
+Window
+)
 ]
 partial
 interface
-Screen
+Navigator
 {
 [
 SameObject
@@ -67,7 +72,7 @@ SameObject
 readonly
 attribute
 DevicePosture
-posture
+devicePosture
 ;
 }
 ;

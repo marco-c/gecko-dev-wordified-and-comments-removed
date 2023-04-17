@@ -160,6 +160,7 @@ constructor
 (
 double
 startTime
+unrestricted
 double
 endTime
 DOMString
