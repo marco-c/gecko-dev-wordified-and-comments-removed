@@ -90,6 +90,15 @@ test
 >
 {
 const
+frameDOMException
+=
+frame
+.
+contentWindow
+.
+DOMException
+;
+const
 transform
 =
 new
@@ -110,6 +119,7 @@ assert_throws_dom
 "
 InvalidStateError
 "
+frameDOMException
 (
 )
 =
