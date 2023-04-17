@@ -183,6 +183,12 @@ pipeline_id
 ;
 sub_builder
 .
+begin
+(
+)
+;
+sub_builder
+.
 push_simple_stacking_context
 (
 sub_bounds
@@ -264,7 +270,7 @@ size
 )
 sub_builder
 .
-finalize
+end
 (
 )
 true

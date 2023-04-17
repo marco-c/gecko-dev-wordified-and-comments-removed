@@ -2955,6 +2955,12 @@ new
 pipeline_id
 )
 ;
+builder
+.
+begin
+(
+)
+;
 let
 mut
 info
@@ -3025,7 +3031,7 @@ push
 (
 builder
 .
-finalize
+end
 (
 )
 )

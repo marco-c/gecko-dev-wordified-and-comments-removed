@@ -468,6 +468,12 @@ doc
 pipeline_id
 )
 ;
+builder
+.
+begin
+(
+)
+;
 let
 local_rect
 =
@@ -557,7 +563,7 @@ size
 )
 builder
 .
-finalize
+end
 (
 )
 true

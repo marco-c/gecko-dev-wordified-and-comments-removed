@@ -1149,6 +1149,12 @@ self
 pipeline_id
 )
 ;
+builder
+.
+begin
+(
+)
+;
 let
 bounds
 =
@@ -1607,7 +1613,7 @@ None
 layout_size
 builder
 .
-finalize
+end
 (
 )
 true
