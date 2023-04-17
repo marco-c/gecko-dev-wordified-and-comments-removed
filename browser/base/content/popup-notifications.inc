@@ -1685,6 +1685,11 @@ recommendation
 -
 notification
 "
+buttonhighlight
+=
+"
+true
+"
 hidden
 =
 "
