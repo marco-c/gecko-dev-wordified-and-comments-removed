@@ -222,7 +222,6 @@ by
 class
 .
 Here
-\
 '
 s
 a
@@ -541,7 +540,6 @@ g
 for
 nsString
 you
-\
 '
 ll
 see
@@ -863,7 +861,6 @@ h
 or
 perhaps
 you
-\
 '
 re
 just
@@ -1804,7 +1801,6 @@ counting
 objects
 or
 AddRef
-\
 '
 d
 references
@@ -2270,7 +2266,6 @@ that
 although
 this
 isn
-\
 '
 t
 necessarily
@@ -2293,7 +2288,6 @@ how
 much
 memory
 we
-\
 '
 re
 consuming
@@ -2510,7 +2504,6 @@ for
 the
 platforms
 you
-\
 '
 re
 interested
@@ -2533,7 +2526,6 @@ most
 likely
 configs
 you
-\
 '
 ll
 want
