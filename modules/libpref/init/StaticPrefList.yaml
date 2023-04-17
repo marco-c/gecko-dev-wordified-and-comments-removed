@@ -7335,7 +7335,7 @@ sessionstore
 interval
 type
 :
-uint32_t
+RelaxedAtomicUint32
 value
 :
 15000
@@ -7395,7 +7395,7 @@ debug
 no_auto_updates
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
