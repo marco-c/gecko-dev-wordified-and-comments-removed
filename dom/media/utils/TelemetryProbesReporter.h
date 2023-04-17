@@ -342,6 +342,12 @@ HasOwnerHadValidVideo
 )
 const
 ;
+bool
+HasOwnerHadValidMedia
+(
+)
+const
+;
 void
 AssertOnMainThreadAndNotShutdown
 (
