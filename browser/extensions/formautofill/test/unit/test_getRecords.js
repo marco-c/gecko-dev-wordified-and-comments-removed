@@ -57,7 +57,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillParent
 .

@@ -24,7 +24,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofill
 .
@@ -45,7 +45,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillParent
 .
@@ -66,7 +66,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillParent
 .
@@ -903,7 +903,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillParent
 .
@@ -920,7 +920,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillChild
 .

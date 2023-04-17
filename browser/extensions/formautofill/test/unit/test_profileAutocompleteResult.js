@@ -30,7 +30,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 ProfileAutoCompleteResult
 .

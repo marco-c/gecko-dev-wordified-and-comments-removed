@@ -99,7 +99,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofill
 .
@@ -166,7 +166,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillNameUtils
 .
@@ -187,7 +187,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillUtils
 .
@@ -231,7 +231,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 phonenumberutils
 /
