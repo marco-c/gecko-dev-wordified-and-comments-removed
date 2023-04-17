@@ -6038,7 +6038,9 @@ reflowScrollCorner
 =
 false
 ;
-ComputedStyle
+}
+const
+auto
 *
 scrollbarStyle
 =
@@ -6050,9 +6052,8 @@ StyleForScrollbar
 this
 )
 ;
-auto
-scrollbarWidth
-=
+if
+(
 scrollbarStyle
 -
 >
@@ -6062,10 +6063,6 @@ StyleUIReset
 -
 >
 mScrollbarWidth
-;
-if
-(
-scrollbarWidth
 =
 =
 StyleScrollbarWidth
@@ -6104,7 +6101,6 @@ ShowScrollbar
 :
 Never
 ;
-}
 }
 nsRect
 oldScrollAreaBounds
@@ -12204,7 +12200,7 @@ mVScrollbarBox
 IntrinsicDirty
 :
 :
-Resize
+StyleChange
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -12223,7 +12219,7 @@ mHScrollbarBox
 IntrinsicDirty
 :
 :
-Resize
+StyleChange
 NS_FRAME_IS_DIRTY
 )
 ;
