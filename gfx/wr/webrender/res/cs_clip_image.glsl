@@ -229,7 +229,7 @@ Transform
 prim_transform
 Transform
 clip_transform
-RectWithEndpoint
+RectWithSize
 sub_rect
 vec2
 task_origin

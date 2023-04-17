@@ -1872,7 +1872,7 @@ union
 DeviceIntRect
 :
 :
-from_origin_and_size
+new
 (
 p
 size
@@ -2137,7 +2137,7 @@ used_rect
 DeviceIntRect
 :
 :
-from_origin_and_size
+new
 (
 p
 size
@@ -2188,7 +2188,7 @@ rect
 DeviceIntRect
 :
 :
-from_origin_and_size
+new
 (
 location
 .

@@ -3785,7 +3785,7 @@ get_screenshot_async
 DeviceIntRect
 :
 :
-from_origin_and_size
+new
 (
 DeviceIntPoint
 :
@@ -10448,10 +10448,6 @@ DirtyRect
 Partial
 (
 dirty_rect
-.
-to_box2d
-(
-)
 )
 )
 ;
