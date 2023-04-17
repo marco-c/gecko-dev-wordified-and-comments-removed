@@ -214,6 +214,10 @@ Matrix4x4
 >
 &
 aAncestorTransform
+const
+ViewID
+&
+aAncestorTransformId
 )
 ;
 int32_t
@@ -265,6 +269,16 @@ const
 {
 return
 mAncestorTransform
+;
+}
+ViewID
+GetAncestorTransformId
+(
+)
+const
+{
+return
+mAncestorTransformId
 ;
 }
 void
@@ -801,6 +815,9 @@ gfx
 :
 Matrix4x4
 mAncestorTransform
+;
+ViewID
+mAncestorTransformId
 ;
 gfx
 :
