@@ -1785,7 +1785,7 @@ Telemetry
 ScalarID
 :
 :
-STARTUP_FIRST_RUN_IS_FROM_DMG
+STARTUP_IS_RUN_FROM_DMG
 isFromDmg
 )
 ;
