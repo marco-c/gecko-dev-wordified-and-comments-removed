@@ -6233,6 +6233,7 @@ HandleObject
 obj
 HandleObject
 reobj
+const
 char16_t
 *
 chars
