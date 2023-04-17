@@ -600,12 +600,6 @@ SharedWorkerInterfaceRequestor
 {
 if
 (
-!
-ServiceWorkerParentInterceptEnabled
-(
-)
-|
-|
 XRE_IsParentProcess
 (
 )
