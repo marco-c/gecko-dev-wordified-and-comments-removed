@@ -54,6 +54,12 @@ url_Path
 <
 <
 2
+url_AppleExtra
+=
+1u
+<
+<
+3
 }
 nsEscapeMask
 ;
