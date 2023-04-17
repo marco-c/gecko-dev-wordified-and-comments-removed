@@ -241,6 +241,15 @@ started
 "
 )
 ;
+const
+uint32_t
+stackSize
+=
+320
+<
+<
+10
+;
 nsCOMPtr
 <
 nsIThread
@@ -318,6 +327,7 @@ true
 ;
 }
 )
+stackSize
 )
 ;
 if
