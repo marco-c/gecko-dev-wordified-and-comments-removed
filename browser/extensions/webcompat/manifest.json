@@ -35,7 +35,7 @@ version
 "
 24
 .
-2
+3
 .
 0
 "
@@ -600,6 +600,13 @@ js
 shims
 /
 bmauth
+.
+js
+"
+"
+shims
+/
+chartbeat
 .
 js
 "
