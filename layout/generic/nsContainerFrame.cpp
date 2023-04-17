@@ -1423,8 +1423,7 @@ const
 T
 &
 aProp
-void
-*
+uint64_t
 )
 {
 if
@@ -1847,8 +1846,7 @@ const
 T
 &
 aProp
-void
-*
+uint64_t
 aValue
 )
 {
@@ -1868,7 +1866,10 @@ OverflowProperty
 )
 )
 {
+reinterpret_cast
+<
 L
+>
 (
 aValue
 )
@@ -1913,7 +1914,10 @@ Unused
 <
 this
 ;
+reinterpret_cast
+<
 L
+>
 (
 aValue
 )
@@ -1958,7 +1962,10 @@ Unused
 <
 this
 ;
+reinterpret_cast
+<
 L
+>
 (
 aValue
 )
@@ -1982,7 +1989,10 @@ BackdropProperty
 )
 )
 {
+reinterpret_cast
+<
 L
+>
 (
 aValue
 )
