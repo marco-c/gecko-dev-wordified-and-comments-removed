@@ -2985,6 +2985,7 @@ s
 %
 s
 "
+                
 %
 (
 obj
@@ -2993,6 +2994,8 @@ path
 .
 full_path
 e
+.
+message
 )
             
 )

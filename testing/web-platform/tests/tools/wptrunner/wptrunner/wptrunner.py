@@ -1681,6 +1681,8 @@ s
 "
 %
 e
+.
+message
 )
                 
 raise

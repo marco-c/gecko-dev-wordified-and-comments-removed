@@ -1876,6 +1876,7 @@ self
 .
 info
 (
+                    
 "
 error
 resolving
@@ -1894,7 +1895,10 @@ parsed
 .
 hostname
 e
+.
+message
 )
+                
 )
                 
 continue
@@ -5777,6 +5781,7 @@ self
 .
 info
 (
+                    
 "
 error
 resolving
@@ -5795,7 +5800,10 @@ parsed
 .
 hostname
 e
+.
+message
 )
+                
 )
                 
 continue
