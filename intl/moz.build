@@ -11,9 +11,6 @@ DIRS
 =
 [
 "
-components
-"
-"
 hyphenation
 /
 glue
