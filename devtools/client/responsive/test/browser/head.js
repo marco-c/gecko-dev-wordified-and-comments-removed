@@ -973,6 +973,7 @@ manager
 message
 browser
 preTaskValue
+tab
 }
 )
 ;
