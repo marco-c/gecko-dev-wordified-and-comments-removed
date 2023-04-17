@@ -50,6 +50,13 @@ h
 "
 src
 /
+DateTimePart
+.
+h
+"
+"
+src
+/
 DateTimePatternGenerator
 .
 h
@@ -203,6 +210,13 @@ cpp
 src
 /
 DateTimeFormat
+.
+cpp
+"
+"
+src
+/
+DateTimeFormatUtils
 .
 cpp
 "
