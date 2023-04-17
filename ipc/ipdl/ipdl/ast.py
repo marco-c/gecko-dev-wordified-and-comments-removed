@@ -24,6 +24,9 @@ VSYNC_PRIORITY
 MEDIUMHIGH_PRIORITY
 =
 4
+CONTROL_PRIORITY
+=
+5
 class
 Visitor
 :
@@ -1762,6 +1765,12 @@ mediumhigh
 "
 :
 MEDIUMHIGH_PRIORITY
+            
+"
+control
+"
+:
+CONTROL_PRIORITY
         
 }
 [

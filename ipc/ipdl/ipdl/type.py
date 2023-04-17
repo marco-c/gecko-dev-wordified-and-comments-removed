@@ -6629,6 +6629,9 @@ vsync
 "
 mediumhigh
 "
+"
+control
+"
 )
                 
 "

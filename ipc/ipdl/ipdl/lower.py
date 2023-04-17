@@ -11981,13 +11981,30 @@ prioEnum
 VSYNC_PRIORITY
 "
     
-else
+elif
+prio
+=
+=
+ipdl
+.
+ast
+.
+MEDIUMHIGH_PRIORITY
 :
         
 prioEnum
 =
 "
 MEDIUMHIGH_PRIORITY
+"
+    
+else
+:
+        
+prioEnum
+=
+"
+CONTROL_PRIORITY
 "
     
 if
