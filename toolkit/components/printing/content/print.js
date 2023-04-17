@@ -13444,10 +13444,6 @@ sheetCount
 this
 .
 sheetCount
-*
-this
-.
-numCopies
 ;
 if
 (
@@ -13481,6 +13477,13 @@ sheetCount
 )
 ;
 }
+sheetCount
+*
+=
+this
+.
+numCopies
+;
 document
 .
 l10n
