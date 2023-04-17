@@ -1220,7 +1220,7 @@ SSL_ERROR_NEXT_PROTOCOL_DATA_INVALID
 )
 ;
 return
-rv
+SECFailure
 ;
 }
 PORT_Assert

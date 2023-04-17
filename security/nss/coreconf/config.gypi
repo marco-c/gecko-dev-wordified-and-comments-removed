@@ -1528,6 +1528,13 @@ target_arch
 "
 e2k
 "
+or
+target_arch
+=
+=
+"
+riscv64
+"
 '
 {
 '

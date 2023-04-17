@@ -3097,9 +3097,6 @@ Lctr_4x
 mtctr
 9
 li
-10
-0
-li
 25
 0x10
 li
@@ -3126,6 +3123,9 @@ align
 .
 L8x_loop
 :
+li
+10
+0
 VEC_LOAD_INC
 K
 KS
