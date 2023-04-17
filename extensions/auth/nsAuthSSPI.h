@@ -101,8 +101,8 @@ nsresult
 MakeSN
 (
 const
-char
-*
+nsACString
+&
 principal
 nsCString
 &
