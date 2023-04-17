@@ -4682,7 +4682,7 @@ style
 =
 '
 .
-avif
+webp
 '
 ]
 "
@@ -4900,7 +4900,7 @@ style
 =
 '
 .
-avif
+webp
 '
 ]
 "
@@ -4970,7 +4970,7 @@ style
 =
 '
 .
-avif
+webp
 '
 ]
 "
