@@ -1476,6 +1476,8 @@ swgl_commitTextureLinearRepeatRGBA8
 sampler
 vec2
 uv
+vec2
+tile_repeat
 vec4
 uv_repeat
 vec4
@@ -1488,6 +1490,8 @@ swgl_commitTextureLinearRepeatColorRGBA8
 sampler
 vec2
 uv
+vec2
+tile_repeat
 vec4
 uv_repeat
 vec4
@@ -1528,6 +1532,8 @@ swgl_commitTextureNearestRepeatRGBA8
 sampler
 vec2
 uv
+vec2
+tile_repeat
 vec4
 uv_repeat
 vec4
@@ -1540,6 +1546,8 @@ swgl_commitTextureNearestRepeatColorRGBA8
 sampler
 vec2
 uv
+vec2
+tile_repeat
 vec4
 uv_repeat
 vec4
@@ -1580,6 +1588,8 @@ swgl_commitTextureRepeatRGBA8
 sampler
 vec2
 uv
+vec2
+tile_repeat
 vec4
 uv_repeat
 vec4
@@ -1592,6 +1602,8 @@ swgl_commitTextureRepeatColorRGBA8
 sampler
 vec2
 uv
+vec2
+tile_repeat
 vec4
 uv_repeat
 vec4
@@ -1774,6 +1786,22 @@ always
 within
 the
 bounds
+.
+The
+tile
+repeat
+limit
+if
+non
+-
+zero
+specifies
+the
+maximum
+number
+of
+repetitions
+allowed
 .
 /
 /
