@@ -285,7 +285,6 @@ webpack
 -
 -
 env
-.
 development
 -
 w
@@ -301,7 +300,6 @@ welcomeBundle
 -
 -
 env
-.
 development
 -
 w
