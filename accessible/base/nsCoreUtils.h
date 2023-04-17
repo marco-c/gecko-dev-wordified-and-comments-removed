@@ -371,15 +371,6 @@ aDocument
 ;
 static
 bool
-IsContentDocument
-(
-Document
-*
-aDocument
-)
-;
-static
-bool
 IsTopLevelContentDocInProcess
 (
 Document
