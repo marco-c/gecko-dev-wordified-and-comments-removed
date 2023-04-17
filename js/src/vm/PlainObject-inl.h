@@ -72,7 +72,7 @@ include
 "
 vm
 /
-NativeObject
+JSObject
 .
 h
 "
@@ -81,7 +81,7 @@ include
 "
 vm
 /
-ObjectGroup
+NativeObject
 .
 h
 "
