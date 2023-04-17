@@ -144,6 +144,17 @@ EmptyConfig
 .
 default_substs
         
+substs
+[
+"
+ENABLE_TESTS
+"
+]
+=
+"
+1
+"
+        
 if
 "
 JS_STANDALONE
