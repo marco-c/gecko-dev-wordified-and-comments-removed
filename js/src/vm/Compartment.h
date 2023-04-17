@@ -1412,8 +1412,11 @@ removeFront
 }
 }
 void
-sweep
+traceWeak
 (
+JSTracer
+*
+trc
 )
 {
 for
@@ -1457,8 +1460,9 @@ value
 ;
 m
 .
-sweep
+traceWeak
 (
+trc
 )
 ;
 if
@@ -2311,8 +2315,11 @@ trc
 )
 ;
 void
-sweepCrossCompartmentObjectWrappers
+traceCrossCompartmentObjectWrapperEdges
 (
+JSTracer
+*
+trc
 )
 ;
 void

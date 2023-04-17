@@ -2207,8 +2207,11 @@ dropStringWrappersOnGC
 )
 ;
 void
-sweepAllCrossCompartmentWrappers
+traceWeakCCWEdges
 (
+JSTracer
+*
+trc
 )
 ;
 static

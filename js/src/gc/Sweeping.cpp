@@ -5971,6 +5971,12 @@ sweepCCWrappers
 (
 )
 {
+SweepingTracer
+trc
+(
+rt
+)
+;
 AutoSetThreadIsSweeping
 threadIsSweeping
 ;
@@ -5999,8 +6005,10 @@ next
 zone
 -
 >
-sweepAllCrossCompartmentWrappers
+traceWeakCCWEdges
 (
+&
+trc
 )
 ;
 }
