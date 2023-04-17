@@ -1,7 +1,7 @@
 from
 configparser
 import
-SafeConfigParser
+ConfigParser
 import
 os
 import
@@ -10,6 +10,11 @@ from
 collections
 import
 OrderedDict
+from
+typing
+import
+Any
+Dict
 here
 =
 os
@@ -23,7 +28,11 @@ __file__
 class
 ConfigDict
 (
-dict
+Dict
+[
+str
+Any
+]
 )
 :
     
@@ -145,7 +154,7 @@ config_path
     
 parser
 =
-SafeConfigParser
+ConfigParser
 (
 )
     

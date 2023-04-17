@@ -5,6 +5,12 @@ abc
 import
 ABCMeta
 abstractmethod
+from
+typing
+import
+ClassVar
+List
+Type
 class
 Protocol
 (
