@@ -4456,6 +4456,9 @@ onvrdisplaypresentchange
 ;
 }
 ;
+#
+ifndef
+RELEASE_OR_BETA
 /
 /
 https
@@ -4507,6 +4510,8 @@ paintWorklet
 ;
 }
 ;
+#
+endif
 Window
 includes
 WindowOrWorkerGlobalScope
