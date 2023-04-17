@@ -273,6 +273,15 @@ WARNINGS_AS_ERRORS
 =
 [
 ]
+WASM_FLAGS
+[
+'
+WARNINGS_AS_ERRORS
+'
+]
+=
+[
+]
 template
 def
 DisableCompilerWarnings
