@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 nsStreamUtils
 .
 h
