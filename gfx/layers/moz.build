@@ -84,6 +84,11 @@ ImageContainer
 h
 "
 "
+ImageLayers
+.
+h
+"
+"
 ImageTypes
 .
 h
@@ -2257,6 +2262,11 @@ cpp
 "
 "
 ImageDataSerializer
+.
+cpp
+"
+"
+ImageLayers
 .
 cpp
 "

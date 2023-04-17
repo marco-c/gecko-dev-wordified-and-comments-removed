@@ -524,6 +524,13 @@ h
 #
 include
 "
+ImageLayers
+.
+h
+"
+#
+include
+"
 ImageRegion
 .
 h

@@ -117,6 +117,9 @@ namespace
 layers
 {
 class
+ClientCanvasRenderer
+;
+class
 KnowsCompositor
 ;
 class
@@ -428,6 +431,17 @@ const
 {
 return
 mDirty
+;
+}
+virtual
+ClientCanvasRenderer
+*
+AsClientCanvasRenderer
+(
+)
+{
+return
+nullptr
 ;
 }
 virtual

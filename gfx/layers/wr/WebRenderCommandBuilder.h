@@ -114,6 +114,9 @@ namespace
 layers
 {
 class
+CanvasLayer
+;
+class
 ImageClient
 ;
 class
