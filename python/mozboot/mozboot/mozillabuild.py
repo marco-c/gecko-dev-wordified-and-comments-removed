@@ -181,10 +181,7 @@ is_antivirus_disabled
 )
     
 except
-(
 FileNotFoundError
-OSError
-)
 :
         
 return
@@ -276,10 +273,7 @@ path
 )
     
 except
-(
 FileNotFoundError
-OSError
-)
 :
         
 pass
