@@ -3077,11 +3077,6 @@ NotifyResolutionChanged
 (
 )
 ;
-void
-Deprioritize
-(
-)
-;
 bool
 StartApzAutoscroll
 (
@@ -3897,11 +3892,6 @@ mPreserveLayers
 ;
 bool
 mRenderLayers
-:
-1
-;
-bool
-mActiveInPriorityManager
 :
 1
 ;
