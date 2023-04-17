@@ -29256,14 +29256,6 @@ HasFlag
 (
 NODE_IS_EDITABLE
 )
-|
-|
-content
--
->
-HasIndependentSelection
-(
-)
 )
 {
 return
