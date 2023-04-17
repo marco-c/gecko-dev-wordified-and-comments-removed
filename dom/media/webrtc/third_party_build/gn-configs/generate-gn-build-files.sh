@@ -643,6 +643,10 @@ xMINGW32_NT
 ]
 ;
 then
+export
+DEPOT_TOOLS_WIN_TOOLCHAIN
+=
+0
 CONFIGS
 =
 "
