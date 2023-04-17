@@ -155,7 +155,7 @@ void
 onCredsGenerated
 (
 in
-string
+ACString
 aCreds
 in
 unsigned
