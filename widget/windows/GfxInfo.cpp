@@ -6204,7 +6204,7 @@ Unknown
 }
 static
 bool
-OnlyAllowFeatureOnAllowlistedVendor
+OnlyAllowFeatureOnWhitelistedVendor
 (
 int32_t
 aFeature
@@ -9127,14 +9127,12 @@ NS_OK
 }
 if
 (
-OnlyAllowFeatureOnAllowlistedVendor
+OnlyAllowFeatureOnWhitelistedVendor
 (
 aFeature
 )
-)
-{
-if
-(
+&
+&
 !
 adapterVendorID
 .
@@ -9464,7 +9462,6 @@ FEATURE_BLOCKED_MISMATCHED_VERSION
 return
 NS_OK
 ;
-}
 }
 }
 return
