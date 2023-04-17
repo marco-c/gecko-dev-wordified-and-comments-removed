@@ -75,6 +75,13 @@ TransportSecurityInfo
 .
 h
 "
+#
+include
+"
+CertVerifier
+.
+h
+"
 namespace
 mozilla
 {

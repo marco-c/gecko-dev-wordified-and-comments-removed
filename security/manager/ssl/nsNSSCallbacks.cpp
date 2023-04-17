@@ -5120,8 +5120,8 @@ CertVerifier
 FLAG_TLS_IGNORE_STATUS_REQUEST
 ;
 }
-SECOidTag
-evOidPolicy
+EVStatus
+evStatus
 ;
 CertificateTransparencyInfo
 certificateTransparencyInfo
@@ -5180,7 +5180,7 @@ GetOriginAttributes
 (
 )
 &
-evOidPolicy
+evStatus
 nullptr
 nullptr
 nullptr
@@ -5250,10 +5250,13 @@ rv
 Success
 &
 &
-evOidPolicy
-!
+evStatus
 =
-SEC_OID_UNKNOWN
+=
+EVStatus
+:
+:
+EV
 )
 {
 MOZ_LOG

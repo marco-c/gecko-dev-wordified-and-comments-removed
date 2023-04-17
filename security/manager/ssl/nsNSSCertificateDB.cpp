@@ -6164,8 +6164,8 @@ NS_ERROR_FAILURE
 UniqueCERTCertList
 resultChain
 ;
-SECOidTag
-evOidPolicy
+EVStatus
+evStatus
 ;
 mozilla
 :
@@ -6221,7 +6221,7 @@ OriginAttributes
 (
 )
 &
-evOidPolicy
+evStatus
 )
 ;
 }
@@ -6280,7 +6280,7 @@ OriginAttributes
 (
 )
 &
-evOidPolicy
+evStatus
 )
 ;
 }
@@ -6324,10 +6324,13 @@ rv
 }
 if
 (
-evOidPolicy
-!
+evStatus
 =
-SEC_OID_UNKNOWN
+=
+EVStatus
+:
+:
+EV
 )
 {
 *
