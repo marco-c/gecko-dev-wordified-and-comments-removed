@@ -72,14 +72,14 @@ httpsonly
 -
 title
 -
-connection
+site
 -
 not
 -
 available
 =
 Secure
-Connection
+Site
 Not
 Available
 #
