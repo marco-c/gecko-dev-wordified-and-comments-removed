@@ -3883,6 +3883,13 @@ nsCString
 aKey
 )
 ;
+void
+ReportORBTelemetry
+(
+int64_t
+aContentLength
+)
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
