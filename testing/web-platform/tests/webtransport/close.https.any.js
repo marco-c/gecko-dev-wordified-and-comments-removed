@@ -208,13 +208,14 @@ wt
 close
 (
 {
-code
+closeCode
 :
 99
 reason
 :
 '
 reason
+X
 '
 }
 )
@@ -231,7 +232,7 @@ assert_equals
 (
 close_info
 .
-code
+closeCode
 99
 '
 code
@@ -411,7 +412,7 @@ wt
 close
 (
 {
-code
+closeCode
 :
 11
 reason
@@ -430,7 +431,7 @@ assert_equals
 (
 close_info
 .
-code
+closeCode
 11
 '
 code
