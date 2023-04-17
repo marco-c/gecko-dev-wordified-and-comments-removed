@@ -187,6 +187,8 @@ dparams
 CodecInOut
 io2
 ;
+EXPECT_LE
+(
 Roundtrip
 (
 &
@@ -197,8 +199,10 @@ pool
 &
 io2
 )
+8000
+)
 ;
-VerifyEqual
+VerifyRelativeError
 (
 *
 io
@@ -220,6 +224,10 @@ Main
 color
 (
 )
+1e
+-
+7f
+0
 )
 ;
 }
@@ -292,6 +300,8 @@ dparams
 CodecInOut
 io2
 ;
+EXPECT_LE
+(
 Roundtrip
 (
 &
@@ -301,6 +311,8 @@ dparams
 pool
 &
 io2
+)
+14000
 )
 ;
 EXPECT_LE
@@ -315,7 +327,9 @@ ba_params
 nullptr
 pool
 )
-2
+1
+.
+1
 )
 ;
 }

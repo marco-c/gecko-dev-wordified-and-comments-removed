@@ -161,6 +161,7 @@ JPEGXL_PROFILER_SOURCES
 target_link_libraries
 (
 jxl_profiler
+PUBLIC
 hwy
 )
 target_compile_options
@@ -229,4 +230,6 @@ jxl_profiler
 PUBLIC
 -
 DPROFILER_ENABLED
+=
+1
 )

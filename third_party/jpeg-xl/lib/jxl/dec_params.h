@@ -52,6 +52,11 @@ keep_dct
 =
 false
 ;
+bool
+render_spotcolors
+=
+true
+;
 Override
 preview
 =
@@ -117,6 +122,14 @@ keep_dct
 other
 .
 keep_dct
+&
+&
+render_spotcolors
+=
+=
+other
+.
+render_spotcolors
 &
 &
 preview

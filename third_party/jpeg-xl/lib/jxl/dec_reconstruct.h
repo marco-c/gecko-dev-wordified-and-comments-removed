@@ -181,7 +181,6 @@ std
 :
 pair
 <
-const
 ImageF
 *
 Rect
@@ -201,7 +200,7 @@ output_image
 const
 Rect
 &
-output_rect
+frame_rect
 )
 ;
 void

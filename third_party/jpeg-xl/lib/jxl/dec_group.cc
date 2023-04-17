@@ -6177,7 +6177,10 @@ ysize
 dec_state
 -
 >
-dc_upsampler
+upsamplers
+[
+2
+]
 .
 UpsampleRect
 (

@@ -6451,6 +6451,16 @@ size_t
 factor
 )
 ;
+void
+DownsampleImage
+(
+ImageF
+*
+image
+size_t
+factor
+)
+;
 }
 #
 endif

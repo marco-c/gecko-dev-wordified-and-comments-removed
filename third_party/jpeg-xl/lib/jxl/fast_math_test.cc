@@ -2246,6 +2246,11 @@ Rect
 (
 xyb
 )
+nullptr
+Rect
+(
+)
+false
 roundtrip
 .
 data
@@ -2256,6 +2261,13 @@ xyb
 xsize
 (
 )
+xyb
+.
+xsize
+(
+)
+*
+3
 )
 ;
 for
