@@ -847,10 +847,16 @@ py
 Ignore
 Visual
 Studio
+/
+Visual
+Studio
 Code
 workspace
 files
 .
+.
+vs
+/
 .
 vscode
 /
