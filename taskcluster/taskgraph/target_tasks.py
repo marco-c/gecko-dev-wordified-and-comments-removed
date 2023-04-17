@@ -1750,12 +1750,20 @@ task_matches
 (
 t
 )
+        
 and
 filter_by_uncommon_try_tasks
 (
 t
 .
 label
+)
+        
+and
+filter_unsupported_artifact_builds
+(
+t
+parameters
 )
     
 ]
