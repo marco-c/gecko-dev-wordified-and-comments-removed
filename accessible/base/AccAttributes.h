@@ -482,6 +482,14 @@ Count
 )
 ;
 }
+void
+Update
+(
+AccAttributes
+*
+aOther
+)
+;
 class
 Entry
 {
@@ -701,6 +709,10 @@ const
 AttrValueType
 *
 mValue
+;
+friend
+class
+AccAttributes
 ;
 }
 ;
