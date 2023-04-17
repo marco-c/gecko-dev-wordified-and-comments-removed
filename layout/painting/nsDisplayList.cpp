@@ -31676,9 +31676,6 @@ mScrollFrame
 GetSize
 (
 )
-Nothing
-(
-)
 false
 )
 ;

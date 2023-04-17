@@ -6033,16 +6033,6 @@ const
 nsSize
 &
 aScrollPortSize
-const
-mozilla
-:
-:
-Maybe
-<
-nsRect
->
-&
-aClipRect
 bool
 aIsRoot
 )
