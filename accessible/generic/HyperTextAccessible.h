@@ -82,6 +82,9 @@ namespace
 a11y
 {
 class
+TextLeafPoint
+;
+class
 TextRange
 ;
 struct
@@ -997,6 +1000,17 @@ TextRange
 aRange
 )
 const
+;
+TextLeafPoint
+ToTextLeafPoint
+(
+int32_t
+aOffset
+bool
+aDescendToEnd
+=
+false
+)
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
