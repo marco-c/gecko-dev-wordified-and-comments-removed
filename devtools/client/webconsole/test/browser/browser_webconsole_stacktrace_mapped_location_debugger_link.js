@@ -12,7 +12,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -63,7 +63,7 @@ const
 TEST_ORIGINAL_URI
 =
 "
-http
+https
 :
 /
 /

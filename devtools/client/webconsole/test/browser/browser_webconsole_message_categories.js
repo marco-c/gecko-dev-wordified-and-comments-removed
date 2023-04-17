@@ -54,7 +54,7 @@ const
 TESTS_PATH
 =
 "
-http
+https
 :
 /
 /

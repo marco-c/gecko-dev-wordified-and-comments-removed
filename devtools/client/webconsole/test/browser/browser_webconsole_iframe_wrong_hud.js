@@ -7,7 +7,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -45,7 +45,7 @@ const
 TEST_IFRAME_URI
 =
 "
-http
+https
 :
 /
 /
@@ -122,19 +122,6 @@ function
 (
 )
 {
-await
-pushPref
-(
-"
-dom
-.
-security
-.
-https_first
-"
-false
-)
-;
 await
 pushPref
 (

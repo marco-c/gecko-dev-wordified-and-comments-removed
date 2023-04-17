@@ -7,7 +7,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -463,7 +463,7 @@ const
 FETCH_URI
 =
 "
-http
+https
 :
 /
 /
