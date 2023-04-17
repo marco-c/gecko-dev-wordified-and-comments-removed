@@ -293,11 +293,6 @@ EARLY_BETA_OR_EARLIER
 :
 true
 "
-ENABLE_REMOTE_AGENT
-"
-:
-true
-"
 HAVE_SHELL_SERVICE
 "
 :
@@ -745,11 +740,6 @@ dylib
 "
 "
 EARLY_BETA_OR_EARLIER
-"
-:
-true
-"
-ENABLE_REMOTE_AGENT
 "
 :
 true

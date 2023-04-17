@@ -574,7 +574,7 @@ substs
 get
 (
 "
-ENABLE_REMOTE_AGENT
+ENABLE_WEBDRIVER
 "
 )
 :
@@ -822,7 +822,7 @@ substs
 get
 (
 "
-ENABLE_REMOTE_AGENT
+ENABLE_WEBDRIVER
 "
 )
 :

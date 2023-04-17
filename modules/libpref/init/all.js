@@ -36448,6 +36448,12 @@ endif
 /
 /
 MOZ_SERVICES_SYNC
+#
+if
+defined
+(
+ENABLE_WEBDRIVER
+)
 pref
 (
 "
@@ -36508,12 +36514,6 @@ recommended
 true
 )
 ;
-#
-if
-defined
-(
-ENABLE_REMOTE_AGENT
-)
 pref
 (
 "
@@ -36526,8 +36526,6 @@ local
 true
 )
 ;
-#
-endif
 pref
 (
 "
@@ -36554,6 +36552,8 @@ truncate
 true
 )
 ;
+#
+endif
 pref
 (
 "
