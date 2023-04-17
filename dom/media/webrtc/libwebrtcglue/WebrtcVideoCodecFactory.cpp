@@ -104,6 +104,7 @@ GmpVideoCodec
 :
 CreateDecoder
 (
+mPCHandle
 )
 )
 ;
@@ -586,6 +587,7 @@ GmpVideoCodec
 :
 CreateEncoder
 (
+mPCHandle
 )
 )
 ;

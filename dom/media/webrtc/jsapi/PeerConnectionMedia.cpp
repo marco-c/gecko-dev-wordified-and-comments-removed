@@ -1783,12 +1783,6 @@ UpdateMediaPipelines
 (
 )
 {
-WebrtcGmpPCHandleSetter
-setter
-(
-mParentHandle
-)
-;
 for
 (
 RefPtr

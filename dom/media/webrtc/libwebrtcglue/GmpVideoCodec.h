@@ -23,6 +23,11 @@ WebrtcVideoEncoder
 *
 CreateEncoder
 (
+std
+:
+:
+string
+aPCHandle
 )
 ;
 static
@@ -30,6 +35,11 @@ WebrtcVideoDecoder
 *
 CreateDecoder
 (
+std
+:
+:
+string
+aPCHandle
 )
 ;
 }
