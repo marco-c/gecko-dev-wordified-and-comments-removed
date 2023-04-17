@@ -88,14 +88,6 @@ NR_IPV6
 UCHAR
 protocol
 ;
-struct
-sockaddr
-*
-addr
-;
-int
-addr_len
-;
 union
 {
 struct

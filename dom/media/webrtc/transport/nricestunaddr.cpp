@@ -305,15 +305,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-toAddr
--
->
-addr
-.
-addr
-=
-nullptr
-;
 return
 NS_OK
 ;
