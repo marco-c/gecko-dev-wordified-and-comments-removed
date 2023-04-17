@@ -5142,11 +5142,6 @@ if
 str
 )
 {
-JS_ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
@@ -5236,11 +5231,6 @@ if
 str
 )
 {
-JS_ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
@@ -6934,11 +6924,6 @@ if
 str
 )
 {
-JS_ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;

@@ -4461,11 +4461,6 @@ if
 table
 )
 {
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
@@ -5713,11 +5708,6 @@ if
 exportObj
 )
 {
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;

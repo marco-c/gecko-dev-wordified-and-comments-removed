@@ -2102,6 +2102,11 @@ if
 rootCount
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
@@ -2200,6 +2205,11 @@ zone
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
