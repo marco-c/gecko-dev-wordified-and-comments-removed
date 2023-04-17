@@ -2395,6 +2395,7 @@ state
 {
 if
 (
+(
 result
 .
 type
@@ -2405,6 +2406,19 @@ UrlbarUtils
 RESULT_TYPE
 .
 URL
+|
+|
+result
+.
+type
+=
+=
+UrlbarUtils
+.
+RESULT_TYPE
+.
+KEYWORD
+)
 &
 &
 result
