@@ -144,7 +144,7 @@ mozilla
 :
 DropJSObjects
 (
-this
+tmp
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
