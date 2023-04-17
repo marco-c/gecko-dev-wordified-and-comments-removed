@@ -1630,12 +1630,12 @@ mTxn
 aTxn
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mApi
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aTxn
 )
