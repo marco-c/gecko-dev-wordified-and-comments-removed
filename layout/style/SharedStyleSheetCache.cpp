@@ -1966,6 +1966,13 @@ true
 ;
 #
 endif
+data
+-
+>
+mRequestingNodeBeforeComplete
+=
+nullptr
+;
 if
 (
 !

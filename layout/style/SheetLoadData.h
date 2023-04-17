@@ -245,6 +245,9 @@ aTriggeringPrincipal
 nsIReferrerInfo
 *
 aReferrerInfo
+nsINode
+*
+aRequestingNode
 )
 ;
 SheetLoadData
@@ -270,6 +273,9 @@ aTriggeringPrincipal
 nsIReferrerInfo
 *
 aReferrerInfo
+nsINode
+*
+aRequestingNode
 )
 ;
 SheetLoadData
@@ -300,6 +306,9 @@ aTriggeringPrincipal
 nsIReferrerInfo
 *
 aReferrerInfo
+nsINode
+*
+aRequestingNode
 )
 ;
 nsIReferrerInfo
@@ -495,12 +504,11 @@ nsINode
 >
 mOwningNodeBeforeLoadEvent
 ;
+nsCOMPtr
+<
 nsINode
-*
-GetRequestingNode
-(
-)
-const
+>
+mRequestingNodeBeforeComplete
 ;
 nsCOMPtr
 <
