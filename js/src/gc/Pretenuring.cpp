@@ -79,6 +79,13 @@ gc
 static
 constexpr
 size_t
+AllocSiteAttentionThreshold
+=
+500
+;
+static
+constexpr
+size_t
 MaxAllocSitesPerMinorGC
 =
 500
@@ -428,7 +435,7 @@ site
 >
 nurseryAllocCount
 >
-100
+AllocSiteAttentionThreshold
 )
 {
 promotionRate
