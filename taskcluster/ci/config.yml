@@ -5229,6 +5229,9 @@ gpu
 |
 -
 ssd
+|
+-
+source
 )
 :
 provisioner
