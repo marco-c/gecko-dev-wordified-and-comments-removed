@@ -2383,6 +2383,9 @@ DeviceFamily
 :
 IntelModernRolloutWebRender
 :
+#
+ifndef
+NIGHTLY_BUILD
 APPEND_DEVICE
 (
 0x0102
@@ -2418,6 +2421,8 @@ APPEND_DEVICE
 0x0126
 )
 ;
+#
+endif
 APPEND_DEVICE
 (
 0x0f30
