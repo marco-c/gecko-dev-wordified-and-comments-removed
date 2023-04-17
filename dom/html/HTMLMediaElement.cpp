@@ -33259,6 +33259,15 @@ AudibleChangedReasons
 eDataAudibleChanged
 )
 ;
+DispatchAsyncTestingEvent
+(
+u
+"
+mozaudiblestatechanged
+"
+_ns
+)
+;
 }
 }
 void
