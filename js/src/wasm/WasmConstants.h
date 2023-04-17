@@ -2459,13 +2459,6 @@ MaxRegisterResults
 ;
 static
 const
-uint64_t
-MaxAsmJSHeapLength
-=
-0x7f000000
-;
-static
-const
 unsigned
 FailFP
 =
