@@ -1054,12 +1054,6 @@ ignoreWindowSize
 =
 True
         
-args
-.
-printDeviceInfo
-=
-False
-        
 from
 mozrunner
 .

@@ -448,12 +448,6 @@ ignoreWindowSize
 =
 True
     
-args
-.
-printDeviceInfo
-=
-False
-    
 config
 =
 context
