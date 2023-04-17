@@ -16,8 +16,7 @@ expressions
 not
 enabled
 |
-unexpected
-initializer
+unrecognized
 opcode
 /
 ;
