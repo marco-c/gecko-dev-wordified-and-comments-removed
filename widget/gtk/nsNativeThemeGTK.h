@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsNativeTheme
 .
 h
@@ -70,13 +63,10 @@ private
 nsNativeTheme
 public
 nsITheme
-public
-nsIObserver
 {
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIOBSERVER
 NS_IMETHOD
 DrawWidgetBackground
 (
