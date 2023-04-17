@@ -74,13 +74,6 @@ jit
 {
 static
 const
-uint32_t
-ION_FRAME_SLACK_SIZE
-=
-20
-;
-static
-const
 int32_t
 NUNBOX32_TYPE_OFFSET
 =

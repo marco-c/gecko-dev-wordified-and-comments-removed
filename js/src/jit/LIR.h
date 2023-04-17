@@ -1190,6 +1190,18 @@ POLICY_BITS
 -
 1
 ;
+#
+ifdef
+JS_CODEGEN_ARM64
+static
+const
+uint32_t
+REG_BITS
+=
+7
+;
+#
+else
 static
 const
 uint32_t
@@ -1197,6 +1209,8 @@ REG_BITS
 =
 6
 ;
+#
+endif
 static
 const
 uint32_t
