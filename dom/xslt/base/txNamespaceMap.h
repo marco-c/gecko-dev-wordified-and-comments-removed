@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsCOMArray
+nsCOMPtr
 .
 h
 "
