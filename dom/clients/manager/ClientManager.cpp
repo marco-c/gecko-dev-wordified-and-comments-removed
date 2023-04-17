@@ -954,6 +954,17 @@ MOZ_DIAGNOSTIC_ASSERT
 cm
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+cm
+-
+>
+IsShutdown
+(
+)
+)
+;
 return
 cm
 .
