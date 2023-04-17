@@ -305,11 +305,6 @@ sdp_unittests
 .
 cpp
 "
-"
-videoconduit_unittests
-.
-cpp
-"
 ]
 FINAL_LIBRARY
 =
