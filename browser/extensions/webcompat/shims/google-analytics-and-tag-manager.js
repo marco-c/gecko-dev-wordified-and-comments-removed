@@ -737,10 +737,15 @@ getAll
 )
 =
 >
+Array
+.
+from
+(
 trackers
 .
 values
 (
+)
 )
 getByName
 :
