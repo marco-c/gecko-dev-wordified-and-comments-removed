@@ -6995,14 +6995,6 @@ editorFlags
 nsIEditor
 :
 :
-eEditorWidgetMask
-;
-editorFlags
-|
-=
-nsIEditor
-:
-:
 eEditorSkipSpellCheck
 ;
 bool

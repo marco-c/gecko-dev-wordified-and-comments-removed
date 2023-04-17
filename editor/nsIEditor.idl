@@ -211,12 +211,6 @@ eEditorEnableWrapHackMask
 ;
 const
 long
-eEditorWidgetMask
-=
-0x0080
-;
-const
-long
 eEditorNoCSSMask
 =
 0x0100
