@@ -5287,30 +5287,6 @@ try_name
                     
 return
 False
-                
-if
-"
--
-chrome
-"
-in
-try_name
-:
-                    
-return
-True
-                
-if
-"
--
-chromium
-"
-in
-try_name
-:
-                    
-return
-True
         
 elif
 accept_raptor_android_build
