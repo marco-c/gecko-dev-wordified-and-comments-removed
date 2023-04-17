@@ -103,9 +103,6 @@ class
 imgCacheEntry
 ;
 class
-nsIApplicationCache
-;
-class
 nsIProperties
 ;
 class
@@ -350,14 +347,6 @@ aEntry
 nsIRequest
 *
 aRequest
-)
-;
-bool
-CacheChanged
-(
-nsIRequest
-*
-aNewRequest
 )
 ;
 bool
@@ -798,12 +787,6 @@ nsCOMPtr
 nsIInterfaceRequestor
 >
 mPrevChannelSink
-;
-nsCOMPtr
-<
-nsIApplicationCache
->
-mApplicationCache
 ;
 nsCOMPtr
 <
