@@ -221,6 +221,11 @@ mRawRules
 aRawRules
 )
 {
+if
+(
+mRawRules
+)
+{
 Servo_CssRules_ListTypes
 (
 mRawRules
@@ -228,6 +233,7 @@ mRawRules
 mRules
 )
 ;
+}
 }
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -959,6 +965,10 @@ stylesheet
 ;
 if
 (
+!
+mRawRules
+|
+|
 IsReadOnly
 (
 )
@@ -1100,6 +1110,10 @@ aIndex
 {
 if
 (
+!
+mRawRules
+|
+|
 IsReadOnly
 (
 )
