@@ -511,11 +511,6 @@ if
 this
 .
 isLocalTab
-|
-|
-this
-.
-isDevToolsExtensionContext
 )
 {
 this
