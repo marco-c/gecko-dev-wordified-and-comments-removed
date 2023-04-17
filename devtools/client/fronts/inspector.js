@@ -886,7 +886,7 @@ target
 await
 watcherFront
 .
-getBrowsingContextTarget
+getWindowGlobalTarget
 (
 browsingContextId
 )

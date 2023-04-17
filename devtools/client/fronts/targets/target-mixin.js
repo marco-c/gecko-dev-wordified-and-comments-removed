@@ -607,7 +607,7 @@ frame
 return
 watcherFront
 .
-getParentBrowsingContextTarget
+getParentWindowGlobalTarget
 (
 this
 .
@@ -643,7 +643,7 @@ null
 ;
 }
 async
-getBrowsingContextTarget
+getWindowGlobalTarget
 (
 browsingContextID
 )
@@ -675,7 +675,7 @@ frame
 return
 watcherFront
 .
-getBrowsingContextTarget
+getWindowGlobalTarget
 (
 browsingContextID
 )
@@ -692,7 +692,7 @@ Error
 Unable
 to
 call
-getBrowsingContextTarget
+getWindowGlobalTarget
 for
 {
 this
@@ -1094,6 +1094,7 @@ isBrowsingContext
 )
 {
 return
+(
 this
 .
 typeName
@@ -1101,8 +1102,19 @@ typeName
 =
 =
 "
+windowGlobalTarget
+"
+|
+|
+this
+.
+typeName
+=
+=
+"
 browsingContextTarget
 "
+)
 ;
 }
 get

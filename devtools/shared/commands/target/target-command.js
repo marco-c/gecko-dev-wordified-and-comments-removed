@@ -1767,6 +1767,14 @@ typeName
 =
 =
 "
+windowGlobalTarget
+"
+|
+|
+typeName
+=
+=
+"
 browsingContextTarget
 "
 )

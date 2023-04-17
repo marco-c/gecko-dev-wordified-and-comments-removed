@@ -247,7 +247,7 @@ id
 ;
 this
 .
-_browsingContextTargetActor
+_windowGlobalTargetActor
 =
 null
 ;
@@ -282,13 +282,13 @@ if
 (
 this
 .
-_browsingContextTargetActor
+_windowGlobalTargetActor
 )
 {
 return
 this
 .
-_browsingContextTargetActor
+_windowGlobalTargetActor
 .
 docShell
 .
@@ -385,7 +385,7 @@ true
 ;
 this
 .
-_browsingContextTargetActor
+_windowGlobalTargetActor
 =
 targetActor
 ;
@@ -711,7 +711,7 @@ descriptors
 }
 this
 .
-_browsingContextTargetActor
+_windowGlobalTargetActor
 .
 browsingContext
 .
@@ -750,7 +750,7 @@ destroyed
 ;
 this
 .
-_browsingContextTargetActor
+_windowGlobalTargetActor
 =
 null
 ;

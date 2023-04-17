@@ -46,8 +46,8 @@ server
 const
 {
 getChildDocShells
-BrowsingContextTargetActor
-browsingContextTargetPrototype
+WindowGlobalTargetActor
+windowGlobalTargetPrototype
 }
 =
 require
@@ -61,9 +61,9 @@ actors
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 )
 ;
@@ -172,7 +172,7 @@ extend
 (
 {
 }
-browsingContextTargetPrototype
+windowGlobalTargetPrototype
 )
 ;
 parentProcessTargetPrototype
@@ -241,7 +241,7 @@ appShell
 hiddenDOMWindow
 ;
 }
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 .
@@ -373,7 +373,7 @@ topic
 data
 )
 {
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 .
@@ -473,7 +473,7 @@ return
 false
 ;
 }
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 .
@@ -652,7 +652,7 @@ docShell
 ;
 }
 return
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 .

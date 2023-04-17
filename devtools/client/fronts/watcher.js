@@ -44,7 +44,7 @@ lazyRequireGetter
 (
 this
 "
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 "
 "
 devtools
@@ -55,9 +55,9 @@ fronts
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 true
 )
@@ -281,7 +281,7 @@ else
 front
 =
 new
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 (
 this
 .
@@ -402,7 +402,7 @@ front
 ;
 }
 async
-getParentBrowsingContextTarget
+getParentWindowGlobalTarget
 (
 browsingContextID
 )
@@ -431,7 +431,7 @@ null
 return
 this
 .
-getBrowsingContextTarget
+getWindowGlobalTarget
 (
 id
 )
@@ -531,7 +531,7 @@ _threadConfigurationActor
 ;
 }
 async
-getBrowsingContextTarget
+getWindowGlobalTarget
 (
 id
 )
@@ -616,7 +616,7 @@ id
 return
 this
 .
-getBrowsingContextTarget
+getWindowGlobalTarget
 (
 parentBrowsingContextID
 )

@@ -23,7 +23,7 @@ thread
 ;
 const
 {
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 }
 =
 require
@@ -37,9 +37,9 @@ fronts
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 )
 ;
@@ -143,7 +143,7 @@ ok
 (
 targetFront
 instanceof
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 "
 TargetFront
 is

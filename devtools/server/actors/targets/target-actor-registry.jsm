@@ -13,7 +13,7 @@ TargetActorRegistry
 ]
 ;
 const
-browsingContextTargetActors
+windowGlobalTargetActors
 =
 new
 Set
@@ -34,7 +34,7 @@ registerTargetActor
 targetActor
 )
 {
-browsingContextTargetActors
+windowGlobalTargetActors
 .
 add
 (
@@ -47,7 +47,7 @@ unregisterTargetActor
 targetActor
 )
 {
-browsingContextTargetActors
+windowGlobalTargetActors
 .
 delete
 (
@@ -114,7 +114,7 @@ for
 const
 actor
 of
-browsingContextTargetActors
+windowGlobalTargetActors
 )
 {
 if
@@ -187,7 +187,7 @@ for
 const
 actor
 of
-browsingContextTargetActors
+windowGlobalTargetActors
 )
 {
 if

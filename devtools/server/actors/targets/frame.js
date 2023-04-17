@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-browsingContextTargetPrototype
+windowGlobalTargetPrototype
 }
 =
 require
@@ -19,9 +19,9 @@ actors
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 )
 ;
@@ -108,7 +108,7 @@ extend
 (
 {
 }
-browsingContextTargetPrototype
+windowGlobalTargetPrototype
 )
 ;
 Object

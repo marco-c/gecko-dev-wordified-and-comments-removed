@@ -240,7 +240,7 @@ pool
 ;
 const
 {
-browsingContextTargetSpec
+windowGlobalTargetSpec
 }
 =
 require
@@ -254,9 +254,9 @@ specs
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 )
 ;
@@ -533,7 +533,7 @@ innerWindowId
 ;
 }
 const
-browsingContextTargetPrototype
+windowGlobalTargetPrototype
 =
 {
 initialize
@@ -581,7 +581,7 @@ as
 constructor
 argument
 of
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 "
 )
 ;
@@ -3455,7 +3455,7 @@ goForward
 ;
 }
 "
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 .
@@ -3514,7 +3514,7 @@ goBack
 ;
 }
 "
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 .
@@ -3598,7 +3598,7 @@ LOAD_FLAGS_NONE
 ;
 }
 "
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 .
@@ -3648,7 +3648,7 @@ url
 ;
 }
 "
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 .
@@ -5089,13 +5089,13 @@ name
 ;
 exports
 .
-browsingContextTargetPrototype
+windowGlobalTargetPrototype
 =
-browsingContextTargetPrototype
+windowGlobalTargetPrototype
 ;
 exports
 .
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 =
 TargetActorMixin
 (
@@ -5104,8 +5104,8 @@ Targets
 TYPES
 .
 FRAME
-browsingContextTargetSpec
-browsingContextTargetPrototype
+windowGlobalTargetSpec
+windowGlobalTargetPrototype
 )
 ;
 function

@@ -31,9 +31,9 @@ actors
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 )
 ;

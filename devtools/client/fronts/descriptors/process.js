@@ -25,7 +25,7 @@ process
 ;
 const
 {
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 }
 =
 require
@@ -39,9 +39,9 @@ fronts
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 )
 ;
@@ -212,7 +212,7 @@ parentProcessTarget
 front
 =
 new
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 (
 this
 .

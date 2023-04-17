@@ -531,7 +531,7 @@ Extends
 the
 abstract
 class
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 |
 Returned
@@ -668,7 +668,7 @@ Extends
 the
 abstract
 class
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 |
 Extended
@@ -930,7 +930,7 @@ target
 actors
 inherit
 from
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 (
 defined
 in
@@ -1003,7 +1003,7 @@ debugger
 Actors
 inheriting
 from
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 expose
 attach
 /
@@ -1154,7 +1154,7 @@ the
 actors
 inheriting
 from
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 expose
 many
 other
@@ -1276,7 +1276,7 @@ document
 itself
 .
 See
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 documentation
 for
 more

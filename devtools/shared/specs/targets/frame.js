@@ -37,7 +37,7 @@ extend
 ;
 const
 {
-browsingContextTargetSpecPrototype
+windowGlobalTargetSpecPrototype
 }
 =
 require
@@ -51,9 +51,9 @@ specs
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 )
 ;
@@ -64,7 +64,7 @@ generateActorSpec
 (
 extend
 (
-browsingContextTargetSpecPrototype
+windowGlobalTargetSpecPrototype
 {
 typeName
 :

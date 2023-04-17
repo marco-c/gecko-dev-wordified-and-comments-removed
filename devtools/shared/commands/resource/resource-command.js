@@ -2546,7 +2546,7 @@ this
 .
 watcherFront
 .
-getBrowsingContextTarget
+getWindowGlobalTarget
 (
 browsingContextID
 )
