@@ -80,9 +80,6 @@ FontType
 FREETYPE
 ;
 }
-#
-ifdef
-USE_SKIA
 SkTypeface
 *
 CreateSkTypeface
@@ -99,8 +96,6 @@ aFont
 )
 override
 ;
-#
-endif
 AntialiasMode
 GetDefaultAAMode
 (
@@ -182,9 +177,6 @@ override
 ;
 protected
 :
-#
-ifdef
-USE_CAIRO_SCALED_FONT
 cairo_font_face_t
 *
 CreateCairoFontFace
@@ -195,8 +187,6 @@ aFontOptions
 )
 override
 ;
-#
-endif
 private
 :
 friend

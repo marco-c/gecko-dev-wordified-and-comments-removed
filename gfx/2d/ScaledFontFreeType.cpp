@@ -47,9 +47,6 @@ WebRenderTypes
 h
 "
 #
-ifdef
-USE_SKIA
-#
 include
 "
 skia
@@ -62,8 +59,6 @@ SkTypeface_cairo
 .
 h
 "
-#
-endif
 #
 include
 FT_MULTIPLE_MASTERS_H
@@ -152,9 +147,6 @@ GetFace
 )
 ;
 }
-#
-ifdef
-USE_SKIA
 SkTypeface
 *
 ScaledFontFreeType
@@ -222,11 +214,6 @@ true
 )
 ;
 }
-#
-endif
-#
-ifdef
-USE_CAIRO_SCALED_FONT
 cairo_font_face_t
 *
 ScaledFontFreeType
@@ -310,8 +297,6 @@ get
 )
 ;
 }
-#
-endif
 bool
 ScaledFontFreeType
 :

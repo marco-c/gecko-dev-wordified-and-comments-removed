@@ -6,9 +6,6 @@ Scale
 h
 "
 #
-ifdef
-USE_SKIA
-#
 include
 "
 HelpersSkia
@@ -28,8 +25,6 @@ SkBitmapScaler
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -61,9 +56,6 @@ SurfaceFormat
 format
 )
 {
-#
-ifdef
-USE_SKIA
 SkPixmap
 srcPixmap
 (
@@ -166,13 +158,6 @@ SkBitmapScaler
 RESIZE_LANCZOS3
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 }
 }

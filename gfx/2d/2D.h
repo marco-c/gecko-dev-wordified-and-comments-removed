@@ -5757,9 +5757,6 @@ mBGRSubpixelOrder
 ;
 public
 :
-#
-ifdef
-USE_SKIA
 static
 already_AddRefed
 <
@@ -5772,8 +5769,6 @@ SkCanvas
 aCanvas
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_ENABLE_FREETYPE

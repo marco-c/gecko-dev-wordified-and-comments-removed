@@ -313,9 +313,6 @@ DWRITE_FONT_SIMULATIONS_BOLD
 0
 ;
 }
-#
-ifdef
-USE_SKIA
 SkTypeface
 *
 CreateSkTypeface
@@ -335,8 +332,6 @@ override
 SkFontStyle
 mStyle
 ;
-#
-endif
 RefPtr
 <
 IDWriteFontFace
@@ -364,9 +359,6 @@ mContrast
 Float
 mClearTypeLevel
 ;
-#
-ifdef
-USE_CAIRO_SCALED_FONT
 cairo_font_face_t
 *
 CreateCairoFontFace
@@ -386,8 +378,6 @@ aFont
 )
 override
 ;
-#
-endif
 private
 :
 friend
