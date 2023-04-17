@@ -734,6 +734,8 @@ PrintingSelection
 "
 )
 ;
+try
+{
 hasSelection
 =
 await
@@ -748,6 +750,13 @@ HasSelection
 "
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 }
 let
 sourceBrowser

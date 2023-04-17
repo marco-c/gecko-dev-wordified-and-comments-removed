@@ -101,6 +101,9 @@ getSelection
 ;
 return
 selection
+&
+&
+selection
 .
 type
 =
