@@ -77,9 +77,6 @@ ClientHandle
 class
 ClientInfoAndState
 ;
-struct
-PostMessageOptions
-;
 class
 Promise
 ;
@@ -90,6 +87,9 @@ t
 >
 class
 Sequence
+;
+struct
+StructuredSerializeOptions
 ;
 class
 Client
@@ -305,7 +305,7 @@ Value
 >
 aMessage
 const
-PostMessageOptions
+StructuredSerializeOptions
 &
 aOptions
 ErrorResult

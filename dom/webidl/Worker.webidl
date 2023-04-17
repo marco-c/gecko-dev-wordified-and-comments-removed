@@ -212,7 +212,7 @@ postMessage
 any
 message
 optional
-PostMessageOptions
+StructuredSerializeOptions
 aOptions
 =
 {

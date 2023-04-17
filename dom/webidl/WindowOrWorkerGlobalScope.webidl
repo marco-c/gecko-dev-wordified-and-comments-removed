@@ -468,7 +468,7 @@ structuredClone
 any
 value
 optional
-PostMessageOptions
+StructuredSerializeOptions
 options
 =
 {
