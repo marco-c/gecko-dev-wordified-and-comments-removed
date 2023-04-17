@@ -1128,6 +1128,10 @@ mInitialized
 =
 true
 ;
+MesaMemoryLeakWorkaround
+(
+)
+;
 return
 true
 ;
