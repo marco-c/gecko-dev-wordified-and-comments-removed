@@ -257,9 +257,10 @@ dom
 :
 HTMLFormElement
 *
-GetFormElement
+GetForm
 (
 )
+const
 =
 0
 ;

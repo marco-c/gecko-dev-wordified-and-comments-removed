@@ -1447,7 +1447,7 @@ if
 fc
 -
 >
-GetFormElement
+GetForm
 (
 )
 !
