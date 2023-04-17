@@ -66,6 +66,15 @@ nsTArray
 .
 h
 "
+#
+include
+"
+js
+/
+PropertyAndElement
+.
+h
+"
 using
 namespace
 mozilla

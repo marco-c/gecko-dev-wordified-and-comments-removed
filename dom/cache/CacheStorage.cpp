@@ -335,6 +335,15 @@ Object
 .
 h
 "
+#
+include
+"
+js
+/
+PropertyAndElement
+.
+h
+"
 namespace
 mozilla
 :

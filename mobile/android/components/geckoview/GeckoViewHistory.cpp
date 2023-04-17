@@ -31,6 +31,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h

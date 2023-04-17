@@ -79,6 +79,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

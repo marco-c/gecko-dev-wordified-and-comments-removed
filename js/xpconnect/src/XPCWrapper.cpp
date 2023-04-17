@@ -26,6 +26,15 @@ AccessCheck
 .
 h
 "
+#
+include
+"
+js
+/
+PropertyAndElement
+.
+h
+"
 using
 namespace
 xpc

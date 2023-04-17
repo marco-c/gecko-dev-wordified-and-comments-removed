@@ -46,6 +46,15 @@ xpcprivate
 .
 h
 "
+#
+include
+"
+js
+/
+PropertyAndElement
+.
+h
+"
 using
 mozilla
 :

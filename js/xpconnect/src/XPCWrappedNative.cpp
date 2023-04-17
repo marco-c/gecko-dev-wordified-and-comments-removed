@@ -69,6 +69,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h

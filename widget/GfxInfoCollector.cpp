@@ -15,6 +15,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

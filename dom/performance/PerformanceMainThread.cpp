@@ -22,6 +22,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 js
 /
 GCAPI
@@ -31,7 +38,9 @@ h
 #
 include
 "
-jsapi
+js
+/
+PropertyAndElement
 .
 h
 "

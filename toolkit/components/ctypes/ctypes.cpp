@@ -35,6 +35,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 nsMemory
 .
 h

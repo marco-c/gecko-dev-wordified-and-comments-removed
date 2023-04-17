@@ -38,6 +38,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

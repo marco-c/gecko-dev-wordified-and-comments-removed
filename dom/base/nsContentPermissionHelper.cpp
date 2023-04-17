@@ -221,6 +221,15 @@ nsIWeakReferenceUtils
 .
 h
 "
+#
+include
+"
+js
+/
+PropertyAndElement
+.
+h
+"
 using
 mozilla
 :

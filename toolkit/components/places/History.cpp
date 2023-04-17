@@ -259,6 +259,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_layout

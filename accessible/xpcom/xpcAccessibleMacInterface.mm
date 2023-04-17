@@ -68,6 +68,15 @@ nsString
 h
 "
 #
+include
+"
+js
+/
+PropertyAndElement
+.
+h
+"
+#
 import
 "
 mozAccessible

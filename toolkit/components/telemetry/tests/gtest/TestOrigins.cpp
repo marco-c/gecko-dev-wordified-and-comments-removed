@@ -91,6 +91,15 @@ TelemetryTestHelpers
 .
 h
 "
+#
+include
+"
+js
+/
+PropertyAndElement
+.
+h
+"
 using
 namespace
 mozilla

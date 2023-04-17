@@ -121,6 +121,15 @@ h
 "
 #
 include
+"
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
 <
 mozIRemoteLazyInputStream
 .

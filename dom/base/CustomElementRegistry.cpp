@@ -203,6 +203,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h

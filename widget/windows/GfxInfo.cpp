@@ -36,6 +36,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 nsExceptionHandler
 .
 h

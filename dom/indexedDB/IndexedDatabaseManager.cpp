@@ -49,6 +49,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ClearOnShutdown

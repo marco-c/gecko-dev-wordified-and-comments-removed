@@ -67,6 +67,15 @@ include
 "
 js
 /
+PropertyAndElement
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h

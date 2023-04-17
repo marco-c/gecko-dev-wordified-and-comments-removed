@@ -247,6 +247,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 BindingUtils
 .
 h

@@ -45,6 +45,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

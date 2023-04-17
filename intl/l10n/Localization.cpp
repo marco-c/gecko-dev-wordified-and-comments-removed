@@ -63,6 +63,15 @@ Services
 h
 "
 #
+include
+"
+js
+/
+PropertyAndElement
+.
+h
+"
+#
 define
 INTL_APP_LOCALES_CHANGED
 "

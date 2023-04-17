@@ -75,6 +75,15 @@ h
 #
 include
 "
+js
+/
+PropertyAndElement
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
