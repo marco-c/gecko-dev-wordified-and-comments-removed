@@ -37,6 +37,9 @@ ErrorResult
 namespace
 extensions
 {
+class
+ExtensionMockAPI
+;
 bool
 ExtensionAPIAllowed
 (
@@ -62,6 +65,12 @@ nsCOMPtr
 nsIGlobalObject
 >
 mGlobal
+;
+RefPtr
+<
+ExtensionMockAPI
+>
+mExtensionMockAPI
 ;
 ~
 ExtensionBrowser
@@ -105,6 +114,12 @@ GetParentObject
 (
 )
 const
+;
+ExtensionMockAPI
+*
+GetExtensionMockAPI
+(
+)
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS

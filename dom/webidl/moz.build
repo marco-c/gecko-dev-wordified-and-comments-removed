@@ -6053,6 +6053,16 @@ ExtensionPort
 webidl
 "
 ]
+WEBIDL_FILES
++
+=
+[
+"
+ExtensionMockAPI
+.
+webidl
+"
+]
 if
 CONFIG
 [
