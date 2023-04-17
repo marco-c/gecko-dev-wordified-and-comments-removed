@@ -42,12 +42,6 @@ base
 import
 BuildEnvironmentNotFoundException
 MachCommandBase
-from
-mozbuild
-.
-util
-import
-memoize
 CONFIG_ENVIRONMENT_NOT_FOUND
 =
 "
@@ -327,11 +321,31 @@ MachCommandBase
 :
     
 def
-init
+__init__
 (
 self
+*
+args
+*
+*
+kwargs
 )
 :
+        
+super
+(
+TrySelect
+self
+)
+.
+__init__
+(
+*
+args
+*
+*
+kwargs
+)
         
 from
 tryselect
@@ -357,8 +371,36 @@ try
 maxhistory
 "
 ]
-    
-memoize
+        
+self
+.
+subcommand
+=
+self
+.
+_mach_context
+.
+handler
+.
+subcommand
+        
+self
+.
+parser
+=
+self
+.
+_mach_context
+.
+handler
+.
+parser
+        
+self
+.
+_presets
+=
+None
     
 def
 presets
@@ -366,6 +408,17 @@ presets
 self
 )
 :
+        
+if
+self
+.
+_presets
+:
+            
+return
+self
+.
+_presets
         
 from
 tryselect
@@ -452,12 +505,20 @@ yml
             
 ]
         
-return
+self
+.
+_presets
+=
 MergedHandler
 (
 *
 preset_paths
 )
+        
+return
+self
+.
+_presets
     
 def
 handle_presets
@@ -590,32 +651,14 @@ exit
 (
 )
         
-parser
-=
-self
-.
-_mach_context
-.
-handler
-.
-parser
-        
-subcommand
-=
-self
-.
-_mach_context
-.
-handler
-.
-subcommand
-        
 if
 "
 preset
 "
 not
 in
+self
+.
 parser
 .
 common_groups
@@ -626,6 +669,8 @@ kwargs
         
 default
 =
+self
+.
 parser
 .
 get_default
@@ -636,6 +681,8 @@ save
             
 selector
 =
+self
+.
 subcommand
 or
 self
@@ -737,13 +784,10 @@ presets
                 
 self
 .
-_mach_context
-.
 parser
 .
 error
 (
-                    
 "
 preset
 '
@@ -759,7 +803,6 @@ format
 (
 preset
 )
-                
 )
             
 name
@@ -800,14 +843,20 @@ None
             
 if
 not
+self
+.
 subcommand
 :
                 
+self
+.
 subcommand
 =
 selector
             
 elif
+self
+.
 subcommand
 !
 =
@@ -971,10 +1020,6 @@ itervalues
 (
 self
 .
-_mach_context
-.
-handler
-.
 parser
 .
 task_configs
@@ -1080,10 +1125,6 @@ kwargs
 if
 self
 .
-_mach_context
-.
-handler
-.
 parser
 .
 task_configs
@@ -1106,7 +1147,6 @@ importlib
 .
 import_module
 (
-            
 "
 tryselect
 .
@@ -1120,13 +1160,8 @@ format
 (
 self
 .
-_mach_context
-.
-handler
-.
 subcommand
 )
-        
 )
         
 return
@@ -1278,22 +1313,6 @@ selector
 "
 "
         
-self
-.
-init
-(
-)
-        
-subcommand
-=
-self
-.
-_mach_context
-.
-handler
-.
-subcommand
-        
 preset
 =
 kwargs
@@ -1320,15 +1339,10 @@ presets
                 
 self
 .
-_mach_context
-.
-handler
-.
 parser
 .
 error
 (
-                    
 "
 preset
 '
@@ -1344,9 +1358,10 @@ format
 (
 preset
 )
-                
 )
             
+self
+.
 subcommand
 =
 self
@@ -1365,6 +1380,8 @@ selector
         
 sub
 =
+self
+.
 subcommand
 or
 self
@@ -2121,12 +2138,6 @@ html
 "
 "
         
-self
-.
-init
-(
-)
-        
 if
 kwargs
 .
@@ -2416,12 +2427,6 @@ try
         
 self
 .
-init
-(
-)
-        
-self
-.
 activate_virtualenv
 (
 )
@@ -2547,12 +2552,6 @@ kwargs
 )
 :
         
-self
-.
-init
-(
-)
-        
 return
 self
 .
@@ -2614,12 +2613,6 @@ command_context
 kwargs
 )
 :
-        
-self
-.
-init
-(
-)
         
 return
 self
@@ -2750,12 +2743,6 @@ menu
 "
 "
 "
-        
-self
-.
-init
-(
-)
         
 return
 self
@@ -3130,12 +3117,6 @@ setup
 "
 "
         
-self
-.
-init
-(
-)
-        
 try
 :
             
@@ -3289,12 +3270,6 @@ data
 "
 "
         
-self
-.
-init
-(
-)
-        
 return
 self
 .
@@ -3374,12 +3349,6 @@ release
 "
 "
         
-self
-.
-init
-(
-)
-        
 return
 self
 .
@@ -3458,12 +3427,6 @@ access
 "
 "
 "
-        
-self
-.
-init
-(
-)
         
 return
 self
