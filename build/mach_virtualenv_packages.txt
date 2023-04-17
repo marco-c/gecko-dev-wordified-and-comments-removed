@@ -130,7 +130,14 @@ pypi
 optional
 :
 zstandard
+>
 =
+0
+.
+11
+.
+1
+<
 =
 0
 .
