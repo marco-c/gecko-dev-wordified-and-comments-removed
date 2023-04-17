@@ -794,7 +794,7 @@ _toolbox
 ;
 }
 get
-isReady
+isPanelReady
 (
 )
 {

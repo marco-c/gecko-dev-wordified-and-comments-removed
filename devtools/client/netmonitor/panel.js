@@ -101,7 +101,7 @@ ready
 ;
 this
 .
-isReady
+isPanelReady
 =
 true
 ;

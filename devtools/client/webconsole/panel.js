@@ -368,7 +368,7 @@ _isReady
 :
 false
 get
-isReady
+isPanelReady
 (
 )
 {

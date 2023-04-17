@@ -186,7 +186,7 @@ onGetProperties
 ;
 this
 .
-isReady
+isPanelReady
 =
 true
 ;

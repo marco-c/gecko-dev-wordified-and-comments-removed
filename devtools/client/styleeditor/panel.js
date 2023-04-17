@@ -261,7 +261,7 @@ initialize
 ;
 this
 .
-isReady
+isPanelReady
 =
 true
 ;
