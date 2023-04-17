@@ -2547,6 +2547,8 @@ get_distro_and_version
 get_psutil_stats
         
 get_shell_info
+        
+get_vscode_running
     
 )
     
@@ -2655,6 +2657,17 @@ ssh_connection
 set
 (
 ssh_connection
+)
+    
+system_metrics
+.
+vscode_running
+.
+set
+(
+get_vscode_running
+(
+)
 )
     
 has_psutil
