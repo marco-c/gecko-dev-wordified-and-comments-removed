@@ -212,6 +212,11 @@ jemalloc_bin_stats_t
 )
 MALLOC_DECL
 (
+jemalloc_stats_num_bins
+size_t
+)
+MALLOC_DECL
+(
 jemalloc_purge_freed_pages
 void
 )

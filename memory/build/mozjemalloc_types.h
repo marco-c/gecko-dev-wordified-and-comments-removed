@@ -200,10 +200,6 @@ bytes_per_run
 }
 jemalloc_bin_stats_t
 ;
-#
-define
-JEMALLOC_MAX_STATS_BINS
-51
 enum
 PtrInfoTag
 {
