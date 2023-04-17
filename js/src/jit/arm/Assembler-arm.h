@@ -8202,7 +8202,7 @@ HasARMv7
 }
 static
 bool
-SupportsFastUnalignedAccesses
+SupportsFastUnalignedFPAccesses
 (
 )
 {
