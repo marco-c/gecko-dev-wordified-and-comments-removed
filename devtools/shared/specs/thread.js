@@ -252,10 +252,6 @@ resumed
 :
 {
 }
-willInterrupt
-:
-{
-}
 newSource
 :
 {

@@ -6425,15 +6425,6 @@ onEnterFrame
 =
 onEnterFrame
 ;
-this
-.
-emit
-(
-"
-willInterrupt
-"
-)
-;
 return
 {
 }
