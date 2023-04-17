@@ -1225,6 +1225,16 @@ const
 0
 ;
 virtual
+nsPresContext
+*
+GetPresContext
+(
+)
+const
+=
+0
+;
+virtual
 bool
 IsFontLoadAllowed
 (
