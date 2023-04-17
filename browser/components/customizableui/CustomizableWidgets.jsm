@@ -2720,6 +2720,8 @@ null
 menuitem
 -
 screenshot
+-
+extension
 "
 )
 ;
