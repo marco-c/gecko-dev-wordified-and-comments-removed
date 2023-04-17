@@ -26,6 +26,12 @@ use
 api
 :
 :
+MAX_RENDER_TASK_SIZE
+;
+use
+api
+:
+:
 units
 :
 :
@@ -233,14 +239,6 @@ FLOATS_PER_RENDER_TASK_INFO
 usize
 =
 8
-;
-pub
-const
-MAX_RENDER_TASK_SIZE
-:
-i32
-=
-16384
 ;
 pub
 const

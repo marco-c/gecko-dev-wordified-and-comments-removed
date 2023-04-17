@@ -325,6 +325,14 @@ peek_poke
 PeekPoke
 ;
 pub
+const
+MAX_RENDER_TASK_SIZE
+:
+i32
+=
+16384
+;
+pub
 type
 TileSize
 =
