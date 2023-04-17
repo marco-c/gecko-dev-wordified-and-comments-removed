@@ -139,11 +139,6 @@ CurrentTimeScrubber
 js
 "
 "
-IndicationBar
-.
-js
-"
-"
 KeyframesProgressBar
 .
 js
