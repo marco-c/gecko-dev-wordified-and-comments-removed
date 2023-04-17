@@ -965,6 +965,9 @@ trc
 void
 sweepAfterMinorGC
 (
+JSTracer
+*
+trc
 )
 ;
 void
@@ -1833,6 +1836,9 @@ finishRoots
 void
 sweepAfterMinorGC
 (
+JSTracer
+*
+trc
 )
 ;
 void

@@ -520,8 +520,9 @@ T
 >
 :
 :
-sweep
+traceWeak
 (
+trc
 &
 cache
 )
