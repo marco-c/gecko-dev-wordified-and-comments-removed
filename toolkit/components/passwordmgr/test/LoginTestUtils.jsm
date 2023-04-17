@@ -1911,6 +1911,7 @@ omgsecret
 _set
 (
 enable
+stayLoggedIn
 )
 {
 let
@@ -2054,12 +2055,19 @@ oldPW
 newPW
 )
 ;
+if
+(
+!
+stayLoggedIn
+)
+{
 token
 .
 logoutSimple
 (
 )
 ;
+}
 }
 }
 catch
@@ -2093,6 +2101,9 @@ password
 }
 enable
 (
+stayLoggedIn
+=
+false
 )
 {
 this
@@ -2100,6 +2111,7 @@ this
 _set
 (
 true
+stayLoggedIn
 )
 ;
 }
