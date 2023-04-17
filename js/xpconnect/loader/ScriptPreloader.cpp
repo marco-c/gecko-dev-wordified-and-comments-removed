@@ -5398,6 +5398,12 @@ FillCompileOptionsForCachedStencil
 options
 )
 ;
+options
+.
+usePinnedBytecode
+=
+true
+;
 if
 (
 !
