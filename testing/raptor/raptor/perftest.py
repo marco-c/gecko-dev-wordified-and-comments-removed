@@ -359,6 +359,10 @@ results_handler_class
 =
 RaptorResultsHandler
         
+no_conditioned_profile
+=
+False
+        
 device_name
 =
 None
@@ -367,9 +371,11 @@ disable_perf_tuning
 =
 False
         
-conditioned_profile
+conditioned_profile_scenario
 =
-None
+"
+settled
+"
         
 chimera
 =
@@ -570,6 +576,12 @@ enable_webrender
 enable_webrender
             
 "
+no_conditioned_profile
+"
+:
+no_conditioned_profile
+            
+"
 device_name
 "
 :
@@ -598,10 +610,10 @@ disable_perf_tuning
 disable_perf_tuning
             
 "
-conditioned_profile
+conditioned_profile_scenario
 "
 :
-conditioned_profile
+conditioned_profile_scenario
             
 "
 chimera
@@ -641,9 +653,14 @@ firefox_android_apps
 =
 FIREFOX_ANDROID_APPS
         
-if
+self
+.
+using_condprof
+=
+not
 (
             
+(
 self
 .
 config
@@ -671,8 +688,8 @@ processor
 "
 aarch64
 "
-        
 )
+            
 or
 self
 .
@@ -695,28 +712,23 @@ browser
 .
 raptor
 "
-:
             
+or
 self
 .
 config
 [
 "
-conditioned_profile
+no_conditioned_profile
 "
 ]
-=
-None
+        
+)
         
 if
 self
 .
-config
-[
-"
-conditioned_profile
-"
-]
+using_condprof
 :
             
 LOG
@@ -747,6 +759,19 @@ profile
 .
 "
 )
+        
+self
+.
+config
+[
+"
+using_condprof
+"
+]
+=
+self
+.
+using_condprof
         
 if
 self
@@ -957,14 +982,7 @@ False
 if
 self
 .
-config
-.
-get
-(
-"
-conditioned_profile
-"
-)
+using_condprof
 and
 not
 self
@@ -1486,7 +1504,10 @@ config
 get
 (
 "
-conditioned_profile
+conditioned_profile_scenario
+"
+"
+settled
 "
 )
         
@@ -1667,8 +1688,11 @@ self
 :
         
 if
-(
-            
+not
+self
+.
+using_condprof
+or
 self
 .
 config
@@ -1679,34 +1703,22 @@ app
 ]
 in
 [
+            
 "
 chrome
 "
+            
 "
 chromium
 "
+            
 "
 chrome
 -
 m
 "
-]
-            
-or
-self
-.
-config
-.
-get
-(
-"
-conditioned_profile
-"
-)
-is
-None
         
-)
+]
 :
             
 self

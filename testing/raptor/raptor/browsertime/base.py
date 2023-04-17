@@ -1818,14 +1818,7 @@ false
 if
 self
 .
-config
-.
-get
-(
-"
-conditioned_profile
-"
-)
+using_condprof
 :
             
 self

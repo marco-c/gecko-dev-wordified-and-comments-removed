@@ -761,17 +761,23 @@ args
 .
 device_name
             
+no_conditioned_profile
+=
+args
+.
+no_conditioned_profile
+            
 disable_perf_tuning
 =
 args
 .
 disable_perf_tuning
             
-conditioned_profile
+conditioned_profile_scenario
 =
 args
 .
-conditioned_profile
+conditioned_profile_scenario
             
 chimera
 =

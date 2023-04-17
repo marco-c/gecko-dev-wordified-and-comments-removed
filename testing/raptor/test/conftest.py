@@ -109,6 +109,12 @@ browser
 "
         
 "
+no_conditioned_profile
+"
+:
+True
+        
+"
 browsertime_visualmetrics
 "
 :

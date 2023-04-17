@@ -94,6 +94,10 @@ geckoview_example
 cpu_test
 =
 True
+        
+no_conditioned_profile
+=
+True
     
 )
     
