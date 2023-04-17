@@ -540,14 +540,6 @@ ScaledFontFreeType
 cpp
 "
 ]
-if
-CONFIG
-[
-"
-MOZ_ENABLE_SKIA
-"
-]
-:
 SOURCES
 +
 =

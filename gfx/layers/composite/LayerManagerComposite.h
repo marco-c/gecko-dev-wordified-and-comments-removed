@@ -1976,9 +1976,6 @@ NativeLayer
 >
 mDisabledApzWarningLayer
 ;
-#
-ifdef
-USE_SKIA
 void
 DrawPaintTimes
 (
@@ -1993,8 +1990,6 @@ PaintCounter
 >
 mPaintCounter
 ;
-#
-endif
 #
 if
 defined

@@ -3920,14 +3920,6 @@ maybe
 uninitialized
 "
 ]
-if
-CONFIG
-[
-"
-MOZ_ENABLE_SKIA
-"
-]
-:
 UNIFIED_SOURCES
 +
 =
