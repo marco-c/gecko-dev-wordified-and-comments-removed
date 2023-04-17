@@ -13562,6 +13562,10 @@ MakeScopeExit
 &
 ]
 {
+CancelSyncTimeoutTimer
+(
+)
+;
 UnsuppressEventHandlingAndResume
 (
 )
@@ -13631,10 +13635,6 @@ mFlagSyncLooping
 )
 )
 {
-CancelSyncTimeoutTimer
-(
-)
-;
 aRv
 .
 Throw
@@ -13657,10 +13657,6 @@ eTimerStarted
 mSyncTimeoutTimer
 )
 {
-CancelSyncTimeoutTimer
-(
-)
-;
 aRv
 .
 Throw
