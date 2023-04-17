@@ -51,6 +51,10 @@ rule_parser
 mod
 rules_iterator
 ;
+pub
+mod
+scroll_timeline_rule
+;
 mod
 style_rule
 ;

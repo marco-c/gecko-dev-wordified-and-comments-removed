@@ -2557,7 +2557,7 @@ ToShmem
 ]
 pub
 enum
-KeyframesName
+TimelineOrKeyframesName
 {
 Ident
 (
@@ -2569,7 +2569,7 @@ Atom
 )
 }
 impl
-KeyframesName
+TimelineOrKeyframesName
 {
 pub
 fn
@@ -2633,7 +2633,7 @@ ident
 )
 =
 >
-KeyframesName
+Self
 :
 :
 Ident
@@ -2643,7 +2643,7 @@ ident
 None
 =
 >
-KeyframesName
+Self
 :
 :
 QuotedString
@@ -2691,7 +2691,7 @@ atom
 )
 )
 ;
-KeyframesName
+Self
 :
 :
 Ident
@@ -2718,7 +2718,7 @@ match
 *
 self
 {
-KeyframesName
+Self
 :
 :
 Ident
@@ -2732,7 +2732,7 @@ ident
 ident
 .
 0
-KeyframesName
+Self
 :
 :
 QuotedString
@@ -2749,7 +2749,7 @@ atom
 impl
 Eq
 for
-KeyframesName
+TimelineOrKeyframesName
 {
 }
 pub
@@ -2770,7 +2770,7 @@ bool
 impl
 PartialEq
 for
-KeyframesName
+TimelineOrKeyframesName
 {
 fn
 eq
@@ -2806,7 +2806,7 @@ hash
 :
 Hash
 for
-KeyframesName
+TimelineOrKeyframesName
 {
 fn
 hash
@@ -2845,7 +2845,7 @@ state
 impl
 Parse
 for
-KeyframesName
+TimelineOrKeyframesName
 {
 fn
 parse
@@ -2914,7 +2914,7 @@ s
 >
 Ok
 (
-KeyframesName
+Self
 :
 :
 Ident
@@ -2946,9 +2946,10 @@ s
 )
 =
 >
+{
 Ok
 (
-KeyframesName
+Self
 :
 :
 QuotedString
@@ -2966,6 +2967,7 @@ as_ref
 )
 )
 )
+}
 ref
 t
 =
@@ -2989,7 +2991,7 @@ clone
 impl
 ToCss
 for
-KeyframesName
+TimelineOrKeyframesName
 {
 fn
 to_css
@@ -3023,7 +3025,7 @@ match
 *
 self
 {
-KeyframesName
+Self
 :
 :
 Ident
@@ -3039,7 +3041,7 @@ to_css
 (
 dest
 )
-KeyframesName
+Self
 :
 :
 QuotedString
@@ -3062,3 +3064,15 @@ dest
 }
 }
 }
+pub
+type
+TimelineName
+=
+TimelineOrKeyframesName
+;
+pub
+type
+KeyframesName
+=
+TimelineOrKeyframesName
+;
