@@ -14149,6 +14149,11 @@ rtStats
 gcHeapGCThings
 )
 ;
+(
+void
+)
+gcThingTotal
+;
 REPORT_BYTES
 (
 "
