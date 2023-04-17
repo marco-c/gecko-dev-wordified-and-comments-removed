@@ -1288,6 +1288,10 @@ bool
 {
 nsCycleCollector_collect
 (
+CCReason
+:
+:
+API
 nullptr
 )
 ;
