@@ -2527,9 +2527,7 @@ fileSize
 =
 (
 await
-OS
-.
-File
+IOUtils
 .
 stat
 (
