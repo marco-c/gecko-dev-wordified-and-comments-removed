@@ -1257,12 +1257,7 @@ return
 promise
 -
 >
-lastProperty
-(
-)
--
->
-isEmptyShape
+empty
 (
 )
 ;

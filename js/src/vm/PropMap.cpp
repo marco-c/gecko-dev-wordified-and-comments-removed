@@ -3856,6 +3856,14 @@ index
 value
 )
 ;
+obj
+-
+>
+freeDictionarySlot
+(
+slot
+)
+;
 if
 (
 table

@@ -4782,7 +4782,7 @@ if
 toPlain
 -
 >
-setLastProperty
+setShapeAndUpdateSlots
 (
 cx
 newShape

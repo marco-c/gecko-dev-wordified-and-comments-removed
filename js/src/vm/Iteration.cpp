@@ -2855,7 +2855,7 @@ RootedShape
 shape
 (
 cx
-EmptyShape
+SharedShape
 :
 :
 getInitialShape

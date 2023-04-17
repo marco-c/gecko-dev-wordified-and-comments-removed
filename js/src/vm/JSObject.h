@@ -301,13 +301,6 @@ class
 js
 :
 :
-DictionaryShapeLink
-;
-friend
-class
-js
-:
-:
 GCMarker
 ;
 friend

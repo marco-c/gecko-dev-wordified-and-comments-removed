@@ -18451,7 +18451,7 @@ RootedShape
 shape
 (
 cx
-EmptyShape
+SharedShape
 :
 :
 getInitialShape
@@ -19255,7 +19255,7 @@ RootedShape
 shape
 (
 cx
-EmptyShape
+SharedShape
 :
 :
 getInitialShape
@@ -19341,10 +19341,10 @@ nullptr
 }
 if
 (
-shape
+arr
 -
 >
-isEmptyShape
+empty
 (
 )
 )
@@ -19372,7 +19372,7 @@ lastProperty
 (
 )
 ;
-EmptyShape
+SharedShape
 :
 :
 insertInitialShape

@@ -46,12 +46,6 @@ HasInterestingSymbol
 <
 <
 3
-HadElementsAccess
-=
-1
-<
-<
-4
 FrozenElements
 =
 1
