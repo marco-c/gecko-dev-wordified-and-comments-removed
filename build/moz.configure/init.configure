@@ -1327,7 +1327,7 @@ imports
 _from
 =
 "
-mozbuild
+mach
 .
 virtualenv
 "
@@ -1342,7 +1342,7 @@ imports
 _from
 =
 "
-mozbuild
+mach
 .
 virtualenv
 "
