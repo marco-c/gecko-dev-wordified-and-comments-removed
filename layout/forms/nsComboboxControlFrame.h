@@ -664,7 +664,10 @@ aCount
 bool
 aFlush
 const
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 *
 pos
 nsIContent

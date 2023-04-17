@@ -11578,18 +11578,6 @@ CocoaPointsToDevPixels
 point
 )
 ;
-gfx
-:
-:
-IntPoint
-pos
-=
-devPoint
-.
-ToUnknownPoint
-(
-)
-;
 consumeEvent
 =
 (
@@ -11603,7 +11591,7 @@ Rollup
 popupsToRollup
 true
 &
-pos
+devPoint
 nullptr
 )
 ;
