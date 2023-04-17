@@ -4193,9 +4193,6 @@ mSendTrack
 GetActive
 (
 )
-&
-&
-mSendTrack
 )
 {
 const
@@ -4450,6 +4447,16 @@ VideoSessionConduit
 aConduit
 )
 {
+if
+(
+!
+mSendTrack
+)
+{
+return
+NS_OK
+;
+}
 RefPtr
 <
 mozilla
