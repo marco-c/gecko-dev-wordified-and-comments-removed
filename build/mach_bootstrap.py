@@ -1522,6 +1522,11 @@ True
 )
     
 if
+major
+=
+=
+3
+and
 sys
 .
 prefix
@@ -1534,19 +1539,22 @@ base_prefix
         
 site_paths
 =
-{
-*
+set
+(
 site
 .
 getsitepackages
 (
 )
++
+[
 site
 .
 getusersitepackages
 (
 )
-}
+]
+)
         
 sys
 .
