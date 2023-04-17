@@ -73,8 +73,6 @@ aName
 nsIRadioVisitor
 *
 aVisitor
-bool
-aFlushContent
 )
 =
 0

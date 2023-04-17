@@ -321,8 +321,6 @@ aName
 nsIRadioVisitor
 *
 aVisitor
-bool
-aFlushContent
 )
 override
 ;

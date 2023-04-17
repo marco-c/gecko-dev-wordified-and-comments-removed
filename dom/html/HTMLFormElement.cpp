@@ -8766,8 +8766,6 @@ aName
 nsIRadioVisitor
 *
 aVisitor
-bool
-aFlushContent
 )
 {
 return
@@ -8778,7 +8776,6 @@ WalkRadioGroup
 (
 aName
 aVisitor
-aFlushContent
 )
 ;
 }
