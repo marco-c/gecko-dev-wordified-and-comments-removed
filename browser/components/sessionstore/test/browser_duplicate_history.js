@@ -123,6 +123,8 @@ TabStateCache
 get
 (
 aBrowser
+.
+permanentKey
 )
 ;
 let
@@ -177,6 +179,8 @@ get
 newTab
 .
 linkedBrowser
+.
+permanentKey
 )
 ;
 isnot
