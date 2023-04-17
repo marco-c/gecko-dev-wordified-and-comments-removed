@@ -252,6 +252,10 @@ webrender
 &
 &
 swgl
+&
+&
+!
+Android
 1
 -
 1
@@ -807,6 +811,15 @@ fuzzy
 if
 (
 webrender
+&
+&
+!
+(
+swgl
+&
+&
+Android
+)
 0
 -
 6
