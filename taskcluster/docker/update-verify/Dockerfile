@@ -151,6 +151,9 @@ libgtk
 0
 :
 i386
+python3
+-
+cairo
 VOLUME
 /
 builds
