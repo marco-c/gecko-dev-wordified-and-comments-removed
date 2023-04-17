@@ -33,6 +33,14 @@ dom
 /
 media
 /
+mediasink
+"
+"
+/
+dom
+/
+media
+/
 webrtc
 /
 common
@@ -79,6 +87,11 @@ cpp
 "
 "
 TestAudioCompactor
+.
+cpp
+"
+"
+TestAudioDecoderInputTrack
 .
 cpp
 "
