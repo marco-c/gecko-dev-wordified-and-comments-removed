@@ -68,6 +68,11 @@ bool
 aRefreshDNS
 )
 ;
+void
+Close
+(
+)
+;
 protected
 :
 virtual
