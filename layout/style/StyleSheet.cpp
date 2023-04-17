@@ -6884,6 +6884,10 @@ if
 mRuleList
 )
 {
+EnsureUniqueInner
+(
+)
+;
 RefPtr
 <
 ServoCssRules
