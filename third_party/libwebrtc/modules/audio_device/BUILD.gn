@@ -2481,8 +2481,14 @@ WEBRTC_DUMMY_AUDIO_BUILD
 }
 if
 (
+(
 !
 build_with_chromium
+&
+&
+!
+build_with_mozilla
+)
 &
 &
 is_android

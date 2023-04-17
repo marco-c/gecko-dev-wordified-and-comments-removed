@@ -7385,6 +7385,10 @@ external_ssl_library
 if
 (
 is_android
+&
+&
+!
+build_with_mozilla
 )
 {
 rtc_android_library
