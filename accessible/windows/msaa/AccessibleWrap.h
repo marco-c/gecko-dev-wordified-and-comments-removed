@@ -216,6 +216,16 @@ IsRootForHWND
 (
 )
 ;
+MsaaAccessible
+*
+GetMsaa
+(
+)
+{
+return
+this
+;
+}
 virtual
 void
 GetNativeInterface

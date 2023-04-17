@@ -189,6 +189,17 @@ WrapperFor
 this
 )
 ;
+MsaaAccessible
+*
+msaa
+=
+wrap
+-
+>
+GetMsaa
+(
+)
+;
 bool
 isDefunct
 =
@@ -222,7 +233,7 @@ realId
 .
 ulVal
 =
-wrap
+msaa
 -
 >
 GetExistingID
@@ -244,7 +255,7 @@ thisPtr
 >
 mCOMProxy
 =
-wrap
+msaa
 -
 >
 GetIAccessibleFor

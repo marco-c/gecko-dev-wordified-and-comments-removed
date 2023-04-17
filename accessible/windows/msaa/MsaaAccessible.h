@@ -70,6 +70,9 @@ namespace
 a11y
 {
 class
+Accessible
+;
+class
 AccessibleWrap
 ;
 class
@@ -258,6 +261,16 @@ NativeAccessible
 LocalAccessible
 *
 aAccessible
+)
+;
+static
+MsaaAccessible
+*
+GetFrom
+(
+Accessible
+*
+aAcc
 )
 ;
 STDMETHODIMP
