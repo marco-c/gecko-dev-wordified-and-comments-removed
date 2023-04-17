@@ -599,7 +599,7 @@ unwrap
 }
 pub
 fn
-dynamic_label
+validate_dynamic_label
 (
 glean
 :

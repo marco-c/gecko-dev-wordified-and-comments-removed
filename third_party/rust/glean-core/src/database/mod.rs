@@ -1132,15 +1132,10 @@ for
 entry
 in
 entries
-{
-if
-let
-Ok
+.
+flatten
 (
-entry
 )
-=
-entry
 {
 if
 let
@@ -1200,7 +1195,6 @@ else
 {
 continue
 ;
-}
 }
 }
 }
