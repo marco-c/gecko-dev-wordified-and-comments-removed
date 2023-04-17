@@ -1461,6 +1461,8 @@ GeckoViewAutocomplete
 fetchLogins
 (
 aDomain
+=
+null
 )
 {
 debug
@@ -1468,6 +1470,12 @@ fetchLogins
 for
 {
 aDomain
+?
+?
+"
+All
+domains
+"
 }
 ;
 return
