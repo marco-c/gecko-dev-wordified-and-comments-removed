@@ -10735,6 +10735,13 @@ false
 -
 name
 :
+UDivOrModI64
+gen_boilerplate
+:
+false
+-
+name
+:
 ModMaskI
 gen_boilerplate
 :
