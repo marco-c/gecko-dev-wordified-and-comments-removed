@@ -177,6 +177,9 @@ browser
 withAutoShutdownWrite
 :
 false
+ensureCacheWinsRace
+:
+false
 }
 )
 ;

@@ -160,7 +160,11 @@ await
 simulateRestart
 (
 browser
+{
+withAutoShutdownWrite
+:
 false
+}
 )
 ;
 await

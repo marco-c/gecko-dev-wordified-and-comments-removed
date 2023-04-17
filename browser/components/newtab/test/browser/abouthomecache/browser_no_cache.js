@@ -40,7 +40,14 @@ await
 simulateRestart
 (
 browser
+{
+withAutoShutdownWrite
+:
 false
+ensureCacheWinsRace
+:
+false
+}
 )
 ;
 await
