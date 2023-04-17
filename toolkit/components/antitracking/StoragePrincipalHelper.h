@@ -108,7 +108,7 @@ aOriginAttributes
 ;
 static
 bool
-VerifyValidStoragePrincipalInfoForPrincipalInfo
+VerifyValidPartitionedPrincipalInfoForPrincipalInfo
 (
 const
 mozilla
@@ -119,7 +119,7 @@ ipc
 :
 PrincipalInfo
 &
-aStoragePrincipalInfo
+aPartitionedPrincipalInfo
 const
 mozilla
 :
@@ -130,6 +130,8 @@ ipc
 PrincipalInfo
 &
 aPrincipalInfo
+bool
+aIgnoreSpecForContentPrincipal
 )
 ;
 enum
