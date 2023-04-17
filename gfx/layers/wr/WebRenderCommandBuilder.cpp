@@ -12200,16 +12200,6 @@ SetPaintRect
 paintBounds
 )
 ;
-aItem
--
->
-ComputeVisibility
-(
-aDisplayListBuilder
-&
-visibleRegion
-)
-;
 const
 int32_t
 appUnitsPerDevPixel
