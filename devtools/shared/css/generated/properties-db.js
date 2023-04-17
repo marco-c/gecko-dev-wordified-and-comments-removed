@@ -74,6 +74,11 @@ play
 -
 state
 "
+"
+animation
+-
+timeline
+"
 ]
 "
 supports
@@ -98,6 +103,9 @@ alternate
 alternate
 -
 reverse
+"
+"
+auto
 "
 "
 backwards
@@ -5045,6 +5053,11 @@ play
 -
 state
 "
+"
+animation
+-
+timeline
+"
 ]
 "
 supports
@@ -5069,6 +5082,9 @@ alternate
 alternate
 -
 reverse
+"
+"
+auto
 "
 "
 backwards
@@ -13420,6 +13436,11 @@ play
 -
 state
 "
+"
+animation
+-
+timeline
+"
 ]
 "
 supports
@@ -13444,6 +13465,9 @@ alternate
 alternate
 -
 reverse
+"
+"
+auto
 "
 "
 backwards
