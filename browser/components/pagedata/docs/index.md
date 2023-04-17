@@ -317,7 +317,7 @@ of
 page
 data
 (
-Snapshots
+PageDataCollector
 .
 DATA_TYPE
 )

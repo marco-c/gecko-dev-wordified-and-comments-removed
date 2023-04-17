@@ -574,7 +574,11 @@ Product
 :
 insert
 (
-1
+PageDataCollector
+.
+DATA_TYPE
+.
+PRODUCT
 this
 .
 #

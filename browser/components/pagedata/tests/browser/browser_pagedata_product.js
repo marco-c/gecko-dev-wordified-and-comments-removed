@@ -127,7 +127,7 @@ data
 {
 type
 :
-Snapshots
+PageDataCollector
 .
 DATA_TYPE
 .
@@ -303,7 +303,7 @@ data
 {
 type
 :
-Snapshots
+PageDataCollector
 .
 DATA_TYPE
 .
