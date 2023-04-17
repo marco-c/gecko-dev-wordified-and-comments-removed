@@ -8038,10 +8038,6 @@ mHandledByAPZ
 {
 if
 (
-InputBlockState
-*
-block
-=
 mInputQueue
 -
 >
@@ -8052,7 +8048,11 @@ GetCurrentPanGestureBlock
 {
 if
 (
-block
+state
+.
+mHit
+.
+mTargetApzc
 &
 &
 (
