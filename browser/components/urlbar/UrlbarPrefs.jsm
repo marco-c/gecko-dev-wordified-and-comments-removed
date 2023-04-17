@@ -211,6 +211,14 @@ false
 "
 experimental
 .
+hideHeuristic
+"
+false
+]
+[
+"
+experimental
+.
 searchButton
 "
 false
