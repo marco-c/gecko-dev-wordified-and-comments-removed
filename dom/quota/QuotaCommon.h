@@ -2398,7 +2398,7 @@ __VA_ARGS__
 )
 #
 define
-QM_NOTEONLY_TRY
+QM_INFOONLY_TRY
 (
 .
 .
@@ -2406,7 +2406,7 @@ QM_NOTEONLY_TRY
 )
 QM_REPORTONLY_TRY_GLUE
 (
-Note
+Info
 __VA_ARGS__
 )
 #
@@ -2649,7 +2649,7 @@ __VA_ARGS__
 )
 #
 define
-QM_NOTEONLY_TRY_UNWRAP
+QM_INFOONLY_TRY_UNWRAP
 (
 .
 .
@@ -2658,7 +2658,7 @@ QM_NOTEONLY_TRY_UNWRAP
 \
 QM_REPORTONLY_TRY_ASSIGN_GLUE
 (
-Note
+Info
 __VA_ARGS__
 )
 #
@@ -2742,7 +2742,7 @@ __VA_ARGS__
 )
 #
 define
-QM_OR_ELSE_NOTE
+QM_OR_ELSE_INFO
 (
 .
 .
@@ -2750,7 +2750,7 @@ QM_OR_ELSE_NOTE
 )
 QM_OR_ELSE_REPORT
 (
-Note
+Info
 __VA_ARGS__
 )
 #
@@ -2994,7 +2994,7 @@ __VA_ARGS__
 )
 #
 define
-QM_OR_ELSE_NOTE_IF
+QM_OR_ELSE_INFO_IF
 (
 .
 .
@@ -3002,7 +3002,7 @@ QM_OR_ELSE_NOTE_IF
 )
 QM_OR_ELSE_REPORT_IF
 (
-Note
+Info
 __VA_ARGS__
 )
 #
@@ -4466,7 +4466,7 @@ Severity
 {
 Error
 Warning
-Note
+Info
 Verbose
 }
 ;

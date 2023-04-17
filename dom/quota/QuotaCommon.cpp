@@ -1806,11 +1806,11 @@ case
 Severity
 :
 :
-Note
+Info
 :
 return
 "
-NOTE
+INFO
 "
 _ns
 ;
