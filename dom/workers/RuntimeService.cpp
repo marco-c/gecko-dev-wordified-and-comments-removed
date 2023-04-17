@@ -1600,9 +1600,6 @@ private_fields
 _ns
 )
 )
-#
-ifdef
-NIGHTLY_BUILD
 .
 setClassStaticBlocks
 (
@@ -1619,8 +1616,6 @@ class_static_blocks
 _ns
 )
 )
-#
-endif
 .
 setPrivateClassMethods
 (

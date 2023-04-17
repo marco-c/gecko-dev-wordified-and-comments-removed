@@ -443,17 +443,3 @@ ergonomic_brand_checks
 true
 )
 ;
-user_pref
-(
-"
-javascript
-.
-options
-.
-experimental
-.
-class_static_blocks
-"
-true
-)
-;
