@@ -1085,6 +1085,7 @@ PRIORITY_INPUT_HIGH
 var
 scrollerPosition
 ;
+async
 function
 getScrollerPosition
 (
@@ -1104,6 +1105,7 @@ scroller
 ;
 scrollerPosition
 =
+await
 coordinatesRelativeToScreen
 (
 {
@@ -2869,7 +2871,18 @@ waitUntilApzStable
 .
 then
 (
+async
+(
+)
+=
+>
+{
+await
 getScrollerPosition
+(
+)
+;
+}
 )
 .
 then
