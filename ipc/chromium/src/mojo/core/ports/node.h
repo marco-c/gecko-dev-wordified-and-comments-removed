@@ -411,7 +411,7 @@ PortRef
 &
 port_ref
 uint64_t
-sequence_number_acknowledge_interval
+sequence_num_acknowledge_interval
 )
 ;
 int
