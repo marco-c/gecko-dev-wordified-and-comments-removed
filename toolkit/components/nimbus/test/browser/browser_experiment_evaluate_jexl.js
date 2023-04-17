@@ -159,6 +159,11 @@ test
 experiment
 "
 )
+source
+:
+"
+browser_experiment_evaluate_jexl
+"
 }
 ;
 add_task
@@ -185,6 +190,11 @@ true
 customThing
 :
 1
+source
+:
+"
+test_throws_if_no_experiment_in_context
+"
 }
 )
 /
