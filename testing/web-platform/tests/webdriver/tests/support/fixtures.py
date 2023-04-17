@@ -978,6 +978,19 @@ session_id
             
 raise
     
+if
+_current_session
+.
+capabilities
+.
+get
+(
+"
+setWindowRect
+"
+)
+:
+        
 _current_session
 .
 window
@@ -987,7 +1000,7 @@ size
 defaults
 .
 WINDOW_SIZE
-    
+        
 _current_session
 .
 window
