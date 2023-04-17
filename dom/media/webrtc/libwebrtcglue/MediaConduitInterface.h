@@ -1314,13 +1314,11 @@ virtual
 MediaConduitErrorCode
 SendVideoFrame
 (
-const
 webrtc
 :
 :
 VideoFrame
-&
-frame
+aFrame
 )
 =
 0

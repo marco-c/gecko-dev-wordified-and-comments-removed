@@ -414,13 +414,11 @@ height
 MediaConduitErrorCode
 SendVideoFrame
 (
-const
 webrtc
 :
 :
 VideoFrame
-&
-frame
+aFrame
 )
 override
 ;
