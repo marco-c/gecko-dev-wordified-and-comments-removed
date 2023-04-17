@@ -51,6 +51,15 @@ use
 linear
 :
 :
+MAX_CACHED_SIZE
+as
+LINEAR_MAX_CACHED_SIZE
+;
+pub
+use
+linear
+:
+:
 *
 ;
 pub
