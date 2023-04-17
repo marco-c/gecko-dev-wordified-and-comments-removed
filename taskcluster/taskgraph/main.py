@@ -601,13 +601,21 @@ fast
 =
 True
     
+if
+isinstance
+(
+parameters
+str
+)
+:
+        
 parameters
 =
 parameters_loader
 (
-        
+            
 parameters
-        
+            
 overrides
 =
 {
@@ -626,11 +634,11 @@ target_kind
 "
 )
 }
-        
+            
 strict
 =
 False
-    
+        
 )
     
 tgg
@@ -2157,7 +2165,7 @@ List
 Any
 [
 str
-None
+Parameters
 ]
 ]
 =
@@ -2175,10 +2183,39 @@ not
 parameters
 :
         
+kwargs
+=
+{
+            
+"
+target
+-
+kind
+"
+:
+options
+.
+get
+(
+"
+target_kind
+"
+)
+        
+}
+        
 parameters
 =
 [
-None
+Parameters
+(
+strict
+=
+False
+*
+*
+kwargs
+)
 ]
     
 for
@@ -2191,11 +2228,12 @@ parameters
 :
         
 if
+isinstance
+(
 param
-is
-None
-or
-not
+str
+)
+and
 os
 .
 path
@@ -2206,28 +2244,26 @@ param
 )
 :
             
-continue
-        
 parameters
 .
 remove
 (
 param
 )
-        
+            
 parameters
 .
 extend
 (
-            
-[
                 
+[
+                    
 p
 .
 as_posix
 (
 )
-                
+                    
 for
 p
 in
@@ -2239,7 +2275,7 @@ param
 iterdir
 (
 )
-                
+                    
 if
 p
 .
@@ -2255,9 +2291,9 @@ yml
 json
 "
 )
-            
+                
 ]
-        
+            
 )
     
 logdir
