@@ -197,7 +197,6 @@ async
 const
 {
 getProfileAndStopProfiler
-profilerViewMode
 onProfileReceived
 perfFront
 }
@@ -218,7 +217,6 @@ perfFront
 onProfileReceived
 (
 profile
-profilerViewMode
 )
 ;
 }
@@ -964,14 +962,6 @@ pageContext
 selectors
 .
 getPageContext
-(
-state
-)
-profilerViewMode
-:
-selectors
-.
-getProfilerViewMode
 (
 state
 )

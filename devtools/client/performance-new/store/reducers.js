@@ -1307,12 +1307,6 @@ state
 promptEnvRestart
 action
 )
-profilerViewMode
-:
-state
-?
-.
-profilerViewMode
 }
 ;
 }

@@ -2347,6 +2347,7 @@ changePreset
 handleWebChannelMessage
 addPrefObserver
 removePrefObserver
+getProfilerViewModeForCurrentPreset
 }
 ;
 var

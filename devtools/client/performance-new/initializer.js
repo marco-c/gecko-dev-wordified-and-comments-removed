@@ -410,6 +410,7 @@ js
 const
 {
 presets
+getProfilerViewModeForCurrentPreset
 }
 =
 ChromeUtils
@@ -616,10 +617,7 @@ pageContext
 const
 onProfileReceived
 =
-(
 profile
-profilerViewMode
-)
 =
 >
 {
@@ -635,6 +633,14 @@ store
 getState
 (
 )
+)
+;
+const
+profilerViewMode
+=
+getProfilerViewModeForCurrentPreset
+(
+pageContext
 )
 ;
 const
