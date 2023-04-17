@@ -46,7 +46,7 @@ dbg
 return
 dbg
 .
-targetList
+targetCommand
 .
 targetFront
 .

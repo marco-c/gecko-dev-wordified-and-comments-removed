@@ -223,8 +223,6 @@ commands
 :
 this
 .
-toolbox
-.
 commands
 resourceWatcher
 :

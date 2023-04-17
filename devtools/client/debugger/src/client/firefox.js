@@ -74,7 +74,7 @@ let
 actions
 ;
 let
-targetList
+targetCommand
 ;
 let
 resourceWatcher
@@ -94,7 +94,7 @@ actions
 =
 _actions
 ;
-targetList
+targetCommand
 =
 commands
 .
@@ -128,7 +128,7 @@ const
 targetFront
 }
 =
-targetList
+targetCommand
 ;
 if
 (
@@ -142,7 +142,7 @@ targetFront
 isParentProcess
 )
 {
-targetList
+targetCommand
 .
 listenForWorkers
 =
@@ -160,13 +160,13 @@ features
 windowlessServiceWorkers
 )
 {
-targetList
+targetCommand
 .
 listenForServiceWorkers
 =
 true
 ;
-targetList
+targetCommand
 .
 destroyServiceWorkersOnNavigation
 =
@@ -174,7 +174,7 @@ true
 ;
 }
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -182,11 +182,11 @@ startListening
 ;
 }
 await
-targetList
+targetCommand
 .
 watchTargets
 (
-targetList
+targetCommand
 .
 ALL_TYPES
 onTargetAvailable
@@ -259,11 +259,11 @@ onDisconnect
 (
 )
 {
-targetList
+targetCommand
 .
 unwatchTargets
 (
-targetList
+targetCommand
 .
 ALL_TYPES
 onTargetAvailable
@@ -346,7 +346,7 @@ isTargetSwitching
 const
 isBrowserToolbox
 =
-targetList
+targetCommand
 .
 targetFront
 .
@@ -367,7 +367,7 @@ targetType
 =
 =
 =
-targetList
+targetCommand
 .
 TYPES
 .
