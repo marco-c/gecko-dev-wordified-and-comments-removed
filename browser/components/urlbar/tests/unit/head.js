@@ -908,6 +908,7 @@ results
 ]
 onCancel
 type
+name
 )
 {
 let
@@ -920,6 +921,7 @@ TestProvider
 results
 onCancel
 type
+name
 }
 )
 ;
