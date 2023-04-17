@@ -77,3 +77,17 @@ WebDriverBiDi
 .
 jsm
 )
+content
+/
+webdriver
+-
+bidi
+/
+WebDriverBiDiConnection
+.
+jsm
+(
+WebDriverBiDiConnection
+.
+jsm
+)
