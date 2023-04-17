@@ -66,13 +66,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-xptdata
-.
-h
-"
 namespace
 mozilla
 {
@@ -101,6 +94,12 @@ nsXPTConstantInfo
 ;
 struct
 nsXPTDOMObjectInfo
+;
+enum
+class
+nsXPTInterface
+:
+uint16_t
 ;
 namespace
 xpt
