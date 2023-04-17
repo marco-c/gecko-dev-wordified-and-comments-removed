@@ -680,7 +680,7 @@ builder
 SPA_TYPE_OBJECT_ParamBuffers
 SPA_PARAM_Buffers
 SPA_PARAM_BUFFERS_dataType
-SPA_POD_Int
+SPA_POD_CHOICE_FLAGS_Int
 (
 (
 1
@@ -1546,11 +1546,6 @@ pwMinScreenBounds
 pwMinScreenBounds
 &
 pwMaxScreenBounds
-)
-SPA_FORMAT_VIDEO_modifier
-SPA_POD_Long
-(
-0
 )
 0
 )
