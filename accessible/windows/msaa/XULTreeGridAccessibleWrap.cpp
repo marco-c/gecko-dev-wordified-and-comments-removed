@@ -20,7 +20,7 @@ XULTreeGridAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 XULTreeGridAccessibleWrap
-AccessibleWrap
+MsaaAccessible
 ia2AccessibleTable
 )
 void
@@ -54,7 +54,7 @@ XULTreeGridCellAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 XULTreeGridCellAccessibleWrap
-AccessibleWrap
+MsaaAccessible
 ia2AccessibleTableCell
 )
 void

@@ -20,7 +20,7 @@ HTMLTableAccessible
 IMPL_IUNKNOWN_INHERITED2
 (
 HTMLTableAccessibleWrap
-AccessibleWrap
+MsaaAccessible
 HyperTextAccessibleWrap
 ia2AccessibleTable
 )

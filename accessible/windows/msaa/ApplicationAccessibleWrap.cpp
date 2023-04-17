@@ -61,7 +61,7 @@ ApplicationAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 ApplicationAccessibleWrap
-AccessibleWrap
+MsaaAccessible
 ia2AccessibleApplication
 )
 already_AddRefed

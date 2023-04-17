@@ -182,7 +182,7 @@ S_OK
 }
 }
 return
-AccessibleWrap
+MsaaAccessible
 :
 :
 QueryInterface

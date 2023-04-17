@@ -147,16 +147,6 @@ aDoc
 NS_DECL_ISUPPORTS_INHERITED
 public
 :
-STDMETHODIMP
-QueryInterface
-(
-REFIID
-void
-*
-*
-)
-override
-;
 virtual
 nsresult
 HandleAccEvent
