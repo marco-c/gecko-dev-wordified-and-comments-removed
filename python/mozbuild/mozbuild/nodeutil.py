@@ -635,10 +635,6 @@ find_node_paths
 (
 )
     
-found_exe
-=
-None
-    
 exe
 =
 which
@@ -657,15 +653,6 @@ exe
 return
 None
 None
-    
-if
-not
-found_exe
-:
-        
-found_exe
-=
-exe
     
 try
 :
@@ -688,22 +675,21 @@ ValueError
 :
         
 return
-found_exe
+None
 None
     
 if
 version
->
-=
+<
 min_version
 :
         
+return
+None
+None
+    
 return
 exe
 version
 .
 version
-    
-return
-found_exe
-None
