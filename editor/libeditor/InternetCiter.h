@@ -28,7 +28,7 @@ final
 public
 :
 static
-void
+nsresult
 GetCiteString
 (
 const
@@ -41,7 +41,7 @@ aOutString
 )
 ;
 static
-void
+nsresult
 Rewrap
 (
 const
