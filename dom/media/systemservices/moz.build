@@ -202,6 +202,13 @@ video_capture
 .
 mm
 "
+"
+video_engine
+/
+desktop_device_info_mac
+.
+mm
+"
 ]
 CMMFLAGS
 +

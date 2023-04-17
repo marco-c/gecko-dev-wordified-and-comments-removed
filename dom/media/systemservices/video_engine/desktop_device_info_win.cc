@@ -1,12 +1,6 @@
 #
 include
 "
-modules
-/
-desktop_capture
-/
-win
-/
 desktop_device_info_win
 .
 h
