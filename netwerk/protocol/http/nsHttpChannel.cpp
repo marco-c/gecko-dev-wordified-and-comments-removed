@@ -32881,7 +32881,7 @@ Maybe
 Tuple
 <
 nsCString
-bool
+SupportedAlpnType
 >
 >
 alpn
@@ -32906,6 +32906,12 @@ Get
 *
 alpn
 )
+=
+=
+SupportedAlpnType
+:
+:
+HTTP_3
 :
 false
 ;

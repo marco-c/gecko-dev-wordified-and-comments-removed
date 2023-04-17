@@ -5501,6 +5501,12 @@ gHttpHandler
 >
 EchConfigEnabled
 (
+failedConnInfo
+-
+>
+IsHttp3
+(
+)
 )
 &
 &
@@ -15531,6 +15537,12 @@ gHttpHandler
 >
 EchConfigEnabled
 (
+mConnInfo
+-
+>
+IsHttp3
+(
+)
 )
 &
 &

@@ -6125,6 +6125,17 @@ EchConfigEnabled
 )
 )
 {
+MOZ_ASSERT
+(
+!
+ci
+-
+>
+IsHttp3
+(
+)
+)
+;
 rv
 =
 socketTransport

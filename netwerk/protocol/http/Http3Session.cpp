@@ -1183,6 +1183,7 @@ gHttpHandler
 >
 EchConfigEnabled
 (
+true
 )
 )
 {
