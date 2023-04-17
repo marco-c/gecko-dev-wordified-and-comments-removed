@@ -1982,7 +1982,7 @@ OwnerVisibility
 const
 ;
 double
-GetTotalPlayTimeInSeconds
+GetTotalVideoPlayTimeInSeconds
 (
 )
 const
