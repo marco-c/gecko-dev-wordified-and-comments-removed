@@ -72,6 +72,10 @@ null
 const
 requestedInForegroundTab
 =
+browser
+.
+isRemoteBrowser
+?
 Services
 .
 focus
@@ -80,6 +84,8 @@ focusedElement
 =
 =
 browser
+:
+true
 ;
 let
 data
