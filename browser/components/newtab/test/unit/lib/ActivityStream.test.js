@@ -1372,7 +1372,7 @@ it
 should
 create
 a
-RecommendationProviderSwitcher
+RecommendationProvider
 feed
 "
 (
@@ -1392,7 +1392,7 @@ get
 "
 feeds
 .
-recommendationproviderswitcher
+recommendationprovider
 "
 )
 (

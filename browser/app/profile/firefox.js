@@ -11440,9 +11440,9 @@ discoverystream
 .
 personalization
 .
-version
+enabled
 "
-2
+true
 )
 ;
 pref
