@@ -127,16 +127,6 @@ restart
 now
 appmenuitem
 -
-protection
--
-dashboard
--
-title
-=
-Protections
-dashboard
-appmenuitem
--
 new
 -
 tab
