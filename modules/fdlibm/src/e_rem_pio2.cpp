@@ -83,8 +83,7 @@ pio2_3t
 ifdef
 INLINE_REM_PIO2
 static
-__inline
-__always_inline
+inline
 #
 endif
 int
