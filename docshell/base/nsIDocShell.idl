@@ -3600,14 +3600,6 @@ pluginsAllowedInCurrentDoc
 (
 )
 ;
-[
-noscript
-infallible
-]
-attribute
-boolean
-affectPrivateSessionLifetime
-;
 /
 *
 *
