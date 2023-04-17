@@ -256,7 +256,7 @@ aFlags
 const
 nsAString
 &
-aValue
+aInitialValue
 )
 override
 ;
@@ -977,12 +977,6 @@ OnEndHandlingTopLevelEditSubAction
 (
 )
 override
-;
-MOZ_CAN_RUN_SCRIPT
-nsresult
-EnsurePaddingBRElementForEmptyEditor
-(
-)
 ;
 nsresult
 HandleInlineSpellCheckAfterEdit
