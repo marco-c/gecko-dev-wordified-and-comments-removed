@@ -578,7 +578,7 @@ false
 ;
 QM_TRY
 (
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 ToResult
 (

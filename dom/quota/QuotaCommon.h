@@ -2746,7 +2746,7 @@ __VA_ARGS__
 )
 #
 define
-QM_OR_ELSE_LOG
+QM_OR_ELSE_LOG_VERBOSE
 (
 .
 .
@@ -2998,15 +2998,16 @@ __VA_ARGS__
 )
 #
 define
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 .
 .
 .
 )
+\
 QM_OR_ELSE_REPORT_IF
 (
-Log
+Verbose
 __VA_ARGS__
 )
 #
@@ -4452,7 +4453,7 @@ Severity
 Error
 Warning
 Note
-Log
+Verbose
 }
 ;
 #

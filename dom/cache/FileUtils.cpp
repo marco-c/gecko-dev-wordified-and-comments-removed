@@ -423,7 +423,7 @@ m3
 ;
 QM_TRY
 (
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 ToResult
 (
@@ -486,7 +486,7 @@ kMorgueDirectory
 ;
 QM_TRY
 (
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 ToResult
 (
@@ -1833,7 +1833,7 @@ false
 ;
 QM_TRY
 (
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 ToResult
 (
@@ -1995,7 +1995,7 @@ aQuotaInfo
 ;
 QM_TRY
 (
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 ToResult
 (

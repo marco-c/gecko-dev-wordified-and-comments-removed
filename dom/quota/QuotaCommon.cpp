@@ -821,7 +821,7 @@ aFile
 {
 QM_TRY_RETURN
 (
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -2016,7 +2016,7 @@ aSeverity
 Severity
 :
 :
-Log
+Verbose
 )
 {
 return
@@ -2456,11 +2456,11 @@ case
 Severity
 :
 :
-Log
+Verbose
 :
 return
 "
-LOG
+VERBOSE
 "
 _ns
 ;

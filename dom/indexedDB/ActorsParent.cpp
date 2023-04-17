@@ -23270,7 +23270,7 @@ int64_t
 >
 &
 fileSize
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -23358,7 +23358,7 @@ const
 auto
 &
 didExist
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 ToResult
 (
@@ -23670,7 +23670,7 @@ aDatabaseNameBase
 ;
 QM_TRY
 (
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 ToResult
 (
@@ -56294,7 +56294,7 @@ const
 int64_t
 &
 walFileSize
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -63931,7 +63931,7 @@ kStmtParamNameObjectDataKey
 ;
 QM_TRY
 (
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 ToResult
 (
