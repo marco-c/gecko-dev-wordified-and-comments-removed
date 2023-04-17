@@ -2541,6 +2541,16 @@ linux64
 toolchain
 -
 sysroot
+-
+wasm32
+-
+wasi
+-
+compiler
+-
+rt
+-
+12
 linux64
 -
 clang
