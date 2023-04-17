@@ -782,6 +782,14 @@ State
 )
 override
 ;
+virtual
+void
+TakeFocus
+(
+)
+const
+override
+;
 uintptr_t
 GetWrapper
 (

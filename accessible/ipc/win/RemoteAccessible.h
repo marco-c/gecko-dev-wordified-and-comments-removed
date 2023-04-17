@@ -134,6 +134,14 @@ RemoteAccessibleShared
 .
 h
 "
+virtual
+void
+TakeFocus
+(
+)
+const
+override
+;
 bool
 GetCOMInterface
 (

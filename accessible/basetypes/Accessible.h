@@ -390,6 +390,15 @@ State
 =
 0
 ;
+virtual
+void
+TakeFocus
+(
+)
+const
+=
+0
+;
 bool
 IsDoc
 (
