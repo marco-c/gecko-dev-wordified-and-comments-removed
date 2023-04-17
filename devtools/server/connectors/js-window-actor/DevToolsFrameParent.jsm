@@ -163,7 +163,7 @@ instantiateTarget
 {
 watcherActorID
 connectionPrefix
-browserId
+context
 sessionData
 }
 )
@@ -185,7 +185,7 @@ available
 {
 watcherActorID
 connectionPrefix
-browserId
+context
 sessionData
 }
 )
@@ -195,7 +195,7 @@ destroyTarget
 (
 {
 watcherActorID
-browserId
+context
 }
 )
 {
@@ -210,7 +210,7 @@ destroy
 "
 {
 watcherActorID
-browserId
+context
 }
 )
 ;
@@ -220,7 +220,7 @@ addSessionDataEntry
 (
 {
 watcherActorID
-browserId
+context
 type
 entries
 }
@@ -240,7 +240,7 @@ addSessionDataEntry
 "
 {
 watcherActorID
-browserId
+context
 type
 entries
 }
@@ -290,7 +290,7 @@ removeSessionDataEntry
 (
 {
 watcherActorID
-browserId
+context
 type
 entries
 }
@@ -307,7 +307,7 @@ removeSessionDataEntry
 "
 {
 watcherActorID
-browserId
+context
 type
 entries
 }
