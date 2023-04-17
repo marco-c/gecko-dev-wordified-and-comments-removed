@@ -1436,11 +1436,6 @@ virtual
 void
 BeginCycleCollectionCallback
 (
-mozilla
-:
-:
-CCReason
-aReason
 )
 =
 0
