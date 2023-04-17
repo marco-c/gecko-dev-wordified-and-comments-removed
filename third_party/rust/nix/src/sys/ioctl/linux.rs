@@ -715,6 +715,9 @@ SIZESHIFT
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -753,6 +756,9 @@ nr
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -794,6 +800,9 @@ sz
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -835,6 +844,9 @@ sz
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !

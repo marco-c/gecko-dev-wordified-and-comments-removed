@@ -60,10 +60,10 @@ if_
 derive
 (
 Clone
+Debug
 Eq
 Hash
 PartialEq
-Debug
 )
 ]
 pub
@@ -117,6 +117,11 @@ cfg
 (
 any
 (
+target_os
+=
+"
+android
+"
 target_os
 =
 "

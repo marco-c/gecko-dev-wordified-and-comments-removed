@@ -242,6 +242,9 @@ ioctl_num_type
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -280,6 +283,9 @@ n
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -339,6 +345,9 @@ c_int
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -380,6 +389,9 @@ len
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -421,6 +433,9 @@ len
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !

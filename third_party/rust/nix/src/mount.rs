@@ -3,12 +3,10 @@ libc
 :
 :
 {
+self
 c_ulong
 c_int
 }
-;
-use
-libc
 ;
 use
 {

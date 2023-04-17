@@ -403,13 +403,10 @@ derive
 (
 Clone
 Copy
-)
-]
-#
-[
-allow
-(
-missing_debug_implementations
+Debug
+Eq
+Hash
+PartialEq
 )
 ]
 pub

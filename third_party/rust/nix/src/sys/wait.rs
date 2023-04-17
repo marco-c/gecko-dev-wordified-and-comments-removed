@@ -290,11 +290,12 @@ __WCLONE
 [
 derive
 (
-Eq
-PartialEq
 Clone
 Copy
 Debug
+Eq
+Hash
+PartialEq
 )
 ]
 pub

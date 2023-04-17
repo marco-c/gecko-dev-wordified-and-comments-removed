@@ -448,13 +448,9 @@ Pid
 derive
 (
 Clone
-)
-]
-#
-[
-allow
-(
-missing_debug_implementations
+Debug
+Eq
+PartialEq
 )
 ]
 pub
