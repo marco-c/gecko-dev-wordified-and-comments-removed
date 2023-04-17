@@ -934,6 +934,14 @@ script
 )
 const
 ;
+JS_PUBLIC_API
+JSFunction
+*
+function
+(
+)
+const
+;
 JSScript
 *
 rawScript
