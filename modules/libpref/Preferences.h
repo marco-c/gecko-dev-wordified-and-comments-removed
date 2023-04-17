@@ -1882,6 +1882,11 @@ SavePrefFileAsynchronous
 (
 )
 ;
+bool
+AllowOffMainThreadSave
+(
+)
+;
 private
 :
 virtual
@@ -1946,11 +1951,6 @@ nsIFile
 aFile
 SaveMethod
 aSaveMethod
-)
-;
-bool
-AllowOffMainThreadSave
-(
 )
 ;
 public
