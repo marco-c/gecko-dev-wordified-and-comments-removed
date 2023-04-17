@@ -76,9 +76,7 @@ mozconfigs
 /
 android
 -
-api
--
-16
+arm
 /
 l10n
 -

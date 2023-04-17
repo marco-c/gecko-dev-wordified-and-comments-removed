@@ -38,9 +38,7 @@ v8a
 "
 android
 -
-api
--
-16
+arm
 -
 opt
 "
@@ -127,9 +125,7 @@ v8a
 "
 android
 -
-api
--
-16
+arm
 -
 shippable
 "

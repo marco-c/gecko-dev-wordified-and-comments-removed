@@ -154,9 +154,7 @@ macosx64
 win64
 android
 -
-api
--
-16
+arm
 -
 u
 marionette

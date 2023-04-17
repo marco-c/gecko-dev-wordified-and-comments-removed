@@ -9,9 +9,7 @@ stage_platform
 "
 android
 -
-api
--
-16
+arm
 -
 gradle
 -
@@ -33,9 +31,7 @@ mozconfigs
 /
 android
 -
-api
--
-16
+arm
 -
 gradle
 -

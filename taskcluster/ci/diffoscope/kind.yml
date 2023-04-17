@@ -1007,9 +1007,7 @@ build
 -
 android
 -
-api
--
-16
+arm
 /
 opt
 #
@@ -1034,9 +1032,7 @@ mobile
 .
 android
 -
-api
--
-16
+arm
 -
 opt
 }
