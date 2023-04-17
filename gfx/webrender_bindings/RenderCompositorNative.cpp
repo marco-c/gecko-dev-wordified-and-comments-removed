@@ -365,14 +365,6 @@ false
 mSurfacePoolHandle
 )
 ;
-mNativeLayerForEntireWindow
--
->
-SetSurfaceIsFlipped
-(
-true
-)
-;
 mNativeLayerRoot
 -
 >
