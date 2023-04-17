@@ -193,7 +193,11 @@ override
 ;
 MOZ_CAN_RUN_SCRIPT
 virtual
+Result
+<
 bool
+nsresult
+>
 PerformAccesskey
 (
 bool
