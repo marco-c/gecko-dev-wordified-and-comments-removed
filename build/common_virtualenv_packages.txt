@@ -426,8 +426,6 @@ third_party
 python
 /
 attrs
-/
-src
 mozilla
 .
 pth
@@ -472,9 +470,7 @@ third_party
 /
 python
 /
-compare
--
-locales
+compare_locales
 mozilla
 .
 pth
@@ -529,8 +525,6 @@ third_party
 python
 /
 ecdsa
-/
-src
 mozilla
 .
 pth
@@ -618,8 +612,6 @@ third_party
 python
 /
 Jinja2
-/
-src
 mozilla
 .
 pth
@@ -677,9 +669,7 @@ third_party
 /
 python
 /
-more
--
-itertools
+more_itertools
 mozilla
 .
 pth
@@ -688,9 +678,7 @@ third_party
 /
 python
 /
-mozilla
--
-version
+mozilla_version
 mozilla
 .
 pth
@@ -794,8 +782,6 @@ third_party
 python
 /
 pytest
-/
-src
 mozilla
 .
 pth
@@ -883,9 +869,7 @@ third_party
 /
 python
 /
-sentry
--
-sdk
+sentry_sdk
 mozilla
 .
 pth
@@ -933,8 +917,6 @@ third_party
 python
 /
 typing_extensions
-/
-src_py3
 mozilla
 .
 pth
@@ -944,8 +926,6 @@ third_party
 python
 /
 urllib3
-/
-src
 mozilla
 .
 pth
