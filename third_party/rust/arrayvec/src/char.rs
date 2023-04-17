@@ -370,6 +370,14 @@ EncodeUtf8Error
 [
 test
 ]
+#
+[
+cfg_attr
+(
+miri
+ignore
+)
+]
 fn
 test_encode_utf8
 (

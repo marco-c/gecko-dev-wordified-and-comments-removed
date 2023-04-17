@@ -78,6 +78,7 @@ T
 >
 {
 pub
+const
 unsafe
 fn
 uninitialized
