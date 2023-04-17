@@ -521,7 +521,7 @@ Ci
 .
 nsIPermissionManager
 .
-EXPIRE_NEVER
+EXPIRE_SESSION
 )
 )
 ;
