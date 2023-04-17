@@ -1564,6 +1564,14 @@ ChromeOnly
 readonly
 attribute
 double
+visiblePlayTime
+;
+[
+ChromeOnly
+]
+readonly
+attribute
+double
 invisiblePlayTime
 ;
 [
