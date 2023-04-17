@@ -1688,6 +1688,7 @@ JSObject
 *
 GetProxyTargetObject
 (
+const
 JSObject
 *
 obj

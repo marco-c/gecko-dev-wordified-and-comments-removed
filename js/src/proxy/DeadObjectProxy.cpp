@@ -554,6 +554,7 @@ js
 :
 IsDeadProxyObject
 (
+const
 JSObject
 *
 obj
