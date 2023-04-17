@@ -268,6 +268,12 @@ macro
 backdrop
 )
 ;
+\
+macro
+(
+polyon
+)
+;
 namespace
 mozilla
 {

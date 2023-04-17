@@ -599,7 +599,10 @@ crate
 clip
 :
 :
+{
 ClipIntern
+PolygonIntern
+}
 ;
 #
 [

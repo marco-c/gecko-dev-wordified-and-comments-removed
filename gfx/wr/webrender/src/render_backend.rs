@@ -142,6 +142,7 @@ clip
 :
 {
 ClipIntern
+PolygonIntern
 ClipStoreScratchBuffer
 }
 ;
