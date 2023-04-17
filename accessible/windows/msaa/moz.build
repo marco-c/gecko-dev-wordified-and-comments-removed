@@ -37,6 +37,11 @@ LazyInstantiator
 h
 "
 "
+MsaaAccessible
+.
+h
+"
+"
 MsaaIdGenerator
 .
 h
