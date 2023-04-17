@@ -510,14 +510,6 @@ if
 !
 this
 .
-traits
-.
-emitDescriptorDestroyed
-|
-|
-!
-this
-.
 isLocalTab
 |
 |
