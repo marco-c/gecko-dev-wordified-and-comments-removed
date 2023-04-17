@@ -726,14 +726,15 @@ AtBottomLayer
 {
 transform
 =
-transform
-*
 mLayer
 -
 >
 GetTransform
 (
 )
+*
+transform
+;
 ;
 }
 return
