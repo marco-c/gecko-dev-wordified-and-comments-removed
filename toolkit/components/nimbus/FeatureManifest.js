@@ -124,6 +124,15 @@ aboutwelcome
 skipFocus
 "
 }
+transitions
+:
+{
+type
+:
+"
+boolean
+"
+}
 }
 }
 newtab

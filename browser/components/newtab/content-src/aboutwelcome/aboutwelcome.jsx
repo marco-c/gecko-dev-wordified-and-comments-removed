@@ -582,6 +582,13 @@ props
 .
 design
 }
+transitions
+=
+{
+props
+.
+transitions
+}
 background_url
 =
 {
