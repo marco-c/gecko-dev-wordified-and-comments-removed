@@ -114,7 +114,7 @@ constructor
 (
 sequence
 <
-DOMString
+UTF8String
 >
 aResourceIds
 optional
@@ -122,16 +122,9 @@ boolean
 aSync
 =
 false
-optional
-BundleGenerator
-aBundleGenerator
-=
-{
-}
 )
 ;
-unsigned
-long
+void
 addResourceIds
 (
 sequence
