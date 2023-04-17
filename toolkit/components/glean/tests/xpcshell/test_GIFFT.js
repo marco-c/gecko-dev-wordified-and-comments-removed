@@ -16,7 +16,7 @@ Glean
 ;
 const
 {
-ObjectUtils
+AppConstants
 }
 =
 ChromeUtils
@@ -32,7 +32,7 @@ gre
 /
 modules
 /
-ObjectUtils
+AppConstants
 .
 jsm
 "
@@ -223,6 +223,18 @@ overrideProductsCheck
 true
 )
 ;
+if
+(
+AppConstants
+.
+platform
+!
+=
+"
+android
+"
+)
+{
 let
 FOG
 =
@@ -254,6 +266,7 @@ initializeFOG
 (
 )
 ;
+}
 }
 )
 ;

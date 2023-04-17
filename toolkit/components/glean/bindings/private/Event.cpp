@@ -111,14 +111,6 @@ JSContext
 aCx
 )
 {
-#
-ifdef
-MOZ_GLEAN_ANDROID
-return
-NS_OK
-;
-#
-else
 if
 (
 aExtra
@@ -574,8 +566,6 @@ extraValues
 return
 NS_OK
 ;
-#
-endif
 }
 NS_IMETHODIMP
 GleanEvent
