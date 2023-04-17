@@ -415,6 +415,11 @@ nsWaylandDisplay
 cpp
 "
 "
+WaylandShmBuffer
+.
+cpp
+"
+"
 WindowSurfaceWayland
 .
 cpp
