@@ -23374,7 +23374,7 @@ int64_t
 >
 &
 fileSize
-QM_OR_ELSE_WARN
+QM_OR_ELSE_LOG
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -23461,7 +23461,7 @@ const
 auto
 &
 didExist
-QM_OR_ELSE_WARN
+QM_OR_ELSE_LOG
 (
 ToResult
 (
@@ -23768,7 +23768,7 @@ aDatabaseNameBase
 ;
 QM_TRY
 (
-QM_OR_ELSE_WARN
+QM_OR_ELSE_LOG
 (
 ToResult
 (
@@ -64069,7 +64069,7 @@ kStmtParamNameObjectDataKey
 ;
 QM_TRY
 (
-QM_OR_ELSE_WARN
+QM_OR_ELSE_LOG
 (
 ToResult
 (

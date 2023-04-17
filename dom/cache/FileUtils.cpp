@@ -2092,7 +2092,7 @@ aQuotaInfo
 ;
 QM_TRY
 (
-QM_OR_ELSE_WARN
+QM_OR_ELSE_LOG
 (
 ToResult
 (
