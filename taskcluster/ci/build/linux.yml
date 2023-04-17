@@ -8128,7 +8128,7 @@ B
 gcp
 tier
 :
-3
+2
 worker
 -
 type
@@ -8351,7 +8351,7 @@ B
 gcp
 tier
 :
-3
+2
 worker
 -
 type
@@ -8551,7 +8551,7 @@ B
 gcp
 tier
 :
-3
+2
 worker
 -
 type
@@ -8763,7 +8763,7 @@ B
 gcp
 tier
 :
-3
+2
 worker
 -
 type
