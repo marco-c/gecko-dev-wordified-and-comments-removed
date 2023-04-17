@@ -107,11 +107,6 @@ MediaDataCodec
 cpp
 "
 "
-RtpSourceObserver
-.
-cpp
-"
-"
 VideoConduit
 .
 cpp

@@ -296,11 +296,6 @@ mediapipeline_unittest
 cpp
 "
 "
-rtpsources_unittests
-.
-cpp
-"
-"
 sdp_unittests
 .
 cpp

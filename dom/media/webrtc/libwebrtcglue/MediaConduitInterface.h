@@ -55,13 +55,6 @@ h
 #
 include
 "
-RtpSourceObserver
-.
-h
-"
-#
-include
-"
 RtcpEventObserver
 .
 h
@@ -191,6 +184,13 @@ VideoFrame
 namespace
 mozilla
 {
+namespace
+dom
+{
+struct
+RTCRtpSourceEntry
+;
+}
 enum
 class
 MediaSessionConduitLocalDirection
