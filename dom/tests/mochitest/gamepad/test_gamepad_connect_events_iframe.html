@@ -201,11 +201,13 @@ SpecialPowers
 var
 gamepad_index
 ;
+async
 function
 pressButton
 (
 )
 {
+await
 GamepadService
 .
 newButtonEvent
@@ -216,6 +218,7 @@ true
 true
 )
 ;
+await
 GamepadService
 .
 newButtonEvent
@@ -232,6 +235,7 @@ false
 Add
 a
 gamepad
+async
 function
 startTests
 (
@@ -278,6 +282,9 @@ testNum
 }
 )
 ;
+gamepad_index
+=
+await
 GamepadService
 .
 addGamepad
@@ -304,22 +311,9 @@ buttons
 0
 0
 )
-.
-then
-(
-function
-(
-i
-)
-{
-gamepad_index
-=
-i
-;
+await
 gamepad_connected
 (
-)
-}
 )
 ;
 }
@@ -327,6 +321,7 @@ var
 f1
 f2
 ;
+async
 function
 gamepad_connected
 (
@@ -343,6 +338,7 @@ f1
 '
 )
 ;
+await
 pressButton
 (
 )
@@ -411,9 +407,11 @@ addEventListener
 "
 load
 "
-function
+async
 (
 )
+=
+>
 {
 /
 /
@@ -427,6 +425,7 @@ a
 button
 again
 .
+await
 pressButton
 (
 )
@@ -454,6 +453,7 @@ f2
 )
 ;
 }
+async
 function
 test2
 (
@@ -541,6 +541,7 @@ frame
 "
 )
 ;
+await
 GamepadService
 .
 removeGamepad
