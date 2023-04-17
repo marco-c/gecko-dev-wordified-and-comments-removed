@@ -216,6 +216,11 @@ idl_test
 '
 SVG
 '
+'
+svg
+-
+animations
+'
 ]
 [
 '

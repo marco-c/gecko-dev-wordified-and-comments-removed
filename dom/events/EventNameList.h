@@ -1517,7 +1517,7 @@ eBasicEventClass
 #
 ifndef
 MESSAGE_TO_EVENT
-NON_IDL_EVENT
+EVENT
 (
 begin
 eSMILBeginEvent
@@ -1536,7 +1536,7 @@ eSMILTimeEventClass
 #
 ifndef
 MESSAGE_TO_EVENT
-NON_IDL_EVENT
+EVENT
 (
 end
 eSMILEndEvent
@@ -1555,7 +1555,7 @@ eSMILTimeEventClass
 #
 ifndef
 MESSAGE_TO_EVENT
-NON_IDL_EVENT
+EVENT
 (
 repeat
 eSMILRepeatEvent
