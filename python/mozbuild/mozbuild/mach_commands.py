@@ -3422,7 +3422,6 @@ gtest_filter
         
 default
 =
-b
 "
 *
 "
@@ -4583,7 +4582,6 @@ return
 gtest_env
 =
 {
-b
 "
 GTEST_FILTER
 "
@@ -4674,13 +4672,11 @@ fakeopenh264
         
 gtest_env
 [
-b
 "
 MOZ_RUN_GTEST
 "
 ]
 =
-b
 "
 True
 "
@@ -4691,13 +4687,11 @@ shuffle
             
 gtest_env
 [
-b
 "
 GTEST_SHUFFLE
 "
 ]
 =
-b
 "
 True
 "
@@ -4708,13 +4702,11 @@ tbpl_parser
             
 gtest_env
 [
-b
 "
 MOZ_TBPL_PARSER
 "
 ]
 =
-b
 "
 True
 "
@@ -4725,26 +4717,22 @@ enable_webrender
             
 gtest_env
 [
-b
 "
 MOZ_WEBRENDER
 "
 ]
 =
-b
 "
 1
 "
             
 gtest_env
 [
-b
 "
 MOZ_ACCELERATED
 "
 ]
 =
-b
 "
 1
 "
@@ -4754,13 +4742,11 @@ else
             
 gtest_env
 [
-b
 "
 MOZ_WEBRENDER
 "
 ]
 =
-b
 "
 0
 "
