@@ -4832,14 +4832,6 @@ aNode
 )
 const
 ;
-uint32_t
-CountEditableChildren
-(
-nsINode
-*
-aNode
-)
-;
 bool
 ShouldHandleIMEComposition
 (
