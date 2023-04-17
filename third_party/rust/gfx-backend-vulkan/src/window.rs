@@ -2220,6 +2220,13 @@ as
 _
 ;
 let
+usage
+=
+config
+.
+image_usage
+;
+let
 format
 =
 config
@@ -2358,6 +2365,7 @@ Swizzle
 :
 :
 NO
+usage
 hal
 :
 :

@@ -109,6 +109,14 @@ BufferAddress
 ;
 pub
 const
+MAP_ALIGNMENT
+:
+BufferAddress
+=
+8
+;
+pub
+const
 VERTEX_STRIDE_ALIGNMENT
 :
 BufferAddress
@@ -3796,6 +3804,7 @@ u8
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 )
@@ -4634,10 +4643,10 @@ Zero
 One
 =
 1
-SrcColor
+Src
 =
 2
-OneMinusSrcColor
+OneMinusSrc
 =
 3
 SrcAlpha
@@ -4646,10 +4655,10 @@ SrcAlpha
 OneMinusSrcAlpha
 =
 5
-DstColor
+Dst
 =
 6
-OneMinusDstColor
+OneMinusDst
 =
 7
 DstAlpha
@@ -4661,10 +4670,10 @@ OneMinusDstAlpha
 SrcAlphaSaturated
 =
 10
-BlendColor
+Constant
 =
 11
-OneMinusBlendColor
+OneMinusConstant
 =
 12
 }
@@ -4768,6 +4777,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 Eq
@@ -4830,7 +4840,7 @@ REPLACE
 :
 Self
 =
-BlendComponent
+Self
 {
 src_factor
 :
@@ -4858,7 +4868,7 @@ OVER
 :
 Self
 =
-BlendComponent
+Self
 {
 src_factor
 :
@@ -4882,7 +4892,7 @@ Add
 ;
 pub
 fn
-uses_color
+uses_constant
 (
 &
 self
@@ -4905,7 +4915,7 @@ dst_factor
 BlendFactor
 :
 :
-BlendColor
+Constant
 _
 )
 |
@@ -4913,7 +4923,7 @@ _
 BlendFactor
 :
 :
-OneMinusBlendColor
+OneMinusConstant
 _
 )
 |
@@ -4922,7 +4932,7 @@ _
 BlendFactor
 :
 :
-BlendColor
+Constant
 )
 |
 (
@@ -4930,7 +4940,7 @@ _
 BlendFactor
 :
 :
-OneMinusBlendColor
+OneMinusConstant
 )
 =
 >
@@ -4976,6 +4986,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 Eq
@@ -5581,6 +5592,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 Default
 PartialEq
@@ -5784,6 +5796,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 Eq
@@ -8464,6 +8477,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 Default
 PartialEq
@@ -8894,6 +8908,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 Eq
@@ -9212,6 +9227,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 Eq
@@ -12214,6 +12230,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 Default
 )
@@ -12663,6 +12680,7 @@ false
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 Eq
@@ -13403,6 +13421,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 )
 ]
@@ -13439,6 +13458,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 )
 ]
@@ -13479,6 +13499,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 )
 ]

@@ -10194,6 +10194,12 @@ format
 :
 :
 Swizzle
+usage
+:
+image
+:
+:
+Usage
 range
 :
 image
@@ -10444,8 +10450,6 @@ format
 srv_handle
 :
 if
-image
-.
 usage
 .
 intersects
@@ -10511,8 +10515,6 @@ None
 rtv_handle
 :
 if
-image
-.
 usage
 .
 contains
@@ -10578,8 +10580,6 @@ None
 uav_handle
 :
 if
-image
-.
 usage
 .
 contains
@@ -10645,8 +10645,6 @@ None
 dsv_handle
 :
 if
-image
-.
 usage
 .
 contains
@@ -10725,8 +10723,6 @@ None
 rodsv_handle
 :
 if
-image
-.
 usage
 .
 contains

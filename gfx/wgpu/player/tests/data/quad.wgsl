@@ -45,7 +45,7 @@ draw
 a
 large
 triangle
-const
+let
 tmp1
 =
 i32
@@ -55,7 +55,7 @@ vertex_index
 /
 2
 ;
-const
+let
 tmp2
 =
 i32
@@ -65,7 +65,7 @@ vertex_index
 &
 1
 ;
-const
+let
 pos
 =
 vec2

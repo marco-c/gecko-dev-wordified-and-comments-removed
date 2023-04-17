@@ -120,7 +120,7 @@ u32
 >
 )
 {
-const
+let
 dim
 =
 textureDimensions
@@ -128,7 +128,7 @@ textureDimensions
 image_src
 )
 ;
-const
+let
 itc
 =
 dim
@@ -152,7 +152,7 @@ i32
 20
 )
 ;
-const
+let
 value
 =
 textureLoad

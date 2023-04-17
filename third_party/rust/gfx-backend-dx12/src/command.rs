@@ -11935,7 +11935,7 @@ pipeline
 .
 baked_states
 .
-blend_color
+blend_constants
 {
 self
 .

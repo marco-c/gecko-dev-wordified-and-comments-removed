@@ -339,7 +339,6 @@ spirv
 :
 Word
 )
-UnsupportedRowMajorMatrix
 UnsupportedMatrixStride
 (
 spirv

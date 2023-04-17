@@ -2720,7 +2720,7 @@ super
 fn
 store
 (
-pointer_type_id
+pointer_id
 :
 Word
 object_id
@@ -2759,7 +2759,7 @@ instruction
 .
 add_operand
 (
-pointer_type_id
+pointer_id
 )
 ;
 instruction

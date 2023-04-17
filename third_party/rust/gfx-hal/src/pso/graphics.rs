@@ -243,7 +243,7 @@ Option
 Rect
 >
 pub
-blend_color
+blend_constants
 :
 Option
 <

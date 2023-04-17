@@ -409,9 +409,7 @@ size
 u16
 :
 :
-max_value
-(
-)
+MAX
 as
 usize
 )

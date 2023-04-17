@@ -16,8 +16,7 @@ true
 spv_adjust_coordinate_space
 :
 true
-mtl_bindings
+msl_custom
 :
-{
-}
+false
 )

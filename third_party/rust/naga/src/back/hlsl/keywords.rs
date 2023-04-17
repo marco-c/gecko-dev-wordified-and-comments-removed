@@ -1,0 +1,14 @@
+pub
+const
+RESERVED
+:
+&
+[
+&
+str
+]
+=
+&
+[
+]
+;

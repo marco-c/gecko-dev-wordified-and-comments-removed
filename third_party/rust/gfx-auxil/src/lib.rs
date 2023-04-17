@@ -351,9 +351,7 @@ size
 usize
 :
 :
-max_value
-(
-)
+MAX
 as
 u64
 {

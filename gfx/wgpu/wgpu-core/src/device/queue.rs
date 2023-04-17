@@ -2174,11 +2174,8 @@ data
 data_path
 layout
 :
+*
 data_layout
-.
-clone
-(
-)
 size
 :
 *

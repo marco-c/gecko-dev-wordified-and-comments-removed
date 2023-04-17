@@ -1695,11 +1695,6 @@ kind
 mip_levels
 :
 1
-usage
-:
-sc
-.
-usage
 default_view_format
 :
 None

@@ -560,11 +560,10 @@ TypeInner
 :
 Struct
 {
-block
-:
-_
 ref
 members
+.
+.
 }
 =
 ty
