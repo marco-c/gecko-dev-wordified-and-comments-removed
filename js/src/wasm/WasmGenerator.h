@@ -675,14 +675,7 @@ threadType
 (
 )
 override
-{
-return
-ThreadType
-:
-:
-THREAD_TYPE_WASM
 ;
-}
 }
 ;
 class
