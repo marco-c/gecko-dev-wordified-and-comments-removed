@@ -69,6 +69,9 @@ n
 =
 0
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 inline
 void
 AppendU8
@@ -127,6 +130,8 @@ n
 )
 ;
 }
+#
+endif
 #
 endif
 virtual

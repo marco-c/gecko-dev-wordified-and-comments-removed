@@ -7376,7 +7376,7 @@ library
 [
 default
 =
-no
+yes
 ]
 .
 icu
@@ -7445,7 +7445,7 @@ esac
 ]
 layoutex
 =
-false
+have_icu_le_hb
 )
 ICU_CONDITIONAL
 (
@@ -9499,14 +9499,6 @@ test
 perf
 /
 convperf
-/
-Makefile
-\
-test
-/
-perf
-/
-localecanperf
 /
 Makefile
 \

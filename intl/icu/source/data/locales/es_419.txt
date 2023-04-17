@@ -427,12 +427,6 @@ group
 }
 }
 }
-minimumGroupingDigits
-{
-"
-1
-"
-}
 }
 calendar
 {

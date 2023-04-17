@@ -3300,6 +3300,13 @@ rom
 Romanca
 "
 }
+root
+{
+"
+K
+ken
+"
+}
 rtm
 {
 "

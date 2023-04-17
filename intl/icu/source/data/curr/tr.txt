@@ -3184,7 +3184,6 @@ Frang
 XOF
 {
 "
-F
 CFA
 "
 "

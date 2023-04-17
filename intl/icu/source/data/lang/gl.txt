@@ -2155,6 +2155,13 @@ rof
 rombo
 "
 }
+root
+{
+"
+ra
+z
+"
+}
 ru
 {
 "

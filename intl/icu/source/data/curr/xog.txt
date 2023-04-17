@@ -639,7 +639,6 @@ wakati
 XOF
 {
 "
-F
 CFA
 "
 "

@@ -2984,6 +2984,12 @@ rom
 Romani
 "
 }
+root
+{
+"
+Root
+"
+}
 rtm
 {
 "

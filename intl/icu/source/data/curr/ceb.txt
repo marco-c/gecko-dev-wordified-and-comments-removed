@@ -1590,7 +1590,6 @@ Dollar
 XOF
 {
 "
-F
 CFA
 "
 "

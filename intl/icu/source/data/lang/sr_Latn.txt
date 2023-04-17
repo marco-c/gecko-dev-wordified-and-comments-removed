@@ -2605,6 +2605,12 @@ rom
 romski
 "
 }
+root
+{
+"
+rut
+"
+}
 ru
 {
 "

@@ -2237,6 +2237,12 @@ rof
 Kirombo
 "
 }
+root
+{
+"
+Kiroot
+"
+}
 ru
 {
 "

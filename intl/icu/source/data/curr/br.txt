@@ -3054,7 +3054,6 @@ houarn
 XOF
 {
 "
-F
 CFA
 "
 "

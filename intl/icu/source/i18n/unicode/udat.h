@@ -703,6 +703,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 typedef
 enum
 UDateFormatHourCycle
@@ -714,6 +717,8 @@ UDAT_HOUR_CYCLE_24
 }
 UDateFormatHourCycle
 ;
+#
+endif
 #
 if
 U_SHOW_CPLUSPLUS_API

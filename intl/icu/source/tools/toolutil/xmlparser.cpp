@@ -3284,7 +3284,7 @@ fNames
 puti
 (
 s
-1
+0
 errorCode
 )
 ;

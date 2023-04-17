@@ -95,14 +95,14 @@ Intl
 getCanonicalLocales
 (
 "
-tl
+no
 "
 )
 [
 0
 ]
 "
-fil
+nb
 "
 )
 ;

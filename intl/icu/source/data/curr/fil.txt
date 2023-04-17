@@ -1798,7 +1798,6 @@ Caribbean
 XOF
 {
 "
-F
 CFA
 "
 "

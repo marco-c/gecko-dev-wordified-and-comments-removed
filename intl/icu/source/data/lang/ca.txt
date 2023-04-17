@@ -2991,6 +2991,12 @@ rom
 roman
 "
 }
+root
+{
+"
+arrel
+"
+}
 ru
 {
 "

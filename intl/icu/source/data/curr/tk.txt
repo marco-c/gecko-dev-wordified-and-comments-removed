@@ -1726,7 +1726,6 @@ dollary
 XOF
 {
 "
-F
 CFA
 "
 "

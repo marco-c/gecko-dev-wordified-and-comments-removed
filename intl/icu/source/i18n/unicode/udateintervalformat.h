@@ -204,6 +204,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 U_CAPI
 void
 U_EXPORT2
@@ -248,6 +251,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 #
 ifndef
 U_HIDE_DRAFT_API

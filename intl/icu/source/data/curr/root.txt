@@ -168,14 +168,6 @@ NZ
 NZD
 "
 }
-PHP
-{
-"
-"
-"
-PHP
-"
-}
 TWD
 {
 "
@@ -223,7 +215,6 @@ XCD
 XOF
 {
 "
-F
 CFA
 "
 "
@@ -831,7 +822,9 @@ other
 Version
 {
 "
-39
+38
+.
+1
 "
 }
 currencySpacing

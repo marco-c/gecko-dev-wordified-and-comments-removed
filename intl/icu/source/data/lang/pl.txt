@@ -3137,6 +3137,14 @@ cyga
 ski
 "
 }
+root
+{
+"
+j
+zyk
+rdzenny
+"
+}
 rtm
 {
 "

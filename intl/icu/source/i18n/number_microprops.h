@@ -247,11 +247,6 @@ nsName
 ]
 ;
 const
-char
-*
-gender
-;
-const
 DecimalFormatSymbols
 *
 symbols
@@ -304,12 +299,6 @@ outputUnit
 ;
 IntMeasures
 mixedMeasures
-;
-int32_t
-indexOfQuantity
-=
--
-1
 ;
 int32_t
 mixedMeasuresCount

@@ -2638,6 +2638,14 @@ rom
 romani
 "
 }
+root
+{
+"
+r
+d
+cin
+"
+}
 ru
 {
 "

@@ -664,7 +664,6 @@ ifa
 XOF
 {
 "
-F
 CFA
 "
 "

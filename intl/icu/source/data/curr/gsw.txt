@@ -1965,6 +1965,7 @@ Kina
 PHP
 {
 "
+PHP
 "
 "
 Philippiinische
@@ -2817,7 +2818,6 @@ Franc
 XOF
 {
 "
-F
 CFA
 "
 "

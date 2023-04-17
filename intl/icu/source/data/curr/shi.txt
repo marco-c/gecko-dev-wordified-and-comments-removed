@@ -488,7 +488,6 @@ FCFA
 XOF
 {
 "
-F
 CFA
 "
 "

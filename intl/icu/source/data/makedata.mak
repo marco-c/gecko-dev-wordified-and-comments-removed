@@ -328,7 +328,7 @@ uvernum
 h
 U_ICUDATA_NAME
 =
-icudt69
+icudt68
 #
 #
 #
@@ -435,7 +435,7 @@ version
 .
 U_ICUDATA_NAME
 =
-icudt69
+icudt68
 !
 ENDIF
 U_ICUDATA_ENDIAN_SUFFIX

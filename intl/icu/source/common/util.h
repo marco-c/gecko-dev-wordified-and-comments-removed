@@ -7,16 +7,9 @@ ICU_UTIL_H
 #
 include
 "
-charstr
-.
-h
-"
-#
-include
-"
 unicode
 /
-unistr
+utypes
 .
 h
 "
@@ -34,7 +27,7 @@ include
 "
 unicode
 /
-utypes
+unistr
 .
 h
 "

@@ -617,7 +617,6 @@ Sifa
 XOF
 {
 "
-F
 CFA
 "
 "

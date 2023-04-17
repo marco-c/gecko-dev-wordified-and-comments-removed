@@ -246,9 +246,9 @@ Version
 }
 ExpectCLDRVersionAtLeast
 {
-39
+38
 .
-0
+1
 }
 /
 /
@@ -271,9 +271,9 @@ of
 this
 CurrentCLDRVersion
 {
-39
+38
 .
-0
+1
 }
 /
 /

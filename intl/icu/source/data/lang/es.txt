@@ -2788,6 +2788,13 @@ rom
 roman
 "
 }
+root
+{
+"
+ra
+z
+"
+}
 ru
 {
 "

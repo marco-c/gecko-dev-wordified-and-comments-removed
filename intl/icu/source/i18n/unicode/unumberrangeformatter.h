@@ -238,6 +238,9 @@ UErrorCode
 ec
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 U_CAPI
 int32_t
 U_EXPORT2
@@ -276,6 +279,8 @@ UErrorCode
 ec
 )
 ;
+#
+endif
 U_CAPI
 void
 U_EXPORT2

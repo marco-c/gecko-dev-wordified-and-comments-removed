@@ -2587,6 +2587,13 @@ rom
 Romani
 "
 }
+root
+{
+"
+Y
+Gwraidd
+"
+}
 rtm
 {
 "

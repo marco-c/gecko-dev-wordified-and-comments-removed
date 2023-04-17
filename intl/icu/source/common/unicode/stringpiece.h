@@ -87,6 +87,9 @@ str
 )
 ;
 #
+ifndef
+U_HIDE_DRAFT_API
+#
 if
 defined
 (
@@ -141,6 +144,8 @@ length_
 )
 {
 }
+#
+endif
 StringPiece
 (
 const
@@ -176,6 +181,9 @@ size
 )
 {
 }
+#
+ifndef
+U_HIDE_DRAFT_API
 #
 if
 defined
@@ -231,6 +239,8 @@ size
 )
 {
 }
+#
+endif
 #
 endif
 template
@@ -387,6 +397,9 @@ len
 {
 }
 #
+ifndef
+U_HIDE_DRAFT_API
+#
 if
 defined
 (
@@ -423,6 +436,8 @@ len
 )
 {
 }
+#
+endif
 #
 endif
 StringPiece
@@ -536,6 +551,9 @@ str
 )
 ;
 #
+ifndef
+U_HIDE_DRAFT_API
+#
 if
 defined
 (
@@ -598,6 +616,8 @@ str
 )
 ;
 }
+#
+endif
 #
 endif
 void
@@ -677,6 +697,9 @@ length_
 }
 }
 }
+#
+ifndef
+U_HIDE_DRAFT_API
 int32_t
 find
 (
@@ -693,6 +716,8 @@ StringPiece
 other
 )
 ;
+#
+endif
 static
 const
 int32_t

@@ -673,7 +673,6 @@ BEAC
 XOF
 {
 "
-F
 CFA
 "
 "

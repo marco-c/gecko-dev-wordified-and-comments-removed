@@ -5174,7 +5174,7 @@ currentMaskToUnicode
 Vocallic
 RR
 is
-assigned
+assigne
 in
 ISCII
 Telugu
