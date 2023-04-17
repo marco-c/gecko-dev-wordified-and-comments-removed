@@ -1779,13 +1779,15 @@ MY
 -
 MOCHITEST
 -
-EXPERIMENT_AW_STEP1
+EXPERIMENT_0_AW_STEP1
 "
 "
 Telemetry
 should
 join
 id
+and
+order
 defined
 in
 feature
@@ -3709,7 +3711,7 @@ args
 ]
 .
 message_id
-DEFAULT_ABOUTWELCOME_
+DEFAULT_ABOUTWELCOME_0_
 {
 TEST_MULTISTAGE_CONTENT
 [
@@ -5491,7 +5493,7 @@ message_id
 =
 =
 "
-DEFAULT_ABOUTWELCOME_PROTON_AW_STEP1
+DEFAULT_ABOUTWELCOME_PROTON_0_AW_STEP1
 "
 "
 AboutWelcome
@@ -5501,6 +5503,8 @@ id
 joined
 with
 screen
+order
+and
 id
 "
 )
