@@ -1311,10 +1311,6 @@ NativeProperties
 *
 chromeOnly
 ;
-bool
-*
-inited
-;
 }
 ;
 struct
