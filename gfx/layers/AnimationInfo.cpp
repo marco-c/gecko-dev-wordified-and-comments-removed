@@ -3447,7 +3447,7 @@ nsCSSPropertyID
 aProperty
 Send
 aSendFlag
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 )
@@ -5077,7 +5077,7 @@ nsDisplayItem
 aItem
 DisplayItemType
 aType
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 const

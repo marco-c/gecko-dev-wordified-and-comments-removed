@@ -144,7 +144,7 @@ class
 Layer
 ;
 class
-LayerManager
+WebRenderLayerManager
 ;
 }
 namespace
@@ -929,7 +929,7 @@ mozilla
 layers
 :
 :
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 const

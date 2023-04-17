@@ -295,6 +295,9 @@ CompositorSession
 class
 ImageContainer
 ;
+class
+WebRenderLayerManager
+;
 struct
 ScrollableLayerGuid
 ;
@@ -3321,7 +3324,13 @@ private
 :
 already_AddRefed
 <
-LayerManager
+mozilla
+:
+:
+layers
+:
+:
+WebRenderLayerManager
 >
 CreateCompositorSession
 (

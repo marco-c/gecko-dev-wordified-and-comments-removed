@@ -42,7 +42,7 @@ class
 CompositorOptions
 ;
 class
-LayerManager
+WebRenderLayerManager
 ;
 class
 InProcessCompositorSession
@@ -63,7 +63,7 @@ Create
 nsBaseWidget
 *
 baseWidget
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 const

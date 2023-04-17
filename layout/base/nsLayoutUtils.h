@@ -444,6 +444,9 @@ StackingContextHelper
 class
 Layer
 ;
+class
+WebRenderLayerManager
+;
 }
 }
 enum
@@ -5849,7 +5852,7 @@ mozilla
 layers
 :
 :
-LayerManager
+WebRenderLayerManager
 *
 aManager
 ViewID
@@ -5894,7 +5897,7 @@ mozilla
 layers
 :
 :
-LayerManager
+WebRenderLayerManager
 *
 aManager
 ViewID
@@ -6021,7 +6024,7 @@ mozilla
 layers
 :
 :
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 ViewID
@@ -6063,7 +6066,7 @@ mozilla
 layers
 :
 :
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 const
@@ -6617,7 +6620,7 @@ mozilla
 layers
 :
 :
-LayerManager
+WebRenderLayerManager
 *
 aManager
 ViewID

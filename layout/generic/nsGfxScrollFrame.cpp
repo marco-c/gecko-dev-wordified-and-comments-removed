@@ -20841,7 +20841,7 @@ ScrollFrameHelper
 :
 ComputeScrollMetadata
 (
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 const

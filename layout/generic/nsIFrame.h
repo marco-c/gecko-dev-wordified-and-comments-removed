@@ -8641,15 +8641,6 @@ uint8_t
 sLayerIsPrerenderedDataKey
 ;
 bool
-TryUpdateTransformOnly
-(
-Layer
-*
-*
-aLayerResult
-)
-;
-bool
 IsInvalid
 (
 nsRect

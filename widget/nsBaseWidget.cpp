@@ -6076,7 +6076,7 @@ forget
 }
 already_AddRefed
 <
-LayerManager
+WebRenderLayerManager
 >
 nsBaseWidget
 :
@@ -6322,7 +6322,7 @@ CompositorInitiallyPaused
 endif
 RefPtr
 <
-LayerManager
+WebRenderLayerManager
 >
 lm
 =
@@ -6377,11 +6377,6 @@ nsCString
 error
 ;
 lm
--
->
-AsWebRenderLayerManager
-(
-)
 -
 >
 Initialize
@@ -6570,7 +6565,7 @@ options
 ;
 RefPtr
 <
-LayerManager
+WebRenderLayerManager
 >
 lm
 =
@@ -6676,16 +6671,6 @@ reset
 )
 ;
 }
-if
-(
-lm
--
->
-AsWebRenderLayerManager
-(
-)
-)
-{
 TextureFactoryIdentifier
 textureFactoryIdentifier
 =
@@ -6728,7 +6713,6 @@ IdentifyTextureHost
 textureFactoryIdentifier
 )
 ;
-}
 WindowUsesOMTC
 (
 )
