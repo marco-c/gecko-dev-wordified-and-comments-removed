@@ -1831,7 +1831,6 @@ mochitest
 media
 -
 failures
-#
 -
 mochitest
 -
@@ -1860,7 +1859,6 @@ tests
 crashtest
 -
 jsreftest
-#
 -
 mochitest
 -
