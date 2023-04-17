@@ -6619,7 +6619,7 @@ extern
 C
 "
 fn
-wgpu_render_pass_bundle_indexed_indirect
+wgpu_render_bundle_draw_indexed_indirect
 (
 bundle
 :

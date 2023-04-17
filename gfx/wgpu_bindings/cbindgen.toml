@@ -307,6 +307,13 @@ CommandEncoderDescriptor_RawString
 CommandEncoderDescriptor
 "
 "
+RenderBundleDescriptor_RawString
+"
+=
+"
+RenderBundleDescriptor
+"
+"
 DeviceDescriptor_RawString
 "
 =

@@ -327,6 +327,13 @@ selfId
 )
 ;
 async
+RenderBundleDestroy
+(
+RawId
+selfId
+)
+;
+async
 QueueSubmit
 (
 RawId
