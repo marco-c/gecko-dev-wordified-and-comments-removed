@@ -1681,11 +1681,6 @@ UnsuppressPainting
 )
 ;
 void
-UnsuppressPaintingFromTimer
-(
-)
-;
-void
 InitPaintSuppressionTimer
 (
 )
@@ -6454,11 +6449,6 @@ mChangeNestCount
 ;
 RenderingStateFlags
 mRenderingStateFlags
-;
-int32_t
-mPaintSuppressionAttempts
-=
-0
 ;
 bool
 mInFlush
