@@ -442,9 +442,7 @@ null
 let
 unescapedSearchString
 =
-Services
-.
-textToSubURI
+UrlbarUtils
 .
 unEscapeURIForUI
 (
