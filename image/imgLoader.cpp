@@ -9269,6 +9269,9 @@ bool
 hasExpired
 =
 expiryTime
+!
+=
+0
 &
 &
 expiryTime
