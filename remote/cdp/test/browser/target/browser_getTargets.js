@@ -7,7 +7,7 @@ const
 PAGE_TEST
 =
 "
-http
+https
 :
 /
 /

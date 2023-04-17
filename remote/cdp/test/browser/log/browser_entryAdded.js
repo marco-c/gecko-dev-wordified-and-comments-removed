@@ -229,7 +229,7 @@ foo
 sourceName
 :
 "
-http
+https
 :
 /
 /
@@ -314,7 +314,7 @@ events
 .
 url
 "
-http
+https
 :
 /
 /

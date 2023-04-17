@@ -7,7 +7,7 @@ const
 PAGE_CONSOLE_EVENTS
 =
 "
-http
+https
 :
 /
 /

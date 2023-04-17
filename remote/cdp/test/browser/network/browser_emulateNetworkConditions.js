@@ -7,7 +7,7 @@ const
 pageEmptyURL
 =
 "
-http
+https
 :
 /
 /
