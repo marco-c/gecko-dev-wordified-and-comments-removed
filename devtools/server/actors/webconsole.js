@@ -1042,6 +1042,14 @@ if
 window
 |
 |
+Cu
+.
+isDeadWrapper
+(
+window
+)
+|
+|
 window
 .
 closed
