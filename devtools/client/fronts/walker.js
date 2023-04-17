@@ -1702,6 +1702,16 @@ DOCUMENT_NODE
 }
 )
 ;
+if
+(
+!
+nodeFront
+)
+{
+return
+null
+;
+}
 }
 return
 querySelectors
