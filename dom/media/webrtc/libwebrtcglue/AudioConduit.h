@@ -27,6 +27,15 @@ include
 "
 mozilla
 /
+RWLock
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StateMirroring
 .
 h
@@ -650,8 +659,8 @@ bool
 mDtmfEnabled
 ;
 mutable
-Mutex
-mMutex
+RWLock
+mLock
 ;
 const
 RefPtr
