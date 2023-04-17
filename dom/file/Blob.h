@@ -118,9 +118,10 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_DOM_BLOB_IID
 )
-typedef
-OwningArrayBufferViewOrArrayBufferOrBlobOrUSVString
+using
 BlobPart
+=
+OwningArrayBufferViewOrArrayBufferOrBlobOrUSVString
 ;
 static
 Blob

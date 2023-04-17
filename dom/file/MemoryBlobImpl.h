@@ -461,11 +461,12 @@ nsIIPCSerializableInputStream
 public
 nsICloneableInputStream
 {
-typedef
+using
+DataOwner
+=
 MemoryBlobImpl
 :
 :
-DataOwner
 DataOwner
 ;
 public
