@@ -96,6 +96,11 @@ ExtensionAlarms
 cpp
 "
 "
+ExtensionRuntime
+.
+cpp
+"
+"
 ExtensionTest
 .
 cpp
@@ -111,6 +116,11 @@ extensions
 [
 "
 ExtensionAlarms
+.
+h
+"
+"
+ExtensionRuntime
 .
 h
 "
