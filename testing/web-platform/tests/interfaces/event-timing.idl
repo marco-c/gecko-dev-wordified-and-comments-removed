@@ -85,6 +85,13 @@ Node
 ?
 target
 ;
+readonly
+attribute
+unsigned
+long
+long
+interactionId
+;
 [
 Default
 ]
