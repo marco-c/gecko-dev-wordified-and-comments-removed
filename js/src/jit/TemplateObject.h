@@ -277,14 +277,6 @@ regExpShared
 )
 const
 ;
-inline
-void
-*
-getPrivate
-(
-)
-const
-;
 }
 ;
 }
