@@ -1,9 +1,9 @@
 #
 ifndef
-intl_components_Locale_h_
+intl_components_LocaleCanonicalizer_h_
 #
 define
-intl_components_Locale_h_
+intl_components_LocaleCanonicalizer_h_
 #
 include
 "
