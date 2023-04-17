@@ -35,6 +35,13 @@ guiddef
 .
 h
 >
+#
+include
+<
+stdint
+.
+h
+>
 struct
 IStream
 ;

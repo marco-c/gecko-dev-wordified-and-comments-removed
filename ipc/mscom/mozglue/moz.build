@@ -12,6 +12,11 @@ mscom
 =
 [
 "
+ActCtxResource
+.
+h
+"
+"
 ProcessRuntimeShared
 .
 h
@@ -21,6 +26,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+ActCtxResource
+.
+cpp
+"
 "
 ProcessRuntimeShared
 .
