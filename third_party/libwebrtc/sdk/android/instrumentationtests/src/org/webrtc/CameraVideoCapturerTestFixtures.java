@@ -51,9 +51,7 @@ content
 Context
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

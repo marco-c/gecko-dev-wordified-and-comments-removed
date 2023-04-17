@@ -68,9 +68,7 @@ projection
 MediaProjectionManager
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .
