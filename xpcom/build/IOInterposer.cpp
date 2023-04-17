@@ -2561,6 +2561,8 @@ sThreadLocalDataInitialized
 return
 ;
 }
+if
+(
 PerThreadData
 *
 curThreadData
@@ -2570,12 +2572,8 @@ sThreadLocalData
 get
 (
 )
-;
-MOZ_ASSERT
-(
-curThreadData
 )
-;
+{
 sThreadLocalData
 .
 set
@@ -2586,6 +2584,7 @@ nullptr
 delete
 curThreadData
 ;
+}
 }
 void
 IOInterposer
