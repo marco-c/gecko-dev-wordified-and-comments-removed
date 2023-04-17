@@ -1765,7 +1765,15 @@ aChar
 ;
 static
 bool
-IsAlphanumericAt
+IsAlphanumericOrSymbol
+(
+uint32_t
+aChar
+)
+;
+static
+bool
+IsAlphanumericOrSymbolAt
 (
 const
 nsTextFragment

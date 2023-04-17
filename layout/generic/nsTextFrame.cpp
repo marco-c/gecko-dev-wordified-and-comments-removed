@@ -44051,7 +44051,7 @@ if
 nsContentUtils
 :
 :
-IsAlphanumericAt
+IsAlphanumericOrSymbolAt
 (
 aFrag
 aOffset
