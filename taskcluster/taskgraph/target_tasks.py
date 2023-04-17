@@ -1510,6 +1510,26 @@ return
 not
 val
 def
+filter_out_shippable
+(
+task
+)
+:
+    
+return
+not
+task
+.
+attributes
+.
+get
+(
+"
+shippable
+"
+False
+)
+def
 _try_task_config
 (
 full_task_graph
@@ -2527,6 +2547,12 @@ filter_unsupported_artifact_builds
 t
 parameters
 )
+        
+and
+filter_out_shippable
+(
+t
+)
     
 ]
 _target_task
@@ -2720,20 +2746,6 @@ build_type
 "
 )
         
-shippable
-=
-task
-.
-attributes
-.
-get
-(
-"
-shippable
-"
-False
-)
-        
 if
 not
 build_type
@@ -2745,8 +2757,10 @@ build_type
 opt
 "
 or
-not
-shippable
+filter_out_shippable
+(
+task
+)
 :
             
 return
