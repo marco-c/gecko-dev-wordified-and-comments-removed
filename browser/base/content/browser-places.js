@@ -7505,14 +7505,8 @@ extraClasses
 insertionPoint
 :
 "
-.
-panel
--
-subview
--
-footer
--
-button
+#
+BMB_bookmarksShowAll
 "
 }
 )
