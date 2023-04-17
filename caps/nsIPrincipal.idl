@@ -249,7 +249,7 @@ e5a7b8f80c8b
 interface
 nsIPrincipal
 :
-nsISerializable
+nsISupports
 {
 boolean
 equals

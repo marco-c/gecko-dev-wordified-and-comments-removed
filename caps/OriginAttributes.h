@@ -345,6 +345,15 @@ aStr
 )
 const
 ;
+already_AddRefed
+<
+nsAtom
+>
+CreateSuffixAtom
+(
+)
+const
+;
 void
 CreateAnonymizedSuffix
 (
