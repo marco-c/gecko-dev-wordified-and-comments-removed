@@ -621,7 +621,7 @@ mHandledByAPZ
 int16_t
 mButton
 =
-eNotPressed
+0
 ;
 int16_t
 mButtons
