@@ -529,6 +529,14 @@ goBack
 (
 )
 ;
+if
+(
+!
+isFissionEnabled
+(
+)
+)
+{
 await
 waitFor
 (
@@ -670,6 +678,7 @@ Cache
 "
 )
 ;
+}
 }
 )
 ;
