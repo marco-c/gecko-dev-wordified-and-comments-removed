@@ -3011,6 +3011,12 @@ EnsureOpaqueResponseIsAllowedAfterSniff
 (
 )
 ;
+bool
+Http3Allowed
+(
+)
+const
+;
 friend
 class
 PrivateBrowsingChannel
