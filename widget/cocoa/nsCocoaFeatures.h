@@ -72,6 +72,12 @@ OnBigSurOrLater
 ;
 static
 bool
+OnMontereyOrLater
+(
+)
+;
+static
+bool
 IsAtLeastVersion
 (
 int32_t
