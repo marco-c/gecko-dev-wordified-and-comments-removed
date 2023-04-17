@@ -4774,14 +4774,6 @@ InsertLineBreak
 (
 )
 {
-MOZ_ASSERT
-(
-!
-IsSingleLineEditor
-(
-)
-)
-;
 AutoEditActionDataSetter
 editActionData
 (
