@@ -261,9 +261,11 @@ const
 COLLECTION_REMOTE_DEFAULTS
 =
 "
-messaging
+nimbus
 -
-system
+desktop
+-
+defaults
 "
 ;
 const

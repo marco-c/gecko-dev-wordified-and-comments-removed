@@ -218,9 +218,11 @@ client
 RemoteSettings
 (
 "
-messaging
+nimbus
 -
-system
+desktop
+-
+defaults
 "
 )
 ;
