@@ -15207,6 +15207,12 @@ CloneForcingOriginAttributes
 attrs
 )
 ;
+NS_ENSURE_TRUE
+(
+pbPrincipal
+NS_ERROR_FAILURE
+)
+;
 rv
 =
 AddInternal

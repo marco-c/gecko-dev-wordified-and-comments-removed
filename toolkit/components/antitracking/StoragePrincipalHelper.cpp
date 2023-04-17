@@ -433,6 +433,12 @@ CloneForcingOriginAttributes
 attrs
 )
 ;
+NS_ENSURE_TRUE
+(
+storagePrincipal
+NS_ERROR_FAILURE
+)
+;
 storagePrincipal
 .
 forget
@@ -532,6 +538,12 @@ aPrincipal
 CloneForcingOriginAttributes
 (
 attrs
+)
+;
+NS_ENSURE_TRUE
+(
+partitionedPrincipal
+NS_ERROR_FAILURE
 )
 ;
 partitionedPrincipal
