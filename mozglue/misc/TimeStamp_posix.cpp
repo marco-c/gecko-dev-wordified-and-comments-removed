@@ -222,6 +222,13 @@ static
 uint64_t
 sResolutionSigDigs
 ;
+#
+if
+!
+defined
+(
+__wasi__
+)
 static
 const
 uint16_t
@@ -229,6 +236,8 @@ kNsPerUs
 =
 1000
 ;
+#
+endif
 static
 const
 uint64_t
