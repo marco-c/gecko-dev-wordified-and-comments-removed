@@ -1621,7 +1621,9 @@ python
 PYTHON
 :
 -
-python3
+python2
+.
+7
 }
 {
 GECKO_PATH
@@ -1639,7 +1641,9 @@ python
 PYTHON
 :
 -
-python3
+python2
+.
+7
 }
 "
 #
