@@ -151,14 +151,6 @@ third_party
 /
 python
 /
-futures
-"
-    
-"
-third_party
-/
-python
-/
 jsmin
 "
     
