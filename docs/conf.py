@@ -640,7 +640,7 @@ doctree
     
 if
 "
-raptor
+perfdocs
 "
 in
 pagename

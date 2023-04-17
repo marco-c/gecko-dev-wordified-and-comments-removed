@@ -30,6 +30,8 @@ MozperftestGatherer
 RaptorGatherer
     
 StaticGatherer
+    
+TalosGatherer
 )
 logger
 =
@@ -51,6 +53,12 @@ mozperftest
 "
 :
 MozperftestGatherer
+    
+"
+talos
+"
+:
+TalosGatherer
 }
 class
 Gatherer
