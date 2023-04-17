@@ -27190,11 +27190,6 @@ GlobalObject
 (
 )
 .
-realm
-(
-)
--
->
 removeFromVarNames
 (
 name
