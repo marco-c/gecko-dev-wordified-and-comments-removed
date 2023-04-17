@@ -1675,6 +1675,11 @@ zh
 -
 CN
 "
+region
+:
+"
+CN
+"
 distribution
 :
 "
@@ -1820,6 +1825,11 @@ locale
 "
 zh
 -
+CN
+"
+region
+:
+"
 CN
 "
 distribution
