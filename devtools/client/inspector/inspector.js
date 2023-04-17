@@ -14,16 +14,6 @@ Services
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 EventEmitter
 =
 require
@@ -7820,7 +7810,7 @@ hierarchical
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
