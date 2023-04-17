@@ -460,6 +460,16 @@ min_height
 [
 no_mangle
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+many_single_char_names
+)
+]
 pub
 extern
 "

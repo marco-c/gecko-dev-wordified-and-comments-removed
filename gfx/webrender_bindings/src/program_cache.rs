@@ -61,7 +61,10 @@ std
 path
 :
 :
+{
 PathBuf
+Path
+}
 ;
 use
 std
@@ -123,7 +126,7 @@ deserialize_program_binary
 path
 :
 &
-PathBuf
+Path
 )
 -
 >
