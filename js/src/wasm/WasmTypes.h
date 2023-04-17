@@ -18856,6 +18856,12 @@ defined
 (
 JS_CODEGEN_X86
 )
+|
+|
+defined
+(
+__wasi__
+)
 uint32_t
 padding_
 ;

@@ -4796,6 +4796,9 @@ true
 ;
 }
 #
+ifndef
+__wasi__
+#
 if
 !
 defined
@@ -5480,9 +5483,6 @@ return
 true
 ;
 }
-#
-ifndef
-__wasi__
 static
 bool
 os_waitpid
@@ -5801,6 +5801,9 @@ id
 .
 "
 )
+#
+ifndef
+__wasi__
 JS_FN_HELP
 (
 "
@@ -5920,9 +5923,6 @@ given
 .
 "
 )
-#
-ifndef
-__wasi__
 JS_FN_HELP
 (
 "

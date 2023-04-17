@@ -222,12 +222,17 @@ math
 h
 >
 #
+ifndef
+__wasi__
+#
 include
 <
 signal
 .
 h
 >
+#
+endif
 #
 include
 <
@@ -36166,6 +36171,9 @@ return
 true
 ;
 }
+#
+ifndef
+__wasi__
 class
 AutoPipe
 {
@@ -36395,6 +36403,8 @@ fds_
 }
 }
 ;
+#
+endif
 int
 shell
 :

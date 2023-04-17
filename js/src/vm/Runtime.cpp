@@ -873,6 +873,9 @@ liveRuntimesCount
 +
 +
 ;
+#
+ifndef
+__wasi__
 wasm
 :
 :
@@ -880,6 +883,8 @@ EnsureEagerProcessSignalHandlers
 (
 )
 ;
+#
+endif
 }
 JSRuntime
 :
