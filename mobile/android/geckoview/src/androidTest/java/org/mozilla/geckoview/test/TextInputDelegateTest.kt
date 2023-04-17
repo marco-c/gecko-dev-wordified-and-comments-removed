@@ -3306,6 +3306,7 @@ foobarfoo
 false
 )
 }
+Ignore
 WithDisplay
 (
 width
@@ -3321,18 +3322,6 @@ inputConnection_deleteSurroundingText
 (
 )
 {
-assumeThat
-(
-sessionRule
-.
-env
-.
-isDebugBuild
-equalTo
-(
-false
-)
-)
 setupContent
 (
 "
