@@ -1036,13 +1036,6 @@ aScrollPosition
 )
 ;
 void
-UpdatePinchZoom
-(
-float
-aZoom
-)
-;
-void
 UpdateIsTransformAsyncZooming
 (
 uint64_t
