@@ -6195,6 +6195,14 @@ None
 }
 }
 }
+pub
+const
+POLYGON_CLIP_VERTEX_MAX
+:
+usize
+=
+16
+;
 #
 [
 repr
