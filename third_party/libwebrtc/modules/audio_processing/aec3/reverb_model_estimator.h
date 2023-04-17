@@ -12,6 +12,11 @@ array
 #
 include
 <
+memory
+>
+#
+include
+<
 vector
 >
 #

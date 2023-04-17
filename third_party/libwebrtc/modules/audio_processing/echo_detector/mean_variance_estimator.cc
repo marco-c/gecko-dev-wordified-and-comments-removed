@@ -93,6 +93,9 @@ mean_
 ;
 RTC_DCHECK
 (
+std
+:
+:
 isfinite
 (
 mean_
@@ -101,6 +104,9 @@ mean_
 ;
 RTC_DCHECK
 (
+std
+:
+:
 isfinite
 (
 variance_
