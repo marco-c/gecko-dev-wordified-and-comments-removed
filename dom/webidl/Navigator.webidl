@@ -1546,7 +1546,6 @@ gamepad
 .
 enabled
 "
-SecureContext
 ]
 sequence
 <

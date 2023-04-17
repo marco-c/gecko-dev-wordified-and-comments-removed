@@ -130,7 +130,6 @@ enabled
 Exposed
 =
 Window
-SecureContext
 ]
 interface
 GamepadEvent

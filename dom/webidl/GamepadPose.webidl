@@ -135,7 +135,6 @@ enabled
 Exposed
 =
 Window
-SecureContext
 ]
 interface
 GamepadPose
