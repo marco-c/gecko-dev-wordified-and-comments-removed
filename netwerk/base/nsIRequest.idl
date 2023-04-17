@@ -398,6 +398,15 @@ LOAD_ANONYMOUS_ALLOW_CLIENT_CERT
 5
 ;
 const
+long
+LOAD_RECORD_START_REQUEST_DELAY
+=
+1
+<
+<
+6
+;
+const
 unsigned
 long
 INHIBIT_CACHING
