@@ -86,6 +86,12 @@ CodeMirrorLines
 "
 )
 ;
+await
+waitForContextMenu
+(
+dbg
+)
+;
 selectContextMenuItem
 (
 dbg

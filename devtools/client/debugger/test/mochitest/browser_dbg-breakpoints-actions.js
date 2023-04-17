@@ -51,6 +51,7 @@ simple2
 3
 )
 ;
+await
 openFirstBreakpointContextMenu
 (
 dbg
@@ -170,6 +171,7 @@ simple1
 6
 )
 ;
+await
 openFirstBreakpointContextMenu
 (
 dbg
@@ -257,6 +259,7 @@ breakpoint
 "
 )
 ;
+await
 openFirstBreakpointContextMenu
 (
 dbg
@@ -324,6 +327,7 @@ disabled
 "
 )
 ;
+await
 openFirstBreakpointContextMenu
 (
 dbg
@@ -409,6 +413,7 @@ enabled
 "
 )
 ;
+await
 openFirstBreakpointContextMenu
 (
 dbg
@@ -499,6 +504,7 @@ line
 }
 )
 ;
+async
 function
 openFirstBreakpointContextMenu
 (
@@ -512,6 +518,12 @@ dbg
 breakpointItem
 "
 2
+)
+;
+await
+waitForContextMenu
+(
+dbg
 )
 ;
 }
