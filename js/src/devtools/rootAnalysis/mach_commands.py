@@ -2502,11 +2502,43 @@ analysis
 .
 "
 )
+CommandArgument
+(
+    
+"
+extra
+"
+    
+nargs
+=
+argparse
+.
+REMAINDER
+    
+help
+=
+"
+Remaining
+non
+-
+optional
+arguments
+to
+pass
+to
+run
+-
+test
+.
+py
+"
+)
 def
 self_test
 (
 command_context
 shell_objdir
+extra
 )
 :
     
@@ -2598,6 +2630,13 @@ gcc_dir
 )
     
 ]
+    
+args
+.
+extend
+(
+extra
+)
     
 setup_env_for_tools
 (
