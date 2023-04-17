@@ -4381,6 +4381,8 @@ obj
 NativeObject
 *
 holder
+HandleId
+id
 ShapeProperty
 prop
 ObjOperandId
@@ -4493,16 +4495,7 @@ writer
 guardHasGetterSetter
 (
 objId
-prop
-.
-shapeDeprecated
-(
-)
--
->
-propid
-(
-)
+id
 gs
 )
 ;
@@ -4524,6 +4517,8 @@ obj
 NativeObject
 *
 holder
+HandleId
+id
 ShapeProperty
 prop
 ObjOperandId
@@ -4542,6 +4537,7 @@ EmitCallGetterResultGuards
 writer
 obj
 holder
+id
 prop
 objId
 mode
@@ -4972,6 +4968,8 @@ obj
 NativeObject
 *
 holder
+HandleId
+id
 ShapeProperty
 prop
 ObjOperandId
@@ -4983,6 +4981,7 @@ EmitCallGetterResultGuards
 writer
 obj
 holder
+id
 prop
 objId
 ICState
@@ -5312,6 +5311,7 @@ cx_
 writer
 nobj
 holder
+id
 *
 prop
 objId
@@ -5337,6 +5337,7 @@ cx_
 writer
 nobj
 holder
+id
 *
 prop
 objId
@@ -5788,6 +5789,7 @@ cx_
 writer
 windowObj
 holder
+id
 *
 prop
 windowObjId
@@ -5819,6 +5821,7 @@ cx_
 writer
 windowObj
 holder
+id
 *
 prop
 windowObjId
@@ -8908,6 +8911,7 @@ EmitCallGetterResultGuards
 writer
 tarr
 holder
+id
 *
 prop
 objId
@@ -9333,6 +9337,7 @@ EmitCallGetterResultGuards
 writer
 dv
 holder
+id
 *
 prop
 objId
@@ -9690,6 +9695,7 @@ EmitCallGetterResultGuards
 writer
 buf
 holder
+id
 *
 prop
 objId
@@ -9944,6 +9950,7 @@ EmitCallGetterResultGuards
 writer
 regExp
 holder
+id
 *
 prop
 objId
@@ -11156,6 +11163,7 @@ cx_
 writer
 nproto
 holder
+id
 *
 prop
 protoId
