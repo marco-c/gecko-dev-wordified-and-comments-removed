@@ -854,11 +854,15 @@ strcmp
 (
 mTarget
 .
-_val
+get
+(
+)
 aVal
 -
 >
-_val
+get
+(
+)
 )
 ;
 }
@@ -11424,6 +11428,7 @@ Allow
 -
 Origin
 "
+_ns
 )
 corsOrigin
 )
@@ -12406,6 +12411,7 @@ Allow
 -
 Origin
 "
+_ns
 )
 corsOrigin
 )
