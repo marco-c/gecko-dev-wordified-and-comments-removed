@@ -2467,6 +2467,13 @@ tasks_for
 '
 -
 -
+repository
+-
+type
+=
+hg
+-
+-
 base
 -
 repository
