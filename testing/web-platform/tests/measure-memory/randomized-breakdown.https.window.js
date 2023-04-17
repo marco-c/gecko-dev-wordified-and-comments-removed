@@ -20,13 +20,6 @@ isEmptyBreakdownEntry
 )
 ;
 }
-assert_true
-(
-self
-.
-crossOriginIsolated
-)
-;
 promise_test
 (
 async
@@ -34,6 +27,13 @@ testCase
 =
 >
 {
+assert_true
+(
+self
+.
+crossOriginIsolated
+)
+;
 const
 initial
 =
