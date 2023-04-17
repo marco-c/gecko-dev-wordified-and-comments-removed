@@ -519,16 +519,6 @@ Darwin
 DEFINES
 [
 "
-CR_XCODE_VERSION
-"
-]
-=
-"
-1220
-"
-DEFINES
-[
-"
 WEBRTC_MAC
 "
 ]
