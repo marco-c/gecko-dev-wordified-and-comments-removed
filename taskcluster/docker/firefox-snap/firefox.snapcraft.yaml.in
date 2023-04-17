@@ -38,6 +38,9 @@ stable
 base
 :
 core18
+compression
+:
+lzo
 apps
 :
 firefox
