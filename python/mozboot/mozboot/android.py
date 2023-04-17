@@ -29,6 +29,18 @@ NDK_VERSION
 "
 r21d
 "
+CMDLINE_TOOLS_VERSION_STRING
+=
+"
+4
+.
+0
+"
+CMDLINE_TOOLS_VERSION
+=
+"
+7302050
+"
 ANDROID_NDK_EXISTS
 =
 "
@@ -1334,14 +1346,19 @@ path
 .
 join
 (
+        
 sdk_path
 "
+cmdline
+-
 tools
 "
+CMDLINE_TOOLS_VERSION_STRING
 "
 bin
 "
 sdkmanager
+    
 )
 def
 avdmanager_tool
@@ -1380,14 +1397,19 @@ path
 .
 join
 (
+        
 sdk_path
 "
+cmdline
+-
 tools
 "
+CMDLINE_TOOLS_VERSION_STRING
 "
 bin
 "
 sdkmanager
+    
 )
 def
 adb_tool
@@ -1571,6 +1593,10 @@ False
 no_interactive
 =
 False
+    
+list_packages
+=
+False
 )
 :
     
@@ -1628,9 +1654,12 @@ be
 '
 linux
 '
-or
 '
 macosx
+'
+or
+'
+windows
 '
 .
     
@@ -1649,11 +1678,6 @@ get_paths
 os_name
 )
     
-os_tag
-=
-"
-darwin
-"
 if
 os_name
 =
@@ -1661,7 +1685,34 @@ os_name
 "
 macosx
 "
+:
+        
+os_tag
+=
+"
+mac
+"
+    
+elif
+os_name
+=
+=
+"
+windows
+"
+:
+        
+os_tag
+=
+"
+win
+"
+    
 else
+:
+        
+os_tag
+=
 os_name
     
 sdk_url
@@ -1681,15 +1732,16 @@ android
 /
 repository
 /
-sdk
--
-tools
+commandlinetools
 -
 {
 0
 }
 -
-4333796
+{
+1
+}
+_latest
 .
 zip
 "
@@ -1698,6 +1750,7 @@ format
 (
         
 os_tag
+CMDLINE_TOOLS_VERSION
     
 )
     
@@ -1805,6 +1858,10 @@ avd_manifest
 no_interactive
 =
 no_interactive
+        
+list_packages
+=
+list_packages
     
 )
     
@@ -2064,16 +2121,15 @@ sdk_path
 else
 :
         
-install_mobile_android_sdk_or_ndk
-(
-            
-sdk_url
+cmdline_tools_path
+=
 os
 .
 path
 .
 join
 (
+            
 mozbuild_path
 "
 android
@@ -2089,6 +2145,47 @@ format
 (
 os_name
 )
+"
+cmdline
+-
+tools
+"
+        
+)
+        
+install_mobile_android_sdk_or_ndk
+(
+sdk_url
+cmdline_tools_path
+)
+        
+os
+.
+rename
+(
+            
+os
+.
+path
+.
+join
+(
+cmdline_tools_path
+"
+cmdline
+-
+tools
+"
+)
+            
+os
+.
+path
+.
+join
+(
+cmdline_tools_path
+CMDLINE_TOOLS_VERSION_STRING
 )
         
 )
@@ -2780,6 +2877,10 @@ None
 no_interactive
 =
 False
+    
+list_packages
+=
+False
 )
 :
     
@@ -3047,6 +3148,24 @@ cmd
         
 raise
 e
+    
+if
+list_packages
+:
+        
+subprocess
+.
+check_call
+(
+[
+sdkmanager_tool
+"
+-
+-
+list
+"
+]
+)
 def
 generate_mozconfig
 (
@@ -3583,6 +3702,44 @@ boots
     
 )
     
+parser
+.
+add_option
+(
+        
+"
+-
+-
+list
+-
+packages
+"
+        
+dest
+=
+"
+list_packages
+"
+        
+action
+=
+"
+store_true
+"
+        
+help
+=
+"
+If
+true
+list
+installed
+packages
+.
+"
+    
+)
+    
 options
 _
 =
@@ -3799,6 +3956,12 @@ no_interactive
 options
 .
 no_interactive
+        
+list_packages
+=
+options
+.
+list_packages
     
 )
     

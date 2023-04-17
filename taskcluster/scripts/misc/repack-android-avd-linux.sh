@@ -148,6 +148,11 @@ AVD_JSON_CONFIG
 no
 -
 interactive
+-
+-
+list
+-
+packages
 tar
 cavf
 UPLOAD_DIR
