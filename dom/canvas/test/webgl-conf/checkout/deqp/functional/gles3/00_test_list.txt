@@ -97,6 +97,11 @@ framebufferblit
 00_test_list
 .
 txt
+multisample
+/
+00_test_list
+.
+txt
 primitiverestart
 /
 00_test_list
@@ -231,9 +236,6 @@ internalformatquery
 .
 html
 lifetime
-.
-html
-multisample
 .
 html
 negativebufferapi

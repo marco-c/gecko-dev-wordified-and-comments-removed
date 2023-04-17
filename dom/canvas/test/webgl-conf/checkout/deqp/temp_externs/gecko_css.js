@@ -368,6 +368,12 @@ CSSProperties
 .
 prototype
 .
+MozTabSize
+;
+CSSProperties
+.
+prototype
+.
 MozTransform
 ;
 CSSProperties
