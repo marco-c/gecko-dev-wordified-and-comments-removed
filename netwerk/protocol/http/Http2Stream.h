@@ -733,11 +733,7 @@ Http2Session
 Session
 (
 )
-{
-return
-mSession
 ;
-}
 [
 [
 nodiscard
@@ -878,8 +874,7 @@ UPSTREAM_COMPLETE
 uint32_t
 mStreamID
 ;
-Http2Session
-*
+nsWeakPtr
 mSession
 ;
 RefPtr
