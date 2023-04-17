@@ -79,6 +79,14 @@ cookieBehavior
 "
 0
 ]
+[
+"
+prompts
+.
+contentPromptSubDialog
+"
+false
+]
 ]
 )
 ;
