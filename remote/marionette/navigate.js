@@ -147,13 +147,11 @@ remote
 /
 content
 /
-shared
+marionette
 /
-webdriver
-/
-Capabilities
+session
 .
-jsm
+js
 "
 TimedPromise
 :

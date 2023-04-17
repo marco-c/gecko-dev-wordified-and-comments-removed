@@ -66,15 +66,4 @@ xpcshell
 .
 ini
 "
-"
-webdriver
-/
-test
-/
-xpcshell
-/
-xpcshell
-.
-ini
-"
 ]
