@@ -1152,6 +1152,11 @@ targeting
 foo
 '
 "
+slug
+:
+"
+test_checkTargeting
+"
 }
 )
 true
@@ -1177,6 +1182,11 @@ targeting
 :
 "
 aPropertyThatDoesNotExist
+"
+slug
+:
+"
+test_checkTargeting
 "
 }
 )
