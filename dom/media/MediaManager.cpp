@@ -6866,6 +6866,7 @@ const
 bool
 mShouldFocusSource
 ;
+const
 RefPtr
 <
 MediaManager
