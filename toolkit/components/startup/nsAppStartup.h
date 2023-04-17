@@ -173,9 +173,6 @@ defined
 (
 XP_WIN
 )
-bool
-mAllowWindowless
-;
 typedef
 mozilla
 :
