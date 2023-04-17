@@ -5207,20 +5207,6 @@ try_name
                         
 return
 True
-            
-else
-:
-                
-if
-"
-tp6
-"
-in
-try_name
-:
-                    
-return
-False
                 
 if
 "
@@ -5245,6 +5231,20 @@ try_name
                     
 return
 True
+            
+else
+:
+                
+if
+"
+tp6
+"
+in
+try_name
+:
+                    
+return
+False
         
 elif
 accept_raptor_android_build
