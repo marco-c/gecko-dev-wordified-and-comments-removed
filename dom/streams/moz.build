@@ -63,6 +63,11 @@ ReadRequest
 h
 "
 "
+TeeState
+.
+h
+"
+"
 UnderlyingSourceCallbackHelpers
 .
 h
@@ -89,6 +94,11 @@ cpp
 "
 "
 ReadableStreamDefaultReader
+.
+cpp
+"
+"
+TeeState
 .
 cpp
 "

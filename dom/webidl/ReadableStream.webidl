@@ -106,8 +106,9 @@ options
 }
 )
 ;
-/
-/
+[
+Throws
+]
 sequence
 <
 ReadableStream
