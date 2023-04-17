@@ -338,6 +338,8 @@ windows10
 -
 64
 -
+2004
+-
 qr
 /
 debug
@@ -355,6 +357,8 @@ fission
 windows10
 -
 64
+-
+2004
 -
 asan
 -
@@ -823,10 +827,16 @@ platform
 windows10
 -
 64
+-
+2004
 .
 *
 :
-hardware
+virtual
+-
+with
+-
+gpu
 default
 :
 virtual

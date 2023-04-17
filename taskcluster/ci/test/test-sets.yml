@@ -1286,8 +1286,6 @@ windows
 tests
 :
 -
-crashtest
--
 firefox
 -
 ui
@@ -1433,6 +1431,8 @@ tests
 :
 -
 cppunit
+-
+crashtest
 -
 gtest
 -
