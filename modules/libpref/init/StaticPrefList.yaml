@@ -31284,6 +31284,8 @@ gfx
 .
 webrender
 .
+debug
+.
 blob
 .
 paint
@@ -31305,6 +31307,8 @@ gfx
 .
 webrender
 .
+debug
+.
 enable
 -
 capture
@@ -31323,6 +31327,8 @@ name
 gfx
 .
 webrender
+.
+debug
 .
 dl
 .
@@ -31345,6 +31351,8 @@ gfx
 .
 webrender
 .
+debug
+.
 dl
 .
 dump
@@ -31365,6 +31373,8 @@ name
 gfx
 .
 webrender
+.
+debug
 .
 dl
 .
@@ -31414,6 +31424,8 @@ name
 gfx
 .
 webrender
+.
+debug
 .
 highlight
 -
