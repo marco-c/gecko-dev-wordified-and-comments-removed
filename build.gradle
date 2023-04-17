@@ -549,9 +549,9 @@ kotlin_version
 '
 1
 .
-5
+3
 .
-20
+50
 '
 dependencies
 {
@@ -569,7 +569,7 @@ apilint
 .
 4
 .
-3
+1
 '
 classpath
 '
@@ -583,11 +583,11 @@ build
 :
 gradle
 :
+3
+.
 4
 .
 2
-.
-0
 '
 classpath
 '
