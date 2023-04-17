@@ -97,9 +97,6 @@ Accept
 "
 image
 /
-avif
-image
-/
 webp
 *
 /

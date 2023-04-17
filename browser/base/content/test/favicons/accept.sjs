@@ -60,9 +60,6 @@ expected
 "
 image
 /
-avif
-image
-/
 webp
 *
 /
