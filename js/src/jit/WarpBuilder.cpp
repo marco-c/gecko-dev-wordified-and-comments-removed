@@ -14780,13 +14780,13 @@ BytecodeLocation
 loc
 )
 {
-PropertyName
+JSAtom
 *
 name
 =
 loc
 .
-getPropertyName
+getAtom
 (
 script_
 )

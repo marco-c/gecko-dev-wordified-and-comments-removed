@@ -3207,7 +3207,7 @@ NewPrivateName
 JSContext
 *
 cx
-HandlePropertyName
+HandleAtom
 name
 )
 {

@@ -6499,7 +6499,7 @@ arguments
 :
 name
 :
-PropertyName
+JSAtom
 *
 result_type
 :
