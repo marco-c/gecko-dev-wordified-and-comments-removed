@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -330,7 +330,6 @@ mLoadedOrCloned
 ;
 }
 ;
-}
 }
 #
 endif
