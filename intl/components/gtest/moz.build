@@ -23,6 +23,11 @@ TestCurrency
 cpp
 "
 "
+TestDateIntervalFormat
+.
+cpp
+"
+"
 TestDateTimeFormat
 .
 cpp

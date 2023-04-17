@@ -320,9 +320,15 @@ Calendar
 (
 )
 ;
+private
+:
+friend
+class
+DateIntervalFormat
+;
 UCalendar
 *
-UnsafeGetUCalendar
+GetUCalendar
 (
 )
 const
@@ -331,8 +337,6 @@ return
 mCalendar
 ;
 }
-private
-:
 UCalendar
 *
 mCalendar

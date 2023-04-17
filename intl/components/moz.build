@@ -36,6 +36,13 @@ h
 "
 src
 /
+DateIntervalFormat
+.
+h
+"
+"
+src
+/
 DateTimeFormat
 .
 h
@@ -182,6 +189,13 @@ cpp
 src
 /
 Currency
+.
+cpp
+"
+"
+src
+/
+DateIntervalFormat
 .
 cpp
 "
