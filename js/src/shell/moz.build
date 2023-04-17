@@ -124,6 +124,11 @@ OSObject
 cpp
 "
 "
+ShellModuleObjectWrapper
+.
+cpp
+"
+"
 WasmTesting
 .
 cpp
