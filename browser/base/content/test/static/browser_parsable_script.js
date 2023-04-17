@@ -179,6 +179,9 @@ content
 browser
 \
 /
+certerror
+\
+/
 aboutNetError
 \
 .
