@@ -608,7 +608,13 @@ IPCResult
 RecvCache
 (
 const
-uint8_t
+mozilla
+:
+:
+a11y
+:
+:
+CacheUpdateType
 &
 aUpdateType
 nsTArray

@@ -75,6 +75,14 @@ uint64_t
 ;
 }
 ;
+enum
+class
+CacheUpdateType
+{
+Initial
+Update
+}
+;
 }
 }
 #
