@@ -99,11 +99,14 @@ SetEOF
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 FileStreamBase
 :
 :
 SetEOF
 (
+)
 )
 )
 ;
@@ -117,6 +120,8 @@ offset
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 FileStreamBase
 :
 :
@@ -124,6 +129,7 @@ Tell
 (
 &
 offset
+)
 )
 )
 ;
@@ -170,11 +176,14 @@ Close
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 FileStreamBase
 :
 :
 Close
 (
+)
 )
 )
 ;
@@ -261,11 +270,14 @@ localFile
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 FileStreamBase
 :
 :
 DoOpen
 (
+)
 )
 )
 ;
@@ -349,6 +361,8 @@ offset
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 FileStreamBase
 :
 :
@@ -356,6 +370,7 @@ Tell
 (
 &
 offset
+)
 )
 )
 ;
@@ -400,6 +415,8 @@ NS_ERROR_FILE_NO_DEVICE_SPACE
 }
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 FileStreamBase
 :
 :
@@ -408,6 +425,7 @@ Write
 aBuf
 aCount
 _retval
+)
 )
 )
 ;
@@ -469,6 +487,8 @@ aClientType
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 stream
 -
 >
@@ -478,6 +498,7 @@ aFile
 aIOFlags
 aPerm
 aBehaviorFlags
+)
 )
 )
 ;
@@ -539,6 +560,8 @@ aClientType
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 stream
 -
 >
@@ -548,6 +571,7 @@ aFile
 aIOFlags
 aPerm
 aBehaviorFlags
+)
 )
 )
 ;
@@ -609,6 +633,8 @@ aClientType
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 stream
 -
 >
@@ -618,6 +644,7 @@ aFile
 aIOFlags
 aPerm
 aBehaviorFlags
+)
 )
 )
 ;

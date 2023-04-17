@@ -414,11 +414,14 @@ stmt
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 stmt
 -
 >
 Execute
 (
+)
 )
 )
 ;
