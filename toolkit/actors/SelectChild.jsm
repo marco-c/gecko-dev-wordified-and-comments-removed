@@ -1168,6 +1168,9 @@ input
 bubbles
 :
 true
+composed
+:
+true
 }
 )
 ;

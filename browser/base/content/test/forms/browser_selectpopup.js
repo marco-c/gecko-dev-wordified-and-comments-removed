@@ -3586,7 +3586,7 @@ targetIsOption
 false
 composed
 :
-false
+true
 }
 {
 type
@@ -3656,7 +3656,7 @@ targetIsOption
 false
 composed
 :
-false
+true
 }
 {
 type
