@@ -284,6 +284,17 @@ aType
 const
 ;
 virtual
+Accessible
+*
+EmbeddedChildAt
+(
+uint32_t
+aIndex
+)
+=
+0
+;
+virtual
 ENameValueFlag
 Name
 (

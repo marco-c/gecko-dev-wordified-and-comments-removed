@@ -1053,13 +1053,15 @@ EmbeddedChildCount
 (
 )
 ;
+virtual
 LocalAccessible
 *
-GetEmbeddedChildAt
+EmbeddedChildAt
 (
 uint32_t
 aIndex
 )
+override
 ;
 int32_t
 GetIndexOfEmbeddedChild

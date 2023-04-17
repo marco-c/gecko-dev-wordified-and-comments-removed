@@ -652,7 +652,7 @@ template
 class
 Derived
 >
-Derived
+Accessible
 *
 RemoteAccessibleBase
 <
@@ -662,7 +662,7 @@ Derived
 :
 EmbeddedChildAt
 (
-size_t
+uint32_t
 aChildIdx
 )
 {

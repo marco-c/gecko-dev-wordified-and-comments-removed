@@ -14620,7 +14620,7 @@ LocalAccessible
 LocalAccessible
 :
 :
-GetEmbeddedChildAt
+EmbeddedChildAt
 (
 uint32_t
 aIndex
