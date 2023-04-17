@@ -3268,6 +3268,13 @@ alloc
 StackMacroAssembler
 masm
 ;
+AutoCreatedBy
+acb
+(
+masm
+__func__
+)
+;
 Label
 lab1
 ;
