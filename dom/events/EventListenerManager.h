@@ -1557,6 +1557,11 @@ HasUnloadListeners
 (
 )
 ;
+bool
+HasBeforeUnloadListeners
+(
+)
+;
 uint32_t
 MutationListenerBits
 (
