@@ -3288,6 +3288,7 @@ check
 )
 ;
 let
+ref
 mut
 rng
 =
@@ -3313,6 +3314,8 @@ rng
 gen_range
 (
 1
+.
+.
 21
 )
 ;
@@ -3326,6 +3329,8 @@ rng
 gen_range
 (
 0
+.
+.
 20
 )
 ;
@@ -3339,6 +3344,8 @@ rng
 gen_range
 (
 0
+.
+.
 20
 )
 ;

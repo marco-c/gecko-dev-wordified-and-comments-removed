@@ -1,13 +1,3 @@
-extern
-crate
-crossbeam_epoch
-as
-epoch
-;
-extern
-crate
-rand
-;
 use
 std
 :
@@ -67,10 +57,13 @@ Instant
 }
 ;
 use
-epoch
+crossbeam_epoch
 :
 :
 {
+self
+as
+epoch
 Atomic
 Collector
 LocalHandle
@@ -156,6 +149,8 @@ rng
 gen_range
 (
 0
+.
+.
 10
 )
 )

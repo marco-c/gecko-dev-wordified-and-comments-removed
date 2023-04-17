@@ -500,7 +500,7 @@ IntoIter
 iter
 :
 :
-Cloned
+Copied
 <
 P
 :
@@ -528,7 +528,7 @@ into_iter
 (
 )
 .
-cloned
+copied
 (
 )
 }
@@ -1052,7 +1052,7 @@ into_iter
 (
 )
 .
-cloned
+copied
 (
 )
 )

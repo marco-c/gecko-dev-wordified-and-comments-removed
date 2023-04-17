@@ -83,6 +83,7 @@ name
 )
 {
 let
+ref
 mut
 rng
 =
@@ -936,6 +937,8 @@ rng
 gen_range
 (
 0
+.
+.
 10
 )
 ;

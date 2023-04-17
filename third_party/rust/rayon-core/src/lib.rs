@@ -20,7 +20,7 @@ core
 /
 1
 .
-8
+9
 "
 )
 ]
@@ -152,9 +152,6 @@ mod
 unwind
 ;
 mod
-util
-;
-mod
 compile_fail
 ;
 mod
@@ -192,6 +189,7 @@ scope
 :
 :
 {
+in_place_scope
 scope
 Scope
 }
@@ -205,6 +203,7 @@ scope
 :
 :
 {
+in_place_scope_fifo
 scope_fifo
 ScopeFifo
 }
