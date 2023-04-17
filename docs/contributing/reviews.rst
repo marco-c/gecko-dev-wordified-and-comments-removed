@@ -397,14 +397,10 @@ __
 #
 devtools
 -
-inspector
--
 reviewers
 -
-The
-devtools
-inspector
-tool
+Firefox
+DevTools
 -
 Member
 list
@@ -425,7 +421,7 @@ project
 /
 members
 /
-109
+153
 /
 >
 __
