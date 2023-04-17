@@ -999,7 +999,7 @@ read
 5
 stat
 :
-2
+4
 }
 {
 path
@@ -1022,7 +1022,7 @@ canonicalize
 true
 stat
 :
-2
+4
 }
 {
 path
@@ -1103,7 +1103,7 @@ read
 8
 stat
 :
-2
+4
 }
 {
 path
@@ -1126,7 +1126,7 @@ canonicalize
 true
 stat
 :
-2
+4
 }
 {
 path
