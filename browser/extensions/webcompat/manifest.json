@@ -35,7 +35,7 @@ version
 "
 24
 .
-6
+7
 .
 0
 "
@@ -587,6 +587,15 @@ web_accessible_resources
 "
 :
 [
+"
+shims
+/
+adnexus
+-
+prebid
+.
+js
+"
 "
 shims
 /
