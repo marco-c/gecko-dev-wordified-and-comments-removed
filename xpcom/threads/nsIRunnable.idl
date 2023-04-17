@@ -95,13 +95,6 @@ PRIORITY_VSYNC
 =
 6
 ;
-const
-unsigned
-short
-PRIORITY_CONTROL
-=
-8
-;
 readonly
 attribute
 unsigned

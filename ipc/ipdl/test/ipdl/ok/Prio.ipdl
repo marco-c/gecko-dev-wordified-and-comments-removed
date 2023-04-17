@@ -44,15 +44,5 @@ MediumHighPrio
 (
 )
 ;
-[
-Priority
-=
-control
-]
-async
-ControlPrio
-(
-)
-;
 }
 ;
