@@ -363,6 +363,16 @@ method
 params
 )
 {
+this
+.
+send
+(
+{
+method
+params
+}
+)
+;
 }
 sendResult
 (
