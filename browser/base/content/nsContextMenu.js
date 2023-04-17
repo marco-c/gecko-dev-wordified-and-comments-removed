@@ -6798,9 +6798,7 @@ screenshot
 -
 extension
 "
-"
-contextMenu
-"
+true
 )
 ;
 }
