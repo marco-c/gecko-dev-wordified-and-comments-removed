@@ -3,6 +3,11 @@
 rect
 .
 yaml
+fuzzy
+(
+1
+2000
+)
 *
 *
 simple
