@@ -8890,17 +8890,6 @@ return
 mAbove
 ;
 }
-bool
-RecomputeVisibility
-(
-nsDisplayListBuilder
-*
-aBuilder
-nsRegion
-*
-aVisibleRegion
-)
-;
 const
 nsPoint
 &
