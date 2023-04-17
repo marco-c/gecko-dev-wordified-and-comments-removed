@@ -113,6 +113,11 @@ features
 default
 =
 [
+"
+iccv4
+-
+enabled
+"
 ]
 c_bindings
 =

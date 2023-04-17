@@ -1503,6 +1503,11 @@ features
 c_bindings
 "
 ]
+default
+-
+features
+=
+false
 }
 [
 target
