@@ -864,6 +864,12 @@ disable_arm_hw_sha2
 :
 0
 '
+disable_intel_hw_sha
+%
+'
+:
+0
+'
 disable_tests
 %
 '

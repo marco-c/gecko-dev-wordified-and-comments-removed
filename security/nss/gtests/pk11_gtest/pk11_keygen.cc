@@ -82,6 +82,8 @@ priv_key
 ScopedSECKEYPublicKey
 *
 pub_key
+bool
+sensitive
 )
 const
 {
@@ -151,7 +153,11 @@ get
 &
 pub_tmp
 PR_FALSE
+sensitive
+?
 PR_TRUE
+:
+PR_FALSE
 nullptr
 )
 )
