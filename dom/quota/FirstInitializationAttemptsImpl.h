@@ -87,17 +87,6 @@ aInitialization
 )
 )
 ;
-if
-(
-aRv
-=
-=
-NS_ERROR_ABORT
-)
-{
-return
-;
-}
 mFirstInitializationAttempts
 |
 =
