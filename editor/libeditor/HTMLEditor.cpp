@@ -972,10 +972,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mChangedRangeForTopLevelEditSubAction
 )
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
-mPaddingBRElementForEmptyEditor
-)
 tmp
 -
 >
@@ -1000,10 +996,6 @@ mComposerCommandsUpdater
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mChangedRangeForTopLevelEditSubAction
-)
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
-mPaddingBRElementForEmptyEditor
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -1738,10 +1730,6 @@ HideAnonymousEditingUIs
 )
 ;
 }
-mPaddingBRElementForEmptyEditor
-=
-nullptr
-;
 EditorBase
 :
 :

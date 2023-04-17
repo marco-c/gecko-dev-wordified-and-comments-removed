@@ -3543,9 +3543,7 @@ true
 ;
 if
 (
-IsEmpty
-(
-)
+mPaddingBRElementForEmptyEditor
 )
 {
 return
@@ -5149,9 +5147,7 @@ if
 (
 aHTMLEditor
 .
-IsEmpty
-(
-)
+mPaddingBRElementForEmptyEditor
 )
 {
 return
