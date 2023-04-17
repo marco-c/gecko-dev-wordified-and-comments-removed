@@ -998,6 +998,10 @@ MaybeSaveMemoryReport
 aLock
 )
 ;
+UpdateLowMemoryTimeStamp
+(
+)
+;
 {
 MutexAutoUnlock
 unlock
@@ -1055,6 +1059,13 @@ MaybeSaveMemoryReport
 lock
 )
 ;
+self
+-
+>
+UpdateLowMemoryTimeStamp
+(
+)
+;
 }
 self
 -
@@ -1101,6 +1112,10 @@ if
 mUnderMemoryPressure
 )
 {
+RecordTelemetryEventOnHighMemory
+(
+)
+;
 NS_NotifyOfEventualMemoryPressure
 (
 MemoryPressureState
