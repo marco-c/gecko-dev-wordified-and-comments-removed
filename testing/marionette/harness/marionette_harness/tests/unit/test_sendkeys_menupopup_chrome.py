@@ -82,9 +82,11 @@ chrome
 :
 /
 /
-marionette
+remote
 /
 content
+/
+marionette
 /
 test_menupopup
 .

@@ -53,18 +53,20 @@ MPL
 0
 /
 .
-marionette
+remote
 .
 jar
 :
 %
 content
-marionette
+remote
 %
 content
 /
 content
 /
+marionette
+/
 accessibility
 .
 js
@@ -75,6 +77,8 @@ js
 )
 content
 /
+marionette
+/
 action
 .
 js
@@ -84,6 +88,8 @@ action
 js
 )
 content
+/
+marionette
 /
 actors
 /
@@ -99,6 +105,8 @@ jsm
 )
 content
 /
+marionette
+/
 actors
 /
 MarionetteCommandsParent
@@ -112,6 +120,8 @@ MarionetteCommandsParent
 jsm
 )
 content
+/
+marionette
 /
 actors
 /
@@ -127,6 +137,8 @@ jsm
 )
 content
 /
+marionette
+/
 actors
 /
 MarionetteEventsParent
@@ -140,6 +152,8 @@ MarionetteEventsParent
 jsm
 )
 content
+/
+marionette
 /
 actors
 /
@@ -155,6 +169,8 @@ jsm
 )
 content
 /
+marionette
+/
 actors
 /
 MarionetteReftestParent
@@ -169,6 +185,8 @@ jsm
 )
 content
 /
+marionette
+/
 addon
 .
 js
@@ -178,6 +196,8 @@ addon
 js
 )
 content
+/
+marionette
 /
 appinfo
 .
@@ -189,6 +209,8 @@ js
 )
 content
 /
+marionette
+/
 assert
 .
 js
@@ -198,6 +220,8 @@ assert
 js
 )
 content
+/
+marionette
 /
 atom
 .
@@ -209,6 +233,8 @@ js
 )
 content
 /
+marionette
+/
 browser
 .
 js
@@ -218,6 +244,8 @@ browser
 js
 )
 content
+/
+marionette
 /
 capture
 .
@@ -229,6 +257,8 @@ js
 )
 content
 /
+marionette
+/
 cert
 .
 js
@@ -238,6 +268,8 @@ cert
 js
 )
 content
+/
+marionette
 /
 cookie
 .
@@ -249,6 +281,8 @@ js
 )
 content
 /
+marionette
+/
 dom
 .
 js
@@ -258,6 +292,8 @@ dom
 js
 )
 content
+/
+marionette
 /
 driver
 .
@@ -269,6 +305,8 @@ js
 )
 content
 /
+marionette
+/
 element
 .
 js
@@ -278,6 +316,8 @@ element
 js
 )
 content
+/
+marionette
 /
 error
 .
@@ -289,6 +329,8 @@ js
 )
 content
 /
+marionette
+/
 evaluate
 .
 js
@@ -298,6 +340,8 @@ evaluate
 js
 )
 content
+/
+marionette
 /
 event
 .
@@ -309,6 +353,8 @@ js
 )
 content
 /
+marionette
+/
 format
 .
 js
@@ -318,6 +364,8 @@ format
 js
 )
 content
+/
+marionette
 /
 interaction
 .
@@ -329,6 +377,8 @@ js
 )
 content
 /
+marionette
+/
 l10n
 .
 js
@@ -338,6 +388,8 @@ l10n
 js
 )
 content
+/
+marionette
 /
 legacyaction
 .
@@ -349,6 +401,8 @@ js
 )
 content
 /
+marionette
+/
 log
 .
 js
@@ -358,6 +412,8 @@ log
 js
 )
 content
+/
+marionette
 /
 message
 .
@@ -369,6 +425,8 @@ js
 )
 content
 /
+marionette
+/
 modal
 .
 js
@@ -378,6 +436,8 @@ modal
 js
 )
 content
+/
+marionette
 /
 navigate
 .
@@ -389,6 +449,8 @@ js
 )
 content
 /
+marionette
+/
 packets
 .
 js
@@ -398,6 +460,8 @@ packets
 js
 )
 content
+/
+marionette
 /
 permissions
 .
@@ -409,6 +473,8 @@ js
 )
 content
 /
+marionette
+/
 prefs
 .
 js
@@ -418,6 +484,8 @@ prefs
 js
 )
 content
+/
+marionette
 /
 print
 .
@@ -429,6 +497,8 @@ js
 )
 content
 /
+marionette
+/
 reftest
 .
 js
@@ -438,6 +508,8 @@ reftest
 js
 )
 content
+/
+marionette
 /
 reftest
 .
@@ -451,6 +523,8 @@ xhtml
 )
 content
 /
+marionette
+/
 reftest
 -
 content
@@ -465,6 +539,8 @@ js
 )
 content
 /
+marionette
+/
 server
 .
 js
@@ -475,6 +551,8 @@ js
 )
 content
 /
+marionette
+/
 session
 .
 js
@@ -484,6 +562,8 @@ session
 js
 )
 content
+/
+marionette
 /
 stream
 -
@@ -499,6 +579,8 @@ js
 )
 content
 /
+marionette
+/
 sync
 .
 js
@@ -509,6 +591,8 @@ js
 )
 content
 /
+marionette
+/
 transport
 .
 js
@@ -518,6 +602,8 @@ transport
 js
 )
 content
+/
+marionette
 /
 window
 -
@@ -536,6 +622,8 @@ ifdef
 ENABLE_TESTS
 content
 /
+marionette
+/
 test
 .
 xhtml
@@ -547,6 +635,8 @@ test
 xhtml
 )
 content
+/
+marionette
 /
 test2
 .
@@ -560,6 +650,8 @@ xhtml
 )
 content
 /
+marionette
+/
 test_dialog
 .
 dtd
@@ -571,6 +663,8 @@ test_dialog
 dtd
 )
 content
+/
+marionette
 /
 test_dialog
 .
@@ -584,6 +678,8 @@ properties
 )
 content
 /
+marionette
+/
 test_dialog
 .
 xhtml
@@ -596,6 +692,8 @@ xhtml
 )
 content
 /
+marionette
+/
 test_menupopup
 .
 xhtml
@@ -607,6 +705,8 @@ test_menupopup
 xhtml
 )
 content
+/
+marionette
 /
 test_nested_iframe
 .
@@ -622,6 +722,8 @@ xhtml
 ifdef
 MOZ_CODE_COVERAGE
 content
+/
+marionette
 /
 PerTestCoverageUtils
 .
