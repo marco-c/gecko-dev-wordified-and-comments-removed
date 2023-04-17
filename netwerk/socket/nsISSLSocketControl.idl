@@ -11,9 +11,6 @@ nsIInterfaceRequestor
 interface
 nsIX509Cert
 ;
-interface
-nsITlsHandshakeCallbackListener
-;
 %
 {
 C
@@ -340,17 +337,6 @@ noscript
 void
 disableEarlyData
 (
-)
-;
-[
-noscript
-]
-void
-setHandshakeCallbackListener
-(
-in
-nsITlsHandshakeCallbackListener
-callback
 )
 ;
 }

@@ -84,11 +84,6 @@ nsIRaceCacheWithNetwork
 idl
 "
 "
-nsITlsHandshakeListener
-.
-idl
-"
-"
 nsIWellKnownOpportunisticUtils
 .
 idl
