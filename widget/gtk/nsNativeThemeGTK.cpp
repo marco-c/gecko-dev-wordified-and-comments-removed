@@ -36,6 +36,13 @@ h
 #
 include
 "
+WidgetUtilsGtk
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h
