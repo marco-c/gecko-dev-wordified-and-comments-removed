@@ -1,9 +1,5 @@
 import
-sys
-import
 unittest
-import
-pytest
 from
 .
 .
@@ -1233,26 +1229,6 @@ key
 "
 "
 "
-"
-)
-    
-pytest
-.
-mark
-.
-xfail
-(
-sys
-.
-maxunicode
-=
-=
-0xFFFF
-reason
-=
-"
-narrow
-unicode
 "
 )
     
