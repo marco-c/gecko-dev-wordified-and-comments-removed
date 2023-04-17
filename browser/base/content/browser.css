@@ -10184,9 +10184,9 @@ visible
 .
 printPreviewBrowser
 {
-display
+visibility
 :
-none
+collapse
 ;
 opacity
 :
@@ -10256,9 +10256,9 @@ simplified
 "
 ]
 {
-display
+visibility
 :
-block
+visible
 ;
 }
 .
