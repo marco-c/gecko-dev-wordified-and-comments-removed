@@ -1,13 +1,6 @@
 #
 include
 "
-nsCache
-.
-h
-"
-#
-include
-"
 nsCacheUtils
 .
 h
@@ -16,6 +9,13 @@ h
 include
 "
 nsThreadUtils
+.
+h
+"
+#
+include
+"
+nsIThread
 .
 h
 "

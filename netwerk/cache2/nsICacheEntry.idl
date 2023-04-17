@@ -63,13 +63,6 @@ nsISupports
 .
 idl
 "
-#
-include
-"
-nsICache
-.
-idl
-"
 interface
 nsIInputStream
 ;
@@ -81,9 +74,6 @@ nsIAsyncOutputStream
 ;
 interface
 nsICacheEntryDoomCallback
-;
-interface
-nsICacheListener
 ;
 interface
 nsIFile

@@ -2188,14 +2188,6 @@ cpp
 -
 netwerk
 /
-cache
-/
-nsDiskCacheDeviceSQL
-.
-cpp
--
-netwerk
-/
 cookie
 /
 CookieCommons
