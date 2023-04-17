@@ -27,14 +27,15 @@ ClientManagerService
 class
 ClientSourceParent
 ;
-typedef
+using
+SourcePromise
+=
 MozPromise
 <
 bool
 CopyableErrorResult
 false
 >
-SourcePromise
 ;
 class
 ClientHandleParent

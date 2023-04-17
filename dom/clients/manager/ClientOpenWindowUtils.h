@@ -28,7 +28,9 @@ mozilla
 namespace
 dom
 {
-typedef
+using
+BrowsingContextCallbackReceivedPromise
+=
 MozPromise
 <
 RefPtr
@@ -38,7 +40,6 @@ BrowsingContext
 CopyableErrorResult
 false
 >
-BrowsingContextCallbackReceivedPromise
 ;
 [
 [
