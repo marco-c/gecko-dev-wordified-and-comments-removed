@@ -2451,11 +2451,6 @@ mIsRoot
 1
 ;
 bool
-mClipAllDescendants
-:
-1
-;
-bool
 mSuppressScrollbarUpdate
 :
 1
@@ -5313,8 +5308,6 @@ ComputedStyle
 aStyle
 bool
 aIsRoot
-bool
-aClipAllDescendants
 )
 ;
 void
@@ -7642,8 +7635,6 @@ nsPresContext
 *
 bool
 aIsRoot
-bool
-aClipAllDescendants
 )
 ;
 void
