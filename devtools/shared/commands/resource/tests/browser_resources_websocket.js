@@ -155,7 +155,7 @@ tab
 await
 addTab
 (
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 websocket_frontend
@@ -323,15 +323,13 @@ webSocketOpened
 effectiveURI
 :
 "
-ws
+wss
 :
 /
 /
-mochi
+example
 .
-test
-:
-8888
+com
 /
 browser
 /

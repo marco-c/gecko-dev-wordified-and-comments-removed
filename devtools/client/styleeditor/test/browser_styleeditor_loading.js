@@ -6,7 +6,7 @@ strict
 const
 TESTCASE_URI
 =
-TEST_BASE_HTTP
+TEST_BASE_HTTPS
 +
 "
 longload
