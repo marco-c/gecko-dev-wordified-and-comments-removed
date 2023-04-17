@@ -2689,10 +2689,7 @@ branch_point
 )
     
 return
-ensure_text
-(
 revish
-)
 .
 strip
 (

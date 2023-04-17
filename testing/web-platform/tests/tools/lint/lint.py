@@ -6805,7 +6805,7 @@ root
 "
 type
 =
-ensure_text
+str
                         
 help
 =
@@ -6844,7 +6844,7 @@ glob
 "
 type
 =
-ensure_text
+str
 action
 =
 "
@@ -6949,7 +6949,7 @@ file
 "
 type
 =
-ensure_text
+str
                         
 help
 =
@@ -7015,29 +7015,9 @@ main
 (
 *
 *
-kwargs_str
-)
-:
-    
 kwargs
-=
-{
-ensure_text
-(
-key
 )
 :
-value
-for
-key
-value
-in
-kwargs_str
-.
-items
-(
-)
-}
     
 assert
 logger

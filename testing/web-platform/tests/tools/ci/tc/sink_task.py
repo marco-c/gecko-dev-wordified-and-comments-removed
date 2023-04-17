@@ -4,10 +4,6 @@ import
 logging
 import
 os
-from
-six
-import
-ensure_text
 import
 taskcluster
 from
@@ -369,7 +365,7 @@ file
 "
 type
 =
-ensure_text
+str
             
 help
 =
