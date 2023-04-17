@@ -167,13 +167,6 @@ cpp
 "
 src
 /
-NumberFormatFieldsUtil
-.
-cpp
-"
-"
-src
-/
 NumberFormatterSkeleton
 .
 cpp
