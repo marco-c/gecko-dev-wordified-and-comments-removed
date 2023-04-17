@@ -7,7 +7,7 @@ build
 common_virtualenv_packages
 .
 txt
-vendored
+pth
 :
 third_party
 /
