@@ -432,7 +432,7 @@ SetExceptionInformation
 (
 int
 type
-int64_t
+int
 code
 int64_t
 subcode
@@ -909,7 +909,7 @@ private
 int
 exception_type_
 ;
-int64_t
+int
 exception_code_
 ;
 int64_t

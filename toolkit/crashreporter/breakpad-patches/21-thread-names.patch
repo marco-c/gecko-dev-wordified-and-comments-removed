@@ -772,7 +772,7 @@ name
 of
 this
 thread
-empty
+NULL
 if
 it
 '
@@ -854,7 +854,7 @@ h
 16
 +
 1197
-96
+98
 class
 MinidumpMacCrashInfo
 :
@@ -1094,9 +1094,15 @@ ReadAuxiliaryData
 ;
 +
 +
+/
+/
+TODO
+?
++
 bool
 valid_
 ;
++
 +
 MDRawThreadName
 thread_name_
