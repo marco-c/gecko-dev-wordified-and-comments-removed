@@ -892,6 +892,11 @@ EventSourceEventService
 h
 "
 "
+External
+.
+h
+"
+"
 FilteredNodeIterator
 .
 h
@@ -1540,6 +1545,11 @@ cpp
 "
 "
 EventSourceEventService
+.
+cpp
+"
+"
+External
 .
 cpp
 "
