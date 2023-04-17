@@ -20769,7 +20769,7 @@ GetChild
 ?
 aHTMLEditor
 .
-GetNextElementOrTextInBlock
+GetNextContent
 (
 *
 atStart
@@ -20777,6 +20777,16 @@ atStart
 ContainerAsContent
 (
 )
+{
+WalkTreeOption
+:
+:
+IgnoreDataNodeExceptText
+WalkTreeOption
+:
+:
+StopAtBlockBoundary
+}
 )
 :
 nullptr
