@@ -233,6 +233,11 @@ QuotaObject
 h
 "
 "
+ScopedLogExtraInfo
+.
+h
+"
+"
 SerializationHelpers
 .
 h
@@ -344,6 +349,11 @@ cpp
 "
 "
 QuotaResults
+.
+cpp
+"
+"
+ScopedLogExtraInfo
 .
 cpp
 "
