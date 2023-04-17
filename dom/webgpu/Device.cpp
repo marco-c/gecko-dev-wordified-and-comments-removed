@@ -641,6 +641,7 @@ id
 aDesc
 .
 mSize
+hasMapFlags
 )
 ;
 if
@@ -913,6 +914,8 @@ Shmem
 aShmem
 bool
 aFlush
+bool
+aKeepShmem
 )
 {
 mBridge
@@ -929,6 +932,7 @@ move
 aShmem
 )
 aFlush
+aKeepShmem
 )
 ;
 }

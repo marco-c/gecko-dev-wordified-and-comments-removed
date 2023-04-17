@@ -181,6 +181,8 @@ RawId
 aId
 BufferAddress
 aSize
+bool
+aMappable
 )
 ;
 void
@@ -217,6 +219,10 @@ Cleanup
 const
 BufferAddress
 mSize
+;
+const
+bool
+mMappable
 ;
 nsString
 mLabel

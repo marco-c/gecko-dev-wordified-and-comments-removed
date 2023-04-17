@@ -262,6 +262,8 @@ Shmem
 shmem
 bool
 flush
+bool
+keepShmem
 )
 ;
 async
