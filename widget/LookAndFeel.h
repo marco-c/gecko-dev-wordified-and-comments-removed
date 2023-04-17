@@ -354,12 +354,6 @@ Light
 }
 static
 ColorScheme
-ColorSchemeForChrome
-(
-)
-;
-static
-ColorScheme
 ColorSchemeForStyle
 (
 const
