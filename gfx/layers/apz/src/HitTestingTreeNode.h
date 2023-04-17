@@ -69,6 +69,15 @@ include
 "
 mozilla
 /
+RecursiveMutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h

@@ -279,6 +279,13 @@ PropertyAndElement
 .
 h
 "
+#
+include
+"
+WindowRenderer
+.
+h
+"
 namespace
 mozilla
 {

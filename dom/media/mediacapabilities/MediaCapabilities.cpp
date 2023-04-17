@@ -211,6 +211,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+WindowRenderer
+.
+h
+"
 static
 mozilla
 :
