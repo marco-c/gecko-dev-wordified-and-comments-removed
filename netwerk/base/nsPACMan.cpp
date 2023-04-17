@@ -3105,6 +3105,17 @@ SetAllowDeprecatedSystemRequests
 true
 )
 ;
+loadInfo
+-
+>
+SetHttpsOnlyStatus
+(
+nsILoadInfo
+:
+:
+HTTPS_ONLY_EXEMPT
+)
+;
 channel
 -
 >
