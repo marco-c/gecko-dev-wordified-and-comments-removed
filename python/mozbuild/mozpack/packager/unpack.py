@@ -220,6 +220,9 @@ source
 omnijar_name
 =
 None
+unpack_xpi
+=
+True
 )
 :
         
@@ -323,6 +326,12 @@ self
 compressed
 =
 False
+        
+self
+.
+_unpack_xpi
+=
+unpack_xpi
         
 jars
 =
@@ -535,6 +544,10 @@ f
 m
             
 if
+self
+.
+_unpack_xpi
+and
 p
 .
 endswith
