@@ -1114,7 +1114,7 @@ mallocSizeOf
 ifdef
 ENABLE_WASM_EXCEPTIONS
 bool
-TagDesc
+TagType
 :
 :
 computeLayout

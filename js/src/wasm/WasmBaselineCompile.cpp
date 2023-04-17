@@ -17893,9 +17893,9 @@ label
 )
 ;
 const
-TagDesc
+TagType
 &
-tagDesc
+tagType
 =
 moduleEnv_
 .
@@ -17903,13 +17903,15 @@ tags
 [
 tagIndex
 ]
+.
+type
 ;
 const
 ValTypeVector
 &
 params
 =
-tagDesc
+tagType
 .
 argTypes
 ;
@@ -17918,7 +17920,7 @@ TagOffsetVector
 &
 offsets
 =
-tagDesc
+tagType
 .
 argOffsets
 ;
@@ -18074,7 +18076,7 @@ Equal
 scratch
 Imm32
 (
-tagDesc
+tagType
 .
 refCount
 )
@@ -19760,6 +19762,8 @@ offsets
 =
 tagDesc
 .
+type
+.
 argOffsets
 ;
 pushI32
@@ -19770,6 +19774,8 @@ exnIndex
 pushI32
 (
 tagDesc
+.
+type
 .
 bufferSize
 )
