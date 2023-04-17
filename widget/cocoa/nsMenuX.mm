@@ -1932,7 +1932,7 @@ mIsOpen
 {
 [
 mNativeMenu
-cancelTracking
+cancelTrackingWithoutAnimation
 ]
 ;
 }
