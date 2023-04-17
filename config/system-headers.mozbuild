@@ -5767,15 +5767,6 @@ X11
 /
 extensions
 /
-Xrender
-.
-h
-'
-'
-X11
-/
-extensions
-/
 XShm
 .
 h

@@ -5212,9 +5212,6 @@ xrandr
 .
 0
 "
-"
-xrender
-"
 ]
 if
 webrtc
