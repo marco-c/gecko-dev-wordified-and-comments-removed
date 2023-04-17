@@ -411,6 +411,11 @@ attribute
 XRSession
 session
 ;
+readonly
+attribute
+DOMHighResTimeStamp
+predictedDisplayTime
+;
 XRViewerPose
 ?
 getViewerPose

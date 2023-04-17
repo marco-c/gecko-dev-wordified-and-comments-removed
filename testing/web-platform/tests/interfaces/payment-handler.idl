@@ -185,9 +185,6 @@ icons
 DOMString
 method
 ;
-object
-capabilities
-;
 }
 ;
 dictionary
