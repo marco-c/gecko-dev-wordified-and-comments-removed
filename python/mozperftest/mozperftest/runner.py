@@ -445,6 +445,22 @@ third_party
 /
 python
 /
+packaging
+"
+    
+"
+third_party
+/
+python
+/
+pyparsing
+"
+    
+"
+third_party
+/
+python
+/
 pyrsistent
 "
     
