@@ -1022,6 +1022,14 @@ quickSuggestEnabled
 )
 )
 ;
+NimbusFeatures
+.
+urlbar
+.
+recordExposureEvent
+(
+)
+;
 if
 (
 UrlbarPrefs
