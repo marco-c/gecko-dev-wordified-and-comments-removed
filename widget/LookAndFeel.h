@@ -688,15 +688,6 @@ NS_RGB
 )
 #
 define
-NS_CHANGE_COLOR_IF_SAME_AS_BG
-NS_RGB
-(
-0x02
-0x02
-0x02
-)
-#
-define
 NS_TRANSPARENT
 NS_RGBA
 (

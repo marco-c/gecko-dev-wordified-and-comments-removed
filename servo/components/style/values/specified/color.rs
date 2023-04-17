@@ -965,14 +965,6 @@ css
 skip
 )
 ]
-TextSelectForegroundCustom
-#
-[
-css
-(
-skip
-)
-]
 TextSelectBackgroundDisabled
 #
 [
