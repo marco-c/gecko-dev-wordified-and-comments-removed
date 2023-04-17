@@ -6062,6 +6062,16 @@ listenWhenClosed
 }
 )
 ;
+if
+(
+!
+Services
+.
+appinfo
+.
+sessionHistoryInParent
+)
+{
 mm
 .
 loadFrameScript
@@ -6085,6 +6095,7 @@ true
 true
 )
 ;
+}
 this
 .
 _windows
