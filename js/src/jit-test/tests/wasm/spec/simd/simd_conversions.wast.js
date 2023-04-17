@@ -1028,8 +1028,8 @@ v128
 new
 F64x2Pattern
 (
-f64_canonical_nan
-f64_canonical_nan
+canonical_nan
+canonical_nan
 )
 ]
 )
@@ -1077,8 +1077,8 @@ v128
 new
 F64x2Pattern
 (
-f64_arithmetic_nan
-f64_arithmetic_nan
+arithmetic_nan
+arithmetic_nan
 )
 ]
 )
@@ -1126,8 +1126,8 @@ v128
 new
 F64x2Pattern
 (
-f64_canonical_nan
-f64_canonical_nan
+canonical_nan
+canonical_nan
 )
 ]
 )
@@ -1175,8 +1175,8 @@ v128
 new
 F64x2Pattern
 (
-f64_arithmetic_nan
-f64_arithmetic_nan
+arithmetic_nan
+arithmetic_nan
 )
 ]
 )
@@ -3872,8 +3872,8 @@ v128
 new
 F32x4Pattern
 (
-f32_canonical_nan
-f32_canonical_nan
+canonical_nan
+canonical_nan
 value
 (
 '
@@ -3935,8 +3935,8 @@ v128
 new
 F32x4Pattern
 (
-f32_arithmetic_nan
-f32_arithmetic_nan
+arithmetic_nan
+arithmetic_nan
 value
 (
 '
@@ -3998,8 +3998,8 @@ v128
 new
 F32x4Pattern
 (
-f32_canonical_nan
-f32_canonical_nan
+canonical_nan
+canonical_nan
 value
 (
 '
@@ -4061,8 +4061,8 @@ v128
 new
 F32x4Pattern
 (
-f32_arithmetic_nan
-f32_arithmetic_nan
+arithmetic_nan
+arithmetic_nan
 value
 (
 '

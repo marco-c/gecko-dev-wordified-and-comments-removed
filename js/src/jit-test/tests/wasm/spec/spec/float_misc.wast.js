@@ -16854,7 +16854,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
