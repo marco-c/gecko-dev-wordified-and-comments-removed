@@ -100,6 +100,14 @@ T
 :
 :
 value
+typename
+P
+=
+typename
+T
+:
+:
+NS_CYCLE_COLLECTION_INNERCLASS
 >
 struct
 HoldDropJSObjectsHelper
