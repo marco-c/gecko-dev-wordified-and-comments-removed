@@ -11,6 +11,13 @@ separatePrivilegedContentProcess
 :
 true
 "
+fission
+.
+bfcacheInParent
+"
+:
+false
+"
 javascript
 .
 options
