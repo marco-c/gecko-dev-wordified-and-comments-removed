@@ -4586,6 +4586,13 @@ numFrames
 =
 =
 0
+&
+&
+aRunningTimes
+.
+IsEmpty
+(
+)
 )
 {
 return
@@ -4949,15 +4956,6 @@ stackEntryGetter
 aReader
 )
 ;
-if
-(
-stackEntryGetter
-.
-Has
-(
-)
-)
-{
 ReadStack
 (
 stackEntryGetter
@@ -4974,7 +4972,6 @@ unresponsiveDuration
 runningTimes
 )
 ;
-}
 }
 )
 ;
