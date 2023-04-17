@@ -965,3 +965,11 @@ initialization
 then
 exit
 immediately
+-
+test_shaders
+:
+about
+:
+run
+shader
+tests
