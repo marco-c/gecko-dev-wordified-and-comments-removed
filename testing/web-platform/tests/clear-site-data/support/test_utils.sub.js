@@ -91,6 +91,7 @@ function
 (
 )
 {
+return
 !
 !
 window
