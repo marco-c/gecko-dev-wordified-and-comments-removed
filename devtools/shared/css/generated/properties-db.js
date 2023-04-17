@@ -26098,6 +26098,15 @@ values
 :
 [
 "
+cap
+"
+"
+ch
+"
+"
+ic
+"
+"
 inherit
 "
 "
