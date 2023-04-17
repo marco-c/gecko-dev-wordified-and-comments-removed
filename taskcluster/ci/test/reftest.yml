@@ -2207,9 +2207,6 @@ debug
 :
 [
 '
-fission
-'
-'
 webrender
 -
 sw
@@ -2226,9 +2223,6 @@ qr
 opt
 :
 [
-'
-fission
-'
 '
 webrender
 -
@@ -2260,8 +2254,6 @@ platform
 linux1804
 -
 64
--
-qr
 /
 debug
 :
