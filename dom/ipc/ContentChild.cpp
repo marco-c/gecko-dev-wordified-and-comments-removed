@@ -20,6 +20,13 @@ h
 #
 include
 "
+nsNSSComponent
+.
+h
+"
+#
+include
+"
 ContentChild
 .
 h
@@ -13845,6 +13852,10 @@ PreallocInit
 (
 )
 {
+EnsureNSSInitializedChromeOrContent
+(
+)
+;
 }
 const
 nsACString
