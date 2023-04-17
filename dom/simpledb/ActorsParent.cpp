@@ -3824,7 +3824,7 @@ IsActorDestroyed
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 QuotaManager
@@ -4050,7 +4050,7 @@ OperationMayProceed
 {
 mResultCode
 =
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 else
@@ -4343,7 +4343,7 @@ OperationMayProceed
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 if
@@ -4871,7 +4871,7 @@ IsActorDestroyed
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 mFileStream
@@ -5016,7 +5016,7 @@ OperationMayProceed
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 QuotaManager
