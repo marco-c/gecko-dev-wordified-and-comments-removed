@@ -34,11 +34,6 @@ TestInterfaceJS
 .
 manifest
 "
-"
-TestInterfaceJSMaplike
-.
-js
-"
 ]
 MOCHITEST_MANIFESTS
 +
