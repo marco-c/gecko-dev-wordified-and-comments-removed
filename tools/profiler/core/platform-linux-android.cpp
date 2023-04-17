@@ -2280,9 +2280,6 @@ defined
 (
 HAVE_NATIVE_UNWIND
 )
-ucontext_t
-sSyncUContext
-;
 void
 Registers
 :
@@ -2297,7 +2294,7 @@ if
 getcontext
 (
 &
-sSyncUContext
+mContextSyncStorage
 )
 )
 {
@@ -2306,7 +2303,7 @@ PopulateRegsFromContext
 *
 this
 &
-sSyncUContext
+mContextSyncStorage
 )
 ;
 }
