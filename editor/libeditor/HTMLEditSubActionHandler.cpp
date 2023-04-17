@@ -38903,10 +38903,13 @@ size
 {
 isSet
 =
-IsTextPropertySetByContent
+HTMLEditUtils
+:
+:
+IsInlineStyleSetByElement
 (
-&
 aContent
+*
 tag
 attribute
 nullptr
