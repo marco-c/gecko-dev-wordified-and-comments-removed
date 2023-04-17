@@ -297,6 +297,15 @@ fuzzing
 rust
 /
 -
+tools
+/
+profiler
+/
+rust
+-
+api
+/
+-
 xpcom
 /
 rust
