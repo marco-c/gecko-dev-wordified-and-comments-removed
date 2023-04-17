@@ -365,6 +365,9 @@ image_tiling
 mod
 image_source
 ;
+mod
+rectangle_occlusion
+;
 pub
 mod
 host_utils
