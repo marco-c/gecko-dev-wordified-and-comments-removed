@@ -5625,11 +5625,6 @@ desc
 surfaceId
 (
 )
-desc
-.
-scaleFactor
-(
-)
 !
 desc
 .

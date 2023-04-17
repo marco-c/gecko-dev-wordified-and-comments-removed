@@ -278,9 +278,6 @@ width
 size
 .
 height
-1
-.
-0
 true
 )
 ;

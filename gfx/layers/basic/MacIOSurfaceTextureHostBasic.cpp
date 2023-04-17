@@ -173,11 +173,6 @@ aDescriptor
 surfaceId
 (
 )
-aDescriptor
-.
-scaleFactor
-(
-)
 !
 aDescriptor
 .
