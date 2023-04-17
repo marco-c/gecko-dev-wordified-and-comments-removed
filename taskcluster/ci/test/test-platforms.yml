@@ -1073,8 +1073,6 @@ test
 sets
 :
 -
-awsy
--
 desktop
 -
 screenshot
@@ -1215,8 +1213,6 @@ test
 -
 sets
 :
--
-awsy
 -
 desktop
 -
@@ -1558,6 +1554,8 @@ test
 sets
 :
 -
+awsy
+-
 windows10
 -
 2004
@@ -1588,6 +1586,8 @@ test
 -
 sets
 :
+-
+awsy
 -
 windows10
 -

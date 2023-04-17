@@ -86,6 +86,8 @@ platform
 windows10
 -
 64
+-
+2004
 (
 ?
 :
@@ -95,18 +97,6 @@ shippable
 ?
 -
 qr
-/
-.
-*
-:
-virtual
--
-with
--
-gpu
-windows10
--
-64
 /
 .
 *
@@ -203,6 +193,8 @@ shippable
 windows10
 -
 64
+-
+2004
 (
 -
 qr
@@ -292,6 +284,8 @@ windows10
 -
 64
 -
+2004
+-
 shippable
 -
 qr
@@ -350,6 +344,8 @@ linux
 windows10
 -
 64
+-
+2004
 |
 mac
 )
@@ -446,6 +442,8 @@ windows10
 -
 64
 -
+2004
+-
 shippable
 -
 qr
@@ -504,6 +502,8 @@ linux
 windows10
 -
 64
+-
+2004
 |
 mac
 )
@@ -647,6 +647,8 @@ windows10
 -
 64
 -
+2004
+-
 shippable
 -
 qr
@@ -705,6 +707,8 @@ linux
 windows10
 -
 64
+-
+2004
 |
 mac
 )
