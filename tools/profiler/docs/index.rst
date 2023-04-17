@@ -66,7 +66,7 @@ is
 used
 as
 a
-stastical
+statistical
 profiler
 where
 the
