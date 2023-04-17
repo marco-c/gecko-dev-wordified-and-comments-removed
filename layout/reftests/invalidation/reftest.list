@@ -1122,12 +1122,6 @@ userspace
 offset
 .
 svg
-fails
--
-if
-(
-webrender
-)
 !
 =
 scroll
@@ -1140,12 +1134,6 @@ html
 about
 :
 blank
-fails
--
-if
-(
-webrender
-)
 !
 =
 scroll
