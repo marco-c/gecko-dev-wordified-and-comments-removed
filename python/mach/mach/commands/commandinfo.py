@@ -25,10 +25,16 @@ mach
 .
 decorators
 import
+(
+    
 CommandProvider
+    
 Command
+    
 CommandArgument
+    
 SubCommand
+)
 from
 mozbuild
 .
@@ -41,6 +47,7 @@ mozbuild
 util
 import
 memoize
+memoized_property
 here
 =
 os
@@ -197,13 +204,12 @@ MachCommandBase
 )
 :
     
-memoize
+memoized_property
     
 def
 command_handlers
 (
 self
-command_context
 )
 :
         
@@ -225,7 +231,7 @@ name
 "
         
 return
-command_context
+self
 .
 _mach_context
 .
@@ -233,13 +239,12 @@ commands
 .
 command_handlers
     
-memoize
+memoized_property
     
 def
 commands
 (
 self
-command_context
 )
 :
         
@@ -264,9 +269,6 @@ sorted
 self
 .
 command_handlers
-(
-command_context
-)
 )
     
 def
@@ -332,13 +334,12 @@ or
 return
 options
     
-memoize
+memoized_property
     
 def
 global_options
 (
 self
-command_context
 )
 :
         
@@ -382,7 +383,7 @@ description
 for
 group
 in
-command_context
+self
 .
 _mach_context
 .
@@ -634,13 +635,12 @@ subcommand
         
 )
     
-memoize
+memoized_property
     
 def
 commands_info
 (
 self
-command_context
 )
 :
         
@@ -672,16 +672,12 @@ in
 self
 .
 commands
-(
-command_context
-)
 :
             
 commands_info
 .
 append
 (
-                
 self
 .
 _get_handler_info
@@ -689,14 +685,10 @@ _get_handler_info
 self
 .
 command_handlers
-(
-command_context
-)
 [
 c
 ]
 )
-            
 )
         
 return
@@ -745,9 +737,6 @@ join
 self
 .
 commands
-(
-command_context
-)
 )
 )
     
@@ -840,9 +829,6 @@ in
 self
 .
 command_handlers
-(
-command_context
-)
 .
 items
 (
@@ -1038,9 +1024,6 @@ join
 self
 .
 commands
-(
-command_context
-)
 )
 )
             
@@ -1074,9 +1057,6 @@ in
 self
 .
 commands
-(
-command_context
-)
 :
                 
 command
@@ -1112,9 +1092,6 @@ join
 self
 .
 commands
-(
-command_context
-)
 )
 )
             
@@ -1125,9 +1102,6 @@ handler
 self
 .
 command_handlers
-(
-command_context
-)
 [
 command
 ]
@@ -1486,9 +1460,6 @@ enumerate
 self
 .
 commands_info
-(
-command_context
-)
 )
 :
             
@@ -1880,7 +1851,6 @@ subcommands
 globalopts
 =
 [
-            
 opt
 for
 opt_strs
@@ -1888,14 +1858,10 @@ in
 self
 .
 global_options
-(
-command_context
-)
 for
 opt
 in
 opt_strs
-        
 ]
         
 context
@@ -1942,9 +1908,6 @@ join
 self
 .
 commands
-(
-command_context
-)
 )
             
 "
@@ -2112,9 +2075,6 @@ enumerate
 self
 .
 commands_info
-(
-command_context
-)
 )
 :
             
@@ -2507,9 +2467,6 @@ in
 self
 .
 global_options
-(
-command_context
-)
 .
 items
 (
@@ -2808,9 +2765,6 @@ in
 self
 .
 global_options
-(
-command_context
-)
 .
 items
 (
@@ -2895,9 +2849,6 @@ enumerate
 self
 .
 commands_info
-(
-command_context
-)
 )
 :
             
@@ -2935,9 +2886,11 @@ d
 .
 format
 (
+                    
 cmd
 .
 name
+                    
 cmd
 .
 description
@@ -2953,6 +2906,7 @@ replace
 '
 "
 )
+                
 )
             
 )
@@ -3264,9 +3218,6 @@ len
 self
 .
 commands
-(
-command_context
-)
 )
 -
 1
@@ -3296,9 +3247,6 @@ join
 self
 .
 commands
-(
-command_context
-)
 )
             
 "

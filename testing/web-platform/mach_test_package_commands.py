@@ -541,7 +541,7 @@ kwargs
 )
 :
         
-command_context
+self
 .
 _mach_context
 .
@@ -555,7 +555,7 @@ WebPlatformTestsRunner
             
 WebPlatformTestsRunnerSetup
 (
-command_context
+self
 .
 _mach_context
 )
@@ -596,7 +596,7 @@ params
 :
         
 return
-command_context
+self
 .
 run_web_platform_tests
 (

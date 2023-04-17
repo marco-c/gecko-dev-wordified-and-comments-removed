@@ -180,7 +180,7 @@ eclipse
 )
 :
             
-command_context
+self
 .
 log
 (
@@ -215,7 +215,7 @@ PATH
             
 )
             
-command_context
+self
 .
 log
 (
@@ -265,26 +265,19 @@ vscode
 "
 :
             
-vscode_cmd
-=
+if
+not
 self
 .
 found_vscode_path
 (
-command_context
 )
-            
-if
-vscode_cmd
-is
-None
 :
                 
-command_context
+self
 .
 log
 (
-                    
 logging
 .
 ERROR
@@ -298,10 +291,9 @@ VSCode
 cannot
 be
 found
-aborting
+abording
 !
 "
-                
 )
                 
 return
@@ -311,7 +303,7 @@ builder
 =
 Build
 (
-command_context
+self
 .
 _mach_context
 None
@@ -345,10 +337,9 @@ _run_make
                 
 directory
 =
-command_context
+self
 .
 topobjdir
-                
 target
 =
 "
@@ -356,7 +347,6 @@ pre
 -
 export
 "
-                
 line_handler
 =
 None
@@ -397,14 +387,12 @@ _run_make
                     
 directory
 =
-command_context
+self
 .
 topobjdir
-                    
 target
 =
 target
-                    
 line_handler
 =
 None
@@ -426,7 +414,7 @@ else
             
 res
 =
-command_context
+self
 .
 _mach_context
 .
@@ -434,14 +422,12 @@ commands
 .
 dispatch
 (
-                
 "
 build
 "
-command_context
+self
 .
 _mach_context
-            
 )
             
 if
@@ -456,7 +442,7 @@ return
         
 python
 =
-command_context
+self
 .
 virtualenv_manager
 .
@@ -470,7 +456,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -499,7 +485,7 @@ backend
         
 res
 =
-command_context
+self
 .
 _run_command_in_objdir
 (
@@ -541,7 +527,6 @@ self
 .
 get_eclipse_workspace_path
 (
-command_context
 )
             
 subprocess
@@ -575,9 +560,6 @@ self
 .
 get_visualstudio_workspace_path
 (
-                
-command_context
-            
 )
             
 subprocess
@@ -608,15 +590,12 @@ self
 .
 setup_vscode
 (
-command_context
-vscode_cmd
 )
     
 def
 get_eclipse_workspace_path
 (
 self
-command_context
 )
 :
         
@@ -634,21 +613,18 @@ CppEclipseBackend
 .
 get_workspace_path
 (
-            
-command_context
+self
 .
 topsrcdir
-command_context
+self
 .
 topobjdir
-        
 )
     
 def
 get_visualstudio_workspace_path
 (
 self
-command_context
 )
 :
         
@@ -659,7 +635,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -676,7 +652,6 @@ def
 found_vscode_path
 (
 self
-command_context
 )
 :
         
@@ -685,7 +660,7 @@ if
 linux
 "
 in
-command_context
+self
 .
 platform
 [
@@ -828,7 +803,7 @@ elif
 macos
 "
 in
-command_context
+self
 .
 platform
 [
@@ -976,7 +951,7 @@ elif
 win64
 "
 in
-command_context
+self
 .
 platform
 [
@@ -1134,13 +1109,19 @@ path
 )
 :
                 
-return
+self
+.
+vscode_cmd
+=
 element
 [
 "
 cmd
 "
 ]
+                
+return
+True
         
 for
 _
@@ -1189,20 +1170,24 @@ vscode_path
 )
 :
                 
-return
+self
+.
+vscode_cmd
+=
 [
 vscode_path
 ]
+                
+return
+True
         
 return
-None
+False
     
 def
 setup_vscode
 (
 self
-command_context
-vscode_cmd
 )
 :
         
@@ -1212,8 +1197,7 @@ mozpath
 .
 join
 (
-            
-command_context
+self
 .
 topsrcdir
 "
@@ -1225,7 +1209,6 @@ settings
 .
 json
 "
-        
 )
         
 clangd_cc_path
@@ -1234,7 +1217,7 @@ mozpath
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -1248,8 +1231,7 @@ mozpath
 .
 join
 (
-            
-command_context
+self
 .
 _mach_context
 .
@@ -1259,7 +1241,6 @@ clang
 -
 tools
 "
-        
 )
         
 clang_tidy_bin
@@ -1292,7 +1273,7 @@ clang_tidy_bin
 clangd
 "
 +
-command_context
+self
 .
 config_environment
 .
@@ -1321,7 +1302,7 @@ clangd_path
 )
 :
             
-command_context
+self
 .
 log
 (
@@ -1361,7 +1342,6 @@ self
 .
 _get_clang_tools
 (
-command_context
 clang_tools_path
 )
             
@@ -1394,7 +1374,7 @@ clang_tidy_cfg
 =
 ClangTidyConfig
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -1838,10 +1818,12 @@ subprocess
 .
 call
 (
+self
+.
 vscode_cmd
 +
 [
-command_context
+self
 .
 topsrcdir
 ]
@@ -1854,7 +1836,7 @@ rc
 0
 :
             
-command_context
+self
 .
 log
 (
@@ -1895,7 +1877,7 @@ directory
 .
 format
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -1912,7 +1894,6 @@ def
 _get_clang_tools
 (
 self
-command_context
 clang_tools_path
 )
 :
@@ -1952,11 +1933,13 @@ artifact_commands
 import
 PackageFrontend
         
+self
+.
 _artifact_manager
 =
 PackageFrontend
 (
-command_context
+self
 .
 _mach_context
 )
@@ -1964,7 +1947,7 @@ _mach_context
 job
 _
 =
-command_context
+self
 .
 platform
         
@@ -1974,7 +1957,7 @@ is
 None
 :
             
-command_context
+self
 .
 log
 (
@@ -2054,12 +2037,14 @@ clang_tools_path
         
 rc
 =
+self
+.
 _artifact_manager
 .
 artifact_toolchain
 (
             
-command_context
+self
 verbose
 =
 False

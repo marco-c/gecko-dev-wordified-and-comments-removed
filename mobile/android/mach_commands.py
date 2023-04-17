@@ -308,7 +308,7 @@ gradle
             
 command_context
             
-command_context
+self
 .
 substs
 [
@@ -524,7 +524,7 @@ gradle
             
 command_context
             
-command_context
+self
 .
 substs
 [
@@ -615,17 +615,14 @@ gradle
             
 command_context
             
-command_context
+self
 .
 substs
 [
-                
 "
 GRADLE_ANDROID_GENERATE_GENERATED_JNI_WRAPPERS_TASKS
 "
-            
 ]
-            
 +
 args
             
@@ -956,7 +953,7 @@ gradle
             
 command_context
             
-command_context
+self
 .
 substs
 [
@@ -964,7 +961,6 @@ substs
 GRADLE_ANDROID_DEPENDENCIES_TASKS
 "
 ]
-            
 +
 [
 "
@@ -973,7 +969,6 @@ GRADLE_ANDROID_DEPENDENCIES_TASKS
 continue
 "
 ]
-            
 +
 args
             
@@ -1075,7 +1070,7 @@ gradle
             
 command_context
             
-command_context
+self
 .
 substs
 [
@@ -1143,7 +1138,7 @@ gradle
             
 command_context
             
-command_context
+self
 .
 substs
 [
@@ -1151,7 +1146,6 @@ substs
 GRADLE_ANDROID_BUILD_GECKOVIEW_EXAMPLE_TASKS
 "
 ]
-            
 +
 args
             
@@ -1242,7 +1236,7 @@ gradle
             
 command_context
             
-command_context
+self
 .
 substs
 [
@@ -1250,7 +1244,6 @@ substs
 GRADLE_ANDROID_INSTALL_GECKOVIEW_EXAMPLE_TASKS
 "
 ]
-            
 +
 args
             
@@ -1532,7 +1525,7 @@ tasks
 =
 (
             
-command_context
+self
 .
 substs
 [
@@ -1547,7 +1540,7 @@ or
 upload
             
 else
-command_context
+self
 .
 substs
 [
@@ -1829,7 +1822,7 @@ repo
 "
 )
         
-command_context
+self
 .
 run_process
 (
@@ -1956,7 +1949,7 @@ mozpath
 join
 (
             
-command_context
+self
 .
 topobjdir
             
@@ -2026,11 +2019,10 @@ src_tar
 dst_path
 )
         
-command_context
+self
 .
 run_process
 (
-            
 [
 "
 git
@@ -2050,13 +2042,12 @@ env
 pass_thru
 =
 True
-        
 )
         
 if
 (
             
-command_context
+self
 .
 run_process
 (
@@ -2101,7 +2092,7 @@ False
 )
 :
             
-command_context
+self
 .
 run_process
 (
@@ -2138,7 +2129,7 @@ True
             
 )
             
-command_context
+self
 .
 run_process
 (
@@ -2282,7 +2273,7 @@ not
 verbose
 :
             
-command_context
+self
 .
 log_manager
 .
@@ -2309,7 +2300,7 @@ path
 .
 dirname
 (
-command_context
+self
 .
 substs
 [
@@ -2322,7 +2313,7 @@ JAVA
         
 gradle_flags
 =
-command_context
+self
 .
 substs
 .
@@ -2358,7 +2349,7 @@ gradle_flags
 )
         
 if
-command_context
+self
 .
 substs
 .
@@ -2442,7 +2433,7 @@ utf
         
 android_sdk_root
 =
-command_context
+self
 .
 substs
 .
@@ -2469,13 +2460,13 @@ ANDROID_SDK_ROOT
 android_sdk_root
         
 return
-command_context
+self
 .
 run_process
 (
             
 [
-command_context
+self
 .
 substs
 [
@@ -2507,7 +2498,7 @@ mozpath
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -2942,15 +2933,12 @@ AndroidEmulator
 (
             
 version
-            
 verbose
-            
 substs
 =
-command_context
+self
 .
 substs
-            
 device_serial
 =
 "
@@ -2969,7 +2957,7 @@ is_running
 )
 :
             
-command_context
+self
 .
 log
 (
@@ -3025,7 +3013,7 @@ is_available
 )
 :
             
-command_context
+self
 .
 log
 (
@@ -3084,7 +3072,7 @@ force_update
 )
 :
             
-command_context
+self
 .
 log
 (
@@ -3126,7 +3114,7 @@ update_avd
 force_update
 )
         
-command_context
+self
 .
 log
 (
@@ -3177,11 +3165,10 @@ wait_for_start
 )
 :
             
-command_context
+self
 .
 log
 (
-                
 logging
 .
 INFO
@@ -3197,13 +3184,12 @@ is
 running
 .
 "
-            
 )
         
 else
 :
             
-command_context
+self
 .
 log
 (
@@ -3237,11 +3223,11 @@ conditions
 .
 is_android
 (
-command_context
+self
 )
 :
             
-command_context
+self
 .
 log
 (
@@ -3279,7 +3265,7 @@ emulator
 else
 :
             
-command_context
+self
 .
 log
 (
@@ -3342,7 +3328,7 @@ if
 wait
 :
             
-command_context
+self
 .
 log
 (
@@ -3384,7 +3370,7 @@ not
 None
 :
                 
-command_context
+self
 .
 log
 (
@@ -3419,7 +3405,7 @@ rc
 else
 :
                 
-command_context
+self
 .
 log
 (

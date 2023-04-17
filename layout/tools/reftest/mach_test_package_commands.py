@@ -798,7 +798,7 @@ kwargs
 )
 :
         
-command_context
+self
 .
 _mach_context
 .
@@ -820,7 +820,7 @@ reftest
 return
 run_reftest
 (
-command_context
+self
 .
 _mach_context
 *

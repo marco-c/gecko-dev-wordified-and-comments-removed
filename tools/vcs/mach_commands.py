@@ -516,7 +516,7 @@ is
 None
 :
             
-command_context
+self
 .
 log
 (
@@ -570,7 +570,7 @@ exit
 1
 )
         
-command_context
+self
 .
 log
 (
@@ -611,7 +611,7 @@ f
 for
 f
 in
-command_context
+self
 .
 repository
 .
@@ -643,7 +643,7 @@ if
 dirty
 :
             
-command_context
+self
 .
 log
 (
@@ -686,8 +686,7 @@ mozpath
 .
 join
 (
-            
-command_context
+self
 .
 topsrcdir
 os
@@ -703,7 +702,6 @@ path
 "
 ]
 )
-        
 )
         
 if
@@ -718,7 +716,7 @@ is
 None
 :
                 
-command_context
+self
 .
 log
 (
@@ -770,12 +768,9 @@ self
 .
 _file_bug
 (
-                    
-command_context
 bugzilla_token
 repository
 pr_number
-                
 )
         
 elif
@@ -785,7 +780,7 @@ not
 None
 :
             
-command_context
+self
 .
 log
 (
@@ -867,7 +862,7 @@ reviewer
 )
 :
             
-command_context
+self
 .
 log
 (
@@ -983,7 +978,7 @@ returncode
 0
 :
                 
-command_context
+self
 .
 log
 (
@@ -1031,7 +1026,7 @@ patch_cmd
 returncode
 )
             
-command_context
+self
 .
 repository
 .
@@ -1062,11 +1057,10 @@ target_dir
             
 )
             
-command_context
+self
 .
 log
 (
-                
 logging
 .
 INFO
@@ -1080,14 +1074,12 @@ Committed
 successfully
 .
 "
-            
 )
     
 def
 _file_bug
 (
 self
-command_context
 token
 repo
 pr_number
@@ -1199,7 +1191,7 @@ raise_for_status
 (
 )
         
-command_context
+self
 .
 log
 (
@@ -1232,7 +1224,7 @@ id
 "
 ]
         
-command_context
+self
 .
 log
 (

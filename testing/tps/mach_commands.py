@@ -116,7 +116,7 @@ path
 join
 (
             
-command_context
+self
 .
 topsrcdir
 "
@@ -154,7 +154,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -164,7 +164,6 @@ services
 sync
 "
 )
-            
 "
 tps
 .

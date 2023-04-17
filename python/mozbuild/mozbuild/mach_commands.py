@@ -469,7 +469,7 @@ conditions
 .
 is_artifact_build
 (
-command_context
+self
 )
 :
             
@@ -498,7 +498,7 @@ tree
         
 if
 not
-command_context
+self
 .
 substs
 .
@@ -558,7 +558,7 @@ Incremental_builds_with_filesystem_watching
 return
 1
         
-command_context
+self
 .
 activate_virtualenv
 (
@@ -567,7 +567,7 @@ activate_virtualenv
 try
 :
             
-command_context
+self
 .
 virtualenv_manager
 .
@@ -641,7 +641,7 @@ daemon
 =
 Daemon
 (
-command_context
+self
 .
 config_environment
 )
@@ -1128,7 +1128,7 @@ check
             
 ret
 =
-command_context
+self
 .
 _run_make
 (
@@ -1306,7 +1306,7 @@ False
 )
 :
         
-command_context
+self
 .
 activate_virtualenv
 (
@@ -1325,20 +1325,17 @@ run_doctor
             
 topsrcdir
 =
-command_context
+self
 .
 topsrcdir
-            
 topobjdir
 =
-command_context
+self
 .
 topobjdir
-            
 fix
 =
 fix
-            
 verbose
 =
 verbose
@@ -1761,7 +1758,7 @@ try
                 
 substs
 =
-command_context
+self
 .
 substs
             
@@ -1779,15 +1776,13 @@ try
                 
 Clobberer
 (
-                    
-command_context
+self
 .
 topsrcdir
-command_context
+self
 .
 topobjdir
 substs
-                
 )
 .
 remove_objdir
@@ -1831,7 +1826,7 @@ in
 )
 :
                         
-command_context
+self
 .
 log
 (
@@ -1900,7 +1895,7 @@ conditions
 .
 is_hg
 (
-command_context
+self
 )
 :
                 
@@ -1973,7 +1968,7 @@ conditions
 .
 is_git
 (
-command_context
+self
 )
 :
                 
@@ -2059,7 +2054,7 @@ call
 cmd
 cwd
 =
-command_context
+self
 .
 topsrcdir
 )
@@ -2115,7 +2110,7 @@ call
 cmd
 cwd
 =
-command_context
+self
 .
 topsrcdir
 )
@@ -2129,14 +2124,13 @@ mozpath
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
 _virtualenvs
 "
 )
-                
 ignore_errors
 =
 True
@@ -2155,12 +2149,11 @@ shutil
 .
 rmtree
 (
-                
 mozpath
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -2170,7 +2163,6 @@ gradle
 ignore_errors
 =
 True
-            
 )
         
 return
@@ -2293,7 +2285,7 @@ log_file
             
 path
 =
-command_context
+self
 .
 _get_state_filename
 (
@@ -2446,7 +2438,7 @@ startTime
 =
 created
                 
-command_context
+self
 .
 log_manager
 .
@@ -2456,11 +2448,7 @@ formatter
 .
 start_time
 =
-(
-                    
 created
-                
-)
             
 if
 "
@@ -2489,7 +2477,7 @@ created
 name
 "
 :
-command_context
+self
 .
 _logger
 .
@@ -2529,7 +2517,7 @@ action
                 
 )
                 
-command_context
+self
 .
 _logger
 .
@@ -2539,7 +2527,7 @@ record
 )
         
 if
-command_context
+self
 .
 log_manager
 .
@@ -2598,12 +2586,11 @@ def
 database_path
 (
 self
-command_context
 )
 :
         
 return
-command_context
+self
 .
 _get_state_filename
 (
@@ -2618,7 +2605,6 @@ def
 database
 (
 self
-command_context
 )
 :
         
@@ -2637,7 +2623,6 @@ self
 .
 database_path
 (
-command_context
 )
         
 database
@@ -2794,7 +2779,6 @@ self
 .
 database
 (
-command_context
 )
         
 if
@@ -2807,7 +2791,7 @@ self
 .
 join_ensure_dir
 (
-command_context
+self
 .
 topsrcdir
 directory
@@ -3060,7 +3044,6 @@ self
 .
 database
 (
-command_context
 )
         
 by_name
@@ -3078,7 +3061,7 @@ mozpath
 .
 normpath
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -4187,7 +4170,7 @@ debugger_args
 try
 :
             
-command_context
+self
 .
 config_environment
         
@@ -4222,7 +4205,7 @@ return
         
 res
 =
-command_context
+self
 .
 _mach_context
 .
@@ -4234,7 +4217,7 @@ dispatch
 "
 build
 "
-command_context
+self
 .
 _mach_context
 what
@@ -4267,7 +4250,7 @@ return
 res
         
 if
-command_context
+self
 .
 substs
 .
@@ -4284,7 +4267,7 @@ cocoa
 "
 :
             
-command_context
+self
 .
 _run_make
 (
@@ -4315,7 +4298,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -4350,7 +4333,7 @@ conditions
 .
 is_android
 (
-command_context
+self
 )
 :
             
@@ -4423,8 +4406,6 @@ self
 android_gtest
 (
                 
-command_context
-                
 cwd
                 
 shuffle
@@ -4496,7 +4477,7 @@ ignored
         
 app_path
 =
-command_context
+self
 .
 get_binary_path
 (
@@ -4523,8 +4504,6 @@ threadsafe
 ]
         
 if
-(
-            
 sys
 .
 platform
@@ -4535,17 +4514,14 @@ startswith
 win
 "
 )
-            
 and
 "
 MOZ_LAUNCHER_PROCESS
 "
 in
-command_context
+self
 .
 defines
-        
-)
 :
             
 args
@@ -4621,14 +4597,13 @@ path
 .
 join
 (
-            
 os
 .
 path
 .
 normpath
 (
-command_context
+self
 .
 topobjdir
 )
@@ -4638,7 +4613,6 @@ dist
 "
 bin
 "
-        
 )
         
 gtest_env
@@ -4785,7 +4759,7 @@ jobs
 :
             
 return
-command_context
+self
 .
 run_process
 (
@@ -4850,7 +4824,7 @@ strip
 )
 )
             
-command_context
+self
 .
 log
 (
@@ -5013,8 +4987,6 @@ android_gtest
         
 self
         
-command_context
-        
 test_dir
         
 shuffle
@@ -5052,7 +5024,7 @@ format_args
 level
 "
 :
-command_context
+self
 .
 _mach_context
 .
@@ -5071,7 +5043,7 @@ level
         
 default_format
 =
-command_context
+self
 .
 _mach_context
 .
@@ -5119,7 +5091,7 @@ get_adb_path
 verify_android_device
 (
             
-command_context
+self
 install
 =
 install
@@ -5141,7 +5113,7 @@ adb_path
 =
 get_adb_path
 (
-command_context
+self
 )
         
 if
@@ -5158,7 +5130,7 @@ path
 join
 (
                 
-command_context
+self
 .
 topobjdir
 "
@@ -5401,7 +5373,7 @@ False
         
 ret
 =
-command_context
+self
 .
 _run_make
 (
@@ -5433,7 +5405,7 @@ ret
 0
 :
             
-command_context
+self
 .
 notify
 (
@@ -5661,7 +5633,7 @@ conditions
 .
 is_android
 (
-command_context
+self
 )
 :
             
@@ -5682,12 +5654,9 @@ InstallIntent
             
 ret
 =
-(
-                
 verify_android_device
 (
-                    
-command_context
+self
 install
 =
 InstallIntent
@@ -5696,21 +5665,17 @@ YES
 *
 *
 kwargs
-                
 )
-                
 =
 =
 0
-            
-)
         
 else
 :
             
 ret
 =
-command_context
+self
 .
 _run_make
 (
@@ -5738,7 +5703,7 @@ ret
 0
 :
             
-command_context
+self
 .
 notify
 (
@@ -7832,7 +7797,7 @@ conditions
 .
 is_android
 (
-command_context
+self
 )
 :
             
@@ -7841,7 +7806,6 @@ self
 .
 _run_android
 (
-command_context
 *
 *
 kwargs
@@ -7852,7 +7816,7 @@ conditions
 .
 is_jsshell
 (
-command_context
+self
 )
 :
             
@@ -7861,7 +7825,6 @@ self
 .
 _run_jsshell
 (
-command_context
 *
 *
 kwargs
@@ -7872,7 +7835,6 @@ self
 .
 _run_desktop
 (
-command_context
 *
 *
 kwargs
@@ -7883,8 +7845,6 @@ _run_android
 (
         
 self
-        
-command_context
         
 app
 =
@@ -8094,7 +8054,7 @@ True
 verify_android_device
 (
             
-command_context
+self
             
 app
 =
@@ -8154,7 +8114,7 @@ device
 =
 _get_device
 (
-command_context
+self
 .
 substs
 device_serial
@@ -8171,7 +8131,7 @@ not
 use_existing_process
 :
                 
-command_context
+self
 .
 log
 (
@@ -8320,7 +8280,7 @@ host_profile
 target_profile
 )
                     
-command_context
+self
 .
 log
 (
@@ -8380,7 +8340,7 @@ target_profile
 =
 profile
                     
-command_context
+self
 .
 log
 (
@@ -8512,7 +8472,7 @@ fail_if_running
 =
 False
                 
-command_context
+self
 .
 log
 (
@@ -8554,7 +8514,7 @@ stop_application
 app
 )
             
-command_context
+self
 .
 log
 (
@@ -8652,7 +8612,7 @@ socket_file
 run_lldb_server
 (
 app
-command_context
+self
 .
 substs
 device_serial
@@ -8663,7 +8623,7 @@ not
 socket_file
 :
             
-command_context
+self
 .
 log
 (
@@ -8703,7 +8663,7 @@ msg
 return
 1
         
-command_context
+self
 .
 log
 (
@@ -8850,7 +8810,7 @@ not
 proc_list
 :
                 
-command_context
+self
 .
 log
 (
@@ -9020,11 +8980,10 @@ valid_range
                         
 break
                     
-command_context
+self
 .
 log
 (
-                        
 logging
 .
 ERROR
@@ -9046,7 +9005,6 @@ response
 msg
 }
 "
-                    
 )
                 
 pid
@@ -9085,7 +9043,7 @@ pids
 1
 :
                 
-command_context
+self
 .
 log
 (
@@ -9133,11 +9091,10 @@ pids
 0
 ]
         
-command_context
+self
 .
 log
 (
-            
 logging
 .
 INFO
@@ -9166,7 +9123,6 @@ pid
 .
 .
 "
-        
 )
         
 lldb_connect_url
@@ -9209,7 +9165,7 @@ if
 no_attach
 :
             
-command_context
+self
 .
 log
 (
@@ -9260,7 +9216,7 @@ pid
             
 )
             
-command_context
+self
 .
 log
 (
@@ -9309,11 +9265,10 @@ return
 try
 :
             
-command_context
+self
 .
 log
 (
-                
 logging
 .
 INFO
@@ -9338,7 +9293,6 @@ debugger
 msg
 }
 "
-            
 )
             
 if
@@ -9540,8 +9494,7 @@ path
 .
 join
 (
-                
-command_context
+self
 .
 topobjdir
 "
@@ -9553,7 +9506,6 @@ library
 "
 build
 "
-            
 )
             
 obj_mozglue
@@ -9564,7 +9516,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -9583,7 +9535,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -9744,7 +9696,7 @@ return
 1
                 
 return
-command_context
+self
 .
 run_process
 (
@@ -9828,7 +9780,6 @@ def
 _run_jsshell
 (
 self
-command_context
 params
 debug
 debugger
@@ -9841,7 +9792,7 @@ try
             
 binpath
 =
-command_context
+self
 .
 get_binary_path
 (
@@ -9856,11 +9807,10 @@ as
 e
 :
             
-command_context
+self
 .
 log
 (
-                
 logging
 .
 ERROR
@@ -9884,10 +9834,9 @@ ERROR
 error
 }
 "
-            
 )
             
-command_context
+self
 .
 log
 (
@@ -9965,7 +9914,7 @@ os
 environ
 :
                 
-command_context
+self
 .
 log_manager
 .
@@ -10005,6 +9954,8 @@ if
 debugger
 :
                 
+self
+.
 debuggerInfo
 =
 mozdebug
@@ -10020,6 +9971,8 @@ not
 debugger
 or
 not
+self
+.
 debuggerInfo
 :
                 
@@ -10045,11 +9998,15 @@ return
 args
 =
 [
+self
+.
 debuggerInfo
 .
 path
 ]
 +
+self
+.
 debuggerInfo
 .
 args
@@ -10057,7 +10014,7 @@ args
 args
         
 return
-command_context
+self
 .
 run_process
 (
@@ -10082,8 +10039,6 @@ _run_desktop
 (
         
 self
-        
-command_context
         
 params
         
@@ -10141,7 +10096,7 @@ packaged
                 
 binpath
 =
-command_context
+self
 .
 get_binary_path
 (
@@ -10161,7 +10116,7 @@ binpath
 =
 app
 or
-command_context
+self
 .
 get_binary_path
 (
@@ -10176,11 +10131,10 @@ as
 e
 :
             
-command_context
+self
 .
 log
 (
-                
 logging
 .
 ERROR
@@ -10204,14 +10158,13 @@ ERROR
 error
 }
 "
-            
 )
             
 if
 packaged
 :
                 
-command_context
+self
 .
 log
 (
@@ -10272,7 +10225,7 @@ help
 else
 :
                 
-command_context
+self
 .
 log
 (
@@ -10500,8 +10453,6 @@ foreground
 )
         
 if
-(
-            
 sys
 .
 platform
@@ -10512,17 +10463,14 @@ startswith
 win
 "
 )
-            
 and
 "
 MOZ_LAUNCHER_PROCESS
 "
 in
-command_context
+self
 .
 defines
-        
-)
 :
             
 args
@@ -10614,7 +10562,7 @@ prefs
 .
 update
 (
-command_context
+self
 .
 _mach_context
 .
@@ -10673,7 +10621,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -10886,7 +10834,7 @@ extra_env
 MOZ_DEVELOPER_REPO_DIR
 "
 :
-command_context
+self
 .
 topsrcdir
             
@@ -10894,7 +10842,7 @@ topsrcdir
 MOZ_DEVELOPER_OBJ_DIR
 "
 :
-command_context
+self
 .
 topobjdir
             
@@ -10951,7 +10899,7 @@ path
 join
 (
                 
-command_context
+self
 .
 topsrcdir
 "
@@ -11024,7 +10972,7 @@ os
 environ
 :
                 
-command_context
+self
 .
 log_manager
 .
@@ -11064,6 +11012,8 @@ if
 debugger
 :
                 
+self
+.
 debuggerInfo
 =
 mozdebug
@@ -11079,6 +11029,8 @@ not
 debugger
 or
 not
+self
+.
 debuggerInfo
 :
                 
@@ -11182,11 +11134,15 @@ return
 args
 =
 [
+self
+.
 debuggerInfo
 .
 path
 ]
 +
+self
+.
 debuggerInfo
 .
 args
@@ -11293,7 +11249,7 @@ DMD
 "
         
 return
-command_context
+self
 .
 run_process
 (
@@ -11379,7 +11335,7 @@ command_context
 :
         
 return
-command_context
+self
 .
 _run_make
 (
@@ -11594,7 +11550,6 @@ out
 return
 func
 (
-command_context
 out
 verbose
 )
@@ -11602,7 +11557,6 @@ verbose
 return
 func
 (
-command_context
 sys
 .
 stdout
@@ -11613,7 +11567,6 @@ def
 _environment_pretty
 (
 self
-command_context
 out
 verbose
 )
@@ -11621,7 +11574,7 @@ verbose
         
 state_dir
 =
-command_context
+self
 .
 _mach_context
 .
@@ -11708,7 +11661,7 @@ t
 s
 "
 %
-command_context
+self
 .
 _mach_context
 .
@@ -11756,7 +11709,7 @@ t
 s
 "
 %
-command_context
+self
 .
 _mach_context
 .
@@ -11800,7 +11753,7 @@ t
 s
 "
 %
-command_context
+self
 .
 topobjdir
 file
@@ -11809,7 +11762,7 @@ out
 )
         
 if
-command_context
+self
 .
 mozconfig
 [
@@ -11833,7 +11786,7 @@ t
 s
 "
 %
-command_context
+self
 .
 mozconfig
 [
@@ -11847,7 +11800,7 @@ out
 )
             
 if
-command_context
+self
 .
 mozconfig
 [
@@ -11873,7 +11826,7 @@ out
 for
 arg
 in
-command_context
+self
 .
 mozconfig
 [
@@ -11899,7 +11852,7 @@ out
 )
             
 if
-command_context
+self
 .
 mozconfig
 [
@@ -11926,7 +11879,7 @@ out
 for
 arg
 in
-command_context
+self
 .
 mozconfig
 [
@@ -11952,7 +11905,7 @@ out
 )
             
 if
-command_context
+self
 .
 mozconfig
 [
@@ -11978,7 +11931,7 @@ out
 for
 arg
 in
-command_context
+self
 .
 mozconfig
 [
@@ -12012,7 +11965,7 @@ try
             
 config
 =
-command_context
+self
 .
 config_environment
         
@@ -12165,7 +12118,6 @@ def
 _environment_json
 (
 self
-command_context
 out
 verbose
 )
@@ -12287,7 +12239,7 @@ json
 .
 dump
 (
-command_context
+self
 cls
 =
 EnvironmentEncoder
@@ -12548,7 +12500,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -12891,7 +12843,7 @@ repackage_installer
             
 topsrcdir
 =
-command_context
+self
 .
 topsrcdir
             
@@ -13199,7 +13151,7 @@ repackage_msi
             
 topsrcdir
 =
-command_context
+self
 .
 topsrcdir
             
@@ -13403,20 +13355,15 @@ repackage_mar
 repackage_mar
 (
             
-command_context
+self
 .
 topsrcdir
-            
 input
-            
 mar
-            
 output
-            
 arch
 =
 arch
-            
 mar_channel_id
 =
 mar_channel_id
@@ -13566,7 +13513,7 @@ RecursiveMake
 "
 not
 in
-command_context
+self
 .
 substs
 [
@@ -13651,7 +13598,7 @@ in
 locales
 :
             
-command_context
+self
 .
 log
 (
@@ -13772,7 +13719,7 @@ US
 "
 :
                 
-command_context
+self
 .
 log
 (
@@ -13810,7 +13757,7 @@ locale
                 
 continue
             
-command_context
+self
 .
 log
 (
@@ -13849,7 +13796,7 @@ locale
             
 )
             
-command_context
+self
 .
 run_process
 (
@@ -13860,7 +13807,7 @@ mozpath
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 "
@@ -13904,7 +13851,7 @@ mozpath
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -13912,7 +13859,7 @@ topsrcdir
 )
         
 if
-command_context
+self
 .
 substs
 [
@@ -13929,7 +13876,7 @@ android
 "
 :
             
-command_context
+self
 .
 log
 (
@@ -13960,35 +13907,31 @@ app
             
 )
             
-command_context
+self
 .
 run_process
 (
                 
 [
-                    
 mozpath
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 "
 mach
 "
 )
-                    
 "
 android
 "
-                    
 "
 assemble
 -
 app
 "
-                
 ]
                 
 append_env
@@ -14009,7 +13952,7 @@ mozpath
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -14017,7 +13960,7 @@ topsrcdir
 )
         
 if
-command_context
+self
 .
 substs
 [
@@ -14032,11 +13975,10 @@ browser
 "
 :
             
-command_context
+self
 .
 log
 (
-                
 logging
 .
 INFO
@@ -14053,10 +13995,9 @@ locale
 Repackaging
 browser
 "
-            
 )
             
-command_context
+self
 .
 _run_make
 (
@@ -14067,7 +14008,7 @@ mozpath
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -14100,7 +14041,7 @@ True
             
 )
         
-command_context
+self
 .
 log
 (
@@ -14140,7 +14081,7 @@ package
 ]
         
 if
-command_context
+self
 .
 substs
 [
@@ -14168,14 +14109,14 @@ multi
 "
 )
         
-command_context
+self
 .
 _run_make
 (
             
 directory
 =
-command_context
+self
 .
 topobjdir
             
@@ -14198,7 +14139,7 @@ True
 )
         
 if
-command_context
+self
 .
 substs
 [
@@ -14215,7 +14156,7 @@ android
 "
 :
             
-command_context
+self
 .
 log
 (
@@ -14246,35 +14187,31 @@ geckoview
             
 )
             
-command_context
+self
 .
 run_process
 (
                 
 [
-                    
 mozpath
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 "
 mach
 "
 )
-                    
 "
 android
 "
-                    
 "
 archive
 -
 geckoview
 "
-                
 ]
                 
 append_env
@@ -14295,7 +14232,7 @@ mozpath
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -14642,7 +14579,7 @@ manager
 VirtualenvManager
 (
             
-command_context
+self
 .
 topsrcdir
             
@@ -14658,8 +14595,7 @@ path
 .
 join
 (
-                
-command_context
+self
 .
 topsrcdir
 "
@@ -14670,7 +14606,6 @@ mach_virtualenv_packages
 .
 txt
 "
-            
 )
             
 populate_local_paths
@@ -14737,8 +14672,7 @@ path
 .
 join
 (
-                    
-command_context
+self
 .
 topsrcdir
 "
@@ -14749,7 +14683,6 @@ psutil_requirements
 .
 txt
 "
-                
 )
             
 )
@@ -14796,8 +14729,7 @@ path
 .
 join
 (
-                
-command_context
+self
 .
 topsrcdir
 "
@@ -14808,7 +14740,6 @@ zstandard_requirements
 .
 txt
 "
-            
 )
         
 )
@@ -14827,8 +14758,7 @@ path
 .
 join
 (
-                    
-command_context
+self
 .
 topsrcdir
 "
@@ -14839,7 +14769,6 @@ glean_requirements
 .
 txt
 "
-                
 )
             
 )

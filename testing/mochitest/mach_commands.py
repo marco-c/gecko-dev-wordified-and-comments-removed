@@ -919,7 +919,7 @@ adbPath
 =
 get_adb_path
 (
-command_context
+self
 )
         
 options
@@ -1769,7 +1769,7 @@ resolve
 import
 get_suite_definition
         
-command_context
+self
 .
 activate_virtualenv
 (
@@ -1790,7 +1790,7 @@ conditions
 .
 is_buildapp_in
 (
-command_context
+self
 apps
 =
 [
@@ -1899,7 +1899,7 @@ building
 import
 BuildDriver
         
-command_context
+self
 .
 _ensure_state_subdir_exists
 (
@@ -1968,7 +1968,7 @@ exit
         
 mochitest
 =
-command_context
+self
 .
 _spawn
 (
@@ -1995,7 +1995,7 @@ test_paths
 test_objects
 cwd
 =
-command_context
+self
 .
 _mach_context
 .
@@ -2018,12 +2018,11 @@ log
 format_args
 =
 {
-                
 "
 level
 "
 :
-command_context
+self
 .
 _mach_context
 .
@@ -2038,7 +2037,6 @@ test
 level
 "
 ]
-            
 }
             
 if
@@ -2071,7 +2069,7 @@ False
             
 default_format
 =
-command_context
+self
 .
 _mach_context
 .
@@ -2147,7 +2145,7 @@ True
         
 driver
 =
-command_context
+self
 .
 _spawn
 (
@@ -2399,7 +2397,7 @@ txt
             
 )
             
-command_context
+self
 .
 virtualenv_manager
 .
@@ -2407,25 +2405,23 @@ activate
 (
 )
             
-command_context
+self
 .
 virtualenv_manager
 .
 install_pip_requirements
 (
-                
 req
 require_hashes
 =
 False
-            
 )
             
 sys
 .
 executable
 =
-command_context
+self
 .
 virtualenv_manager
 .
@@ -2746,7 +2742,7 @@ YES
 verify_android_device
 (
                 
-command_context
+self
                 
 install
 =
@@ -2878,8 +2874,7 @@ result
 =
 run_mochitest
 (
-                
-command_context
+self
 .
 _mach_context
 tests
@@ -2888,7 +2883,6 @@ tests
 *
 *
 harness_args
-            
 )
             
 if
@@ -3047,7 +3041,7 @@ kwargs
 )
 :
         
-command_context
+self
 .
 _ensure_state_subdir_exists
 (
@@ -3098,7 +3092,7 @@ deviceSerial
 verify_android_device
 (
             
-command_context
+self
             
 install
 =
@@ -3147,7 +3141,7 @@ adbPath
 =
 get_adb_path
 (
-command_context
+self
 )
         
 if
@@ -3172,12 +3166,11 @@ setup_logging
 format_args
 =
 {
-                
 "
 level
 "
 :
-command_context
+self
 .
 _mach_context
 .
@@ -3192,12 +3185,11 @@ test
 level
 "
 ]
-            
 }
             
 default_format
 =
-command_context
+self
 .
 _mach_context
 .
@@ -3242,7 +3234,7 @@ format_args
         
 mochitest
 =
-command_context
+self
 .
 _spawn
 (
@@ -3254,12 +3246,10 @@ mochitest
 .
 run_geckoview_junit_test
 (
-            
-command_context
+self
 .
 _mach_context
 *
 *
 kwargs
-        
 )

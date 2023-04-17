@@ -331,7 +331,7 @@ kwargs
 )
 :
         
-command_context
+self
 .
 context
 .
@@ -342,7 +342,7 @@ activate_mozharness_venv
 return
 run_marionette
 (
-command_context
+self
 .
 context
 *

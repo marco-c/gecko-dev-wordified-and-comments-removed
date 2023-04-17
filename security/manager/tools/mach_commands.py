@@ -431,7 +431,7 @@ specifications
 "
 "
         
-command_context
+self
 .
 activate_virtualenv
 (
@@ -454,7 +454,6 @@ self
 .
 find_all_specifications
 (
-command_context
 )
         
 for
@@ -535,7 +534,6 @@ def
 find_all_specifications
 (
 self
-command_context
 )
 :
         
@@ -635,7 +633,7 @@ finder
 =
 FileFinder
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -685,7 +683,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 f

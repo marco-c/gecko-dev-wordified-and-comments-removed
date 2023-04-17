@@ -62,17 +62,16 @@ def
 _init
 (
 self
-command_context
 )
 :
         
-command_context
+self
 .
 activate_virtualenv
 (
 )
         
-command_context
+self
 .
 virtualenv_manager
 .
@@ -281,7 +280,6 @@ self
 .
 _init
 (
-command_context
 )
         
 from
@@ -686,7 +684,6 @@ self
 .
 _init
 (
-command_context
 )
         
 if
@@ -710,7 +707,7 @@ firefox
 "
 ]
 =
-command_context
+self
 .
 get_binary_path
 (
@@ -722,7 +719,7 @@ as
 e
 :
                 
-command_context
+self
 .
 log
 (
@@ -758,11 +755,10 @@ error
                 
 )
                 
-command_context
+self
 .
 log
 (
-                    
 logging
 .
 INFO
@@ -787,7 +783,6 @@ help
 help
 }
 "
-                
 )
                 
 return

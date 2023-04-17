@@ -136,7 +136,7 @@ not
 force
 :
             
-command_context
+self
 .
 log
 (
@@ -192,7 +192,7 @@ not
 pip3
 :
             
-command_context
+self
 .
 log
 (
@@ -359,7 +359,7 @@ False
 else
 :
             
-command_context
+self
 .
 log
 (
@@ -432,7 +432,7 @@ user
 "
 )
         
-command_context
+self
 .
 log
 (
@@ -562,7 +562,7 @@ potential_cli_paths
 1
 :
             
-command_context
+self
 .
 log
 (

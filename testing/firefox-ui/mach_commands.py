@@ -536,15 +536,13 @@ binary
 "
 ]
 or
-command_context
+self
 .
 get_binary_path
 (
-                
 "
 app
 "
-            
 )
         
 except
@@ -553,7 +551,7 @@ as
 e
 :
             
-command_context
+self
 .
 log
 (
@@ -591,7 +589,7 @@ error
             
 )
             
-command_context
+self
 .
 log
 (
@@ -639,7 +637,7 @@ functional
 "
 topsrcdir
 =
-command_context
+self
 .
 topsrcdir
 *

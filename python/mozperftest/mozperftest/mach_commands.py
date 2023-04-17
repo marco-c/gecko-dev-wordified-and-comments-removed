@@ -320,7 +320,7 @@ select
             
 resolver
 =
-command_context
+self
 .
 _spawn
 (
@@ -380,7 +380,7 @@ str
 Path
 (
                         
-command_context
+self
 .
 topsrcdir
 .
@@ -637,7 +637,7 @@ str
 (
 Path
 (
-command_context
+self
 .
 topsrcdir
 "
@@ -780,7 +780,7 @@ path
 .
 startswith
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -791,7 +791,7 @@ path
 [
 len
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -986,7 +986,7 @@ run_tests
         
 run_tests
 (
-command_context
+self
 kwargs
 original_parser
 .
@@ -1020,16 +1020,19 @@ MachCommandBase
     
 Command
 (
+        
 "
 perftest
 -
 test
 "
+        
 category
 =
 "
 testing
 "
+        
 description
 =
 "
@@ -1037,6 +1040,7 @@ Run
 perftest
 tests
 "
+    
 )
     
 CommandArgument
@@ -1113,19 +1117,23 @@ CommandArgument
 -
 v
 "
+        
 "
 -
 -
 verbose
 "
+        
 action
 =
 "
 store_true
 "
+        
 default
 =
 False
+        
 help
 =
 "
@@ -1146,10 +1154,11 @@ kwargs
 )
 :
         
-command_context
+MachCommandBase
 .
 activate_virtualenv
 (
+self
 )
         
 from
@@ -1194,7 +1203,6 @@ self
 .
 _run_tests
 (
-command_context
 *
 *
 kwargs
@@ -1204,7 +1212,6 @@ def
 _run_tests
 (
 self
-command_context
 *
 *
 kwargs
@@ -1242,7 +1249,7 @@ checkout_python_script
         
 venv
 =
-command_context
+self
 .
 virtualenv_manager
         
@@ -1288,7 +1295,7 @@ pydeps
 =
 Path
 (
-command_context
+self
 .
 topsrcdir
 "
@@ -1329,8 +1336,7 @@ vendors
                 
 install_package
 (
-                    
-command_context
+self
 .
 virtualenv_manager
 str
@@ -1341,7 +1347,6 @@ pydeps
 dep
 )
 )
-                
 )
         
 if
@@ -1598,22 +1603,29 @@ data
 args
 =
 [
+            
 "
 run
 "
+            
 pytest
 .
 __file__
+            
 options
+            
 "
 -
 -
 duration
 "
+            
 "
 10
 "
+            
 tests
+        
 ]
         
 assert
