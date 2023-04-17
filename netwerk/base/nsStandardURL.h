@@ -1323,6 +1323,11 @@ SanityCheck
 (
 )
 ;
+bool
+IsValid
+(
+)
+;
 nsCString
 mSpec
 ;
