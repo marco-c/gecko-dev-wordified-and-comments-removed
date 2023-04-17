@@ -1000,6 +1000,13 @@ panic_hook
 "
     
 "
+mozglue_static
+:
+:
+panic_hook
+"
+    
+"
 intentional_panic
 "
     
@@ -1027,6 +1034,23 @@ char
 *
 )
 "
+    
+"
+std
+:
+:
+sys_common
+:
+:
+backtrace
+:
+:
+__rust_end_short_backtrace
+"
+    
+"
+rust_begin_unwind
+"
 )
 ABORT_SUBSTRINGS
 =
@@ -1041,6 +1065,15 @@ core
 :
 :
 panic
+:
+:
+"
+    
+"
+core
+:
+:
+panicking
 :
 :
 "
