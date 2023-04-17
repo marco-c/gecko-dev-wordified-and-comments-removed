@@ -177,7 +177,7 @@ cflags
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -185,7 +185,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -274,7 +274,7 @@ common_audio
 ]
 if
 (
-current_cpu
+target_cpu
 !
 =
 "
@@ -322,7 +322,7 @@ neon
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

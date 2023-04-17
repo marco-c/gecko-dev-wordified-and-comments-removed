@@ -415,7 +415,7 @@ common_audio_neon
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -423,7 +423,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -525,7 +525,7 @@ deps
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -950,7 +950,7 @@ c
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1059,7 +1059,7 @@ c
 }
 if
 (
-current_cpu
+target_cpu
 !
 =
 "
@@ -1067,7 +1067,7 @@ arm
 "
 &
 &
-current_cpu
+target_cpu
 !
 =
 "
@@ -1375,7 +1375,7 @@ system_wrappers
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1383,7 +1383,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -1428,7 +1428,7 @@ common_audio_neon
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1436,7 +1436,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -1643,7 +1643,7 @@ cc
 ]
 if
 (
-current_cpu
+target_cpu
 !
 =
 "
@@ -1768,7 +1768,7 @@ c
 ]
 if
 (
-current_cpu
+target_cpu
 !
 =
 "
