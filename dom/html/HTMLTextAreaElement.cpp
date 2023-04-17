@@ -656,6 +656,9 @@ FocusState
 )
 !
 =
+FocusTristate
+:
+:
 eUnfocusable
 )
 {
