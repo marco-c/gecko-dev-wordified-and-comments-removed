@@ -7819,6 +7819,17 @@ GeckoSession
 )
 ;
 method
+UiThread
+default
+public
+void
+onShowDynamicToolbar
+(
+NonNull
+GeckoSession
+)
+;
+method
 Nullable
 UiThread
 default

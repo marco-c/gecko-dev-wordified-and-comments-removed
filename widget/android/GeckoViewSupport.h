@@ -484,6 +484,12 @@ GeckoResult
 LocalRef
 ;
 void
+OnShowDynamicToolbar
+(
+)
+const
+;
+void
 PassExternalResponse
 (
 java

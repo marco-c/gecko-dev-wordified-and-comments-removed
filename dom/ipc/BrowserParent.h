@@ -3378,6 +3378,17 @@ uint32_t
 aPointerId
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvShowDynamicToolbar
+(
+)
+;
 private
 :
 void
