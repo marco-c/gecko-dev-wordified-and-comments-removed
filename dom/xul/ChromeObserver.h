@@ -71,7 +71,7 @@ aState
 )
 ;
 void
-UpdateBrightTitlebarForeground
+UpdateWindowAppearance
 (
 )
 ;
