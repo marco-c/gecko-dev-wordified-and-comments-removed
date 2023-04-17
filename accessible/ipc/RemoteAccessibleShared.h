@@ -4,11 +4,12 @@ mozilla_a11y_RemoteAccessibleShared_h
 #
 define
 mozilla_a11y_RemoteAccessibleShared_h
+virtual
 uint64_t
 State
 (
 )
-const
+override
 ;
 uint64_t
 NativeState

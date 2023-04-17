@@ -382,6 +382,14 @@ UINT32_MAX
 =
 0
 ;
+virtual
+uint64_t
+State
+(
+)
+=
+0
+;
 bool
 IsDoc
 (

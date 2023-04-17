@@ -123,7 +123,6 @@ RemoteAccessible
 State
 (
 )
-const
 {
 uint64_t
 state
