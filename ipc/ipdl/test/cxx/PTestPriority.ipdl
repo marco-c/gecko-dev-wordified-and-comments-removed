@@ -33,7 +33,7 @@ PMsg2
 [
 Priority
 =
-high
+vsync
 ]
 async
 PMsg3
@@ -43,7 +43,7 @@ PMsg3
 [
 Priority
 =
-high
+vsync
 ]
 sync
 PMsg4
@@ -85,7 +85,7 @@ CMsg1
 [
 Priority
 =
-high
+vsync
 ]
 async
 CMsg2

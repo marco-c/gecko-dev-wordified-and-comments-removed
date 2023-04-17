@@ -17,10 +17,10 @@ NormalPrio
 [
 Priority
 =
-high
+vsync
 ]
 async
-HighPrio
+VsyncPrio
 (
 )
 ;

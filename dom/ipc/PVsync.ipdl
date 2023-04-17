@@ -67,7 +67,7 @@ child
 Compress
 Priority
 =
-high
+vsync
 ]
 async
 Notify
