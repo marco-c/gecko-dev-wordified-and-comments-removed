@@ -968,6 +968,13 @@ h
 "
 public
 /
+ProfilerThreadRegistrationInfo
+.
+h
+"
+"
+public
+/
 ProfilerUtils
 .
 h
