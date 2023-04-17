@@ -187,6 +187,7 @@ Sanitizer
 {
 [
 Throws
+UseCounter
 ]
 constructor
 (
