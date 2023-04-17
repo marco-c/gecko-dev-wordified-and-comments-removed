@@ -94,11 +94,6 @@ js_meta_re
 python_meta_re
 space_chars
 get_any_variants
-from
-six
-import
-ensure_binary
-ensure_text
 MYPY
 =
 False
@@ -535,14 +530,12 @@ utf8
 extras
 =
 [
-ensure_binary
-(
+b
 "
 .
 git
 /
 "
-)
 ]
 )
     
@@ -641,9 +634,13 @@ path
 path
             
 yield
-ensure_text
-(
 path
+.
+decode
+(
+"
+utf8
+"
 )
 def
 _all_files_equal
