@@ -1073,6 +1073,17 @@ shims
 /
 google
 -
+page
+-
+ad
+.
+js
+"
+"
+shims
+/
+google
+-
 publisher
 -
 tags
