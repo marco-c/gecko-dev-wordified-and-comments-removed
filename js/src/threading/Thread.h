@@ -556,6 +556,13 @@ size_t
 len
 )
 ;
+void
+SleepMilliseconds
+(
+size_t
+ms
+)
+;
 }
 namespace
 detail
