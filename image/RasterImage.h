@@ -165,6 +165,17 @@ h
 #
 include
 "
+mozilla
+/
+image
+/
+Resolution
+.
+h
+"
+#
+include
+"
 ImageContainer
 .
 h
@@ -924,6 +935,9 @@ mNativeSizes
 ;
 Orientation
 mOrientation
+;
+Resolution
+mResolution
 ;
 Maybe
 <
