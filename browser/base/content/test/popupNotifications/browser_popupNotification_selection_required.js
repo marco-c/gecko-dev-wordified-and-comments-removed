@@ -41,7 +41,7 @@ element
 )
 {
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
