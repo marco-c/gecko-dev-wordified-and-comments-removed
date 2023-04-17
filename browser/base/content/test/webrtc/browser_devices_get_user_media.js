@@ -131,7 +131,7 @@ true
 if
 (
 !
-gProton
+gProtonDoorhangers
 )
 {
 let
@@ -383,7 +383,7 @@ true
 if
 (
 !
-gProton
+gProtonDoorhangers
 )
 {
 let
@@ -629,7 +629,7 @@ true
 if
 (
 !
-gProton
+gProtonDoorhangers
 )
 {
 let

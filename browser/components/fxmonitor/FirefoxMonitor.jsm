@@ -195,6 +195,8 @@ browser
 .
 proton
 .
+doorhangers
+.
 enabled
 "
 telemetryDisabled

@@ -1550,7 +1550,7 @@ firstElementChild
 if
 (
 !
-gProton
+gProtonDoorhangers
 )
 {
 let

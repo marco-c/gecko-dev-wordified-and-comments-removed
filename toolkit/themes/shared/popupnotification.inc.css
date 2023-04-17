@@ -500,6 +500,8 @@ not
 moz
 -
 proton
+-
+doorhangers
 )
 {
 .
@@ -722,8 +724,17 @@ media
 moz
 -
 proton
+-
+doorhangers
 )
 {
+popupnotification
+{
+font
+:
+caption
+;
+}
 .
 panel
 -

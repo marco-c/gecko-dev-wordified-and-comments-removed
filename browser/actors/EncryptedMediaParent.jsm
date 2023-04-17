@@ -178,12 +178,14 @@ defineLazyPreferenceGetter
 (
 this
 "
-gProtonEnabled
+gProtonDoorhangersEnabled
 "
 "
 browser
 .
 proton
+.
+doorhangers
 .
 enabled
 "
@@ -1205,7 +1207,7 @@ dismiss
 true
 disableHighlight
 :
-gProtonEnabled
+gProtonDoorhangersEnabled
 }
 ;
 let

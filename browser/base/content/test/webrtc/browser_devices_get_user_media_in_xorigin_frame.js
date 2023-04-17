@@ -550,7 +550,7 @@ firstElementChild
 if
 (
 !
-gProton
+gProtonDoorhangers
 )
 {
 const
@@ -1328,7 +1328,7 @@ firstElementChild
 if
 (
 !
-gProton
+gProtonDoorhangers
 )
 {
 const
