@@ -1946,6 +1946,8 @@ asciiHost
 uri
 .
 port
+{
+}
 gCert
 flags
 !
