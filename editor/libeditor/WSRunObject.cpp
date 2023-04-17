@@ -3989,7 +3989,11 @@ textFragmentDataAtEnd
 .
 GetInclusiveNextNBSPPointIfNeedToReplaceWithASCIIWhiteSpace
 (
-pointToInsert
+aRangeToBeReplaced
+.
+EndRef
+(
+)
 )
 ;
 if
