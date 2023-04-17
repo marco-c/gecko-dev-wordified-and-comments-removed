@@ -601,6 +601,9 @@ mozilla
 MarkerSchema
 *
 aMarkerSchema
+void
+*
+aStreamedNamesSet
 )
 ;
 void
