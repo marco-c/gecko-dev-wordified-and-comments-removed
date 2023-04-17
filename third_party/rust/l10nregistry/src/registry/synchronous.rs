@@ -230,7 +230,7 @@ fetch_file_sync
 &
 locale
 path
-false
+true
 )
 {
 if
