@@ -28,8 +28,8 @@ ProcessHandler
 from
 six
 import
+ensure_str
 string_types
-text_type
 try
 :
     
@@ -608,7 +608,7 @@ cmd
 )
 )
         
-encoded_env
+str_env
 =
 {
 }
@@ -630,54 +630,18 @@ env
 k
 ]
             
-if
-isinstance
-(
-v
-text_type
-)
-:
-                
-v
-=
-v
-.
-encode
-(
-"
-utf
--
-8
-"
-)
-            
-if
-isinstance
-(
-k
-text_type
-)
-:
-                
-k
-=
-k
-.
-encode
-(
-"
-utf
--
-8
-"
-)
-            
-encoded_env
+str_env
 [
+ensure_str
+(
 k
+)
 ]
 =
+ensure_str
+(
 v
+)
         
 if
 interactive
@@ -694,7 +658,7 @@ Popen
 cmd
 env
 =
-encoded_env
+str_env
 )
         
 else
@@ -712,7 +676,7 @@ process_class
 cmd
 env
 =
-encoded_env
+str_env
 *
 *
 self
