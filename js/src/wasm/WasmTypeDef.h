@@ -9,7 +9,7 @@ include
 "
 wasm
 /
-WasmCodegenTypes
+WasmCodegenConstants
 .
 h
 "
