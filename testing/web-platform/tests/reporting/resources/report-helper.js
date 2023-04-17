@@ -242,14 +242,9 @@ return
 0
 ;
 return
-JSON
-.
-parse
-(
 dict
 .
 report_count
-)
 ;
 }
 function
