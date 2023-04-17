@@ -1442,7 +1442,7 @@ CanonicalBrowsingContext
 *
 aNewContext
 const
-NavigationIsolationOptions
+RemotenessChangeOptions
 &
 aRemotenessOptions
 )
@@ -8660,7 +8660,7 @@ aPromise
 uint64_t
 aPendingSwitchId
 const
-NavigationIsolationOptions
+RemotenessChangeOptions
 &
 aOptions
 )
@@ -8857,7 +8857,7 @@ CanonicalBrowsingContext
 ChangeRemoteness
 (
 const
-NavigationIsolationOptions
+RemotenessChangeOptions
 &
 aOptions
 uint64_t
@@ -12985,7 +12985,7 @@ PrintData
 aPrintData
 )
 {
-NavigationIsolationOptions
+RemotenessChangeOptions
 options
 ;
 options
