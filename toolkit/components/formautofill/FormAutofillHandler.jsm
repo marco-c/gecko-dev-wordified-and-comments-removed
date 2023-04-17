@@ -2506,13 +2506,6 @@ this
 .
 fieldDetails
 ;
-if
-(
-AppConstants
-.
-NIGHTLY_BUILD
-)
-{
 this
 .
 _condenseMultipleCCNumberFields
@@ -2520,7 +2513,6 @@ _condenseMultipleCCNumberFields
 condensedDetails
 )
 ;
-}
 condensedDetails
 .
 forEach
