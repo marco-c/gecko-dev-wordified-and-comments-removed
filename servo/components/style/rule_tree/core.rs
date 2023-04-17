@@ -320,7 +320,6 @@ PartialEq
 struct
 ChildKey
 (
-CascadeLevel
 ptr
 :
 :
@@ -1555,9 +1554,6 @@ ChildKey
 (
 self
 .
-level
-self
-.
 source
 .
 as_ref
@@ -2537,7 +2533,6 @@ key
 =
 ChildKey
 (
-level
 source
 .
 key
