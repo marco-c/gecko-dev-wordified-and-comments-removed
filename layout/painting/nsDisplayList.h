@@ -20748,14 +20748,6 @@ private
 NS_DISPLAY_ALLOW_CLONING
 (
 )
-bool
-CanPaintOnMaskLayer
-(
-LayerManager
-*
-aManager
-)
-;
 nsTArray
 <
 nsRect
