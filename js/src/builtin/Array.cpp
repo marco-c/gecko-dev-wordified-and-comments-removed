@@ -19526,8 +19526,6 @@ NewDenseEmptyArray
 JSContext
 *
 cx
-HandleObject
-proto
 )
 {
 return
@@ -19538,7 +19536,7 @@ NewArray
 (
 cx
 0
-proto
+nullptr
 GenericObject
 )
 ;
@@ -19553,8 +19551,6 @@ NewTenuredDenseEmptyArray
 JSContext
 *
 cx
-HandleObject
-proto
 )
 {
 return
@@ -19565,7 +19561,7 @@ NewArray
 (
 cx
 0
-proto
+nullptr
 TenuredObject
 )
 ;
@@ -19582,8 +19578,6 @@ JSContext
 cx
 uint32_t
 length
-HandleObject
-proto
 NewObjectKind
 newKind
 gc
@@ -19602,7 +19596,7 @@ UINT32_MAX
 (
 cx
 length
-proto
+nullptr
 newKind
 site
 )
@@ -19654,8 +19648,6 @@ JSContext
 cx
 uint32_t
 length
-HandleObject
-proto
 NewObjectKind
 newKind
 )
@@ -19668,7 +19660,7 @@ NewArray
 (
 cx
 length
-proto
+nullptr
 newKind
 )
 ;

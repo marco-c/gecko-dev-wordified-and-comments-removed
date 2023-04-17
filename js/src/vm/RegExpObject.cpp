@@ -4583,7 +4583,6 @@ RegExpObject
 :
 :
 MaxPairCount
-nullptr
 TenuredObject
 )
 )

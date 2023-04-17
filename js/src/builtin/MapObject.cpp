@@ -1997,7 +1997,6 @@ NewDenseFullyAllocatedArray
 (
 cx
 2
-nullptr
 TenuredObject
 )
 )
@@ -6721,7 +6720,6 @@ NewDenseFullyAllocatedArray
 (
 cx
 1
-nullptr
 TenuredObject
 )
 )

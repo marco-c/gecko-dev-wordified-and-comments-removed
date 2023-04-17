@@ -26806,7 +26806,6 @@ NewDenseFullyAllocatedArray
 (
 cx_
 0
-nullptr
 TenuredObject
 )
 ;
@@ -42468,7 +42467,6 @@ NewDenseFullyAllocatedArray
 (
 cx_
 length
-nullptr
 TenuredObject
 )
 ;
