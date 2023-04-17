@@ -1034,7 +1034,7 @@ aRv
 )
 override
 ;
-nsresult
+void
 Open
 (
 const
@@ -1055,6 +1055,9 @@ const
 nsAString
 &
 aPassword
+ErrorResult
+&
+aRv
 )
 ;
 virtual
