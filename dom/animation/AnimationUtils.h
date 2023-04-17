@@ -77,11 +77,12 @@ AnimationUtils
 {
 public
 :
-typedef
+using
+Document
+=
 dom
 :
 :
-Document
 Document
 ;
 static

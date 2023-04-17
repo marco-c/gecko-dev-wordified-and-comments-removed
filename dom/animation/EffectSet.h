@@ -371,7 +371,9 @@ mMayHaveTransformAnim
 }
 private
 :
-typedef
+using
+OwningEffectSet
+=
 nsTHashSet
 <
 nsRefPtrHashKey
@@ -382,7 +384,6 @@ dom
 KeyframeEffect
 >
 >
-OwningEffectSet
 ;
 public
 :
