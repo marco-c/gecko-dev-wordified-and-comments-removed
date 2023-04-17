@@ -131,7 +131,7 @@ void
 OnMemoryPressureChanged
 (
 MacMemoryPressureLevel
-aLevel
+aNewLevel
 )
 {
 }
