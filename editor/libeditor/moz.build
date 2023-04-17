@@ -95,6 +95,11 @@ EditTransactionBase
 h
 "
 "
+HTMLEditHelpers
+.
+h
+"
+"
 HTMLEditor
 .
 h
@@ -216,6 +221,11 @@ cpp
 "
 "
 HTMLAnonymousNodeEditor
+.
+cpp
+"
+"
+HTMLEditHelpers
 .
 cpp
 "
