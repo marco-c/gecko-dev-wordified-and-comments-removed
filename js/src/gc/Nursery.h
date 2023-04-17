@@ -2841,9 +2841,6 @@ endif
 void
 sweep
 (
-JSTracer
-*
-trc
 )
 ;
 void

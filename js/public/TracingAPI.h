@@ -93,6 +93,7 @@ Moving
 GrayBuffering
 ClearEdges
 Sweeping
+MinorSweeping
 Barrier
 Callback
 UnmarkGray
