@@ -15,6 +15,13 @@ ScriptSettings
 .
 h
 "
+#
+include
+"
+FuzzerRegistry
+.
+h
+"
 int
 FuzzXPCRuntimeStart
 (
@@ -35,6 +42,7 @@ char
 *
 *
 argv
+LibFuzzerDriver
 )
 ;
 int

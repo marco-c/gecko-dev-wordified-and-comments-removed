@@ -187,7 +187,7 @@ if
 CONFIG
 [
 "
-FUZZING_INTERFACES
+LIBFUZZER
 "
 ]
 :
@@ -201,16 +201,6 @@ xpcrtfuzzing
 xpcrtfuzzing
 .
 cpp
-"
-]
-USE_LIBS
-+
-=
-[
-"
-static
-:
-fuzzer
 "
 ]
 XPCOM_MANIFESTS
