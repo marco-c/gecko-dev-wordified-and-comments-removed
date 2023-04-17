@@ -1,0 +1,8 @@
+a
+simple
+text
+file
+(
+scope2
+/
+)
