@@ -2304,6 +2304,9 @@ GetRenderer
 (
 )
 aReport
+swgl
+(
+)
 )
 ;
 LayoutDeviceIntSize
