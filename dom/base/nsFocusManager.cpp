@@ -8440,8 +8440,6 @@ if
 aFocusChanged
 )
 {
-if
-(
 nsCOMPtr
 <
 nsIDocShell
@@ -8454,8 +8452,7 @@ newWindow
 GetDocShell
 (
 )
-)
-{
+;
 RefPtr
 <
 PresShell
@@ -8489,7 +8486,6 @@ elementToFocus
 aFlags
 )
 ;
-}
 }
 }
 if
