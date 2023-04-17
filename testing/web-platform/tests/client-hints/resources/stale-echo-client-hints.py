@@ -94,11 +94,6 @@ ect
         
 b
 "
-lang
-"
-        
-b
-"
 sec
 -
 ch
