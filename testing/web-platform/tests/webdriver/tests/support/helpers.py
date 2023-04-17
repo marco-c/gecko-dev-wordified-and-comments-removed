@@ -8,10 +8,6 @@ import
 math
 import
 sys
-from
-six
-import
-iteritems
 import
 webdriver
 from
@@ -663,9 +659,10 @@ for
 key
 value
 in
-iteritems
-(
 overrides
+.
+items
+(
 )
 :
         

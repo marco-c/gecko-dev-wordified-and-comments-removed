@@ -1,7 +1,3 @@
-from
-six
-import
-iteritems
 def
 merge_dictionaries
 (
@@ -76,9 +72,10 @@ for
 key
 value
 in
-iteritems
-(
 second
+.
+items
+(
 )
 :
         
