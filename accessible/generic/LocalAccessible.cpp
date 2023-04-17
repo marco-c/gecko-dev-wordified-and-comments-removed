@@ -1421,7 +1421,7 @@ document
 mContent
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
