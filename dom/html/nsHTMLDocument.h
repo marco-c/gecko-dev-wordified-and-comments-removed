@@ -809,6 +809,9 @@ Encoding
 >
 &
 aEncoding
+bool
+&
+aForceAutoDetection
 )
 ;
 void
@@ -828,6 +831,9 @@ Encoding
 >
 &
 aEncoding
+bool
+&
+aForceAutoDetection
 )
 ;
 uint32_t
