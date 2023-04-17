@@ -447,6 +447,15 @@ docs
 exclude
 :
 -
+devtools
+/
+docs
+/
+tools
+/
+storage
+/
+-
 tools
 /
 lint
