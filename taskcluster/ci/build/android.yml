@@ -2404,7 +2404,9 @@ armv7
 debug
 symbol
 :
-Bg
+B
+-
+gcp
 tier
 :
 3
@@ -2560,7 +2562,9 @@ x86
 opt
 symbol
 :
-Bg
+B
+-
+gcp
 tier
 :
 3
@@ -2716,7 +2720,9 @@ armv7
 opt
 symbol
 :
-Bg
+B
+-
+gcp
 tier
 :
 3
@@ -2870,7 +2876,9 @@ aarch64
 opt
 symbol
 :
-Bg
+B
+-
+gcp
 tier
 :
 3
@@ -3024,7 +3032,9 @@ aarch64
 debug
 symbol
 :
-Bg
+B
+-
+gcp
 tier
 :
 3
@@ -3182,7 +3192,9 @@ x86_64
 opt
 symbol
 :
-Bg
+B
+-
+gcp
 tier
 :
 3
@@ -3340,7 +3352,9 @@ x86_64
 debug
 symbol
 :
-Bg
+B
+-
+gcp
 tier
 :
 3

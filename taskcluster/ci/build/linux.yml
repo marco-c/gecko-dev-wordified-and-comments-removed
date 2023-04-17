@@ -8123,7 +8123,9 @@ linux32
 debug
 symbol
 :
-Bg
+B
+-
+gcp
 tier
 :
 3
@@ -8344,7 +8346,9 @@ linux32
 opt
 symbol
 :
-Bg
+B
+-
+gcp
 tier
 :
 3
@@ -8542,7 +8546,9 @@ linux64
 debug
 symbol
 :
-Bg
+B
+-
+gcp
 tier
 :
 3
@@ -8752,7 +8758,9 @@ linux64
 opt
 symbol
 :
-Bg
+B
+-
+gcp
 tier
 :
 3
