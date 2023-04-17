@@ -12588,7 +12588,7 @@ newFrame
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 aTargetFrame
 -
