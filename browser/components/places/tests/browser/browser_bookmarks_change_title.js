@@ -517,9 +517,9 @@ info
 "
 )
 ;
-EventUtils
+placesContext
 .
-synthesizeMouseAtCenter
+activateItem
 (
 properties
 {
