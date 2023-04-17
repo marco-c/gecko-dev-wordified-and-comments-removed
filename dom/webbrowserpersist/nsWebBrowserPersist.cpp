@@ -5128,9 +5128,6 @@ fileAlreadyExistsError
 break
 ;
 case
-NS_ERROR_FILE_DISK_FULL
-:
-case
 NS_ERROR_FILE_NO_DEVICE_SPACE
 :
 msgId

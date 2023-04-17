@@ -449,7 +449,7 @@ num
 {
 rv
 =
-NS_ERROR_FILE_DISK_FULL
+NS_ERROR_FILE_NO_DEVICE_SPACE
 ;
 break
 ;

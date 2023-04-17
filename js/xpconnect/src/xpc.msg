@@ -1072,17 +1072,6 @@ path
 )
 XPC_MSG_DEF
 (
-NS_ERROR_FILE_DISK_FULL
-"
-File
-error
-:
-Disk
-full
-"
-)
-XPC_MSG_DEF
-(
 NS_ERROR_FILE_CORRUPTED
 "
 File
