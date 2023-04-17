@@ -388,6 +388,15 @@ defaults
 /
 settings
 /
+last_modified
+.
+json
+BINPATH
+/
+defaults
+/
+settings
+/
 blocklists
 /
 addons

@@ -1479,6 +1479,17 @@ defaults
 /
 settings
 /
+last_modified
+.
+json
+RESPATH
+/
+browser
+/
+defaults
+/
+settings
+/
 blocklists
 RESPATH
 /
