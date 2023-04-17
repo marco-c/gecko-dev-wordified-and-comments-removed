@@ -2559,7 +2559,7 @@ Android
 :
 android
 /
-androidarm_4_3
+androidarm
 .
 py
 #
