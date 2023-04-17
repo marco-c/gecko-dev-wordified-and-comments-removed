@@ -608,6 +608,11 @@ ClearHostData
 "
 GeckoView
 :
+ClearBaseDomainData
+"
+"
+GeckoView
+:
 GetAllPermissions
 "
 "
