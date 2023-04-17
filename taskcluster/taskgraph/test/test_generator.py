@@ -186,11 +186,13 @@ task
 "
 :
 {
+                
 "
 i
 "
 :
 i
+                
 "
 metadata
 "
@@ -212,6 +214,15 @@ format
 i
 )
 }
+                
+"
+deadline
+"
+:
+"
+soon
+"
+            
 }
             
 "
