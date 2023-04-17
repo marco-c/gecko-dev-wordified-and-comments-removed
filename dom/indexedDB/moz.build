@@ -116,7 +116,7 @@ dom
 =
 [
 "
-FileInfoFwd
+DatabaseFileInfoFwd
 .
 h
 "
@@ -272,12 +272,12 @@ ActorsParentCommon
 cpp
 "
 "
-DBSchema
+DatabaseFileInfo
 .
 cpp
 "
 "
-FileInfo
+DBSchema
 .
 cpp
 "

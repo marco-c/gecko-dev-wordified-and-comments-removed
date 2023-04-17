@@ -245,10 +245,7 @@ FileType
 aType
 SafeRefPtr
 <
-indexedDB
-:
-:
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -398,10 +395,7 @@ StructuredCloneFileParent
 inline
 SafeRefPtr
 <
-indexedDB
-:
-:
-FileInfo
+DatabaseFileInfo
 >
 StructuredCloneFileParent
 :

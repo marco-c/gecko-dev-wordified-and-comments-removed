@@ -8,7 +8,7 @@ h
 #
 include
 "
-FileInfoFwd
+DatabaseFileInfoFwd
 .
 h
 "
@@ -596,7 +596,7 @@ aText
 ;
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 fileInfo
 =

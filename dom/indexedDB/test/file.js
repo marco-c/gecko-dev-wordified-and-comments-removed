@@ -1156,7 +1156,7 @@ id
 )
 Expect
 existing
-FileInfo
+DatabaseFileInfo
 for
 {
 name
@@ -1195,7 +1195,7 @@ id
 Expect
 no
 existing
-FileInfo
+DatabaseFileInfo
 for
 {
 name

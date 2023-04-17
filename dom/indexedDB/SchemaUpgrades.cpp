@@ -15,14 +15,14 @@ h
 #
 include
 "
-DBSchema
+DatabaseFileInfoFwd
 .
 h
 "
 #
 include
 "
-FileInfoFwd
+DBSchema
 .
 h
 "

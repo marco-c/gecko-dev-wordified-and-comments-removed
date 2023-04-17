@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_indexeddb_fileinfofwd_h__
+DOM_INDEXEDDB_DATABASEFILEINFOFWD_H_
 #
 define
-mozilla_dom_indexeddb_fileinfofwd_h__
+DOM_INDEXEDDB_DATABASEFILEINFOFWD_H_
 namespace
 mozilla
 :
@@ -25,7 +25,7 @@ class
 FileInfoT
 ;
 using
-FileInfo
+DatabaseFileInfo
 =
 FileInfoT
 <

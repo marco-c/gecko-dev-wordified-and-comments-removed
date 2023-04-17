@@ -65,6 +65,17 @@ dom
 :
 indexedDB
 ;
+class
+TestFileManager
+;
+using
+SimpleFileInfo
+=
+FileInfoT
+<
+TestFileManager
+>
+;
 struct
 TestFileManagerStats
 final
@@ -230,7 +241,7 @@ InsertOrUpdate
 id
 MakeNotNull
 <
-FileInfo
+SimpleFileInfo
 *
 >
 (
@@ -310,14 +321,6 @@ mStats
 ;
 }
 ;
-using
-TestFileInfo
-=
-FileInfoT
-<
-TestFileManager
->
-;
 TEST
 (
 DOM_IndexedDB_TestFileManager
@@ -355,7 +358,7 @@ Invalidated
 }
 TEST
 (
-DOM_IndexedDB_FileInfo
+DOM_IndexedDB_SimpleFileInfo
 Create
 )
 {
@@ -449,7 +452,7 @@ mAsyncDeleteFileCalls
 }
 TEST
 (
-DOM_IndexedDB_FileInfo
+DOM_IndexedDB_SimpleFileInfo
 CreateWithInitialDBRefCnt
 )
 {
@@ -571,7 +574,7 @@ mAsyncDeleteFileCalls
 }
 TEST
 (
-DOM_IndexedDB_FileInfo
+DOM_IndexedDB_SimpleFileInfo
 CreateWithInitialDBRefCnt_Invalidate
 )
 {
@@ -700,7 +703,7 @@ mAsyncDeleteFileCalls
 }
 TEST
 (
-DOM_IndexedDB_FileInfo
+DOM_IndexedDB_SimpleFileInfo
 CreateWithInitialDBRefCnt_UpdateDBRefsToZero
 )
 {
@@ -806,7 +809,7 @@ mAsyncDeleteFileCalls
 }
 TEST
 (
-DOM_IndexedDB_FileInfo
+DOM_IndexedDB_SimpleFileInfo
 ReleaseWithFileManagerCleanup
 )
 {
@@ -888,7 +891,7 @@ ifndef
 DEBUG
 TEST
 (
-DOM_IndexedDB_FileInfo
+DOM_IndexedDB_SimpleFileInfo
 Invalidate_CreateFileInfo
 )
 {
@@ -964,7 +967,7 @@ mAsyncDeleteFileCalls
 endif
 TEST
 (
-DOM_IndexedDB_FileInfo
+DOM_IndexedDB_SimpleFileInfo
 Invalidate_Release
 )
 {
@@ -1032,7 +1035,7 @@ mAsyncDeleteFileCalls
 }
 TEST
 (
-DOM_IndexedDB_FileInfo
+DOM_IndexedDB_SimpleFileInfo
 Invalidate_ReleaseWithFileManagerCleanup
 )
 {
