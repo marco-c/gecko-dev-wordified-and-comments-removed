@@ -339,6 +339,11 @@ ThrottledEventQueue
 .
 h
 "
+"
+VsyncTaskManager
+.
+h
+"
 ]
 SOURCES
 +
@@ -516,6 +521,11 @@ cpp
 "
 "
 TimerThread
+.
+cpp
+"
+"
+VsyncTaskManager
 .
 cpp
 "
