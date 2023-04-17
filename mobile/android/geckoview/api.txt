@@ -17042,6 +17042,15 @@ public
 static
 final
 int
+ERROR_DATA_URI_TOO_LONG
+=
+117
+;
+field
+public
+static
+final
+int
 ERROR_FILE_ACCESS_DENIED
 =
 101
