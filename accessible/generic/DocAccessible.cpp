@@ -4128,6 +4128,14 @@ HasState
 (
 NS_EVENT_STATE_DEFAULT
 )
+&
+&
+accessible
+-
+>
+IsButton
+(
+)
 )
 {
 RefPtr
