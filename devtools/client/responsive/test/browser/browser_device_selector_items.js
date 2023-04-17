@@ -55,14 +55,6 @@ DUMMY_ICON
 url
 (
 "
-chrome
-:
-/
-/
-devtools
-/
-skin
-/
 {
 MenuItem
 .
