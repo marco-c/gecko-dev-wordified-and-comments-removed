@@ -1,7 +1,7 @@
 #
 Sorting
 algorithms
-comparision
+comparison
 This
 article
 describes
