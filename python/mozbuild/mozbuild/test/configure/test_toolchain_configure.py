@@ -13807,25 +13807,12 @@ self
 .
 get_sandbox
 (
-            
 paths
 {
 }
 [
-"
--
--
-enable
--
-project
-=
-tools
-/
-crashreporter
-"
 ]
 environ
-        
 )
         
 dep
