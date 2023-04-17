@@ -149,12 +149,6 @@ MakeAndAddRef
 VideoFrameConverter
 >
 (
-dom
-:
-:
-RTCStatsTimestampMaker
-(
-)
 )
 )
 mListener

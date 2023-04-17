@@ -776,6 +776,10 @@ const
 VideoCaptureCapability
 &
 frameInfo
+int64_t
+captureTime
+=
+0
 )
 ;
 int32_t
@@ -847,6 +851,8 @@ webrtc
 VideoFrame
 &
 captureFrame
+int64_t
+capture_time
 )
 ;
 static
@@ -931,7 +937,11 @@ uint32_t
 _maxFPSNeeded
 ;
 int64_t
-last_capture_time_ms_
+last_capture_time_
+;
+const
+int64_t
+delta_ntp_internal_ms_
 ;
 void
 OnCaptureResult

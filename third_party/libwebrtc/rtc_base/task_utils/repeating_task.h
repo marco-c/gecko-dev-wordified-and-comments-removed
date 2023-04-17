@@ -360,7 +360,7 @@ clock
 Clock
 :
 :
-GetRealTimeClockRaw
+GetRealTimeClock
 (
 )
 )
@@ -458,7 +458,7 @@ clock
 Clock
 :
 :
-GetRealTimeClockRaw
+GetRealTimeClock
 (
 )
 )
