@@ -341,7 +341,7 @@ eCheckParam
 ePushNullTemplateRule
 }
 ;
-nsresult
+void
 pushHandlerTable
 (
 txHandlerTable

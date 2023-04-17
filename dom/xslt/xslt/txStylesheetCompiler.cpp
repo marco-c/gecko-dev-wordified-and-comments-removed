@@ -2627,7 +2627,7 @@ i
 ;
 }
 }
-nsresult
+void
 txStylesheetCompilerState
 :
 :
@@ -2647,9 +2647,6 @@ eHandlerTable
 mHandlerTable
 =
 aTable
-;
-return
-NS_OK
 ;
 }
 void
