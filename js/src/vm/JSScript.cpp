@@ -9869,9 +9869,10 @@ initial
 {
 if
 (
-containsAsmJS
-(
-)
+initial
+-
+>
+asmJS
 )
 {
 return
