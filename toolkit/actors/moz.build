@@ -181,6 +181,16 @@ BrowserElementParent
 jsm
 "
 "
+ContentMetaChild
+.
+jsm
+"
+"
+ContentMetaParent
+.
+jsm
+"
+"
 ControllersChild
 .
 jsm
