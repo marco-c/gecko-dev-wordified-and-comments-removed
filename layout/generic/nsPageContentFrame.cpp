@@ -1237,7 +1237,7 @@ overflowRect
 GetPhysicalRect
 (
 wm
-prevPageCF
+aPageFrame
 -
 >
 GetSize
