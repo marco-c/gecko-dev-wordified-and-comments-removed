@@ -1029,4 +1029,10 @@ shape
 -
 margin
 "
+    
+"
+content
+-
+visibility
+"
 ]
