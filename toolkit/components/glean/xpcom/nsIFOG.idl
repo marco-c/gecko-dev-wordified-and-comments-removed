@@ -97,6 +97,17 @@ aExperimentId
 [
 implicit_jscontext
 ]
+jsval
+testGetExperimentData
+(
+in
+ACString
+aExperimentId
+)
+;
+[
+implicit_jscontext
+]
 Promise
 testFlushAllChildren
 (
