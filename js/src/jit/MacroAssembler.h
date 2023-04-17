@@ -3741,6 +3741,17 @@ PER_SHARED_ARCH
 ;
 inline
 void
+abs32
+(
+Register
+src
+Register
+dest
+)
+PER_SHARED_ARCH
+;
+inline
+void
 absFloat32
 (
 FloatRegister
