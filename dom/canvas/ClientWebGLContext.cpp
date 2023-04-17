@@ -2038,6 +2038,10 @@ mIsCanvasDirty
 false
 ;
 }
+CancelAutoFlush
+(
+)
+;
 Run
 <
 RPROC
@@ -15581,6 +15585,9 @@ ClientWebGLContext
 :
 Flush
 (
+const
+bool
+flushGl
 )
 {
 const
@@ -15608,6 +15615,11 @@ IsContextLost
 )
 return
 ;
+if
+(
+flushGl
+)
+{
 Run
 <
 RPROC
@@ -15618,6 +15630,7 @@ Flush
 (
 )
 ;
+}
 if
 (
 notLost
