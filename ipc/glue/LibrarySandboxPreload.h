@@ -17,7 +17,7 @@ mozilla
 namespace
 ipc
 {
-nsAutoCString
+nsCString
 GetSandboxedRLBoxPath
 (
 )
