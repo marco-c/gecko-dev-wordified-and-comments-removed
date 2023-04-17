@@ -86,9 +86,6 @@ OS_LIBS
 "
 dbghelp
 "
-"
-ntdll
-"
 ]
 ReplaceMalloc
 (
