@@ -82,6 +82,16 @@ testMainThreadDelazifyAll
 script_str
 )
 {
+if
+(
+isLcovEnabled
+(
+)
+)
+{
+return
+;
+}
 const
 eval_f
 =

@@ -78,6 +78,16 @@ testMainThreadDelazifyAll
 script_str
 )
 {
+if
+(
+isLcovEnabled
+(
+)
+)
+{
+return
+;
+}
 const
 stencil
 =
