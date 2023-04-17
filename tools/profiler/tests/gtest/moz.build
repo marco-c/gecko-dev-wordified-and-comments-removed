@@ -1,4 +1,12 @@
 if
+(
+CONFIG
+[
+"
+MOZ_GECKO_PROFILER
+"
+]
+and
 CONFIG
 [
 "
@@ -35,6 +43,7 @@ x86
 "
 x86_64
 "
+)
 )
 :
 UNIFIED_SOURCES
