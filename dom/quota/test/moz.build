@@ -37,6 +37,15 @@ XPCSHELL_TESTS_MANIFESTS
 "
 xpcshell
 /
+caching
+/
+xpcshell
+.
+ini
+"
+"
+xpcshell
+/
 telemetry
 /
 xpcshell
