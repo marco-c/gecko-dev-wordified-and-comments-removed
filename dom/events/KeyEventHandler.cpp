@@ -3164,7 +3164,7 @@ nullptr
 {
 if
 (
-PL_strcmp
+strcmp
 (
 token
 "
@@ -3187,7 +3187,7 @@ cShiftMask
 else
 if
 (
-PL_strcmp
+strcmp
 (
 token
 "
@@ -3210,7 +3210,7 @@ cAltMask
 else
 if
 (
-PL_strcmp
+strcmp
 (
 token
 "
@@ -3233,7 +3233,7 @@ cMetaMask
 else
 if
 (
-PL_strcmp
+strcmp
 (
 token
 "
@@ -3256,7 +3256,7 @@ cOSMask
 else
 if
 (
-PL_strcmp
+strcmp
 (
 token
 "
@@ -3279,7 +3279,7 @@ cControlMask
 else
 if
 (
-PL_strcmp
+strcmp
 (
 token
 "
@@ -3302,7 +3302,7 @@ AccelKeyMask
 else
 if
 (
-PL_strcmp
+strcmp
 (
 token
 "
@@ -3326,7 +3326,7 @@ kMenuAccessKey
 else
 if
 (
-PL_strcmp
+strcmp
 (
 token
 "
