@@ -1083,20 +1083,8 @@ linux
 )
 :
             
-try
-:
-                
 from
 shutil
-import
-which
-            
-except
-ImportError
-:
-                
-from
-shutil_which
 import
 which
             
