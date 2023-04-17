@@ -566,6 +566,11 @@ int32_t
 localeIndex
 )
 ;
+template
+<
+class
+AvailableLocales
+>
 static
 bool
 getAvailableLocales
@@ -576,10 +581,10 @@ cx
 LocaleSet
 &
 locales
-CountAvailable
-countAvailable
-GetAvailable
-getAvailable
+const
+AvailableLocales
+&
+availableLocales
 )
 ;
 bool
