@@ -1424,7 +1424,7 @@ dexOptions
 {
 javaMaxHeapSize
 "
-6g
+32g
 "
 }
 lintOptions
