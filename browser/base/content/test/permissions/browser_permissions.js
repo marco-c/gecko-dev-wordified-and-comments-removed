@@ -339,7 +339,7 @@ labels
 0
 ]
 .
-textContent
+innerHTML
 labelText
 "
 Correct
@@ -2052,7 +2052,7 @@ labels
 0
 ]
 .
-textContent
+innerHTML
 labelText
 "
 Correct
@@ -2103,7 +2103,7 @@ labels
 0
 ]
 .
-textContent
+innerHTML
 labelText
 "
 Correct
