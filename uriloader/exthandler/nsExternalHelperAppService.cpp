@@ -12537,7 +12537,7 @@ _retval
 >
 SetDescription
 (
-NS_ConvertASCIItoUTF16
+NS_ConvertUTF8toUTF16
 (
 desc
 )
