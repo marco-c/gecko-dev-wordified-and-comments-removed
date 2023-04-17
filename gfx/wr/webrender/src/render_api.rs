@@ -6062,6 +6062,10 @@ upload_staging_memory
 :
 usize
 pub
+swgl
+:
+usize
+pub
 gpu_cache_textures
 :
 usize
