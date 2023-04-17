@@ -447,6 +447,15 @@ GetLineGapOverride
 )
 const
 ;
+Maybe
+<
+StylePercentage
+>
+GetSizeAdjust
+(
+)
+const
+;
 gfxUserFontEntry
 *
 CreateUserFontEntry
