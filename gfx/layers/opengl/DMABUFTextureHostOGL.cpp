@@ -267,7 +267,7 @@ mTextureSource
 ;
 for
 (
-size_t
+int
 i
 =
 1

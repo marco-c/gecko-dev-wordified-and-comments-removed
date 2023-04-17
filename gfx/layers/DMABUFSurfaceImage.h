@@ -75,11 +75,7 @@ GetAsSourceSurface
 (
 )
 override
-{
-return
-nullptr
 ;
-}
 TextureClient
 *
 GetTextureClient
