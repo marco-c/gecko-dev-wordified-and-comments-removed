@@ -85,7 +85,6 @@ lock
 '
 granted
 '
-false
 )
 ;
 self

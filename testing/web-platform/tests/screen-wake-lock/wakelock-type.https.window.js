@@ -24,7 +24,6 @@ lock
 '
 granted
 '
-false
 )
 ;
 const
