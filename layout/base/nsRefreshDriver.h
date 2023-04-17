@@ -1626,6 +1626,11 @@ ShouldKeepTimerRunningWhileWaitingForFirstContentfulPaint
 (
 )
 ;
+bool
+ShouldKeepTimerRunningAfterPageLoad
+(
+)
+;
 ObserverArray
 &
 ArrayFor
@@ -1902,6 +1907,11 @@ mInNormalTick
 ;
 bool
 mAttemptedExtraTickSinceLastVsync
+:
+1
+;
+bool
+mHasExceededAfterLoadTickPeriod
 :
 1
 ;
