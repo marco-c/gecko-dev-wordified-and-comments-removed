@@ -2395,6 +2395,36 @@ files
     
 )
     
+CommandArgument
+(
+        
+"
+extra
+"
+        
+nargs
+=
+argparse
+.
+REMAINDER
+        
+help
+=
+"
+Remaining
+non
+-
+optional
+arguments
+to
+analyze
+.
+py
+script
+"
+    
+)
+    
 def
 analyze
 (
@@ -2403,6 +2433,7 @@ command_context
 application
 shell_objdir
 work_dir
+extra
 )
 :
         
@@ -2459,16 +2490,35 @@ js
 "
             
 shell
+        
+]
+        
+if
+extra
+:
             
+args
++
+=
+extra
+        
+else
+:
+            
+args
++
+=
+[
+                
 "
 gcTypes
 "
-            
+                
 "
 -
 v
 "
-        
+            
 ]
         
 self
