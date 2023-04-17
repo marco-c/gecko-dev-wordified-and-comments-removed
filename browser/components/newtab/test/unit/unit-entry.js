@@ -1627,6 +1627,11 @@ clearUserPref
 }
 ;
 }
+prefIsLocked
+(
+)
+{
+}
 }
 tm
 :
