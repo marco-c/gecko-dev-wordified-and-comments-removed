@@ -409,6 +409,14 @@ distdir
     
 mach_cmd
 .
+bindir
+=
+config
+.
+bindir
+    
+mach_cmd
+.
 _mach_context
 =
 MagicMock
