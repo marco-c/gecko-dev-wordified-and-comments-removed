@@ -313,6 +313,8 @@ mozInlineSpellChecker
 aSpellChecker
 bool
 aForceNavigationWordCheck
+int32_t
+aNewNavigationPositionOffset
 )
 ;
 Operation
@@ -346,6 +348,7 @@ const
 bool
 mForceNavigationWordCheck
 ;
+const
 int32_t
 mNewNavigationPositionOffset
 ;

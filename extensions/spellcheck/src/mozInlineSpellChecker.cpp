@@ -356,6 +356,9 @@ aSpellChecker
 const
 bool
 aForceNavigationWordCheck
+const
+int32_t
+aNewNavigationPositionOffset
 )
 :
 mSpellChecker
@@ -365,6 +368,10 @@ aSpellChecker
 mForceNavigationWordCheck
 (
 aForceNavigationWordCheck
+)
+mNewNavigationPositionOffset
+(
+aNewNavigationPositionOffset
 )
 {
 }
@@ -459,6 +466,7 @@ mozInlineSpellStatus
 &
 aSpellChecker
 false
+0
 }
 }
 ;
@@ -952,6 +960,7 @@ mozInlineSpellStatus
 &
 aSpellChecker
 aForceCheck
+aNewPositionOffset
 }
 }
 ;
@@ -961,13 +970,6 @@ status
 mOp
 =
 eOpNavigation
-;
-status
--
->
-mNewNavigationPositionOffset
-=
-aNewPositionOffset
 ;
 TextEditor
 *
@@ -1168,6 +1170,7 @@ mozInlineSpellStatus
 &
 aSpellChecker
 false
+0
 }
 }
 ;
@@ -1233,6 +1236,7 @@ mozInlineSpellStatus
 &
 aSpellChecker
 false
+0
 }
 }
 ;
