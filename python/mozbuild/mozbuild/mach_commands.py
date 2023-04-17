@@ -15093,7 +15093,7 @@ import
 get_mach_virtualenv_root
     
 from
-mozbuild
+mach
 .
 virtualenv
 import

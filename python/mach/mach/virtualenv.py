@@ -5,6 +5,8 @@ absolute_import
 print_function
 unicode_literals
 import
+functools
+import
 json
 import
 os
@@ -871,6 +873,9 @@ def
 up_to_date
 (
 self
+skip_pip_package_check
+=
+False
 )
 :
         
@@ -892,53 +897,24 @@ date
 Args
 :
             
-python
+skip_pip_package_check
 :
-Full
-path
-string
-to
-the
-Python
-executable
+Don
+'
+t
+check
 that
-this
-virtualenv
+the
+pip
+state
+on
+-
+disk
+still
+meets
                 
-should
-be
-running
-.
-If
-the
-Python
-executable
-passed
-in
-to
-this
-                
-argument
-is
-not
-the
-same
-version
-as
-the
-Python
-the
-virtualenv
-was
-                
-built
-with
-then
-this
-method
-will
-return
-False
+our
+requirements
 .
         
 "
@@ -980,7 +956,7 @@ env_requirements
 =
 self
 .
-_requirements
+requirements
 (
 )
         
@@ -1267,6 +1243,11 @@ required_paths
 return
 False
         
+if
+not
+skip_pip_package_check
+:
+            
 pip
 =
 os
@@ -1282,7 +1263,7 @@ bin_path
 pip
 "
 )
-        
+            
 package_result
 =
 env_requirements
@@ -1293,14 +1274,14 @@ validate_environment_packages
 pip
 ]
 )
-        
+            
 if
 not
 package_result
 .
 has_all_packages
 :
-            
+                
 return
 False
         
@@ -1687,8 +1668,17 @@ self
 .
 virtualenv_root
     
+functools
+.
+lru_cache
+(
+maxsize
+=
+None
+)
+    
 def
-_requirements
+requirements
 (
 self
 )
@@ -1871,7 +1861,7 @@ env_requirements
 =
 self
 .
-_requirements
+requirements
 (
 )
         
