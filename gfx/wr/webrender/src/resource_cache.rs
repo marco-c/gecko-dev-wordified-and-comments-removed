@@ -6805,6 +6805,11 @@ self
 stamp
 :
 FrameStamp
+gpu_cache
+:
+&
+mut
+GpuCache
 profile
 :
 &
@@ -6929,6 +6934,15 @@ Vec
 new
 (
 )
+)
+;
+self
+.
+texture_cache
+.
+run_compaction
+(
+gpu_cache
 )
 ;
 }
