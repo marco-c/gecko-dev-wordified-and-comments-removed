@@ -5806,6 +5806,17 @@ aCharset
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
+MOZ_CAN_RUN_SCRIPT
+nsresult
+EnsurePaddingBRElementInMultilineEditor
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult

@@ -898,17 +898,6 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 nsresult
-EnsurePaddingBRElementInMultilineEditor
-(
-)
-;
-[
-[
-nodiscard
-]
-]
-MOZ_CAN_RUN_SCRIPT
-nsresult
 EnsureCaretNotAtEndOfTextNode
 (
 )
