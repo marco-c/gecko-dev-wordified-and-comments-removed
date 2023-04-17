@@ -11,6 +11,13 @@ MOZ_GECKO_PROFILER
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 nsProfiler
 .
 h
