@@ -1606,6 +1606,7 @@ bool
 hasSelfHostStencil
 (
 )
+const
 {
 return
 bool
@@ -2942,7 +2943,9 @@ hasInitializedSelfHosting
 const
 {
 return
-selfHostingGlobal_
+hasSelfHostStencil
+(
+)
 ;
 }
 bool
@@ -3047,7 +3050,7 @@ targetFun
 )
 ;
 bool
-cloneSelfHostedValue
+getSelfHostedValue
 (
 JSContext
 *
