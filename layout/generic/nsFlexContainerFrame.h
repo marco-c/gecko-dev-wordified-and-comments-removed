@@ -846,7 +846,7 @@ aHasLineClampEllipsis
 const
 CachedBAxisMeasurement
 &
-MeasureBSizeForFlexItem
+MeasureAscentAndBSizeForFlexItem
 (
 FlexItem
 &
