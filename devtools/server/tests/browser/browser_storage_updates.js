@@ -939,10 +939,6 @@ destroy
 (
 )
 ;
-finish
-(
-)
-;
 }
 async
 function
