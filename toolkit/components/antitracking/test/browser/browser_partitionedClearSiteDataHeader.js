@@ -451,10 +451,7 @@ BrowserTestUtils
 .
 withNewTab
 (
-(
-browserA
 CLEAR_SITE_DATA_URL_ORIGIN_A
-)
 (
 )
 =
