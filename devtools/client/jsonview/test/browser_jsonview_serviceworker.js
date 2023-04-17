@@ -6,7 +6,7 @@ strict
 const
 TEST_JSON_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 valid_json
@@ -17,7 +17,7 @@ json
 const
 EMPTY_PAGE
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 empty
@@ -28,7 +28,7 @@ html
 const
 SW
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 passthrough

@@ -42,7 +42,7 @@ const
 url
 =
 "
-http
+https
 :
 /
 /
@@ -151,7 +151,7 @@ const
 url
 =
 "
-http
+https
 :
 /
 /

@@ -6,7 +6,7 @@ strict
 const
 TEST_JSON_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 chunked_json
