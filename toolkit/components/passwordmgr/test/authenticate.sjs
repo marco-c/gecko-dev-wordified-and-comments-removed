@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 handleRequest
 (
@@ -720,7 +725,7 @@ authHeader
 )
 ;
 }
-var
+let
 userpass
 =
 base64ToString
@@ -882,7 +887,7 @@ authHeader
 )
 ;
 }
-var
+let
 userpass
 =
 base64ToString
@@ -1097,6 +1102,7 @@ required
 ;
 for
 (
+let
 i
 =
 0
@@ -1189,6 +1195,7 @@ required
 }
 for
 (
+let
 i
 =
 0
@@ -1518,6 +1525,7 @@ none
 ;
 for
 (
+let
 i
 =
 0

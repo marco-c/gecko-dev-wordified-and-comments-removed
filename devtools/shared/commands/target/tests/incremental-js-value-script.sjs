@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 handleRequest
 (
@@ -50,7 +55,7 @@ Match
 "
 "
 ;
-var
+const
 counter
 =
 getState
@@ -105,6 +110,7 @@ counter
 parseInt
 (
 counter
+10
 )
 +
 1

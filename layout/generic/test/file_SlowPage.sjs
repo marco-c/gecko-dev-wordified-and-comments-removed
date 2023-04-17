@@ -143,7 +143,7 @@ content
 .
 for
 (
-var
+let
 i
 =
 0
@@ -259,7 +259,7 @@ init
 {
 for
 (
-var
+let
 i
 =
 0

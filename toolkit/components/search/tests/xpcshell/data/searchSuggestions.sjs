@@ -159,7 +159,7 @@ str
 function
 writeSuggestions
 (
-query
+q
 completions
 =
 [
@@ -174,7 +174,7 @@ JSON
 stringify
 (
 [
-query
+q
 completions
 ]
 )
