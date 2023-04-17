@@ -328,6 +328,8 @@ __strong
 NSImage
 *
 last_cursor_
+=
+NULL
 ;
 }
 ;
