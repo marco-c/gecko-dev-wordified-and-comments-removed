@@ -1290,7 +1290,6 @@ Unknown
 Standard
 Spread
 FunCall
-FunApplyMagicArgs
 FunApplyArgsObj
 FunApplyArray
 LastArgFormat
@@ -1796,12 +1795,6 @@ CallFlags
 :
 :
 FunCall
-:
-case
-CallFlags
-:
-:
-FunApplyMagicArgs
 :
 case
 CallFlags
