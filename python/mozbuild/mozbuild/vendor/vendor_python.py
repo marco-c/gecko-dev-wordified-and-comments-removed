@@ -575,6 +575,13 @@ test
 /
 tests
 "
+"
+*
+*
+/
+.
+git
+"
 )
         
 finder
