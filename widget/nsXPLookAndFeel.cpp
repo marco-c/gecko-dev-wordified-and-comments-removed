@@ -2345,16 +2345,6 @@ browser
 .
 proton
 .
-doorhangers
-.
-enabled
-"
-_ns
-"
-browser
-.
-proton
-.
 places
 -
 tooltip
