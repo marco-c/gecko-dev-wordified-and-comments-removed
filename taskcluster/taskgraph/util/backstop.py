@@ -21,7 +21,7 @@ find_task_id
     
 get_artifact
     
-status_task
+state_task
 )
 BACKSTOP_PUSH_INTERVAL
 =
@@ -247,7 +247,7 @@ return
 True
     
 if
-status_task
+state_task
 (
 last_backstop_id
 )
