@@ -396,6 +396,11 @@ in
 requirements
 .
 pth_requirements
+            
++
+requirements
+.
+vendored_requirements
         
 )
     

@@ -131,7 +131,7 @@ file
 write
 (
 "
-pth
+vendored
 :
 third_party
 /
@@ -148,7 +148,7 @@ file
 write
 (
 "
-pth
+vendored
 :
 third_party
 /
