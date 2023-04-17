@@ -71,7 +71,7 @@ NULL
 ;
 if
 (
-FT_NEW
+FT_QNEW
 (
 stack
 )
@@ -95,7 +95,7 @@ e
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 stack
 -

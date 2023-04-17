@@ -254,7 +254,7 @@ close
 NULL
 ;
 }
-FT_CALLBACK_DEF
+FT_COMPARE_DEF
 (
 int
 )
@@ -680,7 +680,7 @@ Invalid_Table
 }
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 sfnt
 12
@@ -828,6 +828,12 @@ FT_TRACE2
 \
 n
 "
+)
+)
+;
+FT_TRACE2
+(
+(
 "
 tag
 offset
@@ -837,6 +843,12 @@ checksum
 \
 n
 "
+)
+)
+;
+FT_TRACE2
+(
+(
 "
 -
 -

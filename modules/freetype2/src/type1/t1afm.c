@@ -243,7 +243,7 @@ g1
 g2
 )
 )
-FT_CALLBACK_DEF
+FT_COMPARE_DEF
 (
 int
 )

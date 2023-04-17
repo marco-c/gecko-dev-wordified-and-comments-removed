@@ -2568,7 +2568,7 @@ l
 )
 )
 {
-FT_TRACE1
+FT_TRACE2
 (
 (
 "
@@ -2872,7 +2872,7 @@ property_name
 endif
 #
 endif
-FT_TRACE0
+FT_TRACE2
 (
 (
 "
@@ -2998,7 +2998,7 @@ property_name
 endif
 #
 endif
-FT_TRACE0
+FT_TRACE2
 (
 (
 "

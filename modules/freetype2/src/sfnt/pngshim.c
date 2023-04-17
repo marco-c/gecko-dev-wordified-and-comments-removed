@@ -1044,6 +1044,7 @@ i
 png_byte
 *
 *
+volatile
 rows
 =
 NULL
@@ -1647,7 +1648,7 @@ DestroyExit
 }
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 rows
 imgHeight
@@ -1713,11 +1714,6 @@ png
 rows
 )
 ;
-FT_FREE
-(
-rows
-)
-;
 png_read_end
 (
 png
@@ -1726,6 +1722,11 @@ info
 ;
 DestroyExit
 :
+FT_FREE
+(
+rows
+)
+;
 png_destroy_read_struct
 (
 &

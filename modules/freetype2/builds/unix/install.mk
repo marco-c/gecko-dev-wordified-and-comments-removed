@@ -15,7 +15,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 #
 David
@@ -503,7 +503,7 @@ INSTALL_SCRIPT
 m
 644
 (
-BUILD_DIR
+PLATFORM_DIR
 )
 /
 freetype2

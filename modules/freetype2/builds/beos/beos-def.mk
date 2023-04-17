@@ -36,7 +36,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 #
 David
@@ -119,7 +119,7 @@ SEP
 :
 =
 /
-BUILD_DIR
+PLATFORM_DIR
 :
 =
 (
@@ -382,7 +382,7 @@ compiler
 flags
 used
 to
-enfore
+enforce
 #
 ANSI
 compliance
@@ -411,7 +411,7 @@ compliant
 .
 #
 ANSIFLAGS
-:
+?
 =
 #
 EOF

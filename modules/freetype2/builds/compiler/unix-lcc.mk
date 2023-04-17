@@ -14,7 +14,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 #
 David
@@ -328,7 +328,7 @@ compiler
 flags
 used
 to
-enfore
+enforce
 #
 ANSI
 compliance
@@ -382,7 +382,7 @@ ANSI
 code
 #
 ANSIFLAGS
-:
+?
 =
 -
 A

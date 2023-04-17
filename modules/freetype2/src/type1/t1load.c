@@ -202,7 +202,7 @@ nn
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 blend
 -
@@ -215,7 +215,7 @@ num_designs
 )
 |
 |
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 blend
 -
@@ -228,7 +228,7 @@ num_designs
 )
 |
 |
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 blend
 -
@@ -241,7 +241,7 @@ num_designs
 )
 |
 |
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 blend
 -
@@ -483,7 +483,7 @@ design_pos
 ]
 =
 =
-0
+NULL
 )
 {
 FT_UInt
@@ -491,7 +491,7 @@ n
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 blend
 -
@@ -3749,7 +3749,7 @@ name
 }
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 blend
 -
@@ -4667,7 +4667,7 @@ Exit
 }
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 map
 -
@@ -5067,6 +5067,12 @@ have
 \
 n
 "
+)
+)
+;
+FT_ERROR
+(
+(
 "
 "
 "
@@ -5802,6 +5808,16 @@ point
 \
 n
 "
+field
+-
+>
+ident
+)
+)
+;
+FT_TRACE1
+(
+(
 "
 (
 probably
@@ -5813,10 +5829,6 @@ keywords
 \
 n
 "
-field
--
->
-ident
 )
 )
 ;
@@ -8137,7 +8149,7 @@ Fail
 }
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 temp
 size
@@ -8990,7 +9002,7 @@ Fail
 }
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 temp
 size

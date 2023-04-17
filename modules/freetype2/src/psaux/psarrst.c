@@ -90,13 +90,6 @@ allocated
 arrstack
 -
 >
-chunk
-=
-10
-;
-arrstack
--
->
 count
 =
 0
@@ -232,7 +225,7 @@ newSize
 if
 (
 !
-FT_REALLOC
+FT_QREALLOC
 (
 arrstack
 -
@@ -540,11 +533,10 @@ arrstack
 -
 >
 allocated
+*
+2
 +
-arrstack
--
->
-chunk
+16
 )
 )
 {

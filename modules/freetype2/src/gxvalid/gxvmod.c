@@ -137,7 +137,7 @@ Exit
 ;
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 *
 table

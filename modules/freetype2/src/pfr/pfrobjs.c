@@ -853,7 +853,7 @@ memory
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 pfrface
 -

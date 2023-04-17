@@ -3470,7 +3470,7 @@ total_size
 }
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 buffer
 (
@@ -3931,7 +3931,7 @@ sfnt
 ;
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 sfnt_data
 (

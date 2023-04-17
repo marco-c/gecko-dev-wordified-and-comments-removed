@@ -83,9 +83,6 @@ this
 file
 !
 #
-.
-gitignore
-#
 builds
 /
 unix
@@ -404,6 +401,10 @@ ftrandom
 ftrandom
 .
 c
+#
+subprojects
+/
+dlg
 #
 #
 EOF

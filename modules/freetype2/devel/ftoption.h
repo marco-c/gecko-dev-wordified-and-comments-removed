@@ -75,6 +75,9 @@ define
 FT_DEBUG_LEVEL_TRACE
 #
 define
+FT_DEBUG_LOGGING
+#
+define
 FT_DEBUG_AUTOFIT
 #
 define
@@ -221,9 +224,6 @@ AF_CONFIG_OPTION_INDIC
 #
 endif
 #
-define
-AF_CONFIG_OPTION_USE_WARPER
-#
 ifdef
 TT_CONFIG_OPTION_BYTECODE_INTERPRETER
 #
@@ -254,6 +254,14 @@ TT_SUPPORT_SUBPIXEL_HINTING_MINIMAL
 endif
 #
 endif
+#
+endif
+#
+ifdef
+TT_CONFIG_OPTION_COLOR_LAYERS
+#
+define
+TT_SUPPORT_COLRV1
 #
 endif
 #

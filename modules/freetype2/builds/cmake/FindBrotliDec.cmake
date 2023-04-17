@@ -10,7 +10,7 @@ C
 )
 2019
 -
-2020
+2021
 by
 #
 David
@@ -118,9 +118,10 @@ set
 BROTLIDEC_INCLUDE_DIRS
 #
 BROTLIDEC_LIBRARIES
-include
+find_package
 (
-FindPkgConfig
+PkgConfig
+QUIET
 )
 pkg_check_modules
 (
@@ -182,7 +183,7 @@ FindPackageHandleStandardArgs
 )
 find_package_handle_standard_args
 (
-brotlidec
+BrotliDec
 REQUIRED_VARS
 BROTLIDEC_INCLUDE_DIRS
 BROTLIDEC_LIBRARIES

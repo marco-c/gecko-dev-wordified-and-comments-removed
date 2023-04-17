@@ -38,14 +38,6 @@ fallback_style
 FT_UInt
 default_script
 ;
-#
-ifdef
-AF_CONFIG_OPTION_USE_WARPER
-FT_Bool
-warping
-;
-#
-endif
 FT_Bool
 no_stem_darkening
 ;

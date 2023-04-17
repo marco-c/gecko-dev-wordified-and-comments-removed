@@ -152,7 +152,7 @@ NULL
 (
 void
 )
-FT_ALLOC
+FT_QALLOC
 (
 p
 sz

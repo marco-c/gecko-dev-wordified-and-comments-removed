@@ -113,7 +113,7 @@ C
 )
 2018
 -
-2020
+2021
 by
 *
 /
@@ -297,8 +297,8 @@ h
 define
 FT_VERSION
 2
-10
-4
+11
+0
 0
 #
 define
@@ -306,9 +306,9 @@ FT_VERSION_STR
 "
 2
 .
-10
+11
 .
-4
+0
 "
 VS_VERSION_INFO
 VERSIONINFO
@@ -407,7 +407,7 @@ LegalCopyright
 251
 2000
 -
-2020
+2021
 The
 FreeType
 Project

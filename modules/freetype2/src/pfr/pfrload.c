@@ -1549,7 +1549,7 @@ Exit
 ;
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 phy_font
 -
@@ -1681,7 +1681,7 @@ count
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 snaps
 count
@@ -2351,7 +2351,7 @@ ok
 {
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 result
 len
@@ -3088,7 +3088,7 @@ count
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 phy_font
 -

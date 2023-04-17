@@ -7679,7 +7679,7 @@ d
 entering
 level
 %
-d
+ld
 )
 \
 n
@@ -7918,7 +7918,7 @@ d
 entering
 level
 %
-d
+ld
 )
 \
 n
@@ -8130,7 +8130,7 @@ return
 leaving
 level
 %
-d
+ld
 )
 \
 n
@@ -8308,6 +8308,14 @@ end
 .
 \
 n
+"
+)
+)
+;
+FT_TRACE4
+(
+(
+"
 \
 n
 "

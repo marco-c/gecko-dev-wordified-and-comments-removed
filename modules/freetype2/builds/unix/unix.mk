@@ -15,7 +15,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 #
 David
@@ -101,7 +101,7 @@ a
 generated
 file
 .
-BUILD_DIR
+PLATFORM_DIR
 :
 =
 (
@@ -171,7 +171,7 @@ mk
 else
 include
 (
-BUILD_DIR
+PLATFORM_DIR
 )
 /
 unix
@@ -181,7 +181,7 @@ def
 mk
 include
 (
-BUILD_DIR
+PLATFORM_DIR
 )
 /
 unix

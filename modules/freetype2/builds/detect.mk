@@ -14,7 +14,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 #
 David
@@ -106,7 +106,7 @@ variables
 :
 #
 #
-BUILD_DIR
+PLATFORM_DIR
 The
 configuration
 and
@@ -347,7 +347,7 @@ must
 be
 delayed
 .
-BUILD_DIR
+PLATFORM_DIR
 =
 (
 BUILD_CONFIG
@@ -359,7 +359,7 @@ PLATFORM
 CONFIG_RULES
 =
 (
-BUILD_DIR
+PLATFORM_DIR
 )
 /
 (
@@ -742,7 +742,7 @@ subst
 SEP
 )
 (
-BUILD_DIR
+PLATFORM_DIR
 )
 )
 )

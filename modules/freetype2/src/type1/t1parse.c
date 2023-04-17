@@ -532,7 +532,7 @@ else
 {
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 parser
 -
@@ -854,7 +854,7 @@ start_pos
 )
 |
 |
-FT_ALLOC
+FT_QALLOC
 (
 parser
 -
@@ -1504,7 +1504,7 @@ in_memory
 {
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 parser
 -

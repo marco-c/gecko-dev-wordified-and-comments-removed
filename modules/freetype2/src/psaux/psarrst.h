@@ -30,9 +30,6 @@ size_t
 allocated
 ;
 size_t
-chunk
-;
-size_t
 count
 ;
 size_t

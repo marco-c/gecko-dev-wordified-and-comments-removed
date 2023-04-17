@@ -170,7 +170,7 @@ num_axes
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 parser
 -
@@ -2492,6 +2492,14 @@ ld
 \
 n
 "
+min_scaling
+max_scaling
+)
+)
+;
+FT_TRACE1
+(
+(
 "
 "
 "
@@ -2501,8 +2509,6 @@ matrix
 \
 n
 "
-min_scaling
-max_scaling
 )
 )
 ;
@@ -6073,6 +6079,8 @@ val
 1000
 )
 )
+;
+break
 ;
 default
 :

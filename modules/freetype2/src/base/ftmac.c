@@ -2059,7 +2059,7 @@ total_size
 }
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 buffer
 (
@@ -2525,7 +2525,7 @@ Array_Too_Large
 ;
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 sfnt_data
 (

@@ -14,7 +14,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 #
 David
@@ -127,9 +127,10 @@ used
 :
 #
 #
-BUILD_DIR
+PLATFORM_DIR
 The
 architecture
+-
 dependent
 directory
 #
@@ -758,7 +759,7 @@ DEVEL_DIR
 )
 \
 (
-BUILD_DIR
+PLATFORM_DIR
 )
 \
 (
@@ -1133,7 +1134,7 @@ ifneq
 (
 wildcard
 (
-BUILD_DIR
+PLATFORM_DIR
 )
 /
 ftoption
@@ -1145,7 +1146,7 @@ FTOPTION_H
 :
 =
 (
-BUILD_DIR
+PLATFORM_DIR
 )
 /
 ftoption
@@ -1206,7 +1207,7 @@ h
 (
 wildcard
 (
-BUILD_DIR
+PLATFORM_DIR
 )
 /
 config
@@ -1394,6 +1395,16 @@ mk
 MODULES
 )
 )
+include
+(
+SRC_DIR
+)
+/
+dlg
+/
+rules
+.
+mk
 #
 ftinit
 component
@@ -1621,6 +1632,9 @@ BASE_EXT_OBJ
 (
 DRV_OBJS_M
 )
+(
+DLG_OBJS_M
+)
 OBJ_S
 :
 =
@@ -1632,6 +1646,9 @@ BASE_EXT_OBJ
 )
 (
 DRV_OBJS_S
+)
+(
+DLG_OBJS_S
 )
 #
 The

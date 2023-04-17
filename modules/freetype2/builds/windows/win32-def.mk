@@ -13,7 +13,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 #
 David
@@ -97,7 +97,7 @@ SEP
 strip
 \
 )
-BUILD_DIR
+PLATFORM_DIR
 :
 =
 (

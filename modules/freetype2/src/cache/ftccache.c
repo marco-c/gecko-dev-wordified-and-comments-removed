@@ -1466,7 +1466,6 @@ FTC_CACHE_TRYLOOP_END
 (
 NULL
 )
-;
 if
 (
 error

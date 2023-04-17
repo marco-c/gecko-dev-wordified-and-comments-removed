@@ -583,12 +583,6 @@ ft_glyph_format_plotter
 FT_GLYPH_FORMAT_PLOTTER
 typedef
 struct
-FT_RasterRec_
-*
-FT_Raster
-;
-typedef
-struct
 FT_Span_
 {
 short
@@ -679,6 +673,10 @@ FT_RASTER_FLAG_CLIP
 0x4
 #
 define
+FT_RASTER_FLAG_SDF
+0x8
+#
+define
 ft_raster_flag_default
 FT_RASTER_FLAG_DEFAULT
 #
@@ -731,6 +729,12 @@ clip_box
 ;
 }
 FT_Raster_Params
+;
+typedef
+struct
+FT_RasterRec_
+*
+FT_Raster
 ;
 typedef
 int

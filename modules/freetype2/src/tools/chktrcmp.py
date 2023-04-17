@@ -388,7 +388,6 @@ FT_COMPONENT
 t
 ]
 +
-trace_
 '
 )
 for

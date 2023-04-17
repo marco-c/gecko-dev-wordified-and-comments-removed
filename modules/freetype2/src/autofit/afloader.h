@@ -118,7 +118,7 @@ load_flags
 ;
 FT_LOCAL_DEF
 (
-FT_Int32
+FT_Fixed
 )
 af_loader_compute_darkening
 (

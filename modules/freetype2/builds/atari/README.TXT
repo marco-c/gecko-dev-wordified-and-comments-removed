@@ -143,7 +143,7 @@ include
 -
 The
 file
-freetype2
+freetype
 /
 include
 /
@@ -307,7 +307,7 @@ include
 In
 der
 Datei
-freetype2
+freetype
 /
 include
 /

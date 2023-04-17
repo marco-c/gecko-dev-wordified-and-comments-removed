@@ -338,7 +338,7 @@ return
 error
 ;
 }
-FT_TRACE0
+FT_TRACE2
 (
 (
 "
@@ -433,7 +433,7 @@ return
 error
 ;
 }
-FT_TRACE0
+FT_TRACE2
 (
 (
 "

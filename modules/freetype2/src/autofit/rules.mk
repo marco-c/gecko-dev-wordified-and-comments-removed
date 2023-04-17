@@ -16,7 +16,7 @@ C
 )
 2003
 -
-2020
+2021
 by
 #
 David
@@ -154,14 +154,6 @@ AUTOF_DRV_SRC
 AUTOF_DIR
 )
 /
-afangles
-.
-c
-\
-(
-AUTOF_DIR
-)
-/
 afblue
 .
 c
@@ -246,13 +238,6 @@ afshaper
 .
 c
 \
-(
-AUTOF_DIR
-)
-/
-afwarp
-.
-c
 #
 AUTOF
 driver

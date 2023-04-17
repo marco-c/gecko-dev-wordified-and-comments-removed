@@ -1626,18 +1626,6 @@ module
 FT_UInt32
 seed
 ;
-#
-ifdef
-T1_CONFIG_OPTION_OLD_ENGINE
-driver
--
->
-hinting_engine
-=
-FT_HINTING_FREETYPE
-;
-#
-else
 driver
 -
 >
@@ -1645,8 +1633,6 @@ hinting_engine
 =
 FT_HINTING_ADOBE
 ;
-#
-endif
 driver
 -
 >

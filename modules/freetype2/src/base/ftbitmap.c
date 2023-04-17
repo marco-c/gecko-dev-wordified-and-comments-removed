@@ -3790,6 +3790,12 @@ FT_Bitmap_Blend
 \
 n
 "
+)
+)
+;
+FT_TRACE5
+(
+(
 "
 source
 bitmap
