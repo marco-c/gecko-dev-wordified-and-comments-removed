@@ -588,6 +588,14 @@ h
 "
         
 "
+wasm
+/
+WasmIntrinsicGenerated
+.
+h
+"
+        
+"
 zydis
 /
 ZydisAPI
