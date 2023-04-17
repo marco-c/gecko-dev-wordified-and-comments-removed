@@ -1550,6 +1550,17 @@ response
 {
 }
 }
+clearPicker
+:
+{
+request
+:
+{
+}
+oneway
+:
+true
+}
 watchRootNode
 :
 {
