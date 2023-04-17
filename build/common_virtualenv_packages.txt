@@ -1,4 +1,4 @@
-optional
+thunderbird
 :
 packages
 .
