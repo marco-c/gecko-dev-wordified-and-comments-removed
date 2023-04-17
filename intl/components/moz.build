@@ -50,6 +50,13 @@ h
 "
 src
 /
+ICU4CLibrary
+.
+h
+"
+"
+src
+/
 ICUError
 .
 h
@@ -182,6 +189,13 @@ cpp
 src
 /
 ICU4CGlue
+.
+cpp
+"
+"
+src
+/
+ICU4CLibrary
 .
 cpp
 "
