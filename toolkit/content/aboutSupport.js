@@ -11537,7 +11537,13 @@ obs
 .
 notifyObservers
 (
-null
+window
+.
+docShell
+.
+chromeEventHandler
+.
+ownerGlobal
 "
 restart
 -

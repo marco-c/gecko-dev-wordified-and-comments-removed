@@ -37234,7 +37234,7 @@ obs
 .
 notifyObservers
 (
-null
+window
 "
 restart
 -
