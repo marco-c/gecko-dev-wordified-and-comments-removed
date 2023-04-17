@@ -1923,7 +1923,8 @@ Extension
 :
 "
 CSP
-ContentBlocked
+Content
+Blocked
 "
 4004
 :
