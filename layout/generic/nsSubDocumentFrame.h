@@ -72,9 +72,6 @@ class
 Layer
 ;
 class
-RefLayer
-;
-class
 RenderRootStateManager
 ;
 class
@@ -864,16 +861,6 @@ layers
 :
 LayersId
 LayersId
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
-RefLayer
-RefLayer
 ;
 typedef
 mozilla
