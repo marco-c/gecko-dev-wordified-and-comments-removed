@@ -31,6 +31,13 @@ ThreadRegistry
 :
 sRegistryMutex
 ;
+#
+if
+!
+defined
+(
+MOZ_GECKO_PROFILER
+)
 void
 ThreadRegistry
 :
@@ -112,4 +119,6 @@ break
 }
 }
 }
+#
+endif
 }
