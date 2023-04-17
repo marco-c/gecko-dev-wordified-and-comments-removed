@@ -645,6 +645,13 @@ uint32_t
 funcIndex
 CallArgs
 args
+CoercionLevel
+level
+=
+CoercionLevel
+:
+:
+Spec
 )
 ;
 JSAtom
@@ -1285,6 +1292,13 @@ char
 stackResultsLoc
 MutableHandleValue
 rval
+CoercionLevel
+level
+=
+CoercionLevel
+:
+:
+Spec
 )
 ;
 }

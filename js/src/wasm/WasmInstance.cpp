@@ -10093,6 +10093,8 @@ char
 stackResultsLoc
 MutableHandleValue
 rval
+CoercionLevel
+level
 )
 {
 if
@@ -10192,6 +10194,7 @@ type
 (
 )
 rval
+level
 )
 )
 {
@@ -10347,6 +10350,7 @@ type
 )
 &
 tmp
+level
 )
 )
 {
@@ -10774,6 +10778,8 @@ void
 registerResultLoc
 MutableHandleValue
 rval
+CoercionLevel
+level
 )
 {
 Maybe
@@ -10806,6 +10812,7 @@ type_
 registerResultLoc
 stackResultsLoc
 rval
+level
 )
 ;
 }
@@ -10824,6 +10831,8 @@ uint32_t
 funcIndex
 CallArgs
 args
+CoercionLevel
+level
 )
 {
 if
@@ -10883,6 +10892,15 @@ false
 }
 if
 (
+level
+!
+=
+CoercionLevel
+:
+:
+Lossless
+&
+&
 funcType
 -
 >
@@ -11143,6 +11161,7 @@ v
 type
 rawArgLoc
 true
+level
 )
 )
 {
@@ -11630,6 +11649,7 @@ args
 rval
 (
 )
+level
 )
 )
 {
