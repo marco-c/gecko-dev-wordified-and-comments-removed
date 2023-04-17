@@ -23,6 +23,17 @@ gExceptionHandler
 nullptr
 ;
 bool
+__attribute__
+(
+(
+visibility
+(
+"
+default
+"
+)
+)
+)
 gBreakpadInjectorEnabled
 =
 true
