@@ -2562,6 +2562,7 @@ interface
 Element
 {
 [
+UseCounter
 Throws
 Pref
 =

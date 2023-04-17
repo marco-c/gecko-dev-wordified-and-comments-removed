@@ -199,6 +199,7 @@ sanitizerConfig
 )
 ;
 [
+UseCounter
 Throws
 ]
 DocumentFragment
@@ -209,6 +210,7 @@ input
 )
 ;
 [
+UseCounter
 Throws
 ]
 Element
