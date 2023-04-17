@@ -1279,9 +1279,9 @@ TRRLoadInfo
 :
 AppendRedirectHistoryEntry
 (
-nsIRedirectHistoryEntry
+nsIChannel
 *
-aEntry
+aChannelToDeriveFrom
 bool
 aIsInternalRedirect
 )

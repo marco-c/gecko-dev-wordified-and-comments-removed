@@ -2905,12 +2905,6 @@ nsIURI
 aURI
 )
 ;
-nsIPrincipal
-*
-GetURIPrincipal
-(
-)
-;
 [
 [
 nodiscard

@@ -1458,8 +1458,8 @@ void
 appendRedirectHistoryEntry
 (
 in
-nsIRedirectHistoryEntry
-entry
+nsIChannel
+channelToDeriveFrom
 in
 boolean
 isInternalRedirect
