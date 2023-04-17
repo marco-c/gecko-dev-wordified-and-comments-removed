@@ -146,6 +146,3 @@ Library
 brotli
 '
 )
-REQUIRES_UNIFIED_BUILD
-=
-True
