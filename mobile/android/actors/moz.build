@@ -133,9 +133,4 @@ SelectionActionDelegateChild
 .
 jsm
 "
-"
-WebBrowserChromeChild
-.
-jsm
-"
 ]
