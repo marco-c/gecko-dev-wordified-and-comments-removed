@@ -445,8 +445,13 @@ nodiscard
 ]
 ]
 bool
-disableGrouping
+grouping
 (
+NumberFormatOptions
+:
+:
+Grouping
+grouping
 )
 ;
 [
