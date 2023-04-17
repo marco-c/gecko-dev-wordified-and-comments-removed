@@ -1107,6 +1107,7 @@ channelDomain
 )
 |
 |
+(
 !
 loadInfo
 -
@@ -1121,6 +1122,17 @@ SchemeIs
 "
 https
 "
+)
+&
+&
+!
+nsMixedContentBlocker
+:
+:
+IsPotentiallyTrustworthyLoopbackHost
+(
+hostDomain
+)
 )
 )
 {
