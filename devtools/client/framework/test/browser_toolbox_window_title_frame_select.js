@@ -483,6 +483,14 @@ navigate
 )
 ;
 const
+onTitleChanged
+=
+waitForTitleChange
+(
+toolbox
+)
+;
+const
 onInspectorReloaded
 =
 toolbox
@@ -523,10 +531,7 @@ await
 onInspectorReloaded
 ;
 await
-wait
-(
-1000
-)
+onTitleChanged
 ;
 info
 (

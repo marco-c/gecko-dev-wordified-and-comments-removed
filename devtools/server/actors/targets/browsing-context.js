@@ -4236,7 +4236,6 @@ getWindowID
 (
 window
 )
-isFrameSwitching
 }
 )
 ;
