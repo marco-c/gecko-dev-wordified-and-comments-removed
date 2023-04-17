@@ -1066,6 +1066,11 @@ popup
 learn
 -
 more
+-
+button
+=
+.
+label
 =
 Learn
 more
@@ -1105,6 +1110,11 @@ popup
 edit
 -
 settings
+-
+button
+=
+.
+label
 =
 Edit
 Settings
