@@ -1266,8 +1266,8 @@ dll
 (
 11
 6
-0xffff
-0xffff
+300
+2
 )
 )
 DllBlocklistEntry
@@ -1280,8 +1280,8 @@ dll
 (
 11
 6
-0xffff
-0xffff
+300
+2
 )
 )
 DllBlocklistEntry
