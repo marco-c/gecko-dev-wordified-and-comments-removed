@@ -11546,16 +11546,6 @@ experiments
 pref
 (
 "
-nimbus
-.
-debug
-"
-false
-)
-;
-pref
-(
-"
 full
 -
 screen

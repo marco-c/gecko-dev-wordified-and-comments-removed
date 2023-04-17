@@ -3622,7 +3622,6 @@ matches
 about
 :
 studies
-*
 "
 ]
 }
