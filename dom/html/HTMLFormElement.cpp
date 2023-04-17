@@ -6418,7 +6418,6 @@ result
 DoResolveName
 (
 aName
-true
 )
 ;
 if
@@ -6582,8 +6581,6 @@ const
 nsAString
 &
 aName
-bool
-aFlushContent
 )
 {
 nsCOMPtr
@@ -6598,7 +6595,6 @@ mControls
 NamedItemInternal
 (
 aName
-aFlushContent
 )
 ;
 return

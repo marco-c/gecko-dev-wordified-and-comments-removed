@@ -48,8 +48,8 @@ RefPtr
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -248,8 +248,6 @@ const
 nsAString
 &
 aName
-bool
-aFlushContent
 )
 ;
 nsresult
@@ -383,11 +381,6 @@ Clear
 (
 )
 ;
-void
-FlushPendingNotifications
-(
-)
-;
 nsInterfaceHashtable
 <
 nsStringHashKey
@@ -397,7 +390,6 @@ mNameLookupTable
 ;
 }
 ;
-}
 }
 #
 endif

@@ -1397,8 +1397,6 @@ const
 nsAString
 &
 aName
-bool
-aFlushContent
 )
 ;
 bool
