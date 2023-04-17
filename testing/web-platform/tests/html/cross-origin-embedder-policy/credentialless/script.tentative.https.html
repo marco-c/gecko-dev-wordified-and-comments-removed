@@ -78,7 +78,6 @@ src
 =
 "
 .
-.
 /
 resources
 /
@@ -96,7 +95,6 @@ script
 src
 =
 "
-.
 .
 /
 resources
@@ -142,7 +140,7 @@ const
 cookie_key
 =
 "
-coep_credentialless_image
+coep_credentialless_script
 "
 ;
 const
@@ -296,7 +294,7 @@ close
 )
 ;
 let
-imgTest
+scriptTest
 =
 function
 (
@@ -332,18 +330,18 @@ send
 (
 w_control_token
 let
-img
+script
 =
 document
 .
 createElement
 (
 "
-img
+script
 "
 )
 ;
-img
+script
 .
 src
 =
@@ -367,7 +365,7 @@ body
 .
 appendChild
 (
-img
+script
 )
 ;
 )
@@ -376,18 +374,18 @@ send
 (
 w_credentialless_token
 let
-img
+script
 =
 document
 .
 createElement
 (
 "
-img
+script
 "
 )
 ;
-img
+script
 .
 src
 =
@@ -411,7 +409,7 @@ body
 .
 appendChild
 (
-img
+script
 )
 ;
 )
@@ -483,7 +481,7 @@ credentialless
 )
 ;
 }
-image
+script
 {
 description
 }
@@ -500,7 +498,7 @@ always
 contains
 Cookies
 :
-imgTest
+scriptTest
 (
 "
 same
@@ -516,7 +514,7 @@ cookie_same_origin
 cookie_same_origin
 )
 ;
-imgTest
+scriptTest
 (
 "
 same
@@ -527,7 +525,7 @@ anonymous
 "
 same_origin
 '
-img
+script
 .
 crossOrigin
 =
@@ -539,7 +537,7 @@ cookie_same_origin
 cookie_same_origin
 )
 ;
-imgTest
+scriptTest
 (
 "
 same
@@ -552,7 +550,7 @@ credentials
 "
 same_origin
 '
-img
+script
 .
 crossOrigin
 =
@@ -592,7 +590,7 @@ set
 /
 /
 -
-img
+script
 .
 crossOrigin
 is
@@ -600,7 +598,7 @@ use
 -
 credentials
 .
-imgTest
+scriptTest
 (
 "
 cross
@@ -616,7 +614,7 @@ cookie_cross_origin
 undefined
 )
 ;
-imgTest
+scriptTest
 (
 "
 cross
@@ -627,7 +625,7 @@ anonymous
 "
 cross_origin
 '
-img
+script
 .
 crossOrigin
 =
@@ -639,7 +637,7 @@ undefined
 undefined
 )
 ;
-imgTest
+scriptTest
 (
 "
 cross
@@ -652,7 +650,7 @@ credentials
 "
 cross_origin
 '
-img
+script
 .
 crossOrigin
 =
