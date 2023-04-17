@@ -13221,6 +13221,13 @@ debounce
 =
 >
 {
+if
+(
+this
+.
+component
+)
+{
 this
 .
 component
@@ -13232,6 +13239,7 @@ this
 toolbarButtons
 )
 ;
+}
 this
 .
 debouncedToolbarUpdate
@@ -15023,6 +15031,12 @@ this
 .
 _componentMount
 )
+;
+this
+.
+component
+=
+null
 ;
 this
 .
