@@ -394,7 +394,7 @@ return
 !
 RemoteAgent
 .
-webdriverBiDi
+webDriverBiDi
 ;
             
 "

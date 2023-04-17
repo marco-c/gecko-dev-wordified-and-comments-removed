@@ -304,7 +304,7 @@ WEBDRIVER_BIDI_ACTIVE
 {
 this
 .
-webdriverBiDi
+webDriverBiDi
 =
 new
 WebDriverBiDi
@@ -328,7 +328,7 @@ else
 {
 this
 .
-webdriverBiDi
+webDriverBiDi
 =
 null
 ;
@@ -666,7 +666,7 @@ start
 await
 this
 .
-webdriverBiDi
+webDriverBiDi
 ?
 .
 start
@@ -723,7 +723,7 @@ stop
 ;
 this
 .
-webdriverBiDi
+webDriverBiDi
 ?
 .
 stop
