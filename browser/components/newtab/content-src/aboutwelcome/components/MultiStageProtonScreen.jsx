@@ -618,11 +618,6 @@ null
 {
 !
 isWelcomeScreen
-&
-&
-total
->
-1
 ?
 (
 <
