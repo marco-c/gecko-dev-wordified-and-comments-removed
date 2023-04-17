@@ -5236,7 +5236,7 @@ bookmarks
 label
 =
 Manage
-Bookmarks
+bookmarks
 bookmarks
 -
 recent
