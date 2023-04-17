@@ -5402,7 +5402,7 @@ HandleWebRenderError
 WebRenderError
 :
 :
-NEW_SURFACE
+BEGIN_DRAW
 )
 ;
 return
