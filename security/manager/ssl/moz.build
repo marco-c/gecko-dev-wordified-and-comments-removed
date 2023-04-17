@@ -426,6 +426,11 @@ UNIFIED_SOURCES
 =
 [
 "
+CertStorageMemoryReporting
+.
+cpp
+"
+"
 CommonSocketControl
 .
 cpp

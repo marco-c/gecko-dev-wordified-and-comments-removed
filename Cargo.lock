@@ -3081,6 +3081,9 @@ cstr
 log
 "
 "
+malloc_size_of_derive
+"
+"
 memmap
 "
 "
@@ -3117,6 +3120,9 @@ vec
 "
 "
 time
+"
+"
+wr_malloc_size_of
 "
 "
 xpcom
