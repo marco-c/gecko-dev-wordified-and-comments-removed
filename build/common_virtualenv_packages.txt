@@ -814,6 +814,13 @@ third_party
 /
 python
 /
+taskcluster_taskgraph
+vendored
+:
+third_party
+/
+python
+/
 taskcluster_urls
 vendored
 :
