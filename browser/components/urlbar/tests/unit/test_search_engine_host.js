@@ -497,7 +497,7 @@ UrlbarUtils
 .
 ICON
 .
-SEARCH_GLASS_INVERTED
+SEARCH_GLASS
 uri
 :
 UrlbarUtils
