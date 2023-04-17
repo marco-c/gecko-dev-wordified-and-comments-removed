@@ -895,9 +895,7 @@ includes
 "
 arrow
 -
-dropdown
--
-16
+down
 .
 svg
 "
