@@ -282,7 +282,10 @@ Element
 aElement
 ShadowRootMode
 aMode
-bool
+Element
+:
+:
+DelegatesFocus
 aDelegatesFocus
 SlotAssignmentMode
 aSlotAssignment

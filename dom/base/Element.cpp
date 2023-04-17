@@ -6416,9 +6416,12 @@ AttachShadowWithoutNameChecks
 aInit
 .
 mMode
+DelegatesFocus
+(
 aInit
 .
 mDelegatesFocus
+)
 aInit
 .
 mSlotAssignment
@@ -6436,7 +6439,7 @@ AttachShadowWithoutNameChecks
 (
 ShadowRootMode
 aMode
-bool
+DelegatesFocus
 aDelegatesFocus
 SlotAssignmentMode
 aSlotAssignment
@@ -6703,6 +6706,8 @@ AttachAndSetUAShadowRoot
 (
 NotifyUAWidgetSetup
 aNotify
+DelegatesFocus
+aDelegatesFocus
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -6758,6 +6763,7 @@ ShadowRootMode
 :
 :
 Closed
+aDelegatesFocus
 )
 ;
 shadowRoot
