@@ -438,6 +438,9 @@ WebRenderScrollData
 class
 WebRenderLayerScrollData
 ;
+class
+WebRenderLayerManager
+;
 }
 namespace
 wr
@@ -1301,7 +1304,7 @@ nullptr
 layers
 :
 :
-LayerManager
+WebRenderLayerManager
 *
 GetWidgetLayerManager
 (
