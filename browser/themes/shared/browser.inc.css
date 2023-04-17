@@ -5917,6 +5917,12 @@ is
 (
 description
 label
+:
+not
+(
+.
+learnMore
+)
 checkbox
 input
 )
