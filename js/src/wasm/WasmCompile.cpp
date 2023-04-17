@@ -31,9 +31,6 @@ include
 algorithm
 >
 #
-ifndef
-__wasi__
-#
 include
 "
 jit
@@ -42,8 +39,6 @@ ProcessExecutableMemory
 .
 h
 "
-#
-endif
 #
 include
 "
