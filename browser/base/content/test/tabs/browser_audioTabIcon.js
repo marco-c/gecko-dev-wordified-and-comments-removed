@@ -1275,13 +1275,11 @@ skin
 /
 tabbrowser
 /
-tab
+badge
 -
 audio
 -
 playing
--
-small
 .
 svg
 "

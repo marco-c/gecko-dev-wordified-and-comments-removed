@@ -2983,10 +2983,6 @@ tab
 title
 *
 /
-padding
-:
-2px
-;
 }
 media
 not
@@ -3036,10 +3032,6 @@ tab
 title
 *
 /
-padding
-:
-0
-;
 }
 }
 /
@@ -3434,10 +3426,6 @@ opacity
 0
 .
 75
-;
-padding
-:
-2px
 ;
 }
 .
@@ -4227,7 +4215,7 @@ height
 ;
 padding
 :
-7px
+5px
 ;
 border
 -
@@ -4297,7 +4285,7 @@ start
 ;
 width
 :
-17px
+19px
 ;
 }
 .
@@ -9226,13 +9214,11 @@ skin
 /
 tabbrowser
 /
-tab
+badge
 -
 audio
 -
 playing
--
-small
 .
 svg
 )
