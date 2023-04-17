@@ -1130,10 +1130,6 @@ sdk
 11
 .
 0
--
-wasi
--
-sysroot
 macosx64
 -
 devedition
@@ -2759,10 +2755,6 @@ sdk
 11
 .
 0
--
-wasi
--
-sysroot
 macosx64
 -
 shippable
