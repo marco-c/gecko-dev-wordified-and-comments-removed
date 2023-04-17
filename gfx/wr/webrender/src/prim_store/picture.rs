@@ -20,10 +20,7 @@ api
 units
 :
 :
-{
 Au
-LayoutVector2D
-}
 ;
 use
 crate
@@ -2026,9 +2023,6 @@ _
 &
 mut
 PrimitiveStore
-_reference_frame_relative_offset
-:
-LayoutVector2D
 )
 -
 >
