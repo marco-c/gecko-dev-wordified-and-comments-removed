@@ -8763,10 +8763,12 @@ GetWidget
 )
 ;
 #
-endif
+else
 return
 true
 ;
+#
+endif
 }
 already_AddRefed
 <
