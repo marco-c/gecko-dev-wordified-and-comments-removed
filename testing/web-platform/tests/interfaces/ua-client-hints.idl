@@ -72,7 +72,7 @@ version
 dictionary
 UADataValues
 {
-FrozenArray
+sequence
 <
 NavigatorUABrandVersion
 >
@@ -106,7 +106,7 @@ in
 favor
 of
 fullVersionList
-FrozenArray
+sequence
 <
 NavigatorUABrandVersion
 >
