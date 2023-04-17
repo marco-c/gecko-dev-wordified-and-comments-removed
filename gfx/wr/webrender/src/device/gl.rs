@@ -5875,6 +5875,11 @@ max_texture_size
 [
 0
 ]
+.
+min
+(
+16384
+)
 ;
 let
 renderer_name

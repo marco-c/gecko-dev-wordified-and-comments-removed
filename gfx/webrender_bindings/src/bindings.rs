@@ -8097,11 +8097,11 @@ window_id
 )
 )
 )
-max_texture_size
+max_internal_texture_size
 :
 Some
 (
-11180
+8192
 )
 clear_color
 :

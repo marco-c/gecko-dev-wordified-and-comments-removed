@@ -1433,7 +1433,7 @@ chase_primitive
 testing
 :
 true
-max_texture_size
+max_internal_texture_size
 :
 Some
 (
