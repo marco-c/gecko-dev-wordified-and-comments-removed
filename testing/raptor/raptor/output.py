@@ -2162,27 +2162,11 @@ vals
 )
         
 if
-testname
-.
-startswith
-(
-"
-raptor
--
-speedometer
-"
-)
-or
-testname
-.
-startswith
-(
-            
 "
 speedometer
 "
-        
-)
+in
+testname
 :
             
 correctionFactor
@@ -2258,16 +2242,11 @@ return
 score
         
 if
-testname
-.
-startswith
-(
 "
-raptor
--
 stylebench
 "
-)
+in
+testname
 :
             
 correctionFactor
@@ -2343,19 +2322,18 @@ testname
 .
 startswith
 (
-(
 "
 raptor
 -
 kraken
 "
+)
+or
 "
-raptor
--
 sunspider
 "
-)
-)
+in
+testname
 :
             
 return
@@ -2368,25 +2346,19 @@ vals
 )
         
 if
-testname
-.
-startswith
-(
-(
 "
-raptor
--
 unity
 -
 webgl
 "
+in
+testname
+or
 "
-raptor
--
 webaudio
 "
-)
-)
+in
+testname
 :
             
 return
@@ -2405,18 +2377,13 @@ Mean
 )
         
 if
-testname
-.
-startswith
-(
 "
-raptor
--
 assorted
 -
 dom
 "
-)
+in
+testname
 :
             
 return
@@ -2435,18 +2402,13 @@ vals
 )
         
 if
-testname
-.
-startswith
-(
 "
-raptor
--
 wasm
 -
 misc
 "
-)
+in
+testname
 :
             
 return
@@ -2464,18 +2426,13 @@ __total__
 )
         
 if
-testname
-.
-startswith
-(
 "
-raptor
--
 wasm
 -
 godot
 "
-)
+in
+testname
 :
             
 return
