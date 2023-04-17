@@ -1027,7 +1027,6 @@ EXT_robustness
 EXT_sRGB
 EXT_sRGB_write_control
 EXT_shader_texture_lod
-EXT_texture3D
 EXT_texture_compression_bptc
 EXT_texture_compression_dxt1
 EXT_texture_compression_rgtc
