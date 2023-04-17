@@ -2164,14 +2164,7 @@ WSRunScanner
 :
 ScanNextVisibleNodeOrBlockBoundary
 (
-const_cast
-<
-Element
-*
->
-(
 aEditingHost
-)
 EditorRawDOMPoint
 (
 &

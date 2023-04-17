@@ -2365,16 +2365,6 @@ EditorDOMPoint
 aInsertToBreak
 )
 ;
-nsIContent
-*
-GetMostAncestorInlineElement
-(
-nsINode
-&
-aNode
-)
-const
-;
 [
 [
 nodiscard
