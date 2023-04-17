@@ -714,6 +714,9 @@ isDebugBuild
 AddressSanitizer
 |
 |
+ThreadSanitizer
+|
+|
 (
 winWidget
 &
@@ -844,6 +847,9 @@ isDebugBuild
 |
 |
 AddressSanitizer
+|
+|
+ThreadSanitizer
 |
 |
 (

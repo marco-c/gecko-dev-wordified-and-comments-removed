@@ -10,6 +10,12 @@ of
 reftest
 .
 list
+skip
+-
+if
+(
+ThreadSanitizer
+)
 fuzzy
 -
 if
