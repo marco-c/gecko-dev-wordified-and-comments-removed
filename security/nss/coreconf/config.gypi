@@ -2473,7 +2473,7 @@ signal
 h
 >
 '
-SQL_MEASURE_USE_TEMP_DIR
+SDB_MEASURE_USE_TEMP_DIR
 '
 #
 use
