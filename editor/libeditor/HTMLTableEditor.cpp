@@ -8053,9 +8053,6 @@ rowIndex
 -
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 HTMLEditor

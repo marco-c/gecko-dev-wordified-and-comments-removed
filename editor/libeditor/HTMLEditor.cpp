@@ -21551,12 +21551,6 @@ currentRightNode
 ;
 }
 }
-return
-SplitNodeResult
-(
-NS_ERROR_FAILURE
-)
-;
 }
 void
 HTMLEditor
