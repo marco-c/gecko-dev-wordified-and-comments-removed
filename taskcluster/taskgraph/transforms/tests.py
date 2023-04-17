@@ -10613,6 +10613,24 @@ em
 -
 x86_64
 /
+debug
+-
+isolated
+-
+process
+"
+                
+"
+android
+-
+em
+-
+7
+.
+0
+-
+x86_64
+/
 opt
 "
                 
