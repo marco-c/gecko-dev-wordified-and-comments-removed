@@ -1657,11 +1657,7 @@ aHeight
 const
 float
 &
-aResolutionX
-const
-float
-&
-aResolutionY
+aResolution
 const
 uint32_t
 &

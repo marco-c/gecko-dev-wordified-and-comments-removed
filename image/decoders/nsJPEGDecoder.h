@@ -19,13 +19,6 @@ SurfacePipe
 h
 "
 #
-include
-"
-EXIF
-.
-h
-"
-#
 undef
 INT32
 #
@@ -57,8 +50,8 @@ h
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 image
 {
 typedef
@@ -167,11 +160,10 @@ override
 ;
 protected
 :
-EXIFData
-ReadExifData
+Orientation
+ReadOrientationFromEXIF
 (
 )
-const
 ;
 WriteState
 OutputScanlines
@@ -305,6 +297,7 @@ mPipe
 ;
 }
 ;
+}
 }
 #
 endif

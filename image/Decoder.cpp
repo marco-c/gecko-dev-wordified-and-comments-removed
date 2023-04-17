@@ -1883,8 +1883,6 @@ int32_t
 aHeight
 Orientation
 aOrientation
-Resolution
-aResolution
 )
 {
 MOZ_ASSERT
@@ -1928,7 +1926,6 @@ SetSize
 aWidth
 aHeight
 aOrientation
-aResolution
 )
 ;
 if

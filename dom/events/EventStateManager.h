@@ -577,11 +577,12 @@ nsresult
 SetCursor
 (
 StyleCursorKind
+aCursor
 imgIContainer
 *
-const
-ImageResolution
-&
+aContainer
+float
+aResolution
 const
 Maybe
 <

@@ -33104,8 +33104,9 @@ SetCursor
 (
 cursor
 nullptr
-{
-}
+1
+.
+0f
 Nothing
 (
 )
