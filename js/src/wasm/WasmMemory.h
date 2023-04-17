@@ -436,12 +436,6 @@ MaxMemoryPages
 (
 )
 ;
-extern
-size_t
-MaxMemoryBoundsCheckLimit
-(
-)
-;
 static
 inline
 size_t
@@ -459,6 +453,12 @@ byteLength
 )
 ;
 }
+extern
+size_t
+MaxMemoryBoundsCheckLimit
+(
+)
+;
 static
 inline
 uint64_t
