@@ -118,6 +118,13 @@ header
 {
 }
 }
+locale
+=
+"
+en
+-
+US
+"
 /
 >
 )
