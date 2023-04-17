@@ -6848,7 +6848,9 @@ cfFormat
 nsClipboard
 :
 :
-CF_HTML
+GetHtmlClipboardFormat
+(
+)
 )
 {
 NS_ConvertUTF16toUTF8
@@ -6949,7 +6951,9 @@ cfFormat
 nsClipboard
 :
 :
-CF_CUSTOMTYPES
+GetCustomClipboardFormat
+(
+)
 )
 {
 allocLen

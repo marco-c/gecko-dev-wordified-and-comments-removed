@@ -212,11 +212,15 @@ true
 ;
 static
 UINT
-CF_HTML
+GetHtmlClipboardFormat
+(
+)
 ;
 static
 UINT
-CF_CUSTOMTYPES
+GetCustomClipboardFormat
+(
+)
 ;
 protected
 :
