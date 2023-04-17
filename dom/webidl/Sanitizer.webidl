@@ -210,16 +210,6 @@ SanitizerInput
 input
 )
 ;
-[
-Throws
-]
-DOMString
-sanitizeToString
-(
-SanitizerInput
-input
-)
-;
 }
 ;
 dictionary
