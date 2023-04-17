@@ -277,6 +277,12 @@ ClearOverscroll
 )
 ;
 bool
+IsOverscrollAnimationAlive
+(
+)
+const
+;
+bool
 IsOverscrollAnimationRunning
 (
 )

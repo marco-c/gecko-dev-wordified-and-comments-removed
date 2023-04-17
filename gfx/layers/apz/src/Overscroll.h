@@ -171,7 +171,7 @@ mApzc
 .
 mX
 .
-IsOverscrollAnimationRunning
+IsOverscrollAnimationAlive
 (
 )
 &
@@ -192,7 +192,7 @@ mApzc
 .
 mY
 .
-IsOverscrollAnimationRunning
+IsOverscrollAnimationAlive
 (
 )
 &
