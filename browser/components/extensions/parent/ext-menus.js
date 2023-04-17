@@ -5604,6 +5604,7 @@ if
 (
 !
 node
+?
 .
 bookmarkGuid
 |
