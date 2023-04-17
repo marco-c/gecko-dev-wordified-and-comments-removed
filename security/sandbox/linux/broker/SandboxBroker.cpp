@@ -4044,8 +4044,6 @@ first_len
 +
 1
 kMaxPathLen
-+
-1
 )
 ;
 pathLen
