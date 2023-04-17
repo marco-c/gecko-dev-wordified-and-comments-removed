@@ -9459,7 +9459,7 @@ NS_ENSURE_TRUE
 presContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 NS_ERROR_INVALID_ARG
