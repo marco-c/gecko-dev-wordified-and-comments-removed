@@ -812,9 +812,7 @@ const
 headsNum
 =
 await
-testActor
-.
-getNumberOfElementMatches
+getNumberOfMatchingElementsInContentPage
 (
 "
 head
@@ -1039,9 +1037,7 @@ updated
 is
 (
 await
-testActor
-.
-getNumberOfElementMatches
+getNumberOfMatchingElementsInContentPage
 (
 "
 body
@@ -1352,9 +1348,7 @@ updated
 is
 (
 await
-testActor
-.
-getNumberOfElementMatches
+getNumberOfMatchingElementsInContentPage
 (
 "
 head
@@ -1377,9 +1371,7 @@ added
 is
 (
 await
-testActor
-.
-getNumberOfElementMatches
+getNumberOfMatchingElementsInContentPage
 (
 "
 body
@@ -1721,9 +1713,7 @@ updated
 is
 (
 await
-testActor
-.
-getNumberOfElementMatches
+getNumberOfMatchingElementsInContentPage
 (
 "
 head
@@ -1746,9 +1736,7 @@ added
 is
 (
 await
-testActor
-.
-getNumberOfElementMatches
+getNumberOfMatchingElementsInContentPage
 (
 "
 body

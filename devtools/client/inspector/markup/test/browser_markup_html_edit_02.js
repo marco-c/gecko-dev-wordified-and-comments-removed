@@ -783,9 +783,7 @@ const
 num
 =
 await
-testActor
-.
-getNumberOfElementMatches
+getNumberOfMatchingElementsInContentPage
 (
 "
 #
