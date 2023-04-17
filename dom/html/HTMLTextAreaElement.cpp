@@ -3187,7 +3187,7 @@ value
 )
 ;
 }
-NS_IMETHODIMP
+void
 HTMLTextAreaElement
 :
 :
@@ -3195,11 +3195,6 @@ SaveState
 (
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 PresState
 *
 state
@@ -3231,8 +3226,10 @@ value
 true
 )
 ;
-rv
-=
+if
+(
+NS_FAILED
+(
 nsLinebreakConverter
 :
 :
@@ -3248,12 +3245,6 @@ nsLinebreakConverter
 :
 eLinebreakContent
 )
-;
-if
-(
-NS_FAILED
-(
-rv
 )
 )
 {
@@ -3268,7 +3259,6 @@ failed
 )
 ;
 return
-rv
 ;
 }
 state
@@ -3303,10 +3293,6 @@ GetPrimaryPresState
 (
 )
 ;
-rv
-=
-NS_OK
-;
 }
 if
 (
@@ -3340,9 +3326,6 @@ true
 ;
 }
 }
-return
-rv
-;
 }
 bool
 HTMLTextAreaElement

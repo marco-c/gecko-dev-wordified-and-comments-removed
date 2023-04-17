@@ -326,13 +326,6 @@ aFormData
 =
 0
 ;
-NS_IMETHOD
-SaveState
-(
-)
-=
-0
-;
 virtual
 bool
 RestoreState

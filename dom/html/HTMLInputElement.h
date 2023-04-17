@@ -578,6 +578,12 @@ IsInteractiveHTMLContent
 const
 override
 ;
+void
+SaveState
+(
+)
+override
+;
 virtual
 void
 AsyncEventRunning
@@ -601,12 +607,6 @@ SubmitNamesValues
 FormData
 *
 aFormData
-)
-override
-;
-NS_IMETHOD
-SaveState
-(
 )
 override
 ;

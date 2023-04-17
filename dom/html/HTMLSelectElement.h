@@ -917,6 +917,12 @@ aNotify
 )
 override
 ;
+void
+SaveState
+(
+)
+override
+;
 NS_IMETHOD
 Reset
 (
@@ -929,12 +935,6 @@ SubmitNamesValues
 FormData
 *
 aFormData
-)
-override
-;
-NS_IMETHOD
-SaveState
-(
 )
 override
 ;

@@ -5224,7 +5224,7 @@ return
 state
 ;
 }
-NS_IMETHODIMP
+void
 HTMLSelectElement
 :
 :
@@ -5247,7 +5247,6 @@ presState
 )
 {
 return
-NS_OK
 ;
 }
 SelectContentData
@@ -5398,9 +5397,6 @@ disabledSet
 true
 ;
 }
-return
-NS_OK
-;
 }
 bool
 HTMLSelectElement

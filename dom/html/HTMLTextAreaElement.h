@@ -213,6 +213,12 @@ return
 true
 ;
 }
+void
+SaveState
+(
+)
+override
+;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Reset
@@ -226,12 +232,6 @@ SubmitNamesValues
 FormData
 *
 aFormData
-)
-override
-;
-NS_IMETHOD
-SaveState
-(
 )
 override
 ;
