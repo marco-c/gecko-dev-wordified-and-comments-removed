@@ -651,11 +651,14 @@ appendChild
 pi
 )
 ;
+assert_equals
+(
 document
 .
 contains
 (
 pi
+)
 true
 "
 Document
