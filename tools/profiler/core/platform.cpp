@@ -7793,8 +7793,6 @@ static
 void
 DoFramePointerBacktrace
 (
-PSLockRef
-aLock
 const
 ThreadRegistration
 :
@@ -8137,8 +8135,6 @@ static
 void
 DoMozStackWalkBacktrace
 (
-PSLockRef
-aLock
 const
 ThreadRegistration
 :
@@ -8587,8 +8583,6 @@ static
 void
 DoEHABIBacktrace
 (
-PSLockRef
-aLock
 const
 ThreadRegistration
 :
@@ -8736,8 +8730,6 @@ static
 void
 DoLULBacktrace
 (
-PSLockRef
-aLock
 const
 ThreadRegistration
 :
@@ -9752,8 +9744,6 @@ static
 void
 DoNativeBacktrace
 (
-PSLockRef
-aLock
 const
 ThreadRegistration
 :
@@ -9781,7 +9771,6 @@ USE_LUL_STACKWALK
 )
 DoLULBacktrace
 (
-aLock
 aThreadData
 aRegs
 aNativeStack
@@ -9796,7 +9785,6 @@ USE_EHABI_STACKWALK
 )
 DoEHABIBacktrace
 (
-aLock
 aThreadData
 aRegs
 aNativeStack
@@ -9811,7 +9799,6 @@ USE_FRAME_POINTER_STACK_WALK
 )
 DoFramePointerBacktrace
 (
-aLock
 aThreadData
 aRegs
 aNativeStack
@@ -9826,7 +9813,6 @@ USE_MOZ_STACK_WALK
 )
 DoMozStackWalkBacktrace
 (
-aLock
 aThreadData
 aRegs
 aNativeStack
@@ -10022,7 +10008,6 @@ captureNative
 {
 DoNativeBacktrace
 (
-aLock
 aThreadData
 aRegs
 nativeStack
@@ -24932,7 +24917,6 @@ USE_FRAME_POINTER_STACK_WALK
 )
 DoFramePointerBacktrace
 (
-aLock
 aThreadData
 aRegs
 nativeStack
@@ -24947,7 +24931,6 @@ USE_MOZ_STACK_WALK
 )
 DoMozStackWalkBacktrace
 (
-aLock
 aThreadData
 aRegs
 nativeStack
