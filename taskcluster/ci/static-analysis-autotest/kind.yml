@@ -347,10 +347,6 @@ tidy
 -
 linux64
 -
-infer
--
-linux64
--
 rust
 -
 linux64
