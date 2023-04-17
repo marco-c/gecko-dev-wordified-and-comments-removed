@@ -4879,12 +4879,6 @@ PipelineId
 aId
 WebRenderBackend
 aBackend
-layers
-:
-:
-DisplayItemCache
-*
-aCache
 )
 :
 mCurrentSpaceAndClipChain
@@ -4910,7 +4904,7 @@ aBackend
 )
 mDisplayItemCache
 (
-aCache
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -5073,6 +5067,12 @@ DisplayListBuilder
 :
 Begin
 (
+layers
+:
+:
+DisplayItemCache
+*
+aCache
 )
 {
 wr_api_begin_builder
@@ -5127,7 +5127,7 @@ nullptr
 ;
 mDisplayItemCache
 =
-nullptr
+aCache
 ;
 mCurrentCacheSlot
 =
@@ -5179,6 +5179,10 @@ dl_spatial_tree
 .
 inner
 )
+;
+mDisplayItemCache
+=
+nullptr
 ;
 }
 void
