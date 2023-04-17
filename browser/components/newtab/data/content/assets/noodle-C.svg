@@ -107,9 +107,7 @@ path
 opacity
 =
 "
-0
-.
-9
+1
 "
 d
 =
@@ -280,8 +278,9 @@ M799
 fill
 =
 "
-#
-592ACB
+context
+-
+fill
 "
 /
 >
