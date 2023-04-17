@@ -5003,6 +5003,9 @@ ToMilliseconds
 )
 )
 )
+cap
+&
+NS_HTTP_ALLOW_SPDY_WITHOUT_KEEPALIVE
 )
 ;
 }

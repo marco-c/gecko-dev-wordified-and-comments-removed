@@ -241,6 +241,8 @@ status
 nsIInterfaceRequestor
 *
 PRIntervalTime
+bool
+forWebSocket
 )
 ;
 bool
@@ -609,6 +611,15 @@ GetEchConfigUsed
 )
 override
 ;
+bool
+IsForWebSocket
+(
+)
+{
+return
+mForWebSocket
+;
+}
 private
 :
 enum
@@ -1202,6 +1213,12 @@ nsCOMPtr
 nsISocketTransport
 >
 mSocketTransport
+;
+bool
+mForWebSocket
+{
+false
+}
 ;
 private
 :
