@@ -1354,9 +1354,8 @@ let
 i
 ;
 pageIndex
-=
-pageIndex
 |
+=
 0
 ;
 if
