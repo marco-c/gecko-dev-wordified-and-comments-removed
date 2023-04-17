@@ -154,6 +154,17 @@ two
 "
 )
 ;
+let
+stateChanged
+=
+waitForEvent
+(
+EVENT_STATE_CHANGE
+"
+one
+"
+)
+;
 await
 SpecialPowers
 .
@@ -193,6 +204,9 @@ step
 }
 )
 ;
+await
+stateChanged
+;
 is
 (
 one
@@ -217,7 +231,6 @@ one
 "
 )
 ;
-let
 stateChanged
 =
 waitForEvent
