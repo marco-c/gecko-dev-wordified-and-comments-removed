@@ -429,6 +429,15 @@ include
 "
 js
 /
+TelemetryTimers
+.
+h
+"
+#
+include
+"
+js
+/
 Utility
 .
 h

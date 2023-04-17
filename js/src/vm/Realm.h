@@ -122,6 +122,15 @@ include
 "
 js
 /
+TelemetryTimers
+.
+h
+"
+#
+include
+"
+js
+/
 UniquePtr
 .
 h

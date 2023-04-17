@@ -1400,6 +1400,16 @@ h
 /
 public
 /
+TelemetryTimers
+.
+h
+"
+"
+.
+.
+/
+public
+/
 TraceKind
 .
 h
