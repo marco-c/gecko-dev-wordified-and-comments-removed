@@ -438,6 +438,14 @@ WASM_FEATURE
 undef
 WASM_FEATURE
 bool
+IsSimdPrivilegedContext
+(
+JSContext
+*
+cx
+)
+;
+bool
 SimdWormholeAvailable
 (
 JSContext
