@@ -1974,7 +1974,7 @@ FinishParse
 )
 ;
 void
-BuildChildListAfterInnerClone
+FixUpAfterInnerClone
 (
 )
 ;
