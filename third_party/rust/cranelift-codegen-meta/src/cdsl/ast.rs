@@ -1467,9 +1467,6 @@ position
 is_none
 (
 )
-format
-!
-(
 "
 redefinition
 of
@@ -1480,7 +1477,6 @@ variable
 self
 .
 name
-)
 )
 ;
 match
@@ -2389,9 +2385,6 @@ args
 len
 (
 )
-format
-!
-(
 "
 incorrect
 number
@@ -2405,7 +2398,6 @@ instruction
 inst
 .
 name
-)
 )
 ;
 for

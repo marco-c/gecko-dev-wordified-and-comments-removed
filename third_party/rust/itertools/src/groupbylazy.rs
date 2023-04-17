@@ -11,10 +11,16 @@ RefCell
 }
 ;
 use
-std
+alloc
 :
 :
 vec
+:
+:
+{
+self
+Vec
+}
 ;
 trait
 KeyFunction

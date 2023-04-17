@@ -138,9 +138,6 @@ name
 is_none
 (
 )
-format
-!
-(
 "
 riscv
 recipe
@@ -154,7 +151,6 @@ twice
 builder
 .
 name
-)
 )
 ;
 let

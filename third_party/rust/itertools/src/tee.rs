@@ -14,7 +14,7 @@ cell
 RefCell
 ;
 use
-std
+alloc
 :
 :
 collections
@@ -23,7 +23,7 @@ collections
 VecDeque
 ;
 use
-std
+alloc
 :
 :
 rc
@@ -248,7 +248,7 @@ self
 >
 Option
 <
-I
+Self
 :
 :
 Item

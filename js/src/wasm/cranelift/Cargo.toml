@@ -121,7 +121,7 @@ version
 "
 0
 .
-68
+73
 .
 0
 "
@@ -141,7 +141,7 @@ version
 "
 0
 .
-68
+73
 .
 0
 "
@@ -235,7 +235,7 @@ cranelift
 -
 codegen
 /
-x64
+x86
 '
 ]
 cranelift_arm32

@@ -2003,9 +2003,6 @@ Any
 panic
 !
 (
-format
-!
-(
 "
 Unexpected
 Any
@@ -2014,7 +2011,6 @@ Any
 }
 "
 msg
-)
 )
 }
 }
@@ -3435,6 +3431,10 @@ msg
 panic
 !
 (
+"
+{
+}
+"
 msg
 )
 None

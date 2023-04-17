@@ -377,9 +377,6 @@ previous_format_name
 =
 =
 leaf_format_name
-format
-!
-(
 "
 Format
 predicate
@@ -403,7 +400,6 @@ and
 "
 previous_format_name
 leaf_format_name
-)
 )
 ;
 }

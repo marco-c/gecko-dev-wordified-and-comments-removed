@@ -549,6 +549,8 @@ self
 (
 usize
 &
+'
+a
 [
 u8
 ]

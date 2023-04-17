@@ -1110,9 +1110,6 @@ starts_with
 typeof_
 "
 )
-format
-!
-(
 "
 variable
 {
@@ -1125,7 +1122,6 @@ ranked
 actual_tv
 .
 name
-)
 )
 ;
 None

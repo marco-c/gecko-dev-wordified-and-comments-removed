@@ -753,9 +753,6 @@ recipe
 .
 format
 )
-format
-!
-(
 "
 Inst
 {
@@ -782,7 +779,6 @@ recipe
 ]
 .
 name
-)
 )
 ;
 assert_eq

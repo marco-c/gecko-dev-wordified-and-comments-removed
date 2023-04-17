@@ -33,6 +33,7 @@ spec
 :
 :
 {
+Alias
 FuncEnvironment
 GlobalVariable
 ModuleEnvironment

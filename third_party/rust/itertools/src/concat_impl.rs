@@ -80,15 +80,11 @@ a
 .
 unwrap_or_else
 (
-|
-|
 <
 _
 >
 :
 :
 default
-(
-)
 )
 }

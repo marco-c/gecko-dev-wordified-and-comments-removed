@@ -276,6 +276,7 @@ environ
 :
 :
 {
+Alias
 DummyEnvironment
 FuncEnvironment
 GlobalVariable

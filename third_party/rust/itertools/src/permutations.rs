@@ -1,4 +1,13 @@
 use
+alloc
+:
+:
+vec
+:
+:
+Vec
+;
+use
 std
 :
 :
@@ -405,9 +414,9 @@ state
 self
 ;
 match
+*
 state
 {
-&
 PermutationState
 :
 :
@@ -427,7 +436,6 @@ iterator
 state
 "
 )
-&
 PermutationState
 :
 :
@@ -492,7 +500,6 @@ collect
 )
 )
 }
-&
 PermutationState
 :
 :
@@ -510,7 +517,6 @@ Start
 =
 >
 None
-&
 PermutationState
 :
 :
@@ -574,7 +580,6 @@ collect
 )
 )
 }
-&
 PermutationState
 :
 :
@@ -938,10 +943,9 @@ self
 state
 =
 match
+*
 state
 {
-&
-mut
 PermutationState
 :
 :
@@ -963,8 +967,6 @@ min_n
 k
 }
 }
-&
-mut
 PermutationState
 :
 :
@@ -1053,8 +1055,6 @@ complete_state
 )
 }
 }
-&
-mut
 PermutationState
 :
 :
@@ -1076,8 +1076,6 @@ advance
 return
 ;
 }
-&
-mut
 PermutationState
 :
 :
@@ -1107,10 +1105,9 @@ self
 self
 =
 match
+*
 self
 {
-&
-mut
 CompleteState
 :
 :
@@ -1167,8 +1164,6 @@ cycles
 indices
 }
 }
-&
-mut
 CompleteState
 :
 :
@@ -1320,9 +1315,9 @@ Overflow
 }
 ;
 match
+*
 self
 {
-&
 CompleteState
 :
 :
@@ -1414,7 +1409,6 @@ None
 Overflow
 }
 }
-&
 CompleteState
 :
 :

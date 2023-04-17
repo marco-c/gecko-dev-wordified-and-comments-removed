@@ -170,6 +170,8 @@ mul
 div
 )
 "
+"
+"
 false
 )
 ;
@@ -194,6 +196,8 @@ extension
 (
 atomics
 )
+"
+"
 "
 false
 )
@@ -220,6 +224,8 @@ extension
 float
 )
 "
+"
+"
 false
 )
 ;
@@ -244,6 +250,8 @@ extension
 (
 double
 )
+"
+"
 "
 false
 )
@@ -270,6 +278,8 @@ instructions
 if
 available
 "
+"
+"
 true
 )
 ;
@@ -292,6 +302,8 @@ with
 only
 16
 registers
+"
+"
 "
 false
 )

@@ -44,7 +44,7 @@ usize
 41
 ;
 fn
-comb_for1
+tuple_comb_for1
 (
 c
 :
@@ -58,6 +58,7 @@ c
 bench_function
 (
 "
+tuple
 comb
 for1
 "
@@ -94,7 +95,7 @@ i
 ;
 }
 fn
-comb_for2
+tuple_comb_for2
 (
 c
 :
@@ -108,6 +109,7 @@ c
 bench_function
 (
 "
+tuple
 comb
 for2
 "
@@ -159,7 +161,7 @@ j
 ;
 }
 fn
-comb_for3
+tuple_comb_for3
 (
 c
 :
@@ -173,6 +175,7 @@ c
 bench_function
 (
 "
+tuple
 comb
 for3
 "
@@ -239,7 +242,7 @@ k
 ;
 }
 fn
-comb_for4
+tuple_comb_for4
 (
 c
 :
@@ -253,6 +256,7 @@ c
 bench_function
 (
 "
+tuple
 comb
 for4
 "
@@ -334,7 +338,7 @@ l
 ;
 }
 fn
-comb_c1
+tuple_comb_c1
 (
 c
 :
@@ -348,6 +352,7 @@ c
 bench_function
 (
 "
+tuple
 comb
 c1
 "
@@ -392,7 +397,7 @@ i
 ;
 }
 fn
-comb_c2
+tuple_comb_c2
 (
 c
 :
@@ -406,6 +411,7 @@ c
 bench_function
 (
 "
+tuple
 comb
 c2
 "
@@ -453,7 +459,7 @@ j
 ;
 }
 fn
-comb_c3
+tuple_comb_c3
 (
 c
 :
@@ -467,6 +473,7 @@ c
 bench_function
 (
 "
+tuple
 comb
 c3
 "
@@ -517,7 +524,7 @@ k
 ;
 }
 fn
-comb_c4
+tuple_comb_c4
 (
 c
 :
@@ -531,6 +538,7 @@ c
 bench_function
 (
 "
+tuple
 comb
 c4
 "
@@ -587,14 +595,14 @@ criterion_group
 !
 (
 benches
-comb_for1
-comb_for2
-comb_for3
-comb_for4
-comb_c1
-comb_c2
-comb_c3
-comb_c4
+tuple_comb_for1
+tuple_comb_for2
+tuple_comb_for3
+tuple_comb_for4
+tuple_comb_c1
+tuple_comb_c2
+tuple_comb_c3
+tuple_comb_c4
 )
 ;
 criterion_main

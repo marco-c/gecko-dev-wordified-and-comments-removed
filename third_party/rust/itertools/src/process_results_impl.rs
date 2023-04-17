@@ -169,12 +169,8 @@ usize
 >
 )
 {
-let
 (
-_
-hi
-)
-=
+0
 self
 .
 iter
@@ -182,10 +178,8 @@ iter
 size_hint
 (
 )
-;
-(
-0
-hi
+.
+1
 )
 }
 }

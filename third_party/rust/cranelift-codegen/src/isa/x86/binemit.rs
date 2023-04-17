@@ -1985,6 +1985,13 @@ bits
 }
 }
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 enum
 EvexVectorLength
 {
@@ -2032,6 +2039,13 @@ V512
 }
 }
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 enum
 EvexRoundingControl
 {
