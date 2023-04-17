@@ -3541,9 +3541,12 @@ display
 }
 options
 .
-mRoundingModeHalfUp
+mRoundingMode
 =
-true
+RoundingMode
+:
+:
+HalfExpand
 ;
 using
 NumberFormat
