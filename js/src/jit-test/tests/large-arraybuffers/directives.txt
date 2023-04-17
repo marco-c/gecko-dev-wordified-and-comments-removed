@@ -9,6 +9,10 @@ large
 -
 arraybuffers
 ;
+allow
+-
+oom
+;
 skip
 -
 if
