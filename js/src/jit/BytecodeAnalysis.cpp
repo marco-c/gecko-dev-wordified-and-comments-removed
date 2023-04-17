@@ -1268,12 +1268,6 @@ case
 JSOp
 :
 :
-GetGName
-:
-case
-JSOp
-:
-:
 SetGName
 :
 case
