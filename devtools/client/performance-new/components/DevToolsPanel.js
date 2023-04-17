@@ -196,6 +196,7 @@ const
 {
 isSupportedPlatform
 onProfileReceived
+onEditSettingsLinkClicked
 }
 =
 this
@@ -254,6 +255,9 @@ hr
 )
 DevToolsPresetSelection
 (
+{
+onEditSettingsLinkClicked
+}
 )
 )
 ;

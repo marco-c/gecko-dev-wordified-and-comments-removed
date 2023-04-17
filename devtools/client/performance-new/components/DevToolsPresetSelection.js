@@ -254,7 +254,7 @@ const
 {
 presetName
 presets
-openAboutProfiling
+onEditSettingsLinkClicked
 }
 =
 this
@@ -493,7 +493,7 @@ link
 "
 onClick
 :
-openAboutProfiling
+onEditSettingsLinkClicked
 }
 Localized
 (
@@ -725,14 +725,6 @@ features
 selectors
 .
 getFeatures
-(
-state
-)
-openAboutProfiling
-:
-selectors
-.
-getOpenAboutProfiling
 (
 state
 )
