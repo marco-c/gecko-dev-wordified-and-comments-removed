@@ -952,6 +952,7 @@ onDisabled
 "
 System
 theme
+auto
 "
 "
 default
@@ -982,6 +983,7 @@ onEnabled
 "
 System
 theme
+auto
 "
 "
 default
@@ -1047,6 +1049,7 @@ onDisabled
 "
 System
 theme
+auto
 "
 "
 default
@@ -1100,6 +1103,7 @@ onEnabled
 "
 System
 theme
+auto
 "
 "
 default
