@@ -3474,12 +3474,6 @@ allowFailure
 this
 )
 ;
-document
-.
-popupNode
-=
-null
-;
 await
 new
 Promise
