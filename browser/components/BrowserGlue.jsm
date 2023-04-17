@@ -18622,15 +18622,6 @@ postUpdate
 "
 ;
 }
-await
-NimbusFeatures
-.
-upgradeDialog
-.
-ready
-(
-)
-;
 return
 NimbusFeatures
 .
