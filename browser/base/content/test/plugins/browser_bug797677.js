@@ -174,12 +174,12 @@ is
 (
 pluginInfo
 .
-pluginFallbackType
+displayedType
 Ci
 .
 nsIObjectLoadingContent
 .
-PLUGIN_UNSUPPORTED
+TYPE_NULL
 "
 plugin
 should
