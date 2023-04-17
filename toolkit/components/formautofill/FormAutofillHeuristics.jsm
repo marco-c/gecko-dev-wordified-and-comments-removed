@@ -4471,10 +4471,6 @@ regexp
 test
 (
 string
-.
-toLowerCase
-(
-)
 )
 )
 {

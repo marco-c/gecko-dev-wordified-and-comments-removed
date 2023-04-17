@@ -4595,10 +4595,6 @@ set
 [
 name
 ]
-.
-toLowerCase
-(
-)
 }
 )
 .
@@ -4629,7 +4625,7 @@ join
 "
 )
 "
-u
+iu
 "
 )
 ;
