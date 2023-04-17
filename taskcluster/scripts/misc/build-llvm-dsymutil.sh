@@ -67,14 +67,6 @@ gcc
 \
 .
 .
-export
-LD_LIBRARY_PATH
-=
-MOZ_FETCHES_DIR
-/
-gcc
-/
-lib64
 ninja
 dsymutil
 llvm
