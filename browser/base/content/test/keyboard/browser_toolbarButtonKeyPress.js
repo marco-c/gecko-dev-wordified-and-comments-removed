@@ -2276,13 +2276,13 @@ activeElement
 .
 tagName
 "
-iframe
+browser
 "
 "
 Focus
 inside
 Pocket
-iframe
+panel
 after
 Bookmark
 button
