@@ -1403,6 +1403,10 @@ nsIURI
 aRedirectURI
 =
 nullptr
+uint32_t
+aRedirectFlags
+=
+0
 )
 ;
 enum
