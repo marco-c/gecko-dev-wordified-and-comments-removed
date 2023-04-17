@@ -293,14 +293,11 @@ MOZ_ASSERT
 user_data
 )
 ;
-nsTArray
-<
-PrinterInfo
->
+auto
 *
 printerInfoList
 =
-reinterpret_cast
+static_cast
 <
 nsTArray
 <
