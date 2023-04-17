@@ -6861,6 +6861,16 @@ len
 &
 nbytes
 )
+|
+|
+nbytes
+>
+TypedArrayObject
+:
+:
+maxByteLength
+(
+)
 )
 {
 return
