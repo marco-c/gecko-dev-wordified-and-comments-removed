@@ -1433,11 +1433,10 @@ then
 {
 try
 {
-a
-.
-b
-.
-c
+unknownFunc
+(
+)
+;
 }
 catch
 (
