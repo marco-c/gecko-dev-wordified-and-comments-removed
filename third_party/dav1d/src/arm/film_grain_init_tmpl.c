@@ -188,6 +188,8 @@ GEN_GRAIN_UV
 444
 )
 ;
+#
+endif
 void
 BF
 (
@@ -761,12 +763,6 @@ HIGHBD_TAIL_SUFFIX
 }
 }
 #
-if
-BITDEPTH
-=
-=
-8
-#
 define
 fguv_ss_fn
 (
@@ -1271,10 +1267,6 @@ fguv_ss_fn
 0
 )
 ;
-#
-endif
-#
-endif
 COLD
 void
 bitfn
@@ -1310,8 +1302,8 @@ return
 #
 if
 ARCH_AARCH64
-#
-if
+&
+&
 BITDEPTH
 =
 =
@@ -1384,12 +1376,6 @@ fgy_32x32xn
 =
 fgy_32x32xn_neon
 ;
-#
-if
-BITDEPTH
-=
-=
-8
 c
 -
 >
@@ -1426,8 +1412,4 @@ DAV1D_PIXEL_LAYOUT_I444
 =
 fguv_32x32xn_444_neon
 ;
-#
-endif
-#
-endif
 }
