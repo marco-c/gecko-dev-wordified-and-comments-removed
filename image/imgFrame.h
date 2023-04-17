@@ -515,6 +515,14 @@ false
 )
 {
 }
+const
+gfx
+:
+:
+SourceSurface
+*
+mSurface
+;
 size_t
 mIndex
 ;

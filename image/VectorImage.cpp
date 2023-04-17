@@ -1723,6 +1723,15 @@ aCounters
 aMallocSizeOf
 )
 ;
+ImageResource
+:
+:
+CollectSizeOfSurfaces
+(
+aCounters
+aMallocSizeOf
+)
+;
 }
 nsresult
 VectorImage

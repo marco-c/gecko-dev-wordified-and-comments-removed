@@ -3098,6 +3098,15 @@ aCounters
 aMallocSizeOf
 )
 ;
+ImageResource
+:
+:
+CollectSizeOfSurfaces
+(
+aCounters
+aMallocSizeOf
+)
+;
 }
 bool
 RasterImage
