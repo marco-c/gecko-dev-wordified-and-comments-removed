@@ -261,6 +261,8 @@ stopRecordingAllocations
 (
 "
 reload
+-
+inspector
 "
 {
 alsoRecordContentProcess
