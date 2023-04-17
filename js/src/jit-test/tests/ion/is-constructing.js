@@ -4,7 +4,7 @@ isConstructing
 getSelfHostedValue
 (
 "
-_IsConstructing
+IsConstructing
 "
 )
 ;

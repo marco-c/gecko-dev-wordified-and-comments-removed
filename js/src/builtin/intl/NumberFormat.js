@@ -1943,7 +1943,7 @@ thisValue
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 thisValue
 intlFallbackSymbol
@@ -2283,7 +2283,7 @@ internals
 boundFormat
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 Intl_NumberFormat_format_get
 "
@@ -2555,7 +2555,7 @@ internals
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2566,7 +2566,7 @@ internals
 currency
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2577,7 +2577,7 @@ internals
 currencyDisplay
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2672,7 +2672,7 @@ internals
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2683,7 +2683,7 @@ internals
 unit
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2695,7 +2695,7 @@ unitDisplay
 )
 ;
 }
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2747,7 +2747,7 @@ internals
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2758,7 +2758,7 @@ internals
 minimumFractionDigits
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2811,7 +2811,7 @@ internals
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2822,7 +2822,7 @@ internals
 minimumSignificantDigits
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2834,7 +2834,7 @@ maximumSignificantDigits
 )
 ;
 }
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2852,7 +2852,7 @@ internals
 .
 notation
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2871,7 +2871,7 @@ notation
 compact
 "
 )
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -2882,7 +2882,7 @@ internals
 compactDisplay
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "

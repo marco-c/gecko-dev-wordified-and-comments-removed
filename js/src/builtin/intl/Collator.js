@@ -1139,7 +1139,7 @@ internals
 boundCompare
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 Intl_Collator_compare_get
 "

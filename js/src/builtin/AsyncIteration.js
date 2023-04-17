@@ -1695,7 +1695,7 @@ iterated
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 items
 index

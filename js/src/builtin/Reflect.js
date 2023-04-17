@@ -64,7 +64,7 @@ i
 +
 +
 )
-_DefineDataProperty
+DefineDataProperty
 (
 list
 i
@@ -463,7 +463,7 @@ args
 default
 :
 return
-_ConstructFunction
+ConstructFunction
 (
 target
 newTarget

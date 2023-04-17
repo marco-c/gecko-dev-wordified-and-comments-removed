@@ -75,7 +75,7 @@ desc
 undefined
 "
 )
-_DefineDataProperty
+DefineDataProperty
 (
 descriptors
 key
@@ -183,7 +183,7 @@ this
 )
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 ObjectProtoGetter
 "
@@ -207,7 +207,7 @@ proto
 )
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 ObjectProtoSetter
 "
@@ -255,7 +255,7 @@ TO_PROPERTY_KEY
 name
 )
 ;
-_DefineProperty
+DefineProperty
 (
 object
 key
@@ -309,7 +309,7 @@ TO_PROPERTY_KEY
 name
 )
 ;
-_DefineProperty
+DefineProperty
 (
 object
 key
@@ -860,7 +860,7 @@ JSMSG_INVALID_DESCRIPTOR
 )
 ;
 return
-_DefineProperty
+DefineProperty
 (
 obj
 propertyKey
@@ -906,7 +906,7 @@ ATTR_WRITABLE
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 obj
 propertyKey
@@ -919,7 +919,7 @@ true
 }
 }
 return
-_DefineProperty
+DefineProperty
 (
 obj
 propertyKey
@@ -931,7 +931,7 @@ strict
 ;
 }
 return
-_DefineProperty
+DefineProperty
 (
 obj
 propertyKey
@@ -1011,7 +1011,7 @@ fromEntries
 "
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 obj
 pair

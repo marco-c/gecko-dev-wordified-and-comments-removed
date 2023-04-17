@@ -395,7 +395,7 @@ return
 true
 ;
 }
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 ArrayEvery
 )
@@ -528,7 +528,7 @@ return
 false
 ;
 }
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 ArraySome
 )
@@ -809,7 +809,7 @@ void
 0
 ;
 }
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 ArrayForEach
 )
@@ -943,7 +943,7 @@ k
 O
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 A
 k
@@ -956,7 +956,7 @@ return
 A
 ;
 }
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 ArrayMap
 )
@@ -1102,7 +1102,7 @@ if
 (
 selected
 )
-_DefineDataProperty
+DefineDataProperty
 (
 A
 to
@@ -2556,7 +2556,7 @@ return
 result
 ;
 }
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 ArrayIteratorNext
 )
@@ -2574,7 +2574,7 @@ ITEM_KIND_VALUE
 )
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 ArrayValues
 "
@@ -2763,7 +2763,7 @@ k
 :
 nextValue
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 A
 k
@@ -2859,7 +2859,7 @@ k
 :
 kValue
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 A
 k
@@ -3197,7 +3197,7 @@ return
 this
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 ArraySpecies
 "
@@ -3561,7 +3561,7 @@ k
 +
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 A
 n
@@ -3600,7 +3600,7 @@ k
 in
 E
 )
-_DefineDataProperty
+DefineDataProperty
 (
 A
 n
@@ -3631,7 +3631,7 @@ ThrowTypeError
 JSMSG_TOO_LONG_ARRAY
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 A
 n
@@ -3978,7 +3978,7 @@ ThrowTypeError
 JSMSG_TOO_LONG_ARRAY
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 target
 targetIndex
@@ -4077,7 +4077,7 @@ k
 ]
 ;
 }
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 ArrayAt
 )

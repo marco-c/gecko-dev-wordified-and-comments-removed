@@ -997,7 +997,7 @@ internals
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 options
 "
@@ -1020,7 +1020,7 @@ internals
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 options
 "

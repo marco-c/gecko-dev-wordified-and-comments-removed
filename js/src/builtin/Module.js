@@ -87,7 +87,7 @@ return
 [
 ]
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 exportStarSet
 exportStarSet
@@ -140,7 +140,7 @@ localExportEntries
 i
 ]
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 exportedNames
 namesCount
@@ -185,7 +185,7 @@ indirectExportEntries
 i
 ]
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 exportedNames
 namesCount
@@ -299,7 +299,7 @@ exportedNames
 n
 )
 )
-_DefineDataProperty
+DefineDataProperty
 (
 exportedNames
 namesCount
@@ -496,7 +496,7 @@ null
 ;
 }
 }
-_DefineDataProperty
+DefineDataProperty
 (
 resolveSet
 resolveSet
@@ -990,7 +990,7 @@ IsResolvedBinding
 resolution
 )
 )
-_DefineDataProperty
+DefineDataProperty
 (
 unambiguousNames
 unambiguousNames
@@ -1681,7 +1681,7 @@ index
 +
 +
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 stack
 stack
@@ -2956,7 +2956,7 @@ index
 +
 +
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 stack
 stack

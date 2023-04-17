@@ -35238,7 +35238,7 @@ reportNeedMoreArgsError
 (
 callNode
 "
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 "
 "
 1
@@ -35349,7 +35349,7 @@ reportNeedMoreArgsError
 (
 callNode
 "
-_SetCanonicalName
+SetCanonicalName
 "
 "
 2

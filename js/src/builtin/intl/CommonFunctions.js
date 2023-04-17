@@ -876,7 +876,7 @@ tag
 -
 1
 )
-_DefineDataProperty
+DefineDataProperty
 (
 seen
 seen
@@ -2024,7 +2024,7 @@ availableLocale
 =
 undefined
 )
-_DefineDataProperty
+DefineDataProperty
 (
 subset
 subset

@@ -553,7 +553,7 @@ element
 )
 ;
 }
-_DefineDataProperty
+DefineDataProperty
 (
 list
 list

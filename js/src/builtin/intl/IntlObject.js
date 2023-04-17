@@ -79,7 +79,7 @@ r
 locale
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -90,7 +90,7 @@ r
 ca
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -285,7 +285,7 @@ i
 +
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 processedKeys
 i
@@ -382,7 +382,7 @@ value
 "
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 values
 key

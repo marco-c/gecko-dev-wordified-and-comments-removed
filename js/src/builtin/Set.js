@@ -142,7 +142,7 @@ setIteratorTemp
 .
 setIterationResult
 =
-_CreateSetIterationResult
+CreateSetIterationResult
 (
 )
 ;
@@ -154,7 +154,7 @@ true
 var
 done
 =
-_GetNextSetEntryForIterator
+GetNextSetEntryForIterator
 (
 values
 setIterationResult
@@ -201,7 +201,7 @@ return
 this
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 SetSpecies
 "
@@ -283,7 +283,7 @@ setIteratorTemp
 .
 setIterationResult
 =
-_CreateSetIterationResult
+CreateSetIterationResult
 (
 )
 ;
@@ -302,7 +302,7 @@ true
 var
 done
 =
-_GetNextSetEntryForIterator
+GetNextSetEntryForIterator
 (
 O
 setIterationResult

@@ -720,7 +720,7 @@ internals
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -731,7 +731,7 @@ internals
 minimumFractionDigits
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -784,7 +784,7 @@ internals
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -795,7 +795,7 @@ internals
 minimumSignificantDigits
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -860,7 +860,7 @@ i
 +
 +
 )
-_DefineDataProperty
+DefineDataProperty
 (
 pluralCategories
 i
@@ -870,7 +870,7 @@ i
 ]
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "

@@ -725,7 +725,7 @@ i
 +
 +
 )
-_DefineDataProperty
+DefineDataProperty
 (
 aux
 i
@@ -1507,7 +1507,7 @@ i
 +
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 out
 i
@@ -1580,7 +1580,7 @@ rvalue
 0
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 out
 k
@@ -1596,7 +1596,7 @@ i
 }
 else
 {
-_DefineDataProperty
+DefineDataProperty
 (
 out
 k
@@ -1619,7 +1619,7 @@ i
 mid
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 out
 k
@@ -1642,7 +1642,7 @@ j
 end
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 out
 k
@@ -1755,7 +1755,7 @@ i
 in
 array
 )
-_DefineDataProperty
+DefineDataProperty
 (
 denseList
 denseLen
@@ -2215,7 +2215,7 @@ array
 var
 C
 =
-_ConstructorForTypedArray
+ConstructorForTypedArray
 (
 array
 )

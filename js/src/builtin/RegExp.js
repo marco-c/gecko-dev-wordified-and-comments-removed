@@ -134,7 +134,7 @@ return
 result
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 RegExpFlagsGetter
 "
@@ -212,7 +212,7 @@ pattern
 flags
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 RegExpToString
 "
@@ -557,7 +557,7 @@ result
 ]
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 A
 n
@@ -701,7 +701,7 @@ result
 0
 ]
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 A
 n
@@ -1177,7 +1177,7 @@ null
 )
 break
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 results
 nResults
@@ -1502,7 +1502,7 @@ capturesLength
 =
 0
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 capturesLength
@@ -1551,7 +1551,7 @@ ToString
 capN
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 capturesLength
@@ -1679,7 +1679,7 @@ S
 ;
 }
 }
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 capturesLength
@@ -1688,7 +1688,7 @@ capturesLength
 position
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 capturesLength
@@ -1706,7 +1706,7 @@ namedCaptures
 undefined
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 capturesLength
@@ -1965,7 +1965,7 @@ undefined
 "
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 n
@@ -1976,7 +1976,7 @@ n
 )
 ;
 }
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 nCaptures
@@ -1985,7 +1985,7 @@ nCaptures
 position
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 nCaptures
@@ -2003,7 +2003,7 @@ namedCaptures
 undefined
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 nCaptures
@@ -2958,7 +2958,7 @@ null
 return
 A
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 A
 0
@@ -3114,7 +3114,7 @@ q
 continue
 ;
 }
-_DefineDataProperty
+DefineDataProperty
 (
 A
 lengthA
@@ -3176,7 +3176,7 @@ i
 numberOfCaptures
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 A
 lengthA
@@ -3218,7 +3218,7 @@ p
 =
 size
 )
-_DefineDataProperty
+DefineDataProperty
 (
 A
 lengthA
@@ -3227,7 +3227,7 @@ lengthA
 )
 ;
 else
-_DefineDataProperty
+DefineDataProperty
 (
 A
 lengthA
@@ -3687,7 +3687,7 @@ return
 this
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 RegExpSpecies
 "

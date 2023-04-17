@@ -3674,7 +3674,7 @@ attributes
 ATTR_NONENUMERABLE
 )
 "
-_DefineDataProperty
+DefineDataProperty
 must
 receive
 either
@@ -3722,7 +3722,7 @@ attributes
 ATTR_NONCONFIGURABLE
 )
 "
-_DefineDataProperty
+DefineDataProperty
 must
 receive
 either
@@ -3770,7 +3770,7 @@ attributes
 ATTR_NONWRITABLE
 )
 "
-_DefineDataProperty
+DefineDataProperty
 must
 receive
 either
@@ -14399,7 +14399,7 @@ IntrinsicIsConstructor
 JS_FN
 (
 "
-_ConstructFunction
+ConstructFunction
 "
 intrinsic_ConstructFunction
 2
@@ -14489,7 +14489,7 @@ intrinsic_DumpMessage
 JS_FN
 (
 "
-_ConstructorForTypedArray
+ConstructorForTypedArray
 "
 intrinsic_ConstructorForTypedArray
 1
@@ -14507,7 +14507,7 @@ intrinsic_DecompileArg
 JS_INLINABLE_FN
 (
 "
-_FinishBoundFunctionInit
+FinishBoundFunctionInit
 "
 intrinsic_FinishBoundFunctionInit
 3
@@ -14517,7 +14517,7 @@ IntrinsicFinishBoundFunctionInit
 JS_FN
 (
 "
-_DefineDataProperty
+DefineDataProperty
 "
 intrinsic_DefineDataProperty
 4
@@ -14526,7 +14526,7 @@ intrinsic_DefineDataProperty
 JS_FN
 (
 "
-_DefineProperty
+DefineProperty
 "
 intrinsic_DefineProperty
 6
@@ -14557,7 +14557,7 @@ ObjectIs
 JS_INLINABLE_FN
 (
 "
-_IsConstructing
+IsConstructing
 "
 intrinsic_IsConstructing
 0
@@ -14775,7 +14775,7 @@ IntrinsicGuardToRegExpStringIterator
 JS_FN
 (
 "
-_CreateMapIterationResultPair
+CreateMapIterationResultPair
 "
 intrinsic_CreateMapIterationResultPair
 0
@@ -14784,7 +14784,7 @@ intrinsic_CreateMapIterationResultPair
 JS_INLINABLE_FN
 (
 "
-_GetNextMapEntryForIterator
+GetNextMapEntryForIterator
 "
 intrinsic_GetNextMapEntryForIterator
 2
@@ -14809,7 +14809,7 @@ MapIteratorObject
 JS_FN
 (
 "
-_CreateSetIterationResult
+CreateSetIterationResult
 "
 intrinsic_CreateSetIterationResult
 0
@@ -14818,7 +14818,7 @@ intrinsic_CreateSetIterationResult
 JS_INLINABLE_FN
 (
 "
-_GetNextSetEntryForIterator
+GetNextSetEntryForIterator
 "
 intrinsic_GetNextSetEntryForIterator
 2
