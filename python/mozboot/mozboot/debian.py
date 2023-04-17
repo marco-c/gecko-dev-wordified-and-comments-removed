@@ -300,6 +300,10 @@ headless
 "
 wget
 "
+        
+"
+libncurses5
+"
     
 ]
     
