@@ -215,6 +215,17 @@ SDK
 .
 0
 )
+-
+MSVC
+v142
+-
+VS2019
+C
++
++
+ARM64
+build
+tools
 "
 Debugging
 Tools
