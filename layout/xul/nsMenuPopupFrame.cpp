@@ -4640,7 +4640,7 @@ aTriggerContent
 ;
 mPopupState
 =
-ePopupClosed
+ePopupShowing
 ;
 mAnchorContent
 =

@@ -1221,8 +1221,7 @@ OnNativeMenuOpened
 (
 )
 override
-{
-}
+;
 void
 OnNativeMenuClosed
 (
