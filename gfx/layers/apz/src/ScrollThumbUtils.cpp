@@ -76,6 +76,12 @@ AsyncTransformComponentMatrix
 *
 mOutClipTransform
 ;
+AsyncTransformComponentMatrix
+mAsyncTransform
+;
+AsyncTransformComponentMatrix
+mScrollbarTransform
+;
 LayerToParentLayerMatrix4x4
 ComputeTransform
 (
@@ -111,8 +117,7 @@ MOZ_RELEASE_ASSERT
 mApzc
 )
 ;
-AsyncTransformComponentMatrix
-asyncTransform
+mAsyncTransform
 =
 mApzc
 -
@@ -124,9 +129,6 @@ AsyncPanZoomController
 :
 eForCompositing
 )
-;
-AsyncTransformComponentMatrix
-scrollbarTransform
 ;
 if
 (
@@ -145,7 +147,7 @@ eVertical
 ParentLayerCoord
 asyncScrollY
 =
-asyncTransform
+mAsyncTransform
 .
 _42
 ;
@@ -153,7 +155,7 @@ const
 float
 asyncZoomY
 =
-asyncTransform
+mAsyncTransform
 .
 _22
 ;
@@ -287,7 +289,7 @@ yTranslation
 =
 thumbOriginDeltaPL
 ;
-scrollbarTransform
+mScrollbarTransform
 .
 PostScale
 (
@@ -300,7 +302,7 @@ yScale
 f
 )
 ;
-scrollbarTransform
+mScrollbarTransform
 .
 PostTranslate
 (
@@ -327,7 +329,7 @@ eHorizontal
 ParentLayerCoord
 asyncScrollX
 =
-asyncTransform
+mAsyncTransform
 .
 _41
 ;
@@ -335,7 +337,7 @@ const
 float
 asyncZoomX
 =
-asyncTransform
+mAsyncTransform
 .
 _11
 ;
@@ -469,7 +471,7 @@ xTranslation
 =
 thumbOriginDeltaPL
 ;
-scrollbarTransform
+mScrollbarTransform
 .
 PostScale
 (
@@ -482,7 +484,7 @@ f
 f
 )
 ;
-scrollbarTransform
+mScrollbarTransform
 .
 PostTranslate
 (
@@ -497,7 +499,7 @@ transform
 =
 mCurrentTransform
 *
-scrollbarTransform
+mScrollbarTransform
 ;
 AsyncTransformComponentMatrix
 compensation
@@ -528,7 +530,7 @@ Matrix4x4
 asyncUntransform
 =
 (
-asyncTransform
+mAsyncTransform
 *
 overscroll
 )
