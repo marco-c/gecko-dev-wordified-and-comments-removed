@@ -9659,6 +9659,7 @@ Ci
 nsIApplicationUpdateService
 )
 ;
+await
 aus
 .
 stopDownload

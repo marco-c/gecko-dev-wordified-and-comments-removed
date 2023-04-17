@@ -6257,6 +6257,7 @@ return
 null
 ;
 }
+async
 function
 handleFallbackToCompleteUpdate
 (
@@ -6359,6 +6360,7 @@ to
 return
 ;
 }
+await
 aus
 .
 stopDownload
@@ -10362,6 +10364,7 @@ update
 processing
 "
 :
+await
 this
 .
 _postUpdateProcessing
@@ -10557,6 +10560,7 @@ _downloader
 usingBits
 )
 {
+await
 this
 .
 stopDownload
@@ -10679,6 +10683,7 @@ break
 }
 _postUpdateProcessing
 :
+async
 function
 AUS__postUpdateProcessing
 (
@@ -12015,6 +12020,7 @@ return
 ;
 }
 }
+await
 handleFallbackToCompleteUpdate
 (
 false
@@ -15588,6 +15594,7 @@ update
 }
 stopDownload
 :
+async
 function
 AUS_stopDownload
 (
@@ -15600,6 +15607,7 @@ this
 isDownloading
 )
 {
+await
 this
 .
 _downloader
@@ -15638,6 +15646,7 @@ this
 _downloader
 )
 {
+await
 this
 .
 _downloader
@@ -17632,6 +17641,7 @@ parts
 )
 )
 {
+await
 handleFallbackToCompleteUpdate
 (
 true
@@ -17675,18 +17685,12 @@ saveUpdates
 (
 )
 ;
+await
 promiseLangPacksUpdated
 (
 update
 )
-.
-then
-(
-(
-)
-=
->
-{
+;
 LOG
 (
 "
@@ -17734,9 +17738,6 @@ staged
 update
 .
 state
-)
-;
-}
 )
 ;
 }

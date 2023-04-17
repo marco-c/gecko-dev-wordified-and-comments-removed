@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -136,6 +137,7 @@ attribute
 MSG_SHOULD_EQUAL
 )
 ;
+await
 gAUS
 .
 stopDownload
