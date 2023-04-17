@@ -2490,10 +2490,6 @@ webRequest
 "
 webRequestBlocking
 "
-]
-host_permissions
-:
-[
 "
 <
 all_urls
