@@ -181,6 +181,9 @@ namespace
 wasm
 {
 class
+Decoder
+;
+class
 StackMaps
 ;
 }
@@ -483,6 +486,12 @@ wasm
 StackMaps
 *
 stackMaps
+wasm
+:
+:
+Decoder
+*
+decoder
 )
 ;
 [
