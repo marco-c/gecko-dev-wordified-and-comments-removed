@@ -789,14 +789,14 @@ Maybe
 <
 nsCSSBorderRenderer
 >
-CreateBorderRendererForNonThemedOutline
+CreateBorderRendererForOutline
 (
 nsPresContext
 *
 aPresContext
-DrawTarget
+gfxContext
 *
-aDrawTarget
+aRenderingContext
 nsIFrame
 *
 aForFrame
@@ -982,7 +982,7 @@ aStyleBorder
 ;
 static
 void
-PaintNonThemedOutline
+PaintOutline
 (
 nsPresContext
 *
