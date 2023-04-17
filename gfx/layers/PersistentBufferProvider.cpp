@@ -1964,6 +1964,11 @@ height
 )
 )
 ;
+if
+(
+dt
+)
+{
 ReturnDrawTarget
 (
 dt
@@ -2000,6 +2005,7 @@ unavailable
 return
 nullptr
 ;
+}
 }
 }
 else
