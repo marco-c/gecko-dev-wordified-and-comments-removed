@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+wildcard_imports
+)
+]
 use
 serde_repr
 :
