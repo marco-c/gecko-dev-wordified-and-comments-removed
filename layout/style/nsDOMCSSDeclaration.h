@@ -577,11 +577,12 @@ mRuleType
 protected
 :
 enum
+class
 Operation
 {
-eOperation_Read
-eOperation_Modify
-eOperation_RemoveProperty
+Read
+Modify
+RemoveProperty
 }
 ;
 virtual
