@@ -52,10 +52,6 @@ moz_must_return_from_caller_if_this_is_arg
 )
 ATTR
 (
-moz_must_use_type
-)
-ATTR
-(
 moz_needs_memmovable_members
 )
 ATTR

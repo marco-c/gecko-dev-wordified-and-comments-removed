@@ -6485,7 +6485,11 @@ a
 static
 analysis
 attribute
-MOZ_MUST_USE_TYPE
+[
+[
+nodiscard
+]
+]
 which
 can
 be
