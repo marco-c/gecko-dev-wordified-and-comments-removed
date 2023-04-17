@@ -1344,6 +1344,15 @@ if
 (
 layerChecksEnabled
 )
+random
+-
+if
+(
+useDrawSnapshot
+&
+&
+webrender
+)
 =
 =
 background

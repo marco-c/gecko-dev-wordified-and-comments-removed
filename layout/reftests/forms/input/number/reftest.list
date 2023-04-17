@@ -558,6 +558,10 @@ fails
 if
 (
 useDrawSnapshot
+&
+&
+!
+webrender
 )
 =
 =

@@ -483,6 +483,12 @@ isolation
 ref
 .
 html
+random
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 background

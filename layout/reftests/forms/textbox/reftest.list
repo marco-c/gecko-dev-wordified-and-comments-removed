@@ -99,6 +99,10 @@ fails
 -
 if
 (
+!
+useDrawSnapshot
+&
+&
 webrender
 )
 =
@@ -277,6 +281,10 @@ fails
 -
 if
 (
+!
+useDrawSnapshot
+&
+&
 webrender
 &
 &

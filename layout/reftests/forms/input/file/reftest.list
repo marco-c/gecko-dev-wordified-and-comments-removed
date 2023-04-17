@@ -284,6 +284,10 @@ fails
 if
 (
 useDrawSnapshot
+&
+&
+!
+webrender
 )
 =
 =

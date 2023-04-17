@@ -679,6 +679,10 @@ fuzzy
 if
 (
 useDrawSnapshot
+&
+&
+!
+webrender
 1
 -
 1

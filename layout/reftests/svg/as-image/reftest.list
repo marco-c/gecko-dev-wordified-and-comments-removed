@@ -2718,6 +2718,10 @@ fuzzy
 -
 if
 (
+!
+useDrawSnapshot
+&
+&
 webrender
 255
 -
@@ -2827,6 +2831,10 @@ fuzzy
 -
 if
 (
+!
+useDrawSnapshot
+&
+&
 webrender
 255
 -
@@ -2936,6 +2944,10 @@ fuzzy
 -
 if
 (
+!
+useDrawSnapshot
+&
+&
 webrender
 255
 -

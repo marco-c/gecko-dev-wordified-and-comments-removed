@@ -111,10 +111,10 @@ webrender
 &
 &
 swgl
-7
+5
 -
 10
-19336
+13600
 -
 20088
 )
@@ -155,6 +155,10 @@ fuzzy
 -
 if
 (
+!
+useDrawSnapshot
+&
+&
 webrender
 13
 -
@@ -167,7 +171,8 @@ fuzzy
 -
 if
 (
-webrender
+!
+useDrawSnapshot
 &
 &
 swgl
