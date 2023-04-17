@@ -231,6 +231,8 @@ browser
 /
 content
 /
+certerror
+/
 aboutNetError
 .
 js
