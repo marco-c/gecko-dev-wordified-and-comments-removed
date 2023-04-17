@@ -7003,6 +7003,30 @@ b
 1
 ]
     
+task_def
+[
+"
+payload
+"
+]
+=
+{
+        
+"
+behavior
+"
+:
+worker
+[
+"
+balrog
+-
+action
+"
+]
+    
+}
+    
 if
 (
         
@@ -7050,9 +7074,12 @@ task_def
 payload
 "
 ]
-=
-{
+.
+update
+(
             
+{
+                
 "
 upstreamArtifacts
 "
@@ -7065,7 +7092,7 @@ upstream
 artifacts
 "
 ]
-            
+                
 "
 suffixes
 "
@@ -7076,8 +7103,10 @@ worker
 suffixes
 "
 ]
-        
+            
 }
+        
+)
     
 else
 :
@@ -7209,9 +7238,12 @@ task_def
 payload
 "
 ]
-=
-{
+.
+update
+(
             
+{
+                
 "
 build_number
 "
@@ -7222,7 +7254,7 @@ release_config
 build_number
 "
 ]
-            
+                
 "
 product
 "
@@ -7233,7 +7265,7 @@ worker
 product
 "
 ]
-            
+                
 "
 version
 "
@@ -7244,8 +7276,10 @@ release_config
 version
 "
 ]
-        
+            
 }
+        
+)
         
 for
 prop
