@@ -5321,6 +5321,7 @@ return
 NS_OK
 ;
 }
+const
 int32_t
 originalRangeCount
 =
@@ -5656,9 +5657,6 @@ checking
 )
 )
 ;
-ErrorResult
-erv
-;
 if
 (
 originalRangeCount
@@ -5666,6 +5664,9 @@ originalRangeCount
 0
 )
 {
+ErrorResult
+erv
+;
 if
 (
 !
