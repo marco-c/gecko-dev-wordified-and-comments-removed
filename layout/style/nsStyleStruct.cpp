@@ -14623,7 +14623,9 @@ PrefsFor
 aDocument
 )
 .
-mDefaultColor
+mColors
+.
+mDefault
 )
 ;
 }

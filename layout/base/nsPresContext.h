@@ -1071,7 +1071,9 @@ PrefSheetPrefs
 (
 )
 .
-mDefaultBackgroundColor
+mColors
+.
+mDefaultBackground
 ;
 }
 nsISupports
