@@ -1711,6 +1711,11 @@ mPaintingSuppressed
 ;
 }
 void
+TryUnsuppressPaintingSoon
+(
+)
+;
+void
 UnsuppressPainting
 (
 )
@@ -6729,6 +6734,11 @@ mInitializedWithClickEventDispatchingBlacklist
 ;
 bool
 mMouseLocationWasSetBySynthesizedMouseEventForTests
+:
+1
+;
+bool
+mHasTriedFastUnsuppress
 :
 1
 ;

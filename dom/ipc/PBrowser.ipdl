@@ -1475,10 +1475,15 @@ DispatchFocusToTopLevelWindow
 [
 Priority
 =
-mediumhigh
+control
 ]
 async
 DidUnsuppressPainting
+(
+)
+;
+async
+DidUnsuppressPaintingNormalPriority
 (
 )
 ;
