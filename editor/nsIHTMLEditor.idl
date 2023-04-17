@@ -200,14 +200,6 @@ Element
 aElement
 )
 ;
-void
-setCaretAfterElement
-(
-in
-Element
-aElement
-)
-;
 AString
 getParagraphState
 (
