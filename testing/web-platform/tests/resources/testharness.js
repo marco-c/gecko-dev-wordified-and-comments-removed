@@ -8012,6 +8012,7 @@ description
 {
 assert
 (
+(
 typeof
 object
 =
@@ -8020,6 +8021,14 @@ object
 "
 object
 "
+&
+&
+object
+!
+=
+=
+null
+)
 |
 |
 typeof
