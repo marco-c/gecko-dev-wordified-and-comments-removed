@@ -24252,9 +24252,6 @@ Exists
 )
 )
 ;
-PSAutoLock
-lock
-;
 if
 (
 !
