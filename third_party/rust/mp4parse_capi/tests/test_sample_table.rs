@@ -92,7 +92,6 @@ _
 }
 ;
 let
-mut
 buf
 =
 unsafe
@@ -115,8 +114,6 @@ input
 .
 read
 (
-&
-mut
 buf
 )
 {
