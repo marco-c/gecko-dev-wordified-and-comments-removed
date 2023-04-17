@@ -199,7 +199,7 @@ jsm
 events
 :
 {
-DOMWindowCreated
+DOMDocElementInserted
 :
 {
 capture
@@ -261,7 +261,7 @@ jsm
 events
 :
 {
-DOMWindowCreated
+DOMDocElementInserted
 :
 {
 }

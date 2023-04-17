@@ -1808,7 +1808,7 @@ jsm
 events
 :
 {
-DOMWindowCreated
+DOMDocElementInserted
 :
 {
 capture
@@ -1868,7 +1868,7 @@ jsm
 events
 :
 {
-DOMWindowCreated
+DOMDocElementInserted
 :
 {
 capture
@@ -1947,7 +1947,7 @@ jsm
 events
 :
 {
-DOMWindowCreated
+DOMDocElementInserted
 :
 {
 capture
@@ -2007,7 +2007,7 @@ jsm
 events
 :
 {
-DOMWindowCreated
+DOMDocElementInserted
 :
 {
 capture
@@ -2143,7 +2143,7 @@ jsm
 events
 :
 {
-DOMWindowCreated
+DOMDocElementInserted
 :
 {
 capture
@@ -2204,6 +2204,10 @@ jsm
 events
 :
 {
+DOMDocElementInserted
+:
+{
+}
 DOMWindowCreated
 :
 {
@@ -2346,7 +2350,7 @@ jsm
 events
 :
 {
-DOMWindowCreated
+DOMDocElementInserted
 :
 {
 }
@@ -3130,7 +3134,7 @@ jsm
 events
 :
 {
-DOMWindowCreated
+DOMDocElementInserted
 :
 {
 }
@@ -3691,7 +3695,7 @@ jsm
 events
 :
 {
-DOMWindowCreated
+DOMDocElementInserted
 :
 {
 }
