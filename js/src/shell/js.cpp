@@ -13254,6 +13254,15 @@ stencil
 JS
 :
 :
+DecodeOptions
+decodeOptions
+(
+options
+)
+;
+JS
+:
+:
 TranscodeResult
 rv
 =
@@ -13263,7 +13272,7 @@ JS
 DecodeStencil
 (
 cx
-options
+decodeOptions
 range
 getter_AddRefs
 (

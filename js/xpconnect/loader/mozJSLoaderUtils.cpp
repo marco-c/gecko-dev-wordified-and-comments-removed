@@ -161,7 +161,7 @@ const
 JS
 :
 :
-ReadOnlyCompileOptions
+DecodeOptions
 &
 options
 JS

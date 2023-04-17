@@ -1530,6 +1530,13 @@ mode
 >
 *
 xdr
+const
+JS
+:
+:
+DecodeOptions
+*
+maybeOptions
 RefPtr
 <
 ScriptSource
@@ -1554,6 +1561,7 @@ ScriptSource
 XDR
 (
 xdr
+maybeOptions
 source
 )
 )
@@ -1659,6 +1667,7 @@ MOZ_TRY
 XDRStencilHeader
 (
 this
+nullptr
 const_cast
 <
 RefPtr
@@ -2004,7 +2013,7 @@ const
 JS
 :
 :
-ReadOnlyCompileOptions
+DecodeOptions
 &
 options
 frontend
@@ -2077,6 +2086,8 @@ MOZ_TRY
 XDRStencilHeader
 (
 this
+&
+options
 stencil
 .
 source

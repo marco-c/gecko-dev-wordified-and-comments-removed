@@ -338,7 +338,7 @@ JSContext
 *
 cx
 const
-ReadOnlyCompileOptions
+DecodeOptions
 &
 options
 const
