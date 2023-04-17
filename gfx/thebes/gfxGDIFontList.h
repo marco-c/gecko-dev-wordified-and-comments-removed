@@ -1238,7 +1238,12 @@ gfxGDIFontList
 *
 >
 (
-sPlatformFontList
+gfxPlatformFontList
+:
+:
+PlatformFontList
+(
+)
 )
 ;
 }

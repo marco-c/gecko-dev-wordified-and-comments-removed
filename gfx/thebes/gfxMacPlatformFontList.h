@@ -398,7 +398,12 @@ gfxMacPlatformFontList
 *
 >
 (
-sPlatformFontList
+gfxPlatformFontList
+:
+:
+PlatformFontList
+(
+)
 )
 ;
 }

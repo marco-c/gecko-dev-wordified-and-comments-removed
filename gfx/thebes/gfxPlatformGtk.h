@@ -157,8 +157,7 @@ aFontList
 )
 override
 ;
-gfxPlatformFontList
-*
+bool
 CreatePlatformFontList
 (
 )
