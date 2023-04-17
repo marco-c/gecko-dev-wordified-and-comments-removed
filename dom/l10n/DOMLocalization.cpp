@@ -2429,8 +2429,7 @@ Length
 i
 )
 {
-Element
-*
+nsCOMPtr
 elem
 =
 aElements
