@@ -10937,6 +10937,26 @@ x86_64
 -
 qr
 /
+debug
+-
+isolated
+-
+process
+"
+                
+"
+android
+-
+em
+-
+7
+.
+0
+-
+x86_64
+-
+qr
+/
 opt
 "
             
