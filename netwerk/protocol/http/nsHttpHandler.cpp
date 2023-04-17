@@ -2274,6 +2274,14 @@ ExperimentUserAgentUpdated
 mExperimentUserAgent
 )
 ;
+ExperimentUserAgentUpdated
+(
+"
+"
+&
+mExperimentUserAgent
+)
+;
 #
 endif
 Telemetry
