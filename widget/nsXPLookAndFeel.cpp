@@ -691,11 +691,6 @@ allowOverlayScrollbarsOverlap
 "
 ui
 .
-showHideScrollbars
-"
-"
-ui
-.
 skipNavigatingDisabledMenuItem
 "
 "

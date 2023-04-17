@@ -136,7 +136,6 @@ SubmenuDelay
 MenusCanOverlapOSBar
 UseOverlayScrollbars
 AllowOverlayScrollbarsOverlap
-ShowHideScrollbars
 SkipNavigatingDisabledMenuItem
 DragThresholdX
 DragThresholdY

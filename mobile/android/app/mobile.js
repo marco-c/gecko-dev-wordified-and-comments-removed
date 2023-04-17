@@ -181,16 +181,6 @@ pref
 "
 ui
 .
-showHideScrollbars
-"
-1
-)
-;
-pref
-(
-"
-ui
-.
 useOverlayScrollbars
 "
 1
