@@ -18,13 +18,6 @@ nsIDNSListener
 .
 h
 "
-#
-include
-"
-nsHttpConnectionInfo
-.
-h
-"
 namespace
 mozilla
 {

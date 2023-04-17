@@ -11,13 +11,6 @@ nsIDNSResolverInfo
 .
 h
 "
-#
-include
-"
-nsString
-.
-h
-"
 namespace
 mozilla
 {

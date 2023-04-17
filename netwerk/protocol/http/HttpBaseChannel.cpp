@@ -677,13 +677,6 @@ ContentChild
 .
 h
 "
-#
-include
-"
-nsQueryObject
-.
-h
-"
 namespace
 mozilla
 {

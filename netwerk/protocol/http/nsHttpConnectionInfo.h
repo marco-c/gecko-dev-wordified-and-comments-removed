@@ -66,13 +66,6 @@ ARefBase
 .
 h
 "
-#
-include
-"
-nsIRequest
-.
-h
-"
 class
 nsISVCBRecord
 ;

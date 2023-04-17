@@ -26,13 +26,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsIChannel
-.
-h
-"
 NS_IMPL_ISUPPORTS
 (
 nsAboutBlank
