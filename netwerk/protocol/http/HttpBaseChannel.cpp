@@ -703,6 +703,11 @@ Accept_Language
 nsHttp
 :
 :
+Alternate_Service_Used
+&
+nsHttp
+:
+:
 Authentication
 &
 nsHttp
