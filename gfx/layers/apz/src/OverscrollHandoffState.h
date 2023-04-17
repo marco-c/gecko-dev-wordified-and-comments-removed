@@ -342,6 +342,9 @@ mPanDistance
 ScrollSource
 mScrollSource
 ;
+ScreenPoint
+mTotalMovement
+;
 }
 ;
 struct
