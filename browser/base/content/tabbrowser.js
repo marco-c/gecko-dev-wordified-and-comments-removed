@@ -7941,12 +7941,9 @@ aBrowser
 .
 docShellIsActive
 =
-this
-.
-shouldActivateDocShell
-(
 aBrowser
-)
+.
+docShellIsActive
 ;
 listener
 =
