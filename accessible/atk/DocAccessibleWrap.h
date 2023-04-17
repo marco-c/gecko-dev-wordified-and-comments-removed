@@ -48,7 +48,9 @@ DocAccessibleWrap
 )
 ;
 bool
-mActivated
+IsActivated
+(
+)
 ;
 }
 ;
