@@ -2550,7 +2550,7 @@ ResetViewportScrolling
 }
 ;
 static
-nsresult
+void
 PaintFrame
 (
 gfxContext

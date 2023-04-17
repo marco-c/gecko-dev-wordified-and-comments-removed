@@ -1454,9 +1454,6 @@ PaintFrameFlags
 UseHighQualityScaling
 ;
 }
-Unused
-<
-<
 nsLayoutUtils
 :
 :
