@@ -505,6 +505,11 @@ if
 (
 contextData
 .
+onAction
+|
+|
+contextData
+.
 onBrowserAction
 |
 |
@@ -2499,6 +2504,11 @@ if
 (
 contextData
 .
+onAction
+|
+|
+contextData
+.
 onBrowserAction
 |
 |
@@ -2810,6 +2820,11 @@ onBookmark
 :
 "
 bookmark
+"
+onAction
+:
+"
+action
 "
 onBrowserAction
 :
