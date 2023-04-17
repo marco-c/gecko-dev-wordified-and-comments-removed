@@ -95,7 +95,7 @@ skin
 /
 icons
 /
-info
+warning
 .
 svg
 "
