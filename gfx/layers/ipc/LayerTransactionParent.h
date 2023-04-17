@@ -328,8 +328,8 @@ TimeStamp
 aFwdTime
 )
 ;
-void
-FlushPendingTransactions
+TransactionId
+FlushTransactionId
 (
 const
 VsyncId
@@ -338,12 +338,6 @@ aId
 TimeStamp
 &
 aCompositeEnd
-nsTArray
-<
-TransactionId
->
-&
-aOutTransactions
 )
 ;
 void
