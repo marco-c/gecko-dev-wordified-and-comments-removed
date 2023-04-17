@@ -27,7 +27,7 @@ willReadFrequently
 "
 ]
 ;
-const
+var
 actual
 =
 [
@@ -177,6 +177,11 @@ creation
 )
 "
 )
+;
+actual
+=
+[
+]
 ;
 assert_equals
 (
