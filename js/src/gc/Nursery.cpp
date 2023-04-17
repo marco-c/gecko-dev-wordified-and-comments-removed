@@ -782,6 +782,13 @@ gc
 GCParallelTask
 (
 gc
+gcstats
+:
+:
+PhaseKind
+:
+:
+NONE
 )
 {
 }

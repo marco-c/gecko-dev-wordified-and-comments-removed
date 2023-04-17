@@ -4756,6 +4756,13 @@ pool
 GCParallelTask
 (
 gc
+gcstats
+:
+:
+PhaseKind
+:
+:
+NONE
 )
 chunkPool_
 (
