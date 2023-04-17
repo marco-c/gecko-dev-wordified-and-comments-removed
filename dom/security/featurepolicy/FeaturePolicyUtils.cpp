@@ -205,7 +205,7 @@ FeaturePolicyUtils
 FeaturePolicyValue
 :
 :
-eAll
+eSelf
 }
 }
 ;
