@@ -464,13 +464,22 @@ params
 "
 ]
         
+payload
+=
+json
+.
+dumps
+(
+msg
+)
+        
 cmd
 =
 Command
 .
 from_msg
 (
-msg
+payload
 )
         
 self
@@ -801,13 +810,22 @@ result
 "
 ]
         
+payload
+=
+json
+.
+dumps
+(
+msg
+)
+        
 resp
 =
 Response
 .
 from_msg
 (
-msg
+payload
 )
         
 self
