@@ -239,7 +239,7 @@ aInitialization
 )
 )
 ;
-mInitializationAttempts
+mFirstInitializationAttempts
 |
 =
 aInitialization
