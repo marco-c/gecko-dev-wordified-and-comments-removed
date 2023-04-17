@@ -152,6 +152,12 @@ return
 client
 ;
 }
+exports
+.
+startDebugger
+=
+startDebugger
+;
 async
 function
 setupExtensionDebugging
