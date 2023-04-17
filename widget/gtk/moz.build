@@ -284,11 +284,6 @@ nsNativeBasicThemeGTK
 cpp
 "
 "
-nsNativeThemeGTK
-.
-cpp
-"
-"
 nsSound
 .
 cpp
@@ -345,6 +340,11 @@ SOURCES
 [
 "
 MediaKeysEventSourceFactory
+.
+cpp
+"
+"
+nsNativeThemeGTK
 .
 cpp
 "
