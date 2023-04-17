@@ -463,6 +463,12 @@ ID3D11Device
 >
 device
 =
+mozilla
+:
+:
+gfx
+:
+:
 DeviceManagerDx
 :
 :
