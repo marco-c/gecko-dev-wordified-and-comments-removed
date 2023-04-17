@@ -2653,7 +2653,7 @@ document
 createElement
 (
 "
-span
+label
 "
 )
 ;
