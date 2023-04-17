@@ -167,7 +167,7 @@ override
 gfx
 :
 :
-YUVRangedColorSpace
+YUVColorSpace
 GetYUVColorSpace
 (
 )

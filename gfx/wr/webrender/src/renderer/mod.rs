@@ -13963,7 +13963,7 @@ ref
 planes
 color_space
 format
-channel_bit_depth
+rescale
 .
 .
 }
@@ -14136,7 +14136,7 @@ ZBufferId
 )
 color_space
 format
-channel_bit_depth
+rescale
 uv_rects
 )
 ;
@@ -14723,7 +14723,7 @@ ref
 planes
 color_space
 format
-channel_bit_depth
+rescale
 .
 .
 }
@@ -14843,7 +14843,7 @@ tile
 z_id
 color_space
 format
-channel_bit_depth
+rescale
 uv_rects
 )
 textures

@@ -963,7 +963,7 @@ aInfo
 >
 color_space
 =
-ToWrYuvRangedColorSpace
+ToWrYuvColorSpace
 (
 colorSpace
 )
