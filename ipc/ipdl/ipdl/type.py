@@ -6624,7 +6624,7 @@ normal
 input
 "
 "
-high
+vsync
 "
 "
 mediumhigh
