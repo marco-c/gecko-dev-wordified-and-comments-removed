@@ -3437,6 +3437,13 @@ ProcessFailureBehavior
 IgnoreAndContinue
 >
 (
+"
+nsThread
+:
+:
+WaitForAllAsynchronousShutdowns
+"
+_ns
 [
 &
 ]
@@ -3514,6 +3521,13 @@ maybeContext
 ;
 SpinEventLoopUntil
 (
+"
+nsThread
+:
+:
+Shutdown
+"
+_ns
 [
 &
 context

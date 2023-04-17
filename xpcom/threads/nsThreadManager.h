@@ -212,7 +212,7 @@ mozilla
 :
 :
 ShutdownPhase
-aCheckingShutdownPhase
+aShutdownPhaseToCheck
 )
 ;
 static
