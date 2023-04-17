@@ -9849,6 +9849,27 @@ deepcopy
 task
 )
         
+if
+task
+.
+get
+(
+"
+app
+"
+)
+not
+in
+(
+None
+"
+firefox
+"
+)
+:
+            
+continue
+        
 for
 name
 in
