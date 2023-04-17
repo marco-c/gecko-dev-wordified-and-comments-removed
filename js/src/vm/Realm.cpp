@@ -1737,8 +1737,11 @@ void
 Realm
 :
 :
-sweepDebugEnvironments
+traceWeakDebugEnvironmentEdges
 (
+JSTracer
+*
+trc
 )
 {
 if
@@ -1749,8 +1752,9 @@ debugEnvs_
 debugEnvs_
 -
 >
-sweep
+traceWeak
 (
+trc
 )
 ;
 }
