@@ -234,13 +234,6 @@ h
 #
 include
 "
-ftpCore
-.
-h
-"
-#
-include
-"
 nsIStringBundle
 .
 h

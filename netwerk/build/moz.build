@@ -112,14 +112,6 @@ netwerk
 /
 protocol
 /
-ftp
-"
-"
-/
-netwerk
-/
-protocol
-/
 http
 "
 "
