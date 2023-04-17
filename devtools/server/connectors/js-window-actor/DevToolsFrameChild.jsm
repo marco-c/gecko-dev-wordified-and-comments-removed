@@ -581,6 +581,7 @@ watcherActorID
 parentConnectionPrefix
 watchedData
 isDocumentCreation
+fromInstantiateAlreadyAvailable
 }
 )
 {
@@ -596,6 +597,14 @@ watcherActorID
 )
 )
 {
+if
+(
+fromInstantiateAlreadyAvailable
+)
+{
+return
+;
+}
 throw
 new
 Error
@@ -1384,6 +1393,9 @@ parentConnectionPrefix
 :
 connectionPrefix
 watchedData
+fromInstantiateAlreadyAvailable
+:
+true
 }
 )
 ;
