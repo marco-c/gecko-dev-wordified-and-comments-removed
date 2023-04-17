@@ -14329,9 +14329,6 @@ return
 0
 ;
 }
-return
-0
-;
 }
 uint32_t
 Console
@@ -14509,9 +14506,6 @@ return
 0
 ;
 }
-return
-0
-;
 }
 bool
 Console

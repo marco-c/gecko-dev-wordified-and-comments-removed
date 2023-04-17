@@ -976,8 +976,6 @@ HttpFetch
 )
 ;
 }
-else
-{
 MOZ_ASSERT
 (
 alternativeDataType
@@ -1011,10 +1009,6 @@ OnStartRequest
 (
 aRequest
 )
-;
-}
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
