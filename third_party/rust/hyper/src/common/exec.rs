@@ -40,7 +40,7 @@ body
 :
 {
 Body
-Payload
+HttpBody
 }
 ;
 use
@@ -110,7 +110,7 @@ H2Exec
 F
 B
 :
-Payload
+HttpBody
 >
 :
 Clone
@@ -429,7 +429,7 @@ Send
 static
 B
 :
-Payload
+HttpBody
 {
 fn
 execute_h2stream
@@ -576,7 +576,7 @@ Output
 >
 B
 :
-Payload
+HttpBody
 {
 fn
 execute_h2stream

@@ -31,7 +31,7 @@ crate
 body
 :
 :
-Payload
+HttpBody
 ;
 use
 crate
@@ -163,7 +163,7 @@ ReqBody
 Ret
 ReqBody
 :
-Payload
+HttpBody
 Ret
 :
 Future
@@ -195,7 +195,7 @@ Sync
 >
 ResBody
 :
-Payload
+HttpBody
 {
 type
 Response

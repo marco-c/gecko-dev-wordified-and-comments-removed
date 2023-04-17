@@ -16,7 +16,7 @@ crate
 body
 :
 :
-Payload
+HttpBody
 ;
 use
 crate
@@ -58,7 +58,7 @@ ReqBody
 type
 ResBody
 :
-Payload
+HttpBody
 ;
 type
 Error
@@ -201,7 +201,7 @@ B2
 >
 B2
 :
-Payload
+HttpBody
 T
 :
 :
@@ -356,7 +356,7 @@ B2
 >
 B2
 :
-Payload
+HttpBody
 {
 }
 mod
