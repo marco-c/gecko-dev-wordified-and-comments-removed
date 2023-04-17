@@ -10252,6 +10252,14 @@ useMoveToRect
 useMoveToRect
 =
 (
+mPopupType
+=
+=
+ePopupTypeTooltip
+)
+|
+|
+(
 popup
 -
 >
@@ -12293,6 +12301,12 @@ mPopupUseMoveToRect
 if
 (
 mNeedsShow
+&
+&
+mPopupType
+!
+=
+ePopupTypeTooltip
 )
 {
 LOG_POPUP
@@ -12364,6 +12378,9 @@ d
 %
 d
 )
+for
+visible
+widget
 \
 n
 "
