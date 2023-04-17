@@ -17,7 +17,10 @@ os
 raw
 :
 :
+{
 c_char
+c_void
+}
 ;
 use
 std
@@ -480,5 +483,11 @@ u8
 *
 const
 u8
+*
+mut
+c_void
+*
+const
+c_void
 ]
 ;
