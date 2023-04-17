@@ -2634,6 +2634,14 @@ controlOutermost
 )
 ;
 inline
+LabelKind
+controlKind
+(
+uint32_t
+relativeDepth
+)
+;
+inline
 void
 insertBreakablePoint
 (
