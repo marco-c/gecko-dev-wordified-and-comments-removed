@@ -1101,6 +1101,14 @@ Expect
 number
 (
 )
+redirectType
+:
+"
+Internal
+"
+isHttpToHttpsRedirect
+:
+false
 }
 ;
 if
