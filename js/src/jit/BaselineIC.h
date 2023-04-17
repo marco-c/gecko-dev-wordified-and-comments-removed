@@ -1590,6 +1590,16 @@ CacheIRStubInfo
 *
 stubInfo_
 ;
+#
+ifndef
+JS_64BIT
+uintptr_t
+padding_
+=
+0
+;
+#
+endif
 public
 :
 ICCacheIRStub
@@ -1765,7 +1775,7 @@ ICCacheIRStub
 )
 =
 =
-5
+6
 *
 sizeof
 (
