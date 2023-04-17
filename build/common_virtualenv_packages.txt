@@ -842,6 +842,13 @@ third_party
 /
 python
 /
+tqdm
+vendored
+:
+third_party
+/
+python
+/
 typing_extensions
 vendored
 :
