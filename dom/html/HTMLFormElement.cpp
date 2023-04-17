@@ -26,6 +26,15 @@ include
 "
 mozilla
 /
+AutoRestore
+.
+h
+"
+#
+include
+"
+mozilla
+/
 BasePrincipal
 .
 h

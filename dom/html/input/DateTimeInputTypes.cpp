@@ -50,6 +50,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ShadowRoot
+.
+h
+"
+#
+include
+"
 nsDOMTokenList
 .
 h

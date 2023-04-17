@@ -192,6 +192,15 @@ h
 #
 include
 "
+mozilla
+/
+TextEditor
+.
+h
+"
+#
+include
+"
 nsNodeInfoManager
 .
 h

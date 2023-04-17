@@ -1500,7 +1500,6 @@ htmlEditor
 >
 PreDestroy
 (
-false
 )
 ;
 }
@@ -1673,13 +1672,7 @@ Init
 (
 *
 doc
-nullptr
-nullptr
 mEditorFlags
-u
-"
-"
-_ns
 )
 ;
 NS_ENSURE_SUCCESS
