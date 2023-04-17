@@ -125,6 +125,10 @@ TransportSecurityInfo
 *
 infoObject
 const
+nsACString
+&
+aHostName
+const
 void
 *
 aPtrForLogging

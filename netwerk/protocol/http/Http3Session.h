@@ -616,6 +616,11 @@ ProcessPending
 void
 CallCertVerification
 (
+Maybe
+<
+nsCString
+>
+aEchPublicName
 )
 ;
 void

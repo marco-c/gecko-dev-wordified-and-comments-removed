@@ -5491,6 +5491,10 @@ TransportSecurityInfo
 *
 infoObject
 const
+nsACString
+&
+aHostName
+const
 void
 *
 aPtrForLogging
@@ -5715,12 +5719,7 @@ AuthCertificateHookInternal
 infoObject
 aPtrForLogging
 cert
-infoObject
--
->
-GetHostName
-(
-)
+aHostName
 std
 :
 :
