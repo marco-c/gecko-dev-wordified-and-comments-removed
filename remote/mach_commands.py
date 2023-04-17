@@ -4090,6 +4090,24 @@ True
 }
 )
     
+else
+:
+        
+prefs
+.
+update
+(
+{
+"
+fission
+.
+autostart
+"
+:
+False
+}
+)
+    
 if
 verbosity
 =
