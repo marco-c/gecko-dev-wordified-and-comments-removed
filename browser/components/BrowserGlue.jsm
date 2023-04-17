@@ -12591,11 +12591,6 @@ condition
 :
 AppConstants
 .
-MOZ_BACKGROUNDTASKS
-&
-&
-AppConstants
-.
 MOZ_UPDATE_AGENT
 task
 :
