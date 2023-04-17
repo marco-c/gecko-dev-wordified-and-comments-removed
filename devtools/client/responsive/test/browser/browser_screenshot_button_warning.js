@@ -234,6 +234,8 @@ is
 (
 notificationEl
 .
+messageText
+.
 textContent
 "
 The
