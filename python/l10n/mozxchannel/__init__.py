@@ -230,6 +230,18 @@ release
 "
                     
 "
+esr91
+"
+:
+"
+releases
+/
+mozilla
+-
+esr91
+"
+                    
+"
 esr78
 "
 :
@@ -342,6 +354,20 @@ releases
 comm
 -
 beta
+"
+                    
+"
+comm
+-
+esr91
+"
+:
+"
+releases
+/
+comm
+-
+esr91
 "
                     
 "
