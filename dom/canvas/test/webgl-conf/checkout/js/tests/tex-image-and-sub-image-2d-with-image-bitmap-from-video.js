@@ -460,10 +460,12 @@ wtu
 startPlayingAndWaitForVideo
 (
 video
+async
 function
 (
 )
 {
+await
 runImageBitmapTest
 (
 video
