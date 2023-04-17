@@ -4550,7 +4550,7 @@ label
 {
 packets
 :
-packetsReceived
+packetsLost
 }
 )
 )
