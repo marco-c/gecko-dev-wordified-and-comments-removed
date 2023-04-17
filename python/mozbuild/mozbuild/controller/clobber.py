@@ -363,9 +363,7 @@ src_clobber
 )
 :
             
-self
-.
-src_clobber
+comm_clobber
 =
 os
 .
@@ -381,18 +379,23 @@ mozilla
 CLOBBER
 "
 )
-        
-assert
+            
+if
 os
 .
 path
 .
 isfile
 (
+comm_clobber
+)
+:
+                
 self
 .
 src_clobber
-)
+=
+comm_clobber
     
 def
 clobber_needed
@@ -430,6 +433,23 @@ exists
 self
 .
 obj_clobber
+)
+:
+            
+return
+False
+        
+if
+not
+os
+.
+path
+.
+exists
+(
+self
+.
+src_clobber
 )
 :
             
