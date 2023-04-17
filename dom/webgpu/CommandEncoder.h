@@ -256,6 +256,8 @@ WebGPUChild
 >
 mBridge
 ;
+nsTArray
+<
 WeakPtr
 <
 dom
@@ -263,7 +265,8 @@ dom
 :
 HTMLCanvasElement
 >
-mTargetCanvasElement
+>
+mTargetCanvases
 ;
 public
 :

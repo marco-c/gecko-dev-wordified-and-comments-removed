@@ -84,7 +84,8 @@ const
 aParent
 RawId
 aId
-const
+nsTArray
+<
 WeakPtr
 <
 dom
@@ -92,8 +93,10 @@ dom
 :
 HTMLCanvasElement
 >
+>
 &
-aTargetCanvasElement
+&
+aTargetCanvases
 )
 ;
 Maybe
@@ -127,6 +130,8 @@ RawId
 mId
 ;
 const
+nsTArray
+<
 WeakPtr
 <
 dom
@@ -134,7 +139,8 @@ dom
 :
 HTMLCanvasElement
 >
-mTargetCanvasElement
+>
+mTargetCanvases
 ;
 }
 ;
