@@ -1906,7 +1906,7 @@ check_return
 NULL
 1
 1
-0
+1
 JOF_BYTE
 )
 (
