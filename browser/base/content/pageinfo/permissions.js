@@ -1045,6 +1045,16 @@ aPartId
 "
 )
 ;
+checkbox
+.
+setAttribute
+(
+"
+native
+"
+true
+)
+;
 document
 .
 l10n
