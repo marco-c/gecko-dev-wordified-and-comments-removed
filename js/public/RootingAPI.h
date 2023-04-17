@@ -175,6 +175,10 @@ typename
 Element
 typename
 Wrapper
+typename
+Enable
+=
+void
 >
 class
 WrappedPtrOperations
