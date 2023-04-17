@@ -1248,6 +1248,17 @@ value
 )
 ;
 void
+SetInt
+(
+wr
+:
+:
+IntParameter
+int32_t
+value
+)
+;
+void
 SetClearColor
 (
 const

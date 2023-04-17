@@ -336,6 +336,15 @@ int32_t
 \
 _
 (
+WebRenderBatchedUploadThreshold
+int32_t
+512
+*
+512
+)
+\
+_
+(
 UseSoftwareWebRender
 bool
 false
