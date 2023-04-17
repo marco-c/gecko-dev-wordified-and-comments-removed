@@ -182,9 +182,13 @@ delay_ping_lifetime_io
 false
 app_build
 :
+env
+!
+(
 "
-unknown
+CARGO_PKG_VERSION
 "
+)
 .
 into
 (
