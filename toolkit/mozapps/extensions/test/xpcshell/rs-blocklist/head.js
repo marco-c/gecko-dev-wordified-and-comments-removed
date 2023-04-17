@@ -41,11 +41,7 @@ file
 "
 last_modified
 :
-Date
-.
-now
-(
-)
+1
 attachment
 :
 {
