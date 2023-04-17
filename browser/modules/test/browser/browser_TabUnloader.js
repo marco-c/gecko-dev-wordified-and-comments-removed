@@ -383,6 +383,7 @@ TabUnloader
 .
 unloadTabAsync
 (
+null
 )
 ;
 return
@@ -475,6 +476,7 @@ TabUnloader
 .
 unloadTabAsync
 (
+null
 )
 ;
 return
@@ -496,6 +498,7 @@ TabUnloader
 .
 getSortedTabs
 (
+null
 )
 ;
 is
@@ -1036,6 +1039,7 @@ TabUnloader
 .
 unloadTabAsync
 (
+null
 )
 ;
 ok
