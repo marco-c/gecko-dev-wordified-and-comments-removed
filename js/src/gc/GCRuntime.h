@@ -2310,7 +2310,7 @@ initSweepActions
 void
 setGrayRootsTracer
 (
-JSTraceDataOp
+JSGrayRootsTracer
 traceOp
 void
 *
@@ -5684,7 +5684,7 @@ MainThreadOrGCTaskData
 <
 Callback
 <
-JSTraceDataOp
+JSGrayRootsTracer
 >
 >
 grayRootTracer
