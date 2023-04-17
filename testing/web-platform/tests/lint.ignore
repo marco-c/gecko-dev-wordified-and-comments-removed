@@ -1,7 +1,7 @@
 #
 File
 containing
-whiteslist
+allowlist
 for
 lint
 errors
