@@ -5,9 +5,6 @@ crate
 logging
 ;
 use
-base64
-;
-use
 hyper
 :
 :
