@@ -395,6 +395,13 @@ i
 isFromDevTools
 :
 false
+platforms
+:
+[
+"
+windows
+"
+]
 }
 )
 ;
