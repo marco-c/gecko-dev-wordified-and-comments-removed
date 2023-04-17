@@ -6192,7 +6192,7 @@ textLetterSpacing
 assert
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 =
 =
@@ -6216,7 +6216,7 @@ textLetterSpacing
 assert
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 =
 =
@@ -6224,7 +6224,7 @@ textWordSpacing
 ;
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 5
 ;
@@ -6240,7 +6240,7 @@ textLetterSpacing
 assert
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 =
 =
@@ -6255,7 +6255,7 @@ textLetterSpacing
 ;
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 -
 1
@@ -6273,7 +6273,7 @@ textLetterSpacing
 assert
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 =
 =
@@ -6332,7 +6332,7 @@ textLetterSpacing
 assert
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 =
 =
@@ -6346,7 +6346,7 @@ value
 {
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 value
 ;
@@ -6359,7 +6359,7 @@ value
 assert
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 =
 =
@@ -6436,7 +6436,7 @@ textLetterSpacing
 assert
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 =
 =
@@ -6475,7 +6475,7 @@ textLetterSpacing
 assert
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 =
 =
@@ -6523,7 +6523,7 @@ width_normal
 ;
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 5
 ;
@@ -6545,7 +6545,7 @@ textLetterSpacing
 assert
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 =
 =
@@ -6603,7 +6603,7 @@ textLetterSpacing
 ;
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 -
 1
@@ -6621,7 +6621,7 @@ textLetterSpacing
 assert
 ctx
 .
-textWordSpacing
+wordSpacing
 =
 =
 =
