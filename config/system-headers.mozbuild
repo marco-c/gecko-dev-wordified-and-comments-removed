@@ -5758,6 +5758,15 @@ X11
 /
 extensions
 /
+Xrandr
+.
+h
+'
+'
+X11
+/
+extensions
+/
 Xrender
 .
 h

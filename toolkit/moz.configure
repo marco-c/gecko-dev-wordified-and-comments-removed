@@ -5203,6 +5203,16 @@ xcb
 xext
 "
 "
+xrandr
+>
+=
+1
+.
+4
+.
+0
+"
+"
 xrender
 "
 ]
