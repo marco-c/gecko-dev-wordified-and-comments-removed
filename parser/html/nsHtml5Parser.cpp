@@ -461,7 +461,7 @@ aEncoding
 int32_t
 aCharsetSource
 bool
-aForceAutoDetection
+aChannelHadCharset
 )
 {
 MOZ_ASSERT
@@ -510,7 +510,7 @@ SetDocumentCharset
 (
 aEncoding
 aCharsetSource
-aForceAutoDetection
+aChannelHadCharset
 )
 ;
 mExecutor

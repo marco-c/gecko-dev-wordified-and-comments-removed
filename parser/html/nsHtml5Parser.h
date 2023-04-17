@@ -218,7 +218,7 @@ aEncoding
 int32_t
 aSource
 bool
-aForceAutoDetection
+aChannelHadCharset
 )
 override
 ;

@@ -249,7 +249,7 @@ aCharset
 int32_t
 aSource
 bool
-aForceAutoDetection
+aChannelHadCharset
 =
 false
 )
