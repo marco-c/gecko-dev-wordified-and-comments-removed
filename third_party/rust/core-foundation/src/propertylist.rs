@@ -696,12 +696,6 @@ type_of
 CFPropertyList
 CFPropertyListRef
 }
-impl_CFTypeDescription
-!
-(
-CFPropertyList
-)
-;
 impl
 CFPropertyList
 {
