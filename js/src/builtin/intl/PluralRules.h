@@ -82,7 +82,7 @@ INTERNALS_SLOT
 static
 constexpr
 uint32_t
-UPLURAL_RULES_SLOT
+PLURAL_RULES_SLOT
 =
 1
 ;
@@ -143,7 +143,7 @@ slot
 =
 getFixedSlot
 (
-UPLURAL_RULES_SLOT
+PLURAL_RULES_SLOT
 )
 ;
 if
@@ -196,7 +196,7 @@ pluralRules
 {
 setFixedSlot
 (
-UPLURAL_RULES_SLOT
+PLURAL_RULES_SLOT
 PrivateValue
 (
 pluralRules
