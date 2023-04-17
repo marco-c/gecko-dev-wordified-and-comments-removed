@@ -118,6 +118,17 @@ FontSize
 Color
 >
 ;
+static_assert
+(
+sizeof
+(
+AttrValueType
+)
+<
+=
+16
+)
+;
 using
 AtomVariantMap
 =
