@@ -639,12 +639,9 @@ format
 ;
 if
 (
-wtu
-.
-isWebGL2
-(
 gl
-)
+instanceof
+WebGL2RenderingContext
 )
 {
 internalFormat
