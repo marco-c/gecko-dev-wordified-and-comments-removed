@@ -183,6 +183,14 @@ shadow
 )
 ;
 }
+media
+(
+-
+moz
+-
+proton
+)
+{
 #
 identity
 -
@@ -571,3 +579,12 @@ padding
 )
 ;
 }
+}
+/
+*
+*
+END
+Proton
+*
+*
+/
