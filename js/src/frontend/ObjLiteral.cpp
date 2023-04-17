@@ -1098,7 +1098,6 @@ elements
 begin
 (
 )
-nullptr
 NewObjectKind
 :
 :

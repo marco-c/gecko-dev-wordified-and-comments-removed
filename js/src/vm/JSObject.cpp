@@ -5948,7 +5948,6 @@ values
 begin
 (
 )
-nullptr
 TenuredObject
 )
 ;
@@ -6814,7 +6813,6 @@ values
 begin
 (
 )
-nullptr
 TenuredObject
 )
 )
