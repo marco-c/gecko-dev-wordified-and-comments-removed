@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_indexeddb_filemanagerbase_h__
+DOM_INDEXEDDB_FILEINFOMANAGER_H_
 #
 define
-mozilla_dom_indexeddb_filemanagerbase_h__
+DOM_INDEXEDDB_FILEINFOMANAGER_H_
 #
 include
 "
@@ -81,7 +81,7 @@ typename
 FileManager
 >
 class
-FileManagerBase
+FileInfoManager
 {
 public
 :
@@ -186,7 +186,7 @@ FileInfoType
 *
 >
 (
-FileManagerGuard
+FileInfoManagerGuard
 {
 }
 SafeRefPtr
@@ -318,7 +318,7 @@ info
 >
 LockedClearDBRefs
 (
-FileManagerGuard
+FileInfoManagerGuard
 {
 }
 )
@@ -341,9 +341,9 @@ mInvalidated
 ;
 }
 class
-FileManagerGuard
+FileInfoManagerGuard
 {
-FileManagerGuard
+FileInfoManagerGuard
 (
 )
 =
@@ -524,7 +524,7 @@ true
 ifdef
 DEBUG
 ~
-FileManagerBase
+FileInfoManager
 (
 )
 {
@@ -541,7 +541,7 @@ IsEmpty
 #
 else
 ~
-FileManagerBase
+FileInfoManager
 (
 )
 =

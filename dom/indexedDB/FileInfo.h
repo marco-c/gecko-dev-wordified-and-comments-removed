@@ -66,7 +66,7 @@ typename
 FileManager
 :
 :
-FileManagerGuard
+FileInfoManagerGuard
 &
 aGuard
 SafeRefPtr
@@ -152,7 +152,7 @@ typename
 FileManager
 :
 :
-FileManagerGuard
+FileInfoManagerGuard
 &
 aGuard
 )
