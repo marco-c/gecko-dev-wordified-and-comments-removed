@@ -524,6 +524,11 @@ threadActor
 this
 .
 _threadActor
+consoleActor
+:
+this
+.
+_consoleActor
 }
 ;
 }
