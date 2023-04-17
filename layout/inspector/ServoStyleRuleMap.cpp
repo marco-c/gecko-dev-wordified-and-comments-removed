@@ -259,12 +259,6 @@ StyleSheet
 aStyleSheet
 )
 {
-mTable
-.
-Clear
-(
-)
-;
 }
 void
 ServoStyleRuleMap
