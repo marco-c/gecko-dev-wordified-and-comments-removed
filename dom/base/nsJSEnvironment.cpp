@@ -1552,12 +1552,6 @@ Shutdown
 (
 )
 ;
-sScheduler
-.
-KillAllTimersAndRunners
-(
-)
-;
 }
 return
 NS_OK
@@ -10189,12 +10183,6 @@ ShutdownJSEnvironment
 (
 )
 {
-sScheduler
-.
-KillAllTimersAndRunners
-(
-)
-;
 sShuttingDown
 =
 true

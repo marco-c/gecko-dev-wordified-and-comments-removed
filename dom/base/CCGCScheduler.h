@@ -946,6 +946,10 @@ mDidShutdown
 =
 true
 ;
+KillAllTimersAndRunners
+(
+)
+;
 }
 inline
 js
