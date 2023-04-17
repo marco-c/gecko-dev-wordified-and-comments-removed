@@ -387,6 +387,8 @@ mUploadStream
 ;
 bool
 mIPCOpen
+=
+false
 ;
 const
 RefPtr
@@ -402,6 +404,9 @@ false
 ;
 uint32_t
 mSuspendCount
+=
+0
+;
 ;
 bool
 mIsPending
@@ -410,12 +415,16 @@ false
 ;
 uint64_t
 mStartPos
+=
+0
 ;
 nsCString
 mEntityID
 ;
 bool
 mSuspendSent
+=
+false
 ;
 }
 ;

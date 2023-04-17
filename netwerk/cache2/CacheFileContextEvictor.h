@@ -232,9 +232,15 @@ EvictEntries
 ;
 bool
 mEvicting
+{
+false
+}
 ;
 bool
 mIndexIsUpToDate
+{
+false
+}
 ;
 static
 bool

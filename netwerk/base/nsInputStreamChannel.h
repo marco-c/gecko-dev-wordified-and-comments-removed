@@ -39,13 +39,9 @@ NS_DECL_NSIINPUTSTREAMCHANNEL
 nsInputStreamChannel
 (
 )
-:
-mIsSrcdocChannel
-(
-false
-)
-{
-}
+=
+default
+;
 protected
 :
 virtual
@@ -104,6 +100,9 @@ mSrcdocData
 ;
 bool
 mIsSrcdocChannel
+{
+false
+}
 ;
 }
 ;
