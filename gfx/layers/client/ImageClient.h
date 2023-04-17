@@ -123,6 +123,9 @@ namespace
 layers
 {
 class
+ClientLayer
+;
+class
 CompositableForwarder
 ;
 class
@@ -185,7 +188,7 @@ aContentFlags
 void
 SetLayer
 (
-ShadowableLayer
+ClientLayer
 *
 aLayer
 )
@@ -195,7 +198,7 @@ mLayer
 aLayer
 ;
 }
-ShadowableLayer
+ClientLayer
 *
 GetLayer
 (
@@ -284,7 +287,7 @@ CompositableType
 aType
 )
 ;
-ShadowableLayer
+ClientLayer
 *
 mLayer
 ;

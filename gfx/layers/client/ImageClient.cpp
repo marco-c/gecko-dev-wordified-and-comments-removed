@@ -15,6 +15,13 @@ h
 #
 include
 "
+ClientLayerManager
+.
+h
+"
+#
+include
+"
 ImageContainer
 .
 h
