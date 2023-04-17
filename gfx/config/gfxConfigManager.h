@@ -67,6 +67,10 @@ mFeatureWrPartial
 (
 nullptr
 )
+mFeatureWrShaderCache
+(
+nullptr
+)
 mFeatureWrOptimizedShaders
 (
 nullptr
@@ -252,6 +256,10 @@ mFeatureWrPartial
 ;
 FeatureState
 *
+mFeatureWrShaderCache
+;
+FeatureState
+*
 mFeatureWrOptimizedShaders
 ;
 FeatureState
@@ -306,6 +314,12 @@ mWrCompositorDCompRequired
 ;
 bool
 mWrPartialPresent
+;
+Maybe
+<
+bool
+>
+mWrShaderCache
 ;
 bool
 mWrOptimizedShaders
