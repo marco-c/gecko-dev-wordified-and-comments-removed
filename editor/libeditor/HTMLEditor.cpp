@@ -510,6 +510,14 @@ HTMLEditUtils
 :
 LeafNodeTypes
 ;
+using
+WalkTreeOption
+=
+HTMLEditUtils
+:
+:
+WalkTreeOption
+;
 const
 char16_t
 kNBSP
@@ -24403,7 +24411,7 @@ nullptr
 return
 aNoBlockCrossing
 ?
-EditorBase
+HTMLEditUtils
 :
 :
 GetPreviousContent
@@ -24422,7 +24430,7 @@ StopAtBlockBoundary
 editingHost
 )
 :
-EditorBase
+HTMLEditUtils
 :
 :
 GetPreviousContent
@@ -24489,7 +24497,7 @@ nullptr
 return
 aNoBlockCrossing
 ?
-EditorBase
+HTMLEditUtils
 :
 :
 GetPreviousContent
@@ -24508,7 +24516,7 @@ StopAtBlockBoundary
 editingHost
 )
 :
-EditorBase
+HTMLEditUtils
 :
 :
 GetPreviousContent
@@ -24563,7 +24571,7 @@ nullptr
 return
 aNoBlockCrossing
 ?
-EditorBase
+HTMLEditUtils
 :
 :
 GetPreviousContent
@@ -24582,7 +24590,7 @@ StopAtBlockBoundary
 editingHost
 )
 :
-EditorBase
+HTMLEditUtils
 :
 :
 GetPreviousContent
@@ -24649,7 +24657,7 @@ nullptr
 return
 aNoBlockCrossing
 ?
-EditorBase
+HTMLEditUtils
 :
 :
 GetPreviousContent
@@ -24668,7 +24676,7 @@ StopAtBlockBoundary
 editingHost
 )
 :
-EditorBase
+HTMLEditUtils
 :
 :
 GetPreviousContent
@@ -24724,7 +24732,7 @@ nullptr
 return
 aNoBlockCrossing
 ?
-EditorBase
+HTMLEditUtils
 :
 :
 GetNextContent
@@ -24743,7 +24751,7 @@ StopAtBlockBoundary
 editingHost
 )
 :
-EditorBase
+HTMLEditUtils
 :
 :
 GetNextContent
@@ -24810,7 +24818,7 @@ nullptr
 return
 aNoBlockCrossing
 ?
-EditorBase
+HTMLEditUtils
 :
 :
 GetNextContent
@@ -24829,7 +24837,7 @@ StopAtBlockBoundary
 editingHost
 )
 :
-EditorBase
+HTMLEditUtils
 :
 :
 GetNextContent
@@ -24884,7 +24892,7 @@ nullptr
 return
 aNoBlockCrossing
 ?
-EditorBase
+HTMLEditUtils
 :
 :
 GetNextContent
@@ -24903,7 +24911,7 @@ StopAtBlockBoundary
 editingHost
 )
 :
-EditorBase
+HTMLEditUtils
 :
 :
 GetNextContent
@@ -24970,7 +24978,7 @@ nullptr
 return
 aNoBlockCrossing
 ?
-EditorBase
+HTMLEditUtils
 :
 :
 GetNextContent
@@ -24989,7 +24997,7 @@ StopAtBlockBoundary
 editingHost
 )
 :
-EditorBase
+HTMLEditUtils
 :
 :
 GetNextContent
