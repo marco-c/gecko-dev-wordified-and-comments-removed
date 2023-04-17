@@ -735,6 +735,13 @@ Mutex
 mMutex
 ;
 const
+RefPtr
+<
+AbstractThread
+>
+mCallThread
+;
+const
 nsCOMPtr
 <
 nsISerialEventTarget
