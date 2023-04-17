@@ -113,6 +113,14 @@ dom
 base
 "
 ]
+USE_LIBS
++
+=
+[
+"
+intlcomponents
+"
+]
 if
 CONFIG
 [
