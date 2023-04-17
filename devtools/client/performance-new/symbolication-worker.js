@@ -622,7 +622,7 @@ free
 }
 }
 function
-getSymbolTable
+getSymbolTableInWorker
 (
 debugName
 breakpadId
@@ -812,7 +812,7 @@ module
 const
 result
 =
-getSymbolTable
+getSymbolTableInWorker
 (
 debugName
 breakpadId
