@@ -6426,6 +6426,10 @@ uint16_t
 aBFCacheCombo
 bool
 aIncludeSubdocuments
+bool
+aAllowUnloadListeners
+=
+true
 )
 ;
 virtual
