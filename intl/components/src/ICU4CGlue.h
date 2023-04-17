@@ -431,6 +431,8 @@ typename
 ICUStringFunction
 size_t
 InlineSize
+typename
+CharType
 >
 static
 ICUResult
@@ -438,7 +440,7 @@ FillVectorWithICUCall
 (
 Vector
 <
-char16_t
+CharType
 InlineSize
 >
 &
