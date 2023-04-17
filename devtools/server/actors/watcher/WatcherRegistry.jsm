@@ -698,6 +698,14 @@ DOMWindowCreated
 :
 {
 }
+pageshow
+:
+{
+}
+pagehide
+:
+{
+}
 }
 }
 allFrames
