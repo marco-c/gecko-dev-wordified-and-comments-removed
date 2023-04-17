@@ -144,7 +144,7 @@ ICUError
 TimeZone
 :
 :
-GetDefaultTimeZoneOffsetMs
+GetRawOffsetMs
 (
 )
 {

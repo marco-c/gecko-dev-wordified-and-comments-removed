@@ -177,7 +177,7 @@ Result
 int32_t
 ICUError
 >
-GetDefaultTimeZoneOffsetMs
+GetRawOffsetMs
 (
 )
 ;
