@@ -72,9 +72,11 @@ targetActor
 ;
 this
 .
-threadActor
+sourcesManager
 =
-threadActor
+targetActor
+.
+sourcesManager
 ;
 this
 .
@@ -152,8 +154,6 @@ destroy
 )
 {
 this
-.
-threadActor
 .
 sourcesManager
 .

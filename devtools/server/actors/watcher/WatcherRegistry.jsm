@@ -766,6 +766,10 @@ DOMWindowCreated
 :
 {
 }
+DOMDocElementInserted
+:
+{
+}
 pageshow
 :
 {
