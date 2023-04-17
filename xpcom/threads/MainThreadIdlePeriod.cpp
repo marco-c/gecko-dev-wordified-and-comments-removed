@@ -80,13 +80,6 @@ kMaxTimerThreadBound
 =
 5
 ;
-static
-const
-uint32_t
-kMaxTimerThreadBoundClamp
-=
-15
-;
 namespace
 mozilla
 {

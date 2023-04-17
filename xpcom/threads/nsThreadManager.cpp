@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsExceptionHandler
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AbstractThread
@@ -168,6 +175,13 @@ h
 include
 "
 TaskController
+.
+h
+"
+#
+include
+"
+ThreadEventTarget
 .
 h
 "

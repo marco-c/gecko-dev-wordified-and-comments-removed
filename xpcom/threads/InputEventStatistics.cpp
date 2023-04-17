@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+ClearOnShutdown
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
