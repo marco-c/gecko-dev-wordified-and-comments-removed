@@ -43,17 +43,6 @@ python2
 7
 "
 "
-gcc_dir
-"
-:
-"
-{
-MOZ_FETCHES_DIR
-}
-/
-gcc
-"
-"
 cc
 "
 :
