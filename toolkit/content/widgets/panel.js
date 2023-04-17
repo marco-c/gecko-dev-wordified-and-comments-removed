@@ -1265,7 +1265,6 @@ true
 "
 )
 ;
-}
 if
 (
 this
@@ -1313,6 +1312,7 @@ true
 "
 )
 ;
+}
 }
 let
 alertEvent
@@ -1434,7 +1434,6 @@ cancel
 )
 ;
 }
-}
 if
 (
 this
@@ -1479,6 +1478,7 @@ open
 "
 )
 ;
+}
 }
 try
 {
