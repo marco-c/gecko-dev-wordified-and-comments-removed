@@ -3090,13 +3090,11 @@ false
 expectedURL
 )
 ;
-EventUtils
+cxmenu
 .
-synthesizeMouseAtCenter
+activateItem
 (
 menuitem
-{
-}
 )
 ;
 await

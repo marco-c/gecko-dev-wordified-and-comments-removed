@@ -3440,14 +3440,11 @@ go
 "
 )
 ;
-EventUtils
+cxmenu
 .
-synthesizeMouseAtCenter
+activateItem
 (
 menuitem
-{
-}
-win
 )
 ;
 await
