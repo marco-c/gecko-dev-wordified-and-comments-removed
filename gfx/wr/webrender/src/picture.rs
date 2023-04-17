@@ -16193,6 +16193,14 @@ used_this_frame
 {
 frame_state
 .
+composite_state
+.
+dirty_rects_are_valid
+=
+false
+;
+frame_state
+.
 resource_cache
 .
 destroy_compositor_surface
