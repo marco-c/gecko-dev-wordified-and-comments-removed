@@ -21,6 +21,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+ClearOnShutdown
+.
+h
+"
+#
+include
 <
 proofofpossessioncookieinfo
 .

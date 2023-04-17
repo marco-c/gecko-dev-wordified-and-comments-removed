@@ -348,6 +348,17 @@ mozilla
 /
 net
 /
+ChannelEventQueue
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 RedirectChannelRegistrar
 .
 h
