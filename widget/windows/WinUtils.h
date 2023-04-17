@@ -926,12 +926,6 @@ sHasPackageIdentity
 ;
 }
 static
-nsString
-GetPackageFamilyName
-(
-)
-;
-static
 void
 Log
 (
