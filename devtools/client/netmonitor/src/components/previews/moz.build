@@ -56,6 +56,11 @@ MPL
 DevToolsModules
 (
 "
+FontPreview
+.
+js
+"
+"
 HtmlPreview
 .
 js
