@@ -385,17 +385,6 @@ jsval
 options
 )
 ;
-jsval
-getLocaleInfo
-(
-[
-optional
-]
-in
-jsval
-locales
-)
-;
 /
 *
 *
