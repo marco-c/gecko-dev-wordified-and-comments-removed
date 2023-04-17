@@ -2255,7 +2255,7 @@ Some
 LayoutRect
 :
 :
-new
+from_origin_and_size
 (
 LayoutPoint
 :

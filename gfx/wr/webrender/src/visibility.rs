@@ -1528,9 +1528,9 @@ else
 if
 prim_local_rect
 .
-size
-.
 width
+(
+)
 <
 =
 0
@@ -1540,9 +1540,9 @@ width
 |
 prim_local_rect
 .
-size
-.
 height
+(
+)
 <
 =
 0
@@ -1922,8 +1922,6 @@ vis
 .
 combined_local_clip_rect
 .
-size
-.
 is_empty
 (
 )
@@ -1986,10 +1984,6 @@ map
 (
 &
 visible_rect
-.
-to_box2d
-(
-)
 )
 {
 surface_rect
@@ -2682,10 +2676,6 @@ pic
 precise_local_rect
 =
 surface_rect
-.
-to_rect
-(
-)
 *
 Scale
 :
@@ -3170,10 +3160,6 @@ rect
 =
 >
 rect
-.
-to_rect
-(
-)
 None
 =
 >

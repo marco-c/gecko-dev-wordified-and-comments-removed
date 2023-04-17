@@ -156,7 +156,7 @@ push_simple_stacking_context
 (
 bounds
 .
-origin
+min
 space_and_clip
 .
 spatial_id

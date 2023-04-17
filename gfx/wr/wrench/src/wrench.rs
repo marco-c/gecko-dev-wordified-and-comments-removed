@@ -1953,7 +1953,7 @@ glyph_rect
 LayoutRect
 :
 :
-new
+from_origin_and_size
 (
 LayoutPoint
 :

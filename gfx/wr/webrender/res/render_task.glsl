@@ -71,7 +71,7 @@ sRenderTasks
 struct
 RenderTaskData
 {
-RectWithSize
+RectWithEndpoint
 task_rect
 ;
 vec4
@@ -79,6 +79,14 @@ user_data
 ;
 }
 ;
+/
+/
+See
+RenderTaskData
+in
+render_task
+.
+rs
 RenderTaskData
 fetch_render_task_data
 (
@@ -125,10 +133,10 @@ ivec2
 )
 )
 ;
-RectWithSize
+RectWithEndpoint
 task_rect
 =
-RectWithSize
+RectWithEndpoint
 (
 texel0
 .
@@ -151,7 +159,7 @@ return
 data
 ;
 }
-RectWithSize
+RectWithEndpoint
 fetch_render_task_rect
 (
 int
@@ -197,10 +205,10 @@ ivec2
 )
 )
 ;
-RectWithSize
+RectWithEndpoint
 task_rect
 =
-RectWithSize
+RectWithEndpoint
 (
 texel0
 .
@@ -263,7 +271,7 @@ things
 struct
 PictureTask
 {
-RectWithSize
+RectWithEndpoint
 task_rect
 ;
 float
@@ -320,7 +328,7 @@ CLIP_TASK_EMPTY
 struct
 ClipArea
 {
-RectWithSize
+RectWithEndpoint
 task_rect
 ;
 float
@@ -353,7 +361,7 @@ area
 .
 task_rect
 =
-RectWithSize
+RectWithEndpoint
 (
 vec2
 (

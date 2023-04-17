@@ -79,14 +79,6 @@ WR_VERTEX_SHADER
 define
 EXTEND_MODE_REPEAT
 1
-/
-/
-Rectangle
-in
-origin
-+
-size
-format
 PER_INSTANCE
 in
 vec4
