@@ -146,7 +146,7 @@ STUB_DEFAULT_CHUNK_SIZE
 }
 ;
 struct
-FallbackICStubSpace
+JitScriptICStubSpace
 :
 public
 ICStubSpace
@@ -160,7 +160,7 @@ STUB_DEFAULT_CHUNK_SIZE
 ;
 public
 :
-FallbackICStubSpace
+JitScriptICStubSpace
 (
 )
 :

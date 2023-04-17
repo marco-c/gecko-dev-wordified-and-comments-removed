@@ -3636,12 +3636,12 @@ get
 )
 ;
 }
-FallbackICStubSpace
+JitScriptICStubSpace
 *
 ICScript
 :
 :
-fallbackStubSpace
+jitScriptStubSpace
 (
 )
 {
@@ -3656,7 +3656,7 @@ return
 inliningRoot_
 -
 >
-fallbackStubSpace
+jitScriptStubSpace
 (
 )
 ;
@@ -3667,7 +3667,7 @@ outerJitScript
 )
 -
 >
-fallbackStubSpace
+jitScriptStubSpace
 (
 )
 ;

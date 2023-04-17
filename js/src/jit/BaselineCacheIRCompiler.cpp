@@ -10088,7 +10088,7 @@ return
 icScript
 -
 >
-fallbackStubSpace
+jitScriptStubSpace
 (
 )
 ;
