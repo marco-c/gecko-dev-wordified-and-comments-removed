@@ -558,6 +558,8 @@ const
 ImageDescriptor
 &
 aDescriptor
+uint16_t
+aTileSize
 wr
 :
 :

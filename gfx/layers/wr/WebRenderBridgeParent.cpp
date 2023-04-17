@@ -1971,6 +1971,10 @@ nullptr
 )
 #
 endif
+mBlobTileSize
+(
+256
+)
 mDestroyed
 (
 false
@@ -3311,6 +3315,7 @@ op
 descriptor
 (
 )
+mBlobTileSize
 bytes
 wr
 :
@@ -9400,7 +9405,7 @@ void
 WebRenderBridgeParent
 :
 :
-UpdateBatchingParameters
+UpdateParameters
 (
 )
 {
@@ -9420,6 +9425,15 @@ mApi
 SetBatchingLookback
 (
 count
+)
+;
+mBlobTileSize
+=
+gfxVars
+:
+:
+WebRenderBlobTileSize
+(
 )
 ;
 }

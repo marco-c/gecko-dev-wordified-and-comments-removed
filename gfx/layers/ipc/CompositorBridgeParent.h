@@ -2868,7 +2868,7 @@ UpdateWebRenderMultithreading
 ;
 static
 void
-UpdateWebRenderBatchingParameters
+UpdateWebRenderParameters
 (
 )
 ;

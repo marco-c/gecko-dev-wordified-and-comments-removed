@@ -4203,6 +4203,8 @@ const
 ImageDescriptor
 &
 aDescriptor
+uint16_t
+aTileSize
 wr
 :
 :
@@ -4227,6 +4229,7 @@ mTxn
 key
 &
 aDescriptor
+aTileSize
 &
 aBytes
 .
