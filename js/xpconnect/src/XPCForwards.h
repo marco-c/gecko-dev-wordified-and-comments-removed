@@ -65,9 +65,6 @@ class
 NativeSetMap
 ;
 class
-XPCWrappedNativeProtoMap
-;
-class
 JSObject2JSObjectMap
 ;
 class
