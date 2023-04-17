@@ -588,6 +588,9 @@ cdb3
 c8b39b3a1d27
 /
 "
+manifestVersion
+:
+2
 cloneScope
 :
 global

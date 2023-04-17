@@ -52,6 +52,11 @@ a
 manifest
 .
 "
+manifest_version
+"
+:
+2
+"
 applications
 "
 :
@@ -120,6 +125,9 @@ let
 expectedManifest
 =
 {
+manifest_version
+:
+2
 applications
 :
 {

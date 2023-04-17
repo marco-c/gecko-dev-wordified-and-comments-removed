@@ -480,6 +480,9 @@ let
 localWrapper
 =
 {
+manifestVersion
+:
+2
 cloneScope
 :
 global
