@@ -801,6 +801,15 @@ aOther
 )
 const
 ;
+void
+CopyTo
+(
+AccAttributes
+*
+aDest
+)
+const
+;
 class
 Entry
 {
