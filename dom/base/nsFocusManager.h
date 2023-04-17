@@ -880,6 +880,8 @@ aWindow
 )
 const
 ;
+public
+:
 bool
 IsSameOrAncestor
 (
@@ -904,6 +906,8 @@ aContext
 )
 const
 ;
+protected
+:
 mozilla
 :
 :
