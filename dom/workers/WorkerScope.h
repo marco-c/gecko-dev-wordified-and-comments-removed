@@ -244,9 +244,6 @@ Optional
 class
 Performance
 ;
-struct
-PostMessageOptions
-;
 class
 Promise
 ;
@@ -269,6 +266,9 @@ ServiceWorkerRegistration
 ;
 class
 ServiceWorkerRegistrationDescriptor
+;
+struct
+StructuredSerializeOptions
 ;
 class
 WorkerLocation
@@ -1129,7 +1129,7 @@ Value
 >
 aValue
 const
-PostMessageOptions
+StructuredSerializeOptions
 &
 aOptions
 JS
@@ -1430,7 +1430,7 @@ Value
 >
 aMessage
 const
-PostMessageOptions
+StructuredSerializeOptions
 &
 aOptions
 ErrorResult

@@ -3742,7 +3742,7 @@ Value
 >
 aValue
 const
-PostMessageOptions
+StructuredSerializeOptions
 &
 aOptions
 JS
@@ -4478,7 +4478,7 @@ Value
 >
 aMessage
 const
-PostMessageOptions
+StructuredSerializeOptions
 &
 aOptions
 ErrorResult
