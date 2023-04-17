@@ -299,7 +299,6 @@ addEventListener
 load
 '
 func
-false
 )
 ;
 }
@@ -309,25 +308,28 @@ SimpleTest
   
 waitForExplicitFinish
 :
-function
 (
 )
+=
+>
 {
 }
   
 finish
 :
-function
 (
 )
+=
+>
 {
 }
   
 requestFlakyTimeout
 :
-function
 (
 )
+=
+>
 {
 }
 }
@@ -338,11 +340,12 @@ SpecialPowers
   
 pushPrefEnv
 :
-function
 (
 env
 func
 )
+=
+>
 {
     
 console
