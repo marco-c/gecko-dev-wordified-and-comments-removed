@@ -149,16 +149,6 @@ chrome
 "
 )
 ;
-var
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
 const
 {
 debounce
@@ -3980,7 +3970,7 @@ initial_panel
 let
 splitConsolePromise
 =
-promise
+Promise
 .
 resolve
 (
@@ -4055,7 +4045,7 @@ false
 ;
 }
 await
-promise
+Promise
 .
 all
 (
@@ -10340,7 +10330,7 @@ panel
 ;
 }
 }
-promise
+Promise
 .
 resolve
 (
@@ -10880,7 +10870,7 @@ id
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -10904,7 +10894,7 @@ then
 )
 =
 >
-promise
+Promise
 .
 resolve
 (
@@ -11899,7 +11889,7 @@ focus
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -11944,7 +11934,7 @@ openSplitConsole
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -12860,7 +12850,7 @@ frames
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
