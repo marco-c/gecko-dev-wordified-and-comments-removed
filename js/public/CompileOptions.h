@@ -200,11 +200,6 @@ classStaticBlocks
 false
 ;
 bool
-useStencilXDR
-=
-false
-;
-bool
 useOffThreadParseGlobal
 =
 true
