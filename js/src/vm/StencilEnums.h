@@ -250,12 +250,6 @@ HasDebugScript
 <
 <
 11
-NeedsArgsAnalysis
-=
-1
-<
-<
-12
 NeedsArgsObj
 =
 1
