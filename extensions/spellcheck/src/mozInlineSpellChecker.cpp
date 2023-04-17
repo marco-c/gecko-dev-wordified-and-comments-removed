@@ -3492,9 +3492,9 @@ newWord
 }
 RefPtr
 <
-TextEditor
+EditorBase
 >
-textEditor
+editorBase
 (
 mTextEditor
 )
@@ -3505,7 +3505,7 @@ nsresult
 >
 rv
 =
-textEditor
+editorBase
 -
 >
 ReplaceTextAsAction
