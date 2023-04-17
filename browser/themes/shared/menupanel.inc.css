@@ -1478,9 +1478,11 @@ browser
 /
 skin
 /
-zoom
+add
 -
-in
+circle
+-
+fill
 .
 svg
 )
@@ -1509,9 +1511,11 @@ browser
 /
 skin
 /
-zoom
+subtract
 -
-out
+circle
+-
+fill
 .
 svg
 )
