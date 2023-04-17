@@ -2277,16 +2277,6 @@ true
 ;
 virtual
 bool
-UseDMABufWebGL
-(
-)
-{
-return
-false
-;
-}
-virtual
-bool
 IsWaylandDisplay
 (
 )
