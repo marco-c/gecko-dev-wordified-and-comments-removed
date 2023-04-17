@@ -4269,6 +4269,7 @@ if
 browser
 .
 contentDocument
+?
 .
 readyState
 !
