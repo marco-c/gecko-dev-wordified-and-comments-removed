@@ -1,10 +1,5 @@
-var
-listFormatInternalProperties
-=
-{
-localeData
-:
 function
+listFormatInternalProperties_localeData
 (
 )
 {
@@ -13,6 +8,13 @@ return
 }
 ;
 }
+var
+listFormatInternalProperties
+=
+{
+localeData
+:
+listFormatInternalProperties_localeData
 relevantExtensionKeys
 :
 [
