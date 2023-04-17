@@ -83,14 +83,6 @@ aTouch
 touchId
 &
 &
-touchId
-=
-=
-aTouch
-.
-touchId
-&
-&
 surfaceId
 =
 =
