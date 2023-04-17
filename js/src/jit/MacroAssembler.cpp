@@ -3807,11 +3807,11 @@ Register
 result
 Register
 temp
+bool
+attemptNursery
 Label
 *
 fail
-bool
-attemptNursery
 )
 {
 allocateString
@@ -3853,11 +3853,11 @@ Register
 result
 Register
 temp
+bool
+attemptNursery
 Label
 *
 fail
-bool
-attemptNursery
 )
 {
 allocateString
