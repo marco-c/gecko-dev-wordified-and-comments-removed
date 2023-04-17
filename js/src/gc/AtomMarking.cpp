@@ -753,9 +753,10 @@ id
 {
 if
 (
-JSID_IS_ATOM
-(
 id
+.
+isAtom
+(
 )
 )
 {
@@ -1328,9 +1329,10 @@ id
 {
 if
 (
-JSID_IS_ATOM
-(
 id
+.
+isAtom
+(
 )
 )
 {
