@@ -134,6 +134,7 @@ NetworkResponseListener
 (
 owner
 httpActivity
+decodedCertificateCache
 )
 {
 this
@@ -189,6 +190,12 @@ channel
 notificationCallbacks
 =
 this
+;
+this
+.
+_decodedCertificateCache
+=
+decodedCertificateCache
 ;
 }
 exports
@@ -346,6 +353,9 @@ _foundOpenResponse
 :
 false
 _wrappedNotificationCallbacks
+:
+null
+_decodedCertificateCache
 :
 null
 owner
@@ -956,6 +966,9 @@ secinfo
 this
 .
 httpActivity
+this
+.
+_decodedCertificateCache
 )
 ;
 let
