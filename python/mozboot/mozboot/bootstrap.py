@@ -1365,17 +1365,27 @@ elif
 dist_id
 in
 (
+                
 "
 opensuse
 "
+                
+"
+opensuse
+-
+leap
+"
+                
 "
 opensuse
 -
 tumbleweed
 "
+                
 "
 suse
 "
+            
 )
 :
                 
