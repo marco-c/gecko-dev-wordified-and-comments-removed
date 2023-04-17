@@ -816,6 +816,7 @@ IntelHDGraphicsToIvyBridge
 IntelHDGraphicsToSandyBridge
 IntelHaswell
 IntelSandyBridge
+IntelGen7Baytrail
 IntelHD520
 IntelMobileHDGraphics
 NvidiaBlockD3D9Layers
