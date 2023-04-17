@@ -38601,9 +38601,6 @@ field
 highlight
 "
 "
-highlighttext
-"
-"
 graytext
 "
 "
