@@ -268,8 +268,11 @@ default
 ;
 virtual
 size_t
-sweep
+traceWeak
 (
+JSTracer
+*
+trc
 js
 :
 :
@@ -466,8 +469,11 @@ cache
 ;
 }
 size_t
-sweep
+traceWeak
 (
+JSTracer
+*
+trc
 js
 :
 :

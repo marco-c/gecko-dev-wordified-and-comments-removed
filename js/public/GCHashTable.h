@@ -3129,8 +3129,11 @@ empty
 ;
 }
 size_t
-sweep
+traceWeak
 (
+JSTracer
+*
+trc
 js
 :
 :
@@ -4222,8 +4225,11 @@ false
 {
 }
 size_t
-sweep
+traceWeak
 (
+JSTracer
+*
+trc
 js
 :
 :

@@ -2450,8 +2450,9 @@ weakCaches
 cache
 -
 >
-sweep
+traceWeak
 (
+trc
 nullptr
 )
 ;
@@ -3312,8 +3313,9 @@ rttValueObjects
 (
 )
 .
-sweep
+traceWeak
 (
+trc
 nullptr
 )
 ;
@@ -4057,8 +4059,10 @@ weakCaches
 cache
 -
 >
-sweep
+traceWeak
 (
+&
+trc
 nullptr
 )
 ;
