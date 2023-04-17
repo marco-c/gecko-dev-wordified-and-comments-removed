@@ -114,6 +114,14 @@ attribute
 double
 scale
 ;
+readonly
+attribute
+FrozenArray
+<
+DOMRect
+>
+segments
+;
 attribute
 EventHandler
 onresize
