@@ -334,8 +334,6 @@ findbar
 {
 -
 -
-lwt
--
 toolbar
 -
 field
@@ -374,13 +372,15 @@ initial
 ;
 -
 -
-lwt
--
 toolbar
 -
 field
 -
 focus
+-
+background
+-
+color
 :
 initial
 ;
@@ -507,8 +507,6 @@ var
 (
 -
 -
-lwt
--
 toolbar
 -
 field
@@ -516,7 +514,6 @@ field
 background
 -
 color
-Field
 )
 )
 ;
