@@ -2943,14 +2943,6 @@ PaintFlags
 aFlags
 )
 ;
-bool
-Composite
-(
-nsView
-*
-aViewToPaint
-)
-;
 MOZ_CAN_RUN_SCRIPT
 void
 WillPaint

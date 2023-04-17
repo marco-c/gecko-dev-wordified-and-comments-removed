@@ -1471,18 +1471,6 @@ FlushRendering
 }
 else
 {
-if
-(
-!
-presShell
--
->
-Composite
-(
-aView
-)
-)
-{
 presShell
 -
 >
@@ -1495,7 +1483,6 @@ PaintFlags
 PaintComposite
 )
 ;
-}
 }
 #
 ifdef
