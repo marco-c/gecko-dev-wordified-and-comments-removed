@@ -61,6 +61,11 @@ nsIContentPrefService2
 idl
 "
 "
+nsIContentProcess
+.
+idl
+"
+"
 nsIDOMChromeWindow
 .
 idl
