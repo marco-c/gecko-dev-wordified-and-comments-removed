@@ -530,7 +530,10 @@ move
 aNodeInfo
 )
 aFromParser
-NS_FORM_SELECT
+FormControlType
+:
+:
+Select
 )
 mOptions
 (

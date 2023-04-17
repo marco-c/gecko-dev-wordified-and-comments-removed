@@ -3272,8 +3272,7 @@ NodeInfo
 &
 &
 aNodeInfo
-uint8_t
-aType
+FormControlType
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -3790,8 +3789,7 @@ dom
 :
 FromParser
 aFromParser
-uint8_t
-aType
+FormControlType
 )
 ;
 mozilla

@@ -1574,10 +1574,7 @@ cast
 "
 )
 ;
-dom
-:
-:
-HTMLInputElement
+auto
 *
 input
 =
@@ -1605,7 +1602,10 @@ ControlType
 )
 =
 =
-NS_FORM_INPUT_RANGE
+FormControlType
+:
+:
+InputRange
 )
 ;
 Decimal
@@ -1852,7 +1852,10 @@ ControlType
 )
 =
 =
-NS_FORM_INPUT_RANGE
+FormControlType
+:
+:
+InputRange
 )
 ;
 Decimal
@@ -3146,7 +3149,10 @@ ControlType
 )
 =
 =
-NS_FORM_INPUT_RANGE
+FormControlType
+:
+:
+InputRange
 ;
 if
 (

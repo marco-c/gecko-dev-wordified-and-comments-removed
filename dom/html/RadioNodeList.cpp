@@ -95,7 +95,7 @@ nsIContent
 node
 )
 {
-HTMLInputElement
+auto
 *
 el
 =
@@ -120,7 +120,10 @@ ControlType
 )
 =
 =
-NS_FORM_INPUT_RADIO
+FormControlType
+:
+:
+InputRadio
 )
 {
 return

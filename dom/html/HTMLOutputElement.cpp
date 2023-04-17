@@ -113,7 +113,10 @@ move
 (
 aNodeInfo
 )
-NS_FORM_OUTPUT
+FormControlType
+:
+:
+Output
 )
 mValueModeFlag
 (

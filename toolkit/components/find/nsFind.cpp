@@ -828,7 +828,10 @@ ControlType
 )
 =
 =
-NS_FORM_INPUT_PASSWORD
+FormControlType
+:
+:
+InputPassword
 )
 {
 return

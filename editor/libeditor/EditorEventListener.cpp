@@ -5683,7 +5683,10 @@ ControlType
 )
 =
 =
-NS_FORM_INPUT_FILE
+FormControlType
+:
+:
+InputFile
 ;
 }
 bool

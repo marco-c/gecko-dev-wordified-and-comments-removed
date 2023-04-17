@@ -2561,7 +2561,10 @@ ControlType
 )
 !
 =
-NS_FORM_OBJECT
+FormControlType
+:
+:
+Object
 )
 {
 *

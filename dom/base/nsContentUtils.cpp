@@ -15559,11 +15559,14 @@ htmlFormControls
 }
 KeyAppendInt
 (
+int32_t
+(
 control
 -
 >
 ControlType
 (
+)
 )
 aKey
 )

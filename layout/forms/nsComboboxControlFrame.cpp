@@ -6583,7 +6583,10 @@ ControlType
 )
 =
 =
-NS_FORM_BUTTON_BUTTON
+FormControlType
+:
+:
+ButtonButton
 )
 {
 mButtonFrame

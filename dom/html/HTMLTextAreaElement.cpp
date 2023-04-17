@@ -335,7 +335,10 @@ move
 aNodeInfo
 )
 aFromParser
-NS_FORM_TEXTAREA
+FormControlType
+:
+:
+Textarea
 )
 mValueChanged
 (

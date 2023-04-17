@@ -379,7 +379,10 @@ ControlType
 )
 !
 =
-NS_FORM_INPUT_NUMBER
+FormControlType
+:
+:
+InputNumber
 )
 {
 return

@@ -82,7 +82,7 @@ dom
 :
 FromParser
 aFromParser
-uint8_t
+FormControlType
 aType
 )
 :
