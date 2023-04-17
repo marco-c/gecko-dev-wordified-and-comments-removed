@@ -1237,7 +1237,12 @@ get
 ;
 if
 (
-mURIPrefHasUserValue
+!
+mURIPref
+.
+IsEmpty
+(
+)
 )
 {
 LOG

@@ -138,11 +138,6 @@ ReadEtcHostsFile
 nsCString
 mPrivateURI
 ;
-bool
-mURIPrefHasUserValue
-=
-false
-;
 nsCString
 mURIPref
 ;
