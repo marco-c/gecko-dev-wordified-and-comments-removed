@@ -1172,6 +1172,16 @@ IndexInParent
 )
 ;
 }
+void
+RemovePendingChildDoc
+(
+DocAccessibleParent
+*
+aChildDoc
+uint64_t
+aParentID
+)
+;
 private
 :
 ~
