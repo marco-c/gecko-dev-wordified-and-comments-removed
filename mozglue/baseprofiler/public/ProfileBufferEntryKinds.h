@@ -250,6 +250,16 @@ double
 \
 MACRO
 (
+TimeBeforeSameSample
+double
+sizeof
+(
+double
+)
+)
+\
+MACRO
+(
 CounterId
 void
 *
@@ -346,6 +356,7 @@ LEGACY_LIMIT
 RunningTimes
 UnresponsiveDurationMs
 CompactStack
+SameSample
 MODERN_LIMIT
 }
 ;
