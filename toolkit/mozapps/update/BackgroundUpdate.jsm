@@ -1115,6 +1115,7 @@ args
 MOZ_LOG
 "
 "
+sync
 prependheader
 timestamp
 append
