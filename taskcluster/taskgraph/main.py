@@ -2164,6 +2164,13 @@ makedirs
 logdir
 )
     
+else
+:
+        
+setup_logging
+(
+)
+    
 generate_taskgraph
 (
 options
@@ -4476,7 +4483,7 @@ defaults
 return
 parser
 def
-main
+setup_logging
 (
 )
 :
@@ -4513,6 +4520,15 @@ logging
 .
 INFO
     
+)
+def
+main
+(
+)
+:
+    
+setup_logging
+(
 )
     
 parser
