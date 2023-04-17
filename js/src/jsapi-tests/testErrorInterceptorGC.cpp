@@ -8,6 +8,15 @@ h
 #
 include
 "
+js
+/
+ErrorInterceptor
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
