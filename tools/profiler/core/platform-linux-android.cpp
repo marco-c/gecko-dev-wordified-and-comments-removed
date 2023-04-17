@@ -1616,9 +1616,12 @@ SuspendAndSampleAndResumeThread
 PSLockRef
 aLock
 const
-RegisteredThread
+ThreadRegistration
+:
+:
+UnlockedReaderAndAtomicRWOnThread
 &
-aRegisteredThread
+aThreadData
 const
 TimeStamp
 &
@@ -1655,7 +1658,7 @@ profiler_current_thread_id
 ProfilerThreadId
 sampleeTid
 =
-aRegisteredThread
+aThreadData
 .
 Info
 (
