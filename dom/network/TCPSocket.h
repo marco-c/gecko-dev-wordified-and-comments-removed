@@ -628,6 +628,11 @@ EnsureCopying
 )
 ;
 void
+CalculateBufferedAmount
+(
+)
+;
+void
 ActivateTLS
 (
 )
