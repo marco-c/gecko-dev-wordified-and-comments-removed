@@ -118,6 +118,11 @@ GC
 cpp
 "
 "
+GCAPI
+.
+cpp
+"
+"
 GCParallelTask
 .
 cpp
