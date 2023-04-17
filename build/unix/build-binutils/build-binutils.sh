@@ -503,6 +503,11 @@ aarch64
 linux
 -
 gnu
+i686
+-
+w64
+-
+mingw32
 "
 if
 [
