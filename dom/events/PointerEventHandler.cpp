@@ -2663,16 +2663,6 @@ mFromTouchEvent
 =
 true
 ;
-aPointerEvent
--
->
-mPressure
-=
-aTouch
--
->
-mForce
-;
 }
 void
 PointerEventHandler
