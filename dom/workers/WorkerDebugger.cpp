@@ -2143,6 +2143,14 @@ Top
 if
 (
 top
+&
+&
+top
+-
+>
+GetCurrentWindowContext
+(
+)
 )
 {
 windowID
