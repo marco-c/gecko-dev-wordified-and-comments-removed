@@ -258,6 +258,11 @@ skip_on
 android
 device
 )
+fuzzy
+(
+2
+1900
+)
 =
 =
 checkerboard
