@@ -16918,6 +16918,10 @@ CompatibilityModeChanged
 (
 )
 ;
+mViewportType
+=
+Unknown
+;
 }
 static
 void
