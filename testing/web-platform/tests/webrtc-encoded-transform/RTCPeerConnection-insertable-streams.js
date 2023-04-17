@@ -173,6 +173,16 @@ metadata2
 synchronizationSource
 &
 &
+metadata1
+.
+payloadType
+=
+=
+metadata2
+.
+payloadType
+&
+&
 areArraysEqual
 (
 metadata1
