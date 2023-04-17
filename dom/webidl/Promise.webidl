@@ -152,7 +152,7 @@ a
 PromiseNativeHandler
 .
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 (

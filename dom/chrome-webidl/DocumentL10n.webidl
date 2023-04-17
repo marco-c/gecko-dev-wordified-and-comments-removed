@@ -187,7 +187,7 @@ it
 *
 /
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window

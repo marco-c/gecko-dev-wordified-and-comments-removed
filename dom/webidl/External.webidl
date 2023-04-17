@@ -92,7 +92,7 @@ MPL
 *
 /
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 JSImplementation
 =
 "

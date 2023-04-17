@@ -123,7 +123,7 @@ index
 *
 /
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window

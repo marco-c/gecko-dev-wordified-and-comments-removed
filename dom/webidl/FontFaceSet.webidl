@@ -190,7 +190,7 @@ use
 setlike
 .
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window

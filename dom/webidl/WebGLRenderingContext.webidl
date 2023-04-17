@@ -5141,7 +5141,7 @@ specific
 extension
 interfaces
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5176,7 +5176,7 @@ COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5231,7 +5231,7 @@ extensions
 EXT_texture_norm16
 /
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5290,7 +5290,7 @@ RGBA16_SNORM_EXT
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5325,7 +5325,7 @@ COMPRESSED_RGBA_S3TC_DXT5_EXT
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5367,7 +5367,7 @@ COMPRESSED_SRGB_ALPHA_S3TC_DXT5_EXT
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5568,7 +5568,7 @@ getSupportedProfiles
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5639,7 +5639,7 @@ COMPRESSED_SRGB8_ALPHA8_ETC2_EAC
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5656,7 +5656,7 @@ COMPRESSED_RGB_ETC1_WEBGL
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5691,7 +5691,7 @@ COMPRESSED_RGBA_PVRTC_2BPPV1_IMG
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5714,7 +5714,7 @@ UNMASKED_RENDERER_WEBGL
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5732,7 +5732,7 @@ shader
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5749,7 +5749,7 @@ UNSIGNED_INT_24_8_WEBGL
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5760,7 +5760,7 @@ OES_element_index_uint
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5771,7 +5771,7 @@ EXT_frag_depth
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5792,7 +5792,7 @@ restoreContext
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5815,7 +5815,7 @@ MAX_TEXTURE_MAX_ANISOTROPY_EXT
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5850,7 +5850,7 @@ FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5867,7 +5867,7 @@ FRAGMENT_SHADER_DERIVATIVE_HINT_OES
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5878,7 +5878,7 @@ OES_texture_float
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6103,7 +6103,7 @@ buffers
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6114,7 +6114,7 @@ OES_texture_float_linear
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6125,7 +6125,7 @@ EXT_shader_texture_lod
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6142,7 +6142,7 @@ HALF_FLOAT_OES
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6153,7 +6153,7 @@ OES_texture_half_float_linear
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6188,7 +6188,7 @@ UNSIGNED_NORMALIZED_EXT
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6223,7 +6223,7 @@ UNSIGNED_NORMALIZED_EXT
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6273,7 +6273,7 @@ arrayObject
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6327,7 +6327,7 @@ divisor
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6360,7 +6360,7 @@ WebGLQuery
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6481,7 +6481,7 @@ pname
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6526,7 +6526,7 @@ pname
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6537,7 +6537,7 @@ EXT_float_blend
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -6548,7 +6548,7 @@ OES_fbo_render_mipmap
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window

@@ -5156,7 +5156,7 @@ includes
 WebGL2RenderingContextBase
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -5167,7 +5167,7 @@ EXT_color_buffer_float
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window

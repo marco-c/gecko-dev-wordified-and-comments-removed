@@ -7577,7 +7577,7 @@ TestCImplementedInterface2
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 JSImplementation
 =
 "

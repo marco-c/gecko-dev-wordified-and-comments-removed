@@ -124,7 +124,7 @@ localization
 *
 /
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window

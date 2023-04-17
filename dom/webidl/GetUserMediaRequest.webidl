@@ -221,7 +221,7 @@ stopped
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window

@@ -193,7 +193,7 @@ a
 customArg
 [
 ExceptionClass
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window

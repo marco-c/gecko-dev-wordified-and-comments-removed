@@ -140,7 +140,7 @@ apply
 *
 /
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -313,7 +313,7 @@ pathSegTypeAsLetter
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -326,7 +326,7 @@ SVGPathSeg
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -353,7 +353,7 @@ y
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -380,7 +380,7 @@ y
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -407,7 +407,7 @@ y
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -434,7 +434,7 @@ y
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -489,7 +489,7 @@ y2
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -544,7 +544,7 @@ y2
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -585,7 +585,7 @@ y1
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -626,7 +626,7 @@ y1
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -688,7 +688,7 @@ sweepFlag
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -750,7 +750,7 @@ sweepFlag
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -770,7 +770,7 @@ x
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -790,7 +790,7 @@ x
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -810,7 +810,7 @@ y
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -830,7 +830,7 @@ y
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -871,7 +871,7 @@ y2
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -912,7 +912,7 @@ y2
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -939,7 +939,7 @@ y
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window

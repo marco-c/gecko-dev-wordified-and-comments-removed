@@ -106,7 +106,7 @@ deviceorientation
 *
 /
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window
@@ -135,7 +135,7 @@ z
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 Window

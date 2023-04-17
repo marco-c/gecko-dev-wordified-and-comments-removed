@@ -381,7 +381,7 @@ stack
 }
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 Exposed
 =
 (

@@ -3250,12 +3250,12 @@ parse
 "
         
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 SecureContext
 ]
         
 interface
-TestSecureContextNoInterfaceObject
+TestSecureContextLegacyNoInterfaceObject
 {
           
 void
@@ -3301,7 +3301,7 @@ members
 1
         
 "
-TestSecureContextNoInterfaceObject
+TestSecureContextLegacyNoInterfaceObject
 should
 have
 only

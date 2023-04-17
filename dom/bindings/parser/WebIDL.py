@@ -5340,7 +5340,7 @@ LegacyWindowAlias
 "
 and
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 together
 "
@@ -6028,7 +6028,7 @@ getExtendedAttribute
 (
                 
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
             
 )
@@ -6039,7 +6039,7 @@ self
 getExtendedAttribute
 (
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 )
 :
@@ -6059,7 +6059,7 @@ have
                     
 "
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 but
 inherits
@@ -6291,7 +6291,7 @@ a
 constructor
 and
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 "
                     
@@ -10067,7 +10067,7 @@ identifier
 =
 =
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 :
                 
@@ -10086,13 +10086,14 @@ WebIDLError
                         
 "
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 must
 take
 no
 arguments
 "
+                        
 [
 attr
 .
@@ -50815,7 +50816,7 @@ addExtendedAttributes
 simpleExtendedAttr
 (
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 )
 ]

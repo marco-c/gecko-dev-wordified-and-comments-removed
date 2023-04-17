@@ -3048,7 +3048,7 @@ parse
 "
             
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
             
 interface
@@ -3102,9 +3102,10 @@ operation
 on
 a
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 "
+        
 "
 interface
 "

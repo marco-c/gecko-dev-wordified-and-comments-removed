@@ -28,7 +28,7 @@ EventHandlerNonNull
 EventHandler
 ;
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 interface
 TestEvent

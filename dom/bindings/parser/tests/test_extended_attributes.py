@@ -18,7 +18,7 @@ parse
 "
         
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
         
 interface
