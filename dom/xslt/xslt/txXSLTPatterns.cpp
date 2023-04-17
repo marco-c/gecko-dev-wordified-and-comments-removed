@@ -377,7 +377,7 @@ endif
 }
 #
 endif
-nsresult
+void
 txLocPathPattern
 :
 :
@@ -416,9 +416,6 @@ step
 isChild
 =
 isChild
-;
-return
-NS_OK
 ;
 }
 nsresult

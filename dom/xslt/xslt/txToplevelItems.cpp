@@ -118,7 +118,7 @@ i
 ;
 }
 }
-nsresult
+void
 txStripSpaceItem
 :
 :
@@ -135,9 +135,6 @@ AppendElement
 (
 aStripSpaceTest
 )
-;
-return
-NS_OK
 ;
 }
 TX_IMPL_GETTYPE
