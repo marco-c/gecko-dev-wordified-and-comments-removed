@@ -369,6 +369,15 @@ TRR
 >
 mTrrByType
 ;
+Atomic
+<
+uint32_t
+>
+mTRRRequestCounter
+{
+0
+}
+;
 uint8_t
 mTRRSuccess
 =
