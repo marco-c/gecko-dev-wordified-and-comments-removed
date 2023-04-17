@@ -1618,6 +1618,12 @@ defined
 (
 JS_CODEGEN_NONE
 )
+|
+|
+defined
+(
+__wasi__
+)
 return
 false
 ;
