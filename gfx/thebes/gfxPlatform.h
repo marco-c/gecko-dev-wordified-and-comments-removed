@@ -1861,17 +1861,6 @@ return
 mScreenSize
 ;
 }
-mozilla
-:
-:
-layers
-:
-:
-DiagnosticTypes
-GetLayerDiagnosticTypes
-(
-)
-;
 static
 void
 PurgeSkiaFontCache

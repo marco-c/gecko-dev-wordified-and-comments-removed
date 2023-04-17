@@ -30654,15 +30654,6 @@ mozilla
 QEAA
 XZ
 ?
-GetLayerDiagnosticTypes
-gfxPlatform
-QEAA
-?
-AW4DiagnosticTypes
-layers
-mozilla
-XZ
-?
 InitBackendPrefs
 gfxPlatform
 IEAAX

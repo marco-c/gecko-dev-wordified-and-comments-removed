@@ -47245,15 +47245,6 @@ mozilla
 QAE
 XZ
 ?
-GetLayerDiagnosticTypes
-gfxPlatform
-QAE
-?
-AW4DiagnosticTypes
-layers
-mozilla
-XZ
-?
 InitBackendPrefs
 gfxPlatform
 IAEX
