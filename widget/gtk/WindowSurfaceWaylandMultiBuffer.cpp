@@ -1142,7 +1142,7 @@ this
 }
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 WindowSurfaceWaylandMB
 :
@@ -1171,7 +1171,7 @@ IsEmpty
 {
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 buffer
 =
@@ -1194,18 +1194,15 @@ buffer
 }
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 buffer
 =
-WaylandShmBuffer
+WaylandBufferSHM
 :
 :
 Create
 (
-WaylandDisplayGet
-(
-)
 aSize
 )
 ;
@@ -1233,7 +1230,7 @@ aProofOfLock
 const
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 &
 aBuffer
@@ -1446,7 +1443,7 @@ for
 const
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 &
 buffer
@@ -1467,7 +1464,7 @@ for
 const
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 &
 buffer
@@ -1488,7 +1485,7 @@ for
 const
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 &
 buffer

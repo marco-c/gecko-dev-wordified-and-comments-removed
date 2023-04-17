@@ -229,7 +229,6 @@ PauseCompositor
 )
 {
 }
-;
 virtual
 bool
 ResumeCompositor
@@ -240,7 +239,13 @@ return
 true
 ;
 }
-;
+virtual
+void
+PrepareForCommit
+(
+)
+{
+}
 virtual
 bool
 CommitToScreen

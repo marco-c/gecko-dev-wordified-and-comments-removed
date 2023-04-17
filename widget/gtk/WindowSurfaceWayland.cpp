@@ -413,7 +413,7 @@ mFrameCallback
 ;
 }
 }
-WaylandShmBuffer
+WaylandBufferSHM
 *
 WindowSurfaceWayland
 :
@@ -538,18 +538,15 @@ nullptr
 }
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 buffer
 =
-WaylandShmBuffer
+WaylandBufferSHM
 :
 :
 Create
 (
-GetWaylandDisplay
-(
-)
 aSize
 )
 ;
@@ -639,7 +636,7 @@ get
 )
 ;
 }
-WaylandShmBuffer
+WaylandBufferSHM
 *
 WindowSurfaceWayland
 :
@@ -695,7 +692,7 @@ availableBuffer
 {
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 buffer
 =
@@ -778,7 +775,7 @@ return
 nullptr
 ;
 }
-WaylandShmBuffer
+WaylandBufferSHM
 *
 WindowSurfaceWayland
 :
@@ -854,7 +851,7 @@ return
 mWaylandBuffer
 ;
 }
-WaylandShmBuffer
+WaylandBufferSHM
 *
 WindowSurfaceWayland
 :
@@ -916,7 +913,7 @@ LOGWAYLAND
 (
 "
 Recent
-WaylandShmBuffer
+WaylandBufferSHM
 [
 %
 p
@@ -961,7 +958,7 @@ LOGWAYLAND
 (
 (
 "
-WaylandShmBuffer
+WaylandBufferSHM
 [
 %
 d
@@ -981,7 +978,7 @@ LOGWAYLAND
 (
 (
 "
-WaylandShmBuffer
+WaylandBufferSHM
 [
 %
 d
@@ -1281,7 +1278,7 @@ height
 )
 )
 ;
-WaylandShmBuffer
+WaylandBufferSHM
 *
 buffer
 =
@@ -1447,7 +1444,7 @@ Factory
 CreateDataSourceSurface
 (
 aLockSize
-WaylandShmBuffer
+WaylandBufferSHM
 :
 :
 GetSurfaceFormat
@@ -1512,7 +1509,7 @@ GetSize
 map
 .
 mStride
-WaylandShmBuffer
+WaylandBufferSHM
 :
 :
 GetSurfaceFormat

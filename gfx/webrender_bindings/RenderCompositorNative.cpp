@@ -1038,6 +1038,13 @@ OnBeginFrame
 (
 )
 ;
+mNativeLayerRoot
+-
+>
+PrepareForCommit
+(
+)
+;
 }
 void
 RenderCompositorNative

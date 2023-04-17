@@ -59,7 +59,7 @@ h
 #
 include
 "
-WaylandShmBuffer
+WaylandBuffer
 .
 h
 "
@@ -145,7 +145,7 @@ aInvalidRegion
 ;
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 ObtainBufferFromPool
 (
@@ -169,7 +169,7 @@ aProofOfLock
 const
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 &
 aBuffer
@@ -230,13 +230,13 @@ mMozContainerSize
 ;
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 mInProgressBuffer
 ;
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 mFrontBuffer
 ;
@@ -247,7 +247,7 @@ nsTArray
 <
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 >
 mInUseBuffers
@@ -256,7 +256,7 @@ nsTArray
 <
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 >
 mPendingBuffers
@@ -265,7 +265,7 @@ nsTArray
 <
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 >
 mAvailableBuffers
