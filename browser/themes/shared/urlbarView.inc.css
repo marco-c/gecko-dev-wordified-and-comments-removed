@@ -1349,8 +1349,6 @@ radius
 padding
 -
 inline
--
-start
 :
 var
 (
@@ -1554,6 +1552,13 @@ no
 -
 wrap
 {
+max
+-
+width
+:
+100
+%
+;
 flex
 -
 grow
