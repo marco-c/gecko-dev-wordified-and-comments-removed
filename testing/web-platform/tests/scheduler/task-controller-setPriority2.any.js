@@ -51,9 +51,13 @@ push
 new
 TaskController
 (
+{
+priority
+:
 '
 background
 '
+}
 )
 )
 ;

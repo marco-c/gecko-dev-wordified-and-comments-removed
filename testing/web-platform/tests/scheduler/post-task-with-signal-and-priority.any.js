@@ -41,9 +41,13 @@ controller
 new
 TaskController
 (
+{
+priority
+:
 '
 background
 '
+}
 )
 ;
 const
