@@ -31,5 +31,11 @@ MOZ_E_REJECTED
 =
 0xa0000003L
 ;
+const
+HRESULT
+MOZ_E_BUILD
+=
+0xa0000004L
+;
 #
 endif
