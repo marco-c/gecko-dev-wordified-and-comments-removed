@@ -2682,16 +2682,6 @@ JSObject
 obj
 )
 ;
-extern
-JS_FRIEND_API
-bool
-GlobalHasInstrumentation
-(
-JSObject
-*
-global
-)
-;
 class
 JS_FRIEND_API
 CompartmentTransplantCallback
