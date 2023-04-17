@@ -14494,7 +14494,7 @@ MayProceedOnNonOwningThread
 {
 SetFailureCode
 (
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 )
 ;
 }
@@ -14622,7 +14622,7 @@ MayProceed
 {
 MaybeSetFailureCode
 (
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 )
 ;
 }
@@ -24795,7 +24795,7 @@ MayProceed
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 #
@@ -24898,7 +24898,7 @@ MayProceed
 {
 MaybeSetFailureCode
 (
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 )
 ;
 }
@@ -24963,7 +24963,7 @@ MayProceed
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 if
@@ -25130,7 +25130,7 @@ MayProceed
 {
 MaybeSetFailureCode
 (
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 )
 ;
 }
@@ -26460,7 +26460,7 @@ MayProceed
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 const
@@ -26784,7 +26784,7 @@ MayProceed
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 QM_TRY
@@ -26962,7 +26962,7 @@ MayProceed
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 QM_TRY
@@ -27178,7 +27178,7 @@ MayProceed
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 QM_TRY
@@ -27612,7 +27612,7 @@ MayProceedOnNonOwningThread
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 QuotaManager
@@ -29133,7 +29133,7 @@ MayProceed
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 if
@@ -30343,7 +30343,7 @@ MayProceed
 {
 MaybeSetFailureCode
 (
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 )
 ;
 FinishNesting
@@ -30489,7 +30489,7 @@ MayProceedOnNonOwningThread
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 QM_TRY_INSPECT
@@ -31751,7 +31751,7 @@ MayProceed
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 #
@@ -31854,7 +31854,7 @@ MayProceed
 {
 MaybeSetFailureCode
 (
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 )
 ;
 }
