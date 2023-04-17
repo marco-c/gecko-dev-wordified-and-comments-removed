@@ -1351,12 +1351,9 @@ shape
 >
 dictNext
 .
-toObject
+isNone
 (
 )
-=
-=
-this
 )
 ;
 }
