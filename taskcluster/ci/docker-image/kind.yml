@@ -663,7 +663,7 @@ vb
 )
 parent
 :
-debian10
+debian11
 -
 amd64
 -
@@ -671,7 +671,7 @@ build
 packages
 :
 -
-deb10
+deb11
 -
 valgrind
 lint

@@ -999,6 +999,9 @@ definite
 fun
 :
 malloc
+.
+.
+.
 fun
 :
 dl_open_worker
@@ -1102,9 +1105,6 @@ definite
 .
 .
 .
-fun
-:
-__glXInitialize
 fun
 :
 __glXInitialize

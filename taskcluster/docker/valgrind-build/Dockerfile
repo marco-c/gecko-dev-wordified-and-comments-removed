@@ -180,9 +180,9 @@ libdrm2
 -
 dbgsym
 \
-libffi6
+libffi7
 -
-dbg
+dbgsym
 \
 libfontconfig1
 -
@@ -210,7 +210,9 @@ dbgsym
 \
 libgdk
 -
-pixbuf2
+pixbuf
+-
+2
 .
 0
 -
@@ -228,9 +230,9 @@ dbgsym
 \
 libice6
 -
-dbg
+dbgsym
 \
-libicu63
+libicu67
 -
 dbgsym
 \
@@ -290,7 +292,7 @@ dbgsym
 \
 libxau6
 -
-dbg
+dbgsym
 \
 libxcb
 -
@@ -316,7 +318,7 @@ dbgsym
 \
 libxcomposite1
 -
-dbg
+dbgsym
 \
 libxcursor1
 -
@@ -356,7 +358,7 @@ dbgsym
 \
 libxt6
 -
-dbg
+dbgsym
 \
 libxxf86vm1
 -
@@ -368,4 +370,4 @@ dbg
 \
 zlib1g
 -
-dbg
+dbgsym

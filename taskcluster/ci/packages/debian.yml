@@ -363,7 +363,7 @@ bullseye
 debian
 /
 changelog
-deb10
+deb11
 -
 valgrind
 :
@@ -373,13 +373,13 @@ description
 Valgrind
 for
 Debian
-buster
+bullseye
 "
 treeherder
 :
 symbol
 :
-Deb10
+Deb11
 (
 valgrind
 )
@@ -387,7 +387,7 @@ run
 :
 dist
 :
-buster
+bullseye
 dsc
 :
 url
@@ -432,7 +432,7 @@ patch
 :
 valgrind
 -
-buster
+bullseye
 .
 diff
 deb10
