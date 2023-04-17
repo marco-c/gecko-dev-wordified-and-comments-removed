@@ -422,7 +422,7 @@ C
 TLSFUZZER
 "
 checkout
-80d7932ead1d8dae6e555cfd2b1c4c5beb2847df
+21fd6522f695693a320a1df3c117fd7ced1352a5
 #
 We
 could
@@ -484,7 +484,7 @@ v0
 .
 0
 -
-alpha27
+alpha42
 tlslite
 -
 ng
