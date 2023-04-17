@@ -1087,6 +1087,12 @@ GetAllowedHandoffDirections
 )
 const
 ;
+ScrollDirections
+GetOverscrollableDirections
+(
+)
+const
+;
 bool
 CanScroll
 (
@@ -2640,12 +2646,6 @@ aVelocity
 SideBits
 aOverscrollSideBits
 )
-;
-ScrollDirections
-GetOverscrollableDirections
-(
-)
-const
 ;
 void
 SmoothScrollTo
