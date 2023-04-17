@@ -171,16 +171,6 @@ true
 "
 browser
 .
-proton
-.
-enabled
-"
-true
-]
-[
-"
-browser
-.
 shell
 .
 didSkipDefaultBrowserCheckOnFirstRun

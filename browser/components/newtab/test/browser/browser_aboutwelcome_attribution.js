@@ -689,12 +689,6 @@ true
 )
 ;
 await
-setProton
-(
-true
-)
-;
-await
 pushPrefs
 (
 [
