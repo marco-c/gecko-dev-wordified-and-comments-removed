@@ -3977,8 +3977,8 @@ mTextCombineUpright
 mozilla
 :
 :
-StyleControlCharacterVisibility
-mControlCharacterVisibility
+StyleMozControlCharacterVisibility
+mMozControlCharacterVisibility
 ;
 uint8_t
 mTextEmphasisPosition

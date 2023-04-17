@@ -6260,15 +6260,6 @@ aFrame
 )
 ;
 static
-mozilla
-:
-:
-StyleControlCharacterVisibility
-ControlCharVisibilityDefault
-(
-)
-;
-static
 already_AddRefed
 <
 nsFontMetrics
