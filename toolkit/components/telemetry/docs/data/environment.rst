@@ -1380,6 +1380,16 @@ bool
 windows
 -
 only
+hasWinPackageId
+:
+<
+bool
+>
+/
+/
+windows
+-
+only
 cpu
 :
 {
