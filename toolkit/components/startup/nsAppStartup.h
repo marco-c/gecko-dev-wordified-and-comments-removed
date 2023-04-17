@@ -164,6 +164,9 @@ mIsSafeModeNecessary
 bool
 mStartupCrashTrackingEnded
 ;
+bool
+mWasSilentlyRestarted
+;
 #
 if
 defined
