@@ -53,7 +53,9 @@ blended
 &
 tag
 =
-mozilla
+moz
+-
+us
 -
 20
 &
