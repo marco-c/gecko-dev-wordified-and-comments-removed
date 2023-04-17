@@ -347,7 +347,7 @@ target_colors
 :
 [
 (
-view
+attachment
 :
 Id
 (
@@ -432,16 +432,10 @@ offset
 0
 bytes_per_row
 :
-Some
-(
 256
-)
 rows_per_image
 :
-Some
-(
 64
-)
 )
 )
 size

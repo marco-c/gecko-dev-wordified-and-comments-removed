@@ -358,16 +358,6 @@ start
 ;
 }
 }
-#
-[
-allow
-(
-clippy
-:
-:
-suspicious_operation_groupings
-)
-]
 pub
 fn
 coalesce
@@ -1336,7 +1326,6 @@ peek
 Some
 (
 &
-&
 (
 ref
 ra
@@ -1345,7 +1334,6 @@ va
 )
 Some
 (
-&
 &
 (
 ref
@@ -1406,6 +1394,7 @@ rb
 end
 Some
 (
+*
 vb
 )
 )
@@ -1448,6 +1437,7 @@ end
 )
 Some
 (
+*
 va
 )
 .
@@ -1499,6 +1489,7 @@ ra
 end
 Some
 (
+*
 va
 )
 )
@@ -1544,6 +1535,7 @@ start_value
 .
 Some
 (
+*
 vb
 )
 )
@@ -1587,12 +1579,14 @@ end
 )
 Some
 (
+*
 va
 )
 .
 .
 Some
 (
+*
 vb
 )
 )
@@ -1620,6 +1614,7 @@ end
 )
 Some
 (
+*
 va
 )
 .
@@ -1653,6 +1648,7 @@ None
 .
 Some
 (
+*
 vb
 )
 )
@@ -1724,7 +1720,6 @@ None
 Some
 (
 &
-&
 (
 ref
 rb
@@ -1782,6 +1777,7 @@ None
 .
 Some
 (
+*
 vb
 )
 )
@@ -1790,7 +1786,6 @@ vb
 (
 Some
 (
-&
 &
 (
 ref
@@ -1847,6 +1842,7 @@ Some
 range
 Some
 (
+*
 va
 )
 .

@@ -98,7 +98,6 @@ arc_unwrap
 M
 >
 (
-mut
 arc
 :
 Arc
@@ -124,17 +123,6 @@ ptr
 :
 read
 }
-;
-debug_assert
-!
-(
-is_arc_unique
-(
-&
-mut
-arc
-)
-)
 ;
 let
 raw

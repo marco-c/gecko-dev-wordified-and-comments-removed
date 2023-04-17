@@ -33,18 +33,6 @@ glsl
 .
 snap
 '
--
-'
-tests
-/
-out
-/
-*
-.
-dot
-.
-snap
-'
 jobs
 :
 validate
@@ -94,7 +82,6 @@ tools
 glslang
 -
 tools
-graphviz
 -
 run
 :
@@ -109,10 +96,3 @@ make
 validate
 -
 glsl
--
-run
-:
-make
-validate
--
-dot

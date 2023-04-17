@@ -102,10 +102,6 @@ u8
 >
 >
 pub
-offset
-:
-u64
-pub
 size
 :
 u64
@@ -113,6 +109,10 @@ pub
 chunk
 :
 usize
+pub
+offset
+:
+u64
 pub
 index
 :

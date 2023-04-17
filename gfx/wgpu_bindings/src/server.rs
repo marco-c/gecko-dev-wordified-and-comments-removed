@@ -1226,8 +1226,6 @@ size
 unwrap
 (
 )
-.
-0
 }
 #
 [
@@ -3252,7 +3250,7 @@ wgc
 command
 :
 :
-ImageCopyTexture
+TextureCopyView
 destination
 :
 &
@@ -3262,7 +3260,7 @@ wgc
 command
 :
 :
-ImageCopyBuffer
+BufferCopyView
 size
 :
 &

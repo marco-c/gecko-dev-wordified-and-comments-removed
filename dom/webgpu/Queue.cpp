@@ -594,7 +594,7 @@ const
 dom
 :
 :
-GPUImageCopyTexture
+GPUTextureCopyView
 &
 aDestination
 const
@@ -608,7 +608,7 @@ const
 dom
 :
 :
-GPUImageDataLayout
+GPUTextureDataLayout
 &
 aDataLayout
 const
@@ -626,7 +626,7 @@ aRv
 ffi
 :
 :
-WGPUImageCopyTexture
+WGPUTextureCopyView
 copyView
 =
 {
@@ -645,7 +645,7 @@ copyView
 ffi
 :
 :
-WGPUImageDataLayout
+WGPUTextureDataLayout
 dataLayout
 =
 {

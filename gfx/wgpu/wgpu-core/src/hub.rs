@@ -71,6 +71,7 @@ Sampler
 Texture
 TextureView
 }
+span
 swap_chain
 :
 :
@@ -1558,6 +1559,10 @@ _
 >
 None
 }
+)
+.
+into_iter
+(
 )
 }
 }
@@ -4850,13 +4855,10 @@ Element
 :
 Occupied
 (
-ref
-mut
 device
 _
 )
 =
-*
 element
 {
 device
@@ -6102,12 +6104,11 @@ BackendBit
 >
 Self
 {
-profiling
-:
-:
-scope
+span
 !
 (
+_guard
+INFO
 "
 Global
 :
@@ -6239,7 +6240,7 @@ panicking
 (
 )
 {
-log
+tracing
 :
 :
 info

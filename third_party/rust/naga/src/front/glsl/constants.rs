@@ -1370,6 +1370,15 @@ value
 =
 >
 {
+let
+initial
+=
+value
+.
+clone
+(
+)
+;
 *
 value
 =
@@ -1389,8 +1398,7 @@ Sint
 (
 inner_cast
 (
-*
-value
+initial
 )
 )
 ScalarKind
@@ -1406,8 +1414,7 @@ Uint
 (
 inner_cast
 (
-*
-value
+initial
 )
 )
 ScalarKind
@@ -1423,8 +1430,7 @@ Float
 (
 inner_cast
 (
-*
-value
+initial
 )
 )
 ScalarKind
@@ -1445,8 +1451,7 @@ inner_cast
 u64
 >
 (
-*
-value
+initial
 )
 !
 =
@@ -1622,7 +1627,6 @@ Negate
 =
 >
 match
-*
 value
 {
 ScalarValue
@@ -1630,8 +1634,6 @@ ScalarValue
 :
 Sint
 (
-ref
-mut
 v
 )
 =
@@ -1647,8 +1649,6 @@ ScalarValue
 :
 Float
 (
-ref
-mut
 v
 )
 =
@@ -1678,7 +1678,6 @@ Not
 =
 >
 match
-*
 value
 {
 ScalarValue
@@ -1686,8 +1685,6 @@ ScalarValue
 :
 Sint
 (
-ref
-mut
 v
 )
 =
@@ -1703,8 +1700,6 @@ ScalarValue
 :
 Uint
 (
-ref
-mut
 v
 )
 =
@@ -1720,8 +1715,6 @@ ScalarValue
 :
 Bool
 (
-ref
-mut
 v
 )
 =
@@ -1911,7 +1904,6 @@ right
 )
 {
 (
-&
 ConstantInner
 :
 :
@@ -1922,7 +1914,6 @@ value
 left_value
 width
 }
-&
 ConstantInner
 :
 :
@@ -1931,9 +1922,8 @@ Scalar
 value
 :
 right_value
-width
-:
-_
+.
+.
 }
 )
 =
@@ -2433,9 +2423,11 @@ BinaryOperator
 LogicalAnd
 =
 >
+*
 a
 &
 &
+*
 b
 BinaryOperator
 :
@@ -2443,9 +2435,11 @@ BinaryOperator
 LogicalOr
 =
 >
+*
 a
 |
 |
+*
 b
 _
 =
@@ -2481,6 +2475,9 @@ ConstantInner
 Scalar
 {
 value
+width
+:
+*
 width
 }
 }

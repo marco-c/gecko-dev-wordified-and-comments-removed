@@ -11,10 +11,6 @@ clippy
 :
 :
 missing_safety_doc
-clippy
-:
-:
-upper_case_acronyms
 )
 ]
 pub

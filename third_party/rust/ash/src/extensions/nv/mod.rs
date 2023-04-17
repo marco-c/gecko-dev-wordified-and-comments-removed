@@ -3,16 +3,6 @@ use
 self
 :
 :
-device_diagnostic_checkpoints
-:
-:
-DeviceDiagnosticCheckpoints
-;
-pub
-use
-self
-:
-:
 mesh_shader
 :
 :
@@ -27,9 +17,6 @@ ray_tracing
 :
 :
 RayTracing
-;
-mod
-device_diagnostic_checkpoints
 ;
 mod
 mesh_shader

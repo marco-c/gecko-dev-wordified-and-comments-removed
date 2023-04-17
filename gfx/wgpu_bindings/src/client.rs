@@ -700,9 +700,6 @@ wgt
 :
 :
 PolygonMode
-clamp_depth
-:
-bool
 }
 impl
 PrimitiveState
@@ -766,14 +763,6 @@ polygon_mode
 self
 .
 polygon_mode
-clamp_depth
-:
-self
-.
-clamp_depth
-conservative
-:
-false
 }
 }
 }
@@ -1239,7 +1228,7 @@ TextureAspect
 base_mip_level
 :
 u32
-mip_level_count
+level_count
 :
 Option
 <
@@ -2967,11 +2956,11 @@ base_mip_level
 desc
 .
 base_mip_level
-mip_level_count
+level_count
 :
 desc
 .
-mip_level_count
+level_count
 base_array_layer
 :
 desc
@@ -3556,7 +3545,7 @@ wgc
 command
 :
 :
-RenderPassColorAttachment
+ColorAttachmentDescriptor
 pub
 color_attachments_length
 :
@@ -3572,7 +3561,7 @@ wgc
 command
 :
 :
-RenderPassDepthStencilAttachment
+DepthStencilAttachmentDescriptor
 }
 #
 [
@@ -5540,7 +5529,7 @@ wgc
 command
 :
 :
-ImageCopyTexture
+TextureCopyView
 dst
 :
 wgc
@@ -5549,7 +5538,7 @@ wgc
 command
 :
 :
-ImageCopyBuffer
+BufferCopyView
 size
 :
 wgt
@@ -5607,7 +5596,7 @@ wgc
 command
 :
 :
-ImageCopyBuffer
+BufferCopyView
 dst
 :
 wgc
@@ -5616,7 +5605,7 @@ wgc
 command
 :
 :
-ImageCopyTexture
+TextureCopyView
 size
 :
 wgt
@@ -5674,7 +5663,7 @@ wgc
 command
 :
 :
-ImageCopyTexture
+TextureCopyView
 dst
 :
 wgc
@@ -5683,7 +5672,7 @@ wgc
 command
 :
 :
-ImageCopyTexture
+TextureCopyView
 size
 :
 wgt
@@ -5859,7 +5848,7 @@ dst
 wgt
 :
 :
-ImageCopyTexture
+TextureCopyView
 <
 id
 :
@@ -5871,7 +5860,7 @@ layout
 wgt
 :
 :
-ImageDataLayout
+TextureDataLayout
 size
 :
 wgt

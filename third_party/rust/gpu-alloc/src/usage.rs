@@ -771,8 +771,8 @@ index
 ;
 MemoryForOneUsage
 {
-mask
 types
+mask
 types_count
 }
 }
