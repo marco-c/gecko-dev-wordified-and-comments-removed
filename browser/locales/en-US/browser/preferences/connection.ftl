@@ -224,7 +224,7 @@ connection
 -
 proxy
 -
-http
+https
 -
 sharing
 =
@@ -236,8 +236,6 @@ use
 this
 proxy
 for
-FTP
-and
 HTTPS
 .
 accesskey
