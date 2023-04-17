@@ -2430,6 +2430,7 @@ js
 gpt
 .
 js
+*
 "
 "
 *
@@ -2451,6 +2452,7 @@ js
 gpt
 .
 js
+*
 "
 "
 *
@@ -2471,6 +2473,7 @@ pubads_impl_
 *
 .
 js
+*
 "
 ]
 onlyIfBlockedByETP
