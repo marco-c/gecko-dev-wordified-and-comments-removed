@@ -161,7 +161,7 @@ win
 await
 BrowserTestUtils
 .
-openNewWindowWithFlushedXULCacheForMozSupports
+openNewBrowserWindow
 (
 )
 ;
