@@ -651,19 +651,6 @@ void
 unaligned
 ;
 }
-const
-size_t
-alignment_corrected
-=
-alignment
-=
-=
-0
-?
-1
-:
-alignment
-;
 uintptr_t
 aligned_nonoffset
 =
@@ -671,7 +658,7 @@ aligned_nonoffset
 unaligned
 +
 (
-alignment_corrected
+alignment
 -
 1
 )
@@ -679,7 +666,7 @@ alignment_corrected
 &
 ~
 (
-alignment_corrected
+alignment
 -
 1
 )
@@ -753,7 +740,7 @@ aligned
 alignment_offset
 )
 %
-alignment_corrected
+alignment
 !
 =
 0
