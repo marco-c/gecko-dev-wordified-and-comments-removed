@@ -104,11 +104,6 @@ DrawTargetRecording
 h
 "
 "
-DrawTargetWrapAndRecord
-.
-h
-"
-"
 Filters
 .
 h
@@ -930,11 +925,6 @@ cpp
 "
 "
 DrawTargetRecording
-.
-cpp
-"
-"
-DrawTargetWrapAndRecord
 .
 cpp
 "
