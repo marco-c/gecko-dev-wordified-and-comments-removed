@@ -303,14 +303,10 @@ clasp
 {
 mTearOff
 =
-(
 XPCWrappedNativeTearOff
-*
-)
-JS
 :
 :
-GetPrivate
+Get
 (
 unwrapped
 )
@@ -329,7 +325,10 @@ JS
 GetReservedSlot
 (
 unwrapped
-XPC_WN_TEAROFF_FLAT_OBJECT_SLOT
+XPCWrappedNativeTearOff
+:
+:
+FlatObjectSlot
 )
 .
 toObject
