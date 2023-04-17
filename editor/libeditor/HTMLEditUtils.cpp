@@ -1213,6 +1213,7 @@ HTMLEditUtils
 :
 IsListItem
 (
+const
 nsINode
 *
 aNode
@@ -1414,6 +1415,7 @@ HTMLEditUtils
 :
 IsTableCell
 (
+const
 nsINode
 *
 aNode
@@ -1655,6 +1657,7 @@ HTMLEditUtils
 :
 IsNamedAnchor
 (
+const
 nsINode
 *
 aNode
@@ -1870,6 +1873,7 @@ HTMLEditUtils
 :
 IsFormWidget
 (
+const
 nsINode
 *
 aNode
@@ -2006,9 +2010,11 @@ HTMLEditUtils
 :
 IsVisibleTextNode
 (
+const
 Text
 &
 aText
+const
 Element
 *
 aEditingHost
@@ -2031,7 +2037,14 @@ false
 if
 (
 !
+const_cast
+<
+Text
+&
+>
+(
 aText
+)
 .
 TextIsOnlyWhitespace
 (
@@ -2104,6 +2117,7 @@ IsInVisibleTextFrames
 nsPresContext
 *
 aPresContext
+const
 Text
 &
 aText
@@ -2214,8 +2228,15 @@ selectionController
 >
 CheckVisibilityContent
 (
+const_cast
+<
+Text
+*
+>
+(
 &
 aText
+)
 0
 aText
 .
@@ -2492,6 +2513,7 @@ IsEmptyNode
 nsPresContext
 *
 aPresContext
+const
 nsINode
 &
 aNode
@@ -2571,6 +2593,7 @@ nullptr
 ;
 if
 (
+const
 Text
 *
 text

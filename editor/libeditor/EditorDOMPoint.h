@@ -249,6 +249,7 @@ ContainerType
 >
 EditorDOMPointBase
 (
+const
 ContainerType
 *
 aContainer
@@ -258,7 +259,14 @@ aOffset
 :
 mParent
 (
+const_cast
+<
+ContainerType
+*
+>
+(
 aContainer
+)
 )
 mChild
 (

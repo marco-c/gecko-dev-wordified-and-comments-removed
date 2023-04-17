@@ -12532,7 +12532,10 @@ br
 &
 &
 !
-IsEmptyInlineNode
+HTMLEditUtils
+:
+:
+IsEmptyInlineContent
 (
 content
 )
@@ -13128,7 +13131,10 @@ br
 )
 |
 |
-IsEmptyInlineNode
+HTMLEditUtils
+:
+:
+IsEmptyInlineContent
 (
 content
 )
@@ -15469,6 +15475,9 @@ rv
 }
 if
 (
+HTMLEditUtils
+:
+:
 IsEmptyOneHardLine
 (
 arrayOfContents
@@ -17978,6 +17987,9 @@ rv
 }
 if
 (
+HTMLEditUtils
+:
+:
 IsEmptyOneHardLine
 (
 arrayOfContents
@@ -19019,6 +19031,9 @@ rv
 }
 if
 (
+HTMLEditUtils
+:
+:
 IsEmptyOneHardLine
 (
 arrayOfContents
@@ -46709,6 +46724,9 @@ rv
 }
 if
 (
+HTMLEditUtils
+:
+:
 IsEmptyOneHardLine
 (
 arrayOfContents
