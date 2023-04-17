@@ -8142,11 +8142,13 @@ kwargs
 if
 not
 kwargs
-[
+.
+get
+(
 "
 exit_after_start
 "
-]
+)
 :
                 
 try
