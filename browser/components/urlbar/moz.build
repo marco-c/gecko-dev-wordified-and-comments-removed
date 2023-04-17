@@ -260,6 +260,17 @@ ini
 tests
 /
 browser
+-
+updateResults
+/
+browser
+.
+ini
+"
+"
+tests
+/
+browser
 /
 browser
 .
