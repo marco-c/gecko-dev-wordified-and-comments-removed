@@ -68,6 +68,13 @@ WasmValidate
 h
 "
 namespace
+JS
+{
+class
+OptimizedEncodingListener
+;
+}
+namespace
 js
 {
 namespace

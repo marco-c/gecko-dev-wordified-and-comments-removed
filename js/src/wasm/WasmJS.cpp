@@ -152,6 +152,15 @@ h
 #
 include
 "
+js
+/
+StreamConsumer
+.
+h
+"
+#
+include
+"
 util
 /
 StringBuffer

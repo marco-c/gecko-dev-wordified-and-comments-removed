@@ -356,6 +356,15 @@ include
 "
 js
 /
+StreamConsumer
+.
+h
+"
+#
+include
+"
+js
+/
 Symbol
 .
 h

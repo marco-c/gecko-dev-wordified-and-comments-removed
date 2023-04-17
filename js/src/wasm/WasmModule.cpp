@@ -55,6 +55,15 @@ h
 #
 include
 "
+js
+/
+StreamConsumer
+.
+h
+"
+#
+include
+"
 threading
 /
 LockGuard
