@@ -386,9 +386,11 @@ element
 inserted
 "
 ;
-static
 mozIExtensionProcessScript
 &
+ExtensionPolicyService
+:
+:
 ProcessScript
 (
 )
@@ -399,6 +401,13 @@ nsCOMPtr
 mozIExtensionProcessScript
 >
 sProcessScript
+;
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
 ;
 if
 (
