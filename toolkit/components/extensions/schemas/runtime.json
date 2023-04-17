@@ -1557,6 +1557,11 @@ name
 getBackgroundPage
 "
 "
+max_manifest_version
+"
+:
+2
+"
 type
 "
 :

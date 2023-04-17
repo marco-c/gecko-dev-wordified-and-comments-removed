@@ -418,7 +418,7 @@ testImageLoading
 (
 browser
 .
-extension
+runtime
 .
 getURL
 (
@@ -456,7 +456,7 @@ src
 "
 browser
 .
-extension
+runtime
 .
 getURL
 (
