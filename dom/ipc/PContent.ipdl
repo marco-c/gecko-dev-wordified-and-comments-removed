@@ -5011,10 +5011,12 @@ DiscardBrowsingContext
 (
 MaybeDiscardedBrowsingContext
 aContext
+bool
+aDoDiscard
 )
 returns
 (
-bool
+uint64_t
 unused
 )
 ;
