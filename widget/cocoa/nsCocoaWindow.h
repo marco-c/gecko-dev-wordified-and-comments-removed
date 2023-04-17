@@ -1303,9 +1303,9 @@ aConfigurations
 override
 ;
 virtual
-LayerManager
+WindowRenderer
 *
-GetLayerManager
+GetWindowRenderer
 (
 )
 override

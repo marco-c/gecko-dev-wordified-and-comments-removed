@@ -4319,12 +4319,12 @@ return
 NS_OK
 ;
 }
-LayerManager
+WindowRenderer
 *
 nsCocoaWindow
 :
 :
-GetLayerManager
+GetWindowRenderer
 (
 )
 {
@@ -4337,7 +4337,7 @@ return
 mPopupContentView
 -
 >
-GetLayerManager
+GetWindowRenderer
 (
 )
 ;

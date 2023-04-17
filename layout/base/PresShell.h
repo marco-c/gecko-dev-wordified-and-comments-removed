@@ -2111,9 +2111,9 @@ GetFocusedContentInOurWindow
 )
 const
 ;
-LayerManager
+WindowRenderer
 *
-GetLayerManager
+GetWindowRenderer
 (
 )
 ;

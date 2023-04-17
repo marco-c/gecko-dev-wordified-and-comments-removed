@@ -374,6 +374,17 @@ override
 ;
 WebRenderLayerManager
 *
+AsWebRender
+(
+)
+override
+{
+return
+this
+;
+}
+WebRenderLayerManager
+*
 AsWebRenderLayerManager
 (
 )

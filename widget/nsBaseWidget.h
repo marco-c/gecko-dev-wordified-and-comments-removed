@@ -992,9 +992,9 @@ aScreen
 nullptr
 )
 ;
-LayerManager
+WindowRenderer
 *
-GetLayerManager
+GetWindowRenderer
 (
 )
 override

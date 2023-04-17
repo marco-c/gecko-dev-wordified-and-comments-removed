@@ -377,6 +377,9 @@ CallerType
 uint32_t
 ;
 }
+class
+WindowRenderer
+;
 namespace
 layers
 {
@@ -1096,6 +1099,13 @@ layers
 :
 LayerManager
 LayerManager
+;
+typedef
+mozilla
+:
+:
+WindowRenderer
+WindowRenderer
 ;
 typedef
 mozilla
@@ -2778,9 +2788,9 @@ LAYER_MANAGER_PERSISTENT
 }
 ;
 virtual
-LayerManager
+WindowRenderer
 *
-GetLayerManager
+GetWindowRenderer
 (
 )
 =

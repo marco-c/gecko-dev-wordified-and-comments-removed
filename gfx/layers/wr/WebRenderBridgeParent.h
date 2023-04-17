@@ -146,6 +146,13 @@ nsTArrayForwardDeclare
 .
 h
 "
+#
+include
+"
+WindowRenderer
+.
+h
+"
 namespace
 mozilla
 {
@@ -265,9 +272,6 @@ CompositorVsyncSchedulerOwner
 public
 CompositableParentManager
 public
-layers
-:
-:
 FrameRecorder
 {
 public

@@ -14387,16 +14387,16 @@ GetNearestWidget
 (
 )
 ;
-LayerManager
+WindowRenderer
 *
-manager
+renderer
 =
 widget
 ?
 widget
 -
 >
-GetLayerManager
+GetWindowRenderer
 (
 )
 :
@@ -14404,7 +14404,7 @@ nullptr
 ;
 if
 (
-manager
+renderer
 )
 {
 mozilla
@@ -14449,7 +14449,7 @@ IsEmpty
 ;
 success
 =
-manager
+renderer
 -
 >
 AddPendingScrollUpdateForNextTransaction

@@ -23,6 +23,13 @@ h
 #
 include
 "
+ImgDrawResult
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h
