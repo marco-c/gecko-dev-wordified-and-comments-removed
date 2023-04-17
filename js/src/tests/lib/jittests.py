@@ -2075,6 +2075,35 @@ crash
 "
 :
                         
+assert
+(
+                            
+"
+self
+-
+test
+"
+in
+path
+                        
+)
+"
+{
+}
+:
+has
+an
+unexpected
+crash
+annotation
+.
+"
+.
+format
+(
+path
+)
+                        
 test
 .
 expect_crash
@@ -3099,6 +3128,9 @@ rc
             
 return
 True
+        
+return
+False
     
 if
 rc
