@@ -772,6 +772,11 @@ unlock
 ;
 f
 (
+std
+:
+:
+move
+(
 mozilla
 :
 :
@@ -781,6 +786,7 @@ Indices
 >
 (
 args
+)
 )
 .
 .
