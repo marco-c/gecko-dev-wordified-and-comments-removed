@@ -7363,8 +7363,10 @@ sContentParentTelemetryEventEnabled
 false
 )
 ;
-static
 void
+ContentParent
+:
+:
 LogAndAssertFailedPrincipalValidationInfo
 (
 nsIPrincipal
