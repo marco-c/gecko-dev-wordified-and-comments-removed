@@ -115,9 +115,11 @@ new
 CanvasFilter
 (
 {
-componentTransfer
+filter
 :
-{
+"
+componentTransfer
+"
 funcR
 :
 {
@@ -144,7 +146,6 @@ type
 "
 identity
 "
-}
 }
 }
 )

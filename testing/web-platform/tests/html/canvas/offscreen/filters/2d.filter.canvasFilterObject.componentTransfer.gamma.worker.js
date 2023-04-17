@@ -281,9 +281,11 @@ new
 CanvasFilter
 (
 {
-componentTransfer
+filter
 :
-{
+"
+componentTransfer
+"
 funcR
 :
 {
@@ -364,7 +366,6 @@ offsets
 [
 2
 ]
-}
 }
 }
 )

@@ -285,9 +285,11 @@ new
 CanvasFilter
 (
 {
-componentTransfer
+filter
 :
-{
+"
+componentTransfer
+"
 funcR
 :
 {
@@ -323,7 +325,6 @@ table
 tableValues
 :
 tableValuesB
-}
 }
 }
 )

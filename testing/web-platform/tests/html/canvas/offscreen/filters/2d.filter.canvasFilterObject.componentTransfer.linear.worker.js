@@ -247,9 +247,11 @@ new
 CanvasFilter
 (
 {
-componentTransfer
+filter
 :
-{
+"
+componentTransfer
+"
 funcR
 :
 {
@@ -312,7 +314,6 @@ intercepts
 [
 2
 ]
-}
 }
 }
 )
