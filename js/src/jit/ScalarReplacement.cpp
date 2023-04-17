@@ -8920,7 +8920,7 @@ if
 ins
 -
 >
-getArgsObject
+argsObject
 (
 )
 !

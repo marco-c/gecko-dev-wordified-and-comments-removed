@@ -2525,7 +2525,7 @@ argsObj
 ins
 -
 >
-getArgsObject
+argsObject
 (
 )
 ;
