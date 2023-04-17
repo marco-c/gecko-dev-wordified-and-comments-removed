@@ -794,7 +794,7 @@ this
 .
 client
 .
-_closed
+_transportClosed
 ;
 }
 getPerformancePanelUrl

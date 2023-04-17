@@ -433,7 +433,7 @@ if
 (
 this
 .
-_closed
+_transportClosed
 )
 {
 return
@@ -630,7 +630,7 @@ if
 (
 this
 .
-_closed
+_transportClosed
 )
 {
 const
@@ -1749,7 +1749,7 @@ if
 (
 this
 .
-_closed
+_transportClosed
 )
 {
 return
@@ -1757,7 +1757,7 @@ return
 }
 this
 .
-_closed
+_transportClosed
 =
 true
 ;
