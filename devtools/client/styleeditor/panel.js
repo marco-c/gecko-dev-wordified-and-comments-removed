@@ -259,12 +259,6 @@ initialize
 (
 )
 ;
-this
-.
-isPanelReady
-=
-true
-;
 return
 this
 ;
