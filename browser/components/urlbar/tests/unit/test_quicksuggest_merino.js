@@ -276,7 +276,7 @@ toString
 )
 ;
 await
-UrlbarTestUtils
+QuickSuggestTestUtils
 .
 ensureQuickSuggestInit
 (

@@ -325,11 +325,6 @@ helpUrl
 {
 return
 (
-this
-.
-_helpUrl
-|
-|
 Services
 .
 urlFormatter
@@ -1598,10 +1593,6 @@ UrlbarQuickSuggest
 _addedResultInLastQuery
 =
 false
-;
-_helpUrl
-=
-undefined
 ;
 }
 var

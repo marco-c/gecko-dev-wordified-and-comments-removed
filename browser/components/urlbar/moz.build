@@ -283,6 +283,13 @@ TESTING_JS_MODULES
 "
 tests
 /
+QuickSuggestTestUtils
+.
+jsm
+"
+"
+tests
+/
 UrlbarTestUtils
 .
 jsm
