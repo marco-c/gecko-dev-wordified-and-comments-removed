@@ -1367,6 +1367,11 @@ generateImpliedEndTags
 (
 )
 ;
+void
+generateImpliedEndTagsThoroughly
+(
+)
+;
 bool
 isSecondOnStackBody
 (
