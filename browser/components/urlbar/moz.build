@@ -141,6 +141,11 @@ UrlbarProviderHeuristicFallback
 jsm
 "
 "
+UrlbarProviderInputHistory
+.
+jsm
+"
+"
 UrlbarProviderInterventions
 .
 jsm
