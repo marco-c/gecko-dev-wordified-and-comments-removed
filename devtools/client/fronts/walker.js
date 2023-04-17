@@ -1413,7 +1413,7 @@ if
 !
 node
 .
-remoteFrame
+useChildTargetToFetchChildren
 )
 {
 return
@@ -1427,12 +1427,12 @@ options
 ;
 }
 const
-remoteTarget
+target
 =
 await
 node
 .
-connectToRemoteFrame
+connectToFrame
 (
 )
 ;
@@ -1441,7 +1441,7 @@ walker
 =
 (
 await
-remoteTarget
+target
 .
 getFront
 (
