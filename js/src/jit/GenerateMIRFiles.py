@@ -515,6 +515,8 @@ congruent_to
     
 alias_set
     
+possibly_calls
+    
 clone
 )
 :
@@ -1091,6 +1093,60 @@ n
 )
     
 if
+possibly_calls
+:
+        
+if
+possibly_calls
+=
+=
+"
+custom
+"
+:
+            
+code
++
+=
+"
+bool
+possiblyCalls
+(
+)
+const
+override
+;
+\
+\
+\
+n
+"
+        
+else
+:
+            
+code
++
+=
+"
+bool
+possiblyCalls
+(
+)
+const
+override
+{
+return
+true
+;
+}
+\
+\
+\
+n
+"
+    
+if
 clone
 :
         
@@ -1435,6 +1491,32 @@ alias_set
 str
 )
             
+possibly_calls
+=
+op
+.
+get
+(
+"
+possibly_calls
+"
+False
+)
+            
+assert
+possibly_calls
+is
+None
+or
+True
+or
+possibly_calls
+=
+=
+"
+custom
+"
+            
 clone
 =
 op
@@ -1476,6 +1558,8 @@ folds_to
 congruent_to
                 
 alias_set
+                
+possibly_calls
                 
 clone
             
