@@ -1417,13 +1417,6 @@ as_raw_handle
 )
 }
 }
-#
-[
-cfg
-(
-windows
-)
-]
 impl
 <
 T

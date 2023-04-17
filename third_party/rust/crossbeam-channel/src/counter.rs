@@ -52,6 +52,9 @@ chan
 C
 }
 pub
+(
+crate
+)
 fn
 new
 <
@@ -144,6 +147,9 @@ r
 )
 }
 pub
+(
+crate
+)
 struct
 Sender
 <
@@ -192,6 +198,9 @@ counter
 }
 }
 pub
+(
+crate
+)
 fn
 acquire
 (
@@ -253,6 +262,9 @@ counter
 }
 }
 pub
+(
+crate
+)
 unsafe
 fn
 release
@@ -423,6 +435,9 @@ counter
 }
 }
 pub
+(
+crate
+)
 struct
 Receiver
 <
@@ -471,6 +486,9 @@ counter
 }
 }
 pub
+(
+crate
+)
 fn
 acquire
 (
@@ -532,6 +550,9 @@ counter
 }
 }
 pub
+(
+crate
+)
 unsafe
 fn
 release

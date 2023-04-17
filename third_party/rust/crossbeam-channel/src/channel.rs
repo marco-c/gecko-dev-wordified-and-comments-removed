@@ -1404,7 +1404,7 @@ c
 |
 c
 .
-disconnect
+disconnect_senders
 (
 )
 )
@@ -3047,7 +3047,7 @@ c
 |
 c
 .
-disconnect
+disconnect_receivers
 (
 )
 )
@@ -5377,6 +5377,9 @@ oper
 }
 }
 pub
+(
+crate
+)
 unsafe
 fn
 write
@@ -5466,6 +5469,9 @@ msg
 }
 }
 pub
+(
+crate
+)
 unsafe
 fn
 read

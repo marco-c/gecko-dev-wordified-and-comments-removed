@@ -1035,10 +1035,6 @@ spawn
 move
 |
 |
--
->
-(
-)
 {
 struct
 Unwinder
@@ -1294,10 +1290,9 @@ _
 )
 =
 >
-assert
+panic
 !
 (
-false
 "
 try_write
 should
@@ -1316,10 +1311,9 @@ _
 )
 =
 >
-assert
+panic
 !
 (
-false
 "
 unexpected
 error

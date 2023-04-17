@@ -2334,6 +2334,9 @@ timeout
 inline
 ]
 pub
+(
+crate
+)
 fn
 select_deadline
 <

@@ -184,7 +184,7 @@ fetch_add
 bench
 ]
 fn
-compare_and_swap_u8
+compare_exchange_u8
 (
 b
 :
@@ -220,9 +220,12 @@ iter
 |
 |
 {
+let
+_
+=
 a
 .
-compare_and_swap
+compare_exchange
 (
 i
 i
@@ -620,7 +623,7 @@ fetch_add
 bench
 ]
 fn
-compare_and_swap_usize
+compare_exchange_usize
 (
 b
 :
@@ -656,9 +659,12 @@ iter
 |
 |
 {
+let
+_
+=
 a
 .
-compare_and_swap
+compare_exchange
 (
 i
 i

@@ -68,11 +68,7 @@ badge
 /
 license
 -
-MIT
-%
-20OR
-%
-20Apache
+MIT_OR_Apache
 -
 -
 2
@@ -268,9 +264,11 @@ https
 /
 discord
 .
-gg
+com
 /
-BBYwKq
+invite
+/
+JXYwgWZ
 )
 This
 crate

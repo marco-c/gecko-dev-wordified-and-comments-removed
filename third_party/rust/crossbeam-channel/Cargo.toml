@@ -129,7 +129,7 @@ version
 .
 5
 .
-0
+1
 "
 authors
 =
@@ -194,13 +194,6 @@ rs
 crossbeam
 -
 channel
-"
-readme
-=
-"
-README
-.
-md
 "
 keywords
 =
@@ -326,9 +319,7 @@ version
 "
 0
 .
-7
-.
-3
+8
 "
 [
 dev
@@ -344,9 +335,7 @@ version
 "
 0
 .
-1
-.
-15
+3
 "
 [
 features

@@ -27,6 +27,9 @@ crate
 Backoff
 ;
 pub
+(
+crate
+)
 struct
 SeqLock
 {
@@ -41,6 +44,9 @@ impl
 SeqLock
 {
 pub
+(
+crate
+)
 const
 fn
 new
@@ -77,6 +83,9 @@ new
 inline
 ]
 pub
+(
+crate
+)
 fn
 optimistic_read
 (
@@ -147,6 +156,9 @@ state_lo
 inline
 ]
 pub
+(
+crate
+)
 fn
 validate_read
 (
@@ -217,6 +229,9 @@ stamp
 inline
 ]
 pub
+(
+crate
+)
 fn
 write
 (
@@ -296,6 +311,9 @@ snooze
 }
 }
 pub
+(
+crate
+)
 struct
 SeqLockWriteGuard
 {
@@ -317,6 +335,9 @@ SeqLockWriteGuard
 inline
 ]
 pub
+(
+crate
+)
 fn
 abort
 (

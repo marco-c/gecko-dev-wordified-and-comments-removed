@@ -71,6 +71,9 @@ crossbeam_utils
 Backoff
 ;
 pub
+(
+crate
+)
 fn
 shuffle
 <
@@ -243,6 +246,9 @@ j
 ;
 }
 pub
+(
+crate
+)
 fn
 sleep_until
 (
@@ -316,6 +322,9 @@ now
 }
 }
 pub
+(
+crate
+)
 struct
 Spinlock
 <
@@ -342,6 +351,9 @@ T
 >
 {
 pub
+(
+crate
+)
 fn
 new
 (
@@ -379,6 +391,9 @@ value
 }
 }
 pub
+(
+crate
+)
 fn
 lock
 (
@@ -434,6 +449,9 @@ self
 }
 }
 pub
+(
+crate
+)
 struct
 SpinlockGuard
 <

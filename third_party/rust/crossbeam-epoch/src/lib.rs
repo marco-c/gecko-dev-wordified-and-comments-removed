@@ -69,6 +69,10 @@ extern
 crate
 core
 ;
+extern
+crate
+maybe_uninit
+;
 cfg_if
 !
 {
