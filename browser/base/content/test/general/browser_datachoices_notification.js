@@ -424,6 +424,8 @@ buttons
 =
 aNotification
 .
+buttonContainer
+.
 getElementsByTagName
 (
 "
