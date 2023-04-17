@@ -184,6 +184,10 @@ scheduler
 .
 yml
 -
+taskgraph
+.
+yml
+-
 webidl
 .
 yml
