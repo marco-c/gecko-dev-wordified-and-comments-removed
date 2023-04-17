@@ -1689,7 +1689,7 @@ countAutofillNodes
 )
 equalTo
 (
-14
+16
 )
 )
 mainSession
@@ -1891,7 +1891,7 @@ countAutofillNodes
 )
 equalTo
 (
-14
+16
 )
 )
 assertThat
@@ -2034,7 +2034,7 @@ assertThat
 "
 Should
 have
-seven
+nine
 visible
 nodes
 "
@@ -2051,7 +2051,7 @@ visible
 )
 equalTo
 (
-6
+8
 )
 )
 mainSession
