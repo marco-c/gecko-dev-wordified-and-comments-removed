@@ -1665,6 +1665,17 @@ BinaryName
 "
 initKeyEventJS
 "
+Pref
+=
+"
+dom
+.
+keyboardevent
+.
+init_key_event
+.
+enabled
+"
 ]
 void
 initKeyEvent
