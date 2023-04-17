@@ -21,6 +21,9 @@ mediacapture
 streams
 '
 '
+webrtc
+'
+'
 dom
 '
 ]
