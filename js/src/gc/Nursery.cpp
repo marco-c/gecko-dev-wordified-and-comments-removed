@@ -6138,8 +6138,9 @@ reason
 )
 )
 ;
-if
-(
+bool
+wasLongMinorGC
+=
 totalTime
 .
 ToMilliseconds
@@ -6149,6 +6150,10 @@ ToMilliseconds
 1
 .
 0
+;
+if
+(
+wasLongMinorGC
 )
 {
 rt
