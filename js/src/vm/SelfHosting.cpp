@@ -4141,7 +4141,7 @@ isObject
 {
 desc
 .
-setGetterObject
+setGetter
 (
 &
 getter
@@ -4164,7 +4164,7 @@ isUndefined
 {
 desc
 .
-setGetterObject
+setGetter
 (
 nullptr
 )
@@ -4201,7 +4201,7 @@ isObject
 {
 desc
 .
-setSetterObject
+setSetter
 (
 &
 setter
@@ -4224,7 +4224,7 @@ isUndefined
 {
 desc
 .
-setSetterObject
+setSetter
 (
 nullptr
 )

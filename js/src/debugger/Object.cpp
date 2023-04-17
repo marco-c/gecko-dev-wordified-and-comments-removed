@@ -11933,7 +11933,7 @@ false
 }
 desc
 .
-setGetterObject
+setGetter
 (
 get
 .
@@ -11986,7 +11986,7 @@ false
 }
 desc
 .
-setSetterObject
+setSetter
 (
 set
 .

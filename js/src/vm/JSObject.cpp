@@ -2338,7 +2338,7 @@ hasGet
 {
 desc
 .
-setGetterObject
+setGetter
 (
 getter
 )
@@ -2351,7 +2351,7 @@ hasSet
 {
 desc
 .
-setSetterObject
+setSetter
 (
 setter
 )
@@ -2533,7 +2533,7 @@ hasGetter
 {
 desc
 .
-setGetterObject
+setGetter
 (
 nullptr
 )
@@ -2551,7 +2551,7 @@ hasSetter
 {
 desc
 .
-setSetterObject
+setSetter
 (
 nullptr
 )

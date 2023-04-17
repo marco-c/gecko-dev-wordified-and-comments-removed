@@ -8686,7 +8686,7 @@ propertyInfo
 ;
 desc
 .
-setGetterObject
+setGetter
 (
 obj
 -
@@ -8699,7 +8699,7 @@ propInfo
 ;
 desc
 .
-setSetterObject
+setSetter
 (
 obj
 -
@@ -9033,7 +9033,7 @@ else
 {
 desc
 .
-setSetterObject
+setSetter
 (
 obj
 -
@@ -9094,7 +9094,7 @@ else
 {
 desc
 .
-setGetterObject
+setGetter
 (
 obj
 -
