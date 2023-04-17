@@ -1,0 +1,11 @@
+#
+ifndef
+JXL_EXPORT_H
+#
+define
+JXL_EXPORT_H
+#
+define
+JXL_EXPORT
+#
+endif
