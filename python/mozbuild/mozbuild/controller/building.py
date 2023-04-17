@@ -9042,19 +9042,6 @@ or
 }
 )
         
-append_env
-[
-"
-MAKE
-"
-]
-=
-self
-.
-_make_path
-(
-)
-        
 for
 line
 in
