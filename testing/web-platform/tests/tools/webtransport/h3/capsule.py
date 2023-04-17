@@ -369,6 +369,18 @@ self
 _final
         
 if
+len
+(
+data
+)
+=
+=
+0
+:
+            
+return
+        
+if
 self
 .
 _buffer
