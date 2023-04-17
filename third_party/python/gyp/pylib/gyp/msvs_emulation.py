@@ -456,6 +456,8 @@ isinstance
 element
 collections
 .
+abc
+.
 Iterable
 )
 and
@@ -568,6 +570,8 @@ isinstance
 (
 element
 collections
+.
+abc
 .
 Iterable
 )
@@ -688,6 +692,8 @@ isinstance
 (
 element
 collections
+.
+abc
 .
 Iterable
 )
