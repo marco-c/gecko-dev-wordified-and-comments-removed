@@ -621,6 +621,7 @@ aCapEngine
 const
 int
 capture_id
+const
 webrtc
 :
 :
@@ -661,13 +662,6 @@ const
 char
 *
 unique_idUTF8
-const
-unsigned
-int
-unique_idUTF8Length
-int
-&
-capture_id
 uint64_t
 aWindowID
 )
@@ -689,7 +683,7 @@ webrtc
 :
 :
 VideoCaptureCapability
-&
+*
 capability
 )
 ;
@@ -888,7 +882,10 @@ webrtc
 :
 :
 VideoCaptureCapability
+*
 mReplyCapability
+=
+nullptr
 ;
 nsCString
 mReplyDeviceName

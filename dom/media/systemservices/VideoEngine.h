@@ -149,12 +149,9 @@ SetAndroidObjects
 ;
 #
 endif
-void
+int32_t
 CreateVideoCapture
 (
-int32_t
-&
-id
 const
 char
 *
@@ -380,10 +377,6 @@ int32_t
 GenerateId
 (
 )
-;
-static
-int32_t
-sId
 ;
 }
 ;
