@@ -1879,9 +1879,6 @@ EventCounts
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -4159,9 +4156,6 @@ name
 PerformanceEventTiming
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
