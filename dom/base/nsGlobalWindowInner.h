@@ -1815,11 +1815,6 @@ get
 )
 ;
 }
-bool
-DialogsAreBeingAbused
-(
-)
-;
 nsIScriptContext
 *
 GetContextInternal
@@ -8058,15 +8053,6 @@ dom
 IDBFactory
 >
 mIndexedDB
-;
-uint32_t
-mDialogAbuseCount
-;
-TimeStamp
-mLastDialogQuitTime
-;
-bool
-mAreDialogsEnabled
 ;
 bool
 mObservingRefresh
