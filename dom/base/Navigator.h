@@ -473,6 +473,11 @@ nsAString
 aResult
 )
 ;
+bool
+GlobalPrivacyControl
+(
+)
+;
 Geolocation
 *
 GetGeolocation
