@@ -228,7 +228,7 @@ cd
 MOZ_FETCHES_DIR
 &
 &
-python
+python3
 tools
 /
 fuzzing
