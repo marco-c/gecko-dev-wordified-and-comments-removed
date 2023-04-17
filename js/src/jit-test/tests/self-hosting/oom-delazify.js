@@ -1,0 +1,12 @@
+oomTest
+(
+(
+)
+=
+>
+Object
+.
+bind
+(
+)
+)
