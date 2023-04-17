@@ -274,6 +274,19 @@ line
             
 return
         
+if
+CodespellProcess
+.
+_fix
+:
+            
+CodespellProcess
+.
+fixed
++
+=
+1
+        
 m
 =
 re
@@ -308,19 +321,6 @@ m
 :
             
 return
-        
-if
-CodespellProcess
-.
-_fix
-:
-            
-CodespellProcess
-.
-fixed
-+
-=
-1
         
 res
 =
