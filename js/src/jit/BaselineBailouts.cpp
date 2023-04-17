@@ -7072,6 +7072,17 @@ isBailoutJS
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+cx
+-
+>
+isExceptionPending
+(
+)
+)
+;
 TraceLoggerThread
 *
 logger

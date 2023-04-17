@@ -54,12 +54,6 @@ obj
 {
 AutoUnsafeCallWithABI
 unsafe
-(
-UnsafeABIStrictness
-:
-:
-AllowPendingExceptions
-)
 ;
 JSObject
 *
