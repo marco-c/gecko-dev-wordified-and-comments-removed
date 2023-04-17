@@ -508,6 +508,15 @@ false
 "
 quicksuggest
 .
+onboardingDialogChoice
+"
+"
+"
+]
+[
+"
+quicksuggest
+.
 remoteSettings
 .
 enabled
