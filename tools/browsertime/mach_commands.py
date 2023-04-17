@@ -3626,6 +3626,8 @@ CommandArgument
 -
 -
 check
+-
+browsertime
 "
 default
 =
@@ -3747,7 +3749,7 @@ skip_cache
 =
 False
     
-check
+check_browsertime
 =
 False
     
@@ -4012,7 +4014,7 @@ return
 1
     
 if
-check
+check_browsertime
 :
         
 return
