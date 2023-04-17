@@ -13592,7 +13592,7 @@ firstEditableLeaf
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 *
 nextSibling
@@ -24344,7 +24344,7 @@ child
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 aNode
 {
@@ -24471,7 +24471,7 @@ child
 HTMLEditUtils
 :
 :
-GetLastLeafChild
+GetLastLeafContent
 (
 aNode
 {

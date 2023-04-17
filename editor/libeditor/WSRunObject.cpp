@@ -11166,7 +11166,7 @@ HasChildren
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 *
 child
@@ -11600,7 +11600,7 @@ HasChildren
 HTMLEditUtils
 :
 :
-GetLastLeafChild
+GetLastLeafContent
 (
 *
 previousChild

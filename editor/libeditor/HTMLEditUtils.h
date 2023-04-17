@@ -2261,7 +2261,7 @@ LeafNodeType
 static
 nsIContent
 *
-GetLastLeafChild
+GetLastLeafContent
 (
 nsINode
 &
@@ -2379,7 +2379,7 @@ nullptr
 static
 nsIContent
 *
-GetFirstLeafChild
+GetFirstLeafContent
 (
 const
 nsINode
@@ -2758,7 +2758,7 @@ child
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 *
 nextContent
@@ -3024,7 +3024,7 @@ child
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 *
 nextContent
@@ -3304,7 +3304,7 @@ child
 HTMLEditUtils
 :
 :
-GetLastLeafChild
+GetLastLeafContent
 (
 *
 previousContent
@@ -3586,7 +3586,7 @@ child
 HTMLEditUtils
 :
 :
-GetLastLeafChild
+GetLastLeafContent
 (
 *
 previousContent

@@ -5119,7 +5119,7 @@ lastLeafContent
 HTMLEditUtils
 :
 :
-GetLastLeafChild
+GetLastLeafContent
 (
 *
 aPoint
@@ -5366,7 +5366,7 @@ firstLeafContent
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 *
 point
@@ -5681,7 +5681,7 @@ Forward
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 *
 sibling
@@ -5691,7 +5691,7 @@ leafNodeTypes
 HTMLEditUtils
 :
 :
-GetLastLeafChild
+GetLastLeafContent
 (
 *
 sibling
