@@ -1302,6 +1302,8 @@ aCtx
 drawRect
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 mFrame
 -
@@ -1367,7 +1369,14 @@ PaintTitle
 (
 *
 aCtx
-GetPaintRect
+mFrame
+-
+>
+InkOverflowRectRelativeToSelf
+(
+)
++
+ToReferenceFrame
 (
 )
 ToReferenceFrame
