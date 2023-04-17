@@ -480,15 +480,6 @@ dom
 :
 indexedDB
 {
-namespace
-{
-const
-uint32_t
-kFileCopyBufferSize
-=
-32768
-;
-}
 ThreadLocal
 :
 :
