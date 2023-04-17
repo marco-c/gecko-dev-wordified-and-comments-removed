@@ -8,11 +8,31 @@ response
 )
 :
     
+delay
+=
+float
+(
+request
+.
+GET
+.
+first
+(
+b
+"
+delay
+"
+2000
+)
+)
+/
+1000
+    
 time
 .
 sleep
 (
-2
+delay
 )
     
 return
