@@ -457,7 +457,7 @@ KillFullGCTimer
 ;
 static
 void
-KillInterSliceGCRunner
+KillGCRunner
 (
 )
 ;
