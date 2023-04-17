@@ -5762,7 +5762,7 @@ toObject
 )
 )
 ;
-uint32_t
+uint64_t
 length
 ;
 if

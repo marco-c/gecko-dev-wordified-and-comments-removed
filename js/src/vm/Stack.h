@@ -3217,7 +3217,7 @@ init
 JSContext
 *
 cx
-unsigned
+uint64_t
 argc
 )
 {
