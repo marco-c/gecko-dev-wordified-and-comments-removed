@@ -133,6 +133,15 @@ h
 DevToolsModules
 (
 "
+analyze
+-
+input
+-
+string
+.
+js
+"
+"
 js
 -
 property
