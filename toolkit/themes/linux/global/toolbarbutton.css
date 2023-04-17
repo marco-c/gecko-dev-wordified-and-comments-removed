@@ -308,9 +308,6 @@ important
 ;
 }
 toolbarbutton
-:
-where
-(
 [
 checked
 =
@@ -318,7 +315,6 @@ checked
 true
 "
 ]
-)
 {
 color
 :
@@ -327,11 +323,7 @@ ButtonText
 }
 toolbarbutton
 :
-where
-(
-:
 hover
-)
 {
 color
 :
@@ -342,9 +334,6 @@ buttonhovertext
 ;
 }
 toolbarbutton
-:
-where
-(
 :
 hover
 :
@@ -360,11 +349,7 @@ true
 "
 ]
 )
-)
 toolbarbutton
-:
-where
-(
 [
 open
 =
@@ -372,7 +357,6 @@ open
 true
 "
 ]
-)
 {
 color
 :
@@ -380,9 +364,6 @@ ButtonText
 ;
 }
 toolbarbutton
-:
-where
-(
 [
 disabled
 =
@@ -390,7 +371,6 @@ disabled
 true
 "
 ]
-)
 {
 color
 :
