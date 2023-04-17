@@ -465,6 +465,9 @@ in
 &
 [
 "
+cs_linear_gradient
+"
+"
 cs_radial_gradient
 "
 "
