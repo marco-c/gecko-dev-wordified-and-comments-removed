@@ -23865,6 +23865,15 @@ ClearAllPages
 )
 ;
 }
+namespace
+geckoprofiler
+:
+:
+markers
+:
+:
+detail
+{
 Maybe
 <
 uint64_t
@@ -23939,6 +23948,7 @@ WindowID
 return
 innerWindowID
 ;
+}
 }
 void
 profiler_thread_sleep
