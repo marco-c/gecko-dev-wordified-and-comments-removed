@@ -912,6 +912,17 @@ nsIRunnable
 aRunnable
 )
 ;
+static
+void
+MaybeStripOriginAttributes
+(
+bool
+aForceStrip
+OriginAttributes
+&
+aOriginAttributes
+)
+;
 private
 :
 ~
