@@ -80,6 +80,9 @@ class
 MOZCellDrawView
 ;
 class
+MOZSearchFieldCell
+;
+class
 NSProgressBarCell
 ;
 class
@@ -2398,13 +2401,9 @@ NSTextFieldCell
 *
 mTextFieldCell
 ;
-NSSearchFieldCell
+MOZSearchFieldCell
 *
 mSearchFieldCell
-;
-NSSearchFieldCell
-*
-mToolbarSearchFieldCell
 ;
 NSPopUpButtonCell
 *
