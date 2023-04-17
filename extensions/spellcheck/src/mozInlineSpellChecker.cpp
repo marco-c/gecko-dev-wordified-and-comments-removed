@@ -5042,9 +5042,11 @@ Collapsed
 (
 )
 )
+{
 return
 NS_OK
 ;
+}
 int32_t
 originalRangeCount
 =
@@ -5571,6 +5573,7 @@ i
 +
 +
 )
+{
 mInlineSpellChecker
 .
 RemoveRange
@@ -5584,12 +5587,15 @@ i
 ;
 }
 }
+}
 if
 (
 dontCheckWord
 )
+{
 continue
 ;
+}
 if
 (
 !
