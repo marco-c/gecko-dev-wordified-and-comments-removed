@@ -1709,14 +1709,6 @@ aPoint2
 )
 ;
 void
-ActivateProgram
-(
-ShaderProgramOGL
-*
-aProg
-)
-;
-void
 CleanupResources
 (
 )
@@ -2058,10 +2050,6 @@ gfx
 :
 IntRegion
 mCurrentFrameInvalidRegion
-;
-ShaderProgramOGL
-*
-mCurrentProgram
 ;
 }
 ;
