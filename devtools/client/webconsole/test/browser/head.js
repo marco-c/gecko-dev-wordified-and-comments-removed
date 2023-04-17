@@ -3611,10 +3611,11 @@ enabled
 "
 )
 ;
-openInNetMenuItem
+menuPopup
 .
-click
+activateItem
 (
+openInNetMenuItem
 )
 ;
 const
