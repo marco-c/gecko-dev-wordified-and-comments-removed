@@ -313,6 +313,10 @@ mIsDoneAddingChildren
 =
 true
 ;
+DescendantsChanged
+(
+)
+;
 }
 EventStates
 HTMLOutputElement
