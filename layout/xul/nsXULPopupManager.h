@@ -1862,7 +1862,7 @@ aDeselectMenu
 )
 ;
 void
-FirePopupShowingEvent
+BeginShowingPopup
 (
 nsIContent
 *

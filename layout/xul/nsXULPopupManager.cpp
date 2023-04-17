@@ -3785,7 +3785,7 @@ event
 NS_NewRunnableFunction
 (
 "
-FirePopupShowingEvent
+BeginShowingPopup
 "
 [
 =
@@ -3812,7 +3812,7 @@ pm
 pm
 -
 >
-FirePopupShowingEvent
+BeginShowingPopup
 (
 popupContent
 parentIsContextMenu
@@ -3848,7 +3848,7 @@ forget
 }
 else
 {
-FirePopupShowingEvent
+BeginShowingPopup
 (
 popupContent
 parentIsContextMenu
@@ -3943,7 +3943,7 @@ MenuPopupAnchorType_Node
 aAttributesOverride
 )
 ;
-FirePopupShowingEvent
+BeginShowingPopup
 (
 aPopup
 aIsContextMenu
@@ -4079,7 +4079,7 @@ aYPos
 aIsContextMenu
 )
 ;
-FirePopupShowingEvent
+BeginShowingPopup
 (
 aPopup
 aIsContextMenu
@@ -4574,7 +4574,7 @@ aRect
 aAttributesOverride
 )
 ;
-FirePopupShowingEvent
+BeginShowingPopup
 (
 aPopup
 aIsContextMenu
@@ -4648,7 +4648,7 @@ MenuPopupAnchorType_Node
 false
 )
 ;
-FirePopupShowingEvent
+BeginShowingPopup
 (
 aPopup
 false
@@ -4792,7 +4792,7 @@ aYPos
 false
 )
 ;
-FirePopupShowingEvent
+BeginShowingPopup
 (
 aPopup
 false
@@ -7145,7 +7145,7 @@ void
 nsXULPopupManager
 :
 :
-FirePopupShowingEvent
+BeginShowingPopup
 (
 nsIContent
 *
