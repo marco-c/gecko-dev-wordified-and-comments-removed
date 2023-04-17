@@ -33,6 +33,8 @@ NS_DECL_NSIHTTPAUTHMANAGER
 nsHttpAuthManager
 (
 )
+=
+default
 ;
 [
 [
@@ -57,10 +59,16 @@ default
 nsHttpAuthCache
 *
 mAuthCache
+{
+nullptr
+}
 ;
 nsHttpAuthCache
 *
 mPrivateAuthCache
+{
+nullptr
+}
 ;
 }
 ;

@@ -365,10 +365,6 @@ TRRServiceChannel
 (
 this
 )
-mPushedStreamId
-(
-0
-)
 mProxyRequest
 (
 nullptr
