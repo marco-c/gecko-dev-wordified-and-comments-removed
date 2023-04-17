@@ -275,6 +275,9 @@ Capabilities
 fromJSON
 (
 capabilities
+this
+.
+path
 )
 ;
 }
