@@ -2476,12 +2476,6 @@ LayerTreeState
 ;
 RefPtr
 <
-Layer
->
-mRoot
-;
-RefPtr
-<
 GeckoContentController
 >
 mController

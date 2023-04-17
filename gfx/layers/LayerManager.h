@@ -550,7 +550,7 @@ GetRoot
 )
 {
 return
-mRoot
+nullptr
 ;
 }
 virtual
@@ -1145,12 +1145,6 @@ aContainsSVG
 }
 protected
 :
-RefPtr
-<
-Layer
->
-mRoot
-;
 gfx
 :
 :
