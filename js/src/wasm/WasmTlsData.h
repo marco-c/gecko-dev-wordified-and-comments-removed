@@ -115,7 +115,8 @@ Relaxed
 >
 interrupt
 ;
-uint8_t
+const
+uint32_t
 *
 addressOfNeedsIncrementalBarrier
 ;
