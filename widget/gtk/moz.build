@@ -145,7 +145,7 @@ nsGTKToolkit
 h
 "
 "
-nsIImageToPixbuf
+nsImageToPixbuf
 .
 h
 "
