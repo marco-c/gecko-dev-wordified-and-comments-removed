@@ -39,12 +39,11 @@ EXT_ID
 EXT_DIR_PATH
     
 PREF_BG_SW_ENABLED
-    
-PREF_PERSIST_TEMP_ADDONS
 )
 class
-PurgeExtensionServiceWorkersOnPrefDisabled
+TemporarilyInstalledAddonServiceWorkerNotPersisted
 (
+    
 MarionetteServiceWorkerTestCase
 )
 :
@@ -58,7 +57,7 @@ self
         
 super
 (
-PurgeExtensionServiceWorkersOnPrefDisabled
+TemporarilyInstalledAddonServiceWorkerNotPersisted
 self
 )
 .
@@ -79,16 +78,6 @@ marionette
 set_pref
 (
 PREF_BG_SW_ENABLED
-True
-)
-        
-self
-.
-marionette
-.
-set_pref
-(
-PREF_PERSIST_TEMP_ADDONS
 True
 )
         
@@ -123,7 +112,7 @@ True
         
 super
 (
-PurgeExtensionServiceWorkersOnPrefDisabled
+TemporarilyInstalledAddonServiceWorkerNotPersisted
 self
 )
 .
@@ -132,7 +121,7 @@ tearDown
 )
     
 def
-test_unregistering_service_worker_when_clearing_data
+test_temporarily_installed_addon_serviceWorkers_not_persisted
 (
 self
 )
@@ -140,18 +129,8 @@ self
         
 self
 .
-install_extension_with_service_worker
+install_temporary_extension_with_service_worker
 (
-)
-        
-self
-.
-marionette
-.
-set_pref
-(
-PREF_BG_SW_ENABLED
-False
 )
         
 self
@@ -175,7 +154,7 @@ is_extension_service_worker_registered
 )
     
 def
-install_extension_with_service_worker
+install_temporary_extension_with_service_worker
 (
 self
 )
