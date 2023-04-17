@@ -163,7 +163,15 @@ jq
 \
 lib32atomic1
 \
-lib32gcc1
+'
+lib32gcc
+(
+1
+|
+-
+s1
+)
+'
 \
 lib32stdc
 +

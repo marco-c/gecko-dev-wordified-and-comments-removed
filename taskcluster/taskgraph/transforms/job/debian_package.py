@@ -396,6 +396,12 @@ buster
 "
 :
 10
+        
+"
+bullseye
+"
+:
+11
     
 }
 [
@@ -1229,6 +1235,10 @@ adjust
         
 "
 (
+cd
+.
+.
+;
 mk
 -
 build
@@ -1238,6 +1248,10 @@ deps
 i
 -
 r
+{
+package
+}
+/
 debian
 /
 control
