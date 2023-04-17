@@ -533,7 +533,6 @@ return
 true
 ;
 }
-async
 updateState
 (
 props
@@ -562,7 +561,6 @@ try
 {
 animatedPropertyMap
 =
-await
 getAnimatedPropertyMap
 (
 animation

@@ -302,7 +302,6 @@ try
 {
 propertyMap
 =
-await
 getAnimatedPropertyMap
 (
 animation

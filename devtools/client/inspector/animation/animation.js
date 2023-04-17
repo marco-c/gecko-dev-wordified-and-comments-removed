@@ -1209,7 +1209,6 @@ true
 )
 ;
 }
-async
 getAnimatedPropertyMap
 (
 animation
@@ -1223,16 +1222,6 @@ animation
 state
 .
 properties
-|
-|
-(
-await
-animation
-.
-getProperties
-(
-)
-)
 ;
 const
 animatedPropertyMap
