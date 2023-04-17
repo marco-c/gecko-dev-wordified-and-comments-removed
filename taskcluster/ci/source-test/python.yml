@@ -1212,6 +1212,9 @@ treeherder
 symbol
 :
 mozlint
+tier
+:
+2
 run
 :
 using
