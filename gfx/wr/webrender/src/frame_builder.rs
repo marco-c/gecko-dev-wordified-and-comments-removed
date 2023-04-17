@@ -2501,6 +2501,8 @@ scene
 output_rect
 .
 size
+(
+)
 ;
 let
 screen_world_rect
@@ -2518,6 +2520,10 @@ global_device_pixel_scale
 )
 .
 round_out
+(
+)
+.
+to_rect
 (
 )
 ;
@@ -3029,7 +3035,7 @@ device_rect
 DeviceIntRect
 :
 :
-new
+from_origin_and_size
 (
 device_origin
 scene
@@ -3037,6 +3043,8 @@ scene
 output_rect
 .
 size
+(
+)
 )
 passes
 transform_palette
@@ -3229,6 +3237,10 @@ global_device_pixel_scale
 )
 .
 round
+(
+)
+.
+to_box2d
 (
 )
 ;

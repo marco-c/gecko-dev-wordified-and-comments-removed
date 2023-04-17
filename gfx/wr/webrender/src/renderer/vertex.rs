@@ -3086,14 +3086,8 @@ rect
 DeviceIntRect
 :
 :
-new
+from_size
 (
-DeviceIntPoint
-:
-:
-zero
-(
-)
 DeviceIntSize
 :
 :

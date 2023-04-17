@@ -1329,10 +1329,6 @@ alloc
 .
 rectangle
 .
-to_rect
-(
-)
-.
 cast_unit
 (
 )
@@ -1554,10 +1550,6 @@ serialize
 alloc
 .
 rectangle
-.
-to_rect
-(
-)
 .
 cast_unit
 (

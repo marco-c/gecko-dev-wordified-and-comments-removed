@@ -2371,7 +2371,7 @@ ctx
 global_device_pixel_scale
 target_rect
 .
-origin
+min
 .
 to_f32
 (
@@ -2380,7 +2380,7 @@ task_info
 .
 actual_rect
 .
-origin
+min
 )
 ;
 if
@@ -2434,17 +2434,13 @@ device_rect
 DeviceRect
 :
 :
-new
+from_size
 (
-DevicePoint
-:
-:
-zero
-(
-)
 target_rect
 .
 size
+(
+)
 .
 to_f32
 (
@@ -2470,7 +2466,7 @@ clone
 )
 target_rect
 .
-origin
+min
 .
 to_f32
 (
@@ -3049,7 +3045,7 @@ task_origin
 =
 target_rect
 .
-origin
+min
 .
 to_f32
 (
@@ -3467,7 +3463,7 @@ get_target_rect
 (
 )
 .
-inner_rect
+inner_box
 (
 task
 .

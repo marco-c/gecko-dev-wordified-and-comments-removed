@@ -2116,6 +2116,8 @@ view
 device_rect
 .
 size
+(
+)
 .
 into
 (

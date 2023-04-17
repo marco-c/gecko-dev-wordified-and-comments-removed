@@ -2475,8 +2475,6 @@ scene
 .
 device_rect
 .
-size
-.
 is_empty
 (
 )
@@ -2977,7 +2975,7 @@ scene
 .
 device_rect
 .
-origin
+min
 &
 self
 .

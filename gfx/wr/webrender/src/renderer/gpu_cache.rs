@@ -1669,7 +1669,7 @@ rect
 DeviceIntRect
 :
 :
-new
+from_origin_and_size
 (
 DeviceIntPoint
 :
