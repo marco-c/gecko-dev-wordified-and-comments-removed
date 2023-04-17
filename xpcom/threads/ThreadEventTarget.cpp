@@ -382,6 +382,13 @@ NS_ERROR_UNEXPECTED
 }
 SpinEventLoopUntil
 (
+"
+ThreadEventTarget
+:
+:
+Dispatch
+"
+_ns
 [
 &
 wrapper
