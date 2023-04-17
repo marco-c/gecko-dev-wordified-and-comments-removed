@@ -142,11 +142,6 @@ report
 identical
 -
 files
--
--
-color
-=
-always
 "
                 
 "

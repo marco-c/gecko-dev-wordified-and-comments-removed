@@ -122,6 +122,9 @@ fission
 '
 wayland
 '
+'
+socketprocess_networking
+'
 ]
 linux
 .
@@ -143,6 +146,9 @@ fission
 '
 '
 wayland
+'
+'
+socketprocess_networking
 '
 ]
 android
@@ -425,6 +431,9 @@ xorigin
 '
 '
 wayland
+'
+'
+socketprocess_networking
 '
 ]
 android
@@ -1154,6 +1163,9 @@ webrender
 sw
 -
 wayland
+'
+'
+socketprocess_networking
 '
 ]
 windows10
@@ -2438,6 +2450,9 @@ fission
 '
 '
 wayland
+'
+'
+socketprocess_networking
 '
 ]
 default
