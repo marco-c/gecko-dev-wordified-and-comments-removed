@@ -150,6 +150,7 @@ SurfaceInfo
 SurfaceIndex
 ROOT_SURFACE_INDEX
 SurfaceRenderTasks
+SubSliceIndex
 }
 ;
 use
@@ -2053,6 +2054,10 @@ global_screen_world_rect
 cast_unit
 (
 )
+SubSliceIndex
+:
+:
+DEFAULT
 frame_context
 .
 spatial_tree

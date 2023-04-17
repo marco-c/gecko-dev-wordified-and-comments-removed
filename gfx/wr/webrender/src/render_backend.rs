@@ -3651,6 +3651,7 @@ existing_tile_cache
 prepare_for_new_scene
 (
 params
+resource_cache
 )
 ;
 existing_tile_cache

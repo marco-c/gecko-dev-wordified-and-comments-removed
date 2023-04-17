@@ -203,6 +203,7 @@ ClusterFlags
 Picture3DContext
 PictureCompositeMode
 PicturePrimitive
+SubSliceIndex
 }
 ;
 use
@@ -465,6 +466,10 @@ pub
 rect_in_pic_space
 :
 PictureRect
+pub
+sub_slice_index
+:
+SubSliceIndex
 }
 impl
 BatchFilter
@@ -484,6 +489,16 @@ BatchFilter
 >
 bool
 {
+self
+.
+sub_slice_index
+=
+=
+other
+.
+sub_slice_index
+&
+&
 self
 .
 rect_in_pic_space
