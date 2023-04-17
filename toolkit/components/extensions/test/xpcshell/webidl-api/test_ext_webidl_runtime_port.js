@@ -480,7 +480,7 @@ Ci
 .
 mozIExtensionAPIRequestResult
 .
-RESULT_VALUE
+RETURN_VALUE
 value
 :
 "
