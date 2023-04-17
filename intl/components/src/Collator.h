@@ -469,6 +469,16 @@ char
 aLocale
 )
 ;
+static
+Result
+<
+Bcp47ExtEnumeration
+ICUError
+>
+GetBcp47KeywordValues
+(
+)
+;
 private
 :
 enum
