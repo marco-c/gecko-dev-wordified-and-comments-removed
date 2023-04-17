@@ -662,6 +662,13 @@ third_party
 /
 python
 /
+pip_tools
+pth
+:
+third_party
+/
+python
+/
 pluggy
 pth
 :
