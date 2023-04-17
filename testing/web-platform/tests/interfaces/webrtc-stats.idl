@@ -731,6 +731,17 @@ long
 long
 reportsSent
 ;
+double
+roundTripTime
+;
+double
+totalRoundTripTime
+;
+unsigned
+long
+long
+roundTripTimeMeasurements
+;
 }
 ;
 dictionary

@@ -511,12 +511,10 @@ codec
 BufferSource
 description
 ;
-required
 unsigned
 long
 codedWidth
 ;
-required
 unsigned
 long
 codedHeight
@@ -591,12 +589,12 @@ bitrate
 required
 unsigned
 long
-cropWidth
+width
 ;
 required
 unsigned
 long
-cropHeight
+height
 ;
 unsigned
 long

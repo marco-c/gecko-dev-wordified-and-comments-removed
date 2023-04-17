@@ -1192,6 +1192,9 @@ createSVGTransformFromMatrix
 optional
 DOMMatrix2DInit
 matrix
+=
+{
+}
 )
 ;
 Element
@@ -1605,6 +1608,9 @@ setMatrix
 optional
 DOMMatrix2DInit
 matrix
+=
+{
+}
 )
 ;
 undefined
@@ -1755,6 +1761,9 @@ createSVGTransformFromMatrix
 optional
 DOMMatrix2DInit
 matrix
+=
+{
+}
 )
 ;
 SVGTransform
