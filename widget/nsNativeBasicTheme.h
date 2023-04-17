@@ -1121,7 +1121,13 @@ EventStates
 )
 ;
 static
+mozilla
+:
+:
+Maybe
+<
 nscolor
+>
 GetScrollbarArrowColor
 (
 nscolor
@@ -1412,9 +1418,8 @@ ComputedStyle
 &
 )
 ;
-virtual
 sRGBColor
-ComputeScrollbarColor
+ComputeScrollbarTrackColor
 (
 nsIFrame
 *
@@ -1428,7 +1433,6 @@ aDocumentState
 UseSystemColors
 )
 ;
-virtual
 sRGBColor
 ComputeScrollbarThumbColor
 (
