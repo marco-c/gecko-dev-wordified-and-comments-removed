@@ -176,6 +176,11 @@ UrlbarProviderOpenTabs
 jsm
 "
 "
+UrlbarProviderPreloadedSites
+.
+jsm
+"
+"
 UrlbarProviderPrivateSearch
 .
 jsm

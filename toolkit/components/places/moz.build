@@ -365,13 +365,3 @@ error
 shadow
 "
 ]
-JAR_MANIFESTS
-+
-=
-[
-"
-jar
-.
-mn
-"
-]
