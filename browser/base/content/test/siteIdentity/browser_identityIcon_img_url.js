@@ -176,7 +176,9 @@ skin
 /
 icons
 /
-document
+page
+-
+portrait
 .
 svg
 "
@@ -278,7 +280,9 @@ skin
 /
 icons
 /
-document
+page
+-
+portrait
 .
 svg
 "
@@ -320,7 +324,9 @@ skin
 /
 icons
 /
-document
+page
+-
+portrait
 .
 svg
 "
@@ -480,7 +486,9 @@ skin
 /
 icons
 /
-document
+page
+-
+portrait
 .
 svg
 "
@@ -519,7 +527,9 @@ skin
 /
 icons
 /
-document
+page
+-
+portrait
 .
 svg
 "
