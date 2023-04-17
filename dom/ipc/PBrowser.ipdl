@@ -1994,6 +1994,8 @@ int32_t
 aTiltX
 int32_t
 aTiltY
+int32_t
+aButton
 uint64_t
 aObserverId
 )

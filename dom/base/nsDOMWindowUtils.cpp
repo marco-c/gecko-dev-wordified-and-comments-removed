@@ -6323,6 +6323,8 @@ int32_t
 aTiltX
 int32_t
 aTiltY
+int32_t
+aButton
 nsIObserver
 *
 aObserver
@@ -6410,6 +6412,7 @@ double
 uint32_t
 int32_t
 int32_t
+int32_t
 nsIObserver
 *
 >
@@ -6443,6 +6446,7 @@ aPressure
 aRotation
 aTiltX
 aTiltY
+aButton
 aObserver
 )
 )

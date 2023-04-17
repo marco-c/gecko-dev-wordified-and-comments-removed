@@ -2576,6 +2576,9 @@ tiltX
 tiltY
 =
 0
+button
+=
+0
 }
 =
 {
@@ -2624,6 +2627,7 @@ pressure
 twist
 tiltX
 tiltY
+button
 aObserver
 )
 ;

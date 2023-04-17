@@ -3490,6 +3490,8 @@ int32_t
 aTiltX
 int32_t
 aTiltY
+int32_t
+aButton
 nsIObserver
 *
 aObserver

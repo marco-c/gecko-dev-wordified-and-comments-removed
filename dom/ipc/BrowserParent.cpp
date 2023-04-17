@@ -10128,6 +10128,10 @@ int32_t
 &
 aTiltY
 const
+int32_t
+&
+aButton
+const
 uint64_t
 &
 aObserverId
@@ -10170,6 +10174,7 @@ aPressure
 aRotation
 aTiltX
 aTiltY
+aButton
 responder
 .
 GetObserver

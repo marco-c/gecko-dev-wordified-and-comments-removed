@@ -5151,6 +5151,16 @@ normal
 taps
 .
 *
+param
+aButton
+Same
+as
+MouseEvent
+:
+:
+button
+.
+*
 /
 void
 sendNativePenInput
@@ -5182,6 +5192,9 @@ aTiltX
 in
 long
 aTiltY
+in
+long
+aButton
 [
 optional
 ]
