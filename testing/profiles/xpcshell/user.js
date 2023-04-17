@@ -339,3 +339,17 @@ mode
 1
 )
 ;
+user_pref
+(
+"
+browser
+.
+topsites
+.
+contile
+.
+enabled
+"
+false
+)
+;
