@@ -2623,6 +2623,8 @@ security
 .
 ssl3
 .
+deprecated
+.
 rsa_des_ede3_sha
 "
 !
