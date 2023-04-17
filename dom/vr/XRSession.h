@@ -239,6 +239,7 @@ XRVisibilityState
 VisibilityState
 (
 )
+const
 ;
 XRRenderState
 *
@@ -418,6 +419,12 @@ aTransform
 bool
 aEmulatedPosition
 )
+;
+bool
+CanReportPoses
+(
+)
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 void
