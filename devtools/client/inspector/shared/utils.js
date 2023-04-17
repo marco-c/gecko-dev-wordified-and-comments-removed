@@ -3,16 +3,6 @@ use
 strict
 "
 ;
-const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
 loader
 .
 lazyRequireGetter
@@ -602,7 +592,7 @@ error
 )
 ;
 return
-promise
+Promise
 .
 reject
 (
