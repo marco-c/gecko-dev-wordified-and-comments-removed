@@ -86,6 +86,9 @@ debug
 bool
 relocs
 ;
+bool
+section_offsets
+;
 ObjdumpMode
 mode
 ;
@@ -187,7 +190,7 @@ ObjdumpNames
 section_names
 ;
 ObjdumpNames
-event_names
+tag_names
 ;
 ObjdumpNames
 segment_names

@@ -523,7 +523,7 @@ int
 We
 '
 ll
-implictly
+implicitly
 cast
 the
 int

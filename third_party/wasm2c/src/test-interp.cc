@@ -564,7 +564,7 @@ EXPECT_EQ
 0u
 module_desc_
 .
-events
+tags
 .
 size
 (
