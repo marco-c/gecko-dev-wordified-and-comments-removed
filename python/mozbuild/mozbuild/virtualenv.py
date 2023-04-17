@@ -1872,14 +1872,8 @@ distutils
 .
 sysconfig
         
-is_thunderbird
+thunderbird_dir
 =
-os
-.
-path
-.
-exists
-(
 os
 .
 path
@@ -1893,6 +1887,28 @@ topsrcdir
 comm
 "
 )
+        
+is_thunderbird
+=
+os
+.
+path
+.
+exists
+(
+thunderbird_dir
+)
+and
+bool
+(
+            
+os
+.
+listdir
+(
+thunderbird_dir
+)
+        
 )
         
 python_lib
