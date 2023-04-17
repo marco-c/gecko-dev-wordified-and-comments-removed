@@ -592,6 +592,20 @@ py
 "
     
 "
+toolkit
+/
+components
+/
+glean
+/
+build_scripts
+/
+mach_commands
+.
+py
+"
+    
+"
 tools
 /
 browsertime
