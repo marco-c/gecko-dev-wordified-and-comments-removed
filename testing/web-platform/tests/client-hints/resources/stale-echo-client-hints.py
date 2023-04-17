@@ -168,6 +168,17 @@ color
 -
 scheme
 "
+        
+b
+"
+sec
+-
+ch
+-
+viewport
+-
+height
+"
     
 ]
     
