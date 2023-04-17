@@ -1054,10 +1054,6 @@ webrender
 &
 !
 geckoview
-&
-&
-!
-swgl
 1
 -
 1
@@ -1166,10 +1162,6 @@ webrender
 &
 !
 geckoview
-&
-&
-!
-swgl
 1
 -
 1
