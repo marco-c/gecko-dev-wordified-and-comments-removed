@@ -3488,10 +3488,7 @@ attempt
 MOZ_ASSERT
 (
 !
-JSFunction
-:
-:
-class_
+FunctionClass
 .
 getConstruct
 (
@@ -3501,10 +3498,7 @@ getConstruct
 MOZ_ASSERT
 (
 !
-FunctionExtended
-:
-:
-class_
+ExtendedFunctionClass
 .
 getConstruct
 (

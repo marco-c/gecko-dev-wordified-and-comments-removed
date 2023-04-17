@@ -3259,10 +3259,7 @@ clasp
 ImmPtr
 (
 &
-JSFunction
-:
-:
-class_
+FunctionClass
 )
 label
 )
@@ -3277,10 +3274,7 @@ clasp
 ImmPtr
 (
 &
-FunctionExtended
-:
-:
-class_
+ExtendedFunctionClass
 )
 label
 )
@@ -3301,10 +3295,7 @@ clasp
 ImmPtr
 (
 &
-JSFunction
-:
-:
-class_
+FunctionClass
 )
 &
 isFunction
@@ -3320,10 +3311,7 @@ clasp
 ImmPtr
 (
 &
-FunctionExtended
-:
-:
-class_
+ExtendedFunctionClass
 )
 label
 )
