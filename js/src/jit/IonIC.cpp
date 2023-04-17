@@ -472,12 +472,6 @@ case
 CacheKind
 :
 :
-NewArray
-:
-case
-CacheKind
-:
-:
 NewObject
 :
 MOZ_CRASH

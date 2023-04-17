@@ -19336,12 +19336,6 @@ case
 CacheKind
 :
 :
-NewArray
-:
-case
-CacheKind
-:
-:
 NewObject
 :
 MOZ_CRASH
@@ -19499,12 +19493,6 @@ CacheKind
 :
 :
 GetIterator
-:
-case
-CacheKind
-:
-:
-NewArray
 :
 case
 CacheKind
