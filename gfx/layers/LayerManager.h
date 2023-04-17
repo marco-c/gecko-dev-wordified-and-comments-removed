@@ -942,15 +942,6 @@ return
 true
 ;
 }
-virtual
-int32_t
-GetMaxTextureSize
-(
-)
-const
-=
-0
-;
 void
 SetUserData
 (

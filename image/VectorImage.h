@@ -313,12 +313,9 @@ IntSize
 >
 GetImageContainerSize
 (
-layers
-:
-:
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 const
 gfx
 :
