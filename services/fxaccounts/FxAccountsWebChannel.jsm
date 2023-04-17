@@ -1618,6 +1618,13 @@ accountData
 .
 verifiedCanLinkAccount
 ;
+if
+(
+accountData
+.
+verified
+)
+{
 this
 .
 setPreviousAccountNameHashPref
@@ -1627,6 +1634,7 @@ accountData
 email
 )
 ;
+}
 await
 this
 .
