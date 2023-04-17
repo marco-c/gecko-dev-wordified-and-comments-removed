@@ -717,9 +717,9 @@ aboutlogins
 /
 icons
 /
-hide
--
 password
+-
+hide
 .
 svg
 (
@@ -727,9 +727,9 @@ content
 /
 icons
 /
-hide
--
 password
+-
+hide
 .
 svg
 )
@@ -765,8 +765,6 @@ aboutlogins
 /
 icons
 /
-show
--
 password
 .
 svg
@@ -775,8 +773,6 @@ content
 /
 icons
 /
-show
--
 password
 .
 svg
