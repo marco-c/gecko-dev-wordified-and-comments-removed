@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EditAction
 .
 h
@@ -4843,6 +4852,7 @@ NS_OK
 ;
 }
 class
+MOZ_STACK_CLASS
 mozInlineSpellChecker
 :
 :
