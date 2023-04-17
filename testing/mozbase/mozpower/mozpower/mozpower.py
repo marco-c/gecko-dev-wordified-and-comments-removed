@@ -11,6 +11,8 @@ import
 subprocess
 import
 re
+import
+six
 from
 .
 macintelpower
@@ -618,6 +620,10 @@ lower
             
 cpu
 =
+six
+.
+text_type
+(
 self
 .
 _get_processor_info
@@ -626,6 +632,7 @@ _get_processor_info
 .
 lower
 (
+)
 )
             
 if
