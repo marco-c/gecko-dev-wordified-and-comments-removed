@@ -119,7 +119,7 @@ Fuzzer
 (
 )
 ;
-void
+int
 Loop
 (
 Vector
@@ -130,7 +130,7 @@ SizedFile
 CorporaFiles
 )
 ;
-void
+int
 ReadAndExecuteSeedCorpora
 (
 Vector
@@ -278,6 +278,18 @@ StaticGracefulExitCallback
 (
 )
 ;
+static
+void
+GracefullyExit
+(
+)
+;
+static
+bool
+isGracefulExitRequested
+(
+)
+;
 int
 ExecuteCallback
 (
@@ -329,7 +341,7 @@ string
 Corpora
 )
 ;
-void
+int
 CrashResistantMergeInternalStep
 (
 const
@@ -417,7 +429,7 @@ Size
 )
 ;
 static
-void
+bool
 MaybeExitGracefully
 (
 )
@@ -461,7 +473,7 @@ InterruptCallback
 (
 )
 ;
-void
+bool
 MutateAndTestOne
 (
 )
