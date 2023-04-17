@@ -114,6 +114,9 @@ http
 ssl
 "
 "
+ftp
+"
+"
 socks
 "
 ]
