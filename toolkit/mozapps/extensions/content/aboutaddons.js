@@ -3777,6 +3777,8 @@ let
 rightAlignX
 =
 anchorLeft
++
+anchorWidth
 -
 panelWidth
 ;
@@ -3816,6 +3818,7 @@ arrowOffset
 rightAlignX
 +
 =
+-
 anchorWidth
 /
 2
