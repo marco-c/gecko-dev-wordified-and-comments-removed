@@ -24,6 +24,13 @@ ErrorType
 RecordedEvent
 }
 ;
+#
+[
+macro_use
+]
+mod
+ffi
+;
 pub
 mod
 metrics
@@ -49,7 +56,4 @@ test
 ]
 mod
 common_test
-;
-mod
-ffi
 ;
