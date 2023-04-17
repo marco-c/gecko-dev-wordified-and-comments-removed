@@ -3,11 +3,6 @@ UNIFIED_SOURCES
 =
 [
 "
-TestBidi
-.
-cpp
-"
-"
 TestCalendar
 .
 cpp
