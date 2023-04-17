@@ -1632,6 +1632,12 @@ nsIContentPolicy
 :
 TYPE_SAVEAS_DOWNLOAD
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_UA_FONT
+:
 return
 nsIContentSecurityPolicy
 :

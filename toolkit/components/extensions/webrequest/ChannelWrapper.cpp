@@ -4358,6 +4358,12 @@ ExtContentPolicy
 :
 TYPE_FONT
 :
+case
+ExtContentPolicy
+:
+:
+TYPE_UA_FONT
+:
 return
 MozContentPolicyType
 :
