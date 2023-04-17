@@ -597,6 +597,14 @@ mozilla
 :
 SpinEventLoopUntil
 (
+"
+TEST
+(
+TestHttpChannel
+PBAsyncOpen
+)
+"
+_ns
 [
 &
 ]

@@ -79,6 +79,16 @@ waitUntilDone
 {
 SpinEventLoopUntil
 (
+"
+net
+:
+:
+FuzzingStreamListener
+:
+:
+waitUntilDone
+"
+_ns
 [
 &
 ]
