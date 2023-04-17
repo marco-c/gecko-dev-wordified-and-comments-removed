@@ -1,0 +1,17 @@
+#
+ifndef
+RTC_BASE_SYSTEM_TIME_H_
+#
+define
+RTC_BASE_SYSTEM_TIME_H_
+namespace
+rtc
+{
+int64_t
+SystemTimeNanos
+(
+)
+;
+}
+#
+endif
