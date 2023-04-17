@@ -261,8 +261,6 @@ GetGMPVideoDecoderCallback
 &
 &
 aCallback
-uint32_t
-aDecryptorId
 )
 override
 ;
@@ -331,7 +329,6 @@ move
 (
 aCallback
 )
-0
 )
 ;
 }

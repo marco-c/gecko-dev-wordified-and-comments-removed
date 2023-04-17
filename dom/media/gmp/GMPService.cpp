@@ -2255,8 +2255,6 @@ GetGMPVideoDecoderCallback
 &
 &
 aCallback
-uint32_t
-aDecryptorId
 )
 {
 MOZ_ASSERT
@@ -2354,7 +2352,6 @@ __func__
 [
 rawCallback
 helper
-aDecryptorId
 ]
 (
 RefPtr
@@ -2413,7 +2410,6 @@ GetGMPVideoDecoder
 (
 &
 actor
-aDecryptorId
 )
 )
 )

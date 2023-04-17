@@ -548,8 +548,6 @@ void
 *
 *
 aPluginAPI
-uint32_t
-aDecryptorId
 )
 {
 GMP_LOG_DEBUG
@@ -568,8 +566,6 @@ p
 0x
 %
 p
-%
-u
 )
 this
 =
@@ -580,7 +576,6 @@ p
 aAPIName
 aHostAPI
 aPluginAPI
-aDecryptorId
 this
 )
 ;
@@ -629,8 +624,6 @@ p
 0x
 %
 p
-%
-u
 )
 this
 =
@@ -648,7 +641,6 @@ version
 aAPIName
 aHostAPI
 aPluginAPI
-aDecryptorId
 this
 )
 ;
@@ -701,8 +693,6 @@ p
 0x
 %
 p
-%
-u
 )
 this
 =
@@ -719,7 +709,6 @@ CreateCdmInstance
 aAPIName
 aHostAPI
 aPluginAPI
-aDecryptorId
 this
 )
 ;
@@ -783,8 +772,6 @@ p
 0x
 %
 p
-%
-u
 )
 this
 =
@@ -804,7 +791,6 @@ d
 aAPIName
 aHostAPI
 aPluginAPI
-aDecryptorId
 this
 version
 )

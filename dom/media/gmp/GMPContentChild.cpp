@@ -232,10 +232,6 @@ GMPContentChild
 :
 AllocPGMPVideoDecoderChild
 (
-const
-uint32_t
-&
-aDecryptorId
 )
 {
 return
@@ -305,10 +301,6 @@ RecvPGMPVideoDecoderConstructor
 PGMPVideoDecoderChild
 *
 aActor
-const
-uint32_t
-&
-aDecryptorId
 )
 {
 auto
@@ -347,7 +339,6 @@ Host
 )
 &
 vd
-aDecryptorId
 )
 ;
 if

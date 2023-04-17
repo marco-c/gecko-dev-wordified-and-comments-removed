@@ -6278,12 +6278,6 @@ mExpected
 ;
 RefPtr
 <
-nsIRunnable
->
-mSetDecryptorIdContinuation
-;
-RefPtr
-<
 gmp
 :
 :
