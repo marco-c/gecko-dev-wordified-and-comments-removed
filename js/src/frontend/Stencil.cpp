@@ -3319,7 +3319,7 @@ TraceNullableRoot
 (
 trc
 &
-lazy
+lazy_
 "
 compilation
 -
@@ -5757,7 +5757,9 @@ MOZ_ASSERT
 (
 input
 .
-lazy
+lazyOuterScript
+(
+)
 )
 ;
 RootedScript
@@ -5771,7 +5773,9 @@ CastFromLazy
 (
 input
 .
-lazy
+lazyOuterScript
+(
+)
 )
 )
 ;
@@ -6708,9 +6712,6 @@ infallibleAppend
 (
 input
 .
-lazy
--
->
 function
 (
 )
@@ -6726,7 +6727,9 @@ elem
 :
 input
 .
-lazy
+lazyOuterScript
+(
+)
 -
 >
 gcthings
@@ -6868,10 +6871,11 @@ isInitialStencil
 )
 =
 =
-!
 input
 .
-lazy
+isInitialStencil
+(
+)
 )
 ;
 if
@@ -7029,9 +7033,6 @@ toFunctionKey
 (
 input
 .
-lazy
--
->
 extent
 (
 )
