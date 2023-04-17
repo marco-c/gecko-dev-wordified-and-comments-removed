@@ -58,7 +58,7 @@ MOZ_RAII
 FakeRooted
 :
 public
-RootedBase
+RootedOperations
 <
 T
 FakeRooted
@@ -236,7 +236,7 @@ public
 js
 :
 :
-MutableHandleBase
+MutableHandleOperations
 <
 T
 FakeMutableHandle
