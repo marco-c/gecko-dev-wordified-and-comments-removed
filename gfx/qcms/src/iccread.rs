@@ -6108,13 +6108,6 @@ white_point_from_temp
 }
 #
 [
-repr
-(
-C
-)
-]
-#
-[
 derive
 (
 Clone
@@ -7145,13 +7138,6 @@ into
 )
 }
 }
-#
-[
-repr
-(
-C
-)
-]
 #
 [
 derive
