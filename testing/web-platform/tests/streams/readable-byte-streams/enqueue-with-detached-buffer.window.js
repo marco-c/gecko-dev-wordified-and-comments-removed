@@ -30,15 +30,13 @@ type
 bytes
 '
 pull
-(
-controller
-)
-{
+:
 t
 .
-step
+step_func
 (
 (
+controller
 )
 =
 >
@@ -95,8 +93,6 @@ error
 ;
 }
 )
-;
-}
 }
 )
 ;
