@@ -4446,6 +4446,12 @@ case
 ExtContentPolicy
 :
 :
+TYPE_PROXIED_WEBRTC_MEDIA
+:
+case
+ExtContentPolicy
+:
+:
 TYPE_INVALID
 :
 case

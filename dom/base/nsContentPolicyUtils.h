@@ -514,6 +514,11 @@ CASE_RETURN
 TYPE_UA_FONT
 )
 ;
+CASE_RETURN
+(
+TYPE_PROXIED_WEBRTC_MEDIA
+)
+;
 case
 nsIContentPolicy
 :

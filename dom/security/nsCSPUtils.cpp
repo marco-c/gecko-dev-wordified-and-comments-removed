@@ -1612,6 +1612,12 @@ case
 nsIContentPolicy
 :
 :
+TYPE_PROXIED_WEBRTC_MEDIA
+:
+case
+nsIContentPolicy
+:
+:
 TYPE_DOCUMENT
 :
 case
