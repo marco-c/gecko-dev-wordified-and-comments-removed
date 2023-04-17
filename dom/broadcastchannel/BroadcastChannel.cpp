@@ -209,13 +209,6 @@ h
 #
 include
 "
-nsIBFCacheEntry
-.
-h
-"
-#
-include
-"
 nsICookieJarSettings
 .
 h
