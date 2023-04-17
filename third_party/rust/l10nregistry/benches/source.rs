@@ -184,6 +184,7 @@ map
 |
 s
 |
+{
 fetcher
 .
 get_test_file_source
@@ -192,6 +193,7 @@ get_test_file_source
 s
 .
 name
+None
 get_locales
 (
 &
@@ -204,6 +206,7 @@ s
 .
 path_scheme
 )
+}
 )
 .
 collect

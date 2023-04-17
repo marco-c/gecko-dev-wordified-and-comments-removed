@@ -322,6 +322,7 @@ new
 "
 toolkit
 "
+None
 get_app_locales
 (
 )
@@ -346,6 +347,7 @@ new
 "
 browser
 "
+None
 get_app_locales
 (
 )
