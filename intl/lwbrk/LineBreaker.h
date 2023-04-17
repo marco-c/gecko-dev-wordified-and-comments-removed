@@ -87,6 +87,7 @@ Create
 (
 )
 ;
+static
 int32_t
 Next
 (
@@ -100,8 +101,9 @@ uint32_t
 aPos
 )
 ;
+static
 void
-GetJISx4051Breaks
+ComputeBreakPositions
 (
 const
 char16_t
@@ -120,8 +122,9 @@ uint8_t
 aBreakBefore
 )
 ;
+static
 void
-GetJISx4051Breaks
+ComputeBreakPositions
 (
 const
 uint8_t
