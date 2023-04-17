@@ -4114,7 +4114,7 @@ MOZ_ASSERT
 nsLayoutUtils
 :
 :
-IsAncestorFrameCrossDoc
+IsAncestorFrameCrossDocInProcess
 (
 RootReferenceFrame
 (
@@ -8255,7 +8255,7 @@ MOZ_ASSERT
 nsLayoutUtils
 :
 :
-IsAncestorFrameCrossDoc
+IsAncestorFrameCrossDocInProcess
 (
 RootReferenceFrame
 (
@@ -15072,7 +15072,7 @@ MOZ_ASSERT
 nsLayoutUtils
 :
 :
-IsAncestorFrameCrossDoc
+IsAncestorFrameCrossDocInProcess
 (
 aBuilder
 -
@@ -54303,7 +54303,7 @@ MOZ_ASSERT
 nsLayoutUtils
 :
 :
-IsAncestorFrameCrossDoc
+IsAncestorFrameCrossDocInProcess
 (
 aBuilder
 -
