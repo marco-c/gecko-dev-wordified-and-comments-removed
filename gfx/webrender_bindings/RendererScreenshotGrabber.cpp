@@ -323,13 +323,6 @@ Now
 handle
 screenshotSize
 aWindowSize
-reinterpret_cast
-<
-uintptr_t
->
-(
-this
-)
 }
 )
 ;
@@ -360,9 +353,6 @@ mProfilerScreenshots
 >
 SubmitScreenshot
 (
-item
-.
-mWindowIdentifier
 item
 .
 mWindowSize

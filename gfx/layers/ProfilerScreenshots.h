@@ -120,8 +120,6 @@ IntSize
 void
 SubmitScreenshot
 (
-uintptr_t
-aWindowIdentifier
 const
 gfx
 :
@@ -205,6 +203,13 @@ mMutex
 ;
 uint32_t
 mLiveSurfaceCount
+;
+uint32_t
+mWindowIdentifier
+;
+static
+uint32_t
+sWindowCounter
 ;
 }
 ;
