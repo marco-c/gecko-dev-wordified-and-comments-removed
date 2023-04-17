@@ -587,7 +587,7 @@ sampleTime
 ;
 aTxn
 .
-AppendDynamicProperties
+UpdateDynamicProperties
 (
 animations
 .
