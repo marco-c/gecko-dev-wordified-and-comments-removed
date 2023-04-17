@@ -7795,7 +7795,7 @@ void
 BrowserChild
 :
 :
-ProcessPendingColaescedTouchData
+ProcessPendingCoalescedTouchData
 (
 )
 {
@@ -9372,7 +9372,7 @@ mMessage
 eTouchStart
 )
 {
-ProcessPendingColaescedTouchData
+ProcessPendingCoalescedTouchData
 (
 )
 ;
@@ -9759,7 +9759,7 @@ StartObserver
 }
 else
 {
-ProcessPendingColaescedTouchData
+ProcessPendingCoalescedTouchData
 (
 )
 ;
