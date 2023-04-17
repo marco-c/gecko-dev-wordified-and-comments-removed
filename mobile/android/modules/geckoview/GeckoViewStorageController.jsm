@@ -142,12 +142,6 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_PLUGIN_DATA
-|
-Ci
-.
-nsIClearDataService
-.
 CLEAR_MEDIA_DEVICES
 ]
 [
