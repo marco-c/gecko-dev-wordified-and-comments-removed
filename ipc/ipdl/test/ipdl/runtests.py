@@ -720,6 +720,8 @@ append
 arg
 )
     
+test_result
+=
 (
 unittest
 .
@@ -730,6 +732,7 @@ TextTestRunner
 .
 run
 (
+        
 unittest
 .
 TestSuite
@@ -738,5 +741,18 @@ TestSuite
 oksuite
 errorsuite
 ]
+)
+    
+)
+    
+sys
+.
+exit
+(
+not
+test_result
+.
+wasSuccessful
+(
 )
 )
