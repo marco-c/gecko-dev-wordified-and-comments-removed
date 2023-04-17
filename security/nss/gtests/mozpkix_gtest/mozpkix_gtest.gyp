@@ -128,6 +128,11 @@ pkixbuild_tests
 cpp
 '
 '
+pkixc_tests
+.
+cpp
+'
+'
 pkixcert_extension_tests
 .
 cpp

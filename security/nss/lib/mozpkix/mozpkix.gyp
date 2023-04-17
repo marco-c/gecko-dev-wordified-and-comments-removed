@@ -113,6 +113,13 @@ cpp
 '
 lib
 /
+pkixc
+.
+cpp
+'
+'
+lib
+/
 pkixcert
 .
 cpp
