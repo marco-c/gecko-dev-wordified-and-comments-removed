@@ -26,15 +26,6 @@ let
 templates
 =
 [
-loggedoutvariants
-/
-variant_a
-loggedoutvariants
-/
-variant_b
-loggedoutvariants
-/
-variant_c
 saved_premiumshell
 saved_shell
 signup_shell
