@@ -951,6 +951,17 @@ sheet
 ;
 }
 }
+collection
+.
+each
+(
+|
+_
+_
+|
+true
+)
+;
 return
 Ok
 (
