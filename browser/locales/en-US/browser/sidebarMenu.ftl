@@ -97,3 +97,14 @@ label
 =
 Close
 Sidebar
+sidebar
+-
+close
+-
+button
+=
+.
+tooltiptext
+=
+Close
+sidebar

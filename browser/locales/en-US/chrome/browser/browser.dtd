@@ -584,17 +584,6 @@ Zoom
 >
 <
 !
-ENTITY
-sidebarCloseButton
-.
-tooltip
-"
-Close
-sidebar
-"
->
-<
-!
 -
 -
 Name
