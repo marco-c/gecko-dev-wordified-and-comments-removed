@@ -59,25 +59,6 @@ b
 *
 '
 )
-               
-(
-b
-'
-Access
--
-Control
--
-Allow
--
-Headers
-'
-b
-'
-service
--
-worker
-'
-)
 ]
     
 imported_content_type
