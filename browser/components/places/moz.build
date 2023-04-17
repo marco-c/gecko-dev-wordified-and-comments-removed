@@ -96,6 +96,11 @@ Snapshots
 .
 jsm
 "
+"
+SnapshotSelector
+.
+jsm
+"
 ]
 FINAL_TARGET_FILES
 .
