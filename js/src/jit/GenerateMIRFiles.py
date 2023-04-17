@@ -343,6 +343,14 @@ String
 "
 StringPolicy
 "
+    
+"
+Symbol
+"
+:
+"
+SymbolPolicy
+"
 }
 def
 decide_type_policy
