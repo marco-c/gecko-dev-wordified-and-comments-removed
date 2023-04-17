@@ -1008,6 +1008,7 @@ environ
 .
 get
 (
+                
 "
 SystemRoot
 "
@@ -1437,6 +1438,7 @@ path
 .
 join
 (
+                
 wpt_root
 "
 tools
@@ -2866,6 +2868,7 @@ logger
 .
 info
 (
+                
 "
 Automatically
 turning
@@ -5035,6 +5038,7 @@ browser
 .
 find_binary
 (
+                
 venv_path
 =
 self
@@ -5098,6 +5102,7 @@ browser
 .
 find_webdriver
 (
+                
 venv_path
 =
 self
@@ -5889,6 +5894,7 @@ argument
 unmodified
 "
 %
+                        
 kwargs
 [
 "
