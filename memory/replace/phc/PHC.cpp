@@ -787,12 +787,17 @@ kNumAllPages
 *
 kPageSize
 ;
+#
+ifdef
+DEBUG
 const
 uint8_t
 kAllocJunk
 =
 0xe4
 ;
+#
+endif
 static
 const
 Time

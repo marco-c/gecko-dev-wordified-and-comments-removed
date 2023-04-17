@@ -101,6 +101,9 @@ mozilla
 :
 dom
 ;
+#
+ifdef
+DEBUG
 static
 mozilla
 :
@@ -113,9 +116,6 @@ scrollanchor
 "
 )
 ;
-#
-ifdef
-DEBUG
 #
 define
 ANCHOR_LOG

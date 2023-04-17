@@ -402,6 +402,9 @@ mozilla
 :
 dom
 {
+#
+ifdef
+DEBUG
 static
 LazyLogModule
 gEventSourceLog
@@ -411,6 +414,8 @@ EventSource
 "
 )
 ;
+#
+endif
 #
 define
 SPACE_CHAR
