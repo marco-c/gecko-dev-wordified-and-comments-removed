@@ -846,6 +846,7 @@ instruction
 .
 "
 )
+;
 }
 }
 Ok
@@ -1031,12 +1032,6 @@ clippy
 :
 :
 map_err_ignore
-unknown_lints
-renamed_and_removed_lints
-clippy
-:
-:
-unknown_clippy_lints
 )
 ]
 pub

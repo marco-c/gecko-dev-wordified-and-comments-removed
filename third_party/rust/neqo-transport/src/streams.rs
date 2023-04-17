@@ -1260,7 +1260,6 @@ send
 .
 lost
 (
-&
 st
 )
 StreamRecoveryToken

@@ -4150,7 +4150,6 @@ stream_send
 fr
 .
 stream_id
-&
 buf
 )
 .

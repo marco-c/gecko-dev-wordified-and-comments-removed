@@ -90,12 +90,6 @@ Instant
 [
 allow
 (
-unknown_lints
-renamed_and_removed_lints
-clippy
-:
-:
-unknown_clippy_lints
 clippy
 :
 :

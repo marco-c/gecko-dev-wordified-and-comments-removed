@@ -236,7 +236,6 @@ assertions
 :
 assert_retry
 (
-&
 dgram
 .
 as_ref
@@ -510,7 +509,6 @@ assertions
 :
 assert_retry
 (
-&
 dgram
 .
 as_ref
@@ -1023,7 +1021,6 @@ assertions
 :
 assert_retry
 (
-&
 dgram
 .
 as_ref
@@ -1803,7 +1800,6 @@ assertions
 :
 assert_retry
 (
-&
 retry
 .
 as_ref
@@ -2491,7 +2487,6 @@ assertions
 :
 assert_retry
 (
-&
 retry
 .
 as_ref
@@ -2630,7 +2625,6 @@ assertions
 :
 assert_retry
 (
-&
 dgram
 .
 as_ref
@@ -2949,7 +2943,6 @@ hp
 =
 client_initial_aead_and_hp
 (
-&
 d_cid
 )
 ;

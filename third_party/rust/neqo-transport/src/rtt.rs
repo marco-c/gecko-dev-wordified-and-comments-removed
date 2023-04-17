@@ -119,6 +119,10 @@ from_millis
 1
 )
 ;
+pub
+(
+crate
+)
 const
 INITIAL_RTT
 :
@@ -267,6 +271,7 @@ init
 (
 rtt
 )
+;
 }
 }
 pub
@@ -678,6 +683,7 @@ ack_delay
 max
 (
 )
+;
 }
 t
 }
@@ -755,13 +761,6 @@ self
 .
 latest_rtt
 }
-#
-[
-cfg
-(
-test
-)
-]
 pub
 fn
 rttvar

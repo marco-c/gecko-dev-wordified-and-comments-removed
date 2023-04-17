@@ -698,6 +698,8 @@ now
 "
 GET
 "
+&
+(
 "
 https
 "
@@ -709,6 +711,7 @@ com
 "
 /
 "
+)
 &
 [
 ]
@@ -876,11 +879,11 @@ headers
 expected_headers
 )
 ;
-assert_eq
+assert
 !
 (
+!
 fin
-false
 )
 ;
 }
@@ -1064,6 +1067,8 @@ now
 "
 GET
 "
+&
+(
 "
 https
 "
@@ -1075,6 +1080,7 @@ com
 "
 /
 "
+)
 &
 [
 ]

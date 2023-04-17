@@ -3814,7 +3814,6 @@ assertions
 :
 assert_initial
 (
-&
 dgram
 .
 as_ref
@@ -5134,7 +5133,6 @@ assertions
 :
 assert_initial
 (
-&
 c_init
 .
 as_ref

@@ -1083,7 +1083,6 @@ encoder
 encode_header_block
 (
 conn
-&
 headers
 self
 .
@@ -1181,7 +1180,6 @@ d
 .
 encode
 (
-&
 buf
 )
 ;
@@ -1325,7 +1323,6 @@ stream_send
 self
 .
 stream_id
-&
 buf
 )
 Error

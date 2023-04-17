@@ -2508,7 +2508,6 @@ String
 :
 from_utf8_lossy
 (
-&
 reason_phrase
 )
 .

@@ -2006,9 +2006,12 @@ now
 (
 )
 method_tmp
+&
+(
 scheme_tmp
 host_tmp
 path_tmp
+)
 &
 hdrs
 priority

@@ -315,7 +315,6 @@ hkdf
 import_key
 (
 TLS_VERSION_1_3
-cipher
 &
 SALT
 [
@@ -339,7 +338,6 @@ hkdf
 import_key
 (
 TLS_VERSION_1_3
-cipher
 &
 IKM
 [

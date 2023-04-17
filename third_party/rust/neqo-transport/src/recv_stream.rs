@@ -595,7 +595,6 @@ streams
 .
 remove
 (
-&
 id
 )
 ;

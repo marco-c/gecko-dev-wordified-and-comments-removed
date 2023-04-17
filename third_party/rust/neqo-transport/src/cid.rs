@@ -1067,7 +1067,6 @@ Self
 :
 Target
 {
-&
 self
 .
 cid

@@ -202,9 +202,6 @@ import_key
 self
 .
 version
-self
-.
-cipher
 salt
 )
 ?

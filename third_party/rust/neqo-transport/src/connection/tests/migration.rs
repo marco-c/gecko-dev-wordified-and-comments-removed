@@ -4945,6 +4945,7 @@ Error
 :
 InvalidMigration
 )
+;
 }
 ;
 cant_migrate

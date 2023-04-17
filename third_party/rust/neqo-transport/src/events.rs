@@ -59,7 +59,10 @@ use
 crate
 :
 :
+{
 AppError
+Stats
+}
 ;
 use
 neqo_common
@@ -787,6 +790,11 @@ self
 max_queued_datagrams
 :
 usize
+stats
+:
+&
+mut
+Stats
 )
 {
 let
@@ -929,6 +937,13 @@ ConnectionEvent
 IncomingDatagramDropped
 )
 ;
+stats
+.
+incoming_datagram_dropped
++
+=
+1
+;
 }
 }
 pub
@@ -946,6 +961,11 @@ data
 [
 u8
 ]
+stats
+:
+&
+mut
+Stats
 )
 {
 self
@@ -953,6 +973,7 @@ self
 check_datagram_queued
 (
 max_queued_datagrams
+stats
 )
 ;
 self

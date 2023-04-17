@@ -2480,7 +2480,6 @@ cur
 .
 acknowledged
 (
-&
 ack
 )
 ;

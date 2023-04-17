@@ -938,6 +938,7 @@ conn
 stream_id
 )
 ?
+;
 }
 ConnectionEvent
 :

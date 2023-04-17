@@ -2979,7 +2979,6 @@ datav
 .
 copy_from_slice
 (
-&
 data
 )
 ;
@@ -3034,7 +3033,6 @@ datav
 .
 copy_from_slice
 (
-&
 data
 )
 ;

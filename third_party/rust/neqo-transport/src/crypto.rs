@@ -2153,18 +2153,6 @@ CryptoDxState
 [
 allow
 (
-unknown_lints
-renamed_and_removed_lints
-clippy
-:
-:
-unknown_clippy_lints
-)
-]
-#
-[
-allow
-(
 clippy
 :
 :
@@ -2448,7 +2436,6 @@ hkdf
 import_key
 (
 TLS_VERSION_1_3
-cipher
 salt
 )
 .
@@ -2466,7 +2453,6 @@ hkdf
 import_key
 (
 TLS_VERSION_1_3
-cipher
 dcid
 )
 .
@@ -6805,7 +6791,6 @@ hkdf
 import_key
 (
 TLS_VERSION_1_3
-TLS_AES_128_GCM_SHA256
 &
 [
 0xaa
@@ -6967,7 +6952,6 @@ hkdf
 import_key
 (
 TLS_VERSION_1_3
-TLS_CHACHA20_POLY1305_SHA256
 SECRET
 )
 .
