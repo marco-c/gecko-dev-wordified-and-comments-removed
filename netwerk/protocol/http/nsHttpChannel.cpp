@@ -1121,11 +1121,8 @@ RESPONSE_FROM_CACHE
 )
 &
 &
-\
-(
 (
 req
-)
 !
 =
 mCachePump
@@ -1145,9 +1142,7 @@ RESPONSE_FROM_NETWORK
 &
 \
 (
-(
 req
-)
 !
 =
 mTransactionPump
@@ -3369,11 +3364,9 @@ Origin
 )
 )
 )
-{
 return
 NS_ERROR_UNKNOWN_HOST
 ;
-}
 if
 (
 mUpgradeProtocolCallback
@@ -5907,7 +5900,6 @@ HttpVersion
 :
 v1_1
 )
-{
 rv
 =
 mRequestHead
@@ -5928,9 +5920,7 @@ age
 true
 )
 ;
-}
 else
-{
 rv
 =
 mRequestHead
@@ -5949,7 +5939,6 @@ cache
 true
 )
 ;
-}
 MOZ_ASSERT
 (
 NS_SUCCEEDED
@@ -7532,7 +7521,6 @@ IsEmpty
 (
 )
 )
-{
 mResponseHead
 -
 >
@@ -7541,7 +7529,6 @@ SetContentType
 mContentTypeHint
 )
 ;
-}
 else
 if
 (
@@ -7574,7 +7561,6 @@ DefaultPort
 (
 )
 )
-{
 mResponseHead
 -
 >
@@ -7586,7 +7572,6 @@ TEXT_PLAIN
 )
 )
 ;
-}
 else
 {
 nsCOMPtr
@@ -8072,7 +8057,6 @@ HasContentCharset
 (
 )
 )
-{
 mResponseHead
 -
 >
@@ -8081,7 +8065,6 @@ SetContentCharset
 mContentCharsetHint
 )
 ;
-}
 if
 (
 mCacheEntry
@@ -8750,7 +8733,6 @@ Transport
 -
 Security
 "
-_ns
 )
 ;
 break
@@ -9177,10 +9159,8 @@ IsHTTPS
 |
 mPrivateBrowsing
 )
-{
 return
 ;
-}
 nsCOMPtr
 <
 nsITransportSecurityInfo
@@ -11525,13 +11505,11 @@ ProxyConnectFailed
 )
 )
 )
-{
 StoreProxyAuthPending
 (
 true
 )
 ;
-}
 LOG
 (
 (
@@ -14693,11 +14671,9 @@ contentLength
 ignoreMissingPartialLen
 )
 )
-{
 return
 NS_ERROR_NOT_RESUMABLE
 ;
-}
 nsresult
 rv
 =
@@ -14759,7 +14735,6 @@ IsEmpty
 (
 )
 )
-{
 Unused
 <
 <
@@ -14775,7 +14750,6 @@ Last_Modified
 val
 )
 ;
-}
 if
 (
 val
@@ -14829,8 +14803,6 @@ DebugOnly
 nsresult
 >
 rv
-{
-}
 ;
 rv
 =
@@ -14899,8 +14871,6 @@ DebugOnly
 nsresult
 >
 rv
-{
-}
 ;
 rv
 =
@@ -15589,7 +15559,6 @@ false
 ;
 }
 else
-{
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -15598,7 +15567,6 @@ transaction
 "
 )
 ;
-}
 return
 rv
 ;
@@ -16574,7 +16542,6 @@ mLoadFlags
 LOAD_INITIAL_DOCUMENT_URI
 )
 )
-{
 cacheEntryOpenFlags
 |
 =
@@ -16583,14 +16550,12 @@ nsICacheStorage
 :
 OPEN_PRIORITY
 ;
-}
 if
 (
 mLoadFlags
 &
 LOAD_BYPASS_LOCAL_CACHE_IF_BUSY
 )
-{
 cacheEntryOpenFlags
 |
 =
@@ -16599,7 +16564,6 @@ nsICacheStorage
 :
 OPEN_BYPASS_IF_BUSY
 ;
-}
 if
 (
 mPostID
@@ -16931,8 +16895,6 @@ DebugOnly
 nsresult
 >
 rv
-{
-}
 ;
 rv
 =
@@ -17124,6 +17086,7 @@ return
 NS_OK
 ;
 }
+else
 if
 (
 mRaceCacheWithNetwork
@@ -18173,7 +18136,6 @@ if
 !
 mRedirectedCachekeys
 )
-{
 mRedirectedCachekeys
 =
 MakeUnique
@@ -18186,7 +18148,6 @@ nsCString
 (
 )
 ;
-}
 else
 if
 (
@@ -18198,12 +18159,10 @@ Contains
 cacheKey
 )
 )
-{
 doValidation
 =
 true
 ;
-}
 LOG
 (
 (
@@ -18492,25 +18451,21 @@ if
 (
 mDidReval
 )
-{
 *
 aResult
 =
 ENTRY_NEEDS_REVALIDATION
 ;
-}
 else
 if
 (
 wantCompleteEntry
 )
-{
 *
 aResult
 =
 RECHECK_AFTER_WRITE_FINISHED
 ;
-}
 else
 {
 *
@@ -19341,7 +19296,6 @@ if
 (
 p
 )
-{
 cacheKey
 .
 Append
@@ -19352,9 +19306,7 @@ p
 spec
 )
 ;
-}
 else
-{
 cacheKey
 .
 Append
@@ -19362,7 +19314,6 @@ Append
 spec
 )
 ;
-}
 }
 nsresult
 DoUpdateExpirationTime
@@ -21228,12 +21179,10 @@ IsResumable
 (
 )
 )
-{
 doom
 =
 true
 ;
-}
 }
 else
 if
@@ -21242,12 +21191,10 @@ LoadCacheEntryIsWriteOnly
 (
 )
 )
-{
 doom
 =
 true
 ;
-}
 if
 (
 doom
@@ -22427,7 +22374,6 @@ challenge
 =
 nullptr
 )
-{
 authType
 .
 Assign
@@ -22438,9 +22384,7 @@ p
 challenge
 )
 ;
-}
 else
-{
 authType
 .
 Assign
@@ -22448,7 +22392,6 @@ Assign
 challenge
 )
 ;
-}
 }
 nsresult
 StoreAuthorizationMetaData
@@ -23592,11 +23535,9 @@ location
 )
 )
 )
-{
 return
 NS_ERROR_FAILURE
 ;
-}
 if
 (
 mLoadInfo
@@ -23631,12 +23572,10 @@ esc_Spaces
 locationBuf
 )
 )
-{
 location
 =
 locationBuf
 ;
-}
 mRedirectType
 =
 redirectType
@@ -23872,7 +23811,6 @@ redirectingBackToSameURI
 &
 redirectingBackToSameURI
 )
-{
 mCacheEntry
 -
 >
@@ -23881,7 +23819,6 @@ AsyncDoom
 nullptr
 )
 ;
-}
 PropagateReferenceIfNeeded
 (
 mURI
@@ -24100,7 +24037,6 @@ IsPermanentRedirect
 mRedirectType
 )
 )
-{
 redirectFlags
 =
 nsIChannelEventSink
@@ -24108,9 +24044,7 @@ nsIChannelEventSink
 :
 REDIRECT_PERMANENT
 ;
-}
 else
-{
 redirectFlags
 =
 nsIChannelEventSink
@@ -24118,7 +24052,6 @@ nsIChannelEventSink
 :
 REDIRECT_TEMPORARY
 ;
-}
 nsCOMPtr
 <
 nsIChannel
@@ -28595,13 +28528,11 @@ LoadPreferCacheLoadOverBypass
 )
 )
 )
-{
 mCaps
 |
 =
 NS_HTTP_REFRESH_DNS
 ;
-}
 if
 (
 gHttpHandler
@@ -30432,15 +30363,12 @@ if
 !
 mConnectionInfo
 )
-{
 *
 result
 =
 mProxyInfo
 ;
-}
 else
-{
 *
 result
 =
@@ -30451,7 +30379,6 @@ ProxyInfo
 (
 )
 ;
-}
 NS_IF_ADDREF
 (
 *
@@ -30477,7 +30404,6 @@ if
 (
 mTransaction
 )
-{
 *
 _retval
 =
@@ -30488,9 +30414,7 @@ GetDomainLookupStart
 (
 )
 ;
-}
 else
-{
 *
 _retval
 =
@@ -30498,7 +30422,6 @@ mTransactionTimings
 .
 domainLookupStart
 ;
-}
 return
 NS_OK
 ;
@@ -30518,7 +30441,6 @@ if
 (
 mTransaction
 )
-{
 *
 _retval
 =
@@ -30529,9 +30451,7 @@ GetDomainLookupEnd
 (
 )
 ;
-}
 else
-{
 *
 _retval
 =
@@ -30539,7 +30459,6 @@ mTransactionTimings
 .
 domainLookupEnd
 ;
-}
 return
 NS_OK
 ;
@@ -30559,7 +30478,6 @@ if
 (
 mTransaction
 )
-{
 *
 _retval
 =
@@ -30570,9 +30488,7 @@ GetConnectStart
 (
 )
 ;
-}
 else
-{
 *
 _retval
 =
@@ -30580,7 +30496,6 @@ mTransactionTimings
 .
 connectStart
 ;
-}
 return
 NS_OK
 ;
@@ -30600,7 +30515,6 @@ if
 (
 mTransaction
 )
-{
 *
 _retval
 =
@@ -30611,9 +30525,7 @@ GetTcpConnectEnd
 (
 )
 ;
-}
 else
-{
 *
 _retval
 =
@@ -30621,7 +30533,6 @@ mTransactionTimings
 .
 tcpConnectEnd
 ;
-}
 return
 NS_OK
 ;
@@ -30641,7 +30552,6 @@ if
 (
 mTransaction
 )
-{
 *
 _retval
 =
@@ -30652,9 +30562,7 @@ GetSecureConnectionStart
 (
 )
 ;
-}
 else
-{
 *
 _retval
 =
@@ -30662,7 +30570,6 @@ mTransactionTimings
 .
 secureConnectionStart
 ;
-}
 return
 NS_OK
 ;
@@ -30682,7 +30589,6 @@ if
 (
 mTransaction
 )
-{
 *
 _retval
 =
@@ -30693,9 +30599,7 @@ GetConnectEnd
 (
 )
 ;
-}
 else
-{
 *
 _retval
 =
@@ -30703,7 +30607,6 @@ mTransactionTimings
 .
 connectEnd
 ;
-}
 return
 NS_OK
 ;
@@ -30723,7 +30626,6 @@ if
 (
 mTransaction
 )
-{
 *
 _retval
 =
@@ -30734,9 +30636,7 @@ GetRequestStart
 (
 )
 ;
-}
 else
-{
 *
 _retval
 =
@@ -30744,7 +30644,6 @@ mTransactionTimings
 .
 requestStart
 ;
-}
 return
 NS_OK
 ;
@@ -30764,7 +30663,6 @@ if
 (
 mTransaction
 )
-{
 *
 _retval
 =
@@ -30775,9 +30673,7 @@ GetResponseStart
 (
 )
 ;
-}
 else
-{
 *
 _retval
 =
@@ -30785,7 +30681,6 @@ mTransactionTimings
 .
 responseStart
 ;
-}
 return
 NS_OK
 ;
@@ -30805,7 +30700,6 @@ if
 (
 mTransaction
 )
-{
 *
 _retval
 =
@@ -30816,9 +30710,7 @@ GetResponseEnd
 (
 )
 ;
-}
 else
-{
 *
 _retval
 =
@@ -30826,7 +30718,6 @@ mTransactionTimings
 .
 responseEnd
 ;
-}
 return
 NS_OK
 ;
@@ -32943,7 +32834,6 @@ LoadConcurrentCacheAccess
 ;
 }
 else
-{
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -32952,7 +32842,6 @@ request
 "
 )
 ;
-}
 }
 if
 (
@@ -35461,19 +35350,15 @@ request
 =
 mCachePump
 )
-{
 transportStatus
 =
 NS_NET_STATUS_READING
 ;
-}
 else
-{
 transportStatus
 =
 NS_NET_STATUS_RECEIVING_FROM
 ;
-}
 int64_t
 progressMax
 =
@@ -42242,6 +42127,7 @@ Test_triggerDelayedOpenCacheEntry
 )
 ;
 }
+else
 if
 (
 aTimer
@@ -42981,6 +42867,8 @@ aHeader
 )
 ;
 }
+else
+{
 return
 mTarget
 -
@@ -42992,6 +42880,7 @@ aValue
 false
 )
 ;
+}
 }
 public
 :

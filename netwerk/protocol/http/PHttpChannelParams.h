@@ -422,6 +422,10 @@ nsHttp
 ResolveAtom
 (
 value
+.
+get
+(
+)
 )
 ;
 MOZ_ASSERT
