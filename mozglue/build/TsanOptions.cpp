@@ -459,6 +459,13 @@ read
 n
 "
 "
+thread
+:
+StartupCache
+\
+n
+"
+"
 race
 :
 SkARGB32_Blitter
