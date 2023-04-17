@@ -3186,6 +3186,15 @@ hash
 update
 (
 token
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
         
 for
@@ -3199,6 +3208,15 @@ hash
 update
 (
 token
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
         
 hash
@@ -3480,7 +3498,7 @@ result
 in
 results
 .
-iteritems
+items
 (
 )
 :
@@ -3612,7 +3630,7 @@ open
 (
 zip_file_name
 "
-r
+rb
 "
 )
 as
@@ -3807,7 +3825,7 @@ open
 (
 zip_file_name
 "
-r
+rb
 "
 )
 as
@@ -4086,7 +4104,7 @@ open
 (
 tmp_file_name
 "
-r
+rb
 "
 )
 as

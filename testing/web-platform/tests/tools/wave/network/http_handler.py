@@ -473,6 +473,8 @@ raw_input
 .
 read
 (
+int
+(
 request
 .
 headers
@@ -484,6 +486,9 @@ Content
 -
 Length
 '
+-
+1
+)
 )
 )
         
@@ -492,6 +497,41 @@ method
 request
 .
 method
+        
+headers
+=
+{
+}
+        
+for
+k
+v
+in
+request
+.
+headers
+.
+items
+(
+)
+:
+            
+headers
+[
+k
+]
+=
+b
+"
+"
+.
+join
+(
+list
+(
+v
+)
+)
         
 try
 :
@@ -513,8 +553,6 @@ request
 method
 uri
 data
-request
-.
 headers
 )
             
