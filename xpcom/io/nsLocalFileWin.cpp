@@ -403,6 +403,15 @@ DRIVE_REMOTE
 4
 #
 endif
+#
+ifndef
+ERROR_DEVICE_HARDWARE_ERROR
+#
+define
+ERROR_DEVICE_HARDWARE_ERROR
+483L
+#
+endif
 namespace
 {
 nsresult
