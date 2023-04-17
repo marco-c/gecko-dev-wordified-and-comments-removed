@@ -75,7 +75,7 @@ Tab
 .
 accesskey
 =
-O
+w
 reload
 -
 tab

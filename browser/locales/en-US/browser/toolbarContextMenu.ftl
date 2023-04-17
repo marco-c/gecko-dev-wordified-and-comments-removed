@@ -77,7 +77,7 @@ Tab
 .
 accesskey
 =
-O
+w
 toolbar
 -
 context
