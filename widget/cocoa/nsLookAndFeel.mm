@@ -937,7 +937,7 @@ case
 ColorID
 :
 :
-MozMacButtonactivetext
+MozButtonactivetext
 :
 case
 ColorID
@@ -1110,6 +1110,12 @@ ColorID
 :
 :
 MozButtonhoverface
+:
+case
+ColorID
+:
+:
+MozButtonactiveface
 :
 color
 =

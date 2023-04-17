@@ -211,7 +211,7 @@ case
 ColorID
 :
 :
-MozMacButtonactivetext
+MozButtonactivetext
 :
 case
 ColorID
