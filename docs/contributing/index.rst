@@ -130,4 +130,4 @@ build
 building_mobile_firefox
 build
 /
-supported_configurations
+supported

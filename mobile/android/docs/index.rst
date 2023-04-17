@@ -40,4 +40,3 @@ maxdepth
 1
 adjust
 mma
-uitelemetry
