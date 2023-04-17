@@ -434,13 +434,11 @@ selection
 "
 )
 ;
-EventUtils
+contentAreaContextMenuPopup
 .
-synthesizeMouseAtCenter
+activateItem
 (
 item
-{
-}
 )
 ;
 await
