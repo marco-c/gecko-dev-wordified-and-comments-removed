@@ -2744,17 +2744,6 @@ uint32_t
 end
 )
 ;
-void
-initSlots
-(
-const
-Value
-*
-vector
-uint32_t
-length
-)
-;
 #
 ifdef
 DEBUG
