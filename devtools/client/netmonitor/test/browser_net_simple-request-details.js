@@ -34,7 +34,6 @@ l10n
 ;
 const
 {
-tab
 monitor
 }
 =
@@ -155,11 +154,8 @@ monitor
 1
 )
 ;
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;

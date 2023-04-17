@@ -12,7 +12,6 @@ function
 {
 const
 {
-tab
 monitor
 }
 =
@@ -491,6 +490,7 @@ teardown
 monitor
 )
 ;
+async
 function
 reloadAndWait
 (
@@ -505,11 +505,8 @@ monitor
 1
 )
 ;
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;

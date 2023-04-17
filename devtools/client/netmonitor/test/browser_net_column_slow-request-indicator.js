@@ -36,7 +36,6 @@ SLOW_THRESHOLD
 const
 {
 monitor
-tab
 }
 =
 await
@@ -113,11 +112,8 @@ monitor
 2
 )
 ;
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;

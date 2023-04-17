@@ -13,7 +13,6 @@ async
 {
 const
 {
-tab
 monitor
 }
 =
@@ -120,11 +119,8 @@ waitForTimelineMarkers
 monitor
 )
 ;
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;
