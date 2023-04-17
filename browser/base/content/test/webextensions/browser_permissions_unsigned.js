@@ -23,9 +23,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 warning
 .
