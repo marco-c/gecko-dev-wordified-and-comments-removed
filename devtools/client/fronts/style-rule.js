@@ -40,16 +40,6 @@ rule
 "
 )
 ;
-const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
 loader
 .
 lazyRequireGetter
@@ -677,7 +667,7 @@ _originalLocation
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -701,7 +691,7 @@ parentSheet
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
