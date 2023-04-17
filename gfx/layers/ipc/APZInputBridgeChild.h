@@ -92,6 +92,13 @@ LayoutDeviceIntPoint
 aRefPoint
 EventMessage
 aEventMessage
+const
+Maybe
+<
+ScrollableLayerGuid
+>
+&
+aTargetGuid
 )
 override
 ;

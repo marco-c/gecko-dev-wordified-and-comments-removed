@@ -10794,6 +10794,13 @@ LayoutDeviceIntPoint
 aRefPoint
 EventMessage
 aEventMessage
+const
+Maybe
+<
+ScrollableLayerGuid
+>
+&
+aTargetGuid
 )
 {
 APZThreadUtils
@@ -10875,6 +10882,7 @@ txn
 OnMouseMove
 (
 point
+aTargetGuid
 )
 ;
 return

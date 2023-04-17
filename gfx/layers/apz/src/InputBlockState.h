@@ -653,6 +653,13 @@ const
 ScreenIntPoint
 &
 aPoint
+const
+Maybe
+<
+ScrollableLayerGuid
+>
+&
+aTargetGuid
 )
 ;
 bool

@@ -295,6 +295,9 @@ LayoutDeviceIntPoint
 aRefPoint
 EventMessage
 aEventMessage
+ScrollableLayerGuid
+?
+aTargetGuid
 )
 ;
 sync

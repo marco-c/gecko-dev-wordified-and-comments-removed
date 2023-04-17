@@ -210,6 +210,13 @@ const
 EventMessage
 &
 aEventMessage
+const
+Maybe
+<
+ScrollableLayerGuid
+>
+&
+aTargetGuid
 )
 ;
 mozilla

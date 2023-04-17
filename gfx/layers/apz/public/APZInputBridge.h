@@ -459,6 +459,13 @@ LayoutDeviceIntPoint
 aRefPoint
 EventMessage
 aEventMessage
+const
+Maybe
+<
+ScrollableLayerGuid
+>
+&
+aTargetGuid
 )
 =
 0
