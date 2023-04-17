@@ -19,12 +19,10 @@ size_t
 requestedSize
 )
 ;
-MFBT_API
+extern
+MFBT_DATA
 size_t
-mozalloc_get_oom_abort_size
-(
-void
-)
+gOOMAllocationSize
 ;
 #
 endif
