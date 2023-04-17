@@ -95,7 +95,7 @@ IsEmpty
 ;
 SessionStoreRestoreData
 *
-FindDataForChild
+FindChild
 (
 BrowsingContext
 *

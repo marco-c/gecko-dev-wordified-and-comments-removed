@@ -1643,11 +1643,6 @@ URI
 ?
 currentURI
 ;
-void
-clearRestoreState
-(
-)
-;
 }
 ;
 [
