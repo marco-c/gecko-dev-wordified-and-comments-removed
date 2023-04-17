@@ -851,13 +851,6 @@ TextureHost
 h
 "
 "
-composite
-/
-TiledContentHost
-.
-h
-"
-"
 CompositionRecorder
 .
 h
@@ -2427,13 +2420,6 @@ cpp
 composite
 /
 TextureHost
-.
-cpp
-"
-"
-composite
-/
-TiledContentHost
 .
 cpp
 "
