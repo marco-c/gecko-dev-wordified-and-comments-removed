@@ -1015,9 +1015,7 @@ None
     
 vendor
 =
-"
-Mozilla
-"
+None
     
 displayname
 =
@@ -1033,11 +1031,18 @@ identity
 =
 None
     
-arch
+publisher
 =
 None
     
-publisher
+publisher_display_name
+=
+"
+Mozilla
+Corporation
+"
+    
+arch
 =
 None
     
@@ -1317,6 +1322,20 @@ App
 value
 =
 "
+Vendor
+"
+)
+        
+dict
+(
+section
+=
+"
+App
+"
+value
+=
+"
 Version
 "
 )
@@ -1348,7 +1367,29 @@ displayname
 =
 displayname
 or
+"
+Mozilla
+{
+}
+"
+.
+format
+(
 first
+)
+    
+second
+=
+next
+(
+values
+)
+    
+vendor
+=
+vendor
+or
+second
     
 if
 not
@@ -1673,15 +1714,14 @@ format
 (
 vendor
 displayname
+)
 .
 replace
 (
 "
 "
 "
-.
 "
-)
 )
     
 package_output_name
@@ -2410,6 +2450,12 @@ APPX_PUBLISHER
 publisher
         
 "
+APPX_PUBLISHER_DISPLAY_NAME
+"
+:
+publisher_display_name
+        
+"
 APPX_RESOURCE_LANGUAGE_LIST
 "
 :
@@ -2432,12 +2478,6 @@ MOZ_APP_NAME
 "
 :
 app_name
-        
-"
-MOZ_APP_VENDOR
-"
-:
-vendor
         
 "
 MOZ_IGECKOBACKCHANNEL_IID
@@ -4229,9 +4269,8 @@ AppPackage
 name
 Mozilla
 .
-Firefox
+MozillaFirefox
 (
-.
 Beta
 .
 .

@@ -305,7 +305,7 @@ DisplayName
 <
 PublisherDisplayName
 >
-MOZ_APP_VENDOR
+APPX_PUBLISHER_DISPLAY_NAME
 <
 /
 PublisherDisplayName

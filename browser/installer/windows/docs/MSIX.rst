@@ -661,8 +661,6 @@ like
 "
 Mozilla
 .
-Firefox
-.
 *
 "
 |
