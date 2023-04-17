@@ -123,6 +123,17 @@ Happiness
 entryHappiness
 )
 ;
+void
+spewShapeInformation
+(
+AutoStructuredSpewer
+&
+spew
+ICStub
+*
+stub
+)
+;
 public
 :
 void
