@@ -79,6 +79,15 @@ const
 0
 ;
 virtual
+bool
+IsEncrypted
+(
+)
+const
+=
+0
+;
+virtual
 void
 DispatchAsyncTestingEvent
 (
