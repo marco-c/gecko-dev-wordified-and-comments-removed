@@ -1317,6 +1317,11 @@ mInIncrementalGC
 false
 ;
 bool
+mHaveAskedParent
+=
+false
+;
+bool
 mReadyForMajorGC
 =
 false
