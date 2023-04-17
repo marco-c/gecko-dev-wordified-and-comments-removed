@@ -7,13 +7,6 @@ MODULES_VIDEO_CAPTURE_MAIN_SOURCE_WINDOWS_DEVICE_INFO_DS_H_
 #
 include
 <
-dbt
-.
-h
->
-#
-include
-<
 dshow
 .
 h
@@ -22,6 +15,13 @@ h
 include
 <
 Ks
+.
+h
+>
+#
+include
+<
+dbt
 .
 h
 >
