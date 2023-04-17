@@ -86,6 +86,15 @@ platform
 "
 all
 "
+branch
+:
+[
+"
+all
+:
+ignoredOtherPlatform
+"
+]
 name
 :
 "
@@ -662,6 +671,8 @@ branches
 [
 "
 nightly
+:
+android
 "
 ]
 name
@@ -926,6 +937,8 @@ branches
 [
 "
 nightly
+:
+android
 "
 ]
 name
