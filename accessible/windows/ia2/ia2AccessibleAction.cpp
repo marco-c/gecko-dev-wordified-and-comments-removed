@@ -96,17 +96,6 @@ iid
 LocalAcc
 (
 )
-&
-&
-!
-LocalAcc
-(
-)
--
->
-IsProxy
-(
-)
 )
 {
 *
