@@ -2909,6 +2909,12 @@ this
 browsingContext
 )
 {
+args
+.
+modalType
+=
+MODAL_TYPE_WINDOW
+;
 this
 .
 openWindowPrompt
