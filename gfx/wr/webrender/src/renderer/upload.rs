@@ -313,6 +313,8 @@ texture_cache_map
 &
 texture_id
 ]
+.
+texture
 ;
 for
 update
@@ -2096,6 +2098,8 @@ copy
 .
 dest_texture_id
 ]
+.
+texture
 ;
 renderer
 .
@@ -2366,6 +2370,8 @@ copy
 .
 dest_texture_id
 ]
+.
+texture
 ;
 let
 target_size
