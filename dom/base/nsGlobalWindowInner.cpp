@@ -5194,6 +5194,10 @@ mHasOpenedExternalProtocolFrame
 (
 false
 )
+mStorageAllowedReasonCache
+(
+0
+)
 mSuspendDepth
 (
 0
@@ -35064,6 +35068,10 @@ StorageAccessPermissionGranted
 (
 )
 {
+ClearStorageAllowedCache
+(
+)
+;
 PropagateStorageAccessPermissionGrantedToWorkers
 (
 *

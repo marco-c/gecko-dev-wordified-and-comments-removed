@@ -11168,6 +11168,13 @@ reUseInnerWindow
 newInnerWindow
 -
 >
+ClearStorageAllowedCache
+(
+)
+;
+newInnerWindow
+-
+>
 mLocalStorage
 =
 nullptr
