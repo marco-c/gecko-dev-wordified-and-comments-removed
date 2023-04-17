@@ -730,7 +730,7 @@ rename
 "
 WebDriver
 :
-AcceptDialog
+AcceptAlert
 "
 )
 ]
