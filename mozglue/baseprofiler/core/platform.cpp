@@ -2657,6 +2657,10 @@ to_string
 profiler_current_process_id
 (
 )
+.
+ToNumber
+(
+)
 )
 ;
 if
@@ -9621,7 +9625,7 @@ struct
 sigaction
 mOldSigprofHandler
 ;
-int
+BaseProfilerProcessId
 mMyPid
 ;
 int
