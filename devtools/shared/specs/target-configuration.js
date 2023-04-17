@@ -48,6 +48,13 @@ nullable
 :
 string
 "
+customUserAgent
+:
+"
+nullable
+:
+string
+"
 javascriptEnabled
 :
 "
