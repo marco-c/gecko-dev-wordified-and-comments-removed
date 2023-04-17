@@ -2926,6 +2926,15 @@ build
 check
 "
 )
+            
+kwargs
+[
+"
+enable_webtransport_h3
+"
+]
+=
+True
         
 if
 os
