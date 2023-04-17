@@ -1923,9 +1923,9 @@ ObjId
 id
 :
 IdField
-shape
+getterSetter
 :
-ShapeField
+GetterSetterField
 -
 name
 :
