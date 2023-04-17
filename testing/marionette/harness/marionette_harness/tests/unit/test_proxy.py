@@ -375,22 +375,6 @@ manual
 "
                 
 "
-ftpProxy
-"
-:
-"
-{
-}
-:
-21
-"
-.
-format
-(
-proxy_hostname
-)
-                
-"
 httpProxy
 "
 :

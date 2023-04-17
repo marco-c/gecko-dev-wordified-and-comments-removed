@@ -6000,10 +6000,6 @@ networkSchemes
 =
 [
 "
-ftp
-:
-"
-"
 http
 :
 "
