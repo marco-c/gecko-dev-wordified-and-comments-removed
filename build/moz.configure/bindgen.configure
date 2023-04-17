@@ -2029,10 +2029,10 @@ join
 (
 flags
 )
-add_old_configure_assignment
+set_config
 (
 "
-_BINDGEN_CFLAGS
+BINDGEN_SYSTEM_FLAGS
 "
 bindgen_cflags
 )
