@@ -44274,6 +44274,13 @@ expected
 isMagic
 (
 )
+|
+|
+expected
+.
+isPrivateGCThing
+(
+)
 )
 ;
 setGuard
