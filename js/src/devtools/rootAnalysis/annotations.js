@@ -1765,6 +1765,7 @@ true
 function
 extraGCFunctions
 (
+readableNames
 )
 {
 return
@@ -1929,6 +1930,7 @@ function
 ignoreGCFunction
 (
 mangled
+readableNames
 )
 {
 if

@@ -602,7 +602,7 @@ def
 run_analysis_script
 (
 self
-phase
+startPhase
 upto
 =
 None
@@ -699,9 +699,19 @@ else
 -
 q
 "
-            
-phase
         
+]
+        
+cmd
++
+=
+[
+"
+-
+-
+first
+"
+startPhase
 ]
         
 if
@@ -715,7 +725,7 @@ cmd
 "
 -
 -
-upto
+last
 "
 upto
 ]
