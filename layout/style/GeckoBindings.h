@@ -2769,6 +2769,10 @@ dom
 :
 Document
 *
+mozilla
+:
+:
+StyleSystemColorScheme
 )
 ;
 int32_t
