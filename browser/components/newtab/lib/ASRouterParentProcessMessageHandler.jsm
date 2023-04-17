@@ -150,6 +150,11 @@ msg
 .
 DOORHANGER_TELEMETRY
 :
+case
+msg
+.
+SPOTLIGHT_TELEMETRY
+:
 {
 return
 this

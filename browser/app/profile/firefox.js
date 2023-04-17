@@ -11132,6 +11132,11 @@ aboutwelcome
 infobar
 \
 "
+\
+"
+spotlight
+\
+"
 ]
 \
 "
