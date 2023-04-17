@@ -1170,9 +1170,6 @@ filename
 "
 foobar
 "
-compresslevel
-=
-1
 )
             
 self
@@ -1184,7 +1181,7 @@ file_hash
 gp
 )
 "
-1cc8b96f0262350977c2e9d61f40a1fa76f35c52
+721e00083c17d16df2edbddf40136298c06d0c49
 "
 )
             

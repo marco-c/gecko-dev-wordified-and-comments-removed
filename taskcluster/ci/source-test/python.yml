@@ -104,7 +104,7 @@ linux
 xlarge
 -
 source
-macosx1014
+macosx1015
 -
 64
 .
@@ -114,7 +114,9 @@ t
 -
 osx
 -
-1014
+1015
+-
+r8
 windows10
 -
 64
@@ -335,7 +337,7 @@ linux1804
 /
 opt
 -
-macosx1014
+macosx1015
 -
 64
 /
@@ -403,7 +405,7 @@ linux1804
 /
 opt
 -
-macosx1014
+macosx1015
 -
 64
 /
@@ -938,7 +940,7 @@ linux1804
 /
 opt
 -
-macosx1014
+macosx1015
 -
 64
 /
@@ -1075,7 +1077,7 @@ linux1804
 /
 opt
 -
-macosx1014
+macosx1015
 -
 64
 /
@@ -1134,7 +1136,7 @@ linux64
 clang
 -
 tidy
-macosx1014
+macosx1015
 -
 64
 /
@@ -1182,7 +1184,7 @@ node
 linux64
 -
 rust
-macosx1014
+macosx1015
 -
 64
 /
@@ -1423,7 +1425,7 @@ linux1804
 /
 opt
 -
-macosx1014
+macosx1015
 -
 64
 /
@@ -2003,7 +2005,7 @@ linux1804
 /
 opt
 -
-macosx1014
+macosx1015
 -
 64
 /
@@ -2056,7 +2058,7 @@ linux64
 node
 -
 12
-macosx1014
+macosx1015
 -
 64
 /
@@ -2228,7 +2230,7 @@ linux1804
 /
 opt
 -
-macosx1014
+macosx1015
 -
 64
 /
@@ -2271,7 +2273,7 @@ linux64
 node
 -
 12
-macosx1014
+macosx1015
 -
 64
 /
@@ -2337,7 +2339,7 @@ linux1804
 /
 opt
 -
-macosx1014
+macosx1015
 -
 64
 /
@@ -2797,7 +2799,7 @@ linux1804
 /
 opt
 -
-macosx1014
+macosx1015
 -
 64
 /
@@ -2852,7 +2854,7 @@ linux64
 node
 -
 12
-macosx1014
+macosx1015
 -
 64
 /
