@@ -52,10 +52,8 @@ struct
 _cairo_surface_clipper
 {
 cairo_clip_t
+*
 clip
-;
-cairo_bool_t
-is_clipped
 ;
 cairo_surface_clipper_intersect_clip_path_func_t
 intersect_clip_path
@@ -69,6 +67,7 @@ _cairo_surface_clipper_set_clip
 cairo_surface_clipper_t
 *
 clipper
+const
 cairo_clip_t
 *
 clip
