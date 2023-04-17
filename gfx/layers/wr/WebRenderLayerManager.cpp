@@ -3049,9 +3049,6 @@ WebRenderLayerManager
 :
 ClearCachedResources
 (
-Layer
-*
-aSubtree
 )
 {
 if
