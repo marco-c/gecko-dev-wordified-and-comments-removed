@@ -1380,6 +1380,10 @@ hasSelection
 bool
 hasSelfSelection
 ;
+bool
+?
+printLandscape
+;
 }
 ;
 [
