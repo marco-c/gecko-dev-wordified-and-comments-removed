@@ -1169,6 +1169,13 @@ size_t
 numInputs
 )
 ;
+bool
+ICSupportsPolymorphicTypeData
+(
+JSOp
+op
+)
+;
 struct
 IonOsrTempData
 ;
