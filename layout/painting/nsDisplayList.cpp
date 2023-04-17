@@ -2991,6 +2991,10 @@ mGlassDisplayItem
 (
 nullptr
 )
+mHasGlassItemDuringPartial
+(
+false
+)
 mCaretFrame
 (
 nullptr
