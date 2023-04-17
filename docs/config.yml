@@ -95,6 +95,8 @@ tools
 /
 profiler
 -
+performance
+-
 xpcom
 build_doc
 :
