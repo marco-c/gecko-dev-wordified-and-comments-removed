@@ -236,17 +236,6 @@ paused
 reason
 "
 )
-poppedFrames
-:
-Option
-(
-0
-"
-nullable
-:
-json
-"
-)
 error
 :
 Option
