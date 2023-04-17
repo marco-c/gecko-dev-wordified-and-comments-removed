@@ -1761,6 +1761,12 @@ TransformStyle
 Flat
 ;
 }
+nsIFrame
+*
+mRootReferenceFrame
+=
+nullptr
+;
 nsTArray
 <
 wr
