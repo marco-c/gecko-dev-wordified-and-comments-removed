@@ -245,13 +245,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 secerr
 .
 h
@@ -1153,7 +1146,7 @@ char
 *
 eol
 =
-PL_strpbrk
+strpbrk
 (
 nextLineStart
 "

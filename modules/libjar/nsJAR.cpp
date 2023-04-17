@@ -1613,11 +1613,12 @@ return
 int32_t
 length
 ;
+const
 char
 *
 eol
 =
-PL_strpbrk
+strpbrk
 (
 *
 src
