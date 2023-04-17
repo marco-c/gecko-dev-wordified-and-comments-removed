@@ -309,6 +309,16 @@ Release
 )
 )
 {
+MonitorAutoLock
+lock
+(
+*
+mChan
+-
+>
+mMonitor
+)
+;
 mObserver
 =
 new
