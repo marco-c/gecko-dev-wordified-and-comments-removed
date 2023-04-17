@@ -221,6 +221,11 @@ test
 -
 platform
 :
+macosx1100
+.
+*
+:
+true
 windows10
 -
 64
