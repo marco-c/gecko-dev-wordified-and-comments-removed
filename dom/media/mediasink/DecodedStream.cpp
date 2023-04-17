@@ -3414,6 +3414,9 @@ aVolume
 if
 (
 mData
+&
+&
+mData
 -
 >
 mAudioTrack
@@ -3494,6 +3497,9 @@ aPlaybackRate
 ;
 if
 (
+mData
+&
+&
 mData
 -
 >
