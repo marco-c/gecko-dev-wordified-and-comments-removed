@@ -3490,6 +3490,8 @@ process
 windows10
 -
 aarch64
+-
+qr
 /
 .
 *
@@ -3743,6 +3745,8 @@ qr
 windows10
 -
 aarch64
+-
+qr
 /
 .
 *
@@ -3941,6 +3945,17 @@ webgl
 ipc
 '
 ]
+windows10
+-
+aarch64
+-
+qr
+/
+.
+*
+:
+[
+]
 (
 linux
 |
@@ -4133,6 +4148,8 @@ macosx
 windows10
 -
 aarch64
+-
+qr
 /
 .
 *
@@ -4308,6 +4325,8 @@ process
 windows10
 -
 aarch64
+-
+qr
 .
 *
 :

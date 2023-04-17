@@ -878,6 +878,8 @@ platform
 windows10
 -
 aarch64
+-
+qr
 /
 opt
 :
@@ -1075,6 +1077,8 @@ platform
 windows10
 -
 aarch64
+-
+qr
 /
 opt
 :
@@ -1448,6 +1452,8 @@ platform
 windows10
 -
 aarch64
+-
+qr
 /
 opt
 :
@@ -1657,6 +1663,8 @@ platform
 windows10
 -
 aarch64
+-
+qr
 /
 opt
 :
@@ -1861,6 +1869,8 @@ platform
 windows10
 -
 aarch64
+-
+qr
 /
 opt
 :
@@ -2055,6 +2065,8 @@ platform
 windows10
 -
 aarch64
+-
+qr
 /
 opt
 :

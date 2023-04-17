@@ -757,6 +757,8 @@ hw
 windows10
 -
 aarch64
+-
+qr
 "
 :
 {
@@ -10422,6 +10424,8 @@ opt
 windows10
 -
 aarch64
+-
+qr
 /
 opt
 "
@@ -13728,6 +13732,8 @@ startswith
 windows10
 -
 aarch64
+-
+qr
 "
 )
 :
@@ -13736,11 +13742,15 @@ win_worker_type_platform
 =
 WINDOWS_WORKER_TYPES
 [
+                        
 "
 windows10
 -
 aarch64
+-
+qr
 "
+                    
 ]
                 
 else
