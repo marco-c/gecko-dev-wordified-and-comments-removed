@@ -1567,9 +1567,7 @@ RELEASE_OR_BETA
 ?
 1
 :
-BuildConfig
-.
-MOZ_ANDROID_CONTENT_SERVICE_COUNT
+2
 )
 ;
 int
