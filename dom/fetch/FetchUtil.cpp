@@ -3001,7 +3001,11 @@ zstream
 .
 next_out
 -
-compressBegin
+dstBytes
+.
+begin
+(
+)
 )
 ;
 NS_DispatchToMainThread
