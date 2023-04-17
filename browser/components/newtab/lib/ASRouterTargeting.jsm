@@ -3019,9 +3019,20 @@ getTopWindow
 ;
 if
 (
+!
+window
+)
+{
+return
+true
+;
+}
+if
+(
 window
 .
 gURLBar
+?
 .
 view
 .
@@ -3031,6 +3042,7 @@ isOpen
 window
 .
 gNotificationBox
+?
 .
 currentNotification
 |
@@ -3042,6 +3054,7 @@ gBrowser
 getNotificationBox
 (
 )
+?
 .
 currentNotification
 )
