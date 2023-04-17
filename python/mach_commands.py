@@ -378,31 +378,14 @@ pathsep
 join
 (
             
-os
+requirements
 .
-path
-.
-join
+pths_as_absolute
 (
 command_context
 .
 topsrcdir
-pth
-.
-path
 )
-            
-for
-pth
-in
-requirements
-.
-pth_requirements
-            
-+
-requirements
-.
-vendored_requirements
         
 )
     
