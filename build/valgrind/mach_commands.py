@@ -279,7 +279,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 "
@@ -331,7 +331,8 @@ path
 .
 join
 (
-self
+                
+command_context
 .
 topsrcdir
 "
@@ -340,6 +341,7 @@ testing
 "
 profiles
 "
+            
 )
             
 with
@@ -504,7 +506,7 @@ path
 join
 (
                 
-self
+command_context
 .
 topsrcdir
 "
@@ -667,7 +669,7 @@ outputHandler
 =
 OutputHandler
 (
-self
+command_context
 .
 log
 )
@@ -1070,7 +1072,7 @@ profile
                     
 binary
 =
-self
+command_context
 .
 get_binary_path
 (
@@ -1146,7 +1148,7 @@ status
 =
 1
                     
-self
+command_context
 .
 log
 (
@@ -1220,7 +1222,7 @@ status
 =
 0
                     
-self
+command_context
 .
 log
 (
@@ -1270,7 +1272,7 @@ status
 =
 2
                     
-self
+command_context
 .
 log
 (
@@ -1316,7 +1318,7 @@ error
                     
 )
                     
-self
+command_context
 .
 log
 (
@@ -1363,7 +1365,7 @@ status
 =
 2
                     
-self
+command_context
 .
 log
 (
@@ -1428,7 +1430,7 @@ status
 =
 2
                     
-self
+command_context
 .
 log
 (

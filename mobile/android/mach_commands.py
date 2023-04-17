@@ -308,7 +308,7 @@ gradle
             
 command_context
             
-self
+command_context
 .
 substs
 [
@@ -524,7 +524,7 @@ gradle
             
 command_context
             
-self
+command_context
 .
 substs
 [
@@ -615,14 +615,17 @@ gradle
             
 command_context
             
-self
+command_context
 .
 substs
 [
+                
 "
 GRADLE_ANDROID_GENERATE_GENERATED_JNI_WRAPPERS_TASKS
 "
+            
 ]
+            
 +
 args
             
@@ -953,7 +956,7 @@ gradle
             
 command_context
             
-self
+command_context
 .
 substs
 [
@@ -961,6 +964,7 @@ substs
 GRADLE_ANDROID_DEPENDENCIES_TASKS
 "
 ]
+            
 +
 [
 "
@@ -969,6 +973,7 @@ GRADLE_ANDROID_DEPENDENCIES_TASKS
 continue
 "
 ]
+            
 +
 args
             
@@ -1070,7 +1075,7 @@ gradle
             
 command_context
             
-self
+command_context
 .
 substs
 [
@@ -1138,7 +1143,7 @@ gradle
             
 command_context
             
-self
+command_context
 .
 substs
 [
@@ -1146,6 +1151,7 @@ substs
 GRADLE_ANDROID_BUILD_GECKOVIEW_EXAMPLE_TASKS
 "
 ]
+            
 +
 args
             
@@ -1236,7 +1242,7 @@ gradle
             
 command_context
             
-self
+command_context
 .
 substs
 [
@@ -1244,6 +1250,7 @@ substs
 GRADLE_ANDROID_INSTALL_GECKOVIEW_EXAMPLE_TASKS
 "
 ]
+            
 +
 args
             
@@ -1525,7 +1532,7 @@ tasks
 =
 (
             
-self
+command_context
 .
 substs
 [
@@ -1540,7 +1547,7 @@ or
 upload
             
 else
-self
+command_context
 .
 substs
 [
@@ -1822,7 +1829,7 @@ repo
 "
 )
         
-self
+command_context
 .
 run_process
 (
@@ -1949,7 +1956,7 @@ mozpath
 join
 (
             
-self
+command_context
 .
 topobjdir
             
@@ -2019,10 +2026,11 @@ src_tar
 dst_path
 )
         
-self
+command_context
 .
 run_process
 (
+            
 [
 "
 git
@@ -2042,12 +2050,13 @@ env
 pass_thru
 =
 True
+        
 )
         
 if
 (
             
-self
+command_context
 .
 run_process
 (
@@ -2092,7 +2101,7 @@ False
 )
 :
             
-self
+command_context
 .
 run_process
 (
@@ -2129,7 +2138,7 @@ True
             
 )
             
-self
+command_context
 .
 run_process
 (
@@ -2273,7 +2282,7 @@ not
 verbose
 :
             
-self
+command_context
 .
 log_manager
 .
@@ -2300,7 +2309,7 @@ path
 .
 dirname
 (
-self
+command_context
 .
 substs
 [
@@ -2313,7 +2322,7 @@ JAVA
         
 gradle_flags
 =
-self
+command_context
 .
 substs
 .
@@ -2349,7 +2358,7 @@ gradle_flags
 )
         
 if
-self
+command_context
 .
 substs
 .
@@ -2433,7 +2442,7 @@ utf
         
 android_sdk_root
 =
-self
+command_context
 .
 substs
 .
@@ -2460,13 +2469,13 @@ ANDROID_SDK_ROOT
 android_sdk_root
         
 return
-self
+command_context
 .
 run_process
 (
             
 [
-self
+command_context
 .
 substs
 [
@@ -2498,7 +2507,7 @@ mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -2933,12 +2942,15 @@ AndroidEmulator
 (
             
 version
+            
 verbose
+            
 substs
 =
-self
+command_context
 .
 substs
+            
 device_serial
 =
 "
@@ -2957,7 +2969,7 @@ is_running
 )
 :
             
-self
+command_context
 .
 log
 (
@@ -3013,7 +3025,7 @@ is_available
 )
 :
             
-self
+command_context
 .
 log
 (
@@ -3072,7 +3084,7 @@ force_update
 )
 :
             
-self
+command_context
 .
 log
 (
@@ -3114,7 +3126,7 @@ update_avd
 force_update
 )
         
-self
+command_context
 .
 log
 (
@@ -3165,10 +3177,11 @@ wait_for_start
 )
 :
             
-self
+command_context
 .
 log
 (
+                
 logging
 .
 INFO
@@ -3184,12 +3197,13 @@ is
 running
 .
 "
+            
 )
         
 else
 :
             
-self
+command_context
 .
 log
 (
@@ -3223,11 +3237,11 @@ conditions
 .
 is_android
 (
-self
+command_context
 )
 :
             
-self
+command_context
 .
 log
 (
@@ -3265,7 +3279,7 @@ emulator
 else
 :
             
-self
+command_context
 .
 log
 (
@@ -3328,7 +3342,7 @@ if
 wait
 :
             
-self
+command_context
 .
 log
 (
@@ -3370,7 +3384,7 @@ not
 None
 :
                 
-self
+command_context
 .
 log
 (
@@ -3405,7 +3419,7 @@ rc
 else
 :
                 
-self
+command_context
 .
 log
 (

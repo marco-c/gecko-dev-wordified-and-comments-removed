@@ -126,7 +126,7 @@ BuildSystemWebIDL
         
 manager
 =
-self
+command_context
 .
 _spawn
 (
@@ -202,6 +202,7 @@ path
 .
 insert
 (
+            
 0
 os
 .
@@ -209,7 +210,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 "
@@ -221,11 +222,12 @@ licenses
 ply
 "
 )
+        
 )
         
 mkdir
 (
-self
+command_context
 .
 topobjdir
 )
@@ -234,7 +236,7 @@ os
 .
 chdir
 (
-self
+command_context
 .
 topobjdir
 )
@@ -266,7 +268,7 @@ path
 insert
 (
 0
-self
+command_context
 .
 topobjdir
 )

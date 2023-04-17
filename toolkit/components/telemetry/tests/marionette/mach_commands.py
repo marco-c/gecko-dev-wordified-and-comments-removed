@@ -405,7 +405,7 @@ conditions
 .
 is_firefox
 (
-self
+command_context
 )
 :
             
@@ -419,7 +419,7 @@ binary
 "
 ]
 =
-self
+command_context
 .
 get_binary_path
 (
@@ -434,7 +434,7 @@ as
 e
 :
                 
-self
+command_context
 .
 log
 (
@@ -472,7 +472,7 @@ error
                 
 )
                 
-self
+command_context
 .
 log
 (
@@ -552,7 +552,7 @@ run_telemetry
 tests
 topsrcdir
 =
-self
+command_context
 .
 topsrcdir
 *

@@ -25,16 +25,10 @@ mach
 .
 decorators
 import
-(
-    
 CommandArgument
-    
 CommandProvider
-    
 Command
-    
 SubCommand
-)
 from
 mozbuild
 .
@@ -245,6 +239,7 @@ self
 .
 setup_logging
 (
+command_context
 )
         
 from
@@ -519,6 +514,7 @@ self
 .
 setup_logging
 (
+command_context
 )
         
 from
@@ -719,6 +715,7 @@ self
 .
 setup_logging
 (
+command_context
 )
         
 from
@@ -749,6 +746,7 @@ def
 setup_logging
 (
 self
+command_context
 quiet
 =
 False
@@ -799,7 +797,7 @@ timestamp
         
 old
 =
-self
+command_context
 .
 log_manager
 .
@@ -825,7 +823,7 @@ logging
 .
 INFO
             
-self
+command_context
 .
 log_manager
 .
@@ -860,7 +858,7 @@ write_times
             
 )
         
-self
+command_context
 .
 log_manager
 .
