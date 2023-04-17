@@ -325,6 +325,10 @@ mIsUAWidget
 (
 false
 )
+mIsAvailableToElementInternals
+(
+false
+)
 {
 SetHost
 (
