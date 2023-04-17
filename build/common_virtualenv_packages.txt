@@ -653,15 +653,6 @@ third_party
 /
 python
 /
-pep487
-/
-lib
-pth
-:
-third_party
-/
-python
-/
 pip_tools
 pth
 :
