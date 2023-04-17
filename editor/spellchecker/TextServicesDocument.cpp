@@ -275,7 +275,7 @@ mTextNode
 (
 aTextNode
 )
-mNodeOffset
+mOffsetInTextNode
 (
 0
 )
@@ -304,7 +304,7 @@ Text
 mTextNode
 ;
 uint32_t
-mNodeOffset
+mOffsetInTextNode
 ;
 uint32_t
 mStrOffset
@@ -3371,12 +3371,12 @@ i
 newEntry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 =
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 ;
 }
 if
@@ -4084,12 +4084,12 @@ true
 itEntry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 =
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 ;
 mOffsetTable
 .
@@ -4210,12 +4210,12 @@ mSelStartOffset
 itEntry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 =
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 entry
 -
@@ -4307,7 +4307,7 @@ textNode
 itEntry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 itEntry
 -
@@ -4406,12 +4406,12 @@ true
 itEntry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 =
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 entry
 -
@@ -4494,7 +4494,7 @@ mIsValid
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 =
 strLength
@@ -4892,7 +4892,7 @@ rightIndex
 ]
 -
 >
-mNodeOffset
+mOffsetInTextNode
 =
 =
 0
@@ -5044,7 +5044,7 @@ mIsValid
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 =
 nodeLength
@@ -6484,7 +6484,7 @@ startNodeOffset
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 entry
 -
@@ -6610,7 +6610,7 @@ startNodeOffset
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 aOffset
 -
@@ -6832,7 +6832,7 @@ endNodeOffset
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 entry
 -
@@ -6879,7 +6879,7 @@ endNodeOffset
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 endOffset
 -
@@ -7245,7 +7245,7 @@ eStartOffset
 eStart
 -
 >
-mNodeOffset
+mOffsetInTextNode
 ;
 uint32_t
 eEndOffset
@@ -7253,7 +7253,7 @@ eEndOffset
 eEnd
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 eEnd
 -
@@ -7474,7 +7474,7 @@ AsText
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 <
 =
 offset
@@ -7486,7 +7486,7 @@ offset
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 entry
 -
@@ -7516,7 +7516,7 @@ offset
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 )
 ;
 *
@@ -7927,7 +7927,7 @@ textNode
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 <
 =
 offset
@@ -7939,7 +7939,7 @@ offset
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 entry
 -
@@ -7969,7 +7969,7 @@ offset
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 )
 ;
 *
@@ -8105,7 +8105,7 @@ eStartOffset
 eStart
 -
 >
-mNodeOffset
+mOffsetInTextNode
 ;
 const
 uint32_t
@@ -8114,7 +8114,7 @@ eEndOffset
 eEnd
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 eEnd
 -
@@ -8912,7 +8912,7 @@ get
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 <
 =
 o1
@@ -8924,7 +8924,7 @@ o1
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 entry
 -
@@ -8946,7 +8946,7 @@ o1
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 )
 ;
 if
@@ -8960,7 +8960,7 @@ p2
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 <
 =
 o2
@@ -8972,7 +8972,7 @@ o2
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 entry
 -
@@ -9004,7 +9004,7 @@ o1
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 )
 ;
 found
@@ -9033,7 +9033,7 @@ get
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 <
 =
 o2
@@ -9045,7 +9045,7 @@ o2
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 entry
 -
@@ -9062,7 +9062,7 @@ o2
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 ;
 break
 ;
@@ -10440,7 +10440,7 @@ rngStartNode
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 =
 startOffset
 =
@@ -10911,12 +10911,12 @@ oldLength
 newEntry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 =
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 oldLength
 ;
@@ -11202,7 +11202,7 @@ aNodeOffset
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 ;
 const
 char16_t
@@ -11504,7 +11504,7 @@ aWordStartOffset
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 res
 .
@@ -11611,7 +11611,7 @@ aWordEndOffset
 entry
 -
 >
-mNodeOffset
+mOffsetInTextNode
 +
 res
 .
