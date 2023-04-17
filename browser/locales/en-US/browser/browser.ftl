@@ -2496,6 +2496,14 @@ identity
 -
 connection
 -
+failure
+=
+Connection
+failure
+identity
+-
+connection
+-
 internal
 =
 This
