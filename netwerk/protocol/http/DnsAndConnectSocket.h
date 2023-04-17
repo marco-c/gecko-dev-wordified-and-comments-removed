@@ -281,6 +281,11 @@ Unclaim
 ;
 private
 :
+void
+CheckIsDone
+(
+)
+;
 enum
 DnsAndSocketState
 {
