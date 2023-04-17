@@ -753,7 +753,7 @@ true
 }
 this
 .
-emitForTests
+emit
 (
 "
 processed
