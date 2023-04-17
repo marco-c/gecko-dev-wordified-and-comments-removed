@@ -1196,6 +1196,15 @@ NS_ERROR_FILE_FS_CORRUPTED
 break
 ;
 case
+ERROR_IO_DEVICE
+:
+rv
+=
+NS_ERROR_FILE_DEVICE_FAILURE
+;
+break
+;
+case
 0
 :
 rv
