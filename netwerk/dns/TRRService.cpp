@@ -6458,6 +6458,13 @@ TRR
 aTRRRequest
 )
 {
+{
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 if
 (
 mConfirmation
@@ -6529,13 +6536,6 @@ aTRRRequest
 ChannelStatus
 (
 )
-)
-;
-{
-MutexAutoLock
-lock
-(
-mLock
 )
 ;
 MOZ_ASSERT
