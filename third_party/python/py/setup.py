@@ -80,7 +80,7 @@ scm
 url
 =
 '
-http
+https
 :
 /
 /
@@ -327,19 +327,6 @@ Python
 :
 3
 .
-4
-'
-                     
-'
-Programming
-Language
-:
-:
-Python
-:
-:
-3
-.
 5
 '
                      
@@ -354,6 +341,19 @@ Python
 3
 .
 6
+'
+                     
+'
+Programming
+Language
+:
+:
+Python
+:
+:
+3
+.
+7
 '
                      
 '
@@ -402,9 +402,30 @@ testing
 ]
 )
         
+include_package_data
+=
+True
+        
 zip_safe
 =
 False
+        
+package_data
+=
+{
+            
+"
+"
+:
+[
+"
+py
+.
+typed
+"
+]
+        
+}
     
 )
 if

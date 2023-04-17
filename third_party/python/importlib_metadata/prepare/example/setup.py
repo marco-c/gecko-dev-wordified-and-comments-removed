@@ -59,7 +59,6 @@ example
 main
 '
 ]
-        
-}
     
+}
 )

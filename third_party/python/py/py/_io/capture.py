@@ -78,6 +78,7 @@ replace
 '
 )
             
+return
 StringIO
 .
 write
@@ -143,6 +144,7 @@ data
 )
 )
             
+return
 StringIO
 .
 write
@@ -1968,10 +1970,8 @@ err
 "
         
 return
-[
 out
 err
-]
     
 def
 _readsnapshot
