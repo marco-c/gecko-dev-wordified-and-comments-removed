@@ -9048,10 +9048,17 @@ mDestroyCalled
 =
 true
 ;
+if
+(
+!
+aForProcessSwitch
+)
+{
 RequestFinalTabStateFlush
 (
 )
 ;
+}
 if
 (
 mMessageManager
