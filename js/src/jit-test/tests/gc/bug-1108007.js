@@ -52,7 +52,7 @@ true
 )
 }
 {
-saveBytecode
+saveIncrementalBytecode
 :
 {
 value

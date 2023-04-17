@@ -50,7 +50,7 @@ code
 global
 :
 g
-saveBytecode
+saveIncrementalBytecode
 :
 true
 }
@@ -75,7 +75,7 @@ code
 global
 :
 g
-loadBytecode
+saveIncrementalBytecode
 :
 true
 }
