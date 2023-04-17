@@ -96,6 +96,15 @@ return
 mRawRule
 ;
 }
+void
+SetRawAfterClone
+(
+RefPtr
+<
+RawServoSupportsRule
+>
+)
+;
 uint16_t
 Type
 (

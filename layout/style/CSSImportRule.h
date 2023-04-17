@@ -144,7 +144,6 @@ MediaList
 GetMedia
 (
 )
-const
 ;
 StyleSheet
 *
@@ -157,6 +156,12 @@ return
 mChildSheet
 ;
 }
+StyleSheet
+*
+GetStyleSheetForBindings
+(
+)
+;
 void
 DropSheetReference
 (
@@ -198,6 +203,15 @@ get
 )
 ;
 }
+void
+SetRawAfterClone
+(
+RefPtr
+<
+RawServoImportRule
+>
+)
+;
 private
 :
 ~
