@@ -2335,6 +2335,7 @@ obj
 "
 name
 "
+true
 )
 ;
 const
@@ -2348,6 +2349,7 @@ obj
 "
 message
 "
+true
 )
 ;
 const
