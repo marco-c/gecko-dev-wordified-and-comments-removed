@@ -198,6 +198,11 @@ SSService
 .
 processHeader
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 Services
 .
 io

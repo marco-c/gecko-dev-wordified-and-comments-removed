@@ -261,6 +261,11 @@ SSService
 .
 processHeader
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 "
 max
@@ -284,6 +289,11 @@ SSService
 .
 isSecureURI
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 0
 )

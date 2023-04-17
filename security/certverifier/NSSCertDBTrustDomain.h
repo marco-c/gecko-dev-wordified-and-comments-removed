@@ -312,6 +312,11 @@ TimeDuration
 ocspTimeoutHard
 uint32_t
 certShortLifetimeInDays
+CertVerifier
+:
+:
+PinningMode
+pinningMode
 unsigned
 int
 minRSABits
@@ -978,6 +983,12 @@ mOCSPTimeoutHard
 const
 uint32_t
 mCertShortLifetimeInDays
+;
+CertVerifier
+:
+:
+PinningMode
+mPinningMode
 ;
 const
 unsigned

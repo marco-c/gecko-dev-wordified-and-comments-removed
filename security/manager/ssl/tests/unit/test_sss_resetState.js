@@ -34,6 +34,7 @@ function
 test_removeState
 (
 secInfo
+type
 flags
 )
 {
@@ -42,6 +43,11 @@ info
 running
 test_removeState
 (
+type
+=
+{
+type
+}
 flags
 =
 {
@@ -81,6 +87,7 @@ gSSService
 .
 isSecureURI
 (
+type
 notPreloadedURI
 flags
 )
@@ -90,6 +97,7 @@ gSSService
 .
 processHeader
 (
+type
 notPreloadedURI
 "
 max
@@ -114,6 +122,7 @@ gSSService
 .
 isSecureURI
 (
+type
 notPreloadedURI
 flags
 )
@@ -123,6 +132,7 @@ gSSService
 .
 resetState
 (
+type
 notPreloadedURI
 flags
 )
@@ -134,6 +144,7 @@ gSSService
 .
 isSecureURI
 (
+type
 notPreloadedURI
 flags
 )
@@ -143,6 +154,7 @@ gSSService
 .
 processHeader
 (
+type
 notPreloadedURI
 "
 max
@@ -168,6 +180,7 @@ gSSService
 .
 isSecureURI
 (
+type
 notPreloadedURI
 flags
 )
@@ -177,6 +190,7 @@ gSSService
 .
 resetState
 (
+type
 notPreloadedURI
 flags
 )
@@ -188,6 +202,7 @@ gSSService
 .
 isSecureURI
 (
+type
 notPreloadedURI
 flags
 )
@@ -228,6 +243,7 @@ gSSService
 .
 isSecureURI
 (
+type
 preloadedURI
 flags
 )
@@ -237,6 +253,7 @@ gSSService
 .
 processHeader
 (
+type
 preloadedURI
 "
 max
@@ -261,6 +278,7 @@ gSSService
 .
 isSecureURI
 (
+type
 preloadedURI
 flags
 )
@@ -270,6 +288,7 @@ gSSService
 .
 resetState
 (
+type
 preloadedURI
 flags
 )
@@ -280,6 +299,7 @@ gSSService
 .
 isSecureURI
 (
+type
 preloadedURI
 flags
 )
@@ -289,6 +309,7 @@ gSSService
 .
 processHeader
 (
+type
 preloadedURI
 "
 max
@@ -314,6 +335,7 @@ gSSService
 .
 isSecureURI
 (
+type
 preloadedURI
 flags
 )
@@ -323,6 +345,7 @@ gSSService
 .
 resetState
 (
+type
 preloadedURI
 flags
 )
@@ -333,6 +356,7 @@ gSSService
 .
 isSecureURI
 (
+type
 preloadedURI
 flags
 )
@@ -383,12 +407,22 @@ add_task
 test_removeState
 (
 secInfo
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 0
 )
 ;
 test_removeState
 (
 secInfo
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 Ci
 .
 nsISocketProvider
