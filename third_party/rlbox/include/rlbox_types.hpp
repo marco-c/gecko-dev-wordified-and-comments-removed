@@ -380,4 +380,7 @@ app_pointer
 class
 rlbox_noop_sandbox
 ;
+class
+rlbox_dylib_sandbox
+;
 }
