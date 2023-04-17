@@ -1,0 +1,12 @@
+"
+"
+"
+Script
+that
+does
+nothing
+successfully
+.
+"
+"
+"
