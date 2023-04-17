@@ -42,7 +42,7 @@ public
 explicit
 RacyRegisteredThread
 (
-int
+BaseProfilerThreadId
 aThreadId
 )
 :
@@ -189,7 +189,7 @@ mSleep
 AWAKE
 ;
 }
-int
+BaseProfilerThreadId
 ThreadId
 (
 )
@@ -230,7 +230,7 @@ ProfilingStack
 mProfilingStack
 ;
 const
-int
+BaseProfilerThreadId
 mThreadId
 ;
 static

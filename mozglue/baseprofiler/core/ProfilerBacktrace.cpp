@@ -353,7 +353,7 @@ ProfilerBacktrace
 )
 {
 }
-int
+BaseProfilerThreadId
 ProfilerBacktrace
 :
 :
@@ -371,10 +371,8 @@ UniqueStacks
 aUniqueStacks
 )
 {
-int
+BaseProfilerThreadId
 processedThreadId
-=
-0
 ;
 if
 (
@@ -390,7 +388,9 @@ mName
 c_str
 (
 )
-0
+BaseProfilerThreadId
+{
+}
 *
 mProfileBuffer
 aWriter
@@ -432,7 +432,9 @@ mName
 c_str
 (
 )
-0
+BaseProfilerThreadId
+{
+}
 profileBuffer
 aWriter
 "

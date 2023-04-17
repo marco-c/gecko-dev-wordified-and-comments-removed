@@ -136,7 +136,7 @@ ULEB128Size
 )
 ;
 }
-int
+BaseProfilerThreadId
 StreamJSON
 (
 SpliceableJSONWriter
