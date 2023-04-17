@@ -22246,6 +22246,10 @@ Access
 ;
 nsCycleCollector_collect
 (
+CCReason
+:
+:
+WORKER
 nullptr
 )
 ;
