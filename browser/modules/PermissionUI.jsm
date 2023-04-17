@@ -563,7 +563,7 @@ this
 .
 request
 .
-maybeUnsafePermissionDelegate
+isRequestDelegatedToUnsafeThirdParty
 )
 {
 this
@@ -1706,7 +1706,7 @@ this
 .
 request
 .
-maybeUnsafePermissionDelegate
+isRequestDelegatedToUnsafeThirdParty
 )
 {
 options
@@ -1830,7 +1830,7 @@ this
 .
 request
 .
-maybeUnsafePermissionDelegate
+isRequestDelegatedToUnsafeThirdParty
 )
 {
 return

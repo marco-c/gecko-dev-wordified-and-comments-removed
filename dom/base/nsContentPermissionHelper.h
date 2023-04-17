@@ -218,7 +218,7 @@ bool
 aIsHandlingUserInput
 const
 bool
-aMaybeUnsafePermissionDelegate
+aIsRequestDelegatedToUnsafeThirdParty
 const
 TabId
 &
@@ -401,11 +401,11 @@ aIsHandlingUserInput
 override
 ;
 NS_IMETHOD
-GetMaybeUnsafePermissionDelegate
+GetIsRequestDelegatedToUnsafeThirdParty
 (
 bool
 *
-aMaybeUnsafePermissionDelegate
+aIsRequestDelegatedToUnsafeThirdParty
 )
 override
 ;
@@ -521,7 +521,7 @@ bool
 mIsHandlingUserInput
 ;
 bool
-mMaybeUnsafePermissionDelegate
+mIsRequestDelegatedToUnsafeThirdParty
 ;
 }
 ;
