@@ -18,8 +18,6 @@ import
 re
 import
 sys
-import
-six
 line_re
 =
 re
@@ -356,26 +354,38 @@ False
 )
 :
     
-line
+is_bytes
 =
-six
-.
-ensure_str
+isinstance
 (
 line
+bytes
 )
     
-result
+line_str
 =
+line
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
+if
+is_bytes
+else
+line
+    
+if
 line_re
 .
 search
 (
-line
+line_str
 )
-    
-if
-result
 is
 None
 :
@@ -399,7 +409,7 @@ hide_errors
 is_missing_newline
 =
 not
-line
+line_str
 .
 endswith
 (
@@ -413,9 +423,9 @@ if
 is_missing_newline
 :
         
-line
+line_str
 =
-line
+line_str
 +
 "
 \
@@ -428,7 +438,7 @@ stdin
 .
 write
 (
-line
+line_str
 )
     
 fix_stacks
@@ -461,6 +471,30 @@ out
 -
 1
 ]
+    
+if
+is_bytes
+and
+not
+isinstance
+(
+out
+bytes
+)
+:
+        
+out
+=
+out
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
     
 return
 out
