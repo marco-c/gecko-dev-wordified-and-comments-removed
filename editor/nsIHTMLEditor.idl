@@ -163,17 +163,6 @@ aInputString
 can_run_script
 ]
 void
-pasteNoFormatting
-(
-in
-long
-aSelectionType
-)
-;
-[
-can_run_script
-]
-void
 rebuildDocumentFromSource
 (
 in
