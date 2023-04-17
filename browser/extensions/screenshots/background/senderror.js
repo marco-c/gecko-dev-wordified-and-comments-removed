@@ -326,7 +326,6 @@ if
 lastErrorTime
 &
 &
-(
 Date
 .
 now
@@ -334,7 +333,6 @@ now
 )
 -
 lastErrorTime
-)
 <
 ERROR_TIME_LIMIT
 )
@@ -878,9 +876,7 @@ catcher
 .
 registerHandler
 (
-(
 errorObj
-)
 =
 >
 {
