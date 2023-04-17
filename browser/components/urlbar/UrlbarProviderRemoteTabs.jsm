@@ -394,9 +394,6 @@ queryContext
 )
 {
 return
-false
-;
-return
 (
 syncUsernamePref
 &

@@ -256,11 +256,6 @@ PlacesExpiration
 jsm
 "
 "
-PlacesRemoteTabsAutocompleteProvider
-.
-jsm
-"
-"
 PlacesSyncUtils
 .
 jsm
