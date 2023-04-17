@@ -205,12 +205,6 @@ eEditorEnableWrapHackMask
 ;
 const
 long
-eEditorNoCSSMask
-=
-0x0100
-;
-const
-long
 eEditorAllowInteraction
 =
 0x0200

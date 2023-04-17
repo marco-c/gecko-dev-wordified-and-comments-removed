@@ -482,15 +482,6 @@ BeginningOfDocument
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
-NS_IMETHOD
-SetFlags
-(
-uint32_t
-aFlags
-)
-final
-;
 NS_IMETHOD
 GetDocumentCharacterSet
 (
@@ -1002,7 +993,10 @@ IsCSSEnabled
 const
 {
 return
-mCSSAware
+!
+IsMailEditor
+(
+)
 &
 &
 mCSSEditUtils
@@ -8499,9 +8493,6 @@ mPaddingBRElementForEmptyEditor
 ;
 bool
 mCRInParagraphCreatesParagraph
-;
-bool
-mCSSAware
 ;
 UniquePtr
 <
