@@ -75,9 +75,6 @@ ping
 *
 -
 ping
-ecosystem
--
-telemetry
 The
 mozilla
 -
