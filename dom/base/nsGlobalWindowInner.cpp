@@ -27795,6 +27795,7 @@ cx
 (
 )
 global
+options
 )
 ;
 nsresult
@@ -27804,7 +27805,6 @@ exec
 .
 Compile
 (
-options
 mExpr
 )
 ;
