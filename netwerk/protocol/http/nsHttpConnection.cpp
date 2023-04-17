@@ -12937,8 +12937,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-else
-{
 return
 mSocketTransport
 -
@@ -12948,7 +12946,6 @@ GetSelfAddr
 addr
 )
 ;
-}
 }
 nsresult
 nsHttpConnection
@@ -12971,8 +12968,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-else
-{
 return
 mSocketTransport
 -
@@ -12982,7 +12977,6 @@ GetPeerAddr
 addr
 )
 ;
-}
 }
 bool
 nsHttpConnection
