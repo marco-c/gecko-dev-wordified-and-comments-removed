@@ -16,12 +16,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -250,17 +244,14 @@ locales
             
 property
 =
+f
 "
 extra
 .
 {
+property
 }
 "
-.
-format
-(
-property
-)
             
 resolve_keyed_by
 (
@@ -626,17 +617,14 @@ build_number
 ]
 )
             
+f
 "
 platform
 =
 {
+platform
 }
 "
-.
-format
-(
-platform
-)
         
 ]
         
@@ -676,19 +664,16 @@ options
 .
 append
 (
+f
 "
 limit
 -
 locale
 =
 {
+locale
 }
 "
-.
-format
-(
-locale
-)
 )
         
 if
@@ -737,17 +722,14 @@ options
 .
 append
 (
+f
 "
 partner
 =
 {
+partner
 }
 "
-.
-format
-(
-partner
-)
 )
         
 task
@@ -780,19 +762,15 @@ reference
 .
 join
 (
-                
 [
+f
 "
 <
 {
+dep
 }
 >
 "
-.
-format
-(
-dep
-)
 for
 dep
 in
@@ -803,7 +781,6 @@ dependencies
 "
 ]
 ]
-            
 )
         
 }

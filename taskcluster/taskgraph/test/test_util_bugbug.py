@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 mozunit
 from
@@ -44,24 +38,21 @@ abcdef
     
 query
 =
+f
 "
 /
 push
 /
 {
+branch
 }
 /
 {
+rev
 }
 /
 schedules
 "
-.
-format
-(
-branch
-rev
-)
     
 url
 =

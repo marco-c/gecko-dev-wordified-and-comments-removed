@@ -14,18 +14,8 @@ description
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -220,7 +210,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -230,7 +220,7 @@ routes
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -295,7 +285,7 @@ formats
 _by_platform
 (
 [
-text_type
+str
 ]
 )
         
@@ -318,7 +308,7 @@ config
 _by_platform
 (
 [
-text_type
+str
 ]
 )
             
@@ -332,7 +322,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 Optional
@@ -1560,16 +1550,13 @@ False
     
 locale_path
 =
+f
 "
 {
+partner
 }
 /
 "
-.
-format
-(
-partner
-)
 if
 partner
 else
@@ -1600,8 +1587,10 @@ signing_task
 artifact
 "
 :
+f
 "
 {
+locale_path
 }
 target
 .
@@ -1609,11 +1598,6 @@ tar
 .
 gz
 "
-.
-format
-(
-locale_path
-)
                     
 "
 extract
@@ -1648,18 +1632,15 @@ download_config
 artifact
 "
 :
+f
 "
 {
+locale_path
 }
 target
 .
 zip
 "
-.
-format
-(
-locale_path
-)
                 
 "
 extract
@@ -1669,18 +1650,15 @@ False
             
 }
             
+f
 "
 {
+locale_path
 }
 setup
 .
 exe
 "
-.
-format
-(
-locale_path
-)
         
 ]
         
@@ -1710,8 +1688,10 @@ extend
 artifact
 "
 :
+f
 "
 {
+locale_path
 }
 target
 -
@@ -1719,11 +1699,6 @@ stub
 .
 zip
 "
-.
-format
-(
-locale_path
-)
                         
 "
 extract
@@ -1733,8 +1708,10 @@ False
                     
 }
                     
+f
 "
 {
+locale_path
 }
 setup
 -
@@ -1742,11 +1719,6 @@ stub
 .
 exe
 "
-.
-format
-(
-locale_path
-)
                 
 ]
             
@@ -1762,20 +1734,17 @@ download_config
 raise
 NotImplementedError
 (
+f
 '
 Unsupported
 build_platform
 :
 "
 {
+build_platform
 }
 "
 '
-.
-format
-(
-build_platform
-)
 )
 def
 _generate_task_output_files
@@ -1836,16 +1805,13 @@ that
     
 partner_output_path
 =
+f
 "
 {
+partner
 }
 /
 "
-.
-format
-(
-partner
-)
     
 artifact_prefix
 =
@@ -1912,6 +1878,7 @@ raise
 NotImplementedError
 (
             
+f
 '
 Unsupported
 worker
@@ -1919,14 +1886,10 @@ implementation
 :
 "
 {
+worker_implementation
 }
 "
 '
-.
-format
-(
-worker_implementation
-)
         
 )
     

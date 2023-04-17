@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 from
@@ -341,19 +335,16 @@ continue
             
 platform
 =
+f
 "
 {
+build_platform
 }
 /
 {
+build_type
 }
 "
-.
-format
-(
-build_platform
-build_type
-)
             
 if
 only_platforms

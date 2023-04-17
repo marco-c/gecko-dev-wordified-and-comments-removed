@@ -15,12 +15,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -229,6 +223,7 @@ routes
 .
 append
 (
+f
 "
 index
 .
@@ -237,19 +232,15 @@ gecko
 v2
 .
 {
+branch
 }
 .
 signed
 .
 {
+rest
 }
 "
-.
-format
-(
-branch
-rest
-)
 )
         
 yield
@@ -339,19 +330,16 @@ kind
         
 task_ref
 =
+f
 "
 <
 {
-}
->
-"
-.
-format
-(
 upstream_artifact_task
 .
 kind
-)
+}
+>
+"
         
 task_type
 =

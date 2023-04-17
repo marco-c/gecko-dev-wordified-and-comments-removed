@@ -1,10 +1,4 @@
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 mozbuild
 .
 util
@@ -415,21 +409,18 @@ provisioner
 "
 ]
         
+f
 "
 worker
 -
 type
 alias
 {
+alias
 }
 field
 provisioner
 "
-.
-format
-(
-alias
-)
         
 {
 "
@@ -500,23 +491,20 @@ type
 "
 ]
         
+f
 "
 worker
 -
 type
 alias
 {
+alias
 }
 field
 worker
 -
 type
 "
-.
-format
-(
-alias
-)
         
 {
 "

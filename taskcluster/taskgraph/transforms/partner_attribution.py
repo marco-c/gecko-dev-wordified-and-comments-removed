@@ -16,12 +16,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 collections
 import
 defaultdict
@@ -337,7 +331,7 @@ kind_dependencies_tasks
 raise
 Exception
 (
-                        
+f
 "
 Can
 '
@@ -347,17 +341,12 @@ upstream
 task
 for
 {
+platform
 }
 {
+locale
 }
 "
-.
-format
-(
-platform
-locale
-)
-                    
 )
                 
 upstream
@@ -490,6 +479,7 @@ append
 input
 "
 :
+f
 "
 /
 builds
@@ -499,18 +489,15 @@ worker
 fetches
 /
 {
+artifact_part
 }
 "
-.
-format
-(
-artifact_part
-)
                         
 "
 output
 "
 :
+f
 "
 /
 builds
@@ -520,13 +507,9 @@ worker
 artifacts
 /
 {
+artifact
 }
 "
-.
-format
-(
-artifact
-)
                         
 "
 attribution

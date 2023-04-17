@@ -69,12 +69,6 @@ information
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 datetime
 import
@@ -89,8 +83,6 @@ from
 collections
 import
 defaultdict
-import
-six
 from
 slugid
 import
@@ -446,19 +438,16 @@ description
 opt_by
 +
 =
+f
 "
 (
 {
-}
-)
-"
-.
-format
-(
 strategy
 .
 description
+}
 )
+"
             
 return
 (
@@ -562,19 +551,16 @@ logger
 info
 (
             
+f
 "
 {
-}
-"
-.
-format
-(
 verb
 .
 title
 (
 )
-)
+}
+"
             
 +
 "
@@ -582,21 +568,17 @@ title
 .
 join
 (
-                
+f
 "
 {
+c
 }
 tasks
 by
 {
+b
 }
 "
-.
-format
-(
-c
-b
-)
 for
 b
 c
@@ -609,7 +591,6 @@ items
 (
 )
 )
-            
 )
             
 +
@@ -628,19 +609,16 @@ logger
 .
 info
 (
+f
 "
 No
 tasks
 {
+verb
 }
 during
 optimization
 "
-.
-format
-(
-verb
-)
 )
 def
 remove_tasks
@@ -1687,15 +1665,19 @@ probs
 join
 (
             
+f
 "
 {
+l
 }
 depends
 on
 {
+r
 }
 as
 {
+n
 }
 but
 it
@@ -1703,13 +1685,6 @@ has
 been
 removed
 "
-.
-format
-(
-l
-r
-n
-)
             
 for
 l
@@ -1804,13 +1779,12 @@ for
 label
 task
 in
-six
-.
-iteritems
-(
 target_task_graph
 .
 tasks
+.
+items
+(
 )
 :
         
@@ -2008,8 +1982,7 @@ edges
     
 edges_by_taskid
 =
-set
-(
+{
         
 (
 left
@@ -2035,7 +2008,7 @@ right
 in
 tasks_by_taskid
     
-)
+}
     
 return
 TaskGraph
@@ -2058,9 +2031,6 @@ never
 )
 class
 OptimizationStrategy
-(
-object
-)
 :
     
 def
@@ -2175,16 +2145,13 @@ arg
         
 return
 True
-six
-.
-add_metaclass
-(
-ABCMeta
-)
 class
 CompositeStrategy
 (
 OptimizationStrategy
+metaclass
+=
+ABCMeta
 )
 :
     
@@ -2223,9 +2190,7 @@ if
 isinstance
 (
 sub
-six
-.
-text_type
+str
 )
 :
                 
@@ -2377,8 +2342,6 @@ substrategies
 "
 "
 "
-        
-pass
     
 abstractmethod
     
@@ -2409,8 +2372,6 @@ result
 "
 "
 "
-        
-pass
     
 def
 _generate_results
@@ -2808,8 +2769,6 @@ strategy
         
 super
 (
-Alias
-self
 )
 .
 __init__
@@ -2880,8 +2839,6 @@ strategy
         
 super
 (
-Not
-self
 )
 .
 __init__
@@ -3163,9 +3120,6 @@ Alias
 )
 class
 project
-(
-object
-)
 :
     
 "
@@ -3367,9 +3321,6 @@ autoland
 "
 class
 experimental
-(
-object
-)
 :
     
 "
@@ -4224,9 +4175,6 @@ files
 "
 class
 ExperimentalOverride
-(
-object
-)
 :
     
 "

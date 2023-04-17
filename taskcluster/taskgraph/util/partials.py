@@ -1,15 +1,7 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 logging
 import
 requests
-import
-six
 import
 redo
 from
@@ -835,11 +827,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 params
+.
+items
+(
 )
 )
     
@@ -1033,20 +1024,17 @@ first
     
 url
 =
+f
 "
 {
-}
-/
-releases
-"
-.
-format
-(
 _get_balrog_api_root
 (
 branch
 )
-)
+}
+/
+releases
+"
     
 params
 =
@@ -1062,23 +1050,20 @@ product
 name_prefix
 "
 :
+f
 "
 {
+product
 }
 -
 {
+branch
 }
 -
 nightly
 -
 2
 "
-.
-format
-(
-product
-branch
-)
         
 "
 names_only
@@ -1143,24 +1128,21 @@ branch
     
 url
 =
+f
 "
 {
+_get_balrog_api_root
+(
+branch
+)
 }
 /
 releases
 /
 {
+release
 }
 "
-.
-format
-(
-_get_balrog_api_root
-(
-branch
-)
-release
-)
     
 req
 =
@@ -1887,11 +1869,10 @@ for
 version
 release
 in
-six
-.
-iteritems
-(
 partial_updates
+.
+items
+(
 )
 :
         
@@ -1934,6 +1915,7 @@ buildNumber
         
 partial_mar_key
 =
+f
 "
 target
 -
@@ -1945,13 +1927,6 @@ partial
 .
 mar
 "
-.
-format
-(
-version
-=
-version
-)
         
 history
 =

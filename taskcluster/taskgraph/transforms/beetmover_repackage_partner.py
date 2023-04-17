@@ -15,16 +15,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -147,7 +137,7 @@ label
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -162,14 +152,12 @@ scope
 :
 optionally_keyed_by
 (
-            
 "
 release
 -
 level
 "
-text_type
-        
+str
 )
         
 Required
@@ -186,7 +174,7 @@ path
 Any
 (
 None
-text_type
+str
 )
         
 Required
@@ -203,7 +191,7 @@ path
 Any
 (
 None
-text_type
+str
 )
         
 Optional
@@ -615,19 +603,16 @@ build
 "
 ]
 =
+f
 "
 {
+base_label
 }
 -
 {
+build_platform
 }
 "
-.
-format
-(
-base_label
-build_platform
-)
         
 if
 "
@@ -1209,11 +1194,14 @@ paths
 "
 :
 [
+f
 "
 {
+artifact_prefix
 }
 /
 {
+repack_id
 }
 /
 target
@@ -1222,12 +1210,6 @@ tar
 .
 bz2
 "
-.
-format
-(
-artifact_prefix
-repack_id
-)
 ]
                 
 "
@@ -1274,12 +1256,14 @@ paths
 "
 :
 [
-                    
+f
 "
 {
+artifact_prefix
 }
 /
 {
+repack_id
 }
 /
 target
@@ -1290,13 +1274,6 @@ bz2
 .
 asc
 "
-.
-format
-(
-artifact_prefix
-repack_id
-)
-                
 ]
                 
 "
@@ -1351,23 +1328,20 @@ paths
 "
 :
 [
+f
 "
 {
+artifact_prefix
 }
 /
 {
+repack_id
 }
 /
 target
 .
 dmg
 "
-.
-format
-(
-artifact_prefix
-repack_id
-)
 ]
                 
 "
@@ -1414,11 +1388,14 @@ paths
 "
 :
 [
+f
 "
 {
+artifact_prefix
 }
 /
 {
+repack_id
 }
 /
 target
@@ -1427,12 +1404,6 @@ dmg
 .
 asc
 "
-.
-format
-(
-artifact_prefix
-repack_id
-)
 ]
                 
 "
@@ -1487,12 +1458,14 @@ paths
 "
 :
 [
-                    
+f
 "
 {
+artifact_prefix
 }
 /
 {
+repack_id
 }
 /
 target
@@ -1501,13 +1474,6 @@ installer
 .
 exe
 "
-.
-format
-(
-artifact_prefix
-repack_id
-)
-                
 ]
                 
 "
@@ -1554,12 +1520,14 @@ paths
 "
 :
 [
-                    
+f
 "
 {
+artifact_prefix
 }
 /
 {
+repack_id
 }
 /
 target
@@ -1570,13 +1538,6 @@ exe
 .
 asc
 "
-.
-format
-(
-artifact_prefix
-repack_id
-)
-                
 ]
                 
 "

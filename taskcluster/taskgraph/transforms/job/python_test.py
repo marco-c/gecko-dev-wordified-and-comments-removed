@@ -19,16 +19,6 @@ task
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 transforms
@@ -88,7 +78,7 @@ subsuite
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -97,7 +87,7 @@ workdir
 "
 )
 :
-text_type
+str
     
 }
 )

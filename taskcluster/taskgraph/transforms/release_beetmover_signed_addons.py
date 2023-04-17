@@ -15,18 +15,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-import
-six
-from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -139,7 +127,7 @@ attributes
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -151,7 +139,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -174,7 +162,7 @@ description
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -192,7 +180,7 @@ release
 -
 level
 "
-text_type
+str
 )
         
 Required
@@ -216,7 +204,7 @@ locale
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -870,17 +858,14 @@ build_platform
 platforms
 =
 (
+f
 "
 {
+plat
 }
 -
 devedition
 "
-.
-format
-(
-plat
-)
 for
 plat
 in
@@ -1079,11 +1064,10 @@ for
 artifact
 artifact_info
 in
-six
-.
-iteritems
-(
 paths
+.
+items
+(
 )
 :
         

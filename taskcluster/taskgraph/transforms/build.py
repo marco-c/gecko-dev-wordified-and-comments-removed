@@ -20,12 +20,6 @@ kind
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -1211,19 +1205,16 @@ use_pgo
         
 dependencies
 =
+f
 "
 generate
 -
 profile
 -
 {
+name
 }
 "
-.
-format
-(
-name
-)
         
 job
 .

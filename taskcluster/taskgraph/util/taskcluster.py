@@ -1,21 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 os
 import
@@ -979,6 +961,7 @@ else
 raise
 Exception
 (
+f
 "
 Can
 '
@@ -993,13 +976,9 @@ non
 task
 :
 {
+task
 }
 "
-.
-format
-(
-task
-)
 )
     
 return
@@ -1019,22 +998,19 @@ path
 :
     
 return
+f
 "
 {
-}
-/
-{
-}
-"
-.
-format
-(
 get_artifact_prefix
 (
 task
 )
+}
+/
+{
 path
-)
+}
+"
 def
 get_index_url
 (
@@ -1133,19 +1109,16 @@ status_code
 raise
 KeyError
 (
+f
 "
 index
 path
 {
+index_path
 }
 not
 found
 "
-.
-format
-(
-index_path
-)
 )
         
 raise
@@ -1625,19 +1598,16 @@ logger
 .
 info
 (
+f
 "
 Would
 have
 cancelled
 {
+task_id
 }
 .
 "
-.
-format
-(
-task_id
-)
 )
     
 else
@@ -1774,6 +1744,7 @@ logger
 .
 info
 (
+f
 "
 Would
 have
@@ -1781,14 +1752,10 @@ gotten
 status
 for
 {
+task_id
 }
 .
 "
-.
-format
-(
-task_id
-)
 )
     
 else
@@ -1944,6 +1911,7 @@ logger
 .
 info
 (
+f
 "
 Would
 have
@@ -1951,14 +1919,10 @@ gotten
 state
 for
 {
+task_id
 }
 .
 "
-.
-format
-(
-task_id
-)
 )
     
 else
@@ -2028,19 +1992,16 @@ logger
 .
 info
 (
+f
 "
 Would
 have
 rerun
 {
+task_id
 }
 .
 "
-.
-format
-(
-task_id
-)
 )
     
 else
@@ -2363,25 +2324,22 @@ logger
 .
 info
 (
+f
 "
 Purging
 {
+provisioner_id
 }
 /
 {
+worker_type
 }
 /
 {
+cache_name
 }
 .
 "
-.
-format
-(
-provisioner_id
-worker_type
-cache_name
-)
 )
         
 purge_cache_url
@@ -2437,19 +2395,16 @@ logger
 .
 info
 (
+f
 "
 Sending
 email
 to
 {
+address
 }
 .
 "
-.
-format
-(
-address
-)
 )
     
 url
@@ -2559,21 +2514,18 @@ queue
 v1
 "
             
+f
 "
 task
 -
 group
 /
 {
+task_group_id
 }
 /
 list
 "
-.
-format
-(
-task_group_id
-)
         
 )
         
@@ -2596,19 +2548,14 @@ json
 (
 )
         
-for
-task
-in
+yield
+from
 resp
 [
 "
 tasks
 "
 ]
-:
-            
-yield
-task
         
 if
 resp

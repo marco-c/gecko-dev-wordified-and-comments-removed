@@ -14,18 +14,8 @@ description
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -118,7 +108,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -129,7 +119,7 @@ type
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -161,7 +151,7 @@ locale
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -171,7 +161,7 @@ routes
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -283,7 +273,7 @@ release
 type
 "
 [
-text_type
+str
 ]
         
 )
@@ -325,7 +315,7 @@ shipping
 -
 product
 "
-text_type
+str
             
 )
             
@@ -357,7 +347,7 @@ shipping
 -
 product
 "
-text_type
+str
             
 )
         
@@ -391,7 +381,7 @@ build
 platform
 "
 [
-text_type
+str
 ]
 )
             
@@ -405,7 +395,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 Optional
@@ -2248,29 +2238,24 @@ substs
 .
 update
 (
-                
 {
 name
 :
+f
 "
 {
 {
 {
-}
-}
-}
-"
-.
-format
-(
 name
-)
+}
+}
+}
+"
 for
 name
 in
 MOZHARNESS_EXPANSIONS
 }
-            
 )
             
 for
@@ -2939,16 +2924,13 @@ None
     
 locale_path
 =
+f
 "
 {
+locale
 }
 /
 "
-.
-format
-(
-locale
-)
 if
 locale
 else
@@ -2994,8 +2976,10 @@ update
 repackage_signing_task
 :
 [
+f
 "
 {
+locale_path
 }
 target
 .
@@ -3003,11 +2987,6 @@ installer
 .
 exe
 "
-.
-format
-(
-locale_path
-)
 ]
             
 }
@@ -3112,18 +3091,15 @@ signing_task
 artifact
 "
 :
+f
 "
 {
+locale_path
 }
 target
 .
 zip
 "
-.
-format
-(
-locale_path
-)
                         
 "
 extract
@@ -3133,18 +3109,15 @@ False
                     
 }
                     
+f
 "
 {
+locale_path
 }
 setup
 .
 exe
 "
-.
-format
-(
-locale_path
-)
                 
 ]
             
@@ -3178,8 +3151,10 @@ signing_task
 .
 append
 (
+f
 "
 {
+locale_path
 }
 setup
 -
@@ -3187,11 +3162,6 @@ stub
 .
 exe
 "
-.
-format
-(
-locale_path
-)
 )
     
 if
@@ -3204,20 +3174,17 @@ fetch
 raise
 NotImplementedError
 (
+f
 '
 Unsupported
 build_platform
 :
 "
 {
+build_platform
 }
 "
 '
-.
-format
-(
-build_platform
-)
 )
 def
 _generate_task_output_files
@@ -3234,16 +3201,13 @@ None
     
 locale_output_path
 =
+f
 "
 {
+locale
 }
 /
 "
-.
-format
-(
-locale
-)
 if
 locale
 else
@@ -3315,6 +3279,7 @@ raise
 NotImplementedError
 (
             
+f
 '
 Unsupported
 worker
@@ -3322,14 +3287,10 @@ implementation
 :
 "
 {
+worker_implementation
 }
 "
 '
-.
-format
-(
-worker_implementation
-)
         
 )
     

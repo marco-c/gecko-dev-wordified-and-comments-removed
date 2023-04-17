@@ -38,20 +38,10 @@ platform
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 import
 os
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -133,9 +123,9 @@ platform
 :
 Any
 (
-text_type
+str
 [
-text_type
+str
 ]
 )
         
@@ -150,16 +140,14 @@ build
 :
 optionally_keyed_by
 (
-            
 "
 project
 "
 {
-text_type
+str
 :
-text_type
+str
 }
-        
 )
         
 Required
@@ -268,7 +256,7 @@ fetches
 :
 {
             
-text_type
+str
 :
 optionally_keyed_by
 (
@@ -283,7 +271,7 @@ fetches
 "
 ]
 [
-text_type
+str
 ]
             
 )
@@ -421,7 +409,7 @@ job
 platform
 "
 ]
-text_type
+str
 )
 :
             
@@ -578,17 +566,13 @@ versions
             
 group
 =
+f
 "
 py
 {
-0
+version
 }
 "
-.
-format
-(
-version
-)
             
 pyjob
 =
@@ -615,17 +599,13 @@ name
 ]
 +
 =
+f
 "
 -
 {
-0
+group
 }
 "
-.
-format
-(
-group
-)
             
 else
 :
@@ -638,17 +618,13 @@ label
 ]
 +
 =
+f
 "
 -
 {
-0
+group
 }
 "
-.
-format
-(
-group
-)
             
 symbol
 =
@@ -872,19 +848,16 @@ shell
             
 group
 =
+f
 "
 js
 -
 bench
 -
 {
+shell
 }
 "
-.
-format
-(
-shell
-)
             
 symbol
 =
@@ -1081,6 +1054,7 @@ matches
 raise
 Exception
 (
+f
 "
 More
 than
@@ -1091,15 +1065,11 @@ found
 for
 '
 {
+key
 }
 '
 .
 "
-.
-format
-(
-key
-)
 )
     
 label
@@ -1268,17 +1238,14 @@ resolve_keyed_by
                 
 job
                 
+f
 "
 dependencies
 .
 {
+field
 }
 "
-.
-format
-(
-field
-)
                 
 item_name
 =

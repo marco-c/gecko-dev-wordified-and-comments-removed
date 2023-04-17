@@ -1,13 +1,5 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 pytest
-import
-six
 import
 unittest
 from
@@ -98,23 +90,20 @@ prev
 "
 ]
 =
+f
 "
 {
+kind
 }
 -
 t
 -
 {
-}
-"
-.
-format
-(
-kind
 i
 -
 1
-)
+}
+"
         
 task
 =
@@ -130,39 +119,33 @@ kind
 label
 "
 :
+f
 "
 {
+kind
 }
 -
 t
 -
 {
+i
 }
 "
-.
-format
-(
-kind
-i
-)
             
 "
 description
 "
 :
+f
 "
 {
+kind
 }
 task
 {
+i
 }
 "
-.
-format
-(
-kind
-i
-)
             
 "
 attributes
@@ -173,9 +156,7 @@ attributes
 _tasknum
 "
 :
-six
-.
-text_type
+str
 (
 i
 )
@@ -202,17 +183,14 @@ metadata
 name
 "
 :
+f
 "
 t
 -
 {
+i
 }
 "
-.
-format
-(
-i
-)
 }
                 
 "
@@ -301,17 +279,13 @@ name
 return
 super
 (
-FakeKind
-self
 )
 .
 load_tasks
 (
-            
 parameters
 loaded_tasks
 write_artifacts
-        
 )
 class
 WithFakeKind
@@ -462,8 +436,6 @@ kwargs
         
 super
 (
-FakeOptimization
-self
 )
 .
 __init__
@@ -1296,12 +1268,7 @@ self
 .
 assertEqual
 (
-            
 set
-(
-six
-.
-iterkeys
 (
 self
 .
@@ -1310,6 +1277,9 @@ tgg
 target_task_set
 .
 tasks
+.
+keys
+(
 )
 )
 {
@@ -1321,7 +1291,6 @@ t
 1
 "
 }
-        
 )
     
 def
@@ -1757,7 +1726,6 @@ assertEqual
             
 sorted
 (
-[
 t
 .
 label
@@ -1775,7 +1743,6 @@ tasks
 values
 (
 )
-]
 )
             
 sorted

@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 from
@@ -474,7 +468,7 @@ aar_locations
 raise
 ValueError
 (
-            
+f
 "
 Only
 a
@@ -487,14 +481,9 @@ given
 Got
 :
 {
+aar_locations
 }
 "
-.
-format
-(
-aar_locations
-)
-        
 )
     
 return

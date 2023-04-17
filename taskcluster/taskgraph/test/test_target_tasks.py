@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 contextlib
 import
@@ -44,9 +38,6 @@ import
 Task
 class
 FakeTryOptionSyntax
-(
-object
-)
 :
     
 def
@@ -795,6 +786,7 @@ default_matches_hg_branch
 (
                 
 [
+r
 "
 GECKOVIEW_
 \

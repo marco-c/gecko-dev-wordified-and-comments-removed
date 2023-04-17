@@ -1,21 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 json
 import
@@ -805,6 +787,7 @@ logger
 .
 warning
 (
+f
 "
 Could
 not
@@ -814,13 +797,9 @@ task
 for
 push
 {
+push_id
 }
 "
-.
-format
-(
-push_id
-)
 )
             
 continue
@@ -857,6 +836,7 @@ logger
 .
 exception
 (
+f
 "
 Failed
 to
@@ -864,13 +844,9 @@ trigger
 action
 for
 {
+push_id
 }
 "
-.
-format
-(
-push_id
-)
 )
             
 failed
@@ -967,20 +943,17 @@ logger
 .
 debug
 (
+f
 "
 Modifying
 test_manifests
 for
 {
-}
-"
-.
-format
-(
 task
 .
 label
-)
+}
+"
 )
     
 test_manifests
@@ -1075,23 +1048,20 @@ th_info
 symbol
 "
 ]
+f
 "
 -
 {
-}
--
-bk
-"
-.
-format
-(
 revision
 [
 0
 :
 11
 ]
-)
+}
+-
+bk
+"
     
 )
     
@@ -1291,12 +1261,13 @@ else
 raise
 Exception
 (
-                
+f
 "
 New
 label
 (
 {
+label
 }
 )
 was
@@ -1308,12 +1279,6 @@ task
 -
 graph
 "
-.
-format
-(
-label
-)
-            
 )
     
 else
@@ -1322,8 +1287,10 @@ else
 raise
 Exception
 (
+f
 "
 {
+label
 }
 was
 not
@@ -1334,11 +1301,6 @@ task
 -
 graph
 "
-.
-format
-(
-label
-)
 )
 register_callback_action
 (

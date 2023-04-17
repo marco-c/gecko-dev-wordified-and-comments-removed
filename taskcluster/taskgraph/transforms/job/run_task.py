@@ -19,16 +19,6 @@ script
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 mozpack
 import
 path
@@ -164,7 +154,7 @@ checkout
         
 )
 :
-text_type
+str
         
 Required
 (
@@ -177,7 +167,7 @@ profile
 :
 Any
 (
-text_type
+str
 None
 )
         
@@ -192,7 +182,7 @@ prefix
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -227,7 +217,7 @@ workdir
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -410,6 +400,7 @@ command
 .
 append
 (
+f
 "
 -
 -
@@ -420,13 +411,9 @@ sparse
 profile
 =
 {
+sparse_profile_path
 }
 "
-.
-format
-(
-sparse_profile_path
-)
 )
     
 taskdesc
@@ -526,19 +513,16 @@ params
 file_url
 (
         
+f
 "
 taskcluster
 /
 scripts
 /
 {
+script
 }
 "
-.
-format
-(
-script
-)
     
 )
 run_job_using
@@ -892,7 +876,7 @@ isinstance
 (
 run_command
 (
-text_type
+str
 dict
 )
 )
@@ -1619,7 +1603,7 @@ isinstance
 (
 run_command
 (
-text_type
+str
 dict
 )
 )
@@ -1652,37 +1636,31 @@ run_command
 k
 ]
 =
+f
 '
 "
 {
-}
-"
-'
-.
-format
-(
 run_command
 [
 k
 ]
-)
+}
+"
+'
             
 else
 :
                 
 run_command
 =
+f
 '
 "
 {
+run_command
 }
 "
 '
-.
-format
-(
-run_command
-)
         
 run_command
 =

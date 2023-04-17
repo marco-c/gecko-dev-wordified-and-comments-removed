@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 attr
 import
@@ -18,9 +12,6 @@ True
 )
 class
 Graph
-(
-object
-)
 :
     
 "
@@ -398,6 +389,7 @@ raise
 Exception
 (
                 
+f
 "
 Unknown
 nodes
@@ -406,17 +398,13 @@ transitive
 closure
 :
 {
-}
-"
-.
-format
-(
 nodes
 -
 self
 .
 nodes
-)
+}
+"
             
 )
         
@@ -459,8 +447,7 @@ new_edges
             
 add_edges
 =
-set
-(
+{
                 
 (
 left
@@ -490,13 +477,11 @@ left
 in
 nodes
             
-)
+}
             
 add_nodes
 =
-set
-(
-                
+{
 (
 left
 if
@@ -512,8 +497,7 @@ _
 )
 in
 add_edges
-            
-)
+}
             
 new_nodes
 =

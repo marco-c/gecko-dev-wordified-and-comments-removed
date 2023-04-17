@@ -10,30 +10,16 @@ kind
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 import
-io
-import
 json
-import
-six
 from
 mozbuild
 .
 chunkify
 import
 chunkify
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -149,7 +135,7 @@ name
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -160,7 +146,7 @@ platform
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -188,7 +174,7 @@ locales
 _by_platform
 (
 [
-text_type
+str
 ]
 )
         
@@ -210,7 +196,7 @@ script
 :
 _by_platform
 (
-text_type
+str
 )
             
 Required
@@ -223,7 +209,7 @@ config
 _by_platform
 (
 [
-text_type
+str
 ]
 )
             
@@ -237,7 +223,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 Optional
@@ -250,7 +236,7 @@ options
 _by_platform
 (
 [
-text_type
+str
 ]
 )
             
@@ -264,7 +250,7 @@ actions
 _by_platform
 (
 [
-text_type
+str
 ]
 )
             
@@ -299,7 +285,7 @@ product
 :
 _by_platform
 (
-text_type
+str
 )
             
 Required
@@ -313,7 +299,7 @@ name
 :
 _by_platform
 (
-text_type
+str
 )
             
 Optional
@@ -325,7 +311,7 @@ type
 :
 _by_platform
 (
-text_type
+str
 )
         
 }
@@ -339,7 +325,7 @@ description
 :
 _by_platform
 (
-text_type
+str
 )
         
 Optional
@@ -375,7 +361,7 @@ type
 :
 _by_platform
 (
-text_type
+str
 )
         
 Required
@@ -389,7 +375,7 @@ file
 :
 _by_platform
 (
-text_type
+str
 )
         
 Required
@@ -431,7 +417,7 @@ in
 tree
 "
 :
-text_type
+str
 }
         
 )
@@ -445,12 +431,12 @@ fetches
 :
 {
             
-text_type
+str
 :
 _by_platform
 (
 [
-text_type
+str
 ]
 )
         
@@ -469,7 +455,7 @@ Any
 (
 bool
 [
-text_type
+str
 ]
 )
 )
@@ -492,7 +478,7 @@ platform
 :
 _by_platform
 (
-text_type
+str
 )
             
 Required
@@ -502,7 +488,7 @@ symbol
 "
 )
 :
-text_type
+str
             
 Required
 (
@@ -528,7 +514,7 @@ env
 _by_platform
 (
 {
-text_type
+str
 :
 taskref_or_string
 }
@@ -558,9 +544,9 @@ dependencies
 )
 :
 {
-text_type
+str
 :
-text_type
+str
 }
         
 Optional
@@ -578,7 +564,7 @@ changed
 "
 :
 [
-text_type
+str
 ]
 }
         
@@ -687,8 +673,6 @@ locales
 ]
     
 with
-io
-.
 open
 (
 locales_file
@@ -1410,10 +1394,6 @@ for
 k1
 v1
 in
-six
-.
-iteritems
-(
 job
 .
 get
@@ -1424,6 +1404,9 @@ env
 {
 }
 )
+.
+items
+(
 )
 :
             
@@ -1431,7 +1414,7 @@ if
 isinstance
 (
 v1
-text_type
+str
 )
 :
                 
@@ -1466,11 +1449,10 @@ for
 k2
 v2
 in
-six
-.
-iteritems
-(
 v1
+.
+items
+(
 )
 :
                     
@@ -1788,23 +1770,18 @@ name
 .
 replace
 (
-                    
 "
 /
 "
+f
 "
 -
 {
+this_chunk
 }
 /
 "
-.
-format
-(
-this_chunk
-)
 1
-                
 )
                 
 chunked
@@ -1878,21 +1855,18 @@ extend
                     
 [
                         
+f
 "
 locale
 =
 {
+locale
 }
 :
 {
+changeset
 }
 "
-.
-format
-(
-locale
-changeset
-)
                         
 for
 locale
@@ -2025,21 +1999,18 @@ extend
                 
 [
                     
+f
 "
 locale
 =
 {
+locale
 }
 :
 {
+changeset
 }
 "
-.
-format
-(
-locale
-changeset
-)
                     
 for
 locale

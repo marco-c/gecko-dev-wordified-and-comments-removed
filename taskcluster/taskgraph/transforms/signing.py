@@ -15,16 +15,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -128,7 +118,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 Required
 (
@@ -138,7 +128,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
                 
 Required
@@ -149,7 +139,7 @@ formats
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -163,7 +153,7 @@ depname
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -173,7 +163,7 @@ attributes
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -185,7 +175,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -209,7 +199,7 @@ routes
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -258,7 +248,7 @@ tasks
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -284,7 +274,7 @@ extra
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -533,8 +523,6 @@ formats
 =
 set
 (
-[
-]
 )
         
 for
@@ -1333,24 +1321,19 @@ else
 raise
 Exception
 (
-                        
+f
 "
 Unknown
 kind
 {
+config
+.
+kind
 }
 for
 mac_behavior
 !
 "
-.
-format
-(
-config
-.
-kind
-)
-                    
 )
             
 else
@@ -1709,19 +1692,16 @@ actual_build_type
 build_type
     
 return
+f
 "
 {
+dep_th_platform
 }
 /
 {
+actual_build_type
 }
 "
-.
-format
-(
-dep_th_platform
-actual_build_type
-)
 def
 _generate_treeherder_symbol
 (

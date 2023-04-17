@@ -19,16 +19,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -105,7 +95,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -128,7 +118,7 @@ locale
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -311,17 +301,14 @@ setdefault
 "
 platform
 "
+f
 "
 {
+dep_th_platform
 }
 /
 opt
 "
-.
-format
-(
-dep_th_platform
-)
 )
         
 treeherder
@@ -766,17 +753,14 @@ beetmover
 "
 ]
 =
+f
 "
 <
 {
+dependency
 }
 >
 "
-.
-format
-(
-dependency
-)
             
 else
 :
@@ -788,17 +772,14 @@ signing
 "
 ]
 =
+f
 "
 <
 {
+dependency
 }
 >
 "
-.
-format
-(
-dependency
-)
         
 if
 None

@@ -15,12 +15,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -96,16 +90,13 @@ None
     
 locale_output_path
 =
+f
 "
 {
+locale
 }
 /
 "
-.
-format
-(
-locale
-)
 if
 locale
 else
@@ -150,6 +141,7 @@ file
 path
 "
 :
+f
 "
 /
 home
@@ -159,34 +151,27 @@ worker
 artifacts
 /
 {
+filename
 }
 "
-.
-format
-(
-filename
-)
                 
 "
 name
 "
 :
+f
 "
 {
+artifact_prefix
 }
 /
 {
+locale_output_path
 }
 {
+filename
 }
 "
-.
-format
-(
-artifact_prefix
-locale_output_path
-filename
-)
             
 }
         
@@ -228,22 +213,19 @@ json
 name
 "
 :
+f
 "
 {
+artifact_prefix
 }
 /
 {
+locale_output_path
 }
 manifest
 .
 json
 "
-.
-format
-(
-artifact_prefix
-locale_output_path
-)
         
 }
     
@@ -444,19 +426,16 @@ get
 "
 label
 "
+f
 "
 partials
 -
 {
-}
-"
-.
-format
-(
 dep_job
 .
 label
-)
+}
+"
 )
         
 dependencies
@@ -511,18 +490,15 @@ symbol
 "
 ]
 =
+f
 "
 p
 (
 {
+locale
 }
 )
 "
-.
-format
-(
-locale
-)
         
 attributes
 [
@@ -617,16 +593,13 @@ locale
             
 locale_suffix
 =
+f
 "
 {
+locale
 }
 /
 "
-.
-format
-(
-locale
-)
         
 artifact_path
 =
@@ -990,22 +963,19 @@ release_product
 EXTRA_PARAMS
 "
 :
+f
 "
 -
 -
 arch
 =
 {
-}
-"
-.
-format
-(
 architecture
 (
 build_platform
 )
-)
+}
+"
                 
 "
 MAR_CHANNEL_ID
@@ -1071,18 +1041,15 @@ label
 description
 "
 :
+f
 "
 {
-}
-Partials
-"
-.
-format
-(
 dep_job
 .
 description
-)
+}
+Partials
+"
             
 "
 worker

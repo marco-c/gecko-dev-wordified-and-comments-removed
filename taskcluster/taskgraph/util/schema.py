@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 re
 import
@@ -16,11 +10,6 @@ collections
 abc
 import
 voluptuous
-from
-six
-import
-text_type
-iteritems
 import
 taskgraph
 from
@@ -877,19 +866,16 @@ subfield
         
 item_name
 =
+f
 "
 {
+field
 }
 in
 {
+item_name
 }
 "
-.
-format
-(
-field
-item_name
-)
         
 defer
 =
@@ -1075,8 +1061,8 @@ if
 k
 in
 (
-text_type
-text_type
+str
+str
 voluptuous
 .
 Extra
@@ -1101,7 +1087,7 @@ elif
 isinstance
 (
 k
-text_type
+str
 )
 :
                 
@@ -1263,30 +1249,28 @@ for
 k
 v
 in
-iteritems
-(
 sch
+.
+items
+(
 )
 :
                 
 child
 =
+f
 "
 {
+path
 }
 [
 {
+k
 !
 r
 }
 ]
 "
-.
-format
-(
-path
-k
-)
                 
 check_identifier
 (
@@ -1323,20 +1307,17 @@ sch
                 
 iter
 (
+f
 "
 {
+path
 }
 [
 {
+i
 }
 ]
 "
-.
-format
-(
-path
-i
-)
 v
 )
         
@@ -1423,8 +1404,6 @@ kwargs
         
 super
 (
-Schema
-self
 )
 .
 __init__
@@ -1464,8 +1443,6 @@ schema
 =
 super
 (
-Schema
-self
 )
 .
 extend
@@ -1510,8 +1487,6 @@ return
 return
 super
 (
-Schema
-self
 )
 .
 _compile
@@ -1541,7 +1516,7 @@ voluptuous
 Any
 (
     
-text_type
+str
     
 {
 voluptuous
@@ -1555,7 +1530,7 @@ reference
 "
 )
 :
-text_type
+str
 }
     
 {
@@ -1570,6 +1545,6 @@ reference
 "
 )
 :
-text_type
+str
 }
 )

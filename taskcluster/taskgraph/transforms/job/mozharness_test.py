@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 json
 import
@@ -12,10 +6,6 @@ import
 re
 import
 six
-from
-six
-import
-text_type
 from
 voluptuous
 import
@@ -143,17 +133,14 @@ VARIANTS
 :
         
 if
+f
 "
 -
 {
+v
 }
 /
 "
-.
-format
-(
-v
-)
 in
 test_platform
 :
@@ -200,7 +187,7 @@ workdir
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -947,7 +934,7 @@ true
 ENABLE_E10S
 "
 :
-text_type
+str
 (
 bool
 (
@@ -2945,17 +2932,14 @@ mh_command
 "
 bash
 "
+f
 "
 .
 /
 {
+bitbar_script
 }
 "
-.
-format
-(
-bitbar_script
-)
 ]
     
 elif
@@ -3173,7 +3157,7 @@ download
 symbols
 "
 ]
-text_type
+str
 )
 :
             
@@ -3502,6 +3486,7 @@ params
 file_url
 (
             
+f
 "
 taskcluster
 /
@@ -3510,13 +3495,9 @@ scripts
 tester
 /
 {
+bitbar_script
 }
 "
-.
-format
-(
-bitbar_script
-)
         
 )
         

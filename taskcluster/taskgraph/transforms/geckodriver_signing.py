@@ -16,16 +16,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -85,7 +75,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -792,20 +782,17 @@ else
 raise
 ValueError
 (
+f
 '
 Unsupported
 build
 platform
 "
 {
+build_platform
 }
 "
 '
-.
-format
-(
-build_platform
-)
 )
     
 return
@@ -824,17 +811,14 @@ task
 reference
 "
 :
+f
 "
 <
 {
+dependency_kind
 }
 >
 "
-.
-format
-(
-dependency_kind
-)
 }
             
 "

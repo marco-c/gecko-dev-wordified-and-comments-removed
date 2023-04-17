@@ -10,12 +10,6 @@ kinds
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -98,19 +92,16 @@ build_platform
             
 job_name
 =
+f
 "
 {
+build_platform
 }
 -
 {
+repackage_type
 }
 "
-.
-format
-(
-build_platform
-repackage_type
-)
             
 product
 =

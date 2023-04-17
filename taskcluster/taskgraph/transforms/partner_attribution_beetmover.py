@@ -15,16 +15,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -146,7 +136,7 @@ build
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -155,7 +145,7 @@ label
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -170,14 +160,12 @@ scope
 :
 optionally_keyed_by
 (
-            
 "
 release
 -
 level
 "
-text_type
-        
+str
 )
         
 Required
@@ -194,7 +182,7 @@ path
 Any
 (
 None
-text_type
+str
 )
         
 Required
@@ -211,7 +199,7 @@ path
 Any
 (
 None
-text_type
+str
 )
         
 Optional
@@ -912,60 +900,48 @@ partner_public
             
 label
 =
+f
 "
 {
+label
 }
 -
 public
 "
-.
-format
-(
-label
-)
             
 description
 =
+f
 "
 {
+description
 }
 public
 "
-.
-format
-(
-description
-)
         
 else
 :
             
 label
 =
+f
 "
 {
+label
 }
 -
 private
 "
-.
-format
-(
-label
-)
             
 description
 =
+f
 "
 {
+description
 }
 private
 "
-.
-format
-(
-description
-)
         
 attributes
 =

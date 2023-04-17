@@ -1,21 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 unittest
 from
@@ -202,13 +184,10 @@ att
 }
 att
 =
-set
-(
-[
+{
 9
 10
-]
-)
+}
 )
 )
         
@@ -227,13 +206,10 @@ att
 }
 att
 =
-set
-(
-[
+{
 19
 20
-]
-)
+}
 )
 )
     

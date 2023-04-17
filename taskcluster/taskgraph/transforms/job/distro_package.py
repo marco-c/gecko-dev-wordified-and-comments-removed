@@ -12,20 +12,10 @@ scripts
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 os
 import
 re
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -102,6 +92,7 @@ re
 .
 compile
 (
+r
 "
 .
 *
@@ -128,7 +119,7 @@ url
 "
 )
 :
-text_type
+str
     
 Required
 (
@@ -137,7 +128,7 @@ sha256
 "
 )
 :
-text_type
+str
 }
 common_schema
 =
@@ -168,7 +159,7 @@ name
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -177,7 +168,7 @@ patch
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -190,7 +181,7 @@ command
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -199,7 +190,7 @@ arch
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -209,7 +200,7 @@ packages
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -238,7 +229,7 @@ workdir
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -271,7 +262,7 @@ dist
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -304,7 +295,7 @@ dist
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -339,18 +330,15 @@ label
 .
 replace
 (
+f
 "
 {
-}
--
-"
-.
-format
-(
 config
 .
 kind
-)
+}
+-
+"
 "
 "
 1
@@ -1448,17 +1436,14 @@ reference
 .
 join
 (
+f
 "
 <
 {
+p
 }
 >
 "
-.
-format
-(
-p
-)
 for
 p
 in
@@ -1501,17 +1486,14 @@ deps
 p
 ]
 =
+f
 "
 packages
 -
 {
+p
 }
 "
-.
-format
-(
-p
-)
     
 digest_data
 =

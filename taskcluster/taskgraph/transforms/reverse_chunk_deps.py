@@ -11,12 +11,6 @@ MAX_DEPENDENCIES
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 copy
 import
 deepcopy
@@ -138,16 +132,13 @@ treeherder
 symbol
 "
 ]
+f
 "
 -
 {
+count
 }
 "
-.
-format
-(
-count
-)
         
 )
     

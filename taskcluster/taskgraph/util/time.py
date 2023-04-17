@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 re
 import
@@ -14,6 +8,7 @@ re
 .
 compile
 (
+r
 "
 (
 (
@@ -390,20 +385,17 @@ groups
 raise
 InvalidString
 (
+f
 "
 '
 {
+input_str
 }
 '
 is
 invalid
 string
 "
-.
-format
-(
-input_str
-)
 )
     
 value

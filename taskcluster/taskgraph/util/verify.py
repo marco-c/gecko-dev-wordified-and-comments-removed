@@ -1,21 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 logging
 import
@@ -88,9 +70,6 @@ True
 )
 class
 Verification
-(
-object
-)
 :
     
 verify
@@ -118,9 +97,6 @@ True
 )
 class
 VerificationSequence
-(
-object
-)
 :
     
 "
@@ -364,9 +340,6 @@ True
 )
 class
 DocPaths
-(
-object
-)
 :
     
 _paths
@@ -738,19 +711,16 @@ else
 raise
 Exception
 (
+f
 "
 appearing_as
 =
 {
+appearing_as
 }
 not
 defined
 "
-.
-format
-(
-appearing_as
-)
 )
     
 for
@@ -1088,22 +1058,19 @@ scratch_pad
 key
 ]
                         
+f
 "
 {
+platform
 }
 /
 {
-}
-"
-.
-format
-(
-platform
 collection_keys
 [
 0
 ]
-)
+}
+"
                         
 join_symbol
 (
@@ -1589,13 +1556,12 @@ tier
 for
 task
 in
-six
-.
-itervalues
-(
 taskgraph
 .
 tasks
+.
+values
+(
 )
 :
             
@@ -1611,13 +1577,12 @@ label
 for
 d
 in
-six
-.
-itervalues
-(
 task
 .
 dependencies
+.
+values
+(
 )
 :
                 
@@ -1870,13 +1835,12 @@ signoffs
 for
 task
 in
-six
-.
-itervalues
-(
 taskgraph
 .
 tasks
+.
+values
+(
 )
 :
             
@@ -1892,13 +1856,12 @@ label
 for
 d
 in
-six
-.
-itervalues
-(
 task
 .
 dependencies
+.
+values
+(
 )
 :
                 
@@ -2045,9 +2008,7 @@ elif
 isinstance
 (
 keys
-six
-.
-text_type
+str
 )
 :
             
@@ -2193,6 +2154,7 @@ optimized
 raise
 Exception
 (
+f
 "
 Could
 not
@@ -2200,17 +2162,13 @@ optimize
 the
 task
 {
+task
+.
+label
 !
 r
 }
 "
-.
-format
-(
-task
-.
-label
-)
 )
 verifications
 .
@@ -2283,22 +2241,19 @@ USE_SCCACHE
 raise
 Exception
 (
+f
 "
 Shippable
 job
 {
+task
+.
+label
 }
 cannot
 use
 sccache
 "
-.
-format
-(
-task
-.
-label
-)
 )
 verifications
 .
@@ -2370,13 +2325,12 @@ exceptions
 for
 task
 in
-six
-.
-itervalues
-(
 taskgraph
 .
 tasks
+.
+values
+(
 )
 :
             

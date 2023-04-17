@@ -17,12 +17,6 @@ channel
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 pipes
 import
 quote
@@ -220,19 +214,16 @@ scopes
 .
 append
 (
+f
 "
 secrets
 :
 get
 :
 {
+ssh_key_secret
 }
 "
-.
-format
-(
-ssh_key_secret
-)
 )
         
 command

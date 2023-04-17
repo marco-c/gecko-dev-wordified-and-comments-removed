@@ -16,16 +16,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -106,7 +96,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -500,10 +490,11 @@ paths
                         
 get_artifact_path
 (
-                            
 dep_job
+f
 "
 {
+repack_id
 }
 /
 target
@@ -512,12 +503,6 @@ installer
 .
 exe
 "
-.
-format
-(
-repack_id
-)
-                        
 )
                     
 ]
@@ -638,8 +623,10 @@ get_artifact_path
                                 
 dep_job
                                 
+f
 "
 {
+repack_id
 }
 /
 target
@@ -650,11 +637,6 @@ installer
 .
 exe
 "
-.
-format
-(
-repack_id
-)
                             
 )
                         
@@ -726,19 +708,16 @@ paths
 get_artifact_path
 (
 dep_job
+f
 "
 {
+repack_id
 }
 /
 target
 .
 dmg
 "
-.
-format
-(
-repack_id
-)
 )
                     
 ]
@@ -805,10 +784,11 @@ paths
                         
 get_artifact_path
 (
-                            
 dep_job
+f
 "
 {
+repack_id
 }
 /
 target
@@ -817,12 +797,6 @@ tar
 .
 bz2
 "
-.
-format
-(
-repack_id
-)
-                        
 )
                     
 ]

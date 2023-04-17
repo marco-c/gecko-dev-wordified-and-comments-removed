@@ -137,12 +137,6 @@ instead
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 import
@@ -155,11 +149,6 @@ mozbuild
 schedules
 import
 INCLUSIVE_COMPONENTS
-from
-six
-import
-string_types
-text_type
 from
 voluptuous
 import
@@ -3738,7 +3727,7 @@ description
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -3750,7 +3739,7 @@ suite
 Any
 (
             
-text_type
+str
             
 {
 Optional
@@ -3760,7 +3749,7 @@ category
 "
 )
 :
-text_type
+str
 Optional
 (
 "
@@ -3768,7 +3757,7 @@ name
 "
 )
 :
-text_type
+str
 }
         
 )
@@ -3782,7 +3771,6 @@ workdir
 :
 optionally_keyed_by
 (
-            
 "
 test
 -
@@ -3790,12 +3778,11 @@ platform
 "
 Any
 (
-text_type
+str
 "
 default
 "
 )
-        
 )
         
 Optional
@@ -3807,7 +3794,7 @@ name
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -3817,7 +3804,7 @@ tags
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -3831,7 +3818,7 @@ symbol
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -3844,7 +3831,7 @@ platform
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -3854,7 +3841,7 @@ attributes
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -3868,7 +3855,7 @@ from
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -3911,7 +3898,7 @@ variant
 Any
 (
 [
-text_type
+str
 ]
 "
 built
@@ -4022,7 +4009,7 @@ after
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -4111,7 +4098,7 @@ app
 Any
 (
 [
-text_type
+str
 ]
 "
 default
@@ -4244,7 +4231,7 @@ platform
 Any
 (
                 
-text_type
+str
                 
 {
 "
@@ -4253,7 +4240,7 @@ in
 tree
 "
 :
-text_type
+str
 }
                 
 {
@@ -4261,7 +4248,7 @@ text_type
 indexed
 "
 :
-text_type
+str
 }
             
 )
@@ -4361,7 +4348,7 @@ test
 -
 platform
 "
-text_type
+str
 )
             
 Required
@@ -4379,7 +4366,7 @@ test
 platform
 "
 [
-text_type
+str
 ]
 )
             
@@ -4392,7 +4379,7 @@ flavor
 "
 )
 :
-text_type
+str
             
 Optional
 (
@@ -4402,7 +4389,7 @@ actions
 )
 :
 [
-text_type
+str
 ]
             
 Required
@@ -4416,16 +4403,14 @@ options
 :
 optionally_keyed_by
 (
-                
 "
 test
 -
 platform
 "
 [
-text_type
+str
 ]
-            
 )
             
 Optional
@@ -4439,7 +4424,7 @@ name
 "
 )
 :
-text_type
+str
             
 Optional
 (
@@ -4450,7 +4435,7 @@ url
 "
 )
 :
-text_type
+str
             
 Required
 (
@@ -4578,7 +4563,7 @@ Any
 (
             
 [
-text_type
+str
 ]
             
 {
@@ -4587,14 +4572,14 @@ active
 "
 :
 [
-text_type
+str
 ]
 "
 skipped
 "
 :
 [
-text_type
+str
 ]
 }
         
@@ -4628,7 +4613,7 @@ test
 platform
 "
 [
-text_type
+str
 ]
 )
         
@@ -4662,7 +4647,7 @@ platform
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -4673,7 +4658,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -4686,7 +4671,7 @@ label
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -4698,7 +4683,7 @@ attributes
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -4712,7 +4697,7 @@ platform
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -4729,7 +4714,7 @@ optionally_keyed_by
 app
 "
 [
-text_type
+str
 ]
 )
         
@@ -4742,7 +4727,7 @@ name
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -4751,7 +4736,7 @@ product
 "
 )
 :
-text_type
+str
         
 Exclusive
 (
@@ -4775,7 +4760,7 @@ changed
 )
 :
 [
-text_type
+str
 ]
         
 }
@@ -4807,10 +4792,10 @@ optimization
 Any
 (
             
-text_type
+str
             
 [
-text_type
+str
 ]
         
 )
@@ -4835,7 +4820,7 @@ platform
             
 Any
 (
-text_type
+str
 None
 )
         
@@ -4903,7 +4888,7 @@ platform
 Any
 (
                 
-text_type
+str
                 
 None
                 
@@ -4915,7 +4900,7 @@ index
 "
 )
 :
-text_type
+str
 Required
 (
 "
@@ -4923,7 +4908,7 @@ name
 "
 )
 :
-text_type
+str
 }
             
 )
@@ -4938,8 +4923,7 @@ fetches
 )
 :
 {
-            
-text_type
+str
 :
 optionally_keyed_by
 (
@@ -4949,10 +4933,9 @@ test
 platform
 "
 [
-text_type
+str
 ]
 )
-        
 }
         
 Optional
@@ -4973,7 +4956,7 @@ app
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -4982,7 +4965,7 @@ subtest
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -5818,9 +5801,8 @@ task
             
 continue
         
-for
-t
-in
+yield
+from
 raptor_transforms
 (
 config
@@ -5828,10 +5810,6 @@ config
 task
 ]
 )
-:
-            
-yield
-t
 transforms
 .
 add
@@ -5945,7 +5923,7 @@ task
 suite
 "
 ]
-text_type
+str
 )
 :
             
@@ -6133,19 +6111,16 @@ py
             
 category_arg
 =
+f
 "
 -
 -
 {
+category
 }
 -
 suite
 "
-.
-format
-(
-category
-)
         
 if
 category_arg
@@ -6206,19 +6181,16 @@ extra
 .
 append
 (
+f
 "
 {
+category_arg
 }
 =
 {
+suite
 }
 "
-.
-format
-(
-category_arg
-suite
-)
 )
         
 task
@@ -15390,17 +15362,14 @@ else
 raise
 Exception
 (
+f
 "
 unknown
 test_platform
 {
+test_platform
 }
 "
-.
-format
-(
-test_platform
-)
 )
         
 yield
@@ -15473,7 +15442,7 @@ if
 isinstance
 (
 schedules
-string_types
+str
 )
 :
             
@@ -16610,9 +16579,6 @@ config
 version
 .
 txt
-"
-"
-r
 "
 )
 as

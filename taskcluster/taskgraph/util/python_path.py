@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 inspect
 import
@@ -85,11 +79,12 @@ count
 raise
 ValueError
 (
-            
+f
 '
 python
 path
 {
+path
 !
 r
 }
@@ -104,12 +99,6 @@ module
 object
 "
 '
-.
-format
-(
-path
-)
-        
 )
     
 modulepath
@@ -275,17 +264,14 @@ __file__
     
 excs
 =
-set
-(
-[
+{
 "
 __init__
 .
 py
 "
 name
-]
-)
+}
     
 if
 exceptions

@@ -1,17 +1,7 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 logging
 import
 voluptuous
-from
-six
-import
-text_type
 from
 mozbuild
 import
@@ -59,7 +49,7 @@ search
 "
 :
 [
-text_type
+str
 ]
 }
     
@@ -105,7 +95,7 @@ changed
 "
 :
 [
-text_type
+str
 ]
 }
     

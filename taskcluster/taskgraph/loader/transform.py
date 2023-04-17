@@ -1,13 +1,5 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 logging
-import
-six
 from
 .
 .
@@ -244,10 +236,6 @@ for
 name
 job
 in
-six
-.
-iteritems
-(
 config
 .
 get
@@ -258,6 +246,9 @@ jobs
 {
 }
 )
+.
+items
+(
 )
 :
             
@@ -350,11 +341,10 @@ for
 name
 job
 in
-six
-.
-iteritems
-(
 tasks
+.
+items
+(
 )
 :
                 
@@ -407,21 +397,18 @@ logger
 .
 debug
 (
+f
 "
 Generating
 tasks
 for
 {
+kind
 }
 {
+name
 }
 "
-.
-format
-(
-kind
-name
-)
 )
         
 yield

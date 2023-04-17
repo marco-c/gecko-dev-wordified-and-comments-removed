@@ -1,21 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 import
@@ -827,6 +809,7 @@ logger
 .
 info
 (
+f
 "
 Isolate
 task
@@ -834,11 +817,6 @@ task
 \
 n
 {
-}
-"
-.
-format
-(
 json
 .
 dumps
@@ -848,7 +826,8 @@ indent
 =
 2
 )
-)
+}
+"
 )
     
 task_definition
@@ -1611,18 +1590,16 @@ label_to_taskid
 [
 label
 ]
-        
 for
 name
 label
 in
-six
-.
-iteritems
-(
 pre_task
 .
 dependencies
+.
+items
+(
 )
     
 }
@@ -1657,11 +1634,10 @@ dependencies
 .
 extend
 (
-six
-.
-itervalues
-(
 dependencies
+.
+values
+(
 )
 )
     

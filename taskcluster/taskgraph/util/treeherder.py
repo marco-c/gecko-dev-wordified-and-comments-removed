@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 re
 _JOINED_SYMBOL_RE
@@ -121,8 +115,10 @@ else
 raise
 Exception
 (
+f
 "
 {
+symbol
 }
 is
 not
@@ -132,11 +128,6 @@ treeherder
 symbol
 .
 "
-.
-format
-(
-symbol
-)
 )
     
 return
@@ -195,20 +186,17 @@ return
 symbol
     
 return
+f
 "
 {
-}
-(
-{
-}
-)
-"
-.
-format
-(
 group
+}
+(
+{
 symbol
+}
 )
+"
 def
 add_suffix
 (
@@ -432,24 +420,19 @@ treeherder
 .
 setdefault
 (
-        
 "
 platform
 "
+f
 "
 {
+dep_th_platform
 }
 /
 {
+dep_th_collection
 }
 "
-.
-format
-(
-dep_th_platform
-dep_th_collection
-)
-    
 )
     
 treeherder

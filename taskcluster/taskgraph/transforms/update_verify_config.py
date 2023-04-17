@@ -14,12 +14,6 @@ description
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 six
 .
@@ -874,17 +868,14 @@ command
 .
 append
 (
+f
 "
 -
 -
 {
+arg
 }
 "
-.
-format
-(
-arg
-)
 )
                 
 command
@@ -910,17 +901,14 @@ keyed_by_args
             
 thing
 =
+f
 "
 extra
 .
 {
+arg
 }
 "
-.
-format
-(
-arg
-)
             
 resolve_keyed_by
 (
@@ -1082,17 +1070,14 @@ command
 .
 append
 (
+f
 "
 -
 -
 {
+arg
 }
 "
-.
-format
-(
-arg
-)
 )
             
 command

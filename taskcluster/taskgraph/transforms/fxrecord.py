@@ -123,19 +123,16 @@ task
 reference
 "
 :
+f
 "
 <
 {
-}
->
-"
-.
-format
-(
 dep_job
 .
 label
-)
+}
+>
+"
             
 }
             

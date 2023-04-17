@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 argparse
 import
@@ -14,8 +8,6 @@ import
 re
 import
 shlex
-import
-six
 from
 collections
 import
@@ -48,39 +40,34 @@ debug
 }
 BUILD_KINDS
 =
-set
-(
+{
     
-[
-        
 "
 build
 "
-        
+    
 "
 artifact
 -
 build
 "
-        
+    
 "
 hazard
 "
-        
+    
 "
 l10n
 "
-        
+    
 "
 valgrind
 "
-        
+    
 "
 spidermonkey
 "
-    
-]
-)
+}
 def
 alias_prefix
 (
@@ -1302,6 +1289,7 @@ in_brackets
 result
 +
 =
+r
 "
 \
 "
@@ -2059,9 +2047,6 @@ try_task_config
 }
 class
 TryOptionSyntax
-(
-object
-)
 :
     
 def
@@ -2657,13 +2642,12 @@ set
 for
 t
 in
-six
-.
-itervalues
-(
 full_task_graph
 .
 tasks
+.
+values
+(
 )
 :
             
@@ -2867,8 +2851,7 @@ _f
         
 all_types
 =
-set
-(
+{
             
 t
 .
@@ -2882,13 +2865,12 @@ build_type
 for
 t
 in
-six
-.
-itervalues
-(
 full_task_graph
 .
 tasks
+.
+values
+(
 )
             
 if
@@ -2900,7 +2882,7 @@ t
 .
 attributes
         
-)
+}
         
 bad_types
 =
@@ -3187,8 +3169,7 @@ build
         
 test_platforms
 =
-set
-(
+{
             
 t
 .
@@ -3202,13 +3183,12 @@ test_platform
 for
 t
 in
-six
-.
-itervalues
-(
 full_task_graph
 .
 tasks
+.
+values
+(
 )
             
 if
@@ -3220,12 +3200,11 @@ t
 .
 attributes
         
-)
+}
         
 build_platforms
 =
-set
-(
+{
             
 t
 .
@@ -3239,13 +3218,12 @@ build_platform
 for
 t
 in
-six
-.
-itervalues
-(
 full_task_graph
 .
 tasks
+.
+values
+(
 )
             
 if
@@ -3257,7 +3235,7 @@ t
 .
 attributes
         
-)
+}
         
 all_platforms
 =
@@ -3431,8 +3409,7 @@ return
         
 all_platforms
 =
-set
-(
+{
             
 t
 .
@@ -3456,13 +3433,12 @@ split
 for
 t
 in
-six
-.
-itervalues
-(
 full_task_graph
 .
 tasks
+.
+values
+(
 )
             
 if
@@ -3474,7 +3450,7 @@ t
 .
 attributes
         
-)
+}
         
 tests
 =
@@ -3497,8 +3473,7 @@ return
         
 all_tests
 =
-set
-(
+{
             
 t
 .
@@ -3510,13 +3485,12 @@ attr_name
 for
 t
 in
-six
-.
-itervalues
-(
 full_task_graph
 .
 tasks
+.
+values
+(
 )
             
 if
@@ -3526,7 +3500,7 @@ t
 .
 attributes
         
-)
+}
         
 if
 tests
@@ -4517,13 +4491,12 @@ set
 for
 t
 in
-six
-.
-itervalues
-(
 graph
 .
 tasks
+.
+values
+(
 )
 :
             

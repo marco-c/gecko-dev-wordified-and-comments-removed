@@ -1,17 +1,5 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
-import
-six
-from
-six
-import
-text_type
 from
 voluptuous
 import
@@ -83,7 +71,7 @@ kind
 )
 :
 {
-text_type
+str
 :
 Task
 }
@@ -464,7 +452,7 @@ sorted_unique_list
 (
             
 *
-[
+(
                 
 task
 .
@@ -488,7 +476,7 @@ values
 (
 )
             
-]
+)
         
 )
         
@@ -635,19 +623,16 @@ True
         
 combined_platform
 =
+f
 "
 {
+platform
 }
 /
 {
+build_type
 }
 "
-.
-format
-(
-platform
-build_type
-)
         
 if
 only_platforms
@@ -746,11 +731,10 @@ tasks
 for
 combinations
 in
-six
-.
-itervalues
-(
 groups
+.
+values
+(
 )
 :
         
@@ -1809,7 +1793,7 @@ if
 isinstance
 (
 primary_dependencies
-text_type
+str
 )
 :
         

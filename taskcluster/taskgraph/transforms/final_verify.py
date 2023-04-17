@@ -15,12 +15,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -126,9 +120,11 @@ final_verify_configs
 append
 (
                     
+f
 "
 <
 {
+upstream
 }
 /
 public
@@ -142,11 +138,6 @@ verify
 cfg
 >
 "
-.
-format
-(
-upstream
-)
                 
 )
         

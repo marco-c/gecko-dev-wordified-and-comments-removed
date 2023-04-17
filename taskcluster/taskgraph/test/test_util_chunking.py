@@ -1,22 +1,9 @@
-from
-__future__
-import
-absolute_import
-division
-print_function
-unicode_literals
 import
 re
 from
 itertools
 import
 combinations
-from
-six
-.
-moves
-import
-range
 import
 pytest
 from
@@ -1950,7 +1937,6 @@ minimum
 =
 min
 (
-[
 len
 (
 c
@@ -1959,14 +1945,12 @@ for
 c
 in
 chunked_manifests
-]
 )
         
 maximum
 =
 max
 (
-[
 len
 (
 c
@@ -1975,7 +1959,6 @@ for
 c
 in
 chunked_manifests
-]
 )
         
 assert

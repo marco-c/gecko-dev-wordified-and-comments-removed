@@ -143,12 +143,6 @@ config
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 functools
 import
@@ -380,30 +374,25 @@ nightly
 branches
 "
         
-set
-(
+{
             
-[
-                
 "
 mozilla
 -
 central
 "
-                
+            
 "
 comm
 -
 central
 "
-                
+            
 "
 oak
 "
-            
-]
         
-)
+}
     
 ]
     
@@ -417,56 +406,51 @@ release
 branches
 "
         
-set
-(
+{
             
-[
-                
 "
 mozilla
 -
 beta
 "
-                
+            
 "
 mozilla
 -
 release
 "
-                
+            
 "
 mozilla
 -
 esr78
 "
-                
+            
 "
 mozilla
 -
 esr91
 "
-                
+            
 "
 comm
 -
 beta
 "
-                
+            
 "
 comm
 -
 esr78
 "
-                
+            
 "
 comm
 -
 esr91
 "
-            
-]
         
-)
+}
     
 ]
 ]
@@ -550,20 +534,15 @@ DEVEDITION_SIGNING_SCOPE_ALIAS_TO_PROJECT
 beta
 "
         
-set
-(
+{
             
-[
-                
 "
 mozilla
 -
 beta
 "
-            
-]
         
-)
+}
     
 ]
 ]
@@ -628,30 +607,25 @@ nightly
 branches
 "
         
-set
-(
+{
             
-[
-                
 "
 mozilla
 -
 central
 "
-                
+            
 "
 comm
 -
 central
 "
-                
+            
 "
 oak
 "
-            
-]
         
-)
+}
     
 ]
     
@@ -665,56 +639,51 @@ release
 branches
 "
         
-set
-(
+{
             
-[
-                
 "
 mozilla
 -
 beta
 "
-                
+            
 "
 mozilla
 -
 release
 "
-                
+            
 "
 mozilla
 -
 esr78
 "
-                
+            
 "
 mozilla
 -
 esr91
 "
-                
+            
 "
 comm
 -
 beta
 "
-                
+            
 "
 comm
 -
 esr78
 "
-                
+            
 "
 comm
 -
 esr91
 "
-            
-]
         
-)
+}
     
 ]
 ]
@@ -935,30 +904,25 @@ BALROG_SCOPE_ALIAS_TO_PROJECT
 nightly
 "
         
-set
-(
+{
             
-[
-                
 "
 mozilla
 -
 central
 "
-                
+            
 "
 comm
 -
 central
 "
-                
+            
 "
 oak
 "
-            
-]
         
-)
+}
     
 ]
     
@@ -968,26 +932,21 @@ oak
 beta
 "
         
-set
-(
+{
             
-[
-                
 "
 mozilla
 -
 beta
 "
-                
+            
 "
 comm
 -
 beta
 "
-            
-]
         
-)
+}
     
 ]
     
@@ -997,32 +956,27 @@ beta
 release
 "
         
-set
-(
+{
             
-[
-                
 "
 mozilla
 -
 release
 "
-                
+            
 "
 comm
 -
 esr78
 "
-                
+            
 "
 comm
 -
 esr91
 "
-            
-]
         
-)
+}
     
 ]
     
@@ -1032,20 +986,15 @@ esr91
 esr78
 "
         
-set
-(
+{
             
-[
-                
 "
 mozilla
 -
 esr78
 "
-            
-]
         
-)
+}
     
 ]
     
@@ -1055,20 +1004,15 @@ esr78
 esr91
 "
         
-set
-(
+{
             
-[
-                
 "
 mozilla
 -
 esr91
 "
-            
-]
         
-)
+}
     
 ]
 ]
@@ -2562,6 +2506,7 @@ else
 raise
 Exception
 (
+f
 "
 Unsupported
 type
@@ -2572,13 +2517,9 @@ Got
 job
 :
 {
+job
 }
 "
-.
-format
-(
-job
-)
 )
     
 for
@@ -2929,17 +2870,14 @@ task
 reference
 "
 :
+f
 "
 <
 {
+dep
 }
 >
 "
-.
-format
-(
-dep
-)
 }
                 
 "
@@ -3950,17 +3888,14 @@ task
 reference
 "
 :
+f
 "
 <
 {
+dep
 }
 >
 "
-.
-format
-(
-dep
-)
 }
                 
 "
@@ -4931,17 +4866,14 @@ task
 reference
 "
 :
+f
 "
 <
 {
+dep
 }
 >
 "
-.
-format
-(
-dep
-)
 }
                 
 "

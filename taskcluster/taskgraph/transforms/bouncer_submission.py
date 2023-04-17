@@ -14,12 +14,6 @@ tasks
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 import
@@ -960,10 +954,8 @@ all_locales
 sorted
 (
             
-[
-                
 locale
-                
+            
 for
 locale
 in
@@ -982,7 +974,7 @@ file
 keys
 (
 )
-                
+            
 if
 locale
 not
@@ -998,8 +990,6 @@ win32
 osx
 "
 )
-            
-]
         
 )
         
@@ -1605,9 +1595,6 @@ attr
 s
 class
 InvalidSubstitution
-(
-object
-)
 :
     
 error

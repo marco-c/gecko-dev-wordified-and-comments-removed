@@ -1,13 +1,5 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 unittest
-import
-six
 from
 taskgraph
 .
@@ -570,7 +562,6 @@ r
 unittest_tasks
 =
 {
-    
 k
 :
 v
@@ -578,11 +569,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 tasks
+.
+items
+(
 )
 if
 "
@@ -596,7 +586,6 @@ attributes
 talos_tasks
 =
 {
-    
 k
 :
 v
@@ -604,11 +593,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 tasks
+.
+items
+(
 )
 if
 "
@@ -2554,10 +2542,7 @@ GRAPH_CONFIG
         
 all_platforms
 =
-set
-(
-            
-[
+{
 x
 .
 attributes
@@ -2574,9 +2559,7 @@ unittest_tasks
 values
 (
 )
-]
-        
-)
+}
         
 self
 .
@@ -2600,7 +2583,6 @@ platforms
             
 sorted
 (
-[
 x
 for
 x
@@ -2613,7 +2595,6 @@ x
 "
 linux
 "
-]
 )
         
 )

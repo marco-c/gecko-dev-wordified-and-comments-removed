@@ -52,12 +52,6 @@ graph
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 import
@@ -66,8 +60,6 @@ import
 os
 import
 re
-import
-six
 from
 slugid
 import
@@ -210,13 +202,12 @@ for
 depname
 dep
 in
-six
-.
-iteritems
-(
 task
 .
 dependencies
+.
+items
+(
 )
 :
             
@@ -300,21 +291,18 @@ image
     
 label
 =
+f
 "
 {
+purpose
 }
 -
 {
-}
-"
-.
-format
-(
-purpose
 target_task
 .
 label
-)
+}
+"
     
 image_taskid
 =
@@ -465,21 +453,18 @@ label
 description
 "
 :
+f
 "
 {
+purpose
 }
 for
 {
-}
-"
-.
-format
-(
-purpose
 target_task
 .
 description
-)
+}
+"
             
 "
 owner
@@ -826,6 +811,7 @@ index_paths
         
 scope
 =
+f
 "
 index
 :
@@ -834,13 +820,9 @@ insert
 task
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
         
 for
 summ_re
@@ -1053,13 +1035,12 @@ for
 label
 task
 in
-six
-.
-iteritems
-(
 taskgraph
 .
 tasks
+.
+items
+(
 )
 :
         
@@ -1259,21 +1240,18 @@ logger
 .
 info
 (
+f
 "
 Added
 {
-}
-index
-tasks
-"
-.
-format
-(
 len
 (
 added
 )
-)
+}
+index
+tasks
+"
 )
     
 return
@@ -1407,13 +1385,12 @@ for
 label
 task
 in
-six
-.
-iteritems
-(
 taskgraph
 .
 tasks
+.
+items
+(
 )
 :
         
@@ -1502,22 +1479,19 @@ logger
 .
 info
 (
+f
 "
 Added
 {
+len
+(
+added
+)
 }
 eager
 index
 tasks
 "
-.
-format
-(
-len
-(
-added
-)
-)
 )
     
 return
@@ -1562,13 +1536,12 @@ rebuild
 for
 task
 in
-six
-.
-itervalues
-(
 taskgraph
 .
 tasks
+.
+values
+(
 )
 :
             

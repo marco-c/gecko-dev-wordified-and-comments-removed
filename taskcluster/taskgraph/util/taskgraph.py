@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 "
 "
 "
@@ -23,14 +11,6 @@ taskgraphs
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-import
-six
 from
 taskgraph
 .
@@ -264,13 +244,12 @@ label
 for
 t
 in
-six
-.
-itervalues
-(
 full_task_graph
 .
 tasks
+.
+values
+(
 )
         
 if

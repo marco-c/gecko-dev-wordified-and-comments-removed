@@ -15,20 +15,10 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 voluptuous
 import
 Optional
 Required
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -107,7 +97,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -130,7 +120,7 @@ locale
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -328,17 +318,14 @@ setdefault
 "
 platform
 "
+f
 "
 {
+dep_th_platform
 }
 /
 opt
 "
-.
-format
-(
-dep_th_platform
-)
 )
         
 treeherder

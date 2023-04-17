@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 unittest
 import
@@ -1127,8 +1121,10 @@ responses
 .
 GET
         
+f
 "
 {
+base_url
 }
 /
 api
@@ -1140,14 +1136,9 @@ v1
 task
 /
 {
+task_id
 }
 "
-.
-format
-(
-base_url
-task_id
-)
         
 status
 =

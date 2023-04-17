@@ -17,12 +17,6 @@ task
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 copy
 import
 deepcopy
@@ -37,7 +31,6 @@ from
 six
 import
 ensure_text
-text_type
 from
 voluptuous
 import
@@ -97,7 +90,7 @@ perftest
 :
 [
 [
-text_type
+str
 ]
 ]
         
@@ -121,24 +114,24 @@ Any
 (
                 
 [
-text_type
+str
 ]
                 
 {
-text_type
+str
 :
 Any
 (
 None
 {
-text_type
+str
 :
 Any
 (
 None
-text_type
+str
 [
-text_type
+str
 ]
 )
 }
@@ -167,14 +160,14 @@ optionally_keyed_by
 perftest
 "
 {
-text_type
+str
 :
 Any
 (
 None
-text_type
+str
 [
-text_type
+str
 ]
 )
 }
@@ -194,14 +187,12 @@ options
 :
 optionally_keyed_by
 (
-            
 "
 perftest
 "
 [
-text_type
+str
 ]
-        
 )
         
 Optional
@@ -226,7 +217,7 @@ perftest
 Any
 (
 None
-text_type
+str
 )
 ]
 ]

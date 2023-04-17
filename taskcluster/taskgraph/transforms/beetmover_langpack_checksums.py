@@ -19,16 +19,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -115,7 +105,7 @@ attributes
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -127,7 +117,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -150,7 +140,7 @@ locale
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -718,17 +708,14 @@ beetmover
 "
 ]
 =
+f
 "
 <
 {
+dependency
 }
 >
 "
-.
-format
-(
-dependency
-)
         
 if
 None
