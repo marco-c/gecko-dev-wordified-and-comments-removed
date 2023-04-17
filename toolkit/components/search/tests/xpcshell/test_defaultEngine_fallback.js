@@ -77,11 +77,7 @@ separatePrivateDefault
 true
 )
 ;
-Services
-.
-search
-.
-wrappedJSObject
+SearchUtils
 .
 GENERAL_SEARCH_ENGINE_IDS
 =
@@ -1353,11 +1349,7 @@ engine
 "
 )
 ;
-Services
-.
-search
-.
-wrappedJSObject
+SearchUtils
 .
 GENERAL_SEARCH_ENGINE_IDS
 .
