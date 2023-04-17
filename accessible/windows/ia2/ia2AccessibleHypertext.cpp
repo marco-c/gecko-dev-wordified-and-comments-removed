@@ -38,7 +38,7 @@ HyperTextAccessibleWrap
 ia2AccessibleHypertext
 :
 :
-TextAcc
+LocalTextAcc
 (
 )
 {
@@ -276,7 +276,7 @@ HyperTextAccessibleWrap
 *
 hyperText
 =
-TextAcc
+LocalTextAcc
 (
 )
 ;
@@ -337,7 +337,7 @@ HyperTextAccessibleWrap
 *
 hyperText
 =
-TextAcc
+LocalTextAcc
 (
 )
 ;
@@ -424,7 +424,7 @@ HyperTextAccessibleWrap
 *
 hyperAcc
 =
-TextAcc
+LocalTextAcc
 (
 )
 ;
@@ -495,7 +495,7 @@ HyperTextAccessibleWrap
 *
 hyperText
 =
-TextAcc
+LocalTextAcc
 (
 )
 ;

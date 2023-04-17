@@ -146,7 +146,7 @@ private
 :
 HyperTextAccessibleWrap
 *
-TextAcc
+LocalTextAcc
 (
 )
 ;
