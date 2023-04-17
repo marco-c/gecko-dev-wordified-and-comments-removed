@@ -870,6 +870,7 @@ MesaAll
 MesaLLVMPipe
 MesaSoftPipe
 MesaSWRast
+MesaSWUnknown
 MesaR600
 MesaNouveau
 MesaUnknown
