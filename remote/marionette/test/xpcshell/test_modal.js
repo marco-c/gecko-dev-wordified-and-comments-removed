@@ -415,11 +415,7 @@ observe
 (
 mockChromeWindow
 "
-toplevel
--
-window
--
-ready
+domwindowopened
 "
 )
 ;
