@@ -524,7 +524,7 @@ status
 ;
 stream
 =
-malloc
+_cairo_malloc
 (
 sizeof
 (

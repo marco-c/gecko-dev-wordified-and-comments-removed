@@ -19,9 +19,9 @@ _cairo_path_create
 cairo_path_fixed_t
 *
 path
-cairo_gstate_t
+cairo_t
 *
-gstate
+cr
 )
 ;
 cairo_private
@@ -32,9 +32,9 @@ _cairo_path_create_flat
 cairo_path_fixed_t
 *
 path
-cairo_gstate_t
+cairo_t
 *
-gstate
+cr
 )
 ;
 cairo_private
