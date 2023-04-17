@@ -11,7 +11,6 @@ cairoint
 .
 h
 "
-CAIRO_BEGIN_DECLS
 cairo_private
 void
 _cairo_arc_path
@@ -50,6 +49,5 @@ double
 angle2
 )
 ;
-CAIRO_END_DECLS
 #
 endif

@@ -977,9 +977,6 @@ _cairo_spline_init
 (
 &
 spline
-(
-cairo_spline_add_point_func_t
-)
 _cairo_in_fill_line_to
 in_fill
 &
@@ -1087,10 +1084,10 @@ is_inside
 ;
 if
 (
-_cairo_path_fixed_fill_is_empty
-(
 path
-)
+-
+>
+is_empty_fill
 )
 return
 FALSE
@@ -1109,6 +1106,7 @@ status
 _cairo_path_fixed_interpret
 (
 path
+CAIRO_DIRECTION_FORWARD
 _cairo_in_fill_move_to
 _cairo_in_fill_line_to
 _cairo_in_fill_curve_to

@@ -106,7 +106,7 @@ buf
 >
 data
 =
-_cairo_malloc
+malloc
 (
 size
 )

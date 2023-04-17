@@ -57,7 +57,6 @@ cairo_tee_surface_index
 cairo_surface_t
 *
 surface
-unsigned
 int
 index
 )

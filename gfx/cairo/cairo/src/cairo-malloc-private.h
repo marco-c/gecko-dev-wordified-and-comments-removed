@@ -16,13 +16,6 @@ private
 h
 "
 #
-include
-<
-stdlib
-.
-h
->
-#
 if
 HAVE_MEMFAULT
 #
@@ -61,8 +54,6 @@ size
 (
 size
 )
->
-0
 ?
 malloc
 (
@@ -274,9 +265,9 @@ size
 define
 _cairo_malloc_ab_plus_c
 (
-a
+n
 size
-c
+k
 )
 \
 (
@@ -289,7 +280,7 @@ size
 unsigned
 )
 (
-a
+n
 )
 >
 =
@@ -309,7 +300,7 @@ NULL
 unsigned
 )
 (
-c
+k
 )
 >
 =
@@ -319,7 +310,7 @@ INT32_MAX
 unsigned
 )
 (
-a
+n
 )
 *
 (
@@ -338,7 +329,7 @@ _cairo_malloc
 unsigned
 )
 (
-a
+n
 )
 *
 (
@@ -352,7 +343,7 @@ size
 unsigned
 )
 (
-c
+k
 )
 )
 )

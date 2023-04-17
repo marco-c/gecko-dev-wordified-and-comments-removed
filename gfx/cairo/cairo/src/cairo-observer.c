@@ -5,17 +5,6 @@ cairoint
 .
 h
 "
-#
-include
-"
-cairo
--
-list
--
-inline
-.
-h
-"
 void
 _cairo_observers_notify
 (

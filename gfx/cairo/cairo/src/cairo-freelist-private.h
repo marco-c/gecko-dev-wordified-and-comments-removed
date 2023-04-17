@@ -351,10 +351,13 @@ first_free_node
 ;
 if
 (
+unlikely
+(
 node
 =
 =
 NULL
+)
 )
 return
 _cairo_freepool_alloc_from_pool
@@ -456,7 +459,7 @@ node
 ;
 VG
 (
-VALGRIND_MAKE_MEM_UNDEFINED
+VALGRIND_MAKE_MEM_NOACCESS
 (
 node
 freepool

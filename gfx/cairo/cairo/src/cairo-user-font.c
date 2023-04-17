@@ -405,7 +405,7 @@ if
 status
 =
 =
-CAIRO_INT_STATUS_SUCCESS
+CAIRO_STATUS_SUCCESS
 )
 status
 =
@@ -728,12 +728,6 @@ case
 CAIRO_ANTIALIAS_DEFAULT
 :
 case
-CAIRO_ANTIALIAS_FAST
-:
-case
-CAIRO_ANTIALIAS_GOOD
-:
-case
 CAIRO_ANTIALIAS_GRAY
 :
 format
@@ -751,9 +745,6 @@ CAIRO_FORMAT_A1
 ;
 break
 ;
-case
-CAIRO_ANTIALIAS_BEST
-:
 case
 CAIRO_ANTIALIAS_SUBPIXEL
 :
@@ -1146,13 +1137,13 @@ if
 status
 !
 =
-CAIRO_INT_STATUS_SUCCESS
+CAIRO_STATUS_SUCCESS
 &
 &
 status
 !
 =
-CAIRO_INT_STATUS_USER_FONT_NOT_IMPLEMENTED
+CAIRO_STATUS_USER_FONT_NOT_IMPLEMENTED
 )
 return
 status
@@ -1162,7 +1153,7 @@ if
 status
 =
 =
-CAIRO_INT_STATUS_USER_FONT_NOT_IMPLEMENTED
+CAIRO_STATUS_USER_FONT_NOT_IMPLEMENTED
 |
 |
 *
@@ -1421,7 +1412,7 @@ TRUE
 ;
 user_scaled_font
 =
-_cairo_malloc
+malloc
 (
 sizeof
 (
@@ -1891,7 +1882,7 @@ _cairo_user_font_face_backend
 {
 CAIRO_FONT_TYPE_USER
 _cairo_user_font_face_create_for_toy
-_cairo_font_face_destroy
+NULL
 _cairo_user_font_face_scaled_font_create
 }
 ;
@@ -1927,7 +1918,7 @@ font_face
 ;
 font_face
 =
-_cairo_malloc
+malloc
 (
 sizeof
 (
