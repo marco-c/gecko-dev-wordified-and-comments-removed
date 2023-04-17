@@ -373,11 +373,6 @@ args
 ;
 [
 Throws
-WebExtensionStub
-=
-"
-NotImplementedAsync
-"
 ]
 any
 assertRejects
