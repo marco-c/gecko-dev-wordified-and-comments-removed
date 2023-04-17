@@ -813,7 +813,7 @@ txPushNewContext
 )
 ;
 TX_DECL_TXINSTRUCTION
-void
+nsresult
 addSort
 (
 mozilla

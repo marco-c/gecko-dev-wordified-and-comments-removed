@@ -2123,6 +2123,12 @@ InsertElementAt
 i
 )
 ;
+NS_ENSURE_TRUE
+(
+nt
+NS_ERROR_OUT_OF_MEMORY
+)
+;
 nt
 -
 >

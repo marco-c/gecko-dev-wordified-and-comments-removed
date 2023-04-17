@@ -110,6 +110,12 @@ AppendElement
 (
 )
 ;
+NS_ENSURE_TRUE
+(
+item
+NS_ERROR_OUT_OF_MEMORY
+)
+;
 item
 -
 >
@@ -218,6 +224,12 @@ mItems
 .
 AppendElement
 (
+)
+;
+NS_ENSURE_TRUE
+(
+item
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 item

@@ -1658,6 +1658,12 @@ isToken
 NS_ENSURE_TRUE
 (
 newToken
+NS_ERROR_OUT_OF_MEMORY
+)
+;
+NS_ENSURE_TRUE
+(
+newToken
 !
 =
 mLastItem

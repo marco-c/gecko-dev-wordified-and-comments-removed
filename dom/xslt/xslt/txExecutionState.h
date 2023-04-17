@@ -378,7 +378,7 @@ mParams
 ;
 }
 ;
-void
+nsresult
 pushEvalContext
 (
 txIEvalContext
@@ -400,7 +400,7 @@ txIEvalContext
 aContext
 )
 ;
-void
+nsresult
 pushBool
 (
 bool
@@ -412,7 +412,7 @@ popBool
 (
 )
 ;
-void
+nsresult
 pushResultHandler
 (
 txAXMLEventHandler

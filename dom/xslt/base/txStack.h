@@ -63,7 +63,7 @@ nullptr
 ;
 }
 inline
-void
+nsresult
 push
 (
 void
@@ -75,6 +75,9 @@ AppendElement
 (
 aObject
 )
+;
+return
+NS_OK
 ;
 }
 inline

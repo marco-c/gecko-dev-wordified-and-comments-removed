@@ -852,7 +852,7 @@ Expr
 {
 public
 :
-void
+nsresult
 addParam
 (
 Expr
@@ -866,6 +866,9 @@ AppendElement
 (
 aExpr
 )
+;
+return
+NS_OK
 ;
 }
 virtual
@@ -1344,7 +1347,7 @@ PredicateList
 {
 public
 :
-void
+nsresult
 add
 (
 Expr
@@ -1367,6 +1370,9 @@ AppendElement
 (
 aExpr
 )
+;
+return
+NS_OK
 ;
 }
 nsresult
@@ -2076,7 +2082,7 @@ RELATIVE_OP
 DESCENDANT_OP
 }
 ;
-void
+nsresult
 addExpr
 (
 Expr
@@ -2293,7 +2299,7 @@ Expr
 {
 public
 :
-void
+nsresult
 addExpr
 (
 Expr
@@ -2307,6 +2313,9 @@ AppendElement
 (
 aExpr
 )
+;
+return
+NS_OK
 ;
 }
 void
@@ -2406,7 +2415,7 @@ txNodeTest
 {
 public
 :
-void
+nsresult
 addNodeTest
 (
 txNodeTest
@@ -2420,6 +2429,9 @@ AppendElement
 (
 aNodeTest
 )
+;
+return
+NS_OK
 ;
 }
 TX_DECL_NODE_TEST
