@@ -129,13 +129,6 @@ ProfilerMarkers
 cpp
 "
 "
-core
-/
-RegisteredThread
-.
-cpp
-"
-"
 gecko
 /
 ChildProfilerController
