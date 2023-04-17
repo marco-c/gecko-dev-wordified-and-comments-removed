@@ -87,14 +87,14 @@ i
 }
 )
 ;
+async
 function
-*
 addRemove
 (
 name
 )
 {
-yield
+await
 SpecialPowers
 .
 spawn
@@ -146,7 +146,7 @@ changed
 "
 )
 ;
-yield
+await
 gUI
 .
 once
