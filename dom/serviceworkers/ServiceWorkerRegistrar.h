@@ -212,6 +212,11 @@ RemoveAll
 (
 )
 ;
+bool
+ReloadDataForTest
+(
+)
+;
 protected
 :
 void
