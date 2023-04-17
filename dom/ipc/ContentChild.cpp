@@ -6529,6 +6529,13 @@ nojsapi
 ;
 SpinEventLoopUntil
 (
+"
+ContentChild
+:
+:
+ProvideWindowCommon
+"
+_ns
 [
 &
 ]

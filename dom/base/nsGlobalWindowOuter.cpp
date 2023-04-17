@@ -24653,6 +24653,13 @@ shouldBlock
 {
 SpinEventLoopUntil
 (
+"
+nsGlobalWindowOuter
+:
+:
+Print
+"
+_ns
 [
 &
 ]

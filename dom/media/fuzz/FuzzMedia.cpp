@@ -187,6 +187,13 @@ true
 ;
 SpinEventLoopUntil
 (
+"
+FuzzRunner
+:
+:
+Run
+"
+_ns
 [
 &
 ]

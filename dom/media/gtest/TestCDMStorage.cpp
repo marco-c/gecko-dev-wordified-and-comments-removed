@@ -5858,6 +5858,13 @@ mozilla
 :
 SpinEventLoopUntil
 (
+"
+CDMStorageTest
+:
+:
+AwaitFinished
+"
+_ns
 [
 &
 ]
