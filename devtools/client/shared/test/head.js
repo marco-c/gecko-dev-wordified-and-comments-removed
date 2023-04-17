@@ -532,6 +532,12 @@ resolve
 }
 )
 ;
+await
+waitForPresShell
+(
+iframe
+)
+;
 return
 {
 host
