@@ -142,7 +142,7 @@ length
 ;
 }
 static
-inline
+MOZ_ALWAYS_INLINE
 ArrayObject
 *
 create
@@ -164,6 +164,8 @@ HandleShape
 shape
 uint32_t
 length
+uint32_t
+slotSpan
 AutoSetNewObjectMetadata
 &
 metadata
