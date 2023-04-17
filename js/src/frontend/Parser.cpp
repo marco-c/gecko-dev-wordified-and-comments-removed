@@ -3257,6 +3257,12 @@ DeclarationKind
 :
 PrivateName
 :
+case
+DeclarationKind
+:
+:
+Synthetic
+:
 {
 ParseContext
 :

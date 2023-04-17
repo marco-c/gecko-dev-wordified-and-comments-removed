@@ -1001,6 +1001,17 @@ kind
 (
 )
 )
+|
+|
+kind
+(
+)
+=
+=
+BindingKind
+:
+:
+Synthetic
 )
 {
 break

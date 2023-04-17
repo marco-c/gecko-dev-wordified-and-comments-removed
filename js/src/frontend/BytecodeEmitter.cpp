@@ -46913,6 +46913,17 @@ loc
 isLexical
 (
 )
+|
+|
+noe
+.
+loc
+(
+)
+.
+isSynthetic
+(
+)
 )
 ;
 MOZ_ASSERT
