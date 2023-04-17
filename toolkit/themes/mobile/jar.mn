@@ -281,7 +281,9 @@ global
 /
 media
 /
-pauseButton
+pause
+-
+fill
 .
 svg
 (
@@ -292,7 +294,9 @@ shared
 /
 media
 /
-pauseButton
+pause
+-
+fill
 .
 svg
 )
@@ -304,7 +308,9 @@ global
 /
 media
 /
-playButton
+play
+-
+fill
 .
 svg
 (
@@ -315,7 +321,9 @@ shared
 /
 media
 /
-playButton
+play
+-
+fill
 .
 svg
 )
@@ -396,7 +404,9 @@ global
 /
 media
 /
-audioMutedButton
+audio
+-
+muted
 .
 svg
 (
@@ -407,7 +417,9 @@ shared
 /
 media
 /
-audioMutedButton
+audio
+-
+muted
 .
 svg
 )
@@ -442,7 +454,7 @@ global
 /
 media
 /
-audioUnmutedButton
+audio
 .
 svg
 (
@@ -453,7 +465,7 @@ shared
 /
 media
 /
-audioUnmutedButton
+audio
 .
 svg
 )
