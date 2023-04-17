@@ -1967,8 +1967,17 @@ site_packages_dir
 )
 )
         
-IGNORE_ENV_VARIABLES
+old_env_variables
 =
+{
+}
+        
+try
+:
+            
+for
+k
+in
 (
 "
 CC
@@ -1986,19 +1995,6 @@ CXXFLAGS
 LDFLAGS
 "
 )
-        
-try
-:
-            
-old_env_variables
-=
-{
-}
-            
-for
-k
-in
-IGNORE_ENV_VARIABLES
 :
                 
 if
