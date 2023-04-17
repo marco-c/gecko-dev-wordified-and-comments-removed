@@ -3082,11 +3082,6 @@ async
 WillChangeProcess
 (
 )
-returns
-(
-bool
-success
-)
 ;
 parent
 :
