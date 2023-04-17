@@ -942,7 +942,7 @@ CompositorWidget
 *
 aCompositorWidget
 bool
-aWebRender
+aHardwareWebRender
 bool
 aForceAccelerated
 )
@@ -972,7 +972,7 @@ FORCE_ENABLE_HARDWARE
 if
 (
 !
-aWebRender
+aHardwareWebRender
 )
 {
 flags

@@ -2083,7 +2083,7 @@ CompositorWidget
 *
 aCompositorWidget
 bool
-aWebRender
+aHardwareWebRender
 bool
 aForceAccelerated
 )
@@ -2117,7 +2117,7 @@ AsWindows
 GetHwnd
 (
 )
-aWebRender
+aHardwareWebRender
 aForceAccelerated
 )
 .

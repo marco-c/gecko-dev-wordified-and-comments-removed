@@ -62,7 +62,7 @@ CompositorWidget
 *
 aCompositorWidget
 bool
-aWebRender
+aHardwareWebRender
 bool
 aForceAccelerated
 )
@@ -80,7 +80,7 @@ sGLContextProviderX11
 CreateForCompositorWidget
 (
 aCompositorWidget
-aWebRender
+aHardwareWebRender
 aForceAccelerated
 )
 ;
@@ -93,7 +93,7 @@ sGLContextProviderEGL
 CreateForCompositorWidget
 (
 aCompositorWidget
-aWebRender
+aHardwareWebRender
 aForceAccelerated
 )
 ;
