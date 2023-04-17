@@ -111,6 +111,15 @@ js
 "
 storage
 -
+indexed
+-
+db
+.
+js
+"
+"
+storage
+-
 local
 -
 storage
