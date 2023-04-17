@@ -118,6 +118,9 @@ iccv4
 -
 enabled
 "
+"
+cmyk
+"
 ]
 c_bindings
 =
@@ -133,6 +136,10 @@ neon
 iccv4
 -
 enabled
+=
+[
+]
+cmyk
 =
 [
 ]
