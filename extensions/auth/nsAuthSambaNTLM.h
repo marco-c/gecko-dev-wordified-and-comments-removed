@@ -86,8 +86,6 @@ mInitialMessage
 ;
 uint32_t
 mInitialMessageLen
-{
-}
 ;
 PRProcess
 *
