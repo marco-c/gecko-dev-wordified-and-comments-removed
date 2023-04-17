@@ -1411,9 +1411,13 @@ aFrame
 FrameRelativeRect
 GuessLineBreakerRectAfter
 (
-nsIContent
-*
-aTextContent
+const
+dom
+:
+:
+Text
+&
+aTextNode
 )
 ;
 FrameRelativeRect
