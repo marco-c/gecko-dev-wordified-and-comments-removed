@@ -652,13 +652,7 @@ parentBuildID
 IOThreadChild
 :
 :
-message_loop
-(
-)
-IOThreadChild
-:
-:
-TakeChannel
+TakeInitialPort
 (
 )
 )
