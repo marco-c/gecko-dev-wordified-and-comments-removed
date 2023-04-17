@@ -36,13 +36,6 @@ h
 #
 include
 "
-RenderTrace
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions

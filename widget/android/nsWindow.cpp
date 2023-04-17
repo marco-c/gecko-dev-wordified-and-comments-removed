@@ -263,17 +263,6 @@ include
 "
 mozilla
 /
-layers
-/
-RenderTrace
-.
-h
-"
-#
-include
-"
-mozilla
-/
 widget
 /
 AndroidVsync
