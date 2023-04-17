@@ -47,7 +47,7 @@ force_system_ffi
 target
 "
 )
-option
+system_lib_option
 (
 "
 -

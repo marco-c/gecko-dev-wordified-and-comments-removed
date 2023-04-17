@@ -4544,7 +4544,7 @@ SKIA_INCLUDES
 "
 skia_includes
 )
-option
+system_lib_option
 (
 "
 -
@@ -7198,7 +7198,7 @@ only_when
 compile_environment
 )
 :
-option
+system_lib_option
 (
 "
 -
@@ -7628,7 +7628,7 @@ only_when
 compile_environment
 )
 :
-option
+system_lib_option
 (
 "
 -
