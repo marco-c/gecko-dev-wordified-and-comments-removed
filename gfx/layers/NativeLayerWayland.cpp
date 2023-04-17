@@ -1911,6 +1911,10 @@ layer
 -
 >
 mDirtyRegion
+layer
+-
+>
+mValidRect
 )
 ;
 layer

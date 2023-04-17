@@ -132,6 +132,15 @@ aDirtyRects
 )
 override
 ;
+void
+GetCompositorCapabilities
+(
+CompositorCapabilities
+*
+aCaps
+)
+override
+;
 bool
 UsePartialPresent
 (
