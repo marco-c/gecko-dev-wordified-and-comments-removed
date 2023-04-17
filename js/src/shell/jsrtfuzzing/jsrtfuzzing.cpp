@@ -295,7 +295,6 @@ JS
 :
 PrintError
 (
-gCx
 stderr
 report
 js

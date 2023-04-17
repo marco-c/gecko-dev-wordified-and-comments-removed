@@ -952,7 +952,6 @@ JS
 :
 PrintError
 (
-cx
 stderr
 report
 true

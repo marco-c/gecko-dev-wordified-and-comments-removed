@@ -1590,7 +1590,6 @@ JS
 :
 PrintError
 (
-cx
 stderr
 reportp
 true
