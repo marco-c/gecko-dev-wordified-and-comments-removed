@@ -2470,7 +2470,7 @@ NS_ERROR_UNEXPECTED
 nsresult
 SynthesizeNativeTouchPadPinch
 (
-TouchpadPinchPhase
+TouchpadGesturePhase
 aEventPhase
 float
 aScale

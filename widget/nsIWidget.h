@@ -3438,7 +3438,7 @@ ALL_BITS
 }
 ;
 enum
-TouchpadPinchPhase
+TouchpadGesturePhase
 {
 PHASE_BEGIN
 =
@@ -3476,7 +3476,7 @@ virtual
 nsresult
 SynthesizeNativeTouchPadPinch
 (
-TouchpadPinchPhase
+TouchpadGesturePhase
 aEventPhase
 float
 aScale

@@ -683,7 +683,7 @@ virtual
 nsresult
 SynthesizeNativeTouchPadPinch
 (
-TouchpadPinchPhase
+TouchpadGesturePhase
 aEventPhase
 float
 aScale

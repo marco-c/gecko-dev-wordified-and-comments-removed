@@ -6434,7 +6434,7 @@ NewRunnableMethod
 nsIWidget
 :
 :
-TouchpadPinchPhase
+TouchpadGesturePhase
 float
 LayoutDeviceIntPoint
 int32_t
@@ -6456,7 +6456,7 @@ SynthesizeNativeTouchPadPinch
 nsIWidget
 :
 :
-TouchpadPinchPhase
+TouchpadGesturePhase
 )
 aEventPhase
 aScale

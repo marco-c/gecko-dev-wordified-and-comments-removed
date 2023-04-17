@@ -9892,7 +9892,7 @@ BrowserParent
 RecvSynthesizeNativeTouchPadPinch
 (
 const
-TouchpadPinchPhase
+TouchpadGesturePhase
 &
 aEventPhase
 const

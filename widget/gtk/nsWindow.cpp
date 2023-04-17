@@ -42206,7 +42206,7 @@ nsWindow
 :
 SynthesizeNativeTouchPadPinch
 (
-TouchpadPinchPhase
+TouchpadGesturePhase
 aEventPhase
 float
 aScale
