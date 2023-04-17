@@ -118,7 +118,7 @@ initialize
 await
 this
 .
-takeVisibleScreenshot
+takeScreenshot
 (
 )
 ;
@@ -1079,7 +1079,7 @@ extension
 ;
 }
 async
-takeVisibleScreenshot
+takeScreenshot
 (
 )
 {
