@@ -111,6 +111,7 @@ gpu_types
 {
 ZBufferId
 CompositeInstance
+CompositorTransform
 }
 ;
 use
@@ -2621,6 +2622,10 @@ CompositeInstance
 new_rgb
 (
 dest_rect
+.
+cast_unit
+(
+)
 dest_rect
 PremultipliedColorF
 :
@@ -2631,6 +2636,12 @@ ZBufferId
 0
 )
 src_rect
+CompositorTransform
+:
+:
+identity
+(
+)
 )
 )
 ;
