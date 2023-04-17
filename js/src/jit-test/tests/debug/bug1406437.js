@@ -10,7 +10,7 @@ true
 }
 )
 ;
-cloneAndExecuteScript
+evaluate
 (
 '
 function
@@ -20,7 +20,11 @@ f
 {
 }
 '
+{
+global
+:
 g
+}
 )
 ;
 var

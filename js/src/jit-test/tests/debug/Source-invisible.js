@@ -27,7 +27,7 @@ true
 ;
 gi
 .
-cloneAndExecuteScript
+evaluate
 (
 '
 function
@@ -37,7 +37,11 @@ f
 {
 }
 '
+{
+global
+:
 gv
+}
 )
 ;
 var
