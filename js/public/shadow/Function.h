@@ -75,7 +75,10 @@ JS
 Value
 flagsAndArgCount
 ;
-JSNative
+JS
+:
+:
+Value
 native
 ;
 const
