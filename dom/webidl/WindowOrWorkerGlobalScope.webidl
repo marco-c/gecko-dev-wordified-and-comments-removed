@@ -420,6 +420,12 @@ createImageBitmap
 (
 ImageBitmapSource
 aImage
+optional
+ImageBitmapOptions
+aOptions
+=
+{
+}
 )
 ;
 [
@@ -441,6 +447,12 @@ long
 aSw
 long
 aSh
+optional
+ImageBitmapOptions
+aOptions
+=
+{
+}
 )
 ;
 }
