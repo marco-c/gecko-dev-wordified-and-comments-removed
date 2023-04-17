@@ -377,6 +377,12 @@ InitPlatformGPUProcessPrefs
 )
 override
 ;
+void
+InitWebRenderConfig
+(
+)
+override
+;
 bool
 CheckVariationFontSupport
 (
