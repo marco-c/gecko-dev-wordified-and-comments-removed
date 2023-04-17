@@ -262,6 +262,11 @@ nsIURI
 >
 CreateURI
 (
+nsIPrincipal
+*
+aPrecursor
+=
+nullptr
 )
 ;
 virtual
@@ -462,6 +467,11 @@ aIsFirstParty
 nsIURI
 *
 aURI
+=
+nullptr
+nsIPrincipal
+*
+aPrecursor
 =
 nullptr
 )
