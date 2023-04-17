@@ -9578,7 +9578,7 @@ ToMicroseconds
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -10691,7 +10691,7 @@ ToSeconds
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )

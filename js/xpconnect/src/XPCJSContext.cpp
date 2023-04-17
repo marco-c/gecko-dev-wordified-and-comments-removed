@@ -2597,7 +2597,7 @@ PROFILER_JS_INTERRUPT_CALLBACK
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )

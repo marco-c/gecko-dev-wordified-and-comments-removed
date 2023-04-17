@@ -2947,7 +2947,7 @@ if
 mAddProfilerMarker
 &
 &
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )

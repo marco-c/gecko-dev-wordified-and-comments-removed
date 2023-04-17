@@ -819,7 +819,7 @@ IsTopLevelContentDocumentInContentProcess
 {
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 |
@@ -1743,7 +1743,7 @@ nullptr
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 |
@@ -2174,7 +2174,7 @@ aCompositeEndTime
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 |
