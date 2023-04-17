@@ -132,6 +132,11 @@ Log
 .
 get
 (
+Log
+.
+TYPES
+.
+CDP
 )
 )
 ;
