@@ -155,6 +155,19 @@ ua
 -
 model
 "
+        
+b
+"
+sec
+-
+ch
+-
+prefers
+-
+color
+-
+scheme
+"
     
 ]
     
