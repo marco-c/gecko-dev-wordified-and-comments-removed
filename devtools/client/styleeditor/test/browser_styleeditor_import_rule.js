@@ -6,7 +6,7 @@ strict
 const
 TESTCASE_URI
 =
-TEST_BASE_HTTP
+TEST_BASE_HTTPS
 +
 "
 import
@@ -63,7 +63,7 @@ editors
 styleSheet
 .
 href
-TEST_BASE_HTTP
+TEST_BASE_HTTPS
 +
 "
 simple
@@ -92,7 +92,7 @@ editors
 styleSheet
 .
 href
-TEST_BASE_HTTP
+TEST_BASE_HTTPS
 +
 "
 import
@@ -121,7 +121,7 @@ editors
 styleSheet
 .
 href
-TEST_BASE_HTTP
+TEST_BASE_HTTPS
 +
 "
 import2

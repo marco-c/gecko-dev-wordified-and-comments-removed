@@ -6,7 +6,7 @@ strict
 const
 FIRST_TEST_PAGE
 =
-TEST_BASE_HTTP
+TEST_BASE_HTTPS
 +
 "
 inline
@@ -19,7 +19,7 @@ html
 const
 SECOND_TEST_PAGE
 =
-TEST_BASE_HTTP
+TEST_BASE_HTTPS
 +
 "
 inline

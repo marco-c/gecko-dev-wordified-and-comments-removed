@@ -6,7 +6,7 @@ strict
 const
 EMPTY_TEST_URL
 =
-TEST_BASE_HTTP
+TEST_BASE_HTTPS
 +
 "
 doc_empty
@@ -17,7 +17,7 @@ html
 const
 TEST_URL
 =
-TEST_BASE_HTTP
+TEST_BASE_HTTPS
 +
 "
 doc_fetch_from_netmonitor
