@@ -220,9 +220,9 @@ mozilla
 :
 StaticDynamicallyLinkedFunctionPtr
 <
+\
 decltype
 (
-\
 &
 :
 :
