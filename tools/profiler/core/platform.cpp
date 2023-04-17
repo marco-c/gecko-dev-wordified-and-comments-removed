@@ -23610,16 +23610,6 @@ s
 aName
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-CorePS
-:
-:
-Exists
-(
-)
-)
-;
 return
 ThreadRegistration
 :
