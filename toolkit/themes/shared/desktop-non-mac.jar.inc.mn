@@ -108,6 +108,8 @@ manifests
 .
 #
 include
+desktop
+-
 jar
 .
 inc
