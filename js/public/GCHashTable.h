@@ -72,7 +72,7 @@ typename
 Value
 >
 struct
-DefaultMapSweepPolicy
+DefaultMapEntryGCPolicy
 {
 static
 bool
@@ -142,9 +142,9 @@ js
 :
 TempAllocPolicy
 typename
-MapSweepPolicy
+MapEntryGCPolicy
 =
-DefaultMapSweepPolicy
+DefaultMapEntryGCPolicy
 <
 Key
 Value
@@ -182,9 +182,9 @@ AllocPolicy
 public
 :
 using
-SweepPolicy
+EntryGCPolicy
 =
-MapSweepPolicy
+MapEntryGCPolicy
 ;
 explicit
 GCHashMap
@@ -410,7 +410,7 @@ popFront
 if
 (
 !
-MapSweepPolicy
+MapEntryGCPolicy
 :
 :
 traceWeak
@@ -561,12 +561,12 @@ AllocPolicy
 =
 TempAllocPolicy
 typename
-MapSweepPolicy
+MapEntryGCPolicy
 =
 JS
 :
 :
-DefaultMapSweepPolicy
+DefaultMapEntryGCPolicy
 <
 Key
 Value
@@ -585,7 +585,7 @@ Key
 Value
 HashPolicy
 AllocPolicy
-MapSweepPolicy
+MapEntryGCPolicy
 >
 {
 using
@@ -713,7 +713,7 @@ key
 if
 (
 !
-MapSweepPolicy
+MapEntryGCPolicy
 :
 :
 traceWeak
@@ -2725,7 +2725,7 @@ HashPolicy
 typename
 AllocPolicy
 typename
-MapSweepPolicy
+MapEntryGCPolicy
 >
 class
 WeakCache
@@ -2736,7 +2736,7 @@ Key
 Value
 HashPolicy
 AllocPolicy
-MapSweepPolicy
+MapEntryGCPolicy
 >
 >
 final
@@ -2756,7 +2756,7 @@ Key
 Value
 HashPolicy
 AllocPolicy
-MapSweepPolicy
+MapEntryGCPolicy
 >
 ;
 using
@@ -3081,7 +3081,7 @@ bool
 needsSweep
 =
 !
-MapSweepPolicy
+MapEntryGCPolicy
 :
 :
 traceWeak
