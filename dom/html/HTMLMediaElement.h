@@ -2090,6 +2090,12 @@ InaudiblePlayTime
 )
 const
 ;
+double
+MutedPlayTime
+(
+)
+const
+;
 void
 SetFormatDiagnosticsReportForMimeType
 (

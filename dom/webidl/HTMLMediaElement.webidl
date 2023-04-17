@@ -1606,6 +1606,14 @@ attribute
 double
 inaudiblePlayTime
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+double
+mutedPlayTime
+;
 /
 /
 These

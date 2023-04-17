@@ -2023,6 +2023,12 @@ GetInaudiblePlayTimeInSeconds
 )
 const
 ;
+double
+GetMutedPlayTimeInSeconds
+(
+)
+const
+;
 private
 :
 enum
@@ -2046,6 +2052,11 @@ const
 ;
 void
 NotifyAudibleStateChanged
+(
+)
+;
+void
+NotifyVolumeChanged
 (
 )
 ;
