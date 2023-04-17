@@ -265,6 +265,14 @@ cx
 )
 ;
 bool
+WasmCompilerForAsmJSAvailable
+(
+JSContext
+*
+cx
+)
+;
+bool
 IonDisabledByFeatures
 (
 JSContext
