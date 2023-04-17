@@ -124,6 +124,18 @@ crate
 stylesheets
 :
 :
+layer_rule
+:
+:
+LayerOrder
+;
+use
+crate
+:
+:
+stylesheets
+:
+:
 rule_parser
 :
 :
@@ -1834,6 +1846,10 @@ Option
 <
 VendorPrefix
 >
+pub
+layer_order
+:
+LayerOrder
 }
 fn
 get_animated_properties
@@ -1992,6 +2008,9 @@ Option
 <
 VendorPrefix
 >
+layer_order
+:
+LayerOrder
 guard
 :
 &
@@ -2022,6 +2041,7 @@ new
 (
 )
 vendor_prefix
+layer_order
 }
 ;
 if
