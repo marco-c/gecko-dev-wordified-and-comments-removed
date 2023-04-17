@@ -122,10 +122,11 @@ bar
 works
 read
 :
-ref
+doc
 :
-Nontechnical
-Overview
+nontechnical
+-
+overview
 .
 If
 you
@@ -143,10 +144,9 @@ skip
 ahead
 to
 :
-ref
+doc
 :
-Architecture
-Overview
+overview
 .
 Codebase
 -
