@@ -452,9 +452,8 @@ nobj
 fun
 -
 >
-setArgCount
+initFlagsAndArgCount
 (
-0
 )
 ;
 MOZ_MAKE_MEM_UNDEFINED
