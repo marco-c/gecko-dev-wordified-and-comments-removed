@@ -97,11 +97,10 @@ newtab
 -
 personalize
 -
-button
+icon
 -
 label
 =
-Personalize
 .
 title
 =
