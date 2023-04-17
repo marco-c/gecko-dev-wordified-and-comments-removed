@@ -1,3 +1,7 @@
+import
+urllib
+.
+parse
 from
 wptserve
 .
@@ -425,7 +429,21 @@ final_resource
 =
 "
 +
+urllib
+.
+parse
+.
+quote
+(
 final_resource
+)
+.
+encode
+(
+'
+ascii
+'
+)
     
 redirect_url_path
 +
