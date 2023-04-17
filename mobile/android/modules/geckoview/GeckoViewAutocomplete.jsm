@@ -1219,6 +1219,8 @@ number
 ]
 expMonth
 :
+parseInt
+(
 aObj
 [
 "
@@ -1229,8 +1231,11 @@ exp
 month
 "
 ]
+)
 expYear
 :
+parseInt
+(
 aObj
 [
 "
@@ -1241,6 +1246,7 @@ exp
 year
 "
 ]
+)
 type
 :
 aObj
