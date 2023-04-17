@@ -3335,7 +3335,7 @@ os
 def
 cargo_incremental
 (
-opt_level
+developer_options
 debug_rust
 automation
 code_coverage
@@ -3437,17 +3437,8 @@ debug_rust
 :
 return
 if
-opt_level
 not
-in
-(
-"
-0
-"
-"
-1
-"
-)
+developer_options
 :
 return
 return
