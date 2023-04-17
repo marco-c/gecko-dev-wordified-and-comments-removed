@@ -99,19 +99,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-    
-Run
-Valgrind
-tests
-.
-    
-"
-"
-"
-    
 Command
 (
         
@@ -223,6 +210,19 @@ command_context
 suppressions
 )
 :
+        
+"
+"
+"
+        
+Run
+Valgrind
+tests
+.
+        
+"
+"
+"
         
 from
 mozfile

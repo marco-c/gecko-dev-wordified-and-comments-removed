@@ -336,23 +336,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Interface
-to
-watch
-and
-re
--
-build
-the
-tree
-.
-"
-"
-"
-    
 Command
 (
         
@@ -674,19 +657,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Invoke
-cargo
-in
-useful
-ways
-.
-"
-"
-"
-    
 Command
 (
 "
@@ -716,6 +686,19 @@ self
 command_context
 )
 :
+        
+"
+"
+"
+Invoke
+cargo
+in
+useful
+ways
+.
+"
+"
+"
         
 self
 .
@@ -1184,21 +1167,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Provide
-commands
-for
-diagnosing
-common
-build
-environment
-problems
-"
-"
-"
-    
 Command
 (
         
@@ -1305,6 +1273,18 @@ verbose
 False
 )
 :
+        
+"
+"
+"
+Diagnose
+common
+build
+environment
+problems
+"
+"
+"
         
 command_context
 .
@@ -2183,20 +2163,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Provide
-commands
-to
-read
-mach
-logs
-.
-"
-"
-"
-    
 NO_AUTO_LOG
 =
 True
@@ -2285,6 +2251,17 @@ log_file
 None
 )
 :
+        
+"
+"
+"
+Show
+mach
+logs
+.
+"
+"
+"
         
 if
 not
@@ -5302,20 +5279,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Package
-the
-built
-product
-for
-distribution
-.
-"
-"
-"
-    
 Command
 (
         
@@ -5398,6 +5361,20 @@ verbose
 False
 )
 :
+        
+"
+"
+"
+Package
+the
+built
+product
+for
+distribution
+.
+"
+"
+"
         
 ret
 =
@@ -5584,17 +5561,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Install
-a
-package
-.
-"
-"
-"
-    
 Command
 (
         
@@ -5655,6 +5621,17 @@ command_context
 kwargs
 )
 :
+        
+"
+"
+"
+Install
+a
+package
+.
+"
+"
+"
         
 if
 conditions
@@ -7759,18 +7736,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Run
-the
-compiled
-program
-.
-"
-"
-"
-    
 Command
 (
         
@@ -7826,6 +7791,18 @@ command_context
 kwargs
 )
 :
+        
+"
+"
+"
+Run
+the
+compiled
+program
+.
+"
+"
+"
         
 if
 conditions
@@ -11320,25 +11297,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Produce
-a
-package
-of
-debug
-symbols
-suitable
-for
-use
-with
-Breakpad
-.
-"
-"
-"
-    
 Command
 (
         
@@ -11377,6 +11335,25 @@ self
 command_context
 )
 :
+        
+"
+"
+"
+Produce
+a
+package
+of
+debug
+symbols
+suitable
+for
+use
+with
+Breakpad
+.
+"
+"
+"
         
 return
 command_context
@@ -12306,58 +12283,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Repackages
-artifacts
-into
-different
-formats
-.
-    
-This
-is
-generally
-used
-after
-packages
-are
-signed
-by
-the
-signing
-    
-scriptworkers
-in
-order
-to
-bundle
-things
-up
-into
-shippable
-formats
-such
-as
-a
-    
-.
-dmg
-on
-OSX
-or
-an
-installer
-exe
-on
-Windows
-.
-    
-"
-"
-"
-    
 Command
 (
         
@@ -12391,6 +12316,58 @@ self
 command_context
 )
 :
+        
+"
+"
+"
+Repackages
+artifacts
+into
+different
+formats
+.
+        
+This
+is
+generally
+used
+after
+packages
+are
+signed
+by
+the
+signing
+        
+scriptworkers
+in
+order
+to
+bundle
+things
+up
+into
+shippable
+formats
+such
+as
+a
+        
+.
+dmg
+on
+OSX
+or
+an
+installer
+exe
+on
+Windows
+.
+        
+"
+"
+"
         
 print
 (
@@ -15127,18 +15104,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Create
-the
-mach
-virtualenvs
-.
-"
-"
-"
-    
 Command
 (
         
@@ -15226,6 +15191,18 @@ force
 False
 )
 :
+        
+"
+"
+"
+Create
+the
+mach
+virtualenv
+.
+"
+"
+"
         
 from
 mozboot

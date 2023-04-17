@@ -40,23 +40,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Vendor
-third
--
-party
-dependencies
-into
-the
-source
-repository
-.
-"
-"
-"
-    
 Command
 (
         

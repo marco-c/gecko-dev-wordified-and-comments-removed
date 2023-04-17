@@ -39,18 +39,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-TPS
-tests
-for
-Sync
-.
-"
-"
-"
-    
 Command
 (
 "
@@ -106,6 +94,18 @@ command_context
 dest
 )
 :
+        
+"
+"
+"
+TPS
+tests
+for
+Sync
+.
+"
+"
+"
         
 src
 =

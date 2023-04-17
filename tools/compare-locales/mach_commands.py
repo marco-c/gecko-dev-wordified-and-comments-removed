@@ -69,18 +69,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Run
-compare
--
-locales
-.
-"
-"
-"
-    
 Command
 (
         
@@ -491,6 +479,18 @@ kwargs
 )
 :
         
+"
+"
+"
+Run
+compare
+-
+locales
+.
+"
+"
+"
+        
 from
 compare_locales
 .
@@ -712,21 +712,6 @@ CrossChannel
 MachCommandBase
 )
 :
-    
-"
-"
-"
-Run
-l10n
-cross
--
-channel
-content
-generation
-.
-"
-"
-"
     
 Command
 (
@@ -1030,6 +1015,21 @@ kwargs
     
 )
 :
+        
+"
+"
+"
+Run
+l10n
+cross
+-
+channel
+content
+generation
+.
+"
+"
+"
         
 if
 strings_path

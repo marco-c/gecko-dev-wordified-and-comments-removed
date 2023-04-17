@@ -74,23 +74,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-    
-Get
-system
-power
-consumption
-and
-related
-measurements
-.
-    
-"
-"
-"
-    
 Command
 (
         
@@ -199,6 +182,23 @@ command_context
 interval
 )
 :
+        
+"
+"
+"
+        
+Get
+system
+power
+consumption
+and
+related
+measurements
+.
+        
+"
+"
+"
         
 import
 os
