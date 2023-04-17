@@ -1148,6 +1148,13 @@ HasUpdate
 (
 )
 ;
+bool
+CanSpecializeSurface
+(
+IOSurfaceRef
+surface
+)
+;
 CALayer
 *
 mWrappingCALayer
