@@ -220,6 +220,16 @@ endif
 }
 #
 define
+MOZ_TO_RESULT
+(
+expr
+)
+ToResult
+(
+expr
+)
+#
+define
 QM_TO_RESULT
 (
 expr
