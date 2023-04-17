@@ -3114,7 +3114,7 @@ sIsOleInitialized
 ;
 static
 HCURSOR
-sHCursor
+sCustomHCursor
 ;
 static
 Cursor
