@@ -413,9 +413,6 @@ return
 true
 ;
 }
-#
-ifdef
-DEBUG
 bool
 isAligned32
 (
@@ -430,8 +427,6 @@ cursor_
 0
 ;
 }
-#
-endif
 const
 uint8_t
 *
@@ -617,9 +612,6 @@ return
 true
 ;
 }
-#
-ifdef
-DEBUG
 bool
 isAligned32
 (
@@ -634,8 +626,6 @@ cursor_
 0
 ;
 }
-#
-endif
 const
 uint8_t
 *
@@ -1150,9 +1140,6 @@ Ok
 )
 ;
 }
-#
-ifdef
-DEBUG
 bool
 isAligned32
 (
@@ -1167,8 +1154,6 @@ isAligned32
 )
 ;
 }
-#
-endif
 XDRResult
 readData
 (
