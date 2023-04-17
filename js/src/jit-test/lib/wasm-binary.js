@@ -141,7 +141,7 @@ dataCountId
 12
 ;
 const
-eventId
+tagId
 =
 13
 ;
@@ -168,7 +168,7 @@ nameTypeLocal
 2
 ;
 const
-nameTypeEvent
+nameTypeTag
 =
 3
 ;
@@ -1057,7 +1057,7 @@ GlobalCode
 0x03
 ;
 const
-EventCode
+TagCode
 =
 0x04
 ;
@@ -2127,7 +2127,7 @@ exp
 hasOwnProperty
 (
 "
-eventIndex
+tagIndex
 "
 )
 )
@@ -2141,7 +2141,7 @@ push
 .
 varU32
 (
-EventCode
+TagCode
 )
 )
 ;
@@ -2156,7 +2156,7 @@ varU32
 (
 exp
 .
-eventIndex
+tagIndex
 )
 )
 ;
@@ -2316,9 +2316,9 @@ body
 ;
 }
 function
-eventSection
+tagSection
 (
-events
+tags
 )
 {
 var
@@ -2336,7 +2336,7 @@ push
 .
 varU32
 (
-events
+tags
 .
 length
 )
@@ -2345,9 +2345,9 @@ length
 for
 (
 let
-event
+tag
 of
-events
+tags
 )
 {
 body
@@ -2372,7 +2372,7 @@ push
 .
 varU32
 (
-event
+tag
 .
 type
 )
@@ -2383,7 +2383,7 @@ return
 {
 name
 :
-eventId
+tagId
 body
 }
 ;

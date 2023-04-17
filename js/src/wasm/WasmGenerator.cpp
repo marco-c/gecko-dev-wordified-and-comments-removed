@@ -5502,7 +5502,7 @@ ENABLE_WASM_EXCEPTIONS
 metadata_
 -
 >
-events
+tags
 =
 std
 :
@@ -5512,7 +5512,7 @@ move
 moduleEnv_
 -
 >
-events
+tags
 )
 ;
 #

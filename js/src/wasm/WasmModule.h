@@ -290,7 +290,7 @@ JSContext
 *
 cx
 const
-EventDesc
+TagDesc
 &
 ed
 WasmTagObjectVector

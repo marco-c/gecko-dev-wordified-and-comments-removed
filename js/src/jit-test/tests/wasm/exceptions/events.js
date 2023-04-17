@@ -130,7 +130,7 @@ memorySection
 {
 name
 :
-eventId
+tagId
 body
 :
 [
@@ -145,7 +145,7 @@ CompileError
 expected
 number
 of
-events
+tags
 /
 )
 ;
@@ -167,7 +167,7 @@ memorySection
 {
 name
 :
-eventId
+tagId
 body
 :
 [
@@ -182,7 +182,7 @@ WebAssembly
 CompileError
 /
 illegal
-event
+tag
 kind
 /
 )
@@ -205,7 +205,7 @@ memorySection
 {
 name
 :
-eventId
+tagId
 body
 :
 [
@@ -223,7 +223,7 @@ expected
 function
 index
 in
-event
+tag
 /
 )
 ;
@@ -242,7 +242,7 @@ memorySection
 (
 0
 )
-eventSection
+tagSection
 (
 [
 {
@@ -271,7 +271,7 @@ memorySection
 (
 0
 )
-eventSection
+tagSection
 (
 [
 {
@@ -287,7 +287,7 @@ WebAssembly
 .
 CompileError
 /
-exception
+tag
 function
 types
 must
@@ -312,7 +312,7 @@ memorySection
 (
 0
 )
-eventSection
+tagSection
 (
 [
 {
@@ -332,7 +332,7 @@ function
 type
 index
 in
-event
+tag
 out
 of
 bounds
@@ -350,7 +350,7 @@ sigSection
 emptyType
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -428,7 +428,7 @@ push
 .
 varU32
 (
-EventCode
+TagCode
 )
 )
 ;
@@ -458,7 +458,7 @@ WebAssembly
 CompileError
 /
 expected
-event
+tag
 kind
 /
 )
@@ -505,7 +505,7 @@ expected
 function
 index
 in
-event
+tag
 /
 )
 ;
@@ -551,7 +551,7 @@ function
 type
 index
 in
-event
+tag
 out
 of
 bounds
@@ -578,7 +578,7 @@ memorySection
 (
 0
 )
-eventSection
+tagSection
 (
 [
 {
@@ -592,7 +592,7 @@ exportSection
 (
 [
 {
-eventIndex
+tagIndex
 :
 0
 name
@@ -622,7 +622,7 @@ memorySection
 (
 0
 )
-eventSection
+tagSection
 (
 [
 {
@@ -636,7 +636,7 @@ exportSection
 (
 [
 {
-eventIndex
+tagIndex
 :
 1
 name
@@ -654,7 +654,7 @@ WebAssembly
 CompileError
 /
 exported
-event
+tag
 index
 out
 of
@@ -699,7 +699,7 @@ push
 .
 varU32
 (
-EventCode
+TagCode
 )
 )
 ;
@@ -718,7 +718,7 @@ memorySection
 (
 0
 )
-eventSection
+tagSection
 (
 [
 {
@@ -743,7 +743,7 @@ WebAssembly
 CompileError
 /
 expected
-event
+tag
 index
 /
 )

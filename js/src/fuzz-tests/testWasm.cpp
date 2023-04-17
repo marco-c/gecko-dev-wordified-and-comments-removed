@@ -1207,7 +1207,7 @@ currentGlobalExportId
 ifdef
 ENABLE_WASM_EXCEPTIONS
 size_t
-currentEventExportId
+currentTagExportId
 =
 0
 ;
@@ -1518,14 +1518,14 @@ case
 DefinitionKind
 :
 :
-Event
+Tag
 :
 if
 (
 !
 assignImportKind
 <
-WasmExceptionObject
+WasmTagObject
 >
 (
 import
@@ -1533,7 +1533,7 @@ obj
 lastExportsObj
 lastExportIds
 &
-currentEventExportId
+currentTagExportId
 exportsLength
 nullValue
 )

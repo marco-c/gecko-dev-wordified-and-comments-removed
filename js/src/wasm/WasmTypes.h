@@ -2571,7 +2571,7 @@ const
 ifdef
 ENABLE_WASM_EXCEPTIONS
 uint32_t
-eventIndex
+tagIndex
 (
 )
 const
@@ -3268,9 +3268,9 @@ SystemAllocPolicy
 ifdef
 ENABLE_WASM_EXCEPTIONS
 struct
-EventDesc
+TagDesc
 {
-EventKind
+TagKind
 kind
 ;
 ValTypeVector
@@ -3279,9 +3279,9 @@ type
 bool
 isExport
 ;
-EventDesc
+TagDesc
 (
-EventKind
+TagKind
 kind
 ValTypeVector
 &
@@ -3332,11 +3332,11 @@ type
 }
 ;
 using
-EventDescVector
+TagDescVector
 =
 Vector
 <
-EventDesc
+TagDesc
 0
 SystemAllocPolicy
 >

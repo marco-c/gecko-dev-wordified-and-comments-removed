@@ -13550,7 +13550,7 @@ LabelKind
 kind
 ;
 uint32_t
-eventIndex
+tagIndex
 ;
 ResultType
 paramType
@@ -13573,7 +13573,7 @@ readCatch
 &
 kind
 &
-eventIndex
+tagIndex
 &
 paramType
 &

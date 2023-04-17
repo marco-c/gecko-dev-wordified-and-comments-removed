@@ -172,7 +172,7 @@ declSection
 0
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -233,7 +233,7 @@ declSection
 0
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -275,7 +275,7 @@ false
 )
 /
 expected
-event
+tag
 index
 /
 )
@@ -297,7 +297,7 @@ declSection
 0
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -359,7 +359,7 @@ declSection
 0
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -579,7 +579,7 @@ type
 error2
 =
 /
-event
+tag
 index
 out
 of
@@ -639,7 +639,7 @@ declSection
 0
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -941,7 +941,7 @@ EndCode
 ]
 )
 /
-event
+tag
 index
 out
 of
@@ -1177,7 +1177,7 @@ declSection
 1
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -1255,7 +1255,7 @@ declSection
 1
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -1334,7 +1334,7 @@ declSection
 1
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -1405,7 +1405,7 @@ declSection
 0
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -1471,7 +1471,7 @@ wasmInvalid
 (
 invalid1
 /
-event
+tag
 index
 out
 of

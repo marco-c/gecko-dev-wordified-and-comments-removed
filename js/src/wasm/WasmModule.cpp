@@ -3877,7 +3877,7 @@ JSContext
 *
 cx
 const
-EventDesc
+TagDesc
 &
 ed
 WasmTagObjectVector
@@ -4080,7 +4080,7 @@ tagIndex
 for
 (
 const
-EventDesc
+TagDesc
 &
 ed
 :
@@ -4088,7 +4088,7 @@ metadata
 (
 )
 .
-events
+tags
 )
 {
 if
@@ -5935,7 +5935,7 @@ case
 DefinitionKind
 :
 :
-Event
+Tag
 :
 {
 val
@@ -5947,7 +5947,7 @@ tagObjs
 [
 exp
 .
-eventIndex
+tagIndex
 (
 )
 ]

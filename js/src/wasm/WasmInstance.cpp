@@ -7076,7 +7076,7 @@ metadata
 (
 )
 .
-events
+tags
 .
 length
 (
