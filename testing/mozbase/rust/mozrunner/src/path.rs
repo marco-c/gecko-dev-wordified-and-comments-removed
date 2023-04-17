@@ -148,7 +148,6 @@ is_file
 &
 is_executable
 (
-&
 path
 )
 }

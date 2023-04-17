@@ -1135,7 +1135,6 @@ usize
 :
 from_str_radix
 (
-&
 response
 16
 )
@@ -2982,7 +2981,6 @@ self
 .
 enable_run_as_for_path
 (
-&
 path
 )
 ;
@@ -3050,7 +3048,6 @@ self
 .
 enable_run_as_for_path
 (
-&
 path
 )
 ;
@@ -3251,7 +3248,6 @@ write_all
 (
 encode_message
 (
-&
 command
 )
 ?
@@ -4795,7 +4791,6 @@ self
 .
 create_dir
 (
-&
 path
 )
 ?
@@ -4814,7 +4809,6 @@ self
 .
 chmod
 (
-&
 path
 "
 777
@@ -5702,7 +5696,6 @@ self
 .
 enable_run_as_for_path
 (
-&
 path
 )
 )
@@ -5774,7 +5767,6 @@ Component
 :
 Normal
 (
-ref
 segment
 )
 =
