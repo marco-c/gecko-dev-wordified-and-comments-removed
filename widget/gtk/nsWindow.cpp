@@ -6759,6 +6759,16 @@ HideWaylandWindow
 )
 ;
 }
+if
+(
+mPopupClosed
+)
+{
+RevokeTransactionIdAllocator
+(
+)
+;
+}
 }
 void
 nsWindow
