@@ -198,7 +198,7 @@ Function
 js
 :
 :
-Shape
+PropMap
 "
 "
 Object
