@@ -17370,6 +17370,7 @@ WhenToScroll
 :
 IfNotFullyVisible
 ;
+{
 nsIFrame
 *
 prevBlock
@@ -17413,6 +17414,7 @@ GetNextContinuation
 )
 )
 ;
+}
 ScrollFrameRectIntoView
 (
 container
