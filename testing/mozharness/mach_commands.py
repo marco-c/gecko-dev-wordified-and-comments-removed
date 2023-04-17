@@ -45,6 +45,8 @@ import
     
 CommandArgument
     
+CommandProvider
+    
 Command
 )
 from
@@ -52,6 +54,7 @@ mozbuild
 .
 base
 import
+MachCommandBase
 MozbuildObject
 from
 mozbuild
@@ -1490,19 +1493,27 @@ script
         
 return
 rv
+CommandProvider
+class
+MozharnessCommands
+(
+MachCommandBase
+)
+:
+    
 Command
 (
-    
+        
 "
 mozharness
 "
-    
+        
 category
 =
 "
 testing
 "
-    
+        
 description
 =
 "
@@ -1512,7 +1523,7 @@ using
 mozharness
 .
 "
-    
+        
 conditions
 =
 [
@@ -1520,21 +1531,24 @@ conditions
 .
 is_firefox_or_android
 ]
-    
+        
 parser
 =
 get_parser
+    
 )
+    
 def
 mozharness
 (
+self
 command_context
 *
 *
 kwargs
 )
 :
-    
+        
 runner
 =
 command_context
@@ -1543,7 +1557,7 @@ _spawn
 (
 MozharnessRunner
 )
-    
+        
 return
 runner
 .
