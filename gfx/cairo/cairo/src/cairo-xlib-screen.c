@@ -877,7 +877,7 @@ font_options
 subpixel_order
 )
 ;
-_cairo_font_options_set_lcd_filter
+cairo_font_options_set_lcd_filter
 (
 &
 info
