@@ -4434,10 +4434,7 @@ isCallable
 {
 wrapper
 =
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )
@@ -5073,10 +5070,7 @@ RootedPlainObject
 obj
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )

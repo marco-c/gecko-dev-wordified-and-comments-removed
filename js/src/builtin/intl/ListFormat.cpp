@@ -1697,10 +1697,7 @@ endIndex
 {
 singlePart
 =
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )

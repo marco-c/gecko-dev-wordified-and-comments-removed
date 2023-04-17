@@ -1086,10 +1086,7 @@ RootedObject
 obj
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )

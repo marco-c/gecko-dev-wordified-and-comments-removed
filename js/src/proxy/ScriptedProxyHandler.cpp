@@ -7155,10 +7155,7 @@ RootedPlainObject
 result
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )

@@ -1527,10 +1527,7 @@ RootedPlainObject
 nobj
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )
@@ -3288,10 +3285,7 @@ RootedPlainObject
 node
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )

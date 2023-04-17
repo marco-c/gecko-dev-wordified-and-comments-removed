@@ -1120,13 +1120,11 @@ nullptr
 ;
 }
 return
-NewTenuredObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 proto
+TenuredObject
 )
 ;
 }

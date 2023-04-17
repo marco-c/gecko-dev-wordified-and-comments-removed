@@ -4357,10 +4357,7 @@ PlainObject
 *
 key
 =
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )
@@ -4582,13 +4579,11 @@ NativeObject
 intrinsicsHolder
 (
 cx
-NewTenuredObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 nullptr
+TenuredObject
 )
 )
 ;

@@ -677,10 +677,7 @@ JSObject
 *
 emptyObj
 =
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )
@@ -732,10 +729,7 @@ JSObject
 *
 emptyObj
 =
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )
@@ -1718,10 +1712,7 @@ JSObject
 *
 emptyObj
 =
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )

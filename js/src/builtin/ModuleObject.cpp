@@ -11435,10 +11435,7 @@ RootedObject
 metaObject
 (
 cx
-NewObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 nullptr

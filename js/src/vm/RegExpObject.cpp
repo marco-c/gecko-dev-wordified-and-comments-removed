@@ -3826,13 +3826,11 @@ RootedPlainObject
 templateObject
 (
 cx
-NewTenuredObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 nullptr
+TenuredObject
 )
 )
 ;

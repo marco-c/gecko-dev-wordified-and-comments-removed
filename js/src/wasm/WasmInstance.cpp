@@ -11513,10 +11513,7 @@ PlainObject
 *
 obj
 =
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )

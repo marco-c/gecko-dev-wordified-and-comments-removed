@@ -19220,13 +19220,11 @@ RootedObject
 unscopables
 (
 cx
-NewTenuredObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 nullptr
+TenuredObject
 )
 )
 ;

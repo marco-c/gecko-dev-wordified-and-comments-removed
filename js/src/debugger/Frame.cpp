@@ -5158,10 +5158,7 @@ RootedPlainObject
 nenv
 (
 cx
-NewObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 nullptr
