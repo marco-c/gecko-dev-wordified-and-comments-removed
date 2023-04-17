@@ -79,13 +79,6 @@ uuid
 "
 ]
 encodingcheck
-+
-str
-(
-request
-.
-raw_headers
-)
 )
         
 return
