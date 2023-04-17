@@ -2364,6 +2364,11 @@ HIGHLIGHT
 TYPED
 ]
 postData
+:
+postData
+|
+|
+null
 icon
 :
 typeof
