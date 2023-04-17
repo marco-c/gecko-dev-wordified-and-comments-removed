@@ -28,3 +28,16 @@ Tabbed
 Browser
 "
 )
+SPHINX_TREES
+[
+"
+/
+browser
+/
+tabunloader
+"
+]
+=
+"
+docs
+"
