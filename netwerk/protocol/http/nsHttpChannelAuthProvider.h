@@ -119,8 +119,8 @@ nsHttpChannelAuthProvider
 )
 ;
 const
-char
-*
+nsCString
+&
 ProxyHost
 (
 )
@@ -135,12 +135,10 @@ mProxyInfo
 Host
 (
 )
-.
-get
+:
+EmptyCString
 (
 )
-:
-nullptr
 ;
 }
 int32_t
@@ -164,8 +162,8 @@ Port
 ;
 }
 const
-char
-*
+nsCString
+&
 Host
 (
 )
@@ -173,10 +171,6 @@ const
 {
 return
 mHost
-.
-get
-(
-)
 ;
 }
 int32_t
