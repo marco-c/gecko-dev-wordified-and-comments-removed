@@ -813,6 +813,12 @@ x86_64
 linux
 -
 gnu
+-
+sysroot
+-
+wasm32
+-
+wasi
 fetch
 :
 -
