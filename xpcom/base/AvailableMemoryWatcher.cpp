@@ -409,13 +409,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-!
-defined
-(
-XP_MACOSX
-)
 already_AddRefed
 <
 nsAvailableMemoryWatcherBase
