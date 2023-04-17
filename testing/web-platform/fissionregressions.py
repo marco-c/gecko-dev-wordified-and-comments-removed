@@ -1954,7 +1954,10 @@ bugs
 "
 ]
 =
+list
+(
 bugs
+)
         
 return
 rv
