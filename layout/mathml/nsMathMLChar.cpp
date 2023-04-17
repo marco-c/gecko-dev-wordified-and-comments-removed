@@ -2428,6 +2428,7 @@ GetFirstValidFont
 >
 GetGlyphHAdvance
 (
+aDrawTarget
 aGlyph
 .
 glyphID

@@ -724,11 +724,6 @@ font
 >
 sizeAdjust
 =
-StyleFontSizeAdjust
-:
-:
-Ex
-(
 (
 float
 )
@@ -738,7 +733,6 @@ cvalue
 .
 get
 (
-)
 )
 )
 ;
