@@ -1996,6 +1996,10 @@ self
 )
 :
         
+bench_mean
+=
+None
+        
 for
 bench
 scores
@@ -2367,6 +2371,10 @@ collect_results
 self
 )
 :
+        
+bench_score
+=
+None
         
 for
 bench
