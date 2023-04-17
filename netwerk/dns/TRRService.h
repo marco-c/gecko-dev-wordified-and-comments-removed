@@ -301,7 +301,7 @@ result
 )
 ;
 void
-TRRIsOkay
+RecordTRRStatus
 (
 nsresult
 aChannelStatus
@@ -833,6 +833,13 @@ aStatus
 TRR
 *
 aTrrRequest
+)
+;
+void
+RecordTRRStatus
+(
+nsresult
+aChannelStatus
 )
 ;
 private

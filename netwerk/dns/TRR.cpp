@@ -5046,7 +5046,7 @@ NS_ERROR_ABORT
 gTRRService
 -
 >
-TRRIsOkay
+RecordTRRStatus
 (
 aStatusCode
 )
