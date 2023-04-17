@@ -3999,6 +3999,16 @@ aStatus
 {
 if
 (
+!
+mCurrentScriptProto
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 aScript
 &
 &
