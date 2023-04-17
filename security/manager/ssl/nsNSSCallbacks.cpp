@@ -2821,6 +2821,11 @@ nsString
 password
 ;
 bool
+checkState
+=
+false
+;
+bool
 userClickedOK
 =
 false
@@ -2842,6 +2847,9 @@ getter_Copies
 (
 password
 )
+nullptr
+&
+checkState
 &
 userClickedOK
 )

@@ -117,11 +117,6 @@ nsILoginMetaInfo
 .
 idl
 "
-"
-nsIPromptInstance
-.
-idl
-"
 ]
 XPIDL_MODULE
 =
