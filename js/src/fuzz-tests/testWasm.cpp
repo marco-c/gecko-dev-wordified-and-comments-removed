@@ -2292,6 +2292,11 @@ byteLen
 1
 ]
 ;
+(
+void
+)
+rawMemByte
+;
 }
 }
 if
