@@ -616,7 +616,7 @@ totalBytes
 AddDictionaryInt
 (
 aDict
-kIOSurfaceBytesPerElement
+kIOSurfacePlaneBytesPerElement
 aBytesPerPixel
 )
 ;
