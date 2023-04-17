@@ -26,7 +26,7 @@ linux
 only
 COMPRESS_EXT
 =
-xz
+zst
 cd
 GECKO_PATH
 export

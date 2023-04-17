@@ -285,7 +285,7 @@ winchecksec
 .
 tar
 .
-bz2
+zst
 winchecksec
 /
 winchecksec
@@ -301,6 +301,6 @@ winchecksec
 .
 tar
 .
-bz2
+zst
 UPLOAD_DIR
 /

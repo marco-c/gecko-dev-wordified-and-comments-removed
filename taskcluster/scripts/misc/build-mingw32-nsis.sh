@@ -407,7 +407,7 @@ nsis
 .
 tar
 .
-xz
+zst
 mingw32
 mkdir
 -

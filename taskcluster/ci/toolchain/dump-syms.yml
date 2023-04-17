@@ -144,7 +144,7 @@ dump_syms
 .
 tar
 .
-xz
+zst
 fetches
 :
 toolchain
@@ -219,7 +219,7 @@ dump_syms
 .
 tar
 .
-xz
+zst
 fetches
 :
 toolchain
@@ -312,7 +312,7 @@ dump_syms
 .
 tar
 .
-xz
+zst
 fetches
 :
 toolchain
@@ -413,7 +413,7 @@ dump_syms
 .
 tar
 .
-bz2
+zst
 resources
 :
 -
