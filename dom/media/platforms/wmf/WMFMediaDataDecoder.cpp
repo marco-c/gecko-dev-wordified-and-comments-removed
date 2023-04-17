@@ -660,6 +660,11 @@ Input
 }
 if
 (
+IsWin10OrLater
+(
+)
+&
+&
 !
 mHasGuardedAgainstIncorrectFirstSample
 &
