@@ -453,6 +453,11 @@ nsWaylandDisplay
 .
 h
 "
+"
+WaylandShmBuffer
+.
+h
+"
 ]
 if
 CONFIG
