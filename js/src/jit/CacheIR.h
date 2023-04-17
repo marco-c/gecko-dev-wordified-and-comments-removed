@@ -9237,11 +9237,6 @@ tryAttachPlainObject
 (
 )
 ;
-AttachDecision
-tryAttachTemplateObject
-(
-)
-;
 }
 ;
 extern
