@@ -930,13 +930,6 @@ profile
 null
 toolchain
 -
-alias
-:
-wasi
--
-sysroot
-toolchain
--
 artifact
 :
 public
@@ -1035,6 +1028,13 @@ sparse
 profile
 :
 null
+toolchain
+-
+alias
+:
+wasi
+-
+sysroot
 toolchain
 -
 artifact
