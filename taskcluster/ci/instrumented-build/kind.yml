@@ -341,6 +341,14 @@ i686
 linux
 -
 gnu
+-
+sysroot
+-
+x86_64
+-
+linux
+-
+gnu
 linux64
 -
 shippable
