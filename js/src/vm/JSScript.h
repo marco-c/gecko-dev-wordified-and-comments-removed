@@ -626,8 +626,7 @@ mozilla
 Tuple
 <
 uint32_t
-char
-*
+SharedImmutableString
 >
 ;
 using
