@@ -433,9 +433,9 @@ image
 :
 img
 /
-reporter
+crashreporter
 .
-jpg
+png
 The
 Mozilla
 Crash
