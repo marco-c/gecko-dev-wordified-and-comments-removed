@@ -5347,9 +5347,6 @@ t
 toolchain
 )
 )
-context
-=
-host_or_target
 when
 =
 bootstrap_sysroot
