@@ -792,7 +792,7 @@ const
 #
 define
 ODOH_VERSION
-0xff06
+0x0001
 static
 const
 char

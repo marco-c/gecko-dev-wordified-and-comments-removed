@@ -89,7 +89,7 @@ ODOH_VERSION
 :
 u16
 =
-0xff06
+0x0001
 ;
 const
 KEM_ID
