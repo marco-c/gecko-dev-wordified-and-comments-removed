@@ -180,9 +180,7 @@ PATH
 "
 MOZ_FETCHES_DIR
 /
-llvm
--
-dsymutil
+clang
 /
 bin
 :

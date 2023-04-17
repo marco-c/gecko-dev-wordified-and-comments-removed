@@ -729,12 +729,6 @@ macosx
 -
 cross
 -
-linux64
--
-llvm
--
-dsymutil
--
 macosx64
 -
 sdk
@@ -1161,12 +1155,6 @@ port
 linux64
 -
 clang
--
-linux64
--
-llvm
--
-dsymutil
 -
 macosx64
 -

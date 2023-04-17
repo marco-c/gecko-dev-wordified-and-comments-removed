@@ -96,9 +96,7 @@ bin
 :
 MOZ_FETCHES_DIR
 /
-llvm
--
-dsymutil
+clang
 /
 bin
 :
@@ -178,9 +176,7 @@ DSYMUTIL
 =
 MOZ_FETCHES_DIR
 /
-llvm
--
-dsymutil
+clang
 /
 bin
 /

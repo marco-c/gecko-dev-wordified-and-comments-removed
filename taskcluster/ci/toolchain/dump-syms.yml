@@ -251,12 +251,6 @@ clang
 -
 11
 -
-linux64
--
-llvm
--
-dsymutil
--
 macosx64
 -
 sdk
@@ -343,12 +337,6 @@ port
 clang
 -
 11
--
-linux64
--
-llvm
--
-dsymutil
 -
 macosx64
 -

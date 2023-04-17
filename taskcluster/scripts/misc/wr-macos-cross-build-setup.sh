@@ -281,16 +281,6 @@ bin
 MOZ_FETCHES_DIR
 }
 /
-llvm
--
-dsymutil
-/
-bin
-:
-{
-MOZ_FETCHES_DIR
-}
-/
 wrench
 -
 deps
