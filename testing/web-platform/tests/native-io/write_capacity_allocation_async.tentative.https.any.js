@@ -453,17 +453,6 @@ granted_capacity
 )
 ;
 const
-writeSharedArrayBuffer
-=
-new
-SharedArrayBuffer
-(
-granted_capacity
-+
-1
-)
-;
-const
 writeBuffer
 =
 new
