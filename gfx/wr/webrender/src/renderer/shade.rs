@@ -86,19 +86,6 @@ ShaderPrecacheFlags
 }
 ;
 use
-crate
-:
-:
-profiler
-:
-:
-{
-self
-TransactionProfile
-ns_to_ms
-}
-;
-use
 gleam
 :
 :
@@ -533,11 +520,6 @@ shader_list
 :
 &
 ShaderFeatures
-profile
-:
-&
-mut
-TransactionProfile
 )
 -
 >
@@ -675,7 +657,6 @@ get_internal
 (
 device
 precache_flags
-profile
 )
 ?
 ;
@@ -762,11 +743,6 @@ Vec
 <
 RendererError
 >
-profile
-:
-&
-mut
-TransactionProfile
 )
 {
 let
@@ -793,7 +769,6 @@ ShaderPrecacheFlags
 :
 :
 FULL_COMPILE
-profile
 )
 {
 Ok
@@ -887,11 +862,6 @@ Device
 precache_flags
 :
 ShaderPrecacheFlags
-profile
-:
-&
-mut
-TransactionProfile
 )
 -
 >
@@ -912,13 +882,6 @@ is_none
 (
 )
 {
-let
-start_time
-=
-precise_time_ns
-(
-)
-;
 let
 program
 =
@@ -1081,29 +1044,6 @@ program
 ?
 )
 ;
-let
-end_time
-=
-precise_time_ns
-(
-)
-;
-profile
-.
-add
-(
-profiler
-:
-:
-SHADER_BUILD_TIME
-ns_to_ms
-(
-end_time
--
-start_time
-)
-)
-;
 }
 let
 program
@@ -1139,13 +1079,6 @@ is_initialized
 (
 )
 {
-let
-start_time
-=
-precise_time_ns
-(
-)
-;
 let
 vertex_format
 =
@@ -1657,29 +1590,6 @@ ClipMask
 ;
 }
 }
-let
-end_time
-=
-precise_time_ns
-(
-)
-;
-profile
-.
-add
-(
-profiler
-:
-:
-SHADER_BUILD_TIME
-ns_to_ms
-(
-end_time
--
-start_time
-)
-)
-;
 }
 Ok
 (
@@ -1782,11 +1692,6 @@ bool
 use_dual_source
 :
 bool
-profile
-:
-&
-mut
-TransactionProfile
 )
 -
 >
@@ -1824,7 +1729,6 @@ device
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -1864,7 +1768,6 @@ device
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -1910,7 +1813,6 @@ device
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -1966,7 +1868,6 @@ device
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -2016,7 +1917,6 @@ device
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -2344,11 +2244,6 @@ shader_list
 :
 &
 ShaderFeatures
-profile
-:
-&
-mut
-TransactionProfile
 )
 -
 >
@@ -2405,7 +2300,6 @@ device
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -2465,7 +2359,6 @@ device
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -2516,7 +2409,6 @@ device
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -2950,18 +2842,6 @@ ShaderError
 >
 {
 let
-profile
-=
-&
-mut
-TransactionProfile
-:
-:
-new
-(
-)
-;
-let
 use_dual_source_blending
 =
 device
@@ -3144,7 +3024,6 @@ precache_flags
 shader_list
 false
 false
-profile
 )
 ?
 ;
@@ -3170,7 +3049,6 @@ precache_flags
 shader_list
 false
 false
-profile
 )
 ?
 ;
@@ -3196,7 +3074,6 @@ precache_flags
 shader_list
 false
 false
-profile
 )
 ?
 ;
@@ -3235,7 +3112,6 @@ precache_flags
 shader_list
 false
 false
-profile
 )
 ?
 ;
@@ -3264,7 +3140,6 @@ precache_flags
 shader_list
 false
 false
-profile
 )
 ?
 ;
@@ -3290,7 +3165,6 @@ precache_flags
 shader_list
 false
 false
-profile
 )
 ?
 ;
@@ -3327,7 +3201,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -3364,7 +3237,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -3398,7 +3270,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -3432,7 +3303,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -3467,7 +3337,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -3504,7 +3373,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -3541,7 +3409,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -3661,7 +3528,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -3709,7 +3575,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -3746,7 +3611,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 )
@@ -3780,7 +3644,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -3808,7 +3671,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -3974,7 +3836,6 @@ precache_flags
 shader_list
 use_advanced_blend_equation
 use_dual_source_blending
-profile
 )
 ?
 )
@@ -4022,7 +3883,6 @@ precache_flags
 shader_list
 use_advanced_blend_equation
 use_dual_source_blending
-profile
 )
 ?
 )
@@ -4281,7 +4141,6 @@ precache_flags
 shader_list
 false
 false
-profile
 )
 ?
 ;
@@ -4318,7 +4177,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -4356,7 +4214,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -4383,7 +4240,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -4469,7 +4325,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -4503,7 +4358,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -4537,7 +4391,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -4571,7 +4424,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -4605,7 +4457,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -4639,7 +4490,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
@@ -4673,7 +4523,6 @@ options
 precache_flags
 &
 shader_list
-profile
 )
 ?
 ;
