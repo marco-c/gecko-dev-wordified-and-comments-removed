@@ -1269,9 +1269,6 @@ devices
 IsEmpty
 (
 )
-|
-|
-manualInvalidation
 )
 {
 RefPtr
