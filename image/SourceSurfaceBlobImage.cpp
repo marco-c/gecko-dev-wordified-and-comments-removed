@@ -1252,6 +1252,7 @@ SamplingFilter
 :
 POINT
 mImageFlags
+false
 )
 ;
 }
