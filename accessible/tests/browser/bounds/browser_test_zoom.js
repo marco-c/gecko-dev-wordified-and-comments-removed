@@ -205,7 +205,9 @@ area
 )
 ;
 await
-invokeContentTask
+SpecialPowers
+.
+spawn
 (
 browser
 [
