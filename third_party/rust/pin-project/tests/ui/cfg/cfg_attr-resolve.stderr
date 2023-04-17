@@ -10,12 +10,6 @@ project
 found
 for
 struct
-std
-:
-:
-pin
-:
-:
 Pin
 <
 &
@@ -80,12 +74,6 @@ method
 not
 found
 in
-std
-:
-:
-pin
-:
-:
 Pin
 <
 &

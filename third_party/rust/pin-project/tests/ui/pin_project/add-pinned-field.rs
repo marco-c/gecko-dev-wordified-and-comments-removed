@@ -1,5 +1,5 @@
 use
-auxiliary_macros
+auxiliary_macro
 :
 :
 add_pinned_field

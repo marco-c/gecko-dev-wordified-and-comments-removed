@@ -1,5 +1,5 @@
 use
-auxiliary_macros
+auxiliary_macro
 :
 :
 remove_attr
@@ -44,11 +44,11 @@ pin_project
 [
 remove_attr
 (
-field
+field_all
 )
 ]
 struct
-Foo
+A
 {
 #
 [
@@ -62,7 +62,7 @@ PhantomPinned
 [
 remove_attr
 (
-field
+field_all
 )
 ]
 #
@@ -70,7 +70,7 @@ field
 pin_project
 ]
 struct
-Bar
+B
 {
 #
 [
@@ -89,7 +89,7 @@ is_unpin
 :
 :
 <
-Foo
+A
 >
 (
 )
@@ -98,7 +98,7 @@ is_unpin
 :
 :
 <
-Bar
+B
 >
 (
 )
@@ -107,7 +107,7 @@ let
 mut
 x
 =
-Foo
+A
 {
 field
 :
@@ -149,7 +149,7 @@ let
 mut
 x
 =
-Bar
+B
 {
 field
 :

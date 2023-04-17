@@ -22,7 +22,7 @@ DIR
 /
 unsafe
 -
-code
+call
 .
 rs
 :
