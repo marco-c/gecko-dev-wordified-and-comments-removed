@@ -897,6 +897,9 @@ centos
 "
 fedora
 "
+"
+rocky
+"
 )
 :
                 
