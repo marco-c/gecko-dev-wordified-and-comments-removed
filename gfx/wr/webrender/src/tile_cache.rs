@@ -395,6 +395,12 @@ ClipChainId
 slice_flags
 :
 SliceFlags
+prim_instances
+:
+&
+[
+PrimitiveInstance
+]
 )
 {
 assert
@@ -605,8 +611,6 @@ for
 prim_instance
 in
 &
-prim_list
-.
 prim_instances
 [
 cluster
@@ -957,6 +961,14 @@ iframe_clip
 Option
 <
 ClipChainId
+>
+prim_instances
+:
+&
+mut
+Vec
+<
+PrimitiveInstance
 >
 )
 {
@@ -1518,6 +1530,7 @@ prim_instance
 prim_rect
 spatial_node_index
 prim_flags
+prim_instances
 )
 ;
 }
