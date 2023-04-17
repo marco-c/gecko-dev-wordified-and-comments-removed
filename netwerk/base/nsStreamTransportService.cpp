@@ -1044,15 +1044,12 @@ Lock
 (
 )
 ;
-MOZ_ALWAYS_TRUE
-(
 delayedRunnables
 -
 >
 RemoveElement
 (
 aRunnable
-)
 )
 ;
 }
