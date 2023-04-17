@@ -504,6 +504,13 @@ props
 .
 design
 }
+background_url
+=
+{
+props
+.
+background_url
+}
 /
 >
 )
