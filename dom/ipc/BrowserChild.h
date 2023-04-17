@@ -2750,13 +2750,11 @@ IPCResult
 RecvPrint
 (
 const
-uint64_t
+MaybeDiscardedBrowsingContext
 &
-aOuterWindowID
 const
 PrintData
 &
-aPrintData
 )
 ;
 mozilla

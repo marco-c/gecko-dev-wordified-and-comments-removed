@@ -3041,8 +3041,8 @@ ExitPrintPreview
 async
 Print
 (
-uint64_t
-aOuterWindowID
+MaybeDiscardedBrowsingContext
+aBC
 PrintData
 aPrintData
 )

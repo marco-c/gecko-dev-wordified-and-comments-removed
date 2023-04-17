@@ -7174,13 +7174,10 @@ activeTab
 .
 linkedBrowser
 .
+browsingContext
+.
 print
 (
-activeTab
-.
-linkedBrowser
-.
-outerWindowID
 printSettings
 )
 .

@@ -10018,9 +10018,6 @@ print
 printToFile
 (
 linkedBrowser
-linkedBrowser
-.
-outerWindowID
 settings
 )
 ;

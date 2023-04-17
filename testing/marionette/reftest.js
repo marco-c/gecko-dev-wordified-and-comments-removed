@@ -3918,13 +3918,6 @@ printToFile
 win
 .
 gBrowser
-.
-frameLoader
-win
-.
-gBrowser
-.
-outerWindowID
 settings
 )
 ;

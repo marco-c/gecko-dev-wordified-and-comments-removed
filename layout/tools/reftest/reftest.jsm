@@ -10884,13 +10884,10 @@ g
 .
 browser
 .
+browsingContext
+.
 print
 (
-g
-.
-browser
-.
-outerWindowID
 ps
 )
 .

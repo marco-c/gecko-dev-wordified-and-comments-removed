@@ -570,7 +570,6 @@ async
 function
 (
 browser
-outerWindowID
 settings
 )
 {
@@ -634,9 +633,10 @@ filePath
 await
 browser
 .
+browsingContext
+.
 print
 (
-outerWindowID
 printSettings
 )
 ;
