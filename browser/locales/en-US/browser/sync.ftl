@@ -200,7 +200,7 @@ settings
 label
 =
 Sync
-Settings
+settings
 fxa
 -
 menu
@@ -216,7 +216,7 @@ value
 =
 Turn
 on
-Sync
+sync
 fxa
 -
 menu
@@ -231,7 +231,7 @@ default
 =
 Turn
 on
-Sync
+sync
 fxa
 -
 menu
@@ -246,8 +246,8 @@ device
 label
 =
 Connect
-Another
-Device
+another
+device
 fxa
 -
 menu
@@ -260,4 +260,4 @@ out
 label
 =
 Sign
-Out
+out

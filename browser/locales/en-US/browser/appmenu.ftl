@@ -443,6 +443,13 @@ fxaccount
 brand
 -
 name
+(
+capitalization
+:
+"
+sentence
+"
+)
 }
 #
 Variables
