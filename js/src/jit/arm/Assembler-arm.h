@@ -931,13 +931,6 @@ r5
 static
 constexpr
 Register
-WasmExceptionReg
-=
-ABINonArgReg2
-;
-static
-constexpr
-Register
 PreBarrierReg
 =
 r1
