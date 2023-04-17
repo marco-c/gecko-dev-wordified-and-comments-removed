@@ -1627,6 +1627,12 @@ I32x4AllTrue
 I32x4Bitmask
 =
 0xa4
+I32x4RelaxedTruncSSatF32x4
+=
+0xa5
+I32x4RelaxedTruncUSatF32x4
+=
+0xa6
 I32x4WidenLowSI16x8
 =
 0xa7
@@ -1705,6 +1711,12 @@ I64x2AllTrue
 I64x2Bitmask
 =
 0xc4
+I32x4RelaxedTruncSatF64x2SZero
+=
+0xc5
+I32x4RelaxedTruncSatF64x2UZero
+=
+0xc6
 I64x2WidenLowSI32x4
 =
 0xc7
