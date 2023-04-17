@@ -2,7 +2,7 @@ const
 TEST_REFERRER_URL
 =
 "
-http
+https
 :
 /
 /
@@ -17,7 +17,7 @@ const
 TEST_URL
 =
 "
-http
+https
 :
 /
 /
