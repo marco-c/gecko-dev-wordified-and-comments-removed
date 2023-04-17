@@ -4403,10 +4403,7 @@ cx
 ;
 executeOk
 =
-JS
-:
-:
-CloneAndExecuteScript
+JS_ExecuteScript
 (
 aescx
 script
