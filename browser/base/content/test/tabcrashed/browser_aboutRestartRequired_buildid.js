@@ -457,7 +457,7 @@ is
 getFalsePositiveTelemetry
 (
 )
-undefined
+1
 "
 Build
 ID
@@ -467,7 +467,7 @@ positive
 count
 should
 be
-undefined
+1
 "
 )
 ;
@@ -724,7 +724,7 @@ is
 getFalsePositiveTelemetry
 (
 )
-1
+undefined
 "
 Build
 ID
@@ -734,7 +734,7 @@ positive
 count
 should
 be
-1
+undefined
 "
 )
 ;
@@ -758,7 +758,9 @@ oop
 -
 browser
 -
-crashed
+buildid
+-
+mismatch
 event
 .
 "
@@ -959,7 +961,7 @@ is
 getFalsePositiveTelemetry
 (
 )
-1
+undefined
 "
 Build
 ID
@@ -969,7 +971,7 @@ positive
 count
 should
 be
-1
+undefined
 "
 )
 ;
