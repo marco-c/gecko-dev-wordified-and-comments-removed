@@ -405,6 +405,17 @@ bool
 indeterminate
 )
 {
+if
+(
+!
+sUpdatePath
+)
+{
+return
+-
+1
+;
+}
 usleep
 (
 500000
