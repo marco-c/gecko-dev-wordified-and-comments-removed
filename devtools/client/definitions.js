@@ -3392,9 +3392,7 @@ if
 !
 toolbox
 .
-target
-.
-isParentProcess
+isBrowserToolbox
 &
 &
 level

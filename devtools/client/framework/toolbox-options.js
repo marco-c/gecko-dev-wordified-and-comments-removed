@@ -2428,9 +2428,9 @@ if
 (
 this
 .
-target
+toolbox
 .
-isParentProcess
+isBrowserToolbox
 )
 {
 prefDefinitions
@@ -2490,8 +2490,6 @@ this
 toolbox
 .
 isBrowserToolbox
-(
-)
 )
 {
 return

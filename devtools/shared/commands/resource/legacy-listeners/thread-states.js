@@ -42,9 +42,9 @@ isBrowserToolbox
 =
 targetCommand
 .
-targetFront
+descriptorFront
 .
-isParentProcess
+isParentProcessDescriptor
 ;
 const
 isNonTopLevelFrameTarget

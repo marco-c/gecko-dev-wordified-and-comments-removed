@@ -962,7 +962,7 @@ this
 .
 descriptorFront
 .
-isParent
+isParentProcessDescriptor
 &
 &
 !
@@ -1389,9 +1389,9 @@ if
 (
 this
 .
-targetFront
+descriptorFront
 .
-isParentProcess
+isParentProcessDescriptor
 )
 {
 const

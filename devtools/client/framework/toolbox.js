@@ -2815,9 +2815,8 @@ contentWindow
 )
 ;
 }
+get
 isBrowserToolbox
-:
-function
 (
 )
 {
@@ -12488,9 +12487,7 @@ isMultiProcessBrowserToolbox
 =
 this
 .
-target
-.
-isParentProcess
+isBrowserToolbox
 &
 &
 Services

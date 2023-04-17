@@ -889,9 +889,11 @@ if
 (
 this
 .
-target
+targetCommand
 .
-isParentProcess
+descriptorFront
+.
+isParentProcessDescriptor
 )
 {
 return
