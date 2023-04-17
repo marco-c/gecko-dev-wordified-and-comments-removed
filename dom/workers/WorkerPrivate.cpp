@@ -12212,6 +12212,9 @@ CookieJarSettings
 :
 Create
 (
+loadInfo
+.
+mLoadingPrincipal
 )
 ;
 MOZ_ASSERT

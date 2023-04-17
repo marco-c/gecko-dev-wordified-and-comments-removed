@@ -7726,6 +7726,9 @@ CookieJarSettings
 :
 Create
 (
+info
+.
+mPrincipal
 )
 ;
 MOZ_ASSERT
