@@ -4174,11 +4174,6 @@ get_x11_screen_info
 dpy
 )
 ;
-XCloseDisplay
-(
-dpy
-)
-;
 record_value
 (
 "
