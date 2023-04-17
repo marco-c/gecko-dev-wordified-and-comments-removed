@@ -74,7 +74,6 @@ import
 browser
 install
 testfiles
-utils
 virtualenv
 from
 .
@@ -473,8 +472,51 @@ kwargs
 )
 :
     
+def
+set_if_none
+(
+name
+value
+)
+:
+        
+if
 kwargs
 .
+get
+(
+name
+)
+is
+None
+:
+            
+kwargs
+[
+name
+]
+=
+value
+            
+logger
+.
+info
+(
+"
+Set
+%
+s
+to
+%
+s
+"
+%
+(
+name
+value
+)
+)
+    
 set_if_none
 (
 "
@@ -483,8 +525,6 @@ tests_root
 wpt_root
 )
     
-kwargs
-.
 set_if_none
 (
 "
@@ -493,8 +533,6 @@ metadata_root
 wpt_root
 )
     
-kwargs
-.
 set_if_none
 (
 "
@@ -503,8 +541,6 @@ manifest_update
 True
 )
     
-kwargs
-.
 set_if_none
 (
 "
@@ -5435,15 +5471,10 @@ wptcommandline
     
 kwargs
 =
-utils
-.
-Kwargs
-(
 kwargs
 .
-items
+copy
 (
-)
 )
     
 kwargs
