@@ -4338,15 +4338,20 @@ format_exc
 raise
     
 def
-stop
+request_shutdown
 (
 self
-timeout
-=
-None
 )
 :
         
+if
+self
+.
+is_alive
+(
+)
+:
+            
 self
 .
 stop_flag
@@ -4354,6 +4359,16 @@ stop_flag
 set
 (
 )
+    
+def
+wait
+(
+self
+timeout
+=
+None
+)
+:
         
 self
 .
@@ -4643,7 +4658,13 @@ exit
     
 wrapper
 .
-stop
+request_shutdown
+(
+)
+    
+wrapper
+.
+wait
 (
 )
 def
@@ -8413,20 +8434,6 @@ servers
 )
 :
                 
-subproc
-=
-server
-.
-proc
-                
-if
-subproc
-.
-is_alive
-(
-)
-:
-                    
 logger
 .
 info
@@ -8442,14 +8449,31 @@ s
 :
 running
 '
-subproc
+server
+.
+proc
 .
 name
 )
-                    
+                
 server
 .
-stop
+request_shutdown
+(
+)
+            
+for
+server
+in
+iter_servers
+(
+servers
+)
+:
+                
+server
+.
+wait
 (
 timeout
 =
@@ -8483,13 +8507,21 @@ s
 exited
 correctly
 '
-subproc
+server
+.
+proc
 .
 name
 )
                 
 else
 :
+                    
+subproc
+=
+server
+.
+proc
                     
 logger
 .

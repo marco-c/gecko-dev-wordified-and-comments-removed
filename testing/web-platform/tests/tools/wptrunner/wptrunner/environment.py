@@ -810,20 +810,19 @@ process_interrupts
 )
         
 for
-scheme
 servers
 in
 self
 .
 servers
 .
-items
+values
 (
 )
 :
             
 for
-port
+_
 server
 in
 servers
@@ -831,7 +830,32 @@ servers
                 
 server
 .
-stop
+request_shutdown
+(
+)
+        
+for
+servers
+in
+self
+.
+servers
+.
+values
+(
+)
+:
+            
+for
+_
+server
+in
+servers
+:
+                
+server
+.
+wait
 (
 )
         
