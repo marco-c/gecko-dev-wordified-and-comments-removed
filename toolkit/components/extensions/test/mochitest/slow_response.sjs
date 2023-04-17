@@ -63,12 +63,7 @@ unused
 vars
 *
 /
-let
-{
-AppConstants
-}
-=
-ChromeUtils
+Cu
 .
 import
 (

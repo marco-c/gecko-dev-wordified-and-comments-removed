@@ -48,9 +48,9 @@ maxBytesPerCookie
 .
 join
 (
-"
+'
 x
-"
+'
 )
 true
 )
@@ -83,9 +83,9 @@ maxBytesPerCookiePath
 .
 join
 (
-"
+'
 x
-"
+'
 )
 true
 )

@@ -183,7 +183,6 @@ if
 (
 etag
 )
-{
 setState
 (
 "
@@ -195,7 +194,6 @@ etag
 ]
 )
 ;
-}
 response
 .
 setStatusLine

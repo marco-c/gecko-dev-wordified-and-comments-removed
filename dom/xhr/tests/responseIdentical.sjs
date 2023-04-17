@@ -85,7 +85,6 @@ available
 >
 0
 )
-{
 body
 +
 =
@@ -104,7 +103,6 @@ avail
 )
 )
 ;
-}
 response
 .
 setHeader

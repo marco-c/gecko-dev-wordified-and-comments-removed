@@ -57,9 +57,9 @@ request
 .
 hasHeader
 (
-"
+'
 Referer
-"
+'
 )
 )
 {

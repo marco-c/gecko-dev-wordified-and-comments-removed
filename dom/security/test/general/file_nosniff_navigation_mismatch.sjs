@@ -108,9 +108,9 @@ html
 >
 ;
 case
-"
+'
 js
-"
+'
 :
 return
 <
@@ -131,7 +131,6 @@ executed
 /
 script
 >
-;
 case
 "
 css
@@ -149,9 +148,9 @@ important
 }
 ;
 case
-"
+'
 json
-"
+'
 :
 return
 {
@@ -165,9 +164,9 @@ yes
 }
 ;
 case
-"
+'
 img
-"
+'
 :
 return
 IMG
@@ -200,7 +199,7 @@ response
 .
 setHeader
 (
-"
+'
 X
 -
 Content
@@ -208,10 +207,10 @@ Content
 Type
 -
 Options
-"
-"
+'
+'
 nosniff
-"
+'
 )
 ;
 /
@@ -252,5 +251,7 @@ request
 queryString
 )
 )
+;
+return
 ;
 }

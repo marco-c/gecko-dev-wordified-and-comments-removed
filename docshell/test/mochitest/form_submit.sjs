@@ -3,6 +3,25 @@ use
 strict
 "
 ;
+Cu
+.
+import
+(
+"
+resource
+:
+/
+/
+gre
+/
+modules
+/
+Timer
+.
+jsm
+"
+)
+;
 const
 CC
 =
@@ -111,7 +130,6 @@ Reading
 request
 "
 )
-;
 let
 available
 =
@@ -162,7 +180,6 @@ Setting
 Headers
 "
 )
-;
 response
 .
 setHeader
@@ -250,5 +267,4 @@ log
 Done
 "
 )
-;
 }

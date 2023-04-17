@@ -120,7 +120,7 @@ completing
 the
 request
 .
-const
+let
 nsTimer
 =
 Components

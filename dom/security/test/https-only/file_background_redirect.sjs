@@ -17,12 +17,7 @@ use
 strict
 "
 ;
-let
-{
-setTimeout
-}
-=
-ChromeUtils
+Cu
 .
 import
 (

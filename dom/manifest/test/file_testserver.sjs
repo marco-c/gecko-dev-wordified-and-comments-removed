@@ -3,12 +3,9 @@ use
 strict
 "
 ;
-let
-{
-NetUtil
-}
-=
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -196,7 +193,6 @@ append
 (
 path
 )
-;
 return
 testHTMLFile
 ;

@@ -229,7 +229,6 @@ type
 :
 "
 "
-;
 var
 bodyOutput
 =

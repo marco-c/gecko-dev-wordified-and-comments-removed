@@ -71,13 +71,13 @@ queryString
 .
 includes
 (
-"
+'
 bad
 -
 redirection
 =
 1
-"
+'
 )
 )
 {

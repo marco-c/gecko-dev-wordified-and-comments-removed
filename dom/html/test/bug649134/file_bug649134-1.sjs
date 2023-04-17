@@ -14,7 +14,7 @@ seizePower
 var
 r
 =
-"
+'
 HTTP
 /
 1
@@ -26,9 +26,9 @@ OK
 r
 \
 n
-"
+'
 +
-"
+'
 Content
 -
 Type
@@ -40,7 +40,7 @@ html
 r
 \
 n
-"
+'
 +
 '
 Link
@@ -61,14 +61,14 @@ r
 n
 '
 +
-"
+'
 \
 r
 \
 n
-"
+'
 +
-"
+'
 <
 !
 -
@@ -98,7 +98,7 @@ body
 r
 \
 n
-"
+'
 ;
 response
 .

@@ -18,7 +18,7 @@ request
 response
 )
 {
-const
+let
 params
 =
 new
@@ -415,7 +415,7 @@ code
 into
 it
 .
-const
+let
 srcdoc
 =
 <

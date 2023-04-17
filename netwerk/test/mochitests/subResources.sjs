@@ -12,6 +12,7 @@ kTwoDays
 const
 kInTwoDays
 =
+(
 new
 Date
 (
@@ -24,6 +25,7 @@ getTime
 kTwoDays
 *
 1000
+)
 ;
 function
 getDateInTwoDays
@@ -230,7 +232,6 @@ second
 ;
 }
 return
-(
 days
 [
 date2
@@ -277,7 +278,6 @@ second
 "
 GMT
 "
-)
 ;
 }
 function

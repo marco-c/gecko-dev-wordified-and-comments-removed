@@ -543,7 +543,6 @@ queryString
 fail
 "
 )
-{
 aResponse
 .
 setStatusLine
@@ -562,9 +561,7 @@ t
 "
 )
 ;
-}
 else
-{
 aResponse
 .
 setStatusLine
@@ -583,7 +580,6 @@ red
 "
 )
 ;
-}
 aResponse
 .
 write

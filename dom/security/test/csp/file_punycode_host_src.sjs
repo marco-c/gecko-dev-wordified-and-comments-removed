@@ -25,7 +25,7 @@ HTML
 >
 "
 +
-'
+"
 <
 html
 >
@@ -36,13 +36,15 @@ head
 meta
 charset
 =
+\
 "
 utf
 -
 8
+\
 "
 >
-'
+"
 +
 "
 <
@@ -196,7 +198,6 @@ example
 org
 /
 "
-;
 const
 HTML_PART2
 =
@@ -377,7 +378,6 @@ HTML_PART2
 )
 ;
 return
-;
 }
 if
 (
@@ -414,7 +414,6 @@ HTML_PART2
 )
 ;
 return
-;
 }
 /
 /

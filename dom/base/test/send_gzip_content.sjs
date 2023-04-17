@@ -169,8 +169,8 @@ _
 var
 result
 =
-"
-"
+'
+'
 ;
 for
 (
@@ -259,6 +259,8 @@ observer
 =
 {
 onStreamComplete
+:
+function
 (
 loader
 context

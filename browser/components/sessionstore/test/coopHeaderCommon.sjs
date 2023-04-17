@@ -18,12 +18,9 @@ URLSearchParams
 ]
 )
 ;
-let
-{
-NetUtil
-}
-=
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

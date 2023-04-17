@@ -56,10 +56,10 @@ MPL
 .
 *
 /
-"
+'
 use
 strict
-"
+'
 ;
 Components
 .

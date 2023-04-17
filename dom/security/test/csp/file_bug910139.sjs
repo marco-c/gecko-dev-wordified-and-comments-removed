@@ -234,7 +234,6 @@ CSP
 for
 checkBlocked
 ]
-;
 function
 getPolicy
 (

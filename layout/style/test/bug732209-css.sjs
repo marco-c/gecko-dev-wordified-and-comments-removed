@@ -139,7 +139,6 @@ Origin
 )
 false
 )
-;
 response
 .
 setHeader

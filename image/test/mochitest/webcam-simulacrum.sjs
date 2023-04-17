@@ -37,16 +37,16 @@ var
 frames
 =
 [
-"
+'
 red
 .
 gif
-"
-"
+'
+'
 blue
 .
 gif
-"
+'
 ]
 ;
 var
@@ -178,7 +178,7 @@ Components
 .
 classes
 [
-"
+'
 mozilla
 .
 org
@@ -192,7 +192,7 @@ input
 stream
 ;
 1
-"
+'
 ]
 .
 createInstance
@@ -306,6 +306,8 @@ while
 frames
 .
 length
+>
+0
 )
 {
 sendNextPart

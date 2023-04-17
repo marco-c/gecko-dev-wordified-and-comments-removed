@@ -99,9 +99,9 @@ queryString
 .
 split
 (
-"
+'
 &
-"
+'
 )
 ;
 var
@@ -164,7 +164,6 @@ available
 >
 0
 )
-{
 body
 +
 =
@@ -183,7 +182,6 @@ bodyAvail
 )
 )
 ;
-}
 if
 (
 command
@@ -241,9 +239,9 @@ val
 .
 split
 (
-"
+'
 =
-"
+'
 )
 ;
 response

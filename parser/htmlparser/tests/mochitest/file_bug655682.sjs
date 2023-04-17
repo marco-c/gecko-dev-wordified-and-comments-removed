@@ -288,7 +288,6 @@ TYPE_ONE_SHOT
 ;
 }
 }
-;
 timer
 .
 initWithCallback

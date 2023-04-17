@@ -40,7 +40,7 @@ processAsync
 (
 )
 ;
-const
+let
 params
 =
 request
@@ -54,14 +54,16 @@ split
 "
 )
 ;
-const
+let
 index
 =
 params
 .
 filter
 (
+(
 s
+)
 =
 >
 s
