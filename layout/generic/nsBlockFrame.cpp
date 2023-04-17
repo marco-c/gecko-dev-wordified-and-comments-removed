@@ -9542,8 +9542,9 @@ ComputedBSize
 )
 )
 {
+const
 nscoord
-contentBSize
+contentBSizeWithBStartBP
 =
 aState
 .
@@ -9564,7 +9565,7 @@ aReflowInput
 aState
 .
 mReflowStatus
-contentBSize
+contentBSizeWithBStartBP
 borderPadding
 aState
 .
@@ -9610,11 +9611,11 @@ BSize
 (
 wm
 )
-contentBSize
+contentBSizeWithBStartBP
 +
 borderPadding
 .
-BStartEnd
+BEnd
 (
 wm
 )
