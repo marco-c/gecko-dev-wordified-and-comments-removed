@@ -2339,7 +2339,7 @@ Type
 Name
 ;
 let
-limit
+attrs
 =
 0
 ;
@@ -2351,11 +2351,11 @@ typeInfo
 .
 GCSuppressors
 )
-limit
+attrs
 =
-limit
+attrs
 |
-LIMIT_CANNOT_GC
+ATTR_GC_SUPPRESSED
 ;
 var
 [
@@ -2480,7 +2480,7 @@ return
 0
 ;
 return
-limit
+attrs
 ;
 }
 function
