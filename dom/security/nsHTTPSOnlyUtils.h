@@ -46,6 +46,8 @@ static
 bool
 IsHttpsFirstModeEnabled
 (
+bool
+aFromPrivateWindow
 )
 ;
 static
