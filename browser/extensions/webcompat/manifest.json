@@ -35,7 +35,7 @@ version
 "
 25
 .
-4
+5
 .
 0
 "
@@ -888,6 +888,13 @@ shims
 vast3
 .
 xml
+"
+"
+shims
+/
+vidible
+.
+js
 "
 "
 shims
