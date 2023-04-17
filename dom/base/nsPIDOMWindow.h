@@ -1814,6 +1814,13 @@ mMutationBits
 ;
 uint32_t
 mActivePeerConnections
+=
+0
+;
+uint32_t
+mTotalActivePeerConnections
+=
+0
 ;
 bool
 mIsDocumentLoaded
