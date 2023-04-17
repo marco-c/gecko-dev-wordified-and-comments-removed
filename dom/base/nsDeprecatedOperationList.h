@@ -190,3 +190,15 @@ DEPRECATED_OPERATION
 (
 FormSubmissionUntrustedEvent
 )
+DEPRECATED_OPERATION
+(
+ElementSetCapture
+)
+DEPRECATED_OPERATION
+(
+ElementReleaseCapture
+)
+DEPRECATED_OPERATION
+(
+DocumentReleaseCapture
+)
