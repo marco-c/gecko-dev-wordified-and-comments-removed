@@ -3184,7 +3184,7 @@ write
 ac_add_options
 -
 -
-with
+enable
 -
 project
 =
