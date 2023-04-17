@@ -16911,9 +16911,9 @@ IsSynthesizedForTests
 ;
 RefPtr
 <
-Document
+WindowContext
 >
-sourceDocument
+sourceWC
 ;
 DebugOnly
 <
@@ -16924,11 +16924,11 @@ rvIgnored
 dragSession
 -
 >
-GetSourceDocument
+GetSourceWindowContext
 (
 getter_AddRefs
 (
-sourceDocument
+sourceWC
 )
 )
 ;
@@ -16953,7 +16953,7 @@ ignored
 ;
 if
 (
-sourceDocument
+sourceWC
 )
 {
 CSSIntPoint
