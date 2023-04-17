@@ -6253,8 +6253,6 @@ e
 exit
 (
 e
-.
-message
 )
 if
 __name__

@@ -109,12 +109,8 @@ mozbuild
 .
 jar
 import
-(
-    
 DeprecatedJarManifest
-    
 JarManifestParser
-)
 from
 mozbuild
 .
@@ -1292,7 +1288,6 @@ fh
 d
 =
 {
-                
 "
 sources
 "
@@ -1303,7 +1298,6 @@ self
 .
 _generated_sources
 )
-            
 }
             
 json
@@ -2301,7 +2295,6 @@ o
 =
 dict
 (
-            
 manifests
 =
 sorted
@@ -2312,7 +2305,6 @@ all_sources
 (
 )
 )
-        
 )
         
 conf_file
@@ -2935,11 +2927,9 @@ context
 .
 update
 (
-            
 AB_CD
 =
 ab_cd
-        
 )
         
 pp
@@ -2985,7 +2975,6 @@ s
 %
 s
 "
-                
 %
 (
 obj
@@ -2994,8 +2983,6 @@ path
 .
 full_path
 e
-.
-message
 )
             
 )

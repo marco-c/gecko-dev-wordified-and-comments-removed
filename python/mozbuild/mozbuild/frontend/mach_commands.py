@@ -19,16 +19,10 @@ mach
 .
 decorators
 import
-(
-    
 CommandArgument
-    
 CommandProvider
-    
 Command
-    
 SubCommand
-)
 from
 mozbuild
 .
@@ -797,8 +791,6 @@ e
 print
 (
 e
-.
-message
 )
             
 return
@@ -1166,8 +1158,6 @@ e
 print
 (
 e
-.
-message
 )
             
 return
