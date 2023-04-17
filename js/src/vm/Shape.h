@@ -2087,9 +2087,6 @@ AutoKeepShapeCaches
 ;
 }
 ;
-class
-Shape
-;
 enum
 class
 ObjectFlag
@@ -2187,14 +2184,6 @@ JSClass
 {
 public
 :
-friend
-class
-Shape
-;
-friend
-struct
-StackShape
-;
 const
 JSClass
 *
