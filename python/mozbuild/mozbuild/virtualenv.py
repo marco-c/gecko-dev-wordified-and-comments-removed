@@ -1691,8 +1691,6 @@ are
 supported
 :
         
-filename
-.
 pth
 -
 -
@@ -1703,9 +1701,11 @@ given
 as
 argument
 to
-filename
+"
+mach
 .
 pth
+"
 under
             
 the
