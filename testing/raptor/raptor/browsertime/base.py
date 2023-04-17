@@ -138,13 +138,6 @@ browsertime_failure
         
 self
 .
-page_count
-=
-[
-]
-        
-self
-.
 process_handler
 =
 process_handler

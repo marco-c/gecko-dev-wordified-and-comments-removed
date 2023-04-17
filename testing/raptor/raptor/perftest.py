@@ -429,6 +429,13 @@ verbose
 =
 verbose
         
+self
+.
+page_count
+=
+[
+]
+        
 if
 host
 =
