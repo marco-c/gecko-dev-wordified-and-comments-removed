@@ -86,11 +86,6 @@ eParserCommands
 aCommand
 =
 eViewNormal
-nsIRequestObserver
-*
-aListener
-=
-0
 eAutoDetectResult
 aStatus
 =
@@ -135,12 +130,6 @@ nsCOMPtr
 nsIRequest
 >
 mRequest
-;
-nsCOMPtr
-<
-nsIRequestObserver
->
-mListener
 ;
 void
 *

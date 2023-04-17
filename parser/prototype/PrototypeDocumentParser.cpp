@@ -275,14 +275,9 @@ Parse
 nsIURI
 *
 aURL
-nsIRequestObserver
-*
-aListener
 void
 *
 aKey
-nsDTDMode
-aMode
 )
 {
 nsXULPrototypeDocument
