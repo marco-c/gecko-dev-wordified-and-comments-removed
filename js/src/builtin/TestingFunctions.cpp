@@ -12232,6 +12232,13 @@ CompileIntrinsicModule
 (
 cx
 ops
+wasm
+:
+:
+Shareable
+:
+:
+False
 &
 module
 )
