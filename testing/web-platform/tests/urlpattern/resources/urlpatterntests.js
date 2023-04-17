@@ -153,6 +153,15 @@ if
 entry
 .
 pattern
+.
+length
+>
+0
+&
+&
+entry
+.
+pattern
 [
 0
 ]
