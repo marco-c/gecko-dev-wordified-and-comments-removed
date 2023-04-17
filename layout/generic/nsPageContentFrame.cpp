@@ -1336,9 +1336,6 @@ aBuilder
 nsPageFrame
 *
 aPage
-nsIFrame
-*
-aExtraPage
 nsDisplayList
 *
 aList
@@ -1390,7 +1387,6 @@ PruneDisplayListForExtraPage
 (
 aBuilder
 aPage
-aExtraPage
 subList
 )
 ;
@@ -1509,7 +1505,6 @@ PruneDisplayListForExtraPage
 (
 aBuilder
 aPage
-aExtraPage
 &
 list
 )
