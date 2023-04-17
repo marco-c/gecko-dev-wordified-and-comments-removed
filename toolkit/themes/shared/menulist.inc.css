@@ -84,14 +84,6 @@ xul
 "
 )
 ;
-media
-(
--
-moz
--
-proton
-)
-{
 :
 host
 (
@@ -515,12 +507,3 @@ display
 none
 ;
 }
-}
-/
-*
-*
-END
-Proton
-*
-*
-/

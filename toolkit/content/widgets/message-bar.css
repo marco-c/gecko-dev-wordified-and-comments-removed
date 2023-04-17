@@ -1317,14 +1317,6 @@ shrink
 ;
 }
 media
-(
--
-moz
--
-proton
-)
-{
-media
 not
 (
 prefers
@@ -2053,6 +2045,5 @@ rgb
 162
 )
 ;
-}
 }
 }
