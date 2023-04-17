@@ -5334,6 +5334,8 @@ attrs
 aattrs
 ;
 }
+private
+:
 uint32_t
 slot
 (
@@ -5398,8 +5400,6 @@ isCustomDataProperty
 )
 ;
 }
-private
-:
 bool
 isCustomDataProperty
 (

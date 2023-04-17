@@ -5468,12 +5468,7 @@ holder
 >
 setSlot
 (
-shape
--
->
 slot
-(
-)
 value
 )
 ;
