@@ -25,9 +25,6 @@ namespace
 a11y
 {
 class
-HyperTextAccessibleWrap
-;
-class
 ia2AccessibleEditableText
 :
 public
@@ -116,14 +113,6 @@ endOffset
 BSTR
 *
 attributes
-)
-;
-private
-:
-HyperTextAccessibleWrap
-*
-TextAcc
-(
 )
 ;
 }

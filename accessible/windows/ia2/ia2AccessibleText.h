@@ -376,12 +376,6 @@ IA2TextBoundaryType
 coordinateType
 )
 ;
-HyperTextAccessibleWrap
-*
-TextAcc
-(
-)
-;
 }
 ;
 }

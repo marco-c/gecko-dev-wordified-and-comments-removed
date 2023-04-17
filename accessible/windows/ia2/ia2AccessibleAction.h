@@ -25,9 +25,6 @@ namespace
 a11y
 {
 class
-AccessibleWrap
-;
-class
 ia2AccessibleAction
 :
 public
@@ -115,14 +112,6 @@ actionIndex
 BSTR
 *
 localizedName
-)
-;
-private
-:
-AccessibleWrap
-*
-LocalAcc
-(
 )
 ;
 }
