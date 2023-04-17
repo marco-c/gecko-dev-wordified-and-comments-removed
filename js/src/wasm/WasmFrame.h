@@ -28,6 +28,15 @@ include
 "
 wasm
 /
+WasmCodegenTypes
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmConstants
 .
 h
