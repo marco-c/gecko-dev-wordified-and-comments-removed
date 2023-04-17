@@ -61,7 +61,7 @@ appmenuitem
 -
 update
 -
-banner2
+banner3
 =
 .
 label
@@ -112,6 +112,8 @@ unsupported
 Unable
 to
 update
+system
+incompatible
 .
 label
 -
