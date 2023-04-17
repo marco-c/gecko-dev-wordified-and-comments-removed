@@ -181,6 +181,12 @@ false
 ]
 [
 "
+dnsResolveFullyQualifiedNames
+"
+true
+]
+[
+"
 dnsResolveSingleWordsAfterSearch
 "
 1
