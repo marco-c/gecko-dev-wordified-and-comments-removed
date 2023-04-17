@@ -4311,7 +4311,7 @@ linux64
 -
 rust
 -
-nightly
+dev
 -
 linux64
 -
@@ -4524,7 +4524,7 @@ linux64
 -
 rust
 -
-nightly
+dev
 -
 linux64
 -
@@ -4752,7 +4752,7 @@ linux64
 -
 rust
 -
-nightly
+dev
 -
 linux64
 -
@@ -5010,7 +5010,7 @@ linux64
 -
 rust
 -
-nightly
+dev
 -
 linux64
 -
@@ -5260,7 +5260,7 @@ linux64
 -
 rust
 -
-nightly
+dev
 -
 linux64
 -
@@ -6328,7 +6328,7 @@ linux64
 -
 rust
 -
-nightly
+dev
 -
 linux64
 -
