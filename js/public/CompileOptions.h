@@ -220,6 +220,11 @@ topLevelAwait
 true
 ;
 bool
+classStaticBlocks
+=
+false
+;
+bool
 useStencilXDR
 =
 false
