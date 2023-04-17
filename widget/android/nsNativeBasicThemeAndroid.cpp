@@ -194,8 +194,10 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
-aUseSystemColors
+const
+Colors
+&
+aColors
 DPIRatio
 aDpiRatio
 )
@@ -210,7 +212,7 @@ aFrame
 aStyle
 aElementState
 aDocumentState
-aUseSystemColors
+aColors
 )
 ;
 LayoutDeviceRect
@@ -346,8 +348,10 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
-aUseSystemColors
+const
+Colors
+&
+aColors
 DPIRatio
 aDpiRatio
 )
@@ -361,7 +365,7 @@ aFrame
 aStyle
 aElementState
 aDocumentState
-aUseSystemColors
+aColors
 aDpiRatio
 )
 ;
@@ -399,8 +403,10 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
-aUseSystemColors
+const
+Colors
+&
+aColors
 DPIRatio
 aDpiRatio
 )
@@ -414,7 +420,7 @@ aFrame
 aStyle
 aElementState
 aDocumentState
-aUseSystemColors
+aColors
 aDpiRatio
 )
 ;
