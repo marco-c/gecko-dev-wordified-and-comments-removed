@@ -516,6 +516,10 @@ bool
 &
 beConservative
 const
+bool
+&
+bypassProxy
+const
 uint32_t
 &
 tlsFlags

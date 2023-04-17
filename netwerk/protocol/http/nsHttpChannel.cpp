@@ -27648,6 +27648,12 @@ LOAD_NO_NETWORK_IO
 )
 &
 &
+!
+LoadBypassProxy
+(
+)
+&
+&
 NS_SUCCEEDED
 (
 ResolveProxy

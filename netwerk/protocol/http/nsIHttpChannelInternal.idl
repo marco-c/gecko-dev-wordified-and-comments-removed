@@ -446,6 +446,13 @@ boolean
 beConservative
 ;
 [
+must_use
+]
+attribute
+boolean
+bypassProxy
+;
+[
 noscript
 must_use
 ]
