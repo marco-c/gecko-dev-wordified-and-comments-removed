@@ -2402,7 +2402,7 @@ menupopup
 id
 =
 "
-goPopup
+historyMenuPopup
 "
 #
 ifndef
