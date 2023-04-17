@@ -267,6 +267,16 @@ ini
 "
 ]
 TESTING_JS_MODULES
++
+=
+[
+"
+BackgroundTasksTestUtils
+.
+jsm
+"
+]
+TESTING_JS_MODULES
 .
 backgroundtasks
 +
