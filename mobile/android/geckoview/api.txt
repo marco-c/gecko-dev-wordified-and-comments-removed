@@ -3701,6 +3701,15 @@ public
 static
 final
 int
+ALLOWED_TRACKING_CONTENT
+=
+32
+;
+field
+public
+static
+final
+int
 BLOCKED_CRYPTOMINING_CONTENT
 =
 2048

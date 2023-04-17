@@ -770,7 +770,13 @@ case
 nsIWebProgressListener
 :
 :
-STATE_UNBLOCKED_TRACKING_CONTENT
+STATE_REPLACED_TRACKING_CONTENT
+:
+case
+nsIWebProgressListener
+:
+:
+STATE_ALLOWED_TRACKING_CONTENT
 :
 RecordLogInternal
 (

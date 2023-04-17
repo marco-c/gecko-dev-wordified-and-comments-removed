@@ -957,6 +957,14 @@ REPLACED_TRACKING_CONTENT
 =
 0x00000010
 ;
+public
+static
+final
+int
+ALLOWED_TRACKING_CONTENT
+=
+0x00000020
+;
 protected
 Event
 (
