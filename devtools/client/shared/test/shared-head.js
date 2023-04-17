@@ -2220,7 +2220,7 @@ browserLoaded
 (
 browser
 false
-null
+uri
 isErrorPage
 )
 ;
