@@ -1315,6 +1315,14 @@ maybeCreateScriptCounts
 )
 ;
 void
+emitWasmCompareAndSelect
+(
+LWasmCompareAndSelect
+*
+ins
+)
+;
+void
 testValueTruthyForType
 (
 JSValueType

@@ -97040,7 +97040,7 @@ void
 CodeGenerator
 :
 :
-visitWasmCompareAndSelect
+emitWasmCompareAndSelect
 (
 LWasmCompareAndSelect
 *
