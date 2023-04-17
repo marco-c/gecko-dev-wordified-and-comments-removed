@@ -1824,6 +1824,8 @@ is_linux
 and
 not
 osx_cross_compile
+and
+is_final_stage
 :
             
 cmake_args
