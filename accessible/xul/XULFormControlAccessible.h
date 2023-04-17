@@ -145,15 +145,6 @@ const
 override
 ;
 virtual
-LocalAccessible
-*
-ContainerWidget
-(
-)
-const
-override
-;
-virtual
 bool
 IsAcceptableChild
 (
