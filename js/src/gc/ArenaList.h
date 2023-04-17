@@ -1066,6 +1066,16 @@ sweepList
 )
 ;
 void
+mergeFinalizedArenas
+(
+AllocKind
+thingKind
+SortedArenaList
+&
+finalizedArenas
+)
+;
+void
 setParallelAllocEnabled
 (
 bool
