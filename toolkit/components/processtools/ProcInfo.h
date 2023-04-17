@@ -96,6 +96,7 @@ PrivilegedMozilla
 WebLargeAllocation
 WebCOOPCOEP
 Browser
+Plugin
 IPDLUnitTest
 GMPlugin
 GPU

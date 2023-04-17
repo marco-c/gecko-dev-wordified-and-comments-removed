@@ -139,10 +139,10 @@ if
 aString
 =
 =
-XRE_GeckoProcessTypeToString
-(
+kGeckoProcessTypeString
+[
 type
-)
+]
 )
 {
 return

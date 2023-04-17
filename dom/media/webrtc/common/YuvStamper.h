@@ -6,9 +6,11 @@ define
 YUV_STAMPER_H_
 #
 include
-<
-cstdint
->
+"
+nptypes
+.
+h
+"
 namespace
 mozilla
 {

@@ -1316,6 +1316,16 @@ h
 -
 dom
 /
+plugins
+/
+ipc
+/
+PluginQuirks
+.
+cpp
+-
+dom
+/
 push
 /
 PushServiceWebSocket

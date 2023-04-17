@@ -60,6 +60,9 @@ blocklistState
 "
 description
 "
+"
+pluginMimeTypes
+"
 ]
 ;
 class

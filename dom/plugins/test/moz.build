@@ -1,3 +1,11 @@
+DIRS
++
+=
+[
+"
+testplugin
+"
+]
 if
 CONFIG
 [

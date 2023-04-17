@@ -495,6 +495,11 @@ MOZ_CHILD_PROCESS_NAME
 .
 app
 /
+BINPATH
+/
+DLL_PREFIX
+plugin_child_interpose
+DLL_SUFFIX
 #
 else
 BINPATH
@@ -505,6 +510,14 @@ endif
 #
 ifdef
 XP_WIN
+BINPATH
+/
+plugin
+-
+hang
+-
+ui
+BIN_SUFFIX
 #
 if
 MOZ_PACKAGE_MSVC_DLLS

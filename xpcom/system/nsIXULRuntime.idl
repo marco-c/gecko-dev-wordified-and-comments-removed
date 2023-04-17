@@ -1178,6 +1178,13 @@ PROCESS_TYPE_DEFAULT
 const
 unsigned
 long
+PROCESS_TYPE_PLUGIN
+=
+1
+;
+const
+unsigned
+long
 PROCESS_TYPE_CONTENT
 =
 2

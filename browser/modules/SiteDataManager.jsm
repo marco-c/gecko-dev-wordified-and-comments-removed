@@ -1829,6 +1829,12 @@ Ci
 .
 nsIClearDataService
 .
+CLEAR_PLUGIN_DATA
+|
+Ci
+.
+nsIClearDataService
+.
 CLEAR_EME
 |
 Ci
@@ -2256,6 +2262,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_EME
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_PLUGIN_DATA
 resolve
 )
 ;

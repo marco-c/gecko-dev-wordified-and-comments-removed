@@ -1043,6 +1043,16 @@ VideoDocument
 cpp
 "
 ]
+SOURCES
++
+=
+[
+"
+PluginDocument
+.
+cpp
+"
+]
 EXTRA_JS_MODULES
 +
 =

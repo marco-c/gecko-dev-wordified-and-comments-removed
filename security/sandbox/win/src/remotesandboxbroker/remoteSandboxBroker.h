@@ -109,6 +109,14 @@ SetSecurityLevelForSocketProcess
 override
 ;
 bool
+SetSecurityLevelForPluginProcess
+(
+int32_t
+aSandboxLevel
+)
+override
+;
+bool
 SetSecurityLevelForGMPlugin
 (
 SandboxLevel
