@@ -3693,6 +3693,8 @@ rust_test_features_flag
 )
 )
 endif
+#
+RUST_TESTS
 ifdef
 HOST_RUST_LIBRARY_FILE
 ifdef
