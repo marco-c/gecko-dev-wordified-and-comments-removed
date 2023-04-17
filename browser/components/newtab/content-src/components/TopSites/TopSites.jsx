@@ -903,11 +903,6 @@ top
 -
 sites
 "
-icon
-=
-"
-topsites
-"
 id
 =
 "

@@ -2378,13 +2378,6 @@ props
 .
 dispatch
 }
-icon
-=
-{
-topStories
-.
-icon
-}
 id
 =
 {
