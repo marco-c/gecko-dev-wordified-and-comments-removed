@@ -27,6 +27,16 @@ wpt_root
         
 self
 .
+logger
+=
+logging
+.
+getLogger
+(
+)
+        
+self
+.
 wpt_root
 =
 wpt_root
@@ -61,6 +71,9 @@ build_config
 with
 build_config
 (
+self
+.
+logger
 )
 as
 config
@@ -226,7 +239,9 @@ sys
 executable
 ]
         
-logging
+self
+.
+logger
 .
 info
 (
