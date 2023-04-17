@@ -1420,7 +1420,7 @@ names
 lastIndex
 LAST_INDEX_SLOT
 {
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Writable

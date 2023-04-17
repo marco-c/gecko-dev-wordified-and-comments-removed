@@ -3068,7 +3068,7 @@ immutableFlags
 ObjectFlags
 objectFlags_
 ;
-ShapePropertyFlags
+PropertyFlags
 propFlags
 ;
 uint8_t
@@ -4276,7 +4276,7 @@ ObjectFlags
 aobjectFlags
 uint32_t
 aslot
-ShapePropertyFlags
+PropertyFlags
 aflags
 )
 const
@@ -4313,7 +4313,7 @@ matchesPropertyParamsAfterId
 (
 uint32_t
 aslot
-ShapePropertyFlags
+PropertyFlags
 aflags
 )
 const
@@ -5816,7 +5816,7 @@ immutableFlags
 ObjectFlags
 objectFlags
 ;
-ShapePropertyFlags
+PropertyFlags
 propFlags
 ;
 uint8_t
@@ -5834,7 +5834,7 @@ jsid
 propid
 uint32_t
 slot
-ShapePropertyFlags
+PropertyFlags
 propFlags
 )
 :
@@ -6211,7 +6211,7 @@ slotSpan
 )
 ;
 }
-ShapePropertyFlags
+PropertyFlags
 propFlags
 (
 )
@@ -6335,7 +6335,7 @@ base
 void
 setPropFlags
 (
-ShapePropertyFlags
+PropertyFlags
 flags
 )
 {

@@ -2913,7 +2913,7 @@ AssertValidCustomDataProp
 NativeObject
 *
 obj
-ShapePropertyFlags
+PropertyFlags
 flags
 )
 {
@@ -2974,7 +2974,7 @@ HandleNativeObject
 obj
 HandleId
 id
-ShapePropertyFlags
+PropertyFlags
 flags
 )
 {
@@ -3141,7 +3141,7 @@ HandleId
 id
 uint32_t
 slot
-ShapePropertyFlags
+PropertyFlags
 flags
 uint32_t
 *
@@ -3504,10 +3504,10 @@ obj
 )
 ;
 constexpr
-ShapePropertyFlags
+PropertyFlags
 flags
 =
-ShapePropertyFlags
+PropertyFlags
 :
 :
 defaultDataPropFlags
@@ -4092,7 +4092,7 @@ AssertCanChangeFlags
 Shape
 *
 shape
-ShapePropertyFlags
+PropertyFlags
 flags
 )
 {
@@ -4358,7 +4358,7 @@ HandleNativeObject
 obj
 HandleId
 id
-ShapePropertyFlags
+PropertyFlags
 flags
 uint32_t
 *
@@ -4814,7 +4814,7 @@ HandleNativeObject
 obj
 HandleId
 id
-ShapePropertyFlags
+PropertyFlags
 flags
 )
 {
@@ -9179,7 +9179,7 @@ dumpFlag
 &
 ]
 (
-ShapePropertyFlag
+PropertyFlag
 flag
 const
 char
@@ -9240,7 +9240,7 @@ putChar
 ;
 dumpFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Enumerable
@@ -9251,7 +9251,7 @@ enumerable
 ;
 dumpFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Configurable
@@ -9262,7 +9262,7 @@ configurable
 ;
 dumpFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Writable
@@ -9273,7 +9273,7 @@ writable
 ;
 dumpFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 AccessorProperty
@@ -9284,7 +9284,7 @@ accessor
 ;
 dumpFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 CustomDataProperty

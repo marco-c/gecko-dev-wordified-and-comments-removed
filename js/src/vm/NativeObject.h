@@ -3878,7 +3878,7 @@ HandleId
 id
 uint32_t
 slot
-ShapePropertyFlags
+PropertyFlags
 flags
 uint32_t
 *
@@ -3898,7 +3898,7 @@ HandlePropertyName
 name
 uint32_t
 slot
-ShapePropertyFlags
+PropertyFlags
 flags
 uint32_t
 *
@@ -3938,7 +3938,7 @@ HandleNativeObject
 obj
 HandleId
 id
-ShapePropertyFlags
+PropertyFlags
 flags
 )
 ;
@@ -3969,7 +3969,7 @@ HandleNativeObject
 obj
 HandleId
 id
-ShapePropertyFlags
+PropertyFlags
 flags
 uint32_t
 *
@@ -3987,7 +3987,7 @@ HandleNativeObject
 obj
 HandleId
 id
-ShapePropertyFlags
+PropertyFlags
 flags
 )
 ;

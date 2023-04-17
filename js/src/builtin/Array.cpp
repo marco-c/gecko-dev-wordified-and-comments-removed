@@ -4251,7 +4251,7 @@ isCustomDataProperty
 )
 )
 ;
-ShapePropertyFlags
+PropertyFlags
 flags
 =
 lengthProp
@@ -4265,7 +4265,7 @@ flags
 .
 clearFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Writable
@@ -4762,15 +4762,15 @@ length
 )
 ;
 constexpr
-ShapePropertyFlags
+PropertyFlags
 flags
 =
 {
-ShapePropertyFlag
+PropertyFlag
 :
 :
 CustomDataProperty
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Writable

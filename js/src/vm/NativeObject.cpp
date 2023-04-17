@@ -3330,7 +3330,7 @@ flags
 )
 !
 =
-ShapePropertyFlags
+PropertyFlags
 :
 :
 defaultDataPropFlags
@@ -6224,7 +6224,7 @@ HandleObject
 getter
 HandleObject
 setter
-ShapePropertyFlags
+PropertyFlags
 flags
 PropertyResult
 *
@@ -6424,8 +6424,8 @@ true
 ;
 }
 static
-ShapePropertyFlags
-ComputeShapePropertyFlags
+PropertyFlags
+ComputePropertyFlags
 (
 const
 PropertyDescriptor
@@ -6439,14 +6439,14 @@ assertComplete
 (
 )
 ;
-ShapePropertyFlags
+PropertyFlags
 flags
 ;
 flags
 .
 setFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Configurable
@@ -6461,7 +6461,7 @@ flags
 .
 setFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Enumerable
@@ -6485,7 +6485,7 @@ flags
 .
 setFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Writable
@@ -6512,7 +6512,7 @@ flags
 .
 setFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 AccessorProperty
@@ -6656,10 +6656,10 @@ return
 false
 ;
 }
-ShapePropertyFlags
+PropertyFlags
 flags
 =
-ComputeShapePropertyFlags
+ComputePropertyFlags
 (
 desc
 )
@@ -6676,7 +6676,7 @@ isInt
 flags
 =
 =
-ShapePropertyFlags
+PropertyFlags
 :
 :
 defaultDataPropFlags
