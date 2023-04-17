@@ -39,11 +39,6 @@ file_bug234628
 html
 "
 afterOpen
-"
-windows
--
-1251
-"
 afterChangeCharset
 )
 ;
@@ -138,7 +133,7 @@ indexOf
 (
 "
 \
-u0402
+u20AC
 "
 )
 190
@@ -146,11 +141,10 @@ u0402
 Parent
 doc
 should
-decode
-as
+be
 windows
 -
-1251
+1252
 subsequently
 "
 )
@@ -182,8 +176,7 @@ u20AC
 Child
 doc
 should
-decode
-as
+be
 utf
 -
 16
@@ -201,7 +194,7 @@ characterSet
 "
 windows
 -
-1251
+1252
 "
 "
 Parent
@@ -210,7 +203,7 @@ should
 report
 windows
 -
-1251
+1252
 subsequently
 "
 )

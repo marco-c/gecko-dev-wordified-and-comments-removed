@@ -1290,9 +1290,6 @@ isNavigating
 bool
 mayEnableCharacterEncodingMenu
 ;
-bool
-charsetAutodetected
-;
 nsString
 contentType
 ;
@@ -1315,9 +1312,6 @@ isSyntheticDocument
 ;
 bool
 mayEnableCharacterEncodingMenu
-;
-bool
-charsetAutodetected
 ;
 nsString
 contentType
