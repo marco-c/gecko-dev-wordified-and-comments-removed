@@ -2249,7 +2249,7 @@ SystemColor
 StyleSystemColor
 :
 :
-Highlight
+Selecteditem
 )
 ;
 }
@@ -2413,7 +2413,7 @@ SystemColor
 StyleSystemColor
 :
 :
-Highlighttext
+Selecteditemtext
 )
 ;
 }
@@ -2892,7 +2892,7 @@ SystemColorPair
 StyleSystemColor
 :
 :
-Highlight
+Selecteditem
 StyleSystemColor
 :
 :
@@ -3154,11 +3154,11 @@ SystemColorPair
 StyleSystemColor
 :
 :
-Highlighttext
+Selecteditemtext
 StyleSystemColor
 :
 :
-Highlight
+Selecteditem
 )
 ;
 }
@@ -3293,7 +3293,7 @@ SystemColorPair
 StyleSystemColor
 :
 :
-Highlight
+Selecteditem
 StyleSystemColor
 :
 :
@@ -3505,7 +3505,7 @@ SystemColor
 StyleSystemColor
 :
 :
-Highlight
+Selecteditem
 )
 SystemColor
 (
@@ -4399,7 +4399,7 @@ return
 StyleSystemColor
 :
 :
-Highlight
+Selecteditem
 ;
 }
 return
@@ -4431,7 +4431,7 @@ return
 StyleSystemColor
 :
 :
-Highlight
+Selecteditem
 ;
 }
 return
@@ -4555,7 +4555,7 @@ SystemColorPair
 StyleSystemColor
 :
 :
-Highlight
+Selecteditem
 StyleSystemColor
 :
 :
