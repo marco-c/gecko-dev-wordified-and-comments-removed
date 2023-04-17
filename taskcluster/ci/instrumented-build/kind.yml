@@ -349,6 +349,12 @@ x86_64
 linux
 -
 gnu
+-
+sysroot
+-
+wasm32
+-
+wasi
 linux64
 -
 shippable
@@ -1600,6 +1606,12 @@ x86_64
 linux
 -
 gnu
+-
+sysroot
+-
+wasm32
+-
+wasi
 fetch
 :
 -
