@@ -10325,6 +10325,15 @@ FillCompileOptions
 options
 )
 ;
+JS
+:
+:
+InstantiateOptions
+instantiateOptions
+(
+options
+)
+;
 aScript
 .
 set
@@ -10335,7 +10344,7 @@ JS
 InstantiateGlobalStencil
 (
 aCx
-options
+instantiateOptions
 mStencil
 )
 )

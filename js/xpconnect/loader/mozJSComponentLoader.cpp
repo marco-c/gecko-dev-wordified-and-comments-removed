@@ -4179,6 +4179,15 @@ NS_ERROR_FAILURE
 ;
 }
 }
+JS
+:
+:
+InstantiateOptions
+instantiateOptions
+(
+options
+)
+;
 RootedScript
 script
 (
@@ -4189,7 +4198,7 @@ JS
 InstantiateGlobalStencil
 (
 cx
-options
+instantiateOptions
 stencil
 )
 )

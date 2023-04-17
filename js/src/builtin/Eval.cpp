@@ -1593,7 +1593,7 @@ setMutedErrors
 mutedErrors
 )
 .
-setdeferDebugMetadata
+setDeferDebugMetadata
 (
 )
 ;
@@ -1814,6 +1814,15 @@ undefValue
 cx
 )
 ;
+JS
+:
+:
+InstantiateOptions
+instantiateOptions
+(
+options
+)
+;
 if
 (
 !
@@ -1824,7 +1833,7 @@ UpdateDebugMetadata
 (
 cx
 script
-options
+instantiateOptions
 undefValue
 nullptr
 introScript

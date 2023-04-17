@@ -4546,7 +4546,7 @@ const
 JS
 :
 :
-ReadOnlyCompileOptions
+InstantiateOptions
 &
 options
 )

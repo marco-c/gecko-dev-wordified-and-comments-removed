@@ -171,6 +171,15 @@ include
 "
 js
 /
+CompileOptions
+.
+h
+"
+#
+include
+"
+js
+/
 GCVector
 .
 h

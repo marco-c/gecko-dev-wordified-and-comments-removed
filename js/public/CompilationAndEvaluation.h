@@ -609,7 +609,7 @@ JSScript
 >
 script
 const
-ReadOnlyCompileOptions
+InstantiateOptions
 &
 options
 HandleValue

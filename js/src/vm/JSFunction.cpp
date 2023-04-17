@@ -7569,7 +7569,7 @@ lineno
 pcOffset
 )
 .
-setdeferDebugMetadata
+setDeferDebugMetadata
 (
 )
 ;
@@ -8207,6 +8207,15 @@ fun
 )
 )
 ;
+JS
+:
+:
+InstantiateOptions
+instantiateOptions
+(
+options
+)
+;
 if
 (
 funScript
@@ -8217,7 +8226,7 @@ UpdateDebugMetadata
 (
 cx
 funScript
-options
+instantiateOptions
 undefValue
 nullptr
 maybeScript
