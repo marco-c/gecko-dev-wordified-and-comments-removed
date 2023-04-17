@@ -5604,7 +5604,6 @@ kCacheUnresolved
 78
 nullptr
 nullptr
-nullptr
 Some
 (
 nsDependentCString
@@ -5616,6 +5615,7 @@ html
 "
 )
 )
+nullptr
 )
 ;
 nsCOMPtr
@@ -5671,6 +5671,13 @@ net
 kCacheUnresolved
 78
 nullptr
+nullptr
+mozilla
+:
+:
+Nothing
+(
+)
 redirectURI
 )
 ;

@@ -4314,7 +4314,6 @@ GetInnerWindowID
 )
 &
 mTransactionTimings
-nullptr
 std
 :
 :
@@ -6551,7 +6550,6 @@ GetInnerWindowID
 )
 &
 mTransactionTimings
-uri
 std
 :
 :
@@ -6570,6 +6568,7 @@ get
 )
 )
 )
+uri
 )
 ;
 }
@@ -8097,8 +8096,6 @@ mLoadInfo
 GetInnerWindowID
 (
 )
-nullptr
-nullptr
 )
 ;
 }
@@ -9457,8 +9454,6 @@ mLoadInfo
 GetInnerWindowID
 (
 )
-nullptr
-nullptr
 )
 ;
 }

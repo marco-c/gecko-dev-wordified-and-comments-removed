@@ -2150,7 +2150,6 @@ GetInnerWindowID
 )
 &
 mTransactionTimings
-mURI
 std
 :
 :
@@ -2169,6 +2168,7 @@ get
 )
 )
 )
+mURI
 )
 ;
 }
@@ -4086,7 +4086,6 @@ GetInnerWindowID
 )
 &
 mTransactionTimings
-nullptr
 std
 :
 :

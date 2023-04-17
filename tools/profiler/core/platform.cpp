@@ -25615,9 +25615,6 @@ net
 TimingStruct
 *
 aTimings
-nsIURI
-*
-aRedirectURI
 UniquePtr
 <
 ProfileChunkedBuffer
@@ -25630,6 +25627,9 @@ nsDependentCString
 >
 &
 aContentType
+nsIURI
+*
+aRedirectURI
 )
 {
 if

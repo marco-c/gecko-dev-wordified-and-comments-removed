@@ -1368,11 +1368,6 @@ TimingStruct
 aTimings
 =
 nullptr
-nsIURI
-*
-aRedirectURI
-=
-nullptr
 mozilla
 :
 :
@@ -1403,6 +1398,11 @@ mozilla
 Nothing
 (
 )
+nsIURI
+*
+aRedirectURI
+=
+nullptr
 )
 ;
 enum

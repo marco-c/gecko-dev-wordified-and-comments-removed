@@ -24270,7 +24270,6 @@ GetInnerWindowID
 )
 &
 timings
-mRedirectURI
 std
 :
 :
@@ -24289,6 +24288,7 @@ get
 )
 )
 )
+mRedirectURI
 )
 ;
 }
@@ -26801,8 +26801,6 @@ mLoadInfo
 GetInnerWindowID
 (
 )
-nullptr
-nullptr
 )
 ;
 }
@@ -35137,7 +35135,6 @@ GetInnerWindowID
 )
 &
 mTransactionTimings
-nullptr
 std
 :
 :
