@@ -55,7 +55,7 @@ h
 #
 include
 "
-FileInfoT
+FileInfo
 .
 h
 "
@@ -88,7 +88,7 @@ public
 using
 FileInfo
 =
-FileInfoT
+FileInfo
 <
 FileManager
 >

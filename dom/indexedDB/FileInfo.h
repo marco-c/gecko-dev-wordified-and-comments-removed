@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_indexeddb_fileinfot_h__
+DOM_INDEXEDDB_FILEINFO_H_
 #
 define
-mozilla_dom_indexeddb_fileinfot_h__
+DOM_INDEXEDDB_FILEINFO_H_
 #
 include
 "
@@ -40,7 +40,7 @@ typename
 FileManager
 >
 class
-FileInfoT
+FileInfo
 final
 {
 public
@@ -59,7 +59,7 @@ IdType
 =
 int64_t
 ;
-FileInfoT
+FileInfo
 (
 const
 typename
