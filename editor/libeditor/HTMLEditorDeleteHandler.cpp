@@ -24081,6 +24081,12 @@ IsEditActionDataAvailable
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+mEmptyInclusiveAncestorBlockElement
+)
+;
 Element
 *
 editableBlockElement
