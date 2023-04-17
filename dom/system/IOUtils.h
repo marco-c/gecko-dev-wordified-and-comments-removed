@@ -1384,13 +1384,11 @@ nsIFile
 >
 mTmpFile
 ;
-bool
-mFlush
-=
-false
+WriteMode
+mMode
 ;
 bool
-mNoOverwrite
+mFlush
 =
 false
 ;
