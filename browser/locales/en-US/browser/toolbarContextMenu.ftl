@@ -59,10 +59,6 @@ context
 -
 menu
 -
-open
--
-a
--
 new
 -
 tab
@@ -70,8 +66,6 @@ tab
 .
 label
 =
-Open
-a
 New
 Tab
 .
