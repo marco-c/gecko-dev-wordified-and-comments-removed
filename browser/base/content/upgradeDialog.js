@@ -1046,6 +1046,13 @@ strings
 secondary
 )
 ;
+await
+document
+.
+l10n
+.
+ready
+;
 requestAnimationFrame
 (
 (
