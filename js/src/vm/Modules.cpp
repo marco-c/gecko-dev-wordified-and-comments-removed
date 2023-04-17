@@ -323,10 +323,10 @@ Value
 referencingPrivate
 Handle
 <
-JSString
+JSObject
 *
 >
-specifier
+moduleRequest
 Handle
 <
 JSObject
@@ -362,7 +362,7 @@ FinishDynamicModuleImport
 cx
 evaluationPromise
 referencingPrivate
-specifier
+moduleRequest
 promise
 )
 ;
@@ -389,10 +389,10 @@ Value
 referencingPrivate
 Handle
 <
-JSString
+JSObject
 *
 >
-specifier
+moduleRequest
 Handle
 <
 JSObject
@@ -428,7 +428,7 @@ FinishDynamicModuleImport_NoTLA
 cx
 status
 referencingPrivate
-specifier
+moduleRequest
 promise
 )
 ;
@@ -929,7 +929,12 @@ RequestedModuleObject
 (
 )
 .
-moduleSpecifier
+moduleRequest
+(
+)
+-
+>
+specifier
 (
 )
 ;
