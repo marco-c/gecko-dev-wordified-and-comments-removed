@@ -836,6 +836,31 @@ after_severity_downgrade
 False
             
 elif
+sev
+=
+=
+"
+ERROR
+"
+and
+prev_sev
+!
+=
+"
+ERROR
+"
+:
+                
+addTopmostFrame
+(
+row
+)
+                
+after_severity_downgrade
+=
+False
+            
+elif
 after_severity_downgrade
 :
                 
