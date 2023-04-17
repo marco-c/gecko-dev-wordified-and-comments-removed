@@ -2844,6 +2844,19 @@ false
 }
 if
 (
+/
+^
+\
+w
+/
+.
+test
+(
+asciiHost
+)
+&
+&
+(
 asciiHost
 .
 endsWith
@@ -2896,6 +2909,7 @@ endsWith
 .
 de
 "
+)
 )
 )
 {
