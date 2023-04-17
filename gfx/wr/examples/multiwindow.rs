@@ -530,7 +530,6 @@ webrender
 :
 RendererOptions
 {
-device_pixel_ratio
 clear_color
 :
 Some

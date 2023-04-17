@@ -4761,13 +4761,6 @@ config
 )
 ;
 let
-device_pixel_ratio
-=
-options
-.
-device_pixel_ratio
-;
-let
 debug_flags
 =
 options
@@ -5134,7 +5127,6 @@ SceneBuilderThread
 new
 (
 config
-device_pixel_ratio
 sb_font_instances
 make_size_of_ops
 (
@@ -5473,7 +5465,6 @@ new
 api_rx
 result_tx
 rb_scene_tx
-device_pixel_ratio
 resource_cache
 backend_notifier
 backend_blob_handler
@@ -24641,10 +24632,6 @@ struct
 RendererOptions
 {
 pub
-device_pixel_ratio
-:
-f32
-pub
 resource_override_path
 :
 Option
@@ -24918,11 +24905,6 @@ Self
 {
 RendererOptions
 {
-device_pixel_ratio
-:
-1
-.
-0
 resource_override_path
 :
 None
