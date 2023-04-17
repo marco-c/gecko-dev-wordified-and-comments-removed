@@ -1,7 +1,3 @@
-from
-six
-import
-int2byte
 def
 main
 (
@@ -40,15 +36,8 @@ content
 b
 '
 <
-'
-+
-int2byte
-(
-0xff
-)
-+
-b
-'
+\
+xff
 /
 >
 '

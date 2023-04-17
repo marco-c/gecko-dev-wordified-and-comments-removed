@@ -1,7 +1,3 @@
-from
-six
-import
-int2byte
 def
 main
 (
@@ -37,10 +33,11 @@ utf
     
 content
 =
-int2byte
-(
-0xff
-)
+b
+"
+\
+xff
+"
     
 return
 headers
