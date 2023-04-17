@@ -105,9 +105,7 @@ account
 .
 account
 -
-disconnected
+disconnected2
 =
-You
-ve
-been
+Account
 disconnected
