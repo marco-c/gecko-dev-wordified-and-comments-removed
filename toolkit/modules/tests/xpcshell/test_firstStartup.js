@@ -109,6 +109,11 @@ if
 AppConstants
 .
 MOZ_NORMANDY
+|
+|
+AppConstants
+.
+MOZ_UPDATE_AGENT
 )
 {
 equal
@@ -171,6 +176,11 @@ if
 AppConstants
 .
 MOZ_NORMANDY
+|
+|
+AppConstants
+.
+MOZ_UPDATE_AGENT
 )
 {
 equal
