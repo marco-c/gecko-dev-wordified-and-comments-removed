@@ -1009,12 +1009,22 @@ jdk
 :
                 
 return
+os
+.
+path
+.
+join
+(
 java_home_item
 [
 "
 JVMHomePath
 "
 ]
+"
+bin
+"
+)
         
 for
 java_home_item
