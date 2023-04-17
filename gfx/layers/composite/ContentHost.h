@@ -37,13 +37,6 @@ h
 #
 include
 "
-RotatedBuffer
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
