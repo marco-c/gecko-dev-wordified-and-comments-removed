@@ -53,7 +53,7 @@ pillow
 .
 3
 .
-1
+2
 urllib3
 [
 secure
