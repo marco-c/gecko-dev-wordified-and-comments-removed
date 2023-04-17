@@ -115,6 +115,21 @@ frame
 }
 JxlEncoderQueuedFrame
 ;
+Status
+ConvertExternalToInternalColorEncoding
+(
+const
+JxlColorEncoding
+&
+external
+jxl
+:
+:
+ColorEncoding
+*
+internal
+)
+;
 typedef
 std
 :
@@ -144,7 +159,6 @@ type
 return
 BoxType
 (
-{
 {
 static_cast
 <
@@ -186,7 +200,6 @@ type
 3
 ]
 )
-}
 }
 )
 ;

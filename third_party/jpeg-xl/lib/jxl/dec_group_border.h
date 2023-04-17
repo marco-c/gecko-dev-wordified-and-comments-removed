@@ -140,7 +140,6 @@ kBlockDim
 ;
 #
 endif
-static
 size_t
 PaddingX
 (

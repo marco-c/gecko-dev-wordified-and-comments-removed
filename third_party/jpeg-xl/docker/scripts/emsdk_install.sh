@@ -66,7 +66,7 @@ emsdk
 /
 archive
 /
-main
+master
 .
 tar
 .
@@ -87,7 +87,7 @@ EMSDK_RELEASE
 .
 0
 .
-23
+4
 "
 set
 -

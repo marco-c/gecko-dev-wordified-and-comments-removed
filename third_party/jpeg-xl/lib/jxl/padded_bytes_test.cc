@@ -136,7 +136,7 @@ i
 ;
 i
 <
-170u
+170
 ;
 +
 +
@@ -153,7 +153,7 @@ i
 }
 EXPECT_EQ
 (
-170u
+170
 pb
 .
 size
@@ -168,7 +168,7 @@ pb
 capacity
 (
 )
-170u
+170
 )
 ;
 }
@@ -197,7 +197,7 @@ i
 ;
 i
 <
-170u
+170
 ;
 +
 +
@@ -214,7 +214,7 @@ i
 }
 EXPECT_EQ
 (
-170u
+170
 pb
 .
 size
@@ -229,7 +229,7 @@ pb
 capacity
 (
 )
-170u
+170
 )
 ;
 }
@@ -258,7 +258,7 @@ i
 ;
 i
 <
-170u
+170
 ;
 +
 +
@@ -275,7 +275,7 @@ i
 }
 EXPECT_EQ
 (
-170u
+170
 pb
 .
 size
@@ -290,7 +290,7 @@ pb
 capacity
 (
 )
-170u
+170
 )
 ;
 }
@@ -356,7 +356,7 @@ data
 ;
 EXPECT_EQ
 (
-128u
+128
 pb
 .
 size
@@ -463,7 +463,7 @@ data
 ;
 EXPECT_EQ
 (
-256u
+256
 pb
 .
 capacity
@@ -493,7 +493,7 @@ data
 ;
 EXPECT_EQ
 (
-140u
+140
 pb
 .
 size
@@ -618,7 +618,7 @@ size
 ;
 EXPECT_EQ
 (
-64u
+64
 pb
 .
 size
@@ -712,7 +712,7 @@ size
 ;
 EXPECT_EQ
 (
-1000u
+1000
 pb
 .
 size

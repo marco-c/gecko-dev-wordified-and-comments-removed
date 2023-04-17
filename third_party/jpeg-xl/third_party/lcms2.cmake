@@ -129,7 +129,6 @@ add_library
 (
 lcms2
 STATIC
-EXCLUDE_FROM_ALL
 lcms
 /
 src

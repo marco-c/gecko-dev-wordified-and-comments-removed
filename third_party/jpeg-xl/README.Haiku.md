@@ -85,7 +85,6 @@ ninja
 cmake
 doxygen
 libjpeg_turbo_devel
-giflib_devel
 #
 #
 Building

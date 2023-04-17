@@ -16,17 +16,6 @@ include
 "
 lib
 /
-extras
-/
-color_hints
-.
-h
-"
-#
-include
-"
-lib
-/
 jxl
 /
 base
@@ -88,9 +77,6 @@ h
 namespace
 jxl
 {
-namespace
-extras
-{
 Status
 DecodeImageGIF
 (
@@ -101,10 +87,6 @@ const
 uint8_t
 >
 bytes
-const
-ColorHints
-&
-color_hints
 ThreadPool
 *
 pool
@@ -113,7 +95,6 @@ CodecInOut
 io
 )
 ;
-}
 }
 #
 endif

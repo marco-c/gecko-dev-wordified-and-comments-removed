@@ -192,9 +192,8 @@ PrintStats
 (
 )
 {
-fprintf
+printf
 (
-stderr
 "
 Allocations
 :

@@ -790,7 +790,7 @@ uint8_t
 16
 >
 (
-vreinterpretq_u8_s16
+vreinterpretq_s16_u8
 (
 exp16
 )
@@ -821,7 +821,7 @@ uint8_t
 16
 >
 (
-vreinterpretq_u8_s16
+vreinterpretq_s16_u8
 (
 exp16
 )
@@ -833,15 +833,15 @@ raw
 int16x8_t
 pow16
 =
-vreinterpretq_s16_u16
+vreinterpretq_u16_s16
 (
 vsliq_n_u16
 (
-vreinterpretq_u16_u8
+vreinterpretq_u8_s16
 (
 pow_low
 )
-vreinterpretq_u16_u8
+vreinterpretq_u8_s16
 (
 pow_high
 )
@@ -1479,7 +1479,7 @@ mixed_rmg16
 )
 )
 ;
-int16x8_t
+uint16x8_t
 r
 =
 srgb_tf
@@ -1487,7 +1487,7 @@ srgb_tf
 linear_r16
 )
 ;
-int16x8_t
+uint16x8_t
 g
 =
 srgb_tf
@@ -1495,7 +1495,7 @@ srgb_tf
 linear_g16
 )
 ;
-int16x8_t
+uint16x8_t
 b
 =
 srgb_tf

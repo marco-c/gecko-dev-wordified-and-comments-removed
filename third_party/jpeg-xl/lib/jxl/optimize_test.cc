@@ -713,7 +713,7 @@ opt
 size
 (
 )
-3u
+3
 )
 ;
 static

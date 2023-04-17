@@ -3088,15 +3088,5 @@ size
 (
 )
 ;
-if
-(
-bits
->
-12
-)
-modular_16_bit_buffer_sufficient
-=
-false
-;
 }
 }

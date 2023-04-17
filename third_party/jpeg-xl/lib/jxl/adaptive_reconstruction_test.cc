@@ -1048,13 +1048,10 @@ shared_storage
 )
 )
 ;
-JXL_CHECK
-(
 state
 .
 Init
 (
-)
 )
 ;
 state
@@ -1064,8 +1061,6 @@ InitForAC
 nullptr
 )
 ;
-JXL_CHECK
-(
 state
 .
 filter_weights
@@ -1074,7 +1069,6 @@ Init
 (
 lf
 frame_dim
-)
 )
 ;
 FillImage

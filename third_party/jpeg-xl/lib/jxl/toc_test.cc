@@ -459,7 +459,7 @@ i
 ;
 EXPECT_EQ
 (
-0u
+0
 group_codes
 [
 i

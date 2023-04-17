@@ -790,12 +790,6 @@ image_rect
 )
 const
 ;
-int
-GetReferences
-(
-)
-const
-;
 private
 :
 friend

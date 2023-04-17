@@ -208,7 +208,6 @@ double
 >
 kEllipseMinIntensity
 {
-{
 -
 0
 .
@@ -220,7 +219,6 @@ kEllipseMinIntensity
 0
 .
 5
-}
 }
 ;
 const
@@ -234,7 +232,6 @@ double
 >
 kEllipseMaxIntensity
 {
-{
 0
 .
 05
@@ -244,7 +241,6 @@ kEllipseMaxIntensity
 0
 .
 4
-}
 }
 ;
 const
@@ -258,11 +254,9 @@ size_t
 >
 kEllipseIntensityQ
 {
-{
 10
 36
 10
-}
 }
 ;
 }

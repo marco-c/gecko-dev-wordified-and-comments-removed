@@ -129,7 +129,6 @@ add_library
 (
 lodepng
 STATIC
-EXCLUDE_FROM_ALL
 lodepng
 /
 lodepng

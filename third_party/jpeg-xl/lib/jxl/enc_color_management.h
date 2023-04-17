@@ -203,9 +203,15 @@ skcms_icc_
 ;
 #
 else
+std
+:
+:
+vector
+<
 void
 *
-lcms_transform_
+>
+transforms_
 ;
 #
 endif

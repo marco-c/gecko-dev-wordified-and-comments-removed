@@ -107,7 +107,7 @@ submodule
 THIRD_PARTY_HIGHWAY
 =
 "
-e2397743fe092df68b760d358253773699a16c93
+ca1a57c342cd815053abfcffa29b44eaead4f20b
 "
 THIRD_PARTY_LODEPNG
 =
@@ -472,7 +472,7 @@ cat
 <
 <
 EOF
-Current
+Currenty
 directory
 is
 a

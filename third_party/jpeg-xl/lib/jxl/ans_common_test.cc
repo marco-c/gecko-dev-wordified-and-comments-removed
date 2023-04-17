@@ -187,16 +187,10 @@ i
 {
 ASSERT_EQ
 (
-static_cast
-<
-size_t
->
-(
 distribution
 [
 i
 ]
-)
 offsets
 [
 i
