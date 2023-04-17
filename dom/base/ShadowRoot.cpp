@@ -282,6 +282,8 @@ Element
 aElement
 ShadowRootMode
 aMode
+bool
+aDelegatesFocus
 SlotAssignmentMode
 aSlotAssignment
 already_AddRefed
@@ -316,6 +318,10 @@ this
 mMode
 (
 aMode
+)
+mDelegatesFocus
+(
+aDelegatesFocus
 )
 mSlotAssignment
 (
