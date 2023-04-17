@@ -63,7 +63,7 @@ h
 "
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -509,7 +509,7 @@ result
 }
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 namespace
 {
 void
@@ -663,7 +663,7 @@ GraphRate
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 PromoteRenderingThreadAndroid
 (
 )
