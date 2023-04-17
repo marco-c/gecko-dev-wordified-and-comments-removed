@@ -1659,7 +1659,9 @@ nullptr
 }
 if
 (
-mIsSync
+IsSync
+(
+)
 )
 {
 nsTArray
