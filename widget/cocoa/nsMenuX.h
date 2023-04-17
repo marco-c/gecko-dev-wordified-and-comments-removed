@@ -316,6 +316,16 @@ aPopupElement
 )
 override
 ;
+bool
+IsVisible
+(
+)
+const
+{
+return
+mVisible
+;
+}
 void
 DetachFromGroupOwnerRecursive
 (
