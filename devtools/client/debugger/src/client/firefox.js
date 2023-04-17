@@ -730,6 +730,7 @@ actor
 resource
 )
 ;
+await
 actions
 .
 paused
@@ -767,6 +768,7 @@ resumed
 "
 )
 {
+await
 actions
 .
 resumed
