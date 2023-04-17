@@ -83,6 +83,33 @@ d
 iteritems
 (
 )
+if
+sys
+.
+version_info
+>
+=
+(
+3
+3
+)
+:
+    
+_Mapping
+=
+collections
+.
+abc
+.
+Mapping
+else
+:
+    
+_Mapping
+=
+collections
+.
+Mapping
 "
 "
 "
@@ -1787,9 +1814,7 @@ if
 isinstance
 (
 schema
-collections
-.
-Mapping
+_Mapping
 )
 :
             
@@ -4190,14 +4215,12 @@ a
 valid
 value
 '
-[
-value
-]
-)
-for
-value
-in
+path
+if
+path
+else
 data
+)
                     
 ]
 )
@@ -5168,6 +5191,13 @@ key
 =
 value
         
+result_cls
+=
+type
+(
+self
+)
+        
 result_required
 =
 (
@@ -5199,7 +5229,7 @@ extra
 )
         
 return
-Schema
+result_cls
 (
 result
 required
@@ -5444,8 +5474,6 @@ data
             
 except
 ValueError
-as
-e
 :
                 
 raise
@@ -7796,9 +7824,16 @@ __init__
 self
 schema
 group_of_inclusion
+                 
 msg
 =
 None
+description
+=
+None
+default
+=
+UNDEFINED
 )
 :
         
@@ -7814,6 +7849,14 @@ schema
 msg
 =
 msg
+                                        
+default
+=
+default
+                                        
+description
+=
+description
 )
         
 self

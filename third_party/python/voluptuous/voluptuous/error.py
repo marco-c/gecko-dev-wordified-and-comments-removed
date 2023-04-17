@@ -806,7 +806,7 @@ value
 is
 not
 a
-url
+URL
 .
 "
 "
@@ -825,8 +825,9 @@ The
 value
 is
 not
-a
+an
 email
+address
 .
 "
 "
