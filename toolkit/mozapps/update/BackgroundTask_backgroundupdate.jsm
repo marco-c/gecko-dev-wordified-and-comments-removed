@@ -427,12 +427,15 @@ isOtherInstanceRunning
 )
 {
 reasons
-=
+.
+push
+(
 BackgroundUpdate
 .
 REASON
 .
 OTHER_INSTANCE
+)
 ;
 }
 }
