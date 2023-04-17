@@ -2859,7 +2859,6 @@ HtmlObjectContentTypeForMIMEType
 (
 mimeType
 false
-nullptr
 )
 =
 =

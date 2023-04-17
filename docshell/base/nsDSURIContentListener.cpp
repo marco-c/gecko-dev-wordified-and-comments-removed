@@ -1128,7 +1128,6 @@ nsDependentCString
 (
 aContentType
 )
-mDocShell
 )
 ;
 *

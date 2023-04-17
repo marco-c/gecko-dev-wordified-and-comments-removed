@@ -6958,9 +6958,6 @@ nsCString
 aMIMEType
 bool
 aNoFakePlugin
-nsIContent
-*
-aContent
 )
 ;
 static

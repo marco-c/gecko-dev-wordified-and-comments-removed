@@ -3818,7 +3818,6 @@ webNavInfo
 isTypeSupported
 (
 contentType
-null
 )
 )
 {
