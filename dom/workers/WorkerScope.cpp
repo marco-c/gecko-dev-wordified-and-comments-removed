@@ -496,6 +496,17 @@ mozilla
 /
 dom
 /
+MessagePort
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MessagePortBinding
 .
 h
