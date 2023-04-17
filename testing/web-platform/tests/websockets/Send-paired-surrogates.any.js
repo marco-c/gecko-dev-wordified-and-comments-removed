@@ -5,10 +5,8 @@ async_test
 (
 "
 Send
-(
 paired
 surrogates
-)
 data
 on
 a
@@ -28,10 +26,8 @@ async_test
 (
 "
 Send
-(
 paired
 surrogates
-)
 data
 on
 a
@@ -51,10 +47,8 @@ async_test
 (
 "
 Send
-(
 paired
 surrogates
-)
 data
 on
 a
@@ -82,7 +76,6 @@ wsocket
 =
 CreateWebSocket
 (
-false
 false
 false
 )
