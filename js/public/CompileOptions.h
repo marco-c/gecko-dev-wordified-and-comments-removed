@@ -197,7 +197,7 @@ false
 bool
 topLevelAwait
 =
-true
+false
 ;
 bool
 useStencilXDR
