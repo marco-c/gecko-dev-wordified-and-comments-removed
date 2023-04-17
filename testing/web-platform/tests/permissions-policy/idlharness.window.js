@@ -39,7 +39,7 @@ Document
 document
 '
 ]
-HTMLIframeElement
+HTMLIFrameElement
 :
 [
 '
