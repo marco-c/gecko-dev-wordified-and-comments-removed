@@ -1891,6 +1891,13 @@ mLoadState
 =
 eDOMLoaded
 ;
+mLoadEventType
+=
+nsIAccessibleEvent
+:
+:
+EVENT_DOCUMENT_LOAD_COMPLETE
+;
 }
 AddEventListeners
 (
