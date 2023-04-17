@@ -734,6 +734,16 @@ FlushMenuClosedRunnable
 (
 )
 ;
+void
+InsertPlaceholderIfNeeded
+(
+)
+;
+void
+RemovePlaceholderIfPresent
+(
+)
+;
 nsCOMPtr
 <
 nsIContent
