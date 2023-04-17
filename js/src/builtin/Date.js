@@ -66,7 +66,7 @@ formatters
 if
 (
 !
-IsRuntimeDefaultLocale
+intl_IsRuntimeDefaultLocale
 (
 dateTimeFormatCache
 .
@@ -97,7 +97,7 @@ dateTimeFormatCache
 .
 runtimeDefaultLocale
 =
-RuntimeDefaultLocale
+intl_RuntimeDefaultLocale
 (
 )
 ;

@@ -620,7 +620,7 @@ DefaultLocale
 {
 if
 (
-IsRuntimeDefaultLocale
+intl_IsRuntimeDefaultLocale
 (
 localeCache
 .
@@ -635,7 +635,7 @@ defaultLocale
 var
 runtimeDefaultLocale
 =
-RuntimeDefaultLocale
+intl_RuntimeDefaultLocale
 (
 )
 ;
@@ -2561,7 +2561,7 @@ Collator
 "
 &
 &
-GuardToCollator
+intl_GuardToCollator
 (
 obj
 )
@@ -2582,7 +2582,7 @@ DateTimeFormat
 "
 &
 &
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 (
 obj
 )
@@ -2603,7 +2603,7 @@ DisplayNames
 "
 &
 &
-GuardToDisplayNames
+intl_GuardToDisplayNames
 (
 obj
 )
@@ -2624,7 +2624,7 @@ ListFormat
 "
 &
 &
-GuardToListFormat
+intl_GuardToListFormat
 (
 obj
 )
@@ -2645,7 +2645,7 @@ NumberFormat
 "
 &
 &
-GuardToNumberFormat
+intl_GuardToNumberFormat
 (
 obj
 )
@@ -2666,7 +2666,7 @@ PluralRules
 "
 &
 &
-GuardToPluralRules
+intl_GuardToPluralRules
 (
 obj
 )
@@ -2687,7 +2687,7 @@ RelativeTimeFormat
 "
 &
 &
-GuardToRelativeTimeFormat
+intl_GuardToRelativeTimeFormat
 (
 obj
 )
@@ -2914,7 +2914,7 @@ Object
 ;
 assert
 (
-GuardToCollator
+intl_GuardToCollator
 (
 obj
 )
@@ -2924,7 +2924,7 @@ obj
 null
 |
 |
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 (
 obj
 )
@@ -2934,7 +2934,7 @@ obj
 null
 |
 |
-GuardToDisplayNames
+intl_GuardToDisplayNames
 (
 obj
 )
@@ -2944,7 +2944,7 @@ obj
 null
 |
 |
-GuardToListFormat
+intl_GuardToListFormat
 (
 obj
 )
@@ -2954,7 +2954,7 @@ obj
 null
 |
 |
-GuardToNumberFormat
+intl_GuardToNumberFormat
 (
 obj
 )
@@ -2964,7 +2964,7 @@ obj
 null
 |
 |
-GuardToPluralRules
+intl_GuardToPluralRules
 (
 obj
 )
@@ -2974,7 +2974,7 @@ obj
 null
 |
 |
-GuardToRelativeTimeFormat
+intl_GuardToRelativeTimeFormat
 (
 obj
 )
@@ -3045,7 +3045,7 @@ Collator
 "
 &
 &
-GuardToCollator
+intl_GuardToCollator
 (
 obj
 )
@@ -3068,7 +3068,7 @@ DateTimeFormat
 "
 &
 &
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 (
 obj
 )
@@ -3091,7 +3091,7 @@ DisplayNames
 "
 &
 &
-GuardToDisplayNames
+intl_GuardToDisplayNames
 (
 obj
 )
@@ -3114,7 +3114,7 @@ ListFormat
 "
 &
 &
-GuardToListFormat
+intl_GuardToListFormat
 (
 obj
 )
@@ -3137,7 +3137,7 @@ NumberFormat
 "
 &
 &
-GuardToNumberFormat
+intl_GuardToNumberFormat
 (
 obj
 )
@@ -3160,7 +3160,7 @@ PluralRules
 "
 &
 &
-GuardToPluralRules
+intl_GuardToPluralRules
 (
 obj
 )
@@ -3183,7 +3183,7 @@ RelativeTimeFormat
 "
 &
 &
-GuardToRelativeTimeFormat
+intl_GuardToRelativeTimeFormat
 (
 obj
 )

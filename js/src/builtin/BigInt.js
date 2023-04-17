@@ -69,7 +69,7 @@ undefined
 if
 (
 !
-IsRuntimeDefaultLocale
+intl_IsRuntimeDefaultLocale
 (
 numberFormatCache
 .
@@ -91,7 +91,7 @@ numberFormatCache
 .
 runtimeDefaultLocale
 =
-RuntimeDefaultLocale
+intl_RuntimeDefaultLocale
 (
 )
 ;

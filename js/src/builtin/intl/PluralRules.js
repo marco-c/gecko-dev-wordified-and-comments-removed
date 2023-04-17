@@ -227,7 +227,7 @@ object
 ;
 assert
 (
-GuardToPluralRules
+intl_GuardToPluralRules
 (
 obj
 )
@@ -332,7 +332,7 @@ object
 ;
 assert
 (
-GuardToPluralRules
+intl_GuardToPluralRules
 (
 pluralRules
 )
@@ -562,7 +562,7 @@ pluralRules
 (
 pluralRules
 =
-GuardToPluralRules
+intl_GuardToPluralRules
 (
 pluralRules
 )
@@ -576,7 +576,7 @@ null
 return
 callFunction
 (
-CallPluralRulesMethodIfWrapped
+intl_CallPluralRulesMethodIfWrapped
 this
 value
 "
@@ -628,7 +628,7 @@ pluralRules
 (
 pluralRules
 =
-GuardToPluralRules
+intl_GuardToPluralRules
 (
 pluralRules
 )
@@ -642,7 +642,7 @@ null
 return
 callFunction
 (
-CallPluralRulesMethodIfWrapped
+intl_CallPluralRulesMethodIfWrapped
 this
 "
 Intl_PluralRules_resolvedOptions
