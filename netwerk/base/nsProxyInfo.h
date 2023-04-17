@@ -255,6 +255,16 @@ ProxyInfoCloneArgs
 aArgs
 )
 ;
+already_AddRefed
+<
+nsProxyInfo
+>
+CloneProxyInfoWithNewResolveFlags
+(
+uint32_t
+aResolveFlags
+)
+;
 private
 :
 friend
