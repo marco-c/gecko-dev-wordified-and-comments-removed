@@ -531,7 +531,7 @@ SOME_OTHER_UINT_SCALAR
 ;
 }
 case
-15
+14
 :
 {
 return
@@ -545,7 +545,7 @@ SOME_OTHER_STRING_SCALAR
 ;
 }
 case
-16
+15
 :
 {
 return
@@ -559,7 +559,7 @@ SOME_STILL_OTHER_STRING_SCALAR
 ;
 }
 case
-19
+18
 :
 {
 return

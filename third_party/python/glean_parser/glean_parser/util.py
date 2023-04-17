@@ -1001,59 +1001,6 @@ to_camel_case
 value
 True
 )
-def
-snake_case
-(
-value
-:
-str
-)
--
->
-str
-:
-    
-"
-"
-"
-    
-Convert
-the
-value
-to
-snake_case
-.
-    
-"
-"
-"
-    
-return
-value
-.
-lower
-(
-)
-.
-replace
-(
-"
-.
-"
-"
-_
-"
-)
-.
-replace
-(
-"
--
-"
-"
-_
-"
-)
 functools
 .
 lru_cache
@@ -2616,7 +2563,7 @@ reason_codes
 "
     
 "
-range_min
+bucket_count
 "
     
 "
@@ -2624,7 +2571,7 @@ range_max
 "
     
 "
-bucket_count
+range_min
 "
     
 "

@@ -52,7 +52,7 @@ runner
 .
 3
 .
-1
+0
 pytest
 =
 =
@@ -76,7 +76,7 @@ Sphinx
 .
 0
 .
-2
+1
 twine
 =
 =
@@ -92,7 +92,7 @@ watchdog
 .
 1
 .
-2
+1
 wheel
 yamllint
 =
