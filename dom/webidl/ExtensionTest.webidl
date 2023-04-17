@@ -399,11 +399,6 @@ callback
 ;
 [
 Throws
-WebExtensionStub
-=
-"
-NotImplementedNoReturn
-"
 ]
 void
 assertThrows
