@@ -14313,6 +14313,9 @@ AppendChildTo
 (
 textContent
 true
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -14400,6 +14403,9 @@ AppendChildTo
 (
 br
 true
+IgnoreErrors
+(
+)
 )
 ;
 }

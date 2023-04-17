@@ -676,6 +676,9 @@ ContentNode
 (
 )
 false
+IgnoreErrors
+(
+)
 )
 ;
 }

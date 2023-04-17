@@ -24,6 +24,9 @@ namespace
 mozilla
 {
 class
+ErrorResult
+;
+class
 EventChainPreVisitor
 ;
 namespace
@@ -67,7 +70,7 @@ HTMLOptGroupElement
 nsGenericHTMLElement
 )
 virtual
-nsresult
+void
 InsertChildBefore
 (
 nsIContent
@@ -78,6 +81,9 @@ nsIContent
 aBeforeThis
 bool
 aNotify
+ErrorResult
+&
+aRv
 )
 override
 ;

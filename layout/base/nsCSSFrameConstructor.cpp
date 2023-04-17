@@ -8005,6 +8005,9 @@ AppendChildTo
 (
 content
 false
+IgnoreErrors
+(
+)
 )
 ;
 if

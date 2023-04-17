@@ -1570,6 +1570,9 @@ AppendChildTo
 (
 newElement
 true
+IgnoreErrors
+(
+)
 )
 ;
 }

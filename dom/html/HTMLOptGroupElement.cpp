@@ -245,7 +245,7 @@ return
 parent
 ;
 }
-nsresult
+void
 HTMLOptGroupElement
 :
 :
@@ -259,6 +259,9 @@ nsIContent
 aBeforeThis
 bool
 aNotify
+ErrorResult
+&
+aRv
 )
 {
 int32_t
@@ -287,9 +290,6 @@ index
 aNotify
 )
 ;
-nsresult
-rv
-=
 nsGenericHTMLElement
 :
 :
@@ -298,13 +298,15 @@ InsertChildBefore
 aKid
 aBeforeThis
 aNotify
+aRv
 )
 ;
 if
 (
-NS_FAILED
+aRv
+.
+Failed
 (
-rv
 )
 )
 {
@@ -315,9 +317,6 @@ MutationFailed
 )
 ;
 }
-return
-rv
-;
 }
 void
 HTMLOptGroupElement

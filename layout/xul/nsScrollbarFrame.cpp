@@ -1956,6 +1956,9 @@ AppendChildTo
 (
 mThumb
 false
+IgnoreErrors
+(
+)
 )
 ;
 }

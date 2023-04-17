@@ -1521,6 +1521,9 @@ AppendChildTo
 (
 element
 false
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -1629,6 +1632,9 @@ AppendChildTo
 (
 textNode
 false
+IgnoreErrors
+(
+)
 )
 ;
 return
@@ -5661,6 +5667,9 @@ AppendChildTo
 (
 textNode
 aNotify
+IgnoreErrors
+(
+)
 )
 ;
 textContent

@@ -556,6 +556,9 @@ AppendChildTo
 (
 description
 false
+IgnoreErrors
+(
+)
 )
 ;
 aElements

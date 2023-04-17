@@ -1166,6 +1166,9 @@ AppendChildTo
 (
 child
 false
+IgnoreErrors
+(
+)
 )
 ;
 }

@@ -47,6 +47,9 @@ aNodeInfo
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {
@@ -161,7 +164,7 @@ SVGSwitchElement
 SVGSwitchElementBase
 )
 virtual
-nsresult
+void
 InsertChildBefore
 (
 nsIContent
@@ -172,6 +175,9 @@ nsIContent
 aBeforeThis
 bool
 aNotify
+ErrorResult
+&
+aRv
 )
 override
 ;

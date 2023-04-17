@@ -1334,6 +1334,12 @@ AppendChildTo
 (
 child
 true
+mozilla
+:
+:
+IgnoreErrors
+(
+)
 )
 ;
 if

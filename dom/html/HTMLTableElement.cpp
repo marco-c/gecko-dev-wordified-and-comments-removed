@@ -2792,6 +2792,9 @@ AppendChildTo
 (
 foot
 true
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -3504,12 +3507,11 @@ if
 rowGroup
 )
 {
-aError
-=
 AppendChildTo
 (
 rowGroup
 true
+aError
 )
 ;
 if

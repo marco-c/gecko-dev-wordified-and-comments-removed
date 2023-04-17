@@ -27129,9 +27129,9 @@ aValue
 true
 )
 ;
-nsresult
+ErrorResult
 rv
-=
+;
 aContent
 -
 >
@@ -27139,6 +27139,7 @@ AppendChildTo
 (
 textContent
 true
+rv
 )
 ;
 mb
@@ -27149,6 +27150,10 @@ NodesAdded
 ;
 return
 rv
+.
+StealNSResult
+(
+)
 ;
 }
 static

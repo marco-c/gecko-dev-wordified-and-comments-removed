@@ -260,6 +260,9 @@ InsertChildBefore
 newContent
 beforeNode
 true
+IgnoreErrors
+(
+)
 )
 ;
 }
