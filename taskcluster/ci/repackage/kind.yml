@@ -184,6 +184,10 @@ macosx64
 /
 opt
 -
+macosx64
+/
+debug
+-
 win32
 -
 shippable
