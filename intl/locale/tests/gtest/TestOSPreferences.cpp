@@ -962,7 +962,7 @@ date_time
 .
 pattern_override
 .
-date_time_short
+connector_short
 "
 "
 {
@@ -1079,7 +1079,7 @@ date_time
 .
 pattern_override
 .
-date_time_short
+connector_short
 "
 "
 hello
@@ -1140,7 +1140,7 @@ date_time
 .
 pattern_override
 .
-date_time_short
+connector_short
 "
 )
 ;
