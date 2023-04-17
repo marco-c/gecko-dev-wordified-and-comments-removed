@@ -271,7 +271,7 @@ IDispatch
 *
 NativeAccessible
 (
-LocalAccessible
+Accessible
 *
 aAccessible
 )
