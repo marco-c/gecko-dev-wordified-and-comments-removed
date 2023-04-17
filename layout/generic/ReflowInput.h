@@ -2228,6 +2228,13 @@ GetLineHeight
 )
 const
 ;
+void
+SetLineHeight
+(
+nscoord
+aLineHeight
+)
+;
 static
 nscoord
 CalcLineHeight
