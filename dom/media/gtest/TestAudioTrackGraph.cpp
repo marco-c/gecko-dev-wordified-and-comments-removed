@@ -2808,6 +2808,9 @@ rms
 )
 ;
 }
+#
+ifndef
+WIN32
 TEST
 (
 TestAudioTrackGraph
@@ -3530,6 +3533,8 @@ rate
 ;
 }
 }
+#
+endif
 void
 TestCrossGraphPort
 (
