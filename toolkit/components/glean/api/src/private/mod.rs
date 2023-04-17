@@ -48,9 +48,6 @@ memory_distribution
 mod
 ping
 ;
-mod
-quantity
-;
 pub
 (
 crate
@@ -166,16 +163,6 @@ ping
 :
 :
 Ping
-;
-pub
-use
-self
-:
-:
-quantity
-:
-:
-QuantityMetric
 ;
 pub
 use

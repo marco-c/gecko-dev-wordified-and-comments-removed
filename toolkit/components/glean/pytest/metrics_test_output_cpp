@@ -258,16 +258,6 @@ event_metric_with_extra
 17
 )
 ;
-constexpr
-impl
-:
-:
-QuantityMetric
-quantity_metric
-(
-18
-)
-;
 }
 }
 #
