@@ -1,10 +1,4 @@
 include
-gradient
-/
-reftest
-.
-list
-include
 vector
 /
 reftest
