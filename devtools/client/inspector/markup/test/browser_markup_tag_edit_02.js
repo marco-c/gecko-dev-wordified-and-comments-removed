@@ -54,7 +54,6 @@ page
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -118,7 +117,6 @@ test
 div
 "
 }
-testActor
 )
 ;
 info
@@ -257,7 +255,6 @@ color
 green
 "
 }
-testActor
 )
 ;
 info
@@ -295,7 +292,6 @@ test
 div
 "
 }
-testActor
 )
 ;
 }

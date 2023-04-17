@@ -56,7 +56,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -78,21 +77,18 @@ await
 testCollapsedLongAttribute
 (
 inspector
-testActor
 )
 ;
 await
 testModifyInlineStyleWithQuotes
 (
 inspector
-testActor
 )
 ;
 await
 testEditingAttributeWithMixedQuotes
 (
 inspector
-testActor
 )
 ;
 }
@@ -103,7 +99,6 @@ function
 testCollapsedLongAttribute
 (
 inspector
-testActor
 )
 {
 info
@@ -219,7 +214,6 @@ long
 :
 LONG_ATTRIBUTE
 }
-testActor
 )
 ;
 const
@@ -414,7 +408,6 @@ short
 ABC
 "
 }
-testActor
 )
 ;
 }
@@ -423,7 +416,6 @@ function
 testModifyInlineStyleWithQuotes
 (
 inspector
-testActor
 )
 {
 info
@@ -490,7 +482,6 @@ org
 ;
 '
 }
-testActor
 )
 ;
 const
@@ -725,7 +716,6 @@ com
 ;
 '
 }
-testActor
 )
 ;
 }
@@ -734,7 +724,6 @@ function
 testEditingAttributeWithMixedQuotes
 (
 inspector
-testActor
 )
 {
 info
@@ -774,7 +763,6 @@ single
 '
 "
 }
-testActor
 )
 ;
 const
@@ -959,7 +947,6 @@ and
 '
 "
 }
-testActor
 )
 ;
 }
