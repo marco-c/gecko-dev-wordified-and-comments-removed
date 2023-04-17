@@ -51,3 +51,9 @@ pyyaml
 1
 .
 2
+mozversion
+>
+=
+1
+.
+0
