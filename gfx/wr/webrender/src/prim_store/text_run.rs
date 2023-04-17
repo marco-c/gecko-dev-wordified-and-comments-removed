@@ -172,7 +172,6 @@ spatial_tree
 {
 SpatialTree
 SpatialNodeIndex
-ROOT_SPATIAL_NODE_INDEX
 }
 ;
 use
@@ -1752,6 +1751,15 @@ Local
 else
 {
 let
+root_spatial_node_index
+=
+spatial_tree
+.
+root_reference_frame_index
+(
+)
+;
+let
 scale_factors
 =
 spatial_tree
@@ -1759,7 +1767,7 @@ spatial_tree
 get_relative_transform
 (
 prim_spatial_node_index
-ROOT_SPATIAL_NODE_INDEX
+root_spatial_node_index
 )
 .
 scale_factors

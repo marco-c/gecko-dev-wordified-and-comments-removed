@@ -45,7 +45,6 @@ spatial_tree
 :
 {
 SpatialTree
-ROOT_SPATIAL_NODE_INDEX
 SpatialNodeIndex
 }
 ;
@@ -3213,6 +3212,9 @@ FastHashMap
 RelativeTransformKey
 usize
 >
+root_spatial_node_index
+:
+SpatialNodeIndex
 }
 impl
 TransformPalette
@@ -3224,6 +3226,9 @@ new
 count
 :
 usize
+root_spatial_node_index
+:
+SpatialNodeIndex
 )
 -
 >
@@ -3272,6 +3277,7 @@ FastHashMap
 default
 (
 )
+root_spatial_node_index
 }
 }
 pub
@@ -3319,7 +3325,9 @@ self
 .
 transforms
 index
-ROOT_SPATIAL_NODE_INDEX
+self
+.
+root_spatial_node_index
 transform
 .
 with_destination
@@ -3330,6 +3338,9 @@ PicturePixel
 >
 (
 )
+self
+.
+root_spatial_node_index
 )
 ;
 }
@@ -3358,7 +3369,9 @@ if
 parent_index
 =
 =
-ROOT_SPATIAL_NODE_INDEX
+self
+.
+root_spatial_node_index
 {
 child_index
 .
@@ -3408,6 +3421,13 @@ self
 .
 transforms
 ;
+let
+root_spatial_node_index
+=
+self
+.
+root_spatial_node_index
+;
 *
 self
 .
@@ -3454,6 +3474,7 @@ transforms
 child_index
 parent_index
 transform
+root_spatial_node_index
 )
 }
 )
@@ -3777,6 +3798,9 @@ SpatialNodeIndex
 transform
 :
 LayoutToPictureTransform
+root_spatial_node_index
+:
+SpatialNodeIndex
 )
 -
 >
@@ -3826,7 +3850,7 @@ if
 to_index
 =
 =
-ROOT_SPATIAL_NODE_INDEX
+root_spatial_node_index
 {
 let
 index

@@ -69,7 +69,6 @@ spatial_tree
 :
 :
 {
-ROOT_SPATIAL_NODE_INDEX
 SpatialTree
 SpatialNodeIndex
 }
@@ -278,6 +277,10 @@ pub
 config
 :
 FrameBuilderConfig
+pub
+root_spatial_node_index
+:
+SpatialNodeIndex
 }
 pub
 struct
@@ -1057,7 +1060,9 @@ SpaceMapper
 :
 new_with_target
 (
-ROOT_SPATIAL_NODE_INDEX
+frame_context
+.
+root_spatial_node_index
 surface
 .
 surface_spatial_node_index
@@ -3083,6 +3088,15 @@ SpatialTree
 LayoutRect
 {
 let
+root_spatial_node_index
+=
+spatial_tree
+.
+root_reference_frame_index
+(
+)
+;
+let
 map_pic_to_world
 :
 SpaceMapper
@@ -3096,7 +3110,7 @@ SpaceMapper
 :
 new_with_target
 (
-ROOT_SPATIAL_NODE_INDEX
+root_spatial_node_index
 clip_chain
 .
 pic_spatial_node_index
