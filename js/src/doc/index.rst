@@ -158,6 +158,7 @@ maxdepth
 :
 1
 build
+test
 Debugger
 /
 index
@@ -2082,3 +2083,5 @@ MIR
 optimizations
 /
 index
+.
+html
