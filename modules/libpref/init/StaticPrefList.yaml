@@ -51947,7 +51947,7 @@ name
 :
 mousewheel
 .
-system_scroll_override_on_root_content
+system_scroll_override
 .
 enabled
 type
@@ -51992,7 +51992,7 @@ When
 "
 mousewheel
 .
-system_scroll_override_on_root_content
+system_scroll_override
 .
 enabled
 "
@@ -52052,7 +52052,7 @@ if
 "
 mousewheel
 .
-system_scroll_override_on_root_content
+system_scroll_override
 .
 enabled
 "
@@ -52083,7 +52083,7 @@ name
 :
 mousewheel
 .
-system_scroll_override_on_root_content
+system_scroll_override
 .
 horizontal
 .
@@ -52102,7 +52102,7 @@ name
 :
 mousewheel
 .
-system_scroll_override_on_root_content
+system_scroll_override
 .
 vertical
 .
