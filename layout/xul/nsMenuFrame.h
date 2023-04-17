@@ -612,6 +612,16 @@ ToggleMenuState
 )
 ;
 void
+ActivateItem
+(
+mozilla
+:
+:
+Modifiers
+aModifiers
+)
+;
+void
 PopupOpened
 (
 )
