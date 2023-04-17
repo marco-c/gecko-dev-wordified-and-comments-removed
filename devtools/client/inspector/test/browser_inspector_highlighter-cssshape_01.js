@@ -100,7 +100,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -130,14 +130,14 @@ HIGHLIGHTER_TYPE
 await
 isHiddenByDefault
 (
-testActor
+highlighterTestFront
 highlighter
 )
 ;
 await
 isVisibleWhenShown
 (
-testActor
+highlighterTestFront
 inspector
 highlighter
 )
@@ -156,7 +156,7 @@ async
 function
 getShapeHidden
 (
-testActor
+highlighterTestFront
 highlighterFront
 )
 {
@@ -180,7 +180,7 @@ shape
 ]
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -205,7 +205,7 @@ async
 function
 isHiddenByDefault
 (
-testActor
+highlighterTestFront
 highlighterFront
 )
 {
@@ -226,7 +226,7 @@ const
 polygonHidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -245,7 +245,7 @@ const
 ellipseHidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -281,7 +281,7 @@ async
 function
 isVisibleWhenShown
 (
-testActor
+highlighterTestFront
 inspector
 highlighterFront
 )
@@ -346,7 +346,7 @@ hidden
 await
 getShapeHidden
 (
-testActor
+highlighterTestFront
 highlighterFront
 )
 ;
@@ -389,7 +389,7 @@ hidden
 await
 getShapeHidden
 (
-testActor
+highlighterTestFront
 highlighterFront
 )
 ;

@@ -67,7 +67,7 @@ env
 ;
 const
 {
-testActor
+highlighterTestFront
 inspector
 }
 =
@@ -95,7 +95,7 @@ config
 inspector
 view
 highlighters
-testActor
+highlighterTestFront
 helper
 }
 ;
@@ -1199,7 +1199,7 @@ config
 {
 const
 {
-testActor
+highlighterTestFront
 selector
 inspector
 highlighters
@@ -1294,7 +1294,7 @@ const
 path
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

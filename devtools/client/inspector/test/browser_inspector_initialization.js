@@ -231,19 +231,9 @@ addTab
 TEST_URI
 )
 ;
-const
-testActor
-=
-await
-getTestActorWithoutToolbox
-(
-tab
-)
-;
 await
 testToolboxInitialization
 (
-testActor
 tab
 )
 ;
@@ -264,7 +254,6 @@ async
 function
 testToolboxInitialization
 (
-testActor
 tab
 )
 {

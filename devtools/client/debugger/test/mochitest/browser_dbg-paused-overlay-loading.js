@@ -126,10 +126,10 @@ waitForTime
 )
 ;
 const
-testFront
+highlighterTestFront
 =
 await
-getTestActor
+getHighlighterTestFront
 (
 dbg
 .
@@ -140,7 +140,7 @@ const
 isPausedOverlayVisible
 =
 await
-testFront
+highlighterTestFront
 .
 isPausedDebuggerOverlayVisible
 (

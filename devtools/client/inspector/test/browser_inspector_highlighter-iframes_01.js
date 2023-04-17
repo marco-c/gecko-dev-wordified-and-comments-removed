@@ -132,7 +132,7 @@ const
 {
 toolbox
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -209,7 +209,7 @@ outerFrameDiv
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (
@@ -243,7 +243,7 @@ innerFrameDiv
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (

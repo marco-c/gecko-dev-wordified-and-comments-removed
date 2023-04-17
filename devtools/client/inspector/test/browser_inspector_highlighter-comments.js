@@ -26,7 +26,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -584,7 +584,7 @@ selector
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (
@@ -616,7 +616,7 @@ childNodeIndex
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedTextNode
 (
@@ -646,7 +646,7 @@ const
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (

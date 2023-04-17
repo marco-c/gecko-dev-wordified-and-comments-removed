@@ -91,7 +91,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -125,7 +125,7 @@ isHiddenByDefault
 (
 highlighter
 inspector
-testActor
+highlighterTestFront
 )
 ;
 await
@@ -133,7 +133,7 @@ isVisibleAfterShow
 (
 highlighter
 inspector
-testActor
+highlighterTestFront
 )
 ;
 await
@@ -141,7 +141,7 @@ hasRightLabelsContent
 (
 highlighter
 inspector
-testActor
+highlighterTestFront
 )
 ;
 await
@@ -149,7 +149,7 @@ isHiddenAfterHide
 (
 highlighter
 inspector
-testActor
+highlighterTestFront
 )
 ;
 await
@@ -168,7 +168,7 @@ isHiddenByDefault
 (
 highlighterFront
 inspector
-testActor
+highlighterTestFront
 )
 {
 info
@@ -191,7 +191,7 @@ await
 isRulerHidden
 (
 highlighterFront
-testActor
+highlighterTestFront
 )
 ;
 ok
@@ -213,7 +213,7 @@ isVisibleAfterShow
 (
 highlighterFront
 inspector
-testActor
+highlighterTestFront
 )
 {
 info
@@ -256,7 +256,7 @@ await
 isRulerHidden
 (
 highlighterFront
-testActor
+highlighterTestFront
 )
 ;
 ok
@@ -279,7 +279,7 @@ isHiddenAfterHide
 (
 highlighterFront
 inspector
-testActor
+highlighterTestFront
 )
 {
 info
@@ -311,7 +311,7 @@ await
 isRulerHidden
 (
 highlighterFront
-testActor
+highlighterTestFront
 )
 ;
 ok
@@ -331,7 +331,7 @@ hasRightLabelsContent
 (
 highlighterFront
 inspector
-testActor
+highlighterTestFront
 )
 {
 info
@@ -356,7 +356,7 @@ const
 contentX
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (
@@ -375,7 +375,7 @@ const
 contentY
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (
@@ -482,14 +482,14 @@ function
 isRulerHidden
 (
 highlighterFront
-testActor
+highlighterTestFront
 )
 {
 const
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

@@ -198,7 +198,7 @@ const
 {
 inspector
 toolbox
-testActor
+highlighterTestFront
 }
 =
 await
@@ -303,7 +303,7 @@ checks
 await
 isNodeCorrectlyHighlighted
 (
-testActor
+highlighterTestFront
 "
 iframe
 "
@@ -396,7 +396,7 @@ iframe
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (
@@ -414,7 +414,7 @@ node
 await
 isNodeCorrectlyHighlighted
 (
-testActor
+highlighterTestFront
 iframeBodySelector
 )
 ;

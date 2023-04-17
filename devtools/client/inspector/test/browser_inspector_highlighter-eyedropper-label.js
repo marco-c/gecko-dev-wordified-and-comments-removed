@@ -495,7 +495,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -515,7 +515,7 @@ HIGHLIGHTER_TYPE
 (
 {
 inspector
-testActor
+highlighterTestFront
 }
 )
 ;

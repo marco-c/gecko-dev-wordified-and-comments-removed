@@ -174,7 +174,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -221,14 +221,14 @@ HIGHLIGHTER_TYPE
 await
 isHiddenByDefault
 (
-testActor
+highlighterTestFront
 highlighter
 )
 ;
 await
 isVisibleWhenShown
 (
-testActor
+highlighterTestFront
 inspector
 highlighter
 )
@@ -247,7 +247,7 @@ async
 function
 isHiddenByDefault
 (
-testActor
+highlighterTestFront
 highlighterFront
 )
 {
@@ -269,7 +269,7 @@ const
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -304,7 +304,7 @@ async
 function
 isVisibleWhenShown
 (
-testActor
+highlighterTestFront
 inspector
 highlighterFront
 )
@@ -349,7 +349,7 @@ let
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -397,7 +397,7 @@ hide
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

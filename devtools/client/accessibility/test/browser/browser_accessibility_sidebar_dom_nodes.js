@@ -242,10 +242,10 @@ getHighlighter
 )
 ;
 const
-testActor
+highlighterTestFront
 =
 await
-getTestActor
+getHighlighterTestFront
 (
 toolbox
 )
@@ -304,7 +304,7 @@ highlighted
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (

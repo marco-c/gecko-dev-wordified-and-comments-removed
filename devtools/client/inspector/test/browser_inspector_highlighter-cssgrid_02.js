@@ -73,7 +73,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -157,7 +157,7 @@ let
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -205,7 +205,7 @@ hide
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

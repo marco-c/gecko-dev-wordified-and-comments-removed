@@ -76,7 +76,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -130,7 +130,7 @@ isUpdatedAfterScroll
 (
 highlighter
 inspector
-testActor
+highlighterTestFront
 )
 ;
 await
@@ -149,7 +149,7 @@ isUpdatedAfterScroll
 (
 highlighterFront
 inspector
-testActor
+highlighterTestFront
 )
 {
 info
@@ -169,7 +169,7 @@ let
 xAxisRulerTransform
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -191,7 +191,7 @@ let
 xAxisTextTransform
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -213,7 +213,7 @@ let
 yAxisRulerTransform
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -235,7 +235,7 @@ let
 yAxisTextTransform
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -455,7 +455,7 @@ scrolling
 xAxisRulerTransform
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -476,7 +476,7 @@ highlighterFront
 xAxisTextTransform
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -497,7 +497,7 @@ highlighterFront
 yAxisRulerTransform
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -518,7 +518,7 @@ highlighterFront
 yAxisTextTransform
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -764,7 +764,7 @@ scrolling
 xAxisRulerTransform
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -785,7 +785,7 @@ highlighterFront
 xAxisTextTransform
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -806,7 +806,7 @@ highlighterFront
 yAxisRulerTransform
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -827,7 +827,7 @@ highlighterFront
 yAxisTextTransform
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

@@ -222,7 +222,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -313,7 +313,7 @@ const
 nb
 =
 await
-testActor
+highlighterTestFront
 .
 getSelectorHighlighterBoxNb
 (

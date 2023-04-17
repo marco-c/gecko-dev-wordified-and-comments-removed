@@ -4863,7 +4863,6 @@ function
 selectNodeWithPicker
 (
 toolbox
-testActor
 selector
 )
 {

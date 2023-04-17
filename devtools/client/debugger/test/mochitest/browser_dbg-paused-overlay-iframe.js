@@ -205,7 +205,7 @@ paused
 )
 ;
 let
-testFront
+highlighterTestFront
 ;
 if
 (
@@ -253,7 +253,7 @@ org
 )
 )
 ;
-testFront
+highlighterTestFront
 =
 await
 iframeTarget
@@ -261,17 +261,17 @@ iframeTarget
 getFront
 (
 "
-test
+highlighterTest
 "
 )
 ;
 }
 else
 {
-testFront
+highlighterTestFront
 =
 await
-getTestActor
+getHighlighterTestFront
 (
 dbg
 .
@@ -301,7 +301,7 @@ async
 =
 >
 await
-testFront
+highlighterTestFront
 .
 isPausedDebuggerOverlayVisible
 (
@@ -369,7 +369,7 @@ button
 )
 ;
 await
-testFront
+highlighterTestFront
 .
 clickPausedDebuggerOverlayButton
 (
@@ -437,7 +437,7 @@ const
 visible
 =
 await
-testFront
+highlighterTestFront
 .
 isPausedDebuggerOverlayVisible
 (

@@ -27,7 +27,7 @@ inspector
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -182,7 +182,7 @@ onHighlight
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -207,7 +207,7 @@ hover
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (

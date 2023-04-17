@@ -108,10 +108,10 @@ hud
 toolbox
 ;
 const
-testActor
+highlighterTestFront
 =
 await
-getTestActor
+getHighlighterTestFront
 (
 toolbox
 )
@@ -307,7 +307,7 @@ highlighted
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -473,7 +473,7 @@ removed
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (

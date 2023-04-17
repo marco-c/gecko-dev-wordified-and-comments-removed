@@ -164,7 +164,6 @@ const
 {
 toolbox
 inspector
-testActor
 }
 =
 await
@@ -184,7 +183,6 @@ inspector
 return
 {
 tab
-testActor
 toolbox
 inspector
 view

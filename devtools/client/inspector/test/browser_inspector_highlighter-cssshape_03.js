@@ -62,7 +62,7 @@ inspector
 ;
 const
 {
-testActor
+highlighterTestFront
 }
 =
 inspector
@@ -70,7 +70,7 @@ inspector
 await
 testZoomSize
 (
-testActor
+highlighterTestFront
 helper
 )
 ;
@@ -100,7 +100,7 @@ async
 function
 testZoomSize
 (
-testActor
+highlighterTestFront
 helper
 )
 {
@@ -206,7 +206,7 @@ zoom
 const
 onHighlighterUpdated
 =
-testActor
+highlighterTestFront
 .
 once
 (
@@ -218,7 +218,7 @@ updated
 )
 ;
 await
-testActor
+highlighterTestFront
 .
 registerOneTimeHighlighterUpdate
 (

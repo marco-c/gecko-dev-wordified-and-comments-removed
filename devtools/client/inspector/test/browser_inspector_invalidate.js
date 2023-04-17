@@ -64,7 +64,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -117,7 +117,7 @@ let
 rect
 =
 await
-testActor
+highlighterTestFront
 .
 getSimpleBorderRect
 (
@@ -164,7 +164,7 @@ update
 )
 ;
 await
-testActor
+highlighterTestFront
 .
 changeHighlightedNodeWaitForUpdate
 (
@@ -190,7 +190,7 @@ yellow
 rect
 =
 await
-testActor
+highlighterTestFront
 .
 getSimpleBorderRect
 (

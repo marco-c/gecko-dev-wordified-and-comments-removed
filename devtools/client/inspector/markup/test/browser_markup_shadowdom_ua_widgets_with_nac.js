@@ -346,7 +346,6 @@ true
 const
 {
 inspector
-testActor
 toolbox
 }
 =
@@ -367,7 +366,6 @@ return
 {
 inspector
 markup
-testActor
 toolbox
 }
 ;

@@ -94,7 +94,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -128,14 +128,14 @@ isVisibleAfterShow
 (
 highlighter
 inspector
-testActor
+highlighterTestFront
 )
 ;
 await
 hasRightLabelsContent
 (
 highlighter
-testActor
+highlighterTestFront
 )
 ;
 await
@@ -148,7 +148,7 @@ await
 hasRightLabelsContent
 (
 highlighter
-testActor
+highlighterTestFront
 )
 ;
 await
@@ -156,7 +156,7 @@ isHiddenAfterHide
 (
 highlighter
 inspector
-testActor
+highlighterTestFront
 )
 ;
 await
@@ -175,7 +175,7 @@ isVisibleAfterShow
 (
 highlighterFront
 inspector
-testActor
+highlighterTestFront
 )
 {
 info
@@ -218,7 +218,7 @@ await
 isViewportInfobarHidden
 (
 highlighterFront
-testActor
+highlighterTestFront
 )
 ;
 ok
@@ -242,7 +242,7 @@ isHiddenAfterHide
 (
 highlighterFront
 inspector
-testActor
+highlighterTestFront
 )
 {
 info
@@ -274,7 +274,7 @@ await
 isViewportInfobarHidden
 (
 highlighterFront
-testActor
+highlighterTestFront
 )
 ;
 ok
@@ -296,7 +296,7 @@ function
 hasRightLabelsContent
 (
 highlighterFront
-testActor
+highlighterTestFront
 )
 {
 const
@@ -438,7 +438,7 @@ const
 dimensionText
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (
@@ -522,14 +522,14 @@ function
 isViewportInfobarHidden
 (
 highlighterFront
-testActor
+highlighterTestFront
 )
 {
 const
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

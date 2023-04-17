@@ -320,10 +320,10 @@ highlighted
 )
 ;
 const
-testActor
+highlighterTestFront
 =
 await
-getTestActor
+getHighlighterTestFront
 (
 inspector
 .
@@ -333,7 +333,7 @@ toolbox
 is
 (
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (

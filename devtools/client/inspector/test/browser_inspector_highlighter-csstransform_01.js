@@ -113,7 +113,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -162,21 +162,21 @@ CssTransformHighlighter
 await
 isHiddenByDefault
 (
-testActor
+highlighterTestFront
 highlighter
 )
 ;
 await
 has2PolygonsAnd4Lines
 (
-testActor
+highlighterTestFront
 highlighter
 )
 ;
 await
 isNotShownForUntransformed
 (
-testActor
+highlighterTestFront
 inspector
 highlighter
 )
@@ -184,7 +184,7 @@ highlighter
 await
 isNotShownForInline
 (
-testActor
+highlighterTestFront
 inspector
 highlighter
 )
@@ -192,7 +192,7 @@ highlighter
 await
 isVisibleWhenShown
 (
-testActor
+highlighterTestFront
 inspector
 highlighter
 )
@@ -200,7 +200,7 @@ highlighter
 await
 linesLinkThePolygons
 (
-testActor
+highlighterTestFront
 inspector
 highlighter
 )
@@ -219,7 +219,7 @@ async
 function
 isHiddenByDefault
 (
-testActor
+highlighterTestFront
 highlighterFront
 )
 {
@@ -241,7 +241,7 @@ const
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -276,7 +276,7 @@ async
 function
 has2PolygonsAnd4Lines
 (
-testActor
+highlighterTestFront
 highlighterFront
 )
 {
@@ -303,7 +303,7 @@ let
 value
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -341,7 +341,7 @@ exists
 value
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -400,7 +400,7 @@ of
 value
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -447,7 +447,7 @@ async
 function
 isNotShownForUntransformed
 (
-testActor
+highlighterTestFront
 inspector
 highlighterFront
 )
@@ -493,7 +493,7 @@ const
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -527,7 +527,7 @@ async
 function
 isNotShownForInline
 (
-testActor
+highlighterTestFront
 inspector
 highlighterFront
 )
@@ -573,7 +573,7 @@ const
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -607,7 +607,7 @@ async
 function
 isVisibleWhenShown
 (
-testActor
+highlighterTestFront
 inspector
 highlighterFront
 )
@@ -652,7 +652,7 @@ let
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -700,7 +700,7 @@ hide
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -733,7 +733,7 @@ async
 function
 linesLinkThePolygons
 (
-testActor
+highlighterTestFront
 inspector
 highlighterFront
 )
@@ -822,7 +822,7 @@ const
 x1
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -845,7 +845,7 @@ const
 y1
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -868,7 +868,7 @@ const
 x2
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -891,7 +891,7 @@ const
 y2
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -927,7 +927,7 @@ let
 points1
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -958,7 +958,7 @@ let
 points2
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

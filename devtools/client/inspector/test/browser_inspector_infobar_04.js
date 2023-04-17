@@ -24,7 +24,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -64,7 +64,7 @@ testInfobar
 (
 testData
 inspector
-testActor
+highlighterTestFront
 )
 ;
 info
@@ -103,7 +103,7 @@ testInfobar
 (
 testData
 inspector
-testActor
+highlighterTestFront
 )
 ;
 }
@@ -115,7 +115,7 @@ testInfobar
 (
 test
 inspector
-testActor
+highlighterTestFront
 )
 {
 info
@@ -157,7 +157,7 @@ const
 id
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (
@@ -192,7 +192,7 @@ const
 dims
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (

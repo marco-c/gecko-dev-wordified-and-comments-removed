@@ -24,7 +24,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -117,7 +117,7 @@ highlight
 await
 checkTextNodeInfoBar
 (
-testActor
+highlighterTestFront
 )
 ;
 info
@@ -149,7 +149,7 @@ highlight
 await
 checkTextNodeInfoBar
 (
-testActor
+highlighterTestFront
 )
 ;
 info
@@ -181,7 +181,7 @@ highlight
 await
 checkTextNodeInfoBar
 (
-testActor
+highlighterTestFront
 )
 ;
 }
@@ -191,14 +191,14 @@ async
 function
 checkTextNodeInfoBar
 (
-testActor
+highlighterTestFront
 )
 {
 const
 tag
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (
@@ -234,7 +234,7 @@ const
 dims
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (

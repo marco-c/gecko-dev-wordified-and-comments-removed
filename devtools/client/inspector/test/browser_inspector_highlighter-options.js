@@ -83,14 +83,14 @@ checkHighlighter
 async
 function
 (
-testActor
+highlighterTestFront
 )
 {
 let
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -123,7 +123,7 @@ visible
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -175,7 +175,7 @@ left
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -231,7 +231,7 @@ checkHighlighter
 async
 function
 (
-testActor
+highlighterTestFront
 )
 {
 for
@@ -261,7 +261,7 @@ d
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -308,7 +308,7 @@ checkHighlighter
 async
 function
 (
-testActor
+highlighterTestFront
 )
 {
 for
@@ -336,7 +336,7 @@ const
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -395,14 +395,14 @@ checkHighlighter
 async
 function
 (
-testActor
+highlighterTestFront
 )
 {
 const
 hidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -464,7 +464,7 @@ checkHighlighter
 async
 function
 (
-testActor
+highlighterTestFront
 )
 {
 let
@@ -473,7 +473,7 @@ d
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -500,7 +500,7 @@ d
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -528,7 +528,7 @@ d
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -556,7 +556,7 @@ d
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -607,7 +607,7 @@ checkHighlighter
 async
 function
 (
-testActor
+highlighterTestFront
 )
 {
 let
@@ -616,7 +616,7 @@ d
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -642,7 +642,7 @@ d
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -670,7 +670,7 @@ d
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -698,7 +698,7 @@ d
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -752,14 +752,14 @@ checkHighlighter
 async
 function
 (
-testActor
+highlighterTestFront
 )
 {
 const
 topY1
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -781,7 +781,7 @@ const
 rightX1
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -803,7 +803,7 @@ const
 bottomY1
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -825,7 +825,7 @@ const
 leftX1
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -849,7 +849,7 @@ points
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -993,14 +993,14 @@ checkHighlighter
 async
 function
 (
-testActor
+highlighterTestFront
 )
 {
 const
 topY1
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1022,7 +1022,7 @@ const
 rightX1
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1044,7 +1044,7 @@ const
 bottomY1
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1066,7 +1066,7 @@ const
 leftX1
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1090,7 +1090,7 @@ points
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -1235,7 +1235,7 @@ checkHighlighter
 async
 function
 (
-testActor
+highlighterTestFront
 )
 {
 for
@@ -1265,7 +1265,7 @@ d
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -1298,7 +1298,7 @@ const
 faded
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1399,7 +1399,7 @@ checkHighlighter
 async
 function
 (
-testActor
+highlighterTestFront
 )
 {
 for
@@ -1429,7 +1429,7 @@ d
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -1462,7 +1462,7 @@ const
 faded
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1541,7 +1541,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -1639,7 +1639,7 @@ options
 await
 checkHighlighter
 (
-testActor
+highlighterTestFront
 )
 ;
 info

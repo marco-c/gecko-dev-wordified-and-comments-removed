@@ -24,7 +24,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -227,7 +227,7 @@ testPosition
 (
 currTest
 inspector
-testActor
+highlighterTestFront
 )
 ;
 }
@@ -240,7 +240,7 @@ testPosition
 (
 test
 inspector
-testActor
+highlighterTestFront
 )
 {
 info
@@ -267,7 +267,7 @@ const
 position
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -310,7 +310,7 @@ const
 tag
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (
@@ -358,7 +358,7 @@ const
 id
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (
@@ -404,7 +404,7 @@ const
 classes
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (
@@ -447,7 +447,7 @@ arrowed
 !
 (
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -502,7 +502,7 @@ const
 dims
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (

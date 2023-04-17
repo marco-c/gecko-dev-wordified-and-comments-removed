@@ -40,7 +40,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -128,7 +128,7 @@ let
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -212,7 +212,7 @@ visible
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -262,7 +262,7 @@ inspector
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (

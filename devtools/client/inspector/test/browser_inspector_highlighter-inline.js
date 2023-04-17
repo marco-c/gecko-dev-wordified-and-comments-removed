@@ -78,7 +78,7 @@ inspector
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -185,7 +185,7 @@ points
 }
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterRegionPath
 (
@@ -475,7 +475,7 @@ const
 contentRect
 =
 await
-testActor
+highlighterTestFront
 .
 getGuidesRectangle
 (
