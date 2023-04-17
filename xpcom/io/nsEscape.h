@@ -254,12 +254,6 @@ esc_Spaces
 <
 <
 16
-esc_ExtHandler
-=
-1u
-<
-<
-17
 }
 ;
 bool

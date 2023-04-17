@@ -309,16 +309,6 @@ ESCAPE_URL_SKIP_CONTROL
 <
 15
 ;
-const
-unsigned
-long
-ESCAPE_URL_EXT_HANDLER
-=
-1
-<
-<
-17
-;
 ACString
 escapeURL
 (
