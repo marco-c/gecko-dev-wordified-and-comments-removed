@@ -382,6 +382,8 @@ AccelerateWheelDelta
 WidgetWheelEvent
 *
 aEvent
+bool
+aAllowScrollSpeedOverride
 )
 ;
 protected

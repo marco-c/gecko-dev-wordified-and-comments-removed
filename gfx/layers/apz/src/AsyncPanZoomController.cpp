@@ -6925,7 +6925,7 @@ if
 StaticPrefs
 :
 :
-mousewheel_system_scroll_override_enabled
+mousewheel_system_scroll_override_on_root_content_enabled
 (
 )
 &
