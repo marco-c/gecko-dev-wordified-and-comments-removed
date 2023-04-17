@@ -243,7 +243,6 @@ SessionStore
 getClosedTabData
 (
 win
-false
 )
 [
 0

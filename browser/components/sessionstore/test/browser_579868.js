@@ -115,16 +115,11 @@ tab1
 let
 savedState
 =
-JSON
-.
-parse
-(
 ss
 .
 getClosedTabData
 (
 window
-)
 )
 [
 0

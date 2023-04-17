@@ -101,11 +101,16 @@ tab
 let
 closedTabData
 =
+JSON
+.
+stringify
+(
 ss
 .
 getClosedTabData
 (
 window
+)
 )
 ;
 ok

@@ -162,7 +162,6 @@ SessionStore
 getClosedTabData
 (
 window
-false
 )
 ;
 for
@@ -610,7 +609,6 @@ SessionStore
 getClosedTabData
 (
 window
-false
 )
 ;
 let
@@ -843,7 +841,6 @@ SessionStore
 getClosedTabData
 (
 window
-false
 )
 ;
 for

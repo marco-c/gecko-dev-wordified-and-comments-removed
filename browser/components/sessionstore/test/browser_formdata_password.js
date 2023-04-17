@@ -264,16 +264,11 @@ formdata
 }
 ]
 =
-JSON
-.
-parse
-(
 ss
 .
 getClosedTabData
 (
 window
-)
 )
 ;
 let

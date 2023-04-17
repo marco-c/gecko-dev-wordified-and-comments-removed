@@ -318,16 +318,11 @@ tab
 let
 undoItems
 =
-JSON
-.
-parse
-(
 ss
 .
 getClosedTabData
 (
 window
-)
 )
 ;
 let

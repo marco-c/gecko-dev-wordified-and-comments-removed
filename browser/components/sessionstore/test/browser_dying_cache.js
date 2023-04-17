@@ -357,16 +357,11 @@ url
 }
 ]
 =
-JSON
-.
-parse
-(
 ss
 .
 getClosedTabData
 (
 window
-)
 )
 ;
 is
