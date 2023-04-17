@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 expect_events
 ;
 use

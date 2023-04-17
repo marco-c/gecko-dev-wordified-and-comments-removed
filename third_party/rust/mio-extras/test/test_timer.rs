@@ -2374,11 +2374,9 @@ from
 (
 elapsed
 .
-subsec_nanos
+subsec_millis
 (
 )
-/
-1_000_000
 )
 }
 fn

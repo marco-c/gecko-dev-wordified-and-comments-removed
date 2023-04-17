@@ -110,6 +110,11 @@ reasonable
 [
 package
 ]
+edition
+=
+"
+2018
+"
 name
 =
 "
@@ -124,7 +129,7 @@ version
 .
 0
 .
-5
+6
 "
 authors
 =
@@ -210,6 +215,12 @@ license
 =
 "
 MIT
+OR
+Apache
+-
+2
+.
+0
 "
 repository
 =
