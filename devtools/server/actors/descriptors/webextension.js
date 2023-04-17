@@ -294,7 +294,7 @@ temporarilyInstalled
 traits
 :
 {
-supportsReloadBrowsingContext
+supportsReloadDescriptor
 :
 true
 }
@@ -523,7 +523,7 @@ this
 _form
 ;
 }
-reloadBrowsingContext
+reloadDescriptor
 (
 {
 bypassCache

@@ -252,7 +252,7 @@ traits
 watcher
 :
 true
-supportsReloadBrowsingContext
+supportsReloadDescriptor
 :
 true
 }
@@ -820,7 +820,7 @@ pending
 )
 ;
 }
-reloadBrowsingContext
+reloadDescriptor
 (
 {
 bypassCache

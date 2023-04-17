@@ -95,7 +95,7 @@ json
 )
 }
 }
-reloadBrowsingContext
+reloadDescriptor
 :
 {
 request

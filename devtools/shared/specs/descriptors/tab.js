@@ -91,7 +91,7 @@ watcher
 "
 )
 }
-reloadBrowsingContext
+reloadDescriptor
 :
 {
 request

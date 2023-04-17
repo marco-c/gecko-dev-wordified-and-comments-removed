@@ -667,7 +667,7 @@ traits
 watcher
 :
 true
-supportsReloadBrowsingContext
+supportsReloadDescriptor
 :
 this
 .
@@ -677,7 +677,7 @@ isParent
 ;
 }
 async
-reloadBrowsingContext
+reloadDescriptor
 (
 {
 bypassCache
@@ -697,7 +697,7 @@ new
 Error
 (
 "
-reloadBrowsingContext
+reloadDescriptor
 is
 not
 available
