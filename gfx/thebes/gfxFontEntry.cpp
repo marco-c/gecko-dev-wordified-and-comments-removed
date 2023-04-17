@@ -2994,7 +2994,8 @@ void
 *
 unsigned
 int
-size_t
+unsigned
+int
 *
 )
 >
@@ -3207,7 +3208,8 @@ int
 aName
 tainted_opaque_gr
 <
-size_t
+unsigned
+int
 *
 >
 aLen
@@ -3221,7 +3223,8 @@ tl_grGetFontTableCallbackData
 ;
 tainted_gr
 <
-size_t
+unsigned
+int
 *
 >
 t_aLen

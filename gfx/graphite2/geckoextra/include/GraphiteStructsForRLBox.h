@@ -71,7 +71,8 @@ g
 \
 f
 (
-size_t
+unsigned
+int
 size
 FIELD_NORMAL
 #
@@ -140,7 +141,8 @@ g
 \
 f
 (
-size_t
+unsigned
+int
 size
 FIELD_NORMAL
 #
@@ -165,7 +167,8 @@ void
 *
 unsigned
 int
-size_t
+unsigned
+int
 *
 )
 get_table

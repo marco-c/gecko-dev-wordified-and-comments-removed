@@ -2371,7 +2371,8 @@ int
 aName
 tainted_opaque_gr
 <
-size_t
+unsigned
+int
 *
 >
 aLen
