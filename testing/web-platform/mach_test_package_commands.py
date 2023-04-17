@@ -534,6 +534,7 @@ def
 run_web_platform_tests
 (
 self
+command_context
 *
 *
 kwargs
@@ -587,6 +588,7 @@ def
 run_wpt
 (
 self
+command_context
 *
 *
 params

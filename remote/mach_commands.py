@@ -240,6 +240,7 @@ def
 remote
 (
 self
+command_context
 )
 :
         
@@ -421,6 +422,7 @@ def
 vendor_puppeteer
 (
 self
+command_context
 repository
 commitish
 install
@@ -3749,6 +3751,8 @@ puppeteer_test
 (
         
 self
+        
+command_context
         
 binary
 =

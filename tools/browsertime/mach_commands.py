@@ -3685,6 +3685,8 @@ browsertime
         
 self
         
+command_context
+        
 args
         
 verbose

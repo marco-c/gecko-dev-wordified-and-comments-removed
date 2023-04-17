@@ -791,6 +791,7 @@ def
 reftest
 (
 self
+command_context
 *
 *
 kwargs
