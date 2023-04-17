@@ -84,6 +84,9 @@ TEST_DIRS
 "
 interceptor
 "
+"
+gtest
+"
 ]
 OS_LIBS
 +
@@ -132,13 +135,5 @@ LDFLAGS
 "
 -
 municode
-"
-]
-TEST_DIRS
-+
-=
-[
-"
-gtest
 "
 ]
