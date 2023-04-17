@@ -109,7 +109,7 @@ checkers
 TRAILING
 WHITESPACE
 :
-WebIDL
+webidl
 /
 valid
 /
@@ -712,7 +712,7 @@ CR
 AT
 EOL
 :
-WebIDL
+webidl
 /
 valid
 /
