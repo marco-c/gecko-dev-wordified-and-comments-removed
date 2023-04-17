@@ -1280,8 +1280,6 @@ build_type
     
 assertions
     
-python_path
-    
 libcxx_include_dir
     
 build_wasm
@@ -1671,19 +1669,6 @@ else
 "
 OFF
 "
-)
-            
-"
--
-DPYTHON_EXECUTABLE
-=
-%
-s
-"
-%
-slashify_path
-(
-python_path
 )
             
 "
@@ -4998,41 +4983,6 @@ assertions
 "
 )
     
-python_path
-=
-None
-    
-if
-"
-python_path
-"
-not
-in
-config
-:
-        
-raise
-ValueError
-(
-"
-Config
-file
-needs
-to
-set
-python_path
-"
-)
-    
-python_path
-=
-config
-[
-"
-python_path
-"
-]
-    
 ndk_dir
 =
 None
@@ -6174,8 +6124,6 @@ build_type
         
 assertions
         
-python_path
-        
 libcxx_include_dir
         
 build_wasm
@@ -6340,8 +6288,6 @@ build_type
             
 assertions
             
-python_path
-            
 libcxx_include_dir
             
 build_wasm
@@ -6500,8 +6446,6 @@ osx_cross_compile
 build_type
             
 assertions
-            
-python_path
             
 libcxx_include_dir
             
@@ -6756,8 +6700,6 @@ osx_cross_compile
 build_type
             
 assertions
-            
-python_path
             
 libcxx_include_dir
             
