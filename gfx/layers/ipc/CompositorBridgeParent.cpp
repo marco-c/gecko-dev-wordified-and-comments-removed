@@ -7514,6 +7514,15 @@ sIndirectLayerTrees
 aLayersId
 ]
 .
+mRoot
+=
+nullptr
+;
+sIndirectLayerTrees
+[
+aLayersId
+]
+.
 mController
 =
 aController
