@@ -10372,11 +10372,9 @@ isTrue
 define
 TYPED_ARRAY_CONSTRUCTOR_NATIVE
 (
-_
 T
 N
 )
-\
 branchIsTypedArrayCtor
 (
 Scalar
