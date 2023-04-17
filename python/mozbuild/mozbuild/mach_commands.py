@@ -2592,7 +2592,7 @@ json
 )
     
 def
-database
+get_warnings_database
 (
 self
 command_context
@@ -2769,7 +2769,7 @@ database
 =
 self
 .
-database
+get_warnings_database
 (
 command_context
 )
@@ -3035,7 +3035,7 @@ database
 =
 self
 .
-database
+get_warnings_database
 (
 command_context
 )

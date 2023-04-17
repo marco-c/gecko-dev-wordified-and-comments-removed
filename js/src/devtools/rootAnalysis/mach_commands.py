@@ -409,7 +409,7 @@ rootAnalysis
 )
     
 def
-work_dir
+get_work_dir
 (
 self
 command_context
@@ -1488,7 +1488,7 @@ work_dir
 =
 self
 .
-work_dir
+get_work_dir
 (
 command_context
 application
@@ -2457,7 +2457,7 @@ work_dir
 =
 self
 .
-work_dir
+get_work_dir
 (
 command_context
 application
