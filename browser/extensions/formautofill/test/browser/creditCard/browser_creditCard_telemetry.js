@@ -848,7 +848,7 @@ detected
 ;
 TelemetryTestUtils
 .
-assertScalar
+assertScalarUnset
 (
 TelemetryTestUtils
 .
@@ -864,16 +864,6 @@ formautofill
 creditCards
 .
 submitted_sections_count
-"
-0
-"
-There
-should
-be
-no
-sections
-submitted
-.
 "
 )
 ;
