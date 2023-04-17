@@ -1359,8 +1359,6 @@ mFullGCTimer
 =
 nullptr
 ;
-public
-:
 JS
 :
 :
