@@ -311,12 +311,15 @@ mozInlineSpellStatus
 mozInlineSpellChecker
 *
 aSpellChecker
+Operation
+aOp
 bool
 aForceNavigationWordCheck
 int32_t
 aNewNavigationPositionOffset
 )
 ;
+const
 Operation
 mOp
 ;
