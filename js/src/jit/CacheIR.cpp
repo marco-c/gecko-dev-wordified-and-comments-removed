@@ -6512,7 +6512,10 @@ NoAction
 }
 Rooted
 <
+Maybe
+<
 PropertyDescriptor
+>
 >
 desc
 (
@@ -6574,7 +6577,7 @@ if
 (
 desc
 .
-object
+isSome
 (
 )
 )
@@ -6701,7 +6704,8 @@ if
 (
 !
 desc
-.
+-
+>
 isAccessorDescriptor
 (
 )
@@ -6719,7 +6723,8 @@ getter
 (
 cx_
 desc
-.
+-
+>
 getterObject
 (
 )
