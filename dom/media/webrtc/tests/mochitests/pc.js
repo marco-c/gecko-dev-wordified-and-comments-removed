@@ -4968,6 +4968,17 @@ getUserMedia
 constraints
 )
 {
+SpecialPowers
+.
+wrap
+(
+document
+)
+.
+notifyUserGestureActivation
+(
+)
+;
 var
 stream
 =
