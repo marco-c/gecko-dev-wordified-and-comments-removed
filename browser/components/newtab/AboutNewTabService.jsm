@@ -1490,6 +1490,14 @@ welcomeURL
 (
 )
 {
+NimbusFeatures
+.
+aboutwelcome
+.
+recordExposureEvent
+(
+)
+;
 if
 (
 NimbusFeatures
@@ -1500,9 +1508,6 @@ isEnabled
 (
 {
 defaultValue
-:
-true
-sendExposureEvent
 :
 true
 }
