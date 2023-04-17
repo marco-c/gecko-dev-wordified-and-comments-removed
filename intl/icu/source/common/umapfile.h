@@ -83,6 +83,16 @@ MAP_IMPLEMENTATION
 MAP_NONE
 #
 elif
+defined
+(
+__wasi__
+)
+#
+define
+MAP_IMPLEMENTATION
+MAP_STDIO
+#
+elif
 U_PLATFORM_USES_ONLY_WIN32_API
 #
 define

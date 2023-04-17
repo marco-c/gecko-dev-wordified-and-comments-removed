@@ -11,10 +11,15 @@ include
 algorithm
 >
 #
+ifndef
+__wasi__
+#
 include
 <
 mutex
 >
+#
+endif
 #
 include
 "
@@ -46,6 +51,9 @@ gCache
 =
 NULL
 ;
+#
+ifndef
+__wasi__
 static
 std
 :
@@ -64,6 +72,8 @@ condition_variable
 *
 gInProgressValueAddedCond
 ;
+#
+endif
 static
 icu
 :
@@ -115,6 +125,9 @@ gCache
 =
 nullptr
 ;
+#
+ifndef
+__wasi__
 gCacheMutex
 -
 >
@@ -139,6 +152,8 @@ gInProgressValueAddedCond
 =
 nullptr
 ;
+#
+endif
 return
 TRUE
 ;
@@ -285,6 +300,9 @@ UCLN_COMMON_UNIFIED_CACHE
 unifiedcache_cleanup
 )
 ;
+#
+ifndef
+__wasi__
 gCacheMutex
 =
 STATIC_NEW
@@ -305,6 +323,8 @@ std
 condition_variable
 )
 ;
+#
+endif
 gCache
 =
 new
@@ -563,6 +583,9 @@ U_ILLEGAL_ARGUMENT_ERROR
 return
 ;
 }
+#
+ifndef
+__wasi__
 std
 :
 :
@@ -579,6 +602,8 @@ lock
 gCacheMutex
 )
 ;
+#
+endif
 fMaxUnused
 =
 count
@@ -597,6 +622,9 @@ unusedCount
 )
 const
 {
+#
+ifndef
+__wasi__
 std
 :
 :
@@ -613,6 +641,8 @@ lock
 gCacheMutex
 )
 ;
+#
+endif
 return
 uhash_count
 (
@@ -631,6 +661,9 @@ autoEvictedCount
 )
 const
 {
+#
+ifndef
+__wasi__
 std
 :
 :
@@ -647,6 +680,8 @@ lock
 gCacheMutex
 )
 ;
+#
+endif
 return
 fAutoEvictedCount
 ;
@@ -660,6 +695,9 @@ keyCount
 )
 const
 {
+#
+ifndef
+__wasi__
 std
 :
 :
@@ -676,6 +714,8 @@ lock
 gCacheMutex
 )
 ;
+#
+endif
 return
 uhash_count
 (
@@ -692,6 +732,9 @@ flush
 )
 const
 {
+#
+ifndef
+__wasi__
 std
 :
 :
@@ -708,6 +751,8 @@ lock
 gCacheMutex
 )
 ;
+#
+endif
 while
 (
 _flush
@@ -726,6 +771,9 @@ handleUnreferencedObject
 )
 const
 {
+#
+ifndef
+__wasi__
 std
 :
 :
@@ -742,6 +790,8 @@ lock
 gCacheMutex
 )
 ;
+#
+endif
 -
 -
 fNumValuesInUse
@@ -828,6 +878,9 @@ dumpContents
 )
 const
 {
+#
+ifndef
+__wasi__
 std
 :
 :
@@ -844,6 +897,8 @@ lock
 gCacheMutex
 )
 ;
+#
+endif
 _dumpContents
 (
 )
@@ -1063,6 +1118,9 @@ flush
 )
 ;
 {
+#
+ifndef
+__wasi__
 std
 :
 :
@@ -1079,6 +1137,8 @@ lock
 gCacheMutex
 )
 ;
+#
+endif
 _flush
 (
 TRUE
@@ -1604,6 +1664,9 @@ status
 )
 const
 {
+#
+ifndef
+__wasi__
 std
 :
 :
@@ -1620,6 +1683,8 @@ lock
 gCacheMutex
 )
 ;
+#
+endif
 const
 UHashElement
 *
@@ -1731,6 +1796,9 @@ status
 U_ZERO_ERROR
 )
 ;
+#
+ifndef
+__wasi__
 std
 :
 :
@@ -1747,6 +1815,8 @@ lock
 gCacheMutex
 )
 ;
+#
+endif
 const
 UHashElement
 *
@@ -1773,6 +1843,9 @@ element
 )
 )
 {
+#
+ifndef
+__wasi__
 gInProgressValueAddedCond
 -
 >
@@ -1781,6 +1854,8 @@ wait
 lock
 )
 ;
+#
+endif
 element
 =
 uhash_find
@@ -2160,6 +2235,9 @@ removeSoftRef
 oldValue
 )
 ;
+#
+ifndef
+__wasi__
 gInProgressValueAddedCond
 -
 >
@@ -2167,6 +2245,8 @@ notify_all
 (
 )
 ;
+#
+endif
 }
 void
 UnifiedCache

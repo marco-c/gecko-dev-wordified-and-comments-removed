@@ -49,6 +49,9 @@ not
 supported
 #
 endif
+#
+ifndef
+__wasi__
 namespace
 {
 std
@@ -85,6 +88,8 @@ pInitFlag
 initFlag
 ;
 }
+#
+endif
 U_CDECL_BEGIN
 static
 UBool
@@ -93,6 +98,9 @@ umtx_cleanup
 (
 )
 {
+#
+ifndef
+__wasi__
 initMutex
 -
 >
@@ -138,6 +146,8 @@ once_flag
 (
 )
 ;
+#
+endif
 return
 true
 ;
@@ -149,6 +159,9 @@ umtx_init
 (
 )
 {
+#
+ifndef
+__wasi__
 initMutex
 =
 STATIC_NEW
@@ -175,8 +188,13 @@ UCLN_COMMON_MUTEX
 umtx_cleanup
 )
 ;
+#
+endif
 }
 U_CDECL_END
+#
+ifndef
+__wasi__
 std
 :
 :
@@ -299,6 +317,8 @@ return
 retPtr
 ;
 }
+#
+endif
 UMutex
 *
 UMutex
@@ -340,6 +360,9 @@ m
 next
 )
 {
+#
+ifndef
+__wasi__
 (
 *
 m
@@ -360,6 +383,8 @@ fMutex
 =
 nullptr
 ;
+#
+endif
 next
 =
 m
@@ -390,6 +415,9 @@ UMutex
 mutex
 )
 {
+#
+ifndef
+__wasi__
 if
 (
 mutex
@@ -411,6 +439,8 @@ lock
 (
 )
 ;
+#
+endif
 }
 U_CAPI
 void
@@ -422,6 +452,9 @@ UMutex
 mutex
 )
 {
+#
+ifndef
+__wasi__
 if
 (
 mutex
@@ -443,6 +476,8 @@ unlock
 (
 )
 ;
+#
+endif
 }
 U_COMMON_API
 UBool
@@ -454,6 +489,9 @@ UInitOnce
 uio
 )
 {
+#
+ifndef
+__wasi__
 std
 :
 :
@@ -480,6 +518,8 @@ lock
 initMutex
 )
 ;
+#
+endif
 if
 (
 umtx_loadAcquire
@@ -507,6 +547,9 @@ true
 }
 else
 {
+#
+ifndef
+__wasi__
 while
 (
 umtx_loadAcquire
@@ -539,6 +582,8 @@ fState
 2
 )
 ;
+#
+endif
 return
 false
 ;
@@ -554,6 +599,9 @@ UInitOnce
 uio
 )
 {
+#
+ifndef
+__wasi__
 {
 std
 :
@@ -587,6 +635,8 @@ notify_all
 (
 )
 ;
+#
+endif
 }
 U_NAMESPACE_END
 U_DEPRECATED
