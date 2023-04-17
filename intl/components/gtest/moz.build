@@ -18,11 +18,6 @@ TestDateTimeFormat
 cpp
 "
 "
-TestLocaleCanonicalizer
-.
-cpp
-"
-"
 TestNumberFormat
 .
 cpp
