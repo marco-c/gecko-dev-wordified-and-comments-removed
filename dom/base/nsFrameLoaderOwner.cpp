@@ -471,7 +471,7 @@ ChangeRemotenessContextType
 &
 aContextType
 const
-RemotenessChangeOptions
+NavigationIsolationOptions
 &
 aOptions
 bool
@@ -1266,7 +1266,7 @@ isRemote
 false
 )
 ;
-RemotenessChangeOptions
+NavigationIsolationOptions
 options
 ;
 ChangeRemotenessCommon
@@ -1380,7 +1380,7 @@ host
 ;
 }
 ;
-RemotenessChangeOptions
+NavigationIsolationOptions
 options
 ;
 ChangeRemotenessCommon
@@ -1408,7 +1408,7 @@ ContentParent
 *
 aContentParent
 const
-RemotenessChangeOptions
+NavigationIsolationOptions
 &
 aOptions
 BrowsingContextGroup
@@ -1655,7 +1655,7 @@ displayed
 ;
 }
 ;
-RemotenessChangeOptions
+NavigationIsolationOptions
 options
 ;
 ChangeRemotenessCommon

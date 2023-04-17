@@ -4739,17 +4739,3 @@ webauthn_enable_android_fido2
 true
 )
 ;
-pref
-(
-"
-browser
-.
-tabs
-.
-remote
-.
-separatePrivilegedMozillaWebContentProcess
-"
-false
-)
-;
