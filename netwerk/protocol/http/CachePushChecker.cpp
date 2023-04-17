@@ -970,6 +970,7 @@ isForcedValid
 cachedResponseHead
 0
 false
+false
 isImmutable
 false
 requestHead

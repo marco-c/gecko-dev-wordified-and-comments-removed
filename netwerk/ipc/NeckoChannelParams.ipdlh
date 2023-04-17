@@ -734,6 +734,9 @@ bool
 allowStaleCacheContent
 ;
 bool
+forceValidateCacheContent
+;
+bool
 preferCacheLoadOverBypass
 ;
 nsCString
