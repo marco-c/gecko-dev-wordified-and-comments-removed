@@ -4667,6 +4667,15 @@ ExtContentPolicyType
 :
 :
 TYPE_STYLESHEET
+&
+&
+contentPolicyType
+!
+=
+ExtContentPolicyType
+:
+:
+TYPE_DOCUMENT
 )
 {
 return
