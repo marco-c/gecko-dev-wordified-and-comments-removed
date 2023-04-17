@@ -485,9 +485,7 @@ service
 GetCDM
 (
 nodeIdParts
-{
 keySystem
-}
 helper
 )
 ;
