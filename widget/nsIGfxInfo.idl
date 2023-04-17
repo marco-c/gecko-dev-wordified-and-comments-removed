@@ -246,11 +246,6 @@ isHeadless
 ;
 readonly
 attribute
-boolean
-UsesTiling
-;
-readonly
-attribute
 unsigned
 long
 TargetFrameRate

@@ -4178,9 +4178,6 @@ environment
 "
 ]
 "
-usesTiling
-"
-"
 targetFrameRate
 "
 ]

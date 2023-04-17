@@ -91,13 +91,6 @@ GetPlatform
 )
 ;
 }
-bool
-UsesTiling
-(
-)
-const
-override
-;
 already_AddRefed
 <
 gfxASurface
