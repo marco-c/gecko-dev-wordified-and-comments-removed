@@ -411,7 +411,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 aPaintRegion
 )
@@ -439,7 +439,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 aNewValidRegion
 )
@@ -2443,7 +2443,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 staleRegion
 )
@@ -2639,7 +2639,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 *
 transformedCompositionBounds
@@ -2700,7 +2700,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 coherentUpdateRect
 )
@@ -2794,7 +2794,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 aRegionToPaint
 )
@@ -3230,7 +3230,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 aValidRegion
 )
@@ -3258,7 +3258,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 aInvalidRegion
 )
@@ -3287,7 +3287,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 aOldValidRegion
 )
@@ -3355,7 +3355,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 regionToPaint
 )
@@ -3456,7 +3456,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 updatedValidRegion
 )
@@ -3486,7 +3486,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 remainingInvalidRegion
 )

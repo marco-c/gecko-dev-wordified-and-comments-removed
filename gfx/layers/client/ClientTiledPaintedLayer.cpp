@@ -927,7 +927,7 @@ mPaintData
 .
 mCriticalDisplayPort
 ?
-Stringify
+ToString
 (
 *
 mPaintData
@@ -969,7 +969,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 mPaintData
 .
@@ -1058,7 +1058,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 mPaintData
 .
@@ -1101,7 +1101,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 mPaintData
 .
@@ -1539,7 +1539,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 oldValidRegion
 )
@@ -1637,7 +1637,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 aInvalidRegion
 )
@@ -1667,7 +1667,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 GetValidRegion
 (
@@ -1976,7 +1976,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 invalidRegion
 )
@@ -2009,7 +2009,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 oldValidRegion
 )
@@ -2085,7 +2085,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 mLowPrecisionValidRegion
 )
@@ -2500,7 +2500,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 mVisibleRegion
 )
@@ -2526,7 +2526,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 GetValidRegion
 (
@@ -2557,7 +2557,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 mLowPrecisionValidRegion
 )
@@ -2789,7 +2789,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 validRegion
 )
@@ -2817,7 +2817,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 invalidRegion
 )
@@ -2871,7 +2871,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 invalidRegion
 )
@@ -2932,7 +2932,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 lowPrecisionInvalidRegion
 )

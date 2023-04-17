@@ -972,7 +972,7 @@ n
 "
 &
 mPaintedLayer
-Stringify
+ToString
 (
 copyableRegion
 )
