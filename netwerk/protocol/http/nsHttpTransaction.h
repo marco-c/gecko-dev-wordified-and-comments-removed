@@ -1708,6 +1708,11 @@ CollectTelemetryForUploads
 (
 )
 ;
+void
+CheckCert
+(
+)
+;
 public
 :
 uint32_t
