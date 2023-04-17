@@ -9154,6 +9154,12 @@ display
 :
 flex
 ;
+align
+-
+items
+:
+center
+;
 flex
 -
 shrink
