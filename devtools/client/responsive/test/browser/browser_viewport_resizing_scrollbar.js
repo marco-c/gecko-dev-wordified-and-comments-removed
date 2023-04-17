@@ -269,9 +269,8 @@ manager
 )
 ;
 await
-reloadViewport
+reloadBrowser
 (
-ui
 )
 ;
 await

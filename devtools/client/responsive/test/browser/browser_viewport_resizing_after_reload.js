@@ -310,9 +310,8 @@ b
 )
 ;
 await
-reloadViewport
+reloadBrowser
 (
-ui
 )
 ;
 await
