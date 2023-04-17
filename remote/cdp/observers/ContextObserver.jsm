@@ -688,6 +688,13 @@ docShell
 browsingContext
 .
 id
+window
+:
+docShell
+.
+browsingContext
+.
+window
 }
 )
 ;
