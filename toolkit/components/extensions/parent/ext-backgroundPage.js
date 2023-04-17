@@ -586,10 +586,15 @@ nsIServiceWorkerRegistrationInfo
 }
 shutdown
 (
+isAppShutdown
 )
 {
 if
 (
+!
+isAppShutdown
+&
+&
 this
 .
 registrationInfo
@@ -603,13 +608,13 @@ forceShutdown
 (
 )
 ;
+}
 this
 .
 registrationInfo
 =
 null
 ;
-}
 }
 }
 this
@@ -997,6 +1002,7 @@ page
 }
 onShutdown
 (
+isAppShutdown
 )
 {
 if
@@ -1012,6 +1018,7 @@ bgInstance
 .
 shutdown
 (
+isAppShutdown
 )
 ;
 this
