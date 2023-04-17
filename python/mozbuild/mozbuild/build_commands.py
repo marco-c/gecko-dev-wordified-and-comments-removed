@@ -337,31 +337,22 @@ occurred
 def
 build
 (
-        
 self
-        
-context_context
-        
 what
 =
 None
-        
 jobs
 =
 0
-        
 directory
 =
 None
-        
 verbose
 =
 False
-        
 keep_going
 =
 False
-    
 )
 :
         
@@ -1020,23 +1011,16 @@ options
 def
 configure
 (
-        
 self
-        
-command_context
-        
 options
 =
 None
-        
 buildstatus_messages
 =
 False
-        
 line_handler
 =
 None
-    
 )
 :
         
@@ -1242,9 +1226,7 @@ display
 def
 resource_usage
 (
-        
 self
-command_context
 address
 =
 None
@@ -1257,7 +1239,6 @@ None
 url
 =
 None
-    
 )
 :
         
@@ -1633,9 +1614,7 @@ out
 def
 build_backend
 (
-        
 self
-command_context
 backend
 diff
 =
@@ -1646,7 +1625,6 @@ False
 dry_run
 =
 False
-    
 )
 :
         

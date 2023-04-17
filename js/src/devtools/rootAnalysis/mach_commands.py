@@ -233,6 +233,8 @@ MachCommandBase
 )
 :
     
+property
+    
 def
 state_dir
 (
@@ -264,6 +266,8 @@ mozbuild
 "
 )
 )
+    
+property
     
 def
 tools_dir
@@ -320,14 +324,14 @@ join
 self
 .
 state_dir
-(
-)
 "
 hazard
 -
 tools
 "
 )
+    
+property
     
 def
 sixgill_dir
@@ -346,12 +350,12 @@ join
 self
 .
 tools_dir
-(
-)
 "
 sixgill
 "
 )
+    
+property
     
 def
 gcc_dir
@@ -370,12 +374,12 @@ join
 self
 .
 tools_dir
-(
-)
 "
 gcc
 "
 )
+    
+property
     
 def
 script_dir
@@ -482,8 +486,6 @@ join
 self
 .
 gcc_dir
-(
-)
 "
 bin
 "
@@ -562,8 +564,6 @@ sixgill_dir
 self
 .
 sixgill_dir
-(
-)
 gccbin
 =
 gccbin
@@ -597,8 +597,6 @@ format
 self
 .
 gcc_dir
-(
-)
 )
     
 Command
@@ -641,7 +639,6 @@ def
 hazards
 (
 self
-command_context
 )
 :
         
@@ -716,7 +713,6 @@ def
 bootstrap
 (
 self
-command_context
 *
 *
 kwargs
@@ -742,8 +738,6 @@ ensure_dir_exists
 self
 .
 tools_dir
-(
-)
 )
 )
         
@@ -878,7 +872,6 @@ def
 build_shell
 (
 self
-command_context
 *
 *
 kwargs
@@ -1389,7 +1382,6 @@ def
 gather_hazard_data
 (
 self
-command_context
 *
 *
 kwargs
@@ -1606,8 +1598,6 @@ script_dir
 self
 .
 script_dir
-(
-)
                 
 objdir
 =
@@ -1624,16 +1614,12 @@ sixgill_dir
 self
 .
 sixgill_dir
-(
-)
                 
 gcc_dir
 =
 self
 .
 gcc_dir
-(
-)
             
 )
             
@@ -1702,8 +1688,6 @@ join
 self
 .
 script_dir
-(
-)
 "
 analyze
 .
@@ -1878,7 +1862,6 @@ def
 inner_compile
 (
 self
-command_context
 *
 *
 kwargs
@@ -2149,8 +2132,6 @@ MOZBUILD_STATE_PATH
 self
 .
 state_dir
-(
-)
         
 env
 [
@@ -2332,7 +2313,6 @@ def
 analyze
 (
 self
-command_context
 application
 shell_objdir
 work_dir
@@ -2374,8 +2354,6 @@ join
 self
 .
 script_dir
-(
-)
 "
 analyze
 .
@@ -2527,7 +2505,6 @@ def
 self_test
 (
 self
-command_context
 shell_objdir
 )
 :
@@ -2567,8 +2544,6 @@ join
 self
 .
 script_dir
-(
-)
 "
 run
 -
@@ -2606,8 +2581,6 @@ join
 self
 .
 tools_dir
-(
-)
 "
 sixgill
 "
@@ -2622,8 +2595,6 @@ gccdir
 self
 .
 gcc_dir
-(
-)
         
 ]
         

@@ -324,7 +324,6 @@ def
 xpcshell
 (
 self
-command_context
 *
 *
 kwargs

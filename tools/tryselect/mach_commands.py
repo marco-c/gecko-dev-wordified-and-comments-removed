@@ -402,6 +402,8 @@ _presets
 =
 None
     
+property
+    
 def
 presets
 (
@@ -597,8 +599,6 @@ user_presets
 self
 .
 presets
-(
-)
 .
 handlers
 [
@@ -617,8 +617,6 @@ list
 self
 .
 presets
-(
-)
 .
 list
 (
@@ -778,8 +776,6 @@ in
 self
 .
 presets
-(
-)
 :
                 
 self
@@ -814,8 +810,6 @@ preset
 self
 .
 presets
-(
-)
 [
 name
 ]
@@ -1209,7 +1203,6 @@ def
 try_default
 (
 self
-command_context
 argv
 =
 None
@@ -1333,8 +1326,6 @@ in
 self
 .
 presets
-(
-)
 :
                 
 self
@@ -1367,8 +1358,6 @@ subcommand
 self
 .
 presets
-(
-)
 [
 preset
 ]
@@ -1467,7 +1456,6 @@ def
 try_fuzzy
 (
 self
-command_context
 *
 *
 kwargs
@@ -2352,7 +2340,6 @@ def
 try_chooser
 (
 self
-command_context
 *
 *
 kwargs
@@ -2545,7 +2532,6 @@ def
 try_auto
 (
 self
-command_context
 *
 *
 kwargs
@@ -2607,7 +2593,6 @@ def
 try_again
 (
 self
-command_context
 *
 *
 kwargs
@@ -2663,7 +2648,6 @@ def
 try_empty
 (
 self
-command_context
 *
 *
 kwargs
@@ -2792,7 +2776,6 @@ def
 try_syntax
 (
 self
-command_context
 *
 *
 kwargs
@@ -3247,7 +3230,6 @@ def
 try_coverage
 (
 self
-command_context
 *
 *
 kwargs
@@ -3323,7 +3305,6 @@ def
 try_release
 (
 self
-command_context
 *
 *
 kwargs
@@ -3398,7 +3379,6 @@ def
 try_scriptworker
 (
 self
-command_context
 *
 *
 kwargs

@@ -285,7 +285,6 @@ func
 def
 _run
 (
-command_context
 *
 *
 kwargs
@@ -308,7 +307,6 @@ keys
 return
 func
 (
-command_context
 *
 *
 kwargs
@@ -426,7 +424,6 @@ test
 .
 run_perftest
 (
-test
 tests
 =
 [
@@ -518,7 +515,6 @@ test
 .
 run_perftest
 (
-test
 *
 *
 kwargs
@@ -612,7 +608,6 @@ test
 .
 run_perftest
 (
-test
 *
 *
 kwargs
@@ -680,8 +675,6 @@ test
 .
 run_perftest
 (
-            
-test
             
 tests
 =
@@ -780,8 +773,6 @@ test
 run_perftest
 (
             
-test
-            
 tests
 =
 [
@@ -878,8 +869,6 @@ test
 .
 run_perftest
 (
-            
-test
             
 tests
 =
@@ -1033,7 +1022,6 @@ test
 .
 run_perftest
 (
-test
 tests
 =
 [
@@ -1109,7 +1097,6 @@ test
 .
 run_tests
 (
-test
 tests
 =
 [
@@ -1182,7 +1169,6 @@ test
 .
 run_tests
 (
-test
 tests
 =
 [
@@ -1272,7 +1258,6 @@ test
 .
 run_tests
 (
-test
 tests
 =
 [
@@ -1497,7 +1482,6 @@ test
 .
 run_perftest
 (
-test
 flavor
 =
 "
@@ -1598,7 +1582,6 @@ test
 .
 run_perftest
 (
-test
 flavor
 =
 "

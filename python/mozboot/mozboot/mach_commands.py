@@ -189,19 +189,13 @@ alone
 def
 bootstrap
 (
-        
 self
-        
-command_context
-        
 application_choice
 =
 None
-        
 no_system_changes
 =
 False
-    
 )
 :
         
@@ -332,7 +326,6 @@ def
 vcs_setup
 (
 self
-command_context
 update_only
 =
 False

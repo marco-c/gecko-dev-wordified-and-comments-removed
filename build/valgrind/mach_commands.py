@@ -219,7 +219,6 @@ def
 valgrind_test
 (
 self
-command_context
 suppressions
 )
 :

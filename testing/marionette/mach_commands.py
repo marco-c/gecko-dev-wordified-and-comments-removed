@@ -313,7 +313,6 @@ def
 marionette_test
 (
 self
-command_context
 tests
 *
 *

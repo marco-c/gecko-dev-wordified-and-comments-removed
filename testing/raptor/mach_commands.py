@@ -1968,7 +1968,6 @@ def
 run_raptor
 (
 self
-command_context
 *
 *
 kwargs
@@ -2392,7 +2391,6 @@ def
 run_raptor_test
 (
 self
-command_context
 *
 *
 kwargs

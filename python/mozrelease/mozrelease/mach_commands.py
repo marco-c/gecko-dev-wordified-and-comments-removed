@@ -88,7 +88,6 @@ def
 release
 (
 self
-command_context
 )
 :
         
@@ -233,7 +232,6 @@ def
 buglist
 (
 self
-command_context
 version
 product
 revision
@@ -508,7 +506,6 @@ def
 buglist_email
 (
 self
-command_context
 *
 *
 options
@@ -705,13 +702,10 @@ org
 def
 push_scriptworker_canary
 (
-        
 self
-command_context
 scriptworkers
 addresses
 ssh_key_secret
-    
 )
 :
         

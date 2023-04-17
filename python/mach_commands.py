@@ -278,19 +278,11 @@ python
 (
         
 self
-        
-command_context
-        
 no_virtualenv
-        
 no_activate
-        
 exec_file
-        
 ipython
-        
 requirements
-        
 args
     
 )
@@ -895,7 +887,6 @@ def
 python_test
 (
 self
-command_context
 *
 args
 *

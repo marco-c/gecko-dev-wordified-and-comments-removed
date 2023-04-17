@@ -169,7 +169,6 @@ def
 busted_default
 (
 self
-command_context
 )
 :
         
@@ -472,7 +471,6 @@ def
 busted_file
 (
 self
-command_context
 against
 )
 :
@@ -1779,15 +1777,12 @@ org
 def
 pastebin
 (
-        
 self
-command_context
 list_highlighters
 highlighter
 expires
 verbose
 path
-    
 )
 :
         
@@ -2747,7 +2742,6 @@ def
 run
 (
 self
-command_context
 *
 *
 options
@@ -2829,7 +2823,6 @@ def
 node
 (
 self
-command_context
 args
 )
 :
@@ -2930,7 +2923,6 @@ def
 npm
 (
 self
-command_context
 args
 )
 :
@@ -3071,7 +3063,6 @@ def
 logspam
 (
 self
-command_context
 )
 :
         
