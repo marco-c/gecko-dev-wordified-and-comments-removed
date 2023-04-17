@@ -42514,6 +42514,9 @@ emitTableSize
 (
 )
 ;
+#
+ifdef
+ENABLE_WASM_GC
 [
 [
 nodiscard
@@ -42775,6 +42778,8 @@ AnyReg
 value
 )
 ;
+#
+endif
 #
 ifdef
 ENABLE_WASM_SIMD
@@ -66054,6 +66059,9 @@ tableIndex
 )
 ;
 }
+#
+ifdef
+ENABLE_WASM_GC
 void
 BaseCompiler
 :
@@ -69496,6 +69504,8 @@ return
 true
 ;
 }
+#
+endif
 #
 ifdef
 ENABLE_WASM_SIMD

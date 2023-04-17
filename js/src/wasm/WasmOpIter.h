@@ -3449,6 +3449,9 @@ uint32_t
 tableIndex
 )
 ;
+#
+ifdef
+ENABLE_WASM_GC
 [
 [
 nodiscard
@@ -3728,6 +3731,8 @@ ValueVector
 values
 )
 ;
+#
+endif
 #
 ifdef
 ENABLE_WASM_SIMD
@@ -16282,6 +16287,9 @@ return
 true
 ;
 }
+#
+ifdef
+ENABLE_WASM_GC
 template
 <
 typename
@@ -18253,6 +18261,8 @@ values
 )
 ;
 }
+#
+endif
 #
 ifdef
 ENABLE_WASM_SIMD
