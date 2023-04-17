@@ -1830,6 +1830,15 @@ spacer
 spacer
 "
 ]
+[
+"
+buttonContainer
+"
+"
+.
+messageDetails
+"
+]
 ]
 )
 {
