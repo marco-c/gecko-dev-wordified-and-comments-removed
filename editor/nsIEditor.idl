@@ -399,17 +399,6 @@ attribute
 nsITransactionManager
 transactionManager
 ;
-[
-can_run_script
-]
-void
-doTransaction
-(
-in
-nsITransaction
-txn
-)
-;
 void
 enableUndo
 (
