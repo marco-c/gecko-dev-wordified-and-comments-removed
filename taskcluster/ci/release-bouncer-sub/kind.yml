@@ -264,6 +264,9 @@ installer
 '
 msi
 '
+'
+msix
+'
 ]
 shipping
 -
@@ -345,6 +348,9 @@ installer
 '
 '
 msi
+'
+'
+msix
 '
 '
 pkg
