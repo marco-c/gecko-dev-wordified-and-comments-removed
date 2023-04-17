@@ -209,16 +209,6 @@ scrollbarFadeDuration
 pref
 (
 "
-ui
-.
-caretBlinkCount
-"
-10
-)
-;
-pref
-(
-"
 browser
 .
 cache

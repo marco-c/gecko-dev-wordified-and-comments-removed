@@ -656,6 +656,11 @@ caretBlinkTime
 "
 ui
 .
+caretBlinkCount
+"
+"
+ui
+.
 caretWidth
 "
 "

@@ -132,6 +132,7 @@ class
 IntID
 {
 CaretBlinkTime
+CaretBlinkCount
 CaretWidth
 ShowCaretDuringSelection
 SelectTextfieldsOnKeyFocus

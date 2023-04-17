@@ -597,6 +597,12 @@ mCaretBlinkTime
 =
 0
 ;
+int32_t
+mCaretBlinkCount
+=
+-
+1
+;
 bool
 mCSDAvailable
 =
