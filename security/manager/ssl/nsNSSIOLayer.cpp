@@ -1308,7 +1308,7 @@ PR_GetError
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 errorCode
 "
@@ -1320,6 +1320,17 @@ code
 "
 )
 ;
+if
+(
+!
+errorCode
+)
+{
+errorCode
+=
+SEC_ERROR_LIBRARY_FAILURE
+;
+}
 if
 (
 errorCode
