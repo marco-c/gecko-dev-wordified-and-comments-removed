@@ -304,9 +304,9 @@ VertexInfo
 vi
 int
 prim_address
-RectWithEndpoint
+RectWithSize
 local_rect
-RectWithEndpoint
+RectWithSize
 segment_rect
 ivec4
 prim_user_data
@@ -335,10 +335,9 @@ local_rect
 p0
 )
 /
-rect_size
-(
 local_rect
-)
+.
+size
 ;
 float
 perspective_interpolate

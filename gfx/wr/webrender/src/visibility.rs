@@ -1039,6 +1039,10 @@ surface_spatial_node_index
 frame_context
 .
 global_screen_world_rect
+.
+to_rect
+(
+)
 frame_context
 .
 spatial_tree
@@ -1528,9 +1532,9 @@ else
 if
 prim_local_rect
 .
+size
+.
 width
-(
-)
 <
 =
 0
@@ -1540,9 +1544,9 @@ width
 |
 prim_local_rect
 .
+size
+.
 height
-(
-)
 <
 =
 0
@@ -1921,6 +1925,8 @@ prim_instance
 vis
 .
 combined_local_clip_rect
+.
+size
 .
 is_empty
 (
@@ -2972,6 +2978,10 @@ rect
 {
 rect
 .
+to_box2d
+(
+)
+.
 intersection
 (
 &
@@ -3053,6 +3063,10 @@ clip_chain
 .
 pic_spatial_node_index
 world_culling_rect
+.
+to_rect
+(
+)
 spatial_tree
 )
 ;
@@ -3093,6 +3107,10 @@ unmap
 (
 &
 world_culling_rect
+.
+to_rect
+(
+)
 )
 {
 Some
@@ -3199,7 +3217,6 @@ map_surface_to_world
 .
 map
 (
-&
 pic_clip_rect
 )
 .
@@ -3210,6 +3227,10 @@ world_rect
 |
 {
 world_rect
+.
+to_box2d
+(
+)
 .
 intersection
 (

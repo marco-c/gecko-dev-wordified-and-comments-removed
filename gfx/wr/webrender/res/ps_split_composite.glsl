@@ -619,12 +619,11 @@ local_rect
 p0
 )
 /
-rect_size
-(
 ph
 .
 local_rect
-)
+.
+size
 ;
 f
 =

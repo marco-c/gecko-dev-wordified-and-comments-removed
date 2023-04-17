@@ -718,8 +718,6 @@ common
 prim_rect
 .
 size
-(
-)
 )
 ;
 }
@@ -776,9 +774,9 @@ common
 .
 prim_rect
 .
+size
+.
 width
-(
-)
 )
 ;
 stretch_size
@@ -795,9 +793,9 @@ common
 .
 prim_rect
 .
+size
+.
 height
-(
-)
 )
 ;
 const

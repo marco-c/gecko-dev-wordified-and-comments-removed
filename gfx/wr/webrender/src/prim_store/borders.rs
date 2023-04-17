@@ -370,8 +370,6 @@ common
 prim_rect
 .
 size
-(
-)
 )
 ;
 self
@@ -594,8 +592,6 @@ common
 prim_rect
 .
 size
-(
-)
 &
 border
 &
@@ -1060,8 +1056,6 @@ common
 prim_rect
 .
 size
-(
-)
 )
 ;
 self
@@ -1353,8 +1347,6 @@ common
 prim_rect
 .
 size
-(
-)
 )
 ;
 ImageBorderTemplate
