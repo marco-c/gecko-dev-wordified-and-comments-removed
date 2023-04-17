@@ -36,9 +36,6 @@ NS_IPLUGINWIDGET_IID
 \
 }
 class
-nsIPluginInstanceOwner
-;
-class
 NS_NO_VTABLE
 nsIPluginWidget
 :
@@ -79,16 +76,6 @@ NS_IMETHOD
 EndDrawPlugin
 (
 void
-)
-=
-0
-;
-NS_IMETHOD
-SetPluginInstanceOwner
-(
-nsIPluginInstanceOwner
-*
-pluginInstanceOwner
 )
 =
 0

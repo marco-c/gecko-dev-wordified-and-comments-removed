@@ -505,14 +505,6 @@ endif
 #
 ifdef
 XP_WIN
-BINPATH
-/
-plugin
--
-hang
--
-ui
-BIN_SUFFIX
 #
 if
 MOZ_PACKAGE_MSVC_DLLS
