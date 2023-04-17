@@ -35,7 +35,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 legacy
 -
@@ -54,12 +56,12 @@ exports
 makeStorageLegacyListener
 (
 "
-extensionStorage
+sessionStorage
 "
 ResourceWatcher
 .
 TYPES
 .
-EXTENSION_STORAGE
+SESSION_STORAGE
 )
 ;

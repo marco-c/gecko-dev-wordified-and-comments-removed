@@ -35,7 +35,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 legacy
 -
@@ -54,12 +56,12 @@ exports
 makeStorageLegacyListener
 (
 "
-indexedDB
+cookies
 "
 ResourceWatcher
 .
 TYPES
 .
-INDEXED_DB
+COOKIE
 )
 ;
