@@ -7688,6 +7688,10 @@ if
 rootPresContext
 )
 {
+event
+.
+mWidget
+=
 rootPresContext
 -
 >
@@ -7703,12 +7707,6 @@ GetViewManager
 >
 GetRootWidget
 (
-getter_AddRefs
-(
-event
-.
-mWidget
-)
 )
 ;
 }
