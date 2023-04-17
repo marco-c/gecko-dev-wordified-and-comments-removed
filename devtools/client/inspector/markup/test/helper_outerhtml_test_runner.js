@@ -8,7 +8,6 @@ runEditOuterHTMLTests
 (
 tests
 inspector
-testActor
 )
 {
 info
@@ -51,7 +50,6 @@ runEditOuterHTMLTest
 (
 step
 inspector
-testActor
 )
 ;
 }
@@ -67,7 +65,6 @@ runEditOuterHTMLTest
 (
 test
 inspector
-testActor
 )
 {
 info
@@ -209,7 +206,6 @@ validate
 pageNodeFront
 selectedNodeFront
 inspector
-testActor
 }
 )
 ;
