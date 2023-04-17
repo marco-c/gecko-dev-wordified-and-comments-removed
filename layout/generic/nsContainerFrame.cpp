@@ -2457,6 +2457,8 @@ pxRect
 =
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 .
 ToOutsidePixels

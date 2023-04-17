@@ -38435,6 +38435,8 @@ PaintBCBorders
 drawTarget
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 -
 pt

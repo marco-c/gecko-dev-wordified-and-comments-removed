@@ -1210,6 +1210,8 @@ aCtx
 mRect
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 foregroundColor
 PaintTextShadowCallback

@@ -9325,6 +9325,17 @@ GetPaintRect
 )
 ;
 }
+nsRect
+GetPaintRect
+(
+nsDisplayListBuilder
+*
+aBuilder
+gfxContext
+*
+aCtx
+)
+;
 virtual
 const
 HitTestInfo
@@ -12647,6 +12658,8 @@ GetDrawTarget
 )
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 ToReferenceFrame
 (
@@ -12662,6 +12675,8 @@ mFrame
 aCtx
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 ToReferenceFrame
 (

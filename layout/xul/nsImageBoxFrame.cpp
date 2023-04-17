@@ -2567,6 +2567,8 @@ PaintImage
 aCtx
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 ToReferenceFrame
 (

@@ -751,6 +751,8 @@ ToReferenceFrame
 )
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 )
 ;

@@ -2071,6 +2071,8 @@ aBuilder
 aCtx
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 &
 bgClipRect
@@ -2306,6 +2308,8 @@ aBuilder
 aCtx
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 &
 bgClipRect
