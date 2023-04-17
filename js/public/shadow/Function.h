@@ -81,9 +81,10 @@ JS
 Value
 native
 ;
-const
-JSJitInfo
-*
+JS
+:
+:
+Value
 jitinfo
 ;
 void

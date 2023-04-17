@@ -6601,7 +6601,7 @@ addressOfEnvironmentChain
 ;
 masm
 .
-loadPtr
+loadPrivate
 (
 Address
 (
@@ -6609,7 +6609,7 @@ scratch1
 JSFunction
 :
 :
-offsetOfScript
+offsetOfJitInfoOrScript
 (
 )
 )
@@ -30547,7 +30547,7 @@ takeAny
 ;
 masm
 .
-loadPtr
+loadPrivate
 (
 Address
 (
@@ -30555,7 +30555,7 @@ callee
 JSFunction
 :
 :
-offsetOfScript
+offsetOfJitInfoOrScript
 (
 )
 )
@@ -31559,7 +31559,7 @@ scratch1
 ;
 masm
 .
-loadPtr
+loadPrivate
 (
 Address
 (
@@ -31567,7 +31567,7 @@ scratch1
 JSFunction
 :
 :
-offsetOfScript
+offsetOfJitInfoOrScript
 (
 )
 )
