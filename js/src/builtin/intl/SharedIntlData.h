@@ -105,6 +105,9 @@ DateTimePatternGenerator
 namespace
 js
 {
+class
+ArrayObject
+;
 namespace
 intl
 {
@@ -599,6 +602,17 @@ locale
 bool
 *
 supported
+)
+;
+ArrayObject
+*
+availableLocalesOf
+(
+JSContext
+*
+cx
+SupportedLocaleKind
+kind
 )
 ;
 private
