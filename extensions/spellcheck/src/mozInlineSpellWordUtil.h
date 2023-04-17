@@ -285,11 +285,12 @@ false
 nsresult
 Init
 (
+const
 mozilla
 :
 :
 TextEditor
-*
+&
 aTextEditor
 )
 ;

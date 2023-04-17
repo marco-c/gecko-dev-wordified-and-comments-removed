@@ -5930,6 +5930,7 @@ wordUtil
 .
 Init
 (
+*
 mTextEditor
 )
 ;
