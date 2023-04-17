@@ -13819,7 +13819,7 @@ strcmp
 (
 aSelector
 "
-cancelOperatiorn
+cancelOperation
 :
 "
 )
