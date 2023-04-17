@@ -3459,7 +3459,11 @@ This
 property
 will
 cause
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 to
 be
 added

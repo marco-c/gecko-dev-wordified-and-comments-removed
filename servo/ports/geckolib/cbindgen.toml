@@ -2544,14 +2544,12 @@ be
 able
 to
 generate
-MOZ_MUST_USE_TYPE
-#
-or
 [
 [
 nodiscard
 ]
 ]
+#
 on
 the
 functions

@@ -35,7 +35,11 @@ image
 {
 enum
 class
-MOZ_MUST_USE_TYPE
+[
+[
+nodiscard
+]
+]
 ImgDrawResult
 :
 uint8_t
