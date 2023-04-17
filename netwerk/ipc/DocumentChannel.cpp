@@ -367,15 +367,6 @@ bool
 aIsXFOError
 )
 :
-mAsyncOpenTime
-(
-TimeStamp
-:
-:
-Now
-(
-)
-)
 mLoadState
 (
 aLoadState

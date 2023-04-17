@@ -256,10 +256,6 @@ DocumentChannel
 default
 ;
 const
-TimeStamp
-mAsyncOpenTime
-;
-const
 RefPtr
 <
 nsDocShellLoadState

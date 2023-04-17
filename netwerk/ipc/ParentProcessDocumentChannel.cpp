@@ -945,7 +945,12 @@ Some
 (
 mChannelId
 )
-mAsyncOpenTime
+TimeStamp
+:
+:
+Now
+(
+)
 mTiming
 std
 :
@@ -983,7 +988,12 @@ Some
 (
 mChannelId
 )
-mAsyncOpenTime
+TimeStamp
+:
+:
+Now
+(
+)
 mTiming
 std
 :
