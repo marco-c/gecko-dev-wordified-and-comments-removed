@@ -49,7 +49,7 @@ optimize
 :
 tryselect
 .
-bugbug_debug_disperse
+bugbug_reduced_manifests_config_selection_low
 "
 "
 optimize_target_tasks
@@ -139,7 +139,7 @@ optimize
 :
 tryselect
 .
-bugbug_debug_disperse
+bugbug_reduced_manifests_config_selection_low
 "
 "
 optimize_target_tasks
@@ -240,7 +240,7 @@ optimize
 :
 tryselect
 .
-bugbug_debug_disperse
+bugbug_reduced_manifests_config_selection_low
 "
 "
 optimize_target_tasks
