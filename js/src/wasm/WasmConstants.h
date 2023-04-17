@@ -1660,6 +1660,9 @@ F32x4RelaxedFms
 I32x4Sub
 =
 0xb1
+F32x4RelaxedMin
+=
+0xb4
 I32x4Mul
 =
 0xb5
@@ -1735,6 +1738,9 @@ F64x2RelaxedFms
 I64x2Sub
 =
 0xd1
+F64x2RelaxedMin
+=
+0xd4
 I64x2Mul
 =
 0xd5
@@ -1774,6 +1780,9 @@ F32x4Abs
 F32x4Neg
 =
 0xe1
+F32x4RelaxedMax
+=
+0xe2
 F32x4Sqrt
 =
 0xe3
@@ -1807,6 +1816,9 @@ F64x2Abs
 F64x2Neg
 =
 0xed
+F64x2RelaxedMax
+=
+0xee
 F64x2Sqrt
 =
 0xef
