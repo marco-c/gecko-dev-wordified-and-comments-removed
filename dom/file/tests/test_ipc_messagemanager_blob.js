@@ -500,6 +500,9 @@ message
 ;
 }
 await
+done
+;
+await
 page
 .
 close
