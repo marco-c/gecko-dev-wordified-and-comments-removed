@@ -338,7 +338,7 @@ linux64
 -
 clang
 -
-11
+12
 -
 mingw
 -
@@ -350,7 +350,7 @@ description
 MinGW
 -
 Clang
-11
+12
 x86
 toolchain
 build
@@ -392,7 +392,7 @@ clang
 /
 clang
 -
-11
+12
 -
 mingw
 .
@@ -410,7 +410,7 @@ clang
 /
 clang
 -
-11
+12
 -
 mingw
 .
@@ -447,7 +447,7 @@ fetch
 -
 clang
 -
-11
+12
 -
 mingw
 -
@@ -488,7 +488,7 @@ linux64
 -
 clang
 -
-11
+12
 -
 mingw
 -
@@ -500,7 +500,7 @@ description
 MinGW
 -
 Clang
-11
+12
 x64
 toolchain
 build
@@ -545,7 +545,7 @@ clang
 /
 clang
 -
-11
+12
 -
 mingw
 .
@@ -563,7 +563,7 @@ clang
 /
 clang
 -
-11
+12
 -
 mingw
 .
@@ -600,7 +600,7 @@ fetch
 -
 clang
 -
-11
+12
 -
 mingw
 -
