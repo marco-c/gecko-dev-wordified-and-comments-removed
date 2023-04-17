@@ -328,12 +328,6 @@ text
 inout
 wstring
 password
-in
-wstring
-checkMsg
-inout
-boolean
-checkValue
 )
 ;
 boolean
@@ -351,12 +345,6 @@ username
 inout
 wstring
 password
-in
-wstring
-checkMsg
-inout
-boolean
-checkValue
 )
 ;
 boolean
