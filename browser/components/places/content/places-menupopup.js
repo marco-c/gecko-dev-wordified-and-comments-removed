@@ -139,11 +139,6 @@ flex
 "
 1
 "
-part
-=
-"
-innerbox
-"
 >
 <
 vbox
