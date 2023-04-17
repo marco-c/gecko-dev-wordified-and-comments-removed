@@ -122,6 +122,11 @@ MayGCNow
 )
 ;
 void
+StartedGC
+(
+)
+;
+void
 DoneGC
 (
 )

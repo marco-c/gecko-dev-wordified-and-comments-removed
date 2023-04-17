@@ -157,6 +157,11 @@ aResolve
 )
 ;
 IPCResult
+RecvStartedGC
+(
+)
+;
+IPCResult
 RecvDoneGC
 (
 )
