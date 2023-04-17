@@ -5779,10 +5779,6 @@ GLContextEGL
 :
 FindVisual
 (
-bool
-aUseWebRender
-bool
-useAlpha
 int
 *
 const
@@ -5838,11 +5834,7 @@ const
 int
 bpp
 =
-useAlpha
-?
 32
-:
-24
 ;
 if
 (
@@ -5854,7 +5846,7 @@ egl
 &
 config
 bpp
-aUseWebRender
+false
 false
 )
 )
