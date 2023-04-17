@@ -1244,9 +1244,7 @@ false
 ;
 }
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (
