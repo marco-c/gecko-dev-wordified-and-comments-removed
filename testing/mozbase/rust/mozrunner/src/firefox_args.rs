@@ -541,13 +541,7 @@ args
 .
 map
 (
-|
-arg
-|
 parse_arg_name_value
-(
-arg
-)
 )
 .
 map
