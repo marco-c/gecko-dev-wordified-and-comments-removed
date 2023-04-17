@@ -2547,14 +2547,6 @@ GetOrientation
 SwapsWidthAndHeight
 (
 )
-&
-&
-image
--
->
-HandledOrientation
-(
-)
 )
 {
 std
