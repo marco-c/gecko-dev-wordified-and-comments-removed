@@ -83,7 +83,10 @@ for
 contributing
 to
 Firefox
-getting_set_up
+/
+contributing
+/
+contributing_to_mozilla
 .
 .
 toctree
