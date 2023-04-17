@@ -116,6 +116,12 @@ false
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
+using
+nsISerialEventTarget
+:
+:
+IsOnCurrentThread
+;
 NS_IMETHOD_
 (
 bool
