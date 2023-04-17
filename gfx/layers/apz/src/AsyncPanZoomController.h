@@ -1357,6 +1357,15 @@ HandleEndOfPan
 )
 ;
 nsEventStatus
+OnPanInterrupted
+(
+const
+PanGestureInput
+&
+aEvent
+)
+;
+nsEventStatus
 OnScrollWheel
 (
 const
