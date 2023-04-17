@@ -2298,7 +2298,7 @@ IsHttp3
 &
 &
 !
-mResolver
+mOrigConnInfo
 )
 {
 if
@@ -15014,15 +15014,6 @@ svcbRecord
 bool
 needFastFallback
 =
-!
-mConnInfo
--
->
-IsHttp3
-(
-)
-&
-&
 newInfo
 -
 >
@@ -15054,6 +15045,10 @@ newInfo
 )
 ;
 }
+MaybeCancelFallbackTimer
+(
+)
+;
 if
 (
 needFastFallback
