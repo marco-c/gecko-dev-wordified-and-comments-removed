@@ -78,6 +78,11 @@ TracingAPI
 h
 "
 "
+WeakMap
+.
+h
+"
+"
 WeakMapPtr
 .
 h
