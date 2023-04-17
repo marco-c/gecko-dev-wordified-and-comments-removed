@@ -15,6 +15,11 @@ values
 :
 :
 computed
+:
+:
+color
+as
+computed
 ;
 use
 crate
@@ -111,7 +116,7 @@ for
 computed
 :
 :
-ColorOrAuto
+CaretColor
 {
 type
 ResolvedValue
@@ -146,6 +151,8 @@ color
 =
 match
 self
+.
+0
 {
 generics
 :
@@ -208,6 +215,11 @@ Self
 generics
 :
 :
+CaretColor
+(
+generics
+:
+:
 ColorOrAuto
 :
 :
@@ -222,6 +234,7 @@ Color
 from_resolved_value
 (
 resolved
+)
 )
 )
 }
