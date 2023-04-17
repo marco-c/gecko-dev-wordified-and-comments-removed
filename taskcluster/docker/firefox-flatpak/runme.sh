@@ -169,14 +169,14 @@ source
 FREEDESKTOP_VERSION
 =
 "
-21
+20
 .
 08
 "
 FIREFOX_BASEAPP_CHANNEL
 =
 "
-21
+20
 .
 08
 "
