@@ -331,5 +331,13 @@ attribute
 ACString
 retryEchConfig
 ;
+[
+noscript
+]
+void
+disableEarlyData
+(
+)
+;
 }
 ;
