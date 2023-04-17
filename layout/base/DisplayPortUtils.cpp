@@ -2578,14 +2578,6 @@ DisplayPortOptions
 .
 With
 (
-MaxSizeExceededBehaviour
-:
-:
-Drop
-)
-.
-With
-(
 DisplayportRelativeTo
 :
 :
