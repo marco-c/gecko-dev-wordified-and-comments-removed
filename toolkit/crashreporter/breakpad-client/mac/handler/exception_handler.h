@@ -346,9 +346,9 @@ WriteForwardedExceptionMinidump
 (
 int
 exception_type
-int
+int64_t
 exception_code
-int
+int64_t
 exception_subcode
 mach_port_t
 thread
@@ -421,7 +421,7 @@ WriteMinidumpWithException
 (
 int
 exception_type
-int
+int64_t
 exception_code
 int64_t
 exception_subcode
