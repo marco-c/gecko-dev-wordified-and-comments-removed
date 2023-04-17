@@ -2438,6 +2438,12 @@ samplingFreqHz
 frame
 )
 ;
+mMutex
+.
+Unlock
+(
+)
+;
 if
 (
 info
@@ -2476,12 +2482,6 @@ return
 kMediaConduitPlayoutError
 ;
 }
-mMutex
-.
-Unlock
-(
-)
-;
 mCallThread
 -
 >
