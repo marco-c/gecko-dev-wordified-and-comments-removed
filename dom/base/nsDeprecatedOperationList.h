@@ -76,6 +76,10 @@ OrientationEvent
 )
 DEPRECATED_OPERATION
 (
+ProximityEvent
+)
+DEPRECATED_OPERATION
+(
 AmbientLightEvent
 )
 DEPRECATED_OPERATION

@@ -19402,6 +19402,16 @@ onmozorientationchange
 Atom
 (
 "
+onuserproximity
+"
+"
+onuserproximity
+"
+)
+    
+Atom
+(
+"
 ondevicelight
 "
 "
