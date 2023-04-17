@@ -14452,7 +14452,7 @@ cgContext
 [
 NSColor
 .
-controlColor
+controlBackgroundColor
 CGColor
 ]
 )
