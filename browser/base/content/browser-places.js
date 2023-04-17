@@ -3839,7 +3839,7 @@ fillInBHTooltip
 function
 BEH_fillInBHTooltip
 (
-aDocument
+aTooltip
 aEvent
 )
 {
@@ -3856,11 +3856,9 @@ targetURI
 ;
 if
 (
-aDocument
+aTooltip
 .
-tooltipNode
-.
-localName
+triggerNode
 =
 =
 "
@@ -3871,9 +3869,9 @@ treechildren
 var
 tree
 =
-aDocument
+aTooltip
 .
-tooltipNode
+triggerNode
 .
 parentNode
 ;
@@ -3940,9 +3938,9 @@ else
 var
 tooltipNode
 =
-aDocument
+aTooltip
 .
-tooltipNode
+triggerNode
 ;
 if
 (

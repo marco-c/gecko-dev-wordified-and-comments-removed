@@ -21575,13 +21575,12 @@ stopPropagation
 let
 tab
 =
-document
+event
 .
-tooltipNode
+target
+.
+triggerNode
 ?
-document
-.
-tooltipNode
 .
 closest
 (
@@ -21589,8 +21588,6 @@ closest
 tab
 "
 )
-:
-null
 ;
 if
 (
