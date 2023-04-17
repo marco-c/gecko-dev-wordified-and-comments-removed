@@ -1915,6 +1915,9 @@ mLoadEventFired
 bool
 mGiveUpEncoding
 ;
+TimeDuration
+mMainThreadParseTime
+;
 nsRefPtrHashtable
 <
 ModuleMapKey
