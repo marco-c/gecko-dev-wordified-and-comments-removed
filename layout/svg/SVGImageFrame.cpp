@@ -1988,6 +1988,9 @@ PresContext
 (
 )
 mImageContainer
+1
+.
+0f
 nsLayoutUtils
 :
 :

@@ -4389,7 +4389,8 @@ aPresContext
 imgIContainer
 *
 aImage
-const
+float
+aResolution
 SamplingFilter
 aSamplingFilter
 const
@@ -4433,6 +4434,8 @@ ComputeSizeForDrawing
 imgIContainer
 *
 aImage
+float
+aResolution
 CSSIntSize
 &
 aImageSize
@@ -4454,6 +4457,8 @@ ComputeSizeForDrawingWithFallback
 imgIContainer
 *
 aImage
+float
+aResolution
 const
 nsSize
 &
