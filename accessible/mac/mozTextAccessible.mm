@@ -1554,6 +1554,10 @@ change
 AXTextChangeValueStartMarker
 "
 :
+(
+__bridge
+id
+)
 startMarker
 .
 CreateAXTextMarker
