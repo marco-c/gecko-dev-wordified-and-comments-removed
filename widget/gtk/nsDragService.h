@@ -419,6 +419,9 @@ uint8_t
 >
 mCachedData
 ;
+uintptr_t
+mCachedDragContext
+;
 #
 ifdef
 MOZ_WAYLAND
@@ -524,6 +527,14 @@ void
 TargetResetData
 (
 void
+)
+;
+void
+EnsureCachedDataValidForContext
+(
+GdkDragContext
+*
+aDragContext
 )
 ;
 GtkWidget
