@@ -1933,7 +1933,7 @@ if
 (
 existingTarget
 .
-window
+originalWindow
 .
 document
 !
