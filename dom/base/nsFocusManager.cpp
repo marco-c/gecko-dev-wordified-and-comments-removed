@@ -14062,7 +14062,6 @@ RaiseWindow
 [
 self
 window
-aActionId
 ]
 (
 )
@@ -14076,7 +14075,9 @@ self
 WindowRaised
 (
 window
-aActionId
+GenerateFocusActionId
+(
+)
 )
 ;
 }
