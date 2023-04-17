@@ -1417,6 +1417,15 @@ JS
 CompileOptions
 *
 aOptions
+JS
+:
+:
+MutableHandle
+<
+JSScript
+*
+>
+aIntroductionScript
 )
 ;
 uint32_t

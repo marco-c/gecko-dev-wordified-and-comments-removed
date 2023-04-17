@@ -10615,7 +10615,9 @@ parseTask
 >
 options
 .
-hideScriptFromDebugger
+hideFromNewScriptInitial
+(
+)
 )
 {
 DebugAPI
@@ -11056,7 +11058,9 @@ parseTask
 >
 options
 .
-hideScriptFromDebugger
+hideFromNewScriptInitial
+(
+)
 )
 {
 JS
