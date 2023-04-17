@@ -1654,6 +1654,17 @@ sizeOfIncludingThis
 (
 mallocSizeOf
 )
++
+selfHostScriptMap
+.
+ref
+(
+)
+.
+shallowSizeOfExcludingThis
+(
+mallocSizeOf
+)
 ;
 }
 JSContext
