@@ -1740,6 +1740,11 @@ GreenAVIFTestCase
 )
 ;
 ImageTestCase
+NonzeroReservedAVIFTestCase
+(
+)
+;
+ImageTestCase
 Transparent10bit420AVIFTestCase
 (
 )
