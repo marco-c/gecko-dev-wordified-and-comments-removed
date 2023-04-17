@@ -1316,12 +1316,6 @@ loadType
 =
 =
 LOAD_RELOAD_BYPASS_PROXY_AND_CACHE
-|
-|
-loadType
-=
-=
-LOAD_RELOAD_ALLOW_MIXED_CONTENT
 )
 {
 isReloading

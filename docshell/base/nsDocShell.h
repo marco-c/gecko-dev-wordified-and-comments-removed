@@ -3421,12 +3421,6 @@ nsIChannel
 >
 mFailedChannel
 ;
-nsCOMPtr
-<
-nsIChannel
->
-mMixedContentChannel
-;
 mozilla
 :
 :

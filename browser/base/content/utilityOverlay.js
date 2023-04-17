@@ -1220,13 +1220,6 @@ params
 allowInheritPrincipal
 ;
 var
-aAllowMixedContent
-=
-params
-.
-allowMixedContent
-;
-var
 aForceAllowDataURI
 =
 params
@@ -2498,9 +2491,6 @@ aRelatedToCurrent
 skipAnimation
 :
 aSkipTabAnimation
-allowMixedContent
-:
-aAllowMixedContent
 userContextId
 :
 aUserContextId

@@ -347,11 +347,6 @@ data
 .
 referrerInfo
 )
-allowMixedContent
-:
-data
-.
-allowMixedContent
 isContentWindowPrivate
 :
 data

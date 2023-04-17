@@ -2757,17 +2757,6 @@ composedTarget
 )
 ;
 let
-parentAllowsMixedContent
-=
-!
-!
-this
-.
-docShell
-.
-mixedContentChannel
-;
-let
 disableSetDesktopBackground
 =
 null
@@ -3206,7 +3195,6 @@ contentDisposition
 frameID
 frameBrowsingContextID
 disableSetDesktopBackground
-parentAllowsMixedContent
 }
 ;
 if
