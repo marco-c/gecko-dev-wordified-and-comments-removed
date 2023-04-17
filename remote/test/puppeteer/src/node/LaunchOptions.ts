@@ -130,6 +130,11 @@ string
 unknown
 >
 ;
+waitForInitialPage
+?
+:
+boolean
+;
 }
 export
 type

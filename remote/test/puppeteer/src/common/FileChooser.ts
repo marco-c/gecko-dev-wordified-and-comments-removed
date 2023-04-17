@@ -157,6 +157,8 @@ filePaths
 cancel
 (
 )
+:
+void
 {
 assert
 (

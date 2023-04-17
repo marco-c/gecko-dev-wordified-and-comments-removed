@@ -158,7 +158,7 @@ value
 =
 =
 '
-text
+StaticText
 '
 )
 ;

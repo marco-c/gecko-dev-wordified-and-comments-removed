@@ -1014,6 +1014,7 @@ string
 queryHandler
 :
 InternalQueryHandler
+;
 }
 {
 const

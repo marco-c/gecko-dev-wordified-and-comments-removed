@@ -83,6 +83,11 @@ function
 downloadBrowser
 (
 )
+:
+Promise
+<
+void
+>
 {
 const
 downloadHost
@@ -958,7 +963,11 @@ function
 logPolitely
 (
 toBeLogged
+:
+unknown
 )
+:
+void
 {
 const
 logLevel

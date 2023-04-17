@@ -1214,6 +1214,19 @@ type
 '
 worker
 '
+&
+&
+event
+.
+targetInfo
+.
+type
+!
+=
+=
+'
+iframe
+'
 )
 {
 client
@@ -2679,9 +2692,6 @@ setRequestInterception
 value
 :
 boolean
-cacheSafe
-=
-false
 )
 :
 Promise
@@ -2701,7 +2711,6 @@ networkManager
 setRequestInterception
 (
 value
-cacheSafe
 )
 ;
 }

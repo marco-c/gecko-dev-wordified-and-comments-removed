@@ -90,7 +90,7 @@ EventType
 eventData
 ?
 :
-any
+unknown
 )
 :
 boolean
@@ -276,7 +276,7 @@ EventType
 eventData
 ?
 :
-any
+unknown
 )
 :
 boolean
