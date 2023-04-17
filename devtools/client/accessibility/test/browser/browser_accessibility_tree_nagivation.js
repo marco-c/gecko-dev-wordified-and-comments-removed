@@ -151,6 +151,9 @@ states
 :
 [
 "
+focused
+"
+"
 readonly
 "
 "

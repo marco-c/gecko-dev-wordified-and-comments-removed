@@ -113,6 +113,9 @@ states
 :
 [
 "
+focused
+"
+"
 readonly
 "
 "

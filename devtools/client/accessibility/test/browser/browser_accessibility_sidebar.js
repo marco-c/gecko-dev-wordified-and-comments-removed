@@ -109,6 +109,9 @@ states
 :
 [
 "
+focused
+"
+"
 readonly
 "
 "
