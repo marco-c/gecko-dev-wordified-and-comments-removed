@@ -2613,7 +2613,7 @@ dom
 :
 TimedChannelInfo
 >
-timedChannel
+timedChannelInfo
 ;
 nsCOMPtr
 <

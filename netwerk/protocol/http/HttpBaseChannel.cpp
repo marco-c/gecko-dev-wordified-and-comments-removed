@@ -17805,7 +17805,7 @@ oldTimedChannel
 {
 config
 .
-timedChannel
+timedChannelInfo
 =
 Some
 (
@@ -17819,7 +17819,7 @@ TimedChannelInfo
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 timingEnabled
@@ -17832,7 +17832,7 @@ LoadTimingEnabled
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 redirectCount
@@ -17843,7 +17843,7 @@ mRedirectCount
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 internalRedirectCount
@@ -17854,7 +17854,7 @@ mInternalRedirectCount
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 asyncOpen
@@ -17865,7 +17865,7 @@ mAsyncOpenTime
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 channelCreation
@@ -17876,7 +17876,7 @@ mChannelCreationTimestamp
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 redirectStart
@@ -17887,7 +17887,7 @@ mRedirectStartTimeStamp
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 redirectEnd
@@ -17898,7 +17898,7 @@ mRedirectEndTimeStamp
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 initiatorType
@@ -17909,7 +17909,7 @@ mInitiatorType
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 allRedirectsSameOrigin
@@ -17922,7 +17922,7 @@ LoadAllRedirectsSameOrigin
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 allRedirectsPassTimingAllowCheck
@@ -17974,7 +17974,7 @@ GetLoadingPrincipal
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 timingAllowCheckForPrincipal
@@ -17995,7 +17995,7 @@ principal
 }
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 allRedirectsPassTimingAllowCheck
@@ -18008,7 +18008,7 @@ LoadAllRedirectsPassTimingAllowCheck
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 launchServiceWorkerStart
@@ -18019,7 +18019,7 @@ mLaunchServiceWorkerStart
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 launchServiceWorkerEnd
@@ -18030,7 +18030,7 @@ mLaunchServiceWorkerEnd
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 dispatchFetchEventStart
@@ -18041,7 +18041,7 @@ mDispatchFetchEventStart
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 dispatchFetchEventEnd
@@ -18052,7 +18052,7 @@ mDispatchFetchEventEnd
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 handleFetchEventStart
@@ -18063,7 +18063,7 @@ mHandleFetchEventStart
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 handleFetchEventEnd
@@ -18074,7 +18074,7 @@ mHandleFetchEventEnd
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 responseStart
@@ -18087,7 +18087,7 @@ responseStart
 ;
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 responseEnd
@@ -18349,7 +18349,7 @@ if
 (
 config
 .
-timedChannel
+timedChannelInfo
 &
 &
 newTimedChannel
@@ -18362,7 +18362,7 @@ SetTimingEnabled
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 timingEnabled
@@ -18393,7 +18393,7 @@ SetRedirectCount
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 redirectCount
@@ -18401,12 +18401,12 @@ redirectCount
 )
 )
 ;
-int8_t
+int32_t
 newCount
 =
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 internalRedirectCount
@@ -18426,9 +18426,14 @@ std
 max
 (
 newCount
+static_cast
+<
+int32_t
+>
+(
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 internalRedirectCount
@@ -18436,16 +18441,17 @@ internalRedirectCount
 )
 )
 )
+)
 ;
 }
 else
 {
-int8_t
+int32_t
 newCount
 =
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 redirectCount
@@ -18465,13 +18471,19 @@ std
 max
 (
 newCount
+static_cast
+<
+int32_t
+>
+(
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 redirectCount
 (
+)
 )
 )
 )
@@ -18483,7 +18495,7 @@ SetInternalRedirectCount
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 internalRedirectCount
@@ -18502,7 +18514,7 @@ if
 !
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 channelCreation
@@ -18521,7 +18533,7 @@ SetChannelCreation
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 channelCreation
@@ -18535,7 +18547,7 @@ if
 !
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 asyncOpen
@@ -18554,7 +18566,7 @@ SetAsyncOpen
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 asyncOpen
@@ -18568,7 +18580,7 @@ if
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 redirectStart
@@ -18593,7 +18605,7 @@ SetRedirectStart
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 asyncOpen
@@ -18612,7 +18624,7 @@ SetRedirectStart
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 redirectStart
@@ -18633,7 +18645,7 @@ newRedirectEnd
 =
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 redirectEnd
@@ -18647,7 +18659,7 @@ newRedirectEnd
 =
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 responseEnd
@@ -18670,7 +18682,7 @@ SetInitiatorType
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 initiatorType
@@ -18703,7 +18715,7 @@ SetAllRedirectsSameOrigin
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 allRedirectsSameOrigin
@@ -18715,7 +18727,7 @@ if
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 timingAllowCheckForPrincipal
@@ -18730,7 +18742,7 @@ SetAllRedirectsPassTimingAllowCheck
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 allRedirectsPassTimingAllowCheck
@@ -18741,7 +18753,7 @@ allRedirectsPassTimingAllowCheck
 *
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 timingAllowCheckForPrincipal
@@ -18757,7 +18769,7 @@ SetLaunchServiceWorkerStart
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 launchServiceWorkerStart
@@ -18772,7 +18784,7 @@ SetLaunchServiceWorkerEnd
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 launchServiceWorkerEnd
@@ -18787,7 +18799,7 @@ SetDispatchFetchEventStart
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 dispatchFetchEventStart
@@ -18802,7 +18814,7 @@ SetDispatchFetchEventEnd
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 dispatchFetchEventEnd
@@ -18817,7 +18829,7 @@ SetHandleFetchEventStart
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 handleFetchEventStart
@@ -18832,7 +18844,7 @@ SetHandleFetchEventEnd
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 handleFetchEventEnd
@@ -19193,11 +19205,11 @@ referrerInfo
 (
 )
 ;
-timedChannel
+timedChannelInfo
 =
 aInit
 .
-timedChannel
+timedChannelInfo
 (
 )
 ;
@@ -19340,11 +19352,11 @@ referrerInfo
 ;
 config
 .
-timedChannel
+timedChannelInfo
 (
 )
 =
-timedChannel
+timedChannelInfo
 ;
 if
 (
@@ -19627,7 +19639,7 @@ if
 (
 config
 .
-timedChannel
+timedChannelInfo
 &
 &
 newTimedChannel
@@ -19640,7 +19652,7 @@ SetAllRedirectsSameOrigin
 (
 config
 .
-timedChannel
+timedChannelInfo
 -
 >
 allRedirectsSameOrigin
