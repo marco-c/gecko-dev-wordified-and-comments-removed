@@ -148,6 +148,8 @@ CLA
 /
 typedef
 (
+DOMString
+or
 DocumentFragment
 or
 Document
@@ -252,9 +254,6 @@ dropAttributes
 ;
 boolean
 allowCustomElements
-;
-boolean
-allowComments
 ;
 }
 ;
