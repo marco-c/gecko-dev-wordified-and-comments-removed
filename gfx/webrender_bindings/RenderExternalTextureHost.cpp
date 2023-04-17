@@ -1122,7 +1122,7 @@ COLOR_8
 gfx
 :
 :
-YUVColorSpace
+YUVRangedColorSpace
 RenderExternalTextureHost
 :
 :
@@ -1150,14 +1150,16 @@ BufferDescriptor
 TYCbCrDescriptor
 :
 return
+gfx
+:
+:
+GetYUVRangedColorSpace
+(
 mDescriptor
 .
 get_YCbCrDescriptor
 (
 )
-.
-yUVColorSpace
-(
 )
 ;
 default
@@ -1166,7 +1168,7 @@ return
 gfx
 :
 :
-YUVColorSpace
+YUVRangedColorSpace
 :
 :
 Default
