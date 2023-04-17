@@ -8,9 +8,5 @@ ClientAuthRememberList
 )
 DATA_STORAGE
 (
-SecurityPreloadState
-)
-DATA_STORAGE
-(
 SiteSecurityServiceState
 )

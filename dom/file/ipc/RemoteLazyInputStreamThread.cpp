@@ -28,6 +28,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TaskCategory
 .
 h
