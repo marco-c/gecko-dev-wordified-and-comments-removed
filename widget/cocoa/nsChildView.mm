@@ -398,13 +398,6 @@ h
 #
 include
 "
-ClientLayerManager
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
