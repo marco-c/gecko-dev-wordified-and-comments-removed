@@ -371,7 +371,7 @@ mozalloc_abort
 msg
 )
 ;
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE_MARKER
 (
 )
 ;
