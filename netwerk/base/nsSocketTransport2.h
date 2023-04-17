@@ -1604,7 +1604,10 @@ mKeepaliveProbeCount
 1
 }
 ;
+Atomic
+<
 bool
+>
 mDoNotRetryToConnect
 {
 false
