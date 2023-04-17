@@ -249,6 +249,10 @@ protocol
 PRemoteDecoderManager
 ;
 include
+protocol
+PWebSocketConnection
+;
+include
 DOMTypes
 ;
 include
@@ -520,6 +524,9 @@ PServiceWorkerRegistration
 ;
 manages
 PWebAuthnTransaction
+;
+manages
+PWebSocketConnection
 ;
 manages
 PUDPSocket
@@ -1173,6 +1180,13 @@ Endpoint
 PRemoteDecoderManagerChild
 >
 aEndpoint
+)
+;
+async
+PWebSocketConnection
+(
+uint32_t
+aListenerId
 )
 ;
 child
