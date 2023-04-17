@@ -12932,6 +12932,16 @@ LABEL_FOR
 Next
 (
 )
+|
+|
+nsTextEquivUtils
+:
+:
+HasNameRule
+(
+mParent
+eNameFromSubtreeRule
+)
 )
 {
 mContextFlags
