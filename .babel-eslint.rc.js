@@ -13,17 +13,6 @@ plugin
 -
 syntax
 -
-class
--
-properties
-"
-"
-babel
-/
-plugin
--
-syntax
--
 jsx
 "
 ]
