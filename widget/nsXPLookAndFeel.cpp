@@ -4218,6 +4218,12 @@ Normal
 (
 )
 ;
+aStyle
+.
+systemFont
+=
+true
+;
 return
 true
 ;
