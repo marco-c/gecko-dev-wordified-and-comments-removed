@@ -306,6 +306,17 @@ shared
 webgpu
 "
 ]
+remote_agent
+=
+[
+"
+gkrust
+-
+shared
+/
+remote
+"
+]
 glean_disable_upload
 =
 [
