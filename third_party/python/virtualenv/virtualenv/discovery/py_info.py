@@ -1061,6 +1061,26 @@ os
 sep
 )
         
+if
+result
+.
+startswith
+(
+u
+"
+local
+/
+"
+)
+:
+            
+return
+result
+[
+6
+:
+]
+        
 return
 result
     
