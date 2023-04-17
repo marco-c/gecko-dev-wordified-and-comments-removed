@@ -86,15 +86,6 @@ treeShape
 layerVisibleRegion
 )
 ;
-WebRenderLayerScrollData
-*
-root
-=
-scrollData
-[
-0
-]
-;
 SetScrollableFrameMetrics
 (
 root
