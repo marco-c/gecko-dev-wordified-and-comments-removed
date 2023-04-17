@@ -80,9 +80,6 @@ gc
 class
 Arena
 ;
-struct
-FinalizePhase
-;
 class
 FreeSpan
 ;
