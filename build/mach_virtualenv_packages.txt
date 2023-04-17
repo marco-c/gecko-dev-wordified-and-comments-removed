@@ -126,6 +126,8 @@ missing
 some
 data
 pypi
+-
+optional
 :
 zstandard
 =
@@ -135,3 +137,12 @@ zstandard
 15
 .
 2
+:
+zstd
+archives
+will
+not
+be
+possible
+to
+extract
