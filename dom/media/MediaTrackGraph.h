@@ -2576,12 +2576,6 @@ nsPIDOMWindowInner
 aWindowId
 )
 ;
-AbstractThread
-*
-AbstractMainThread
-(
-)
-;
 void
 ForceShutDown
 (
