@@ -167,6 +167,9 @@ height
 .
 textLayer
 span
+.
+textLayer
+br
 {
 color
 :
@@ -4016,6 +4019,11 @@ svg
 }
 media
 (
+-
+moz
+-
+toolbar
+-
 prefers
 -
 color

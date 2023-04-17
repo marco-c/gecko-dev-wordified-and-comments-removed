@@ -52,11 +52,6 @@ enableScripting
 :
 true
 "
-enableWebGL
-"
-:
-false
-"
 externalLinkTarget
 "
 :
@@ -76,13 +71,6 @@ pdfBugEnabled
 "
 :
 false
-"
-renderer
-"
-:
-"
-canvas
-"
 "
 renderInteractiveForms
 "
@@ -143,6 +131,11 @@ disableRange
 false
 "
 disableStream
+"
+:
+false
+"
+enableXfa
 "
 :
 false
