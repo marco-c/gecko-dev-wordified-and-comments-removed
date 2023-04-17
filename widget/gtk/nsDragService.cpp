@@ -199,6 +199,15 @@ h
 #
 include
 "
+mozilla
+/
+WidgetUtilsGtk
+.
+h
+"
+#
+include
+"
 GRefPtr
 .
 h
@@ -8596,6 +8605,9 @@ ifdef
 MOZ_WAYLAND
 if
 (
+widget
+:
+:
 GdkIsWaylandDisplay
 (
 )
