@@ -131,6 +131,15 @@ emulator_extra_config
 "
 hw
 .
+keyboard
+"
+:
+"
+yes
+"
+"
+hw
+.
 lcd
 .
 density
