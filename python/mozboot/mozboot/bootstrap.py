@@ -1535,16 +1535,6 @@ ensure_sccache_packages
 state_dir
 checkout_root
 )
-            
-self
-.
-instance
-.
-ensure_wasi_sysroot_packages
-(
-state_dir
-checkout_root
-)
         
 getattr
 (
