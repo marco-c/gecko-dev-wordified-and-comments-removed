@@ -3674,7 +3674,7 @@ int64_t
 millis
 )
 ;
-void
+bool
 maybeIncreaseSliceBudget
 (
 SliceBudget
@@ -3682,7 +3682,7 @@ SliceBudget
 budget
 )
 ;
-void
+bool
 maybeIncreaseSliceBudgetForLongCollections
 (
 SliceBudget
@@ -3690,7 +3690,7 @@ SliceBudget
 budget
 )
 ;
-void
+bool
 maybeIncreaseSliceBudgetForUrgentCollections
 (
 SliceBudget
@@ -3850,6 +3850,8 @@ JS
 :
 GCReason
 reason
+bool
+budgetWasIncreased
 )
 ;
 void
@@ -4764,6 +4766,8 @@ const
 SliceBudget
 &
 budget
+bool
+shouldPauseMutator
 ShouldTriggerSliceWhenFinished
 triggerSlice
 )
