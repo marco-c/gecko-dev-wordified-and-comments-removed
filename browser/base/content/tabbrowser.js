@@ -24569,12 +24569,9 @@ browser
 .
 docShellIsActive
 =
-this
-.
-shouldActivateDocShell
-(
 browser
-)
+.
+docShellIsActive
 ;
 let
 listener
