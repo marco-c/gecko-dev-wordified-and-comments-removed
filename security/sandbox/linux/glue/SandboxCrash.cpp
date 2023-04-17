@@ -374,16 +374,12 @@ static
 void
 SandboxLogCStack
 (
-const
-void
-*
-aFirstFramePC
 )
 {
 MozStackWalk
 (
 SandboxPrintStackFrame
-aFirstFramePC
+3
 0
 nullptr
 )
@@ -411,10 +407,6 @@ info
 void
 *
 void_context
-const
-void
-*
-aFirstFramePC
 )
 {
 pid_t
@@ -472,7 +464,6 @@ trace
 ;
 SandboxLogCStack
 (
-aFirstFramePC
 )
 ;
 }

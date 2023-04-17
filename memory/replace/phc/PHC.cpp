@@ -570,7 +570,7 @@ else
 MozStackWalk
 (
 StackWalkCallback
-nullptr
+0
 kMaxFrames
 this
 )

@@ -610,7 +610,7 @@ rawStack
 MozStackWalk
 (
 RecordStackWalker
-nullptr
+0
 0
 &
 rawStack
