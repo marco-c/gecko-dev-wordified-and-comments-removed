@@ -2558,7 +2558,8 @@ EnsureSizeAndPositionUpToDate
 0
 ;
 virtual
-void
+nsPIDOMWindowOuter
+*
 EnterModalState
 (
 )
