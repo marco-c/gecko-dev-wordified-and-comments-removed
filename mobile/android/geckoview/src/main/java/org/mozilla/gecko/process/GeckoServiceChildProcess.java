@@ -474,6 +474,12 @@ process
 mainProcessId
 )
 ;
+pfds
+.
+close
+(
+)
+;
 return
 IChildProcess
 .
@@ -499,6 +505,12 @@ process
 already
 started
 "
+)
+;
+pfds
+.
+close
+(
 )
 ;
 return
