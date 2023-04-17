@@ -336,12 +336,12 @@ disable_perf_tuning
         
 self
 .
-conditioned_profile_scenario
+conditioned_profile
 =
 kwargs
 [
 "
-conditioned_profile_scenario
+conditioned_profile
 "
 ]
         
@@ -1225,12 +1225,12 @@ self
 disable_perf_tuning
             
 "
-conditioned_profile_scenario
+conditioned_profile
 "
 :
 self
 .
-conditioned_profile_scenario
+conditioned_profile
             
 "
 is_release_build
