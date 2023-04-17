@@ -1453,13 +1453,6 @@ PVsync
 (
 )
 ;
-async
-SetNativeChildOfShareableWindow
-(
-uintptr_t
-childWindow
-)
-;
 sync
 DispatchFocusToTopLevelWindow
 (
@@ -3056,13 +3049,6 @@ aNewHandle
 async
 AllowScriptsToClose
 (
-)
-;
-async
-SetWidgetNativeData
-(
-WindowsHandle
-aHandle
 )
 ;
 async
