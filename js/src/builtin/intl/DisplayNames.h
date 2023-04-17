@@ -178,7 +178,7 @@ constexpr
 size_t
 EstimatedMemoryUse
 =
-1256
+1238
 ;
 ULocaleDisplayNames
 *
