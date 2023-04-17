@@ -76,7 +76,7 @@ pub
 type
 DeviceIntRect
 =
-Box2D
+Rect
 <
 i32
 DevicePixel
@@ -126,7 +126,7 @@ pub
 type
 DeviceRect
 =
-Box2D
+Rect
 <
 f32
 DevicePixel
@@ -226,7 +226,7 @@ pub
 type
 FramebufferIntRect
 =
-Box2D
+Rect
 <
 i32
 FramebufferPixel
@@ -1074,6 +1074,8 @@ uv0
 self
 .
 min
+(
+)
 .
 to_f32
 (
@@ -1083,6 +1085,8 @@ uv1
 self
 .
 max
+(
+)
 .
 to_f32
 (
