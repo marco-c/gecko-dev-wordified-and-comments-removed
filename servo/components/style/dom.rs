@@ -3522,11 +3522,7 @@ host
 }
 if
 !
-shadow
-.
-host
-(
-)
+inner_shadow_host
 .
 exports_any_part
 (
