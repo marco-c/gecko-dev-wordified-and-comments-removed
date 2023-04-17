@@ -89,7 +89,7 @@ h
 namespace
 mozilla
 {
-nsresult
+void
 InternetCiter
 :
 :
@@ -262,9 +262,6 @@ HTMLEditUtils
 kNewLine
 ;
 }
-return
-NS_OK
-;
 }
 static
 void
@@ -430,7 +427,7 @@ kNBSP
 )
 ;
 }
-nsresult
+void
 InternetCiter
 :
 :
@@ -1283,8 +1280,5 @@ citeLevel
 }
 }
 }
-return
-NS_OK
-;
 }
 }
