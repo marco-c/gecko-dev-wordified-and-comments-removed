@@ -21539,6 +21539,7 @@ GetComputedStyleHelperOuter
 aElt
 aPseudoElt
 aDefaultStylesOnly
+aError
 )
 aError
 nullptr
