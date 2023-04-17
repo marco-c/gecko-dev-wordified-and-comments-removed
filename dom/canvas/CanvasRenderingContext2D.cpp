@@ -10846,11 +10846,6 @@ nsLayoutUtils
 :
 :
 SFE_EXACT_SIZE_SURFACE
-|
-nsLayoutUtils
-:
-:
-SFE_TO_SRGB_COLORSPACE
 ;
 SurfaceFromElementResult
 res
@@ -23059,11 +23054,6 @@ nsLayoutUtils
 :
 :
 SFE_EXACT_SIZE_SURFACE
-|
-nsLayoutUtils
-:
-:
-SFE_TO_SRGB_COLORSPACE
 ;
 SurfaceFromElementResult
 res
