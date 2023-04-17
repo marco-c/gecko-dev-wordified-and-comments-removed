@@ -129,13 +129,6 @@ nsContentUtils
 h
 "
 #
-include
-"
-ImageLayers
-.
-h
-"
-#
 ifdef
 ACCESSIBILITY
 #
