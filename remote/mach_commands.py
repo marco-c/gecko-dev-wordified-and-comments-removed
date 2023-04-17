@@ -4101,7 +4101,6 @@ prefs
 .
 update
 (
-                
 {
 "
 fission
@@ -4110,17 +4109,7 @@ autostart
 "
 :
 True
-"
-dom
-.
-serviceWorkers
-.
-parent_intercept
-"
-:
-True
 }
-            
 )
         
 if

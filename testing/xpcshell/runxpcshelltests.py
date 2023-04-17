@@ -10617,21 +10617,7 @@ serviceworker_e10s
 "
 ]
 =
-prefs
-.
-get
-(
-            
-"
-dom
-.
-serviceWorkers
-.
-parent_intercept
-"
 True
-        
-)
         
 self
 .

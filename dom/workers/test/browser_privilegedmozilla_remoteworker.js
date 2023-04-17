@@ -89,16 +89,6 @@ enabled
 "
 true
 ]
-[
-"
-dom
-.
-serviceworkers
-.
-parent_intercept
-"
-true
-]
 ]
 }
 )

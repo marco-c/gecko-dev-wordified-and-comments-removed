@@ -331,14 +331,6 @@ headless
 False
         
 "
-sw
--
-e10s
-"
-:
-True
-        
-"
 fission
 "
 :
@@ -671,14 +663,6 @@ headless
 "
 :
 False
-        
-"
-sw
--
-e10s
-"
-:
-True
         
 "
 fission
@@ -1017,14 +1001,6 @@ headless
 "
 :
 False
-        
-"
-sw
--
-e10s
-"
-:
-True
         
 "
 fission

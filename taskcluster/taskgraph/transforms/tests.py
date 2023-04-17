@@ -1971,20 +1971,6 @@ autostart
 =
 true
 "
-                    
-"
--
--
-setpref
-=
-dom
-.
-serviceWorkers
-.
-parent_intercept
-=
-true
-"
                 
 ]
             
@@ -2077,20 +2063,6 @@ setpref
 fission
 .
 autostart
-=
-true
-"
-                    
-"
--
--
-setpref
-=
-dom
-.
-serviceWorkers
-.
-parent_intercept
 =
 true
 "

@@ -1135,24 +1135,6 @@ autostart
 ]
 =
 True
-        
-browser_config
-[
-"
-preferences
-"
-]
-[
-"
-dom
-.
-serviceWorkers
-.
-parent_intercept
-"
-]
-=
-True
     
 browser_config
 [
