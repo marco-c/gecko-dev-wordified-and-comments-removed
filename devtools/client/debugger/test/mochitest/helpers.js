@@ -3297,12 +3297,13 @@ NAVIGATE
 "
 )
 ;
-await
 dbg
 .
-client
+commands
 .
-reload
+targetCommand
+.
+reloadTopLevelTarget
 (
 )
 ;
