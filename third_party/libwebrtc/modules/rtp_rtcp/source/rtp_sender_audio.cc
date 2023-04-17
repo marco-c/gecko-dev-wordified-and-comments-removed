@@ -678,7 +678,8 @@ payload_type
 rtp_timestamp
 payload_data
 payload_size
-0
+-
+1
 )
 ;
 }
@@ -1144,6 +1145,13 @@ kAudioFrameSpeech
 audio_level_dbov
 )
 ;
+if
+(
+absolute_capture_timestamp_ms
+>
+0
+)
+{
 auto
 absolute_capture_time
 =
@@ -1183,10 +1191,12 @@ value_or
 )
 Int64MsToUQ32x32
 (
-absolute_capture_timestamp_ms
-+
-NtpOffsetMs
+clock_
+-
+>
+ConvertTimestampToNtpTimeInMilliseconds
 (
+absolute_capture_timestamp_ms
 )
 )
 include_capture_clock_offset_
@@ -1222,6 +1232,7 @@ AbsoluteCaptureTimeExtension
 absolute_capture_time
 )
 ;
+}
 }
 uint8_t
 *
