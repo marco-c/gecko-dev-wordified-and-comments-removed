@@ -3460,14 +3460,6 @@ CWASMOBJS
 (
 CPPWASMOBJS
 )
--
-lwasi
--
-emulated
--
-process
--
-clocks
 (
 addsuffix
 .
