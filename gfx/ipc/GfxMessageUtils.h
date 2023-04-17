@@ -8015,13 +8015,7 @@ WriteIPDLParam
 (
 aMsg
 aActor
-std
-:
-:
-move
-(
 shmem
-)
 )
 ;
 WriteParam
