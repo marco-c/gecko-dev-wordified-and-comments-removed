@@ -296,10 +296,11 @@ empty
 ;
 virtual
 bool
-setNeedsIncrementalBarrier
+setIncrementalBarrierTracer
 (
-bool
-needs
+JSTracer
+*
+trc
 )
 {
 return
