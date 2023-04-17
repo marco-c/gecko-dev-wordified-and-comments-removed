@@ -493,6 +493,8 @@ else
 {
 dataLength
 =
+aData
+?
 strlen
 (
 (
@@ -502,6 +504,8 @@ char
 )
 aData
 )
+:
+0
 ;
 }
 mClipboardDataReceived
