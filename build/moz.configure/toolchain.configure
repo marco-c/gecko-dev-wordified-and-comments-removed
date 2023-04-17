@@ -5142,7 +5142,7 @@ is
 target
 bootstrap_target_when
 =
-target_is_linux
+target_is_linux_or_wasi
 if
 host_or_target
 is
