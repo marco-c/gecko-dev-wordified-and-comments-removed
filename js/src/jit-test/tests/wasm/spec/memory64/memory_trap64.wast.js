@@ -5110,6 +5110,14 @@ memory
 access
 )
 ;
+if
+(
+!
+partialOobWriteMayWritePartialData
+(
+)
+)
+{
 assert_return
 (
 (
@@ -5164,3 +5172,4 @@ i64
 ]
 )
 ;
+}
