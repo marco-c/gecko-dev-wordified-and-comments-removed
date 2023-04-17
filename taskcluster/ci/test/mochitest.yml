@@ -83,7 +83,7 @@ em
 :
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 android
@@ -94,7 +94,7 @@ hw
 :
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 default

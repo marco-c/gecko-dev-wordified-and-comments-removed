@@ -244,7 +244,7 @@ em
 :
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 default
@@ -434,7 +434,7 @@ em
 :
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 default
@@ -696,7 +696,7 @@ android
 :
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 default
@@ -848,7 +848,7 @@ android
 :
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 default

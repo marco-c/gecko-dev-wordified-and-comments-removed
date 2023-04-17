@@ -2227,7 +2227,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 "
         
 app

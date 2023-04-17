@@ -81,7 +81,7 @@ em
 :
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 default

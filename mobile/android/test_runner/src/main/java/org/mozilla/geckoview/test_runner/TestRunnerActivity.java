@@ -5,7 +5,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 ;
 import
 android
@@ -1893,13 +1893,6 @@ build
 (
 )
 )
-.
-crashHandler
-(
-TestCrashHandler
-.
-class
-)
 ;
 sRuntime
 =
@@ -1957,8 +1950,6 @@ resource
 android
 /
 assets
-/
-web_extensions
 /
 test
 -

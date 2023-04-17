@@ -654,7 +654,7 @@ fetches
 /
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 ]
@@ -915,7 +915,7 @@ fetches
 /
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 ]

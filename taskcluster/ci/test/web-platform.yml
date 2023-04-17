@@ -200,7 +200,7 @@ opt
 :
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 android
@@ -224,7 +224,7 @@ opt
 :
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 android
@@ -255,7 +255,7 @@ process
 :
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 default

@@ -105,7 +105,7 @@ artifact
 "
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 "

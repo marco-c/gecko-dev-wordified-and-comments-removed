@@ -265,7 +265,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 .
 XPCSHELL_TEST_MAIN
 "
@@ -2145,7 +2145,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 "
             
 self
@@ -3086,7 +3086,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 "
 )
         

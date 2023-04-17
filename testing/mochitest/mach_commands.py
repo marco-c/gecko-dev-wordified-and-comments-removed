@@ -2652,7 +2652,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 "
         
 device_serial

@@ -363,7 +363,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 package
 .
 The
@@ -413,7 +413,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 FAQ
 -
 -

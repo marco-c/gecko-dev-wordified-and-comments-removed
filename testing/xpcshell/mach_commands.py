@@ -1252,7 +1252,7 @@ startswith
 (
                         
 "
-geckoview
+test_runner
 -
 withGeckoBinaries
 "
