@@ -2636,6 +2636,16 @@ aSourceFileLine
 ;
 #
 endif
+if
+(
+!
+context
+.
+IsEmpty
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIConsoleService
@@ -2710,6 +2720,7 @@ get
 )
 )
 ;
+}
 }
 if
 (
