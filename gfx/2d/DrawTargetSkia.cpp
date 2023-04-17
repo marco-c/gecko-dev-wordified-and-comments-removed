@@ -4392,6 +4392,17 @@ sourceRect
 RectToSkRect
 (
 aSource
+-
+aSurface
+-
+>
+GetRect
+(
+)
+.
+TopLeft
+(
+)
 )
 ;
 bool
