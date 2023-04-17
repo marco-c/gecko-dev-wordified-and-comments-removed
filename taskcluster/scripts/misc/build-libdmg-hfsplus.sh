@@ -88,6 +88,12 @@ DCMAKE_SYSROOT
 MOZ_FETCHES_DIR
 /
 sysroot
+-
+x86_64
+-
+linux
+-
+gnu
 \
 -
 DOPENSSL_USE_STATIC_LIBS

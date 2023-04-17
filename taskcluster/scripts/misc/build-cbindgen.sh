@@ -225,6 +225,12 @@ sysroot
 MOZ_FETCHES_DIR
 /
 sysroot
+-
+x86_64
+-
+linux
+-
+gnu
 "
 export
 RUSTFLAGS
@@ -248,6 +254,12 @@ sysroot
 MOZ_FETCHES_DIR
 /
 sysroot
+-
+x86_64
+-
+linux
+-
+gnu
 "
 ;
 ;

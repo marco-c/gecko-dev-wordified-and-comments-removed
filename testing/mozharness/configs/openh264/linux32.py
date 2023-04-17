@@ -152,6 +152,12 @@ MOZ_FETCHES_DIR
 }
 /
 sysroot
+-
+i686
+-
+linux
+-
+gnu
 "
 .
 format
@@ -187,6 +193,12 @@ MOZ_FETCHES_DIR
 }
 /
 sysroot
+-
+i686
+-
+linux
+-
+gnu
 "
 .
 format

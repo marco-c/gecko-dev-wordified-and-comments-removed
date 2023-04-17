@@ -254,6 +254,12 @@ MOZ_FETCHES_DIR
 /
 sysroot
 -
+aarch64
+-
+linux
+-
+gnu
+-
 DCMAKE_LINKER
 =
 MOZ_FETCHES_DIR

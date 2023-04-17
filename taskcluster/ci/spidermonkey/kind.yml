@@ -401,9 +401,13 @@ linux64
 -
 dump_syms
 -
-linux64
--
 sysroot
+-
+x86_64
+-
+linux
+-
+gnu
 jobs
 -
 from

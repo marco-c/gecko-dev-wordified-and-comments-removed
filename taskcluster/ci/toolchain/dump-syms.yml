@@ -168,9 +168,13 @@ rust
 .
 53
 -
-linux64
--
 sysroot
+-
+x86_64
+-
+linux
+-
+gnu
 macosx64
 -
 dump_syms

@@ -718,6 +718,19 @@ GECKO_PATH
 "
 :
 gecko_path
+            
+"
+TOOLCHAIN_ARTIFACT
+"
+:
+run
+[
+"
+toolchain
+-
+artifact
+"
+]
         
 }
     
@@ -1140,6 +1153,19 @@ params
 [
 "
 level
+"
+]
+            
+"
+TOOLCHAIN_ARTIFACT
+"
+:
+run
+[
+"
+toolchain
+-
+artifact
 "
 ]
         

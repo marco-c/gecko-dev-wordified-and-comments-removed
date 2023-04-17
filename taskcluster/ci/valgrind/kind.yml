@@ -332,9 +332,13 @@ linux64
 -
 lucetc
 -
-linux64
--
 sysroot
+-
+x86_64
+-
+linux
+-
+gnu
 -
 wasi
 -
