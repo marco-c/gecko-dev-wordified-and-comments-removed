@@ -133,9 +133,6 @@ ByteBuf
 aResolver
 )
 {
-#
-ifndef
-MOZ_GLEAN_ANDROID
 ByteBuf
 buf
 ;
@@ -206,8 +203,6 @@ buf
 )
 )
 ;
-#
-endif
 }
 void
 FlushAllChildData
@@ -235,9 +230,6 @@ ByteBuf
 aResolver
 )
 {
-#
-ifndef
-MOZ_GLEAN_ANDROID
 nsTArray
 <
 ContentParent
@@ -441,8 +433,6 @@ results
 }
 )
 ;
-#
-endif
 }
 void
 FOGData
@@ -456,9 +446,6 @@ ByteBuf
 buf
 )
 {
-#
-ifndef
-MOZ_GLEAN_ANDROID
 fog_ipc
 :
 :
@@ -484,8 +471,6 @@ buf
 mLen
 )
 ;
-#
-endif
 }
 void
 SendFOGData
@@ -499,9 +484,6 @@ ByteBuf
 buf
 )
 {
-#
-ifndef
-MOZ_GLEAN_ANDROID
 switch
 (
 XRE_GetProcessType
@@ -551,8 +533,6 @@ type
 )
 ;
 }
-#
-endif
 }
 RefPtr
 <

@@ -43,6 +43,11 @@ aAppIdOverride
 )
 ;
 void
+registerCustomPings
+(
+)
+;
+void
 setLogPings
 (
 in
