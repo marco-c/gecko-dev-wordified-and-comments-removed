@@ -376,15 +376,6 @@ KP_FLAGS
 p_flag
 #
 endif
-#
-include
-"
-mozilla
-/
-mozalloc_abort
-.
-h
-"
 static
 void
 Abort
@@ -1999,7 +1990,7 @@ XRE_GetProcessTypeString
 )
 )
 ;
-mozalloc_abort
+MOZ_CRASH_UNSAFE
 (
 aMsg
 )
