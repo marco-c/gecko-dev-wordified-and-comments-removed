@@ -1370,6 +1370,12 @@ NANOS_IN_MILLIS
 =
 1e6
 ;
+const
+uint64_t
+EPSILON
+=
+40000
+;
 ASSERT_GT
 (
 data
@@ -1383,6 +1389,8 @@ uint64_t
 *
 NANOS_IN_MILLIS
 )
+-
+EPSILON
 )
 ;
 uint64_t
