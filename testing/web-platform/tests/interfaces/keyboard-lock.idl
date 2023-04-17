@@ -79,7 +79,7 @@ Keyboard
 {
 Promise
 <
-void
+undefined
 >
 lock
 (
@@ -94,7 +94,7 @@ keyCodes
 ]
 )
 ;
-void
+undefined
 unlock
 (
 )

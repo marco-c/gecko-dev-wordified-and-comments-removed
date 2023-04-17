@@ -504,7 +504,7 @@ init
 ;
 Promise
 <
-void
+undefined
 >
 updateUI
 (

@@ -94,7 +94,7 @@ userHint
 ;
 Promise
 <
-void
+undefined
 >
 enableDelegations
 (
@@ -179,7 +179,7 @@ instrumentKey
 ;
 Promise
 <
-void
+undefined
 >
 set
 (
@@ -191,7 +191,7 @@ details
 ;
 Promise
 <
-void
+undefined
 >
 clear
 (
@@ -285,7 +285,7 @@ PaymentMethodData
 >
 methodData
 ;
-void
+undefined
 respondWith
 (
 Promise
@@ -492,7 +492,7 @@ DOMString
 shippingOption
 )
 ;
-void
+undefined
 respondWith
 (
 Promise

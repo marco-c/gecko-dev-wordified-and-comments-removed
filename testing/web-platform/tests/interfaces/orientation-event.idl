@@ -152,17 +152,6 @@ false
 ;
 }
 ;
-enum
-PermissionState
-{
-"
-granted
-"
-"
-denied
-"
-}
-;
 partial
 interface
 Window

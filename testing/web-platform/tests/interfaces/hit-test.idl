@@ -116,7 +116,7 @@ Window
 interface
 XRHitTestSource
 {
-void
+undefined
 cancel
 (
 )
@@ -132,7 +132,7 @@ Window
 interface
 XRTransientInputHitTestSource
 {
-void
+undefined
 cancel
 (
 )

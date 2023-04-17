@@ -147,7 +147,7 @@ ContentIndex
 {
 Promise
 <
-void
+undefined
 >
 add
 (
@@ -157,7 +157,7 @@ description
 ;
 Promise
 <
-void
+undefined
 >
 delete
 (

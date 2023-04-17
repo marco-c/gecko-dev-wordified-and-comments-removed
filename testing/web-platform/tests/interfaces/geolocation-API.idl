@@ -37,7 +37,6 @@ Source
 :
 Geolocation
 API
-Specification
 (
 https
 :
@@ -83,7 +82,10 @@ PositionCallback
 successCallback
 optional
 PositionErrorCallback
+?
 errorCallback
+=
+null
 optional
 PositionOptions
 options
@@ -99,7 +101,10 @@ PositionCallback
 successCallback
 optional
 PositionErrorCallback
+?
 errorCallback
+=
+null
 optional
 PositionOptions
 options
@@ -196,6 +201,11 @@ GeolocationCoordinates
 readonly
 attribute
 double
+accuracy
+;
+readonly
+attribute
+double
 latitude
 ;
 readonly
@@ -208,11 +218,6 @@ attribute
 double
 ?
 altitude
-;
-readonly
-attribute
-double
-accuracy
 ;
 readonly
 attribute

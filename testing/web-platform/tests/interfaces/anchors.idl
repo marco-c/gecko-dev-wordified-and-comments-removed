@@ -68,7 +68,7 @@ attribute
 XRSpace
 anchorSpace
 ;
-void
+undefined
 delete
 (
 )
@@ -107,6 +107,11 @@ createAnchor
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 XRAnchorSet
 {

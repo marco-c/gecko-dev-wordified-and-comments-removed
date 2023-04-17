@@ -78,7 +78,7 @@ USVString
 text
 )
 ;
-void
+undefined
 replaceSync
 (
 USVString

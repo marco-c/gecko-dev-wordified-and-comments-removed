@@ -836,6 +836,10 @@ SVGElement
 includes
 ElementCSSInlineStyle
 ;
+MathMLElement
+includes
+ElementCSSInlineStyle
+;
 partial
 interface
 Window

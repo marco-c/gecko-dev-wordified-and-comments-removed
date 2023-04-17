@@ -99,7 +99,7 @@ PeriodicSyncManager
 {
 Promise
 <
-void
+undefined
 >
 register
 (
@@ -108,6 +108,9 @@ tag
 optional
 BackgroundSyncOptions
 options
+=
+{
+}
 )
 ;
 Promise
@@ -123,7 +126,7 @@ getTags
 ;
 Promise
 <
-void
+undefined
 >
 unregister
 (
@@ -160,13 +163,6 @@ tag
 }
 ;
 [
-Constructor
-(
-DOMString
-type
-PeriodicSyncEventInit
-init
-)
 Exposed
 =
 ServiceWorker
@@ -176,6 +172,14 @@ PeriodicSyncEvent
 :
 ExtendableEvent
 {
+constructor
+(
+DOMString
+type
+PeriodicSyncEventInit
+init
+)
+;
 readonly
 attribute
 DOMString
