@@ -67,6 +67,16 @@ self
 >
 QueueFamilyId
 ;
+fn
+supports_sparse_binding
+(
+&
+self
+)
+-
+>
+bool
+;
 }
 #
 [

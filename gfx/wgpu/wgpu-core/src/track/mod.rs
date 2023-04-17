@@ -496,7 +496,7 @@ a
 B
 >
 {
-tracing
+log
 :
 :
 trace
@@ -645,7 +645,7 @@ a
 B
 >
 {
-tracing
+log
 :
 :
 trace
@@ -998,6 +998,16 @@ formatter
 )
 }
 }
+#
+[
+allow
+(
+clippy
+:
+:
+needless_lifetimes
+)
+]
 impl
 <
 S

@@ -3,6 +3,10 @@ super
 :
 :
 {
+super
+:
+:
+Typifier
 constants
 :
 :
@@ -21,10 +25,7 @@ crate
 proc
 :
 :
-{
 ResolveContext
-Typifier
-}
 Arena
 BinaryOperator
 Binding
@@ -39,6 +40,7 @@ Interpolation
 LocalVariable
 Module
 RelationalFunction
+ResourceBinding
 ShaderStage
 Statement
 StorageClass
@@ -430,6 +432,7 @@ let
 left_is_vector
 =
 match
+*
 self
 .
 resolve_type
@@ -464,6 +467,7 @@ let
 right_is_vector
 =
 match
+*
 self
 .
 resolve_type
@@ -1283,6 +1287,10 @@ StorageQualifier
 (
 StorageQualifier
 )
+ResourceBinding
+(
+ResourceBinding
+)
 Binding
 (
 Binding
@@ -1397,6 +1405,8 @@ StorageClass
 (
 StorageClass
 )
+Input
+Output
 Const
 }
 #
@@ -1414,6 +1424,10 @@ StructLayout
 Binding
 (
 Binding
+)
+Resource
+(
+ResourceBinding
 )
 PushConstant
 }

@@ -295,7 +295,7 @@ desc
 ffi
 :
 :
-WGPUDepthStencilAttachmentDescriptor
+WGPURenderPassDepthStencilAttachment
 dsDesc
 =
 {
@@ -327,7 +327,7 @@ Value
 ;
 dsDesc
 .
-attachment
+view
 =
 dsa
 .
@@ -510,7 +510,7 @@ array
 ffi
 :
 :
-WGPUColorAttachmentDescriptor
+WGPURenderPassColorAttachment
 WGPUMAX_COLOR_TARGETS
 >
 colorDescs
@@ -577,7 +577,7 @@ i
 ffi
 :
 :
-WGPUColorAttachmentDescriptor
+WGPURenderPassColorAttachment
 &
 cd
 =
@@ -588,7 +588,7 @@ i
 ;
 cd
 .
-attachment
+view
 =
 ca
 .

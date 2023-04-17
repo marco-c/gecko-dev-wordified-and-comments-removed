@@ -144,12 +144,6 @@ default
 =
 [
 ]
-auto
--
-capture
-=
-[
-]
 signpost
 =
 [
@@ -483,7 +477,7 @@ tag
 "
 gfx
 -
-12
+20
 "
 features
 =

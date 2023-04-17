@@ -3842,7 +3842,7 @@ const
 ffi
 :
 :
-WGPUTextureCopyView
+WGPUImageCopyTexture
 texView
 =
 {
@@ -3853,7 +3853,7 @@ const
 ffi
 :
 :
-WGPUTextureDataLayout
+WGPUImageDataLayout
 bufLayout
 =
 {
@@ -3869,7 +3869,7 @@ const
 ffi
 :
 :
-WGPUBufferCopyView
+WGPUImageCopyBuffer
 bufView
 =
 {
