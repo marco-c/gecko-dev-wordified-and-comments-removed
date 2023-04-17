@@ -10139,15 +10139,9 @@ forceNewLayerData
 item
 -
 >
-GetType
+CreatesStackingContextHelper
 (
 )
-=
-=
-DisplayItemType
-:
-:
-TYPE_TRANSFORM
 &
 &
 aSc
