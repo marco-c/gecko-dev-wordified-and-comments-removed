@@ -1875,6 +1875,14 @@ tab
 linkedBrowser
 )
 ;
+await
+waitForPresShell
+(
+tab
+.
+linkedBrowser
+)
+;
 info
 (
 "

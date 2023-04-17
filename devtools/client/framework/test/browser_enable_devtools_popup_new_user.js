@@ -85,14 +85,6 @@ TEST_URL
 )
 ;
 await
-waitForPresShell
-(
-tab
-.
-linkedBrowser
-)
-;
-await
 new
 Promise
 (
