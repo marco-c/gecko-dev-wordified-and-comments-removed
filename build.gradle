@@ -569,7 +569,7 @@ apilint
 .
 4
 .
-1
+3
 '
 classpath
 '
@@ -583,11 +583,11 @@ build
 :
 gradle
 :
-3
-.
 4
 .
 2
+.
+0
 '
 classpath
 '
