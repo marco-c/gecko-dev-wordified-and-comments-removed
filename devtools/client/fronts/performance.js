@@ -546,6 +546,9 @@ model
 new
 PerformanceRecordingFront
 (
+this
+.
+conn
 )
 ;
 model
