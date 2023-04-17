@@ -797,10 +797,6 @@ JSOp
 :
 :
 GetElem
-ShouldInstrument
-:
-:
-Yes
 )
 )
 {
@@ -1079,10 +1075,6 @@ bce_
 emitElemOpBase
 (
 setOp
-ShouldInstrument
-:
-:
-Yes
 )
 )
 {
@@ -1284,10 +1276,6 @@ JSOp
 :
 :
 StrictSetElem
-ShouldInstrument
-:
-:
-Yes
 )
 )
 {

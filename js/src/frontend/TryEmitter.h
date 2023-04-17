@@ -310,16 +310,6 @@ emitFinallyEnd
 (
 )
 ;
-[
-[
-nodiscard
-]
-]
-bool
-instrumentEntryPoint
-(
-)
-;
 }
 ;
 }

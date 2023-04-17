@@ -261,11 +261,6 @@ hasIntroductionInfo
 =
 false
 ;
-uint32_t
-instrumentationKinds
-=
-0
-;
 protected
 :
 TransitiveCompileOptions

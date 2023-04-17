@@ -383,10 +383,6 @@ bce_
 emitElemOpBase
 (
 op
-ShouldInstrument
-:
-:
-Yes
 )
 )
 {
@@ -874,10 +870,6 @@ bce_
 emitElemOpBase
 (
 setOp
-ShouldInstrument
-:
-:
-Yes
 )
 )
 {
@@ -1113,10 +1105,6 @@ bce_
 emitElemOpBase
 (
 setOp
-ShouldInstrument
-:
-:
-Yes
 )
 )
 {
