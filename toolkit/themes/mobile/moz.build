@@ -3,6 +3,8 @@ JAR_MANIFESTS
 =
 [
 "
+global
+/
 jar
 .
 mn
