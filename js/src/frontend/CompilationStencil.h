@@ -2554,11 +2554,13 @@ ScriptSource
 >
 source
 ;
-Scope
-*
+InputScope
 enclosingScope
 =
+InputScope
+(
 nullptr
+)
 ;
 explicit
 CompilationInput
@@ -2664,6 +2666,8 @@ false
 }
 enclosingScope
 =
+InputScope
+(
 &
 cx
 -
@@ -2675,6 +2679,7 @@ global
 >
 emptyGlobalScope
 (
+)
 )
 ;
 return
@@ -2723,7 +2728,10 @@ false
 }
 enclosingScope
 =
+InputScope
+(
 evalEnclosingScope
+)
 ;
 return
 true
@@ -2820,6 +2828,8 @@ ss
 ;
 enclosingScope
 =
+InputScope
+(
 lazy_
 -
 >
@@ -2830,6 +2840,7 @@ function
 >
 enclosingScope
 (
+)
 )
 ;
 }
@@ -2867,8 +2878,7 @@ CompilationTarget
 Delazification
 ;
 }
-Scope
-*
+InputScope
 maybeNonDefaultEnclosingScope
 (
 )
@@ -2886,7 +2896,10 @@ enclosingScope
 ;
 }
 return
+InputScope
+(
 nullptr
+)
 ;
 }
 BaseScript

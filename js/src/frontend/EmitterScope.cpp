@@ -292,6 +292,7 @@ environmentChainLength_
 else
 if
 (
+!
 bce
 -
 >
@@ -300,6 +301,10 @@ compilationState
 input
 .
 enclosingScope
+.
+isNull
+(
+)
 )
 {
 hops

@@ -8832,6 +8832,7 @@ superScopeNeedsHomeObject
 )
 &
 &
+!
 this
 -
 >
@@ -8840,6 +8841,10 @@ compilationState_
 input
 .
 enclosingScope
+.
+isNull
+(
+)
 )
 {
 MOZ_ASSERT
