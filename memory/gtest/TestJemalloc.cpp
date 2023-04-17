@@ -641,9 +641,15 @@ small_max
 =
 stats
 .
-page_size
-/
-2
+subpage_max
+?
+stats
+.
+subpage_max
+:
+stats
+.
+quantum_wide_max
 ;
 for
 (
@@ -1091,7 +1097,7 @@ isFreedAlloc
 /
 isFreedPage
 >
-10
+8
 )
 ;
 len
@@ -1662,7 +1668,7 @@ sSizes
 918
 1
 .
-5_KiB
+4_KiB
 73_KiB
 129_KiB
 1
