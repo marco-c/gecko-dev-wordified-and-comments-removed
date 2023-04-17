@@ -94,6 +94,12 @@ allocator_may_return_null
 =
 1
 "
+"
+:
+intercept_tls_get_addr
+=
+0
+"
 ;
 }
 extern
