@@ -7763,7 +7763,9 @@ PopLastElement
 (
 )
 ;
-typedef
+using
+WalkStorage
+=
 StoreCopyPassByRRef
 <
 decltype
@@ -7771,7 +7773,6 @@ decltype
 toWalk
 )
 >
-WalkStorage
 ;
 auto
 saveMethod
