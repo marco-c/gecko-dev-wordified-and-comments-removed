@@ -22,7 +22,7 @@ if
 (
 e
 .
-port
+target
 =
 =
 =
@@ -180,7 +180,7 @@ manualTestPort
 ;
 }
 function
-manual_loopback_serial_test
+manual_serial_test
 (
 func
 name
