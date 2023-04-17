@@ -31,6 +31,14 @@ true
 ]
 [
 "
+browser
+.
+warnOnQuit
+"
+false
+]
+[
+"
 focusmanager
 .
 testmode
