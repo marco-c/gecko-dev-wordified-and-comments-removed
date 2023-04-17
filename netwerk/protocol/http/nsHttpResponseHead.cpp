@@ -683,7 +683,9 @@ nsHttpResponseHead
 :
 SetHeader
 (
+const
 nsHttpAtom
+&
 hdr
 const
 nsACString
@@ -726,7 +728,9 @@ nsHttpResponseHead
 :
 SetHeader_locked
 (
+const
 nsHttpAtom
+&
 atom
 const
 nsACString
@@ -777,6 +781,7 @@ nsHttp
 :
 Cache_Control
 )
+{
 ParseCacheControl
 (
 mHeaders
@@ -787,6 +792,7 @@ atom
 )
 )
 ;
+}
 else
 if
 (
@@ -798,6 +804,7 @@ nsHttp
 :
 Pragma
 )
+{
 ParsePragma
 (
 mHeaders
@@ -808,6 +815,7 @@ atom
 )
 )
 ;
+}
 return
 NS_OK
 ;
@@ -818,7 +826,9 @@ nsHttpResponseHead
 :
 GetHeader
 (
+const
 nsHttpAtom
+&
 h
 nsACString
 &
@@ -853,7 +863,9 @@ nsHttpResponseHead
 :
 ClearHeader
 (
+const
 nsHttpAtom
+&
 h
 )
 {
@@ -898,7 +910,9 @@ nsHttpResponseHead
 :
 HasHeaderValue
 (
+const
 nsHttpAtom
+&
 h
 const
 char
@@ -928,7 +942,9 @@ nsHttpResponseHead
 :
 HasHeader
 (
+const
 nsHttpAtom
+&
 h
 )
 const
@@ -1020,6 +1036,7 @@ len
 <
 0
 )
+{
 mHeaders
 .
 ClearHeader
@@ -1030,6 +1047,7 @@ nsHttp
 Content_Length
 )
 ;
+}
 else
 {
 DebugOnly
@@ -3041,6 +3059,7 @@ nsHttp
 :
 Cache_Control
 )
+{
 ParseCacheControl
 (
 val
@@ -3050,6 +3069,7 @@ get
 )
 )
 ;
+}
 else
 if
 (
@@ -3061,6 +3081,7 @@ nsHttp
 :
 Pragma
 )
+{
 ParsePragma
 (
 val
@@ -3070,6 +3091,7 @@ get
 )
 )
 ;
+}
 return
 NS_OK
 ;
@@ -3188,6 +3210,7 @@ ageValue
 )
 )
 )
+{
 *
 result
 =
@@ -3201,6 +3224,7 @@ result
 ageValue
 )
 ;
+}
 *
 result
 +
@@ -3274,12 +3298,14 @@ date
 )
 )
 )
+{
 date
 =
 NowInSeconds
 (
 )
 ;
+}
 if
 (
 NS_SUCCEEDED
@@ -3953,23 +3979,15 @@ return
 true
 ;
 }
-if
-(
+return
 now
->
+<
+=
 stallValidUntil
 .
 value
 (
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 bool
@@ -4581,7 +4599,9 @@ nsHttpResponseHead
 :
 ParseDateHeader
 (
+const
 nsHttpAtom
+&
 header
 uint32_t
 *
@@ -4894,12 +4914,15 @@ time
 <
 0
 )
+{
 *
 result
 =
 0
 ;
+}
 else
+{
 *
 result
 =
@@ -4908,6 +4931,7 @@ PRTimeToSeconds
 time
 )
 ;
+}
 return
 NS_OK
 ;
@@ -5216,10 +5240,12 @@ slash
 *
 '
 )
+{
 return
 -
 1
 ;
+}
 int64_t
 size
 ;
@@ -5929,7 +5955,9 @@ nsHttpResponseHead
 :
 GetOriginalHeader
 (
+const
 nsHttpAtom
+&
 aHeader
 nsIHttpHeaderVisitor
 *

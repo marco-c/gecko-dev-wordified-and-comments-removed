@@ -537,7 +537,7 @@ token
 const
 char
 *
-separators
+seps
 )
 ;
 [
@@ -708,7 +708,6 @@ NotifyActiveTabLoadOptimization
 )
 ;
 TimeStamp
-const
 GetLastActiveTabLoadOptimizationHit
 (
 )
@@ -1297,7 +1296,7 @@ ParsedHeaderValueListList
 const
 nsCString
 &
-txt
+fullHeader
 bool
 allowInvalidValue
 =
