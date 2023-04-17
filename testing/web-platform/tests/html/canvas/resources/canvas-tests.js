@@ -645,6 +645,10 @@ function
 _addTest
 (
 testFn
+attributes
+=
+{
+}
 )
 {
 on_event
@@ -687,6 +691,7 @@ getContext
 '
 2d
 '
+attributes
 )
 ;
 t
