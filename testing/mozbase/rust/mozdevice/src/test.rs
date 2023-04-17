@@ -9,9 +9,9 @@ crate
 :
 :
 {
+append_components
 AndroidStorage
 AndroidStorageInput
-append_components
 }
 ;
 use
