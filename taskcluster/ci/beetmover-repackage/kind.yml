@@ -155,6 +155,16 @@ signing
 -
 msi
 -
+repackage
+-
+signing
+-
+shippable
+-
+l10n
+-
+msix
+-
 mar
 -
 signing

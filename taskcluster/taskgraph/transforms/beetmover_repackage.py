@@ -486,6 +486,20 @@ signing
 msi
 "
         
+msix_signing_name
+=
+"
+repackage
+-
+signing
+-
+shippable
+-
+l10n
+-
+msix
+"
+        
 mar_signing_name
 =
 "
@@ -637,6 +651,22 @@ msi_signing_name
 upstream_deps
 [
 msi_signing_name
+]
+        
+if
+msix_signing_name
+in
+upstream_deps
+:
+            
+dependencies
+[
+msix_signing_name
+]
+=
+upstream_deps
+[
+msix_signing_name
 ]
         
 if
