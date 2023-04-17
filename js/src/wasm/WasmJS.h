@@ -2087,7 +2087,7 @@ endif
 }
 ;
 class
-WasmExceptionObject
+WasmTagObject
 :
 public
 NativeObject
@@ -2192,7 +2192,7 @@ Value
 )
 ;
 static
-WasmExceptionObject
+WasmTagObject
 *
 create
 (
@@ -2248,7 +2248,7 @@ const
 }
 ;
 class
-WasmRuntimeExceptionObject
+WasmExceptionObject
 :
 public
 NativeObject
@@ -2360,7 +2360,7 @@ Value
 )
 ;
 static
-WasmRuntimeExceptionObject
+WasmExceptionObject
 *
 create
 (

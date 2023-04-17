@@ -879,10 +879,10 @@ case
 JSProto_WasmGlobal
 :
 case
-JSProto_WasmException
+JSProto_WasmTag
 :
 case
-JSProto_WasmRuntimeException
+JSProto_WasmException
 :
 return
 false
