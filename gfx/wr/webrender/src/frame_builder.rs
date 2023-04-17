@@ -2059,6 +2059,10 @@ frame_context
 .
 global_screen_world_rect
 .
+to_rect
+(
+)
+.
 cast_unit
 (
 )
@@ -2520,10 +2524,6 @@ global_device_pixel_scale
 )
 .
 round_out
-(
-)
-.
-to_rect
 (
 )
 ;
@@ -3194,6 +3194,10 @@ spatial_node_index
 ctx
 .
 screen_world_rect
+.
+to_rect
+(
+)
 ctx
 .
 spatial_tree

@@ -5583,6 +5583,10 @@ rect
 =
 >
 rect
+.
+to_box2d
+(
+)
 None
 =
 >
@@ -6644,6 +6648,10 @@ map
 unclipped_raster_rect
 )
 ?
+.
+to_box2d
+(
+)
 ;
 let
 clipped_world_rect
@@ -6666,6 +6674,10 @@ unmap
 (
 &
 clipped_world_rect
+.
+to_rect
+(
+)
 )
 ?
 ;
