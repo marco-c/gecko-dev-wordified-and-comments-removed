@@ -77,6 +77,14 @@ linkage
 =
 None
 )
+TEST_DIRS
++
+=
+[
+"
+interceptor
+"
+]
 OS_LIBS
 +
 =

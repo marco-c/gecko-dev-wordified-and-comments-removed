@@ -186,11 +186,6 @@ DELAYLOAD_DLLS
 =
 [
 "
-oleaut32
-.
-dll
-"
-"
 ole32
 .
 dll
