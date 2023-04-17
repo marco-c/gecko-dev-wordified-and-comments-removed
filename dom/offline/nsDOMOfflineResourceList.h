@@ -136,11 +136,12 @@ nsIObserver
 public
 nsSupportsWeakReference
 {
-typedef
+using
+ErrorResult
+=
 mozilla
 :
 :
-ErrorResult
 ErrorResult
 ;
 public
