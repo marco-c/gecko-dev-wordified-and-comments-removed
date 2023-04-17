@@ -6837,6 +6837,17 @@ self
 .
 composite_thread
 {
+if
+!
+composite_thread
+.
+is_busy_compositing
+(
+)
+{
+return
+;
+}
 composite_thread
 .
 wait_for_composites

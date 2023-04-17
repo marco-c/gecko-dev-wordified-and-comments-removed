@@ -21545,6 +21545,13 @@ surface_rect
 ;
 }
 }
+if
+device_size
+.
+is_some
+(
+)
+{
 frame
 .
 composite_state
@@ -21562,6 +21569,7 @@ mut
 compositor
 )
 ;
+}
 }
 for
 (
