@@ -1119,7 +1119,7 @@ __VA_ARGS__
 }
 static
 const
-HTMLMarkupMapInfo
+MarkupMapInfo
 sHTMLMarkupMapList
 [
 ]
@@ -4962,7 +4962,7 @@ content
 )
 {
 const
-HTMLMarkupMapInfo
+MarkupMapInfo
 *
 markupMap
 =
@@ -5528,7 +5528,7 @@ eOuterDocType
 )
 {
 const
-HTMLMarkupMapInfo
+MarkupMapInfo
 *
 markupMap
 =
@@ -6324,7 +6324,7 @@ IsMathMLElement
 )
 {
 const
-HTMLMarkupMapInfo
+MarkupMapInfo
 *
 markupMap
 =
@@ -7864,7 +7864,7 @@ mozilla
 a11y
 :
 :
-HTMLMarkupMapInfo
+MarkupMapInfo
 *
 markupMap
 =
