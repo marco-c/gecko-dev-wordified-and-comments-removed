@@ -16,6 +16,9 @@ for
 manual
 editing
 .
+version
+=
+3
 [
 [
 package
@@ -29,11 +32,11 @@ arbitrary
 version
 =
 "
+1
+.
 0
 .
-4
-.
-6
+0
 "
 source
 =
@@ -61,7 +64,7 @@ index
 checksum
 =
 "
-0922a3e746b5a44e111e5603feb6704e5cc959116f66737f50bb5cbd264e9d87
+698b65a961a9d730fb45b6b0327e20207810c9f61ee421b082b27ba003f49e2b
 "
 [
 [
@@ -174,9 +177,9 @@ version
 "
 0
 .
-3
-.
 4
+.
+0
 "
 source
 =
@@ -204,7 +207,7 @@ index
 checksum
 =
 "
-ee8c42ab62f43795ed77a965ed07994c5584cdc94fd0ebf14b22ac1524077acc
+86c975d637bc2a2f99440932b731491fc34c7f785d239e38af3addd3c2fd0e46
 "
 dependencies
 =
