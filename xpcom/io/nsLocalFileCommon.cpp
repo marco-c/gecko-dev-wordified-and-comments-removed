@@ -191,6 +191,10 @@ hta
 "
 "
 .
+inetloc
+"
+"
+.
 inf
 "
 "

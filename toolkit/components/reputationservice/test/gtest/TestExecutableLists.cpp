@@ -408,6 +408,10 @@ imgpart
 "
 "
 .
+inetloc
+"
+"
+.
 inf
 "
 "

@@ -7215,6 +7215,9 @@ MOZ_WIDGET_COCOA
 "
 fileloc
 "
+"
+inetloc
+"
 #
 endif
 "
