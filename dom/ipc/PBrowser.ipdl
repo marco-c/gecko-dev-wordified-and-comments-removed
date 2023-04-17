@@ -3023,9 +3023,8 @@ PrintPreview
 (
 PrintData
 aPrintData
-uint64_t
-?
-aSourceOuterWindowID
+MaybeDiscardedBrowsingContext
+aSourceBrowsingContext
 )
 returns
 (

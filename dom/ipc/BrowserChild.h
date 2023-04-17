@@ -2714,15 +2714,8 @@ PrintData
 &
 aPrintData
 const
-mozilla
-:
-:
-Maybe
-<
-uint64_t
->
+MaybeDiscardedBrowsingContext
 &
-aSourceOuterWindowID
 PrintPreviewResolver
 &
 &

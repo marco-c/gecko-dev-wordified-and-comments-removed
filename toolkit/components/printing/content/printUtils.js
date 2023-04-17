@@ -406,6 +406,7 @@ createPreviewBrowsers
 (
 aBrowsingContext
 aDialogBrowser
+aPrintFrameOnly
 )
 {
 let
@@ -424,6 +425,9 @@ previewType
 "
 selection
 "
+|
+|
+aPrintFrameOnly
 ?
 aBrowsingContext
 :
