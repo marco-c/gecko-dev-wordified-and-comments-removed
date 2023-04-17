@@ -11953,6 +11953,7 @@ WarpBuilder
 build_CheckThis
 (
 BytecodeLocation
+loc
 )
 {
 MDefinition
@@ -11998,7 +11999,11 @@ ins
 )
 ;
 return
-true
+resumeAfter
+(
+ins
+loc
+)
 ;
 }
 bool
@@ -12008,6 +12013,7 @@ WarpBuilder
 build_CheckThisReinit
 (
 BytecodeLocation
+loc
 )
 {
 MDefinition
@@ -12053,7 +12059,11 @@ ins
 )
 ;
 return
-true
+resumeAfter
+(
+ins
+loc
+)
 ;
 }
 bool
@@ -13451,6 +13461,7 @@ WarpBuilder
 build_CheckReturn
 (
 BytecodeLocation
+loc
 )
 {
 MOZ_ASSERT
@@ -13533,7 +13544,11 @@ ins
 )
 ;
 return
-true
+resumeAfter
+(
+ins
+loc
+)
 ;
 }
 void
