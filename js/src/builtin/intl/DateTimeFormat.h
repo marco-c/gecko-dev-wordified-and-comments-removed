@@ -227,14 +227,7 @@ setFixedSlot
 UDATE_FORMAT_SLOT
 PrivateValue
 (
-static_cast
-<
-void
-*
->
-(
 dateFormat
-)
 )
 )
 ;
