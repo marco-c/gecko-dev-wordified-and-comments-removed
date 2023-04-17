@@ -183,6 +183,13 @@ GetMaiAtkType
 n
 "
 "
+race
+:
+fire_glxtest_process
+\
+n
+"
+"
 deadlock
 :
 SanctionsTestServer
