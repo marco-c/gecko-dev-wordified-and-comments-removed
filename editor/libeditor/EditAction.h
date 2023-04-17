@@ -31,6 +31,7 @@ EditAction
 {
 eNone
 eNotEditing
+eInitializing
 eInsertText
 eInsertParagraphSeparator
 eInsertLineBreak
@@ -1046,6 +1047,12 @@ EditAction
 :
 :
 eNotEditing
+:
+case
+EditAction
+:
+:
+eInitializing
 :
 return
 false
