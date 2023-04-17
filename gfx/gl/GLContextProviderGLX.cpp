@@ -3198,6 +3198,8 @@ display
 int
 screen
 bool
+useWebRender
+bool
 useAlpha
 int
 *
@@ -3379,6 +3381,16 @@ useAlpha
 :
 0
 ;
+const
+int
+depthSize
+=
+useWebRender
+?
+24
+:
+0
+;
 for
 (
 auto
@@ -3505,7 +3517,7 @@ alphaSize
 fnConfigMatches
 (
 LOCAL_GLX_DEPTH_SIZE
-0
+depthSize
 )
 )
 {

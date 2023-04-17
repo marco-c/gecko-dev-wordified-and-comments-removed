@@ -5780,6 +5780,8 @@ GLContextEGL
 FindVisual
 (
 bool
+aUseWebRender
+bool
 useAlpha
 int
 *
@@ -5852,7 +5854,7 @@ egl
 &
 config
 bpp
-false
+aUseWebRender
 false
 )
 )

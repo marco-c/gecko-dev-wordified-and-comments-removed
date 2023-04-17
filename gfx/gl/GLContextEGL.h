@@ -543,6 +543,8 @@ bool
 FindVisual
 (
 bool
+aUseWebRender
+bool
 useAlpha
 int
 *
