@@ -81,6 +81,15 @@ getWatcher
 request
 :
 {
+isServerTargetSwitchingEnabled
+:
+Option
+(
+0
+"
+boolean
+"
+)
 }
 response
 :
