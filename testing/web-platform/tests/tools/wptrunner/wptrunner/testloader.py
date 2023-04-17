@@ -1284,10 +1284,6 @@ include_h2
 =
 True
                  
-include_quic
-=
-False
-                 
 include_webtransport_h3
 =
 False
@@ -1361,12 +1357,6 @@ self
 include_h2
 =
 include_h2
-        
-self
-.
-include_quic
-=
-include_quic
         
 self
 .
@@ -2035,26 +2025,6 @@ protocol
 "
 h2
 "
-:
-                
-enabled
-=
-False
-            
-if
-not
-self
-.
-include_quic
-and
-test
-.
-environment
-[
-"
-quic
-"
-]
 :
                 
 enabled

@@ -4916,18 +4916,6 @@ endswith
 py
 "
 )
-or
-path
-.
-endswith
-(
-"
-.
-quic
-.
-py
-"
-)
 :
         
 return

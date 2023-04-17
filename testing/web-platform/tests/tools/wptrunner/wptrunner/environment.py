@@ -442,9 +442,6 @@ options
 ssl_config
 env_extras
                  
-enable_quic
-=
-False
 enable_webtransport
 =
 False
@@ -599,12 +596,6 @@ self
 ssl_config
 =
 ssl_config
-        
-self
-.
-enable_quic
-=
-enable_quic
         
 self
 .
@@ -1096,25 +1087,6 @@ h2
 ]
         
 }
-        
-if
-self
-.
-enable_quic
-:
-            
-ports
-[
-"
-quic
--
-transport
-"
-]
-=
-[
-10000
-]
         
 if
 self
@@ -1976,15 +1948,6 @@ items
 :
                 
 if
-scheme
-=
-=
-"
-quic
--
-transport
-"
-or
 scheme
 =
 =

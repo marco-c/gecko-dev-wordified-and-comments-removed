@@ -557,15 +557,6 @@ include_h2
 =
 h2_enabled
                                         
-include_quic
-=
-kwargs
-[
-"
-enable_quic
-"
-]
-                                        
 include_webtransport_h3
 =
 kwargs
@@ -1625,13 +1616,6 @@ env_options
 ssl_config
                                  
 env_extras
-                                 
-kwargs
-[
-"
-enable_quic
-"
-]
                                  
 kwargs
 [
