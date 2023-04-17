@@ -3636,6 +3636,14 @@ WrapNotNull
 maybeContext
 )
 ;
+nsAutoCString
+threadName
+;
+GetThreadName
+(
+threadName
+)
+;
 SpinEventLoopUntil
 (
 "
@@ -3643,8 +3651,11 @@ nsThread
 :
 :
 Shutdown
+:
 "
 _ns
++
+threadName
 [
 &
 context
