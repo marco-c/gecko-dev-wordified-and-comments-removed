@@ -464,13 +464,8 @@ clearEvents
 ;
 feature
 .
-getAllVariables
+recordExposureEvent
 (
-{
-sendExposureEvent
-:
-true
-}
 )
 ;
 TelemetryTestUtils
