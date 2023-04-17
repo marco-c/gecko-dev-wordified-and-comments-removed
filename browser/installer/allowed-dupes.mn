@@ -518,17 +518,6 @@ defaults
 /
 settings
 /
-pinning
-/
-pins
-.
-json
-browser
-/
-defaults
-/
-settings
-/
 main
 /
 example
