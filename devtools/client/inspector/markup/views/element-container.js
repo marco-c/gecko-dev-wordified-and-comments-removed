@@ -4,6 +4,16 @@ strict
 "
 ;
 const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
+const
 Services
 =
 require
@@ -469,7 +479,7 @@ isPreviewable
 )
 {
 return
-Promise
+promise
 .
 reject
 (

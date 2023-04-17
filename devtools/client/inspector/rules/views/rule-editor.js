@@ -174,6 +174,16 @@ utils
 )
 ;
 const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
+const
 Services
 =
 require
@@ -2028,7 +2038,7 @@ _onToolChanged
 )
 ;
 }
-Promise
+promise
 .
 resolve
 (

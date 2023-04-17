@@ -149,6 +149,16 @@ chrome
 "
 )
 ;
+var
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
 const
 {
 debounce
@@ -3970,7 +3980,7 @@ initial_panel
 let
 splitConsolePromise
 =
-Promise
+promise
 .
 resolve
 (
@@ -4045,7 +4055,7 @@ false
 ;
 }
 await
-Promise
+promise
 .
 all
 (
@@ -10330,7 +10340,7 @@ panel
 ;
 }
 }
-Promise
+promise
 .
 resolve
 (
@@ -10870,7 +10880,7 @@ id
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -10894,7 +10904,7 @@ then
 )
 =
 >
-Promise
+promise
 .
 resolve
 (
@@ -11889,7 +11899,7 @@ focus
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -11934,7 +11944,7 @@ openSplitConsole
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -12850,7 +12860,7 @@ frames
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
