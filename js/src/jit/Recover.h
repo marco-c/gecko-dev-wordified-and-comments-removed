@@ -2896,6 +2896,14 @@ final
 public
 RInstruction
 {
+private
+:
+MNewObject
+:
+:
+Mode
+mode_
+;
 public
 :
 RINSTRUCTION_HEADER_NUM_OP_
