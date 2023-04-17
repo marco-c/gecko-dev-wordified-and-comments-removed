@@ -2932,6 +2932,16 @@ nsIHttpChannel
 aChannel
 )
 {
+if
+(
+!
+aChannel
+)
+{
+return
+false
+;
+}
 nsCOMPtr
 <
 nsILoadInfo
