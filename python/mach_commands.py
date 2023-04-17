@@ -345,7 +345,7 @@ no_virtualenv
 :
             
 from
-mach_bootstrap
+mach_initialize
 import
 mach_sys_path
             

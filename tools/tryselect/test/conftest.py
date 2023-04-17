@@ -291,7 +291,7 @@ run_mach
 :
     
 import
-mach_bootstrap
+mach_initialize
     
 from
 mach
@@ -309,9 +309,9 @@ build
     
 mach
 =
-mach_bootstrap
+mach_initialize
 .
-bootstrap
+initialize
 (
 build
 .

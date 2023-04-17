@@ -1442,7 +1442,7 @@ testing
 /
 tools
 /
-mach_test_package_bootstrap
+mach_test_package_initialize
 .
 py
 (
@@ -1451,7 +1451,7 @@ PKG_STAGE
 /
 tools
 /
-mach_bootstrap
+mach_initialize
 .
 py
 cp
