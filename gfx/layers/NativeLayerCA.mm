@@ -3458,6 +3458,7 @@ true
 r
 .
 mMutatedSpecializeVideo
+|
 =
 changedSpecializeVideo
 ;
@@ -6372,6 +6373,19 @@ IOSurfaceRef
 aSurfaceRef
 )
 {
+MOZ_ASSERT
+(
+[
+mContentCALayer
+isKindOfClass
+:
+[
+AVSampleBufferDisplayLayer
+class
+]
+]
+)
+;
 CVPixelBufferRef
 pixelBuffer
 =
