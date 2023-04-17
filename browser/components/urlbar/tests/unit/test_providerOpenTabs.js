@@ -38,6 +38,7 @@ registerOpenTab
 (
 url
 userContextId
+false
 )
 ;
 UrlbarProviderOpenTabs
@@ -46,6 +47,7 @@ registerOpenTab
 (
 url
 userContextId
+false
 )
 ;
 Assert
@@ -54,7 +56,7 @@ equal
 (
 UrlbarProviderOpenTabs
 .
-openTabs
+_openTabs
 .
 get
 (
@@ -78,6 +80,7 @@ unregisterOpenTab
 (
 url
 userContextId
+false
 )
 ;
 Assert
@@ -86,7 +89,7 @@ equal
 (
 UrlbarProviderOpenTabs
 .
-openTabs
+_openTabs
 .
 get
 (

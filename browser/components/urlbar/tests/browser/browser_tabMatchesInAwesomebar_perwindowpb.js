@@ -135,7 +135,7 @@ runTest
 (
 privateWindow
 privateWindow
-false
+true
 )
 ;
 await
