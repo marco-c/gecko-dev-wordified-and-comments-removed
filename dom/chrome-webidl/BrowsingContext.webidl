@@ -1757,6 +1757,11 @@ attribute
 TouchEventsOverride
 touchEventsOverride
 ;
+readonly
+attribute
+boolean
+isReplaced
+;
 }
 ;
 [
