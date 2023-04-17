@@ -81,7 +81,10 @@ crate
 internal_types
 :
 :
+{
 LayoutPrimitiveInfo
+FrameId
+}
 ;
 use
 crate
@@ -129,15 +132,6 @@ render_task_graph
 :
 :
 RenderTaskId
-;
-use
-crate
-:
-:
-render_backend
-:
-:
-FrameId
 ;
 use
 super

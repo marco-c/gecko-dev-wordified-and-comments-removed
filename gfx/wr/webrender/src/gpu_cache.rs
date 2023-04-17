@@ -49,6 +49,8 @@ internal_types
 {
 FastHashMap
 FastHashSet
+FrameStamp
+FrameId
 }
 ;
 use
@@ -61,18 +63,6 @@ profiler
 {
 self
 TransactionProfile
-}
-;
-use
-crate
-:
-:
-render_backend
-:
-:
-{
-FrameStamp
-FrameId
 }
 ;
 use

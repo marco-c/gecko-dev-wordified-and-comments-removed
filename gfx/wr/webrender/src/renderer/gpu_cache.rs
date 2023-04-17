@@ -65,7 +65,7 @@ render_api
 :
 :
 MemoryReport
-render_backend
+internal_types
 :
 :
 FrameId

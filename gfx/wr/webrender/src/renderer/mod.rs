@@ -452,6 +452,7 @@ internal_types
 TextureSource
 ResourceCacheError
 TextureCacheCategory
+FrameId
 }
 ;
 #
@@ -593,10 +594,7 @@ crate
 render_backend
 :
 :
-{
-FrameId
 RenderBackend
-}
 ;
 use
 crate
