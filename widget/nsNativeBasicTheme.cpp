@@ -1721,7 +1721,7 @@ if
 (
 auto
 *
-widget
+rootPc
 =
 aPc
 -
@@ -1729,6 +1729,15 @@ aPc
 GetRootPresContext
 (
 )
+)
+{
+if
+(
+auto
+*
+widget
+=
+rootPc
 -
 >
 GetRootWidget
@@ -1744,6 +1753,7 @@ GetDefaultScale
 (
 )
 ;
+}
 }
 return
 DPIRatio
