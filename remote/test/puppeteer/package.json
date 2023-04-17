@@ -236,6 +236,9 @@ funit
 "
 :
 "
+cross
+-
+env
 PUPPETEER_PRODUCT
 =
 firefox
