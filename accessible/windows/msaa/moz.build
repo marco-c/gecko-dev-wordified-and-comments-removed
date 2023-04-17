@@ -137,6 +137,11 @@ MsaaRootAccessible
 cpp
 "
 "
+MsaaXULMenuAccessible
+.
+cpp
+"
+"
 nsWinUtils
 .
 cpp
