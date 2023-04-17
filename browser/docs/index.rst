@@ -83,13 +83,6 @@ agent
 index
 components
 /
-pagedata
-/
-docs
-/
-index
-components
-/
 newtab
 /
 content
