@@ -988,6 +988,9 @@ Promise
 .
 reject
 (
+new
+Error
+(
 UpdateUtils
 .
 readUpdateConfigSetting
@@ -1003,6 +1006,7 @@ pref
 prefName
 }
 '
+)
 )
 ;
 }
@@ -1177,6 +1181,9 @@ Promise
 .
 reject
 (
+new
+Error
+(
 UpdateUtils
 .
 writeUpdateConfigSetting
@@ -1192,6 +1199,7 @@ pref
 prefName
 }
 '
+)
 )
 ;
 }
@@ -1209,6 +1217,9 @@ return
 Promise
 .
 reject
+(
+new
+Error
 (
 UpdateUtils
 .
@@ -1232,6 +1243,7 @@ is
 locked
 by
 policy
+)
 )
 ;
 }
@@ -1283,6 +1295,9 @@ Promise
 .
 reject
 (
+new
+Error
+(
 UpdateUtils
 .
 writeUpdateConfigSetting
@@ -1308,6 +1323,7 @@ stringify
 value
 )
 }
+)
 )
 ;
 }
@@ -1502,6 +1518,9 @@ Promise
 .
 reject
 (
+new
+Error
+(
 UpdateUtils
 .
 appUpdateSettingIsLocked
@@ -1516,6 +1535,7 @@ pref
 prefName
 }
 '
+)
 )
 ;
 }
