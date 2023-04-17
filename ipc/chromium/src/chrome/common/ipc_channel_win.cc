@@ -725,11 +725,6 @@ ASSERT_OWNINGTHREAD
 ChannelImpl
 )
 ;
-bool
-waited
-=
-false
-;
 if
 (
 input_state_
@@ -746,10 +741,6 @@ CancelIo
 (
 pipe_
 )
-;
-waited
-=
-true
 ;
 }
 if
