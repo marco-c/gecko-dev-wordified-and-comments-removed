@@ -5814,10 +5814,7 @@ shutdown
 addBlocker
 (
 "
-Places
-UnifiedComplete
-.
-js
+UrlbarProviderPlaces
 closing
 "
 (

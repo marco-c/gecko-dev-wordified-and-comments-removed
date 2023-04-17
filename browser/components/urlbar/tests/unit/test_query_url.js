@@ -6,10 +6,10 @@ HeuristicFallback
 "
 ;
 const
-UNIFIEDCOMPLETE_PROVIDERNAME
+PLACES_PROVIDERNAME
 =
 "
-UnifiedComplete
+Places
 "
 ;
 testEngine_setup
@@ -198,7 +198,7 @@ ICON
 DEFAULT
 providerName
 :
-UNIFIEDCOMPLETE_PROVIDERNAME
+PLACES_PROVIDERNAME
 }
 )
 makeVisitResult
@@ -238,7 +238,7 @@ test
 "
 providerName
 :
-UNIFIEDCOMPLETE_PROVIDERNAME
+PLACES_PROVIDERNAME
 }
 )
 ]
@@ -443,7 +443,7 @@ test
 "
 providerName
 :
-UNIFIEDCOMPLETE_PROVIDERNAME
+PLACES_PROVIDERNAME
 }
 )
 ]
@@ -770,7 +770,7 @@ ICON
 DEFAULT
 providerName
 :
-UNIFIEDCOMPLETE_PROVIDERNAME
+PLACES_PROVIDERNAME
 }
 )
 ]

@@ -11,10 +11,10 @@ HeuristicFallback
 "
 ;
 const
-UNIFIEDCOMPLETE_PROVIDERNAME
+PLACES_PROVIDERNAME
 =
 "
-UnifiedComplete
+Places
 "
 ;
 testEngine_setup
@@ -622,7 +622,7 @@ tags
 ]
 providerName
 :
-UNIFIEDCOMPLETE_PROVIDERNAME
+PLACES_PROVIDERNAME
 }
 )
 ]

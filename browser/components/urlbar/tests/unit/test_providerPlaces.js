@@ -33,7 +33,7 @@ add_task
 (
 async
 function
-test_unifiedComplete
+test_places
 (
 )
 {
