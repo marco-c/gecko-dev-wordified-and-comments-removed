@@ -2961,9 +2961,6 @@ FontDataLoadingState
 mFontDataLoadingState
 ;
 bool
-mSeenLocalSource
-;
-bool
 mUnsupportedFormat
 ;
 mozilla
