@@ -250,13 +250,11 @@ tab
 await
 testContextMenuInitialization
 (
-testActor
 )
 ;
 await
 testContextMenuInspectorAlreadyOpen
 (
-testActor
 )
 ;
 }
@@ -467,7 +465,6 @@ async
 function
 testContextMenuInitialization
 (
-testActor
 )
 {
 info
@@ -491,7 +488,6 @@ item
 await
 clickOnInspectMenuItem
 (
-testActor
 "
 #
 salutation
@@ -531,7 +527,6 @@ async
 function
 testContextMenuInspectorAlreadyOpen
 (
-testActor
 )
 {
 info
@@ -573,7 +568,6 @@ active
 await
 clickOnInspectMenuItem
 (
-testActor
 "
 #
 closing

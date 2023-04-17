@@ -197,7 +197,6 @@ function
 const
 {
 inspector
-testActor
 tab
 }
 =
@@ -289,7 +288,6 @@ markuploaded
 await
 clickOnInspectMenuItem
 (
-testActor
 "
 img
 "
