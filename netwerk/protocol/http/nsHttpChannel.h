@@ -2628,6 +2628,11 @@ mozilla
 TimeStamp
 mLastStatusReported
 ;
+bool
+mEndMarkerAdded
+=
+false
+;
 uint32_t
 mSuspendTotalTime
 {

@@ -34,6 +34,7 @@ NetworkLoadType
 LOAD_START
 LOAD_STOP
 LOAD_REDIRECT
+LOAD_CANCEL
 }
 ;
 void
