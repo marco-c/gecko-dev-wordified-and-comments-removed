@@ -1048,6 +1048,12 @@ get_and_clear_legacy_stats
 )
 const
 {
+RTC_DCHECK_RUN_ON
+(
+&
+worker_thread_checker_
+)
+;
 webrtc
 :
 :
