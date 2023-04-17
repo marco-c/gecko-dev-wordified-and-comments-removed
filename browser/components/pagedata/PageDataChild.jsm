@@ -57,7 +57,7 @@ PrivateBrowsingUtils
 .
 jsm
 "
-PageDataCollector
+SchemaOrgPageData
 :
 "
 resource
@@ -69,7 +69,7 @@ modules
 /
 pagedata
 /
-PageDataCollector
+SchemaOrgPageData
 .
 jsm
 "
@@ -163,18 +163,6 @@ readyDelay
 500
 )
 ;
-class
-DummyPageData
-extends
-PageDataCollector
-{
-type
-=
-"
-dummy
-"
-;
-}
 function
 getCollectors
 (
@@ -184,7 +172,7 @@ document
 return
 [
 new
-DummyPageData
+SchemaOrgPageData
 (
 document
 )

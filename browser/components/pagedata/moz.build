@@ -42,6 +42,11 @@ PageDataService
 .
 jsm
 "
+"
+SchemaOrgPageData
+.
+jsm
+"
 ]
 FINAL_TARGET_FILES
 .
