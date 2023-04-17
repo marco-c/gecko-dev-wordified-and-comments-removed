@@ -9698,6 +9698,16 @@ isTopLevel
 }
 )
 {
+if
+(
+this
+.
+_destroyed
+)
+{
+return
+;
+}
 const
 {
 readyState
