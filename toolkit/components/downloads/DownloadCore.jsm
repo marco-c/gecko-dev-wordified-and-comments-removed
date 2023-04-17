@@ -3645,7 +3645,7 @@ cookieJarSettings
 :
 E10SUtils
 .
-serializePrincipal
+serializeCookieJarSettings
 (
 this
 .
