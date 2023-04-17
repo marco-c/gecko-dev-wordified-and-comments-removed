@@ -195,6 +195,9 @@ className
 sidebar
 -
 item__link
+undecorated
+-
+link
 "
 href
 :
@@ -220,6 +223,9 @@ item__link
 qa
 -
 sidebar
+-
+link
+undecorated
 -
 link
 "
