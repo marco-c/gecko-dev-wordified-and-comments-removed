@@ -30,8 +30,7 @@ ClientSourceParent
 typedef
 MozPromise
 <
-ClientSourceParent
-*
+bool
 CopyableErrorResult
 false
 >
