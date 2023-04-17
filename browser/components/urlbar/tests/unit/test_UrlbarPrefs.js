@@ -276,7 +276,7 @@ toFixed
 add_task
 (
 function
-makeResultBuckets_true
+makeResultGroups_true
 (
 )
 {
@@ -286,7 +286,7 @@ deepEqual
 (
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -577,7 +577,7 @@ INPUT_HISTORY
 add_task
 (
 function
-makeResultBuckets_false
+makeResultGroups_false
 (
 )
 {
@@ -587,7 +587,7 @@ deepEqual
 (
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -998,7 +998,7 @@ resultGroups
 )
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -1053,7 +1053,7 @@ resultGroups
 )
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -1108,7 +1108,7 @@ resultGroups
 )
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -1168,7 +1168,7 @@ resultGroups
 )
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -1236,7 +1236,7 @@ resultGroups
 )
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -1514,7 +1514,7 @@ true
 [
 "
 bogus
-buckets
+groups
 "
 true
 ]
@@ -1524,7 +1524,7 @@ for
 (
 let
 [
-matchBuckets
+matchGroups
 expectedValue
 ]
 of
@@ -1544,7 +1544,7 @@ JSON
 stringify
 (
 {
-matchBuckets
+matchGroups
 expectedValue
 }
 )
@@ -1576,9 +1576,9 @@ browser
 .
 urlbar
 .
-matchBuckets
+matchGroups
 "
-matchBuckets
+matchGroups
 )
 ;
 UrlbarPrefs
@@ -1640,7 +1640,7 @@ resultGroups
 )
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -1672,7 +1672,7 @@ browser
 .
 urlbar
 .
-matchBuckets
+matchGroups
 "
 )
 ;

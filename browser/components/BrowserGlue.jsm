@@ -18921,7 +18921,7 @@ currentUIVersion
 {
 UrlbarPrefs
 .
-migrateResultBuckets
+migrateResultGroups
 (
 )
 ;

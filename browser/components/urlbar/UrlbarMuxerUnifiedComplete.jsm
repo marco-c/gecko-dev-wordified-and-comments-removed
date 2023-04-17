@@ -363,7 +363,7 @@ state
 ;
 }
 let
-rootBucket
+rootGroup
 =
 context
 .
@@ -374,7 +374,7 @@ engineName
 ?
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -396,10 +396,10 @@ logger
 .
 debug
 (
-Buckets
+Groups
 :
 {
-rootBucket
+rootGroup
 }
 )
 ;
@@ -412,7 +412,7 @@ this
 .
 _fillGroup
 (
-rootBucket
+rootGroup
 {
 availableSpan
 :

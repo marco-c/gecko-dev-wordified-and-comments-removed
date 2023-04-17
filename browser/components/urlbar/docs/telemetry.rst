@@ -4810,7 +4810,7 @@ enumerated
 histogram
 with
 17
-buckets
+groups
 .
 FX_URLBAR_SELECTED_RESULT_TYPE
 and
@@ -4840,7 +4840,7 @@ enumerated
 histogram
 with
 17
-buckets
+groups
 :
 0
 .
