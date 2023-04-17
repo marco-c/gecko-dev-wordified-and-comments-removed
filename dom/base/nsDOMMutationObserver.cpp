@@ -77,6 +77,15 @@ h
 #
 include
 "
+mozilla
+/
+BasePrincipal
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

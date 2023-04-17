@@ -61,6 +61,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+DocumentInlines
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h

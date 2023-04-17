@@ -74,6 +74,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_dom
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h

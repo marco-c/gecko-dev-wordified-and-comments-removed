@@ -115,6 +115,17 @@ RTCStatsReportBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ToJSValue
+.
+h
+"
 namespace
 mozilla
 {

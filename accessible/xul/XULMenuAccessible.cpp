@@ -59,6 +59,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIDOMXULContainerElement
 .
 h

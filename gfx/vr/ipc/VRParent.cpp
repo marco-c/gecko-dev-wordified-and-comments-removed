@@ -683,6 +683,9 @@ nullptr
 #
 ifndef
 NS_FREE_PERMANENT_DATA
+ipc
+:
+:
 ProcessChild
 :
 :

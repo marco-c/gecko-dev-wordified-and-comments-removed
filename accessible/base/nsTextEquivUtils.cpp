@@ -39,6 +39,13 @@ Text
 .
 h
 "
+#
+include
+"
+nsIContentInlines
+.
+h
+"
 using
 namespace
 mozilla

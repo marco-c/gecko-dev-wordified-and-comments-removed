@@ -112,6 +112,13 @@ nsWrapperCache
 .
 h
 "
+#
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
 namespace
 mozilla
 {

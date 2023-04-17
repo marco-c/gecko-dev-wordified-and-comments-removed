@@ -21,6 +21,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_dom
+.
+h
+"
+#
+include
+"
 prtime
 .
 h

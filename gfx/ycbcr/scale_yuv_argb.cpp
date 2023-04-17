@@ -58,6 +58,17 @@ video_common
 h
 "
 #
+include
+"
+mozilla
+/
+gfx
+/
+Types
+.
+h
+"
+#
 ifdef
 __cplusplus
 namespace

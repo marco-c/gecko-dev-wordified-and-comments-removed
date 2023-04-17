@@ -154,11 +154,6 @@ ScriptSettings
 .
 cpp
 "
-"
-ScriptTrace
-.
-cpp
-"
 ]
 LOCAL_INCLUDES
 +

@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsWrapperCacheInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

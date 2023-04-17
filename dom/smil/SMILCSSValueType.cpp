@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsPresContextInlines
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
