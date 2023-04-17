@@ -434,7 +434,8 @@ numerical
 column
 [
 is
-theindex
+the
+index
 ]
 (
 https
@@ -751,7 +752,7 @@ leak
 (
 See
 [
-How_to_instrument_your_objects_for_BloatView
+below
 ]
 (
 bloatview
@@ -1189,6 +1190,7 @@ do
 not
 include
 malloc
+'
 d
 data
 such
