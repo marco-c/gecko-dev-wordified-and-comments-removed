@@ -2756,11 +2756,6 @@ DOMFullscreenChild
 .
 jsm
 "
-group
-:
-"
-browsers
-"
 events
 :
 {
@@ -2806,6 +2801,13 @@ Exited
 }
 }
 }
+messageManagerGroups
+:
+[
+"
+browsers
+"
+]
 allFrames
 :
 true
