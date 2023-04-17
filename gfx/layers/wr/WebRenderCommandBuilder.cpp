@@ -282,13 +282,6 @@ WebRenderCanvasRenderer
 .
 h
 "
-#
-include
-"
-LayerTreeInvalidation
-.
-h
-"
 namespace
 mozilla
 {
