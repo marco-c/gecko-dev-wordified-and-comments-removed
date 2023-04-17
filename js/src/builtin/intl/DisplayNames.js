@@ -570,6 +570,9 @@ script
 currency
 "
 "
+dateTimeField
+"
+"
 weekday
 "
 "
@@ -580,9 +583,6 @@ quarter
 "
 "
 dayPeriod
-"
-"
-dateTimeField
 "
 ]
 undefined
@@ -614,6 +614,9 @@ script
 "
 "
 currency
+"
+"
+dateTimeField
 "
 ]
 undefined
