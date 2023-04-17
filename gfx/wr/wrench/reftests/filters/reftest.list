@@ -1685,3 +1685,17 @@ raster
 root
 .
 png
+=
+=
+drop
+-
+shadow
+-
+inverse
+-
+scale
+.
+yaml
+blank
+.
+yaml
