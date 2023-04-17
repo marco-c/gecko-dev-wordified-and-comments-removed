@@ -878,7 +878,7 @@ menuPopupFrame
 menuPopupFrame
 -
 >
-IsVisible
+IsVisibleOrShowing
 (
 )
 )
