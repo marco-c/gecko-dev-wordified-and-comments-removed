@@ -1,11 +1,3 @@
-extern
-crate
-rand
-;
-extern
-crate
-regex
-;
 macro_rules
 !
 regex_new

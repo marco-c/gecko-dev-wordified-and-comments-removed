@@ -15,6 +15,9 @@ Searcher
 }
 ;
 use
+crate
+:
+:
 re_unicode
 :
 :
@@ -23,6 +26,13 @@ Matches
 Regex
 }
 ;
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 RegexSearcher

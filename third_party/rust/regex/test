@@ -4,6 +4,9 @@
 bin
 /
 bash
+set
+-
+e
 #
 This
 is

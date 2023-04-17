@@ -1,10 +1,16 @@
 use
+crate
+:
+:
 exec
 :
 :
 ProgramCache
 ;
 use
+crate
+:
+:
 input
 :
 :
@@ -14,6 +20,9 @@ InputAt
 }
 ;
 use
+crate
+:
+:
 prog
 :
 :
@@ -23,6 +32,9 @@ Program
 }
 ;
 use
+crate
+:
+:
 re_trait
 :
 :
@@ -853,6 +865,9 @@ InputAt
 bool
 {
 use
+crate
+:
+:
 prog
 :
 :

@@ -1,11 +1,3 @@
-extern
-crate
-quickcheck
-;
-extern
-crate
-regex
-;
 mod
 consistent
 ;

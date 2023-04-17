@@ -51,7 +51,7 @@ mod
 imp
 {
 use
-syntax
+regex_syntax
 :
 :
 hir
