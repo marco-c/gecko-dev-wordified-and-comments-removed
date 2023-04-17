@@ -48,7 +48,7 @@ nsFontCache
 :
 Init
 (
-nsDeviceContext
+nsPresContext
 *
 aContext
 )

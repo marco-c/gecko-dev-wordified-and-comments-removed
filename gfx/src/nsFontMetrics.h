@@ -100,7 +100,7 @@ class
 gfxTextPerfMetrics
 ;
 class
-nsDeviceContext
+nsPresContext
 ;
 class
 nsAtom
@@ -201,7 +201,7 @@ const
 Params
 &
 aParams
-nsDeviceContext
+nsPresContext
 *
 aContext
 )
@@ -577,10 +577,10 @@ nsAtom
 >
 mLanguage
 ;
-nsDeviceContext
+nsPresContext
 *
 MOZ_NON_OWNING_REF
-mDeviceContext
+mPresContext
 ;
 int32_t
 mP2A

@@ -2937,11 +2937,6 @@ metrics
 pc
 -
 >
-DeviceContext
-(
-)
--
->
 GetMetricsFor
 (
 font

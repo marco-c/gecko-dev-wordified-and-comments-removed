@@ -3480,11 +3480,6 @@ fontMet
 pc
 -
 >
-DeviceContext
-(
-)
--
->
 GetMetricsFor
 (
 mPD

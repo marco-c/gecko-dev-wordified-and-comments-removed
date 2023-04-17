@@ -22277,11 +22277,6 @@ return
 aPresContext
 -
 >
-DeviceContext
-(
-)
--
->
 GetMetricsFor
 (
 styleFont
@@ -22372,11 +22367,6 @@ aVariantWidth
 ;
 return
 aPresContext
--
->
-DeviceContext
-(
-)
 -
 >
 GetMetricsFor
@@ -50657,11 +50647,6 @@ GetFontFeatureValuesLookup
 ;
 return
 aPresContext
--
->
-DeviceContext
-(
-)
 -
 >
 GetMetricsFor

@@ -78,7 +78,7 @@ class
 nsAtom
 ;
 class
-nsDeviceContext
+nsPresContext
 ;
 struct
 nsFont
@@ -107,7 +107,7 @@ NS_DECL_NSIOBSERVER
 void
 Init
 (
-nsDeviceContext
+nsPresContext
 *
 aContext
 )
@@ -184,7 +184,7 @@ nsFontCache
 =
 default
 ;
-nsDeviceContext
+nsPresContext
 *
 mContext
 ;

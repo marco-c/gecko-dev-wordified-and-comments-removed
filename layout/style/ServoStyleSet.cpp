@@ -1711,11 +1711,6 @@ CacheFontLoadability
 presContext
 -
 >
-DeviceContext
-(
-)
--
->
 UpdateFontCacheUserFonts
 (
 userFontSet
