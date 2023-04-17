@@ -119778,12 +119778,6 @@ mozilla
 QEAA
 XZ
 ?
-HandleMemoryPressure
-CompositorBridgeChild
-layers
-mozilla
-QEAAXXZ
-?
 CreateIPDLActor
 TextureClient
 layers

@@ -120692,12 +120692,6 @@ mozilla
 QAE
 XZ
 ?
-HandleMemoryPressure
-CompositorBridgeChild
-layers
-mozilla
-QAEXXZ
-?
 CreateIPDLActor
 TextureClient
 layers
