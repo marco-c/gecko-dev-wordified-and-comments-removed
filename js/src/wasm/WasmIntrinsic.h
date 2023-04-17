@@ -105,8 +105,15 @@ CompileIntrinsicModule
 JSContext
 *
 cx
+const
+mozilla
+:
+:
+Span
+<
 IntrinsicOp
-op
+>
+ops
 MutableHandleWasmModuleObject
 result
 )
