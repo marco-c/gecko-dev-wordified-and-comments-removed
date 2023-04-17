@@ -67,11 +67,15 @@ thread_rng
 (
 )
 .
-fill_bytes
+fill
 (
 &
 mut
 bytes
+[
+.
+.
+]
 )
 ;
 b
