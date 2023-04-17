@@ -3935,6 +3935,9 @@ TouchDeviceSupportPresent
 :
 aResult
 =
+widget
+:
+:
 WidgetUtilsGTK
 :
 :
