@@ -2855,7 +2855,9 @@ assert
 "
 webrtc
 -
-identity
+encoded
+-
+transform
 /
 idlharness
 .
@@ -2872,9 +2874,7 @@ n
 "
 webrtc
 -
-insertable
--
-streams
+identity
 /
 idlharness
 .

@@ -9,9 +9,9 @@ idl_test
 '
 webrtc
 -
-insertable
+encoded
 -
-streams
+transform
 '
 ]
 [
