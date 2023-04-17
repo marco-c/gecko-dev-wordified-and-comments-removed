@@ -575,6 +575,14 @@ nasm
 linux64
 -
 node
+-
+sysroot
+-
+x86_64
+-
+linux
+-
+gnu
 jobs
 :
 android

@@ -170,6 +170,14 @@ node
 linux64
 -
 lucetc
+-
+sysroot
+-
+x86_64
+-
+linux
+-
+gnu
 macosx64
 /
 debug
