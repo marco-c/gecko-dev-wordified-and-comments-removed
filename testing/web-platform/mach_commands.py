@@ -2908,7 +2908,7 @@ conditions
 [
 conditions
 .
-is_firefox_or_android
+iss_firefox_or_android
 ]
         
 description
