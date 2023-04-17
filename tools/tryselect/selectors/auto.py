@@ -33,7 +33,7 @@ optimize
 :
 tryselect
 .
-bugbug_reduced_manifests_config_selection_low
+bugbug_reduced_manifests_config_selection_medium
 "
     
 "
