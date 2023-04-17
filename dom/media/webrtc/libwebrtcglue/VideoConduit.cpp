@@ -1613,6 +1613,9 @@ MakeUnique
 WebrtcVideoDecoderFactory
 >
 (
+GetMainThreadSerialEventTarget
+(
+)
 aPCHandle
 )
 )
@@ -1623,6 +1626,9 @@ MakeUnique
 WebrtcVideoEncoderFactory
 >
 (
+GetMainThreadSerialEventTarget
+(
+)
 std
 :
 :
