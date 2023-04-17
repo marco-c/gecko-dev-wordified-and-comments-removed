@@ -6239,14 +6239,14 @@ MS
 Location
 :
 :
-markerChart
+MarkerChart
 MS
 :
 :
 Location
 :
 :
-markerTable
+MarkerTable
 }
 ;
 schema
