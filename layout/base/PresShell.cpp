@@ -7887,12 +7887,11 @@ return
 }
 if
 (
-nsContentUtils
-:
-:
-IsInChromeDocshell
-(
 mDocument
+-
+>
+IsInChromeDocShell
+(
 )
 )
 {
@@ -19984,6 +19983,10 @@ mDocument
 -
 >
 UpdateSVGUseElementShadowTrees
+(
+)
+;
+UpdatePreferenceStyles
 (
 )
 ;

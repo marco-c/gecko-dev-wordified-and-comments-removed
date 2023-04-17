@@ -197,6 +197,15 @@ InvalidatePreferenceSheets
 )
 ;
 static
+bool
+AffectedByPref
+(
+const
+nsACString
+&
+)
+;
+static
 void
 Shutdown
 (
