@@ -1659,25 +1659,16 @@ kwargs
 :
     
 if
-"
--
--
-enable
--
-js
--
-shell
-"
-not
-in
 command_context
 .
-mozconfig
-[
+substs
+.
+get
+(
 "
-configure_args
+JS_DISABLE_SHELL
 "
-]
+)
 :
         
 raise
