@@ -1312,7 +1312,7 @@ GetColorFromNSColor
 (
 NSColor
 .
-gridColor
+windowFrameColor
 )
 ;
 break
@@ -1325,11 +1325,11 @@ Window
 :
 color
 =
-NS_RGB
+GetColorFromNSColor
 (
-0xff
-0xff
-0xff
+NSColor
+.
+windowBackgroundColor
 )
 ;
 break
