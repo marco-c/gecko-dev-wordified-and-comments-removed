@@ -3329,7 +3329,7 @@ FEATURE_WEBRENDER_OPTIMIZED_SHADERS
 {
 const
 bool
-isMaliT6xx
+isMaliT
 =
 mGLStrings
 -
@@ -3343,7 +3343,7 @@ Find
 "
 Mali
 -
-T6
+T
 "
 true
 )
@@ -3353,7 +3353,13 @@ true
 ;
 if
 (
-isMaliT6xx
+isMaliT
+&
+&
+mSDKVersion
+<
+=
+22
 )
 {
 *
