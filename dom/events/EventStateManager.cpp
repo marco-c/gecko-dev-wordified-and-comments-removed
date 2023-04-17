@@ -8971,9 +8971,10 @@ PointerEventHandler
 :
 InitPointerEventFromTouch
 (
-&
 event
+*
 aTouchEvent
+*
 aTouchEvent
 -
 >
