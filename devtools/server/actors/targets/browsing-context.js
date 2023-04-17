@@ -1300,9 +1300,6 @@ traits
 isBrowsingContext
 :
 true
-reconfigureSupportsSimulationFeatures
-:
-true
 supportsTopLevelTargetFlag
 :
 true
