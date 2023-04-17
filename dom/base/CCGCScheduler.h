@@ -493,6 +493,8 @@ KillAllTimersAndRunners
 void
 EnsureGCRunner
 (
+uint32_t
+aDelay
 )
 ;
 void
