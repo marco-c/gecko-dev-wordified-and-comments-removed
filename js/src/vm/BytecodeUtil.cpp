@@ -10271,6 +10271,12 @@ JSOp
 :
 GlobalThis
 :
+case
+JSOp
+:
+:
+NonSyntacticGlobalThis
+:
 return
 write
 (
