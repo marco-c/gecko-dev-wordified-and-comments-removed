@@ -660,14 +660,6 @@ GetFocusedContent
 const
 final
 ;
-nsIContent
-*
-GetFocusedContentForIME
-(
-)
-const
-final
-;
 bool
 IsActiveInDOMWindow
 (

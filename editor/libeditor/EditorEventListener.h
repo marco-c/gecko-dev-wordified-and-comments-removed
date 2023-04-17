@@ -364,12 +364,6 @@ GetPresContext
 )
 const
 ;
-nsIContent
-*
-GetFocusedRootContent
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 bool
 NotifyIMEOfMouseButtonEvent

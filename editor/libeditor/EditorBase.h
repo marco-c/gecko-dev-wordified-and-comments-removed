@@ -1791,14 +1791,6 @@ GetFocusedContent
 const
 ;
 virtual
-nsIContent
-*
-GetFocusedContentForIME
-(
-)
-const
-;
-virtual
 bool
 IsAcceptableInputEvent
 (
