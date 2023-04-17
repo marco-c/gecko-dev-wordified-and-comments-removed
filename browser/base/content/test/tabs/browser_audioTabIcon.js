@@ -782,13 +782,11 @@ popuphidden
 "
 )
 ;
-EventUtils
+contextMenu
 .
-synthesizeMouseAtCenter
+activateItem
 (
 toggleMute
-{
-}
 )
 ;
 await
