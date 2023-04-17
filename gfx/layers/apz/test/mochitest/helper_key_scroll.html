@@ -398,7 +398,6 @@ is
 (
 checkHasAsyncKeyScrolled
 (
-false
 )
 false
 "
@@ -657,7 +656,6 @@ is
 (
 checkHasAsyncKeyScrolled
 (
-false
 )
 false
 "
@@ -800,7 +798,6 @@ is
 (
 checkHasAsyncKeyScrolled
 (
-true
 )
 true
 "
@@ -817,7 +814,6 @@ test
 function
 checkHasAsyncKeyScrolled
 (
-requirePaints
 )
 {
 /
@@ -851,11 +847,6 @@ getCompositorAPZTestData
 (
 )
 ;
-if
-(
-requirePaints
-)
-{
 ok
 (
 compositorTestData
@@ -878,7 +869,6 @@ data
 "
 )
 ;
-}
 /
 /
 Get
