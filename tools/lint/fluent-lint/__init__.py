@@ -302,10 +302,7 @@ r
 "
 \
 w
-\
 '
-\
-w
 "
 )
         
@@ -339,8 +336,10 @@ compile
 r
 "
 '
+(
 .
 +
+)
 '
 "
 )
@@ -355,6 +354,10 @@ compile
 (
 r
 "
+\
+"
+.
++
 \
 "
 "
@@ -818,6 +821,24 @@ parser
 extracted_text
 :
             
+cleaned_str
+=
+re
+.
+sub
+(
+self
+.
+single_quote_re
+"
+\
+1
+"
+node
+.
+value
+)
+            
 if
 self
 .
@@ -825,7 +846,7 @@ apostrophe_re
 .
 search
 (
-text
+cleaned_str
 )
 :
                 
