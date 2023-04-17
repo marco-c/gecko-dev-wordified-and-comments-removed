@@ -39,9 +39,9 @@ queryString
 .
 split
 (
-'
+"
 ?
-'
+"
 )
 [
 0
@@ -49,9 +49,9 @@ split
 .
 split
 (
-'
+"
 &
-'
+"
 )
 ;
 for
@@ -87,9 +87,11 @@ p
 =
 key
 )
+{
 return
 true
 ;
+}
 if
 (
 p
@@ -106,6 +108,7 @@ key
 =
 0
 )
+{
 return
 p
 .
@@ -118,6 +121,7 @@ length
 1
 )
 ;
+}
 if
 (
 p
@@ -138,9 +142,11 @@ key
 "
 "
 )
+{
 return
 p
 ;
+}
 }
 return
 false
@@ -252,7 +258,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -266,7 +272,7 @@ input
 stream
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -325,10 +331,10 @@ dump
 (
 paths
 +
-'
+"
 \
 n
-'
+"
 )
 ;
 var
@@ -604,10 +610,8 @@ type
 specified
 without
 having
-\
 '
 nomime
-\
 '
 in
 parameters

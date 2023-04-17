@@ -171,11 +171,8 @@ headerFound
 return
 ;
 }
-else
-{
 break
 ;
-}
 case
 "
 OPTIONS

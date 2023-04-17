@@ -84,17 +84,14 @@ x
 =
 {
 data
-:
-data
 QueryInterface
-:
-function
 (
 iid
 )
 {
 return
 this
+;
 }
 }
 ;
@@ -470,7 +467,7 @@ send
 let
 strChunk
 =
-'
+"
 Static
 routes
 are
@@ -486,7 +483,7 @@ all
 !
 \
 n
-'
+"
 ;
 while
 (

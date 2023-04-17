@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -130,6 +130,7 @@ Reading
 request
 "
 )
+;
 let
 available
 =
@@ -180,6 +181,7 @@ Setting
 Headers
 "
 )
+;
 response
 .
 setHeader
@@ -267,4 +269,5 @@ log
 Done
 "
 )
+;
 }

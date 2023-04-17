@@ -103,6 +103,7 @@ available
 >
 0
 )
+{
 requestBody
 +
 =
@@ -113,6 +114,7 @@ readBytes
 bodyAvail
 )
 ;
+}
 if
 (
 request
@@ -169,9 +171,9 @@ s
 .
 indexOf
 (
-'
+"
 =
-'
+"
 )
 >
 =
@@ -188,9 +190,9 @@ s
 .
 split
 (
-'
+"
 =
-'
+"
 )
 ;
 contentTypeParams
@@ -205,8 +207,8 @@ else
 {
 contentTypeParams
 [
-'
-'
+"
+"
 ]
 =
 s
@@ -219,8 +221,8 @@ if
 (
 contentTypeParams
 [
-'
-'
+"
+"
 ]
 =
 =
@@ -341,9 +343,9 @@ s
 .
 split
 (
-'
+"
 :
-'
+"
 )
 ;
 headers
@@ -429,10 +431,6 @@ push
 (
 {
 headers
-:
-headers
-body
-:
 body
 }
 )
@@ -445,8 +443,8 @@ if
 (
 contentTypeParams
 [
-'
-'
+"
+"
 ]
 =
 =
@@ -479,8 +477,8 @@ if
 (
 contentTypeParams
 [
-'
-'
+"
+"
 ]
 =
 =

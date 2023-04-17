@@ -220,10 +220,10 @@ request
 .
 queryString
 +
-'
+"
 \
 n
-'
+"
 )
 ;
 seenImages

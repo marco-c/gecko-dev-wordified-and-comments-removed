@@ -105,11 +105,11 @@ file
 .
 append
 (
-'
+"
 blue
 .
 png
-'
+"
 )
 ;
 }
@@ -119,11 +119,11 @@ file
 .
 append
 (
-'
+"
 red
 .
 png
-'
+"
 )
 ;
 }
@@ -181,7 +181,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -195,7 +195,7 @@ input
 stream
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -224,7 +224,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -232,7 +232,7 @@ org
 binaryinputstream
 ;
 1
-'
+"
 ]
 .
 createInstance

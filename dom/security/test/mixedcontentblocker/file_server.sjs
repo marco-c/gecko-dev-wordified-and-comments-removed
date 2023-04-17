@@ -374,9 +374,9 @@ queryString
 .
 split
 (
-'
+"
 &
-'
+"
 )
 .
 forEach
@@ -396,9 +396,9 @@ val
 .
 split
 (
-'
+"
 =
-'
+"
 )
 ;
 if

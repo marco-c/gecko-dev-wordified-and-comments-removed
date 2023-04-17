@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -79,9 +79,9 @@ queryString
 .
 includes
 (
-'
+"
 finish
-'
+"
 )
 )
 {
@@ -111,6 +111,7 @@ o
 downloadReq
 =
 o
+;
 }
 )
 ;
@@ -180,9 +181,9 @@ queryString
 .
 includes
 (
-'
+"
 reset
-'
+"
 )
 )
 {
@@ -260,6 +261,7 @@ actuallyHandleRequest
 req
 res
 )
+;
 }
 }
 ;

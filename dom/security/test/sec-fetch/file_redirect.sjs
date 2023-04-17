@@ -100,6 +100,7 @@ sjs
 ?
 pageC
 "
+;
 function
 handleRequest
 (

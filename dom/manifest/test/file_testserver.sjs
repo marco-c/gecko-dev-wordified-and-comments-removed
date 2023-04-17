@@ -3,9 +3,7 @@ use
 strict
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -193,6 +191,7 @@ append
 (
 path
 )
+;
 return
 testHTMLFile
 ;

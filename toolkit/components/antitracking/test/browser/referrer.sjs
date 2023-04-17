@@ -145,7 +145,6 @@ script
 script
 "
 :
-(
 aRequest
 .
 queryString
@@ -166,7 +165,6 @@ image
 "
 iframe
 "
-)
 ;
 if
 (
@@ -208,9 +206,9 @@ aRequest
 .
 hasHeader
 (
-'
+"
 Referer
-'
+"
 )
 )
 {
@@ -221,9 +219,9 @@ aRequest
 .
 getHeader
 (
-'
+"
 Referer
-'
+"
 )
 ;
 setState

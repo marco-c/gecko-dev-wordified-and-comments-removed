@@ -102,10 +102,10 @@ javascript
 var
 body
 =
-'
+"
 /
 *
-'
+"
 +
 Date
 .
@@ -113,10 +113,10 @@ now
 (
 )
 +
-'
+"
 *
 /
-'
+"
 ;
 response
 .

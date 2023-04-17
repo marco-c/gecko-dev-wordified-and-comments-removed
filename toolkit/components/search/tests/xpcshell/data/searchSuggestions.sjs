@@ -28,7 +28,7 @@ zero
 /
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -47,7 +47,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -1416,9 +1416,9 @@ queryString
 .
 split
 (
-'
+"
 &
-'
+"
 )
 .
 forEach
@@ -1438,9 +1438,9 @@ val
 .
 split
 (
-'
+"
 =
-'
+"
 )
 ;
 query

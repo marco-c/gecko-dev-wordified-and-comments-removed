@@ -18,9 +18,7 @@ URLSearchParams
 ]
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

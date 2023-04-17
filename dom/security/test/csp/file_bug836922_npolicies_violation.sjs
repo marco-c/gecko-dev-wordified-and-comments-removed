@@ -67,9 +67,9 @@ queryString
 .
 split
 (
-'
+"
 &
-'
+"
 )
 .
 forEach
@@ -89,9 +89,9 @@ val
 .
 split
 (
-'
+"
 =
-'
+"
 )
 ;
 query
@@ -109,9 +109,9 @@ value
 ;
 if
 (
-'
+"
 results
-'
+"
 in
 query
 )
@@ -191,9 +191,9 @@ stringify
 else
 if
 (
-'
+"
 reset
-'
+"
 in
 query
 )
@@ -271,6 +271,7 @@ available
 >
 0
 )
+{
 Array
 .
 prototype
@@ -288,6 +289,7 @@ avail
 )
 )
 ;
+}
 var
 data
 =
@@ -368,6 +370,7 @@ if
 !
 s
 )
+{
 s
 =
 "
@@ -375,6 +378,7 @@ s
 }
 "
 ;
+}
 s
 =
 JSON
@@ -389,11 +393,13 @@ if
 !
 s
 )
+{
 s
 =
 {
 }
 ;
+}
 if
 (
 !
@@ -402,6 +408,7 @@ s
 testid
 ]
 )
+{
 s
 [
 testid
@@ -409,6 +416,7 @@ testid
 =
 0
 ;
+}
 s
 [
 testid

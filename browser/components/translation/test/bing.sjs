@@ -451,8 +451,10 @@ param
 0
 ]
 )
+{
 continue
 ;
+}
 ret
 [
 unescape
@@ -517,6 +519,7 @@ available
 >
 0
 )
+{
 Array
 .
 prototype
@@ -534,6 +537,7 @@ avail
 )
 )
 ;
+}
 return
 String
 .
@@ -805,6 +809,7 @@ localName
 parsererror
 "
 )
+{
 throw
 new
 Error
@@ -815,6 +820,7 @@ XML
 "
 )
 ;
+}
 return
 xml
 ;
@@ -874,6 +880,7 @@ split
 "
 )
 )
+{
 file
 .
 append
@@ -881,6 +888,7 @@ append
 part
 )
 ;
+}
 let
 fileStream
 =
@@ -960,6 +968,7 @@ Authorization
 "
 )
 )
+{
 throw
 new
 HTTPError
@@ -974,6 +983,7 @@ provided
 "
 )
 ;
+}
 let
 auth
 =
@@ -998,6 +1008,7 @@ Bearer
 "
 )
 )
+{
 throw
 new
 HTTPError
@@ -1019,6 +1030,7 @@ auth
 "
 )
 ;
+}
 /
 /
 Rejecting
@@ -1356,6 +1368,7 @@ methodHandlers
 method
 ]
 )
+{
 methodHandlers
 [
 method
@@ -1365,7 +1378,9 @@ res
 xml
 )
 ;
+}
 else
+{
 throw
 new
 HTTPError
@@ -1373,6 +1388,7 @@ HTTPError
 501
 )
 ;
+}
 }
 catch
 (
@@ -1442,6 +1458,7 @@ grant_type
 client_credentials
 "
 )
+{
 methodHandlers
 .
 authenticate
@@ -1450,7 +1467,9 @@ res
 params
 )
 ;
+}
 else
+{
 sendError
 (
 res
@@ -1459,13 +1478,12 @@ res
 ;
 }
 }
+}
 const
 methodHandlers
 =
 {
 authenticate
-:
-function
 (
 res
 params
@@ -1570,28 +1588,24 @@ const
 TOKEN_MAP
 =
 {
-'
 testInactive
-'
 :
-'
+"
 inactive
-'
-'
+"
 testClient
-'
 :
-'
+"
 test
-'
+"
 }
 ;
 let
 token
 =
-'
+"
 test
-'
+"
 ;
 /
 /
@@ -1600,13 +1614,11 @@ token
 .
 if
 (
-(
 params
 .
 client_id
 in
 TOKEN_MAP
-)
 )
 {
 token
@@ -1693,8 +1705,6 @@ content
 ;
 }
 TranslateArrayRequest
-:
-function
 (
 res
 xml
@@ -1732,6 +1742,7 @@ To
 firstChild
 .
 nodeValue
+;
 log
 (
 "

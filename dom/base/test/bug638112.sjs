@@ -52,7 +52,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -66,7 +66,7 @@ input
 stream
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -163,6 +163,7 @@ response
 txt
 "
 )
+;
 response
 .
 seizePower

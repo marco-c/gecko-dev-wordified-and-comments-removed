@@ -81,9 +81,13 @@ tests
 /
 dom
 /
-base
+security
 /
 test
+/
+referrer
+-
+policy
 /
 "
 ;
@@ -3861,7 +3865,5 @@ action
 +
 action
 )
-;
-return
 ;
 }
