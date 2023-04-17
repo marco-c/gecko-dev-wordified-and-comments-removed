@@ -279,7 +279,7 @@ i
 auto
 childDoc
 =
-reinterpret_cast
+static_cast
 <
 AccessibleWrap
 *
