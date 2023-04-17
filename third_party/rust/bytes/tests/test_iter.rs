@@ -1,9 +1,8 @@
 #
 !
 [
-deny
+warn
 (
-warnings
 rust_2018_idioms
 )
 ]

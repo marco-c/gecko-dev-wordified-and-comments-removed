@@ -13,9 +13,8 @@ serde
 #
 !
 [
-deny
+warn
 (
-warnings
 rust_2018_idioms
 )
 ]
@@ -24,8 +23,8 @@ serde_test
 :
 :
 {
-Token
 assert_tokens
+Token
 }
 ;
 #

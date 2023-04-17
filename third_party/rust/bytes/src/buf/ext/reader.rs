@@ -2,9 +2,7 @@ use
 crate
 :
 :
-{
 Buf
-}
 ;
 use
 std
