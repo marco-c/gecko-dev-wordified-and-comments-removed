@@ -51,6 +51,13 @@ h
 #
 include
 "
+XPCMaps
+.
+h
+"
+#
+include
+"
 XPCWrapper
 .
 h
