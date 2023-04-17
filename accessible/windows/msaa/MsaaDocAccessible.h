@@ -78,7 +78,7 @@ AddID
 (
 uint32_t
 aID
-AccessibleWrap
+Accessible
 *
 aAcc
 )
@@ -107,7 +107,7 @@ aID
 )
 ;
 }
-AccessibleWrap
+Accessible
 *
 GetAccessibleByID
 (
@@ -166,7 +166,7 @@ ia2AccessibleHypertext
 nsTHashMap
 <
 nsUint32HashKey
-AccessibleWrap
+Accessible
 *
 >
 mIDToAccessibleMap
