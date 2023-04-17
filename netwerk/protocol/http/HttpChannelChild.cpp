@@ -1741,6 +1741,9 @@ OnSocketThread
 )
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 TimeStamp
 start
 =
@@ -1751,6 +1754,8 @@ Now
 (
 )
 ;
+#
+endif
 mEventQ
 -
 >
@@ -1771,6 +1776,9 @@ HttpChannelChild
 this
 )
 aResponseHead
+#
+ifdef
+NIGHTLY_BUILD
 aUseResponseHead
 aRequestHeaders
 aArgs
@@ -1779,9 +1787,6 @@ start
 (
 )
 {
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 self
@@ -1830,6 +1835,15 @@ ToMilliseconds
 )
 ;
 }
+#
+else
+aUseResponseHead
+aRequestHeaders
+aArgs
+]
+(
+)
+{
 #
 endif
 self
