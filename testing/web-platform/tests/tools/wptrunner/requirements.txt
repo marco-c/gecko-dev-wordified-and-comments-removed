@@ -51,9 +51,9 @@ pillow
 =
 8
 .
-3
+4
 .
-2
+0
 urllib3
 [
 secure
