@@ -683,6 +683,14 @@ aOffFlags
 )
 ;
 async
+SetSingleChannelId
+(
+uint64_t
+?
+singleChannelId
+)
+;
+async
 Destroy
 (
 )
