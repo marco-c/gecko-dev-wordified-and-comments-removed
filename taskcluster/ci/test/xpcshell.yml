@@ -232,6 +232,8 @@ windows10
 -
 64
 -
+2004
+-
 asan
 -
 qr
@@ -271,6 +273,8 @@ windows10
 -
 64
 -
+2004
+-
 mingwclang
 -
 qr
@@ -281,6 +285,8 @@ false
 windows10
 -
 64
+-
+2004
 -
 mingwclang
 -
@@ -374,6 +380,8 @@ windows10
 -
 64
 -
+2004
+-
 asan
 -
 qr
@@ -415,6 +423,8 @@ ccov
 windows10
 -
 64
+-
+2004
 -
 ccov
 -
@@ -587,6 +597,8 @@ platform
 windows10
 -
 64
+-
+2004
 -
 asan
 .

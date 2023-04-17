@@ -266,10 +266,6 @@ webgpu
 mochitest
 -
 webgpu
-xpcshell
-:
--
-xpcshell
 talos
 :
 -
@@ -1375,8 +1371,6 @@ test
 verify
 -
 wpt
--
-xpcshell
 windows
 -
 ccov
@@ -1493,6 +1487,8 @@ webgl2
 ext
 -
 reftest
+-
+xpcshell
 mingwclang
 -
 tests
