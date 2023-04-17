@@ -7,6 +7,7 @@ console
 .
 info
 (
+"
 Service
 Workers
 are
@@ -38,6 +39,7 @@ id
 for
 details
 .
+"
 )
 ;
 delete
