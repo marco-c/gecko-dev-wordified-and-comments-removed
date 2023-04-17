@@ -2851,7 +2851,7 @@ valueOr
 wasm
 :
 :
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 )
@@ -3955,7 +3955,7 @@ initialPages
 wasm
 :
 :
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 )

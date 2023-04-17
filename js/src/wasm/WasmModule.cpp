@@ -3610,7 +3610,7 @@ desc
 maximumPages
 (
 )
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 memory
@@ -3689,7 +3689,7 @@ initialPages
 (
 )
 >
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 )

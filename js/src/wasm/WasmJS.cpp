@@ -11198,7 +11198,7 @@ limits
 initial
 )
 >
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 )
@@ -12560,7 +12560,7 @@ ifdef
 WASM_SUPPORTS_HUGE_MEMORY
 MOZ_ASSERT
 (
-MaxMemory32Bytes
+MaxMemoryBytes
 (
 )
 <
@@ -12748,7 +12748,7 @@ MOZ_ASSERT
 limit
 <
 =
-MaxMemory32BoundsCheckLimit
+MaxMemoryBoundsCheckLimit
 (
 )
 )
@@ -12892,7 +12892,7 @@ if
 (
 newPages
 >
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 )
@@ -13016,7 +13016,7 @@ ENABLE_WASM_CRANELIFT
 )
 MOZ_ASSERT
 (
-MaxMemory32Bytes
+MaxMemoryBytes
 (
 )
 <
@@ -13071,7 +13071,7 @@ if
 (
 newPages
 >
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 )
@@ -23664,7 +23664,7 @@ Pages
 wasm
 :
 :
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 {
@@ -23708,7 +23708,7 @@ size_t
 wasm
 :
 :
-MaxMemory32BoundsCheckLimit
+MaxMemoryBoundsCheckLimit
 (
 )
 {
@@ -23731,7 +23731,7 @@ Pages
 wasm
 :
 :
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 {
@@ -23773,7 +23773,7 @@ size_t
 wasm
 :
 :
-MaxMemory32BoundsCheckLimit
+MaxMemoryBoundsCheckLimit
 (
 )
 {
@@ -23797,7 +23797,7 @@ Pages
 wasm
 :
 :
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 {
@@ -23832,7 +23832,7 @@ size_t
 wasm
 :
 :
-MaxMemory32BoundsCheckLimit
+MaxMemoryBoundsCheckLimit
 (
 )
 {
