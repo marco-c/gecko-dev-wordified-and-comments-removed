@@ -4161,9 +4161,9 @@ JSContext
 *
 cx
 const
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 CompilationStencil
 &
@@ -4252,7 +4252,7 @@ if
 EmitScriptThingsVector
 (
 cx
-input
+atomCache
 stencil
 gcOutput
 script
@@ -4317,9 +4317,9 @@ CreateFunctionFast
 JSContext
 *
 cx
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 HandleShape
 shape
 const
@@ -4479,8 +4479,6 @@ JSAtom
 *
 atom
 =
-input
-.
 atomCache
 .
 getExistingAtomAt
@@ -4534,9 +4532,9 @@ CreateFunction
 JSContext
 *
 cx
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 CompilationStencil
 &
@@ -4693,8 +4691,6 @@ displayAtom
 .
 set
 (
-input
-.
 atomCache
 .
 getExistingAtomAt
@@ -4826,9 +4822,9 @@ InstantiateAtoms
 JSContext
 *
 cx
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 CompilationStencil
 &
@@ -4842,8 +4838,6 @@ cx
 stencil
 .
 parserAtomData
-input
-.
 atomCache
 )
 ;
@@ -4961,9 +4955,9 @@ InstantiateModuleObject
 JSContext
 *
 cx
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 CompilationStencil
 &
@@ -5036,8 +5030,6 @@ moduleMetadata
 initModule
 (
 cx
-input
-.
 atomCache
 module
 )
@@ -5050,9 +5042,9 @@ InstantiateFunctions
 JSContext
 *
 cx
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 CompilationStencil
 &
@@ -5261,7 +5253,7 @@ useFastPath
 CreateFunctionFast
 (
 cx
-input
+atomCache
 shape
 scriptStencil
 scriptExtra
@@ -5270,7 +5262,7 @@ scriptExtra
 CreateFunction
 (
 cx
-input
+atomCache
 stencil
 scriptStencil
 scriptExtra
@@ -5300,8 +5292,6 @@ JSAtom
 *
 canonicalName
 =
-input
-.
 atomCache
 .
 getExistingAtomAt
@@ -5456,9 +5446,9 @@ InstantiateScriptStencils
 JSContext
 *
 cx
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 CompilationStencil
 &
@@ -5563,7 +5553,7 @@ JSScript
 fromStencil
 (
 cx
-input
+atomCache
 stencil
 gcOutput
 index
@@ -5649,7 +5639,7 @@ if
 CreateLazyScript
 (
 cx
-input
+atomCache
 stencil
 gcOutput
 scriptStencil
@@ -5789,6 +5779,8 @@ fullyInitFromStencil
 (
 cx
 input
+.
+atomCache
 stencil
 gcOutput
 script
@@ -5851,6 +5843,8 @@ fromStencil
 (
 cx
 input
+.
+atomCache
 stencil
 gcOutput
 CompilationStencil
@@ -6037,9 +6031,9 @@ UpdateEmittedInnerFunctions
 JSContext
 *
 cx
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 CompilationStencil
 &
@@ -6210,8 +6204,6 @@ hasGuessedAtom
 {
 funcAtom
 =
-input
-.
 atomCache
 .
 getExistingAtomAt
@@ -6885,6 +6877,8 @@ InstantiateAtoms
 (
 cx
 input
+.
+atomCache
 stencil
 )
 )
@@ -6973,6 +6967,8 @@ InstantiateModuleObject
 (
 cx
 input
+.
+atomCache
 stencil
 gcOutput
 )
@@ -6990,6 +6986,8 @@ InstantiateFunctions
 (
 cx
 input
+.
+atomCache
 stencil
 gcOutput
 )
@@ -7105,6 +7103,8 @@ InstantiateScriptStencils
 (
 cx
 input
+.
+atomCache
 stencil
 gcOutput
 )
@@ -7157,6 +7157,8 @@ UpdateEmittedInnerFunctions
 (
 cx
 input
+.
+atomCache
 stencil
 gcOutput
 )

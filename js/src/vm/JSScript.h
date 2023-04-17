@@ -5695,9 +5695,9 @@ js
 frontend
 :
 :
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 js
 :
@@ -7229,9 +7229,9 @@ js
 frontend
 :
 :
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 js
 :
@@ -7367,9 +7367,9 @@ js
 frontend
 :
 :
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 js
 :
@@ -7419,9 +7419,9 @@ js
 frontend
 :
 :
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 js
 :

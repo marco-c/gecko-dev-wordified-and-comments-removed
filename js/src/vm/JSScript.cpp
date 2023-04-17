@@ -19767,9 +19767,9 @@ js
 frontend
 :
 :
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 js
 :
@@ -19873,7 +19873,7 @@ if
 EmitScriptThingsVector
 (
 cx
-input
+atomCache
 stencil
 gcOutput
 scriptStencil
@@ -20291,9 +20291,9 @@ js
 frontend
 :
 :
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 js
 :
@@ -20542,7 +20542,7 @@ InitFromStencil
 (
 cx
 script
-input
+atomCache
 stencil
 gcOutput
 scriptIndex
@@ -20795,9 +20795,9 @@ cx
 frontend
 :
 :
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 frontend
 :
@@ -20950,7 +20950,7 @@ if
 fullyInitFromStencil
 (
 cx
-input
+atomCache
 stencil
 gcOutput
 script

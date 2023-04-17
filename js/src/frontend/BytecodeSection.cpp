@@ -285,9 +285,9 @@ JSContext
 *
 cx
 const
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 CompilationStencil
 &
@@ -344,15 +344,6 @@ size
 (
 )
 )
-;
-const
-auto
-&
-atomCache
-=
-input
-.
-atomCache
 ;
 for
 (

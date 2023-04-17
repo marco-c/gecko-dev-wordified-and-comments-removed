@@ -720,9 +720,9 @@ JSContext
 *
 cx
 const
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 CompilationStencil
 &
