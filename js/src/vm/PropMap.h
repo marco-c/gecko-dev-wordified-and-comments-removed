@@ -1484,6 +1484,15 @@ dump
 )
 const
 ;
+void
+checkConsistency
+(
+NativeObject
+*
+obj
+)
+const
+;
 #
 endif
 void
