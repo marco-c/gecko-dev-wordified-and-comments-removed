@@ -1106,6 +1106,13 @@ h
 #
 include
 "
+nsHttpHandler
+.
+h
+"
+#
+include
+"
 nsIConsoleService
 .
 h
@@ -13845,6 +13852,13 @@ PreallocInit
 (
 )
 {
+nsHttpHandler
+:
+:
+PresetAcceptLanguages
+(
+)
+;
 }
 const
 nsACString
