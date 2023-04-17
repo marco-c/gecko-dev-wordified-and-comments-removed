@@ -3367,12 +3367,6 @@ true
 if
 (
 isMaliT
-&
-&
-mSDKVersion
-<
-=
-22
 )
 {
 *
