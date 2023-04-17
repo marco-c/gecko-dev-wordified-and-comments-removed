@@ -85,13 +85,19 @@ mozilla
 .
 geckoview
 .
-test
+GeckoSession
 .
-rule
+NavigationDelegate
+import
+org
 .
-GeckoSessionTestRule
+mozilla
 .
-*
+geckoview
+.
+GeckoSession
+.
+ProgressDelegate
 import
 org
 .
@@ -101,9 +107,11 @@ geckoview
 .
 test
 .
-util
+rule
 .
-Callbacks
+GeckoSessionTestRule
+.
+*
 RunWith
 (
 AndroidJUnit4
@@ -155,11 +163,7 @@ forCallbacksDuringWait
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -369,8 +373,6 @@ forCallbacksDuringWait
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 AssertCalled
@@ -600,8 +602,6 @@ forCallbacksDuringWait
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 AssertCalled
@@ -730,8 +730,6 @@ forCallbacksDuringWait
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 AssertCalled
@@ -889,8 +887,6 @@ forCallbacksDuringWait
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 AssertCalled
@@ -1015,8 +1011,6 @@ forCallbacksDuringWait
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 AssertCalled
@@ -1169,8 +1163,6 @@ forCallbacksDuringWait
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 AssertCalled
@@ -1453,8 +1445,6 @@ forCallbacksDuringWait
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 AssertCalled
@@ -1767,8 +1757,6 @@ forCallbacksDuringWait
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 AssertCalled
@@ -2101,8 +2089,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 AssertCalled
@@ -2266,8 +2252,6 @@ forCallbacksDuringWait
 (
 object
 :
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -2352,8 +2336,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 NavigationDelegate
 {
 override
@@ -2471,8 +2453,6 @@ forCallbacksDuringWait
 (
 object
 :
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -2597,8 +2577,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 AssertCalled
@@ -2653,8 +2631,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 AssertCalled
@@ -2793,8 +2769,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 AssertCalled

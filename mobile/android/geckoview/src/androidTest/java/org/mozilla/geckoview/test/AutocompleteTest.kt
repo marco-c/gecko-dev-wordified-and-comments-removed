@@ -230,18 +230,6 @@ rule
 GeckoSessionTestRule
 .
 AssertCalled
-import
-org
-.
-mozilla
-.
-geckoview
-.
-test
-.
-util
-.
-Callbacks
 RunWith
 (
 AndroidJUnit4
@@ -870,8 +858,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -1492,8 +1478,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -2738,8 +2722,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -3031,8 +3013,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -3395,8 +3375,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -3996,8 +3974,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -4671,8 +4647,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -5034,8 +5008,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -5741,8 +5713,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -5957,8 +5927,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -6162,8 +6130,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -6929,8 +6895,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -7145,8 +7109,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -7350,8 +7312,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -7996,8 +7956,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled

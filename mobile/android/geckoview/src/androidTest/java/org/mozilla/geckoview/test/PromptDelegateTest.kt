@@ -40,8 +40,28 @@ geckoview
 GeckoSession
 .
 NavigationDelegate
+import
+org
+.
+mozilla
+.
+geckoview
+.
+GeckoSession
+.
+NavigationDelegate
 .
 LoadRequest
+import
+org
+.
+mozilla
+.
+geckoview
+.
+GeckoSession
+.
+ProgressDelegate
 import
 org
 .
@@ -78,18 +98,6 @@ rule
 GeckoSessionTestRule
 .
 AssertCalled
-import
-org
-.
-mozilla
-.
-geckoview
-.
-test
-.
-util
-.
-Callbacks
 import
 androidx
 .
@@ -197,11 +205,7 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -436,8 +440,6 @@ sessionRule
 .
 waitUntilCalled
 (
-Callbacks
-.
 NavigationDelegate
 :
 :
@@ -485,11 +487,7 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
-Callbacks
-.
 NavigationDelegate
 {
 AssertCalled
@@ -742,8 +740,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -818,8 +814,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -922,8 +916,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -1028,8 +1020,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -1219,8 +1209,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 override
@@ -1286,8 +1274,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -1380,8 +1366,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -1462,8 +1446,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -1574,8 +1556,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 ProgressDelegate
 {
 override
@@ -1641,8 +1621,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -1772,8 +1750,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -1889,8 +1865,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -1979,8 +1953,6 @@ delegateUntilTestEnd
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -2175,8 +2147,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -2263,8 +2233,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -2530,8 +2498,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -2640,8 +2606,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -2830,8 +2794,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -3057,8 +3019,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -3278,8 +3238,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -3506,8 +3464,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -3685,8 +3641,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -3864,8 +3818,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -4022,8 +3974,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -4200,8 +4150,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
@@ -4372,8 +4320,6 @@ delegateDuringNextWait
 (
 object
 :
-Callbacks
-.
 PromptDelegate
 {
 AssertCalled
