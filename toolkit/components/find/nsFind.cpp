@@ -4240,7 +4240,7 @@ findex
 +
 incr
 ;
-char16_t
+char32_t
 nextChar
 ;
 if
