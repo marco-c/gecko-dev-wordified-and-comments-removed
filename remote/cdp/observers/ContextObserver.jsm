@@ -566,6 +566,10 @@ defaultView
 ;
 if
 (
+!
+window
+|
+|
 window
 .
 docShell
