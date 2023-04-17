@@ -164,6 +164,13 @@ RawAccessRef
 frame
 -
 >
+SetRawAccessOnly
+(
+)
+;
+frame
+-
+>
 SetDirtyRect
 (
 aFrameRect
