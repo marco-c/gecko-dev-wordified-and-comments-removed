@@ -75,6 +75,8 @@ GPU_IMPL_CYCLE_COLLECTION
 Adapter
 mParent
 mBridge
+mFeatures
+mLimits
 )
 GPU_IMPL_JS_WRAP
 (

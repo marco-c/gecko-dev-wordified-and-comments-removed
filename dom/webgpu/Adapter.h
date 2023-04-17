@@ -133,14 +133,12 @@ const
 nsString
 mName
 ;
-const
 RefPtr
 <
 AdapterFeatures
 >
 mFeatures
 ;
-const
 RefPtr
 <
 AdapterLimits
