@@ -3,11 +3,6 @@ use
 strict
 "
 ;
-let
-{
-Task
-}
-=
 ChromeUtils
 .
 import
@@ -25,13 +20,9 @@ Task
 .
 jsm
 "
+this
 )
 ;
-let
-{
-ContentTaskUtils
-}
-=
 ChromeUtils
 .
 import
@@ -49,6 +40,7 @@ ContentTaskUtils
 .
 jsm
 "
+this
 )
 ;
 const
@@ -76,11 +68,7 @@ jsm
 )
 ;
 const
-{
-Assert
-:
 AssertCls
-}
 =
 ChromeUtils
 .
@@ -99,7 +87,10 @@ Assert
 .
 jsm
 "
+null
 )
+.
+Assert
 ;
 var
 EventUtils
