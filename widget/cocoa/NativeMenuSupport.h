@@ -68,6 +68,12 @@ Element
 aPopup
 )
 ;
+static
+bool
+ShouldUseNativeContextMenus
+(
+)
+;
 }
 ;
 }
