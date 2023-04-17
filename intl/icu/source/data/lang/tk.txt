@@ -2206,6 +2206,13 @@ rombo
 dili
 "
 }
+root
+{
+"
+k
+k
+"
+}
 ru
 {
 "

@@ -770,7 +770,6 @@ Kati
 XOF
 {
 "
-F
 CFA
 "
 "

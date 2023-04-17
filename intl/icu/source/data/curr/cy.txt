@@ -2898,7 +2898,6 @@ Ewropeaidd
 XOF
 {
 "
-F
 CFA
 "
 "

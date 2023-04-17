@@ -618,6 +618,9 @@ pLength
 if
 !
 UCONFIG_NO_FORMATTING
+#
+ifndef
+U_HIDE_DRAFT_API
 U_CAPI
 UDateFormatHourCycle
 U_EXPORT2
@@ -632,6 +635,8 @@ UErrorCode
 pErrorCode
 )
 ;
+#
+endif
 #
 endif
 #

@@ -610,7 +610,6 @@ CFA
 XOF
 {
 "
-F
 CFA
 "
 "

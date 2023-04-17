@@ -2684,6 +2684,14 @@ isi
 Rombo
 "
 }
+root
+{
+"
+isi
+-
+Root
+"
+}
 ru
 {
 "

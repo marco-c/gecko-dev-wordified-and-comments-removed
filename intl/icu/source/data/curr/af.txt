@@ -1781,7 +1781,6 @@ dollar
 XOF
 {
 "
-F
 CFA
 "
 "

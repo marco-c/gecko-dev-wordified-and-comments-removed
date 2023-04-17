@@ -2298,6 +2298,7 @@ Guinea
 PHP
 {
 "
+PHP
 "
 "
 peso
@@ -3206,7 +3207,6 @@ franzos
 XOF
 {
 "
-F
 CFA
 "
 "

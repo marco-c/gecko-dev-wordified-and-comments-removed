@@ -3304,7 +3304,6 @@ Frangach
 XOF
 {
 "
-F
 CFA
 "
 "

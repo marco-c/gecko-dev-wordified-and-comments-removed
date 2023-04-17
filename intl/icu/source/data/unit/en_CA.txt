@@ -363,8 +363,6 @@ concentr
 {
 milligram
 -
-ofglucose
--
 per
 -
 deciliter
@@ -1350,8 +1348,6 @@ kt
 }
 }
 milligram
--
-ofglucose
 -
 per
 -

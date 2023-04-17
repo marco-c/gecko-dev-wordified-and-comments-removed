@@ -56,17 +56,6 @@ sr_Cyrl_BA
 {
 units
 {
-compound
-{
-1024p8
-{
-"
-{
-0
-}
-"
-}
-}
 duration
 {
 century

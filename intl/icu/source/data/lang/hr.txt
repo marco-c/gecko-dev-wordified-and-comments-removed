@@ -2729,6 +2729,12 @@ rom
 romski
 "
 }
+root
+{
+"
+korijenski
+"
+}
 ru
 {
 "

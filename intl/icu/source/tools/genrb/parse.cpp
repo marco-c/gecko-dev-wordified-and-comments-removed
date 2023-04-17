@@ -6176,11 +6176,6 @@ if
 (
 !
 readToken
-&
-&
-isVerbose
-(
-)
 )
 {
 warning

@@ -214,13 +214,6 @@ other
 {
 if
 (
-this
-!
-=
-&
-other
-&
-&
 !
 other
 .

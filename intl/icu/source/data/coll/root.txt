@@ -75,7 +75,9 @@ txt
 Version
 {
 "
-39
+38
+.
+1
 "
 }
 collations
@@ -3185,7 +3187,9 @@ before
 Version
 {
 "
-39
+38
+.
+1
 "
 }
 }
@@ -5458,7 +5462,9 @@ ignorable
 Version
 {
 "
-39
+38
+.
+1
 "
 }
 }
@@ -6900,7 +6906,9 @@ uFDD0
 Version
 {
 "
-39
+38
+.
+1
 "
 }
 }
@@ -7377,7 +7385,9 @@ ignorable
 Version
 {
 "
-39
+38
+.
+1
 "
 }
 }
@@ -7391,7 +7401,9 @@ Sequence
 Version
 {
 "
-39
+38
+.
+1
 "
 }
 }

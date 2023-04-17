@@ -298,7 +298,11 @@ UnitConversionHandler
 const
 MeasureUnit
 &
-targetUnit
+inputUnit
+const
+MeasureUnit
+&
+outputUnit
 const
 MicroPropsGenerator
 *

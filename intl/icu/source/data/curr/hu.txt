@@ -3230,7 +3230,6 @@ frank
 XOF
 {
 "
-F
 CFA
 "
 "

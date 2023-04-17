@@ -1985,6 +1985,12 @@ rof
 romboisht
 "
 }
+root
+{
+"
+rutisht
+"
+}
 ru
 {
 "

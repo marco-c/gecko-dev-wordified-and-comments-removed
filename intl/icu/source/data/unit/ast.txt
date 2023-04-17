@@ -729,8 +729,6 @@ quilates
 }
 milligram
 -
-ofglucose
--
 per
 -
 deciliter
@@ -5138,8 +5136,6 @@ kt
 }
 milligram
 -
-ofglucose
--
 per
 -
 deciliter
@@ -9308,8 +9304,6 @@ kt
 }
 }
 milligram
--
-ofglucose
 -
 per
 -

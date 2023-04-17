@@ -2587,7 +2587,6 @@ francez
 XOF
 {
 "
-F
 CFA
 "
 "
