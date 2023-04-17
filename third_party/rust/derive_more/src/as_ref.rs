@@ -7,6 +7,7 @@ utils
 :
 {
 add_where_clauses_for_new_ident
+AttrParams
 MultiFieldData
 State
 }
@@ -87,7 +88,7 @@ state
 State
 :
 :
-with_field_ignore_and_forward
+with_type_bound
 (
 input
 trait_name
@@ -110,6 +111,13 @@ from
 as_ref
 "
 )
+AttrParams
+:
+:
+ignore_and_forward
+(
+)
+false
 )
 ?
 ;
@@ -370,7 +378,7 @@ i
 )
 ;
 let
-impl_genericses
+impl_generics
 =
 sub_items
 .
@@ -458,7 +466,7 @@ quote
 (
 impl
 #
-impl_genericses
+impl_generics
 #
 trait_paths
 for

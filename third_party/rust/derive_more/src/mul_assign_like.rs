@@ -362,8 +362,6 @@ rhs
 :
 #
 scalar_ident
-#
-ty_generics
 )
 {
 #

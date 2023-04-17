@@ -7,6 +7,7 @@ utils
 :
 {
 add_where_clauses_for_new_ident
+AttrParams
 MultiFieldData
 State
 }
@@ -87,7 +88,7 @@ state
 State
 :
 :
-with_field_ignore_and_forward
+with_type_bound
 (
 input
 trait_name
@@ -110,6 +111,13 @@ from
 as_mut
 "
 )
+AttrParams
+:
+:
+ignore_and_forward
+(
+)
+false
 )
 ?
 ;
