@@ -4855,11 +4855,11 @@ MOZ_STACK_CLASS
 mozInlineSpellChecker
 :
 :
-SpellCheckerTimeSlice
+SpellCheckerSlice
 {
 public
 :
-SpellCheckerTimeSlice
+SpellCheckerSlice
 (
 mozInlineSpellChecker
 &
@@ -5013,7 +5013,7 @@ bool
 mozInlineSpellChecker
 :
 :
-SpellCheckerTimeSlice
+SpellCheckerSlice
 :
 :
 ShouldSpellCheckRange
@@ -5108,7 +5108,7 @@ void
 mozInlineSpellChecker
 :
 :
-SpellCheckerTimeSlice
+SpellCheckerSlice
 :
 :
 RemoveRanges
@@ -5163,7 +5163,7 @@ nsresult
 mozInlineSpellChecker
 :
 :
-SpellCheckerTimeSlice
+SpellCheckerSlice
 :
 :
 Execute
@@ -5858,8 +5858,8 @@ MOZ_ASSERT
 aDoneChecking
 )
 ;
-SpellCheckerTimeSlice
-spellCheckerTimeSlice
+SpellCheckerSlice
+spellCheckerSlice
 {
 *
 this
@@ -5872,7 +5872,7 @@ aDoneChecking
 }
 ;
 return
-spellCheckerTimeSlice
+spellCheckerSlice
 .
 Execute
 (
@@ -5937,7 +5937,7 @@ void
 mozInlineSpellChecker
 :
 :
-SpellCheckerTimeSlice
+SpellCheckerSlice
 :
 :
 CheckWordsAndAddRangesForMisspellings
