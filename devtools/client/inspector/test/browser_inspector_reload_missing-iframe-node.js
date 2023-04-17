@@ -30,7 +30,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -189,9 +188,7 @@ resolve
 ok
 (
 await
-testActor
-.
-hasNode
+hasMatchingElementInContentPage
 (
 "
 iframe
