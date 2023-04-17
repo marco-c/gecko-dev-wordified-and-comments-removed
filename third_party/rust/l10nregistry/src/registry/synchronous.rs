@@ -806,7 +806,7 @@ fetch_file_sync
 (
 locale
 res
-false
+true
 )
 .
 is_some
