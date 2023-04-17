@@ -6581,9 +6581,6 @@ forget
 )
 ;
 }
-namespace
-mozilla
-{
 void
 nsDisplayRemote
 :
@@ -7220,5 +7217,4 @@ FrameLoader
 :
 nullptr
 ;
-}
 }

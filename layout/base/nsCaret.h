@@ -67,6 +67,9 @@ nsRect
 h
 "
 class
+nsDisplayListBuilder
+;
+class
 nsFrameSelection
 ;
 class

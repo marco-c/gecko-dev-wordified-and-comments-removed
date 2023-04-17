@@ -3488,9 +3488,6 @@ Style
 ;
 }
 }
-namespace
-mozilla
-{
 class
 nsDisplayNotation
 final
@@ -4138,7 +4135,6 @@ nsDisplayNotation
 "
 )
 ;
-}
 }
 }
 void

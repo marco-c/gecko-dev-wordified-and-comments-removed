@@ -47,12 +47,12 @@ imgRequestProxy
 class
 nsImageBoxFrame
 ;
-namespace
-mozilla
-{
 class
 nsDisplayXULImage
 ;
+namespace
+mozilla
+{
 class
 PresShell
 ;
@@ -141,9 +141,6 @@ LayerManager
 ;
 friend
 class
-mozilla
-:
-:
 nsDisplayXULImage
 ;
 NS_DECL_FRAMEARENA_HELPERS
@@ -581,9 +578,6 @@ mSuppressStyleCheck
 ;
 }
 ;
-namespace
-mozilla
-{
 class
 nsDisplayXULImage
 final
@@ -803,6 +797,5 @@ TYPE_XUL_IMAGE
 )
 }
 ;
-}
 #
 endif

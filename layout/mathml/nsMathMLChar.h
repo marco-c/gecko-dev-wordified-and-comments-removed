@@ -63,6 +63,12 @@ class
 nsIFrame
 ;
 class
+nsDisplayListBuilder
+;
+class
+nsDisplayListSet
+;
+class
 nsPresContext
 ;
 struct
@@ -74,12 +80,6 @@ nsFont
 namespace
 mozilla
 {
-class
-nsDisplayListBuilder
-;
-class
-nsDisplayListSet
-;
 class
 ComputedStyle
 ;
@@ -375,9 +375,6 @@ nsMathMLChar
 void
 Display
 (
-mozilla
-:
-:
 nsDisplayListBuilder
 *
 aBuilder
@@ -385,9 +382,6 @@ nsIFrame
 *
 aForFrame
 const
-mozilla
-:
-:
 nsDisplayListSet
 &
 aLists

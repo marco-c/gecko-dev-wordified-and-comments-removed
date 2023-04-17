@@ -86,12 +86,12 @@ DisplayItemClip
 .
 h
 "
-namespace
-mozilla
-{
 class
 nsDisplayItemGeometry
 ;
+namespace
+mozilla
+{
 namespace
 webgpu
 {

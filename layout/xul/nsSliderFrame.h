@@ -65,9 +65,6 @@ namespace
 mozilla
 {
 class
-nsDisplaySliderMarks
-;
-class
 PresShell
 ;
 }
@@ -163,9 +160,6 @@ nsSliderMediator
 ;
 friend
 class
-mozilla
-:
-:
 nsDisplaySliderMarks
 ;
 explicit

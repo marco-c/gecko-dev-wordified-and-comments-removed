@@ -128,6 +128,9 @@ NS_ICANVASRENDERINGCONTEXTINTERNAL_IID
 \
 }
 class
+nsDisplayListBuilder
+;
+class
 nsIDocShell
 ;
 class
@@ -136,9 +139,6 @@ nsRefreshDriver
 namespace
 mozilla
 {
-class
-nsDisplayListBuilder
-;
 class
 ClientWebGLContext
 ;
@@ -523,9 +523,6 @@ Layer
 >
 GetCanvasLayer
 (
-mozilla
-:
-:
 nsDisplayListBuilder
 *
 builder
@@ -543,9 +540,6 @@ virtual
 bool
 UpdateWebRenderCanvasData
 (
-mozilla
-:
-:
 nsDisplayListBuilder
 *
 aBuilder
@@ -562,9 +556,6 @@ virtual
 bool
 InitializeCanvasRenderer
 (
-mozilla
-:
-:
 nsDisplayListBuilder
 *
 aBuilder
