@@ -36,6 +36,12 @@ sSingleton
 ;
 protected
 :
+nsCOMPtr
+<
+nsITabUnloader
+>
+mTabUnloader
+;
 virtual
 ~
 nsAvailableMemoryWatcherBase
