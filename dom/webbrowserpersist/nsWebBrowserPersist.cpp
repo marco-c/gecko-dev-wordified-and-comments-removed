@@ -8980,12 +8980,15 @@ aURI
 .
 Apply
 (
+NS_MutatorMethod
+(
 &
 nsIFileURLMutator
 :
 :
 SetFile
 localFile
+)
 )
 .
 Finalize
@@ -9002,6 +9005,8 @@ url
 .
 Apply
 (
+NS_MutatorMethod
+(
 &
 nsIURLMutator
 :
@@ -9009,6 +9014,7 @@ nsIURLMutator
 SetFileName
 filename
 nullptr
+)
 )
 .
 Finalize
@@ -9724,12 +9730,15 @@ url
 .
 Apply
 (
+NS_MutatorMethod
+(
 &
 nsIFileURLMutator
 :
 :
 SetFile
 localFile
+)
 )
 .
 Finalize
@@ -9746,6 +9755,8 @@ url
 .
 Apply
 (
+NS_MutatorMethod
+(
 &
 nsIURLMutator
 :
@@ -9753,6 +9764,7 @@ nsIURLMutator
 SetFileName
 newFileName
 nullptr
+)
 )
 .
 Finalize

@@ -4551,12 +4551,15 @@ mutator
 .
 Apply
 (
+NS_MutatorMethod
+(
 &
 nsIJSURIMutator
 :
 :
 SetBase
 base
+)
 )
 ;
 if
