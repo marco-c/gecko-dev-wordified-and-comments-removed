@@ -461,7 +461,7 @@ VERBOSE
 class
 ParseError
 (
-ValueError
+Exception
 )
 :
     

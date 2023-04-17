@@ -13,40 +13,13 @@ utf
 "
 "
 "
-requests
+pythoncompat
+"
+"
+"
+from
 .
-compat
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-This
-module
-handles
-import
-compatibility
-issues
-between
-Python
-2
-and
-Python
-3
-.
-"
-"
-"
+packages
 import
 chardet
 import
@@ -86,7 +59,10 @@ simplejson
 as
 json
 except
+(
 ImportError
+SyntaxError
+)
 :
     
 import
@@ -98,19 +74,13 @@ is_py2
 from
 urllib
 import
-(
-        
 quote
 unquote
 quote_plus
 unquote_plus
 urlencode
 getproxies
-        
 proxy_bypass
-proxy_bypass_environment
-getproxies_environment
-)
     
 from
 urlparse
@@ -140,11 +110,15 @@ import
 StringIO
     
 from
-collections
+.
+packages
+.
+urllib3
+.
+packages
+.
+ordered_dict
 import
-Callable
-Mapping
-MutableMapping
 OrderedDict
     
 builtin_str
@@ -169,13 +143,6 @@ numeric_types
 int
 long
 float
-)
-    
-integer_types
-=
-(
-int
-long
 )
 elif
 is_py3
@@ -205,8 +172,6 @@ import
 parse_http_list
 getproxies
 proxy_bypass
-proxy_bypass_environment
-getproxies_environment
     
 from
 http
@@ -232,15 +197,6 @@ collections
 import
 OrderedDict
     
-from
-collections
-.
-abc
-import
-Callable
-Mapping
-MutableMapping
-    
 builtin_str
 =
 str
@@ -265,10 +221,4 @@ numeric_types
 (
 int
 float
-)
-    
-integer_types
-=
-(
-int
 )

@@ -75,7 +75,7 @@ py
 std
 is
 deprecated
-please
+plase
 import
 %
 s
@@ -87,10 +87,6 @@ name
 category
 =
 PyStdIsDeprecatedWarning
-                      
-stacklevel
-=
-2
 )
         
 try
