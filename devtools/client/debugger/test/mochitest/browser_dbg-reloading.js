@@ -200,7 +200,10 @@ waitForPaused
 dbg
 )
 ;
-assertPausedLocation
+const
+source
+=
+findSource
 (
 dbg
 "
@@ -212,6 +215,14 @@ index
 .
 js
 "
+)
+;
+assertPausedAtSourceAndLine
+(
+dbg
+source
+.
+id
 4
 )
 ;

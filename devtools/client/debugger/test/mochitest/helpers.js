@@ -1639,6 +1639,11 @@ assertPaused
 dbg
 )
 ;
+assertPausedLocation
+(
+dbg
+)
+;
 const
 frames
 =

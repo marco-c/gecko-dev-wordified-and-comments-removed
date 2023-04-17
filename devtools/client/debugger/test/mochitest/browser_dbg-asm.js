@@ -106,7 +106,10 @@ waitForPaused
 dbg
 )
 ;
-assertPausedLocation
+assertPausedAtSourceAndLine
+(
+dbg
+findSource
 (
 dbg
 "
@@ -114,6 +117,9 @@ asm
 .
 js
 "
+)
+.
+id
 7
 )
 ;

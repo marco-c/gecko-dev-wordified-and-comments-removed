@@ -225,7 +225,6 @@ html
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -360,7 +359,6 @@ dbg
 IFRAME_TEST_COM_URI
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -620,7 +618,6 @@ dbg
 IFRAME_TEST_COM_URI
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -647,7 +644,6 @@ stepOver
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -833,7 +829,6 @@ dbg
 IFRAME_TEST_URI
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -975,7 +970,6 @@ dbg
 iframeThread
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
