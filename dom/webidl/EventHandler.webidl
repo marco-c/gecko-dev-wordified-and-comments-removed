@@ -343,6 +343,16 @@ attribute
 EventHandler
 ondragenter
 ;
+[
+Func
+=
+"
+Event
+:
+:
+IsDragExitEnabled
+"
+]
 attribute
 EventHandler
 ondragexit
