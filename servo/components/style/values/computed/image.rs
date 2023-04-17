@@ -187,6 +187,13 @@ ToCss
 }
 ;
 pub
+use
+specified
+:
+:
+ImageRendering
+;
+pub
 type
 Image
 =
