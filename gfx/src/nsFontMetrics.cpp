@@ -867,9 +867,6 @@ aParams
 textPerf
 aParams
 .
-fontStats
-aParams
-.
 userFontSet
 devToCssSize
 )

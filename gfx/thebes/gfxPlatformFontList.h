@@ -842,9 +842,6 @@ aStyle
 FontVisibility
 *
 aVisibility
-FontMatchingStats
-*
-aFontMatchingStats
 )
 ;
 enum
@@ -2473,9 +2470,6 @@ aCmapCount
 FontFamily
 &
 aMatchedFamily
-FontMatchingStats
-*
-aFontMatchingStats
 )
 ;
 virtual

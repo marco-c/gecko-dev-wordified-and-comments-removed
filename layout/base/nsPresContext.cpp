@@ -1386,15 +1386,6 @@ gfxMissingFontRecorder
 )
 ;
 }
-mFontStats
-=
-MakeUnique
-<
-FontMatchingStats
->
-(
-)
-;
 if
 (
 StaticPrefs

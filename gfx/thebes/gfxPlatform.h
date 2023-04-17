@@ -168,9 +168,6 @@ SRGBOverrideObserver
 class
 gfxTextPerfMetrics
 ;
-struct
-FontMatchingStats
-;
 typedef
 struct
 FT_LibraryRec_
@@ -1394,9 +1391,6 @@ aExplicitLanguage
 gfxTextPerfMetrics
 *
 aTextPerf
-FontMatchingStats
-*
-aFontMatchingStats
 gfxUserFontSet
 *
 aUserFontSet
