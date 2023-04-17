@@ -74,6 +74,15 @@ clearMessagesCache
 (
 )
 ;
+webConsoleUI
+.
+networkDataProvider
+?
+.
+destroy
+(
+)
+;
 if
 (
 webConsoleUI
