@@ -2107,9 +2107,6 @@ wine64
 wine
 "
 ]
-allow_missing
-=
-True
 when
 =
 want_wine
