@@ -772,9 +772,6 @@ MOZ_FETCHES_DIR
 target
 .
 dmg
--
--
-verbose
 livesites
 :
 description

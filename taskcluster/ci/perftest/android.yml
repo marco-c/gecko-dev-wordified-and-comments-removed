@@ -1827,9 +1827,6 @@ MOZ_FETCHES_DIR
 artifacts
 -
 -
-verbose
--
--
 perfherder
 -
 -
@@ -2068,9 +2065,6 @@ MOZ_FETCHES_DIR
 .
 /
 artifacts
--
--
-verbose
 -
 -
 perfherder
@@ -2313,9 +2307,6 @@ MOZ_FETCHES_DIR
 artifacts
 -
 -
-verbose
--
--
 perfherder
 -
 -
@@ -2552,9 +2543,6 @@ MOZ_FETCHES_DIR
 .
 /
 artifacts
--
--
-verbose
 -
 -
 perfherder
