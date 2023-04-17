@@ -39,9 +39,6 @@ file_bug1648464
 html
 "
 afterOpen
-"
-_autodetect_all
-"
 afterChangeCharset
 )
 ;

@@ -39,11 +39,6 @@ file_bug1688368
 sjs
 "
 afterOpen
-"
-UTF
--
-8
-"
 afterChangeCharset
 )
 ;

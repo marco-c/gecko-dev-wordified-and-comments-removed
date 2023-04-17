@@ -27,7 +27,7 @@ browser
 /
 "
 ;
-runCharsetTest
+runCharsetCheck
 (
 rootDir
 +

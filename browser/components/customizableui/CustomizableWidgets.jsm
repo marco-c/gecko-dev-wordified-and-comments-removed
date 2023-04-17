@@ -2426,11 +2426,8 @@ aEvent
 .
 view
 .
-BrowserSetForcedCharacterSet
+BrowserForceEncodingDetection
 (
-"
-_autodetect_all
-"
 )
 ;
 }
