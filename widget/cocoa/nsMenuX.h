@@ -329,11 +329,6 @@ MenuClosed
 (
 )
 ;
-void
-MenuClosedAsync
-(
-)
-;
 bool
 Close
 (
@@ -609,6 +604,11 @@ CalculateNativeInsertionPoint
 nsMenuX
 *
 aChild
+)
+;
+void
+MenuClosedAsync
+(
 )
 ;
 void
