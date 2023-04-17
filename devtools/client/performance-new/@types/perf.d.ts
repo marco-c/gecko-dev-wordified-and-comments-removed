@@ -52,13 +52,6 @@ gDestroy
 :
 void
 ;
-gReportReady
-?
-(
-)
-:
-void
-;
 gIsPanelDestroyed
 ?
 :
