@@ -412,9 +412,8 @@ active
 -
 foo
 "
-features
+feature
 :
-[
 {
 enabled
 :
@@ -428,9 +427,11 @@ value
 :
 null
 }
-]
 }
 ]
+active
+:
+true
 }
 )
 )

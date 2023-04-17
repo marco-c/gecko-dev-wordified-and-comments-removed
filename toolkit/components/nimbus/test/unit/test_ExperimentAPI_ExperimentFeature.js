@@ -788,9 +788,8 @@ slug
 "
 treatment
 "
-features
+feature
 :
-[
 {
 featureId
 :
@@ -805,7 +804,6 @@ enabled
 true
 }
 }
-]
 }
 }
 )
@@ -1138,9 +1136,8 @@ slug
 "
 treatment
 "
-features
+feature
 :
-[
 {
 featureId
 :
@@ -1155,7 +1152,6 @@ enabled
 false
 }
 }
-]
 }
 }
 )
@@ -1302,9 +1298,8 @@ slug
 "
 treatment
 "
-features
+feature
 :
-[
 {
 featureId
 :
@@ -1319,7 +1314,6 @@ enabled
 false
 }
 }
-]
 }
 }
 )
@@ -1849,9 +1843,8 @@ slug
 "
 treatment
 "
-features
+feature
 :
-[
 {
 featureId
 :
@@ -1866,7 +1859,6 @@ value
 {
 }
 }
-]
 }
 }
 )
@@ -2009,9 +2001,8 @@ slug
 "
 control
 "
-features
+feature
 :
-[
 {
 featureId
 :
@@ -2022,7 +2013,6 @@ value
 :
 null
 }
-]
 }
 }
 )

@@ -353,9 +353,8 @@ slug
 "
 treatment
 "
-features
+feature
 :
-[
 {
 featureId
 :
@@ -379,7 +378,6 @@ value
 ]
 }
 }
-]
 }
 }
 )
