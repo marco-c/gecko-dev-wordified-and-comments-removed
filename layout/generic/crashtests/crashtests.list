@@ -3134,15 +3134,6 @@ winWidget
 -
 26
 )
-asserts
--
-if
-(
-Android
-4
--
-34
-)
 load
 812893
 .
