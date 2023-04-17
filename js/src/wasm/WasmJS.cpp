@@ -20903,6 +20903,16 @@ scriptedCaller
 options
 )
 ;
+if
+(
+!
+compileArgs
+)
+{
+return
+nullptr
+;
+}
 ModuleEnvironment
 moduleEnv
 (
