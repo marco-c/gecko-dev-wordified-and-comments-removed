@@ -360,7 +360,7 @@ eventTimings
 )
 ;
 await
-target
+commands
 .
 destroy
 (
