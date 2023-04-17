@@ -15,6 +15,9 @@ include
 DOMTypes
 ;
 include
+PPrintingTypes
+;
+include
 "
 mozilla
 /
@@ -388,6 +391,13 @@ UpdateEffects
 (
 EffectsInfo
 aEffects
+)
+;
+async
+UpdateRemotePrintSettings
+(
+PrintData
+aPrintData
 )
 ;
 async
