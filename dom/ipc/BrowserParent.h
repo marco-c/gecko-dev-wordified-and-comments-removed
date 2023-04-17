@@ -3834,11 +3834,6 @@ mLockedNativePointer
 :
 1
 ;
-bool
-mShowingTooltip
-:
-1
-;
 }
 ;
 struct
