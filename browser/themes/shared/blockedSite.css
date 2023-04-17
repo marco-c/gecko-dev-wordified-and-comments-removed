@@ -76,14 +76,6 @@ css
 "
 )
 ;
-media
-not
-(
-prefers
--
-contrast
-)
-{
 :
 root
 {
@@ -244,7 +236,6 @@ rgba
 7
 )
 ;
-}
 }
 .
 title

@@ -1370,6 +1370,7 @@ background
 )
 ;
 }
+}
 .
 close
 {
@@ -1389,7 +1390,6 @@ color
 )
 ;
 }
-}
 media
 (
 -
@@ -1404,13 +1404,6 @@ color
 scheme
 :
 dark
-)
-and
-not
-(
-prefers
--
-contrast
 )
 {
 .
