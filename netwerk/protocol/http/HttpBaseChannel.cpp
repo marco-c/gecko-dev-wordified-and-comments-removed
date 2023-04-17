@@ -19149,15 +19149,6 @@ loadFlags
 INHIBIT_PERSISTENT_CACHING
 ;
 }
-loadFlags
-&
-=
-~
-nsICachingChannel
-:
-:
-LOAD_CHECK_OFFLINE_CACHE
-;
 newChannel
 -
 >

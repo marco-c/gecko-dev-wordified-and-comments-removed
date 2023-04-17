@@ -6686,11 +6686,6 @@ nsICachingChannel
 :
 :
 LOAD_NO_NETWORK_IO
-|
-nsICachingChannel
-:
-:
-LOAD_CHECK_OFFLINE_CACHE
 )
 )
 {
