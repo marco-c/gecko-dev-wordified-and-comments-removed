@@ -1,7 +1,3 @@
-from
-__future__
-import
-print_function
 import
 fontforge
 font
@@ -188,6 +184,7 @@ hhea_ascent
 =
 winHeight
 /
+/
 2
 font
 .
@@ -200,6 +197,7 @@ hhea_descent
 =
 -
 winHeight
+/
 /
 2
 font
@@ -218,6 +216,7 @@ os2_winascent
 =
 winHeight
 /
+/
 2
 font
 .
@@ -229,6 +228,7 @@ font
 os2_windescent
 =
 winHeight
+/
 /
 2
 font

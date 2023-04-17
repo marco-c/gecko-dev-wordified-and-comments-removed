@@ -179,7 +179,7 @@ characters
 key
 +
 =
-unichr
+chr
 (
 c
 )
@@ -517,6 +517,7 @@ mathfont
 .
 em
 /
+/
 2
 font
 .
@@ -615,6 +616,7 @@ em
 mathfont
 .
 em
+/
 /
 3
 0

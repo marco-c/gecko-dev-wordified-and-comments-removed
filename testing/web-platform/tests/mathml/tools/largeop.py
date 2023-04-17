@@ -477,6 +477,7 @@ mathfont
 .
 em
 /
+/
 2
 mathfont
 .
@@ -494,10 +495,12 @@ mathfont
 .
 em
 /
+/
 2
 mathfont
 .
 em
+/
 /
 2
 2
@@ -517,6 +520,7 @@ False
 mathfont
 .
 em
+/
 /
 2
 0

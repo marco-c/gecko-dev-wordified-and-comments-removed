@@ -1,7 +1,3 @@
-from
-__future__
-import
-print_function
 import
 fontforge
 font
@@ -250,6 +246,7 @@ os2_typoascent
 =
 lineHeight
 /
+/
 2
 font
 .
@@ -263,6 +260,7 @@ os2_typodescent
 -
 lineHeight
 /
+/
 2
 font
 .
@@ -274,6 +272,7 @@ font
 hhea_ascent
 =
 lineHeight
+/
 /
 2
 font
@@ -287,6 +286,7 @@ hhea_descent
 =
 -
 lineHeight
+/
 /
 2
 font
@@ -305,6 +305,7 @@ os2_winascent
 =
 lineHeight
 /
+/
 2
 font
 .
@@ -316,6 +317,7 @@ font
 os2_windescent
 =
 lineHeight
+/
 /
 2
 font
