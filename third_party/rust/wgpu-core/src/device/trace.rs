@@ -996,7 +996,7 @@ wgt
 BufferSize
 >
 }
-ClearImage
+ClearTexture
 {
 dst
 :

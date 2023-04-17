@@ -208,6 +208,15 @@ Add
 Self
 :
 :
+Subtract
+=
+>
+"
+Sub
+"
+Self
+:
+:
 And
 =
 >

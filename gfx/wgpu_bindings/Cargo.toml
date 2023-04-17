@@ -98,7 +98,7 @@ wgpu
 rev
 =
 "
-d23288e
+37288a6
 "
 features
 =
@@ -147,7 +147,7 @@ wgpu
 rev
 =
 "
-d23288e
+37288a6
 "
 [
 dependencies
@@ -181,7 +181,7 @@ wgpu
 rev
 =
 "
-d23288e
+37288a6
 "
 [
 dependencies

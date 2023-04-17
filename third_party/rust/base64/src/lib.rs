@@ -481,6 +481,7 @@ impl
 Config
 {
 pub
+const
 fn
 new
 (
@@ -505,6 +506,7 @@ false
 }
 }
 pub
+const
 fn
 pad
 (
@@ -526,6 +528,7 @@ self
 }
 }
 pub
+const
 fn
 decode_allow_trailing_bits
 (
@@ -724,4 +727,14 @@ decode_allow_trailing_bits
 :
 false
 }
+;
+const
+PAD_BYTE
+:
+u8
+=
+b
+'
+=
+'
 ;

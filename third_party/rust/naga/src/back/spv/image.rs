@@ -2848,7 +2848,9 @@ self
 .
 writer
 .
-image_bounds_check_policy
+bounds_check_policies
+.
+image
 {
 crate
 :
@@ -2933,7 +2935,7 @@ back
 BoundsCheckPolicy
 :
 :
-UndefinedBehavior
+Unchecked
 =
 >
 access
@@ -4812,7 +4814,9 @@ self
 .
 writer
 .
-image_bounds_check_policy
+bounds_check_policies
+.
+image
 {
 crate
 :
@@ -4901,7 +4905,7 @@ back
 BoundsCheckPolicy
 :
 :
-UndefinedBehavior
+Unchecked
 =
 >
 {

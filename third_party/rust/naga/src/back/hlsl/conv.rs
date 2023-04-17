@@ -852,6 +852,11 @@ Self
 :
 :
 Add
+|
+Self
+:
+:
+Subtract
 =
 >
 "

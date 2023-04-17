@@ -2030,6 +2030,7 @@ enum
 AtomicFunction
 {
 Add
+Subtract
 And
 ExclusiveOr
 InclusiveOr

@@ -2,7 +2,10 @@ use
 crate
 :
 :
+{
 Config
+PAD_BYTE
+}
 ;
 #
 [
@@ -1992,10 +1995,7 @@ output
 bytes_written
 ]
 =
-b
-'
-=
-'
+PAD_BYTE
 ;
 bytes_written
 +

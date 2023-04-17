@@ -2868,7 +2868,10 @@ errors
 ;
 span
 =
-offset
+crate
+:
+:
+front
 :
 :
 align_up
@@ -2946,7 +2949,10 @@ break
 }
 span
 =
-offset
+crate
+:
+:
+front
 :
 :
 align_up
