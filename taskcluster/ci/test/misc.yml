@@ -213,6 +213,11 @@ suite
 geckoview
 -
 junit
+python
+-
+3
+:
+true
 telemetry
 -
 tests
