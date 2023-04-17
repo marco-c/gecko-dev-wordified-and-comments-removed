@@ -110,6 +110,11 @@ reasonable
 [
 package
 ]
+edition
+=
+"
+2018
+"
 name
 =
 "
@@ -120,7 +125,7 @@ version
 "
 1
 .
-12
+13
 .
 0
 "
@@ -174,6 +179,8 @@ level
 numbers
 evaluated
 at
+\
+n
 compile
 time
 .
@@ -185,6 +192,8 @@ unsigned
 integers
 and
 signed
+\
+n
 integers
 .
 It
@@ -202,6 +211,8 @@ level
 numbers
 but
 its
+\
+n
 implementation
 is
 incomplete
@@ -240,7 +251,7 @@ license
 =
 "
 MIT
-/
+OR
 Apache
 -
 2

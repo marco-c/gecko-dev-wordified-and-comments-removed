@@ -5,6 +5,11 @@ NonZero
 }
 pub
 trait
+Zero
+{
+}
+pub
+trait
 Ord
 {
 #
@@ -62,6 +67,14 @@ const
 BOOL
 :
 bool
+;
+fn
+new
+(
+)
+-
+>
+Self
 ;
 #
 [
