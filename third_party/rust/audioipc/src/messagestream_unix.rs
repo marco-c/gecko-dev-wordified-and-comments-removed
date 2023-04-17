@@ -187,7 +187,7 @@ missing_safety_doc
 pub
 unsafe
 fn
-from_raw_fd
+from_raw_handle
 (
 raw
 :
