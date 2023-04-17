@@ -20,9 +20,9 @@ include
 "
 mozilla
 /
-a11y
+mscom
 /
-Compatibility
+ActCtxResource
 .
 h
 "
@@ -153,10 +153,13 @@ mscom
 ActivationContext
 sActCtx
 (
-Compatibility
+mscom
 :
 :
-GetActCtxResourceId
+ActCtxResource
+:
+:
+GetAccessibilityResource
 (
 )
 )
