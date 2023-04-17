@@ -1367,16 +1367,6 @@ copy
 (
 )
         
-env
-.
-pop
-(
-"
-PYTHONEXECUTABLE
-"
-None
-)
-        
 kwargs
 [
 "
