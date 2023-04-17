@@ -12,15 +12,6 @@ service
 -
 worker
 -
-process
-.
-js
-"
-"
-service
--
-worker
--
 registration
 -
 list
