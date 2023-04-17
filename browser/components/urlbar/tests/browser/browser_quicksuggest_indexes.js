@@ -961,6 +961,15 @@ UrlbarUtils
 RESULT_TYPE
 .
 URL
+}
+{
+type
+:
+UrlbarUtils
+.
+RESULT_TYPE
+.
+URL
 providerName
 :
 UrlbarProviderQuickSuggest
