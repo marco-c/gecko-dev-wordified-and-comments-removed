@@ -87,6 +87,14 @@ JSClass
 *
 valueBoxClass
 ;
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
+GCPtrObject
+pendingException
+;
+#
+endif
 Atomic
 <
 uintptr_t

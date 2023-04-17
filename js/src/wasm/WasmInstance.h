@@ -1360,14 +1360,11 @@ exn
 ;
 static
 uint32_t
-getLocalExceptionIndex
+consumePendingException
 (
 Instance
 *
 instance
-JSObject
-*
-exn
 )
 ;
 static

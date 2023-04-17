@@ -3923,6 +3923,13 @@ uint32_t
 lineOrBytecode
 )
 ;
+void
+loadPendingException
+(
+Register
+dest
+)
+;
 #
 endif
 void
