@@ -4225,6 +4225,9 @@ n
 if
 (
 mWordBreaker
+|
+|
+inWhitespace
 )
 {
 int32_t
@@ -4259,6 +4262,7 @@ if
 (
 t2b
 )
+{
 nextChar
 =
 DecodeChar
@@ -4268,7 +4272,9 @@ t2b
 nextfindex
 )
 ;
+}
 else
+{
 nextChar
 =
 CHAR_TO_UNICHAR
@@ -4279,6 +4285,7 @@ nextfindex
 ]
 )
 ;
+}
 }
 else
 {
@@ -4312,6 +4319,9 @@ CHAR_TO_UNICHAR
 }
 if
 (
+mWordBreaker
+&
+&
 !
 BreakInBetween
 (
@@ -4324,6 +4334,20 @@ matchAnchorNode
 =
 nullptr
 ;
+continue
+;
+}
+if
+(
+inWhitespace
+&
+&
+IsSpace
+(
+nextChar
+)
+)
+{
 continue
 ;
 }
