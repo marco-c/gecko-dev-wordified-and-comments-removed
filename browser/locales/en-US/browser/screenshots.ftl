@@ -67,14 +67,6 @@ tooltiptext
 Take
 a
 screenshot
-screenshot
--
-shortcut
-=
-.
-key
-=
-S
 screenshots
 -
 instructions
