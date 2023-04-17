@@ -4,6 +4,7 @@ derive
 (
 Copy
 Clone
+Debug
 Default
 )
 ]
@@ -912,9 +913,7 @@ Option
 Matrix
 >
 {
-return
 None
-;
 }
 pub
 fn

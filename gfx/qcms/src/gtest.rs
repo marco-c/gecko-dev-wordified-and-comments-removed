@@ -13,6 +13,16 @@ c_bindings
 )
 )
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+all
+)
+]
 mod
 gtest
 {

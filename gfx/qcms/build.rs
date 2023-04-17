@@ -13,8 +13,8 @@ feature
 neon
 "
 )
-{
-if
+&
+&
 std
 :
 :
@@ -48,7 +48,6 @@ RUSTC_BOOTSTRAP
 "
 )
 ;
-}
 }
 let
 target
