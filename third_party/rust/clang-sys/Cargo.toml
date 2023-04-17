@@ -122,9 +122,9 @@ version
 "
 1
 .
-0
+2
 .
-3
+0
 "
 authors
 =
@@ -222,7 +222,7 @@ features
 =
 [
 "
-clang_10_0
+clang_11_0
 "
 "
 runtime
@@ -269,7 +269,7 @@ version
 "
 0
 .
-6
+7
 "
 optional
 =
@@ -296,6 +296,13 @@ clang_10_0
 [
 "
 clang_9_0
+"
+]
+clang_11_0
+=
+[
+"
+clang_10_0
 "
 ]
 clang_3_5

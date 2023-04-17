@@ -1448,6 +1448,8 @@ join
 filename
 )
 ;
+unsafe
+{
 let
 library
 =
@@ -1529,6 +1531,7 @@ Ok
 (
 library
 )
+}
 }
 /
 /
