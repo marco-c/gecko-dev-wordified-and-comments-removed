@@ -139,11 +139,6 @@ NullPrincipal
 h
 "
 "
-NullPrincipalURI
-.
-h
-"
-"
 OriginAttributes
 .
 h
@@ -200,11 +195,6 @@ cpp
 "
 "
 NullPrincipal
-.
-cpp
-"
-"
-NullPrincipalURI
 .
 cpp
 "
