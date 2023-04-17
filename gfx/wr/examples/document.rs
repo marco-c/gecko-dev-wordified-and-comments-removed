@@ -290,7 +290,7 @@ bounds
 DeviceIntRect
 :
 :
-new
+from_origin_and_size
 (
 offset
 size
@@ -360,6 +360,8 @@ origin
 bounds
 .
 size
+(
+)
 .
 to_f32
 (

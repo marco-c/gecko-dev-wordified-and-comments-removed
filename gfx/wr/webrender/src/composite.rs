@@ -2793,7 +2793,7 @@ external_surface
 .
 surface_rect
 .
-origin
+min
 .
 to_vector
 (
@@ -2812,7 +2812,7 @@ external_surface
 .
 surface_rect
 .
-origin
+min
 .
 to_vector
 (
