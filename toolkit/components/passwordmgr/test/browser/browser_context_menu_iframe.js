@@ -327,14 +327,11 @@ firstLoginItem
 "
 )
 ;
-await
-EventUtils
+popupMenu
 .
-synthesizeMouseAtCenter
+activateItem
 (
 firstLoginItem
-{
-}
 )
 ;
 let
