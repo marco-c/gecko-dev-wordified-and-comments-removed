@@ -5834,6 +5834,11 @@ StopPlayout
 )
 ;
 }
+if
+(
+mCallWrapper
+)
+{
 mCallWrapper
 -
 >
@@ -5877,6 +5882,11 @@ Shutdown
 )
 )
 ;
+mCallWrapper
+=
+nullptr
+;
+}
 }
 bool
 TransceiverImpl
