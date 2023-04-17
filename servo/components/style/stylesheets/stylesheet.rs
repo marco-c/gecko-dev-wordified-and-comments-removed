@@ -1914,6 +1914,15 @@ CounterStyle
 .
 .
 )
+|
+CssRule
+:
+:
+ScrollTimeline
+(
+.
+.
+)
 =
 >
 !
