@@ -37190,6 +37190,16 @@ aLParam
 if
 (
 !
+mAPZC
+)
+{
+return
+false
+;
+}
+if
+(
+!
 mPointerEvents
 .
 ShouldHandleWinPointerMessages
