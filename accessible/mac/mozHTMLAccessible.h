@@ -54,13 +54,6 @@ NSNumber
 )
 moxVisited
 ;
--
-(
-NSArray
-*
-)
-moxLinkedUIElements
-;
 end
 interface
 MOXSummaryAccessible
