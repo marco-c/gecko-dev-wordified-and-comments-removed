@@ -223,12 +223,12 @@ maintainer
 -
 phab
 :
-tjr
+jbauman
 maintainer
 -
 bz
 :
-tom
+jbauman
 mozilla
 .
 com
@@ -240,7 +240,10 @@ type
 vendoring
 enabled
 :
-False
+true
+frequency
+:
+release
 vendoring
 :
 url
