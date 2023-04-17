@@ -81,6 +81,11 @@ WasmBaselineCompile
 cpp
 "
 "
+WasmBinary
+.
+cpp
+"
+"
 WasmBuiltins
 .
 cpp

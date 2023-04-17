@@ -1,9 +1,9 @@
 #
 ifndef
-wasm_binary_h
+wasm_constants_h
 #
 define
-wasm_binary_h
+wasm_constants_h
 namespace
 js
 {
