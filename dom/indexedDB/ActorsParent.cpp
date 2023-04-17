@@ -55453,7 +55453,7 @@ subdirNameBase
 )
 )
 {
-IDB_TRY
+QM_WARNONLY_TRY
 (
 OkIf
 (
@@ -55464,9 +55464,6 @@ Contains
 subdirNameBase
 )
 )
-Ok
-{
-}
 )
 ;
 return
