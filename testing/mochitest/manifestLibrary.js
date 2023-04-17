@@ -155,6 +155,11 @@ expected
 obj
 .
 expected
+https_first_disabled
+:
+obj
+.
+https_first_disabled
 }
 }
 ;
@@ -212,6 +217,11 @@ expected
 obj
 .
 expected
+https_first_disabled
+:
+obj
+.
+https_first_disabled
 }
 }
 )
