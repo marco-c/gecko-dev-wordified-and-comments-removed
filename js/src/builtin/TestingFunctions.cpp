@@ -53229,6 +53229,9 @@ CompileToStencil
 compileToStencil
 (
 string
+[
+options
+]
 )
 "
 "
@@ -53259,9 +53262,12 @@ EvalStencil
 1
 0
 "
-compileStencil
+evalStencil
 (
 stencil
+[
+options
+]
 )
 "
 "
@@ -53295,6 +53301,9 @@ CompileToStencilXDR
 compileToStencilXDR
 (
 string
+[
+options
+]
 )
 "
 "
@@ -53344,6 +53353,9 @@ EvalStencilXDR
 evalStencilXDR
 (
 stencilXDR
+[
+options
+]
 )
 "
 "
