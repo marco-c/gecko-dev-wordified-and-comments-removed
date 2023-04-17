@@ -6693,6 +6693,7 @@ loadType
 HIST_CMD_RELOAD
 aLoadResults
 false
+true
 aReloadFlags
 &
 nsIWebNavigation
@@ -6788,6 +6789,9 @@ mIndex
 LOAD_HISTORY
 HIST_CMD_RELOAD
 aLoadResults
+false
+true
+false
 )
 ;
 }
@@ -9171,6 +9175,10 @@ GotoIndex
 aIndex
 loadResults
 false
+aIndex
+=
+=
+mIndex
 aUserActivation
 )
 ;
@@ -9260,6 +9268,8 @@ aLoadResults
 bool
 aSameEpoch
 bool
+aLoadCurrentEntry
+bool
 aUserActivation
 )
 {
@@ -9271,6 +9281,7 @@ LOAD_HISTORY
 HIST_CMD_GOTOINDEX
 aLoadResults
 aSameEpoch
+aLoadCurrentEntry
 aUserActivation
 )
 ;
@@ -9341,6 +9352,8 @@ LoadEntryResult
 &
 aLoadResults
 bool
+aLoadCurrentEntry
+bool
 aUserActivation
 )
 {
@@ -9366,6 +9379,7 @@ aLoadType
 aHistCmd
 aLoadResults
 false
+aLoadCurrentEntry
 aUserActivation
 )
 ;
@@ -9387,6 +9401,7 @@ aLoadType
 aHistCmd
 aLoadResults
 false
+aLoadCurrentEntry
 aUserActivation
 )
 ;
@@ -9415,6 +9430,8 @@ LoadEntryResult
 aLoadResults
 bool
 aSameEpoch
+bool
+aLoadCurrentEntry
 bool
 aUserActivation
 )
@@ -9686,6 +9703,7 @@ nextEntry
 mRootBC
 aLoadType
 aLoadResults
+aLoadCurrentEntry
 aUserActivation
 )
 ;
@@ -9703,6 +9721,7 @@ nextEntry
 mRootBC
 aLoadType
 aLoadResults
+aLoadCurrentEntry
 aUserActivation
 )
 ;
@@ -9719,6 +9738,7 @@ aIndex
 aLoadType
 aHistCmd
 aLoadResults
+aLoadCurrentEntry
 aUserActivation
 )
 ;
@@ -9750,6 +9770,8 @@ LoadEntryResult
 >
 &
 aLoadResults
+bool
+aLoadCurrentEntry
 bool
 aUserActivation
 )
@@ -9810,6 +9832,7 @@ aNextEntry
 aParent
 aLoadType
 aLoadResults
+aLoadCurrentEntry
 aUserActivation
 )
 ;
@@ -10053,6 +10076,7 @@ nChild
 bcChild
 aLoadType
 aLoadResults
+aLoadCurrentEntry
 aUserActivation
 )
 )
@@ -10087,6 +10111,8 @@ LoadEntryResult
 >
 &
 aLoadResults
+bool
+aLoadCurrentEntry
 bool
 aUserActivation
 )
@@ -10174,7 +10200,7 @@ aFrameEntry
 )
 ;
 bool
-loadingFromActiveEntry
+loadingCurrentEntry
 ;
 if
 (
@@ -10186,27 +10212,14 @@ SessionHistoryInParent
 )
 )
 {
-loadingFromActiveEntry
+loadingCurrentEntry
 =
-aFrameBC
--
->
-Canonical
-(
-)
--
->
-GetActiveSessionHistoryEntry
-(
-)
-=
-=
-aFrameEntry
+aLoadCurrentEntry
 ;
 }
 else
 {
-loadingFromActiveEntry
+loadingCurrentEntry
 =
 aFrameBC
 -
@@ -10245,7 +10258,7 @@ mRequestedIndex
 Length
 (
 )
-loadingFromActiveEntry
+loadingCurrentEntry
 )
 ;
 if

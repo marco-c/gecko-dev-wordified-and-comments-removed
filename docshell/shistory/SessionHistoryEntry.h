@@ -968,7 +968,7 @@ mSessionHistoryLength
 0
 ;
 bool
-mLoadingCurrentActiveEntry
+mLoadingCurrentEntry
 =
 false
 ;

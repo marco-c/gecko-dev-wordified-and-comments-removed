@@ -38184,7 +38184,7 @@ GetLoadingSessionHistoryInfo
 )
 -
 >
-mLoadingCurrentActiveEntry
+mLoadingCurrentEntry
 )
 {
 return
@@ -51141,7 +51141,7 @@ loadState
 aLoadType
 aEntry
 .
-mLoadingCurrentActiveEntry
+mLoadingCurrentEntry
 )
 ;
 }
@@ -51157,7 +51157,7 @@ aLoadState
 uint32_t
 aLoadType
 bool
-aReloadingActiveEntry
+aLoadingCurrentEntry
 )
 {
 if
@@ -51219,7 +51219,7 @@ Nothing
 (
 )
 !
-aReloadingActiveEntry
+aLoadingCurrentEntry
 )
 ;
 if
