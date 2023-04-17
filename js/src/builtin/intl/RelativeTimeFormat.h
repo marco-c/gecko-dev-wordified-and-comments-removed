@@ -11,7 +11,7 @@ mozilla
 /
 intl
 /
-NumberFormatFields
+NumberPart
 .
 h
 "
