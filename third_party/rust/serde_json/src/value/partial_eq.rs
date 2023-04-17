@@ -4,6 +4,15 @@ super
 :
 Value
 ;
+use
+crate
+:
+:
+lib
+:
+:
+*
+;
 fn
 eq_i64
 (
