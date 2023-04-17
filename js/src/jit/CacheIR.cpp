@@ -4322,6 +4322,12 @@ guardHasGetterSetter
 (
 objId
 shape
+-
+>
+propid
+(
+)
+shape
 )
 ;
 }
@@ -19759,6 +19765,7 @@ writer
 guardHasGetterSetter
 (
 objId
+id
 propShape
 )
 ;

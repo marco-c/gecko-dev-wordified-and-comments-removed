@@ -1920,6 +1920,9 @@ args
 obj
 :
 ObjId
+id
+:
+IdField
 shape
 :
 ShapeField
