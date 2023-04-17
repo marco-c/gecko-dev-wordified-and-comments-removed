@@ -12771,7 +12771,7 @@ marker
 .
 data
 .
-details
+name
 }
 "
 )
@@ -12792,7 +12792,7 @@ marker
 .
 data
 .
-details
+name
 }
 "
 )
@@ -12802,7 +12802,7 @@ schema
 AddKeyLabelFormat
 (
 "
-details
+name
 "
 "
 Details
