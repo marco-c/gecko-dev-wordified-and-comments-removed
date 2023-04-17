@@ -396,12 +396,6 @@ aOldDoc
 )
 ;
 }
-void
-RecompileScriptEventListeners
-(
-)
-final
-;
 bool
 IsEventAttributeNameInternal
 (

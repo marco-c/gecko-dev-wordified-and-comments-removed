@@ -1681,13 +1681,6 @@ const
 override
 ;
 virtual
-void
-RecompileScriptEventListeners
-(
-)
-override
-;
-virtual
 bool
 IsEventAttributeNameInternal
 (

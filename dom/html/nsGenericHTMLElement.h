@@ -2226,13 +2226,6 @@ aCurrentForm
 nullptr
 )
 ;
-virtual
-void
-RecompileScriptEventListeners
-(
-)
-override
-;
 static
 bool
 InNavQuirksMode

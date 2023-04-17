@@ -4906,13 +4906,11 @@ get
 nullptr
 ;
 }
-virtual
 void
 RecompileScriptEventListeners
 (
 )
-{
-}
+;
 BorrowedAttrInfo
 GetAttrInfo
 (
@@ -5763,7 +5761,7 @@ ReparseAttributes
 Yes
 )
 ;
-static
+virtual
 nsAtom
 *
 GetEventNameForAttr
