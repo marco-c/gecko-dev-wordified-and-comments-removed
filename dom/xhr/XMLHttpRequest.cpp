@@ -198,6 +198,12 @@ CookieJarSettings
 :
 Create
 (
+principal
+-
+>
+GetPrincipal
+(
+)
 )
 ;
 }
