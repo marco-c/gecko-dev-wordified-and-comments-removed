@@ -650,6 +650,7 @@ button
 =
 Make
 default
+browser
 upgrade
 -
 dialog
