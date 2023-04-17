@@ -18028,10 +18028,6 @@ println
 let
 supported
 =
-[
-.
-.
-.
 Intl
 .
 supportedValuesOf
@@ -18040,7 +18036,6 @@ supportedValuesOf
 timeZone
 "
 )
-]
 ;
 assertEqArray
 (

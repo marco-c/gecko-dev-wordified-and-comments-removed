@@ -220,7 +220,7 @@ Virgin
 "
 America
 /
-Port_of_Spain
+St_Thomas
 "
 "
 Antarctica
