@@ -380,6 +380,9 @@ Option
 <
 ClipChainId
 >
+slice_flags
+:
+SliceFlags
 )
 {
 assert
@@ -838,13 +841,6 @@ TileCacheParams
 {
 slice
 slice_flags
-:
-SliceFlags
-:
-:
-empty
-(
-)
 spatial_node_index
 :
 scroll_root
