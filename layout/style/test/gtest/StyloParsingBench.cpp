@@ -319,10 +319,13 @@ Consume
 }
 static
 constexpr
-uint16_t
+auto
 STYLE_RULE
 =
-1
+StyleCssRuleType
+:
+:
+Style
 ;
 static
 void

@@ -36,8 +36,8 @@ dom
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 css
 {
 GroupRule
@@ -561,6 +561,5 @@ const
 return
 0
 ;
-}
 }
 }

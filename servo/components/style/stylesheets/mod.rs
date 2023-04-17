@@ -1774,6 +1774,13 @@ FromPrimitive
 PartialEq
 )
 ]
+#
+[
+repr
+(
+u8
+)
+]
 pub
 enum
 CssRuleType
@@ -1781,9 +1788,6 @@ CssRuleType
 Style
 =
 1
-Charset
-=
-2
 Import
 =
 3
@@ -1802,9 +1806,6 @@ Keyframes
 Keyframe
 =
 8
-Margin
-=
-9
 Namespace
 =
 10

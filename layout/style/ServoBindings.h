@@ -246,6 +246,10 @@ GROUP_RULE_FUNCS
 (
 Supports
 )
+GROUP_RULE_FUNCS
+(
+Layer
+)
 BASIC_RULE_FUNCS
 (
 FontFeatureValues

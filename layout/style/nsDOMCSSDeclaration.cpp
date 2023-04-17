@@ -1029,7 +1029,7 @@ css
 Rule
 *
 aRule
-uint16_t
+StyleCssRuleType
 aRuleType
 )
 {

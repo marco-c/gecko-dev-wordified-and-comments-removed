@@ -322,6 +322,13 @@ NAMESPACE_RULE
 =
 10
 ;
+[
+BinaryName
+=
+"
+typeForBindings
+"
+]
 readonly
 attribute
 unsigned

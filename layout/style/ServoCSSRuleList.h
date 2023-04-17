@@ -193,14 +193,6 @@ uint32_t
 aIndex
 )
 ;
-uint16_t
-GetDOMCSSRuleType
-(
-uint32_t
-aIndex
-)
-const
-;
 void
 SetRawAfterClone
 (

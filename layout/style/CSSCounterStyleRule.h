@@ -29,8 +29,8 @@ RawServoCounterStyleRule
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -174,7 +174,7 @@ final
 ;
 #
 endif
-uint16_t
+StyleCssRuleType
 Type
 (
 )
@@ -287,7 +287,6 @@ mRawRule
 ;
 }
 ;
-}
 }
 #
 endif

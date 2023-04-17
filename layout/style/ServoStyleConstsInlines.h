@@ -162,6 +162,13 @@ template
 struct
 StyleStrong
 <
+RawServoLayerRule
+>
+;
+template
+struct
+StyleStrong
+<
 RawServoMediaList
 >
 ;

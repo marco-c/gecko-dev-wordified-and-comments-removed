@@ -830,7 +830,7 @@ get
 }
 #
 endif
-uint16_t
+StyleCssRuleType
 CSSFontFaceRule
 :
 :
@@ -840,10 +840,10 @@ Type
 const
 {
 return
-CSSRule_Binding
+StyleCssRuleType
 :
 :
-FONT_FACE_RULE
+FontFace
 ;
 }
 void

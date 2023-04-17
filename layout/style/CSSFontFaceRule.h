@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -299,7 +299,7 @@ RawServoFontFaceRule
 >
 )
 ;
-uint16_t
+StyleCssRuleType
 Type
 (
 )
@@ -464,7 +464,6 @@ mDecl
 )
 )
 ;
-}
 }
 }
 #
