@@ -95,6 +95,7 @@ UpgradeDowngradeEndlessLoopOptions
 {
 EnforceForHTTPSOnlyMode
 EnforceForHTTPSFirstMode
+EnforceForHTTPSRR
 }
 ;
 static
