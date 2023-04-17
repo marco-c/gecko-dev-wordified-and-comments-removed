@@ -87,6 +87,15 @@ tearDown
 (
 )
     
+def
+test_switch_to_unloaded_tab
+(
+self
+)
+:
+        
+pass
+    
 skipIf
 (
         
