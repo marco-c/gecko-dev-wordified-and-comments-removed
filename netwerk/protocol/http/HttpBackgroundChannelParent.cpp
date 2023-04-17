@@ -62,6 +62,17 @@ h
 #
 include
 "
+mozilla
+/
+net
+/
+ChannelEventQueue
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h
