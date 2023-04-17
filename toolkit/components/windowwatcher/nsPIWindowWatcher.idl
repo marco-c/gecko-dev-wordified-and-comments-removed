@@ -141,7 +141,7 @@ nsDocShellLoadStatePtr
 aLoadState
 )
 ;
-void
+nsIRemoteTab
 openWindowWithRemoteTab
 (
 in
