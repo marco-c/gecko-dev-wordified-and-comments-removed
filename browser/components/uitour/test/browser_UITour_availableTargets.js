@@ -67,6 +67,9 @@ backForward
 help
 "
 "
+history
+"
+"
 logins
 "
 "
