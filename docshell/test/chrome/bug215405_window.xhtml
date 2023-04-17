@@ -357,12 +357,12 @@ var
 gTestsIterator
 ;
 var
-scrollX
+currScrollX
 =
 0
 ;
 var
-scrollY
+currScrollY
 =
 0
 ;
@@ -399,7 +399,7 @@ appinfo
 sessionHistoryInParent
 )
 {
-var
+let
 history
 =
 gBrowser
@@ -420,7 +420,7 @@ count
 }
 else
 {
-var
+let
 history
 =
 gBrowser
@@ -662,7 +662,7 @@ position
 for
 future
 comparison
-scrollX
+currScrollX
 =
 gBrowser
 .
@@ -670,7 +670,7 @@ contentWindow
 .
 scrollX
 ;
-scrollY
+currScrollY
 =
 gBrowser
 .
@@ -680,7 +680,7 @@ scrollY
 ;
 isnot
 (
-scrollX
+currScrollX
 originalXPosition
 testName
 +
@@ -695,7 +695,7 @@ horizontally
 ;
 isnot
 (
-scrollY
+currScrollY
 originalYPosition
 testName
 +
@@ -824,7 +824,7 @@ gBrowser
 contentWindow
 .
 scrollX
-scrollX
+currScrollX
 testName
 +
 "
@@ -845,7 +845,7 @@ gBrowser
 contentWindow
 .
 scrollY
-scrollY
+currScrollY
 testName
 +
 "
@@ -1030,7 +1030,7 @@ position
 for
 future
 comparison
-scrollX
+currScrollX
 =
 gBrowser
 .
@@ -1038,7 +1038,7 @@ contentWindow
 .
 scrollX
 ;
-scrollY
+currScrollY
 =
 gBrowser
 .
@@ -1048,7 +1048,7 @@ scrollY
 ;
 isnot
 (
-scrollX
+currScrollX
 originalXPosition
 testName
 +
@@ -1063,7 +1063,7 @@ horizontally
 ;
 isnot
 (
-scrollY
+currScrollY
 originalYPosition
 testName
 +
@@ -1134,7 +1134,7 @@ gBrowser
 contentWindow
 .
 scrollX
-scrollX
+currScrollX
 testName
 +
 "
@@ -1155,7 +1155,7 @@ gBrowser
 contentWindow
 .
 scrollY
-scrollY
+currScrollY
 testName
 +
 "
@@ -1169,7 +1169,6 @@ restored
 "
 )
 ;
-var
 formValue
 =
 gBrowser
