@@ -4788,7 +4788,7 @@ t2
 elif
 defined
 (
-JS_CODEGEN_NONE
+__wasi__
 )
 using
 Temps
