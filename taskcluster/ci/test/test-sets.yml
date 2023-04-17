@@ -1332,12 +1332,6 @@ a11y
 -
 mochitest
 -
-browser
--
-chrome
--
-mochitest
--
 chrome
 -
 mochitest
@@ -1441,6 +1435,12 @@ windows10
 -
 tests
 :
+-
+mochitest
+-
+browser
+-
+chrome
 -
 mochitest
 -
