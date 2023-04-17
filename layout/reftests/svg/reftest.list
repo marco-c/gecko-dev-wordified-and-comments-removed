@@ -7216,7 +7216,7 @@ webrender
 &
 &
 !
-debug
+isDebugBuild
 0
 -
 1
