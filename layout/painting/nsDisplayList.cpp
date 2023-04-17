@@ -16564,6 +16564,7 @@ aFrame
 aSecondaryReferenceFrame
 bgItem
 i
+asr
 )
 )
 ;
@@ -28032,6 +28033,10 @@ aImage
 const
 uint16_t
 aIndex
+const
+ActiveScrolledRoot
+*
+aScrollTargetASR
 )
 {
 nsDisplayList
@@ -28081,6 +28086,7 @@ index
 &
 temp
 aFrame
+aScrollTargetASR
 )
 ;
 }
@@ -28097,6 +28103,7 @@ aIndex
 1
 &
 temp
+aScrollTargetASR
 )
 ;
 }
@@ -28121,7 +28128,7 @@ aActiveScrolledRoot
 const
 ActiveScrolledRoot
 *
-aContainerASR
+aScrollTargetASR
 )
 :
 nsDisplayOwnLayer
@@ -28131,9 +28138,9 @@ aFrame
 aList
 aActiveScrolledRoot
 )
-mContainerASR
+mScrollTargetASR
 (
-aContainerASR
+aScrollTargetASR
 )
 mIsFixedBackground
 (
@@ -28160,6 +28167,10 @@ aFrame
 nsDisplayList
 *
 aList
+const
+ActiveScrolledRoot
+*
+aScrollTargetASR
 )
 :
 nsDisplayOwnLayer
@@ -28174,9 +28185,9 @@ CurrentActiveScrolledRoot
 (
 )
 )
-mContainerASR
+mScrollTargetASR
 (
-nullptr
+aScrollTargetASR
 )
 mIsFixedBackground
 (
@@ -28202,9 +28213,13 @@ GetScrollTargetId
 {
 if
 (
-mContainerASR
+mScrollTargetASR
 &
 &
+(
+mIsFixedBackground
+|
+|
 !
 nsLayoutUtils
 :
@@ -28214,9 +28229,10 @@ IsReallyFixedPos
 mFrame
 )
 )
+)
 {
 return
-mContainerASR
+mScrollTargetASR
 -
 >
 GetViewId
@@ -28429,7 +28445,7 @@ ActiveScrolledRoot
 :
 ToString
 (
-mContainerASR
+mScrollTargetASR
 )
 .
 get
@@ -28588,6 +28604,10 @@ aList
 nsIFrame
 *
 aAncestorFrame
+const
+ActiveScrolledRoot
+*
+aScrollTargetASR
 )
 :
 nsDisplayFixedPosition
@@ -28595,6 +28615,7 @@ nsDisplayFixedPosition
 aBuilder
 aFrame
 aList
+aScrollTargetASR
 )
 mAncestorFrame
 (
