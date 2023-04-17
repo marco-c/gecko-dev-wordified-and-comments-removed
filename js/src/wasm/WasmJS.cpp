@@ -18091,6 +18091,8 @@ WasmRuntimeExceptionObject
 RESERVED_SLOTS
 )
 |
+JSCLASS_HAS_PRIVATE
+|
 JSCLASS_FOREGROUND_FINALIZE
 &
 WasmRuntimeExceptionObject

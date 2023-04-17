@@ -20501,6 +20501,8 @@ class_
 "
 Debugger
 "
+JSCLASS_HAS_PRIVATE
+|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 Debugger
@@ -24040,10 +24042,9 @@ release
 (
 )
 ;
-InitReservedSlot
+InitObjectPrivate
 (
 obj
-JSSLOT_DEBUG_DEBUGGER
 debugger
 MemoryUse
 :
