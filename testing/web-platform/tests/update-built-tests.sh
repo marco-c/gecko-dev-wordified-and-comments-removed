@@ -96,16 +96,6 @@ reftests
 .
 py
 python3
-webidl
-/
-tools
-/
-generate
--
-setlike
-.
-py
-python3
 html
 /
 syntax
