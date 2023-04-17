@@ -3206,10 +3206,10 @@ GetChildToParentConversionMatrix
 )
 const
 ;
-mozilla
-:
-:
+Maybe
+<
 ScreenRect
+>
 GetTopLevelViewportVisibleRectInBrowserCoords
 (
 )
