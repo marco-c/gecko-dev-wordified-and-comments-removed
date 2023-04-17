@@ -830,8 +830,7 @@ tabs
 )
 {
 return
-[
-]
+tabs
 ;
 }
 let

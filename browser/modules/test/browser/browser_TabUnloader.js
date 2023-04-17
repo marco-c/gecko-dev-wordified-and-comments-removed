@@ -1094,6 +1094,7 @@ await
 compareTabOrder
 (
 [
+tab0
 ]
 )
 ;

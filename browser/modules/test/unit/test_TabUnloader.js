@@ -422,6 +422,9 @@ process
 result
 :
 "
+0
+1
+2
 "
 }
 {
