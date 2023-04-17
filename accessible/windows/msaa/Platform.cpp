@@ -622,7 +622,7 @@ uint32_t
 aEventType
 )
 {
-AccessibleWrap
+MsaaAccessible
 :
 :
 FireWinEvent
@@ -648,7 +648,7 @@ uint64_t
 bool
 )
 {
-AccessibleWrap
+MsaaAccessible
 :
 :
 FireWinEvent
@@ -712,7 +712,7 @@ aTarget
 aCaretRect
 )
 ;
-AccessibleWrap
+MsaaAccessible
 :
 :
 FireWinEvent
@@ -752,7 +752,7 @@ aTarget
 aCaretRect
 )
 ;
-AccessibleWrap
+MsaaAccessible
 :
 :
 FireWinEvent
@@ -907,7 +907,7 @@ nsIAccessibleEvent
 :
 EVENT_TEXT_REMOVED
 ;
-AccessibleWrap
+MsaaAccessible
 :
 :
 FireWinEvent
@@ -957,7 +957,7 @@ WrapperFor
 aTarget
 )
 ;
-AccessibleWrap
+MsaaAccessible
 :
 :
 FireWinEvent
@@ -991,7 +991,7 @@ WrapperFor
 aTarget
 )
 ;
-AccessibleWrap
+MsaaAccessible
 :
 :
 FireWinEvent
