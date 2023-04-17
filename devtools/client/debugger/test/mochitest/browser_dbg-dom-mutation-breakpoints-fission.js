@@ -35,7 +35,7 @@ this
 const
 TEST_COM_URI
 =
-https
+http
 :
 /
 /
@@ -95,7 +95,7 @@ button
 const
 TEST_URI
 =
-https
+http
 :
 /
 /
