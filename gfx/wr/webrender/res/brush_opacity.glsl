@@ -352,6 +352,8 @@ xyxy
 ;
 v_opacity
 =
+clamp
+(
 float
 (
 prim_user_data
@@ -362,6 +364,13 @@ y
 65536
 .
 0
+0
+.
+0
+1
+.
+0
+)
 ;
 }
 #
