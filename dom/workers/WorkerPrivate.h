@@ -4710,6 +4710,9 @@ CrossOriginEmbedderPolicy
 >
 mOwnerEmbedderPolicy
 ;
+bool
+mIsPrivilegedAddonGlobal
+;
 }
 ;
 class
