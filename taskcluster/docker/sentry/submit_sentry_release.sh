@@ -121,6 +121,10 @@ project
 mach
 new
 "
+hg
+-
+rev
+-
 revision
 "
 |
