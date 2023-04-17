@@ -403,7 +403,7 @@ default
 false
 nightly
 =
-false
+true
 }
 [
 web
