@@ -120,6 +120,13 @@ t
 syncHandle
 )
 ;
+await
+syncHandle
+.
+close
+(
+)
+;
 }
 description
 )
