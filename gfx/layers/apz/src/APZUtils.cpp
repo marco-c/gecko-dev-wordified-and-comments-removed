@@ -435,7 +435,7 @@ visible
 .
 Inflate
 (
-LayerSize
+ScreenSize
 (
 StaticPrefs
 :
@@ -453,7 +453,7 @@ apz_danger_zone_y
 /
 aCompositorMetrics
 .
-LayersPixelsPerCSSPixel
+DisplayportPixelsPerCSSPixel
 (
 )
 )
