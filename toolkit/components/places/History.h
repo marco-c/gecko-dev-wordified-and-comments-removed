@@ -207,8 +207,8 @@ final
 void
 StartPendingVisitedQueries
 (
+const
 PendingVisitedQueries
-&
 &
 )
 final
