@@ -14934,7 +14934,7 @@ rv
 NS_WARNING
 (
 "
-TextEditor
+EditorBase
 :
 :
 ComputeValueInternal
