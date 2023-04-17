@@ -1084,7 +1084,7 @@ features
 -
 media
 -
-avif
+jxl
 "
 description
 :

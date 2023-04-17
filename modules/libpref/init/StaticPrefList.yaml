@@ -34708,7 +34708,7 @@ MOZ_AV1
 )
 value
 :
-false
+true
 #
 else
 value

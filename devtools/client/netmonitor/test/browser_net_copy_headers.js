@@ -254,6 +254,9 @@ q
 9
 image
 /
+avif
+image
+/
 webp
 *
 /
