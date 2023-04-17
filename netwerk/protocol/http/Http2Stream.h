@@ -50,6 +50,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+nsIURI
+.
+h
+"
 class
 nsIInputStream
 ;
