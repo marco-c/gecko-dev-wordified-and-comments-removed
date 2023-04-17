@@ -4983,7 +4983,11 @@ VK_RETURN
 "
 modifiers
 :
-shiftOrAlt
+{
+shiftKey
+:
+true
+}
 }
 AltEnter
 :
