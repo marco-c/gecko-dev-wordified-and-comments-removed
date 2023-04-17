@@ -132,6 +132,11 @@ MsaaIdGenerator
 cpp
 "
 "
+MsaaRootAccessible
+.
+cpp
+"
+"
 nsWinUtils
 .
 cpp
