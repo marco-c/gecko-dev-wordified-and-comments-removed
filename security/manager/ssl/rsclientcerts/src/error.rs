@@ -4,6 +4,10 @@ std
 :
 fmt
 ;
+#
+[
+macro_export
+]
 macro_rules
 !
 error_here

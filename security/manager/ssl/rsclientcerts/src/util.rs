@@ -22,6 +22,12 @@ use
 crate
 :
 :
+error_here
+;
+use
+crate
+:
+:
 error
 :
 :
@@ -30,6 +36,10 @@ Error
 ErrorType
 }
 ;
+#
+[
+macro_export
+]
 macro_rules
 !
 unsafe_packed_field_access
