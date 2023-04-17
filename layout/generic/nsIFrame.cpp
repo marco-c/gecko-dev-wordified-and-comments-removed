@@ -11919,6 +11919,13 @@ aSize
 IsMozFitContent
 (
 )
+|
+|
+aSize
+.
+IsFitContentFunction
+(
+)
 ;
 }
 bool
@@ -31772,6 +31779,12 @@ AspectRatioUsage
 None
 }
 ;
+case
+ExtremumLength
+:
+:
+FitContentFunction
+:
 case
 ExtremumLength
 :

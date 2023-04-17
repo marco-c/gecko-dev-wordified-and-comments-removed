@@ -775,6 +775,15 @@ ExtremumLength
 :
 MozFitContent
 :
+case
+nsIFrame
+:
+:
+ExtremumLength
+:
+:
+FitContentFunction
+:
 return
 true
 ;
