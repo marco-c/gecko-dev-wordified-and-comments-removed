@@ -3352,9 +3352,6 @@ NS_RGB
 ;
 break
 ;
-#
-ifndef
-XP_WIN
 case
 ColorID
 :
@@ -3372,8 +3369,6 @@ NS_RGB
 ;
 break
 ;
-#
-endif
 case
 ColorID
 :
@@ -3392,9 +3387,6 @@ ColorID
 :
 TextForeground
 :
-#
-ifndef
-XP_WIN
 case
 ColorID
 :
@@ -3425,8 +3417,6 @@ ColorID
 :
 MozButtonactivetext
 :
-#
-endif
 color
 =
 NS_RGB
@@ -3455,9 +3445,6 @@ NS_RGB
 ;
 break
 ;
-#
-ifndef
-XP_WIN
 case
 ColorID
 :
@@ -3538,8 +3525,6 @@ NS_RGB
 ;
 break
 ;
-#
-endif
 case
 ColorID
 :
