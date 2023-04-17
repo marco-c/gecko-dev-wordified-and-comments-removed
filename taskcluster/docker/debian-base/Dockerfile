@@ -234,8 +234,6 @@ mercurial
 \
 patch
 \
-python
-\
 python3
 \
 python3
@@ -251,10 +249,6 @@ minimal
 python3
 -
 zstandard
-\
-python
--
-psutil
 \
 python3
 -
