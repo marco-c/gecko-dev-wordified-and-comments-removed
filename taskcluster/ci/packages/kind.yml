@@ -903,7 +903,7 @@ dsc
 sha256
 :
 6e81a318fb4eb5cca0333b7b6ff0c70dd0097e9fe711b159d5eac4b9f47c6c27
-deb10
+deb8
 -
 valgrind
 :
@@ -913,13 +913,13 @@ description
 Valgrind
 for
 Debian
-buster
+jessie
 "
 treeherder
 :
 symbol
 :
-Deb10
+Deb8
 (
 valgrind
 )
@@ -930,9 +930,6 @@ using
 debian
 -
 package
-dist
-:
-buster
 dsc
 :
 url
@@ -977,7 +974,7 @@ patch
 :
 valgrind
 -
-buster
+jessie
 .
 diff
 deb8
