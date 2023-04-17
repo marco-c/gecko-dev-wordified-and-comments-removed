@@ -3251,7 +3251,9 @@ win
 "
 current_cpu
 =
-toolchain_arch
+"
+arm64
+"
 }
 }
 }
@@ -3430,7 +3432,9 @@ win
 "
 current_cpu
 =
-toolchain_arch
+"
+arm64
+"
 }
 }
 }
