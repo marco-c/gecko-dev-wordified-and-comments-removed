@@ -367,6 +367,15 @@ TestSupport
 "
 )
 ;
+ChromeUtils
+.
+unregisterProcessActor
+(
+"
+TestSupportProcess
+"
+)
+;
 }
 getAPI
 (
