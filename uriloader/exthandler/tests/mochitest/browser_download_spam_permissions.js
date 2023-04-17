@@ -172,6 +172,16 @@ improvements_to_download_panel
 "
 true
 ]
+[
+"
+browser
+.
+download
+.
+enable_spam_prevention
+"
+true
+]
 ]
 }
 )
