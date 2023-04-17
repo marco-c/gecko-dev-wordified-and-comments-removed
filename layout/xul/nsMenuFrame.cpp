@@ -2057,12 +2057,12 @@ AsMouseEvent
 -
 >
 mButton
-=
+!
 =
 MouseButton
 :
 :
-eSecondary
+ePrimary
 #
 ifdef
 XP_MACOSX
