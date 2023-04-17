@@ -134377,13 +134377,6 @@ gfx
 3
 Z
 ?
-?
-_GReadbackLayer
-layers
-mozilla
-UEAAPEAXI
-Z
-?
 GetClipExtents
 gfxContext
 QEBA

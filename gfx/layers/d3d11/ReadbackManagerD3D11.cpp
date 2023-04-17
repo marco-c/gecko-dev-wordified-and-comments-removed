@@ -8,13 +8,6 @@ h
 #
 include
 "
-ReadbackLayer
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
