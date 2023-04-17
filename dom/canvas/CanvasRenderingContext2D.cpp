@@ -10845,6 +10845,11 @@ SFE_WANT_FIRST_FRAME_IF_IMAGE
 nsLayoutUtils
 :
 :
+SFE_EXACT_SIZE_SURFACE
+|
+nsLayoutUtils
+:
+:
 SFE_TO_SRGB_COLORSPACE
 ;
 SurfaceFromElementResult
@@ -23049,6 +23054,11 @@ nsLayoutUtils
 :
 :
 SFE_NO_RASTERIZING_VECTORS
+|
+nsLayoutUtils
+:
+:
+SFE_EXACT_SIZE_SURFACE
 |
 nsLayoutUtils
 :

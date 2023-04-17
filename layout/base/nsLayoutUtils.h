@@ -4794,6 +4794,12 @@ SFE_TO_SRGB_COLORSPACE
 <
 <
 5
+SFE_EXACT_SIZE_SURFACE
+=
+1
+<
+<
+6
 }
 ;
 static
