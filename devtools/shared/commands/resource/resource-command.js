@@ -1594,6 +1594,11 @@ targetFront
 }
 )
 {
+delete
+targetFront
+.
+resourceCommand
+;
 this
 .
 _existingLegacyListeners
