@@ -1386,6 +1386,16 @@ mGbmFd
 0
 )
 {
+const
+char
+*
+error
+=
+strerror
+(
+errno
+)
+;
 LOGDMABUF
 (
 (
@@ -1398,6 +1408,9 @@ render
 node
 %
 s
+error
+%
+s
 \
 n
 "
@@ -1406,6 +1419,7 @@ drm_render_node
 get
 (
 )
+error
 )
 )
 ;
