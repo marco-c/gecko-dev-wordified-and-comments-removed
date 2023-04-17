@@ -111,16 +111,6 @@ platformVersion
 "
 caps
 )
-        
-self
-.
-assertIn
-(
-"
-rotatable
-"
-caps
-)
     
 def
 test_get_session_id

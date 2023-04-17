@@ -2481,14 +2481,6 @@ DismissAndNotify
 ]
 [
 "
-rotatable
-"
-AppInfo
-.
-isAndroid
-]
-[
-"
 moz
 :
 accessibilityChecks

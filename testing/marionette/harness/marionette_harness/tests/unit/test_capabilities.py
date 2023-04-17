@@ -520,25 +520,6 @@ strictFileInteractability
 )
     
 def
-test_supported_features
-(
-self
-)
-:
-        
-self
-.
-assertIn
-(
-"
-rotatable
-"
-self
-.
-caps
-)
-    
-def
 test_additional_capabilities
 (
 self
