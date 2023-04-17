@@ -54,6 +54,17 @@ ini
 "
 test
 /
+forms
+/
+without_selectionchange
+/
+mochitest
+.
+ini
+"
+"
+test
+/
 mochitest
 .
 ini
