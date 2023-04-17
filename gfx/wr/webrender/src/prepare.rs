@@ -6707,10 +6707,6 @@ clipped
 raster_rect_to_device_pixels
 (
 clipped_raster_rect
-.
-to_rect
-(
-)
 device_pixel_scale
 )
 ;
