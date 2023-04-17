@@ -1200,6 +1200,9 @@ aFontSizeInflation
 )
 ;
 }
+namespace
+mozilla
+{
 #
 if
 defined
@@ -1619,6 +1622,7 @@ rect
 color
 )
 ;
+}
 }
 void
 nsMathMLFrame

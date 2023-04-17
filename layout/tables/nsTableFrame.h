@@ -72,6 +72,9 @@ h
 struct
 BCPaintBorderAction
 ;
+struct
+BCPropertyData
+;
 class
 nsTableCellFrame
 ;
@@ -115,10 +118,6 @@ class
 StackingContextHelper
 ;
 }
-}
-struct
-BCPropertyData
-;
 class
 nsDisplayTableItem
 :
@@ -423,6 +422,7 @@ mDirtyRect
 ;
 }
 ;
+}
 enum
 nsTableColType
 {

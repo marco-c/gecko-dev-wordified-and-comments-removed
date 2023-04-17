@@ -845,10 +845,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 layers
@@ -888,6 +884,9 @@ nsStyleTransformMatrix
 TransformReferenceBox
 TransformReferenceBox
 ;
+namespace
+mozilla
+{
 #
 ifdef
 DEBUG
@@ -53754,9 +53753,6 @@ PositionedDescendants
 )
 ;
 }
-namespace
-mozilla
-{
 uint32_t
 PaintTelemetry
 :
@@ -53882,7 +53878,6 @@ totalMs
 )
 )
 ;
-}
 }
 static
 nsIFrame
@@ -54351,4 +54346,5 @@ aVisibleRect
 :
 aDirtyRect
 ;
+}
 }

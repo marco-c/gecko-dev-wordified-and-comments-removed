@@ -19,9 +19,15 @@ h
 namespace
 mozilla
 {
+class
+nsDisplayTransform
+;
 namespace
 layers
 {
+class
+Layer
+;
 template
 <
 typename

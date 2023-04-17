@@ -60,9 +60,6 @@ WebRenderCanvasData
 class
 nsPresContext
 ;
-class
-nsDisplayItem
-;
 nsIFrame
 *
 NS_NewHTMLCanvasFrame

@@ -568,6 +568,9 @@ return
 nullptr
 ;
 }
+namespace
+mozilla
+{
 class
 nsDisplayFieldSetBorder
 final
@@ -1258,6 +1261,7 @@ true
 ;
 }
 ;
+}
 void
 nsFieldSetFrame
 :

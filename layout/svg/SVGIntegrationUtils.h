@@ -70,12 +70,6 @@ class
 gfxDrawable
 ;
 class
-nsDisplayList
-;
-class
-nsDisplayListBuilder
-;
-class
 nsIFrame
 ;
 struct
@@ -128,6 +122,12 @@ values
 namespace
 mozilla
 {
+class
+nsDisplayList
+;
+class
+nsDisplayListBuilder
+;
 namespace
 gfx
 {

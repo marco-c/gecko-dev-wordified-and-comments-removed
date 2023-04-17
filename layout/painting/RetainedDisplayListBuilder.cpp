@@ -100,10 +100,6 @@ ProfilerLabels
 h
 "
 using
-namespace
-mozilla
-;
-using
 mozilla
 :
 :
@@ -112,6 +108,9 @@ dom
 :
 Document
 ;
+namespace
+mozilla
+{
 void
 RetainedDisplayListData
 :
@@ -6876,4 +6875,5 @@ List
 return
 result
 ;
+}
 }
