@@ -96,7 +96,7 @@ reftests
 .
 py
 python3
-WebIDL
+webidl
 /
 tools
 /
