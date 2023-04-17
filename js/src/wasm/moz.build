@@ -111,6 +111,11 @@ WasmDebug
 cpp
 "
 "
+WasmFrame
+.
+cpp
+"
+"
 WasmFrameIter
 .
 cpp

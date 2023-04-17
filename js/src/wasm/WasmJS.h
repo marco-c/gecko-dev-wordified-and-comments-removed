@@ -160,6 +160,15 @@ include
 "
 wasm
 /
+WasmTlsData
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmTypes
 .
 h

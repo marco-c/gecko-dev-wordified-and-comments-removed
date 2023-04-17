@@ -147,7 +147,7 @@ include
 "
 wasm
 /
-WasmTypes
+WasmFrame
 .
 h
 "
