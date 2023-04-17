@@ -12,6 +12,15 @@ include
 "
 js
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+js
+/
 PropertyAndElement
 .
 h

@@ -99,6 +99,15 @@ include
 "
 js
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+js
+/
 RegExpFlags
 .
 h

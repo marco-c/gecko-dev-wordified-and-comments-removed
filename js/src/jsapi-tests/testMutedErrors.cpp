@@ -28,6 +28,15 @@ include
 "
 js
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+js
+/
 SourceText
 .
 h

@@ -48,6 +48,15 @@ include
 "
 js
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+js
+/
 Initialization
 .
 h

@@ -277,6 +277,15 @@ include
 "
 js
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+js
+/
 Object
 .
 h

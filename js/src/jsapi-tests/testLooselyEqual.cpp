@@ -22,6 +22,15 @@ h
 #
 include
 "
+js
+/
+GlobalObject
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests

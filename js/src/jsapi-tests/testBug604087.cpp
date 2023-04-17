@@ -14,6 +14,15 @@ include
 "
 js
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+js
+/
 Wrapper
 .
 h

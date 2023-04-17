@@ -21,6 +21,15 @@ include
 "
 js
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+js
+/
 MemoryFunctions
 .
 h

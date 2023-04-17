@@ -19,6 +19,15 @@ include
 "
 js
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+js
+/
 Symbol
 .
 h

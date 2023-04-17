@@ -37,6 +37,15 @@ include
 "
 js
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+js
+/
 HeapAPI
 .
 h
