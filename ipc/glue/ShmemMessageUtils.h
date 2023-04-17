@@ -67,8 +67,8 @@ aMsg
 IProtocol
 *
 aActor
-const
 paramType
+&
 &
 aParam
 )
