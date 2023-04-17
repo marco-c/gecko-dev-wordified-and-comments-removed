@@ -232,7 +232,7 @@ Error
 .
 jsm
 "
-WindowManager
+windowManager
 :
 "
 chrome
@@ -1602,9 +1602,9 @@ session
 target
 ;
 await
-WindowManager
+windowManager
 .
-focus
+focusWindow
 (
 window
 )

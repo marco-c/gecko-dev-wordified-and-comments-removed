@@ -131,7 +131,7 @@ TabSession
 .
 jsm
 "
-WindowManager
+windowManager
 :
 "
 chrome
@@ -706,9 +706,9 @@ targetId
 ;
 }
 await
-WindowManager
+windowManager
 .
-focus
+focusWindow
 (
 window
 )
