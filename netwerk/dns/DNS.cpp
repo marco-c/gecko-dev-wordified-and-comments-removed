@@ -1422,8 +1422,7 @@ ntohl
 networkEndianIP
 )
 ;
-if
-(
+return
 addr32
 >
 >
@@ -1458,14 +1457,6 @@ addr32
 =
 =
 0xA9FE
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 bool

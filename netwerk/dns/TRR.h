@@ -521,6 +521,9 @@ mChannel
 enum
 TrrType
 mType
+{
+TRRTYPE_A
+}
 ;
 UniquePtr
 <
@@ -535,6 +538,8 @@ false
 ;
 bool
 mPB
+=
+false
 ;
 DOHresp
 mDNS
