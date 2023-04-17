@@ -1966,8 +1966,6 @@ TabListener
 :
 ForceFlushFromParent
 (
-bool
-aIsFinal
 )
 {
 if
@@ -1996,7 +1994,6 @@ return
 UpdateSessionStore
 (
 true
-aIsFinal
 )
 ;
 }
@@ -2036,8 +2033,6 @@ UpdateSessionStore
 (
 bool
 aIsFlush
-bool
-aIsFinal
 )
 {
 if
@@ -2101,7 +2096,6 @@ browserChild
 >
 UpdateSessionStore
 (
-aIsFinal
 )
 ;
 }
@@ -2364,13 +2358,13 @@ GetBrowsingContext
 (
 )
 mEpoch
-dataVal
 mSessionStore
 -
 >
 GetAndClearSHistoryChanged
 (
 )
+dataVal
 )
 ;
 NS_ENSURE_SUCCESS

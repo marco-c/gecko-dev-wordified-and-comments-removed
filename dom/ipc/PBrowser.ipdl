@@ -2107,8 +2107,6 @@ bool
 aPrivatedMode
 bool
 aNeedCollectSHistory
-bool
-aIsFinal
 uint32_t
 aEpoch
 )

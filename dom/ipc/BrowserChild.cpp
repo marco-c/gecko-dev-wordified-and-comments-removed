@@ -18107,8 +18107,6 @@ BrowserChild
 :
 UpdateSessionStore
 (
-bool
-aIsFinal
 )
 {
 if
@@ -18205,7 +18203,6 @@ store
 GetAndClearSHistoryChanged
 (
 )
-aIsFinal
 mSessionStoreListener
 -
 >

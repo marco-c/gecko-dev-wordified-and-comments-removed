@@ -3291,10 +3291,6 @@ aEpoch
 bool
 UpdateSessionStore
 (
-bool
-aIsFinal
-=
-false
 )
 ;
 #
