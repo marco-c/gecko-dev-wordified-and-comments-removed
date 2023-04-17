@@ -2471,17 +2471,6 @@ KeyValueService
 "
 ]
 "
-L10nRegistry
-.
-jsm
-"
-:
-[
-"
-L10nRegistry
-"
-]
-"
 Launcher
 .
 jsm
