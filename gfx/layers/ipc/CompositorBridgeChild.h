@@ -313,9 +313,12 @@ LayersId
 &
 aId
 const
+nsTArray
+<
 TransactionId
+>
 &
-aTransactionId
+aTransactionIds
 const
 TimeStamp
 &
