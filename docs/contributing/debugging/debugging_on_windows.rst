@@ -2650,7 +2650,7 @@ assembly
 code
 .
 One
-assemly
+assembly
 code
 instruction
 reads
