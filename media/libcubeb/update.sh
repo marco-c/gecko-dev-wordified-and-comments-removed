@@ -792,6 +792,8 @@ exit
 1
 fi
 rm
+-
+f
 moz
 .
 yaml
