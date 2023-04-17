@@ -404,7 +404,7 @@ originalFlags
 {
 rx
 =
-regexp_construct_raw_flags
+RegExpConstructRaw
 (
 originalSource
 originalFlags

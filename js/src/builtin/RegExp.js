@@ -2777,7 +2777,7 @@ REGEXP_SOURCE_SLOT
 ;
 splitter
 =
-regexp_construct_raw_flags
+RegExpConstructRaw
 (
 source
 flags
@@ -4462,7 +4462,7 @@ result
 }
 regexp
 =
-regexp_construct_raw_flags
+RegExpConstructRaw
 (
 source
 flags
