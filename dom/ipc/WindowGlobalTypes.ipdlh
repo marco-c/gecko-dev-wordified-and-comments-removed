@@ -56,8 +56,10 @@ WindowContext
 h
 "
 ;
+[
+RefCounted
+]
 using
-refcounted
 class
 nsITransportSecurityInfo
 from
@@ -81,6 +83,9 @@ context
 ;
 nsIPrincipal
 principal
+;
+nsIPrincipal
+storagePrincipal
 ;
 nsIURI
 documentURI
