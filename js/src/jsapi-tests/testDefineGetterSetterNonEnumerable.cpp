@@ -234,10 +234,16 @@ JS
 :
 Rooted
 <
+mozilla
+:
+:
+Maybe
+<
 JS
 :
 :
 PropertyDescriptor
+>
 >
 desc
 (
@@ -260,7 +266,7 @@ CHECK
 (
 desc
 .
-object
+isSome
 (
 )
 )
@@ -268,7 +274,8 @@ object
 CHECK
 (
 desc
-.
+-
+>
 hasGetterObject
 (
 )
@@ -277,7 +284,8 @@ hasGetterObject
 CHECK
 (
 desc
-.
+-
+>
 hasSetterObject
 (
 )
@@ -287,7 +295,8 @@ CHECK
 (
 !
 desc
-.
+-
+>
 configurable
 (
 )
@@ -297,7 +306,8 @@ CHECK
 (
 !
 desc
-.
+-
+>
 enumerable
 (
 )

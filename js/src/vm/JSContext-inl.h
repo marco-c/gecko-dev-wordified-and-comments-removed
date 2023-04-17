@@ -1189,16 +1189,6 @@ int
 argIndex
 )
 {
-check
-(
-desc
-.
-objectDoNotUse
-(
-)
-argIndex
-)
-;
 if
 (
 desc

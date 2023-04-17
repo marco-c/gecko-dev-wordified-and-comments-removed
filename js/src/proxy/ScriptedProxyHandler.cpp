@@ -2834,17 +2834,6 @@ JSMSG_CANT_REPORT_W_AS_NW
 }
 }
 }
-resultDesc
-.
-object
-(
-)
-.
-set
-(
-proxy
-)
-;
 desc
 .
 set
