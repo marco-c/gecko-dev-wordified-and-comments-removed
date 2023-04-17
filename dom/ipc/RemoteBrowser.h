@@ -90,14 +90,15 @@ nsISupports
 {
 public
 :
-typedef
+using
+LayersId
+=
 mozilla
 :
 :
 layers
 :
 :
-LayersId
 LayersId
 ;
 static

@@ -1318,14 +1318,15 @@ sConsecutiveTouchMoveCount
 =
 0
 ;
-typedef
+using
+BrowserChildMap
+=
 nsTHashMap
 <
 nsUint64HashKey
 BrowserChild
 *
 >
-BrowserChildMap
 ;
 static
 BrowserChildMap

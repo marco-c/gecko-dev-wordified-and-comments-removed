@@ -53,14 +53,15 @@ CoalescedInputData
 {
 protected
 :
-typedef
+using
+ScrollableLayerGuid
+=
 mozilla
 :
 :
 layers
 :
 :
-ScrollableLayerGuid
 ScrollableLayerGuid
 ;
 UniquePtr
