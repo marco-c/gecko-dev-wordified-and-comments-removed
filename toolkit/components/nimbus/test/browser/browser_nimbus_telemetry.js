@@ -464,7 +464,7 @@ clearEvents
 ;
 feature
 .
-getValue
+getAllVariables
 (
 {
 sendExposureEvent

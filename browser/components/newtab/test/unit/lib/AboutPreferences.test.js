@@ -150,7 +150,7 @@ NimbusFeatures
 newtab
 :
 {
-getValue
+getAllVariables
 :
 sandbox
 .

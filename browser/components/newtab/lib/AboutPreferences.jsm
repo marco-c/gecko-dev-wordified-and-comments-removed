@@ -772,7 +772,7 @@ NimbusFeatures
 .
 newtab
 .
-getValue
+getAllVariables
 (
 )
 |

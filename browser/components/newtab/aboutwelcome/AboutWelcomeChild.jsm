@@ -991,7 +991,7 @@ NimbusFeatures
 .
 aboutwelcome
 .
-getValue
+getAllVariables
 (
 )
 ;

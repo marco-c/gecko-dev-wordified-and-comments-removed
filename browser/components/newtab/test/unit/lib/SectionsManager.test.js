@@ -289,7 +289,7 @@ NimbusFeatures
 newtab
 :
 {
-getValue
+getAllVariables
 :
 sandbox
 .
@@ -3700,7 +3700,7 @@ NimbusFeatures
 newtab
 :
 {
-getValue
+getAllVariables
 :
 sandbox
 .
