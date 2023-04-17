@@ -100,7 +100,7 @@ Value
 >
 Handle
 <
-JSString
+JSObject
 *
 >
 )
@@ -188,10 +188,10 @@ Value
 referencingPrivate
 Handle
 <
-JSString
+JSObject
 *
 >
-specifier
+moduleRequest
 Handle
 <
 JSObject
@@ -253,10 +253,10 @@ Value
 referencingPrivate
 Handle
 <
-JSString
+JSObject
 *
 >
-specifier
+moduleRequest
 Handle
 <
 JSObject
@@ -282,10 +282,10 @@ Value
 referencingPrivate
 Handle
 <
-JSString
+JSObject
 *
 >
-specifier
+moduleRequest
 Handle
 <
 JSObject

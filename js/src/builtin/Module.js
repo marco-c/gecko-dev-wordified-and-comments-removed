@@ -2,7 +2,7 @@ function
 CallModuleResolveHook
 (
 module
-specifier
+moduleRequest
 expectedMinimumStatus
 )
 {
@@ -12,7 +12,7 @@ requestedModule
 HostResolveImportedModule
 (
 module
-specifier
+moduleRequest
 )
 ;
 if
@@ -1723,7 +1723,7 @@ requestedModules
 i
 ]
 .
-moduleSpecifier
+moduleRequest
 ;
 let
 requiredModule
@@ -2998,7 +2998,7 @@ requestedModules
 i
 ]
 .
-moduleSpecifier
+moduleRequest
 ;
 let
 requiredModule

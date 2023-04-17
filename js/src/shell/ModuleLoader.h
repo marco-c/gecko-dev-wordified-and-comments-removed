@@ -68,8 +68,8 @@ registerTestModule
 JSContext
 *
 cx
-HandleString
-specifier
+HandleObject
+moduleRequest
 HandleModuleObject
 module
 )
@@ -86,8 +86,8 @@ JSContext
 cx
 HandleValue
 referencingPrivate
-HandleString
-specifier
+HandleObject
+moduleRequest
 )
 ;
 static
@@ -112,8 +112,8 @@ JSContext
 cx
 HandleValue
 referencingPrivate
-HandleString
-specifier
+HandleObject
+moduleRequest
 HandleObject
 promise
 )
@@ -166,8 +166,8 @@ JSContext
 cx
 HandleValue
 referencingPrivate
-HandleString
-specifier
+HandleObject
+moduleRequest
 )
 ;
 bool
@@ -190,8 +190,8 @@ JSContext
 cx
 HandleValue
 referencingPrivate
-HandleString
-specifier
+HandleObject
+moduleRequest
 HandleObject
 promise
 )
@@ -204,8 +204,8 @@ JSContext
 cx
 HandleValue
 referencingPrivate
-HandleString
-specifier
+HandleObject
+moduleRequest
 HandleObject
 promise
 )
@@ -218,8 +218,8 @@ JSContext
 cx
 HandleValue
 referencingPrivate
-HandleString
-specifier
+HandleObject
+moduleRequest
 HandleObject
 promise
 MutableHandleValue
@@ -268,8 +268,8 @@ resolve
 JSContext
 *
 cx
-HandleString
-name
+HandleObject
+moduleRequestArg
 HandleValue
 referencingInfo
 )
