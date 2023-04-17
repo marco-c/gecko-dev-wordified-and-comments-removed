@@ -4451,6 +4451,13 @@ dpy
 root
 )
 ;
+highestRefreshRate
+-
+=
+1
+.
+0
+;
 for
 (
 int
