@@ -899,6 +899,7 @@ createWithShape
 (
 cx
 shape
+allocKind
 newKind
 )
 ;
@@ -954,6 +955,7 @@ createWithShape
 (
 cx
 shape
+allocKind
 newKind
 )
 ;
@@ -1067,6 +1069,7 @@ createWithShape
 (
 cx
 shape
+allocKind
 newKind
 )
 ;
@@ -1153,6 +1156,7 @@ createWithShape
 (
 cx
 shape
+allocKind
 newKind
 )
 ;
