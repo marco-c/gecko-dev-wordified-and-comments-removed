@@ -90,6 +90,13 @@ nullable
 :
 json
 "
+reloadOnTouchSimulationToggle
+:
+"
+nullable
+:
+boolean
+"
 restoreFocus
 :
 "

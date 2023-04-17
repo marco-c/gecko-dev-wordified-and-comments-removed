@@ -117,6 +117,9 @@ true
 rdmPaneOrientation
 :
 true
+reloadOnTouchSimulationToggle
+:
+true
 restoreFocus
 :
 true
