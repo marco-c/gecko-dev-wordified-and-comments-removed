@@ -2183,6 +2183,13 @@ conn
 window
 :
 global
+matchExactWindow
+:
+this
+.
+parentActor
+.
+ignoreSubFrames
 }
 this
 .
@@ -2218,6 +2225,13 @@ StackTraceCollector
 window
 :
 global
+matchExactWindow
+:
+this
+.
+parentActor
+.
+ignoreSubFrames
 }
 this
 .
