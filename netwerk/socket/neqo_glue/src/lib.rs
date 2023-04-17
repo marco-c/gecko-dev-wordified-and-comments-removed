@@ -512,6 +512,15 @@ QuicVersion
 :
 :
 Draft27
+"
+h3
+"
+=
+>
+QuicVersion
+:
+:
+Version1
 _
 =
 >
