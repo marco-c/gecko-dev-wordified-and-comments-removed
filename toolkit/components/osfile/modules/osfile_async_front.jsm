@@ -10,6 +10,9 @@ EXPORTED_SYMBOLS
 "
 OS
 "
+"
+Scheduler
+"
 ]
 ;
 var
@@ -338,7 +341,6 @@ osfile_native
 .
 jsm
 "
-null
 )
 ;
 function
@@ -738,11 +740,6 @@ obj
 ;
 }
 var
-Scheduler
-=
-(
-this
-.
 Scheduler
 =
 {
@@ -1959,7 +1956,6 @@ launchTimeStamp
 ;
 }
 }
-)
 ;
 const
 PREF_OSFILE_LOG
