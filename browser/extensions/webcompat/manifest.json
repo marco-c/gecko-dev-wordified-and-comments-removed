@@ -35,7 +35,7 @@ version
 "
 24
 .
-8
+9
 .
 0
 "
@@ -623,6 +623,13 @@ js
 shims
 /
 chartbeat
+.
+js
+"
+"
+shims
+/
+criteo
 .
 js
 "
