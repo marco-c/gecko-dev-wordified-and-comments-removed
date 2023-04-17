@@ -1,7 +1,4 @@
 include
-IPCNavigationPreloadState
-;
-include
 PBackgroundSharedTypes
 ;
 namespace
@@ -39,9 +36,6 @@ currentWorkerActivatedTime
 ;
 int64_t
 lastUpdateTime
-;
-IPCNavigationPreloadState
-navigationPreloadState
 ;
 }
 ;
