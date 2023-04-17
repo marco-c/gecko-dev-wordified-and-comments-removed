@@ -34209,7 +34209,7 @@ TreatNonCallableAsNull
 and
     
 [
-TreatNonObjectAsNull
+LegacyTreatNonObjectAsNull
 ]
 extended
 attributes

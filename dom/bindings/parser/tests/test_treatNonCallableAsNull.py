@@ -329,7 +329,7 @@ parse
             
 [
 TreatNonCallableAsNull
-TreatNonObjectAsNull
+LegacyTreatNonObjectAsNull
 ]
             
 callback

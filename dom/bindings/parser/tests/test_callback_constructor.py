@@ -437,7 +437,7 @@ parse
 "
             
 [
-TreatNonObjectAsNull
+LegacyTreatNonObjectAsNull
 ]
             
 callback
@@ -474,15 +474,17 @@ harness
 .
 ok
 (
+        
 threw
 "
 Should
 throw
 on
-TreatNonObjectAsNull
+LegacyTreatNonObjectAsNull
 callback
 constructors
 "
+    
 )
     
 parser

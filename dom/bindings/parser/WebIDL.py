@@ -10037,7 +10037,7 @@ identifier
 =
 =
 "
-TreatNonObjectAsNull
+LegacyTreatNonObjectAsNull
 "
 :
                 
@@ -10046,7 +10046,7 @@ WebIDLError
 (
                     
 "
-TreatNonObjectAsNull
+LegacyTreatNonObjectAsNull
 cannot
 be
 specified
@@ -33201,7 +33201,7 @@ identifier
 =
 =
 "
-TreatNonObjectAsNull
+LegacyTreatNonObjectAsNull
 "
 :
                 
@@ -33217,12 +33217,13 @@ WebIDLError
                         
 "
 [
-TreatNonObjectAsNull
+LegacyTreatNonObjectAsNull
 ]
 is
 not
 supported
 "
+                        
 "
 on
 constructors
@@ -33329,7 +33330,7 @@ TreatNonCallableAsNull
 "
 and
 [
-TreatNonObjectAsNull
+LegacyTreatNonObjectAsNull
 ]
 "
                 
