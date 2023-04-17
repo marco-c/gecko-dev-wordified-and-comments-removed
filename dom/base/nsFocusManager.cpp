@@ -16964,7 +16964,7 @@ aOptions
 uint32_t
 flags
 =
-0
+FLAG_BYJS
 ;
 if
 (

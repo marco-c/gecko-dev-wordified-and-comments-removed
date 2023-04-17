@@ -17213,6 +17213,8 @@ SelectTextFieldOnFocus
 )
 )
 {
+if
+(
 Document
 *
 document
@@ -17220,10 +17222,6 @@ document
 GetComposedDoc
 (
 )
-;
-if
-(
-document
 )
 {
 uint32_t
@@ -17258,6 +17256,17 @@ nsIFocusManager
 :
 :
 FLAG_BYMOVEFOCUS
+)
+&
+&
+!
+(
+lastFocusMethod
+&
+nsIFocusManager
+:
+:
+FLAG_BYJS
 )
 )
 {
