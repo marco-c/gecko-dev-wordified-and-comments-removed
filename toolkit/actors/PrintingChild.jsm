@@ -702,6 +702,14 @@ ex
 )
 ;
 }
+await
+new
+Promise
+(
+resolve
+=
+>
+{
 let
 actor
 =
@@ -790,6 +798,10 @@ ReaderModeReady
 "
 )
 ;
+resolve
+(
+)
+;
 }
 ;
 contentWindow
@@ -832,6 +844,10 @@ ReaderModeReady
 "
 )
 ;
+resolve
+(
+)
+;
 }
 100
 )
@@ -850,6 +866,10 @@ Preview
 :
 ReaderModeReady
 "
+)
+;
+resolve
+(
 )
 ;
 }
@@ -1539,6 +1559,9 @@ block
 "
 ;
 }
+}
+)
+;
 }
 enterPrintPreview
 (
