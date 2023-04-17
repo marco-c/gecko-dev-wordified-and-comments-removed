@@ -282,6 +282,12 @@ os
 .
 path
 .
+normpath
+(
+os
+.
+path
+.
 join
 (
 build
@@ -289,6 +295,7 @@ build
 topsrcdir
 reldir
 value
+)
 )
             
 if
