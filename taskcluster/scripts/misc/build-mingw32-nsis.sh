@@ -273,7 +273,7 @@ nsis
 -
 3
 .
-01
+07
 -
 src
 patch
@@ -330,7 +330,7 @@ VERSION
 =
 3
 .
-01
+07
 install
 #
 -
