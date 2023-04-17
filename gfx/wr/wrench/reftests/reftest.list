@@ -35,6 +35,14 @@ reftest
 .
 list
 include
+compositor
+-
+surface
+/
+reftest
+.
+list
+include
 filters
 /
 reftest
