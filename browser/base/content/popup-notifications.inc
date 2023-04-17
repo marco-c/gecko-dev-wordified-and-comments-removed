@@ -446,6 +446,9 @@ previewWarning
 /
 >
 <
+hbox
+>
+<
 label
 id
 =
@@ -475,6 +478,10 @@ learnmore
 link
 "
 /
+>
+<
+/
+hbox
 >
 <
 /
