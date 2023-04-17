@@ -1693,6 +1693,12 @@ TryToLoadIframesInBackground
 )
 {
 return
+!
+FissionAutostart
+(
+)
+&
+&
 StaticPrefs
 :
 :
