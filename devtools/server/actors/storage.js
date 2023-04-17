@@ -1260,6 +1260,12 @@ data
 onWindowDestroyed
 (
 window
+{
+dontCheckHost
+}
+=
+{
+}
 )
 {
 if
@@ -1301,6 +1307,7 @@ if
 host
 &
 &
+(
 !
 this
 .
@@ -1309,6 +1316,10 @@ hosts
 has
 (
 host
+)
+|
+|
+dontCheckHost
 )
 )
 {
