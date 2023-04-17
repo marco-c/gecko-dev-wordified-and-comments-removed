@@ -144,8 +144,6 @@ QUEUE_FAMILY_EXTERNAL
 u32
 =
 !
-0
--
 1
 ;
 pub
@@ -155,8 +153,6 @@ QUEUE_FAMILY_FOREIGN_EXT
 u32
 =
 !
-0
--
 2
 ;
 pub
@@ -200,6 +196,14 @@ u32
 =
 !
 0
+;
+pub
+const
+MAX_GLOBAL_PRIORITY_SIZE_EXT
+:
+usize
+=
+16
 ;
 pub
 const

@@ -127,7 +127,7 @@ version
 "
 0
 .
-1
+2
 .
 1
 "
@@ -187,14 +187,6 @@ rs
 gpu
 -
 descriptor
--
-types
-/
-0
-.
-1
-.
-0
 "
 keywords
 =

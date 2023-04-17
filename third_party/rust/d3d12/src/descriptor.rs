@@ -687,6 +687,7 @@ RootParameter
 param
 )
 }
+pub
 fn
 descriptor
 (

@@ -433,15 +433,6 @@ wrench
 -
 gfx
 /
-wgpu
-/
-wgpu
--
-core
-/
--
-gfx
-/
 wgpu_bindings
 /
 #

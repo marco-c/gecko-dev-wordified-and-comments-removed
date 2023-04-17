@@ -50,11 +50,6 @@ webrender_build
 -
 gfx
 /
-wgpu
-/
--
-gfx
-/
 wr
 /
 wr_malloc_size_of

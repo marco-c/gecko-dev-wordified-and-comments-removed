@@ -1,3 +1,14 @@
+#
+!
+[
+deny
+(
+clippy
+:
+:
+use_self
+)
+]
 pub
 mod
 experimental
@@ -13,6 +24,10 @@ khr
 pub
 mod
 mvk
+;
+pub
+mod
+nn
 ;
 pub
 mod

@@ -167,6 +167,9 @@ visible
 as_type
 "
 "
+this
+"
+"
 mutable
 "
 "

@@ -470,10 +470,6 @@ webrender_bindings
 /
 gfx
 /
-wgpu
-/
-gfx
-/
 wgpu_bindings
 /
 gfx

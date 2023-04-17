@@ -150,15 +150,6 @@ assert_ffi_array_param_is_pointer
 (
 )
 {
-use
-ash
-:
-:
-version
-:
-:
-DeviceV1_0
-;
 unsafe
 fn
 dummy

@@ -526,6 +526,16 @@ width
 .
 .
 }
+|
+Ti
+:
+:
+Atomic
+{
+width
+.
+.
+}
 =
 >
 TypeLayout

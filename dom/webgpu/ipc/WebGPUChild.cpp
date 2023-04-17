@@ -5088,7 +5088,7 @@ step_mode
 ffi
 :
 :
-WGPUInputStepMode
+WGPUVertexStepMode
 (
 vd
 .

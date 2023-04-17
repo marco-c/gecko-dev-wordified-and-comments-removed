@@ -353,6 +353,11 @@ wgpu
 -
 types
 "
+"
+wgpu
+-
+hal
+"
 ]
 extra_bindings
 =
@@ -366,6 +371,11 @@ core
 wgpu
 -
 types
+"
+"
+wgpu
+-
+hal
 "
 ]
 [
