@@ -171,6 +171,11 @@ UrlbarProviderQuickSuggest
 jsm
 "
 "
+UrlbarProviderRemoteTabs
+.
+jsm
+"
+"
 UrlbarProviderSearchSuggestions
 .
 jsm
