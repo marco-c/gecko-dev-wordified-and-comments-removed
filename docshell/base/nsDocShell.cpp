@@ -2380,6 +2380,7 @@ aContentWindowID
 :
 nsDocLoader
 (
+true
 )
 mContentWindowID
 (
