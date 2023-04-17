@@ -22,7 +22,7 @@ freeze
 {
 get
 (
-browserOrTab
+permanentKey
 )
 {
 return
@@ -30,13 +30,13 @@ TabStateCacheInternal
 .
 get
 (
-browserOrTab
+permanentKey
 )
 ;
 }
 update
 (
-browserOrTab
+permanentKey
 newData
 )
 {
@@ -44,7 +44,7 @@ TabStateCacheInternal
 .
 update
 (
-browserOrTab
+permanentKey
 newData
 )
 ;
@@ -64,7 +64,7 @@ WeakMap
 )
 get
 (
-browserOrTab
+permanentKey
 )
 {
 return
@@ -74,8 +74,6 @@ _data
 .
 get
 (
-browserOrTab
-.
 permanentKey
 )
 ;
@@ -709,7 +707,7 @@ data
 }
 update
 (
-browserOrTab
+permanentKey
 newData
 )
 {
@@ -722,8 +720,6 @@ _data
 .
 get
 (
-browserOrTab
-.
 permanentKey
 )
 |
@@ -915,8 +911,6 @@ _data
 .
 set
 (
-browserOrTab
-.
 permanentKey
 data
 )
