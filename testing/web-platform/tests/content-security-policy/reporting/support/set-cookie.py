@@ -1,3 +1,7 @@
+from
+datetime
+import
+date
 def
 main
 (
@@ -124,7 +128,6 @@ Path
 ;
 Expires
 =
-Wed
 09
 Jun
 2021
@@ -200,6 +203,18 @@ path
 '
 ]
     
+expiry_year
+=
+date
+.
+today
+(
+)
+.
+year
++
+1
+    
 cookie
 =
 b
@@ -216,10 +231,10 @@ s
 ;
 Expires
 =
-Wed
 09
 Jun
-2021
+%
+d
 10
 :
 18
@@ -231,6 +246,7 @@ GMT
 (
 name
 path
+expiry_year
 )
     
 headers
