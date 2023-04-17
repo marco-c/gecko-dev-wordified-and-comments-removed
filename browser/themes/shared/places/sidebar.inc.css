@@ -141,6 +141,12 @@ rgba
 5
 )
 ;
+color
+-
+scheme
+:
+light
+;
 }
 .
 sidebar
@@ -174,6 +180,12 @@ rgba
 .
 3
 )
+;
+color
+-
+scheme
+:
+dark
 ;
 }
 .
