@@ -251,7 +251,7 @@ defineModuleGetter
 (
 this
 "
-filterAdult
+FilterAdult
 "
 "
 resource
@@ -3850,16 +3850,12 @@ dedupedDefaults
 const
 checkedAdult
 =
-prefValues
+FilterAdult
 .
-filterAdult
-?
-filterAdult
+filter
 (
 dedupedUnpinned
 )
-:
-dedupedUnpinned
 ;
 let
 withPinned
