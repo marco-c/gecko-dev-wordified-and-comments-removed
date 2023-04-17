@@ -334,11 +334,6 @@ ServiceWorkerProxy
 cpp
 "
 "
-ServiceWorkerQuotaUtils
-.
-cpp
-"
-"
 ServiceWorkerRegisterJob
 .
 cpp
