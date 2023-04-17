@@ -4906,6 +4906,15 @@ this
 _identityPopup
 )
 {
+PopupNotifications
+.
+suppressWhileOpen
+(
+this
+.
+_identityPopup
+)
+;
 window
 .
 addEventListener
