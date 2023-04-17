@@ -190,11 +190,6 @@ CmdLineAndEnvUtils
 h
 "
 "
-GeckoArgs
-.
-h
-"
-"
 MultiInstanceLock
 .
 h
