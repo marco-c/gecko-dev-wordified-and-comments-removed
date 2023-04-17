@@ -11376,7 +11376,7 @@ fontKerning
 =
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -11384,7 +11384,7 @@ ctx
 fontKerning
 =
 "
-Normal
+normal
 "
 ;
 assert
@@ -11395,7 +11395,7 @@ fontKerning
 =
 =
 "
-Normal
+normal
 "
 ;
 width_normal
@@ -11416,7 +11416,7 @@ ctx
 fontKerning
 =
 "
-None
+none
 "
 ;
 assert
@@ -11427,7 +11427,7 @@ fontKerning
 =
 =
 "
-None
+none
 "
 ;
 width_none
@@ -11502,7 +11502,7 @@ fontKerning
 =
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -11521,7 +11521,7 @@ fontKerning
 =
 =
 "
-Normal
+normal
 "
 ;
 ctx
@@ -11529,7 +11529,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -11548,7 +11548,7 @@ fontKerning
 =
 =
 "
-Normal
+normal
 "
 ;
 ctx
@@ -11556,7 +11556,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -11575,7 +11575,7 @@ fontKerning
 =
 =
 "
-Normal
+normal
 "
 ;
 ctx
@@ -11583,7 +11583,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -11602,7 +11602,7 @@ fontKerning
 =
 =
 "
-Normal
+normal
 "
 ;
 ctx
@@ -11610,7 +11610,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -11629,7 +11629,7 @@ fontKerning
 =
 =
 "
-Normal
+normal
 "
 ;
 ctx
@@ -11648,7 +11648,7 @@ fontKerning
 =
 =
 "
-None
+none
 "
 ;
 ctx
@@ -11656,7 +11656,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -11675,7 +11675,7 @@ fontKerning
 =
 =
 "
-None
+none
 "
 ;
 ctx
@@ -11683,7 +11683,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -11702,7 +11702,7 @@ fontKerning
 =
 =
 "
-None
+none
 "
 ;
 ctx
@@ -11710,7 +11710,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -11729,7 +11729,7 @@ fontKerning
 =
 =
 "
-None
+none
 "
 ;
 ctx
@@ -11737,7 +11737,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -11756,7 +11756,7 @@ fontKerning
 =
 =
 "
-None
+none
 "
 ;
 t
@@ -11818,7 +11818,7 @@ fontVariantCaps
 =
 =
 "
-Normal
+normal
 "
 ;
 ctx
@@ -11837,7 +11837,7 @@ fontVariantCaps
 =
 =
 "
-Normal
+normal
 "
 ;
 ctx
@@ -11858,7 +11858,9 @@ fontVariantCaps
 =
 =
 "
-SmallCaps
+small
+-
+caps
 "
 ;
 ctx
@@ -11881,7 +11883,11 @@ fontVariantCaps
 =
 =
 "
-AllSmallCaps
+all
+-
+small
+-
+caps
 "
 ;
 ctx
@@ -11902,7 +11908,9 @@ fontVariantCaps
 =
 =
 "
-PetiteCaps
+petite
+-
+caps
 "
 ;
 ctx
@@ -11925,7 +11933,11 @@ fontVariantCaps
 =
 =
 "
-AllPetiteCaps
+all
+-
+petite
+-
+caps
 "
 ;
 ctx
@@ -11944,7 +11956,7 @@ fontVariantCaps
 =
 =
 "
-Unicase
+unicase
 "
 ;
 ctx
@@ -11965,7 +11977,9 @@ fontVariantCaps
 =
 =
 "
-TitlingCaps
+titling
+-
+caps
 "
 ;
 /
@@ -11996,7 +12010,7 @@ fontVariantCaps
 =
 =
 "
-Normal
+normal
 "
 ;
 ctx
@@ -12017,7 +12031,9 @@ fontVariantCaps
 =
 =
 "
-SmallCaps
+small
+-
+caps
 "
 ;
 ctx
@@ -12040,7 +12056,11 @@ fontVariantCaps
 =
 =
 "
-AllSmallCaps
+all
+-
+small
+-
+caps
 "
 ;
 ctx
@@ -12061,7 +12081,9 @@ fontVariantCaps
 =
 =
 "
-PetiteCaps
+petite
+-
+caps
 "
 ;
 ctx
@@ -12084,7 +12106,11 @@ fontVariantCaps
 =
 =
 "
-AllPetiteCaps
+all
+-
+petite
+-
+caps
 "
 ;
 ctx
@@ -12103,7 +12129,7 @@ fontVariantCaps
 =
 =
 "
-Unicase
+unicase
 "
 ;
 ctx
@@ -12124,7 +12150,9 @@ fontVariantCaps
 =
 =
 "
-TitlingCaps
+titling
+-
+caps
 "
 ;
 /
@@ -12154,7 +12182,9 @@ fontVariantCaps
 =
 =
 "
-TitlingCaps
+titling
+-
+caps
 "
 ;
 t
@@ -12216,7 +12246,7 @@ textRendering
 =
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -12235,7 +12265,7 @@ textRendering
 =
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -12254,7 +12284,7 @@ textRendering
 =
 =
 "
-OptimizeSpeed
+optimizeSpeed
 "
 ;
 ctx
@@ -12273,7 +12303,7 @@ textRendering
 =
 =
 "
-OptimizeLegibility
+optimizeLegibility
 "
 ;
 ctx
@@ -12292,7 +12322,7 @@ textRendering
 =
 =
 "
-GeometricPrecision
+geometricPrecision
 "
 ;
 /
@@ -12323,7 +12353,7 @@ textRendering
 =
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -12342,7 +12372,7 @@ textRendering
 =
 =
 "
-OptimizeSpeed
+optimizeSpeed
 "
 ;
 ctx
@@ -12361,7 +12391,7 @@ textRendering
 =
 =
 "
-OptimizeLegibility
+optimizeLegibility
 "
 ;
 ctx
@@ -12380,7 +12410,7 @@ textRendering
 =
 =
 "
-GeometricPrecision
+geometricPrecision
 "
 ;
 /
@@ -12410,7 +12440,7 @@ textRendering
 =
 =
 "
-GeometricPrecision
+geometricPrecision
 "
 ;
 t
