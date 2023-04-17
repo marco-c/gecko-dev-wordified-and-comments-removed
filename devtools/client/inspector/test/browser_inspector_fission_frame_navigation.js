@@ -7,7 +7,7 @@ const
 EXAMPLE_COM_URI
 =
 "
-http
+https
 :
 /
 /
@@ -36,7 +36,7 @@ const
 EXAMPLE_NET_URI
 =
 "
-http
+https
 :
 /
 /
@@ -98,19 +98,6 @@ function
 (
 )
 {
-await
-pushPref
-(
-"
-dom
-.
-security
-.
-https_first
-"
-false
-)
-;
 const
 {
 inspector
