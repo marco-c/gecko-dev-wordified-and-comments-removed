@@ -3641,6 +3641,9 @@ options
 =
 {
 }
+calledFromDocumentCreation
+=
+false
 )
 {
 if
@@ -3731,6 +3734,10 @@ true
 this
 .
 isTopLevelTarget
+&
+&
+!
+calledFromDocumentCreation
 )
 {
 reload

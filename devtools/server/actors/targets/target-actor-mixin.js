@@ -137,6 +137,9 @@ addWatcherDataEntry
 (
 type
 entries
+isDocumentCreation
+=
+false
 )
 {
 if
@@ -317,6 +320,7 @@ this
 updateTargetConfiguration
 (
 options
+isDocumentCreation
 )
 ;
 }
