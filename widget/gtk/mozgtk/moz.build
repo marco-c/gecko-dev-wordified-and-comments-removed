@@ -20,7 +20,7 @@ CFLAGS
 CONFIG
 [
 "
-XCFLAGS
+MOZ_X11_CFLAGS
 "
 ]
 if
