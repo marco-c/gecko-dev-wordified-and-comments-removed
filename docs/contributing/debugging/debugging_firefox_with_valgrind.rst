@@ -389,7 +389,7 @@ Linux
 Download
 Valgrind
 <
-http
+https
 :
 /
 /
@@ -426,7 +426,7 @@ trunk
 from
 SVN
 <
-http
+https
 :
 /
 /
@@ -1499,7 +1499,7 @@ The
 User
 Manual
 <
-http
+https
 :
 /
 /
