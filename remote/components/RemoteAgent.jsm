@@ -490,8 +490,6 @@ new
 CDP
 (
 this
-.
-server
 )
 ;
 }
