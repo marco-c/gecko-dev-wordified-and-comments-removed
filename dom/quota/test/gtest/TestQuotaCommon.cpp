@@ -3367,7 +3367,10 @@ tryReturnDidNotReturn
 {
 QM_TRY_RETURN
 (
+MOZ_TO_RESULT
+(
 NS_OK
+)
 )
 ;
 tryReturnDidNotReturn
@@ -3667,7 +3670,10 @@ tryReturnDidNotReturn
 {
 QM_TRY_RETURN
 (
+MOZ_TO_RESULT
+(
 NS_ERROR_FAILURE
+)
 )
 ;
 tryReturnDidNotReturn

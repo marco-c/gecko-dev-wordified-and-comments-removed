@@ -42859,6 +42859,8 @@ exists
 {
 QM_TRY_RETURN
 (
+MOZ_TO_RESULT
+(
 aOriginProps
 .
 mDirectory
@@ -42869,9 +42871,12 @@ Remove
 true
 )
 )
+)
 ;
 }
 QM_TRY_RETURN
+(
+MOZ_TO_RESULT
 (
 aOriginProps
 .
@@ -42882,6 +42887,7 @@ RenameTo
 (
 nullptr
 newLeafName
+)
 )
 )
 ;
