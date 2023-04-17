@@ -297,6 +297,12 @@ nsIPrincipal
 aForPrincipal
 =
 nullptr
+const
+nsACString
+*
+aBaseDomain
+=
+nullptr
 )
 ;
 private

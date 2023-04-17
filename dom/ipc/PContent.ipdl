@@ -2492,6 +2492,9 @@ ClearStyleSheetCache
 nsIPrincipal
 ?
 aForPrincipal
+nsCString
+?
+aBaseDomain
 )
 ;
 async

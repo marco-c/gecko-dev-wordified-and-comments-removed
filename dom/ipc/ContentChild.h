@@ -1308,6 +1308,13 @@ nsIPrincipal
 >
 &
 aForPrincipal
+const
+Maybe
+<
+nsCString
+>
+&
+aBaseDomain
 )
 ;
 mozilla

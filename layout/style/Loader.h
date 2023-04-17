@@ -650,6 +650,17 @@ return
 mLoaderPrincipal
 ;
 }
+nsIPrincipal
+*
+PartitionPrincipal
+(
+)
+const
+{
+return
+mPartitionPrincipal
+;
+}
 css
 :
 :
