@@ -125,6 +125,15 @@ h
 #
 include
 "
+js
+/
+WaitCallbacks
+.
+h
+"
+#
+include
+"
 vm
 /
 GlobalObject
