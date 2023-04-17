@@ -566,6 +566,15 @@ enable_quic
 "
 ]
                                         
+include_webtransport_h3
+=
+kwargs
+[
+"
+enable_webtransport_h3
+"
+]
+                                        
 skip_timeout
 =
 kwargs
@@ -1621,6 +1630,13 @@ kwargs
 [
 "
 enable_quic
+"
+]
+                                 
+kwargs
+[
+"
+enable_webtransport_h3
 "
 ]
                                  
