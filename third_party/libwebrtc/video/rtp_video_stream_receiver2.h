@@ -1183,6 +1183,10 @@ KeyFrameRequestSender
 const
 keyframe_request_sender_
 ;
+const
+KeyFrameReqMethod
+keyframe_request_method_
+;
 RtcpFeedbackBuffer
 rtcp_feedback_buffer_
 ;

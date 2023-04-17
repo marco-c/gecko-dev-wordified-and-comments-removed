@@ -312,6 +312,17 @@ kRtcpXrTargetBitrate
 }
 ;
 enum
+class
+KeyFrameReqMethod
+:
+uint8_t
+{
+kNone
+kPliRtcp
+kFirRtcp
+}
+;
+enum
 RtxMode
 {
 kRtxOff
