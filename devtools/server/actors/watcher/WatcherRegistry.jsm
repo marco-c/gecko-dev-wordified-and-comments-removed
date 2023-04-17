@@ -519,6 +519,12 @@ watcher
 actorID
 )
 ;
+this
+.
+maybeUnregisteringJSWindowActor
+(
+)
+;
 }
 watchTargets
 (
