@@ -29206,7 +29206,6 @@ IsEnded
 )
 ;
 }
-else
 if
 (
 mSrcStream
@@ -29222,12 +29221,9 @@ HAVE_METADATA
 mSrcStreamPlaybackEnded
 ;
 }
-else
-{
 return
 false
 ;
-}
 }
 already_AddRefed
 <
