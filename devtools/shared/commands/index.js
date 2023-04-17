@@ -174,6 +174,7 @@ dictionary
 {
 client
 descriptorFront
+watcherFront
 waitForRequestsToSettle
 (
 )

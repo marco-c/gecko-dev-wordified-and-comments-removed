@@ -743,6 +743,9 @@ WEBSOCKET
 :
 hasBrowserElement
 }
+saveRequestAndResponseBodies
+:
+true
 }
 }
 ;
