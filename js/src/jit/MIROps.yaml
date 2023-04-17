@@ -2174,9 +2174,6 @@ operands
 def
 :
 Value
-type_policy
-:
-none
 result_type
 :
 RefOrNull
