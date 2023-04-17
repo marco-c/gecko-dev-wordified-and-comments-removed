@@ -8109,8 +8109,10 @@ VREventObserver
 >
 mVREventObserver
 ;
-int64_t
-mBeforeUnloadListenerCount
+uint64_t
+mUnloadOrBeforeUnloadListenerCount
+=
+0
 ;
 RefPtr
 <
