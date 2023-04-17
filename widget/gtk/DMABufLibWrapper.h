@@ -925,6 +925,11 @@ IsDMABufTexturesEnabled
 )
 ;
 bool
+IsDMABufVideoEnabled
+(
+)
+;
+bool
 IsDMABufVAAPIEnabled
 (
 )
