@@ -3882,10 +3882,6 @@ false
 CheckFamilyList
 (
 kBaseFonts
-ArrayLength
-(
-kBaseFonts
-)
 )
 ;
 sFontManager
@@ -4126,10 +4122,6 @@ FamilyInList
 (
 aName
 kBaseFonts
-ArrayLength
-(
-kBaseFonts
-)
 )
 )
 {
