@@ -3106,6 +3106,17 @@ sInitializedJS
 false
 ;
 }
+mozilla
+:
+:
+KillClearOnShutdown
+(
+ShutdownPhase
+:
+:
+JSPostShutDown
+)
+;
 xpc
 :
 :
