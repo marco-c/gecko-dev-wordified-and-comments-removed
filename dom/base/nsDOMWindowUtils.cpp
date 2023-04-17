@@ -12010,7 +12010,10 @@ nsIContent
 >
 content
 =
-do_QueryInterface
+nsIContent
+:
+:
+FromNodeOrNull
 (
 aTarget
 )

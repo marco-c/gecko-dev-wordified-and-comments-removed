@@ -3196,7 +3196,10 @@ nsIContent
 >
 content
 =
-do_QueryInterface
+nsIContent
+:
+:
+FromEventTargetOrNull
 (
 touch
 -

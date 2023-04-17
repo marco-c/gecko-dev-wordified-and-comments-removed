@@ -2877,7 +2877,10 @@ nsIContent
 >
 originalTarget
 =
-do_QueryInterface
+nsIContent
+:
+:
+FromEventTargetOrNull
 (
 aVisitor
 .
@@ -2978,7 +2981,10 @@ nsIContent
 >
 content
 (
-do_QueryInterface
+nsIContent
+:
+:
+FromEventTargetOrNull
 (
 aVisitor
 .

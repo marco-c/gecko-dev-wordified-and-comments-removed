@@ -9881,7 +9881,10 @@ node
 {
 node
 =
-do_QueryInterface
+nsINode
+:
+:
+FromEventTarget
 (
 parentTarget
 )
@@ -9891,6 +9894,7 @@ if
 (
 node
 )
+{
 return
 MayHavePaintEventListener
 (
@@ -9907,6 +9911,7 @@ GetInnerWindow
 )
 )
 ;
+}
 nsCOMPtr
 <
 nsPIDOMWindowInner

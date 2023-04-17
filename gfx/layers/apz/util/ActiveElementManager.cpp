@@ -185,7 +185,13 @@ return
 }
 mTarget
 =
-do_QueryInterface
+dom
+:
+:
+Element
+:
+:
+FromEventTargetOrNull
 (
 aTarget
 )
