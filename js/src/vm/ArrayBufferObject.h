@@ -119,10 +119,6 @@ void
 *
 MapBufferMemory
 (
-wasm
-:
-:
-IndexType
 size_t
 mappedSize
 size_t
@@ -154,11 +150,6 @@ newMappedSize
 void
 UnmapBufferMemory
 (
-wasm
-:
-:
-IndexType
-t
 void
 *
 dataStart
@@ -1683,11 +1674,6 @@ wasmGrowToPagesInPlace
 wasm
 :
 :
-IndexType
-t
-wasm
-:
-:
 Pages
 newPages
 Handle
@@ -1716,11 +1702,6 @@ static
 bool
 wasmMovingGrowToPages
 (
-wasm
-:
-:
-IndexType
-t
 wasm
 :
 :
@@ -1965,7 +1946,7 @@ ArrayBufferObject
 >
 ;
 bool
-CreateWasmBuffer
+CreateWasmBuffer32
 (
 JSContext
 *

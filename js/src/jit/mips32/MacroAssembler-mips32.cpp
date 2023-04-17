@@ -13378,14 +13378,14 @@ Register
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 ma_b
 (
 index
 boundsCheckLimit
-ok
+label
 cond
 )
 ;
@@ -13404,7 +13404,7 @@ Address
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 SecondScratchRegisterScope
@@ -13424,7 +13424,7 @@ ma_b
 (
 index
 SecondScratchReg
-ok
+label
 cond
 )
 ;

@@ -12962,14 +12962,14 @@ Register
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 ma_b
 (
 index
 boundsCheckLimit
-ok
+label
 cond
 )
 ;
@@ -12988,7 +12988,7 @@ Address
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 SecondScratchRegisterScope
@@ -13008,7 +13008,7 @@ ma_b
 (
 index
 SecondScratchReg
-ok
+label
 cond
 )
 ;
@@ -13027,7 +13027,7 @@ Register64
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 MOZ_CRASH
@@ -13052,7 +13052,7 @@ Address
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 MOZ_CRASH

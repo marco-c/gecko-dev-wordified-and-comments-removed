@@ -434,8 +434,6 @@ extern
 Pages
 MaxMemoryPages
 (
-IndexType
-t
 )
 ;
 static
@@ -443,14 +441,11 @@ inline
 size_t
 MaxMemoryBytes
 (
-IndexType
-t
 )
 {
 return
 MaxMemoryPages
 (
-t
 )
 .
 byteLength
@@ -462,8 +457,6 @@ extern
 size_t
 MaxMemoryBoundsCheckLimit
 (
-IndexType
-t
 )
 ;
 static
@@ -493,8 +486,6 @@ extern
 Pages
 ClampedMaxPages
 (
-IndexType
-t
 Pages
 initialPages
 const

@@ -620,13 +620,6 @@ BaselineAvailable
 (
 cx
 )
-|
-|
-\
-IonAvailable
-(
-cx
-)
 \
 /
 *

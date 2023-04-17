@@ -39207,7 +39207,6 @@ create
 (
 cx
 buffer
-false
 nullptr
 )
 ;
@@ -41553,10 +41552,6 @@ length
 >
 MaxMemoryBytes
 (
-IndexType
-:
-:
-I32
 )
 )
 {
