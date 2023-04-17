@@ -571,6 +571,11 @@ existingTarget
 .
 destroy
 (
+{
+isTargetSwitching
+:
+true
+}
 )
 ;
 }
