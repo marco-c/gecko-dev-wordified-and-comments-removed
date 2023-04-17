@@ -3900,8 +3900,9 @@ GetContainer
 )
 &
 &
-mHTMLEditor
-.
+HTMLEditUtils
+:
+:
 IsEmptyNode
 (
 *
@@ -3910,7 +3911,6 @@ pointToInsert
 GetContainer
 (
 )
-true
 )
 )
 {
