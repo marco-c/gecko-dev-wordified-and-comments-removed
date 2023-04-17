@@ -353,11 +353,18 @@ mozInlineSpellStatus
 mozInlineSpellChecker
 *
 aSpellChecker
+const
+bool
+aForceNavigationWordCheck
 )
 :
 mSpellChecker
 (
 aSpellChecker
+)
+mForceNavigationWordCheck
+(
+aForceNavigationWordCheck
 )
 {
 }
@@ -451,6 +458,7 @@ mozInlineSpellStatus
 {
 &
 aSpellChecker
+false
 }
 }
 ;
@@ -943,6 +951,7 @@ mozInlineSpellStatus
 {
 &
 aSpellChecker
+aForceCheck
 }
 }
 ;
@@ -952,13 +961,6 @@ status
 mOp
 =
 eOpNavigation
-;
-status
--
->
-mForceNavigationWordCheck
-=
-aForceCheck
 ;
 status
 -
@@ -1165,6 +1167,7 @@ mozInlineSpellStatus
 {
 &
 aSpellChecker
+false
 }
 }
 ;
@@ -1229,6 +1232,7 @@ mozInlineSpellStatus
 {
 &
 aSpellChecker
+false
 }
 }
 ;

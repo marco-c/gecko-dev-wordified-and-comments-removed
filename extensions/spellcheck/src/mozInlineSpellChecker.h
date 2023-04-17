@@ -311,6 +311,8 @@ mozInlineSpellStatus
 mozInlineSpellChecker
 *
 aSpellChecker
+bool
+aForceNavigationWordCheck
 )
 ;
 Operation
@@ -340,6 +342,7 @@ nsRange
 >
 mOldNavigationAnchorRange
 ;
+const
 bool
 mForceNavigationWordCheck
 ;
