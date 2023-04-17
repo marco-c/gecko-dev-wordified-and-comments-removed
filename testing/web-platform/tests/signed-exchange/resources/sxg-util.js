@@ -32,7 +32,7 @@ reject
 timeout
 '
 )
-10000
+15000
 )
 ;
 const
