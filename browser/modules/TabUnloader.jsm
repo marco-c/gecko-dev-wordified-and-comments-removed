@@ -466,7 +466,7 @@ memory
 =
 childProcInfo
 .
-residentUniqueSize
+memory
 ;
 }
 }
