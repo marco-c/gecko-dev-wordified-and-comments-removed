@@ -1868,6 +1868,15 @@ BasicLayerManager
 >
 mLayerManager
 ;
+mozilla
+:
+:
+FallbackRenderer
+*
+mRenderer
+=
+nullptr
+;
 }
 ;
 friend
