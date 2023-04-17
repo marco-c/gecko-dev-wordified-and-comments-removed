@@ -80,12 +80,12 @@ log
 .
 4
 "
-memmap
+memmap2
 =
 "
 0
 .
-7
+3
 "
 moz_task
 =
