@@ -348,6 +348,7 @@ handler
 )
 ;
 }
+async
 function
 checkData
 (
@@ -375,7 +376,8 @@ value
 return
 ;
 }
-checkStorageData
+await
+waitForStorageData
 (
 key
 value
@@ -535,6 +537,7 @@ ORIGIN
 ]
 )
 ;
+await
 checkData
 (
 storageType
@@ -555,6 +558,7 @@ ORIGIN_THIRD_PARTY
 ]
 )
 ;
+await
 checkData
 (
 storageType
@@ -675,6 +679,7 @@ ORIGIN
 ]
 )
 ;
+await
 checkData
 (
 storageType
@@ -686,6 +691,7 @@ first
 "
 )
 ;
+await
 checkData
 (
 storageType
@@ -706,6 +712,7 @@ ORIGIN_THIRD_PARTY
 ]
 )
 ;
+await
 checkData
 (
 storageType
@@ -717,6 +724,7 @@ third
 "
 )
 ;
+await
 checkData
 (
 storageType
