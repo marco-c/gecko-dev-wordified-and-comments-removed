@@ -8,13 +8,6 @@ h
 #
 include
 "
-ClientCanvasLayer
-.
-h
-"
-#
-include
-"
 gfx2DGlue
 .
 h

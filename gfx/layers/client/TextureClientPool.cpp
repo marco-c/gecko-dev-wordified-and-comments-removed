@@ -39,17 +39,6 @@ include
 "
 mozilla
 /
-layers
-/
-TiledContentClient
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_layers
 .
 h
