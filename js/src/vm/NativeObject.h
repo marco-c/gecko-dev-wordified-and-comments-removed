@@ -3809,7 +3809,7 @@ keep
 ;
 static
 bool
-maybeToDictionaryModeForPut
+maybeToDictionaryModeForChange
 (
 JSContext
 *
@@ -3896,7 +3896,7 @@ slotOut
 ;
 static
 bool
-putProperty
+changeProperty
 (
 JSContext
 *

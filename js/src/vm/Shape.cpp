@@ -4922,7 +4922,7 @@ bool
 NativeObject
 :
 :
-maybeToDictionaryModeForPut
+maybeToDictionaryModeForChange
 (
 JSContext
 *
@@ -5034,7 +5034,7 @@ bool
 NativeObject
 :
 :
-putProperty
+changeProperty
 (
 JSContext
 *
@@ -5227,7 +5227,7 @@ true
 if
 (
 !
-maybeToDictionaryModeForPut
+maybeToDictionaryModeForChange
 (
 cx
 obj
@@ -5681,7 +5681,7 @@ true
 if
 (
 !
-maybeToDictionaryModeForPut
+maybeToDictionaryModeForChange
 (
 cx
 obj

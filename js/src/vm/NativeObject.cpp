@@ -6590,7 +6590,7 @@ if
 NativeObject
 :
 :
-putProperty
+changeProperty
 (
 cx
 obj
@@ -7137,7 +7137,7 @@ if
 NativeObject
 :
 :
-putProperty
+changeProperty
 (
 cx
 obj
