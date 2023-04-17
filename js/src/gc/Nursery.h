@@ -2286,6 +2286,12 @@ currentChunk_
 size_t
 capacity_
 ;
+gc
+:
+:
+PretenuringNursery
+pretenuringNursery
+;
 mozilla
 :
 :
@@ -2309,6 +2315,9 @@ canAllocateBigInts_
 ;
 bool
 reportDeduplications_
+;
+bool
+reportPretenuring_
 ;
 mutable
 JS
