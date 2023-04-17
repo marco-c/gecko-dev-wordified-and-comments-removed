@@ -272,12 +272,12 @@ if
 !
 toolbox
 .
-_experimentalPrefsTooltip
+_fissionPrefsTooltip
 )
 {
 toolbox
 .
-_experimentalPrefsTooltip
+_fissionPrefsTooltip
 =
 new
 HTMLTooltip
@@ -310,7 +310,7 @@ destroy
 >
 toolbox
 .
-_experimentalPrefsTooltip
+_fissionPrefsTooltip
 .
 destroy
 (
@@ -322,7 +322,7 @@ if
 (
 toolbox
 .
-_experimentalPrefsTooltip
+_fissionPrefsTooltip
 .
 preventShow
 )
@@ -343,14 +343,14 @@ command
 -
 button
 -
-experimental
+fission
 -
 prefs
 "
 ;
 toolbox
 .
-_experimentalPrefsTooltip
+_fissionPrefsTooltip
 .
 show
 (
@@ -366,7 +366,7 @@ commandId
 ;
 toolbox
 .
-_experimentalPrefsTooltip
+_fissionPrefsTooltip
 .
 preventShow
 =
@@ -374,7 +374,7 @@ true
 ;
 toolbox
 .
-_experimentalPrefsTooltip
+_fissionPrefsTooltip
 .
 once
 (
@@ -399,7 +399,7 @@ setTimeout
 (
 toolbox
 .
-_experimentalPrefsTooltip
+_fissionPrefsTooltip
 .
 preventShow
 =
@@ -615,7 +615,7 @@ textContent
 =
 "
 DevTools
-Experimental
+Fission
 preferences
 "
 ;
@@ -800,7 +800,7 @@ prefList
 ;
 toolbox
 .
-_experimentalPrefsTooltip
+_fissionPrefsTooltip
 .
 panel
 .
@@ -811,7 +811,7 @@ innerHTML
 ;
 toolbox
 .
-_experimentalPrefsTooltip
+_fissionPrefsTooltip
 .
 panel
 .
@@ -825,7 +825,7 @@ unset
 ;
 toolbox
 .
-_experimentalPrefsTooltip
+_fissionPrefsTooltip
 .
 panel
 .
@@ -977,7 +977,7 @@ classList
 add
 (
 "
-experimental
+fission
 -
 pref
 -
