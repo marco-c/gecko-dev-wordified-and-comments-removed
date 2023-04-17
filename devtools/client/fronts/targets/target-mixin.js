@@ -260,6 +260,7 @@ eventName
 ]
 ;
 }
+return
 super
 .
 on
