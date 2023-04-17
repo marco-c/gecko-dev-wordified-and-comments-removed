@@ -1773,12 +1773,6 @@ unbarrieredGet
 }
 inline
 bool
-globalIsAboutToBeFinalized
-(
-)
-;
-inline
-bool
 hasLiveGlobal
 (
 )
