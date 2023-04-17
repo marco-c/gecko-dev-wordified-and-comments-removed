@@ -1081,6 +1081,16 @@ backgroundColor
 !
 =
 0
+&
+&
+frame
+-
+>
+ComputeShouldPaintBackground
+(
+)
+.
+mColor
 )
 {
 return
