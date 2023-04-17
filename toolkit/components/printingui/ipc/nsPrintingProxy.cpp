@@ -528,6 +528,15 @@ inSettings
 ;
 SpinEventLoopUntil
 (
+"
+printingui
+:
+nsPrintingProxy
+:
+:
+ShowPrintDialog
+"
+_ns
 [
 &
 dialog
