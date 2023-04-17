@@ -1534,7 +1534,9 @@ perfherder
         
 if
 "
-gecko_profile
+gecko
+-
+profile
 "
 in
 extra_opts

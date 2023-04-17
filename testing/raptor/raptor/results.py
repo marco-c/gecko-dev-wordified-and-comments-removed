@@ -63,7 +63,9 @@ live
 "
     
 "
-gecko_profile
+gecko
+-
+profile
 "
     
 "
@@ -379,7 +381,9 @@ extra_options
 append
 (
 "
-gecko_profile
+gecko
+-
+profile
 "
 )
             
