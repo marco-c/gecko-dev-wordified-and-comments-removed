@@ -1417,6 +1417,7 @@ _setupTest
 (
 win
 cookieBehavior
+runInPrivateWindow
 extraPrefs
 )
 {
@@ -1425,6 +1426,13 @@ SpecialPowers
 .
 flushPrefEnv
 (
+)
+;
+await
+setCookieBehaviorPref
+(
+cookieBehavior
+runInPrivateWindow
 )
 ;
 await
@@ -1445,16 +1453,6 @@ storage_access
 enabled
 "
 true
-]
-[
-"
-network
-.
-cookie
-.
-cookieBehavior
-"
-cookieBehavior
 ]
 [
 "
@@ -2019,6 +2017,9 @@ win
 options
 .
 cookieBehavior
+options
+.
+runInPrivateWindow
 options
 .
 extraPrefs
@@ -3914,6 +3915,7 @@ _setupTest
 (
 win
 cookieBehavior
+runInPrivateWindow
 extraPrefs
 )
 ;
@@ -4493,6 +4495,7 @@ _setupTest
 (
 win
 cookieBehavior
+runInPrivateWindow
 extraPrefs
 )
 ;

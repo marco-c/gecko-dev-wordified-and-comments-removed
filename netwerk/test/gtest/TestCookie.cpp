@@ -519,6 +519,10 @@ CookieJarSettings
 :
 Create
 (
+CookieJarSettings
+:
+:
+eRegular
 )
 :
 CookieJarSettings
