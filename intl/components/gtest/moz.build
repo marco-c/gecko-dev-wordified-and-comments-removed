@@ -8,6 +8,11 @@ TestCalendar
 cpp
 "
 "
+TestCollator
+.
+cpp
+"
+"
 TestDateTimeFormat
 .
 cpp
