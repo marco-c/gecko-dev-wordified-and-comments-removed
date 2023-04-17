@@ -3786,7 +3786,7 @@ transformation
 .
 rotate3d
 .
-X
+x
 desc
 :
 rotate3d
@@ -3811,7 +3811,7 @@ transformation
 .
 rotate3d
 .
-X
+x
 code
 :
 |
@@ -3914,7 +3914,7 @@ transformation
 .
 rotate3d
 .
-Y
+y
 desc
 :
 rotate3d
@@ -3939,7 +3939,7 @@ transformation
 .
 rotate3d
 .
-Y
+y
 code
 :
 |
@@ -4042,7 +4042,7 @@ transformation
 .
 rotate3d
 .
-Z
+z
 desc
 :
 rotate3d
@@ -4067,7 +4067,7 @@ transformation
 .
 rotate3d
 .
-Z
+z
 code
 :
 |
