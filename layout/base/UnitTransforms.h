@@ -61,7 +61,6 @@ NoTransformOnLayer
 LayerIsImage
 ExternalIsScreen
 ContentProcessIsLayerInUiProcess
-TransformToAncestorScaleIsStoredUntyped
 }
 ;
 template
