@@ -263,17 +263,6 @@ int32_t
 aOffset
 )
 ;
-void
-DefaultTextAttributes
-(
-RefPtr
-<
-AccAttributes
->
-*
-aAttrs
-)
-;
 nsIntRect
 TextBounds
 (

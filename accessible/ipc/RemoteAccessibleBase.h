@@ -980,6 +980,16 @@ return
 1
 ;
 }
+virtual
+already_AddRefed
+<
+AccAttributes
+>
+DefaultTextAttributes
+(
+)
+override
+;
 protected
 :
 RemoteAccessibleBase

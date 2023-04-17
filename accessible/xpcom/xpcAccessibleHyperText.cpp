@@ -855,6 +855,15 @@ mIntl
 IsRemote
 (
 )
+&
+&
+!
+StaticPrefs
+:
+:
+accessibility_cache_enabled_AtStartup
+(
+)
 )
 {
 return
@@ -867,7 +876,7 @@ AccAttributes
 >
 attributes
 =
-IntlLocal
+Intl
 (
 )
 -

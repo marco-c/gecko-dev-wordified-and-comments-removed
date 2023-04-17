@@ -532,6 +532,7 @@ aEndOffset
 )
 override
 ;
+virtual
 already_AddRefed
 <
 AccAttributes
@@ -539,6 +540,7 @@ AccAttributes
 DefaultTextAttributes
 (
 )
+override
 ;
 using
 HyperTextAccessibleBase
