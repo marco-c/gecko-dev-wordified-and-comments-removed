@@ -26,11 +26,11 @@ algorithm
 >
 #
 include
-"
-plstr
+<
+string
 .
 h
-"
+>
 #
 include
 "
@@ -521,7 +521,7 @@ if
 (
 p
 =
-PL_strchr
+strchr
 (
 buf
 '
@@ -533,11 +533,13 @@ buf
 =
 nullptr
 )
+{
 *
 p
 =
 0
 ;
+}
 parsedval
 =
 strtoul

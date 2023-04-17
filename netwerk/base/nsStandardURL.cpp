@@ -195,6 +195,13 @@ nsIClassInfoImpl
 .
 h
 "
+#
+include
+<
+string
+.
+h
+>
 static
 LazyLogModule
 gStandardURLLog
@@ -13574,7 +13581,7 @@ resultPath
 {
 resultPath
 =
-PL_strchr
+strchr
 (
 resultPath
 +
