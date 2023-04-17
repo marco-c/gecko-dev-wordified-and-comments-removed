@@ -1561,7 +1561,7 @@ n
 "
 mQueuedStreams
 .
-GetSize
+Length
 (
 )
 )
