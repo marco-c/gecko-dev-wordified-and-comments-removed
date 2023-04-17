@@ -5024,13 +5024,6 @@ MOZ_WEBRTC
 "
 webrtc
 )
-add_old_configure_assignment
-(
-"
-MOZ_WEBRTC
-"
-webrtc
-)
 set_config
 (
 "
