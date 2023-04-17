@@ -550,13 +550,13 @@ Cancel
 (
 )
 {
-MaybeCancelOffThreadScript
-(
-)
-;
 mIsCanceled
 =
 true
+;
+MaybeCancelOffThreadScript
+(
+)
 ;
 }
 void
