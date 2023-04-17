@@ -80,10 +80,13 @@ nsICookie
 >
 sessionCookies
 ;
-readonly
-attribute
 uint32_t
-cookieBehavior
+getCookieBehavior
+(
+in
+boolean
+aIsPrivate
+)
 ;
 %
 {
@@ -94,6 +97,8 @@ static
 uint32_t
 GetCookieBehavior
 (
+bool
+aIsPrivate
 )
 ;
 %

@@ -3951,7 +3951,10 @@ Services
 .
 cookies
 .
-cookieBehavior
+getCookieBehavior
+(
+false
+)
 =
 =
 Ci

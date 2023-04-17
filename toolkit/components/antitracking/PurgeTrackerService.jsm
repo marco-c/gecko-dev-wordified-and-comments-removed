@@ -1394,7 +1394,10 @@ Services
 .
 cookies
 .
-cookieBehavior
+getCookieBehavior
+(
+false
+)
 ;
 let
 activeWithCookieBehavior
