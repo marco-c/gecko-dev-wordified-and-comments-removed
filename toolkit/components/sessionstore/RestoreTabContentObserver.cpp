@@ -312,11 +312,8 @@ GetObserverService
 ;
 if
 (
-NS_WARN_IF
-(
 !
 obs
-)
 )
 {
 return
