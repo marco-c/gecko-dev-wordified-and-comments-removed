@@ -117,7 +117,7 @@ class
 DisplayportSetListener
 :
 public
-OneShotPostRefreshObserver
+ManagedPostRefreshObserver
 {
 public
 :
@@ -148,8 +148,8 @@ DisplayportSetListener
 (
 )
 ;
-bool
-Register
+void
+TryRegister
 (
 )
 ;
@@ -170,16 +170,9 @@ ScrollableLayerGuid
 >
 mTargets
 ;
-static
 void
 OnPostRefresh
 (
-DisplayportSetListener
-*
-aListener
-PresShell
-*
-aPresShell
 )
 ;
 }
@@ -356,7 +349,7 @@ aWidget
 )
 ;
 static
-UniquePtr
+already_AddRefed
 <
 DisplayportSetListener
 >

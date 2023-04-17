@@ -2565,7 +2565,6 @@ AddPostRefreshObserver
 (
 nsAPostRefreshObserver
 *
-aObserver
 )
 ;
 bool
@@ -2574,9 +2573,8 @@ AddPostRefreshObserver
 mozilla
 :
 :
-OneShotPostRefreshObserver
+ManagedPostRefreshObserver
 *
-aObserver
 )
 =
 delete
@@ -2586,7 +2584,6 @@ RemovePostRefreshObserver
 (
 nsAPostRefreshObserver
 *
-aObserver
 )
 ;
 bool
@@ -2595,9 +2592,8 @@ RemovePostRefreshObserver
 mozilla
 :
 :
-OneShotPostRefreshObserver
+ManagedPostRefreshObserver
 *
-aObserver
 )
 =
 delete
