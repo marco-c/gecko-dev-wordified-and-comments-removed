@@ -15598,6 +15598,15 @@ intl_FormatNumber
 JS_FN
 (
 "
+intl_FormatNumberRange
+"
+intl_FormatNumberRange
+4
+0
+)
+JS_FN
+(
+"
 intl_FormatRelativeTime
 "
 intl_FormatRelativeTime
