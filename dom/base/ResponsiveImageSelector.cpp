@@ -2828,7 +2828,6 @@ iter
 break
 ;
 }
-else
 if
 (
 nsContentUtils
