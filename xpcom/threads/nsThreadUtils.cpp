@@ -3844,15 +3844,6 @@ nsISerialEventTarget
 aTarget
 )
 {
-if
-(
-gXPCOMThreadsShutDown
-)
-{
-return
-NS_ERROR_NOT_AVAILABLE
-;
-}
 nsCOMPtr
 <
 nsISerialEventTarget
