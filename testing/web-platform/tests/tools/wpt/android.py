@@ -905,12 +905,6 @@ get_emulator
 dest
 )
     
-emulator
-.
-update_avd
-(
-)
-    
 return
 emulator
 def
@@ -966,11 +960,26 @@ check_avd
 )
 :
         
-emulator
+logger
 .
-update_avd
+critical
 (
+"
+Android
+AVD
+not
+found
+please
+run
+|
+mach
+bootstrap
+|
+"
 )
+        
+raise
+NotImplementedError
     
 emulator
 .
