@@ -395,11 +395,6 @@ GenerationalGC
 ;
 #
 endif
-setNativeStackQuota
-(
-cx
-)
-;
 return
 cx
 ;

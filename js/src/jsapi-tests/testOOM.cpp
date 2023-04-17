@@ -137,11 +137,6 @@ uint32_t
 1
 )
 ;
-setNativeStackQuota
-(
-cx
-)
-;
 return
 cx
 ;

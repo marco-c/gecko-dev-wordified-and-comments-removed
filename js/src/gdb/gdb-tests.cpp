@@ -286,12 +286,6 @@ JSGC_MAX_BYTES
 0xffffffff
 )
 ;
-JS_SetNativeStackQuota
-(
-cx
-5000000
-)
-;
 checkBool
 (
 JS
