@@ -604,6 +604,15 @@ mAPIObjectType
 aCallOptions
 -
 >
+GetApiObjectPrepended
+(
+&
+mAPIObjectPrepended
+)
+;
+aCallOptions
+-
+>
 GetCallbackType
 (
 &
@@ -776,6 +785,9 @@ bool
 mIsCallResultCancelled
 =
 false
+;
+bool
+mAPIObjectPrepended
 ;
 APIObjectType
 mAPIObjectType
