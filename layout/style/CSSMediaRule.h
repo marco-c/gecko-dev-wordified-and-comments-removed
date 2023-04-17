@@ -111,15 +111,6 @@ return
 mRawRule
 ;
 }
-void
-SetRawAfterClone
-(
-RefPtr
-<
-RawServoMediaRule
->
-)
-;
 uint16_t
 Type
 (

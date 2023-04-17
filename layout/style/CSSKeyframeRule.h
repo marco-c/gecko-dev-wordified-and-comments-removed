@@ -121,15 +121,6 @@ return
 mRaw
 ;
 }
-void
-SetRawAfterClone
-(
-RefPtr
-<
-RawServoKeyframe
->
-)
-;
 uint16_t
 Type
 (
