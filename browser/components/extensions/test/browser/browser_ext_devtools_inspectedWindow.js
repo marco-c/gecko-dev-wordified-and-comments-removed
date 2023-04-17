@@ -112,12 +112,10 @@ jsm
 "
 )
 ;
-const
-targets
-=
+return
 TargetActorRegistry
 .
-getTargetActors
+getTargetActorsCountForBrowserElement
 (
 content
 .
@@ -125,11 +123,6 @@ browsingContext
 .
 browserId
 )
-;
-return
-targets
-.
-length
 ;
 }
 )

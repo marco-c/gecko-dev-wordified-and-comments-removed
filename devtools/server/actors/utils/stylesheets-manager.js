@@ -2709,9 +2709,9 @@ TargetActorRegistry
 .
 getTargetActors
 (
-targetActor
+sessionData
 .
-browserId
+context
 sessionData
 .
 connectionPrefix
