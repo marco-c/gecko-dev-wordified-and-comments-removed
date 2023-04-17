@@ -4054,6 +4054,13 @@ v
 next
 )
 {
+if
+(
+v
+.
+name
+)
+{
 variables
 .
 push
@@ -4063,6 +4070,7 @@ v
 name
 )
 ;
+}
 }
 }
 }
@@ -4113,6 +4121,13 @@ v
 next
 )
 {
+if
+(
+v
+.
+name
+)
+{
 variables
 .
 push
@@ -4122,6 +4137,7 @@ v
 name
 )
 ;
+}
 }
 }
 }
