@@ -2395,6 +2395,15 @@ false
 if
 (
 obfuscate_host_addresses
+&
+&
+!
+mParent
+-
+>
+RelayOnly
+(
+)
 )
 {
 std
