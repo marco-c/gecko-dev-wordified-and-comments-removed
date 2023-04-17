@@ -186,6 +186,9 @@ __file__
 .
 .
 /
+.
+.
+/
 resources
 /
 wbn
