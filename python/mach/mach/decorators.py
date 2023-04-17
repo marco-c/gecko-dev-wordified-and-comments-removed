@@ -7,6 +7,10 @@ import
 argparse
 import
 collections
+import
+collections
+.
+abc
 from
 .
 base
@@ -631,6 +635,8 @@ command
 .
 conditions
 collections
+.
+abc
 .
 Iterable
 )
