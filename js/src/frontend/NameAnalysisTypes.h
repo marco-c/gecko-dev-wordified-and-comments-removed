@@ -825,7 +825,7 @@ UINT8_MAX
 uint32_t
 slot
 =
-ENVCOORD_SLOT_LIMIT
+0
 )
 :
 kind_
