@@ -1873,10 +1873,6 @@ continue
 }
 if
 (
-!
-contileEnabled
-&
-&
 siteData
 .
 sponsored_position
