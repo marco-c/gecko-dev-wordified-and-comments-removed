@@ -344,6 +344,9 @@ sanitize
 xhtml
 "
 {
+inBrowserWindow
+:
+true
 }
 )
 ;
