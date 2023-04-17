@@ -235,7 +235,7 @@ webdriver_args
 )
             
 "
-stackparser_script
+stackwalk_binary
 "
 :
 kwargs
@@ -243,12 +243,12 @@ kwargs
 get
 (
 "
-stackparser_script
+stackwalk_binary
 "
 )
             
 "
-output_directory
+symbols_path
 "
 :
 kwargs
@@ -256,7 +256,7 @@ kwargs
 get
 (
 "
-output_directory
+symbols_path
 "
 )
 }
@@ -831,11 +831,11 @@ webdriver_args
 =
 None
                  
-stackparser_script
+stackwalk_binary
 =
 None
                  
-output_directory
+symbols_path
 =
 None
 )
@@ -860,15 +860,15 @@ device_serial
         
 self
 .
-stackparser_script
+stackwalk_binary
 =
-stackparser_script
+stackwalk_binary
         
 self
 .
-output_directory
+symbols_path
 =
-output_directory
+symbols_path
         
 self
 .
@@ -1256,17 +1256,34 @@ return
 cmd
     
 def
+check_crash
+(
+self
+process
+test
+)
+:
+        
+self
+.
+maybe_parse_tombstone
+(
+)
+        
+return
+False
+    
+def
 maybe_parse_tombstone
 (
 self
-logger
 )
 :
         
 if
 self
 .
-stackparser_script
+stackwalk_binary
 :
             
 cmd
@@ -1274,7 +1291,7 @@ cmd
 [
 self
 .
-stackparser_script
+stackwalk_binary
 "
 -
 a
@@ -1321,7 +1338,7 @@ directory
 "
 self
 .
-output_directory
+symbols_path
 ]
 )
             
@@ -1344,6 +1361,8 @@ splitlines
 )
 :
                 
+self
+.
 logger
 .
 process_output
@@ -1505,11 +1524,11 @@ webdriver_args
 =
 None
                  
-stackparser_script
+stackwalk_binary
 =
 None
                  
-output_directory
+symbols_path
 =
 None
 )
@@ -1530,8 +1549,8 @@ remote_queue
 device_serial
                 
 webdriver_args
-stackparser_script
-output_directory
+stackwalk_binary
+symbols_path
 )
         
 self
