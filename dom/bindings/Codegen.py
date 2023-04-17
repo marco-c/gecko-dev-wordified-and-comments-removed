@@ -61460,10 +61460,8 @@ operations
 def
 __init__
 (
-        
 self
 type
-interfaceMember
 name
 =
 "
@@ -61472,7 +61470,6 @@ arg
 allowTreatNonCallableAsNull
 =
 False
-    
 )
 :
         
@@ -61663,7 +61660,6 @@ None
 FakeArgument
 (
 argType
-attr
 allowTreatNonCallableAsNull
 =
 True
@@ -82797,7 +82793,6 @@ append
                     
 FakeArgument
 (
-                        
 BuiltinTypes
 [
 IDLBuiltinType
@@ -82806,10 +82801,6 @@ Types
 .
 boolean
 ]
-self
-.
-idlNode
-                    
 )
                     
 self
@@ -114287,7 +114278,6 @@ FakeArgument
 attr
 .
 type
-attr
 )
 ]
 )
@@ -114716,7 +114706,6 @@ Types
 .
 boolean
 ]
-op
 name
 =
 "
@@ -117932,7 +117921,6 @@ FakeArgument
 attr
 .
 type
-attr
 )
 ]
 )
@@ -117993,9 +117981,6 @@ self
 member
 .
 type
-self
-.
-member
 )
 ]
             
@@ -125522,7 +125507,6 @@ FakeArgument
 attr
 .
 type
-attr
 )
 ]
 )
@@ -125913,10 +125897,8 @@ void
 ]
                 
 [
-                    
 FakeArgument
 (
-                        
 BuiltinTypes
 [
 IDLBuiltinType
@@ -125925,13 +125907,10 @@ Types
 .
 domstring
 ]
-None
 "
 aType
 "
-                    
 )
-                
 ]
             
 )
@@ -128689,7 +128668,6 @@ FakeArgument
 maplikeOrSetlike
 .
 keyType
-None
 "
 aKey
 "
@@ -128716,7 +128694,6 @@ FakeArgument
 maplikeOrSetlike
 .
 valueType
-None
 "
 aValue
 "
