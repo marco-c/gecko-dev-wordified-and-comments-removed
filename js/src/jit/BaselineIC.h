@@ -1405,14 +1405,6 @@ state_
 ;
 }
 void
-trace
-(
-JSTracer
-*
-trc
-)
-;
-void
 fixupICEntry
 (
 ICEntry
