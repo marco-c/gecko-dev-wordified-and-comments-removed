@@ -2497,7 +2497,7 @@ fallbackSymbol
 {
 fallbackSymbol
 =
-std_Symbol
+Symbol
 (
 "
 IntlLegacyConstructedSymbol

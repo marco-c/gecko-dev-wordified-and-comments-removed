@@ -123,11 +123,6 @@ output
 .
 #
 endif
-var
-std_Symbol
-=
-Symbol
-;
 function
 new_List
 (
