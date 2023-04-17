@@ -3843,7 +3843,9 @@ null
 fm
 .
 MOVEFOCUS_FIRST
-0
+fm
+.
+FLAG_NOSHOWRING
 )
 ;
 if
