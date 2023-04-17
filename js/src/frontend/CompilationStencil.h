@@ -344,6 +344,7 @@ EnclosingLexicalBindingKind
 Let
 Const
 CatchParameter
+Synthetic
 }
 ;
 using

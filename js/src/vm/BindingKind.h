@@ -53,6 +53,7 @@ Var
 Let
 Const
 NamedLambdaCallee
+Synthetic
 }
 ;
 static

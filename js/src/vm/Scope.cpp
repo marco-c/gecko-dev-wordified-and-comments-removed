@@ -288,6 +288,17 @@ lambda
 callee
 "
 ;
+case
+BindingKind
+:
+:
+Synthetic
+:
+return
+"
+synthetic
+"
+;
 }
 MOZ_CRASH
 (
@@ -10167,6 +10178,9 @@ init
 0
 0
 0
+data
+.
+length
 CanHaveEnvironmentSlots
 |
 flags
@@ -10198,6 +10212,9 @@ init
 slotInfo
 .
 constStart
+data
+.
+length
 CanHaveFrameSlots
 |
 CanHaveEnvironmentSlots
@@ -10315,6 +10332,9 @@ init
 slotInfo
 .
 constStart
+data
+.
+length
 CanHaveFrameSlots
 |
 CanHaveEnvironmentSlots
@@ -10460,6 +10480,7 @@ slotInfo
 varStart
 length
 length
+length
 flags
 0
 JSSLOT_FREE
@@ -10565,6 +10586,7 @@ init
 0
 0
 0
+length
 length
 length
 CanHaveFrameSlots
@@ -10679,6 +10701,9 @@ letStart
 slotInfo
 .
 constStart
+data
+.
+length
 CannotHaveSlots
 UINT32_MAX
 UINT32_MAX
@@ -10828,6 +10853,7 @@ init
 0
 length
 length
+length
 flags
 firstFrameSlot
 firstEnvironmentSlot
@@ -10937,6 +10963,9 @@ letStart
 slotInfo
 .
 constStart
+data
+.
+length
 CanHaveFrameSlots
 |
 CanHaveEnvironmentSlots
@@ -11042,6 +11071,7 @@ init
 0
 length
 length
+length
 CanHaveFrameSlots
 |
 CanHaveEnvironmentSlots
@@ -11138,6 +11168,7 @@ init
 0
 0
 0
+length
 length
 length
 CanHaveFrameSlots
