@@ -22,6 +22,13 @@ h
 "
 #
 include
+"
+nsString
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -122,6 +129,12 @@ VISPEROSHARED
 )
 ;
 }
+static
+uint16_t
+GetActCtxResourceId
+(
+)
+;
 static
 void
 GetHumanReadableConsumersStr
