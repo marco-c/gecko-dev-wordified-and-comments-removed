@@ -15,4 +15,3 @@ platforms
 android
 -
 30
-emulator
