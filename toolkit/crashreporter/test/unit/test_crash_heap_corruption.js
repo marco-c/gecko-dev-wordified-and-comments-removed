@@ -145,7 +145,7 @@ crash_info
 .
 type
 "
-EXCEPTION_HEAP_CORRUPTION
+STATUS_HEAP_CORRUPTION
 "
 )
 ;
