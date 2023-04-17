@@ -167,7 +167,7 @@ central
 /
 source
 /
-testing
+remote
 /
 marionette
 /
