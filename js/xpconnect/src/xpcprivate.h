@@ -8803,6 +8803,11 @@ WebSocket
 1
 ;
 bool
+Window
+:
+1
+;
+bool
 XMLSerializer
 :
 1
