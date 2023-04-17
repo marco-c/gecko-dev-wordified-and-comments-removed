@@ -946,6 +946,16 @@ reportError
 )
 {
 }
+cloneInto
+:
+a
+=
+>
+{
+return
+a
+;
+}
 }
 dump
 (
