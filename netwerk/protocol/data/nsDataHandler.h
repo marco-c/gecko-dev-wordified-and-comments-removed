@@ -97,7 +97,7 @@ nsresult
 ParseURI
 (
 const
-nsCString
+nsACString
 &
 spec
 nsCString
