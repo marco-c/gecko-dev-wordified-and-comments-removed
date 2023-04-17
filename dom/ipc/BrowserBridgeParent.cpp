@@ -675,6 +675,9 @@ if
 mBrowserParent
 )
 {
+#
+ifdef
+ACCESSIBILITY
 if
 (
 mEmbedderAccessibleDoc
@@ -698,6 +701,8 @@ this
 )
 ;
 }
+#
+endif
 mBrowserParent
 -
 >
