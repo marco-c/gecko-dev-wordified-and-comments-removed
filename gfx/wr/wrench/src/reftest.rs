@@ -2967,9 +2967,6 @@ paths
 is_empty
 (
 )
-format
-!
-(
 "
 paths
 =
@@ -2979,7 +2976,6 @@ paths
 }
 "
 paths
-)
 )
 ;
 continue
@@ -5567,9 +5563,6 @@ height
 window_size
 .
 height
-format
-!
-(
 "
 size
 =
@@ -5586,7 +5579,6 @@ ws
 "
 size
 window_size
-)
 )
 ;
 let
