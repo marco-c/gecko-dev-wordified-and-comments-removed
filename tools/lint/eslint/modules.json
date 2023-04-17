@@ -2789,17 +2789,6 @@ Observers
 "
 ]
 "
-offlineAppCache
-.
-jsm
-"
-:
-[
-"
-OfflineAppCacheHelper
-"
-]
-"
 OrientationChangeHandler
 .
 jsm

@@ -257,12 +257,6 @@ usage
 "
 )
 ;
-OfflineAppCacheHelper
-.
-clear
-(
-)
-;
 await
 new
 Promise
