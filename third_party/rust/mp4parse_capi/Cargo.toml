@@ -190,7 +190,7 @@ version
 "
 0
 .
-3
+4
 "
 features
 =
@@ -283,5 +283,14 @@ mp4parse
 meta
 -
 xml
+"
+]
+mp4v
+=
+[
+"
+mp4parse
+/
+mp4v
 "
 ]
