@@ -910,7 +910,7 @@ mod
 custom
 ;
 mod
-tag
+event
 ;
 mod
 export
@@ -1076,12 +1076,6 @@ assert_unlinkable
 custom_keyword
 !
 (
-assert_uncaught_exception
-)
-;
-custom_keyword
-!
-(
 before
 )
 ;
@@ -1166,7 +1160,7 @@ end
 custom_keyword
 !
 (
-tag
+event
 )
 ;
 custom_keyword

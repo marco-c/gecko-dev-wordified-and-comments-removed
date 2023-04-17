@@ -50,7 +50,7 @@ Global
 Memory
 Module
 Instance
-Tag
+Event
 Type
 }
 impl
@@ -134,13 +134,13 @@ Module
 ExportKind
 :
 :
-Tag
+Event
 =
 >
 Ns
 :
 :
-Tag
+Event
 ExportKind
 :
 :

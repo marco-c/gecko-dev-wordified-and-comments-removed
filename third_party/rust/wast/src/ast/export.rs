@@ -94,7 +94,7 @@ Func
 Table
 Memory
 Global
-Tag
+Event
 Module
 Instance
 Type
@@ -383,7 +383,7 @@ peek
 kw
 :
 :
-tag
+event
 >
 (
 )
@@ -397,7 +397,7 @@ parse
 kw
 :
 :
-tag
+event
 >
 (
 )
@@ -408,7 +408,7 @@ Ok
 ExportKind
 :
 :
-Tag
+Event
 )
 }
 else
@@ -662,10 +662,10 @@ global
 =
 >
 Global
-tag
+event
 =
 >
-Tag
+Event
 memory
 =
 >
