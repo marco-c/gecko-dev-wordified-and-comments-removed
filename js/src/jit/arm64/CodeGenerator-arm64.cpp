@@ -23898,7 +23898,7 @@ op
 )
 {
 case
-LWasmShuffleSimd128
+SimdShuffleOp
 :
 :
 BLEND_8x16
@@ -23930,7 +23930,7 @@ break
 ;
 }
 case
-LWasmShuffleSimd128
+SimdShuffleOp
 :
 :
 BLEND_16x8
@@ -23962,7 +23962,7 @@ break
 ;
 }
 case
-LWasmShuffleSimd128
+SimdShuffleOp
 :
 :
 CONCAT_RIGHT_SHIFT_8x16
@@ -24011,7 +24011,7 @@ break
 ;
 }
 case
-LWasmShuffleSimd128
+SimdShuffleOp
 :
 :
 INTERLEAVE_HIGH_8x16
@@ -24030,7 +24030,7 @@ break
 ;
 }
 case
-LWasmShuffleSimd128
+SimdShuffleOp
 :
 :
 INTERLEAVE_HIGH_16x8
@@ -24049,7 +24049,7 @@ break
 ;
 }
 case
-LWasmShuffleSimd128
+SimdShuffleOp
 :
 :
 INTERLEAVE_HIGH_32x4
@@ -24068,7 +24068,7 @@ break
 ;
 }
 case
-LWasmShuffleSimd128
+SimdShuffleOp
 :
 :
 INTERLEAVE_HIGH_64x2
@@ -24087,7 +24087,7 @@ break
 ;
 }
 case
-LWasmShuffleSimd128
+SimdShuffleOp
 :
 :
 INTERLEAVE_LOW_8x16
@@ -24106,7 +24106,7 @@ break
 ;
 }
 case
-LWasmShuffleSimd128
+SimdShuffleOp
 :
 :
 INTERLEAVE_LOW_16x8
@@ -24125,7 +24125,7 @@ break
 ;
 }
 case
-LWasmShuffleSimd128
+SimdShuffleOp
 :
 :
 INTERLEAVE_LOW_32x4
@@ -24144,7 +24144,7 @@ break
 ;
 }
 case
-LWasmShuffleSimd128
+SimdShuffleOp
 :
 :
 INTERLEAVE_LOW_64x2
@@ -24163,7 +24163,7 @@ break
 ;
 }
 case
-LWasmShuffleSimd128
+SimdShuffleOp
 :
 :
 SHUFFLE_BLEND_8x16
@@ -24283,7 +24283,7 @@ op
 )
 {
 case
-LWasmPermuteSimd128
+SimdPermuteOp
 :
 :
 BROADCAST_8x16
@@ -24324,7 +24324,7 @@ break
 ;
 }
 case
-LWasmPermuteSimd128
+SimdPermuteOp
 :
 :
 BROADCAST_16x8
@@ -24365,7 +24365,7 @@ break
 ;
 }
 case
-LWasmPermuteSimd128
+SimdPermuteOp
 :
 :
 MOVE
@@ -24383,7 +24383,7 @@ break
 ;
 }
 case
-LWasmPermuteSimd128
+SimdPermuteOp
 :
 :
 PERMUTE_8x16
@@ -24478,7 +24478,7 @@ break
 ;
 }
 case
-LWasmPermuteSimd128
+SimdPermuteOp
 :
 :
 PERMUTE_16x8
@@ -24573,7 +24573,7 @@ break
 ;
 }
 case
-LWasmPermuteSimd128
+SimdPermuteOp
 :
 :
 PERMUTE_32x4
@@ -24668,7 +24668,7 @@ break
 ;
 }
 case
-LWasmPermuteSimd128
+SimdPermuteOp
 :
 :
 ROTATE_RIGHT_8x16
@@ -24714,7 +24714,7 @@ break
 ;
 }
 case
-LWasmPermuteSimd128
+SimdPermuteOp
 :
 :
 SHIFT_LEFT_8x16
@@ -24763,7 +24763,7 @@ break
 ;
 }
 case
-LWasmPermuteSimd128
+SimdPermuteOp
 :
 :
 SHIFT_RIGHT_8x16

@@ -9009,9 +9009,9 @@ rhs
 Simd128
 arguments
 :
-control
+shuffle
 :
-SimdConstant
+SimdShuffle
 type_policy
 :
 none
