@@ -2059,6 +2059,9 @@ if
 is_linux
 (
 )
+and
+not
+osx_cross_compile
 :
             
 cmake_args
