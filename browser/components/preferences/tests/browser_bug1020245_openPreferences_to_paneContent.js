@@ -412,6 +412,7 @@ URI
 "
 )
 ;
+await
 openPreferences
 (
 "
