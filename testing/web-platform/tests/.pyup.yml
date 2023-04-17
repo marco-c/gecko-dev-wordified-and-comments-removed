@@ -41,6 +41,14 @@ requirements
 .
 txt
 -
+resources
+/
+test
+/
+requirements
+.
+txt
+-
 tools
 /
 requirements_flake8
@@ -56,6 +64,12 @@ txt
 tools
 /
 requirements_pytest
+.
+txt
+-
+tools
+/
+requirements_tests
 .
 txt
 -
