@@ -28327,9 +28327,7 @@ uninstaller
 .
 expires
 :
-"
-90
-"
+never
 kind
 :
 boolean
