@@ -228,5 +228,12 @@ codesign
 .
 patch
 "
+"
+revert
+-
+ga478b0a199f4
+.
+patch
+"
 ]
 }
