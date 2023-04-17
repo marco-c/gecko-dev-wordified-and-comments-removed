@@ -1440,6 +1440,10 @@ None
 device_serial
 =
 None
+    
+aab
+=
+False
 )
 :
     
@@ -2085,14 +2089,6 @@ AndroidTest
 "
 )
             
-sub
-=
-"
-geckoview
-:
-installWithGeckoBinariesDebugAndroidTest
-"
-            
 build_obj
 .
 _mach_context
@@ -2103,15 +2099,26 @@ dispatch
 (
                 
 "
-gradle
+android
 "
+                
 build_obj
 .
 _mach_context
+                
+subcommand
+=
+"
+install
+-
+geckoview
+-
+test
+"
+                
 args
 =
 [
-sub
 ]
             
 )
@@ -2156,6 +2163,22 @@ test_runner
             
 sub
 =
+(
+                
+"
+install
+-
+geckoview
+-
+test_runner
+-
+aab
+"
+                
+if
+aab
+                
+else
 "
 install
 -
@@ -2163,6 +2186,8 @@ geckoview
 -
 test_runner
 "
+            
+)
             
 build_obj
 .
@@ -2226,11 +2251,25 @@ geckoview_example
             
 sub
 =
+(
+                
+"
+install
+-
+geckoview_example
+-
+aab
+"
+if
+aab
+else
 "
 install
 -
 geckoview_example
 "
+            
+)
             
 build_obj
 .
