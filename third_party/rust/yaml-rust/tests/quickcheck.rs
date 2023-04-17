@@ -17,15 +17,6 @@ quickcheck
 TestResult
 ;
 use
-std
-:
-:
-error
-:
-:
-Error
-;
-use
 yaml_rust
 :
 :
@@ -170,7 +161,7 @@ error
 (
 err
 .
-description
+to_string
 (
 )
 )

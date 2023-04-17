@@ -110,6 +110,11 @@ reasonable
 [
 package
 ]
+edition
+=
+"
+2018
+"
 name
 =
 "
@@ -124,7 +129,7 @@ version
 .
 4
 .
-2
+5
 "
 authors
 =
@@ -233,17 +238,11 @@ map
 version
 =
 "
->
-=
 0
 .
-0
+5
 .
-9
-<
-0
-.
-6
+3
 "
 [
 dev
@@ -257,5 +256,5 @@ version
 "
 0
 .
-7
+9
 "

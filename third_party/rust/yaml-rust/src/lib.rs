@@ -22,7 +22,7 @@ rust
 .
 4
 .
-2
+5
 "
 )
 ]
@@ -103,6 +103,9 @@ yaml
 ;
 pub
 use
+crate
+:
+:
 emitter
 :
 :
@@ -113,6 +116,9 @@ YamlEmitter
 ;
 pub
 use
+crate
+:
+:
 parser
 :
 :
@@ -120,6 +126,9 @@ Event
 ;
 pub
 use
+crate
+:
+:
 scanner
 :
 :
@@ -127,6 +136,9 @@ ScanError
 ;
 pub
 use
+crate
+:
+:
 yaml
 :
 :
@@ -377,9 +389,6 @@ ScanError
 let
 t
 =
-try
-!
-(
 YamlLoader
 :
 :
@@ -387,7 +396,7 @@ load_from_str
 (
 s
 )
-)
+?
 ;
 Ok
 (

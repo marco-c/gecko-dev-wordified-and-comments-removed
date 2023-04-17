@@ -1,4 +1,13 @@
 use
+crate
+:
+:
+{
+Mapping
+Value
+}
+;
+use
 std
 :
 :
@@ -9,18 +18,6 @@ std
 :
 :
 ops
-;
-use
-super
-:
-:
-Value
-;
-use
-mapping
-:
-:
-Mapping
 ;
 pub
 trait
@@ -164,7 +161,6 @@ Value
 >
 {
 match
-*
 v
 {
 Value
@@ -172,7 +168,6 @@ Value
 :
 Sequence
 (
-ref
 vec
 )
 =
@@ -189,7 +184,6 @@ Value
 :
 Mapping
 (
-ref
 vec
 )
 =
@@ -249,7 +243,6 @@ Value
 >
 {
 match
-*
 v
 {
 Value
@@ -257,8 +250,6 @@ Value
 :
 Sequence
 (
-ref
-mut
 vec
 )
 =
@@ -275,8 +266,6 @@ Value
 :
 Mapping
 (
-ref
-mut
 vec
 )
 =
@@ -333,7 +322,6 @@ mut
 Value
 {
 match
-*
 v
 {
 Value
@@ -341,8 +329,6 @@ Value
 :
 Sequence
 (
-ref
-mut
 vec
 )
 =
@@ -398,8 +384,6 @@ Value
 :
 Mapping
 (
-ref
-mut
 map
 )
 =
@@ -519,7 +503,6 @@ Value
 >
 {
 match
-*
 v
 {
 Value
@@ -527,7 +510,6 @@ Value
 :
 Mapping
 (
-ref
 map
 )
 =
@@ -573,7 +555,6 @@ Value
 >
 {
 match
-*
 v
 {
 Value
@@ -581,8 +562,6 @@ Value
 :
 Mapping
 (
-ref
-mut
 map
 )
 =
@@ -673,7 +652,6 @@ map
 ;
 }
 match
-*
 v
 {
 Value
@@ -681,8 +659,6 @@ Value
 :
 Mapping
 (
-ref
-mut
 map
 )
 =
@@ -1265,7 +1241,6 @@ fmt
 Result
 {
 match
-*
 self
 .
 0

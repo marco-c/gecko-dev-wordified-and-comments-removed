@@ -1,17 +1,14 @@
 use
-serde
-:
-:
-{
-self
-Serialize
-}
-;
-use
-super
+crate
 :
 :
 Value
+;
+use
+serde
+:
+:
+Serialize
 ;
 impl
 Serialize
@@ -52,7 +49,6 @@ serde
 Serializer
 {
 match
-*
 self
 {
 Value
@@ -79,6 +75,7 @@ serializer
 .
 serialize_bool
 (
+*
 b
 )
 Value
@@ -86,7 +83,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -102,7 +98,6 @@ Value
 :
 String
 (
-ref
 s
 )
 =
@@ -118,7 +113,6 @@ Value
 :
 Sequence
 (
-ref
 seq
 )
 =
@@ -134,7 +128,6 @@ Value
 :
 Mapping
 (
-ref
 hash
 )
 =
