@@ -228,6 +228,10 @@ profiler_helper
 ;
 extern
 crate
+gecko_profiler
+;
+extern
+crate
 rsdparsa_capi
 ;
 extern
