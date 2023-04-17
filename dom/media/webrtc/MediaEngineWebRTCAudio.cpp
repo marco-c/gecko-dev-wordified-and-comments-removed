@@ -3980,6 +3980,17 @@ mEnabled
 ;
 if
 (
+PassThrough
+(
+aGraph
+)
+)
+{
+return
+;
+}
+if
+(
 !
 mPacketizerOutput
 |
