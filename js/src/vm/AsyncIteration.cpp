@@ -50,6 +50,15 @@ include
 "
 vm
 /
+CompletionKind
+.
+h
+"
+#
+include
+"
+vm
+/
 FunctionFlags
 .
 h

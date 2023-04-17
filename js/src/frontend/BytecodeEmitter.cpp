@@ -472,6 +472,15 @@ include
 "
 vm
 /
+CompletionKind
+.
+h
+"
+#
+include
+"
+vm
+/
 FunctionPrefixKind
 .
 h

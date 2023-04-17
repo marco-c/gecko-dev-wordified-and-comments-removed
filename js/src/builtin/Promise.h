@@ -16,13 +16,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
@@ -82,6 +75,10 @@ AsyncGeneratorObject
 ;
 class
 PromiseObject
+;
+enum
+class
+CompletionKind
 ;
 extern
 bool
