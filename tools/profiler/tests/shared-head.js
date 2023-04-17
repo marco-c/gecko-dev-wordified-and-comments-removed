@@ -497,8 +497,6 @@ includes
 (
 "
 /
-browser
-/
 tools
 /
 profiler
