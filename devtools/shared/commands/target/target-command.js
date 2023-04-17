@@ -772,7 +772,7 @@ isTargetSwitching
 {
 this
 .
-emitForTests
+emit
 (
 "
 switched
