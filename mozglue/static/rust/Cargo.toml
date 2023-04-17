@@ -57,3 +57,17 @@ cc
 "
 1
 "
+rustc_version
+=
+"
+0
+.
+2
+"
+[
+features
+]
+moz_memory
+=
+[
+]

@@ -1823,7 +1823,7 @@ RUSTC_BOOTSTRAP
 RUSTC_BOOTSTRAP
 :
 =
-gkrust_shared
+mozglue_static
 qcms
 ifdef
 MOZ_RUST_SIMD

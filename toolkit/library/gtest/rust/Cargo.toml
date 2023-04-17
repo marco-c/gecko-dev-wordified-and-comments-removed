@@ -136,9 +136,9 @@ moz_memory
 =
 [
 "
-gkrust
+mozglue
 -
-shared
+static
 /
 moz_memory
 "

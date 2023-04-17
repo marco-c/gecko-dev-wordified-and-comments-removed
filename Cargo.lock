@@ -11435,9 +11435,6 @@ rusqlite
 rust_minidump_writer_linux
 "
 "
-rustc_version
-"
-"
 static_prefs
 "
 "
@@ -17782,6 +17779,9 @@ arrayvec
 "
 "
 cc
+"
+"
+rustc_version
 "
 ]
 [
