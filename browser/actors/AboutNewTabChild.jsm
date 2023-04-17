@@ -541,6 +541,11 @@ newtab
 .
 recordExposureEvent
 (
+{
+once
+:
+true
+}
 )
 ;
 }
