@@ -609,10 +609,6 @@ isSupportedPlatform
 presets
 supportedFeatures
 pageContext
-:
-"
-devtools
-"
 }
 )
 )
