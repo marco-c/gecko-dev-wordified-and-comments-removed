@@ -90,6 +90,15 @@ include
 "
 mozilla
 /
+SandboxSettings
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_security
 .
 h
@@ -3414,6 +3423,10 @@ SetProcessMitigations
 ;
 if
 (
+!
+aIsFileProcess
+&
+&
 StaticPrefs
 :
 :
