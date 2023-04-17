@@ -3797,7 +3797,7 @@ type
 AtomicFloat
 value
 :
-20
+10
 mirror
 :
 always
