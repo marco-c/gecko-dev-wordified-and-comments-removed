@@ -5,15 +5,6 @@ super
 *
 ;
 use
-cocoa_foundation
-:
-:
-foundation
-:
-:
-NSUInteger
-;
-use
 objc
 :
 :

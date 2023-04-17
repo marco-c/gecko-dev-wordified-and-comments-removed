@@ -1810,10 +1810,6 @@ B
 :
 :
 Fence
-new_suspects
-:
-&
-SuspectedResources
 temp_resources
 :
 impl
@@ -1957,15 +1953,6 @@ stored
 .
 value
 )
-)
-;
-self
-.
-suspected_resources
-.
-extend
-(
-new_suspects
 )
 ;
 self
