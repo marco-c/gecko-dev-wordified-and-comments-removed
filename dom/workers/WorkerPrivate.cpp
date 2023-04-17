@@ -10926,6 +10926,13 @@ nullptr
 worker
 -
 >
+mSelfRef
+=
+worker
+;
+worker
+-
+>
 EnableDebugger
 (
 )
@@ -11006,13 +11013,6 @@ return
 nullptr
 ;
 }
-worker
--
->
-mSelfRef
-=
-worker
-;
 return
 worker
 .
