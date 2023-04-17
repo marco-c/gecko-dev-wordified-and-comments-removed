@@ -20,6 +20,9 @@ clippy
 "
 allow
 (
+clippy
+:
+:
 unreadable_literal
 )
 )
