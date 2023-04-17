@@ -15,7 +15,7 @@ version
 .
 4
 .
-23
+24
 "
 authors
 =
@@ -180,6 +180,10 @@ warnings
 [
 ]
 gecko
+=
+[
+]
+fuzzing
 =
 [
 ]

@@ -1368,9 +1368,9 @@ unwrap
 ;
 client
 .
-send_streams
+streams
 .
-get_mut
+get_send_stream_mut
 (
 stream_id
 .
@@ -1407,9 +1407,9 @@ count
 ;
 client
 .
-send_streams
+streams
 .
-get_mut
+get_send_stream_mut
 (
 stream_id
 .
@@ -1481,6 +1481,8 @@ count
 ;
 client
 .
+streams
+.
 handle_max_data
 (
 100_000_000
@@ -1506,9 +1508,9 @@ SMALL_MAX_DATA
 ;
 client
 .
-send_streams
+streams
 .
-get_mut
+get_send_stream_mut
 (
 stream_id
 .
@@ -3028,9 +3030,9 @@ internal_stream
 =
 server
 .
-send_streams
+streams
 .
-get_mut
+get_send_stream_mut
 (
 StreamId
 :

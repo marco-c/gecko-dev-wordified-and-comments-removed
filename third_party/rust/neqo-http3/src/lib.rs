@@ -196,6 +196,13 @@ ClientRequestStream
 Http3ServerEvent
 }
 ;
+pub
+use
+settings
+:
+:
+HttpZeroRttChecker
+;
 type
 Res
 <
@@ -838,8 +845,6 @@ R
 Self
 >
 {
-Ok
-(
 r
 .
 map_err
@@ -892,8 +897,6 @@ HttpInternal
 ;
 err
 }
-)
-?
 )
 }
 }

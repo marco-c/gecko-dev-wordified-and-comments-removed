@@ -54,7 +54,7 @@ pub
 crate
 )
 struct
-QPData
+QpackData
 {
 buf
 :
@@ -64,7 +64,7 @@ u8
 >
 }
 impl
-QPData
+QpackData
 {
 pub
 fn
@@ -584,7 +584,7 @@ r
 impl
 Deref
 for
-QPData
+QpackData
 {
 type
 Target
@@ -630,7 +630,7 @@ super
 :
 {
 Prefix
-QPData
+QpackData
 }
 ;
 #
@@ -646,7 +646,7 @@ let
 mut
 d
 =
-QPData
+QpackData
 :
 :
 default
@@ -695,7 +695,7 @@ let
 mut
 d
 =
-QPData
+QpackData
 :
 :
 default
@@ -745,7 +745,7 @@ let
 mut
 d
 =
-QPData
+QpackData
 :
 :
 default
@@ -856,7 +856,7 @@ let
 mut
 d
 =
-QPData
+QpackData
 :
 :
 default
@@ -907,7 +907,7 @@ let
 mut
 d
 =
-QPData
+QpackData
 :
 :
 default

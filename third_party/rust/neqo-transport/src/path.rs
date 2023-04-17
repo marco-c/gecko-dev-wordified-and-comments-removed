@@ -177,7 +177,7 @@ tracking
 :
 :
 {
-PNSpace
+PacketNumberSpace
 SentPacket
 }
 ;
@@ -3920,7 +3920,7 @@ Instant
 >
 space
 :
-PNSpace
+PacketNumberSpace
 lost_packets
 :
 &

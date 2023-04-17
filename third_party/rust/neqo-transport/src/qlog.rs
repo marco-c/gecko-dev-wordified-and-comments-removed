@@ -2260,10 +2260,6 @@ Unidirectional
 }
 maximum_streams
 .
-as_u64
-(
-)
-.
 to_string
 (
 )
@@ -2364,10 +2360,6 @@ StreamType
 Unidirectional
 }
 stream_limit
-.
-as_u64
-(
-)
 .
 to_string
 (

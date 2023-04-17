@@ -429,6 +429,8 @@ len
 [
 allow
 (
+unknown_lints
+renamed_and_removed_lints
 clippy
 :
 :
@@ -631,7 +633,7 @@ self
 .
 items
 {
-assert
+debug_assert
 !
 (
 i

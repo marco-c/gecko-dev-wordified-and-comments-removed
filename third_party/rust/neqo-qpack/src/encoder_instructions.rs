@@ -21,7 +21,7 @@ crate
 qpack_send_buf
 :
 :
-QPData
+QpackData
 ;
 use
 crate
@@ -166,7 +166,7 @@ enc
 :
 &
 mut
-QPData
+QpackData
 use_huffman
 :
 bool
@@ -1594,7 +1594,7 @@ super
 {
 EncoderInstruction
 EncoderInstructionReader
-QPData
+QpackData
 }
 ;
 use
@@ -1631,7 +1631,7 @@ let
 mut
 buf
 =
-QPData
+QpackData
 :
 :
 default
@@ -2029,7 +2029,7 @@ let
 mut
 buf
 =
-QPData
+QpackData
 :
 :
 default

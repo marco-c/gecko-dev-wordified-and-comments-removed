@@ -58,9 +58,6 @@ mod
 fc
 ;
 mod
-flow_mgr
-;
-mod
 frame
 ;
 mod
@@ -100,6 +97,10 @@ stats
 pub
 mod
 stream_id
+;
+pub
+mod
+streams
 ;
 pub
 mod

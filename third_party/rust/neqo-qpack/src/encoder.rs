@@ -41,7 +41,7 @@ crate
 qpack_send_buf
 :
 :
-QPData
+QpackData
 ;
 use
 crate
@@ -833,6 +833,8 @@ clippy
 :
 :
 map_err_ignore
+unknown_lints
+renamed_and_removed_lints
 clippy
 :
 :
@@ -1410,7 +1412,7 @@ let
 mut
 buf
 =
-QPData
+QpackData
 :
 :
 default
@@ -1662,7 +1664,7 @@ let
 mut
 buf
 =
-QPData
+QpackData
 :
 :
 default
@@ -1851,7 +1853,7 @@ let
 mut
 buf
 =
-QPData
+QpackData
 :
 :
 default

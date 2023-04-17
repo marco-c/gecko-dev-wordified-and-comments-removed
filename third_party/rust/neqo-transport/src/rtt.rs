@@ -64,7 +64,7 @@ crate
 tracking
 :
 :
-PNSpace
+PacketNumberSpace
 ;
 const
 GRANULARITY
@@ -531,7 +531,7 @@ pto
 self
 pn_space
 :
-PNSpace
+PacketNumberSpace
 )
 -
 >
@@ -557,7 +557,7 @@ if
 pn_space
 =
 =
-PNSpace
+PacketNumberSpace
 :
 :
 ApplicationData

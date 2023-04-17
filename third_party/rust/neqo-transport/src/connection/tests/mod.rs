@@ -172,6 +172,9 @@ mod
 close
 ;
 mod
+fuzzing
+;
+mod
 handshake
 ;
 mod

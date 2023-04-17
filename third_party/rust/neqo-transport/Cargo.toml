@@ -15,7 +15,7 @@ version
 .
 4
 .
-23
+24
 "
 authors
 =
@@ -181,4 +181,15 @@ deny
 warnings
 =
 [
+]
+fuzzing
+=
+[
+"
+neqo
+-
+crypto
+/
+fuzzing
+"
 ]

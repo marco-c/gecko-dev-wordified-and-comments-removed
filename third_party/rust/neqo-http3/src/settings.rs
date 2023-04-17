@@ -684,6 +684,10 @@ QpackSettings
 impl
 HttpZeroRttChecker
 {
+#
+[
+must_use
+]
 pub
 fn
 new
@@ -701,6 +705,10 @@ Self
 settings
 }
 }
+#
+[
+must_use
+]
 pub
 fn
 save

@@ -406,10 +406,10 @@ p
 as_ptr
 (
 )
-as
-*
-const
-c_char
+.
+cast
+(
+)
 c_uint
 :
 :
