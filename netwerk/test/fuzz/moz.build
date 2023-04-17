@@ -8,11 +8,6 @@ FuzzingStreamListener
 cpp
 "
 "
-TestFtpFuzzing
-.
-cpp
-"
-"
 TestHttpFuzzing
 .
 cpp
@@ -41,14 +36,6 @@ caps
 netwerk
 /
 base
-"
-"
-/
-netwerk
-/
-protocol
-/
-ftp
 "
 "
 /
