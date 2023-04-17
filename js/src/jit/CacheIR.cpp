@@ -56828,6 +56828,9 @@ aanpe
 cx_
 )
 ;
+#
+ifdef
+FUZZING
 TRY_ATTACH
 (
 tryAttachPlainObject
@@ -56835,6 +56838,8 @@ tryAttachPlainObject
 )
 )
 ;
+#
+endif
 TRY_ATTACH
 (
 tryAttachTemplateObject
