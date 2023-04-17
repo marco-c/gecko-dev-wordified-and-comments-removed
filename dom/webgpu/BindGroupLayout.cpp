@@ -75,6 +75,17 @@ mOwning
 aOwning
 )
 {
+if
+(
+!
+aId
+)
+{
+mValid
+=
+false
+;
+}
 }
 BindGroupLayout
 :
