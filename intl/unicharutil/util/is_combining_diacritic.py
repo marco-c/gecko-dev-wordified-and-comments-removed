@@ -298,19 +298,17 @@ header
 .
 write
 (
-"
+'
 #
 include
-\
 "
 gfxFontUtils
 .
 h
-\
 "
 \
 n
-"
+'
 )
     
 header
@@ -443,6 +441,7 @@ header
 .
 write
 (
+        
 "
 static
 const
@@ -453,6 +452,7 @@ COMBINING_DIACRITICS_BITSET_DATA
 \
 n
 "
+    
 )
     
 header
@@ -650,6 +650,7 @@ header
 .
 write
 (
+        
 "
 reinterpret_cast
 <
@@ -665,6 +666,7 @@ COMBINING_DIACRITICS_BITSET_DATA
 \
 n
 "
+    
 )
     
 header
