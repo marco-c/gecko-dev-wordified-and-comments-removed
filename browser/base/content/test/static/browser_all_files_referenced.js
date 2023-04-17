@@ -320,6 +320,17 @@ certerror
 supportpages
 /
 "
+"
+resource
+:
+/
+/
+app
+/
+features
+/
+screenshots
+"
 ]
 ;
 if
