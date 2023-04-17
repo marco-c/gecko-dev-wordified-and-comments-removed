@@ -10886,9 +10886,8 @@ mTextServicesDocument
 textServicesDocument
 -
 >
-DidDeleteNode
+DidDeleteContent
 (
-&
 aContent
 )
 ;
@@ -23131,8 +23130,9 @@ mTextServicesDocument
 textServicesDocument
 -
 >
-DidDeleteNode
+DidDeleteContent
 (
+*
 deleteContent
 )
 ;
@@ -23149,7 +23149,7 @@ Destroyed
 TextServicesDocument
 :
 :
-DidDeleteNode
+DidDeleteContent
 (
 )
 must
