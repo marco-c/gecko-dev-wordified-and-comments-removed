@@ -1817,8 +1817,7 @@ jinja
 {
 %
 for
-key
-value
+item
 in
 mydict
 |
@@ -1837,8 +1836,7 @@ insensitive
 {
 %
 for
-key
-value
+item
 in
 mydict
 |
@@ -1864,8 +1862,7 @@ order
 {
 %
 for
-key
-value
+item
 in
 mydict
 |
@@ -1887,8 +1884,7 @@ sensitive
 {
 %
 for
-key
-value
+item
 in
 mydict
 |
