@@ -4,6 +4,13 @@ wasm_constants_h
 #
 define
 wasm_constants_h
+#
+include
+<
+stdint
+.
+h
+>
 namespace
 js
 {
