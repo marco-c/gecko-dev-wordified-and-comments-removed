@@ -9394,8 +9394,6 @@ Throw
 NS_ERROR_FAILURE
 )
 ;
-return
-;
 }
 void
 HTMLMediaElement
