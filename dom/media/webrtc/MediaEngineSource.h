@@ -416,6 +416,17 @@ MediaSourceEnum
 aSource
 )
 ;
+static
+bool
+IsAudio
+(
+dom
+:
+:
+MediaSourceEnum
+aSource
+)
+;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MediaEngineSource
