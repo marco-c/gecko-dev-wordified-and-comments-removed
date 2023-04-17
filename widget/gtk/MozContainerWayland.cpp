@@ -3038,6 +3038,9 @@ wl_container
 -
 >
 surface
+(
+int
+)
 round
 (
 gdk_window_get_width
@@ -3046,6 +3049,9 @@ window
 )
 *
 scale
+)
+(
+int
 )
 round
 (
@@ -3115,10 +3121,9 @@ container
 wl_container
 .
 eglwindow
-?
-true
-:
-false
+!
+=
+nullptr
 ;
 }
 gboolean

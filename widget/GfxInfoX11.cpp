@@ -1207,6 +1207,8 @@ true
 struct
 utsname
 unameobj
+{
+}
 ;
 if
 (
@@ -1918,6 +1920,8 @@ start
 ;
 ScreenInfo
 info
+{
+}
 ;
 if
 (
