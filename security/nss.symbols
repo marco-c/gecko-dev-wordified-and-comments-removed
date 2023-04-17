@@ -727,6 +727,8 @@ SECKEY_DestroySubjectPublicKeyInfo
 SECKEY_ECParamsToBasePointOrderLen
 SECKEY_ECParamsToKeySize
 SECKEY_EncodeDERSubjectPublicKeyInfo
+SECKEY_EncryptedPrivateKeyInfoTemplate
+DATA
 SECKEY_ExtractPublicKey
 SECKEY_GetPublicKeyType
 SECKEY_ImportDERPublicKey
