@@ -1907,7 +1907,6 @@ mochitest
 webgl2
 -
 ext
-#
 -
 reftest
 #
