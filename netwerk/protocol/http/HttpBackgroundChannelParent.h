@@ -119,13 +119,6 @@ const
 HttpChannelOnStartRequestArgs
 &
 aArgs
-const
-nsCOMPtr
-<
-nsICacheEntry
->
-&
-aCacheEntry
 )
 ;
 bool
