@@ -78,7 +78,6 @@ onDocumentEvent
 name
 {
 time
-shouldBeIgnoredAsRedundantWithTargetAvailable
 isFrameSwitching
 hasNativeConsoleAPI
 newURI
@@ -118,7 +117,6 @@ resourceType
 DOCUMENT_EVENT
 name
 time
-shouldBeIgnoredAsRedundantWithTargetAvailable
 isFrameSwitching
 title
 :

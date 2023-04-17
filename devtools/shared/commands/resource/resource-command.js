@@ -1493,9 +1493,6 @@ Date
 now
 (
 )
-shouldBeIgnoredAsRedundantWithTargetAvailable
-:
-false
 isFrameSwitching
 newURI
 :

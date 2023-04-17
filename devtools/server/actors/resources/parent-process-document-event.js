@@ -323,9 +323,6 @@ now
 )
 -
 WILL_NAVIGATE_TIME_SHIFT
-shouldBeIgnoredAsRedundantWithTargetAvailable
-:
-false
 isFrameSwitching
 :
 false
