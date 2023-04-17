@@ -15343,7 +15343,7 @@ MozGetMetadata
 (
 JSContext
 *
-cx
+aCx
 JS
 :
 :
@@ -15352,7 +15352,7 @@ MutableHandle
 JSObject
 *
 >
-aRetval
+aResult
 ErrorResult
 &
 aRv
@@ -15385,10 +15385,10 @@ JSObject
 >
 tags
 (
-cx
+aCx
 JS_NewPlainObject
 (
-cx
+aCx
 )
 )
 ;
@@ -15447,10 +15447,10 @@ JSString
 >
 string
 (
-cx
+aCx
 JS_NewUCStringCopyZ
 (
-cx
+aCx
 wideValue
 .
 Data
@@ -15468,7 +15468,7 @@ string
 !
 JS_DefineProperty
 (
-cx
+aCx
 tags
 entry
 .
@@ -15509,7 +15509,7 @@ return
 }
 }
 }
-aRetval
+aResult
 .
 set
 (
