@@ -1001,6 +1001,59 @@ to_camel_case
 value
 True
 )
+def
+snake_case
+(
+value
+:
+str
+)
+-
+>
+str
+:
+    
+"
+"
+"
+    
+Convert
+the
+value
+to
+snake_case
+.
+    
+"
+"
+"
+    
+return
+value
+.
+lower
+(
+)
+.
+replace
+(
+"
+.
+"
+"
+_
+"
+)
+.
+replace
+(
+"
+-
+"
+"
+_
+"
+)
 functools
 .
 lru_cache
@@ -2563,7 +2616,7 @@ reason_codes
 "
     
 "
-bucket_count
+range_min
 "
     
 "
@@ -2571,7 +2624,7 @@ range_max
 "
     
 "
-range_min
+bucket_count
 "
     
 "

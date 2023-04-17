@@ -227,6 +227,16 @@ memory_distribution_metric
 13
 )
 ;
+constexpr
+impl
+:
+:
+CustomDistributionMetric
+custom_distribution_metric
+(
+14
+)
+;
 }
 namespace
 test_nested
@@ -238,7 +248,7 @@ impl
 UuidMetric
 uuid_metric
 (
-14
+15
 )
 ;
 constexpr
@@ -248,7 +258,7 @@ impl
 DatetimeMetric
 datetime_metric
 (
-15
+16
 )
 ;
 constexpr
@@ -261,7 +271,7 @@ NoExtraKeys
 >
 event_metric
 (
-16
+17
 )
 ;
 struct
@@ -393,7 +403,7 @@ EventMetricWithExtraExtra
 >
 event_metric_with_extra
 (
-17
+18
 )
 ;
 constexpr
@@ -403,7 +413,7 @@ impl
 QuantityMetric
 quantity_metric
 (
-18
+19
 )
 ;
 }
