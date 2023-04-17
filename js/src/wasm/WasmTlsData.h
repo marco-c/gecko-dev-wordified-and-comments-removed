@@ -116,7 +116,16 @@ Relaxed
 interrupt
 ;
 const
-uint32_t
+JS
+:
+:
+shadow
+:
+:
+Zone
+:
+:
+BarrierState
 *
 addressOfNeedsIncrementalBarrier
 ;
