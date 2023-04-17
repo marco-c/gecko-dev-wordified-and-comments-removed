@@ -2956,6 +2956,16 @@ aPoint
 const
 ;
 bool
+IsInOverscrollGutter
+(
+const
+ParentLayerPoint
+&
+aPoint
+)
+const
+;
+bool
 IsOverscrolled
 (
 )
