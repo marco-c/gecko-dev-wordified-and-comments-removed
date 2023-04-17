@@ -66,9 +66,6 @@ PageTransitionEvent
 DOMImplementation
 "
 "
-WritableStreamDefaultController
-"
-"
 IDBEnvironment
 "
 "
