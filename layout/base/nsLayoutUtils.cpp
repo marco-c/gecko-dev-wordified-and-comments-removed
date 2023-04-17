@@ -15367,7 +15367,7 @@ metrics
 .
 SetTransformToAncestorScale
 (
-Scale2D
+ParentLayerToScreenScale2D
 (
 nsLayoutUtils
 :
@@ -45713,7 +45713,7 @@ metrics
 .
 SetTransformToAncestorScale
 (
-Scale2D
+ParentLayerToScreenScale2D
 (
 transformToAncestorScale
 )

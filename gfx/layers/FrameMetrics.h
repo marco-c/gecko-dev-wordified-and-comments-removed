@@ -649,20 +649,7 @@ const
 return
 mZoom
 *
-ParentLayerToLayerScale
-(
-1
-.
-0f
-)
-*
-ViewAs
-<
-LayerToScreenScale2D
->
-(
 mTransformToAncestorScale
-)
 ;
 }
 CSSToLayerScale2D
@@ -1540,7 +1527,7 @@ void
 SetTransformToAncestorScale
 (
 const
-Scale2D
+ParentLayerToScreenScale2D
 &
 aTransformToAncestorScale
 )
@@ -1551,7 +1538,7 @@ aTransformToAncestorScale
 ;
 }
 const
-Scale2D
+ParentLayerToScreenScale2D
 &
 GetTransformToAncestorScale
 (
@@ -1905,7 +1892,7 @@ mPresShellId
 CSSRect
 mLayoutViewport
 ;
-Scale2D
+ParentLayerToScreenScale2D
 mTransformToAncestorScale
 ;
 TimeStamp
