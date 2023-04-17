@@ -60,7 +60,6 @@ Action
 =
 namedtuple
 (
-    
 "
 Action
 "
@@ -76,9 +75,6 @@ permission
 "
 "
 action_builder
-"
-"
-scope_repo
 "
 ]
 )
@@ -272,12 +268,6 @@ generic
 cb_name
 =
 None
-    
-scope_repo
-=
-"
-head
-"
 )
 :
     
@@ -606,7 +596,7 @@ no
 tag
 -
 sets
-are
+is
 specified
 as
 input
@@ -877,32 +867,6 @@ registered
 callbacks
 .
     
-scope_repo
-:
-str
-        
-The
-repository
-(
-"
-base
-"
-or
-"
-head
-"
-)
-to
-use
-when
-verifying
-scopes
-for
-this
-        
-action
-.
-    
 Returns
     
 -
@@ -966,30 +930,6 @@ must
 be
 a
 string
-"
-    
-assert
-scope_repo
-in
-(
-"
-base
-"
-"
-head
-"
-)
-"
-scope_repo
-must
-be
-'
-base
-'
-or
-'
-head
-'
 "
     
 title
@@ -1640,25 +1580,6 @@ push
 "
 :
 push
-                            
-"
-scope_repository_url
-"
-:
-parameters
-.
-get
-(
-                                
-f
-"
-{
-scope_repo
-}
-_repository
-"
-                            
-)
                         
 }
                         
@@ -1747,7 +1668,6 @@ order
 cb_name
 permission
 action_builder
-scope_repo
 )
 )
         
