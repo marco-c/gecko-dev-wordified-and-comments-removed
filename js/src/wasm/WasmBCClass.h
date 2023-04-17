@@ -3781,7 +3781,7 @@ needRotate64Temp
 )
 ;
 void
-pop2xI32ForMulDivI32
+pop2xI32ForDivI32
 (
 RegI32
 *
@@ -5204,11 +5204,6 @@ SymbolicAddressSignature
 fn
 R
 reader
-)
-;
-void
-emitMultiplyI32
-(
 )
 ;
 void
