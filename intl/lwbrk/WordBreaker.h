@@ -29,8 +29,8 @@ mozilla
 namespace
 intl
 {
-typedef
 struct
+WordRange
 {
 uint32_t
 mBegin
@@ -39,7 +39,6 @@ uint32_t
 mEnd
 ;
 }
-WordRange
 ;
 class
 WordBreaker
@@ -82,11 +81,11 @@ FindWord
 const
 char16_t
 *
-aText1
+aText
 uint32_t
-aTextLen1
+aLen
 uint32_t
-aOffset
+aPos
 )
 ;
 int32_t
