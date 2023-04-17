@@ -619,6 +619,15 @@ aVisitor
 )
 override
 ;
+void
+NodeInfoChanged
+(
+Document
+*
+aOldDoc
+)
+override
+;
 virtual
 bool
 ParseAttribute
