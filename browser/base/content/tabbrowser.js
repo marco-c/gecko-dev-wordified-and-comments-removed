@@ -21530,10 +21530,6 @@ affectedTabsLength
 else
 if
 (
-!
-gProton
-&
-&
 tab
 .
 _overPlayingIcon
