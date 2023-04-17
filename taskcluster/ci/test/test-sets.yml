@@ -3074,6 +3074,8 @@ tsan
 tests
 :
 -
+crashtest
+-
 mochitest
 -
 a11y
