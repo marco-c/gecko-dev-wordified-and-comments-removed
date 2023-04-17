@@ -3392,7 +3392,7 @@ usedNames
 ;
 LifoAllocScope
 &
-allocScope
+parserAllocScope
 ;
 CompilationInput
 &
@@ -3410,7 +3410,7 @@ JSContext
 cx
 LifoAllocScope
 &
-frontendAllocScope
+parserAllocScope
 CompilationInput
 &
 input

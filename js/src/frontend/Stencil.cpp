@@ -7559,7 +7559,7 @@ JSContext
 cx
 LifoAllocScope
 &
-frontendAllocScope
+parserAllocScope
 CompilationInput
 &
 input
@@ -7584,9 +7584,9 @@ usedNames
 (
 cx
 )
-allocScope
+parserAllocScope
 (
-frontendAllocScope
+parserAllocScope
 )
 input
 (

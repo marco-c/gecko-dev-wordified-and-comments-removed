@@ -556,7 +556,7 @@ JSContext
 cx
 LifoAllocScope
 &
-allocScope
+parserAllocScope
 CompilationInput
 &
 input
@@ -575,7 +575,7 @@ sourceBuffer
 compilationState_
 (
 cx
-allocScope
+parserAllocScope
 input
 )
 {
@@ -865,7 +865,7 @@ JSContext
 cx
 LifoAllocScope
 &
-allocScope
+parserAllocScope
 CompilationInput
 &
 input
@@ -880,7 +880,7 @@ sourceBuffer
 Base
 (
 cx
-allocScope
+parserAllocScope
 input
 sourceBuffer
 )
@@ -1447,7 +1447,7 @@ cx
 )
 ;
 LifoAllocScope
-allocScope
+parserAllocScope
 (
 &
 cx
@@ -1465,7 +1465,7 @@ Unit
 compiler
 (
 cx
-allocScope
+parserAllocScope
 input
 srcBuf
 )
@@ -2534,7 +2534,7 @@ nullptr
 ;
 }
 LifoAllocScope
-allocScope
+parserAllocScope
 (
 &
 cx
@@ -2552,7 +2552,7 @@ Unit
 compiler
 (
 cx
-allocScope
+parserAllocScope
 input
 .
 get
@@ -2818,7 +2818,7 @@ JSContext
 cx
 LifoAllocScope
 &
-allocScope
+parserAllocScope
 CompilationInput
 &
 input
@@ -2833,7 +2833,7 @@ sourceBuffer
 Base
 (
 cx
-allocScope
+parserAllocScope
 input
 sourceBuffer
 )
@@ -2952,7 +2952,7 @@ JSContext
 cx
 LifoAllocScope
 &
-allocScope
+parserAllocScope
 CompilationInput
 &
 input
@@ -2967,7 +2967,7 @@ sourceBuffer
 Base
 (
 cx
-allocScope
+parserAllocScope
 input
 sourceBuffer
 )
@@ -4591,7 +4591,7 @@ cx
 )
 ;
 LifoAllocScope
-allocScope
+parserAllocScope
 (
 &
 cx
@@ -4609,7 +4609,7 @@ Unit
 compiler
 (
 cx
-allocScope
+parserAllocScope
 input
 srcBuf
 )
@@ -5428,7 +5428,7 @@ InheritThis
 No
 ;
 LifoAllocScope
-allocScope
+parserAllocScope
 (
 &
 cx
@@ -5443,7 +5443,7 @@ CompilationState
 compilationState
 (
 cx
-allocScope
+parserAllocScope
 input
 )
 ;
@@ -6336,7 +6336,7 @@ nullptr
 }
 }
 LifoAllocScope
-allocScope
+parserAllocScope
 (
 &
 cx
@@ -6377,7 +6377,7 @@ char16_t
 compiler
 (
 cx
-allocScope
+parserAllocScope
 input
 .
 get
