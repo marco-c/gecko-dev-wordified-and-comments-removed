@@ -232,7 +232,7 @@ mozilla
 dom
 :
 :
-SystemFontListEntry
+SystemFontList
 ;
 enum
 {
@@ -1013,10 +1013,7 @@ gfxPlatformMac
 :
 ReadSystemFontList
 (
-nsTArray
-<
-SystemFontListEntry
->
+SystemFontList
 *
 aFontList
 )

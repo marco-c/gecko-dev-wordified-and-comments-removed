@@ -14847,10 +14847,7 @@ MOZ_CRASH
 }
 }
 }
-nsTArray
-<
-SystemFontListEntry
->
+SystemFontList
 fontList
 ;
 gfxPlatform
@@ -26255,10 +26252,7 @@ aFullRebuild
 return
 ;
 }
-nsTArray
-<
-SystemFontListEntry
->
+SystemFontList
 fontList
 ;
 gfxPlatform
