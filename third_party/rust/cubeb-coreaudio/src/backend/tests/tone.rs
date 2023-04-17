@@ -165,7 +165,6 @@ phase
 :
 i64
 }
-;
 let
 mut
 closure
@@ -284,7 +283,6 @@ Paused
 Resumed
 End
 }
-;
 let
 mut
 state

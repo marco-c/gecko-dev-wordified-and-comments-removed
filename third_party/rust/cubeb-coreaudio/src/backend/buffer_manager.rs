@@ -839,9 +839,7 @@ mut
 buffer
 =
 [
-0
-as
-i16
+0_i16
 ;
 INPUT_BUFFER_CAPACITY
 ]
