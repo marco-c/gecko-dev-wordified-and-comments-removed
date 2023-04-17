@@ -3743,17 +3743,6 @@ macosx64
 ccov
 -
 opt
-attributes
-:
-skip
--
-verify
--
-test
--
-packaging
-:
-true
 treeherder
 :
 platform
