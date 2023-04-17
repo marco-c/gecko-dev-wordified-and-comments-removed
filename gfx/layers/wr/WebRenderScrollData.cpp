@@ -355,7 +355,6 @@ aItem
 ReferenceFrame
 (
 )
-nullptr
 )
 ;
 aOwner

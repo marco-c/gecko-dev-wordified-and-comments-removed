@@ -1523,7 +1523,6 @@ aItem
 ReferenceFrame
 (
 )
-nullptr
 )
 ;
 if
