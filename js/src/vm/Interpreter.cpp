@@ -9940,7 +9940,7 @@ class
 ReservedRooted
 :
 public
-RootedOperations
+RootedBase
 <
 T
 ReservedRooted

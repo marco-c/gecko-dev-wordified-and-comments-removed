@@ -2007,7 +2007,7 @@ U
 js
 :
 :
-RootedOperations
+RootedBase
 <
 JSObject
 *
@@ -2099,7 +2099,7 @@ U
 js
 :
 :
-HandleOperations
+HandleBase
 <
 JSObject
 *
