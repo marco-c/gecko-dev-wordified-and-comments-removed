@@ -43,12 +43,6 @@ WordBreaker
 .
 h
 "
-class
-nsIContent
-;
-class
-nsRange
-;
 #
 define
 NS_FIND_CONTRACTID
@@ -86,9 +80,6 @@ NS_FIND_CID
 }
 \
 }
-class
-nsFindContentIterator
-;
 class
 nsFind
 :
