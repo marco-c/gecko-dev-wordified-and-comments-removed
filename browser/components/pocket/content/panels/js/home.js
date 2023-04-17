@@ -81,7 +81,7 @@ preventDefault
 (
 )
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (
@@ -607,7 +607,7 @@ initCloseTabEvents
 (
 )
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (
