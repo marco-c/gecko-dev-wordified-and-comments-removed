@@ -4181,22 +4181,6 @@ FAILURE
     
 errors
 [
-        
-"
-NS_ERROR_DOM_INVALID_STATE_XHR_HAS_WRONG_RESPONSETYPE_FOR_RESPONSETEXT
-"
-    
-]
-=
-FAILURE
-(
-        
-1023
-    
-)
-    
-errors
-[
 "
 NS_ERROR_DOM_JS_DECODING_ERROR
 "
