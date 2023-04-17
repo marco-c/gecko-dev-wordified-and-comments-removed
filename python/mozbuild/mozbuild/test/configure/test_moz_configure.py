@@ -1166,6 +1166,24 @@ version
 }
                 
 [
+"
+-
+-
+target
+=
+x86_64
+-
+pc
+-
+mingw32
+"
+"
+-
+-
+disable
+-
+bootstrap
+"
 ]
                 
 {
