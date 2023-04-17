@@ -13247,6 +13247,10 @@ Some
 (
 MemoryDesc
 (
+MemoryKind
+:
+:
+Memory32
 limits
 )
 )
