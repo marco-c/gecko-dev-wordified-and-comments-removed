@@ -26,6 +26,8 @@ mozpack
 path
 as
 mozpath
+import
+sentry_sdk
 from
 functools
 import
@@ -1552,6 +1554,13 @@ manager
 )
 .
 conf_py_path
+        
+sentry_sdk
+.
+init
+(
+None
+)
         
 args
 =
