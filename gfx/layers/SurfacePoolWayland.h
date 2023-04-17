@@ -444,7 +444,6 @@ mGL
 =
 nullptr
 ;
-struct
 wl_egl_window
 *
 mEGLWindow
