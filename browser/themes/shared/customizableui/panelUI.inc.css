@@ -95,6 +95,8 @@ is
 hover
 :
 focus
+-
+visible
 )
 %
 define
@@ -133,11 +135,9 @@ open
 active
 )
 :
-is
-(
-:
 focus
-)
+-
+visible
 %
 define
 menuStateHover
