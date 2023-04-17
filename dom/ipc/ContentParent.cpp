@@ -22762,6 +22762,10 @@ ContentParent
 :
 RecvIsSecureURI
 (
+const
+uint32_t
+&
+aType
 nsIURI
 *
 aURI
@@ -22824,6 +22828,7 @@ sss
 >
 IsSecureURI
 (
+aType
 aURI
 aFlags
 aOriginAttributes

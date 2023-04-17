@@ -109,6 +109,11 @@ s
 .
 isSecureURI
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 0
 )
@@ -130,6 +135,11 @@ s
 .
 processHeader
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 "
 max
@@ -160,6 +170,11 @@ s
 .
 isSecureURI
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 0
 )

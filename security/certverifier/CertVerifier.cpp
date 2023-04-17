@@ -467,6 +467,8 @@ TimeDuration
 ocspTimeoutHard
 uint32_t
 certShortLifetimeInDays
+PinningMode
+pinningMode
 SHA1Mode
 sha1Mode
 BRNameMatchingPolicy
@@ -513,6 +515,10 @@ ocspTimeoutHard
 mCertShortLifetimeInDays
 (
 certShortLifetimeInDays
+)
+mPinningMode
+(
+pinningMode
 )
 mSHA1Mode
 (
@@ -2855,6 +2861,7 @@ pinArg
 mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
+pinningDisabled
 MIN_RSA_BITS_WEAK
 ValidityCheckingMode
 :
@@ -3119,6 +3126,7 @@ pinArg
 mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
+mPinningMode
 MIN_RSA_BITS
 ValidityCheckingMode
 :
@@ -3489,6 +3497,7 @@ pinArg
 mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
+mPinningMode
 keySizeOptions
 [
 i
@@ -3767,6 +3776,7 @@ pinArg
 mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
+pinningDisabled
 MIN_RSA_BITS_WEAK
 ValidityCheckingMode
 :
@@ -3831,6 +3841,7 @@ pinArg
 mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
+pinningDisabled
 MIN_RSA_BITS_WEAK
 ValidityCheckingMode
 :
@@ -3936,6 +3947,7 @@ pinArg
 mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
+pinningDisabled
 MIN_RSA_BITS_WEAK
 ValidityCheckingMode
 :

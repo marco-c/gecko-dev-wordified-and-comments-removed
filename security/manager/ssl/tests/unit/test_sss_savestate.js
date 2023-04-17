@@ -699,6 +699,11 @@ SSService
 .
 processHeader
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uris
 [
 uriIndex
