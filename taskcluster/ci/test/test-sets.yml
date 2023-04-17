@@ -1352,10 +1352,6 @@ chrome
 -
 mochitest
 -
-media
--
-mochitest
--
 remote
 -
 telemetry
@@ -1463,6 +1459,10 @@ mochitest
 chrome
 -
 gpu
+-
+mochitest
+-
+media
 -
 mochitest
 -
