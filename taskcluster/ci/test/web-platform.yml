@@ -233,9 +233,7 @@ em
 -
 android
 /
-android
--
-x86_64
+androidx86_7_0
 .
 py
 -
@@ -278,9 +276,6 @@ shippable
 (
 -
 qr
-|
--
-lite
 )
 ?
 /
@@ -303,9 +298,6 @@ x86_64
 (
 -
 qr
-|
--
-lite
 )
 ?
 /
@@ -328,9 +320,6 @@ x86_64
 (
 -
 qr
-|
--
-lite
 )
 ?
 /

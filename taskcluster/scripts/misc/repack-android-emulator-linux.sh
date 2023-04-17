@@ -94,11 +94,6 @@ only
 no
 -
 interactive
--
--
-list
--
-packages
 #
 Remove
 extra

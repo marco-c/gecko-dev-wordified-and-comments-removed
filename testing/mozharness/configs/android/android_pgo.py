@@ -9,6 +9,12 @@ default_actions
 [
         
 "
+setup
+-
+avds
+"
+        
+"
 download
 "
         
