@@ -2429,6 +2429,10 @@ primitive
 push_debug_rect
 (
 debug_rect
+.
+to_box2d
+(
+)
 debug_color
 debug_color
 .
@@ -2556,6 +2560,10 @@ primitive
 push_debug_rect
 (
 rect
+.
+to_box2d
+(
+)
 debug_colors
 :
 :

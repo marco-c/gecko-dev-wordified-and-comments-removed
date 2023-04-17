@@ -12,7 +12,7 @@ euclid
 :
 {
 size2
-Rect
+Box2D
 num
 :
 :
@@ -1009,7 +1009,7 @@ DeviceIntRect
 DeviceIntRect
 :
 :
-new
+from_origin_and_size
 (
 DeviceIntPoint
 :
@@ -1571,7 +1571,7 @@ U
 All
 Partial
 (
-Rect
+Box2D
 <
 T
 U
@@ -1631,7 +1631,7 @@ DirtyRect
 :
 Partial
 (
-Rect
+Box2D
 :
 :
 zero
@@ -1727,7 +1727,7 @@ F
 :
 FnOnce
 (
-Rect
+Box2D
 <
 T
 U
@@ -1735,7 +1735,7 @@ U
 )
 -
 >
-Rect
+Box2D
 <
 T
 U
@@ -1909,7 +1909,7 @@ rect2
 .
 unwrap_or_else
 (
-Rect
+Box2D
 :
 :
 zero
@@ -1927,7 +1927,7 @@ self
 rect
 :
 &
-Rect
+Box2D
 <
 T
 U
@@ -1935,7 +1935,7 @@ U
 )
 -
 >
-Rect
+Box2D
 <
 T
 U
@@ -1975,7 +1975,7 @@ rect
 .
 unwrap_or_else
 (
-Rect
+Box2D
 :
 :
 zero
@@ -2038,7 +2038,7 @@ U
 >
 From
 <
-Rect
+Box2D
 <
 T
 U
@@ -2056,7 +2056,7 @@ from
 (
 rect
 :
-Rect
+Box2D
 <
 T
 U
