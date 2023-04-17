@@ -506,17 +506,6 @@ mozilla
 /
 layers
 /
-BasicCompositor
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 InputAPZContext
 .
 h
