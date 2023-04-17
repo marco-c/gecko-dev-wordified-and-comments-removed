@@ -178,5 +178,14 @@ timespec
 out_struct
 )
 ;
+void
+os_print_last_error
+(
+const
+char
+*
+msg
+)
+;
 #
 endif

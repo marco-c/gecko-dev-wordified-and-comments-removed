@@ -4706,7 +4706,11 @@ out_struct
 tv_sec
 )
 *
-1000000
+1000
+*
+1000
+*
+1000
 +
 (
 (
@@ -4716,8 +4720,6 @@ out_struct
 .
 tv_nsec
 )
-/
-1000
 ;
 wasm_i64_store
 (
@@ -4788,7 +4790,11 @@ out_struct
 tv_sec
 )
 *
-1000000
+1000
+*
+1000
+*
+1000
 +
 (
 (
@@ -4798,8 +4804,6 @@ out_struct
 .
 tv_nsec
 )
-/
-1000
 ;
 wasm_i64_store
 (
