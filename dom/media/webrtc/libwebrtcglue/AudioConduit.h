@@ -338,7 +338,7 @@ type
 override
 ;
 void
-DeleteStreams
+Shutdown
 (
 )
 override

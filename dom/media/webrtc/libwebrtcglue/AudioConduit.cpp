@@ -204,7 +204,7 @@ void
 WebrtcAudioConduit
 :
 :
-DeleteStreams
+Shutdown
 (
 )
 {
