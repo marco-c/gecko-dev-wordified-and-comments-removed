@@ -129,16 +129,8 @@ args
 function
 HarAutomation
 (
-toolbox
 )
 {
-this
-.
-initialize
-(
-toolbox
-)
-;
 }
 HarAutomation
 .
