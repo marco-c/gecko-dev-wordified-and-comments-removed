@@ -1403,6 +1403,9 @@ eX1
 eX2
 =
 4
+eEraser
+=
+5
 }
 ;
 enum
@@ -1426,6 +1429,9 @@ e4thFlag
 e5thFlag
 =
 0x10
+eEraserFlag
+=
+0x20
 }
 ;
 enum
