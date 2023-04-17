@@ -1,10 +1,6 @@
 from
 mod_pywebsocket
 import
-msgutil
-from
-mod_pywebsocket
-import
 common
 _GOODBYE_MESSAGE
 =
