@@ -411,6 +411,11 @@ mock
 =
 mockShell
 (
+{
+isPinned
+:
+true
+}
 )
 ;
 const
@@ -489,10 +494,8 @@ doesn
 t
 pin
 if
-can
-'
-t
-pin
+already
+pinned
 "
 )
 ;
