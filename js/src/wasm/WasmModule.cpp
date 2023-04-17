@@ -5719,6 +5719,11 @@ if
 exportObj
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
@@ -6248,6 +6253,11 @@ if
 maybeDebug
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
@@ -6383,6 +6393,11 @@ instance
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
