@@ -3920,10 +3920,8 @@ IID_IServiceProvider
 =
 =
 iid
-&
-&
-localAcc
 )
+{
 *
 ppv
 =
@@ -3933,6 +3931,7 @@ ServiceProvider
 this
 )
 ;
+}
 else
 if
 (
@@ -4056,9 +4055,6 @@ if
 !
 *
 ppv
-&
-&
-localAcc
 )
 {
 HRESULT
