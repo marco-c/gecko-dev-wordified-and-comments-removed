@@ -20438,6 +20438,15 @@ Register
 temp
 )
 ;
+void
+prepareHashSymbol
+(
+Register
+sym
+Register
+result
+)
+;
 private
 :
 enum
