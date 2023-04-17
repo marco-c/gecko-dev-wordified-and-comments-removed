@@ -434,6 +434,7 @@ pageDataDiscovered
 (
 url
 data
+browser
 )
 ;
 }
@@ -441,6 +442,7 @@ pageDataDiscovered
 (
 url
 data
+browser
 )
 {
 logConsole
@@ -469,6 +471,14 @@ now
 (
 )
 data
+weakBrowser
+:
+Cu
+.
+getWeakReference
+(
+browser
+)
 }
 ;
 this
@@ -549,6 +559,9 @@ data
 :
 [
 ]
+weakBrowser
+:
+null
 }
 ;
 this
