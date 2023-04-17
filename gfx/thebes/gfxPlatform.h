@@ -2250,12 +2250,6 @@ WebRenderEnvvarEnabled
 )
 ;
 static
-bool
-WebRenderEnvvarDisabled
-(
-)
-;
-static
 const
 char
 *
