@@ -15933,7 +15933,7 @@ stackItem
 "
 >
 <
-button
+div
 id
 =
 "
@@ -15955,6 +15955,16 @@ hidden
 =
 "
 true
+"
+role
+=
+"
+button
+"
+tabindex
+=
+"
+0
 "
 >
 <
@@ -16071,7 +16081,7 @@ div
 >
 <
 /
-button
+div
 >
 <
 /
