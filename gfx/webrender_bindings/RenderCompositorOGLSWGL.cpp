@@ -239,7 +239,7 @@ Get
 )
 -
 >
-SingletonGL
+SingletonGLForCompositorOGL
 (
 )
 ;
