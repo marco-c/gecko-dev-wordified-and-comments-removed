@@ -212,17 +212,6 @@ mozilla
 /
 layers
 /
-LayerManagerComposite
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 NativeLayer
 .
 h

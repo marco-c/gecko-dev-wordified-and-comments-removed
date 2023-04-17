@@ -233,9 +233,6 @@ class
 CompositorBridgeParent
 ;
 class
-LayerManagerComposite
-;
-class
 NativeLayer
 ;
 class

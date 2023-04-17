@@ -70,17 +70,6 @@ mozilla
 /
 layers
 /
-LayerManagerComposite
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 WebRenderBridgeParent
 .
 h

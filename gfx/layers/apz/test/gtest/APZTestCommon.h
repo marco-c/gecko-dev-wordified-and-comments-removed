@@ -49,17 +49,6 @@ mozilla
 /
 layers
 /
-AsyncCompositionManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 GeckoContentController
 .
 h
