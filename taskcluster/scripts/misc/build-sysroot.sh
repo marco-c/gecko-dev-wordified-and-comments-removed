@@ -112,11 +112,6 @@ libgtk
 3
 -
 dev
-libgtk2
-.
-0
--
-dev
 libpango1
 .
 0

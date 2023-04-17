@@ -271,12 +271,6 @@ libgtk
 -
 dev
 \
-libgtk2
-.
-0
--
-dev
-\
 libpango1
 .
 0
