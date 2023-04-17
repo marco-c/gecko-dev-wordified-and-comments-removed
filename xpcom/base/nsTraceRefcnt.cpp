@@ -132,13 +132,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 prlink
 .
 h
@@ -2041,7 +2034,7 @@ aEntry2
 const
 {
 return
-PL_strcmp
+strcmp
 (
 aEntry1
 -
@@ -2078,7 +2071,7 @@ aEntry2
 const
 {
 return
-PL_strcmp
+strcmp
 (
 aEntry1
 -
