@@ -1486,8 +1486,6 @@ Canvas
 MozDialog
 MozDialogtext
 MozDragtargetzone
-MozCellhighlight
-MozCellhighlighttext
 #
 [
 parse
@@ -1504,7 +1502,7 @@ cellhighlight
 "
 )
 ]
-Selecteditem
+MozCellhighlight
 #
 [
 parse
@@ -1521,6 +1519,8 @@ cellhighlighttext
 "
 )
 ]
+MozCellhighlighttext
+Selecteditem
 Selecteditemtext
 MozButtonhoverface
 MozButtonhovertext
