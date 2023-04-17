@@ -232,15 +232,14 @@ isInserted
 inContainer
 :
 (
-const
 mozilla
 :
 :
 a11y
 :
 :
-AccessibleOrProxy
-&
+Accessible
+*
 )
 container
 at

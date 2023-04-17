@@ -376,7 +376,8 @@ MaiHyperlink
 :
 MaiHyperlink
 (
-AccessibleOrProxy
+Accessible
+*
 aHyperLink
 )
 :

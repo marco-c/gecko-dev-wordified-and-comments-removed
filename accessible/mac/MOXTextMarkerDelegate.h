@@ -21,13 +21,6 @@ GeckoTextMarker
 .
 h
 "
-#
-include
-"
-AccessibleOrProxy
-.
-h
-"
 interface
 MOXTextMarkerDelegate
 :
@@ -42,7 +35,8 @@ mozilla
 a11y
 :
 :
-AccessibleOrProxy
+Accessible
+*
 mGeckoDocAccessible
 ;
 id
@@ -68,7 +62,8 @@ mozilla
 a11y
 :
 :
-AccessibleOrProxy
+Accessible
+*
 )
 aDoc
 ;
@@ -85,7 +80,8 @@ mozilla
 a11y
 :
 :
-AccessibleOrProxy
+Accessible
+*
 )
 aDoc
 ;
@@ -102,7 +98,8 @@ mozilla
 a11y
 :
 :
-AccessibleOrProxy
+Accessible
+*
 )
 aDoc
 ;
@@ -125,7 +122,8 @@ mozilla
 a11y
 :
 :
-AccessibleOrProxy
+Accessible
+*
 )
 startContainer
 at
@@ -143,7 +141,8 @@ mozilla
 a11y
 :
 :
-AccessibleOrProxy
+Accessible
+*
 )
 endContainer
 at
@@ -166,7 +165,8 @@ mozilla
 a11y
 :
 :
-AccessibleOrProxy
+Accessible
+*
 )
 container
 at
