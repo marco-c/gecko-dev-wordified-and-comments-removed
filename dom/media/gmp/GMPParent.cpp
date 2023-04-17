@@ -61,6 +61,17 @@ mozilla
 /
 dom
 /
+KeySystemNames
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WidevineCDMManifestBinding
 .
 h
@@ -212,13 +223,6 @@ h
 include
 "
 runnable_utils
-.
-h
-"
-#
-include
-"
-VideoUtils
 .
 h
 "
@@ -2991,7 +2995,7 @@ tag
 .
 EqualsLiteral
 (
-EME_KEY_SYSTEM_CLEARKEY
+kClearKeyKeySystemName
 )
 )
 {
@@ -4802,7 +4806,7 @@ AppendElement
 (
 nsCString
 {
-EME_KEY_SYSTEM_CLEARKEY
+kClearKeyKeySystemName
 }
 )
 ;
@@ -4814,7 +4818,7 @@ AppendElement
 (
 nsCString
 {
-EME_KEY_SYSTEM_CLEARKEY_WITH_PROTECTION_QUERY
+kClearKeyWithProtectionQueryKeySystemName
 }
 )
 ;
@@ -4894,7 +4898,7 @@ AppendElement
 (
 nsCString
 {
-EME_KEY_SYSTEM_WIDEVINE
+kWidevineKeySystemName
 }
 )
 ;
