@@ -395,7 +395,7 @@ t
 a
 BrowsingContext
 and
-don
+doesn
 '
 t
 support

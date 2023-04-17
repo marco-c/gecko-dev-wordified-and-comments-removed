@@ -3821,8 +3821,15 @@ reload
 {
 this
 .
+webNavigation
+.
 reload
 (
+Ci
+.
+nsIWebNavigation
+.
+LOAD_FLAGS_NONE
 )
 ;
 }
