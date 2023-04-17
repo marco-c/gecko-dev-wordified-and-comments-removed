@@ -19,6 +19,13 @@ nsIContent
 .
 h
 "
+#
+include
+"
+nsIFrame
+.
+h
+"
 void
 nsGenConNode
 :

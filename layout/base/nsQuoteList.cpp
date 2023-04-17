@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ErrorResult
