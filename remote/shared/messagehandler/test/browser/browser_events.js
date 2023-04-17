@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-MessageHandlerRegistry
+RootMessageHandlerRegistry
 }
 =
 ChromeUtils
@@ -25,7 +25,7 @@ shared
 /
 messagehandler
 /
-MessageHandlerRegistry
+RootMessageHandlerRegistry
 .
 jsm
 "
@@ -176,7 +176,7 @@ event
 const
 onRegistryEvent
 =
-MessageHandlerRegistry
+RootMessageHandlerRegistry
 .
 once
 (
@@ -832,7 +832,7 @@ registryEvents
 }
 }
 ;
-MessageHandlerRegistry
+RootMessageHandlerRegistry
 .
 on
 (
@@ -995,7 +995,7 @@ event
 onRoot2Event
 )
 ;
-MessageHandlerRegistry
+RootMessageHandlerRegistry
 .
 off
 (

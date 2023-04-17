@@ -418,7 +418,7 @@ this
 .
 messageHandler
 .
-key
+name
 }
 ]
 ;
