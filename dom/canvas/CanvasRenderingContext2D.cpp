@@ -8404,11 +8404,15 @@ sErrorTarget
 ;
 return
 mTarget
+?
+mTarget
 -
 >
 Snapshot
 (
 )
+:
+nullptr
 ;
 }
 RefPtr
@@ -26593,7 +26597,7 @@ sErrorTarget
 =
 errorTarget
 ;
-NS_ADDREF
+NS_IF_ADDREF
 (
 sErrorTarget
 )
