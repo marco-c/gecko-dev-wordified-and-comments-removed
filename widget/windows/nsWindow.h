@@ -2483,15 +2483,6 @@ ResizeState
 aNewState
 )
 ;
-LayoutDeviceIntPoint
-GetTouchCoordinates
-(
-WPARAM
-wParam
-LPARAM
-lParam
-)
-;
 mozilla
 :
 :
