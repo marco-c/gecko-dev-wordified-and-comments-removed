@@ -7621,9 +7621,6 @@ DisplayName
 {
 BrandFullNameInternal
 }
-{
-AppVersion
-}
 3
 (
 {
