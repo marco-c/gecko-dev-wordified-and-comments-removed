@@ -902,10 +902,10 @@ JS
 :
 Handle
 <
-JSObject
+JSString
 *
 >
-aModuleRequest
+aSpecifier
 JS
 :
 :
