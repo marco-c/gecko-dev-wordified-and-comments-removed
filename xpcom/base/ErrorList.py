@@ -4135,22 +4135,6 @@ FAILURE
     
 errors
 [
-        
-"
-NS_ERROR_DOM_INVALID_STATE_XHR_MUST_NOT_BE_LOADING_OR_DONE_RESPONSE_TYPE
-"
-    
-]
-=
-FAILURE
-(
-        
-1021
-    
-)
-    
-errors
-[
 "
 NS_ERROR_DOM_JS_DECODING_ERROR
 "
