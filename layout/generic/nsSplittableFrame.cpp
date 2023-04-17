@@ -966,7 +966,7 @@ prevContinuation
 aFrame
 -
 >
-SetPrevInFlow
+SetNextInFlow
 (
 nullptr
 )
@@ -974,7 +974,7 @@ nullptr
 aFrame
 -
 >
-SetNextInFlow
+SetPrevInFlow
 (
 nullptr
 )
