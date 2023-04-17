@@ -707,6 +707,16 @@ string
 "
 )
 .
+opaque_type
+(
+"
+std
+:
+:
+vector
+"
+)
+.
 raw_line
 (
 "
