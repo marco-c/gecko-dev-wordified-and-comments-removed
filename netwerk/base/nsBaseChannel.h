@@ -169,6 +169,9 @@ class
 nsIInputStream
 ;
 class
+nsICancelable
+;
+class
 nsBaseChannel
 :
 public
@@ -273,6 +276,10 @@ nsIRequest
 *
 *
 request
+nsICancelable
+*
+*
+cancelableRequest
 )
 {
 return
@@ -762,6 +769,12 @@ RefPtr
 nsIRequest
 >
 mRequest
+;
+nsCOMPtr
+<
+nsICancelable
+>
+mCancelableAsyncRequest
 ;
 bool
 mPumpingData
