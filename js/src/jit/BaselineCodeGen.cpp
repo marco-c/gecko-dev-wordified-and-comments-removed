@@ -14451,15 +14451,6 @@ syncStack
 0
 )
 ;
-loadInt32LengthBytecodeOperand
-(
-R0
-.
-scratchReg
-(
-)
-)
-;
 if
 (
 !

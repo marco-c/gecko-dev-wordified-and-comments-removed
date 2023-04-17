@@ -3066,8 +3066,6 @@ frame
 ICNewArray_Fallback
 *
 stub
-uint32_t
-length
 MutableHandleValue
 res
 )

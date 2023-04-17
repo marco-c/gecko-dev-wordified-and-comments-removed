@@ -9631,6 +9631,12 @@ case
 CacheKind
 :
 :
+NewArray
+:
+case
+CacheKind
+:
+:
 NewObject
 :
 case
@@ -9690,12 +9696,6 @@ CacheKind
 :
 :
 UnaryArith
-:
-case
-CacheKind
-:
-:
-NewArray
 :
 MOZ_ASSERT
 (
