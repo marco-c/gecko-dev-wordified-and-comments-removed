@@ -36,6 +36,17 @@ js
 /
 friend
 /
+DumpFunctions
+.
+h
+"
+#
+include
+"
+js
+/
+friend
+/
 ErrorMessages
 .
 h

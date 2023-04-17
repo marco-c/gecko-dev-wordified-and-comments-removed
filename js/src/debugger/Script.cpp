@@ -8140,6 +8140,12 @@ case
 JSOp
 :
 :
+GetAliasedDebugVar
+:
+case
+JSOp
+:
+:
 GetAliasedVar
 :
 case
