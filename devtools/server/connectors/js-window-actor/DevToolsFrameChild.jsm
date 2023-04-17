@@ -1002,7 +1002,7 @@ server
 ;
 const
 {
-FrameTargetActor
+WindowGlobalTargetActor
 }
 =
 this
@@ -1020,7 +1020,9 @@ actors
 /
 targets
 /
-frame
+window
+-
+global
 "
 )
 ;
@@ -1068,7 +1070,7 @@ const
 targetActor
 =
 new
-FrameTargetActor
+WindowGlobalTargetActor
 (
 connection
 {

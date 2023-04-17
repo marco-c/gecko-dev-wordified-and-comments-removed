@@ -295,7 +295,7 @@ else
 {
 const
 {
-FrameTargetActor
+WindowGlobalTargetActor
 }
 =
 require
@@ -309,7 +309,9 @@ actors
 /
 targets
 /
-frame
+window
+-
+global
 "
 )
 ;
@@ -323,7 +325,7 @@ chromeGlobal
 actor
 =
 new
-FrameTargetActor
+WindowGlobalTargetActor
 (
 conn
 {

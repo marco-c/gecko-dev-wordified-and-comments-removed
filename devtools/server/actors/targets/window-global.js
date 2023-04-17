@@ -1216,7 +1216,7 @@ this
 .
 contentDocument
 .
-contentTitle
+title
 ;
 }
 get
