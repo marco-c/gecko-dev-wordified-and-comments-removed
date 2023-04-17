@@ -2108,7 +2108,7 @@ name
 TRR_PREF
 (
 "
-bootstrapAddress
+bootstrapAddr
 "
 )
 )
@@ -2128,7 +2128,7 @@ GetCString
 TRR_PREF
 (
 "
-bootstrapAddress
+bootstrapAddr
 "
 )
 mBootstrapAddr
