@@ -142,15 +142,6 @@ endif
 ArrayNew
 InlineTypedObjectClass
 #
-if
-defined
-(
-JS_CODEGEN_MIPS32
-)
-js_jit_gAtomic64Lock
-#
-endif
-#
 define
 DECL_INTRINSIC_SA
 (
