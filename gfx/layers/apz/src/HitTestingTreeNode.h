@@ -239,10 +239,6 @@ void
 SetHitTestData
 (
 const
-EventRegions
-&
-aRegions
-const
 LayerIntRegion
 &
 aVisibleRegion
@@ -615,9 +611,6 @@ Maybe
 uint64_t
 >
 mStickyPositionAnimationId
-;
-EventRegions
-mEventRegions
 ;
 LayerIntRegion
 mVisibleRegion
