@@ -9010,7 +9010,9 @@ update
 .
 background
 .
-experimental
+scheduling
+.
+enabled
 "
 false
 )
@@ -9024,6 +9026,11 @@ MOZ_UPDATER
 AppConstants
 .
 MOZ_UPDATE_AGENT
+&
+&
+UpdateUtils
+.
+PER_INSTALLATION_PREFS_SUPPORTED
 &
 &
 (
