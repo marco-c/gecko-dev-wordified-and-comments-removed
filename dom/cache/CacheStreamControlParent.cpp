@@ -735,11 +735,11 @@ NotifyCloseAll
 (
 )
 ;
-Unused
-<
-<
+MOZ_DIAGNOSTIC_ASSERT
+(
 SendCloseAll
 (
+)
 )
 ;
 }
