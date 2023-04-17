@@ -34879,12 +34879,6 @@ StorageAccessPermissionGranted
 (
 )
 {
-mStorageAllowedCache
-=
-Nothing
-(
-)
-;
 PropagateStorageAccessPermissionGrantedToWorkers
 (
 *

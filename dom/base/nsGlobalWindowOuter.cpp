@@ -11168,15 +11168,6 @@ reUseInnerWindow
 newInnerWindow
 -
 >
-mStorageAllowedCache
-=
-Nothing
-(
-)
-;
-newInnerWindow
--
->
 mLocalStorage
 =
 nullptr
