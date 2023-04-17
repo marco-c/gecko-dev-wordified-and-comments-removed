@@ -48,6 +48,13 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+ClassifierDummyChannel
+.
+h
+"
 namespace
 mozilla
 {

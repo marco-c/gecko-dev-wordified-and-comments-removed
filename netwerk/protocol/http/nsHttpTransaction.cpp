@@ -347,13 +347,6 @@ SpeculativeTransaction
 .
 h
 "
-static
-NS_DEFINE_CID
-(
-kMultiplexInputStream
-NS_MULTIPLEXINPUTSTREAM_CID
-)
-;
 #
 define
 MAX_INVALID_RESPONSE_BODY_SIZE
