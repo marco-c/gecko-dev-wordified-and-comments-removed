@@ -233,6 +233,9 @@ class
 MediaTrackListener
 ;
 class
+NativeInputTrack
+;
+class
 ProcessedMediaTrack
 ;
 class
@@ -825,6 +828,17 @@ virtual
 CrossGraphReceiver
 *
 AsCrossGraphReceiver
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+NativeInputTrack
+*
+AsNativeInputTrack
 (
 )
 {

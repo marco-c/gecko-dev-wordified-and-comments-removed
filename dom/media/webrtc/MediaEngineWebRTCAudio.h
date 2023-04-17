@@ -828,6 +828,12 @@ mInputProcessing
 ;
 RefPtr
 <
+MediaInputPort
+>
+mPort
+;
+RefPtr
+<
 AudioDataListener
 >
 mInputListener
