@@ -16,15 +16,6 @@ testTrrSelectionDisable
 (
 )
 {
-let
-configFlushed
-=
-DoHTestUtils
-.
-waitForConfigFlush
-(
-)
-;
 Preferences
 .
 set
@@ -34,9 +25,6 @@ prefs
 TRR_SELECT_ENABLED_PREF
 false
 )
-;
-await
-configFlushed
 ;
 setPassingHeuristics
 (
