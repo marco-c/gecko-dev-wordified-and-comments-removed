@@ -2454,7 +2454,7 @@ color
 Atom
 (
 "
-colorIndex
+color_index
 "
 "
 color
@@ -2466,7 +2466,7 @@ index
 Atom
 (
 "
-colorScheme
+color_scheme
 "
 "
 color
