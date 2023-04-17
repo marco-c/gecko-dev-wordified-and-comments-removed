@@ -28,6 +28,8 @@ gfx
 .
 webrender
 .
+debug
+.
 enable
 -
 capture
