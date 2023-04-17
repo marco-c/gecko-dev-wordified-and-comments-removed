@@ -299,7 +299,7 @@ result
 )
 ;
 }
-JSString
+JSLinearString
 *
 toString
 (
