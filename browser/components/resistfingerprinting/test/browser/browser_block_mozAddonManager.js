@@ -1,5 +1,5 @@
 const
-TEST_PATH
+HTTPS_TEST_PATH
 =
 "
 https
@@ -101,7 +101,7 @@ BrowserTestUtils
 openNewForegroundTab
 (
 gBrowser
-TEST_PATH
+HTTPS_TEST_PATH
 +
 "
 file_dummy
