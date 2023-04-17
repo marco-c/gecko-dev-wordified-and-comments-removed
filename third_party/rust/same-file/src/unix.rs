@@ -184,6 +184,7 @@ ino
 impl
 AsRawFd
 for
+crate
 :
 :
 Handle
@@ -224,6 +225,7 @@ as_raw_fd
 impl
 IntoRawFd
 for
+crate
 :
 :
 Handle

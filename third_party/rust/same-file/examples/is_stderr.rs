@@ -1,7 +1,3 @@
-extern
-crate
-same_file
-;
 use
 std
 :
