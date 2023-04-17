@@ -61,7 +61,7 @@ blocklist
 .
 useMLBF
 "
-false
+true
 )
 ;
 var
