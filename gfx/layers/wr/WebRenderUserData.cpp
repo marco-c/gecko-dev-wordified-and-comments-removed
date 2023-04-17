@@ -1557,6 +1557,12 @@ WebRenderUserData
 aManager
 aItem
 )
+mOpacity
+(
+1
+.
+0f
+)
 mInvalid
 (
 false
