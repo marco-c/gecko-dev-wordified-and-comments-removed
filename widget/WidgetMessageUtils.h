@@ -222,7 +222,7 @@ LookAndFeel
 ColorID
 :
 :
-WindowBackground
+WidgetBackground
 mozilla
 :
 :
@@ -268,7 +268,7 @@ LookAndFeel
 ColorID
 :
 :
-WindowBackground
+WidgetBackground
 )
 =
 =

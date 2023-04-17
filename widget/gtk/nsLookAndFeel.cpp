@@ -2025,12 +2025,6 @@ case
 ColorID
 :
 :
-WindowBackground
-:
-case
-ColorID
-:
-:
 WidgetBackground
 :
 case
@@ -2081,12 +2075,6 @@ mMozWindowBackground
 ;
 break
 ;
-case
-ColorID
-:
-:
-WindowForeground
-:
 case
 ColorID
 :
