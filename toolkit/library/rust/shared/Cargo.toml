@@ -1607,15 +1607,6 @@ quantum_render
 webrender_bindings
 "
 ]
-webrender_debugger
-=
-[
-"
-webrender_bindings
-/
-webrender_debugger
-"
-]
 cubeb
 -
 remoting
