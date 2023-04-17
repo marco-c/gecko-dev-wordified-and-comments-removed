@@ -542,7 +542,7 @@ mainProcessTarget
 =
 RemoteAgent
 .
-targets
+targetList
 ;
 const
 target

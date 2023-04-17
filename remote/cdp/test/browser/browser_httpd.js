@@ -188,7 +188,7 @@ json
 webSocketDebuggerUrl
 RemoteAgent
 .
-targets
+targetList
 .
 getMainProcessTarget
 (

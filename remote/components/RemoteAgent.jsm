@@ -563,7 +563,7 @@ this
 ;
 this
 .
-targets
+targetList
 =
 new
 TargetList
@@ -572,7 +572,7 @@ TargetList
 ;
 this
 .
-targets
+targetList
 .
 on
 (
@@ -605,7 +605,7 @@ target
 ;
 this
 .
-targets
+targetList
 .
 on
 (
@@ -658,7 +658,7 @@ try
 await
 this
 .
-targets
+targetList
 .
 watchForTargets
 (
@@ -669,7 +669,7 @@ mainTarget
 =
 this
 .
-targets
+targetList
 .
 getMainProcessTarget
 (
@@ -783,12 +783,12 @@ if
 (
 this
 .
-targets
+targetList
 )
 {
 this
 .
-targets
+targetList
 .
 destructor
 (
@@ -842,7 +842,7 @@ null
 ;
 this
 .
-targets
+targetList
 =
 null
 ;

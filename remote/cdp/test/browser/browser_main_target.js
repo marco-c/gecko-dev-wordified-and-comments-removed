@@ -20,7 +20,7 @@ mainProcessTarget
 =
 RemoteAgent
 .
-targets
+targetList
 ;
 ok
 (
