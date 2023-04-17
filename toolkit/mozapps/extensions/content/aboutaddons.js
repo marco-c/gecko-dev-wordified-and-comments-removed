@@ -2864,6 +2864,14 @@ addon
 .
 url
 ;
+this
+.
+taarRecommended
+=
+details
+.
+is_recommendation
+;
 }
 }
 var
@@ -19917,6 +19925,11 @@ source
 "
 disco
 "
+taarRecommended
+:
+addon
+.
+taarRecommended
 }
 }
 )

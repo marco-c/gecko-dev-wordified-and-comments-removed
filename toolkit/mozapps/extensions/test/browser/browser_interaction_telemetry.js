@@ -1016,6 +1016,13 @@ aboutAddons
 "
 discover
 "
+{
+taar_enabled
+:
+"
+0
+"
+}
 ]
 [
 "
