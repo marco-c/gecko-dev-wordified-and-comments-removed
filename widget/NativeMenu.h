@@ -44,7 +44,7 @@ NS_INLINE_DECL_REFCOUNTING
 NativeMenu
 )
 virtual
-bool
+void
 ShowAsContextMenu
 (
 const

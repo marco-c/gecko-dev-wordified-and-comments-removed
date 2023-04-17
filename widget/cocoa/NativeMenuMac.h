@@ -80,7 +80,7 @@ Element
 aElement
 )
 ;
-bool
+void
 ShowAsContextMenu
 (
 const
