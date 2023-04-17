@@ -144,6 +144,12 @@ ONLY_ZOOM_TO_DEFAULT_SCALE
 <
 <
 2
+ZOOM_IN_IF_CANT_ZOOM_OUT
+=
+1
+<
+<
+3
 }
 ;
 class

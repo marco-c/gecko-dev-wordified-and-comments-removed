@@ -44,6 +44,12 @@ CSSRect
 >
 elementBoundingRect
 ;
+Maybe
+<
+CSSPoint
+>
+documentRelativePointerPosition
+;
 }
 ;
 ZoomTarget

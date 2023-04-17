@@ -824,7 +824,7 @@ zoomTarget
 ZoomToRectBehavior
 :
 :
-DEFAULT_BEHAVIOR
+ZOOM_IN_IF_CANT_ZOOM_OUT
 )
 )
 ;
