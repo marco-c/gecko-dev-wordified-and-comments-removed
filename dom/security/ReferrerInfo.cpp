@@ -1101,6 +1101,16 @@ EqualsIgnoreCase
 http
 "
 )
+|
+|
+scheme
+.
+EqualsIgnoreCase
+(
+"
+ftp
+"
+)
 ;
 }
 bool

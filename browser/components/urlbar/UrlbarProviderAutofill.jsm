@@ -1313,6 +1313,10 @@ http
 https
 :
 "
+"
+ftp
+:
+"
 ]
 ;
 function
