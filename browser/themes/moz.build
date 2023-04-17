@@ -42,6 +42,11 @@ EXTRA_JS_MODULES
 =
 [
 "
+BuiltInThemeConfig
+.
+jsm
+"
+"
 BuiltInThemes
 .
 jsm
