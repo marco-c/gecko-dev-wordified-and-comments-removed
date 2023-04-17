@@ -3657,6 +3657,10 @@ Document
 aDoc
 StyleSystemColorScheme
 aColorScheme
+const
+StyleColorScheme
+*
+aStyle
 )
 {
 auto
@@ -3741,10 +3745,14 @@ return
 LookAndFeel
 :
 :
-ColorSchemeForDocument
+ColorSchemeForStyle
 (
 *
 aDoc
+aStyle
+-
+>
+bits
 )
 ;
 }

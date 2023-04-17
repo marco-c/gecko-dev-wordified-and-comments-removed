@@ -473,6 +473,7 @@ color
 Color
 ColorOrAuto
 ColorPropertyValue
+ColorScheme
 }
 ;
 pub

@@ -2648,6 +2648,12 @@ mozilla
 :
 :
 StyleSystemColorScheme
+const
+mozilla
+:
+:
+StyleColorScheme
+*
 )
 ;
 int32_t

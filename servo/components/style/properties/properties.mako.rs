@@ -7697,6 +7697,11 @@ FontFamily
 LonghandId
 :
 :
+ColorScheme
+|
+LonghandId
+:
+:
 WritingMode
 |
 LonghandId

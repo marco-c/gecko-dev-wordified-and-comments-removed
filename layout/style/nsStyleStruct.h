@@ -8304,6 +8304,12 @@ mozilla
 StyleScrollbarColor
 mScrollbarColor
 ;
+mozilla
+:
+:
+StyleColorScheme
+mColorScheme
+;
 inline
 mozilla
 :
