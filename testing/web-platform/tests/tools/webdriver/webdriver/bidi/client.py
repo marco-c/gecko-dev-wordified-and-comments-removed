@@ -136,6 +136,7 @@ async
 def
 on_log
 (
+method
 data
 )
 :
@@ -161,6 +162,8 @@ localhost
 capabilities
 )
     
+remove_listener
+=
 session
 .
 add_event_listener
@@ -199,6 +202,10 @@ stuff
 with
 the
 session
+    
+remove_listener
+(
+)
     
 session
 .
@@ -1542,6 +1549,7 @@ str
 Any
 ]
 ]
+                           
 Awaitable
 [
 Any
@@ -1550,7 +1558,12 @@ Any
 )
 -
 >
+Callable
+[
+[
+]
 None
+]
 :
         
 "
@@ -1617,6 +1630,16 @@ receives
 event
 data
         
+:
+return
+:
+Function
+to
+remove
+the
+added
+listener
+        
 "
 "
 "
@@ -1629,6 +1652,21 @@ name
 ]
 .
 append
+(
+fn
+)
+        
+return
+lambda
+:
+self
+.
+event_listeners
+[
+name
+]
+.
+remove
 (
 fn
 )
