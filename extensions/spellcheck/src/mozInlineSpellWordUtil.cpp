@@ -3813,7 +3813,9 @@ Truncate
 (
 )
 ;
-mSoftTextDOMMapping
+mSoftText
+.
+mDOMMapping
 .
 Clear
 (
@@ -4003,7 +4005,9 @@ lastOffsetInNode
 -
 firstOffsetInNode
 ;
-mSoftTextDOMMapping
+mSoftText
+.
+mDOMMapping
 .
 AppendElement
 (
@@ -4050,7 +4054,9 @@ if
 ok
 )
 {
-mSoftTextDOMMapping
+mSoftText
+.
+mDOMMapping
 .
 RemoveLastElement
 (
@@ -4380,7 +4386,9 @@ i
 <
 int32_t
 (
-mSoftTextDOMMapping
+mSoftText
+.
+mDOMMapping
 .
 Length
 (
@@ -4397,7 +4405,9 @@ DOMTextMapping
 &
 map
 =
-mSoftTextDOMMapping
+mSoftText
+.
+mDOMMapping
 [
 i
 ]
@@ -4669,7 +4679,9 @@ found
 =
 FindLastNongreaterOffset
 (
-mSoftTextDOMMapping
+mSoftText
+.
+mDOMMapping
 aSoftTextOffset
 &
 index
@@ -4708,7 +4720,9 @@ DOMTextMapping
 &
 map
 =
-mSoftTextDOMMapping
+mSoftText
+.
+mDOMMapping
 [
 index
 -
@@ -4753,7 +4767,9 @@ DOMTextMapping
 &
 map
 =
-mSoftTextDOMMapping
+mSoftText
+.
+mDOMMapping
 [
 index
 ]
