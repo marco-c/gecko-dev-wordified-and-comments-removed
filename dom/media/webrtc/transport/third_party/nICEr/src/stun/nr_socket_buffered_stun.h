@@ -61,5 +61,16 @@ nr_transport_addr
 remote_addr
 )
 ;
+int
+nr_socket_buffered_stun_reset
+(
+nr_socket
+*
+sock
+nr_socket
+*
+new_inner
+)
+;
 #
 endif

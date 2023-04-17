@@ -4,6 +4,9 @@ _turn_client_ctx_h
 #
 define
 _turn_client_ctx_h
+struct
+nr_ice_ctx_
+;
 typedef
 struct
 nr_turn_stun_ctx_
@@ -158,6 +161,11 @@ stun_ctxs
 nr_turn_permission_head
 permissions
 ;
+struct
+nr_ice_ctx_
+*
+ctx
+;
 NR_async_cb
 finished_cb
 ;
@@ -209,6 +217,10 @@ password
 nr_transport_addr
 *
 addr
+struct
+nr_ice_ctx_
+*
+ice_ctx
 nr_turn_client_ctx
 *
 *
