@@ -681,7 +681,7 @@ aOldPriority
 )
 ;
 void
-TabActivityChanged
+ActivityChanged
 (
 BrowserParent
 *
@@ -1003,7 +1003,7 @@ aPriority
 )
 ;
 void
-TabActivityChanged
+ActivityChanged
 (
 BrowserParent
 *
@@ -1829,7 +1829,7 @@ void
 ProcessPriorityManagerImpl
 :
 :
-TabActivityChanged
+ActivityChanged
 (
 BrowserParent
 *
@@ -1881,7 +1881,7 @@ DOM_CONTENTPROCESS_OS_PRIORITY_CHANGE_CONSIDERED
 pppm
 -
 >
-TabActivityChanged
+ActivityChanged
 (
 aBrowserParent
 aIsActive
@@ -3160,7 +3160,7 @@ void
 ParticularProcessPriorityManager
 :
 :
-TabActivityChanged
+ActivityChanged
 (
 BrowserParent
 *
@@ -3855,7 +3855,7 @@ void
 ProcessPriorityManager
 :
 :
-TabActivityChanged
+ActivityChanged
 (
 BrowserParent
 *
@@ -3892,7 +3892,7 @@ return
 singleton
 -
 >
-TabActivityChanged
+ActivityChanged
 (
 aBrowserParent
 aIsActive

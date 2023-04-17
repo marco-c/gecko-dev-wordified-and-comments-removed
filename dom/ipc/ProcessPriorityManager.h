@@ -23,10 +23,10 @@ namespace
 dom
 {
 class
-ContentParent
+BrowserParent
 ;
 class
-BrowserParent
+ContentParent
 ;
 }
 class
@@ -66,7 +66,7 @@ CurrentProcessIsForeground
 ;
 static
 void
-TabActivityChanged
+ActivityChanged
 (
 dom
 :
