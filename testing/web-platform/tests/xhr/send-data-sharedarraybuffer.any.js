@@ -102,6 +102,12 @@ Int32Array
 Uint32Array
 "
 "
+BigInt64Array
+"
+"
+BigUint64Array
+"
+"
 Float32Array
 "
 "

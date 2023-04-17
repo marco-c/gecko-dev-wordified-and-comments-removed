@@ -2562,6 +2562,16 @@ Uint8ClampedArray
 :
 case
 "
+BigInt64Array
+"
+:
+case
+"
+BigUint64Array
+"
+:
+case
+"
 Float32Array
 "
 :
