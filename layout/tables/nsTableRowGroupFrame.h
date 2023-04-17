@@ -530,7 +530,6 @@ GetLine
 int32_t
 aLineNumber
 )
-const
 override
 ;
 virtual
@@ -565,7 +564,6 @@ bool
 *
 aPosIsAfterLastFrame
 )
-const
 override
 ;
 NS_IMETHOD
