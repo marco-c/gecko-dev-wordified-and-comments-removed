@@ -355,17 +355,6 @@ async
 =
 >
 {
-if
-(
-!
-AppConstants
-.
-MOZ_GECKO_PROFILER
-)
-{
-return
-;
-}
 startProfilerForMarkerTests
 (
 )

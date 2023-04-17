@@ -6,17 +6,6 @@ test_profile_feature_nostacksampling
 (
 )
 {
-if
-(
-!
-AppConstants
-.
-MOZ_GECKO_PROFILER
-)
-{
-return
-;
-}
 Assert
 .
 ok

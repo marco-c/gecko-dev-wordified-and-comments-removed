@@ -172,17 +172,6 @@ test_profile_feature_preferencereads
 (
 )
 {
-if
-(
-!
-AppConstants
-.
-MOZ_GECKO_PROFILER
-)
-{
-return
-;
-}
 Assert
 .
 ok

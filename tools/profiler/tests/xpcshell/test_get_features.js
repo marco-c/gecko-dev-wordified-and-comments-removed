@@ -3,17 +3,6 @@ run_test
 (
 )
 {
-if
-(
-!
-AppConstants
-.
-MOZ_GECKO_PROFILER
-)
-{
-return
-;
-}
 var
 profilerFeatures
 =

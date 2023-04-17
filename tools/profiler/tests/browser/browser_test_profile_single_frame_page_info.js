@@ -25,17 +25,6 @@ requestCompleteLog
 (
 )
 ;
-if
-(
-!
-AppConstants
-.
-MOZ_GECKO_PROFILER
-)
-{
-return
-;
-}
 Assert
 .
 ok

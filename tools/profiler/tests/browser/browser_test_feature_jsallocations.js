@@ -11,17 +11,6 @@ test_profile_feature_jsallocations
 (
 )
 {
-if
-(
-!
-AppConstants
-.
-MOZ_GECKO_PROFILER
-)
-{
-return
-;
-}
 Assert
 .
 ok

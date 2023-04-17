@@ -108,17 +108,6 @@ test_profile_feature_ipcmessges
 (
 )
 {
-if
-(
-!
-AppConstants
-.
-MOZ_GECKO_PROFILER
-)
-{
-return
-;
-}
 Assert
 .
 ok
