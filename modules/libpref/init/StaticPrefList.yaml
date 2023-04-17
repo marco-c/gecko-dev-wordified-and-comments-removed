@@ -53425,7 +53425,7 @@ webrtc
 platformencoder
 type
 :
-bool
+RelaxedAtomicBool
 #
 if
 defined
