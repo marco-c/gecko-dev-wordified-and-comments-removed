@@ -937,6 +937,8 @@ const
 IntRect
 &
 aItemBounds
+bool
+aDirty
 nsDisplayList
 *
 aChildren
@@ -4609,6 +4611,7 @@ this
 item
 data
 bounds
+dirty
 children
 aContext
 aRecorder
@@ -5015,6 +5018,8 @@ const
 IntRect
 &
 aItemBounds
+bool
+aDirty
 nsDisplayList
 *
 aChildren
@@ -5153,6 +5158,11 @@ trans2d
 )
 )
 {
+if
+(
+aDirty
+)
+{
 aItem
 -
 >
@@ -5192,6 +5202,7 @@ aRootManager
 aResources
 )
 ;
+}
 aContext
 -
 >
@@ -6032,6 +6043,11 @@ n
 "
 )
 ;
+if
+(
+aDirty
+)
+{
 auto
 filterItem
 =
@@ -6078,6 +6094,7 @@ aRootManager
 aResources
 )
 ;
+}
 aContext
 -
 >
