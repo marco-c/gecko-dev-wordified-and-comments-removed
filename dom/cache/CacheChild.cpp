@@ -360,11 +360,14 @@ MOZ_DIAGNOSTIC_ASSERT
 mListener
 )
 ;
-Unused
-<
-<
+QM_WARNONLY_TRY
+(
+OkIf
+(
 SendTeardown
 (
+)
+)
 )
 ;
 }
