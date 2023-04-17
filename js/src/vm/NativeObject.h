@@ -7166,15 +7166,8 @@ allowGC
 :
 HandleType
 id
-typename
-MaybeRooted
-<
 PropertyResult
-allowGC
->
-:
-:
-MutableHandleType
+*
 propp
 )
 ;

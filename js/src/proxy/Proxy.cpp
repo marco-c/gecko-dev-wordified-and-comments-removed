@@ -4722,10 +4722,8 @@ HandleId
 id
 MutableHandleObject
 objp
-MutableHandle
-<
 PropertyResult
->
+*
 propp
 )
 {
@@ -4758,7 +4756,8 @@ found
 )
 {
 propp
-.
+-
+>
 setProxyProperty
 (
 )
@@ -4774,7 +4773,8 @@ obj
 else
 {
 propp
-.
+-
+>
 setNotFound
 (
 )

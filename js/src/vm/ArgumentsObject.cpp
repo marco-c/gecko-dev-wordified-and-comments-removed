@@ -4268,14 +4268,8 @@ writable
 )
 )
 ;
-Rooted
-<
 PropertyResult
->
 prop
-(
-cx
-)
 ;
 if
 (

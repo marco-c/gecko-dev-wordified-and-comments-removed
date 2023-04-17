@@ -688,13 +688,8 @@ JS
 :
 MutableHandleObject
 objp
-JS
-:
-:
-MutableHandle
-<
 PropertyResult
->
+*
 propp
 )
 ;

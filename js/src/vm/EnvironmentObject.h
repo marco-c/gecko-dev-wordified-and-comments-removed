@@ -985,10 +985,8 @@ HandleId
 id
 MutableHandleObject
 objp
-MutableHandle
-<
 PropertyResult
->
+*
 propp
 )
 ;
