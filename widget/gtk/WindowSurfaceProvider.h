@@ -116,9 +116,6 @@ WindowSurfaceProvider
 void
 Initialize
 (
-Display
-*
-aDisplay
 Window
 aWindow
 Visual
@@ -196,10 +193,6 @@ CreateWindowSurface
 ;
 bool
 mIsX11Display
-;
-Display
-*
-mXDisplay
 ;
 Window
 mXWindow

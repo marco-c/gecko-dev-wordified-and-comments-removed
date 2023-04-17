@@ -3546,10 +3546,7 @@ compWidget
 return
 CreateForWidget
 (
-compWidget
--
->
-XDisplay
+DefaultXDisplay
 (
 )
 compWidget
