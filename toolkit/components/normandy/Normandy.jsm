@@ -472,13 +472,6 @@ TelemetryUtils
 TELEMETRY_UPLOAD_DISABLED_TOPIC
 )
 ;
-await
-NormandyMigrations
-.
-applyAll
-(
-)
-;
 this
 .
 rolloutPrefsChanged
@@ -506,6 +499,13 @@ this
 defaultPrefsHaveBeenApplied
 .
 resolve
+(
+)
+;
+await
+NormandyMigrations
+.
+applyAll
 (
 )
 ;
