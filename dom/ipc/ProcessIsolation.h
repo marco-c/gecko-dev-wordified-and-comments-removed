@@ -74,6 +74,15 @@ mozilla
 LazyLogModule
 gProcessIsolationLog
 ;
+constexpr
+nsLiteralCString
+kHighValueCOOPPermission
+=
+"
+highValueCOOP
+"
+_ns
+;
 struct
 NavigationIsolationOptions
 {
