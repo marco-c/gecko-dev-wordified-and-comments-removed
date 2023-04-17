@@ -8785,6 +8785,11 @@ HandleValue
 val_
 ;
 AttachDecision
+tryAttachBool
+(
+)
+;
+AttachDecision
 tryAttachInt32
 (
 )

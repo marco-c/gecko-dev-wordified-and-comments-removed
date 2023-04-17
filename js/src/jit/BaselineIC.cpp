@@ -3894,16 +3894,6 @@ ToBool
 "
 )
 ;
-MOZ_ASSERT
-(
-!
-arg
-.
-isBoolean
-(
-)
-)
-;
 TryAttachStub
 <
 ToBoolIRGenerator
