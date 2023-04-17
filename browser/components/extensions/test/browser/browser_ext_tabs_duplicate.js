@@ -709,6 +709,11 @@ duplicateTab
 (
 tab
 true
+{
+skipLoad
+:
+true
+}
 )
 ;
 BrowserTestUtils
