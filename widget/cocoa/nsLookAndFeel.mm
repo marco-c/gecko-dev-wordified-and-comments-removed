@@ -2755,9 +2755,7 @@ bestMatchFromAppearancesWithNames
 :
 [
 NSAppearanceNameAqua
-"
 NSAppearanceNameDarkAqua
-"
 ]
 ]
 ;
@@ -2766,9 +2764,7 @@ return
 aquaOrDarkAqua
 isEqualToString
 :
-"
 NSAppearanceNameDarkAqua
-"
 ]
 ;
 }
