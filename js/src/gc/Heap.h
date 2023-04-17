@@ -573,6 +573,9 @@ firstFreeSpan
 ;
 public
 :
+AllocKind
+allocKind
+;
 JS
 :
 :
@@ -583,13 +586,6 @@ zone
 Arena
 *
 next
-;
-private
-:
-size_t
-allocKind
-:
-8
 ;
 private
 :
@@ -606,8 +602,6 @@ size_t
 DELAYED_MARKING_ARENA_BITS
 =
 JS_BITS_PER_WORD
--
-8
 -
 DELAYED_MARKING_FLAG_BITS
 ;
@@ -779,13 +773,10 @@ MakeNoAccess
 ;
 allocKind
 =
-size_t
-(
 AllocKind
 :
 :
 LIMIT
-)
 ;
 onDelayedMarkingList_
 =
@@ -899,10 +890,7 @@ allocated
 )
 ;
 return
-AllocKind
-(
 allocKind
-)
 ;
 }
 FreeSpan
