@@ -176,7 +176,7 @@ events
 .
 asyncClipboard
 .
-clipboardItem
+read
 "
 Throws
 NeedsSubjectPrincipal
