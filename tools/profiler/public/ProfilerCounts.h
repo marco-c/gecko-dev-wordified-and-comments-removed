@@ -249,6 +249,17 @@ aNumber
 #
 endif
 }
+void
+Clear
+(
+)
+{
+*
+mCounter
+=
+0
+;
+}
 const
 char
 *
