@@ -335,7 +335,7 @@ targetFront
 ;
 }
 get
-hasResourceWatcherSupport
+hasResourceCommandSupport
 (
 )
 {
@@ -346,7 +346,7 @@ toolbox
 .
 resourceWatcher
 .
-hasResourceWatcherSupport
+hasResourceCommandSupport
 (
 this
 .
@@ -752,7 +752,7 @@ if
 (
 this
 .
-hasResourceWatcherSupport
+hasResourceCommandSupport
 )
 {
 this
@@ -1702,7 +1702,7 @@ if
 (
 this
 .
-hasResourceWatcherSupport
+hasResourceCommandSupport
 &
 &
 this
@@ -1810,7 +1810,7 @@ if
 (
 this
 .
-hasResourceWatcherSupport
+hasResourceCommandSupport
 &
 &
 this
@@ -1865,7 +1865,7 @@ if
 (
 this
 .
-hasResourceWatcherSupport
+hasResourceCommandSupport
 &
 &
 this
@@ -2353,7 +2353,7 @@ throttlingFront
 =
 this
 .
-hasResourceWatcherSupport
+hasResourceCommandSupport
 &
 &
 this

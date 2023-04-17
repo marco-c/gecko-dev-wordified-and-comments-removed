@@ -1675,7 +1675,7 @@ this
 .
 resourceWatcher
 .
-hasResourceWatcherSupport
+hasResourceCommandSupport
 (
 this
 .

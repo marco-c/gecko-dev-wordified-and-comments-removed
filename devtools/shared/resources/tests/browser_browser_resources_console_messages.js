@@ -42,7 +42,7 @@ targetCommand
 }
 =
 await
-initMultiProcessResourceWatcher
+initMultiProcessResourceCommand
 (
 )
 ;
@@ -56,7 +56,7 @@ messages
 before
 *
 calling
-ResourceWatcher
+ResourceCommand
 .
 watchResources
 in

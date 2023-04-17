@@ -55,7 +55,7 @@ info
 (
 "
 Test
-ResourceWatcher
+ResourceCommand
 for
 DOCUMENT_EVENT
 "
@@ -94,7 +94,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -401,7 +401,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -608,7 +608,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )

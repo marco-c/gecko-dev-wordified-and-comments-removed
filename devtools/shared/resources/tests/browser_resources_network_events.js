@@ -308,7 +308,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -323,7 +323,7 @@ requests
 before
 *
 calling
-ResourceWatcher
+ResourceCommand
 .
 watchResources
 in
@@ -361,7 +361,7 @@ onResourceUpdated
 }
 ;
 const
-waitOnRequestForResourceWatcherCache
+waitOnRequestForResourceCommandCache
 =
 new
 Promise
@@ -494,7 +494,7 @@ cachedRequest
 )
 ;
 await
-waitOnRequestForResourceWatcherCache
+waitOnRequestForResourceCommandCache
 ;
 const
 actualResourcesOnAvailable
@@ -715,7 +715,7 @@ requests
 after
 *
 calling
-ResourceWatcher
+ResourceCommand
 .
 watchResources
 in
@@ -1123,7 +1123,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )

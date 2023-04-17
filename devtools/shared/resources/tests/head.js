@@ -75,7 +75,7 @@ server
 ;
 async
 function
-_initResourceWatcherFromCommands
+_initResourceCommandFromCommands
 (
 commands
 {
@@ -133,7 +133,7 @@ targetCommand
 }
 async
 function
-initResourceWatcher
+initResourceCommand
 (
 tab
 options
@@ -151,7 +151,7 @@ tab
 )
 ;
 return
-_initResourceWatcherFromCommands
+_initResourceCommandFromCommands
 (
 commands
 options
@@ -160,7 +160,7 @@ options
 }
 async
 function
-initMultiProcessResourceWatcher
+initMultiProcessResourceCommand
 (
 )
 {
@@ -175,7 +175,7 @@ forMainProcess
 )
 ;
 return
-_initResourceWatcherFromCommands
+_initResourceCommandFromCommands
 (
 commands
 )

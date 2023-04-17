@@ -610,16 +610,3 @@ ex
 ;
 }
 }
-async
-function
-createResourceWatcher
-(
-commands
-)
-{
-return
-commands
-.
-resourceCommand
-;
-}

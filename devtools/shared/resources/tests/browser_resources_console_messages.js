@@ -111,7 +111,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -126,7 +126,7 @@ messages
 before
 *
 calling
-ResourceWatcher
+ResourceCommand
 .
 watchResources
 in
@@ -384,7 +384,7 @@ after
 the
 call
 to
-ResourceWatcher
+ResourceCommand
 .
 watchResources
 and
@@ -522,7 +522,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
