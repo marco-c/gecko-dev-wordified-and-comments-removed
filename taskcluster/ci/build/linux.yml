@@ -326,7 +326,7 @@ symbol
 Bp
 tier
 :
-2
+1
 worker
 -
 type
@@ -2039,7 +2039,7 @@ symbol
 Bp
 tier
 :
-2
+1
 worker
 -
 type
