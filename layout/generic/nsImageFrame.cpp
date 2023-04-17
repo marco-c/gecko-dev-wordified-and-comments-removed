@@ -268,6 +268,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsIImageLoadingContent
 .
 h
