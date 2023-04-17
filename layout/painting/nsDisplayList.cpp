@@ -4365,7 +4365,7 @@ parentFrame
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 aAnimatedGeometryRoot
 )
@@ -7901,7 +7901,7 @@ f
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 f
 )
@@ -8109,7 +8109,7 @@ aParent
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 aFrame
 )
@@ -8126,7 +8126,7 @@ parent
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 aFrame
 )
@@ -14985,7 +14985,7 @@ f
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 pc
 -
@@ -38777,7 +38777,7 @@ outerFrame
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 mFrame
 )
@@ -40243,7 +40243,7 @@ frame
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 frame
 )
@@ -40426,7 +40426,7 @@ container
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 aFrame
 )
@@ -40438,7 +40438,7 @@ container
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 container
 )
@@ -41525,7 +41525,7 @@ FindReferenceFrameFor
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 establisher
 )
@@ -53959,7 +53959,7 @@ return
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 f
 )
