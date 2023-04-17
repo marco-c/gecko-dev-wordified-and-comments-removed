@@ -203,7 +203,6 @@ nodiscard
 bool
 reserve
 (
-const
 size_t
 size
 )
