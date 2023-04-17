@@ -248,13 +248,6 @@ collector
 begin
 "
 ;
-static
-constexpr
-uint32_t
-kTotalMemoryCollectorTimeout
-=
-200
-;
 namespace
 {
 enum

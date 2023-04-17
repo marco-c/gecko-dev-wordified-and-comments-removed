@@ -9,6 +9,15 @@ include
 <
 cstdint
 >
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsISupports
 ;

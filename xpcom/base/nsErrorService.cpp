@@ -139,6 +139,9 @@ mErrorStringBundleURLMap
 InsertOrUpdate
 (
 aErrorModule
+mozilla
+:
+:
 MakeUnique
 <
 nsCString
