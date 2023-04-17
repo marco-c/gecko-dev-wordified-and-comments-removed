@@ -452,9 +452,10 @@ nobj
 fun
 -
 >
-nargs_
-=
+setArgCount
+(
 0
+)
 ;
 MOZ_MAKE_MEM_UNDEFINED
 (
