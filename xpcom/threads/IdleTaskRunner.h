@@ -216,13 +216,6 @@ TimeDuration
 aDelay
 )
 ;
-void
-ScheduleAfterDelay
-(
-TimeDuration
-aDelay
-)
-;
 nsCOMPtr
 <
 nsITimer
