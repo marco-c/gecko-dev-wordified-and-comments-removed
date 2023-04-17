@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-PlacesBookmark
+PlacesBookmarkChanged
 .
 h
 "
@@ -26,7 +26,7 @@ PlacesBookmarkUrl
 final
 :
 public
-PlacesBookmark
+PlacesBookmarkChanged
 {
 public
 :
@@ -35,7 +35,7 @@ PlacesBookmarkUrl
 (
 )
 :
-PlacesBookmark
+PlacesBookmarkChanged
 (
 PlacesEventType
 :
@@ -196,18 +196,6 @@ return
 this
 ;
 }
-uint64_t
-LastModified
-(
-)
-{
-return
-mLastModified
-;
-}
-uint64_t
-mLastModified
-;
 private
 :
 ~
