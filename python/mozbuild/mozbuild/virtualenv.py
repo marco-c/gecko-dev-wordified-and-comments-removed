@@ -1733,14 +1733,6 @@ result
         
 self
 .
-_metadata
-.
-write
-(
-)
-        
-self
-.
 _disable_pip_outdated_warning
 (
 )
@@ -2393,6 +2385,14 @@ self
 .
 activate_path
 None
+)
+        
+self
+.
+_metadata
+.
+write
+(
 )
         
 return
