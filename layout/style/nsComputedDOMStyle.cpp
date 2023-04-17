@@ -2943,7 +2943,9 @@ StyleUI
 )
 -
 >
-mCursor
+Cursor
+(
+)
 .
 images
 .
