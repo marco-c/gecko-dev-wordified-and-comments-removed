@@ -346,8 +346,6 @@ initial
 ;
 -
 -
-lwt
--
 toolbar
 -
 field
@@ -385,8 +383,6 @@ color
 initial
 ;
 -
--
-lwt
 -
 toolbar
 -
@@ -530,14 +526,11 @@ var
 (
 -
 -
-lwt
--
 toolbar
 -
 field
 -
 color
-FieldText
 )
 )
 ;

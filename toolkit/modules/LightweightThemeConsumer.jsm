@@ -568,8 +568,6 @@ toolbar_field
 "
 -
 -
-lwt
--
 toolbar
 -
 field
@@ -856,8 +854,6 @@ a
 [
 "
 -
--
-lwt
 -
 toolbar
 -
