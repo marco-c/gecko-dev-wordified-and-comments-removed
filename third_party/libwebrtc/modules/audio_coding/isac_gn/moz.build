@@ -609,9 +609,6 @@ OS_LIBS
 =
 [
 "
-atomic
-"
-"
 m
 "
 "

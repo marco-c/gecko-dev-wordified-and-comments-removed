@@ -399,14 +399,6 @@ _LARGEFILE_SOURCE
 ]
 =
 True
-OS_LIBS
-+
-=
-[
-"
-atomic
-"
-]
 if
 CONFIG
 [

@@ -742,9 +742,6 @@ OS_LIBS
 =
 [
 "
-atomic
-"
-"
 dl
 "
 "

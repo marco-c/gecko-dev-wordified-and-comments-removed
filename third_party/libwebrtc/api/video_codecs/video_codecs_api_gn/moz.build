@@ -686,14 +686,6 @@ __STDC_FORMAT_MACROS
 ]
 =
 True
-OS_LIBS
-+
-=
-[
-"
-atomic
-"
-]
 if
 CONFIG
 [

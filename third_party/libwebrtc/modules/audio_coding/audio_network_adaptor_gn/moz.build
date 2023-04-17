@@ -741,9 +741,6 @@ OS_LIBS
 =
 [
 "
-atomic
-"
-"
 rt
 "
 ]
