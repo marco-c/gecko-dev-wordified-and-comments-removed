@@ -305,6 +305,12 @@ clang
 /
 lib
 "
+export
+MACOSX_DEPLOYMENT_TARGET
+=
+10
+.
+12
 .
 /
 configure
@@ -325,9 +331,9 @@ darwin
 isysroot
 MOZ_FETCHES_DIR
 /
-MacOSX10
+MacOSX11
 .
-12
+0
 .
 sdk
 "
@@ -376,6 +382,12 @@ clang
 /
 lib
 "
+export
+MACOSX_DEPLOYMENT_TARGET
+=
+11
+.
+0
 .
 /
 configure

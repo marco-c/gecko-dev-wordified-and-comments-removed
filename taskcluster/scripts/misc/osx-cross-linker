@@ -32,7 +32,7 @@ version
 min
 =
 {
-SDK_VER
+MACOSX_DEPLOYMENT_TARGET
 :
 -
 10
@@ -61,9 +61,9 @@ MacOSX
 SDK_VER
 :
 -
-10
+11
 .
-12
+0
 }
 .
 sdk
