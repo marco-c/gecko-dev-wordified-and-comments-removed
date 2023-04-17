@@ -2847,7 +2847,7 @@ YuvImageTemplate
 >
 (
 )
-72
+84
 "
 YuvImageTemplate
 size
