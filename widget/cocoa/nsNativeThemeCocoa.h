@@ -2421,6 +2421,10 @@ NSLevelIndicatorCell
 *
 mMeterBarCell
 ;
+NSTableHeaderCell
+*
+mTreeHeaderCell
+;
 MOZCellDrawWindow
 *
 mCellDrawWindow
