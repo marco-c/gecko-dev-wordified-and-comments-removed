@@ -941,8 +941,8 @@ tByteSize
 )
 s
 (
-TA
-TA
+TN
+TN
 )
 )
 ;
@@ -1221,8 +1221,8 @@ nByteSize
 )
 s
 (
-TA
-TA
+TN
+TN
 )
 )
 ;

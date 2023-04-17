@@ -137,7 +137,7 @@ INVALID
 ConstValue
 =
 1
-ConstAtom
+ConstString
 =
 2
 Null
@@ -393,7 +393,7 @@ op
 ObjLiteralOpcode
 :
 :
-ConstAtom
+ConstString
 ;
 }
 struct
@@ -1581,7 +1581,7 @@ cx
 ObjLiteralOpcode
 :
 :
-ConstAtom
+ConstString
 nextKey_
 )
 &

@@ -133,6 +133,7 @@ toString
 ;
 CHECK
 (
+!
 JS_StringHasBeenPinned
 (
 cx
