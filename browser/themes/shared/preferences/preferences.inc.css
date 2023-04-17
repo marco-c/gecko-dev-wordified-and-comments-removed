@@ -3121,6 +3121,14 @@ scheme
 dark
 )
 {
+media
+not
+(
+prefers
+-
+contrast
+)
+{
 .
 dialogBox
 {
@@ -3137,6 +3145,7 @@ background
 #
 42414d
 ;
+}
 }
 }
 .
