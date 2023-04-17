@@ -43505,6 +43505,15 @@ i
 )
 )
 ;
+if
+(
+!
+useObjLiteralValues
+)
+{
+continue
+;
+}
 writer
 .
 setPropIndex
