@@ -380,6 +380,7 @@ mFrecency
 ;
 }
 class
+MOZ_RAII
 CacheIndexEntryAutoManage
 {
 public
@@ -396,38 +397,21 @@ aHash
 CacheIndex
 *
 aIndex
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 :
 mIndex
 (
 aIndex
 )
-mOldRecord
+mProofOfLock
 (
-nullptr
-)
-mOldFrecency
-(
-0
-)
-mDoNotSearchInIndex
-(
-false
-)
-mDoNotSearchInUpdates
-(
-false
+aProofOfLock
 )
 {
-CacheIndex
-:
-:
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
-;
 mHash
 =
 aHash
@@ -502,15 +486,6 @@ CacheIndexEntryAutoManage
 (
 )
 {
-CacheIndex
-:
-:
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
-;
 const
 CacheIndexEntry
 *
@@ -578,6 +553,7 @@ entry
 -
 >
 mRec
+mProofOfLock
 )
 ;
 mIndex
@@ -589,6 +565,7 @@ entry
 -
 >
 mRec
+mProofOfLock
 )
 ;
 }
@@ -610,6 +587,7 @@ mFrecencyArray
 RemoveRecord
 (
 mOldRecord
+mProofOfLock
 )
 ;
 mIndex
@@ -618,6 +596,7 @@ mIndex
 RemoveRecordFromIterators
 (
 mOldRecord
+mProofOfLock
 )
 ;
 }
@@ -651,6 +630,7 @@ entry
 -
 >
 mRec
+mProofOfLock
 )
 ;
 if
@@ -684,6 +664,7 @@ entry
 -
 >
 mRec
+mProofOfLock
 )
 ;
 }
@@ -697,6 +678,7 @@ mFrecencyArray
 RemoveRecord
 (
 mOldRecord
+mProofOfLock
 )
 ;
 mIndex
@@ -710,6 +692,7 @@ entry
 -
 >
 mRec
+mProofOfLock
 )
 ;
 }
@@ -745,6 +728,7 @@ entry
 -
 >
 mRec
+mProofOfLock
 )
 ;
 mIndex
@@ -758,6 +742,7 @@ entry
 -
 >
 mRec
+mProofOfLock
 )
 ;
 }
@@ -943,12 +928,26 @@ mOldRecord
 ;
 uint32_t
 mOldFrecency
+{
+0
+}
 ;
 bool
 mDoNotSearchInIndex
+{
+false
+}
 ;
 bool
 mDoNotSearchInUpdates
+{
+false
+}
+;
+const
+StaticMutexAutoLock
+&
+mProofOfLock
 ;
 }
 ;
@@ -1242,6 +1241,7 @@ OnFileOpenedInternal
 this
 aHandle
 aResult
+lock
 )
 ;
 return
@@ -1447,6 +1447,7 @@ idx
 InitInternal
 (
 aCacheDirectory
+lock
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1478,6 +1479,10 @@ InitInternal
 nsIFile
 *
 aCacheDirectory
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 nsresult
@@ -1513,6 +1518,7 @@ NowLoRes
 ;
 ReadIndexFromDisk
 (
+aProofOfLock
 )
 ;
 return
@@ -1961,6 +1967,7 @@ WRITING
 FinishWrite
 (
 false
+lock
 )
 ;
 break
@@ -1976,6 +1983,7 @@ READING
 FinishRead
 (
 false
+lock
 )
 ;
 break
@@ -1989,6 +1997,7 @@ UPDATING
 FinishUpdate
 (
 false
+lock
 )
 ;
 break
@@ -2163,6 +2172,7 @@ index
 ChangeState
 (
 SHUTDOWN
+lock
 )
 ;
 if
@@ -2216,6 +2226,7 @@ index
 FinishWrite
 (
 false
+lock
 )
 ;
 [
@@ -2289,6 +2300,7 @@ index
 FinishRead
 (
 false
+lock
 )
 ;
 break
@@ -2305,6 +2317,7 @@ index
 FinishUpdate
 (
 false
+lock
 )
 ;
 break
@@ -2446,6 +2459,7 @@ entryMng
 (
 aHash
 index
+lock
 )
 ;
 CacheIndexEntry
@@ -2913,6 +2927,7 @@ index
 >
 StartUpdatingIndexIfNeeded
 (
+lock
 )
 ;
 index
@@ -2920,6 +2935,7 @@ index
 >
 WriteIndexToDiskIfNeeded
 (
+lock
 )
 ;
 return
@@ -3028,6 +3044,7 @@ entryMng
 (
 aHash
 index
+lock
 )
 ;
 CacheIndexEntry
@@ -3540,6 +3557,7 @@ index
 >
 StartUpdatingIndexIfNeeded
 (
+lock
 )
 ;
 index
@@ -3547,6 +3565,7 @@ index
 >
 WriteIndexToDiskIfNeeded
 (
+lock
 )
 ;
 return
@@ -3680,6 +3699,7 @@ entryMng
 (
 aHash
 index
+lock
 )
 ;
 CacheIndexEntry
@@ -4214,6 +4234,7 @@ index
 >
 StartUpdatingIndexIfNeeded
 (
+lock
 )
 ;
 index
@@ -4221,6 +4242,7 @@ index
 >
 WriteIndexToDiskIfNeeded
 (
+lock
 )
 ;
 return
@@ -4329,6 +4351,7 @@ entryMng
 (
 aHash
 index
+lock
 )
 ;
 CacheIndexEntry
@@ -4801,6 +4824,7 @@ index
 >
 StartUpdatingIndexIfNeeded
 (
+lock
 )
 ;
 index
@@ -4808,6 +4832,7 @@ index
 >
 WriteIndexToDiskIfNeeded
 (
+lock
 )
 ;
 return
@@ -5075,6 +5100,7 @@ entryMng
 (
 aHash
 index
+lock
 )
 ;
 CacheIndexEntry
@@ -5614,6 +5640,7 @@ index
 >
 WriteIndexToDiskIfNeeded
 (
+lock
 )
 ;
 return
@@ -5803,6 +5830,7 @@ index
 FinishWrite
 (
 false
+lock
 )
 ;
 break
@@ -5821,6 +5849,7 @@ index
 FinishRead
 (
 false
+lock
 )
 ;
 break
@@ -5837,6 +5866,7 @@ index
 FinishUpdate
 (
 false
+lock
 )
 ;
 break
@@ -5913,6 +5943,7 @@ mFrecencyArray
 .
 Clear
 (
+lock
 )
 ;
 index
@@ -6652,6 +6683,7 @@ mFrecencyArray
 .
 SortIfNeeded
 (
+lock
 )
 ;
 for
@@ -7588,6 +7620,7 @@ index
 >
 DelayedUpdateLocked
 (
+lock
 )
 ;
 }
@@ -7727,6 +7760,7 @@ mFrecencyArray
 .
 SortIfNeeded
 (
+lock
 )
 ;
 for
@@ -7767,6 +7801,7 @@ iter
 Get
 (
 )
+lock
 )
 ;
 }
@@ -8294,6 +8329,10 @@ CacheIndex
 :
 ProcessPendingOperations
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -8308,12 +8347,6 @@ ProcessPendingOperations
 )
 "
 )
-)
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
 )
 ;
 for
@@ -8426,6 +8459,7 @@ Hash
 (
 )
 this
+aProofOfLock
 )
 ;
 emng
@@ -8608,6 +8642,10 @@ CacheIndex
 :
 WriteIndexToDiskIfNeeded
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 if
@@ -8677,6 +8715,7 @@ false
 }
 WriteIndexToDisk
 (
+aProofOfLock
 )
 ;
 return
@@ -8689,6 +8728,10 @@ CacheIndex
 :
 WriteIndexToDisk
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -8713,12 +8756,6 @@ Log
 ;
 nsresult
 rv
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
 ;
 MOZ_ASSERT
 (
@@ -8749,6 +8786,7 @@ mRWPending
 ChangeState
 (
 WRITING
+aProofOfLock
 )
 ;
 mProcessEntries
@@ -8838,6 +8876,7 @@ rv
 FinishWrite
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -8964,6 +9003,10 @@ CacheIndex
 :
 WriteRecords
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -8982,12 +9025,6 @@ WriteRecords
 ;
 nsresult
 rv
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
 ;
 MOZ_ASSERT
 (
@@ -9453,6 +9490,7 @@ rv
 FinishWrite
 (
 false
+aProofOfLock
 )
 ;
 }
@@ -9476,6 +9514,10 @@ FinishWrite
 (
 bool
 aSucceeded
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -9517,12 +9559,6 @@ mState
 =
 =
 WRITING
-)
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
 )
 ;
 MOZ_ASSERT
@@ -9619,6 +9655,7 @@ Hash
 (
 )
 this
+aProofOfLock
 )
 ;
 if
@@ -9702,6 +9739,7 @@ nullptr
 }
 ProcessPendingOperations
 (
+aProofOfLock
 )
 ;
 mIndexStats
@@ -9721,6 +9759,7 @@ WRITING
 ChangeState
 (
 READY
+aProofOfLock
 )
 ;
 mLastDumpTime
@@ -10770,6 +10809,10 @@ CacheIndex
 :
 ReadIndexFromDisk
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -10789,12 +10832,6 @@ ReadIndexFromDisk
 nsresult
 rv
 ;
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
-;
 MOZ_ASSERT
 (
 mState
@@ -10806,6 +10843,7 @@ INITIAL
 ChangeState
 (
 READING
+aProofOfLock
 )
 ;
 mIndexFileOpener
@@ -10896,6 +10934,7 @@ INDEX_NAME
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -10989,6 +11028,7 @@ JOURNAL_NAME
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 }
@@ -11080,6 +11120,7 @@ TEMP_INDEX_NAME
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 }
@@ -11090,6 +11131,10 @@ CacheIndex
 :
 StartReadingIndex
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -11108,12 +11153,6 @@ StartReadingIndex
 ;
 nsresult
 rv
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
 ;
 MOZ_ASSERT
 (
@@ -11224,6 +11263,7 @@ corrupted
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -11333,6 +11373,7 @@ rv
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 }
@@ -11350,6 +11391,10 @@ CacheIndex
 :
 ParseRecords
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -11368,12 +11413,6 @@ ParseRecords
 ;
 nsresult
 rv
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
 ;
 MOZ_ASSERT
 (
@@ -11441,6 +11480,7 @@ kIndexVersion
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -11797,6 +11837,7 @@ IsRemoved
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -11811,6 +11852,7 @@ Hash
 (
 )
 this
+aProofOfLock
 )
 ;
 CacheIndexEntry
@@ -11992,6 +12034,7 @@ expectedHash
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -12012,6 +12055,7 @@ mJournalHandle
 {
 StartReadingJournal
 (
+aProofOfLock
 )
 ;
 }
@@ -12020,6 +12064,7 @@ else
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 }
@@ -12132,6 +12177,7 @@ rv
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -12148,6 +12194,10 @@ CacheIndex
 :
 StartReadingJournal
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -12166,12 +12216,6 @@ StartReadingJournal
 ;
 nsresult
 rv
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
 ;
 MOZ_ASSERT
 (
@@ -12268,6 +12312,7 @@ corrupted
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -12373,6 +12418,7 @@ rv
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 }
@@ -12390,6 +12436,10 @@ CacheIndex
 :
 ParseJournal
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -12408,12 +12458,6 @@ ParseJournal
 ;
 nsresult
 rv
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
 ;
 MOZ_ASSERT
 (
@@ -12586,6 +12630,7 @@ IsFresh
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -12740,6 +12785,7 @@ expectedHash
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -12752,6 +12798,7 @@ true
 FinishRead
 (
 true
+aProofOfLock
 )
 ;
 return
@@ -12863,6 +12910,7 @@ rv
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -12879,6 +12927,10 @@ CacheIndex
 :
 MergeJournal
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -12893,12 +12945,6 @@ MergeJournal
 )
 "
 )
-)
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
 )
 ;
 for
@@ -13001,6 +13047,7 @@ Hash
 (
 )
 this
+aProofOfLock
 )
 ;
 if
@@ -13267,6 +13314,10 @@ FinishRead
 (
 bool
 aSucceeded
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -13288,12 +13339,6 @@ d
 "
 aSucceeded
 )
-)
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
 )
 ;
 MOZ_ASSERT
@@ -13540,15 +13585,18 @@ EnsureNoFreshEntry
 ;
 ProcessPendingOperations
 (
+aProofOfLock
 )
 ;
 RemoveNonFreshEntries
 (
+aProofOfLock
 )
 ;
 StartUpdatingIndex
 (
 true
+aProofOfLock
 )
 ;
 return
@@ -13572,11 +13620,13 @@ EnsureNoFreshEntry
 ;
 ProcessPendingOperations
 (
+aProofOfLock
 )
 ;
 StartUpdatingIndex
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -13584,6 +13634,7 @@ return
 }
 MergeJournal
 (
+aProofOfLock
 )
 ;
 EnsureNoFreshEntry
@@ -13592,6 +13643,7 @@ EnsureNoFreshEntry
 ;
 ProcessPendingOperations
 (
+aProofOfLock
 )
 ;
 mIndexStats
@@ -13603,6 +13655,7 @@ Log
 ChangeState
 (
 READY
+aProofOfLock
 )
 ;
 mLastDumpTime
@@ -13671,6 +13724,7 @@ index
 >
 DelayedUpdateLocked
 (
+lock
 )
 ;
 }
@@ -13680,6 +13734,10 @@ CacheIndex
 :
 DelayedUpdateLocked
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -13694,12 +13752,6 @@ DelayedUpdateLocked
 )
 "
 )
-)
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
 )
 ;
 nsresult
@@ -13864,6 +13916,7 @@ event
 FinishUpdate
 (
 false
+aProofOfLock
 )
 ;
 }
@@ -14523,6 +14576,10 @@ CacheIndex
 :
 BuildIndex
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -14537,12 +14594,6 @@ BuildIndex
 )
 "
 )
-)
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
 )
 ;
 MOZ_ASSERT
@@ -14602,6 +14653,7 @@ rv
 FinishUpdate
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -14722,6 +14774,7 @@ NS_SUCCEEDED
 (
 rv
 )
+aProofOfLock
 )
 ;
 return
@@ -15290,6 +15343,7 @@ entryMng
 &
 hash
 this
+aProofOfLock
 )
 ;
 entry
@@ -15429,6 +15483,10 @@ CacheIndex
 :
 StartUpdatingIndexIfNeeded
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 bool
 aSwitchingToReadyState
 )
@@ -15482,6 +15540,7 @@ false
 StartUpdatingIndex
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -15500,6 +15559,10 @@ StartUpdatingIndex
 (
 bool
 aRebuild
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -15523,12 +15586,6 @@ aRebuild
 )
 )
 ;
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
-;
 nsresult
 rv
 ;
@@ -15545,6 +15602,7 @@ aRebuild
 BUILDING
 :
 UPDATING
+aProofOfLock
 )
 ;
 mDontMarkIndexClean
@@ -15562,6 +15620,7 @@ mRemovingAll
 FinishUpdate
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -15824,6 +15883,7 @@ event
 FinishUpdate
 (
 false
+aProofOfLock
 )
 ;
 }
@@ -15834,6 +15894,10 @@ CacheIndex
 :
 UpdateIndex
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -15848,12 +15912,6 @@ UpdateIndex
 )
 "
 )
-)
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
 )
 ;
 MOZ_ASSERT
@@ -15913,6 +15971,7 @@ rv
 FinishUpdate
 (
 false
+aProofOfLock
 )
 ;
 return
@@ -16035,6 +16094,7 @@ NS_SUCCEEDED
 (
 rv
 )
+aProofOfLock
 )
 ;
 return
@@ -16556,6 +16616,7 @@ entryMng
 &
 hash
 this
+aProofOfLock
 )
 ;
 entry
@@ -16712,6 +16773,7 @@ entryMng
 &
 hash
 this
+aProofOfLock
 )
 ;
 if
@@ -16939,6 +17001,10 @@ FinishUpdate
 (
 bool
 aSucceeded
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -16986,12 +17052,6 @@ mState
 =
 SHUTDOWN
 )
-)
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
 )
 ;
 if
@@ -17113,6 +17173,7 @@ aSucceeded
 {
 RemoveNonFreshEntries
 (
+aProofOfLock
 )
 ;
 }
@@ -17123,6 +17184,7 @@ false
 ChangeState
 (
 READY
+aProofOfLock
 )
 ;
 mLastDumpTime
@@ -17141,6 +17203,10 @@ CacheIndex
 :
 RemoveNonFreshEntries
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 for
@@ -17245,6 +17311,7 @@ Hash
 (
 )
 this
+aProofOfLock
 )
 ;
 emng
@@ -17360,6 +17427,10 @@ ChangeState
 (
 EState
 aNewState
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -17432,6 +17503,7 @@ READY
 &
 StartUpdatingIndexIfNeeded
 (
+aProofOfLock
 true
 )
 )
@@ -17757,6 +17829,10 @@ AppendRecord
 CacheIndexRecordWrapper
 *
 aRecord
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -17861,6 +17937,10 @@ RemoveRecord
 CacheIndexRecordWrapper
 *
 aRecord
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -17928,6 +18008,7 @@ mRemovedElements
 ;
 SortIfNeeded
 (
+aProofOfLock
 )
 ;
 }
@@ -17946,6 +18027,10 @@ aOldRecord
 CacheIndexRecordWrapper
 *
 aNewRecord
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -18024,6 +18109,10 @@ FrecencyArray
 :
 SortIfNeeded
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 const
@@ -18204,14 +18293,12 @@ AddRecordToIterators
 CacheIndexRecordWrapper
 *
 aRecord
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
-;
 for
 (
 uint32_t
@@ -18254,6 +18341,7 @@ i
 AddRecord
 (
 aRecord
+aProofOfLock
 )
 ;
 }
@@ -18268,14 +18356,12 @@ RemoveRecordFromIterators
 CacheIndexRecordWrapper
 *
 aRecord
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
-;
 for
 (
 uint32_t
@@ -18305,6 +18391,7 @@ i
 RemoveRecord
 (
 aRecord
+aProofOfLock
 )
 ;
 }
@@ -18321,14 +18408,12 @@ aOldRecord
 CacheIndexRecordWrapper
 *
 aNewRecord
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
-;
 for
 (
 uint32_t
@@ -18359,6 +18444,7 @@ ReplaceRecord
 (
 aOldRecord
 aNewRecord
+aProofOfLock
 )
 ;
 }
@@ -18432,6 +18518,7 @@ BUILDING
 :
 BuildIndex
 (
+lock
 )
 ;
 break
@@ -18441,6 +18528,7 @@ UPDATING
 :
 UpdateIndex
 (
+lock
 )
 ;
 break
@@ -18486,6 +18574,10 @@ CacheFileHandle
 aHandle
 nsresult
 aResult
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 LOG
@@ -18543,12 +18635,6 @@ IsOnIOThread
 ;
 nsresult
 rv
-;
-sLock
-.
-AssertCurrentThreadOwns
-(
-)
 ;
 MOZ_RELEASE_ASSERT
 (
@@ -18644,6 +18730,7 @@ aResult
 FinishWrite
 (
 false
+aProofOfLock
 )
 ;
 }
@@ -18655,6 +18742,7 @@ aHandle
 ;
 WriteRecords
 (
+aProofOfLock
 )
 ;
 }
@@ -18699,6 +18787,7 @@ FileSize
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 CacheFileIOManager
@@ -18723,6 +18812,7 @@ else
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 break
@@ -18863,6 +18953,7 @@ TEMP_INDEX_NAME
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 break
@@ -18942,6 +19033,7 @@ rv
 FinishRead
 (
 false
+aProofOfLock
 )
 ;
 break
@@ -18952,6 +19044,7 @@ else
 {
 StartReadingIndex
 (
+aProofOfLock
 )
 ;
 }
@@ -19133,6 +19226,7 @@ aResult
 FinishWrite
 (
 false
+lock
 )
 ;
 }
@@ -19214,6 +19308,7 @@ rv
 FinishWrite
 (
 false
+lock
 )
 ;
 }
@@ -19222,6 +19317,7 @@ else
 {
 WriteRecords
 (
+lock
 )
 ;
 }
@@ -19388,6 +19484,7 @@ aResult
 FinishRead
 (
 false
+lock
 )
 ;
 }
@@ -19401,6 +19498,7 @@ mIndexOnDiskIsValid
 {
 ParseRecords
 (
+lock
 )
 ;
 }
@@ -19408,6 +19506,7 @@ else
 {
 ParseJournal
 (
+lock
 )
 ;
 }
@@ -19666,6 +19765,7 @@ NS_SUCCEEDED
 (
 aResult
 )
+lock
 )
 ;
 break
@@ -19728,6 +19828,7 @@ aResult
 FinishRead
 (
 false
+lock
 )
 ;
 }
@@ -19735,6 +19836,7 @@ else
 {
 StartReadingIndex
 (
+lock
 )
 ;
 }
