@@ -1436,7 +1436,7 @@ ResetDynamicProperties
 }
 pub
 fn
-update_dynamic_properties
+append_dynamic_properties
 (
 &
 mut
@@ -1455,7 +1455,7 @@ push
 FrameMsg
 :
 :
-UpdateDynamicProperties
+AppendDynamicProperties
 (
 properties
 )
@@ -2893,7 +2893,7 @@ ScrollNodeState
 >
 )
 ResetDynamicProperties
-UpdateDynamicProperties
+AppendDynamicProperties
 (
 DynamicProperties
 )
@@ -3182,7 +3182,7 @@ ResetDynamicProperties
 FrameMsg
 :
 :
-UpdateDynamicProperties
+AppendDynamicProperties
 (
 .
 .
@@ -3193,7 +3193,7 @@ UpdateDynamicProperties
 FrameMsg
 :
 :
-UpdateDynamicProperties
+AppendDynamicProperties
 "
 FrameMsg
 :
