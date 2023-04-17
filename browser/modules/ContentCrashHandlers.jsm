@@ -1692,6 +1692,13 @@ notificationbar
 .
 crash_subframe_ui
 "
+telemetryFilter
+:
+[
+"
+shown
+"
+]
 eventCallback
 :
 eventName
