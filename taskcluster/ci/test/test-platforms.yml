@@ -332,10 +332,6 @@ mochitest
 -
 headless
 -
-mochitest
--
-webgpu
--
 talos
 -
 linux
@@ -370,10 +366,6 @@ sets
 linux1804
 -
 tests
--
-mochitest
--
-webgpu
 linux1804
 -
 64
@@ -415,10 +407,6 @@ headless
 mochitest
 -
 headless
--
-mochitest
--
-webgpu
 -
 talos
 -
@@ -493,10 +481,6 @@ sets
 linux1804
 -
 tests
--
-mochitest
--
-webgpu
 linux1804
 -
 64
@@ -727,6 +711,10 @@ qr
 -
 smoketests
 -
+mochitest
+-
+webgpu
+-
 web
 -
 platform
@@ -781,10 +769,6 @@ code
 coverage
 -
 tests
--
-mochitest
--
-webgpu
 linux1804
 -
 64
@@ -816,6 +800,10 @@ ccov
 qr
 -
 tests
+-
+mochitest
+-
+webgpu
 -
 web
 -
