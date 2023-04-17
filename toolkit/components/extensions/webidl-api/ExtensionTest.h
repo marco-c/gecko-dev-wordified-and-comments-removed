@@ -87,6 +87,17 @@ extensions
 class
 ExtensionEventManager
 ;
+bool
+IsInAutomation
+(
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
+)
+;
 class
 ExtensionTest
 final
