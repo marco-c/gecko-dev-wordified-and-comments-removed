@@ -986,7 +986,6 @@ log2
 *
 logn
 *
-\
 >
 *
 htmlfile
@@ -1851,19 +1850,15 @@ bloatview
 bloatdiff
 .
 pl
-\
 <
 previous
 -
 log
-\
 >
-\
 <
 current
 -
 log
-\
 >
 This
 will
