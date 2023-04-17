@@ -1969,9 +1969,6 @@ obj_
 state
 )
 ;
-if
-(
-!
 state
 -
 >
@@ -1980,12 +1977,7 @@ initFromTemplateObject
 alloc_
 undefinedVal_
 )
-)
-{
-return
-false
 ;
-}
 state
 -
 >
@@ -5574,9 +5566,6 @@ arr_
 state
 )
 ;
-if
-(
-!
 state
 -
 >
@@ -5585,12 +5574,7 @@ initFromTemplateObject
 alloc_
 undefinedVal_
 )
-)
-{
-return
-false
 ;
-}
 state
 -
 >

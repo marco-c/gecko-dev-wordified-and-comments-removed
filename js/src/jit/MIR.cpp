@@ -26736,7 +26736,7 @@ return
 true
 ;
 }
-bool
+void
 MObjectState
 :
 :
@@ -26815,7 +26815,6 @@ undefinedVal
 ;
 }
 return
-true
 ;
 }
 JSObject
@@ -26950,9 +26949,6 @@ def
 )
 ;
 }
-return
-true
-;
 }
 MObjectState
 *
@@ -27290,7 +27286,7 @@ return
 true
 ;
 }
-bool
+void
 MArrayState
 :
 :
@@ -27329,9 +27325,6 @@ undefinedVal
 )
 ;
 }
-return
-true
-;
 }
 MArrayState
 *
