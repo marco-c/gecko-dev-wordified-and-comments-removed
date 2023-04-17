@@ -6,6 +6,8 @@ print_function
 unicode_literals
 import
 unittest
+from
+unittest
 import
 mock
 from

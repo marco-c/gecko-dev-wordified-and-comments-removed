@@ -14,6 +14,8 @@ import
 Mock
 import
 pytest
+from
+unittest
 import
 mock
 import
@@ -59,7 +61,6 @@ OtherSettings
 config_settings
 =
 [
-        
 (
 "
 foo
@@ -73,7 +74,6 @@ int
 "
 1
 )
-        
 (
 "
 build
@@ -88,7 +88,6 @@ string
 "
 "
 )
-    
 ]
 def
 record_enabled_telemetry
@@ -100,13 +99,9 @@ settings
     
 record_telemetry_settings
 (
-        
 settings
-        
 mozbuild_path
-        
 True
-    
 )
 pytest
 .
@@ -790,7 +785,6 @@ telemetry
 .
 resolve_is_employee_by_vcs
 "
-            
 return_value
 =
 is_employee_vcs

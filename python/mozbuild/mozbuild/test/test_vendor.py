@@ -17,6 +17,8 @@ buildconfig
 import
 topsrcdir
 from
+unittest
+.
 mock
 import
 Mock
