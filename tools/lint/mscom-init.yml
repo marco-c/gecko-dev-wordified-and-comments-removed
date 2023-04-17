@@ -242,14 +242,6 @@ nsWindowsShellService
 .
 cpp
 -
-dom
-/
-media
-/
-ThreadPoolCOMListener
-.
-cpp
--
 gfx
 /
 thebes
