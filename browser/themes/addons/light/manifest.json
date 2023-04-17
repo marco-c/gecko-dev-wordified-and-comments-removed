@@ -292,7 +292,7 @@ ntp_background
 :
 "
 #
-F9F9FA
+fff
 "
 "
 ntp_text
@@ -301,9 +301,9 @@ ntp_text
 "
 rgb
 (
-12
-12
-13
+21
+20
+26
 )
 "
 "
