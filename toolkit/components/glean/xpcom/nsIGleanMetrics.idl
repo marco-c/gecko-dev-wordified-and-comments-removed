@@ -408,6 +408,14 @@ cancel
 (
 )
 ;
+void
+setRaw
+(
+in
+uint32_t
+aDuration
+)
+;
 jsval
 testGetValue
 (
