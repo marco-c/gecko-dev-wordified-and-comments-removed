@@ -1803,6 +1803,16 @@ ui
 -
 moz
 -
+autofill
+-
+background
+"
+"
+ui
+.
+-
+moz
+-
 win
 -
 mediatext
