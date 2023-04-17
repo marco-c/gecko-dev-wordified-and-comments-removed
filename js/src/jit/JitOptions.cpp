@@ -443,12 +443,6 @@ false
 ;
 SET_DEFAULT
 (
-scalarReplaceArguments
-true
-)
-;
-SET_DEFAULT
-(
 baselineInterpreter
 true
 )

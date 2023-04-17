@@ -9590,13 +9590,6 @@ addedPhi
 =
 false
 ;
-bool
-shouldReplaceArguments
-=
-JitOptions
-.
-scalarReplaceArguments
-;
 for
 (
 ReversePostorderIterator
@@ -9789,9 +9782,6 @@ continue
 }
 if
 (
-shouldReplaceArguments
-&
-&
 IsOptimizableArgumentsInstruction
 (
 *
