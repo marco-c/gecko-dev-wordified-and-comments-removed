@@ -6,7 +6,7 @@ strict
 const
 SVG_URL
 =
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 dropmarker
@@ -30,7 +30,7 @@ monitor
 await
 initNetMonitor
 (
-CURL_URL
+HTTPS_CURL_URL
 {
 requestCount
 :

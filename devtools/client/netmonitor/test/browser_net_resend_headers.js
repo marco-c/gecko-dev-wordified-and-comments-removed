@@ -18,7 +18,7 @@ monitor
 await
 initNetMonitor
 (
-SIMPLE_SJS
+HTTPS_SIMPLE_SJS
 {
 requestCount
 :
@@ -113,7 +113,7 @@ false
 const
 requestUrl
 =
-SIMPLE_SJS
+HTTPS_SIMPLE_SJS
 ;
 const
 requestHeaders

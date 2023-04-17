@@ -38,7 +38,7 @@ monitor
 await
 initNetMonitor
 (
-CURL_UTILS_URL
+HTTPS_CURL_UTILS_URL
 {
 requestCount
 :
@@ -148,7 +148,7 @@ tab
 .
 linkedBrowser
 [
-SIMPLE_SJS
+HTTPS_SIMPLE_SJS
 ]
 async
 function

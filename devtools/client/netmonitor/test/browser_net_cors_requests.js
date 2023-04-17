@@ -19,7 +19,7 @@ monitor
 await
 initNetMonitor
 (
-CORS_URL
+HTTPS_CORS_URL
 {
 requestCount
 :
@@ -116,7 +116,7 @@ const
 requestUrl
 =
 "
-http
+https
 :
 /
 /

@@ -19,7 +19,7 @@ html
 const
 TOP_URL
 =
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 TOP_FILE_NAME
 ;
@@ -129,7 +129,7 @@ line
 ]
 }
 [
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 WORKER_FILE_NAME
 ]
@@ -142,7 +142,7 @@ GET
 "
 url
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 WORKER_FILE_NAME
 causeType
@@ -214,7 +214,7 @@ openWorkerSocket
 "
 file
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 WORKER_FILE_NAME
 line

@@ -34,7 +34,7 @@ monitor
 await
 initNetMonitor
 (
-CUSTOM_GET_URL
+HTTPS_CUSTOM_GET_URL
 {
 requestCount
 :
@@ -107,7 +107,7 @@ const
 URLS
 =
 [
-SEARCH_SJS
+HTTPS_SEARCH_SJS
 +
 "
 ?
@@ -115,7 +115,7 @@ value
 =
 test1
 "
-SEARCH_SJS
+HTTPS_SEARCH_SJS
 +
 "
 ?
