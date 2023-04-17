@@ -1533,9 +1533,6 @@ HTMLFormSubmission
 >
 mPendingSubmission
 ;
-nsWeakPtr
-mWebProgress
-;
 RefPtr
 <
 BrowsingContext
