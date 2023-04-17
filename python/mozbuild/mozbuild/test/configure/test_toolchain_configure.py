@@ -2189,6 +2189,13 @@ enable
 -
 release
 "
+"
+-
+-
+disable
+-
+bootstrap
+"
 ]
         
 sandbox
@@ -13574,18 +13581,19 @@ __value_for_depends
 "
 )
 [
-            
 (
 dep
 )
-        
 ]
 =
+(
+            
 arm_target
+            
 or
 ReadOnlyNamespace
 (
-            
+                
 arm_arch
 =
 7
@@ -13602,6 +13610,8 @@ float_abi
 "
 softfp
 "
+            
+)
         
 )
         
