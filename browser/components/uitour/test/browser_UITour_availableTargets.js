@@ -67,9 +67,6 @@ backForward
 help
 "
 "
-history
-"
-"
 logins
 "
 "
@@ -114,9 +111,6 @@ quit
 readerMode
 -
 urlBar
-"
-"
-restorePreviousSession
 "
 "
 urlbar
