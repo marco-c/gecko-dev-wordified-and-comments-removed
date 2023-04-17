@@ -7865,7 +7865,8 @@ args
 {
 file
 :
-true
+!
+clipboardEnabled
 nodeActorID
 :
 this

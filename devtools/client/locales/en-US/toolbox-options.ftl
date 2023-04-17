@@ -533,11 +533,14 @@ screenshot
 -
 clipboard
 -
+only
+-
 label
 =
 Screenshot
 to
 clipboard
+only
 options
 -
 screenshot
