@@ -98,5 +98,16 @@ nsAString
 result
 )
 ;
+nsresult
+GetCertSha256Fingerprint
+(
+nsIX509Cert
+*
+aCert
+nsCString
+&
+aResult
+)
+;
 #
 endif
