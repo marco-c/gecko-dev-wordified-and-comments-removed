@@ -6565,6 +6565,15 @@ this
 _protectionsPopup
 )
 {
+PopupNotifications
+.
+suppressWhileOpen
+(
+this
+.
+_protectionsPopup
+)
+;
 window
 .
 addEventListener
