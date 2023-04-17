@@ -40,7 +40,6 @@ invalid
 =
 {
     
-b
 "
 scheme
 -
@@ -49,7 +48,6 @@ trailing
 space
 "
 :
-b
 "
 a
 :
@@ -58,7 +56,6 @@ foo
 com
 "
     
-b
 "
 scheme
 -
@@ -67,7 +64,6 @@ trailing
 tab
 "
 :
-b
 "
 a
 :
@@ -77,7 +73,6 @@ tfoo
 com
 "
     
-b
 "
 scheme
 -
@@ -86,7 +81,6 @@ trailing
 newline
 "
 :
-b
 "
 a
 :
@@ -96,7 +90,6 @@ nfoo
 com
 "
     
-b
 "
 scheme
 -
@@ -105,7 +98,6 @@ trailing
 cr
 "
 :
-b
 "
 a
 :
@@ -115,7 +107,6 @@ rfoo
 com
 "
     
-b
 "
 scheme
 -
@@ -126,7 +117,6 @@ no
 slash
 "
 :
-b
 "
 http
 :
@@ -135,7 +125,6 @@ foo
 com
 "
     
-b
 "
 scheme
 -
@@ -148,7 +137,6 @@ slash
 colon
 "
 :
-b
 "
 http
 :
@@ -158,7 +146,6 @@ c
 29
 "
     
-b
 "
 scheme
 -
@@ -173,7 +160,6 @@ square
 bracket
 "
 :
-b
 "
 http
 :
@@ -187,7 +173,6 @@ http
 foo
 "
     
-b
 "
 scheme
 -
@@ -196,7 +181,6 @@ http
 backslash
 "
 :
-b
 "
 http
 :
@@ -211,7 +195,6 @@ com
 \
 "
     
-b
 "
 scheme
 -
@@ -222,7 +205,6 @@ single
 slash
 "
 :
-b
 "
 http
 :
@@ -233,7 +215,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -244,7 +225,6 @@ single
 slash
 "
 :
-b
 "
 ftp
 :
@@ -255,7 +235,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -266,7 +245,6 @@ single
 slash
 "
 :
-b
 "
 https
 :
@@ -277,7 +255,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -288,7 +265,6 @@ single
 slash
 "
 :
-b
 "
 data
 :
@@ -299,7 +275,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -310,7 +285,6 @@ no
 slash
 "
 :
-b
 "
 ftp
 :
@@ -320,7 +294,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -331,7 +304,6 @@ no
 slash
 "
 :
-b
 "
 https
 :
@@ -341,7 +313,6 @@ com
 /
 "
     
-b
 "
 userinfo
 -
@@ -352,7 +323,6 @@ bad
 chars
 "
 :
-b
 "
 http
 :
@@ -372,7 +342,6 @@ d
 /
 "
     
-b
 "
 userinfo
 -
@@ -385,7 +354,6 @@ at
 sign
 "
 :
-b
 "
 http
 :
@@ -399,14 +367,12 @@ d
 2
 "
     
-b
 "
 userinfo
 -
 backslash
 "
 :
-b
 "
 http
 :
@@ -426,14 +392,12 @@ foo
 com
 "
     
-b
 "
 host
 -
 space
 "
 :
-b
 "
 http
 :
@@ -444,14 +408,12 @@ example
 org
 "
     
-b
 "
 host
 -
 tab
 "
 :
-b
 "
 http
 :
@@ -464,14 +426,12 @@ t
 org
 "
     
-b
 "
 host
 -
 newline
 "
 :
-b
 "
 http
 :
@@ -483,14 +443,12 @@ example
 norg
 "
     
-b
 "
 host
 -
 cr
 "
 :
-b
 "
 http
 :
@@ -502,7 +460,6 @@ example
 rorg
 "
     
-b
 "
 host
 -
@@ -517,7 +474,6 @@ contains
 colon
 "
 :
-b
 "
 http
 :
@@ -535,14 +491,12 @@ http
 4
 "
     
-b
 "
 port
 -
 999999
 "
 :
-b
 "
 http
 :
@@ -555,7 +509,6 @@ f
 c
 "
     
-b
 "
 port
 -
@@ -564,7 +517,6 @@ single
 letter
 "
 :
-b
 "
 http
 :
@@ -577,7 +529,6 @@ b
 c
 "
     
-b
 "
 port
 -
@@ -586,7 +537,6 @@ multiple
 letters
 "
 :
-b
 "
 http
 :
@@ -601,7 +551,6 @@ two
 c
 "
     
-b
 "
 port
 -
@@ -610,7 +559,6 @@ leading
 colon
 "
 :
-b
 "
 http
 :
@@ -622,7 +570,6 @@ http
 1
 "
     
-b
 "
 port
 -
@@ -635,7 +582,6 @@ bracket
 colon
 "
 :
-b
 "
 http
 :
@@ -650,7 +596,6 @@ http
 80
 "
     
-b
 "
 path
 -
@@ -663,7 +608,6 @@ at
 sign
 "
 :
-b
 "
 http
 :
@@ -677,7 +621,6 @@ com
 \
 "
     
-b
 "
 path
 -
@@ -688,14 +631,12 @@ colon
 backslash
 "
 :
-b
 "
 :
 \
 \
 "
     
-b
 "
 path
 -
@@ -708,7 +649,6 @@ chars
 backslash
 "
 :
-b
 "
 :
 foo
@@ -718,7 +658,6 @@ com
 \
 "
     
-b
 "
 path
 -
@@ -729,7 +668,6 @@ square
 brackets
 "
 :
-b
 "
 [
 61
@@ -742,7 +680,6 @@ b
 98
 "
     
-b
 "
 fragment
 -
@@ -751,7 +688,6 @@ contains
 hash
 "
 :
-b
 "
 http
 :
@@ -766,7 +702,6 @@ f
 g
 "
     
-b
 "
 path
 -
@@ -777,7 +712,6 @@ encoded
 malformed
 "
 :
-b
 "
 http
 :
@@ -795,7 +729,6 @@ foo
 2
 "
     
-b
 "
 path
 -
@@ -806,7 +739,6 @@ percent
 sign
 "
 :
-b
 "
 http
 :
@@ -820,7 +752,6 @@ foo
 %
 "
     
-b
 "
 path
 -
@@ -840,17 +771,7 @@ foo
 \
 u0091
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 userinfo
 -
@@ -876,17 +797,7 @@ example
 .
 com
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 userinfo
 -
@@ -912,17 +823,7 @@ example
 .
 com
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 host
 -
@@ -933,7 +834,6 @@ in
 brackets
 "
 :
-b
 "
 http
 :
@@ -949,14 +849,12 @@ com
 /
 "
     
-b
 "
 host
 -
 empty
 "
 :
-b
 "
 http
 :
@@ -964,7 +862,6 @@ http
 /
 "
     
-b
 "
 host
 -
@@ -975,7 +872,6 @@ with
 userinfo
 "
 :
-b
 "
 http
 :
@@ -987,7 +883,6 @@ pass
 /
 "
     
-b
 "
 port
 -
@@ -996,7 +891,6 @@ leading
 dash
 "
 :
-b
 "
 http
 :
@@ -1009,7 +903,6 @@ foo
 /
 "
     
-b
 "
 host
 -
@@ -1020,7 +913,6 @@ userinfo
 empty
 "
 :
-b
 "
 http
 :
@@ -1034,7 +926,6 @@ example
 com
 "
     
-b
 "
 host
 -
@@ -1053,17 +944,7 @@ ufdd0zyx
 .
 com
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 host
 -
@@ -1076,7 +957,6 @@ percent
 encoded
 "
 :
-b
 "
 http
 :
@@ -1092,7 +972,6 @@ b7
 com
 "
     
-b
 "
 host
 -
@@ -1117,17 +996,7 @@ uff11
 .
 com
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 host
 -
@@ -1142,7 +1011,6 @@ percent
 encoded
 "
 :
-b
 "
 http
 :
@@ -1170,7 +1038,6 @@ bc
 com
 "
     
-b
 "
 host
 -
@@ -1195,17 +1062,7 @@ uff10
 .
 com
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 host
 -
@@ -1220,7 +1077,6 @@ percent
 encoded
 "
 :
-b
 "
 http
 :
@@ -1259,21 +1115,18 @@ invalid_url_code_points
 =
 {
     
-b
 "
 fragment
 -
 backslash
 "
 :
-b
 "
 #
 \
 \
 "
     
-b
 "
 fragment
 -
@@ -1282,7 +1135,6 @@ leading
 space
 "
 :
-b
 "
 http
 :
@@ -1297,7 +1149,6 @@ b
 e
 "
     
-b
 "
 path
 -
@@ -1306,7 +1157,6 @@ contains
 space
 "
 :
-b
 "
 /
 a
@@ -1315,7 +1165,6 @@ a
 c
 "
     
-b
 "
 path
 -
@@ -1324,7 +1173,6 @@ leading
 space
 "
 :
-b
 "
 http
 :
@@ -1337,14 +1185,12 @@ f
 b
 "
     
-b
 "
 path
 -
 tab
 "
 :
-b
 "
 http
 :
@@ -1359,7 +1205,6 @@ foo
 tbar
 "
     
-b
 "
 path
 -
@@ -1368,7 +1213,6 @@ trailing
 space
 "
 :
-b
 "
 http
 :
@@ -1382,14 +1226,12 @@ b
 ?
 "
     
-b
 "
 port
 -
 cr
 "
 :
-b
 "
 http
 :
@@ -1403,14 +1245,12 @@ r
 c
 "
     
-b
 "
 port
 -
 newline
 "
 :
-b
 "
 http
 :
@@ -1424,14 +1264,12 @@ n
 c
 "
     
-b
 "
 port
 -
 space
 "
 :
-b
 "
 http
 :
@@ -1443,14 +1281,12 @@ f
 c
 "
     
-b
 "
 port
 -
 tab
 "
 :
-b
 "
 http
 :
@@ -1464,7 +1300,6 @@ t
 c
 "
     
-b
 "
 query
 -
@@ -1473,7 +1308,6 @@ leading
 space
 "
 :
-b
 "
 http
 :
@@ -1488,7 +1322,6 @@ b
 d
 "
     
-b
 "
 query
 -
@@ -1497,7 +1330,6 @@ trailing
 space
 "
 :
-b
 "
 http
 :
@@ -1529,14 +1361,12 @@ valid_absolute
 =
 {
     
-b
 "
 scheme
 -
 private
 "
 :
-b
 "
 a
 :
@@ -1545,7 +1375,6 @@ foo
 com
 "
     
-b
 "
 scheme
 -
@@ -1554,14 +1383,12 @@ private
 slash
 "
 :
-b
 "
 foo
 :
 /
 "
     
-b
 "
 scheme
 -
@@ -1572,7 +1399,6 @@ slash
 slash
 "
 :
-b
 "
 foo
 :
@@ -1580,7 +1406,6 @@ foo
 /
 "
     
-b
 "
 scheme
 -
@@ -1589,7 +1414,6 @@ private
 path
 "
 :
-b
 "
 foo
 :
@@ -1600,7 +1424,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1615,7 +1438,6 @@ slashes
 only
 "
 :
-b
 "
 foo
 :
@@ -1630,7 +1452,6 @@ foo
 /
 "
     
-b
 "
 scheme
 -
@@ -1645,7 +1466,6 @@ slashes
 chars
 "
 :
-b
 "
 foo
 :
@@ -1664,7 +1484,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1681,7 +1500,6 @@ colon
 slashes
 "
 :
-b
 "
 foo
 :
@@ -1697,7 +1515,6 @@ foo
 /
 "
     
-b
 "
 scheme
 -
@@ -1708,7 +1525,6 @@ single
 letter
 "
 :
-b
 "
 c
 :
@@ -1716,7 +1532,6 @@ c
 foo
 "
     
-b
 "
 scheme
 -
@@ -1727,7 +1542,6 @@ single
 slash
 "
 :
-b
 "
 madeupscheme
 :
@@ -1738,7 +1552,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1749,7 +1562,6 @@ single
 slash
 "
 :
-b
 "
 file
 :
@@ -1760,7 +1572,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1771,7 +1582,6 @@ single
 slash
 "
 :
-b
 "
 ftps
 :
@@ -1782,7 +1592,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1793,7 +1602,6 @@ single
 slash
 "
 :
-b
 "
 gopher
 :
@@ -1804,7 +1612,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1815,7 +1622,6 @@ single
 slash
 "
 :
-b
 "
 ws
 :
@@ -1826,7 +1632,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1837,7 +1642,6 @@ single
 slash
 "
 :
-b
 "
 wss
 :
@@ -1848,7 +1652,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1859,7 +1662,6 @@ single
 slash
 "
 :
-b
 "
 javascript
 :
@@ -1870,7 +1672,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1881,7 +1682,6 @@ single
 slash
 "
 :
-b
 "
 mailto
 :
@@ -1892,7 +1692,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1903,7 +1702,6 @@ no
 slash
 "
 :
-b
 "
 madeupscheme
 :
@@ -1913,7 +1711,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1924,7 +1721,6 @@ no
 slash
 "
 :
-b
 "
 ftps
 :
@@ -1934,7 +1730,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1945,7 +1740,6 @@ no
 slash
 "
 :
-b
 "
 gopher
 :
@@ -1955,7 +1749,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1966,7 +1759,6 @@ no
 slash
 "
 :
-b
 "
 wss
 :
@@ -1976,7 +1768,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -1987,7 +1778,6 @@ no
 slash
 "
 :
-b
 "
 mailto
 :
@@ -1997,7 +1787,6 @@ com
 /
 "
     
-b
 "
 scheme
 -
@@ -2008,7 +1797,6 @@ no
 slash
 "
 :
-b
 "
 data
 :
@@ -2018,12 +1806,10 @@ plain
 foo
 "
     
-b
 "
 userinfo
 "
 :
-b
 "
 http
 :
@@ -2045,14 +1831,12 @@ b
 c
 "
     
-b
 "
 host
 -
 ipv6
 "
 :
-b
 "
 http
 :
@@ -2066,7 +1850,6 @@ http
 ]
 "
     
-b
 "
 host
 -
@@ -2075,7 +1858,6 @@ ipv6
 port
 "
 :
-b
 "
 http
 :
@@ -2091,7 +1873,6 @@ http
 80
 "
     
-b
 "
 port
 -
@@ -2102,7 +1883,6 @@ but
 colon
 "
 :
-b
 "
 http
 :
@@ -2114,14 +1894,12 @@ f
 c
 "
     
-b
 "
 port
 -
 0
 "
 :
-b
 "
 http
 :
@@ -2134,14 +1912,12 @@ f
 c
 "
     
-b
 "
 port
 -
 00000000000000
 "
 :
-b
 "
 http
 :
@@ -2154,14 +1930,12 @@ f
 c
 "
     
-b
 "
 port
 -
 00000000000000000000080
 "
 :
-b
 "
 http
 :
@@ -2174,7 +1948,6 @@ f
 c
 "
     
-b
 "
 userinfo
 -
@@ -2185,7 +1958,6 @@ port
 path
 "
 :
-b
 "
 http
 :
@@ -2201,7 +1973,6 @@ c
 d
 "
     
-b
 "
 userinfo
 -
@@ -2212,7 +1983,6 @@ non
 alpha
 "
 :
-b
 "
 http
 :
@@ -2227,7 +1997,6 @@ d
 /
 "
     
-b
 "
 query
 -
@@ -2238,7 +2007,6 @@ question
 mark
 "
 :
-b
 "
 http
 :
@@ -2253,7 +2021,6 @@ efgh
 ijkl
 "
     
-b
 "
 fragment
 -
@@ -2264,7 +2031,6 @@ question
 mark
 "
 :
-b
 "
 http
 :
@@ -2279,7 +2045,6 @@ foo
 bar
 "
     
-b
 "
 path
 -
@@ -2290,7 +2055,6 @@ encoded
 dot
 "
 :
-b
 "
 http
 :
@@ -2306,7 +2070,6 @@ foo
 2e
 "
     
-b
 "
 path
 -
@@ -2317,7 +2080,6 @@ encoded
 space
 "
 :
-b
 "
 http
 :
@@ -2331,7 +2093,6 @@ com
 20foo
 "
     
-b
 "
 path
 -
@@ -2354,17 +2115,7 @@ u00C2
 \
 u00A9zbar
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 path
 -
@@ -2375,7 +2126,6 @@ encoded
 multiple
 "
 :
-b
 "
 http
 :
@@ -2392,7 +2142,6 @@ foo
 7a
 "
     
-b
 "
 path
 -
@@ -2403,7 +2152,6 @@ encoded
 u0091
 "
 :
-b
 "
 http
 :
@@ -2418,7 +2166,6 @@ foo
 91
 "
     
-b
 "
 path
 -
@@ -2429,7 +2176,6 @@ encoded
 u0000
 "
 :
-b
 "
 http
 :
@@ -2444,7 +2190,6 @@ foo
 00
 "
     
-b
 "
 path
 -
@@ -2457,7 +2202,6 @@ mixed
 case
 "
 :
-b
 "
 http
 :
@@ -2477,7 +2221,6 @@ com
 3c
 "
     
-b
 "
 path
 -
@@ -2504,17 +2247,7 @@ u4F60
 \
 u597D
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 path
 -
@@ -2535,17 +2268,7 @@ uFEFF
 /
 foo
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 path
 -
@@ -2573,17 +2296,7 @@ u202D
 /
 bar
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 host
 -
@@ -2602,17 +2315,7 @@ http
 /
 /
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 path
 -
@@ -2637,17 +2340,7 @@ com
 foo
 /
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 query
 -
@@ -2672,17 +2365,7 @@ com
 foo
 ?
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 fragment
 -
@@ -2707,17 +2390,7 @@ com
 foo
 #
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 host
 -
@@ -2726,7 +2399,6 @@ host
 0x00A80001
 "
 :
-b
 "
 http
 :
@@ -2737,7 +2409,6 @@ http
 0x00A80001
 "
     
-b
 "
 userinfo
 -
@@ -2750,7 +2421,6 @@ percent
 encoded
 "
 :
-b
 "
 http
 :
@@ -2765,14 +2435,12 @@ foodomain
 com
 "
     
-b
 "
 userinfo
 -
 empty
 "
 :
-b
 "
 http
 :
@@ -2785,7 +2453,6 @@ example
 com
 "
     
-b
 "
 userinfo
 -
@@ -2794,7 +2461,6 @@ user
 empty
 "
 :
-b
 "
 http
 :
@@ -2809,7 +2475,6 @@ example
 com
 "
     
-b
 "
 userinfo
 -
@@ -2818,7 +2483,6 @@ password
 empty
 "
 :
-b
 "
 http
 :
@@ -2833,7 +2497,6 @@ example
 com
 "
     
-b
 "
 host
 -
@@ -2857,17 +2520,7 @@ ufeffgoo
 .
 com
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 host
 -
@@ -2889,17 +2542,7 @@ u3002bar
 .
 com
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 host
 -
@@ -2918,17 +2561,7 @@ uff4f
 .
 com
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 host
 -
@@ -2953,17 +2586,7 @@ u4f60
 \
 u597d
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 host
 -
@@ -2974,7 +2597,6 @@ address
 broken
 "
 :
-b
 "
 http
 :
@@ -3001,7 +2623,6 @@ valid_relative
 =
 {
     
-b
 "
 scheme
 -
@@ -3010,7 +2631,6 @@ schemeless
 relative
 "
 :
-b
 "
 /
 /
@@ -3019,7 +2639,6 @@ foo
 bar
 "
     
-b
 "
 path
 -
@@ -3030,12 +2649,10 @@ only
 relative
 "
 :
-b
 "
 /
 "
     
-b
 "
 path
 -
@@ -3044,7 +2661,6 @@ simple
 relative
 "
 :
-b
 "
 /
 a
@@ -3054,7 +2670,6 @@ b
 c
 "
     
-b
 "
 path
 -
@@ -3067,7 +2682,6 @@ slash
 relative
 "
 :
-b
 "
 /
 a
@@ -3075,7 +2689,6 @@ a
 2fc
 "
     
-b
 "
 path
 -
@@ -3092,7 +2705,6 @@ slashes
 relative
 "
 :
-b
 "
 /
 a
@@ -3103,7 +2715,6 @@ a
 c
 "
     
-b
 "
 query
 -
@@ -3116,12 +2727,10 @@ path
 relative
 "
 :
-b
 "
 ?
 "
     
-b
 "
 fragment
 -
@@ -3138,12 +2747,10 @@ path
 relative
 "
 :
-b
 "
 #
 "
     
-b
 "
 fragment
 -
@@ -3152,13 +2759,11 @@ slash
 relative
 "
 :
-b
 "
 #
 /
 "
     
-b
 "
 fragment
 -
@@ -3171,14 +2776,12 @@ mark
 relative
 "
 :
-b
 "
 #
 ;
 ?
 "
     
-b
 "
 fragment
 -
@@ -3194,15 +2797,6 @@ relative
 \
 u03B2
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 }
 valid
 .
@@ -3220,7 +2814,6 @@ valid_relative_colon_dot
 =
 {
     
-b
 "
 scheme
 -
@@ -3229,14 +2822,12 @@ none
 relative
 "
 :
-b
 "
 foo
 .
 com
 "
     
-b
 "
 path
 -
@@ -3245,12 +2836,10 @@ colon
 relative
 "
 :
-b
 "
 :
 "
     
-b
 "
 path
 -
@@ -3263,13 +2852,11 @@ letter
 relative
 "
 :
-b
 "
 :
 a
 "
     
-b
 "
 path
 -
@@ -3282,7 +2869,6 @@ chars
 relative
 "
 :
-b
 "
 :
 foo
@@ -3290,7 +2876,6 @@ foo
 com
 "
     
-b
 "
 path
 -
@@ -3303,13 +2888,11 @@ slash
 relative
 "
 :
-b
 "
 :
 /
 "
     
-b
 "
 path
 -
@@ -3322,13 +2905,11 @@ hash
 relative
 "
 :
-b
 "
 :
 #
 "
     
-b
 "
 path
 -
@@ -3341,13 +2922,11 @@ number
 relative
 "
 :
-b
 "
 :
 23
 "
     
-b
 "
 path
 -
@@ -3360,14 +2939,12 @@ number
 relative
 "
 :
-b
 "
 /
 :
 23
 "
     
-b
 "
 path
 -
@@ -3380,13 +2957,11 @@ colon
 relative
 "
 :
-b
 "
 :
 :
 "
     
-b
 "
 path
 -
@@ -3399,14 +2974,12 @@ number
 relative
 "
 :
-b
 "
 :
 :
 23
 "
     
-b
 "
 path
 -
@@ -3428,17 +3001,7 @@ http
 /
 foo
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
-b
 "
 path
 -
@@ -3458,15 +3021,6 @@ http
 :
 foo
 "
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 }
 valid
 .
@@ -3478,7 +3032,6 @@ invalid_file
 =
 {
     
-b
 "
 scheme
 -
@@ -3487,7 +3040,6 @@ file
 backslash
 "
 :
-b
 "
 file
 :
@@ -3503,7 +3055,6 @@ bar
 html
 "
     
-b
 "
 scheme
 -
@@ -3518,7 +3069,6 @@ c
 bar
 "
 :
-b
 "
 file
 :
@@ -3531,7 +3081,6 @@ foo
 bar
 "
     
-b
 "
 scheme
 -
@@ -3546,7 +3095,6 @@ c
 bar
 "
 :
-b
 "
 file
 :
@@ -3571,7 +3119,6 @@ valid_file
 =
 {
     
-b
 "
 scheme
 -
@@ -3580,7 +3127,6 @@ file
 uppercase
 "
 :
-b
 "
 File
 :
@@ -3593,7 +3139,6 @@ bar
 html
 "
     
-b
 "
 scheme
 -
@@ -3608,7 +3153,6 @@ c
 bar
 "
 :
-b
 "
 file
 :
@@ -3622,7 +3166,6 @@ foo
 bar
 "
     
-b
 "
 scheme
 -
@@ -3637,7 +3180,6 @@ abc
 bar
 "
 :
-b
 "
 file
 :
@@ -3651,7 +3193,6 @@ foo
 bar
 "
     
-b
 "
 scheme
 -
@@ -3662,7 +3203,6 @@ host
 included
 "
 :
-b
 "
 file
 :
@@ -3675,7 +3215,6 @@ foo
 bar
 "
     
-b
 "
 scheme
 -
@@ -3686,7 +3225,6 @@ host
 empty
 "
 :
-b
 "
 file
 :
@@ -3700,7 +3238,6 @@ bar
 txt
 "
     
-b
 "
 scheme
 -
@@ -3711,13 +3248,11 @@ scheme
 only
 "
 :
-b
 "
 file
 :
 "
     
-b
 "
 scheme
 -
@@ -3728,14 +3263,12 @@ slash
 only
 "
 :
-b
 "
 file
 :
 /
 "
     
-b
 "
 scheme
 -
@@ -3748,7 +3281,6 @@ slash
 only
 "
 :
-b
 "
 file
 :
@@ -3756,7 +3288,6 @@ file
 /
 "
     
-b
 "
 scheme
 -
@@ -3771,7 +3302,6 @@ slash
 only
 "
 :
-b
 "
 file
 :
@@ -3780,7 +3310,6 @@ file
 /
 "
     
-b
 "
 scheme
 -
@@ -3791,7 +3320,6 @@ no
 slash
 "
 :
-b
 "
 file
 :
@@ -3814,7 +3342,6 @@ warnings
 =
 {
     
-b
 "
 scheme
 -
@@ -3825,7 +3352,6 @@ contains
 fragment
 "
 :
-b
 "
 data
 :
@@ -3841,139 +3367,116 @@ element_attribute_pairs
 =
 [
     
-b
 "
 a
 href
 "
     
-b
 "
 area
 href
 "
     
-b
 "
 audio
 src
 "
     
-b
 "
 base
 href
 "
     
-b
 "
 blockquote
 cite
 "
     
-b
 "
 button
 formaction
 "
     
-b
 "
 del
 cite
 "
     
-b
 "
 embed
 src
 "
     
-b
 "
 form
 action
 "
     
-b
 "
 iframe
 src
 "
     
-b
 "
 img
 src
 "
     
-b
 "
 input
 formaction
 "
     
-b
 "
 input
 src
 "
     
-b
 "
 input
 value
 "
     
-b
 "
 ins
 cite
 "
     
-b
 "
 link
 href
 "
     
-b
 "
 object
 data
 "
     
-b
 "
 q
 cite
 "
     
-b
 "
 script
 src
 "
     
-b
 "
 source
 src
 "
     
-b
 "
 track
 src
 "
     
-b
 "
 video
 poster
 "
     
-b
 "
 video
 src
@@ -3981,7 +3484,6 @@ src
 ]
 template
 =
-b
 "
 <
 !
@@ -4037,7 +3539,6 @@ items
             
 if
 (
-b
 "
 area
 "
@@ -4076,13 +3577,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -4092,7 +3589,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -4101,7 +3597,7 @@ invalid
 href
 :
 %
-b
+s
 <
 /
 title
@@ -4117,7 +3613,6 @@ f
 .
 write
 (
-b
 '
 <
 map
@@ -4127,13 +3622,13 @@ foo
 >
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 alt
 >
@@ -4160,7 +3655,6 @@ close
             
 elif
 (
-b
 "
 base
 "
@@ -4168,7 +3662,6 @@ base
 =
 el
 or
-b
 "
 embed
 "
@@ -4210,24 +3703,12 @@ html
 %
 (
 el
-.
-decode
-(
-)
 attr
-.
-decode
-(
-)
 desc
-.
-decode
-(
-)
 )
 )
 '
-wb
+w
 '
 )
                 
@@ -4237,17 +3718,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 invalid
 %
-b
+s
 :
 %
-b
+s
 <
 /
 title
@@ -4266,17 +3746,16 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 \
@@ -4298,7 +3777,6 @@ close
             
 elif
 (
-b
 "
 img
 "
@@ -4337,13 +3815,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -4353,7 +3827,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -4362,7 +3835,7 @@ invalid
 src
 :
 %
-b
+s
 <
 /
 title
@@ -4378,7 +3851,6 @@ f
 .
 write
 (
-b
 '
 <
 img
@@ -4386,7 +3858,7 @@ src
 =
 "
 %
-b
+s
 "
 alt
 >
@@ -4405,7 +3877,6 @@ close
             
 elif
 (
-b
 "
 input
 "
@@ -4413,7 +3884,6 @@ input
 =
 el
 and
-b
 "
 src
 "
@@ -4456,13 +3926,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -4472,7 +3938,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -4481,7 +3946,7 @@ invalid
 src
 :
 %
-b
+s
 <
 /
 title
@@ -4497,11 +3962,10 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 type
 =
 image
@@ -4511,11 +3975,11 @@ alt
 foo
 "
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 \
@@ -4537,7 +4001,6 @@ close
             
 elif
 (
-b
 "
 input
 "
@@ -4545,7 +4008,6 @@ input
 =
 el
 and
-b
 "
 formaction
 "
@@ -4588,13 +4050,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -4604,7 +4062,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -4613,7 +4070,7 @@ invalid
 formaction
 :
 %
-b
+s
 <
 /
 title
@@ -4629,20 +4086,19 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 type
 =
 submit
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 \
@@ -4695,13 +4151,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -4711,7 +4163,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -4720,7 +4171,7 @@ invalid
 formaction
 :
 %
-b
+s
 <
 /
 title
@@ -4736,11 +4187,10 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 type
 =
 image
@@ -4750,11 +4200,11 @@ alt
 foo
 "
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 \
@@ -4776,7 +4226,6 @@ close
             
 elif
 (
-b
 "
 input
 "
@@ -4784,7 +4233,6 @@ input
 =
 el
 and
-b
 "
 value
 "
@@ -4827,13 +4275,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -4843,7 +4287,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -4853,7 +4296,7 @@ value
 attribute
 :
 %
-b
+s
 <
 /
 title
@@ -4869,20 +4312,19 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 type
 =
 url
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 \
@@ -4904,7 +4346,6 @@ close
             
 elif
 (
-b
 "
 link
 "
@@ -4943,13 +4384,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -4959,7 +4396,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -4968,7 +4404,7 @@ invalid
 href
 :
 %
-b
+s
 <
 /
 title
@@ -4984,7 +4420,6 @@ f
 .
 write
 (
-b
 '
 <
 link
@@ -4992,7 +4427,7 @@ href
 =
 "
 %
-b
+s
 "
 rel
 =
@@ -5013,7 +4448,6 @@ close
             
 elif
 (
-b
 "
 source
 "
@@ -5021,7 +4455,6 @@ source
 =
 el
 or
-b
 "
 track
 "
@@ -5063,24 +4496,12 @@ html
 %
 (
 el
-.
-decode
-(
-)
 attr
-.
-decode
-(
-)
 desc
-.
-decode
-(
-)
 )
 )
 '
-wb
+w
 '
 )
                 
@@ -5090,17 +4511,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 invalid
 %
-b
+s
 :
 %
-b
+s
 <
 /
 title
@@ -5119,20 +4539,19 @@ f
 .
 write
 (
-b
 '
 <
 video
 >
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 <
@@ -5191,24 +4610,12 @@ html
 %
 (
 el
-.
-decode
-(
-)
 attr
-.
-decode
-(
-)
 desc
-.
-decode
-(
-)
 )
 )
 '
-wb
+w
 '
 )
                 
@@ -5218,17 +4625,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 invalid
 %
-b
+s
 :
 %
-b
+s
 <
 /
 title
@@ -5247,23 +4653,22 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 <
 /
 %
-b
+s
 >
 \
 n
@@ -5321,13 +4726,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
         
@@ -5337,7 +4738,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -5346,7 +4746,7 @@ invalid
 itemid
 :
 %
-b
+s
 <
 /
 title
@@ -5362,7 +4762,6 @@ f
 .
 write
 (
-b
 '
 <
 div
@@ -5370,7 +4769,7 @@ itemid
 =
 "
 %
-b
+s
 "
 itemtype
 =
@@ -5438,13 +4837,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
         
@@ -5454,7 +4849,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -5463,7 +4857,7 @@ invalid
 itemtype
 :
 %
-b
+s
 <
 /
 title
@@ -5479,7 +4873,6 @@ f
 .
 write
 (
-b
 '
 <
 div
@@ -5487,7 +4880,7 @@ itemtype
 =
 "
 %
-b
+s
 "
 itemscope
 >
@@ -5541,13 +4934,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
         
@@ -5557,7 +4946,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -5567,7 +4955,7 @@ value
 attribute
 :
 %
-b
+s
 <
 /
 title
@@ -5583,7 +4971,6 @@ f
 .
 write
 (
-b
 '
 <
 input
@@ -5594,7 +4981,7 @@ value
 =
 "
 %
-b
+s
 "
 >
 \
@@ -5645,7 +5032,6 @@ items
             
 if
 (
-b
 "
 area
 "
@@ -5684,13 +5070,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -5700,17 +5082,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 %
-b
+s
 warning
 :
 %
-b
+s
 <
 /
 title
@@ -5729,7 +5110,6 @@ f
 .
 write
 (
-b
 '
 <
 map
@@ -5739,13 +5119,13 @@ foo
 >
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 alt
 >
@@ -5772,7 +5152,6 @@ close
             
 elif
 (
-b
 "
 base
 "
@@ -5780,7 +5159,6 @@ base
 =
 el
 or
-b
 "
 embed
 "
@@ -5822,24 +5200,12 @@ html
 %
 (
 el
-.
-decode
-(
-)
 attr
-.
-decode
-(
-)
 desc
-.
-decode
-(
-)
 )
 )
 '
-wb
+w
 '
 )
                 
@@ -5849,17 +5215,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 %
-b
+s
 warning
 :
 %
-b
+s
 <
 /
 title
@@ -5878,17 +5243,16 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 \
@@ -5910,7 +5274,6 @@ close
             
 elif
 (
-b
 "
 img
 "
@@ -5949,13 +5312,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -5965,17 +5324,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 %
-b
+s
 warning
 :
 %
-b
+s
 <
 /
 title
@@ -5994,17 +5352,16 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 alt
 >
@@ -6027,7 +5384,6 @@ close
             
 elif
 (
-b
 "
 input
 "
@@ -6035,7 +5391,6 @@ input
 =
 el
 and
-b
 "
 src
 "
@@ -6078,13 +5433,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -6094,17 +5445,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 %
-b
+s
 warning
 :
 %
-b
+s
 <
 /
 title
@@ -6123,11 +5473,10 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 type
 =
 image
@@ -6137,11 +5486,11 @@ alt
 foo
 "
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 \
@@ -6163,7 +5512,6 @@ close
             
 elif
 (
-b
 "
 input
 "
@@ -6171,7 +5519,6 @@ input
 =
 el
 and
-b
 "
 formaction
 "
@@ -6214,13 +5561,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -6230,17 +5573,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 %
-b
+s
 warning
 :
 %
-b
+s
 <
 /
 title
@@ -6259,20 +5601,19 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 type
 =
 submit
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 \
@@ -6325,13 +5666,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -6341,17 +5678,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 %
-b
+s
 warning
 :
 %
-b
+s
 <
 /
 title
@@ -6370,11 +5706,10 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 type
 =
 image
@@ -6384,11 +5719,11 @@ alt
 foo
 "
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 \
@@ -6410,7 +5745,6 @@ close
             
 elif
 (
-b
 "
 input
 "
@@ -6418,7 +5752,6 @@ input
 =
 el
 and
-b
 "
 value
 "
@@ -6461,13 +5794,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -6477,17 +5806,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 %
-b
+s
 warning
 :
 %
-b
+s
 <
 /
 title
@@ -6506,20 +5834,19 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 type
 =
 url
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 \
@@ -6541,7 +5868,6 @@ close
             
 elif
 (
-b
 "
 link
 "
@@ -6580,13 +5906,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
                 
@@ -6596,17 +5918,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 %
-b
+s
 warning
 :
 %
-b
+s
 <
 /
 title
@@ -6625,17 +5946,16 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 rel
 =
@@ -6660,7 +5980,6 @@ close
             
 elif
 (
-b
 "
 source
 "
@@ -6668,7 +5987,6 @@ source
 =
 el
 or
-b
 "
 track
 "
@@ -6710,24 +6028,12 @@ html
 %
 (
 el
-.
-decode
-(
-)
 attr
-.
-decode
-(
-)
 desc
-.
-decode
-(
-)
 )
 )
 '
-wb
+w
 '
 )
                 
@@ -6737,17 +6043,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 %
-b
+s
 warning
 :
 %
-b
+s
 <
 /
 title
@@ -6766,20 +6071,19 @@ f
 .
 write
 (
-b
 '
 <
 video
 >
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 <
@@ -6838,24 +6142,12 @@ html
 %
 (
 el
-.
-decode
-(
-)
 attr
-.
-decode
-(
-)
 desc
-.
-decode
-(
-)
 )
 )
 '
-wb
+w
 '
 )
                 
@@ -6865,17 +6157,16 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 %
-b
+s
 warning
 :
 %
-b
+s
 <
 /
 title
@@ -6894,23 +6185,22 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 <
 /
 %
-b
+s
 >
 \
 n
@@ -6968,13 +6258,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
         
@@ -6984,7 +6270,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -6992,7 +6277,7 @@ title
 warning
 :
 %
-b
+s
 <
 /
 title
@@ -7008,7 +6293,6 @@ f
 .
 write
 (
-b
 '
 <
 div
@@ -7016,7 +6300,7 @@ itemtype
 =
 "
 %
-b
+s
 "
 itemscope
 >
@@ -7064,13 +6348,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
         
@@ -7080,7 +6360,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -7088,7 +6367,7 @@ title
 warning
 :
 %
-b
+s
 <
 /
 title
@@ -7104,7 +6383,6 @@ f
 .
 write
 (
-b
 '
 <
 div
@@ -7112,7 +6390,7 @@ itemid
 =
 "
 %
-b
+s
 "
 itemtype
 =
@@ -7166,7 +6444,6 @@ element_attribute_pairs
         
 if
 (
-b
 "
 base
 "
@@ -7180,7 +6457,6 @@ continue
         
 if
 (
-b
 "
 html
 "
@@ -7194,7 +6470,6 @@ continue
         
 elif
 (
-b
 "
 input
 "
@@ -7202,7 +6477,6 @@ input
 =
 el
 and
-b
 "
 value
 "
@@ -7216,7 +6490,6 @@ continue
         
 elif
 (
-b
 "
 input
 "
@@ -7224,7 +6497,6 @@ input
 =
 el
 and
-b
 "
 formaction
 "
@@ -7264,7 +6536,7 @@ html
 "
 )
 '
-wb
+w
 '
 )
             
@@ -7274,7 +6546,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -7320,7 +6591,7 @@ html
 "
 )
 '
-wb
+w
 '
 )
             
@@ -7330,7 +6601,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -7348,7 +6618,6 @@ n
         
 elif
 (
-b
 "
 input
 "
@@ -7356,7 +6625,6 @@ input
 =
 el
 and
-b
 "
 src
 "
@@ -7396,7 +6664,7 @@ html
 "
 )
 '
-wb
+w
 '
 )
             
@@ -7406,7 +6674,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -7454,19 +6721,11 @@ html
 %
 (
 el
-.
-decode
-(
-)
 attr
-.
-decode
-(
-)
 )
 )
 '
-wb
+w
 '
 )
             
@@ -7476,14 +6735,13 @@ write
 (
 template
 +
-b
 '
 <
 title
 >
 valid
 %
-b
+s
 <
 /
 title
@@ -7508,7 +6766,6 @@ items
             
 if
 (
-b
 "
 area
 "
@@ -7522,7 +6779,6 @@ f
 .
 write
 (
-b
 '
 <
 map
@@ -7532,13 +6788,13 @@ foo
 >
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 alt
 >
@@ -7551,7 +6807,7 @@ map
 -
 -
 %
-b
+s
 -
 -
 >
@@ -7569,7 +6825,6 @@ desc
             
 elif
 (
-b
 "
 embed
 "
@@ -7583,17 +6838,16 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 <
@@ -7601,7 +6855,7 @@ b
 -
 -
 %
-b
+s
 -
 -
 >
@@ -7619,7 +6873,6 @@ desc
             
 elif
 (
-b
 "
 img
 "
@@ -7633,17 +6886,16 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 alt
 >
@@ -7652,7 +6904,7 @@ alt
 -
 -
 %
-b
+s
 -
 -
 >
@@ -7670,7 +6922,6 @@ desc
             
 elif
 (
-b
 "
 input
 "
@@ -7678,7 +6929,6 @@ input
 =
 el
 and
-b
 "
 src
 "
@@ -7692,11 +6942,10 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 type
 =
 image
@@ -7706,11 +6955,11 @@ alt
 foo
 "
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 <
@@ -7718,7 +6967,7 @@ b
 -
 -
 %
-b
+s
 -
 -
 >
@@ -7736,7 +6985,6 @@ desc
             
 elif
 (
-b
 "
 input
 "
@@ -7744,7 +6992,6 @@ input
 =
 el
 and
-b
 "
 formaction
 "
@@ -7758,20 +7005,19 @@ fs
 .
 write
 (
-b
 '
 <
 %
-b
+s
 type
 =
 submit
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 <
@@ -7779,7 +7025,7 @@ b
 -
 -
 %
-b
+s
 -
 -
 >
@@ -7799,11 +7045,10 @@ fi
 .
 write
 (
-b
 '
 <
 %
-b
+s
 type
 =
 image
@@ -7813,11 +7058,11 @@ alt
 foo
 "
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 <
@@ -7825,7 +7070,7 @@ b
 -
 -
 %
-b
+s
 -
 -
 >
@@ -7843,7 +7088,6 @@ desc
             
 elif
 (
-b
 "
 link
 "
@@ -7857,17 +7101,16 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 rel
 =
@@ -7878,7 +7121,7 @@ help
 -
 -
 %
-b
+s
 -
 -
 >
@@ -7896,7 +7139,6 @@ desc
             
 elif
 (
-b
 "
 source
 "
@@ -7904,7 +7146,6 @@ source
 =
 el
 or
-b
 "
 track
 "
@@ -7918,20 +7159,19 @@ f
 .
 write
 (
-b
 '
 <
 video
 >
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 <
@@ -7943,7 +7183,7 @@ video
 -
 -
 %
-b
+s
 -
 -
 >
@@ -7966,30 +7206,29 @@ f
 .
 write
 (
-b
 '
 <
 %
-b
+s
 %
-b
+s
 =
 "
 %
-b
+s
 "
 >
 <
 /
 %
-b
+s
 >
 <
 !
 -
 -
 %
-b
+s
 -
 -
 >
@@ -8008,7 +7247,6 @@ desc
         
 if
 (
-b
 "
 input
 "
@@ -8016,7 +7254,6 @@ input
 =
 el
 and
-b
 "
 formaction
 "
@@ -8043,7 +7280,6 @@ else
             
 if
 (
-b
 "
 a
 "
@@ -8051,7 +7287,6 @@ a
 =
 el
 and
-b
 "
 href
 "
@@ -8065,7 +7300,6 @@ f
 .
 write
 (
-b
 '
 <
 a
@@ -8139,13 +7373,9 @@ html
 "
 %
 desc
-.
-decode
-(
-)
 )
 '
-wb
+w
 '
 )
         
@@ -8155,7 +7385,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -8164,7 +7393,7 @@ valid
 href
 :
 %
-b
+s
 <
 /
 title
@@ -8180,7 +7409,6 @@ f
 .
 write
 (
-b
 '
 <
 base
@@ -8188,7 +7416,7 @@ href
 =
 "
 %
-b
+s
 "
 >
 \
@@ -8230,7 +7458,7 @@ html
 "
 )
 '
-wb
+w
 '
 )
     
@@ -8240,7 +7468,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -8272,7 +7499,6 @@ f
 .
 write
 (
-b
 '
 <
 meta
@@ -8289,7 +7515,7 @@ content
 URL
 =
 %
-b
+s
 "
 >
 <
@@ -8297,7 +7523,7 @@ b
 -
 -
 %
-b
+s
 -
 -
 >
@@ -8341,7 +7567,7 @@ html
 "
 )
 '
-wb
+w
 '
 )
     
@@ -8351,7 +7577,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -8382,7 +7607,6 @@ f
 .
 write
 (
-b
 '
 <
 div
@@ -8390,7 +7614,7 @@ itemid
 =
 "
 %
-b
+s
 "
 itemtype
 =
@@ -8412,7 +7636,7 @@ div
 -
 -
 %
-b
+s
 -
 -
 >
@@ -8456,7 +7680,7 @@ html
 "
 )
 '
-wb
+w
 '
 )
     
@@ -8466,7 +7690,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -8497,7 +7720,6 @@ f
 .
 write
 (
-b
 '
 <
 div
@@ -8505,7 +7727,7 @@ itemtype
 =
 "
 %
-b
+s
 "
 itemscope
 >
@@ -8518,7 +7740,7 @@ div
 -
 -
 %
-b
+s
 -
 -
 >
@@ -8568,7 +7790,7 @@ html
 "
 )
 '
-wb
+w
 '
 )
     
@@ -8578,7 +7800,6 @@ write
 (
 template
 +
-b
 '
 <
 title
@@ -8610,7 +7831,6 @@ f
 .
 write
 (
-b
 '
 <
 input
@@ -8621,7 +7841,7 @@ value
 =
 "
 %
-b
+s
 "
 >
 <
@@ -8629,7 +7849,7 @@ b
 -
 -
 %
-b
+s
 -
 -
 >
