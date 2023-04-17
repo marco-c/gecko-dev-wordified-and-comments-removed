@@ -1372,6 +1372,13 @@ LexicalScope
 ;
 AssertScopeSpecificDataIsEncodable
 <
+ClassBodyScope
+>
+(
+)
+;
+AssertScopeSpecificDataIsEncodable
+<
 EvalScope
 >
 (

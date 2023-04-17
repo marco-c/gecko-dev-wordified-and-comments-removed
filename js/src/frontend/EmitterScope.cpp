@@ -2424,7 +2424,7 @@ index
 JSOp
 :
 :
-PushLexicalEnv
+PushClassBodyEnv
 )
 )
 {
