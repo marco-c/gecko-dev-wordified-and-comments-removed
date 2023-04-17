@@ -1030,9 +1030,6 @@ docShell
 this
 .
 docShell
-doNotFireFrameUpdates
-:
-true
 followWindowGlobalLifeCycle
 :
 true
