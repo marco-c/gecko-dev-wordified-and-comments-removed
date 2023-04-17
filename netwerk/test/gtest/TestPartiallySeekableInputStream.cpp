@@ -72,6 +72,12 @@ using
 mozilla
 :
 :
+MakeRefPtr
+;
+using
+mozilla
+:
+:
 SpinEventLoopUntil
 ;
 using
