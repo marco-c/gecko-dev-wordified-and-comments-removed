@@ -1407,6 +1407,10 @@ uint32_t
 aRedirectFlags
 =
 0
+uint64_t
+aRedirectChannelId
+=
+0
 )
 ;
 enum
