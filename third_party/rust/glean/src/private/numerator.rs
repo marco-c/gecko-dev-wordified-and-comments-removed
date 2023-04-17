@@ -316,7 +316,6 @@ glean_core
 :
 test_get_num_recorded_errors
 (
-&
 glean
 self
 .
