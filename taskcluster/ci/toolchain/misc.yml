@@ -1283,14 +1283,6 @@ rs
 glue
 toolchain
 :
-#
-this
-requires
-resolver
-=
-2
-in
-Naga
 -
 linux64
 -
@@ -1298,7 +1290,7 @@ rust
 -
 1
 .
-51
+47
 #
 whatever
 m

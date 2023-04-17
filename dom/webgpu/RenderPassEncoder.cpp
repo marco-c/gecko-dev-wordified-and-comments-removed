@@ -212,7 +212,7 @@ dom
 GPUStoreOp
 :
 :
-Discard
+Clear
 :
 return
 ffi
