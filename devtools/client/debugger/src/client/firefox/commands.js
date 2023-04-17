@@ -630,13 +630,6 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
-"
-set
--
-xhr
--
-breakpoints
-"
 )
 ;
 if
@@ -702,13 +695,6 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
-"
-set
--
-xhr
--
-breakpoints
-"
 )
 ;
 if

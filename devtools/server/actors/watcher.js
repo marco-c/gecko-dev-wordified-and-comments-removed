@@ -706,15 +706,6 @@ WEBSOCKET
 :
 hasBrowserElement
 }
-"
-set
--
-xhr
--
-breakpoints
-"
-:
-true
 }
 }
 ;
