@@ -123,11 +123,11 @@ glean
 version
 =
 "
-38
+39
 .
 0
 .
-1
+0
 "
 authors
 =
@@ -281,11 +281,11 @@ core
 version
 =
 "
-38
+39
 .
 0
 .
-1
+0
 "
 [
 dependencies

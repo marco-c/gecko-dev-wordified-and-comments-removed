@@ -52,11 +52,11 @@ dependencies
 glean
 =
 "
-38
+39
 .
 0
 .
-1
+0
 "
 glean
 -
@@ -66,11 +66,11 @@ core
 version
 =
 "
-38
+39
 .
 0
 .
-1
+0
 "
 features
 =

@@ -74,6 +74,8 @@ Lifetime
 [
 derive
 (
+Copy
+Clone
 Debug
 PartialEq
 )

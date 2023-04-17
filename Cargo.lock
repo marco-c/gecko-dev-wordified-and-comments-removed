@@ -11783,11 +11783,11 @@ glean
 version
 =
 "
-38
+39
 .
 0
 .
-1
+0
 "
 source
 =
@@ -11815,7 +11815,7 @@ index
 checksum
 =
 "
-e19f2098b5cd381c6ba54836131befa7f0733b2a25fbb42f562c24bb817fa0f6
+c8e24825d3123194a212e3daf8ddac150713cec4f1e126dc3c12ba207f0b5d77
 "
 dependencies
 =
@@ -11881,11 +11881,11 @@ core
 version
 =
 "
-38
+39
 .
 0
 .
-1
+0
 "
 source
 =
@@ -11913,7 +11913,7 @@ index
 checksum
 =
 "
-4d672b7cc992c10c7ce78af182e9298d6a1e75f477ac5f1e9a03e89cfad027c9
+d1a31d189a28ffde9bfcc7ab26586ee2b81705f0b95bf7a090b67fab1f378782
 "
 dependencies
 =
