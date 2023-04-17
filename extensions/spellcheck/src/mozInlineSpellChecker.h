@@ -619,6 +619,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 nsresult
 ScheduleSpellCheck
@@ -683,6 +684,7 @@ bool
 aDoneChecking
 )
 ;
+static
 nsresult
 IsPointInSelection
 (
@@ -786,6 +788,7 @@ nsRange
 *
 aRange
 )
+const
 ;
 nsresult
 RegisterEventListeners

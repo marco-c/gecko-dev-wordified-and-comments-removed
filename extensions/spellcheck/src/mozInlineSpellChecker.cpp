@@ -3702,6 +3702,7 @@ nsRange
 *
 aRange
 )
+const
 {
 nsresult
 rv
@@ -4034,6 +4035,7 @@ nsINode
 *
 aNode
 )
+const
 {
 MOZ_ASSERT
 (
