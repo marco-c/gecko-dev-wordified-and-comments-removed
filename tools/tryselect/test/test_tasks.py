@@ -420,6 +420,19 @@ target_task_set
         
 (
 "
+target_task_set
+"
+None
+True
+"
+target_task_set
+-
+uncommon
+"
+)
+        
+(
+"
 full_task_set
 "
 {
@@ -447,8 +460,6 @@ None
 True
 "
 full_task_set
--
-uncommon
 "
 )
     
