@@ -395,7 +395,7 @@ open
 (
 depname
 "
-r
+rb
 "
 )
 .
