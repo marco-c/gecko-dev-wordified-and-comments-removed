@@ -632,6 +632,9 @@ u
 #
 if
 ANDROID
+|
+|
+XP_WIN
 u
 =
 =

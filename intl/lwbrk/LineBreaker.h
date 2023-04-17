@@ -253,6 +253,9 @@ return
 #
 if
 ANDROID
+|
+|
+XP_WIN
 (
 0x0e01
 <
