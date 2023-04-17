@@ -10214,9 +10214,10 @@ MarkChanged
 ;
 MOZ_ASSERT
 (
+!
 mPushedLayers
 .
-size
+empty
 (
 )
 )
