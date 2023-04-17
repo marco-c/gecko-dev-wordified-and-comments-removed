@@ -44,14 +44,14 @@ void
 VsyncTaskManager
 :
 :
-DidRunTask
+WillRunTask
 (
 )
 {
 TaskManager
 :
 :
-DidRunTask
+WillRunTask
 (
 )
 ;

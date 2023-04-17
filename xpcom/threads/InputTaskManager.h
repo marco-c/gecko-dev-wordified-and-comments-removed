@@ -322,7 +322,7 @@ dom_input_events_strict_input_vsync_alignment
 ;
 mInputPriorityController
 .
-DidVsync
+WillRunVsync
 (
 )
 ;
@@ -356,7 +356,7 @@ InputTaskManager
 )
 ;
 void
-DidVsync
+WillRunVsync
 (
 )
 ;
