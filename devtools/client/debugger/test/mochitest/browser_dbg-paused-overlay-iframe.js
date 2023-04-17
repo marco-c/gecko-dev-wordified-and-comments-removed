@@ -212,6 +212,11 @@ if
 isFissionEnabled
 (
 )
+|
+|
+isEveryFrameTargetEnabled
+(
+)
 )
 {
 const

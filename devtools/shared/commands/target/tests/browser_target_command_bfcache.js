@@ -1666,6 +1666,12 @@ if
 isFissionEnabled
 (
 )
+&
+&
+!
+isEveryFrameTargetEnabled
+(
+)
 )
 {
 is
@@ -1675,10 +1681,10 @@ targets
 length
 1
 "
-when
+Without
 fission
-is
-off
+/
+EFT
 there
 is
 only

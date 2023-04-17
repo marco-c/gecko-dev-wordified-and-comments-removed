@@ -2068,6 +2068,11 @@ if
 isFissionEnabled
 (
 )
+|
+|
+isEveryFrameTargetEnabled
+(
+)
 )
 {
 is
@@ -2079,6 +2084,8 @@ REMOTE_IFRAME_URL
 "
 With
 fission
+/
+EFT
 the
 pause
 is
@@ -2103,6 +2110,8 @@ targetFront
 "
 Without
 fission
+/
+EFT
 the
 pause
 is

@@ -127,6 +127,11 @@ if
 isFissionEnabled
 (
 )
+|
+|
+isEveryFrameTargetEnabled
+(
+)
 )
 {
 is
@@ -142,9 +147,10 @@ sourceview
 root
 nodes
 when
-fission
-is
-on
+iframe
+has
+dedicated
+target
 "
 )
 ;
