@@ -13583,6 +13583,7 @@ NS_IMPL_QUERY_INTERFACE
 nsHttpTransaction
 nsIInputStreamCallback
 nsIOutputStreamCallback
+nsITimerCallback
 )
 NS_IMETHODIMP
 nsHttpTransaction
