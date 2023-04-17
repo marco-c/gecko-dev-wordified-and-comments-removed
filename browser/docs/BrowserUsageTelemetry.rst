@@ -558,6 +558,16 @@ main
 menu
 .
 *
+drag
+-
+space
+-
+The
+optional
+drag
+space
+.
+*
 titlebar
 -
 The
