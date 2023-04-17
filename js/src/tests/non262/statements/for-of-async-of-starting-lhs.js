@@ -25,15 +25,6 @@ getRealmConfiguration
 ;
 }
 const
-IsTopLevelAwaitEnabled
-=
-getRealmConfiguration
-(
-)
-.
-topLevelAwait
-;
-const
 AsyncFunction
 =
 async
@@ -278,9 +269,6 @@ parseModule
 "
 function
 "
-&
-&
-IsTopLevelAwaitEnabled
 )
 {
 assertNoError

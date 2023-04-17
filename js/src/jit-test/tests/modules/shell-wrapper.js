@@ -312,6 +312,7 @@ declarationInstantiation
 ;
 try
 {
+await
 d
 .
 evaluation

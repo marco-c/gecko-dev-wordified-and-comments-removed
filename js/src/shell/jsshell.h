@@ -628,10 +628,6 @@ enableErgonomicBrandChecks
 ;
 extern
 bool
-enableTopLevelAwait
-;
-extern
-bool
 enableClassStaticBlocks
 ;
 #
