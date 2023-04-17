@@ -2468,6 +2468,10 @@ not
 [
 icon
 ]
+.
+menu
+-
+iconic
 )
 menupopup
 [
@@ -2484,13 +2488,13 @@ checked
 true
 "
 ]
-)
-:
-not
-(
 [
 icon
 ]
+.
+menuitem
+-
+iconic
 )
 {
 padding
@@ -2604,7 +2608,7 @@ inline
 -
 end
 :
-1em
+8px
 ;
 }
 menuitem
