@@ -983,6 +983,12 @@ GetPoolThreadCount
 (
 )
 ;
+static
+size_t
+GetThreadStackSize
+(
+)
+;
 private
 :
 friend

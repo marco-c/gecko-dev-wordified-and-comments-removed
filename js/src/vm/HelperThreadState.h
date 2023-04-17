@@ -278,6 +278,9 @@ cpuCount
 size_t
 threadCount
 ;
+size_t
+stackQuota
+;
 bool
 terminating_
 =
@@ -669,6 +672,12 @@ HelperThreadTaskCallback
 callback
 size_t
 threadCount
+size_t
+stackSize
+const
+AutoLockHelperThreadState
+&
+lock
 )
 ;
 [
