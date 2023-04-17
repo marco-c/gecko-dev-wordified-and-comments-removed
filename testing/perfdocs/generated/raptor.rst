@@ -5281,7 +5281,7 @@ cnn
 -
 e10s
 :
-autoland
+None
 *
 browsertime
 -
@@ -5530,7 +5530,7 @@ cnn
 -
 e10s
 :
-autoland
+None
 *
 browsertime
 -
@@ -5847,7 +5847,7 @@ cnn
 -
 e10s
 :
-autoland
+None
 *
 browsertime
 -
