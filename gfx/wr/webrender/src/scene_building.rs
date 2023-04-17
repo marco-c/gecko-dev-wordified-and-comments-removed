@@ -4944,7 +4944,6 @@ stops
 mut
 |
 rect
-clip
 start
 end
 stops
@@ -4962,7 +4961,7 @@ rect
 clip_rect
 :
 *
-clip
+rect
 flags
 }
 ;
