@@ -509,16 +509,6 @@ set
 (
 prefs
 .
-PROVIDER_STEERING_PREF
-true
-)
-;
-Preferences
-.
-set
-(
-prefs
-.
 CLEAR_ON_SHUTDOWN_PREF
 true
 )
