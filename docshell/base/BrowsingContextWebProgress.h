@@ -130,6 +130,11 @@ mNotifyMask
 ;
 }
 ;
+void
+ContextDiscarded
+(
+)
+;
 private
 :
 virtual
@@ -174,7 +179,7 @@ ListenerArray
 mListenerInfoList
 ;
 bool
-mSuspendOnStateStartChangeEvents
+mAwaitingStop
 =
 false
 ;
