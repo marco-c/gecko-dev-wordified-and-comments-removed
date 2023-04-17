@@ -4482,6 +4482,11 @@ RemoveMediaElementWithMSE
 (
 )
 ;
+void
+DoNotifyPossibleTitleChange
+(
+)
+;
 protected
 :
 friend
@@ -4594,11 +4599,6 @@ GetRootElementInternal
 (
 )
 const
-;
-void
-DoNotifyPossibleTitleChange
-(
-)
 ;
 void
 SetPageUnloadingEventTimeStamp
