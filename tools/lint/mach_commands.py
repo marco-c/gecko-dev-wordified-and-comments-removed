@@ -134,11 +134,9 @@ thunderbird_excludes
 GLOBAL_EXCLUDES
 =
 [
-    
 "
 node_modules
 "
-    
 "
 tools
 /
@@ -147,6 +145,14 @@ lint
 test
 /
 files
+"
+"
+.
+hg
+"
+"
+.
+git
 "
 ]
 def
