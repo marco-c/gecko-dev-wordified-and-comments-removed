@@ -219,19 +219,6 @@ values
 }
 ;
 const
-getSetRecordingSettingsFn
-=
-state
-=
->
-getInitializedValues
-(
-state
-)
-.
-setRecordingSettings
-;
-const
 getPageContext
 =
 state
@@ -287,7 +274,6 @@ getProfilerViewMode
 getOpenRemoteDevTools
 getRecordingSettings
 getInitializedValues
-getSetRecordingSettingsFn
 getPageContext
 getPromptEnvRestart
 getSupportedFeatures

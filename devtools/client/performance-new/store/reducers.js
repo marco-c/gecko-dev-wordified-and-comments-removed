@@ -932,7 +932,7 @@ presetName
 ;
 case
 "
-INITIALIZE_STORE
+UPDATE_SETTINGS_FROM_PREFERENCES
 "
 :
 return
@@ -975,11 +975,6 @@ INITIALIZE_STORE
 :
 return
 {
-setRecordingSettings
-:
-action
-.
-setRecordingSettings
 presets
 :
 action

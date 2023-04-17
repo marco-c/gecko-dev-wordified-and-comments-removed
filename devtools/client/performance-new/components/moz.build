@@ -104,6 +104,11 @@ ProfilerEventHandling
 js
 "
 "
+ProfilerPreferenceObserver
+.
+js
+"
+"
 Range
 .
 js
