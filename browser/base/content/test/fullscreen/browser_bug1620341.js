@@ -369,8 +369,15 @@ inDOMFullscreen
 )
 )
 ;
-ok
+await
+TestUtils
+.
+waitForCondition
 (
+(
+)
+=
+>
 tabbrowser
 .
 hasAttribute
