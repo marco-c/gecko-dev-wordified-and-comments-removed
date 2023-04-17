@@ -577,6 +577,10 @@ Free
 aPtr
 )
 ;
+sAllocatorUsers
+-
+-
+;
 DeleteAllocatorIfNeeded
 (
 )
@@ -665,10 +669,6 @@ allocator
 twice
 "
 )
-;
-sAllocatorUsers
--
--
 ;
 }
 TimeStamp
