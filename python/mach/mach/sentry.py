@@ -12,6 +12,10 @@ os
 path
 import
 expanduser
+from
+threading
+import
+Thread
 import
 sentry_sdk
 from
@@ -208,6 +212,31 @@ NoopErrorReporter
 (
 )
     
+global
+_is_unmodified_mach_core_thread
+    
+_is_unmodified_mach_core_thread
+=
+Thread
+(
+        
+target
+=
+_is_unmodified_mach_core
+args
+=
+[
+topsrcdir
+]
+    
+)
+    
+_is_unmodified_mach_core_thread
+.
+start
+(
+)
+    
 sentry_sdk
 .
 init
@@ -296,12 +325,15 @@ base_ref
         
 return
     
+_is_unmodified_mach_core_thread
+.
+join
+(
+)
+    
 if
 not
-_is_unmodified_mach_core
-(
-repo
-)
+_is_unmodified_mach_core_result
 :
         
 return
@@ -771,7 +803,7 @@ None
 def
 _is_unmodified_mach_core
 (
-repo
+topsrcdir
 )
 :
     
@@ -899,6 +931,16 @@ tree
 "
 "
     
+global
+_is_unmodified_mach_core_result
+    
+repo
+=
+_get_repository_object
+(
+topsrcdir
+)
+    
 try
 :
         
@@ -921,18 +963,13 @@ get_changed_files
 (
 )
 )
-    
-except
-MissingUpstreamRepo
-:
         
-return
-False
-    
-return
+_is_unmodified_mach_core_result
+=
 not
 any
 (
+            
 [
 file
 for
@@ -957,4 +994,19 @@ py
 "
 )
 ]
+        
 )
+    
+except
+MissingUpstreamRepo
+:
+        
+_is_unmodified_mach_core_result
+=
+False
+_is_unmodified_mach_core_result
+=
+None
+_is_unmodified_mach_core_thread
+=
+None
