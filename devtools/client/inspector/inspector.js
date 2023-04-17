@@ -5352,6 +5352,13 @@ will
 -
 navigate
 "
+&
+&
+resource
+.
+targetFront
+.
+isTopLevel
 )
 {
 this

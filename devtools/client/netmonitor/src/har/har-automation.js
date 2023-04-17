@@ -259,6 +259,13 @@ will
 -
 navigate
 "
+&
+&
+r
+.
+targetFront
+.
+isTopLevel
 )
 )
 {
@@ -288,6 +295,13 @@ dom
 -
 complete
 "
+&
+&
+r
+.
+targetFront
+.
+isTopLevel
 )
 )
 {

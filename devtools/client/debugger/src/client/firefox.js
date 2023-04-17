@@ -788,6 +788,17 @@ events
 {
 if
 (
+!
+event
+.
+targetFront
+.
+isTopLevel
+)
+continue
+;
+if
+(
 event
 .
 name

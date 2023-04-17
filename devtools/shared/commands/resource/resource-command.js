@@ -1532,6 +1532,13 @@ will
 -
 navigate
 "
+&
+&
+resource
+.
+targetFront
+.
+isTopLevel
 )
 {
 includesDocumentEventWillNavigate
