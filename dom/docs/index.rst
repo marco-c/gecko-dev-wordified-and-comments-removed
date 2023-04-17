@@ -47,3 +47,6 @@ index
 workersAndStorage
 /
 index
+webIdlBindings
+/
+index
