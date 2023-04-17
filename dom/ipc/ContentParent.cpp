@@ -9193,7 +9193,7 @@ GetCurrentThreadId
 a11y
 :
 :
-AccessibleWrap
+MsaaAccessible
 :
 :
 GetContentProcessIdFor
@@ -11283,7 +11283,7 @@ ACCESSIBILITY
 a11y
 :
 :
-AccessibleWrap
+MsaaAccessible
 :
 :
 ReleaseContentProcessIdFor
@@ -18654,7 +18654,7 @@ GetCurrentThreadId
 a11y
 :
 :
-AccessibleWrap
+MsaaAccessible
 :
 :
 GetContentProcessIdFor
@@ -31307,7 +31307,7 @@ aContentId
 a11y
 :
 :
-AccessibleWrap
+MsaaAccessible
 :
 :
 GetContentProcessIdFor
