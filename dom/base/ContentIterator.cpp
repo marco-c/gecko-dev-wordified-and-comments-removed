@@ -1647,8 +1647,6 @@ AsContent
 )
 ;
 }
-else
-{
 if
 (
 NS_WARN_IF
@@ -1684,9 +1682,6 @@ AsContent
 )
 ;
 }
-}
-else
-{
 if
 (
 mIterator
@@ -1756,10 +1751,6 @@ nullptr
 }
 return
 result
-;
-}
-return
-nullptr
 ;
 }
 Result
@@ -2014,8 +2005,6 @@ AsContent
 )
 ;
 }
-else
-{
 if
 (
 !
@@ -2090,9 +2079,6 @@ AsContent
 )
 ;
 }
-}
-else
-{
 nsIContent
 *
 cChild
@@ -2199,7 +2185,6 @@ result
 return
 cChild
 ;
-}
 }
 void
 ContentIteratorBase
