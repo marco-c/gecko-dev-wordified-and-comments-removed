@@ -2607,7 +2607,6 @@ DWRITE_FONT_SIMULATIONS_BOLD
 |
 (
 (
-(
 gfxDWriteFontEntry
 *
 )
@@ -2621,17 +2620,6 @@ GetFontEntry
 >
 HasVariations
 (
-)
-&
-&
-!
-mStyle
-.
-variationSettings
-.
-IsEmpty
-(
-)
 )
 ;
 }
