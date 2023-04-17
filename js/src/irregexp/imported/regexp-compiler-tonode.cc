@@ -5754,7 +5754,7 @@ end_of_line
 ActionNode
 :
 :
-BeginSubmatch
+BeginPositiveSubmatch
 (
 stack_pointer_register
 position_register
@@ -6003,7 +6003,7 @@ return
 ActionNode
 :
 :
-BeginSubmatch
+BeginPositiveSubmatch
 (
 stack_pointer_register_
 position_register_
@@ -6051,7 +6051,7 @@ return
 ActionNode
 :
 :
-BeginSubmatch
+BeginNegativeSubmatch
 (
 stack_pointer_register_
 position_register_
