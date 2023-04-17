@@ -21,7 +21,7 @@ stddef
 h
 >
 namespace
-js
+JS
 {
 namespace
 Scalar
@@ -592,6 +592,18 @@ type
 ;
 }
 }
+}
+namespace
+js
+{
+namespace
+Scalar
+=
+JS
+:
+:
+Scalar
+;
 }
 #
 endif
