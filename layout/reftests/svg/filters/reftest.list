@@ -1733,12 +1733,6 @@ region
 ref
 .
 svg
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 fePointLight

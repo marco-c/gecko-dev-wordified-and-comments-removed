@@ -3216,12 +3216,6 @@ image
 ref
 .
 html
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 svg

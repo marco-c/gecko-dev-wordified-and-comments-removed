@@ -1491,12 +1491,6 @@ html
 needs
 -
 focus
-fails
--
-if
-(
-useDrawSnapshot
-)
 !
 =
 caret_on_textarea_lastline

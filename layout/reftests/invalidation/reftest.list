@@ -1160,12 +1160,6 @@ html
 about
 :
 blank
-random
--
-if
-(
-useDrawSnapshot
-)
 !
 =
 inactive

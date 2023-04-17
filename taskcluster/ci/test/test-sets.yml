@@ -1510,10 +1510,6 @@ no
 -
 accel
 -
-reftest
--
-snapshot
--
 telemetry
 -
 tests

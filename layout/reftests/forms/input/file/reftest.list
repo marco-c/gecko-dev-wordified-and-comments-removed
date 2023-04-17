@@ -279,12 +279,6 @@ cocoaWidget
 geckoview
 )
 )
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 dynamic

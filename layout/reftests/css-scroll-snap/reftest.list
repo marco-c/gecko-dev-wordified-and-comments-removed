@@ -1,9 +1,3 @@
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 scroll
@@ -28,12 +22,6 @@ anchor
 ref
 .
 html
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 scroll

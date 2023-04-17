@@ -553,12 +553,6 @@ nativeThemePref
 -
 1
 )
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 number

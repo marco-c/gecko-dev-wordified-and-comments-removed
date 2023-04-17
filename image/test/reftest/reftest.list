@@ -275,12 +275,6 @@ list
 #
 Downscaling
 tests
-skip
--
-if
-(
-useDrawSnapshot
-)
 include
 downscaling
 /

@@ -227,12 +227,6 @@ animation
 ref
 .
 html
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 animate

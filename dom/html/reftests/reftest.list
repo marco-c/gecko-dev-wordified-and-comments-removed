@@ -556,12 +556,6 @@ fuzzy
 -
 830
 )
-random
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 bug917595
