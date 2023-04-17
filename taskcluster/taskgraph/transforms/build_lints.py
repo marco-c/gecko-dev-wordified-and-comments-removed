@@ -32,10 +32,6 @@ transforms
 TransformSequence
 (
 )
-SEEN_CONFIGS
-=
-{
-}
 transforms
 .
 add
@@ -157,6 +153,11 @@ similar
 "
 "
 "
+    
+SEEN_CONFIGS
+=
+{
+}
     
 for
 job
