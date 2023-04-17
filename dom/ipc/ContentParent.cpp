@@ -22646,7 +22646,7 @@ for
 const
 auto
 &
-params
+uri
 :
 aUris
 )
@@ -22656,7 +22656,7 @@ if
 NS_WARN_IF
 (
 !
-params
+uri
 )
 )
 {
@@ -22666,10 +22666,10 @@ continue
 history
 -
 >
-RegisterVisitedCallback
+ScheduleVisitedQuery
 (
-params
-nullptr
+uri
+this
 )
 ;
 }
