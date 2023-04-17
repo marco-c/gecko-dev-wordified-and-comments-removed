@@ -21,6 +21,10 @@ ntpath
 import
 os
 import
+pathlib
+import
+posixpath
+import
 re
 import
 sys
@@ -18069,14 +18073,23 @@ files
                         
 f_in_dir
 =
-os
-.
-path
+posixpath
 .
 join
 (
+                            
+pathlib
+.
+Path
+(
 folder
+)
+.
+as_posix
+(
+)
 filename
+                        
 )
                         
 if
