@@ -991,6 +991,11 @@ return
 mDocument
 ;
 }
+void
+Shutdown
+(
+)
+;
 private
 :
 virtual
@@ -1753,9 +1758,6 @@ RefPtr
 ScriptLoadRequest
 >
 mParserBlockingRequest
-;
-ScriptLoadRequestList
-mOffThreadCompilingRequests
 ;
 ScriptLoadRequestList
 mBytecodeEncodingQueue
