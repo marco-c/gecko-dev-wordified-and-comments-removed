@@ -6070,6 +6070,11 @@ ExtensionBrowser
 .
 webidl
 "
+"
+ExtensionEventManager
+.
+webidl
+"
 ]
 if
 CONFIG
