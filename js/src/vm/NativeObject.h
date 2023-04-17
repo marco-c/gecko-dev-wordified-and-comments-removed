@@ -6895,10 +6895,16 @@ HandleId
 id
 MutableHandle
 <
+mozilla
+:
+:
+Maybe
+<
 JS
 :
 :
 PropertyDescriptor
+>
 >
 desc
 )
