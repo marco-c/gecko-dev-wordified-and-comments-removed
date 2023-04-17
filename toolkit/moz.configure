@@ -9912,14 +9912,6 @@ add
 hunspell
 "
 )
-non_default_libs
-.
-add
-(
-"
-ogg
-"
-)
 if
 automation
 :
