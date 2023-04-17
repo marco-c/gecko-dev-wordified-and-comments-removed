@@ -532,7 +532,7 @@ needsCallObject
 script
 -
 >
-argumentsAliasesFormals
+argsObjAliasesFormals
 (
 )
 )
@@ -657,7 +657,7 @@ needsCallObject
 script
 -
 >
-argumentsAliasesFormals
+argsObjAliasesFormals
 (
 )
 )

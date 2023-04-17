@@ -10242,7 +10242,7 @@ baseScript
 )
 -
 >
-argumentsHasVarBinding
+needsArgsObj
 (
 )
 ;
@@ -10509,7 +10509,7 @@ baseScript
 )
 -
 >
-argumentsHasVarBinding
+needsArgsObj
 (
 )
 )

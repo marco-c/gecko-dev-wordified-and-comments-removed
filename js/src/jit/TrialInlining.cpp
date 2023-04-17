@@ -2773,7 +2773,7 @@ if
 script
 -
 >
-argumentsHasVarBinding
+needsArgsObj
 (
 )
 &
