@@ -679,9 +679,13 @@ may
 be
 be
 a
+*
 S1
+*
 or
+*
 S2
+*
 defect
 but
 not
