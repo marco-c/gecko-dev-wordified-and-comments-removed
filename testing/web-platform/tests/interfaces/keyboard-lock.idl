@@ -76,6 +76,8 @@ Window
 ]
 interface
 Keyboard
+:
+EventTarget
 {
 Promise
 <

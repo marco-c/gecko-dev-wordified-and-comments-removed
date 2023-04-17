@@ -16,6 +16,9 @@ lock
 '
 html
 '
+'
+dom
+'
 ]
 idl_array
 =
