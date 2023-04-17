@@ -126,11 +126,13 @@ remote
 /
 content
 /
-marionette
+shared
 /
-session
+webdriver
+/
+Session
 .
-js
+jsm
 "
 )
 ;
