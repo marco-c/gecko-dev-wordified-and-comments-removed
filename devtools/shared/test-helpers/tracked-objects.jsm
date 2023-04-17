@@ -13,6 +13,9 @@ track
 "
 getAllNodeIds
 "
+"
+clear
+"
 ]
 ;
 const
@@ -137,5 +140,17 @@ ChromeUtils
 getObjectNodeId
 )
 )
+;
+}
+function
+clear
+(
+)
+{
+objects
+.
+length
+=
+0
 ;
 }
