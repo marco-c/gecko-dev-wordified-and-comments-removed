@@ -22,9 +22,6 @@ http
 "
 https
 "
-"
-ftp
-"
 ]
 )
 {
