@@ -2859,6 +2859,15 @@ ResolutionChangeOrigin
 aOrigin
 )
 ;
+ResolutionChangeOrigin
+GetLastResolutionChangeOrigin
+(
+)
+{
+return
+mLastResolutionChangeOrigin
+;
+}
 void
 WindowSizeMoveDone
 (
@@ -6405,6 +6414,9 @@ Maybe
 float
 >
 mResolution
+;
+ResolutionChangeOrigin
+mLastResolutionChangeOrigin
 ;
 TimeStamp
 mLoadBegin
