@@ -511,9 +511,6 @@ return
 kError
 ;
 }
-return
-kError
-;
 }
 WindowsFrameInfo
 *
