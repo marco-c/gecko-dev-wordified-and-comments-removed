@@ -400,3 +400,13 @@ cookieBehavior
 4
 )
 ;
+user_pref
+(
+"
+prompts
+.
+contentPromptSubDialog
+"
+false
+)
+;
