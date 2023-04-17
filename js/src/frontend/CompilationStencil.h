@@ -2264,8 +2264,9 @@ enclosingScope
 void
 cacheEnclosingScope
 (
-Scope
-*
+const
+InputScope
+&
 enclosingScope
 )
 ;
