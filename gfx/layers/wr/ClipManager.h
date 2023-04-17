@@ -237,10 +237,14 @@ unordered_map
 const
 DisplayItemClipChain
 *
+AutoTArray
+<
 wr
 :
 :
 WrClipId
+4
+>
 >
 ClipIdMap
 ;

@@ -1148,6 +1148,9 @@ aBuilder
 .
 DefineRectClip
 (
+Nothing
+(
+)
 layoutRect
 )
 ;
@@ -1158,6 +1161,9 @@ aBuilder
 .
 DefineRoundedRectClip
 (
+Nothing
+(
+)
 region
 )
 ;
