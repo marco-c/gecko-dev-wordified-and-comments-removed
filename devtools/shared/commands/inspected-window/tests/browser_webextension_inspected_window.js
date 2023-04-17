@@ -124,6 +124,11 @@ CommandsFactory
 forTab
 (
 tab
+{
+isWebExtension
+:
+true
+}
 )
 ;
 await

@@ -106,6 +106,7 @@ forTab
 tab
 {
 client
+isWebExtension
 }
 =
 {
@@ -138,6 +139,7 @@ getTab
 (
 {
 tab
+isWebExtension
 }
 )
 ;
