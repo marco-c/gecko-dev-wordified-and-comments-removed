@@ -725,10 +725,6 @@ context
 compact
 &
 &
-!
-saveToPocketCard
-&
-&
 (
 <
 div
@@ -761,6 +757,11 @@ engagement
 =
 {
 engagement
+}
+saveToPocketCard
+=
+{
+saveToPocketCard
 }
 /
 >
