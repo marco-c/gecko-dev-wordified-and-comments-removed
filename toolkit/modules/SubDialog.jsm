@@ -931,6 +931,15 @@ close
 (
 )
 ;
+this
+.
+close
+(
+this
+.
+_closingEvent
+)
+;
 }
 close
 (
