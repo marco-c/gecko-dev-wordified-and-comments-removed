@@ -2168,6 +2168,14 @@ nsIHandlerInfo
 alwaysAsk
 &
 &
+this
+.
+_isMIMEInfo
+(
+handlerInfo
+)
+&
+&
 Services
 .
 prefs
