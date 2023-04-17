@@ -72,6 +72,11 @@ mVideoDecoder
 ;
 #
 endif
+bool
+mIsProtectionQueryEnabled
+=
+false
+;
 protected
 :
 cdm
@@ -402,6 +407,11 @@ Destroy
 (
 )
 override
+;
+void
+EnableProtectionQuery
+(
+)
 ;
 }
 ;
