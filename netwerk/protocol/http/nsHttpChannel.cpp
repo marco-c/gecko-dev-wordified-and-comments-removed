@@ -32069,10 +32069,8 @@ if
 LoadHTTPSSVCTelemetryReported
 (
 )
-)
-{
-if
-(
+&
+&
 stage
 !
 =
@@ -32091,7 +32089,6 @@ DNS_HTTPSSVC_RECORD_RECEIVING_STAGE
 stage
 )
 ;
-}
 }
 if
 (
