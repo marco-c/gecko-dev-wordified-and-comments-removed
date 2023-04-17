@@ -385,11 +385,6 @@ arm_neon_optional
 :
 1
 '
-moz_webrtc_mediacodec
-'
-:
-0
-'
 multi_monitor_screenshare
 %
 '
@@ -459,9 +454,6 @@ gtest_target_type
 '
 executable
 '
-moz_webrtc_mediacodec
-=
-1
 android_toolchain
 =
 CONFIG
