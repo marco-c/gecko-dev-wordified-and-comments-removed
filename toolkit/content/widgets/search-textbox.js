@@ -411,6 +411,14 @@ search
 ;
 input
 .
+autocomplete
+=
+"
+off
+"
+;
+input
+.
 addEventListener
 (
 "
@@ -724,6 +732,8 @@ true
 ;
 this
 .
+inputField
+.
 removeAttribute
 (
 "
@@ -760,6 +770,8 @@ searchbutton
 )
 ;
 this
+.
+inputField
 .
 setAttribute
 (
