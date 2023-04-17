@@ -11719,14 +11719,15 @@ IsInTextNode
 {
 if
 (
-nsIContent
+const
+Element
 *
-currentBlock
+editableBlockElementOrInlineEditingHost
 =
 HTMLEditUtils
 :
 :
-GetInclusiveAncestorEditableBlockElementOrInlineEditingHost
+GetInclusiveAncestorElement
 (
 *
 newCaretPosition
@@ -11734,6 +11735,10 @@ newCaretPosition
 ContainerAsContent
 (
 )
+HTMLEditUtils
+:
+:
+ClosestEditableBlockElementOrInlineEditingHost
 )
 )
 {
@@ -11756,7 +11761,7 @@ GetPreviousLeafContentOrPreviousBlockElement
 (
 newCaretPosition
 *
-currentBlock
+editableBlockElementOrInlineEditingHost
 {
 LeafNodeType
 :
@@ -11834,7 +11839,7 @@ GetNextLeafContentOrNextBlockElement
 (
 newCaretPosition
 *
-currentBlock
+editableBlockElementOrInlineEditingHost
 {
 LeafNodeType
 :
