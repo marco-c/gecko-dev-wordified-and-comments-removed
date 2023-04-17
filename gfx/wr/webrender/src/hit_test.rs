@@ -68,6 +68,15 @@ use
 crate
 :
 :
+scene_builder_thread
+:
+:
+Interners
+;
+use
+crate
+:
+:
 spatial_tree
 :
 :
@@ -343,6 +352,10 @@ ClipNode
 spatial_node_index
 :
 SpatialNodeIndex
+interners
+:
+&
+Interners
 )
 -
 >
@@ -819,6 +832,10 @@ clip_store
 :
 &
 ClipStore
+interners
+:
+&
+Interners
 )
 {
 let
@@ -907,6 +924,7 @@ mut
 self
 .
 seen_clips
+interners
 )
 ;
 }
@@ -924,6 +942,7 @@ mut
 self
 .
 seen_clips
+interners
 )
 ;
 let
@@ -2049,6 +2068,10 @@ FastHashSet
 <
 ClipId
 >
+interners
+:
+&
+Interners
 )
 {
 if
@@ -2138,6 +2161,7 @@ clip
 clip
 .
 spatial_node_index
+interners
 )
 )
 ;
@@ -2158,6 +2182,7 @@ parent
 clip_store
 clip_nodes
 seen_clips
+interners
 )
 ;
 }
