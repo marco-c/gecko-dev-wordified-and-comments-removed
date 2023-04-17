@@ -1413,6 +1413,13 @@ len
 struct
 Cmsg
 {
+#
+[
+allow
+(
+dead_code
+)
+]
 hdr
 :
 libc
