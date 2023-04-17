@@ -142,13 +142,15 @@ const
 highlightedNode
 =
 await
-getNodeFrontInFrame
+getNodeFrontInFrames
 (
-selector
+[
 "
 #
 frame
 "
+selector
+]
 inspector
 )
 ;

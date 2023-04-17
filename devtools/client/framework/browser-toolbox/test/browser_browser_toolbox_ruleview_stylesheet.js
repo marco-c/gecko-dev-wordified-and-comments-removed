@@ -113,6 +113,7 @@ importFunctions
 (
 {
 getNodeFront
+getNodeFrontInFrames
 getRuleViewLinkByIndex
 selectNode
 selectNodeInFrames
