@@ -1396,9 +1396,10 @@ filename
 :
 "
 +
+str
+(
 e
-.
-message
+)
 )
 .
 handle_now
@@ -1439,8 +1440,6 @@ format
 (
 filename
 e
-.
-message
 BASE_DOC_URL
 )
         

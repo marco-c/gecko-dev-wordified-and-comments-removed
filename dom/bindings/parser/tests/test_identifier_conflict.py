@@ -76,9 +76,10 @@ Name
 collision
 "
 in
+str
+(
 e
-.
-message
+)
 "
 Should
 have
@@ -171,9 +172,10 @@ Name
 collision
 "
 in
+str
+(
 e
-.
-message
+)
 "
 Should
 have
@@ -267,9 +269,10 @@ unresolvable
 definitions
 "
 in
+str
+(
 e
-.
-message
+)
             
 "
 Should

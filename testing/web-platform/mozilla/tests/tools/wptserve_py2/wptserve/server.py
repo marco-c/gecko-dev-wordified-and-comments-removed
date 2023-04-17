@@ -750,7 +750,7 @@ to
 s
 "
 %
-                             
+                                  
 (
 request_handler
 .
@@ -1847,9 +1847,10 @@ set_error
 e
 .
 code
+str
+(
 e
-.
-message
+)
 )
             
 except
@@ -2620,6 +2621,7 @@ stream_id
 ]
 =
 (
+                                
 self
 .
 start_stream_thread
@@ -3098,6 +3100,7 @@ os
 .
 fdopen
 (
+            
 wfile
 '
 wb
@@ -3908,9 +3911,10 @@ set_error
 e
 .
 code
+str
+(
 e
-.
-message
+)
 )
             
 response

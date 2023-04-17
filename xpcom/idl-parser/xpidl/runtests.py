@@ -1390,9 +1390,10 @@ self
 .
 assertEqual
 (
+str
+(
 e
-.
-message
+)
 "
 Interface
 '
@@ -1543,9 +1544,10 @@ self
 assertEqual
 (
                 
+str
+(
 e
-.
-message
+)
                 
 "
 interface
@@ -1700,9 +1702,10 @@ self
 assertEqual
 (
                 
+str
+(
 e
-.
-message
+)
                 
 (
                     
@@ -1871,9 +1874,10 @@ self
 assertEqual
 (
                 
+str
+(
 e
-.
-message
+)
                 
 (
                     
@@ -2034,9 +2038,10 @@ self
 .
 assertEqual
 (
+str
+(
 e
-.
-message
+)
 (
 "
 cannot
