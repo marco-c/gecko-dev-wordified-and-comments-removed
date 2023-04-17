@@ -543,6 +543,7 @@ part
 =
 "
 arrowscrollbox
+content
 "
 exportparts
 =
@@ -708,6 +709,10 @@ menulist
 )
 arrowscrollbox
 {
+-
+-
+panel
+-
 padding
 :
 0
