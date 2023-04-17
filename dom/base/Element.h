@@ -1629,8 +1629,10 @@ nullptr
 void
 SetCustomElementData
 (
+UniquePtr
+<
 CustomElementData
-*
+>
 aData
 )
 ;

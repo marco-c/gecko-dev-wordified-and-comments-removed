@@ -48085,8 +48085,10 @@ aResult
 >
 SetCustomElementData
 (
-new
+MakeUnique
+<
 CustomElementData
+>
 (
 typeAtom
 )
@@ -48333,8 +48335,10 @@ aResult
 >
 SetCustomElementData
 (
-new
+MakeUnique
+<
 CustomElementData
+>
 (
 definition
 -
@@ -48457,8 +48461,10 @@ aResult
 >
 SetCustomElementData
 (
-new
+MakeUnique
+<
 CustomElementData
+>
 (
 typeAtom
 )

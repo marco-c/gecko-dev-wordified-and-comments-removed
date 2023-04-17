@@ -16564,8 +16564,10 @@ aDst
 >
 SetCustomElementData
 (
-new
+MakeUnique
+<
 CustomElementData
+>
 (
 typeAtom
 )
@@ -21010,8 +21012,10 @@ Element
 :
 SetCustomElementData
 (
+UniquePtr
+<
 CustomElementData
-*
+>
 aData
 )
 {
@@ -21164,7 +21168,13 @@ slots
 >
 mCustomElementData
 =
+std
+:
+:
+move
+(
 aData
+)
 ;
 }
 CustomElementDefinition

@@ -552,7 +552,7 @@ ShadowRoot
 >
 mShadowRoot
 ;
-RefPtr
+UniquePtr
 <
 CustomElementData
 >
