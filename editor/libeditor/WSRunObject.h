@@ -1519,10 +1519,12 @@ static
 EditorDOMRange
 GetRangesForDeletingAtomicContent
 (
-const
-HTMLEditor
-&
-aHTMLEditor
+dom
+:
+:
+Element
+*
+aEditingHost
 const
 nsIContent
 &
