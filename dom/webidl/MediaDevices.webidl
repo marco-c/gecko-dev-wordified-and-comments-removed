@@ -184,7 +184,6 @@ getSupportedConstraints
 ;
 [
 Throws
-NeedsCallerType
 UseCounter
 ]
 Promise
