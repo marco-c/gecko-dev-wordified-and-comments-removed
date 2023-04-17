@@ -180,6 +180,8 @@ import
 absolute_import
 import
 os
+import
+tempfile
 from
 arsenic
 import
@@ -252,13 +254,25 @@ ProfileCreator
 def
 __init__
 (
+        
 self
+        
 scenario
+        
 customization
+        
 archive
+        
 changelog
+        
 force_new
+        
 env
+        
+skip_logs
+=
+False
+    
 )
 :
         
@@ -300,11 +314,40 @@ force_new
         
 self
 .
+skip_logs
+=
+skip_logs
+        
+self
+.
 customization_data
 =
 get_customization
 (
 customization
+)
+        
+self
+.
+tmp_dir
+=
+None
+        
+if
+not
+self
+.
+archive
+:
+            
+self
+.
+tmp_dir
+=
+tempfile
+.
+mkdtemp
+(
 )
     
 def
@@ -359,6 +402,10 @@ join
 self
 .
 archive
+or
+self
+.
+tmp_dir
 filename
 )
     
@@ -527,6 +574,13 @@ headless
 finally
 :
                 
+if
+not
+self
+.
+skip_logs
+:
+                    
 self
 .
 env

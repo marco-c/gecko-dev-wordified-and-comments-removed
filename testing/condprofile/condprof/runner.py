@@ -98,6 +98,10 @@ strict
 force_new
         
 visible
+        
+skip_logs
+=
+False
     
 )
 :
@@ -143,6 +147,19 @@ self
 visible
 =
 visible
+        
+self
+.
+skip_logs
+=
+skip_logs
+        
+self
+.
+env
+=
+{
+}
         
 if
 firefox
@@ -484,6 +501,12 @@ os
 environ
 )
         
+if
+self
+.
+archive
+:
+            
 self
 .
 archive
@@ -498,7 +521,7 @@ self
 .
 archive
 )
-        
+            
 logger
 .
 info
@@ -515,7 +538,7 @@ self
 .
 archive
 )
-        
+            
 if
 not
 os
@@ -529,7 +552,7 @@ self
 archive
 )
 :
-            
+                
 os
 .
 makedirs
@@ -596,15 +619,22 @@ self
 geckodriver
 )
         
-try
+if
+not
+self
+.
+skip_logs
 :
             
+try
+:
+                
 if
 self
 .
 android
 :
-                
+                    
 plat
 =
 "
@@ -616,11 +646,11 @@ s
 "
 %
 (
-                    
+                        
 self
 .
 device_name
-                    
+                        
 self
 .
 firefox
@@ -638,18 +668,18 @@ mozilla
 -
 1
 ]
-                
+                    
 )
-            
+                
 else
 :
-                
+                    
 plat
 =
 get_current_platform
 (
 )
-            
+                
 self
 .
 changelog
@@ -658,7 +688,7 @@ read_changelog
 (
 plat
 )
-            
+                
 logger
 .
 info
@@ -671,11 +701,11 @@ from
 TaskCluster
 "
 )
-        
+            
 except
 ProfileNotFoundError
 :
-            
+                
 logger
 .
 info
@@ -693,7 +723,7 @@ one
 .
 "
 )
-            
+                
 self
 .
 changelog
@@ -704,6 +734,16 @@ self
 .
 archive
 )
+        
+else
+:
+            
+self
+.
+changelog
+=
+[
+]
     
 def
 _create_env
@@ -827,6 +867,8 @@ ProfileCreator
 "
 "
         
+self
+.
 env
 =
 self
@@ -841,17 +883,30 @@ ProfileCreator
 (
             
 scenario
+            
 customization
+            
 self
 .
 archive
+            
 self
 .
 changelog
+            
 self
 .
 force_new
+            
+self
+.
 env
+            
+skip_logs
+=
+self
+.
+skip_logs
         
 )
 .

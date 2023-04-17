@@ -120,6 +120,27 @@ include_package_data
 =
 True
     
+data_files
+=
+[
+(
+"
+condprof
+"
+[
+"
+condprof
+/
+customization
+/
+default
+.
+json
+"
+]
+)
+]
+    
 zip_safe
 =
 False

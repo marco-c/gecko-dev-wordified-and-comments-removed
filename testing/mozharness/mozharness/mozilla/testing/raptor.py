@@ -2545,6 +2545,8 @@ None
 help
 "
 :
+(
+                        
 "
 Name
 of
@@ -2553,7 +2555,25 @@ profile
 to
 use
 .
+Prefix
+with
+artifact
+:
 "
+                        
+"
+if
+we
+should
+obtain
+the
+profile
+from
+CI
+.
+"
+                    
+)
                 
 }
             

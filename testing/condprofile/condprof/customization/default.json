@@ -17,6 +17,17 @@ prefs
 "
 :
 {
+"
+gfx
+.
+webrender
+.
+precache
+-
+shaders
+"
+:
+true
 }
 "
 scenario
