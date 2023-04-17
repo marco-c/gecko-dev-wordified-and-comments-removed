@@ -352,6 +352,10 @@ mIsXSLT
 (
 false
 )
+mInCompilingList
+(
+false
+)
 mIsCanceled
 (
 false

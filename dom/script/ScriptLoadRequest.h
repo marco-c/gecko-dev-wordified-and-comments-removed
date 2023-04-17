@@ -1229,6 +1229,9 @@ bool
 mIsXSLT
 ;
 bool
+mInCompilingList
+;
+bool
 mIsCanceled
 ;
 bool
