@@ -169,7 +169,12 @@ popup_border
 "
 :
 "
-transparent
+rgb
+(
+240
+240
+244
+)
 "
 "
 popup_highlight
