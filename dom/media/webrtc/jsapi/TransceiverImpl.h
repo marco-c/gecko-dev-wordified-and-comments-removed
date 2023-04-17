@@ -872,12 +872,6 @@ mConduit
 ;
 RefPtr
 <
-MediaConduitController
->
-mConduitController
-;
-RefPtr
-<
 MediaPipelineTransmit
 >
 mTransmitPipeline
