@@ -912,6 +912,12 @@ disable_altivec
 :
 0
 '
+disable_crypto_vsx
+%
+'
+:
+0
+'
 disable_arm32_neon
 %
 '
