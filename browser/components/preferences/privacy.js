@@ -3963,7 +3963,7 @@ setEventListener
 telemetryDataDeletionLearnMore
 "
 "
-command
+click
 "
 gPrivacyPane
 .
