@@ -40,6 +40,9 @@ ICStub
 class
 ICCacheIRStub
 ;
+class
+ICFallbackStub
+;
 enum
 SpewContext
 :
@@ -107,6 +110,9 @@ script
 ICEntry
 *
 entry
+ICFallbackStub
+*
+fallback
 jsbytecode
 *
 pc
@@ -145,6 +151,9 @@ cx
 ICEntry
 *
 entry
+ICFallbackStub
+*
+fallback
 HandleScript
 script
 SpewContext
