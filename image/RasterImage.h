@@ -393,11 +393,11 @@ NotifyProgress
 Progress
 aProgress
 const
-UnorientedIntRect
+OrientedIntRect
 &
 aInvalidRect
 =
-UnorientedIntRect
+OrientedIntRect
 (
 )
 const
@@ -443,7 +443,7 @@ aTelemetry
 Progress
 aProgress
 const
-UnorientedIntRect
+OrientedIntRect
 &
 aInvalidRect
 const
@@ -562,7 +562,7 @@ LookupResult
 LookupFrame
 (
 const
-UnorientedIntSize
+OrientedIntSize
 &
 aSize
 uint32_t
@@ -577,7 +577,7 @@ LookupResult
 LookupFrameInternal
 (
 const
-UnorientedIntSize
+OrientedIntSize
 &
 aSize
 uint32_t
@@ -599,7 +599,7 @@ gfxContext
 *
 aContext
 const
-UnorientedIntSize
+OrientedIntSize
 &
 aSize
 const
@@ -691,7 +691,7 @@ void
 Decode
 (
 const
-UnorientedIntSize
+OrientedIntSize
 &
 aSize
 uint32_t
@@ -728,7 +728,7 @@ void
 RecoverFromInvalidFrames
 (
 const
-UnorientedIntSize
+OrientedIntSize
 &
 aSize
 uint32_t
@@ -975,7 +975,7 @@ bool
 CanDownscaleDuringDecode
 (
 const
-UnorientedIntSize
+OrientedIntSize
 &
 aSize
 uint32_t
@@ -1042,7 +1042,7 @@ LookupResult
 RequestDecodeForSizeInternal
 (
 const
-UnorientedIntSize
+OrientedIntSize
 &
 aSize
 uint32_t

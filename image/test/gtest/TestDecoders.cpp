@@ -369,7 +369,7 @@ FLAG_IS_ANIMATED
 )
 )
 ;
-IntSize
+OrientedIntSize
 size
 =
 aDecoder
@@ -1691,7 +1691,7 @@ TEST_CASE_HAS_ERROR
 return
 ;
 }
-IntSize
+OrientedIntSize
 size
 =
 aDecoder

@@ -448,7 +448,7 @@ metadataProgress
 FLAG_SIZE_AVAILABLE
 )
 ;
-IntSize
+OrientedIntSize
 metadataSize
 =
 decoder
@@ -677,7 +677,7 @@ metadataProgress
 fullProgress
 )
 ;
-IntSize
+OrientedIntSize
 fullSize
 =
 decoder

@@ -312,10 +312,15 @@ mSize
 .
 emplace
 (
-nsIntSize
+aOrientation
+.
+ToOriented
+(
+UnorientedIntSize
 (
 aWidth
 aHeight
+)
 )
 )
 ;
@@ -332,7 +337,7 @@ aResolution
 ;
 }
 }
-nsIntSize
+OrientedIntSize
 GetSize
 (
 )
@@ -361,7 +366,7 @@ void
 AddNativeSize
 (
 const
-nsIntSize
+OrientedIntSize
 &
 aSize
 )
@@ -387,7 +392,7 @@ mResolution
 const
 nsTArray
 <
-nsIntSize
+OrientedIntSize
 >
 &
 GetNativeSizes
@@ -491,7 +496,7 @@ mFirstFrameRefreshArea
 ;
 Maybe
 <
-nsIntSize
+OrientedIntSize
 >
 mSize
 ;
@@ -503,7 +508,7 @@ mOrientation
 ;
 CopyableTArray
 <
-nsIntSize
+OrientedIntSize
 >
 mNativeSizes
 ;

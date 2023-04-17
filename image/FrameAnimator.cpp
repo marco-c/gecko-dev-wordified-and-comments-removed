@@ -1715,10 +1715,10 @@ MatchType
 EXACT
 )
 {
-UnorientedIntRect
+OrientedIntRect
 rect
 =
-UnorientedIntRect
+OrientedIntRect
 :
 :
 FromUnknownRect

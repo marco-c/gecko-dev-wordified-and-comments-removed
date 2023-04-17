@@ -166,7 +166,7 @@ nsresult
 CreateFrame
 (
 const
-nsIntRect
+OrientedIntRect
 &
 aFrameRect
 )
@@ -186,10 +186,7 @@ aData
 size_t
 aLength
 const
-gfx
-:
-:
-IntRect
+OrientedIntRect
 &
 aFrameRect
 )
@@ -235,10 +232,7 @@ gfx
 SurfaceFormat
 mFormat
 ;
-gfx
-:
-:
-IntRect
+OrientedIntRect
 mFrameRect
 ;
 int

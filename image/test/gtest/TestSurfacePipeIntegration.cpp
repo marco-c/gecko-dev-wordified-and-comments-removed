@@ -194,7 +194,7 @@ isSome
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 0
@@ -209,7 +209,7 @@ mInputSpaceRect
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 0
@@ -354,7 +354,7 @@ isSome
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 0
@@ -369,7 +369,7 @@ mInputSpaceRect
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 0

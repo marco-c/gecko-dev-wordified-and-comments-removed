@@ -59,6 +59,13 @@ h
 #
 include
 "
+Orientation
+.
+h
+"
+#
+include
+"
 SurfaceFlags
 .
 h
@@ -257,10 +264,7 @@ aIsMetadataDecode
 const
 Maybe
 <
-gfx
-:
-:
-IntSize
+OrientedIntSize
 >
 &
 aExpectedSize

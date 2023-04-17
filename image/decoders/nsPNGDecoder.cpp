@@ -609,7 +609,7 @@ nsPNGDecoder
 GetTransparencyType
 (
 const
-IntRect
+OrientedIntRect
 &
 aFrameRect
 )
@@ -897,6 +897,10 @@ AnimationParams
 aFrameInfo
 .
 mFrameRect
+.
+ToUnknownRect
+(
+)
 FrameTimeout
 :
 :
@@ -2386,7 +2390,7 @@ filter_type
 )
 ;
 const
-IntRect
+OrientedIntRect
 frameRect
 (
 0
@@ -4133,7 +4137,7 @@ mFrameIsHidden
 false
 ;
 const
-IntRect
+OrientedIntRect
 frameRect
 (
 png_get_next_frame_x_offset

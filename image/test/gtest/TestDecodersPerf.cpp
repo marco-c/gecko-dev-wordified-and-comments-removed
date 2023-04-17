@@ -258,7 +258,7 @@ FLAG_IS_ANIMATED
 )
 )
 ;
-IntSize
+OrientedIntSize
 size
 =
 aDecoder

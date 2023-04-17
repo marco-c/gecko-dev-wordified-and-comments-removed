@@ -143,10 +143,7 @@ aImage
 struct
 FrameInfo
 {
-gfx
-:
-:
-IntRect
+OrientedIntRect
 mFrameRect
 ;
 bool
@@ -214,10 +211,7 @@ TransparencyType
 GetTransparencyType
 (
 const
-gfx
-:
-:
-IntRect
+OrientedIntRect
 &
 aFrameRect
 )
@@ -317,7 +311,7 @@ mPNG
 png_infop
 mInfo
 ;
-nsIntRect
+OrientedIntRect
 mFrameRect
 ;
 uint8_t
