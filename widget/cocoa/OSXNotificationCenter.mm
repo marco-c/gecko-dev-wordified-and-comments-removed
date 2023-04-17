@@ -1026,6 +1026,12 @@ alert
 NS_ERROR_FAILURE
 )
 ;
+nsTArray
+<
+uint32_t
+>
+vibrate
+;
 nsresult
 rv
 =
@@ -1046,6 +1052,8 @@ aData
 aPrincipal
 aInPrivateBrowsing
 aRequireInteraction
+false
+vibrate
 )
 ;
 NS_ENSURE_SUCCESS

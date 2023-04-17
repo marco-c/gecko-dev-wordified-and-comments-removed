@@ -246,6 +246,15 @@ mPrincipal
 bool
 mInPrivateBrowsing
 ;
+bool
+mSilent
+;
+nsTArray
+<
+uint32_t
+>
+mVibrate
+;
 }
 ;
 }
