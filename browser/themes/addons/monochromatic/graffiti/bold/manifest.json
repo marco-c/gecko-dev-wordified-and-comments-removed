@@ -336,6 +336,13 @@ rgba
 )
 "
 "
+toolbar_top_separator
+"
+:
+"
+transparent
+"
+"
 toolbar_bottom_separator
 "
 :
