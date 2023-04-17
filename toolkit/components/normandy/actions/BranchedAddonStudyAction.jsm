@@ -874,7 +874,7 @@ BaseAction
 .
 suitability
 .
-CAPABILITES_MISMATCH
+CAPABILITIES_MISMATCH
 :
 {
 if

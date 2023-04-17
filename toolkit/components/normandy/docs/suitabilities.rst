@@ -328,7 +328,8 @@ other
 temporary
 problems
 .
-CAPABILITES_MISMATCH
+CAPABILITIES_MISMATCH
+~
 ~
 ~
 ~

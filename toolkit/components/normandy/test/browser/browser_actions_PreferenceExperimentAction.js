@@ -2477,7 +2477,7 @@ BaseAction
 .
 suitability
 .
-CAPABILITES_MISMATCH
+CAPABILITIES_MISMATCH
 isTemporaryError
 :
 false
@@ -3260,7 +3260,7 @@ BaseAction
 .
 suitability
 .
-CAPABILITES_MISMATCH
+CAPABILITIES_MISMATCH
 BaseAction
 .
 suitability

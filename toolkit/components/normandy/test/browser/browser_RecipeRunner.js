@@ -1096,7 +1096,7 @@ BaseAction
 .
 suitability
 .
-CAPABILITES_MISMATCH
+CAPABILITIES_MISMATCH
 "
 Recipes
 with
@@ -2069,7 +2069,7 @@ BaseAction
 .
 suitability
 .
-CAPABILITES_MISMATCH
+CAPABILITIES_MISMATCH
 ]
 ]
 "
