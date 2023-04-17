@@ -63,6 +63,15 @@ unsigned
 long
 producerId
 ;
+[
+infallible
+]
+readonly
+attribute
+unsigned
+long
+providerId
+;
 const
 long
 STATUS_NONE

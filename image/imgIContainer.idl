@@ -578,6 +578,15 @@ unsigned
 long
 producerId
 ;
+[
+infallible
+]
+readonly
+attribute
+unsigned
+long
+providerId
+;
 const
 unsigned
 long
