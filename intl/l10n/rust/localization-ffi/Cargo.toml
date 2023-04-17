@@ -51,13 +51,6 @@ futures
 .
 3
 "
-libc
-=
-"
-0
-.
-2
-"
 nserror
 =
 {

@@ -552,6 +552,12 @@ let
 env
 =
 GeckoEnvironment
+:
+:
+new
+(
+None
+)
 ;
 let
 mut
@@ -919,6 +925,12 @@ let
 env
 =
 GeckoEnvironment
+:
+:
+new
+(
+None
+)
 ;
 let
 mut
