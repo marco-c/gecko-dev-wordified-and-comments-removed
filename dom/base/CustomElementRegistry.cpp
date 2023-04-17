@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsHTMLTags
 .
 h
