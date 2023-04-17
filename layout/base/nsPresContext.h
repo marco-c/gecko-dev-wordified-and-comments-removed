@@ -3331,6 +3331,8 @@ public
 void
 ForceReflowForFontInfoUpdate
 (
+bool
+aNeedsReframe
 )
 ;
 bool

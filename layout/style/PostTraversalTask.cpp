@@ -254,6 +254,7 @@ pc
 >
 ForceReflowForFontInfoUpdate
 (
+false
 )
 ;
 }

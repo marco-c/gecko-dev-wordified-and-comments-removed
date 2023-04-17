@@ -2657,11 +2657,6 @@ GetPrefsAndStartLoader
 )
 ;
 void
-ForceGlobalReflow
-(
-)
-;
-void
 RebuildLocalFonts
 (
 bool
