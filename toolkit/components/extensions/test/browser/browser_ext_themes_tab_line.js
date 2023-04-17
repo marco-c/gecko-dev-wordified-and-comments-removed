@@ -126,7 +126,11 @@ let
 property
 =
 "
-boxShadow
+border
+-
+right
+-
+color
 "
 ;
 let
