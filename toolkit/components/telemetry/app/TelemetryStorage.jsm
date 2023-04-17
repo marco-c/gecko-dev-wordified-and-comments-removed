@@ -10,6 +10,9 @@ EXPORTED_SYMBOLS
 "
 TelemetryStorage
 "
+"
+Policy
+"
 ]
 ;
 const

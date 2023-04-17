@@ -10,6 +10,9 @@ EXPORTED_SYMBOLS
 "
 TelemetryEventPing
 "
+"
+Policy
+"
 ]
 ;
 const

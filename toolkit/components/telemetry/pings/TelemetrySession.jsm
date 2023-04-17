@@ -901,6 +901,9 @@ EXPORTED_SYMBOLS
 "
 TelemetrySession
 "
+"
+Policy
+"
 ]
 ;
 var

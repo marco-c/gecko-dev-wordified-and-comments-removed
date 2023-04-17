@@ -10,6 +10,9 @@ EXPORTED_SYMBOLS
 "
 TelemetryEnvironment
 "
+"
+Policy
+"
 ]
 ;
 const
