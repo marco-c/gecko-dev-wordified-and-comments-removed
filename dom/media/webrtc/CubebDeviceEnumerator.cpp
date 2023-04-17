@@ -1269,8 +1269,17 @@ devices
 IsEmpty
 (
 )
+|
+|
+manualInvalidation
 )
 {
+devices
+.
+Clear
+(
+)
+;
 RefPtr
 <
 AudioDeviceInfo
