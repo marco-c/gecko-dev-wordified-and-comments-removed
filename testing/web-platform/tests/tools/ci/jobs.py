@@ -260,17 +260,9 @@ sh
 "
                      
 "
-infrastructure
-/
-"
-                     
-"
-html
-/
-"
-                     
-"
-mimesniff
+conformance
+-
+checkers
 /
 "
                      
@@ -280,6 +272,21 @@ css
 css
 -
 ui
+/
+"
+                     
+"
+html
+/
+"
+                     
+"
+infrastructure
+/
+"
+                     
+"
+mimesniff
 /
 "
                      

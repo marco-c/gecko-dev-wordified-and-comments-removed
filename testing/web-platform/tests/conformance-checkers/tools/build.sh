@@ -27,9 +27,7 @@ in
 py
 ;
 do
-python2
-.
-7
+python3
 "
 script
 "
