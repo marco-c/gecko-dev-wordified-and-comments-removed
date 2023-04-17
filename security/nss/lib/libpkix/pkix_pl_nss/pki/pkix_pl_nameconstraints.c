@@ -2185,6 +2185,10 @@ arena
 PR_FALSE
 )
 ;
+arena
+=
+NULL
+;
 }
 goto
 cleanup

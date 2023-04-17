@@ -1969,12 +1969,6 @@ file
 "
 )
 ;
-PORT_FreeArena
-(
-modArena
-PR_FALSE
-)
-;
 goto
 loser
 ;

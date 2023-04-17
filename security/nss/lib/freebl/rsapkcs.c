@@ -472,9 +472,10 @@ padLen
 RSA_BLOCK_MIN_PAD_LEN
 )
 {
-PORT_Free
+PORT_ZFree
 (
 block
+modulusLen
 )
 ;
 return
@@ -546,9 +547,10 @@ padLen
 RSA_BLOCK_MIN_PAD_LEN
 )
 {
-PORT_Free
+PORT_ZFree
 (
 block
+modulusLen
 )
 ;
 return
@@ -704,9 +706,10 @@ rv
 SECSuccess
 )
 {
-PORT_Free
+PORT_ZFree
 (
 block
+modulusLen
 )
 ;
 PORT_SetError
@@ -752,9 +755,10 @@ PORT_Assert
 0
 )
 ;
-PORT_Free
+PORT_ZFree
 (
 block
+modulusLen
 )
 ;
 return

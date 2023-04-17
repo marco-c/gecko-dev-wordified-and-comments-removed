@@ -2072,7 +2072,13 @@ mod
 >
 isThreadSafe
 =
-PR_TRUE
+!
+PR_GetEnvSecure
+(
+"
+NSS_FORCE_TOKEN_LOCK
+"
+)
 ;
 rv
 =

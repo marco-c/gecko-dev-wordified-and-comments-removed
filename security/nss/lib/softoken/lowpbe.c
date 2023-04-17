@@ -828,7 +828,7 @@ pre_hash
 NULL
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 pre_hash
 PR_TRUE
@@ -853,7 +853,7 @@ NULL
 )
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 hash
 PR_TRUE
@@ -1442,7 +1442,7 @@ hash
 =
 newHash
 )
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 hash
 PR_TRUE
@@ -2015,7 +2015,7 @@ rv
 SECSuccess
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 result
 PR_TRUE
@@ -3046,7 +3046,7 @@ item
 salt
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 item
 -
@@ -5577,6 +5577,17 @@ break
 }
 loser
 :
+PORT_Memset
+(
+&
+pbev2_param
+0
+sizeof
+(
+pbev2_param
+)
+)
+;
 if
 (
 rv
@@ -5638,7 +5649,7 @@ pbe_param
 -
 >
 poolp
-PR_FALSE
+PR_TRUE
 )
 ;
 }
@@ -5787,7 +5798,7 @@ dummy
 NULL
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dup_src
 PR_TRUE
@@ -6019,7 +6030,7 @@ dest
 NULL
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dest
 PR_TRUE
@@ -6039,7 +6050,7 @@ dup_src
 NULL
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dup_src
 PR_TRUE
@@ -6194,7 +6205,7 @@ dummy
 NULL
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dup_src
 PR_TRUE
@@ -6425,7 +6436,7 @@ dest
 NULL
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dest
 PR_TRUE
@@ -6445,7 +6456,7 @@ dup_src
 NULL
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dup_src
 PR_TRUE
@@ -6600,7 +6611,7 @@ dummy
 NULL
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dup_src
 PR_TRUE
@@ -6829,7 +6840,7 @@ dest
 NULL
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dest
 PR_TRUE
@@ -6849,7 +6860,7 @@ dup_src
 NULL
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dup_src
 PR_TRUE
@@ -6994,7 +7005,7 @@ v
 NULL
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dup_src
 PR_TRUE
@@ -7266,7 +7277,7 @@ NULL
 )
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dest
 PR_TRUE
@@ -7285,7 +7296,7 @@ dup_src
 NULL
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dup_src
 PR_TRUE
@@ -7506,7 +7517,7 @@ dest
 )
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 dest
 PR_TRUE

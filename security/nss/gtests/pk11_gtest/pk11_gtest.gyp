@@ -274,6 +274,11 @@ pk11_seed_cbc_unittest
 cc
 '
 '
+pk11_signature_test
+.
+cc
+'
+'
 <
 (
 DEPTH

@@ -80,6 +80,14 @@ bytes
 numBytes
 )
 ;
+PORT_Memset
+(
+bytes
+0
+sizeof
+bytes
+)
+;
 }
 size_t
 RNG_SystemRNG

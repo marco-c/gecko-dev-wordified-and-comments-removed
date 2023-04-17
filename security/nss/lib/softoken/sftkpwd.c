@@ -907,7 +907,7 @@ localArena
 PORT_FreeArena
 (
 localArena
-PR_FALSE
+PR_TRUE
 )
 ;
 }
@@ -1555,9 +1555,9 @@ NULL
 signature
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
-cipher
+signature
 PR_TRUE
 )
 ;
@@ -1822,7 +1822,7 @@ if
 key
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 key
 PR_TRUE
@@ -1964,6 +1964,14 @@ SECFailure
 }
 loser
 :
+PORT_Memset
+(
+signData
+0
+sizeof
+signData
+)
+;
 if
 (
 signValue
@@ -1991,7 +1999,7 @@ PORT_FreeArena
 signValue
 .
 arena
-PR_FALSE
+PR_TRUE
 )
 ;
 }
@@ -2322,6 +2330,14 @@ loser
 }
 loser
 :
+PORT_Memset
+(
+signData
+0
+sizeof
+signData
+)
+;
 if
 (
 param
@@ -3834,7 +3850,7 @@ if
 result
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 result
 PR_TRUE
@@ -4736,7 +4752,7 @@ loser
 PORT_FreeArena
 (
 arena
-PR_FALSE
+PR_TRUE
 )
 ;
 return

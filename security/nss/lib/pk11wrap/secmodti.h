@@ -350,6 +350,9 @@ PK11SymKey
 *
 key
 ;
+CK_OBJECT_HANDLE
+objectID
+;
 PK11SlotInfo
 *
 slot
@@ -366,7 +369,7 @@ ownSession
 ;
 void
 *
-cx
+pwArg
 ;
 void
 *
