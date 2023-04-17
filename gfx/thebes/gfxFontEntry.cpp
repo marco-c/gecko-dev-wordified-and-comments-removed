@@ -9853,6 +9853,14 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
+|
+|
+gfxPlatformFontList
+:
+:
+IsInitFontListThread
+(
+)
 )
 ;
 }

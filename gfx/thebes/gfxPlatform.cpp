@@ -5537,17 +5537,6 @@ CheckVariationFontSupport
 if
 (
 !
-StaticPrefs
-:
-:
-gfx_font_list_lazy_init_enabled_AtStartup
-(
-)
-)
-{
-if
-(
-!
 gPlatform
 -
 >
@@ -5566,7 +5555,6 @@ gfxPlatformFontList
 "
 )
 ;
-}
 }
 gPlatform
 -

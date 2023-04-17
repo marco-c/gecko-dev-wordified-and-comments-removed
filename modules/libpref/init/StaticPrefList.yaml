@@ -28593,10 +28593,8 @@ gfx
 font
 -
 list
-.
-lazy
 -
-init
+omt
 .
 enabled
 type
