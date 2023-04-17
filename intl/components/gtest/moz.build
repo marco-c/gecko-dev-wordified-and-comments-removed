@@ -12,6 +12,11 @@ TestNumberFormat
 .
 cpp
 "
+"
+TestPluralRules
+.
+cpp
+"
 ]
 FINAL_LIBRARY
 =
