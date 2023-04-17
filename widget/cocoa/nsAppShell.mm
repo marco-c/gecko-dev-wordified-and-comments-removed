@@ -2059,6 +2059,14 @@ mSkippedNativeCallback
 true
 ;
 }
+if
+(
+self
+-
+>
+mTerminated
+)
+{
 [
 NSApp
 postEvent
@@ -2102,6 +2110,7 @@ atStart
 NO
 ]
 ;
+}
 if
 (
 self
