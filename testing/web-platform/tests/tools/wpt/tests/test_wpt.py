@@ -694,10 +694,18 @@ dev
 -
 yes
 "
+                       
+"
+-
+-
+enable
+-
+swiftshader
+"
+                       
 "
 chrome
 "
-                       
 "
 /
 dom
@@ -1185,6 +1193,14 @@ dev
 "
                        
 "
+-
+-
+enable
+-
+swiftshader
+"
+                       
+"
 chrome
 "
 "
@@ -1269,10 +1285,18 @@ channel
 "
 dev
 "
+                       
+"
+-
+-
+enable
+-
+swiftshader
+"
+                       
 "
 chrome
 "
-                       
 "
 /
 non
@@ -1492,6 +1516,14 @@ dev
 "
                        
 "
+-
+-
+enable
+-
+swiftshader
+"
+                       
+"
 chrome
 "
 failing_test
@@ -1561,6 +1593,15 @@ channel
 "
 dev
 "
+                       
+"
+-
+-
+enable
+-
+swiftshader
+"
+                       
 "
 chrome
 "
@@ -1800,6 +1841,14 @@ dev
 "
                        
 "
+-
+-
+enable
+-
+swiftshader
+"
+                       
+"
 chrome
 "
 unstable_test
@@ -1875,6 +1924,14 @@ channel
 "
 "
 dev
+"
+                       
+"
+-
+-
+enable
+-
+swiftshader
 "
                        
 "

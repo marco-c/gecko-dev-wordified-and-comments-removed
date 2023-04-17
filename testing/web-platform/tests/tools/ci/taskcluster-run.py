@@ -156,19 +156,9 @@ args
 "
 -
 -
-binary
+enable
 -
-arg
-=
--
--
-use
--
-gl
-=
 swiftshader
--
-webgl
 "
 ]
         
