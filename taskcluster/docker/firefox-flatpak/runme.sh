@@ -1560,6 +1560,12 @@ pulseaudio
 -
 socket
 =
+wayland
+\
+-
+-
+socket
+=
 x11
 \
 -
