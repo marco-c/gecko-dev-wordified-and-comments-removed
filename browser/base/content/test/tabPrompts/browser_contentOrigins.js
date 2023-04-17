@@ -376,6 +376,9 @@ stringify
 raw
 :
 longerDomain
+shouldUseMaskFade
+:
+true
 }
 )
 )
