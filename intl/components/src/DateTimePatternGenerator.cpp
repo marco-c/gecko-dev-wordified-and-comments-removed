@@ -31,6 +31,10 @@ mGenerator
 udatpg_close
 (
 mGenerator
+.
+GetMut
+(
+)
 )
 ;
 }
@@ -116,6 +120,10 @@ mGenerator
 other
 .
 mGenerator
+.
+GetMut
+(
+)
 )
 {
 other
@@ -162,6 +170,10 @@ mGenerator
 udatpg_close
 (
 mGenerator
+.
+GetMut
+(
+)
 )
 ;
 }
@@ -170,6 +182,10 @@ mGenerator
 other
 .
 mGenerator
+.
+GetMut
+(
+)
 ;
 other
 .
