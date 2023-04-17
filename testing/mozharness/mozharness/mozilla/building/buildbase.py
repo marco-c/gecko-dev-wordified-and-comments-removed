@@ -6128,7 +6128,7 @@ run_command
             
 upload_cmd
             
-env
+partial_env
 =
 self
 .
