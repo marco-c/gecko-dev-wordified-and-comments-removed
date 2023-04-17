@@ -3110,6 +3110,15 @@ window
 tile
 )
 ;
+wl_surface_set_buffer_transform
+(
+tile
+-
+>
+surface
+WL_OUTPUT_TRANSFORM_FLIPPED_180
+)
+;
 wl_subsurface_set_position
 (
 tile
