@@ -167,6 +167,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -898,7 +905,10 @@ false
 ;
 if
 (
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 challenge
 "
@@ -1315,7 +1325,10 @@ certArray
 ;
 if
 (
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 challenge
 "

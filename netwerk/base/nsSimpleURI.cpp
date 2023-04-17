@@ -34,6 +34,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -2449,7 +2456,10 @@ A
 *
 o_Equals
 =
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 this_scheme
 i_Scheme

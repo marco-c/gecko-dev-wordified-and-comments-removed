@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -222,6 +229,9 @@ i
 if
 (
 !
+nsCRT
+:
+:
 strncasecmp
 (
 strength

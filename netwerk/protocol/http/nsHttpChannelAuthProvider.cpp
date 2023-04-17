@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -4930,7 +4937,10 @@ char
 *
 p
 =
-PL_strcasestr
+nsCRT
+:
+:
+strcasestr
 (
 challenge
 "

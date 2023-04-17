@@ -446,7 +446,10 @@ entry
 key
 ;
 return
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 reinterpret_cast
 <
@@ -1371,7 +1374,10 @@ input
 {
 if
 (
-PL_strncasecmp
+nsCRT
+:
+:
+strncasecmp
 (
 input
 token
@@ -4497,7 +4503,10 @@ network_http_sanitize_headers_in_logs
 &
 &
 (
-PL_strcasestr
+nsCRT
+:
+:
+strcasestr
 (
 buf
 .
@@ -4511,7 +4520,10 @@ authorization
 )
 |
 |
-PL_strcasestr
+nsCRT
+:
+:
+strcasestr
 (
 buf
 .

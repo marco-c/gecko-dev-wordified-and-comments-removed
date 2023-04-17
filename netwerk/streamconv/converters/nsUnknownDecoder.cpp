@@ -2261,7 +2261,10 @@ _tagstr
 &
 \
 (
-PL_strncasecmp
+nsCRT
+:
+:
+strncasecmp
 (
 str
 _tagstr
@@ -2278,7 +2281,10 @@ _tagstr
 |
 |
 \
-PL_strncasecmp
+nsCRT
+:
+:
+strncasecmp
 (
 str
 _tagstr

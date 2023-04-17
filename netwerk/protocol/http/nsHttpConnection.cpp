@@ -146,6 +146,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsPreloadedStream
 .
 h
@@ -6356,7 +6363,10 @@ char
 *
 cp
 =
-PL_strcasestr
+nsCRT
+:
+:
+strcasestr
 (
 keepAlive
 .
@@ -6402,7 +6412,10 @@ mDefaultTimeoutFactor
 ;
 cp
 =
-PL_strcasestr
+nsCRT
+:
+:
+strcasestr
 (
 keepAlive
 .

@@ -3488,7 +3488,10 @@ charset
 ;
 if
 (
-PL_strncasecmp
+nsCRT
+:
+:
+strncasecmp
 (
 paramName
 charsetStr
