@@ -18,6 +18,11 @@ InternalHitTester
 cpp
 "
 "
+MockHitTester
+.
+cpp
+"
+"
 TestBasic
 .
 cpp

@@ -186,6 +186,15 @@ Comparator
 aComparator
 )
 {
+RecursiveMutexAutoLock
+lock
+(
+mTreeManager
+-
+>
+mTreeLock
+)
+;
 return
 mTreeManager
 -
