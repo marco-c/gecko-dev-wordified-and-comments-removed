@@ -327,11 +327,6 @@ isSimpleAssignment
 )
 |
 |
-isFieldInit
-(
-)
-|
-|
 isCompoundAssignment
 (
 )
