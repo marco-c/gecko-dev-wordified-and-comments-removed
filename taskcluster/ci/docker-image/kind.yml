@@ -910,12 +910,6 @@ parent
 debian10
 -
 base
-packages
-:
--
-deb10
--
-valgrind
 fetch
 :
 symbol
