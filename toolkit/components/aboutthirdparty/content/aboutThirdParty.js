@@ -1840,6 +1840,12 @@ fetchData
 (
 )
 ;
+window
+.
+fetchDataDone
+=
+true
+;
 hasData
 =
 data
