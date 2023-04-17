@@ -455,7 +455,7 @@ UrlbarPrefs
 get
 (
 "
-resultBuckets
+resultGroups
 "
 )
 ;

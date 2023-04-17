@@ -798,7 +798,7 @@ TAIL_SUGGESTION
 add_task
 (
 function
-showSearchSuggestionsFirst_resultBuckets
+showSearchSuggestionsFirst_resultGroups
 (
 )
 {
@@ -838,7 +838,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 "
 "
@@ -846,7 +846,7 @@ resultBuckets
 "
 "
 "
-resultBuckets
+resultGroups
 is
 empty
 initially
@@ -878,13 +878,13 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 "
 "
 )
 "
-resultBuckets
+resultGroups
 should
 exist
 after
@@ -912,7 +912,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 )
 )
@@ -927,7 +927,7 @@ false
 }
 )
 "
-resultBuckets
+resultGroups
 is
 updated
 after
@@ -967,7 +967,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 )
 )
@@ -982,7 +982,7 @@ true
 }
 )
 "
-resultBuckets
+resultGroups
 is
 updated
 after
@@ -1022,7 +1022,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 )
 )
@@ -1037,7 +1037,7 @@ false
 }
 )
 "
-resultBuckets
+resultGroups
 is
 updated
 after
@@ -1082,7 +1082,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 )
 )
@@ -1097,7 +1097,7 @@ true
 }
 )
 "
-resultBuckets
+resultGroups
 is
 updated
 immediately
@@ -1150,7 +1150,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 )
 )
@@ -1165,7 +1165,7 @@ true
 }
 )
 "
-resultBuckets
+resultGroups
 remains
 correct
 after
@@ -1554,7 +1554,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 )
 )
@@ -1569,7 +1569,7 @@ expectedValue
 }
 )
 "
-resultBuckets
+resultGroups
 should
 be
 updated

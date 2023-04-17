@@ -2345,7 +2345,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 JSON
 .
@@ -2425,7 +2425,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 )
 ;

@@ -11,7 +11,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 ;
 const
@@ -4612,7 +4612,7 @@ async
 info
 (
 Running
-resultBuckest
+resultGroups
 test
 :
 {

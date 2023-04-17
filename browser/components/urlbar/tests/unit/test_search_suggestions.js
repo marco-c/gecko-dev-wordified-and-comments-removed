@@ -119,7 +119,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 ;
 const

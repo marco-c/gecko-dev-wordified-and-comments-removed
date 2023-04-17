@@ -271,7 +271,7 @@ false
 ]
 [
 "
-resultBuckets
+resultGroups
 "
 "
 "
@@ -1186,7 +1186,7 @@ this
 set
 (
 "
-resultBuckets
+resultGroups
 "
 JSON
 .
@@ -1366,7 +1366,7 @@ this
 set
 (
 "
-resultBuckets
+resultGroups
 "
 JSON
 .
@@ -1590,7 +1590,7 @@ val
 }
 case
 "
-resultBuckets
+resultGroups
 "
 :
 try

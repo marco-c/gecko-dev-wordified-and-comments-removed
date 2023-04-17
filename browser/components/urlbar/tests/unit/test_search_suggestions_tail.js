@@ -322,7 +322,7 @@ UrlbarPrefs
 clear
 (
 "
-resultBuckets
+resultGroups
 "
 )
 ;

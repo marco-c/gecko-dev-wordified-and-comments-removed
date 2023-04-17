@@ -5632,7 +5632,7 @@ UrlbarPrefs
 get
 (
 "
-resultBuckets
+resultGroups
 "
 )
 this
