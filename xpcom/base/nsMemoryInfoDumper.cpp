@@ -1430,6 +1430,10 @@ nsJSContext
 :
 CycleCollectNow
 (
+CCReason
+:
+:
+DUMP_HEAP
 logger
 )
 ;
@@ -1539,6 +1543,10 @@ nsJSContext
 :
 CycleCollectNow
 (
+CCReason
+:
+:
+DUMP_HEAP
 logger
 )
 ;

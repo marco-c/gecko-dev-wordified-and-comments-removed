@@ -3512,6 +3512,8 @@ XPCJSRuntime
 :
 BeginCycleCollectionCallback
 (
+CCReason
+aReason
 )
 {
 nsJSContext
@@ -3519,6 +3521,7 @@ nsJSContext
 :
 BeginCycleCollectionCallback
 (
+aReason
 )
 ;
 nsCOMPtr
@@ -3860,6 +3863,10 @@ nsJSContext
 :
 CycleCollectNow
 (
+CCReason
+:
+:
+GC_WAITING
 nullptr
 )
 ;

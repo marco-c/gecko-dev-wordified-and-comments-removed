@@ -270,6 +270,10 @@ nsJSContext
 :
 CycleCollectNow
 (
+CCReason
+:
+:
+API
 )
 ;
 }
