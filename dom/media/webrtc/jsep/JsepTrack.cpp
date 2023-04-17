@@ -2479,10 +2479,7 @@ codec
 >
 mDefaultPt
 =
-clone
--
->
-mDefaultPt
+fmt
 ;
 if
 (
