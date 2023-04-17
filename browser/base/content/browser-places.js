@@ -1569,9 +1569,6 @@ return
 if
 (
 didChangeFolder
-&
-&
-gBookmarksToolbar2h2020
 )
 {
 Services
@@ -7323,15 +7320,6 @@ updateEmptyToolbarMessage
 (
 )
 ;
-if
-(
-!
-gBookmarksToolbar2h2020
-)
-{
-return
-;
-}
 let
 isVisible
 =
@@ -9917,10 +9905,6 @@ PlacesToolbar
 if
 (
 !
-gBookmarksToolbar2h2020
-|
-|
-!
 toolbar
 ?
 .
@@ -10084,10 +10068,6 @@ unfiledGuid
 ;
 if
 (
-!
-gBookmarksToolbar2h2020
-|
-|
 numberOfBookmarks
 <
 1
