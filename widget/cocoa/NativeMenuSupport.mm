@@ -161,6 +161,14 @@ StaticPrefs
 widget_macos_native_context_menus
 (
 )
+&
+&
+StaticPrefs
+:
+:
+browser_proton_enabled
+(
+)
 ;
 }
 }

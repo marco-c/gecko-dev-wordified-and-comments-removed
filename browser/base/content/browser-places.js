@@ -3909,6 +3909,9 @@ false
 }
 if
 (
+gProtonPlacesTooltip
+&
+&
 tooltipNode
 &
 &
