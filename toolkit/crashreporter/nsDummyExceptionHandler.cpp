@@ -789,8 +789,10 @@ const
 char
 *
 aCrashPipe
-uintptr_t
+FileHandle
 aCrashTimeAnnotationFile
+ProcessId
+aParentPid
 )
 {
 return
@@ -924,7 +926,7 @@ MOZ_WIDGET_ANDROID
 void
 SetNotificationPipeForChild
 (
-int
+FileHandle
 childCrashFd
 )
 {
@@ -932,7 +934,7 @@ childCrashFd
 void
 SetCrashAnnotationPipeForChild
 (
-int
+FileHandle
 childCrashAnnotationFd
 )
 {
