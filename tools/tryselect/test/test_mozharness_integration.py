@@ -192,12 +192,6 @@ plain
 "
 reftest
 -
-gpu
-"
-            
-"
-reftest
--
 no
 -
 accel
