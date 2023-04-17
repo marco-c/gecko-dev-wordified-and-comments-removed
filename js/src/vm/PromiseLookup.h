@@ -61,12 +61,11 @@ promiseConstructorShape_
 MOZ_INIT_OUTSIDE_CTOR
 Shape
 *
-promiseSpeciesShape_
+promiseProtoShape_
 ;
 MOZ_INIT_OUTSIDE_CTOR
-Shape
-*
-promiseProtoShape_
+uint32_t
+promiseSpeciesGetterSlot_
 ;
 MOZ_INIT_OUTSIDE_CTOR
 uint32_t
@@ -210,9 +209,8 @@ cx
 NativeObject
 *
 holder
-Shape
-*
-shape
+uint32_t
+getterSlot
 JSNative
 native
 )

@@ -649,9 +649,8 @@ Shape
 arrayConstructorShape_
 ;
 MOZ_INIT_OUTSIDE_CTOR
-Shape
-*
-arraySpeciesShape_
+uint32_t
+arraySpeciesGetterSlot_
 ;
 MOZ_INIT_OUTSIDE_CTOR
 JSFunction

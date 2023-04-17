@@ -365,9 +365,8 @@ cx
 NativeObject
 *
 holder
-Shape
-*
-shape
+uint32_t
+getterSlot
 JSNative
 native
 )
@@ -381,7 +380,7 @@ holder
 >
 getGetter
 (
-shape
+getterSlot
 )
 ;
 return
@@ -675,6 +674,16 @@ speciesShape
 return
 ;
 }
+uint32_t
+speciesGetterSlot
+=
+speciesShape
+-
+>
+slot
+(
+)
+;
 if
 (
 !
@@ -682,7 +691,7 @@ isAccessorPropertyNative
 (
 cx
 promiseCtor
-speciesShape
+speciesGetterSlot
 Promise_static_species
 )
 )
@@ -810,10 +819,6 @@ lastProperty
 (
 )
 ;
-promiseSpeciesShape_
-=
-speciesShape
-;
 promiseProtoShape_
 =
 promiseProto
@@ -822,6 +827,10 @@ promiseProto
 lastProperty
 (
 )
+;
+promiseSpeciesGetterSlot_
+=
+speciesGetterSlot
 ;
 promiseResolveSlot_
 =
@@ -1017,7 +1026,7 @@ isAccessorPropertyNative
 (
 cx
 promiseCtor
-promiseSpeciesShape_
+promiseSpeciesGetterSlot_
 Promise_static_species
 )
 )
