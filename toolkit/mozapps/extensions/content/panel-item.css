@@ -188,8 +188,6 @@ display
 block
 ;
 font
--
-size
 :
 inherit
 ;
@@ -232,7 +230,7 @@ position
 x
 :
 right
-14px
+8px
 ;
 }
 :
