@@ -1113,12 +1113,6 @@ IntID
 :
 GTKCSDAvailable
 :
-case
-IntID
-:
-:
-GTKCSDHideTitlebarByDefault
-:
 aResult
 =
 0

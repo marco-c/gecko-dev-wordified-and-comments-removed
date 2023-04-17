@@ -260,6 +260,16 @@ return
 600
 ;
 }
+virtual
+bool
+GetDefaultDrawInTitlebar
+(
+)
+{
+return
+true
+;
+}
 static
 bool
 LookAndFeelFontToStyle

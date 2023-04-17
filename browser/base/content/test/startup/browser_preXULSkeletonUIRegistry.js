@@ -466,7 +466,7 @@ Services
 .
 prefs
 .
-setBoolPref
+setIntPref
 (
 "
 browser
@@ -475,7 +475,7 @@ tabs
 .
 drawInTitlebar
 "
-false
+0
 )
 ;
 enabled

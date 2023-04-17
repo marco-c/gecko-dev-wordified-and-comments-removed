@@ -390,11 +390,11 @@ drawInTitlebarValues
 =
 [
 [
-true
+1
 BUTTONS_MAY_VISIBLE
 ]
 [
-false
+0
 BUTTONS_NEVER_VISIBLE
 ]
 ]
@@ -463,7 +463,7 @@ Services
 .
 prefs
 .
-setBoolPref
+setIntPref
 (
 "
 browser

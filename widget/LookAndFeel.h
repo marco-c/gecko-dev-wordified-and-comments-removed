@@ -200,7 +200,6 @@ ScrollbarFadeDuration
 ContextMenuOffsetVertical
 ContextMenuOffsetHorizontal
 GTKCSDAvailable
-GTKCSDHideTitlebarByDefault
 GTKCSDMinimizeButton
 GTKCSDMaximizeButton
 GTKCSDCloseButton
@@ -638,6 +637,12 @@ GetPasswordCharacter
 static
 bool
 GetEchoPassword
+(
+)
+;
+static
+bool
+DrawInTitlebar
 (
 )
 ;

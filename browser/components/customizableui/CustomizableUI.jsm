@@ -15205,10 +15205,9 @@ Services
 .
 prefs
 .
-getBoolPref
+getIntPref
 (
 kPrefDrawInTitlebar
-false
 )
 ;
 gUIStateBeforeReset
@@ -15589,7 +15588,7 @@ Services
 .
 prefs
 .
-setBoolPref
+setIntPref
 (
 kPrefDrawInTitlebar
 drawInTitlebar
