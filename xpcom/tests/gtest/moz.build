@@ -108,6 +108,11 @@ TestInputStreamLengthHelper
 cpp
 "
 "
+TestJSHolderMap
+.
+cpp
+"
+"
 TestLogCommandLineHandler
 .
 cpp

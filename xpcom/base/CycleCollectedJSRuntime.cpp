@@ -2258,7 +2258,6 @@ Done
 ;
 }
 }
-inline
 JSHolderMap
 :
 :
@@ -2629,7 +2628,6 @@ aEntry
 lastEntry
 ;
 }
-inline
 bool
 JSHolderMap
 :
@@ -2651,7 +2649,6 @@ aHolder
 )
 ;
 }
-inline
 nsScriptObjectTracer
 *
 JSHolderMap
@@ -2714,7 +2711,6 @@ entry
 mTracer
 ;
 }
-inline
 nsScriptObjectTracer
 *
 JSHolderMap
@@ -2801,7 +2797,6 @@ return
 tracer
 ;
 }
-inline
 void
 JSHolderMap
 :
