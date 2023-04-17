@@ -225,6 +225,11 @@ uint32_t
 aOffsetInTextNode
 )
 ;
+void
+RemoveInvalidElements
+(
+)
+;
 class
 Selection
 final
@@ -914,11 +919,6 @@ SelectionIsValid
 (
 )
 const
-;
-nsresult
-RemoveInvalidOffsetEntries
-(
-)
 ;
 }
 ;
