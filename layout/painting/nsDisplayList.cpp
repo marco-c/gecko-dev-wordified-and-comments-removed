@@ -41215,12 +41215,11 @@ Transform
 animationsId
 }
 ;
-Maybe
-<
 nsDisplayTransform
 *
->
 deferredTransformItem
+=
+nullptr
 ;
 if
 (
@@ -41235,10 +41234,7 @@ ChildrenHavePerspective
 {
 deferredTransformItem
 =
-Some
-(
 this
-)
 ;
 }
 bool

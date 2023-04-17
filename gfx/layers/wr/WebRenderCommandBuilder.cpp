@@ -10176,13 +10176,10 @@ GetDeferredTransformItem
 )
 &
 &
-(
-*
 aSc
 .
 GetDeferredTransformItem
 (
-)
 )
 -
 >
@@ -10401,11 +10398,8 @@ size
 -
 layerCountBeforeRecursing
 ;
-Maybe
-<
 nsDisplayTransform
 *
->
 deferred
 =
 aSc
@@ -10437,10 +10431,7 @@ auto
 *
 asr
 =
-(
-*
 deferred
-)
 -
 >
 GetActiveScrolledRoot
@@ -10464,10 +10455,7 @@ if
 deferred
 &
 &
-(
-*
 deferred
-)
 -
 >
 GetActiveScrolledRoot
@@ -10505,10 +10493,7 @@ GetScrollData
 )
 item
 descendants
-(
-*
 deferred
-)
 -
 >
 GetActiveScrolledRoot
@@ -10547,7 +10532,6 @@ mManager
 GetScrollData
 (
 )
-*
 deferred
 descendants
 stopAtAsr

@@ -162,13 +162,8 @@ return
 mSnappingSurfaceTransform
 ;
 }
-const
-Maybe
-<
 nsDisplayTransform
 *
->
-&
 GetDeferredTransformItem
 (
 )
@@ -275,11 +270,8 @@ SpaceAndClipChainHelper
 >
 mSpaceAndClipChainHelper
 ;
-Maybe
-<
 nsDisplayTransform
 *
->
 mDeferredTransformItem
 ;
 Maybe

@@ -1806,12 +1806,11 @@ mTransformPtr
 =
 nullptr
 ;
-Maybe
-<
 nsDisplayTransform
 *
->
 mDeferredTransformItem
+=
+nullptr
 ;
 bool
 mAnimated
