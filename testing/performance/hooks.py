@@ -117,25 +117,6 @@ limit
     
 (
 "
-firefox
-.
-preference
-"
-"
-gfx
-.
-webrender
-.
-force
--
-disabled
-:
-true
-"
-)
-    
-(
-"
 pageCompleteWaitTime
 "
 "
