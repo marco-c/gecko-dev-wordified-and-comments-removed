@@ -5385,6 +5385,16 @@ Initialize
 (
 )
 {
+if
+(
+StaticPrefs
+:
+:
+javascript_options_external_thread_pool_DoNotUseDirectly
+(
+)
+)
+{
 size_t
 threadCount
 =
@@ -5402,6 +5412,7 @@ DispatchOffThreadTask
 threadCount
 )
 ;
+}
 nsresult
 rv
 =
