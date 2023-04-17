@@ -793,6 +793,16 @@ LegacyNullToEmptyString
 DOMString
 innerText
 ;
+[
+CEReactions
+]
+attribute
+[
+LegacyNullToEmptyString
+]
+DOMString
+outerText
+;
 ElementInternals
 attachInternals
 (

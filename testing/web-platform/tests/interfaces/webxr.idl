@@ -905,6 +905,11 @@ attribute
 boolean
 ignoreDepthValues
 ;
+attribute
+float
+?
+fixedFoveation
+;
 [
 SameObject
 ]
