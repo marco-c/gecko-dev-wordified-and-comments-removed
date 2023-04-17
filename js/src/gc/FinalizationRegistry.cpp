@@ -551,8 +551,9 @@ FinalizationRegistryObject
 (
 )
 .
-sweep
+traceWeak
 (
+trc
 )
 ;
 }
@@ -615,8 +616,9 @@ value
 ;
 records
 .
-sweep
+traceWeak
 (
+trc
 )
 ;
 records

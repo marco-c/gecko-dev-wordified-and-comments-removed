@@ -244,9 +244,12 @@ HandleFinalizationRecordObject
 record
 )
 ;
-void
-sweep
+bool
+traceWeak
 (
+JSTracer
+*
+trc
 )
 ;
 private
@@ -348,8 +351,11 @@ registrations
 const
 ;
 void
-sweep
+traceWeak
 (
+JSTracer
+*
+trc
 )
 ;
 static
