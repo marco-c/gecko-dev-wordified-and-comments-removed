@@ -1438,6 +1438,9 @@ sqlite
 "
 _ns
 ;
+#
+ifdef
+DEBUG
 constexpr
 auto
 kJournalFileName
@@ -1452,6 +1455,8 @@ journal
 "
 _ns
 ;
+#
+endif
 constexpr
 auto
 kUsageFileName
