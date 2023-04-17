@@ -2531,7 +2531,7 @@ histogram_type
 linear
 telemetry_mirror
 :
-TELEMETRY_TEST_LINEAR
+TELEMETRY_TEST_MIRROR_FOR_CUSTOM
 a_string_list
 :
 type
@@ -2926,9 +2926,6 @@ no_lint
 :
 -
 COMMON_PREFIX
-telemetry_mirror
-:
-TelemetryTest_MirrorWithExtra_Object1
 no_extra_event
 :
 type

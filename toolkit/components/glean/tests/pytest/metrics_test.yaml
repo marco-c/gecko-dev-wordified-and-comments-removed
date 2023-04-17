@@ -741,7 +741,7 @@ example
 com
 telemetry_mirror
 :
-SOME_KEYED_BOOL_SCALAR
+YET_ANOTHER_KEYED_BOOL_SCALAR
 timespan_metric
 :
 type
