@@ -2403,6 +2403,9 @@ reportDeduplications_
 bool
 reportPretenuring_
 ;
+size_t
+reportPretenuringThreshold_
+;
 mutable
 JS
 :
