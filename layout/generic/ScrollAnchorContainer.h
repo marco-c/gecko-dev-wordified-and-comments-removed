@@ -224,6 +224,11 @@ mDisabled
 1
 ;
 bool
+mAnchorMightBeSubOptimal
+:
+1
+;
+bool
 mAnchorNodeIsDirty
 :
 1
