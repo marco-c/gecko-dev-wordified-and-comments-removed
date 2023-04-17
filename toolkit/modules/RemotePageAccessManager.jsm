@@ -1382,7 +1382,7 @@ spec
 =
 aPrincipal
 .
-prepath
+prePath
 +
 aPrincipal
 .

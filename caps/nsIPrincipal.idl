@@ -476,7 +476,7 @@ host
 readonly
 attribute
 ACString
-prepath
+prePath
 ;
 readonly
 attribute

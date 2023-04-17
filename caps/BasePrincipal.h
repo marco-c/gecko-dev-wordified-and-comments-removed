@@ -649,7 +649,7 @@ aRes
 override
 ;
 NS_IMETHOD
-GetPrepath
+GetPrePath
 (
 nsACString
 &

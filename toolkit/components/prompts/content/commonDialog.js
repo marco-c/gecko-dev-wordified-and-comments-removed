@@ -359,7 +359,7 @@ raw
 =
 promptPrincipal
 .
-prepath
+prePath
 ;
 }
 }
