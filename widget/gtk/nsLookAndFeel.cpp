@@ -5289,7 +5289,8 @@ Adwaita
 :
 "
 Adwaita
-Dark
+-
+dark
 "
 nullptr
 )
