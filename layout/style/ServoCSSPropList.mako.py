@@ -499,17 +499,6 @@ name
 !
 =
 "
-text
--
-decoration
-"
-and
-prop
-.
-name
-!
-=
-"
 mask
 "
     

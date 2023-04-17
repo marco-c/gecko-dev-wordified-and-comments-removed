@@ -625,6 +625,10 @@ dest
 )
 ?
 ;
+has_value
+=
+true
+;
 }
 %
 if
