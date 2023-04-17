@@ -90,6 +90,17 @@ NOT_LEAF
 Frame
 (
 "
+nsBulletFrame
+"
+"
+Bullet
+"
+LEAF
+)
+    
+Frame
+(
+"
 nsButtonBoxFrame
 "
 "

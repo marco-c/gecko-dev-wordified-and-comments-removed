@@ -1940,15 +1940,6 @@ TYPE_INTERNAL_FETCH_PRELOAD
 =
 =
 54
-&
-&
-nsIContentPolicy
-:
-:
-TYPE_UA_FONT
-=
-=
-55
 "
 nsContentPolicyType
 values

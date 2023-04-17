@@ -2901,7 +2901,7 @@ const
 char16_t
 kSquareCharacter
 =
-0x25aa
+0x25fe
 ;
 static
 const
