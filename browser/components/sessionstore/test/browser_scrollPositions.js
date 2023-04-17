@@ -220,6 +220,17 @@ test_scroll_background_tabs
 HTTPROOT
 )
 ;
+addNonCoopTask
+(
+"
+browser_scrollPositions_sample
+.
+html
+"
+test_scroll_background_tabs
+HTTPSROOT
+)
+;
 function
 getScrollPosition
 (
