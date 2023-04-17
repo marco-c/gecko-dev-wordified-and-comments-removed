@@ -11973,7 +11973,7 @@ AdjustSizeForViewportUnits
 if
 (
 !
-IsPaginated
+IsRootPaginatedDocument
 (
 )
 )
