@@ -1404,10 +1404,6 @@ SchemeIs
 https
 "
 )
-&
-&
-!
-enforceForHTTPSFirstMode
 )
 {
 return
