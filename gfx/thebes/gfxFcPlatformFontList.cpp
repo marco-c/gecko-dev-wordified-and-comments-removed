@@ -3525,6 +3525,11 @@ GetAspect
 aStyle
 .
 size
+*
+aEntry
+-
+>
+mSizeAdjust
 ;
 }
 static

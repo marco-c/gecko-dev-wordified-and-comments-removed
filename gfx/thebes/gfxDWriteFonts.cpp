@@ -751,9 +751,9 @@ else
 {
 mAdjustedSize
 =
-mStyle
-.
-size
+GetAdjustedSize
+(
+)
 ;
 }
 if

@@ -1882,6 +1882,13 @@ mLineGapOverride
 .
 0
 ;
+float
+mSizeAdjust
+=
+1
+.
+0
+;
 enum
 class
 RangeFlags

@@ -4429,7 +4429,8 @@ aFontStyle
 )
 mAdjustedSize
 (
-0
+-
+1
 .
 0
 )
@@ -20131,6 +20132,17 @@ size
 mStyle
 .
 sizeAdjust
+=
+=
+0
+.
+0
+|
+|
+mFontEntry
+-
+>
+mSizeAdjust
 =
 =
 0
