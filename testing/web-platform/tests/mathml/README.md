@@ -21,9 +21,7 @@ https
 :
 /
 /
-mathml
--
-refresh
+w3c
 .
 github
 .

@@ -972,9 +972,7 @@ https
 :
 /
 /
-mathml
--
-refresh
+w3c
 .
 github
 .
@@ -1007,9 +1005,7 @@ https
 :
 /
 /
-mathml
--
-refresh
+w3c
 .
 github
 .
@@ -1044,9 +1040,7 @@ https
 :
 /
 /
-mathml
--
-refresh
+w3c
 .
 github
 .
@@ -1083,9 +1077,7 @@ https
 :
 /
 /
-mathml
--
-refresh
+w3c
 .
 github
 .
@@ -1211,9 +1203,7 @@ https
 :
 /
 /
-mathml
--
-refresh
+w3c
 .
 github
 .
@@ -1250,9 +1240,7 @@ https
 :
 /
 /
-mathml
--
-refresh
+w3c
 .
 github
 .
