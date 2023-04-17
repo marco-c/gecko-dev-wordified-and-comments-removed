@@ -543,11 +543,6 @@ nsNativeBasicThemeAndroid
 cpp
 "
 "
-nsNativeThemeAndroid
-.
-cpp
-"
-"
 nsPrintSettingsServiceAndroid
 .
 cpp

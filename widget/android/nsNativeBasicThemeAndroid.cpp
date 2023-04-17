@@ -62,3 +62,17 @@ gInstance
 )
 ;
 }
+already_AddRefed
+<
+nsITheme
+>
+do_GetNativeThemeDoNotUseDirectly
+(
+)
+{
+return
+do_GetBasicNativeThemeDoNotUseDirectly
+(
+)
+;
+}
