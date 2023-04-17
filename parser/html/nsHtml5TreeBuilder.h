@@ -1067,7 +1067,7 @@ bool
 quirks
 ;
 bool
-isSrcdocDocument
+forceNoQuirks
 ;
 inline
 nsHtml5ContentCreatorFunction
@@ -2381,6 +2381,13 @@ setScriptingEnabled
 (
 bool
 scriptingEnabled
+)
+;
+void
+setForceNoQuirks
+(
+bool
+forceNoQuirks
 )
 ;
 void

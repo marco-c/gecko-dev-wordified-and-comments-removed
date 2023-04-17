@@ -136,7 +136,7 @@ quirks
 (
 false
 )
-isSrcdocDocument
+forceNoQuirks
 (
 false
 )
@@ -281,7 +281,7 @@ quirks
 (
 false
 )
-isSrcdocDocument
+forceNoQuirks
 (
 false
 )
@@ -7610,6 +7610,11 @@ builder
 "
 )
 ;
+setForceNoQuirks
+(
+true
+)
+;
 startTag
 (
 nsHtml5ElementName
@@ -8313,7 +8318,7 @@ mViewSource
 &
 &
 !
-isSrcdocDocument
+forceNoQuirks
 )
 {
 mViewSource
@@ -8345,7 +8350,7 @@ mViewSource
 &
 &
 !
-isSrcdocDocument
+forceNoQuirks
 )
 {
 mViewSource
@@ -8577,7 +8582,7 @@ mViewSource
 &
 &
 !
-isSrcdocDocument
+forceNoQuirks
 )
 {
 mViewSource
@@ -9021,7 +9026,7 @@ mViewSource
 &
 &
 !
-isSrcdocDocument
+forceNoQuirks
 )
 {
 mViewSource
