@@ -7,9 +7,3 @@ build
 common_virtualenv_packages
 .
 txt
-set
--
-variable
-MACH_VIRTUALENV
-=
-1

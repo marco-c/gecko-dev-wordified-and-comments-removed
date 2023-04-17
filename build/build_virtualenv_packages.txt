@@ -18,9 +18,3 @@ third_party
 python
 /
 glean_parser
-set
--
-variable
-MOZBUILD_VIRTUALENV
-=
-1
