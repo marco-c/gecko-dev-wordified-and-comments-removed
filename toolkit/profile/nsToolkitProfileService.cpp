@@ -8818,9 +8818,7 @@ return
 strcmp
 (
 snapName
-"
-firefox
-"
+MOZ_APP_NAME
 )
 =
 =
