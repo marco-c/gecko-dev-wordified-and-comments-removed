@@ -38,7 +38,7 @@ isReloadNavigation
 ;
 event
 .
-respondWith
+transitionWhile
 (
 new
 Response

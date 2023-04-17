@@ -185,7 +185,7 @@ e
 {
 e
 .
-respondWith
+transitionWhile
 (
 Promise
 .
@@ -196,7 +196,7 @@ resolve
 ;
 e
 .
-respondWith
+transitionWhile
 (
 new
 Promise
@@ -226,7 +226,7 @@ err
 ;
 e
 .
-respondWith
+transitionWhile
 (
 new
 Promise
@@ -295,8 +295,11 @@ caught_rejection
 }
 "
 AppHistoryNavigateEvent
-.
-respondWith
+'
+s
+transitionWhile
+(
+)
 is
 called
 multiple

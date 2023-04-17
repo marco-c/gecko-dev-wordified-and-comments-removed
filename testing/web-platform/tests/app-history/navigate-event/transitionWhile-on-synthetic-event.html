@@ -64,7 +64,7 @@ navigate
 "
 )
 .
-respondWith
+transitionWhile
 (
 Promise
 .
@@ -77,8 +77,11 @@ resolve
 }
 "
 AppHistoryNavigateEvent
-.
-respondWith
+'
+s
+transitionWhile
+(
+)
 throws
 if
 invoked
