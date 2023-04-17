@@ -593,6 +593,13 @@ data
 spanLength
 )
 ;
+aBuffer
+.
+written
+(
+spanLength
+)
+;
 }
 MOZ_TRY
 (
