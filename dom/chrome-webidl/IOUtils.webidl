@@ -527,7 +527,7 @@ by
 specifying
 the
 |
-tmpFile
+tmpPath
 |
 option
 .
@@ -562,7 +562,7 @@ which
 point
 the
 |
-tmpFile
+tmpPath
 |
 is
 moved
