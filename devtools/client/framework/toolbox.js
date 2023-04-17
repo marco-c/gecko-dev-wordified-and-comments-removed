@@ -15485,6 +15485,12 @@ _removeChromeEventHandlerEvents
 ;
 this
 .
+_store
+=
+null
+;
+this
+.
 emit
 (
 "
