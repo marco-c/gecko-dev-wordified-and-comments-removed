@@ -1307,6 +1307,15 @@ NS_ERROR_FILE_DEVICE_FAILURE
 break
 ;
 case
+ERROR_INVALID_NAME
+:
+rv
+=
+NS_ERROR_FILE_INVALID_PATH
+;
+break
+;
+case
 0
 :
 rv
