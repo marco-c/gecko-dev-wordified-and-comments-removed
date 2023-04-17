@@ -13,6 +13,15 @@ Atomics
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmMemory
+.
+h
+"
 namespace
 js
 {
@@ -103,6 +112,8 @@ cs
 bool
 IsHugeMemoryEnabled
 (
+IndexType
+t
 )
 ;
 [

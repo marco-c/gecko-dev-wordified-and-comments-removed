@@ -401,6 +401,7 @@ p
 =
 MapBufferMemory
 (
+wasmIndexType
 mappedSizeWithHeader
 accessibleSizeWithHeader
 )
@@ -971,6 +972,9 @@ SystemPageSize
 ;
 UnmapBufferMemory
 (
+wasmIndexType
+(
+)
 basePointer
 (
 )

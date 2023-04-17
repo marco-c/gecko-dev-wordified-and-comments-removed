@@ -1459,6 +1459,13 @@ OBSERVERS_SLOT
 ;
 static
 const
+unsigned
+ISHUGE_SLOT
+=
+2
+;
+static
+const
 JSClassOps
 classOps_
 ;
@@ -1618,7 +1625,7 @@ const
 unsigned
 RESERVED_SLOTS
 =
-2
+3
 ;
 static
 const
@@ -1677,6 +1684,8 @@ ArrayBufferObjectMaybeShared
 *
 >
 buffer
+bool
+isHuge
 HandleObject
 proto
 )
