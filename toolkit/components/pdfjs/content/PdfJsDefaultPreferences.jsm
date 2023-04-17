@@ -21,6 +21,11 @@ freeze
 (
 {
 "
+annotationMode
+"
+:
+2
+"
 cursorToolOnLoad
 "
 :
@@ -71,11 +76,6 @@ pdfBugEnabled
 "
 :
 false
-"
-renderInteractiveForms
-"
-:
-true
 "
 sidebarViewOnLoad
 "
