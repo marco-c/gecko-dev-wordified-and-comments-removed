@@ -423,12 +423,6 @@ KillShrinkingGCTimer
 ;
 static
 void
-LowMemoryGC
-(
-)
-;
-static
-void
 MaybePokeCC
 (
 )
