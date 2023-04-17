@@ -7943,7 +7943,7 @@ info
 childCount
 )
 .
-sumBy
+sumOf
 {
 countAutoFillNodes
 (

@@ -1565,7 +1565,7 @@ node
 .
 children
 .
-sumBy
+sumOf
 {
 countAutofillNodes
 (
