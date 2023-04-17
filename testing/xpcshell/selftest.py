@@ -2,7 +2,6 @@ from
 __future__
 import
 absolute_import
-print_function
 import
 mozinfo
 import
@@ -710,7 +709,6 @@ do_test_pending
 "
 PASSING_TEST_UNICODE
 =
-b
 "
 "
 "
@@ -2711,6 +2709,15 @@ self
 build_obj
 .
 topobjdir
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
         
 self
 .
@@ -3002,11 +3009,6 @@ writeFile
 self
 name
 contents
-mode
-=
-"
-w
-"
 )
 :
         
@@ -3062,7 +3064,9 @@ with
 open
 (
 fullpath
-mode
+"
+w
+"
 )
 as
 f
@@ -6048,11 +6052,6 @@ test_unicode_assert
 js
 "
 PASSING_TEST_UNICODE
-mode
-=
-"
-wb
-"
 )
         
 self
