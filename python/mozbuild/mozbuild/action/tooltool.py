@@ -158,12 +158,40 @@ PACKAGE
 HAWK_VER
 =
 1
+PY3
+=
+sys
+.
+version_info
+[
+0
+]
+=
+=
+3
+if
+PY3
+:
+    
+six_binary_type
+=
+bytes
+    
+unicode
+=
+(
+        
+str
+    
+)
+    
 import
 urllib
 .
 request
 as
 urllib2
+    
 from
 http
 .
@@ -171,6 +199,7 @@ client
 import
 HTTPSConnection
 HTTPConnection
+    
 from
 urllib
 .
@@ -178,12 +207,14 @@ parse
 import
 urlparse
 urljoin
+    
 from
 urllib
 .
 request
 import
 Request
+    
 from
 urllib
 .
@@ -191,6 +222,34 @@ error
 import
 HTTPError
 URLError
+else
+:
+    
+six_binary_type
+=
+str
+    
+import
+urllib2
+    
+from
+httplib
+import
+HTTPSConnection
+HTTPConnection
+    
+from
+urllib2
+import
+Request
+HTTPError
+URLError
+    
+from
+urlparse
+import
+urlparse
+urljoin
 log
 =
 logging
@@ -920,6 +979,10 @@ req
 )
 :
     
+if
+PY3
+:
+        
 return
 req
 .
@@ -927,6 +990,13 @@ data
 is
 not
 None
+    
+return
+req
+.
+has_data
+(
+)
 def
 get_hexdigest
 (
@@ -1262,7 +1332,7 @@ if
 isinstance
 (
 val
-bytes
+six_binary_type
 )
 :
         
@@ -1379,7 +1449,7 @@ if
 isinstance
 (
 part
-bytes
+six_binary_type
 )
 else
 part
@@ -1602,7 +1672,7 @@ if
 isinstance
 (
 val
-bytes
+six_binary_type
 )
 :
         
@@ -1625,12 +1695,19 @@ normalize_string
 (
     
 mac_type
+    
 timestamp
+    
 nonce
+    
 method
+    
 name
+    
 host
+    
 port
+    
 content_hash
 )
 :
@@ -1786,7 +1863,7 @@ not
 isinstance
 (
 normalized
-bytes
+six_binary_type
 )
 :
         
@@ -1806,7 +1883,7 @@ not
 isinstance
 (
 access_token
-bytes
+six_binary_type
 )
 :
         
@@ -1912,11 +1989,26 @@ req
 )
 :
         
+if
+PY3
+:
+            
 data
 =
 req
 .
 data
+        
+else
+:
+            
+data
+=
+req
+.
+get_data
+(
+)
         
 content_hash
 =
@@ -3138,18 +3230,23 @@ record_list
 required_fields
 =
 [
+            
 "
 filename
 "
+            
 "
 size
 "
+            
 "
 algorithm
 "
+            
 "
 digest
 "
+        
 ]
         
 if
@@ -4136,6 +4233,12 @@ manifest_file
 "
 r
 "
+if
+PY3
+else
+"
+rb
+"
 )
 as
 f
@@ -4254,6 +4357,7 @@ log
 .
 error
 (
+            
 "
 failed
 to
@@ -4269,14 +4373,19 @@ s
 %
 s
 "
+            
 %
 (
+                
 manifest_file
+                
 str
 (
 e
 )
+            
 )
+        
 )
         
 return
@@ -4413,6 +4522,7 @@ log
 .
 error
 (
+            
 "
 failed
 to
@@ -4428,14 +4538,19 @@ s
 %
 s
 "
+            
 %
 (
+                
 manifest_file
+                
 str
 (
 e
 )
+            
 )
+        
 )
         
 return
@@ -4833,6 +4948,10 @@ append
 old_fr
 )
     
+if
+PY3
+:
+        
 with
 open
 (
@@ -4846,7 +4965,36 @@ w
 as
 output
 :
+            
+new_manifest
+.
+dump
+(
+output
+fmt
+=
+"
+json
+"
+)
+    
+else
+:
         
+with
+open
+(
+manifest_file
+mode
+=
+"
+wb
+"
+)
+as
+output
+:
+            
 new_manifest
 .
 dump
@@ -5951,6 +6099,7 @@ log
 .
 error
 (
+            
 "
 failed
 to
@@ -5966,14 +6115,19 @@ s
 %
 s
 "
+            
 %
 (
+                
 manifest_file
+                
 str
 (
 e
 )
+            
 )
+        
 )
         
 return
@@ -7448,6 +7602,10 @@ dumps
 batch
 )
     
+if
+PY3
+:
+        
 data
 =
 data
@@ -8076,17 +8234,20 @@ set
 batch
 =
 {
+        
 "
 message
 "
 :
 message
+        
 "
 files
 "
 :
 {
 }
+    
 }
     
 for
@@ -8556,7 +8717,9 @@ auth_file
 data
 =
 [
+        
 {
+            
 "
 op
 "
@@ -8564,12 +8727,15 @@ op
 "
 set_visibility
 "
+            
 "
 visibility
 "
 :
 visibility
+        
 }
+    
 ]
     
 return
@@ -8593,7 +8759,9 @@ auth_file
 data
 =
 [
+        
 {
+            
 "
 op
 "
@@ -8601,7 +8769,9 @@ op
 "
 delete_instances
 "
+        
 }
+    
 ]
     
 return
@@ -9178,6 +9348,7 @@ get
 base_url
 "
 )
+            
 options
 .
 get
@@ -9186,6 +9357,7 @@ get
 digest
 "
 )
+            
 options
 .
 get
