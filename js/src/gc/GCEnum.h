@@ -430,6 +430,16 @@ ShapeCache
 \
 _
 (
+PropMapChildren
+)
+\
+_
+(
+PropMapTable
+)
+\
+_
+(
 ModuleBindingMap
 )
 \
