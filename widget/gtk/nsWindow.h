@@ -3045,6 +3045,7 @@ nsAutoCString
 GetFrameTag
 (
 )
+const
 ;
 nsCString
 GetPopupTypeName
