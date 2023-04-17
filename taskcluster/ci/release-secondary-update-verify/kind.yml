@@ -261,7 +261,7 @@ extra
 :
 chunks
 :
-12
+16
 jobs
 :
 firefox
@@ -418,3 +418,8 @@ build_platform
 macosx64
 -
 shippable
+extra
+:
+chunks
+:
+30
