@@ -224,13 +224,11 @@ createData
 sessionData
 =
 {
-browserId
+context
 :
 watcher
 .
 context
-.
-browserId
 connectionPrefix
 :
 watcher

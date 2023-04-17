@@ -495,7 +495,7 @@ const
 {
 targets
 connectionPrefix
-browserId
+context
 }
 =
 sessionData
@@ -517,7 +517,7 @@ shouldNotifyWindowGlobal
 this
 .
 manager
-browserId
+context
 )
 )
 {
@@ -564,6 +564,8 @@ browserId
 message
 .
 data
+.
+context
 ;
 if
 (
@@ -585,7 +587,11 @@ shouldNotifyWindowGlobal
 this
 .
 manager
-browserId
+message
+.
+data
+.
+context
 )
 )
 {
@@ -1832,7 +1838,7 @@ function
 shouldNotifyWindowGlobal
 (
 windowGlobal
-watchedBrowserId
+context
 )
 {
 const
@@ -1844,7 +1850,16 @@ browsingContext
 ;
 if
 (
-watchedBrowserId
+context
+.
+type
+=
+=
+"
+browser
+-
+element
+"
 &
 &
 browsingContext
@@ -1852,7 +1867,9 @@ browsingContext
 browserId
 !
 =
-watchedBrowserId
+context
+.
+browserId
 )
 {
 return

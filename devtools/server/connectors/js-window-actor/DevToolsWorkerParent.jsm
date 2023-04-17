@@ -169,7 +169,7 @@ instantiateWorkerTargets
 {
 watcherActorID
 connectionPrefix
-browserId
+context
 sessionData
 }
 )
@@ -193,7 +193,7 @@ available
 {
 watcherActorID
 connectionPrefix
-browserId
+context
 sessionData
 }
 )
@@ -244,8 +244,8 @@ e
 destroyWorkerTargets
 (
 {
-watcher
-browserId
+watcherActorID
+context
 }
 )
 {
@@ -262,10 +262,8 @@ destroy
 {
 watcherActorID
 :
-watcher
-.
-actorID
-browserId
+watcherActorID
+context
 }
 )
 ;
@@ -275,6 +273,7 @@ addSessionDataEntry
 (
 {
 watcherActorID
+context
 type
 entries
 }
@@ -294,6 +293,7 @@ addSessionDataEntry
 "
 {
 watcherActorID
+context
 type
 entries
 }
@@ -350,6 +350,7 @@ removeSessionDataEntry
 (
 {
 watcherActorID
+context
 type
 entries
 }
@@ -366,6 +367,7 @@ removeSessionDataEntry
 "
 {
 watcherActorID
+context
 type
 entries
 }
