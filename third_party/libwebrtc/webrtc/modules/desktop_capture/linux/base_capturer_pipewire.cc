@@ -1271,9 +1271,10 @@ return
 }
 pw_core_
 =
-pw_context_connect
+pw_context_connect_fd
 (
 pw_context_
+pw_fd_
 nullptr
 0
 )
