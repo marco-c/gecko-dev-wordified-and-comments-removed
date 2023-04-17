@@ -1448,9 +1448,10 @@ found
 )
 ;
 if
+!
 packages
 .
-find
+any
 (
 |
 x
@@ -1458,7 +1459,6 @@ x
 x
 =
 =
-&
 options
 .
 package
@@ -1466,10 +1466,6 @@ package
 as_str
 (
 )
-)
-.
-is_none
-(
 )
 {
 return

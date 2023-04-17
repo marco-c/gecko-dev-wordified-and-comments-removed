@@ -1104,7 +1104,6 @@ PrefsBackup
 :
 new
 (
-&
 prefs
 )
 ?
@@ -1118,7 +1117,6 @@ None
 for
 &
 (
-ref
 name
 ref
 value
@@ -1150,10 +1148,7 @@ prefs
 .
 insert
 (
-(
-*
 name
-)
 .
 to_string
 (
