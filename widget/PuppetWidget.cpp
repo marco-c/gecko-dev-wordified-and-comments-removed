@@ -4367,6 +4367,9 @@ width
 customCursorSize
 .
 height
+aCursor
+.
+mResolution
 stride
 format
 aCursor

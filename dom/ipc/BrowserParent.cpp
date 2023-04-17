@@ -11098,6 +11098,10 @@ uint32_t
 &
 aHeight
 const
+float
+&
+aResolution
+const
 uint32_t
 &
 aStride
@@ -11295,6 +11299,7 @@ cursorImage
 )
 aHotspotX
 aHotspotY
+aResolution
 }
 ;
 if
