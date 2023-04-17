@@ -4865,6 +4865,12 @@ _previewMode
 {
 newTab
 .
+recordTimeFromUnloadToReload
+(
+)
+;
+newTab
+.
 updateLastAccessed
 (
 )

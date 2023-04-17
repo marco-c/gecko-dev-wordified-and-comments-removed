@@ -986,6 +986,14 @@ remoteType
 >
 )
 ;
+tabInfo
+.
+tab
+.
+updateLastUnloadedByTabUnloader
+(
+)
+;
 return
 true
 ;
