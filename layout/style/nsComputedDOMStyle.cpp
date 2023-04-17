@@ -10704,10 +10704,6 @@ IsMozBlockHeight
 )
 )
 {
-AssertFlushedPendingReflows
-(
-)
-;
 if
 (
 !
@@ -10718,6 +10714,10 @@ return
 false
 ;
 }
+AssertFlushedPendingReflows
+(
+)
+;
 if
 (
 nsLayoutUtils
