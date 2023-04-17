@@ -28659,12 +28659,6 @@ GetVideoTracks
 videoTracks
 )
 ;
-PrincipalHandle
-handle
-(
-aPrincipalHandle
-)
-;
 for
 (
 const
@@ -28682,7 +28676,7 @@ if
 (
 PrincipalHandleMatches
 (
-handle
+aPrincipalHandle
 track
 -
 >
