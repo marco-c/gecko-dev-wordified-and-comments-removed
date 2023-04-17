@@ -1138,7 +1138,15 @@ chaos_mode_flags
 "
 ]
 )
-            
+        
+del
+environ
+[
+"
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+"
+]
+        
 executor_kwargs
 [
 "
