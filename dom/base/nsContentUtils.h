@@ -7280,6 +7280,8 @@ GetSubresourceCacheValidationInfo
 (
 nsIRequest
 *
+nsIURI
+*
 )
 ;
 static
