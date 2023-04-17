@@ -37,17 +37,6 @@ gkrust_features
 thread_sanitizer
 '
 ]
-gkrust_features
-+
-=
-[
-'
-quantum_render
-'
-'
-webgpu
-'
-]
 if
 CONFIG
 [

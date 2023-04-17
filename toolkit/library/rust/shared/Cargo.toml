@@ -383,9 +383,6 @@ gfx
 /
 webrender_bindings
 "
-optional
-=
-true
 }
 cubeb
 -
@@ -973,9 +970,6 @@ gfx
 /
 wgpu_bindings
 "
-optional
-=
-true
 }
 mapped_hyph
 =
@@ -1599,13 +1593,6 @@ default
 =
 [
 ]
-quantum_render
-=
-[
-"
-webrender_bindings
-"
-]
 cubeb
 -
 remoting
@@ -1803,13 +1790,6 @@ webrtc
 [
 "
 mdns_service
-"
-]
-webgpu
-=
-[
-"
-wgpu_bindings
 "
 ]
 glean_disable_upload
