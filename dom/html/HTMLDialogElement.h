@@ -79,6 +79,10 @@ move
 aNodeInfo
 )
 )
+mPreviouslyFocusedElement
+(
+nullptr
+)
 {
 }
 NS_IMPL_FROMNODE_HTML_WITH_TAG
@@ -288,6 +292,14 @@ void
 RemoveFromTopLayerIfNeeded
 (
 )
+;
+void
+StorePreviouslyFocusedElement
+(
+)
+;
+nsWeakPtr
+mPreviouslyFocusedElement
 ;
 }
 ;
