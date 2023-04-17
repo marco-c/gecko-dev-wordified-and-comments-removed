@@ -794,14 +794,8 @@ crate
 )
 fn
 drain
-<
-'
-a
->
 (
 &
-'
-a
 mut
 self
 drain_range
@@ -817,10 +811,6 @@ BufferAddress
 -
 >
 MemoryInitTrackerDrain
-<
-'
-a
->
 {
 let
 index

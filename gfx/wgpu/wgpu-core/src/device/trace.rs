@@ -156,6 +156,16 @@ u32
 }
 #
 [
+allow
+(
+clippy
+:
+:
+large_enum_variant
+)
+]
+#
+[
 derive
 (
 Debug
@@ -700,7 +710,7 @@ crate
 command
 :
 :
-TextureCopyView
+ImageCopyTexture
 data
 :
 FileName
@@ -709,7 +719,7 @@ layout
 wgt
 :
 :
-TextureDataLayout
+ImageDataLayout
 size
 :
 wgt
@@ -819,7 +829,7 @@ crate
 command
 :
 :
-BufferCopyView
+ImageCopyBuffer
 dst
 :
 crate
@@ -828,7 +838,7 @@ crate
 command
 :
 :
-TextureCopyView
+ImageCopyTexture
 size
 :
 wgt
@@ -846,7 +856,7 @@ crate
 command
 :
 :
-TextureCopyView
+ImageCopyTexture
 dst
 :
 crate
@@ -855,7 +865,7 @@ crate
 command
 :
 :
-BufferCopyView
+ImageCopyBuffer
 size
 :
 wgt
@@ -873,7 +883,7 @@ crate
 command
 :
 :
-TextureCopyView
+ImageCopyTexture
 dst
 :
 crate
@@ -882,7 +892,7 @@ crate
 command
 :
 :
-TextureCopyView
+ImageCopyTexture
 size
 :
 wgt
@@ -980,7 +990,7 @@ crate
 command
 :
 :
-ColorAttachmentDescriptor
+RenderPassColorAttachment
 >
 target_depth_stencil
 :
@@ -992,7 +1002,7 @@ crate
 command
 :
 :
-DepthStencilAttachmentDescriptor
+RenderPassDepthStencilAttachment
 >
 }
 }
@@ -1092,7 +1102,7 @@ io
 Error
 >
 {
-tracing
+log
 :
 :
 info
@@ -1320,7 +1330,7 @@ e
 =
 >
 {
-tracing
+log
 :
 :
 warn

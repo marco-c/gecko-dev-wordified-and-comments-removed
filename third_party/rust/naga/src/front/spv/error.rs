@@ -212,13 +212,6 @@ spirv
 :
 Word
 )
-InvalidVariableClass
-(
-spirv
-:
-:
-StorageClass
-)
 InvalidAccessType
 (
 spirv
@@ -339,6 +332,13 @@ BadString
 IncompleteData
 InvalidTerminator
 InvalidEdgeClassification
+FunctionCallCycle
+(
+spirv
+:
+:
+Word
+)
 UnsupportedRowMajorMatrix
 UnsupportedMatrixStride
 (
