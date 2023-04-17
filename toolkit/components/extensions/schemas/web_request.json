@@ -85,11 +85,6 @@ webRequest
 "
 webRequestBlocking
 "
-"
-webRequestFilterResponse
-.
-serviceWorkerScript
-"
 ]
 }
 ]
