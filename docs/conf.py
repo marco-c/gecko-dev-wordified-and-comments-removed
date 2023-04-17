@@ -705,7 +705,7 @@ True
     
 app
 .
-add_stylesheet
+add_css_file
 (
 "
 custom_theme
