@@ -581,12 +581,6 @@ tab
 =
 null
 ;
-this
-.
-frameRegsPending
-=
-0
-;
 }
 get
 contentBrowser
