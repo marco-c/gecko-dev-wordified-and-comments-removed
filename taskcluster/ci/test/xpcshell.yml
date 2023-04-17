@@ -603,11 +603,6 @@ asan
 *
 :
 3
-macosx1100
-.
-*
-:
-2
 android
 -
 em
