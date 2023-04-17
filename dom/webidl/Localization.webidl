@@ -122,6 +122,9 @@ boolean
 aSync
 =
 false
+optional
+L10nRegistry
+aRegistry
 )
 ;
 void
