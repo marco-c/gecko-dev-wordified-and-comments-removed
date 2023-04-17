@@ -479,7 +479,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillContent
 .

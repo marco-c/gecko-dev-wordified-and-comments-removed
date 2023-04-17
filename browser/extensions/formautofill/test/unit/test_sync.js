@@ -79,7 +79,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillSync
 .

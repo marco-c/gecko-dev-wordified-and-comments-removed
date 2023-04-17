@@ -28,12 +28,13 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillStorage
 .
 jsm
 "
+null
 )
 )
 ;

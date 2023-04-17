@@ -1095,9 +1095,9 @@ central
 /
 source
 /
-toolkit
+browser
 /
-components
+extensions
 /
 formautofill
 /

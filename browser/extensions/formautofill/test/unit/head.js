@@ -750,12 +750,13 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillStorage
 .
 jsm
 "
+null
 )
 ;
 let
@@ -1086,7 +1087,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillHeuristics
 .
@@ -1110,7 +1111,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillUtils
 .

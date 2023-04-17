@@ -1267,7 +1267,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillParent
 .

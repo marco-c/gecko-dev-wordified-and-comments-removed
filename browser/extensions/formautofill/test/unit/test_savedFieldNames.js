@@ -28,7 +28,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillParent
 .
@@ -275,7 +275,6 @@ _data
 [
 ]
 ;
-await
 FormAutofillStatus
 .
 updateSavedFieldNames
@@ -429,7 +428,6 @@ timesUsed
 }
 ]
 ;
-await
 FormAutofillStatus
 .
 updateSavedFieldNames

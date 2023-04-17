@@ -25,7 +25,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillStorage
 .
@@ -2616,7 +2616,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillStorage
 .
