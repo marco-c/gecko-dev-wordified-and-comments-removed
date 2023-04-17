@@ -89,9 +89,6 @@ class
 PTextureChild
 ;
 class
-ShadowLayerForwarder
-;
-class
 SurfaceDescriptorTiles
 ;
 class
@@ -321,17 +318,6 @@ GetMaxFileDescriptorsPerMessage
 (
 )
 ;
-virtual
-ShadowLayerForwarder
-*
-AsLayerForwarder
-(
-)
-{
-return
-nullptr
-;
-}
 protected
 :
 nsTArray
