@@ -19,6 +19,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 builtin
 /
 ModuleObject

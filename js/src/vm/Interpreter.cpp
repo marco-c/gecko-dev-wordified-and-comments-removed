@@ -73,6 +73,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jslibmath
 .
 h

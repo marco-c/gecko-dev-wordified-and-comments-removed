@@ -51,6 +51,13 @@ algorithm
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 builtin
 /
 BigInt

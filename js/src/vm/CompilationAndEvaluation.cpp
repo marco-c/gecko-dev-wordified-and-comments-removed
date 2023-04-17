@@ -42,6 +42,13 @@ utility
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
