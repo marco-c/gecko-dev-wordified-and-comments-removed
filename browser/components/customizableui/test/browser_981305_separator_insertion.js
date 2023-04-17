@@ -391,9 +391,11 @@ const
 panelviewId
 =
 "
-appmenu
+PanelUI
 -
-moreTools
+developer
+-
+tools
 "
 ;
 await
