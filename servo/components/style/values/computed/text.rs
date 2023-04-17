@@ -248,6 +248,7 @@ specified
 :
 {
 TextDecorationSkipInk
+TextJustify
 TextTransform
 }
 ;

@@ -3042,6 +3042,10 @@ TextEmphasisPosition
 "
                 
 "
+TextJustify
+"
+                
+"
 TextTransform
 "
                 

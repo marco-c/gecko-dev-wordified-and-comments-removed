@@ -944,6 +944,7 @@ text
 {
 TextDecorationLength
 TextDecorationSkipInk
+TextJustify
 }
 ;
 pub

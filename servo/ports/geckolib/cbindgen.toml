@@ -734,6 +734,9 @@ TextUnderlinePosition
 TextTransform
 "
 "
+TextJustify
+"
+"
 TextOverflow
 "
 "
