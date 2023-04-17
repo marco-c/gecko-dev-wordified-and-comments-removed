@@ -1944,6 +1944,7 @@ WebrtcVideoConduit
 GetLocalSSRCs
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -4100,6 +4101,7 @@ uint32_t
 *
 ssrc
 )
+const
 {
 if
 (
@@ -9365,6 +9367,7 @@ HasCodecPluginID
 uint64_t
 aPluginID
 )
+const
 {
 MOZ_ASSERT
 (

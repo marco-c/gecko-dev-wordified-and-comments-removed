@@ -318,6 +318,7 @@ HasCodecPluginID
 uint64_t
 aPluginID
 )
+const
 override
 {
 return
@@ -399,6 +400,7 @@ uint32_t
 GetLocalSSRCs
 (
 )
+const
 override
 ;
 bool
@@ -430,6 +432,7 @@ uint32_t
 *
 ssrc
 )
+const
 override
 ;
 bool
@@ -704,6 +707,7 @@ mRecvStreamRunning
 bool
 mDtmfEnabled
 ;
+mutable
 Mutex
 mMutex
 ;
