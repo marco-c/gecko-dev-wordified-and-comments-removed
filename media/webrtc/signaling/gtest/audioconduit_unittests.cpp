@@ -21,6 +21,13 @@ h
 #
 include
 "
+WebrtcCallWrapper
+.
+h
+"
+#
+include
+"
 MockCall
 .
 h
@@ -58,7 +65,7 @@ MockCall
 )
 mCallWrapper
 (
-WebRtcCallWrapper
+WebrtcCallWrapper
 :
 :
 Create
@@ -116,7 +123,7 @@ mCall
 const
 RefPtr
 <
-WebRtcCallWrapper
+WebrtcCallWrapper
 >
 mCallWrapper
 ;

@@ -473,7 +473,7 @@ aPrivacyRequested
 ;
 RefPtr
 <
-WebRtcCallWrapper
+WebrtcCallWrapper
 >
 mCall
 ;

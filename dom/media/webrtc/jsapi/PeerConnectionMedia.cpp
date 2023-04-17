@@ -207,6 +207,15 @@ include
 "
 libwebrtcglue
 /
+WebrtcCallWrapper
+.
+h
+"
+#
+include
+"
+libwebrtcglue
+/
 WebrtcGmpVideoCodec
 .
 h
@@ -3597,7 +3606,7 @@ mCall
 {
 mCall
 =
-WebRtcCallWrapper
+WebrtcCallWrapper
 :
 :
 Create
@@ -3618,7 +3627,7 @@ ShutdownBlockingTicket
 (
 u
 "
-WebRtcCallWrapper
+WebrtcCallWrapper
 shutdown
 blocker
 "

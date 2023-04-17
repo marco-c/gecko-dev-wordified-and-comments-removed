@@ -49,6 +49,13 @@ h
 #
 include
 "
+WebrtcCallWrapper
+.
+h
+"
+#
+include
+"
 WebrtcGmpVideoCodec
 .
 h
@@ -187,7 +194,7 @@ MockCall
 )
 mCallWrapper
 (
-WebRtcCallWrapper
+WebrtcCallWrapper
 :
 :
 Create
@@ -415,7 +422,7 @@ mCall
 const
 RefPtr
 <
-WebRtcCallWrapper
+WebrtcCallWrapper
 >
 mCallWrapper
 ;

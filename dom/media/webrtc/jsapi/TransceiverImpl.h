@@ -121,7 +121,7 @@ class
 MediaTransportHandler
 ;
 class
-WebRtcCallWrapper
+WebrtcCallWrapper
 ;
 class
 JsepTrackNegotiatedDetails
@@ -194,7 +194,7 @@ dom
 MediaStreamTrack
 *
 aSendTrack
-WebRtcCallWrapper
+WebrtcCallWrapper
 *
 aCallWrapper
 )
@@ -694,7 +694,7 @@ mSendTrack
 ;
 RefPtr
 <
-WebRtcCallWrapper
+WebrtcCallWrapper
 >
 mCallWrapper
 ;

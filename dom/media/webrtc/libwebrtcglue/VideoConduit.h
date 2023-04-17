@@ -410,16 +410,7 @@ GetNow
 )
 const
 override
-{
-return
-mCall
--
->
-GetNow
-(
-)
 ;
-}
 MediaConduitErrorCode
 StopTransmitting
 (
@@ -718,7 +709,7 @@ WebrtcVideoConduit
 (
 RefPtr
 <
-WebRtcCallWrapper
+WebrtcCallWrapper
 >
 aCall
 nsCOMPtr
@@ -1343,7 +1334,7 @@ mCodecMode
 const
 RefPtr
 <
-WebRtcCallWrapper
+WebrtcCallWrapper
 >
 mCall
 ;

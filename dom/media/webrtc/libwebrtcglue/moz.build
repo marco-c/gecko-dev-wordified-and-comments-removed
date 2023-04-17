@@ -127,6 +127,11 @@ VideoStreamFactory
 cpp
 "
 "
+WebrtcCallWrapper
+.
+cpp
+"
+"
 WebrtcGmpVideoCodec
 .
 cpp
