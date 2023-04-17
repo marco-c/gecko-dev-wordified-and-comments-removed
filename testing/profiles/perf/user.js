@@ -1442,3 +1442,17 @@ additional
 "
 )
 ;
+user_pref
+(
+"
+browser
+.
+tabs
+.
+remote
+.
+systemTriggeredAboutBlankAnywhere
+"
+true
+)
+;
