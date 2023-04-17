@@ -177,7 +177,7 @@ nsresult
 NativeGetColor
 (
 ColorID
-aID
+ColorScheme
 nscolor
 &
 aResult

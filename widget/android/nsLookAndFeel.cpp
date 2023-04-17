@@ -478,6 +478,7 @@ NativeGetColor
 (
 ColorID
 aID
+ColorScheme
 nscolor
 &
 aColor

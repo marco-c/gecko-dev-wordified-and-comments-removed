@@ -67,7 +67,6 @@ nsresult
 NativeGetInt
 (
 IntID
-aID
 int32_t
 &
 aResult
@@ -78,7 +77,6 @@ nsresult
 NativeGetFloat
 (
 FloatID
-aID
 float
 &
 aResult
@@ -89,7 +87,7 @@ nsresult
 NativeGetColor
 (
 ColorID
-aID
+ColorScheme
 nscolor
 &
 aResult

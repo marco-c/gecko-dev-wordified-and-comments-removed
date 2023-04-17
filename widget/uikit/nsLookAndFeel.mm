@@ -273,9 +273,8 @@ nsLookAndFeel
 :
 NativeGetColor
 (
-const
 ColorID
-aID
+ColorScheme
 nscolor
 &
 aResult
