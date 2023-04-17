@@ -163,12 +163,6 @@ CreatePlatformFontList
 )
 override
 ;
-void
-FlushContentDrawing
-(
-)
-override
-;
 static
 int32_t
 GetFontScaleDPI

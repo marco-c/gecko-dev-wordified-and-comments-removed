@@ -2043,13 +2043,6 @@ const
 ;
 virtual
 void
-FlushContentDrawing
-(
-)
-{
-}
-virtual
-void
 SchedulePaintIfDeviceReset
 (
 )
