@@ -624,13 +624,6 @@ Ci
 nsIWebNavigation
 .
 LOAD_FLAGS_BYPASS_HISTORY
-remoteTypeOverride
-:
-Services
-.
-appinfo
-.
-remoteType
 }
 ;
 webNavigation
