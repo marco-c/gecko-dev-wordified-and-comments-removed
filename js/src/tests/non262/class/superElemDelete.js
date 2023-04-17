@@ -205,7 +205,7 @@ super
 [
 key
 ]
-TypeError
+ReferenceError
 )
 ;
 assertEq
@@ -245,7 +245,7 @@ d
 testDeleteElemPropValFirst
 (
 )
-TypeError
+ReferenceError
 )
 ;
 new

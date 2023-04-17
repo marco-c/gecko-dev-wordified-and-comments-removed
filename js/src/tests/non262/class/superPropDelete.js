@@ -276,7 +276,7 @@ delete
 super
 .
 prop
-TypeError
+ReferenceError
 )
 ;
 return

@@ -20188,7 +20188,7 @@ type
 MIRType
 :
 :
-Object
+Value
 )
 ;
 auto
@@ -20213,13 +20213,7 @@ homeObject
 )
 )
 ;
-define
-(
-lir
-ins
-)
-;
-assignSafepoint
+defineBox
 (
 lir
 ins
