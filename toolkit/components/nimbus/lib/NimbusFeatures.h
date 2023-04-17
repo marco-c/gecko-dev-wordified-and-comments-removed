@@ -143,7 +143,7 @@ nsACString
 aFeatureId
 const
 bool
-aOnce
+aForce
 =
 false
 )
