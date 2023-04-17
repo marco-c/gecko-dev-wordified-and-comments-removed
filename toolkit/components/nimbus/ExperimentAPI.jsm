@@ -1775,11 +1775,6 @@ return
 null
 ;
 }
-delete
-remoteConfig
-.
-targeting
-;
 return
 remoteConfig
 ;
