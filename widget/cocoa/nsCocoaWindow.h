@@ -1092,6 +1092,13 @@ aCallback
 )
 override
 ;
+virtual
+void
+CleanupFullscreenTransition
+(
+)
+override
+;
 nsresult
 MakeFullScreen
 (
@@ -1936,6 +1943,9 @@ mInFullScreenMode
 ;
 bool
 mInFullScreenTransition
+;
+int
+mIgnoreOcclusionCount
 ;
 bool
 mModal
