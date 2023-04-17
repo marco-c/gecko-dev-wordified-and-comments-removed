@@ -632,9 +632,6 @@ FinishStaticClone
 nsFrameLoader
 *
 aStaticCloneOf
-nsIPrintSettings
-*
-aPrintSettings
 bool
 *
 aOutHasInProcessPrintCallbacks
@@ -646,9 +643,6 @@ DoRemoteStaticClone
 nsFrameLoader
 *
 aStaticCloneOf
-nsIPrintSettings
-*
-aPrintSettings
 )
 ;
 nsDocShell

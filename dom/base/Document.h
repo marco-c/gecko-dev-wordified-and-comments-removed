@@ -7630,9 +7630,6 @@ aCloneContainer
 nsIContentViewer
 *
 aContentViewer
-nsIPrintSettings
-*
-aPrintSettings
 bool
 *
 aOutHasInProcessPrintCallbacks

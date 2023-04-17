@@ -2181,15 +2181,6 @@ CloneDocumentTreeIntoSelf
 (
 MaybeDiscardedBrowsingContext
 aBc
-PrintData
-aPrintData
-)
-;
-async
-UpdateRemotePrintSettings
-(
-PrintData
-aPrintData
 )
 ;
 [
