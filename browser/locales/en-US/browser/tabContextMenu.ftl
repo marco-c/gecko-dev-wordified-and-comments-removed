@@ -688,6 +688,6 @@ to
 Device
 }
 .
-accessKey
+accesskey
 =
 n
