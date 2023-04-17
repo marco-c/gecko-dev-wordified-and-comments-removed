@@ -86,6 +86,12 @@ false
 )
 const
 ;
+uint32_t
+CharacterCount
+(
+)
+const
+;
 protected
 :
 virtual
