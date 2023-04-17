@@ -7845,15 +7845,9 @@ Worklet
 >
 mPaintWorklet
 ;
-RefPtr
+nsCOMPtr
 <
-mozilla
-:
-:
-dom
-:
-:
-External
+nsISupports
 >
 mExternal
 ;
