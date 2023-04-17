@@ -343,7 +343,7 @@ Contains
 )
 )
 {
-Locale
+MozLocale
 locale
 (
 loc

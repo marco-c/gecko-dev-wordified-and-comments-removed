@@ -82,7 +82,7 @@ mozilla
 intl
 :
 :
-Locale
+MozLocale
 ;
 nsLineBreaker
 :
@@ -2608,10 +2608,10 @@ aHyphenationLanguage
 mCurrentWordLanguage
 )
 {
-Locale
+MozLocale
 loc
 =
-Locale
+MozLocale
 (
 nsAtomCString
 (

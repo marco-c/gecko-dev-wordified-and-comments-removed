@@ -3773,7 +3773,7 @@ mozilla
 intl
 :
 :
-Locale
+MozLocale
 loc
 =
 mozilla
@@ -3782,7 +3782,7 @@ mozilla
 intl
 :
 :
-Locale
+MozLocale
 (
 dictName
 )
@@ -3906,7 +3906,7 @@ mozilla
 intl
 :
 :
-Locale
+MozLocale
 appLoc
 =
 mozilla
@@ -3915,7 +3915,7 @@ mozilla
 intl
 :
 :
-Locale
+MozLocale
 (
 appLocaleStr
 )
@@ -3976,7 +3976,7 @@ mozilla
 intl
 :
 :
-Locale
+MozLocale
 sysLoc
 =
 mozilla
@@ -3985,7 +3985,7 @@ mozilla
 intl
 :
 :
-Locale
+MozLocale
 (
 sysLocaleStr
 )

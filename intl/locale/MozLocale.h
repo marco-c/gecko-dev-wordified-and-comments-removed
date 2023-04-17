@@ -32,12 +32,12 @@ namespace
 intl
 {
 class
-Locale
+MozLocale
 {
 public
 :
 explicit
-Locale
+MozLocale
 (
 const
 nsACString
@@ -46,7 +46,7 @@ aLocale
 )
 ;
 explicit
-Locale
+MozLocale
 (
 const
 char
@@ -54,7 +54,7 @@ char
 aLocale
 )
 :
-Locale
+MozLocale
 (
 nsDependentCString
 (
@@ -118,7 +118,7 @@ bool
 Matches
 (
 const
-Locale
+MozLocale
 &
 aOther
 bool
@@ -159,7 +159,7 @@ operator
 =
 (
 const
-Locale
+MozLocale
 &
 aOther
 )
@@ -173,9 +173,9 @@ false
 )
 ;
 }
-Locale
+MozLocale
 (
-Locale
+MozLocale
 &
 &
 aOther
@@ -263,7 +263,7 @@ mozilla
 intl
 :
 :
-Locale
+MozLocale
 )
 #
 endif

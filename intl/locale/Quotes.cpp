@@ -230,7 +230,7 @@ return
 entry
 ;
 }
-Locale
+MozLocale
 loc
 (
 langStr

@@ -26,10 +26,10 @@ intl
 :
 ffi
 ;
-Locale
+MozLocale
 :
 :
-Locale
+MozLocale
 (
 const
 nsACString
@@ -51,7 +51,7 @@ mIsWellFormed
 }
 const
 nsCString
-Locale
+MozLocale
 :
 :
 AsString
@@ -79,7 +79,7 @@ tag
 }
 const
 nsDependentCSubstring
-Locale
+MozLocale
 :
 :
 GetLanguage
@@ -107,7 +107,7 @@ sub
 }
 const
 nsDependentCSubstring
-Locale
+MozLocale
 :
 :
 GetScript
@@ -135,7 +135,7 @@ sub
 }
 const
 nsDependentCSubstring
-Locale
+MozLocale
 :
 :
 GetRegion
@@ -162,7 +162,7 @@ sub
 ;
 }
 void
-Locale
+MozLocale
 :
 :
 GetVariants
@@ -189,13 +189,13 @@ aRetVal
 ;
 }
 bool
-Locale
+MozLocale
 :
 :
 Matches
 (
 const
-Locale
+MozLocale
 &
 aOther
 bool
@@ -244,7 +244,7 @@ aOtherRange
 ;
 }
 bool
-Locale
+MozLocale
 :
 :
 Maximize
@@ -263,7 +263,7 @@ get
 ;
 }
 void
-Locale
+MozLocale
 :
 :
 ClearVariants
@@ -281,7 +281,7 @@ get
 ;
 }
 void
-Locale
+MozLocale
 :
 :
 ClearRegion

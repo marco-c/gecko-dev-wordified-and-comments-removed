@@ -361,7 +361,7 @@ mozilla
 intl
 :
 :
-Locale
+LocaleService
 ;
 using
 mozilla
@@ -370,7 +370,7 @@ mozilla
 intl
 :
 :
-LocaleService
+MozLocale
 ;
 using
 mozilla
@@ -11238,7 +11238,7 @@ localeStr
 )
 ;
 {
-Locale
+MozLocale
 locale
 (
 localeStr
@@ -11514,7 +11514,7 @@ localeStr
 negLocales
 )
 {
-Locale
+MozLocale
 locale
 (
 localeStr
