@@ -175,17 +175,6 @@ mozilla
 /
 dom
 /
-SessionHistoryEntry
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SessionStorageManager
 .
 h
