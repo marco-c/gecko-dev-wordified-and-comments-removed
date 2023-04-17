@@ -481,7 +481,7 @@ ExtensionTestUtils
 loadContentPage
 (
 "
-http
+https
 :
 /
 /
@@ -527,7 +527,7 @@ ExtensionTestUtils
 loadContentPage
 (
 "
-http
+https
 :
 /
 /
