@@ -419,6 +419,14 @@ _prev
 =
 null
 ;
+this
+.
+_hasParentProcessTarget
+=
+targetFront
+.
+isParentProcess
+;
 }
 destroy
 (
@@ -1128,9 +1136,7 @@ BROWSER_TOOLBOX_FISSION_ENABLED
 &
 this
 .
-targetFront
-.
-isParentProcess
+_hasParentProcessTarget
 )
 {
 return
