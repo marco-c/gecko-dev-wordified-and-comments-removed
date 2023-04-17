@@ -14248,7 +14248,7 @@ GetStringFromName
 "
 tabs
 .
-closeTabsButton
+closeButtonMultiple
 "
 )
 ;
