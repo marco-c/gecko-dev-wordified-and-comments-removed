@@ -6212,6 +6212,8 @@ commands
 .
 resourceCommand
 .
+TYPES
+.
 REFLOW
 ]
 {
