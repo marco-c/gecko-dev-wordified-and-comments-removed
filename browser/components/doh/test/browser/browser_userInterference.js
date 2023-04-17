@@ -85,10 +85,12 @@ https
 :
 /
 /
-dummytrr
+example
 .
 com
 /
+dns
+-
 query
 "
 "
