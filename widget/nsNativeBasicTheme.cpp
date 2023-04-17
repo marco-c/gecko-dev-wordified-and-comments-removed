@@ -418,14 +418,8 @@ Default
 return
 ColorPalette
 (
-sRGBColor
-:
-:
-UnusualFromARGB
-(
-0xff0060df
-)
-sColorWhite
+sDefaultAccent
+sDefaultAccentForeground
 sRGBColor
 :
 :
@@ -810,8 +804,11 @@ aAccent
 )
 ;
 }
-static
+}
 nscolor
+nsNativeBasicTheme
+:
+:
 ComputeCustomAccentForeground
 (
 nscolor
@@ -913,7 +910,6 @@ aColor
 targetLuminance
 )
 ;
-}
 }
 class
 nsNativeBasicTheme

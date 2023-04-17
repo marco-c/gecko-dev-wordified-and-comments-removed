@@ -207,7 +207,6 @@ class
 NetworkInformation
 ;
 }
-typedef
 struct
 AndroidSystemColors
 {
@@ -244,8 +243,10 @@ panelColorForeground
 nscolor
 panelColorBackground
 ;
+nscolor
+colorAccent
+;
 }
-AndroidSystemColors
 ;
 class
 AndroidBridge
