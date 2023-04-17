@@ -433,7 +433,7 @@ Services
 cpmm
 ;
 const
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 =
 sharedData
 .
@@ -445,7 +445,7 @@ SHARED_DATA_KEY_NAME
 if
 (
 !
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 )
 {
 throw
@@ -480,10 +480,10 @@ for
 const
 [
 watcherActorID
-watchedData
+sessionData
 ]
 of
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 )
 {
 const
@@ -493,7 +493,7 @@ browserId
 isServerTargetSwitchingEnabled
 }
 =
-watchedData
+sessionData
 ;
 const
 acceptTopLevelTarget
@@ -512,7 +512,7 @@ isBfcacheInParentEnabled
 ;
 if
 (
-watchedData
+sessionData
 .
 targets
 .
@@ -602,7 +602,7 @@ watcherActorID
 parentConnectionPrefix
 :
 connectionPrefix
-watchedData
+sessionData
 isDocumentCreation
 :
 true
@@ -617,7 +617,7 @@ _createTargetActor
 {
 watcherActorID
 parentConnectionPrefix
-watchedData
+sessionData
 isDocumentCreation
 fromInstantiateAlreadyAvailable
 }
@@ -728,7 +728,7 @@ browsingContext
 browserId
 =
 =
-watchedData
+sessionData
 .
 browserId
 ;
@@ -794,13 +794,13 @@ for
 const
 type
 in
-watchedData
+sessionData
 )
 {
 const
 entries
 =
-watchedData
+sessionData
 [
 type
 ]
@@ -1418,7 +1418,7 @@ const
 {
 watcherActorID
 connectionPrefix
-watchedData
+sessionData
 }
 =
 message
@@ -1435,7 +1435,7 @@ watcherActorID
 parentConnectionPrefix
 :
 connectionPrefix
-watchedData
+sessionData
 fromInstantiateAlreadyAvailable
 :
 true
@@ -1926,7 +1926,7 @@ Services
 cpmm
 ;
 const
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 =
 sharedData
 .
@@ -1938,7 +1938,7 @@ SHARED_DATA_KEY_NAME
 if
 (
 !
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 )
 {
 throw
@@ -1984,10 +1984,10 @@ for
 const
 [
 watcherActorID
-watchedData
+sessionData
 ]
 of
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 )
 {
 const
@@ -1996,7 +1996,7 @@ browserId
 isServerTargetSwitchingEnabled
 }
 =
-watchedData
+sessionData
 ;
 const
 existingTarget

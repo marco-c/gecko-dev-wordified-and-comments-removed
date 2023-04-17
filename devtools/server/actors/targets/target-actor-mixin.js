@@ -39,7 +39,7 @@ index
 ;
 const
 {
-WatchedDataHelpers
+SessionDataHelpers
 }
 =
 require
@@ -53,7 +53,7 @@ actors
 /
 watcher
 /
-WatchedDataHelpers
+SessionDataHelpers
 .
 jsm
 "
@@ -89,7 +89,7 @@ XHR_BREAKPOINTS
 EVENT_BREAKPOINTS
 }
 =
-WatchedDataHelpers
+SessionDataHelpers
 .
 SUPPORTED_DATA
 ;

@@ -2663,7 +2663,7 @@ Services
 cpmm
 ;
 const
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 =
 sharedData
 .
@@ -2675,7 +2675,7 @@ SHARED_DATA_KEY_NAME
 if
 (
 !
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 )
 {
 return
@@ -2689,7 +2689,7 @@ Array
 .
 from
 (
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 .
 values
 (
@@ -2698,7 +2698,7 @@ values
 .
 find
 (
-watchedData
+sessionData
 =
 >
 {
@@ -2712,7 +2712,7 @@ getTargetActors
 targetActor
 .
 browserId
-watchedData
+sessionData
 .
 connectionPrefix
 )

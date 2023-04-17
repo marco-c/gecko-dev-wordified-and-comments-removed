@@ -521,14 +521,14 @@ this
 ;
 }
 get
-watchedData
+sessionData
 (
 )
 {
 return
 WatcherRegistry
 .
-getWatchedData
+getSessionData
 (
 this
 )
@@ -2054,7 +2054,7 @@ entries
 ;
 }
 }
-getWatchedData
+getSessionDataForType
 (
 type
 )
@@ -2062,7 +2062,7 @@ type
 return
 this
 .
-watchedData
+sessionData
 ?
 .
 [

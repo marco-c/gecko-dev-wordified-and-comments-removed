@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-WatchedDataHelpers
+SessionDataHelpers
 "
 ]
 ;
@@ -555,13 +555,13 @@ v
 ;
 }
 const
-WatchedDataHelpers
+SessionDataHelpers
 =
 {
 SUPPORTED_DATA
-addWatchedDataEntry
+addSessionDataEntry
 (
-watchedData
+sessionData
 type
 entries
 )
@@ -594,7 +594,7 @@ entries
 const
 existingIndex
 =
-watchedData
+sessionData
 [
 type
 ]
@@ -641,7 +641,7 @@ entry
 }
 else
 {
-watchedData
+sessionData
 [
 type
 ]
@@ -653,7 +653,7 @@ entry
 ;
 }
 }
-watchedData
+sessionData
 [
 type
 ]
@@ -667,9 +667,9 @@ toBeAdded
 )
 ;
 }
-removeWatchedDataEntry
+removeSessionDataEntry
 (
-watchedData
+sessionData
 type
 entries
 )
@@ -701,7 +701,7 @@ entries
 const
 idx
 =
-watchedData
+sessionData
 [
 type
 ]
@@ -738,7 +738,7 @@ idx
 1
 )
 {
-watchedData
+sessionData
 [
 type
 ]
@@ -786,8 +786,8 @@ module
 .
 exports
 .
-WatchedDataHelpers
+SessionDataHelpers
 =
-WatchedDataHelpers
+SessionDataHelpers
 ;
 }

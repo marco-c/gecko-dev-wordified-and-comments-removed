@@ -42,7 +42,7 @@ configuration
 ;
 const
 {
-WatchedDataHelpers
+SessionDataHelpers
 }
 =
 require
@@ -56,7 +56,7 @@ actors
 /
 watcher
 /
-WatchedDataHelpers
+SessionDataHelpers
 .
 jsm
 "
@@ -71,7 +71,7 @@ THREAD_CONFIGURATION
 }
 }
 =
-WatchedDataHelpers
+SessionDataHelpers
 ;
 const
 SUPPORTED_OPTIONS

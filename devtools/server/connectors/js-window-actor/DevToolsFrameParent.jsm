@@ -164,7 +164,7 @@ instantiateTarget
 watcherActorID
 connectionPrefix
 browserId
-watchedData
+sessionData
 }
 )
 {
@@ -186,7 +186,7 @@ available
 watcherActorID
 connectionPrefix
 browserId
-watchedData
+sessionData
 }
 )
 ;
