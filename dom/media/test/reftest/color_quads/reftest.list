@@ -157,6 +157,16 @@ containers
 to
 that
 .
+defaults
+pref
+(
+media
+.
+av1
+.
+enabled
+true
+)
 #
 -
 #
