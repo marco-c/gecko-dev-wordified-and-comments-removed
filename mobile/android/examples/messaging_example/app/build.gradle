@@ -69,13 +69,6 @@ JavaVersion
 .
 VERSION_1_8
 }
-dexOptions
-{
-javaMaxHeapSize
-"
-16g
-"
-}
 defaultConfig
 {
 applicationId

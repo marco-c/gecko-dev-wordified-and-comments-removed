@@ -849,7 +849,7 @@ extraSource
 OutputDirectory
 File
 destinationDir
-InputDirectory
+Input
 File
 llvmBin
 =
@@ -1971,7 +1971,7 @@ jarTask
 tasks
 [
 "
-bundleLibRuntimeToJar
+bundleLibRuntime
 {
 variant
 .
@@ -2672,7 +2672,7 @@ jarTask
 tasks
 [
 "
-bundleLibRuntimeToJar
+bundleLibRuntime
 {
 variant
 .

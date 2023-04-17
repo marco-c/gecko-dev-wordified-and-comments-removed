@@ -111,7 +111,7 @@ dexOptions
 {
 javaMaxHeapSize
 "
-16g
+6g
 "
 }
 buildTypes
