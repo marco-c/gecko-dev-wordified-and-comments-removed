@@ -2254,8 +2254,9 @@ enclosingScope
 void
 computeInScope
 (
-Scope
-*
+const
+InputScope
+&
 enclosingScope
 )
 ;
