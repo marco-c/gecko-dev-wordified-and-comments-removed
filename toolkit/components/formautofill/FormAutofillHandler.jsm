@@ -480,7 +480,7 @@ isRecordCreatable
 method
 must
 be
-overrided
+overridden
 "
 )
 ;
