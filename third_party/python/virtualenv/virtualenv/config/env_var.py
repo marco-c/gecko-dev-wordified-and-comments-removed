@@ -3,8 +3,6 @@ __future__
 import
 absolute_import
 unicode_literals
-import
-os
 from
 virtualenv
 .
@@ -24,6 +22,7 @@ get_env_var
 (
 key
 as_type
+env
 )
 :
     
@@ -61,6 +60,15 @@ it
 to
     
 :
+param
+env
+:
+environment
+variables
+to
+use
+    
+:
 return
 :
     
@@ -89,9 +97,7 @@ upper
 )
     
 if
-os
-.
-environ
+env
 .
 get
 (
@@ -101,9 +107,7 @@ environ_key
         
 value
 =
-os
-.
-environ
+env
 [
 environ_key
 ]

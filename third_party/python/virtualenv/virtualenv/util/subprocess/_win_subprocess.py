@@ -894,11 +894,21 @@ _subprocess
 .
 SW_HIDE
         
-comspec
+env
 =
 os
 .
 environ
+if
+env
+is
+None
+else
+env
+        
+comspec
+=
+env
 .
 get
 (

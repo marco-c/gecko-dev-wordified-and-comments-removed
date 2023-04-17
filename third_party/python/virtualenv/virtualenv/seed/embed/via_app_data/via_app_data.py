@@ -670,6 +670,12 @@ do_periodic_update
 self
 .
 periodic_update
+                        
+env
+=
+self
+.
+env
                     
 )
                     

@@ -20,7 +20,7 @@ logging
 import
 os
 from
-appdirs
+platformdirs
 import
 user_data_dir
 from
@@ -46,6 +46,7 @@ TempAppData
 def
 _default_app_data_dir
 (
+env
 )
 :
     
@@ -61,15 +62,11 @@ VIRTUALENV_OVERRIDE_APP_DATA
 if
 key
 in
-os
-.
-environ
+env
 :
         
 return
-os
-.
-environ
+env
 [
 key
 ]
@@ -112,6 +109,17 @@ read_only
 "
 )
     
+env
+=
+kwargs
+.
+pop
+(
+"
+env
+"
+)
+    
 if
 kwargs
 :
@@ -138,6 +146,7 @@ folder
 =
 _default_app_data_dir
 (
+env
 )
     
 folder

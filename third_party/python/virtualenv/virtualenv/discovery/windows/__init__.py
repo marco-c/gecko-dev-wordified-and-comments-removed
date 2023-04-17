@@ -38,6 +38,7 @@ propose_interpreters
 (
 spec
 cache_dir
+env
 )
 :
     
@@ -54,6 +55,7 @@ existing
 .
 sort
 (
+        
 key
 =
 lambda
@@ -79,9 +81,26 @@ i
 4
 ]
 )
++
+(
+1
+if
+i
+[
+0
+]
+=
+=
+"
+PythonCore
+"
+else
+0
+)
 reverse
 =
 True
+    
 )
     
 for
@@ -144,6 +163,9 @@ from_exe
 (
 exe
 cache_dir
+env
+=
+env
 raise_on_error
 =
 False
