@@ -399,6 +399,14 @@ key
 "
 )
 ;
+window
+.
+PanelUI
+.
+hide
+(
+)
+;
 }
 )
 ;
