@@ -224,6 +224,15 @@ include
 "
 frontend
 /
+PrivateOpEmitter
+.
+h
+"
+#
+include
+"
+frontend
+/
 ScriptIndex
 .
 h
@@ -3916,9 +3925,9 @@ emitOptionalPrivateExpression
 PrivateMemberAccessBase
 *
 privateExpr
-ElemOpEmitter
+PrivateOpEmitter
 &
-eoe
+xoe
 OptionalEmitter
 &
 oe
