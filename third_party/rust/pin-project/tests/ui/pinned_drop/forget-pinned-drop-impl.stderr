@@ -8,6 +8,12 @@ trait
 bound
 Struct
 :
+pin_project
+:
+:
+__private
+:
+:
 PinnedDrop
 is
 not
@@ -58,6 +64,12 @@ E0277
 ^
 the
 trait
+pin_project
+:
+:
+__private
+:
+:
 PinnedDrop
 is
 not

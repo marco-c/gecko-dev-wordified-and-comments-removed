@@ -26,7 +26,7 @@ PhantomPinned
 pin_project
 ]
 struct
-Struct
+Foo
 <
 T
 >
@@ -45,7 +45,7 @@ T
 >
 Unpin
 for
-Struct
+Foo
 <
 T
 >
@@ -71,7 +71,7 @@ is_unpin
 :
 :
 <
-Struct
+Foo
 <
 PhantomPinned
 >

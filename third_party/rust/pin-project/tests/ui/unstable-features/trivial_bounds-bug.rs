@@ -6,9 +6,6 @@ feature
 trivial_bounds
 )
 ]
-mod
-phantom_pinned
-{
 use
 std
 :
@@ -21,6 +18,11 @@ PhantomData
 PhantomPinned
 }
 ;
+fn
+phantom_pinned
+(
+)
+{
 struct
 A
 (

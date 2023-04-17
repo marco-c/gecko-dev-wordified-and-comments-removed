@@ -29,7 +29,7 @@ rs
 |
 #
 [
-add_pin_attr
+add_attr
 (
 struct
 )
@@ -45,10 +45,6 @@ pin
 ]
 attribute
 |
-^
-^
-^
-^
 ^
 ^
 ^
@@ -134,7 +130,7 @@ rs
 |
 #
 [
-add_pin_attr
+add_attr
 (
 struct
 )
@@ -159,10 +155,6 @@ structs
 or
 variants
 |
-^
-^
-^
-^
 ^
 ^
 ^

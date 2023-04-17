@@ -1,8 +1,8 @@
 use
-auxiliary_macro
+auxiliary_macros
 :
 :
-add_pin_attr
+add_attr
 ;
 use
 pin_project
@@ -25,7 +25,7 @@ pin_project
 ]
 #
 [
-add_pin_attr
+add_attr
 (
 struct
 )
@@ -43,7 +43,7 @@ PhantomPinned
 }
 #
 [
-add_pin_attr
+add_attr
 (
 struct
 )

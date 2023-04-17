@@ -1,5 +1,5 @@
 use
-auxiliary_macro
+auxiliary_macros
 :
 :
 hidden_repr

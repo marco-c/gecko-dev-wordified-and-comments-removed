@@ -11,6 +11,7 @@ pin_project
 PinnedDrop
 )
 ]
+pub
 struct
 Struct
 {

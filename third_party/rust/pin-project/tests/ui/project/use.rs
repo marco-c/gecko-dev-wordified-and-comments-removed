@@ -1,11 +1,3 @@
-#
-!
-[
-allow
-(
-deprecated
-)
-]
 use
 pin_project
 :

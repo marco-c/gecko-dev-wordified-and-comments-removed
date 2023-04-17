@@ -88,9 +88,3 @@ I
 {
 includedir
 }
--
-isystem
-/
-usr
-/
-foo

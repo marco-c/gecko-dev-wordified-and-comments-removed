@@ -35,8 +35,8 @@ read
 :
 :
 {
-ReadError
 ReadRng
+ReadError
 }
 ;
 pub

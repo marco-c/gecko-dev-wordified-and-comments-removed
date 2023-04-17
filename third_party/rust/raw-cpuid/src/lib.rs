@@ -2946,7 +2946,7 @@ cache_info
 in
 CACHE_INFO_TABLE
 .
-iter
+into_iter
 (
 )
 {

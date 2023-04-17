@@ -129,7 +129,7 @@ version
 .
 0
 .
-27
+20
 "
 authors
 =
@@ -293,14 +293,6 @@ cfg
 "
 "
 procmacro2_semver_exempt
-"
-"
--
--
-cfg
-"
-"
-doc_cfg
 "
 ]
 targets

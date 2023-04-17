@@ -26,9 +26,6 @@ tracing
 span
 !
 (
-crate
-:
-:
 tracing
 :
 :
@@ -73,9 +70,6 @@ tracing
 span
 !
 (
-crate
-:
-:
 tracing
 :
 :

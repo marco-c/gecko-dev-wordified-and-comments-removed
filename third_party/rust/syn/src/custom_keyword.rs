@@ -31,7 +31,7 @@ span
 crate
 :
 :
-__private
+export
 :
 :
 Span
@@ -60,7 +60,7 @@ __S
 crate
 :
 :
-__private
+export
 :
 :
 IntoSpans
@@ -69,7 +69,7 @@ IntoSpans
 crate
 :
 :
-__private
+export
 :
 :
 Span
@@ -94,7 +94,7 @@ span
 crate
 :
 :
-__private
+export
 :
 :
 IntoSpans
@@ -113,7 +113,7 @@ impl
 crate
 :
 :
-__private
+export
 :
 :
 Default
@@ -135,7 +135,7 @@ span
 crate
 :
 :
-__private
+export
 :
 :
 Span
@@ -254,7 +254,7 @@ Cursor
 crate
 :
 :
-__private
+export
 :
 :
 bool
@@ -301,7 +301,7 @@ static
 crate
 :
 :
-__private
+export
 :
 :
 str
@@ -371,7 +371,7 @@ let
 crate
 :
 :
-__private
+export
 :
 :
 Some
@@ -402,7 +402,7 @@ return
 crate
 :
 :
-__private
+export
 :
 :
 Ok
@@ -427,7 +427,7 @@ rest
 crate
 :
 :
-__private
+export
 :
 :
 Err
@@ -537,7 +537,7 @@ impl
 crate
 :
 :
-__private
+export
 :
 :
 ToTokens
@@ -556,7 +556,7 @@ mut
 crate
 :
 :
-__private
+export
 :
 :
 TokenStream2
@@ -586,7 +586,7 @@ span
 crate
 :
 :
-__private
+export
 :
 :
 TokenStreamExt
@@ -683,7 +683,7 @@ impl
 crate
 :
 :
-__private
+export
 :
 :
 Copy
@@ -691,21 +691,11 @@ for
 ident
 {
 }
-#
-[
-allow
-(
-clippy
-:
-:
-expl_impl_clone_on_copy
-)
-]
 impl
 crate
 :
 :
-__private
+export
 :
 :
 Clone
@@ -811,7 +801,7 @@ impl
 crate
 :
 :
-__private
+export
 :
 :
 Debug
@@ -830,7 +820,7 @@ mut
 crate
 :
 :
-__private
+export
 :
 :
 Formatter
@@ -840,7 +830,7 @@ Formatter
 crate
 :
 :
-__private
+export
 :
 :
 fmt
@@ -851,7 +841,7 @@ Result
 crate
 :
 :
-__private
+export
 :
 :
 Formatter
@@ -883,7 +873,7 @@ impl
 crate
 :
 :
-__private
+export
 :
 :
 Eq
@@ -895,7 +885,7 @@ impl
 crate
 :
 :
-__private
+export
 :
 :
 PartialEq
@@ -917,7 +907,7 @@ Self
 crate
 :
 :
-__private
+export
 :
 :
 bool
@@ -929,7 +919,7 @@ impl
 crate
 :
 :
-__private
+export
 :
 :
 Hash
@@ -944,7 +934,7 @@ __H
 crate
 :
 :
-__private
+export
 :
 :
 Hasher

@@ -27,6 +27,12 @@ mod
 default
 {
 use
+pin_project_lite
+:
+:
+pin_project
+;
+use
 std
 :
 :
@@ -34,12 +40,6 @@ marker
 :
 :
 PhantomPinned
-;
-use
-pin_project_lite
-:
-:
-pin_project
 ;
 struct
 Inner

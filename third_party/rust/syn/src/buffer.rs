@@ -47,12 +47,6 @@ as
 pm
 ;
 use
-crate
-:
-:
-Lifetime
-;
-use
 proc_macro2
 :
 :
@@ -82,6 +76,12 @@ std
 :
 :
 ptr
+;
+use
+crate
+:
+:
+Lifetime
 ;
 enum
 Entry

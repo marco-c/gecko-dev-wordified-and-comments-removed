@@ -16,7 +16,7 @@ marker
 Unpin
 for
 type
-Struct
+Foo
 <
 _
 >
@@ -67,7 +67,7 @@ E0119
 conflicting
 implementation
 for
-Struct
+Foo
 <
 _
 >
@@ -82,16 +82,13 @@ T
 >
 Unpin
 for
-Struct
+Foo
 <
 T
 >
 {
 }
 |
--
--
--
 -
 -
 -
