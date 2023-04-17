@@ -17,12 +17,8 @@ six
 from
 collections
 import
-(
-    
 defaultdict
-    
 namedtuple
-)
 from
 itertools
 import
@@ -182,16 +178,10 @@ from
 .
 util
 import
-(
-    
 ensureParentDir
-    
 FileAvoidWrite
-    
 OrderedDefaultDict
-    
 pairwise
-)
 from
 .
 .
@@ -2676,7 +2666,6 @@ f
 base
 )
 )
-                    
 backend_file
                 
 )
@@ -2857,7 +2846,6 @@ f
 base
 )
 )
-                    
 backend_file
                 
 )
@@ -2922,7 +2910,6 @@ WasmGeneratedSources
 suffix_map
 =
 {
-                
 "
 .
 c
@@ -2931,7 +2918,6 @@ c
 "
 WASM_CSRCS
 "
-                
 "
 .
 cpp
@@ -2940,7 +2926,6 @@ cpp
 "
 WASM_CPPSRCS
 "
-            
 }
             
 variables
@@ -3029,7 +3014,6 @@ f
 base
 )
 )
-                    
 backend_file
                 
 )
@@ -3990,6 +3974,22 @@ _process_linked_libraries
 (
 obj
 backend_file
+)
+            
+self
+.
+_no_skip
+[
+"
+syms
+"
+]
+.
+add
+(
+backend_file
+.
+relobjdir
 )
         
 elif
@@ -6168,15 +6168,12 @@ for
 tier
 in
 (
-                            
 "
 export
 "
-                            
 "
 libs
 "
-                        
 )
 :
                             
@@ -7725,7 +7722,6 @@ rules
 getvalue
 (
 )
-                
 xpidl_modules
 =
 "
@@ -10248,15 +10244,12 @@ basedir
 (
             
 target
-            
 (
-                
 "
 dist
 /
 bin
 "
-                
 "
 dist
 /
@@ -10264,17 +10257,14 @@ xpi
 -
 stage
 "
-                
 "
 _tests
 "
-                
 "
 dist
 /
 include
 "
-            
 )
         
 )
@@ -11990,27 +11980,21 @@ _create_makefile
 __slots__
 =
 (
-            
 "
 input_path
 "
-            
 "
 output_path
 "
-            
 "
 topsrcdir
 "
-            
 "
 topobjdir
 "
-            
 "
 config
 "
-        
 )
     
 def
