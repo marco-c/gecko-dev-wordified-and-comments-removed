@@ -56,9 +56,6 @@ class
 GlobalObject
 ;
 class
-RegExpStaticsObject
-;
-class
 RegExpStatics
 {
 VectorMatchPairs
@@ -109,8 +106,10 @@ clear
 ;
 }
 static
-RegExpStaticsObject
-*
+UniquePtr
+<
+RegExpStatics
+>
 create
 (
 JSContext

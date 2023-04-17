@@ -460,11 +460,6 @@ RareArgumentsData
 \
 _
 (
-RegExpStatics
-)
-\
-_
-(
 RegExpSharedBytecode
 )
 \
