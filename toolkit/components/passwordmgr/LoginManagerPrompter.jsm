@@ -692,11 +692,11 @@ username
 "
 ?
 "
-updateLoginMsgNoUser2
+updateLoginMsgNoUser3
 "
 :
 "
-updateLoginMsg2
+updateLoginMsg3
 "
 buttonLabel
 :
@@ -795,6 +795,9 @@ _getLocalizedString
 changeMsgNames
 .
 prompt
+[
+host
+]
 )
 ;
 let
