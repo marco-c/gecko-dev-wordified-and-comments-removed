@@ -148,6 +148,7 @@ uuid
 child_token
 }
 ;
+await
 send
 (
 parent_token
@@ -184,6 +185,7 @@ iframe
 ;
 )
 ;
+await
 send
 (
 child_token
@@ -214,7 +216,14 @@ test_token
 block
 "
 )
-3000
+expectation
+=
+=
+EXPECT_BLOCK
+?
+2000
+:
+6000
 )
 ;
 assert_equals
