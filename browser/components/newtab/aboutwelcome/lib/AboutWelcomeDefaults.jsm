@@ -1994,9 +1994,6 @@ screen
 "
 theme
 "
-"
-colorway
-"
 ]
 .
 includes
