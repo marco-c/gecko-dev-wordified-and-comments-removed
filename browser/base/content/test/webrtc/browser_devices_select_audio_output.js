@@ -94,7 +94,7 @@ anchorID
 "
 webRTC
 -
-shareDevices
+shareSpeaker
 -
 notification
 -
