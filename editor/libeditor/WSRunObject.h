@@ -1124,11 +1124,6 @@ GetActiveEditingHost
 (
 )
 )
-mHTMLEditor
-(
-&
-aHTMLEditor
-)
 mTextFragmentDataAtStart
 (
 mScanStartPoint
@@ -4479,11 +4474,6 @@ dom
 Element
 >
 mEditingHost
-;
-const
-HTMLEditor
-*
-mHTMLEditor
 ;
 private
 :
