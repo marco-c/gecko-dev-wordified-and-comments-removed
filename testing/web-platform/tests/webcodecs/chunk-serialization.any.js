@@ -10,6 +10,9 @@ key
 timestamp
 :
 1234
+duration
+:
+9876
 data
 :
 new
