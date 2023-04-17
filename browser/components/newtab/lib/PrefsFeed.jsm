@@ -1208,6 +1208,17 @@ this
 onExperimentUpdated
 )
 ;
+NimbusFeatures
+.
+newtab
+.
+off
+(
+this
+.
+onPocketExperimentUpdated
+)
+;
 if
 (
 this

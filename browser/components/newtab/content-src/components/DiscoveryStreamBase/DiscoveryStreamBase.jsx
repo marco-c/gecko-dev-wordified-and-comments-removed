@@ -1685,6 +1685,13 @@ component
 .
 lastCardMessageEnabled
 }
+saveToPocketCard
+=
+{
+component
+.
+saveToPocketCard
+}
 cta_variant
 =
 {

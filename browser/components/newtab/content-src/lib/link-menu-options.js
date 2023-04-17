@@ -1171,6 +1171,10 @@ SaveToPocket
 site
 index
 eventSource
+=
+"
+CARDGRID
+"
 )
 =
 >
@@ -1497,6 +1501,7 @@ CheckSavedToPocket
 (
 site
 index
+source
 )
 =
 >
@@ -1517,6 +1522,7 @@ SaveToPocket
 (
 site
 index
+source
 )
 CheckBookmarkOrArchive
 :
