@@ -21,12 +21,6 @@ util
 import
 get_state_dir
 from
-mozbuild
-.
-util
-import
-ensure_subprocess_env
-from
 distutils
 .
 spawn
@@ -280,10 +274,7 @@ PIPE
         
 env
 =
-ensure_subprocess_env
-(
 env
-)
         
 universal_newlines
 =
