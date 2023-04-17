@@ -59,7 +59,7 @@ get_pushes_from_params_input
     
 trigger_action
     
-get_tasks_with_downstream
+get_downstream_browsertime_tasks
     
 rename_browsertime_vismet_task
 )
@@ -1946,13 +1946,15 @@ label
         
 to_run
 =
-get_tasks_with_downstream
+get_downstream_browsertime_tasks
 (
+            
 [
 label
 ]
 full_task_graph
 label_to_taskid
+        
 )
     
 modifier
