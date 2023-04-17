@@ -142,12 +142,6 @@ aCount
 )
 override
 ;
-NS_IMETHOD
-Copy
-(
-)
-override
-;
 bool
 CanDeleteSelection
 (
