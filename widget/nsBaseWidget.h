@@ -2674,7 +2674,7 @@ CreateChildWindow
 }
 WindowRenderer
 *
-CreateBasicLayerManager
+CreateFallbackRenderer
 (
 )
 ;

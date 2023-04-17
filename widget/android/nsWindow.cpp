@@ -12241,7 +12241,7 @@ n
 ;
 mWindowRenderer
 =
-CreateBasicLayerManager
+CreateFallbackRenderer
 (
 )
 ;
