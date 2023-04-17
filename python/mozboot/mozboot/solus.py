@@ -99,12 +99,6 @@ dbus
 "
 libgtk
 -
-2
-"
-        
-"
-libgtk
--
 3
 "
         

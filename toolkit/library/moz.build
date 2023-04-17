@@ -823,12 +823,13 @@ MOZ_WIDGET_TOOLKIT
 gtk
 "
 :
-USE_LIBS
+OS_LIBS
 +
 =
+CONFIG
 [
 "
-mozgtk_stub
+MOZ_GTK3_LIBS
 "
 ]
 if

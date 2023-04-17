@@ -258,14 +258,6 @@ dev
 "
         
 "
-libgtk2
-.
-0
--
-dev
-"
-        
-"
 libpulse
 -
 dev
