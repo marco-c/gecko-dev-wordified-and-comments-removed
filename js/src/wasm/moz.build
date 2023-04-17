@@ -156,6 +156,11 @@ WasmJS
 cpp
 "
 "
+WasmMemory
+.
+cpp
+"
+"
 WasmModule
 .
 cpp

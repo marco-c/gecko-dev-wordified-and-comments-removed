@@ -68,7 +68,7 @@ include
 "
 wasm
 /
-WasmPages
+WasmMemory
 .
 h
 "
