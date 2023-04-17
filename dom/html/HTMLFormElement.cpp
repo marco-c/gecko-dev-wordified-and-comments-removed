@@ -839,7 +839,6 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 HTMLFormElement
 nsGenericHTMLElement
-nsIForm
 nsIRadioGroupContainer
 )
 void
@@ -7481,11 +7480,8 @@ return
 rv
 ;
 }
-NS_IMETHODIMP_
-(
 nsIFormControl
 *
-)
 HTMLFormElement
 :
 :
@@ -8721,10 +8717,7 @@ true
 )
 ;
 }
-NS_IMETHODIMP_
-(
 int32_t
-)
 HTMLFormElement
 :
 :

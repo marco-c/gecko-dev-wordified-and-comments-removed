@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsIForm
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

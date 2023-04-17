@@ -62,13 +62,6 @@ h
 #
 include
 "
-nsIForm
-.
-h
-"
-#
-include
-"
 nsISelectControlFrame
 .
 h
