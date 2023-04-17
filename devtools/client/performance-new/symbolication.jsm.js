@@ -76,7 +76,7 @@ get
 -
 symbols
 /
-c1dca28a2a506df40f0a6f32c12ba51ec54b02be
+007c254385f74ed0538f6e915c73c5055f194a8c
 .
 wasm
 "
@@ -87,7 +87,7 @@ WASM_MODULE_INTEGRITY
 "
 sha384
 -
-ZWi2jwcKJr20rE2gmHjFQGHgsCF9CagkyPLsrIZfmf5QKD2oXgkLa8tMKHK6zPA1
+HtoagTJzW8MQ8Bc4QfYfWBOxxSlOrKopxf6Nx0eskn9RduB0HssVNX5Ev2OsMkza
 "
 ;
 const
