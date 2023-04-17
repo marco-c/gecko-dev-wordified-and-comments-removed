@@ -56,9 +56,9 @@ resource
 :
 /
 /
-gre
-/
-modules
+testing
+-
+common
 /
 MessageChannel
 .

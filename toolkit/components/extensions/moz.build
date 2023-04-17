@@ -147,11 +147,6 @@ MatchURLFilters
 jsm
 "
 "
-MessageChannel
-.
-jsm
-"
-"
 MessageManagerProxy
 .
 jsm
@@ -220,6 +215,11 @@ jsm
 "
 "
 ExtensionXPCShellUtils
+.
+jsm
+"
+"
+MessageChannel
 .
 jsm
 "
