@@ -179,7 +179,7 @@ reset
 )
 ;
 }
-void
+bool
 SampleAnimationsOnce
 (
 )
@@ -210,6 +210,11 @@ AdvanceBy
 increment
 )
 ;
+bool
+activeAnimations
+=
+false
+;
 for
 (
 const
@@ -235,6 +240,9 @@ layer
 )
 )
 {
+activeAnimations
+|
+=
 apzc
 -
 >
@@ -247,6 +255,9 @@ pointOut
 ;
 }
 }
+return
+activeAnimations
+;
 }
 template
 <

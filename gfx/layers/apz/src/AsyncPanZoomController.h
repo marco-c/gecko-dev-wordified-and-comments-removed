@@ -2908,6 +2908,15 @@ SnapBackIfOverscrolled
 (
 )
 ;
+bool
+SnapBackIfOverscrolledForMomentum
+(
+const
+ParentLayerPoint
+&
+aVelocity
+)
+;
 RefPtr
 <
 const
