@@ -159,6 +159,14 @@ accessible
 other
 "
 ]
+if
+CONFIG
+[
+"
+ACCESSIBILITY
+"
+]
+:
 IPDL_SOURCES
 +
 =
