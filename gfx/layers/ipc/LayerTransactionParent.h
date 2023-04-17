@@ -132,13 +132,6 @@ OpDestroy
 >
 OpDestroyArray
 ;
-typedef
-nsTArray
-<
-PluginWindowData
->
-PluginsArray
-;
 friend
 class
 PLayerTransactionParent
