@@ -10924,6 +10924,7 @@ return
 }
 if
 (
+!
 StaticPrefs
 :
 :
@@ -10932,19 +10933,6 @@ browser_sessionstore_debug_no_auto_updates
 )
 )
 {
-UpdateSessionStoreSessionStorage
-(
-[
-]
-(
-)
-{
-}
-)
-;
-return
-;
-}
 auto
 result
 =
@@ -11026,6 +11014,7 @@ unwrap
 (
 )
 ;
+}
 }
 void
 CanonicalBrowsingContext
