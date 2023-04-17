@@ -2103,13 +2103,6 @@ uint16_t
 aPriority
 )
 ;
-void
-MaybeFireFocusableStateChange
-(
-bool
-aPreviouslyFocusable
-)
-;
 virtual
 bool
 IsRemote
