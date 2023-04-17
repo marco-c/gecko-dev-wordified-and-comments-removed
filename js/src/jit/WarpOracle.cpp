@@ -1836,11 +1836,10 @@ templateObj
 script_
 -
 >
-realm
+global
 (
 )
--
->
+.
 maybeArgumentsTemplateObject
 (
 mapped
