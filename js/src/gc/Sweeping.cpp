@@ -6184,6 +6184,12 @@ sweepWeakMaps
 (
 )
 {
+SweepingTracer
+trc
+(
+rt
+)
+;
 AutoSetThreadIsSweeping
 threadIsSweeping
 ;
@@ -6257,6 +6263,8 @@ zone
 >
 sweepWeakMaps
 (
+&
+trc
 )
 ;
 }
