@@ -3968,7 +3968,7 @@ LOAD_BYPASS_CACHE
 ;
 this
 .
-docShell
+browsingContext
 .
 defaultLoadFlags
 =
@@ -4009,7 +4009,7 @@ if
 !
 this
 .
-docShell
+browsingContext
 )
 {
 return
@@ -4028,7 +4028,7 @@ LOAD_BYPASS_CACHE
 return
 this
 .
-docShell
+browsingContext
 .
 defaultLoadFlags
 =
