@@ -6721,6 +6721,14 @@ MOZ_DIAGNOSTIC_ASSERT
 oldBrowser
 -
 >
+IsDestroyed
+(
+)
+|
+|
+oldBrowser
+-
+>
 GetBrowserBridgeParent
 (
 )
