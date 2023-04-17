@@ -1410,6 +1410,12 @@ default
 :
 by
 -
+app
+:
+firefox
+:
+by
+-
 test
 -
 platform
@@ -1483,6 +1489,10 @@ mozilla
 -
 beta
 "
+]
+default
+:
+[
 ]
 default
 :
