@@ -24453,16 +24453,6 @@ aInfo
 aTime
 )
 ;
-WindowDragMotionHandler
-(
-aWidget
-aDragContext
-nullptr
-aX
-aY
-aTime
-)
-;
 }
 nsWindow
 *
