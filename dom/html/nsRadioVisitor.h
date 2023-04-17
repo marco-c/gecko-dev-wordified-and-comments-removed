@@ -165,8 +165,6 @@ nsIFormControl
 aExcludeElement
 bool
 aValidity
-bool
-aNotify
 )
 :
 mExcludeElement
@@ -176,10 +174,6 @@ aExcludeElement
 mValidity
 (
 aValidity
-)
-mNotify
-(
-aNotify
 )
 {
 }
@@ -201,9 +195,6 @@ mExcludeElement
 ;
 bool
 mValidity
-;
-bool
-mNotify
 ;
 }
 ;

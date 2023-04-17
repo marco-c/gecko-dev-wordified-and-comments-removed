@@ -29279,11 +29279,6 @@ types
 "
 )
 ;
-bool
-notify
-=
-mDoneCreating
-;
 HTMLInputElement
 *
 selection
@@ -29466,7 +29461,6 @@ nsRadioSetValueMissingState
 (
 this
 valueMissing
-notify
 )
 ;
 VisitGroup
