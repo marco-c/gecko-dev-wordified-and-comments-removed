@@ -1338,12 +1338,6 @@ absolute_capture_time_receiver_
 clock
 )
 {
-constexpr
-bool
-remb_candidate
-=
-true
-;
 if
 (
 packet_router_
@@ -1358,7 +1352,11 @@ rtp_rtcp_
 get
 (
 )
-remb_candidate
+config_
+.
+rtp
+.
+remb
 )
 ;
 RTC_DCHECK
