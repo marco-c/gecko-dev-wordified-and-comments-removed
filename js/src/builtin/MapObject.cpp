@@ -2227,7 +2227,7 @@ get
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 has
@@ -2235,6 +2235,7 @@ has
 has
 1
 0
+MapHas
 )
 JS_FN
 (
