@@ -7282,6 +7282,14 @@ chromedriver
 -
 89
 "
+                
+"
+linux64
+-
+chromedriver
+-
+90
+"
             
 ]
             
@@ -7316,6 +7324,14 @@ chromedriver
 -
 89
 "
+                
+"
+linux64
+-
+chromedriver
+-
+90
+"
             
 ]
             
@@ -7349,6 +7365,14 @@ mac64
 chromedriver
 -
 89
+"
+                
+"
+mac64
+-
+chromedriver
+-
+90
 "
             
 ]
@@ -7386,6 +7410,14 @@ win32
 chromedriver
 -
 89
+"
+                
+"
+win32
+-
+chromedriver
+-
+90
 "
             
 ]
@@ -7425,6 +7457,14 @@ chromedriver
 -
 89
 "
+                
+"
+win32
+-
+chromedriver
+-
+90
+"
             
 ]
             
@@ -7462,6 +7502,14 @@ win32
 chromedriver
 -
 89
+"
+                
+"
+win32
+-
+chromedriver
+-
+90
 "
             
 ]
