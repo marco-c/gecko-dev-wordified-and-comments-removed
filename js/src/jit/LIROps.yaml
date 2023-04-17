@@ -10063,7 +10063,7 @@ SimdConstant
 -
 name
 :
-WasmBitselectSimd128
+WasmTernarySimd128
 gen_boilerplate
 :
 false
