@@ -1173,6 +1173,11 @@ this
 inited
 ;
 await
+Promise
+.
+all
+(
+[
 this
 .
 updateScreenOrientation
@@ -1184,16 +1189,12 @@ primary
 "
 0
 )
-;
-await
 this
 .
 updateMaxTouchPointsEnabled
 (
 false
 )
-;
-await
 this
 .
 responsiveFront
@@ -1201,6 +1202,8 @@ responsiveFront
 setFloatingScrollbars
 (
 false
+)
+]
 )
 ;
 this
