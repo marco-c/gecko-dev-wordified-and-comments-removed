@@ -234,15 +234,10 @@ waitForCondition
 aboutDialog
 .
 gAppUpdater
+?
 .
 selectedPanel
-&
-&
-aboutDialog
-.
-gAppUpdater
-.
-selectedPanel
+?
 .
 id
 =
