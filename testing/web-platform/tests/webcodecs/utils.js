@@ -124,7 +124,9 @@ sampleRate
 format
 :
 "
-FLTP
+f32
+-
+planar
 "
 }
 )

@@ -89,7 +89,9 @@ sampleRate
 format
 :
 '
-FLTP
+f32
+-
+planar
 '
 }
 let
@@ -178,7 +180,9 @@ data
 .
 format
 '
-FLTP
+f32
+-
+planar
 '
 '
 format
