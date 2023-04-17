@@ -597,15 +597,6 @@ layers
 TextureType
 :
 :
-DIB
-:
-case
-layers
-:
-:
-TextureType
-:
-:
 Last
 :
 break

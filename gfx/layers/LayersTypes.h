@@ -772,7 +772,6 @@ Unknown
 =
 0
 D3D11
-DIB
 MacIOSurface
 AndroidNativeWindow
 AndroidHardwareBuffer
