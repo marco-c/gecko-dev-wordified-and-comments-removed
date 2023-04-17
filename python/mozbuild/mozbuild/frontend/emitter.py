@@ -2031,26 +2031,23 @@ SANDBOXED_WASM_LIBRARY_NAME
     
 }
     
-LIBSTDCXX_VAR
+ARCH_VAR
 =
 {
-        
 "
 host
 "
 :
 "
-MOZ_LIBSTDCXX_HOST_VERSION
+HOST_OS_ARCH
 "
-        
 "
 target
 "
 :
 "
-MOZ_LIBSTDCXX_TARGET_VERSION
+OS_TARGET
 "
-    
 }
     
 STDCXXCOMPAT_NAME
@@ -2225,6 +2222,22 @@ cxx_link
 :
             
 if
+(
+                
+context
+.
+config
+.
+substs
+.
+get
+(
+"
+MOZ_STDCXX_COMPAT
+"
+)
+                
+and
 context
 .
 config
@@ -2235,7 +2248,7 @@ get
 (
 self
 .
-LIBSTDCXX_VAR
+ARCH_VAR
 .
 get
 (
@@ -2243,6 +2256,13 @@ obj
 .
 KIND
 )
+)
+=
+=
+"
+Linux
+"
+            
 )
 :
                 
