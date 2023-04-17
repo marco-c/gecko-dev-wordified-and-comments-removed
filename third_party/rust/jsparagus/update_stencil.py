@@ -3736,6 +3736,14 @@ in
 opcode
 .
 format_
+or
+'
+JOF_SHAPE
+'
+in
+opcode
+.
+format_
 :
             
 assert

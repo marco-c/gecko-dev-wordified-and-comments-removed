@@ -670,7 +670,7 @@ NULL
 5
 0
 1
-JOF_OBJECT
+JOF_SHAPE
 |
 JOF_IC
 )
@@ -2935,6 +2935,13 @@ JOF_DEBUGCOORD
 u32
 =
 24
+;
+const
+JOF_SHAPE
+:
+u32
+=
+25
 ;
 const
 JOF_TYPEMASK
