@@ -113,14 +113,10 @@ dialog
 {
 padding
 :
-1
-.
-16em
+16px
 calc
 (
-1
-.
-16em
+16px
 -
 4px
 )
@@ -162,9 +158,7 @@ margin
 :
 0
 4px
-1
-.
-16em
+16px
 ;
 }
 /
