@@ -2919,11 +2919,6 @@ nextFrameSlot
 0
 ;
 uint32_t
-constStart
-=
-0
-;
-uint32_t
 privateMethodStart
 =
 0

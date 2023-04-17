@@ -446,12 +446,6 @@ DeclarationKind
 :
 Const
 :
-case
-DeclarationKind
-:
-:
-PrivateName
-:
 return
 BindingKind
 :
@@ -475,6 +469,12 @@ DeclarationKind
 :
 :
 Synthetic
+:
+case
+DeclarationKind
+:
+:
+PrivateName
 :
 return
 BindingKind
