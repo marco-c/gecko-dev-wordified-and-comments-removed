@@ -1801,11 +1801,6 @@ override
 void
 BeginCycleCollectionCallback
 (
-mozilla
-:
-:
-CCReason
-aReason
 )
 override
 ;

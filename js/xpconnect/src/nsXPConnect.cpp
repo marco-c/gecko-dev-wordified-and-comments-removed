@@ -4806,10 +4806,6 @@ nsJSContext
 :
 CycleCollectNow
 (
-CCReason
-:
-:
-DUMP_HEAP
 alltracesListener
 )
 ;
