@@ -1,6 +1,13 @@
 #
 include
 "
+FileInfo
+.
+h
+"
+#
+include
+"
 FileInfoImpl
 .
 h
