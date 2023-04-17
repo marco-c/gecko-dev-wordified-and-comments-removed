@@ -44,7 +44,7 @@ test_file
 )
 ;
 const
-writtenBytes
+writeBuffer
 =
 Uint8Array
 .
@@ -72,7 +72,7 @@ file
 .
 write
 (
-writtenBytes
+writeBuffer
 0
 )
 }
@@ -163,7 +163,7 @@ granted_capacity
 )
 ;
 const
-writtenBytes
+writeBuffer
 =
 new
 Uint8Array
@@ -182,7 +182,7 @@ file
 .
 write
 (
-writtenBytes
+writeBuffer
 0
 )
 ;
@@ -279,7 +279,7 @@ granted_capacity
 )
 ;
 const
-writtenBytes
+writeBuffer
 =
 new
 Uint8Array
@@ -296,7 +296,7 @@ file
 .
 write
 (
-writtenBytes
+writeBuffer
 0
 )
 ;
@@ -385,7 +385,7 @@ granted_capacity
 )
 ;
 const
-writtenBytes
+writeBuffer
 =
 new
 Uint8Array
@@ -414,7 +414,7 @@ file
 .
 write
 (
-writtenBytes
+writeBuffer
 0
 )
 }

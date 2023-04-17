@@ -51,7 +51,7 @@ flush
 )
 ;
 const
-readBytes
+readBuffer
 =
 await
 readIoFile
@@ -61,7 +61,7 @@ file
 ;
 assert_array_equals
 (
-readBytes
+readBuffer
 longArray
 '
 the
