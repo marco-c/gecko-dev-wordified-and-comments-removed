@@ -728,11 +728,6 @@ mScrollSeriesCounter
 bool
 mTransactionEnded
 ;
-bool
-mIsScrollable
-=
-true
-;
 ScrollDirections
 mAllowedScrollDirections
 ;
