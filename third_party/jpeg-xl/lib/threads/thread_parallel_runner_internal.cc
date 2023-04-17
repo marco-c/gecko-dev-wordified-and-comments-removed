@@ -552,7 +552,14 @@ num_remaining
 =
 num_tasks
 -
+std
+:
+:
+min
+(
 num_reserved
+num_tasks
+)
 ;
 const
 uint32_t

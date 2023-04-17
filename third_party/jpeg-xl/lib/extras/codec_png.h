@@ -32,6 +32,17 @@ include
 "
 lib
 /
+extras
+/
+color_hints
+.
+h
+"
+#
+include
+"
+lib
+/
 jxl
 /
 base
@@ -104,6 +115,9 @@ h
 namespace
 jxl
 {
+namespace
+extras
+{
 Status
 DecodeImagePNG
 (
@@ -114,6 +128,10 @@ const
 uint8_t
 >
 bytes
+const
+ColorHints
+&
+color_hints
 ThreadPool
 *
 pool
@@ -143,6 +161,7 @@ PaddedBytes
 bytes
 )
 ;
+}
 }
 #
 endif

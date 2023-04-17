@@ -641,6 +641,16 @@ sum
 16
 ]
 )
+JXL_NO_SANITIZE
+(
+"
+unsigned
+-
+integer
+-
+overflow
+"
+)
 {
 PaddedBytes
 data64

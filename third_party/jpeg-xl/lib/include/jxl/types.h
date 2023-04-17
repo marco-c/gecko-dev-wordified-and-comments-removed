@@ -96,6 +96,13 @@ align
 }
 JxlPixelFormat
 ;
+typedef
+char
+JxlBoxType
+[
+4
+]
+;
 #
 if
 defined

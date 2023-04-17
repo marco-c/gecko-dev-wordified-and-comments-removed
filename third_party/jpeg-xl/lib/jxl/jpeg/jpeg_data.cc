@@ -30,6 +30,9 @@ jxl
 namespace
 jpeg
 {
+#
+if
+JPEGXL_ENABLE_TRANSCODE_JPEG
 namespace
 {
 enum
@@ -3255,6 +3258,8 @@ return
 true
 ;
 }
+#
+endif
 void
 JPEGData
 :
@@ -3401,6 +3406,9 @@ max_v_samp_factor
 )
 ;
 }
+#
+if
+JPEGXL_ENABLE_TRANSCODE_JPEG
 Status
 SetJPEGDataFromICC
 (
@@ -3597,5 +3605,7 @@ return
 true
 ;
 }
+#
+endif
 }
 }

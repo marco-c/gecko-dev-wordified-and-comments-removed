@@ -48,7 +48,7 @@ m
 ;
 EXPECT_EQ
 (
-0
+0u
 m
 (
 0
@@ -57,7 +57,7 @@ m
 ;
 EXPECT_EQ
 (
-4
+4u
 m
 (
 4
@@ -66,7 +66,7 @@ m
 ;
 EXPECT_EQ
 (
-0
+0u
 m
 (
 5
@@ -75,7 +75,7 @@ m
 ;
 EXPECT_EQ
 (
-1
+1u
 m
 (
 11
@@ -84,7 +84,7 @@ m
 ;
 EXPECT_EQ
 (
-4
+4u
 m
 (
 -
@@ -94,7 +94,7 @@ m
 ;
 EXPECT_EQ
 (
-2
+2u
 m
 (
 -
@@ -118,7 +118,7 @@ m
 ;
 EXPECT_EQ
 (
-2
+2u
 m
 (
 -
@@ -128,7 +128,7 @@ m
 ;
 EXPECT_EQ
 (
-1
+1u
 m
 (
 -
@@ -138,7 +138,7 @@ m
 ;
 EXPECT_EQ
 (
-0
+0u
 m
 (
 -
@@ -148,7 +148,7 @@ m
 ;
 EXPECT_EQ
 (
-0
+0u
 m
 (
 0
@@ -157,7 +157,7 @@ m
 ;
 EXPECT_EQ
 (
-9
+9u
 m
 (
 9
@@ -166,7 +166,7 @@ m
 ;
 EXPECT_EQ
 (
-9
+9u
 m
 (
 10
@@ -175,7 +175,7 @@ m
 ;
 EXPECT_EQ
 (
-8
+8u
 m
 (
 11
@@ -184,7 +184,7 @@ m
 ;
 EXPECT_EQ
 (
-7
+7u
 m
 (
 12
@@ -193,7 +193,7 @@ m
 ;
 EXPECT_EQ
 (
-1
+1u
 m
 (
 21
@@ -202,7 +202,7 @@ m
 ;
 EXPECT_EQ
 (
-1
+1u
 m
 (
 41

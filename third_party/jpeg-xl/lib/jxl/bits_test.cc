@@ -33,7 +33,7 @@ TestNumZeroBits
 {
 EXPECT_EQ
 (
-32
+32u
 Num0BitsAboveMS1Bit
 (
 0u
@@ -42,7 +42,7 @@ Num0BitsAboveMS1Bit
 ;
 EXPECT_EQ
 (
-64
+64u
 Num0BitsAboveMS1Bit
 (
 0ull
@@ -51,7 +51,7 @@ Num0BitsAboveMS1Bit
 ;
 EXPECT_EQ
 (
-32
+32u
 Num0BitsBelowLS1Bit
 (
 0u
@@ -60,7 +60,7 @@ Num0BitsBelowLS1Bit
 ;
 EXPECT_EQ
 (
-64
+64u
 Num0BitsBelowLS1Bit
 (
 0ull
@@ -69,7 +69,7 @@ Num0BitsBelowLS1Bit
 ;
 EXPECT_EQ
 (
-31
+31u
 Num0BitsAboveMS1Bit
 (
 1u
@@ -78,7 +78,7 @@ Num0BitsAboveMS1Bit
 ;
 EXPECT_EQ
 (
-30
+30u
 Num0BitsAboveMS1Bit
 (
 2u
@@ -87,7 +87,7 @@ Num0BitsAboveMS1Bit
 ;
 EXPECT_EQ
 (
-63
+63u
 Num0BitsAboveMS1Bit
 (
 1ull
@@ -96,7 +96,7 @@ Num0BitsAboveMS1Bit
 ;
 EXPECT_EQ
 (
-62
+62u
 Num0BitsAboveMS1Bit
 (
 2ull
@@ -105,7 +105,7 @@ Num0BitsAboveMS1Bit
 ;
 EXPECT_EQ
 (
-0
+0u
 Num0BitsBelowLS1Bit
 (
 1u
@@ -114,7 +114,7 @@ Num0BitsBelowLS1Bit
 ;
 EXPECT_EQ
 (
-0
+0u
 Num0BitsBelowLS1Bit
 (
 1ull
@@ -123,7 +123,7 @@ Num0BitsBelowLS1Bit
 ;
 EXPECT_EQ
 (
-1
+1u
 Num0BitsBelowLS1Bit
 (
 2u
@@ -132,7 +132,7 @@ Num0BitsBelowLS1Bit
 ;
 EXPECT_EQ
 (
-1
+1u
 Num0BitsBelowLS1Bit
 (
 2ull
@@ -141,7 +141,7 @@ Num0BitsBelowLS1Bit
 ;
 EXPECT_EQ
 (
-0
+0u
 Num0BitsAboveMS1Bit
 (
 0x80000000u
@@ -150,7 +150,7 @@ Num0BitsAboveMS1Bit
 ;
 EXPECT_EQ
 (
-0
+0u
 Num0BitsAboveMS1Bit
 (
 0x8000000000000000ull
@@ -159,7 +159,7 @@ Num0BitsAboveMS1Bit
 ;
 EXPECT_EQ
 (
-31
+31u
 Num0BitsBelowLS1Bit
 (
 0x80000000u
@@ -168,7 +168,7 @@ Num0BitsBelowLS1Bit
 ;
 EXPECT_EQ
 (
-63
+63u
 Num0BitsBelowLS1Bit
 (
 0x8000000000000000ull
@@ -183,7 +183,7 @@ TestFloorLog2
 )
 {
 const
-int
+size_t
 expected
 [
 7
@@ -264,7 +264,7 @@ i
 }
 EXPECT_EQ
 (
-31
+31u
 FloorLog2Nonzero
 (
 0x80000000u
@@ -273,7 +273,7 @@ FloorLog2Nonzero
 ;
 EXPECT_EQ
 (
-31
+31u
 FloorLog2Nonzero
 (
 0x80000001u
@@ -282,7 +282,7 @@ FloorLog2Nonzero
 ;
 EXPECT_EQ
 (
-31
+31u
 FloorLog2Nonzero
 (
 0xFFFFFFFFu
@@ -291,7 +291,7 @@ FloorLog2Nonzero
 ;
 EXPECT_EQ
 (
-31
+31u
 FloorLog2Nonzero
 (
 0x80000000ull
@@ -300,7 +300,7 @@ FloorLog2Nonzero
 ;
 EXPECT_EQ
 (
-31
+31u
 FloorLog2Nonzero
 (
 0x80000001ull
@@ -309,7 +309,7 @@ FloorLog2Nonzero
 ;
 EXPECT_EQ
 (
-31
+31u
 FloorLog2Nonzero
 (
 0xFFFFFFFFull
@@ -318,7 +318,7 @@ FloorLog2Nonzero
 ;
 EXPECT_EQ
 (
-63
+63u
 FloorLog2Nonzero
 (
 0x8000000000000000ull
@@ -327,7 +327,7 @@ FloorLog2Nonzero
 ;
 EXPECT_EQ
 (
-63
+63u
 FloorLog2Nonzero
 (
 0x8000000000000001ull
@@ -336,7 +336,7 @@ FloorLog2Nonzero
 ;
 EXPECT_EQ
 (
-63
+63u
 FloorLog2Nonzero
 (
 0xFFFFFFFFFFFFFFFFull
@@ -351,7 +351,7 @@ TestCeilLog2
 )
 {
 const
-int
+size_t
 expected
 [
 7
@@ -432,7 +432,7 @@ i
 }
 EXPECT_EQ
 (
-31
+31u
 CeilLog2Nonzero
 (
 0x80000000u
@@ -441,7 +441,7 @@ CeilLog2Nonzero
 ;
 EXPECT_EQ
 (
-32
+32u
 CeilLog2Nonzero
 (
 0x80000001u
@@ -450,7 +450,7 @@ CeilLog2Nonzero
 ;
 EXPECT_EQ
 (
-32
+32u
 CeilLog2Nonzero
 (
 0xFFFFFFFFu
@@ -459,7 +459,7 @@ CeilLog2Nonzero
 ;
 EXPECT_EQ
 (
-31
+31u
 CeilLog2Nonzero
 (
 0x80000000ull
@@ -468,7 +468,7 @@ CeilLog2Nonzero
 ;
 EXPECT_EQ
 (
-32
+32u
 CeilLog2Nonzero
 (
 0x80000001ull
@@ -477,7 +477,7 @@ CeilLog2Nonzero
 ;
 EXPECT_EQ
 (
-32
+32u
 CeilLog2Nonzero
 (
 0xFFFFFFFFull
@@ -486,7 +486,7 @@ CeilLog2Nonzero
 ;
 EXPECT_EQ
 (
-63
+63u
 CeilLog2Nonzero
 (
 0x8000000000000000ull
@@ -495,7 +495,7 @@ CeilLog2Nonzero
 ;
 EXPECT_EQ
 (
-64
+64u
 CeilLog2Nonzero
 (
 0x8000000000000001ull
@@ -504,7 +504,7 @@ CeilLog2Nonzero
 ;
 EXPECT_EQ
 (
-64
+64u
 CeilLog2Nonzero
 (
 0xFFFFFFFFFFFFFFFFull

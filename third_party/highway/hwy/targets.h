@@ -630,6 +630,12 @@ defined
 (
 HWY_COMPILE_ALL_ATTAINABLE
 )
+|
+|
+defined
+(
+HWY_IS_TEST
+)
 #
 define
 HWY_TARGETS

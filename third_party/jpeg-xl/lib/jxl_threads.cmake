@@ -48,6 +48,11 @@ set
 JPEGXL_THREADS_SOURCES
 threads
 /
+resizable_parallel_runner
+.
+cc
+threads
+/
 thread_parallel_runner
 .
 cc
@@ -332,6 +337,8 @@ TARGET_SUPPORTS_SHARED_LIBS
 AND
 NOT
 JPEGXL_STATIC
+AND
+BUILD_SHARED_LIBS
 )
 add_library
 (
@@ -503,6 +510,9 @@ TARGET_SUPPORTS_SHARED_LIBS
 AND
 NOT
 JPEGXL_STATIC
+AND
+#
+BUILD_SHARED_LIBS
 #
 #
 #

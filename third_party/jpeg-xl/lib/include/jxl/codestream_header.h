@@ -140,7 +140,6 @@ JxlAnimationHeader
 ;
 typedef
 struct
-JxlBasicInfo
 {
 JXL_BOOL
 have_container
@@ -202,6 +201,12 @@ preview
 JxlAnimationHeader
 animation
 ;
+uint8_t
+padding
+[
+108
+]
+;
 }
 JxlBasicInfo
 ;
@@ -224,7 +229,7 @@ uint32_t
 name_length
 ;
 JXL_BOOL
-alpha_associated
+alpha_premultiplied
 ;
 float
 spot_color

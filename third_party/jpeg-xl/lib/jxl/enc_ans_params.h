@@ -90,8 +90,7 @@ num_ctx
 if
 (
 tier
-=
-=
+>
 SpeedTier
 :
 :

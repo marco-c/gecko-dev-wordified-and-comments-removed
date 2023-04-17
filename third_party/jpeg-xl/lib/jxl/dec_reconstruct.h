@@ -158,6 +158,8 @@ bool
 force_fir
 bool
 skip_blending
+bool
+move_ec
 )
 ;
 Status

@@ -497,6 +497,14 @@ size_t
 >
 image_widths
 ;
+Predictor
+delta_pred
+=
+Predictor
+:
+:
+Average4
+;
 }
 ;
 }
