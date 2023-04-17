@@ -832,7 +832,10 @@ DIRECTION_LEFT
 ;
 }
 return
-true
+canGoBack
+|
+|
+canGoForward
 ;
 }
 _setupSwipeGesture
