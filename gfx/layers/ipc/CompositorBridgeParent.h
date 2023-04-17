@@ -123,6 +123,17 @@ mozilla
 /
 layers
 /
+FocusTarget
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ISurfaceAllocator
 .
 h

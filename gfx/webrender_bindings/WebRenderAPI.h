@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+VsyncDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 webrender_ffi

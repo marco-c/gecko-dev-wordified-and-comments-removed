@@ -35,6 +35,9 @@ nsPresContext
 class
 nsCSSPropertyIDSet
 ;
+struct
+nsStyleDisplay
+;
 namespace
 mozilla
 {
