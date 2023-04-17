@@ -3774,10 +3774,6 @@ random
 if
 (
 Android
-&
-&
-!
-swgl
 )
 =
 =
