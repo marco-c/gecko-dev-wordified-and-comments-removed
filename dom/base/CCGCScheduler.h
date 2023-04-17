@@ -462,6 +462,11 @@ KillCCRunner
 )
 ;
 void
+KillAllTimersAndRunners
+(
+)
+;
+void
 EnsureCCRunner
 (
 TimeDuration
