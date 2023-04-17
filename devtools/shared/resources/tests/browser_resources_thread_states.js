@@ -4,9 +4,7 @@ strict
 "
 ;
 const
-{
-ResourceWatcher
-}
+ResourceCommand
 =
 require
 (
@@ -15,11 +13,13 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 resource
 -
-watcher
+command
 "
 )
 ;
@@ -256,7 +256,7 @@ resourceWatcher
 watchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -495,7 +495,7 @@ resourceWatcher
 watchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -801,7 +801,7 @@ resourceWatcher
 watchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -1155,7 +1155,7 @@ resourceWatcher
 watchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -1631,7 +1631,7 @@ resourceWatcher
 watchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -1867,7 +1867,7 @@ resourceWatcher
 watchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -2205,7 +2205,7 @@ is
 resource
 .
 resourceType
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -2413,7 +2413,7 @@ is
 resource
 .
 resourceType
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .

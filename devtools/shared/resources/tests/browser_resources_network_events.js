@@ -4,9 +4,7 @@ strict
 "
 ;
 const
-{
-ResourceWatcher
-}
+ResourceCommand
 =
 require
 (
@@ -15,11 +13,13 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 resource
 -
-watcher
+command
 "
 )
 ;
@@ -128,7 +128,7 @@ html
 {
 resourceType
 :
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -151,7 +151,7 @@ html
 {
 resourceType
 :
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -178,7 +178,7 @@ html
 {
 resourceType
 :
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -241,7 +241,7 @@ html
 {
 resourceType
 :
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -268,7 +268,7 @@ html
 {
 resourceType
 :
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -389,7 +389,7 @@ is
 resource
 .
 resourceType
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -427,7 +427,7 @@ is
 resource
 .
 resourceType
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -454,7 +454,7 @@ resourceWatcher
 watchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -569,7 +569,7 @@ is
 resource
 .
 resourceType
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -637,7 +637,7 @@ is
 resource
 .
 resourceType
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -690,7 +690,7 @@ resourceWatcher
 watchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -941,7 +941,7 @@ resourceWatcher
 unwatchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -960,7 +960,7 @@ resourceWatcher
 unwatchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -1226,7 +1226,7 @@ resourceWatcher
 watchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -1333,7 +1333,7 @@ is
 availableJSResource
 .
 resourceType
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -1370,7 +1370,7 @@ is
 updateJSResource
 .
 resourceType
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -1445,7 +1445,7 @@ is
 availableCSSResource
 .
 resourceType
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -1482,7 +1482,7 @@ is
 updateCSSResource
 .
 resourceType
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -1520,7 +1520,7 @@ resourceWatcher
 unwatchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .

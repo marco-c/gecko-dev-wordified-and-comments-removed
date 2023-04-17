@@ -4,9 +4,7 @@ strict
 "
 ;
 const
-{
-ResourceWatcher
-}
+ResourceCommand
 =
 require
 (
@@ -15,11 +13,13 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 resource
 -
-watcher
+command
 "
 )
 ;
@@ -75,7 +75,7 @@ CONSOLE_MESSAGE
 ROOT_NODE
 }
 =
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 ;
@@ -538,7 +538,7 @@ const
 CONSOLE_MESSAGE
 }
 =
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 ;
