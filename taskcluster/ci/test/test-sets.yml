@@ -1316,8 +1316,6 @@ tests
 set
 .
 -
-marionette
--
 telemetry
 -
 tests
@@ -1407,6 +1405,8 @@ crashtest
 gtest
 -
 jsreftest
+-
+marionette
 -
 mochitest
 -
