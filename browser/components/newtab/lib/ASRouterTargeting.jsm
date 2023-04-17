@@ -1906,11 +1906,6 @@ currentEnvironment
 ;
 return
 {
-attribution
-:
-settings
-.
-attribution
 update
 :
 settings
