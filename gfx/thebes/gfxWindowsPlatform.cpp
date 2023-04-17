@@ -5485,13 +5485,6 @@ GFX_CLEARTYPE_PARAMS
 )
 )
 {
-if
-(
-XRE_IsParentProcess
-(
-)
-)
-{
 gfxDWriteFont
 :
 :
@@ -5499,7 +5492,6 @@ UpdateClearTypeVars
 (
 )
 ;
-}
 }
 else
 {
