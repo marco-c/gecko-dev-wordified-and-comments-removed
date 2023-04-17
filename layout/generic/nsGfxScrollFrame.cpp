@@ -20819,7 +20819,11 @@ aLayerManager
 const
 nsIFrame
 *
-aContainerReferenceFrame
+aItemFrame
+const
+nsPoint
+&
+aOffsetToReferenceFrame
 )
 const
 {
@@ -20879,7 +20883,8 @@ mOuter
 GetContent
 (
 )
-aContainerReferenceFrame
+aItemFrame
+aOffsetToReferenceFrame
 aLayerManager
 mScrollParentID
 mScrollPort
