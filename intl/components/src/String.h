@@ -982,6 +982,16 @@ return
 len
 ;
 }
+static
+Span
+<
+const
+char
+>
+GetUnicodeVersion
+(
+)
+;
 }
 ;
 }
