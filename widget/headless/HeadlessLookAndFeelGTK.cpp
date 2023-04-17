@@ -61,6 +61,7 @@ NativeGetColor
 ColorID
 aID
 ColorScheme
+aScheme
 nscolor
 &
 aColor
@@ -544,6 +545,7 @@ aColor
 GetStandinForNativeColor
 (
 aID
+aScheme
 )
 ;
 break
