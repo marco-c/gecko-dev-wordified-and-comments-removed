@@ -511,6 +511,9 @@ CompactBufferWriter
 writer
 )
 ;
+#
+ifdef
+JS_JITSPEW
 static
 void
 dumpPayload
@@ -524,6 +527,8 @@ Payload
 p
 )
 ;
+#
+endif
 static
 bool
 equalPayloads
@@ -1362,6 +1367,9 @@ gpr
 }
 public
 :
+#
+ifdef
+JS_JITSPEW
 void
 dump
 (
@@ -1371,8 +1379,8 @@ out
 )
 const
 ;
-public
-:
+#
+endif
 bool
 operator
 =
