@@ -398,8 +398,6 @@ _parse_requirements_line
 (
 line
 is_thunderbird_packages_txt
-=
-False
 )
 :
         
@@ -478,8 +476,9 @@ txt
 "
 :
             
-nested_definition_path
-=
+_parse_requirements_definition_file
+(
+                
 os
 .
 path
@@ -489,20 +488,9 @@ join
 topsrcdir
 params
 )
+                
+is_thunderbird_packages_txt
             
-assert
-os
-.
-path
-.
-isfile
-(
-nested_definition_path
-)
-            
-_parse_requirements_definition_file
-(
-nested_definition_path
 )
         
 elif
@@ -687,8 +675,9 @@ if
 is_thunderbird
 :
                 
-nested_definition_path
-=
+_parse_requirements_definition_file
+(
+                    
 os
 .
 path
@@ -698,21 +687,6 @@ join
 topsrcdir
 params
 )
-                
-assert
-os
-.
-path
-.
-isfile
-(
-nested_definition_path
-)
-                
-_parse_requirements_definition_file
-(
-                    
-nested_definition_path
 is_thunderbird_packages_txt
 =
 True
@@ -744,8 +718,6 @@ _parse_requirements_definition_file
         
 requirements_path
 is_thunderbird_packages_txt
-=
-False
     
 )
 :
@@ -763,6 +735,16 @@ requirements
 "
 "
 "
+        
+assert
+os
+.
+path
+.
+isfile
+(
+requirements_path
+)
         
 requirements_output
 .
@@ -810,6 +792,7 @@ is_thunderbird_packages_txt
 _parse_requirements_definition_file
 (
 root_requirements_path
+False
 )
 def
 _parse_package_specifier
