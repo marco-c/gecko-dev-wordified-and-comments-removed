@@ -22,6 +22,11 @@ a11y
 =
 [
 "
+AccAttributes
+.
+h
+"
+"
 AccTypes
 .
 h
@@ -93,6 +98,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+AccAttributes
+.
+cpp
+"
 "
 AccessibleOrProxy
 .
