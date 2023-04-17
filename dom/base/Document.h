@@ -975,6 +975,9 @@ class
 StyleSheet
 ;
 class
+EditorBase
+;
+class
 EditorCommand
 ;
 class
@@ -1036,9 +1039,6 @@ class
 StyleRuleChangeKind
 :
 uint32_t
-;
-class
-TextEditor
 ;
 template
 <
@@ -12321,7 +12321,7 @@ const
 ;
 private
 :
-TextEditor
+EditorBase
 *
 GetTargetEditor
 (
@@ -12330,7 +12330,7 @@ const
 ;
 RefPtr
 <
-TextEditor
+EditorBase
 >
 mActiveEditor
 ;

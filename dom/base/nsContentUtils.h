@@ -562,6 +562,9 @@ class
 Dispatcher
 ;
 class
+EditorBase
+;
+class
 ErrorResult
 ;
 class
@@ -3656,9 +3659,9 @@ aEditorInputType
 mozilla
 :
 :
-TextEditor
+EditorBase
 *
-aTextEditor
+aEditorBase
 mozilla
 :
 :
@@ -5802,7 +5805,7 @@ static
 mozilla
 :
 :
-TextEditor
+EditorBase
 *
 GetActiveEditor
 (
@@ -5815,7 +5818,7 @@ static
 mozilla
 :
 :
-TextEditor
+EditorBase
 *
 GetActiveEditor
 (

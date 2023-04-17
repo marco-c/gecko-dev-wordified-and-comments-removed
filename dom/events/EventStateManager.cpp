@@ -21,6 +21,15 @@ include
 "
 mozilla
 /
+EditorBase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventDispatcher
 .
 h
@@ -23093,9 +23102,9 @@ aMouseEvent
 nsEventStatus
 *
 aStatus
-TextEditor
+EditorBase
 *
-aTextEditor
+aEditorBase
 )
 {
 MOZ_ASSERT
@@ -23185,12 +23194,12 @@ selection
 ;
 if
 (
-aTextEditor
+aEditorBase
 )
 {
 selection
 =
-aTextEditor
+aEditorBase
 -
 >
 GetSelection
@@ -23366,7 +23375,7 @@ NS_OK
 if
 (
 !
-aTextEditor
+aEditorBase
 )
 {
 return
@@ -23375,7 +23384,7 @@ NS_OK
 }
 if
 (
-aTextEditor
+aEditorBase
 -
 >
 Destroyed
@@ -23383,7 +23392,7 @@ Destroyed
 )
 |
 |
-aTextEditor
+aEditorBase
 -
 >
 IsReadonly
@@ -23448,7 +23457,7 @@ mOriginalTarget
 |
 |
 !
-aTextEditor
+aEditorBase
 -
 >
 IsAcceptableInputEvent
@@ -23478,7 +23487,7 @@ nsresult
 >
 rv
 =
-aTextEditor
+aEditorBase
 -
 >
 PasteAsQuotationAsAction
@@ -23511,7 +23520,7 @@ nsresult
 >
 rv
 =
-aTextEditor
+aEditorBase
 -
 >
 PasteAsAction
@@ -26249,7 +26258,7 @@ NS_OK
 }
 RefPtr
 <
-TextEditor
+EditorBase
 >
 activeEditor
 =

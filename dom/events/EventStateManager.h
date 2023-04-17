@@ -135,6 +135,9 @@ namespace
 mozilla
 {
 class
+EditorBase
+;
+class
 EnterLeaveDispatcher
 ;
 class
@@ -145,9 +148,6 @@ IMEContentObserver
 ;
 class
 ScrollbarsForWheel
-;
-class
-TextEditor
 ;
 class
 WheelTransaction
@@ -758,9 +758,9 @@ aMouseEvent
 nsEventStatus
 *
 aStatus
-TextEditor
+EditorBase
 *
-aTextEditor
+aEditorBase
 )
 ;
 protected

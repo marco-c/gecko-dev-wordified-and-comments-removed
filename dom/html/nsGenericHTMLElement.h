@@ -123,6 +123,9 @@ namespace
 mozilla
 {
 class
+EditorBase
+;
+class
 ErrorResult
 ;
 class
@@ -139,9 +142,6 @@ EventListenerManager
 ;
 class
 EventStates
-;
-class
-TextEditor
 ;
 class
 PresState
@@ -3003,7 +3003,7 @@ already_AddRefed
 mozilla
 :
 :
-TextEditor
+EditorBase
 >
 GetAssociatedEditor
 (

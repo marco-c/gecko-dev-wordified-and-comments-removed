@@ -89,10 +89,10 @@ namespace
 mozilla
 {
 class
-PresShell
+EditorBase
 ;
 class
-TextEditor
+PresShell
 ;
 namespace
 dom
@@ -350,7 +350,7 @@ override
 virtual
 already_AddRefed
 <
-TextEditor
+EditorBase
 >
 GetEditor
 (

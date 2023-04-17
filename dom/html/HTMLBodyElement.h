@@ -24,7 +24,7 @@ namespace
 mozilla
 {
 class
-TextEditor
+EditorBase
 ;
 namespace
 dom
@@ -589,7 +589,7 @@ override
 virtual
 already_AddRefed
 <
-TextEditor
+EditorBase
 >
 GetAssociatedEditor
 (

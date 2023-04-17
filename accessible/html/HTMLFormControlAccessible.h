@@ -54,7 +54,7 @@ namespace
 mozilla
 {
 class
-TextEditor
+EditorBase
 ;
 namespace
 a11y
@@ -277,7 +277,7 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 already_AddRefed
 <
-TextEditor
+EditorBase
 >
 GetEditor
 (

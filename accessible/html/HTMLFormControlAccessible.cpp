@@ -129,6 +129,15 @@ include
 "
 mozilla
 /
+EditorBase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventStates
 .
 h
@@ -2120,7 +2129,7 @@ true
 }
 already_AddRefed
 <
-TextEditor
+EditorBase
 >
 HTMLTextFieldAccessible
 :
