@@ -470,6 +470,7 @@ oncommand
 "
 BrowserTryToCloseWindow
 (
+event
 )
 "
 /
@@ -544,6 +545,7 @@ oncommand
 "
 goQuitApplication
 (
+event
 )
 "
 /
