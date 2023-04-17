@@ -325,6 +325,16 @@ io
 "
 _ns
 "
+private
+.
+canadianshield
+.
+cira
+.
+ca
+"
+_ns
+"
 doh
 .
 xfinity
