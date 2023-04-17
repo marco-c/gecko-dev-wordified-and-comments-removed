@@ -3,6 +3,9 @@ mod
 gecko_bindings
 ;
 mod
+json_writer
+;
+mod
 label
 ;
 mod
@@ -23,6 +26,13 @@ gecko_bindings
 :
 :
 profiling_categories
+:
+:
+*
+;
+pub
+use
+json_writer
 :
 :
 *
