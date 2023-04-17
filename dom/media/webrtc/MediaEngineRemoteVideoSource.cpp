@@ -1002,7 +1002,7 @@ camera
 CamerasChild
 :
 :
-AllocateCaptureDevice
+AllocateCapture
 mCapEngine
 mUniqueId
 .
@@ -1155,7 +1155,7 @@ camera
 CamerasChild
 :
 :
-ReleaseCaptureDevice
+ReleaseCapture
 mCapEngine
 mCaptureIndex
 )

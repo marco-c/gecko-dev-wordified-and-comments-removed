@@ -503,7 +503,7 @@ ipc
 :
 :
 IPCResult
-RecvReplyAllocateCaptureDevice
+RecvReplyAllocateCapture
 (
 const
 int
@@ -604,7 +604,7 @@ deviceUniqueIdUTF8
 )
 ;
 int
-ReleaseCaptureDevice
+ReleaseCapture
 (
 CaptureEngine
 aCapEngine
@@ -653,7 +653,7 @@ capture_id
 )
 ;
 int
-AllocateCaptureDevice
+AllocateCapture
 (
 CaptureEngine
 aCapEngine

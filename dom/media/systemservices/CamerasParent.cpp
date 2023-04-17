@@ -2071,7 +2071,7 @@ streamNum
 Unused
 <
 <
-ReleaseCaptureDevice
+ReleaseCapture
 (
 capEngine
 streamNum
@@ -3349,7 +3349,7 @@ aCapEngine
 const
 int
 &
-aListNumber
+aDeviceIndex
 )
 {
 LOG
@@ -3381,7 +3381,7 @@ NewRunnableFrom
 [
 self
 aCapEngine
-aListNumber
+aDeviceIndex
 ]
 (
 )
@@ -3455,7 +3455,7 @@ devInfo
 >
 GetDeviceName
 (
-aListNumber
+aDeviceIndex
 deviceName
 sizeof
 (
@@ -3941,7 +3941,7 @@ IPCResult
 CamerasParent
 :
 :
-RecvAllocateCaptureDevice
+RecvAllocateCapture
 (
 const
 CaptureEngine
@@ -4219,7 +4219,7 @@ mChildIsAlive
 LOG
 (
 "
-RecvAllocateCaptureDevice
+RecvAllocateCapture
 :
 child
 not
@@ -4249,7 +4249,7 @@ SendReplyFailure
 LOG
 (
 "
-RecvAllocateCaptureDevice
+RecvAllocateCapture
 :
 WithEntry
 error
@@ -4278,7 +4278,7 @@ Unused
 self
 -
 >
-SendReplyAllocateCaptureDevice
+SendReplyAllocateCapture
 (
 numdev
 )
@@ -4336,16 +4336,14 @@ int
 CamerasParent
 :
 :
-ReleaseCaptureDevice
+ReleaseCapture
 (
 const
 CaptureEngine
 &
 aCapEngine
-const
 int
-&
-capnum
+aCaptureId
 )
 {
 int
@@ -4372,7 +4370,7 @@ engine
 >
 ReleaseVideoCapture
 (
-capnum
+aCaptureId
 )
 ;
 }
@@ -4390,7 +4388,7 @@ IPCResult
 CamerasParent
 :
 :
-RecvReleaseCaptureDevice
+RecvReleaseCapture
 (
 const
 CaptureEngine
@@ -4399,7 +4397,7 @@ aCapEngine
 const
 int
 &
-numdev
+aCaptureId
 )
 {
 LOG
@@ -4420,7 +4418,7 @@ nr
 %
 d
 "
-numdev
+aCaptureId
 )
 ;
 RefPtr
@@ -4443,7 +4441,7 @@ NewRunnableFrom
 [
 self
 aCapEngine
-numdev
+aCaptureId
 ]
 (
 )
@@ -4454,10 +4452,10 @@ error
 self
 -
 >
-ReleaseCaptureDevice
+ReleaseCapture
 (
 aCapEngine
-numdev
+aCaptureId
 )
 ;
 RefPtr
@@ -4471,7 +4469,7 @@ NewRunnableFrom
 [
 self
 error
-numdev
+aCaptureId
 ]
 (
 )
@@ -4488,7 +4486,7 @@ mChildIsAlive
 LOG
 (
 "
-RecvReleaseCaptureDevice
+RecvReleaseCapture
 :
 child
 not
@@ -4518,7 +4516,7 @@ SendReplyFailure
 LOG
 (
 "
-RecvReleaseCaptureDevice
+RecvReleaseCapture
 :
 Failed
 to
@@ -4528,7 +4526,7 @@ nr
 %
 d
 "
-numdev
+aCaptureId
 )
 ;
 return
@@ -4554,7 +4552,7 @@ nr
 %
 d
 "
-numdev
+aCaptureId
 )
 ;
 return
@@ -4611,7 +4609,7 @@ aCapEngine
 const
 int
 &
-capnum
+aCaptureId
 const
 VideoCaptureCapability
 &
@@ -4647,7 +4645,7 @@ NewRunnableFrom
 [
 self
 aCapEngine
-capnum
+aCaptureId
 ipcCaps
 ]
 (
@@ -4703,7 +4701,7 @@ CaptureEngine
 (
 aCapEngine
 )
-capnum
+aCaptureId
 self
 )
 )
@@ -4719,10 +4717,10 @@ aCapEngine
 >
 WithEntry
 (
-capnum
+aCaptureId
 [
 &
-capnum
+aCaptureId
 &
 aCapEngine
 &
@@ -4813,7 +4811,7 @@ sDeviceUniqueIDs
 .
 find
 (
-capnum
+aCaptureId
 )
 =
 =
@@ -4828,7 +4826,7 @@ sDeviceUniqueIDs
 .
 emplace
 (
-capnum
+aCaptureId
 cap
 .
 VideoCapture
@@ -4847,7 +4845,7 @@ sAllRequestedCapabilities
 .
 find
 (
-capnum
+aCaptureId
 )
 =
 =
@@ -4862,7 +4860,7 @@ sAllRequestedCapabilities
 .
 emplace
 (
-capnum
+aCaptureId
 capability
 )
 ;
@@ -5293,14 +5291,14 @@ sDeviceUniqueIDs
 .
 erase
 (
-capnum
+aCaptureId
 )
 ;
 sAllRequestedCapabilities
 .
 erase
 (
-capnum
+aCaptureId
 )
 ;
 }
@@ -5444,7 +5442,7 @@ aCapEngine
 const
 int
 &
-aCapNum
+aCaptureId
 )
 {
 LOG
@@ -5475,7 +5473,7 @@ CamerasParent
 this
 )
 aCapEngine
-aCapNum
+aCaptureId
 ]
 (
 )
@@ -5499,7 +5497,7 @@ engine
 >
 WithEntry
 (
-aCapNum
+aCaptureId
 [
 self
 ]
@@ -5674,10 +5672,8 @@ const
 CaptureEngine
 &
 aCapEngine
-const
 int
-&
-capnum
+aCaptureId
 )
 {
 if
@@ -5741,7 +5737,7 @@ mStreamId
 (
 uint32_t
 )
-capnum
+aCaptureId
 )
 {
 CallbackHelper
@@ -5760,11 +5756,11 @@ engine
 >
 WithEntry
 (
-capnum
+aCaptureId
 [
 cbh
 &
-capnum
+aCaptureId
 ]
 (
 VideoEngine
@@ -5827,14 +5823,14 @@ sDeviceUniqueIDs
 .
 erase
 (
-capnum
+aCaptureId
 )
 ;
 sAllRequestedCapabilities
 .
 erase
 (
-capnum
+aCaptureId
 )
 ;
 }
@@ -5883,7 +5879,7 @@ aCapEngine
 const
 int
 &
-capnum
+aCaptureId
 )
 {
 LOG
@@ -5915,7 +5911,7 @@ NewRunnableFrom
 [
 self
 aCapEngine
-capnum
+aCaptureId
 ]
 (
 )
@@ -5926,7 +5922,7 @@ self
 StopCapture
 (
 aCapEngine
-capnum
+aCaptureId
 )
 ;
 return
