@@ -3461,6 +3461,12 @@ case
 ColorID
 :
 :
+Menu
+:
+case
+ColorID
+:
+:
 TextBackground
 :
 color
@@ -3497,6 +3503,12 @@ ColorID
 :
 :
 Windowtext
+:
+case
+ColorID
+:
+:
+Menutext
 :
 case
 ColorID
