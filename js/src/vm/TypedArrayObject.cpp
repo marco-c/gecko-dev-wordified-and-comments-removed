@@ -9511,9 +9511,6 @@ TypedArrayToLocaleString
 2
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -9525,8 +9522,6 @@ TypedArrayAt
 1
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
