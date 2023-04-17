@@ -1,5 +1,3 @@
-#
-%
 ARG
 BASE_IMAGE
 FROM
@@ -50,12 +48,8 @@ local
 /
 sbin
 /
-#
-%
 ARG
 DIST
-#
-%
 ARG
 SNAPSHOT
 #
