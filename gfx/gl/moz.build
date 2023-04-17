@@ -471,11 +471,6 @@ GLContextProviderX11
 .
 cpp
 "
-"
-SharedSurfaceGLX
-.
-cpp
-"
 ]
 EXPORTS
 +
@@ -488,11 +483,6 @@ h
 "
 "
 GLXLibrary
-.
-h
-"
-"
-SharedSurfaceGLX
 .
 h
 "
