@@ -8623,7 +8623,7 @@ n
 =
 self
 .
-profiler
+profile
 .
 get
 (
