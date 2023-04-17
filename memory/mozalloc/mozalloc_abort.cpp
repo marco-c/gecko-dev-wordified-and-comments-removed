@@ -129,8 +129,9 @@ msg
 ;
 #
 endif
-MOZ_CRASH
+MOZ_CRASH_UNSAFE
 (
+msg
 )
 ;
 }
