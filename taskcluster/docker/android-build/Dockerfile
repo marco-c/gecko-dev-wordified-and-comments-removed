@@ -135,6 +135,12 @@ valgrind
 \
 vim
 \
+x11
+-
+utils
+\
+xvfb
+\
 wget
 \
 zip
