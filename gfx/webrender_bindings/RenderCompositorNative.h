@@ -145,12 +145,6 @@ ShouldUseNativeCompositor
 )
 override
 ;
-uint32_t
-GetMaxUpdateRects
-(
-)
-override
-;
 bool
 SurfaceOriginIsTopLeft
 (

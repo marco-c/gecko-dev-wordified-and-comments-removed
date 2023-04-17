@@ -1987,9 +1987,6 @@ CompositorConfig
 :
 Native
 {
-max_update_rects
-:
-1
 compositor
 :
 Box

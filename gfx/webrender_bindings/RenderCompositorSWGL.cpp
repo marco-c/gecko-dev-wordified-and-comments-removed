@@ -1335,6 +1335,14 @@ CompositorCapabilities
 aCaps
 )
 {
+RenderCompositor
+:
+:
+GetCompositorCapabilities
+(
+aCaps
+)
+;
 aCaps
 -
 >

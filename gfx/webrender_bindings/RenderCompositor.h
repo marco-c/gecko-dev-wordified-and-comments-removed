@@ -438,16 +438,6 @@ false
 ;
 }
 virtual
-uint32_t
-GetMaxUpdateRects
-(
-)
-{
-return
-0
-;
-}
-virtual
 void
 CompositorBeginFrame
 (
@@ -710,8 +700,7 @@ CompositorCapabilities
 *
 aCaps
 )
-{
-}
+;
 virtual
 bool
 UsePartialPresent

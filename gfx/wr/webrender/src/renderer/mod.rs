@@ -4637,9 +4637,6 @@ Native
 {
 ref
 compositor
-max_update_rects
-.
-.
 }
 =
 >
@@ -4658,7 +4655,6 @@ CompositorKind
 :
 Native
 {
-max_update_rects
 capabilities
 }
 }

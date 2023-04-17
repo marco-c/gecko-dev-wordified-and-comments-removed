@@ -1025,9 +1025,6 @@ PartialPresentCompositor
 }
 Native
 {
-max_update_rects
-:
-usize
 compositor
 :
 Box
@@ -1243,9 +1240,6 @@ bool
 }
 Native
 {
-max_update_rects
-:
-usize
 capabilities
 :
 CompositorCapabilities
@@ -3836,6 +3830,10 @@ pub
 redraw_on_invalidation
 :
 bool
+pub
+max_update_rects
+:
+usize
 }
 impl
 Default
@@ -3858,6 +3856,9 @@ virtual_surface_size
 redraw_on_invalidation
 :
 false
+max_update_rects
+:
+1
 }
 }
 }
