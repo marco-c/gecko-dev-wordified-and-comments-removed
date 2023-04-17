@@ -1634,9 +1634,6 @@ false
 TimeStamp
 mPendingTime
 ;
-TimeStamp
-mHTTPSRRQueryStart
-;
 TimeDuration
 mPendingDurationTime
 ;
