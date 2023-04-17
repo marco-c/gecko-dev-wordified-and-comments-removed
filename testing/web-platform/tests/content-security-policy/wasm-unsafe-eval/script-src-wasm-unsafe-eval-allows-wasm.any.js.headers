@@ -16,6 +16,8 @@ unsafe
 inline
 '
 '
+wasm
+-
 unsafe
 -
 eval
