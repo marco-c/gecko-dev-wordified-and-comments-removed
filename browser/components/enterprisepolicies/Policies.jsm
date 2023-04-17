@@ -7220,6 +7220,13 @@ security
 .
 tls
 .
+enable_0rtt_data
+"
+"
+security
+.
+tls
+.
 hello_downgrade_check
 "
 "
