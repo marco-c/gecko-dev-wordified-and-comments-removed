@@ -6,6 +6,13 @@ define
 COMPATIBILITY_MANAGER_H
 #
 include
+<
+windows
+.
+h
+>
+#
+include
 "
 mozilla
 /
