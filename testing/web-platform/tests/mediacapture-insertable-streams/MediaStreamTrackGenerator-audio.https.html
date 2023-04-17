@@ -165,7 +165,7 @@ script
 script
 >
 function
-makeAudioFrame
+makeAudioData
 (
 timestamp
 )
@@ -282,7 +282,7 @@ t
 }
 return
 new
-AudioFrame
+AudioData
 (
 {
 timestamp
@@ -329,7 +329,7 @@ writer
 .
 write
 (
-makeAudioFrame
+makeAudioData
 (
 1
 )
@@ -492,9 +492,9 @@ getWriter
 )
 ;
 const
-frame
+data
 =
-makeAudioFrame
+makeAudioData
 (
 1
 )
@@ -504,7 +504,7 @@ writer
 .
 write
 (
-frame
+data
 )
 ;
 assert_equals
@@ -870,9 +870,9 @@ getWriter
 )
 ;
 const
-frame
+data
 =
-makeAudioFrame
+makeAudioData
 (
 1
 )
@@ -881,7 +881,7 @@ writer
 .
 write
 (
-frame
+data
 )
 .
 then
@@ -929,7 +929,7 @@ TypeError
 }
 "
 Mismatched
-frame
+data
 and
 generator
 kind
@@ -1020,7 +1020,7 @@ writer
 .
 write
 (
-makeAudioFrame
+makeAudioData
 (
 1
 )

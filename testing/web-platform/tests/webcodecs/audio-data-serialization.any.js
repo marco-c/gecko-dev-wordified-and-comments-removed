@@ -16,12 +16,12 @@ frames
 100
 }
 function
-createDefaultAudioFrame
+createDefaultAudioData
 (
 )
 {
 return
-make_audio_frame
+make_audio_data
 (
 defaultInit
 .
@@ -45,9 +45,9 @@ t
 >
 {
 let
-localFrame
+localData
 =
-createDefaultAudioFrame
+createDefaultAudioData
 (
 )
 ;
@@ -88,7 +88,7 @@ e
 >
 {
 let
-externalFrame
+externalData
 =
 e
 .
@@ -97,7 +97,7 @@ data
 let
 buffer
 =
-externalFrame
+externalData
 .
 buffer
 ;
@@ -120,7 +120,7 @@ assert_equals
 buffer
 .
 numberOfChannels
-localFrame
+localData
 .
 buffer
 .
@@ -161,7 +161,7 @@ channel
 var
 source_array
 =
-localFrame
+localData
 .
 buffer
 .
@@ -222,7 +222,7 @@ i
 ;
 }
 }
-externalFrame
+externalData
 .
 close
 (
@@ -255,7 +255,7 @@ e
 {
 assert_true
 (
-localFrame
+localData
 .
 buffer
 !
@@ -263,7 +263,7 @@ buffer
 null
 )
 ;
-localFrame
+localData
 .
 close
 (
@@ -275,14 +275,14 @@ localPort
 .
 postMessage
 (
-localFrame
+localData
 )
 ;
 }
 '
 Verify
 closing
-frames
+AudioData
 does
 not
 propagate
@@ -299,9 +299,9 @@ t
 >
 {
 let
-localFrame
+localData
 =
-createDefaultAudioFrame
+createDefaultAudioData
 (
 )
 ;
@@ -330,7 +330,7 @@ unreached_func
 (
 )
 ;
-localFrame
+localData
 .
 close
 (
@@ -350,7 +350,7 @@ localPort
 .
 postMessage
 (
-localFrame
+localData
 )
 ;
 }
@@ -367,7 +367,7 @@ done
 Verify
 posting
 closed
-frames
+AudioData
 throws
 .
 '

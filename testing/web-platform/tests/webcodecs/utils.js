@@ -1,5 +1,5 @@
 function
-make_audio_frame
+make_audio_data
 (
 timestamp
 channels
@@ -116,7 +116,7 @@ t
 }
 return
 new
-AudioFrame
+AudioData
 (
 {
 timestamp
