@@ -804,7 +804,6 @@ bool
 isNull
 (
 )
-const
 {
 return
 value_
