@@ -816,6 +816,7 @@ return
 }
 try
 {
+await
 this
 .
 cdp
