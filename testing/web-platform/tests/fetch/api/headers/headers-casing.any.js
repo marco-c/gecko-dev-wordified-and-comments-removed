@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 headerDictCase
 =
@@ -161,6 +166,7 @@ headerDictCase
 ;
 for
 (
+const
 name
 in
 headerDictCase
@@ -200,6 +206,7 @@ Headers
 ;
 for
 (
+const
 name
 in
 headerDictCase
@@ -254,6 +261,7 @@ Headers
 ;
 for
 (
+const
 name
 in
 headerDictCase
@@ -308,6 +316,7 @@ Headers
 ;
 for
 (
+const
 name
 in
 headerDictCase
@@ -325,6 +334,7 @@ name
 ;
 for
 (
+const
 name
 in
 headerDictCase
@@ -342,6 +352,7 @@ toLowerCase
 ;
 for
 (
+const
 name
 in
 headerDictCase

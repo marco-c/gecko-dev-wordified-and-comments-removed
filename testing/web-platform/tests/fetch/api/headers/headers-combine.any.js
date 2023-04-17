@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 headerSeqCombine
 =
@@ -99,6 +104,7 @@ headerSeqCombine
 ;
 for
 (
+const
 name
 in
 expectedDict
@@ -147,6 +153,7 @@ headerSeqCombine
 ;
 for
 (
+const
 name
 in
 expectedDict
@@ -244,6 +251,7 @@ headerSeqCombine
 ;
 for
 (
+const
 name
 in
 expectedDict
@@ -317,6 +325,7 @@ headerSeqCombine
 ;
 for
 (
+const
 name
 in
 expectedDict

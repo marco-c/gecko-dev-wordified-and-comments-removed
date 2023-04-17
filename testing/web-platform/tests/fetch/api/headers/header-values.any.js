@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 [
 0
 0x0A
