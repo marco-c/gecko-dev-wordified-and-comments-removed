@@ -2731,11 +2731,6 @@ aSHEntry
 )
 ;
 void
-RecomputeCanExecuteScripts
-(
-)
-;
-void
 ClearFrameHistory
 (
 nsISHEntry
@@ -3633,11 +3628,6 @@ mAllowSubframes
 1
 ;
 bool
-mAllowJavascript
-:
-1
-;
-bool
 mAllowMetaRedirects
 :
 1
@@ -3699,11 +3689,6 @@ mWindowDraggingAllowed
 ;
 bool
 mInFrameSwap
-:
-1
-;
-bool
-mCanExecuteScripts
 :
 1
 ;

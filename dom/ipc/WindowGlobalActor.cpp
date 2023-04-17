@@ -308,6 +308,12 @@ nsIPermissionManager
 :
 UNKNOWN_ACTION
 ;
+fields
+.
+mAllowJavascript
+=
+true
+;
 return
 init
 ;

@@ -27,11 +27,12 @@ tab
 linkedBrowser
 ;
 let
+{
+browsingContext
 docShell
+}
 =
 browser
-.
-docShell
 ;
 let
 flags
@@ -126,7 +127,7 @@ allowMetaRedirects
 =
 false
 ;
-docShell
+browsingContext
 .
 allowJavascript
 =
@@ -352,7 +353,7 @@ allowed
 ;
 ok
 (
-docShell
+browsingContext
 .
 allowJavascript
 "

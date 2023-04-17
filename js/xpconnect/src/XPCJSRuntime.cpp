@@ -2104,7 +2104,7 @@ mScriptBlocks
 (
 0
 )
-mDocShellAllowsScript
+mWindowAllowsScript
 (
 true
 )
@@ -2191,7 +2191,7 @@ Allowed
 )
 {
 return
-mDocShellAllowsScript
+mWindowAllowsScript
 &
 &
 !
@@ -2253,13 +2253,13 @@ void
 Scriptability
 :
 :
-SetDocShellAllowsScript
+SetWindowAllowsScript
 (
 bool
 aAllowed
 )
 {
-mDocShellAllowsScript
+mWindowAllowsScript
 =
 aAllowed
 |

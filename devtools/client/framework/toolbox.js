@@ -8835,6 +8835,17 @@ function
 (
 )
 {
+if
+(
+this
+.
+target
+.
+traits
+.
+javascriptEnabled
+)
+{
 const
 javascriptEnabled
 =
@@ -8857,6 +8868,7 @@ javascriptEnabled
 }
 )
 ;
+}
 }
 updateToolboxButtonsVisibility
 (

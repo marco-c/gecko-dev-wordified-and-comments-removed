@@ -46,6 +46,8 @@ boolean
 javascriptEnabled
 :
 "
+nullable
+:
 boolean
 "
 traits
@@ -203,13 +205,6 @@ colorSchemeSimulation
 nullable
 :
 string
-"
-javascriptEnabled
-:
-"
-nullable
-:
-boolean
 "
 paintFlashing
 :

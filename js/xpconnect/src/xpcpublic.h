@@ -357,7 +357,7 @@ Unblock
 )
 ;
 void
-SetDocShellAllowsScript
+SetWindowAllowsScript
 (
 bool
 aAllowed
@@ -379,7 +379,7 @@ uint32_t
 mScriptBlocks
 ;
 bool
-mDocShellAllowsScript
+mWindowAllowsScript
 ;
 bool
 mImmuneToScriptPolicy
