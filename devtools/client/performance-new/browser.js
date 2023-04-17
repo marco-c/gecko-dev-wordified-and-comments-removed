@@ -740,7 +740,7 @@ function
 createMultiModalGetSymbolTableFn
 (
 profile
-getObjdirs
+objdirs
 perfFront
 )
 {
@@ -800,13 +800,6 @@ breakpadId
 )
 ;
 }
-const
-objdirs
-=
-getObjdirs
-(
-)
-;
 const
 {
 getSymbolTableMultiModal

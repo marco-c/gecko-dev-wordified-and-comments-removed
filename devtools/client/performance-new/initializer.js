@@ -577,10 +577,6 @@ profile
 createMultiModalGetSymbolTableFn
 (
 profile
-(
-)
-=
->
 selectors
 .
 getObjdirs
