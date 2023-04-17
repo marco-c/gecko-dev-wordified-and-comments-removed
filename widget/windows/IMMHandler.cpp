@@ -11636,7 +11636,7 @@ mMouseButtonEventData
 .
 mCursorPos
 ;
-nsIntRect
+LayoutDeviceIntRect
 charRect
 =
 aIMENotification
@@ -11644,10 +11644,6 @@ aIMENotification
 mMouseButtonEventData
 .
 mCharRect
-.
-AsIntRect
-(
-)
 ;
 int32_t
 cursorXInChar
