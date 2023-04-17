@@ -691,6 +691,9 @@ enabled
 true
 )
 ;
+#
+ifdef
+MOZ_JXL
 Preferences
 :
 :
@@ -706,6 +709,8 @@ enabled
 true
 )
 ;
+#
+endif
 nsCOMPtr
 <
 imgITools
@@ -811,6 +816,9 @@ RunDecodeToSurfaceFuzzingAVIF
 ImageAVIF
 )
 ;
+#
+ifdef
+MOZ_JXL
 MOZ_FUZZING_INTERFACE_STREAM
 (
 FuzzingInitImage
@@ -818,3 +826,5 @@ RunDecodeToSurfaceFuzzingJXL
 ImageJXL
 )
 ;
+#
+endif

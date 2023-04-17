@@ -225,6 +225,10 @@ skip
 if
 (
 Android
+|
+|
+!
+jxl
 )
 include
 jxl
