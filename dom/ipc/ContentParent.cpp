@@ -33518,10 +33518,6 @@ nsACString
 aHostName
 int32_t
 aPort
-const
-OriginAttributes
-&
-aOriginAttributes
 bool
 aIsTemporary
 AddCertExceptionResolver
@@ -33613,7 +33609,6 @@ RememberValidityOverride
 (
 aHostName
 aPort
-aOriginAttributes
 cert
 aFlags
 aIsTemporary
