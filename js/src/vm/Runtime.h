@@ -4938,15 +4938,6 @@ JS
 FilenameValidationCallback
 gFilenameValidationCallback
 ;
-extern
-void
-(
-*
-HelperThreadTaskCallback
-)
-(
-)
-;
 }
 #
 endif
