@@ -352,6 +352,13 @@ SVGImageContext
 >
 &
 aSVGContext
+const
+Maybe
+<
+ImageIntRegion
+>
+&
+aRegion
 uint32_t
 aFlags
 layers
@@ -381,6 +388,7 @@ GetImageContainerAtSize
 aManager
 aSize
 aSVGContext
+aRegion
 aFlags
 aOutContainer
 )

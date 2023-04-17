@@ -1118,6 +1118,9 @@ Size
 Nothing
 (
 )
+Nothing
+(
+)
 aWhichFrame
 aFlags
 1
@@ -1190,6 +1193,13 @@ SVGImageContext
 >
 &
 aSVGContext
+const
+Maybe
+<
+ImageIntRegion
+>
+&
+aRegion
 uint32_t
 aWhichFrame
 uint32_t
@@ -1681,6 +1691,13 @@ SVGImageContext
 >
 &
 aSVGContext
+const
+Maybe
+<
+ImageIntRegion
+>
+&
+aRegion
 uint32_t
 aFlags
 layers
@@ -1711,6 +1728,7 @@ GetImageContainerAtSize
 aManager
 aSize
 aSVGContext
+aRegion
 aFlags
 aOutContainer
 )
@@ -1911,6 +1929,9 @@ GetFrameInternal
 (
 aSize
 aSVGContext
+Nothing
+(
+)
 aWhichFrame
 aFlags
 aOpacity

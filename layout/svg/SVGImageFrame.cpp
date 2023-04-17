@@ -62,6 +62,13 @@ h
 #
 include
 "
+ImageRegion
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -3036,6 +3043,12 @@ GetAnimValue
 )
 ;
 }
+Maybe
+<
+ImageIntRegion
+>
+region
+;
 IntSize
 decodeSize
 =
@@ -3047,9 +3060,11 @@ ComputeImageContainerDrawingParameters
 mImageContainer
 this
 destRect
+destRect
 aSc
 flags
 svgContext
+region
 )
 ;
 RefPtr
@@ -3077,6 +3092,7 @@ LayerManager
 )
 decodeSize
 svgContext
+region
 flags
 getter_AddRefs
 (

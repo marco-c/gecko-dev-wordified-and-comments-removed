@@ -193,6 +193,13 @@ h
 #
 include
 "
+ImageRegion
+.
+h
+"
+#
+include
+"
 ImageContainer
 .
 h
@@ -2104,6 +2111,12 @@ SVGImageContext
 >
 svgContext
 ;
+Maybe
+<
+ImageIntRegion
+>
+region
+;
 gfx
 :
 :
@@ -2123,9 +2136,11 @@ Frame
 (
 )
 fillRect
+fillRect
 aSc
 containerFlags
 svgContext
+region
 )
 ;
 RefPtr
@@ -2152,6 +2167,7 @@ LayerManager
 )
 decodeSize
 svgContext
+region
 containerFlags
 getter_AddRefs
 (

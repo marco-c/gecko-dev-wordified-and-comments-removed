@@ -3188,6 +3188,12 @@ destCSSSize
 )
 )
 ;
+Maybe
+<
+ImageIntRegion
+>
+region
+;
 const
 int32_t
 appUnitsPerDevPixel
@@ -3245,9 +3251,11 @@ ComputeImageContainerDrawingParameters
 mImageContainer
 mForFrame
 destRect
+destRect
 aSc
 containerFlags
 svgContext
+region
 )
 ;
 RefPtr
@@ -3274,6 +3282,7 @@ LayerManager
 )
 decodeSize
 svgContext
+region
 containerFlags
 getter_AddRefs
 (

@@ -78,6 +78,13 @@ h
 #
 include
 "
+ImageRegion
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -17253,6 +17260,12 @@ SVGImageContext
 >
 svgContext
 ;
+Maybe
+<
+ImageIntRegion
+>
+region
+;
 gfx
 :
 :
@@ -17267,9 +17280,11 @@ ComputeImageContainerDrawingParameters
 img
 aForFrame
 imageRect
+imageRect
 aSc
 flags
 svgContext
+region
 )
 ;
 RefPtr
@@ -17296,6 +17311,7 @@ LayerManager
 )
 decodeSize
 svgContext
+region
 flags
 getter_AddRefs
 (

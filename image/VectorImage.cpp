@@ -2865,6 +2865,9 @@ aSize
 Nothing
 (
 )
+Nothing
+(
+)
 aWhichFrame
 aFlags
 )
@@ -2908,6 +2911,13 @@ SVGImageContext
 >
 &
 aSVGContext
+const
+Maybe
+<
+ImageIntRegion
+>
+&
+aRegion
 uint32_t
 aWhichFrame
 uint32_t
@@ -3580,6 +3590,13 @@ SVGImageContext
 >
 &
 aSVGContext
+const
+Maybe
+<
+ImageIntRegion
+>
+&
+aRegion
 uint32_t
 aFlags
 layers
@@ -3624,6 +3641,7 @@ newSVGContext
 newSVGContext
 :
 aSVGContext
+aRegion
 flags
 aOutContainer
 )
