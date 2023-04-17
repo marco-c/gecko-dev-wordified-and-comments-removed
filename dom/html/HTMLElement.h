@@ -93,13 +93,6 @@ aRv
 )
 override
 ;
-bool
-IsFormAssociatedElement
-(
-)
-const
-override
-;
 void
 UpdateFormOwner
 (
@@ -179,6 +172,13 @@ override
 ;
 bool
 DoesReadOnlyApply
+(
+)
+const
+override
+;
+bool
+IsFormAssociatedElement
 (
 )
 const
