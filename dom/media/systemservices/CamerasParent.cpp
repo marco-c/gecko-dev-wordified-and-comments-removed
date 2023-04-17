@@ -281,7 +281,7 @@ using
 media
 :
 :
-GetShutdownBarrier
+MustGetShutdownBarrier
 ;
 using
 media
@@ -1208,7 +1208,7 @@ thread
 nsresult
 rv
 =
-GetShutdownBarrier
+MustGetShutdownBarrier
 (
 )
 -
@@ -6317,7 +6317,7 @@ self
 nsresult
 rv
 =
-GetShutdownBarrier
+MustGetShutdownBarrier
 (
 )
 -
