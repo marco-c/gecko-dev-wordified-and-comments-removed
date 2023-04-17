@@ -45014,6 +45014,14 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+PersistLayoutHistoryState
+(
+)
+;
+SynchronizeLayoutHistoryState
+(
+)
+;
 nsresult
 rv
 ;
