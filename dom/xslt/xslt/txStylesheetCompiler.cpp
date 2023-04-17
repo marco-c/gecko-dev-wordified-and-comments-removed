@@ -2672,7 +2672,7 @@ eHandlerTable
 )
 ;
 }
-nsresult
+void
 txStylesheetCompilerState
 :
 :
@@ -2692,9 +2692,6 @@ ePushNewContext
 mSorter
 =
 aSorter
-;
-return
-NS_OK
 ;
 }
 void
