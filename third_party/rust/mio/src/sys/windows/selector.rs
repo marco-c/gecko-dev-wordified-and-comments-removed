@@ -1955,6 +1955,13 @@ ident
 =
 >
 (
+#
+[
+allow
+(
+deref_nullptr
+)
+]
 {
 let
 offset
