@@ -212,7 +212,7 @@ n
 static
 constexpr
 char16_t
-kCarridgeReturn
+kCarriageReturn
 =
 '
 \
@@ -7004,7 +7004,7 @@ case
 HTMLEditUtils
 :
 :
-kCarridgeReturn
+kCarriageReturn
 :
 case
 HTMLEditUtils
@@ -7379,7 +7379,7 @@ case
 HTMLEditUtils
 :
 :
-kCarridgeReturn
+kCarriageReturn
 :
 case
 HTMLEditUtils

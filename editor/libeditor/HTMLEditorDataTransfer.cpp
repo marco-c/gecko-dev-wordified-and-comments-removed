@@ -13956,7 +13956,7 @@ FindCharInReadable
 HTMLEditUtils
 :
 :
-kCarridgeReturn
+kCarriageReturn
 dbgStart
 strEnd
 )

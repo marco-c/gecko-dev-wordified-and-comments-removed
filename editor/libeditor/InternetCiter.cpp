@@ -155,7 +155,7 @@ endIter
 HTMLEditUtils
 :
 :
-kCarridgeReturn
+kCarriageReturn
 |
 |
 *
@@ -414,7 +414,7 @@ c
 HTMLEditUtils
 :
 :
-kCarridgeReturn
+kCarriageReturn
 )
 |
 |
@@ -464,7 +464,7 @@ FindChar
 HTMLEditUtils
 :
 :
-kCarridgeReturn
+kCarriageReturn
 )
 ;
 NS_ASSERTION
