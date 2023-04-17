@@ -10353,9 +10353,6 @@ gfxFontGroup
 :
 gfxFontGroup
 (
-nsPresContext
-*
-aPresContext
 const
 StyleFontFamilyList
 &
@@ -10379,10 +10376,6 @@ gfxFloat
 aDevToCssSize
 )
 :
-mPresContext
-(
-aPresContext
-)
 mFamilyList
 (
 aFontFamilyList
@@ -10609,7 +10602,6 @@ pfl
 >
 AddGenericFonts
 (
-mPresContext
 generic
 mLanguage
 fonts
@@ -10658,7 +10650,6 @@ pfl
 >
 AddGenericFonts
 (
-mPresContext
 mFamilyList
 .
 fallback
@@ -10803,7 +10794,6 @@ PlatformFontList
 >
 FindAndAddFamilies
 (
-mPresContext
 StyleGenericFontFamily
 :
 :
@@ -11767,7 +11757,6 @@ pfl
 >
 GetDefaultFont
 (
-mPresContext
 &
 mStyle
 )
@@ -15476,7 +15465,6 @@ matchedFont
 >
 InitFakeSmallCapsRun
 (
-mPresContext
 aDrawTarget
 aTextRun
 aString
@@ -18262,23 +18250,6 @@ defaultFont
 }
 }
 }
-FontVisibility
-level
-=
-mPresContext
-?
-mPresContext
--
->
-GetFontVisibility
-(
-)
-:
-FontVisibility
-:
-:
-User
-;
 if
 (
 gfxPlatformFontList
@@ -18291,7 +18262,6 @@ PlatformFontList
 >
 SkipFontFallbackForChar
 (
-level
 aCh
 )
 |
@@ -20258,7 +20228,6 @@ pfl
 >
 GetPrefFontsLangGroup
 (
-mPresContext
 generic
 currentLang
 )
@@ -20604,7 +20573,6 @@ PlatformFontList
 >
 SystemFindFontForChar
 (
-mPresContext
 aCh
 aNextCh
 aRunScript

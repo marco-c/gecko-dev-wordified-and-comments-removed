@@ -2062,12 +2062,6 @@ GetPlatform
 >
 LookupLocalFont
 (
-mFontSet
--
->
-GetPresContext
-(
-)
 currSrc
 .
 mLocalName

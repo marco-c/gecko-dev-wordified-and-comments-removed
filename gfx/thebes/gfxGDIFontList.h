@@ -1271,9 +1271,6 @@ override
 bool
 FindAndAddFamilies
 (
-nsPresContext
-*
-aPresContext
 mozilla
 :
 :
@@ -1315,9 +1312,6 @@ gfxFontEntry
 *
 LookupLocalFont
 (
-nsPresContext
-*
-aPresContext
 const
 nsACString
 &
@@ -1388,9 +1382,6 @@ protected
 FontFamily
 GetDefaultFontForPlatform
 (
-nsPresContext
-*
-aPresContext
 const
 gfxFontStyle
 *

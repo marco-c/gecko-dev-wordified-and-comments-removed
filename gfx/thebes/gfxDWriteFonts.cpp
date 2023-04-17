@@ -1212,7 +1212,6 @@ PlatformFontList
 >
 FindFontForFamily
 (
-nullptr
 "
 Arial
 "

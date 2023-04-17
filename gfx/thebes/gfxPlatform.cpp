@@ -9195,9 +9195,6 @@ gfxPlatform
 :
 CreateFontGroup
 (
-nsPresContext
-*
-aPresContext
 const
 StyleFontFamilyList
 &
@@ -9226,7 +9223,6 @@ return
 new
 gfxFontGroup
 (
-aPresContext
 aFontFamilyList
 aStyle
 aLanguage
@@ -9244,9 +9240,6 @@ gfxPlatform
 :
 LookupLocalFont
 (
-nsPresContext
-*
-aPresContext
 const
 nsACString
 &
@@ -9270,7 +9263,6 @@ PlatformFontList
 >
 LookupLocalFont
 (
-aPresContext
 aFontName
 aWeightForEntry
 aStretchForEntry

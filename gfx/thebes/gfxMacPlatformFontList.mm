@@ -6290,9 +6290,6 @@ gfxMacPlatformFontList
 :
 PlatformGlobalFontFallback
 (
-nsPresContext
-*
-aPresContext
 const
 uint32_t
 aCh
@@ -6601,7 +6598,6 @@ family
 =
 FindSharedFamily
 (
-aPresContext
 familyNameString
 )
 ;
@@ -6787,9 +6783,6 @@ gfxMacPlatformFontList
 :
 GetDefaultFontForPlatform
 (
-nsPresContext
-*
-aPresContext
 const
 gfxFontStyle
 *
@@ -6831,7 +6824,6 @@ familyName
 return
 FindFamily
 (
-aPresContext
 NS_ConvertUTF16toUTF8
 (
 familyName
@@ -6884,9 +6876,6 @@ gfxMacPlatformFontList
 :
 LookupLocalFont
 (
-nsPresContext
-*
-aPresContext
 const
 nsACString
 &
@@ -7095,7 +7084,6 @@ family
 =
 FindFamily
 (
-aPresContext
 key
 )
 ;
@@ -7302,9 +7290,9 @@ gfxMacPlatformFontList
 :
 FindAndAddFamilies
 (
-nsPresContext
-*
-aPresContext
+mozilla
+:
+:
 StyleGenericFontFamily
 aGeneric
 const
@@ -7398,7 +7386,6 @@ gfxPlatformFontList
 :
 FindAndAddFamilies
 (
-aPresContext
 aGeneric
 systemFontFamilyName
 aOutput
@@ -7446,7 +7433,6 @@ gfxPlatformFontList
 :
 FindAndAddFamilies
 (
-aPresContext
 aGeneric
 aFamily
 aOutput
