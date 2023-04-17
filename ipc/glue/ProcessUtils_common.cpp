@@ -577,6 +577,8 @@ prefsHandle
 =
 Some
 (
+UniqueFileHandle
+(
 HANDLE
 (
 (
@@ -584,6 +586,7 @@ uintptr_t
 )
 (
 aPrefsHandle
+)
 )
 )
 )
