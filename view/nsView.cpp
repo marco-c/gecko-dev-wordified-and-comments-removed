@@ -624,6 +624,7 @@ nsView
 :
 GetViewFor
 (
+const
 nsIWidget
 *
 aWidget
@@ -631,9 +632,6 @@ aWidget
 {
 MOZ_ASSERT
 (
-nullptr
-!
-=
 aWidget
 "
 null
@@ -658,6 +656,8 @@ if
 listener
 )
 {
+if
+(
 nsView
 *
 view
@@ -668,14 +668,12 @@ listener
 GetView
 (
 )
-;
-if
-(
-view
 )
+{
 return
 view
 ;
+}
 }
 listener
 =

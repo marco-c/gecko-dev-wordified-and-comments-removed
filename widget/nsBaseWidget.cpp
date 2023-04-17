@@ -1998,6 +1998,7 @@ nsBaseWidget
 GetWidgetListener
 (
 )
+const
 {
 return
 mWidgetListener
@@ -2227,6 +2228,7 @@ nsBaseWidget
 GetAttachedWidgetListener
 (
 )
+const
 {
 return
 mAttachedWidgetListener

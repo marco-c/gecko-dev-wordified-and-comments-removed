@@ -190,6 +190,7 @@ nsView
 *
 GetViewFor
 (
+const
 nsIWidget
 *
 aWidget

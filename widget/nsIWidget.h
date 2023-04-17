@@ -1548,6 +1548,7 @@ nsIWidgetListener
 GetAttachedWidgetListener
 (
 )
+const
 =
 0
 ;
@@ -1577,6 +1578,7 @@ nsIWidgetListener
 GetWidgetListener
 (
 )
+const
 =
 0
 ;
