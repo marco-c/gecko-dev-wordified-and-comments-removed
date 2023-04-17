@@ -29,6 +29,8 @@ CDumper
 '
 ]
 from
+yaml
+.
 _yaml
 import
 CParser

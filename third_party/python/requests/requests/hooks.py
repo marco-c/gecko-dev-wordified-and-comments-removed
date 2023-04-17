@@ -71,18 +71,16 @@ default_hooks
 :
     
 return
-dict
-(
-(
+{
 event
+:
 [
 ]
-)
 for
 event
 in
 HOOKS
-)
+}
 def
 dispatch_hook
 (
@@ -117,9 +115,8 @@ hooks
 =
 hooks
 or
-dict
-(
-)
+{
+}
     
 hooks
 =
