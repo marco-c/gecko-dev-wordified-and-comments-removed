@@ -430,14 +430,6 @@ nullptr
 namespace
 js
 {
-void
-(
-*
-HelperThreadTaskCallback
-)
-(
-)
-;
 #
 ifndef
 __wasi__
