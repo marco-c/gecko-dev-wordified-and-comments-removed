@@ -323,6 +323,15 @@ source
 -
 map
 -
+-
+load
+-
+path
+=
+content
+-
+src
+-
 w
 welcomeBundle
 :
