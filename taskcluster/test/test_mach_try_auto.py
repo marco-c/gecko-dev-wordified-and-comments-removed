@@ -576,6 +576,26 @@ build
 -
 signing
 "
+            
+marks
+=
+pytest
+.
+mark
+.
+xfail
+(
+reason
+=
+"
+some
+xpcshell
+tests
+require
+signed
+builds
+"
+)
         
 )
         
