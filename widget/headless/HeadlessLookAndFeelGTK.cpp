@@ -1119,12 +1119,6 @@ IntID
 :
 GTKCSDHideTitlebarByDefault
 :
-case
-IntID
-:
-:
-GTKCSDTransparentBackground
-:
 aResult
 =
 0

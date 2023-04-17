@@ -201,7 +201,6 @@ ContextMenuOffsetVertical
 ContextMenuOffsetHorizontal
 GTKCSDAvailable
 GTKCSDHideTitlebarByDefault
-GTKCSDTransparentBackground
 GTKCSDMinimizeButton
 GTKCSDMaximizeButton
 GTKCSDCloseButton
