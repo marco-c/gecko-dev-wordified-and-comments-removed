@@ -3167,6 +3167,8 @@ surfSize
 {
 }
 ;
+Maybe
+<
 mozilla
 :
 :
@@ -3174,6 +3176,7 @@ ipc
 :
 :
 Shmem
+>
 shmem
 =
 {
