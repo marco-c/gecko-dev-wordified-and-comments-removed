@@ -8453,6 +8453,12 @@ nsCycleCollector_suspectedCount
 (
 )
 )
+!
+=
+CCReason
+:
+:
+NO_REASON
 )
 {
 nsCycleCollector_dispatchDeferredDeletion
@@ -8553,6 +8559,12 @@ nsCycleCollector_suspectedCount
 (
 )
 )
+!
+=
+CCReason
+:
+:
+NO_REASON
 )
 {
 nsCycleCollector_dispatchDeferredDeletion
