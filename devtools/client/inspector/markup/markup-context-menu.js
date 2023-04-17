@@ -1495,9 +1495,15 @@ const
 res
 =
 await
-hud
+this
 .
-evaluateJSAsync
+toolbox
+.
+commands
+.
+scriptCommand
+.
+execute
 (
 evalString
 {

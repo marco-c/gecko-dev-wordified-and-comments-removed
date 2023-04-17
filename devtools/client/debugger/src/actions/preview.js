@@ -463,7 +463,7 @@ result
 await
 client
 .
-evaluateInFrame
+evaluate
 (
 expression
 {
@@ -472,7 +472,6 @@ frameId
 selectedFrame
 .
 id
-thread
 }
 )
 ;

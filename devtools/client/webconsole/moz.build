@@ -43,11 +43,6 @@ console
 js
 "
 "
-commands
-.
-js
-"
-"
 constants
 .
 js

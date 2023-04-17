@@ -37,7 +37,7 @@ return
 async
 (
 {
-client
+commands
 hud
 }
 )
@@ -100,9 +100,11 @@ const
 res
 =
 await
-client
+commands
 .
-evaluateJSAsync
+scriptCommand
+.
+execute
 (
 evalString
 {
@@ -122,6 +124,8 @@ toolbox
 const
 objectFront
 =
+commands
+.
 client
 .
 getFrontByID
@@ -190,7 +194,7 @@ return
 async
 (
 {
-client
+commands
 }
 )
 =
@@ -205,9 +209,11 @@ const
 res
 =
 await
-client
+commands
 .
-evaluateJSAsync
+scriptCommand
+.
+execute
 (
 "
 copy
