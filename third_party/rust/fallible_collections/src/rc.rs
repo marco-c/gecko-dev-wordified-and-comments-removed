@@ -87,7 +87,17 @@ TryReserveError
 let
 b
 =
+<
 Box
+<
+T
+>
+as
+FallibleBox
+<
+T
+>
+>
 :
 :
 try_new

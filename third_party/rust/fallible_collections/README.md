@@ -208,7 +208,7 @@ fallible_collections
 "
 0
 .
-3
+4
 .
 1
 "
@@ -277,7 +277,17 @@ let
 mut
 a
 =
+<
 Box
+<
+_
+>
+as
+FallibleBox
+<
+_
+>
+>
 :
 :
 try_new

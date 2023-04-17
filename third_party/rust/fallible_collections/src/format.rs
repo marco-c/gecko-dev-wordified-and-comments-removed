@@ -31,15 +31,6 @@ string
 :
 String
 ;
-use
-alloc
-:
-:
-vec
-:
-:
-Vec
-;
 pub
 fn
 try_format
@@ -66,7 +57,7 @@ TryReserveError
 let
 v
 =
-Vec
+FallibleVec
 :
 :
 try_with_capacity

@@ -721,6 +721,13 @@ ColorInformationBox
 "
 colr
 "
+ImageSpatialExtentsProperty
+0x6973_7065
+/
+/
+"
+ispe
+"
 PixelInformationBox
 0x7069_7869
 /

@@ -255,6 +255,15 @@ reftest
 .
 list
 #
+AVIF
+tests
+include
+avif
+/
+reftest
+.
+list
+#
 Generic
 image
 tests
