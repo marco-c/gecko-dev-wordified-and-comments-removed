@@ -1800,6 +1800,10 @@ NumberPartType
 :
 :
 Integer
+NumberPartSource
+:
+:
+Shared
 3
 }
 )
@@ -1818,6 +1822,10 @@ NumberPartType
 :
 :
 Group
+NumberPartSource
+:
+:
+Shared
 4
 }
 )
@@ -1836,6 +1844,10 @@ NumberPartType
 :
 :
 Integer
+NumberPartSource
+:
+:
+Shared
 7
 }
 )
@@ -1854,6 +1866,10 @@ NumberPartType
 :
 :
 Decimal
+NumberPartSource
+:
+:
+Shared
 8
 }
 )
@@ -1872,6 +1888,10 @@ NumberPartType
 :
 :
 Fraction
+NumberPartSource
+:
+:
+Shared
 11
 }
 )
