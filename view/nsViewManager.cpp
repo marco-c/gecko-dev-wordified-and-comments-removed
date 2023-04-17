@@ -1474,13 +1474,9 @@ else
 presShell
 -
 >
-Paint
+SyncPaintFallback
 (
 aView
-PaintFlags
-:
-:
-PaintComposite
 )
 ;
 }
@@ -2222,7 +2218,7 @@ endif
 presShell
 -
 >
-Paint
+PaintAndRequestComposite
 (
 view
 PaintFlags

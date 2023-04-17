@@ -13305,7 +13305,7 @@ GetRootView
 presShell
 -
 >
-Paint
+PaintAndRequestComposite
 (
 view
 PaintFlags
