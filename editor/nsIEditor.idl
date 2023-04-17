@@ -193,12 +193,6 @@ eEditorReadonlyMask
 ;
 const
 long
-eEditorFilterInputMask
-=
-0x0010
-;
-const
-long
 eEditorMailMask
 =
 0x0020
