@@ -8193,13 +8193,16 @@ Memcheck
 Cond
 fun
 :
-_ZN5style10properties10shorthands4font10parse_into17hdbde89d63594167dE
+_ZN5style10properties10shorthands4font10parse_into
+*
 fun
 :
-_ZN5style10properties19PropertyDeclaration10parse_into17h5b1aaabefd80275aE
+_ZN5style10properties19PropertyDeclaration10parse_into
+*
 fun
 :
-_ZN5style10properties17declaration_block31parse_property_declaration_list17hd3d3e0b8230d638aE
+_ZN5style10properties17declaration_block31parse_property_declaration_list
+*
 fun
 :
 _ZN124_
@@ -8225,5 +8228,6 @@ rules_and_declarations
 .
 QualifiedRuleParser
 GT
-11parse_block17hbbb5be28f1605266E
+11parse_block
+*
 }
