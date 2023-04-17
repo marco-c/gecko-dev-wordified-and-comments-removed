@@ -71,6 +71,12 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+|
+|
+defined
+(
+MOZ_WMF
+)
 if
 (
 aCodecType

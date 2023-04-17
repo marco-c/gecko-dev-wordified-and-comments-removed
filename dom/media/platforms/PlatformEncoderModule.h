@@ -177,7 +177,6 @@ PlatformEncoderModule
 =
 default
 ;
-;
 }
 ;
 class
@@ -212,6 +211,7 @@ _EndVideo_
 Opus
 G722
 _EndAudio_
+Unknown
 }
 ;
 struct
