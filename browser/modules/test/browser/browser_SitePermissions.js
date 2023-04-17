@@ -216,7 +216,7 @@ label
 "
 Use
 the
-Camera
+camera
 "
 state
 :
@@ -320,7 +320,7 @@ label
 :
 "
 Set
-Cookies
+cookies
 "
 state
 :
@@ -373,10 +373,10 @@ label
 :
 "
 Open
-Pop
+pop
 -
 up
-Windows
+windows
 "
 state
 :
@@ -429,8 +429,8 @@ label
 :
 "
 Access
-Your
-Location
+your
+location
 "
 state
 :
@@ -483,8 +483,8 @@ label
 :
 "
 Override
-Keyboard
-Shortcuts
+keyboard
+shortcuts
 "
 state
 :
@@ -537,9 +537,9 @@ label
 :
 "
 Access
-Virtual
-Reality
-Devices
+virtual
+reality
+devices
 "
 state
 :
