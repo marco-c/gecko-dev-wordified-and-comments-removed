@@ -461,6 +461,8 @@ windows10
 -
 64
 -
+2004
+-
 shippable
 .
 *
@@ -469,6 +471,8 @@ shippable
 windows10
 -
 64
+-
+2004
 -
 asan
 .

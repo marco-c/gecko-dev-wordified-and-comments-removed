@@ -1303,8 +1303,6 @@ ui
 functional
 -
 remote
--
-gtest
 #
 -
 jittest
@@ -1435,6 +1433,8 @@ tests
 :
 -
 cppunit
+-
+gtest
 -
 mochitest
 -
