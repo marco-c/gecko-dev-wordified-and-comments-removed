@@ -5178,7 +5178,7 @@ asyncshutdown
 .
 crash_timeout
 "
-300000
+180000
 )
 ;
 #

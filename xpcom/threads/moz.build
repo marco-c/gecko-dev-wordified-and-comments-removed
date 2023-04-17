@@ -103,11 +103,6 @@ nsICancelableRunnable
 h
 "
 "
-nsIDelayedRunnableObserver
-.
-h
-"
-"
 nsIDiscardableRunnable
 .
 h
@@ -186,11 +181,6 @@ h
 "
 "
 DeadlockDetector
-.
-h
-"
-"
-DelayedRunnable
 .
 h
 "
@@ -376,11 +366,6 @@ cpp
 "
 "
 CPUUsageWatcher
-.
-cpp
-"
-"
-DelayedRunnable
 .
 cpp
 "
