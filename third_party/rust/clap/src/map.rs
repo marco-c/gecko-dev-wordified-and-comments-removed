@@ -70,7 +70,7 @@ std
 collections
 :
 :
-BTreeMap
+btree_map
 ;
 use
 std
@@ -79,7 +79,7 @@ std
 collections
 :
 :
-btree_map
+BTreeMap
 ;
 use
 std

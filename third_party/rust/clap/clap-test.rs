@@ -188,8 +188,6 @@ b
 println
 !
 (
-"
-"
 )
 ;
 println
@@ -838,7 +836,7 @@ two
 ]
 '
 Tests
-mutliple
+multiple
 values
 not
 mult
@@ -866,7 +864,7 @@ two
 ]
 '
 Tests
-mutliple
+multiple
 values
 and
 mult

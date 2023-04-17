@@ -63,13 +63,13 @@ githubcontrib
 -
 -
 owner
-kbknapp
+clap
+-
+rs
 -
 -
 repo
 clap
--
-rs
 -
 -
 sha
