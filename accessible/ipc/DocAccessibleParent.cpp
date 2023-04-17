@@ -111,6 +111,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_accessibility
+.
+h
+"
+#
+include
+"
 nsWinUtils
 .
 h
