@@ -11134,6 +11134,13 @@ TextureCacheConfig
 :
 :
 DEFAULT
+self
+.
+texture_cache
+.
+picture_texture_filter
+(
+)
 )
 ;
 }
