@@ -2066,7 +2066,7 @@ promote_scalars_assign
 impl
 imp
 <
-UsizePromotion
+IsizePromotion
 >
 for
 res
