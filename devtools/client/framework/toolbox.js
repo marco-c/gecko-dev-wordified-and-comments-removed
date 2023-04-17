@@ -3811,7 +3811,7 @@ _applyServiceWorkersTestingSettings
 ;
 this
 .
-_applyJavascriptEnabledSettings
+_forwardJavascriptEnabledToTargetConfiguration
 (
 )
 ;
@@ -8745,7 +8745,7 @@ serviceWorkersTestingEnabled
 )
 ;
 }
-_applyJavascriptEnabledSettings
+_forwardJavascriptEnabledToTargetConfiguration
 :
 function
 (
