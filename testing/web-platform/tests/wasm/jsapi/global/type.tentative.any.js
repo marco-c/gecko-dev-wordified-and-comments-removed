@@ -327,7 +327,7 @@ true
 )
 }
 "
-anyref
+externref
 mutable
 "
 )
@@ -357,7 +357,7 @@ false
 )
 }
 "
-anyref
+externref
 immutable
 "
 )
@@ -376,7 +376,7 @@ value
 "
 :
 "
-funcref
+anyfunc
 "
 "
 mutable
@@ -387,7 +387,7 @@ true
 )
 }
 "
-funcref
+anyfunc
 mutable
 "
 )
@@ -406,7 +406,7 @@ value
 "
 :
 "
-funcref
+anyfunc
 "
 "
 mutable
@@ -417,7 +417,7 @@ false
 )
 }
 "
-funcref
+anyfunc
 immutable
 "
 )
