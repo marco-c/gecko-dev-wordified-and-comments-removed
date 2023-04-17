@@ -2330,6 +2330,13 @@ ATTR_GLOBAL
 nsGkAtoms
 :
 :
+aria_description
+ATTR_GLOBAL
+}
+{
+nsGkAtoms
+:
+:
 aria_details
 ATTR_BYPASSOBJ
 |
