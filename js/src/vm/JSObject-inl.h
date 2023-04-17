@@ -841,6 +841,9 @@ NonSyntacticVariablesObject
 namespace
 js
 {
+#
+ifdef
+DEBUG
 inline
 bool
 ClassCanHaveFixedData
@@ -883,6 +886,8 @@ clasp
 )
 ;
 }
+#
+endif
 class
 MOZ_RAII
 AutoSuppressAllocationMetadataBuilder
