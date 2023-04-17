@@ -2318,16 +2318,6 @@ browser
 .
 proton
 .
-urlbar
-.
-enabled
-"
-_ns
-"
-browser
-.
-proton
-.
 contextmenus
 .
 enabled
