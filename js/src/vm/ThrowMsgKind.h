@@ -37,6 +37,7 @@ CantDeleteSuper
 PrivateDoubleInit
 MissingPrivateOnGet
 MissingPrivateOnSet
+AssignToPrivateMethod
 }
 ;
 JSErrNum

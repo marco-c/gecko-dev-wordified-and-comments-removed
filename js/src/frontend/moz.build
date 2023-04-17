@@ -257,6 +257,11 @@ ParserAtom
 cpp
 "
 "
+PrivateOpEmitter
+.
+cpp
+"
+"
 PropOpEmitter
 .
 cpp
