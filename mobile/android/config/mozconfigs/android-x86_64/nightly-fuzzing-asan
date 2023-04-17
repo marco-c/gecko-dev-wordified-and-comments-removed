@@ -140,7 +140,7 @@ MOZ_FETCHES_DIR
 /
 clang
 /
-lib64
+lib
 /
 clang
 /
