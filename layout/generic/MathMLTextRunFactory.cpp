@@ -2193,6 +2193,13 @@ doMathvariantStyling
 =
 true
 ;
+fontGroup
+-
+>
+CheckForUpdatedPlatformList
+(
+)
+;
 for
 (
 uint32_t

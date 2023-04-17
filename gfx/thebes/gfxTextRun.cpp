@@ -12657,6 +12657,10 @@ StyleGenericFontFamily
 aGeneric
 )
 {
+CheckForUpdatedPlatformList
+(
+)
+;
 uint32_t
 count
 =
