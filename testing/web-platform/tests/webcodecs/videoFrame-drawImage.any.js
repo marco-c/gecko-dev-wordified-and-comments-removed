@@ -13,6 +13,11 @@ let
 vfInit
 =
 {
+format
+:
+'
+ABGR
+'
 timestamp
 :
 0
@@ -77,9 +82,6 @@ frame
 new
 VideoFrame
 (
-'
-ABGR
-'
 [
 argbPlane
 ]
