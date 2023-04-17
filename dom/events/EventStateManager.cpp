@@ -2427,6 +2427,11 @@ static_cast
 uint32_t
 >
 (
+std
+:
+:
+ceil
+(
 (
 gTypingEndTime
 -
@@ -2435,6 +2440,7 @@ gTypingStartTime
 .
 ToMilliseconds
 (
+)
 )
 )
 ;
