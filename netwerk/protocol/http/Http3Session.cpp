@@ -2346,7 +2346,7 @@ this
 )
 )
 ;
-continue
+break
 ;
 }
 stream
