@@ -7243,9 +7243,6 @@ function
 (
 )
 {
-let
-destroyPromise
-;
 if
 (
 this
@@ -7253,8 +7250,6 @@ this
 markup
 )
 {
-destroyPromise
-=
 this
 .
 markup
@@ -7268,17 +7263,6 @@ this
 markup
 =
 null
-;
-}
-else
-{
-destroyPromise
-=
-promise
-.
-resolve
-(
-)
 ;
 }
 if
@@ -7301,9 +7285,6 @@ hidden
 "
 ;
 }
-return
-destroyPromise
-;
 }
 onEyeDropperButtonClicked
 :
