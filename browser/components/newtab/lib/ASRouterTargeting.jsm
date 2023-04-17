@@ -990,6 +990,7 @@ const
 updateServiceListener
 =
 {
+async
 onCheckComplete
 (
 request
@@ -1014,6 +1015,7 @@ _value
 )
 ;
 }
+async
 onError
 (
 request

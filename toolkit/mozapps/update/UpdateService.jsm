@@ -12257,6 +12257,7 @@ _attemptResume
 }
 onCheckComplete
 :
+async
 function
 AUS_onCheckComplete
 (
@@ -12264,6 +12265,7 @@ request
 updates
 )
 {
+await
 this
 .
 _selectAndInstallUpdate
@@ -12274,6 +12276,7 @@ updates
 }
 onError
 :
+async
 function
 AUS_onError
 (

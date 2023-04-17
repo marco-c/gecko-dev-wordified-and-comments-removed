@@ -959,6 +959,7 @@ __updateCheckListener
 {
 onCheckComplete
 :
+async
 (
 aRequest
 aUpdates
@@ -1117,6 +1118,7 @@ DOWNLOAD_AND_INSTALL
 }
 onError
 :
+async
 (
 aRequest
 aUpdate
