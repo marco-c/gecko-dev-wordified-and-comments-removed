@@ -883,9 +883,6 @@ mCurrentMode
 =
 MODE_METADATA
 ;
-bool
-mMetadataInPartialBlockBuffer
-;
 uint32_t
 mLoadID
 =
