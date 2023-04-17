@@ -332,6 +332,8 @@ win10
 )
 {
 :
+host
+:
 root
 {
 /
@@ -750,6 +752,17 @@ scheme
 dark
 )
 {
+:
+host
+:
+not
+(
+:
+-
+moz
+-
+lwtheme
+)
 :
 root
 :
