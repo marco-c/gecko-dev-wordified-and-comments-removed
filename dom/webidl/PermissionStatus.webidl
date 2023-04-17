@@ -147,6 +147,11 @@ EventTarget
 {
 readonly
 attribute
+PermissionName
+name
+;
+readonly
+attribute
 PermissionState
 state
 ;

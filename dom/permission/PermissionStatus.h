@@ -113,6 +113,16 @@ DisconnectFromOwner
 )
 override
 ;
+PermissionName
+Name
+(
+)
+const
+{
+return
+mName
+;
+}
 private
 :
 ~
