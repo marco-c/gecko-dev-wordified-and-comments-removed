@@ -5,7 +5,7 @@ request
 response
 )
 :
-    
+  
 response
 .
 headers
@@ -27,8 +27,7 @@ b
 *
 "
 )
-;
-    
+  
 response
 .
 headers
@@ -50,8 +49,7 @@ b
 0
 "
 )
-;
-    
+  
 response
 .
 headers
@@ -71,8 +69,7 @@ b
 *
 "
 )
-;
-    
+  
 if
 request
 .
@@ -84,7 +81,7 @@ u
 OPTIONS
 '
 :
-        
+    
 response
 .
 headers
@@ -101,6 +98,7 @@ Allow
 -
 Headers
 "
+        
 b
 "
 X
@@ -110,4 +108,3 @@ Require
 Preflight
 "
 )
-;
