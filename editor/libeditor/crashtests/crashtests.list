@@ -723,10 +723,6 @@ execCommand
 calls
 another
 execCommand
-asserts
-(
-1
-)
 load
 1517028
 .
