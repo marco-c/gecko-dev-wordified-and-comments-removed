@@ -3283,7 +3283,7 @@ enclosingEnv
 ;
 }
 struct
-RewindToken
+CompilationStatePosition
 {
 size_t
 scriptDataLength
@@ -3305,8 +3305,8 @@ JSContext
 cx
 )
 ;
-RewindToken
-getRewindToken
+CompilationStatePosition
+getPosition
 (
 )
 ;
@@ -3314,7 +3314,16 @@ void
 rewind
 (
 const
-RewindToken
+CompilationStatePosition
+&
+pos
+)
+;
+void
+markGhost
+(
+const
+CompilationStatePosition
 &
 pos
 )
