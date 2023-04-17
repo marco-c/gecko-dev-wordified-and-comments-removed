@@ -160,14 +160,6 @@ MessageLink
 ;
 virtual
 void
-PrepareToDestroy
-(
-)
-{
-}
-;
-virtual
-void
 SendMessage
 (
 mozilla
