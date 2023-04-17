@@ -6209,6 +6209,9 @@ if
 (
 !
 needsDispatch
+|
+|
+gXPCOMThreadsShutDown
 )
 {
 return
@@ -8258,6 +8261,14 @@ move
 aImage
 )
 ;
+return
+;
+}
+if
+(
+gXPCOMThreadsShutDown
+)
+{
 return
 ;
 }
