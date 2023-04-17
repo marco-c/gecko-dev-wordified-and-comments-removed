@@ -7584,10 +7584,8 @@ val_
 AttachDecision
 tryAttachNativeIterator
 (
-ObjOperandId
-objId
-HandleObject
-obj
+ValOperandId
+valId
 )
 ;
 public
