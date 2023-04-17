@@ -175,7 +175,7 @@ allocSitesCreated
 MaxAllocSitesPerMinorGC
 ;
 }
-void
+size_t
 PretenuringNursery
 :
 :
@@ -683,6 +683,9 @@ zonesWithHighNurserySurvival
 allocSitesCreated
 =
 0
+;
+return
+sitesPretenured
 ;
 }
 bool

@@ -5753,12 +5753,19 @@ ProfileKey
 Pretenure
 )
 ;
+size_t
+sitesPretenured
+=
+0
+;
 if
 (
 !
 wasEmpty
 )
 {
+sitesPretenured
+=
 doPretenuring
 (
 rt
@@ -5842,6 +5849,7 @@ reason
 totalTime
 wasEmpty
 promotionRate
+sitesPretenured
 )
 ;
 stats
@@ -6013,6 +6021,8 @@ bool
 wasEmpty
 double
 promotionRate
+size_t
+sitesPretenured
 )
 {
 JSRuntime
@@ -6097,7 +6107,7 @@ rt
 addTelemetry
 (
 JS_TELEMETRY_GC_PRETENURE_COUNT_2
-0
+sitesPretenured
 )
 ;
 rt
@@ -6779,7 +6789,7 @@ tenuredCells
 }
 ;
 }
-void
+size_t
 js
 :
 :
@@ -6802,6 +6812,9 @@ double
 promotionRate
 )
 {
+size_t
+sitesPretenured
+=
 pretenuringNursery
 .
 doPretenuring
@@ -7319,6 +7332,9 @@ gcstats
 STAT_BIGINTS_TENURED
 numBigIntsTenured
 )
+;
+return
+sitesPretenured
 ;
 }
 bool
