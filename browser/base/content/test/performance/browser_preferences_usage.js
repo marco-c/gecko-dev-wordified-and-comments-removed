@@ -757,6 +757,16 @@ skip_type_assertion
 :
 {
 }
+"
+toolkit
+.
+telemetry
+.
+cachedClientID
+"
+:
+{
+}
 }
 ;
 if
