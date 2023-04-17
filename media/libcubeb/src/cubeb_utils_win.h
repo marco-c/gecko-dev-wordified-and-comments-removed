@@ -10,13 +10,6 @@ define
 CUBEB_UTILS_WIN
 #
 include
-<
-windows
-.
-h
->
-#
-include
 "
 cubeb
 -
@@ -24,6 +17,13 @@ internal
 .
 h
 "
+#
+include
+<
+windows
+.
+h
+>
 class
 owned_critical_section
 {

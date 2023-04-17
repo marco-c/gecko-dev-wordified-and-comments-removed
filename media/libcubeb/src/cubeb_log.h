@@ -68,6 +68,7 @@ else
 #
 define
 __FILENAME__
+\
 (
 __builtin_strrchr
 (
@@ -86,6 +87,7 @@ __FILE__
 )
 +
 1
+\
 :
 __FILE__
 )
@@ -110,6 +112,7 @@ h
 #
 define
 __FILENAME__
+\
 (
 strrchr
 (
@@ -213,6 +216,7 @@ fmt
 .
 .
 )
+\
 do
 {
 \
@@ -245,6 +249,7 @@ n
 "
 __FILENAME__
 __LINE__
+\
 #
 #
 __VA_ARGS__
