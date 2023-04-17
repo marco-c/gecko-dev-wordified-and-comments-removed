@@ -3910,7 +3910,7 @@ task_id
 task_id
 ;
 let
-dirty_rect
+batch_filter
 =
 match
 render_tasks
@@ -3932,7 +3932,7 @@ info
 >
 info
 .
-dirty_rect
+batch_filter
 _
 =
 >
@@ -3964,7 +3964,7 @@ task_id
 into
 (
 )
-dirty_rect
+batch_filter
 0
 )
 )
