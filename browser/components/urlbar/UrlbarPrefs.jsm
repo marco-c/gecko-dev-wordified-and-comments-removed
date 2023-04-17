@@ -763,7 +763,7 @@ UrlbarUtils
 RESULT_GROUP
 .
 OMNIBOX
-maxResultCount
+availableSpan
 :
 UrlbarUtils
 .
@@ -781,6 +781,10 @@ mainBucket
 flexChildren
 :
 true
+children
+:
+[
+{
 children
 :
 [
@@ -815,10 +819,9 @@ RESULT_GROUP
 .
 REMOTE_SUGGESTION
 }
+]
+}
 {
-flex
-:
-0
 group
 :
 UrlbarUtils
@@ -834,7 +837,7 @@ children
 :
 [
 {
-maxResultCount
+availableSpan
 :
 3
 group

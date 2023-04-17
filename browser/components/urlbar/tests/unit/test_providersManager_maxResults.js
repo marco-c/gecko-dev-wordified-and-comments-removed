@@ -197,6 +197,12 @@ test_count
 await
 test_count
 (
+1
+)
+;
+await
+test_count
+(
 30
 )
 ;

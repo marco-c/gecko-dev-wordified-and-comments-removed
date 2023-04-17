@@ -405,7 +405,7 @@ UrlbarUtils
 RESULT_GROUP
 .
 OMNIBOX
-maxResultCount
+availableSpan
 :
 UrlbarUtils
 .
@@ -424,6 +424,10 @@ children
 flex
 :
 2
+children
+:
+[
+{
 flexChildren
 :
 true
@@ -454,10 +458,9 @@ RESULT_GROUP
 .
 REMOTE_SUGGESTION
 }
+]
+}
 {
-flex
-:
-0
 group
 :
 UrlbarUtils
@@ -476,7 +479,7 @@ children
 :
 [
 {
-maxResultCount
+availableSpan
 :
 3
 group
@@ -684,7 +687,7 @@ UrlbarUtils
 RESULT_GROUP
 .
 OMNIBOX
-maxResultCount
+availableSpan
 :
 UrlbarUtils
 .
@@ -707,7 +710,7 @@ children
 :
 [
 {
-maxResultCount
+availableSpan
 :
 3
 group
@@ -778,6 +781,10 @@ INPUT_HISTORY
 flex
 :
 1
+children
+:
+[
+{
 flexChildren
 :
 true
@@ -808,10 +815,9 @@ RESULT_GROUP
 .
 REMOTE_SUGGESTION
 }
+]
+}
 {
-flex
-:
-0
 group
 :
 UrlbarUtils
