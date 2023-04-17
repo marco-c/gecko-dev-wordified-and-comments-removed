@@ -4091,9 +4091,6 @@ start_compositing
 &
 mut
 self
-_clear_color
-:
-ColorF
 _dirty_rects
 :
 &
