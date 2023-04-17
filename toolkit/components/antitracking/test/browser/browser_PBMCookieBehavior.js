@@ -264,6 +264,16 @@ pbmode
 "
 PBMCookieBehavior
 ]
+[
+"
+dom
+.
+security
+.
+https_first_pbm
+"
+false
+]
 ]
 }
 )
