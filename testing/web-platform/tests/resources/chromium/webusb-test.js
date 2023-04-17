@@ -1508,9 +1508,6 @@ UsbTransferStatus
 OK
 data
 :
-{
-buffer
-:
 [
 length
 >
@@ -1545,7 +1542,6 @@ index
 &
 0xff
 ]
-}
 }
 ;
 }
@@ -1705,11 +1701,7 @@ UsbTransferStatus
 OK
 data
 :
-{
-buffer
-:
 data
-}
 }
 )
 ;
@@ -1914,11 +1906,7 @@ resolve
 {
 data
 :
-{
-buffer
-:
 data
-}
 packets
 :
 packets

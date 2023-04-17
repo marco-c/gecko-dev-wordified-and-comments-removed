@@ -39,7 +39,7 @@ that
 roundRect
 throws
 an
-RangeError
+IndexSizeError
 if
 radii
 is
@@ -110,13 +110,14 @@ getContext
 '
 )
 ;
-assert_throws_js
+assert_throws_dom
 (
-RangeError
+"
+INDEX_SIZE_ERR
+"
+function
 (
 )
-=
->
 {
 ctx
 .
@@ -129,6 +130,7 @@ roundRect
 [
 ]
 )
+;
 }
 )
 ;

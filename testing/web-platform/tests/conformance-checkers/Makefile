@@ -267,7 +267,7 @@ releases
 /
 download
 /
-latest
+jar
 /
 vnu
 .

@@ -111,13 +111,14 @@ getContext
 '
 )
 ;
-assert_throws_js
+assert_throws_dom
 (
-RangeError
+"
+INDEX_SIZE_ERR
+"
+function
 (
 )
-=
->
 {
 ctx
 .
@@ -135,6 +136,7 @@ roundRect
 0
 ]
 )
+;
 }
 )
 ;

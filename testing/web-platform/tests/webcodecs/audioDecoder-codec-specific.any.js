@@ -1788,12 +1788,10 @@ resolve
 )
 ;
 await
-promise_rejects_dom
+promise_rejects_exactly
 (
 t
-'
-AbortError
-'
+undefined
 flushDone
 )
 ;
