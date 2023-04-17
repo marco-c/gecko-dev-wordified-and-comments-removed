@@ -628,7 +628,7 @@ mGPUChild
 >
 Open
 (
-TakeInitialPort
+TakeChannel
 (
 )
 base

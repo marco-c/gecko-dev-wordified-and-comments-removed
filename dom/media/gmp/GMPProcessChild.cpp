@@ -253,7 +253,13 @@ ParentPid
 IOThreadChild
 :
 :
-TakeInitialPort
+message_loop
+(
+)
+IOThreadChild
+:
+:
+TakeChannel
 (
 )
 )

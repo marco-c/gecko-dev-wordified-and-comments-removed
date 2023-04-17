@@ -695,7 +695,7 @@ mVRChild
 >
 Open
 (
-TakeInitialPort
+TakeChannel
 (
 )
 base

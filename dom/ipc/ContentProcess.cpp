@@ -1171,6 +1171,12 @@ mContent
 .
 Init
 (
+IOThreadChild
+:
+:
+message_loop
+(
+)
 ParentPid
 (
 )
@@ -1179,7 +1185,7 @@ parentBuildID
 IOThreadChild
 :
 :
-TakeInitialPort
+TakeChannel
 (
 )
 *

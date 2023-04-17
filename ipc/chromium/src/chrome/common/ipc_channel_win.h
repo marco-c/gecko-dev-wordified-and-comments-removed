@@ -212,16 +212,6 @@ Message
 message
 )
 ;
-int32_t
-OtherPid
-(
-)
-const
-{
-return
-other_pid_
-;
-}
 bool
 Unsound_IsClosed
 (

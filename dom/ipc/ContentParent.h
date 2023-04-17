@@ -3066,6 +3066,14 @@ aOperation
 const
 ;
 void
+OnChannelConnected
+(
+int32_t
+pid
+)
+override
+;
+void
 ActorDestroy
 (
 ActorDestroyReason
@@ -6813,11 +6821,6 @@ mCreatedPairedMinidumps
 ;
 uint8_t
 mShutdownPending
-:
-1
-;
-uint8_t
-mLaunchResolved
 :
 1
 ;

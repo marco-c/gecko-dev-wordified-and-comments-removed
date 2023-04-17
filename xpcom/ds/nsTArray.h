@@ -7789,7 +7789,7 @@ template
 typename
 Predicate
 >
-size_type
+void
 RemoveElementsBy
 (
 Predicate
@@ -10764,7 +10764,7 @@ template
 typename
 Predicate
 >
-auto
+void
 nsTArray_Impl
 <
 E
@@ -10777,9 +10777,6 @@ RemoveElementsBy
 Predicate
 aPredicate
 )
--
->
-size_type
 {
 if
 (
@@ -10792,7 +10789,6 @@ HasEmptyHeader
 )
 {
 return
-0
 ;
 }
 index_type
@@ -10925,11 +10921,6 @@ mHdr
 >
 mLength
 =
-j
-;
-return
-len
--
 j
 ;
 }

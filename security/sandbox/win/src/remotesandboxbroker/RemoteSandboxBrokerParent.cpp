@@ -122,7 +122,7 @@ Open
 mProcess
 -
 >
-TakeInitialPort
+TakeChannel
 (
 )
 base
