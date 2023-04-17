@@ -40,7 +40,7 @@ signed
 wide
 }
 .
-widen_
+extend_
 {
 part
 }
@@ -1137,7 +1137,7 @@ const
 (
 i64x2
 .
-widen_low_i32x4_s
+extend_low_i32x4_s
 (
 v128
 .
@@ -1173,7 +1173,7 @@ const
 (
 i64x2
 .
-widen_high_i32x4_s
+extend_high_i32x4_s
 (
 v128
 .
@@ -1209,7 +1209,7 @@ const
 (
 i64x2
 .
-widen_low_i32x4_u
+extend_low_i32x4_u
 (
 v128
 .
@@ -1245,7 +1245,7 @@ const
 (
 i64x2
 .
-widen_high_i32x4_u
+extend_high_i32x4_u
 (
 v128
 .
