@@ -57,6 +57,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 WebRenderTypes
@@ -2893,8 +2902,10 @@ aPoint
 }
 }
 static
+StaticAutoPtr
+<
 DisplayItemClip
-*
+>
 gNoClip
 ;
 const
@@ -2934,9 +2945,6 @@ Shutdown
 (
 )
 {
-delete
-gNoClip
-;
 gNoClip
 =
 nullptr
