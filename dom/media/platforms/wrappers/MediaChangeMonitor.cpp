@@ -1404,6 +1404,19 @@ FullH264Parsing
 )
 ;
 }
+const
+CreateDecoderParams
+updatedParams
+{
+changeMonitor
+-
+>
+Config
+(
+)
+aParams
+}
+;
 if
 (
 !
@@ -1436,7 +1449,7 @@ move
 changeMonitor
 )
 nullptr
-aParams
+updatedParams
 )
 __func__
 )
@@ -1456,7 +1469,7 @@ aPDM
 >
 AsyncCreateDecoder
 (
-aParams
+updatedParams
 )
 -
 >
@@ -1471,7 +1484,7 @@ params
 =
 CreateDecoderParamsForAsync
 (
-aParams
+updatedParams
 )
 pdm
 =
