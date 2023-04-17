@@ -147,9 +147,6 @@ Dynamic
 (
 )
 ;
-bool
-result
-=
 bce_
 -
 >
@@ -160,11 +157,6 @@ loc
 brandLoc_
 )
 ;
-if
-(
-result
-)
-{
 loc_
 =
 mozilla
@@ -175,9 +167,8 @@ Some
 loc
 )
 ;
-}
 return
-result
+true
 ;
 }
 bool

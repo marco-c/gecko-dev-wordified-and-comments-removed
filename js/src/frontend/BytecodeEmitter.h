@@ -923,7 +923,7 @@ TaggedParserAtomIndex
 name
 )
 ;
-bool
+void
 lookupPrivate
 (
 TaggedParserAtomIndex

@@ -747,7 +747,7 @@ TaggedParserAtomIndex
 name
 )
 ;
-bool
+void
 lookupPrivate
 (
 BytecodeEmitter
