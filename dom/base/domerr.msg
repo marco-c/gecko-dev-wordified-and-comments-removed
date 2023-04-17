@@ -448,17 +448,6 @@ NS_ERROR_DOM_OPERATION_ERR
 )
 DOM4_MSG_DEF
 (
-TypeError
-"
-Unknown
-or
-invalid
-type
-"
-NS_ERROR_DOM_SVG_WRONG_TYPE_ERR
-)
-DOM4_MSG_DEF
-(
 SyntaxError
 "
 The
