@@ -57,6 +57,8 @@ nsDirIndexParser
 nsDirIndexParser
 (
 )
+=
+default
 ;
 nsresult
 Init
@@ -147,9 +149,15 @@ mBuf
 ;
 int32_t
 mLineStart
+{
+0
+}
 ;
 bool
 mHasDescription
+{
+false
+}
 ;
 int
 mFormat
@@ -157,7 +165,8 @@ mFormat
 8
 ]
 {
-0
+-
+1
 }
 ;
 nsresult

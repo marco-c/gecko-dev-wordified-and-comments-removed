@@ -367,35 +367,6 @@ nsHttpChannelAuthProvider
 (
 )
 :
-mAuthChannel
-(
-nullptr
-)
-mPort
-(
--
-1
-)
-mUsingSSL
-(
-false
-)
-mProxyUsingSSL
-(
-false
-)
-mIsPrivate
-(
-false
-)
-mProxyAuthContinuationState
-(
-nullptr
-)
-mAuthContinuationState
-(
-nullptr
-)
 mProxyAuth
 (
 false
@@ -894,6 +865,7 @@ challenges
 ;
 }
 else
+{
 rv
 =
 mAuthChannel
@@ -904,6 +876,7 @@ GetWWWChallenges
 challenges
 )
 ;
+}
 if
 (
 NS_FAILED
@@ -947,6 +920,7 @@ NS_FAILED
 rv
 )
 )
+{
 LOG
 (
 (
@@ -960,12 +934,14 @@ n
 )
 )
 ;
+}
 else
 {
 if
 (
 mProxyAuth
 )
+{
 rv
 =
 mAuthChannel
@@ -976,7 +952,9 @@ SetProxyCredentials
 creds
 )
 ;
+}
 else
+{
 rv
 =
 mAuthChannel
@@ -987,6 +965,7 @@ SetWWWCredentials
 creds
 )
 ;
+}
 }
 return
 rv
@@ -1601,6 +1580,7 @@ nsIHttpAuthenticator
 :
 IDENTITY_INCLUDES_DOMAIN
 )
+{
 ParseUserDomain
 (
 userBuf
@@ -1610,6 +1590,7 @@ user
 domain
 )
 ;
+}
 DebugOnly
 <
 nsresult
@@ -1663,6 +1644,7 @@ if
 (
 proxyAuth
 )
+{
 promptReason
 =
 nsIAuthPromptProvider
@@ -1670,7 +1652,9 @@ nsIAuthPromptProvider
 :
 PROMPT_PROXY
 ;
+}
 else
+{
 promptReason
 =
 nsIAuthPromptProvider
@@ -1678,6 +1662,7 @@ nsIAuthPromptProvider
 :
 PROMPT_NORMAL
 ;
+}
 nsCOMPtr
 <
 nsIAuthPromptProvider
@@ -1693,6 +1678,7 @@ if
 (
 promptProvider
 )
+{
 promptProvider
 -
 >
@@ -1714,13 +1700,16 @@ result
 )
 )
 ;
+}
 else
+{
 NS_QueryAuthPrompt2
 (
 ifreq
 result
 )
 ;
+}
 }
 nsresult
 nsHttpChannelAuthProvider
@@ -2517,6 +2506,7 @@ n
 =
 nullptr
 )
+{
 challenge
 .
 Assign
@@ -2527,7 +2517,9 @@ eol
 p
 )
 ;
+}
 else
+{
 challenge
 .
 Assign
@@ -2535,6 +2527,7 @@ Assign
 p
 )
 ;
+}
 rv
 =
 GetAuthenticator
@@ -3638,6 +3631,7 @@ proxyAuth
 mProxyUsingSSL
 )
 )
+{
 level
 =
 nsIAuthPrompt2
@@ -3645,6 +3639,7 @@ nsIAuthPrompt2
 :
 LEVEL_SECURE
 ;
+}
 else
 if
 (
@@ -3655,6 +3650,7 @@ nsIHttpAuthenticator
 :
 IDENTITY_ENCRYPTED
 )
+{
 level
 =
 nsIAuthPrompt2
@@ -3662,6 +3658,7 @@ nsIAuthPrompt2
 :
 LEVEL_PW_ENCRYPTED
 ;
+}
 if
 (
 Telemetry
@@ -4579,6 +4576,7 @@ challenge
 =
 nullptr
 )
+{
 authType
 .
 Assign
@@ -4589,7 +4587,9 @@ p
 challenge
 )
 ;
+}
 else
+{
 authType
 .
 Assign
@@ -4597,6 +4597,7 @@ Assign
 challenge
 )
 ;
+}
 }
 nsresult
 nsHttpChannelAuthProvider
@@ -5039,8 +5040,10 @@ end
 "
 '
 )
+{
 break
 ;
+}
 realm
 .
 Append
@@ -5070,6 +5073,7 @@ if
 (
 end
 )
+{
 realm
 .
 Assign
@@ -5080,7 +5084,9 @@ end
 p
 )
 ;
+}
 else
+{
 realm
 .
 Assign
@@ -5088,6 +5094,7 @@ Assign
 p
 )
 ;
+}
 }
 }
 }
@@ -5438,6 +5445,7 @@ nsIHttpAuthenticator
 :
 IDENTITY_INCLUDES_DOMAIN
 )
+{
 promptFlags
 |
 =
@@ -5446,6 +5454,7 @@ nsIAuthInformation
 :
 NEED_DOMAIN
 ;
+}
 if
 (
 mCrossOrigin
@@ -5576,11 +5585,14 @@ if
 !
 retval
 )
+{
 rv
 =
 NS_ERROR_ABORT
 ;
+}
 else
+{
 holder
 -
 >
@@ -5590,6 +5602,7 @@ authFlags
 ident
 )
 ;
+}
 }
 if
 (
@@ -6541,6 +6554,7 @@ if
 (
 mProxyAuth
 )
+{
 rv
 =
 mAuthChannel
@@ -6551,7 +6565,9 @@ SetProxyCredentials
 creds
 )
 ;
+}
 else
+{
 rv
 =
 mAuthChannel
@@ -6562,6 +6578,7 @@ SetWWWCredentials
 creds
 )
 ;
+}
 if
 (
 NS_FAILED
@@ -6661,9 +6678,11 @@ nsIChannel
 LOAD_INITIAL_DOCUMENT_URI
 )
 )
+{
 return
 true
 ;
+}
 nsAutoCString
 userPass
 ;
@@ -6700,9 +6719,11 @@ PhishyUserPassLength
 )
 )
 )
+{
 return
 true
 ;
+}
 nsCOMPtr
 <
 nsIStringBundleService
@@ -7240,7 +7261,9 @@ SetAuthorizationHeader
 nsHttpAuthCache
 *
 authCache
+const
 nsHttpAtom
+&
 header
 const
 char
@@ -7551,10 +7574,12 @@ false
 ;
 }
 else
+{
 identFromURI
 =
 true
 ;
+}
 nsCString
 temp
 ;
@@ -7800,12 +7825,14 @@ true
 ;
 }
 else
+{
 ident
 .
 Clear
 (
 )
 ;
+}
 }
 }
 nsresult
@@ -7837,6 +7864,7 @@ if
 (
 url
 )
+{
 rv
 =
 url
@@ -7847,7 +7875,9 @@ GetDirectory
 path
 )
 ;
+}
 else
+{
 rv
 =
 mURI
@@ -7858,6 +7888,7 @@ GetPathQueryRef
 path
 )
 ;
+}
 return
 rv
 ;
