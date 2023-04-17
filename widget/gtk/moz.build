@@ -526,6 +526,11 @@ WindowSurfaceX11SHM
 .
 cpp
 "
+"
+WindowSurfaceXRender
+.
+cpp
+"
 ]
 EXPORTS
 .
