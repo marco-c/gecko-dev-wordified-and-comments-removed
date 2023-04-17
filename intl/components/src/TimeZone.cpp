@@ -1273,7 +1273,7 @@ defaultTimeZone
 ;
 MOZ_TRY
 (
-FillVectorWithICUCall
+FillBufferWithICUCall
 (
 defaultTimeZone
 ucal_getDefaultTimeZone
@@ -1299,7 +1299,7 @@ newTimeZone
 ;
 MOZ_TRY
 (
-FillVectorWithICUCall
+FillBufferWithICUCall
 (
 newTimeZone
 ucal_getDefaultTimeZone
@@ -1389,7 +1389,7 @@ hostTimeZone
 ;
 MOZ_TRY
 (
-FillVectorWithICUCall
+FillBufferWithICUCall
 (
 hostTimeZone
 ucal_getHostTimeZone

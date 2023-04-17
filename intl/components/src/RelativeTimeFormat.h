@@ -319,7 +319,7 @@ u16Vec
 ;
 MOZ_TRY
 (
-FillVectorWithICUCall
+FillBufferWithICUCall
 (
 u16Vec
 [
