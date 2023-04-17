@@ -73,6 +73,7 @@ signal
 Exposed
 =
 Window
+SecureContext
 ]
 interface
 EyeDropper
