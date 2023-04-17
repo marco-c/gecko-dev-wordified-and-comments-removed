@@ -257,6 +257,8 @@ nsString
 ;
 int32_t
 ;
+float
+;
 }
 ;
 struct

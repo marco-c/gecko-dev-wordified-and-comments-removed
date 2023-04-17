@@ -22191,7 +22191,7 @@ SPI_SETFONTSMOOTHINGTYPE
 gfxDWriteFont
 :
 :
-UpdateSystemTextQuality
+UpdateSystemTextVars
 (
 )
 ;
@@ -22874,7 +22874,7 @@ WM_NCPAINT
 gfxDWriteFont
 :
 :
-UpdateSystemTextQuality
+UpdateSystemTextVars
 (
 )
 ;
