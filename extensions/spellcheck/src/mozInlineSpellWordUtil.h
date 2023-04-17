@@ -641,6 +641,7 @@ MapDOMPositionToSoftTextOffset
 NodeOffset
 aNodeOffset
 )
+const
 ;
 enum
 DOMMapHint
@@ -657,6 +658,7 @@ aSoftTextOffset
 DOMMapHint
 aHint
 )
+const
 ;
 static
 void
@@ -712,6 +714,7 @@ nsRange
 *
 aRange
 )
+const
 ;
 void
 MakeNodeOffsetRangeForWord
