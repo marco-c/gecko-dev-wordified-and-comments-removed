@@ -5938,15 +5938,7 @@ render_target_textures
 :
 usize
 pub
-picture_tile_textures
-:
-usize
-pub
-atlas_textures
-:
-usize
-pub
-standalone_textures
+texture_cache_textures
 :
 usize
 pub
