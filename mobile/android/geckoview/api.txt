@@ -17620,15 +17620,6 @@ public
 static
 final
 int
-ERROR_HTTPS_ONLY
-=
-163
-;
-field
-public
-static
-final
-int
 ERROR_INVALID_CONTENT_ENCODING
 =
 84

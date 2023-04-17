@@ -718,11 +718,6 @@ Destroy
 (
 )
 ;
-async
-ReloadWithHttpsOnlyException
-(
-)
-;
 }
 ;
 }
