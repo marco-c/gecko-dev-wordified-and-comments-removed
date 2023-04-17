@@ -607,7 +607,7 @@ greHome
 getenv
 (
 "
-GRE_HOME
+MOZ_ANDROID_LIBDIR
 "
 )
 ;
