@@ -1724,6 +1724,13 @@ artifact_mode
 not
 in
 value
+and
+"
+mobile_android
+"
+not
+in
+value
                 
 }
                 
