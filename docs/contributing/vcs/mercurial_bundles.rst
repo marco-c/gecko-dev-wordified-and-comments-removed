@@ -104,7 +104,7 @@ setup
 the
 mozilla
 -
-central
+unified
 <
 https
 :
@@ -118,7 +118,7 @@ org
 /
 mozilla
 -
-central
+unified
 /
 >
 __
@@ -135,7 +135,7 @@ replace
 "
 mozilla
 -
-central
+unified
 "
 with
 the
@@ -237,7 +237,7 @@ for
 the
 mozilla
 -
-central
+unified
 repository
 :
 Click
@@ -248,7 +248,7 @@ the
 "
 mozilla
 -
-central
+unified
 "
 row
 the
@@ -323,7 +323,7 @@ directory
 called
 mozilla
 -
-central
+unified
 here
 )
 :
@@ -338,12 +338,12 @@ shell
 mkdir
 mozilla
 -
-central
+unified
 hg
 init
 mozilla
 -
-central
+unified
 2
 .
 Un
@@ -364,7 +364,7 @@ next
 to
 mozilla
 -
-central
+unified
 directory
 and
 rename
@@ -385,7 +385,7 @@ shell
 cd
 mozilla
 -
-central
+unified
 hg
 unbundle
 .
@@ -522,7 +522,7 @@ org
 /
 mozilla
 -
-central
+unified
 /
 4
 .
@@ -619,7 +619,7 @@ clone
 of
 mozilla
 -
-central
+unified
 that
 is
 identical
