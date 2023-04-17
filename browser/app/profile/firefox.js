@@ -2632,6 +2632,7 @@ xml
 svg
 webp
 avif
+jxl
 "
 )
 ;
