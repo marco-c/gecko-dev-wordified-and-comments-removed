@@ -5442,6 +5442,11 @@ mDocument
 GetWrapperPreserveColor
 (
 )
+TimeDuration
+:
+:
+FromMilliseconds
+(
 StaticPrefs
 :
 :
@@ -5450,6 +5455,7 @@ javascript_options_gc_delay
 )
 *
 2
+)
 )
 ;
 }
@@ -8615,6 +8621,11 @@ mDocument
 GetWrapperPreserveColor
 (
 )
+TimeDuration
+:
+:
+FromMilliseconds
+(
 StaticPrefs
 :
 :
@@ -8623,6 +8634,7 @@ javascript_options_gc_delay
 )
 *
 2
+)
 )
 ;
 }

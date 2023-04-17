@@ -430,7 +430,7 @@ aReason
 JSObject
 *
 aObj
-uint32_t
+TimeDuration
 aDelay
 =
 0
@@ -493,7 +493,7 @@ KillAllTimersAndRunners
 void
 EnsureGCRunner
 (
-uint32_t
+TimeDuration
 aDelay
 )
 ;

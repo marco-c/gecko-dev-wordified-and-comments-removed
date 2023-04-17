@@ -397,7 +397,10 @@ aReason
 JSObject
 *
 aObj
-uint32_t
+mozilla
+:
+:
+TimeDuration
 aDelay
 =
 0
