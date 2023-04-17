@@ -735,7 +735,6 @@ GetTransform
 *
 transform
 ;
-;
 }
 return
 transform
