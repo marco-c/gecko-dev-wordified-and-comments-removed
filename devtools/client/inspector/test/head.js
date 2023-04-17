@@ -4475,7 +4475,6 @@ function
 checkEyeDropperColorAt
 (
 highlighterTestFront
-inspectorActorID
 x
 y
 expectedColor
@@ -4521,7 +4520,6 @@ highlighterTestFront
 .
 getEyeDropperColorValue
 (
-inspectorActorID
 )
 ;
 is
