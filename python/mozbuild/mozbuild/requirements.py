@@ -687,12 +687,36 @@ if
 is_thunderbird
 :
                 
-_parse_requirements_line
+nested_definition_path
+=
+os
+.
+path
+.
+join
 (
+topsrcdir
 params
+)
+                
+assert
+os
+.
+path
+.
+isfile
+(
+nested_definition_path
+)
+                
+_parse_requirements_definition_file
+(
+                    
+nested_definition_path
 is_thunderbird_packages_txt
 =
 True
+                
 )
         
 else
@@ -717,7 +741,12 @@ action
 def
 _parse_requirements_definition_file
 (
+        
 requirements_path
+is_thunderbird_packages_txt
+=
+False
+    
 )
 :
         
@@ -775,6 +804,7 @@ lines
 _parse_requirements_line
 (
 line
+is_thunderbird_packages_txt
 )
     
 _parse_requirements_definition_file
