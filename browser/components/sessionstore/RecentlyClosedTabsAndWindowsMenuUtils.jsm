@@ -799,6 +799,14 @@ if
 (
 !
 aIsWindowsFragment
+&
+&
+aTagName
+!
+=
+"
+menuitem
+"
 )
 {
 element
