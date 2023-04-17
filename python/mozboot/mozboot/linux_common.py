@@ -548,7 +548,7 @@ kwargs
 pass
     
 def
-ensure_mobile_android_packages
+install_mobile_android_packages
 (
 self
 artifact_mode
@@ -579,6 +579,22 @@ self
 .
 no_interactive
         
+)
+    
+def
+install_mobile_android_artifact_mode_packages
+(
+self
+)
+:
+        
+self
+.
+install_mobile_android_packages
+(
+artifact_mode
+=
+True
 )
     
 def
