@@ -1393,6 +1393,13 @@ EXIT_CODE
 DEFAULT_PROFILE_CANNOT_BE_READ
 ;
 }
+await
+BackgroundUpdate
+.
+recordUpdateEnvironment
+(
+)
+;
 let
 gleanRoot
 =
