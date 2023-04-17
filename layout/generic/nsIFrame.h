@@ -6026,6 +6026,12 @@ nsIFrame
 aStartFrame
 )
 ;
+bool
+ZIndexApplies
+(
+)
+const
+;
 Maybe
 <
 int32_t

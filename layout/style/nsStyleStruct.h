@@ -6976,7 +6976,7 @@ mozilla
 StyleWillChangeBits
 :
 :
-ABSPOS_CB
+POSITION
 )
 ;
 }
