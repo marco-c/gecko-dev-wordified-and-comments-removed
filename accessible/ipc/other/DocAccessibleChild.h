@@ -391,9 +391,9 @@ const
 uint64_t
 &
 aID
-nsTArray
+RefPtr
 <
-Attribute
+AccAttributes
 >
 *
 aAttributes
@@ -756,9 +756,9 @@ const
 int32_t
 &
 aOffset
-nsTArray
+RefPtr
 <
-Attribute
+AccAttributes
 >
 *
 aAttributes
@@ -785,9 +785,9 @@ const
 uint64_t
 &
 aID
-nsTArray
+RefPtr
 <
-Attribute
+AccAttributes
 >
 *
 aAttributes
