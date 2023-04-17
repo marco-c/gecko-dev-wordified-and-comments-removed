@@ -1309,14 +1309,6 @@ mWidgetListenerDelegate
 ;
 private
 :
-static
-bool
-IsWaitingForFullscreenChange
-(
-FullscreenChangeState
-changeState
-)
-;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetPrimaryRemoteTabSize
