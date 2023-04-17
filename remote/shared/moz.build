@@ -87,6 +87,17 @@ XPCSHELL_TESTS_MANIFESTS
 =
 [
 "
+messagehandler
+/
+test
+/
+xpcshell
+/
+xpcshell
+.
+ini
+"
+"
 test
 /
 xpcshell
