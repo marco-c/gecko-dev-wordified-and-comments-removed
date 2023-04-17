@@ -67,6 +67,15 @@ ini
 "
 https
 -
+first
+/
+mochitest
+.
+ini
+"
+"
+https
+-
 only
 /
 mochitest
