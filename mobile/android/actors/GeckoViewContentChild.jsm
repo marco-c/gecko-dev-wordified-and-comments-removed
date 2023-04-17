@@ -198,6 +198,12 @@ actorCreated
 (
 )
 {
+super
+.
+actorCreated
+(
+)
+;
 this
 .
 pageShow
