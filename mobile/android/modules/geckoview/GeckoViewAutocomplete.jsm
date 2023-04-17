@@ -1562,7 +1562,7 @@ aCreditCard
 )
 {
 debug
-onCreditCardSave
+onLoginSave
 {
 aCreditCard
 }
@@ -1598,7 +1598,7 @@ aAddress
 )
 {
 debug
-onAddressSave
+onLoginSave
 {
 aAddress
 }
