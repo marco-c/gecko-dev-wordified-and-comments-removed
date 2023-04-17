@@ -1499,12 +1499,6 @@ nsHtml5Tokenizer
 :
 BOGUS_COMMENT_HYPHEN
 :
-case
-nsHtml5Tokenizer
-:
-:
-COMMENT_LESSTHAN_BANG_DASH_DASH
-:
 if
 (
 aState
