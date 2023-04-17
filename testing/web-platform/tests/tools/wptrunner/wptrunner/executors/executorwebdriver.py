@@ -68,10 +68,12 @@ VirtualAuthenticatorProtocolPart
                        
 DebugProtocolPart
 )
-import
+from
 webdriver
-as
+.
 client
+import
+Session
 from
 webdriver
 import
@@ -97,7 +99,7 @@ unimplemented_exc
 =
 (
 NotImplementedError
-client
+error
 .
 UnknownCommandException
 )
@@ -180,7 +182,7 @@ script
 timeout
         
 except
-client
+error
 .
 WebDriverException
 :
@@ -307,15 +309,15 @@ execute_async_script
             
 except
 (
-client
+error
 .
 TimeoutException
                     
-client
+error
 .
 ScriptTimeoutException
                     
-client
+error
 .
 JavascriptErrorException
 )
@@ -329,11 +331,11 @@ socket
 .
 timeout
                     
-client
+error
 .
 NoSuchWindowException
                     
-client
+error
 .
 UnknownErrorException
                     
@@ -642,7 +644,7 @@ close
 )
             
 except
-client
+error
 .
 NoSuchWindowException
 :
@@ -1248,7 +1250,7 @@ keys
 )
         
 except
-client
+error
 .
 UnknownErrorException
 as
@@ -1469,18 +1471,40 @@ def
 _switch_to_frame
 (
 self
-frame_number
+index_or_elem
 )
 :
         
+try
+:
+            
 self
 .
 webdriver
 .
 switch_frame
 (
-frame_number
+index_or_elem
 )
+        
+except
+(
+error
+.
+StaleElementReferenceException
+                
+error
+.
+NoSuchFrameException
+)
+as
+e
+:
+            
+raise
+ValueError
+from
+e
     
 def
 _switch_to_parent_frame
@@ -2090,8 +2114,6 @@ self
 .
 webdriver
 =
-client
-.
 Session
 (
 host
@@ -2231,10 +2253,10 @@ except
 socket
 .
 timeout
-client
+error
 .
 UnknownErrorException
-client
+error
 .
 InvalidSessionIdException
 )
@@ -2305,7 +2327,7 @@ extra_timeout
 )
         
 except
-client
+error
 .
 UnknownErrorException
 :
@@ -2369,10 +2391,10 @@ timeout
         
 except
 (
-client
+error
 .
 TimeoutException
-client
+error
 .
 ScriptTimeoutException
 )
@@ -2397,7 +2419,7 @@ except
 socket
 .
 timeout
-client
+error
 .
 UnknownErrorException
 )
@@ -2426,7 +2448,7 @@ if
 isinstance
 (
 e
-client
+error
 .
 WebDriverException
 )
@@ -3056,7 +3078,7 @@ is_alive
 )
                 
 except
-client
+error
 .
 WebDriverException
 :
@@ -3250,7 +3272,7 @@ True
 )
             
 except
-client
+error
 .
 JavascriptErrorException
 :
@@ -3533,7 +3555,7 @@ position
 )
         
 except
-client
+error
 .
 InvalidArgumentException
 :
