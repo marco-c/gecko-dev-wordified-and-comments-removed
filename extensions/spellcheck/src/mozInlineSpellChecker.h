@@ -313,6 +313,13 @@ mozInlineSpellChecker
 aSpellChecker
 Operation
 aOp
+RefPtr
+<
+nsRange
+>
+&
+&
+aAnchorRange
 bool
 aForceNavigationWordCheck
 int32_t
@@ -335,8 +342,10 @@ nsRange
 >
 mNoCheckRange
 ;
+const
 RefPtr
 <
+const
 nsRange
 >
 mAnchorRange
