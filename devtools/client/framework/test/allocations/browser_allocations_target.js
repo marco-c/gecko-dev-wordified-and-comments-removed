@@ -145,9 +145,6 @@ testScript
 tab
 )
 ;
-const
-recordData
-=
 await
 startRecordingAllocations
 (
@@ -162,7 +159,6 @@ tab
 await
 stopRecordingAllocations
 (
-recordData
 "
 target
 "
