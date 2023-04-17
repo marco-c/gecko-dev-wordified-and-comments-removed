@@ -3401,9 +3401,6 @@ export
 -
 all
 (
-WASM_LDFLAGS
-)
-(
 CWASMOBJS
 )
 (
