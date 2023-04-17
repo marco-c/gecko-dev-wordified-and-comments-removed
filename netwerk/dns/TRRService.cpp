@@ -5590,6 +5590,15 @@ NowInSeconds
 if
 (
 aParentsToo
+&
+&
+!
+StaticPrefs
+:
+:
+network_trr_skip_check_for_blocked_host
+(
+)
 )
 {
 int32_t
