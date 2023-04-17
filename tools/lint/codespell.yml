@@ -477,6 +477,17 @@ test
 test_codespell
 .
 py
+-
+"
+*
+*
+/
+package
+-
+lock
+.
+json
+"
 #
 List
 of
