@@ -1628,6 +1628,9 @@ launched
 type
 :
 integer
+ping
+:
+true
 GPUProcessStatus
 :
 description
