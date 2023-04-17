@@ -1847,6 +1847,10 @@ rtc_include_internal_audio_device
 =
 !
 build_with_chromium
+&
+&
+!
+build_with_mozilla
 #
 Set
 this
