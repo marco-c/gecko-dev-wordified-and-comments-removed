@@ -142,12 +142,6 @@ aCount
 )
 override
 ;
-bool
-CanDeleteSelection
-(
-)
-const
-;
 virtual
 bool
 CanPaste
