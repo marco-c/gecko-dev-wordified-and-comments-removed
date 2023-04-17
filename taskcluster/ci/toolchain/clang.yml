@@ -984,6 +984,14 @@ clang
 tar
 .
 zst
+run
+-
+on
+-
+projects
+:
+[
+]
 fetches
 :
 fetch
