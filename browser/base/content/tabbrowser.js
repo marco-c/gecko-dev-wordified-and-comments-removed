@@ -12578,6 +12578,12 @@ return
 true
 ;
 }
+gDialogBox
+.
+replaceDialogIfOpen
+(
+)
+;
 var
 ps
 =

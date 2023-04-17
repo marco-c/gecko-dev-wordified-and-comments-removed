@@ -13351,6 +13351,14 @@ getTopWindow
 (
 )
 ;
+win
+.
+gDialogBox
+.
+replaceDialogIfOpen
+(
+)
+;
 let
 warningMessage
 ;
