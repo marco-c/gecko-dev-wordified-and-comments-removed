@@ -1710,7 +1710,7 @@ self
 .
 entries
 .
-evict_all
+clear
 (
 )
 ;
@@ -1729,7 +1729,7 @@ self
 .
 entries
 .
-num_entries
+len
 (
 )
 =

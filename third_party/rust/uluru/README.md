@@ -59,6 +59,15 @@ in
 no_std
 crates
 .
+It
+is
+implemented
+in
+100
+%
+safe
+Rust
+.
 *
 [
 Documentation
