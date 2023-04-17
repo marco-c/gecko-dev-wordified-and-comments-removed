@@ -1922,3 +1922,13 @@ filter
 ref
 .
 html
+=
+=
+filter
+-
+giant
+.
+svg
+pass
+.
+svg
