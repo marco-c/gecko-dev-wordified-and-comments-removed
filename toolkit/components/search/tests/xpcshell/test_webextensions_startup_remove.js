@@ -237,9 +237,7 @@ promiseShutdownManager
 )
 ;
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (
