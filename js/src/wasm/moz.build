@@ -190,6 +190,11 @@ WasmValType
 .
 cpp
 "
+"
+WasmValue
+.
+cpp
+"
 ]
 if
 CONFIG
