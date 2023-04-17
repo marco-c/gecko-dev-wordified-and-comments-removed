@@ -110,6 +110,7 @@ global
 checkbox
 .
 css
+*
 skin
 /
 classic
