@@ -24842,11 +24842,9 @@ immutableFlags
 (
 )
 ;
-MOZ_ASSERT
-(
 flags
 .
-hasFlag
+setFlag
 (
 JSScript
 :
@@ -24855,9 +24853,6 @@ ImmutableFlags
 :
 :
 HasNonSyntacticScope
-)
-=
-=
 scopes
 [
 0

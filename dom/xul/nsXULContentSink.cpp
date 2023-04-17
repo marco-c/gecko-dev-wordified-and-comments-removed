@@ -1870,7 +1870,7 @@ mSrcURI
 script
 -
 >
-HasStencil
+HasScriptObject
 (
 )
 )

@@ -287,16 +287,6 @@ stencil
 ;
 extern
 JS_PUBLIC_API
-bool
-StencilCanLazilyParse
-(
-Stencil
-*
-stencil
-)
-;
-extern
-JS_PUBLIC_API
 JSObject
 *
 InstantiateModuleStencil
