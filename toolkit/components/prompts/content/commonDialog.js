@@ -199,13 +199,6 @@ args
 ;
 if
 (
-PromptUtils
-.
-protonModals
-)
-{
-if
-(
 promptPrincipal
 )
 {
@@ -447,7 +440,6 @@ end
 "
 )
 ;
-}
 title
 .
 shouldUseMaskFade
