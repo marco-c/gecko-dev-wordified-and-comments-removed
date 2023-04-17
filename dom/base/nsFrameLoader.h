@@ -626,6 +626,13 @@ bool
 aIsUnderHiddenEmbedderElement
 )
 ;
+void
+PropagateIsUnderHiddenEmbedderElement
+(
+bool
+aIsUnderHiddenEmbedderElement
+)
+;
 nsresult
 FinishStaticClone
 (
