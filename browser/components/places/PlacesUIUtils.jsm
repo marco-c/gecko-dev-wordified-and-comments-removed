@@ -5189,6 +5189,14 @@ menupopup
 .
 ownerDocument
 ;
+document
+.
+popupNode
+=
+menupopup
+.
+triggerNode
+;
 menupopup
 .
 _view
