@@ -1921,7 +1921,7 @@ if
 (
 existingTarget
 .
-originalWindow
+window
 .
 document
 !
