@@ -3,12 +3,6 @@ use
 strict
 "
 ;
-var
-tmp
-=
-{
-}
-;
 ChromeUtils
 .
 import
