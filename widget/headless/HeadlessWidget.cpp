@@ -1339,13 +1339,6 @@ HeadlessWidget
 :
 GetLayerManager
 (
-PLayerTransactionChild
-*
-aShadowManager
-LayersBackend
-aBackendHint
-LayerManagerPersistence
-aPersistence
 )
 {
 return
@@ -1354,9 +1347,6 @@ nsBaseWidget
 :
 GetLayerManager
 (
-aShadowManager
-aBackendHint
-aPersistence
 )
 ;
 }

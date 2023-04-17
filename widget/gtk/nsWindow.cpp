@@ -39840,13 +39840,6 @@ nsWindow
 :
 GetLayerManager
 (
-PLayerTransactionChild
-*
-aShadowManager
-LayersBackend
-aBackendHint
-LayerManagerPersistence
-aPersistence
 )
 {
 if
@@ -39864,9 +39857,6 @@ nsBaseWidget
 :
 GetLayerManager
 (
-aShadowManager
-aBackendHint
-aPersistence
 )
 ;
 }

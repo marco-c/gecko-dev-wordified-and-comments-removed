@@ -2970,13 +2970,6 @@ PuppetWidget
 :
 GetLayerManager
 (
-PLayerTransactionChild
-*
-aShadowManager
-LayersBackend
-aBackendHint
-LayerManagerPersistence
-aPersistence
 )
 {
 if

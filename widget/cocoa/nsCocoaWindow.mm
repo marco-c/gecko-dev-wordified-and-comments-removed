@@ -4326,13 +4326,6 @@ nsCocoaWindow
 :
 GetLayerManager
 (
-PLayerTransactionChild
-*
-aShadowManager
-LayersBackend
-aBackendHint
-LayerManagerPersistence
-aPersistence
 )
 {
 if
@@ -4346,9 +4339,6 @@ mPopupContentView
 >
 GetLayerManager
 (
-aShadowManager
-aBackendHint
-aPersistence
 )
 ;
 }

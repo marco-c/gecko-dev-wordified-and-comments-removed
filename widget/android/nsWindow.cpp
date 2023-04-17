@@ -12090,10 +12090,6 @@ nsWindow
 :
 GetLayerManager
 (
-PLayerTransactionChild
-*
-LayersBackend
-LayerManagerPersistence
 )
 {
 if

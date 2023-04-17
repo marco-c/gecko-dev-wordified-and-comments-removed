@@ -7046,7 +7046,7 @@ return
 nsContentUtils
 :
 :
-PersistentLayerManagerForDocument
+LayerManagerForDocument
 (
 aCanvasElement
 -
