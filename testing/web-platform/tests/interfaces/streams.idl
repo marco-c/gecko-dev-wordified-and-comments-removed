@@ -768,11 +768,6 @@ WritableStreamDefaultController
 {
 readonly
 attribute
-any
-abortReason
-;
-readonly
-attribute
 AbortSignal
 signal
 ;
