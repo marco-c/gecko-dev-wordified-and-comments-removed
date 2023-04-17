@@ -507,7 +507,7 @@ return
 SymbolicAddress
 :
 :
-WaitI32
+WaitI32M32
 ;
 case
 BD_SymbolicAddress
@@ -519,7 +519,7 @@ return
 SymbolicAddress
 :
 :
-WaitI64
+WaitI64M32
 ;
 case
 BD_SymbolicAddress
@@ -531,7 +531,7 @@ return
 SymbolicAddress
 :
 :
-Wake
+WakeM32
 ;
 case
 BD_SymbolicAddress
