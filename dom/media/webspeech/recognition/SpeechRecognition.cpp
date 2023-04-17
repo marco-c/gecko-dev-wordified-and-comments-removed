@@ -2765,7 +2765,7 @@ blockerName
 media
 :
 :
-GetShutdownBarrier
+MustGetShutdownBarrier
 (
 )
 -
@@ -2987,7 +2987,7 @@ this
 media
 :
 :
-GetShutdownBarrier
+MustGetShutdownBarrier
 (
 )
 -
