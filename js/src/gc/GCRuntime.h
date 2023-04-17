@@ -4044,6 +4044,8 @@ GCReason
 reason
 bool
 canAllocateMoreCode
+bool
+isActiveCompartment
 )
 ;
 void
