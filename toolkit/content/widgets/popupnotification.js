@@ -539,6 +539,16 @@ icon
 >
 <
 vbox
+flex
+=
+"
+1
+"
+pack
+=
+"
+start
+"
 class
 =
 "
