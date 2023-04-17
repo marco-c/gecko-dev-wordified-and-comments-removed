@@ -50,19 +50,24 @@ include
 "
 unicode
 /
-localpointer
+unum
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 #
 include
 "
 unicode
 /
-unum
+localpointer
 .
 h
 "
+#
+endif
 #
 if
 !
@@ -91,7 +96,7 @@ U_READWRITE
 }
 UFileDirection
 ;
-U_STABLE
+U_CAPI
 UFILE
 *
 U_EXPORT2
@@ -115,7 +120,7 @@ char
 codepage
 )
 ;
-U_STABLE
+U_CAPI
 UFILE
 *
 U_EXPORT2
@@ -139,7 +144,7 @@ char
 codepage
 )
 ;
-U_STABLE
+U_CAPI
 UFILE
 *
 U_EXPORT2
@@ -158,7 +163,7 @@ char
 codepage
 )
 ;
-U_STABLE
+U_CAPI
 UFILE
 *
 U_EXPORT2
@@ -177,7 +182,7 @@ char
 codepage
 )
 ;
-U_STABLE
+U_CAPI
 UFILE
 *
 U_EXPORT2
@@ -194,7 +199,7 @@ char
 locale
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_fclose
@@ -218,7 +223,7 @@ u_fclose
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_feof
@@ -228,7 +233,7 @@ UFILE
 f
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_fflush
@@ -238,7 +243,7 @@ UFILE
 file
 )
 ;
-U_STABLE
+U_CAPI
 void
 u_frewind
 (
@@ -247,7 +252,7 @@ UFILE
 file
 )
 ;
-U_STABLE
+U_CAPI
 FILE
 *
 U_EXPORT2
@@ -262,7 +267,7 @@ f
 if
 !
 UCONFIG_NO_FORMATTING
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -274,7 +279,7 @@ UFILE
 file
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fsetlocale
@@ -290,7 +295,7 @@ locale
 ;
 #
 endif
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -302,7 +307,7 @@ UFILE
 file
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fsetcodepage
@@ -316,7 +321,7 @@ UFILE
 file
 )
 ;
-U_STABLE
+U_CAPI
 UConverter
 *
 U_EXPORT2
@@ -331,7 +336,7 @@ f
 if
 !
 UCONFIG_NO_FORMATTING
-U_STABLE
+U_CAPI
 const
 UNumberFormat
 *
@@ -343,7 +348,7 @@ UFILE
 f
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_printf
@@ -357,7 +362,7 @@ patternSpecification
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fprintf
@@ -374,7 +379,7 @@ patternSpecification
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vfprintf
@@ -390,7 +395,7 @@ va_list
 ap
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_printf_u
@@ -404,7 +409,7 @@ patternSpecification
 .
 )
 ;
-U_STABLE
+U_CAPI
 UFILE
 *
 U_EXPORT2
@@ -413,7 +418,7 @@ u_get_stdout
 void
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fprintf_u
@@ -430,7 +435,7 @@ patternSpecification
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vfprintf_u
@@ -448,7 +453,7 @@ ap
 ;
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fputs
@@ -462,7 +467,7 @@ UFILE
 f
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_fputc
@@ -474,7 +479,7 @@ UFILE
 f
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_file_write
@@ -494,7 +499,7 @@ f
 if
 !
 UCONFIG_NO_FORMATTING
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fscanf
@@ -511,7 +516,7 @@ patternSpecification
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vfscanf
@@ -527,7 +532,7 @@ va_list
 ap
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fscanf_u
@@ -544,7 +549,7 @@ patternSpecification
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vfscanf_u
@@ -562,7 +567,7 @@ ap
 ;
 #
 endif
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -578,7 +583,7 @@ UFILE
 f
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 U_EXPORT2
 u_fgetc
@@ -588,7 +593,7 @@ UFILE
 f
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_fgetcx
@@ -598,7 +603,7 @@ UFILE
 f
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_fungetc
@@ -610,7 +615,7 @@ UFILE
 f
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_file_read
@@ -629,7 +634,7 @@ f
 if
 !
 UCONFIG_NO_TRANSLITERATION
-U_STABLE
+U_CAPI
 UTransliterator
 *
 U_EXPORT2
@@ -654,7 +659,7 @@ endif
 if
 !
 UCONFIG_NO_FORMATTING
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_sprintf
@@ -671,7 +676,7 @@ patternSpecification
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_snprintf
@@ -690,7 +695,7 @@ patternSpecification
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vsprintf
@@ -706,7 +711,7 @@ va_list
 ap
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vsnprintf
@@ -724,7 +729,7 @@ va_list
 ap
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_sprintf_u
@@ -741,7 +746,7 @@ patternSpecification
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_snprintf_u
@@ -760,7 +765,7 @@ patternSpecification
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vsprintf_u
@@ -776,7 +781,7 @@ va_list
 ap
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vsnprintf_u
@@ -794,7 +799,7 @@ va_list
 ap
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_sscanf
@@ -812,7 +817,7 @@ patternSpecification
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vsscanf
@@ -829,7 +834,7 @@ va_list
 ap
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_sscanf_u
@@ -847,7 +852,7 @@ patternSpecification
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vsscanf_u

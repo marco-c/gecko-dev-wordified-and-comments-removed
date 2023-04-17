@@ -254,7 +254,7 @@ matchNodesCanHaveValues
 const
 {
 return
-TRUE
+true
 ;
 }
 virtual

@@ -13,7 +13,7 @@ utypes
 .
 h
 "
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_shapeArabic

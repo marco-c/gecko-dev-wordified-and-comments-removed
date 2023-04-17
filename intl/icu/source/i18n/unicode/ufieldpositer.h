@@ -18,6 +18,9 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -26,6 +29,8 @@ localpointer
 .
 h
 "
+#
+endif
 struct
 UFieldPositionIterator
 ;
@@ -34,7 +39,7 @@ struct
 UFieldPositionIterator
 UFieldPositionIterator
 ;
-U_STABLE
+U_CAPI
 UFieldPositionIterator
 *
 U_EXPORT2
@@ -45,7 +50,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ufieldpositer_close
@@ -69,7 +74,7 @@ ufieldpositer_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ufieldpositer_next

@@ -18,15 +18,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 stringoptions
 .
 h
@@ -40,6 +31,20 @@ uset
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
 typedef
 enum
 {
@@ -72,7 +77,7 @@ UNormalizer2
 if
 !
 UCONFIG_NO_NORMALIZATION
-U_STABLE
+U_CAPI
 const
 UNormalizer2
 *
@@ -84,7 +89,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 const
 UNormalizer2
 *
@@ -96,7 +101,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 const
 UNormalizer2
 *
@@ -108,7 +113,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 const
 UNormalizer2
 *
@@ -120,7 +125,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 const
 UNormalizer2
 *
@@ -132,7 +137,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 const
 UNormalizer2
 *
@@ -154,7 +159,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UNormalizer2
 *
 U_EXPORT2
@@ -173,7 +178,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 unorm2_close
@@ -197,7 +202,7 @@ unorm2_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm2_normalize
@@ -222,7 +227,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm2_normalizeSecondAndAppend
@@ -249,7 +254,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm2_append
@@ -276,7 +281,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm2_getDecomposition
@@ -297,7 +302,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm2_getRawDecomposition
@@ -318,7 +323,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 unorm2_composePair
@@ -333,7 +338,7 @@ UChar32
 b
 )
 ;
-U_STABLE
+U_CAPI
 uint8_t
 U_EXPORT2
 unorm2_getCombiningClass
@@ -346,7 +351,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 unorm2_isNormalized
@@ -366,7 +371,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UNormalizationCheckResult
 U_EXPORT2
 unorm2_quickCheck
@@ -386,7 +391,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm2_spanQuickCheckYes
@@ -406,7 +411,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 unorm2_hasBoundaryBefore
@@ -419,7 +424,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 unorm2_hasBoundaryAfter
@@ -432,7 +437,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 unorm2_isInert
@@ -445,7 +450,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm_compare

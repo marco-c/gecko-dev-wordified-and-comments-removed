@@ -181,9 +181,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UBool
 copyErrorTo
 (
@@ -193,8 +190,6 @@ outErrorCode
 )
 const
 ;
-#
-endif
 private
 :
 friend

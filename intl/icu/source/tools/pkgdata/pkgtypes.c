@@ -1,6 +1,13 @@
 #
 include
 <
+stdbool
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -1434,11 +1441,11 @@ str
 )
 {
 return
-TRUE
+true
 ;
 }
 }
 return
-FALSE
+false
 ;
 }

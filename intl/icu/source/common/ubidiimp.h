@@ -38,6 +38,22 @@ ubidi_props
 .
 h
 "
+#
+ifdef
+CS
+#
+undef
+CS
+#
+endif
+#
+ifdef
+ES
+#
+undef
+ES
+#
+endif
 typedef
 uint8_t
 DirProp
@@ -1750,7 +1766,7 @@ pBiDi
 >
 dirPropsSize
 \
-TRUE
+true
 (
 length
 )
@@ -1784,7 +1800,7 @@ pBiDi
 >
 levelsSize
 \
-TRUE
+true
 (
 length
 )
@@ -1818,7 +1834,7 @@ pBiDi
 >
 openingsSize
 \
-TRUE
+true
 (
 length
 )
@@ -1857,7 +1873,7 @@ pBiDi
 >
 parasSize
 \
-TRUE
+true
 (
 length
 )
@@ -1896,7 +1912,7 @@ pBiDi
 >
 runsSize
 \
-TRUE
+true
 (
 length
 )
@@ -1935,7 +1951,7 @@ pBiDi
 >
 isolatesSize
 \
-TRUE
+true
 (
 length
 )

@@ -28,7 +28,7 @@ UResourceBundle
 *
 u_nl_catd
 ;
-U_STABLE
+U_CAPI
 u_nl_catd
 U_EXPORT2
 u_catopen
@@ -46,7 +46,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_catclose
@@ -55,7 +55,7 @@ u_nl_catd
 catd
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *

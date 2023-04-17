@@ -128,8 +128,9 @@ fillin
 UnicodeString
 (
 str
-"
-"
+-
+1
+US_INV
 )
 ;
 }

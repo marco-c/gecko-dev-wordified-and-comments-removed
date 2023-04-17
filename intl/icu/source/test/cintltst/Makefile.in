@@ -791,6 +791,9 @@ o
 uformattedvaluetst
 .
 o
+unumberrangeformattertst
+.
+o
 DEPS
 =
 (

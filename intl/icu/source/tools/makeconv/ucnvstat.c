@@ -19,6 +19,13 @@ h
 #
 include
 "
+toolutil
+.
+h
+"
+#
+include
+"
 ucnv_bld
 .
 h

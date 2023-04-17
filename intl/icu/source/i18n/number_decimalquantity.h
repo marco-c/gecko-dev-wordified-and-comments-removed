@@ -311,7 +311,8 @@ toDouble
 )
 const
 ;
-void
+DecNum
+&
 toDecNum
 (
 DecNum

@@ -18,6 +18,9 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -26,6 +29,8 @@ localpointer
 .
 h
 "
+#
+endif
 typedef
 enum
 UFormattableType
@@ -53,7 +58,7 @@ void
 *
 UFormattable
 ;
-U_STABLE
+U_CAPI
 UFormattable
 *
 U_EXPORT2
@@ -64,7 +69,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ufmt_close
@@ -88,7 +93,7 @@ ufmt_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 UFormattableType
 U_EXPORT2
 ufmt_getType
@@ -102,7 +107,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ufmt_isNumeric
@@ -113,7 +118,7 @@ UFormattable
 fmt
 )
 ;
-U_STABLE
+U_CAPI
 UDate
 U_EXPORT2
 ufmt_getDate
@@ -127,7 +132,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 double
 U_EXPORT2
 ufmt_getDouble
@@ -140,7 +145,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ufmt_getLong
@@ -153,7 +158,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 ufmt_getInt64
@@ -166,7 +171,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 void
 *
@@ -182,7 +187,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -200,7 +205,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ufmt_getArrayLength
@@ -214,7 +219,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UFormattable
 *
 U_EXPORT2
@@ -230,7 +235,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *

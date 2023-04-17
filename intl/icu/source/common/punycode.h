@@ -17,7 +17,7 @@ h
 if
 !
 UCONFIG_NO_IDNA
-U_CFUNC
+U_CAPI
 int32_t
 u_strToPunycode
 (
@@ -41,7 +41,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_CFUNC
+U_CAPI
 int32_t
 u_strFromPunycode
 (

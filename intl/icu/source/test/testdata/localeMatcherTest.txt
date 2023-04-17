@@ -30,8 +30,6 @@ copyright
 .
 html
 #
-License
-#
 #
 Data
 -
@@ -1805,7 +1803,7 @@ TW
 *
 test
 :
-testMatchGrandfatheredCode
+testMatchLegacyCode
 supported
 =
 fr
@@ -10588,7 +10586,7 @@ bork
 *
 test
 :
-MatchGrandfatheredCode
+MatchLegacyCode
 supported
 =
 fr
@@ -13959,7 +13957,7 @@ bork
 *
 test
 :
-grandfathered
+legacy
 codes
 supported
 =

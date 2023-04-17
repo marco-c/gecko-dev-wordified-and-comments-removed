@@ -743,7 +743,7 @@ isBufferClone
 )
 {
 return
-FALSE
+false
 ;
 }
 #

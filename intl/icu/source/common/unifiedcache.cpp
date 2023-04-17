@@ -1589,7 +1589,7 @@ softRefCount
 0
 )
 {
-_registerMaster
+_registerPrimary
 (
 keyToAdopt
 value
@@ -2066,7 +2066,7 @@ void
 UnifiedCache
 :
 :
-_registerMaster
+_registerPrimary
 (
 const
 CacheKeyBase
@@ -2082,7 +2082,7 @@ const
 theKey
 -
 >
-fIsMaster
+fIsPrimary
 =
 true
 ;
@@ -2182,7 +2182,7 @@ softRefCount
 0
 )
 {
-_registerMaster
+_registerPrimary
 (
 theKey
 value
@@ -2470,7 +2470,7 @@ return
 theKey
 -
 >
-fIsMaster
+fIsPrimary
 |
 |
 (

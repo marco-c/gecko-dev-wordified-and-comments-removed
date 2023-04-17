@@ -206,13 +206,13 @@ errorCode
 length
 ;
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }

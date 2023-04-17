@@ -90,7 +90,7 @@ setAutoPrefix
 {
 doAutoPrefix
 =
-TRUE
+true
 ;
 }
 void
@@ -100,11 +100,11 @@ setAutoPrefixWithType
 {
 doAutoPrefix
 =
-TRUE
+true
 ;
 prefixEndsWithType
 =
-TRUE
+true
 ;
 }
 void

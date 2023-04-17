@@ -13,7 +13,7 @@ utypes
 .
 h
 "
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -23,7 +23,7 @@ u_getDataDirectory
 void
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_setDataDirectory
@@ -37,7 +37,7 @@ directory
 #
 ifndef
 U_HIDE_INTERNAL_API
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -49,7 +49,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 u_setTimeZoneFilesDirectory
@@ -146,7 +146,7 @@ U_PATH_SEP_STRING
 "
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_charsToUChars
@@ -162,7 +162,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_UCharsToChars

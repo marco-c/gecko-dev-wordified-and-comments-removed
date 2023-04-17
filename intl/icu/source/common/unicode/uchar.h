@@ -2663,7 +2663,7 @@ U_VO_UPRIGHT
 }
 UVerticalOrientation
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_hasBinaryProperty
@@ -2688,7 +2688,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isUAlphabetic
@@ -2697,7 +2697,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isULowercase
@@ -2706,7 +2706,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isUUppercase
@@ -2715,7 +2715,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isUWhiteSpace
@@ -2724,7 +2724,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_getIntPropertyValue
@@ -2735,7 +2735,7 @@ UProperty
 which
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_getIntPropertyMinValue
@@ -2744,7 +2744,7 @@ UProperty
 which
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_getIntPropertyMaxValue
@@ -2767,7 +2767,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 double
 U_EXPORT2
 u_getNumericValue
@@ -2787,7 +2787,7 @@ double
 123456789
 .
 )
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_islower
@@ -2796,7 +2796,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isupper
@@ -2805,7 +2805,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_istitle
@@ -2814,7 +2814,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isdigit
@@ -2823,7 +2823,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isalpha
@@ -2832,7 +2832,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isalnum
@@ -2841,7 +2841,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isxdigit
@@ -2850,7 +2850,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_ispunct
@@ -2859,7 +2859,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isgraph
@@ -2868,7 +2868,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isblank
@@ -2877,7 +2877,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isdefined
@@ -2886,7 +2886,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isspace
@@ -2895,7 +2895,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isJavaSpaceChar
@@ -2904,7 +2904,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isWhitespace
@@ -2913,7 +2913,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_iscntrl
@@ -2922,7 +2922,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isISOControl
@@ -2931,7 +2931,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isprint
@@ -2940,7 +2940,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isbase
@@ -2949,7 +2949,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UCharDirection
 U_EXPORT2
 u_charDirection
@@ -2958,7 +2958,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isMirrored
@@ -2967,7 +2967,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_charMirror
@@ -2976,7 +2976,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_getBidiPairedBracket
@@ -2985,7 +2985,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 int8_t
 U_EXPORT2
 u_charType
@@ -3024,7 +3024,7 @@ UCharCategory
 type
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_enumCharTypes
@@ -3042,7 +3042,7 @@ context
 if
 !
 UCONFIG_NO_NORMALIZATION
-U_STABLE
+U_CAPI
 uint8_t
 U_EXPORT2
 u_getCombiningClass
@@ -3053,7 +3053,7 @@ c
 ;
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_charDigitValue
@@ -3062,7 +3062,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBlockCode
 U_EXPORT2
 ublock_getCode
@@ -3071,7 +3071,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_charName
@@ -3112,7 +3112,7 @@ pErrorCode
 ;
 #
 endif
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_charFromName
@@ -3148,7 +3148,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_enumCharNames
@@ -3170,7 +3170,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -3183,7 +3183,7 @@ UPropertyNameChoice
 nameChoice
 )
 ;
-U_STABLE
+U_CAPI
 UProperty
 U_EXPORT2
 u_getPropertyEnum
@@ -3194,7 +3194,7 @@ char
 alias
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -3209,7 +3209,7 @@ UPropertyNameChoice
 nameChoice
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_getPropertyValueEnum
@@ -3222,7 +3222,7 @@ char
 alias
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isIDStart
@@ -3231,7 +3231,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isIDPart
@@ -3240,7 +3240,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isIDIgnorable
@@ -3249,7 +3249,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isJavaIDStart
@@ -3258,7 +3258,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isJavaIDPart
@@ -3267,7 +3267,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_tolower
@@ -3276,7 +3276,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_toupper
@@ -3285,7 +3285,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_totitle
@@ -3294,7 +3294,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_foldCase
@@ -3305,7 +3305,7 @@ uint32_t
 options
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_digit
@@ -3316,7 +3316,7 @@ int8_t
 radix
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_forDigit
@@ -3327,7 +3327,7 @@ int8_t
 radix
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_charAge
@@ -3338,7 +3338,7 @@ UVersionInfo
 versionArray
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_getUnicodeVersion
@@ -3351,7 +3351,7 @@ versionArray
 if
 !
 UCONFIG_NO_NORMALIZATION
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_getFC_NFKC_Closure

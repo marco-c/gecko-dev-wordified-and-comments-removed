@@ -389,7 +389,7 @@ enableFastLatin
 {
 fastLatinEnabled
 =
-TRUE
+true
 ;
 }
 virtual

@@ -27,7 +27,7 @@ h
 "
 #
 endif
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_isInvariantString
@@ -40,7 +40,7 @@ int32_t
 length
 )
 ;
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_isInvariantUString
@@ -443,7 +443,7 @@ family
 !
 #
 endif
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_compareInvEbcdicAsAscii
@@ -504,7 +504,7 @@ family
 !
 #
 endif
-U_INTERNAL
+U_CAPI
 char
 U_EXPORT2
 uprv_ebcdicToAscii
@@ -554,7 +554,7 @@ family
 !
 #
 endif
-U_INTERNAL
+U_CAPI
 char
 U_EXPORT2
 uprv_ebcdicToLowercaseAscii
@@ -593,7 +593,7 @@ family
 !
 #
 endif
-U_INTERNAL
+U_CAPI
 uint8_t
 *
 U_EXPORT2
@@ -610,7 +610,7 @@ int32_t
 n
 )
 ;
-U_INTERNAL
+U_CAPI
 uint8_t
 *
 U_EXPORT2

@@ -243,9 +243,6 @@ size
 endif
 #
 endif
-#
-ifndef
-U_HIDE_DRAFT_API
 template
 <
 typename
@@ -379,8 +376,6 @@ size
 )
 {
 }
-#
-endif
 StringPiece
 (
 const

@@ -14,6 +14,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -22,6 +25,8 @@ localpointer
 .
 h
 "
+#
+endif
 U_CDECL_BEGIN
 #
 ifndef
@@ -127,7 +132,7 @@ UDataInfo
 pInfo
 )
 ;
-U_STABLE
+U_CAPI
 UDataMemory
 *
 U_EXPORT2
@@ -150,7 +155,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UDataMemory
 *
 U_EXPORT2
@@ -179,7 +184,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udata_close
@@ -189,7 +194,7 @@ UDataMemory
 pData
 )
 ;
-U_STABLE
+U_CAPI
 const
 void
 *
@@ -201,7 +206,7 @@ UDataMemory
 pData
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udata_getInfo
@@ -214,7 +219,7 @@ UDataInfo
 pInfo
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udata_setCommonData
@@ -228,7 +233,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udata_setAppData
@@ -266,7 +271,7 @@ endif
 }
 UDataFileAccess
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udata_setFileAccess

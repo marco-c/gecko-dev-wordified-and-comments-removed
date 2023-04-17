@@ -840,7 +840,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -896,7 +896,7 @@ cc
 remainingCapacity
 ;
 return
-TRUE
+true
 ;
 }
 UBool

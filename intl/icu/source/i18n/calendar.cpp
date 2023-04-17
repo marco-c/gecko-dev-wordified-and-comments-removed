@@ -3901,8 +3901,9 @@ createInstance
 TimeZone
 :
 :
-createDefault
+forLocaleOrDefault
 (
+aLocale
 )
 aLocale
 success

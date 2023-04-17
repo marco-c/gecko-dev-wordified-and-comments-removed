@@ -97,7 +97,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_setPlugNoUnload
@@ -109,7 +109,7 @@ UBool
 dontUnload
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_setPlugLevel
@@ -121,7 +121,7 @@ UPlugLevel
 level
 )
 ;
-U_INTERNAL
+U_CAPI
 UPlugLevel
 U_EXPORT2
 uplug_getPlugLevel
@@ -131,7 +131,7 @@ UPlugData
 plug
 )
 ;
-U_INTERNAL
+U_CAPI
 UPlugLevel
 U_EXPORT2
 uplug_getCurrentLevel
@@ -139,7 +139,7 @@ uplug_getCurrentLevel
 void
 )
 ;
-U_INTERNAL
+U_CAPI
 UErrorCode
 U_EXPORT2
 uplug_getPlugLoadStatus
@@ -149,7 +149,7 @@ UPlugData
 plug
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_setPlugName
@@ -163,7 +163,7 @@ char
 name
 )
 ;
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -175,7 +175,7 @@ UPlugData
 plug
 )
 ;
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -187,7 +187,7 @@ UPlugData
 plug
 )
 ;
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -202,7 +202,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -213,7 +213,7 @@ UPlugData
 plug
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -224,7 +224,7 @@ UPlugData
 plug
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_setContext
@@ -237,7 +237,7 @@ void
 context
 )
 ;
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -249,7 +249,7 @@ UPlugData
 plug
 )
 ;
-U_INTERNAL
+U_CAPI
 UPlugData
 *
 U_EXPORT2
@@ -260,7 +260,7 @@ UPlugData
 prior
 )
 ;
-U_INTERNAL
+U_CAPI
 UPlugData
 *
 U_EXPORT2
@@ -278,7 +278,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 UPlugData
 *
 U_EXPORT2
@@ -301,7 +301,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_removePlug

@@ -341,7 +341,7 @@ success
 UBool
 useLastResortData
 =
-FALSE
+false
 const
 NumberingSystem
 *
@@ -668,9 +668,9 @@ UnicodeString
 value
 const
 UBool
-propogateDigits
+propagateDigits
 =
-TRUE
+true
 )
 {
 if
@@ -683,7 +683,7 @@ kCurrencySymbol
 {
 fIsCustomCurrencySymbol
 =
-TRUE
+true
 ;
 }
 else
@@ -697,7 +697,7 @@ kIntlCurrencySymbol
 {
 fIsCustomIntlCurrencySymbol
 =
-TRUE
+true
 ;
 }
 if
@@ -735,7 +735,7 @@ char32At
 ;
 if
 (
-propogateDigits
+propagateDigits
 &
 &
 u_charDigitValue

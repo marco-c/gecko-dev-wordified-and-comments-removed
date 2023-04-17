@@ -634,7 +634,7 @@ endif
 }
 UScriptCode
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uscript_getCode
@@ -653,7 +653,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -664,7 +664,7 @@ UScriptCode
 scriptCode
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -675,7 +675,7 @@ UScriptCode
 scriptCode
 )
 ;
-U_STABLE
+U_CAPI
 UScriptCode
 U_EXPORT2
 uscript_getScript
@@ -687,7 +687,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uscript_hasScript
@@ -698,7 +698,7 @@ UScriptCode
 sc
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uscript_getScriptExtensions
@@ -728,7 +728,7 @@ USCRIPT_USAGE_RECOMMENDED
 }
 UScriptUsage
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uscript_getSampleString
@@ -767,7 +767,7 @@ script
 ;
 #
 endif
-U_STABLE
+U_CAPI
 UScriptUsage
 U_EXPORT2
 uscript_getUsage
@@ -776,7 +776,7 @@ UScriptCode
 script
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uscript_isRightToLeft
@@ -785,7 +785,7 @@ UScriptCode
 script
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uscript_breaksBetweenLetters
@@ -794,7 +794,7 @@ UScriptCode
 script
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uscript_isCased

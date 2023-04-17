@@ -70,6 +70,13 @@ genmbcs
 .
 h
 "
+#
+include
+"
+toolutil
+.
+h
+"
 struct
 MBCSData
 {

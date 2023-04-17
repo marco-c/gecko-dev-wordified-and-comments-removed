@@ -31,16 +31,29 @@ org
 copyright
 .
 html
-#
-License
+/
+/
+Generated
+using
+tools
+/
+cldr
+/
+cldr
+-
+to
+-
+icu
+/
+build
+-
+icu
+-
+data
+.
+xml
 nn
 {
-Version
-{
-"
-37
-"
-}
 zoneStrings
 {
 "
@@ -3674,6 +3687,19 @@ Qatar
 "
 Asia
 :
+Qostanay
+"
+{
+ec
+{
+"
+Kostanaj
+"
+}
+}
+"
+Asia
+:
 Qyzylorda
 "
 {
@@ -3867,7 +3893,7 @@ Thimphu
 ec
 {
 "
-Thimphu
+Thimpu
 "
 }
 }
@@ -4523,7 +4549,7 @@ ld
 {
 "
 irsk
-sumartid
+sommartid
 "
 }
 }
@@ -4686,7 +4712,7 @@ ld
 {
 "
 britisk
-sumartid
+sommartid
 "
 }
 }
@@ -5197,7 +5223,7 @@ Comoro
 ec
 {
 "
-Komorene
+Komorane
 "
 }
 }
@@ -5476,6 +5502,19 @@ ec
 {
 "
 Honolulu
+"
+}
+}
+"
+Pacific
+:
+Johnston
+"
+{
+ec
+{
+"
+Johnston
 "
 }
 }
@@ -5877,7 +5916,7 @@ ld
 {
 "
 alaskisk
-sumartid
+sommartid
 "
 }
 lg
@@ -5904,7 +5943,7 @@ Amazon
 ld
 {
 "
-sumartid
+sommartid
 for
 Amazonas
 "
@@ -5935,7 +5974,7 @@ America_Central
 ld
 {
 "
-sumartid
+sommartid
 for
 sentrale
 Nord
@@ -5975,7 +6014,7 @@ America_Eastern
 ld
 {
 "
-sumartid
+sommartid
 for
 den
 nordamerikansk
@@ -5988,7 +6027,7 @@ lg
 tidssone
 for
 den
-nordamerikansk
+nordamerikanske
 austkysten
 "
 }
@@ -5998,7 +6037,7 @@ ls
 normaltid
 for
 den
-nordamerikansk
+nordamerikanske
 austkysten
 "
 }
@@ -6012,7 +6051,7 @@ America_Mountain
 ld
 {
 "
-sumartid
+sommartid
 for
 Rocky
 Mountains
@@ -6055,7 +6094,7 @@ America_Pacific
 ld
 {
 "
-sumartid
+sommartid
 for
 den
 nordamerikanske
@@ -6092,7 +6131,7 @@ Apia
 ld
 {
 "
-sumartid
+sommartid
 for
 Apia
 "
@@ -6124,7 +6163,7 @@ ld
 {
 "
 arabisk
-sumartid
+sommartid
 "
 }
 lg
@@ -6152,7 +6191,7 @@ ld
 {
 "
 argentinsk
-sumartid
+sommartid
 "
 }
 lg
@@ -6180,7 +6219,7 @@ ld
 {
 "
 vestargentinsk
-sumartid
+sommartid
 "
 }
 lg
@@ -6208,7 +6247,7 @@ ld
 {
 "
 armensk
-sumartid
+sommartid
 "
 }
 lg
@@ -6235,7 +6274,7 @@ Atlantic
 ld
 {
 "
-sumartid
+sommartid
 for
 den
 nordamerikanske
@@ -6391,7 +6430,7 @@ ld
 {
 "
 aserbajdsjansk
-sumartid
+sommartid
 "
 }
 lg
@@ -6419,7 +6458,7 @@ ld
 {
 "
 asorisk
-sumartid
+sommartid
 "
 }
 lg
@@ -6447,7 +6486,7 @@ ld
 {
 "
 bangladeshisk
-sumartid
+sommartid
 "
 }
 lg
@@ -6502,7 +6541,7 @@ Brasilia
 ld
 {
 "
-sumartid
+sommartid
 for
 Brasilia
 "
@@ -6550,7 +6589,7 @@ ld
 {
 "
 kappverdisk
-sumartid
+sommartid
 "
 }
 lg
@@ -6592,7 +6631,7 @@ Chatham
 ld
 {
 "
-sumartid
+sommartid
 for
 Chatham
 "
@@ -6624,7 +6663,7 @@ ld
 {
 "
 chilensk
-sumartid
+sommartid
 "
 }
 lg
@@ -6652,7 +6691,7 @@ ld
 {
 "
 kinesisk
-sumartid
+sommartid
 "
 }
 lg
@@ -6679,7 +6718,7 @@ Choibalsan
 ld
 {
 "
-sumartid
+sommartid
 for
 Tsjojbalsan
 "
@@ -6743,7 +6782,7 @@ ld
 {
 "
 kolombiansk
-sumartid
+sommartid
 "
 }
 lg
@@ -6770,7 +6809,7 @@ Cook
 ld
 {
 "
-sumartid
+sommartid
 for
 Cook
 yane
@@ -6805,7 +6844,7 @@ ld
 {
 "
 kubansk
-sumartid
+sommartid
 "
 }
 lg
@@ -6879,7 +6918,7 @@ Easter
 ld
 {
 "
-sumartid
+sommartid
 for
 P
 ske
@@ -7084,7 +7123,7 @@ Falkland
 ld
 {
 "
-sumartid
+sommartid
 for
 Falklands
 yane
@@ -7119,7 +7158,7 @@ ld
 {
 "
 fijiansk
-sumartid
+sommartid
 "
 }
 lg
@@ -7233,7 +7272,7 @@ ld
 {
 "
 georgisk
-sumartid
+sommartid
 "
 }
 lg
@@ -7278,7 +7317,7 @@ ld
 "
 austgr
 nlandsk
-sumartid
+sommartid
 "
 }
 lg
@@ -7309,7 +7348,7 @@ ld
 "
 vestgr
 nlandsk
-sumartid
+sommartid
 "
 }
 lg
@@ -7367,7 +7406,7 @@ Hawaii_Aleutian
 ld
 {
 "
-sumartid
+sommartid
 for
 Hawaii
 og
@@ -7405,7 +7444,7 @@ ld
 {
 "
 hongkongkinesisk
-sumartid
+sommartid
 "
 }
 lg
@@ -7432,7 +7471,7 @@ Hovd
 ld
 {
 "
-sumartid
+sommartid
 for
 Khovd
 "
@@ -7549,7 +7588,7 @@ ld
 {
 "
 iransk
-sumartid
+sommartid
 "
 }
 lg
@@ -7576,7 +7615,7 @@ Irkutsk
 ld
 {
 "
-sumartid
+sommartid
 for
 Irkutsk
 "
@@ -7608,7 +7647,7 @@ ld
 {
 "
 israelsk
-sumartid
+sommartid
 "
 }
 lg
@@ -7636,7 +7675,7 @@ ld
 {
 "
 japansk
-sumartid
+sommartid
 "
 }
 lg
@@ -7692,7 +7731,7 @@ ld
 {
 "
 koreansk
-sumartid
+sommartid
 "
 }
 lg
@@ -7734,7 +7773,7 @@ Krasnoyarsk
 ld
 {
 "
-sumartid
+sommartid
 for
 Krasnojarsk
 "
@@ -7795,7 +7834,7 @@ Lord_Howe
 ld
 {
 "
-sumartid
+sommartid
 for
 Lord
 Howe
@@ -7851,7 +7890,7 @@ Magadan
 ld
 {
 "
-sumartid
+sommartid
 for
 Magadan
 "
@@ -7941,7 +7980,7 @@ ld
 {
 "
 mauritisk
-sumartid
+sommartid
 "
 }
 lg
@@ -7983,7 +8022,7 @@ Mexico_Northwest
 ld
 {
 "
-sumartid
+sommartid
 for
 nordvestlege
 Mexico
@@ -8017,7 +8056,7 @@ Mexico_Pacific
 ld
 {
 "
-sumartid
+sommartid
 for
 den
 meksikanske
@@ -8054,7 +8093,10 @@ Mongolia
 ld
 {
 "
-sumartid
+sommartid
+for
+Ulan
+Bator
 "
 }
 lg
@@ -8085,7 +8127,7 @@ Moscow
 ld
 {
 "
-sumartid
+sommartid
 for
 Moskva
 "
@@ -8159,7 +8201,7 @@ ld
 {
 "
 kaledonsk
-sumartid
+sommartid
 "
 }
 lg
@@ -8214,7 +8256,7 @@ Newfoundland
 ld
 {
 "
-sumartid
+sommartid
 for
 Newfoundland
 "
@@ -8260,7 +8302,7 @@ Norfolk
 ld
 {
 "
-sumartid
+sommartid
 for
 Norfolk
 ya
@@ -8294,7 +8336,7 @@ Noronha
 ld
 {
 "
-sumartid
+sommartid
 for
 Fernando
 de
@@ -8331,7 +8373,7 @@ Novosibirsk
 ld
 {
 "
-sumartid
+sommartid
 for
 Novosibirsk
 "
@@ -8362,7 +8404,7 @@ Omsk
 ld
 {
 "
-sumartid
+sommartid
 for
 Omsk
 "
@@ -8394,7 +8436,7 @@ ld
 {
 "
 pakistansk
-sumartid
+sommartid
 "
 }
 lg
@@ -8450,7 +8492,7 @@ ld
 {
 "
 paraguayansk
-sumartid
+sommartid
 "
 }
 lg
@@ -8478,7 +8520,7 @@ ld
 {
 "
 peruansk
-sumartid
+sommartid
 "
 }
 lg
@@ -8506,7 +8548,7 @@ ld
 {
 "
 filippinsk
-sumartid
+sommartid
 "
 }
 lg
@@ -8549,7 +8591,7 @@ Pierre_Miquelon
 ld
 {
 "
-sumartid
+sommartid
 for
 Saint
 -
@@ -8674,7 +8716,7 @@ Sakhalin
 ld
 {
 "
-sumartid
+sommartid
 for
 Sakhalin
 "
@@ -8706,7 +8748,7 @@ ld
 {
 "
 samoansk
-sumartid
+sommartid
 "
 }
 lg
@@ -8836,7 +8878,7 @@ Taipei
 ld
 {
 "
-sumartid
+sommartid
 for
 Taipei
 "
@@ -8897,7 +8939,7 @@ ld
 {
 "
 tongansk
-sumartid
+sommartid
 "
 }
 lg
@@ -8941,7 +8983,7 @@ ld
 {
 "
 turkmensk
-sumartid
+sommartid
 "
 }
 lg
@@ -8983,7 +9025,7 @@ ld
 {
 "
 uruguayansk
-sumartid
+sommartid
 "
 }
 lg
@@ -9011,7 +9053,7 @@ ld
 {
 "
 usbekisk
-sumartid
+sommartid
 "
 }
 lg
@@ -9039,7 +9081,7 @@ ld
 {
 "
 vanuatisk
-sumartid
+sommartid
 "
 }
 lg
@@ -9080,7 +9122,7 @@ Vladivostok
 ld
 {
 "
-sumartid
+sommartid
 for
 Vladivostok
 "
@@ -9111,7 +9153,7 @@ Volgograd
 ld
 {
 "
-sumartid
+sommartid
 for
 Volgograd
 "
@@ -9192,7 +9234,7 @@ Yakutsk
 ld
 {
 "
-sumartid
+sommartid
 for
 Jakutsk
 "
@@ -9223,7 +9265,7 @@ Yekaterinburg
 ld
 {
 "
-sumartid
+sommartid
 for
 Jekaterinburg
 "
@@ -9300,7 +9342,7 @@ for
 regionFormatDaylight
 {
 "
-sumartid
+sommartid
 {
 0
 }

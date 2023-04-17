@@ -23,6 +23,9 @@ uenum
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -31,6 +34,8 @@ localpointer
 .
 h
 "
+#
+endif
 #
 if
 !
@@ -266,7 +271,7 @@ UCNV_SWAP_LFNL_OPTION_STRING
 "
 swaplfnl
 "
-U_STABLE
+U_CAPI
 int
 U_EXPORT2
 ucnv_compareNames
@@ -281,7 +286,7 @@ char
 name2
 )
 ;
-U_STABLE
+U_CAPI
 UConverter
 *
 U_EXPORT2
@@ -296,7 +301,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 UConverter
 *
 U_EXPORT2
@@ -311,7 +316,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 UConverter
 *
 U_EXPORT2
@@ -326,7 +331,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 UConverter
 *
 U_EXPORT2
@@ -345,7 +350,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 UConverter
 *
 U_EXPORT2
@@ -375,7 +380,7 @@ U_CNV_SAFECLONE_BUFFERSIZE
 1024
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_close
@@ -399,7 +404,7 @@ ucnv_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getSubstChars
@@ -419,7 +424,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_setSubstChars
@@ -438,7 +443,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_setSubstString
@@ -457,7 +462,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getInvalidChars
@@ -477,7 +482,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getInvalidUChars
@@ -497,7 +502,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_reset
@@ -507,7 +512,7 @@ UConverter
 converter
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_resetToUnicode
@@ -517,7 +522,7 @@ UConverter
 converter
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_resetFromUnicode
@@ -527,7 +532,7 @@ UConverter
 converter
 )
 ;
-U_STABLE
+U_CAPI
 int8_t
 U_EXPORT2
 ucnv_getMaxCharSize
@@ -565,7 +570,7 @@ int32_t
 maxCharSize
 )
 )
-U_STABLE
+U_CAPI
 int8_t
 U_EXPORT2
 ucnv_getMinCharSize
@@ -576,7 +581,7 @@ UConverter
 converter
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_getDisplayName
@@ -599,7 +604,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -615,7 +620,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_getCCSID
@@ -629,7 +634,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 UConverterPlatform
 U_EXPORT2
 ucnv_getPlatform
@@ -643,7 +648,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 UConverterType
 U_EXPORT2
 ucnv_getType
@@ -654,7 +659,7 @@ UConverter
 converter
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getStarters
@@ -688,7 +693,7 @@ endif
 }
 UConverterUnicodeSet
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getUnicodeSet
@@ -707,7 +712,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getToUCallBack
@@ -726,7 +731,7 @@ void
 context
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getFromUCallBack
@@ -745,7 +750,7 @@ void
 context
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_setToUCallBack
@@ -772,7 +777,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_setFromUCallBack
@@ -799,7 +804,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_fromUnicode
@@ -834,7 +839,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_toUnicode
@@ -869,7 +874,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_fromUChars
@@ -893,7 +898,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_toUChars
@@ -917,7 +922,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 ucnv_getNextUChar
@@ -939,7 +944,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_convertEx
@@ -991,7 +996,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_convert
@@ -1020,7 +1025,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_toAlgorithmic
@@ -1046,7 +1051,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_fromAlgorithmic
@@ -1072,7 +1077,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_flushCache
@@ -1080,7 +1085,7 @@ ucnv_flushCache
 void
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_countAvailable
@@ -1088,7 +1093,7 @@ ucnv_countAvailable
 void
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1099,7 +1104,7 @@ int32_t
 n
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -1110,7 +1115,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 uint16_t
 U_EXPORT2
 ucnv_countAliases
@@ -1124,7 +1129,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1142,7 +1147,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getAliases
@@ -1161,7 +1166,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -1180,7 +1185,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 uint16_t
 U_EXPORT2
 ucnv_countStandards
@@ -1188,7 +1193,7 @@ ucnv_countStandards
 void
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1202,7 +1207,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1222,7 +1227,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1242,7 +1247,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1255,7 +1260,7 @@ void
 #
 ifndef
 U_HIDE_SYSTEM_API
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_setDefaultName
@@ -1268,7 +1273,7 @@ name
 ;
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_fixFileSeparator
@@ -1284,7 +1289,7 @@ int32_t
 sourceLen
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucnv_isAmbiguous
@@ -1295,7 +1300,7 @@ UConverter
 cnv
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_setFallback
@@ -1307,7 +1312,7 @@ UBool
 usesFallback
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucnv_usesFallback
@@ -1318,7 +1323,7 @@ UConverter
 cnv
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1339,7 +1344,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_fromUCountPending
@@ -1353,7 +1358,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_toUCountPending
@@ -1367,7 +1372,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucnv_isFixedWidth

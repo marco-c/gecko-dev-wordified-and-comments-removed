@@ -103,6 +103,9 @@ UFormattedNumberData
 DecimalQuantity
 quantity
 ;
+MeasureUnit
+outputUnit
+;
 }
 ;
 }

@@ -32,6 +32,9 @@ uchar
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -40,6 +43,8 @@ localpointer
 .
 h
 "
+#
+endif
 typedef
 enum
 {
@@ -65,7 +70,7 @@ struct
 UBiDiTransform
 UBiDiTransform
 ;
-U_STABLE
+U_CAPI
 uint32_t
 U_EXPORT2
 ubiditransform_transform
@@ -101,7 +106,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UBiDiTransform
 *
 U_EXPORT2
@@ -112,7 +117,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubiditransform_close

@@ -1239,7 +1239,7 @@ conv
 UnicodeString
 ruleSourceS
 (
-FALSE
+false
 ruleSourceU
 destCap
 )

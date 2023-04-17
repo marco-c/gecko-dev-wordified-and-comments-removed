@@ -14,6 +14,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -22,6 +25,8 @@ localpointer
 .
 h
 "
+#
+endif
 #
 if
 !
@@ -69,7 +74,7 @@ USPREP_RFC4518_LDAP_CI
 }
 UStringPrepProfileType
 ;
-U_STABLE
+U_CAPI
 UStringPrepProfile
 *
 U_EXPORT2
@@ -88,7 +93,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UStringPrepProfile
 *
 U_EXPORT2
@@ -101,7 +106,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 usprep_close
@@ -125,7 +130,7 @@ usprep_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 usprep_prepare

@@ -97,7 +97,7 @@ kProperFractionRule
 =
 -
 3
-kMasterRule
+kDefaultRule
 =
 -
 4

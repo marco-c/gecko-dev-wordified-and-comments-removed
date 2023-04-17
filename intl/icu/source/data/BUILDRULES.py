@@ -2355,6 +2355,12 @@ misc
 dep_targets
 =
 [
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
             
 input_files

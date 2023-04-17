@@ -452,7 +452,7 @@ minimumCapacity
 )
 {
 return
-TRUE
+true
 ;
 }
 else
@@ -570,7 +570,7 @@ status
 )
 =
 =
-FALSE
+false
 )
 {
 return

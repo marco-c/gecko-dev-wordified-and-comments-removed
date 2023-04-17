@@ -6,6 +6,13 @@ define
 __UTF16_H__
 #
 include
+<
+stdbool
+.
+h
+>
+#
+include
 "
 unicode
 /
@@ -1167,7 +1174,7 @@ space
 isError
 )
 =
-TRUE
+true
 ;
 \
 }

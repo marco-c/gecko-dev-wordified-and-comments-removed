@@ -179,7 +179,7 @@ offsets
 }
 UConverterToUnicodeArgs
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 UCNV_FROM_U_CALLBACK_STOP
@@ -206,7 +206,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 UCNV_TO_U_CALLBACK_STOP
@@ -231,7 +231,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 UCNV_FROM_U_CALLBACK_SKIP
@@ -258,7 +258,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 UCNV_FROM_U_CALLBACK_SUBSTITUTE
@@ -285,7 +285,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 UCNV_FROM_U_CALLBACK_ESCAPE
@@ -312,7 +312,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 UCNV_TO_U_CALLBACK_SKIP
@@ -337,7 +337,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 UCNV_TO_U_CALLBACK_SUBSTITUTE
@@ -362,7 +362,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 UCNV_TO_U_CALLBACK_ESCAPE

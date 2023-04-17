@@ -22,19 +22,24 @@ include
 "
 unicode
 /
-localpointer
+uenum
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 #
 include
 "
 unicode
 /
-uenum
+localpointer
 .
 h
 "
+#
+endif
 struct
 UCharsetDetector
 ;
@@ -51,7 +56,7 @@ struct
 UCharsetMatch
 UCharsetMatch
 ;
-U_STABLE
+U_CAPI
 UCharsetDetector
 *
 U_EXPORT2
@@ -62,7 +67,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucsdet_close
@@ -86,7 +91,7 @@ ucsdet_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucsdet_setText
@@ -105,7 +110,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucsdet_setDeclaredEncoding
@@ -124,7 +129,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UCharsetMatch
 *
@@ -139,7 +144,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UCharsetMatch
 *
@@ -158,7 +163,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -174,7 +179,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucsdet_getConfidence
@@ -188,7 +193,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -204,7 +209,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucsdet_getUChars
@@ -223,7 +228,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -238,7 +243,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucsdet_isInputFilterEnabled
@@ -249,7 +254,7 @@ UCharsetDetector
 ucsd
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucsdet_enableInputFilter
@@ -264,7 +269,7 @@ filter
 #
 ifndef
 U_HIDE_INTERNAL_API
-U_INTERNAL
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -279,7 +284,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 ucsdet_setDetectableCharset

@@ -35,7 +35,7 @@ ucnv_err
 .
 h
 "
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_cbFromUWriteBytes
@@ -56,7 +56,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_cbFromUWriteSub
@@ -71,7 +71,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_cbFromUWriteUChars
@@ -95,7 +95,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_cbToUWriteUChars
@@ -116,7 +116,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_cbToUWriteSub

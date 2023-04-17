@@ -580,7 +580,7 @@ timezone
 getOffset
 (
 t
-FALSE
+false
 rawOffset
 dstOffset
 status
@@ -610,7 +610,7 @@ timezone
 getOffset
 (
 newt
-FALSE
+false
 newRawOffset
 newDstOffset
 status
@@ -745,7 +745,7 @@ timezone
 getOffset
 (
 medt
-FALSE
+false
 medRawOffset
 medDstOffset
 status
@@ -847,9 +847,9 @@ dstOffset
 =
 0
 ?
-FALSE
+false
 :
-TRUE
+true
 )
 str
 )
@@ -885,9 +885,9 @@ newDstOffset
 =
 0
 ?
-FALSE
+false
 :
-TRUE
+true
 )
 str
 )
@@ -1057,7 +1057,7 @@ ZoneIterator
 UBool
 bAll
 =
-FALSE
+false
 )
 {
 if
@@ -1367,7 +1367,7 @@ high
 UBool
 bAll
 =
-FALSE
+false
 ;
 const
 char
@@ -1956,7 +1956,7 @@ zit
 new
 ZoneIterator
 (
-TRUE
+true
 )
 ;
 }
@@ -2208,7 +2208,7 @@ else
 UBool
 bFirst
 =
-TRUE
+true
 ;
 for
 (
@@ -2260,7 +2260,7 @@ bFirst
 {
 bFirst
 =
-FALSE
+false
 ;
 }
 else

@@ -103,9 +103,6 @@ U_HIDE_DEPRECATED_API
 UTRACE_COLLATION_LIMIT
 #
 endif
-#
-ifndef
-U_HIDE_DRAFT_API
 UTRACE_UDATA_START
 =
 0x3000
@@ -115,8 +112,6 @@ UTRACE_UDATA_START
 UTRACE_UDATA_BUNDLE
 UTRACE_UDATA_DATA_FILE
 UTRACE_UDATA_RES_FILE
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API
@@ -148,7 +143,7 @@ endif
 }
 UTraceFunctionNumber
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrace_setLevel
@@ -157,7 +152,7 @@ int32_t
 traceLevel
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utrace_getLevel
@@ -218,7 +213,7 @@ va_list
 args
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrace_setFunctions
@@ -238,7 +233,7 @@ UTraceData
 d
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrace_getFunctions
@@ -262,7 +257,7 @@ UTraceData
 d
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utrace_vformat
@@ -282,7 +277,7 @@ va_list
 args
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utrace_format
@@ -303,7 +298,7 @@ fmt
 .
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *

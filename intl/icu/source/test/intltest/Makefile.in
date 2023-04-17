@@ -1013,6 +1013,16 @@ o
 numbertest_permutation
 .
 o
+\
+units_data_test
+.
+o
+units_router_test
+.
+o
+units_test
+.
+o
 DEPS
 =
 (

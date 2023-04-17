@@ -18,6 +18,9 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -26,6 +29,8 @@ localpointer
 .
 h
 "
+#
+endif
 enum
 UGender
 {
@@ -47,7 +52,7 @@ struct
 UGenderInfo
 UGenderInfo
 ;
-U_STABLE
+U_CAPI
 const
 UGenderInfo
 *
@@ -63,7 +68,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UGender
 U_EXPORT2
 ugender_getListGender

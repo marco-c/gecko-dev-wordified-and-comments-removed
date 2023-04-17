@@ -473,7 +473,7 @@ zone
 ;
 }
 }
-U_DRAFT
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getHostTimeZone

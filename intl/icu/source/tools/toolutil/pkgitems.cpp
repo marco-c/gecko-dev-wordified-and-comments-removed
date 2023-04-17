@@ -2201,6 +2201,10 @@ pErrorCode
 )
 ;
 }
+#
+if
+!
+UCONFIG_NO_CONVERSION
 static
 void
 ucnv_enumDependencies
@@ -3235,4 +3239,6 @@ errorCode
 }
 }
 }
+#
+endif
 U_NAMESPACE_END

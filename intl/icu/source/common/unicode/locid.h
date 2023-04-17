@@ -996,9 +996,6 @@ getDynamicClassID
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 class
 U_COMMON_API
 Iterator
@@ -1192,8 +1189,6 @@ converter_
 ;
 }
 ;
-#
-endif
 protected
 :
 #

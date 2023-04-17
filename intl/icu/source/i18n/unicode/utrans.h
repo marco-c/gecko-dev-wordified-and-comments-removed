@@ -22,15 +22,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 urep
 .
 h
@@ -62,6 +53,20 @@ uset
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
 typedef
 void
 *
@@ -95,7 +100,7 @@ limit
 }
 UTransPosition
 ;
-U_STABLE
+U_CAPI
 UTransliterator
 *
 U_EXPORT2
@@ -123,7 +128,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UTransliterator
 *
 U_EXPORT2
@@ -138,7 +143,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UTransliterator
 *
 U_EXPORT2
@@ -153,7 +158,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_close
@@ -177,7 +182,7 @@ utrans_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -193,7 +198,7 @@ int32_t
 resultLength
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_register
@@ -206,7 +211,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_unregisterID
@@ -219,7 +224,7 @@ int32_t
 idLength
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_setFilter
@@ -238,7 +243,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utrans_countAvailableIDs
@@ -246,7 +251,7 @@ utrans_countAvailableIDs
 void
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -257,7 +262,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_trans
@@ -283,7 +288,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_transIncremental
@@ -307,7 +312,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_transUChars
@@ -334,7 +339,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_transIncrementalUChars
@@ -359,7 +364,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utrans_toRules
@@ -380,7 +385,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2

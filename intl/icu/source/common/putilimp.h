@@ -402,7 +402,7 @@ U_MAKE_IS_NMAKE
 0
 #
 endif
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_isNaN
@@ -411,7 +411,7 @@ double
 d
 )
 ;
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_isInfinite
@@ -420,7 +420,7 @@ double
 d
 )
 ;
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_isPositiveInfinity
@@ -429,7 +429,7 @@ double
 d
 )
 ;
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_isNegativeInfinity
@@ -438,7 +438,7 @@ double
 d
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_getNaN
@@ -446,7 +446,7 @@ uprv_getNaN
 void
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_getInfinity
@@ -454,7 +454,7 @@ uprv_getInfinity
 void
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_trunc
@@ -463,7 +463,7 @@ double
 d
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_floor
@@ -472,7 +472,7 @@ double
 d
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_ceil
@@ -481,7 +481,7 @@ double
 d
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_fabs
@@ -490,7 +490,7 @@ double
 d
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_modf
@@ -502,7 +502,7 @@ double
 pinteger
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_fmod
@@ -513,7 +513,7 @@ double
 y
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_pow
@@ -524,7 +524,7 @@ double
 exponent
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_pow10
@@ -533,7 +533,7 @@ int32_t
 exponent
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_fmax
@@ -544,7 +544,7 @@ double
 y
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_fmin
@@ -555,7 +555,7 @@ double
 y
 )
 ;
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_max
@@ -566,7 +566,7 @@ int32_t
 y
 )
 ;
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_min
@@ -635,7 +635,7 @@ number
 )
 #
 endif
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_maxMantissa
@@ -643,7 +643,7 @@ uprv_maxMantissa
 void
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_log
@@ -652,7 +652,7 @@ double
 d
 )
 ;
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_round
@@ -661,7 +661,7 @@ double
 x
 )
 ;
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_add32_overflow
@@ -675,7 +675,7 @@ int32_t
 res
 )
 ;
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_mul32_overflow
@@ -698,7 +698,7 @@ endif
 if
 !
 U_CHARSET_IS_UTF8
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -710,7 +710,7 @@ void
 ;
 #
 endif
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -720,7 +720,7 @@ uprv_getDefaultLocaleID
 void
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uprv_tzset
@@ -728,7 +728,7 @@ uprv_tzset
 void
 )
 ;
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_timezone
@@ -736,7 +736,7 @@ uprv_timezone
 void
 )
 ;
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -747,13 +747,14 @@ int
 n
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 uprv_tzname_clear_cache
 (
+void
 )
 ;
-U_INTERNAL
+U_CAPI
 UDate
 U_EXPORT2
 uprv_getUTCtime
@@ -761,7 +762,7 @@ uprv_getUTCtime
 void
 )
 ;
-U_INTERNAL
+U_CAPI
 UDate
 U_EXPORT2
 uprv_getRawUTCtime
@@ -769,7 +770,7 @@ uprv_getRawUTCtime
 void
 )
 ;
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_pathIsAbsolute
@@ -780,7 +781,7 @@ char
 path
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -1107,7 +1108,7 @@ void
 #
 if
 U_ENABLE_DYLOAD
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -1122,7 +1123,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uprv_dl_close
@@ -1135,7 +1136,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 UVoidFunction
 *
 U_EXPORT2

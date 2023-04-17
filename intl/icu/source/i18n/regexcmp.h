@@ -289,7 +289,7 @@ fixLiterals
 UBool
 split
 =
-FALSE
+false
 )
 ;
 void

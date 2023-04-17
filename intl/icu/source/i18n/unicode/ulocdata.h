@@ -32,6 +32,9 @@ uset
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -40,6 +43,8 @@ localpointer
 .
 h
 "
+#
+endif
 struct
 ULocaleData
 ;
@@ -102,7 +107,7 @@ endif
 }
 ULocaleDataDelimiterType
 ;
-U_STABLE
+U_CAPI
 ULocaleData
 *
 U_EXPORT2
@@ -117,7 +122,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ulocdata_close
@@ -141,7 +146,7 @@ ulocdata_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ulocdata_setNoSubstitute
@@ -153,7 +158,7 @@ UBool
 setting
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ulocdata_getNoSubstitute
@@ -163,7 +168,7 @@ ULocaleData
 uld
 )
 ;
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -184,7 +189,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ulocdata_getDelimiter
@@ -220,7 +225,7 @@ endif
 }
 UMeasurementSystem
 ;
-U_STABLE
+U_CAPI
 UMeasurementSystem
 U_EXPORT2
 ulocdata_getMeasurementSystem
@@ -234,7 +239,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ulocdata_getPaperSize
@@ -254,7 +259,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ulocdata_getCLDRVersion
@@ -266,7 +271,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ulocdata_getLocaleDisplayPattern
@@ -284,7 +289,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ulocdata_getLocaleSeparator

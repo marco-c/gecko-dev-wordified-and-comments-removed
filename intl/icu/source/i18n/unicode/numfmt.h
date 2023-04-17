@@ -1219,7 +1219,7 @@ locale
 UBool
 visible
 =
-TRUE
+true
 )
 ;
 virtual

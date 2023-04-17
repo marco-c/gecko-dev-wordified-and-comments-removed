@@ -1041,7 +1041,7 @@ status
 UBool
 useLastResortData
 =
-FALSE
+false
 )
 ;
 static

@@ -16,7 +16,7 @@ h
 #
 if
 UCONFIG_ENABLE_PLUGINS
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -31,7 +31,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_closeLibrary
@@ -44,7 +44,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 char
 *
 U_EXPORT2
@@ -58,7 +58,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_init
@@ -68,7 +68,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 UPlugData
 *
 U_EXPORT2
@@ -78,7 +78,7 @@ int32_t
 n
 )
 ;
-U_INTERNAL
+U_CAPI
 const
 char
 *

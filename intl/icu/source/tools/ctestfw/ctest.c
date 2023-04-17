@@ -3168,7 +3168,6 @@ log_info
 (
 Known
 issue
-#
 %
 s
 )
@@ -3190,7 +3189,6 @@ log_verbose
 (
 Known
 issue
-#
 %
 s
 )

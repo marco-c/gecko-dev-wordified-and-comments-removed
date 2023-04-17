@@ -27,6 +27,9 @@ uenum
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -35,6 +38,8 @@ localpointer
 .
 h
 "
+#
+endif
 struct
 UNumberingSystem
 ;
@@ -43,7 +48,7 @@ struct
 UNumberingSystem
 UNumberingSystem
 ;
-U_STABLE
+U_CAPI
 UNumberingSystem
 *
 U_EXPORT2
@@ -58,7 +63,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UNumberingSystem
 *
 U_EXPORT2
@@ -73,7 +78,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 unumsys_close
@@ -97,7 +102,7 @@ unumsys_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -108,7 +113,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -121,7 +126,7 @@ UNumberingSystem
 unumsys
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 unumsys_isAlgorithmic
@@ -132,7 +137,7 @@ UNumberingSystem
 unumsys
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unumsys_getRadix
@@ -143,7 +148,7 @@ UNumberingSystem
 unumsys
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unumsys_getDescription

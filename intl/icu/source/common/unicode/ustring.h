@@ -44,7 +44,7 @@ UBreakIterator
 ;
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strlen
@@ -55,7 +55,7 @@ UChar
 s
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_countChar32
@@ -68,7 +68,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_strHasMoreChar32Than
@@ -83,7 +83,7 @@ int32_t
 number
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -98,7 +98,7 @@ UChar
 src
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -115,7 +115,7 @@ int32_t
 n
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -131,7 +131,7 @@ UChar
 substring
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -151,7 +151,7 @@ int32_t
 subLength
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -165,7 +165,7 @@ UChar
 c
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -179,7 +179,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -195,7 +195,7 @@ UChar
 substring
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -215,7 +215,7 @@ int32_t
 subLength
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -229,7 +229,7 @@ UChar
 c
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -243,7 +243,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -259,7 +259,7 @@ UChar
 matchSet
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strcspn
@@ -274,7 +274,7 @@ UChar
 matchSet
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strspn
@@ -289,7 +289,7 @@ UChar
 matchSet
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -308,7 +308,7 @@ UChar
 saveState
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strcmp
@@ -323,7 +323,7 @@ UChar
 s2
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strcmpCodePointOrder
@@ -338,7 +338,7 @@ UChar
 s2
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strCompare
@@ -359,7 +359,7 @@ UBool
 codePointOrder
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strCompareIter
@@ -374,7 +374,7 @@ UBool
 codePointOrder
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strCaseCompare
@@ -398,7 +398,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strncmp
@@ -415,7 +415,7 @@ int32_t
 n
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strncmpCodePointOrder
@@ -432,7 +432,7 @@ int32_t
 n
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strcasecmp
@@ -449,7 +449,7 @@ uint32_t
 options
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strncasecmp
@@ -468,7 +468,7 @@ uint32_t
 options
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_memcasecmp
@@ -487,7 +487,7 @@ uint32_t
 options
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -502,7 +502,7 @@ UChar
 src
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -523,7 +523,7 @@ n
 if
 !
 UCONFIG_NO_CONVERSION
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -538,7 +538,7 @@ char
 src
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -555,7 +555,7 @@ int32_t
 n
 )
 ;
-U_STABLE
+U_CAPI
 char
 *
 U_EXPORT2
@@ -570,7 +570,7 @@ UChar
 src
 )
 ;
-U_STABLE
+U_CAPI
 char
 *
 U_EXPORT2
@@ -589,7 +589,7 @@ n
 ;
 #
 endif
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -606,7 +606,7 @@ int32_t
 count
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -623,7 +623,7 @@ int32_t
 count
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -638,7 +638,7 @@ int32_t
 count
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_memcmp
@@ -655,7 +655,7 @@ int32_t
 count
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_memcmpCodePointOrder
@@ -672,7 +672,7 @@ int32_t
 count
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -688,7 +688,7 @@ int32_t
 count
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -704,7 +704,7 @@ int32_t
 count
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -720,7 +720,7 @@ int32_t
 count
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -912,7 +912,7 @@ length
 )
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_unescape
@@ -945,7 +945,7 @@ context
 )
 ;
 U_CDECL_END
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_unescapeAt
@@ -962,7 +962,7 @@ void
 context
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strToUpper
@@ -987,7 +987,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strToLower
@@ -1016,7 +1016,7 @@ pErrorCode
 if
 !
 UCONFIG_NO_BREAK_ITERATION
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strToTitle
@@ -1046,7 +1046,7 @@ pErrorCode
 ;
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strFoldCase
@@ -1085,7 +1085,7 @@ U_WCHAR_IS_UTF32
 |
 !
 UCONFIG_NO_CONVERSION
-U_STABLE
+U_CAPI
 wchar_t
 *
 U_EXPORT2
@@ -1110,7 +1110,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -1137,7 +1137,7 @@ pErrorCode
 ;
 #
 endif
-U_STABLE
+U_CAPI
 char
 *
 U_EXPORT2
@@ -1162,7 +1162,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -1187,7 +1187,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 char
 *
 U_EXPORT2
@@ -1217,7 +1217,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -1247,7 +1247,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -1272,7 +1272,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 *
 U_EXPORT2
@@ -1297,7 +1297,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -1322,7 +1322,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 *
 U_EXPORT2
@@ -1352,7 +1352,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -1382,7 +1382,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 char
 *
 U_EXPORT2
@@ -1407,7 +1407,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2

@@ -189,17 +189,21 @@ common
 /
 -
 see
-http
+https
 :
 /
 /
-userguide
-.
-icu
+unicode
 -
-project
-.
 org
+.
+github
+.
+io
+/
+icu
+/
+userguide
 /
 howtouseicu
 #
@@ -4812,6 +4816,7 @@ void
 U_EXPORT2
 uprv_tzname_clear_cache
 (
+void
 )
 {
 #
@@ -9996,7 +10001,7 @@ h
 >
 #
 endif
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -10083,7 +10088,7 @@ return
 ret
 ;
 }
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uprv_dl_close
@@ -10112,7 +10117,7 @@ lib
 )
 ;
 }
-U_INTERNAL
+U_CAPI
 UVoidFunction
 *
 U_EXPORT2
@@ -10234,7 +10239,7 @@ U_PLATFORM_USES_ONLY_WIN32_API
 &
 !
 U_PLATFORM_HAS_WINUWP_API
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -10294,7 +10299,7 @@ void
 lib
 ;
 }
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uprv_dl_close
@@ -10333,7 +10338,7 @@ handle
 return
 ;
 }
-U_INTERNAL
+U_CAPI
 UVoidFunction
 *
 U_EXPORT2
@@ -10438,7 +10443,7 @@ addr
 }
 #
 else
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -10478,7 +10483,7 @@ return
 NULL
 ;
 }
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uprv_dl_close
@@ -10514,7 +10519,7 @@ U_UNSUPPORTED_ERROR
 return
 ;
 }
-U_INTERNAL
+U_CAPI
 UVoidFunction
 *
 U_EXPORT2

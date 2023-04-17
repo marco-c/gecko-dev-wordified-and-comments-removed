@@ -114,7 +114,7 @@ pos
 UBool
 advance
 =
-FALSE
+false
 )
 ;
 static

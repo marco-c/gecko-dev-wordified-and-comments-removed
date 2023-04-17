@@ -98,6 +98,13 @@ h
 #
 include
 "
+toolutil
+.
+h
+"
+#
+include
+"
 uarrsort
 .
 h

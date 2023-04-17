@@ -50,7 +50,7 @@ enum
 UCurrencyUsage
 UCurrencyUsage
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucurr_forLocale
@@ -76,6 +76,13 @@ UCurrNameStyle
 UCURR_SYMBOL_NAME
 UCURR_LONG_NAME
 UCURR_NARROW_SYMBOL_NAME
+#
+ifndef
+U_HIDE_DRAFT_API
+UCURR_FORMAL_SYMBOL_NAME
+UCURR_VARIANT_SYMBOL_NAME
+#
+endif
 }
 UCurrNameStyle
 ;
@@ -89,7 +96,7 @@ void
 *
 UCurrRegistryKey
 ;
-U_STABLE
+U_CAPI
 UCurrRegistryKey
 U_EXPORT2
 ucurr_register
@@ -107,7 +114,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucurr_unregister
@@ -121,7 +128,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -149,7 +156,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -179,7 +186,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucurr_getDefaultFractionDigits
@@ -193,7 +200,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucurr_getDefaultFractionDigitsForUsage
@@ -210,7 +217,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 double
 U_EXPORT2
 ucurr_getRoundingIncrement
@@ -224,7 +231,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 double
 U_EXPORT2
 ucurr_getRoundingIncrementForUsage
@@ -263,7 +270,7 @@ UCURR_NON_DEPRECATED
 }
 UCurrCurrencyType
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -276,7 +283,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucurr_isAvailable
@@ -294,7 +301,7 @@ UErrorCode
 errorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucurr_countCurrencies
@@ -310,7 +317,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucurr_forLocaleAndDate
@@ -333,7 +340,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -354,7 +361,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucurr_getNumericCode

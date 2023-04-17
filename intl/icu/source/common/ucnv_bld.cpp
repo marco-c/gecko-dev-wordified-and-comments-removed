@@ -921,6 +921,7 @@ void
 U_EXPORT2
 ucnv_enableCleanup
 (
+void
 )
 {
 ucln_common_registerCleanup

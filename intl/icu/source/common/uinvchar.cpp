@@ -2896,7 +2896,7 @@ c
 ]
 ;
 }
-U_INTERNAL
+U_CAPI
 uint8_t
 *
 U_EXPORT2
@@ -3007,7 +3007,7 @@ return
 orig_dst
 ;
 }
-U_INTERNAL
+U_CAPI
 uint8_t
 *
 U_EXPORT2

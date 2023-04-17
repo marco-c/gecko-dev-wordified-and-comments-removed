@@ -167,7 +167,7 @@ U_NAMESPACE_USE
 endif
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_versionFromString
@@ -180,7 +180,7 @@ char
 versionString
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_versionFromUString
@@ -193,7 +193,7 @@ UChar
 versionString
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_versionToString
@@ -206,7 +206,7 @@ char
 versionString
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_getVersion

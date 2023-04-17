@@ -236,7 +236,7 @@ letters
 ;
 }
 ;
-U_DRAFT
+U_CAPI
 UBiDiTransform
 *
 U_EXPORT2
@@ -296,7 +296,7 @@ return
 pBiDiTransform
 ;
 }
-U_DRAFT
+U_CAPI
 void
 U_EXPORT2
 ubiditransform_close
@@ -1578,7 +1578,7 @@ return
 NULL
 ;
 }
-U_DRAFT
+U_CAPI
 uint32_t
 U_EXPORT2
 ubiditransform_transform

@@ -13,7 +13,7 @@ utypes
 .
 h
 "
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_init
@@ -26,7 +26,7 @@ status
 #
 ifndef
 U_HIDE_SYSTEM_API
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_cleanup
@@ -80,7 +80,7 @@ void
 mem
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_setMemoryFunctions

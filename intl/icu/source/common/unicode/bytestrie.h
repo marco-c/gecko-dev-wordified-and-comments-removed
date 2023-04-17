@@ -157,9 +157,6 @@ return
 this
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 uint64_t
 getState64
 (
@@ -230,8 +227,6 @@ return
 this
 ;
 }
-#
-endif
 class
 State
 :
@@ -470,7 +465,7 @@ pos
 remainingMatchLength_
 +
 1
-FALSE
+false
 uniqueValue
 )
 ;

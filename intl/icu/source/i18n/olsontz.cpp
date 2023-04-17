@@ -956,6 +956,14 @@ U_INVALID_FORMAT_ERROR
 ;
 }
 }
+if
+(
+U_SUCCESS
+(
+ec
+)
+)
+{
 const
 UChar
 *
@@ -1240,6 +1248,7 @@ ec
 =
 U_ZERO_ERROR
 ;
+}
 }
 canonicalID
 =

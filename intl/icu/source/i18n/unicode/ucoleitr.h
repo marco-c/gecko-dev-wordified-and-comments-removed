@@ -40,7 +40,7 @@ struct
 UCollationElements
 UCollationElements
 ;
-U_STABLE
+U_CAPI
 UCollationElements
 *
 U_EXPORT2
@@ -61,7 +61,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_keyHashCode
@@ -74,7 +74,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucol_closeElements
@@ -84,7 +84,7 @@ UCollationElements
 elems
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucol_reset
@@ -94,7 +94,7 @@ UCollationElements
 elems
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_next
@@ -107,7 +107,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_previous
@@ -120,7 +120,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_getMaxExpansion
@@ -133,7 +133,7 @@ int32_t
 order
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucol_setText
@@ -152,7 +152,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_getOffset
@@ -163,7 +163,7 @@ UCollationElements
 elems
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucol_setOffset
@@ -178,7 +178,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_primaryOrder
@@ -187,7 +187,7 @@ int32_t
 order
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_secondaryOrder
@@ -196,7 +196,7 @@ int32_t
 order
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_tertiaryOrder

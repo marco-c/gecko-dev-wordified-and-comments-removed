@@ -23,6 +23,9 @@ uchar
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -31,6 +34,8 @@ localpointer
 .
 h
 "
+#
+endif
 typedef
 uint8_t
 UBiDiLevel
@@ -80,7 +85,7 @@ struct
 UBiDi
 UBiDi
 ;
-U_STABLE
+U_CAPI
 UBiDi
 *
 U_EXPORT2
@@ -89,7 +94,7 @@ ubidi_open
 void
 )
 ;
-U_STABLE
+U_CAPI
 UBiDi
 *
 U_EXPORT2
@@ -104,7 +109,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_close
@@ -128,7 +133,7 @@ ubidi_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setInverse
@@ -140,7 +145,7 @@ UBool
 isInverse
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ubidi_isInverse
@@ -150,7 +155,7 @@ UBiDi
 pBiDi
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_orderParagraphsLTR
@@ -162,7 +167,7 @@ UBool
 orderParagraphsLTR
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ubidi_isOrderParagraphsLTR
@@ -194,7 +199,7 @@ endif
 }
 UBiDiReorderingMode
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setReorderingMode
@@ -206,7 +211,7 @@ UBiDiReorderingMode
 reorderingMode
 )
 ;
-U_STABLE
+U_CAPI
 UBiDiReorderingMode
 U_EXPORT2
 ubidi_getReorderingMode
@@ -235,7 +240,7 @@ UBIDI_OPTION_STREAMING
 }
 UBiDiReorderingOption
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setReorderingOptions
@@ -247,7 +252,7 @@ uint32_t
 reorderingOptions
 )
 ;
-U_STABLE
+U_CAPI
 uint32_t
 U_EXPORT2
 ubidi_getReorderingOptions
@@ -257,7 +262,7 @@ UBiDi
 pBiDi
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setContext
@@ -282,7 +287,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setPara
@@ -306,7 +311,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setLine
@@ -327,7 +332,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UBiDiDirection
 U_EXPORT2
 ubidi_getDirection
@@ -338,7 +343,7 @@ UBiDi
 pBiDi
 )
 ;
-U_STABLE
+U_CAPI
 UBiDiDirection
 U_EXPORT2
 ubidi_getBaseDirection
@@ -351,7 +356,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -364,7 +369,7 @@ UBiDi
 pBiDi
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_getLength
@@ -375,7 +380,7 @@ UBiDi
 pBiDi
 )
 ;
-U_STABLE
+U_CAPI
 UBiDiLevel
 U_EXPORT2
 ubidi_getParaLevel
@@ -386,7 +391,7 @@ UBiDi
 pBiDi
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_countParagraphs
@@ -396,7 +401,7 @@ UBiDi
 pBiDi
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_getParagraph
@@ -421,7 +426,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_getParagraphByIndex
@@ -446,7 +451,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UBiDiLevel
 U_EXPORT2
 ubidi_getLevelAt
@@ -459,7 +464,7 @@ int32_t
 charIndex
 )
 ;
-U_STABLE
+U_CAPI
 const
 UBiDiLevel
 *
@@ -474,7 +479,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_getLogicalRun
@@ -493,7 +498,7 @@ UBiDiLevel
 pLevel
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_countRuns
@@ -506,7 +511,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UBiDiDirection
 U_EXPORT2
 ubidi_getVisualRun
@@ -524,7 +529,7 @@ int32_t
 pLength
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_getVisualIndex
@@ -539,7 +544,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_getLogicalIndex
@@ -554,7 +559,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_getLogicalMap
@@ -570,7 +575,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_getVisualMap
@@ -586,7 +591,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_reorderLogical
@@ -602,7 +607,7 @@ int32_t
 indexMap
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_reorderVisual
@@ -618,7 +623,7 @@ int32_t
 indexMap
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_invertMap
@@ -654,7 +659,7 @@ UBIDI_REMOVE_BIDI_CONTROLS
 define
 UBIDI_OUTPUT_REVERSE
 16
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_getProcessedLength
@@ -665,7 +670,7 @@ UBiDi
 pBiDi
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_getResultLength
@@ -700,7 +705,7 @@ c
 )
 ;
 U_CDECL_END
-U_STABLE
+U_CAPI
 UCharDirection
 U_EXPORT2
 ubidi_getCustomizedClass
@@ -712,7 +717,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setClassCallback
@@ -741,7 +746,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_getClassCallback
@@ -760,7 +765,7 @@ void
 context
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_writeReordered
@@ -780,7 +785,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_writeReverse

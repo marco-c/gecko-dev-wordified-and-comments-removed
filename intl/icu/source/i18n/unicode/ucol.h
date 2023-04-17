@@ -31,15 +31,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 parseerr
 .
 h
@@ -71,6 +62,20 @@ uscript
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
 struct
 UCollator
 ;
@@ -239,7 +244,7 @@ UCOL_FULL_RULES
 }
 UColRuleOption
 ;
-U_STABLE
+U_CAPI
 UCollator
 *
 U_EXPORT2
@@ -254,7 +259,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UCollator
 *
 U_EXPORT2
@@ -325,7 +330,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucol_getContractionsAndExpansions
@@ -347,7 +352,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucol_close
@@ -371,7 +376,7 @@ ucol_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 UCollationResult
 U_EXPORT2
 ucol_strcoll
@@ -394,7 +399,7 @@ int32_t
 targetLength
 )
 ;
-U_STABLE
+U_CAPI
 UCollationResult
 U_EXPORT2
 ucol_strcollUTF8
@@ -420,7 +425,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucol_greater
@@ -443,7 +448,7 @@ int32_t
 targetLength
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucol_greaterOrEqual
@@ -466,7 +471,7 @@ int32_t
 targetLength
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucol_equal
@@ -489,7 +494,7 @@ int32_t
 targetLength
 )
 ;
-U_STABLE
+U_CAPI
 UCollationResult
 U_EXPORT2
 ucol_strcollIter
@@ -509,7 +514,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UCollationStrength
 U_EXPORT2
 ucol_getStrength
@@ -520,7 +525,7 @@ UCollator
 coll
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucol_setStrength
@@ -532,7 +537,7 @@ UCollationStrength
 strength
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_getReorderCodes
@@ -551,7 +556,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucol_setReorderCodes
@@ -570,7 +575,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_getEquivalentReorderCodes
@@ -587,7 +592,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_getDisplayName
@@ -610,7 +615,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -621,7 +626,7 @@ int32_t
 localeIndex
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_countAvailable
@@ -633,7 +638,7 @@ void
 if
 !
 UCONFIG_NO_SERVICE
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -646,7 +651,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -657,7 +662,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -672,7 +677,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -693,7 +698,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_getFunctionalEquivalent
@@ -719,7 +724,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -785,7 +790,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_getSortKey
@@ -807,7 +812,7 @@ int32_t
 resultLength
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_nextSortKeyPart
@@ -855,7 +860,7 @@ endif
 }
 UColBoundMode
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_getBound
@@ -880,7 +885,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucol_getVersion
@@ -893,7 +898,7 @@ UVersionInfo
 info
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucol_getUCAVersion
@@ -906,7 +911,7 @@ UVersionInfo
 info
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_mergeSortkeys
@@ -930,7 +935,7 @@ int32_t
 destCapacity
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucol_setAttribute
@@ -947,7 +952,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UColAttributeValue
 U_EXPORT2
 ucol_getAttribute
@@ -963,7 +968,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucol_setMaxVariable
@@ -978,7 +983,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UColReorderCode
 U_EXPORT2
 ucol_getMaxVariable
@@ -1013,7 +1018,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 uint32_t
 U_EXPORT2
 ucol_getVariableTop
@@ -1048,7 +1053,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 UCollator
 *
 U_EXPORT2
@@ -1078,7 +1083,7 @@ U_COL_SAFECLONE_BUFFERSIZE
 1
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_getRulesEx
@@ -1119,7 +1124,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1137,7 +1142,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -1155,7 +1160,7 @@ status
 #
 ifndef
 U_HIDE_INTERNAL_API
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_getUnsafeSet
@@ -1172,7 +1177,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 ucol_prepareShortStringOpen
@@ -1193,7 +1198,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucol_cloneBinary
@@ -1212,7 +1217,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UCollator
 *
 U_EXPORT2

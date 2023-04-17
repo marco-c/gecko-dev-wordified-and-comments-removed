@@ -23,6 +23,9 @@ uchar
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -31,6 +34,8 @@ localpointer
 .
 h
 "
+#
+endif
 #
 ifndef
 USET_DEFINED
@@ -115,7 +120,7 @@ USET_SERIALIZED_STATIC_ARRAY_CAPACITY
 }
 USerializedSet
 ;
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -124,7 +129,7 @@ uset_openEmpty
 void
 )
 ;
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -136,7 +141,7 @@ UChar32
 end
 )
 ;
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -153,7 +158,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -172,7 +177,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_close
@@ -196,7 +201,7 @@ uset_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -208,7 +213,7 @@ USet
 set
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_isFrozen
@@ -219,7 +224,7 @@ USet
 set
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_freeze
@@ -229,7 +234,7 @@ USet
 set
 )
 ;
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -241,7 +246,7 @@ USet
 set
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_set
@@ -255,7 +260,7 @@ UChar32
 end
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_applyPattern
@@ -276,7 +281,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_applyIntPropertyValue
@@ -293,7 +298,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_applyPropertyAlias
@@ -318,7 +323,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_resemblesPattern
@@ -333,7 +338,7 @@ int32_t
 pos
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_toPattern
@@ -354,7 +359,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_add
@@ -366,7 +371,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_addAll
@@ -380,7 +385,7 @@ USet
 additionalSet
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_addRange
@@ -394,7 +399,7 @@ UChar32
 end
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_addString
@@ -410,7 +415,7 @@ int32_t
 strLen
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_addAllCodePoints
@@ -426,7 +431,7 @@ int32_t
 strLen
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_remove
@@ -438,7 +443,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_removeRange
@@ -452,7 +457,7 @@ UChar32
 end
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_removeString
@@ -468,7 +473,7 @@ int32_t
 strLen
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_removeAll
@@ -482,7 +487,7 @@ USet
 removeSet
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_retain
@@ -496,7 +501,7 @@ UChar32
 end
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_retainAll
@@ -510,7 +515,7 @@ USet
 retain
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_compact
@@ -520,7 +525,7 @@ USet
 set
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_complement
@@ -530,7 +535,7 @@ USet
 set
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_complementAll
@@ -544,7 +549,7 @@ USet
 complement
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_clear
@@ -554,7 +559,7 @@ USet
 set
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_closeOver
@@ -566,7 +571,7 @@ int32_t
 attributes
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_removeAllStrings
@@ -576,7 +581,7 @@ USet
 set
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_isEmpty
@@ -587,7 +592,7 @@ USet
 set
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_contains
@@ -600,7 +605,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_containsRange
@@ -615,7 +620,7 @@ UChar32
 end
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_containsString
@@ -632,7 +637,7 @@ int32_t
 strLen
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_indexOf
@@ -645,7 +650,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 uset_charAt
@@ -658,7 +663,7 @@ int32_t
 charIndex
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_size
@@ -669,7 +674,7 @@ USet
 set
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_getItemCount
@@ -680,7 +685,7 @@ USet
 set
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_getItem
@@ -707,7 +712,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_containsAll
@@ -722,7 +727,7 @@ USet
 set2
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_containsAllCodePoints
@@ -739,7 +744,7 @@ int32_t
 strLen
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_containsNone
@@ -754,7 +759,7 @@ USet
 set2
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_containsSome
@@ -769,7 +774,7 @@ USet
 set2
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_span
@@ -788,7 +793,7 @@ USetSpanCondition
 spanCondition
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_spanBack
@@ -807,7 +812,7 @@ USetSpanCondition
 spanCondition
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_spanUTF8
@@ -826,7 +831,7 @@ USetSpanCondition
 spanCondition
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_spanBackUTF8
@@ -845,7 +850,7 @@ USetSpanCondition
 spanCondition
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_equals
@@ -860,7 +865,7 @@ USet
 set2
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_serialize
@@ -879,7 +884,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_getSerializedSet
@@ -895,7 +900,7 @@ int32_t
 srcLength
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_setSerializedToOne
@@ -907,7 +912,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_serializedContains
@@ -920,7 +925,7 @@ UChar32
 c
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_getSerializedRangeCount
@@ -931,7 +936,7 @@ USerializedSet
 set
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_getSerializedRange

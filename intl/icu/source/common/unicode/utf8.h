@@ -6,6 +6,13 @@ define
 __UTF8_H__
 #
 include
+<
+stdbool
+.
+h
+>
+#
+include
 "
 unicode
 /
@@ -283,7 +290,7 @@ lead
 )
 )
 )
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utf8_nextCharSafeBody
@@ -303,7 +310,7 @@ UBool
 strict
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utf8_appendCharSafeBody
@@ -322,7 +329,7 @@ UBool
 pIsError
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utf8_prevCharSafeBody
@@ -342,7 +349,7 @@ UBool
 strict
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utf8_back1SafeBody
@@ -1975,7 +1982,7 @@ else
 isError
 )
 =
-TRUE
+true
 ;
 \
 }

@@ -72,7 +72,7 @@ struct
 UText
 UText
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -83,7 +83,7 @@ UText
 ut
 )
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -103,7 +103,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -126,7 +126,7 @@ status
 #
 if
 U_SHOW_CPLUSPLUS_API
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -146,7 +146,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -167,7 +167,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -187,7 +187,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -209,7 +209,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -231,7 +231,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 utext_equals
@@ -246,7 +246,7 @@ UText
 b
 )
 ;
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 utext_nativeLength
@@ -256,7 +256,7 @@ UText
 ut
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 utext_isLengthExpensive
@@ -267,7 +267,7 @@ UText
 ut
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utext_char32At
@@ -279,7 +279,7 @@ int64_t
 nativeIndex
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utext_current32
@@ -289,7 +289,7 @@ UText
 ut
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utext_next32
@@ -299,7 +299,7 @@ UText
 ut
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utext_previous32
@@ -309,7 +309,7 @@ UText
 ut
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utext_next32From
@@ -321,7 +321,7 @@ int64_t
 nativeIndex
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utext_previous32From
@@ -333,7 +333,7 @@ int64_t
 nativeIndex
 )
 ;
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 utext_getNativeIndex
@@ -344,7 +344,7 @@ UText
 ut
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utext_setNativeIndex
@@ -356,7 +356,7 @@ int64_t
 nativeIndex
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 utext_moveIndex32
@@ -368,7 +368,7 @@ int32_t
 delta
 )
 ;
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 utext_getPreviousNativeIndex
@@ -378,7 +378,7 @@ UText
 ut
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utext_extract
@@ -748,7 +748,7 @@ ix
 \
 }
 UPRV_BLOCK_MACRO_END
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 utext_isWritable
@@ -759,7 +759,7 @@ UText
 ut
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 utext_hasMetaData
@@ -770,7 +770,7 @@ UText
 ut
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utext_replace
@@ -793,7 +793,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utext_copy
@@ -814,7 +814,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utext_freeze
@@ -1144,7 +1144,7 @@ privC
 ;
 }
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2

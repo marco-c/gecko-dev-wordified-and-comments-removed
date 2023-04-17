@@ -54,6 +54,9 @@ ucnv
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -62,6 +65,8 @@ localpointer
 .
 h
 "
+#
+endif
 struct
 UConverterSelector
 ;
@@ -70,7 +75,7 @@ struct
 UConverterSelector
 UConverterSelector
 ;
-U_STABLE
+U_CAPI
 UConverterSelector
 *
 U_EXPORT2
@@ -96,7 +101,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnvsel_close
@@ -120,7 +125,7 @@ ucnvsel_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 UConverterSelector
 *
 U_EXPORT2
@@ -137,7 +142,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnvsel_serialize
@@ -156,7 +161,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -177,7 +182,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2

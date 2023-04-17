@@ -740,7 +740,7 @@ status
 )
 ;
 }
-U_DRAFT
+U_CAPI
 UEnumeration
 *
 U_EXPORT2

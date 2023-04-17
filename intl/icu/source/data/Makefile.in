@@ -1888,6 +1888,14 @@ MISCSRCDIR
 icudata
 .
 rc
+|
+(
+TMP_DIR
+)
+/
+dirs
+.
+timestamp
 ifeq
 (
 (

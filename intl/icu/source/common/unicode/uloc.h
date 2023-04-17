@@ -227,7 +227,7 @@ ULocDataLocaleType
 #
 ifndef
 U_HIDE_SYSTEM_API
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -237,7 +237,7 @@ uloc_getDefault
 void
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uloc_setDefault
@@ -253,7 +253,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getLanguage
@@ -272,7 +272,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getScript
@@ -291,7 +291,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getCountry
@@ -310,7 +310,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getVariant
@@ -329,7 +329,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getName
@@ -348,7 +348,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_canonicalize
@@ -367,7 +367,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -380,7 +380,7 @@ char
 localeID
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -393,7 +393,7 @@ char
 localeID
 )
 ;
-U_STABLE
+U_CAPI
 uint32_t
 U_EXPORT2
 uloc_getLCID
@@ -404,7 +404,7 @@ char
 localeID
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getDisplayLanguage
@@ -427,7 +427,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getDisplayScript
@@ -450,7 +450,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getDisplayCountry
@@ -473,7 +473,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getDisplayVariant
@@ -496,7 +496,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getDisplayKeyword
@@ -519,7 +519,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getDisplayKeywordValue
@@ -546,7 +546,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getDisplayName
@@ -569,7 +569,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -580,7 +580,7 @@ int32_t
 n
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_countAvailable
@@ -588,9 +588,6 @@ uloc_countAvailable
 void
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 ULocAvailableType
@@ -607,7 +604,7 @@ endif
 }
 ULocAvailableType
 ;
-U_DRAFT
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -620,9 +617,7 @@ UErrorCode
 status
 )
 ;
-#
-endif
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -634,7 +629,7 @@ uloc_getISOLanguages
 void
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -646,7 +641,7 @@ uloc_getISOCountries
 void
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getParent
@@ -665,7 +660,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getBaseName
@@ -684,7 +679,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -699,7 +694,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getKeywordValue
@@ -722,7 +717,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_setKeywordValue
@@ -745,7 +740,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uloc_isRightToLeft
@@ -775,7 +770,7 @@ ULOC_LAYOUT_UNKNOWN
 }
 ULayoutType
 ;
-U_STABLE
+U_CAPI
 ULayoutType
 U_EXPORT2
 uloc_getCharacterOrientation
@@ -789,7 +784,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 ULayoutType
 U_EXPORT2
 uloc_getLineOrientation
@@ -818,7 +813,7 @@ ULOC_ACCEPT_FALLBACK
 }
 UAcceptResult
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_acceptLanguageFromHTTP
@@ -843,7 +838,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_acceptLanguage
@@ -871,7 +866,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_getLocaleForLCID
@@ -888,7 +883,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_addLikelySubtags
@@ -907,7 +902,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_minimizeSubtags
@@ -926,7 +921,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_forLanguageTag
@@ -948,7 +943,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uloc_toLanguageTag
@@ -969,7 +964,7 @@ UErrorCode
 err
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -982,7 +977,7 @@ char
 keyword
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -999,7 +994,7 @@ char
 value
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1012,7 +1007,7 @@ char
 keyword
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *

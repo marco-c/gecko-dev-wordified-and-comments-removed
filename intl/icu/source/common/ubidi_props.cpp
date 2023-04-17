@@ -1059,7 +1059,7 @@ c
 )
 ;
 }
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_getBidiPairedBracket

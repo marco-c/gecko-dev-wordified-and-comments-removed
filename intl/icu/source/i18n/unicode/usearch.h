@@ -26,15 +26,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 ucol
 .
 h
@@ -57,6 +48,20 @@ ubrk
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
 #
 define
 USEARCH_DONE
@@ -119,7 +124,7 @@ endif
 }
 USearchAttributeValue
 ;
-U_STABLE
+U_CAPI
 UStringSearch
 *
 U_EXPORT2
@@ -149,7 +154,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UStringSearch
 *
 U_EXPORT2
@@ -179,7 +184,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 usearch_close
@@ -203,7 +208,7 @@ usearch_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 usearch_setOffset
@@ -218,7 +223,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 usearch_getOffset
@@ -229,7 +234,7 @@ UStringSearch
 strsrch
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 usearch_setAttribute
@@ -246,7 +251,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 USearchAttributeValue
 U_EXPORT2
 usearch_getAttribute
@@ -259,7 +264,7 @@ USearchAttribute
 attribute
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 usearch_getMatchedStart
@@ -270,7 +275,7 @@ UStringSearch
 strsrch
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 usearch_getMatchedLength
@@ -281,7 +286,7 @@ UStringSearch
 strsrch
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 usearch_getMatchedText
@@ -304,7 +309,7 @@ status
 if
 !
 UCONFIG_NO_BREAK_ITERATION
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 usearch_setBreakIterator
@@ -320,7 +325,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UBreakIterator
 *
@@ -335,7 +340,7 @@ strsrch
 ;
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 usearch_setText
@@ -354,7 +359,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -370,7 +375,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 UCollator
 *
 U_EXPORT2
@@ -382,7 +387,7 @@ UStringSearch
 strsrch
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 usearch_setCollator
@@ -399,7 +404,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 usearch_setPattern
@@ -418,7 +423,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -434,7 +439,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 usearch_first
@@ -447,7 +452,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 usearch_following
@@ -462,7 +467,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 usearch_last
@@ -475,7 +480,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 usearch_preceding
@@ -490,7 +495,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 usearch_next
@@ -503,7 +508,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 usearch_previous
@@ -516,7 +521,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 usearch_reset
@@ -529,7 +534,7 @@ strsrch
 #
 ifndef
 U_HIDE_INTERNAL_API
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 usearch_search
@@ -550,7 +555,7 @@ UErrorCode
 status
 )
 ;
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 usearch_searchBackwards

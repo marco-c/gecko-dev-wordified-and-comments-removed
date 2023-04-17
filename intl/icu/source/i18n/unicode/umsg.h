@@ -22,15 +22,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 uloc
 .
 h
@@ -51,7 +42,21 @@ stdarg
 .
 h
 >
-U_STABLE
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
+U_CAPI
 int32_t
 U_EXPORT2
 u_formatMessage
@@ -79,7 +84,7 @@ status
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vformatMessage
@@ -106,7 +111,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_parseMessage
@@ -135,7 +140,7 @@ status
 .
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_vparseMessage
@@ -163,7 +168,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_formatMessageWithError
@@ -194,7 +199,7 @@ status
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vformatMessageWithError
@@ -224,7 +229,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_parseMessageWithError
@@ -256,7 +261,7 @@ status
 .
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_vparseMessageWithError
@@ -292,7 +297,7 @@ void
 *
 UMessageFormat
 ;
-U_STABLE
+U_CAPI
 UMessageFormat
 *
 U_EXPORT2
@@ -316,7 +321,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 umsg_close
@@ -340,7 +345,7 @@ umsg_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 UMessageFormat
 U_EXPORT2
 umsg_clone
@@ -354,7 +359,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 umsg_setLocale
@@ -368,7 +373,7 @@ char
 locale
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -381,7 +386,7 @@ UMessageFormat
 fmt
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 umsg_applyPattern
@@ -403,7 +408,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 umsg_toPattern
@@ -422,7 +427,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 umsg_format
@@ -444,7 +449,7 @@ status
 .
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 umsg_vformat
@@ -465,7 +470,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 umsg_parse
@@ -491,7 +496,7 @@ status
 .
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 umsg_vparse
@@ -516,7 +521,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 umsg_autoQuoteApostrophe

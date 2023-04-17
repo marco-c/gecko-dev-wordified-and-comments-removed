@@ -396,7 +396,8 @@ s
 copy
 is
 the
-master
+primary
+one
 .
 If
 any

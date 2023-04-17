@@ -861,9 +861,9 @@ isBogus
 )
 )
 {
-precision
+macros
 .
-fRoundingMode
+roundingMode
 =
 roundingMode
 ;
@@ -1233,9 +1233,7 @@ maxSig_
 }
 macros
 .
-precision
-.
-fRoundingMode
+roundingMode
 =
 roundingMode
 ;

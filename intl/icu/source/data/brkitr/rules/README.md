@@ -35,8 +35,6 @@ org
 copyright
 .
 html
-#
-License
 -
 -
 >

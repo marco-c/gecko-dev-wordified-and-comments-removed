@@ -44,19 +44,24 @@ include
 "
 unicode
 /
-localpointer
+uformattedvalue
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 #
 include
 "
 unicode
 /
-uformattedvalue
+localpointer
 .
 h
 "
+#
+endif
 typedef
 enum
 UDateRelativeDateTimeFormatterStyle
@@ -118,7 +123,7 @@ struct
 URelativeDateTimeFormatter
 URelativeDateTimeFormatter
 ;
-U_STABLE
+U_CAPI
 URelativeDateTimeFormatter
 *
 U_EXPORT2
@@ -140,7 +145,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ureldatefmt_close
@@ -158,7 +163,7 @@ struct
 UFormattedRelativeDateTime
 UFormattedRelativeDateTime
 ;
-U_STABLE
+U_CAPI
 UFormattedRelativeDateTime
 *
 U_EXPORT2
@@ -169,7 +174,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 const
 UFormattedValue
 *
@@ -185,7 +190,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ureldatefmt_closeResult
@@ -216,7 +221,7 @@ ureldatefmt_closeResult
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ureldatefmt_formatNumeric
@@ -239,7 +244,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ureldatefmt_formatNumericToResult
@@ -260,7 +265,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ureldatefmt_format
@@ -283,7 +288,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ureldatefmt_formatToResult
@@ -304,7 +309,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ureldatefmt_combineDateAndTime

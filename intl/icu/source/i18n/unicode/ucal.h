@@ -32,6 +32,9 @@ uloc
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -40,6 +43,8 @@ localpointer
 .
 h
 "
+#
+endif
 #
 if
 !
@@ -181,7 +186,7 @@ enum
 USystemTimeZoneType
 USystemTimeZoneType
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -202,7 +207,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -213,7 +218,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -228,7 +233,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getDefaultTimeZone
@@ -243,7 +248,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_setDefaultTimeZone
@@ -257,10 +262,7 @@ UErrorCode
 ec
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getHostTimeZone
@@ -275,9 +277,7 @@ UErrorCode
 ec
 )
 ;
-#
-endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getDSTSavings
@@ -291,7 +291,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 UDate
 U_EXPORT2
 ucal_getNow
@@ -299,7 +299,7 @@ ucal_getNow
 void
 )
 ;
-U_STABLE
+U_CAPI
 UCalendar
 *
 U_EXPORT2
@@ -322,7 +322,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_close
@@ -346,7 +346,7 @@ ucal_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 UCalendar
 *
 U_EXPORT2
@@ -361,7 +361,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_setTimeZone
@@ -380,7 +380,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getTimeZoneID
@@ -413,7 +413,7 @@ enum
 UCalendarDisplayNameType
 UCalendarDisplayNameType
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getTimeZoneDisplayName
@@ -438,7 +438,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucal_inDaylightTime
@@ -452,7 +452,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_setGregorianChange
@@ -467,7 +467,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UDate
 U_EXPORT2
 ucal_getGregorianChange
@@ -509,7 +509,7 @@ enum
 UCalendarWallTimeOption
 UCalendarWallTimeOption
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getAttribute
@@ -522,7 +522,7 @@ UCalendarAttribute
 attr
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_setAttribute
@@ -536,7 +536,7 @@ int32_t
 newValue
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -547,7 +547,7 @@ int32_t
 localeIndex
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_countAvailable
@@ -555,7 +555,7 @@ ucal_countAvailable
 void
 )
 ;
-U_STABLE
+U_CAPI
 UDate
 U_EXPORT2
 ucal_getMillis
@@ -569,7 +569,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_setMillis
@@ -584,7 +584,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_setDate
@@ -603,7 +603,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_setDateTime
@@ -628,7 +628,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucal_equivalentTo
@@ -643,7 +643,7 @@ UCalendar
 cal2
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_add
@@ -660,7 +660,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_roll
@@ -677,7 +677,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_get
@@ -693,7 +693,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_set
@@ -707,7 +707,7 @@ int32_t
 value
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucal_isSet
@@ -720,7 +720,7 @@ UCalendarDateFields
 field
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_clearField
@@ -732,7 +732,7 @@ UCalendarDateFields
 field
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucal_clear
@@ -758,7 +758,7 @@ enum
 UCalendarLimitType
 UCalendarLimitType
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getLimit
@@ -776,7 +776,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -794,7 +794,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -806,7 +806,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getCanonicalTimeZoneID
@@ -830,7 +830,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -846,7 +846,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -881,7 +881,7 @@ enum
 UCalendarWeekdayType
 UCalendarWeekdayType
 ;
-U_STABLE
+U_CAPI
 UCalendarWeekdayType
 U_EXPORT2
 ucal_getDayOfWeekType
@@ -897,7 +897,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getWeekendTransition
@@ -913,7 +913,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucal_isWeekend
@@ -929,7 +929,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getFieldDifference
@@ -960,7 +960,7 @@ enum
 UTimeZoneTransitionType
 UTimeZoneTransitionType
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucal_getTimeZoneTransitionDate
@@ -979,7 +979,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getWindowsTimeZoneID
@@ -1000,7 +1000,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucal_getTimeZoneIDForWindowsID

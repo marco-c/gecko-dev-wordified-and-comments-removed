@@ -25,7 +25,7 @@ U_ICU_DATA_KEY
 "
 DataVersion
 "
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_getDataVersion

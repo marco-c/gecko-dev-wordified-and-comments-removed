@@ -1320,7 +1320,7 @@ standardName
 UBool
 isFirst
 =
-TRUE
+true
 ;
 UErrorCode
 enumError
@@ -1397,7 +1397,7 @@ isFirst
 }
 isFirst
 =
-FALSE
+false
 ;
 }
 }
@@ -2075,7 +2075,7 @@ a
 +
 1
 NULL
-TRUE
+true
 &
 err
 )
@@ -2338,7 +2338,7 @@ infile
 UBool
 ret
 =
-TRUE
+true
 ;
 UConverter
 *
@@ -2363,7 +2363,7 @@ flush
 UBool
 closeFile
 =
-FALSE
+false
 ;
 const
 char
@@ -2423,7 +2423,7 @@ ulen
 UBool
 useOffsets
 =
-TRUE
+true
 ;
 if
 (
@@ -2523,12 +2523,12 @@ getBuffer
 )
 ;
 return
-FALSE
+false
 ;
 }
 closeFile
 =
-TRUE
+true
 ;
 }
 else
@@ -2576,7 +2576,7 @@ cantSetInBinMode
 )
 ;
 return
-FALSE
+false
 ;
 }
 #
@@ -2837,7 +2837,7 @@ error_exit
 }
 useOffsets
 =
-FALSE
+false
 ;
 }
 #
@@ -3050,7 +3050,7 @@ do
 {
 willexit
 =
-FALSE
+false
 ;
 infoffset
 +
@@ -3425,7 +3425,7 @@ err
 ;
 willexit
 =
-TRUE
+true
 ;
 err
 =
@@ -4188,7 +4188,7 @@ getTerminatedBuffer
 ;
 willexit
 =
-TRUE
+true
 ;
 err
 =
@@ -4262,7 +4262,7 @@ getTerminatedBuffer
 ;
 willexit
 =
-TRUE
+true
 ;
 }
 if
@@ -4302,7 +4302,7 @@ error_exit
 :
 ret
 =
-FALSE
+false
 ;
 normal_exit
 :
@@ -4597,7 +4597,7 @@ outfilestr
 UBool
 fallback
 =
-FALSE
+false
 ;
 UConverterFromUCallback
 fromucallback
@@ -4651,13 +4651,13 @@ pname
 UBool
 printConvs
 =
-FALSE
+false
 printCanon
 =
-FALSE
+false
 printTranslits
 =
-FALSE
+false
 ;
 const
 char
@@ -4669,7 +4669,7 @@ printName
 UBool
 verbose
 =
-FALSE
+false
 ;
 UErrorCode
 status
@@ -4975,7 +4975,7 @@ iter
 {
 fallback
 =
-TRUE
+true
 ;
 }
 else
@@ -4998,7 +4998,7 @@ iter
 {
 fallback
 =
-FALSE
+false
 ;
 }
 else
@@ -5153,7 +5153,7 @@ pname
 }
 printConvs
 =
-TRUE
+true
 ;
 }
 else
@@ -5325,7 +5325,7 @@ iter
 {
 printCanon
 =
-TRUE
+true
 ;
 }
 else
@@ -5374,7 +5374,7 @@ pname
 }
 printTranslits
 =
-TRUE
+true
 ;
 }
 else
@@ -5820,7 +5820,7 @@ iter
 {
 verbose
 =
-FALSE
+false
 ;
 }
 else
@@ -5853,7 +5853,7 @@ iter
 {
 verbose
 =
-TRUE
+true
 ;
 }
 else

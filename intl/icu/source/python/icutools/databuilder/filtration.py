@@ -378,7 +378,7 @@ file
 return
 False
 class
-WhitelistBlacklistFilter
+IncludeExcludeFilter
 (
 Filter
 )
@@ -402,13 +402,13 @@ json_data
             
 self
 .
-is_whitelist
+is_includelist
 =
 True
             
 self
 .
-whitelist
+includelist
 =
 json_data
 [
@@ -417,21 +417,93 @@ whitelist
 "
 ]
         
-else
+elif
+"
+includelist
+"
+in
+json_data
 :
             
-assert
+self
+.
+is_includelist
+=
+True
+            
+self
+.
+includelist
+=
+json_data
+[
+"
+includelist
+"
+]
+        
+elif
 "
 blacklist
 "
 in
 json_data
+:
+            
+self
+.
+is_includelist
+=
+False
+            
+self
+.
+excludelist
+=
+json_data
+[
+"
+blacklist
+"
+]
+        
+elif
+"
+excludelist
+"
+in
+json_data
+:
+            
+self
+.
+is_includelist
+=
+False
+            
+self
+.
+excludelist
+=
+json_data
+[
+"
+excludelist
+"
+]
+        
+else
+:
+            
+raise
+AssertionError
+(
 "
 Need
 either
-whitelist
+includelist
 or
-blacklist
+excludelist
 :
 %
 s
@@ -441,23 +513,7 @@ str
 (
 json_data
 )
-            
-self
-.
-is_whitelist
-=
-False
-            
-self
-.
-blacklist
-=
-json_data
-[
-"
-blacklist
-"
-]
+)
     
 def
 match
@@ -498,7 +554,7 @@ pass
 class
 FileStemFilter
 (
-WhitelistBlacklistFilter
+IncludeExcludeFilter
 )
 :
     
@@ -513,7 +569,7 @@ file_stem
 if
 self
 .
-is_whitelist
+is_includelist
 :
             
 return
@@ -521,7 +577,7 @@ file_stem
 in
 self
 .
-whitelist
+includelist
         
 else
 :
@@ -532,11 +588,11 @@ not
 in
 self
 .
-blacklist
+excludelist
 class
 LanguageFilter
 (
-WhitelistBlacklistFilter
+IncludeExcludeFilter
 )
 :
     
@@ -577,7 +633,7 @@ True
 if
 self
 .
-is_whitelist
+is_includelist
 :
             
 return
@@ -585,7 +641,7 @@ language
 in
 self
 .
-whitelist
+includelist
         
 else
 :
@@ -596,11 +652,11 @@ not
 in
 self
 .
-blacklist
+excludelist
 class
 RegexFilter
 (
-WhitelistBlacklistFilter
+IncludeExcludeFilter
 )
 :
     
@@ -628,12 +684,12 @@ args
 if
 self
 .
-is_whitelist
+is_includelist
 :
             
 self
 .
-whitelist
+includelist
 =
 [
 re
@@ -647,7 +703,7 @@ pat
 in
 self
 .
-whitelist
+includelist
 ]
         
 else
@@ -655,7 +711,7 @@ else
             
 self
 .
-blacklist
+excludelist
 =
 [
 re
@@ -669,7 +725,7 @@ pat
 in
 self
 .
-blacklist
+excludelist
 ]
     
 def
@@ -683,7 +739,7 @@ file_stem
 if
 self
 .
-is_whitelist
+is_includelist
 :
             
 for
@@ -691,7 +747,7 @@ pattern
 in
 self
 .
-whitelist
+includelist
 :
                 
 if
@@ -717,7 +773,7 @@ pattern
 in
 self
 .
-blacklist
+excludelist
 :
                 
 if
@@ -902,6 +958,14 @@ io
 )
 :
         
+if
+"
+whitelist
+"
+in
+json_data
+:
+            
 self
 .
 locales_requested
@@ -914,6 +978,47 @@ json_data
 whitelist
 "
 ]
+)
+        
+elif
+"
+includelist
+"
+in
+json_data
+:
+            
+self
+.
+locales_requested
+=
+list
+(
+json_data
+[
+"
+includelist
+"
+]
+)
+        
+else
+:
+            
+raise
+AssertionError
+(
+"
+You
+must
+have
+an
+includelist
+in
+a
+locale
+filter
+"
 )
         
 self

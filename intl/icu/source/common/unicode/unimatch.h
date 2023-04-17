@@ -76,7 +76,7 @@ result
 UBool
 escapeUnprintable
 =
-FALSE
+false
 )
 const
 =

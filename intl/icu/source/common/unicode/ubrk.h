@@ -32,6 +32,9 @@ utext
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -40,6 +43,8 @@ localpointer
 .
 h
 "
+#
+endif
 #
 ifndef
 UBRK_TYPEDEF_UBREAK_ITERATOR
@@ -181,7 +186,7 @@ UBRK_SENTENCE_SEP_LIMIT
 }
 USentenceBreakTag
 ;
-U_STABLE
+U_CAPI
 UBreakIterator
 *
 U_EXPORT2
@@ -204,7 +209,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBreakIterator
 *
 U_EXPORT2
@@ -230,7 +235,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBreakIterator
 *
 U_EXPORT2
@@ -253,7 +258,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBreakIterator
 *
 U_EXPORT2
@@ -283,7 +288,7 @@ U_BRK_SAFECLONE_BUFFERSIZE
 1
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubrk_close
@@ -307,7 +312,7 @@ ubrk_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubrk_setText
@@ -326,7 +331,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubrk_setUText
@@ -342,7 +347,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_current
@@ -353,7 +358,7 @@ UBreakIterator
 bi
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_next
@@ -363,7 +368,7 @@ UBreakIterator
 bi
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_previous
@@ -373,7 +378,7 @@ UBreakIterator
 bi
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_first
@@ -383,7 +388,7 @@ UBreakIterator
 bi
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_last
@@ -393,7 +398,7 @@ UBreakIterator
 bi
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_preceding
@@ -405,7 +410,7 @@ int32_t
 offset
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_following
@@ -417,7 +422,7 @@ int32_t
 offset
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -428,7 +433,7 @@ int32_t
 index
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_countAvailable
@@ -436,7 +441,7 @@ ubrk_countAvailable
 void
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ubrk_isBoundary
@@ -448,7 +453,7 @@ int32_t
 offset
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_getRuleStatus
@@ -458,7 +463,7 @@ UBreakIterator
 bi
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_getRuleStatusVec
@@ -476,7 +481,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -494,7 +499,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubrk_refreshUText
@@ -510,7 +515,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_getBinaryRules

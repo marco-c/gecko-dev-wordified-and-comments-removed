@@ -1145,7 +1145,7 @@ return
 getCanonicalIndex
 (
 s
-TRUE
+true
 )
 ;
 }

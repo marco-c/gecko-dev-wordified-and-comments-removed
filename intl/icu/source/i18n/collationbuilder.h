@@ -121,7 +121,7 @@ disableFastLatin
 {
 fastLatinEnabled
 =
-FALSE
+false
 ;
 }
 CollationTailoring

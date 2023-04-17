@@ -65,7 +65,7 @@ static
 UBool
 gAutoCleanRegistered
 =
-FALSE
+false
 ;
 static
 void
@@ -90,7 +90,7 @@ gAutoCleanRegistered
 {
 gAutoCleanRegistered
 =
-TRUE
+true
 ;
 atexit
 (
@@ -179,7 +179,7 @@ lpvReserved
 BOOL
 status
 =
-TRUE
+true
 ;
 switch
 (

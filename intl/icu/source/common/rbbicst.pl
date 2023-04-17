@@ -109,8 +109,6 @@ copyright
 .
 html
 #
-License
-#
 *
 *
 *

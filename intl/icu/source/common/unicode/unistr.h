@@ -72,7 +72,7 @@ UConverter
 #
 ifndef
 USTRING_H
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strlen
@@ -178,7 +178,7 @@ icu
 :
 UnicodeString
 (
-TRUE
+true
 u
 #
 #
@@ -199,7 +199,7 @@ icu
 :
 UnicodeString
 (
-TRUE
+true
 (
 const
 char16_t
@@ -3352,7 +3352,7 @@ src
 UBool
 fastCopy
 =
-FALSE
+false
 )
 ;
 void
@@ -3464,7 +3464,7 @@ growCapacity
 UBool
 doCopyArray
 =
-TRUE
+true
 int32_t
 *
 *
@@ -3474,7 +3474,7 @@ pBufferToDelete
 UBool
 forceClone
 =
-FALSE
+false
 )
 ;
 UnicodeString
@@ -8076,7 +8076,7 @@ unBogus
 )
 ;
 return
-FALSE
+false
 ;
 }
 else
@@ -8101,13 +8101,13 @@ targetLength
 )
 ;
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }

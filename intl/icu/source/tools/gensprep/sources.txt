@@ -1,0 +1,6 @@
+gensprep
+.
+c
+store
+.
+c

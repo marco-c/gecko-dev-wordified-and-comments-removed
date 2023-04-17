@@ -375,7 +375,7 @@ id
 UBool
 visible
 =
-TRUE
+true
 )
 ;
 virtual

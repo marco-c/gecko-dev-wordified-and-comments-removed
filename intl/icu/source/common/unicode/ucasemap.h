@@ -18,15 +18,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 stringoptions
 .
 h
@@ -40,6 +31,20 @@ ustring
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
 struct
 UCaseMap
 ;
@@ -48,7 +53,7 @@ struct
 UCaseMap
 UCaseMap
 ;
-U_STABLE
+U_CAPI
 UCaseMap
 *
 U_EXPORT2
@@ -65,7 +70,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucasemap_close
@@ -89,7 +94,7 @@ ucasemap_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -102,7 +107,7 @@ UCaseMap
 csm
 )
 ;
-U_STABLE
+U_CAPI
 uint32_t
 U_EXPORT2
 ucasemap_getOptions
@@ -113,7 +118,7 @@ UCaseMap
 csm
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucasemap_setLocale
@@ -130,7 +135,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucasemap_setOptions
@@ -149,7 +154,7 @@ pErrorCode
 if
 !
 UCONFIG_NO_BREAK_ITERATION
-U_STABLE
+U_CAPI
 const
 UBreakIterator
 *
@@ -162,7 +167,7 @@ UCaseMap
 csm
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucasemap_setBreakIterator
@@ -178,7 +183,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucasemap_toTitle
@@ -204,7 +209,7 @@ pErrorCode
 ;
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucasemap_utf8ToLower
@@ -229,7 +234,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucasemap_utf8ToUpper
@@ -258,7 +263,7 @@ pErrorCode
 if
 !
 UCONFIG_NO_BREAK_ITERATION
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucasemap_utf8ToTitle
@@ -284,7 +289,7 @@ pErrorCode
 ;
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucasemap_utf8FoldCase

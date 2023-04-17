@@ -54,7 +54,7 @@ struct
 URegion
 URegion
 ;
-U_STABLE
+U_CAPI
 const
 URegion
 *
@@ -70,7 +70,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 URegion
 *
@@ -84,7 +84,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -97,7 +97,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregion_areEqual
@@ -112,7 +112,7 @@ URegion
 otherRegion
 )
 ;
-U_STABLE
+U_CAPI
 const
 URegion
 *
@@ -125,7 +125,7 @@ URegion
 uregion
 )
 ;
-U_STABLE
+U_CAPI
 const
 URegion
 *
@@ -140,7 +140,7 @@ URegionType
 type
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -155,7 +155,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -172,7 +172,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregion_contains
@@ -187,7 +187,7 @@ URegion
 otherRegion
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -202,7 +202,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -215,7 +215,7 @@ URegion
 uregion
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregion_getNumericCode
@@ -226,7 +226,7 @@ URegion
 uregion
 )
 ;
-U_STABLE
+U_CAPI
 URegionType
 U_EXPORT2
 uregion_getType

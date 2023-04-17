@@ -32,6 +32,13 @@ parseerr
 h
 "
 #
+if
+!
+UCONFIG_NO_NORMALIZATION
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -40,13 +47,6 @@ localpointer
 .
 h
 "
-#
-if
-!
-UCONFIG_NO_NORMALIZATION
-#
-if
-U_SHOW_CPLUSPLUS_API
 #
 include
 "
@@ -181,7 +181,7 @@ endif
 }
 URestrictionLevel
 ;
-U_STABLE
+U_CAPI
 USpoofChecker
 *
 U_EXPORT2
@@ -192,7 +192,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 USpoofChecker
 *
 U_EXPORT2
@@ -212,7 +212,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 USpoofChecker
 *
 U_EXPORT2
@@ -241,7 +241,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uspoof_close
@@ -251,7 +251,7 @@ USpoofChecker
 sc
 )
 ;
-U_STABLE
+U_CAPI
 USpoofChecker
 *
 U_EXPORT2
@@ -266,7 +266,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uspoof_setChecks
@@ -281,7 +281,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_getChecks
@@ -295,7 +295,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uspoof_setRestrictionLevel
@@ -307,7 +307,7 @@ URestrictionLevel
 restrictionLevel
 )
 ;
-U_STABLE
+U_CAPI
 URestrictionLevel
 U_EXPORT2
 uspoof_getRestrictionLevel
@@ -318,7 +318,7 @@ USpoofChecker
 sc
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uspoof_setAllowedLocales
@@ -335,7 +335,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -350,7 +350,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uspoof_setAllowedChars
@@ -367,7 +367,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 USet
 *
@@ -383,7 +383,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_check
@@ -406,7 +406,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_checkUTF8
@@ -429,7 +429,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_check2
@@ -452,7 +452,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_check2UTF8
@@ -475,7 +475,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 USpoofCheckResult
 *
 U_EXPORT2
@@ -486,7 +486,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uspoof_closeCheckResult
@@ -496,7 +496,7 @@ USpoofCheckResult
 checkResult
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_getCheckResultChecks
@@ -510,7 +510,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 URestrictionLevel
 U_EXPORT2
 uspoof_getCheckResultRestrictionLevel
@@ -524,7 +524,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 USet
 *
@@ -540,7 +540,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_areConfusable
@@ -566,7 +566,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_areConfusableUTF8
@@ -592,7 +592,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_getSkeleton
@@ -619,7 +619,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_getSkeletonUTF8
@@ -646,7 +646,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 USet
 *
@@ -658,7 +658,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 USet
 *
@@ -670,7 +670,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_serialize
@@ -708,7 +708,7 @@ uspoof_closeCheckResult
 )
 ;
 U_NAMESPACE_END
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uspoof_setAllowedUnicodeSet
@@ -728,7 +728,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 icu
 :
@@ -747,7 +747,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_checkUnicodeString
@@ -771,7 +771,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_check2UnicodeString
@@ -795,7 +795,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uspoof_areConfusableUnicodeString
@@ -856,7 +856,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 icu
 :
@@ -871,7 +871,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 icu
 :

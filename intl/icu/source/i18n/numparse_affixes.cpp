@@ -543,6 +543,9 @@ AffixPatternMatcherBuilder
 :
 build
 (
+UErrorCode
+&
+status
 )
 {
 return
@@ -551,6 +554,7 @@ AffixPatternMatcher
 fMatchers
 fMatchersLen
 fPattern
+status
 )
 ;
 }
@@ -958,6 +962,7 @@ builder
 .
 build
 (
+status
 )
 ;
 }
@@ -975,6 +980,9 @@ const
 UnicodeString
 &
 pattern
+UErrorCode
+&
+status
 )
 :
 ArraySeriesMatcher
@@ -985,6 +993,7 @@ matchersLen
 fPattern
 (
 pattern
+status
 )
 {
 }

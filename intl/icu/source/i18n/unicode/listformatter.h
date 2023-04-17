@@ -17,6 +17,10 @@ h
 if
 U_SHOW_CPLUSPLUS_API
 #
+if
+!
+UCONFIG_NO_FORMATTING
+#
 include
 "
 unicode
@@ -137,10 +141,6 @@ loc
 }
 }
 ;
-#
-if
-!
-UCONFIG_NO_FORMATTING
 class
 U_I18N_API
 FormattedList
@@ -312,8 +312,6 @@ ListFormatter
 ;
 }
 ;
-#
-endif
 class
 U_I18N_API
 ListFormatter
@@ -365,13 +363,6 @@ UErrorCode
 errorCode
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-#
-if
-!
-UCONFIG_NO_FORMATTING
 static
 ListFormatter
 *
@@ -390,10 +381,6 @@ UErrorCode
 errorCode
 )
 ;
-#
-endif
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API
@@ -443,10 +430,6 @@ errorCode
 )
 const
 ;
-#
-if
-!
-UCONFIG_NO_FORMATTING
 FormattedList
 formatStringsToValue
 (
@@ -463,8 +446,6 @@ errorCode
 )
 const
 ;
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API
@@ -609,6 +590,8 @@ data
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

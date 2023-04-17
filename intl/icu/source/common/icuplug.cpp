@@ -419,7 +419,7 @@ return
 1
 ;
 }
-U_INTERNAL
+U_CAPI
 char
 *
 U_EXPORT2
@@ -493,7 +493,7 @@ return
 ret
 ;
 }
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -792,7 +792,7 @@ return
 lib
 ;
 }
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_closeLibrary
@@ -2174,7 +2174,7 @@ data
 config
 ;
 }
-U_INTERNAL
+U_CAPI
 UPlugData
 *
 U_EXPORT2
@@ -3185,7 +3185,7 @@ plugin_file
 ;
 #
 endif
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -3534,18 +3534,17 @@ endif
 return
 ;
 }
-uprv_strncpy
-(
-plugin_file
 pluginFile
 .
-data
+extract
 (
-)
+plugin_file
 sizeof
 (
 plugin_file
 )
+*
+status
 )
 ;
 #

@@ -26,6 +26,13 @@ errmsg
 .
 h
 "
+#
+include
+"
+toolutil
+.
+h
+"
 U_CFUNC
 void
 error

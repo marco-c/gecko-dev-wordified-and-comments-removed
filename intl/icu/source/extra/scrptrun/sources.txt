@@ -1,0 +1,6 @@
+scrptrun
+.
+cpp
+srtest
+.
+cpp

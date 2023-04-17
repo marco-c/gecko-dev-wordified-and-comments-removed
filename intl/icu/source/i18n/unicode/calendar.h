@@ -2185,7 +2185,7 @@ fIsSet
 field
 ]
 =
-TRUE
+true
 ;
 }
 #

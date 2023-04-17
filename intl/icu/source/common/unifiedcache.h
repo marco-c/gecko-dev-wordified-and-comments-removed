@@ -86,9 +86,9 @@ fCreationStatus
 (
 U_ZERO_ERROR
 )
-fIsMaster
+fIsPrimary
 (
-FALSE
+false
 )
 {
 }
@@ -110,9 +110,9 @@ other
 .
 fCreationStatus
 )
-fIsMaster
+fIsPrimary
 (
-FALSE
+false
 )
 {
 }
@@ -220,7 +220,7 @@ fCreationStatus
 ;
 mutable
 UBool
-fIsMaster
+fIsPrimary
 ;
 friend
 class
@@ -491,7 +491,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -512,7 +512,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -1099,7 +1099,7 @@ _runEvictionSlice
 const
 ;
 void
-_registerMaster
+_registerPrimary
 (
 const
 CacheKeyBase

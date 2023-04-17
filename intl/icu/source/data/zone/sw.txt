@@ -31,16 +31,29 @@ org
 copyright
 .
 html
-#
-License
+/
+/
+Generated
+using
+tools
+/
+cldr
+/
+cldr
+-
+to
+-
+icu
+/
+build
+-
+icu
+-
+data
+.
+xml
 sw
 {
-Version
-{
-"
-37
-"
-}
 zoneStrings
 {
 "
@@ -6943,7 +6956,7 @@ Saa
 za
 Kisiwa
 cha
-Christmas
+Krismasi
 "
 }
 }
@@ -6979,7 +6992,7 @@ Majira
 ya
 joto
 za
-Colombia
+Kolombia
 "
 }
 lg
@@ -6987,7 +7000,7 @@ lg
 "
 Saa
 za
-Colombia
+Kolombia
 "
 }
 ls
@@ -6997,7 +7010,7 @@ Saa
 za
 Wastani
 za
-Colombia
+Kolombia
 "
 }
 }
@@ -7057,7 +7070,7 @@ Saa
 za
 Mchana
 za
-Cuba
+Kuba
 "
 }
 lg
@@ -7065,7 +7078,7 @@ lg
 "
 Saa
 za
-Cuba
+Kuba
 "
 }
 ls
@@ -7075,7 +7088,7 @@ Saa
 za
 Wastani
 ya
-Cuba
+Kuba
 "
 }
 }
@@ -7182,7 +7195,7 @@ ls
 "
 Saa
 za
-Ecuador
+Ekwado
 "
 }
 }
@@ -7225,7 +7238,7 @@ Wastani
 za
 Ulaya
 ya
-kati
+Kati
 "
 }
 }
@@ -7509,7 +7522,7 @@ Majira
 ya
 joto
 za
-Georgia
+Jojia
 "
 }
 lg
@@ -7517,7 +7530,7 @@ lg
 "
 Saa
 za
-Georgia
+Jojia
 "
 }
 ls
@@ -7527,7 +7540,7 @@ Saa
 za
 Wastani
 za
-Georgia
+Jojia
 "
 }
 }
@@ -7788,6 +7801,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 India
@@ -8011,9 +8025,10 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
-Japan
+Japani
 "
 }
 }
@@ -8378,7 +8393,7 @@ Majira
 ya
 joto
 za
-Mauritius
+Morisi
 "
 }
 lg
@@ -8386,7 +8401,7 @@ lg
 "
 Saa
 za
-Mauritius
+Morisi
 "
 }
 ls
@@ -8396,7 +8411,7 @@ Saa
 za
 Wastani
 za
-Mauritius
+Morisi
 "
 }
 }
@@ -8428,7 +8443,7 @@ Saa
 za
 mchana
 za
-Mexico
+Meksiko
 Kaskazini
 Magharibi
 "
@@ -8438,7 +8453,7 @@ lg
 "
 Saa
 za
-Mexico
+Meksiko
 Kaskazini
 Magharibi
 "
@@ -8450,7 +8465,7 @@ Saa
 za
 Wastani
 za
-Mexico
+Meksiko
 Kaskazini
 Magharibi
 "
@@ -8471,7 +8486,7 @@ mchana
 za
 pasifiki
 za
-Mexico
+Meksiko
 "
 }
 lg
@@ -8481,7 +8496,7 @@ Saa
 za
 pasifiki
 za
-Mexico
+Meksiko
 "
 }
 ls
@@ -8493,7 +8508,7 @@ wastani
 za
 pasifiki
 za
-Mexico
+Meksiko
 "
 }
 }
@@ -8991,7 +9006,7 @@ Majira
 ya
 joto
 za
-Paraguay
+Paragwai
 "
 }
 lg
@@ -8999,7 +9014,7 @@ lg
 "
 Saa
 za
-Paraguay
+Paragwai
 "
 }
 ls
@@ -9009,7 +9024,7 @@ Saa
 za
 Wastani
 za
-Paraguay
+Paragwai
 "
 }
 }
@@ -9629,7 +9644,7 @@ Majira
 ya
 joto
 za
-Uruguay
+Urugwai
 "
 }
 lg
@@ -9637,7 +9652,7 @@ lg
 "
 Saa
 za
-Uruguay
+Urugwai
 "
 }
 ls
@@ -9647,7 +9662,7 @@ Saa
 za
 Wastani
 za
-Uruguay
+Urugwai
 "
 }
 }

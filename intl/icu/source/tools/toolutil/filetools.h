@@ -29,7 +29,7 @@ checkAgainst
 UBool
 isDir
 =
-FALSE
+false
 )
 ;
 U_CAPI

@@ -594,6 +594,8 @@ virtual
 MicroPropsGenerator
 (
 )
+=
+default
 ;
 virtual
 void

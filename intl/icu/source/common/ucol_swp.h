@@ -24,7 +24,7 @@ udataswp
 .
 h
 "
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 ucol_looksLikeCollationBinary

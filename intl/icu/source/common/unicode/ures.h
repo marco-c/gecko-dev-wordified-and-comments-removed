@@ -23,6 +23,9 @@ uloc
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -31,6 +34,8 @@ localpointer
 .
 h
 "
+#
+endif
 struct
 UResourceBundle
 ;
@@ -105,7 +110,7 @@ endif
 }
 UResType
 ;
-U_STABLE
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -124,7 +129,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -143,7 +148,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -185,7 +190,7 @@ err
 ;
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ures_close
@@ -227,7 +232,7 @@ resourceBundle
 ;
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ures_getVersion
@@ -261,7 +266,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -282,7 +287,7 @@ status
 #
 ifndef
 U_HIDE_INTERNAL_API
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 ures_openFillIn
@@ -305,7 +310,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -324,7 +329,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -348,7 +353,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 uint8_t
 *
@@ -367,7 +372,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 int32_t
 *
@@ -386,7 +391,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 uint32_t
 U_EXPORT2
 ures_getUInt
@@ -400,7 +405,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ures_getInt
@@ -414,7 +419,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ures_getSize
@@ -425,7 +430,7 @@ UResourceBundle
 resourceBundle
 )
 ;
-U_STABLE
+U_CAPI
 UResType
 U_EXPORT2
 ures_getType
@@ -436,7 +441,7 @@ UResourceBundle
 resourceBundle
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -449,7 +454,7 @@ UResourceBundle
 resourceBundle
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ures_resetIterator
@@ -459,7 +464,7 @@ UResourceBundle
 resourceBundle
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ures_hasNext
@@ -470,7 +475,7 @@ UResourceBundle
 resourceBundle
 )
 ;
-U_STABLE
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -487,7 +492,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -510,7 +515,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -530,7 +535,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -551,7 +556,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -577,7 +582,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -599,7 +604,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -622,7 +627,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -710,7 +715,7 @@ result
 .
 setTo
 (
-TRUE
+true
 r
 len
 )
@@ -781,7 +786,7 @@ result
 .
 setTo
 (
-TRUE
+true
 r
 len
 )
@@ -850,7 +855,7 @@ result
 .
 setTo
 (
-TRUE
+true
 r
 len
 )
@@ -921,7 +926,7 @@ result
 .
 setTo
 (
-TRUE
+true
 r
 len
 )
@@ -943,7 +948,7 @@ result
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2

@@ -243,7 +243,7 @@ setState
 ;
 }
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 uiter_current32
@@ -253,7 +253,7 @@ UCharIterator
 iter
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 uiter_next32
@@ -263,7 +263,7 @@ UCharIterator
 iter
 )
 ;
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 uiter_previous32
@@ -273,7 +273,7 @@ UCharIterator
 iter
 )
 ;
-U_STABLE
+U_CAPI
 uint32_t
 U_EXPORT2
 uiter_getState
@@ -284,7 +284,7 @@ UCharIterator
 iter
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uiter_setState
@@ -299,7 +299,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uiter_setString
@@ -315,7 +315,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uiter_setUTF16BE
@@ -331,7 +331,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uiter_setUTF8
@@ -350,7 +350,7 @@ length
 #
 if
 U_SHOW_CPLUSPLUS_API
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uiter_setCharacterIterator
@@ -366,7 +366,7 @@ CharacterIterator
 charIter
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uiter_setReplaceable

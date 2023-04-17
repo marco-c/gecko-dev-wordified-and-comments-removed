@@ -729,7 +729,7 @@ U_COPYRIGHT_STRING
 UBool
 quiet
 =
-FALSE
+false
 ;
 if
 (
@@ -743,7 +743,7 @@ doesOccur
 {
 quiet
 =
-TRUE
+true
 ;
 }
 #

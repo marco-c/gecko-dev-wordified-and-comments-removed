@@ -46,8 +46,6 @@ copyright
 .
 html
 #
-License
-#
 #
 #
 #
@@ -132,6 +130,7 @@ collperf
 collperf2
 charperf
 dicttrieperf
+localecanperf
 normperf
 ubrkperf
 unisetperf

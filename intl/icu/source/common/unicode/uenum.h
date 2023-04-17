@@ -14,6 +14,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -22,9 +25,6 @@ localpointer
 .
 h
 "
-#
-if
-U_SHOW_CPLUSPLUS_API
 U_NAMESPACE_BEGIN
 class
 StringEnumeration
@@ -40,7 +40,7 @@ struct
 UEnumeration
 UEnumeration
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uenum_close
@@ -64,7 +64,7 @@ uenum_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uenum_count
@@ -77,7 +77,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -95,7 +95,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -113,7 +113,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uenum_reset
@@ -129,7 +129,7 @@ status
 #
 if
 U_SHOW_CPLUSPLUS_API
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -148,7 +148,7 @@ ec
 ;
 #
 endif
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -168,7 +168,7 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2

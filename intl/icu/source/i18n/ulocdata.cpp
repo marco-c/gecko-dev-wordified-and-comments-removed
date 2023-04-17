@@ -612,7 +612,7 @@ return
 }
 delimiter
 =
-ures_getStringByKey
+ures_getStringByKeyWithFallback
 (
 delimiterBundle
 delimiterKeys

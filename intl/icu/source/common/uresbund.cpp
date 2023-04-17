@@ -8793,7 +8793,7 @@ return
 result
 ;
 }
-U_INTERNAL
+U_CAPI
 const
 UChar
 *
@@ -10962,7 +10962,7 @@ status
 )
 ;
 }
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -11647,7 +11647,7 @@ status
 )
 ;
 }
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 ures_openFillIn
@@ -11701,7 +11701,7 @@ status
 )
 ;
 }
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 ures_openDirectFillIn
@@ -11881,7 +11881,7 @@ return
 ;
 }
 }
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -15506,7 +15506,7 @@ status
 #
 if
 0
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 ures_equal
@@ -15824,7 +15824,7 @@ return
 TRUE
 ;
 }
-U_INTERNAL
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -15932,7 +15932,7 @@ return
 ret
 ;
 }
-U_INTERNAL
+U_CAPI
 const
 UResourceBundle
 *
@@ -15966,7 +15966,7 @@ fParentRes
 }
 #
 endif
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 ures_getVersionByKey

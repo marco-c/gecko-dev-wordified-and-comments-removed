@@ -258,8 +258,8 @@ uint32_t
 \
 NULL
 pStaticData
-FALSE
-FALSE
+false
+false
 pImpl
 \
 0
@@ -546,6 +546,7 @@ void
 U_EXPORT2
 ucnv_enableCleanup
 (
+void
 )
 ;
 #

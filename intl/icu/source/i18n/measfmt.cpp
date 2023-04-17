@@ -4326,6 +4326,13 @@ appendTo
 }
 if
 (
+fieldPositionFoundIndex
+!
+=
+-
+1
+&
+&
 offset
 !
 =

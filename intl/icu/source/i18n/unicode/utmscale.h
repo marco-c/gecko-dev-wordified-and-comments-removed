@@ -95,7 +95,7 @@ endif
 }
 UTimeScaleValue
 ;
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 utmscale_getTimeScaleValue
@@ -109,7 +109,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 utmscale_fromInt64
@@ -123,7 +123,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 utmscale_toInt64

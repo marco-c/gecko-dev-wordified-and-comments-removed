@@ -18,15 +18,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 uscript
 .
 h
@@ -40,6 +31,20 @@ udisplaycontext
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
 typedef
 enum
 {
@@ -62,7 +67,7 @@ ULocaleDisplayNames
 if
 !
 UCONFIG_NO_FORMATTING
-U_STABLE
+U_CAPI
 ULocaleDisplayNames
 *
 U_EXPORT2
@@ -79,7 +84,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uldn_close
@@ -103,7 +108,7 @@ uldn_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -116,7 +121,7 @@ ULocaleDisplayNames
 ldn
 )
 ;
-U_STABLE
+U_CAPI
 UDialectHandling
 U_EXPORT2
 uldn_getDialectHandling
@@ -127,7 +132,7 @@ ULocaleDisplayNames
 ldn
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_localeDisplayName
@@ -150,7 +155,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_languageDisplayName
@@ -173,7 +178,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_scriptDisplayName
@@ -196,7 +201,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_scriptCodeDisplayName
@@ -217,7 +222,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_regionDisplayName
@@ -240,7 +245,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_variantDisplayName
@@ -263,7 +268,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_keyDisplayName
@@ -286,7 +291,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_keyValueDisplayName
@@ -313,7 +318,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 ULocaleDisplayNames
 *
 U_EXPORT2
@@ -333,7 +338,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UDisplayContext
 U_EXPORT2
 uldn_getContext

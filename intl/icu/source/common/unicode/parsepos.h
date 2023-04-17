@@ -272,11 +272,11 @@ copy
 errorIndex
 )
 return
-FALSE
+false
 ;
 else
 return
-TRUE
+true
 ;
 }
 inline

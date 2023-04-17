@@ -32,6 +32,9 @@ uenum
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -40,6 +43,8 @@ localpointer
 .
 h
 "
+#
+endif
 typedef
 void
 *
@@ -143,7 +148,7 @@ endif
 }
 UDateTimePatternConflict
 ;
-U_STABLE
+U_CAPI
 UDateTimePatternGenerator
 *
 U_EXPORT2
@@ -158,7 +163,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UDateTimePatternGenerator
 *
 U_EXPORT2
@@ -169,7 +174,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udatpg_close
@@ -193,7 +198,7 @@ udatpg_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 UDateTimePatternGenerator
 *
 U_EXPORT2
@@ -208,7 +213,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_getBestPattern
@@ -232,7 +237,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_getBestPatternWithOptions
@@ -258,7 +263,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_getSkeleton
@@ -282,7 +287,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_getBaseSkeleton
@@ -306,7 +311,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UDateTimePatternConflict
 U_EXPORT2
 udatpg_addPattern
@@ -335,7 +340,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udatpg_setAppendItemFormat
@@ -353,7 +358,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -371,7 +376,7 @@ int32_t
 pLength
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udatpg_setAppendItemName
@@ -389,7 +394,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -407,7 +412,7 @@ int32_t
 pLength
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_getFieldDisplayName
@@ -430,7 +435,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udatpg_setDateTimeFormat
@@ -447,7 +452,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -463,7 +468,7 @@ int32_t
 pLength
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udatpg_setDecimal
@@ -479,7 +484,7 @@ int32_t
 length
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -495,7 +500,7 @@ int32_t
 pLength
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_replaceFieldTypes
@@ -525,7 +530,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_replaceFieldTypesWithOptions
@@ -557,7 +562,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -572,7 +577,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -587,7 +592,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -616,7 +621,7 @@ UCONFIG_NO_FORMATTING
 #
 ifndef
 U_HIDE_DRAFT_API
-U_DRAFT
+U_CAPI
 UDateFormatHourCycle
 U_EXPORT2
 udatpg_getDefaultHourCycle

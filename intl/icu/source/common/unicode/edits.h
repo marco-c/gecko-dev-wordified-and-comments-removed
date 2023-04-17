@@ -286,11 +286,11 @@ remaining
 )
 onlyChanges_
 (
-FALSE
+false
 )
 coarse
 (
-FALSE
+false
 )
 dir
 (
@@ -298,7 +298,7 @@ dir
 )
 changed
 (
-FALSE
+false
 )
 oldLength_
 (
@@ -375,7 +375,7 @@ return
 findIndex
 (
 i
-TRUE
+true
 errorCode
 )
 =
@@ -397,7 +397,7 @@ return
 findIndex
 (
 i
-FALSE
+false
 errorCode
 )
 =
@@ -616,8 +616,8 @@ Iterator
 (
 array
 length
-TRUE
-TRUE
+true
+true
 )
 ;
 }
@@ -632,8 +632,8 @@ Iterator
 (
 array
 length
-FALSE
-TRUE
+false
+true
 )
 ;
 }
@@ -648,8 +648,8 @@ Iterator
 (
 array
 length
-TRUE
-FALSE
+true
+false
 )
 ;
 }
@@ -664,8 +664,8 @@ Iterator
 (
 array
 length
-FALSE
-FALSE
+false
+false
 )
 ;
 }

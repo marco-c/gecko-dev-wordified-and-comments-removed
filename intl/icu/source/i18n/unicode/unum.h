@@ -22,15 +22,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 uloc
 .
 h
@@ -89,6 +80,20 @@ ufieldpositer
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
 typedef
 void
 *
@@ -262,7 +267,27 @@ endif
 }
 UNumberFormatFields
 ;
-U_STABLE
+#
+ifndef
+U_HIDE_DRAFT_API
+typedef
+enum
+UNumberFormatMinimumGroupingDigits
+{
+UNUM_MINIMUM_GROUPING_DIGITS_AUTO
+=
+-
+2
+UNUM_MINIMUM_GROUPING_DIGITS_MIN2
+=
+-
+3
+}
+UNumberFormatMinimumGroupingDigits
+;
+#
+endif
+U_CAPI
 UNumberFormat
 *
 U_EXPORT2
@@ -288,7 +313,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 unum_close
@@ -312,7 +337,7 @@ unum_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 UNumberFormat
 *
 U_EXPORT2
@@ -327,7 +352,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_format
@@ -351,7 +376,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_formatInt64
@@ -375,7 +400,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_formatDouble
@@ -399,7 +424,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_formatDoubleForFields
@@ -423,7 +448,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_formatDecimal
@@ -451,7 +476,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_formatDoubleCurrency
@@ -478,7 +503,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_formatUFormattable
@@ -504,7 +529,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_parse
@@ -527,7 +552,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 unum_parseInt64
@@ -550,7 +575,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 double
 U_EXPORT2
 unum_parseDouble
@@ -573,7 +598,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_parseDecimal
@@ -601,7 +626,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 double
 U_EXPORT2
 unum_parseDoubleCurrency
@@ -627,7 +652,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UFormattable
 *
 U_EXPORT2
@@ -654,7 +679,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 unum_applyPattern
@@ -678,7 +703,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -689,7 +714,7 @@ int32_t
 localeIndex
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_countAvailable
@@ -801,7 +826,7 @@ endif
 }
 UNumberFormatAttribute
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_getAttribute
@@ -814,7 +839,7 @@ UNumberFormatAttribute
 attr
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 unum_setAttribute
@@ -828,7 +853,7 @@ int32_t
 newValue
 )
 ;
-U_STABLE
+U_CAPI
 double
 U_EXPORT2
 unum_getDoubleAttribute
@@ -841,7 +866,7 @@ UNumberFormatAttribute
 attr
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 unum_setDoubleAttribute
@@ -870,7 +895,7 @@ UNUM_PUBLIC_RULESETS
 }
 UNumberFormatTextAttribute
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_getTextAttribute
@@ -891,7 +916,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 unum_setTextAttribute
@@ -912,7 +937,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_toPattern
@@ -1032,7 +1057,7 @@ endif
 }
 UNumberFormatSymbol
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unum_getSymbol
@@ -1053,7 +1078,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 unum_setSymbol
@@ -1074,7 +1099,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1092,7 +1117,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 unum_setContext
@@ -1107,7 +1132,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UDisplayContext
 U_EXPORT2
 unum_getContext

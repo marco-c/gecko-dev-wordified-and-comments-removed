@@ -3353,7 +3353,7 @@ endif
 endif
 U_NAMESPACE_END
 U_NAMESPACE_USE
-U_DRAFT
+U_CAPI
 UFormattable
 *
 U_EXPORT2
@@ -3411,7 +3411,7 @@ return
 fmt
 ;
 }
-U_DRAFT
+U_CAPI
 void
 U_EXPORT2
 ufmt_close
@@ -3437,7 +3437,7 @@ delete
 obj
 ;
 }
-U_INTERNAL
+U_CAPI
 UFormattableType
 U_EXPORT2
 ufmt_getType
@@ -3492,7 +3492,7 @@ getType
 )
 ;
 }
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 ufmt_isNumeric
@@ -3525,7 +3525,7 @@ isNumeric
 )
 ;
 }
-U_DRAFT
+U_CAPI
 UDate
 U_EXPORT2
 ufmt_getDate
@@ -3563,7 +3563,7 @@ status
 )
 ;
 }
-U_DRAFT
+U_CAPI
 double
 U_EXPORT2
 ufmt_getDouble
@@ -3599,7 +3599,7 @@ status
 )
 ;
 }
-U_DRAFT
+U_CAPI
 int32_t
 U_EXPORT2
 ufmt_getLong
@@ -3635,7 +3635,7 @@ status
 )
 ;
 }
-U_DRAFT
+U_CAPI
 const
 void
 *
@@ -3717,7 +3717,7 @@ return
 ret
 ;
 }
-U_DRAFT
+U_CAPI
 const
 UChar
 *
@@ -3828,7 +3828,7 @@ getTerminatedBuffer
 )
 ;
 }
-U_DRAFT
+U_CAPI
 int32_t
 U_EXPORT2
 ufmt_getArrayLength
@@ -3875,7 +3875,7 @@ return
 count
 ;
 }
-U_DRAFT
+U_CAPI
 UFormattable
 *
 U_EXPORT2
@@ -3974,7 +3974,7 @@ toUFormattable
 ;
 }
 }
-U_DRAFT
+U_CAPI
 const
 char
 *
@@ -4094,7 +4094,7 @@ data
 ;
 }
 }
-U_DRAFT
+U_CAPI
 int64_t
 U_EXPORT2
 ufmt_getInt64

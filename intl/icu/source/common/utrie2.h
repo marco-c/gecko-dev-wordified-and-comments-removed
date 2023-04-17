@@ -988,7 +988,7 @@ UTRIE2_DATA_START_OFFSET
 0xc0
 }
 ;
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 utrie2_internalU8NextIndex
@@ -1009,7 +1009,7 @@ uint8_t
 limit
 )
 ;
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 utrie2_internalU8PrevIndex

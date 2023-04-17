@@ -31,19 +31,24 @@ include
 "
 unicode
 /
-localpointer
+parseerr
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 #
 include
 "
 unicode
 /
-parseerr
+localpointer
 .
 h
 "
+#
+endif
 struct
 URegularExpression
 ;
@@ -91,7 +96,7 @@ UREGEX_ERROR_ON_UNKNOWN_ESCAPES
 }
 URegexpFlag
 ;
-U_STABLE
+U_CAPI
 URegularExpression
 *
 U_EXPORT2
@@ -113,7 +118,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 URegularExpression
 *
 U_EXPORT2
@@ -136,7 +141,7 @@ status
 if
 !
 UCONFIG_NO_CONVERSION
-U_STABLE
+U_CAPI
 URegularExpression
 *
 U_EXPORT2
@@ -158,7 +163,7 @@ status
 ;
 #
 endif
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_close
@@ -182,7 +187,7 @@ uregex_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 URegularExpression
 *
 U_EXPORT2
@@ -197,7 +202,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -216,7 +221,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -231,7 +236,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_flags
@@ -245,7 +250,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setText
@@ -264,7 +269,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setUText
@@ -280,7 +285,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -298,7 +303,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -315,7 +320,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_refreshUText
@@ -331,7 +336,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_matches
@@ -346,7 +351,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_matches64
@@ -361,7 +366,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_lookingAt
@@ -376,7 +381,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_lookingAt64
@@ -391,7 +396,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_find
@@ -406,7 +411,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_find64
@@ -421,7 +426,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_findNext
@@ -434,7 +439,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_groupCount
@@ -447,7 +452,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_groupNumberFromName
@@ -466,7 +471,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_groupNumberFromCName
@@ -485,7 +490,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_group
@@ -505,7 +510,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -527,7 +532,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_start
@@ -542,7 +547,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 uregex_start64
@@ -557,7 +562,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_end
@@ -572,7 +577,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 uregex_end64
@@ -587,7 +592,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_reset
@@ -602,7 +607,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_reset64
@@ -617,7 +622,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setRegion
@@ -634,7 +639,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setRegion64
@@ -651,7 +656,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setRegionAndStart
@@ -670,7 +675,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_regionStart
@@ -684,7 +689,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 uregex_regionStart64
@@ -698,7 +703,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_regionEnd
@@ -712,7 +717,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 uregex_regionEnd64
@@ -726,7 +731,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_hasTransparentBounds
@@ -740,7 +745,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_useTransparentBounds
@@ -755,7 +760,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_hasAnchoringBounds
@@ -769,7 +774,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_useAnchoringBounds
@@ -784,7 +789,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_hitEnd
@@ -798,7 +803,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_requireEnd
@@ -812,7 +817,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_replaceAll
@@ -836,7 +841,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -856,7 +861,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_replaceFirst
@@ -880,7 +885,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -900,7 +905,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_appendReplacement
@@ -926,7 +931,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_appendReplacementUText
@@ -945,7 +950,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_appendTail
@@ -965,7 +970,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -982,7 +987,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_split
@@ -1010,7 +1015,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_splitUText
@@ -1030,7 +1035,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setTimeLimit
@@ -1045,7 +1050,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_getTimeLimit
@@ -1059,7 +1064,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setStackLimit
@@ -1074,7 +1079,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_getStackLimit
@@ -1103,7 +1108,7 @@ steps
 )
 ;
 U_CDECL_END
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setMatchCallback
@@ -1123,7 +1128,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_getMatchCallback
@@ -1161,7 +1166,7 @@ matchIndex
 )
 ;
 U_CDECL_END
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setFindProgressCallback
@@ -1181,7 +1186,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_getFindProgressCallback
