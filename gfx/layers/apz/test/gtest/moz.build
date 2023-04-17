@@ -13,11 +13,6 @@ APZTestCommon
 cpp
 "
 "
-InternalHitTester
-.
-cpp
-"
-"
 MockHitTester
 .
 cpp

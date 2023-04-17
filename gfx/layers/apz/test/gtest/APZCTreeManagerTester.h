@@ -28,13 +28,6 @@ h
 #
 include
 "
-InternalHitTester
-.
-h
-"
-#
-include
-"
 MockHitTester
 .
 h
