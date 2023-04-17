@@ -4954,15 +4954,6 @@ nsINode
 aNode
 )
 ;
-nsINode
-*
-GetFirstEditableNode
-(
-nsINode
-*
-aRoot
-)
-;
 bool
 ShouldHandleIMEComposition
 (
