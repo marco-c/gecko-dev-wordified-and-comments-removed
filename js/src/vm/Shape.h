@@ -3933,6 +3933,13 @@ gc
 :
 RelocationOverlay
 ;
+friend
+class
+js
+:
+:
+ShapeTable
+;
 public
 :
 BaseShape
@@ -5627,6 +5634,8 @@ count
 )
 ;
 }
+private
+:
 const
 GCPtrId
 &
@@ -5688,6 +5697,8 @@ propid
 )
 ;
 }
+public
+:
 ShapeProperty
 property
 (
