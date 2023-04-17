@@ -137,6 +137,10 @@ mozilla
 class
 DOMEventTargetHelper
 ;
+enum
+class
+StorageAccess
+;
 namespace
 dom
 {
@@ -549,6 +553,15 @@ dom
 ServiceWorkerRegistrationDescriptor
 &
 aDescriptor
+)
+;
+virtual
+mozilla
+:
+:
+StorageAccess
+GetStorageAccess
+(
 )
 ;
 nsPIDOMWindowInner

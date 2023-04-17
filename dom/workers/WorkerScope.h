@@ -399,6 +399,12 @@ IsSharedMemoryAllowed
 const
 final
 ;
+StorageAccess
+GetStorageAccess
+(
+)
+final
+;
 Maybe
 <
 ClientInfo
