@@ -126,9 +126,10 @@ mozIExtensionEventListener
 nsISupports
 {
 [
+implicit_jscontext
 can_run_script
 ]
-void
+Promise
 callListener
 (
 in
