@@ -998,6 +998,15 @@ aPrincipal
 IsSystemPrincipal
 (
 )
+|
+|
+nsContentUtils
+:
+:
+IsExpandedPrincipal
+(
+aPrincipal
+)
 )
 {
 files
