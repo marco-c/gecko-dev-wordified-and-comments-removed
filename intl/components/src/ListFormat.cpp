@@ -16,13 +16,6 @@ ScopedICUObject
 .
 h
 "
-#
-include
-"
-ScopedICUObject
-.
-h
-"
 namespace
 mozilla
 :
