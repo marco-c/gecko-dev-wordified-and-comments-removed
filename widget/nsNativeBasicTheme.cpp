@@ -1824,7 +1824,7 @@ NS_EVENT_STATE_DISABLED
 )
 {
 return
-sColorWhiteAlpha50
+sColorWhiteAlpha80
 ;
 }
 return
