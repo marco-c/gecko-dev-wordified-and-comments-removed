@@ -15311,9 +15311,6 @@ manager
 .
 up_to_date
 (
-sys
-.
-executable
 )
 and
 not
@@ -15345,9 +15342,6 @@ manager
 .
 build
 (
-sys
-.
-executable
 )
         
 print
