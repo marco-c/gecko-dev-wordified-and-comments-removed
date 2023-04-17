@@ -1579,6 +1579,16 @@ web
 platform
 -
 tests
+-
+web
+-
+platform
+-
+tests
+-
+wdspec
+-
+headless
 windows10
 -
 64
