@@ -237,6 +237,10 @@ const
 bool
 mHasReturnValue
 ;
+const
+bool
+mLazilyParse
+;
 }
 ;
 }
