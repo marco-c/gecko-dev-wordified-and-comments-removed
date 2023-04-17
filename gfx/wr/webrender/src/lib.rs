@@ -348,10 +348,6 @@ rectangle_occlusion
 ;
 pub
 mod
-host_utils
-;
-pub
-mod
 intern
 ;
 pub

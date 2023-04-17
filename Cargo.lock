@@ -33044,6 +33044,11 @@ types
 fxhash
 "
 "
+gecko
+-
+profiler
+"
+"
 gleam
 "
 "
