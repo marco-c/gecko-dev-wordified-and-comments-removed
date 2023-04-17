@@ -44,6 +44,12 @@ index
 navigation
 /
 index
+scriptSecurity
+/
+index
+scriptSecurity
+/
+xray_vision
 workersAndStorage
 /
 index
