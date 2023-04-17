@@ -268,6 +268,11 @@ RemoteType
 h
 "
 "
+RemoteWebProgress
+.
+h
+"
+"
 RemoteWebProgressRequest
 .
 h
@@ -501,6 +506,11 @@ cpp
 "
 "
 RemoteBrowser
+.
+cpp
+"
+"
+RemoteWebProgress
 .
 cpp
 "
