@@ -7223,15 +7223,7 @@ IsActive
 (
 )
 const
-{
-return
-mDocumentContainer
-&
-&
-!
-mRemovedFromDocShell
 ;
-}
 bool
 IsCurrentActiveDocument
 (
@@ -7351,6 +7343,11 @@ EnumerateActivityObservers
 (
 ActivityObserverEnumerator
 aEnumerator
+)
+;
+void
+NotifyActivityChanged
+(
 )
 ;
 bool

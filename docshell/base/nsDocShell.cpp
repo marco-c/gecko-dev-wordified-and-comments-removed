@@ -6204,6 +6204,13 @@ if
 doc
 )
 {
+doc
+-
+>
+NotifyActivityChanged
+(
+)
+;
 RefPtr
 <
 nsGlobalWindowInner
