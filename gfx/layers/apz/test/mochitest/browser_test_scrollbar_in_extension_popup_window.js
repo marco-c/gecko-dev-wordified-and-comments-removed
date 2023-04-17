@@ -389,15 +389,14 @@ async
 =
 >
 {
-await
+return
 SpecialPowers
 .
-snapshotWindow
+snapshotWindowWithOptions
 (
 content
 .
 window
-false
 undefined
 undefined
 {
