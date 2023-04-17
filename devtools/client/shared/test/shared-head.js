@@ -4687,7 +4687,7 @@ browser
 function
 waitForNextResource
 (
-resourceWatcher
+resourceCommand
 resourceType
 {
 ignoreExistingResources
@@ -4755,7 +4755,7 @@ resolve
 matchingResource
 )
 ;
-resourceWatcher
+resourceCommand
 .
 unwatchResources
 (
@@ -4770,7 +4770,7 @@ onAvailable
 }
 }
 ;
-resourceWatcher
+resourceCommand
 .
 watchResources
 (

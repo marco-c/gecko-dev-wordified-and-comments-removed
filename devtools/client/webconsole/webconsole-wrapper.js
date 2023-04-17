@@ -496,13 +496,13 @@ data
 )
 }
 webConsoleFront
-resourceWatcher
+resourceCommand
 :
 this
 .
 hud
 .
-resourceWatcher
+resourceCommand
 }
 )
 ;

@@ -4,9 +4,7 @@ strict
 "
 ;
 const
-{
-ResourceWatcher
-}
+ResourceCommand
 =
 require
 (
@@ -15,11 +13,13 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 resource
 -
-watcher
+command
 "
 )
 ;
@@ -155,7 +155,7 @@ packet
 .
 resourceType
 =
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .

@@ -4,9 +4,7 @@ strict
 "
 ;
 const
-{
-ResourceWatcher
-}
+ResourceCommand
 =
 require
 (
@@ -15,11 +13,13 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 resource
 -
-watcher
+command
 "
 )
 ;
@@ -59,12 +59,12 @@ TEST_URI
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -75,7 +75,7 @@ CONSOLE_MESSAGE
 ROOT_NODE
 }
 =
-ResourceWatcher
+resourceCommand
 .
 TYPES
 ;
@@ -132,7 +132,7 @@ messages1
 const
 onWatcher1Ready
 =
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -146,7 +146,7 @@ onAvailable1
 }
 )
 ;
-resourceWatcher
+resourceCommand
 .
 unwatchResources
 (
@@ -177,7 +177,7 @@ messages2
 const
 onWatcher2Ready
 =
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -192,7 +192,7 @@ onAvailable2
 }
 )
 ;
-resourceWatcher
+resourceCommand
 .
 unwatchResources
 (
@@ -223,7 +223,7 @@ messages3
 const
 onWatcher3Ready
 =
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -538,7 +538,7 @@ const
 CONSOLE_MESSAGE
 }
 =
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 ;

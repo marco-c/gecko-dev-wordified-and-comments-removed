@@ -3280,10 +3280,10 @@ waitForNextResource
 (
 toolbox
 .
-resourceWatcher
+resourceCommand
 toolbox
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
