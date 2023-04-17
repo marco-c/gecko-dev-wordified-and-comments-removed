@@ -35,12 +35,8 @@ mozbuild
 .
 util
 import
-(
-    
 memoized_property
-    
 ReadOnlyNamespace
-)
 from
 mozpack
 import
@@ -54,12 +50,8 @@ string_types
 from
 buildconfig
 import
-(
-    
 topobjdir
-    
 topsrcdir
-)
 def
 fake_short_path
 (
@@ -1019,19 +1011,15 @@ wintypes
 =
 ReadOnlyNamespace
 (
-                
 LPCWSTR
 =
 0
-                
 LPWSTR
 =
 1
-                
 DWORD
 =
 2
-            
 )
         
 )
@@ -1064,15 +1052,12 @@ WindowsError
 return
 ReadOnlyNamespace
 (
-            
 HKEY_LOCAL_MACHINE
 =
 0
-            
 OpenKey
 =
 OpenKey
-        
 )
     
 def
@@ -1847,6 +1832,12 @@ configure
 MOZCONFIG
 =
 mozconfig_path
+                
+MOZ_TEST_PYTHON
+=
+sys
+.
+executable
             
 )
             
