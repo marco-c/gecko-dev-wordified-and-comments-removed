@@ -86,7 +86,9 @@ IPCStream
 namespace
 mozilla
 {
-refcounted
+[
+RefCounted
+]
 protocol
 PRemoteLazyInputStream
 {

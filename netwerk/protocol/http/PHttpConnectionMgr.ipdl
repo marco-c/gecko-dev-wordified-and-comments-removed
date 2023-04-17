@@ -19,8 +19,10 @@ mozilla
 namespace
 net
 {
+[
+RefCounted
+]
 async
-refcounted
 protocol
 PHttpConnectionMgr
 {

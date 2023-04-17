@@ -110,8 +110,10 @@ preferredAction
 ;
 }
 ;
+[
+RefCounted
+]
 sync
-refcounted
 protocol
 PHandlerService
 {

@@ -149,8 +149,10 @@ DeleteDatabaseRequestParams
 ;
 }
 ;
+[
+RefCounted
+]
 sync
-refcounted
 protocol
 PBackgroundIDBFactory
 {

@@ -128,7 +128,9 @@ dom
 namespace
 indexedDB
 {
-refcounted
+[
+RefCounted
+]
 protocol
 PBackgroundIDBVersionChangeTransaction
 {

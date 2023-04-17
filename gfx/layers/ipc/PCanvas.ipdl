@@ -72,8 +72,10 @@ mozilla
 namespace
 layers
 {
+[
+RefCounted
+]
 async
-refcounted
 protocol
 PCanvas
 {

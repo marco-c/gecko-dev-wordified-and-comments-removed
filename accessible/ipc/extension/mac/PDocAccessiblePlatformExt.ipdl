@@ -100,11 +100,11 @@ TextAttributes
 ;
 }
 ;
-nested
-(
-upto
+[
+NestedUpTo
+=
 inside_sync
-)
+]
 sync
 protocol
 PDocAccessiblePlatformExt

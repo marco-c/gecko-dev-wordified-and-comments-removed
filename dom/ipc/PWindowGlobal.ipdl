@@ -357,8 +357,10 @@ url
 ;
 }
 ;
+[
+RefCounted
+]
 async
-refcounted
 protocol
 PWindowGlobal
 {

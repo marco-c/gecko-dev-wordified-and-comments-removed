@@ -25,8 +25,10 @@ mozilla
 namespace
 gmp
 {
+[
+RefCounted
+]
 sync
-refcounted
 protocol
 PGMPService
 {

@@ -36,8 +36,10 @@ mozilla
 namespace
 ipc
 {
+[
+RefCounted
+]
 async
-refcounted
 protocol
 PIdleScheduler
 {

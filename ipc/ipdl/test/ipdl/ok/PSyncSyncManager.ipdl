@@ -42,11 +42,11 @@ case
 .
 *
 /
-nested
-(
-upto
+[
+NestedUpTo
+=
 not
-)
+]
 sync
 protocol
 PSyncSyncManager

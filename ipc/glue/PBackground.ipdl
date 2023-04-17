@@ -382,8 +382,10 @@ mozilla
 namespace
 ipc
 {
+[
+RefCounted
+]
 sync
-refcounted
 protocol
 PBackground
 {

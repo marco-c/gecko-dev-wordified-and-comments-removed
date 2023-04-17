@@ -539,8 +539,10 @@ url
 ;
 }
 ;
+[
+RefCounted
+]
 sync
-refcounted
 protocol
 PCompositorBridge
 {

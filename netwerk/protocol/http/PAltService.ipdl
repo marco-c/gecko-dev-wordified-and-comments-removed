@@ -27,7 +27,9 @@ mozilla
 namespace
 net
 {
-refcounted
+[
+RefCounted
+]
 protocol
 PAltService
 {

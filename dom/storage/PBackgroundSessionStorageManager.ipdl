@@ -70,8 +70,10 @@ mozilla
 namespace
 dom
 {
+[
+RefCounted
+]
 sync
-refcounted
 protocol
 PBackgroundSessionStorageManager
 {

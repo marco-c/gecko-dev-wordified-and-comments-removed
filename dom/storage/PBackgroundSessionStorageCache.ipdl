@@ -136,8 +136,10 @@ data
 ;
 }
 ;
+[
+RefCounted
+]
 sync
-refcounted
 protocol
 PBackgroundSessionStorageCache
 {

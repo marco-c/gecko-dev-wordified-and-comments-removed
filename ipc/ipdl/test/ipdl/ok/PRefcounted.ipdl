@@ -1,5 +1,7 @@
+[
+RefCounted
+]
 async
-refcounted
 protocol
 PRefcounted
 {

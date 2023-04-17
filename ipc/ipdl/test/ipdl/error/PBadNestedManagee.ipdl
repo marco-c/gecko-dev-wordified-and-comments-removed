@@ -20,11 +20,11 @@ include
 protocol
 PBadNestedManager
 ;
-nested
-(
-upto
+[
+NestedUpTo
+=
 inside_sync
-)
+]
 async
 protocol
 PBadNestedManagee

@@ -81,7 +81,9 @@ mozilla
 namespace
 dom
 {
-refcounted
+[
+RefCounted
+]
 protocol
 PServiceWorkerRegistration
 {
