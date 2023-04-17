@@ -105,6 +105,15 @@ use
 std
 :
 :
+ffi
+:
+:
+CStr
+;
+use
+std
+:
+:
 ops
 :
 :
@@ -8171,7 +8180,7 @@ self
 label
 :
 &
-str
+CStr
 )
 ;
 fn
@@ -8182,7 +8191,7 @@ self
 label
 :
 &
-str
+CStr
 )
 ;
 fn
@@ -8193,7 +8202,7 @@ self
 label
 :
 &
-str
+CStr
 )
 ;
 fn
@@ -8204,7 +8213,7 @@ self
 label
 :
 &
-str
+CStr
 text
 :
 &
@@ -8281,7 +8290,7 @@ name
 &
 '
 static
-str
+CStr
 }
 pub
 fn
@@ -8349,7 +8358,7 @@ add_text_marker
 label
 :
 &
-str
+CStr
 text
 :
 &
@@ -8390,7 +8399,7 @@ add_event_marker
 label
 :
 &
-str
+CStr
 )
 {
 unsafe
@@ -8454,7 +8463,7 @@ name
 &
 '
 static
-str
+CStr
 )
 -
 >
@@ -8551,7 +8560,11 @@ ProfileScope
 :
 new
 (
+cstr
+!
+(
 string
+)
 )
 ;
 }
