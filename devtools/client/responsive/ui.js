@@ -2395,7 +2395,12 @@ device
 changed
 "
 {
+reloadTriggered
+:
 reloadNeeded
+|
+|
+reloadOnTouchSimulationChange
 }
 )
 ;
@@ -2690,7 +2695,12 @@ association
 removed
 "
 {
+reloadTriggered
+:
 reloadNeeded
+|
+|
+reloadOnTouchSimulationChange
 }
 )
 ;
