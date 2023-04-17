@@ -4071,13 +4071,6 @@ Error
 .
 BLOCK_VERDICT_INSECURE
 :
-case
-Downloads
-.
-Error
-.
-BLOCK_VERDICT_DOWNLOAD_SPAM
-:
 if
 (
 this

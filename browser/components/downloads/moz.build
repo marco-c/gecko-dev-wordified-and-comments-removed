@@ -51,11 +51,6 @@ DownloadsCommon
 jsm
 "
 "
-DownloadSpamProtection
-.
-jsm
-"
-"
 DownloadsTaskbar
 .
 jsm
