@@ -46924,6 +46924,17 @@ loc
 isSynthetic
 (
 )
+|
+|
+noe
+.
+loc
+(
+)
+.
+isPrivateMethod
+(
+)
 )
 ;
 MOZ_ASSERT

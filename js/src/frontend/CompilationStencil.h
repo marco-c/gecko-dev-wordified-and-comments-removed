@@ -345,6 +345,7 @@ Let
 Const
 CatchParameter
 Synthetic
+PrivateMethod
 }
 ;
 using

@@ -299,6 +299,18 @@ return
 synthetic
 "
 ;
+case
+BindingKind
+:
+:
+PrivateMethod
+:
+return
+"
+private
+method
+"
+;
 }
 MOZ_CRASH
 (
@@ -10181,6 +10193,9 @@ init
 data
 .
 length
+data
+.
+length
 CanHaveEnvironmentSlots
 |
 flags
@@ -10212,6 +10227,9 @@ init
 slotInfo
 .
 constStart
+data
+.
+length
 data
 .
 length
@@ -10329,12 +10347,11 @@ init
 0
 0
 0
+0
+0
 slotInfo
 .
-constStart
-data
-.
-length
+privateMethodStart
 CanHaveFrameSlots
 |
 CanHaveEnvironmentSlots
@@ -10481,6 +10498,7 @@ varStart
 length
 length
 length
+length
 flags
 0
 JSSLOT_FREE
@@ -10586,6 +10604,7 @@ init
 0
 0
 0
+length
 length
 length
 length
@@ -10701,6 +10720,9 @@ letStart
 slotInfo
 .
 constStart
+data
+.
+length
 data
 .
 length
@@ -10854,6 +10876,7 @@ init
 length
 length
 length
+length
 flags
 firstFrameSlot
 firstEnvironmentSlot
@@ -10966,6 +10989,9 @@ constStart
 data
 .
 length
+data
+.
+length
 CanHaveFrameSlots
 |
 CanHaveEnvironmentSlots
@@ -11072,6 +11098,7 @@ init
 length
 length
 length
+length
 CanHaveFrameSlots
 |
 CanHaveEnvironmentSlots
@@ -11168,6 +11195,7 @@ init
 0
 0
 0
+length
 length
 length
 length
