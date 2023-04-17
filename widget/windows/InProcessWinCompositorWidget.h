@@ -14,6 +14,9 @@ h
 class
 nsWindow
 ;
+class
+gfxASurface
+;
 namespace
 mozilla
 {

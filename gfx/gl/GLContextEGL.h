@@ -30,9 +30,6 @@ include
 <
 memory
 >
-class
-gfxASurface
-;
 namespace
 mozilla
 {
@@ -413,14 +410,6 @@ out
 const
 override
 ;
-void
-HoldSurface
-(
-gfxASurface
-*
-aSurf
-)
-;
 EGLSurface
 GetEGLSurface
 (
@@ -615,12 +604,6 @@ EGLSurface
 mSurfaceOverride
 =
 EGL_NO_SURFACE
-;
-RefPtr
-<
-gfxASurface
->
-mThebesSurface
 ;
 bool
 mBound

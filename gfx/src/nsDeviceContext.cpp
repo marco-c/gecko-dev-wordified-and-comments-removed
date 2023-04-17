@@ -13,13 +13,6 @@ algorithm
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h
