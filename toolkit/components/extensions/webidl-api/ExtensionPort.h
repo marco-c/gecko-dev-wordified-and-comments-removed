@@ -69,6 +69,8 @@ nsISupports
 public
 nsWrapperCache
 public
+SupportsWeakPtr
+public
 ExtensionAPIBase
 {
 nsCOMPtr
@@ -104,6 +106,15 @@ ExtensionPortDescriptor
 >
 mPortDescriptor
 ;
+RefPtr
+<
+dom
+:
+:
+Function
+>
+mCallback
+;
 ~
 ExtensionPort
 (
@@ -129,6 +140,11 @@ ExtensionPortDescriptor
 &
 &
 aPortDescriptor
+)
+;
+void
+ForgetReleasedPort
+(
 )
 ;
 protected
