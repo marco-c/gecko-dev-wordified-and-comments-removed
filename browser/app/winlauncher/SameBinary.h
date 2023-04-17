@@ -429,6 +429,12 @@ err
 =
 =
 ERROR_INVALID_PARAMETER
+|
+|
+err
+=
+=
+ERROR_ACCESS_DENIED
 )
 {
 return
