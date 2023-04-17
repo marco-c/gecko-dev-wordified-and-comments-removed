@@ -117,6 +117,7 @@ public
 enum
 Slots
 {
+Slot_ISupports
 Slot_Controller
 Slot_Writer
 Slot_State

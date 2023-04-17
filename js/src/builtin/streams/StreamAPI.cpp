@@ -2003,7 +2003,7 @@ streamObj
 JS
 :
 :
-SetPrivate
+SetObjectISupports
 (
 streamObj
 nullptr
