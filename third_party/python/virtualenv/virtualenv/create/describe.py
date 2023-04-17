@@ -156,18 +156,15 @@ self
 .
 dest
 /
-Path
-(
 self
 .
 interpreter
 .
-distutils_install
-[
+install_path
+(
 "
 scripts
 "
-]
 )
     
 property
@@ -188,12 +185,12 @@ self
 .
 interpreter
 .
-distutils_install
-[
+install_path
+(
 "
 purelib
 "
-]
+)
     
 property
     
@@ -213,12 +210,12 @@ self
 .
 interpreter
 .
-distutils_install
-[
+install_path
+(
 "
 platlib
 "
-]
+)
     
 property
     
