@@ -24,11 +24,15 @@ h
 "
 #
 include
-<
-objbase
+"
+mozilla
+/
+mscom
+/
+COMWrappers
 .
 h
->
+"
 namespace
 mozilla
 {
@@ -62,6 +66,7 @@ aAptType
 :
 mInitResult
 (
+wrapped
 :
 :
 CoInitializeEx
@@ -91,6 +96,7 @@ IsValid
 )
 )
 {
+wrapped
 :
 :
 CoUninitialize
@@ -155,6 +161,7 @@ CO_E_NOTINITIALIZED
 ;
 mInitResult
 =
+wrapped
 :
 :
 CoInitializeEx

@@ -334,6 +334,16 @@ ipc
 /
 mscom
 /
+COMWrappers
+.
+cpp
+"
+"
+/
+ipc
+/
+mscom
+/
 ProcessRuntime
 .
 cpp
