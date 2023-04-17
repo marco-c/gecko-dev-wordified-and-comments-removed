@@ -9746,6 +9746,17 @@ center
 ;
 }
 toolbarpaletteitem
+:
+not
+(
+[
+place
+=
+"
+palette
+"
+]
+)
 >
 #
 stop
