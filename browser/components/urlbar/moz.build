@@ -121,11 +121,6 @@ UrlbarPrefs
 jsm
 "
 "
-UrlbarProviderAboutPages
-.
-jsm
-"
-"
 UrlbarProviderAutofill
 .
 jsm
