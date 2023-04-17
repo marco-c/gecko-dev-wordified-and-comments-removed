@@ -654,6 +654,15 @@ AllocKind
 LIMIT
 )
 ;
+enum
+InitialHeap
+:
+uint8_t
+{
+DefaultHeap
+TenuredHeap
+}
+;
 inline
 bool
 IsAllocKind
