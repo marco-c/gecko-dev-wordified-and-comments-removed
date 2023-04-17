@@ -118,6 +118,8 @@ pkg
 -
 config
 \
+sqlite3
+\
 zlib1g
 -
 dev

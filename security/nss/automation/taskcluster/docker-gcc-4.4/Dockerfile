@@ -75,6 +75,8 @@ patch
 \
 mercurial
 \
+sqlite3
+\
 zlib1g
 -
 dev

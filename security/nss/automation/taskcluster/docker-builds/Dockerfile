@@ -219,6 +219,8 @@ format
 .
 9
 \
+sqlite3
+\
 &
 &
 rm
