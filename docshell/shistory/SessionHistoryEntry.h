@@ -965,7 +965,7 @@ mOffset
 0
 ;
 bool
-mLoadingCurrentEntry
+mLoadingCurrentActiveEntry
 =
 false
 ;

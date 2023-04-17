@@ -6693,7 +6693,6 @@ loadType
 HIST_CMD_RELOAD
 aLoadResults
 false
-true
 aReloadFlags
 &
 nsIWebNavigation
@@ -6789,9 +6788,6 @@ mIndex
 LOAD_HISTORY
 HIST_CMD_RELOAD
 aLoadResults
-false
-true
-false
 )
 ;
 }
@@ -9175,10 +9171,6 @@ GotoIndex
 aIndex
 loadResults
 false
-aIndex
-=
-=
-mIndex
 aUserActivation
 )
 ;
@@ -9268,8 +9260,6 @@ aLoadResults
 bool
 aSameEpoch
 bool
-aLoadCurrentEntry
-bool
 aUserActivation
 )
 {
@@ -9281,7 +9271,6 @@ LOAD_HISTORY
 HIST_CMD_GOTOINDEX
 aLoadResults
 aSameEpoch
-aLoadCurrentEntry
 aUserActivation
 )
 ;
@@ -9352,8 +9341,6 @@ LoadEntryResult
 &
 aLoadResults
 bool
-aLoadCurrentEntry
-bool
 aUserActivation
 )
 {
@@ -9379,7 +9366,6 @@ aLoadType
 aHistCmd
 aLoadResults
 false
-aLoadCurrentEntry
 aUserActivation
 )
 ;
@@ -9401,7 +9387,6 @@ aLoadType
 aHistCmd
 aLoadResults
 false
-aLoadCurrentEntry
 aUserActivation
 )
 ;
@@ -9430,8 +9415,6 @@ LoadEntryResult
 aLoadResults
 bool
 aSameEpoch
-bool
-aLoadCurrentEntry
 bool
 aUserActivation
 )
@@ -9727,7 +9710,6 @@ nextEntry
 mRootBC
 aLoadType
 aLoadResults
-aLoadCurrentEntry
 aUserActivation
 requestedOffset
 )
@@ -9746,7 +9728,6 @@ nextEntry
 mRootBC
 aLoadType
 aLoadResults
-aLoadCurrentEntry
 aUserActivation
 requestedOffset
 )
@@ -9768,7 +9749,6 @@ aIndex
 aLoadType
 aHistCmd
 aLoadResults
-aLoadCurrentEntry
 aUserActivation
 )
 ;
@@ -9800,8 +9780,6 @@ LoadEntryResult
 >
 &
 aLoadResults
-bool
-aLoadCurrentEntry
 bool
 aUserActivation
 int32_t
@@ -9864,7 +9842,6 @@ aNextEntry
 aParent
 aLoadType
 aLoadResults
-aLoadCurrentEntry
 aUserActivation
 aOffset
 )
@@ -10109,7 +10086,6 @@ nChild
 bcChild
 aLoadType
 aLoadResults
-aLoadCurrentEntry
 aUserActivation
 aOffset
 )
@@ -10145,8 +10121,6 @@ LoadEntryResult
 >
 &
 aLoadResults
-bool
-aLoadCurrentEntry
 bool
 aUserActivation
 int32_t
@@ -10236,7 +10210,7 @@ aFrameEntry
 )
 ;
 bool
-loadingCurrentEntry
+loadingFromActiveEntry
 ;
 if
 (
@@ -10248,14 +10222,27 @@ SessionHistoryInParent
 )
 )
 {
-loadingCurrentEntry
+loadingFromActiveEntry
 =
-aLoadCurrentEntry
+aFrameBC
+-
+>
+Canonical
+(
+)
+-
+>
+GetActiveSessionHistoryEntry
+(
+)
+=
+=
+aFrameEntry
 ;
 }
 else
 {
-loadingCurrentEntry
+loadingFromActiveEntry
 =
 aFrameBC
 -
@@ -10291,7 +10278,7 @@ loadState
 SetLoadIsFromSessionHistory
 (
 aOffset
-loadingCurrentEntry
+loadingFromActiveEntry
 )
 ;
 if
