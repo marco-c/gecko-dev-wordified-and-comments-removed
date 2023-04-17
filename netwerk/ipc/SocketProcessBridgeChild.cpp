@@ -39,6 +39,17 @@ include
 "
 mozilla
 /
+ipc
+/
+Endpoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 NeckoChild
