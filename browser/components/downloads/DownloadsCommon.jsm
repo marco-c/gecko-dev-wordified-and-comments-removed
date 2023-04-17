@@ -407,6 +407,9 @@ aspx
 avi
 "
 "
+avif
+"
+"
 bat
 "
 "
