@@ -500,17 +500,6 @@ Shareable
 :
 False
 ;
-features
-.
-hugeMemory
-=
-wasm
-:
-:
-IsHugeMemoryEnabled
-(
-)
-;
 bool
 wormholeOverride
 =

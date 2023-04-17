@@ -119,6 +119,10 @@ void
 *
 MapBufferMemory
 (
+wasm
+:
+:
+IndexType
 size_t
 mappedSize
 size_t
@@ -150,6 +154,11 @@ newMappedSize
 void
 UnmapBufferMemory
 (
+wasm
+:
+:
+IndexType
+t
 void
 *
 dataStart
