@@ -156,12 +156,6 @@ success
 ;
 FILE
 *
-openFile
-(
-)
-;
-FILE
-*
 openTmp
 (
 )
