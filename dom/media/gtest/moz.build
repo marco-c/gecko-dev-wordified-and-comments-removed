@@ -198,6 +198,11 @@ TestMediaMIMETypes
 cpp
 "
 "
+TestMediaQueue
+.
+cpp
+"
+"
 TestMediaSpan
 .
 cpp
