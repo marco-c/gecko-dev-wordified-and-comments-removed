@@ -507,17 +507,6 @@ Downloads
 <
 !
 ENTITY
-webDeveloperMenu
-.
-label
-"
-Web
-Developer
-"
->
-<
-!
-ENTITY
 newNavigatorCmd
 .
 label

@@ -64,9 +64,6 @@ appMenu
 backForward
 "
 "
-devtools
-"
-"
 help
 "
 "
