@@ -619,6 +619,14 @@ false
 ]
 [
 "
+dom
+.
+successive_dialog_time_limit
+"
+0
+]
+[
+"
 extensions
 .
 autoDisableScopes
