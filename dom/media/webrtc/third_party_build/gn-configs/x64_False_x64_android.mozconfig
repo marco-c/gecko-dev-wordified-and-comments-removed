@@ -162,6 +162,12 @@ ac_add_options
 target
 =
 x86_64
+ac_add_options
+-
+-
+enable
+-
+bootstrap
 mk_add_options
 MOZ_OBJDIR
 =
