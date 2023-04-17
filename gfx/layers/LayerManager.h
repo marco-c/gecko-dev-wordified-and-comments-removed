@@ -331,9 +331,6 @@ class
 WebRenderLayerManager
 ;
 struct
-LayerPolygon
-;
-struct
 AnimData
 ;
 namespace
