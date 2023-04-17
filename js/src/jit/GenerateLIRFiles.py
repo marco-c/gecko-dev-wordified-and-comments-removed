@@ -488,6 +488,7 @@ gen_lir_class
 name
 result_type
 operands
+num_temps
 call_instruction
 mir_op
 )
@@ -517,12 +518,12 @@ L
 +
 name
     
-oper_getters
+getters
 =
 [
 ]
     
-oper_setters
+setters
 =
 [
 ]
@@ -532,7 +533,7 @@ oper_indices
 [
 ]
     
-constructor_opers
+constructor_params
 =
 [
 ]
@@ -600,7 +601,7 @@ operand_types
 op_type
 ]
             
-constructor_opers
+constructor_params
 .
 append
 (
@@ -638,7 +639,7 @@ current_reg_oper
 =
 1
                 
-oper_getters
+getters
 .
 append
 (
@@ -680,11 +681,10 @@ index_value
                 
 )
                 
-oper_setters
+setters
 .
 append
 (
-                    
 "
 setOperand
 (
@@ -701,7 +701,6 @@ operand
 )
 ;
 "
-                
 )
             
 elif
@@ -758,7 +757,7 @@ num_value_operands
 =
 1
                 
-oper_setters
+setters
 .
 append
 (
@@ -839,7 +838,7 @@ num_int64_operands
 =
 1
                 
-oper_getters
+getters
 .
 append
 (
@@ -880,7 +879,7 @@ index_value
                 
 )
                 
-oper_setters
+setters
 .
 append
 (
@@ -918,6 +917,108 @@ type
 "
 +
 op_type
+)
+    
+if
+num_temps
+:
+        
+for
+temp
+in
+range
+(
+num_temps
+)
+:
+            
+constructor_params
+.
+append
+(
+"
+const
+LDefinition
+&
+temp
+"
++
+str
+(
+temp
+)
+)
+            
+setters
+.
+append
+(
+"
+setTemp
+(
+"
++
+str
+(
+temp
+)
++
+"
+temp
+"
++
+str
+(
+temp
+)
++
+"
+)
+;
+"
+)
+            
+getters
+.
+append
+(
+                
+"
+const
+LDefinition
+*
+temp
+"
+                
++
+str
+(
+temp
+)
+                
++
+"
+(
+)
+{
+return
+getTemp
+(
+"
+                
++
+str
+(
+temp
+)
+                
++
+"
+)
+;
+}
+"
+            
 )
     
 code
@@ -978,7 +1079,8 @@ code
 +
 =
 "
-0
+{
+}
 >
 {
 {
@@ -1005,6 +1107,7 @@ n
 .
 format
 (
+num_temps
 name
 )
     
@@ -1031,7 +1134,7 @@ code
 .
 join
 (
-constructor_opers
+constructor_params
 )
     
 code
@@ -1090,7 +1193,7 @@ n
 .
 join
 (
-oper_setters
+setters
 )
     
 code
@@ -1120,7 +1223,7 @@ n
 .
 join
 (
-oper_getters
+getters
 )
     
 code
@@ -1372,6 +1475,25 @@ None
 or
 OrderedDict
             
+num_temps
+=
+op
+.
+get
+(
+"
+num_temps
+"
+0
+)
+            
+assert
+num_temps
+is
+None
+or
+int
+            
 gen_boilerplate
 =
 op
@@ -1438,11 +1560,19 @@ append
                 
 gen_lir_class
 (
+                    
 name
+                    
 result_type
+                    
 operands
+                    
+num_temps
+                    
 call_instruction
+                    
 mir_op
+                
 )
             
 )
