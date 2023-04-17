@@ -430,10 +430,6 @@ tests
 [
 test
 ]
-[
-1
-:
-]
 :
                         
 paths
