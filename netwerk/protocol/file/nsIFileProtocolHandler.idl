@@ -47,6 +47,9 @@ nsIFile
 file
 )
 ;
+[
+noscript
+]
 AUTF8String
 getURLSpecFromFile
 (
