@@ -50,6 +50,9 @@ socket
 rdd
 "
 "
+gmplugin
+"
+"
 gpu
 "
 ]
