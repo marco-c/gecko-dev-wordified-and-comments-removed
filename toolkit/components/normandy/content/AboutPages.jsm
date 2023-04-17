@@ -484,12 +484,6 @@ Ci
 nsIAboutModule
 .
 URI_MUST_LOAD_IN_CHILD
-|
-Ci
-.
-nsIAboutModule
-.
-IS_SECURE_CHROME_UI
 }
 )
 ;

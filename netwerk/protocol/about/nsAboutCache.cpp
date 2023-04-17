@@ -2809,11 +2809,6 @@ nsIAboutModule
 :
 :
 URI_SAFE_FOR_UNTRUSTED_CONTENT
-|
-nsIAboutModule
-:
-:
-IS_SECURE_CHROME_UI
 ;
 return
 NS_OK
