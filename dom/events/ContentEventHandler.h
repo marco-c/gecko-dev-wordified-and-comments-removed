@@ -1000,12 +1000,16 @@ static
 bool
 ShouldBreakLineBefore
 (
+const
 nsIContent
-*
+&
 aContent
+const
 nsINode
 *
 aRootNode
+=
+nullptr
 )
 ;
 static

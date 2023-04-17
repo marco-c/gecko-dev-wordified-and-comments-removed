@@ -2782,6 +2782,7 @@ return
 return
 ShouldBreakLineBefore
 (
+*
 aContent
 aRootNode
 )
@@ -2949,9 +2950,11 @@ ContentEventHandler
 :
 ShouldBreakLineBefore
 (
+const
 nsIContent
-*
+&
 aContent
+const
 nsINode
 *
 aRootNode
@@ -2959,6 +2962,7 @@ aRootNode
 {
 if
 (
+&
 aContent
 =
 =
@@ -2973,8 +2977,7 @@ if
 (
 !
 aContent
--
->
+.
 IsHTMLElement
 (
 )
@@ -2987,8 +2990,7 @@ false
 if
 (
 aContent
--
->
+.
 IsHTMLElement
 (
 nsGkAtoms
@@ -3001,7 +3003,6 @@ br
 return
 IsContentBR
 (
-*
 aContent
 )
 ;
@@ -3009,8 +3010,7 @@ aContent
 if
 (
 aContent
--
->
+.
 IsAnyOfHTMLElements
 (
 nsGkAtoms
@@ -3148,7 +3148,15 @@ unknownHTMLElement
 =
 do_QueryObject
 (
+const_cast
+<
+nsIContent
+*
+>
+(
+&
 aContent
+)
 )
 ;
 return
@@ -3536,6 +3544,7 @@ if
 (
 ShouldBreakLineBefore
 (
+*
 node
 -
 >
@@ -4494,6 +4503,7 @@ if
 (
 ShouldBreakLineBefore
 (
+*
 content
 mRootContent
 )
@@ -5332,6 +5342,7 @@ aLineBreakType
 (
 ShouldBreakLineBefore
 (
+*
 content
 mRootContent
 )
@@ -5966,6 +5977,7 @@ HasChildren
 &
 ShouldBreakLineBefore
 (
+*
 content
 mRootContent
 )
@@ -7606,6 +7618,7 @@ if
 (
 ShouldBreakLineBefore
 (
+*
 node
 -
 >
@@ -8015,6 +8028,7 @@ if
 (
 ShouldBreakLineBefore
 (
+*
 node
 -
 >
@@ -8307,8 +8321,19 @@ aFrame
 {
 MOZ_ASSERT
 (
+aFrame
+-
+>
+GetContent
+(
+)
+)
+;
+MOZ_ASSERT
+(
 ShouldBreakLineBefore
 (
+*
 aFrame
 -
 >
@@ -8319,15 +8344,6 @@ mRootContent
 )
 |
 |
-(
-aFrame
--
->
-GetContent
-(
-)
-&
-&
 IsPaddingBR
 (
 *
@@ -8336,7 +8352,6 @@ aFrame
 >
 GetContent
 (
-)
 )
 )
 )
@@ -9529,6 +9544,7 @@ if
 (
 ShouldBreakLineBefore
 (
+*
 firstContent
 mRootContent
 )
@@ -14302,6 +14318,7 @@ if
 (
 ShouldBreakLineBefore
 (
+*
 content
 aRootContent
 )
