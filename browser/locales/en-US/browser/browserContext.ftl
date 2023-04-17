@@ -2093,7 +2093,7 @@ menu
 -
 manage
 -
-logins
+logins2
 =
 .
 label

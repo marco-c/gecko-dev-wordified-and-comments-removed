@@ -3381,7 +3381,7 @@ menu
 -
 manage
 -
-logins
+logins2
 "
 hidden
 =
