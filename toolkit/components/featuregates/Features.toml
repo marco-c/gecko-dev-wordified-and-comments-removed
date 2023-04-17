@@ -1759,9 +1759,6 @@ value
 default
 =
 false
-android
-=
-false
 early_beta_or_earlier
 =
 true
