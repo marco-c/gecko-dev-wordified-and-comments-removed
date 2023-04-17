@@ -240,18 +240,6 @@ mozilla
 -
 esr91
 "
-                    
-"
-esr78
-"
-:
-"
-releases
-/
-mozilla
--
-esr78
-"
                 
 }
                 
@@ -368,20 +356,6 @@ releases
 comm
 -
 esr91
-"
-                    
-"
-comm
--
-esr78
-"
-:
-"
-releases
-/
-comm
--
-esr78
 "
                 
 }
