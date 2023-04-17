@@ -451,8 +451,12 @@ input_color
 "
 :
 "
-#
-BFBFC9
+rgb
+(
+251
+251
+254
+)
 "
 "
 input_border
