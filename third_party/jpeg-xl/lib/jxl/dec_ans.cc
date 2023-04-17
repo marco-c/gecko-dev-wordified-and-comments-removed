@@ -1924,7 +1924,9 @@ huffman
 tree
 number
 %
-zu
+"
+PRIuS
+"
 alphabet
 size
 %
@@ -2152,8 +2154,8 @@ too
 long
 :
 %
-zu
 "
+PRIuS
 counts
 .
 size
@@ -3093,7 +3095,9 @@ too
 large
 :
 %
-zu
+"
+PRIuS
+"
 \
 n
 "

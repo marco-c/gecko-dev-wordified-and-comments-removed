@@ -130,6 +130,9 @@ RandomFillImage
 (
 &
 linear
+0
+.
+0f
 1
 .
 0f
@@ -266,6 +269,9 @@ RandomFillImage
 (
 &
 rgb
+0
+.
+0f
 1
 .
 0f

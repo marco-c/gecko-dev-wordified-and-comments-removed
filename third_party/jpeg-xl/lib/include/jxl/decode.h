@@ -739,7 +739,6 @@ JxlDecoder
 *
 dec
 JxlBoxType
-*
 type
 JXL_BOOL
 decompressed

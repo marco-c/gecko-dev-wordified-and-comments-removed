@@ -227,8 +227,8 @@ result
 void
 StartBox
 (
-uint64_t
-box_size
+bool
+box_until_eof
 size_t
 contents_size
 )
@@ -245,10 +245,7 @@ true
 ;
 if
 (
-box_size
-=
-=
-0
+box_until_eof
 )
 {
 box_until_eof_
@@ -604,7 +601,7 @@ return
 void
 StartBox
 (
-uint64_t
+bool
 size_t
 )
 {

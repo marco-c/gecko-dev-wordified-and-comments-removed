@@ -80,6 +80,11 @@ enc_external_image_gbench
 cc
 jxl
 /
+gauss_blur_gbench
+.
+cc
+jxl
+/
 splines_gbench
 .
 cc

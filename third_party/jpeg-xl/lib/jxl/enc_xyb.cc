@@ -155,6 +155,17 @@ lib
 /
 jxl
 /
+enc_image_bundle
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 fields
 .
 h

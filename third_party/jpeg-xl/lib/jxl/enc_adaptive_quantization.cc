@@ -5538,7 +5538,7 @@ kAcQuant
 =
 0
 .
-7886f
+825f
 ;
 void
 FindBestQuantization

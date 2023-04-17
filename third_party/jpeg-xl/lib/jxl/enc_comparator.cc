@@ -76,6 +76,17 @@ enc_gamma_correct
 .
 h
 "
+#
+include
+"
+lib
+/
+jxl
+/
+enc_image_bundle
+.
+h
+"
 namespace
 jxl
 {

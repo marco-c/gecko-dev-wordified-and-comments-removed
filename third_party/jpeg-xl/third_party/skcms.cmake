@@ -291,8 +291,11 @@ PRIVATE
 /
 FI
 {
-CMAKE_SOURCE_DIR
+CMAKE_CURRENT_SOURCE_DIR
 }
+/
+.
+.
 /
 lib
 /
@@ -314,8 +317,11 @@ PRIVATE
 -
 include
 {
-CMAKE_SOURCE_DIR
+CMAKE_CURRENT_SOURCE_DIR
 }
+/
+.
+.
 /
 lib
 /

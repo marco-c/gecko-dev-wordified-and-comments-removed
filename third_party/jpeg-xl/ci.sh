@@ -4590,9 +4590,7 @@ exclude
 '
 .
 *
-_test
--
-only
+_testonly
 .
 .
 *
