@@ -3736,6 +3736,8 @@ OffsetToData
 )
 ;
 return
+dataEntry
+?
 RVAToPtr
 <
 T
@@ -3746,6 +3748,8 @@ dataEntry
 >
 OffsetToData
 )
+:
+nullptr
 ;
 }
 template
@@ -4309,6 +4313,16 @@ aId
 )
 const
 {
+if
+(
+!
+aCurLevel
+)
+{
+return
+nullptr
+;
+}
 auto
 dirEnt
 =
