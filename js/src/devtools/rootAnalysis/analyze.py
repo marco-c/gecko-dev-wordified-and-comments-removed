@@ -1262,21 +1262,9 @@ explain
         
 (
             
-os
+sys
 .
-environ
-.
-get
-(
-"
-PYTHON
-"
-"
-python2
-.
-7
-"
-)
+executable
             
 "
 %

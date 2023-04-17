@@ -23,6 +23,8 @@ json
 import
 os
 import
+sys
+import
 textwrap
 from
 mach
@@ -1692,6 +1694,10 @@ objdir
 args
 =
 [
+            
+sys
+.
+executable
             
 os
 .
