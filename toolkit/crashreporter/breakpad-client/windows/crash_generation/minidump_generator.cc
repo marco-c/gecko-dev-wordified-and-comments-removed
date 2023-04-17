@@ -1079,12 +1079,6 @@ false
 ;
 }
 MINIDUMP_EXCEPTION_INFORMATION
-*
-dump_exception_pointers
-=
-NULL
-;
-MINIDUMP_EXCEPTION_INFORMATION
 dump_exception_info
 ;
 if
@@ -1092,11 +1086,6 @@ if
 exception_pointers_
 )
 {
-dump_exception_pointers
-=
-&
-dump_exception_info
-;
 dump_exception_info
 .
 ThreadId
