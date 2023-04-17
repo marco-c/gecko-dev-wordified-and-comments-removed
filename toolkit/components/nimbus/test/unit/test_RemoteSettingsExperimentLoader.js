@@ -337,7 +337,7 @@ stub
 (
 RemoteDefaultsLoader
 "
-loadRemoteDefaults
+syncRemoteDefaults
 "
 )
 ;
@@ -429,7 +429,7 @@ ok
 (
 RemoteDefaultsLoader
 .
-loadRemoteDefaults
+syncRemoteDefaults
 "
 initialized
 remote
