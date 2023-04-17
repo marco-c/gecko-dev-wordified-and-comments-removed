@@ -400,14 +400,10 @@ baselineFrameNumValueSlots
 if
 (
 numValueSlots
-=
-=
+>
 0
 )
 {
-return
-;
-}
 MOZ_ASSERT
 (
 nfixed
@@ -470,6 +466,7 @@ trc
 nlivefixed
 )
 ;
+}
 }
 if
 (
