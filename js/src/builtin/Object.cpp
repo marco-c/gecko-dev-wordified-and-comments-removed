@@ -5048,7 +5048,7 @@ else
 if
 (
 !
-AddDataPropertyNonPrototype
+AddDataPropertyToPlainObject
 (
 cx
 toPlain

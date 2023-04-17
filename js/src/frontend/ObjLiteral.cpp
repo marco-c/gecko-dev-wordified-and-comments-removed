@@ -756,7 +756,7 @@ UniqueNames
 if
 (
 !
-AddDataPropertyNonPrototype
+AddDataPropertyToPlainObject
 (
 cx
 obj

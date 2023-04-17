@@ -4548,7 +4548,7 @@ true
 }
 MOZ_ALWAYS_INLINE
 bool
-AddDataPropertyNonPrototype
+AddDataPropertyToPlainObject
 (
 JSContext
 *
@@ -4567,17 +4567,6 @@ MOZ_ASSERT
 JSID_IS_INT
 (
 id
-)
-)
-;
-MOZ_ASSERT
-(
-!
-obj
--
->
-isUsedAsPrototype
-(
 )
 )
 ;

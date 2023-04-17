@@ -13215,7 +13215,7 @@ property
 if
 (
 !
-AddDataPropertyNonPrototype
+AddDataPropertyToPlainObject
 (
 cx
 target
