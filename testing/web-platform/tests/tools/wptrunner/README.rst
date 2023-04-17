@@ -73,9 +73,6 @@ maxdepth
 2
 docs
 /
-usage
-docs
-/
 expectation
 docs
 /
