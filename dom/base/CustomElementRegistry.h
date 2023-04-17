@@ -164,6 +164,7 @@ eDisconnected
 eAdopted
 eAttributeChanged
 eFormReset
+eFormDisabled
 eGetCustomInterface
 }
 ;
@@ -193,6 +194,9 @@ RefPtr
 Document
 >
 mNewDocument
+;
+bool
+mDisabled
 ;
 size_t
 SizeOfExcludingThis

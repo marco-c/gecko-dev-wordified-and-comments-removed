@@ -221,6 +221,14 @@ DoesReadOnlyApply
 const
 override
 ;
+void
+UpdateDisabledState
+(
+bool
+aNotify
+)
+override
+;
 ElementInternals
 *
 GetElementInternals
