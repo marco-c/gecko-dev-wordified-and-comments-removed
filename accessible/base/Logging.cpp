@@ -31,6 +31,15 @@ h
 #
 include
 "
+DocAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 nsAccessibilityService
 .
 h

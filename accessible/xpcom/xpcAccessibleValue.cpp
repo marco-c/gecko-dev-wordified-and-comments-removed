@@ -12,6 +12,15 @@ LocalAccessible
 .
 h
 "
+#
+include
+"
+LocalAccessible
+-
+inl
+.
+h
+"
 using
 namespace
 mozilla
