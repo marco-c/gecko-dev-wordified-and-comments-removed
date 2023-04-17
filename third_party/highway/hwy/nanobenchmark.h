@@ -101,6 +101,16 @@ InvariantTicksPerSecond
 (
 )
 ;
+double
+Now
+(
+)
+;
+uint64_t
+TimerResolution
+(
+)
+;
 }
 int
 Unpredictable1

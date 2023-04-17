@@ -2,7 +2,7 @@
 if
 defined
 (
-HIGHWAY_CONTRIB_MATH_MATH_INL_H_
+HIGHWAY_HWY_CONTRIB_MATH_MATH_INL_H_
 )
 =
 =
@@ -13,15 +13,15 @@ HWY_TARGET_TOGGLE
 )
 #
 ifdef
-HIGHWAY_CONTRIB_MATH_MATH_INL_H_
+HIGHWAY_HWY_CONTRIB_MATH_MATH_INL_H_
 #
 undef
-HIGHWAY_CONTRIB_MATH_MATH_INL_H_
+HIGHWAY_HWY_CONTRIB_MATH_MATH_INL_H_
 #
 else
 #
 define
-HIGHWAY_CONTRIB_MATH_MATH_INL_H_
+HIGHWAY_HWY_CONTRIB_MATH_MATH_INL_H_
 #
 endif
 #
@@ -6371,7 +6371,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Acos
 (
@@ -6628,7 +6628,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Acosh
 (
@@ -6858,7 +6858,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Asin
 (
@@ -7062,7 +7062,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Asinh
 (
@@ -7355,7 +7355,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Atan
 (
@@ -7496,7 +7496,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Atanh
 (
@@ -7589,7 +7589,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Cos
 (
@@ -7725,7 +7725,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Exp
 (
@@ -7906,7 +7906,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Expm1
 (
@@ -8131,7 +8131,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Log
 (
@@ -8165,7 +8165,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Log10
 (
@@ -8199,7 +8199,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Log1p
 (
@@ -8292,7 +8292,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Log2
 (
@@ -8326,7 +8326,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Sin
 (
@@ -8471,7 +8471,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Sinh
 (
@@ -8593,7 +8593,7 @@ D
 class
 V
 >
-HWY_NOINLINE
+HWY_INLINE
 V
 Tanh
 (

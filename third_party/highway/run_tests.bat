@@ -14,11 +14,11 @@ dp0
 if
 not
 exist
-build
+build_win
 mkdir
-build
+build_win
 cd
-build
+build_win
 cmake
 .
 .

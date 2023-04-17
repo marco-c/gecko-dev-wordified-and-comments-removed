@@ -20,11 +20,9 @@ third_party
 /
 highway
 /
-contrib
+hwy
 /
-image
-/
-image
+aligned_allocator
 .
 cc
 "
@@ -36,7 +34,11 @@ highway
 /
 hwy
 /
-aligned_allocator
+contrib
+/
+image
+/
+image
 .
 cc
 "

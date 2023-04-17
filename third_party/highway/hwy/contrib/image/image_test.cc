@@ -1,6 +1,8 @@
 #
 include
 "
+hwy
+/
 contrib
 /
 image
@@ -30,6 +32,8 @@ HWY_TARGET_INCLUDE
 define
 HWY_TARGET_INCLUDE
 "
+hwy
+/
 contrib
 /
 image
