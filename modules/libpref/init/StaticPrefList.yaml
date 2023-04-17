@@ -33383,15 +33383,9 @@ defined
 (
 MOZ_AV1
 )
-&
-&
-defined
-(
-NIGHTLY_BUILD
-)
 value
 :
-true
+false
 #
 else
 value
