@@ -1177,7 +1177,9 @@ EnsureWords
 {
 if
 (
-mSoftTextValid
+mSoftText
+.
+mIsValid
 )
 return
 NS_OK
@@ -1228,7 +1230,9 @@ unwrap
 (
 )
 ;
-mSoftTextValid
+mSoftText
+.
+mIsValid
 =
 true
 ;
@@ -1362,7 +1366,9 @@ aWordOffset
 if
 (
 !
-mSoftTextValid
+mSoftText
+.
+mIsValid
 |
 |
 pt
@@ -4334,7 +4340,9 @@ const
 if
 (
 !
-mSoftTextValid
+mSoftText
+.
+mIsValid
 )
 {
 NS_ERROR
@@ -4617,7 +4625,9 @@ const
 {
 NS_ASSERTION
 (
-mSoftTextValid
+mSoftText
+.
+mIsValid
 "
 Soft
 text
@@ -4639,7 +4649,9 @@ it
 if
 (
 !
-mSoftTextValid
+mSoftText
+.
+mIsValid
 )
 return
 NodeOffset
@@ -4930,7 +4942,9 @@ aSearchForward
 }
 NS_ASSERTION
 (
-mSoftTextValid
+mSoftText
+.
+mIsValid
 "
 Soft
 text
@@ -4952,7 +4966,9 @@ it
 if
 (
 !
-mSoftTextValid
+mSoftText
+.
+mIsValid
 )
 return
 -
