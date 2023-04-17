@@ -593,6 +593,9 @@ mem
 size
 )
 )
+(
+void
+)
 TRAP
 (
 OOB
