@@ -295,10 +295,6 @@ atty
 #
 usage
 rust
-extern
-crate
-atty
-;
 use
 atty
 :
@@ -508,4 +504,4 @@ softprops
 )
 2015
 -
-2017
+2019
