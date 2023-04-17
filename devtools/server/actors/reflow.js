@@ -1535,6 +1535,13 @@ destroy
 (
 )
 {
+if
+(
+this
+.
+targetActor
+)
+{
 this
 .
 targetActor
@@ -1547,6 +1554,13 @@ navigate
 this
 .
 onNavigate
+)
+;
+}
+super
+.
+destroy
+(
 )
 ;
 }
