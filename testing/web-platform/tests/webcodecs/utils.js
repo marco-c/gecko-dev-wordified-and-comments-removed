@@ -134,6 +134,7 @@ makeOffscreenCanvas
 (
 width
 height
+options
 )
 {
 let
@@ -156,6 +157,7 @@ getContext
 '
 2d
 '
+options
 )
 ;
 ctx
