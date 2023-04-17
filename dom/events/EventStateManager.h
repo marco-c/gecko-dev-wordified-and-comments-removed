@@ -1068,8 +1068,8 @@ nsPresContext
 aPresContext
 )
 ;
-typedef
 enum
+ProcessingAccessKeyState
 {
 eAccessKeyProcessingNormal
 =
@@ -1077,7 +1077,6 @@ eAccessKeyProcessingNormal
 eAccessKeyProcessingUp
 eAccessKeyProcessingDown
 }
-ProcessingAccessKeyState
 ;
 bool
 WalkESMTreeToHandleAccessKey

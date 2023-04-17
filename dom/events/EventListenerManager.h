@@ -132,7 +132,9 @@ class
 Element
 ;
 }
-typedef
+using
+EventListenerHolder
+=
 dom
 :
 :
@@ -144,7 +146,6 @@ dom
 EventListener
 nsIDOMEventListener
 >
-EventListenerHolder
 ;
 struct
 EventListenerFlags

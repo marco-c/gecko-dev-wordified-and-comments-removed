@@ -411,11 +411,12 @@ mEnd
 ;
 public
 :
-typedef
+using
+Selection
+=
 dom
 :
 :
-Selection
 Selection
 ;
 explicit
@@ -1098,7 +1099,9 @@ uint32_t
 aXPOffset
 )
 ;
-typedef
+using
+FontRangeArray
+=
 nsTArray
 <
 mozilla
@@ -1106,7 +1109,6 @@ mozilla
 :
 FontRange
 >
-FontRangeArray
 ;
 static
 void
