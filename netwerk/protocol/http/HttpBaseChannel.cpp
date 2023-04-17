@@ -22973,6 +22973,15 @@ IsUpgradeDowngradeEndlessLoop
 (
 mURI
 mLoadInfo
+{
+nsHTTPSOnlyUtils
+:
+:
+UpgradeDowngradeEndlessLoopOptions
+:
+:
+EnforceForHTTPSOnlyMode
+}
 )
 )
 {
