@@ -6322,9 +6322,6 @@ SetPermitSubpixelAA
 aPermitSubpixelAA
 )
 ;
-#
-ifdef
-MOZ_TREE_CAIRO
 cairo_surface_set_subpixel_antialiasing
 (
 cairo_get_group_target
@@ -6338,8 +6335,6 @@ CAIRO_SUBPIXEL_ANTIALIASING_ENABLED
 CAIRO_SUBPIXEL_ANTIALIASING_DISABLED
 )
 ;
-#
-endif
 }
 static
 bool

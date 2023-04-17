@@ -781,9 +781,6 @@ mFloatingRefs
 =
 1
 ;
-#
-ifdef
-MOZ_TREE_CAIRO
 if
 (
 cairo_surface_get_content
@@ -802,8 +799,6 @@ CAIRO_SUBPIXEL_ANTIALIASING_DISABLED
 )
 ;
 }
-#
-endif
 }
 }
 gfxSurfaceType

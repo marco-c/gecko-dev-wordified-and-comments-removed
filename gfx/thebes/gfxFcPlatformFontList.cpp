@@ -12686,9 +12686,6 @@ endif
 ifdef
 MOZ_WIDGET_GTK
 #
-if
-MOZ_TREE_CAIRO
-#
 undef
 cairo_ft_font_options_substitute
 #
@@ -12837,8 +12834,6 @@ cairo_subpixel_order_t
 )
 ;
 }
-#
-endif
 void
 gfxFcPlatformFontList
 :
