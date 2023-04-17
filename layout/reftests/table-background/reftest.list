@@ -1096,15 +1096,6 @@ skiaContent
 -
 60000
 )
-fails
--
-if
-(
-useDrawSnapshot
-&
-&
-webrender
-)
 =
 =
 border
