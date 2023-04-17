@@ -20663,6 +20663,7 @@ let
 badge
 =
 fxaButton
+?
 .
 querySelector
 (
@@ -20746,6 +20747,7 @@ UIState
 STATUS_LOGIN_FAILED
 ?
 fxaButton
+?
 .
 setAttribute
 (
@@ -20760,6 +20762,7 @@ status
 )
 :
 badge
+?
 .
 classList
 .
@@ -20793,6 +20796,7 @@ authentication
 else
 {
 fxaButton
+?
 .
 removeAttribute
 (
@@ -20804,6 +20808,7 @@ status
 )
 ;
 badge
+?
 .
 classList
 .
