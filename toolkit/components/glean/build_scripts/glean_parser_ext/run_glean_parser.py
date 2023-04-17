@@ -124,6 +124,10 @@ datetime
 "
 quantity
 "
+        
+"
+rate
+"
     
 ]
 }
