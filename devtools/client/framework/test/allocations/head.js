@@ -392,6 +392,13 @@ debug_allocations
 }
 )
 ;
+await
+tracker
+.
+doGC
+(
+)
+;
 }
 await
 tracker
