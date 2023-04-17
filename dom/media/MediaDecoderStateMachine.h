@@ -2118,15 +2118,6 @@ mIsMediaSinkSuspended
 =
 false
 ;
-Maybe
-<
-media
-:
-:
-TimeUnit
->
-mLastClockTimeBeforeStopSink
-;
 public
 :
 AbstractCanonical
