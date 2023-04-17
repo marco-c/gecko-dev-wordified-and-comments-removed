@@ -161,22 +161,6 @@ kwargs
         
 self
 .
-using_condprof
-=
-self
-.
-config
-.
-get
-(
-"
-using_condprof
-"
-True
-)
-        
-self
-.
 results_handler
 =
 RaptorResultsHandler
