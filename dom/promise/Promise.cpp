@@ -4271,10 +4271,6 @@ AssertIsOnWorkerThread
 (
 )
 ;
-mWorkerRef
-=
-nullptr
-;
 CleanProperties
 (
 )
