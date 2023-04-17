@@ -12082,6 +12082,15 @@ if
 OwnerIsMozBrowserFrame
 (
 )
+&
+&
+!
+mOwnerContent
+-
+>
+GetPrimaryFrame
+(
+)
 )
 {
 doc
