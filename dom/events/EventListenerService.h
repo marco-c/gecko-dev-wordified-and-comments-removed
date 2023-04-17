@@ -30,6 +30,13 @@ h
 #
 include
 "
+EventListenerManager
+.
+h
+"
+#
+include
+"
 nsIEventListenerService
 .
 h
@@ -152,6 +159,9 @@ public
 :
 EventListenerInfo
 (
+EventListenerManager
+*
+aListenerManager
 const
 nsAString
 &
@@ -180,6 +190,8 @@ bool
 aAllowsUntrusted
 bool
 aInSystemEventGroup
+bool
+aIsHandler
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -221,6 +233,12 @@ Value
 aJSVal
 )
 ;
+RefPtr
+<
+EventListenerManager
+>
+mListenerManager
+;
 nsString
 mType
 ;
@@ -252,6 +270,9 @@ mAllowsUntrusted
 ;
 bool
 mInSystemEventGroup
+;
+bool
+mIsHandler
 ;
 }
 ;
