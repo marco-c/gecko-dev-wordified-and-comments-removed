@@ -996,10 +996,6 @@ nsListControlFrame
 *
 mDropdownFrame
 ;
-nsListControlFrame
-*
-mListControlFrame
-;
 nscoord
 mDisplayISize
 ;
