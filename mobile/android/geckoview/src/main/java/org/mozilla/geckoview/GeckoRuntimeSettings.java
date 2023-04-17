@@ -1561,12 +1561,6 @@ ipc
 .
 processCount
 "
-BuildConfig
-.
-RELEASE_OR_BETA
-?
-1
-:
 2
 )
 ;
