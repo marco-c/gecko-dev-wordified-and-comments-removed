@@ -520,8 +520,9 @@ Debug
 )
 |
 |
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
+mTimerThreadId
 )
 )
 {
@@ -1067,8 +1068,9 @@ ToMilliseconds
 }
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
+mTimerThreadId
 )
 )
 {
@@ -2201,8 +2203,9 @@ Notify
 }
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
+mProfilerThreadId
 )
 )
 {
@@ -2549,8 +2552,9 @@ Notify
 }
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
+mProfilerThreadId
 )
 )
 {

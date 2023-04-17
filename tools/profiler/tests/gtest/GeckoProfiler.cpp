@@ -12806,7 +12806,7 @@ thread
 "
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 profiler_add_marker
 (
@@ -12913,7 +12913,7 @@ unregisteredThread
 (
 )
 {
-EXPECT_TRUE
+EXPECT_FALSE
 (
 profiler_add_marker
 (
