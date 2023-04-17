@@ -1172,10 +1172,7 @@ welcome
 -
 e10s
 :
-autoland
-mozilla
--
-central
+None
 *
 test
 -
@@ -1484,10 +1481,7 @@ welcome
 -
 e10s
 :
-autoland
-mozilla
--
-central
+None
 *
 test
 -
@@ -3253,6 +3247,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 bing
@@ -3295,6 +3291,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 bing
@@ -3311,6 +3309,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -3374,6 +3374,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 bing
@@ -3387,6 +3389,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -3402,6 +3406,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 bing
@@ -3410,7 +3416,10 @@ search
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -3471,6 +3480,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -3514,6 +3525,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 bing
@@ -3527,6 +3540,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -3591,6 +3606,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -3609,6 +3626,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 bing
@@ -3671,6 +3690,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 bing
@@ -3684,6 +3705,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -3699,6 +3722,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 bing
@@ -3707,7 +3732,10 @@ search
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -3771,6 +3799,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 bing
@@ -3785,6 +3815,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chromium
 -
 bing
@@ -3798,6 +3830,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -3869,6 +3903,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 bing
@@ -3908,6 +3944,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -3953,6 +3991,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 bing
@@ -3995,6 +4035,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 bing
@@ -4011,6 +4053,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -4074,6 +4118,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 bing
@@ -4087,6 +4133,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -4102,6 +4150,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 bing
@@ -4110,7 +4160,10 @@ search
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -4171,6 +4224,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -5200,6 +5255,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 cnn
@@ -5240,6 +5297,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 cnn
@@ -5254,6 +5313,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -5315,6 +5376,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 cnn
@@ -5326,6 +5389,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -5339,13 +5404,18 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 cnn
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -5374,6 +5444,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -5415,6 +5487,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 cnn
@@ -5426,6 +5500,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -5488,6 +5564,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -5504,6 +5582,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 cnn
@@ -5564,6 +5644,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 cnn
@@ -5575,6 +5657,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -5588,13 +5672,18 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 cnn
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -5626,6 +5715,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 cnn
@@ -5638,6 +5729,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chromium
 -
 cnn
@@ -5649,6 +5742,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -5685,6 +5780,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -5723,6 +5820,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -5766,6 +5865,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 cnn
@@ -5806,6 +5907,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 cnn
@@ -5820,6 +5923,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -5881,6 +5986,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 cnn
@@ -5892,6 +5999,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -5905,13 +6014,18 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 cnn
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -5940,6 +6054,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -9960,6 +10076,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 fandom
@@ -9998,6 +10116,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 fandom
@@ -10012,6 +10132,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -10069,6 +10191,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 fandom
@@ -10080,6 +10204,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -10093,13 +10219,18 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 fandom
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -10154,6 +10285,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -10193,6 +10326,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 fandom
@@ -10204,6 +10339,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -10262,6 +10399,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -10278,6 +10417,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 fandom
@@ -10334,6 +10475,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 fandom
@@ -10345,6 +10488,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -10358,13 +10503,18 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 fandom
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -10422,6 +10572,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 fandom
@@ -10434,6 +10586,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chromium
 -
 fandom
@@ -10445,6 +10599,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -10508,6 +10664,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 fandom
@@ -10543,6 +10701,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -10584,6 +10744,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 fandom
@@ -10622,6 +10784,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 fandom
@@ -10636,6 +10800,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -10693,6 +10859,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 fandom
@@ -10704,6 +10872,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -10717,13 +10887,18 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 fandom
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -10778,6 +10953,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -12285,8 +12462,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 google
@@ -12329,8 +12504,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 google
@@ -12347,8 +12520,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -12412,8 +12583,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 google
@@ -12427,8 +12596,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 chromium
 -
@@ -12444,8 +12611,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 google
@@ -12454,10 +12619,7 @@ mail
 -
 e10s
 :
-mozilla
--
-beta
-trunk
+None
 *
 browsertime
 -
@@ -12518,8 +12680,6 @@ opt
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -12563,8 +12723,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 google
@@ -12578,8 +12736,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -12645,8 +12801,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 google
@@ -12663,8 +12817,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -12728,8 +12880,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 google
@@ -12743,8 +12893,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 chromium
 -
@@ -12760,8 +12908,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 google
@@ -12770,10 +12916,7 @@ mail
 -
 e10s
 :
-mozilla
--
-beta
-trunk
+None
 *
 browsertime
 -
@@ -12837,8 +12980,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 google
@@ -12853,8 +12994,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chromium
 -
 google
@@ -12868,8 +13007,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -12941,8 +13078,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 google
@@ -12982,8 +13117,6 @@ opt
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -13029,8 +13162,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 google
@@ -13073,8 +13204,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 google
@@ -13091,8 +13220,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -13156,8 +13283,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 google
@@ -13171,8 +13296,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 chromium
 -
@@ -13188,8 +13311,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 google
@@ -13198,10 +13319,7 @@ mail
 -
 e10s
 :
-mozilla
--
-beta
-trunk
+None
 *
 browsertime
 -
@@ -13262,8 +13380,6 @@ opt
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -17154,8 +17270,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 imgur
@@ -17194,8 +17308,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 imgur
@@ -17210,8 +17322,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -17269,8 +17379,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 imgur
@@ -17282,8 +17390,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 chromium
 -
@@ -17297,18 +17403,13 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 imgur
 -
 e10s
 :
-mozilla
--
-beta
-trunk
+None
 *
 browsertime
 -
@@ -17363,8 +17464,6 @@ opt
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -17404,8 +17503,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 imgur
@@ -17417,8 +17514,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -17478,8 +17573,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 imgur
@@ -17494,8 +17587,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -17553,8 +17644,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 imgur
@@ -17566,8 +17655,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 chromium
 -
@@ -17581,18 +17668,13 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 imgur
 -
 e10s
 :
-mozilla
--
-beta
-trunk
+None
 *
 browsertime
 -
@@ -17650,8 +17732,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 imgur
@@ -17664,8 +17744,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chromium
 -
 imgur
@@ -17677,8 +17755,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -17742,8 +17818,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 imgur
@@ -17779,8 +17853,6 @@ opt
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -17822,8 +17894,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 imgur
@@ -17862,8 +17932,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 imgur
@@ -17878,8 +17946,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -17937,8 +18003,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 imgur
@@ -17950,8 +18014,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 chromium
 -
@@ -17965,18 +18027,13 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 imgur
 -
 e10s
 :
-mozilla
--
-beta
-trunk
+None
 *
 browsertime
 -
@@ -18031,8 +18088,6 @@ opt
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -18311,6 +18366,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 instagram
@@ -18349,6 +18406,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 instagram
@@ -18363,6 +18422,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -18420,6 +18481,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 instagram
@@ -18431,6 +18494,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -18444,13 +18509,18 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 instagram
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -18505,6 +18575,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -18544,6 +18616,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 instagram
@@ -18555,6 +18629,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -18613,6 +18689,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -18629,6 +18707,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 instagram
@@ -18685,6 +18765,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 instagram
@@ -18696,6 +18778,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -18709,13 +18793,18 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 instagram
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -18773,6 +18862,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 instagram
@@ -18785,6 +18876,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chromium
 -
 instagram
@@ -18796,6 +18889,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -18859,6 +18954,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 instagram
@@ -18894,6 +18991,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -18935,6 +19034,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 instagram
@@ -18973,6 +19074,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 instagram
@@ -18987,6 +19090,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -19044,6 +19149,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 instagram
@@ -19055,6 +19162,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -19068,13 +19177,18 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 instagram
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -19129,6 +19243,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -28590,8 +28706,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 tumblr
@@ -28630,8 +28744,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 tumblr
@@ -28646,8 +28758,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -28705,8 +28815,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 tumblr
@@ -28718,8 +28826,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 chromium
 -
@@ -28733,18 +28839,13 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 tumblr
 -
 e10s
 :
-mozilla
--
-beta
-trunk
+None
 *
 browsertime
 -
@@ -28799,8 +28900,6 @@ opt
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -28840,8 +28939,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 tumblr
@@ -28853,8 +28950,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -28914,8 +29009,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 tumblr
@@ -28930,8 +29023,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -28989,8 +29080,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 tumblr
@@ -29002,8 +29091,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 chromium
 -
@@ -29017,18 +29104,13 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 tumblr
 -
 e10s
 :
-mozilla
--
-beta
-trunk
+None
 *
 browsertime
 -
@@ -29086,8 +29168,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 tumblr
@@ -29100,8 +29180,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chromium
 -
 tumblr
@@ -29113,8 +29191,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -29178,8 +29254,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 tumblr
@@ -29215,8 +29289,6 @@ opt
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -29258,8 +29330,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 tumblr
@@ -29298,8 +29368,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 tumblr
@@ -29314,8 +29382,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -29373,8 +29439,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 tumblr
@@ -29386,8 +29450,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 chromium
 -
@@ -29401,18 +29463,13 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 tumblr
 -
 e10s
 :
-mozilla
--
-beta
-trunk
+None
 *
 browsertime
 -
@@ -29467,8 +29524,6 @@ opt
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -29750,8 +29805,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 twitch
@@ -29790,8 +29843,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 twitch
@@ -29806,8 +29857,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -29865,8 +29914,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 twitch
@@ -29878,8 +29925,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 chromium
 -
@@ -29893,18 +29938,13 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 twitch
 -
 e10s
 :
-mozilla
--
-beta
-trunk
+None
 *
 browsertime
 -
@@ -29959,8 +29999,6 @@ opt
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -30000,8 +30038,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 twitch
@@ -30013,8 +30049,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -30074,8 +30108,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 twitch
@@ -30090,8 +30122,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -30149,8 +30179,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 twitch
@@ -30162,8 +30190,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 chromium
 -
@@ -30177,18 +30203,13 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 twitch
 -
 e10s
 :
-mozilla
--
-beta
-trunk
+None
 *
 browsertime
 -
@@ -30246,8 +30267,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 twitch
@@ -30260,8 +30279,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chromium
 -
 twitch
@@ -30273,8 +30290,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -30338,8 +30353,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 twitch
@@ -30375,8 +30388,6 @@ opt
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -30418,8 +30429,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 twitch
@@ -30458,8 +30467,6 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 twitch
@@ -30474,8 +30481,6 @@ trunk
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -30533,8 +30538,6 @@ browsertime
 -
 tp6
 -
-essential
--
 chrome
 -
 twitch
@@ -30546,8 +30549,6 @@ None
 browsertime
 -
 tp6
--
-essential
 -
 chromium
 -
@@ -30561,18 +30562,13 @@ browsertime
 -
 tp6
 -
-essential
--
 firefox
 -
 twitch
 -
 e10s
 :
-mozilla
--
-beta
-trunk
+None
 *
 browsertime
 -
@@ -30627,8 +30623,6 @@ opt
 browsertime
 -
 tp6
--
-essential
 -
 firefox
 -
@@ -32793,6 +32787,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 wikipedia
@@ -32831,6 +32827,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 wikipedia
@@ -32845,6 +32843,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -32902,6 +32902,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 wikipedia
@@ -32913,6 +32915,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -32926,13 +32930,18 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 wikipedia
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -32987,6 +32996,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -33026,6 +33037,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 wikipedia
@@ -33037,6 +33050,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -33095,6 +33110,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -33111,6 +33128,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 wikipedia
@@ -33167,6 +33186,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 wikipedia
@@ -33178,6 +33199,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -33191,13 +33214,18 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 wikipedia
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -33255,6 +33283,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 wikipedia
@@ -33267,6 +33297,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chromium
 -
 wikipedia
@@ -33278,6 +33310,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -33341,6 +33375,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 wikipedia
@@ -33376,6 +33412,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -33417,6 +33455,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 wikipedia
@@ -33455,6 +33495,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 wikipedia
@@ -33469,6 +33511,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -33526,6 +33570,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 wikipedia
@@ -33537,6 +33583,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -33550,13 +33598,18 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 wikipedia
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -33611,6 +33664,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -33897,6 +33952,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 yahoo
@@ -33939,6 +33996,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 yahoo
@@ -33955,6 +34014,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -34018,6 +34079,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 yahoo
@@ -34031,6 +34094,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -34046,6 +34111,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 yahoo
@@ -34054,7 +34121,10 @@ mail
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -34115,6 +34185,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -34158,6 +34230,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 yahoo
@@ -34171,6 +34245,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -34235,6 +34311,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -34253,6 +34331,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 yahoo
@@ -34315,6 +34395,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 yahoo
@@ -34328,6 +34410,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -34343,6 +34427,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 yahoo
@@ -34351,7 +34437,10 @@ mail
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -34415,6 +34504,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 yahoo
@@ -34429,6 +34520,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chromium
 -
 yahoo
@@ -34442,6 +34535,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -34513,6 +34608,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 yahoo
@@ -34552,6 +34649,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -34597,6 +34696,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 yahoo
@@ -34639,6 +34740,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 yahoo
@@ -34655,6 +34758,8 @@ trunk
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
@@ -34718,6 +34823,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 chrome
 -
 yahoo
@@ -34731,6 +34838,8 @@ None
 browsertime
 -
 tp6
+-
+essential
 -
 chromium
 -
@@ -34746,6 +34855,8 @@ browsertime
 -
 tp6
 -
+essential
+-
 firefox
 -
 yahoo
@@ -34754,7 +34865,10 @@ mail
 -
 e10s
 :
-None
+mozilla
+-
+beta
+trunk
 *
 browsertime
 -
@@ -34815,6 +34929,8 @@ opt
 browsertime
 -
 tp6
+-
+essential
 -
 firefox
 -
