@@ -30802,7 +30802,9 @@ webrender
 .
 force
 -
-disabled
+legacy
+-
+layers
 type
 :
 bool

@@ -174,7 +174,7 @@ mWrForceDisabled
 StaticPrefs
 :
 :
-gfx_webrender_force_disabled_AtStartup
+gfx_webrender_force_legacy_layers_AtStartup
 (
 )
 ;

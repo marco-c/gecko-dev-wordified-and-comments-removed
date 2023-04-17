@@ -190,7 +190,9 @@ webrender
 .
 force
 -
-disabled
+legacy
+-
+layers
 "
 ;
 const
