@@ -285,10 +285,6 @@ removeCurrentTab
 (
 )
 ;
-finish
-(
-)
-;
 }
 )
 ;

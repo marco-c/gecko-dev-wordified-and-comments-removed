@@ -669,6 +669,9 @@ SOURCE
 ]
 {
 onAvailable
+ignoreExistingResources
+:
+true
 }
 )
 ;
