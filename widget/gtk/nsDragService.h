@@ -362,6 +362,11 @@ mScheduledTask
 eDragTaskNone
 ;
 }
+void
+ReplyToDragMotion
+(
+)
+;
 protected
 :
 virtual
