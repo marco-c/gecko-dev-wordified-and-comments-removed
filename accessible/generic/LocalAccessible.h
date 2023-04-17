@@ -2159,6 +2159,14 @@ NativeAttributes
 (
 )
 ;
+bool
+AttributeChangesState
+(
+nsAtom
+*
+aAttribute
+)
+;
 virtual
 void
 DOMAttributeChanged
