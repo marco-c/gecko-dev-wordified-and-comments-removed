@@ -6275,7 +6275,7 @@ scratch
 ;
 masm
 .
-loadPtr
+unboxObject
 (
 Address
 (
@@ -6572,7 +6572,7 @@ scratch1
 ;
 masm
 .
-loadPtr
+unboxObject
 (
 Address
 (
