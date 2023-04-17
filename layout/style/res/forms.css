@@ -1072,6 +1072,17 @@ hidden
 ;
 }
 :
+not
+(
+:
+-
+moz
+-
+autofill
+-
+preview
+)
+:
 :
 -
 moz
