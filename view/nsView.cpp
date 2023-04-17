@@ -225,10 +225,6 @@ mFrame
 (
 nullptr
 )
-mDirtyRegion
-(
-nullptr
-)
 mZIndex
 (
 0
@@ -469,9 +465,6 @@ MOZ_RELEASE_ASSERT
 !
 mFrame
 )
-;
-delete
-mDirtyRegion
 ;
 }
 class
