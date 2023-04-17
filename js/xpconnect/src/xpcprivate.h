@@ -8750,6 +8750,11 @@ XMLHttpRequest
 1
 ;
 bool
+WebSocket
+:
+1
+;
+bool
 XMLSerializer
 :
 1
