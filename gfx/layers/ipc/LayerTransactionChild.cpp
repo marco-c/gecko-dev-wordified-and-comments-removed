@@ -21,6 +21,17 @@ include
 "
 mozilla
 /
+layers
+/
+ShadowLayers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h

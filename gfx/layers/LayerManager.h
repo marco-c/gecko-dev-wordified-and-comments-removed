@@ -311,6 +311,12 @@ class
 KnowsCompositor
 ;
 class
+ShadowableLayer
+;
+class
+ShadowLayerForwarder
+;
+class
 LayerManagerComposite
 ;
 class

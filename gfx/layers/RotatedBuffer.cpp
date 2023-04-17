@@ -174,6 +174,17 @@ mozilla
 /
 layers
 /
+ShadowLayers
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TextureClient
 .
 h
