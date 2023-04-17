@@ -138,17 +138,6 @@ apply
 *
 /
 [
-Pref
-=
-"
-layout
-.
-css
-.
-DOMQuad
-.
-enabled
-"
 Exposed
 =
 (
