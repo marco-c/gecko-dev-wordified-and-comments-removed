@@ -1914,6 +1914,13 @@ nsMenuPopupFrame
 aFrames
 )
 ;
+void
+HideOpenMenusBeforeExecutingMenu
+(
+CloseMenuMode
+aMode
+)
+;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 InitTriggerEvent
