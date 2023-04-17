@@ -2626,6 +2626,11 @@ SystemFontList
 fontList
 )
 ;
+[
+Priority
+=
+mediumhigh
+]
 async
 RebuildFontList
 (
