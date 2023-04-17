@@ -1790,6 +1790,11 @@ navigation
 -
 pageshow
 "
+{
+isNewTargetCreated
+:
+shouldHandleBfCacheEvents
+}
 )
 ;
 if

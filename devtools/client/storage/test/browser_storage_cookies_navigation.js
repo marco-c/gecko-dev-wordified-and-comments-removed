@@ -11,17 +11,6 @@ function
 )
 {
 await
-pushPref
-(
-"
-fission
-.
-bfcacheInParent
-"
-false
-)
-;
-await
 testNavigation
 (
 )
