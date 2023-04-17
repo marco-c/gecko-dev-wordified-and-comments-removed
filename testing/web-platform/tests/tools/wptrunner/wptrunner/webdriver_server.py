@@ -12,6 +12,11 @@ import
 time
 import
 traceback
+from
+typing
+import
+ClassVar
+Type
 import
 mozprocess
 from

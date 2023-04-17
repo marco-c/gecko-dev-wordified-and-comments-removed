@@ -1502,7 +1502,7 @@ initializing
 namedtuple
 (
 "
-initializing_browser
+initializing
 "
                               
 [
