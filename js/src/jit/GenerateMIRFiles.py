@@ -517,6 +517,8 @@ alias_set
     
 possibly_calls
     
+compute_range
+    
 clone
 )
 :
@@ -1147,6 +1149,29 @@ n
 "
     
 if
+compute_range
+:
+        
+code
++
+=
+"
+void
+computeRange
+(
+TempAllocator
+&
+alloc
+)
+override
+;
+\
+\
+\
+n
+"
+    
+if
 clone
 :
         
@@ -1500,7 +1525,7 @@ get
 "
 possibly_calls
 "
-False
+None
 )
             
 assert
@@ -1511,6 +1536,30 @@ or
 True
 or
 possibly_calls
+=
+=
+"
+custom
+"
+            
+compute_range
+=
+op
+.
+get
+(
+"
+compute_range
+"
+None
+)
+            
+assert
+compute_range
+is
+None
+or
+compute_range
 =
 =
 "
@@ -1560,6 +1609,8 @@ congruent_to
 alias_set
                 
 possibly_calls
+                
+compute_range
                 
 clone
             
