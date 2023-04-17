@@ -554,6 +554,16 @@ mPurpose
 =
 Resolve
 ;
+Atomic
+<
+bool
+Relaxed
+>
+mCancelled
+{
+false
+}
+;
 uint32_t
 mTimeoutMs
 =
