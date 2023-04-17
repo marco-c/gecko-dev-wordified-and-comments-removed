@@ -1315,9 +1315,6 @@ numeric
 undefined
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 formatOpt
 .
 dayPeriod
@@ -1345,8 +1342,6 @@ long
 undefined
 )
 ;
-#
-endif
 formatOpt
 .
 hour
@@ -2130,9 +2125,6 @@ hourSkeletonChar
 break
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 switch
 (
 options
@@ -2183,8 +2175,6 @@ BBBB
 break
 ;
 }
-#
-endif
 switch
 (
 options
@@ -2531,9 +2521,6 @@ any
 "
 )
 {
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 options
@@ -2548,8 +2535,6 @@ needDefaults
 =
 false
 ;
-#
-endif
 if
 (
 options
@@ -4374,9 +4359,6 @@ day
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 dayPeriod
@@ -4392,8 +4374,6 @@ dayPeriod
 )
 ;
 }
-#
-endif
 if
 (
 hour

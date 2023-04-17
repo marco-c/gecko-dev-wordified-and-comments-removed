@@ -6055,9 +6055,6 @@ fractionalSecond
 case
 UDAT_FLEXIBLE_DAY_PERIOD_FIELD
 :
-#
-ifdef
-NIGHTLY_BUILD
 return
 &
 JSAtomState
@@ -6065,17 +6062,6 @@ JSAtomState
 :
 dayPeriod
 ;
-#
-else
-return
-&
-JSAtomState
-:
-:
-unknown
-;
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API
