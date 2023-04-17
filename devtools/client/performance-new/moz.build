@@ -96,13 +96,6 @@ panel
 js
 "
 "
-preference
--
-management
-.
-js
-"
-"
 symbolication
 .
 jsm
