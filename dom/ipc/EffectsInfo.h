@@ -49,6 +49,10 @@ float
 aScaleX
 float
 aScaleY
+const
+ParentLayerToScreenScale2D
+&
+aTransformToAncestorScale
 )
 {
 return
@@ -57,6 +61,7 @@ EffectsInfo
 aVisibleRect
 aScaleX
 aScaleY
+aTransformToAncestorScale
 }
 ;
 }
@@ -78,6 +83,9 @@ nsRect
 1
 .
 0f
+ParentLayerToScreenScale2D
+(
+)
 }
 ;
 }
@@ -115,6 +123,14 @@ mScaleY
 aOther
 .
 mScaleY
+&
+&
+mTransformToAncestorScale
+=
+=
+aOther
+.
+mTransformToAncestorScale
 ;
 }
 bool
@@ -163,6 +179,9 @@ mScaleX
 float
 mScaleY
 ;
+ParentLayerToScreenScale2D
+mTransformToAncestorScale
+;
 private
 :
 EffectsInfo
@@ -175,6 +194,10 @@ float
 aScaleX
 float
 aScaleY
+const
+ParentLayerToScreenScale2D
+&
+aTransformToAncestorScale
 )
 :
 mVisibleRect
@@ -188,6 +211,10 @@ aScaleX
 mScaleY
 (
 aScaleY
+)
+mTransformToAncestorScale
+(
+aTransformToAncestorScale
 )
 {
 }
