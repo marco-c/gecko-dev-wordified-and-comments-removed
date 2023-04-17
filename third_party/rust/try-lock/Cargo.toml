@@ -124,7 +124,7 @@ version
 .
 2
 .
-2
+3
 "
 authors
 =
@@ -203,6 +203,11 @@ categories
 [
 "
 concurrency
+"
+"
+no
+-
+std
 "
 ]
 license
