@@ -13531,15 +13531,8 @@ ins
 current
 -
 >
-setSlot
+push
 (
-info
-(
-)
-.
-returnValueSlot
-(
-)
 ins
 )
 ;

@@ -1493,6 +1493,8 @@ JSContext
 cx
 HandleValue
 thisv
+MutableHandleValue
+result
 )
 ;
 bool
