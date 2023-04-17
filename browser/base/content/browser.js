@@ -38190,6 +38190,11 @@ luminance
 )
 ;
 }
+const
+luminanceThreshold
+=
+127
+;
 for
 (
 let
@@ -38206,7 +38211,7 @@ if
 luminance
 <
 =
-110
+luminanceThreshold
 )
 {
 toolbar
