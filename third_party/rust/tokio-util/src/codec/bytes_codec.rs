@@ -165,14 +165,12 @@ None
 }
 impl
 Encoder
+<
+Bytes
+>
 for
 BytesCodec
 {
-type
-Item
-=
-Bytes
-;
 type
 Error
 =

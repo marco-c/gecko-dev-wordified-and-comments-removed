@@ -1077,6 +1077,17 @@ len
 )
 }
 }
+#
+[
+cfg
+(
+feature
+=
+"
+unstable
+"
+)
+]
 impl
 Drop
 for

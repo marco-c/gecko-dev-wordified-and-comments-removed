@@ -13,10 +13,10 @@ io
 pub
 trait
 Encoder
-{
-type
+<
 Item
-;
+>
+{
 type
 Error
 :
@@ -35,9 +35,6 @@ encode
 mut
 self
 item
-:
-Self
-:
 :
 Item
 dst

@@ -196,13 +196,6 @@ size_update
 None
 }
 }
-#
-[
-allow
-(
-dead_code
-)
-]
 pub
 fn
 update_max_size

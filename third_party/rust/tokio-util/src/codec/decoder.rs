@@ -5,18 +5,6 @@ crate
 codec
 :
 :
-encoder
-:
-:
-Encoder
-;
-use
-crate
-:
-:
-codec
-:
-:
 Framed
 ;
 use
@@ -219,8 +207,6 @@ Self
 where
 Self
 :
-Encoder
-+
 Sized
 {
 Framed

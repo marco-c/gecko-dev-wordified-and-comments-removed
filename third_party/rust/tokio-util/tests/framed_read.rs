@@ -1630,7 +1630,7 @@ None
 }
 buf
 .
-split_to
+advance
 (
 32
 *
