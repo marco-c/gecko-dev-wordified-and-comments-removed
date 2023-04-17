@@ -354,7 +354,7 @@ _browsingContextID
 =
 networkEvent
 .
-browingContextID
+browsingContextID
 ;
 this
 .
