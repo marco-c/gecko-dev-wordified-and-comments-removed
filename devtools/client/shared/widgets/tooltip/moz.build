@@ -38,11 +38,6 @@ helper
 js
 "
 "
-InlineTooltip
-.
-js
-"
-"
 RulePreviewTooltip
 .
 js
