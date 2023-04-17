@@ -585,7 +585,7 @@ command_context
             
 subprocess
 .
-check_call
+call
 (
 [
 "
@@ -660,6 +660,13 @@ os
 .
 path
 .
+normpath
+(
+            
+os
+.
+path
+.
 join
 (
 command_context
@@ -673,6 +680,8 @@ mozilla
 .
 sln
 "
+)
+        
 )
     
 def
