@@ -11242,6 +11242,8 @@ mut
 self
 )
 {
+loop
+{
 let
 err
 =
@@ -11264,6 +11266,18 @@ err
 gl
 :
 :
+NO_ERROR
+{
+break
+;
+}
+if
+err
+=
+=
+gl
+:
+:
 OUT_OF_MEMORY
 {
 self
@@ -11278,6 +11292,7 @@ RendererError
 OutOfMemory
 )
 ;
+}
 }
 }
 fn
