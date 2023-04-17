@@ -1395,6 +1395,16 @@ controlledElement
 disabled
 =
 managementControlled
+|
+|
+Services
+.
+prefs
+.
+prefIsLocked
+(
+prefId
+)
 ;
 }
 ;

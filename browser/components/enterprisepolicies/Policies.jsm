@@ -6283,6 +6283,16 @@ rememberSignons
 param
 )
 ;
+setAndLockPref
+(
+"
+services
+.
+passwordSavingEnabled
+"
+param
+)
+;
 }
 }
 OfferToSaveLoginsDefault
