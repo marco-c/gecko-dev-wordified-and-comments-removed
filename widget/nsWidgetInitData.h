@@ -136,10 +136,6 @@ mDropShadow
 (
 false
 )
-mListenForResizes
-(
-false
-)
 mRTL
 (
 false
@@ -205,9 +201,6 @@ bool
 clipChildren
 clipSiblings
 mDropShadow
-;
-bool
-mListenForResizes
 ;
 bool
 mRTL
