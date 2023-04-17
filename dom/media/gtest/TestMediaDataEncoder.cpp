@@ -962,7 +962,6 @@ MediaDataEncoder
 :
 H264Specific
 (
-KEYFRAME_INTERVAL
 MediaDataEncoder
 :
 :
@@ -1069,6 +1068,7 @@ aUsage
 taskQueue
 aPixelFormat
 FRAME_RATE
+KEYFRAME_INTERVAL
 BIT_RATE
 aSpecific
 .
@@ -1095,6 +1095,7 @@ aUsage
 taskQueue
 aPixelFormat
 FRAME_RATE
+KEYFRAME_INTERVAL
 BIT_RATE
 )
 )
@@ -1377,22 +1378,6 @@ Nothing
 )
 )
 ;
-#
-if
-defined
-(
-MOZ_WIDGET_ANDROID
-)
-EXPECT_FALSE
-(
-EnsureInit
-(
-e
-)
-)
-;
-#
-else
 EXPECT_TRUE
 (
 EnsureInit
@@ -1401,8 +1386,6 @@ e
 )
 )
 ;
-#
-endif
 WaitForShutdown
 (
 e
