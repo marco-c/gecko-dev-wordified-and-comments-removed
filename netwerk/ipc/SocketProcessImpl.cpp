@@ -8,13 +8,6 @@ h
 #
 include
 "
-ProcessUtils
-.
-h
-"
-#
-include
-"
 base
 /
 command_line
@@ -60,6 +53,10 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
 ProcessUtils
 .
 h

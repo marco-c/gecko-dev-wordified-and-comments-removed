@@ -12,6 +12,10 @@ vector
 #
 include
 "
+mozilla
+/
+ipc
+/
 FileDescriptor
 .
 h

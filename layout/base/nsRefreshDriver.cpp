@@ -471,6 +471,10 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
 BackgroundChild
 .
 h

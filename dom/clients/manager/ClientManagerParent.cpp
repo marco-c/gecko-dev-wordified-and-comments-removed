@@ -8,6 +8,10 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
 BackgroundParent
 .
 h

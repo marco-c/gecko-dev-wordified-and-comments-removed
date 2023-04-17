@@ -7,6 +7,10 @@ mozilla_net_ParentProcessDocumentChannel_h
 #
 include
 "
+mozilla
+/
+ipc
+/
 ProtocolUtils
 .
 h

@@ -647,6 +647,10 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
 URIUtils
 .
 h

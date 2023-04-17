@@ -55,6 +55,10 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
 BackgroundUtils
 .
 h

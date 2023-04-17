@@ -53,6 +53,10 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
 SharedMemoryBasic
 .
 h
