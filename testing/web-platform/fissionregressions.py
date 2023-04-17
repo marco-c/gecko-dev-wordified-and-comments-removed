@@ -1969,6 +1969,11 @@ self
 return
 bool
 (
+not
+self
+.
+regressions
+or
 self
 .
 parent
