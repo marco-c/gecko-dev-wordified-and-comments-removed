@@ -1758,6 +1758,14 @@ aModifiers
 aButton
 )
 ;
+mMenu
+-
+>
+MenuClosed
+(
+true
+)
+;
 [
 mMenu
 -

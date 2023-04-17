@@ -2378,6 +2378,8 @@ nsMenuX
 :
 MenuClosed
 (
+bool
+aEntireMenuClosingDueToActivateItem
 )
 {
 if
@@ -2432,6 +2434,7 @@ nsMenuX
 >
 MenuClosed
 (
+aEntireMenuClosingDueToActivateItem
 )
 ;
 }
