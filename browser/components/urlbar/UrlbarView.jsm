@@ -9900,9 +9900,7 @@ UrlbarPrefs
 get
 (
 "
-quicksuggest
-.
-enabled
+quickSuggestEnabled
 "
 )
 )

@@ -182,7 +182,7 @@ initialUserBranchValue
 undefined
 initialExpectedVisibility
 :
-false
+true
 newDefaultBranchValue
 :
 false
@@ -287,7 +287,7 @@ initialUserBranchValue
 undefined
 initialExpectedVisibility
 :
-false
+true
 newDefaultBranchValue
 :
 true
@@ -322,7 +322,7 @@ initialUserBranchValue
 undefined
 initialExpectedVisibility
 :
-false
+true
 newDefaultBranchValue
 :
 undefined
@@ -436,7 +436,7 @@ newUserBranchValue
 undefined
 newExpectedVisibility
 :
-true
+false
 }
 )
 ;

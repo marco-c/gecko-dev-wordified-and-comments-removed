@@ -8707,6 +8707,12 @@ init
 (
 )
 ;
+UrlbarPrefs
+.
+maybeEnableOfflineQuickSuggest
+(
+)
+;
 let
 channel
 =
