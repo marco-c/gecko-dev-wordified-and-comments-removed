@@ -294,11 +294,9 @@ tools
 author_email
 =
 "
-tools
+dev
 -
-marionette
-lists
-.
+webdriver
 mozilla
 .
 org
