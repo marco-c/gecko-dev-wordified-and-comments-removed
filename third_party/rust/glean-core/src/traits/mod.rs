@@ -47,6 +47,9 @@ mod
 timing_distribution
 ;
 mod
+url
+;
+mod
 uuid
 ;
 pub
@@ -238,6 +241,16 @@ timing_distribution
 :
 :
 TimingDistribution
+;
+pub
+use
+self
+:
+:
+url
+:
+:
+Url
 ;
 pub
 use
