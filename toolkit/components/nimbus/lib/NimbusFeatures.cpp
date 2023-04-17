@@ -638,7 +638,7 @@ nsACString
 aFeatureId
 const
 bool
-aOnce
+aForce
 )
 {
 nsAutoCString
@@ -658,7 +658,8 @@ featureName
 )
 &
 &
-aOnce
+!
+aForce
 )
 {
 return

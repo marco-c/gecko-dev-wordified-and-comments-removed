@@ -802,11 +802,6 @@ urlbar
 .
 recordExposureEvent
 (
-{
-once
-:
-true
-}
 )
 )
 ;
