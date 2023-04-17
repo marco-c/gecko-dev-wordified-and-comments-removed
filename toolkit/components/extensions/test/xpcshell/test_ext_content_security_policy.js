@@ -727,7 +727,7 @@ url
 "
 browser
 .
-extension
+runtime
 .
 getURL
 (

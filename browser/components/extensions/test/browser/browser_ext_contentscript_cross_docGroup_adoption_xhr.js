@@ -131,7 +131,7 @@ GET
 "
 browser
 .
-extension
+runtime
 .
 getURL
 (

@@ -75,7 +75,7 @@ GET
 "
 browser
 .
-extension
+runtime
 .
 getURL
 (
@@ -258,7 +258,7 @@ GET
 "
 browser
 .
-extension
+runtime
 .
 getURL
 (

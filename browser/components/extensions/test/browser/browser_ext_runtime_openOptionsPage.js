@@ -1814,7 +1814,7 @@ optionsURL
 =
 browser
 .
-extension
+runtime
 .
 getURL
 (

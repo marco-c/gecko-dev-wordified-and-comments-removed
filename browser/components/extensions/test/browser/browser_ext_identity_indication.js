@@ -306,7 +306,7 @@ url
 "
 browser
 .
-extension
+runtime
 .
 getURL
 (
@@ -434,7 +434,7 @@ url
 "
 browser
 .
-extension
+runtime
 .
 getURL
 (

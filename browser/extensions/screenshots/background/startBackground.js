@@ -653,7 +653,7 @@ src
 =
 browser
 .
-extension
+runtime
 .
 getURL
 (

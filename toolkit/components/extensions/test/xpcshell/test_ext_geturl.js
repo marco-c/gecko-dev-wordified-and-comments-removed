@@ -336,6 +336,13 @@ url2
 }
 )
 ;
+ExtensionTestUtils
+.
+failOnSchemaWarnings
+(
+false
+)
+;
 await
 extension
 .
@@ -390,6 +397,13 @@ extension
 .
 unload
 (
+)
+;
+ExtensionTestUtils
+.
+failOnSchemaWarnings
+(
+true
 )
 ;
 }

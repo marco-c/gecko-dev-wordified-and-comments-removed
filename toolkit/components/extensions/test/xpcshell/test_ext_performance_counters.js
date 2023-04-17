@@ -225,7 +225,7 @@ id
 ;
 browser
 .
-extension
+runtime
 .
 getURL
 (
@@ -240,7 +240,7 @@ html
 ;
 browser
 .
-extension
+runtime
 .
 getURL
 (
@@ -255,7 +255,7 @@ html
 ;
 browser
 .
-extension
+runtime
 .
 getURL
 (

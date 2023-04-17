@@ -321,7 +321,7 @@ originUrl
 =
 browser
 .
-extension
+runtime
 .
 getURL
 (
