@@ -5937,8 +5937,13 @@ LOGBROWSERFOCUS
 Activate
 %
 p
+actionid
+:
+%
+lu
 "
 this
+aActionId
 )
 )
 ;
@@ -5982,8 +5987,13 @@ LOGBROWSERFOCUS
 Deactivate
 %
 p
+actionid
+:
+%
+lu
 "
 this
+aActionId
 )
 )
 ;
