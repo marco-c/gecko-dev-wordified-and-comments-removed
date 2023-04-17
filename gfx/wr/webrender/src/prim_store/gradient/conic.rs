@@ -844,11 +844,11 @@ scale
 .
 x
 =
-MAX_SIZE
-/
 task_size
 .
 width
+/
+MAX_SIZE
 ;
 task_size
 .
@@ -868,11 +868,11 @@ scale
 .
 y
 =
-MAX_SIZE
-/
 task_size
 .
 height
+/
+MAX_SIZE
 ;
 task_size
 .
