@@ -9168,22 +9168,11 @@ rc
 from
 mozbuild
 .
-atifact_commands
+artifact_commands
 import
-PackageFrontend
-    
-artifact_manager
-=
-PackageFrontend
-(
-command_context
-.
-_mach_context
-)
+artifact_clear_cache
     
 return
-artifact_manager
-.
 artifact_clear_cache
 (
 command_context
@@ -12726,16 +12715,7 @@ mozbuild
 .
 artifact_commands
 import
-PackageFrontend
-    
-artifact_manager
-=
-PackageFrontend
-(
-command_context
-.
-_mach_context
-)
+artifact_toolchain
     
 if
 not
@@ -12826,8 +12806,6 @@ _clang_tools_path
     
 rc
 =
-artifact_manager
-.
 artifact_toolchain
 (
         
