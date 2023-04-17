@@ -1533,14 +1533,7 @@ inherit
 Please
 keep
 the
-Multicol
-/
-Flex
-/
-Grid
-/
-Align
-sections
+declarations
 below
 in
 sync
@@ -1568,6 +1561,10 @@ forms
 css
 *
 /
+content
+:
+inherit
+;
 /
 *
 Multicol
