@@ -1149,7 +1149,7 @@ GtkWidget
 widget
 cairo_t
 *
-rect
+cr
 )
 ;
 static
@@ -1961,11 +1961,6 @@ gLastTouchID
 define
 NS_WINDOW_TITLE_MAX_LENGTH
 4095
-typedef
-struct
-_GdkDisplay
-GdkDisplay
-;
 #
 define
 kWindowPositionSlop
@@ -4729,6 +4724,7 @@ logWidth
 +
 kWindowPositionSlop
 )
+{
 *
 aX
 =
@@ -4740,6 +4736,7 @@ logWidth
 +
 kWindowPositionSlop
 ;
+}
 else
 if
 (
@@ -4755,6 +4752,7 @@ XMost
 -
 kWindowPositionSlop
 )
+{
 *
 aX
 =
@@ -4766,6 +4764,7 @@ XMost
 -
 kWindowPositionSlop
 ;
+}
 if
 (
 *
@@ -4779,6 +4778,7 @@ logHeight
 +
 kWindowPositionSlop
 )
+{
 *
 aY
 =
@@ -4790,6 +4790,7 @@ logHeight
 +
 kWindowPositionSlop
 ;
+}
 else
 if
 (
@@ -4805,6 +4806,7 @@ YMost
 -
 kWindowPositionSlop
 )
+{
 *
 aY
 =
@@ -4817,6 +4819,7 @@ YMost
 kWindowPositionSlop
 ;
 }
+}
 else
 {
 if
@@ -4828,6 +4831,7 @@ screenRect
 .
 x
 )
+{
 *
 aX
 =
@@ -4835,6 +4839,7 @@ screenRect
 .
 x
 ;
+}
 else
 if
 (
@@ -4850,6 +4855,7 @@ XMost
 -
 logWidth
 )
+{
 *
 aX
 =
@@ -4861,6 +4867,7 @@ XMost
 -
 logWidth
 ;
+}
 if
 (
 *
@@ -4870,6 +4877,7 @@ screenRect
 .
 y
 )
+{
 *
 aY
 =
@@ -4877,6 +4885,7 @@ screenRect
 .
 y
 ;
+}
 else
 if
 (
@@ -4892,6 +4901,7 @@ YMost
 -
 logHeight
 )
+{
 *
 aY
 =
@@ -4903,6 +4913,7 @@ YMost
 -
 logHeight
 ;
+}
 }
 }
 void
@@ -5071,12 +5082,9 @@ return
 true
 ;
 }
-else
-{
 return
 false
 ;
-}
 }
 #
 endif
@@ -6108,8 +6116,10 @@ mWindowType
 =
 eWindowType_popup
 )
+{
 return
 ;
+}
 mBounds
 .
 x
@@ -6960,8 +6970,6 @@ parentGtkWindow
 )
 ;
 }
-else
-{
 LOG
 (
 (
@@ -6985,7 +6993,6 @@ parentGtkWindow
 )
 )
 ;
-}
 return
 nullptr
 ;
@@ -9997,6 +10004,7 @@ mSizeState
 =
 nsSizeMode_Minimized
 )
+{
 gtk_window_deiconify
 (
 GTK_WINDOW
@@ -10005,6 +10013,7 @@ mShell
 )
 )
 ;
+}
 else
 if
 (
@@ -10013,6 +10022,7 @@ mSizeState
 =
 nsSizeMode_Maximized
 )
+{
 gtk_window_unmaximize
 (
 GTK_WINDOW
@@ -10021,6 +10031,7 @@ mShell
 )
 )
 ;
+}
 break
 ;
 }
@@ -10999,18 +11010,17 @@ xdisplay
 )
 ;
 }
-typedef
+using
+SetUserTimeFunc
+=
 void
 (
 *
-SetUserTimeFunc
 )
 (
 GdkWindow
 *
-aWindow
 guint32
-aTimestamp
 )
 ;
 static
@@ -11418,15 +11428,6 @@ NativeShow
 false
 )
 ;
-RefPtr
-<
-nsWindow
->
-self
-(
-owningWindow
-)
-;
 NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
@@ -11441,6 +11442,14 @@ NativeShow
 "
 [
 self
+=
+RefPtr
+<
+nsWindow
+>
+(
+owningWindow
+)
 ]
 (
 )
@@ -14632,6 +14641,7 @@ GetTransparencyMode
 )
 {
 auto
+*
 window
 =
 static_cast
@@ -16961,8 +16971,10 @@ type
 =
 MotionNotify
 )
+{
 break
 ;
+}
 synthEvent
 =
 true
@@ -18565,12 +18577,14 @@ top_window
 )
 )
 )
+{
 SetUrgencyHint
 (
 top_window
 false
 )
 ;
+}
 if
 (
 gBlockActivateEvent
@@ -22261,7 +22275,6 @@ listenForResizes
 =
 false
 ;
-;
 if
 (
 aNativeParent
@@ -22277,10 +22290,12 @@ aInitData
 mListenForResizes
 )
 )
+{
 listenForResizes
 =
 true
 ;
+}
 CommonCreate
 (
 aParent
@@ -23598,6 +23613,7 @@ wmd
 -
 1
 )
+{
 gdk_window_set_decorations
 (
 mGdkWindow
@@ -23607,6 +23623,7 @@ GdkWMDecoration
 wmd
 )
 ;
+}
 }
 SetWindowMouseTransparent
 (
@@ -23950,7 +23967,7 @@ FuncToGpointer
 (
 screen_composited_changed_cb
 )
-0
+nullptr
 )
 )
 {
@@ -24850,6 +24867,7 @@ if
 !
 mIsTopLevel
 )
+{
 Resize
 (
 mBounds
@@ -24867,6 +24885,7 @@ height
 false
 )
 ;
+}
 #
 ifdef
 MOZ_X11
@@ -25289,6 +25308,7 @@ c
 )
 )
 )
+{
 *
 c
 =
@@ -25296,6 +25316,7 @@ c
 _
 '
 ;
+}
 }
 res_name
 [
@@ -26503,6 +26524,7 @@ allocation
 height
 ;
 auto
+*
 shellClass
 =
 GTK_WIDGET_GET_CLASS
@@ -27938,8 +27960,10 @@ height
 =
 mTransparencyBitmapHeight
 )
+{
 return
 ;
+}
 int32_t
 newRowBytes
 =
@@ -28805,9 +28829,11 @@ aAlphas
 aStride
 )
 )
+{
 return
 NS_OK
 ;
+}
 UpdateMaskBits
 (
 mTransparencyBitmap
@@ -28960,17 +28986,11 @@ if
 maskCreate
 )
 {
-if
-(
-mTransparencyBitmap
-)
-{
 delete
 [
 ]
 mTransparencyBitmap
 ;
-}
 int32_t
 size
 =
@@ -30113,6 +30133,7 @@ finishing
 false
 ;
 auto
+*
 data
 =
 static_cast
@@ -30295,6 +30316,7 @@ aCallback
 )
 {
 auto
+*
 data
 =
 static_cast
@@ -30307,6 +30329,7 @@ aData
 )
 ;
 auto
+*
 transitionData
 =
 new
@@ -30509,25 +30532,20 @@ _NET_WM_STATE_FULLSCREEN
 FALSE
 )
 ;
-if
-(
-!
+return
 gdk_x11_screen_supports_net_wm_hint
 (
 screen
 atom
 )
-)
-{
-return
-false
 ;
-}
 #
-endif
+elif
 return
 true
 ;
+#
+endif
 }
 nsresult
 nsWindow
@@ -31565,7 +31583,7 @@ gdk_window_get_height
 aWindow
 )
 ;
-if
+return
 (
 aMouseX
 >
@@ -31590,11 +31608,6 @@ y
 +
 h
 )
-return
-true
-;
-return
-false
 ;
 }
 static
@@ -32069,6 +32082,7 @@ if
 !
 gdkcursor
 )
+{
 gdkcursor
 =
 gdk_cursor_new_from_name
@@ -32079,6 +32093,7 @@ grabbing
 "
 )
 ;
+}
 if
 (
 !
@@ -32186,6 +32201,7 @@ if
 !
 gdkcursor
 )
+{
 gdkcursor
 =
 gdk_cursor_new_from_name
@@ -32196,6 +32212,7 @@ crossed_circle
 "
 )
 ;
+}
 if
 (
 !
@@ -32227,6 +32244,7 @@ if
 !
 gdkcursor
 )
+{
 gdkcursor
 =
 gdk_cursor_new_from_name
@@ -32237,11 +32255,13 @@ forbidden
 "
 )
 ;
+}
 if
 (
 !
 gdkcursor
 )
+{
 gdkcursor
 =
 gdk_cursor_new_from_name
@@ -32252,6 +32272,7 @@ circle
 "
 )
 ;
+}
 if
 (
 !
@@ -32377,6 +32398,7 @@ if
 !
 gdkcursor
 )
+{
 gdkcursor
 =
 gdk_cursor_new_for_display
@@ -32385,6 +32407,7 @@ defaultDisplay
 GDK_SB_V_DOUBLE_ARROW
 )
 ;
+}
 break
 ;
 case
@@ -32405,6 +32428,7 @@ if
 !
 gdkcursor
 )
+{
 gdkcursor
 =
 gdk_cursor_new_for_display
@@ -32413,6 +32437,7 @@ defaultDisplay
 GDK_SB_H_DOUBLE_ARROW
 )
 ;
+}
 break
 ;
 case
@@ -33637,9 +33662,11 @@ WM_PROTOCOLS
 "
 )
 )
+{
 return
 GDK_FILTER_CONTINUE
 ;
+}
 Atom
 atom
 =
@@ -33664,9 +33691,11 @@ WM_TAKE_FOCUS
 "
 )
 )
+{
 return
 GDK_FILTER_CONTINUE
 ;
+}
 guint32
 timestamp
 =
@@ -33728,9 +33757,11 @@ gtk_window_is_active
 parent
 )
 )
+{
 return
 GDK_FILTER_REMOVE
 ;
+}
 GdkWindow
 *
 parent_window
@@ -40927,10 +40958,11 @@ LayoutDeviceIntRect
 aRect
 )
 {
-typedef
+using
+GdkMonitor
+=
 struct
 _GdkMonitor
-GdkMonitor
 ;
 static
 auto
