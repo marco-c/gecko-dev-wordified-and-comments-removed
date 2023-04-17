@@ -29,7 +29,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -1532,7 +1532,7 @@ background
 url
 (
 '
-http
+https
 :
 /
 /
@@ -1573,7 +1573,7 @@ background
 165rl
 (
 '
-http
+https
 :
 /
 /
@@ -1696,7 +1696,7 @@ background
 url
 (
 '
-http
+https
 :
 /
 /
@@ -1728,7 +1728,7 @@ background
 165rl
 (
 '
-http
+https
 :
 /
 /
@@ -1806,7 +1806,7 @@ background
 url
 (
 '
-http
+https
 :
 /
 /
@@ -1838,7 +1838,7 @@ background
 165rl
 (
 '
-http
+https
 :
 /
 /

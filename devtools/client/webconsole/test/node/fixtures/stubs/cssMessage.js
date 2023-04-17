@@ -129,7 +129,7 @@ sourceName
 "
 :
 "
-http
+https
 :
 /
 /
@@ -310,7 +310,7 @@ sourceName
 "
 :
 "
-http
+https
 :
 /
 /
