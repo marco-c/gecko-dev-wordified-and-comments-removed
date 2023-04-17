@@ -1995,7 +1995,7 @@ void
 nsHtml5Tokenizer
 :
 :
-errHyphenHyphenBang
+errNestedComment
 (
 )
 {
@@ -2013,7 +2013,7 @@ mViewSource
 AddErrorToCurrentNode
 (
 "
-errHyphenHyphenBang
+errNestedComment
 "
 )
 ;
