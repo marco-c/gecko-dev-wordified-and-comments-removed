@@ -2,6 +2,11 @@ from
 .
 base
 import
+NullBrowser
+from
+.
+base
+import
 require_arg
 from
 .
@@ -63,9 +68,21 @@ check_args
 browser
 "
 :
+{
+None
+:
 "
 WeblayerShell
 "
+                             
+"
+wdspec
+"
+:
+"
+NullBrowser
+"
+}
                  
 "
 executor

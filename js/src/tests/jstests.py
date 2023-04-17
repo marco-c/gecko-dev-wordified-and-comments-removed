@@ -3997,7 +3997,7 @@ run_info_extras
 =
 products
 .
-load_product
+Product
 (
 kwargs
 [
@@ -4009,14 +4009,14 @@ config
 firefox
 "
 )
-[
--
-1
-]
+.
+run_info_extras
 (
+        
 *
 *
 kwargs
+    
 )
     
 run_info
