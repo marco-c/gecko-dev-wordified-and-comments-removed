@@ -321,10 +321,34 @@ custom_element
 id
 )
     
+value
+=
 assert_success
 (
 response
 )
+    
+assert
+isinstance
+(
+value
+dict
+)
+    
+assert
+"
+shadow
+-
+6066
+-
+11e4
+-
+a52e
+-
+4f735466cecf
+"
+in
+value
     
 assert_same_element
 (

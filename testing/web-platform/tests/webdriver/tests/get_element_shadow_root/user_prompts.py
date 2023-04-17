@@ -137,21 +137,6 @@ value
 dict
 )
         
-assert
-"
-shadow
--
-075b
--
-4da1
--
-b6ba
--
-e579c2d3230a
-"
-in
-dict
-        
 assert_dialog_handled
 (
 session
