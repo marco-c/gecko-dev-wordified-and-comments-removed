@@ -680,11 +680,6 @@ objdir
 ff
 -
 msan
-mk_add_options
-MOZ_MAKE_FLAGS
-=
--
-j12
 #
 Enable
 LLVM
