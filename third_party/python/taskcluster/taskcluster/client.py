@@ -411,6 +411,7 @@ ascii
 )
                     
 except
+Exception
 :
                         
 s
@@ -3587,6 +3588,7 @@ json
 )
                 
 except
+Exception
 :
                     
 pass
@@ -4677,11 +4679,25 @@ utils
 slugId
 (
 )
+.
+encode
+(
+'
+ascii
+'
+)
 +
 utils
 .
 slugId
 (
+)
+.
+encode
+(
+'
+ascii
+'
 )
     
 )

@@ -25,6 +25,11 @@ client
 import
 createSession
 from
+.
+client
+import
+createTemporaryCredentials
+from
 taskcluster
 .
 utils
@@ -38,6 +43,8 @@ import
 *
 from
 taskcluster
+.
+generated
 .
 _client_importer
 import
@@ -57,9 +64,9 @@ environ
 .
 get
 (
-'
+"
 DEBUG_TASKCLUSTER_CLIENT
-'
+"
 )
 :
     

@@ -175,13 +175,6 @@ slugid
 nice
 (
 )
-.
-decode
-(
-"
-ascii
-"
-)
         
 }
         
@@ -398,13 +391,6 @@ slugid
 nice
 (
 )
-.
-decode
-(
-"
-ascii
-"
-)
         
 }
         
@@ -607,13 +593,6 @@ slugid
 nice
 (
 )
-.
-decode
-(
-"
-ascii
-"
-)
                 
 "
 symbol
@@ -686,13 +665,6 @@ slugid
 nice
 (
 )
-.
-decode
-(
-"
-ascii
-"
-)
             
 "
 ownTaskId
@@ -702,13 +674,6 @@ slugid
 .
 nice
 (
-)
-.
-decode
-(
-"
-ascii
-"
 )
             
 "
