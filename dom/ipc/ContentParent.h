@@ -6854,6 +6854,11 @@ mLaunchResolved
 1
 ;
 uint8_t
+mLaunchResolvedOk
+:
+1
+;
+uint8_t
 mIsRemoteInputEventQueueEnabled
 :
 1

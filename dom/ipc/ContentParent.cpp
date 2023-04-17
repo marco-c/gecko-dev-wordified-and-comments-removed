@@ -13355,7 +13355,7 @@ LAUNCHING
 )
 ;
 return
-true
+mLaunchResolvedOk
 ;
 }
 mLaunchResolved
@@ -13800,6 +13800,10 @@ ToMilliseconds
 )
 ;
 }
+mLaunchResolvedOk
+=
+true
+;
 return
 true
 ;
@@ -14166,6 +14170,10 @@ mShutdownPending
 false
 )
 mLaunchResolved
+(
+false
+)
+mLaunchResolvedOk
 (
 false
 )
