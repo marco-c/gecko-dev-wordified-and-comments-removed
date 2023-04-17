@@ -9130,7 +9130,7 @@ pipe
 SurfacePipeFactory
 :
 :
-CreateSurfacePipe
+CreateReorientSurfacePipe
 (
 this
 Size
@@ -9139,16 +9139,9 @@ Size
 OutputSize
 (
 )
-FullFrame
-(
-)
 format
-format
-Nothing
-(
-)
 mTransform
-SurfacePipeFlags
+GetOrientation
 (
 )
 )
