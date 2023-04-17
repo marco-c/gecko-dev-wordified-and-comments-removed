@@ -8,6 +8,13 @@ h
 #
 include
 "
+ia2AccessibleHypertext
+.
+h
+"
+#
+include
+"
 ia2AccessibleText
 .
 h
@@ -110,11 +117,11 @@ TextAcc
 )
 {
 auto
-wrap
+hyp
 =
 static_cast
 <
-HyperTextAccessibleWrap
+ia2AccessibleHypertext
 *
 >
 (
@@ -131,7 +138,7 @@ MsaaAccessible
 *
 >
 (
-wrap
+hyp
 )
 -
 >

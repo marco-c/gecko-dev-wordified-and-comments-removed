@@ -8,6 +8,13 @@ h
 #
 include
 "
+ia2AccessibleHypertext
+.
+h
+"
+#
+include
+"
 AccessibleEditableText_i
 .
 c
@@ -66,11 +73,11 @@ TextAcc
 )
 {
 auto
-wrap
+hyp
 =
 static_cast
 <
-HyperTextAccessibleWrap
+ia2AccessibleHypertext
 *
 >
 (
@@ -87,7 +94,7 @@ MsaaAccessible
 *
 >
 (
-wrap
+hyp
 )
 -
 >

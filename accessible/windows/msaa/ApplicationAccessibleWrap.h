@@ -11,20 +11,6 @@ ApplicationAccessible
 .
 h
 "
-#
-include
-"
-AccessibleApplication
-.
-h
-"
-#
-include
-"
-ia2AccessibleApplication
-.
-h
-"
 namespace
 mozilla
 {
@@ -34,8 +20,6 @@ a11y
 class
 ApplicationAccessibleWrap
 :
-public
-ia2AccessibleApplication
 public
 ApplicationAccessible
 {
@@ -48,7 +32,6 @@ ApplicationAccessibleWrap
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-DECL_IUNKNOWN_INHERITED
 virtual
 already_AddRefed
 <

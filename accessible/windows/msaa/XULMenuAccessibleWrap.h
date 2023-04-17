@@ -7,7 +7,7 @@ mozilla_a11y_XULMenuAccessibleWrap_h__
 #
 include
 "
-MsaaXULMenuAccessible
+XULMenuAccessible
 .
 h
 "
@@ -21,7 +21,7 @@ class
 XULMenuitemAccessibleWrap
 :
 public
-MsaaXULMenuitemAccessible
+XULMenuitemAccessible
 {
 public
 :

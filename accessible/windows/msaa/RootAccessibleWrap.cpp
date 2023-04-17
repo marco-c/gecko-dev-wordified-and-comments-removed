@@ -62,7 +62,7 @@ PresShell
 aPresShell
 )
 :
-MsaaRootAccessible
+RootAccessible
 (
 aDocument
 aPresShell

@@ -7,7 +7,7 @@ mozilla_a11y_DocAccessibleWrap_h__
 #
 include
 "
-MsaaDocAccessible
+DocAccessible
 .
 h
 "
@@ -24,7 +24,7 @@ class
 DocAccessibleWrap
 :
 public
-MsaaDocAccessible
+DocAccessible
 {
 public
 :
@@ -47,7 +47,6 @@ DocAccessibleWrap
 (
 )
 ;
-DECL_IUNKNOWN_INHERITED
 virtual
 void
 Shutdown

@@ -8,6 +8,13 @@ h
 #
 include
 "
+AccessibleApplication_i
+.
+c
+"
+#
+include
+"
 ApplicationAccessibleWrap
 .
 h
