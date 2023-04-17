@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsIURIMutator
+.
+h
+"
+#
+include
+"
 nsScriptSecurityManager
 .
 h
