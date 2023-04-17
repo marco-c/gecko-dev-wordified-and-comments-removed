@@ -4745,16 +4745,12 @@ nsCOMPtr
 nsIWidget
 >
 widget
-;
+=
 vm
 -
 >
 GetRootWidget
 (
-getter_AddRefs
-(
-widget
-)
 )
 ;
 mHasPendingEvent
