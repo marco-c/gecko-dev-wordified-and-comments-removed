@@ -12858,6 +12858,8 @@ nsIPrincipal
 aPrincipal
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
+IPCNavigationPreloadState
+aNavigationPreloadState
 )
 {
 #
@@ -12928,6 +12930,13 @@ ServiceWorkerRegistrationInfo
 aScope
 aPrincipal
 aUpdateViaCache
+std
+:
+:
+move
+(
+aNavigationPreloadState
+)
 )
 ;
 AddScopeAndRegistration
