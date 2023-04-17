@@ -41,6 +41,9 @@ in
 BrowsingContext
 aBrowsingContext
 in
+jsval
+aPermanentKey
+in
 uint32_t
 aEpoch
 in
@@ -61,6 +64,9 @@ in
 BrowsingContext
 aBrowsingContext
 in
+jsval
+aPermanentKey
+in
 uint32_t
 aEpoch
 in
@@ -77,6 +83,9 @@ aBrowser
 in
 BrowsingContext
 aBrowsingContext
+in
+jsval
+aPermanentKey
 in
 uint32_t
 aEpoch
