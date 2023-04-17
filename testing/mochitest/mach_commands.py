@@ -2685,6 +2685,17 @@ InstallIntent
 .
 YES
         
+aab
+=
+kwargs
+.
+get
+(
+"
+aab
+"
+)
+        
 verify_android_device
 (
             
@@ -2705,6 +2716,10 @@ True
 app
 =
 app
+            
+aab
+=
+aab
             
 device_serial
 =
