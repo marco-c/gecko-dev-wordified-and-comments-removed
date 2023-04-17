@@ -1224,13 +1224,6 @@ elements
 /
 )
 ;
-if
-(
-wasmReftypesEnabled
-(
-)
-)
-{
 function
 testTableFailGrow
 (
@@ -1370,4 +1363,3 @@ TableMaxRuntime
 1
 )
 ;
-}

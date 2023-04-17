@@ -104,12 +104,3 @@ harness
 sync_index
 .
 js
-;
-skip
--
-if
-:
-!
-wasmReftypesEnabled
-(
-)
