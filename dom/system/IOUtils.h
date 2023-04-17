@@ -721,11 +721,13 @@ nsIFile
 *
 aFile
 const
+uint32_t
+aOffset
+const
 Maybe
 <
 uint32_t
 >
-&
 aMaxBytes
 const
 bool
