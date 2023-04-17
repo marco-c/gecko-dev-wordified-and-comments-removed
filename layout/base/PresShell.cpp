@@ -5009,6 +5009,8 @@ AddObserver
 (
 this
 "
+internal
+-
 look
 -
 and
@@ -6747,6 +6749,8 @@ RemoveObserver
 (
 this
 "
+internal
+-
 look
 -
 and
@@ -45981,6 +45985,8 @@ strcmp
 (
 aTopic
 "
+internal
+-
 look
 -
 and
