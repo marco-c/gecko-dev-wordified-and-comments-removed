@@ -332,13 +332,7 @@ gc
 edge
 :
 "
-*
-*
-UNKNOWN
-SLOT
-1
-*
-*
+fun_environment
 "
 }
 {
