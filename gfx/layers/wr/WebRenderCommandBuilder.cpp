@@ -1932,13 +1932,6 @@ true
 else
 if
 (
-aData
--
->
-mInvalid
-|
-|
-(
 aItem
 -
 >
@@ -1952,7 +1945,6 @@ invalid
 .
 IsEmpty
 (
-)
 )
 )
 {
