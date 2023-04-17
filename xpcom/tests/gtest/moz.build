@@ -58,6 +58,11 @@ TestDafsa
 cpp
 "
 "
+TestDelayedRunnable
+.
+cpp
+"
+"
 TestEncoding
 .
 cpp
