@@ -4481,6 +4481,17 @@ return
 0
 ;
 }
+virtual
+void
+SetMaximizeButtonRect
+(
+const
+LayoutDeviceIntRect
+&
+aClientRect
+)
+{
+}
 protected
 :
 nsCOMPtr
