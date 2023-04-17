@@ -168,6 +168,11 @@ TestPriorityQueue
 cpp
 "
 "
+TestQueue
+.
+cpp
+"
+"
 TestRacingServiceManager
 .
 cpp
