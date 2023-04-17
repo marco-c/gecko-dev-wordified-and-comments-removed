@@ -7074,7 +7074,7 @@ mTextNode
 entry
 -
 >
-EndOffsetInTextInBlock
+EndOffsetInTextNode
 (
 )
 )
