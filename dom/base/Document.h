@@ -473,13 +473,6 @@ h
 #
 include
 "
-nsIApplicationCacheContainer
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h
@@ -854,9 +847,6 @@ nsHtml5TreeOpExecutor
 ;
 class
 nsIAppWindow
-;
-class
-nsIApplicationCache
 ;
 class
 nsIAsyncVerifyRedirectCallback
@@ -2005,11 +1995,6 @@ DECL_SHIM
 nsIChannelEventSink
 NSICHANNELEVENTSINK
 )
-DECL_SHIM
-(
-nsIApplicationCacheContainer
-NSIAPPLICATIONCACHECONTAINER
-)
 #
 undef
 DECL_SHIM
@@ -2075,8 +2060,6 @@ public
 nsIRadioGroupContainer
 public
 nsIScriptObjectPrincipal
-public
-nsIApplicationCacheContainer
 public
 DispatcherTrait
 public
@@ -2261,7 +2244,6 @@ while
 (
 0
 )
-NS_DECL_NSIAPPLICATIONCACHECONTAINER
 NS_IMETHOD
 WalkRadioGroup
 (
@@ -11198,12 +11180,6 @@ FlashClassification
 DocumentFlashClassificationInternal
 (
 )
-;
-nsCOMPtr
-<
-nsIApplicationCache
->
-mApplicationCache
 ;
 public
 :
