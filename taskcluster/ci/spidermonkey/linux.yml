@@ -1832,6 +1832,14 @@ linux64
 -
 dump_syms
 -
+sysroot
+-
+x86_64
+-
+linux
+-
+gnu
+-
 wasi
 -
 sysroot
