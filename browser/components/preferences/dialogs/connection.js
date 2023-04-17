@@ -682,6 +682,11 @@ kConfigUpdateTopic
 )
 ;
 }
+{
+once
+:
+true
+}
 )
 ;
 }
