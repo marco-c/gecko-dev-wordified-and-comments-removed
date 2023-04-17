@@ -107,6 +107,13 @@ path
 :
 build
 /
+glean_requirements
+.
+txt
+path
+:
+build
+/
 psutil_requirements
 .
 txt
