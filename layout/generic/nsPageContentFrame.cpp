@@ -1418,7 +1418,7 @@ if
 nsLayoutUtils
 :
 :
-IsProperAncestorFrameCrossDoc
+IsProperAncestorFrameCrossDocInProcess
 (
 aPage
 f
