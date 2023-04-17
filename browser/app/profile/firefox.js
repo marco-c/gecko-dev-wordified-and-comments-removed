@@ -11029,13 +11029,6 @@ page
 "
 \
 "
-cfr
--
-fxa
-\
-"
-\
-"
 aboutwelcome
 \
 "
