@@ -1168,7 +1168,7 @@ _current_session
 =
 webdriver
 .
-BidiSession
+Session
 (
             
 configuration
@@ -1188,13 +1188,25 @@ port
 capabilities
 =
 caps
+            
+enable_bidi
+=
+True
 )
     
 try
 :
         
+_current_session
+.
+start
+(
+)
+        
 await
 _current_session
+.
+bidi_session
 .
 start
 (
@@ -1239,6 +1251,17 @@ WINDOW_POSITION
     
 yield
 _current_session
+.
+bidi_session
+    
+await
+_current_session
+.
+bidi_session
+.
+end
+(
+)
     
 cleanup_session
 (
