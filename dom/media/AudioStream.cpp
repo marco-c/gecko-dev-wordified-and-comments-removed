@@ -3010,9 +3010,6 @@ CheckThreadIdChanged
 (
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 auto
 id
 =
@@ -3036,8 +3033,6 @@ return
 true
 ;
 }
-#
-endif
 return
 false
 ;

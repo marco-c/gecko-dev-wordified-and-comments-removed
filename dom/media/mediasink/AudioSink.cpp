@@ -1554,9 +1554,13 @@ Available
 framesToPop
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
+if
+(
+profiler_can_accept_markers
+(
+)
+)
+{
 mOwnerThread
 -
 >
@@ -1611,8 +1615,7 @@ endTime
 )
 )
 ;
-#
-endif
+}
 UniquePtr
 <
 AudioStream

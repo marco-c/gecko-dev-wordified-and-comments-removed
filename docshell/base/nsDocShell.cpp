@@ -34781,9 +34781,13 @@ thisSite
 )
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
+if
+(
+profiler_can_accept_markers
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -34843,8 +34847,7 @@ DOM
 marker
 )
 ;
-#
-endif
+}
 SetBackgroundLoadIframe
 (
 )

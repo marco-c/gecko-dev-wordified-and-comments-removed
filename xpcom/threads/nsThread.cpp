@@ -1698,9 +1698,6 @@ RegisterCurrentThread
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 const
 bool
 registerWithProfiler
@@ -1733,8 +1730,6 @@ BeginReading
 )
 ;
 }
-#
-endif
 {
 MessageLoop
 loop
@@ -1817,9 +1812,6 @@ UnregisterCurrentThread
 self
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 registerWithProfiler
@@ -1830,8 +1822,6 @@ PROFILER_UNREGISTER_THREAD
 )
 ;
 }
-#
-endif
 NotNull
 <
 nsThreadShutdownContext
