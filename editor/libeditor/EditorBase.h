@@ -5851,17 +5851,6 @@ NotificationForEditorObservers
 aNotification
 )
 ;
-[
-[
-nodiscard
-]
-]
-MOZ_CAN_RUN_SCRIPT
-nsresult
-InsertLineBreakAsSubAction
-(
-)
-;
 enum
 class
 HowToHandleCollapsedRange
