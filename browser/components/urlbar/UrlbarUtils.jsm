@@ -693,6 +693,10 @@ http
 https
 :
 "
+"
+ftp
+:
+"
 ]
 get
 LOCAL_SEARCH_MODES
