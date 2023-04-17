@@ -816,7 +816,7 @@ node
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 IsSpellCheckingTextNode
@@ -979,7 +979,7 @@ node
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mRootNode
 "
@@ -2105,7 +2105,7 @@ aRecurse
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aIndex
 >
@@ -2529,7 +2529,7 @@ Advance
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mDOMWordOffset
 >
@@ -2542,7 +2542,7 @@ index
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mDOMWordOffset
 <
@@ -3253,7 +3253,7 @@ GetText
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 textFragment
 "
@@ -3948,7 +3948,7 @@ nsIContent
 node
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 content
 "
@@ -3972,7 +3972,7 @@ GetText
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 textFragment
 "
@@ -4701,7 +4701,7 @@ aHint
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mSoftText
 .
@@ -5030,7 +5030,7 @@ aSearchForward
 )
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 mSoftText
 .
