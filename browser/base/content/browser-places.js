@@ -3859,6 +3859,8 @@ if
 aTooltip
 .
 triggerNode
+.
+localName
 =
 =
 "
