@@ -624,7 +624,7 @@ A
 {
               
 [
-LenientSetter
+LegacyLenientSetter
 ]
 readonly
 attribute
@@ -663,13 +663,14 @@ harness
 .
 ok
 (
+        
 threw
 "
 Should
 not
 allow
 [
-LenientSetter
+LegacyLenientSetter
 ]
 Promise
 -
@@ -677,6 +678,7 @@ typed
 attributes
 .
 "
+    
 )
     
 parser

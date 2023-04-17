@@ -302,7 +302,7 @@ Element
 pointerLockElement
 ;
 [
-LenientSetter
+LegacyLenientSetter
 ]
 readonly
 attribute

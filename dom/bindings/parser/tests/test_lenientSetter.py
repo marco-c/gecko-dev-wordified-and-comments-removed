@@ -88,7 +88,7 @@ I
 {
           
 [
-LenientSetter
+LegacyLenientSetter
 =
 X
 ]
@@ -130,7 +130,7 @@ I
 PutForwards
 =
 B
-LenientSetter
+LegacyLenientSetter
 ]
 readonly
 attribute
@@ -180,7 +180,7 @@ I
           
 [
 Replaceable
-LenientSetter
+LegacyLenientSetter
 ]
 readonly
 attribute
@@ -218,7 +218,7 @@ I
 {
           
 [
-LenientSetter
+LegacyLenientSetter
 ]
 attribute
 long
@@ -255,7 +255,7 @@ I
 {
           
 [
-LenientSetter
+LegacyLenientSetter
 ]
 static
 readonly

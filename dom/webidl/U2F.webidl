@@ -526,7 +526,7 @@ the
 value
 .
 [
-LenientSetter
+LegacyLenientSetter
 Pure
 Cached
 Throws
@@ -610,7 +610,7 @@ the
 value
 .
 [
-LenientSetter
+LegacyLenientSetter
 Pure
 Cached
 Throws

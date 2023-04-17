@@ -18740,7 +18740,7 @@ attr
 getExtendedAttribute
 (
 "
-LenientSetter
+LegacyLenientSetter
 "
 )
 is
@@ -69680,7 +69680,7 @@ member
 getExtendedAttribute
 (
 "
-LenientSetter
+LegacyLenientSetter
 "
 )
 is
@@ -95964,7 +95964,7 @@ getExtendedAttribute
 (
             
 "
-LenientSetter
+LegacyLenientSetter
 "
         
 )
@@ -96693,7 +96693,7 @@ m
 getExtendedAttribute
 (
 "
-LenientSetter
+LegacyLenientSetter
 "
 )
 :

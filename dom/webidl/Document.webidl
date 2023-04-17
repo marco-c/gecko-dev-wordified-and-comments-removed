@@ -2150,7 +2150,7 @@ it
 uppercase
 .
 [
-LenientSetter
+LegacyLenientSetter
 Unscopable
 ]
 readonly
@@ -2171,7 +2171,7 @@ boolean
 mozFullScreen
 ;
 [
-LenientSetter
+LegacyLenientSetter
 NeedsCallerType
 ]
 readonly
