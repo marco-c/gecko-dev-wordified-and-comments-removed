@@ -348,6 +348,12 @@ originAttributesSuffix
 "
 "
 ;
+DOMString
+flags
+=
+"
+"
+;
 }
 ;
 [

@@ -184,6 +184,9 @@ TRR
 nsCString
 originAttributesSuffix
 ;
+nsCString
+flags
+;
 }
 ;
 struct
