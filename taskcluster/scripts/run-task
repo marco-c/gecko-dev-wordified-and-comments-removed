@@ -6352,6 +6352,9 @@ cache
 )
 return
 1
+if
+running_as_root
+:
 purge
 =
 configure_cache_posix
@@ -6486,6 +6489,9 @@ utf
 )
 )
 continue
+if
+running_as_root
+:
 configure_volume_posix
 (
 volume
