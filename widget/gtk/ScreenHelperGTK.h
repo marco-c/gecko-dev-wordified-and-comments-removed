@@ -242,6 +242,9 @@ aId
 ;
 }
 ;
+#
+ifdef
+MOZ_WAYLAND
 class
 ScreenGetterWayland
 :
@@ -357,6 +360,8 @@ mScreenList
 ;
 }
 ;
+#
+endif
 class
 ScreenHelperGTK
 final
