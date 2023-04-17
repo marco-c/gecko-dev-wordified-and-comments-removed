@@ -6,7 +6,7 @@ strict
 const
 TEST_COM_URI
 =
-URL_ROOT_COM
+URL_ROOT_COM_SSL
 +
 "
 examples
