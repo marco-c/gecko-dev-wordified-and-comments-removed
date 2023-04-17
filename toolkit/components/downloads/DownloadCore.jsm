@@ -1613,6 +1613,14 @@ hasBlockedData
 =
 false
 ;
+delete
+this
+.
+_unknownProperties
+?
+.
+errorObj
+;
 this
 .
 start

@@ -2168,6 +2168,17 @@ cancel
 "
 )
 ;
+this
+.
+element
+.
+removeAttribute
+(
+"
+verdict
+"
+)
+;
 }
 this
 .
