@@ -485,7 +485,7 @@ BrowsingContext
 aReturn
 )
 ;
-bool
+void
 Init
 (
 base
