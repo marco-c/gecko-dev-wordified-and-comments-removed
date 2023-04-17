@@ -5243,6 +5243,7 @@ nsIFilePicker
 >
 mFilePicker
 ;
+const
 RefPtr
 <
 HTMLInputElement
