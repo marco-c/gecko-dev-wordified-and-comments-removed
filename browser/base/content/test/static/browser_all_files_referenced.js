@@ -4739,6 +4739,13 @@ aURI
 loadUsingSystemPrincipal
 :
 true
+contentPolicyType
+:
+Ci
+.
+nsIContentPolicy
+.
+TYPE_FETCH
 }
 )
 ;
