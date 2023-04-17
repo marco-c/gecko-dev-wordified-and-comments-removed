@@ -199,7 +199,6 @@ config
 {
 const
 {
-testActor
 helper
 highlighters
 }
@@ -361,9 +360,7 @@ selector
 )
 ;
 await
-testActor
-.
-reflow
+reflowContentPage
 (
 )
 ;
@@ -482,9 +479,7 @@ selector
 )
 ;
 await
-testActor
-.
-reflow
+reflowContentPage
 (
 )
 ;
