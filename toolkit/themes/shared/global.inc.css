@@ -399,6 +399,16 @@ padding
 )
 )
 ;
+-
+-
+toolbarbutton
+-
+icon
+-
+fill
+:
+currentColor
+;
 }
 media
 not
