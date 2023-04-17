@@ -225,17 +225,6 @@ Navigation
 >
 <
 !
-ENTITY
-fullScreenCmd
-.
-label
-"
-Full
-Screen
-"
->
-<
-!
 -
 -
 LOCALIZATION
