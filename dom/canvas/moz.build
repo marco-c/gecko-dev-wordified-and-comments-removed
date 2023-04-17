@@ -360,6 +360,11 @@ QueueParamTraits
 h
 "
 "
+SanitizeRenderer
+.
+h
+"
+"
 TextMetrics
 .
 h
@@ -491,11 +496,6 @@ cpp
 "
 "
 HostWebGLContext
-.
-cpp
-"
-"
-SanitizeRenderer
 .
 cpp
 "
