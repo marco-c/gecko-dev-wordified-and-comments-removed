@@ -3928,6 +3928,7 @@ DeclarationKind
 :
 PrivateMethod
 ;
+}
 closedOver
 =
 ClosedOver
@@ -3935,7 +3936,6 @@ ClosedOver
 :
 Yes
 ;
-}
 kind
 =
 PrivateNameKind
