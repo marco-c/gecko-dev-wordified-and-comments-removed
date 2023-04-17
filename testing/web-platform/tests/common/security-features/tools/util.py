@@ -958,12 +958,12 @@ if
 self
 .
 value
-=
+!
 =
 '
-no
+unsafe
 -
-referrer
+url
 '
 :
                 
