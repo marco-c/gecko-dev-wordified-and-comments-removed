@@ -1449,8 +1449,11 @@ DispatchFocusToTopLevelWindow
 (
 )
 ;
-parent
-:
+async
+DidUnsuppressPainting
+(
+)
+;
 async
 MoveFocus
 (
