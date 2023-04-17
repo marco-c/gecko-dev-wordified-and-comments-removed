@@ -608,6 +608,11 @@ private
 uint32_t
 mBatchInProgress
 ;
+void
+StopObservingOnUnlink
+(
+)
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
