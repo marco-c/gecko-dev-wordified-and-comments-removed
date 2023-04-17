@@ -1787,10 +1787,6 @@ chrome
 -
 mochitest
 -
-media
--
-mochitest
--
 webgl1
 -
 core
@@ -1829,6 +1825,10 @@ plain
 -
 gpu
 -
+mochitest
+-
+media
+-
 test
 -
 verify
@@ -1848,10 +1848,6 @@ mochitest
 browser
 -
 chrome
--
-mochitest
--
-media
 -
 mochitest
 -
@@ -1930,6 +1926,10 @@ mochitest
 plain
 -
 gpu
+-
+mochitest
+-
+media
 -
 mochitest
 -
