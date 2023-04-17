@@ -297,7 +297,7 @@ Properties
 <
 DisplayName
 >
-MOZ_APP_DISPLAYNAME
+APPX_DISPLAYNAME
 <
 /
 DisplayName

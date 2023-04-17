@@ -1614,6 +1614,29 @@ channel
     
 )
     
+if
+channel
+=
+=
+"
+beta
+"
+:
+        
+displayname
++
+=
+"
+Beta
+"
+        
+brandFullName
++
+=
+"
+Beta
+"
+    
 instdir
 =
 "
@@ -1667,6 +1690,12 @@ _MSIX_ARCH
 [
 arch
 ]
+        
+"
+APPX_DISPLAYNAME
+"
+:
+brandFullName
         
 "
 APPX_DESCRIPTION
