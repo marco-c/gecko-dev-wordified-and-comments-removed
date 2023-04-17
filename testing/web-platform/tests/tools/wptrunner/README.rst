@@ -76,6 +76,9 @@ docs
 expectation
 docs
 /
+commands
+docs
+/
 design
 docs
 /
