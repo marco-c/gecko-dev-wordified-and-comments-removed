@@ -420,6 +420,14 @@ mach
 lint
 -
 wo
+.
+.
+_lint
+-
+vcs
+-
+hook
+:
 Using
 a
 VCS
