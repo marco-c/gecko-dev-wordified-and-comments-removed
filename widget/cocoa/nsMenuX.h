@@ -827,7 +827,7 @@ RefPtr
 mozilla
 :
 :
-CancelableRunnable
+Runnable
 >
 >
 mPendingCommandRunnables
