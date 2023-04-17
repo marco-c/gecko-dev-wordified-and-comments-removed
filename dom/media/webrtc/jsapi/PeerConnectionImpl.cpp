@@ -1779,8 +1779,11 @@ mTimeCard
 nullptr
 ;
 }
-PC_AUTO_ENTER_API_CALL_NO_CHECK
+MOZ_ASSERT
 (
+NS_IsMainThread
+(
+)
 )
 ;
 if
@@ -11238,8 +11241,11 @@ ShutdownMedia
 (
 )
 {
-PC_AUTO_ENTER_API_CALL_NO_CHECK
+MOZ_ASSERT
 (
+NS_IsMainThread
+(
+)
 )
 ;
 if

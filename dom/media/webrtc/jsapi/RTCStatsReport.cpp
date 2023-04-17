@@ -56,6 +56,14 @@ nsCOMPtr
 nsPIDOMWindowInner
 >
 window
+;
+if
+(
+aGlobal
+&
+&
+(
+window
 =
 do_QueryInterface
 (
@@ -66,10 +74,7 @@ GetAsSupports
 (
 )
 )
-;
-if
-(
-window
+)
 )
 {
 mRandomTimelineSeed
