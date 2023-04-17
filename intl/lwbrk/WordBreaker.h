@@ -58,6 +58,7 @@ Create
 (
 )
 ;
+static
 WordRange
 FindWord
 (
@@ -71,6 +72,7 @@ uint32_t
 aPos
 )
 ;
+static
 int32_t
 Next
 (
