@@ -432,7 +432,7 @@ dom
 :
 :
 Selection
-*
+&
 aSelection
 )
 ;
