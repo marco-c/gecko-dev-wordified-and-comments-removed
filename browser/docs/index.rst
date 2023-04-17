@@ -38,6 +38,16 @@ maxdepth
 urlbar
 /
 index
+/
+toolkit
+/
+mozapps
+/
+update
+/
+docs
+/
+BackgroundUpdates
 BrowserUsageTelemetry
 components
 /
