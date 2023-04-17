@@ -1124,7 +1124,11 @@ SWGL_CLIP_MASK
 /
 /
 Avoid
-negative
+out
+-
+of
+-
+range
 RGB
 values
 that
@@ -1156,10 +1160,13 @@ generated
 .
 rgb
 =
-max
+clamp
 (
 rgb
 0
+.
+0
+1
 .
 0
 )
