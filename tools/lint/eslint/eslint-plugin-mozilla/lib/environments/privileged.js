@@ -932,6 +932,9 @@ false
 L10nFileSource
 :
 false
+L10nRegistry
+:
+false
 Localization
 :
 false
