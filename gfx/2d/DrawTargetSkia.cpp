@@ -8943,7 +8943,6 @@ minmaxPair
 .
 first
 >
-=
 0
 &
 &
