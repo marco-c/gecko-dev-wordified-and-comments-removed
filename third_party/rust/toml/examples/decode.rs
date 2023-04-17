@@ -10,10 +10,6 @@ extern
 crate
 toml
 ;
-extern
-crate
-serde
-;
 #
 [
 macro_use
