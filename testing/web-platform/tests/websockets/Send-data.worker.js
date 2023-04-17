@@ -13,7 +13,7 @@ js
 importScripts
 (
 '
-websocket
+constants
 .
 sub
 .
@@ -40,7 +40,6 @@ wsocket
 =
 CreateWebSocket
 (
-false
 false
 false
 )
