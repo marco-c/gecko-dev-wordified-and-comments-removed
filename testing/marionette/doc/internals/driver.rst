@@ -20,7 +20,7 @@ js
 autoclass
 :
 :
-driver
+GeckoDriver
 :
 members
 :
