@@ -847,10 +847,9 @@ defines
 )
 )
 )
-        
-else
-:
             
+continue
+        
 assert
 not
 line
@@ -863,6 +862,21 @@ startswith
 (
 "
 MSG_DEF
+"
+)
+        
+assert
+not
+line
+.
+strip
+(
+)
+.
+startswith
+(
+"
+#
 "
 )
     
