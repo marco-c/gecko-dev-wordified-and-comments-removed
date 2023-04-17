@@ -400,6 +400,13 @@ aEchConfig
 )
 override
 ;
+NS_IMETHOD
+DisableEarlyData
+(
+void
+)
+override
+;
 PRStatus
 CloseSocketAndDestroy
 (

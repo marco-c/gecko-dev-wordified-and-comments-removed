@@ -1382,3 +1382,16 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+NS_IMETHODIMP
+CommonSocketControl
+:
+:
+DisableEarlyData
+(
+void
+)
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
