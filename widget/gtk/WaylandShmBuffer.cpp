@@ -77,9 +77,6 @@ prenv
 h
 "
 #
-undef
-LOG
-#
 ifdef
 MOZ_LOGGING
 #

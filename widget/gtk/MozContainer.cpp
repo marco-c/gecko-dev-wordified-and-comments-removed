@@ -59,9 +59,6 @@ h
 #
 endif
 #
-undef
-LOG
-#
 ifdef
 MOZ_LOGGING
 #
@@ -96,7 +93,7 @@ gWidgetLog
 ;
 #
 define
-LOG
+LOGCONTAINER
 (
 args
 )
@@ -116,7 +113,7 @@ args
 else
 #
 define
-LOG
+LOGCONTAINER
 (
 args
 )
@@ -609,7 +606,7 @@ wl_container
 }
 #
 endif
-LOG
+LOGCONTAINER
 (
 (
 "
@@ -940,7 +937,7 @@ attributes
 attributes_mask
 )
 ;
-LOG
+LOGCONTAINER
 (
 (
 "
@@ -1026,7 +1023,7 @@ widget
 )
 )
 ;
-LOG
+LOGCONTAINER
 (
 (
 "
@@ -1622,3 +1619,6 @@ force_default_visual
 true
 ;
 }
+#
+undef
+LOGCONTAINER
