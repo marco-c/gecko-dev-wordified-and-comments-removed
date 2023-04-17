@@ -46,6 +46,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -171,6 +173,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -425,6 +429,8 @@ click
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (

@@ -566,6 +566,8 @@ await
 shownPromise
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -666,6 +668,8 @@ outerHeight
 )
 ;
 return
+TestUtils
+.
 waitForCondition
 (
 (
@@ -710,6 +714,8 @@ outerHeight
 )
 ;
 return
+TestUtils
+.
 waitForCondition
 (
 (
@@ -1250,6 +1256,8 @@ collapsed
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (

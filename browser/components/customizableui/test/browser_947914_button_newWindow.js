@@ -232,6 +232,8 @@ click
 try
 {
 await
+TestUtils
+.
 waitForCondition
 (
 (

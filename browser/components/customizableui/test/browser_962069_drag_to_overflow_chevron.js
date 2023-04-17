@@ -110,6 +110,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -352,6 +354,8 @@ AREA_NAVBAR
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
