@@ -54,7 +54,6 @@ spatial_tree
 :
 {
 CoordinateSystemId
-StaticCoordinateSystemId
 }
 ;
 use
@@ -286,10 +285,6 @@ coordinate_system_id
 :
 CoordinateSystemId
 pub
-static_coordinate_system_id
-:
-StaticCoordinateSystemId
-pub
 transform_kind
 :
 TransformedRectKind
@@ -325,6 +320,10 @@ is_async_zooming
 bool
 pub
 is_ancestor_or_self_zooming
+:
+bool
+pub
+is_root_coord_system
 :
 bool
 }
@@ -465,9 +464,9 @@ SpatialNodeIndex
 node_type
 :
 SpatialNodeType
-static_coordinate_system_id
+is_root_coord_system
 :
-StaticCoordinateSystemId
+bool
 )
 -
 >
@@ -500,7 +499,6 @@ CoordinateSystemId
 (
 0
 )
-static_coordinate_system_id
 transform_kind
 :
 TransformedRectKind
@@ -529,6 +527,7 @@ false
 is_ancestor_or_self_zooming
 :
 false
+is_root_coord_system
 }
 }
 pub
@@ -561,9 +560,9 @@ ScrollFrameKind
 external_scroll_offset
 :
 LayoutVector2D
-static_coordinate_system_id
+is_root_coord_system
 :
-StaticCoordinateSystemId
+bool
 )
 -
 >
@@ -644,7 +643,7 @@ Some
 parent_index
 )
 node_type
-static_coordinate_system_id
+is_root_coord_system
 )
 }
 pub
@@ -675,9 +674,9 @@ LayoutVector2D
 pipeline_id
 :
 PipelineId
-static_coordinate_system_id
+is_root_coord_system
 :
-StaticCoordinateSystemId
+bool
 )
 -
 >
@@ -711,7 +710,7 @@ ReferenceFrame
 (
 info
 )
-static_coordinate_system_id
+is_root_coord_system
 )
 }
 pub
@@ -727,9 +726,9 @@ StickyFrameInfo
 pipeline_id
 :
 PipelineId
-static_coordinate_system_id
+is_root_coord_system
 :
-StaticCoordinateSystemId
+bool
 )
 -
 >
@@ -752,7 +751,7 @@ StickyFrame
 (
 sticky_frame_info
 )
-static_coordinate_system_id
+is_root_coord_system
 )
 }
 pub
