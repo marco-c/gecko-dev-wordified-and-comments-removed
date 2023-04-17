@@ -37,7 +37,7 @@ MAX_SAVED_DATAGRAMS
 :
 usize
 =
-32
+4
 ;
 pub
 struct
