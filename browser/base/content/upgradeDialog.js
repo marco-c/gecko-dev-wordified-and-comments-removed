@@ -1250,11 +1250,6 @@ primary
 .
 focus
 (
-{
-preventFocusRing
-:
-true
-}
 )
 ;
 if
