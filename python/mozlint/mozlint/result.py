@@ -748,17 +748,6 @@ self
 path
 )
             
-if
-self
-.
-path
-.
-startswith
-(
-root
-)
-:
-                
 self
 .
 relpath
@@ -772,17 +761,6 @@ self
 path
 root
 )
-            
-else
-:
-                
-self
-.
-relpath
-=
-self
-.
-path
         
 else
 :
