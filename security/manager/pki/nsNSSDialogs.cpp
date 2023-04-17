@@ -1436,11 +1436,6 @@ do_GetInterface
 ctx
 )
 ;
-bool
-ignored
-=
-false
-;
 char16_t
 *
 pwTemp
@@ -1463,9 +1458,6 @@ get
 )
 &
 pwTemp
-nullptr
-&
-ignored
 _retval
 )
 ;
