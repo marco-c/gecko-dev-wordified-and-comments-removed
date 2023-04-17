@@ -590,7 +590,7 @@ gcc
 .
 tar
 .
-xz
+zst
 gcc
 /
 popd
@@ -899,7 +899,7 @@ mingw32
 .
 tar
 .
-xz
+zst
 (
 basename
 install_dir

@@ -24,7 +24,7 @@ HOME
 workspace
 COMPRESS_EXT
 =
-xz
+zst
 CROSS_CCTOOLS_PATH
 =
 MOZ_FETCHES_DIR

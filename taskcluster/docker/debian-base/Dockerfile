@@ -261,6 +261,8 @@ tiny
 xz
 -
 utils
+\
+zstd
 #
 %
 include

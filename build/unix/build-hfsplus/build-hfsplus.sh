@@ -334,7 +334,7 @@ tools
 .
 tar
 .
-xz
+zst
 hfsplus
 -
 tools
