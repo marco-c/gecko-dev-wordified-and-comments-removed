@@ -32549,6 +32549,12 @@ mStatus
 =
 =
 NS_ERROR_NET_TIMEOUT
+|
+|
+mStatus
+=
+=
+NS_ERROR_NET_RESET
 )
 )
 {
