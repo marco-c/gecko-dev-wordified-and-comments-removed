@@ -201,9 +201,9 @@ requires
 rustc
 1
 .
-31
+36
 .
-1
+0
 .
 Add
 to

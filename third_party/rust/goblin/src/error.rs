@@ -14,9 +14,6 @@ core
 fmt
 ;
 use
-crate
-:
-:
 alloc
 :
 :

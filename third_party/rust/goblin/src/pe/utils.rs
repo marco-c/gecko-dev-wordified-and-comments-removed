@@ -5,9 +5,6 @@ scroll
 Pread
 ;
 use
-crate
-:
-:
 alloc
 :
 :

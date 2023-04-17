@@ -1576,9 +1576,6 @@ endian_fd
 )
 ]
 use
-crate
-:
-:
 alloc
 :
 :

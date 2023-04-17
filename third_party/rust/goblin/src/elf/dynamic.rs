@@ -1229,9 +1229,6 @@ strtab
 Strtab
 ;
 use
-crate
-:
-:
 alloc
 :
 :
@@ -1906,6 +1903,11 @@ valid
 let
 bytes
 =
+if
+filesz
+>
+0
+{
 bytes
 .
 pread_with
@@ -1966,6 +1968,13 @@ filesz
 )
 )
 ?
+}
+else
+{
+&
+[
+]
+}
 ;
 let
 size
@@ -2320,9 +2329,6 @@ core
 slice
 ;
 use
-crate
-:
-:
 alloc
 :
 :

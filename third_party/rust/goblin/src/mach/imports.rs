@@ -30,9 +30,6 @@ Pread
 }
 ;
 use
-crate
-:
-:
 alloc
 :
 :

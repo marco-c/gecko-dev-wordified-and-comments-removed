@@ -44,9 +44,6 @@ mach
 load_command
 ;
 use
-crate
-:
-:
 alloc
 :
 :
@@ -56,9 +53,6 @@ vec
 Vec
 ;
 use
-crate
-:
-:
 alloc
 :
 :

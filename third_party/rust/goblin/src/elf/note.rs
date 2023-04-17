@@ -236,9 +236,6 @@ scroll
 ctx
 ;
 use
-crate
-:
-:
 alloc
 :
 :

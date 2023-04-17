@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 alloc
 :
 :
@@ -11,9 +8,6 @@ borrow
 Cow
 ;
 use
-crate
-:
-:
 alloc
 :
 :

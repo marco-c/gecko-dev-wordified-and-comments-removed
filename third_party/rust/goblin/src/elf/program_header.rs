@@ -379,9 +379,6 @@ Container
 }
 ;
 use
-crate
-:
-:
 alloc
 :
 :

@@ -8,9 +8,6 @@ Pwrite
 }
 ;
 use
-crate
-:
-:
 alloc
 :
 :
