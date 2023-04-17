@@ -115,6 +115,10 @@ nsEscape
 .
 h
 "
+using
+namespace
+mozilla
+;
 extern
 nsresult
 Test_NormalizeIPv4

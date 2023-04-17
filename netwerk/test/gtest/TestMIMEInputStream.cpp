@@ -65,6 +65,13 @@ nsIMIMEInputStream
 .
 h
 "
+#
+include
+"
+nsISeekableStream
+.
+h
+"
 using
 mozilla
 :

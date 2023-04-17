@@ -75,6 +75,13 @@ prerror
 h
 "
 #
+include
+"
+nsComponentManagerUtils
+.
+h
+"
+#
 define
 REQUEST
 0x68656c6f

@@ -90,6 +90,17 @@ nsIInterfaceRequestor
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
+using
+namespace
+mozilla
+;
 class
 FakeListener
 :

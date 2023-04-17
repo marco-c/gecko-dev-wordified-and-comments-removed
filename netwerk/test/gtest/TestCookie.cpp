@@ -167,10 +167,15 @@ nsIURI
 h
 "
 using
+namespace
+mozilla
+;
+using
+namespace
 mozilla
 :
 :
-Unused
+net
 ;
 static
 NS_DEFINE_CID
