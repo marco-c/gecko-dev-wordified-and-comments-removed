@@ -197,6 +197,7 @@ PrimaryPointerCapabilities
 AllPointerCapabilities
 SystemVerticalScrollbarWidth
 SystemHorizontalScrollbarHeight
+TouchDeviceSupportPresent
 End
 }
 ;
