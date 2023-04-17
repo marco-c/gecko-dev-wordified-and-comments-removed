@@ -3412,7 +3412,7 @@ Kinja
 platform
 :
 "
-all
+desktop
 "
 name
 :
