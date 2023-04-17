@@ -126,6 +126,10 @@ c_bindings
 libc
 "
 ]
+neon
+=
+[
+]
 iccv4
 -
 enabled

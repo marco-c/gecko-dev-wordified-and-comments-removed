@@ -3,6 +3,17 @@ main
 (
 )
 {
+if
+cfg
+!
+(
+feature
+=
+"
+neon
+"
+)
+{
 println
 !
 (
@@ -19,6 +30,7 @@ RUSTC_BOOTSTRAP
 "
 )
 ;
+}
 let
 target
 =
