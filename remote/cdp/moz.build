@@ -53,6 +53,16 @@ MPL
 0
 /
 .
+JAR_MANIFESTS
++
+=
+[
+"
+jar
+.
+mn
+"
+]
 with
 Files
 (
