@@ -227,15 +227,6 @@ status
 2
 :
             
-print
-(
-resp
-.
-json
-(
-)
-)
-            
 poll
 =
 False
