@@ -79379,6 +79379,7 @@ performFinalChecks
 [
 inner
 self
+principal
 ]
 (
 )
@@ -79419,6 +79420,7 @@ StorageAccessPermissionRequest
 Create
 (
 inner
+principal
 [
 p
 ]
