@@ -1804,6 +1804,11 @@ hr
 )
 )
 ;
+(
+void
+)
+hr
+;
 return
 NS_OK
 ;
