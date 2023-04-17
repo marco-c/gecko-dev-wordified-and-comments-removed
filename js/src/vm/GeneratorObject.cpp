@@ -1201,16 +1201,6 @@ Value
 *
 elements
 =
-const_cast
-<
-AbstractGeneratorObject
-*
->
-(
-this
-)
--
->
 getDenseElements
 (
 )

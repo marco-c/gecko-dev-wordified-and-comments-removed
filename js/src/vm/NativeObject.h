@@ -2089,6 +2089,7 @@ HeapSlotArray
 getDenseElements
 (
 )
+const
 {
 return
 HeapSlotArray
