@@ -1,0 +1,16 @@
+package
+org
+.
+webrtc
+;
+public
+interface
+FecControllerFactoryFactoryInterface
+{
+public
+long
+createNative
+(
+)
+;
+}

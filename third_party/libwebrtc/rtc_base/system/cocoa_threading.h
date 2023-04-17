@@ -1,0 +1,13 @@
+#
+ifndef
+RTC_BASE_SYSTEM_COCOA_THREADING_H_
+#
+define
+RTC_BASE_SYSTEM_COCOA_THREADING_H_
+void
+InitCocoaMultiThreading
+(
+)
+;
+#
+endif
