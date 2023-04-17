@@ -1917,7 +1917,7 @@ key
 isEqualToString
 :
 "
-AXCheckboxSearchKey
+AXCheckBoxSearchKey
 "
 ]
 )
