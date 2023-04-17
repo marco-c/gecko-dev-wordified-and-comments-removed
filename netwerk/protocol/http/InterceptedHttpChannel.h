@@ -154,6 +154,12 @@ mFinishResponseStart
 TimeStamp
 mFinishResponseEnd
 ;
+TimeStamp
+mInterceptedChannelCreationTimestamp
+;
+TimeStamp
+mLastStatusReported
+;
 Atomic
 <
 int64_t
