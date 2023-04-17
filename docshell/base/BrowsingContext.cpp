@@ -15359,6 +15359,15 @@ if
 mCurrentWindowContext
 )
 {
+Canonical
+(
+)
+-
+>
+MaybeScheduleSessionStoreUpdate
+(
+)
+;
 mCurrentWindowContext
 -
 >
