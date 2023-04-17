@@ -488,7 +488,7 @@ lazyRequireGetter
 (
 this
 "
-stringToCauseType
+NetworkUtils
 "
 "
 devtools
@@ -501,11 +501,12 @@ network
 -
 monitor
 /
+utils
+/
 network
 -
-observer
+utils
 "
-true
 )
 ;
 loader
@@ -6249,6 +6250,8 @@ nsILoadInfo
 SEC_ALLOW_CROSS_ORIGIN_SEC_CONTEXT_IS_NULL
 contentPolicyType
 :
+NetworkUtils
+.
 stringToCauseType
 (
 cause
