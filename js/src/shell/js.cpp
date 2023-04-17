@@ -76135,7 +76135,7 @@ JSGC_MAX_BYTES
 )
 ;
 size_t
-availMem
+availMemMB
 =
 op
 .
@@ -76150,7 +76150,7 @@ memory
 ;
 if
 (
-availMem
+availMemMB
 >
 0
 )
@@ -76158,7 +76158,7 @@ availMem
 JS_SetGCParametersBasedOnAvailableMemory
 (
 cx
-availMem
+availMemMB
 )
 ;
 }
