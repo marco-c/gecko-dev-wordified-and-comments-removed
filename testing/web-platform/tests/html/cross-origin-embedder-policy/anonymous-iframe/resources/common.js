@@ -43,11 +43,9 @@ sub_document_token
 ;
 iframe
 .
-crossOrigin
-=
-'
 anonymous
-'
+=
+true
 ;
 document
 .
