@@ -232,7 +232,6 @@ path
 .
 join
 (
-        
 os
 .
 path
@@ -257,15 +256,8 @@ __file__
 manager
 "
 "
-ssl
+tools
 "
-"
-tests
-"
-"
-unit
-"
-    
 )
 )
 import

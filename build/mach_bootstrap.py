@@ -409,6 +409,18 @@ py
 "
     
 "
+security
+/
+manager
+/
+tools
+/
+mach_commands
+.
+py
+"
+    
+"
 taskcluster
 /
 mach_commands

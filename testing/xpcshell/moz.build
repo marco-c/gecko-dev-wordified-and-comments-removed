@@ -5,11 +5,6 @@ TEST_DIRS
 "
 example
 "
-"
-moz
--
-http2
-"
 ]
 TESTING_JS_MODULES
 +
