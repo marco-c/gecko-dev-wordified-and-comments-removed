@@ -15,6 +15,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
