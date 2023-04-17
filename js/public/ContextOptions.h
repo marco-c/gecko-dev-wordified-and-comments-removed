@@ -151,7 +151,7 @@ false
 )
 topLevelAwait_
 (
-false
+true
 )
 {
 }
