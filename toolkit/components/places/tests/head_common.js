@@ -3143,11 +3143,6 @@ onItemChanged
 )
 {
 }
-onItemMoved
-(
-)
-{
-}
 QueryInterface
 :
 ChromeUtils

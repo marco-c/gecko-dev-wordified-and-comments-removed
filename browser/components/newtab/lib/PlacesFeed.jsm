@@ -198,11 +198,6 @@ skipTags
 true
 ;
 }
-onItemMoved
-(
-)
-{
-}
 onItemChanged
 (
 )

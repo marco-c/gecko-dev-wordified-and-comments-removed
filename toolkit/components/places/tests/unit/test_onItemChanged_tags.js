@@ -229,11 +229,6 @@ resolve
 }
 }
 }
-onItemMoved
-(
-)
-{
-}
 }
 ;
 PlacesUtils
