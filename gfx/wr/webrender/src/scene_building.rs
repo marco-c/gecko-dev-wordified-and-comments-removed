@@ -85,7 +85,6 @@ api
 PropertyBinding
 ReferenceFrameKind
 ScrollFrameDescriptor
-ScrollSensitivity
 ReferenceFrameMapper
 }
 ;
@@ -3551,9 +3550,6 @@ info
 frame_rect
 &
 content_size
-info
-.
-scroll_sensitivity
 ScrollFrameKind
 :
 :
@@ -3811,10 +3807,6 @@ bounds
 size
 (
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :
@@ -8933,10 +8925,6 @@ viewport_rect
 size
 (
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :
@@ -9469,9 +9457,6 @@ content_size
 :
 &
 LayoutSize
-scroll_sensitivity
-:
-ScrollSensitivity
 frame_kind
 :
 ScrollFrameKind
@@ -9500,7 +9485,6 @@ external_id
 pipeline_id
 frame_rect
 content_size
-scroll_sensitivity
 frame_kind
 external_scroll_offset
 uid

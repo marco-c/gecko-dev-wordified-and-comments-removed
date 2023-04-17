@@ -9993,12 +9993,6 @@ LayoutRect
 frame_rect
 :
 LayoutRect
-scroll_sensitivity
-:
-di
-:
-:
-ScrollSensitivity
 external_scroll_offset
 :
 LayoutVector2D
@@ -10091,7 +10085,6 @@ current_offset
 parent_space
 scroll_frame_id
 external_id
-scroll_sensitivity
 external_scroll_offset
 key
 }

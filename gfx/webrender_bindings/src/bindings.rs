@@ -14121,10 +14121,6 @@ pipeline_id
 )
 content_rect
 clip_rect
-ScrollSensitivity
-:
-:
-Script
 scroll_offset
 .
 to_vector
