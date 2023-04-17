@@ -3,6 +3,11 @@ UNIFIED_SOURCES
 =
 [
 "
+APZTestAccess
+.
+cpp
+"
+"
 APZTestCommon
 .
 cpp

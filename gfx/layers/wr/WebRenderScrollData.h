@@ -151,6 +151,9 @@ namespace
 layers
 {
 class
+APZTestAccess
+;
+class
 Layer
 ;
 class
@@ -803,7 +806,7 @@ private
 :
 friend
 class
-TestWRScrollData
+APZTestAccess
 ;
 void
 InitializeForTest
@@ -812,6 +815,8 @@ int32_t
 aDescendantCount
 )
 ;
+private
+:
 int32_t
 mDescendantCount
 ;
