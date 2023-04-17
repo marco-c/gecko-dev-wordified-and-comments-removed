@@ -120,6 +120,11 @@ aCenter
 ;
 PER_INSTANCE
 in
+vec2
+aScale
+;
+PER_INSTANCE
+in
 float
 aStartOffset
 ;
@@ -299,6 +304,8 @@ aPosition
 xy
 *
 v_offset_scale
+*
+aScale
 ;
 v_gradient_repeat
 =
