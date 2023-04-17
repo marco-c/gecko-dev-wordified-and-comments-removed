@@ -18805,7 +18805,7 @@ PresContext
 )
 -
 >
-IsRootContentDocument
+IsRootContentDocumentInProcess
 (
 )
 )
