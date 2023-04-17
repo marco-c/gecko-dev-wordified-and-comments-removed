@@ -213,15 +213,6 @@ TransactionWrapper
 aTxn
 )
 ;
-bool
-AdvanceAnimations
-(
-const
-SampleTime
-&
-aSampleTime
-)
-;
 AsyncTransform
 GetCurrentAsyncTransform
 (

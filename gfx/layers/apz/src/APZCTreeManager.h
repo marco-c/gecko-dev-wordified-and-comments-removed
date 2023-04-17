@@ -463,15 +463,6 @@ SampleTime
 aSampleTime
 )
 ;
-bool
-AdvanceAnimations
-(
-const
-SampleTime
-&
-aSampleTime
-)
-;
 APZEventResult
 ReceiveInputEvent
 (
