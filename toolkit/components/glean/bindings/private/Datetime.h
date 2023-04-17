@@ -76,7 +76,7 @@ const
 ;
 Maybe
 <
-nsCString
+PRExplodedTime
 >
 TestGetValue
 (
