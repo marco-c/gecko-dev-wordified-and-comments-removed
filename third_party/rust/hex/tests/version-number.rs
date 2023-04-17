@@ -1,4 +1,12 @@
 #
+!
+[
+allow
+(
+non_fmt_panic
+)
+]
+#
 [
 test
 ]
