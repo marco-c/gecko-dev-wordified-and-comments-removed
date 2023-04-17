@@ -8,6 +8,15 @@ h
 #
 include
 "
+DocAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 LocalAccessible
 -
 inl
