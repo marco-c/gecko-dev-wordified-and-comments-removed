@@ -3705,6 +3705,17 @@ Allow
 )
 )
 .
+CASES
+(
+(
+PR_CAPBSET_READ
+)
+Error
+(
+EINVAL
+)
+)
+.
 Default
 (
 InvalidSyscall
