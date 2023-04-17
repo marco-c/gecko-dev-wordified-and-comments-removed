@@ -150,11 +150,6 @@ testDefineProperty
 cpp
 "
 "
-testDefinePropertyIgnoredAttributes
-.
-cpp
-"
-"
 testDeflateStringToUTF8Buffer
 .
 cpp
