@@ -134,6 +134,9 @@ all
 shaders
 compile
 successfully
+and
+pass
+tests
 .
 python
 script
@@ -162,6 +165,13 @@ unoptimized
 -
 shaders
 test_init
+python
+script
+/
+headless
+.
+py
+test_shaders
 python
 script
 /
