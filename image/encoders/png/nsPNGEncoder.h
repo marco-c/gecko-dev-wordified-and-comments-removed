@@ -129,6 +129,12 @@ numAnimatedFrames
 uint32_t
 *
 numIterations
+int
+*
+zlibLevel
+int
+*
+filters
 uint32_t
 *
 frameDispose
