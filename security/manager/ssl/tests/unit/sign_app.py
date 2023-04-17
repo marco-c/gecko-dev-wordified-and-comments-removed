@@ -59,17 +59,57 @@ StringIO
 import
 os
 import
+re
+import
+six
+import
+sys
+import
+zipfile
+sys
+.
+path
+.
+insert
+(
+0
+os
+.
+path
+.
+join
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+"
+.
+.
+"
+"
+.
+.
+"
+"
+.
+.
+"
+"
+tools
+"
+)
+)
+import
 pycert
 import
 pycms
 import
 pykey
-import
-re
-import
-six
-import
-zipfile
 ES256
 =
 -
@@ -722,6 +762,10 @@ issuerKey
 =
 "
 "
+validity
+=
+"
+"
 )
 :
     
@@ -881,6 +925,23 @@ s
 %
 issuerKey
     
+if
+validity
+:
+        
+certSpecification
++
+=
+"
+\
+nvalidity
+:
+%
+s
+"
+%
+validity
+    
 certSpecificationStream
 =
 StringIO
@@ -914,6 +975,7 @@ coseAlgorithmToSignatureParams
 (
 coseAlgorithm
 issuerName
+certValidity
 )
 :
     
@@ -1062,6 +1124,8 @@ True
 "
 default
 "
+        
+certValidity
     
 )
     
@@ -1086,6 +1150,8 @@ outputFile
 issuerName
     
 rootName
+    
+certValidity
     
 manifestHashes
     
@@ -1433,12 +1499,22 @@ intermediate
 =
 getCert
 (
+                    
 coseIssuerName
+                    
 "
 default
 "
+                    
 rootName
+                    
 False
+                    
+"
+"
+                    
+certValidity
+                
 )
                 
 intermediate
@@ -1462,8 +1538,13 @@ signatures
                 
 coseAlgorithmToSignatureParams
 (
+                    
 coseAlgorithm
+                    
 coseIssuerName
+                    
+certValidity
+                
 )
                 
 for
@@ -1714,6 +1795,23 @@ digitalSignature
 "
             
 )
+            
+if
+certValidity
+:
+                
+cmsSpecification
++
+=
+"
+\
+nvalidity
+:
+%
+s
+"
+%
+certValidity
             
 cmsSpecificationStream
 =
@@ -2162,6 +2260,47 @@ add_argument
         
 "
 -
+-
+cert
+-
+validity
+"
+        
+action
+=
+"
+store
+"
+        
+help
+=
+"
+Certificate
+validity
+;
+YYYYMMDD
+-
+YYYYMMDD
+or
+duration
+in
+days
+"
+        
+default
+=
+"
+"
+    
+)
+    
+parser
+.
+add_argument
+(
+        
+"
+-
 m
 "
         
@@ -2509,6 +2648,10 @@ issuer
 parsed
 .
 root
+        
+parsed
+.
+cert_validity
         
 [
 hashNameToFunctionAndIdentifier
