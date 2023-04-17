@@ -256,7 +256,7 @@ if
 mIsX11Display
 )
 {
-LOGDRAW
+LOG
 (
 (
 "
@@ -309,7 +309,7 @@ UseXRender
 )
 )
 {
-LOGDRAW
+LOG
 (
 (
 "
@@ -359,7 +359,7 @@ UseShm
 )
 )
 {
-LOGDRAW
+LOG
 (
 (
 "
@@ -396,7 +396,7 @@ mXDepth
 }
 #
 endif
-LOGDRAW
+LOG
 (
 (
 "
