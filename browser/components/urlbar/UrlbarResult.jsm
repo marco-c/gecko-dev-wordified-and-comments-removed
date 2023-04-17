@@ -1157,9 +1157,11 @@ name
 )
 )
 {
-Cu
+this
 .
-reportError
+logger
+.
+error
 (
 Illegal
 dynamic

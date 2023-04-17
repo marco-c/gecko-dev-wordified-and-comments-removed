@@ -1552,9 +1552,9 @@ fractionalDataArray
 length
 )
 {
-Cu
+logger
 .
-reportError
+error
 (
 "
 fractionalDataArray

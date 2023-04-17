@@ -949,9 +949,11 @@ catch
 ex
 )
 {
-Cu
+this
 .
-reportError
+logger
+.
+error
 (
 Exception
 while

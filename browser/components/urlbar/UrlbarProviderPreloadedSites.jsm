@@ -439,9 +439,11 @@ catch
 ex
 =
 >
-Cu
+this
 .
-reportError
+logger
+.
+error
 (
 ex
 )
