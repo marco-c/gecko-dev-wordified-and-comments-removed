@@ -3607,29 +3607,6 @@ utility_path
                 
 return
             
-if
-isinstance
-(
-file_name
-six
-.
-string_types
-)
-:
-                
-file_name
-=
-file_name
-.
-encode
-(
-sys
-.
-getfilesystemencoding
-(
-)
-)
-            
 status
 =
 subprocess
