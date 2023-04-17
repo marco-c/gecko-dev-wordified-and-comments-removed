@@ -1057,7 +1057,7 @@ mManager
 CheckpointData
 (
 *
-StoragePrincipal
+Principal
 (
 )
 *
@@ -1145,7 +1145,7 @@ mManager
 LoadData
 (
 *
-StoragePrincipal
+Principal
 (
 )
 *

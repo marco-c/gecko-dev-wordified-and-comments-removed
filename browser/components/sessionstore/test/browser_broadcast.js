@@ -76,14 +76,6 @@ close
 )
 ;
 await
-TabStateFlusher
-.
-flush
-(
-browser
-)
-;
-await
 promiseRemoveTabAndSessionState
 (
 tab

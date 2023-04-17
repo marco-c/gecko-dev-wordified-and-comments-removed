@@ -84,9 +84,6 @@ context
 nsIPrincipal
 principal
 ;
-nsIPrincipal
-storagePrincipal
-;
 nsIURI
 documentURI
 ;
