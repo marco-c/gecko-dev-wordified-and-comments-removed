@@ -3964,6 +3964,13 @@ bits
 )
 ;
 async
+PrivateDocShellsExist
+(
+bool
+aExist
+)
+;
+async
 FirstIdle
 (
 )
