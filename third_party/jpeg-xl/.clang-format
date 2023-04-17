@@ -1,0 +1,17 @@
+BasedOnStyle
+:
+Google
+IncludeCategories
+:
+-
+Regex
+:
+'
+^
+<
+hwy
+/
+'
+Priority
+:
+2

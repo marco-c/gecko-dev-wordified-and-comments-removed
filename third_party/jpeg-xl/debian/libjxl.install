@@ -1,0 +1,16 @@
+debian
+/
+tmp
+/
+usr
+/
+lib
+/
+*
+/
+libjxl
+*
+.
+so
+.
+*
