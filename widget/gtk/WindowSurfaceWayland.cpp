@@ -3620,13 +3620,6 @@ return
 nullptr
 ;
 }
-mWaylandDisplay
--
->
-WaitForSyncEnd
-(
-)
-;
 MutexAutoLock
 lock
 (
