@@ -11,6 +11,7 @@ CreateWebSocket
 (
 false
 false
+false
 )
 ;
 assert_throws_dom
