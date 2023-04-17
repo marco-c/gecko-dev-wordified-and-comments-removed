@@ -10,8 +10,6 @@ stage_platform
 android
 -
 arm
--
-lite
 "
     
 "
@@ -31,8 +29,8 @@ android
 -
 arm
 /
-nightly
+profile
 -
-lite
+generate
 "
 }
