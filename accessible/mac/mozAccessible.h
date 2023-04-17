@@ -562,6 +562,13 @@ moxSelected
 ;
 -
 (
+NSNumber
+*
+)
+moxExpanded
+;
+-
+(
 NSValue
 *
 )
