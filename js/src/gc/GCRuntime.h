@@ -4355,10 +4355,8 @@ budget
 )
 ;
 void
-markIncomingCrossCompartmentPointers
+markIncomingGrayCrossCompartmentPointers
 (
-MarkColor
-color
 )
 ;
 IncrementalProgress

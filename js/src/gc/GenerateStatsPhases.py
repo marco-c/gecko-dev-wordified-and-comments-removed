@@ -470,22 +470,6 @@ addPhaseKind
 (
                         
 "
-SWEEP_MARK_INCOMING_BLACK
-"
-"
-Mark
-Incoming
-Black
-Pointers
-"
-12
-                    
-)
-                    
-addPhaseKind
-(
-                        
-"
 SWEEP_MARK_WEAK
 "
                         
