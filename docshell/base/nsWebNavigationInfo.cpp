@@ -297,13 +297,13 @@ case
 nsContentUtils
 :
 :
-TYPE_PLUGIN
+TYPE_FALLBACK
 :
 return
 nsIWebNavigationInfo
 :
 :
-PLUGIN
+FALLBACK
 ;
 case
 nsContentUtils
