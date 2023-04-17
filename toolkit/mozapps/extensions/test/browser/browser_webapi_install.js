@@ -219,14 +219,6 @@ requireBuiltInCerts
 "
 false
 ]
-[
-"
-extensions
-.
-allowPrivateBrowsingByDefault
-"
-false
-]
 ]
 }
 )

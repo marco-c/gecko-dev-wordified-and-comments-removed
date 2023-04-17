@@ -969,15 +969,6 @@ mPermissions
 )
 )
 {
-mAllowPrivateBrowsingByDefault
-=
-StaticPrefs
-:
-:
-extensions_allowPrivateBrowsingByDefault
-(
-)
-;
 MatchPatternOptions
 options
 ;
@@ -2816,9 +2807,6 @@ PrivateBrowsingAllowed
 const
 {
 return
-mAllowPrivateBrowsingByDefault
-|
-|
 HasPermission
 (
 nsGkAtoms
