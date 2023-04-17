@@ -2610,6 +2610,9 @@ bool
 mIsPIPWindow
 ;
 bool
+mIsWaylandPanelWindow
+;
+bool
 mAlwaysOnTop
 ;
 static
