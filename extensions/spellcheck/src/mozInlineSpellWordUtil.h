@@ -440,6 +440,7 @@ false
 )
 {
 }
+const
 RefPtr
 <
 mozilla
@@ -452,9 +453,11 @@ Document
 >
 mDocument
 ;
+const
 bool
 mIsContentEditableOrDesignMode
 ;
+const
 nsINode
 *
 mRootNode

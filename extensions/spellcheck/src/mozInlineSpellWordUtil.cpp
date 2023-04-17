@@ -660,6 +660,7 @@ FindNextNode
 nsINode
 *
 aNode
+const
 nsINode
 *
 aRoot
@@ -798,6 +799,7 @@ nsINode
 aNode
 int32_t
 aOffset
+const
 nsINode
 *
 aRoot
