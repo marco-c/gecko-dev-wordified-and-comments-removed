@@ -51,6 +51,10 @@ uint32_t
 aMaxTableSize
 uint16_t
 aMaxBlockedStreams
+uint64_t
+aMaxData
+uint64_t
+aMaxStreamData
 const
 nsACString
 &
@@ -74,6 +78,8 @@ aLocalAddr
 aRemoteAddr
 aMaxTableSize
 aMaxBlockedStreams
+aMaxData
+aMaxStreamData
 &
 aQlogDir
 (
