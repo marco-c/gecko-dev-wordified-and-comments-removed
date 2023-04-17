@@ -2076,7 +2076,7 @@ RELATIVE_OP
 DESCENDANT_OP
 }
 ;
-nsresult
+void
 addExpr
 (
 Expr

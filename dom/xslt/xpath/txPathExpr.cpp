@@ -52,7 +52,7 @@ mozilla
 :
 WrapUnique
 ;
-nsresult
+void
 PathExpr
 :
 :
@@ -117,9 +117,6 @@ pxi
 pathOp
 =
 aPathOp
-;
-return
-NS_OK
 ;
 }
 nsresult
