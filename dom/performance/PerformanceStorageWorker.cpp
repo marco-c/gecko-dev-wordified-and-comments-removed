@@ -546,7 +546,8 @@ return
 }
 MOZ_ASSERT
 (
-IsCurrentThreadRunningWorker
+!
+NS_IsMainThread
 (
 )
 )
