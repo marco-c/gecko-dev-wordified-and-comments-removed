@@ -12716,10 +12716,6 @@ ObjectFlag
 :
 :
 NotExtensible
-JSObject
-:
-:
-GENERATE_SHAPE
 )
 )
 {

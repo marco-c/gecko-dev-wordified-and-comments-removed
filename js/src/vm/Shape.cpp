@@ -4894,8 +4894,6 @@ HandleObject
 obj
 ObjectFlag
 flag
-GenerateShape
-generateShape
 )
 {
 MOZ_ASSERT
@@ -4983,14 +4981,6 @@ inDictionaryMode
 {
 if
 (
-generateShape
-=
-=
-GENERATE_SHAPE
-)
-{
-if
-(
 !
 NativeObject
 :
@@ -5012,7 +5002,6 @@ NativeObject
 return
 false
 ;
-}
 }
 obj
 -
