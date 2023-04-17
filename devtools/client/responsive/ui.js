@@ -2387,13 +2387,16 @@ reloadBrowser
 }
 this
 .
-emit
+emitForTests
 (
 "
 device
 -
 changed
 "
+{
+reloadNeeded
+}
 )
 ;
 }
@@ -2677,7 +2680,7 @@ reloadBrowser
 }
 this
 .
-emit
+emitForTests
 (
 "
 device
@@ -2686,6 +2689,9 @@ association
 -
 removed
 "
+{
+reloadNeeded
+}
 )
 ;
 }
