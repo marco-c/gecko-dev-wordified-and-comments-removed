@@ -166,6 +166,9 @@ threads
 "
 nostacksampling
 "
+"
+js
+"
 ]
 threads
 :
