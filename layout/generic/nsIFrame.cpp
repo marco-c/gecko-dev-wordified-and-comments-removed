@@ -12816,8 +12816,6 @@ const
 nsDisplayListSet
 &
 aLists
-bool
-aForceBackground
 )
 {
 const
@@ -12876,9 +12874,6 @@ None
 if
 (
 hitTesting
-|
-|
-aForceBackground
 |
 |
 !
@@ -12992,8 +12987,6 @@ const
 nsDisplayListSet
 &
 aLists
-bool
-aForceBackground
 )
 {
 if
@@ -13024,7 +13017,6 @@ DisplayBackgroundUnconditional
 (
 aBuilder
 aLists
-aForceBackground
 )
 ;
 DisplayInsetBoxShadowUnconditional
@@ -59961,20 +59953,6 @@ canvas
 "
 "
 canvas
-"
-)
-;
-AddFrameTypeInfo
-(
-LayoutFrameType
-:
-:
-XULRoot
-"
-xulroot
-"
-"
-xulroot
 "
 )
 ;

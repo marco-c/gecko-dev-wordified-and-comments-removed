@@ -1034,12 +1034,7 @@ nsIPopupContainer
 :
 GetPopupContainer
 (
-PresContext
-(
-)
--
->
-GetPresShell
+PresShell
 (
 )
 )
@@ -11302,12 +11297,7 @@ nsIPopupContainer
 :
 GetPopupContainer
 (
-PresContext
-(
-)
--
->
-GetPresShell
+PresShell
 (
 )
 )
