@@ -1094,6 +1094,8 @@ Register
 rhs
 Register
 srcDest
+Register
+tempEdx
 bool
 isUnsigned
 )
@@ -1104,6 +1106,12 @@ srcDest
 =
 =
 eax
+&
+&
+tempEdx
+=
+=
+edx
 )
 ;
 if
@@ -1149,6 +1157,8 @@ Register
 rhs
 Register
 srcDest
+Register
+tempEdx
 bool
 isUnsigned
 )
@@ -1159,6 +1169,12 @@ srcDest
 =
 =
 eax
+&
+&
+tempEdx
+=
+=
+edx
 )
 ;
 if
