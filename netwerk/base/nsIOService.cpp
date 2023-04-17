@@ -896,6 +896,13 @@ when
 -
 offline
 "
+"
+network
+.
+proxy
+.
+parse_pac_on_socket_process
+"
 nullptr
 }
 ;
