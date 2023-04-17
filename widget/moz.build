@@ -648,11 +648,6 @@ nsIDeviceContextSpec
 h
 "
 "
-nsIPluginWidget
-.
-h
-"
-"
 nsIPrintDialogService
 .
 h
