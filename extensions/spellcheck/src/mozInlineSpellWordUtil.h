@@ -390,11 +390,13 @@ return
 mDocument
 ;
 }
+const
 nsINode
 *
 GetRootNode
 (
 )
+const
 {
 return
 mRootNode

@@ -4833,6 +4833,7 @@ EndOffset
 (
 )
 ;
+const
 nsINode
 *
 rootNode
