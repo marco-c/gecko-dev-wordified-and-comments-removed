@@ -1863,6 +1863,9 @@ enrollExperiment
 valueOverrides
 :
 {
+merinoEnabled
+:
+false
 quickSuggestEnabled
 :
 true
