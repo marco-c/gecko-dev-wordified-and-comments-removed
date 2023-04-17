@@ -201,7 +201,7 @@ h
 #
 include
 "
-DatabaseFileManager
+FileManager
 .
 h
 "
@@ -435,7 +435,7 @@ nodiscard
 ]
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 GetFileManager
 (
@@ -453,7 +453,7 @@ AddFileManager
 (
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 aFileManager
 )
@@ -523,7 +523,7 @@ nsTArray
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 &
@@ -538,7 +538,7 @@ nsTArray
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 &
@@ -570,7 +570,7 @@ nsTArray
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 mPersistentStorageFileManagers
@@ -579,7 +579,7 @@ nsTArray
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 mTemporaryStorageFileManagers
@@ -588,7 +588,7 @@ nsTArray
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 mDefaultStorageFileManagers
@@ -3131,7 +3131,7 @@ nullptr
 }
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 IndexedDatabaseManager
 :
@@ -3194,7 +3194,7 @@ AddFileManager
 (
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 aFileManager
 )
@@ -3203,9 +3203,15 @@ AssertIsOnIOThread
 (
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 aFileManager
+"
+Null
+file
+manager
+!
+"
 )
 ;
 const
@@ -3824,7 +3830,7 @@ mLocale
 }
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 FileManagerInfo
 :
@@ -3910,7 +3916,7 @@ AddFileManager
 (
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 aFileManager
 )
@@ -3923,7 +3929,7 @@ nsTArray
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 &
@@ -4097,7 +4103,7 @@ nsTArray
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 &
@@ -4240,7 +4246,7 @@ nsTArray
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 &

@@ -95,14 +95,7 @@ h
 #
 include
 "
-DatabaseFileInfo
-.
-h
-"
-#
-include
-"
-DatabaseFileManager
+DatabaseFileInfoFwd
 .
 h
 "
@@ -117,6 +110,27 @@ h
 include
 "
 ErrorList
+.
+h
+"
+#
+include
+"
+FileInfoT
+.
+h
+"
+#
+include
+"
+FileManager
+.
+h
+"
+#
+include
+"
+FileManagerBase
 .
 h
 "
@@ -5807,7 +5821,7 @@ NotNull
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 >
@@ -5958,7 +5972,7 @@ MovingNotNull
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 aFileManager
@@ -6102,7 +6116,7 @@ DatabaseConnection
 const
 mConnection
 ;
-DatabaseFileManager
+FileManager
 &
 mFileManager
 ;
@@ -6154,7 +6168,7 @@ UpdateRefcountFunction
 DatabaseConnection
 *
 aConnection
-DatabaseFileManager
+FileManager
 &
 aFileManager
 )
@@ -9607,7 +9621,7 @@ mMetadata
 ;
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 mFileManager
 ;
@@ -9784,7 +9798,7 @@ FullDatabaseMetadata
 aMetadata
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 aFileManager
 RefPtr
@@ -9996,7 +10010,7 @@ return
 mFilePath
 ;
 }
-DatabaseFileManager
+FileManager
 &
 GetFileManager
 (
@@ -10012,7 +10026,7 @@ MovingNotNull
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 GetFileManagerPtr
@@ -13411,7 +13425,7 @@ mRequestedVersion
 ;
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 mFileManager
 ;
@@ -14511,7 +14525,7 @@ mMaybeUniqueIndexTable
 const
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 mFileManager
 ;
@@ -18122,7 +18136,7 @@ NotNull
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 mFileManager
@@ -20140,7 +20154,7 @@ nsClassHashtable
 <
 nsRefPtrHashKey
 <
-DatabaseFileManager
+FileManager
 >
 nsTArray
 <
@@ -20265,7 +20279,7 @@ mShutdownRequested
 nsresult
 AsyncDeleteFile
 (
-DatabaseFileManager
+FileManager
 *
 aFileManager
 int64_t
@@ -20758,7 +20772,7 @@ mOwningEventTarget
 ;
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 mFileManager
 ;
@@ -20783,7 +20797,7 @@ DeleteFilesRunnable
 (
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 aFileManager
 nsTArray
@@ -21976,7 +21990,7 @@ final
 const
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 mFileManager
 ;
@@ -22029,7 +22043,7 @@ FileHelper
 (
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 &
 &
@@ -22799,7 +22813,7 @@ dom
 indexedDB
 :
 :
-DatabaseFileManager
+FileManager
 :
 :
 GetCheckedFileForId
@@ -23806,7 +23820,7 @@ QM_TRY_UNWRAP
 (
 auto
 fileUsage
-DatabaseFileManager
+FileManager
 :
 :
 GetUsage
@@ -23856,7 +23870,7 @@ rv
 Unused
 <
 <
-DatabaseFileManager
+FileManager
 :
 :
 GetUsage
@@ -26658,7 +26672,7 @@ mgr
 const
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 fileManager
 =
@@ -27852,7 +27866,7 @@ gFileHandleThreadPool
 ;
 }
 nsresult
-DatabaseFileManager
+FileManager
 :
 :
 AsyncDeleteFile
@@ -27926,7 +27940,7 @@ MovingNotNull
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 >
 aFileManager
@@ -30558,7 +30572,7 @@ DatabaseConnection
 *
 const
 aConnection
-DatabaseFileManager
+FileManager
 &
 aFileManager
 )
@@ -31710,7 +31724,7 @@ nsIFile
 >
 file
 =
-DatabaseFileManager
+FileManager
 :
 :
 GetFileForId
@@ -31836,7 +31850,7 @@ nsIFile
 >
 file
 =
-DatabaseFileManager
+FileManager
 :
 :
 GetFileForId
@@ -40035,7 +40049,7 @@ FullDatabaseMetadata
 aMetadata
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 aFileManager
 RefPtr
@@ -53163,19 +53177,19 @@ IPC_OK
 )
 ;
 }
-DatabaseFileManager
+FileManager
 :
 :
 MutexType
-DatabaseFileManager
+FileManager
 :
 :
 sMutex
 ;
-DatabaseFileManager
+FileManager
 :
 :
-DatabaseFileManager
+FileManager
 (
 PersistenceType
 aPersistenceType
@@ -53213,7 +53227,7 @@ aEnforcingQuota
 {
 }
 nsresult
-DatabaseFileManager
+FileManager
 :
 :
 Init
@@ -53449,7 +53463,7 @@ DatabaseFileInfo
 *
 >
 (
-FileInfoManagerGuard
+FileManagerGuard
 {
 }
 SafeRefPtrFromThis
@@ -53494,7 +53508,7 @@ nsCOMPtr
 <
 nsIFile
 >
-DatabaseFileManager
+FileManager
 :
 :
 GetDirectory
@@ -53528,7 +53542,7 @@ nsCOMPtr
 <
 nsIFile
 >
-DatabaseFileManager
+FileManager
 :
 :
 GetCheckedDirectory
@@ -53615,7 +53629,7 @@ nsCOMPtr
 <
 nsIFile
 >
-DatabaseFileManager
+FileManager
 :
 :
 GetJournalDirectory
@@ -53649,7 +53663,7 @@ nsCOMPtr
 <
 nsIFile
 >
-DatabaseFileManager
+FileManager
 :
 :
 EnsureJournalDirectory
@@ -53752,7 +53766,7 @@ nsCOMPtr
 <
 nsIFile
 >
-DatabaseFileManager
+FileManager
 :
 :
 GetFileForId
@@ -53795,7 +53809,7 @@ nsCOMPtr
 <
 nsIFile
 >
-DatabaseFileManager
+FileManager
 :
 :
 GetCheckedFileForId
@@ -53886,7 +53900,7 @@ file
 ;
 }
 nsresult
-DatabaseFileManager
+FileManager
 :
 :
 InitDirectory
@@ -54442,7 +54456,7 @@ Result
 FileUsageType
 nsresult
 >
-DatabaseFileManager
+FileManager
 :
 :
 GetUsage
@@ -54663,7 +54677,7 @@ usage
 ;
 }
 nsresult
-DatabaseFileManager
+FileManager
 :
 :
 SyncDeleteFile
@@ -54788,7 +54802,7 @@ journalFile
 ;
 }
 nsresult
-DatabaseFileManager
+FileManager
 :
 :
 SyncDeleteFile
@@ -54985,7 +54999,7 @@ QuotaClient
 :
 AsyncDeleteFile
 (
-DatabaseFileManager
+FileManager
 *
 aFileManager
 int64_t
@@ -56208,7 +56222,7 @@ aInitializing
 {
 QM_TRY
 (
-DatabaseFileManager
+FileManager
 :
 :
 InitDirectory
@@ -56365,7 +56379,7 @@ const
 auto
 &
 fileUsage
-DatabaseFileManager
+FileManager
 :
 :
 GetUsage
@@ -57749,7 +57763,7 @@ DeleteFilesRunnable
 (
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 aFileManager
 nsTArray
@@ -70728,7 +70742,7 @@ Result
 <
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 nsresult
 >
@@ -70752,7 +70766,7 @@ mgr
 ;
 SafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 fileManager
 =
@@ -70778,7 +70792,7 @@ fileManager
 =
 MakeSafeRefPtr
 <
-DatabaseFileManager
+FileManager
 >
 (
 persistenceType
@@ -80296,7 +80310,7 @@ return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
-DatabaseFileManager
+FileManager
 &
 fileManager
 =
