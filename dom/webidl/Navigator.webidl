@@ -1955,6 +1955,8 @@ ChromeOnly
 void
 mozGetUserMediaDevices
 (
+MediaStreamConstraints
+constraints
 MozGetUserMediaDevicesSuccessCallback
 onsuccess
 NavigatorUserMediaErrorCallback

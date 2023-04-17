@@ -16648,6 +16648,10 @@ GetUserMediaDevices
 nsPIDOMWindowInner
 *
 aWindow
+const
+MediaStreamConstraints
+&
+aConstraints
 MozGetUserMediaDevicesSuccessCallback
 &
 aOnSuccess
