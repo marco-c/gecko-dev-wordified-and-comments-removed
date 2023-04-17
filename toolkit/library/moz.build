@@ -1430,13 +1430,6 @@ OS_LIBS
 "
 Xrender
 "
-"
-gthread
--
-2
-.
-0
-"
 ]
 if
 CONFIG
