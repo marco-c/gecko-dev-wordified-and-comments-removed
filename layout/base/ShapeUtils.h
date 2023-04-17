@@ -134,10 +134,6 @@ StyleBasicShape
 const
 nsRect
 &
-aInsetRect
-const
-nsRect
-&
 aRefBox
 nscoord
 aRadii
