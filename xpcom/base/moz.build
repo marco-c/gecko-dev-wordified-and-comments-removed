@@ -320,6 +320,11 @@ nsID
 h
 "
 "
+nsIDUtils
+.
+h
+"
+"
 nsIInterfaceRequestorUtils
 .
 h
