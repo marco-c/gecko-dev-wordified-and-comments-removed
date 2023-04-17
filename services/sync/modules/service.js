@@ -652,7 +652,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillSync
 .
@@ -697,7 +697,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillSync
 .
