@@ -15,7 +15,7 @@ h
 namespace
 detail
 {
-void
+nsresult
 ProxyReleaseChooser
 <
 true
@@ -38,6 +38,7 @@ bool
 aAlwaysProxy
 )
 {
+return
 :
 :
 detail

@@ -231,7 +231,7 @@ template
 typename
 T
 >
-void
+nsresult
 ProxyRelease
 (
 const
@@ -272,6 +272,7 @@ aTarget
 )
 {
 return
+NS_ERROR_INVALID_ARG
 ;
 }
 if
@@ -308,6 +309,7 @@ onCurrentThread
 )
 {
 return
+NS_OK
 ;
 }
 }
@@ -365,6 +367,9 @@ leaking
 )
 ;
 }
+return
+rv
+;
 }
 template
 <
@@ -380,7 +385,7 @@ typename
 T
 >
 static
-void
+nsresult
 ProxyRelease
 (
 const
@@ -399,6 +404,7 @@ bool
 aAlwaysProxy
 )
 {
+return
 :
 :
 detail
@@ -436,7 +442,7 @@ typename
 T
 >
 static
-void
+nsresult
 ProxyRelease
 (
 const
@@ -455,6 +461,7 @@ bool
 aAlwaysProxy
 )
 {
+return
 ProxyReleaseISupports
 (
 aName
@@ -472,7 +479,7 @@ aAlwaysProxy
 ;
 }
 static
-void
+nsresult
 ProxyReleaseISupports
 (
 const
@@ -500,7 +507,7 @@ T
 inline
 NS_HIDDEN_
 (
-void
+nsresult
 )
 NS_ProxyRelease
 (
@@ -522,6 +529,7 @@ aAlwaysProxy
 false
 )
 {
+return
 :
 :
 detail
