@@ -2002,7 +2002,11 @@ ZoomConstraints
 ScrollableLayerGuid
 :
 :
-HashFn
+HashIgnoringPresShellFn
+ScrollableLayerGuid
+:
+:
+EqualIgnoringPresShellFn
 >
 mZoomConstraints
 ;
