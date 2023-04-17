@@ -193,6 +193,8 @@ int
 start
 int
 end
+boolean
+causedOnlyByComposition
 )
 ;
 /
