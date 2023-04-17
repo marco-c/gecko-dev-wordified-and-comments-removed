@@ -126,7 +126,7 @@ ARCH
 str
 =
 "
-unknown
+Unknown
 "
 ;
 #
@@ -169,7 +169,7 @@ unwrap_or_else
 |
 |
 "
-unknown
+Unknown
 "
 .
 to_owned
@@ -214,7 +214,7 @@ get_os_version
 String
 {
 "
-unknown
+Unknown
 "
 .
 to_owned
@@ -255,7 +255,7 @@ unwrap_or_else
 |
 |
 "
-unknown
+Unknown
 "
 .
 to_owned
