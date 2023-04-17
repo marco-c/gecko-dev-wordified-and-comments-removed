@@ -1442,7 +1442,7 @@ targetType
 await
 targetHelperModule
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 {
 watcher
@@ -1501,7 +1501,7 @@ targetActor
 await
 targetActor
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 "
 resources
@@ -1646,7 +1646,7 @@ targetType
 ;
 targetHelperModule
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 {
 watcher
@@ -1705,7 +1705,7 @@ targetActor
 {
 targetActor
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 "
 resources
@@ -1847,7 +1847,7 @@ entries
 {
 WatcherRegistry
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 this
 type
@@ -1911,7 +1911,7 @@ targetType
 await
 targetHelperModule
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 {
 watcher
@@ -1943,7 +1943,7 @@ targetActor
 await
 targetActor
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 type
 entries
@@ -1959,7 +1959,7 @@ entries
 {
 WatcherRegistry
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 this
 type
@@ -2016,7 +2016,7 @@ targetType
 ;
 targetHelperModule
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 {
 watcher
@@ -2046,7 +2046,7 @@ targetActor
 {
 targetActor
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 type
 entries

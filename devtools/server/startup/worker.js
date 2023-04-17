@@ -451,7 +451,7 @@ push
 (
 workerTargetActor
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 type
 entries
@@ -474,7 +474,7 @@ case
 "
 add
 -
-watcher
+session
 -
 data
 -
@@ -493,7 +493,7 @@ forwardingPrefix
 .
 workerTargetActor
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 packet
 .
@@ -513,7 +513,7 @@ stringify
 type
 :
 "
-watcher
+session
 -
 data
 -
@@ -531,7 +531,7 @@ case
 "
 remove
 -
-watcher
+session
 -
 data
 -
@@ -550,7 +550,7 @@ forwardingPrefix
 .
 workerTargetActor
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 packet
 .

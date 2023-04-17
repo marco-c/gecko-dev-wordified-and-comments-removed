@@ -134,7 +134,7 @@ proto
 {
 targetType
 async
-addWatcherDataEntry
+addSessionDataEntry
 (
 type
 entries
@@ -606,7 +606,7 @@ entries
 ;
 }
 }
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 type
 entries

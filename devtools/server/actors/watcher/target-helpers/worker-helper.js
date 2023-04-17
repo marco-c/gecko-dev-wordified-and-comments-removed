@@ -193,7 +193,7 @@ browserId
 }
 async
 function
-addWatcherDataEntry
+addSessionDataEntry
 (
 {
 watcher
@@ -238,7 +238,7 @@ getActor
 DEVTOOLS_WORKER_JS_WINDOW_ACTOR_NAME
 )
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 {
 watcherActorID
@@ -274,7 +274,7 @@ promises
 ;
 }
 function
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 {
 watcher
@@ -310,7 +310,7 @@ getActor
 DEVTOOLS_WORKER_JS_WINDOW_ACTOR_NAME
 )
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 {
 watcherActorID
@@ -397,7 +397,7 @@ exports
 {
 createTargets
 destroyTargets
-addWatcherDataEntry
-removeWatcherDataEntry
+addSessionDataEntry
+removeSessionDataEntry
 }
 ;

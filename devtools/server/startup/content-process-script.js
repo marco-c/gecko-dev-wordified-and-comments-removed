@@ -231,7 +231,7 @@ debug
 :
 add
 -
-watcher
+session
 -
 data
 -
@@ -253,7 +253,7 @@ debug
 :
 remove
 -
-watcher
+session
 -
 data
 -
@@ -354,7 +354,7 @@ debug
 :
 add
 -
-watcher
+session
 -
 data
 -
@@ -376,7 +376,7 @@ debug
 :
 remove
 -
-watcher
+session
 -
 data
 -
@@ -483,7 +483,7 @@ debug
 :
 add
 -
-watcher
+session
 -
 data
 -
@@ -492,7 +492,7 @@ entry
 :
 this
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 msg
 .
@@ -519,7 +519,7 @@ debug
 :
 remove
 -
-watcher
+session
 -
 data
 -
@@ -528,7 +528,7 @@ entry
 :
 this
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 msg
 .
@@ -836,7 +836,7 @@ initialData
 {
 actor
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 type
 initialData
@@ -922,7 +922,7 @@ watcherActorID
 ;
 }
 async
-addWatcherDataEntry
+addSessionDataEntry
 (
 watcherActorID
 type
@@ -980,7 +980,7 @@ connectionInfo
 await
 actor
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 type
 entries
@@ -997,7 +997,7 @@ debug
 :
 add
 -
-watcher
+session
 -
 data
 -
@@ -1011,7 +1011,7 @@ watcherActorID
 )
 ;
 }
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 watcherActorID
 type
@@ -1048,7 +1048,7 @@ connectionInfo
 ;
 actor
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 type
 entries

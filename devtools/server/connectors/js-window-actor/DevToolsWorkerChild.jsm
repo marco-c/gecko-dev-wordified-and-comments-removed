@@ -726,7 +726,7 @@ case
 "
 DevToolsWorkerParent
 :
-addWatcherDataEntry
+addSessionDataEntry
 "
 :
 {
@@ -744,7 +744,7 @@ data
 return
 this
 .
-_addWatcherDataEntry
+_addSessionDataEntry
 (
 watcherActorID
 type
@@ -756,7 +756,7 @@ case
 "
 DevToolsWorkerParent
 :
-removeWatcherDataEntry
+removeSessionDataEntry
 "
 :
 {
@@ -774,7 +774,7 @@ data
 return
 this
 .
-_removeWatcherDataEntry
+_removeSessionDataEntry
 (
 watcherActorID
 type
@@ -1542,7 +1542,7 @@ prefix
 ;
 }
 async
-_addWatcherDataEntry
+_addSessionDataEntry
 (
 watcherActorID
 type
@@ -1604,7 +1604,7 @@ promises
 .
 push
 (
-addWatcherDataEntryInWorkerTarget
+addSessionDataEntryInWorkerTarget
 (
 {
 dbg
@@ -1625,7 +1625,7 @@ promises
 )
 ;
 }
-_removeWatcherDataEntry
+_removeSessionDataEntry
 (
 watcherActorID
 type
@@ -1701,7 +1701,7 @@ type
 "
 remove
 -
-watcher
+session
 -
 data
 -
@@ -1880,7 +1880,7 @@ true
 ;
 }
 function
-addWatcherDataEntryInWorkerTarget
+addSessionDataEntryInWorkerTarget
 (
 {
 dbg
@@ -1945,7 +1945,7 @@ type
 =
 =
 "
-watcher
+session
 -
 data
 -
@@ -2000,7 +2000,7 @@ type
 "
 add
 -
-watcher
+session
 -
 data
 -

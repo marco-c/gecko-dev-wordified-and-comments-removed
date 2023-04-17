@@ -969,7 +969,7 @@ actorID
 }
 async
 function
-addWatcherDataEntry
+addSessionDataEntry
 (
 {
 watcher
@@ -1060,7 +1060,7 @@ debug
 :
 add
 -
-watcher
+session
 -
 data
 -
@@ -1119,7 +1119,7 @@ debug
 :
 add
 -
-watcher
+session
 -
 data
 -
@@ -1183,7 +1183,7 @@ debug
 :
 add
 -
-watcher
+session
 -
 data
 -
@@ -1205,7 +1205,7 @@ onAllReplied
 ;
 }
 function
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 {
 watcher
@@ -1225,7 +1225,7 @@ debug
 :
 remove
 -
-watcher
+session
 -
 data
 -
@@ -1250,7 +1250,7 @@ exports
 {
 createTargets
 destroyTargets
-addWatcherDataEntry
-removeWatcherDataEntry
+addSessionDataEntry
+removeSessionDataEntry
 }
 ;
