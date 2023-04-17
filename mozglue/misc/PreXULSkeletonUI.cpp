@@ -9658,9 +9658,6 @@ char
 argv
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 const
 TimeStamp
 skeletonStart
@@ -9672,8 +9669,6 @@ NowUnfuzzed
 (
 )
 ;
-#
-endif
 if
 (
 !

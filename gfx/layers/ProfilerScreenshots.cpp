@@ -146,9 +146,6 @@ DataSourceSurface
 aPopulateSurface
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 RefPtr
 <
 DataSourceSurface
@@ -564,8 +561,6 @@ backingSurface
 )
 )
 ;
-#
-endif
 }
 already_AddRefed
 <

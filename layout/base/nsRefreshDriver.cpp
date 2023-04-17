@@ -5398,9 +5398,6 @@ TimeStamp
 Now
 (
 )
-#
-ifdef
-MOZ_GECKO_PROFILER
 mPresContext
 ?
 MarkerInnerWindowIdFromDocShell
@@ -5419,8 +5416,6 @@ MarkerInnerWindowId
 NoId
 (
 )
-#
-endif
 profiler_capture_backtrace
 (
 )

@@ -300,9 +300,6 @@ Telemetry
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 mozilla
@@ -318,8 +315,6 @@ GeckoProfiler
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -2126,9 +2121,6 @@ Now
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -2172,8 +2164,6 @@ ContentBuildMarker
 )
 ;
 }
-#
-endif
 Telemetry
 :
 :

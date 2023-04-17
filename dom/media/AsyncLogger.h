@@ -568,9 +568,6 @@ aComment
 }
 else
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 auto
 *
 msg
@@ -683,8 +680,6 @@ Push
 msg
 )
 ;
-#
-endif
 }
 }
 }
@@ -878,9 +873,6 @@ aSampleRate
 }
 else
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 auto
 *
 msg
@@ -1008,8 +1000,6 @@ Push
 msg
 )
 ;
-#
-endif
 }
 }
 }
@@ -1107,9 +1097,6 @@ LogLevel
 Verbose
 )
 )
-#
-ifdef
-MOZ_GECKO_PROFILER
 |
 |
 (
@@ -1126,8 +1113,6 @@ profiler_is_active
 (
 )
 )
-#
-endif
 ;
 }
 private
@@ -1206,9 +1191,6 @@ mPayload
 ;
 }
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 {
 struct
 BudgetMarker
@@ -1433,8 +1415,6 @@ BudgetMarker
 }
 }
 }
-#
-endif
 Sleep
 (
 )
@@ -1539,17 +1519,12 @@ TextPayload
 >
 mMessageQueueLog
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 MPSCQueue
 <
 TracePayload
 >
 mMessageQueueProfiler
 ;
-#
-endif
 std
 :
 :
