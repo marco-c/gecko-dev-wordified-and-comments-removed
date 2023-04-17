@@ -262,12 +262,6 @@ Get
 ;
 static
 bool
-ChildProcessHasCompositorBridge
-(
-)
-;
-static
-bool
 CompositorIsInGPUProcess
 (
 )
