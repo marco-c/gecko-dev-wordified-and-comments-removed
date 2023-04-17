@@ -2106,16 +2106,6 @@ Init
 )
 ;
 }
-else
-{
-sCounter
--
->
-Clear
-(
-)
-;
-}
 jemalloc_replace_dynamic
 (
 replace_init
