@@ -962,6 +962,16 @@ return
 mIsTopLevel
 ;
 }
+bool
+ShouldSendWebProgressEventsToParent
+(
+)
+const
+{
+return
+mShouldSendWebProgressEventsToParent
+;
+}
 virtual
 bool
 DoSendBlockingMessage
