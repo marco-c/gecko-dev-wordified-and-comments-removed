@@ -160,9 +160,10 @@ HTMLMenuElement
 ;
 }
 }
-typedef
-nsMappedAttributeElement
+using
 nsGenericHTMLElementBase
+=
+nsMappedAttributeElement
 ;
 class
 nsGenericHTMLElement
@@ -3881,12 +3882,13 @@ mozilla
 namespace
 dom
 {
-typedef
+using
+HTMLContentCreatorFunction
+=
 nsGenericHTMLElement
 *
 (
 *
-HTMLContentCreatorFunction
 )
 (
 already_AddRefed
@@ -3908,7 +3910,6 @@ dom
 :
 :
 FromParser
-aFromParser
 )
 ;
 }

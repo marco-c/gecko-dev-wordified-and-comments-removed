@@ -18466,12 +18466,13 @@ mElements
 ;
 }
 ;
-typedef
+using
+MediaElementURITable
+=
 nsTHashtable
 <
 MediaElementSetForURI
 >
-MediaElementURITable
 ;
 static
 MediaElementURITable
