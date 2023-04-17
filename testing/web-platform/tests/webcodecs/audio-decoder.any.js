@@ -1649,8 +1649,13 @@ reset
 (
 )
 ;
-return
+await
+promise_rejects_exactly
+(
+t
+undefined
 p
+)
 ;
 }
 '
