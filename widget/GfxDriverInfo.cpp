@@ -3685,6 +3685,14 @@ i3
 ;
 DECLARE_DESKTOP_ENVIRONMENT_ID
 (
+Sway
+"
+sway
+"
+)
+;
+DECLARE_DESKTOP_ENVIRONMENT_ID
+(
 Mate
 "
 mate
