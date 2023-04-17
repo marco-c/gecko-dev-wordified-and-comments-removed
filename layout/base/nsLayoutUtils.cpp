@@ -23603,7 +23603,7 @@ nsIFrame
 ExtremumLength
 :
 :
-MozFitContent
+FitContent
 )
 {
 switch

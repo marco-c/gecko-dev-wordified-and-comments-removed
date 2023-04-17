@@ -595,7 +595,7 @@ StyleSize
 Tag
 :
 :
-MozFitContent
+FitContent
 :
 case
 StyleSize
@@ -678,7 +678,7 @@ if
 (
 maxISize
 .
-IsMozFitContent
+IsFitContent
 (
 )
 |
@@ -855,7 +855,7 @@ if
 (
 minISize
 .
-IsMozFitContent
+IsFitContent
 (
 )
 |

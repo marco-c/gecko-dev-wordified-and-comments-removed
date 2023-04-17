@@ -1192,7 +1192,7 @@ MaxContent
 GenericSize
 :
 :
-MozFitContent
+FitContent
 |
 GenericSize
 :

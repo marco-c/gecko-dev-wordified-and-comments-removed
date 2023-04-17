@@ -3640,7 +3640,7 @@ HasPercent
 return
 aCoord
 .
-IsMozFitContent
+IsFitContent
 (
 )
 |
