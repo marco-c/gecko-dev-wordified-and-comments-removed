@@ -15,6 +15,15 @@ include
 "
 mozilla
 /
+EventForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Document
@@ -146,6 +155,8 @@ nsIContent
 aTargetContent
 NSEventModifierFlags
 aModifierFlags
+int16_t
+aButton
 )
 {
 MOZ_ASSERT
@@ -261,7 +272,7 @@ ctrlKey
 altKey
 shiftKey
 cmdKey
-0
+aButton
 nullptr
 0
 rv

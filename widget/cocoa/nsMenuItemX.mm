@@ -723,6 +723,8 @@ DoCommand
 (
 NSEventModifierFlags
 aModifierFlags
+int16_t
+aButton
 )
 {
 if
@@ -786,6 +788,7 @@ DispatchCommandTo
 (
 mContent
 aModifierFlags
+aButton
 )
 ;
 }
