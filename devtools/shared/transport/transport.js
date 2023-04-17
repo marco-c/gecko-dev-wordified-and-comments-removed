@@ -365,7 +365,7 @@ this
 .
 hooks
 .
-onClosed
+onTransportClosed
 (
 reason
 )

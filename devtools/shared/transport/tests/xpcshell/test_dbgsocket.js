@@ -416,7 +416,7 @@ root
 )
 ;
 }
-onClosed
+onTransportClosed
 :
 function
 (
@@ -684,7 +684,7 @@ close
 )
 ;
 }
-onClosed
+onTransportClosed
 :
 function
 (

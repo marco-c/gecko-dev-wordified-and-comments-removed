@@ -311,7 +311,7 @@ close
 )
 ;
 }
-onClosed
+onTransportClosed
 :
 function
 (
@@ -334,7 +334,7 @@ ready
 )
 ;
 }
-onClosed
+onTransportClosed
 :
 function
 (

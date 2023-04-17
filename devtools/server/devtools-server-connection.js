@@ -1513,7 +1513,7 @@ ret
 ;
 }
 }
-onClosed
+onTransportClosed
 (
 status
 )

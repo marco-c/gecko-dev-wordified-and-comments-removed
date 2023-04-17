@@ -2886,7 +2886,7 @@ _transport
 hooks
 =
 {
-onClosed
+onTransportClosed
 :
 reason
 =

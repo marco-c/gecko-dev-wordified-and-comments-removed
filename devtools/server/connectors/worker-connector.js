@@ -484,7 +484,7 @@ transport
 hooks
 =
 {
-onClosed
+onTransportClosed
 :
 (
 )

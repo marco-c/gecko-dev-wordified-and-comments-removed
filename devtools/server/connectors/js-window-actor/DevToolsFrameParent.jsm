@@ -442,7 +442,7 @@ bind
 (
 connection
 )
-onClosed
+onTransportClosed
 (
 )
 {

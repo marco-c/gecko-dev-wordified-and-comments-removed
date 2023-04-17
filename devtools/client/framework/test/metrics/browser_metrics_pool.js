@@ -368,7 +368,7 @@ now
 ;
 conn
 .
-onClosed
+onTransportClosed
 (
 )
 ;

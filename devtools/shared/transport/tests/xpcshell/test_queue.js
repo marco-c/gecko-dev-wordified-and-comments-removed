@@ -349,7 +349,7 @@ transport
 .
 hooks
 .
-onClosed
+onTransportClosed
 =
 (
 )
@@ -637,7 +637,7 @@ noSuchActor
 )
 ;
 }
-onClosed
+onTransportClosed
 :
 function
 (

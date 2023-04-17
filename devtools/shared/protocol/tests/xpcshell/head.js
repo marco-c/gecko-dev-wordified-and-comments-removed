@@ -348,7 +348,7 @@ packet
 )
 ;
 }
-onClosed
+onTransportClosed
 :
 function
 (
@@ -360,14 +360,14 @@ this
 .
 hooks
 .
-onClosed
+onTransportClosed
 )
 {
 this
 .
 hooks
 .
-onClosed
+onTransportClosed
 (
 )
 ;
