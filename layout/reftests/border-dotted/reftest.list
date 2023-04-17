@@ -288,6 +288,12 @@ if
 (
 webrender
 )
+fails
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 border

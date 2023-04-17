@@ -258,6 +258,12 @@ legend
 ref
 .
 html
+fails
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 sticky

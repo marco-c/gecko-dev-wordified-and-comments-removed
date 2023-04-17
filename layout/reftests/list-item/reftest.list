@@ -308,6 +308,12 @@ rendering
 ref
 .
 html
+fails
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 image

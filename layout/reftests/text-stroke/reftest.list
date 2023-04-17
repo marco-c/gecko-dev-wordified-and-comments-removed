@@ -78,6 +78,10 @@ gtkWidget
 &
 !
 webrender
+&
+&
+!
+useDrawSnapshot
 )
 fuzzy
 -
@@ -210,6 +214,10 @@ gtkWidget
 &
 !
 webrender
+&
+&
+!
+useDrawSnapshot
 )
 fuzzy
 -
@@ -357,6 +365,10 @@ gtkWidget
 &
 !
 webrender
+&
+&
+!
+useDrawSnapshot
 )
 fuzzy
 -
@@ -489,6 +501,10 @@ gtkWidget
 &
 !
 webrender
+&
+&
+!
+useDrawSnapshot
 )
 fuzzy
 -
@@ -657,6 +673,10 @@ gtkWidget
 &
 !
 webrender
+&
+&
+!
+useDrawSnapshot
 )
 fuzzy
 -
@@ -789,6 +809,10 @@ gtkWidget
 &
 !
 webrender
+&
+&
+!
+useDrawSnapshot
 )
 fuzzy
 -

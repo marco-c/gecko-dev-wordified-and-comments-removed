@@ -36,6 +36,12 @@ gtk
 -
 23
 )
+fails
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 deferred

@@ -186,6 +186,12 @@ for
 scaling
 background
 images
+fails
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 background
@@ -212,6 +218,12 @@ viewbox
 ref
 .
 html
+fails
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 background

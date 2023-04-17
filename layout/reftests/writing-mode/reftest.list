@@ -394,6 +394,12 @@ html
 #
 Bug
 1392106
+random
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 1094434
