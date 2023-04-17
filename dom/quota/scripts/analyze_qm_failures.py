@@ -457,6 +457,14 @@ rows
 )
 )
 )
+rows
+=
+stackanalysis
+.
+sanitize
+(
+rows
+)
 buildids
 =
 stackanalysis
