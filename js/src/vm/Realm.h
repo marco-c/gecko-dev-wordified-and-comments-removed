@@ -1797,7 +1797,7 @@ global
 )
 ;
 void
-traceGlobal
+traceGlobalData
 (
 JSTracer
 *
@@ -1805,16 +1805,11 @@ trc
 )
 ;
 void
-traceWeakObjects
+traceWeakGlobalEdge
 (
 JSTracer
 *
 trc
-)
-;
-void
-fixupGlobal
-(
 )
 ;
 void

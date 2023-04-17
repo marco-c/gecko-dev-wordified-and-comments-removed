@@ -9178,7 +9178,7 @@ return
 globalRealm
 -
 >
-traceGlobal
+traceGlobalData
 (
 trc
 )
