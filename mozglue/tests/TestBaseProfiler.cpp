@@ -29342,6 +29342,17 @@ profiler_pause
 (
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+!
+baseprofiler
+:
+:
+profiler_thread_is_being_profiled
+(
+)
+)
+;
 Maybe
 <
 baseprofiler
