@@ -36,15 +36,6 @@ HOME
 /
 workspace
 }
-export
-TOOLTOOL_CHECKOUT
-=
-{
-TOOLTOOL_CHECKOUT
-:
--
-WORK
-}
 (
 #
 Create
