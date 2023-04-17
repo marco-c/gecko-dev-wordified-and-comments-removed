@@ -499,9 +499,6 @@ bool
 mIsFullyLoaded
 ;
 bool
-mIsDrawing
-;
-bool
 mHaveAnimations
 ;
 bool

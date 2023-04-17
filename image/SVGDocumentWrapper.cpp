@@ -251,6 +251,10 @@ mRegisteredForXPCOMShutdown
 (
 false
 )
+mIsDrawing
+(
+false
+)
 {
 }
 SVGDocumentWrapper
