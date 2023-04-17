@@ -1809,7 +1809,7 @@ XRE_IsContentProcess
 StaticPrefs
 :
 :
-gfx_webrender_debug_dl_dump_content_serialized
+gfx_webrender_dl_dump_content_serialized
 (
 )
 )

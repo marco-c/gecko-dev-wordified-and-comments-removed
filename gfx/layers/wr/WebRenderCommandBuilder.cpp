@@ -9607,7 +9607,7 @@ XRE_IsParentProcess
 StaticPrefs
 :
 :
-gfx_webrender_debug_dl_dump_parent
+gfx_webrender_dl_dump_parent
 (
 )
 )
@@ -9622,7 +9622,7 @@ XRE_IsContentProcess
 StaticPrefs
 :
 :
-gfx_webrender_debug_dl_dump_content
+gfx_webrender_dl_dump_content
 (
 )
 )
@@ -12085,7 +12085,7 @@ if
 StaticPrefs
 :
 :
-gfx_webrender_debug_highlight_painted_layers
+gfx_webrender_highlight_painted_layers
 (
 )
 )
