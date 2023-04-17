@@ -141,6 +141,7 @@ JS_CODEGEN_MIPS32
 js_jit_gAtomic64Lock
 #
 endif
+IntrI8VecMul
 #
 ifdef
 WASM_CODEGEN_DEBUG
@@ -474,6 +475,11 @@ extern
 const
 SymbolicAddressSignature
 SASigRttSub
+;
+extern
+const
+SymbolicAddressSignature
+SASigIntrI8VecMul
 ;
 bool
 IsRoundingFunction
