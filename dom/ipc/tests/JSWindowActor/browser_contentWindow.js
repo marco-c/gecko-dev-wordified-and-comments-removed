@@ -3,6 +3,20 @@ use
 strict
 "
 ;
+const
+CONTENT_WINDOW_URL
+=
+"
+https
+:
+/
+/
+example
+.
+com
+/
+"
+;
 declTest
 (
 "
@@ -17,7 +31,7 @@ inactive
 matches
 :
 [
-TEST_URL
+CONTENT_WINDOW_URL
 +
 "
 *
@@ -25,7 +39,7 @@ TEST_URL
 ]
 url
 :
-TEST_URL
+CONTENT_WINDOW_URL
 +
 "
 ?
@@ -92,7 +106,7 @@ storeActor
 let
 url
 =
-TEST_URL
+CONTENT_WINDOW_URL
 +
 "
 ?
