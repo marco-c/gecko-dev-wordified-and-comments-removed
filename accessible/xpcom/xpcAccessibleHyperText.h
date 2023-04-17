@@ -112,7 +112,7 @@ private
 :
 HyperTextAccessible
 *
-Intl
+IntlLocal
 (
 )
 {
