@@ -1727,7 +1727,9 @@ width
 uint32_t
 height
 float
-resolution
+resolutionX
+float
+resolutionY
 uint32_t
 stride
 SurfaceFormat
