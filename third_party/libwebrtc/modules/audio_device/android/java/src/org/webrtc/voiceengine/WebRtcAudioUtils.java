@@ -48,6 +48,13 @@ MODE_RINGTONE
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 Context
@@ -1182,6 +1189,12 @@ stream
 ;
 }
 }
+SuppressLint
+(
+"
+WrongConstant
+"
+)
 private
 static
 void

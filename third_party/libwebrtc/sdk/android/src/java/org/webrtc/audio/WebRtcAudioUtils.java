@@ -50,6 +50,13 @@ android
 .
 annotation
 .
+SuppressLint
+;
+import
+android
+.
+annotation
+.
 TargetApi
 ;
 import
@@ -1302,6 +1309,12 @@ stream
 ;
 }
 }
+SuppressLint
+(
+"
+WrongConstant
+"
+)
 private
 static
 void
