@@ -21797,6 +21797,16 @@ numFixedSlots
 )
 ;
 }
+MOZ_ASSERT
+(
+!
+CanChangeToBackgroundAllocKind
+(
+allocKind
+clasp
+)
+)
+;
 static
 const
 uint32_t
