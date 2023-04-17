@@ -813,17 +813,6 @@ aFromSegment
 )
 ;
 void
-SniffBOMlessUTF16BasicLatin
-(
-const
-uint8_t
-*
-aBuf
-size_t
-aBufLen
-)
-;
-void
 FinalizeSniffingWithDetector
 (
 mozilla
