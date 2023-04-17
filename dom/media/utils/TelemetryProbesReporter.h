@@ -167,7 +167,7 @@ OnShutdown
 )
 ;
 double
-GetTotalPlayTimeInSeconds
+GetTotalVideoPlayTimeInSeconds
 (
 )
 const
@@ -436,7 +436,7 @@ TelemetryProbesReporterOwner
 mOwner
 ;
 TimeDurationAccumulator
-mTotalPlayTime
+mTotalVideoPlayTime
 ;
 TimeDurationAccumulator
 mInvisibleVideoPlayTime
