@@ -1194,13 +1194,13 @@ aIsHandlingUserInput
 )
 {
 let
-audioDevices
+audioInputDevices
 =
 [
 ]
 ;
 let
-videoDevices
+videoInputDevices
 =
 [
 ]
@@ -1329,7 +1329,7 @@ microphone
 sharingAudio
 )
 {
-audioDevices
+audioInputDevices
 .
 push
 (
@@ -1432,7 +1432,7 @@ scary
 true
 ;
 }
-videoDevices
+videoInputDevices
 .
 push
 (
@@ -1459,7 +1459,7 @@ requestTypes
 ;
 if
 (
-videoDevices
+videoInputDevices
 .
 length
 )
@@ -1482,7 +1482,7 @@ Camera
 }
 if
 (
-audioDevices
+audioInputDevices
 .
 length
 )
@@ -1627,8 +1627,8 @@ shouldDelegatePermission
 requestTypes
 sharingScreen
 sharingAudio
-audioDevices
-videoDevices
+audioInputDevices
+videoInputDevices
 }
 ;
 let

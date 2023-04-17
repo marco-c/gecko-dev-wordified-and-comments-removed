@@ -1518,8 +1518,8 @@ false
 }
 let
 {
-audioDevices
-videoDevices
+audioInputDevices
+videoInputDevices
 sharingScreen
 }
 =
@@ -1603,7 +1603,7 @@ MediaManagerVideo
 }
 if
 (
-videoDevices
+videoInputDevices
 .
 length
 &
@@ -1692,7 +1692,7 @@ for
 let
 device
 of
-videoDevices
+videoInputDevices
 )
 {
 if
@@ -1770,7 +1770,7 @@ for
 let
 device
 of
-audioDevices
+audioInputDevices
 )
 {
 if
@@ -1848,7 +1848,7 @@ if
 (
 (
 !
-audioDevices
+audioInputDevices
 .
 length
 |
@@ -1862,7 +1862,7 @@ activeMic
 &
 (
 !
-videoDevices
+videoInputDevices
 .
 length
 |
@@ -1882,7 +1882,7 @@ allowedDevices
 ;
 if
 (
-videoDevices
+videoInputDevices
 .
 length
 )
@@ -1897,7 +1897,7 @@ id
 activeCamera
 |
 |
-videoDevices
+videoInputDevices
 [
 0
 ]
@@ -1939,7 +1939,7 @@ id
 }
 if
 (
-audioDevices
+audioInputDevices
 .
 length
 )
@@ -1954,7 +1954,7 @@ id
 activeMic
 |
 |
-audioDevices
+audioInputDevices
 [
 0
 ]
@@ -1983,7 +1983,7 @@ camNeeded
 =
 !
 !
-videoDevices
+videoInputDevices
 .
 length
 &
@@ -1996,7 +1996,7 @@ scrNeeded
 =
 !
 !
-videoDevices
+videoInputDevices
 .
 length
 &
@@ -2008,7 +2008,7 @@ micNeeded
 =
 !
 !
-audioDevices
+audioInputDevices
 .
 length
 ;
@@ -2091,8 +2091,8 @@ aRequest
 {
 let
 {
-audioDevices
-videoDevices
+audioInputDevices
+videoInputDevices
 sharingScreen
 sharingAudio
 requestTypes
@@ -2244,7 +2244,7 @@ return
 if
 (
 (
-audioDevices
+audioInputDevices
 .
 length
 &
@@ -2270,7 +2270,7 @@ BLOCK
 |
 |
 (
-videoDevices
+videoInputDevices
 .
 length
 &
@@ -2890,14 +2890,14 @@ clearTemporaryGrants
 notification
 .
 browser
-videoDevices
+videoInputDevices
 .
 length
 &
 &
 !
 sharingScreen
-audioDevices
+audioInputDevices
 .
 length
 )
@@ -2928,7 +2928,7 @@ SCOPE_PERSISTENT
 }
 if
 (
-audioDevices
+audioInputDevices
 .
 length
 )
@@ -2953,7 +2953,7 @@ browser
 }
 if
 (
-videoDevices
+videoInputDevices
 .
 length
 )
@@ -4672,7 +4672,7 @@ selectCamera
 hidden
 =
 !
-videoDevices
+videoInputDevices
 .
 length
 |
@@ -4697,7 +4697,7 @@ sharingScreen
 |
 |
 !
-videoDevices
+videoInputDevices
 .
 length
 ;
@@ -4715,7 +4715,7 @@ selectMicrophone
 hidden
 =
 !
-audioDevices
+audioInputDevices
 .
 length
 |
@@ -4800,7 +4800,7 @@ sharingScreen
 listScreenShareDevices
 (
 windowMenupopup
-videoDevices
+videoInputDevices
 )
 ;
 checkDisabledWindowMenuItem
@@ -4828,7 +4828,7 @@ label
 listDevices
 (
 camMenupopup
-videoDevices
+videoInputDevices
 labelID
 )
 ;
@@ -4843,7 +4843,7 @@ invalidselection
 ;
 if
 (
-videoDevices
+videoInputDevices
 .
 length
 =
@@ -4898,13 +4898,13 @@ label
 listDevices
 (
 micMenupopup
-audioDevices
+audioInputDevices
 labelID
 )
 ;
 if
 (
-audioDevices
+audioInputDevices
 .
 length
 =
@@ -5026,7 +5026,7 @@ perms
 ;
 if
 (
-videoDevices
+videoInputDevices
 .
 length
 )
@@ -5114,7 +5114,7 @@ mediaSource
 id
 }
 =
-videoDevices
+videoInputDevices
 .
 find
 (
@@ -5165,7 +5165,7 @@ ALLOW
 }
 if
 (
-audioDevices
+audioInputDevices
 .
 length
 )
@@ -5223,7 +5223,7 @@ mediaSource
 id
 }
 =
-audioDevices
+audioInputDevices
 .
 find
 (
@@ -5306,7 +5306,7 @@ camNeeded
 =
 !
 !
-videoDevices
+videoInputDevices
 .
 length
 &
@@ -5319,7 +5319,7 @@ scrNeeded
 =
 !
 !
-videoDevices
+videoInputDevices
 .
 length
 &
@@ -5331,7 +5331,7 @@ micNeeded
 =
 !
 !
-audioDevices
+audioInputDevices
 .
 length
 ;
