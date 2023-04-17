@@ -10060,9 +10060,6 @@ operands
 input
 :
 WordSized
-call_instruction
-:
-true
 #
 Constant
 Simd128
