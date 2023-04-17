@@ -6741,6 +6741,17 @@ double
 r1
 )
 ;
+CanvasGradient
+createConicGradient
+(
+double
+startAngle
+double
+x
+double
+y
+)
+;
 CanvasPattern
 ?
 createPattern
