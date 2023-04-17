@@ -919,8 +919,7 @@ value
 ]
 )
             
-resolvers
-+
+wildcard_resolvers
 =
 self
 .
@@ -938,6 +937,8 @@ tag
 regexp
 in
 resolvers
++
+wildcard_resolvers
 :
                 
 if
