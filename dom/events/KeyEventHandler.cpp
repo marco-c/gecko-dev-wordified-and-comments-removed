@@ -2431,11 +2431,6 @@ cControl
 cControlMask
 ;
 }
-return
-cControl
-|
-cControlMask
-;
 }
 int32_t
 KeyEventHandler
