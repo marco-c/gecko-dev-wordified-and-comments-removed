@@ -57270,11 +57270,7 @@ allocKind
 nativeObj
 -
 >
-asTenured
-(
-)
-.
-getAllocKind
+allocKindForTenure
 (
 )
 ;
