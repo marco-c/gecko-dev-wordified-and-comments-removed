@@ -422,6 +422,7 @@ NS_IMPL_ISUPPORTS
 nsNetworkLinkService
 nsINetworkLinkService
 nsIObserver
+nsITimerCallback
 )
 nsNetworkLinkService
 :

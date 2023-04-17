@@ -307,6 +307,7 @@ nsIHttpPushListener
 nsIInterfaceRequestor
 nsIStreamListener
 nsIRunnable
+nsITimerCallback
 )
 TRR
 :
