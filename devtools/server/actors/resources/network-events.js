@@ -172,6 +172,13 @@ browserId
 this
 .
 browserId
+addonId
+:
+watcherActor
+.
+context
+.
+addonId
 }
 {
 onNetworkEvent

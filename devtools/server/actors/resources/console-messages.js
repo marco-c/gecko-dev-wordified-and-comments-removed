@@ -266,6 +266,16 @@ typeName
 "
 parentProcessTarget
 "
+&
+&
+targetActor
+.
+typeName
+!
+=
+"
+webExtensionTarget
+"
 ?
 targetActor
 .

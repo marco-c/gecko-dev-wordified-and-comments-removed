@@ -238,6 +238,14 @@ chromeGlobal
 =
 chromeGlobal
 ;
+this
+.
+devtoolsSpawnedBrowsingContextForWebExtension
+=
+chromeGlobal
+.
+browsingContext
+;
 const
 extensionWindow
 =
