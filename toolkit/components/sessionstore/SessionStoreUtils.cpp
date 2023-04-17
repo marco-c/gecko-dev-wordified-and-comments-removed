@@ -8125,7 +8125,7 @@ document
 window
 -
 >
-GetDoc
+GetExtantDoc
 (
 )
 ;
