@@ -419,10 +419,6 @@ friend
 class
 AutoChangeNumPendingSpellChecks
 ;
-friend
-class
-mozInlineSpellResume
-;
 enum
 SpellCheckingState
 {
@@ -527,6 +523,16 @@ GetEditorSpellCheck
 (
 )
 ;
+uint32_t
+GetDisabledAsyncToken
+(
+)
+const
+{
+return
+mDisabledAsyncToken
+;
+}
 static
 bool
 CanEnableInlineSpellChecking
