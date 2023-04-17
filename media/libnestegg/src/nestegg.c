@@ -3238,6 +3238,12 @@ struct
 {
 #
 if
+defined
+(
+__FLOAT_WORD_ORDER__
+)
+&
+&
 __FLOAT_WORD_ORDER__
 =
 =
