@@ -622,7 +622,7 @@ settings
 label
 =
 Protection
-Settings
+settings
 protections
 -
 panel
@@ -632,7 +632,7 @@ protectionsdashboard
 label
 =
 Protections
-Dashboard
+dashboard
 #
 #
 In
@@ -1093,8 +1093,8 @@ settings
 label
 =
 Manage
-Protection
-Settings
+protection
+settings
 .
 accesskey
 =
