@@ -300,7 +300,7 @@ aScrollPosition
 )
 ;
 static
-void
+uint32_t
 CollectFormData
 (
 Document
