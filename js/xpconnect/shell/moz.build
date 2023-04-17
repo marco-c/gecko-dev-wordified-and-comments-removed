@@ -203,6 +203,15 @@ xul
 dll
 "
 ]
+LINK_FLAGS
+[
+"
+CETCOMPAT
+"
+]
+=
+[
+]
 CFLAGS
 +
 =

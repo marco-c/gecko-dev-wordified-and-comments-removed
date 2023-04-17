@@ -513,6 +513,15 @@ winlauncher
 freestanding
 "
 ]
+LINK_FLAGS
+[
+"
+CETCOMPAT
+"
+]
+=
+[
+]
 if
 CONFIG
 [
