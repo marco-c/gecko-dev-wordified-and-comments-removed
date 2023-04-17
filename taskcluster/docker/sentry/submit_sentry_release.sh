@@ -67,15 +67,7 @@ v1
 /
 secret
 /
-project
-/
-engwf
-/
-gecko
-/
-3
-/
-tokens
+SENTRY_SECRET
 "
 |
 jq
