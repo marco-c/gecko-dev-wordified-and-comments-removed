@@ -101,7 +101,7 @@ liblowercase
 .
 tar
 .
-zst
+xz
 liblowercase
 mkdir
 -
@@ -114,5 +114,5 @@ liblowercase
 .
 tar
 .
-zst
+xz
 UPLOAD_DIR

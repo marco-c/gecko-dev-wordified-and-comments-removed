@@ -153,7 +153,7 @@ sccache
 .
 tar
 .
-zst
+xz
 fetches
 :
 toolchain
@@ -237,7 +237,7 @@ sccache
 .
 tar
 .
-zst
+xz
 fetches
 :
 toolchain
@@ -339,7 +339,7 @@ sccache
 .
 tar
 .
-zst
+xz
 fetches
 :
 toolchain
@@ -447,7 +447,7 @@ sccache
 .
 tar
 .
-zst
+bz2
 resources
 :
 -

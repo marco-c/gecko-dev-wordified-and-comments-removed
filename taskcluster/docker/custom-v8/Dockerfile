@@ -76,4 +76,4 @@ unzip
 \
 wget
 \
-zstd
+zip

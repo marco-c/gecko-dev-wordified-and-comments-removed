@@ -81,7 +81,7 @@ artifacts
 cd
 tools
 tar
-caf
+cjf
 /
 builds
 /
@@ -93,5 +93,5 @@ browsertime
 .
 tar
 .
-zst
+bz2
 browsertime

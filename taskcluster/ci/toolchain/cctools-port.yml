@@ -142,7 +142,7 @@ cctools
 .
 tar
 .
-zst
+xz
 tooltool
 -
 downloads
@@ -216,7 +216,7 @@ cctools
 .
 tar
 .
-zst
+xz
 tooltool
 -
 downloads
