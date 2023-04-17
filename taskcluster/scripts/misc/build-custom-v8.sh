@@ -27,9 +27,7 @@ ARTIFACT_NAME
 '
 d8
 .
-tar
-.
-zst
+zip
 '
 CONFIG
 =
@@ -237,8 +235,9 @@ R
 +
 x
 d8
-tar
-caf
+zip
+-
+r
 ARTIFACT_NAME
 d8
 mkdir

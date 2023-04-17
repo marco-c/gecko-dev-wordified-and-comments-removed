@@ -86,14 +86,14 @@ dsymutil
 /
 '
 -
-caf
+Jcf
 llvm
 -
 dsymutil
 .
 tar
 .
-zst
+xz
 bin
 /
 dsymutil
@@ -113,5 +113,5 @@ dsymutil
 .
 tar
 .
-zst
+xz
 UPLOAD_DIR

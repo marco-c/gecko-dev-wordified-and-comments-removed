@@ -185,7 +185,7 @@ infer
 .
 tar
 .
-zst
+xz
 linux64
 -
 llvm
@@ -234,7 +234,7 @@ dsymutil
 .
 tar
 .
-zst
+xz
 fetches
 :
 fetch
@@ -319,7 +319,7 @@ binutils
 .
 tar
 .
-zst
+xz
 fetches
 :
 fetch
@@ -443,7 +443,7 @@ binutils
 .
 tar
 .
-zst
+xz
 fetches
 :
 fetch
@@ -570,7 +570,7 @@ tools
 .
 tar
 .
-zst
+xz
 fetches
 :
 fetch
@@ -634,7 +634,7 @@ dmg
 .
 tar
 .
-zst
+xz
 fetches
 :
 fetch
@@ -726,7 +726,7 @@ tools
 .
 tar
 .
-zst
+xz
 resources
 :
 -
@@ -824,7 +824,7 @@ upx
 .
 tar
 .
-zst
+xz
 linux64
 -
 msix
@@ -959,9 +959,7 @@ arguments
 [
 d8
 .
-tar
-.
-zst
+zip
 is_debug
 =
 false
@@ -981,9 +979,7 @@ build
 /
 d8
 .
-tar
-.
-zst
+zip
 browsertime
 :
 description
@@ -1060,7 +1056,7 @@ browsertime
 .
 tar
 .
-zst
+bz2
 fetches
 :
 toolchain
@@ -1166,7 +1162,7 @@ deps
 .
 tar
 .
-zst
+bz2
 fetches
 :
 fetch
@@ -1238,7 +1234,7 @@ liblowercase
 .
 tar
 .
-zst
+xz
 resources
 :
 -
@@ -1313,7 +1309,7 @@ wine
 .
 tar
 .
-zst
+xz
 fetches
 :
 fetch
@@ -1366,14 +1362,14 @@ pdbstr
 .
 tar
 .
-zst
+bz2
 path
 :
 pdbstr
 .
 tar
 .
-zst
+bz2
 type
 :
 file
@@ -1407,7 +1403,7 @@ pdbstr
 .
 tar
 .
-zst
+bz2
 win64
 -
 pdbstr
@@ -1454,14 +1450,14 @@ pdbstr
 .
 tar
 .
-zst
+bz2
 path
 :
 pdbstr
 .
 tar
 .
-zst
+bz2
 type
 :
 file
@@ -1495,7 +1491,7 @@ pdbstr
 .
 tar
 .
-zst
+bz2
 linux64
 -
 winchecksec
@@ -1534,7 +1530,7 @@ winchecksec
 .
 tar
 .
-zst
+bz2
 tooltool
 -
 downloads
@@ -1607,7 +1603,7 @@ winchecksec
 .
 tar
 .
-zst
+bz2
 tooltool
 -
 downloads
@@ -1760,7 +1756,7 @@ mozmake
 .
 tar
 .
-zst
+bz2
 tooltool
 -
 downloads

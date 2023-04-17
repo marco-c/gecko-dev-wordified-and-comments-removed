@@ -13,7 +13,7 @@ e
 v
 COMPRESS_EXT
 =
-zst
+bz2
 if
 [
 -

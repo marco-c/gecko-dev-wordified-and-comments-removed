@@ -99,7 +99,7 @@ nasm
 .
 tar
 .
-zst
+bz2
 win64
 -
 nasm

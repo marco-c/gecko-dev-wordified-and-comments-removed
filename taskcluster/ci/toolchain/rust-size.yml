@@ -136,7 +136,7 @@ size
 .
 tar
 .
-zst
+xz
 fetches
 :
 toolchain
@@ -211,7 +211,7 @@ size
 .
 tar
 .
-zst
+bz2
 resources
 :
 -

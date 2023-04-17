@@ -20,7 +20,7 @@ building
 minidump_stackwalk
 COMPRESS_EXT
 =
-zst
+xz
 cd
 GECKO_PATH
 if
