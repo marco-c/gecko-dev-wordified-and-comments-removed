@@ -1755,7 +1755,7 @@ count
 ;
 }
 bool
-bJustStartedLoading
+justStartedLoading
 =
 false
 ;
@@ -1789,7 +1789,7 @@ LOAD_DOCUMENT_URI
 )
 )
 {
-bJustStartedLoading
+justStartedLoading
 =
 true
 ;
@@ -1870,7 +1870,7 @@ request
 ;
 if
 (
-bJustStartedLoading
+justStartedLoading
 )
 {
 mProgressStateFlags
@@ -1924,7 +1924,7 @@ mIsLoadingDocument
 &
 &
 !
-bJustStartedLoading
+justStartedLoading
 &
 &
 (
@@ -2110,7 +2110,7 @@ count
 ;
 }
 bool
-bFireTransferring
+fireTransferring
 =
 false
 ;
@@ -2236,7 +2236,7 @@ aStatus
 )
 )
 {
-bFireTransferring
+fireTransferring
 =
 true
 ;
@@ -2317,7 +2317,7 @@ rv
 )
 )
 {
-bFireTransferring
+fireTransferring
 =
 true
 ;
@@ -2330,7 +2330,7 @@ true
 }
 if
 (
-bFireTransferring
+fireTransferring
 )
 {
 int32_t
