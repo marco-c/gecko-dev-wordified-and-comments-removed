@@ -14054,6 +14054,7 @@ GetEditorType
 &
 &
 (
+!
 aOptions
 .
 contains
@@ -14061,7 +14062,7 @@ contains
 WalkTreeOption
 :
 :
-FindAnyDataNode
+IgnoreDataNodeExceptText
 )
 |
 |
@@ -14380,6 +14381,7 @@ GetEditorType
 &
 &
 (
+!
 aOptions
 .
 contains
@@ -14387,7 +14389,7 @@ contains
 WalkTreeOption
 :
 :
-FindAnyDataNode
+IgnoreDataNodeExceptText
 )
 |
 |
@@ -14851,6 +14853,7 @@ GetEditorType
 &
 &
 (
+!
 aOptions
 .
 contains
@@ -14858,7 +14861,7 @@ contains
 WalkTreeOption
 :
 :
-FindAnyDataNode
+IgnoreDataNodeExceptText
 )
 |
 |
