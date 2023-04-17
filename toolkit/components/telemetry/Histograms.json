@@ -110544,7 +110544,7 @@ expires_in_version
 "
 :
 "
-96
+108
 "
 "
 kind
@@ -110607,6 +110607,7 @@ bug_numbers
 :
 [
 1703578
+1736631
 ]
 "
 alert_emails
@@ -110621,12 +110622,6 @@ update
 telemetry
 -
 alerts
-mozilla
-.
-com
-"
-"
-agashlin
 mozilla
 .
 com
