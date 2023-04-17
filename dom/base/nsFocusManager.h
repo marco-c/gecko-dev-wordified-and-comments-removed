@@ -687,7 +687,7 @@ aPlugin
 ;
 static
 uint32_t
-FocusOptionsToFocusManagerFlags
+ProgrammaticFocusFlags
 (
 const
 mozilla
