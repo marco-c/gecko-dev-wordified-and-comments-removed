@@ -1249,6 +1249,8 @@ scrollable
 .
 In
 the
+display
+list
 scrollable
 elements
 are
@@ -5859,7 +5861,6 @@ be
 scrolled
 by
 multiple
-scroll
 (
 nested
 )
@@ -5925,6 +5926,7 @@ between
 WebRenderLayerScrollData
 and
 WebRenderScrollDataWrapper
+is
 still
 useful
 in
@@ -7529,6 +7531,7 @@ main
 only
 if
 GPU
+process
 enabled
 )
 3
@@ -7539,12 +7542,6 @@ thread
 .
 SceneBuilder
 thread
-(
-only
-if
-WR
-enabled
-)
 5
 .
 *
@@ -7558,12 +7555,6 @@ lock
 .
 RenderBackend
 thread
-(
-only
-if
-WR
-enabled
-)
 7
 .
 *
