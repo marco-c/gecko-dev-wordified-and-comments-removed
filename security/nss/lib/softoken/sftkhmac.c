@@ -1063,11 +1063,17 @@ isFIPS
 ;
 done
 :
+if
+(
+keyval
+)
+{
 sftk_FreeAttribute
 (
 keyval
 )
 ;
+}
 return
 ret
 ;

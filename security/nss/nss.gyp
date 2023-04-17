@@ -1502,6 +1502,17 @@ rsapoptst
 '
 cmd
 /
+sdbthreadtst
+/
+sdbthreadtst
+.
+gyp
+:
+sdbthreadtst
+'
+'
+cmd
+/
 sdrtest
 /
 sdrtest
