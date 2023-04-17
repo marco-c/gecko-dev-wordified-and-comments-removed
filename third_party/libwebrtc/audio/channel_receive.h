@@ -692,6 +692,9 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
+RtcpEventObserver
+*
+rtcp_event_observer
 )
 ;
 }

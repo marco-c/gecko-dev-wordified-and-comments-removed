@@ -570,6 +570,9 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
+RtcpEventObserver
+*
+rtcp_event_observer
 )
 ;
 ~
@@ -2069,6 +2072,9 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
+RtcpEventObserver
+*
+rtcp_event_observer
 )
 :
 event_log_
@@ -2274,6 +2280,12 @@ configuration
 local_media_ssrc
 =
 local_ssrc
+;
+configuration
+.
+rtcp_event_observer
+=
+rtcp_event_observer
 ;
 if
 (
@@ -4571,6 +4583,9 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
+RtcpEventObserver
+*
+rtcp_event_observer
 )
 {
 return
@@ -4605,6 +4620,7 @@ move
 (
 frame_transformer
 )
+rtcp_event_observer
 )
 ;
 }

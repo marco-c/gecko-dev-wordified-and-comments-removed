@@ -584,6 +584,9 @@ RtcpCnameCallback
 rtcp_cname_callback
 uint32_t
 local_ssrc
+RtcpEventObserver
+*
+rtcp_event_observer
 )
 {
 RtpRtcpInterface
@@ -645,6 +648,12 @@ configuration
 local_media_ssrc
 =
 local_ssrc
+;
+configuration
+.
+rtcp_event_observer
+=
+rtcp_event_observer
 ;
 std
 :
@@ -1280,6 +1289,11 @@ config_
 rtp
 .
 local_ssrc
+config_
+.
+rtp
+.
+rtcp_event_observer
 )
 )
 complete_frame_callback_

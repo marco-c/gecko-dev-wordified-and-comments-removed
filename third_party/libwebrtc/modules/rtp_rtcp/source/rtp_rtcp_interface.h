@@ -267,6 +267,12 @@ bandwidth_callback
 =
 nullptr
 ;
+RtcpEventObserver
+*
+rtcp_event_observer
+=
+nullptr
+;
 NetworkStateEstimateObserver
 *
 network_state_estimate_observer
