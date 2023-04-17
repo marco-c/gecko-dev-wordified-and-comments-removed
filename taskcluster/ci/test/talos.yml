@@ -5162,6 +5162,8 @@ variants
 webgl
 -
 ipc
+-
+profiling
 run
 -
 on
