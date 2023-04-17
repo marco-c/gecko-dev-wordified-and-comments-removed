@@ -4712,9 +4712,13 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-already_AddRefed
+Result
+<
+RefPtr
 <
 Element
+>
+nsresult
 >
 CreateNodeWithTransaction
 (
