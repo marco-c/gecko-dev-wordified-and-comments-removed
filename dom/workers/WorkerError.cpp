@@ -1440,6 +1440,15 @@ mLineNumber
 ;
 init
 .
+mColno
+=
+aReport
+-
+>
+mColumnNumber
+;
+init
+.
 mError
 =
 aException

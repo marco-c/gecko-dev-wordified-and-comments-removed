@@ -230,6 +230,17 @@ attribute
 boolean
 crossOriginIsolated
 ;
+[
+Throws
+NeedsCallerType
+]
+void
+reportError
+(
+any
+e
+)
+;
 /
 /
 base64
