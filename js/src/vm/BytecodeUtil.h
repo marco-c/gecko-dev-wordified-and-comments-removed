@@ -3140,6 +3140,16 @@ throwKind
 ThrowMsgKind
 :
 :
+PrivateBrandDoubleInit
+|
+|
+*
+throwKind
+=
+=
+ThrowMsgKind
+:
+:
 MissingPrivateOnGet
 |
 |
