@@ -1030,7 +1030,7 @@ return
 if
 (
 !
-gProton
+gProtonDoorhangers
 |
 |
 notifyObj
