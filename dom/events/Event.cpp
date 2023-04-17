@@ -1799,9 +1799,7 @@ mEvent
 >
 mFlags
 .
-InTargetPhase
-(
-)
+mInTargetPhase
 )
 {
 return
