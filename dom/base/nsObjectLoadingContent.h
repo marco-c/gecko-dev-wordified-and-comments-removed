@@ -338,6 +338,17 @@ jsid
 aId
 )
 ;
+static
+bool
+IsSuccessfulRequest
+(
+nsIRequest
+*
+nsresult
+*
+aStatus
+)
+;
 void
 GetOwnPropertyNames
 (

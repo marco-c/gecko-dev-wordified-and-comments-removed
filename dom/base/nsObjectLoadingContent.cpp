@@ -1370,8 +1370,10 @@ mContent
 ;
 }
 ;
-static
 bool
+nsObjectLoadingContent
+:
+:
 IsSuccessfulRequest
 (
 nsIRequest
