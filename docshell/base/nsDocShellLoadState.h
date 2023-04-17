@@ -893,6 +893,13 @@ nsAString
 aFileName
 )
 ;
+nsIURI
+*
+GetUnstrippedURI
+(
+)
+const
+;
 nsresult
 SetupInheritingPrincipal
 (
@@ -1376,6 +1383,12 @@ mChannelInitialized
 ;
 bool
 mIsMetaRefresh
+;
+nsCOMPtr
+<
+nsIURI
+>
+mUnstrippedURI
 ;
 }
 ;
