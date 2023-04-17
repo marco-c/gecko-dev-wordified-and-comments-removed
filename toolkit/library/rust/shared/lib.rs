@@ -161,6 +161,10 @@ fog_control
 ;
 extern
 crate
+gecko_profiler
+;
+extern
+crate
 gkrust_utils
 ;
 extern
@@ -225,10 +229,6 @@ gecko_profiler
 extern
 crate
 profiler_helper
-;
-extern
-crate
-gecko_profiler
 ;
 extern
 crate
