@@ -170,11 +170,6 @@ char
 *
 kOSClientCertsModuleName
 ;
-void
-UnloadUserModules
-(
-)
-;
 nsresult
 DefaultServerNicknameForCert
 (
