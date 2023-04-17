@@ -4792,6 +4792,11 @@ sNameSpaceManager
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
+NS_ADDREF
+(
+sNameSpaceManager
+)
+;
 sXPConnect
 =
 nsXPConnect
@@ -10293,6 +10298,11 @@ sIOService
 NS_IF_RELEASE
 (
 sUUIDGenerator
+)
+;
+NS_IF_RELEASE
+(
+sNameSpaceManager
 )
 ;
 sLineBreaker
