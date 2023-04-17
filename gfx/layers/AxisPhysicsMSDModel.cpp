@@ -155,6 +155,7 @@ IsFinished
 double
 aSmallestVisibleIncrement
 )
+const
 {
 const
 double

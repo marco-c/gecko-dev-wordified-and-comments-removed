@@ -276,6 +276,12 @@ ClearOverscroll
 (
 )
 ;
+bool
+IsOverscrollAnimationRunning
+(
+)
+const
+;
 ParentLayerCoord
 PanStart
 (

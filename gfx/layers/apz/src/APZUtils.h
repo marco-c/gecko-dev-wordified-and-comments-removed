@@ -653,6 +653,15 @@ ShouldUseProgressivePaint
 (
 )
 ;
+SideBits
+GetOverscrollSideBits
+(
+const
+ParentLayerPoint
+&
+aOverscrollAmount
+)
+;
 }
 }
 }

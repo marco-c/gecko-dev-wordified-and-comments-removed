@@ -1613,6 +1613,12 @@ GetOverscrollAmount
 )
 const
 ;
+SideBits
+GetOverscrollSideBits
+(
+)
+const
+;
 void
 RestoreOverscrollAmount
 (
@@ -2578,6 +2584,8 @@ const
 ParentLayerPoint
 &
 aVelocity
+SideBits
+aOverscrollSideBits
 const
 RefPtr
 <
@@ -2603,6 +2611,8 @@ const
 ParentLayerPoint
 &
 aVelocity
+SideBits
+aOverscrollSideBits
 )
 ;
 void
@@ -2612,6 +2622,8 @@ const
 ParentLayerPoint
 &
 aVelocity
+SideBits
+aOverscrollSideBits
 )
 ;
 ScrollDirections
