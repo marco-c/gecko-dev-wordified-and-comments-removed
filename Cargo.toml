@@ -115,6 +115,15 @@ rust_minidump_writer_linux
 "
 toolkit
 /
+crashreporter
+/
+mozwer
+-
+rust
+"
+"
+toolkit
+/
 library
 /
 gtest
