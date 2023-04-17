@@ -130,7 +130,7 @@ quote
 [
 allow
 (
-rust_2018_idioms
+unused_extern_crates
 clippy
 :
 :

@@ -64,6 +64,7 @@ internals
 :
 {
 attr
+replace_receiver
 Ctxt
 Derive
 }
@@ -78,6 +79,7 @@ expand_derive_serialize
 input
 :
 &
+mut
 syn
 :
 :
@@ -97,6 +99,11 @@ Error
 >
 >
 {
+replace_receiver
+(
+input
+)
+;
 let
 ctxt
 =
@@ -301,7 +308,7 @@ __S
 serde
 :
 :
-export
+__private
 :
 :
 Result
@@ -375,7 +382,7 @@ __S
 serde
 :
 :
-export
+__private
 :
 :
 Result
@@ -1305,7 +1312,7 @@ serialize
 _serde
 :
 :
-export
+__private
 :
 :
 Into
@@ -1322,7 +1329,7 @@ into
 _serde
 :
 :
-export
+__private
 :
 :
 Clone
@@ -2365,7 +2372,7 @@ quote
 _serde
 :
 :
-export
+__private
 :
 :
 None
@@ -2473,7 +2480,7 @@ quote
 _serde
 :
 :
-export
+__private
 :
 :
 Some
@@ -2739,7 +2746,7 @@ quote
 _serde
 :
 :
-export
+__private
 :
 :
 Err
@@ -3507,7 +3514,7 @@ quote_expr
 _serde
 :
 :
-private
+__private
 :
 :
 ser
@@ -3687,7 +3694,7 @@ span
 _serde
 :
 :
-private
+__private
 :
 :
 ser
@@ -4451,7 +4458,7 @@ phantom
 _serde
 :
 :
-export
+__private
 :
 :
 PhantomData
@@ -4493,7 +4500,7 @@ __S
 _serde
 :
 :
-export
+__private
 :
 :
 Result
@@ -4633,7 +4640,7 @@ phantom
 _serde
 :
 :
-export
+__private
 :
 :
 PhantomData
@@ -6012,7 +6019,7 @@ phantom
 _serde
 :
 :
-export
+__private
 :
 :
 PhantomData
@@ -6054,7 +6061,7 @@ __S
 _serde
 :
 :
-export
+__private
 :
 :
 Result
@@ -6110,7 +6117,7 @@ __serializer
 _serde
 :
 :
-export
+__private
 :
 :
 None
@@ -6171,7 +6178,7 @@ phantom
 _serde
 :
 :
-export
+__private
 :
 :
 PhantomData
@@ -6221,7 +6228,7 @@ __serializer
 _serde
 :
 :
-export
+__private
 :
 :
 None
@@ -6303,7 +6310,7 @@ __serializer
 _serde
 :
 :
-export
+__private
 :
 :
 None
@@ -6821,7 +6828,7 @@ field_expr
 _serde
 :
 :
-private
+__private
 :
 :
 ser
@@ -7349,7 +7356,7 @@ phantom
 _serde
 :
 :
-export
+__private
 :
 :
 PhantomData
@@ -7391,7 +7398,7 @@ __S
 _serde
 :
 :
-export
+__private
 :
 :
 Result
@@ -7448,7 +7455,7 @@ phantom
 _serde
 :
 :
-export
+__private
 :
 :
 PhantomData
@@ -7631,7 +7638,7 @@ quote
 _serde
 :
 :
-private
+__private
 :
 :
 ser
@@ -7673,7 +7680,7 @@ quote
 _serde
 :
 :
-private
+__private
 :
 :
 ser

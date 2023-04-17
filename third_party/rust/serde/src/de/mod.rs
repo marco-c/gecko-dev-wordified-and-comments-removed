@@ -9,9 +9,6 @@ mod
 value
 ;
 mod
-from_primitive
-;
-mod
 ignored_any
 ;
 mod
@@ -1608,15 +1605,10 @@ Formatter
 )
 -
 >
-Result
-<
-(
-)
 fmt
 :
 :
-Error
->
+Result
 {
 use
 self
