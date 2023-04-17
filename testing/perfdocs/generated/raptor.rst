@@ -24974,7 +24974,7 @@ manifest
 :
 mitm6
 -
-darwin
+linux
 -
 firefox
 -
