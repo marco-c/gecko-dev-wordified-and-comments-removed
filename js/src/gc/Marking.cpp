@@ -8444,10 +8444,6 @@ queuePos
 get
 (
 )
-.
-unbarrieredGet
-(
-)
 ;
 if
 (
