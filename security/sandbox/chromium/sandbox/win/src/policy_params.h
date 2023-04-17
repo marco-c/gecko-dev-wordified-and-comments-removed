@@ -228,6 +228,14 @@ POLPARAMS_END
 (
 HandleTarget
 )
+POLPARAMS_BEGIN
+(
+EmptyParams
+)
+POLPARAMS_END
+(
+EmptyParams
+)
 }
 #
 endif

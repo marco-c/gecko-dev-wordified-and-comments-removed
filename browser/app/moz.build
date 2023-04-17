@@ -615,6 +615,11 @@ user32
 .
 dll
 "
+"
+usp10
+.
+dll
+"
 ]
 if
 CONFIG

@@ -285,7 +285,8 @@ MakeBase
 (
 OP_ACTION
 options
-0
+-
+1
 )
 ;
 if

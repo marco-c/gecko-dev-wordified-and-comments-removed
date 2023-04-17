@@ -120,6 +120,9 @@ break
 ;
 }
 case
+INPTR_TYPE
+:
+case
 INOUTPTR_TYPE
 :
 {
@@ -415,6 +418,9 @@ data
 break
 ;
 }
+case
+INPTR_TYPE
+:
 case
 INOUTPTR_TYPE
 :
