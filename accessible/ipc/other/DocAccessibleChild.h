@@ -3252,17 +3252,6 @@ private
 :
 LocalAccessible
 *
-IdToAccessible
-(
-const
-uint64_t
-&
-aID
-)
-const
-;
-LocalAccessible
-*
 IdToAccessibleLink
 (
 const
