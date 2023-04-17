@@ -389,8 +389,10 @@ scale
 {
 if
 (
+nsCOMPtr
+<
 nsIWidget
-*
+>
 rootWidget
 =
 aPresContext
