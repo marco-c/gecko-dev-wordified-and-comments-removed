@@ -10,7 +10,7 @@ add_task
 (
 async
 function
-seutp
+setup
 (
 )
 {
