@@ -15555,6 +15555,14 @@ bool
 aResultCallback
 )
 {
+aBackupConnInfo
+-
+>
+SetFallbackConnection
+(
+true
+)
+;
 RefPtr
 <
 SpeculativeTransaction
@@ -15618,7 +15626,7 @@ ConnMgr
 )
 -
 >
-DoSpeculativeConnection
+DoFallbackConnection
 (
 trans
 false
