@@ -77,16 +77,6 @@ Localization
 cpp
 "
 ]
-EXTRA_JS_MODULES
-+
-=
-[
-"
-Localization
-.
-jsm
-"
-]
 TESTING_JS_MODULES
 +
 =
