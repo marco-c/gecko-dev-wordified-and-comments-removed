@@ -16769,6 +16769,14 @@ dirty_rect
 >
 {
 if
+!
+dirty_rect
+.
+is_empty
+(
+)
+&
+&
 occlusion
 .
 test
