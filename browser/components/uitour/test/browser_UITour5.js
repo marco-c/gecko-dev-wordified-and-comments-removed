@@ -124,7 +124,7 @@ help
 Should
 highlight
 the
-library
+help
 button
 on
 the

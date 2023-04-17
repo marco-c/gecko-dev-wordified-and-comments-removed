@@ -70,9 +70,6 @@ devtools
 help
 "
 "
-library
-"
-"
 logins
 "
 "
