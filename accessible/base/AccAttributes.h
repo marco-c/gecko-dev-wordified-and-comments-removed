@@ -106,7 +106,6 @@ AttrValueType
 =
 Variant
 <
-nsString
 bool
 float
 int32_t
@@ -278,6 +277,17 @@ T
 >
 )
 {
+RefPtr
+<
+nsAtom
+>
+atomValue
+=
+NS_Atomize
+(
+aAttrValue
+)
+;
 mData
 .
 InsertOrUpdate
@@ -285,10 +295,7 @@ InsertOrUpdate
 aAttrName
 AsVariant
 (
-nsString
-(
-aAttrValue
-)
+atomValue
 )
 )
 ;
