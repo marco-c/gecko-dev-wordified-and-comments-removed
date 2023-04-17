@@ -32,6 +32,9 @@ namespace
 a11y
 {
 class
+HyperTextAccessibleWrap
+;
+class
 ia2AccessibleHypertext
 :
 public
@@ -93,6 +96,14 @@ hyperlinks
 long
 *
 nHyperlinks
+)
+;
+private
+:
+HyperTextAccessibleWrap
+*
+TextAcc
+(
 )
 ;
 }
