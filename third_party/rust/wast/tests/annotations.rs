@@ -795,7 +795,7 @@ reader
 =
 n
 .
-get_function_local_reader
+get_indirect_map
 (
 )
 ?
@@ -1007,7 +1007,6 @@ aaa
 )
 (
 type
-t
 (
 func
 )
@@ -1060,7 +1059,7 @@ funcref
 func
 (
 type
-t
+0
 )
 )
 (

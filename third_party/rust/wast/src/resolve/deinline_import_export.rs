@@ -547,6 +547,9 @@ span
 id
 :
 None
+name
+:
+None
 kind
 :
 DataKind
@@ -907,6 +910,9 @@ span
 id
 :
 None
+name
+:
+None
 kind
 :
 ElemKind
@@ -1109,7 +1115,7 @@ Inline
 ModuleField
 :
 :
-Event
+Tag
 (
 e
 )
@@ -1144,7 +1150,7 @@ name
 ExportKind
 :
 :
-Event
+Tag
 &
 mut
 e
@@ -1159,7 +1165,7 @@ e
 .
 kind
 {
-EventKind
+TagKind
 :
 :
 Import
@@ -1216,7 +1222,7 @@ kind
 ItemKind
 :
 :
-Event
+Tag
 (
 e
 .
@@ -1231,7 +1237,7 @@ clone
 )
 ;
 }
-EventKind
+TagKind
 :
 :
 Inline

@@ -317,12 +317,12 @@ GlobalType
 a
 >
 )
-Event
+Tag
 (
 ast
 :
 :
-EventType
+TagType
 <
 '
 a
@@ -703,7 +703,7 @@ peek
 kw
 :
 :
-event
+tag
 >
 (
 )
@@ -720,7 +720,7 @@ parse
 kw
 :
 :
-event
+tag
 >
 (
 )
@@ -749,7 +749,7 @@ kind
 ItemKind
 :
 :
-Event
+Tag
 (
 parser
 .
