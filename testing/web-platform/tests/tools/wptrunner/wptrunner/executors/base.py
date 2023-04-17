@@ -60,10 +60,8 @@ def
 executor_kwargs
 (
 test_type
-server_config
-cache_manager
+test_environment
 run_info_data
-                    
 *
 *
 kwargs
@@ -96,7 +94,9 @@ executor_kwargs
 server_config
 "
 :
-server_config
+test_environment
+.
+config
                        
 "
 timeout_multiplier
@@ -138,6 +138,8 @@ screenshot_cache
 "
 ]
 =
+test_environment
+.
 cache_manager
 .
 dict
