@@ -18886,7 +18886,7 @@ data
 (
 )
 .
-arrayShape
+arrayShapeWithDefaultProto
 )
 ;
 RootedObject
@@ -18950,7 +18950,7 @@ data
 (
 )
 .
-arrayShape
+arrayShapeWithDefaultProto
 .
 init
 (

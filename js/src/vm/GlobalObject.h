@@ -473,7 +473,7 @@ HeapPtr
 Shape
 *
 >
-arrayShape
+arrayShapeWithDefaultProto
 ;
 bool
 globalThisResolved
@@ -4649,7 +4649,7 @@ nullptr
 }
 Shape
 *
-maybeArrayShape
+maybeArrayShapeWithDefaultProto
 (
 )
 const
@@ -4659,7 +4659,7 @@ data
 (
 )
 .
-arrayShape
+arrayShapeWithDefaultProto
 ;
 }
 static
@@ -4690,7 +4690,7 @@ data
 (
 )
 .
-arrayShape
+arrayShapeWithDefaultProto
 ;
 MOZ_LIKELY
 (

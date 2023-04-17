@@ -5761,7 +5761,7 @@ TraceNullableEdge
 (
 trc
 &
-arrayShape
+arrayShapeWithDefaultProto
 "
 global
 -
