@@ -74,7 +74,7 @@ new
 URL
 (
 "
-http
+https
 :
 /
 /
