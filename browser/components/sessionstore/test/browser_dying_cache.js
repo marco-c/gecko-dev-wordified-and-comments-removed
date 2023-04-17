@@ -270,16 +270,11 @@ tabs
 ]
 }
 =
-JSON
-.
-parse
-(
 ss
 .
 getWindowState
 (
 window
-)
 )
 ;
 is
