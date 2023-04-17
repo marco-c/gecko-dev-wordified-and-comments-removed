@@ -992,9 +992,7 @@ Enabled
 )
 {
 return
-profiler_is_active
-(
-)
+mRunning
 ;
 }
 private
