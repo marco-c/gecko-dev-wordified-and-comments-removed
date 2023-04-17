@@ -3964,7 +3964,7 @@ void
 AddMetaViewportElement
 (
 HTMLMetaElement
-*
+&
 aElement
 ViewportMetaData
 &
@@ -3976,7 +3976,7 @@ void
 RemoveMetaViewportElement
 (
 HTMLMetaElement
-*
+&
 aElement
 )
 ;

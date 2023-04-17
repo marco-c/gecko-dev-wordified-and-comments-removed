@@ -49856,7 +49856,7 @@ Document
 AddMetaViewportElement
 (
 HTMLMetaElement
-*
+&
 aElement
 ViewportMetaData
 &
@@ -49900,6 +49900,7 @@ viewport
 mElement
 =
 =
+&
 aElement
 )
 {
@@ -49933,6 +49934,7 @@ AppendElement
 (
 MetaViewportElementAndData
 {
+&
 aElement
 aData
 }
@@ -49982,7 +49984,7 @@ Document
 RemoveMetaViewportElement
 (
 HTMLMetaElement
-*
+&
 aElement
 )
 {
@@ -50002,6 +50004,7 @@ viewport
 mElement
 =
 =
+&
 aElement
 )
 {
