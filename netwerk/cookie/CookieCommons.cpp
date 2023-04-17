@@ -2030,6 +2030,10 @@ CookieJarSettings
 :
 Create
 (
+CookieJarSettings
+:
+:
+eRegular
 )
 ;
 }
