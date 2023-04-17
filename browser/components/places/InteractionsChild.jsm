@@ -111,6 +111,17 @@ nsIHttpChannel
 )
 )
 {
+this
+.
+sendAsyncMessage
+(
+"
+Interactions
+:
+PageHide
+"
+)
+;
 return
 ;
 }
