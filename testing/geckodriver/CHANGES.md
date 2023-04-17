@@ -193,14 +193,12 @@ will
 be
 fixed
 in
-one
-of
 the
-upcoming
 Firefox
+90
+release
 for
 Android
-releases
 .
 #
 #
