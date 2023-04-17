@@ -3042,7 +3042,7 @@ version
 "
 0
 .
-23
+22
 .
 0
 "
@@ -3064,11 +3064,9 @@ cocoa
 0
 "
 "
-core
+cocoa
 -
-graphics
--
-types
+foundation
 "
 "
 cty

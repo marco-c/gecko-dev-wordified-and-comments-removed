@@ -326,12 +326,6 @@ id
 :
 :
 AdapterId
-ty
-:
-wgt
-:
-:
-DeviceType
 limits
 :
 wgt

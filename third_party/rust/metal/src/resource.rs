@@ -5,8 +5,16 @@ super
 {
 DeviceRef
 HeapRef
-NSUInteger
 }
+;
+use
+cocoa_foundation
+:
+:
+foundation
+:
+:
+NSUInteger
 ;
 use
 objc
