@@ -3236,6 +3236,7 @@ triggeringPrincipal
 postData
 headers
 csp
+remoteTypeOverride
 }
 =
 aParams
@@ -3269,6 +3270,7 @@ referrerInfo
 loadFlags
 postData
 headers
+remoteTypeOverride
 }
 ;
 this
