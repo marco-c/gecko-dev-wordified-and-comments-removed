@@ -829,7 +829,7 @@ JS
 :
 OffThreadToken
 *
-StartOffThreadDecodeMultiScripts
+StartOffThreadDecodeMultiStencils
 (
 JSContext
 *
