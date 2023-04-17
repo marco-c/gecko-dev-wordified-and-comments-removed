@@ -37836,9 +37836,11 @@ aWidget
 GdkDragContext
 *
 aDragContext
-nsWaylandDragContext
-*
-aWaylandDragContext
+RefPtr
+<
+DataOffer
+>
+aDataOffer
 gint
 aX
 gint
@@ -37972,7 +37974,7 @@ ScheduleMotionEvent
 (
 innerMostWindow
 aDragContext
-aWaylandDragContext
+aDataOffer
 point
 aTime
 )
@@ -38214,9 +38216,11 @@ aWidget
 GdkDragContext
 *
 aDragContext
-nsWaylandDragContext
-*
-aWaylandDragContext
+RefPtr
+<
+DataOffer
+>
+aDataOffer
 gint
 aX
 gint
@@ -38348,7 +38352,7 @@ ScheduleDropEvent
 (
 innerMostWindow
 aDragContext
-aWaylandDragContext
+aDataOffer
 point
 aTime
 )
