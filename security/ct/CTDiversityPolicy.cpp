@@ -108,8 +108,14 @@ CTDiversityPolicy
 GetDependentOperators
 (
 const
-CERTCertList
-*
+nsTArray
+<
+nsTArray
+<
+uint8_t
+>
+>
+&
 builtChain
 const
 CTLogOperatorList
