@@ -63,7 +63,7 @@ configuration
 ;
 this
 .
-_traits
+traits
 =
 json
 .
