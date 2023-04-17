@@ -49,6 +49,11 @@ WaylandBuffer
 .
 h
 "
+#
+include
+<
+unordered_map
+>
 namespace
 mozilla
 :
