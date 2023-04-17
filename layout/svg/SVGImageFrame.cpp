@@ -3786,14 +3786,12 @@ flags
 ;
 switch
 (
-Style
+StyleUI
 (
 )
 -
 >
-PointerEvents
-(
-)
+mPointerEvents
 )
 {
 case

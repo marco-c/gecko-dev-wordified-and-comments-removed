@@ -1079,8 +1079,14 @@ const
 return
 aStyle
 .
-PointerEvents
+StyleUI
 (
+)
+-
+>
+GetEffectivePointerEvents
+(
+this
 )
 =
 =
