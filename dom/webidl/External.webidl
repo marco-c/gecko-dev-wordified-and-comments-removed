@@ -93,17 +93,6 @@ MPL
 /
 [
 LegacyNoInterfaceObject
-JSImplementation
-=
-"
-mozilla
-.
-org
-/
-sidebar
-;
-1
-"
 Exposed
 =
 Window
@@ -121,8 +110,6 @@ External_AddSearchProvider
 void
 AddSearchProvider
 (
-DOMString
-aDescriptionURL
 )
 ;
 void
