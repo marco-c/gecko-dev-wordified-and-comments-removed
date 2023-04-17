@@ -16,7 +16,7 @@ Xlib
 .
 h
 >
-MFBT_API
+MOZ_EXPORT
 Bool
 XShmQueryExtension
 (

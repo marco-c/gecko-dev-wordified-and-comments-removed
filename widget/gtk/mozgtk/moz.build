@@ -4,6 +4,16 @@ SharedLibrary
 mozgtk
 "
 )
+SOURCES
++
+=
+[
+"
+mozgtk
+.
+c
+"
+]
 if
 CONFIG
 [

@@ -24954,6 +24954,11 @@ GTK_WIDGET_COMPOSIDED_ENABLED
 )
 ;
 }
+XShmQueryExtension
+(
+mXDisplay
+)
+;
 }
 #
 ifdef
