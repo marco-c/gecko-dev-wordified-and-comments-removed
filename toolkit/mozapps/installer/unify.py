@@ -101,6 +101,16 @@ libgraphitewasm
 .
 dylib
 "
+    
+"
+Contents
+/
+MacOS
+/
+libhunspellwasm
+.
+dylib
+"
 )
 class
 UnifiedBuildFinderWasmHack
