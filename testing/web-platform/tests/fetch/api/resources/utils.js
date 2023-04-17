@@ -420,7 +420,7 @@ retrievedArrayBuffer
 newBuffer
 =
 new
-ArrayBuffer
+Uint8Array
 (
 data
 .
@@ -546,7 +546,7 @@ retrievedArrayBuffer
 newBuffer
 =
 new
-ArrayBuffer
+Uint8Array
 (
 data
 .
