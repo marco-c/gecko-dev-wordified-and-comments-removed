@@ -86224,10 +86224,13 @@ JS
 :
 MutableHandle
 <
+Maybe
+<
 JS
 :
 :
 PropertyDescriptor
+>
 >
 "
 "
@@ -86461,8 +86464,10 @@ fillDescriptor
 "
 FillPropertyDescriptor
 (
+cx
 desc
 proxy
+value
 %
 s
 )
@@ -86474,6 +86479,7 @@ true
 \
 n
 "
+                
 %
 readonly
             
@@ -86488,11 +86494,7 @@ jsvalRef
 "
 :
 "
-desc
-.
 value
-(
-)
 "
                 
 "
@@ -86500,11 +86502,8 @@ jsvalHandle
 "
 :
 "
-desc
-.
+&
 value
-(
-)
 "
                 
 "
@@ -86549,6 +86548,22 @@ index
 )
 )
 {
+                  
+JS
+:
+:
+Rooted
+<
+JS
+:
+:
+Value
+>
+value
+(
+cx
+)
+;
                   
 *
 {
@@ -86635,8 +86650,10 @@ fillDescriptor
 "
 FillPropertyDescriptor
 (
+cx
 desc
 proxy
+value
 %
 s
 %
@@ -86679,11 +86696,7 @@ jsvalRef
 "
 :
 "
-desc
-.
 value
-(
-)
 "
                 
 "
@@ -86691,11 +86704,8 @@ jsvalHandle
 "
 :
 "
-desc
-.
+&
 value
-(
-)
 "
                 
 "
@@ -86897,6 +86907,22 @@ callNamedGetter
 )
 {
                   
+JS
+:
+:
+Rooted
+<
+JS
+:
+:
+Value
+>
+value
+(
+cx
+)
+;
+                  
 *
 {
 namedGetCode
@@ -87014,34 +87040,11 @@ if
 (
 desc
 .
-object
+isSome
 (
 )
 )
 {
-                
-/
-/
-Pretend
-the
-property
-lives
-on
-the
-wrapper
-.
-                
-desc
-.
-object
-(
-)
-.
-set
-(
-proxy
-)
-;
                 
 return
 true
@@ -87058,13 +87061,8 @@ namedGet
             
 desc
 .
-object
+reset
 (
-)
-.
-set
-(
-nullptr
 )
 ;
             
