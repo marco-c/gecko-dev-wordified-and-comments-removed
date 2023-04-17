@@ -3,8 +3,8 @@ serde_bytes
 :
 :
 {
-Bytes
 ByteBuf
+Bytes
 }
 ;
 fn

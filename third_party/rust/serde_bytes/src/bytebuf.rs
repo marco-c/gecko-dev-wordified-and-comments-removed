@@ -343,6 +343,16 @@ doc
 hidden
 )
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+should_implement_trait
+)
+]
 pub
 fn
 into_iter
@@ -1075,7 +1085,7 @@ unwrap_or
 ;
 let
 mut
-values
+bytes
 =
 Vec
 :
@@ -1089,7 +1099,7 @@ while
 let
 Some
 (
-value
+b
 )
 =
 visitor
@@ -1099,11 +1109,11 @@ next_element
 )
 ?
 {
-values
+bytes
 .
 push
 (
-value
+b
 )
 ;
 }
@@ -1114,7 +1124,7 @@ ByteBuf
 :
 from
 (
-values
+bytes
 )
 )
 }
