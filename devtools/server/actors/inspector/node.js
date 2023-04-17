@@ -2023,8 +2023,8 @@ rawNode
 )
 {
 return
-[
-]
+"
+"
 ;
 }
 return
