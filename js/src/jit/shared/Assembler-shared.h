@@ -2360,7 +2360,7 @@ Type
 type
 uint32_t
 align
-uint32_t
+uint64_t
 offset
 BytecodeOffset
 trapOffset
@@ -2385,7 +2385,10 @@ None
 :
 offset_
 (
+uint32_t
+(
 offset
+)
 )
 align_
 (
@@ -2427,6 +2430,14 @@ IsPowerOfTwo
 (
 align
 )
+)
+;
+MOZ_ASSERT
+(
+offset
+<
+=
+UINT32_MAX
 )
 ;
 }
