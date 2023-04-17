@@ -252,6 +252,7 @@ num_ports_
 +
 i
 )
+{
 port_refs_
 [
 i
@@ -269,6 +270,7 @@ Unlock
 (
 )
 ;
+}
 #
 ifdef
 DEBUG
