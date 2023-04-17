@@ -132,6 +132,14 @@ int
 aBroker
 )
 ;
+MOZ_EXPORT
+bool
+SetSandboxCrashOnError
+(
+bool
+aValue
+)
+;
 }
 #
 endif

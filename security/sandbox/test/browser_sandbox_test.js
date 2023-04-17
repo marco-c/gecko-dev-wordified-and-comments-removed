@@ -44,6 +44,9 @@ processTypes
 tab
 "
 "
+socket
+"
+"
 gpu
 "
 ]

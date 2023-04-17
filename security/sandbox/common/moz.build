@@ -148,6 +148,17 @@ mozISandboxTest
 idl
 "
 ]
+LOCAL_INCLUDES
++
+=
+[
+"
+/
+netwerk
+/
+base
+"
+]
 include
 (
 "
