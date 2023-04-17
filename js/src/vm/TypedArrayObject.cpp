@@ -94,13 +94,6 @@ endif
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsnum
 .
 h

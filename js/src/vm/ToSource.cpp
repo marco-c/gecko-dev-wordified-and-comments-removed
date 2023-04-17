@@ -40,13 +40,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 builtin
 /
 Array

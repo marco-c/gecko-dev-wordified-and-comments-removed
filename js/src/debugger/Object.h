@@ -43,13 +43,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
@@ -109,6 +102,10 @@ h
 class
 JS_PUBLIC_API
 JSAtom
+;
+struct
+JS_PUBLIC_API
+JSContext
 ;
 namespace
 js

@@ -67,13 +67,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 jsnum
 .
 h

@@ -79,13 +79,6 @@ utility
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsdate
 .
 h

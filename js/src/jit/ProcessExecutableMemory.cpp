@@ -71,6 +71,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 jsmath
 .
 h

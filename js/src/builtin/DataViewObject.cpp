@@ -63,13 +63,6 @@ type_traits
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsnum
 .
 h

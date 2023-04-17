@@ -7,13 +7,6 @@ builtin_Object_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 js
 /
 Value
