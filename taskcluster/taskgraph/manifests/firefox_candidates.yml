@@ -2954,6 +2954,14 @@ shippable
 win32
 -
 shippable
+-
+win64
+-
+devedition
+-
+win32
+-
+devedition
 locale_prefix
 :
 '
