@@ -521,6 +521,8 @@ false
 ;
 bool
 useInternalThreadPool_
+=
+true
 ;
 ParseTask
 *
@@ -797,9 +799,14 @@ useInternalThreadPool
 const
 AutoLockHelperThreadState
 &
-locked
+lock
 )
+const
+{
+return
+useInternalThreadPool_
 ;
+}
 bool
 isTerminating
 (
