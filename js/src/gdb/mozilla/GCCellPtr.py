@@ -330,6 +330,17 @@ js
 :
 GetterSetter
 "
+            
+"
+PropMap
+"
+:
+"
+js
+:
+:
+PropMap
+"
         
 }
         
@@ -375,6 +386,30 @@ GETTER_SETTER
 :
 "
 GetterSetter
+"
+            
+"
+COMPACT_PROP_MAP
+"
+:
+"
+PropMap
+"
+            
+"
+NORMAL_PROP_MAP
+"
+:
+"
+PropMap
+"
+            
+"
+DICT_PROP_MAP
+"
+:
+"
+PropMap
 "
         
 }

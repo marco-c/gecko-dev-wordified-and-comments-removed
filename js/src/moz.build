@@ -2843,6 +2843,13 @@ cpp
 "
 vm
 /
+PropMap
+.
+cpp
+"
+"
+vm
+/
 ProxyObject
 .
 cpp

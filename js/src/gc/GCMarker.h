@@ -1623,6 +1623,14 @@ shape
 void
 eagerlyMarkChildren
 (
+PropMap
+*
+map
+)
+;
+void
+eagerlyMarkChildren
+(
 Scope
 *
 scope

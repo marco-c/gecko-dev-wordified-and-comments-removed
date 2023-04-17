@@ -4205,6 +4205,9 @@ class
 GetterSetter
 ;
 class
+PropMap
+;
+class
 WasmInstanceObject
 ;
 class
@@ -4338,6 +4341,15 @@ GCPtrGetterSetter
 GCPtr
 <
 GetterSetter
+*
+>
+;
+using
+GCPtrPropMap
+=
+GCPtr
+<
+PropMap
 *
 >
 ;
