@@ -3162,13 +3162,6 @@ SyncedContextInitializer
 aInits
 )
 ;
-async
-DestroyBrowsingContextGroup
-(
-uint64_t
-aGroupId
-)
-;
 #
 if
 defined
