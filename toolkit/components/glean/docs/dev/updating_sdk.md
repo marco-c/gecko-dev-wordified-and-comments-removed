@@ -59,9 +59,10 @@ the
 glean
 -
 core
-crate
-in
 and
+glean
+crates
+in
 toolkit
 /
 components
