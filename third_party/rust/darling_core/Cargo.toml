@@ -122,7 +122,7 @@ version
 .
 10
 .
-1
+2
 "
 authors
 =
@@ -275,6 +275,10 @@ syn
 version
 =
 "
+1
+.
+0
+.
 1
 "
 features

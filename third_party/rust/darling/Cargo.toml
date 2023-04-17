@@ -122,7 +122,7 @@ version
 .
 10
 .
-1
+2
 "
 authors
 =
@@ -196,7 +196,7 @@ darling
 .
 10
 .
-1
+2
 "
 readme
 =
@@ -238,7 +238,7 @@ version
 .
 10
 .
-1
+2
 "
 [
 dependencies
@@ -253,7 +253,7 @@ version
 .
 10
 .
-1
+2
 "
 [
 dev
