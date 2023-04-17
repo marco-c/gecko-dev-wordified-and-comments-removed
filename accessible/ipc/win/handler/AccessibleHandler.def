@@ -74,3 +74,5 @@ DllUnregisterServer
 PRIVATE
 GetProxyDllInfo
 PRIVATE
+RegisterMsix
+PRIVATE
