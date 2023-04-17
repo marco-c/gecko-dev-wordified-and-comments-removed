@@ -11400,7 +11400,7 @@ aboutwelcome
 .
 skipFocus
 "
-false
+true
 )
 ;
 pref
