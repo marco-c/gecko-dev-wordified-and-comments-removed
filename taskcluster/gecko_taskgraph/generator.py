@@ -7,6 +7,14 @@ copy
 import
 attr
 from
+taskgraph
+.
+util
+.
+yaml
+import
+load_yaml
+from
 .
 import
 filter_tasks
@@ -67,13 +75,6 @@ verify_docs
     
 verifications
 )
-from
-.
-util
-.
-yaml
-import
-load_yaml
 from
 .
 config
