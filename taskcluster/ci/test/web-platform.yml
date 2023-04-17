@@ -726,7 +726,11 @@ linux
 *
 64
 -
+(
 asan
+|
+tsan
+)
 (
 -
 qr
