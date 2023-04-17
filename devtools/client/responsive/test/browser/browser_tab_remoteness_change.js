@@ -147,14 +147,13 @@ LOADED
 )
 ;
 await
-navigateToNewDomain
+navigateTo
 (
 "
 about
 :
 robots
 "
-ui
 )
 ;
 is

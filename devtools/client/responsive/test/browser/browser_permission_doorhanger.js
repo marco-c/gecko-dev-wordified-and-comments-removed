@@ -172,9 +172,8 @@ browser
 )
 ;
 await
-load
+navigateTo
 (
-browser
 TEST_SURL
 )
 ;
@@ -195,9 +194,8 @@ enabled
 )
 ;
 await
-load
+navigateTo
 (
-browser
 DUMMY_URL
 )
 ;
@@ -236,9 +234,8 @@ newBrowser
 )
 ;
 await
-load
+navigateTo
 (
-browser
 TEST_SURL
 )
 ;

@@ -93,11 +93,6 @@ RDM
 "
 )
 ;
-const
-{
-ui
-}
-=
 await
 openRDM
 (
@@ -128,10 +123,9 @@ process
 )
 ;
 await
-navigateToNewDomain
+navigateTo
 (
 PAGE_ON_MAIN
-ui
 )
 ;
 await

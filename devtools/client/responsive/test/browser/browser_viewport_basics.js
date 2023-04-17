@@ -94,10 +94,12 @@ height
 )
 ;
 await
-load
+navigateTo
 (
-browser
 TEST_URL
+{
+browser
+}
 )
 ;
 const

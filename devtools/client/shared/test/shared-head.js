@@ -2074,6 +2074,11 @@ navigateTo
 (
 uri
 {
+browser
+=
+gBrowser
+.
+selectedBrowser
 isErrorPage
 =
 false
@@ -2083,13 +2088,6 @@ false
 }
 )
 {
-const
-browser
-=
-gBrowser
-.
-selectedBrowser
-;
 const
 waitForDevToolsReload
 =
@@ -2180,7 +2178,10 @@ reloadTab
 (
 gBrowser
 .
-selectedTab
+getTabForBrowser
+(
+browser
+)
 )
 ;
 }
