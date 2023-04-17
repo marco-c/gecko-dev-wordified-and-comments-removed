@@ -151,7 +151,7 @@ shared
 /
 webdriver
 /
-Session
+Capabilities
 .
 jsm
 "
