@@ -37,7 +37,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -77,17 +76,9 @@ page
 )
 ;
 await
-testActor
-.
-eval
+navigateTo
 (
-"
-location
-.
-reload
-(
-)
-"
+TEST_URI
 )
 ;
 info

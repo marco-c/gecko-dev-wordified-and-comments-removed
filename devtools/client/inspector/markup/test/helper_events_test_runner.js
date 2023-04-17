@@ -39,7 +39,6 @@ tests
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -70,7 +69,6 @@ checkEventsForNode
 (
 test
 inspector
-testActor
 )
 ;
 }
@@ -86,7 +84,6 @@ checkEventsForNode
 (
 test
 inspector
-testActor
 )
 {
 const
@@ -125,7 +122,6 @@ await
 beforeTest
 (
 inspector
-testActor
 )
 ;
 }

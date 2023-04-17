@@ -419,7 +419,6 @@ const
 toolbox
 inspector
 view
-testActor
 }
 =
 await
@@ -447,7 +446,6 @@ testFirstInlineStyleSheet
 (
 view
 toolbox
-testActor
 )
 ;
 await
@@ -455,7 +453,6 @@ testSecondInlineStyleSheet
 (
 view
 toolbox
-testActor
 )
 ;
 await
@@ -463,7 +460,6 @@ testExternalStyleSheet
 (
 view
 toolbox
-testActor
 )
 ;
 }
@@ -584,7 +580,6 @@ testFirstInlineStyleSheet
 (
 view
 toolbox
-testActor
 )
 {
 info
@@ -661,7 +656,6 @@ validateStyleEditorSheet
 (
 editor
 0
-testActor
 )
 ;
 }
@@ -671,7 +665,6 @@ testSecondInlineStyleSheet
 (
 view
 toolbox
-testActor
 )
 {
 info
@@ -795,7 +788,6 @@ validateStyleEditorSheet
 (
 editor
 1
-testActor
 )
 ;
 }
@@ -805,7 +797,6 @@ testExternalStyleSheet
 (
 view
 toolbox
-testActor
 )
 {
 info
@@ -928,7 +919,6 @@ validateStyleEditorSheet
 (
 editor
 2
-testActor
 )
 ;
 }
@@ -938,7 +928,6 @@ validateStyleEditorSheet
 (
 editor
 expectedSheetIndex
-testActor
 )
 {
 info
@@ -955,21 +944,29 @@ const
 expectedHref
 =
 await
-testActor
+SpecialPowers
 .
-eval
+spawn
 (
+gBrowser
+.
+selectedBrowser
+[
+expectedSheetIndex
+]
+_expectedSheetIndex
+=
+>
+content
+.
 document
 .
 styleSheets
 [
-{
-expectedSheetIndex
-}
+_expectedSheetIndex
 ]
 .
 href
-;
 )
 ;
 is

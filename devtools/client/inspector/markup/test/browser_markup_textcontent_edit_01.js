@@ -44,7 +44,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -81,7 +80,6 @@ await
 editContainer
 (
 inspector
-testActor
 {
 selector
 :
@@ -107,7 +105,6 @@ await
 editContainer
 (
 inspector
-testActor
 {
 selector
 :
@@ -168,7 +165,6 @@ await
 editContainer
 (
 inspector
-testActor
 {
 selector
 :
@@ -212,7 +208,6 @@ await
 editContainer
 (
 inspector
-testActor
 {
 selector
 :
@@ -260,7 +255,6 @@ function
 editContainer
 (
 inspector
-testActor
 {
 selector
 newValue
@@ -275,7 +269,6 @@ await
 getFirstChildNodeValue
 (
 selector
-testActor
 )
 ;
 is
@@ -430,7 +423,6 @@ await
 getFirstChildNodeValue
 (
 selector
-testActor
 )
 ;
 is

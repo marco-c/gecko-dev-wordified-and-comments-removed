@@ -417,7 +417,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -438,7 +437,6 @@ await
 checkNode
 (
 inspector
-testActor
 data
 )
 ;
@@ -451,7 +449,6 @@ function
 checkNode
 (
 inspector
-testActor
 {
 desc
 selector
@@ -482,7 +479,6 @@ await
 getFirstChildNodeValue
 (
 selector
-testActor
 )
 ;
 is

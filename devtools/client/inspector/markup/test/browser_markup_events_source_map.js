@@ -116,7 +116,6 @@ const
 {
 toolbox
 inspector
-testActor
 }
 =
 await
@@ -157,7 +156,6 @@ checkEventsForNode
 (
 test
 inspector
-testActor
 )
 ;
 }

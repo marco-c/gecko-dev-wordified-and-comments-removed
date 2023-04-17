@@ -32,7 +32,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -72,7 +71,6 @@ await
 getFirstChildNodeValue
 (
 SELECTOR
-testActor
 )
 ;
 let
@@ -770,7 +768,6 @@ await
 getFirstChildNodeValue
 (
 SELECTOR
-testActor
 )
 ;
 is
