@@ -115,7 +115,7 @@ HTMLOptionElement
 HTMLOptionElement
 ;
 friend
-nsContainerFrame
+nsListControlFrame
 *
 NS_NewListControlFrame
 (
