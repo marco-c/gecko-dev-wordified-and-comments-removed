@@ -2140,16 +2140,6 @@ UnlockNativePointer
 override
 ;
 virtual
-nsresult
-GetScreenRect
-(
-LayoutDeviceIntRect
-*
-aRect
-)
-override
-;
-virtual
 nsRect
 GetPreferredPopupRect
 (
