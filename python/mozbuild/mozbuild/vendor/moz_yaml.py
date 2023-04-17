@@ -715,6 +715,10 @@ security
 frequency
 :
 every
+      
+platform
+:
+windows
     
 -
 type
@@ -2645,6 +2649,23 @@ release
 *
 weeks
 ?
+)
+"
+)
+                            
+"
+platform
+"
+:
+Match
+(
+r
+"
+^
+(
+windows
+|
+linux
 )
 "
 )
