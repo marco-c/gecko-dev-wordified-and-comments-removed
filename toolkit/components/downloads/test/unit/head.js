@@ -1301,6 +1301,7 @@ Ci
 nsITransfer
 .
 DOWNLOAD_ACCEPTABLE
+referrerInfo
 )
 ;
 persist
