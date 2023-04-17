@@ -309,6 +309,12 @@ FormControlType
 :
 Output
 :
+case
+FormControlType
+:
+:
+FormAssociatedCustomElement
+:
 return
 true
 ;

@@ -1492,6 +1492,7 @@ aArgs
 )
 ;
 }
+virtual
 already_AddRefed
 <
 mozilla

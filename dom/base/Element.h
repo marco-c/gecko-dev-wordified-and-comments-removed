@@ -1649,6 +1649,7 @@ GetCustomElementDefinition
 )
 const
 ;
+virtual
 void
 SetCustomElementDefinition
 (
