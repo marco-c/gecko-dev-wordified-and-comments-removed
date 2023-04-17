@@ -32,6 +32,11 @@ AccTypes
 h
 "
 "
+CacheConstants
+.
+h
+"
+"
 DocManager
 .
 h

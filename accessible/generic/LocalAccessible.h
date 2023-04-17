@@ -2118,6 +2118,8 @@ AccAttributes
 >
 BundleFieldsForCache
 (
+uint64_t
+aCacheDomain
 )
 ;
 protected
@@ -2470,6 +2472,13 @@ GetGroupInfo
 (
 )
 const
+;
+void
+SendCacheUpdate
+(
+uint64_t
+aCacheDomain
+)
 ;
 nsCOMPtr
 <
