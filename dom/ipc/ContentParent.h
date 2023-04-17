@@ -6817,6 +6817,11 @@ mShutdownPending
 1
 ;
 uint8_t
+mLaunchResolved
+:
+1
+;
+uint8_t
 mIsRemoteInputEventQueueEnabled
 :
 1
