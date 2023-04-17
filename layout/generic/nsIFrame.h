@@ -2575,7 +2575,7 @@ nullptr
 ;
 }
 virtual
-void
+nsresult
 GetOffsets
 (
 int32_t
