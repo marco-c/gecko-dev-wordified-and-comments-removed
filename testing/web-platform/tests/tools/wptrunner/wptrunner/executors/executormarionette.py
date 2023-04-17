@@ -4933,6 +4933,14 @@ send_request
 =
 False
 )
+                
+self
+.
+marionette
+.
+cleanup
+(
+)
             
 except
 Exception
@@ -4949,10 +4957,11 @@ not
 None
 :
             
-del
 self
 .
 marionette
+=
+None
         
 super
 (
