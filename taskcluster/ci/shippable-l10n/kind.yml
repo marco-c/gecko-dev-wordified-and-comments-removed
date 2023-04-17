@@ -334,6 +334,10 @@ wine
 linux64
 -
 liblowercase
+-
+win64
+-
+nsis
 fetch
 :
 by
@@ -350,14 +354,6 @@ win
 .
 *
 :
--
-nsis
--
-3
-.
-07
--
-win
 -
 upx
 -

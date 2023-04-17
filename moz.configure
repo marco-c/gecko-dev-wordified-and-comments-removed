@@ -4697,6 +4697,11 @@ makensis
 "
 makensis
 "
+"
+makensis
+.
+exe
+"
 ]
 if
 "
@@ -4762,6 +4767,13 @@ check_prog
 MAKENSISU
 "
 makensis_progs
+bootstrap
+=
+"
+nsis
+/
+bin
+"
 allow_missing
 =
 True
