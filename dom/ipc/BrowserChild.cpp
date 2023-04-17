@@ -6336,8 +6336,8 @@ GetTopLevelDocument
 (
 )
 ;
-CSSRect
-zoomToRect
+ZoomTarget
+zoomTarget
 =
 CalculateRectToZoomTo
 (
@@ -6388,7 +6388,7 @@ mApzcTreeManager
 ZoomToRect
 (
 guid
-zoomToRect
+zoomTarget
 DEFAULT_BEHAVIOR
 )
 ;
@@ -6905,7 +6905,13 @@ mApzcTreeManager
 ZoomToRect
 (
 guid
+ZoomTarget
+{
 aRect
+Nothing
+(
+)
+}
 aFlags
 )
 ;

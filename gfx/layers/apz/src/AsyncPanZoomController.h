@@ -331,6 +331,9 @@ AndroidSpecificState
 struct
 KeyboardScrollAction
 ;
+struct
+ZoomTarget
+;
 class
 PlatformSpecificStateBase
 {
@@ -647,8 +650,10 @@ InitializeGlobalState
 void
 ZoomToRect
 (
-CSSRect
-aRect
+const
+ZoomTarget
+&
+aZoomTarget
 const
 uint32_t
 aFlags

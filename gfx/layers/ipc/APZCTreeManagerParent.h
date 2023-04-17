@@ -111,9 +111,9 @@ ScrollableLayerGuid
 &
 aGuid
 const
-CSSRect
+ZoomTarget
 &
-aRect
+aZoomTarget
 const
 uint32_t
 &

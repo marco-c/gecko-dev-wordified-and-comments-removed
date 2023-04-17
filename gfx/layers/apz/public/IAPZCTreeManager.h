@@ -77,6 +77,9 @@ APZInputBridge
 class
 KeyboardMap
 ;
+struct
+ZoomTarget
+;
 enum
 AllowedTouchBehavior
 {
@@ -179,9 +182,9 @@ ScrollableLayerGuid
 &
 aGuid
 const
-CSSRect
+ZoomTarget
 &
-aRect
+aZoomTarget
 const
 uint32_t
 aFlags

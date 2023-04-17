@@ -220,9 +220,9 @@ ScrollableLayerGuid
 &
 aGuid
 const
-CSSRect
+ZoomTarget
 &
-aRect
+aZoomTarget
 const
 uint32_t
 aFlags
@@ -231,7 +231,7 @@ aFlags
 SendZoomToRect
 (
 aGuid
-aRect
+aZoomTarget
 aFlags
 )
 ;
