@@ -18324,7 +18324,7 @@ if
 nsLayoutUtils
 :
 :
-IsAncestorFrameCrossDoc
+IsAncestorFrameCrossDocInProcess
 (
 scrolledFrame
 aPerspectiveFrame
