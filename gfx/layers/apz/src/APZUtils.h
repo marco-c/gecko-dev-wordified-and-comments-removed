@@ -160,7 +160,6 @@ enum
 class
 ScrollSource
 {
-DOM
 Touchscreen
 Touchpad
 Wheel
