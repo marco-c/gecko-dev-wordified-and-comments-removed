@@ -2515,10 +2515,12 @@ if
 azureSkiaGL
 |
 |
+(
 skiaContent
 &
 &
 layersGPUAccelerated
+)
 0
 -
 8
