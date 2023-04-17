@@ -198,6 +198,13 @@ hasUserInteraction
 infallible
 ]
 attribute
+boolean
+hasUserActivation
+;
+[
+infallible
+]
+attribute
 nsIReferrerInfo
 referrerInfo
 ;
@@ -559,6 +566,9 @@ saveLayoutState
 in
 bool
 expired
+in
+bool
+userActivation
 )
 ;
 nsISHEntry

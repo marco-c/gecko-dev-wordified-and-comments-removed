@@ -212,6 +212,9 @@ mPersist
 bool
 mHasUserInteraction
 ;
+bool
+mHasUserActivation
+;
 }
 ;
 #
