@@ -729,10 +729,6 @@ eContentCommandRedo
 )
 NS_EVENT_MESSAGE
 (
-eContentCommandInsertText
-)
-NS_EVENT_MESSAGE
-(
 eContentCommandPasteTransferable
 )
 NS_EVENT_MESSAGE

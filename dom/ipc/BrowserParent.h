@@ -2727,15 +2727,6 @@ aEvent
 )
 ;
 bool
-SendInsertText
-(
-const
-nsString
-&
-aStringToInsert
-)
-;
-bool
 SendPasteTransferable
 (
 const
