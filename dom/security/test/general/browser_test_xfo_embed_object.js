@@ -23,7 +23,7 @@ mochitests
 content
 "
 "
-http
+https
 :
 /
 /
@@ -61,7 +61,7 @@ errorMessage
 The
 loading
 of
-http
+https
 :
 /
 /
