@@ -1530,11 +1530,7 @@ template
 typename
 B
 >
-Result
-<
-Ok
-ICUError
->
+ICUResult
 toString
 (
 B
