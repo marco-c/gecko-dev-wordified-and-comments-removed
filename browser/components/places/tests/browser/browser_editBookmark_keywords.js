@@ -39,11 +39,6 @@ bookmarks
 addObserver
 (
 {
-onItemMoved
-(
-)
-{
-}
 onItemChanged
 (
 id
