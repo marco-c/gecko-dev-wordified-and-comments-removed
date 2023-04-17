@@ -7199,7 +7199,7 @@ screen
 *
 /
 DOMRect
-toScreenRect
+toScreenRectInCSSUnits
 (
 in
 float

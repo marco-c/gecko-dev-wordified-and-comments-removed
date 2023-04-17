@@ -10133,7 +10133,7 @@ NS_IMETHODIMP
 nsDOMWindowUtils
 :
 :
-ToScreenRect
+ToScreenRectInCSSUnits
 (
 float
 aX
