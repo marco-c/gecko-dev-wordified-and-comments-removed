@@ -2789,6 +2789,13 @@ promise
 }
 )
 ;
+promise_test
+(
+function
+(
+)
+{
+return
 Promise
 .
 all
@@ -2821,6 +2828,12 @@ done
 ;
 }
 )
+}
+"
+setup
+"
+)
+;
 function
 importVectorKeys
 (

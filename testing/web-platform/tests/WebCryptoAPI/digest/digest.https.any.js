@@ -1,8 +1,3 @@
-function
-run_test
-(
-)
-{
 var
 subtle
 =
@@ -1874,8 +1869,5 @@ false
 }
 return
 true
-;
-}
-return
 ;
 }

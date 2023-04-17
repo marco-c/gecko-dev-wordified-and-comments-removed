@@ -1,8 +1,3 @@
-function
-run_test
-(
-)
-{
 var
 subtle
 =
@@ -7117,8 +7112,5 @@ join
 "
 }
 "
-;
-}
-return
 ;
 }
