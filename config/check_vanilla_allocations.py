@@ -422,16 +422,6 @@ o
             
 continue
         
-if
-"
-intl_components
-"
-in
-filename
-:
-            
-continue
-        
 fn
 =
 m

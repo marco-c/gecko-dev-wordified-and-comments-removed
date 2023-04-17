@@ -127,6 +127,7 @@ intl_FormatNumber
 numberFormat
 x
 false
+false
 )
 ;
 }
