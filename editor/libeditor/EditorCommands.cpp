@@ -2694,7 +2694,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 PasteTransferableAsAction
@@ -4610,7 +4610,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 InsertLineBreakAsAction
@@ -4755,7 +4755,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 InsertLineBreakAsAction
@@ -4897,7 +4897,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 PasteAsQuotationAsAction

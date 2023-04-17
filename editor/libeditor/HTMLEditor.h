@@ -475,7 +475,6 @@ IsEmpty
 const
 final
 ;
-virtual
 bool
 CanPaste
 (
@@ -483,7 +482,7 @@ int32_t
 aClipboardType
 )
 const
-override
+final
 ;
 using
 EditorBase
@@ -492,7 +491,6 @@ EditorBase
 CanPaste
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 PasteTransferableAsAction
 (
@@ -505,7 +503,7 @@ aPrincipal
 =
 nullptr
 )
-override
+final
 ;
 MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
@@ -673,7 +671,6 @@ nullptr
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 PasteAsQuotationAsAction
 (
@@ -687,9 +684,8 @@ aPrincipal
 =
 nullptr
 )
-override
+final
 ;
-virtual
 bool
 CanPasteTransferable
 (
@@ -697,10 +693,9 @@ nsITransferable
 *
 aTransferable
 )
-override
+final
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 InsertLineBreakAsAction
 (
@@ -710,7 +705,7 @@ aPrincipal
 =
 nullptr
 )
-override
+final
 ;
 [
 [
@@ -2171,7 +2166,6 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
-virtual
 EditActionResult
 HandleInsertText
 (
@@ -6171,7 +6165,6 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 InsertWithQuotationsAsSubAction
 (
