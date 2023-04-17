@@ -7084,7 +7084,7 @@ type
 has_extended_attribute
 (
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 )
 &
@@ -7757,7 +7757,7 @@ this
 has_extended_attribute
 (
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 )
 ;
@@ -7855,7 +7855,7 @@ constants
 "
 declared
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 attribute
 "
@@ -8523,7 +8523,7 @@ this
 has_extended_attribute
 (
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 )
 |
@@ -8997,7 +8997,7 @@ inherited_interface
 has_extended_attribute
 (
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 )
 )
@@ -11317,7 +11317,7 @@ parent
 has_extended_attribute
 (
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 )
 )

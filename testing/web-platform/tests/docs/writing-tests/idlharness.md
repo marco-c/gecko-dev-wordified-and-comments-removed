@@ -600,7 +600,7 @@ test
 anything
 about
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 interfaces
 and
