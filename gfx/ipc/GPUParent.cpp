@@ -48,6 +48,13 @@ h
 #
 include
 "
+gfxGradientCache
+.
+h
+"
+#
+include
+"
 GfxInfoBase
 .
 h
@@ -1064,6 +1071,13 @@ CompositorBridgeParent
 :
 :
 InitializeStatics
+(
+)
+;
+gfxGradientCache
+:
+:
+Init
 (
 )
 ;
