@@ -4732,10 +4732,12 @@ nsis_min_version
 .
 0b1
 "
+def
 onerror
-=
-lambda
+(
+)
 :
+return
 die
 (
 "
