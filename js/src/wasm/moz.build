@@ -185,6 +185,11 @@ WasmValidate
 .
 cpp
 "
+"
+WasmValType
+.
+cpp
+"
 ]
 if
 CONFIG
