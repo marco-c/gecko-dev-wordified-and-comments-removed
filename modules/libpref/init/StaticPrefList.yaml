@@ -42116,7 +42116,7 @@ type
 RelaxedAtomicBool
 value
 :
-EARLY_BETA_OR_EARLIER
+IS_EARLY_BETA_OR_EARLIER
 mirror
 :
 always
@@ -74660,7 +74660,7 @@ type
 bool
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 always
