@@ -3767,7 +3767,7 @@ shell
 :
 enableTopLevelAwait
 =
-true
+false
 ;
 bool
 shell
