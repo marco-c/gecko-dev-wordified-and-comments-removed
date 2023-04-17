@@ -312,9 +312,10 @@ T
 struct
 ISupportsBaseInfo
 {
-typedef
-T
+using
 ISupportsBase
+=
+T
 ;
 }
 ;
