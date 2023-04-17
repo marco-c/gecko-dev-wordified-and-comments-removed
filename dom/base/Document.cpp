@@ -32938,6 +32938,8 @@ Document
 :
 DisallowBFCaching
 (
+uint16_t
+aStatus
 )
 {
 NS_ASSERTION
@@ -32978,12 +32980,10 @@ wgc
 wgc
 -
 >
-BlockBFCacheFor
+SendUpdateBFCacheStatus
 (
-BFCacheStatus
-:
-:
-NOT_ALLOWED
+aStatus
+0
 )
 ;
 }

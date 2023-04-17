@@ -3748,6 +3748,13 @@ mBFCacheEntry
 void
 DisallowBFCaching
 (
+uint16_t
+aStatus
+=
+BFCacheStatus
+:
+:
+NOT_ALLOWED
 )
 ;
 bool
