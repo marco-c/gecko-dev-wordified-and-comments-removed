@@ -77,6 +77,8 @@ lib
 lib
 /
 *
+.
+jsm
 )
 res
 /
