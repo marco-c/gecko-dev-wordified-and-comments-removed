@@ -1195,9 +1195,9 @@ audioipc
 ?
 rev
 =
-fce878ff15f4e1dba1e5b54f82460af605fb4d14
+8381f3812354d8d1df972c2c3ea596b70caa9a84
 #
-fce878ff15f4e1dba1e5b54f82460af605fb4d14
+8381f3812354d8d1df972c2c3ea596b70caa9a84
 "
 dependencies
 =
@@ -1343,9 +1343,9 @@ audioipc
 ?
 rev
 =
-fce878ff15f4e1dba1e5b54f82460af605fb4d14
+8381f3812354d8d1df972c2c3ea596b70caa9a84
 #
-fce878ff15f4e1dba1e5b54f82460af605fb4d14
+8381f3812354d8d1df972c2c3ea596b70caa9a84
 "
 dependencies
 =
@@ -1360,6 +1360,9 @@ audioipc
 cubeb
 -
 backend
+"
+"
+fallible_collections
 "
 "
 futures
@@ -1428,9 +1431,9 @@ audioipc
 ?
 rev
 =
-fce878ff15f4e1dba1e5b54f82460af605fb4d14
+8381f3812354d8d1df972c2c3ea596b70caa9a84
 #
-fce878ff15f4e1dba1e5b54f82460af605fb4d14
+8381f3812354d8d1df972c2c3ea596b70caa9a84
 "
 dependencies
 =
