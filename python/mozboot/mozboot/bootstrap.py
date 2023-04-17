@@ -2549,6 +2549,10 @@ raw_mozconfig
 print
 (
 suggestion
+end
+=
+"
+"
 )
     
 def
