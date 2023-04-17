@@ -221,11 +221,7 @@ NSResult
 }
 ;
 inline
-Result
-<
-Ok
-QMResult
->
+OkOrErr
 ToResult
 (
 const
@@ -260,11 +256,7 @@ Ok
 ;
 }
 inline
-Result
-<
-Ok
-QMResult
->
+OkOrErr
 ToResult
 (
 QMResult

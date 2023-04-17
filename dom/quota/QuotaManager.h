@@ -1756,11 +1756,7 @@ mozIStorageConnection
 aConnection
 )
 ;
-Result
-<
-Ok
-QMResult
->
+OkOrErr
 MaybeRemoveLocalStorageArchiveTmpFile
 (
 )

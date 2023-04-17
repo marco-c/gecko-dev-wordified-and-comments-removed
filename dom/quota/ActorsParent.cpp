@@ -24365,11 +24365,7 @@ return
 NS_OK
 ;
 }
-Result
-<
-Ok
-QMResult
->
+OkOrErr
 QuotaManager
 :
 :
