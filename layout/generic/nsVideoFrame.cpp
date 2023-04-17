@@ -159,6 +159,13 @@ h
 #
 include
 "
+ImageLayers
+.
+h
+"
+#
+include
+"
 nsStyleUtil
 .
 h
