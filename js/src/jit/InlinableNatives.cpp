@@ -1451,6 +1451,12 @@ case
 InlinableNative
 :
 :
+SetHas
+:
+case
+InlinableNative
+:
+:
 String
 :
 case
