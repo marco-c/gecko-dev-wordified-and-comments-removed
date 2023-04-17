@@ -17005,12 +17005,6 @@ aParentFrame
 aParentFrame
 )
 ;
-nsIFrame
-*
-frameToAddToList
-=
-nullptr
-;
 if
 (
 (
@@ -17044,7 +17038,7 @@ geometricParent
 scrollframe
 )
 ;
-frameToAddToList
+primaryFrame
 =
 scrollframe
 ;
@@ -17059,15 +17053,11 @@ geometricParent
 newFrame
 )
 ;
-frameToAddToList
+primaryFrame
 =
 newFrame
 ;
 }
-primaryFrame
-=
-frameToAddToList
-;
 nsIFrame
 *
 maybeAbsoluteContainingBlockStyleFrame
@@ -17373,7 +17363,7 @@ aState
 .
 AddChild
 (
-frameToAddToList
+primaryFrame
 aFrameList
 content
 aParentFrame
