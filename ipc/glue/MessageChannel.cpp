@@ -2408,6 +2408,13 @@ mListener
 (
 aListener
 )
+mMonitor
+(
+new
+RefCountedMonitor
+(
+)
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -3341,13 +3348,6 @@ called
 >
 once
 "
-)
-;
-mMonitor
-=
-new
-RefCountedMonitor
-(
 )
 ;
 mWorkerThread
