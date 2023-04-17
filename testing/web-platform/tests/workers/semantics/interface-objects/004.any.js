@@ -48,9 +48,6 @@ HashChangeEvent
 PageTransitionEvent
 "
 "
-WritableStreamDefaultController
-"
-"
 IDBEnvironment
 "
 "
