@@ -206,11 +206,6 @@ CTypesInt64
 \
 _
 (
-PerfMeasurement
-)
-\
-_
-(
 Embedding1
 )
 \
