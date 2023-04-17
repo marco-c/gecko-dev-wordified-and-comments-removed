@@ -973,14 +973,6 @@ return
 sRFPService
 ;
 }
-constexpr
-double
-RFP_TIME_ATOM_MS
-=
-16
-.
-667
-;
 double
 nsRFPService
 :
@@ -1015,9 +1007,7 @@ std
 :
 max
 (
-RFP_TIME_ATOM_MS
-*
-1000
+100000
 .
 0
 prefValue
