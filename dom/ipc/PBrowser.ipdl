@@ -21,10 +21,6 @@ PFilePicker
 ;
 include
 protocol
-PPluginWidget
-;
-include
-protocol
 PRemotePrintJob
 ;
 include
@@ -1404,9 +1400,6 @@ manages
 PFilePicker
 ;
 manages
-PPluginWidget
-;
-manages
 PPaymentRequest
 ;
 manages
@@ -1450,11 +1443,6 @@ aDocCOMProxy
 ;
 #
 endif
-sync
-PPluginWidget
-(
-)
-;
 async
 PPaymentRequest
 (

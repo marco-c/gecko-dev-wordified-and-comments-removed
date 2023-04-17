@@ -665,11 +665,6 @@ PLoginReputation
 ipdl
 "
 "
-PPluginWidget
-.
-ipdl
-"
-"
 PProcessHangMonitor
 .
 ipdl
