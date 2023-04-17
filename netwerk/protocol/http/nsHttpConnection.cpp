@@ -8607,7 +8607,6 @@ CheckCanWrite0RTTData
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-!
 mTlsHandshakeComplitionPending
 )
 ;
