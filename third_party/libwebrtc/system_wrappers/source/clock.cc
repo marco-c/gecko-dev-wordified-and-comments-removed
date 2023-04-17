@@ -387,7 +387,7 @@ nanos
 rtc
 :
 :
-SystemTimeNanos
+WinUwpSystemTimeNanos
 (
 )
 ;
