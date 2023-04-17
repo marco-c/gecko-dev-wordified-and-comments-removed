@@ -122,7 +122,7 @@ version
 .
 0
 .
-6
+7
 "
 authors
 =
@@ -213,3 +213,17 @@ lib
 .
 rs
 "
+[
+features
+]
+default
+=
+[
+"
+std
+"
+]
+std
+=
+[
+]
