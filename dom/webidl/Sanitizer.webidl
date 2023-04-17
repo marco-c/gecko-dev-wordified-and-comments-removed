@@ -213,13 +213,10 @@ input
 [
 Throws
 ]
-Element
-?
-sanitizeFor
+DOMString
+sanitizeToString
 (
-DOMString
-element
-DOMString
+SanitizerInput
 input
 )
 ;
