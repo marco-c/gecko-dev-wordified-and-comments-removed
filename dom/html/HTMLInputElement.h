@@ -464,8 +464,8 @@ enum
 class
 FromClone
 {
-no
-yes
+No
+Yes
 }
 ;
 HTMLInputElement
@@ -488,7 +488,7 @@ aFromClone
 FromClone
 :
 :
-no
+No
 )
 ;
 NS_IMPL_FROMNODE_HTML_WITH_TAG
