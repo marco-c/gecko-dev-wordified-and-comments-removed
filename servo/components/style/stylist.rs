@@ -9047,10 +9047,6 @@ specificity
 (
 )
 current_layer_order
-.
-raw
-(
-)
 )
 )
 ;
@@ -11860,10 +11856,6 @@ specificity
 self
 .
 layer_order
-.
-raw
-(
-)
 )
 }
 pub
