@@ -5962,13 +5962,6 @@ remove
 guid1
 )
 ;
-engine
-.
-addForWeakUpload
-(
-guid2
-)
-;
 await
 sync_engine_and_validate_telem
 (

@@ -727,12 +727,6 @@ long
 long
 remoteTimeSeconds
 in
-Array
-<
-AString
->
-weakUploads
-in
 mozISyncedBookmarksMirrorCallback
 callback
 )
