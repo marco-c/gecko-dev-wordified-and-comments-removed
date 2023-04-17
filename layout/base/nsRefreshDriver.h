@@ -1916,6 +1916,11 @@ mHasExceededAfterLoadTickPeriod
 :
 1
 ;
+bool
+mHasStartedTimerAtLeastOnce
+:
+1
+;
 uint64_t
 mWarningThreshold
 ;
