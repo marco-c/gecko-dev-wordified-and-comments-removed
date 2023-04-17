@@ -378,7 +378,7 @@ mParams
 ;
 }
 ;
-nsresult
+void
 pushEvalContext
 (
 txIEvalContext
