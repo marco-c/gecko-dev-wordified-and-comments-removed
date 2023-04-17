@@ -149,13 +149,14 @@ Latn
 ;
 ASSERT_EQ
 (
-MakeStringSpan
-(
 locale
 .
 unicodeExtension
 (
 )
+.
+value
+(
 )
 MakeStringSpan
 (
