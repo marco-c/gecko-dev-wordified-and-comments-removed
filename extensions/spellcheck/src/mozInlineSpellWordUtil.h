@@ -402,6 +402,15 @@ SoftText
 nsString
 mValue
 ;
+NodeOffset
+mBegin
+=
+NodeOffset
+(
+nullptr
+0
+)
+;
 }
 ;
 SoftText
@@ -438,11 +447,6 @@ mRootNode
 (
 &
 aRootNode
-)
-mSoftBegin
-(
-nullptr
-0
 )
 mSoftEnd
 (
@@ -481,9 +485,6 @@ const
 nsINode
 *
 mRootNode
-;
-NodeOffset
-mSoftBegin
 ;
 NodeOffset
 mSoftEnd
