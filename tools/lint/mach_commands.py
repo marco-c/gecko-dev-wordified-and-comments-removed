@@ -836,7 +836,7 @@ setup_argument_parser
 )
     
 def
-format
+format_files
 (
 self
 command_context
