@@ -6,6 +6,9 @@ QMResult
 h
 "
 #
+ifdef
+QM_ERROR_STACKS_ENABLED
+#
 include
 "
 mozilla
@@ -14,9 +17,14 @@ Atomics
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
+#
+ifdef
+QM_ERROR_STACKS_ENABLED
 namespace
 {
 static
@@ -55,4 +63,6 @@ aNSResult
 )
 {
 }
+#
+endif
 }

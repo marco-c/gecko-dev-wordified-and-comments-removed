@@ -100,6 +100,17 @@ mozilla
 /
 dom
 /
+QMResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ipc
 /
 IdType
@@ -280,9 +291,6 @@ mozilla
 {
 class
 OriginAttributes
-;
-class
-QMResult
 ;
 namespace
 ipc
