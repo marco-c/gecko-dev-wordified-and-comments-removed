@@ -19038,6 +19038,11 @@ emplace
 (
 aBuilder
 aChild
+aLists
+.
+Content
+(
+)
 )
 ;
 linkifier
@@ -19047,11 +19052,6 @@ MaybeAppendLink
 (
 aBuilder
 aChild
-aLists
-.
-Content
-(
-)
 )
 ;
 }
