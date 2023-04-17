@@ -70,7 +70,7 @@ UndefinedValue
 )
 id
 (
-JSID_EMPTY
+JSID_VOID
 )
 {
 }

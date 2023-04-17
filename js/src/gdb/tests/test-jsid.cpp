@@ -185,11 +185,6 @@ void_id
 =
 JSID_VOID
 ;
-jsid
-empty_id
-=
-JSID_EMPTY
-;
 breakpoint
 (
 )
@@ -222,11 +217,6 @@ well_known_symbol_id
 use
 (
 void_id
-)
-;
-use
-(
-empty_id
 )
 ;
 }
