@@ -4442,6 +4442,8 @@ ActivateItem
 (
 Modifiers
 aModifiers
+int16_t
+aButton
 )
 {
 StopBlinking
@@ -4457,7 +4459,7 @@ IsCallerChrome
 (
 )
 aModifiers
-0
+aButton
 )
 ;
 StartBlinking
