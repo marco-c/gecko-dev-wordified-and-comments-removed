@@ -104,11 +104,6 @@ DrawTargetRecording
 h
 "
 "
-DrawTargetTiled
-.
-h
-"
-"
 DrawTargetWrapAndRecord
 .
 h
@@ -940,11 +935,6 @@ cpp
 "
 "
 DrawTargetRecording
-.
-cpp
-"
-"
-DrawTargetTiled
 .
 cpp
 "
