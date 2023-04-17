@@ -2493,11 +2493,14 @@ mozinfo
 .
 update
 (
+                
 {
 "
 android_version
 "
 :
+str
+(
 self
 .
 config
@@ -2509,7 +2512,9 @@ android_version
 "
 24
 )
+)
 }
+            
 )
             
 mozinfo

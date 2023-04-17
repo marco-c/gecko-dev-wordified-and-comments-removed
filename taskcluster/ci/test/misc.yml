@@ -76,6 +76,11 @@ tests
 in
 the
 taskgraph
+python
+-
+3
+:
+true
 geckoview
 -
 junit
@@ -213,11 +218,6 @@ suite
 geckoview
 -
 junit
-python
--
-3
-:
-true
 telemetry
 -
 tests
@@ -358,11 +358,6 @@ time
 tier
 :
 default
-python
--
-3
-:
-true
 mozharness
 :
 script
