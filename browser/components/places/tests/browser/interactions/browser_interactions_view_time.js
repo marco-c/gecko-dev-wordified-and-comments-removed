@@ -81,6 +81,12 @@ _updateDatabase
 "
 )
 ;
+Interactions
+.
+reset
+(
+)
+;
 disableIdleService
 (
 )
