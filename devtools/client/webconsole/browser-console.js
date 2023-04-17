@@ -140,7 +140,9 @@ ResourceWatcher
 (
 this
 .
-targetList
+commands
+.
+targetCommand
 )
 ;
 this
@@ -315,7 +317,9 @@ this
 ;
 this
 .
-targetList
+commands
+.
+targetCommand
 .
 destroy
 (

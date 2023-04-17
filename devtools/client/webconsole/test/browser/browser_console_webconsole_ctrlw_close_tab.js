@@ -316,7 +316,9 @@ waitForAllTargetsToBeAttached
 (
 hud
 .
-targetList
+commands
+.
+targetCommand
 )
 ;
 waitForFocus
