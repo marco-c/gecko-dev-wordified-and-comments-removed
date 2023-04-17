@@ -1724,12 +1724,15 @@ number
 export
 type
 SymbolicationWorkerReplyData
+<
+R
+>
 =
 |
 {
 result
 :
-SymbolTableAsTuple
+R
 ;
 }
 |
