@@ -4006,7 +4006,6 @@ comments
 showPage
 isPublic
 resources
-deviceId
 url
 fullScreenThumbnail
 favicon
