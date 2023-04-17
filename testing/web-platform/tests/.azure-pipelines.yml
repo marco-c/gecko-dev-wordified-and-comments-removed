@@ -1721,7 +1721,7 @@ py36
 -
 job
 :
-wpt_integratio_mac_py39
+wpt_integration_mac_py39
 displayName
 :
 '
