@@ -638,13 +638,9 @@ rs
 2
 .
 [
-testing
-/
-marionette
+remote
 /
 components
-/
-marionette
 /
 marionette
 .
@@ -665,9 +661,7 @@ central
 /
 source
 /
-testing
-/
-marionette
+remote
 /
 components
 /

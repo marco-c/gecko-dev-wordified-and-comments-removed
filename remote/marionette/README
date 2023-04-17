@@ -86,8 +86,10 @@ browsers
 such
 as
 Firefox
+on
+desktop
 and
-Fennec
+mobile
 .
 It
 can
@@ -140,8 +142,6 @@ mozilla
 org
 /
 testing
-/
-marionette
 /
 marionette
 /
