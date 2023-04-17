@@ -76,6 +76,13 @@ nullable
 :
 boolean
 "
+rdmPaneOrientation
+:
+"
+nullable
+:
+json
+"
 restoreFocus
 :
 "
