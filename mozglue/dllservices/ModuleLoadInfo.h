@@ -92,6 +92,10 @@ Status
 :
 Loaded
 )
+mIsDependent
+(
+false
+)
 {
 #
 if
@@ -135,6 +139,8 @@ void
 aBaseAddr
 Status
 aLoadStatus
+bool
+aIsDependent
 )
 :
 mLoadTimeInfo
@@ -166,6 +172,10 @@ aBaseAddr
 mStatus
 (
 aLoadStatus
+)
+mIsDependent
+(
+aIsDependent
 )
 {
 #
@@ -494,6 +504,9 @@ mBacktrace
 ;
 Status
 mStatus
+;
+bool
+mIsDependent
 ;
 }
 ;

@@ -97,6 +97,8 @@ ModuleLoadInfo
 :
 Status
 aLoadStatus
+bool
+aIsDependent
 )
 :
 mPrev
@@ -130,6 +132,7 @@ aSectionName
 )
 aMapBaseAddr
 aLoadStatus
+aIsDependent
 )
 {
 sTopFrame
@@ -283,6 +286,8 @@ ModuleLoadInfo
 :
 Status
 aLoadStatus
+bool
+aIsDependent
 )
 {
 ModuleLoadFrame
@@ -322,6 +327,7 @@ aSectionName
 aMapBaseAddr
 aMapNtStatus
 aLoadStatus
+aIsDependent
 )
 ;
 }
@@ -343,6 +349,7 @@ aSectionName
 aMapBaseAddr
 aMapNtStatus
 aLoadStatus
+aIsDependent
 )
 ;
 }
@@ -388,6 +395,8 @@ ModuleLoadInfo
 :
 Status
 aLoadStatus
+bool
+aIsDependent
 )
 {
 if
@@ -409,6 +418,7 @@ aSectionName
 aMapBaseAddr
 aMapNtStatus
 aLoadStatus
+aIsDependent
 )
 ;
 return
@@ -463,6 +473,8 @@ ModuleLoadInfo
 :
 Status
 aLoadStatus
+bool
+aIsDependent
 )
 {
 ModuleLoadFrame
@@ -478,6 +490,7 @@ aSectionName
 aMapBaseAddr
 aMapNtStatus
 aLoadStatus
+aIsDependent
 )
 ;
 }

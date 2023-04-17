@@ -2239,6 +2239,7 @@ sectionFileName
 aBaseAddress
 stubStatus
 loadStatus
+isDependent
 )
 ;
 }

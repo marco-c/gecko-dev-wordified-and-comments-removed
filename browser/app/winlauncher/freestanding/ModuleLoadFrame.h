@@ -93,6 +93,8 @@ ModuleLoadInfo
 :
 Status
 aLoadStatus
+bool
+aIsDependent
 )
 ;
 static
@@ -174,6 +176,8 @@ ModuleLoadInfo
 :
 Status
 aLoadStatus
+bool
+aIsDependent
 )
 ;
 void
@@ -204,6 +208,8 @@ ModuleLoadInfo
 :
 Status
 aLoadStatus
+bool
+aIsDependent
 )
 ;
 static
@@ -228,6 +234,8 @@ ModuleLoadInfo
 :
 Status
 aLoadStatus
+bool
+aIsDependent
 )
 ;
 private

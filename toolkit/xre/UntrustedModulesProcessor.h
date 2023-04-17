@@ -626,9 +626,6 @@ bool
 >
 mAllowProcessing
 ;
-bool
-mIsFirstBatchProcessed
-;
 }
 ;
 }
