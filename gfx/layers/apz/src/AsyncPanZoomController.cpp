@@ -1883,10 +1883,6 @@ mTestAttributeAppliers
 (
 0
 )
-mAsyncTransformAppliedToContent
-(
-false
-)
 mTestHasAsyncKeyScrolled
 (
 false
@@ -18536,10 +18532,6 @@ blocker
 (
 this
 )
-;
-mAsyncTransformAppliedToContent
-=
-false
 ;
 bool
 requestAnimationFrame
