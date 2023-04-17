@@ -9637,6 +9637,9 @@ return
 nullptr
 ;
 }
+#
+ifdef
+CAIRO_HAS_XLIB_SURFACE
 static
 inline
 bool
@@ -9701,9 +9704,6 @@ fTransform
 )
 ;
 }
-#
-ifdef
-CAIRO_HAS_XLIB_SURFACE
 static
 bool
 gXRenderInitialized
