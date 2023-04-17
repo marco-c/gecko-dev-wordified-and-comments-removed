@@ -150,6 +150,9 @@ class
 HyperTextAccessible
 ;
 class
+HyperTextAccessibleBase
+;
+class
 ImageAccessible
 ;
 class
@@ -1364,6 +1367,14 @@ HyperTextAccessible
 AsHyperText
 (
 )
+;
+virtual
+HyperTextAccessibleBase
+*
+AsHyperTextBase
+(
+)
+override
 ;
 HTMLLIAccessible
 *
