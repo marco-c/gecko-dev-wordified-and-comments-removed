@@ -3541,7 +3541,12 @@ NS_HTTP_LARGE_KEEPALIVE
 {
 mDefaultTimeoutFactor
 =
-10
+StaticPrefs
+:
+:
+network_http_largeKeepaliveFactor
+(
+)
 ;
 }
 mTransactionCaps
