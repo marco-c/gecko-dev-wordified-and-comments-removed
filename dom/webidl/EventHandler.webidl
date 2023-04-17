@@ -556,6 +556,10 @@ onselectstart
 ;
 attribute
 EventHandler
+onselectionchange
+;
+attribute
+EventHandler
 ontoggle
 ;
 /

@@ -1269,7 +1269,7 @@ eReadyStateChange
 EventNameType_HTMLXUL
 eBasicEventClass
 )
-DOCUMENT_ONLY_EVENT
+EVENT
 (
 selectionchange
 eSelectionChange
