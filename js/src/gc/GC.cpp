@@ -9362,11 +9362,9 @@ return
 double
 cpuCount
 =
-HelperThreadState
+GetHelperThreadCPUCount
 (
 )
-.
-cpuCount
 ;
 size_t
 target
@@ -9425,11 +9423,9 @@ std
 min
 (
 target
-HelperThreadState
+GetHelperThreadCount
 (
 )
-.
-threadCount
 )
 ;
 HelperThreadState

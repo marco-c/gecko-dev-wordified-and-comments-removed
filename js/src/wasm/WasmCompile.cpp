@@ -58,7 +58,7 @@ include
 "
 vm
 /
-HelperThreadState
+HelperThreads
 .
 h
 "
@@ -1633,11 +1633,9 @@ codeSize
 uint32_t
 cpuCount
 =
-HelperThreadState
+GetHelperThreadCPUCount
 (
 )
-.
-cpuCount
 ;
 MOZ_ASSERT
 (
@@ -1660,11 +1658,9 @@ false
 }
 MOZ_ASSERT
 (
-HelperThreadState
+GetHelperThreadCount
 (
 )
-.
-threadCount
 >
 =
 cpuCount
@@ -1673,11 +1669,7 @@ cpuCount
 uint32_t
 workers
 =
-HelperThreadState
-(
-)
-.
-maxWasmCompilationThreads
+GetMaxWasmCompilationThreads
 (
 )
 ;

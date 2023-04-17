@@ -760,7 +760,7 @@ include
 "
 vm
 /
-HelperThreadState
+HelperThreads
 .
 h
 "
@@ -27673,11 +27673,9 @@ rval
 .
 setInt32
 (
-HelperThreadState
+GetHelperThreadCount
 (
 )
-.
-threadCount
 )
 ;
 }
