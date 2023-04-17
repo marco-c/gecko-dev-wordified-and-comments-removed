@@ -98,7 +98,6 @@ SCROLL_BY_EDGE
 const
 SCROLLBAR_WIDTH
 =
-(
 window
 .
 navigator
@@ -111,7 +110,6 @@ match
 Mac
 /
 i
-)
 )
 ?
 17
@@ -216,7 +214,6 @@ cd1
 :
 round10
 (
-(
 boxEnd
 .
 bottom
@@ -224,7 +221,6 @@ bottom
 boxEnd
 .
 top
-)
 -
 (
 boxStart
@@ -240,7 +236,6 @@ cd2
 :
 round10
 (
-(
 boxEnd
 .
 right
@@ -248,7 +243,6 @@ right
 boxEnd
 .
 left
-)
 -
 (
 boxStart
@@ -307,7 +301,6 @@ downloadShot
 const
 previewDataUrl
 =
-(
 captureType
 =
 =
@@ -315,7 +308,6 @@ captureType
 "
 fullPageTruncated
 "
-)
 ?
 null
 :
@@ -343,7 +335,6 @@ copyShot
 const
 previewDataUrl
 =
-(
 captureType
 =
 =
@@ -351,7 +342,6 @@ captureType
 "
 fullPageTruncated
 "
-)
 ?
 null
 :
@@ -1361,7 +1351,6 @@ target
 classList
 &
 &
-(
 !
 event
 .
@@ -1376,7 +1365,6 @@ preview
 -
 overlay
 "
-)
 )
 )
 {
@@ -1476,6 +1464,7 @@ Math
 .
 floor
 (
+(
 10
 *
 (
@@ -1488,6 +1477,7 @@ window
 innerWidth
 /
 2
+)
 )
 /
 window
@@ -1502,6 +1492,7 @@ Math
 .
 floor
 (
+(
 10
 *
 (
@@ -1514,6 +1505,7 @@ window
 innerHeight
 /
 2
+)
 )
 /
 window
@@ -2676,15 +2668,13 @@ null
 const
 isGoodEl
 =
-(
-el
-)
+element
 =
 >
 {
 if
 (
-el
+element
 .
 nodeType
 !
@@ -2701,7 +2691,7 @@ false
 }
 if
 (
-el
+element
 .
 tagName
 =
@@ -2715,13 +2705,14 @@ IMG
 const
 rect
 =
-el
+element
 .
 getBoundingClientRect
 (
 )
 ;
 return
+(
 rect
 .
 width
@@ -2740,6 +2731,7 @@ height
 this
 .
 minAutoImageHeight
+)
 ;
 }
 const
@@ -2749,7 +2741,7 @@ window
 .
 getComputedStyle
 (
-el
+element
 )
 .
 display
@@ -4016,7 +4008,7 @@ z0
 9
 ]
 /
-ig
+gi
 "
 "
 )
@@ -4243,9 +4235,7 @@ click
 .
 forEach
 (
-(
 eventName
-)
 =
 >
 {
@@ -4256,10 +4246,8 @@ watchFunction
 (
 assertIsTrusted
 (
-(
 function
 (
-eventName
 event
 )
 {
@@ -4335,14 +4323,18 @@ if
 (
 handler
 [
-eventName
+event
+.
+type
 ]
 )
 {
 return
 handler
 [
-eventName
+event
+.
+type
 ]
 (
 event
@@ -4353,13 +4345,6 @@ return
 undefined
 ;
 }
-)
-.
-bind
-(
-null
-eventName
-)
 )
 )
 ;
