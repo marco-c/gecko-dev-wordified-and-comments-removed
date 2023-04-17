@@ -204,6 +204,15 @@ top
 .
 embedderElement
 ;
+if
+(
+!
+browser
+)
+{
+return
+;
+}
 let
 window
 =
