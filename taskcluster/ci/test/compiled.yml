@@ -215,6 +215,13 @@ python
 3
 :
 true
+supports
+-
+artifact
+-
+builds
+:
+false
 cppunit
 :
 description

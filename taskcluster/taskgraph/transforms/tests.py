@@ -3922,6 +3922,19 @@ subtest
 )
 :
 text_type
+        
+Optional
+(
+"
+supports
+-
+artifact
+-
+builds
+"
+)
+:
+bool
     
 }
 )
@@ -4490,6 +4503,20 @@ variants
 "
 [
 ]
+)
+        
+task
+.
+setdefault
+(
+"
+supports
+-
+artifact
+-
+builds
+"
+True
 )
         
 task
@@ -14013,6 +14040,25 @@ chunk
 "
 ]
 )
+                
+"
+supports
+-
+artifact
+-
+builds
+"
+:
+task
+[
+"
+supports
+-
+artifact
+-
+builds
+"
+]
                 
 attr_try_name
 :
