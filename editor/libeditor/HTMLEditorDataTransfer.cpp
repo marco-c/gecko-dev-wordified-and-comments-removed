@@ -2363,7 +2363,7 @@ rv
 NS_WARNING
 (
 "
-HTMLEditor
+EditorBase
 :
 :
 PrepareToInsertContent
