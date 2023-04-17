@@ -929,8 +929,9 @@ LoadingSessionHistoryInfo
 SessionHistoryEntry
 *
 aEntry
-uint64_t
-aLoadId
+LoadingSessionHistoryInfo
+*
+aInfo
 )
 ;
 already_AddRefed

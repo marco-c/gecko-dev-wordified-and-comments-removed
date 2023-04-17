@@ -2810,9 +2810,6 @@ LoadingSessionHistoryInfo
 (
 loadingEntry
 aInfo
--
->
-mLoadId
 )
 ;
 }
