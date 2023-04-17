@@ -355,6 +355,9 @@ mProxyAuthorizationHeader
 nsCString
 mConnectionIsolationKey
 ;
+nsCString
+mSourceId
+;
 int32_t
 mPort
 {

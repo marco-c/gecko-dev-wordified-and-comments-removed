@@ -72,6 +72,10 @@ attribute
 nsIProxyInfo
 failoverProxy
 ;
+attribute
+ACString
+sourceId
+;
 readonly
 attribute
 ACString
