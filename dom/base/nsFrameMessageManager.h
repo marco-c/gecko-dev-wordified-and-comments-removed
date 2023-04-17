@@ -1548,8 +1548,6 @@ nsAString
 aURL
 bool
 aRunInUniqueScope
-bool
-aShouldCache
 JS
 :
 :

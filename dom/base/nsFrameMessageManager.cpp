@@ -6481,7 +6481,6 @@ TryCacheLoadAndCompileScript
 (
 aURL
 aRunInUniqueScope
-true
 aMessageManager
 &
 script
@@ -6627,8 +6626,6 @@ nsAString
 aURL
 bool
 aRunInUniqueScope
-bool
-aShouldCache
 JS
 :
 :
@@ -6733,10 +6730,6 @@ return
 bool
 isRunOnce
 =
-!
-aShouldCache
-|
-|
 IsProcessScoped
 (
 )
@@ -6755,9 +6748,6 @@ scheme
 bool
 useScriptPreloader
 =
-aShouldCache
-&
-&
 !
 scheme
 .
@@ -6853,6 +6843,11 @@ script
 cx
 )
 ;
+if
+(
+useScriptPreloader
+)
+{
 script
 =
 ScriptPreloader
@@ -6869,6 +6864,7 @@ options
 url
 )
 ;
+}
 if
 (
 !
