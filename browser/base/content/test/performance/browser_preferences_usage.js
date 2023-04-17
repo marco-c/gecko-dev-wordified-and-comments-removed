@@ -556,7 +556,7 @@ dpi
 {
 max
 :
-40
+35
 }
 "
 browser
