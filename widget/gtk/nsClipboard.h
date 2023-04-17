@@ -73,7 +73,9 @@ gClipboardLog
 define
 LOGCLIP
 (
-args
+.
+.
+.
 )
 MOZ_LOG
 (
@@ -85,7 +87,9 @@ LogLevel
 :
 :
 Debug
-args
+(
+__VA_ARGS__
+)
 )
 #
 else
@@ -93,7 +97,9 @@ else
 define
 LOGCLIP
 (
-args
+.
+.
+.
 )
 #
 endif

@@ -879,7 +879,6 @@ aDataRequestNumber
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextX11
 :
@@ -888,7 +887,6 @@ Complete
 \
 n
 "
-)
 )
 ;
 if
@@ -965,7 +963,6 @@ CLIPBOARD_TEXT
 {
 LOGCLIP
 (
-(
 "
 got
 text
@@ -976,7 +973,6 @@ p
 n
 "
 aData
-)
 )
 ;
 const
@@ -1085,7 +1081,6 @@ return
 }
 LOGCLIP
 (
-(
 "
 got
 %
@@ -1095,7 +1090,6 @@ targets
 n
 "
 n_targets
-)
 )
 ;
 mClipboardData
@@ -1159,7 +1153,6 @@ selection
 ;
 LOGCLIP
 (
-(
 "
 got
 data
@@ -1179,7 +1172,6 @@ dataLength
 gdk_atom_name
 (
 target
-)
 )
 )
 ;
@@ -1252,7 +1244,6 @@ clipboard
 ;
 LOGCLIP
 (
-(
 "
 clipboard_contents_received
 (
@@ -1278,7 +1269,6 @@ primary
 "
 clipboard
 "
-)
 )
 ;
 ClipboardRequestHandler
@@ -1331,7 +1321,6 @@ clipboard
 ;
 LOGCLIP
 (
-(
 "
 clipboard_text_received
 (
@@ -1357,7 +1346,6 @@ primary
 "
 clipboard
 "
-)
 )
 ;
 ClipboardRequestHandler
@@ -1404,7 +1392,6 @@ aMimeType
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextX11
 :
@@ -1417,7 +1404,6 @@ s
 n
 "
 aMimeType
-)
 )
 ;
 mState
@@ -1462,7 +1448,6 @@ CLIPBOARD_DATA
 :
 LOGCLIP
 (
-(
 "
 getting
 DATA
@@ -1473,7 +1458,6 @@ s
 n
 "
 aMimeType
-)
 )
 ;
 gtk_clipboard_request_contents
@@ -1495,14 +1479,12 @@ CLIPBOARD_TEXT
 :
 LOGCLIP
 (
-(
 "
 getting
 TEXT
 \
 n
 "
-)
 )
 ;
 gtk_clipboard_request_text
@@ -1519,14 +1501,12 @@ CLIPBOARD_TARGETS
 :
 LOGCLIP
 (
-(
 "
 getting
 TARGETS
 \
 n
 "
-)
 )
 ;
 gtk_clipboard_request_contents
@@ -1562,7 +1542,6 @@ aTargetNums
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextX11
 :
@@ -1591,7 +1570,6 @@ primary
 clipboard
 "
 )
-)
 ;
 GtkClipboard
 *
@@ -1617,7 +1595,6 @@ clipboard
 {
 LOGCLIP
 (
-(
 "
 WaitForClipboardData
 (
@@ -1627,7 +1604,6 @@ failed
 \
 n
 "
-)
 )
 ;
 return
@@ -1662,7 +1638,6 @@ mClipboardDataLength
 ;
 LOGCLIP
 (
-(
 "
 returned
 %
@@ -1673,7 +1648,6 @@ n
 "
 *
 aTargetNums
-)
 )
 ;
 return
@@ -1700,7 +1674,6 @@ aContentLength
 )
 {
 LOGCLIP
-(
 (
 "
 nsRetrievalContextX11
@@ -1733,7 +1706,6 @@ primary
 clipboard
 "
 aMimeType
-)
 )
 ;
 GtkClipboard
@@ -1794,7 +1766,6 @@ aWhichClipboard
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextX11
 :
@@ -1822,7 +1793,6 @@ primary
 "
 clipboard
 "
-)
 )
 ;
 GtkClipboard
@@ -1877,7 +1847,6 @@ aClipboardData
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextX11
 :
@@ -1886,7 +1855,6 @@ ReleaseClipboardData
 \
 n
 "
-)
 )
 ;
 NS_ASSERTION
