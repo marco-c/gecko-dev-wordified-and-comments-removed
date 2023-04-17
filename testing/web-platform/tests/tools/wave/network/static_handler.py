@@ -12,10 +12,6 @@ import
 unicode_literals
 import
 os
-from
-io
-import
-open
 class
 StaticHandler
 (

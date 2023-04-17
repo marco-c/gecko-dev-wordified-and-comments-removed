@@ -1,6 +1,4 @@
 import
-io
-import
 os
 import
 sys
@@ -1856,8 +1854,6 @@ try
 :
             
 with
-io
-.
 open
 (
 manifest

@@ -10,8 +10,6 @@ argparse
 import
 ast
 import
-io
-import
 json
 import
 logging
@@ -5838,8 +5836,6 @@ None
         
 f
 =
-io
-.
 open
 (
 os
@@ -7279,8 +7275,6 @@ cpu_count
 )
     
 with
-io
-.
 open
 (
 os

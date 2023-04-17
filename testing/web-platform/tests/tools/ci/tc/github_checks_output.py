@@ -1,5 +1,3 @@
-import
-io
 from
 six
 import
@@ -147,8 +145,6 @@ line
 )
         
 with
-io
-.
 open
 (
 self
