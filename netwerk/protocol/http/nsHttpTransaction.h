@@ -1521,6 +1521,11 @@ nsICancelable
 >
 mTokenBucketCancel
 ;
+void
+CollectTelemetryForUploads
+(
+)
+;
 public
 :
 uint32_t
