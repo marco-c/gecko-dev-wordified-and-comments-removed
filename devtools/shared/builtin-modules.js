@@ -101,6 +101,7 @@ DOMPoint
 DOMQuad
 DOMRect
 HeapSnapshot
+L10nRegistry
 NamedNodeMap
 NodeFilter
 StructuredCloneHolder
@@ -698,6 +699,7 @@ FormData
 isWorker
 :
 false
+L10nRegistry
 loader
 :
 {
