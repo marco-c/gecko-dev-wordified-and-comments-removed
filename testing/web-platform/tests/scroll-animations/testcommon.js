@@ -59,7 +59,7 @@ style
 overflow
 =
 '
-scroll
+hidden
 '
 ;
 for
