@@ -113,7 +113,7 @@ namespace
 image
 {
 class
-Image
+ImageResource
 ;
 class
 ISurfaceProvider
@@ -127,10 +127,11 @@ SurfaceCacheImpl
 struct
 SurfaceMemoryCounter
 ;
-typedef
-Image
-*
+using
 ImageKey
+=
+ImageResource
+*
 ;
 class
 SurfaceKey
