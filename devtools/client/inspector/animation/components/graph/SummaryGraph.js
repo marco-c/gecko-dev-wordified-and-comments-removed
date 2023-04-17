@@ -213,13 +213,6 @@ PropTypes
 object
 .
 isRequired
-emitEventForTest
-:
-PropTypes
-.
-func
-.
-isRequired
 getAnimatedPropertyMap
 :
 PropTypes
@@ -926,7 +919,6 @@ render
 const
 {
 animation
-emitEventForTest
 getAnimatedPropertyMap
 simulateAnimation
 timeScale
@@ -1007,7 +999,6 @@ SummaryGraphPath
 (
 {
 animation
-emitEventForTest
 getAnimatedPropertyMap
 simulateAnimation
 timeScale

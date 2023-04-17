@@ -217,7 +217,8 @@ TEST_DATA
 const
 animationItemEl
 =
-findAnimationItemElementsByTargetSelector
+await
+findAnimationItemByTargetSelector
 (
 panel
 .

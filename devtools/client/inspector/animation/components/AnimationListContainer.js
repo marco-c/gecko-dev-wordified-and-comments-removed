@@ -271,13 +271,6 @@ PropTypes
 func
 .
 isRequired
-emitEventForTest
-:
-PropTypes
-.
-func
-.
-isRequired
 getAnimatedPropertyMap
 :
 PropTypes
@@ -970,7 +963,6 @@ addAnimationsCurrentTimeListener
 animations
 direction
 dispatch
-emitEventForTest
 getAnimatedPropertyMap
 getNodeFromActor
 removeAnimationsCurrentTimeListener
@@ -1040,7 +1032,6 @@ AnimationList
 animations
 dispatch
 displayableRange
-emitEventForTest
 getAnimatedPropertyMap
 getNodeFromActor
 selectAnimation

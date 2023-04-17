@@ -566,7 +566,6 @@ addAnimationsCurrentTimeListener
 animations
 direction
 dispatch
-emitEventForTest
 getAnimatedPropertyMap
 getNodeFromActor
 removeAnimationsCurrentTimeListener

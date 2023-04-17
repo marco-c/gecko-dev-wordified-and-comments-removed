@@ -77,7 +77,6 @@ width
 "
 )
 ;
-await
 clickOnCurrentTimeScrubberController
 (
 animationInspector
@@ -85,6 +84,15 @@ panel
 0
 .
 5
+)
+;
+await
+waitUntilAnimationsPlayState
+(
+animationInspector
+"
+paused
+"
 )
 ;
 await

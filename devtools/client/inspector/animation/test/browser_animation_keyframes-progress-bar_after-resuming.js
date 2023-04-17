@@ -131,7 +131,6 @@ wait
 500
 )
 ;
-await
 clickOnPauseResumeButton
 (
 animationInspector
@@ -236,7 +235,6 @@ i
 }
 )
 ;
-await
 clickOnCurrentTimeScrubberController
 (
 animationInspector
@@ -245,6 +243,15 @@ scrubberPositions
 [
 i
 ]
+)
+;
+await
+waitUntilAnimationsPlayState
+(
+animationInspector
+"
+paused
+"
 )
 ;
 const
