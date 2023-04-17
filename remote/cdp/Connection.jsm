@@ -102,7 +102,7 @@ defineLazyGetter
 (
 this
 "
-log
+logger
 "
 (
 )
@@ -298,7 +298,7 @@ t
 null
 )
 ;
-log
+logger
 .
 trace
 (
@@ -471,7 +471,7 @@ onPacket
 packet
 )
 {
-log
+logger
 .
 trace
 (

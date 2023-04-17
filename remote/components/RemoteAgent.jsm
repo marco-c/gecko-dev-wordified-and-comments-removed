@@ -180,7 +180,7 @@ defineLazyGetter
 (
 this
 "
-log
+logger
 "
 (
 )
@@ -499,7 +499,7 @@ k
 )
 )
 {
-log
+logger
 .
 debug
 (
@@ -715,7 +715,7 @@ close
 (
 )
 ;
-log
+logger
 .
 error
 (
@@ -751,7 +751,7 @@ this
 alteredPrefs
 )
 {
-log
+logger
 .
 debug
 (
@@ -818,7 +818,7 @@ catch
 e
 )
 {
-log
+logger
 .
 error
 (
