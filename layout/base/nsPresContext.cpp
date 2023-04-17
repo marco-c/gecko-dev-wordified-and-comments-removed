@@ -305,13 +305,6 @@ h
 #
 include
 "
-nsMediaFeatures
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
@@ -6434,13 +6427,6 @@ kind
 ;
 }
 }
-nsMediaFeatures
-:
-:
-FreeSystemMetrics
-(
-)
-;
 PreferenceSheet
 :
 :
