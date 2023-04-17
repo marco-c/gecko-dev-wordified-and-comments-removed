@@ -8038,6 +8038,17 @@ popupFrame
 {
 if
 (
+popupFrame
+-
+>
+PopupState
+(
+)
+=
+=
+ePopupClosed
+|
+|
 status
 =
 =
