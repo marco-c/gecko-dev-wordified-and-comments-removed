@@ -1267,6 +1267,12 @@ strategy
             
 )
         
+self
+.
+delete_session
+(
+)
+        
 for
 value
 in
