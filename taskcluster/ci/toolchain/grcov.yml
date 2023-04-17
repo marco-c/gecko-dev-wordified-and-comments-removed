@@ -143,6 +143,14 @@ clang
 linux64
 -
 binutils
+-
+sysroot
+-
+x86_64
+-
+linux
+-
+gnu
 macosx64
 -
 grcov
