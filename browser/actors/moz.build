@@ -171,16 +171,6 @@ actors
 =
 [
 "
-AboutNewInstallChild
-.
-jsm
-"
-"
-AboutNewInstallParent
-.
-jsm
-"
-"
 AboutNewTabChild
 .
 jsm

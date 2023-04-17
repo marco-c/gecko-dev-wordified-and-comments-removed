@@ -523,9 +523,6 @@ const
 bool
 mUseDedicatedProfile
 ;
-bool
-mCreatedAlternateProfile
-;
 nsString
 mStartupReason
 ;
