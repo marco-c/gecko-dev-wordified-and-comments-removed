@@ -127,7 +127,7 @@ opened
 "
 )
 ;
-let
+const
 onSplitConsole
 =
 toolbox
