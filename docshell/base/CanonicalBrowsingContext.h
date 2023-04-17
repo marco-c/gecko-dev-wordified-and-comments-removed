@@ -1129,6 +1129,14 @@ void
 aDone
 )
 ;
+static
+void
+UpdateSessionStoreForStorage
+(
+uint64_t
+aBrowsingContextId
+)
+;
 void
 BrowserParentDestroyed
 (

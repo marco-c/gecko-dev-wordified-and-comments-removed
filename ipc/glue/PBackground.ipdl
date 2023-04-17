@@ -932,6 +932,8 @@ uint64_t
 aTopContextId
 uint32_t
 aSizeLimit
+bool
+aCancelSessionStoreTimer
 )
 returns
 (

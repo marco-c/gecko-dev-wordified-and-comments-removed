@@ -1543,6 +1543,10 @@ const
 uint32_t
 &
 aSizeLimit
+const
+bool
+&
+aCancelSessionStoreTimer
 GetSessionStorageManagerDataResolver
 &
 &
