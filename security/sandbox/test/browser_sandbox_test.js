@@ -47,6 +47,9 @@ tab
 socket
 "
 "
+rdd
+"
+"
 gpu
 "
 ]
