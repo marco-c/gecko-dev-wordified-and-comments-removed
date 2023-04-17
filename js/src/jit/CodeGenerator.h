@@ -1001,11 +1001,6 @@ Register
 temp1
 unsigned
 numFormals
-JSObject
-*
-templateObject
-bool
-saveAndRestore
 Register
 resultreg
 )

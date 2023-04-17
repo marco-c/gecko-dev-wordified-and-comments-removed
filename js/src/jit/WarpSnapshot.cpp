@@ -1347,7 +1347,7 @@ out
 printf
 (
 "
-template
+shape
 :
 0x
 %
@@ -1355,7 +1355,7 @@ p
 \
 n
 "
-templateObject
+shape
 (
 )
 )
@@ -2133,13 +2133,13 @@ trc
 TraceWarpGCPtr
 (
 trc
-templateObject_
+shape_
 "
 warp
 -
 rest
 -
-template
+shape
 "
 )
 ;
