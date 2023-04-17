@@ -345,7 +345,6 @@ i
 const
 match
 =
-(
 /
 ^
 https
@@ -369,7 +368,6 @@ https
 ?
 /
 i
-)
 .
 exec
 (
@@ -442,7 +440,6 @@ null
 const
 match
 =
-(
 /
 ^
 https
@@ -463,7 +460,6 @@ https
 }
 /
 i
-)
 .
 exec
 (
@@ -526,10 +522,8 @@ object
 :
 "
 +
-(
 typeof
 obj
-)
 +
 "
 that
@@ -1077,7 +1071,6 @@ attrs
 ;
 assert
 (
-(
 /
 ^
 [
@@ -1110,7 +1103,6 @@ _
 4000
 }
 /
-)
 .
 test
 (
@@ -1170,12 +1162,10 @@ null
 ;
 if
 (
-(
 !
 attrs
 .
 fullUrl
-)
 &
 &
 attrs
@@ -1325,9 +1315,7 @@ images
 .
 map
 (
-(
 json
-)
 =
 >
 new
@@ -2403,9 +2391,9 @@ replace
 :
 /
 g
-'
+"
 -
-'
+"
 )
 ;
 let
@@ -3973,7 +3961,6 @@ prototype
 .
 REGULAR_ATTRS
 =
-(
 origin
 fullUrl
 docTitle
@@ -3987,7 +3974,6 @@ documentSize
 thumbnail
 abTests
 firefoxChannel
-)
 .
 split
 (
@@ -4005,7 +3991,6 @@ prototype
 .
 DEPRECATED_ATTRS
 =
-(
 microdata
 history
 ogTitle
@@ -4025,7 +4010,6 @@ deviceId
 url
 fullScreenThumbnail
 favicon
-)
 .
 split
 (
@@ -4043,7 +4027,6 @@ prototype
 .
 RECALL_ATTRS
 =
-(
 url
 docTitle
 userTitle
@@ -4052,7 +4035,6 @@ openGraph
 twitterCard
 images
 thumbnail
-)
 .
 split
 (
@@ -4070,7 +4052,6 @@ prototype
 .
 _OPENGRAPH_PROPERTIES
 =
-(
 title
 type
 url
@@ -4153,7 +4134,6 @@ username
 profile
 :
 gender
-)
 .
 split
 (
@@ -4171,7 +4151,6 @@ prototype
 .
 _TWITTERCARD_PROPERTIES
 =
-(
 card
 site
 title
@@ -4192,7 +4171,6 @@ player
 stream
 :
 content_type
-)
 .
 split
 (
@@ -4300,12 +4278,10 @@ url
 ;
 assert
 (
-(
 !
 json
 .
 dimensions
-)
 |
 |
 (
