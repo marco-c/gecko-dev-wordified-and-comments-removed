@@ -10620,7 +10620,7 @@ rv
 media
 :
 :
-GetShutdownBarrier
+MustGetShutdownBarrier
 (
 )
 -
@@ -19134,7 +19134,7 @@ sSingletonMutex
 media
 :
 :
-GetShutdownBarrier
+MustGetShutdownBarrier
 (
 )
 -
