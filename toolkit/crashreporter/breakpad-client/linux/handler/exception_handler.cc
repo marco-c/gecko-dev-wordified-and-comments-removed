@@ -250,13 +250,6 @@ linux_syscall_support
 h
 "
 #
-include
-"
-prenv
-.
-h
-"
-#
 if
 defined
 (
@@ -779,7 +772,7 @@ NULL
 {
 g_skip_sigill_
 =
-PR_GetEnv
+getenv
 (
 "
 MOZ_DISABLE_EXCEPTION_HANDLER_SIGILL
