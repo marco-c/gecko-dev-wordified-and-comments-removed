@@ -328,14 +328,6 @@ Deallocate
 0
 ;
 virtual
-void
-Shutdown
-(
-)
-=
-0
-;
-virtual
 nsresult
 TakePhoto
 (
@@ -460,12 +452,6 @@ override
 ;
 nsresult
 FocusOnSelectedSource
-(
-)
-override
-;
-void
-Shutdown
 (
 )
 override
