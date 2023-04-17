@@ -58,6 +58,12 @@ typedef
 double
 DOMHighResTimeStamp
 ;
+typedef
+unsigned
+long
+long
+EpochTimeStamp
+;
 [
 Exposed
 =
