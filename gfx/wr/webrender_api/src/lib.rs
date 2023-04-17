@@ -2649,6 +2649,9 @@ CrashAnnotation
 CompileShader
 =
 0
+DrawShader
+=
+1
 }
 pub
 trait
