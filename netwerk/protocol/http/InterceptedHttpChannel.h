@@ -181,16 +181,6 @@ mResumeEntityId
 nsString
 mStatusHost
 ;
-enum
-{
-Invalid
-=
-0
-Synthesized
-Reset
-}
-mSynthesizedOrReset
-;
 Atomic
 <
 bool
