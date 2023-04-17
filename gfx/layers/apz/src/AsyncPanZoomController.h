@@ -2453,6 +2453,11 @@ ResetTouchInputState
 (
 )
 ;
+void
+ResetPanGestureInputState
+(
+)
+;
 const
 RefPtr
 <
