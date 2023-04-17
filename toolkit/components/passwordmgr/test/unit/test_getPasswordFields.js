@@ -28,7 +28,9 @@ jsm
 )
 ;
 const
-LMCBackstagePass
+{
+LoginManagerChild
+}
 =
 ChromeUtils
 .
@@ -47,15 +49,7 @@ LoginManagerChild
 .
 jsm
 "
-null
 )
-;
-const
-{
-LoginManagerChild
-}
-=
-LMCBackstagePass
 ;
 const
 TESTCASES
