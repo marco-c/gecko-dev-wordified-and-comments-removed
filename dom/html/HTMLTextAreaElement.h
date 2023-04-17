@@ -278,11 +278,6 @@ SetLastValueChangeWasInteractive
 bool
 )
 ;
-void
-ValueChangedOrLastValueChangeWasInteractiveChanged
-(
-)
-;
 virtual
 nsresult
 SetValueChanged
