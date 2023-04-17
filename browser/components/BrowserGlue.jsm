@@ -3992,6 +3992,13 @@ macosx
 "
 |
 |
+Services
+.
+startup
+.
+wasSilentlyStarted
+|
+|
 !
 Services
 .

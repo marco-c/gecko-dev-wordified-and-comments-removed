@@ -165,7 +165,7 @@ bool
 mStartupCrashTrackingEnded
 ;
 bool
-mWasSilentlyRestarted
+mWasSilentlyStarted
 ;
 #
 if

@@ -4195,16 +4195,6 @@ urilist
 ;
 if
 (
-AppConstants
-.
-platform
-=
-=
-"
-macosx
-"
-&
-&
 cmdLine
 .
 state
@@ -4221,7 +4211,7 @@ Services
 .
 startup
 .
-wasSilentlyRestarted
+wasSilentlyStarted
 )
 {
 Services
