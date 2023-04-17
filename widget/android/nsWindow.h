@@ -836,10 +836,10 @@ SetCursor
 const
 Cursor
 &
+aDefaultCursor
 )
 override
-{
-}
+;
 void
 *
 GetNativeData
