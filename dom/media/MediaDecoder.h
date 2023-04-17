@@ -915,10 +915,12 @@ UpdateVideoDecodeMode
 void
 SetSecondaryVideoContainer
 (
+const
 RefPtr
 <
 VideoFrameContainer
 >
+&
 aSecondaryVideoContainer
 )
 ;
