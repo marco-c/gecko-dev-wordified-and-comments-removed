@@ -2208,10 +2208,6 @@ DOMDocElementInserted
 :
 {
 }
-DOMWindowCreated
-:
-{
-}
 }
 }
 matches

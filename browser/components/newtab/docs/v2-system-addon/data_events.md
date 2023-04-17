@@ -8663,10 +8663,6 @@ bar
 -
 navigated
 "
-|
-"
-unknown
-"
 ]
 }
 "
