@@ -1154,9 +1154,6 @@ display_list
 PipelineId
 BuiltDisplayList
 )
-preserve_frame_state
-:
-bool
 )
 {
 display_list
@@ -1184,7 +1181,6 @@ epoch
 pipeline_id
 background
 viewport_size
-preserve_frame_state
 }
 )
 ;
@@ -2828,9 +2824,6 @@ ColorF
 viewport_size
 :
 LayoutSize
-preserve_frame_state
-:
-bool
 }
 SetDocumentView
 {

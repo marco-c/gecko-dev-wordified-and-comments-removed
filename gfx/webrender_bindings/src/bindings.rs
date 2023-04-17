@@ -9379,11 +9379,6 @@ background
 }
 ;
 let
-preserve_frame_state
-=
-true
-;
-let
 payload
 =
 DisplayListPayload
@@ -9434,7 +9429,6 @@ viewport_size
 pipeline_id
 dl
 )
-preserve_frame_state
 )
 ;
 }
@@ -10651,11 +10645,6 @@ WrPipelineId
 )
 {
 let
-preserve_frame_state
-=
-true
-;
-let
 mut
 frame_builder
 =
@@ -10700,7 +10689,6 @@ dl_builder
 end
 (
 )
-preserve_frame_state
 )
 ;
 }
