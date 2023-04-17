@@ -1018,13 +1018,13 @@ fetch
 )
 parent
 :
-debian10
+debian11
 -
 raw
 packages
 :
 -
-deb10
+deb11
 -
 python
 -
