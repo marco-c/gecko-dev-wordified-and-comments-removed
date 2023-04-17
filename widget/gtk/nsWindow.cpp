@@ -2129,11 +2129,11 @@ int
 aY
 )
 {
-if
+MOZ_RELEASE_ASSERT
 (
 aWindow
 )
-{
+;
 gdk_window_get_origin
 (
 aWindow
@@ -2141,7 +2141,6 @@ aX
 aY
 )
 ;
-}
 #
 if
 0
