@@ -642,7 +642,7 @@ ForceShutDown
 (
 )
 ;
-void
+bool
 AddShutdownBlocker
 (
 )
