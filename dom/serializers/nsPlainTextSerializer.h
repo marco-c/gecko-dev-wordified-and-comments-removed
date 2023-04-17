@@ -913,6 +913,8 @@ FindWrapIndexForContent
 (
 uint32_t
 aWrapColumn
+uint32_t
+aContentWidth
 mozilla
 :
 :
