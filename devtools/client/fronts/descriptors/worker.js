@@ -457,13 +457,6 @@ return
 this
 ;
 }
-await
-this
-.
-attachConsole
-(
-)
-;
 return
 this
 ;
