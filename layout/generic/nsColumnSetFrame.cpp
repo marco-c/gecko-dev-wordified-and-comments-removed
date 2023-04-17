@@ -378,9 +378,6 @@ get
 )
 )
 ;
-bool
-dummy
-;
 static_cast
 <
 nsColumnSetFrame
@@ -395,11 +392,8 @@ CreateBorderRenderers
 (
 mBorderRenderers
 screenRefCtx
-GetBounds
+GetPaintRect
 (
-aDisplayListBuilder
-&
-dummy
 )
 ToReferenceFrame
 (
