@@ -79,6 +79,7 @@ start
 "
 foo
 "
+globalThis
 )
 ;
 expect
@@ -173,6 +174,9 @@ dispatcher
 .
 start
 (
+"
+"
+globalThis
 )
 ;
 dispatcher
@@ -278,6 +282,9 @@ dispatcher
 .
 start
 (
+"
+"
+globalThis
 )
 ;
 const
@@ -445,6 +452,9 @@ dispatcher
 .
 start
 (
+"
+"
+globalThis
 )
 ;
 const
@@ -596,7 +606,7 @@ resolve
 }
 )
 ;
-self
+globalThis
 .
 postMessage
 =

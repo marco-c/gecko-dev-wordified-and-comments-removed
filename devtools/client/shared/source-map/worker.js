@@ -1422,7 +1422,7 @@ results
 =
 >
 {
-self
+globalThis
 .
 postMessage
 (

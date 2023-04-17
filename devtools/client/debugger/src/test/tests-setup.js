@@ -178,13 +178,12 @@ Adapter
 }
 )
 ;
-global
+jest
 .
-jasmine
-.
-DEFAULT_TIMEOUT_INTERVAL
-=
+setTimeout
+(
 20000
+)
 ;
 function
 formatException

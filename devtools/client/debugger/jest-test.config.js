@@ -64,6 +64,11 @@ http
 localhost
 /
 "
+testEnvironment
+:
+"
+jsdom
+"
 testPathIgnorePatterns
 :
 [
@@ -239,8 +244,9 @@ aria
 )
 "
 ]
-setupTestFrameworkScriptFile
+setupFilesAfterEnv
 :
+[
 "
 <
 rootDir
@@ -256,6 +262,7 @@ setup
 .
 js
 "
+]
 setupFiles
 :
 [

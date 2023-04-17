@@ -603,7 +603,7 @@ results
 =
 >
 {
-self
+globalThis
 .
 postMessage
 (

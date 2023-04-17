@@ -2982,7 +2982,7 @@ results
 =
 >
 {
-self
+globalThis
 .
 postMessage
 (
