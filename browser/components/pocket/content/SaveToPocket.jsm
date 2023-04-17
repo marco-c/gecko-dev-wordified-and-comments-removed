@@ -235,7 +235,7 @@ PanelUI
 -
 savetopocket
 "
-tabSpecific
+locationSpecific
 :
 true
 onViewShowing
