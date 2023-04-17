@@ -173,7 +173,7 @@ return
 0
 ;
 }
-static
+LIBYUV_API
 int
 I420ToARGBMatrix
 (
@@ -866,7 +866,7 @@ height
 )
 ;
 }
-static
+LIBYUV_API
 int
 I422ToARGBMatrix
 (
@@ -2543,7 +2543,7 @@ height
 )
 ;
 }
-static
+LIBYUV_API
 int
 I444ToARGBMatrix
 (

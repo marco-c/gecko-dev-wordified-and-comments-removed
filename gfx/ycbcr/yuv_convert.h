@@ -124,6 +124,8 @@ YUVType
 yuv_type
 YUVColorSpace
 yuv_color_space
+ColorRange
+color_range
 )
 ;
 void

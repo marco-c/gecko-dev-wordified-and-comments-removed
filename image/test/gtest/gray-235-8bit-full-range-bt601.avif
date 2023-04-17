@@ -1,5 +1,5 @@
 ftypavif
-avifmif1miafMA1A
+avifmif1miafMA1B
 meta
 (
 hdlr
@@ -8,7 +8,6 @@ libavif
 pitm
 iloc
 D
-'
 (
 iinf
 infe
@@ -22,11 +21,8 @@ pixi
 av1C
 colrnclx
 ipma
-/
+#
 mdat
-8
-2
+B2
 d
-f
->
-{
+^
