@@ -145,6 +145,14 @@ browsingContextID
 ;
 this
 .
+innerWindowId
+=
+json
+.
+innerWindowId
+;
+this
+.
 targetForm
 =
 json

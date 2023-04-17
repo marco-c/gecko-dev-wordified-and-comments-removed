@@ -419,6 +419,7 @@ browsingContextID
 browsingContext
 .
 id
+innerWindowId
 resourceType
 :
 DOCUMENT_EVENT
