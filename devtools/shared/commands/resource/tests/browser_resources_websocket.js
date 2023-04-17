@@ -339,7 +339,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 tests
 /
