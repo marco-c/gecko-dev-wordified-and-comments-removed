@@ -1137,6 +1137,7 @@ directory_manager
 .
 delete_file
 (
+&
 document_id
 )
 ;
@@ -1599,6 +1600,7 @@ directory_manager
 .
 delete_file
 (
+&
 document_id
 )
 {
@@ -2638,6 +2640,7 @@ self
 enqueue_ping_from_file
 (
 glean
+&
 document_id
 )
 ;

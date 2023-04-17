@@ -123,7 +123,7 @@ glean
 version
 =
 "
-40
+39
 .
 0
 .
@@ -281,7 +281,7 @@ core
 version
 =
 "
-40
+39
 .
 0
 .
@@ -439,9 +439,9 @@ version
 "
 0
 .
-8
+7
 .
-0
+1
 "
 features
 =

@@ -1188,6 +1188,7 @@ is_first_run
 {
 initialize_core_metrics
 (
+&
 glean
 &
 state
@@ -1279,6 +1280,7 @@ clear_application_lifetime_metrics
 ;
 initialize_core_metrics
 (
+&
 glean
 &
 state
@@ -1332,6 +1334,7 @@ preinit_tasks_overflow
 .
 add_sync
 (
+&
 glean
 task_count
 as
@@ -2034,6 +2037,7 @@ start_metrics_ping_scheduler
 ;
 initialize_core_metrics
 (
+&
 glean
 &
 state
@@ -2355,6 +2359,7 @@ glean
 .
 submit_ping_by_name
 (
+&
 ping
 reason
 .

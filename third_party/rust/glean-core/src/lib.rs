@@ -1419,6 +1419,7 @@ event_data_store
 .
 flush_pending_events_on_startup
 (
+&
 self
 )
 }
@@ -1893,6 +1894,7 @@ self
 &
 Database
 {
+&
 self
 .
 data_store
@@ -2017,6 +2019,7 @@ StorageManager
 .
 snapshot
 (
+&
 self
 .
 storage
@@ -2184,6 +2187,7 @@ ping_maker
 collect
 (
 self
+&
 ping
 reason
 &
@@ -2239,6 +2243,7 @@ pings_submitted
 .
 get
 (
+&
 ping
 .
 name
@@ -2246,6 +2251,7 @@ name
 .
 add
 (
+&
 self
 1
 )
@@ -2261,6 +2267,7 @@ ping_maker
 .
 store_ping
 (
+&
 self
 .
 get_data_path
@@ -2631,6 +2638,7 @@ ExperimentMetric
 :
 new
 (
+&
 self
 experiment_id
 )
@@ -2639,6 +2647,7 @@ metric
 .
 set_active
 (
+&
 self
 branch
 extra
@@ -2667,6 +2676,7 @@ ExperimentMetric
 :
 new
 (
+&
 self
 experiment_id
 )
@@ -2675,6 +2685,7 @@ metric
 .
 set_inactive
 (
+&
 self
 )
 ;
@@ -3353,6 +3364,7 @@ ExperimentMetric
 :
 new
 (
+&
 self
 experiment_id
 )
@@ -3361,6 +3373,7 @@ metric
 .
 test_get_value_as_json_string
 (
+&
 self
 )
 }
@@ -3445,6 +3458,7 @@ scheduler
 :
 schedule
 (
+&
 self
 )
 ;
