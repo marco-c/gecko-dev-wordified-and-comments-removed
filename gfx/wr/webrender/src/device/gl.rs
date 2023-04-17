@@ -8999,14 +8999,10 @@ profiler
 :
 add_text_marker
 (
-cstr
-!
-(
 "
 OpenGL
 Calls
 "
-)
 name
 duration
 )
