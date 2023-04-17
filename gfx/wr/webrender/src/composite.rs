@@ -2448,7 +2448,7 @@ CompositeTileSurface
 :
 :
 Clear
-true
+false
 )
 }
 TileSurface
