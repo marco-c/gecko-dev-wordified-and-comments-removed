@@ -97,11 +97,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-format
+Format
 .
-js
+jsm
 "
 }
 )
