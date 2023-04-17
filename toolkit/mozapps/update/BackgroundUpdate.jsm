@@ -1391,12 +1391,6 @@ Services
 .
 prefs
 .
-getDefaultBranch
-(
-"
-"
-)
-.
 getBoolPref
 (
 "
@@ -1410,6 +1404,7 @@ scheduling
 .
 enabled
 "
+true
 )
 ;
 await
