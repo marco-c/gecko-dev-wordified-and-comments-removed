@@ -156,11 +156,9 @@ opt
 default
 :
 [
-'
 mozilla
 -
 central
-'
 ]
 target
 :
@@ -230,7 +228,6 @@ memory
 :
 description
 :
-"
 Raptor
 Speedometer
 cpu
@@ -238,7 +235,6 @@ cpu
 memory
 on
 GeckoView
-"
 try
 -
 name
@@ -357,7 +353,6 @@ power
 :
 description
 :
-"
 Raptor
 Speedometer
 cpu
@@ -367,7 +362,6 @@ memory
 power
 on
 GeckoView
-"
 try
 -
 name
@@ -494,7 +488,6 @@ geckoview
 :
 description
 :
-"
 Raptor
 idle
 -
@@ -504,7 +497,6 @@ cpu
 memory
 on
 GeckoView
-"
 try
 -
 name
@@ -612,7 +604,6 @@ geckoview
 :
 description
 :
-"
 Raptor
 idle
 -
@@ -624,7 +615,6 @@ memory
 power
 on
 GeckoView
-"
 try
 -
 name
@@ -740,7 +730,6 @@ geckoview
 :
 description
 :
-"
 Raptor
 idle
 -
@@ -753,7 +742,6 @@ cpu
 memory
 on
 GeckoView
-"
 try
 -
 name
@@ -867,7 +855,6 @@ geckoview
 :
 description
 :
-"
 Raptor
 idle
 -
@@ -882,7 +869,6 @@ memory
 power
 on
 GeckoView
-"
 try
 -
 name
