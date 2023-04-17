@@ -8546,6 +8546,14 @@ this
 exposed
 )
 {
+if
+(
+!
+this
+.
+untested
+)
+{
 subsetTestByKey
 (
 this
@@ -8587,6 +8595,7 @@ object
 "
 )
 ;
+}
 return
 ;
 }
