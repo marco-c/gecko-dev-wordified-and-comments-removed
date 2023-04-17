@@ -246,11 +246,6 @@ attribute
 double
 devicePixelsPerDesktopPixel
 ;
-void
-setFocus
-(
-)
-;
 attribute
 AString
 title
