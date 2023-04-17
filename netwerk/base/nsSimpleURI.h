@@ -119,8 +119,6 @@ protected
 nsSimpleURI
 (
 )
-=
-default
 ;
 virtual
 ~
@@ -459,15 +457,9 @@ mQuery
 ;
 bool
 mIsRefValid
-{
-false
-}
 ;
 bool
 mIsQueryValid
-{
-false
-}
 ;
 public
 :

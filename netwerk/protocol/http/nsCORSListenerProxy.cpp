@@ -2182,9 +2182,13 @@ NS_DECL_ISUPPORTS
 CheckOriginHeader
 (
 )
-=
-default
-;
+:
+mHeaderCount
+(
+0
+)
+{
+}
 NS_IMETHOD
 VisitHeader
 (
@@ -2241,9 +2245,6 @@ private
 :
 uint32_t
 mHeaderCount
-{
-0
-}
 ;
 ~
 CheckOriginHeader

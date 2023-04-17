@@ -1617,11 +1617,9 @@ curpath
 =
 0
 )
-{
 return
 NS_OK
 ;
-}
 tempPtr
 =
 tempPtr
@@ -1690,14 +1688,11 @@ if
 !
 mRoot
 )
-{
 mRoot
 =
 newAuthPath
 ;
-}
 else
-{
 mTail
 -
 >
@@ -1705,7 +1700,6 @@ mNext
 =
 newAuthPath
 ;
-}
 mTail
 =
 newAuthPath

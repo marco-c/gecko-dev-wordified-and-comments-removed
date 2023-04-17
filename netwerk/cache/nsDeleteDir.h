@@ -184,9 +184,6 @@ mCondVar
 ;
 bool
 mNotified
-{
-false
-}
 ;
 nsCOMArray
 <
@@ -202,15 +199,9 @@ mBackgroundET
 ;
 bool
 mShutdownPending
-{
-false
-}
 ;
 bool
 mStopDeleting
-{
-false
-}
 ;
 }
 ;

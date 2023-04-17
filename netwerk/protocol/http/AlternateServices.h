@@ -513,9 +513,6 @@ mOriginAttributes
 ;
 bool
 mSyncOnlyOnSuccess
-{
-false
-}
 ;
 bool
 mIsHttp3
@@ -659,9 +656,13 @@ public
 AltSvcCache
 (
 )
-=
-default
-;
+:
+mStorageEpoch
+(
+0
+)
+{
+}
 virtual
 ~
 AltSvcCache
@@ -827,9 +828,6 @@ mStorage
 ;
 int32_t
 mStorageEpoch
-{
-0
-}
 ;
 }
 ;

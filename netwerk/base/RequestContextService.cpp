@@ -1864,6 +1864,15 @@ RequestContextService
 RequestContextService
 (
 )
+:
+mRCIDNamespace
+(
+0
+)
+mNextRCID
+(
+1
+)
 {
 MOZ_ASSERT
 (

@@ -79,8 +79,6 @@ NS_DECL_NSIDIRINDEXLISTENER
 nsIndexedToHTML
 (
 )
-=
-default
 ;
 nsresult
 Init
@@ -176,9 +174,6 @@ private
 :
 bool
 mExpectAbsLoc
-{
-false
-}
 ;
 virtual
 ~

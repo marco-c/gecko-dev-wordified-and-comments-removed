@@ -53,6 +53,15 @@ NullHttpChannel
 NullHttpChannel
 (
 )
+:
+mAllRedirectsSameOrigin
+(
+false
+)
+mAllRedirectsPassTimingAllowCheck
+(
+false
+)
 {
 mChannelCreationTime
 =

@@ -314,9 +314,6 @@ sLock
 ;
 uint32_t
 mCacheSize
-{
-0
-}
 ;
 class
 TokenCacheRecord
