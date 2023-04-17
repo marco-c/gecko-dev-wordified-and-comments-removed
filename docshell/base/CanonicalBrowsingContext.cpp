@@ -1240,6 +1240,17 @@ Id
 )
 ;
 }
+aNewContext
+-
+>
+mPriorityActive
+=
+mPriorityActive
+;
+mPriorityActive
+=
+false
+;
 MOZ_ASSERT
 (
 aNewContext
