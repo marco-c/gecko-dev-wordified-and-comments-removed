@@ -158,7 +158,7 @@ mingw32
 .
 tar
 .
-xz
+zst
 fetches
 :
 fetch
@@ -290,7 +290,7 @@ nsis
 .
 tar
 .
-xz
+zst
 fetches
 :
 fetch
@@ -389,7 +389,7 @@ fxc2
 .
 tar
 .
-xz
+zst
 fetches
 :
 fetch

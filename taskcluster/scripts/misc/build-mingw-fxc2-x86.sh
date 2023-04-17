@@ -109,7 +109,7 @@ fxc2
 .
 tar
 .
-xz
+zst
 fxc2
 mkdir
 -

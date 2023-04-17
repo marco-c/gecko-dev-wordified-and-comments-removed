@@ -26,7 +26,7 @@ exit
 1
 COMPRESS_EXT
 =
-xz
+zst
 PATH
 =
 "

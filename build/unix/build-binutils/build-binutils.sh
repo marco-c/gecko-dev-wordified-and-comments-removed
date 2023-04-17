@@ -787,6 +787,6 @@ binutils
 .
 tar
 .
-xz
+zst
 binutils
 /
