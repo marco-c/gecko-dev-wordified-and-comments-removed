@@ -7832,6 +7832,12 @@ case
 ParseNodeKind
 :
 :
+ClassBodyScope
+:
+case
+ParseNodeKind
+:
+:
 ClassMethod
 :
 case
@@ -47791,7 +47797,7 @@ false
 }
 if
 (
-LexicalScopeNode
+ClassBodyScopeNode
 *
 bodyScopeBindings
 =

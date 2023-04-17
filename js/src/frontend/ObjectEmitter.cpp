@@ -1919,7 +1919,7 @@ ClassEmitter
 :
 emitBodyScope
 (
-LexicalScope
+ClassBodyScope
 :
 :
 ParserData
@@ -1978,7 +1978,7 @@ if
 bodyScope_
 -
 >
-enterLexical
+enterClassBody
 (
 bce_
 ScopeKind

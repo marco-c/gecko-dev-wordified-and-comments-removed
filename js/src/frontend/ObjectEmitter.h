@@ -739,7 +739,7 @@ scopeBindings
 bool
 emitBodyScope
 (
-LexicalScope
+ClassBodyScope
 :
 :
 ParserData
