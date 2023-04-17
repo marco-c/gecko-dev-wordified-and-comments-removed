@@ -3152,7 +3152,16 @@ border
 -
 radius
 :
-4px
+var
+(
+-
+-
+panel
+-
+border
+-
+radius
+)
 ;
 margin
 -
@@ -3347,6 +3356,8 @@ var
 in
 -
 content
+-
+box
 -
 border
 -
@@ -4393,6 +4404,8 @@ in
 -
 content
 -
+box
+-
 border
 -
 color
@@ -4411,6 +4424,8 @@ var
 in
 -
 content
+-
+box
 -
 border
 -
