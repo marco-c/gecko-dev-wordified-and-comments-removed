@@ -55,7 +55,7 @@ uint8_t
 {
 ThrowHas
 ThrowHasNot
-OnlyCheckRhs
+NoThrow
 }
 ;
 }

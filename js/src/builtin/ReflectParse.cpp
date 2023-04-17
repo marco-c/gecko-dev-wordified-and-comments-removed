@@ -9862,12 +9862,6 @@ ParseNodeKind
 :
 InExpr
 :
-case
-ParseNodeKind
-:
-:
-PrivateInExpr
-:
 return
 BINOP_IN
 ;
@@ -16607,12 +16601,6 @@ ParseNodeKind
 :
 :
 InExpr
-:
-case
-ParseNodeKind
-:
-:
-PrivateInExpr
 :
 case
 ParseNodeKind
