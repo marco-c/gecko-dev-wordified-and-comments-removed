@@ -120,6 +120,15 @@ jsrust_shared
 smoosh
 '
 ]
+gluesmith
+=
+[
+'
+jsrust_shared
+/
+gluesmith
+'
+]
 [
 dependencies
 ]

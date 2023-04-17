@@ -149,6 +149,11 @@ static
 :
 js
 "
+"
+static
+:
+jsrust
+"
 ]
 DEFINES
 [
