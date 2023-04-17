@@ -1252,6 +1252,9 @@ SamplingFilter
 :
 POINT
 mImageFlags
+1
+.
+0
 false
 )
 ;
