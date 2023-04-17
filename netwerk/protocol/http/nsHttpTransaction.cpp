@@ -2828,7 +2828,7 @@ nsHttp
 :
 TE
 "
-Trailers
+trailers
 "
 _ns
 )
