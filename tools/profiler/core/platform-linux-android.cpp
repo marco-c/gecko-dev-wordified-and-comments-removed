@@ -1592,8 +1592,7 @@ aRegisteredThread
 Info
 (
 )
--
->
+.
 ThreadId
 (
 )
