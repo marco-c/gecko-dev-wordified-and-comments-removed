@@ -3416,7 +3416,7 @@ tabs
 .
 warnOnClose
 "
-true
+false
 )
 ;
 pref
