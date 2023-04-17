@@ -165,6 +165,8 @@ aUnits
 class
 Iterator
 {
+public
+:
 using
 iterator_category
 =
@@ -198,6 +200,8 @@ reference
 value_type
 &
 ;
+private
+:
 const
 Enumeration
 &
