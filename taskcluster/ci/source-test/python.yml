@@ -71,6 +71,17 @@ always
 -
 target
 :
+by
+-
+platform
+:
+macosx
+.
+*
+:
+false
+default
+:
 true
 worker
 -
