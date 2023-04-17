@@ -883,6 +883,8 @@ visible
 {
 outline
 :
+2px
+solid
 var
 (
 -
@@ -890,8 +892,8 @@ var
 focus
 -
 outline
-1px
-dotted
+-
+color
 )
 ;
 outline
@@ -907,7 +909,6 @@ focus
 outline
 -
 offset
--
 2px
 )
 ;
