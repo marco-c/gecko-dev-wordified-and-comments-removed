@@ -2122,12 +2122,6 @@ expr
 auto
 tryResult
 =
-:
-:
-mozilla
-:
-:
-ToResult
 (
 expr
 )
@@ -2213,12 +2207,6 @@ cleanup
 auto
 tryResult
 =
-:
-:
-mozilla
-:
-:
-ToResult
 (
 expr
 )
