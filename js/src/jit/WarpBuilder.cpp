@@ -4589,13 +4589,13 @@ BytecodeLocation
 loc
 )
 {
-JSAtom
+JSString
 *
-atom
+str
 =
 loc
 .
-getAtom
+getString
 (
 script_
 )
@@ -4604,7 +4604,7 @@ pushConstant
 (
 StringValue
 (
-atom
+str
 )
 )
 ;

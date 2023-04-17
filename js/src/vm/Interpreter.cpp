@@ -19111,7 +19111,7 @@ PUSH_STRING
 script
 -
 >
-getAtom
+getString
 (
 REGS
 .
