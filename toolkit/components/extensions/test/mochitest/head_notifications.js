@@ -67,8 +67,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 ;
 const

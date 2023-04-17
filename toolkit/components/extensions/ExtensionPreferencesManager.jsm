@@ -58,7 +58,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 const

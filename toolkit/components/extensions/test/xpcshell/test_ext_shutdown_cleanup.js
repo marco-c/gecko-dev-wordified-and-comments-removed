@@ -5,7 +5,11 @@ strict
 ;
 const
 {
+ExtensionParent
+:
+{
 GlobalManager
+}
 }
 =
 ChromeUtils
@@ -21,11 +25,10 @@ gre
 /
 modules
 /
-Extension
+ExtensionParent
 .
 jsm
 "
-null
 )
 ;
 add_task

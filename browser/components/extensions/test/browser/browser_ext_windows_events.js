@@ -475,7 +475,7 @@ windowInfo
 winId
 ;
 }
-let
+const
 {
 Management
 :
@@ -505,7 +505,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 let

@@ -150,8 +150,6 @@ ChromeUtils
 import
 (
 url
-{
-}
 )
 ;
 return

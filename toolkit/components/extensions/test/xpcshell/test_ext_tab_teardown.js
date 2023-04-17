@@ -18,7 +18,7 @@ events
 ]
 ;
 {
-let
+const
 {
 Management
 }
@@ -40,7 +40,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 let

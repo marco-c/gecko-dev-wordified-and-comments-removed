@@ -126,8 +126,6 @@ Extension
 .
 jsm
 "
-{
-}
 )
 )
 ;

@@ -34,8 +34,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 ;
 function

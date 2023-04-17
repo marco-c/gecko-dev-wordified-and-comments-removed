@@ -1054,9 +1054,9 @@ browser
 =
 >
 {
-let
+const
 {
-withHandlingUserInput
+ExtensionCommon
 }
 =
 ChromeUtils
@@ -1076,11 +1076,7 @@ ExtensionCommon
 .
 jsm
 "
-{
-}
 )
-.
-ExtensionCommon
 ;
 Cu
 .
@@ -1091,6 +1087,8 @@ fn
 >
 {
 return
+ExtensionCommon
+.
 withHandlingUserInput
 (
 content

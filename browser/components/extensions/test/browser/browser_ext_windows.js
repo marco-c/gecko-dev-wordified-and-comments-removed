@@ -858,7 +858,7 @@ startup
 (
 )
 ;
-let
+const
 {
 Management
 :
@@ -888,7 +888,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 async

@@ -141,7 +141,7 @@ startup
 (
 )
 ;
-let
+const
 {
 Management
 :
@@ -171,7 +171,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 let
