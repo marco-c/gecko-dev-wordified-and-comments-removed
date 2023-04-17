@@ -2282,17 +2282,6 @@ pc
 ;
 JSObject
 *
-NewObjectOperationWithTemplate
-(
-JSContext
-*
-cx
-HandleObject
-templateObject
-)
-;
-JSObject
-*
 NewPlainObjectBaselineFallback
 (
 JSContext

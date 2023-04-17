@@ -1984,15 +1984,6 @@ NewObjectOperation
 \
 _
 (
-NewObjectOperationWithTemplate
-js
-:
-:
-NewObjectOperationWithTemplate
-)
-\
-_
-(
 NewPlainObjectBaselineFallback
 js
 :
