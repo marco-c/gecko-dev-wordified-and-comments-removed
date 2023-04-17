@@ -343,6 +343,7 @@ ValueSetterOption
 ByInternalAPI
 BySetUserInputAPI
 ByContentAPI
+BySetRangeTextAPI
 SetValueChanged
 MoveCursorToEndIfValueChanged
 PreserveUndoHistory

@@ -3068,6 +3068,10 @@ ByContentAPI
 ValueSetterOption
 :
 :
+BySetRangeTextAPI
+ValueSetterOption
+:
+:
 SetValueChanged
 }
 )
