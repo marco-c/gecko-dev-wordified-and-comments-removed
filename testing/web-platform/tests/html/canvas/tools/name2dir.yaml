@@ -294,6 +294,13 @@ shadows
 "
 2d
 .
+filter
+:
+"
+filters
+"
+2d
+.
 text
 .
 align

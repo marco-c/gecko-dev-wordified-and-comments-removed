@@ -97,6 +97,13 @@ shadows
 "
 2d
 .
+filter
+:
+"
+filters
+"
+2d
+.
 clearRect
 :
 "
