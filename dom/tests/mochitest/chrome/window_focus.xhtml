@@ -3997,7 +3997,9 @@ focus
 method
 gLastFocusMethod
 =
-0
+fm
+.
+FLAG_BYJS
 ;
 for
 (
@@ -4420,7 +4422,7 @@ gLastFocusMethod
 =
 fm
 .
-FLAG_BYMOVEFOCUS
+FLAG_BYJS
 ;
 var
 legend
@@ -4459,10 +4461,6 @@ unfocusable
 legend
 "
 )
-;
-gLastFocusMethod
-=
-0
 ;
 legend
 .
@@ -4830,7 +4828,9 @@ attribute
 ;
 gLastFocusMethod
 =
-0
+fm
+.
+FLAG_BYJS
 ;
 expectFocusShift
 (
@@ -4927,6 +4927,12 @@ charCodeAt
 (
 0
 )
+;
+gLastFocusMethod
+=
+fm
+.
+FLAG_BYJS
 ;
 while
 (
@@ -6880,7 +6886,9 @@ focus
 ;
 gLastFocusMethod
 =
-0
+fm
+.
+FLAG_BYJS
 ;
 gEvents
 =
@@ -7271,7 +7279,9 @@ input2
 ;
 gLastFocusMethod
 =
-0
+fm
+.
+FLAG_BYJS
 ;
 expectFocusShift
 (
@@ -7343,7 +7353,9 @@ tabIndex
 ;
 gLastFocusMethod
 =
-0
+fm
+.
+FLAG_BYJS
 ;
 expectFocusShift
 (
