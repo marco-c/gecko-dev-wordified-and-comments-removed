@@ -1290,6 +1290,12 @@ i32
 TileCoordinate
 >
 ;
+/
+/
+/
+cbindgen
+:
+ignore
 pub
 type
 TileSize
