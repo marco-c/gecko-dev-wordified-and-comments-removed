@@ -3441,17 +3441,6 @@ ipc
 :
 :
 IPCResult
-RecvRequestNotifyAfterRemotePaint
-(
-)
-;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
 RecvSuppressDisplayport
 (
 const

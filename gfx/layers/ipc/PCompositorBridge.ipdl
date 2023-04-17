@@ -612,11 +612,6 @@ aFrameStats
 )
 ;
 async
-RemotePaintIsReady
-(
-)
-;
-async
 ParentAsyncMessages
 (
 AsyncParentMessageData
@@ -832,11 +827,6 @@ NotifyRegionInvalidated
 (
 nsIntRegion
 region
-)
-;
-async
-RequestNotifyAfterRemotePaint
-(
 )
 ;
 async

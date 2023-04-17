@@ -2204,11 +2204,6 @@ ReleaseAllPointerCapture
 parent
 :
 async
-RemotePaintIsReady
-(
-)
-;
-async
 RemoteIsReadyToHandleInputEvents
 (
 )
@@ -2993,11 +2988,6 @@ bool
 aForward
 bool
 aForDocumentNavigation
-)
-;
-async
-RequestNotifyAfterRemotePaint
-(
 )
 ;
 async
