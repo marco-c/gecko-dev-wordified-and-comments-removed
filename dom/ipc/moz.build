@@ -248,6 +248,11 @@ ProcessActor
 h
 "
 "
+ProcessIsolation
+.
+h
+"
+"
 PropertyBagUtils
 .
 h
@@ -491,6 +496,11 @@ cpp
 "
 "
 ProcessActor
+.
+cpp
+"
+"
+ProcessIsolation
 .
 cpp
 "
