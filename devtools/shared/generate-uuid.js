@@ -4,15 +4,12 @@ strict
 "
 ;
 const
-{
-Cc
-Ci
-}
+Services
 =
 require
 (
 "
-chrome
+Services
 "
 )
 ;

@@ -3573,15 +3573,10 @@ _generateID
 (
 )
 {
-let
-uuidGenerator
-=
+return
 Services
 .
 uuid
-;
-return
-uuidGenerator
 .
 generateUUID
 (
