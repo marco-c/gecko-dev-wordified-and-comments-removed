@@ -85,6 +85,7 @@ specified
 :
 :
 {
+DProperty
 MozContextProperties
 SVGPaintOrder
 }

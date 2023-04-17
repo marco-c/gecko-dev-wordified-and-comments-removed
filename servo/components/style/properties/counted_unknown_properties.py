@@ -443,10 +443,6 @@ emphasis
 "
     
 "
-d
-"
-    
-"
 -
 webkit
 -

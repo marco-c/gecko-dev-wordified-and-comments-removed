@@ -967,6 +967,9 @@ RuleChangeKind
 "
 PageSize
 "
+"
+DProperty
+"
 ]
 item_types
 =
