@@ -743,7 +743,7 @@ py
 :
 mod
 :
-mach
+mozbuild
 .
 virtualenv
 .
