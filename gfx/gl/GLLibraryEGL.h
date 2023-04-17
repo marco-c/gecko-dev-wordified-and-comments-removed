@@ -202,6 +202,7 @@ ANGLE_device_creation
 ANGLE_device_creation_d3d11
 ANGLE_platform_angle
 ANGLE_platform_angle_d3d
+EXT_device_query
 Max
 }
 ;
@@ -223,7 +224,6 @@ ANGLE_d3d_share_handle_client_buffer
 KHR_create_context
 KHR_stream
 KHR_stream_consumer_gltexture
-EXT_device_query
 NV_stream_consumer_gltexture_yuv
 ANGLE_stream_producer_d3d_texture
 KHR_surfaceless_context
@@ -3583,9 +3583,12 @@ const
 {
 MOZ_ASSERT
 (
+mLib
+-
+>
 IsExtensionSupported
 (
-EGLExtension
+EGLLibExtension
 :
 :
 EXT_device_query
