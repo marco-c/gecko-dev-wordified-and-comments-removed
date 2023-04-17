@@ -169,9 +169,13 @@ release
 (
 )
 ;
-InitObjectPrivate
+InitReservedSlot
 (
 obj
+WeakCollectionObject
+:
+:
+DataSlot
 map
 MemoryUse
 :
