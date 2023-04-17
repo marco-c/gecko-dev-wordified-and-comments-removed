@@ -1576,6 +1576,11 @@ scheduledForDestruction
 false
 ;
 bool
+hasMarkedCells
+=
+false
+;
+bool
 maybeAlive
 =
 true
@@ -2358,7 +2363,7 @@ T
 >
 inline
 void
-SetMaybeAliveFlag
+SetCompartmentHasMarkedCells
 (
 T
 *
@@ -2371,7 +2376,7 @@ template
 >
 inline
 void
-SetMaybeAliveFlag
+SetCompartmentHasMarkedCells
 (
 JSObject
 *
@@ -2388,7 +2393,7 @@ compartment
 >
 gcState
 .
-maybeAlive
+hasMarkedCells
 =
 true
 ;
@@ -2398,7 +2403,7 @@ template
 >
 inline
 void
-SetMaybeAliveFlag
+SetCompartmentHasMarkedCells
 (
 JSScript
 *
@@ -2415,7 +2420,7 @@ compartment
 >
 gcState
 .
-maybeAlive
+hasMarkedCells
 =
 true
 ;

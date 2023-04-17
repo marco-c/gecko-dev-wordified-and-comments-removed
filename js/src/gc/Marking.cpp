@@ -4661,7 +4661,7 @@ markAndTraverse
 thing
 )
 ;
-SetMaybeAliveFlag
+SetCompartmentHasMarkedCells
 (
 thing
 )
