@@ -2621,6 +2621,8 @@ nsIContent
 >
 rootContent
 ;
+if
+(
 HTMLEditor
 *
 htmlEditor
@@ -2628,13 +2630,9 @@ htmlEditor
 mEditor
 -
 >
-AsHTMLEditor
+GetAsHTMLEditor
 (
 )
-;
-if
-(
-htmlEditor
 )
 {
 if

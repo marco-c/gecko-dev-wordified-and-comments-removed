@@ -52609,7 +52609,7 @@ aEditor
 aEditor
 -
 >
-AsHTMLEditor
+GetAsHTMLEditor
 (
 )
 :

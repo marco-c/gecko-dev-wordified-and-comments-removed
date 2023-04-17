@@ -612,8 +612,7 @@ aInitialValue
 {
 MOZ_ASSERT
 (
-!
-AsHTMLEditor
+IsTextEditor
 (
 )
 )
@@ -1235,8 +1234,7 @@ kNotFound
 ;
 MOZ_ASSERT
 (
-!
-AsHTMLEditor
+IsTextEditor
 (
 )
 )
@@ -2879,8 +2877,7 @@ IsEditActionDataAvailable
 ;
 MOZ_ASSERT
 (
-!
-AsHTMLEditor
+IsTextEditor
 (
 )
 )
@@ -3415,8 +3412,7 @@ IsEditActionDataAvailable
 ;
 MOZ_ASSERT
 (
-!
-AsHTMLEditor
+IsTextEditor
 (
 )
 )
