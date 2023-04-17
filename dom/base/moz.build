@@ -1072,6 +1072,11 @@ PlacesBookmarkChanged
 h
 "
 "
+PlacesBookmarkGuid
+.
+h
+"
+"
 PlacesBookmarkMoved
 .
 h
