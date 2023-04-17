@@ -308,6 +308,7 @@ IMEUnderlineRelativeSize
 SpellCheckerUnderlineRelativeSize
 CaretAspectRatio
 TextScaleFactor
+CursorScale
 End
 }
 ;
