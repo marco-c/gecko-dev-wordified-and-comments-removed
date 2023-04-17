@@ -394,9 +394,6 @@ _onTargetAvailable
 this
 .
 _onTargetDestroyed
-this
-.
-commands
 )
 }
 ;
