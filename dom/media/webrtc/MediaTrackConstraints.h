@@ -1759,8 +1759,11 @@ MediaDevice
 >
 &
 aDevices
-bool
-aIsChrome
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 static
