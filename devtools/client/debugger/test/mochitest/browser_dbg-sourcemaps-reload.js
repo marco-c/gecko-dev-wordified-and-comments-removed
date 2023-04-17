@@ -129,6 +129,10 @@ navigate
 (
 dbg
 "
+sourcemaps
+-
+reload
+/
 doc
 -
 sourcemaps
@@ -228,6 +232,10 @@ navigate
 (
 dbg
 "
+sourcemaps
+-
+reload
+/
 doc
 -
 sourcemaps
