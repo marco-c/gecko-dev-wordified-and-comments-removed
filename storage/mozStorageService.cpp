@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsCollationCID
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
