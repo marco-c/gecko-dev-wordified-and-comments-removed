@@ -269,7 +269,7 @@ h
 #
 include
 "
-nsIWebBrowserChrome3
+nsIWebBrowserChrome
 .
 h
 "
@@ -3724,14 +3724,6 @@ RequestData
 aRequestData
 )
 ;
-already_AddRefed
-<
-nsIWebBrowserChrome3
->
-GetWebBrowserChromeActor
-(
-)
-;
 class
 DelayedDeleteRunnable
 ;
@@ -3740,12 +3732,6 @@ RefPtr
 BrowserChildMessageManager
 >
 mBrowserChildMessageManager
-;
-nsCOMPtr
-<
-nsIWebBrowserChrome3
->
-mWebBrowserChrome
 ;
 TextureFactoryIdentifier
 mTextureFactoryIdentifier

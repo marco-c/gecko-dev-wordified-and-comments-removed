@@ -45,11 +45,6 @@ nsIWebBrowserChrome
 idl
 "
 "
-nsIWebBrowserChrome3
-.
-idl
-"
-"
 nsIWebBrowserChromeFocus
 .
 idl

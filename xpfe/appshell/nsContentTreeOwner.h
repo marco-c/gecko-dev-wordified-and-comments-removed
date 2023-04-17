@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsIWebBrowserChrome3
+nsIWebBrowserChrome
 .
 h
 "
@@ -81,7 +81,7 @@ nsIBaseWindow
 public
 nsIInterfaceRequestor
 public
-nsIWebBrowserChrome3
+nsIWebBrowserChrome
 public
 nsIWindowProvider
 {
@@ -103,7 +103,6 @@ NS_DECL_NSIBASEWINDOW
 NS_DECL_NSIDOCSHELLTREEOWNER
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIWEBBROWSERCHROME
-NS_DECL_NSIWEBBROWSERCHROME3
 NS_DECL_NSIWINDOWPROVIDER
 protected
 :
@@ -137,16 +136,6 @@ mozilla
 AppWindow
 *
 AppWindow
-(
-)
-;
-private
-:
-already_AddRefed
-<
-nsIWebBrowserChrome3
->
-GetWebBrowserChrome
 (
 )
 ;
