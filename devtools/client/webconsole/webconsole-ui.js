@@ -1330,9 +1330,6 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
-"
-saveRequestAndResponseBodies
-"
 )
 ;
 if

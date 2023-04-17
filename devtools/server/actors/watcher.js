@@ -759,9 +759,6 @@ WEBSOCKET
 :
 hasBrowserElement
 }
-saveRequestAndResponseBodies
-:
-true
 "
 network
 -
