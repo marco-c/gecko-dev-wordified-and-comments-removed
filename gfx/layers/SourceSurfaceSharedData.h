@@ -171,7 +171,7 @@ return
 SurfaceType
 :
 :
-DATA
+DATA_SHARED_WRAPPER
 ;
 }
 IntSize
