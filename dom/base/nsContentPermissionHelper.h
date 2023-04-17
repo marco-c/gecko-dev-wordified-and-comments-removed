@@ -436,6 +436,7 @@ bool
 CheckPermissionDelegate
 (
 )
+const
 ;
 enum
 class

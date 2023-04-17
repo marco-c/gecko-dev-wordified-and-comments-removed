@@ -2412,6 +2412,7 @@ ContentPermissionRequestBase
 CheckPermissionDelegate
 (
 )
+const
 {
 if
 (

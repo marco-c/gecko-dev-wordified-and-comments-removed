@@ -905,6 +905,7 @@ nsACString
 &
 aType
 )
+const
 {
 MOZ_ASSERT
 (

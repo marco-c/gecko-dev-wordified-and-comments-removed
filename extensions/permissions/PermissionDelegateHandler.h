@@ -158,6 +158,7 @@ nsACString
 &
 aType
 )
+const
 ;
 nsresult
 GetPermission
