@@ -3769,6 +3769,12 @@ ColorID
 :
 Fieldtext
 :
+case
+ColorID
+:
+:
+Graytext
+:
 return
 !
 PreferenceSheet
