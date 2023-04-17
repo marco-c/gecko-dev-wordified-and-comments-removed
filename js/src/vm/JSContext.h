@@ -525,16 +525,6 @@ override
 class
 AutoLockScriptData
 ;
-void
-ReportOverRecursed
-(
-JSContext
-*
-cx
-unsigned
-errorNumber
-)
-;
 extern
 MOZ_THREAD_LOCAL
 (
@@ -1962,8 +1952,6 @@ ReportOverRecursed
 (
 JSContext
 *
-unsigned
-errorNumber
 )
 ;
 public
