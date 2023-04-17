@@ -1,8 +1,3 @@
-const
-kForceOverflowWidthPx
-=
-450
-;
 registerCleanupFunction
 (
 async

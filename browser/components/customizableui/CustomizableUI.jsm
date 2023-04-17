@@ -10252,6 +10252,17 @@ aEvent
 .
 target
 )
+&
+&
+!
+aNode
+.
+hasAttribute
+(
+"
+overflowedItem
+"
+)
 )
 {
 this
