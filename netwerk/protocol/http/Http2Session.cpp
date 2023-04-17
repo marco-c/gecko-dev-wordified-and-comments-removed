@@ -18372,6 +18372,16 @@ mNeedsCleanup
 =
 nullptr
 ;
+if
+(
+!
+mInputFrameDataStream
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
 uint32_t
 streamID
 =
