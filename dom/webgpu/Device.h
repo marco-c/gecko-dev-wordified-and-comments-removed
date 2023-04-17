@@ -215,7 +215,9 @@ Texture
 class
 WebGPUChild
 ;
-typedef
+using
+MappingPromise
+=
 MozPromise
 <
 ipc
@@ -228,7 +230,6 @@ ipc
 ResponseRejectReason
 true
 >
-MappingPromise
 ;
 class
 Device

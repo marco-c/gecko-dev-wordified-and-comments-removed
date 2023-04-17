@@ -96,9 +96,10 @@ GPUImageDataLayout
 struct
 GPURenderPassDescriptor
 ;
-typedef
-RangeEnforcedUnsignedLongSequenceOrGPUExtent3DDict
+using
 GPUExtent3D
+=
+RangeEnforcedUnsignedLongSequenceOrGPUExtent3DDict
 ;
 }
 namespace

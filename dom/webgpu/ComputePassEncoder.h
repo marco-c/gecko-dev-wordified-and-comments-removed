@@ -69,13 +69,14 @@ ComputePipeline
 struct
 ScopedFfiComputeTraits
 {
-typedef
+using
+type
+=
 ffi
 :
 :
 WGPUComputePass
 *
-type
 ;
 static
 type

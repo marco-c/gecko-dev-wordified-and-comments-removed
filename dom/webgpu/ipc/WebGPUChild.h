@@ -63,7 +63,9 @@ struct
 WGPUTextureViewDescriptor
 ;
 }
-typedef
+using
+AdapterPromise
+=
 MozPromise
 <
 ipc
@@ -79,7 +81,6 @@ ResponseRejectReason
 >
 true
 >
-AdapterPromise
 ;
 ffi
 :

@@ -83,9 +83,10 @@ TextureCopyView
 struct
 TextureDataLayout
 ;
-typedef
-RangeEnforcedUnsignedLongSequenceOrGPUExtent3DDict
+using
 GPUExtent3D
+=
+RangeEnforcedUnsignedLongSequenceOrGPUExtent3DDict
 ;
 }
 namespace
