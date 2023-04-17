@@ -880,8 +880,9 @@ title
 hi
 "
 }
-feature
+features
 :
+[
 {
 featureId
 :
@@ -895,6 +896,7 @@ value
 :
 null
 }
+]
 }
 }
 )
@@ -1568,8 +1570,9 @@ slug
 "
 variant
 "
-feature
+features
 :
+[
 {
 featureId
 :
@@ -1583,6 +1586,7 @@ value
 :
 null
 }
+]
 }
 }
 )
@@ -1815,8 +1819,9 @@ slug
 "
 variant
 "
-feature
+features
 :
+[
 {
 featureId
 :
@@ -1830,6 +1835,7 @@ value
 :
 null
 }
+]
 }
 }
 )
@@ -2070,8 +2076,9 @@ slug
 "
 variant
 "
-feature
+features
 :
+[
 {
 featureId
 :
@@ -2085,6 +2092,7 @@ value
 :
 null
 }
+]
 }
 }
 )
@@ -2308,8 +2316,9 @@ slug
 "
 variant
 "
-feature
+features
 :
+[
 {
 featureId
 :
@@ -2323,6 +2332,7 @@ value
 :
 null
 }
+]
 }
 }
 )
@@ -2533,8 +2543,9 @@ slug
 "
 variant
 "
-feature
+features
 :
+[
 {
 featureId
 :
@@ -2545,6 +2556,7 @@ enabled
 :
 true
 }
+]
 }
 }
 )
@@ -2704,8 +2716,9 @@ slug
 "
 variant
 "
-feature
+features
 :
+[
 {
 featureId
 :
@@ -2716,6 +2729,7 @@ enabled
 :
 true
 }
+]
 }
 }
 )
