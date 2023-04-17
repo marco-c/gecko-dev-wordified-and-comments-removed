@@ -4885,9 +4885,14 @@ mWebProgress
 )
 {
 RefPtr
-{
+<
+BrowsingContextWebProgress
+>
+progress
+=
 mWebProgress
-}
+;
+progress
 -
 >
 ContextDiscarded
