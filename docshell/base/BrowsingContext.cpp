@@ -4898,6 +4898,12 @@ auto
 callback
 =
 [
+self
+=
+RefPtr
+{
+this
+}
 ]
 (
 auto
