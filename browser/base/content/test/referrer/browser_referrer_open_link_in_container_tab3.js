@@ -254,10 +254,11 @@ true
 }
 )
 ;
-menupopup
+menu
 .
-openPopup
+openMenu
 (
+true
 )
 ;
 }
