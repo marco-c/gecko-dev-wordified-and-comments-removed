@@ -366,6 +366,9 @@ strip
 )
         
 if
+not
+line
+or
 line
 .
 startswith
