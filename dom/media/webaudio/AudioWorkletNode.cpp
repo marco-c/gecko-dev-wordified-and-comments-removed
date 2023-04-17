@@ -827,6 +827,9 @@ reset
 )
 ;
 }
+nsCString
+mProcessorName
+;
 RefPtr
 <
 AudioNodeTrack
@@ -1327,6 +1330,13 @@ nullptr
 return
 ;
 }
+mProcessorName
+=
+NS_ConvertUTF16toUTF8
+(
+aName
+)
+;
 JSContext
 *
 cx
@@ -2242,7 +2252,7 @@ Value
 aCallable
 )
 {
-TRACE
+TRACE_COMMENT
 (
 "
 AudioWorkletNodeEngine
@@ -2250,6 +2260,11 @@ AudioWorkletNodeEngine
 :
 CallProcess
 "
+mProcessorName
+.
+get
+(
+)
 )
 ;
 JS
