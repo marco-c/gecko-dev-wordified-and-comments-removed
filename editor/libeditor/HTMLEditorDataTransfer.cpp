@@ -5688,7 +5688,7 @@ if
 !
 mHTMLEditor
 .
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -9700,7 +9700,7 @@ kHTMLContext
 bool
 isPlaintextEditor
 =
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 ;
@@ -12010,7 +12010,7 @@ false
 }
 if
 (
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -12206,7 +12206,7 @@ length
 ;
 if
 (
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -12462,7 +12462,7 @@ rv
 }
 if
 (
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -14261,7 +14261,7 @@ aNodeInserted
 {
 if
 (
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -15614,7 +15614,7 @@ aNodeInserted
 {
 if
 (
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -15884,7 +15884,7 @@ IsEditActionDataAvailable
 MOZ_ASSERT
 (
 !
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )

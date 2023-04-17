@@ -4708,7 +4708,7 @@ if
 isPRE
 |
 |
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -7319,7 +7319,7 @@ brElement
 ;
 if
 (
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -38492,10 +38492,11 @@ mailCiteElement
 =
 nullptr
 ;
+const
 bool
 isPlaintextEditor
 =
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 ;

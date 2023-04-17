@@ -1441,11 +1441,6 @@ ignored
 ;
 if
 (
-IsPlaintextEditor
-(
-)
-&
-&
 !
 IsIMEComposing
 (

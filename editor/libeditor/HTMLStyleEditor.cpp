@@ -1247,7 +1247,7 @@ NS_OK
 }
 if
 (
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -10048,7 +10048,7 @@ NS_OK
 }
 if
 (
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
