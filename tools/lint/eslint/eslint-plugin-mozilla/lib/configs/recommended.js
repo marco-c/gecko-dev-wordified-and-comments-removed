@@ -505,6 +505,17 @@ allownonwebidl
 "
 mozilla
 /
+reject
+-
+osfile
+"
+:
+"
+warn
+"
+"
+mozilla
+/
 rejects
 -
 requires

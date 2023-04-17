@@ -335,6 +335,15 @@ mozilla
 /
 reject
 -
+osfile
+eslint
+-
+plugin
+-
+mozilla
+/
+reject
+-
 some
 -
 requires
