@@ -42,6 +42,13 @@ NativeAttributes
 )
 override
 ;
+virtual
+void
+Shutdown
+(
+)
+override
+;
 }
 ;
 }
