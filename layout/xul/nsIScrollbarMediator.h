@@ -7,15 +7,6 @@ nsIScrollbarMediator_h___
 #
 include
 "
-mozilla
-/
-ScrollTypes
-.
-h
-"
-#
-include
-"
 nsQueryFrame
 .
 h

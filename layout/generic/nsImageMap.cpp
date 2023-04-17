@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsLayoutUtils
-.
-h
-"
-#
-include
-"
 ImageLayers
 .
 h

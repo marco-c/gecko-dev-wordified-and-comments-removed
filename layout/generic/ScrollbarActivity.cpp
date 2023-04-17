@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsRefreshDriver
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
