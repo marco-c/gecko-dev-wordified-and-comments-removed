@@ -149,14 +149,9 @@ if
 mChildPID
 )
 {
-int32_t
-exitCode
-;
-PR_WaitProcess
+PR_KillProcess
 (
 mChildPID
-&
-exitCode
 )
 ;
 mChildPID
