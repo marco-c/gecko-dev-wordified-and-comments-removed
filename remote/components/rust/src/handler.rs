@@ -909,7 +909,7 @@ listening
 >
 {
 let
-url
+output
 =
 unsafe
 {
@@ -932,13 +932,10 @@ eprintln
 !
 (
 "
-DevTools
-listening
-on
 {
 }
 "
-url
+output
 .
 to_string_lossy
 (
