@@ -49,6 +49,7 @@ as
 const
 c_char
 }
+;
 }
 #
 [
@@ -1583,10 +1584,10 @@ libc
 :
 :
 {
-RTLD_LAZY
 dlclose
 dlopen
 dlsym
+RTLD_LAZY
 }
 ;
 use

@@ -1,9 +1,4 @@
 use
-:
-:
-*
-;
-use
 context
 ;
 use
@@ -59,6 +54,9 @@ use
 util
 :
 :
+*
+;
+use
 *
 ;
 #
