@@ -7605,6 +7605,9 @@ add_tile_cache
 stacking_context
 .
 prim_list
+stacking_context
+.
+clip_chain_id
 &
 self
 .
