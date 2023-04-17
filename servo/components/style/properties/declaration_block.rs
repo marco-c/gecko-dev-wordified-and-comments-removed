@@ -5307,15 +5307,7 @@ shorthand
 longhands_to_css
 (
 decls
-&
-mut
-CssWriter
-:
-:
-new
-(
 dest
-)
 )
 }
 }
