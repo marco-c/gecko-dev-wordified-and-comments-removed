@@ -14662,7 +14662,7 @@ ColorsFor
 (
 aDocument
 .
-PreferredColorScheme
+DefaultColorScheme
 (
 )
 )
