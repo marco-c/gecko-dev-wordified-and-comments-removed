@@ -4380,7 +4380,7 @@ NS_SUCCESS_DOM_NO_OPERATION
 WSRunScanner
 wsRunScannerAtCaret
 (
-aHTMLEditor
+editingHost
 caretPoint
 )
 ;
@@ -5774,7 +5774,7 @@ EditActionCanceled
 WSRunScanner
 wsRunScannerAtCaret
 (
-aHTMLEditor
+editingHost
 caretPoint
 .
 ref
@@ -6116,7 +6116,7 @@ NS_EVENT_BITS_MUTATION_NODEREMOVEDFROMDOCUMENT
 WSRunScanner
 wsRunScannerAtCaret
 (
-aHTMLEditor
+editingHost
 caretPoint
 .
 ref
@@ -17195,6 +17195,10 @@ WSRunScanner
 wsScannerForPoint
 (
 aHTMLEditor
+.
+GetActiveEditingHost
+(
+)
 aPoint
 )
 ;
@@ -25114,8 +25118,10 @@ return
 false
 ;
 }
+RefPtr
+<
 Element
-*
+>
 editingHost
 =
 aHTMLEditor
@@ -25201,7 +25207,7 @@ GetContent
 =
 WSRunScanner
 (
-aHTMLEditor
+editingHost
 atStart
 )
 .
@@ -25329,7 +25335,7 @@ for
 WSRunScanner
 wsScannerAtEnd
 (
-aHTMLEditor
+editingHost
 atEnd
 )
 ;
