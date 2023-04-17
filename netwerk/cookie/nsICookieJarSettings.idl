@@ -15,6 +15,9 @@ idl
 interface
 nsIPrincipal
 ;
+interface
+nsIURI
+;
 [
 scriptable
 builtinclass
@@ -96,6 +99,17 @@ cookiePermission
 in
 nsIPrincipal
 aPrincipal
+)
+;
+void
+initWithURI
+(
+in
+nsIURI
+aURI
+in
+boolean
+aIsPrivate
 )
 ;
 }
