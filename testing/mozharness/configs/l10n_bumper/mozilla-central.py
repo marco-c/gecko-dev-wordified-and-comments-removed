@@ -307,9 +307,7 @@ platforms
 "
 android
 -
-api
--
-16
+arm
 "
 "
 android

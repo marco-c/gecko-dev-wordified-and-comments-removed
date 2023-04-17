@@ -444,9 +444,7 @@ variant
 -
 cfg
 :
-api
--
-16
+arm
 #
 Note
 :
@@ -714,9 +712,7 @@ shippable
 opt
 android
 -
-api
--
-16
+arm
 -
 shippable
 :
@@ -724,9 +720,7 @@ build
 -
 android
 -
-api
--
-16
+arm
 -
 shippable
 /

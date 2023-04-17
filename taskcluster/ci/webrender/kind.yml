@@ -3164,10 +3164,6 @@ p2
 0
 -
 arm7
--
-api
--
-16
 /
 debug
 symbol
@@ -3484,10 +3480,6 @@ p2
 0
 -
 arm7
--
-api
--
-16
 /
 opt
 symbol

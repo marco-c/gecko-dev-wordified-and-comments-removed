@@ -91,9 +91,7 @@ p2
 .
 *
 -
-api
--
-16
+arm7
 /
 (
 ?
@@ -114,9 +112,7 @@ p2
 .
 *
 -
-api
--
-16
+arm7
 -
 shippable
 /
@@ -140,9 +136,7 @@ p2
 <
 !
 -
-api
--
-16
+arm7
 -
 shippable
 )

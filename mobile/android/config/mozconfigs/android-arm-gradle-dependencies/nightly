@@ -142,11 +142,7 @@ like
 /
 android
 -
-api
--
-16
--
-frontend
+arm
 /
 nightly
 .
@@ -321,11 +317,7 @@ End
 /
 android
 -
-api
--
-16
--
-frontend
+arm
 /
 nightly
 .
