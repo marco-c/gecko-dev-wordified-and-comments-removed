@@ -160,6 +160,7 @@ false
 )
 const
 ;
+virtual
 uint32_t
 CharacterCount
 (
