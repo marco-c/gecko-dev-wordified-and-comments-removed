@@ -1318,10 +1318,6 @@ set
 -
 marionette
 -
-mochitest
--
-chrome
--
 telemetry
 -
 tests
@@ -1419,6 +1415,10 @@ a11y
 mochitest
 -
 browser
+-
+chrome
+-
+mochitest
 -
 chrome
 -
