@@ -194,16 +194,6 @@ Line
 ENTITY
 gotoLineCmd
 .
-key
-"
-J
-"
->
-<
-!
-ENTITY
-gotoLineCmd
-.
 accesskey
 "
 J
