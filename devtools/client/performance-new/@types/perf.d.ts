@@ -44,7 +44,10 @@ pageContext
 PageContext
 )
 :
+Promise
+<
 void
+>
 ;
 gDestroy
 (
