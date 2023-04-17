@@ -4712,7 +4712,7 @@ TransportSetup
 TransportSetupState
 :
 :
-RESOLVING
+RETRY_RESOLVING
 ;
 nsresult
 rv
