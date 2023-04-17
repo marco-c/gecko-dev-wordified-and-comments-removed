@@ -78,7 +78,9 @@ in
 -
 tree
 :
-mingw32
+debian11
+-
+amd64
 -
 build
 }

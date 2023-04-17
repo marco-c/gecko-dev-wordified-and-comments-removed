@@ -147,6 +147,8 @@ python3
 -
 pytoml
 \
+scons
+\
 subversion
 \
 tar
