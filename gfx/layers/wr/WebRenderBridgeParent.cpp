@@ -13763,7 +13763,6 @@ AddCompositable
 (
 aHandle
 aInfo
-true
 )
 )
 {
