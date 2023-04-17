@@ -150,6 +150,11 @@ platform
 linux
 mac
 )
+fuzzy
+(
+1
+6105
+)
 =
 =
 yuv
@@ -166,7 +171,7 @@ mac
 fuzzy
 (
 1
-6000
+6105
 )
 fuzzy
 -
@@ -257,6 +262,11 @@ yaml
 platform
 (
 linux
+)
+fuzzy
+(
+1
+161
 )
 =
 =
