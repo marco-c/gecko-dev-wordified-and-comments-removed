@@ -187,9 +187,7 @@ System
 *
 *
 Windows
-7
-or
-later
+10
 .
 It
 is
@@ -205,6 +203,15 @@ up
 to
 -
 date
+.
+See
+:
+ref
+:
+build_hosts
+for
+more
+information
 .
 1
 .
