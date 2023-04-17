@@ -506,6 +506,16 @@ platform
 "
 win
 "
+|
+|
+AppConstants
+.
+platform
+=
+=
+"
+macosx
+"
 )
 {
 is
@@ -531,6 +541,8 @@ on
 startup
 for
 windows
+and
+mac
 "
 )
 ;
@@ -581,9 +593,7 @@ never
 on
 startup
 for
-non
--
-windows
+other
 platforms
 "
 )
