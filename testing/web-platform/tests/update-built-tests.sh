@@ -10,6 +10,15 @@ sh
 set
 -
 ex
+conformance
+-
+checkers
+/
+tools
+/
+build
+.
+sh
 html
 /
 canvas
