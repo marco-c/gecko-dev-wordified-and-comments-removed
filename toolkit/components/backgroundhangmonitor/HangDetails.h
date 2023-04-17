@@ -282,14 +282,6 @@ mPermahangFile
 ;
 }
 ;
-void
-ReadModuleInformation
-(
-HangStack
-&
-stack
-)
-;
 }
 #
 endif
