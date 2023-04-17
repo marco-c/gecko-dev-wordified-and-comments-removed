@@ -6601,6 +6601,10 @@ jobs
 =
 0
         
+job_size
+=
+0
+        
 directory
 =
 None
@@ -7735,6 +7739,10 @@ num_jobs
 =
 jobs
                         
+job_size
+=
+job_size
+                        
 silent
 =
 not
@@ -7781,6 +7789,10 @@ on_line
 jobs
 =
 jobs
+                    
+job_size
+=
+job_size
                     
 verbose
 =
@@ -9722,6 +9734,10 @@ jobs
 =
 0
         
+job_size
+=
+0
+        
 verbose
 =
 None
@@ -10255,6 +10271,10 @@ False
 num_jobs
 =
 jobs
+            
+job_size
+=
+job_size
             
 silent
 =
