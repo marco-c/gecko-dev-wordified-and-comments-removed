@@ -38,6 +38,15 @@ Object
 .
 h
 "
+#
+include
+"
+js
+/
+Value
+.
+h
+"
 class
 JS_PUBLIC_API
 JSFunction
@@ -60,7 +69,10 @@ shadow
 Object
 base
 ;
-uint32_t
+JS
+:
+:
+Value
 flagsAndArgCount
 ;
 JSNative
