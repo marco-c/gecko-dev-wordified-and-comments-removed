@@ -3408,8 +3408,9 @@ WASM_ARCHIVE
 (
 WASM_CXX
 )
--
-o
+(
+OUTOPTION
+)
 -
 Wl
 -
@@ -4325,8 +4326,9 @@ REPORT_BUILD_VERBOSE
 (
 WASM_CC
 )
--
-o
+(
+OUTOPTION
+)
 -
 c
 (
@@ -4864,8 +4866,9 @@ OBJECT_FILE
 (
 WASM_CXX
 )
--
-o
+(
+OUTOPTION
+)
 -
 c
 (
