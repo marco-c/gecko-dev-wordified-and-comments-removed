@@ -2494,6 +2494,7 @@ moduleEnv
 compilerEnv
 nullptr
 error
+warnings
 )
 ;
 if
@@ -2664,6 +2665,7 @@ compilerEnv
 cancelled
 &
 error
+nullptr
 )
 ;
 if
@@ -3337,6 +3339,7 @@ compilerEnv
 &
 cancelled
 error
+warnings
 )
 ;
 if

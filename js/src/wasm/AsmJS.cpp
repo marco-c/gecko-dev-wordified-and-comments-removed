@@ -11595,6 +11595,7 @@ moduleEnv_
 compilerEnv_
 nullptr
 nullptr
+nullptr
 )
 ;
 if
