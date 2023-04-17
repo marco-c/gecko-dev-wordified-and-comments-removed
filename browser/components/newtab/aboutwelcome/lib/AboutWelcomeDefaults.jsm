@@ -1831,13 +1831,7 @@ if
 featureConfig
 ?
 .
-design
-=
-=
-=
-"
-proton
-"
+isProton
 )
 {
 return
