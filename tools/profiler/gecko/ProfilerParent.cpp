@@ -2175,6 +2175,13 @@ MOZ_RELEASE_ASSERT
 NS_IsMainThread
 (
 )
+|
+|
+mProfilerParents
+.
+IsEmpty
+(
+)
 )
 ;
 MOZ_COUNT_DTOR
