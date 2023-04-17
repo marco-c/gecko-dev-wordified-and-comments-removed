@@ -2717,6 +2717,12 @@ sCurrent
 =
 nullptr
 ;
+StaticMutex
+AutoNestedEventLoopAnnotation
+:
+:
+sStackMutex
+;
 void
 AutoNestedEventLoopAnnotation
 :
