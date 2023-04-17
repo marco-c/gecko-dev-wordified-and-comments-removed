@@ -377,9 +377,11 @@ linux
 -
 gnu
 -
-wasi
--
 sysroot
+-
+wasm32
+-
+wasi
 win64
 -
 st

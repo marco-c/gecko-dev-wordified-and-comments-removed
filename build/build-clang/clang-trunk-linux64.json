@@ -78,7 +78,9 @@ gcc
 "
 wasi
 -
-sysroot
+compiler
+-
+rt
 "
 :
 "
@@ -86,9 +88,9 @@ sysroot
 MOZ_FETCHES_DIR
 }
 /
-wasi
+compiler
 -
-sysroot
+rt
 "
 "
 patches

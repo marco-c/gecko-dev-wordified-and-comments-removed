@@ -469,9 +469,11 @@ linux
 -
 gnu
 -
-wasi
--
 sysroot
+-
+wasm32
+-
+wasi
 macosx64
 -
 shippable
@@ -673,9 +675,11 @@ linux
 -
 gnu
 -
-wasi
--
 sysroot
+-
+wasm32
+-
+wasi
 android
 -
 x86

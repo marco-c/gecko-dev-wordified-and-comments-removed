@@ -1840,11 +1840,11 @@ linux
 -
 gnu
 -
-wasi
--
 sysroot
 -
-12
+wasm32
+-
+wasi
 sm
 -
 msan

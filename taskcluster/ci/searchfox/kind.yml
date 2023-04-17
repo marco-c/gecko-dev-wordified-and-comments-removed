@@ -301,9 +301,11 @@ linux
 -
 gnu
 -
-wasi
--
 sysroot
+-
+wasm32
+-
+wasi
 macosx64
 -
 searchfox
@@ -522,9 +524,11 @@ linux
 -
 gnu
 -
-wasi
--
 sysroot
+-
+wasm32
+-
+wasi
 win64
 -
 searchfox

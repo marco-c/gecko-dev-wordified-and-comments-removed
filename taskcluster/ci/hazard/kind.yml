@@ -424,9 +424,11 @@ linux
 -
 gnu
 -
-wasi
--
 sysroot
+-
+wasm32
+-
+wasi
 optimization
 :
 skip
