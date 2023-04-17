@@ -682,12 +682,6 @@ Result
 <
 Option
 <
-quote
-:
-:
-__rt
-:
-:
 TokenStream
 >
 Error
