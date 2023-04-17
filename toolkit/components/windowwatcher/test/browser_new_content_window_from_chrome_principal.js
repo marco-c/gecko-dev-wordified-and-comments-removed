@@ -45,7 +45,7 @@ waitForNewWindow
 url
 :
 "
-http
+https
 :
 /
 /
@@ -77,7 +77,7 @@ content
 open
 (
 "
-http
+https
 :
 /
 /
@@ -182,7 +182,7 @@ nodePrincipal
 .
 origin
 "
-http
+https
 :
 /
 /
