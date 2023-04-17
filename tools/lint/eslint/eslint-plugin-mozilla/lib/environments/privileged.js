@@ -1268,6 +1268,9 @@ false
 PlacesBookmarkRemoved
 :
 false
+PlacesBookmarkTime
+:
+false
 PlacesBookmarkTitle
 :
 false

@@ -2396,6 +2396,9 @@ instead
 .
 *
 /
+[
+can_run_script
+]
 void
 setItemLastModified
 (
