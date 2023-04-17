@@ -4471,6 +4471,10 @@ regexp
 test
 (
 string
+.
+toLowerCase
+(
+)
 )
 )
 {
