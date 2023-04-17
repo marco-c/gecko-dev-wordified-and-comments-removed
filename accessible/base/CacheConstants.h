@@ -18,7 +18,7 @@ public
 static
 constexpr
 uint64_t
-Name
+NameAndDescription
 =
 (
 (
