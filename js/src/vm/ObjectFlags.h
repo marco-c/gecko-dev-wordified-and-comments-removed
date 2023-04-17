@@ -46,6 +46,12 @@ HasInterestingSymbol
 <
 <
 3
+HasEnumerable
+=
+1
+<
+<
+4
 FrozenElements
 =
 1
