@@ -112,8 +112,16 @@ CanUseExtraThreads
 )
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+HelperThreadState
+(
+)
+.
+useInternalThreadPool
+(
+lock
+)
 !
 HelperThreadState
 (
