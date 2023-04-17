@@ -16,7 +16,7 @@ IdlDictionary
 .
 prototype
 .
-get_inheritance_stack
+get_reverse_inheritance_stack
 (
 )
 <
@@ -163,7 +163,7 @@ A
 '
 )
 .
-get_inheritance_stack
+get_reverse_inheritance_stack
 (
 )
 ;
@@ -230,7 +230,7 @@ _
 >
 d
 .
-get_inheritance_stack
+get_reverse_inheritance_stack
 (
 )
 )
@@ -322,7 +322,7 @@ assert_array_equals
 (
 A
 .
-get_inheritance_stack
+get_reverse_inheritance_stack
 (
 )
 .
@@ -337,13 +337,13 @@ name
 )
 [
 "
-A
+C
 "
 "
 B
 "
 "
-C
+A
 "
 ]
 )
@@ -355,7 +355,6 @@ return
 an
 array
 of
-inherited
 dictionaries
 in
 order
@@ -363,8 +362,9 @@ of
 inheritance
 starting
 with
-itself
-.
+the
+base
+dictionary
 '
 )
 ;
