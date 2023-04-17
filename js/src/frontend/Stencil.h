@@ -817,6 +817,10 @@ class
 StencilXDR
 ;
 friend
+class
+InputScope
+;
+friend
 struct
 CompilationStencil
 ;
