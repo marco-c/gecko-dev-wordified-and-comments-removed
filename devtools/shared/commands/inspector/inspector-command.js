@@ -34,6 +34,7 @@ targetCommand
 .
 getAllFronts
 (
+[
 this
 .
 commands
@@ -43,6 +44,7 @@ targetCommand
 TYPES
 .
 FRAME
+]
 "
 inspector
 "
