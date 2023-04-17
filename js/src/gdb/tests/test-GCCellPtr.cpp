@@ -10,13 +10,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 js
 /
 CompileOptions

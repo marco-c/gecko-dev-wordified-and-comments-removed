@@ -6,13 +6,6 @@ iterator
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 js
 /
 ErrorInterceptor
