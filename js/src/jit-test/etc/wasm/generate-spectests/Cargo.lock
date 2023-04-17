@@ -16,6 +16,9 @@ for
 manual
 editing
 .
+version
+=
+3
 [
 [
 package
@@ -5008,11 +5011,11 @@ wast
 version
 =
 "
-35
+38
 .
 0
 .
-2
+0
 "
 source
 =
@@ -5040,7 +5043,7 @@ index
 checksum
 =
 "
-2ef140f1b49946586078353a453a1d28ba90adfc54dde75710bc1931de204d68
+0ebc29df4629f497e0893aacd40f13a4a56b85ef6eb4ab6d603f07244f1a7bf2
 "
 dependencies
 =
