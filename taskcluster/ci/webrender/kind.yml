@@ -3123,9 +3123,7 @@ mozdevice
 PYTHONPATH
 &
 &
-python2
-.
-7
+python3
 {
 MOZHARNESS_PATH
 }
@@ -3443,9 +3441,7 @@ mozdevice
 PYTHONPATH
 &
 &
-python2
-.
-7
+python3
 {
 MOZHARNESS_PATH
 }
