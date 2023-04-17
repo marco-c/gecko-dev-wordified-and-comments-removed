@@ -1,0 +1,17 @@
+UNIFIED_SOURCES
++
+=
+[
+"
+TestNumberFormat
+.
+cpp
+"
+]
+FINAL_LIBRARY
+=
+"
+xul
+-
+gtest
+"
