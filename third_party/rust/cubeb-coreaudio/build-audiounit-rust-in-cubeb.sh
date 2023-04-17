@@ -17,7 +17,7 @@ github
 .
 com
 /
-kinetiknz
+mozilla
 /
 cubeb
 .
@@ -36,7 +36,7 @@ github
 .
 com
 /
-ChunMinChang
+mozilla
 /
 cubeb
 -

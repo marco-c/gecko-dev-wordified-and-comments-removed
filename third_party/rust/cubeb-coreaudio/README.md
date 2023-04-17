@@ -222,7 +222,7 @@ githubusercontent
 .
 com
 /
-ChunMinChang
+mozilla
 /
 cubeb
 -
@@ -1095,7 +1095,7 @@ github
 .
 com
 /
-kinetiknz
+mozilla
 /
 cubeb
 "
@@ -1118,7 +1118,7 @@ github
 .
 com
 /
-kinetiknz
+mozilla
 /
 cubeb
 /
@@ -1250,7 +1250,7 @@ github
 .
 com
 /
-ChunMinChang
+mozilla
 /
 cubeb
 -
@@ -1281,7 +1281,7 @@ github
 .
 com
 /
-ChunMinChang
+mozilla
 /
 cubeb
 -
@@ -1306,7 +1306,7 @@ github
 .
 com
 /
-ChunMinChang
+mozilla
 /
 cubeb
 -
