@@ -22725,8 +22725,6 @@ autofill
 preview
 "
 NS_EVENT_STATE_AUTOFILL_PREVIEW
-|
-NS_EVENT_STATE_AUTOFILL
 }
 {
 nullptr
