@@ -222,7 +222,7 @@ Accessible
 aAcc
 )
 {
-MOZ_ASSERT
+if
 (
 aAcc
 -
@@ -230,10 +230,8 @@ aAcc
 IsLocal
 (
 )
-)
-;
-if
-(
+&
+&
 aAcc
 -
 >
@@ -268,6 +266,16 @@ aAcc
 )
 ;
 }
+if
+(
+aAcc
+-
+>
+IsLocal
+(
+)
+)
+{
 if
 (
 aAcc
@@ -402,6 +410,7 @@ MsaaXULMenuitemAccessible
 aAcc
 )
 ;
+}
 }
 return
 new
