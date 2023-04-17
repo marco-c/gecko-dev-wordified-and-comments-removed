@@ -57,10 +57,6 @@ curl
 enjarify
 \
 diffoscope
-/
-buster
--
-backports
 \
 jsbeautifier
 \
