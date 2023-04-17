@@ -823,6 +823,15 @@ test_url
 oskey
 )
     
+test_details
+[
+"
+test_url
+"
+]
+=
+test_url
+    
 test_settings
 =
 {
