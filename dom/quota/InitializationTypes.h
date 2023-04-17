@@ -49,6 +49,13 @@ h
 "
 namespace
 mozilla
+{
+struct
+CreateIfNonExistent
+;
+}
+namespace
+mozilla
 :
 :
 dom
@@ -220,6 +227,9 @@ const
 nsACString
 &
 aOrigin
+const
+CreateIfNonExistent
+&
 )
 {
 return
