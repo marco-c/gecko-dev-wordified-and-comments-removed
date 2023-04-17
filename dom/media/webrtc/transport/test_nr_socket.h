@@ -214,6 +214,10 @@ block_tcp_
 (
 false
 )
+block_tls_
+(
+false
+)
 error_code_for_drop_
 (
 0
@@ -348,6 +352,9 @@ block_stun_
 ;
 bool
 block_tcp_
+;
+bool
+block_tls_
 ;
 bool
 error_code_for_drop_
