@@ -951,6 +951,13 @@ data
 =
 >
 {
+const
+browsingContext
+=
+browsingContextFn
+(
+)
+;
 if
 (
 data
@@ -958,9 +965,7 @@ data
 browsingContext
 !
 =
-browsingContextFn
-(
-)
+browsingContext
 )
 {
 return
