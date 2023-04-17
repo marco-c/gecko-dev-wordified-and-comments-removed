@@ -2556,6 +2556,17 @@ true
 }
 else
 {
+#
+ifdef
+NIGHTLY_BUILD
+eventProcessed
+=
+false
+;
+break
+;
+#
+else
 EventRef
 currentEvent
 =
@@ -2693,6 +2704,8 @@ eventProcessed
 =
 true
 ;
+#
+endif
 }
 }
 while
