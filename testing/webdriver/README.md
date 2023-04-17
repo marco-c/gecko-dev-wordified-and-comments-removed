@@ -274,8 +274,8 @@ archive
 There
 is
 also
-a
-Matrix
+an
+Element
 channel
 to
 talk
@@ -286,7 +286,7 @@ developing
 webdriver
 on
 #
-interop
+webdriver
 :
 mozilla
 .
@@ -307,7 +307,7 @@ org
 room
 /
 #
-interop
+webdriver
 :
 mozilla
 .
