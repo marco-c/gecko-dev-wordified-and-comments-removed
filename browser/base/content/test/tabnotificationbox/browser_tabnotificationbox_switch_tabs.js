@@ -202,8 +202,6 @@ browser
 .
 proton
 .
-infobars
-.
 enabled
 "
 true
