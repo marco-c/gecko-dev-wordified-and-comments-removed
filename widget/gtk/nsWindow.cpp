@@ -29271,6 +29271,10 @@ IsWaylandPopup
 )
 )
 {
+mPopupClosed
+=
+false
+;
 if
 (
 WaylandPopupNeedsTrackInHierarchy
@@ -29286,7 +29290,6 @@ UpdateWaylandPopupHierarchy
 (
 )
 ;
-}
 if
 (
 mPopupClosed
@@ -29294,6 +29297,7 @@ mPopupClosed
 {
 return
 ;
+}
 }
 }
 if
