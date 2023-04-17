@@ -7676,7 +7676,6 @@ jsid
 names
 (
 cx
-cx
 )
 ;
 if
@@ -8293,7 +8292,6 @@ CapturesVector
 >
 namedCaptures
 (
-cx
 cx
 )
 ;
