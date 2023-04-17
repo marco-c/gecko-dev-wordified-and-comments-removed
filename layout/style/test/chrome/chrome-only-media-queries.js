@@ -322,14 +322,6 @@ moz
 -
 proton
 -
-infobars
-"
-"
--
-moz
--
-proton
--
 places
 -
 tooltip
