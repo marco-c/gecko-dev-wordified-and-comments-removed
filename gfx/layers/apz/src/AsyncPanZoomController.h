@@ -2585,6 +2585,12 @@ ParentLayerPoint
 aVelocity
 )
 ;
+ScrollDirections
+GetOverscrollableDirections
+(
+)
+const
+;
 void
 SmoothScrollTo
 (
