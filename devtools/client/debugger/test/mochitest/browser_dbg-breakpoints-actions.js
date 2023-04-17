@@ -186,7 +186,7 @@ store
 "
 SET_BREAKPOINT
 "
-1
+2
 )
 ;
 selectContextMenuItem
