@@ -527,6 +527,11 @@ states
 :
 :
 MULTI_LINE
+|
+states
+:
+:
+CHECKABLE
 ;
 static
 const
