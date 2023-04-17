@@ -1297,6 +1297,9 @@ topsites_newtab
 isPreview
 :
 false
+isGeneralPurposeEngine
+:
+false
 }
 "
 The
