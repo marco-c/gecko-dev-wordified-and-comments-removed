@@ -71,12 +71,8 @@ his
 '
 )
 ;
-assertThrowsInstanceOf
+assertEq
 (
-(
-)
-=
->
 b
 .
 ef
@@ -86,6 +82,6 @@ this
 #
 x
 )
-Error
+12
 )
 ;

@@ -4605,6 +4605,10 @@ setSkipFilenameValidation
 (
 true
 )
+.
+setForceFullParse
+(
+)
 ;
 if
 (
