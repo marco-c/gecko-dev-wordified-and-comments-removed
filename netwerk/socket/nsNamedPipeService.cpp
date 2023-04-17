@@ -51,6 +51,15 @@ ClearOnShutdown
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Logging
+.
+h
+"
 namespace
 mozilla
 {

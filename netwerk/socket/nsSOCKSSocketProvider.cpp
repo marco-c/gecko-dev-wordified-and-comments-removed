@@ -39,6 +39,13 @@ mozilla
 :
 OriginAttributes
 ;
+using
+namespace
+mozilla
+:
+:
+net
+;
 NS_IMPL_ISUPPORTS
 (
 nsSOCKSSocketProvider
