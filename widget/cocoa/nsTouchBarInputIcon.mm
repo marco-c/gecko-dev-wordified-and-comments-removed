@@ -88,7 +88,7 @@ IconLoader
 static
 const
 uint32_t
-kIconSize
+kIconHeight
 =
 16
 ;
@@ -396,8 +396,8 @@ iconSize
 =
 NSMakeSize
 (
-kIconSize
-kIconSize
+kIconHeight
+kIconHeight
 )
 ;
 NSImage
@@ -527,8 +527,8 @@ withSize
 :
 NSMakeSize
 (
-kIconSize
-kIconSize
+kIconHeight
+kIconHeight
 )
 computedStyle
 :
