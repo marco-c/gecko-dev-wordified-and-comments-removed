@@ -125,6 +125,12 @@ DetectJsHacks
 )
 ;
 static
+void
+DetectCssHacks
+(
+)
+;
+static
 nsresult
 GetHttpChannelFromPotentialMultiPart
 (
