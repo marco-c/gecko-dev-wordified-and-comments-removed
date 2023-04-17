@@ -2321,7 +2321,7 @@ blend_key
 ;
 }
 static
-ALWAYS_INLINE
+PREFER_INLINE
 WideRGBA8
 blend_pixels
 (
@@ -3989,7 +3989,7 @@ undef
 BLEND_CASE_KEY
 }
 static
-ALWAYS_INLINE
+PREFER_INLINE
 WideR8
 blend_pixels
 (
