@@ -654,9 +654,9 @@ root_icon_stored
 (
 )
 {
-AddonTestUtils
+XPCShellContentUtils
 .
-initMochitest
+ensureInitialized
 (
 this
 )
@@ -664,7 +664,7 @@ this
 let
 server
 =
-AddonTestUtils
+XPCShellContentUtils
 .
 createHttpServer
 (

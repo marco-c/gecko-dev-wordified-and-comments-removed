@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-AddonTestUtils
+XPCShellContentUtils
 }
 =
 ChromeUtils
@@ -21,13 +21,13 @@ testing
 -
 common
 /
-AddonTestUtils
+XPCShellContentUtils
 .
 jsm
 "
 )
 ;
-AddonTestUtils
+XPCShellContentUtils
 .
 initMochitest
 (
@@ -37,7 +37,7 @@ this
 const
 server
 =
-AddonTestUtils
+XPCShellContentUtils
 .
 createHttpServer
 (

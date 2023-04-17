@@ -97,6 +97,11 @@ TestUtils
 .
 jsm
 "
+"
+XPCShellContentUtils
+.
+jsm
+"
 ]
 if
 CONFIG

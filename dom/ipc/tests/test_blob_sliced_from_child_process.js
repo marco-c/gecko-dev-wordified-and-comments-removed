@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-ExtensionTestUtils
+XPCShellContentUtils
 }
 =
 ChromeUtils
@@ -21,13 +21,13 @@ testing
 -
 common
 /
-ExtensionXPCShellUtils
+XPCShellContentUtils
 .
 jsm
 "
 )
 ;
-ExtensionTestUtils
+XPCShellContentUtils
 .
 init
 (
@@ -203,7 +203,7 @@ let
 page
 =
 await
-ExtensionTestUtils
+XPCShellContentUtils
 .
 loadContentPage
 (
