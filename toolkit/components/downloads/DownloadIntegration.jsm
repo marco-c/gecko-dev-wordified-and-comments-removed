@@ -1181,6 +1181,13 @@ catch
 ex
 )
 {
+Cu
+.
+reportError
+(
+ex
+)
+;
 directoryPath
 =
 await
