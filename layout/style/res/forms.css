@@ -2629,7 +2629,10 @@ background
 -
 color
 :
-ThreeDLightShadow
+-
+moz
+-
+DisabledField
 ;
 cursor
 :
@@ -4171,6 +4174,15 @@ button
 color
 :
 GrayText
+;
+background
+-
+color
+:
+-
+moz
+-
+ButtonDisabledFace
 ;
 }
 /

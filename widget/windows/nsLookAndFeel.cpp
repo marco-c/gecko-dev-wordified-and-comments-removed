@@ -888,6 +888,12 @@ ColorID
 :
 MozButtonactiveface
 :
+case
+ColorID
+:
+:
+MozButtondisabledface
+:
 idx
 =
 COLOR_BTNFACE
@@ -1263,6 +1269,12 @@ ColorID
 :
 :
 Threedlightshadow
+:
+case
+ColorID
+:
+:
+MozDisabledfield
 :
 idx
 =

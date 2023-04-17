@@ -2545,6 +2545,12 @@ ColorID
 :
 Buttonface
 :
+case
+ColorID
+:
+:
+MozButtondisabledface
+:
 aColor
 =
 mMozWindowBackground
@@ -2604,6 +2610,12 @@ ColorID
 :
 :
 Threedlightshadow
+:
+case
+ColorID
+:
+:
+MozDisabledfield
 :
 aColor
 =

@@ -111,11 +111,9 @@ theme
 .
 always
 -
-use
+high
 -
-system
--
-colors
+contrast
 true
 )
 #

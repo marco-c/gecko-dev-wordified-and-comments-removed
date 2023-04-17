@@ -108,7 +108,7 @@ mUseDocumentColors
 true
 ;
 bool
-NonNativeThemeShouldUseSystemColors
+NonNativeThemeShouldBeHighContrast
 (
 )
 const
