@@ -770,6 +770,9 @@ timer
 callback
 "
 #
+ifndef
+RELEASE_OR_BETA
+#
 undef
 NS_DECL_NSITIMERCALLBACK
 #
@@ -824,5 +827,7 @@ nsINamed
 ;
 \
 }
+#
+endif
 %
 }
