@@ -1643,6 +1643,7 @@ children
 =
 [
 [
+[
 NSMutableArray
 alloc
 ]
@@ -1653,6 +1654,8 @@ mGeckoAccessible
 ChildCount
 (
 )
+]
+autorelease
 ]
 ;
 for
@@ -4951,10 +4954,13 @@ relations
 =
 [
 [
+[
 NSMutableArray
 alloc
 ]
 init
+]
+autorelease
 ]
 ;
 Relation
@@ -5218,10 +5224,13 @@ userInfo
 =
 [
 [
+[
 delegate
 selectionChangeInfo
 ]
 mutableCopy
+]
+autorelease
 ]
 ;
 userInfo
