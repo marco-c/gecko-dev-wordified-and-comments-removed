@@ -1611,6 +1611,8 @@ uint32_t
 aActivityGeneration
 double
 aIntervalMilliseconds
+bool
+aStackWalkEnabled
 )
 :
 mSampler
@@ -1670,6 +1672,9 @@ if
 (
 !
 lul
+&
+&
+aStackWalkEnabled
 )
 {
 CorePS
