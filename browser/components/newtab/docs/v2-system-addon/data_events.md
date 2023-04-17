@@ -5487,7 +5487,15 @@ recs_learn_more
 |
 view_list
 |
+home_view_list
+|
+home_topic
+|
+home_discover
+|
 save_button
+|
+home_button
 |
 on_save_recs
 |

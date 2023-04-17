@@ -355,6 +355,13 @@ tv
 panel_tryit
 "
 ]
+pockethomeparagraph
+:
+[
+"
+Pocket
+"
+]
 }
 function
 (
