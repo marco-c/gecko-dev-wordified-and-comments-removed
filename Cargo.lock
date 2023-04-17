@@ -18864,9 +18864,6 @@ dependencies
 =
 [
 "
-libc
-"
-"
 log
 "
 "

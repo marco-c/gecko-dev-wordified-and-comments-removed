@@ -275,15 +275,6 @@ qlog
 .
 0
 "
-libc
-=
-"
-0
-.
-2
-.
-0
-"
 [
 dependencies
 .
