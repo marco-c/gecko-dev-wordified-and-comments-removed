@@ -403,7 +403,7 @@ case
 "
 PasswordManager
 :
-onFormSubmit
+ShowDoorhanger
 "
 :
 {
