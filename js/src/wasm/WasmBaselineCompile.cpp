@@ -26186,8 +26186,10 @@ createStackMap
 "
 debug
 :
-breakable
-point
+enter
+-
+frame
+breakpoint
 "
 )
 )
@@ -27123,6 +27125,9 @@ createStackMap
 "
 debug
 :
+return
+-
+point
 breakpoint
 "
 )
@@ -27149,7 +27154,9 @@ createStackMap
 debug
 :
 leave
+-
 frame
+breakpoint
 "
 )
 )
@@ -76836,7 +76843,9 @@ createStackMap
 debug
 :
 per
+-
 insn
+breakpoint
 "
 )
 )

@@ -5335,8 +5335,7 @@ nextInsnAddr
 )
 "
 wasm
-stack
-map
+stackmap
 does
 not
 reference
