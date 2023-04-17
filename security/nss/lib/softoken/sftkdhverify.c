@@ -12645,8 +12645,6 @@ sftk_VerifyDH_Prime
 SECItem
 *
 dhPrime
-PRBool
-isFIPS
 )
 {
 switch
@@ -12662,14 +12660,6 @@ case
 /
 PR_BITS_PER_BYTE
 :
-if
-(
-isFIPS
-)
-{
-break
-;
-}
 if
 (
 PORT_Memcmp

@@ -196,8 +196,6 @@ rsaperf
 \
 rsapoptst
 \
-sdbthreadtst
-\
 sdrtest
 \
 selfserv
