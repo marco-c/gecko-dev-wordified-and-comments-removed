@@ -5060,14 +5060,6 @@ task_config
 .
 py
 -
-uriloader
-/
-prefetch
-/
-nsOfflineCacheUpdate
-.
-cpp
--
 widget
 /
 android
