@@ -300,6 +300,9 @@ a
 cartesian
 coordinate
 system
+[
+Throws
+]
 void
 setPosition
 (
@@ -311,6 +314,9 @@ double
 z
 )
 ;
+[
+Throws
+]
 void
 setOrientation
 (
