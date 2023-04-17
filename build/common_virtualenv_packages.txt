@@ -676,6 +676,13 @@ third_party
 /
 python
 /
+packaging
+vendored
+:
+third_party
+/
+python
+/
 pathspec
 vendored
 :
@@ -726,6 +733,13 @@ third_party
 python
 /
 pylru
+vendored
+:
+third_party
+/
+python
+/
+pyparsing
 vendored
 :
 third_party
