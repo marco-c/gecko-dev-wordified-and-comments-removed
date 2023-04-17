@@ -101,6 +101,12 @@ SystemWantsDarkTheme
 )
 ;
 static
+bool
+IsSystemOrientationRTL
+(
+)
+;
+static
 nscolor
 ProcessSelectionBackground
 (

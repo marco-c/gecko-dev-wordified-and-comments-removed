@@ -811,6 +811,11 @@ macBigSurTheme
 "
 ui
 .
+macRTL
+"
+"
+ui
+.
 alertNotificationOrigin
 "
 "

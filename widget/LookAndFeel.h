@@ -163,6 +163,7 @@ WindowsClassic
 WindowsGlass
 MacGraphiteTheme
 MacBigSurTheme
+MacRTL
 AlertNotificationOrigin
 ScrollToClick
 IMERawInputUnderlineStyle
