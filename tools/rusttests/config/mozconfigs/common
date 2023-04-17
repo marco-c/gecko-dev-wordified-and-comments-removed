@@ -91,16 +91,6 @@ application
 tools
 /
 rusttests
-mk_add_options
-MOZ_MAKE_FLAGS
-=
--
--
-output
--
-sync
-=
-line
 .
 "
 topsrcdir
