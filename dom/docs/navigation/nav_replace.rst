@@ -408,6 +408,13 @@ document
 the
 same
 nsGlobalWindowInner
+WindowContext
+and
+WindowGlobal
+{
+Parent
+Child
+}
 may
 be
 used
