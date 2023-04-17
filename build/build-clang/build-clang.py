@@ -3542,6 +3542,14 @@ clang
 -
 query
 "
+        
+"
+run
+-
+clang
+-
+tidy
+"
     
 ]
     

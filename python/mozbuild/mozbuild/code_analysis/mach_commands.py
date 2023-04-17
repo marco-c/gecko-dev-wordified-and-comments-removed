@@ -7139,10 +7139,7 @@ clang
 tidy
 "
 "
-share
-"
-"
-clang
+bin
 "
 "
 run
@@ -7150,8 +7147,6 @@ run
 clang
 -
 tidy
-.
-py
 "
         
 )
@@ -12457,11 +12452,7 @@ tidy
 "
         
 "
-share
-"
-        
-"
-clang
+bin
 "
         
 "
@@ -12470,8 +12461,6 @@ run
 clang
 -
 tidy
-.
-py
 "
     
 )
