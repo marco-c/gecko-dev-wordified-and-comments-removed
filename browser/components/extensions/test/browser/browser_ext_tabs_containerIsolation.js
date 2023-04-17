@@ -172,6 +172,16 @@ enabled
 "
 true
 ]
+[
+"
+privacy
+.
+userContext
+.
+enabled
+"
+true
+]
 ]
 }
 )
