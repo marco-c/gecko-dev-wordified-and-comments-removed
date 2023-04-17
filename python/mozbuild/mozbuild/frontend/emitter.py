@@ -6025,9 +6025,6 @@ lib
 SandboxedWasmLibrary
 (
 context
-libname
-real_name
-=
 wasm_lib
 )
             
@@ -6041,21 +6038,6 @@ libname
 append
 (
 lib
-)
-            
-self
-.
-_linkage
-.
-append
-(
-(
-context
-lib
-"
-USE_LIBS
-"
-)
 )
             
 wasm_linkables
