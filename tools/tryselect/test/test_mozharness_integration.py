@@ -196,6 +196,12 @@ no
 -
 accel
 "
+            
+"
+reftest
+-
+snapshot
+"
         
 ]
     
