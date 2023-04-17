@@ -9484,6 +9484,9 @@ f64
 change_indicator
 :
 u8
+index
+:
+usize
 graph
 :
 Option
@@ -9533,6 +9536,11 @@ expected
 clone
 (
 )
+index
+:
+descriptor
+.
+index
 value
 :
 std
