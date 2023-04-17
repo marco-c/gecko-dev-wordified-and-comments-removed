@@ -8083,7 +8083,7 @@ return
 engineName
 +
 "
-suggestions
+Suggestions
 "
 ;
 }
