@@ -1755,6 +1755,9 @@ ScriptLoadRequest
 mParserBlockingRequest
 ;
 ScriptLoadRequestList
+mOffThreadCompilingRequests
+;
+ScriptLoadRequestList
 mBytecodeEncodingQueue
 ;
 struct
