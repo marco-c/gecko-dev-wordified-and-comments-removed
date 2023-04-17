@@ -212,16 +212,6 @@ set
 "
 dom
 .
-ipc
-.
-processCount
-"
-1
-]
-[
-"
-dom
-.
 serviceWorkers
 .
 enabled
