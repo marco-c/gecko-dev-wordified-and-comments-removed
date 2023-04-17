@@ -688,7 +688,7 @@ tree
 "
 :
 "
-debian11
+debian10
 -
 amd64
 -
