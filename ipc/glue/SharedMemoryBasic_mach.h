@@ -9,15 +9,6 @@ include
 "
 base
 /
-file_descriptor_posix
-.
-h
-"
-#
-include
-"
-base
-/
 process
 .
 h
@@ -213,9 +204,7 @@ virtual
 bool
 SetHandle
 (
-const
 Handle
-&
 aHandle
 OpenRights
 aRights

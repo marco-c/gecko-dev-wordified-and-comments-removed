@@ -3824,7 +3824,6 @@ AllocPTextureChild
 const
 SurfaceDescriptor
 &
-const
 ReadLockDescriptor
 &
 const
@@ -4367,8 +4366,8 @@ const
 SurfaceDescriptor
 &
 aSharedData
-const
 ReadLockDescriptor
+&
 &
 aReadLock
 LayersBackend
@@ -4399,7 +4398,13 @@ return
 SendPTextureConstructor
 (
 aSharedData
+std
+:
+:
+move
+(
 aReadLock
+)
 aLayersBackend
 aFlags
 aSerial

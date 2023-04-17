@@ -294,8 +294,12 @@ PersistenceType
 h
 "
 ;
+[
+MoveOnly
+=
+data
+]
 using
-moveonly
 mozilla
 :
 :

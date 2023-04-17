@@ -16,6 +16,9 @@ TimeStamp
 h
 "
 ;
+[
+MoveOnly
+]
 using
 base
 :

@@ -161,7 +161,6 @@ const
 TextureType
 &
 aTextureType
-const
 ipc
 :
 :
@@ -170,13 +169,14 @@ SharedMemoryBasic
 :
 Handle
 &
+&
 aReadHandle
-const
 CrossProcessSemaphoreHandle
 &
+&
 aReaderSem
-const
 CrossProcessSemaphoreHandle
+&
 &
 aWriterSem
 )

@@ -78,9 +78,7 @@ virtual
 bool
 SetHandle
 (
-const
 Handle
-&
 aHandle
 OpenRights
 aRights
@@ -92,7 +90,13 @@ mSharedMemory
 .
 SetHandle
 (
+std
+:
+:
+move
+(
 aHandle
+)
 aRights
 =
 =
@@ -336,7 +340,13 @@ ret
 *
 new_handle
 =
+std
+:
+:
+move
+(
 handle
+)
 ;
 return
 ret

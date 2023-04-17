@@ -633,8 +633,8 @@ TextureReadLock
 >
 Deserialize
 (
-const
 ReadLockDescriptor
+&
 &
 aDescriptor
 ISurfaceAllocator

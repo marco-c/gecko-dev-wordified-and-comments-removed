@@ -243,6 +243,9 @@ Point
 h
 "
 ;
+[
+MoveOnly
+]
 using
 mozilla
 :

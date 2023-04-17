@@ -3037,12 +3037,10 @@ GlobalStyleSheetCache
 :
 SetSharedMemory
 (
-const
 base
 :
 :
 SharedMemoryHandle
-&
 aHandle
 uintptr_t
 aAddress
@@ -3107,7 +3105,13 @@ shm
 >
 SetHandle
 (
+std
+:
+:
+move
+(
 aHandle
+)
 true
 )
 )
