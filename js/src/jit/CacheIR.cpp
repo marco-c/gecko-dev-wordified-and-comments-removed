@@ -1521,7 +1521,7 @@ holderId
 NativeObject
 *
 holder
-ShapeProperty
+PropertyInfo
 prop
 )
 {
@@ -2652,7 +2652,7 @@ obj
 NativeObject
 *
 holder
-ShapeProperty
+PropertyInfo
 prop
 )
 {
@@ -2692,7 +2692,7 @@ obj
 NativeObject
 *
 holder
-ShapeProperty
+PropertyInfo
 prop
 )
 {
@@ -3053,10 +3053,10 @@ NativeObject
 holder
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 *
-shapeProp
+propInfo
 jsbytecode
 *
 pc
@@ -3146,7 +3146,7 @@ holder
 baseHolder
 ;
 *
-shapeProp
+propInfo
 =
 mozilla
 :
@@ -3155,7 +3155,7 @@ Some
 (
 prop
 .
-shapeProperty
+propertyInfo
 (
 )
 )
@@ -3167,7 +3167,7 @@ IsCacheableGetPropReadSlot
 nobj
 *
 holder
-shapeProp
+propInfo
 -
 >
 ref
@@ -3186,7 +3186,7 @@ IsCacheableGetPropCall
 nobj
 *
 holder
-shapeProp
+propInfo
 -
 >
 ref
@@ -4020,7 +4020,7 @@ NativeObject
 holder
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ObjOperandId
@@ -4107,7 +4107,7 @@ obj
 NativeObject
 *
 holder
-ShapeProperty
+PropertyInfo
 prop
 ValOperandId
 receiverId
@@ -4233,7 +4233,7 @@ writer
 NativeObject
 *
 holder
-ShapeProperty
+PropertyInfo
 prop
 ObjOperandId
 holderId
@@ -4365,7 +4365,7 @@ NativeObject
 holder
 HandleId
 id
-ShapeProperty
+PropertyInfo
 prop
 ObjOperandId
 objId
@@ -4513,7 +4513,7 @@ NativeObject
 holder
 HandleId
 id
-ShapeProperty
+PropertyInfo
 prop
 ObjOperandId
 objId
@@ -4806,7 +4806,7 @@ obj
 NativeObject
 *
 holder
-ShapeProperty
+PropertyInfo
 prop
 ICState
 :
@@ -4899,7 +4899,7 @@ writer
 NativeObject
 *
 holder
-ShapeProperty
+PropertyInfo
 prop
 ObjOperandId
 objId
@@ -4964,7 +4964,7 @@ NativeObject
 holder
 HandleId
 id
-ShapeProperty
+PropertyInfo
 prop
 ObjOperandId
 objId
@@ -5125,7 +5125,7 @@ receiverId
 {
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -5578,7 +5578,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -6053,7 +6053,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -7462,7 +7462,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -7950,7 +7950,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -8740,7 +8740,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -9211,7 +9211,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -9561,7 +9561,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -9840,7 +9840,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -10627,7 +10627,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -10952,7 +10952,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -13545,7 +13545,7 @@ NativeObject
 holder
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 *
 prop
@@ -13743,7 +13743,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -14065,7 +14065,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -14435,7 +14435,7 @@ env_
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -15049,7 +15049,7 @@ if
 (
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -15137,7 +15137,7 @@ else
 {
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -15273,7 +15273,7 @@ env_
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -18192,7 +18192,7 @@ objId
 NativeObject
 *
 nobj
-ShapeProperty
+PropertyInfo
 prop
 ValOperandId
 rhsId
@@ -18280,7 +18280,7 @@ returnFromIC
 static
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 LookupShapeForSetSlot
 (
@@ -18295,7 +18295,7 @@ id
 {
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -18397,7 +18397,7 @@ PropertyKey
 id
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 *
 prop
@@ -18458,7 +18458,7 @@ op
 NativeObject
 *
 obj
-ShapeProperty
+PropertyInfo
 prop
 )
 {
@@ -18565,7 +18565,7 @@ rhsId
 {
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -19016,7 +19016,7 @@ obj
 NativeObject
 *
 holder
-ShapeProperty
+PropertyInfo
 prop
 )
 {
@@ -19162,7 +19162,7 @@ obj
 NativeObject
 *
 holder
-ShapeProperty
+PropertyInfo
 prop
 )
 {
@@ -19291,10 +19291,10 @@ NativeObject
 holder
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 *
-shapeProp
+propInfo
 )
 {
 MOZ_ASSERT
@@ -19369,7 +19369,7 @@ nobj
 holder
 prop
 .
-shapeProperty
+propertyInfo
 (
 )
 )
@@ -19383,7 +19383,7 @@ nobj
 holder
 prop
 .
-shapeProperty
+propertyInfo
 (
 )
 )
@@ -19394,7 +19394,7 @@ false
 ;
 }
 *
-shapeProp
+propInfo
 =
 mozilla
 :
@@ -19403,7 +19403,7 @@ Some
 (
 prop
 .
-shapeProperty
+propertyInfo
 (
 )
 )
@@ -19428,7 +19428,7 @@ obj
 NativeObject
 *
 holder
-ShapeProperty
+PropertyInfo
 prop
 ObjOperandId
 objId
@@ -19554,7 +19554,7 @@ writer
 NativeObject
 *
 holder
-ShapeProperty
+PropertyInfo
 prop
 ObjOperandId
 objId
@@ -19646,7 +19646,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -21553,7 +21553,7 @@ nullptr
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -21795,7 +21795,7 @@ toObject
 }
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -22447,7 +22447,7 @@ global
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -22809,7 +22809,7 @@ false
 }
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 protoProp
 =
@@ -23132,12 +23132,12 @@ NativeObject
 (
 )
 ;
-ShapeProperty
-shapeProp
+PropertyInfo
+propInfo
 =
 prop
 .
-shapeProperty
+propertyInfo
 (
 )
 ;
@@ -23163,12 +23163,12 @@ MOZ_RELEASE_ASSERT
 newShape
 -
 >
-property
+propertyInfo
 (
 )
 =
 =
-shapeProp
+propInfo
 )
 ;
 if
@@ -23202,7 +23202,7 @@ inDictionary
 |
 |
 !
-shapeProp
+propInfo
 .
 isDataProperty
 (
@@ -23210,7 +23210,7 @@ isDataProperty
 |
 |
 !
-shapeProp
+propInfo
 .
 writable
 (
@@ -23314,7 +23314,7 @@ holder
 >
 isFixedSlot
 (
-shapeProp
+propInfo
 .
 slot
 (
@@ -23330,7 +23330,7 @@ NativeObject
 :
 getFixedSlotOffset
 (
-shapeProp
+propInfo
 .
 slot
 (
@@ -23365,7 +23365,7 @@ holder
 >
 dynamicSlotIndex
 (
-shapeProp
+propInfo
 .
 slot
 (
@@ -23709,7 +23709,7 @@ MOZ_ASSERT
 (
 hasInstanceProp
 .
-shapeProperty
+propertyInfo
 (
 )
 .
@@ -23723,7 +23723,7 @@ MOZ_ASSERT
 !
 hasInstanceProp
 .
-shapeProperty
+propertyInfo
 (
 )
 .
@@ -23737,7 +23737,7 @@ MOZ_ASSERT
 !
 hasInstanceProp
 .
-shapeProperty
+propertyInfo
 (
 )
 .
@@ -23757,7 +23757,7 @@ hasInstanceHolder
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -24966,7 +24966,7 @@ false
 }
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -25159,7 +25159,7 @@ proto
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -46272,7 +46272,7 @@ JSFunction
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =

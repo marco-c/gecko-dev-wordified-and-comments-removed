@@ -61,8 +61,8 @@ TypedArrayElement
 ;
 union
 {
-ShapeProperty
-shapeProp_
+PropertyInfo
+propInfo_
 ;
 uint32_t
 denseIndex_
@@ -205,8 +205,8 @@ Kind
 NativeProperty
 ;
 }
-ShapeProperty
-shapeProperty
+PropertyInfo
+propertyInfo
 (
 )
 const
@@ -219,7 +219,7 @@ isNativeProperty
 )
 ;
 return
-shapeProp_
+propInfo_
 ;
 }
 uint32_t
@@ -272,7 +272,7 @@ NotFound
 void
 setNativeProperty
 (
-ShapeProperty
+PropertyInfo
 prop
 )
 {
@@ -283,7 +283,7 @@ Kind
 :
 NativeProperty
 ;
-shapeProp_
+propInfo_
 =
 prop
 ;

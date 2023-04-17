@@ -324,7 +324,7 @@ Writable
 }
 ;
 class
-ShapeProperty
+PropertyInfo
 {
 static
 constexpr
@@ -387,7 +387,7 @@ slotAndFlags_
 ;
 public
 :
-ShapeProperty
+PropertyInfo
 (
 PropertyFlags
 flags
@@ -435,10 +435,10 @@ flags
 )
 ;
 }
-ShapeProperty
+PropertyInfo
 (
 const
-ShapeProperty
+PropertyInfo
 &
 other
 )
@@ -718,7 +718,7 @@ operator
 =
 (
 const
-ShapeProperty
+PropertyInfo
 &
 other
 )
@@ -739,7 +739,7 @@ operator
 =
 (
 const
-ShapeProperty
+PropertyInfo
 &
 other
 )
@@ -761,7 +761,7 @@ class
 PropertyInfoWithKey
 :
 public
-ShapeProperty
+PropertyInfo
 {
 PropertyKey
 key_
@@ -778,7 +778,7 @@ PropertyKey
 key
 )
 :
-ShapeProperty
+PropertyInfo
 (
 flags
 slot

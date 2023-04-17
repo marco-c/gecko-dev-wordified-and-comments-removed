@@ -2600,7 +2600,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 *
 propOut
@@ -2685,9 +2685,9 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
-shapeProp
+propInfo
 ;
 ModuleEnvironmentObject
 *
@@ -2703,7 +2703,7 @@ id
 &
 env
 &
-shapeProp
+propInfo
 )
 )
 {
@@ -2720,7 +2720,7 @@ propp
 setNativeProperty
 (
 *
-shapeProp
+propInfo
 )
 ;
 return
@@ -2891,7 +2891,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -3091,7 +3091,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -19004,7 +19004,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -19253,7 +19253,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -20138,18 +20138,18 @@ GlobalObject
 )
 )
 {
-ShapeProperty
-shapeProp
+PropertyInfo
+propInfo
 =
 prop
 .
-shapeProperty
+propertyInfo
 (
 )
 ;
 if
 (
-shapeProp
+propInfo
 .
 configurable
 (
@@ -20178,7 +20178,7 @@ else
 {
 MOZ_ASSERT
 (
-shapeProp
+propInfo
 .
 isDataProperty
 (
@@ -20187,7 +20187,7 @@ isDataProperty
 ;
 MOZ_ASSERT
 (
-shapeProp
+propInfo
 .
 writable
 (
@@ -20196,7 +20196,7 @@ writable
 ;
 MOZ_ASSERT
 (
-shapeProp
+propInfo
 .
 enumerable
 (
@@ -22586,7 +22586,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =

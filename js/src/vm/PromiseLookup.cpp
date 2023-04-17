@@ -501,7 +501,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 ctorProp
 =
@@ -587,7 +587,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 thenProp
 =
@@ -653,7 +653,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 speciesProp
 =
@@ -729,7 +729,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 resolveProp
 =

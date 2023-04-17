@@ -11818,7 +11818,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -11965,7 +11965,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -17947,7 +17947,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -18245,7 +18245,7 @@ return
 false
 ;
 }
-ShapeProperty
+PropertyInfo
 prop
 =
 props

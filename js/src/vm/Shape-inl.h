@@ -894,7 +894,7 @@ Writable
 return
 prop
 .
-shapeProperty
+propertyInfo
 (
 )
 .

@@ -297,7 +297,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 iterProp
 =
@@ -403,7 +403,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 nextProp
 =

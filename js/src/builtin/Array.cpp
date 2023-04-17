@@ -3566,7 +3566,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 lengthProp
 =
@@ -4219,7 +4219,7 @@ writable
 {
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 lengthProp
 =
@@ -20299,7 +20299,7 @@ Disabled
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 ctorProp
 =
@@ -20385,7 +20385,7 @@ return
 }
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 speciesProp
 =

@@ -19142,7 +19142,7 @@ targetEnv
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;

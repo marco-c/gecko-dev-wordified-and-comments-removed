@@ -1210,7 +1210,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
