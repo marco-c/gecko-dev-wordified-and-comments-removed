@@ -39,8 +39,10 @@ aContext
 const
 bool
 aShouldLogStackTrace
-uint32_t
-aFramesToSkip
+const
+void
+*
+aFirstFramePC
 )
 ;
 typedef
