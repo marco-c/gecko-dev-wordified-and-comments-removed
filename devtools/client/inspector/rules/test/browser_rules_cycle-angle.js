@@ -502,6 +502,12 @@ expectedValue
 comment
 )
 {
+await
+wait
+(
+500
+)
+;
 const
 swatch
 =
