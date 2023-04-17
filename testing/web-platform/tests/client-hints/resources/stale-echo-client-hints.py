@@ -94,10 +94,6 @@ ect
         
 b
 "
-sec
--
-ch
--
 lang
 "
         

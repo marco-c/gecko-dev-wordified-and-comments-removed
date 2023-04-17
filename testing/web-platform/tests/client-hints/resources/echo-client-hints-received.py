@@ -380,10 +380,6 @@ ect
 if
 b
 "
-Sec
--
-CH
--
 Lang
 "
 in
@@ -412,10 +408,6 @@ get
 (
 b
 "
-Sec
--
-CH
--
 Lang
 "
 )
