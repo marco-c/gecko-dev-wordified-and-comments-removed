@@ -5882,7 +5882,7 @@ Int32
 LAllocation
 ptr
 =
-useRegisterAtStart
+useRegisterOrConstantAtStart
 (
 base
 )
@@ -6022,7 +6022,7 @@ Int64
 LAllocation
 baseAlloc
 =
-useRegisterAtStart
+useRegisterOrConstantAtStart
 (
 base
 )
@@ -6063,7 +6063,7 @@ return
 LAllocation
 baseAlloc
 =
-useRegisterAtStart
+useRegisterOrConstantAtStart
 (
 base
 )
