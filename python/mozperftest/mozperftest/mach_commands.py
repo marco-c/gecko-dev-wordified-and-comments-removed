@@ -923,11 +923,13 @@ version
             
 if
 args
-[
+.
+get
+(
 "
 verbose
 "
-]
+)
 :
                 
 print
