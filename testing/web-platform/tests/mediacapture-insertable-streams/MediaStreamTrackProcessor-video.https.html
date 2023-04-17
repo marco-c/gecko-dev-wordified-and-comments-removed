@@ -110,7 +110,7 @@ works
 as
 expected
 on
-audio
+video
 MediaStreamTracks
 .
 <
@@ -168,7 +168,7 @@ mediaDevices
 getUserMedia
 (
 {
-audio
+video
 :
 true
 }
@@ -232,7 +232,7 @@ readResult
 .
 value
 instanceof
-AudioData
+VideoFrame
 )
 ;
 readResult
@@ -261,12 +261,12 @@ that
 the
 reader
 of
-an
-audio
+a
+video
 MediaStreamTrackProcessor
 produces
-AudioData
-objects
+video
+frames
 and
 is
 closed
@@ -294,7 +294,7 @@ mediaDevices
 getUserMedia
 (
 {
-audio
+video
 :
 true
 }
@@ -368,7 +368,7 @@ msg
 .
 data
 instanceof
-AudioData
+VideoFrame
 )
 {
 msg
@@ -444,11 +444,11 @@ that
 the
 reader
 of
-an
-audio
+a
+video
 MediaStreamTrackProcessor
 produces
-AudioData
+VideoFrame
 objects
 and
 is
