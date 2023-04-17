@@ -62,7 +62,7 @@ buffer
 kFileCopyBufferSize
 ]
 ;
-IDB_TRY
+QM_TRY
 (
 CollectEach
 (
@@ -76,7 +76,7 @@ snappyInputStream
 buffer
 ]
 {
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -111,7 +111,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 OkIf
 (

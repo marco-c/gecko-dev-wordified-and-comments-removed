@@ -4410,7 +4410,7 @@ PrincipalInfo
 TContentPrincipalInfo
 :
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 principal
@@ -4421,7 +4421,7 @@ principalInfo
 )
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 aOrigin
 QuotaManager

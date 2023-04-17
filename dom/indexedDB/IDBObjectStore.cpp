@@ -445,7 +445,7 @@ IsEmpty
 )
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 indexUpdateInfo
 .
@@ -2698,7 +2698,7 @@ Failed
 return
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 item
@@ -3089,7 +3089,7 @@ SuppressException
 continue
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 item
@@ -3210,7 +3210,7 @@ SuppressException
 return
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 item
@@ -4341,7 +4341,7 @@ move
 updateInfos
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 commonParams
 .
@@ -7394,7 +7394,7 @@ IsString
 )
 )
 {
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 KeyPath
 :
@@ -7444,7 +7444,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 )
 ;
 }
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 KeyPath
 :

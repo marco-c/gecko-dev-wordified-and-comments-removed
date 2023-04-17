@@ -3347,7 +3347,7 @@ aDirectoryLockId
 1
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -3372,7 +3372,7 @@ file
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -3394,7 +3394,7 @@ protocolHandler
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -3501,7 +3501,7 @@ keyClause
 (
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 result
@@ -3639,7 +3639,7 @@ OFF
 "
 _ns
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 .
@@ -3649,7 +3649,7 @@ kBuiltInPragmas
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 .
@@ -3699,7 +3699,7 @@ if
 kSQLiteGrowthIncrement
 )
 {
-IDB_TRY
+QM_TRY
 (
 QM_OR_ELSE_WARN
 (
@@ -3768,7 +3768,7 @@ wal
 "
 _ns
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -3783,7 +3783,7 @@ journalModeWAL
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -3817,7 +3817,7 @@ kMaxWALPages
 0
 )
 {
-IDB_TRY
+QM_TRY
 (
 aConnection
 .
@@ -3862,7 +3862,7 @@ mode
 #
 ifdef
 IDB_MOBILE
-IDB_TRY
+QM_TRY
 (
 aConnection
 .
@@ -3936,7 +3936,7 @@ nsAutoCString
 (
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 connection
@@ -4023,7 +4023,7 @@ mozIStorageConnection
 >
 >
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 connection
@@ -4162,7 +4162,7 @@ PR_MillisecondsToInterval
 )
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 connection
 QM_OR_ELSE_WARN
@@ -4291,7 +4291,7 @@ nsIFile
 aDirectory
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -4309,7 +4309,7 @@ if
 exists
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -4322,7 +4322,7 @@ IsDirectory
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -4426,7 +4426,7 @@ CreateStorageConnection
 DOM
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4440,7 +4440,7 @@ aMaybeKey
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4462,7 +4462,7 @@ MOZ_STORAGE_SERVICE_CONTRACTID
 )
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 connection
@@ -4569,7 +4569,7 @@ if
 connection
 )
 {
-IDB_TRY
+QM_TRY
 (
 aDBFile
 .
@@ -4579,7 +4579,7 @@ false
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -4596,7 +4596,7 @@ if
 existsAsDirectory
 )
 {
-IDB_TRY
+QM_TRY
 (
 aFMDirectory
 .
@@ -4607,7 +4607,7 @@ true
 )
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 connection
 OpenDatabaseAndHandleBusy
@@ -4621,7 +4621,7 @@ aTelemetryId
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 SetDefaultPragmas
 (
@@ -4630,7 +4630,7 @@ connection
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 connection
 -
@@ -4644,7 +4644,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -4657,7 +4657,7 @@ GetSchemaVersion
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -4702,7 +4702,7 @@ set
 }
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -4782,7 +4782,7 @@ if
 sqlitePageSizeOverride
 )
 {
-IDB_TRY
+QM_TRY
 (
 connection
 -
@@ -4807,7 +4807,7 @@ sqlitePageSizeOverride
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 (
 MOZ_TO_RESULT_INVOKE
@@ -4846,7 +4846,7 @@ mapNoDeviceSpaceError
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 SetJournalMode
 (
@@ -4906,7 +4906,7 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
-IDB_TRY
+QM_TRY
 (
 transaction
 .
@@ -4920,7 +4920,7 @@ if
 newDatabase
 )
 {
-IDB_TRY
+QM_TRY
 (
 CreateTables
 (
@@ -4933,7 +4933,7 @@ connection
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -4958,7 +4958,7 @@ kSQLiteSchemaVersion
 }
 #
 endif
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4994,7 +4994,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -5006,7 +5006,7 @@ aName
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -5018,7 +5018,7 @@ aOrigin
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -5031,7 +5031,7 @@ Execute
 }
 else
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 vacuumNeeded
 MaybeUpgradeSchema
@@ -5045,7 +5045,7 @@ aOrigin
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -5068,7 +5068,7 @@ if
 newDatabase
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -5138,7 +5138,7 @@ kSQLitePageSizeOverride
 newDatabase
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5157,7 +5157,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -5197,7 +5197,7 @@ pageSize
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 connection
 -
@@ -5215,7 +5215,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5234,7 +5234,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5262,7 +5262,7 @@ delete
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 connection
 -
@@ -5322,7 +5322,7 @@ if
 vacuumNeeded
 )
 {
-IDB_TRY
+QM_TRY
 (
 connection
 -
@@ -5351,7 +5351,7 @@ if
 journalModeSet
 )
 {
-IDB_TRY
+QM_TRY
 (
 connection
 -
@@ -5371,7 +5371,7 @@ _ns
 )
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -5403,7 +5403,7 @@ MOZ_ASSERT
 vacuumTime
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5439,7 +5439,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 vacuumTimeStmt
 -
@@ -5451,7 +5451,7 @@ vacuumTime
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 vacuumTimeStmt
 -
@@ -5463,7 +5463,7 @@ fileSize
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 vacuumTimeStmt
 -
@@ -5481,7 +5481,7 @@ if
 journalModeSet
 )
 {
-IDB_TRY
+QM_TRY
 (
 SetJournalMode
 (
@@ -5526,7 +5526,7 @@ IsEmpty
 )
 )
 ;
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 QM_NewLocalFile
 (
@@ -5599,7 +5599,7 @@ GetStorageConnection
 DOM
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -5612,7 +5612,7 @@ Exists
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -5625,7 +5625,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 IDB_REPORT_INTERNAL_ERR_LAMBDA
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5639,7 +5639,7 @@ aMaybeKey
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5661,7 +5661,7 @@ MOZ_STORAGE_SERVICE_CONTRACTID
 )
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 nsCOMPtr
 <
@@ -5678,7 +5678,7 @@ aTelemetryId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 SetDefaultPragmas
 (
@@ -5687,7 +5687,7 @@ connection
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 SetJournalMode
 (
@@ -5795,7 +5795,7 @@ GetFileForPath
 aDatabaseFilePath
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -22392,7 +22392,7 @@ MOZ_ASSERT
 inputStream
 )
 ;
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -22715,7 +22715,7 @@ GetCheckedDirectory
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -22734,7 +22734,7 @@ SerializedStructuredCloneFile
 >
 serializedStructuredCloneFiles
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -22756,7 +22756,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 TransformIfAbortOnErr
 (
@@ -22861,7 +22861,7 @@ directory
 fileId
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -22944,7 +22944,7 @@ Id
 IPCBlob
 ipcBlob
 ;
-IDB_TRY
+QM_TRY
 (
 IPCBlobUtils
 :
@@ -23042,7 +23042,7 @@ FileInfoPtr
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -23334,7 +23334,7 @@ IsOnBackgroundThread
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -23365,7 +23365,7 @@ if
 aQuotaManager
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 Maybe
@@ -23455,7 +23455,7 @@ return
 NS_OK
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -23581,7 +23581,7 @@ IsEmpty
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -23662,7 +23662,7 @@ IsTemporaryStorageInitialized
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -23676,7 +23676,7 @@ aFilename
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -23751,7 +23751,7 @@ IsEmpty
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -23838,7 +23838,7 @@ MOZ_ASSERT
 exists
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aMarkerFile
 -
@@ -23881,7 +23881,7 @@ if
 aQuotaManager
 )
 {
-IDB_TRY
+QM_TRY
 (
 aFileManagerDirectory
 .
@@ -23897,7 +23897,7 @@ Ok
 }
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 fileUsage
@@ -24107,7 +24107,7 @@ RemoveDatabaseFilesAndDirectory
 DOM
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 markerFile
@@ -24118,7 +24118,7 @@ aDatabaseFilenameBase
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 DeleteFile
 (
@@ -24136,7 +24136,7 @@ Yes
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 DeleteFile
 (
@@ -24154,7 +24154,7 @@ Yes
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 DeleteFile
 (
@@ -24172,7 +24172,7 @@ Yes
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 DeleteFile
 (
@@ -24190,7 +24190,7 @@ Yes
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -24205,7 +24205,7 @@ kFileManagerDirectoryNameSuffix
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -24223,7 +24223,7 @@ if
 exists
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -24236,7 +24236,7 @@ IsDirectory
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -24245,7 +24245,7 @@ isDirectory
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
-IDB_TRY
+QM_TRY
 (
 DeleteFileManagerDirectory
 (
@@ -24293,7 +24293,7 @@ aDatabaseName
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 RemoveMarkerFile
 (
@@ -25772,7 +25772,7 @@ const
 aOptOutSortKey
 )
 {
-IDB_TRY
+QM_TRY
 (
 GetCommonKeys
 (
@@ -25813,7 +25813,7 @@ IsUnset
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 mPosition
 .
@@ -26012,7 +26012,7 @@ IsUnset
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 CommonPopulateResponseHelper
 :
@@ -26023,7 +26023,7 @@ aStmt
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 mLocaleAwarePosition
 .
@@ -26034,7 +26034,7 @@ aStmt
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 mObjectStorePosition
 .
@@ -26290,7 +26290,7 @@ StatementHasIndexKeyBindings
 :
 0
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 cloneInfo
@@ -26870,7 +26870,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-IDB_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -27136,7 +27136,7 @@ self
 =
 this
 ;
-IDB_TRY
+QM_TRY
 (
 SchedulerGroup
 :
@@ -27215,7 +27215,7 @@ cx
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -27261,7 +27261,7 @@ value
 cx
 )
 ;
-IDB_TRY
+QM_TRY
 (
 DeserializeIndexValue
 (
@@ -27307,7 +27307,7 @@ mUpdateInfoArray
 errorResult
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -27987,7 +27987,7 @@ if
 quotaClient
 )
 {
-IDB_TRY
+QM_TRY
 (
 quotaClient
 -
@@ -28132,7 +28132,7 @@ MOZ_ASSERT
 mInWriteTransaction
 )
 ;
-IDB_TRY
+QM_TRY
 (
 ExecuteCachedStatement
 (
@@ -28193,7 +28193,7 @@ BeginWriteTransaction
 DOM
 )
 ;
-IDB_TRY
+QM_TRY
 (
 ExecuteCachedStatement
 (
@@ -28235,7 +28235,7 @@ this
 mFileManager
 )
 ;
-IDB_TRY
+QM_TRY
 (
 MutableStorageConnection
 (
@@ -28263,7 +28263,7 @@ function
 )
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -28461,7 +28461,7 @@ CommitWriteTransaction
 DOM
 )
 ;
-IDB_TRY
+QM_TRY
 (
 ExecuteCachedStatement
 (
@@ -28726,7 +28726,7 @@ StartSavepoint
 DOM
 )
 ;
-IDB_TRY
+QM_TRY
 (
 ExecuteCachedStatement
 (
@@ -28801,7 +28801,7 @@ ReleaseSavepoint
 DOM
 )
 ;
-IDB_TRY
+QM_TRY
 (
 ExecuteCachedStatement
 (
@@ -28899,7 +28899,7 @@ RollbackSavepoint
 (
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -29059,7 +29059,7 @@ AppendLiteral
 "
 )
 ;
-IDB_TRY
+QM_TRY
 (
 ExecuteCachedStatement
 (
@@ -29123,7 +29123,7 @@ this
 freelistStmt
 ]
 {
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 GetFreelistCount
 (
@@ -29150,7 +29150,7 @@ aNeedsCheckpoint
 freelistCount
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 rollbackStmt
 GetCachedStatement
@@ -29164,7 +29164,7 @@ _ns
 QM_VOID
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 beginStmt
 GetCachedStatement
@@ -29214,7 +29214,7 @@ freelistCount
 aNeedsCheckpoint
 ]
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -29417,7 +29417,7 @@ return
 false
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -29460,7 +29460,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -29477,7 +29477,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -29498,7 +29498,7 @@ if
 aNeedsCheckpoint
 )
 {
-IDB_TRY
+QM_TRY
 (
 CheckpointInternal
 (
@@ -29510,7 +29510,7 @@ Restart
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 beginImmediateStmt
 .
@@ -29576,7 +29576,7 @@ false
 ;
 }
 ;
-IDB_TRY
+QM_TRY
 (
 CollectWhile
 (
@@ -29644,7 +29644,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 incrementalVacuumStmt
 .
@@ -29662,7 +29662,7 @@ freedSomePages
 =
 true
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 aFreelistCount
 GetFreelistCount
@@ -29725,7 +29725,7 @@ if
 freedSomePages
 )
 {
-IDB_TRY
+QM_TRY
 (
 commitStmt
 .
@@ -29815,7 +29815,7 @@ if
 aCachedStatement
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 aCachedStatement
 GetCachedStatement
@@ -29840,7 +29840,7 @@ Borrow
 (
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 const
 DebugOnly
@@ -29862,7 +29862,7 @@ MOZ_ASSERT
 hasResult
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -29997,7 +29997,7 @@ MOZ_ASSERT
 mJournalQuotaObject
 )
 ;
-IDB_TRY
+QM_TRY
 (
 MutableStorageConnection
 (
@@ -30121,7 +30121,7 @@ EnableQuotaCheck
 (
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -30139,7 +30139,7 @@ Path
 QM_VOID
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -30220,7 +30220,7 @@ IsEmpty
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -30232,7 +30232,7 @@ aPath
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -30250,7 +30250,7 @@ if
 exists
 )
 {
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -30567,7 +30567,7 @@ MOZ_ASSERT
 mDEBUGTransaction
 )
 ;
-IDB_TRY
+QM_TRY
 (
 connection
 -
@@ -30623,7 +30623,7 @@ MOZ_ASSERT
 mDEBUGTransaction
 )
 ;
-IDB_TRY
+QM_TRY
 (
 mConnection
 -
@@ -30854,7 +30854,7 @@ DOM
 )
 ;
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -30867,7 +30867,7 @@ Borrow
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedUpdateStatement
 -
@@ -30879,7 +30879,7 @@ aDelta
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedUpdateStatement
 -
@@ -30891,7 +30891,7 @@ aId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedUpdateStatement
 -
@@ -30902,7 +30902,7 @@ Execute
 )
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -30927,7 +30927,7 @@ rows
 0
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -30953,7 +30953,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -30998,7 +30998,7 @@ Ok
 }
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -31011,7 +31011,7 @@ Borrow
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedInsertStatement
 -
@@ -31023,7 +31023,7 @@ aId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedInsertStatement
 -
@@ -31035,7 +31035,7 @@ aDelta
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedInsertStatement
 -
@@ -31059,7 +31059,7 @@ Ok
 ;
 }
 ;
-IDB_TRY
+QM_TRY
 (
 CollectEachInRange
 (
@@ -31102,7 +31102,7 @@ if
 delta
 )
 {
-IDB_TRY
+QM_TRY
 (
 update
 (
@@ -31125,7 +31125,7 @@ Ok
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 CreateJournals
 (
@@ -31563,7 +31563,7 @@ ProcessValue
 DOM
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -31592,7 +31592,7 @@ return
 NS_OK
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -31607,7 +31607,7 @@ aIndex
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -31789,7 +31789,7 @@ GetJournalDirectory
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -31823,7 +31823,7 @@ journalDirectory
 id
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -31832,7 +31832,7 @@ file
 NS_ERROR_FAILURE
 )
 ;
-IDB_TRY
+QM_TRY
 (
 file
 -
@@ -31915,7 +31915,7 @@ GetJournalDirectory
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -31949,7 +31949,7 @@ journalDirectory
 journal
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -32028,7 +32028,7 @@ DOM
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 uint32_t
@@ -32050,7 +32050,7 @@ numEntries
 2
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -32065,7 +32065,7 @@ GetTypeOfIndex
 QM_ASSERT_UNREACHABLE
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -32106,7 +32106,7 @@ VALUE_TYPE_NULL
 }
 #
 endif
-IDB_TRY
+QM_TRY
 (
 ProcessValue
 (
@@ -32119,7 +32119,7 @@ Decrement
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 ProcessValue
 (
@@ -32743,7 +32743,7 @@ dbInfo
 mDEBUGConnectionThread
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 MovingNotNull
 <
@@ -32801,7 +32801,7 @@ GetFileManagerPtr
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 connection
 -
@@ -40394,7 +40394,7 @@ return
 true
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -40575,7 +40575,7 @@ HasStorageConnection
 )
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 mConnection
 gConnectionPool
@@ -42719,7 +42719,7 @@ return
 nullptr
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 objectStoreMetadatas
@@ -43619,7 +43619,7 @@ Mode
 ReadOnly
 )
 {
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -52570,7 +52570,7 @@ this
 mDatabase
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 serializedInfo
 -
@@ -53026,7 +53026,7 @@ IsUnset
 )
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 position
@@ -53076,7 +53076,7 @@ IsLocaleAware
 )
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 localeAwarePosition
 aCurrentKey
@@ -53348,7 +53348,7 @@ aDirectory
 )
 ;
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -53367,7 +53367,7 @@ if
 existsAsDirectory
 )
 {
-IDB_TRY
+QM_TRY
 (
 aDirectory
 -
@@ -53383,7 +53383,7 @@ DIRECTORY_TYPE
 )
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 path
@@ -53409,7 +53409,7 @@ path
 )
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -53423,7 +53423,7 @@ kJournalDirectoryName
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -53442,7 +53442,7 @@ Unused
 existsAsDirectory
 ;
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 path
@@ -53468,7 +53468,7 @@ path
 )
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -53493,7 +53493,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 CollectWhileHasResult
 (
@@ -53515,7 +53515,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -53529,7 +53529,7 @@ GetInt64
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -53785,7 +53785,7 @@ GetFileForPath
 mJournalDirectoryPath
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -53794,7 +53794,7 @@ journalDirectory
 nullptr
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -53813,7 +53813,7 @@ if
 exists
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -53827,7 +53827,7 @@ IsDirectory
 nullptr
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -53839,7 +53839,7 @@ nullptr
 }
 else
 {
-IDB_TRY
+QM_TRY
 (
 journalDirectory
 -
@@ -53888,7 +53888,7 @@ aId
 0
 )
 ;
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 CloneFileAndAppend
 (
@@ -54022,7 +54022,7 @@ AssertIsOnIOThread
 )
 ;
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -54045,7 +54045,7 @@ return
 NS_OK
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -54058,7 +54058,7 @@ IsDirectory
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -54068,7 +54068,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -54081,7 +54081,7 @@ kJournalDirectoryName
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -54099,7 +54099,7 @@ if
 exists
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -54112,7 +54112,7 @@ IsDirectory
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -54126,7 +54126,7 @@ hasJournals
 =
 false
 ;
-IDB_TRY
+QM_TRY
 (
 CollectEachFile
 (
@@ -54153,7 +54153,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -54213,7 +54213,7 @@ if
 hasJournals
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 const
 NotNull
@@ -54252,7 +54252,7 @@ get
 false
 )
 ;
-IDB_TRY
+QM_TRY
 (
 transaction
 .
@@ -54260,7 +54260,7 @@ Start
 (
 )
 )
-IDB_TRY
+QM_TRY
 (
 connection
 -
@@ -54280,7 +54280,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -54320,7 +54320,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -54334,7 +54334,7 @@ GetPath
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -54346,7 +54346,7 @@ path
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 CollectWhileHasResult
 (
@@ -54374,7 +54374,7 @@ nsresult
 nsString
 name
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -54426,7 +54426,7 @@ if
 flag
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -54467,7 +54467,7 @@ file
 ;
 }
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -54517,7 +54517,7 @@ Ok
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 connection
 -
@@ -54534,7 +54534,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 transaction
 .
@@ -54573,7 +54573,7 @@ MOZ_ASSERT
 aDirectory
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -54601,7 +54601,7 @@ FileUsageType
 FileUsageType
 usage
 ;
-IDB_TRY
+QM_TRY
 (
 CollectEachFile
 (
@@ -54628,7 +54628,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -54677,7 +54677,7 @@ rv
 )
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -54836,7 +54836,7 @@ GetDirectory
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -54853,7 +54853,7 @@ GetJournalDirectory
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -54875,7 +54875,7 @@ directory
 aId
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -54897,7 +54897,7 @@ journalDirectory
 aId
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -54956,7 +54956,7 @@ EnforcingQuota
 quotaManager
 )
 ;
-IDB_TRY
+QM_TRY
 (
 DeleteFile
 (
@@ -54975,7 +54975,7 @@ No
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aJournalFile
 .
@@ -55149,7 +55149,7 @@ Cancel
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 mDeleteTimer
 -
@@ -55207,7 +55207,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 mDeleteTimer
 -
@@ -55398,7 +55398,7 @@ MOZ_ASSERT
 aDirectory
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 (
 const
@@ -55420,7 +55420,7 @@ false
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 CollectEachInRange
 (
@@ -55478,7 +55478,7 @@ Ok
 }
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -55532,7 +55532,7 @@ u
 "
 _ns
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -55568,7 +55568,7 @@ Ok
 }
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -55608,7 +55608,7 @@ MOZ_ASSERT
 isDirectory
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -55622,7 +55622,7 @@ subdirNameWithSuffix
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -55661,7 +55661,7 @@ get
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 subdir
 -
@@ -55678,7 +55678,7 @@ Ok
 }
 ;
 }
-IDB_TRY
+QM_TRY
 (
 subdir
 -
@@ -55723,7 +55723,7 @@ MOZ_ASSERT
 aDirectory
 )
 ;
-IDB_TRY
+QM_TRY
 (
 CollectEachFile
 (
@@ -55748,7 +55748,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -55781,7 +55781,7 @@ nsIFileKind
 ExistsAsFile
 :
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -55820,7 +55820,7 @@ file
 "
 )
 ;
-IDB_TRY
+QM_TRY
 (
 file
 -
@@ -55883,7 +55883,7 @@ AssertIsOnIOThread
 (
 )
 ;
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -55956,7 +55956,7 @@ AssertIsOnIOThread
 (
 )
 ;
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -55998,7 +55998,7 @@ AssertIsOnIOThread
 (
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 nsCOMPtr
@@ -56016,7 +56016,7 @@ mOrigin
 )
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 (
 auto
@@ -56045,7 +56045,7 @@ if
 aInitializing
 )
 {
-IDB_TRY
+QM_TRY
 (
 CollectEachInRange
 (
@@ -56082,7 +56082,7 @@ nsresult
 nsDependentSubstring
 subdirNameBase
 ;
-IDB_TRY
+QM_TRY
 (
 QM_OR_ELSE_WARN
 (
@@ -56094,7 +56094,7 @@ subdirName
 subdirNameBase
 ]
 {
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 OkIf
 (
@@ -56130,7 +56130,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 DeleteFilesNoQuota
 (
@@ -56166,7 +56166,7 @@ subdirNameBase
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 RemoveDatabaseFilesAndDirectory
 (
@@ -56247,7 +56247,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 DeleteFilesNoQuota
 (
@@ -56298,7 +56298,7 @@ aCanceled
 break
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -56314,7 +56314,7 @@ kFileManagerDirectoryNameSuffix
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -56335,7 +56335,7 @@ if
 aInitializing
 )
 {
-IDB_TRY
+QM_TRY
 (
 FileManager
 :
@@ -56363,7 +56363,7 @@ aUsageInfo
 )
 {
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -56401,7 +56401,7 @@ fileSize
 ;
 }
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -56417,7 +56417,7 @@ kSQLiteWALSuffix
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -56496,7 +56496,7 @@ walFileSize
 ;
 }
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -57508,7 +57508,7 @@ fail
 "
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -57529,7 +57529,7 @@ MOZ_ASSERT
 directory
 )
 ;
-IDB_TRY
+QM_TRY
 (
 directory
 -
@@ -57590,7 +57590,7 @@ ObsoleteFilenames
 >
 result
 ;
-IDB_TRY
+QM_TRY
 (
 CollectEachFileAtomicCancelable
 (
@@ -57617,7 +57617,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -57631,7 +57631,7 @@ GetLeafName
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -58321,7 +58321,7 @@ mState
 =
 State_DatabaseWorkOpen
 ;
-IDB_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -59044,7 +59044,7 @@ State
 :
 DirectoryWorkOpen
 ;
-IDB_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -59128,7 +59128,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-IDB_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -59147,7 +59147,7 @@ initTemporaryStorageFailed
 quotaManager
 ]
 {
-IDB_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -59182,7 +59182,7 @@ GetStoragePath
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -59192,7 +59192,7 @@ NS_ERROR_FAILURE
 )
 ;
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -59217,7 +59217,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 }
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -59230,7 +59230,7 @@ IsDirectory
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -59356,7 +59356,7 @@ PersistenceTypeToString
 persistenceType
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -59374,7 +59374,7 @@ persistenceTypeString
 )
 ;
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -59396,7 +59396,7 @@ exists
 continue
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -59422,7 +59422,7 @@ continue
 ;
 }
 }
-IDB_TRY
+QM_TRY
 (
 CollectEachFile
 (
@@ -59479,7 +59479,7 @@ NS_ERROR_ABORT
 )
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -59512,7 +59512,7 @@ nsIFileKind
 ExistsAsDirectory
 :
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -59554,7 +59554,7 @@ if
 persistent
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 const
 DebugOnly
@@ -59600,7 +59600,7 @@ created
 )
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -59614,7 +59614,7 @@ idbDirName
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -59639,7 +59639,7 @@ Ok
 }
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -59652,7 +59652,7 @@ IsDirectory
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -59669,7 +59669,7 @@ nsString
 >
 databasePaths
 ;
-IDB_TRY
+QM_TRY
 (
 CollectEachFile
 (
@@ -59722,7 +59722,7 @@ NS_ERROR_ABORT
 )
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 idbFilePath
@@ -59750,7 +59750,7 @@ Ok
 }
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -60534,7 +60534,7 @@ State
 :
 Initial
 :
-IDB_TRY
+QM_TRY
 (
 Start
 (
@@ -60551,7 +60551,7 @@ State
 :
 CreateIndexedDatabaseManager
 :
-IDB_TRY
+QM_TRY
 (
 CreateIndexedDatabaseManager
 (
@@ -60568,7 +60568,7 @@ State
 :
 IndexedDatabaseManagerOpen
 :
-IDB_TRY
+QM_TRY
 (
 OpenDirectory
 (
@@ -60585,7 +60585,7 @@ State
 :
 DirectoryWorkOpen
 :
-IDB_TRY
+QM_TRY
 (
 DirectoryWork
 (
@@ -60602,7 +60602,7 @@ State
 :
 BeginDatabaseMaintenance
 :
-IDB_TRY
+QM_TRY
 (
 BeginDatabaseMaintenance
 (
@@ -61069,7 +61069,7 @@ MOZ_ASSERT
 databaseFile
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 const
 NotNull
@@ -61320,7 +61320,7 @@ NS_ERROR_ABORT
 ;
 }
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -61341,7 +61341,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -61357,7 +61357,7 @@ GetString
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -61390,7 +61390,7 @@ false
 ;
 }
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -61411,7 +61411,7 @@ int32_t
 nsresult
 >
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -61429,7 +61429,7 @@ _ns
 )
 )
 ;
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -61452,7 +61452,7 @@ if
 foreignKeysWereEnabled
 )
 {
-IDB_TRY
+QM_TRY
 (
 aConnection
 .
@@ -61470,7 +61470,7 @@ _ns
 )
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -61500,7 +61500,7 @@ if
 foreignKeysWereEnabled
 )
 {
-IDB_TRY
+QM_TRY
 (
 aConnection
 .
@@ -61610,7 +61610,7 @@ return
 NS_ERROR_ABORT
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -61654,7 +61654,7 @@ aConnection
 false
 )
 ;
-IDB_TRY
+QM_TRY
 (
 transaction
 .
@@ -61662,7 +61662,7 @@ Start
 (
 )
 )
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -61685,7 +61685,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 PRTime
@@ -61700,7 +61700,7 @@ GetInt64
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -61806,7 +61806,7 @@ return
 NS_OK
 ;
 }
-IDB_TRY
+QM_TRY
 (
 aConnection
 .
@@ -61838,7 +61838,7 @@ _ns
 )
 ;
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -61910,7 +61910,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -61962,7 +61962,7 @@ NS_OK
 ;
 }
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -62013,7 +62013,7 @@ NS_OK
 ;
 }
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -62031,7 +62031,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -62075,7 +62075,7 @@ NS_OK
 }
 }
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -62107,7 +62107,7 @@ _ns
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -62317,7 +62317,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 aConnection
 .
@@ -62346,7 +62346,7 @@ vacuumTime
 0
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -62366,7 +62366,7 @@ fileSize
 0
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -62402,7 +62402,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -62414,7 +62414,7 @@ vacuumTime
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -62426,7 +62426,7 @@ fileSize
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -63235,7 +63235,7 @@ Key
 >
 )
 {
-IDB_TRY
+QM_TRY
 (
 aKeyTransformation
 (
@@ -63252,7 +63252,7 @@ aParameterName
 }
 else
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -63264,7 +63264,7 @@ aKey
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 transformedKey
 .
@@ -63319,7 +63319,7 @@ MOZ_ASSERT
 aStatement
 )
 ;
-IDB_TRY
+QM_TRY
 (
 MaybeBindKeyToStatement
 (
@@ -63347,7 +63347,7 @@ return
 NS_OK
 ;
 }
-IDB_TRY
+QM_TRY
 (
 MaybeBindKeyToStatement
 (
@@ -63984,7 +63984,7 @@ insertUniqueStmt
 :
 insertStmt
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -63997,7 +63997,7 @@ Borrow
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedStmt
 -
@@ -64011,7 +64011,7 @@ mIndexId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 info
 .
@@ -64026,7 +64026,7 @@ kStmtParamNameValue
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 info
 .
@@ -64041,7 +64041,7 @@ kStmtParamNameValueLocale
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedStmt
 -
@@ -64053,7 +64053,7 @@ aObjectStoreId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aObjectStoreKey
 .
@@ -64387,7 +64387,7 @@ deleteUniqueStmt
 :
 deleteStmt
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -64400,7 +64400,7 @@ Borrow
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedStmt
 -
@@ -64414,7 +64414,7 @@ mIndexId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 indexValue
 .
@@ -64437,7 +64437,7 @@ indexValue
 mUnique
 )
 {
-IDB_TRY
+QM_TRY
 (
 aObjectStoreKey
 .
@@ -64451,7 +64451,7 @@ kStmtParamNameObjectDataKey
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 borrowedStmt
 -
@@ -64508,7 +64508,7 @@ aObjectStoreId
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -64595,7 +64595,7 @@ isOnly
 Key
 objectStoreKey
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -64629,7 +64629,7 @@ if
 singleRowOnly
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 selectStmt
@@ -64685,7 +64685,7 @@ lower
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 objectStoreKey
 .
@@ -64712,7 +64712,7 @@ aKeyRange
 kColumnNameKey
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 selectStmt
@@ -64759,7 +64759,7 @@ isSome
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 BindKeyRangeToStatement
 (
@@ -64784,7 +64784,7 @@ selectStmt
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 selectStmt
 -
@@ -64804,7 +64804,7 @@ resultCountDEBUG
 =
 0
 ;
-IDB_TRY
+QM_TRY
 (
 CollectWhileHasResult
 (
@@ -64884,7 +64884,7 @@ if
 singleRowOnly
 )
 {
-IDB_TRY
+QM_TRY
 (
 objectStoreKey
 .
@@ -64903,7 +64903,7 @@ ClearAndRetainStorage
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 ReadCompressedIndexDataValues
 (
@@ -64913,7 +64913,7 @@ indexValues
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 DeleteIndexDataTableRows
 (
@@ -64923,7 +64923,7 @@ indexValues
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -64936,7 +64936,7 @@ Borrow
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedDeleteStmt
 -
@@ -64948,7 +64948,7 @@ aObjectStoreId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 objectStoreKey
 .
@@ -64961,7 +64961,7 @@ kStmtParamNameKey
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedDeleteStmt
 -
@@ -65055,7 +65055,7 @@ UpdateIndexValues
 DOM
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 (
 auto
@@ -65086,7 +65086,7 @@ get
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -65154,7 +65154,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 indexDataValues
 ?
@@ -65179,7 +65179,7 @@ kStmtParamNameIndexDataValues
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 updateStmt
 .
@@ -65190,7 +65190,7 @@ aObjectStoreId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aObjectStoreKey
 .
@@ -65244,7 +65244,7 @@ MOZ_ASSERT
 aObjectStoreId
 )
 ;
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 aConnection
 .
@@ -65291,7 +65291,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -65471,7 +65471,7 @@ MOZ_ASSERT
 mConnection
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 const
 DebugOnly
@@ -65866,7 +65866,7 @@ if
 aReadOnly
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -65909,7 +65909,7 @@ get
 }
 else
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -67066,7 +67066,7 @@ return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -67583,7 +67583,7 @@ return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -67916,7 +67916,7 @@ if
 delayed
 )
 {
-IDB_TRY
+QM_TRY
 (
 DatabaseOpen
 (
@@ -68002,7 +68002,7 @@ State
 :
 DatabaseWorkOpen
 ;
-IDB_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -68684,7 +68684,7 @@ PrincipalInfo
 TContentPrincipalInfo
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -68696,7 +68696,7 @@ principalInfo
 )
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 principalMetadata
@@ -68709,7 +68709,7 @@ principal
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -69196,7 +69196,7 @@ Get
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 OpenDirectory
 (
@@ -69249,7 +69249,7 @@ State
 QuotaManagerPending
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -69263,7 +69263,7 @@ Get
 NS_ERROR_FAILURE
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OpenDirectory
 (
@@ -69376,7 +69376,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 mDatabaseFilePath
 (
@@ -69398,7 +69398,7 @@ nsString
 nsresult
 >
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -69416,7 +69416,7 @@ mOrigin
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 dbFile
 -
@@ -69430,7 +69430,7 @@ IDB_DIRECTORY_NAME
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 dbFile
 -
@@ -69454,7 +69454,7 @@ kSQLiteSuffix
 )
 )
 ;
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE_TYPED
 (
@@ -69660,7 +69660,7 @@ State
 :
 Initial
 :
-IDB_TRY
+QM_TRY
 (
 Open
 (
@@ -69677,7 +69677,7 @@ State
 :
 PermissionChallenge
 :
-IDB_TRY
+QM_TRY
 (
 ChallengePermission
 (
@@ -69694,7 +69694,7 @@ State
 :
 PermissionRetry
 :
-IDB_TRY
+QM_TRY
 (
 RetryCheckPermission
 (
@@ -69711,7 +69711,7 @@ State
 :
 FinishOpen
 :
-IDB_TRY
+QM_TRY
 (
 FinishOpen
 (
@@ -69728,7 +69728,7 @@ State
 :
 QuotaManagerPending
 :
-IDB_TRY
+QM_TRY
 (
 QuotaManagerOpen
 (
@@ -69745,7 +69745,7 @@ State
 :
 DatabaseOpenPending
 :
-IDB_TRY
+QM_TRY
 (
 DatabaseOpen
 (
@@ -69762,7 +69762,7 @@ State
 :
 DatabaseWorkOpen
 :
-IDB_TRY
+QM_TRY
 (
 DoDatabaseWork
 (
@@ -69779,7 +69779,7 @@ State
 :
 BeginVersionChange
 :
-IDB_TRY
+QM_TRY
 (
 BeginVersionChange
 (
@@ -69796,7 +69796,7 @@ State
 :
 WaitingForTransactionsToComplete
 :
-IDB_TRY
+QM_TRY
 (
 DispatchToWorkThread
 (
@@ -69898,7 +69898,7 @@ Id
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 DirectoryOpen
 (
@@ -70276,7 +70276,7 @@ DoDatabaseWork
 DOM
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -70354,7 +70354,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-IDB_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -70364,7 +70364,7 @@ EnsureStorageIsInitialized
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -70408,7 +70408,7 @@ persistenceType
 PERSISTENCE_TYPE_PERSISTENT
 )
 {
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 quotaManager
 -
@@ -70420,7 +70420,7 @@ mOriginMetadata
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -70430,7 +70430,7 @@ EnsureTemporaryStorageIsInitialized
 )
 )
 ;
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 quotaManager
 -
@@ -70467,7 +70467,7 @@ first
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 dbDirectory
 -
@@ -70482,7 +70482,7 @@ IDB_DIRECTORY_NAME
 )
 ;
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -70501,7 +70501,7 @@ if
 exists
 )
 {
-IDB_TRY
+QM_TRY
 (
 dbDirectory
 -
@@ -70558,7 +70558,7 @@ GetDatabaseFilenameBase
 databaseName
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -70574,7 +70574,7 @@ databaseFilenameBase
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -70592,7 +70592,7 @@ if
 exists
 )
 {
-IDB_TRY
+QM_TRY
 (
 RemoveDatabaseFilesAndDirectory
 (
@@ -70611,7 +70611,7 @@ databaseName
 )
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -70638,7 +70638,7 @@ dbFile
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -70663,7 +70663,7 @@ mDatabaseFilePath
 }
 #
 endif
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -70734,7 +70734,7 @@ key
 )
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 NotNull
 <
@@ -70763,7 +70763,7 @@ maybeKey
 AutoSetProgressHandler
 asph
 ;
-IDB_TRY
+QM_TRY
 (
 asph
 .
@@ -70775,7 +70775,7 @@ this
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 LoadDatabaseInformation
 (
@@ -70843,7 +70843,7 @@ version
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -70862,7 +70862,7 @@ mRequestedVersion
 NS_ERROR_DOM_INDEXEDDB_VERSION_ERR
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 mFileManager
 (
@@ -70946,7 +70946,7 @@ databaseName
 mEnforcingQuota
 )
 ;
-IDB_TRY
+QM_TRY
 (
 fileManager
 -
@@ -71023,7 +71023,7 @@ State
 :
 BeginVersionChange
 ;
-IDB_TRY
+QM_TRY
 (
 mOwningEventTarget
 -
@@ -71060,7 +71060,7 @@ mMetadata
 )
 ;
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -71087,7 +71087,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71096,7 +71096,7 @@ stmt
 NS_ERROR_FILE_CORRUPTED
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -71111,7 +71111,7 @@ GetString
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71131,7 +71131,7 @@ databaseName
 NS_ERROR_FILE_CORRUPTED
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -71146,7 +71146,7 @@ GetUTF8String
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71164,7 +71164,7 @@ origin
 NS_ERROR_FILE_CORRUPTED
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -71202,7 +71202,7 @@ mMetadata
 >
 mObjectStores
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -71228,7 +71228,7 @@ IndexOrObjectStoreId
 nsresult
 >
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -71262,7 +71262,7 @@ lastObjectStoreId
 =
 0
 ;
-IDB_TRY
+QM_TRY
 (
 CollectWhileHasResult
 (
@@ -71313,7 +71313,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 IndexOrObjectStoreId
@@ -71340,7 +71340,7 @@ emplace
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71354,7 +71354,7 @@ NS_ERROR_FILE_CORRUPTED
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71376,7 +71376,7 @@ NS_ERROR_FILE_CORRUPTED
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71401,7 +71401,7 @@ NS_ERROR_OUT_OF_MEMORY
 nsString
 name
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -71425,7 +71425,7 @@ emplace
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71447,7 +71447,7 @@ NS_ERROR_FILE_CORRUPTED
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71494,7 +71494,7 @@ move
 name
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -71547,7 +71547,7 @@ VALUE_TYPE_TEXT
 nsString
 keyPathSerialization
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -71572,7 +71572,7 @@ DeserializeFromString
 keyPathSerialization
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71593,7 +71593,7 @@ NS_ERROR_FILE_CORRUPTED
 )
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -71617,7 +71617,7 @@ autoIncrement
 !
 nextAutoIncrementId
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71685,7 +71685,7 @@ lastObjectStoreId
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -71711,7 +71711,7 @@ IndexOrObjectStoreId
 nsresult
 >
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -71755,7 +71755,7 @@ lastIndexId
 =
 0
 ;
-IDB_TRY
+QM_TRY
 (
 CollectWhileHasResult
 (
@@ -71808,7 +71808,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 IndexOrObjectStoreId
@@ -71832,7 +71832,7 @@ Lookup
 objectStoreId
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71871,7 +71871,7 @@ objectStoreId
 IndexOrObjectStoreId
 indexId
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -71896,7 +71896,7 @@ emplace
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71910,7 +71910,7 @@ NS_ERROR_FILE_CORRUPTED
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71932,7 +71932,7 @@ NS_ERROR_FILE_CORRUPTED
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -71957,7 +71957,7 @@ NS_ERROR_OUT_OF_MEMORY
 nsString
 name
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -71998,7 +71998,7 @@ emplace
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -72020,7 +72020,7 @@ NS_ERROR_FILE_CORRUPTED
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -72118,7 +72118,7 @@ endif
 nsString
 keyPathSerialization
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -72146,7 +72146,7 @@ DeserializeFromString
 keyPathSerialization
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -72172,7 +72172,7 @@ NS_ERROR_FILE_CORRUPTED
 int32_t
 scratch
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -72197,7 +72197,7 @@ unique
 !
 scratch
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -72239,7 +72239,7 @@ if
 localeAware
 )
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -72257,7 +72257,7 @@ locale
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -72348,7 +72348,7 @@ get
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 UpdateLocaleAwareIndex
 (
@@ -72363,7 +72363,7 @@ systemLocale
 ;
 }
 }
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -72423,7 +72423,7 @@ lastIndexId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -72436,7 +72436,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 IDB_REPORT_INTERNAL_ERR_LAMBDA
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -72533,7 +72533,7 @@ index_id
 "
 _ns
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -72551,7 +72551,7 @@ readQuery
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 readStmt
 -
@@ -72567,7 +72567,7 @@ id
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 CollectWhileHasResult
 (
@@ -72614,7 +72614,7 @@ if
 writeStmt
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 writeStmt
 MOZ_TO_RESULT_INVOKE_TYPED
@@ -72681,7 +72681,7 @@ scoper
 writeStmt
 )
 ;
-IDB_TRY
+QM_TRY
 (
 writeStmt
 -
@@ -72701,7 +72701,7 @@ Key
 oldKey
 objectStorePosition
 ;
-IDB_TRY
+QM_TRY
 (
 oldKey
 .
@@ -72713,7 +72713,7 @@ readStmt
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 oldKey
 .
@@ -72724,7 +72724,7 @@ kStmtParamNameValue
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -72738,7 +72738,7 @@ aLocale
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 newSortKey
 .
@@ -72749,7 +72749,7 @@ kStmtParamNameValueLocale
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 objectStorePosition
 .
@@ -72761,7 +72761,7 @@ readStmt
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 objectStorePosition
 .
@@ -72772,7 +72772,7 @@ kStmtParamNameObjectDataKey
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 writeStmt
 -
@@ -72814,7 +72814,7 @@ id
 "
 _ns
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -72832,7 +72832,7 @@ metaQuery
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 metaStmt
 -
@@ -72847,7 +72847,7 @@ aLocale
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 metaStmt
 -
@@ -72863,7 +72863,7 @@ id
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 metaStmt
 -
@@ -73112,7 +73112,7 @@ Some
 mRequestedVersion
 )
 ;
-IDB_TRY
+QM_TRY
 (
 SendVersionChangeMessages
 (
@@ -74415,7 +74415,7 @@ Manager
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -74499,7 +74499,7 @@ mMetadata
 >
 mCommonMetadata
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 spec
 .
@@ -74569,7 +74569,7 @@ metadata
 >
 mCommonMetadata
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 indexes
@@ -75382,7 +75382,7 @@ SetActiveOnConnectionThread
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -75392,7 +75392,7 @@ BeginWriteTransaction
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -75434,7 +75434,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 updateStmt
 .
@@ -75825,7 +75825,7 @@ key
 (
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -75841,7 +75841,7 @@ maybeKey
 QM_VOID
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 const
 NotNull
@@ -75866,7 +75866,7 @@ QM_VOID
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -75893,7 +75893,7 @@ _ns
 QM_VOID
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -75949,7 +75949,7 @@ databaseName
 }
 #
 endif
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -75976,7 +75976,7 @@ _ns
 QM_VOID
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -76198,7 +76198,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 directory
@@ -76214,7 +76214,7 @@ mOrigin
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 directory
 -
@@ -76228,7 +76228,7 @@ IDB_DIRECTORY_NAME
 )
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 mDatabaseDirectoryPath
 MOZ_TO_RESULT_INVOKE_TYPED
@@ -76246,7 +76246,7 @@ GetDatabaseFilenameBase
 databaseName
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -76266,7 +76266,7 @@ kSQLiteSuffix
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -76291,7 +76291,7 @@ mDatabaseFilePath
 }
 #
 endif
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -76333,7 +76333,7 @@ State
 SendingResults
 ;
 }
-IDB_TRY
+QM_TRY
 (
 mOwningEventTarget
 -
@@ -78927,7 +78927,7 @@ nextAutoIncrementId
 1
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -78940,7 +78940,7 @@ Borrow
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedStmt
 -
@@ -78959,7 +78959,7 @@ id
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedStmt
 -
@@ -78971,7 +78971,7 @@ nextAutoIncrementId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedStmt
 -
@@ -79218,7 +79218,7 @@ ReadOnly
 )
 ;
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -79276,7 +79276,7 @@ enabled
 ;
 }
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -80144,7 +80144,7 @@ State
 :
 Initial
 :
-IDB_TRY
+QM_TRY
 (
 SendToIOThread
 (
@@ -80161,7 +80161,7 @@ State
 :
 DatabaseWork
 :
-IDB_TRY
+QM_TRY
 (
 DoDatabaseWork
 (
@@ -80302,7 +80302,7 @@ GetFileForFileInfo
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -80341,7 +80341,7 @@ clonePtr
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -80361,7 +80361,7 @@ SetActorAlive
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -80798,7 +80798,7 @@ this
 >
 DatabaseRequestResponse
 {
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 CreateMutableFile
 (
@@ -81010,7 +81010,7 @@ DOM
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -81058,7 +81058,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -81105,7 +81105,7 @@ DatabaseConnection
 AutoSavepoint
 autoSave
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -81128,7 +81128,7 @@ aConnection
 endif
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -81180,7 +81180,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -81195,7 +81195,7 @@ id
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -81214,7 +81214,7 @@ autoIncrement
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -81242,7 +81242,7 @@ IsValid
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -81264,7 +81264,7 @@ SerializeToString
 }
 else
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -81322,7 +81322,7 @@ id
 }
 #
 endif
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -81373,7 +81373,7 @@ DOM
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -81508,7 +81508,7 @@ DatabaseConnection
 AutoSavepoint
 autoSave
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -81536,7 +81536,7 @@ if
 mIsLastObjectStore
 )
 {
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -81553,7 +81553,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -81570,7 +81570,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -81587,7 +81587,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -81604,7 +81604,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -81624,7 +81624,7 @@ _ns
 }
 else
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -81661,7 +81661,7 @@ stmt
 >
 nsresult
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -81689,7 +81689,7 @@ if
 hasIndexes
 )
 {
-IDB_TRY
+QM_TRY
 (
 DeleteObjectStoreDataTableRowsWithIndexes
 (
@@ -81708,7 +81708,7 @@ Nothing
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -81736,7 +81736,7 @@ bindObjectStoreIdToFirstParameter
 }
 else
 {
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -81762,7 +81762,7 @@ bindObjectStoreIdToFirstParameter
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -81822,7 +81822,7 @@ deletedRowCount
 #
 endif
 }
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -81896,7 +81896,7 @@ DOM
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -81950,7 +81950,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -81963,7 +81963,7 @@ mNewName
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -82006,7 +82006,7 @@ DatabaseConnection
 AutoSavepoint
 autoSave
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -82029,7 +82029,7 @@ aConnection
 endif
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -82072,7 +82072,7 @@ stmt
 >
 nsresult
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -82085,7 +82085,7 @@ mNewName
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -82105,7 +82105,7 @@ NS_OK
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -82390,7 +82390,7 @@ HasStorageConnection
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -82438,7 +82438,7 @@ stmt
 >
 nsresult
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -82683,7 +82683,7 @@ DOM
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -82736,7 +82736,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -82749,7 +82749,7 @@ mObjectStoreId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -82796,7 +82796,7 @@ DatabaseConnection
 AutoSavepoint
 autoSave
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -82819,7 +82819,7 @@ aConnection
 endif
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -82887,7 +82887,7 @@ stmt
 >
 nsresult
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -82902,7 +82902,7 @@ id
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -82917,7 +82917,7 @@ name
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -82936,7 +82936,7 @@ SerializeToString
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -82955,7 +82955,7 @@ unique
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -82974,7 +82974,7 @@ multiEntry
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -82985,7 +82985,7 @@ objectStoreId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 metadata
 .
@@ -83017,7 +83017,7 @@ locale
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -83077,7 +83077,7 @@ id
 }
 #
 endif
-IDB_TRY
+QM_TRY
 (
 InsertDataFromObjectStore
 (
@@ -83085,7 +83085,7 @@ aConnection
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -83330,7 +83330,7 @@ VALUE_TYPE_INTEGER
 }
 #
 endif
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 cloneInfo
@@ -83373,7 +83373,7 @@ mOp
 >
 mObjectStoreId
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -83420,7 +83420,7 @@ nsIVariant
 >
 unmodifiedValue
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -83505,7 +83505,7 @@ blobData
 uint32_t
 blobDataLength
 ;
-IDB_TRY
+QM_TRY
 (
 aValues
 -
@@ -83596,7 +83596,7 @@ NS_OK
 Key
 key
 ;
-IDB_TRY
+QM_TRY
 (
 key
 .
@@ -83607,7 +83607,7 @@ aValues
 )
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 indexValues
@@ -83640,7 +83640,7 @@ Length
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -83706,7 +83706,7 @@ fallible
 )
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 (
 auto
@@ -83838,7 +83838,7 @@ fallible
 ;
 }
 }
-IDB_TRY
+QM_TRY
 (
 InsertIndexTableRows
 (
@@ -84024,7 +84024,7 @@ if
 mIsLastIndex
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -84072,7 +84072,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -84084,7 +84084,7 @@ mObjectStoreId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aObjectStoreKey
 .
@@ -84097,7 +84097,7 @@ kStmtParamNameKey
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -84239,7 +84239,7 @@ beginRange
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 UpdateIndexValues
 (
@@ -84281,7 +84281,7 @@ AssertIsOnConnectionThread
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -84441,7 +84441,7 @@ DatabaseConnection
 AutoSavepoint
 autoSave
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -84464,7 +84464,7 @@ aConnection
 endif
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -84745,7 +84745,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 selectStmt
 -
@@ -84767,7 +84767,7 @@ mUnique
 mIsLastIndex
 )
 {
-IDB_TRY
+QM_TRY
 (
 selectStmt
 -
@@ -84786,7 +84786,7 @@ lastObjectStoreKey
 IndexDataValuesAutoArray
 lastIndexValues
 ;
-IDB_TRY
+QM_TRY
 (
 CollectWhileHasResult
 (
@@ -84899,7 +84899,7 @@ nsresult
 Key
 indexKey
 ;
-IDB_TRY
+QM_TRY
 (
 indexKey
 .
@@ -84911,7 +84911,7 @@ selectStmt
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -84937,7 +84937,7 @@ objectStoreKeyData
 uint32_t
 objectStoreKeyDataLength
 ;
-IDB_TRY
+QM_TRY
 (
 selectStmt
 .
@@ -84951,7 +84951,7 @@ objectStoreKeyData
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -85002,7 +85002,7 @@ IsUnset
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 RemoveReferencesToIndex
 (
@@ -85032,7 +85032,7 @@ ClearAndRetainStorage
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 ReadCompressedIndexDataValues
 (
@@ -85042,7 +85042,7 @@ lastIndexValues
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -85063,7 +85063,7 @@ IDB_REPORT_INTERNAL_ERR_LAMBDA
 }
 }
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -85076,7 +85076,7 @@ Borrow
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 borrowedDeleteIndexRowStmt
 -
@@ -85088,7 +85088,7 @@ mIndexId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 indexKey
 .
@@ -85107,7 +85107,7 @@ if
 mUnique
 )
 {
-IDB_TRY
+QM_TRY
 (
 lastObjectStoreKey
 .
@@ -85121,7 +85121,7 @@ kStmtParamNameObjectDataKey
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 borrowedDeleteIndexRowStmt
 -
@@ -85163,7 +85163,7 @@ IsEmpty
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 RemoveReferencesToIndex
 (
@@ -85174,7 +85174,7 @@ lastIndexValues
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -85209,7 +85209,7 @@ deleteStmt
 >
 nsresult
 {
-IDB_TRY
+QM_TRY
 (
 deleteStmt
 .
@@ -85261,7 +85261,7 @@ deletedRowCount
 }
 #
 endif
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -85312,7 +85312,7 @@ DOM
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -85375,7 +85375,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -85388,7 +85388,7 @@ mObjectStoreId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -85401,7 +85401,7 @@ mNewName
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -85451,7 +85451,7 @@ DatabaseConnection
 AutoSavepoint
 autoSave
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -85474,7 +85474,7 @@ aConnection
 endif
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -85517,7 +85517,7 @@ stmt
 >
 nsresult
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -85530,7 +85530,7 @@ mNewName
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -85550,7 +85550,7 @@ NS_OK
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -85618,7 +85618,7 @@ VersionChange
 aMayHaveIndexes
 )
 {
-IDB_TRY_RETURN
+QM_TRY_RETURN
 (
 DatabaseOperationBase
 :
@@ -85634,7 +85634,7 @@ aObjectStoreId
 #
 ifdef
 DEBUG
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -85703,7 +85703,7 @@ IsActorDestroyed
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -86417,7 +86417,7 @@ IsUnset
 ifdef
 DEBUG
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -86462,7 +86462,7 @@ indexes
 }
 #
 endif
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -86528,7 +86528,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -86545,7 +86545,7 @@ objectStoreId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 self
 .
@@ -86573,7 +86573,7 @@ if
 indexValuesStmt
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -86588,7 +86588,7 @@ indexValuesStmt
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 DeleteIndexDataTableRows
 (
@@ -86824,7 +86824,7 @@ MarkImmutable
 )
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 mStoredFileInfos
 TransformIntoNewArray
@@ -87156,7 +87156,7 @@ DatabaseConnection
 AutoSavepoint
 autoSave
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -87179,7 +87179,7 @@ aConnection
 endif
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -87244,7 +87244,7 @@ keyUnset
 objectStoreHasIndexes
 )
 {
-IDB_TRY
+QM_TRY
 (
 RemoveOldIndexDataValues
 (
@@ -87281,7 +87281,7 @@ REPLACE
 "
 _ns
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -87349,7 +87349,7 @@ _ns
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -87775,7 +87775,7 @@ flags
 |
 index
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -87937,7 +87937,7 @@ dataBufferLength
 =
 compressedLength
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -87988,7 +87988,7 @@ IsValid
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -88032,7 +88032,7 @@ GetFileManagerPtr
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 fileHelper
 -
@@ -88068,7 +88068,7 @@ GetFile
 fileInfo
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -88090,7 +88090,7 @@ GetJournalFile
 fileInfo
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -88100,7 +88100,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 IDB_REPORT_INTERNAL_ERR_LAMBDA
 )
 ;
-IDB_TRY
+QM_TRY
 (
 ToResult
 (
@@ -88188,7 +88188,7 @@ const
 auto
 )
 {
-IDB_TRY
+QM_TRY
 (
 Transaction
 (
@@ -88248,7 +88248,7 @@ fileIds
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -88263,7 +88263,7 @@ fileIds
 }
 else
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -88275,7 +88275,7 @@ kStmtParamNameFileIds
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -88348,7 +88348,7 @@ isSome
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -88369,7 +88369,7 @@ ref
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 UpdateIndexValues
 (
@@ -88380,7 +88380,7 @@ indexValues
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 InsertIndexTableRows
 (
@@ -88392,7 +88392,7 @@ indexValues
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -89036,7 +89036,7 @@ HasPreprocessInfo
 )
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 result
 .
@@ -89174,7 +89174,7 @@ EmptyCString
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -89189,7 +89189,7 @@ query
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -89210,7 +89210,7 @@ isSome
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 BindKeyRangeToStatement
 (
@@ -89226,7 +89226,7 @@ stmt
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 CollectWhileHasResult
 (
@@ -89252,7 +89252,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 cloneInfo
@@ -89291,7 +89291,7 @@ mPreprocessInfoCount
 +
 ;
 }
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -89426,7 +89426,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 TransformIfAbortOnErr
 (
@@ -89528,7 +89528,7 @@ ObjectStoreGetPreprocessParams
 (
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 params
 .
@@ -89619,7 +89619,7 @@ IsEmpty
 )
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 aResponse
 .
@@ -89764,7 +89764,7 @@ Size
 (
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 serializedInfo
 ConvertResponse
@@ -90036,7 +90036,7 @@ EmptyCString
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -90117,7 +90117,7 @@ rv
 ;
 }
 }
-IDB_TRY
+QM_TRY
 (
 CollectWhileHasResult
 (
@@ -90155,7 +90155,7 @@ AppendElement
 fallible
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -90167,7 +90167,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 key
 -
@@ -90485,7 +90485,7 @@ DatabaseConnection
 AutoSavepoint
 autoSave
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -90508,7 +90508,7 @@ aConnection
 endif
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -90532,7 +90532,7 @@ if
 objectStoreHasIndexes
 )
 {
-IDB_TRY
+QM_TRY
 (
 DeleteObjectStoreDataTableRowsWithIndexes
 (
@@ -90570,7 +90570,7 @@ keyRange
 kColumnNameKey
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 -
@@ -90613,7 +90613,7 @@ stmt
 >
 nsresult
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -90628,7 +90628,7 @@ objectStoreId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 BindKeyRangeToStatement
 (
@@ -90650,7 +90650,7 @@ NS_OK
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -90776,7 +90776,7 @@ DatabaseConnection
 AutoSavepoint
 autoSave
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -90799,7 +90799,7 @@ aConnection
 endif
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -90818,7 +90818,7 @@ mObjectStoreMayHaveIndexes
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 objectStoreHasIndexes
 ?
@@ -90872,7 +90872,7 @@ stmt
 >
 nsresult
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -90890,7 +90890,7 @@ NS_OK
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 autoSave
 .
@@ -90951,7 +90951,7 @@ optionalKeyRange
 kColumnNameKey
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -91006,7 +91006,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -91034,7 +91034,7 @@ isSome
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 BindKeyRangeToStatement
 (
@@ -91062,7 +91062,7 @@ Ok
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -91120,7 +91120,7 @@ AsInt64
 0
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -91741,7 +91741,7 @@ index_data
 "
 _ns
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -91830,7 +91830,7 @@ EmptyCString
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -91858,7 +91858,7 @@ isSome
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 BindKeyRangeToStatement
 (
@@ -91874,7 +91874,7 @@ stmt
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 CollectWhileHasResult
 (
@@ -91900,7 +91900,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 cloneInfo
@@ -91954,7 +91954,7 @@ NS_ERROR_NOT_IMPLEMENTED
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -92073,7 +92073,7 @@ ReleaseData
 (
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 result
 .
@@ -92124,7 +92124,7 @@ IsEmpty
 )
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 aResponse
 .
@@ -92266,7 +92266,7 @@ Size
 (
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 serializedInfo
 convertResponse
@@ -92553,7 +92553,7 @@ EmptyCString
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -92568,7 +92568,7 @@ query
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -92592,7 +92592,7 @@ if
 hasKeyRange
 )
 {
-IDB_TRY
+QM_TRY
 (
 BindKeyRangeToStatement
 (
@@ -92608,7 +92608,7 @@ stmt
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 CollectWhileHasResult
 (
@@ -92646,7 +92646,7 @@ AppendElement
 fallible
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -92658,7 +92658,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 key
 -
@@ -92935,7 +92935,7 @@ optionalKeyRange
 kColumnNameValue
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -92994,7 +92994,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY
+QM_TRY
 (
 stmt
 .
@@ -93029,7 +93029,7 @@ isSome
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 BindKeyRangeToStatement
 (
@@ -93059,7 +93059,7 @@ Ok
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -93117,7 +93117,7 @@ AsInt64
 0
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -93501,7 +93501,7 @@ Key
 {
 }
 ;
-IDB_TRY
+QM_TRY
 (
 populateResponseHelper
 .
@@ -93536,7 +93536,7 @@ return
 0
 ;
 }
-IDB_TRY
+QM_TRY
 (
 populateResponseHelper
 .
@@ -93756,7 +93756,7 @@ hasResult
 break
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -94083,7 +94083,7 @@ IsLocaleAware
 )
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 localeAwareRangeBound
 bound
@@ -94748,7 +94748,7 @@ const
 aStmt
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -94799,7 +94799,7 @@ previousKey
 :
 nullptr
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -94978,7 +94978,7 @@ GetCursor
 mMaxExtraCount
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -94993,7 +94993,7 @@ firstQuery
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -95014,7 +95014,7 @@ if
 usingKeyRange
 )
 {
-IDB_TRY
+QM_TRY
 (
 DatabaseOperationBase
 :
@@ -95185,7 +95185,7 @@ kOpenLimit
 "
 _ns
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -95200,7 +95200,7 @@ firstQuery
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -95221,7 +95221,7 @@ if
 usingKeyRange
 )
 {
-IDB_TRY
+QM_TRY
 (
 DatabaseOperationBase
 :
@@ -95606,7 +95606,7 @@ GetCursor
 mMaxExtraCount
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -95621,7 +95621,7 @@ firstQuery
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -95653,7 +95653,7 @@ IsLocaleAware
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 DatabaseOperationBase
 :
@@ -95681,7 +95681,7 @@ mLocale
 }
 else
 {
-IDB_TRY
+QM_TRY
 (
 DatabaseOperationBase
 :
@@ -96011,7 +96011,7 @@ kOpenLimit
 "
 _ns
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -96026,7 +96026,7 @@ firstQuery
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -96058,7 +96058,7 @@ IsLocaleAware
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 DatabaseOperationBase
 :
@@ -96086,7 +96086,7 @@ mLocale
 }
 else
 {
-IDB_TRY
+QM_TRY
 (
 DatabaseOperationBase
 :
@@ -96719,7 +96719,7 @@ mCursor
 >
 mMaxExtraCount
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -96744,7 +96744,7 @@ hasContinuePrimaryKey
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -96764,7 +96764,7 @@ mMaxExtraCount
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 stmt
 -
@@ -96802,7 +96802,7 @@ IsLocaleAware
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 continueKey
 .
@@ -96829,7 +96829,7 @@ IsUnset
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 mCursor
 -
@@ -96885,7 +96885,7 @@ Prev
 )
 )
 {
-IDB_TRY
+QM_TRY
 (
 mCurrentPosition
 .
@@ -96907,7 +96907,7 @@ if
 hasContinuePrimaryKey
 )
 {
-IDB_TRY
+QM_TRY
 (
 mParams
 .
@@ -96946,7 +96946,7 @@ index
 +
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -97011,7 +97011,7 @@ CursorType
 this
 }
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -97796,7 +97796,7 @@ IsOnBackgroundThread
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -97814,7 +97814,7 @@ if
 exists
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -97827,7 +97827,7 @@ IsFile
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -97836,7 +97836,7 @@ isFile
 NS_ERROR_FAILURE
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -97849,7 +97849,7 @@ Exists
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -97858,7 +97858,7 @@ journalExists
 NS_ERROR_FAILURE
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -97871,7 +97871,7 @@ IsFile
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -97890,7 +97890,7 @@ file
 "
 )
 ;
-IDB_TRY
+QM_TRY
 (
 mFileManager
 -
@@ -97903,7 +97903,7 @@ aJournalFile
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 aJournalFile
 .
@@ -97917,7 +97917,7 @@ NORMAL_FILE_TYPE
 )
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 fileOutputStream
@@ -98094,7 +98094,7 @@ baseOutputStream
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 SyncCopy
 (

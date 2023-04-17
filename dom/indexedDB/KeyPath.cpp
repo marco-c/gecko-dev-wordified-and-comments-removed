@@ -587,7 +587,7 @@ desc
 aCx
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1206,7 +1206,7 @@ return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1221,7 +1221,7 @@ IDB_REPORT_INTERNAL_ERR_LAMBDA
 )
 ;
 }
-IDB_TRY
+QM_TRY
 (
 rv
 )

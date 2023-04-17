@@ -257,7 +257,7 @@ GetPermissionManager
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -269,7 +269,7 @@ NS_ERROR_FAILURE
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 uint32_t
@@ -434,7 +434,7 @@ move
 mPrincipal
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 PermissionValue
@@ -473,7 +473,7 @@ GetObserverService
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -505,7 +505,7 @@ move
 principal
 )
 ;
-IDB_TRY
+QM_TRY
 (
 obsSvc
 -

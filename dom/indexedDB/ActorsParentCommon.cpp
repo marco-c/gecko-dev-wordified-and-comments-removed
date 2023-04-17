@@ -556,7 +556,7 @@ First
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -839,7 +839,7 @@ sandbox
 aCx
 )
 ;
-IDB_TRY
+QM_TRY
 (
 xpc
 -
@@ -1232,7 +1232,7 @@ ReadCompressedIndexDataValuesFromBlob
 DOM
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1274,7 +1274,7 @@ IsEmpty
 ;
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 (
 const
@@ -1292,7 +1292,7 @@ remainder
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1307,7 +1307,7 @@ NS_ERROR_FILE_CORRUPTED
 IDB_REPORT_INTERNAL_ERR_LAMBDA
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 (
 const
@@ -1324,7 +1324,7 @@ remainderAfterIndexId
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1339,7 +1339,7 @@ NS_ERROR_FILE_CORRUPTED
 IDB_REPORT_INTERNAL_ERR_LAMBDA
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1355,7 +1355,7 @@ NS_ERROR_FILE_CORRUPTED
 IDB_REPORT_INTERNAL_ERR_LAMBDA
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1405,7 +1405,7 @@ keyBuffer
 }
 }
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 (
 const
@@ -1433,7 +1433,7 @@ sortKeyBufferLength
 0
 )
 {
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1448,7 +1448,7 @@ NS_ERROR_FILE_CORRUPTED
 IDB_REPORT_INTERNAL_ERR_LAMBDA
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1464,7 +1464,7 @@ NS_ERROR_FILE_CORRUPTED
 IDB_REPORT_INTERNAL_ERR_LAMBDA
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1515,7 +1515,7 @@ remainder
 remainderAfterSortKeyBuffer
 ;
 }
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1602,7 +1602,7 @@ IsEmpty
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -1645,7 +1645,7 @@ blobData
 uint32_t
 blobDataLength
 ;
-IDB_TRY
+QM_TRY
 (
 aSource
 .
@@ -1659,7 +1659,7 @@ blobData
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1669,7 +1669,7 @@ NS_ERROR_FILE_CORRUPTED
 IDB_REPORT_INTERNAL_ERR_LAMBDA
 )
 ;
-IDB_TRY
+QM_TRY
 (
 ReadCompressedIndexDataValuesFromBlob
 (
@@ -1767,7 +1767,7 @@ aBlobDataLength
 size_t
 uncompressedLength
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1795,7 +1795,7 @@ uint8_t
 >
 uncompressed
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1831,7 +1831,7 @@ Elements
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1863,7 +1863,7 @@ StructuredCloneScope
 DifferentProcess
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1901,7 +1901,7 @@ IsVoid
 )
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 files
 DeserializeStructuredCloneFiles
@@ -1991,7 +1991,7 @@ IsVoid
 )
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 files
 DeserializeStructuredCloneFiles
@@ -2013,7 +2013,7 @@ aIntData
 UINT32_MAX
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -2142,7 +2142,7 @@ GetFileForFileInfo
 (
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -2154,7 +2154,7 @@ NS_ERROR_FAILURE
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2231,7 +2231,7 @@ fileInputStream
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 SnappyUncompressStructuredCloneData
 (
@@ -2308,7 +2308,7 @@ MOZ_ASSERT
 aSource
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -2322,7 +2322,7 @@ aDataIndex
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -2336,7 +2336,7 @@ aFileIdsIndex
 )
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 nsString
@@ -2389,7 +2389,7 @@ mozIStorageStatement
 VALUE_TYPE_INTEGER
 :
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -2443,7 +2443,7 @@ blobData
 uint32_t
 blobDataLength
 ;
-IDB_TRY
+QM_TRY
 (
 aSource
 -
@@ -3011,7 +3011,7 @@ sortKeyBufferLength
 }
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -3051,7 +3051,7 @@ value
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -3355,7 +3355,7 @@ uint8_t
 aData
 )
 {
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 (
 const
@@ -3536,7 +3536,7 @@ byte
 }
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -3728,7 +3728,7 @@ IsEmpty
 )
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 structuredCloneFile
@@ -3800,7 +3800,7 @@ kTagQuery
 aSQLCommand
 }
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 .
