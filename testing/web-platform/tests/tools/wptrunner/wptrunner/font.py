@@ -622,6 +622,20 @@ self
 font_dir
 )
         
+with
+open
+(
+os
+.
+devnull
+'
+w
+'
+)
+as
+f
+:
+            
 fonts
 =
 check_output
@@ -643,6 +657,9 @@ xml
 SPFontsDataType
 '
 ]
+stderr
+=
+f
 )
         
 try
