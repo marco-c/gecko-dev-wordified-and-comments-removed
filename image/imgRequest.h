@@ -120,6 +120,11 @@ nsIReferrerInfo
 namespace
 mozilla
 {
+enum
+CORSMode
+:
+uint8_t
+;
 namespace
 image
 {
@@ -246,7 +251,10 @@ aLoadingDocument
 nsIPrincipal
 *
 aTriggeringPrincipal
-int32_t
+mozilla
+:
+:
+CORSMode
 aCORSMode
 nsIReferrerInfo
 *
@@ -361,7 +369,10 @@ HadInsecureRedirect
 )
 const
 ;
-int32_t
+mozilla
+:
+:
+CORSMode
 GetCORSMode
 (
 )
@@ -833,7 +844,10 @@ mNewRedirectChannel
 uint64_t
 mInnerWindowId
 ;
-int32_t
+mozilla
+:
+:
+CORSMode
 mCORSMode
 ;
 nsCOMPtr

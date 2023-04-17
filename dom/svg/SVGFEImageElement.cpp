@@ -1340,9 +1340,6 @@ corsmode
 corsmode
 !
 =
-imgIRequest
-:
-:
 CORS_NONE
 )
 {

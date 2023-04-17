@@ -306,9 +306,6 @@ mInnerWindowId
 )
 mCORSMode
 (
-imgIRequest
-:
-:
 CORS_NONE
 )
 mImageErrorCode
@@ -472,7 +469,10 @@ aLoadingDocument
 nsIPrincipal
 *
 aTriggeringPrincipal
-int32_t
+mozilla
+:
+:
+CORSMode
 aCORSMode
 nsIReferrerInfo
 *

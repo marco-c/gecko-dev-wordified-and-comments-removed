@@ -22517,9 +22517,6 @@ res
 int32_t
 corsmode
 =
-imgIRequest
-:
-:
 CORS_NONE
 ;
 if
@@ -22544,9 +22541,6 @@ mCORSUsed
 corsmode
 !
 =
-imgIRequest
-:
-:
 CORS_NONE
 ;
 }
