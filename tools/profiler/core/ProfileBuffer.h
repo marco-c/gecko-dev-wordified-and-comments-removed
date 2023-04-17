@@ -55,6 +55,9 @@ ProfileChunkedBuffer
 h
 "
 class
+ProcessStreamingContext
+;
+class
 RunningTimes
 ;
 class
@@ -227,6 +230,15 @@ aSinceTime
 UniqueStacks
 &
 aUniqueStacks
+)
+const
+;
+void
+StreamSamplesAndMarkersToJSON
+(
+ProcessStreamingContext
+&
+aProcessStreamingContext
 )
 const
 ;
@@ -605,7 +617,7 @@ typename
 GetStreamingParametersForThreadCallback
 >
 ProfilerThreadId
-DoStreamSamplesToJSON
+DoStreamSamplesAndMarkersToJSON
 (
 GetStreamingParametersForThreadCallback
 &
@@ -613,6 +625,9 @@ GetStreamingParametersForThreadCallback
 aGetStreamingParametersForThreadCallback
 double
 aSinceTime
+ProcessStreamingContext
+*
+aStreamingContextForMarkers
 )
 const
 ;
