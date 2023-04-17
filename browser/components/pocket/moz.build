@@ -37,6 +37,17 @@ browser
 .
 ini
 "
+"
+test
+/
+unit
+/
+panels
+/
+browser
+.
+ini
+"
 ]
 JAR_MANIFESTS
 +
