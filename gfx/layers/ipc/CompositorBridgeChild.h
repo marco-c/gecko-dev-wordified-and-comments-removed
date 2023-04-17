@@ -652,11 +652,6 @@ aTextureId
 )
 override
 ;
-void
-ClearTexturePool
-(
-)
-;
 FixedSizeSmallShmemSectionAllocator
 *
 GetTileLockAllocator
