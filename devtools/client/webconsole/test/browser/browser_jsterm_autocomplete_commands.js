@@ -105,6 +105,10 @@ help
 "
 "
 :
+history
+"
+"
+:
 screenshot
 "
 "

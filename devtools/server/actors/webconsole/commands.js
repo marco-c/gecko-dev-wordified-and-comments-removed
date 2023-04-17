@@ -14,6 +14,9 @@ block
 help
 "
 "
+history
+"
+"
 screenshot
 "
 "

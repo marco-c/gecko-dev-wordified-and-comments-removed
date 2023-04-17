@@ -99,6 +99,11 @@ PageError
 js
 "
 "
+SimpleTable
+.
+js
+"
+"
 WarningGroup
 .
 js
