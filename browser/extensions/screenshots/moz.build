@@ -202,13 +202,6 @@ build
 "
 build
 /
-buildSettings
-.
-js
-"
-"
-build
-/
 inlineSelectionCss
 .
 js

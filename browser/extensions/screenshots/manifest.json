@@ -139,13 +139,6 @@ scripts
 :
 [
 "
-build
-/
-buildSettings
-.
-js
-"
-"
 background
 /
 startBackground
@@ -226,13 +219,6 @@ js
 "
 :
 [
-"
-build
-/
-buildSettings
-.
-js
-"
 "
 log
 .

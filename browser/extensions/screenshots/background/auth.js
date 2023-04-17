@@ -1135,11 +1135,6 @@ function
 {
 return
 sentryPublicDSN
-|
-|
-buildSettings
-.
-defaultSentryDsn
 ;
 }
 ;
