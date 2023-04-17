@@ -1024,6 +1024,12 @@ x86_64
 linux
 -
 gnu
+-
+sysroot
+-
+wasm32
+-
+wasi
 android
 -
 x86_64
