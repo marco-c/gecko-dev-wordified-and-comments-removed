@@ -1743,6 +1743,12 @@ core
 -
 mochitest
 -
+webgl1
+-
+ext
+-
+mochitest
+-
 webgl2
 -
 core
