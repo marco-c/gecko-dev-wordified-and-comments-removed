@@ -83,11 +83,13 @@ remote
 /
 content
 /
-marionette
+shared
 /
-assert
+webdriver
+/
+Assert
 .
-js
+jsm
 "
 atom
 :
