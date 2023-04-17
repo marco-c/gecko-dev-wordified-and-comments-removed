@@ -909,6 +909,13 @@ nullptr
 ;
 }
 virtual
+void
+EndDraw
+(
+)
+{
+}
+virtual
 already_AddRefed
 <
 gfx
@@ -1512,6 +1519,11 @@ gfx
 DrawTarget
 *
 BorrowDrawTarget
+(
+)
+;
+void
+EndDraw
 (
 )
 ;

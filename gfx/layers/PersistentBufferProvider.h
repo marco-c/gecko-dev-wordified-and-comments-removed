@@ -670,6 +670,12 @@ KnowsCompositor
 >
 mKnowsCompositor
 ;
+RefPtr
+<
+TextureClient
+>
+mPermanentBackBuffer
+;
 static
 const
 size_t
