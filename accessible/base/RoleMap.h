@@ -3710,7 +3710,7 @@ CONTENT_DELETION
 content
 deletion
 "
-ATK_ROLE_SECTION
+ATK_ROLE_CONTENT_DELETION
 NSAccessibilityGroupRole
 "
 AXDeleteStyleGroup
@@ -3733,7 +3733,7 @@ CONTENT_INSERTION
 content
 insertion
 "
-ATK_ROLE_SECTION
+ATK_ROLE_CONTENT_INSERTION
 NSAccessibilityGroupRole
 "
 AXInsertStyleGroup
