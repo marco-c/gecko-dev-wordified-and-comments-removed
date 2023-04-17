@@ -1475,6 +1475,12 @@ defined
 (
 __riscv
 )
+|
+|
+defined
+(
+__wasi__
+)
 #
 include
 "
