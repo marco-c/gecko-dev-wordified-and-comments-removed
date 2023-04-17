@@ -758,9 +758,6 @@ def
 start
 (
 self
-block
-=
-False
 )
 :
         
@@ -778,9 +775,6 @@ _httpd
 .
 start
 (
-block
-=
-block
 )
     
 def
