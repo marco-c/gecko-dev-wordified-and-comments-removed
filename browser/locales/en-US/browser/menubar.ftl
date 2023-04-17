@@ -1032,16 +1032,11 @@ menu
 -
 view
 -
-repair
--
-text
--
-encoding
+charset
 =
 .
 label
 =
-Repair
 Text
 Encoding
 .
