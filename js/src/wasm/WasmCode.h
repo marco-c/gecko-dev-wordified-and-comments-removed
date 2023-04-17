@@ -1355,6 +1355,9 @@ MetadataCacheablePod
 TypeDefWithIdVector
 types
 ;
+RenumberVector
+typesRenumbering
+;
 GlobalDescVector
 globals
 ;

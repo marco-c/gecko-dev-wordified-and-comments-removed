@@ -481,6 +481,15 @@ obj
 }
 ;
 using
+MutableHandleRttValue
+=
+MutableHandle
+<
+RttValue
+*
+>
+;
+using
 HandleRttValue
 =
 Handle
