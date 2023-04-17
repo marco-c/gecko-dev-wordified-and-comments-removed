@@ -11,6 +11,11 @@ istream
 #
 include
 <
+memory
+>
+#
+include
+<
 string
 >
 #
@@ -169,6 +174,9 @@ GLIBCXX_VERSION
 4
 20
 )
+namespace
+__cxxabiv1
+{
 extern
 "
 C
@@ -188,6 +196,7 @@ MOZ_CRASH
 (
 )
 ;
+}
 }
 #
 endif
