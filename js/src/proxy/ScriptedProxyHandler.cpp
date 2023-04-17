@@ -3463,7 +3463,7 @@ return
 false
 ;
 }
-uint32_t
+uint64_t
 len
 ;
 if
@@ -3494,7 +3494,7 @@ id
 cx
 )
 ;
-uint32_t
+uint64_t
 index
 =
 0
@@ -3509,7 +3509,7 @@ len
 if
 (
 !
-GetElement
+GetElementLargeIndex
 (
 cx
 obj
