@@ -4684,10 +4684,6 @@ shape
 :
 cursor
 (
-(
-JSContext
-*
-)
 nullptr
 shape
 )
