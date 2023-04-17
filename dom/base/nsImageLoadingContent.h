@@ -386,6 +386,10 @@ ImageLoadType
 aImageLoadType
 nsLoadFlags
 aLoadFlags
+bool
+aLoadStart
+=
+true
 mozilla
 :
 :
@@ -431,6 +435,7 @@ aImageLoadType
 LoadFlags
 (
 )
+true
 nullptr
 aTriggeringPrincipal
 )
