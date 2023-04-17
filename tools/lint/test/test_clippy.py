@@ -104,7 +104,7 @@ results
 ]
 .
 column
-=
+>
 =
 9
     
@@ -303,7 +303,7 @@ bad
 rs
 "
     
-assert
+if
 "
 variable
 does
@@ -320,11 +320,41 @@ results
 ]
 .
 message
+:
+        
+n
+=
+5
+    
+else
+:
+        
+n
+=
+6
+    
+assert
+"
+variable
+does
+not
+need
+to
+be
+mutable
+"
+in
+results
+[
+n
+]
+.
+message
     
 assert
 results
 [
-5
+n
 ]
 .
 relpath
@@ -341,7 +371,7 @@ rs
 assert
 results
 [
-5
+n
 ]
 .
 rule
@@ -361,7 +391,9 @@ vec
 in
 results
 [
-6
+n
++
+1
 ]
 .
 message
@@ -369,7 +401,9 @@ message
 assert
 results
 [
-6
+n
++
+1
 ]
 .
 level
@@ -382,7 +416,9 @@ warning
 assert
 results
 [
-6
+n
++
+1
 ]
 .
 relpath
@@ -399,7 +435,9 @@ rs
 assert
 results
 [
-6
+n
++
+1
 ]
 .
 rule
@@ -595,7 +633,7 @@ results
 ]
 .
 column
-=
+>
 =
 9
     
