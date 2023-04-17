@@ -19514,7 +19514,6 @@ arr
 }
 ArrayObject
 *
-JS_FASTCALL
 js
 :
 :
@@ -19542,7 +19541,6 @@ GenericObject
 }
 ArrayObject
 *
-JS_FASTCALL
 js
 :
 :
@@ -19570,7 +19568,6 @@ TenuredObject
 }
 ArrayObject
 *
-JS_FASTCALL
 js
 :
 :
@@ -19643,7 +19640,6 @@ newKind
 }
 ArrayObject
 *
-JS_FASTCALL
 js
 :
 :

@@ -1631,7 +1631,6 @@ FIXED_DATA_START
 ;
 }
 uint32_t
-JS_FASTCALL
 js
 :
 :

@@ -138,7 +138,6 @@ indexp
 extern
 ArrayObject
 *
-JS_FASTCALL
 NewDenseEmptyArray
 (
 JSContext
@@ -153,7 +152,6 @@ nullptr
 extern
 ArrayObject
 *
-JS_FASTCALL
 NewTenuredDenseEmptyArray
 (
 JSContext
@@ -168,7 +166,6 @@ nullptr
 extern
 ArrayObject
 *
-JS_FASTCALL
 NewDenseUnallocatedArray
 (
 JSContext
@@ -189,7 +186,6 @@ GenericObject
 extern
 ArrayObject
 *
-JS_FASTCALL
 NewDenseFullyAllocatedArray
 (
 JSContext
