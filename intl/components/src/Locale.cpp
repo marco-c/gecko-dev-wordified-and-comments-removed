@@ -5008,7 +5008,7 @@ InlineLength
 ;
 if
 (
-FillVectorWithICUCall
+FillBufferWithICUCall
 (
 result
 [

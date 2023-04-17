@@ -631,7 +631,7 @@ CharType
 >
 static
 ICUResult
-FillVectorWithICUCall
+FillBufferWithICUCall
 (
 Vector
 <
