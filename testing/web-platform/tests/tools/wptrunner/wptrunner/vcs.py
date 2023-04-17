@@ -5,10 +5,6 @@ functools
 import
 partial
 from
-typing
-import
-Callable
-from
 mozlog
 import
 get_default_logger
@@ -25,18 +21,7 @@ def
 vcs
 (
 bin_name
-:
-str
 )
--
->
-Callable
-[
-.
-.
-.
-None
-]
 :
     
 def

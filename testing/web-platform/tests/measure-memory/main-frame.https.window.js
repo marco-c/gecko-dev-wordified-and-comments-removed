@@ -3,13 +3,6 @@ use
 strict
 '
 ;
-promise_test
-(
-async
-testCase
-=
->
-{
 assert_true
 (
 self
@@ -17,6 +10,13 @@ self
 crossOriginIsolated
 )
 ;
+promise_test
+(
+async
+testCase
+=
+>
+{
 const
 result
 =

@@ -19,6 +19,8 @@ manifest
 import
 localpaths
 import
+logging
+import
 os
 try
 :
@@ -39,6 +41,18 @@ tools
 wpt
 import
 wpt
+global
+logger
+logger
+=
+logging
+.
+getLogger
+(
+"
+wave
+"
+)
 def
 get_route_builder_func
 (
@@ -49,9 +63,10 @@ report
 def
 get_route_builder
 (
-logger
 aliases
 config
+=
+None
 )
 :
         
@@ -87,9 +102,7 @@ serve
 .
 get_route_builder
 (
-logger
 aliases
-config
 )
         
 logger
@@ -561,11 +574,6 @@ report
 "
 ]
 )
-              
-log_handlers
-=
-None
-              
 *
 *
 kwargs

@@ -12,11 +12,6 @@ import
 time
 import
 traceback
-from
-typing
-import
-ClassVar
-Type
 import
 mozprocess
 from
@@ -1195,10 +1190,10 @@ host
 1
 "
                  
-port
+env
 =
 None
-env
+port
 =
 None
 args
@@ -1209,13 +1204,6 @@ None
         
 env
 =
-env
-if
-env
-is
-not
-None
-else
 os
 .
 environ
