@@ -161,7 +161,7 @@ highlight
 -
 background
 :
-Highlight
+SelectedItem
 ;
 -
 -
@@ -173,7 +173,7 @@ highlight
 -
 color
 :
-HighlightText
+SelectedItemText
 ;
 -
 -

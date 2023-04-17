@@ -127,7 +127,7 @@ hover
 -
 background
 :
-Highlight
+SelectedItem
 ;
 -
 -
@@ -137,7 +137,7 @@ hover
 -
 color
 :
-HighlightText
+SelectedItemText
 ;
 -
 -
@@ -147,7 +147,7 @@ selected
 -
 background
 :
-Highlight
+SelectedItem
 ;
 -
 -
@@ -157,7 +157,7 @@ selected
 -
 color
 :
-HighlightText
+SelectedItemText
 ;
 -
 -
@@ -167,7 +167,7 @@ outline
 -
 color
 :
-Highlight
+SelectedItem
 ;
 -
 -

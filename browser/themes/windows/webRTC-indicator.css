@@ -348,7 +348,7 @@ background
 -
 color
 :
-Highlight
+SelectedItem
 ;
 -
 -
@@ -362,7 +362,7 @@ icon
 -
 fill
 :
-HighlightText
+SelectedItemText
 ;
 -
 -

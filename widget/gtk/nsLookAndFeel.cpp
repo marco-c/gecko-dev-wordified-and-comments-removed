@@ -2061,12 +2061,6 @@ case
 ColorID
 :
 :
-TextSelectBackground
-:
-case
-ColorID
-:
-:
 IMESelectedRawTextBackground
 :
 case
@@ -2097,7 +2091,7 @@ case
 ColorID
 :
 :
-TextSelectForeground
+Highlighttext
 :
 if
 (
@@ -2140,12 +2134,6 @@ ColorID
 :
 IMESelectedConvertedTextForeground
 :
-case
-ColorID
-:
-:
-Highlighttext
-:
 aColor
 =
 mTextSelectedText
@@ -2156,7 +2144,7 @@ case
 ColorID
 :
 :
-MozHtmlCellhighlight
+Selecteditem
 :
 case
 ColorID
@@ -2174,7 +2162,7 @@ case
 ColorID
 :
 :
-MozHtmlCellhighlighttext
+Selecteditemtext
 :
 case
 ColorID

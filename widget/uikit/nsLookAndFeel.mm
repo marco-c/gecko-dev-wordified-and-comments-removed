@@ -468,12 +468,6 @@ case
 ColorID
 :
 :
-TextSelectBackground
-:
-case
-ColorID
-:
-:
 Highlight
 :
 aResult
@@ -504,12 +498,6 @@ NS_RGB
 ;
 break
 ;
-case
-ColorID
-:
-:
-TextSelectForeground
-:
 case
 ColorID
 :
@@ -1115,7 +1103,7 @@ case
 ColorID
 :
 :
-MozHtmlCellhighlighttext
+Selecteditemtext
 :
 case
 ColorID
@@ -1293,7 +1281,7 @@ case
 ColorID
 :
 :
-MozHtmlCellhighlight
+Selecteditem
 :
 case
 ColorID

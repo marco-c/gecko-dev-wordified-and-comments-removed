@@ -747,13 +747,13 @@ true
 {
 background
 :
-Highlight
+SelectedItem
 !
 important
 ;
 color
 :
-HighlightText
+SelectedItemText
 !
 important
 ;
@@ -1425,7 +1425,7 @@ highlight
 -
 background
 :
-Highlight
+SelectedItem
 ;
 -
 -
@@ -1437,7 +1437,7 @@ highlight
 -
 color
 :
-HighlightText
+SelectedItemText
 ;
 }
 /

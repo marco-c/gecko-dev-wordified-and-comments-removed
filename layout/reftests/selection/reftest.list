@@ -730,12 +730,6 @@ if
 (
 Android
 )
-fails
--
-if
-(
-cocoaWidget
-)
 needs
 -
 focus

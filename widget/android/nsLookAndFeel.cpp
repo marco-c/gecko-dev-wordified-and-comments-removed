@@ -609,7 +609,7 @@ case
 ColorID
 :
 :
-TextSelectBackground
+Highlight
 :
 {
 nscolor
@@ -654,7 +654,7 @@ case
 ColorID
 :
 :
-TextSelectForeground
+Highlighttext
 :
 aColor
 =
@@ -880,13 +880,7 @@ case
 ColorID
 :
 :
-MozHtmlCellhighlight
-:
-case
-ColorID
-:
-:
-Highlight
+Selecteditem
 :
 case
 ColorID
@@ -925,13 +919,7 @@ case
 ColorID
 :
 :
-MozHtmlCellhighlighttext
-:
-case
-ColorID
-:
-:
-Highlighttext
+Selecteditemtext
 :
 case
 ColorID
