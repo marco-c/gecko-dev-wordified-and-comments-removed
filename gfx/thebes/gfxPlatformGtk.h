@@ -312,11 +312,7 @@ UseDMABufWebGL
 (
 )
 override
-{
-return
-mUseWebGLDmabufBackend
 ;
-}
 void
 DisableDMABufWebGL
 (
