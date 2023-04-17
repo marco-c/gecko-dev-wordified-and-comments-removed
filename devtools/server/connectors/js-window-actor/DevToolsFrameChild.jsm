@@ -1048,13 +1048,7 @@ doNotFireFrameUpdates
 true
 followWindowGlobalLifeCycle
 :
-!
-isTopLevelTarget
-|
-|
-this
-.
-isServerTargetSwitchingEnabled
+true
 isTopLevelTarget
 }
 )
