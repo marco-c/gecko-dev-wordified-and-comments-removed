@@ -153,12 +153,6 @@ aPrincipal
 nullptr
 )
 ;
-bool
-AreClipboardCommandsUnconditionallyEnabled
-(
-)
-const
-;
 NS_IMETHOD
 Copy
 (

@@ -1190,6 +1190,12 @@ ClearUndoRedo
 )
 ;
 }
+bool
+AreClipboardCommandsUnconditionallyEnabled
+(
+)
+const
+;
 MOZ_CAN_RUN_SCRIPT
 bool
 IsCutCommandEnabled
