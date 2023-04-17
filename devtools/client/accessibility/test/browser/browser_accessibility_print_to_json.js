@@ -57,6 +57,10 @@ contextmenu
 )
 ;
 return
+{
+menu
+items
+:
 [
 .
 .
@@ -70,6 +74,7 @@ menuitem
 "
 )
 ]
+}
 ;
 }
 async
@@ -245,9 +250,14 @@ index
 )
 ;
 const
+{
+menu
+items
+:
 [
 printToJSON
 ]
+}
 =
 getMenuItems
 (
@@ -257,6 +267,12 @@ toolbox
 printToJSON
 .
 click
+(
+)
+;
+menu
+.
+hidePopup
 (
 )
 ;

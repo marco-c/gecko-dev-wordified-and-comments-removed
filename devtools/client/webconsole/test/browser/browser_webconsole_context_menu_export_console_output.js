@@ -1089,6 +1089,12 @@ file
 "
 )
 ;
+menuPopup
+.
+hidePopup
+(
+)
+;
 await
 waitFor
 (
@@ -1211,6 +1217,12 @@ return
 data
 ;
 }
+)
+;
+menuPopup
+.
+hidePopup
+(
 )
 ;
 return

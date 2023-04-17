@@ -1435,7 +1435,10 @@ enabled
 "
 )
 ;
-return
+const
+text
+=
+await
 waitForClipboardPromise
 (
 (
@@ -1452,6 +1455,15 @@ data
 >
 data
 )
+;
+menuPopup
+.
+hidePopup
+(
+)
+;
+return
+text
 ;
 }
 function

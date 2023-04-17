@@ -7939,6 +7939,9 @@ true
 }
 )
 ;
+return
+popup
+;
 }
 function
 selectContextMenuItem
