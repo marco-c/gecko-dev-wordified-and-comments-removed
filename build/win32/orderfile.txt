@@ -102077,16 +102077,6 @@ _NPAUTextureFactoryIdentifier
 23
 Z
 ?
-GetCompositorBackends
-gfxPlatform
-QAEX_NAAV
-?
-nsTArray
-W4LayersBackend
-layers
-mozilla
-Z
-?
 AllocPLayerTransactionChild
 CompositorBridgeChild
 layers
