@@ -6390,6 +6390,9 @@ AttachShadowWithoutNameChecks
 aInit
 .
 mMode
+aInit
+.
+mSlotAssignment
 )
 ;
 }
@@ -6404,6 +6407,8 @@ AttachShadowWithoutNameChecks
 (
 ShadowRootMode
 aMode
+SlotAssignmentMode
+aSlotAssignment
 )
 {
 nsAutoScriptBlocker
@@ -6516,6 +6521,7 @@ ShadowRoot
 (
 this
 aMode
+aSlotAssignment
 nodeInfo
 .
 forget
@@ -13339,7 +13345,7 @@ GetShadowRoot
 shadow
 -
 >
-MaybeReassignElement
+MaybeReassignContent
 (
 *
 this

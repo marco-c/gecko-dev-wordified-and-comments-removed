@@ -2653,9 +2653,14 @@ nsExtendedContentSlots
 nsExtendedContentSlots
 (
 )
-=
-default
+{
+MOZ_ASSERT
+(
+!
+mManualSlotAssignment
+)
 ;
+}
 size_t
 nsIContent
 :
