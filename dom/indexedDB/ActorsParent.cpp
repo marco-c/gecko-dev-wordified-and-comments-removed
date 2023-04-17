@@ -56423,13 +56423,13 @@ const
 int64_t
 &
 walFileSize
+QM_OR_ELSE_LOG
+(
 MOZ_TO_RESULT_INVOKE
 (
 walFile
 GetFileSize
 )
-.
-orElse
 (
 [
 ]
@@ -56468,6 +56468,7 @@ rv
 )
 ;
 }
+)
 )
 )
 ;

@@ -807,6 +807,8 @@ aFile
 {
 QM_TRY_RETURN
 (
+QM_OR_ELSE_LOG
+(
 MOZ_TO_RESULT_INVOKE
 (
 aFile
@@ -838,8 +840,6 @@ ExistsAsFile
 ;
 }
 )
-.
-orElse
 (
 [
 ]
@@ -890,6 +890,7 @@ rv
 )
 ;
 }
+)
 )
 )
 ;

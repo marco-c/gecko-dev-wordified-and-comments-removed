@@ -9711,6 +9711,8 @@ const
 auto
 &
 exists
+QM_OR_ELSE_LOG
+(
 MOZ_TO_RESULT_INVOKE
 (
 aDirectory
@@ -9735,14 +9737,13 @@ false
 ;
 }
 )
-.
-orElse
 (
 ErrToOkOrErr
 <
 NS_ERROR_FILE_ALREADY_EXISTS
 true
 >
+)
 )
 )
 ;

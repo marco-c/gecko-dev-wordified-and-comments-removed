@@ -578,6 +578,8 @@ false
 ;
 QM_TRY
 (
+QM_OR_ELSE_LOG
+(
 ToResult
 (
 BodyTraverseFiles
@@ -592,8 +594,6 @@ true
 false
 )
 )
-.
-orElse
 (
 [
 ]
@@ -631,6 +631,7 @@ rv
 )
 ;
 }
+)
 )
 )
 ;

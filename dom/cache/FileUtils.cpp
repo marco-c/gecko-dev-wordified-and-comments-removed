@@ -491,6 +491,8 @@ m3
 ;
 QM_TRY
 (
+QM_OR_ELSE_LOG
+(
 ToResult
 (
 cacheDir
@@ -505,13 +507,12 @@ DIRECTORY_TYPE
 0755
 )
 )
-.
-orElse
 (
 ErrToDefaultOkOrErr
 <
 NS_ERROR_FILE_ALREADY_EXISTS
 >
+)
 )
 )
 ;
@@ -552,6 +553,8 @@ kMorgueDirectory
 ;
 QM_TRY
 (
+QM_OR_ELSE_LOG
+(
 ToResult
 (
 bodyDir
@@ -566,13 +569,12 @@ DIRECTORY_TYPE
 0755
 )
 )
-.
-orElse
 (
 ErrToDefaultOkOrErr
 <
 NS_ERROR_FILE_ALREADY_EXISTS
 >
+)
 )
 )
 ;
@@ -1897,6 +1899,8 @@ false
 ;
 QM_TRY
 (
+QM_OR_ELSE_LOG
+(
 ToResult
 (
 BodyTraverseFiles
@@ -1909,8 +1913,6 @@ true
 true
 )
 )
-.
-orElse
 (
 [
 ]
@@ -1948,6 +1950,7 @@ rv
 )
 ;
 }
+)
 )
 )
 ;
