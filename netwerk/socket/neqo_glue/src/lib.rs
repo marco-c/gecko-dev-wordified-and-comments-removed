@@ -63,6 +63,7 @@ neqo_transport
 :
 :
 {
+CongestionControlAlgorithm
 ConnectionParameters
 Error
 as
@@ -573,6 +574,14 @@ default
 quic_version
 (
 quic_version
+)
+.
+cc_algorithm
+(
+CongestionControlAlgorithm
+:
+:
+Cubic
 )
 &
 http3_settings
