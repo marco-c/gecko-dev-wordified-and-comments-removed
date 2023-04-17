@@ -21781,12 +21781,6 @@ if
 tab
 .
 _overPlayingIcon
-&
-&
-!
-tab
-.
-pictureinpicture
 )
 {
 let
