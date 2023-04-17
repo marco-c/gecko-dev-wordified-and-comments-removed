@@ -39,11 +39,6 @@ EmptyHdr
 )
 )
 {
-MOZ_COUNT_CTOR
-(
-nsTArray_base
-)
-;
 }
 template
 <
@@ -87,11 +82,6 @@ mHdr
 )
 ;
 }
-MOZ_COUNT_DTOR
-(
-nsTArray_base
-)
-;
 }
 template
 <
@@ -121,11 +111,6 @@ EmptyHdr
 )
 )
 {
-MOZ_COUNT_CTOR
-(
-nsTArray_base
-)
-;
 }
 template
 <
