@@ -958,7 +958,7 @@ HTMLEditor
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 HTMLEditor
-TextEditor
+EditorBase
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -983,7 +983,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 HTMLEditor
-TextEditor
+EditorBase
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -1130,7 +1130,7 @@ nsIEditorMailSupport
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-TextEditor
+EditorBase
 )
 nsresult
 HTMLEditor
@@ -3018,7 +3018,7 @@ IsInitialized
 return
 ;
 }
-TextEditor
+EditorBase
 :
 :
 RemoveEventListeners
@@ -3039,7 +3039,7 @@ aFlags
 nsresult
 rv
 =
-TextEditor
+EditorBase
 :
 :
 SetFlags
@@ -3058,7 +3058,7 @@ rv
 NS_WARNING
 (
 "
-TextEditor
+EditorBase
 :
 :
 SetFlags
@@ -16063,7 +16063,7 @@ Failed
 (
 )
 "
-TextEditor
+HTMLEditor
 :
 :
 OnStartToHandleTopLevelEditSubAction
