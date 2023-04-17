@@ -91,9 +91,6 @@ nsRoleMapEntry
 class
 nsIFrame
 ;
-class
-nsIPersistentProperties
-;
 namespace
 mozilla
 :
@@ -112,6 +109,9 @@ a11y
 {
 class
 LocalAccessible
+;
+class
+AccAttributes
 ;
 class
 AccEvent
@@ -740,7 +740,7 @@ const
 virtual
 already_AddRefed
 <
-nsIPersistentProperties
+AccAttributes
 >
 Attributes
 (
@@ -2150,7 +2150,7 @@ aDescription
 virtual
 already_AddRefed
 <
-nsIPersistentProperties
+AccAttributes
 >
 NativeAttributes
 (

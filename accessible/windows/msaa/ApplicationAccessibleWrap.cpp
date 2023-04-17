@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsPersistentProperties
+AccAttributes
 .
 h
 "
@@ -53,7 +53,7 @@ ApplicationAccessible
 )
 already_AddRefed
 <
-nsIPersistentProperties
+AccAttributes
 >
 ApplicationAccessibleWrap
 :
@@ -64,12 +64,12 @@ NativeAttributes
 {
 RefPtr
 <
-nsPersistentProperties
+AccAttributes
 >
 attributes
 =
 new
-nsPersistentProperties
+AccAttributes
 (
 )
 ;
@@ -108,14 +108,12 @@ GetD2DEnabled
 isD2DEnabled
 )
 ;
-nsAutoString
-unused
-;
 attributes
 -
 >
-SetStringProperty
+SetAttribute
 (
+u
 "
 D2D
 "
@@ -133,7 +131,6 @@ u
 false
 "
 _ns
-unused
 )
 ;
 }

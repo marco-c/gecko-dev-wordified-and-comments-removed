@@ -78,9 +78,9 @@ nsString
 aStrings
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
-nsIPersistentProperties
+AccAttributes
 >
 >
 &

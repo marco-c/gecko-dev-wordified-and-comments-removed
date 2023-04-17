@@ -24,9 +24,6 @@ StaticRefPtr
 ;
 }
 class
-nsIPersistentProperties
-;
-class
 nsEventShell
 {
 public
@@ -158,7 +155,13 @@ GetEventAttributes
 nsINode
 *
 aNode
-nsIPersistentProperties
+mozilla
+:
+:
+a11y
+:
+:
+AccAttributes
 *
 aAttributes
 )

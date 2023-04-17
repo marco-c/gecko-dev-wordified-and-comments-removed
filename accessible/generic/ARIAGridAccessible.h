@@ -70,7 +70,7 @@ override
 virtual
 already_AddRefed
 <
-nsIPersistentProperties
+AccAttributes
 >
 NativeAttributes
 (
@@ -423,7 +423,7 @@ override
 virtual
 already_AddRefed
 <
-nsIPersistentProperties
+AccAttributes
 >
 NativeAttributes
 (

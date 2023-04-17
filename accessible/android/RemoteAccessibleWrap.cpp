@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsPersistentProperties
-.
-h
-"
-#
-include
-"
 mozilla
 /
 a11y
@@ -231,7 +224,7 @@ eIsDefunct
 }
 already_AddRefed
 <
-nsIPersistentProperties
+AccAttributes
 >
 RemoteAccessibleWrap
 :
