@@ -2134,7 +2134,7 @@ delta
 }
 if
 (
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -3003,7 +3003,7 @@ false
 }
 if
 (
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 )

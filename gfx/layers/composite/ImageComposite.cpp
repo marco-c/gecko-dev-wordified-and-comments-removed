@@ -198,7 +198,7 @@ TimeStamp
 ;
 if
 (
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 &
@@ -739,7 +739,7 @@ aNewImages
 ;
 if
 (
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -942,7 +942,7 @@ descr
 ;
 if
 (
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -1227,7 +1227,7 @@ dropped
 ;
 if
 (
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -1685,7 +1685,7 @@ aNewImage
 if
 (
 !
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 |

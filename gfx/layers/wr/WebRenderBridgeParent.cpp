@@ -498,10 +498,6 @@ gecko_profiler_thread_is_being_profiled
 return
 profiler_thread_is_being_profiled
 (
-ThreadProfilingFeatures
-:
-:
-Any
 )
 ;
 }
@@ -1367,7 +1363,7 @@ Now
 ;
 if
 (
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 )

@@ -9082,17 +9082,6 @@ if
 (
 profiler_thread_is_being_profiled
 (
-Combine
-(
-ThreadProfilingFeatures
-:
-:
-Sampling
-ThreadProfilingFeatures
-:
-:
-Markers
-)
 )
 )
 {
