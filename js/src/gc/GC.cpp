@@ -6992,7 +6992,7 @@ GCRuntime
 :
 setGrayRootsTracer
 (
-JSTraceDataOp
+JSGrayRootsTracer
 traceOp
 void
 *
