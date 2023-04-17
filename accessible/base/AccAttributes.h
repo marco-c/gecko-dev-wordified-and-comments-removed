@@ -108,6 +108,7 @@ Variant
 <
 bool
 float
+double
 int32_t
 RefPtr
 <
