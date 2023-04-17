@@ -416,15 +416,6 @@ seenRestarts
 "
 quicksuggest
 .
-suggestedIndex
-"
--
-1
-]
-[
-"
-quicksuggest
-.
 log
 "
 false
