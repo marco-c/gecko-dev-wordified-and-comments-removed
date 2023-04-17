@@ -10524,7 +10524,7 @@ panDistance
 ScrollSource
 :
 :
-Wheel
+Touchpad
 )
 ;
 ParentLayerPoint
@@ -16076,7 +16076,7 @@ panVector
 ScrollSource
 :
 :
-Touch
+Touchscreen
 )
 ;
 RecordScrollPayload

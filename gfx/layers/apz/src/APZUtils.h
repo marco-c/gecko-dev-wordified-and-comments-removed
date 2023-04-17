@@ -161,7 +161,8 @@ class
 ScrollSource
 {
 DOM
-Touch
+Touchscreen
+Touchpad
 Wheel
 Keyboard
 }
@@ -182,6 +183,15 @@ ScrollSource
 :
 :
 Wheel
+|
+|
+aSource
+=
+=
+ScrollSource
+:
+:
+Touchpad
 ;
 }
 const
