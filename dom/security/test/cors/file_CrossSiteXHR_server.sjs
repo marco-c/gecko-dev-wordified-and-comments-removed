@@ -79,9 +79,9 @@ queryString
 .
 split
 (
-'
+"
 &
-'
+"
 )
 .
 forEach
@@ -101,9 +101,9 @@ val
 .
 split
 (
-'
+"
 =
-'
+"
 )
 ;
 query
@@ -162,6 +162,7 @@ available
 >
 0
 )
+{
 Array
 .
 prototype
@@ -179,6 +180,7 @@ bodyAvail
 )
 )
 ;
+}
 var
 body
 =
@@ -783,9 +785,9 @@ val
 .
 split
 (
-'
+"
 =
-'
+"
 )
 ;
 cookies
@@ -828,9 +830,9 @@ val
 .
 split
 (
-'
+"
 =
-'
+"
 )
 ;
 if
@@ -997,6 +999,7 @@ query
 noAllowPreflight
 )
 )
+{
 response
 .
 setHeader
@@ -1015,12 +1018,14 @@ query
 allowOrigin
 )
 ;
+}
 if
 (
 query
 .
 allowCred
 )
+{
 response
 .
 setHeader
@@ -1039,12 +1044,14 @@ true
 "
 )
 ;
+}
 if
 (
 query
 .
 setCookie
 )
+{
 response
 .
 setHeader
@@ -1066,6 +1073,7 @@ path
 "
 )
 ;
+}
 if
 (
 isPreflight
@@ -1077,6 +1085,7 @@ query
 .
 allowHeaders
 )
+{
 response
 .
 setHeader
@@ -1095,12 +1104,14 @@ query
 allowHeaders
 )
 ;
+}
 if
 (
 query
 .
 allowMethods
 )
+{
 response
 .
 setHeader
@@ -1119,6 +1130,7 @@ query
 allowMethods
 )
 ;
+}
 }
 else
 {
@@ -1168,6 +1180,7 @@ query
 .
 exposeHeaders
 )
+{
 response
 .
 setHeader
@@ -1186,6 +1199,7 @@ query
 exposeHeaders
 )
 ;
+}
 }
 if
 (

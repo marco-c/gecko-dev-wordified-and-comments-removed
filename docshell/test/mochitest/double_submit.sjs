@@ -8,7 +8,12 @@ self
 =
 this
 ;
-Cu
+let
+{
+setTimeout
+}
+=
+ChromeUtils
 .
 import
 (
@@ -136,6 +141,7 @@ size
 chunkSize
 }
 )
+;
 while
 (
 remaining
@@ -222,6 +228,7 @@ chunk
 remaining
 }
 )
+;
 remaining
 -
 =
@@ -281,8 +288,8 @@ result
 .
 join
 (
-'
-'
+"
+"
 )
 ;
 }
@@ -569,6 +576,7 @@ Set
 headers
 "
 )
+;
 response
 .
 setHeader
@@ -652,6 +660,7 @@ Write
 body
 "
 )
+;
 for
 (
 let
@@ -677,6 +686,7 @@ now
 (
 )
 )
+;
 log
 (
 Delay
@@ -790,6 +800,7 @@ left
 fragments
 }
 )
+;
 }
 log
 (
@@ -798,6 +809,7 @@ Write
 footer
 "
 )
+;
 response
 .
 write

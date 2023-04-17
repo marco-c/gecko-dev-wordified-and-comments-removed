@@ -109,6 +109,7 @@ available
 >
 0
 )
+{
 Array
 .
 prototype
@@ -126,6 +127,7 @@ avail
 )
 )
 ;
+}
 var
 data
 =

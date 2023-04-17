@@ -14,9 +14,9 @@ query
 .
 split
 (
-'
+"
 &
-'
+"
 )
 )
 {
@@ -225,7 +225,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -239,7 +239,7 @@ input
 stream
 ;
 1
-'
+"
 ]
 .
 createInstance

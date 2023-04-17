@@ -200,6 +200,7 @@ append
 (
 path
 )
+;
 return
 testHTMLFile
 ;

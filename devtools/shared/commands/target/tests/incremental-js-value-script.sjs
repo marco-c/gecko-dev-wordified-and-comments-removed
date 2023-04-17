@@ -5,7 +5,7 @@ request
 response
 )
 {
-let
+const
 Etag
 =
 '
@@ -18,7 +18,7 @@ b03
 "
 '
 ;
-let
+const
 IfNoneMatch
 =
 request
@@ -65,7 +65,7 @@ counter
 |
 1
 ;
-let
+const
 page
 =
 "

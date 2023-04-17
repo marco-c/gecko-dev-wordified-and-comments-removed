@@ -5,7 +5,12 @@ Components
 .
 Constructor
 ;
-Cu
+let
+{
+setTimeout
+}
+=
+ChromeUtils
 .
 import
 (

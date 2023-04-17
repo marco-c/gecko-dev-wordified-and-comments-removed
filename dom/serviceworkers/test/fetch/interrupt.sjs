@@ -58,6 +58,7 @@ r
 n
 "
 )
+;
 var
 count
 =
@@ -174,8 +175,15 @@ body
 throw
 Components
 .
+Exception
+(
+"
+"
+Components
+.
 results
 .
 NS_BINDING_ABORTED
+)
 ;
 }
