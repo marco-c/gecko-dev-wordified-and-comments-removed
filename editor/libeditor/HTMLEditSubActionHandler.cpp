@@ -31282,9 +31282,6 @@ IsVisibleTextNode
 (
 *
 text
-GetActiveEditingHost
-(
-)
 )
 )
 {

@@ -1326,12 +1326,6 @@ const
 Text
 &
 aText
-const
-Element
-*
-aEditingHost
-=
-nullptr
 )
 ;
 static
@@ -1380,7 +1374,7 @@ return
 HTMLEditUtils
 :
 :
-GetBlockElementOfImmediateBlockBoundary
+GetElementOfImmediateBlockBoundary
 (
 aContent
 WalkTreeDirection
@@ -7472,7 +7466,7 @@ nullptr
 static
 Element
 *
-GetBlockElementOfImmediateBlockBoundary
+GetElementOfImmediateBlockBoundary
 (
 const
 nsIContent
