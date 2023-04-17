@@ -4966,7 +4966,7 @@ marks
 dictionary
 WindowPostMessageOptions
 :
-StructuredSerializeOptions
+PostMessageOptions
 {
 USVString
 targetOrigin

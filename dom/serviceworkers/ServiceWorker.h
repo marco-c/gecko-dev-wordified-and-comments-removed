@@ -63,11 +63,11 @@ mozilla
 namespace
 dom
 {
+struct
+PostMessageOptions
+;
 class
 ServiceWorkerCloneData
-;
-struct
-StructuredSerializeOptions
 ;
 #
 define
@@ -310,7 +310,7 @@ Value
 >
 aMessage
 const
-StructuredSerializeOptions
+PostMessageOptions
 &
 aOptions
 ErrorResult

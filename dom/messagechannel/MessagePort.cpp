@@ -1991,7 +1991,7 @@ Value
 >
 aMessage
 const
-StructuredSerializeOptions
+PostMessageOptions
 &
 aOptions
 ErrorResult
