@@ -80537,9 +80537,15 @@ return
 loadInfo
 -
 >
-GetHasStoragePermission
+GetStoragePermission
 (
 )
+!
+=
+nsILoadInfo
+:
+:
+NoStoragePermission
 ;
 }
 nsIPrincipal

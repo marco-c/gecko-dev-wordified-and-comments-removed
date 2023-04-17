@@ -27,6 +27,13 @@ ContentBlockingNotifier
 .
 h
 "
+#
+include
+"
+nsILoadInfo
+.
+h
+"
 class
 nsPIDOMWindowInner
 ;
@@ -164,8 +171,11 @@ aBlockedReason
 )
 ;
 static
-bool
-HasStoragePermissionInParent
+nsILoadInfo
+:
+:
+StoragePermissionState
+GetStoragePermissionStateInParent
 (
 nsIChannel
 *
