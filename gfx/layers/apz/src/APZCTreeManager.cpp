@@ -6721,7 +6721,12 @@ TestHasAsyncKeyScrolled
 }
 if
 (
-newApzc
+node
+-
+>
+IsPrimaryHolder
+(
+)
 )
 {
 if
