@@ -685,6 +685,24 @@ MACRO
 (
 10
 "
+tasktracer
+"
+TaskTracer
+\
+"
+Start
+profiling
+with
+feature
+TaskTracer
+"
+)
+\
+\
+MACRO
+(
+11
+"
 threads
 "
 Threads
@@ -700,7 +718,7 @@ threads
 \
 MACRO
 (
-11
+12
 "
 jstracer
 "
@@ -718,7 +736,7 @@ engine
 \
 MACRO
 (
-12
+13
 "
 jsallocations
 "
@@ -737,7 +755,7 @@ allocations
 \
 MACRO
 (
-13
+14
 "
 nostacksampling
 "
@@ -776,7 +794,7 @@ labels
 \
 MACRO
 (
-14
+15
 "
 preferencereads
 "
@@ -794,7 +812,7 @@ read
 \
 MACRO
 (
-15
+16
 "
 nativeallocations
 "
@@ -826,7 +844,7 @@ allocations
 \
 MACRO
 (
-16
+17
 "
 ipcmessages
 "
@@ -848,7 +866,7 @@ messages
 \
 MACRO
 (
-17
+18
 "
 audiocallbacktracing
 "
@@ -864,7 +882,7 @@ tracing
 \
 MACRO
 (
-18
+19
 "
 cpu
 "

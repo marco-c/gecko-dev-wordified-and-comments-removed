@@ -830,6 +830,14 @@ endif
 ProfilerFeature
 :
 :
+ClearTaskTracer
+(
+features
+)
+;
+ProfilerFeature
+:
+:
 ClearJSTracer
 (
 features
