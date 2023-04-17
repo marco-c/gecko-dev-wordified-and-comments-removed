@@ -592,7 +592,7 @@ x
 size_t
 y
 size_t
-xsize
+num_pixels
 const
 void
 *

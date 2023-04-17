@@ -5393,6 +5393,8 @@ raw_bytes
 size
 (
 )
+nullptr
+nullptr
 metadata
 .
 GetOrientation

@@ -217,6 +217,8 @@ interleaved
 size
 (
 )
+nullptr
+nullptr
 jxl
 :
 :

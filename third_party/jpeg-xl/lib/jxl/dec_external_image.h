@@ -23,6 +23,15 @@ include
 "
 jxl
 /
+decode
+.
+h
+"
+#
+include
+"
+jxl
+/
 types
 .
 h
@@ -107,6 +116,11 @@ void
 out_image
 size_t
 out_size
+JxlImageOutCallback
+out_callback
+void
+*
+out_opaque
 jxl
 :
 :

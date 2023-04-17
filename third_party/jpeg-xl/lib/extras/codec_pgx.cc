@@ -2082,6 +2082,8 @@ pixels
 size
 (
 )
+nullptr
+nullptr
 metadata
 .
 GetOrientation
