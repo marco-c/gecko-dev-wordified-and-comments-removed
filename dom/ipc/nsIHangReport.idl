@@ -94,11 +94,6 @@ terminateScript
 )
 ;
 void
-terminateGlobal
-(
-)
-;
-void
 terminatePlugin
 (
 )
