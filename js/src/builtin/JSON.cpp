@@ -2498,11 +2498,10 @@ isNativeProperty
 &
 prop
 .
-shape
+shapeProperty
 (
 )
--
->
+.
 isDataDescriptor
 (
 )

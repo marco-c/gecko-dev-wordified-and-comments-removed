@@ -1148,11 +1148,10 @@ JSPROP_ENUMERATE
 return
 prop
 .
-shape
+shapeProperty
 (
 )
--
->
+.
 attributes
 (
 )
