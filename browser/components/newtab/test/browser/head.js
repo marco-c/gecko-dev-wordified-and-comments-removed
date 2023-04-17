@@ -401,9 +401,9 @@ pushPrefs
 "
 browser
 .
-proton
+aboutwelcome
 .
-enabled
+protonDesign
 "
 value
 ]
