@@ -430,7 +430,7 @@ this
 .
 connection
 .
-sendEvent
+onEvent
 (
 event
 .

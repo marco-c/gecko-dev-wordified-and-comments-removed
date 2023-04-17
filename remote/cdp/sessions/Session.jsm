@@ -245,7 +245,7 @@ this
 .
 connection
 .
-sendEvent
+onEvent
 (
 eventName
 params
