@@ -499,13 +499,6 @@ UseDMABuf
 bool
 false
 )
-\
-_
-(
-WebRenderRequiresHardwareDriver
-bool
-false
-)
 class
 gfxVars
 final
