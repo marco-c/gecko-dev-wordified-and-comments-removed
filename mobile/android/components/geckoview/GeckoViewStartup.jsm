@@ -620,6 +620,11 @@ GeckoView
 :
 SetPermission
 "
+"
+GeckoView
+:
+SetPermissionByURI
+"
 ]
 }
 )
