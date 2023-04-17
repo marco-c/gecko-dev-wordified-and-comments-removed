@@ -5525,6 +5525,10 @@ cx
 (
 )
 )
+recursion_
+(
+cx_
+)
 {
 }
 bool
@@ -5536,10 +5540,9 @@ bool
 overflowed
 =
 !
-js
-:
-:
-CheckRecursionLimitDontReport
+recursion_
+.
+checkDontReport
 (
 cx_
 )
@@ -5615,6 +5618,12 @@ private
 JSContext
 *
 cx_
+;
+js
+:
+:
+AutoCheckRecursionLimit
+recursion_
 ;
 }
 ;
