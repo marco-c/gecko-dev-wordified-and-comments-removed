@@ -2427,11 +2427,11 @@ contentDocument
 contentDocument
 .
 readyState
-!
+=
 =
 =
 "
-complete
+loading
 "
 )
 {
