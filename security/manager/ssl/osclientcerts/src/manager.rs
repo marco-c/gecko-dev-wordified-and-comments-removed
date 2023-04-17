@@ -1938,10 +1938,6 @@ new
 >
 Manager
 {
-let
-mut
-manager
-=
 Manager
 {
 sessions
@@ -2002,14 +1998,6 @@ last_scan_time
 :
 None
 }
-;
-manager
-.
-maybe_find_new_objects
-(
-)
-;
-manager
 }
 fn
 maybe_find_new_objects
