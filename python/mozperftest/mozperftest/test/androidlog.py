@@ -383,6 +383,54 @@ name
         
 }
         
+if
+self
+.
+get_arg
+(
+"
+android
+"
+)
+:
+            
+binary_path
+=
+self
+.
+get_arg
+(
+"
+android
+-
+app
+-
+name
+"
+)
+        
+else
+:
+            
+binary_path
+=
+self
+.
+get_arg
+(
+"
+binary
+"
+)
+or
+self
+.
+mach_cmd
+.
+get_binary_path
+(
+)
+        
 metadata
 .
 add_result
@@ -426,6 +474,12 @@ name
 "
 LogCat
 "
+                
+"
+binary
+"
+:
+binary_path
             
 }
         

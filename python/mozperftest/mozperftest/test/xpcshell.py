@@ -1157,6 +1157,15 @@ test
 name
                 
 "
+binary
+"
+:
+str
+(
+binary
+)
+                
+"
 framework
 "
 :
