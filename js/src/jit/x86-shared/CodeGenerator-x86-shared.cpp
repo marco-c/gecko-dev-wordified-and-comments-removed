@@ -19311,22 +19311,8 @@ rhs
 )
 )
 ;
-Register
-temp1
-=
-ToTempRegisterOrInvalid
-(
-ins
--
->
-getTemp
-(
-0
-)
-)
-;
 FloatRegister
-temp2
+temp
 =
 ToTempFloatRegisterOrInvalid
 (
@@ -19335,7 +19321,7 @@ ins
 >
 getTemp
 (
-1
+0
 )
 )
 ;
@@ -19380,8 +19366,7 @@ leftShiftInt8x16
 (
 rhs
 lhsDest
-temp1
-temp2
+temp
 )
 ;
 break
@@ -19401,8 +19386,7 @@ rightShiftInt8x16
 (
 rhs
 lhsDest
-temp1
-temp2
+temp
 )
 ;
 break
@@ -19422,8 +19406,7 @@ unsignedRightShiftInt8x16
 (
 rhs
 lhsDest
-temp1
-temp2
+temp
 )
 ;
 break
@@ -19443,7 +19426,6 @@ leftShiftInt16x8
 (
 rhs
 lhsDest
-temp1
 )
 ;
 break
@@ -19463,7 +19445,6 @@ rightShiftInt16x8
 (
 rhs
 lhsDest
-temp1
 )
 ;
 break
@@ -19483,7 +19464,6 @@ unsignedRightShiftInt16x8
 (
 rhs
 lhsDest
-temp1
 )
 ;
 break
@@ -19503,7 +19483,6 @@ leftShiftInt32x4
 (
 rhs
 lhsDest
-temp1
 )
 ;
 break
@@ -19523,7 +19502,6 @@ rightShiftInt32x4
 (
 rhs
 lhsDest
-temp1
 )
 ;
 break
@@ -19543,7 +19521,6 @@ unsignedRightShiftInt32x4
 (
 rhs
 lhsDest
-temp1
 )
 ;
 break
@@ -19563,7 +19540,6 @@ leftShiftInt64x2
 (
 rhs
 lhsDest
-temp1
 )
 ;
 break
@@ -19583,8 +19559,7 @@ rightShiftInt64x2
 (
 rhs
 lhsDest
-temp1
-temp2
+temp
 )
 ;
 break
@@ -19604,7 +19579,6 @@ unsignedRightShiftInt64x2
 (
 rhs
 lhsDest
-temp1
 )
 ;
 break

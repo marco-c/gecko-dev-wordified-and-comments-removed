@@ -20518,7 +20518,7 @@ LInstructionHelper
 <
 1
 2
-2
+1
 >
 {
 public
@@ -20561,11 +20561,7 @@ rhs
 const
 LDefinition
 &
-temp0
-const
-LDefinition
-&
-temp1
+temp
 )
 :
 LInstructionHelper
@@ -20588,13 +20584,7 @@ rhs
 setTemp
 (
 0
-temp0
-)
-;
-setTemp
-(
-1
-temp1
+temp
 )
 ;
 }
