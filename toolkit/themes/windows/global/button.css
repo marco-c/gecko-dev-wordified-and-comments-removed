@@ -568,6 +568,9 @@ state
 *
 /
 button
+:
+where
+(
 [
 disabled
 =
@@ -575,6 +578,7 @@ disabled
 true
 "
 ]
+)
 {
 color
 :
@@ -592,6 +596,9 @@ classic
 )
 {
 button
+:
+where
+(
 [
 disabled
 =
@@ -599,6 +606,7 @@ disabled
 true
 "
 ]
+)
 {
 color
 :

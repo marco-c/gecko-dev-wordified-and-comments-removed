@@ -1116,18 +1116,6 @@ button
 background
 )
 ;
-/
-*
-Override
-button
-.
-css
-hover
-&
-active
-styles
-*
-/
 color
 :
 var
@@ -1140,8 +1128,6 @@ button
 -
 text
 )
-!
-important
 ;
 padding
 :
