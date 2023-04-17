@@ -1660,3 +1660,16 @@ bug
 1712866
 )
 .
+skip
+-
+if
+(
+Android
+)
+HTTP
+load
+1728670
+-
+1
+.
+html
