@@ -5214,8 +5214,6 @@ GetMediaDevices
 MediaEngine
 *
 aEngine
-uint64_t
-aWindowId
 MediaSourceEnum
 aSrcType
 MediaManager
@@ -5252,12 +5250,6 @@ aEngine
 =
 %
 p
-aWindowId
-=
-%
-"
-PRIu64
-"
 aSrcType
 =
 %
@@ -5271,7 +5263,6 @@ s
 "
 __func__
 aEngine
-aWindowId
 static_cast
 <
 uint8_t
@@ -5302,7 +5293,6 @@ aEngine
 >
 EnumerateDevices
 (
-aWindowId
 aSrcType
 MediaSinkEnum
 :
@@ -8436,8 +8426,6 @@ MediaManager
 :
 EnumerateRawDevices
 (
-uint64_t
-aWindowId
 MediaSourceEnum
 aVideoInputType
 MediaSourceEnum
@@ -8633,12 +8621,6 @@ LOG
 %
 s
 :
-aWindowId
-=
-%
-"
-PRIu64
-"
 aVideoInputType
 =
 %
@@ -8663,7 +8645,6 @@ aAudioInputEnumType
 "
 PRIu8
 __func__
-aWindowId
 static_cast
 <
 uint8_t
@@ -8892,7 +8873,6 @@ move
 (
 holder
 )
-aWindowId
 aVideoInputType
 aAudioInputType
 aVideoInputEnumType
@@ -8949,6 +8929,15 @@ GetIfExists
 MOZ_RELEASE_ASSERT
 (
 manager
+"
+Must
+exist
+while
+media
+thread
+is
+alive
+"
 )
 ;
 realBackend
@@ -9038,7 +9027,6 @@ real
 GetMediaDevices
 (
 videoBackend
-aWindowId
 aVideoInputType
 videos
 videoLoopDev
@@ -9110,7 +9098,6 @@ real
 GetMediaDevices
 (
 audioBackend
-aWindowId
 aAudioInputType
 audios
 audioLoopDev
@@ -9182,7 +9169,6 @@ realBackend
 >
 EnumerateDevices
 (
-aWindowId
 MediaSourceEnum
 :
 :
@@ -9296,7 +9282,6 @@ else
 GetMediaDevices
 (
 videoBackend
-aWindowId
 MediaSourceEnum
 :
 :
@@ -9343,7 +9328,6 @@ realBackend
 >
 EnumerateDevices
 (
-aWindowId
 MediaSourceEnum
 :
 :
@@ -11341,7 +11325,6 @@ __func__
 return
 EnumerateRawDevices
 (
-0
 MediaSourceEnum
 :
 :
@@ -15488,7 +15471,6 @@ mgr
 >
 EnumerateRawDevices
 (
-windowId
 aVideoInputType
 aAudioInputType
 aAudioOutputType

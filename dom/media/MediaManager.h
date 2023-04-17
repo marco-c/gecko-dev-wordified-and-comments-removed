@@ -1302,8 +1302,6 @@ MgrPromise
 >
 EnumerateRawDevices
 (
-uint64_t
-aWindowId
 dom
 :
 :
