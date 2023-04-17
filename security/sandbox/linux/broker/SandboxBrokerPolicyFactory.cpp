@@ -4510,6 +4510,17 @@ etc
 "
 )
 ;
+policy
+-
+>
+AddDir
+(
+access
+"
+/
+"
+)
+;
 AddLdconfigPaths
 (
 policy
