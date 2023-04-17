@@ -1814,7 +1814,7 @@ initialized
 {
 this
 .
-hookWebDeveloperMenu
+hookBrowserToolsMenu
 (
 window
 )
@@ -2344,7 +2344,7 @@ target
 ;
 }
 }
-hookWebDeveloperMenu
+hookBrowserToolsMenu
 (
 window
 )
@@ -2359,7 +2359,7 @@ document
 getElementById
 (
 "
-webDeveloperMenu
+browserToolsMenu
 "
 )
 ;

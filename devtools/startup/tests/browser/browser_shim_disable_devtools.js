@@ -669,7 +669,7 @@ document
 getElementById
 (
 "
-webDeveloperMenu
+browserToolsMenu
 "
 )
 ;
@@ -681,8 +681,8 @@ browserToolsMenu
 hidden
 "
 The
-Web
-Developer
+Browser
+Tools
 item
 of
 the

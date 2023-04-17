@@ -4006,7 +4006,7 @@ menu
 id
 =
 "
-webDeveloperMenu
+browserToolsMenu
 "
 data
 -
