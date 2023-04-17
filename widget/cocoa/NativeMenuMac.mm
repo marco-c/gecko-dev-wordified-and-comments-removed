@@ -1892,6 +1892,12 @@ NativeNSMenu
 cancelTrackingWithoutAnimation
 ]
 ;
+MOZMenuOpeningCoordinator
+.
+needToUnwindForMenuClosing
+=
+YES
+;
 menu
 -
 >

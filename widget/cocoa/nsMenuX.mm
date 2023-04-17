@@ -660,6 +660,12 @@ mNativeMenu
 cancelTracking
 ]
 ;
+MOZMenuOpeningCoordinator
+.
+needToUnwindForMenuClosing
+=
+YES
+;
 }
 FlushMenuClosedRunnable
 (
@@ -3097,6 +3103,12 @@ mIsOpen
 mNativeMenu
 cancelTrackingWithoutAnimation
 ]
+;
+MOZMenuOpeningCoordinator
+.
+needToUnwindForMenuClosing
+=
+YES
 ;
 MenuClosed
 (

@@ -94,6 +94,13 @@ Runnable
 )
 aRunnable
 ;
+property
+(
+class
+)
+BOOL
+needToUnwindForMenuClosing
+;
 end
 #
 endif
