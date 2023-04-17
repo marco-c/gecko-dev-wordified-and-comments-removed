@@ -1341,7 +1341,7 @@ Ok
 ;
 }
 XDRResult
-peekRawUint32
+peekUint32
 (
 uint32_t
 *
