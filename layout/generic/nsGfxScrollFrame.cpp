@@ -19622,7 +19622,7 @@ if
 rootPresContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 &
