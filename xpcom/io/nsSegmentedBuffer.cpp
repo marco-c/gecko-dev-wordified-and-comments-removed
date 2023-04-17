@@ -745,6 +745,9 @@ else
 {
 mFreeOMT
 =
+mozilla
+:
+:
 MakeRefPtr
 <
 FreeOMTPointers

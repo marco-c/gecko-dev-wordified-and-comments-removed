@@ -13,6 +13,11 @@ h
 >
 #
 include
+<
+functional
+>
+#
+include
 "
 nsCOMPtr
 .
@@ -29,6 +34,13 @@ h
 include
 "
 nsError
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "
