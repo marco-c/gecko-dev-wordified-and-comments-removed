@@ -1677,7 +1677,9 @@ NormalizeWord
 (
 mSoftText
 .
-mValue
+GetValue
+(
+)
 word
 .
 mSoftTextOffset
@@ -4187,7 +4189,9 @@ int32_t
 (
 mSoftText
 .
-mValue
+GetValue
+(
+)
 .
 Length
 (
@@ -4205,7 +4209,9 @@ IsDOMWordSeparator
 (
 mSoftText
 .
-mValue
+GetValue
+(
+)
 .
 CharAt
 (
@@ -4286,7 +4292,9 @@ SplitDOMWordAndAppendTo
 wordStart
 mSoftText
 .
-mValue
+GetValue
+(
+)
 .
 Length
 (
@@ -5152,7 +5160,9 @@ targetText
 (
 mSoftText
 .
-mValue
+GetValue
+(
+)
 aStart
 aEnd
 -
