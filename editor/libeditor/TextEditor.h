@@ -971,12 +971,6 @@ OnEndHandlingTopLevelEditSubAction
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
-nsresult
-EnsurePaddingBRElementForEmptyEditor
-(
-)
-;
 nsresult
 HandleInlineSpellCheckAfterEdit
 (
