@@ -5038,7 +5038,7 @@ size_t
 RegExpZone
 :
 :
-sizeOfExcludingThis
+sizeOfIncludingThis
 (
 mozilla
 :
@@ -5046,8 +5046,14 @@ mozilla
 MallocSizeOf
 mallocSizeOf
 )
+const
 {
 return
+mallocSizeOf
+(
+this
+)
++
 set_
 .
 sizeOfExcludingThis

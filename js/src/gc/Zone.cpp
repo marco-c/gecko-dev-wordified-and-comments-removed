@@ -3546,7 +3546,7 @@ regExps
 (
 )
 .
-sizeOfExcludingThis
+sizeOfIncludingThis
 (
 mallocSizeOf
 )
