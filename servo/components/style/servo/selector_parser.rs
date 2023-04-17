@@ -1741,7 +1741,7 @@ ReadWrite
 ElementState
 :
 :
-IN_READ_WRITE_STATE
+IN_READWRITE_STATE
 PlaceholderShown
 =
 >
