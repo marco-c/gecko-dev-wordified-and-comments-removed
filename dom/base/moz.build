@@ -1132,6 +1132,11 @@ ProcessMessageManager
 h
 "
 "
+RadioGroupManager
+.
+h
+"
+"
 ResizeObserver
 .
 h
@@ -1950,6 +1955,11 @@ cpp
 "
 "
 ProcessMessageManager
+.
+cpp
+"
+"
+RadioGroupManager
 .
 cpp
 "
