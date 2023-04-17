@@ -443,17 +443,3 @@ ergonomic_brand_checks
 true
 )
 ;
-user_pref
-(
-"
-javascript
-.
-options
-.
-experimental
-.
-enable_change_array_by_copy
-"
-false
-)
-;

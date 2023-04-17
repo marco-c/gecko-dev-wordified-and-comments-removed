@@ -619,15 +619,6 @@ extern
 bool
 enableErgonomicBrandChecks
 ;
-#
-ifdef
-ENABLE_CHANGE_ARRAY_BY_COPY
-extern
-bool
-enableChangeArrayByCopy
-;
-#
-endif
 extern
 bool
 enableClassStaticBlocks
