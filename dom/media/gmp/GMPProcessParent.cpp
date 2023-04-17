@@ -166,6 +166,9 @@ ipc
 :
 GeckoChildProcessHost
 ;
+#
+ifdef
+MOZ_WIDGET_ANDROID
 static
 const
 int
@@ -174,6 +177,8 @@ kInvalidFd
 -
 1
 ;
+#
+endif
 namespace
 mozilla
 :
