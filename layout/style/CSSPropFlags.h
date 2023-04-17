@@ -72,6 +72,12 @@ IsLogical
 <
 <
 6
+ShorthandUnconditionallyExposedOnGetCS
+=
+1
+<
+<
+7
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
