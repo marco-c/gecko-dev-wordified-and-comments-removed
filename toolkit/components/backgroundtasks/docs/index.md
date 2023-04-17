@@ -258,6 +258,15 @@ For
 example
 :
 javascript
+var
+EXPORTED_SYMBOLS
+=
+[
+"
+runBackgroundTask
+"
+]
+;
 async
 function
 runBackgroundTask
