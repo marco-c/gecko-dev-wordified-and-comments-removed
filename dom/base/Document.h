@@ -4238,6 +4238,11 @@ HasStorageAccessPermissionGranted
 (
 )
 ;
+bool
+HasStorageAccessPermissionGrantedByAllowList
+(
+)
+;
 inline
 void
 Changed
