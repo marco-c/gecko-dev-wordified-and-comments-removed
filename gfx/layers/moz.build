@@ -132,11 +132,6 @@ ReadbackLayer
 .
 h
 "
-"
-TiledLayerBuffer
-.
-h
-"
 ]
 if
 CONFIG
