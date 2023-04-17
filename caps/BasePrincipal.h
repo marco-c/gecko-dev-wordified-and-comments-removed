@@ -466,7 +466,10 @@ final
 NS_IMETHOD
 GetAddonPolicy
 (
-nsISupports
+extensions
+:
+:
+WebExtensionPolicy
 *
 *
 aResult
