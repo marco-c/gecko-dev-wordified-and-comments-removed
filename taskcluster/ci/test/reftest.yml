@@ -1574,8 +1574,6 @@ test
 platform
 :
 windows10
--
-64
 .
 *
 :
@@ -1677,8 +1675,6 @@ test
 platform
 :
 windows10
--
-64
 .
 *
 :
