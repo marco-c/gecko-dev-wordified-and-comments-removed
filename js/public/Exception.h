@@ -163,6 +163,7 @@ ExceptionStatus
 None
 ForcedReturn
 Throwing
+OutOfMemory
 OverRecursed
 }
 ;
