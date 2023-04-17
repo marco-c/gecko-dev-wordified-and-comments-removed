@@ -476,9 +476,6 @@ false
 manageSuite
 :
 false
-testPluginEnabledStates
-:
-null
 prefsToRestore
 :
 [

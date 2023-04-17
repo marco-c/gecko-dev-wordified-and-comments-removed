@@ -4264,12 +4264,6 @@ false
 ;
 sandbox
 .
-haveTestPlugin
-=
-false
-;
-sandbox
-.
 windowsDefaultTheme
 =
 g

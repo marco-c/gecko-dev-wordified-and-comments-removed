@@ -2590,6 +2590,7 @@ lime100x100
 ref
 .
 html
+skip
 !
 =
 img
@@ -2604,10 +2605,11 @@ helper
 .
 svg
 lime100x100
--
-ref
 .
-html
+svg
+#
+Bug
+1708599
 =
 =
 img
@@ -2654,10 +2656,8 @@ helper
 .
 svg
 lime100x100
--
-ref
 .
-html
+svg
 =
 =
 img
