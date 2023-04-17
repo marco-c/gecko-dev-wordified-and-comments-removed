@@ -2,6 +2,8 @@ import
 '
 .
 /
+resources
+/
 basic
 -
 module
