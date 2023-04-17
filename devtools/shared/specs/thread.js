@@ -236,17 +236,6 @@ paused
 reason
 "
 )
-error
-:
-Option
-(
-0
-"
-nullable
-:
-json
-"
-)
 }
 resumed
 :
