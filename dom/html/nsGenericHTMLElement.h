@@ -3844,6 +3844,13 @@ IsAutocapitalizeInheriting
 )
 const
 ;
+inline
+bool
+IsAutofocusable
+(
+)
+const
+;
 virtual
 void
 SaveState
