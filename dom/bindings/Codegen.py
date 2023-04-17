@@ -81456,6 +81456,7 @@ self
 return
 dedent
 (
+            
 "
 "
 "
@@ -81555,6 +81556,7 @@ true
 "
 "
 "
+        
 )
 class
 CGResolveOwnPropertyViaResolve
