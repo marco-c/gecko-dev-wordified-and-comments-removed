@@ -85,7 +85,13 @@ response
 "
 _
 "
+{
+type
+:
+"
 undefined
+"
+}
 )
 ;
 info
