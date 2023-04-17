@@ -732,16 +732,6 @@ iconURL
 priority
 buttons
 callback
-null
-[
-"
-browser
-/
-defaultBrowserNotification
-.
-ftl
-"
-]
 )
 ;
 }
