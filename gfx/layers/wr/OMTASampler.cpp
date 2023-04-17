@@ -162,6 +162,10 @@ OMTASampler
 mSampleTimeLock
 "
 )
+mIsInTestMode
+(
+false
+)
 {
 mController
 =
@@ -529,6 +533,14 @@ IsSamplerThread
 )
 )
 ;
+if
+(
+mIsInTestMode
+)
+{
+return
+;
+}
 TimeStamp
 sampleTime
 ;
