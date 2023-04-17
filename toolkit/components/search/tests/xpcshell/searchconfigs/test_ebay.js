@@ -355,6 +355,8 @@ details
 domain
 :
 "
+www
+.
 befr
 .
 ebay
@@ -439,6 +441,8 @@ sId
 domain
 :
 "
+www
+.
 ebay
 .
 at
@@ -505,6 +509,8 @@ sId
 domain
 :
 "
+www
+.
 ebay
 .
 ca
@@ -661,6 +667,8 @@ sId
 domain
 :
 "
+www
+.
 ebay
 .
 ch
@@ -806,6 +814,8 @@ sId
 domain
 :
 "
+www
+.
 ebay
 .
 com
@@ -893,6 +903,8 @@ sId
 domain
 :
 "
+www
+.
 ebay
 .
 com
@@ -971,6 +983,8 @@ sId
 domain
 :
 "
+www
+.
 ebay
 .
 ie
@@ -1063,6 +1077,8 @@ sId
 domain
 :
 "
+www
+.
 ebay
 .
 co
@@ -1162,6 +1178,8 @@ sId
 domain
 :
 "
+www
+.
 ebay
 .
 de
@@ -1234,6 +1252,8 @@ sId
 domain
 :
 "
+www
+.
 ebay
 .
 es
@@ -1290,6 +1310,8 @@ sId
 domain
 :
 "
+www
+.
 ebay
 .
 fr
@@ -1368,6 +1390,8 @@ sId
 domain
 :
 "
+www
+.
 ebay
 .
 it
@@ -1424,6 +1448,8 @@ sId
 domain
 :
 "
+www
+.
 ebay
 .
 nl
