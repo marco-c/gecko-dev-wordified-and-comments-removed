@@ -1847,14 +1847,6 @@ configure
 MOZCONFIG
 =
 mozconfig_path
-                
-VIRTUALENV_NAME
-=
-"
-python
--
-test
-"
             
 )
             

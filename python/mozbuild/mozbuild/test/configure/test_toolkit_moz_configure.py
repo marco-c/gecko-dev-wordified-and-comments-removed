@@ -162,21 +162,6 @@ shell
 "
 "
 )
-.
-replace
-(
-                
-"
-VIRTUALENV_NAME
-=
-python
--
-test
-"
-"
-"
-            
-)
         
 self
 .
