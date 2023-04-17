@@ -2519,7 +2519,7 @@ build_src
 install_dir
 host
 targets
-patch
+patches
 )
 :
     
@@ -2621,16 +2621,12 @@ makedirs
 install_dir
 )
     
-if
-patch
-:
-        
 for
 p
 in
-patch
+patches
 :
-            
+        
 module
 colon
 file
@@ -2643,19 +2639,19 @@ partition
 :
 "
 )
-            
+        
 if
 not
 colon
 :
-                
+            
 module
 file
 =
 "
 "
 p
-            
+        
 patch_file
 =
 os
@@ -2667,7 +2663,7 @@ join
 patch_dir
 file
 )
-            
+        
 patch_module
 =
 os
@@ -2679,7 +2675,7 @@ join
 rust_dir
 module
 )
-            
+        
 patch_src
 (
 patch_file
@@ -2711,6 +2707,14 @@ dedent
 [
 build
 ]
+        
+docs
+=
+false
+        
+sanitizers
+=
+true
         
 extended
 =
@@ -3086,9 +3090,10 @@ compiler_builtins_hack
 =
 False
     
-patch
+patches
 =
-None
+[
+]
 )
 :
     
@@ -3112,14 +3117,14 @@ build_src
 install_dir
 host
 targets
-patch
+patches
 )
     
 else
 :
         
 if
-patch
+patches
 :
             
 raise
@@ -4813,11 +4818,22 @@ add_argument
 patch
 "
         
-nargs
+dest
 =
 "
-+
+patches
 "
+        
+action
+=
+"
+append
+"
+        
+default
+=
+[
+]
         
 help
 =
@@ -4897,6 +4913,16 @@ rust
 '
 s
 llvm
+.
+"
+        
+"
+Can
+be
+given
+more
+than
+once
 .
 "
     
