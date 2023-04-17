@@ -2688,22 +2688,6 @@ options
 specialPowersExtensionPath
 is
 None
-and
-options
-.
-suite
-in
-[
-            
-"
-crashtest
-"
-            
-"
-jstestbrowser
-"
-        
-]
 :
             
 if
