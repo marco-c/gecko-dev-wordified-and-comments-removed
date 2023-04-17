@@ -38,11 +38,6 @@ threadActor
 "
 number
 "
-cacheDisabled
-:
-"
-boolean
-"
 javascriptEnabled
 :
 "
