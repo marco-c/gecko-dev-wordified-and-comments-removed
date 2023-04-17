@@ -9,11 +9,14 @@ replace
 let
 cwd
 =
-do_get_cwd
+await
+OS
+.
+File
+.
+getCurrentDirectory
 (
 )
-.
-path
 ;
 let
 path

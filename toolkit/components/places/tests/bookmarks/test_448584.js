@@ -390,7 +390,9 @@ validateResults
 )
 ;
 await
-IOUtils
+OS
+.
+File
 .
 remove
 (

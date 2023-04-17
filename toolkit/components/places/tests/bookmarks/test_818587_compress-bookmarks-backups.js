@@ -105,7 +105,9 @@ mostRecentBackupFile
 )
 ;
 await
-IOUtils
+OS
+.
+File
 .
 remove
 (
@@ -118,7 +120,9 @@ equal
 (
 false
 await
-IOUtils
+OS
+.
+File
 .
 exists
 (
@@ -315,7 +319,9 @@ eraseEverything
 )
 ;
 await
-IOUtils
+OS
+.
+File
 .
 remove
 (

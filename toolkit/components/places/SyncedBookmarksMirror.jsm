@@ -887,7 +887,9 @@ wasCorrupt
 true
 ;
 await
-IOUtils
+OS
+.
+File
 .
 remove
 (

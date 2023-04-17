@@ -186,7 +186,9 @@ checkQuotedFolder
 )
 ;
 await
-IOUtils
+OS
+.
+File
 .
 remove
 (
