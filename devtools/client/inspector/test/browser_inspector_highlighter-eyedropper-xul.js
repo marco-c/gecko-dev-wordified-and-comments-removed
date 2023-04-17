@@ -270,6 +270,12 @@ picker
 "
 )
 ;
+cPicker
+.
+hide
+(
+)
+;
 info
 (
 "
