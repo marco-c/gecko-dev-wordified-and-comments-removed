@@ -1100,6 +1100,12 @@ GetOverscrollableDirections
 )
 const
 ;
+ScrollDirections
+GetScrollableDirections
+(
+)
+const
+;
 bool
 CanScroll
 (
