@@ -1287,6 +1287,7 @@ buffer2
 length
 (
 )
+false
 )
 )
 ;
@@ -1382,6 +1383,7 @@ buffer
 length
 (
 )
+true
 )
 )
 {
