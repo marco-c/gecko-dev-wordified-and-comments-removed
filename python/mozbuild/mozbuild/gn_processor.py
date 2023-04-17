@@ -1019,48 +1019,39 @@ gn_target
 gn_out
 =
 {
-        
 "
 targets
 "
 :
 {
 }
-        
 "
 sandbox_vars
 "
 :
 sandbox_vars
-        
 "
 gn_gen_args
 "
 :
 input_vars
-    
 }
     
 gn_mozbuild_vars
 =
 (
-        
 "
 MOZ_DEBUG
 "
-        
 "
 OS_TARGET
 "
-        
 "
 HOST_CPU_ARCH
 "
-        
 "
 CPU_ARCH
 "
-    
 )
     
 mozbuild_args
@@ -2302,6 +2293,15 @@ ipc
 /
 glue
 "
+            
+"
+/
+tools
+/
+profiler
+/
+public
+"
         
 ]
         
@@ -2360,14 +2360,12 @@ COMPILE_FLAGS
 ]
 =
 {
-            
 "
 OS_INCLUDES
 "
 :
 [
 ]
-        
 }
         
 for
@@ -3143,15 +3141,12 @@ CPU_ARCH
 )
                 
 (
-                    
 "
 MOZ_DEBUG
 "
-                    
 "
 OS_TARGET
 "
-                
 )
                 
 (
@@ -3819,7 +3814,6 @@ output
 gen_args
 =
 [
-        
 config
 .
 substs
@@ -3828,15 +3822,11 @@ substs
 GN
 "
 ]
-        
 "
 gen
 "
-        
 out_dir
-        
 gn_args
-        
 "
 -
 -
@@ -3844,7 +3834,6 @@ ide
 =
 json
 "
-    
 ]
     
 print
