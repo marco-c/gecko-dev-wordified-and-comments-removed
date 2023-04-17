@@ -35579,6 +35579,7 @@ nsContentUtils
 :
 GetTextEditorFromAnonymousNodeWithoutCreation
 (
+const
 nsIContent
 *
 aAnonymousContent

@@ -2637,9 +2637,10 @@ MaskString
 nsString
 &
 aString
+const
 Text
-*
-aText
+&
+aTextNode
 uint32_t
 aStartOffsetInString
 uint32_t
@@ -2648,9 +2649,8 @@ aStartOffsetInText
 {
 MOZ_ASSERT
 (
-aText
--
->
+aTextNode
+.
 HasFlag
 (
 NS_MAYBE_MASKED
@@ -2688,7 +2688,8 @@ nsContentUtils
 :
 GetTextEditorFromAnonymousNodeWithoutCreation
 (
-aText
+&
+aTextNode
 )
 ;
 if

@@ -5128,12 +5128,13 @@ MaskString
 nsString
 &
 aString
+const
 dom
 :
 :
 Text
-*
-aText
+&
+aTextNode
 uint32_t
 aStartOffsetInString
 uint32_t

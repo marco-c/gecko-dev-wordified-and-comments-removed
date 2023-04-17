@@ -2103,6 +2103,7 @@ EditorUtils
 MaskString
 (
 textstr
+*
 content
 -
 >

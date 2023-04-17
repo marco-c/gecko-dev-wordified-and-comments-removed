@@ -5803,6 +5803,7 @@ TextEditor
 *
 GetTextEditorFromAnonymousNodeWithoutCreation
 (
+const
 nsIContent
 *
 aAnonymousContent
