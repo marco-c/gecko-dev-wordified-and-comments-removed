@@ -260,6 +260,14 @@ attribute
 DOMString
 text
 ;
+static
+boolean
+supports
+(
+DOMString
+type
+)
+;
 }
 ;
 /
