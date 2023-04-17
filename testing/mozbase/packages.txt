@@ -1,5 +1,3 @@
-manifestparser
-.
 pth
 :
 testing
@@ -7,8 +5,6 @@ testing
 mozbase
 /
 manifestparser
-mozcrash
-.
 pth
 :
 testing
@@ -16,8 +12,6 @@ testing
 mozbase
 /
 mozcrash
-mozdebug
-.
 pth
 :
 testing
@@ -25,8 +19,6 @@ testing
 mozbase
 /
 mozdebug
-mozdevice
-.
 pth
 :
 testing
@@ -34,8 +26,6 @@ testing
 mozbase
 /
 mozdevice
-mozfile
-.
 pth
 :
 testing
@@ -43,8 +33,6 @@ testing
 mozbase
 /
 mozfile
-mozhttpd
-.
 pth
 :
 testing
@@ -52,8 +40,6 @@ testing
 mozbase
 /
 mozhttpd
-mozgeckoprofiler
-.
 pth
 :
 testing
@@ -61,8 +47,6 @@ testing
 mozbase
 /
 mozgeckoprofiler
-mozinfo
-.
 pth
 :
 testing
@@ -70,8 +54,6 @@ testing
 mozbase
 /
 mozinfo
-mozinstall
-.
 pth
 :
 testing
@@ -79,8 +61,6 @@ testing
 mozbase
 /
 mozinstall
-mozleak
-.
 pth
 :
 testing
@@ -88,8 +68,6 @@ testing
 mozbase
 /
 mozleak
-mozlog
-.
 pth
 :
 testing
@@ -97,8 +75,6 @@ testing
 mozbase
 /
 mozlog
-moznetwork
-.
 pth
 :
 testing
@@ -106,8 +82,6 @@ testing
 mozbase
 /
 moznetwork
-mozpower
-.
 pth
 :
 testing
@@ -115,8 +89,6 @@ testing
 mozbase
 /
 mozpower
-mozprocess
-.
 pth
 :
 testing
@@ -124,8 +96,6 @@ testing
 mozbase
 /
 mozprocess
-mozprofile
-.
 pth
 :
 testing
@@ -133,8 +103,6 @@ testing
 mozbase
 /
 mozprofile
-mozproxy
-.
 pth
 :
 testing
@@ -142,8 +110,6 @@ testing
 mozbase
 /
 mozproxy
-mozrunner
-.
 pth
 :
 testing
@@ -151,8 +117,6 @@ testing
 mozbase
 /
 mozrunner
-mozsystemmonitor
-.
 pth
 :
 testing
@@ -160,8 +124,6 @@ testing
 mozbase
 /
 mozsystemmonitor
-mozscreenshot
-.
 pth
 :
 testing
@@ -169,8 +131,6 @@ testing
 mozbase
 /
 mozscreenshot
-moztest
-.
 pth
 :
 testing
@@ -178,8 +138,6 @@ testing
 mozbase
 /
 moztest
-mozversion
-.
 pth
 :
 testing

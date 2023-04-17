@@ -131,8 +131,6 @@ file
 write
 (
 "
-mozilla
-.
 pth
 :
 third_party

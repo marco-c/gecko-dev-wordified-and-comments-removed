@@ -1140,14 +1140,11 @@ p
         
 if
 action
-.
-endswith
-(
+=
+=
 "
-.
 pth
 "
-)
 :
             
 yield
