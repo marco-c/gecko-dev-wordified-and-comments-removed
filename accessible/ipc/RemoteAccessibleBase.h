@@ -947,6 +947,16 @@ nullptr
 ;
 }
 virtual
+void
+DOMNodeID
+(
+nsString
+&
+aID
+)
+const
+;
+virtual
 int32_t
 CaretOffset
 (

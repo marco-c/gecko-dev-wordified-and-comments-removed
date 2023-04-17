@@ -1146,6 +1146,7 @@ int32_t
 aHeight
 )
 ;
+virtual
 void
 DOMNodeID
 (
@@ -1153,6 +1154,8 @@ nsString
 &
 aID
 )
+const
+override
 ;
 #
 endif
