@@ -251,14 +251,14 @@ TransformStream
 async
 transform
 (
-chunk
+encodedFrame
 controller
 )
 {
 let
 ssrc
 =
-chunk
+encodedFrame
 .
 getMetadata
 (
@@ -290,7 +290,7 @@ controller
 .
 enqueue
 (
-chunk
+encodedFrame
 )
 ;
 }
@@ -519,7 +519,7 @@ TransformStream
 async
 transform
 (
-chunk
+encodedFrame
 controller
 )
 {
@@ -529,7 +529,7 @@ senderSSRCs
 .
 indexOf
 (
-chunk
+encodedFrame
 .
 getMetadata
 (
@@ -546,7 +546,7 @@ senderSSRCs
 .
 push
 (
-chunk
+encodedFrame
 .
 getMetadata
 (
@@ -559,7 +559,7 @@ controller
 .
 enqueue
 (
-chunk
+encodedFrame
 )
 ;
 }
