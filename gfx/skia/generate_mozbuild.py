@@ -882,14 +882,22 @@ android
 )
 :
     
-CXXFLAGS
+LOCAL_INCLUDES
 +
 =
-CONFIG
 [
-'
-MOZ_CAIRO_CFLAGS
-'
+        
+"
+/
+gfx
+/
+cairo
+/
+cairo
+/
+src
+"
+    
 ]
     
 CXXFLAGS
