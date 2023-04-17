@@ -2697,9 +2697,6 @@ endif
 uint32_t
 mSuspendTotalTime
 ;
-nsCString
-mFallbackKey
-;
 friend
 class
 AutoRedirectVetoNotifier
