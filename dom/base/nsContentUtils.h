@@ -551,7 +551,7 @@ JS
 class
 Value
 ;
-struct
+class
 PropertyDescriptor
 ;
 }
