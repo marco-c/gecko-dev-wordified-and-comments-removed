@@ -194,6 +194,10 @@ PCameras
 ;
 include
 protocol
+PLockManager
+;
+include
+protocol
 PMIDIManager
 ;
 include
@@ -467,6 +471,9 @@ PIdleScheduler
 ;
 manages
 PRemoteLazyInputStream
+;
+manages
+PLockManager
 ;
 manages
 PMediaTransport
@@ -1187,6 +1194,15 @@ PWebSocketConnection
 (
 uint32_t
 aListenerId
+)
+;
+async
+PLockManager
+(
+ContentPrincipalInfo
+aPrincipalInfo
+nsID
+aClientId
 )
 ;
 child
