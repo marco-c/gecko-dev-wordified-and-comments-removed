@@ -198,6 +198,11 @@ sanitize
 .
 xhtml
 "
+{
+isSubDialog
+:
+true
+}
 )
 ;
 }
