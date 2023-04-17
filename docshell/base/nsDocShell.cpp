@@ -6336,6 +6336,14 @@ if
 aShow
 )
 {
+contentViewer
+-
+>
+SetIsHidden
+(
+false
+)
+;
 mRefreshURIList
 =
 std
