@@ -4744,7 +4744,7 @@ selfHostedName
 fun
 -
 >
-initAtom
+setAtom
 (
 name
 )
