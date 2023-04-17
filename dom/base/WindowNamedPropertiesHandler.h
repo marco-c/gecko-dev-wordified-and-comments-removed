@@ -71,10 +71,13 @@ JS
 :
 MutableHandle
 <
+Maybe
+<
 JS
 :
 :
 PropertyDescriptor
+>
 >
 aDesc
 )

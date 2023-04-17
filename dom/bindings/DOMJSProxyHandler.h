@@ -322,10 +322,13 @@ JS
 :
 MutableHandle
 <
+Maybe
+<
 JS
 :
 :
 PropertyDescriptor
+>
 >
 desc
 )
