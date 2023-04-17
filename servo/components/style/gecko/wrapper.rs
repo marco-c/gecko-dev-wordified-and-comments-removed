@@ -6559,7 +6559,9 @@ namespace_manager
 structs
 :
 :
-nsContentUtils_sNameSpaceManager
+nsNameSpaceManager_sInstance
+.
+mRawPtr
 ;
 WeakNamespace
 :

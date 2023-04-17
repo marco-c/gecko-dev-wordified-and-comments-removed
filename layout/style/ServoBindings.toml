@@ -250,11 +250,6 @@ nsCSSProps
 h
 "
 "
-nsContentUtils
-.
-h
-"
-"
 nsMappedAttributes
 .
 h
@@ -1159,7 +1154,7 @@ kPresContext_
 *
 "
 "
-nsContentUtils_
+nsNameSpaceManager_
 .
 *
 "
