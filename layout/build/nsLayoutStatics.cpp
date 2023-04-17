@@ -348,6 +348,13 @@ h
 #
 include
 "
+nsLanguageAtomService
+.
+h
+"
+#
+include
+"
 nsMathMLAtoms
 .
 h
@@ -1773,6 +1780,13 @@ Shutdown
 )
 ;
 StaticPresData
+:
+:
+Shutdown
+(
+)
+;
+nsLanguageAtomService
 :
 :
 Shutdown

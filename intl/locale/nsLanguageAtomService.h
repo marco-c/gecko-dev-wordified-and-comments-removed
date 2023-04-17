@@ -78,6 +78,12 @@ GetService
 (
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 nsStaticAtom
 *
 LookupLanguage
