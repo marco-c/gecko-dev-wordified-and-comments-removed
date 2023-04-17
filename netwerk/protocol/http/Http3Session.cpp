@@ -3143,6 +3143,10 @@ ReportHttp3Connection
 (
 )
 ;
+MaybeResumeSend
+(
+)
+;
 }
 break
 ;
