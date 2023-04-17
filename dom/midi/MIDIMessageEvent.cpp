@@ -206,10 +206,6 @@ MIDIMessageEvent
 (
 )
 {
-mData
-=
-nullptr
-;
 mozilla
 :
 :

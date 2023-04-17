@@ -691,10 +691,6 @@ mCacheInfo
 =
 nullptr
 ;
-mScript
-=
-nullptr
-;
 DropJSObjects
 (
 this

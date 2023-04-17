@@ -1656,10 +1656,6 @@ DropJSObjects
 this
 )
 ;
-mStream
-=
-nullptr
-;
 }
 void
 MarkAsRead

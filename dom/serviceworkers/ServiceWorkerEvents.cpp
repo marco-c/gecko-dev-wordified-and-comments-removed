@@ -5954,12 +5954,6 @@ ExtendableMessageEvent
 (
 )
 {
-mData
-.
-setUndefined
-(
-)
-;
 DropJSObjects
 (
 this

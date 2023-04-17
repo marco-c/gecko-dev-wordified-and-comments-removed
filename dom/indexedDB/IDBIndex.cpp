@@ -285,12 +285,6 @@ if
 mRooted
 )
 {
-mCachedKeyPath
-.
-setUndefined
-(
-)
-;
 mozilla
 :
 :

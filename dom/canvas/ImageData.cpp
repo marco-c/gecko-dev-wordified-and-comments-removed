@@ -531,10 +531,6 @@ if
 mData
 )
 {
-mData
-=
-nullptr
-;
 mozilla
 :
 :

@@ -40,15 +40,6 @@ include
 "
 mozilla
 /
-HoldDropJSObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 extensions
 /
 StreamFilterChild

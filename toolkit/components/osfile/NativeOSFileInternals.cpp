@@ -678,10 +678,6 @@ NS_IsMainThread
 )
 )
 ;
-DropJSData
-(
-)
-;
 mozilla
 :
 :

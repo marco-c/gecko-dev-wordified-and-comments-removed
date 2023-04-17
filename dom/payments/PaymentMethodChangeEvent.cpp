@@ -58,13 +58,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 PaymentMethodChangeEvent
 PaymentRequestUpdateEvent
 )
-tmp
--
->
-mMethodDetails
-=
-nullptr
-;
 mozilla
 :
 :

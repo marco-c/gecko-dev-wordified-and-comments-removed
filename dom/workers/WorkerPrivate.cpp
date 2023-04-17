@@ -114,15 +114,6 @@ include
 "
 mozilla
 /
-HoldDropJSObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ProfilerLabels
 .
 h
@@ -10274,11 +10265,6 @@ WorkerPrivate
 (
 )
 {
-DropJSObjects
-(
-this
-)
-;
 mWorkerControlEventTarget
 -
 >

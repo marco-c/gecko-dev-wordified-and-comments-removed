@@ -213,12 +213,6 @@ DOMRequest
 (
 )
 {
-mResult
-.
-setUndefined
-(
-)
-;
 mozilla
 :
 :

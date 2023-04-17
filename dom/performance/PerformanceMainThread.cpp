@@ -318,13 +318,6 @@ mPendingPointerDown
 mPendingEventTimingEntries
 mEventCounts
 )
-tmp
--
->
-mMozMemory
-=
-nullptr
-;
 mozilla
 :
 :

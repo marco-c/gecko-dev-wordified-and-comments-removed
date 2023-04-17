@@ -10138,10 +10138,6 @@ if
 mScriptObject
 )
 {
-mScriptObject
-=
-nullptr
-;
 mozilla
 :
 :

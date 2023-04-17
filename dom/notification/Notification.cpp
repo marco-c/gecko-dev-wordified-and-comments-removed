@@ -4257,12 +4257,6 @@ Notification
 (
 )
 {
-mData
-.
-setUndefined
-(
-)
-;
 mozilla
 :
 :
