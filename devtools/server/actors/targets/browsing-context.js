@@ -3893,6 +3893,13 @@ _setPrintSimulationEnabled
 false
 )
 ;
+if
+(
+this
+.
+_resetColorSchemeSimulationOnDestroy
+)
+{
 this
 .
 _setColorSchemeSimulation
@@ -3900,6 +3907,7 @@ _setColorSchemeSimulation
 null
 )
 ;
+}
 if
 (
 this
@@ -4156,6 +4164,12 @@ browsingContext
 prefersColorSchemeOverride
 =
 value
+;
+this
+.
+_resetColorSchemeSimulationOnDestroy
+=
+true
 ;
 }
 }
