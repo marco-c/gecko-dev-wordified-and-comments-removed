@@ -1,7 +1,3 @@
-extern
-crate
-jobserver
-;
 use
 std
 :

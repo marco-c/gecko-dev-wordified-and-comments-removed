@@ -222,10 +222,6 @@ drop
 (
 client
 .
-clone
-(
-)
-.
 into_helper_thread
 (
 |

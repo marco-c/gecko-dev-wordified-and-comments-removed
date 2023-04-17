@@ -1,11 +1,3 @@
-extern
-crate
-jobserver
-;
-extern
-crate
-tempdir
-;
 use
 std
 :
@@ -338,8 +330,11 @@ MAKE
 "
 )
 .
-unwrap_or
+unwrap_or_else
 (
+|
+_
+|
 "
 make
 "
