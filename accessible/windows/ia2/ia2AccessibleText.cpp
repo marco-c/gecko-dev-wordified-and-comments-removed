@@ -346,13 +346,11 @@ endOffset
 =
 0
 ;
-auto
-[
+HyperTextAccessibleBase
+*
 textAcc
-hr
-]
 =
-LocalTextAcc
+TextAcc
 (
 )
 ;
@@ -363,7 +361,7 @@ textAcc
 )
 {
 return
-hr
+CO_E_OBJNOTCONNECTED
 ;
 }
 RefPtr
@@ -385,6 +383,7 @@ startOffset
 endOffset
 )
 ;
+HRESULT
 hr
 =
 ia2Accessible

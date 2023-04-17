@@ -512,6 +512,7 @@ nsAString
 aText
 )
 ;
+virtual
 already_AddRefed
 <
 AccAttributes
@@ -529,6 +530,7 @@ int32_t
 *
 aEndOffset
 )
+override
 ;
 already_AddRefed
 <
