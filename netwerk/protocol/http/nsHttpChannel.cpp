@@ -2339,7 +2339,7 @@ if
 StaticPrefs
 :
 :
-network_http_windows10_sso_enabled
+network_http_windows_sso_enabled
 (
 )
 &

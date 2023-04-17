@@ -3101,7 +3101,7 @@ false
 policies
 :
 {
-Windows10SSO
+WindowsSSO
 :
 true
 }
@@ -3113,7 +3113,7 @@ network
 .
 http
 .
-windows10
+windows
 -
 sso
 .
