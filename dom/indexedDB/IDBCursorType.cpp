@@ -5,6 +5,13 @@ IDBCursorType
 .
 h
 "
+#
+include
+"
+IndexedDatabaseInlines
+.
+h
+"
 namespace
 mozilla
 :
