@@ -575,6 +575,16 @@ return
 false
 ;
 }
+env
+-
+>
+declareFuncExported
+(
+funcIndex
+false
+true
+)
+;
 *
 literal
 =
