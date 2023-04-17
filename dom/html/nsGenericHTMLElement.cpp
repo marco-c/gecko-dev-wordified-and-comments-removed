@@ -15367,6 +15367,7 @@ nsAString
 &
 aValue
 )
+const
 {
 GetEnumAttr
 (
@@ -15458,6 +15459,7 @@ nsAString
 &
 aValue
 )
+const
 {
 if
 (

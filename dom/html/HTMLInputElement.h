@@ -2582,6 +2582,7 @@ nsAString
 &
 aValue
 )
+const
 ;
 void
 SetType
@@ -3533,6 +3534,7 @@ bool
 HasBeenTypePassword
 (
 )
+const
 {
 return
 mHasBeenTypePassword

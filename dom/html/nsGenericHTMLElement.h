@@ -1070,6 +1070,7 @@ nsAString
 &
 aValue
 )
+const
 ;
 void
 SetAutocapitalize
@@ -3558,6 +3559,7 @@ nsAString
 &
 aValue
 )
+const
 override
 ;
 bool
