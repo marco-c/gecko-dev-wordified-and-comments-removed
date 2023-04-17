@@ -148,6 +148,11 @@ HSTSDataCallbackWrapperAlreadyAddRefed
 aCallback
 )
 ;
+void
+clearCORSPreflightCache
+(
+)
+;
 }
 ;
 %
