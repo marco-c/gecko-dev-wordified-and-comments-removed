@@ -3903,13 +3903,13 @@ none
 ;
 background
 :
-Highlight
+SelectedItem
 !
 important
 ;
 color
 :
-HighlightText
+SelectedItemText
 !
 important
 ;

@@ -1252,7 +1252,7 @@ LookAndFeel
 ColorID
 :
 :
-TextSelectBackground
+Highlight
 this
 )
 ;
