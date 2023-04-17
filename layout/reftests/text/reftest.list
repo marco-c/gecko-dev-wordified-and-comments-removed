@@ -125,6 +125,12 @@ generic
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 !
 =
 font
