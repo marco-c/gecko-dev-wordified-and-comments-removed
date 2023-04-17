@@ -183,13 +183,7 @@ CardGrid
 CollectionCardGrid
 "
 "
-Hero
-"
-"
 HorizontalRule
-"
-"
-List
 "
 "
 PrivacyLink
