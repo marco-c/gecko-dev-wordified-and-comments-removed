@@ -818,10 +818,6 @@ StencilXDR
 ;
 friend
 struct
-CompilationStencil
-;
-friend
-struct
 CompilationStencilMerger
 ;
 ScopeIndex

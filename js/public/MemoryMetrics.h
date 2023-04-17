@@ -1733,13 +1733,6 @@ MACRO
 (
 _
 MallocHeap
-selfHostStencil
-)
-\
-MACRO
-(
-_
-MallocHeap
 contexts
 )
 \
