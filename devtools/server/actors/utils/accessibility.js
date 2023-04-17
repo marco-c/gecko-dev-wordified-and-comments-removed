@@ -70,7 +70,7 @@ utf
 {
 transition
 :
-none
+initial
 !
 important
 ;
