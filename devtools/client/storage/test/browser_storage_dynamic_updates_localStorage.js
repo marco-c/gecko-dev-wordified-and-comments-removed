@@ -14,7 +14,7 @@ const
 TEST_HOST
 =
 "
-http
+https
 :
 /
 /
@@ -28,7 +28,7 @@ org
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_DOMAIN_SECURED
 +
 "
 storage

@@ -477,7 +477,7 @@ true
 localStorage
 "
 "
-http
+https
 :
 /
 /
@@ -788,7 +788,7 @@ true
 sessionStorage
 "
 "
-http
+https
 :
 /
 /
@@ -1237,7 +1237,7 @@ true
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -1350,7 +1350,7 @@ true
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -1511,7 +1511,7 @@ maxage
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_DOMAIN_SECURED
 +
 "
 storage

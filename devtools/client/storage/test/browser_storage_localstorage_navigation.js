@@ -148,7 +148,7 @@ doc
 localStorage
 "
 "
-http
+https
 :
 /
 /
@@ -167,7 +167,7 @@ selectTreeItem
 localStorage
 "
 "
-http
+https
 :
 /
 /
@@ -268,7 +268,7 @@ doc
 localStorage
 "
 "
-http
+https
 :
 /
 /
@@ -291,7 +291,7 @@ doc
 localStorage
 "
 "
-http
+https
 :
 /
 /
@@ -351,7 +351,7 @@ doc
 localStorage
 "
 "
-http
+https
 :
 /
 /
@@ -371,7 +371,7 @@ selectTreeItem
 localStorage
 "
 "
-http
+https
 :
 /
 /

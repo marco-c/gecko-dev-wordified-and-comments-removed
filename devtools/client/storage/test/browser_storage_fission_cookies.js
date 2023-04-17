@@ -118,7 +118,7 @@ doc
 cookies
 "
 "
-http
+https
 :
 /
 /
@@ -137,7 +137,7 @@ doc
 cookies
 "
 "
-http
+https
 :
 /
 /
@@ -156,7 +156,7 @@ selectTreeItem
 cookies
 "
 "
-http
+https
 :
 /
 /
@@ -185,7 +185,7 @@ selectTreeItem
 cookies
 "
 "
-http
+https
 :
 /
 /
@@ -326,7 +326,7 @@ selectTreeItem
 cookies
 "
 "
-http
+https
 :
 /
 /

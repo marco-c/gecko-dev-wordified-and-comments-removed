@@ -50,7 +50,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_DOMAIN_SECURED
 +
 "
 storage
@@ -318,7 +318,7 @@ checkState
 cookies
 "
 "
-http
+https
 :
 /
 /
@@ -462,7 +462,7 @@ checkState
 cookies
 "
 "
-http
+https
 :
 /
 /
@@ -570,7 +570,7 @@ checkState
 cookies
 "
 "
-http
+https
 :
 /
 /
@@ -721,7 +721,7 @@ checkState
 cookies
 "
 "
-http
+https
 :
 /
 /
@@ -898,7 +898,7 @@ checkState
 cookies
 "
 "
-http
+https
 :
 /
 /
@@ -1051,7 +1051,7 @@ checkState
 cookies
 "
 "
-http
+https
 :
 /
 /
@@ -1165,7 +1165,7 @@ checkState
 cookies
 "
 "
-http
+https
 :
 /
 /
@@ -1258,7 +1258,7 @@ checkState
 cookies
 "
 "
-http
+https
 :
 /
 /

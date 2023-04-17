@@ -13,7 +13,7 @@ storeItems
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -45,7 +45,7 @@ default
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -77,7 +77,7 @@ obj2
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -103,7 +103,7 @@ default
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -135,7 +135,7 @@ obj1
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -365,7 +365,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_DOMAIN_SECURED
 +
 "
 storage

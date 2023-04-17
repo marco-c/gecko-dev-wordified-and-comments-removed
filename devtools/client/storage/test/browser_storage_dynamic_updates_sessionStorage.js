@@ -13,7 +13,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_DOMAIN_SECURED
 +
 "
 storage
@@ -57,7 +57,7 @@ checkState
 sessionStorage
 "
 "
-http
+https
 :
 /
 /
@@ -120,7 +120,7 @@ checkState
 sessionStorage
 "
 "
-http
+https
 :
 /
 /
@@ -203,7 +203,7 @@ checkState
 sessionStorage
 "
 "
-http
+https
 :
 /
 /
@@ -378,7 +378,7 @@ checkState
 sessionStorage
 "
 "
-http
+https
 :
 /
 /

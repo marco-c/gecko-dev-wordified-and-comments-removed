@@ -38,7 +38,7 @@ true
 const
 TESTPAGE
 =
-MAIN_DOMAIN
+MAIN_DOMAIN_SECURED
 +
 "
 storage
@@ -76,7 +76,7 @@ checkState
 indexedDB
 "
 "
-http
+https
 :
 /
 /

@@ -13,7 +13,7 @@ function
 const
 URL
 =
-URL_ROOT_COM
+URL_ROOT_COM_SSL
 +
 "
 storage
@@ -46,7 +46,7 @@ doc
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -65,7 +65,7 @@ selectTreeItem
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -117,7 +117,7 @@ doc
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -136,7 +136,7 @@ selectTreeItem
 indexedDB
 "
 "
-http
+https
 :
 /
 /

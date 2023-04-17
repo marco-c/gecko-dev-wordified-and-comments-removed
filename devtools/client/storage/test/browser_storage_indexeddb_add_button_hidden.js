@@ -13,7 +13,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_DOMAIN_SECURED
 +
 "
 storage
@@ -44,7 +44,7 @@ idbItem
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -95,7 +95,7 @@ cookieItem
 cookies
 "
 "
-http
+https
 :
 /
 /

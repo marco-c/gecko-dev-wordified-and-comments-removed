@@ -13,7 +13,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_DOMAIN_SECURED
 +
 "
 storage
@@ -48,7 +48,7 @@ checkState
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -88,7 +88,7 @@ selectTreeItem
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -119,7 +119,7 @@ front
 removeDatabase
 (
 "
-http
+https
 :
 /
 /
@@ -171,7 +171,7 @@ checkState
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -289,7 +289,7 @@ checkState
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -334,7 +334,7 @@ front
 removeDatabase
 (
 "
-http
+https
 :
 /
 /
