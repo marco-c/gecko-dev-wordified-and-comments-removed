@@ -21574,7 +21574,10 @@ mDocumentL10n
 >
 AddResourceId
 (
+NS_ConvertUTF16toUTF8
+(
 href
+)
 )
 ;
 if
@@ -21669,7 +21672,10 @@ mDocumentL10n
 >
 RemoveResourceId
 (
+NS_ConvertUTF16toUTF8
+(
 href
+)
 )
 ;
 if
