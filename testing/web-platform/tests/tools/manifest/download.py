@@ -939,9 +939,10 @@ gzf
                     
 data
 =
-read_gzf
-(
 gzf
+.
+read
+(
 )
                     
 decompressed
@@ -1049,19 +1050,6 @@ downloaded
     
 return
 True
-def
-read_gzf
-(
-gzf
-)
-:
-    
-return
-gzf
-.
-read
-(
-)
 def
 create_parser
 (
