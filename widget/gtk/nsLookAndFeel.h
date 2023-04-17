@@ -442,11 +442,6 @@ mMozScrollbar
 kWhite
 ;
 nscolor
-mInfoBarText
-=
-kBlack
-;
-nscolor
 mMozColHeaderText
 =
 kBlack

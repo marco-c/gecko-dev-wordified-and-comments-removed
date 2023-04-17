@@ -1367,7 +1367,6 @@ visitedhyperlinktext
 Visitedtext
 MozComboboxtext
 MozCombobox
-MozGtkInfoBarText
 #
 [
 parse
