@@ -132,6 +132,8 @@ windows10
 -
 64
 -
+2004
+-
 qr
 /
 debug
@@ -372,24 +374,6 @@ wpt
 )
 virtualization
 :
-by
--
-test
--
-platform
-:
-windows10
--
-64
-.
-*
-/
-.
-*
-:
-hardware
-default
-:
 virtual
 tier
 :
@@ -433,6 +417,8 @@ opt
 windows10
 -
 64
+-
+2004
 (
 -
 shippable
@@ -564,6 +550,8 @@ windows10
 -
 64
 -
+2004
+-
 ccov
 .
 *
@@ -677,6 +665,8 @@ linux
 windows10
 -
 64
+-
+2004
 )
 -
 qr
@@ -697,6 +687,8 @@ linux
 windows10
 -
 64
+-
+2004
 )
 (
 -
@@ -954,6 +946,8 @@ trunk
 windows10
 -
 64
+-
+2004
 (
 -
 shippable
@@ -1040,6 +1034,8 @@ opt
 windows10
 -
 64
+-
+2004
 (
 -
 shippable
@@ -1892,6 +1888,8 @@ linux
 windows10
 -
 64
+-
+2004
 )
 -
 qr
@@ -1912,6 +1910,8 @@ linux
 windows10
 -
 64
+-
+2004
 )
 (
 -
@@ -1998,6 +1998,8 @@ opt
 windows10
 -
 64
+-
+2004
 (
 -
 shippable
@@ -2251,6 +2253,8 @@ linux
 windows10
 -
 64
+-
+2004
 )
 -
 qr
@@ -2271,6 +2275,8 @@ linux
 windows10
 -
 64
+-
+2004
 )
 (
 -
@@ -2363,6 +2369,8 @@ opt
 windows10
 -
 64
+-
+2004
 (
 -
 shippable
@@ -2686,6 +2694,8 @@ windows10
 -
 64
 -
+2004
+-
 qr
 /
 debug
@@ -2789,6 +2799,8 @@ linux
 windows10
 -
 64
+-
+2004
 )
 -
 qr
@@ -2809,6 +2821,8 @@ linux
 windows10
 -
 64
+-
+2004
 )
 (
 -
@@ -2895,6 +2909,8 @@ opt
 windows10
 -
 64
+-
+2004
 (
 -
 shippable
@@ -3243,6 +3259,8 @@ trunk
 windows10
 -
 64
+-
+2004
 (
 -
 shippable
@@ -3411,6 +3429,8 @@ opt
 windows10
 -
 64
+-
+2004
 (
 -
 shippable
@@ -3543,6 +3563,8 @@ trunk
 windows10
 -
 64
+-
+2004
 (
 -
 shippable
@@ -3645,6 +3667,8 @@ opt
 windows10
 -
 64
+-
+2004
 (
 -
 shippable
