@@ -11621,9 +11621,6 @@ AddonManager
 .
 VIEW_TYPE_LIST
 4000
-AddonManager
-.
-TYPE_SUPPORTS_UNDO_RESTARTLESS_UNINSTALL
 )
 new
 AddonManagerPrivate
@@ -11666,13 +11663,6 @@ AddonManager
 .
 VIEW_TYPE_LIST
 7000
-AddonManager
-.
-TYPE_UI_HIDE_EMPTY
-|
-AddonManager
-.
-TYPE_SUPPORTS_UNDO_RESTARTLESS_UNINSTALL
 )
 new
 AddonManagerPrivate
@@ -11694,13 +11684,6 @@ AddonManager
 .
 VIEW_TYPE_LIST
 8000
-AddonManager
-.
-TYPE_UI_HIDE_EMPTY
-|
-AddonManager
-.
-TYPE_SUPPORTS_UNDO_RESTARTLESS_UNINSTALL
 )
 ]
 ;
