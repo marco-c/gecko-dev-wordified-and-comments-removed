@@ -739,6 +739,9 @@ true
 requireBeforeUnload
 =
 true
+unknownState
+=
+false
 }
 =
 options
@@ -808,7 +811,7 @@ false
 let
 seenUnload
 =
-false
+unknownState
 ;
 let
 unloadTimer
