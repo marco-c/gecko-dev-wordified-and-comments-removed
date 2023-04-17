@@ -2628,10 +2628,12 @@ element
 )
 ;
 nscolor
-Gecko_GetLookAndFeelSystemColor
+Gecko_ComputeSystemColor
 (
-int32_t
-color_id
+mozilla
+:
+:
+StyleSystemColor
 const
 mozilla
 :
