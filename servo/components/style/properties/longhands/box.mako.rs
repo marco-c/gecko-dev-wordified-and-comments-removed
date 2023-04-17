@@ -3302,15 +3302,6 @@ engines
 "
 gecko
 "
-aliases
-=
-"
-page
--
-break
--
-inside
-"
 spec
 =
 "
