@@ -5345,7 +5345,7 @@ mWidget
 mWidget
 -
 >
-AsX11
+AsGTK
 (
 )
 )
@@ -5353,7 +5353,7 @@ AsX11
 mWidget
 -
 >
-AsX11
+AsGTK
 (
 )
 -

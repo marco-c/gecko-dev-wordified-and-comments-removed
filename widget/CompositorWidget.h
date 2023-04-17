@@ -541,7 +541,7 @@ nullptr
 virtual
 GtkCompositorWidget
 *
-AsX11
+AsGTK
 (
 )
 {
