@@ -41,10 +41,6 @@ rfc8441
 "
 "
 from
-__future__
-import
-absolute_import
-from
 mod_pywebsocket
 import
 common

@@ -1,8 +1,4 @@
 from
-__future__
-import
-unicode_literals
-from
 six
 import
 ensure_text
