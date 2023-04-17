@@ -80,7 +80,7 @@ defaultURL
 new
 URL
 (
-http
+https
 :
 /
 /
