@@ -5780,15 +5780,6 @@ aFrame
 )
 ;
 static
-float
-GetCurrentAPZResolutionScale
-(
-PresShell
-*
-aPresShell
-)
-;
-static
 bool
 AllowZoomingForDocument
 (
