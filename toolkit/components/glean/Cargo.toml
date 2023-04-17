@@ -51,17 +51,6 @@ dependencies
 ]
 glean
 =
-"
-39
-.
-0
-.
-0
-"
-glean
--
-core
-=
 {
 version
 =
