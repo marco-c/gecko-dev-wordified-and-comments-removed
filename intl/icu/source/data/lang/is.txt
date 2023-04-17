@@ -2833,13 +2833,6 @@ rom
 roman
 "
 }
-root
-{
-"
-r
-t
-"
-}
 ru
 {
 "

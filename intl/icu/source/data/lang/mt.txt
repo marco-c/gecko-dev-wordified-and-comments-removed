@@ -2449,12 +2449,6 @@ rom
 Romanesk
 "
 }
-root
-{
-"
-Root
-"
-}
 ru
 {
 "

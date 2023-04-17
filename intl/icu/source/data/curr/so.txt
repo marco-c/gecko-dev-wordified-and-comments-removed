@@ -1303,7 +1303,6 @@ Gini
 PHP
 {
 "
-PHP
 "
 "
 Biso
@@ -1761,6 +1760,7 @@ Kaaribyan
 XOF
 {
 "
+F
 CFA
 "
 "

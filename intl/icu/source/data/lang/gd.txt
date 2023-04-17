@@ -3037,12 +3037,6 @@ rom
 Romanais
 "
 }
-root
-{
-"
-Root
-"
-}
 ru
 {
 "

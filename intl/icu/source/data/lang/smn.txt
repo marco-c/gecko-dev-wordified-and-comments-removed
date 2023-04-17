@@ -1898,13 +1898,6 @@ rom
 roomaankiel
 "
 }
-root
-{
-"
-ruot
-s
-"
-}
 ru
 {
 "

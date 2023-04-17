@@ -3221,6 +3221,7 @@ frank
 XOF
 {
 "
+F
 CFA
 "
 "

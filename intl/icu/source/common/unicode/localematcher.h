@@ -77,9 +77,6 @@ ULocMatchDemotion
 ;
 #
 endif
-#
-ifndef
-U_FORCE_HIDE_DRAFT_API
 enum
 ULocMatchDirection
 {
@@ -95,8 +92,6 @@ enum
 ULocMatchDirection
 ULocMatchDirection
 ;
-#
-endif
 #
 endif
 struct
@@ -531,9 +526,6 @@ ULocMatchDemotion
 demotion
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 Builder
 &
 setDirection
@@ -560,8 +552,6 @@ return
 this
 ;
 }
-#
-endif
 #
 ifndef
 U_HIDE_DRAFT_API

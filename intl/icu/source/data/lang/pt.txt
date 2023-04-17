@@ -2727,12 +2727,6 @@ rom
 romani
 "
 }
-root
-{
-"
-raiz
-"
-}
 ru
 {
 "

@@ -467,9 +467,6 @@ const
 if
 !
 UCONFIG_NO_FORMATTING
-#
-ifndef
-U_HIDE_DRAFT_API
 UDateFormatHourCycle
 getDefaultHourCycle
 (
@@ -479,8 +476,6 @@ status
 )
 const
 ;
-#
-endif
 #
 endif
 virtual

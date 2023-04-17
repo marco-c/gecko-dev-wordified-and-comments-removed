@@ -57,9 +57,7 @@ root
 Version
 {
 "
-38
-.
-1
+39
 "
 }
 characterLabelPattern

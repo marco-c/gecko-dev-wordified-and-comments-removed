@@ -3017,12 +3017,6 @@ rom
 romani
 "
 }
-root
-{
-"
-juuri
-"
-}
 rtm
 {
 "

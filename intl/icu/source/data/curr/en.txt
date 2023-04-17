@@ -2257,7 +2257,6 @@ Kina
 PHP
 {
 "
-PHP
 "
 "
 Philippine
@@ -3163,6 +3162,7 @@ Franc
 XOF
 {
 "
+F
 CFA
 "
 "

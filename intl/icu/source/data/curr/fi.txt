@@ -3192,6 +3192,7 @@ frangi
 XOF
 {
 "
+F
 CFA
 "
 "

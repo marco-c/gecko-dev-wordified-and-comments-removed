@@ -2278,12 +2278,6 @@ rof
 Rombo
 "
 }
-root
-{
-"
-Root
-"
-}
 ru
 {
 "

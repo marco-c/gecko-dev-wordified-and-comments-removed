@@ -1346,7 +1346,6 @@ Guinea
 PHP
 {
 "
-PHP
 "
 "
 Ego
@@ -1866,6 +1865,7 @@ Carribbean
 XOF
 {
 "
+F
 CFA
 "
 "

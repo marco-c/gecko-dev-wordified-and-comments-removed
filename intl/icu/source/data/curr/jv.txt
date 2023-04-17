@@ -1160,7 +1160,6 @@ Nugini
 PHP
 {
 "
-PHP
 "
 "
 Piso
@@ -1619,6 +1618,7 @@ Wetan
 XOF
 {
 "
+F
 CFA
 "
 "
