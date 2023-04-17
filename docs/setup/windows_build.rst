@@ -686,7 +686,7 @@ cd
 mozilla
 -
 source
-curl
+wget
 https
 :
 /
@@ -716,8 +716,6 @@ bin
 bootstrap
 .
 py
--
-O
 python3
 bootstrap
 .
