@@ -93,6 +93,7 @@ util
 backstop
 import
 is_backstop
+BACKSTOP_INDEX
 from
 .
 util
@@ -2508,6 +2509,18 @@ optimize_target_tasks
 "
 ]
     
+parameters
+[
+"
+backstop
+"
+]
+=
+is_backstop
+(
+parameters
+)
+    
 if
 "
 decision
@@ -2544,18 +2557,6 @@ parameters
 graph_config
 parameters
         
-)
-    
-parameters
-[
-"
-backstop
-"
-]
-=
-is_backstop
-(
-parameters
 )
     
 result
@@ -3020,25 +3021,7 @@ index_paths
 .
 append
 (
-"
-{
-trust
--
-domain
-}
-.
-v2
-.
-{
-project
-}
-.
-latest
-.
-taskgraph
-.
-backstop
-"
+BACKSTOP_INDEX
 )
     
 subs

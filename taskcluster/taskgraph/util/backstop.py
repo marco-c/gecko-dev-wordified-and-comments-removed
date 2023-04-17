@@ -13,6 +13,15 @@ taskgraph
 .
 util
 .
+attributes
+import
+INTEGRATION_PROJECTS
+TRY_PROJECTS
+from
+taskgraph
+.
+util
+.
 taskcluster
 import
 (
@@ -34,7 +43,11 @@ BACKSTOP_TIME_INTERVAL
 BACKSTOP_INDEX
 =
 "
-gecko
+{
+trust
+-
+domain
+}
 .
 v2
 .
@@ -53,12 +66,24 @@ is_backstop
 (
     
 params
+    
 push_interval
 =
 BACKSTOP_PUSH_INTERVAL
+    
 time_interval
 =
 BACKSTOP_TIME_INTERVAL
+    
+trust_domain
+=
+"
+gecko
+"
+    
+integration_projects
+=
+INTEGRATION_PROJECTS
 )
 :
     
@@ -104,6 +129,33 @@ Use
 to
 disable
 .
+        
+trust_domain
+(
+str
+)
+:
+"
+gecko
+"
+for
+Firefox
+"
+comm
+"
+for
+Thunderbird
+        
+integration_projects
+(
+set
+)
+:
+project
+that
+uses
+backstop
+optimization
     
 Returns
 :
@@ -115,7 +167,7 @@ if
 this
 is
 a
-backtop
+backstop
 otherwise
 False
 .
@@ -174,11 +226,8 @@ pushdate
     
 if
 project
-=
-=
-"
-try
-"
+in
+TRY_PROJECTS
 :
         
 return
@@ -186,11 +235,9 @@ False
     
 elif
 project
-!
-=
-"
-autoland
-"
+not
+in
+integration_projects
 :
         
 return
@@ -218,15 +265,32 @@ time_interval
 return
 False
     
+subs
+=
+{
+"
+trust
+-
+domain
+"
+:
+trust_domain
+"
+project
+"
+:
+project
+}
+    
 index
 =
 BACKSTOP_INDEX
 .
 format
 (
-project
-=
-project
+*
+*
+subs
 )
     
 try

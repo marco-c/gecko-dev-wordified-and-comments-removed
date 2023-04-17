@@ -117,6 +117,22 @@ set
     
 }
 )
+TRY_PROJECTS
+=
+{
+    
+"
+try
+"
+    
+"
+try
+-
+comm
+-
+central
+"
+}
 ALL_PROJECTS
 =
 RELEASE_PROMOTION_PROJECTS
