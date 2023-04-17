@@ -1071,9 +1071,6 @@ GlobalDesc
 SystemAllocPolicy
 >
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 using
 TagOffsetVector
 =
@@ -1249,6 +1246,9 @@ true
 }
 }
 ;
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
 struct
 TagDesc
 {
