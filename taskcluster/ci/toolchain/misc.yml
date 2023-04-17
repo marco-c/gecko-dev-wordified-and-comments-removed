@@ -1776,9 +1776,11 @@ tooltool
 -
 manifests
 /
-win64
-/
 vs2017
+-
+15
+.
+8
 .
 manifest
 "

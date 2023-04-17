@@ -113,9 +113,11 @@ tooltool
 -
 manifests
 /
-win64
-/
-releng
+vs2017
+-
+15
+.
+8
 .
 manifest
 "
