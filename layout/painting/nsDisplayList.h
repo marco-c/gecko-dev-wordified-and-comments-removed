@@ -21973,6 +21973,9 @@ NS_DISPLAY_ALLOW_CLONING
 nsRect
 mEffectsBounds
 ;
+nsRect
+mVisibleRect
+;
 }
 ;
 class
