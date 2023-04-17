@@ -1088,7 +1088,6 @@ kIntelHD
 {
 if
 (
-!
 m
 .
 str
@@ -1096,7 +1095,7 @@ str
 1
 )
 .
-size
+empty
 (
 )
 )
