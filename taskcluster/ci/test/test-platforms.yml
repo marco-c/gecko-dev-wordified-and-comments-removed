@@ -980,10 +980,6 @@ coverage
 -
 tests
 -
-mochitest
--
-webgpu
--
 windows10
 -
 2004
@@ -1022,10 +1018,6 @@ test
 -
 sets
 :
--
-mochitest
--
-webgpu
 -
 windows
 -
@@ -1071,10 +1063,6 @@ raptor
 firefox
 -
 browsertime
--
-mochitest
--
-webgpu
 windows10
 -
 aarch64
@@ -1188,10 +1176,6 @@ raptor
 firefox
 -
 browsertime
--
-mochitest
--
-webgpu
 windows10
 -
 64
@@ -1223,10 +1207,6 @@ tests
 windows10
 -
 tests
--
-mochitest
--
-webgpu
 windows10
 -
 64
@@ -1258,10 +1238,6 @@ tests
 windows10
 -
 tests
--
-mochitest
--
-webgpu
 windows10
 -
 64

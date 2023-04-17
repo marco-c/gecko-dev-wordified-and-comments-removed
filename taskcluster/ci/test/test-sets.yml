@@ -1470,6 +1470,10 @@ gpu
 -
 mochitest
 -
+webgpu
+-
+mochitest
+-
 webgl1
 -
 ext
