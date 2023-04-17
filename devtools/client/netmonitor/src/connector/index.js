@@ -335,7 +335,7 @@ targetFront
 ;
 }
 get
-hasResourceCommandSupport
+hasResourceWatcherSupport
 (
 )
 {
@@ -344,15 +344,15 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
-hasResourceCommandSupport
+hasResourceWatcherSupport
 (
 this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -370,7 +370,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 watcherFront
 ;
@@ -451,7 +451,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 watchResources
 (
@@ -460,7 +460,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -524,7 +524,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 unwatchResources
 (
@@ -533,7 +533,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -708,13 +708,13 @@ owner
 this
 .
 owner
-resourceCommand
+resourceWatcher
 :
 this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 }
 )
 ;
@@ -752,7 +752,7 @@ if
 (
 this
 .
-hasResourceCommandSupport
+hasResourceWatcherSupport
 )
 {
 this
@@ -793,7 +793,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 ;
 if
 (
@@ -1109,7 +1109,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -1150,7 +1150,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -1159,7 +1159,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -1194,7 +1194,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -1230,7 +1230,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -1243,7 +1243,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 watchResources
 (
@@ -1272,7 +1272,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 unwatchResources
 (
@@ -1281,7 +1281,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -1290,7 +1290,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -1299,7 +1299,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -1308,7 +1308,7 @@ this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -1702,7 +1702,7 @@ if
 (
 this
 .
-hasResourceCommandSupport
+hasResourceWatcherSupport
 &
 &
 this
@@ -1810,7 +1810,7 @@ if
 (
 this
 .
-hasResourceCommandSupport
+hasResourceWatcherSupport
 &
 &
 this
@@ -1865,7 +1865,7 @@ if
 (
 this
 .
-hasResourceCommandSupport
+hasResourceWatcherSupport
 &
 &
 this
@@ -2353,7 +2353,7 @@ throttlingFront
 =
 this
 .
-hasResourceCommandSupport
+hasResourceWatcherSupport
 &
 &
 this
