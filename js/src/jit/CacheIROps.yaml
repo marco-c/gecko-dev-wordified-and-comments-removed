@@ -6984,6 +6984,9 @@ AllocKindImm
 shape
 :
 ShapeField
+site
+:
+AllocSiteField
 -
 name
 :
@@ -7005,6 +7008,9 @@ UInt32Imm
 shape
 :
 ShapeField
+site
+:
+AllocSiteField
 -
 name
 :
