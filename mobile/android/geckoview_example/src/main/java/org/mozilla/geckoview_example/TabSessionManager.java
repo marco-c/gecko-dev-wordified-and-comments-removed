@@ -267,6 +267,11 @@ mTabSessions
 size
 (
 )
+|
+|
+index
+<
+0
 )
 {
 return
