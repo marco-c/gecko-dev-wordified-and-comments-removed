@@ -13,9 +13,6 @@ BaseProfilerMarkers
 .
 h
 "
-#
-ifdef
-MOZ_GECKO_PROFILER
 namespace
 mozilla
 :
@@ -230,7 +227,5 @@ schema
 }
 ;
 }
-#
-endif
 #
 endif

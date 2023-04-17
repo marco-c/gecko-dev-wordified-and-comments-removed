@@ -18,9 +18,6 @@ NonNative
 ;
 }
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 BaseProfilingCategory
@@ -3646,7 +3643,5 @@ mData
 }
 ;
 }
-#
-endif
 #
 endif

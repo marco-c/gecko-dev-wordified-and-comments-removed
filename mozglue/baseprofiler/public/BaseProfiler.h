@@ -81,11 +81,6 @@ AUTO_BASE_PROFILER_THREAD_WAKE
 namespace
 mozilla
 {
-class
-ProfileChunkedBuffer
-{
-}
-;
 namespace
 baseprofiler
 {

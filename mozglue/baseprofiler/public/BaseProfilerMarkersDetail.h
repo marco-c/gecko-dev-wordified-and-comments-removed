@@ -34,9 +34,6 @@ BaseProfilerMarkersPrerequisites
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 mozilla
@@ -3385,7 +3382,5 @@ options
 }
 ;
 }
-#
-endif
 #
 endif

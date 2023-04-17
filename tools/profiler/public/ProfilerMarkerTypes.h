@@ -23,9 +23,6 @@ ProfilerMarkers
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 js
@@ -96,7 +93,5 @@ markers
 ContentBuildMarker
 ;
 }
-#
-endif
 #
 endif
