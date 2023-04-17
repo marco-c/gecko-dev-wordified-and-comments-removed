@@ -552,16 +552,6 @@ Window
 <
 !
 ENTITY
-editMenu
-.
-label
-"
-Edit
-"
->
-<
-!
-ENTITY
 preferencesCmd2
 .
 label
