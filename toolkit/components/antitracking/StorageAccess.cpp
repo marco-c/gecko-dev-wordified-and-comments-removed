@@ -976,6 +976,7 @@ CookieJarSettings
 :
 Create
 (
+aPrincipal
 )
 ;
 }
@@ -1259,6 +1260,7 @@ CookieJarSettings
 :
 Create
 (
+aPrincipal
 )
 ;
 }
