@@ -2572,7 +2572,7 @@ request
 httpVersion
 status
 "
-Connected
+OK
 "
 )
 ;
@@ -2588,7 +2588,7 @@ Type
 "
 text
 /
-plain
+json
 "
 false
 )
