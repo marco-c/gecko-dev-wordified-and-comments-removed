@@ -3588,7 +3588,7 @@ txt
 let
 deferRequestReceived
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -4131,7 +4131,7 @@ options
 let
 deferCancel
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -5045,7 +5045,7 @@ gMostRecentFirstBytePos
 let
 deferMidway
 =
-Promise
+PromiseUtils
 .
 defer
 (
