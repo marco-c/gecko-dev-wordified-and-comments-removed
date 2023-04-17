@@ -16,7 +16,7 @@ memrchr3
 test
 ]
 fn
-test_with_miri
+simple
 (
 )
 {

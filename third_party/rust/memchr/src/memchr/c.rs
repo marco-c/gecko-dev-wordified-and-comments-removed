@@ -6,14 +6,7 @@ allow
 dead_code
 )
 ]
-extern
-crate
-libc
-;
 use
-self
-:
-:
 libc
 :
 :

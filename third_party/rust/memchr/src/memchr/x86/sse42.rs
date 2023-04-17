@@ -2,6 +2,7 @@ use
 core
 :
 :
+{
 arch
 :
 :
@@ -9,15 +10,11 @@ x86_64
 :
 :
 *
-;
-use
-core
-:
-:
 mem
 :
 :
 size_of
+}
 ;
 use
 x86
