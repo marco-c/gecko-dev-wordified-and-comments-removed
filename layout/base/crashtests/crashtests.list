@@ -3628,15 +3628,6 @@ load
 1477847
 .
 html
-skip
--
-if
-(
-verify
-&
-&
-Android
-)
 pref
 (
 layout

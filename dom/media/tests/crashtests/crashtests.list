@@ -114,15 +114,6 @@ skip
 -
 if
 (
-verify
-&
-&
-gtkWidget
-)
-skip
--
-if
-(
 OSX
 )
 load
