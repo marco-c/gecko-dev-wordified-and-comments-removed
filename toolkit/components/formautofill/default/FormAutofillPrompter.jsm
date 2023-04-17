@@ -949,11 +949,12 @@ event
 .
 target
 .
-parentNode
-.
-parentNode
-.
-parentNode
+closest
+(
+"
+popupnotification
+"
+)
 ;
 let
 checked
