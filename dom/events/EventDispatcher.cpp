@@ -5715,15 +5715,6 @@ eventType
 NS_ConvertUTF16toUTF8
 (
 aEventType
-.
-Data
-(
-)
-aEventType
-.
-Length
-(
-)
 )
 )
 ;
