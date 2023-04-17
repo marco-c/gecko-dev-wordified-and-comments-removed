@@ -465,6 +465,14 @@ GetShutdownBarrier
 (
 )
 ;
+nsCOMPtr
+<
+nsIAsyncShutdownClient
+>
+MustGetShutdownBarrier
+(
+)
+;
 class
 ShutdownBlocker
 :
