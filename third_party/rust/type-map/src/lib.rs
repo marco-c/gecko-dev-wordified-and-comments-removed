@@ -11,7 +11,7 @@ TypeId
 }
 ;
 use
-fxhash
+rustc_hash
 :
 :
 FxHashMap
@@ -1079,7 +1079,7 @@ TypeId
 }
 ;
 use
-fxhash
+rustc_hash
 :
 :
 FxHashMap

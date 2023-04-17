@@ -129,7 +129,7 @@ version
 .
 5
 .
-0
+1
 "
 authors
 =
@@ -182,6 +182,16 @@ toml
 README
 .
 md
+"
+"
+LICENSE
+-
+APACHE
+"
+"
+LICENSE
+-
+MIT
 "
 ]
 description
@@ -292,7 +302,7 @@ version
 "
 0
 .
-3
+4
 "
 [
 dependencies
@@ -337,4 +347,6 @@ version
 7
 .
 0
+.
+1
 "
