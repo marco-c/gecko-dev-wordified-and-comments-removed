@@ -130,6 +130,13 @@ h
 #
 include
 "
+FrameLayerBuilder
+.
+h
+"
+#
+include
+"
 nsCSSProps
 .
 h

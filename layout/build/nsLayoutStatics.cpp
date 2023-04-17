@@ -404,6 +404,13 @@ h
 #
 include
 "
+FrameLayerBuilder
+.
+h
+"
+#
+include
+"
 AnimationCommon
 .
 h
@@ -1954,6 +1961,13 @@ ShutDown
 )
 ;
 nsListControlFrame
+:
+:
+Shutdown
+(
+)
+;
+FrameLayerBuilder
 :
 :
 Shutdown

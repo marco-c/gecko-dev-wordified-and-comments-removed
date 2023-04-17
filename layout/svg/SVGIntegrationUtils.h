@@ -426,6 +426,16 @@ const
 PaintFramesParams
 &
 aParams
+)
+;
+static
+void
+PaintMaskAndClipPath
+(
+const
+PaintFramesParams
+&
+aParams
 const
 std
 :

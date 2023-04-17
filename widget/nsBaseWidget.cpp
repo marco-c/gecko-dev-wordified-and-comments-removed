@@ -27,6 +27,13 @@ h
 #
 include
 "
+FrameLayerBuilder
+.
+h
+"
+#
+include
+"
 GLConsts
 .
 h

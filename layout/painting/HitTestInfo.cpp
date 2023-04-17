@@ -30,17 +30,6 @@ nsIFrame
 .
 h
 "
-#
-include
-"
-mozilla
-/
-layers
-/
-ScrollableLayerGuid
-.
-h
-"
 namespace
 mozilla
 {
@@ -174,9 +163,6 @@ GetViewId
 ;
 }
 return
-layers
-:
-:
 ScrollableLayerGuid
 :
 :
