@@ -696,6 +696,14 @@ input
 true
 )
 ;
+request
+.
+responseType
+=
+"
+arraybuffer
+"
+;
 for
 (
 const
