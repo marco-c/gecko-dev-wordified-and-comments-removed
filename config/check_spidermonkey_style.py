@@ -172,7 +172,7 @@ h
 "
 jit
 /
-MOpcodesGenerated
+MIROpsGenerated
 .
 h
 "
