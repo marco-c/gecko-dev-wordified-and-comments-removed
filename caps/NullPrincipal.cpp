@@ -203,7 +203,7 @@ aInheritFrom
 )
 ;
 return
-CreateWithInheritedAttributes
+CreateInternal
 (
 Cast
 (
@@ -215,6 +215,8 @@ OriginAttributesRef
 (
 )
 false
+nullptr
+aInheritFrom
 )
 ;
 }
