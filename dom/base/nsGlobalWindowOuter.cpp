@@ -24352,6 +24352,7 @@ CreateStaticClone
 (
 cloneDocShell
 cv
+aPrintSettings
 &
 hasPrintCallbacks
 )
