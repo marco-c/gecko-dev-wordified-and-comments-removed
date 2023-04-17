@@ -390,6 +390,14 @@ networkEvent
 .
 private
 ;
+this
+.
+_isNavigationRequest
+=
+networkEvent
+.
+isNavigationRequest
+;
 }
 asResource
 (
@@ -559,6 +567,11 @@ _serial
 this
 .
 _channelId
+isNavigationRequest
+:
+this
+.
+_isNavigationRequest
 }
 ;
 }
