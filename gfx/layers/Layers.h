@@ -180,17 +180,6 @@ mozilla
 /
 gfx
 /
-TiledRegion
-.
-h
-"
-#
-include
-"
-mozilla
-/
-gfx
-/
 Types
 .
 h

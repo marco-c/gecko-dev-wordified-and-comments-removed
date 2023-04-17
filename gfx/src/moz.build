@@ -208,11 +208,6 @@ CompositorHitTestInfo
 .
 h
 "
-"
-TiledRegion
-.
-h
-"
 ]
 if
 CONFIG
@@ -305,11 +300,6 @@ cpp
 "
 "
 nsTransform2D
-.
-cpp
-"
-"
-TiledRegion
 .
 cpp
 "
