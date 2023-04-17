@@ -3047,7 +3047,12 @@ mem
 )
 ;
 return
-result
+nsTArray
+<
+uint8_t
+>
+(
+)
 ;
 }
 #
