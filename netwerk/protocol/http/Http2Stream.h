@@ -882,8 +882,10 @@ Http2Session
 *
 mSession
 ;
+RefPtr
+<
 nsAHttpSegmentReader
-*
+>
 mSegmentReader
 ;
 nsAHttpSegmentWriter
