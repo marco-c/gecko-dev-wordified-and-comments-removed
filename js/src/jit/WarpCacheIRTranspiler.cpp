@@ -24356,7 +24356,7 @@ length
 heap
 )
 ;
-addEffectful
+add
 (
 obj
 )
@@ -24367,10 +24367,7 @@ obj
 )
 ;
 return
-resumeAfter
-(
-obj
-)
+true
 ;
 }
 static
