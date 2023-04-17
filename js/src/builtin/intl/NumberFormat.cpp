@@ -6271,7 +6271,7 @@ length
 )
 =
 =
-4
+3
 )
 ;
 MOZ_ASSERT
@@ -6303,18 +6303,6 @@ MOZ_ASSERT
 args
 [
 2
-]
-.
-isBoolean
-(
-)
-)
-;
-MOZ_ASSERT
-(
-args
-[
-3
 ]
 .
 isBoolean
