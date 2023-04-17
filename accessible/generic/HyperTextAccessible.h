@@ -833,17 +833,6 @@ aRange
 )
 const
 ;
-TextLeafPoint
-ToTextLeafPoint
-(
-int32_t
-aOffset
-bool
-aDescendToEnd
-=
-false
-)
-;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 ReplaceText

@@ -13,6 +13,9 @@ a11y
 class
 Accessible
 ;
+class
+TextLeafPoint
+;
 const
 char16_t
 kEmbeddedObjectChar
@@ -205,6 +208,17 @@ int32_t
 aEndOffset
 =
 nullptr
+)
+;
+TextLeafPoint
+ToTextLeafPoint
+(
+int32_t
+aOffset
+bool
+aDescendToEnd
+=
+false
 )
 ;
 protected
