@@ -1601,6 +1601,13 @@ wrapper
 ;
 SpinEventLoopUntil
 (
+"
+nsThreadPool
+:
+:
+Dispatch
+"
+_ns
 [
 &
 wrapper
