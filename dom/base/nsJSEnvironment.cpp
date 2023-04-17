@@ -1688,6 +1688,12 @@ sShuttingDown
 =
 true
 ;
+sScheduler
+.
+Shutdown
+(
+)
+;
 KillTimers
 (
 )
