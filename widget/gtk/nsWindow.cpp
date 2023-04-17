@@ -2258,6 +2258,10 @@ gdk_screen_get_default
 )
 )
 )
+mIsAccelerated
+(
+false
+)
 mShell
 (
 nullptr
@@ -25706,8 +25710,7 @@ isGLVisualSet
 =
 false
 ;
-bool
-isAccelerated
+mIsAccelerated
 =
 ComputeShouldAccelerate
 (
@@ -25718,7 +25721,7 @@ ifdef
 MOZ_X11
 if
 (
-isAccelerated
+mIsAccelerated
 )
 {
 isGLVisualSet
@@ -26386,7 +26389,7 @@ GdkIsWaylandDisplay
 )
 &
 &
-isAccelerated
+mIsAccelerated
 )
 {
 mCompositorInitiallyPaused
@@ -26599,7 +26602,7 @@ UseEGL
 )
 &
 &
-isAccelerated
+mIsAccelerated
 )
 {
 mCompositorInitiallyPaused
@@ -28879,14 +28882,15 @@ PauseCompositor
 if
 (
 !
+mIsAccelerated
+|
+|
 mIsDestroyed
 )
 {
-if
-(
-mContainer
-)
-{
+return
+;
+}
 CompositorBridgeChild
 *
 remoteRenderer
@@ -28979,8 +28983,6 @@ DestroyLayerManager
 (
 )
 ;
-}
-}
 }
 }
 void
