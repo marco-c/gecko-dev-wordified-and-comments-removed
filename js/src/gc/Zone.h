@@ -1903,10 +1903,9 @@ RuntimeHeapIsCollecting
 )
 {
 return
-gcState_
-!
-=
-NoGC
+wasGCStarted
+(
+)
 ;
 }
 else
