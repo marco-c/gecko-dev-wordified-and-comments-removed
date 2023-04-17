@@ -479,6 +479,7 @@ rv
 =
 ResetInterception
 (
+false
 )
 ;
 if
@@ -2054,7 +2055,8 @@ InterceptedHttpChannel
 :
 ResetInterception
 (
-void
+bool
+aBypass
 )
 {
 if
@@ -2092,6 +2094,19 @@ mURI
 flags
 )
 ;
+if
+(
+aBypass
+)
+{
+redirectLoadInfo
+-
+>
+ClearController
+(
+)
+;
+}
 nsresult
 rv
 =
