@@ -84,10 +84,7 @@ exports
 .
 reportProfilerReady
 =
-(
-isSupportedPlatform
 recordingState
-)
 =
 >
 (
@@ -97,7 +94,6 @@ type
 "
 REPORT_PROFILER_READY
 "
-isSupportedPlatform
 recordingState
 }
 )

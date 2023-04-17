@@ -97,6 +97,7 @@ componentDidMount
 const
 {
 perfFront
+isSupportedPlatform
 reportProfilerReady
 }
 =
@@ -116,11 +117,6 @@ isActive
 )
 perfFront
 .
-isSupportedPlatform
-(
-)
-perfFront
-.
 isLockedForPrivateBrowsing
 (
 )
@@ -136,7 +132,6 @@ results
 const
 [
 isActive
-isSupportedPlatform
 isLockedForPrivateBrowsing
 ]
 =
@@ -216,7 +211,6 @@ record
 }
 reportProfilerReady
 (
-isSupportedPlatform
 recordingState
 )
 ;

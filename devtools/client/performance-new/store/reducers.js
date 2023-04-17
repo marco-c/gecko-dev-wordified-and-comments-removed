@@ -123,7 +123,7 @@ type
 {
 case
 "
-REPORT_PROFILER_READY
+INITIALIZE_STORE
 "
 :
 return

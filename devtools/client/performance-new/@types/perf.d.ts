@@ -981,10 +981,6 @@ type
 REPORT_PROFILER_READY
 "
 ;
-isSupportedPlatform
-:
-boolean
-;
 recordingState
 :
 RecordingState
@@ -1079,6 +1075,10 @@ perfFront
 :
 PerfFront
 ;
+isSupportedPlatform
+:
+boolean
+;
 setRecordingSettings
 :
 SetRecordingSettings
@@ -1138,6 +1138,10 @@ InitializeStoreValues
 perfFront
 :
 PerfFront
+;
+isSupportedPlatform
+:
+boolean
 ;
 setRecordingSettings
 :
