@@ -727,6 +727,12 @@ functionBodyEndPos
 {
 }
 ;
+JumpList
+endOfDerivedClassConstructorBody
+=
+{
+}
+;
 private
 :
 BytecodeEmitter
