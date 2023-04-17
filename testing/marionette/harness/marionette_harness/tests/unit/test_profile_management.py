@@ -83,6 +83,17 @@ profile
 =
 None
         
+self
+.
+marionette
+.
+quit
+(
+clean
+=
+True
+)
+        
 super
 (
 BaseProfileManagement
