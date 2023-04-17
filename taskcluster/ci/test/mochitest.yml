@@ -392,21 +392,6 @@ video
 true
 virtualization
 :
-by
--
-test
--
-platform
-:
-windows10
--
-64
-.
-*
-:
-hardware
-default
-:
 virtual
 variants
 :
@@ -515,6 +500,8 @@ macosx
 windows10
 -
 64
+-
+2004
 )
 -
 qr
@@ -545,6 +532,8 @@ macosx
 windows10
 -
 64
+-
+2004
 )
 -
 qr
@@ -570,6 +559,8 @@ macosx
 windows10
 -
 64
+-
+2004
 )
 -
 shippable
@@ -642,6 +633,8 @@ macosx
 windows10
 -
 64
+-
+2004
 )
 (
 -
@@ -774,6 +767,8 @@ opt
 windows10
 -
 64
+-
+2004
 -
 ccov
 .

@@ -1364,10 +1364,6 @@ mochitest
 -
 plain
 -
-mochitest
--
-plain
--
 gpu
 -
 mochitest
@@ -1487,6 +1483,16 @@ mochitest
 webgl2
 -
 ext
+windows10
+-
+2004
+-
+tests
+:
+-
+mochitest
+-
+plain
 mingwclang
 -
 tests
