@@ -1751,11 +1751,6 @@ mTabProcessCrashFired
 :
 1
 ;
-bool
-mNotifyingCrash
-:
-1
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
