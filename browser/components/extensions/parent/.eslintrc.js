@@ -60,9 +60,6 @@ true
 getContainerForCookieStoreId
 :
 true
-getInspectedWindowFront
-:
-true
 getTargetTabIdForToolbox
 :
 true

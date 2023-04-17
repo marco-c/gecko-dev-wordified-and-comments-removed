@@ -952,10 +952,7 @@ webExtensionsMethods
 =
 [
 "
-createDescriptorForTabForWebExtension
-"
-"
-createWebExtensionInspectedWindowFront
+createCommandsForTabForWebExtension
 "
 "
 getTheme
