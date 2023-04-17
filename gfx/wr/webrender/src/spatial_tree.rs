@@ -3524,9 +3524,9 @@ info
 .
 viewport_rect
 .
+size
+.
 width
-(
-)
 >
 MIN_SCROLL_ROOT_SIZE
 &
@@ -3535,9 +3535,9 @@ info
 .
 viewport_rect
 .
+size
+.
 height
-(
-)
 >
 MIN_SCROLL_ROOT_SIZE
 {

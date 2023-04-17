@@ -809,7 +809,7 @@ blur_radius
 blur_radius
 )
 .
-contains_box
+contains_rect
 (
 &
 prim_info
