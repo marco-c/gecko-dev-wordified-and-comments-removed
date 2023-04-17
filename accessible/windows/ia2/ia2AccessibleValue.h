@@ -18,6 +18,9 @@ namespace
 a11y
 {
 class
+AccessibleWrap
+;
+class
 ia2AccessibleValue
 :
 public
@@ -71,6 +74,14 @@ get_minimumValue
 VARIANT
 *
 minimumValue
+)
+;
+private
+:
+AccessibleWrap
+*
+LocalAcc
+(
 )
 ;
 }

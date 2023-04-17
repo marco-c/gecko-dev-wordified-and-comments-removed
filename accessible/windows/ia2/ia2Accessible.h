@@ -38,6 +38,9 @@ class
 Attribute
 ;
 class
+AccessibleWrap
+;
+class
 ia2Accessible
 :
 public
@@ -349,6 +352,14 @@ aAttributes
 BSTR
 *
 aIA2Attributes
+)
+;
+private
+:
+AccessibleWrap
+*
+LocalAcc
+(
 )
 ;
 }
