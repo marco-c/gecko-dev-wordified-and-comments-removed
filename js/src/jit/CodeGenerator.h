@@ -556,7 +556,7 @@ oolObject
 )
 ;
 void
-emitTypeOfName
+emitTypeOfJSType
 (
 JSValueType
 type
