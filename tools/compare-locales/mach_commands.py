@@ -1059,13 +1059,13 @@ US
 "
 )
         
-self
+command_context
 .
 activate_virtualenv
 (
 )
         
-self
+command_context
 .
 virtualenv_manager
 .
@@ -1212,7 +1212,7 @@ get_default_config
 (
 Path
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -1353,6 +1353,7 @@ self
 .
 _clone_hg_repo
 (
+command_context
 VCT_URL
 VCT_PATH
 )
@@ -1456,7 +1457,10 @@ self
 .
 _check_outgoing
 (
+                
+command_context
 strings_path
+            
 )
 :
                 
@@ -1464,6 +1468,7 @@ self
 .
 _strip_outgoing
 (
+command_context
 strings_path
 )
             
@@ -1509,6 +1514,8 @@ self
 .
 _clone_hg_repo
 (
+                        
+command_context
 repo_config
 [
 "
@@ -1524,6 +1531,7 @@ path
 "
 ]
 )
+                    
 )
                 
 for
@@ -1579,10 +1587,13 @@ self
 .
 _retry_run_process
 (
+                        
+command_context
 command
 ensure_exit_code
 =
 False
+                    
 )
                     
 if
@@ -1672,6 +1683,7 @@ self
 _retry_run_process
 (
                             
+command_context
 command
 ensure_exit_code
 =
@@ -1711,12 +1723,15 @@ self
 _check_hg_repo
 (
                     
+command_context
+                    
 repo_config
 [
 "
 path
 "
 ]
+                    
 heads
 =
 repo_config
@@ -1743,6 +1758,7 @@ self
 .
 _check_hg_repo
 (
+command_context
 strings_path
 )
             
@@ -1770,12 +1786,15 @@ self
 _check_hg_repo
 (
                     
+command_context
+                    
 repo_config
 [
 "
 path
 "
 ]
+                    
 heads
 =
 repo_config
@@ -1800,6 +1819,7 @@ self
 .
 _check_outgoing
 (
+command_context
 strings_path
 )
 :
@@ -1848,8 +1868,11 @@ self
 .
 _create_outgoing_patch
 (
+                    
+command_context
 outgoing_path
 strings_path
+                
 )
             
 except
@@ -1875,7 +1898,7 @@ exc
 from
 exc
                 
-self
+command_context
 .
 log
 (
@@ -1911,6 +1934,8 @@ self
 .
 _retry_run_process
 (
+                    
+command_context
                     
 [
                         
@@ -1965,7 +1990,7 @@ print
 else
 :
                 
-self
+command_context
 .
 log
 (
@@ -1992,6 +2017,7 @@ def
 _check_outgoing
 (
 self
+command_context
 strings_path
 )
 :
@@ -2002,6 +2028,8 @@ self
 .
 _retry_run_process
 (
+            
+command_context
             
 [
 "
@@ -2080,6 +2108,7 @@ def
 _strip_outgoing
 (
 self
+command_context
 strings_path
 )
 :
@@ -2088,6 +2117,8 @@ self
 .
 _retry_run_process
 (
+            
+command_context
             
 [
                 
@@ -2145,6 +2176,7 @@ def
 _create_outgoing_patch
 (
 self
+command_context
 path
 strings_path
 )
@@ -2215,6 +2247,8 @@ self
 _retry_run_process
 (
                 
+command_context
+                
 [
                     
 "
@@ -2271,6 +2305,7 @@ def
 _retry_run_process
 (
 self
+command_context
 *
 args
 error_msg
@@ -2286,7 +2321,7 @@ try
 :
             
 return
-self
+command_context
 .
 run_process
 (
@@ -2320,6 +2355,7 @@ def
 _check_hg_repo
 (
 self
+command_context
 path
 heads
 =
@@ -2382,6 +2418,8 @@ self
 _retry_run_process
 (
                     
+command_context
+                    
 [
 "
 hg
@@ -2429,6 +2467,7 @@ def
 _clone_hg_repo
 (
 self
+command_context
 url
 path
 )
@@ -2438,6 +2477,7 @@ self
 .
 _retry_run_process
 (
+command_context
 [
 "
 hg
