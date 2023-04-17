@@ -155,9 +155,6 @@ u32
 color_id
 :
 u32
-dirty_rect
-:
-DeviceIntRect
 valid_rect
 :
 DeviceIntRect
@@ -204,14 +201,6 @@ fbo_id
 color_id
 :
 0
-dirty_rect
-:
-DeviceIntRect
-:
-:
-zero
-(
-)
 valid_rect
 :
 DeviceIntRect
@@ -5950,12 +5939,6 @@ id
 y
 )
 {
-tile
-.
-dirty_rect
-=
-dirty_rect
-;
 assert_eq
 !
 (
