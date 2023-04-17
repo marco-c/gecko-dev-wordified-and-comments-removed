@@ -4833,15 +4833,6 @@ nsAString
 aAlignType
 )
 ;
-bool
-StartOrEndOfSelectionRangesIsIn
-(
-nsIContent
-&
-aContent
-)
-const
-;
 [
 [
 nodiscard
