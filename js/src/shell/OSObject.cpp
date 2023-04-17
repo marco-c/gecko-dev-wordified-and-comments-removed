@@ -217,6 +217,15 @@ include
 "
 util
 /
+GetPidProvider
+.
+h
+"
+#
+include
+"
+util
+/
 StringBuffer
 .
 h
@@ -292,6 +301,12 @@ endif
 define
 getcwd
 _getcwd
+#
+elif
+defined
+(
+__wasi__
+)
 #
 else
 #
@@ -5469,6 +5484,9 @@ return
 true
 ;
 }
+#
+ifndef
+__wasi__
 static
 bool
 os_waitpid
@@ -5730,6 +5748,8 @@ true
 }
 #
 endif
+#
+endif
 static
 const
 JSFunctionSpecWithHelp
@@ -5904,6 +5924,9 @@ given
 .
 "
 )
+#
+ifndef
+__wasi__
 JS_FN_HELP
 (
 "
@@ -5977,6 +6000,8 @@ exited
 .
 "
 )
+#
+endif
 #
 endif
 JS_FS_HELP_END
