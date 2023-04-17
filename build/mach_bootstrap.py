@@ -1384,21 +1384,8 @@ def
 bootstrap
 (
 topsrcdir
-mozilla_dir
-=
-None
 )
 :
-    
-if
-mozilla_dir
-is
-None
-:
-        
-mozilla_dir
-=
-topsrcdir
     
 major
 minor
@@ -1531,7 +1518,7 @@ path
 =
 mach_sys_path
 (
-mozilla_dir
+topsrcdir
 )
     
 import
@@ -1669,7 +1656,7 @@ get_repository_object
 (
 path
 =
-mozilla_dir
+topsrcdir
 )
         
 except
@@ -2234,7 +2221,7 @@ settings_paths
 .
 append
 (
-mozilla_dir
+topsrcdir
 )
     
 for
@@ -2298,7 +2285,7 @@ path
 .
 join
 (
-mozilla_dir
+topsrcdir
 path
 )
 )
