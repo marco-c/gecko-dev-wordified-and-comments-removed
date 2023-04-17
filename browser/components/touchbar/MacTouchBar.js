@@ -437,9 +437,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 reload
 .
