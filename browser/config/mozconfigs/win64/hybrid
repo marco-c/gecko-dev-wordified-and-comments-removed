@@ -18,13 +18,3 @@ disable
 unified
 -
 build
-ac_add_options
--
--
-disable
--
-warnings
--
-as
--
-errors
