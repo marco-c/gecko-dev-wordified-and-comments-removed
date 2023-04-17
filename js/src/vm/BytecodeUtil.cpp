@@ -15574,11 +15574,6 @@ result
 ok
 )
 {
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
@@ -15677,11 +15672,6 @@ false
 )
 )
 {
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
@@ -15973,6 +15963,11 @@ out
 )
 )
 {
+JS_ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
@@ -16055,6 +16050,11 @@ out
 )
 )
 {
+JS_ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;

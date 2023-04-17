@@ -677,6 +677,14 @@ if
 atom
 )
 {
+js
+:
+:
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;

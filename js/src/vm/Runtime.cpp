@@ -2282,13 +2282,6 @@ JSMSG_TERMINATED
 chars
 )
 ;
-cx
--
->
-setInterrupting
-(
-)
-;
 return
 false
 ;

@@ -367,11 +367,6 @@ initialLength
 )
 )
 {
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 nullptr
 ;

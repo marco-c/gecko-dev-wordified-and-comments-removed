@@ -525,11 +525,6 @@ testSliceBudget
 cpp
 "
 "
-testSlowScript
-.
-cpp
-"
-"
 testSourcePolicy
 .
 cpp

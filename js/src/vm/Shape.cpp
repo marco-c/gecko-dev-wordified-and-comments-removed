@@ -5713,6 +5713,11 @@ if
 shape
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
@@ -5782,6 +5787,11 @@ if
 shape
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
