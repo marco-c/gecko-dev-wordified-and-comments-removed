@@ -745,6 +745,12 @@ wasm
 -
 browsertime
 -
+youtube
+-
+playback
+-
+browsertime
+-
 custom
 -
 browsertime

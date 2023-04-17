@@ -2454,18 +2454,13 @@ interactive
 )
         
 if
-testname
-.
-startswith
-(
 "
-raptor
--
 youtube
 -
 playback
 "
-)
+in
+testname
 :
             
 return
