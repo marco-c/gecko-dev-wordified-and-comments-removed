@@ -315,7 +315,7 @@ LifoAllocBlockSize
 static
 const
 size_t
-WholeCellBufferOverflowThresholdBytes
+BufferOverflowThresholdBytes
 =
 128
 *
@@ -363,9 +363,7 @@ static
 size_t
 MaxEntries
 =
-48
-*
-1024
+BufferOverflowThresholdBytes
 /
 sizeof
 (
@@ -705,7 +703,7 @@ used
 (
 )
 >
-WholeCellBufferOverflowThresholdBytes
+BufferOverflowThresholdBytes
 ;
 }
 void
