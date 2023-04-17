@@ -120,7 +120,7 @@ gfx
 :
 :
 Size
-GetTargetSize
+CalculateBoxSize
 (
 Element
 *
@@ -650,7 +650,7 @@ LogicalPixelSize
 size
 (
 wm
-GetTargetSize
+CalculateBoxSize
 (
 mTarget
 mObservedBox
@@ -1380,7 +1380,7 @@ gfx
 Size
 borderBoxSize
 =
-GetTargetSize
+CalculateBoxSize
 (
 target
 ResizeObserverBoxOptions
@@ -1395,7 +1395,7 @@ gfx
 Size
 contentBoxSize
 =
-GetTargetSize
+CalculateBoxSize
 (
 target
 ResizeObserverBoxOptions
@@ -1410,7 +1410,7 @@ gfx
 Size
 devicePixelContentBoxSize
 =
-GetTargetSize
+CalculateBoxSize
 (
 target
 ResizeObserverBoxOptions
