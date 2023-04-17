@@ -1068,9 +1068,6 @@ attribute
 Navigator
 clientInformation
 ;
-#
-ifdef
-HAVE_SIDEBAR
 [
 Replaceable
 Throws
@@ -1080,8 +1077,6 @@ attribute
 External
 external
 ;
-#
-endif
 [
 Throws
 SecureContext
@@ -3365,9 +3360,6 @@ onorientationchange
 ;
 #
 endif
-#
-ifdef
-HAVE_SIDEBAR
 /
 /
 Mozilla
@@ -3422,8 +3414,6 @@ sidebar
 ;
 }
 ;
-#
-endif
 [
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ]
