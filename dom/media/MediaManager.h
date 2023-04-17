@@ -1049,7 +1049,7 @@ true
 >
 ;
 using
-DevicesPromise
+DeviceSetPromise
 =
 MozPromise
 <
@@ -1144,7 +1144,7 @@ nsString
 ;
 RefPtr
 <
-DevicesPromise
+DeviceSetPromise
 >
 EnumerateDevices
 (
