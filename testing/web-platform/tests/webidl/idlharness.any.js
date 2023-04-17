@@ -7,7 +7,7 @@ idl_test
 (
 [
 '
-WebIDL
+webidl
 '
 ]
 [

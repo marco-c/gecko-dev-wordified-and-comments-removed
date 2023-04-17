@@ -12,7 +12,7 @@ webtransport
 ]
 [
 '
-WebIDL
+webidl
 '
 '
 streams

@@ -14,7 +14,7 @@ streams
 ]
 [
 '
-WebIDL
+webidl
 '
 '
 dom

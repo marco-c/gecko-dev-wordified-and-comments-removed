@@ -28,7 +28,7 @@ html
 dom
 '
 '
-WebIDL
+webidl
 '
 ]
 idl_array

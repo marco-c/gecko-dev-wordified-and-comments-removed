@@ -44,7 +44,7 @@ dom
 html
 '
 '
-WebIDL
+webidl
 '
 ]
 idl_array

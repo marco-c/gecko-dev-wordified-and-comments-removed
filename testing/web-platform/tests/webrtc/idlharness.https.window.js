@@ -445,7 +445,7 @@ webrtc
 ]
 [
 '
-WebIDL
+webidl
 '
 '
 mediacapture
