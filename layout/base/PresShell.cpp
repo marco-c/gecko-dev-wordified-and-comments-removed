@@ -16797,14 +16797,6 @@ autoBehaviorIsSmooth
 ;
 if
 (
-StaticPrefs
-:
-:
-layout_css_scroll_behavior_enabled
-(
-)
-&
-&
 smoothScroll
 )
 {
