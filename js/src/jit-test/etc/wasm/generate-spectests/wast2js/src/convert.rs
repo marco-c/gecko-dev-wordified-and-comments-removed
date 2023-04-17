@@ -3029,7 +3029,7 @@ format
 value
 (
 '
-funcref
+anyfunc
 '
 null
 )

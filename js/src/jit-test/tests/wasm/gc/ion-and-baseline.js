@@ -400,7 +400,7 @@ initial
 element
 :
 "
-funcref
+anyfunc
 "
 }
 )

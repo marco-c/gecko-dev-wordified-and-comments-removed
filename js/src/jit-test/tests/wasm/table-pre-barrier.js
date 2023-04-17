@@ -111,7 +111,7 @@ Table
 element
 :
 "
-funcref
+anyfunc
 "
 initial
 :
