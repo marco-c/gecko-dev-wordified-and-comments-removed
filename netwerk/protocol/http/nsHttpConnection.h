@@ -125,6 +125,13 @@ nsITimer
 .
 h
 "
+#
+include
+"
+nsITlsHandshakeListener
+.
+h
+"
 class
 nsISocketTransport
 ;
@@ -185,6 +192,8 @@ nsITransportEventSink
 public
 nsIInterfaceRequestor
 public
+nsITlsHandshakeCallbackListener
+public
 NudgeTunnelCallback
 {
 private
@@ -209,6 +218,7 @@ NS_DECL_NSIINPUTSTREAMCALLBACK
 NS_DECL_NSIOUTPUTSTREAMCALLBACK
 NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
+NS_DECL_NSITLSHANDSHAKECALLBACKLISTENER
 NS_DECL_NUDGETUNNELCALLBACK
 nsHttpConnection
 (
