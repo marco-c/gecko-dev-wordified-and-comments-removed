@@ -279,6 +279,11 @@ mOverlayIcon
 nullptr
 ;
 }
+SetVisible
+(
+false
+)
+;
 if
 (
 IsWindowAvailable
