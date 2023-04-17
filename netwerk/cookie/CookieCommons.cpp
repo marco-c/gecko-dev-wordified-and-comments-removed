@@ -67,6 +67,15 @@ include
 "
 mozilla
 /
+StaticPrefs_network
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Document
