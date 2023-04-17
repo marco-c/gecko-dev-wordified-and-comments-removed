@@ -434,13 +434,12 @@ aDocument
 void
 RemoveDocument
 (
-const
-nsACString
-&
-aKey
 Document
 *
 aDocument
+DocGroup
+*
+aDocGroup
 )
 ;
 mozilla
