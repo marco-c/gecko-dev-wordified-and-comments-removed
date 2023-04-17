@@ -161,7 +161,11 @@ cellhighlighttext
 }
 richlistbox
 :
+where
+(
+:
 focus
+)
 >
 richlistitem
 [

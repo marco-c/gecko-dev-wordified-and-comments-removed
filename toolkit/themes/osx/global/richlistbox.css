@@ -161,7 +161,11 @@ DialogText
 }
 richlistbox
 :
+where
+(
+:
 focus
+)
 >
 richlistitem
 [
