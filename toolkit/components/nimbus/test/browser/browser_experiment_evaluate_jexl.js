@@ -370,9 +370,9 @@ slug
 foo
 "
 +
-Date
+Math
 .
-now
+random
 (
 )
 ;

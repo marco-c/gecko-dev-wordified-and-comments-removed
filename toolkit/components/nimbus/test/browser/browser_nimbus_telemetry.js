@@ -286,9 +286,9 @@ recipe
 foo
 "
 +
-Date
+Math
 .
-now
+random
 (
 )
 {
