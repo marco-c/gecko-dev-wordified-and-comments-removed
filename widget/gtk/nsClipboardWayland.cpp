@@ -113,6 +113,13 @@ h
 "
 #
 include
+"
+nsWindow
+.
+h
+"
+#
+include
 <
 gtk
 /
