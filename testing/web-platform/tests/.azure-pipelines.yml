@@ -467,9 +467,7 @@ versionSpec
 '
 3
 .
-8
-.
-x
+9
 '
 -
 template
@@ -579,9 +577,7 @@ versionSpec
 '
 3
 .
-8
-.
-x
+9
 '
 -
 template
@@ -745,9 +741,7 @@ versionSpec
 '
 3
 .
-8
-.
-x
+9
 '
 -
 template
@@ -886,9 +880,7 @@ versionSpec
 '
 3
 .
-8
-.
-x
+9
 '
 -
 template
@@ -1260,8 +1252,6 @@ versionSpec
 3
 .
 6
-.
-x
 '
 -
 template
@@ -1299,7 +1289,7 @@ py36
 -
 job
 :
-tools_unittest_mac_py38
+tools_unittest_mac_py39
 displayName
 :
 '
@@ -1312,7 +1302,7 @@ macOS
 Python
 3
 .
-8
+9
 '
 dependsOn
 :
@@ -1356,9 +1346,7 @@ versionSpec
 '
 3
 .
-8
-.
-x
+9
 '
 -
 template
@@ -1392,7 +1380,7 @@ tools
 /
 toxenv
 :
-py38
+py39
 -
 job
 :
@@ -1456,8 +1444,6 @@ versionSpec
 3
 .
 6
-.
-x
 '
 -
 template
@@ -1497,7 +1483,7 @@ py36
 -
 job
 :
-wptrunner_unittest_mac_py38
+wptrunner_unittest_mac_py39
 displayName
 :
 '
@@ -1512,7 +1498,7 @@ macOS
 Python
 3
 .
-8
+9
 '
 dependsOn
 :
@@ -1556,9 +1542,7 @@ versionSpec
 '
 3
 .
-8
-.
-x
+9
 '
 -
 template
@@ -1594,7 +1578,7 @@ wptrunner
 /
 toxenv
 :
-py38
+py39
 -
 job
 :
@@ -1662,8 +1646,6 @@ versionSpec
 3
 .
 6
-.
-x
 '
 -
 template
@@ -1739,7 +1721,7 @@ py36
 -
 job
 :
-wpt_integratio_mac_py38
+wpt_integratio_mac_py39
 displayName
 :
 '
@@ -1754,7 +1736,7 @@ macOS
 Python
 3
 .
-8
+9
 '
 dependsOn
 :
@@ -1802,9 +1784,7 @@ versionSpec
 '
 3
 .
-8
-.
-x
+9
 '
 -
 template
@@ -1876,7 +1856,7 @@ wpt
 /
 toxenv
 :
-py38
+py39
 -
 job
 :
@@ -1941,8 +1921,6 @@ versionSpec
 3
 .
 6
-.
-x
 '
 addToPath
 :
@@ -1983,7 +1961,7 @@ py36
 -
 job
 :
-tools_unittest_win_py38
+tools_unittest_win_py39
 displayName
 :
 '
@@ -1996,7 +1974,7 @@ Windows
 Python
 3
 .
-8
+9
 '
 dependsOn
 :
@@ -2038,9 +2016,7 @@ versionSpec
 '
 3
 .
-8
-.
-x
+9
 '
 addToPath
 :
@@ -2077,7 +2053,7 @@ tools
 /
 toxenv
 :
-py38
+py39
 -
 job
 :
@@ -2139,8 +2115,6 @@ versionSpec
 3
 .
 6
-.
-x
 '
 addToPath
 :
@@ -2183,7 +2157,7 @@ py36
 -
 job
 :
-wptrunner_unittest_win_py38
+wptrunner_unittest_win_py39
 displayName
 :
 '
@@ -2198,7 +2172,7 @@ Windows
 Python
 3
 .
-8
+9
 '
 dependsOn
 :
@@ -2240,9 +2214,7 @@ versionSpec
 '
 3
 .
-8
-.
-x
+9
 '
 addToPath
 :
@@ -2281,7 +2253,7 @@ wptrunner
 /
 toxenv
 :
-py38
+py39
 -
 job
 :
@@ -2347,8 +2319,6 @@ versionSpec
 3
 .
 6
-.
-x
 '
 #
 currently
@@ -2451,7 +2421,7 @@ py36
 -
 job
 :
-wpt_integration_win_py38
+wpt_integration_win_py39
 displayName
 :
 '
@@ -2466,7 +2436,7 @@ Windows
 Python
 3
 .
-8
+9
 '
 dependsOn
 :
@@ -2512,9 +2482,7 @@ versionSpec
 '
 3
 .
-8
-.
-x
+9
 '
 #
 currently
@@ -2613,7 +2581,7 @@ wpt
 /
 toxenv
 :
-py38
+py39
 -
 job
 :
@@ -4222,9 +4190,7 @@ versionSpec
 '
 3
 .
-8
-.
-x
+9
 '
 -
 template
@@ -4613,9 +4579,7 @@ versionSpec
 '
 3
 .
-8
-.
-x
+9
 '
 -
 template

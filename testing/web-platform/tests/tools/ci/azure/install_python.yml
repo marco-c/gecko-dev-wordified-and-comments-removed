@@ -10,7 +10,7 @@ pythonPath
 C
 :
 \
-Python38
+Python39
 '
 pythonInstallerLogPath
 =
@@ -68,17 +68,17 @@ python
 /
 3
 .
-8
+9
 .
-5
+4
 /
 python
 -
 3
 .
-8
+9
 .
-5
+4
 -
 amd64
 .
@@ -103,7 +103,7 @@ ToLower
 expectedHash
 =
 "
-cd427c7b17337d7c13761ca20877d2d8be661bd30415ddc17072a31a65a91b64
+58e6bb9d08fd250c1defb7a7a7247993b4ea349518ba877abb6364de85029e04
 "
 if
 (
@@ -273,7 +273,7 @@ prependpath
 C
 :
 \
-Python38
+Python39
 "
 Write
 -
@@ -290,7 +290,7 @@ prependpath
 C
 :
 \
-Python38
+Python39
 \
 Scripts
 "

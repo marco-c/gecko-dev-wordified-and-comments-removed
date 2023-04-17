@@ -1320,7 +1320,7 @@ unittests
 Python
 3
 .
-8
+9
 )
 '
       
@@ -1346,7 +1346,7 @@ tests
 Python
 3
 .
-8
+9
 )
 '
       
@@ -1370,7 +1370,7 @@ tests
 Python
 3
 .
-8
+9
 )
 '
       
@@ -1386,10 +1386,6 @@ nightly
 infrastructure
 /
 tests
-(
-Python
-3
-)
 '
       
 '

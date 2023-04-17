@@ -459,7 +459,7 @@ servo
 }
 tox
 -
-python3
+python3_6
 :
 env
 :
@@ -471,13 +471,13 @@ PY_COLORS
 0
 tox
 -
-python38
+python3_9
 :
 env
 :
 TOXENV
 :
-py38
+py39
 PY_COLORS
 :
 0
@@ -486,17 +486,17 @@ install
 -
 python3
 .
-8
+9
 -
 python3
 .
-8
+9
 -
 distutils
 -
 python3
 .
-8
+9
 -
 dev
 tests
@@ -1891,7 +1891,7 @@ pr
 -
 tox
 -
-python3
+python3_6
 command
 :
 .
@@ -1938,7 +1938,7 @@ unittests
 Python
 3
 .
-8
+9
 )
 :
 description
@@ -1954,7 +1954,7 @@ under
 Python
 3
 .
-8
+9
 excluding
 wptrunner
 use
@@ -1970,7 +1970,7 @@ pr
 -
 tox
 -
-python38
+python3_9
 command
 :
 .
@@ -2036,7 +2036,7 @@ pr
 -
 tox
 -
-python3
+python3_6
 command
 :
 .
@@ -2105,7 +2105,7 @@ tests
 Python
 3
 .
-8
+9
 )
 :
 description
@@ -2121,7 +2121,7 @@ under
 Python
 3
 .
-8
+9
 use
 :
 -
@@ -2135,7 +2135,7 @@ pr
 -
 tox
 -
-python38
+python3_9
 command
 :
 .
@@ -2229,7 +2229,7 @@ pr
 -
 tox
 -
-python3
+python3_6
 command
 :
 .
@@ -2287,7 +2287,7 @@ tests
 Python
 3
 .
-8
+9
 )
 :
 description
@@ -2309,7 +2309,7 @@ under
 Python
 3
 .
-8
+9
 use
 :
 -
@@ -2323,7 +2323,7 @@ pr
 -
 tox
 -
-python38
+python3_9
 command
 :
 .
@@ -2367,10 +2367,6 @@ resources_unittest
 infrastructure
 /
 tests
-(
-Python
-3
-)
 :
 description
 :
