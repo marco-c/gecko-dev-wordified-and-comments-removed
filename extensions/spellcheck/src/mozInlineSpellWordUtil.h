@@ -757,7 +757,9 @@ aSoftEnd
 int32_t
 MapDOMPositionToSoftTextOffset
 (
+const
 NodeOffset
+&
 aNodeOffset
 )
 const
