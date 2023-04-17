@@ -255,7 +255,7 @@ ExtensionSettings
 :
 {
 "
-updatable
+updatable1
 test
 "
 :
@@ -403,7 +403,7 @@ ExtensionSettings
 :
 {
 "
-updatable
+updatable1
 test
 "
 :
