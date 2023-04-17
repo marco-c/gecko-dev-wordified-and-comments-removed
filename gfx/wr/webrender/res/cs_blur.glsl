@@ -94,9 +94,21 @@ blur
 filter
 over
 .
+/
+/
+Packed
+in
+to
+vector
+to
+work
+around
+bug
+1630356
+.
 flat
 varying
-int
+ivec2
 vSupport
 ;
 flat
@@ -339,6 +351,8 @@ i
 <
 =
 vSupport
+.
+x
 ;
 i
 +
@@ -506,6 +520,8 @@ linear
 filtering
 .
 vSupport
+.
+x
 =
 int
 (
@@ -526,6 +542,8 @@ blur_radius
 if
 (
 vSupport
+.
+x
 >
 0
 )
@@ -1059,6 +1077,8 @@ support
 min
 (
 vSupport
+.
+x
 300
 )
 ;
@@ -1212,6 +1232,8 @@ x
 .
 0
 vSupport
+.
+x
 vGaussCoefficients
 )
 ;
@@ -1237,6 +1259,8 @@ x
 .
 0
 vSupport
+.
+x
 vGaussCoefficients
 )
 ;

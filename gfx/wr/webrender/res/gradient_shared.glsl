@@ -244,6 +244,8 @@ v_pos
 v_repeated_size
 ;
 v_gradient_address
+.
+x
 =
 prim_user_data
 .
@@ -264,6 +266,8 @@ of
 clamping
 .
 v_gradient_repeat
+.
+x
 =
 float
 (
