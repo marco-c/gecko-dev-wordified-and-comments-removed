@@ -321,7 +321,7 @@ struct
 RemotenessOptions
 ;
 struct
-NavigationIsolationOptions
+RemotenessChangeOptions
 ;
 class
 SessionStoreChangeListener
@@ -539,7 +539,7 @@ mozilla
 dom
 :
 :
-NavigationIsolationOptions
+RemotenessChangeOptions
 &
 aRemotenessOptions
 bool
