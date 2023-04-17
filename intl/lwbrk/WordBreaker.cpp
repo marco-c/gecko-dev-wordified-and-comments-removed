@@ -46,15 +46,6 @@ mozilla
 intl
 :
 :
-WordBreakClass
-;
-using
-mozilla
-:
-:
-intl
-:
-:
 WordBreaker
 ;
 using
@@ -686,6 +677,9 @@ Script
 LAO
 ;
 }
+WordBreaker
+:
+:
 WordBreakClass
 WordBreaker
 :
