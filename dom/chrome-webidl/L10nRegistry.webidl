@@ -52,6 +52,8 @@ constructor
 (
 UTF8String
 name
+UTF8String
+metaSource
 sequence
 <
 UTF8String
@@ -82,6 +84,8 @@ createMock
 (
 UTF8String
 name
+UTF8String
+metasource
 sequence
 <
 UTF8String
@@ -100,6 +104,11 @@ readonly
 attribute
 UTF8String
 name
+;
+readonly
+attribute
+UTF8String
+metaSource
 ;
 [
 Pure

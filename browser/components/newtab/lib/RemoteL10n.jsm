@@ -739,6 +739,9 @@ L10nFileSource
 "
 cfr
 "
+"
+app
+"
 [
 appLocale
 ]
