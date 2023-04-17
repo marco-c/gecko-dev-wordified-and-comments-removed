@@ -898,6 +898,10 @@ aThreadRegistration
 )
 {
 }
+friend
+class
+ThreadRegistry
+;
 ThreadRegistration
 *
 mThreadRegistration
