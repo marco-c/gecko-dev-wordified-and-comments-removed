@@ -62,7 +62,7 @@ isPictureInPictureAllowed
 .
 then
 (
-result
+enabled
 =
 >
 {
@@ -73,9 +73,14 @@ parent
 postMessage
 (
 {
-enabled
+type
 :
+'
+availability
+-
 result
+'
+enabled
 }
 '
 *
