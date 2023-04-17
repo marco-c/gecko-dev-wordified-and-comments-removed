@@ -27,7 +27,12 @@ module
 .
 exports
 =
-function
+{
+meta
+:
+{
+}
+create
 (
 context
 )
@@ -175,7 +180,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 Use
 Services
 .
@@ -188,10 +196,12 @@ getService
 (
 )
 .
+}
 )
 ;
 }
 }
 ;
+}
 }
 ;

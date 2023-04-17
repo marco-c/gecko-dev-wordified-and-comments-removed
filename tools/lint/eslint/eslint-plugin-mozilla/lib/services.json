@@ -301,6 +301,13 @@ nsIURLFormatter
 urlFormatter
 "
 "
+nsIUUIDGenerator
+"
+:
+"
+uuid
+"
+"
 nsIVersionComparator
 "
 :
