@@ -573,6 +573,13 @@ LookAndFeel
 :
 Color
 (
+useStandins
+?
+ColorID
+:
+:
+Windowtext
+:
 ColorID
 :
 :
@@ -589,6 +596,13 @@ LookAndFeel
 :
 Color
 (
+useStandins
+?
+ColorID
+:
+:
+Window
+:
 ColorID
 :
 :
