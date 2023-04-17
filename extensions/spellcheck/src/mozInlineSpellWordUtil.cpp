@@ -1649,6 +1649,8 @@ mCheckableWord
 NormalizeWord
 (
 mSoftText
+.
+mValue
 word
 .
 mSoftTextOffset
@@ -3775,6 +3777,8 @@ mRootNode
 }
 mSoftText
 .
+mValue
+.
 Truncate
 (
 )
@@ -3976,6 +3980,8 @@ firstOffsetInNode
 )
 mSoftText
 .
+mValue
+.
 Length
 (
 )
@@ -3992,6 +3998,8 @@ textFragment
 AppendTo
 (
 mSoftText
+.
+mValue
 firstOffsetInNode
 len
 mozilla
@@ -4073,6 +4081,8 @@ break
 ;
 mSoftText
 .
+mValue
+.
 Append
 (
 '
@@ -4104,6 +4114,8 @@ __FUNCTION__
 NS_ConvertUTF16toUTF8
 (
 mSoftText
+.
+mValue
 )
 .
 get
@@ -4151,6 +4163,8 @@ int32_t
 (
 mSoftText
 .
+mValue
+.
 Length
 (
 )
@@ -4166,6 +4180,8 @@ if
 IsDOMWordSeparator
 (
 mSoftText
+.
+mValue
 .
 CharAt
 (
@@ -4245,6 +4261,8 @@ SplitDOMWordAndAppendTo
 (
 wordStart
 mSoftText
+.
+mValue
 .
 Length
 (
@@ -5089,6 +5107,8 @@ nsDependentSubstring
 targetText
 (
 mSoftText
+.
+mValue
 aStart
 aEnd
 -

@@ -396,6 +396,17 @@ mRootNode
 }
 private
 :
+struct
+SoftText
+{
+nsString
+mValue
+;
+}
+;
+SoftText
+mSoftText
+;
 mozInlineSpellWordUtil
 (
 mozilla
@@ -476,9 +487,6 @@ mSoftBegin
 ;
 NodeOffset
 mSoftEnd
-;
-nsString
-mSoftText
 ;
 struct
 DOMTextMapping
