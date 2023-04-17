@@ -1683,6 +1683,11 @@ wasmGrowToPagesInPlace
 wasm
 :
 :
+IndexType
+t
+wasm
+:
+:
 Pages
 newPages
 Handle
@@ -1711,6 +1716,11 @@ static
 bool
 wasmMovingGrowToPages
 (
+wasm
+:
+:
+IndexType
+t
 wasm
 :
 :
@@ -1955,7 +1965,7 @@ ArrayBufferObject
 >
 ;
 bool
-CreateWasmBuffer32
+CreateWasmBuffer
 (
 JSContext
 *

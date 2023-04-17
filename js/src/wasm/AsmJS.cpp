@@ -41553,6 +41553,10 @@ length
 >
 MaxMemoryBytes
 (
+IndexType
+:
+:
+I32
 )
 )
 {

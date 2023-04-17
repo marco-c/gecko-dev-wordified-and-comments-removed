@@ -3937,6 +3937,11 @@ maximumPages
 )
 MaxMemoryPages
 (
+desc
+.
+indexType
+(
+)
 )
 memory
 -
@@ -4016,6 +4021,11 @@ initialPages
 >
 MaxMemoryPages
 (
+desc
+.
+indexType
+(
+)
 )
 )
 {
@@ -4040,7 +4050,7 @@ cx
 if
 (
 !
-CreateWasmBuffer32
+CreateWasmBuffer
 (
 cx
 desc
