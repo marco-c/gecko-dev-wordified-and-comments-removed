@@ -438,6 +438,15 @@ struct
 SoftText
 {
 void
+AdjustBeginAndBuildText
+(
+const
+nsINode
+*
+aRootNode
+)
+;
+void
 Invalidate
 (
 )
@@ -704,11 +713,6 @@ bool
 aSearchForward
 )
 const
-;
-void
-AdjustSoftBeginAndBuildSoftText
-(
-)
 ;
 mozilla
 :
