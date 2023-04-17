@@ -3215,7 +3215,7 @@ OTHER
 )
 mLastWatchId
 (
-0
+1
 )
 {
 }
@@ -4750,8 +4750,7 @@ NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
--
-1
+0
 ;
 }
 int32_t
@@ -4873,8 +4872,7 @@ NS_ERROR_FAILURE
 )
 ;
 return
--
-1
+0
 ;
 }
 if
@@ -4899,8 +4897,7 @@ NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
--
-1
+0
 ;
 }
 return
@@ -4926,8 +4923,7 @@ NS_ERROR_FAILURE
 )
 ;
 return
--
-1
+0
 ;
 }
 request
@@ -4959,7 +4955,7 @@ if
 (
 aWatchId
 <
-0
+1
 )
 {
 return
