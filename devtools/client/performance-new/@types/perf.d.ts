@@ -912,10 +912,6 @@ export
 interface
 InitializedValues
 {
-perfFront
-:
-PerfFront
-;
 setRecordingSettings
 :
 SetRecordingSettings
@@ -1132,10 +1128,6 @@ type
 INITIALIZE_STORE
 "
 ;
-perfFront
-:
-PerfFront
-;
 isSupportedPlatform
 :
 boolean
@@ -1196,10 +1188,6 @@ export
 interface
 InitializeStoreValues
 {
-perfFront
-:
-PerfFront
-;
 isSupportedPlatform
 :
 boolean

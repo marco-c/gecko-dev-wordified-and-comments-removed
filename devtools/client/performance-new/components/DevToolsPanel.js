@@ -195,6 +195,7 @@ render
 const
 {
 isSupportedPlatform
+perfFront
 onProfileReceived
 onEditSettingsLinkClicked
 }
@@ -233,6 +234,7 @@ OnboardingMessage
 RecordingButton
 (
 {
+perfFront
 onProfileReceived
 }
 )

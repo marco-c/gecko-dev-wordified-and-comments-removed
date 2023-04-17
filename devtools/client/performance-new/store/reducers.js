@@ -1086,11 +1086,6 @@ INITIALIZE_STORE
 :
 return
 {
-perfFront
-:
-action
-.
-perfFront
 setRecordingSettings
 :
 action

@@ -366,14 +366,6 @@ state
 {
 return
 {
-perfFront
-:
-selectors
-.
-getPerfFront
-(
-state
-)
 recordingState
 :
 selectors

@@ -311,19 +311,6 @@ values
 }
 ;
 const
-getPerfFront
-=
-state
-=
->
-getInitializedValues
-(
-state
-)
-.
-perfFront
-;
-const
 getSetRecordingSettingsFn
 =
 state
@@ -392,7 +379,6 @@ getProfilerViewMode
 getOpenRemoteDevTools
 getRecordingSettings
 getInitializedValues
-getPerfFront
 getSetRecordingSettingsFn
 getPageContext
 getPromptEnvRestart

@@ -431,7 +431,6 @@ actions
 initializeStore
 (
 {
-perfFront
 isSupportedPlatform
 supportedFeatures
 presets

@@ -552,7 +552,6 @@ actions
 initializeStore
 (
 {
-perfFront
 isSupportedPlatform
 recordingSettings
 :
@@ -660,10 +659,14 @@ Fragment
 null
 ProfilerEventHandling
 (
+{
+perfFront
+}
 )
 DevToolsPanel
 (
 {
+perfFront
 onProfileReceived
 onEditSettingsLinkClicked
 }
