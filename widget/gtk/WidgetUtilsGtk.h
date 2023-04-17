@@ -37,14 +37,6 @@ IsTouchDeviceSupportPresent
 (
 )
 ;
-static
-const
-char
-*
-GetSnapInstanceName
-(
-)
-;
 }
 ;
 bool
