@@ -6361,7 +6361,8 @@ PrependFlags
                 
 "
 -
-isysroot
+-
+sysroot
 "
                 
 xcrun
