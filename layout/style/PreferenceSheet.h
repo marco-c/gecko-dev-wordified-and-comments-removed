@@ -114,6 +114,9 @@ NonNativeThemeShouldUseSystemColors
 const
 {
 return
+mUseAccessibilityTheme
+&
+&
 !
 mUseDocumentColors
 ;

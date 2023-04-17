@@ -968,12 +968,15 @@ query
 #
 Forced
 colors
-affects
+doesn
+'
+t
+affect
 prefers
 -
 contrast
 .
-=
+!
 =
 prefers
 -
