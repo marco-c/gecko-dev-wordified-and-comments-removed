@@ -1876,6 +1876,9 @@ nsCString
 name
 ;
 nsCString
+metasource
+;
+nsCString
 [
 ]
 locales
