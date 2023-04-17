@@ -934,10 +934,6 @@ mRefCount
 HRESULT
 hr
 =
-S_OK
-;
-hr
-=
 aFactory
 -
 >
@@ -961,6 +957,11 @@ failed
 !
 "
 )
+;
+(
+void
+)
+hr
 ;
 }
 ~

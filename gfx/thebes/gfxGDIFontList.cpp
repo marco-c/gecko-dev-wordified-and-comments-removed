@@ -5199,11 +5199,6 @@ Elements
 cmapSize
 )
 ;
-bool
-cmapLoaded
-=
-false
-;
 RefPtr
 <
 gfxCharacterMap

@@ -7495,11 +7495,6 @@ handIdx
 ]
 )
 {
-bool
-bNewController
-=
-false
-;
 if
 (
 controllerState
@@ -7575,10 +7570,6 @@ VRControllerType
 :
 :
 OculusTouch
-;
-bNewController
-=
-true
 ;
 }
 }
