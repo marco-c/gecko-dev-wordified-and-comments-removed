@@ -275,6 +275,7 @@ _data
 [
 ]
 ;
+await
 FormAutofillStatus
 .
 updateSavedFieldNames
@@ -428,6 +429,7 @@ timesUsed
 }
 ]
 ;
+await
 FormAutofillStatus
 .
 updateSavedFieldNames
