@@ -55,6 +55,17 @@ include
 "
 modules
 /
+desktop_capture
+/
+desktop_capture_types
+.
+h
+"
+#
+include
+"
+modules
+/
 video_capture
 /
 video_capture_defines
