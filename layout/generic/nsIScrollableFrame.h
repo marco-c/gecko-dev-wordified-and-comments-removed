@@ -756,14 +756,6 @@ IsMaybeAsynchronouslyScrolled
 0
 ;
 virtual
-void
-ResetScrollPositionForLayerPixelAlignment
-(
-)
-=
-0
-;
-virtual
 bool
 DidHistoryRestore
 (
