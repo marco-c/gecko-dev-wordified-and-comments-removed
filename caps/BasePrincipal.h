@@ -915,6 +915,16 @@ aNextSubDomainPrincipal
 )
 override
 ;
+NS_IMETHOD
+GetPrecursorPrincipal
+(
+nsIPrincipal
+*
+*
+aPrecursor
+)
+override
+;
 nsresult
 ToJSON
 (

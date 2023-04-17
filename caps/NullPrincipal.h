@@ -183,6 +183,16 @@ aAddonId
 )
 override
 ;
+NS_IMETHOD
+GetPrecursorPrincipal
+(
+nsIPrincipal
+*
+*
+aPrecursor
+)
+override
+;
 static
 already_AddRefed
 <
