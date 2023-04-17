@@ -291,7 +291,7 @@ errors
 or
 update
 [
-allow
+white
 -
 list
 test
@@ -303,7 +303,7 @@ updating
 -
 the
 -
-allowlist
+whitelist
 )
 to
 suppress
@@ -483,7 +483,7 @@ you
 can
 update
 [
-allow
+white
 -
 list
 test
@@ -495,7 +495,7 @@ updating
 -
 the
 -
-allowlist
+whiteslist
 )
 to
 suppress
@@ -713,7 +713,7 @@ name
 #
 Updating
 the
-allowlist
+whitelist
 Normally
 you
 must
@@ -769,7 +769,7 @@ commit
 the
 lint
 .
-allowlist
+whitelist
 file
 in
 the
@@ -806,7 +806,7 @@ or
 directory
 to
 the
-allowlist
+whitelist
 use
 the
 following
@@ -823,7 +823,7 @@ pattern
 For
 example
 to
-allowlist
+whitelist
 the
 file
 example
@@ -854,7 +854,7 @@ to
 the
 lint
 .
-allowlist
+whitelist
 file
 .
 TRAILING
@@ -866,7 +866,7 @@ file
 .
 html
 To
-allowlist
+whitelist
 an
 entire
 directory
@@ -883,7 +883,7 @@ wildcard
 For
 example
 to
-allowlist
+whitelist
 the
 example
 directory
@@ -913,7 +913,7 @@ to
 the
 lint
 .
-allowlist
+whitelist
 file
 .
 TRAILING
@@ -962,7 +962,7 @@ line
 .
 Finally
 to
-allowlist
+whitelist
 just
 one
 line
@@ -987,7 +987,7 @@ line_number
 For
 example
 to
-allowlist
+whitelist
 just
 line
 128
@@ -1022,7 +1022,7 @@ to
 the
 lint
 .
-allowlist
+whitelist
 file
 .
 TRAILING

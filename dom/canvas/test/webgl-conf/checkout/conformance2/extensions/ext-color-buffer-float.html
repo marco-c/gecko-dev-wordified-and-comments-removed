@@ -2397,10 +2397,12 @@ gl
 MAX_SAMPLES
 )
 ;
-const
+var
 formats
 =
-[
+new
+Array
+(
 gl
 .
 RGBA16F
@@ -2422,7 +2424,7 @@ RG16F
 gl
 .
 R11F_G11F_B10F
-]
+)
 ;
 var
 firstMultiOnlyFormat
