@@ -1830,6 +1830,7 @@ CorePS
 :
 Lul
 (
+aLock
 )
 ;
 if
@@ -1846,6 +1847,7 @@ CorePS
 :
 SetLul
 (
+aLock
 MakeUnique
 <
 lul
@@ -1865,6 +1867,7 @@ CorePS
 :
 Lul
 (
+aLock
 )
 ;
 read_procmaps
@@ -2277,6 +2280,9 @@ defined
 (
 HAVE_NATIVE_UNWIND
 )
+ucontext_t
+sSyncUContext
+;
 void
 Registers
 :
@@ -2291,7 +2297,7 @@ if
 getcontext
 (
 &
-mContextSyncStorage
+sSyncUContext
 )
 )
 {
@@ -2300,7 +2306,7 @@ PopulateRegsFromContext
 *
 this
 &
-mContextSyncStorage
+sSyncUContext
 )
 ;
 }
