@@ -72,7 +72,7 @@ JumpKind
 Coalesce
 LogicalAnd
 LogicalOr
-IfEq
+JumpIfFalse
 Goto
 }
 trait
@@ -144,7 +144,7 @@ LogicalAnd
 JumpKind
 :
 :
-IfEq
+JumpIfFalse
 {
 .
 .
@@ -261,7 +261,7 @@ placeholder_offset
 JumpKind
 :
 :
-IfEq
+JumpIfFalse
 {
 .
 .
@@ -273,7 +273,7 @@ emitter
 .
 emit
 .
-if_eq
+jump_if_false
 (
 placeholder_offset
 )
@@ -2454,7 +2454,7 @@ kind
 JumpKind
 :
 :
-IfEq
+JumpIfFalse
 register_offset
 :
 |
@@ -2695,7 +2695,7 @@ kind
 JumpKind
 :
 :
-IfEq
+JumpIfFalse
 register_offset
 :
 |
@@ -3058,7 +3058,7 @@ kind
 JumpKind
 :
 :
-IfEq
+JumpIfFalse
 register_offset
 :
 |

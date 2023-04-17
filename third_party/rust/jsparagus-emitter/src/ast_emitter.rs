@@ -2250,7 +2250,7 @@ jump
 JumpKind
 :
 :
-IfEq
+JumpIfFalse
 }
 .
 emit
@@ -4439,7 +4439,7 @@ jump
 JumpKind
 :
 :
-IfEq
+JumpIfFalse
 }
 .
 emit
