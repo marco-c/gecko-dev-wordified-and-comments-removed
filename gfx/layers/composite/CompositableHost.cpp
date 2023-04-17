@@ -153,10 +153,6 @@ mLayer
 (
 nullptr
 )
-mFlashCounter
-(
-0
-)
 mAttached
 (
 false
