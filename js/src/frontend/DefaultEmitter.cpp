@@ -49,12 +49,6 @@ using
 mozilla
 :
 :
-Maybe
-;
-using
-mozilla
-:
-:
 Nothing
 ;
 DefaultEmitter

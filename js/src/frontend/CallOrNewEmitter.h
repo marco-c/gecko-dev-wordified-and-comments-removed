@@ -638,15 +638,7 @@ emitEnd
 (
 uint32_t
 argc
-const
-mozilla
-:
-:
-Maybe
-<
 uint32_t
->
-&
 beginPos
 )
 ;

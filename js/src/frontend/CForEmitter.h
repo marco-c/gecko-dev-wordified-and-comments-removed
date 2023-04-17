@@ -255,15 +255,7 @@ nodiscard
 bool
 emitEnd
 (
-const
-mozilla
-:
-:
-Maybe
-<
 uint32_t
->
-&
 forPos
 )
 ;
