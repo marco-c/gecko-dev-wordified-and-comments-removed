@@ -1767,7 +1767,7 @@ Invalidate
 {
 mPtr
 =
-0
+nullptr
 ;
 }
 private
@@ -12203,17 +12203,11 @@ ReleaseJSObjects
 (
 )
 {
-if
-(
-mArgv
-)
-{
 delete
 [
 ]
 mArgv
 ;
-}
 if
 (
 mArgc
