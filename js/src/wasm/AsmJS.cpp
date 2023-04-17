@@ -526,6 +526,12 @@ using
 mozilla
 :
 :
+Nothing
+;
+using
+mozilla
+:
+:
 PodZero
 ;
 using
@@ -533,6 +539,12 @@ mozilla
 :
 :
 PositiveInfinity
+;
+using
+mozilla
+:
+:
+Some
 ;
 using
 mozilla

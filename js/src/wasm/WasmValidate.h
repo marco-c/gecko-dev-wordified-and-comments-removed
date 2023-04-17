@@ -51,6 +51,12 @@ js
 namespace
 wasm
 {
+using
+mozilla
+:
+:
+Some
+;
 struct
 ModuleEnvironment
 {
