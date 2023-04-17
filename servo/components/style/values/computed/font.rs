@@ -1954,14 +1954,6 @@ Fantasy
 [
 parse
 (
-aliases
-=
-"
--
-apple
--
-system
-"
 condition
 =
 "
