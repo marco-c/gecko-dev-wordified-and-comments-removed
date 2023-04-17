@@ -387,14 +387,6 @@ true
 "
 quicksuggest
 .
-enabled
-"
-false
-]
-[
-"
-quicksuggest
-.
 showedOnboardingDialog
 "
 false
