@@ -818,6 +818,17 @@ else
 }
 #
 endif
+bool
+IsInnerWindow
+(
+)
+const
+final
+{
+return
+true
+;
+}
 static
 nsGlobalWindowInner
 *

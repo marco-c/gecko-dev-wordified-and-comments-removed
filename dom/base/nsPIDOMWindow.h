@@ -440,6 +440,13 @@ aFrom
 )
 ;
 }
+NS_IMPL_FROMEVENTTARGET_HELPER_WITH_GETTER
+(
+nsPIDOMWindowInner
+GetAsWindowInner
+(
+)
+)
 bool
 IsCurrentInnerWindow
 (
@@ -2028,6 +2035,13 @@ public
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_PIDOMWINDOWOUTER_IID
+)
+NS_IMPL_FROMEVENTTARGET_HELPER_WITH_GETTER
+(
+nsPIDOMWindowOuter
+GetAsWindowOuter
+(
+)
 )
 static
 nsPIDOMWindowOuter

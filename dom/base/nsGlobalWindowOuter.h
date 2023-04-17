@@ -760,6 +760,17 @@ aWin
 )
 ;
 }
+bool
+IsOuterWindow
+(
+)
+const
+final
+{
+return
+true
+;
+}
 static
 nsGlobalWindowOuter
 *
