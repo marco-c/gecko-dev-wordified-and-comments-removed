@@ -959,6 +959,11 @@ nsNativeBasicTheme
 cpp
 "
 "
+nsNativeBasicThemeAndroid
+.
+cpp
+"
+"
 nsPrimitiveHelpers
 .
 cpp

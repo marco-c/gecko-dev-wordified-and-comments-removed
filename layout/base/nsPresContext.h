@@ -2410,6 +2410,17 @@ EnsureTheme
 ;
 }
 void
+RecomputeTheme
+(
+)
+;
+bool
+UseOverlayScrollbars
+(
+)
+const
+;
+void
 ThemeChanged
 (
 mozilla

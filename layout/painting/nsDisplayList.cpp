@@ -3462,7 +3462,8 @@ ShouldRebuildDisplayListDueToPrefChange
 ;
 mUseOverlayScrollbars
 =
-(
+!
+!
 LookAndFeel
 :
 :
@@ -3475,10 +3476,6 @@ IntID
 :
 :
 UseOverlayScrollbars
-)
-!
-=
-0
 )
 ;
 mAlwaysLayerizeScrollbars
@@ -4171,7 +4168,8 @@ mUseOverlayScrollbars
 ;
 mUseOverlayScrollbars
 =
-(
+!
+!
 LookAndFeel
 :
 :
@@ -4184,10 +4182,6 @@ IntID
 :
 :
 UseOverlayScrollbars
-)
-!
-=
-0
 )
 ;
 bool

@@ -600,6 +600,15 @@ already_AddRefed
 <
 nsITheme
 >
+do_GetAndroidNonNativeThemeDoNotUseDirectly
+(
+)
+;
+extern
+already_AddRefed
+<
+nsITheme
+>
 do_GetBasicNativeThemeDoNotUseDirectly
 (
 )

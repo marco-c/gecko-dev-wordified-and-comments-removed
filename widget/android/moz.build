@@ -538,11 +538,6 @@ nsLookAndFeel
 cpp
 "
 "
-nsNativeBasicThemeAndroid
-.
-cpp
-"
-"
 nsPrintSettingsServiceAndroid
 .
 cpp

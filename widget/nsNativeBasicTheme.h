@@ -2400,10 +2400,6 @@ CSSIntCoord
 sVerticalScrollbarWidth
 ;
 static
-bool
-sOverlayScrollbars
-;
-static
 void
 PrefChangedCallback
 (
