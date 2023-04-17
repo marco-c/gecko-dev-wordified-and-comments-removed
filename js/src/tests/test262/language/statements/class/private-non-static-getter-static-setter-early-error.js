@@ -10,7 +10,8 @@ get
 f
 (
 )
-;
+{
+}
 static
 set
 #
