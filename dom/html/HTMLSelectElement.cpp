@@ -6530,6 +6530,12 @@ UpdateBarredFromConstraintValidation
 {
 SetBarredFromConstraintValidation
 (
+HasFlag
+(
+ELEMENT_IS_DATALIST_OR_HAS_DATALIST_ANCESTOR
+)
+|
+|
 IsDisabled
 (
 )

@@ -71,6 +71,11 @@ aNodeInfo
 )
 )
 {
+SetFlags
+(
+ELEMENT_IS_DATALIST_OR_HAS_DATALIST_ANCESTOR
+)
+;
 }
 NS_DECL_ISUPPORTS_INHERITED
 nsContentList
