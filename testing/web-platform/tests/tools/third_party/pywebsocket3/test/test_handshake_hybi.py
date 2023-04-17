@@ -26,7 +26,7 @@ mod_pywebsocket
 .
 handshake
 .
-_base
+base
 import
 AbortedByUserException
 from
@@ -34,7 +34,7 @@ mod_pywebsocket
 .
 handshake
 .
-_base
+base
 import
 HandshakeException
 from
@@ -42,7 +42,7 @@ mod_pywebsocket
 .
 handshake
 .
-_base
+base
 import
 VersionException
 from
