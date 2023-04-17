@@ -574,17 +574,6 @@ mozilla
 /
 dom
 /
-QMResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 QMResultInlines
 .
 h
