@@ -16316,8 +16316,8 @@ JSOpLength_SetGName
 =
 JSOpLength_StrictSetGName
 "
-setganem
-adn
+setgname
+and
 strictsetgname
 must
 be
