@@ -204,6 +204,16 @@ FetchEvent
 "
 type
 "
+{
+request
+:
+new
+Request
+(
+"
+"
+)
+}
 )
 '
 ]
