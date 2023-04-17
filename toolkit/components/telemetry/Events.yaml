@@ -1338,7 +1338,7 @@ com
 expiry_version
 :
 "
-92
+99
 "
 products
 :
@@ -1371,6 +1371,7 @@ bug_numbers
 1590736
 1630596
 1672570
+1714251
 ]
 release_channel_collection
 :
@@ -1839,7 +1840,7 @@ com
 expiry_version
 :
 "
-92
+99
 "
 products
 :
@@ -1872,6 +1873,7 @@ bug_numbers
 1590736
 1630596
 1672570
+1714251
 ]
 release_channel_collection
 :
@@ -2039,7 +2041,7 @@ com
 expiry_version
 :
 "
-92
+99
 "
 products
 :
@@ -2066,6 +2068,7 @@ bug_numbers
 1590736
 1630596
 1672570
+1714251
 ]
 release_channel_collection
 :
@@ -2273,7 +2276,7 @@ com
 expiry_version
 :
 "
-92
+99
 "
 products
 :
@@ -2300,6 +2303,7 @@ bug_numbers
 1630596
 1672570
 1699225
+1714251
 ]
 release_channel_collection
 :
@@ -2538,7 +2542,7 @@ com
 expiry_version
 :
 "
-92
+99
 "
 products
 :
@@ -2568,6 +2572,7 @@ bug_numbers
 1630596
 1672570
 1699225
+1714251
 ]
 release_channel_collection
 :
@@ -2691,7 +2696,7 @@ com
 expiry_version
 :
 "
-92
+99
 "
 products
 :
@@ -2722,6 +2727,7 @@ bug_numbers
 1590736
 1630596
 1672570
+1714251
 ]
 release_channel_collection
 :
@@ -4061,6 +4067,7 @@ bug_numbers
 1590736
 1630596
 1672570
+1714251
 ]
 notification_emails
 :
@@ -4079,7 +4086,7 @@ com
 expiry_version
 :
 "
-92
+99
 "
 products
 :
