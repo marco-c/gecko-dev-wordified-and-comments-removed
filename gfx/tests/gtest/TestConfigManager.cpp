@@ -6766,7 +6766,7 @@ IsEnabled
 )
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 mFeatures
 .
@@ -6832,7 +6832,7 @@ IsEnabled
 )
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 mFeatures
 .
