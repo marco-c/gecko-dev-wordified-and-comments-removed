@@ -7,7 +7,9 @@ __ClearKeyBase64_h__
 #
 include
 <
-vector
+stdint
+.
+h
 >
 #
 include
@@ -17,9 +19,7 @@ string
 #
 include
 <
-stdint
-.
-h
+vector
 >
 bool
 DecodeBase64

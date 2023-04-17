@@ -7,6 +7,13 @@ __VideoDecoder_h__
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 atomic
 >
 #
@@ -19,13 +26,6 @@ include
 <
 thread
 >
-#
-include
-"
-stddef
-.
-h
-"
 #
 include
 "
