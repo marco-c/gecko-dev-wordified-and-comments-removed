@@ -76,11 +76,6 @@ Stop
 )
 override
 ;
-void
-RequestCallback
-(
-)
-;
 bool
 RequestCallbackTimer
 (
