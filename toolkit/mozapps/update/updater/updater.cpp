@@ -1046,7 +1046,7 @@ false
 ;
 static
 bool
-sCallbackIsBackgroundTask
+sUpdateSilently
 =
 false
 ;
@@ -12633,7 +12633,7 @@ return
 ;
 }
 bool
-IsCallbackBackgroundTask
+ShouldRunSilently
 (
 int
 argc
@@ -13922,9 +13922,9 @@ return
 1
 ;
 }
-sCallbackIsBackgroundTask
+sUpdateSilently
 =
-IsCallbackBackgroundTask
+ShouldRunSilently
 (
 argc
 -
@@ -13999,7 +13999,7 @@ threadArgs
 if
 (
 !
-sCallbackIsBackgroundTask
+sUpdateSilently
 )
 {
 ShowProgressUI
@@ -15270,7 +15270,7 @@ sStagedUpdate
 &
 &
 !
-sCallbackIsBackgroundTask
+sUpdateSilently
 )
 {
 showProgressUI
@@ -15510,7 +15510,7 @@ if
 useService
 &
 &
-sCallbackIsBackgroundTask
+sUpdateSilently
 )
 {
 if
@@ -15529,7 +15529,7 @@ updateLockFileHandle
 }
 WriteStatusFile
 (
-BACKGROUND_TASK_NEEDED_ELEVATION_ERROR
+SILENT_UPDATE_NEEDED_ELEVATION_ERROR
 )
 ;
 LOG
@@ -16939,7 +16939,7 @@ lastWriteError
 ERROR_SHARING_VIOLATION
 &
 &
-sCallbackIsBackgroundTask
+sUpdateSilently
 )
 {
 LOG
@@ -17178,7 +17178,7 @@ sReplaceRequest
 &
 &
 !
-sCallbackIsBackgroundTask
+sUpdateSilently
 #
 ifdef
 XP_MACOSX
