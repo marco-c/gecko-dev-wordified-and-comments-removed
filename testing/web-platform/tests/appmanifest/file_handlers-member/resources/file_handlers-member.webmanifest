@@ -46,6 +46,8 @@ member
 -
 manual
 .
+tentative
+.
 html
 "
 "
@@ -90,6 +92,8 @@ file_handlers
 member
 -
 manual
+.
+tentative
 .
 html
 "
