@@ -6,7 +6,14 @@ DONOTEVALUATE
 import
 (
 '
+.
+/
+empty_FIXTURE
+.
+js
 '
+{
+}
 '
 '
 )

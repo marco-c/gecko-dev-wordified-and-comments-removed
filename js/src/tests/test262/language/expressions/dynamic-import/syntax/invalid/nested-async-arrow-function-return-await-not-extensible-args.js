@@ -12,7 +12,14 @@ await
 import
 (
 '
+.
+/
+empty_FIXTURE
+.
+js
 '
+{
+}
 '
 '
 )

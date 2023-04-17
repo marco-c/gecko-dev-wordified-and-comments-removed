@@ -1,0 +1,11 @@
+await
+0
+;
+globalThis
+.
+test262
+=
+'
+async
+'
+;

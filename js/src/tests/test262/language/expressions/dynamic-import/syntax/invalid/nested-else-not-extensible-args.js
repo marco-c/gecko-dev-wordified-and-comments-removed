@@ -13,7 +13,14 @@ else
 import
 (
 '
+.
+/
+empty_FIXTURE
+.
+js
 '
+{
+}
 '
 '
 )

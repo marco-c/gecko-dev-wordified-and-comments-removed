@@ -12,7 +12,14 @@ f
 import
 (
 '
+.
+/
+empty_FIXTURE
+.
+js
 '
+{
+}
 '
 '
 )

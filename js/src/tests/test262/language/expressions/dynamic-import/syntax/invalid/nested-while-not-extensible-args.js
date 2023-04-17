@@ -20,7 +20,14 @@ x
 import
 (
 '
+.
+/
+empty_FIXTURE
+.
+js
 '
+{
+}
 '
 '
 )
