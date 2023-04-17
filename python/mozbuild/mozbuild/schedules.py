@@ -294,6 +294,10 @@ wdspec
 "
 webrender
 "
+    
+"
+nss
+"
 ]
 EXCLUSIVE_COMPONENTS
 =
