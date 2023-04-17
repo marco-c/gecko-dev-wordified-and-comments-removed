@@ -739,15 +739,6 @@ void
 SourceSurfaceSharedData
 :
 :
-GuaranteePersistance
-(
-)
-{
-}
-void
-SourceSurfaceSharedData
-:
-:
 SizeOfExcludingThis
 (
 MallocSizeOf
