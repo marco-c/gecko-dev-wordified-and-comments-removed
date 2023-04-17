@@ -4028,11 +4028,6 @@ HandleFunction
 fun
 HandleObject
 enclosingEnv
-gc
-:
-:
-AllocKind
-kind
 HandleObject
 proto
 )
