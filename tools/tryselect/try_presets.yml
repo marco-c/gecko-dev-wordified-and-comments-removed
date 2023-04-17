@@ -375,7 +375,11 @@ chrome
 linux
 '
 64
+-
+qr
 /
+!
+swr
 "
 -
 "
@@ -387,6 +391,8 @@ e10s
 linux
 '
 64
+-
+qr
 /
 "
 devtools
@@ -452,7 +458,11 @@ chrome
 linux
 '
 64
+-
+qr
 /
+!
+swr
 "
 -
 "
@@ -464,6 +474,8 @@ e10s
 linux
 '
 64
+-
+qr
 /
 "
 fpush
