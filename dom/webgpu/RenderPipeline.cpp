@@ -58,6 +58,8 @@ const
 aParent
 RawId
 aId
+RawId
+aImplicitPipelineLayoutId
 nsTArray
 <
 RawId
@@ -70,6 +72,10 @@ aImplicitBindGroupLayoutIds
 ChildOf
 (
 aParent
+)
+mImplicitPipelineLayoutId
+(
+aImplicitPipelineLayoutId
 )
 mImplicitBindGroupLayoutIds
 (
@@ -151,6 +157,15 @@ SendRenderPipelineDestroy
 mId
 )
 ;
+bridge
+-
+>
+SendImplicitLayoutDestroy
+(
+mImplicitPipelineLayoutId
+mImplicitBindGroupLayoutIds
+)
+;
 }
 }
 }
@@ -182,6 +197,7 @@ mImplicitBindGroupLayoutIds
 [
 index
 ]
+false
 )
 ;
 return

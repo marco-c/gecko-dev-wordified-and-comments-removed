@@ -3990,6 +3990,10 @@ dom
 GPUComputePipelineDescriptor
 &
 aDesc
+RawId
+*
+const
+aImplicitPipelineLayoutId
 nsTArray
 <
 RawId
@@ -4138,6 +4142,7 @@ ToFFI
 &
 bb
 )
+aImplicitPipelineLayoutId
 implicit_bgl_ids
 )
 ;
@@ -4552,6 +4557,10 @@ dom
 GPURenderPipelineDescriptor
 &
 aDesc
+RawId
+*
+const
+aImplicitPipelineLayoutId
 nsTArray
 <
 RawId
@@ -5419,6 +5428,7 @@ ToFFI
 &
 bb
 )
+aImplicitPipelineLayoutId
 implicit_bgl_ids
 )
 ;
