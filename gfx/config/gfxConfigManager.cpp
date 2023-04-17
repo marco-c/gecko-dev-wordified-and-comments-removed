@@ -395,15 +395,6 @@ InSafeMode
 (
 )
 ;
-#
-ifdef
-ANDROID
-mHasWrSoftwareBlocklist
-=
-true
-;
-#
-endif
 mGfxInfo
 =
 components
