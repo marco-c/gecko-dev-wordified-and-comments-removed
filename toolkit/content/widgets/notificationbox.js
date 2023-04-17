@@ -2691,7 +2691,7 @@ shadowRoot
 addEventListener
 (
 "
-click
+command
 "
 this
 )
