@@ -413,11 +413,3 @@ io
 nsLocalFileWin
 .
 cpp
--
-xpcom
-/
-threads
-/
-TaskController
-.
-cpp
