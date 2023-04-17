@@ -747,7 +747,7 @@ TaggedParserAtomIndex
 name
 )
 ;
-NameLocation
+bool
 lookupPrivate
 (
 BytecodeEmitter
@@ -755,6 +755,9 @@ BytecodeEmitter
 bce
 TaggedParserAtomIndex
 name
+NameLocation
+&
+loc
 mozilla
 :
 :
