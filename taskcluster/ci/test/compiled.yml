@@ -155,7 +155,9 @@ py
 -
 android
 /
-androidx86_7_0
+android
+-
+x86_64
 .
 py
 android
