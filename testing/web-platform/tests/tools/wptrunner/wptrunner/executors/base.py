@@ -2309,6 +2309,7 @@ self
 )
 :
         
+return
 self
 .
 protocol
@@ -4723,7 +4724,8 @@ self
 )
 :
         
-pass
+return
+False
     
 def
 set_window

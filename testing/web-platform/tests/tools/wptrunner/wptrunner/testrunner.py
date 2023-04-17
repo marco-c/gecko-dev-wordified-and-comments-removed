@@ -645,6 +645,8 @@ self
 )
 :
         
+rerun
+=
 self
 .
 executor
@@ -660,6 +662,7 @@ send_message
 "
 wait_finished
 "
+rerun
 )
     
 def
@@ -4624,6 +4627,9 @@ def
 wait_finished
 (
 self
+rerun
+=
+False
 )
 :
         
@@ -4660,7 +4666,11 @@ self
 state
 .
 test
-True
+not
+rerun
+force_rerun
+=
+rerun
 )
     
 def
@@ -4669,6 +4679,9 @@ after_test_end
 self
 test
 restart
+force_rerun
+=
+False
 )
 :
         
@@ -4684,10 +4697,13 @@ running
 )
         
 if
+not
+force_rerun
+and
 self
 .
 run_count
-=
+>
 =
 self
 .
