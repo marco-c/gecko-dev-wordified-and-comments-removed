@@ -2110,9 +2110,6 @@ pagehide
 mozSystemGroup
 :
 true
-createActor
-:
-false
 }
 }
 }
