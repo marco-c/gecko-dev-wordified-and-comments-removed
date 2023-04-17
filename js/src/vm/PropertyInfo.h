@@ -1,9 +1,9 @@
 #
 ifndef
-vm_ShapeProperty_h
+vm_PropertyInfo_h
 #
 define
-vm_ShapeProperty_h
+vm_PropertyInfo_h
 #
 include
 "

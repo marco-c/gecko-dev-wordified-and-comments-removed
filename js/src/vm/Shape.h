@@ -215,7 +215,7 @@ include
 "
 vm
 /
-ShapeProperty
+PropertyInfo
 .
 h
 "
