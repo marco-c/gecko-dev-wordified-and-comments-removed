@@ -1216,10 +1216,6 @@ submit_ping
 ping_type
 None
 )
-.
-is_ok
-(
-)
 )
 ;
 assert_eq
@@ -1345,10 +1341,6 @@ submit_ping
 ping_type
 None
 )
-.
-is_ok
-(
-)
 )
 ;
 assert_eq
@@ -1383,6 +1375,7 @@ false
 assert
 !
 (
+!
 glean
 .
 submit_ping
@@ -1390,10 +1383,6 @@ submit_ping
 &
 ping_type
 None
-)
-.
-is_ok
-(
 )
 )
 ;
@@ -1422,6 +1411,7 @@ len
 assert
 !
 (
+!
 ping_type
 .
 submit
@@ -1429,10 +1419,6 @@ submit
 &
 glean
 None
-)
-.
-is_ok
-(
 )
 )
 ;
@@ -1528,10 +1514,6 @@ submit_ping
 &
 ping_type
 None
-)
-.
-is_ok
-(
 )
 )
 ;

@@ -2,15 +2,6 @@ use
 crate
 :
 :
-error
-:
-:
-Result
-;
-use
-crate
-:
-:
 Glean
 ;
 #
@@ -114,10 +105,7 @@ str
 )
 -
 >
-Result
-<
 bool
->
 {
 let
 corrected_reason

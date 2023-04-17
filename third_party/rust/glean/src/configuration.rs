@@ -102,4 +102,8 @@ PingUploader
 static
 >
 >
+pub
+use_core_mps
+:
+bool
 }

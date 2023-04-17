@@ -1506,10 +1506,10 @@ id
 main_thread_id
 )
 ;
-assert_eq
+assert
 !
 (
-false
+!
 canary_clone
 .
 load
@@ -1553,10 +1553,9 @@ block_on_queue
 (
 )
 ;
-assert_eq
+assert
 !
 (
-true
 thread_canary
 .
 load
