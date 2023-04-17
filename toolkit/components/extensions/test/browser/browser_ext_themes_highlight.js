@@ -243,6 +243,12 @@ className
 }
 )
 ;
+field
+.
+focus
+(
+)
+;
 Assert
 .
 equal
