@@ -5357,7 +5357,7 @@ nsTArray
 <
 nsString
 >
-words
+normalizedWords
 ;
 nsTArray
 <
@@ -5498,7 +5498,7 @@ __FUNCTION__
 ;
 CheckWordsAndAddRangesForMisspellings
 (
-words
+normalizedWords
 std
 :
 :
@@ -5754,7 +5754,7 @@ NormalizeWord
 wordText
 )
 ;
-words
+normalizedWords
 .
 AppendElement
 (
@@ -5774,7 +5774,7 @@ wordsChecked
 ;
 if
 (
-words
+normalizedWords
 .
 Length
 (
@@ -5786,7 +5786,7 @@ requestChunkSize
 {
 CheckWordsAndAddRangesForMisspellings
 (
-words
+normalizedWords
 std
 :
 :
@@ -5796,7 +5796,7 @@ checkRanges
 )
 )
 ;
-words
+normalizedWords
 .
 Clear
 (
@@ -5815,7 +5815,7 @@ NodeOffsetRange
 }
 CheckWordsAndAddRangesForMisspellings
 (
-words
+normalizedWords
 std
 :
 :
