@@ -139,6 +139,16 @@ worker
 bin
 /
 readelf
+COPY
+report_error
+/
+builds
+/
+worker
+/
+bin
+/
+report_error
 RUN
 chown
 -
