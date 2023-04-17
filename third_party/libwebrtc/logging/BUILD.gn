@@ -1711,6 +1711,11 @@ optional
 ]
 }
 }
+if
+(
+rtc_include_tests
+)
+{
 rtc_library
 (
 "
@@ -1783,6 +1788,7 @@ rtc_base
 checks
 "
 ]
+}
 }
 if
 (
@@ -2666,6 +2672,12 @@ optional
 }
 }
 }
+if
+(
+!
+build_with_mozilla
+)
+{
 rtc_library
 (
 "
@@ -2823,6 +2835,7 @@ absl
 memory
 "
 ]
+}
 }
 if
 (

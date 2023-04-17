@@ -263,6 +263,11 @@ system_wrappers
 "
 ]
 }
+if
+(
+rtc_include_tests
+)
+{
 rtc_library
 (
 "
@@ -323,6 +328,7 @@ test
 test_support
 "
 ]
+}
 }
 if
 (

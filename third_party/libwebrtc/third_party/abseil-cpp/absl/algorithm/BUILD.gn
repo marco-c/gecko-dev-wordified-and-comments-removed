@@ -140,6 +140,11 @@ type_traits
 "
 ]
 }
+if
+(
+false
+)
+{
 absl_source_set
 (
 "
@@ -287,4 +292,5 @@ googletest
 gmock
 "
 ]
+}
 }

@@ -1930,6 +1930,7 @@ api
 :
 function_view
 "
+#
 "
 .
 .
@@ -3087,6 +3088,11 @@ rtc_base_approved
 "
 ]
 }
+if
+(
+rtc_include_tests
+)
+{
 rtc_library
 (
 "
@@ -3212,6 +3218,7 @@ types
 optional
 "
 ]
+}
 }
 if
 (

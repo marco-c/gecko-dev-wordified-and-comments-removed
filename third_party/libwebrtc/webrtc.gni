@@ -734,6 +734,7 @@ rtc_build_ssl
 rtc_ssl_root
 =
 "
+unused
 "
 #
 Enable
@@ -817,7 +818,7 @@ examples
 .
 rtc_build_examples
 =
-true
+false
 #
 Set
 this
@@ -830,7 +831,7 @@ tools
 .
 rtc_build_tools
 =
-true
+false
 #
 Set
 this
@@ -846,7 +847,7 @@ X11
 .
 rtc_use_x11
 =
-use_x11
+is_desktop_linux
 #
 Set
 this
@@ -929,7 +930,7 @@ settings
 .
 build_with_mozilla
 =
-false
+true
 #
 Experimental
 :

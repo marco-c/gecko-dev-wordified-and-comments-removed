@@ -602,6 +602,11 @@ absl
 "
 ]
 }
+if
+(
+false
+)
+{
 absl_source_set
 (
 "
@@ -694,4 +699,5 @@ googletest
 gtest
 "
 ]
+}
 }

@@ -451,6 +451,11 @@ common_audio_avx2
 ]
 }
 }
+if
+(
+rtc_include_tests
+)
+{
 rtc_source_set
 (
 "
@@ -501,6 +506,7 @@ test
 test_support
 "
 ]
+}
 }
 rtc_source_set
 (

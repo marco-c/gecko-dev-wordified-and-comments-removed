@@ -1050,6 +1050,11 @@ rnn_vad
 "
 ]
 }
+if
+(
+rtc_include_tests
+)
+{
 rtc_library
 (
 "
@@ -1669,4 +1674,5 @@ rtc_base
 rtc_base_approved
 "
 ]
+}
 }

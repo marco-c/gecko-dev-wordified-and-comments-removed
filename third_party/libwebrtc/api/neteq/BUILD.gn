@@ -466,6 +466,11 @@ rtc_base_approved
 "
 ]
 }
+if
+(
+rtc_include_tests
+)
+{
 rtc_source_set
 (
 "
@@ -518,4 +523,5 @@ testing
 gtest
 "
 ]
+}
 }

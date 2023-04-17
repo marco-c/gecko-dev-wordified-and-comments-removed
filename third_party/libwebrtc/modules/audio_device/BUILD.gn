@@ -1239,6 +1239,7 @@ fake_audio_device
 .
 h
 "
+#
 "
 include
 /
@@ -1246,6 +1247,7 @@ test_audio_device
 .
 cc
 "
+#
 "
 include
 /
@@ -2003,6 +2005,11 @@ framework
 ]
 }
 }
+if
+(
+rtc_include_tests
+)
+{
 rtc_source_set
 (
 "
@@ -2074,6 +2081,7 @@ test
 test_support
 "
 ]
+}
 }
 if
 (

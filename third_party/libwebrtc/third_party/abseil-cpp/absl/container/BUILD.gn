@@ -1765,6 +1765,11 @@ config
 "
 ]
 }
+if
+(
+false
+)
+{
 absl_source_set
 (
 "
@@ -2137,6 +2142,7 @@ googletest
 gtest
 "
 ]
+}
 }
 absl_source_set
 (
@@ -2312,6 +2318,11 @@ utility
 "
 ]
 }
+if
+(
+false
+)
+{
 absl_source_set
 (
 "
@@ -2499,4 +2510,5 @@ googletest
 gmock
 "
 ]
+}
 }

@@ -385,6 +385,9 @@ resolv
 }
 if
 (
+false
+&
+&
 use_glib
 )
 {

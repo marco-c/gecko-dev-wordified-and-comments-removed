@@ -288,6 +288,12 @@ rtc_export
 "
 ]
 }
+if
+(
+!
+build_with_mozilla
+)
+{
 rtc_library
 (
 "
@@ -394,6 +400,7 @@ absl
 strings
 "
 ]
+}
 }
 rtc_library
 (

@@ -1987,11 +1987,13 @@ deps
 "
 ]
 }
+#
 if
 (
 use_custom_libcxx
 )
 {
+#
 public_deps
 +
 =
@@ -2008,6 +2010,7 @@ libc
 +
 "
 ]
+#
 }
 if
 (

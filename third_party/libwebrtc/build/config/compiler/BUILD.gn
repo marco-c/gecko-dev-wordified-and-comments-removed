@@ -178,6 +178,7 @@ dcheck_always_on
 gni
 "
 )
+#
 import
 (
 "
@@ -9208,6 +9209,9 @@ clang_revision
 {
 if
 (
+false
+&
+&
 is_clang
 &
 &

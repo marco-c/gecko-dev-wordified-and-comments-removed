@@ -560,6 +560,7 @@ crypto
 :
 options
 "
+#
 "
 .
 .
@@ -847,6 +848,7 @@ optional
 sources
 =
 [
+#
 "
 base
 /
@@ -854,6 +856,7 @@ adapted_video_track_source
 .
 cc
 "
+#
 "
 base
 /
@@ -861,6 +864,7 @@ adapted_video_track_source
 .
 h
 "
+#
 "
 base
 /
@@ -882,6 +886,7 @@ codec
 .
 h
 "
+#
 "
 base
 /
@@ -889,6 +894,7 @@ delayable
 .
 h
 "
+#
 "
 base
 /
@@ -896,6 +902,7 @@ media_channel
 .
 cc
 "
+#
 "
 base
 /
@@ -917,6 +924,7 @@ media_constants
 .
 h
 "
+#
 "
 base
 /
@@ -924,6 +932,7 @@ media_engine
 .
 cc
 "
+#
 "
 base
 /
@@ -931,6 +940,7 @@ media_engine
 .
 h
 "
+#
 "
 base
 /
@@ -938,6 +948,7 @@ rid_description
 .
 cc
 "
+#
 "
 base
 /
@@ -945,6 +956,7 @@ rid_description
 .
 h
 "
+#
 "
 base
 /
@@ -952,6 +964,7 @@ rtp_data_engine
 .
 cc
 "
+#
 "
 base
 /
@@ -959,6 +972,7 @@ rtp_data_engine
 .
 h
 "
+#
 "
 base
 /
@@ -966,6 +980,7 @@ rtp_utils
 .
 cc
 "
+#
 "
 base
 /
@@ -973,6 +988,7 @@ rtp_utils
 .
 h
 "
+#
 "
 base
 /
@@ -980,6 +996,7 @@ stream_params
 .
 cc
 "
+#
 "
 base
 /
@@ -987,6 +1004,7 @@ stream_params
 .
 h
 "
+#
 "
 base
 /
@@ -994,6 +1012,7 @@ turn_utils
 .
 cc
 "
+#
 "
 base
 /
@@ -1624,6 +1643,7 @@ video_coding
 :
 webrtc_vp9
 "
+#
 "
 .
 .
@@ -1638,6 +1658,7 @@ av1
 :
 libaom_av1_decoder
 "
+#
 "
 .
 .
@@ -1686,6 +1707,7 @@ system
 :
 rtc_export
 "
+#
 "
 .
 .
@@ -1715,6 +1737,7 @@ strings
 sources
 =
 [
+#
 "
 engine
 /
@@ -1722,6 +1745,7 @@ fake_video_codec_factory
 .
 cc
 "
+#
 "
 engine
 /
@@ -1868,6 +1892,7 @@ api
 :
 call_api
 "
+#
 "
 .
 .
@@ -2718,6 +2743,12 @@ rtc_export
 "
 ]
 }
+if
+(
+!
+build_with_mozilla
+)
+{
 rtc_library
 (
 "
@@ -2947,6 +2978,7 @@ usrsctp
 ]
 }
 }
+}
 rtc_source_set
 (
 "
@@ -2989,6 +3021,7 @@ deps
 :
 rtc_audio_video
 "
+#
 "
 :
 rtc_data

@@ -235,6 +235,11 @@ utility
 "
 ]
 }
+if
+(
+false
+)
+{
 absl_source_set
 (
 "
@@ -314,6 +319,7 @@ googletest
 gtest
 "
 ]
+}
 }
 absl_source_set
 (

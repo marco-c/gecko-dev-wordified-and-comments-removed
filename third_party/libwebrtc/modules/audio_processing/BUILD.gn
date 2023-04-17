@@ -3366,6 +3366,11 @@ checks
 }
 }
 }
+if
+(
+rtc_include_tests
+)
+{
 rtc_library
 (
 "
@@ -3629,4 +3634,5 @@ types
 optional
 "
 ]
+}
 }

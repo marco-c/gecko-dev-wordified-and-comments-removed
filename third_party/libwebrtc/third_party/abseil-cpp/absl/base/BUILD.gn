@@ -1193,6 +1193,11 @@ gtest
 ]
 #
 }
+if
+(
+false
+)
+{
 absl_source_set
 (
 "
@@ -1254,6 +1259,7 @@ googletest
 gtest
 "
 ]
+}
 }
 absl_source_set
 (
@@ -1619,6 +1625,11 @@ absl
 "
 ]
 }
+if
+(
+false
+)
+{
 absl_source_set
 (
 "
@@ -1670,4 +1681,5 @@ googletest
 gtest
 "
 ]
+}
 }

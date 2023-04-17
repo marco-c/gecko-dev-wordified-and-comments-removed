@@ -232,6 +232,11 @@ time_zone
 "
 ]
 }
+if
+(
+false
+)
+{
 absl_source_set
 (
 "
@@ -365,4 +370,5 @@ time
 *
 "
 ]
+}
 }

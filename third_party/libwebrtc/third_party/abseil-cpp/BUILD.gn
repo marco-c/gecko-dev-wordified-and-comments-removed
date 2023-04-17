@@ -139,6 +139,7 @@ build
 gni
 "
 )
+#
 import
 (
 "
@@ -1336,8 +1337,7 @@ variable
 }
 if
 (
-!
-is_component_build
+false
 )
 {
 test

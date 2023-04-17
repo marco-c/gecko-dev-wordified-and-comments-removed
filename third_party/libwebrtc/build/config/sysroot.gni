@@ -511,8 +511,10 @@ _script_arch
 amd64
 "
 }
+#
 assert
 (
+#
 exec_script
 (
 "
@@ -524,12 +526,14 @@ dir_exists
 .
 py
 "
+#
 [
 rebase_path
 (
 sysroot
 )
 ]
+#
 "
 string
 "
@@ -539,6 +543,7 @@ string
 "
 True
 "
+#
 "
 Missing
 sysroot

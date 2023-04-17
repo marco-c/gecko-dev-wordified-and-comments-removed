@@ -235,6 +235,10 @@ if
 (
 !
 build_with_chromium
+&
+&
+!
+build_with_mozilla
 )
 {
 rtc_library
@@ -650,6 +654,12 @@ optional
 "
 ]
 }
+if
+(
+!
+build_with_mozilla
+)
+{
 rtc_library
 (
 "
@@ -1191,6 +1201,7 @@ optional
 "
 ]
 }
+}
 rtc_source_set
 (
 "
@@ -1402,6 +1413,12 @@ h
 "
 ]
 }
+if
+(
+!
+build_with_mozilla
+)
+{
 rtc_source_set
 (
 "
@@ -1594,6 +1611,7 @@ types
 optional
 "
 ]
+}
 }
 rtc_source_set
 (
@@ -1910,6 +1928,12 @@ strings
 "
 ]
 }
+if
+(
+!
+build_with_mozilla
+)
+{
 rtc_source_set
 (
 "
@@ -2207,6 +2231,7 @@ platform_thread_types
 "
 ]
 }
+}
 if
 (
 rtc_include_tests
@@ -2411,6 +2436,12 @@ peerconnection_quality_test
 ]
 }
 }
+if
+(
+!
+build_with_mozilla
+)
+{
 rtc_library
 (
 "
@@ -2582,6 +2613,7 @@ types
 optional
 "
 ]
+}
 }
 rtc_source_set
 (
@@ -3297,6 +3329,12 @@ rtc_base_approved
 "
 ]
 }
+if
+(
+!
+build_with_mozilla
+)
+{
 rtc_library
 (
 "
@@ -3370,6 +3408,7 @@ rtc_event_log
 rtc_event_log
 "
 ]
+}
 }
 rtc_library
 (
