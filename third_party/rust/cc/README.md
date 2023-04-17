@@ -1527,6 +1527,13 @@ cuda
 (
 true
 )
+.
+cudart
+(
+"
+static
+"
+)
 /
 /
 Generate
