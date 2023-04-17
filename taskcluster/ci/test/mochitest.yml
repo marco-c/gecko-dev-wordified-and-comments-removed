@@ -1330,6 +1330,8 @@ windows10
 *
 -
 asan
+-
+qr
 /
 opt
 :
@@ -3398,6 +3400,8 @@ windows10
 64
 -
 asan
+-
+qr
 /
 opt
 :
@@ -3566,6 +3570,8 @@ windows10
 64
 -
 asan
+-
+qr
 /
 opt
 :
@@ -3910,6 +3916,8 @@ windows10
 64
 -
 asan
+-
+qr
 /
 opt
 :
