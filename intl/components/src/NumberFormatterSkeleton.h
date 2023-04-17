@@ -63,8 +63,8 @@ UNumberRangeFormatter
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 class
@@ -562,7 +562,6 @@ rounding
 ;
 }
 ;
-}
 }
 #
 endif

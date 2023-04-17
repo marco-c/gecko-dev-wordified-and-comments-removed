@@ -50,8 +50,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 Result
@@ -577,6 +577,5 @@ utf16Length
 )
 )
 ;
-}
 }
 }

@@ -99,8 +99,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 #
@@ -710,7 +710,6 @@ MorePrecision
 ;
 }
 ;
-}
 }
 #
 endif

@@ -59,8 +59,8 @@ UFormattedValue
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 enum
@@ -470,7 +470,6 @@ NumberPartVector
 parts
 )
 ;
-}
 }
 #
 endif

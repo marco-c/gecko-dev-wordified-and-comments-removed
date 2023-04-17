@@ -147,8 +147,8 @@ UPluralRules
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 struct
@@ -1247,7 +1247,6 @@ Ok
 }
 }
 ;
-}
 }
 #
 endif

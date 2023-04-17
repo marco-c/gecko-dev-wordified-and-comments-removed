@@ -57,8 +57,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 struct
@@ -507,7 +507,6 @@ const
 ;
 }
 ;
-}
 }
 #
 endif

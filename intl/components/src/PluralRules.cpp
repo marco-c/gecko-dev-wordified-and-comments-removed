@@ -94,8 +94,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 PluralRules
@@ -1038,7 +1038,6 @@ mPluralRules
 =
 nullptr
 ;
-}
 }
 }
 }

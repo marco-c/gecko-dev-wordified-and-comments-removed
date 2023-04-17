@@ -49,8 +49,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 NumberFormatterSkeleton
@@ -2997,5 +2997,4 @@ nrf
 }
 #
 endif
-}
 }
