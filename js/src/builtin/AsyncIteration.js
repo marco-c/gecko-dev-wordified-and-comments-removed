@@ -236,7 +236,12 @@ nextMethod
 return
 {
 [
-std_asyncIterator
+GetBuiltinSymbol
+(
+"
+asyncIterator
+"
+)
 ]
 :
 function
@@ -1652,7 +1657,12 @@ iterated
 =
 {
 [
-std_asyncIterator
+GetBuiltinSymbol
+(
+"
+asyncIterator
+"
+)
 ]
 :
 (

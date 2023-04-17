@@ -350,7 +350,12 @@ s
 =
 ctor
 [
-std_species
+GetBuiltinSymbol
+(
+"
+species
+"
+)
 ]
 ;
 if
@@ -4831,7 +4836,12 @@ usingIterator
 =
 source
 [
-std_iterator
+GetBuiltinSymbol
+(
+"
+iterator
+"
+)
 ]
 ;
 if

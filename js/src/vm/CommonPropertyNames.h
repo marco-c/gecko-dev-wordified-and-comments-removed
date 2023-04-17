@@ -1546,6 +1546,15 @@ GetBuiltinPrototype
 \
 MACRO_
 (
+GetBuiltinSymbol
+GetBuiltinSymbol
+"
+GetBuiltinSymbol
+"
+)
+\
+MACRO_
+(
 GetInternalError
 GetInternalError
 "
