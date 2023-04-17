@@ -532,12 +532,6 @@ fuzzy
 -
 5
 )
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 mask
