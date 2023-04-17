@@ -13422,6 +13422,14 @@ null
 ;
 if
 (
+!
+tab
+.
+_labelIsContentTitle
+)
+{
+if
+(
 activePageData
 )
 {
@@ -13474,6 +13482,7 @@ activePageData
 url
 )
 ;
+}
 }
 }
 if
