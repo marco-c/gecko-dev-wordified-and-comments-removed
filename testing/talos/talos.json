@@ -128,6 +128,9 @@ startup_about_home_paint
 "
 pdfpaint
 "
+"
+cross_origin_pageload
+"
 ]
 }
 "
