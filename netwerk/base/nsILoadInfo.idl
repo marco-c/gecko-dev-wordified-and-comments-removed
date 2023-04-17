@@ -1790,15 +1790,6 @@ nsIPrincipal
 topLevelPrincipal
 ;
 [
-notxpcom
-nostdcall
-]
-readonly
-attribute
-nsIPrincipal
-topLevelStorageAreaPrincipal
-;
-[
 noscript
 nostdcall
 notxpcom

@@ -289,10 +289,6 @@ PrincipalInfo
 ?
 topLevelPrincipalInfo
 ;
-PrincipalInfo
-?
-topLevelStorageAreaPrincipalInfo
-;
 URIParams
 ?
 resultPrincipalURI

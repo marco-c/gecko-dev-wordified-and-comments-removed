@@ -7010,12 +7010,6 @@ GetTopLevelAntiTrackingPrincipal
 (
 )
 ;
-nsIPrincipal
-*
-GetTopLevelStorageAreaPrincipal
-(
-)
-;
 void
 StorageAccessPermissionGranted
 (

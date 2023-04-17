@@ -559,9 +559,6 @@ aPrincipalToInherit
 nsIPrincipal
 *
 aTopLevelPrincipal
-nsIPrincipal
-*
-aTopLevelStorageAreaPrincipal
 nsIURI
 *
 aResultPrincipalURI
@@ -918,12 +915,6 @@ nsCOMPtr
 nsIPrincipal
 >
 mTopLevelPrincipal
-;
-nsCOMPtr
-<
-nsIPrincipal
->
-mTopLevelStorageAreaPrincipal
 ;
 nsCOMPtr
 <
