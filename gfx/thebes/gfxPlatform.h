@@ -1858,13 +1858,6 @@ UsesTiling
 )
 const
 ;
-virtual
-bool
-ContentUsesTiling
-(
-)
-const
-;
 static
 mozilla
 :

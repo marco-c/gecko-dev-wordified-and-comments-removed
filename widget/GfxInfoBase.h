@@ -380,15 +380,6 @@ aUsesTiling
 override
 ;
 NS_IMETHOD
-GetContentUsesTiling
-(
-bool
-*
-aUsesTiling
-)
-override
-;
-NS_IMETHOD
 GetTargetFrameRate
 (
 uint32_t

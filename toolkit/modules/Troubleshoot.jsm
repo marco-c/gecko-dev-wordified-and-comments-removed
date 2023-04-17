@@ -3239,11 +3239,6 @@ UsesTiling
 "
 usesTiling
 "
-ContentUsesTiling
-:
-"
-contentUsesTiling
-"
 TargetFrameRate
 :
 "

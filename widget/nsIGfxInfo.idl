@@ -251,11 +251,6 @@ UsesTiling
 ;
 readonly
 attribute
-boolean
-ContentUsesTiling
-;
-readonly
-attribute
 unsigned
 long
 TargetFrameRate

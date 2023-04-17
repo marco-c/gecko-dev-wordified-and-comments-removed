@@ -381,13 +381,6 @@ nsString
 \
 _
 (
-UseOMTP
-bool
-false
-)
-\
-_
-(
 AllowD3D11KeyedMutex
 bool
 false
