@@ -546,9 +546,6 @@ find_executable
 (
 [
 "
-nodejs
-"
-"
 node
 "
 ]
