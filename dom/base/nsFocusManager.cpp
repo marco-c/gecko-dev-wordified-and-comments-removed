@@ -14310,6 +14310,15 @@ aContent
 if
 (
 !
+mFocusedWindow
+)
+{
+return
+;
+}
+if
+(
+!
 aUpdateVisibility
 )
 {
