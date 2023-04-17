@@ -53,16 +53,6 @@ MPL
 0
 /
 .
--
-sync
--
-brand
--
-short
--
-name
-=
-Sync
 #
 Account
 can
