@@ -1598,7 +1598,7 @@ const
 if
 (
 mAscent
-=
+!
 =
 ReflowOutput
 :
@@ -1606,6 +1606,10 @@ ReflowOutput
 ASK_FOR_BASELINE
 )
 {
+return
+mAscent
+;
+}
 bool
 found
 =
@@ -1635,10 +1639,13 @@ mAscent
 ;
 if
 (
-!
 found
 )
 {
+return
+mAscent
+;
+}
 mAscent
 =
 mFrame
@@ -1653,8 +1660,6 @@ BaselineSharingGroup
 First
 )
 ;
-}
-}
 return
 mAscent
 ;
