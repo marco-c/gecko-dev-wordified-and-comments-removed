@@ -1282,11 +1282,7 @@ quota
 QuotaManager
 :
 :
-GetRef
-(
-)
-.
-MaybeRecordShutdownStep
+SafeMaybeRecordQuotaClientShutdownStep
 (
 quota
 :
