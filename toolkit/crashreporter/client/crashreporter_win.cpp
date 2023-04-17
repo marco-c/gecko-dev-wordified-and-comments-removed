@@ -4736,6 +4736,10 @@ hwndDlg
 urlCheckRect
 .
 top
+-
+urlCheckRect
+.
+bottom
 )
 ;
 gAttachedBottom
