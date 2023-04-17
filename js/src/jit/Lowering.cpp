@@ -1604,7 +1604,7 @@ useBoxAtStart
 ins
 -
 >
-idValue
+id
 (
 )
 )
@@ -7707,7 +7707,7 @@ useRegisterAtStart
 ins
 -
 >
-getIterator
+iterator
 (
 )
 )
@@ -7716,7 +7716,7 @@ useBoxAtStart
 ins
 -
 >
-getNextMethod
+nextMethod
 (
 )
 )
@@ -28642,7 +28642,7 @@ MOZ_ASSERT
 ins
 -
 >
-environmentChain
+envChain
 (
 )
 -
@@ -28691,7 +28691,7 @@ useRegister
 ins
 -
 >
-environmentChain
+envChain
 (
 )
 )
