@@ -19,6 +19,9 @@ in
 COMMON_SYMBOLS
 "
 "
+GTK2_SYMBOLS
+"
+"
 GTK3_SYMBOLS
 "
 )
