@@ -2049,14 +2049,6 @@ TripledotProhibited
 }
 ;
 enum
-class
-FieldPlacement
-{
-Instance
-Static
-}
-;
-enum
 PrivateNameHandling
 {
 PrivateNameProhibited
