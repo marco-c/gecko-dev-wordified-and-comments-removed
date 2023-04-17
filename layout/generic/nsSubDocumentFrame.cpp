@@ -2224,7 +2224,7 @@ constructZoomItem
 presContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 |
