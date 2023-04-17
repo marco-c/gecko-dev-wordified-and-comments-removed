@@ -37,20 +37,6 @@ h
 namespace
 mozilla
 {
-uint32_t
-CCGCScheduler
-:
-:
-SuspectedCCObjects
-(
-)
-{
-return
-nsCycleCollector_suspectedCount
-(
-)
-;
-}
 void
 CCGCScheduler
 :
@@ -1491,6 +1477,8 @@ MaybePokeCC
 (
 TimeStamp
 aNow
+uint32_t
+aSuspectedCCObjects
 )
 {
 if
@@ -1509,6 +1497,7 @@ if
 ShouldScheduleCC
 (
 aNow
+aSuspectedCCObjects
 )
 )
 {
