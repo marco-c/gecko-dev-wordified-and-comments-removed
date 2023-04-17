@@ -2441,8 +2441,9 @@ IsInUncomposedDoc
 )
 )
 {
-RegAccessKey
+RegUnRegAccessKey
 (
+true
 )
 ;
 if
@@ -2673,8 +2674,9 @@ IsInUncomposedDoc
 )
 )
 {
-UnregAccessKey
+RegUnRegAccessKey
 (
+false
 )
 ;
 }
@@ -3209,8 +3211,9 @@ nsGkAtoms
 accesskey
 )
 {
-UnregAccessKey
+RegUnRegAccessKey
 (
+false
 )
 ;
 if
@@ -3793,8 +3796,9 @@ SetFlags
 NODE_HAS_ACCESSKEY
 )
 ;
-RegAccessKey
+RegUnRegAccessKey
 (
+true
 )
 ;
 }
