@@ -480,11 +480,11 @@ return
 for
 (
 const
-connID
+connection
 of
 Object
 .
-getOwnPropertyNames
+values
 (
 this
 .
@@ -492,12 +492,7 @@ _connections
 )
 )
 {
-this
-.
-_connections
-[
-connID
-]
+connection
 .
 close
 (
