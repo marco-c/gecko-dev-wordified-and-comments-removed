@@ -164,7 +164,7 @@ metrics_path
 .
 Use
 the
-self
+command_context
 .
 metrics
 handle
@@ -205,13 +205,6 @@ yaml
 '
 )
 )
-CommandProvider
-class
-CustomCommand
-(
-MachCommandBase
-)
-:
 Command
 (
 '
@@ -226,10 +219,10 @@ METRICS_PATH
 def
 custom_command
 (
-self
+command_context
 )
 :
-self
+command_context
 .
 metrics
 .
