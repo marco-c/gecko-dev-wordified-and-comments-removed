@@ -243,7 +243,9 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
+const
 auto
+*
 encoding
 =
 Encoding
@@ -776,6 +778,7 @@ NS_IsNativeUTF8
 (
 )
 )
+{
 return
 NS_CopyNativeToUnicode
 (
@@ -783,6 +786,7 @@ str1
 aResult
 )
 ;
+}
 CopyASCIItoUTF16
 (
 str1
@@ -1860,7 +1864,9 @@ str
 +
 str
 )
+{
 ;
+}
 const
 char
 *
@@ -1909,7 +1915,9 @@ str
 +
 str
 )
+{
 ;
+}
 if
 (
 str
@@ -1985,7 +1993,9 @@ str
 +
 str
 )
+{
 ;
+}
 if
 (
 *
@@ -2015,7 +2025,9 @@ str
 +
 str
 )
+{
 ;
+}
 if
 (
 !
@@ -2163,7 +2175,9 @@ str
 +
 +
 )
+{
 ;
+}
 nameEnd
 =
 str
@@ -2352,10 +2366,12 @@ valueEnd
 1
 )
 )
+{
 +
 +
 valueEnd
 ;
+}
 else
 if
 (
@@ -2367,8 +2383,10 @@ valueEnd
 "
 '
 )
+{
 break
 ;
+}
 }
 str
 =
@@ -3056,10 +3074,12 @@ charsetB
 caseBResult
 )
 )
+{
 caseBResult
 =
 nullptr
 ;
+}
 }
 if
 (
@@ -3083,10 +3103,12 @@ charsetCD
 caseCDResult
 )
 )
+{
 caseCDResult
 =
 nullptr
 ;
+}
 }
 if
 (
@@ -4578,9 +4600,11 @@ in
 ]
 )
 )
+{
 goto
 badsyntax
 ;
+}
 PR_sscanf
 (
 in
@@ -5124,6 +5148,7 @@ c
 &
 0x80
 )
+{
 aOutput
 .
 Append
@@ -5131,7 +5156,9 @@ Append
 REPLACEMENT_CHAR
 )
 ;
+}
 else
+{
 aOutput
 .
 Append
@@ -5142,6 +5169,7 @@ c
 )
 )
 ;
+}
 }
 }
 }
@@ -5212,6 +5240,7 @@ aQOrBase64
 Q
 '
 )
+{
 decodedText
 =
 DecodeQ
@@ -5220,6 +5249,7 @@ aEncoded
 aLen
 )
 ;
+}
 else
 if
 (

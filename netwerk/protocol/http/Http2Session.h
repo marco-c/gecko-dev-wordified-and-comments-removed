@@ -744,7 +744,7 @@ nsresult
 CommitToSegmentSize
 (
 uint32_t
-size
+count
 bool
 forceCommitment
 )
@@ -1721,7 +1721,7 @@ hostname
 int32_t
 port
 bool
-jk
+justKidding
 )
 ;
 bool

@@ -62,13 +62,14 @@ mozilla
 namespace
 net
 {
-typedef
+using
+TCacheEntryTable
+=
 nsRefPtrHashtable
 <
 nsCStringHashKey
 CacheEntry
 >
-TCacheEntryTable
 ;
 class
 CacheEntryTable

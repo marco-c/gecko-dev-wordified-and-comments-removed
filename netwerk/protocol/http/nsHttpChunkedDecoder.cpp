@@ -140,8 +140,10 @@ if
 (
 mReachedEOF
 )
+{
 break
 ;
+}
 else
 {
 uint32_t

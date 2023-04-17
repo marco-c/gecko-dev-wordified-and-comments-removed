@@ -2078,6 +2078,7 @@ aUseResponseHead
 !
 mCanceled
 )
+{
 mResponseHead
 =
 MakeUnique
@@ -2088,6 +2089,7 @@ nsHttpResponseHead
 aResponseHead
 )
 ;
+}
 if
 (
 !
@@ -8575,6 +8577,7 @@ CanSend
 (
 )
 )
+{
 SendRedirect2Verify
 (
 aResult
@@ -8588,6 +8591,7 @@ redirectURI
 corsPreflightArgs
 )
 ;
+}
 return
 NS_OK
 ;

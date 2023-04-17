@@ -547,7 +547,9 @@ return
 NS_OK
 ;
 }
-typedef
+using
+WifiListenerArray
+=
 nsTArray
 <
 nsMainThreadPtrHandle
@@ -555,7 +557,6 @@ nsMainThreadPtrHandle
 nsIWifiListener
 >
 >
-WifiListenerArray
 ;
 class
 nsPassErrorToWifiListeners
@@ -811,6 +812,7 @@ i
 +
 +
 )
+{
 currentListeners
 -
 >
@@ -824,6 +826,7 @@ i
 mListener
 )
 ;
+}
 }
 mThreadComplete
 =
@@ -1018,6 +1021,7 @@ n
 ;
 for
 (
+const
 auto
 &
 listener

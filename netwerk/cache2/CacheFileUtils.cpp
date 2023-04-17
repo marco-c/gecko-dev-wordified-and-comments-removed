@@ -22,6 +22,13 @@ h
 #
 include
 "
+CacheObserver
+.
+h
+"
+#
+include
+"
 LoadContextInfo
 .
 h
@@ -74,11 +81,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
-{
-namespace
+:
+:
 CacheFileUtils
 {
 static
@@ -2989,7 +2996,5 @@ Append
 aInfo
 )
 ;
-}
-}
 }
 }

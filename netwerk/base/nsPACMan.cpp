@@ -1377,6 +1377,7 @@ if
 (
 mOnMainThreadOnly
 )
+{
 mPACMan
 -
 >
@@ -1389,7 +1390,9 @@ forget
 )
 )
 ;
+}
 else
+{
 runnable
 -
 >
@@ -1397,6 +1400,7 @@ Run
 (
 )
 ;
+}
 }
 void
 PendingPACQuery
@@ -1442,6 +1446,7 @@ if
 (
 mOnMainThreadOnly
 )
+{
 mPACMan
 -
 >
@@ -1454,7 +1459,9 @@ forget
 )
 )
 ;
+}
 else
+{
 runnable
 -
 >
@@ -1462,6 +1469,7 @@ Run
 (
 )
 ;
+}
 }
 NS_IMETHODIMP
 PendingPACQuery
@@ -3548,7 +3556,9 @@ ProcessPending
 (
 )
 )
+{
 ;
+}
 if
 (
 mShutdown
@@ -4225,16 +4235,20 @@ NS_SUCCEEDED
 status
 )
 )
+{
 PostProcessPendingQ
 (
 )
 ;
+}
 else
+{
 PostCancelPendingQ
 (
 status
 )
 ;
+}
 return
 NS_OK
 ;

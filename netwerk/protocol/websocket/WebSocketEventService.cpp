@@ -323,6 +323,8 @@ DebugOnly
 nsresult
 >
 rv
+{
+}
 ;
 if
 (

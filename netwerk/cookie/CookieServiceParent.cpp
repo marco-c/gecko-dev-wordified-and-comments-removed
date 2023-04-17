@@ -215,6 +215,7 @@ i
 )
 ;
 auto
+*
 cookie
 =
 static_cast
@@ -321,6 +322,7 @@ aCookie
 )
 {
 auto
+*
 cookie
 =
 static_cast
@@ -396,6 +398,7 @@ aCookie
 )
 {
 auto
+*
 cookie
 =
 static_cast

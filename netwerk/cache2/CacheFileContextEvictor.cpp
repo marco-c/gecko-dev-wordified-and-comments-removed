@@ -22,6 +22,13 @@ h
 #
 include
 "
+CacheFileMetadata
+.
+h
+"
+#
+include
+"
 CacheIndex
 .
 h
@@ -37,6 +44,13 @@ h
 include
 "
 CacheFileUtils
+.
+h
+"
+#
+include
+"
+CacheObserver
 .
 h
 "
@@ -109,8 +123,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 #
@@ -3291,7 +3305,6 @@ RemoveElementAt
 continue
 ;
 }
-else
 if
 (
 NS_FAILED
@@ -4115,6 +4128,5 @@ here
 "
 )
 ;
-}
 }
 }

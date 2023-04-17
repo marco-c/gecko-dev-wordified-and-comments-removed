@@ -6885,7 +6885,9 @@ return
 rv
 ;
 }
-typedef
+using
+ErrorEntry
+=
 struct
 {
 nsresult
@@ -6897,7 +6899,6 @@ char
 error
 ;
 }
-ErrorEntry
 ;
 #
 undef

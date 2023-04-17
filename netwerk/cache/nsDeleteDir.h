@@ -94,7 +94,7 @@ GetTrashDir
 (
 nsIFile
 *
-dir
+target
 nsCOMPtr
 <
 nsIFile

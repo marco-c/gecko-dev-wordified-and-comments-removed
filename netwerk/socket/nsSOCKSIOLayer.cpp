@@ -1573,7 +1573,6 @@ ip
 )
 ;
 }
-else
 if
 (
 aAddr
@@ -2796,7 +2795,6 @@ return
 status
 ;
 }
-else
 if
 (
 IsLocalProxy
@@ -3949,7 +3947,6 @@ WriteV5ConnectRequest
 )
 ;
 }
-else
 if
 (
 !
@@ -6292,7 +6289,6 @@ return
 PR_FAILURE
 ;
 }
-else
 if
 (
 PR_GetError

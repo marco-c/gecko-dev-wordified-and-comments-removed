@@ -2456,10 +2456,6 @@ mPBOverride
 =
 =
 kPBOverride_Private
-?
-true
-:
-false
 )
 ;
 }
@@ -2563,6 +2559,7 @@ nsIRequest
 :
 LOAD_NORMAL
 )
+{
 httpChannel
 -
 >
@@ -2571,6 +2568,7 @@ SetLoadFlags
 aLoadFlags
 )
 ;
+}
 if
 (
 aForceMainDocumentChannel
@@ -2896,6 +2894,7 @@ aCacheKey
 ;
 for
 (
+const
 auto
 &
 data
@@ -3669,10 +3668,6 @@ mPBOverride
 =
 =
 kPBOverride_Private
-?
-true
-:
-false
 )
 ;
 }
@@ -6223,11 +6218,13 @@ cacheEntryAvailable
 (
 )
 =
+static_cast
+<
+bool
+>
+(
 mCacheEntry
-?
-true
-:
-false
+)
 ;
 httpChannelImpl
 -

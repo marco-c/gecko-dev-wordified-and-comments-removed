@@ -277,12 +277,13 @@ SpdyPushCache
 >
 mSpdyCache
 ;
-typedef
+using
+PendingTailRequest
+=
 nsCOMPtr
 <
 nsIRequestTailUnblockCallback
 >
-PendingTailRequest
 ;
 uint32_t
 mNonTailRequests

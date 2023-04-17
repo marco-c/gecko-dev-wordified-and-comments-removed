@@ -268,7 +268,7 @@ aScheme
 const
 nsACString
 &
-aHost
+aAuthorityHeader
 const
 nsACString
 &

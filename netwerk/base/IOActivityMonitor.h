@@ -110,7 +110,9 @@ activity
 .
 enabled
 "
-typedef
+using
+Activities
+=
 nsTHashMap
 <
 nsCStringHashKey
@@ -119,7 +121,6 @@ dom
 :
 IOActivityDataDictionary
 >
-Activities
 ;
 class
 IOActivityMonitor

@@ -1584,6 +1584,7 @@ if
 *
 countWritten
 )
+{
 rv
 =
 GetPushComplete
@@ -1594,6 +1595,7 @@ NS_BASE_STREAM_CLOSED
 :
 NS_BASE_STREAM_WOULD_BLOCK
 ;
+}
 return
 rv
 ;

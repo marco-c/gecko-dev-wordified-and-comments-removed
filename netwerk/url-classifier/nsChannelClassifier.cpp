@@ -283,6 +283,7 @@ aPrefs
 )
 {
 auto
+*
 prefs
 =
 static_cast

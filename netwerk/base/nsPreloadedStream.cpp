@@ -511,6 +511,7 @@ if
 !
 mLen
 )
+{
 return
 mStream
 -
@@ -523,6 +524,7 @@ aRequestedCount
 aEventTarget
 )
 ;
+}
 if
 (
 !

@@ -296,8 +296,8 @@ shutdown
 false
 )
 ;
-if
-(
+return
+!
 NS_WARN_IF
 (
 NS_FAILED
@@ -305,14 +305,6 @@ NS_FAILED
 rv
 )
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 NS_IMETHODIMP

@@ -52,7 +52,9 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
-typedef
+using
+Data
+=
 mozilla
 :
 :
@@ -63,7 +65,6 @@ FallibleTArray
 uint8_t
 >
 >
-Data
 ;
 class
 IObserver

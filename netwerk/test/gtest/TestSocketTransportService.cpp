@@ -100,6 +100,7 @@ service
 )
 ;
 auto
+*
 sts
 =
 gSocketTransportService

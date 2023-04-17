@@ -601,6 +601,7 @@ if
 (
 observerService
 )
+{
 observerService
 -
 >
@@ -616,6 +617,7 @@ threads
 "
 )
 ;
+}
 if
 (
 mNetlinkSvc

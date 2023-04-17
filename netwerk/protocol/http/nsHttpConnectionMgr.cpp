@@ -327,7 +327,7 @@ mThrottleHoldTime
 )
 mThrottleMaxTime
 (
-0
+nullptr
 )
 mBeConservativeForProxy
 (
@@ -1120,8 +1120,10 @@ IsSpdyEnabled
 )
 )
 )
+{
 return
 ;
+}
 LOG
 (
 (
@@ -6663,9 +6665,11 @@ Caps
 )
 )
 )
+{
 return
 NS_ERROR_NOT_AVAILABLE
 ;
+}
 nsresult
 rv
 =
@@ -8563,6 +8567,7 @@ UsingProxy
 (
 )
 )
+{
 Telemetry
 :
 :
@@ -8575,6 +8580,7 @@ HTTP_PROXY_TYPE
 PROXY_NONE
 )
 ;
+}
 else
 if
 (
@@ -8588,6 +8594,7 @@ UsingHttpsProxy
 (
 )
 )
+{
 Telemetry
 :
 :
@@ -8600,6 +8607,7 @@ HTTP_PROXY_TYPE
 PROXY_HTTPS
 )
 ;
+}
 else
 if
 (
@@ -8613,6 +8621,7 @@ UsingHttpProxy
 (
 )
 )
+{
 Telemetry
 :
 :
@@ -8625,7 +8634,9 @@ HTTP_PROXY_TYPE
 PROXY_HTTP
 )
 ;
+}
 else
+{
 Telemetry
 :
 :
@@ -8638,6 +8649,7 @@ HTTP_PROXY_TYPE
 PROXY_SOCKS
 )
 ;
+}
 }
 nsresult
 nsHttpConnectionMgr
@@ -18786,11 +18798,13 @@ timeToLive
 <
 mTimeOfNextWakeUp
 )
+{
 PruneDeadConnectionsAfter
 (
 timeToLive
 )
 ;
+}
 }
 void
 nsHttpConnectionMgr

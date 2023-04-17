@@ -563,6 +563,7 @@ gRefCntParser
 =
 0
 )
+{
 rv
 =
 CallGetService
@@ -572,11 +573,14 @@ NS_ITEXTTOSUBURI_CONTRACTID
 gTextToSubURI
 )
 ;
+}
 else
+{
 rv
 =
 NS_OK
 ;
+}
 return
 rv
 ;
@@ -926,10 +930,12 @@ aFormatStr
 )
 )
 )
+{
 +
 +
 aFormatStr
 ;
+}
 if
 (
 !
@@ -969,10 +975,12 @@ len
 )
 )
 )
+{
 +
 +
 len
 ;
+}
 name
 .
 Append
@@ -1560,6 +1568,7 @@ status
 =
 1
 )
+{
 aIdx
 -
 >
@@ -1568,7 +1577,9 @@ SetSize
 len
 )
 ;
+}
 else
+{
 aIdx
 -
 >
@@ -1577,6 +1588,7 @@ SetSize
 UINT64_MAX
 )
 ;
+}
 }
 break
 ;

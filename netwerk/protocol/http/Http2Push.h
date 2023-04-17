@@ -131,7 +131,7 @@ SetConsumerStream
 (
 Http2Stream
 *
-aStream
+consumer
 )
 ;
 [
@@ -202,7 +202,7 @@ ConnectPushedStream
 (
 Http2Stream
 *
-consumer
+stream
 )
 ;
 [
@@ -226,7 +226,7 @@ TestOnPush
 (
 Http2Stream
 *
-consumer
+stream
 )
 ;
 virtual

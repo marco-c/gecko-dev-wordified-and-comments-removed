@@ -283,9 +283,6 @@ CookieIterComparator
 {
 private
 :
-CompareCookiesByAge
-mAgeComparator
-;
 int64_t
 mCurrentTime
 ;
@@ -378,8 +375,15 @@ false
 ;
 }
 return
-mAgeComparator
-.
+mozilla
+:
+:
+net
+:
+:
+CompareCookiesByAge
+:
+:
 LessThan
 (
 lhs
@@ -1617,6 +1621,8 @@ aPath
 {
 CookieListIter
 matchIter
+{
+}
 ;
 RefPtr
 <
@@ -2158,6 +2164,8 @@ PR_USEC_PER_SEC
 ;
 CookieListIter
 exactIter
+{
+}
 ;
 bool
 foundCookie

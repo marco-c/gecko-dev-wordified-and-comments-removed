@@ -753,6 +753,8 @@ mCallOnResume
 ;
 uint32_t
 mHTTPSSVCReceivedStage
+{
+}
 ;
 RefPtr
 <

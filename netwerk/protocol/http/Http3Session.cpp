@@ -2058,6 +2058,8 @@ data
 ;
 Http3Event
 event
+{
+}
 ;
 event
 .
@@ -4365,8 +4367,6 @@ return
 true
 ;
 }
-else
-{
 m0RTTStreams
 .
 AppendElement
@@ -4374,7 +4374,6 @@ AppendElement
 stream
 )
 ;
-}
 }
 if
 (
@@ -9580,6 +9579,8 @@ value
 ;
 Http3Stats
 stats
+{
+}
 ;
 mHttp3Connection
 -
