@@ -1008,16 +1008,6 @@ aQuotedText
 )
 override
 ;
-virtual
-nsresult
-PrepareTransferable
-(
-nsITransferable
-*
-*
-transferable
-)
-;
 [
 [
 nodiscard

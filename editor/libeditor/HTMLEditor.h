@@ -7166,17 +7166,6 @@ bool
 aDoDeleteSelection
 )
 ;
-virtual
-nsresult
-PrepareTransferable
-(
-nsITransferable
-*
-*
-aTransferable
-)
-override
-;
 class
 HTMLTransferablePreparer
 ;
