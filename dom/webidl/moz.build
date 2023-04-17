@@ -6113,6 +6113,11 @@ ExtensionPort
 webidl
 "
 "
+ExtensionRuntime
+.
+webidl
+"
+"
 ExtensionTest
 .
 webidl
