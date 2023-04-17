@@ -157,7 +157,7 @@ aDesArray
 )
 ;
 static
-uint32_t
+void
 ConvertArrayToPermissionRequest
 (
 nsIArray
