@@ -96,6 +96,15 @@ h
 #
 include
 "
+mozilla
+/
+WindowsProcessMitigations
+.
+h
+"
+#
+include
+"
 nsAppDirectoryServiceDefs
 .
 h
@@ -279,6 +288,11 @@ if
 (
 !
 IsContentSandboxEnabled
+(
+)
+|
+|
+IsWin32kLockedDown
 (
 )
 )
