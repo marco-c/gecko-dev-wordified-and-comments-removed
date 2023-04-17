@@ -1954,9 +1954,15 @@ DOMProxyExpando
 <
 <
 14
+MapOrSetHashTable
+=
+1
+<
+<
+15
 Last
 =
-DOMProxyExpando
+MapOrSetHashTable
 Any
 =
 Last
@@ -1968,7 +1974,7 @@ Last
 )
 NumCategories
 =
-15
+16
 Store_
 =
 1
