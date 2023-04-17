@@ -2102,7 +2102,7 @@ sweepAfterMinorGC
 )
 ;
 bool
-needsSweep
+empty
 (
 )
 const
@@ -2110,7 +2110,7 @@ const
 return
 map
 .
-needsSweep
+empty
 (
 )
 ;

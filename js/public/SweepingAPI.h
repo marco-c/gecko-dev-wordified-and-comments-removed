@@ -285,7 +285,7 @@ sbToLock
 ;
 virtual
 bool
-needsSweep
+empty
 (
 )
 =
@@ -525,7 +525,7 @@ return
 ;
 }
 bool
-needsSweep
+empty
 (
 )
 override
@@ -533,7 +533,7 @@ override
 return
 cache
 .
-needsSweep
+empty
 (
 )
 ;
