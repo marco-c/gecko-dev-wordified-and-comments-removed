@@ -336,7 +336,9 @@ ifdef
 DEBUG
 if
 (
+const
 auto
+*
 audioDriver
 =
 mGraph
@@ -365,7 +367,9 @@ ThreadId
 else
 if
 (
+const
 auto
+*
 clockDriver
 =
 mGraph
@@ -702,7 +706,9 @@ false
 }
 if
 (
+const
 auto
+*
 audioDriver
 =
 aDriver
@@ -727,7 +733,9 @@ mAudioDriverThreadId
 }
 if
 (
+const
 auto
+*
 clockDriver
 =
 aDriver
