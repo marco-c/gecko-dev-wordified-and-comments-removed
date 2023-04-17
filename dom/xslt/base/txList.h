@@ -225,9 +225,10 @@ atEndOfList
 ;
 }
 ;
-typedef
-txList
+using
 List
+=
+txList
 ;
 #
 endif

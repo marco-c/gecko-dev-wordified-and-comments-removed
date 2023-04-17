@@ -43,9 +43,10 @@ nsContentUtils
 .
 h
 "
-typedef
-nsINode
+using
 txXPathNodeType
+=
+nsINode
 ;
 class
 txXPathNode
