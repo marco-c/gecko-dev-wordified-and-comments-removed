@@ -1991,7 +1991,6 @@ V
 *
 resultToPtr
 (
-const
 JS
 :
 :

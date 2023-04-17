@@ -1935,6 +1935,15 @@ NewObjectOperationWithTemplate
 \
 _
 (
+NewPlainObject
+js
+:
+:
+NewPlainObject
+)
+\
+_
+(
 NewRegExpStringIterator
 js
 :
