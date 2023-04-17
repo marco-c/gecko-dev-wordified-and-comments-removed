@@ -1224,9 +1224,11 @@ format
 json
 "
 ]
-capture_output
+stdout
 =
-True
+subprocess
+.
+PIPE
             
 )
 .
