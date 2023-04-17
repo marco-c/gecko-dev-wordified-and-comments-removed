@@ -3445,7 +3445,7 @@ _ns
 attributes
 -
 >
-SetAttribute
+SetAttributeStringCopy
 (
 cppClass
 u
