@@ -642,14 +642,15 @@ aCommands
 )
 ;
 }
-typedef
+using
+CommandTableCreatorFn
+=
 already_AddRefed
 <
 nsControllerCommandTable
 >
 (
 *
-CommandTableCreatorFn
 )
 (
 )
