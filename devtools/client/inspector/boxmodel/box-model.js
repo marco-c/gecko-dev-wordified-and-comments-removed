@@ -401,6 +401,12 @@ untrackReflows
 ;
 this
 .
+elementRules
+=
+null
+;
+this
+.
 _highlighters
 =
 null
