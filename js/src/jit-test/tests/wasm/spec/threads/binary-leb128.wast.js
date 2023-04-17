@@ -488,7 +488,7 @@ funcref
 09
 \
 \
-09
+07
 \
 \
 01
@@ -500,18 +500,6 @@ section
 with
 1
 entry
-"
-\
-\
-02
-"
-;
-;
-Element
-with
-explicit
-table
-index
 "
 \
 \
@@ -539,9 +527,6 @@ bytes
 \
 \
 0b
-\
-\
-00
 \
 \
 00

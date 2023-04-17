@@ -860,6 +860,8 @@ externref
 out
 of
 bounds
+table
+access
 )
 ;
 assert_return
@@ -959,6 +961,8 @@ null
 out
 of
 bounds
+table
+access
 )
 ;
 assert_trap
@@ -980,6 +984,8 @@ null
 out
 of
 bounds
+table
+access
 )
 ;
 assert_invalid

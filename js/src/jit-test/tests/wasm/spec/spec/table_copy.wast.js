@@ -30066,6 +30066,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -30371,6 +30373,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -30676,6 +30680,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -30981,6 +30987,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -31876,6 +31884,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -32476,6 +32486,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -33076,6 +33088,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -33381,6 +33395,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -33686,6 +33702,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -33991,6 +34009,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -34296,6 +34316,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -35191,6 +35213,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -35791,6 +35815,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -36391,6 +36417,8 @@ test
 out
 of
 bounds
+table
+access
 )
 ;
 let
@@ -36853,6 +36881,8 @@ run
 out
 of
 bounds
+table
+access
 )
 ;
 assert_return
@@ -37948,6 +37978,8 @@ run
 out
 of
 bounds
+table
+access
 )
 ;
 assert_return
@@ -39049,6 +39081,8 @@ run
 out
 of
 bounds
+table
+access
 )
 ;
 assert_trap
@@ -40144,6 +40178,8 @@ run
 out
 of
 bounds
+table
+access
 )
 ;
 assert_trap
@@ -41245,6 +41281,8 @@ run
 out
 of
 bounds
+table
+access
 )
 ;
 assert_trap
@@ -42339,6 +42377,8 @@ run
 out
 of
 bounds
+table
+access
 )
 ;
 assert_trap
@@ -43433,6 +43473,8 @@ run
 out
 of
 bounds
+table
+access
 )
 ;
 assert_trap
@@ -44527,6 +44569,8 @@ run
 out
 of
 bounds
+table
+access
 )
 ;
 assert_trap
@@ -45624,6 +45668,8 @@ run
 out
 of
 bounds
+table
+access
 )
 ;
 assert_trap
@@ -46748,6 +46794,8 @@ run
 out
 of
 bounds
+table
+access
 )
 ;
 assert_trap
@@ -49635,6 +49683,8 @@ run
 out
 of
 bounds
+table
+access
 )
 ;
 assert_return

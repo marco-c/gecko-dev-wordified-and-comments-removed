@@ -4036,6 +4036,8 @@ test
 out
 of
 bounds
+memory
+access
 )
 ;
 let
@@ -4115,6 +4117,8 @@ test
 out
 of
 bounds
+memory
+access
 )
 ;
 assert_invalid
@@ -4388,6 +4392,8 @@ test
 out
 of
 bounds
+memory
+access
 )
 ;
 let
@@ -4461,6 +4467,8 @@ test
 out
 of
 bounds
+memory
+access
 )
 ;
 let
@@ -4534,6 +4542,8 @@ test
 out
 of
 bounds
+memory
+access
 )
 ;
 let
@@ -4607,6 +4617,8 @@ test
 out
 of
 bounds
+memory
+access
 )
 ;
 let
@@ -4743,6 +4755,8 @@ test
 out
 of
 bounds
+memory
+access
 )
 ;
 let
@@ -4942,6 +4956,8 @@ test
 out
 of
 bounds
+memory
+access
 )
 ;
 assert_invalid
@@ -9045,6 +9061,8 @@ run
 out
 of
 bounds
+memory
+access
 )
 ;
 assert_return
@@ -9333,6 +9351,8 @@ run
 out
 of
 bounds
+memory
+access
 )
 ;
 assert_return
@@ -9621,6 +9641,8 @@ run
 out
 of
 bounds
+memory
+access
 )
 ;
 assert_return
@@ -9909,6 +9931,8 @@ run
 out
 of
 bounds
+memory
+access
 )
 ;
 assert_return
@@ -10197,6 +10221,8 @@ run
 out
 of
 bounds
+memory
+access
 )
 ;
 assert_return
@@ -10485,6 +10511,8 @@ run
 out
 of
 bounds
+memory
+access
 )
 ;
 assert_return

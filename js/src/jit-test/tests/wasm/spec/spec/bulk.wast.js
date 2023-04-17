@@ -1690,6 +1690,8 @@ init_passive
 out
 of
 bounds
+memory
+access
 )
 ;
 invoke
@@ -1744,6 +1746,8 @@ init_active
 out
 of
 bounds
+memory
+access
 )
 ;
 invoke
@@ -2699,6 +2703,8 @@ init_passive
 out
 of
 bounds
+table
+access
 )
 ;
 invoke
@@ -2753,6 +2759,8 @@ init_active
 out
 of
 bounds
+table
+access
 )
 ;
 invoke
@@ -3553,6 +3561,8 @@ copy
 out
 of
 bounds
+table
+access
 )
 ;
 assert_trap
@@ -3574,5 +3584,7 @@ copy
 out
 of
 bounds
+table
+access
 )
 ;

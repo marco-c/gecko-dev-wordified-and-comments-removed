@@ -1218,6 +1218,8 @@ test
 out
 of
 bounds
+memory
+access
 )
 ;
 let
@@ -5433,6 +5435,8 @@ run
 out
 of
 bounds
+memory
+access
 )
 ;
 assert_return
@@ -5673,6 +5677,8 @@ run
 out
 of
 bounds
+memory
+access
 )
 ;
 assert_return
@@ -5914,6 +5920,8 @@ run
 out
 of
 bounds
+memory
+access
 )
 ;
 assert_return
