@@ -618,6 +618,16 @@ bloburl_per_agent_cluster
 "
 false
 ]
+[
+"
+dom
+.
+security
+.
+https_first
+"
+false
+]
 ]
 }
 )
