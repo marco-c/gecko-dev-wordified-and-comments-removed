@@ -13,6 +13,9 @@ eWindowType_sheet
 eWindowType_popup
 eWindowType_child
 eWindowType_invisible
+eWindowType_plugin
+eWindowType_plugin_ipc_chrome
+eWindowType_plugin_ipc_content
 }
 ;
 enum
