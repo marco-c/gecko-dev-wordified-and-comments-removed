@@ -769,6 +769,8 @@ esr78
 mozilla
 -
 esr91
+-
+elm
 when
 :
 by
@@ -997,6 +999,18 @@ minute
 mozilla
 -
 esr91
+:
+[
+{
+hour
+:
+10
+minute
+:
+0
+}
+]
+elm
 :
 [
 {
