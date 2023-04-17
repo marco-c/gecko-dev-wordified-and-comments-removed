@@ -9,15 +9,6 @@ include
 "
 wasm
 /
-WasmConstants
-.
-h
-"
-#
-include
-"
-wasm
-/
 WasmBaselineCompile
 .
 h
@@ -1435,7 +1426,9 @@ return
 maxFramePushed_
 <
 =
-MaxFrameSize
+512
+*
+1024
 ;
 }
 struct

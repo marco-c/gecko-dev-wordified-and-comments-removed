@@ -2575,15 +2575,6 @@ MaxModuleBytes
 ;
 static
 const
-unsigned
-MaxFrameSize
-=
-512
-*
-1024
-;
-static
-const
 uint32_t
 RttDepthNone
 =

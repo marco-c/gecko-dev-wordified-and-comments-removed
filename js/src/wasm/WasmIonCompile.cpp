@@ -36441,8 +36441,6 @@ code
 -
 >
 stackMaps
-&
-d
 )
 )
 {
