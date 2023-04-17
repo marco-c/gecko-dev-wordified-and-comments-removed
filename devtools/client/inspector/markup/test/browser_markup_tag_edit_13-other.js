@@ -42,7 +42,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -61,7 +60,6 @@ await
 testOrderAfterAttributeChange
 (
 inspector
-testActor
 )
 ;
 }
@@ -136,7 +134,6 @@ function
 testOrderAfterAttributeChange
 (
 inspector
-testActor
 )
 {
 info
@@ -156,10 +153,11 @@ setAttribute
 )
 ;
 await
-testActor
-.
-setAttribute
+setAttributeInBrowser
 (
+gBrowser
+.
+selectedBrowser
 "
 #
 order

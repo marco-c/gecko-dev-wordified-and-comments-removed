@@ -341,10 +341,11 @@ testActor
 )
 {
 await
-testActor
-.
-setAttribute
+setAttributeInBrowser
 (
+gBrowser
+.
+selectedBrowser
 "
 #
 hidden

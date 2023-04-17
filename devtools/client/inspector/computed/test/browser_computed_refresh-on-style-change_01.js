@@ -68,7 +68,6 @@ const
 {
 inspector
 view
-testActor
 }
 =
 await
@@ -152,10 +151,11 @@ refreshed
 )
 ;
 await
-testActor
-.
-setAttribute
+setAttributeInBrowser
 (
+gBrowser
+.
+selectedBrowser
 "
 #
 testdiv

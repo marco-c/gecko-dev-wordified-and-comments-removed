@@ -378,6 +378,9 @@ function
 (
 )
 {
+const
+tab
+=
 await
 addTab
 (
@@ -401,7 +404,6 @@ div
 ;
 const
 {
-testActor
 inspector
 view
 }
@@ -475,10 +477,11 @@ markupmutation
 )
 ;
 await
-testActor
-.
-setAttribute
+setAttributeInBrowser
 (
+tab
+.
+linkedBrowser
 "
 div
 "

@@ -218,7 +218,6 @@ utf
 ;
 const
 {
-testActor
 inspector
 view
 }
@@ -444,10 +443,11 @@ const
 className
 =
 await
-testActor
-.
-getAttribute
+getAttributeInBrowser
 (
+gBrowser
+.
+selectedBrowser
 "
 body
 "
