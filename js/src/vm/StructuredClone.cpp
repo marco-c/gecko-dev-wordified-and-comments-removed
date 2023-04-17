@@ -12572,10 +12572,6 @@ getPrototype
 (
 JSProto_WasmMemory
 )
-.
-toObject
-(
-)
 )
 ;
 RootedObject

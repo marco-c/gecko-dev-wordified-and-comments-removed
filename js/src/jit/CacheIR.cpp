@@ -23679,7 +23679,8 @@ AttachDecision
 NoAction
 ;
 }
-Value
+JSObject
+&
 funProto
 =
 cx_
@@ -23702,10 +23703,6 @@ hasInstanceHolder
 =
 &
 funProto
-.
-toObject
-(
-)
 )
 {
 trackAttached

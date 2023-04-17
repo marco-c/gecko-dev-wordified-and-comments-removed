@@ -19382,10 +19382,6 @@ getPrototype
 (
 JSProto_WasmException
 )
-.
-toObject
-(
-)
 )
 ;
 AutoSetNewObjectMetadata
@@ -20795,10 +20791,6 @@ getPrototype
 (
 JSProto_WasmInstance
 )
-.
-toObject
-(
-)
 )
 ;
 RootedWasmInstanceObject
@@ -20903,10 +20895,6 @@ global
 getPrototype
 (
 JSProto_WasmModule
-)
-.
-toObject
-(
 )
 )
 ;
@@ -21188,10 +21176,6 @@ global
 getPrototype
 (
 JSProto_WasmModule
-)
-.
-toObject
-(
 )
 )
 ;

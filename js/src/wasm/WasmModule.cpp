@@ -1689,10 +1689,6 @@ getPrototype
 (
 JSProto_WasmModule
 )
-.
-toObject
-(
-)
 )
 ;
 return
@@ -3745,10 +3741,6 @@ getPrototype
 (
 JSProto_WasmMemory
 )
-.
-toObject
-(
-)
 )
 ;
 memory
@@ -3949,10 +3941,6 @@ global
 getPrototype
 (
 JSProto_WasmTag
-)
-.
-toObject
-(
 )
 )
 ;
@@ -4387,10 +4375,6 @@ getPrototype
 (
 JSProto_WasmTable
 )
-.
-toObject
-(
-)
 )
 ;
 tableObj
@@ -4762,10 +4746,6 @@ global
 getPrototype
 (
 JSProto_WasmGlobal
-)
-.
-toObject
-(
 )
 )
 ;
