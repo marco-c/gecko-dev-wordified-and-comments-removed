@@ -13045,9 +13045,10 @@ IdToPrintableBehavior
 :
 :
 IdIsIdentifier
-JSID_IS_ATOM
-(
 id
+.
+isAtom
+(
 )
 &
 &

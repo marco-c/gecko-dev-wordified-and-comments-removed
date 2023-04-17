@@ -3387,9 +3387,10 @@ dom_missing_prop_counters_enabled
 )
 &
 &
-JSID_IS_ATOM
-(
 id
+.
+isAtom
+(
 )
 )
 {
@@ -4876,9 +4877,10 @@ dom_missing_prop_counters_enabled
 )
 &
 &
-JSID_IS_ATOM
-(
 id
+.
+isAtom
+(
 )
 )
 {
