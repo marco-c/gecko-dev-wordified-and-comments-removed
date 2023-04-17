@@ -4313,7 +4313,6 @@ return
 true
 ;
 }
-else
 if
 (
 charset
@@ -4334,8 +4333,6 @@ return
 false
 ;
 }
-else
-{
 auto
 encoding
 =
@@ -4629,7 +4626,6 @@ outUnicodeLen
 return
 true
 ;
-}
 }
 return
 false
