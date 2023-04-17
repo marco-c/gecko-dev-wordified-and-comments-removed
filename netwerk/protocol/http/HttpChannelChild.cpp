@@ -10870,16 +10870,6 @@ navigationStartTimeStamp
 =
 navigationStartTimeStamp
 ;
-openArgs
-.
-hasNonEmptySandboxingFlag
-(
-)
-=
-GetHasNonEmptySandboxingFlag
-(
-)
-;
 SetEventTarget
 (
 )

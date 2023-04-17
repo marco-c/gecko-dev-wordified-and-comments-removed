@@ -10403,7 +10403,10 @@ nsILoadInfo
 OPENER_POLICY_UNSAFE_NONE
 &
 &
-GetHasNonEmptySandboxingFlag
+mLoadInfo
+-
+>
+GetSandboxFlags
 (
 )
 )

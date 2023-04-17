@@ -754,14 +754,6 @@ getResponseEmbedderPolicy
 )
 ;
 [
-notxpcom
-nostdcall
-]
-attribute
-boolean
-hasNonEmptySandboxingFlag
-;
-[
 noscript
 notxpcom
 nostdcall
