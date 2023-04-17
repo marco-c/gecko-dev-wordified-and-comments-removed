@@ -28,6 +28,15 @@ include
 "
 js
 /
+ErrorReport
+.
+h
+"
+#
+include
+"
+js
+/
 UniquePtr
 .
 h

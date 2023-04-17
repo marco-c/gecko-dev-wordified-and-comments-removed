@@ -25,6 +25,15 @@ include
 "
 js
 /
+ErrorReport
+.
+h
+"
+#
+include
+"
+js
+/
 friend
 /
 ErrorMessages
