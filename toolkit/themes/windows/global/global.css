@@ -747,6 +747,7 @@ dark
 {
 :
 host
+(
 :
 not
 (
@@ -755,6 +756,7 @@ not
 moz
 -
 lwtheme
+)
 )
 :
 root
