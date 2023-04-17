@@ -1799,12 +1799,6 @@ pagehide
 persisted
 )
 {
-this
-.
-didDestroy
-(
-)
-;
 const
 {
 sharedData
@@ -1965,6 +1959,12 @@ destroy
 {
 actors
 }
+)
+;
+this
+.
+didDestroy
+(
 )
 ;
 }

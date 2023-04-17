@@ -1536,6 +1536,10 @@ if
 this
 .
 _watchingDocumentEvent
+&
+&
+!
+onlyLegacy
 )
 {
 this
