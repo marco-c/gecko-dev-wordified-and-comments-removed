@@ -3452,9 +3452,6 @@ withCoopCoep
 browser
 "
 "
-plugin
-"
-"
 ipdlUnitTest
 "
 "

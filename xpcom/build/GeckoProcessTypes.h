@@ -1,5 +1,6 @@
 GECKO_PROCESS_TYPE
 (
+0
 Default
 "
 default
@@ -9,15 +10,7 @@ Self
 )
 GECKO_PROCESS_TYPE
 (
-Plugin
-"
-plugin
-"
-Plugin
-PluginContainer
-)
-GECKO_PROCESS_TYPE
-(
+2
 Content
 "
 tab
@@ -27,6 +20,7 @@ Self
 )
 GECKO_PROCESS_TYPE
 (
+3
 IPDLUnitTest
 "
 ipdlunittest
@@ -36,6 +30,7 @@ PluginContainer
 )
 GECKO_PROCESS_TYPE
 (
+4
 GMPlugin
 "
 gmplugin
@@ -45,6 +40,7 @@ PluginContainer
 )
 GECKO_PROCESS_TYPE
 (
+5
 GPU
 "
 gpu
@@ -54,6 +50,7 @@ Self
 )
 GECKO_PROCESS_TYPE
 (
+6
 VR
 "
 vr
@@ -63,6 +60,7 @@ Self
 )
 GECKO_PROCESS_TYPE
 (
+7
 RDD
 "
 rdd
@@ -72,6 +70,7 @@ Self
 )
 GECKO_PROCESS_TYPE
 (
+8
 Socket
 "
 socket
@@ -81,6 +80,7 @@ Self
 )
 GECKO_PROCESS_TYPE
 (
+9
 RemoteSandboxBroker
 "
 sandboxbroker
@@ -90,6 +90,7 @@ PluginContainer
 )
 GECKO_PROCESS_TYPE
 (
+10
 ForkServer
 "
 forkserver
