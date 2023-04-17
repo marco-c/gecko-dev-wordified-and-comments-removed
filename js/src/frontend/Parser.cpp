@@ -14103,8 +14103,6 @@ FunctionNode
 funNode
 uint32_t
 toStringStart
-FunctionSyntaxKind
-kind
 bool
 tryAnnexB
 )
@@ -14420,8 +14418,6 @@ FunctionNodeType
 funNode
 uint32_t
 toStringStart
-FunctionSyntaxKind
-kind
 bool
 tryAnnexB
 )
@@ -14462,8 +14458,6 @@ FunctionNodeType
 funNode
 uint32_t
 toStringStart
-FunctionSyntaxKind
-kind
 bool
 tryAnnexB
 )
@@ -14478,7 +14472,6 @@ skipLazyInnerFunction
 (
 funNode
 toStringStart
-kind
 tryAnnexB
 )
 ;
@@ -14935,7 +14928,6 @@ skipLazyInnerFunction
 (
 funNode
 toStringStart
-kind
 tryAnnexB
 )
 )
@@ -37930,7 +37922,6 @@ funNode
 synthesizedBodyPos
 .
 begin
-functionSyntaxKind
 false
 )
 )

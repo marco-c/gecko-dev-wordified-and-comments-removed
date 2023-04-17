@@ -3152,8 +3152,6 @@ FunctionNodeType
 funNode
 uint32_t
 toStringStart
-FunctionSyntaxKind
-kind
 bool
 tryAnnexB
 )
@@ -5473,8 +5471,6 @@ FunctionNodeType
 funNode
 uint32_t
 toStringStart
-FunctionSyntaxKind
-kind
 bool
 tryAnnexB
 )
@@ -6121,8 +6117,6 @@ FunctionNodeType
 funNode
 uint32_t
 toStringStart
-FunctionSyntaxKind
-kind
 bool
 tryAnnexB
 )
