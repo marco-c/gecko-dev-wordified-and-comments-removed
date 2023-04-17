@@ -1684,6 +1684,11 @@ JS_CODEGEN_ARM64
 struct
 SpecificRegs
 {
+SpecificRegs
+(
+)
+{
+}
 }
 ;
 #
@@ -1719,6 +1724,11 @@ JS_CODEGEN_MIPS64
 struct
 SpecificRegs
 {
+SpecificRegs
+(
+)
+{
+}
 }
 ;
 #
