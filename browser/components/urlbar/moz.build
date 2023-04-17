@@ -267,17 +267,6 @@ tests
 /
 browser
 -
-proton
-/
-browser
-.
-ini
-"
-"
-tests
-/
-browser
--
 tips
 /
 browser

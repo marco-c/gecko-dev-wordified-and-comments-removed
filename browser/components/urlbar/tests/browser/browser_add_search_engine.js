@@ -52,8 +52,6 @@ urlbar
 tests
 /
 browser
--
-proton
 /
 "
 ;
