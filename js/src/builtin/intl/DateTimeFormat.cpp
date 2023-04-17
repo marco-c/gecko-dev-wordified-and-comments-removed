@@ -1435,7 +1435,7 @@ JSString
 *
 str
 =
-NewStringCopyZ
+NewStringCopy
 <
 CanGC
 >
