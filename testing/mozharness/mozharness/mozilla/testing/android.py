@@ -5,6 +5,8 @@ absolute_import
 import
 datetime
 import
+functools
+import
 glob
 import
 os
@@ -391,11 +393,14 @@ is_emulator
             
 or
 (
+                
 installer_url
 is
 not
 None
+                
 and
+(
 installer_url
 .
 endswith
@@ -405,6 +410,18 @@ endswith
 apk
 "
 )
+or
+installer_url
+.
+endswith
+(
+"
+.
+aab
+"
+)
+)
+            
 )
         
 )
@@ -2880,29 +2897,13 @@ close
 )
     
 def
-install_apk
+_install_android_app_retry
 (
 self
-apk
+app_path
 replace
-=
-False
 )
 :
-        
-"
-"
-"
-        
-Install
-the
-specified
-apk
-.
-        
-"
-"
-"
         
 import
 mozdevice
@@ -2910,6 +2911,57 @@ mozdevice
 try
 :
             
+if
+app_path
+.
+endswith
+(
+"
+.
+aab
+"
+)
+:
+                
+self
+.
+device
+.
+install_app_bundle
+(
+                    
+self
+.
+query_abs_dirs
+(
+)
+[
+"
+abs_bundletool_path
+"
+]
+app_path
+timeout
+=
+120
+                
+)
+                
+self
+.
+device
+.
+run_as_package
+=
+self
+.
+query_package_name
+(
+)
+            
+else
+:
+                
 self
 .
 device
@@ -2922,11 +2974,19 @@ device
 .
 install_app
 (
-apk
+                    
+app_path
 replace
 =
 replace
+timeout
+=
+120
+                
 )
+            
+return
+True
         
 except
 (
@@ -2971,7 +3031,7 @@ s
                 
 %
 (
-apk
+app_path
 self
 .
 device_name
@@ -2985,6 +3045,68 @@ e
 )
             
 )
+            
+return
+False
+    
+def
+install_android_app
+(
+self
+app_path
+replace
+=
+False
+)
+:
+        
+"
+"
+"
+        
+Install
+the
+specified
+app
+.
+        
+"
+"
+"
+        
+app_installed
+=
+self
+.
+_retry
+(
+            
+5
+            
+10
+            
+functools
+.
+partial
+(
+self
+.
+_install_android_app_retry
+app_path
+replace
+)
+            
+"
+Install
+app
+"
+        
+)
+        
+if
+not
+app_installed
+:
             
 self
 .
@@ -3019,7 +3141,7 @@ path
 .
 basename
 (
-apk
+app_path
 )
 )
                 
@@ -3031,7 +3153,7 @@ TBPL_RETRY
 )
     
 def
-uninstall_apk
+uninstall_android_app
 (
 self
 )
@@ -3048,7 +3170,7 @@ associated
 with
 the
 configured
-apk
+app
 if
 it
 is
@@ -3789,7 +3911,7 @@ is
 None
 :
             
-apk_dir
+app_dir
 =
 self
 .
@@ -3802,7 +3924,7 @@ abs_work_dir
             
 self
 .
-apk_path
+app_path
 =
 os
 .
@@ -3810,7 +3932,7 @@ path
 .
 join
 (
-apk_dir
+app_dir
 self
 .
 installer_path
@@ -3835,7 +3957,7 @@ path
 .
 join
 (
-apk_dir
+app_dir
 "
 package
 -
@@ -3859,7 +3981,7 @@ o
 "
 self
 .
-apk_path
+app_path
 ]
             
 self
@@ -3869,7 +3991,7 @@ run_command
 unzip_cmd
 cwd
 =
-apk_dir
+app_dir
 halt_on_failure
 =
 True

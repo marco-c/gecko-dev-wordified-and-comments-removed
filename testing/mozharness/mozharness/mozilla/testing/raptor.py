@@ -4821,7 +4821,7 @@ verifier_verify_adb_installs
         
 self
 .
-install_apk
+install_android_app
 (
 chromeapk
 replace
@@ -6856,7 +6856,7 @@ upload_dir
 )
     
 def
-install_apk
+install_android_app
 (
 self
 apk
@@ -6881,7 +6881,7 @@ Raptor
 self
 )
 .
-install_apk
+install_android_app
 (
 apk
 replace
@@ -7379,7 +7379,7 @@ binary_path
                 
 self
 .
-install_apk
+install_android_app
 (
 self
 .
