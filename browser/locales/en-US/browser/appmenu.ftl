@@ -236,7 +236,7 @@ menu
 -
 button
 -
-closed
+closed2
 =
 .
 tooltiptext
@@ -251,7 +251,7 @@ label
 -
 brand
 -
-shorter
+short
 -
 name
 }
@@ -261,7 +261,7 @@ menu
 -
 button
 -
-opened
+opened2
 =
 .
 tooltiptext
@@ -276,7 +276,7 @@ label
 -
 brand
 -
-shorter
+short
 -
 name
 }
