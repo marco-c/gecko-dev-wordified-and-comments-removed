@@ -2955,6 +2955,13 @@ cpp
 "
 vm
 /
+StencilObject
+.
+cpp
+"
+"
+vm
+/
 StringType
 .
 cpp
