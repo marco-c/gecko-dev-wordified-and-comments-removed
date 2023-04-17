@@ -639,9 +639,6 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
-hasValidUserGestureActivation
-:
-true
 }
 ;
 browsingContext

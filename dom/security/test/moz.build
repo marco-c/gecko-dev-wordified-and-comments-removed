@@ -177,13 +177,4 @@ browser
 .
 ini
 "
-"
-sec
--
-fetch
-/
-browser
-.
-ini
-"
 ]
