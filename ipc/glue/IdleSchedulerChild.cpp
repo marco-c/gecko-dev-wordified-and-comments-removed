@@ -67,8 +67,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 static
@@ -700,6 +700,5 @@ sMainThreadIdleScheduler
 return
 sMainThreadIdleScheduler
 ;
-}
 }
 }

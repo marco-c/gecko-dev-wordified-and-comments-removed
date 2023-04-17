@@ -75,8 +75,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 base
@@ -1905,6 +1905,5 @@ NS_RELEASE
 sStarvationPreventer
 )
 ;
-}
 }
 }
