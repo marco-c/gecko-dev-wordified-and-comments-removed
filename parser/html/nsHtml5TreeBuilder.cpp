@@ -3423,13 +3423,9 @@ mViewSource
 )
 )
 {
-errUnclosedElements
+errListUnclosedStartTags
 (
-eltPos
-nsGkAtoms
-:
-:
-_template
+0
 )
 ;
 }

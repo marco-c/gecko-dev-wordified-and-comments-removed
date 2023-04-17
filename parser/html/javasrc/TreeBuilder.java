@@ -5067,12 +5067,9 @@ errorHandler
 null
 )
 {
-errUnclosedElements
+errListUnclosedStartTags
 (
-eltPos
-"
-template
-"
+0
 )
 ;
 }
