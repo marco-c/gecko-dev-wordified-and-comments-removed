@@ -11,6 +11,8 @@ sys
 import
 subprocess
 import
+urllib
+import
 html5lib
 import
 py
@@ -20,12 +22,6 @@ from
 six
 import
 text_type
-from
-six
-.
-moves
-import
-urllib
 from
 wptserver
 import

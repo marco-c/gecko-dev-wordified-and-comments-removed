@@ -18,10 +18,6 @@ six
 import
 PY3
 from
-six
-.
-moves
-.
 urllib
 .
 parse

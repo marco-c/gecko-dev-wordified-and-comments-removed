@@ -1,11 +1,9 @@
 from
-six
-.
-moves
-.
 urllib
-import
+.
 parse
+import
+unquote
 from
 wptserve
 .
@@ -34,8 +32,6 @@ Cookie
 '
 isomorphic_encode
 (
-parse
-.
 unquote
 (
 request

@@ -3,10 +3,6 @@ six
 import
 integer_types
 from
-six
-.
-moves
-.
 urllib
 .
 parse

@@ -14,10 +14,6 @@ tests
 "
 "
 from
-six
-.
-moves
-.
 urllib
 .
 parse

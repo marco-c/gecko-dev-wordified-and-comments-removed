@@ -1,11 +1,5 @@
 import
 time
-from
-six
-.
-moves
-import
-range
 def
 main
 (

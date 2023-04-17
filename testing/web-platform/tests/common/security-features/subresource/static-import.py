@@ -2,10 +2,6 @@ import
 os
 sys
 from
-six
-.
-moves
-.
 urllib
 .
 parse

@@ -15,10 +15,6 @@ six
 import
 string_types
 from
-six
-.
-moves
-.
 urllib
 .
 parse

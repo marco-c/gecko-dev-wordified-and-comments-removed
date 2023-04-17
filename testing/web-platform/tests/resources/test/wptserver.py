@@ -8,10 +8,6 @@ import
 time
 import
 sys
-from
-six
-.
-moves
 import
 urllib
 class

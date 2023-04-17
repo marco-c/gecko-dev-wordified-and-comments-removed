@@ -5,10 +5,6 @@ resources
 import
 helpers
 from
-six
-.
-moves
-.
 urllib
 .
 parse

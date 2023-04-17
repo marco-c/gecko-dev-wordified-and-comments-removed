@@ -7,11 +7,9 @@ six
 import
 text_type
 from
-six
+http
 .
-moves
-.
-http_client
+client
 import
 HTTPConnection
 class

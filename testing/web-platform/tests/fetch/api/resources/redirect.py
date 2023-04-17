@@ -1,10 +1,6 @@
 import
 time
 from
-six
-.
-moves
-.
 urllib
 .
 parse

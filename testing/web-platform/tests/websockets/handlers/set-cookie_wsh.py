@@ -1,7 +1,3 @@
-from
-six
-.
-moves
 import
 urllib
 def

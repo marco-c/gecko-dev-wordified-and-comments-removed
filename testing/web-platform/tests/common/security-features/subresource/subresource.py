@@ -2,10 +2,6 @@ import
 os
 json
 from
-six
-.
-moves
-.
 urllib
 .
 parse
