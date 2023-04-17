@@ -312,3 +312,6 @@ stack
 first
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True
