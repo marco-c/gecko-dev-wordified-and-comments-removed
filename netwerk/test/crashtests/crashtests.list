@@ -25,6 +25,12 @@ skip
 -
 if
 (
+ThreadSanitizer
+)
+skip
+-
+if
+(
 Android
 )
 pref

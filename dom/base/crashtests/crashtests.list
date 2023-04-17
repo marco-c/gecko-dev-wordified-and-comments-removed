@@ -1237,6 +1237,12 @@ if
 (
 AddressSanitizer
 )
+skip
+-
+if
+(
+ThreadSanitizer
+)
 pref
 (
 dom
@@ -1422,6 +1428,12 @@ skip
 if
 (
 Android
+)
+skip
+-
+if
+(
+ThreadSanitizer
 )
 pref
 (

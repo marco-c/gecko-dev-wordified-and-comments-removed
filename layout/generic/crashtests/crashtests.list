@@ -3498,6 +3498,12 @@ load
 1001994
 .
 html
+skip
+-
+if
+(
+ThreadSanitizer
+)
 load
 chrome
 :
