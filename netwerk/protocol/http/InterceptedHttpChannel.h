@@ -154,6 +154,17 @@ mFinishResponseStart
 TimeStamp
 mFinishResponseEnd
 ;
+TimeStamp
+mInterceptedChannelCreationTimestamp
+;
+#
+ifdef
+MOZ_GECKO_PROFILER
+TimeStamp
+mLastStatusReported
+;
+#
+endif
 Atomic
 <
 int64_t
