@@ -3575,6 +3575,12 @@ if
 this
 .
 _uriHasHost
+&
+&
+!
+this
+.
+_pageExtensionPolicy
 )
 {
 SiteDataManager
