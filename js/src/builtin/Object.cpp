@@ -11354,7 +11354,7 @@ eval
 )
 )
 ;
-JSObject
+JSFunction
 *
 evalobj
 =
