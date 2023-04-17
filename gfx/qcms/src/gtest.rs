@@ -3822,7 +3822,10 @@ self
 .
 ProduceVerifyOutput
 (
+Some
+(
 qcms_transform_data_rgb_out_lut_neon
+)
 )
 )
 }
@@ -3855,7 +3858,10 @@ self
 .
 ProduceVerifyOutput
 (
+Some
+(
 qcms_transform_data_rgb_out_lut_neon
+)
 )
 )
 }
