@@ -521,15 +521,6 @@ bool
 enableWasmOptimizing
 ;
 #
-ifdef
-JS_CODEGEN_ARM64
-extern
-bool
-forceWasmIon
-;
-#
-endif
-#
 define
 WASM_FEATURE
 (

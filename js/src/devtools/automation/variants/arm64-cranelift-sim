@@ -20,6 +20,11 @@ enable
 rust
 -
 simd
+-
+-
+enable
+-
+cranelift
 "
 "
 optimize
