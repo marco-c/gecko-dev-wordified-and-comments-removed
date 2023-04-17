@@ -832,6 +832,18 @@ cache_name
 sparse
 "
     
+if
+is_docker
+:
+        
+cache_name
++
+=
+"
+-
+hg58
+"
+    
 add_cache
 (
 job

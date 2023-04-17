@@ -54,6 +54,14 @@ apt_packages
 =
 (
 '
+python2
+'
+)
+apt_packages
++
+=
+(
+'
 python3
 -
 pip
