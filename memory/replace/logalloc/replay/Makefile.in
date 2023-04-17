@@ -54,13 +54,10 @@ MPL
 /
 .
 ifdef
-FUZZING
-ifdef
 MOZ_CODE_COVERAGE
 SKIP
 =
 1
-endif
 endif
 ifdef
 CROSS_COMPILE
