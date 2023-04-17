@@ -879,6 +879,9 @@ minimize_recs_click
 "
 cta_seen
 "
+"
+rec_saved
+"
 ]
 release_channel_collection
 :
@@ -926,12 +929,12 @@ expiry_version
 never
 extra_keys
 :
-url
+logged_in
 :
-URL
-associated
-with
-click
+Pocket
+user
+login
+status
 .
 products
 :
