@@ -59,18 +59,6 @@ logging
 basicConfig
 (
 )
-wptserve
-.
-logger
-.
-set_logger
-(
-logging
-.
-getLogger
-(
-)
-)
 here
 =
 os
@@ -283,7 +271,6 @@ server
 .
 start
 (
-False
 )
     
 def
@@ -641,7 +628,6 @@ server
 .
 start
 (
-False
 )
         
 context
