@@ -1132,9 +1132,6 @@ UnionExpr
 aInExpr
 )
 ;
-nsresult
-rv
-;
 uint32_t
 current
 ;
@@ -1328,8 +1325,6 @@ new
 txUnionNodeTest
 )
 ;
-rv
-=
 unionTest
 -
 >
@@ -1341,12 +1336,6 @@ currentStep
 getNodeTest
 (
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 currentStep
@@ -1367,8 +1356,6 @@ release
 )
 ;
 }
-rv
-=
 unionTest
 -
 >
@@ -1380,12 +1367,6 @@ step
 getNodeTest
 (
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 step
