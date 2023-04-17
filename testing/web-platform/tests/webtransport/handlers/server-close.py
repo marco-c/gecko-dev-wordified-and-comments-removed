@@ -79,6 +79,15 @@ b
 code
 '
 ]
+if
+b
+'
+code
+'
+in
+qs
+else
+None
     
 reason
 =
@@ -89,7 +98,14 @@ b
 reason
 '
 ]
-or
+if
+b
+'
+reason
+'
+in
+qs
+else
 b
 '
 '
