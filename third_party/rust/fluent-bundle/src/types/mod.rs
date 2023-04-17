@@ -653,8 +653,6 @@ Borrow
 FluentResource
 >
 M
-:
-MemoizerKind
 >
 (
 &
@@ -675,6 +673,10 @@ M
 -
 >
 bool
+where
+M
+:
+MemoizerKind
 {
 match
 (
@@ -1070,8 +1072,6 @@ Borrow
 FluentResource
 >
 M
-:
-MemoizerKind
 >
 (
 &
@@ -1093,6 +1093,10 @@ Cow
 source
 str
 >
+where
+M
+:
+MemoizerKind
 {
 if
 let

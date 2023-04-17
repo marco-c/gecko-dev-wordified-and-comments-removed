@@ -1102,8 +1102,10 @@ reserve
 message
 .
 attributes
+(
+)
 .
-len
+count
 (
 )
 )
@@ -1114,6 +1116,8 @@ has_value
 message
 .
 value
+(
+)
 .
 is_some
 (
@@ -1125,6 +1129,8 @@ in
 message
 .
 attributes
+(
+)
 {
 attrs
 .
@@ -1133,6 +1139,8 @@ push
 attr
 .
 id
+(
+)
 .
 into
 (
@@ -1282,6 +1290,8 @@ attr
 attr
 .
 value
+(
+)
 None
 =
 >
@@ -1295,6 +1305,8 @@ match
 message
 .
 value
+(
+)
 {
 Some
 (
@@ -1613,7 +1625,7 @@ to_string
 ;
 args
 .
-add
+set
 (
 id
 .
