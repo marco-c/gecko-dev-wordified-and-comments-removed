@@ -217,7 +217,7 @@ result
 JS
 :
 :
-AutoCheckCannotGC
+AutoSuppressGCAnalysis
 nogc
 ;
 if
@@ -345,7 +345,7 @@ result
 JS
 :
 :
-AutoCheckCannotGC
+AutoSuppressGCAnalysis
 nogc
 ;
 if
@@ -473,7 +473,7 @@ result
 JS
 :
 :
-AutoCheckCannotGC
+AutoSuppressGCAnalysis
 nogc
 ;
 if
