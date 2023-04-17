@@ -87,7 +87,8 @@ config
 }
 if
 (
-false
+!
+moz_webrtc_build
 )
 {
 absl_source_set

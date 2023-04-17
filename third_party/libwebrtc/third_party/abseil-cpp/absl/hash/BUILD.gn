@@ -61,6 +61,12 @@ absl
 gni
 "
 )
+if
+(
+!
+moz_webrtc_build
+)
+{
 absl_source_set
 (
 "
@@ -235,11 +241,6 @@ utility
 "
 ]
 }
-if
-(
-false
-)
-{
 absl_source_set
 (
 "
@@ -319,7 +320,6 @@ googletest
 gtest
 "
 ]
-}
 }
 absl_source_set
 (
@@ -474,4 +474,5 @@ base
 endian
 "
 ]
+}
 }
