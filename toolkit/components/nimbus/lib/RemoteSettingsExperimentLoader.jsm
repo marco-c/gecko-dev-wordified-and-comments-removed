@@ -859,6 +859,16 @@ this
 studiesEnabled
 )
 {
+ExperimentManager
+.
+store
+.
+finalizeRemoteConfigs
+(
+[
+]
+)
+;
 return
 ;
 }
