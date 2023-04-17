@@ -415,6 +415,7 @@ self
 decomp
 }
 pub
+const
 fn
 last_status
 (

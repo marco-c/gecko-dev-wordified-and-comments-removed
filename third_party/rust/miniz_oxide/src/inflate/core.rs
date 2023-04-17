@@ -88,6 +88,7 @@ MAX_HUFF_TREE_SIZE
 impl
 HuffmanTable
 {
+const
 fn
 new
 (
