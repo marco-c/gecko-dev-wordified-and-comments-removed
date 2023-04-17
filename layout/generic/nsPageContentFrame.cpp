@@ -1727,7 +1727,7 @@ Clear
 ;
 clipState
 .
-ClipContainingBlockDescendants
+ClipContentDescendants
 (
 clipRect
 )
