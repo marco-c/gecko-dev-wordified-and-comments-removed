@@ -4473,6 +4473,9 @@ RttSub
 )
 :
 {
+uint32_t
+unusedRttTypeIndex
+;
 CHECK
 (
 iter
@@ -4481,6 +4484,8 @@ readRttSub
 (
 &
 nothing
+&
+unusedRttTypeIndex
 )
 )
 ;

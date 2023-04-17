@@ -1265,7 +1265,10 @@ Instance
 instance
 void
 *
-rttPtr
+rttParentPtr
+void
+*
+rttSubCanonPtr
 )
 ;
 }
