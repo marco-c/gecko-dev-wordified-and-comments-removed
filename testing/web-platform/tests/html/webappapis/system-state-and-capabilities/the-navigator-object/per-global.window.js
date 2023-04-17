@@ -1,0 +1,14 @@
+testIsPerWindow
+(
+"
+navigator
+"
+)
+;
+testIsPerWindow
+(
+"
+clientInformation
+"
+)
+;
