@@ -625,9 +625,9 @@ const
 EditorDOMPoint
 &
 aDroppedAt
-Document
+nsIPrincipal
 *
-aSrcDocument
+aSourcePrincipal
 )
 {
 MOZ_ASSERT
@@ -845,7 +845,7 @@ InsertFromDataTransfer
 &
 aDataTransfer
 i
-aSrcDocument
+aSourcePrincipal
 aDroppedAt
 false
 )
@@ -9559,9 +9559,9 @@ DataTransfer
 aDataTransfer
 uint32_t
 aIndex
-Document
+nsIPrincipal
 *
-aSourceDoc
+aSourcePrincipal
 const
 EditorDOMPoint
 &
@@ -9726,7 +9726,7 @@ isSafe
 =
 IsSafeToInsertData
 (
-aSourceDoc
+aSourcePrincipal
 )
 ;
 uint32_t

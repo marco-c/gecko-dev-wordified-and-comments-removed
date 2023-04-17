@@ -5375,10 +5375,9 @@ aDoDeleteSelection
 bool
 IsSafeToInsertData
 (
-const
-Document
+nsIPrincipal
 *
-aSourceDoc
+aSourcePrincipal
 )
 const
 ;
@@ -5997,12 +5996,9 @@ const
 EditorDOMPoint
 &
 aDroppedAt
-dom
-:
-:
-Document
+nsIPrincipal
 *
-aSrcDocument
+aSourcePrincipal
 )
 =
 0
