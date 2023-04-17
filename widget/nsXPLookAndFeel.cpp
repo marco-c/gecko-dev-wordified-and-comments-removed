@@ -1046,6 +1046,11 @@ ui
 .
 textScaleFactor
 "
+"
+ui
+.
+titlebarRadius
+"
 }
 ;
 static_assert

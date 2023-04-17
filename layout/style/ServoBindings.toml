@@ -555,6 +555,12 @@ mozilla
 LookAndFeel_IntID
 "
 "
+mozilla
+:
+:
+LookAndFeel_FloatID
+"
+"
 nsCSSUnit
 "
 "

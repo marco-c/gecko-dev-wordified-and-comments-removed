@@ -308,6 +308,7 @@ IMEUnderlineRelativeSize
 SpellCheckerUnderlineRelativeSize
 CaretAspectRatio
 TextScaleFactor
+TitlebarRadius
 End
 }
 ;
