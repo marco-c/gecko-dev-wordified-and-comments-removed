@@ -138,6 +138,10 @@ toolchains
 .
 yml
 -
+updatebot
+.
+yml
+-
 visual
 -
 metrics
