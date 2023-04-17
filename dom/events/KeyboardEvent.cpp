@@ -1740,14 +1740,10 @@ GetDocument
 )
 ;
 return
-doc
-&
-&
-!
 nsContentUtils
 :
 :
-IsChromeDoc
+ShouldResistFingerprinting
 (
 doc
 )
