@@ -3,6 +3,12 @@ use
 strict
 "
 ;
+var
+EXPORTED_SYMBOLS
+=
+[
+]
+;
 const
 {
 XPCOMUtils
