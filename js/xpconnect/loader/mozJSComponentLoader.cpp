@@ -4296,7 +4296,6 @@ WriteCachedStencil
 cache
 cachePath
 cx
-options
 stencil
 )
 ;

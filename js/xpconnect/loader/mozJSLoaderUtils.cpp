@@ -268,13 +268,6 @@ uri
 JSContext
 *
 cx
-const
-JS
-:
-:
-ReadOnlyCompileOptions
-&
-options
 JS
 :
 :
@@ -301,7 +294,6 @@ JS
 EncodeStencil
 (
 cx
-options
 stencil
 buffer
 )

@@ -1139,7 +1139,6 @@ GetSingleton
 )
 cachePath
 cx
-options
 stencil
 )
 ;
