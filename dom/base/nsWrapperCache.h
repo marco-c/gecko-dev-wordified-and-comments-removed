@@ -162,6 +162,7 @@ bit
 #
 endif
 class
+JS_HAZ_ROOTED
 nsWrapperCache
 {
 public
