@@ -131,6 +131,11 @@ IntProperty
 "
 threadId
 "
+static_cast
+<
+int64_t
+>
+(
 aOperationThreadId
 .
 ThreadId
@@ -139,6 +144,7 @@ ThreadId
 .
 ToNumber
 (
+)
 )
 )
 ;

@@ -329,12 +329,14 @@ Verbose
 "
 [
 %
-d
+"
+PRIu64
+"
 ]
 %
 s
 "
-int
+uint64_t
 (
 profiler_current_process_id
 (

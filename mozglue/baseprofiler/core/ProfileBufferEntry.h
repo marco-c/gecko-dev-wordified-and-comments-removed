@@ -208,6 +208,14 @@ int
 aInt
 )
 ;
+ProfileBufferEntry
+(
+Kind
+aKind
+BaseProfilerThreadId
+aThreadId
+)
+;
 public
 :
 #
@@ -372,6 +380,12 @@ const
 ;
 uint64_t
 GetUint64
+(
+)
+const
+;
+BaseProfilerThreadId
+GetThreadId
 (
 )
 const

@@ -192,10 +192,6 @@ ProfileBufferEntry
 ThreadId
 (
 aThreadId
-.
-ToNumber
-(
-)
 )
 )
 ;

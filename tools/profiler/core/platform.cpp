@@ -6649,7 +6649,9 @@ thread
 id
 :
 %
-d
+"
+PRIu64
+"
 size
 :
 %
@@ -6657,7 +6659,7 @@ u
 \
 n
 "
-int
+uint64_t
 (
 profiler_current_thread_id
 (
@@ -24347,7 +24349,9 @@ s
 -
 thread
 %
-d
+"
+PRIu64
+"
 already
 registered
 as
@@ -24355,7 +24359,7 @@ as
 s
 "
 aName
-int
+uint64_t
 (
 profiler_current_thread_id
 (
@@ -24764,11 +24768,13 @@ profiler_unregister_thread
 -
 thread
 %
-d
+"
+PRIu64
+"
 already
 unregistered
 "
-int
+uint64_t
 (
 profiler_current_thread_id
 (
