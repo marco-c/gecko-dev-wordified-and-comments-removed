@@ -619,6 +619,9 @@ false
 resumption_token_
 (
 )
+policy_
+(
+)
 {
 memset
 (
@@ -1408,6 +1411,12 @@ ssl_fd_
 return
 true
 ;
+NssManagePolicy
+policyManage
+(
+policy_
+)
+;
 ScopedPRFileDesc
 dummy_fd
 (
@@ -1918,9 +1927,7 @@ EXPECT_EQ
 SECSuccess
 SSL_SetAntiReplayContext
 (
-ssl_fd_
-.
-get
+ssl_fd
 (
 )
 ctx
@@ -4950,9 +4957,7 @@ rv
 =
 SSL_GetPreliminaryChannelInfo
 (
-ssl_fd_
-.
-get
+ssl_fd
 (
 )
 &

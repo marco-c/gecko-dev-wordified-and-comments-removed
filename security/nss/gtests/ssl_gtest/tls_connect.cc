@@ -2440,6 +2440,10 @@ server_model_
 ssl_fd
 (
 )
+.
+get
+(
+)
 :
 nullptr
 )
@@ -2458,6 +2462,10 @@ client_model_
 -
 >
 ssl_fd
+(
+)
+.
+get
 (
 )
 :
