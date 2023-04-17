@@ -946,7 +946,7 @@ dq
 cextern
 mc_subpel_filters
 cextern
-mc_warp_filter
+mc_warp_filter2
 cextern
 resize_filter
 %
@@ -23083,7 +23083,7 @@ m11
 lea
 filterq
 [
-mc_warp_filter
+mc_warp_filter2
 ]
 lea
 tmp1q

@@ -497,6 +497,14 @@ frame_size_limit
 int
 drain
 ;
+enum
+PictureFlags
+frame_flags
+;
+enum
+Dav1dEventFlags
+event_flags
+;
 Dav1dLogger
 logger
 ;
