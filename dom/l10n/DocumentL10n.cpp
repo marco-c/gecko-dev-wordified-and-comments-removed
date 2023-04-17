@@ -1470,6 +1470,10 @@ InitialTranslationCompleted
 (
 )
 ;
+mContentSink
+=
+nullptr
+;
 }
 SetAsync
 (
