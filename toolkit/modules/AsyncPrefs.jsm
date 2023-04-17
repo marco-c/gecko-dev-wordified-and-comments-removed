@@ -222,7 +222,7 @@ renderer
 "
 pdfjs
 .
-renderInteractiveForms
+annotationMode
 "
 "
 pdfjs
