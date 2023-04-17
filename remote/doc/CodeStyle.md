@@ -28,8 +28,8 @@ code
 For
 the
 overall
-remote
-agent
+Remote
+Agent
 project
 a
 few
@@ -340,8 +340,8 @@ Linting
 -
 -
 The
-remote
-agent
+Remote
+Agent
 consists
 mostly
 of

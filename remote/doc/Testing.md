@@ -7,8 +7,8 @@ Testing
 =
 =
 The
-remote
-agent
+Remote
+Agent
 has
 unit
 -
@@ -349,8 +349,8 @@ writing
 tests
 against
 the
-remote
-agent
+Remote
+Agent
 and
 the
 targets

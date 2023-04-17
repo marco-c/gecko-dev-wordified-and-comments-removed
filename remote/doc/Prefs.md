@@ -19,8 +19,8 @@ preferences
 associated
 with
 the
-remote
-agent
+Remote
+Agent
 :
 Configurable
 preferences
@@ -58,8 +58,8 @@ force
 local
 Limits
 the
-remote
-agent
+Remote
+Agent
 to
 be
 allowed

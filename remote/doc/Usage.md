@@ -10,8 +10,8 @@ the
 CDP
 -
 based
-remote
-agent
+Remote
+Agent
 in
 Firefox
 there
@@ -95,8 +95,8 @@ Since
 Firefox
 86
 the
-remote
-agent
+Remote
+Agent
 ships
 in
 all
@@ -113,8 +113,8 @@ Firefox
 binary
 has
 the
-remote
-agent
+Remote
+Agent
 enabled
 you
 can
@@ -147,8 +147,8 @@ port
 Start
 the
 Firefox
-remote
-agent
+Remote
+Agent
 which
 is
 a
@@ -174,8 +174,8 @@ localhost
 When
 used
 the
-remote
-agent
+Remote
+Agent
 will
 start
 an
@@ -257,8 +257,8 @@ this
 to
 instruct
 the
-remote
-agent
+Remote
+Agent
 to
 bind
 to
@@ -343,8 +343,8 @@ When
 you
 ask
 the
-remote
-agent
+Remote
+Agent
 to
 listen
 on

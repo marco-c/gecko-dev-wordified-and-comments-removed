@@ -182,8 +182,8 @@ events
 produced
 by
 the
-remote
-agent
+Remote
+Agent
 you
 can
 use

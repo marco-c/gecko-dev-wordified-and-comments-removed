@@ -1,5 +1,5 @@
 Remote
-agent
+Agent
 overall
 architecture
 =
@@ -1539,8 +1539,8 @@ in
 different
 contexts
 the
-remote
-agent
+Remote
+Agent
 code
 runs
 in
@@ -1555,7 +1555,7 @@ code
 of
 the
 Remote
-agent
+Agent
 code
 runs
 in
