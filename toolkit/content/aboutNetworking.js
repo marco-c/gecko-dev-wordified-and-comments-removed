@@ -3766,7 +3766,7 @@ record
 .
 ODoHConfig
 ?
-ODoHConfig
+odoh
 =
 "
 {
