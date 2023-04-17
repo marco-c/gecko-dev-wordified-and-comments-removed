@@ -85,16 +85,12 @@ aValue
 )
 const
 ;
-Result
-<
 Maybe
 <
 nsTArray
 <
 nsCString
 >
->
-nsCString
 >
 TestGetValue
 (
