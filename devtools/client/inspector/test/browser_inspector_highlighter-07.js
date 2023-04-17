@@ -498,14 +498,12 @@ checks
 )
 ;
 await
-testActor
-.
 isNodeCorrectlyHighlighted
 (
+testActor
 "
 iframe
 "
-is
 )
 ;
 }

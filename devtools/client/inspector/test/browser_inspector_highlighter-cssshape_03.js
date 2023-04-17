@@ -77,14 +77,12 @@ helper
 await
 testGeometryBox
 (
-testActor
 helper
 )
 ;
 await
 testStrokeBox
 (
-testActor
 helper
 )
 ;
@@ -128,9 +126,7 @@ const
 quads
 =
 await
-testActor
-.
-getAllAdjustedQuads
+getAllAdjustedQuadsForContentPageElement
 (
 "
 #
@@ -286,7 +282,6 @@ async
 function
 testGeometryBox
 (
-testActor
 helper
 )
 {
@@ -312,9 +307,7 @@ let
 quads
 =
 await
-testActor
-.
-getAllAdjustedQuads
+getAllAdjustedQuadsForContentPageElement
 (
 "
 #
@@ -441,9 +434,7 @@ cssClipPath
 quads
 =
 await
-testActor
-.
-getAllAdjustedQuads
+getAllAdjustedQuadsForContentPageElement
 (
 "
 #
@@ -552,7 +543,6 @@ async
 function
 testStrokeBox
 (
-testActor
 helper
 )
 {
@@ -578,9 +568,7 @@ const
 quads
 =
 await
-testActor
-.
-getAllAdjustedQuads
+getAllAdjustedQuadsForContentPageElement
 (
 "
 #
