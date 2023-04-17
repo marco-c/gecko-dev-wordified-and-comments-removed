@@ -2692,7 +2692,7 @@ useBox
 ins
 -
 >
-getValue
+value
 (
 )
 )
@@ -2701,7 +2701,7 @@ useRegister
 ins
 -
 >
-getObject
+object
 (
 )
 )
