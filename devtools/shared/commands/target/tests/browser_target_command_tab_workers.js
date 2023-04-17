@@ -988,11 +988,8 @@ targets
 .
 length
 ;
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;

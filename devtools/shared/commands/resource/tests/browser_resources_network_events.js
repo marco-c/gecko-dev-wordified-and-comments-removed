@@ -1221,11 +1221,7 @@ then
 )
 =
 >
-tab
-.
-linkedBrowser
-.
-reload
+reloadBrowser
 (
 )
 )
