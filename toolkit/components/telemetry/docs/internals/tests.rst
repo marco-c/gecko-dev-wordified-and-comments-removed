@@ -140,7 +140,7 @@ Projects
 /
 Mochitest
 >
-_
+__
 )
 This
 test
@@ -461,7 +461,7 @@ unittest
 .
 html
 >
-_
+__
 pytest
 <
 https
@@ -602,6 +602,17 @@ integration
 -
 tests
 .
+More
+info
+:
+:
+doc
+:
+.
+/
+integration_tests
+/
+index
 Definitions
 Files
 Tests
@@ -665,7 +676,7 @@ unittest
 .
 html
 >
-_
+__
 )
 This
 harness
@@ -788,7 +799,7 @@ Writing_xpcshell
 -
 based_unit_tests
 >
-_
+__
 )
 This
 test
@@ -981,7 +992,7 @@ Writing_xpcshell
 -
 based_unit_tests
 >
-_
+__
 or
 mochitest
 <
@@ -1007,7 +1018,7 @@ Projects
 /
 Mochitest
 >
-_
+__
 )
 In
 addition
