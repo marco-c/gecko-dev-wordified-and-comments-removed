@@ -4112,9 +4112,6 @@ if
 !
 *
 ppv
-&
-&
-localAcc
 )
 {
 HRESULT
