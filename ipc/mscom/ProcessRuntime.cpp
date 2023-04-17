@@ -68,17 +68,6 @@ mozilla
 /
 mscom
 /
-COMWrappers
-.
-h
-"
-#
-include
-"
-mozilla
-/
-mscom
-/
 ProcessRuntimeShared
 .
 h
@@ -1156,7 +1145,6 @@ globalOpts
 ;
 mInitResult
 =
-wrapped
 :
 :
 CoCreateInstance
@@ -2029,7 +2017,6 @@ GetLastError
 ;
 }
 return
-wrapped
 :
 :
 CoInitializeSecurity

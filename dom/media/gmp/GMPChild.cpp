@@ -1135,12 +1135,6 @@ dll
 "
 u
 "
-ole32
-.
-dll
-"
-u
-"
 psapi
 .
 dll

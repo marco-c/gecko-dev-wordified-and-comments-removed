@@ -20,14 +20,6 @@ cpp
 .
 .
 /
-COMWrappers
-.
-cpp
-"
-"
-.
-.
-/
 Objref
 .
 cpp

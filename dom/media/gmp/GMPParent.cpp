@@ -4911,9 +4911,6 @@ mLibs
 dxva2
 .
 dll
-ole32
-.
-dll
 psapi
 .
 dll
@@ -4957,9 +4954,6 @@ mLibs
 =
 "
 dxva2
-.
-dll
-ole32
 .
 dll
 "
