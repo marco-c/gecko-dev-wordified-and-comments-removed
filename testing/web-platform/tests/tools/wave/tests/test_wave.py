@@ -70,9 +70,7 @@ bind
 )
     
 except
-socket
-.
-error
+OSError
 as
 e
 :

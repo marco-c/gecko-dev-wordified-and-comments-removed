@@ -276,9 +276,7 @@ bind
 )
         
 except
-socket
-.
-error
+OSError
 :
             
 continue

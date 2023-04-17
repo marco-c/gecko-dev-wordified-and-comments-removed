@@ -1421,9 +1421,7 @@ if
 isinstance
 (
 error
-socket
-.
-error
+OSError
 )
 and
              
@@ -2700,14 +2698,7 @@ stream_id
 ]
         
 except
-(
-socket
-.
-timeout
-socket
-.
-error
-)
+OSError
 as
 e
 :
@@ -4541,9 +4532,7 @@ readline
 )
         
 except
-socket
-.
-error
+OSError
 :
             
 self
