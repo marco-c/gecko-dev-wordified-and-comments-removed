@@ -9242,23 +9242,13 @@ target_dir
 =
 mozpath
 .
-join
+normpath
 (
 backend_file
 .
-objdir
-libdef
+environment
 .
-target_dir
-)
-        
-target_dir
-=
-mozpath
-.
-normpath
-(
-target_dir
+topobjdir
 )
         
 backend_file
