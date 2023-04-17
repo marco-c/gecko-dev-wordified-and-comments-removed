@@ -105,6 +105,11 @@ documentation
 :
 doc
 :
+awsy
+*
+:
+doc
+:
 mozperftest
 *
 :
