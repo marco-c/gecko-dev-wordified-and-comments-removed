@@ -120,7 +120,7 @@ monitor
 .
 tar
 .
-xz
+zst
 linux64
 -
 resource

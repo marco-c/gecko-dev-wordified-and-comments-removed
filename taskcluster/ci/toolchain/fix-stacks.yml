@@ -164,7 +164,7 @@ stacks
 .
 tar
 .
-xz
+zst
 fetches
 :
 toolchain
@@ -238,7 +238,7 @@ stacks
 .
 tar
 .
-xz
+zst
 fetches
 :
 toolchain
@@ -324,7 +324,7 @@ stacks
 .
 tar
 .
-xz
+zst
 fetches
 :
 toolchain
@@ -431,7 +431,7 @@ stacks
 .
 tar
 .
-bz2
+zst
 resources
 :
 -

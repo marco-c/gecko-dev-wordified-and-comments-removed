@@ -135,7 +135,7 @@ upx
 .
 tar
 .
-xz
+zst
 upx
 mkdir
 -

@@ -727,14 +727,14 @@ mkdir
 p
 UPLOAD_DIR
 tar
-cJf
+caf
 UPLOAD_DIR
 /
 cctools
 .
 tar
 .
-xz
+zst
 -
 C
 CROSSTOOLS_BUILD_DIR

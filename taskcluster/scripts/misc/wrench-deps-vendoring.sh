@@ -238,7 +238,7 @@ deps
 .
 tar
 .
-bz2
+zst
 wrench
 -
 deps

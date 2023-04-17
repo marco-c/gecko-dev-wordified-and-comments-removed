@@ -32,6 +32,9 @@ TARGET
 "
 1
 "
+COMPRESS_EXT
+=
+zst
 case
 "
 TARGET
@@ -47,9 +50,6 @@ gnu
 )
 EXE
 =
-COMPRESS_EXT
-=
-xz
 #
 {
 CC
@@ -180,9 +180,6 @@ Linux
 .
 EXE
 =
-COMPRESS_EXT
-=
-xz
 #
 {
 CC
@@ -356,9 +353,6 @@ EXE
 =
 .
 exe
-COMPRESS_EXT
-=
-bz2
 #
 Some
 magic
