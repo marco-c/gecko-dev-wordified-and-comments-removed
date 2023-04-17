@@ -26,6 +26,9 @@ nsIChannelEventSink
 h
 "
 class
+nsILoadInfo
+;
+class
 nsIStreamListener
 ;
 #
@@ -120,11 +123,12 @@ static
 void
 MeasureUnexpectedPrivilegedLoads
 (
+nsILoadInfo
+*
+aLoadInfo
 nsIURI
 *
 aFinalURI
-ExtContentPolicyType
-aContentPolicyType
 const
 nsACString
 &
