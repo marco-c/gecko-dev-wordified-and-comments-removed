@@ -930,6 +930,15 @@ gfx_webrender_enable_gpu_markers_AtStartup
 panic_on_gl_error
 picTileWidth
 picTileHeight
+gfx
+:
+:
+gfxVars
+:
+:
+WebRenderRequiresHardwareDriver
+(
+)
 )
 )
 {
