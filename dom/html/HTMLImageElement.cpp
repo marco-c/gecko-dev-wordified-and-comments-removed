@@ -3410,11 +3410,11 @@ density
 )
 ;
 resolution
-=
-{
+.
+ScaleBy
+(
 density
-density
-}
+)
 ;
 }
 resolution
