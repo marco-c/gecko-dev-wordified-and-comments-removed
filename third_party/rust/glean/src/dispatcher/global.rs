@@ -210,6 +210,14 @@ fn
 block_on_queue
 (
 )
+-
+>
+Result
+<
+(
+)
+DispatchError
+>
 {
 guard
 (
@@ -218,7 +226,6 @@ guard
 block_on_queue
 (
 )
-;
 }
 pub
 fn
@@ -645,6 +652,10 @@ push
 block_on_queue
 (
 )
+.
+unwrap
+(
+)
 ;
 let
 mut
@@ -886,6 +897,10 @@ push
 ;
 }
 block_on_queue
+(
+)
+.
+unwrap
 (
 )
 ;
