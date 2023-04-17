@@ -262,6 +262,10 @@ if
 (
 !
 build_with_chromium
+&
+&
+!
+build_with_mozilla
 )
 {
 #
