@@ -269,9 +269,6 @@ class
 Layer
 ;
 class
-ContainerLayer
-;
-class
 CompositorBridgeChild
 ;
 class
@@ -576,17 +573,6 @@ aLayer
 )
 {
 }
-virtual
-already_AddRefed
-<
-ContainerLayer
->
-CreateContainerLayer
-(
-)
-=
-0
-;
 static
 already_AddRefed
 <
