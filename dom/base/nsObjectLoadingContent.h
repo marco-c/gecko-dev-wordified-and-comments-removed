@@ -316,10 +316,16 @@ JS
 :
 MutableHandle
 <
+mozilla
+:
+:
+Maybe
+<
 JS
 :
 :
 PropertyDescriptor
+>
 >
 aDesc
 )
