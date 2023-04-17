@@ -4364,6 +4364,11 @@ return
 NS_OK
 ;
 }
+NS_ENSURE_STATE
+(
+mDocShell
+)
+;
 mDebuting
 =
 true
