@@ -219,6 +219,17 @@ clearkey
 "
 #
 define
+EME_KEY_SYSTEM_CLEARKEY_WITH_PROTECTION_QUERY
+\
+"
+org
+.
+mozilla
+.
+clearkey_with_protection_query
+"
+#
+define
 EME_KEY_SYSTEM_WIDEVINE
 "
 com
