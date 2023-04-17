@@ -503,11 +503,6 @@ UnlockScreenOrientation
 (
 )
 ;
-bool
-SetProcessPrioritySupported
-(
-)
-;
 void
 SetProcessPriority
 (

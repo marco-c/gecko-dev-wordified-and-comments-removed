@@ -1201,14 +1201,6 @@ dom_ipc_processPriorityManager_enabled
 )
 &
 &
-hal
-:
-:
-SetProcessPrioritySupported
-(
-)
-&
-&
 !
 StaticPrefs
 :

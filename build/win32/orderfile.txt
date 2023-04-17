@@ -6621,11 +6621,6 @@ StructuredCloneHolder
 23
 Z
 ?
-SetProcessPrioritySupported
-hal
-mozilla
-YA_NXZ
-?
 Get
 LogModule
 mozilla
