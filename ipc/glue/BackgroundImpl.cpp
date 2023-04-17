@@ -5226,6 +5226,13 @@ ShutdownTimerCallback
 ;
 SpinEventLoopUntil
 (
+"
+ParentImpl
+:
+:
+ShutdownBackgroundThread
+"
+_ns
 [
 &
 ]
