@@ -586,6 +586,11 @@ uint64_t
 >
 mActiveMediaSessionContextId
 ;
+void
+ClearActiveMediaSessionContextIdIfNeeded
+(
+)
+;
 private
 :
 nsString
@@ -634,11 +639,6 @@ SetActiveMediaSessionContextId
 (
 uint64_t
 aBrowsingContextId
-)
-;
-void
-ClearActiveMediaSessionContextIdIfNeeded
-(
 )
 ;
 void
