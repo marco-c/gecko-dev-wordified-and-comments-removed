@@ -15595,6 +15595,12 @@ clear
 (
 )
 ;
+this
+.
+descriptorFront
+=
+null
+;
 if
 (
 flags
