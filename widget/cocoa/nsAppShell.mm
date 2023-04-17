@@ -3186,7 +3186,10 @@ geckoPressureLevel
 MacMemoryPressureLevel
 :
 :
-Normal
+Value
+:
+:
+eNormal
 ;
 break
 ;
@@ -3198,7 +3201,10 @@ geckoPressureLevel
 MacMemoryPressureLevel
 :
 :
-Warning
+Value
+:
+:
+eWarning
 ;
 break
 ;
@@ -3210,7 +3216,10 @@ geckoPressureLevel
 MacMemoryPressureLevel
 :
 :
-Critical
+Value
+:
+:
+eCritical
 ;
 break
 ;
@@ -3221,7 +3230,10 @@ geckoPressureLevel
 MacMemoryPressureLevel
 :
 :
-Unexpected
+Value
+:
+:
+eUnexpected
 ;
 }
 RefPtr
