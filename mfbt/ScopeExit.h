@@ -49,7 +49,13 @@ cleanup
 :
 mExitFunction
 (
+std
+:
+:
+move
+(
 cleanup
+)
 )
 mExecuteOnDestruction
 (
