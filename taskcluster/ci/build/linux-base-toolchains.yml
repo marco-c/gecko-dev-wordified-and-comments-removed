@@ -298,8 +298,6 @@ linux64
 -
 node
 -
-10
--
 linux64
 -
 sysroot
@@ -512,8 +510,6 @@ linux64
 -
 node
 -
-10
--
 linux64
 -
 sysroot
@@ -706,8 +702,6 @@ nasm
 linux64
 -
 node
--
-10
 -
 linux64
 -
@@ -911,8 +905,6 @@ nasm
 linux64
 -
 node
--
-10
 -
 linux64
 -
