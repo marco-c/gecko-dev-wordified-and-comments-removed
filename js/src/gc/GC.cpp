@@ -6349,13 +6349,15 @@ n
 23
 :
 (
-YieldBeforeSweepingShapeTrees
+YieldBeforeSweepingPropMapTrees
 )
 Incremental
 GC
 in
 two
 slices
+"
+"
 that
 "
 "
@@ -6461,7 +6463,7 @@ YieldBeforeSweepingNonObjects
 ZealMode
 :
 :
-YieldBeforeSweepingShapeTrees
+YieldBeforeSweepingPropMapTrees
 }
 ;
 void
@@ -22023,7 +22025,7 @@ void
 GCRuntime
 :
 :
-purgeShapeCachesForShrinkingGC
+purgePropMapTablesForShrinkingGC
 (
 )
 {
@@ -22042,7 +22044,7 @@ gcstats
 PhaseKind
 :
 :
-PURGE_SHAPE_CACHES
+PURGE_PROP_MAP_TABLES
 )
 ;
 for
@@ -22079,7 +22081,7 @@ zone
 zone
 -
 >
-keepShapeCaches
+keepPropMapTables
 (
 )
 )
@@ -23217,7 +23219,7 @@ relazifyFunctionsForShrinkingGC
 (
 )
 ;
-purgeShapeCachesForShrinkingGC
+purgePropMapTablesForShrinkingGC
 (
 )
 ;
@@ -30957,7 +30959,7 @@ IncrementalProgress
 GCRuntime
 :
 :
-sweepShapeTree
+sweepPropMapTree
 (
 JSFreeOp
 *
@@ -30982,7 +30984,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_SHAPE
+SWEEP_PROP_MAP
 )
 ;
 ArenaLists
@@ -32640,7 +32642,7 @@ MaybeYield
 ZealMode
 :
 :
-YieldBeforeSweepingShapeTrees
+YieldBeforeSweepingPropMapTrees
 )
 Call
 (
@@ -32648,7 +32650,7 @@ Call
 GCRuntime
 :
 :
-sweepShapeTree
+sweepPropMapTree
 )
 )
 )

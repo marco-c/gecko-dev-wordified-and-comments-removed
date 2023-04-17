@@ -3772,7 +3772,7 @@ propMapLength
 (
 )
 ;
-AutoKeepShapeCaches
+AutoKeepPropMapTables
 keep
 (
 cx

@@ -510,7 +510,7 @@ JS_HAZ_GC_POINTER
 ;
 class
 MOZ_RAII
-AutoKeepShapeCaches
+AutoKeepPropMapTables
 {
 JSContext
 *
@@ -526,16 +526,16 @@ operator
 =
 (
 const
-AutoKeepShapeCaches
+AutoKeepPropMapTables
 &
 )
 =
 delete
 ;
-AutoKeepShapeCaches
+AutoKeepPropMapTables
 (
 const
-AutoKeepShapeCaches
+AutoKeepPropMapTables
 &
 )
 =
@@ -543,7 +543,7 @@ delete
 ;
 explicit
 inline
-AutoKeepShapeCaches
+AutoKeepPropMapTables
 (
 JSContext
 *
@@ -552,7 +552,7 @@ cx
 ;
 inline
 ~
-AutoKeepShapeCaches
+AutoKeepPropMapTables
 (
 )
 ;
@@ -1604,7 +1604,7 @@ mapLength
 PropertyKey
 key
 const
-AutoKeepShapeCaches
+AutoKeepPropMapTables
 &
 keep
 PropMap
@@ -2918,7 +2918,7 @@ JSContext
 *
 cx
 const
-AutoKeepShapeCaches
+AutoKeepPropMapTables
 &
 keep
 )
