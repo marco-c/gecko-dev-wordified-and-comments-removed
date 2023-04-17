@@ -325,6 +325,7 @@ return
 False
 return
 (
+(
 target
 .
 os
@@ -367,6 +368,18 @@ bitness
 =
 =
 64
+)
+or
+(
+target
+.
+os
+=
+=
+"
+OSX
+"
+)
 )
 option
 (
