@@ -53,6 +53,17 @@ h
 "
 #
 include
+"
+mozilla
+/
+intl
+/
+TimeZone
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -3776,7 +3787,7 @@ mozilla
 intl
 :
 :
-Calendar
+TimeZone
 :
 :
 GetCanonicalTimeZoneID

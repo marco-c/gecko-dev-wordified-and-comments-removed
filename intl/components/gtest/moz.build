@@ -57,6 +57,11 @@ TestRelativeTimeFormat
 .
 cpp
 "
+"
+TestTimeZone
+.
+cpp
+"
 ]
 FINAL_LIBRARY
 =
