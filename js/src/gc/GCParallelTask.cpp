@@ -389,10 +389,6 @@ HelperThreadState
 wait
 (
 lock
-GlobalHelperThreadState
-:
-:
-CONSUMER
 )
 ;
 }
