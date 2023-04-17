@@ -1174,7 +1174,7 @@ IsDeniedCrossSiteCORSRequest
 )
 ;
 void
-ResumeTimeout
+UnsuppressEventHandlingAndResume
 (
 )
 ;
@@ -2643,6 +2643,12 @@ void
 HandleTimeoutCallback
 (
 )
+;
+RefPtr
+<
+Document
+>
+mSuspendedDoc
 ;
 nsCOMPtr
 <
