@@ -2663,9 +2663,6 @@ dl_items
 dl
 .
 dl_cache
-dl
-.
-dl_spatial_tree
 )
 ;
 }
@@ -2965,9 +2962,6 @@ dl_items
 dl
 .
 dl_cache
-dl
-.
-dl_spatial_tree
 )
 ;
 }
