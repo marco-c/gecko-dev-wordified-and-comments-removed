@@ -90,15 +90,12 @@ self
 packages
 =
 [
-            
 "
 nodejs
 "
-            
 "
 which
 "
-        
 ]
         
 self
@@ -106,13 +103,11 @@ self
 browser_group_packages
 =
 [
-            
 "
 GNOME
 Software
 Development
 "
-        
 ]
         
 self
@@ -165,14 +160,6 @@ nasm
 pulseaudio
 -
 libs
--
-devel
-"
-            
-"
-wireless
--
-tools
 -
 devel
 "
@@ -231,12 +218,10 @@ group_packages
 +
 =
 [
-                
 "
 Development
 Tools
 "
-            
 ]
             
 self
@@ -245,13 +230,11 @@ packages
 +
 =
 [
-                
 "
 curl
 -
 devel
 "
-            
 ]
             
 self
@@ -260,13 +243,11 @@ browser_packages
 +
 =
 [
-                
 "
 gtk3
 -
 devel
 "
-            
 ]
             
 if
@@ -304,11 +285,9 @@ packages
 +
 =
 [
-                    
 "
 npm
 "
-                
 ]
             
 else
@@ -320,7 +299,6 @@ packages
 +
 =
 [
-                    
 "
 redhat
 -
@@ -328,7 +306,6 @@ rpm
 -
 config
 "
-                
 ]
                 
 self
@@ -336,12 +313,10 @@ self
 browser_group_packages
 =
 [
-                    
 "
 Development
 Tools
 "
-                
 ]
         
 elif
@@ -361,7 +336,6 @@ group_packages
 +
 =
 [
-                
 "
 C
 Development
@@ -369,7 +343,6 @@ Tools
 and
 Libraries
 "
-            
 ]
             
 self
@@ -378,11 +351,9 @@ packages
 +
 =
 [
-                
 "
 npm
 "
-                
 "
 redhat
 -
@@ -390,7 +361,6 @@ rpm
 -
 config
 "
-            
 ]
             
 self
@@ -399,7 +369,6 @@ mobile_android_packages
 +
 =
 [
-                
 "
 ncurses
 -
@@ -407,7 +376,6 @@ compat
 -
 libs
 "
-            
 ]
         
 if
@@ -435,13 +403,11 @@ packages
 +
 =
 [
-                
 "
 python3
 -
 devel
 "
-            
 ]
         
 else
@@ -453,13 +419,11 @@ packages
 +
 =
 [
-                
 "
 python
 -
 devel
 "
-            
 ]
     
 def
