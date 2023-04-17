@@ -1234,15 +1234,6 @@ define_clip_image_mask
 &
 root_space_and_clip
 mask
-&
-vec
-!
-[
-]
-FillRule
-:
-:
-Nonzero
 )
 ;
 let
