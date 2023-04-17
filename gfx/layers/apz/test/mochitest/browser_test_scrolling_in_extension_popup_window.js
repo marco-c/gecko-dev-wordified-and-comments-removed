@@ -434,7 +434,7 @@ true
 )
 ;
 await
-flushApzRepaintsInPopup
+promiseApzFlushedRepaintsInPopup
 (
 browserForPopup
 )
@@ -525,7 +525,7 @@ browserForPopup
 const
 apzPromise
 =
-flushApzRepaintsInPopup
+promiseApzFlushedRepaintsInPopup
 (
 browserForPopup
 )

@@ -603,7 +603,7 @@ return
 ;
 }
 await
-flushApzRepaintsInPopup
+promiseApzFlushedRepaintsInPopup
 (
 browserForPopup
 )
@@ -807,7 +807,7 @@ i
 const
 apzPromise
 =
-flushApzRepaintsInPopup
+promiseApzFlushedRepaintsInPopup
 (
 browserForPopup
 )
