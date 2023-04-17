@@ -83,6 +83,11 @@ h
 #
 include
 <
+cstring
+>
+#
+include
+<
 memory
 >
 #
@@ -610,6 +615,9 @@ SPA_ROUND_UP_N
 (
 width
 *
+BasicDesktopFrame
+:
+:
 kBytesPerPixel
 4
 )
@@ -2263,6 +2271,9 @@ height
 (
 )
 *
+BasicDesktopFrame
+:
+:
 kBytesPerPixel
 )
 ;
@@ -2277,6 +2288,9 @@ width
 (
 )
 *
+BasicDesktopFrame
+:
+:
 kBytesPerPixel
 ;
 const
@@ -2381,6 +2395,9 @@ position
 .
 x
 *
+BasicDesktopFrame
+:
+:
 kBytesPerPixel
 :
 0
@@ -4978,6 +4995,9 @@ width
 (
 )
 *
+BasicDesktopFrame
+:
+:
 kBytesPerPixel
 )
 DesktopRect
