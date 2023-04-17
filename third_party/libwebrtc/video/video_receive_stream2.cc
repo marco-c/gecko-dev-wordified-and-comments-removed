@@ -2094,6 +2094,13 @@ decoder_stopped_
 =
 false
 ;
+frame_buffer_
+-
+>
+Start
+(
+)
+;
 StartNextDecode
 (
 )
