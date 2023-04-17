@@ -7,7 +7,9 @@ ipc_glue_LibrarySandboxPreload_h
 #
 include
 "
-nsString
+mozilla
+/
+FileUtils
 .
 h
 "
@@ -17,7 +19,7 @@ mozilla
 namespace
 ipc
 {
-nsCString
+PathString
 GetSandboxedRLBoxPath
 (
 )
