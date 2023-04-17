@@ -42449,9 +42449,8 @@ true
 #
 Whether
 the
-bloom
-filter
-optimization
+rule
+hash
 is
 applied
 to
@@ -42476,9 +42475,7 @@ layout
 .
 css
 .
-bloom
--
-filter
+bucket
 -
 attribute
 -

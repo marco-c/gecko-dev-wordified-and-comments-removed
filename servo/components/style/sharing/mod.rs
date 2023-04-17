@@ -3083,9 +3083,7 @@ return
 None
 ;
 }
-let
-may_match_different_id_rules
-=
+if
 checks
 :
 :
@@ -3099,9 +3097,6 @@ candidate
 .
 element
 )
-;
-if
-may_match_different_id_rules
 {
 trace
 !

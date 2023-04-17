@@ -7983,7 +7983,7 @@ selectors_for_cache_revalidation
 SelectorMap
 :
 :
-new
+new_without_attribute_bucketing
 (
 )
 animations
