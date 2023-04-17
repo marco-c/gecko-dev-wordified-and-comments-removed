@@ -1578,16 +1578,6 @@ True
 both
 "
 )
-and
-get_mobile_project
-(
-task
-)
-!
-=
-"
-fennec
-"
 TEST_VARIANTS
 =
 {
@@ -8466,9 +8456,6 @@ mobile_projects
 fenix
 "
 "
-fennec
-"
-"
 geckoview
 "
 "
@@ -8551,9 +8538,7 @@ return
 name
     
 return
-"
-fennec
-"
+None
 transforms
 .
 add
@@ -8595,24 +8580,6 @@ e10s
 ]
 =
 True
-        
-elif
-project
-=
-=
-"
-fennec
-"
-:
-            
-task
-[
-"
-e10s
-"
-]
-=
-False
         
 yield
 task
