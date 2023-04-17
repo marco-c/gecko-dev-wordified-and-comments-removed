@@ -282,6 +282,9 @@ AW_STEP4
 order
 :
 3
+autoClose
+:
+true
 content
 :
 {
@@ -961,6 +964,11 @@ AW_STEP1
 main
 .
 AW_STEP3
+"
+"
+nav
+.
+steps
 "
 "
 main
