@@ -504,9 +504,6 @@ name
 "
 results
 "
-"
-binary
-"
 ]
 )
 =
@@ -1955,6 +1952,7 @@ browsertime_install_url
 "
 meh
 "
+        
 tests
 =
 [
