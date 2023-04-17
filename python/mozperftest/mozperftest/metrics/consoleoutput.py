@@ -13,6 +13,8 @@ mozperftest
 layers
 import
 Layer
+import
+os
 RESULTS_TEMPLATE
 =
 "
@@ -174,7 +176,14 @@ console
     
 activated
 =
-False
+"
+MOZ_AUTOMATION
+"
+not
+in
+os
+.
+environ
     
 arguments
 =
