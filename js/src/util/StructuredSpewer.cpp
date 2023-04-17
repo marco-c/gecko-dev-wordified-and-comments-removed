@@ -929,6 +929,8 @@ selected
 channel
 from
 below
+"
+"
 if
 \
 n
@@ -941,6 +943,8 @@ channel
 is
 specified
 then
+"
+"
 the
 \
 n
@@ -952,6 +956,8 @@ be
 set
 whichever
 specified
+"
+"
 filter
 \
 n
@@ -1005,6 +1011,8 @@ Entry
 counters
 during
 Ion
+"
+"
 analysis
 \
 n
@@ -1016,6 +1024,8 @@ statistics
 collected
 by
 tracelogger
+"
+"
 that
 \
 n
@@ -1038,12 +1048,14 @@ JS_TRACE_LOGGING
 n
 "
 "
-RateMyCacheIR
+CacheIRHealthReport
 Dump
 the
 CacheIR
 information
 and
+"
+"
 associated
 "
 "

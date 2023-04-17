@@ -1121,7 +1121,7 @@ cx
 SpewChannel
 :
 :
-RateMyCacheIR
+CacheIRHealthReport
 nullptr
 )
 ;
@@ -1350,7 +1350,7 @@ void
 CacheIRHealth
 :
 :
-rateIC
+healthReportForIC
 (
 JSContext
 *
@@ -1371,7 +1371,7 @@ cx
 SpewChannel
 :
 :
-RateMyCacheIR
+CacheIRHealthReport
 script
 )
 ;
@@ -1482,7 +1482,7 @@ void
 CacheIRHealth
 :
 :
-rateScript
+healthReportForScript
 (
 JSContext
 *
@@ -1523,7 +1523,7 @@ cx
 SpewChannel
 :
 :
-RateMyCacheIR
+CacheIRHealthReport
 script
 )
 ;

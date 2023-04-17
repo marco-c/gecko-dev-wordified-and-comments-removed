@@ -3715,7 +3715,7 @@ script
 SpewChannel
 :
 :
-RateMyCacheIR
+CacheIRHealthReport
 )
 )
 {
@@ -3736,7 +3736,7 @@ script
 ;
 cih
 .
-rateIC
+healthReportForIC
 (
 cx
 stub

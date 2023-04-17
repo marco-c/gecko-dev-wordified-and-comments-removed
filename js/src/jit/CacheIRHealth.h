@@ -137,7 +137,7 @@ warmUpCount
 )
 ;
 void
-rateIC
+healthReportForIC
 (
 JSContext
 *
@@ -152,7 +152,7 @@ context
 )
 ;
 void
-rateScript
+healthReportForScript
 (
 JSContext
 *

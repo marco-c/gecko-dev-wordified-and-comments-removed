@@ -22886,7 +22886,7 @@ cx
 SpewChannel
 :
 :
-RateMyCacheIR
+CacheIRHealthReport
 script
 )
 ;

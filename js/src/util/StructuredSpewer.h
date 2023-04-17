@@ -137,7 +137,7 @@ ScriptStats
 \
 _
 (
-RateMyCacheIR
+CacheIRHealthReport
 )
 enum
 class

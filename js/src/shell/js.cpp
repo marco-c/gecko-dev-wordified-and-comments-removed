@@ -22418,7 +22418,7 @@ ifdef
 JS_CACHEIR_SPEW
 static
 bool
-RateMyCacheIR
+CacheIRHealthReport
 (
 JSContext
 *
@@ -22461,7 +22461,7 @@ cx
 SpewChannel
 :
 :
-RateMyCacheIR
+CacheIRHealthReport
 script
 )
 ;
@@ -22538,7 +22538,7 @@ asJSScript
 ;
 cih
 .
-rateScript
+healthReportForScript
 (
 cx
 script
@@ -22641,7 +22641,7 @@ false
 }
 cih
 .
-rateScript
+healthReportForScript
 (
 cx
 script
@@ -57266,13 +57266,13 @@ JS_CACHEIR_SPEW
 JS_FN_HELP
 (
 "
-rateMyCacheIR
+cacheIRHealthReport
 "
-RateMyCacheIR
+CacheIRHealthReport
 0
 0
 "
-rateMyCacheIR
+cacheIRHealthReport
 (
 )
 "
