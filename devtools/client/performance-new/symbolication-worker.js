@@ -23,9 +23,13 @@ resource
 :
 /
 /
-gre
+devtools
 /
-modules
+client
+/
+performance
+-
+new
 /
 profiler_get_symbols
 .
@@ -400,7 +404,7 @@ close
 }
 try
 {
-let
+const
 output
 =
 get_compact_symbol_table
