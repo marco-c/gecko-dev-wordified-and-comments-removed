@@ -170,6 +170,15 @@ include
 "
 mozilla
 /
+ProfilerRunnable
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SchedulerGroup
 .
 h

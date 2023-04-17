@@ -8,7 +8,9 @@ h
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+ClearOnShutdown
 .
 h
 "
@@ -17,7 +19,7 @@ include
 "
 mozilla
 /
-ClearOnShutdown
+ProfilerRunnable
 .
 h
 "
