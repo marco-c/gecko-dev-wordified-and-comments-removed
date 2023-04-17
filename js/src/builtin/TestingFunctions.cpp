@@ -28706,15 +28706,10 @@ inDictionary
 ;
 MOZ_RELEASE_ASSERT
 (
-!
-(
 prop
 .
-attributes
+configurable
 (
-)
-&
-JSPROP_PERMANENT
 )
 )
 ;
@@ -28732,7 +28727,7 @@ propInfo
 key
 prop
 .
-attributes
+flags
 (
 )
 cx

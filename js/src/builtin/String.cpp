@@ -19823,9 +19823,8 @@ names
 .
 length
 LENGTH_SLOT
-JSPROP_PERMANENT
-|
-JSPROP_READONLY
+{
+}
 &
 slot
 )

@@ -3878,8 +3878,8 @@ HandleId
 id
 uint32_t
 slot
-unsigned
-attrs
+ShapePropertyFlags
+flags
 uint32_t
 *
 slotOut
@@ -3898,8 +3898,8 @@ HandlePropertyName
 name
 uint32_t
 slot
-unsigned
-attrs
+ShapePropertyFlags
+flags
 uint32_t
 *
 slotOut
@@ -3922,7 +3922,7 @@ cx
 obj
 id
 slot
-attrs
+flags
 slotOut
 )
 ;
@@ -3938,8 +3938,8 @@ HandleNativeObject
 obj
 HandleId
 id
-unsigned
-attrs
+ShapePropertyFlags
+flags
 )
 ;
 static
@@ -3969,8 +3969,8 @@ HandleNativeObject
 obj
 HandleId
 id
-unsigned
-attrs
+ShapePropertyFlags
+flags
 uint32_t
 *
 slotOut
@@ -3987,8 +3987,8 @@ HandleNativeObject
 obj
 HandleId
 id
-unsigned
-attrs
+ShapePropertyFlags
+flags
 )
 ;
 static
