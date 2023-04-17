@@ -362,6 +362,9 @@ isAccessorPropertyNative
 JSContext
 *
 cx
+NativeObject
+*
+holder
 Shape
 *
 shape
@@ -373,11 +376,12 @@ JSObject
 *
 getter
 =
-shape
+holder
 -
 >
-getterObject
+getGetter
 (
+shape
 )
 ;
 return
@@ -659,11 +663,12 @@ speciesShape
 |
 |
 !
-speciesShape
+promiseCtor
 -
 >
-hasGetterObject
+hasGetter
 (
+speciesShape
 )
 )
 {
@@ -676,6 +681,7 @@ if
 isAccessorPropertyNative
 (
 cx
+promiseCtor
 speciesShape
 Promise_static_species
 )
@@ -1017,6 +1023,7 @@ MOZ_ASSERT
 isAccessorPropertyNative
 (
 cx
+promiseCtor
 promiseSpeciesShape_
 Promise_static_species
 )
