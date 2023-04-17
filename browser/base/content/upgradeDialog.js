@@ -1936,6 +1936,12 @@ hidden
 "
 )
 ;
+el
+.
+disabled
+=
+false
+;
 }
 else
 {
@@ -1949,6 +1955,12 @@ add
 hidden
 "
 )
+;
+el
+.
+disabled
+=
+true
 ;
 el
 .
