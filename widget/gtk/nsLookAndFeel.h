@@ -180,6 +180,13 @@ IntID
 )
 override
 ;
+bool
+FromParentTheme
+(
+ColorID
+)
+override
+;
 static
 void
 ConfigureTheme
