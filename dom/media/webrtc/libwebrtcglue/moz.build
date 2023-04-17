@@ -107,6 +107,11 @@ MediaDataCodec
 cpp
 "
 "
+TaskQueueWrapper
+.
+cpp
+"
+"
 VideoConduit
 .
 cpp

@@ -3083,6 +3083,13 @@ ms_of_traffic_after_answer
 protected
 :
 const
+TaskQueueWrapper
+:
+:
+MainAsCurrent
+main_as_current_
+;
+const
 rtc
 :
 :
