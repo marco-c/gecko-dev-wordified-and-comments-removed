@@ -24,11 +24,6 @@ GetSandboxedRLBoxPath
 (
 )
 ;
-void
-PreloadSandboxedDynamicLibrary
-(
-)
-;
 }
 }
 #

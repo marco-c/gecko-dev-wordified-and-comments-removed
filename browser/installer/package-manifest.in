@@ -559,16 +559,6 @@ DLL_SUFFIX
 endif
 #
 endif
-#
-ifdef
-MOZ_USING_WASM_SANDBOXING
-BINPATH
-/
-DLL_PREFIX
-rlbox
-DLL_SUFFIX
-#
-endif
 ;
 We
 don
