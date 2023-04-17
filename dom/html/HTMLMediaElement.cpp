@@ -33343,7 +33343,13 @@ GetEffectiveVolume
 (
 )
 :
+static_cast
+<
+float
+>
+(
 mVolume
+)
 ;
 }
 bool
