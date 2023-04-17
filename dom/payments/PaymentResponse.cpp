@@ -1413,6 +1413,15 @@ nsAString
 aPayerPhone
 )
 {
+if
+(
+!
+mRetryPromise
+)
+{
+return
+;
+}
 mMethodName
 =
 aMethodName
