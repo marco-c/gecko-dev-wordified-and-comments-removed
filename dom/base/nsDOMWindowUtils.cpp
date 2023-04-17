@@ -352,6 +352,17 @@ include
 "
 js
 /
+experimental
+/
+PCCountProfiling
+.
+h
+"
+#
+include
+"
+js
+/
 Object
 .
 h
@@ -18185,7 +18196,7 @@ JSContext
 cx
 )
 {
-js
+JS
 :
 :
 StartPCCountProfiling
@@ -18208,7 +18219,7 @@ JSContext
 cx
 )
 {
-js
+JS
 :
 :
 StopPCCountProfiling
@@ -18231,7 +18242,7 @@ JSContext
 cx
 )
 {
-js
+JS
 :
 :
 PurgePCCounts
@@ -18260,7 +18271,7 @@ result
 *
 result
 =
-js
+JS
 :
 :
 GetPCCountScriptCount
@@ -18292,7 +18303,7 @@ JSString
 *
 text
 =
-js
+JS
 :
 :
 GetPCCountScriptSummary
@@ -18346,7 +18357,7 @@ JSString
 *
 text
 =
-js
+JS
 :
 :
 GetPCCountScriptContents

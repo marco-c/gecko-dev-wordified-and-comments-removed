@@ -474,6 +474,17 @@ js
 /
 experimental
 /
+PCCountProfiling
+.
+h
+"
+#
+include
+"
+js
+/
+experimental
+/
 TypedData
 .
 h
@@ -44258,7 +44269,7 @@ argc
 vp
 )
 ;
-js
+JS
 :
 :
 StartPCCountProfiling
@@ -44303,7 +44314,7 @@ argc
 vp
 )
 ;
-js
+JS
 :
 :
 StopPCCountProfiling
@@ -44348,7 +44359,7 @@ argc
 vp
 )
 ;
-js
+JS
 :
 :
 PurgePCCounts
@@ -44396,7 +44407,7 @@ vp
 size_t
 length
 =
-js
+JS
 :
 :
 GetPCCountScriptCount
@@ -44493,7 +44504,7 @@ JSString
 *
 str
 =
-js
+JS
 :
 :
 GetPCCountScriptSummary
@@ -44598,7 +44609,7 @@ JSString
 *
 str
 =
-js
+JS
 :
 :
 GetPCCountScriptContents
