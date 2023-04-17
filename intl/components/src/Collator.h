@@ -424,6 +424,16 @@ Nothing
 )
 )
 ;
+Result
+<
+CaseFirst
+ICUError
+>
+GetCaseFirst
+(
+)
+const
+;
 static
 SpanResult
 <
