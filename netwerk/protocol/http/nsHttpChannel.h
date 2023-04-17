@@ -2152,8 +2152,10 @@ nodiscard
 ]
 ]
 nsresult
-ProcessHSTSHeader
+ProcessSingleSecurityHeader
 (
+uint32_t
+aType
 nsITransportSecurityInfo
 *
 aSecInfo
