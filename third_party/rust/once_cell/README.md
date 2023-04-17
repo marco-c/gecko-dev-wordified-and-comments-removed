@@ -22,11 +22,6 @@ alt
 "
 once_cell
 "
-height
-=
-"
-300px
-"
 >
 <
 /

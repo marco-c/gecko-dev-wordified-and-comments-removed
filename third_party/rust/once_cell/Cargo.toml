@@ -125,9 +125,9 @@ version
 "
 1
 .
-5
+8
 .
-2
+0
 "
 authors
 =
@@ -164,7 +164,7 @@ Cargo
 .
 lock
 .
-min
+msrv
 "
 "
 /
@@ -491,6 +491,9 @@ features
 alloc
 =
 [
+"
+race
+"
 ]
 default
 =
@@ -498,6 +501,10 @@ default
 "
 std
 "
+]
+race
+=
+[
 ]
 std
 =
