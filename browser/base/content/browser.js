@@ -36032,14 +36032,6 @@ blankTabToRemove
 }
 }
 }
-SessionStore
-.
-setLastClosedTabCount
-(
-window
-1
-)
-;
 return
 tab
 ;
