@@ -1466,6 +1466,13 @@ extension
 manifest
 .
 browser_action
+|
+|
+extension
+.
+manifest
+.
+action
 ;
 super
 (
@@ -1554,6 +1561,13 @@ extension
 manifest
 .
 browser_action
+|
+|
+extension
+.
+manifest
+.
+action
 ;
 this
 .
