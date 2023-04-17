@@ -13345,7 +13345,7 @@ GetBounds
 PaintFlags
 :
 :
-PaintLayers
+None
 )
 ;
 }
