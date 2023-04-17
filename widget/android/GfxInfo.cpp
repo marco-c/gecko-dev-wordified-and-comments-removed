@@ -1978,7 +1978,10 @@ FEATURE_STATUS_UNKNOWN
 OperatingSystem
 os
 =
-mOS
+OperatingSystem
+:
+:
+Android
 ;
 if
 (

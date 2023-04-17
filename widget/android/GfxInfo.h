@@ -509,9 +509,6 @@ mGLStrings
 nsCString
 mAdapterDescription
 ;
-OperatingSystem
-mOS
-;
 nsString
 mModel
 mHardware
