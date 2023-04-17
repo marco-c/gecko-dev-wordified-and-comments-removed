@@ -244,12 +244,9 @@ FrozenImage
 :
 GetImageContainer
 (
-layers
-:
-:
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 uint32_t
 aFlags
 )
@@ -269,7 +266,7 @@ InnerImage
 >
 GetImageContainer
 (
-aManager
+aRenderer
 aFlags
 )
 ;
@@ -332,12 +329,9 @@ FrozenImage
 :
 GetImageContainerAtSize
 (
-layers
-:
-:
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 const
 gfx
 :
@@ -385,7 +379,7 @@ InnerImage
 >
 GetImageContainerAtSize
 (
-aManager
+aRenderer
 aSize
 aSVGContext
 aRegion
