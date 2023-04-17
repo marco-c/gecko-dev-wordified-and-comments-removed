@@ -707,13 +707,6 @@ WEBSOCKET
 hasBrowserElement
 }
 "
-thread
--
-configuration
-"
-:
-true
-"
 set
 -
 xhr
