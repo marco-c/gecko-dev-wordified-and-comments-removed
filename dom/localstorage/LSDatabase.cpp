@@ -188,14 +188,15 @@ xpcom
 -
 shutdown
 "
-typedef
+using
+LSDatabaseHashtable
+=
 nsTHashMap
 <
 nsCStringHashKey
 LSDatabase
 *
 >
-LSDatabaseHashtable
 ;
 StaticAutoPtr
 <

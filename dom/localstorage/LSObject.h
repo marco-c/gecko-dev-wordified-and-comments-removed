@@ -166,14 +166,15 @@ final
 public
 Storage
 {
-typedef
+using
+PrincipalInfo
+=
 mozilla
 :
 :
 ipc
 :
 :
-PrincipalInfo
 PrincipalInfo
 ;
 friend
