@@ -435,7 +435,7 @@ id
 return
 this
 .
-currentTarget
+commands
 .
 client
 .
@@ -1446,7 +1446,7 @@ this
 .
 ui
 .
-_commands
+_consoleCommands
 .
 evaluateJSAsync
 (

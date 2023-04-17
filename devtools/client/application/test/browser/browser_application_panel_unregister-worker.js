@@ -36,7 +36,7 @@ const
 {
 panel
 tab
-target
+commands
 }
 =
 await
@@ -233,7 +233,7 @@ empty
 await
 unregisterAllWorkers
 (
-target
+commands
 .
 client
 doc

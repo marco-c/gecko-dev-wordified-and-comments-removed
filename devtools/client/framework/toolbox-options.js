@@ -2504,7 +2504,7 @@ mainRoot
 =
 this
 .
-target
+commands
 .
 client
 ;

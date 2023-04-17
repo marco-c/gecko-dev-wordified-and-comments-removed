@@ -54,7 +54,7 @@ enableApplicationPanel
 const
 {
 panel
-toolbox
+commands
 tab
 }
 =
@@ -296,9 +296,7 @@ displayed
 await
 unregisterAllWorkers
 (
-toolbox
-.
-target
+commands
 .
 client
 doc

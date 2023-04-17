@@ -83,6 +83,15 @@ target
 Target
 ;
 }
+export
+interface
+Commands
+{
+client
+:
+any
+;
+}
 type
 MaybePromise
 <

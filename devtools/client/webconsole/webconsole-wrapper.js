@@ -466,7 +466,7 @@ this
 .
 webConsoleUI
 .
-_commands
+_consoleCommands
 }
 }
 )

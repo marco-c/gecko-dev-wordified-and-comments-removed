@@ -146,7 +146,7 @@ client
 =
 toolbox
 .
-target
+commands
 .
 client
 ;

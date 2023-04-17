@@ -2923,7 +2923,7 @@ null
 return
 this
 .
-target
+commands
 .
 client
 .
@@ -12708,7 +12708,7 @@ frontPromise
 =
 this
 .
-target
+commands
 .
 client
 .
@@ -14859,18 +14859,9 @@ destroy
 "
 )
 ;
-if
-(
 this
 .
-target
-.
-client
-)
-{
-this
-.
-target
+commands
 .
 client
 .
@@ -14878,7 +14869,6 @@ isToolboxDestroy
 =
 true
 ;
-}
 this
 .
 off

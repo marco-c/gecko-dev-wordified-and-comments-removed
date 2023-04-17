@@ -143,7 +143,7 @@ navigate
 )
 toolbox
 .
-target
+commands
 .
 client
 .

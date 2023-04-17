@@ -37,7 +37,7 @@ const
 panel
 tab
 toolbox
-target
+commands
 }
 =
 await
@@ -282,7 +282,7 @@ state
 await
 unregisterAllWorkers
 (
-target
+commands
 .
 client
 doc
@@ -299,7 +299,7 @@ tab
 )
 ;
 await
-target
+commands
 .
 client
 .

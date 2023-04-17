@@ -410,7 +410,7 @@ DevToolsClient
 await
 toolbox
 .
-target
+commands
 .
 client
 .

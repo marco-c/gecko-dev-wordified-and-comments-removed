@@ -76,7 +76,7 @@ process
 const
 {
 panel
-toolbox
+commands
 tab
 }
 =
@@ -220,9 +220,7 @@ tab
 await
 unregisterAllWorkers
 (
-toolbox
-.
-target
+commands
 .
 client
 doc

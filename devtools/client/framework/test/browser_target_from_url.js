@@ -361,7 +361,7 @@ TEST_URI
 )
 ;
 await
-target
+descriptor
 .
 client
 .
@@ -511,7 +511,7 @@ true
 )
 ;
 await
-target
+descriptor
 .
 client
 .
@@ -854,7 +854,7 @@ true
 const
 settings
 =
-target
+descriptor
 .
 client
 .
@@ -899,7 +899,7 @@ false
 )
 ;
 await
-target
+descriptor
 .
 client
 .
@@ -1034,7 +1034,7 @@ true
 const
 settings
 =
-target
+descriptor
 .
 client
 .
@@ -1079,7 +1079,7 @@ true
 )
 ;
 await
-target
+descriptor
 .
 client
 .

@@ -98,7 +98,9 @@ target
 const
 client
 =
-target
+toolbox
+.
+commands
 .
 client
 ;

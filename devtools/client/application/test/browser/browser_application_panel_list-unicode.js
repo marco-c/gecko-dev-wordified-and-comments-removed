@@ -59,8 +59,8 @@ enableApplicationPanel
 const
 {
 panel
-target
 tab
+commands
 }
 =
 await
@@ -255,7 +255,7 @@ url
 await
 unregisterAllWorkers
 (
-target
+commands
 .
 client
 doc

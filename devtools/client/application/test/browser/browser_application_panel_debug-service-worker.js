@@ -106,8 +106,8 @@ const
 {
 panel
 tab
-target
 toolbox
+commands
 }
 =
 await
@@ -402,7 +402,7 @@ id
 await
 unregisterAllWorkers
 (
-target
+commands
 .
 client
 doc
