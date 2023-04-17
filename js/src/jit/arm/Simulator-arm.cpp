@@ -7241,7 +7241,13 @@ if
 cache_hit
 )
 {
+mozilla
+:
+:
+DebugOnly
+<
 int
+>
 cmpret
 =
 memcmp
@@ -7274,11 +7280,6 @@ cmpret
 =
 0
 )
-;
-(
-void
-)
-cmpret
 ;
 }
 else
