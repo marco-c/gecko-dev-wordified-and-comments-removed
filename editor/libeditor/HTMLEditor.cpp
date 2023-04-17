@@ -3979,7 +3979,7 @@ NS_VK_DELETE
 nsresult
 rv
 =
-TextEditor
+EditorBase
 :
 :
 HandleKeyPressEvent
@@ -3994,7 +3994,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 HandleKeyPressEvent
@@ -4022,7 +4022,7 @@ IsPlaintextEditor
 nsresult
 rv
 =
-TextEditor
+EditorBase
 :
 :
 HandleKeyPressEvent
@@ -4037,7 +4037,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 HandleKeyPressEvent
@@ -4439,7 +4439,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 OnInputText
@@ -4611,7 +4611,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 OnInputText
