@@ -1446,14 +1446,6 @@ msection
 IsSending
 (
 )
-&
-&
-!
-mStreamIds
-.
-empty
-(
-)
 ;
 if
 (
