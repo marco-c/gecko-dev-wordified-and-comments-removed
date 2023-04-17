@@ -157,12 +157,6 @@ void
 )
 override
 ;
-CLSID
-GetClassID
-(
-)
-const
-;
 virtual
 nsresult
 HandleAccEvent
@@ -276,13 +270,6 @@ AccessibleWrap
 )
 =
 default
-;
-DocRemoteAccessibleWrap
-*
-DocProxyWrapper
-(
-)
-const
 ;
 struct
 HandlerControllerData
