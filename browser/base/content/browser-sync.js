@@ -3600,8 +3600,6 @@ classList
 add
 (
 "
-pageAction
--
 sendToDevice
 -
 device
