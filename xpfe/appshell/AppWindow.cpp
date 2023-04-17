@@ -5762,11 +5762,6 @@ gotPosition
 true
 ;
 }
-bool
-allowSlop
-=
-false
-;
 if
 (
 gotPosition
@@ -5869,10 +5864,6 @@ cssWidth
 cssHeight
 )
 ;
-allowSlop
-=
-true
-;
 }
 }
 mWindow
@@ -5880,7 +5871,7 @@ mWindow
 >
 ConstrainPosition
 (
-allowSlop
+false
 &
 specX
 &
