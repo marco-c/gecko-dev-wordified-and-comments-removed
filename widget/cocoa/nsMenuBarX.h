@@ -457,8 +457,9 @@ mNativeMenu
 void
 InsertChildNativeMenuItem
 (
-nsMenuX
-*
+const
+MenuChild
+&
 aChild
 )
 override
@@ -466,8 +467,9 @@ override
 void
 RemoveChildNativeMenuItem
 (
-nsMenuX
-*
+const
+MenuChild
+&
 aChild
 )
 override
