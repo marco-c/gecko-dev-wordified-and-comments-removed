@@ -333,7 +333,7 @@ start
 (
 )
 ;
-bool
+void
 join
 (
 mozilla
@@ -364,7 +364,7 @@ AutoLockHelperThreadState
 lock
 )
 ;
-bool
+void
 joinWithLockHeld
 (
 AutoLockHelperThreadState

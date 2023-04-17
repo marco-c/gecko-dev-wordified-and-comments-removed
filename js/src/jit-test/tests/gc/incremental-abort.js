@@ -12,7 +12,7 @@ testAbort
 (
 zoneCount
 objectCount
-sliceCount
+sliceBudget
 abortState
 )
 {
@@ -143,7 +143,7 @@ false
 ;
 startgc
 (
-sliceCount
+sliceBudget
 "
 shrinking
 "
@@ -195,7 +195,7 @@ break
 }
 gcslice
 (
-sliceCount
+sliceBudget
 )
 ;
 }
