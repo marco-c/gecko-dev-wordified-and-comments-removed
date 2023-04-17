@@ -2,7 +2,17 @@ mod
 gecko_bindings
 ;
 mod
+profiler_state
+;
+mod
 thread
+;
+pub
+use
+profiler_state
+:
+:
+*
 ;
 pub
 use
