@@ -1148,6 +1148,14 @@ container
 >
 wl_container
 ;
+if
+(
+wl_container
+-
+>
+surface
+)
+{
 sGdkWaylandWindowRemoveCallbackSurface
 (
 window
@@ -1157,6 +1165,7 @@ wl_container
 surface
 )
 ;
+}
 GdkFrameClock
 *
 frame_clock
