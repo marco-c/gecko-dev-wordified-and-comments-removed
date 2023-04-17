@@ -338,6 +338,15 @@ r
 }
 }
 get
+isTabDescriptor
+(
+)
+{
+return
+true
+;
+}
+get
 isLocalTab
 (
 )

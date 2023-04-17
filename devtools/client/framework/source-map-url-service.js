@@ -1642,9 +1642,11 @@ if
 (
 this
 .
-_target
+_commands
 .
-isWorkerTarget
+descriptorFront
+.
+isWorkerDescriptor
 )
 {
 return
