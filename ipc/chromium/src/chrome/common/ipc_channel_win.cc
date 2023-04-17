@@ -1530,7 +1530,6 @@ input_state_
 .
 context
 0
-0
 )
 )
 ;
@@ -2811,8 +2810,6 @@ IOContext
 context
 DWORD
 bytes_transfered
-DWORD
-error
 )
 {
 bool
