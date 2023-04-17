@@ -4161,6 +4161,8 @@ uv_offset
 vec2_scalar
 min_uv
 =
+max
+(
 swgl_linearQuantize
 (
 sampler
@@ -4174,10 +4176,16 @@ uv_rect
 y
 }
 )
+0
+.
+0f
+)
 ;
 vec2_scalar
 max_uv
 =
+max
+(
 swgl_linearQuantize
 (
 sampler
@@ -4190,6 +4198,8 @@ uv_rect
 .
 w
 }
+)
+min_uv
 )
 ;
 for
