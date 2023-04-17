@@ -130,6 +130,12 @@ aColumnNumber
 )
 ;
 static
+void
+DetectJsHacks
+(
+)
+;
+static
 nsresult
 GetHttpChannelFromPotentialMultiPart
 (
