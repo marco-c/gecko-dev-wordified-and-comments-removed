@@ -82,6 +82,7 @@ true
 ;
 class
 DllServices
+final
 :
 public
 glue
@@ -156,8 +157,6 @@ default
 DllServices
 (
 )
-=
-default
 ;
 void
 NotifyDllLoad
