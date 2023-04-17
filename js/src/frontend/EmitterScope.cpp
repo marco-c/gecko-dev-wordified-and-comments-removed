@@ -5288,13 +5288,11 @@ BindingKind
 :
 Synthetic
 hops
-JSSLOT_FREE
-(
-&
 ClassBodyLexicalEnvironmentObject
 :
 :
-class_
+privateBrandSlot
+(
 )
 )
 )
