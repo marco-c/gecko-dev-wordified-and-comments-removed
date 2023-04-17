@@ -4026,10 +4026,11 @@ show
 displayed
 screen
 index
-or
 button
 string
 id
+compact
+mode
 close
 :
 dismissed
