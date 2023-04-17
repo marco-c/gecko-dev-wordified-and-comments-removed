@@ -251,6 +251,9 @@ OS_LIBS
 advapi32
 "
 "
+comsupp
+"
+"
 kernel32
 "
 "
