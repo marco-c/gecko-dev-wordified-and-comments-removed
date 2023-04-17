@@ -193,6 +193,7 @@ def
 run_settings
 (
 self
+command_context
 short
 =
 None

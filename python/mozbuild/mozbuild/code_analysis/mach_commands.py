@@ -1013,6 +1013,7 @@ def
 static_analysis
 (
 self
+command_context
 )
 :
         
@@ -1632,6 +1633,8 @@ check
 (
         
 self
+        
+command_context
         
 source
 =
@@ -2581,6 +2584,8 @@ check_coverity
 (
         
 self
+        
+command_context
         
 source
 =
@@ -6277,6 +6282,8 @@ check_java
         
 self
         
+command_context
+        
 source
 =
 [
@@ -8766,15 +8773,21 @@ autotest
 (
         
 self
+        
+command_context
+        
 verbose
 =
 False
+        
 dump_results
 =
 False
+        
 intree_tool
 =
 False
+        
 checker_names
 =
 [
@@ -12383,6 +12396,8 @@ install
         
 self
         
+command_context
+        
 source
 =
 None
@@ -12497,6 +12512,7 @@ def
 clear_cache
 (
 self
+command_context
 verbose
 =
 False
@@ -12634,6 +12650,7 @@ def
 print_checks
 (
 self
+command_context
 verbose
 =
 False
@@ -12935,6 +12952,7 @@ def
 prettier_format
 (
 self
+command_context
 path
 assume_filename
 )
@@ -13180,6 +13198,7 @@ def
 check_syntax
 (
 self
+command_context
 source
 verbose
 =
@@ -14239,6 +14258,8 @@ clang_format
 (
         
 self
+        
+command_context
         
 assume_filename
         
@@ -15478,6 +15499,7 @@ builder
 .
 configure
 (
+self
 )
             
 if
@@ -15668,6 +15690,10 @@ builder
 .
 build_backend
 (
+                
+self
+.
+_mach_context
 [
 "
 StaticAnalysis
@@ -15676,6 +15702,7 @@ StaticAnalysis
 verbose
 =
 verbose
+            
 )
             
 if

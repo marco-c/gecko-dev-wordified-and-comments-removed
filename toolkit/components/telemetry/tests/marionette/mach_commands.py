@@ -338,6 +338,7 @@ def
 telemetry_test
 (
 self
+command_context
 tests
 *
 *

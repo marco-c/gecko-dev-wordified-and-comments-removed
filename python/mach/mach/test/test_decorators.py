@@ -171,6 +171,7 @@ def
 run_foo
 (
 self
+command_context
 arg
 )
 :
@@ -276,11 +277,20 @@ def
 run_foo
 (
 self
+command_context
 )
 :
             
 assert
 self
+.
+metrics
+=
+=
+metrics_mock
+            
+assert
+command_context
 .
 metrics
 =
@@ -308,11 +318,20 @@ def
 run_subfoo
 (
 self
+command_context
 )
 :
             
 assert
 self
+.
+metrics
+=
+=
+metrics_mock
+            
+assert
+command_context
 .
 metrics
 =
@@ -435,6 +454,7 @@ def
 run_foo
 (
 self
+command_context
 )
 :
             
@@ -453,6 +473,30 @@ virtualenv_manager
 .
 virtualenv_root
 )
+=
+=
+"
+env_foo
+"
+            
+)
+            
+assert
+(
+                
+os
+.
+path
+.
+basename
+(
+command_context
+.
+virtualenv_manager
+.
+virtualenv_root
+)
+                
 =
 =
 "
@@ -489,6 +533,7 @@ def
 run_bar
 (
 self
+command_context
 )
 :
             
@@ -507,6 +552,30 @@ virtualenv_manager
 .
 virtualenv_root
 )
+=
+=
+"
+env_bar
+"
+            
+)
+            
+assert
+(
+                
+os
+.
+path
+.
+basename
+(
+command_context
+.
+virtualenv_manager
+.
+virtualenv_root
+)
+                
 =
 =
 "
@@ -600,6 +669,7 @@ def
 run_foo
 (
 self
+command_context
 )
 :
                 
@@ -643,6 +713,7 @@ def
 run_foo
 (
 self
+command_context
 )
 :
                 
