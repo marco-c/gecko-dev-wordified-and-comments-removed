@@ -19,8 +19,12 @@ traceback
 from
 typing
 import
+Any
 Dict
+Iterator
+List
 Optional
+Tuple
 from
 aioquic
 .
@@ -92,6 +96,10 @@ QuicConnectionProtocol
 global_dict
 :
 Dict
+[
+str
+Any
+]
 )
 :
         
@@ -210,9 +218,13 @@ __init__
 self
 *
 args
+:
+Any
 *
 *
 kwargs
+:
+Any
 )
 -
 >
@@ -234,15 +246,12 @@ kwargs
         
 self
 .
-streams
-=
-dict
-(
-)
-        
-self
-.
 pending_events
+:
+List
+[
+QuicEvent
+]
 =
 [
 ]
@@ -264,6 +273,11 @@ b
 self
 .
 handler
+:
+Optional
+[
+EventHandler
+]
 =
 None
     
@@ -384,6 +398,14 @@ self
 process_client_indication
 (
 )
+                    
+assert
+self
+.
+handler
+is
+not
+None
                     
 if
 self
@@ -513,7 +535,21 @@ parse_client_indication
 (
 self
 bs
+:
+io
+.
+BytesIO
 )
+-
+>
+Iterator
+[
+Tuple
+[
+int
+bytes
+]
+]
 :
         
 while
@@ -815,6 +851,12 @@ given
 '
 )
         
+assert
+origin_string
+is
+not
+None
+        
 if
 path
 is
@@ -831,6 +873,12 @@ is
 given
 '
 )
+        
+assert
+path_string
+is
+not
+None
         
 if
 origin
@@ -1030,10 +1078,16 @@ str
 )
 -
 >
-None
+EventHandler
 :
         
 global_dict
+:
+Dict
+[
+str
+Any
+]
 =
 {
 }
@@ -1204,8 +1258,15 @@ None
 def
 start
 (
+*
+*
 kwargs
+:
+Any
 )
+-
+>
+None
 :
     
 configuration
