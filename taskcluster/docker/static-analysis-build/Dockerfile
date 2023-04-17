@@ -191,6 +191,10 @@ full
 \
 procps
 \
+python2
+.
+7
+\
 python3
 -
 dev
