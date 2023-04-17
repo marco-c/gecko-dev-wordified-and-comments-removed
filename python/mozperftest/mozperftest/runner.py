@@ -375,6 +375,22 @@ third_party
 /
 python
 /
+certifi
+"
+    
+"
+third_party
+/
+python
+/
+chardet
+"
+    
+"
+third_party
+/
+python
+/
 distro
 "
     
@@ -392,6 +408,14 @@ third_party
 python
 /
 esprima
+"
+    
+"
+third_party
+/
+python
+/
+idna
 "
     
 "
@@ -458,6 +482,26 @@ third_party
 python
 /
 six
+"
+    
+"
+third_party
+/
+python
+/
+typing_extensions
+/
+src_py3
+"
+    
+"
+third_party
+/
+python
+/
+urllib3
+/
+src
 "
     
 "
