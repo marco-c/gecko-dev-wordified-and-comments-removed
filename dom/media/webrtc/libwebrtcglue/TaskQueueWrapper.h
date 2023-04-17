@@ -510,6 +510,8 @@ absl
 :
 string_view
 aName
+bool
+aSupportTailDispatch
 Priority
 aPriority
 )
@@ -550,6 +552,7 @@ name
 get
 (
 )
+aSupportTailDispatch
 )
 ;
 return
@@ -595,6 +598,12 @@ aPriority
 const
 override
 {
+constexpr
+bool
+supportTailDispatch
+=
+false
+;
 return
 std
 :
@@ -620,6 +629,7 @@ move
 (
 aName
 )
+supportTailDispatch
 aPriority
 )
 .
