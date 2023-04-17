@@ -312,11 +312,6 @@ aFullscreen
 )
 ;
 void
-NoteMouseMove
-(
-)
-;
-void
 NoteMouseMoveAtTime
 (
 const
@@ -434,6 +429,10 @@ aFn
 void
 UpdateMouseMovedRecently
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 ;
 Mutex
