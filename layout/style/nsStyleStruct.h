@@ -8317,9 +8317,9 @@ mozilla
 StylePointerEvents
 GetEffectivePointerEvents
 (
+const
 nsIFrame
 *
-aFrame
 )
 const
 ;

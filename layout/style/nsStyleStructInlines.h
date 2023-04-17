@@ -1046,6 +1046,7 @@ nsStyleUI
 :
 GetEffectivePointerEvents
 (
+const
 nsIFrame
 *
 aFrame
