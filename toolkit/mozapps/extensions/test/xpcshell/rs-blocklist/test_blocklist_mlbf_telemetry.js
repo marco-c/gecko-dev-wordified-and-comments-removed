@@ -626,6 +626,15 @@ loadBlocklistRawData
 extensionsMLBF
 :
 [
+{
+last_modified
+:
+Date
+.
+now
+(
+)
+}
 ]
 }
 )
