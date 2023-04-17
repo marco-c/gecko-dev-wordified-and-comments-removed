@@ -3947,9 +3947,7 @@ sgn
 )
 &
 &
-variants
-(
-)
+variants_
 .
 length
 (
@@ -4594,9 +4592,7 @@ println
   
 if
 (
-variants
-(
-)
+variants_
 .
 length
 (
