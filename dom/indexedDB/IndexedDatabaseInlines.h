@@ -20,7 +20,7 @@ endif
 #
 include
 "
-DatabaseFileManager
+DatabaseFileInfo
 .
 h
 "

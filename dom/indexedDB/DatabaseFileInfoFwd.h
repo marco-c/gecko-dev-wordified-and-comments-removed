@@ -29,9 +29,6 @@ DatabaseFileInfo
 =
 FileInfo
 <
-indexedDB
-:
-:
 DatabaseFileManager
 >
 ;
