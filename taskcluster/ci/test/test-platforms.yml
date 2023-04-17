@@ -960,10 +960,6 @@ capture
 -
 windows
 -
-tests
--
-windows
--
 ccov
 -
 tests
@@ -1019,10 +1015,6 @@ test
 sets
 :
 -
-windows
--
-tests
--
 windows10
 -
 tests
@@ -1049,10 +1041,6 @@ sets
 windows
 -
 talos
--
-windows
--
-tests
 -
 windows10
 -
@@ -1159,10 +1147,6 @@ windows
 -
 talos
 -
-windows
--
-tests
--
 windows10
 -
 tests
@@ -1200,10 +1184,6 @@ test
 sets
 :
 -
-windows
--
-tests
--
 windows10
 -
 tests
@@ -1230,10 +1210,6 @@ test
 -
 sets
 :
--
-windows
--
-tests
 -
 windows10
 -
