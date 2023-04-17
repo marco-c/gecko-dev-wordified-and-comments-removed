@@ -3077,7 +3077,7 @@ MACRO
 (
 _
 GCHeapDecommitted
-gcHeapDecommittedArenas
+gcHeapDecommittedPages
 )
 \
 MACRO

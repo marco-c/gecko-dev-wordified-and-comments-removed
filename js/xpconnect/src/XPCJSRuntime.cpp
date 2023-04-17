@@ -10844,12 +10844,12 @@ heap
 /
 decommitted
 -
-arenas
+pages
 "
 _ns
 rtStats
 .
-gcHeapDecommittedArenas
+gcHeapDecommittedPages
 "
 GC
 arenas

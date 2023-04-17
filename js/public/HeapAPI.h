@@ -419,7 +419,7 @@ Arena
 freeArenasHead
 ;
 uint32_t
-lastDecommittedArenaOffset
+lastDecommittedPageOffset
 ;
 uint32_t
 numArenasFree
@@ -842,7 +842,7 @@ mozilla
 :
 BitSet
 <
-ArenasPerChunk
+PagesPerChunk
 uint32_t
 >
 ;
@@ -861,7 +861,7 @@ MarkBitmap
 markBits
 ;
 DecommitBitmap
-decommittedArenas
+decommittedPages
 ;
 protected
 :

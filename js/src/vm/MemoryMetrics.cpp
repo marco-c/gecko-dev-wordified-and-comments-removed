@@ -78,6 +78,15 @@ h
 #
 include
 "
+js
+/
+HeapAPI
+.
+h
+"
+#
+include
+"
 util
 /
 Text
@@ -1104,7 +1113,7 @@ anon
 ;
 static
 void
-DecommittedArenasChunkCallback
+DecommittedPagesChunkCallback
 (
 JSRuntime
 *
@@ -1140,7 +1149,7 @@ word
 chunk
 -
 >
-decommittedArenas
+decommittedPages
 .
 Storage
 (
@@ -1175,7 +1184,7 @@ n
 gc
 :
 :
-ArenaSize
+PageSize
 ;
 }
 static
@@ -3696,8 +3705,8 @@ cx
 rtStats
 -
 >
-gcHeapDecommittedArenas
-DecommittedArenasChunkCallback
+gcHeapDecommittedPages
+DecommittedPagesChunkCallback
 )
 ;
 }
@@ -4111,7 +4120,7 @@ gcHeapChunkTotal
 rtStats
 -
 >
-gcHeapDecommittedArenas
+gcHeapDecommittedPages
 -
 rtStats
 -
