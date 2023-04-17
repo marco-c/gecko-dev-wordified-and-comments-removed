@@ -262,6 +262,16 @@ Map
 [
 [
 "
+_execute_action
+"
+"
+shortcuts
+-
+browserAction2
+"
+]
+[
+"
 _execute_browser_action
 "
 "
