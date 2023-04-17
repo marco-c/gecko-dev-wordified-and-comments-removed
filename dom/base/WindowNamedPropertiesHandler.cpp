@@ -241,10 +241,10 @@ reset
 ;
 if
 (
-!
-JSID_IS_STRING
-(
 aId
+.
+isSymbol
+(
 )
 )
 {
@@ -376,10 +376,7 @@ str
 init
 (
 aCx
-JSID_TO_STRING
-(
 aId
-)
 )
 )
 {
