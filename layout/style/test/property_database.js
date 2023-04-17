@@ -38684,6 +38684,16 @@ moz
 -
 visitedhyperlinktext
 "
+"
+-
+webkit
+-
+focus
+-
+ring
+-
+color
+"
 ]
 invalid_values
 :
