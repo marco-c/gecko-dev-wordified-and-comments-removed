@@ -2098,6 +2098,9 @@ topobjdir
 gradle
 "
 )
+ignore_errors
+=
+True
 )
         
 return
