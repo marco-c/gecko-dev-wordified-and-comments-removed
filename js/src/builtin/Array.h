@@ -648,9 +648,6 @@ Shape
 *
 arrayConstructorShape_
 ;
-#
-ifdef
-DEBUG
 MOZ_INIT_OUTSIDE_CTOR
 Shape
 *
@@ -661,8 +658,6 @@ JSFunction
 *
 canonicalSpeciesFunc_
 ;
-#
-endif
 MOZ_INIT_OUTSIDE_CTOR
 Shape
 *
