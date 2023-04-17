@@ -1344,7 +1344,7 @@ PredicateList
 {
 public
 :
-nsresult
+void
 add
 (
 Expr
@@ -1367,9 +1367,6 @@ AppendElement
 (
 aExpr
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
