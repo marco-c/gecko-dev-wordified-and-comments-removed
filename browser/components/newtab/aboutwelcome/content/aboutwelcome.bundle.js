@@ -6457,6 +6457,9 @@ render
 const
 {
 content
+totalNumberOfScreens
+:
+total
 }
 =
 this
@@ -7071,6 +7074,11 @@ handleAction
 null
 !
 isWelcomeScreen
+&
+&
+total
+>
+1
 ?
 react__WEBPACK_IMPORTED_MODULE_0___default
 .
@@ -7125,12 +7133,6 @@ props
 .
 order
 total
-:
-this
-.
-props
-.
-totalNumberOfScreens
 }
 )
 }
@@ -7180,11 +7182,7 @@ order
 1
 totalNumberOfScreens
 :
-this
-.
-props
-.
-totalNumberOfScreens
+total
 }
 )
 )

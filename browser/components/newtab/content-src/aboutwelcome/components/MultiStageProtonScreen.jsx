@@ -112,6 +112,9 @@ render
 const
 {
 content
+totalNumberOfScreens
+:
+total
 }
 =
 this
@@ -593,6 +596,11 @@ null
 {
 !
 isWelcomeScreen
+&
+&
+total
+>
+1
 ?
 (
 <
@@ -639,12 +647,6 @@ props
 .
 order
 total
-:
-this
-.
-props
-.
-totalNumberOfScreens
 }
 )
 }
@@ -693,11 +695,7 @@ order
 totalNumberOfScreens
 =
 {
-this
-.
-props
-.
-totalNumberOfScreens
+total
 }
 /
 >
