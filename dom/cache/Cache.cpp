@@ -835,6 +835,7 @@ response
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
 (
 UNWRAP_OBJECT
 (

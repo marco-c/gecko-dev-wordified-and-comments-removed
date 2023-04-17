@@ -2924,6 +2924,8 @@ migrating
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 aConn
 .
 ExecuteSimpleSQL
@@ -2932,6 +2934,7 @@ ExecuteSimpleSQL
 VACUUM
 "
 _ns
+)
 )
 QM_PROPAGATE
 (
