@@ -190,7 +190,6 @@ label
 Close
 Tabs
 to
-the
 Left
 .
 accesskey
@@ -278,7 +277,6 @@ label
 Close
 Tabs
 to
-the
 Right
 .
 accesskey
