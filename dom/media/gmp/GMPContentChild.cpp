@@ -274,10 +274,6 @@ GMPContentChild
 :
 AllocPChromiumCDMChild
 (
-const
-nsCString
-&
-aKeySystem
 )
 {
 return
@@ -523,10 +519,6 @@ RecvPChromiumCDMConstructor
 PChromiumCDMChild
 *
 aActor
-const
-nsCString
-&
-aKeySystem
 )
 {
 ChromiumCDMChild
@@ -569,7 +561,6 @@ CHROMIUM_CDM_API
 host10
 &
 cdm
-aKeySystem
 )
 ;
 if

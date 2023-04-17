@@ -190,10 +190,11 @@ const
 NodeIdParts
 &
 aNodeIdParts
-const
-nsACString
-&
-aKeySystem
+nsTArray
+<
+nsCString
+>
+aTags
 GMPCrashHelper
 *
 aHelper

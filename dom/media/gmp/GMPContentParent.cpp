@@ -936,10 +936,6 @@ GMPContentParent
 :
 GetChromiumCDM
 (
-const
-nsCString
-&
-aKeySystem
 )
 {
 GMP_LOG_DEBUG
@@ -954,18 +950,9 @@ this
 =
 %
 p
-aKeySystem
-=
-%
-s
 )
 "
 this
-aKeySystem
-.
-get
-(
-)
 )
 ;
 RefPtr
@@ -989,7 +976,6 @@ if
 SendPChromiumCDMConstructor
 (
 parent
-aKeySystem
 )
 )
 {

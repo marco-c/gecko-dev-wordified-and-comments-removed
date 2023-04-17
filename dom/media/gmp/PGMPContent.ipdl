@@ -71,8 +71,6 @@ PGMPVideoEncoder
 async
 PChromiumCDM
 (
-nsCString
-aKeySystem
 )
 ;
 #
