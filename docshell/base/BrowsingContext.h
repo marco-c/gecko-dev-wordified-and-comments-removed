@@ -4730,7 +4730,7 @@ ContentParent
 aSource
 )
 ;
-CanSetResult
+bool
 CanSet
 (
 FieldIndex
@@ -4874,7 +4874,7 @@ ContentParent
 aSource
 )
 ;
-CanSetResult
+bool
 CanSet
 (
 FieldIndex
@@ -5025,6 +5025,14 @@ FieldIndex
 <
 IDX_IsInBFCache
 >
+)
+;
+bool
+LegacyCheckOnlyOwningProcessCanSet
+(
+ContentParent
+*
+aSource
 )
 ;
 CanSetResult

@@ -2783,6 +2783,10 @@ ipc
 IPCResult
 RecvWillChangeProcess
 (
+WillChangeProcessResolver
+&
+&
+aResolve
 )
 ;
 PPluginWidgetChild

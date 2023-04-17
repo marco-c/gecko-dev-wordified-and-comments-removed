@@ -4715,6 +4715,10 @@ BrowserChild
 :
 RecvWillChangeProcess
 (
+WillChangeProcessResolver
+&
+&
+aResolve
 )
 {
 if
@@ -4730,6 +4734,11 @@ SetWillChangeProcess
 )
 ;
 }
+aResolve
+(
+true
+)
+;
 return
 IPC_OK
 (
