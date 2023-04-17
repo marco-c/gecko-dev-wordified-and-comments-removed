@@ -823,6 +823,14 @@ MOZ_WIDGET_TOOLKIT
 gtk
 "
 :
+USE_LIBS
++
+=
+[
+"
+mozgtk
+"
+]
 OS_LIBS
 +
 =
