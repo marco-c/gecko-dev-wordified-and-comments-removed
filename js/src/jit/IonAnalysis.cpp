@@ -14725,6 +14725,12 @@ case
 MIRType
 :
 :
+Shape
+:
+case
+MIRType
+:
+:
 MagicOptimizedArguments
 :
 case
@@ -14789,12 +14795,6 @@ MIRType
 :
 :
 Pointer
-:
-case
-MIRType
-:
-:
-Shape
 :
 case
 MIRType
