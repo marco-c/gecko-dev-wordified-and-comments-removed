@@ -331,7 +331,7 @@ self
 cache
 accessorName
 "
-Char
+String
 "
 prefsRoot
 prefName
