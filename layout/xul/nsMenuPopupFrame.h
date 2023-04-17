@@ -784,6 +784,15 @@ ePopupShown
 ;
 }
 bool
+IsNativeMenu
+(
+)
+{
+return
+mIsNativeMenu
+;
+}
+bool
 IsMenuList
 (
 )
@@ -1756,6 +1765,11 @@ mHFlip
 ;
 bool
 mVFlip
+;
+bool
+mIsNativeMenu
+=
+false
 ;
 bool
 mPendingPositionedEvent

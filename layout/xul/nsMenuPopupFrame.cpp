@@ -3814,6 +3814,10 @@ mAdjustOffsetForContextMenu
 =
 false
 ;
+mIsNativeMenu
+=
+false
+;
 mVFlip
 =
 false
@@ -4610,6 +4614,10 @@ mAdjustOffsetForContextMenu
 =
 aIsContextMenu
 ;
+mIsNativeMenu
+=
+false
+;
 mAnchorType
 =
 MenuPopupAnchorType_Point
@@ -4685,6 +4693,10 @@ mIsContextMenu
 true
 ;
 mAdjustOffsetForContextMenu
+=
+true
+;
+mIsNativeMenu
 =
 true
 ;
