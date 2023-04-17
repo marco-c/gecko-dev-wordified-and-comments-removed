@@ -87,6 +87,12 @@ cnkhg
 cnurc
 "
 }
+gaza
+{
+"
+gazastrp
+"
+}
 usnavajo
 {
 "
@@ -4022,7 +4028,7 @@ Gaza
 "
 {
 "
-gaza
+gazastrp
 "
 }
 "
