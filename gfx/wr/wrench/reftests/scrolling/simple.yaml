@@ -24,6 +24,13 @@ size
 100
 100
 ]
+clip
+-
+to
+-
+frame
+:
+true
 items
 :
 -
@@ -63,6 +70,13 @@ size
 100
 100
 ]
+clip
+-
+to
+-
+frame
+:
+true
 items
 :
 -

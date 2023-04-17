@@ -107,6 +107,13 @@ bounds
 1887
 1971
 ]
+clip
+-
+to
+-
+frame
+:
+true
 -
 "
 clip

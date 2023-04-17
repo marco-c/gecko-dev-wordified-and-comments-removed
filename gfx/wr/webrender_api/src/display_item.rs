@@ -1066,10 +1066,6 @@ struct
 ScrollFrameDisplayItem
 {
 pub
-clip_id
-:
-ClipId
-pub
 scroll_frame_id
 :
 SpatialId
@@ -1078,13 +1074,13 @@ content_rect
 :
 LayoutRect
 pub
-clip_rect
+frame_rect
 :
 LayoutRect
 pub
-parent_space_and_clip
+parent_space
 :
-SpaceAndClipInfo
+SpatialId
 pub
 external_id
 :

@@ -2116,7 +2116,7 @@ Maybe
 wr
 :
 :
-WrSpaceAndClip
+WrSpatialId
 >
 GetScrollIdForDefinedScrollLayer
 (
@@ -2134,7 +2134,7 @@ const
 wr
 :
 :
-WrSpaceAndClip
+WrSpatialId
 DefineScrollLayer
 (
 const
@@ -2153,7 +2153,7 @@ Maybe
 wr
 :
 :
-WrSpaceAndClip
+WrSpatialId
 >
 &
 aParent
@@ -3698,7 +3698,7 @@ ViewID
 wr
 :
 :
-WrSpaceAndClip
+WrSpatialId
 >
 mScrollIds
 ;

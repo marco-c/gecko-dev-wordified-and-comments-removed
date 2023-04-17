@@ -34,6 +34,13 @@ bounds
 500
 100
 ]
+clip
+-
+to
+-
+frame
+:
+true
 items
 :
 -

@@ -45,6 +45,13 @@ size
 500
 500
 ]
+clip
+-
+to
+-
+frame
+:
+true
 id
 :
 2

@@ -27,6 +27,13 @@ size
 95
 88
 ]
+clip
+-
+to
+-
+frame
+:
+true
 items
 :
 -

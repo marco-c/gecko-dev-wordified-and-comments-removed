@@ -66,6 +66,13 @@ offset
 0
 60
 ]
+clip
+-
+to
+-
+frame
+:
+true
 items
 :
 -
