@@ -13800,12 +13800,12 @@ true
 }
 Rooted
 <
-ShapePropertyVector
+PropertyInfoWithKeyVector
 >
 props
 (
 cx
-ShapePropertyVector
+PropertyInfoWithKeyVector
 (
 cx
 )
@@ -13977,7 +13977,7 @@ i
 -
 )
 {
-ShapePropertyWithKey
+PropertyInfoWithKey
 prop
 =
 props

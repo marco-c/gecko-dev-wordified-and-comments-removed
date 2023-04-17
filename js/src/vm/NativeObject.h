@@ -2017,7 +2017,7 @@ shape
 )
 ;
 }
-ShapePropertyWithKey
+PropertyInfoWithKey
 getLastProperty
 (
 )

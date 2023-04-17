@@ -17595,7 +17595,7 @@ GenericPrinter
 out
 )
 {
-ShapePropertyWithKey
+PropertyInfoWithKey
 prop
 =
 shape
