@@ -1665,6 +1665,14 @@ JSMSG_OVER_RECURSED
 ;
 if
 (
+maybecx
+-
+>
+isExceptionPending
+(
+)
+&
+&
 !
 maybecx
 -
