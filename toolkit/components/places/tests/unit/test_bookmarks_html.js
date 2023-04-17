@@ -1110,7 +1110,7 @@ skin
 /
 icons
 /
-warning
+delete
 .
 svg
 "
