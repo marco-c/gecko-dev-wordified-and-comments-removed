@@ -6075,6 +6075,11 @@ ExtensionEventManager
 .
 webidl
 "
+"
+ExtensionPort
+.
+webidl
+"
 ]
 if
 CONFIG
