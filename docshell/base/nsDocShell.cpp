@@ -29684,12 +29684,6 @@ aStatus
 )
 )
 {
-if
-(
-!
-mIsBeingDestroyed
-)
-{
 DisplayLoadError
 (
 aStatus
@@ -29698,7 +29692,6 @@ nullptr
 aChannel
 )
 ;
-}
 }
 else
 if
