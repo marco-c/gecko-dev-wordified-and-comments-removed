@@ -1706,6 +1706,12 @@ aPrincipal
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+nsresult
+RefreshResizers
+(
+)
+;
 protected
 :
 MOZ_CAN_RUN_SCRIPT
@@ -7899,6 +7905,11 @@ HideResizersInternal
 (
 )
 ;
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
 nsresult
 RefreshResizersInternal

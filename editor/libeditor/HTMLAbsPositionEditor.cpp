@@ -2906,6 +2906,13 @@ int32_t
 aY
 )
 {
+MOZ_ASSERT
+(
+IsEditActionDataAvailable
+(
+)
+)
+;
 nsresult
 rv
 =
@@ -3197,7 +3204,7 @@ newY
 ;
 rv
 =
-RefreshResizers
+RefreshResizersInternal
 (
 )
 ;
@@ -3211,7 +3218,7 @@ rv
 HTMLEditor
 :
 :
-RefreshResizers
+RefreshResizersInternal
 (
 )
 failed
