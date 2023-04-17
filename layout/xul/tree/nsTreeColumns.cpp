@@ -129,7 +129,7 @@ Element
 aElement
 )
 :
-mContent
+mElement
 (
 aElement
 )
@@ -225,7 +225,7 @@ nsTreeColumn
 NS_IMPL_CYCLE_COLLECTION_UNLINK_PRESERVED_WRAPPER
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mContent
+mElement
 )
 if
 (
@@ -258,7 +258,7 @@ nsTreeColumn
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mContent
+mElement
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -301,7 +301,7 @@ GetFrame
 )
 {
 return
-mContent
+mElement
 -
 >
 GetPrimaryFrame
@@ -723,7 +723,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-mContent
+mElement
 -
 >
 GetAttr
@@ -759,7 +759,7 @@ nsTreeUtils
 :
 GetColumnIndex
 (
-mContent
+mElement
 &
 mIndex
 )
@@ -882,7 +882,7 @@ Left
 }
 mIsPrimary
 =
-mContent
+mElement
 -
 >
 AttrValueIs
@@ -901,7 +901,7 @@ eCaseMatters
 ;
 mIsCycler
 =
-mContent
+mElement
 -
 >
 AttrValueIs
@@ -920,7 +920,7 @@ eCaseMatters
 ;
 mIsEditable
 =
-mContent
+mElement
 -
 >
 AttrValueIs
@@ -939,7 +939,7 @@ eCaseMatters
 ;
 mOverflow
 =
-mContent
+mElement
 -
 >
 AttrValueIs
@@ -982,7 +982,7 @@ nullptr
 ;
 switch
 (
-mContent
+mElement
 -
 >
 FindAttrValueIn
@@ -1041,7 +1041,7 @@ nullptr
 ;
 switch
 (
-mContent
+mElement
 -
 >
 FindAttrValueIn
@@ -1090,7 +1090,7 @@ GetParentObject
 const
 {
 return
-mContent
+mElement
 ;
 }
 JSObject
@@ -1139,7 +1139,7 @@ Element
 )
 {
 return
-mContent
+mElement
 ;
 }
 int32_t
@@ -1569,7 +1569,7 @@ HasNonEmptyAttr
 currCol
 -
 >
-mContent
+mElement
 kNameSpaceID_None
 nsGkAtoms
 :
@@ -1643,7 +1643,7 @@ if
 currCol
 -
 >
-mContent
+mElement
 -
 >
 AttrValueIs
@@ -1698,7 +1698,7 @@ HasNonEmptyAttr
 currCol
 -
 >
-mContent
+mElement
 kNameSpaceID_None
 nsGkAtoms
 :
@@ -1795,7 +1795,7 @@ if
 currCol
 -
 >
-mContent
+mElement
 =
 =
 aElement
