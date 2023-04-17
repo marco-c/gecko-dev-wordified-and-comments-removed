@@ -61,6 +61,15 @@ previewers
 js
 "
 "
+private
+-
+properties
+-
+iterator
+.
+js
+"
+"
 property
 -
 iterator
