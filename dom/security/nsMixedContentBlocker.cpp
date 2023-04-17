@@ -3732,10 +3732,6 @@ sss
 >
 IsSecureURI
 (
-nsISiteSecurityService
-:
-:
-HEADER_HSTS
 aURI
 0
 aOriginAttributes

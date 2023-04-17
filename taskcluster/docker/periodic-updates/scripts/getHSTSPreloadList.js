@@ -948,11 +948,6 @@ gSSService
 .
 processHeader
 (
-Ci
-.
-nsISiteSecurityService
-.
-HEADER_HSTS
 uri
 header
 secInfo

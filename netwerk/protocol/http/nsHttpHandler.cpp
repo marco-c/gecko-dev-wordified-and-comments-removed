@@ -14635,10 +14635,6 @@ sss
 >
 IsSecureURI
 (
-nsISiteSecurityService
-:
-:
-HEADER_HSTS
 aURI
 flags
 originAttributes
