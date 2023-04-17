@@ -22754,6 +22754,11 @@ diffG
 0
 )
 ;
+(
+void
+)
+diffG
+;
 #
 ifdef
 ENABLE_WASM_SIMD
