@@ -1539,7 +1539,7 @@ as
 libc
 :
 :
-c_ulong
+nfds_t
 1000
 )
 }
