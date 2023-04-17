@@ -122,7 +122,7 @@ commands
 .
 client
 commands
-resourceWatcher
+resourceCommand
 :
 commands
 .

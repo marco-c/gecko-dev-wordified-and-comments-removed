@@ -871,7 +871,7 @@ isTargetSwitching
 {
 targetFront
 .
-resourceWatcher
+resourceCommand
 =
 this
 ;

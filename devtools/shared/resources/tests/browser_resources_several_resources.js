@@ -44,7 +44,7 @@ tests
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -59,7 +59,7 @@ CONSOLE_MESSAGE
 ROOT_NODE
 }
 =
-resourceWatcher
+resourceCommand
 .
 TYPES
 ;
@@ -124,7 +124,7 @@ ROOT_NODE
 )
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -359,7 +359,7 @@ resources
 )
 ;
 await
-resourceWatcher
+resourceCommand
 .
 unwatchResources
 (
@@ -512,7 +512,7 @@ resources
 )
 ;
 await
-resourceWatcher
+resourceCommand
 .
 unwatchResources
 (
@@ -571,7 +571,7 @@ undefined
 "
 The
 resource
-watcher
+command
 should
 not
 watch

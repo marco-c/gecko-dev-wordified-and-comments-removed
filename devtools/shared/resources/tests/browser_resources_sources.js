@@ -72,7 +72,7 @@ text
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -165,12 +165,12 @@ availableResources
 ]
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .

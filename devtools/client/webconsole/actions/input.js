@@ -712,13 +712,13 @@ hasNetworkResourceCommandSupport
 =
 hud
 .
-resourceWatcher
+resourceCommand
 .
 hasResourceCommandSupport
 (
 hud
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -740,7 +740,7 @@ networkFront
 await
 hud
 .
-resourceWatcher
+resourceCommand
 .
 watcherFront
 .

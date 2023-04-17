@@ -75,7 +75,7 @@ constructor
 webConsoleFront
 actions
 owner
-resourceWatcher
+resourceCommand
 }
 )
 {
@@ -109,9 +109,9 @@ owner
 ;
 this
 .
-resourceWatcher
+resourceCommand
 =
-resourceWatcher
+resourceCommand
 ;
 this
 .
@@ -1673,13 +1673,13 @@ getStackTrace
 &
 this
 .
-resourceWatcher
+resourceCommand
 .
 hasResourceCommandSupport
 (
 this
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .

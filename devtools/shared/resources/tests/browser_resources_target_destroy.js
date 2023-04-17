@@ -29,7 +29,7 @@ Test
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -40,12 +40,12 @@ tab
 )
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
