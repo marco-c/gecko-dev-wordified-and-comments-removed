@@ -443,6 +443,10 @@ MacroAssembler
 &
 masm
 ;
+Decoder
+&
+decoder_
+;
 BaseOpIter
 iter_
 ;

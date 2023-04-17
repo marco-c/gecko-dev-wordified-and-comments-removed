@@ -40,6 +40,15 @@ WasmBCStk
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmConstants
+.
+h
+"
 namespace
 js
 {
@@ -1426,9 +1435,7 @@ return
 maxFramePushed_
 <
 =
-512
-*
-1024
+MaxFrameSize
 ;
 }
 struct
