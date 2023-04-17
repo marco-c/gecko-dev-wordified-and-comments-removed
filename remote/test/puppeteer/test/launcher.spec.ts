@@ -39,6 +39,7 @@ import
 {
 getTestState
 itOnlyRegularInstall
+itFailsWindows
 }
 from
 '
@@ -3914,7 +3915,7 @@ chrome
 }
 )
 ;
-it
+itFailsWindows
 (
 '
 should
