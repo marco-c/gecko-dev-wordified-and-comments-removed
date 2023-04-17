@@ -21,6 +21,9 @@ namespace
 ports
 {
 class
+UserMessageEvent
+;
+class
 UserMessage
 {
 public
@@ -81,6 +84,9 @@ virtual
 bool
 WillBeRoutedExternally
 (
+UserMessageEvent
+&
+event
 )
 ;
 virtual
