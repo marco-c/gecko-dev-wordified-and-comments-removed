@@ -20137,6 +20137,9 @@ sessionHistory
 if
 (
 sessionHistory
+?
+.
+count
 )
 {
 if
