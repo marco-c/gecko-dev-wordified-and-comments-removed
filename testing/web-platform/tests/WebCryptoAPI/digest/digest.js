@@ -1676,7 +1676,7 @@ worked
 for
 "
 +
-badName
+alg
 +
 "
 :
