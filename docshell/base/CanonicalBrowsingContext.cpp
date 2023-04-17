@@ -4223,15 +4223,6 @@ index
 mActiveEntry
 )
 ;
-shistory
--
->
-InternalSetRequestedIndex
-(
--
-1
-)
-;
 }
 }
 if
