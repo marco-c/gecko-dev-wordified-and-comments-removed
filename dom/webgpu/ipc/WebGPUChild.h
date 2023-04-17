@@ -538,7 +538,7 @@ ipc
 :
 :
 IPCResult
-RecvError
+RecvDeviceUncapturedError
 (
 RawId
 aDeviceId

@@ -1272,9 +1272,6 @@ enum
 GPUErrorFilter
 {
 "
-none
-"
-"
 out
 -
 of
@@ -1363,8 +1360,6 @@ GPUDeviceLostInfo
 >
 lost
 ;
-/
-/
 void
 pushErrorScope
 (
@@ -1372,8 +1367,9 @@ GPUErrorFilter
 filter
 )
 ;
-/
-/
+[
+NewObject
+]
 Promise
 <
 GPUError

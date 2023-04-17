@@ -5762,7 +5762,7 @@ IPCResult
 WebGPUChild
 :
 :
-RecvError
+RecvDeviceUncapturedError
 (
 RawId
 aDeviceId
