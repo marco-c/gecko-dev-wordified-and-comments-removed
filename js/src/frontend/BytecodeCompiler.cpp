@@ -5928,6 +5928,17 @@ function
 fun
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+fun
+-
+>
+isGhost
+(
+)
+)
+;
 AutoIncrementalTimer
 timer
 (
