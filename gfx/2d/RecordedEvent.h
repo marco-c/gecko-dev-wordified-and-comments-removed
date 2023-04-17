@@ -91,7 +91,7 @@ const
 uint16_t
 kMinorRevision
 =
-1
+2
 ;
 struct
 ReferencePtr
@@ -1526,6 +1526,7 @@ EXTERNALSURFACECREATION
 FLUSH
 DETACHALLSNAPSHOTS
 OPTIMIZESOURCESURFACE
+LINK
 LAST
 }
 ;
