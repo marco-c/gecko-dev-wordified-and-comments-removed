@@ -64,15 +64,6 @@ PropertyName
 name
 )
 ;
-PropertyName
-*
-GetClonedSelfHostedFunctionNameOffMainThread
-(
-JSFunction
-*
-fun
-)
-;
 constexpr
 char
 ExtendedUnclonedSelfHostedFunctionNamePrefix
