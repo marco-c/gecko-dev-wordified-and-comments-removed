@@ -2945,7 +2945,7 @@ nullable
 Foo
 &
 -
-already_addRefed
+already_AddRefed
 <
 Foo
 >
@@ -2969,7 +2969,7 @@ Foo
 *
 -
 |
-already_addRefed
+already_AddRefed
 <
 Foo
 >
@@ -15602,7 +15602,6 @@ ints
 in
 the
 array
-.
 .
 Sequence
 <
