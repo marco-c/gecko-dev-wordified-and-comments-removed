@@ -88,10 +88,6 @@ SubjectChanged
 SubjectMapped
 SubjectUnmapped
 SurfaceChanged
-ProgramTextureOrImageBindingChanged
-ProgramRelinked
-SamplerUniformsUpdated
-StorageReleased
 }
 ;
 class

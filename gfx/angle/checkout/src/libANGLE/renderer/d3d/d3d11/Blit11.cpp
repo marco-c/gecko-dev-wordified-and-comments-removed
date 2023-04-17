@@ -538,7 +538,7 @@ copySize
 =
 pixelSize
 *
-clippedDestArea
+destArea
 .
 width
 ;
@@ -554,7 +554,7 @@ pixelSize
 size_t
 destOffset
 =
-clippedDestArea
+destArea
 .
 x
 *
@@ -1058,9 +1058,6 @@ destArea
 height
 )
 ;
-if
-(
-!
 gl
 :
 :
@@ -1071,11 +1068,7 @@ clipRect
 &
 clippedDestArea
 )
-)
-{
-return
 ;
-}
 if
 (
 sourceArea

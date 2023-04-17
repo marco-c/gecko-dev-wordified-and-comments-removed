@@ -1,0 +1,13 @@
+#
+include
+"
+libANGLE
+/
+validationGL21_autogen
+.
+h
+"
+namespace
+gl
+{
+}

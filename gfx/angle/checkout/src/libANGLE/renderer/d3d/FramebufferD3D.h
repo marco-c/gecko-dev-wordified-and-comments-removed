@@ -382,10 +382,7 @@ filter
 )
 override
 ;
-gl
-:
-:
-FramebufferStatus
+bool
 checkStatus
 (
 const

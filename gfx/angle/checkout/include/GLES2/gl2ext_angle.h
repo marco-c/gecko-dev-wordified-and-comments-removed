@@ -5043,16 +5043,4 @@ GL_PURGED_CONTEXT_RESET_NV
 #
 endif
 #
-ifndef
-GL_ANGLE_get_serialized_context_string
-#
-define
-GL_ANGLE_get_serialized_context_string
-#
-define
-GL_SERIALIZED_CONTEXT_STRING_ANGLE
-0x96B0
-#
-endif
-#
 endif

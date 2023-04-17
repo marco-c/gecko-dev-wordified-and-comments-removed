@@ -2414,9 +2414,6 @@ T
 void
 setUniformImpl
 (
-D3DUniform
-*
-targetUniform
 const
 gl
 :
@@ -3002,7 +2999,7 @@ int
 gl
 :
 :
-IMPLEMENTATION_MAX_ATOMIC_COUNTER_BUFFER_BINDINGS
+IMPLEMENTATION_MAX_ATOMIC_COUNTER_BUFFERS
 >
 mComputeAtomicCounterBufferRegisterIndices
 ;

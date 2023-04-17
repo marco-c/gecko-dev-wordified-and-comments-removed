@@ -57,7 +57,8 @@ ShaderVariable
 >
 InitVariableList
 ;
-void
+TIntermSequence
+*
 CreateInitCode
 (
 const
@@ -68,9 +69,6 @@ bool
 canUseLoopsToInitialize
 bool
 highPrecisionSupported
-TIntermSequence
-*
-initCode
 TSymbolTable
 *
 symbolTable

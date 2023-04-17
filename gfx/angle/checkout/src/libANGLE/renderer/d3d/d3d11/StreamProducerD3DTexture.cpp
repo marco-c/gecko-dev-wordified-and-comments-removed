@@ -533,7 +533,6 @@ StreamProducerD3DTexture
 :
 validateD3DTexture
 (
-const
 void
 *
 pointer
@@ -557,14 +556,7 @@ ID3D11Texture2D
 *
 >
 (
-const_cast
-<
-void
-*
->
-(
 pointer
-)
 )
 ;
 ID3D11Device
