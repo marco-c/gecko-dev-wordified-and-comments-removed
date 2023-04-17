@@ -6118,6 +6118,7 @@ let
 browsingContext
 rect
 background
+resetScrollPosition
 }
 =
 aMessage
@@ -6136,6 +6137,7 @@ rect
 .
 0
 background
+resetScrollPosition
 )
 .
 then
