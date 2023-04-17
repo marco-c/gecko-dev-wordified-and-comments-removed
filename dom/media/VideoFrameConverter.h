@@ -545,12 +545,7 @@ Serial
 2
 )
 {
-FrameToProcess
-f
-=
 mLastFrameQueuedForProcessing
-;
-f
 .
 mTime
 =
@@ -563,13 +558,7 @@ Now
 ;
 ProcessVideoFrame
 (
-std
-:
-:
-move
-(
-f
-)
+mLastFrameQueuedForProcessing
 )
 ;
 }
