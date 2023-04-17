@@ -1190,13 +1190,6 @@ widthRatio
 ;
 if
 (
-widthRatio
-<
-0
-.
-9
-&
-&
 targetHeight
 <
 rect
