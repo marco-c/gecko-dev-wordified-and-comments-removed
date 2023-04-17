@@ -864,6 +864,7 @@ d
 SetLoadedAsData
 (
 aLoadedAsData
+true
 )
 ;
 d
@@ -1146,6 +1147,7 @@ doc
 SetLoadedAsData
 (
 aLoadedAsData
+true
 )
 ;
 doc

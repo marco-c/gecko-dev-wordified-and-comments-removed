@@ -700,6 +700,7 @@ doc
 SetLoadedAsData
 (
 aLoadedAsData
+true
 )
 ;
 doc
