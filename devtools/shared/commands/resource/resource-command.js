@@ -1763,8 +1763,9 @@ watcherFront
 )
 ;
 }
-if
-(
+const
+isWillNavigate
+=
 resourceType
 =
 =
@@ -1785,6 +1786,10 @@ will
 -
 navigate
 "
+;
+if
+(
+isWillNavigate
 &
 &
 resource
@@ -1855,6 +1860,12 @@ resourceType
 resource
 )
 ;
+if
+(
+!
+isWillNavigate
+)
+{
 this
 .
 _cache
@@ -1864,6 +1875,7 @@ push
 resource
 )
 ;
+}
 }
 if
 (
