@@ -740,7 +740,7 @@ mRefreshDriver
 mBrowserChild
 -
 >
-ProcessPendingColaescedTouchData
+ProcessPendingCoalescedTouchData
 (
 )
 ;
