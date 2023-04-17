@@ -215,7 +215,7 @@ set_up_basic_ping
 )
 ;
 let
-content
+ping
 =
 ping_maker
 .
@@ -226,6 +226,10 @@ glean
 &
 ping_type
 None
+"
+"
+"
+"
 )
 .
 unwrap
@@ -235,6 +239,8 @@ unwrap
 let
 ping_info
 =
+ping
+.
 content
 [
 "
@@ -356,7 +362,7 @@ set_up_basic_ping
 )
 ;
 let
-content
+ping
 =
 ping_maker
 .
@@ -367,6 +373,10 @@ glean
 &
 ping_type
 None
+"
+"
+"
+"
 )
 .
 unwrap
@@ -376,6 +386,8 @@ unwrap
 let
 ping_info
 =
+ping
+.
 content
 [
 "
@@ -465,7 +477,7 @@ set_up_basic_ping
 )
 ;
 let
-content
+ping
 =
 ping_maker
 .
@@ -476,6 +488,10 @@ glean
 &
 ping_type
 None
+"
+"
+"
+"
 )
 .
 unwrap
@@ -485,6 +501,8 @@ unwrap
 let
 client_info
 =
+ping
+.
 content
 [
 "
@@ -577,6 +595,10 @@ glean
 &
 unknown_ping_type
 None
+"
+"
+"
+"
 )
 .
 is_none
@@ -720,7 +742,7 @@ vec
 )
 ;
 let
-content
+ping
 =
 ping_maker
 .
@@ -731,6 +753,10 @@ glean
 &
 ping_type
 None
+"
+"
+"
+"
 )
 .
 unwrap
@@ -740,6 +766,8 @@ unwrap
 let
 seq_num
 =
+ping
+.
 content
 [
 "
@@ -790,7 +818,7 @@ vec
 )
 ;
 let
-content
+ping
 =
 ping_maker
 .
@@ -801,6 +829,10 @@ glean
 &
 ping_type
 None
+"
+"
+"
+"
 )
 .
 unwrap
@@ -810,6 +842,8 @@ unwrap
 let
 seq_num
 =
+ping
+.
 content
 [
 "
@@ -838,7 +872,7 @@ seq_num
 )
 ;
 let
-content
+ping
 =
 ping_maker
 .
@@ -849,6 +883,10 @@ glean
 &
 ping_type
 None
+"
+"
+"
+"
 )
 .
 unwrap
@@ -858,6 +896,8 @@ unwrap
 let
 seq_num
 =
+ping
+.
 content
 [
 "
@@ -907,7 +947,7 @@ vec
 )
 ;
 let
-content
+ping
 =
 ping_maker
 .
@@ -918,6 +958,10 @@ glean
 &
 ping_type
 None
+"
+"
+"
+"
 )
 .
 unwrap
@@ -927,6 +971,8 @@ unwrap
 let
 seq_num
 =
+ping
+.
 content
 [
 "
@@ -976,7 +1022,7 @@ vec
 )
 ;
 let
-content
+ping
 =
 ping_maker
 .
@@ -987,6 +1033,10 @@ glean
 &
 ping_type
 None
+"
+"
+"
+"
 )
 .
 unwrap
@@ -996,6 +1046,8 @@ unwrap
 let
 seq_num
 =
+ping
+.
 content
 [
 "
