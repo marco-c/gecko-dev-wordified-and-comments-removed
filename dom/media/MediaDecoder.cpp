@@ -6012,7 +6012,6 @@ GetBuffered
 )
 ;
 }
-else
 if
 (
 !
@@ -6030,7 +6029,6 @@ TimeIntervals
 )
 ;
 }
-else
 if
 (
 !
@@ -6045,8 +6043,6 @@ GetBuffered
 )
 ;
 }
-else
-{
 return
 media
 :
@@ -6087,7 +6083,6 @@ GetDuration
 )
 )
 ;
-}
 }
 void
 MediaDecoder
