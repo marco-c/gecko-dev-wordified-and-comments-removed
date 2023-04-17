@@ -29811,7 +29811,9 @@ signon
 .
 recipes
 .
-remoteRecipesEnabled
+remoteRecipes
+.
+enabled
 "
 true
 )
