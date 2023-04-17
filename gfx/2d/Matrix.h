@@ -9715,8 +9715,12 @@ rotation
 .
 SetFromRotationMatrix
 (
-*
 this
+-
+>
+ToUnknownMatrix
+(
+)
 )
 ;
 return

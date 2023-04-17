@@ -1595,10 +1595,6 @@ GetChildToParentConversionMatrix
 (
 )
 .
-ToUnknownMatrix
-(
-)
-.
 Decompose
 (
 translation
