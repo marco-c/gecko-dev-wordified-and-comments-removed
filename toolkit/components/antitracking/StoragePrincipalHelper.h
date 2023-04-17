@@ -135,6 +135,7 @@ PrincipalType
 eRegularPrincipal
 eStorageAccessPrincipal
 ePartitionedPrincipal
+eForeignPartitionedPrincipal
 }
 ;
 static
