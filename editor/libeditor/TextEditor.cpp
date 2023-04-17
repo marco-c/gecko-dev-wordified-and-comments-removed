@@ -748,7 +748,7 @@ rv
 NS_WARNING
 (
 "
-TextEditor
+EditorBase
 :
 :
 InitEditorContentAndSelection
