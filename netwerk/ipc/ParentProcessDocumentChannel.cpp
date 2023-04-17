@@ -937,7 +937,7 @@ Some
 (
 mIsXFOError
 )
-0
+nullptr
 &
 rv
 )
@@ -984,7 +984,7 @@ UserActivation
 IsHandlingUserInput
 (
 )
-0
+nullptr
 nullptr
 &
 rv
