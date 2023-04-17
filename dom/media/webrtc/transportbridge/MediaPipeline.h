@@ -1071,13 +1071,6 @@ PipelineListener
 >
 mListener
 ;
-const
-RefPtr
-<
-VideoFrameFeeder
->
-mFeeder
-;
 RefPtr
 <
 AudioProxyThread
@@ -1089,6 +1082,9 @@ RefPtr
 VideoFrameConverter
 >
 mConverter
+;
+MediaEventListener
+mFrameListener
 ;
 Watchable
 <
