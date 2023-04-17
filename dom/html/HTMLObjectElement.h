@@ -163,7 +163,11 @@ Reset
 (
 )
 override
+{
+return
+NS_OK
 ;
+}
 NS_IMETHOD
 SubmitNamesValues
 (
@@ -172,7 +176,11 @@ HTMLFormSubmission
 aFormSubmission
 )
 override
+{
+return
+NS_OK
 ;
+}
 virtual
 void
 DoneAddingChildren

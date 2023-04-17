@@ -3,11 +3,6 @@ XPIDL_SOURCES
 =
 [
 "
-nsIPluginDocument
-.
-idl
-"
-"
 nsIPluginHost
 .
 idl
