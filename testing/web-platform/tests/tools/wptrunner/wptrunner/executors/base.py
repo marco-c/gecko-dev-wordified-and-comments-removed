@@ -5824,6 +5824,9 @@ switch_to_window
 self
 .
 context
+self
+.
+initial_window
 )
     
 def
@@ -5871,17 +5874,6 @@ set_window
 self
 .
 initial_window
-)
-        
-self
-.
-protocol
-.
-testdriver
-.
-_switch_to_frame
-(
-None
 )
         
 self

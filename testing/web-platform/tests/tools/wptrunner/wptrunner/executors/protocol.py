@@ -2215,6 +2215,9 @@ switch_to_window
 (
 self
 wptrunner_id
+initial_window
+=
+None
 )
 :
         
@@ -2236,8 +2239,27 @@ param
 str
 wptrunner_id
 :
+Testdriver
+-
+specific
+id
+for
+the
+target
+window
+        
+:
+param
+str
+initial_window
+:
+WebDriver
 window
 id
+for
+the
+test
+window
 "
 "
 "
@@ -2249,6 +2271,22 @@ None
 :
             
 return
+        
+if
+initial_window
+is
+None
+:
+            
+initial_window
+=
+self
+.
+parent
+.
+base
+.
+current_window
         
 stack
 =
@@ -2270,6 +2308,10 @@ window_handles
 (
 )
 ]
+        
+first
+=
+True
         
 while
 stack
@@ -2305,6 +2347,16 @@ str
 )
 :
                 
+if
+not
+first
+or
+item
+!
+=
+initial_window
+:
+                    
 self
 .
 parent
@@ -2383,21 +2435,13 @@ length
 "
 )
             
-stack
-.
-append
-(
-None
-)
-            
 if
 frame_count
 :
                 
-stack
-.
-extend
-(
+for
+frame_id
+in
 reversed
 (
 range
@@ -2406,7 +2450,25 @@ range
 frame_count
 )
 )
+:
+                    
+stack
+.
+append
+(
+None
 )
+                    
+stack
+.
+append
+(
+frame_id
+)
+            
+first
+=
+False
         
 raise
 Exception
