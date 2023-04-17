@@ -339,12 +339,6 @@ bin
 :
 MOZ_FETCHES_DIR
 /
-mingw32
-/
-bin
-:
-MOZ_FETCHES_DIR
-/
 upx
 /
 bin
