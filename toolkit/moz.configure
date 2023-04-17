@@ -9909,14 +9909,6 @@ non_default_libs
 add
 (
 "
-hunspell
-"
-)
-non_default_libs
-.
-add
-(
-"
 ogg
 "
 )
