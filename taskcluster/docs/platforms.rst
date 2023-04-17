@@ -1066,7 +1066,14 @@ Identify
 threading
 issues
 with
+:
+ref
+:
 ThreadSanitizer
+<
+Thread
+Sanitizer
+>
 Linux
 x64
 asan
