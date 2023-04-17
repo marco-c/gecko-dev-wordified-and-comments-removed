@@ -2850,7 +2850,6 @@ return
 true
 ;
 }
-else
 if
 (
 fname
@@ -2897,8 +2896,6 @@ return
 true
 ;
 }
-else
-{
 if
 (
 !
@@ -3138,9 +3135,10 @@ aMsg
 fp
 )
 ;
+return
+true
+;
 }
-else
-{
 fprintf
 (
 stderr
@@ -3186,17 +3184,9 @@ log
 "
 )
 ;
-}
 #
 undef
 ENVVAR_PRINTF
-return
-stream
-!
-=
-nullptr
-;
-}
 }
 return
 false
