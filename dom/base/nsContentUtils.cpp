@@ -11322,7 +11322,7 @@ win
 xpc
 :
 :
-WindowOrNull
+WindowGlobalOrNull
 (
 aObject
 )
