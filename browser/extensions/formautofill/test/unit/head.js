@@ -756,7 +756,6 @@ FormAutofillStorage
 .
 jsm
 "
-null
 )
 ;
 let
