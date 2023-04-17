@@ -366,11 +366,11 @@ background
 -
 color
 :
-SelectedItem
+Highlight
 ;
 color
 :
-SelectedItemText
+HighlightText
 ;
 }
 .
@@ -661,7 +661,7 @@ background
 -
 color
 :
-SelectedItem
+Highlight
 ;
 background
 -

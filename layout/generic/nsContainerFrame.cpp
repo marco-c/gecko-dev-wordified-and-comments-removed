@@ -2359,7 +2359,7 @@ LookAndFeel
 ColorID
 :
 :
-Highlight
+TextSelectBackground
 ;
 }
 else

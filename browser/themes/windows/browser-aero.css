@@ -1787,11 +1787,11 @@ background
 -
 color
 :
-SelectedItem
+Highlight
 ;
 stroke
 :
-SelectedItemText
+HighlightText
 ;
 }
 .

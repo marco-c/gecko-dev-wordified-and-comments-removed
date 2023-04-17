@@ -222,11 +222,11 @@ background
 -
 color
 :
-SelectedItem
+Highlight
 ;
 color
 :
-SelectedItemText
+HighlightText
 ;
 }
 /
@@ -870,7 +870,7 @@ selected
 {
 fill
 :
-SelectedItemText
+HighlightText
 ;
 }
 /
