@@ -2915,6 +2915,8 @@ gSavedState
 ?
 .
 placements
+?
+.
 [
 CustomizableUI
 .
