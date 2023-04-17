@@ -2364,6 +2364,11 @@ GetId
 )
 )
 ;
+wr_api_stop_render_backend
+(
+mDocHandle
+)
+;
 layers
 :
 :
