@@ -243,6 +243,9 @@ CompositorVsyncDispatcher
 class
 LiveResizeListener
 ;
+class
+FallbackRenderer
+;
 #
 ifdef
 ACCESSIBILITY
@@ -1858,13 +1861,6 @@ gfxContext
 aTarget
 BufferMode
 aDoubleBuffering
-ScreenRotation
-aRotation
-=
-mozilla
-:
-:
-ROTATION_0
 )
 ;
 ~
@@ -2619,7 +2615,7 @@ CreateChildWindow
 )
 ;
 }
-LayerManager
+WindowRenderer
 *
 CreateBasicLayerManager
 (
@@ -2977,9 +2973,9 @@ mPreviouslyAttachedWidgetListener
 ;
 RefPtr
 <
-LayerManager
+WindowRenderer
 >
-mLayerManager
+mWindowRenderer
 ;
 RefPtr
 <

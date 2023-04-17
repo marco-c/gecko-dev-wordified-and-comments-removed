@@ -739,7 +739,7 @@ aOwnerInfo
 mBrowserParent
 -
 >
-AttachLayerManager
+AttachWindowRenderer
 (
 )
 ;

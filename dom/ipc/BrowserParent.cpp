@@ -4878,16 +4878,14 @@ bool
 BrowserParent
 :
 :
-AttachLayerManager
+AttachWindowRenderer
 (
 )
 {
 return
-!
-!
 mRemoteLayerTreeOwner
 .
-AttachLayerManager
+AttachWindowRenderer
 (
 )
 ;
@@ -4970,7 +4968,7 @@ if
 !
 mRemoteLayerTreeOwner
 .
-AttachLayerManager
+AttachWindowRenderer
 (
 )
 )

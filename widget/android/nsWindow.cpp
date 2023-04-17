@@ -12129,11 +12129,11 @@ GetWindowRenderer
 {
 if
 (
-mLayerManager
+mWindowRenderer
 )
 {
 return
-mLayerManager
+mWindowRenderer
 ;
 }
 if
@@ -12150,7 +12150,7 @@ mIsDisablingWebRender
 false
 ;
 return
-mLayerManager
+mWindowRenderer
 ;
 }
 return
@@ -12167,7 +12167,7 @@ CreateLayerManager
 {
 if
 (
-mLayerManager
+mWindowRenderer
 )
 {
 return
@@ -12236,7 +12236,7 @@ Height
 ;
 if
 (
-mLayerManager
+mWindowRenderer
 )
 {
 return
@@ -12272,7 +12272,7 @@ n
 "
 )
 ;
-mLayerManager
+mWindowRenderer
 =
 CreateBasicLayerManager
 (
