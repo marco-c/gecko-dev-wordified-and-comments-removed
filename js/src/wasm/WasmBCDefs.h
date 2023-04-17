@@ -436,6 +436,9 @@ JS_CODEGEN_X64
 define
 RABALDR_HAS_HEAPREG
 #
+define
+RABALDR_ZERO_EXTENDS
+#
 endif
 #
 ifdef
@@ -446,6 +449,9 @@ RABALDR_CHUNKY_STACK
 #
 define
 RABALDR_HAS_HEAPREG
+#
+define
+RABALDR_ZERO_EXTENDS
 #
 endif
 #
