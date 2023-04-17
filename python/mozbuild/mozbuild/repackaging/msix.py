@@ -2778,6 +2778,8 @@ Mozilla
 publisher
 =
 "
+CN
+=
 Mozilla
 Corporation
 "
@@ -2785,18 +2787,13 @@ Corporation
 friendly_name
 =
 "
-{
-}
+Mozilla
+Corporation
 MSIX
 Packaging
 Test
 Certificate
 "
-.
-format
-(
-publisher
-)
     
 crt_path
 =
@@ -3131,8 +3128,6 @@ Custom
 -
 Subject
 "
-CN
-=
 {
 }
 "
