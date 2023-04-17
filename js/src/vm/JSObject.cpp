@@ -14138,11 +14138,10 @@ isNothing
 )
 )
 ;
-holder
-.
-set
+MOZ_ASSERT
 (
-nullptr
+!
+holder
 )
 ;
 return
