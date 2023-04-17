@@ -421,7 +421,7 @@ false
 )
 ;
 await
-testCookieBlockingInfoStandard
+testCookieBlockingInfoStrict
 (
 "
 tp
@@ -432,12 +432,13 @@ cm
 fp
 stp
 lvl2
+rp
 "
 false
 )
 ;
 await
-testCookieBlockingInfoStandard
+testCookieBlockingInfoStrict
 (
 "
 tp
@@ -448,6 +449,7 @@ cm
 fp
 stp
 lvl2
+rp
 "
 true
 )
