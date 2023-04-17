@@ -807,11 +807,6 @@ toolbar_field_border
 :
 case
 "
-toolbar_field_separator
-"
-:
-case
-"
 toolbar_field_focus
 "
 :
