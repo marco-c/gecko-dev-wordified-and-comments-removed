@@ -2278,7 +2278,8 @@ env
 -
 >
 types
-.
+-
+>
 length
 (
 )
@@ -2299,6 +2300,8 @@ typeIndex
 {
 return
 &
+(
+*
 env
 -
 >
@@ -2306,6 +2309,7 @@ env
 -
 >
 types
+)
 [
 typeIndex
 ]
@@ -2514,6 +2518,8 @@ funcTypeIndex
 {
 return
 &
+(
+*
 env
 -
 >
@@ -2521,6 +2527,7 @@ env
 -
 >
 types
+)
 [
 funcTypeIndex
 ]
