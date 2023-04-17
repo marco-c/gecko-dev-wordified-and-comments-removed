@@ -21,6 +21,9 @@ nsContainerFrame
 h
 "
 class
+nsCSSBorderRenderer
+;
+class
 nsColumnSetFrame
 final
 :
