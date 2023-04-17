@@ -1692,7 +1692,7 @@ heap
 AllocKind
 kind
 =
-MapTypeToFinalizeKind
+MapTypeToAllocKind
 <
 JS
 :
@@ -2039,7 +2039,7 @@ size
 AllocKind
 kind
 =
-MapTypeToFinalizeKind
+MapTypeToAllocKind
 <
 T
 >

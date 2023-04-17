@@ -183,7 +183,7 @@ kind
 gc
 :
 :
-MapTypeToFinalizeKind
+MapTypeToAllocKind
 <
 StringT
 >

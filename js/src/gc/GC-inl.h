@@ -906,7 +906,7 @@ TenuredCell
 init
 (
 zone
-MapTypeToFinalizeKind
+MapTypeToAllocKind
 <
 GCType
 >
