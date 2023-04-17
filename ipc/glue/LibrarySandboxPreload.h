@@ -4,6 +4,13 @@ ipc_glue_LibrarySandboxPreload_h
 #
 define
 ipc_glue_LibrarySandboxPreload_h
+#
+include
+"
+nsString
+.
+h
+"
 namespace
 mozilla
 {
@@ -17,6 +24,11 @@ GetSandboxedGraphitePath
 ;
 nsAutoCString
 GetSandboxedOggPath
+(
+)
+;
+nsAutoCString
+GetSandboxedHunspellPath
 (
 )
 ;

@@ -6,6 +6,11 @@ define
 mozilla_ipc_ProcessUtils_h
 #
 include
+<
+vector
+>
+#
+include
 "
 FileDescriptor
 .

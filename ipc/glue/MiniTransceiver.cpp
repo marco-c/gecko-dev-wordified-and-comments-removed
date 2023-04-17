@@ -23,6 +23,17 @@ h
 #
 include
 "
+chrome
+/
+common
+/
+ipc_message_utils
+.
+h
+"
+#
+include
+"
 base
 /
 eintr_wrapper
@@ -104,6 +115,12 @@ errno
 .
 h
 >
+namespace
+mozilla
+:
+:
+ipc
+{
 static
 const
 size_t
@@ -1368,4 +1385,5 @@ msg
 return
 true
 ;
+}
 }

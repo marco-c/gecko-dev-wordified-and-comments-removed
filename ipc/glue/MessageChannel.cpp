@@ -8409,9 +8409,6 @@ false
 ;
 }
 }
-return
-true
-;
 }
 bool
 MessageChannel

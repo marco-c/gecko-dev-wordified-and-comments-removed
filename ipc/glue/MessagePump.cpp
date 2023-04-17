@@ -140,11 +140,6 @@ mozilla
 :
 ipc
 ;
-NS_DEFINE_NAMED_CID
-(
-NS_TIMER_CID
-)
-;
 #
 ifdef
 DEBUG

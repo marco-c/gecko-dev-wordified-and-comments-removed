@@ -43,6 +43,17 @@ PParentToChildStreamChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ipc
+/
+InputStreamUtils
+.
+h
+"
 namespace
 mozilla
 {

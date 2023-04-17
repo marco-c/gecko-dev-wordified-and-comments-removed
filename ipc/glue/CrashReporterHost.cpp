@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsICrashService
 .
 h
@@ -54,6 +61,13 @@ h
 include
 "
 nsXULAppAPI
+.
+h
+"
+#
+include
+"
+nsIFile
 .
 h
 "
@@ -955,6 +969,9 @@ break
 }
 RefPtr
 <
+dom
+:
+:
 Promise
 >
 promise

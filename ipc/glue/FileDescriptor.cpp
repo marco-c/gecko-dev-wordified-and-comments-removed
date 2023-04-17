@@ -21,6 +21,17 @@ mozilla
 /
 ipc
 /
+IPDLParamTraits
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 ProtocolMessageUtils
 .
 h

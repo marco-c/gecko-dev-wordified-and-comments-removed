@@ -542,6 +542,13 @@ pprio
 .
 h
 "
+#
+include
+"
+nsIThread
+.
+h
+"
 using
 mozilla
 :
