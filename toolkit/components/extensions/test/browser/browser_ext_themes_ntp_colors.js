@@ -592,6 +592,7 @@ test_support_ntp_colors
 (
 )
 {
+await
 SpecialPowers
 .
 setBoolPref
@@ -651,11 +652,6 @@ newtab
 about
 :
 home
-"
-"
-about
-:
-welcome
 "
 ]
 )
