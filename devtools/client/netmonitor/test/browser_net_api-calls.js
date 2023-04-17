@@ -109,7 +109,7 @@ REQUEST_URIS
 =
 [
 "
-http
+https
 :
 /
 /
@@ -124,7 +124,7 @@ fileName
 xml
 "
 "
-http
+https
 :
 /
 /
@@ -145,7 +145,7 @@ A2
 xml
 "
 "
-http
+https
 :
 /
 /
@@ -161,7 +161,7 @@ get
 /
 "
 "
-http
+https
 :
 /
 /
@@ -182,7 +182,7 @@ A2
 /
 "
 "
-http
+https
 :
 /
 /
