@@ -1400,7 +1400,7 @@ Truncate
 if
 (
 aSrcIndex
-=
+>
 =
 mSrcList
 .
