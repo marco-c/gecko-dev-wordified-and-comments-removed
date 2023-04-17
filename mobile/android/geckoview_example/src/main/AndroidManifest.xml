@@ -227,6 +227,17 @@ drawable
 /
 logo
 "
+android
+:
+name
+=
+"
+androidx
+.
+multidex
+.
+MultiDexApplication
+"
 >
 <
 uses
