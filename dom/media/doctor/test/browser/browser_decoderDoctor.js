@@ -54,6 +54,13 @@ browser
 {
 let
 awaitNotificationBar
+;
+if
+(
+notificationMessage
+)
+{
+awaitNotificationBar
 =
 BrowserTestUtils
 .
@@ -70,6 +77,7 @@ notification
 "
 )
 ;
+}
 await
 SpecialPowers
 .
