@@ -236,9 +236,7 @@ self
 .
 test_get_value
 (
-&
 glean
-&
 storage_name
 )
 }

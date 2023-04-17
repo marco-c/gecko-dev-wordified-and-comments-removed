@@ -554,7 +554,6 @@ end_time_data
 =
 local_now_with_offset_and_record
 (
-&
 glean
 )
 ;
