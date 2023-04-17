@@ -349,6 +349,10 @@ index
 ]
 }
 ]
+_cachedObjs
+:
+[
+]
 }
 ;
 }
@@ -621,6 +625,10 @@ state
 =
 {
 windows
+:
+[
+]
+_cachedObjs
 :
 [
 ]
@@ -973,6 +981,10 @@ state
 =
 {
 windows
+:
+[
+]
+_cachedObjs
 :
 [
 ]

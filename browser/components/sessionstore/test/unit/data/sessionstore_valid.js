@@ -5,4 +5,10 @@ windows
 :
 [
 ]
+"
+_cachedObjs
+"
+:
+[
+]
 }
