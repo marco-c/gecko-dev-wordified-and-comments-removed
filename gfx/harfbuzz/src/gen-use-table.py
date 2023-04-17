@@ -183,7 +183,7 @@ exit
 (
 __doc__
 )
-BLACKLISTED_BLOCKS
+DISABLED_BLOCKS
 =
 [
 	
@@ -1263,7 +1263,7 @@ v
 ]
 not
 in
-BLACKLISTED_BLOCKS
+DISABLED_BLOCKS
 }
 data
 =

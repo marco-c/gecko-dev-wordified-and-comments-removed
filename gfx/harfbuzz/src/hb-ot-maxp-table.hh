@@ -361,7 +361,9 @@ c
 plan
 -
 >
-drop_hints
+flags
+&
+HB_SUBSET_FLAGS_NO_HINTING
 )
 drop_hint_fields
 (

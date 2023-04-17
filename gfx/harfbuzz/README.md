@@ -76,7 +76,7 @@ harfbuzz
 /
 tree
 /
-master
+main
 .
 svg
 ?
@@ -102,7 +102,7 @@ harfbuzz
 /
 tree
 /
-master
+main
 )
 [
 !
@@ -273,7 +273,7 @@ harfbuzz
 /
 branch
 /
-master
+main
 /
 graph
 /

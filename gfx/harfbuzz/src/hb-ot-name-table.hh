@@ -1044,7 +1044,7 @@ name_records
 NameRecord
 *
 )
-calloc
+hb_calloc
 (
 it
 .
@@ -1125,7 +1125,7 @@ records
 src_string_pool
 )
 ;
-free
+hb_free
 (
 records
 .
@@ -1267,13 +1267,17 @@ namerecord
 )
 {
 return
+(
 c
 -
 >
 plan
 -
 >
-name_legacy
+flags
+&
+HB_SUBSET_FLAGS_NAME_LEGACY
+)
 |
 |
 namerecord

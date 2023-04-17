@@ -512,11 +512,13 @@ f
 )
 ;
 }
-protected
+public
 :
 Tag
 axisTag
 ;
+protected
+:
 HBFixed
 minValue
 ;
@@ -526,6 +528,8 @@ defaultValue
 HBFixed
 maxValue
 ;
+public
+:
 HBUINT16
 flags
 ;
@@ -1318,7 +1322,7 @@ nameids
 )
 ;
 }
-protected
+public
 :
 hb_array_t
 <

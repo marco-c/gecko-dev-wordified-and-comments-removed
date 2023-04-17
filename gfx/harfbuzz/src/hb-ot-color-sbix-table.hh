@@ -658,7 +658,6 @@ serializer
 >
 extend
 (
-*
 out
 num_output_glyphs
 +

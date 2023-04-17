@@ -458,7 +458,7 @@ funcs
 )
 return
 ;
-free
+hb_free
 (
 funcs
 )

@@ -19,6 +19,13 @@ subprocess
 shutil
 ragel
 =
+os
+.
+getenv
+(
+'
+RAGEL
+'
 shutil
 .
 which
@@ -26,6 +33,7 @@ which
 '
 ragel
 '
+)
 )
 if
 not
@@ -139,8 +147,13 @@ subprocess
 .
 Popen
 (
-[
 ragel
+.
+split
+(
+)
++
+[
 '
 -
 e

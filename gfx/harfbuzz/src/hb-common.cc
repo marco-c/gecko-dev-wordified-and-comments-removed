@@ -1047,7 +1047,7 @@ lang
 (
 hb_language_t
 )
-malloc
+hb_malloc
 (
 len
 )
@@ -1113,7 +1113,7 @@ fini
 (
 )
 {
-free
+hb_free
 (
 (
 void
@@ -1187,7 +1187,7 @@ fini
 (
 )
 ;
-free
+hb_free
 (
 first_lang
 )
@@ -1255,7 +1255,7 @@ lang
 hb_language_item_t
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -1299,7 +1299,7 @@ lang
 )
 )
 {
-free
+hb_free
 (
 lang
 )
@@ -1330,7 +1330,7 @@ fini
 (
 )
 ;
-free
+hb_free
 (
 lang
 )

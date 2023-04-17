@@ -40,7 +40,7 @@ ifdef
 HB_NO_OPEN
 #
 define
-hb_blob_create_from_file
+hb_blob_create_from_file_or_fail
 (
 x
 )
@@ -115,12 +115,17 @@ hb_blob_t
 *
 blob
 =
-hb_blob_create_from_file
+hb_blob_create_from_file_or_fail
 (
 argv
 [
 1
 ]
+)
+;
+assert
+(
+blob
 )
 ;
 hb_face_t

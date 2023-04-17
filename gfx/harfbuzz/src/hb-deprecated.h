@@ -131,16 +131,6 @@ hb_destroy_func_t
 destroy
 )
 ;
-HB_EXTERN
-HB_DEPRECATED
-void
-hb_set_invert
-(
-hb_set_t
-*
-set
-)
-;
 typedef
 unsigned
 int

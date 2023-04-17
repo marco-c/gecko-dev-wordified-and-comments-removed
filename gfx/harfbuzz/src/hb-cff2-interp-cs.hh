@@ -543,7 +543,7 @@ varStore
 >
 varStore
 .
-get_scalars
+get_region_scalars
 (
 get_ivs
 (

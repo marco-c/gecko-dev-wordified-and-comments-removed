@@ -168,7 +168,7 @@ fini
 (
 )
 {
-free
+hb_free
 (
 arrayZ
 )
@@ -1110,7 +1110,7 @@ new_array
 Type
 *
 )
-realloc
+hb_realloc
 (
 arrayZ
 new_allocated
@@ -1826,10 +1826,10 @@ int
 i
 =
 nullptr
-hb_bfind_not_found_t
+hb_not_found_t
 not_found
 =
-HB_BFIND_NOT_FOUND_DONT_STORE
+HB_NOT_FOUND_DONT_STORE
 unsigned
 int
 to_store

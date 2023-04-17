@@ -351,7 +351,7 @@ fini_shallow
 (
 )
 {
-free
+hb_free
 (
 items
 )
@@ -453,7 +453,7 @@ new_items
 item_t
 *
 )
-malloc
+hb_malloc
 (
 (
 size_t
@@ -591,7 +591,7 @@ i
 value
 )
 ;
-free
+hb_free
 (
 old_items
 )
@@ -782,6 +782,16 @@ clear
 (
 )
 {
+if
+(
+unlikely
+(
+!
+successful
+)
+)
+return
+;
 if
 (
 items
@@ -1118,6 +1128,7 @@ occupancy
 ;
 if
 (
+!
 items
 [
 i

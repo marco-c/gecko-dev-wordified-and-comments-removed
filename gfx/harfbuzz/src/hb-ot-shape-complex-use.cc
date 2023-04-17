@@ -779,7 +779,7 @@ use_plan
 use_shape_plan_t
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -867,7 +867,7 @@ arabic_plan
 )
 )
 {
-free
+hb_free
 (
 use_plan
 )
@@ -915,7 +915,7 @@ use_plan
 arabic_plan
 )
 ;
-free
+hb_free
 (
 data
 )

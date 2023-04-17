@@ -2786,13 +2786,13 @@ expected
 ;
 actual
 .
-free
+fini
 (
 )
 ;
 expected
 .
-free
+fini
 (
 )
 ;
@@ -3094,7 +3094,7 @@ length
 ;
 result
 .
-free
+fini
 (
 )
 ;
@@ -3224,7 +3224,7 @@ length
 ;
 result
 .
-free
+fini
 (
 )
 ;

@@ -110,7 +110,6 @@ c
 >
 extend
 (
-*
 this
 length
 )

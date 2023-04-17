@@ -1405,7 +1405,7 @@ p
 Stored
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -1448,7 +1448,7 @@ p
 Stored
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -1491,7 +1491,7 @@ fini
 (
 )
 ;
-free
+hb_free
 (
 p
 )

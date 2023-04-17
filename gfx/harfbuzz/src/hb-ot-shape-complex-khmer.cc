@@ -536,7 +536,7 @@ khmer_plan
 khmer_shape_plan_t
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -627,7 +627,7 @@ void
 data
 )
 {
-free
+hb_free
 (
 data
 )

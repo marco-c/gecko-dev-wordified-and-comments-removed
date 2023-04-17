@@ -45,6 +45,11 @@ repha_category
 =
 -
 1
+int
+dottedcircle_position
+=
+-
+1
 )
 ;
 #

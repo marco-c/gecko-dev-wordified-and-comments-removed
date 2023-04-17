@@ -100,13 +100,11 @@ shaper_list
 ;
 HB_INTERNAL
 void
-free
+fini
 (
 )
 {
-:
-:
-free
+hb_free
 (
 (
 void

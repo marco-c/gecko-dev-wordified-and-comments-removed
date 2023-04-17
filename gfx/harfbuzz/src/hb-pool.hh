@@ -60,9 +60,7 @@ _
 :
 chunks
 )
-:
-:
-free
+hb_free
 (
 _
 )
@@ -117,7 +115,7 @@ chunk
 chunk_t
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -187,7 +185,7 @@ obj
 ;
 }
 void
-free
+release
 (
 T
 *

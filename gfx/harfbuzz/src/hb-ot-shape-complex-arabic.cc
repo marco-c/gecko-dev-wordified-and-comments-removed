@@ -1092,7 +1092,7 @@ arabic_plan
 arabic_shape_plan_t
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -1262,7 +1262,7 @@ arabic_plan
 fallback_plan
 )
 ;
-free
+hb_free
 (
 data
 )

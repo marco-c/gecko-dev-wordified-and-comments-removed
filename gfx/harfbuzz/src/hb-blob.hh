@@ -311,7 +311,7 @@ hb_blob_destroy
 (
 b
 .
-get
+get_raw
 (
 )
 )

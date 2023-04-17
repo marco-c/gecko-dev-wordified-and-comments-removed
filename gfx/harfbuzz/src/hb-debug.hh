@@ -1554,10 +1554,13 @@ d
 "
 hb_printer_t
 <
+hb_decay
+<
 decltype
 (
 v
 )
+>
 >
 (
 )

@@ -612,7 +612,7 @@ ufuncs
 parent
 )
 ;
-free
+hb_free
 (
 ufuncs
 )

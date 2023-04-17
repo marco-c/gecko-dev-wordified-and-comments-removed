@@ -40,6 +40,13 @@ libs
 )
 ldd
 =
+os
+.
+getenv
+(
+'
+LDD
+'
 shutil
 .
 which
@@ -48,20 +55,21 @@ which
 ldd
 '
 )
+)
 if
+not
 ldd
 :
 	
-ldd
+otool
 =
-[
-ldd
-]
-else
-:
-	
-ldd
-=
+os
+.
+getenv
+(
+'
+OTOOL
+'
 shutil
 .
 which
@@ -70,20 +78,20 @@ which
 otool
 '
 )
+)
 	
 if
-ldd
+otool
 :
 		
 ldd
 =
-[
-ldd
+otool
++
 '
 -
 L
 '
-]
 	
 else
 :
@@ -226,6 +234,10 @@ subprocess
 check_output
 (
 ldd
+.
+split
+(
+)
 +
 [
 so
