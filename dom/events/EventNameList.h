@@ -1599,14 +1599,14 @@ eGamepadAxisMove
 EventNameType_None
 eBasicEventClass
 )
-NON_IDL_EVENT
+WINDOW_EVENT
 (
 gamepadconnected
 eGamepadConnected
 EventNameType_None
 eBasicEventClass
 )
-NON_IDL_EVENT
+WINDOW_EVENT
 (
 gamepaddisconnected
 eGamepadDisconnected
