@@ -5263,6 +5263,12 @@ new
 (
 )
 ;
+transaction
+.
+reset_dynamic_properties
+(
+)
+;
 unsafe
 {
 omta_sample
