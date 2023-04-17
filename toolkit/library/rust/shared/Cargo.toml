@@ -1678,6 +1678,11 @@ geckoservo
 /
 gecko_refcount_logging
 "
+"
+xpcom
+/
+gecko_refcount_logging
+"
 ]
 simd
 -
