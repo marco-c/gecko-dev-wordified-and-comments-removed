@@ -99,6 +99,8 @@ browserId
 :
 watcher
 .
+context
+.
 browserId
 sessionData
 :
@@ -185,6 +187,8 @@ browserId
 :
 watcher
 .
+context
+.
 browserId
 }
 )
@@ -249,6 +253,8 @@ actorID
 browserId
 :
 watcher
+.
+context
 .
 browserId
 type
@@ -321,6 +327,8 @@ actorID
 browserId
 :
 watcher
+.
+context
 .
 browserId
 type
