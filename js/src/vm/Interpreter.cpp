@@ -5135,7 +5135,7 @@ proto
 )
 {
 return
-CloneFunctionObject
+CloneFunctionReuseScript
 (
 cx
 fun
@@ -25740,7 +25740,7 @@ staticPrototype
 ;
 clone
 =
-CloneFunctionObject
+CloneFunctionReuseScript
 (
 cx
 fun
@@ -25825,7 +25825,7 @@ JSFunction
 *
 clone
 =
-CloneFunctionObject
+CloneFunctionReuseScript
 (
 cx
 fun
