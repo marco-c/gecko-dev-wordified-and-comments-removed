@@ -33731,7 +33731,7 @@ rootFrameParent
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 rootFrame
 &
