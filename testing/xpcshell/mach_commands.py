@@ -1555,7 +1555,7 @@ m
         
 driver
 =
-self
+command_context
 .
 _spawn
 (
@@ -1568,7 +1568,7 @@ install_tests
 (
 )
         
-self
+command_context
 .
 _ensure_state_subdir_exists
 (
@@ -1592,7 +1592,8 @@ log
 log_defaults
 =
 {
-self
+                
+command_context
 .
 _mach_context
 .
@@ -1611,6 +1612,7 @@ format
 sys
 .
 stdout
+            
 }
             
 fmt_defaults
@@ -1621,7 +1623,7 @@ fmt_defaults
 level
 "
 :
-self
+command_context
 .
 _mach_context
 .
@@ -1699,14 +1701,17 @@ cpu_count
 )
         
 if
+(
+            
 conditions
 .
 is_android
 (
-self
+command_context
 )
+            
 or
-self
+command_context
 .
 substs
 .
@@ -1721,6 +1726,8 @@ MOZ_BUILD_APP
 "
 b2g
 "
+        
+)
 :
             
 from
@@ -1771,13 +1778,16 @@ deviceSerial
 verify_android_device
 (
                 
-self
+command_context
+                
 network
 =
 True
+                
 install
 =
 install
+                
 device_serial
 =
 device_serial
@@ -1803,12 +1813,12 @@ adbPath
 =
 get_adb_path
 (
-self
+command_context
 )
             
 xpcshell
 =
-self
+command_context
 .
 _spawn
 (
@@ -1820,7 +1830,7 @@ else
             
 xpcshell
 =
-self
+command_context
 .
 _spawn
 (
@@ -1831,7 +1841,7 @@ xpcshell
 .
 cwd
 =
-self
+command_context
 .
 _mach_context
 .

@@ -352,7 +352,7 @@ linters
 "
 "
         
-self
+command_context
 .
 activate_virtualenv
 (
@@ -385,7 +385,7 @@ deepcopy
 (
 dict
 (
-self
+command_context
 .
 substs
 )
@@ -404,7 +404,7 @@ deepcopy
 (
 dict
 (
-self
+command_context
 .
 defines
 )
@@ -417,7 +417,7 @@ topobjdir
 "
 ]
 =
-self
+command_context
 .
 topobjdir
             
@@ -441,7 +441,7 @@ setdefault
 "
 root
 "
-self
+command_context
 .
 topsrcdir
 )
@@ -483,7 +483,7 @@ virtualenv_bin_path
 "
 ]
 =
-self
+command_context
 .
 virtualenv_manager
 .
@@ -496,7 +496,7 @@ virtualenv_manager
 "
 ]
 =
-self
+command_context
 .
 virtualenv_manager
         
@@ -512,17 +512,19 @@ GLOBAL_SUPPORT_FILES
 .
 append
 (
+                
 os
 .
 path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 path
 )
+            
 )
         
 return
@@ -760,7 +762,7 @@ kwargs
 )
 :
         
-self
+command_context
 .
 _mach_context
 .
@@ -773,7 +775,7 @@ dispatch
 lint
 "
             
-self
+command_context
 .
 _mach_context
             
@@ -956,7 +958,7 @@ fix
 =
 True
         
-self
+command_context
 .
 _mach_context
 .
@@ -968,15 +970,19 @@ dispatch
 "
 lint
 "
-self
+            
+command_context
 .
 _mach_context
+            
 paths
 =
 paths
+            
 argv
 =
 extra_args
+            
 *
 *
 kwargs

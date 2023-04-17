@@ -19,14 +19,9 @@ mach
 .
 decorators
 import
-(
-    
 CommandArgument
-    
 CommandProvider
-    
 Command
-)
 from
 mozbuild
 .
@@ -215,7 +210,7 @@ enumerate
 (
 sorted
 (
-self
+command_context
 .
 _mach_context
 .
@@ -262,7 +257,8 @@ option
 in
 sorted
 (
-self
+                
+command_context
 .
 _mach_context
 .
@@ -272,12 +268,13 @@ section
 ]
 .
 _settings
+            
 )
 :
                 
 meta
 =
-self
+command_context
 .
 _mach_context
 .

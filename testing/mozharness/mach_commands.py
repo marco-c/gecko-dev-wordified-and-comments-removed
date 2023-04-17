@@ -1551,7 +1551,7 @@ kwargs
         
 runner
 =
-self
+command_context
 .
 _spawn
 (

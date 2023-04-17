@@ -375,7 +375,7 @@ conditions
 .
 is_thunderbird
 (
-self
+command_context
 )
 :
                 
@@ -390,9 +390,10 @@ path
 join
 (
                         
-self
+command_context
 .
 topsrcdir
+                        
 "
 comm
 /
@@ -425,7 +426,7 @@ path
 join
 (
                         
-self
+command_context
 .
 topsrcdir
                         
@@ -468,14 +469,15 @@ conditions
 .
 is_firefox
 (
-self
+command_context
 )
+            
 or
 conditions
 .
 is_thunderbird
 (
-self
+command_context
 )
         
 )
@@ -491,7 +493,7 @@ binary
 "
 ]
 =
-self
+command_context
 .
 get_binary_path
 (
@@ -506,7 +508,7 @@ as
 e
 :
                 
-self
+command_context
 .
 log
 (
@@ -542,10 +544,11 @@ error
                 
 )
                 
-self
+command_context
 .
 log
 (
+                    
 logging
 .
 INFO
@@ -570,6 +573,7 @@ help
 help
 }
 "
+                
 )
                 
 return
@@ -581,7 +585,7 @@ run_marionette
 tests
 topsrcdir
 =
-self
+command_context
 .
 topsrcdir
 *

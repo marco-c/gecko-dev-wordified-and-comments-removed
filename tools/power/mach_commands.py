@@ -217,7 +217,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topobjdir
 "

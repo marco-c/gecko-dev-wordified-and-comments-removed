@@ -184,7 +184,15 @@ StaticAnalysis
 context
 )
         
-cmd
+command_context
+=
+mock
+.
+MagicMock
+(
+)
+        
+command_context
 .
 topsrcdir
 =
@@ -242,16 +250,19 @@ self
 .
 assertTrue
 (
+            
 cmd
 .
 _is_ignored_path
 (
+command_context
 ignored_dirs_re
 path
 )
 is
 not
 None
+        
 )
         
 win32_path
@@ -268,7 +279,7 @@ dir
 path1
 "
         
-cmd
+command_context
 .
 topsrcdir
 =
@@ -308,9 +319,11 @@ cmd
 .
 _is_ignored_path
 (
+command_context
 ignored_dirs_re
 win32_path
 )
+                
 is
 not
 None
@@ -330,10 +343,12 @@ self
 .
 assertTrue
 (
+            
 cmd
 .
 _is_ignored_path
 (
+command_context
 ignored_dirs_re
 "
 path2
@@ -341,6 +356,7 @@ path2
 )
 is
 None
+        
 )
     
 def
@@ -390,7 +406,15 @@ StaticAnalysis
 context
 )
         
-cmd
+command_context
+=
+mock
+.
+MagicMock
+(
+)
+        
+command_context
 .
 topsrcdir
 =
@@ -413,6 +437,8 @@ cmd
 .
 get_abspath_files
 (
+            
+command_context
 [
 "
 file1
@@ -429,6 +455,7 @@ file2
 "
 )
 ]
+        
 )
         
 self
@@ -446,7 +473,7 @@ mozpath
 .
 join
 (
-cmd
+command_context
 .
 topsrcdir
 "
@@ -458,7 +485,7 @@ mozpath
 .
 join
 (
-cmd
+command_context
 .
 topsrcdir
 "

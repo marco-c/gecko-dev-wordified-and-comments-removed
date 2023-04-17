@@ -1628,6 +1628,7 @@ self
 .
 _run_reftest
 (
+command_context
 *
 *
 kwargs
@@ -1690,7 +1691,7 @@ shell
 "
 not
 in
-self
+command_context
 .
 mozconfig
 [
@@ -1723,7 +1724,7 @@ mozconfig
             
 )
         
-self
+command_context
 .
 _mach_context
 .
@@ -1735,7 +1736,7 @@ dispatch
 "
 build
 "
-self
+command_context
 .
 _mach_context
 what
@@ -1766,6 +1767,7 @@ self
 .
 _run_reftest
 (
+command_context
 *
 *
 kwargs
@@ -1833,6 +1835,7 @@ self
 .
 _run_reftest
 (
+command_context
 *
 *
 kwargs
@@ -1842,6 +1845,7 @@ def
 _run_reftest
 (
 self
+command_context
 *
 *
 kwargs
@@ -1855,7 +1859,7 @@ topsrcdir
 "
 ]
 =
-self
+command_context
 .
 topsrcdir
         
@@ -1866,7 +1870,7 @@ kwargs
         
 reftest
 =
-self
+command_context
 .
 _spawn
 (
@@ -1886,7 +1890,7 @@ conditions
 .
 is_android
 (
-self
+command_context
 )
 :
             
@@ -1999,7 +2003,7 @@ True
 verify_android_device
 (
                 
-self
+command_context
                 
 install
 =

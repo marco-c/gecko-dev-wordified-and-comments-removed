@@ -494,7 +494,7 @@ and
 against
 not
 in
-self
+command_context
 .
 _mach_context
 .
@@ -589,7 +589,7 @@ mozpath
             
 handler
 =
-self
+command_context
 .
 _mach_context
 .
@@ -618,20 +618,22 @@ mozpath
 .
 relpath
 (
+                
 inspect
 .
 getsourcefile
 (
 method
 )
-self
+command_context
 .
 topsrcdir
+            
 )
             
 reader
 =
-self
+command_context
 .
 mozbuild_reader
 (
@@ -2754,7 +2756,7 @@ options
 )
 :
         
-self
+command_context
 .
 activate_virtualenv
 (
@@ -2841,7 +2843,7 @@ nodeutil
 import
 find_node_executable
         
-self
+command_context
 .
 log_manager
 .
@@ -2862,7 +2864,7 @@ find_node_executable
 )
         
 return
-self
+command_context
 .
 run_process
 (
@@ -2942,7 +2944,7 @@ nodeutil
 import
 find_npm_executable
         
-self
+command_context
 .
 log_manager
 .
@@ -3032,7 +3034,7 @@ PATH
 )
         
 return
-self
+command_context
 .
 run_process
 (
@@ -3176,7 +3178,7 @@ options
 )
 :
         
-self
+command_context
 .
 activate_virtualenv
 (
@@ -3235,7 +3237,7 @@ options
 )
 :
         
-self
+command_context
 .
 activate_virtualenv
 (
@@ -3294,7 +3296,7 @@ options
 )
 :
         
-self
+command_context
 .
 activate_virtualenv
 (
