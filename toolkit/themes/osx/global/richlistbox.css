@@ -180,11 +180,11 @@ background
 -
 color
 :
-Highlight
+SelectedItem
 ;
 color
 :
-HighlightText
+SelectedItemText
 ;
 }
 richlistbox

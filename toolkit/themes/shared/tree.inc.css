@@ -452,7 +452,7 @@ background
 -
 color
 :
-Highlight
+SelectedItem
 ;
 }
 treechildren
@@ -473,7 +473,7 @@ border
 :
 1px
 dotted
-Highlight
+SelectedItem
 ;
 }
 treechildren
@@ -639,7 +639,7 @@ focus
 {
 color
 :
-HighlightText
+SelectedItemText
 ;
 }
 /
@@ -694,7 +694,7 @@ border
 :
 1px
 dotted
-HighlightText
+SelectedItemText
 ;
 }
 /
@@ -776,11 +776,11 @@ background
 -
 color
 :
-Highlight
+SelectedItem
 ;
 color
 :
-HighlightText
+SelectedItemText
 ;
 }
 treechildren
@@ -799,7 +799,7 @@ background
 -
 color
 :
-Highlight
+SelectedItem
 ;
 width
 :
@@ -1435,7 +1435,7 @@ border
 :
 1px
 solid
-Highlight
+SelectedItem
 ;
 margin
 :

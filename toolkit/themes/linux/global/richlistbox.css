@@ -180,11 +180,11 @@ background
 -
 color
 :
-Highlight
+SelectedItem
 ;
 color
 :
-HighlightText
+SelectedItemText
 ;
 }
 richlistbox
@@ -211,7 +211,7 @@ outline
 :
 1px
 dotted
-Highlight
+SelectedItem
 ;
 outline
 -
@@ -320,7 +320,7 @@ outline
 :
 1px
 dotted
-Highlight
+SelectedItem
 ;
 outline
 -

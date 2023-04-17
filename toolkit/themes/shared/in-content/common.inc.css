@@ -2560,7 +2560,7 @@ item
 -
 hover
 :
-Highlight
+SelectedItem
 ;
 -
 -
@@ -2574,7 +2574,7 @@ hover
 -
 text
 :
-HighlightText
+SelectedItemText
 ;
 -
 -
@@ -2586,7 +2586,7 @@ item
 -
 selected
 :
-Highlight
+SelectedItem
 ;
 -
 -
@@ -2600,7 +2600,7 @@ selected
 -
 text
 :
-HighlightText
+SelectedItemText
 ;
 -
 -
@@ -2802,7 +2802,7 @@ color
 -
 hover
 :
-HighlightText
+SelectedItemText
 ;
 -
 -
@@ -2842,7 +2842,7 @@ background
 -
 hover
 :
-Highlight
+SelectedItem
 ;
 -
 -
@@ -2856,7 +2856,7 @@ background
 -
 active
 :
-Highlight
+SelectedItem
 ;
 -
 -
@@ -2872,7 +2872,7 @@ text
 -
 color
 :
-HighlightText
+SelectedItemText
 ;
 -
 -
@@ -2904,7 +2904,7 @@ button
 -
 background
 :
-Highlight
+SelectedItem
 ;
 -
 -
@@ -3168,7 +3168,7 @@ checked
 -
 bgcolor
 :
-Highlight
+SelectedItem
 ;
 -
 -
@@ -3178,7 +3178,7 @@ checked
 -
 color
 :
-HighlightText
+SelectedItemText
 ;
 -
 -
@@ -3190,7 +3190,7 @@ border
 -
 color
 :
-Highlight
+SelectedItem
 ;
 -
 -
@@ -3204,7 +3204,7 @@ color
 -
 hover
 :
-Highlight
+SelectedItem
 ;
 -
 -
