@@ -1720,6 +1720,12 @@ using
 AsyncPanZoomController
 :
 :
+GetOverscrollAmount
+;
+using
+AsyncPanZoomController
+:
+:
 GetVelocityVector
 ;
 void
