@@ -289,7 +289,7 @@ if
 mDT
 )
 {
-gfxCriticalNote
+gfxCriticalNoteOnce
 <
 <
 "
@@ -588,7 +588,7 @@ ClearMappedBuffer
 (
 )
 ;
-gfxCriticalNote
+gfxCriticalNoteOnce
 <
 <
 "
