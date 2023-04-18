@@ -135,9 +135,6 @@ GenerateMinidumpAndPair
 Toplevel
 *
 aToplevelProtocol
-nsIFile
-*
-aMinidumpToPair
 const
 nsACString
 &
@@ -225,7 +222,6 @@ CreateMinidumpsAndPair
 childHandle
 mThreadId
 aPairName
-aMinidumpToPair
 mExtraAnnotations
 getter_AddRefs
 (
