@@ -35,11 +35,6 @@ helper
 js
 "
 "
-loader
-.
-js
-"
-"
 worker
 .
 js
