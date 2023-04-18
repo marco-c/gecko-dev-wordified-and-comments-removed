@@ -181,7 +181,7 @@ class
 NullHttpTransaction
 ;
 class
-SpdyConnectTransaction
+Http2ConnectTransaction
 ;
 class
 nsHttpTransaction
@@ -661,7 +661,7 @@ IsWebsocketUpgrade
 void
 SetH2WSTransaction
 (
-SpdyConnectTransaction
+Http2ConnectTransaction
 *
 )
 ;
@@ -1855,7 +1855,7 @@ EARLY_NONE
 ;
 RefPtr
 <
-SpdyConnectTransaction
+Http2ConnectTransaction
 >
 mH2WSTransaction
 ;

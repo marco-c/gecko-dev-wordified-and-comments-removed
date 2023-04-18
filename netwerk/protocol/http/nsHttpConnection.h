@@ -61,7 +61,7 @@ h
 #
 include
 "
-TunnelUtils
+TLSFilterTransaction
 .
 h
 "
@@ -522,7 +522,7 @@ SetupSecondaryTLS
 (
 nsAHttpTransaction
 *
-aSpdyConnectTransaction
+aHttp2ConnectTransaction
 =
 nullptr
 )

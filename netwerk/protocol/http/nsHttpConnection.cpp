@@ -218,7 +218,14 @@ h
 #
 include
 "
-TunnelUtils
+Http2ConnectTransaction
+.
+h
+"
+#
+include
+"
+TLSFilterTransaction
 .
 h
 "
@@ -3386,7 +3393,7 @@ UsingConnect
 )
 )
 {
-SpdyConnectTransaction
+Http2ConnectTransaction
 *
 trans
 =
@@ -3395,7 +3402,7 @@ baseTrans
 baseTrans
 -
 >
-QuerySpdyConnectTransaction
+QueryHttp2ConnectTransaction
 (
 )
 :
@@ -10118,7 +10125,7 @@ SetupSecondaryTLS
 (
 nsAHttpTransaction
 *
-aSpdyConnectTransaction
+aHttp2ConnectTransaction
 )
 {
 MOZ_ASSERT
@@ -10154,7 +10161,7 @@ s
 d
 "
 "
-aSpdyConnectTransaction
+aHttp2ConnectTransaction
 =
 %
 p
@@ -10174,7 +10181,7 @@ mConnInfo
 OriginPort
 (
 )
-aSpdyConnectTransaction
+aHttp2ConnectTransaction
 )
 )
 ;
@@ -10251,7 +10258,7 @@ mWeakTrans
 =
 do_GetWeakReference
 (
-aSpdyConnectTransaction
+aHttp2ConnectTransaction
 )
 ;
 }

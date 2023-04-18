@@ -84,7 +84,7 @@ class
 NullHttpTransaction
 ;
 class
-SpdyConnectTransaction
+Http2ConnectTransaction
 ;
 #
 define
@@ -391,9 +391,9 @@ nullptr
 ;
 }
 virtual
-SpdyConnectTransaction
+Http2ConnectTransaction
 *
-QuerySpdyConnectTransaction
+QueryHttp2ConnectTransaction
 (
 )
 {
