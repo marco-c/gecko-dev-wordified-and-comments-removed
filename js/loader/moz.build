@@ -32,6 +32,11 @@ ModuleLoadRequest
 h
 "
 "
+ResolveResult
+.
+h
+"
+"
 ScriptKind
 .
 h
