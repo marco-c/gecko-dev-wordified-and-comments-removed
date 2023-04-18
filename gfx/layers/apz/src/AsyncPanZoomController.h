@@ -2251,6 +2251,12 @@ aEvent
 )
 const
 ;
+CSSRect
+GetCurrentScrollRangeInCssPixels
+(
+)
+const
+;
 private
 :
 void
