@@ -173,6 +173,9 @@ aURI
 ScriptFetchOptions
 *
 aFetchOptions
+Element
+*
+aElement
 const
 SRIMetadata
 &
@@ -217,6 +220,7 @@ context
 new
 DOMScriptLoadContext
 (
+aElement
 request
 )
 ;
@@ -283,6 +287,13 @@ context
 new
 DOMScriptLoadContext
 (
+aParent
+-
+>
+mLoadContext
+-
+>
+mElement
 request
 )
 ;
@@ -335,6 +346,9 @@ aFetchOptions
 nsIURI
 *
 aBaseURL
+Element
+*
+aElement
 ScriptLoader
 *
 aLoader
@@ -412,6 +426,7 @@ context
 new
 DOMScriptLoadContext
 (
+aElement
 request
 )
 ;

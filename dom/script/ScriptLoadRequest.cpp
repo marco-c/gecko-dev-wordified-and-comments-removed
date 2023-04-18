@@ -134,7 +134,6 @@ dom
 NS_IMPL_CYCLE_COLLECTION
 (
 ScriptFetchOptions
-mElement
 mTriggeringPrincipal
 mWebExtGlobal
 )
@@ -160,9 +159,6 @@ CORSMode
 aCORSMode
 ReferrerPolicy
 aReferrerPolicy
-Element
-*
-aElement
 nsIPrincipal
 *
 aTriggeringPrincipal
@@ -182,10 +178,6 @@ aReferrerPolicy
 mIsPreload
 (
 false
-)
-mElement
-(
-aElement
 )
 mTriggeringPrincipal
 (
@@ -377,6 +369,10 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 DOMScriptLoadContext
 )
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mElement
+)
 if
 (
 Runnable
@@ -418,6 +414,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mLoadBlockedDocument
 mRequest
+mElement
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN
@@ -430,6 +427,9 @@ DOMScriptLoadContext
 :
 DOMScriptLoadContext
 (
+Element
+*
+aElement
 ScriptLoadRequest
 *
 aRequest
@@ -485,6 +485,10 @@ nullptr
 mRunnable
 (
 nullptr
+)
+mElement
+(
+aElement
 )
 mRequest
 (
@@ -1097,12 +1101,6 @@ scriptElement
 =
 do_QueryInterface
 (
-mRequest
--
->
-mFetchOptions
--
->
 mElement
 )
 ;
@@ -1141,12 +1139,6 @@ IsPreload
 )
 )
 ;
-mRequest
--
->
-mFetchOptions
--
->
 mElement
 =
 do_QueryInterface
