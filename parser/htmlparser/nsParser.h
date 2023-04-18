@@ -236,7 +236,7 @@ aURL
 )
 override
 ;
-NS_IMETHOD
+nsresult
 ParseFragment
 (
 const
@@ -250,7 +250,6 @@ nsString
 &
 aTagStack
 )
-override
 ;
 NS_IMETHOD
 ContinueInterruptedParsing
@@ -412,12 +411,10 @@ nsParserContinueEvent
 *
 )
 ;
-virtual
 void
 Reset
 (
 )
-override
 {
 Cleanup
 (
