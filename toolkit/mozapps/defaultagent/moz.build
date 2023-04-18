@@ -110,6 +110,11 @@ Telemetry
 .
 cpp
 "
+"
+UtfConvert
+.
+cpp
+"
 ]
 SOURCES
 +

@@ -53,6 +53,17 @@ Registry
 cpp
 "
 "
+.
+.
+/
+.
+.
+/
+UtfConvert
+.
+cpp
+"
+"
 CacheTest
 .
 cpp
