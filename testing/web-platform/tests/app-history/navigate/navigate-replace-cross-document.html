@@ -129,9 +129,9 @@ length
 let
 start_entry_top
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 let
 start_entry_iframe_id
@@ -140,9 +140,9 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
-current
+currentEntry
 .
 id
 ;
@@ -153,9 +153,9 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
-current
+currentEntry
 .
 key
 ;
@@ -163,7 +163,7 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
 navigate
 (
@@ -201,7 +201,7 @@ start_history_length
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -213,9 +213,9 @@ length
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 start_entry_top
 )
 ;
@@ -225,7 +225,7 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
 entries
 (
@@ -242,9 +242,9 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_not_equals
 (

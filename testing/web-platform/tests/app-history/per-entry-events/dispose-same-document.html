@@ -126,7 +126,7 @@ hash
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -144,7 +144,7 @@ entry2
 entry3
 ]
 =
-appHistory
+navigation
 .
 entries
 (
@@ -243,7 +243,7 @@ false
 ;
 assert_array_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -251,9 +251,9 @@ entries
 [
 entry0
 entry1
-appHistory
+navigation
 .
-current
+currentEntry
 ]
 "
 entries
@@ -271,9 +271,9 @@ entry
 ;
 assert_not_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 entry1
 "
 current
@@ -291,7 +291,7 @@ entry
 ;
 assert_true
 (
-appHistory
+navigation
 .
 canGoBack
 "
@@ -309,7 +309,7 @@ entry
 ;
 assert_false
 (
-appHistory
+navigation
 .
 canGoForward
 "
@@ -327,7 +327,7 @@ entry
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 transition
 null
@@ -401,7 +401,7 @@ entry
 ;
 assert_array_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -409,9 +409,9 @@ entries
 [
 entry0
 entry1
-appHistory
+navigation
 .
-current
+currentEntry
 ]
 "
 entries
@@ -429,9 +429,9 @@ entry
 ;
 assert_not_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 entry1
 "
 current
@@ -449,7 +449,7 @@ entry
 ;
 assert_true
 (
-appHistory
+navigation
 .
 canGoBack
 "
@@ -467,7 +467,7 @@ entry
 ;
 assert_false
 (
-appHistory
+navigation
 .
 canGoForward
 "
@@ -485,7 +485,7 @@ entry
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 transition
 null
@@ -527,9 +527,9 @@ entry
 )
 ;
 await
-appHistory
+navigation
 .
-goTo
+traverseTo
 (
 entry1
 .
@@ -538,7 +538,7 @@ key
 .
 committed
 ;
-appHistory
+navigation
 .
 navigate
 (
@@ -550,7 +550,7 @@ fork
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -567,7 +567,7 @@ finalEntry1
 finalEntry2
 ]
 =
-appHistory
+navigation
 .
 entries
 (
@@ -593,9 +593,9 @@ entry2
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 finalEntry2
 )
 ;

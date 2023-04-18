@@ -74,7 +74,7 @@ onnavigated_called
 =
 false
 ;
-appHistory
+navigation
 .
 onnavigate
 =
@@ -101,7 +101,7 @@ navInfo
 )
 ;
 await
-appHistory
+navigation
 .
 navigate
 (
@@ -128,9 +128,9 @@ onnavigated_called
 ;
 assert_not_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (
@@ -140,9 +140,9 @@ navState
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (

@@ -47,13 +47,13 @@ t
 >
 {
 let
-oncurrentchange_called
+oncurrententrychange_called
 =
 false
 ;
-appHistory
+navigation
 .
-oncurrentchange
+oncurrententrychange
 =
 t
 .
@@ -63,7 +63,7 @@ e
 =
 >
 {
-oncurrentchange_called
+oncurrententrychange_called
 =
 true
 ;
@@ -72,7 +72,7 @@ assert_equals
 e
 .
 from
-appHistory
+navigation
 .
 entries
 (
@@ -94,9 +94,9 @@ push
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 1
@@ -120,7 +120,7 @@ pushState
 ;
 assert_true
 (
-oncurrentchange_called
+oncurrententrychange_called
 )
 ;
 }

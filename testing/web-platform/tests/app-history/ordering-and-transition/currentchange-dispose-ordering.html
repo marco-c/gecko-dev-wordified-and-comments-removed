@@ -47,7 +47,7 @@ t
 >
 {
 let
-oncurrentchange_called
+oncurrententrychange_called
 =
 false
 ;
@@ -59,9 +59,9 @@ false
 let
 original_entry
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 original_entry
 .
@@ -78,7 +78,7 @@ step_func
 {
 assert_true
 (
-oncurrentchange_called
+oncurrententrychange_called
 )
 ;
 ondispose_called
@@ -88,9 +88,9 @@ true
 }
 )
 ;
-appHistory
+navigation
 .
-oncurrentchange
+oncurrententrychange
 =
 t
 .
@@ -100,7 +100,7 @@ e
 =
 >
 {
-oncurrentchange_called
+oncurrententrychange_called
 =
 true
 ;
@@ -135,9 +135,9 @@ replace
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 0
@@ -146,7 +146,7 @@ index
 }
 )
 ;
-appHistory
+navigation
 .
 navigate
 (
@@ -163,7 +163,7 @@ true
 ;
 assert_true
 (
-oncurrentchange_called
+oncurrententrychange_called
 )
 ;
 assert_true

@@ -87,7 +87,7 @@ step_timeout
 =
 >
 {
-appHistory
+navigation
 .
 navigate
 (
@@ -108,12 +108,12 @@ then
 {
 assert_true
 (
-appHistory
+navigation
 .
 canGoBack
 )
 ;
-appHistory
+navigation
 .
 onnavigate
 =
@@ -136,7 +136,7 @@ resolve
 )
 )
 ;
-appHistory
+navigation
 .
 back
 (
@@ -157,7 +157,7 @@ step_func_done
 {
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -169,10 +169,10 @@ length
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
-appHistory
+currentEntry
+navigation
 .
 entries
 (
@@ -203,7 +203,7 @@ transitionWhile
 )
 can
 intercept
-appHistory
+navigation
 .
 back
 (

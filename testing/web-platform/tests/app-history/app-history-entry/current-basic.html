@@ -66,9 +66,9 @@ test
 let
 first_entry
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_not_equals
 (
@@ -131,7 +131,7 @@ sameDocument
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -144,7 +144,7 @@ length
 assert_equals
 (
 first_entry
-appHistory
+navigation
 .
 entries
 (
@@ -170,9 +170,9 @@ replaceState
 let
 second_entry
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_not_equals
 (
@@ -239,7 +239,7 @@ sameDocument
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -252,7 +252,7 @@ length
 assert_equals
 (
 second_entry
-appHistory
+navigation
 .
 entries
 (
@@ -278,9 +278,9 @@ pushState
 let
 third_entry
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_not_equals
 (
@@ -347,7 +347,7 @@ sameDocument
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -360,7 +360,7 @@ length
 assert_equals
 (
 third_entry
-appHistory
+navigation
 .
 entries
 (
@@ -382,9 +382,9 @@ pushState
 let
 fourth_entry
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_not_equals
 (
@@ -451,7 +451,7 @@ sameDocument
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -464,7 +464,7 @@ length
 assert_equals
 (
 fourth_entry
-appHistory
+navigation
 .
 entries
 (
@@ -486,9 +486,9 @@ replaceState
 let
 fifth_entry
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_not_equals
 (
@@ -555,7 +555,7 @@ sameDocument
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -568,7 +568,7 @@ length
 assert_equals
 (
 fifth_entry
-appHistory
+navigation
 .
 entries
 (
@@ -590,9 +590,9 @@ pushState
 let
 fifth_entry_after_push
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_not_equals
 (
@@ -659,7 +659,7 @@ sameDocument
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -672,7 +672,7 @@ length
 assert_equals
 (
 fifth_entry_after_push
-appHistory
+navigation
 .
 entries
 (
@@ -694,9 +694,9 @@ replaceState
 let
 fifth_entry_after_replace
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_not_equals
 (
@@ -763,7 +763,7 @@ sameDocument
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -776,7 +776,7 @@ length
 assert_equals
 (
 fifth_entry_after_replace
-appHistory
+navigation
 .
 entries
 (
@@ -797,9 +797,9 @@ hash
 let
 sixth_entry
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_not_equals
 (
@@ -866,7 +866,7 @@ sameDocument
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -879,7 +879,7 @@ length
 assert_equals
 (
 sixth_entry
-appHistory
+navigation
 .
 entries
 (
@@ -889,7 +889,7 @@ entries
 ]
 )
 ;
-appHistory
+navigation
 .
 entries
 (
@@ -929,9 +929,9 @@ key
 Basic
 tests
 for
-appHistory
+navigation
 .
-current
+currentEntry
 "
 )
 ;

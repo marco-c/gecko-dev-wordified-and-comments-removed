@@ -126,7 +126,7 @@ hash
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -144,7 +144,7 @@ entry2
 entry3
 ]
 =
-appHistory
+navigation
 .
 entries
 (
@@ -217,7 +217,7 @@ dispose3Called
 ;
 spoonPromise
 =
-appHistory
+navigation
 .
 navigate
 (
@@ -234,9 +234,9 @@ committed
 )
 ;
 await
-appHistory
+navigation
 .
-goTo
+traverseTo
 (
 entry1
 .
@@ -248,7 +248,7 @@ committed
 const
 forkPromise
 =
-appHistory
+navigation
 .
 navigate
 (
@@ -369,7 +369,7 @@ check
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -387,7 +387,7 @@ finalEntry2
 finalEntry3
 ]
 =
-appHistory
+navigation
 .
 entries
 (
@@ -419,9 +419,9 @@ entry3
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 finalEntry3
 )
 ;

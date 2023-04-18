@@ -97,7 +97,7 @@ onnavigatesuccess_calls
 =
 0
 ;
-appHistory
+navigation
 .
 onnavigate
 =
@@ -121,7 +121,7 @@ resolve
 )
 ;
 }
-appHistory
+navigation
 .
 onnavigatesuccess
 =
@@ -147,7 +147,7 @@ onnavigatesuccess_calls
 {
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -159,9 +159,9 @@ length
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 1
@@ -191,7 +191,7 @@ onnavigatesuccess_calls
 {
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -203,9 +203,9 @@ length
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 0
@@ -227,7 +227,7 @@ done
 }
 )
 ;
-appHistory
+navigation
 .
 navigate
 (
@@ -249,7 +249,7 @@ step_func
 )
 =
 >
-appHistory
+navigation
 .
 navigate
 (
@@ -276,7 +276,7 @@ step_func
 {
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -288,9 +288,9 @@ length
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 2

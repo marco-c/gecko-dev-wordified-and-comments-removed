@@ -25,7 +25,7 @@ some
 cases
 how
 the
-appHistory
+navigation
 .
 transition
 values
@@ -104,14 +104,14 @@ Variants
 specifically
 exist
 for
-currentchange
+currententrychange
 because
 an
 event
 listener
 existing
 for
-currentchange
+currententrychange
 causes
 code
 to

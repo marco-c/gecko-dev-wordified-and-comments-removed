@@ -106,7 +106,7 @@ testharness
 .
 js
 errors
-appHistory
+navigation
 .
 onnavigate
 =
@@ -123,7 +123,7 @@ promise
 const
 result
 =
-appHistory
+navigation
 .
 navigate
 (
@@ -138,9 +138,9 @@ assertCommittedFulfillsFinishedRejectsExactly
 (
 t
 result
-appHistory
+navigation
 .
-current
+currentEntry
 err
 )
 ;

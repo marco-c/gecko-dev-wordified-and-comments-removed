@@ -78,9 +78,9 @@ iframe
 .
 contentWindow
 .
-appHistory
+navigation
 .
-updateCurrent
+updateCurrentEntry
 (
 {
 state
@@ -96,9 +96,9 @@ body
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (
@@ -107,7 +107,7 @@ undefined
 )
 ;
 }
-updateCurrent
+updateCurrentEntry
 (
 )
 with

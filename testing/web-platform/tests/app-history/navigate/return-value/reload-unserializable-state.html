@@ -67,7 +67,7 @@ await
 assertBothRejectDOM
 (
 t
-appHistory
+navigation
 .
 reload
 (
@@ -87,9 +87,9 @@ DataCloneError
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (
@@ -180,7 +180,7 @@ await
 assertBothRejectDOM
 (
 t
-appHistory
+navigation
 .
 reload
 (
@@ -197,9 +197,9 @@ DataCloneError
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (
