@@ -29,11 +29,9 @@ do_get_file
 "
 test_crlite_preexisting
 /
-data
+crlite
 .
-safe
-.
-bin
+enrollment
 "
 )
 ;
