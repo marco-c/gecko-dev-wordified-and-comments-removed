@@ -29,6 +29,7 @@ response
 headers
 =
 [
+        
 (
 "
 Content
@@ -41,6 +42,22 @@ application
 json
 "
 )
+        
+(
+"
+Access
+-
+Control
+-
+Allow
+-
+Origin
+"
+"
+*
+"
+)
+    
 ]
     
 body
