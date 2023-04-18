@@ -98,11 +98,17 @@ org
 loglevel
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -390,6 +396,8 @@ _screenshotFunction
 imagePath
 )
 ;
+lazy
+.
 log
 .
 debug
