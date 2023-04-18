@@ -25,6 +25,7 @@ parametrize
 value
 "
 [
+None
 False
 42
 {
