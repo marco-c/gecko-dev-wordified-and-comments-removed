@@ -13565,6 +13565,7 @@ const
 nsStaticAtom
 &
 aTagName
+const
 nsIContent
 &
 aContent
