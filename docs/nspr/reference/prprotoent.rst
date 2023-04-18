@@ -23,10 +23,6 @@ ref
 :
 PR_GetProtoByNumber
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -79,10 +75,6 @@ endif
 }
 PRProtoEnt
 ;
-.
-.
-_Fields
-:
 Fields
 ~
 ~

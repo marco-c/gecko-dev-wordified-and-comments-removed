@@ -17,10 +17,6 @@ from
 multiple
 buffers
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -60,10 +56,6 @@ timeout
 define
 PR_MAX_IOVECTOR_SIZE
 16
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -169,10 +161,6 @@ entire
 write
 operation
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -225,10 +213,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

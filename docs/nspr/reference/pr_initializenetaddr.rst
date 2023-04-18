@@ -45,10 +45,6 @@ the
 calling
 client
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -81,10 +77,6 @@ PRNetAddr
 addr
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -163,10 +155,6 @@ to
 be
 manipulated
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -228,10 +216,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

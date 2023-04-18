@@ -26,10 +26,6 @@ specific
 error
 code
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -55,10 +51,6 @@ PR_GetOSError
 (
 void
 )
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -86,10 +78,6 @@ to
 the
 caller
 .
-.
-.
-_Description
-:
 Description
 -
 -

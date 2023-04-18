@@ -20,10 +20,6 @@ on
 all
 platforms
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -48,10 +44,6 @@ typedef
 definition
 PRUint64
 ;
-.
-.
-_Description
-:
 Description
 -
 -

@@ -23,10 +23,6 @@ of
 the
 list
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ PRCList
 listp
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -89,10 +81,6 @@ to
 the
 list
 .
-.
-.
-_Description
-:
 Description
 -
 -

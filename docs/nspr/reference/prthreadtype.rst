@@ -27,10 +27,6 @@ ref
 :
 PR_CreateThread
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -60,10 +56,6 @@ PR_SYSTEM_THREAD
 }
 PRThreadType
 ;
-.
-.
-_Enumerators
-:
 Enumerators
 ~
 ~
@@ -111,10 +103,6 @@ PR_Cleanup
 should
 return
 .
-.
-.
-_Description
-:
 Description
 -
 -

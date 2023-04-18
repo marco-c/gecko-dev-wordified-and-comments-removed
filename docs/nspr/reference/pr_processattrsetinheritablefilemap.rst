@@ -45,10 +45,6 @@ processes
 via
 PR_CreateProcess
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -87,10 +83,6 @@ char
 shmname
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -149,10 +141,6 @@ used
 by
 child
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -165,10 +153,6 @@ Returns
 ref
 :
 PRStatus
-.
-.
-_Description
-:
 Description
 ~
 ~

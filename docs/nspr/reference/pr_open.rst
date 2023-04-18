@@ -22,10 +22,6 @@ create
 a
 file
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -60,10 +56,6 @@ PRIntn
 mode
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -1454,10 +1446,6 @@ others
 =
 =
 =
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -1525,10 +1513,6 @@ a
 NULL
 pointer
 .
-.
-.
-_Description
-:
 Description
 -
 -

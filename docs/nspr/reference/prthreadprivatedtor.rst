@@ -34,10 +34,6 @@ thread
 private
 index
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -71,10 +67,6 @@ void
 priv
 )
 ;
-.
-.
-_Description
-:
 Description
 ~
 ~

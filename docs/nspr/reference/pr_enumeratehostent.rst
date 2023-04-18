@@ -43,10 +43,6 @@ ref
 :
 PR_GetHostByAddr
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -83,10 +79,6 @@ PRNetAddr
 address
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -245,10 +237,6 @@ greater
 than
 0
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -323,10 +311,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

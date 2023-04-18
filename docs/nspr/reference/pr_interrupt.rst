@@ -20,10 +20,6 @@ a
 target
 thread
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -52,10 +48,6 @@ PRThread
 thread
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -86,10 +78,6 @@ want
 to
 set
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -121,10 +109,6 @@ PR_SUCCESS
 Otherwise
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -311,10 +295,6 @@ thread
 is
 invalid
 .
-.
-.
-_Bugs
-:
 Bugs
 -
 -

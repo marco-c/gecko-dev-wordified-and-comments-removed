@@ -30,10 +30,6 @@ pool
 to
 terminate
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -65,10 +61,6 @@ PRThreadPool
 tpool
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -107,10 +99,6 @@ ref
 :
 PR_CreateThreadPool
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

@@ -68,10 +68,6 @@ h
 >
 __
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

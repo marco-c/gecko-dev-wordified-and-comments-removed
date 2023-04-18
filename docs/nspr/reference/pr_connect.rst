@@ -17,10 +17,6 @@ a
 specified
 socket
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -55,10 +51,6 @@ PRIntervalTime
 timeout
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -129,10 +121,6 @@ the
 connect
 operation
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -176,10 +164,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

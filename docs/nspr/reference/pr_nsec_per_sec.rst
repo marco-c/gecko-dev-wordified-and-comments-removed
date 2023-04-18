@@ -43,10 +43,6 @@ in
 a
 second
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

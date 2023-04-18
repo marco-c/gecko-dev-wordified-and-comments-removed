@@ -23,10 +23,6 @@ a
 file
 descriptor
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -141,10 +137,6 @@ struct
 PRIOMethods
 PRIOMethods
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -424,10 +416,6 @@ specified
 socket
 option
 .
-.
-.
-_Description
-:
 Description
 -
 -

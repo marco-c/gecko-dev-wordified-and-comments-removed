@@ -32,10 +32,6 @@ specified
 file
 descriptor
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -64,10 +60,6 @@ PRFileDesc
 fd
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -93,10 +85,6 @@ a
 file
 descriptor
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

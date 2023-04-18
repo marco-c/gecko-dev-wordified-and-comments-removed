@@ -23,10 +23,6 @@ a
 given
 type
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ PR_NEWZAP
 _struct
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -75,10 +67,6 @@ of
 a
 type
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -131,10 +119,6 @@ the
 libc
 function
 .
-.
-.
-_Description
-:
 Description
 -
 -

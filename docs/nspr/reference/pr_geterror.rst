@@ -24,10 +24,6 @@ independent
 error
 code
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -53,10 +49,6 @@ PR_GetError
 (
 void
 )
-.
-.
-_Returns
-:
 Returns
 ~
 ~

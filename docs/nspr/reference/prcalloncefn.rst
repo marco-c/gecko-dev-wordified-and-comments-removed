@@ -22,10 +22,6 @@ client
 must
 implement
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ PRCallOnceFN
 void
 )
 ;
-.
-.
-_Description
-:
 Description
 -
 -

@@ -19,10 +19,6 @@ job
 has
 completed
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ PRJob
 job
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -100,10 +92,6 @@ to
 be
 cancelled
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

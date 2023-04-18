@@ -25,10 +25,6 @@ with
 a
 runtime
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -58,10 +54,6 @@ char
 path
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -118,10 +110,6 @@ absolute
 or
 relative
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -167,10 +155,6 @@ of
 the
 path
 string
-.
-.
-_Description
-:
 Description
 -
 -

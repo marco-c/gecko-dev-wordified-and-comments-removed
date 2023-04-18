@@ -24,10 +24,6 @@ a
 network
 address
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -125,10 +121,6 @@ union
 PRNetAddr
 PRNetAddr
 ;
-.
-.
-_Fields
-:
 Fields
 ~
 ~
@@ -223,10 +215,6 @@ flowinfo
 Routing
 information
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -24,10 +24,6 @@ the
 current
 thread
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ PR_GetThreadScope
 void
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~

@@ -22,10 +22,6 @@ host
 by
 name
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -63,10 +59,6 @@ PRHostEnt
 hostentry
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -194,10 +186,6 @@ function
 returns
 PR_SUCCESS
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

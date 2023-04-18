@@ -11,10 +11,6 @@ PR_AtomicAdd
 =
 =
 =
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -45,10 +41,6 @@ PRInt32
 val
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -82,10 +74,6 @@ to
 be
 added
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -104,10 +92,6 @@ of
 the
 addition
 .
-.
-.
-_Description
-:
 Description
 -
 -

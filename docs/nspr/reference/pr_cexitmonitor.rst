@@ -24,10 +24,6 @@ a
 cached
 monitor
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -56,10 +52,6 @@ void
 address
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -98,10 +90,6 @@ ref
 :
 PR_CEnterMonitor
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -149,10 +137,6 @@ in
 the
 monitor
 .
-.
-.
-_Description
-:
 Description
 -
 -

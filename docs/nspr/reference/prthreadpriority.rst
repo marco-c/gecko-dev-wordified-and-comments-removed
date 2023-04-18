@@ -22,10 +22,6 @@ s
 priority
 setting
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -71,10 +67,6 @@ PR_PRIORITY_LAST
 }
 PRThreadPriority
 ;
-.
-.
-_Enumerators
-:
 Enumerators
 ~
 ~
@@ -155,10 +147,6 @@ priority
 .
 PR_PRIORITY_LAST
 Placeholder
-.
-.
-_Description
-:
 Description
 -
 -
@@ -265,10 +253,6 @@ of
 proper
 synchronization
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

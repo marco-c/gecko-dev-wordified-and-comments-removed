@@ -1252,7 +1252,7 @@ a
 pollable
 event
 .
-Whe
+When
 the
 pollable
 event

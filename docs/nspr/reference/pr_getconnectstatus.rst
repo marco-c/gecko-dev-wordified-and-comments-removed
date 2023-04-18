@@ -27,10 +27,6 @@ a
 nonblocking
 connection
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -53,10 +49,6 @@ PRPollDesc
 pd
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -97,10 +89,6 @@ PR_POLL_WRITE
 and
 PR_POLL_EXCEPT
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -170,10 +158,6 @@ connection
 has
 failed
 .
-.
-.
-_Description
-:
 Description
 -
 -

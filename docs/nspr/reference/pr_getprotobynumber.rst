@@ -30,10 +30,6 @@ protocol
 s
 number
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -69,10 +65,6 @@ PRProtoEnt
 result
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -171,10 +163,6 @@ function
 returns
 PR_SUCCESS
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

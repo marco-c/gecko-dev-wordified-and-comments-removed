@@ -15,10 +15,6 @@ identifying
 a
 library
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -44,10 +40,6 @@ struct
 PRLibrary
 PRLibrary
 ;
-.
-.
-_Description
-:
 Description
 -
 -

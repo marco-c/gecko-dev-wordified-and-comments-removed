@@ -12,10 +12,6 @@ Renames
 a
 file
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -49,10 +45,6 @@ char
 to
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -90,10 +82,6 @@ of
 the
 file
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -125,10 +113,6 @@ successfully
 renamed
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -34,10 +34,6 @@ it
 when
 appropriate
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -65,10 +61,6 @@ PR_NewMonitor
 void
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -115,10 +107,6 @@ unavailable
 )
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

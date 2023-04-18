@@ -30,10 +30,6 @@ of
 the
 pipe
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -67,10 +63,6 @@ PRFileDesc
 writePipe
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -143,10 +135,6 @@ of
 the
 pipe
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -194,10 +182,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

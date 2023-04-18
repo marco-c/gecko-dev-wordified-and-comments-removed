@@ -16,10 +16,6 @@ shutdown
 of
 NSPR
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -46,10 +42,6 @@ PR_Cleanup
 void
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -92,10 +84,6 @@ primordial
 thread
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -

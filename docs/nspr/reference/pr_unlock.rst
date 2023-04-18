@@ -39,10 +39,6 @@ causes
 undefined
 behavior
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -71,10 +67,6 @@ PRLock
 lock
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -104,10 +96,6 @@ to
 be
 released
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -147,10 +135,6 @@ lock
 )
 PR_FAILURE
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

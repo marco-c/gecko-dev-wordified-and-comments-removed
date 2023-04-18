@@ -21,10 +21,6 @@ IPv4
 TCP
 socket
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -52,10 +48,6 @@ PR_NewTCPSocket
 void
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -107,10 +99,6 @@ socket
 failed
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -349,10 +337,6 @@ ref
 :
 PR_Close
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

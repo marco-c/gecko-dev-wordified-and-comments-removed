@@ -32,10 +32,6 @@ s
 unique
 identity
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -65,10 +61,6 @@ PRDescIdentity
 ident
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -93,10 +85,6 @@ layer
 s
 identity
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -139,10 +127,6 @@ function
 returns
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

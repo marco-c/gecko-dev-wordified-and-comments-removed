@@ -37,10 +37,6 @@ mapped
 IPv6
 address
 .
-.
-.
-_Syntax
-:
 Syntax
 ~
 ~
@@ -71,10 +67,6 @@ PRIPv6Addr
 v6addr
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~

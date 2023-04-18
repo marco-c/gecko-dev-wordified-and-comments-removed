@@ -51,10 +51,6 @@ to
 the
 index
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -85,10 +81,6 @@ PRThreadPrivateDTOR
 destructor
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -165,10 +157,6 @@ specified
 as
 NULL
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -202,10 +190,6 @@ exceeds
 128
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -

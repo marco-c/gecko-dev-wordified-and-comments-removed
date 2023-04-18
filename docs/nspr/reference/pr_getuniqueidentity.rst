@@ -38,10 +38,6 @@ layer
 s
 name
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -71,10 +67,6 @@ char
 layer_name
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -106,10 +98,6 @@ layer
 s
 identity
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -171,10 +159,6 @@ error
 code
 PR_OUT_OF_MEMORY_ERROR
 .
-.
-.
-_Description
-:
 Description
 -
 -

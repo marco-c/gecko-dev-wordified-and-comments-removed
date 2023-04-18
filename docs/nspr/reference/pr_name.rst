@@ -6,10 +6,6 @@ PR_NAME
 =
 =
 =
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -36,10 +32,6 @@ PR_NAME
 "
 NSPR
 "
-.
-.
-_Description
-:
 Description
 -
 -

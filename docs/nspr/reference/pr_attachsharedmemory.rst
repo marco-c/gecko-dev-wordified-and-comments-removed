@@ -40,10 +40,6 @@ process
 memory
 space
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -102,10 +98,6 @@ flags
 define
 PR_SHM_READONLY
 0x01
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -152,10 +144,6 @@ read
 -
 only
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

@@ -22,10 +22,6 @@ time
 zone
 information
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -59,10 +55,6 @@ tp_dst_offset
 }
 PRTimeParameters
 ;
-.
-.
-_Description
-:
 Description
 -
 -

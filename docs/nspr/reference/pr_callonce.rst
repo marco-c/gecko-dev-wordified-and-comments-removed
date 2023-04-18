@@ -18,10 +18,6 @@ occurs
 only
 once
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -45,10 +41,6 @@ PRCallOnceFN
 func
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~

@@ -36,10 +36,6 @@ an
 identifying
 string
 .
-.
-.
-_Syntax
-:
 Syntax
 ~
 ~
@@ -73,10 +69,6 @@ char
 fmstring
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -106,10 +98,6 @@ ref
 :
 PR_ExportFileMapAsString
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -128,10 +116,6 @@ NULL
 on
 error
 .
-.
-.
-_Description
-:
 Description
 -
 -

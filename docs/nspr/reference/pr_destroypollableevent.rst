@@ -36,10 +36,6 @@ release
 related
 resources
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -64,10 +60,6 @@ PRFileDesc
 event
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -105,10 +97,6 @@ ref
 :
 PR_NewPollableEvent
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

@@ -24,10 +24,6 @@ joinable
 or
 unjoinable
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ PR_UNJOINABLE_THREAD
 }
 PRThreadState
 ;
-.
-.
-_Enumerators
-:
 Enumerators
 ~
 ~
@@ -154,10 +146,6 @@ process
 critical
 resources
 .
-.
-.
-_Description
-:
 Description
 -
 -

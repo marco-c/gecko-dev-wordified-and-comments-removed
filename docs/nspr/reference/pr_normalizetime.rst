@@ -33,10 +33,6 @@ a
 callback
 function
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -67,10 +63,6 @@ PRTimeParamFn
 params
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -112,10 +104,6 @@ parameter
 callback
 function
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -136,10 +124,6 @@ the
 callback
 function
 .
-.
-.
-_Description
-:
 Description
 -
 -

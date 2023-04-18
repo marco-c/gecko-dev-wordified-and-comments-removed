@@ -4,10 +4,6 @@ PRJob
 =
 =
 =
-.
-.
-_Syntax
-:
 Syntax
 -
 -

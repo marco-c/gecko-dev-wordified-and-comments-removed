@@ -534,10 +534,6 @@ and
 ref
 :
 PR_GMTParameters
-.
-.
-_Functions
-:
 Functions
 -
 -

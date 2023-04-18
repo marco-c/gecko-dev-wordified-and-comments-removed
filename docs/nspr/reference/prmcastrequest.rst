@@ -37,10 +37,6 @@ a
 multicast
 group
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -77,10 +73,6 @@ struct
 PRMcastRequest
 PRMcastRequest
 ;
-.
-.
-_Fields
-:
 Fields
 ~
 ~
@@ -109,10 +101,6 @@ address
 of
 interface
 .
-.
-.
-_Description
-:
 Description
 -
 -

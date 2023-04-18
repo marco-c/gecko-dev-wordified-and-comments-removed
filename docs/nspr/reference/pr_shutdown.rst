@@ -24,10 +24,6 @@ a
 specified
 socket
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -58,10 +54,6 @@ PRShutdownHow
 how
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -149,10 +141,6 @@ will
 be
 disallowed
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -196,10 +184,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

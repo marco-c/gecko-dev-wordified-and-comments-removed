@@ -27,10 +27,6 @@ from
 the
 system
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -63,10 +59,6 @@ char
 name
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -103,10 +95,6 @@ ref
 :
 PR_OpenSemaphore
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

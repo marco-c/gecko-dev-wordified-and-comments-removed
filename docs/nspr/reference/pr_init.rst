@@ -10,10 +10,6 @@ Initializes
 the
 runtime
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -45,10 +41,6 @@ PRUintn
 maxPTDs
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -87,10 +79,6 @@ parameter
 is
 ignored
 .
-.
-.
-_Description
-:
 Description
 -
 -

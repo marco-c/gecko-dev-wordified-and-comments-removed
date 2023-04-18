@@ -21,10 +21,6 @@ network
 byte
 order
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -52,10 +48,6 @@ PRUint32
 conversion
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -88,10 +80,6 @@ to
 be
 converted
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

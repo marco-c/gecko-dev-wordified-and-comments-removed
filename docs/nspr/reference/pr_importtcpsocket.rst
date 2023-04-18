@@ -25,10 +25,6 @@ socket
 into
 NSPR
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -59,10 +55,6 @@ PROsfd
 osfd
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -108,10 +100,6 @@ is
 a
 SOCKET
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -163,10 +151,6 @@ socket
 failed
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -371,10 +355,6 @@ non
 blocking
 mode
 .
-.
-.
-_Warning
-:
 Warning
 -
 -

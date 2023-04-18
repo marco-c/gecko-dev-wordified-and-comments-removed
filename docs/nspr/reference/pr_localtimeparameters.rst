@@ -39,10 +39,6 @@ to
 local
 time
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -72,10 +68,6 @@ PRExplodedTime
 gmt
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -110,10 +102,6 @@ specified
 in
 GMT
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -137,10 +125,6 @@ the
 specified
 time
 .
-.
-.
-_Description
-:
 Description
 -
 -

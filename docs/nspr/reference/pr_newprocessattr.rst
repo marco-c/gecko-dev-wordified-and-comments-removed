@@ -22,10 +22,6 @@ process
 attributes
 structure
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -53,10 +49,6 @@ PR_NewProcessAttr
 void
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -74,10 +66,6 @@ has
 no
 parameters
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -95,10 +83,6 @@ process
 attributes
 structure
 .
-.
-.
-_Description
-:
 Description
 -
 -

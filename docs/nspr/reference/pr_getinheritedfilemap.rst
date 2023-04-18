@@ -36,10 +36,6 @@ process
 via
 PR_CreateProcess
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -73,10 +69,6 @@ char
 shmname
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -104,10 +96,6 @@ ref
 :
 PR_ProcessAttrSetInheritableFileMap
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -127,10 +115,6 @@ NULL
 on
 error
 .
-.
-.
-_Description
-:
 Description
 -
 -

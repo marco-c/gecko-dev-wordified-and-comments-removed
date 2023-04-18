@@ -18,10 +18,6 @@ a
 referenced
 library
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -52,10 +48,6 @@ char
 name
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -95,10 +87,6 @@ ref
 :
 PR_GetLibraryName
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -141,10 +129,6 @@ for
 the
 failure
 .
-.
-.
-_Description
-:
 Description
 -
 -

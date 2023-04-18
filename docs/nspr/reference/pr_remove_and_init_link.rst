@@ -34,10 +34,6 @@ initializes
 the
 linkage
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -65,10 +61,6 @@ PRCList
 elemp
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -86,10 +78,6 @@ to
 the
 element
 .
-.
-.
-_Description
-:
 Description
 -
 -

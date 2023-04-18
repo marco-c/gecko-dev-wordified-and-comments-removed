@@ -15,10 +15,6 @@ a
 specified
 name
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -48,10 +44,6 @@ char
 name
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -79,10 +71,6 @@ to
 be
 removed
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -113,10 +101,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -170,10 +154,6 @@ error
 code
 PR_DIRECTORY_NOT_EMPTY_ERROR
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

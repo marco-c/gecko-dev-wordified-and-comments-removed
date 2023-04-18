@@ -29,10 +29,6 @@ currently
 running
 code
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -60,10 +56,6 @@ PR_GetCurrentThread
 void
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -88,10 +80,6 @@ self
 -
 identity
 .
-.
-.
-_Description
-:
 Description
 ~
 ~

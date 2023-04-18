@@ -19,10 +19,6 @@ on
 all
 platforms
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

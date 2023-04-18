@@ -26,10 +26,6 @@ the
 specified
 name
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -93,10 +89,6 @@ PRUintn
 value
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -155,10 +147,6 @@ to
 the
 semaphore
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -181,10 +169,6 @@ code
 on
 error
 .
-.
-.
-_Description
-:
 Description
 ~
 ~

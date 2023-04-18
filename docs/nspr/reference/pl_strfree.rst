@@ -17,10 +17,6 @@ by
 ref
 :
 PL_strdup
-.
-.
-_Syntax
-:
 Syntax
 ~
 ~
@@ -42,10 +38,6 @@ char
 s
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~

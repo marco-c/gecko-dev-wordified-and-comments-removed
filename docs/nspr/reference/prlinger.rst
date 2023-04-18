@@ -43,10 +43,6 @@ socket
 send
 buffer
 .
-.
-.
-_Syntax
-:
 Syntax
 ~
 ~
@@ -80,10 +76,6 @@ linger
 }
 PRLinger
 ;
-.
-.
-_Fields
-:
 Fields
 ~
 ~
@@ -173,10 +165,6 @@ socket
 send
 buffer
 .
-.
-.
-_Description
-:
 Description
 ~
 ~

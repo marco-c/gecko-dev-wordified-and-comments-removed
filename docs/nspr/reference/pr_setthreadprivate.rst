@@ -25,10 +25,6 @@ thread
 private
 data
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -59,10 +55,6 @@ void
 priv
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -111,10 +103,6 @@ to
 the
 data
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -145,10 +133,6 @@ is
 invalid
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -337,7 +321,7 @@ must
 not
 delete
 the
-referant
+referent
 object
 of
 a

@@ -552,6 +552,9 @@ ref
 PR_AttachThread
 associates
 a
+:
+ref
+:
 PRThread
 object
 with
@@ -567,6 +570,9 @@ ref
 PR_DetachThread
 disassociates
 a
+:
+ref
+:
 PRThread
 object
 from

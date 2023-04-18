@@ -16,10 +16,6 @@ a
 specified
 socket
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -50,10 +46,6 @@ PRIntn
 backlog
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -106,10 +98,6 @@ of
 pending
 connections
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -153,10 +141,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

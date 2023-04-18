@@ -21,10 +21,6 @@ has
 been
 initialized
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -51,10 +47,6 @@ PR_Initialized
 void
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~

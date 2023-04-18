@@ -11,10 +11,6 @@ circular
 linked
 list
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ previous
 ;
 }
 ;
-.
-.
-_Description
-:
 Description
 -
 -

@@ -26,10 +26,6 @@ a
 circular
 list
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -60,10 +56,6 @@ PRCList
 elemp2
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -99,10 +91,6 @@ to
 be
 inserted
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -41,10 +41,6 @@ ref
 PR_Seek64
 functions
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -80,10 +76,6 @@ PR_SEEK_END
 }
 PRSeekWhence
 ;
-.
-.
-_Enumerators
-:
 Enumerators
 ~
 ~

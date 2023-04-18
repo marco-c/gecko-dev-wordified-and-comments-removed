@@ -17,10 +17,6 @@ file
 to
 memory
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ PRUint32
 len
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -128,10 +120,6 @@ to
 be
 mapped
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -161,10 +149,6 @@ NULL
 on
 error
 .
-.
-.
-_Description
-:
 Description
 -
 -

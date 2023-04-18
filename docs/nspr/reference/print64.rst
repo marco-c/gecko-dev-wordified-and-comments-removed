@@ -19,10 +19,6 @@ on
 all
 platforms
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -47,10 +43,6 @@ typedef
 definition
 PRInt64
 ;
-.
-.
-_Description
-:
 Description
 -
 -

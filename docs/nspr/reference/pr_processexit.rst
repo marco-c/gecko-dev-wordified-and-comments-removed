@@ -23,10 +23,6 @@ of
 the
 process
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ PRIntn
 status
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~

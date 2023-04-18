@@ -159,10 +159,6 @@ Condition_Variables
 ref
 :
 NSPR_Sample_Code
-.
-.
-_NSPR_Types
-:
 :
 ref
 :

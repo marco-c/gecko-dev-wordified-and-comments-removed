@@ -37,10 +37,6 @@ ref
 :
 PR_SetError
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -64,10 +60,6 @@ h
 typedef
 PRInt32
 PRErrorCode
-.
-.
-_Description
-:
 Description
 -
 -

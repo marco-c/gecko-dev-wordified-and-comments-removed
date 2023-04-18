@@ -25,10 +25,6 @@ the
 calling
 thread
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -55,10 +51,6 @@ PR_ClearInterrupt
 void
 )
 ;
-.
-.
-_Description
-:
 Description
 -
 -

@@ -24,10 +24,6 @@ new
 hash
 table
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -63,10 +59,6 @@ PRUint32
 stacksize
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -129,10 +121,6 @@ in
 the
 thread
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -154,10 +142,6 @@ NULL
 on
 error
 .
-.
-.
-_Description
-:
 Description
 ~
 ~

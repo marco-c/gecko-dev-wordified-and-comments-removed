@@ -19,10 +19,6 @@ a
 new
 thread
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -72,10 +68,6 @@ PRUint32
 stackSize
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -278,10 +270,6 @@ specific
 stack
 size
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -336,10 +324,6 @@ unavailable
 )
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

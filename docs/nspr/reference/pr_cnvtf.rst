@@ -16,10 +16,6 @@ to
 a
 string
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ PRFloat64
 fval
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -128,10 +120,6 @@ to
 be
 converted
 .
-.
-.
-_Description
-:
 Description
 -
 -

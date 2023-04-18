@@ -22,10 +22,6 @@ device
 disk
 )
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ PRFileDesc
 fd
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -88,10 +80,6 @@ representing
 a
 file
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -122,10 +110,6 @@ function
 fails
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -

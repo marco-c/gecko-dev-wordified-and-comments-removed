@@ -13,10 +13,6 @@ frees
 allocated
 memory
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -43,10 +39,6 @@ PR_FREEIF
 _ptr
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -69,10 +61,6 @@ to
 the
 heap
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -83,10 +71,6 @@ Returns
 ~
 Nothing
 .
-.
-.
-_Description
-:
 Description
 -
 -

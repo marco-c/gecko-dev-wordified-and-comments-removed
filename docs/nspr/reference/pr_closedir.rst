@@ -15,10 +15,6 @@ the
 specified
 directory
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -47,10 +43,6 @@ PRDir
 dir
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -85,10 +77,6 @@ to
 be
 closed
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -121,10 +109,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -196,10 +180,6 @@ object
 becomes
 invalid
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

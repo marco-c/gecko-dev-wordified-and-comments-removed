@@ -32,10 +32,6 @@ random
 number
 generator
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -69,10 +65,6 @@ PRSize
 size
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -129,10 +121,6 @@ requested
 random
 number
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -203,10 +191,6 @@ of
 the
 call
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -318,6 +302,6 @@ nondeterministic
 as
 the
 underlying
-platfrom
+platform
 permits
 .

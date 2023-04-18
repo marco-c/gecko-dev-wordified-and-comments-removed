@@ -41,10 +41,6 @@ that
 represent
 sockets
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -125,10 +121,6 @@ value
 }
 PRSocketOptionData
 ;
-.
-.
-_Fields
-:
 Fields
 ~
 ~
@@ -264,10 +256,6 @@ multicast
 interface
 address
 .
-.
-.
-_Description
-:
 Description
 ~
 ~

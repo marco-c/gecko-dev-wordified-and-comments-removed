@@ -25,10 +25,6 @@ ref
 PRNetAddr
 structure
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -70,10 +66,6 @@ _PR_INET6
 )
 *
 /
-.
-.
-_Description
-:
 Description
 -
 -

@@ -23,10 +23,6 @@ the
 environment
 variable
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -58,10 +54,6 @@ PRSem
 sem
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -96,10 +88,6 @@ ref
 :
 PR_OpenSemaphore
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -112,10 +100,6 @@ Returns
 ref
 :
 PRStatus
-.
-.
-_Description
-:
 Description
 -
 -

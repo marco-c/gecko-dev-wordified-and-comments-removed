@@ -23,10 +23,6 @@ for
 Internet
 Protocol
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -53,10 +49,6 @@ PR_FamilyInet
 void
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~

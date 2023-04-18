@@ -23,10 +23,6 @@ of
 monitored
 data
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -55,10 +51,6 @@ void
 address
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -100,10 +92,6 @@ of
 the
 address
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -156,10 +144,6 @@ the
 calling
 thread
 .
-.
-.
-_Description
-:
 Description
 -
 -

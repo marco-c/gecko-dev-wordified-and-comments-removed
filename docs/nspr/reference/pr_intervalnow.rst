@@ -26,10 +26,6 @@ running
 interval
 timer
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -56,10 +52,6 @@ PR_IntervalNow
 void
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -75,10 +67,6 @@ ref
 PRIntervalTime
 object
 .
-.
-.
-_Description
-:
 Description
 -
 -

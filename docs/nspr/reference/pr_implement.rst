@@ -27,10 +27,6 @@ a
 shared
 library
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -56,10 +52,6 @@ PR_IMPLEMENT
 type
 )
 implementation
-.
-.
-_Description
-:
 Description
 -
 -

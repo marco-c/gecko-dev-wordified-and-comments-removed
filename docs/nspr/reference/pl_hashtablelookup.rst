@@ -30,10 +30,6 @@ return
 its
 value
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -67,10 +63,6 @@ void
 key
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -120,10 +112,6 @@ to
 look
 up
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -150,10 +138,6 @@ no
 such
 entry
 .
-.
-.
-_Description
-:
 Description
 -
 -

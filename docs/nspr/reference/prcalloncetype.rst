@@ -18,10 +18,6 @@ for
 tracking
 initialization
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -58,10 +54,6 @@ status
 }
 PRCallOnceType
 ;
-.
-.
-_Fields
-:
 Fields
 ~
 ~
@@ -121,10 +113,6 @@ the
 initialization
 process
 .
-.
-.
-_Description
-:
 Description
 -
 -

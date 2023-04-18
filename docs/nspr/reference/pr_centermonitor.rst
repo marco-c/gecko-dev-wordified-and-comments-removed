@@ -24,10 +24,6 @@ a
 cached
 monitor
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ void
 address
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -108,10 +100,6 @@ operations
 being
 performed
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -177,10 +165,6 @@ function
 returns
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

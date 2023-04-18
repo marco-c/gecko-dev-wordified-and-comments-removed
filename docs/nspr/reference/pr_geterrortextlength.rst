@@ -28,10 +28,6 @@ the
 error
 text
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ PR_GetErrorTextLength
 (
 void
 )
-.
-.
-_Returns
-:
 Returns
 ~
 ~

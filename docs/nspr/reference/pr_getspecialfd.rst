@@ -28,10 +28,6 @@ or
 error
 stream
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -60,10 +56,6 @@ PRSpecialFD
 id
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -105,10 +97,6 @@ PR_StandardOutput
 or
 PR_StandardError
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -155,10 +143,6 @@ error
 to
 PR_INVALID_ARGUMENT_ERROR
 .
-.
-.
-_Description
-:
 Description
 -
 -

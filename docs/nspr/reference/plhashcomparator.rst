@@ -15,10 +15,6 @@ PLHashComparator
 =
 =
 =
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ void
 v2
 )
 ;
-.
-.
-_Description
-:
 Description
 -
 -
@@ -159,10 +151,6 @@ and
 v2
 numerically
 .
-.
-.
-_Remark
-:
 Remark
 -
 -
@@ -188,10 +176,6 @@ ref
 :
 PRBool
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

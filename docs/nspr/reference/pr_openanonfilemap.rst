@@ -27,10 +27,6 @@ with
 the
 specified
 name
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -68,10 +64,6 @@ PRFileMapProtect
 prot
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -120,10 +112,6 @@ memory
 is
 mapped
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -143,10 +131,6 @@ NULL
 on
 error
 .
-.
-.
-_Description
-:
 Description
 -
 -

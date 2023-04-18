@@ -24,10 +24,6 @@ an
 absolute
 time
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ PRExplodedTime
 exploded
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -91,10 +83,6 @@ to
 be
 converted
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -108,10 +96,6 @@ absolute
 time
 value
 .
-.
-.
-_Description
-:
 Description
 -
 -

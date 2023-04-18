@@ -29,10 +29,6 @@ a
 plain
 char
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

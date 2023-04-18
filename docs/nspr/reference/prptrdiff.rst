@@ -13,10 +13,6 @@ pointer
 difference
 type
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

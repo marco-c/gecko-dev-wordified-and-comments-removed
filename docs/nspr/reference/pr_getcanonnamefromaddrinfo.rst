@@ -40,10 +40,6 @@ ref
 :
 PR_GetAddrInfoByName
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -75,10 +71,6 @@ PRAddrInfo
 addrInfo
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -115,10 +107,6 @@ ref
 :
 PR_GetAddrInfoByName
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

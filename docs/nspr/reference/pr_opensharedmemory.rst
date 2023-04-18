@@ -40,10 +40,6 @@ a
 new
 one
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -121,10 +117,6 @@ already
 exists
 *
 /
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -179,10 +171,6 @@ ref
 :
 PR_Open
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -221,10 +209,6 @@ ref
 :
 PR_GetOSError
 .
-.
-.
-_Description
-:
 Description
 -
 -

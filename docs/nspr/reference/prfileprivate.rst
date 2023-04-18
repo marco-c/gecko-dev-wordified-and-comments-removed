@@ -18,10 +18,6 @@ dependent
 implementation
 data
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -47,10 +43,6 @@ struct
 PRFilePrivate
 PRFilePrivate
 ;
-.
-.
-_Description
-:
 Description
 -
 -

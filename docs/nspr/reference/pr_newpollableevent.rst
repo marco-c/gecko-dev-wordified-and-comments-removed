@@ -25,10 +25,6 @@ event
 file
 descriptor
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -52,10 +48,6 @@ PR_NewPollableEvent
 void
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -68,10 +60,6 @@ Parameter
 ~
 None
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

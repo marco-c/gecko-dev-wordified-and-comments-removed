@@ -22,10 +22,6 @@ with
 an
 error
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -56,10 +52,6 @@ char
 *
 text
 )
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -147,10 +139,6 @@ with
 the
 error
 .
-.
-.
-_Description
-:
 Description
 -
 -

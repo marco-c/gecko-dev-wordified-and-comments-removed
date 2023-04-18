@@ -25,10 +25,6 @@ a
 bit
 value
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ PRInt32
 val
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -87,10 +79,6 @@ value
 to
 decrement
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -114,10 +102,6 @@ the
 result
 )
 .
-.
-.
-_Description
-:
 Description
 -
 -

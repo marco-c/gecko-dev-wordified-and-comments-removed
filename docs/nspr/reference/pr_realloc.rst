@@ -16,10 +16,6 @@ on
 the
 heap
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -51,10 +47,6 @@ PRUint32
 size
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -86,10 +78,6 @@ new
 memory
 block
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -130,10 +118,6 @@ realloc
 (
 )
 .
-.
-.
-_Description
-:
 Description
 ~
 ~

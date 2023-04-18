@@ -37,10 +37,6 @@ ref
 :
 PR_GetAddrInfoByName
 .
-.
-.
-_Syntax
-:
 Syntax
 ~
 ~
@@ -79,10 +75,6 @@ PRNetAddr
 result
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -232,10 +224,6 @@ is
 not
 NULL
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -274,10 +262,6 @@ enumeration
 is
 ended
 .
-.
-.
-_Description
-:
 Description
 -
 -

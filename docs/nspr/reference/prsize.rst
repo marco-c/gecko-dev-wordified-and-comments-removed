@@ -34,10 +34,6 @@ type
 in
 libc
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

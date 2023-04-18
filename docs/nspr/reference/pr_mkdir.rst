@@ -18,10 +18,6 @@ and
 access
 mode
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -53,10 +49,6 @@ PRIntn
 mode
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -244,10 +236,6 @@ Search
 by
 others
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -278,10 +266,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -353,10 +337,6 @@ must
 already
 exist
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

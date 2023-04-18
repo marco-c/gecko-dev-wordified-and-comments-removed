@@ -29,10 +29,6 @@ identified
 by
 name
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -67,10 +63,6 @@ void
 addr
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -110,10 +102,6 @@ segment
 is
 mapped
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

@@ -26,10 +26,6 @@ specified
 address
 family
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -58,10 +54,6 @@ PRIntn
 af
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -112,10 +104,6 @@ systems
 only
 )
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -166,10 +154,6 @@ socket
 failed
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

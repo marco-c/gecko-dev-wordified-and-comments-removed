@@ -15,10 +15,6 @@ of
 a
 file
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -50,10 +46,6 @@ PRAccessHow
 how
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -134,10 +126,6 @@ existence
 of
 file
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

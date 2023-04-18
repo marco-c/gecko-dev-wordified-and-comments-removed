@@ -20,10 +20,6 @@ amount
 of
 time
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -51,10 +47,6 @@ PRIntervalTime
 ticks
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -94,10 +86,6 @@ ref
 PRIntervalTime
 )
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -127,10 +115,6 @@ a
 PR_FAILURE
 error
 .
-.
-.
-_Description
-:
 Description
 -
 -

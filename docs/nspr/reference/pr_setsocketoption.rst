@@ -27,10 +27,6 @@ a
 specified
 socket
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -62,10 +58,6 @@ PRSocketOptionData
 data
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -122,10 +114,6 @@ options
 to
 set
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -159,10 +147,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -34,10 +34,6 @@ stack
 of
 layers
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -69,10 +65,6 @@ PRDescIdentity
 id
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -119,10 +111,6 @@ the
 specified
 layer
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -169,10 +157,6 @@ not
 successful
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

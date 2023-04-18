@@ -19,10 +19,6 @@ a
 circular
 list
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -52,10 +48,6 @@ PRCList
 listp
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -74,10 +66,6 @@ the
 linked
 list
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -93,10 +81,6 @@ a
 list
 element
 .
-.
-.
-_Description
-:
 Description
 -
 -

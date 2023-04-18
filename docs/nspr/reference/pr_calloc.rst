@@ -24,10 +24,6 @@ a
 given
 size
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -58,10 +54,6 @@ PRUint32
 elsize
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -93,10 +85,6 @@ an
 individual
 element
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -137,10 +125,6 @@ malloc
 (
 )
 .
-.
-.
-_Description
-:
 Description
 -
 -

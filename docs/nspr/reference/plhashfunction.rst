@@ -1,7 +1,3 @@
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -36,10 +32,6 @@ void
 key
 )
 ;
-.
-.
-_Description
-:
 Description
 -
 -
@@ -71,10 +63,6 @@ a
 hash
 number
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

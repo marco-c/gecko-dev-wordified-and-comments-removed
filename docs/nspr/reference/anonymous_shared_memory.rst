@@ -156,7 +156,7 @@ shared
 memory
 that
 is
-accessbile
+accessible
 only
 by
 parent

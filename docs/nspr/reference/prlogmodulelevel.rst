@@ -31,10 +31,6 @@ to
 application
 programs
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

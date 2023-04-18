@@ -43,10 +43,6 @@ on
 each
 entry
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -80,10 +76,6 @@ void
 arg
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -131,10 +123,6 @@ for
 function
 f
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -149,10 +137,6 @@ of
 entries
 enumerated
 .
-.
-.
-_Description
-:
 Description
 -
 -

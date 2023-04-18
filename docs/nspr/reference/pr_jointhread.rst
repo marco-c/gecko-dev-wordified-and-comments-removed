@@ -22,10 +22,6 @@ specified
 thread
 terminates
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ PRThread
 thread
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -90,10 +82,6 @@ to
 be
 joined
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -147,10 +135,6 @@ unjoinable
 -
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -315,5 +299,5 @@ ref
 :
 PR_JoinThread
 is
-interruptable
+interruptible
 .

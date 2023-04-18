@@ -80,10 +80,6 @@ ref
 MozillaBuild
 package
 .
-.
-.
-_Introduction
-:
 Introduction
 ~
 ~
@@ -416,15 +412,6 @@ s
 not
 recommended
 .
-.
-.
-_
--
--
-enable
--
-64bit
-:
 -
 -
 enable

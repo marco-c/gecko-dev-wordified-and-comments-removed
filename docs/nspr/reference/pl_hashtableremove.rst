@@ -29,10 +29,6 @@ the
 hash
 table
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -65,10 +61,6 @@ void
 key
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -114,10 +106,6 @@ to
 be
 removed
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -195,10 +183,6 @@ buckets
 by
 half
 .
-.
-.
-_Remark
-:
 Remark
 -
 -

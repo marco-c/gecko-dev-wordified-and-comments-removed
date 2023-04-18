@@ -23,10 +23,6 @@ default
 library
 path
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ PR_GetLibraryPath
 void
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -75,10 +67,6 @@ has
 no
 parameters
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -103,10 +91,6 @@ error
 returns
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

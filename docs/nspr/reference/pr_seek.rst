@@ -134,10 +134,6 @@ ref
 :
 PR_Seek64
 .
-.
-.
-_Syntax
-:
 Syntax
 ~
 ~
@@ -170,10 +166,6 @@ PRSeekWhence
 whence
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -334,10 +326,6 @@ the
 offset
 parameter
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -408,10 +396,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -450,10 +434,6 @@ fd
 0
 PR_SEEK_CUR
 )
-.
-.
-_See_Also
-:
 See
 Also
 -

@@ -33,10 +33,6 @@ ref
 :
 PRFileMap
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -78,10 +74,6 @@ buf
 define
 PR_FILEMAP_STRING_BUFSIZE
 128
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -130,10 +122,6 @@ of
 length
 PR_FILEMAP_STRING_BUFSIZE
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -146,10 +134,6 @@ Returns
 ref
 :
 PRStatus
-.
-.
-_Description
-:
 Description
 -
 -

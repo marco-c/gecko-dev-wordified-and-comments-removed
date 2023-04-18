@@ -22,10 +22,6 @@ the
 connected
 peer
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ PRNetAddr
 addr
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -106,10 +98,6 @@ to
 the
 socket
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

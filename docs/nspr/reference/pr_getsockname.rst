@@ -21,10 +21,6 @@ a
 specified
 socket
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -56,10 +52,6 @@ PRNetAddr
 addr
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -101,10 +93,6 @@ of
 the
 socket
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

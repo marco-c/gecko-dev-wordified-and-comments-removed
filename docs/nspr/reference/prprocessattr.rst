@@ -20,10 +20,6 @@ a
 new
 process
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -45,10 +41,6 @@ struct
 PRProcessAttr
 PRProcessAttr
 ;
-.
-.
-_Description
-:
 Description
 -
 -

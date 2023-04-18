@@ -36,10 +36,6 @@ thread
 s
 context
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -68,10 +64,6 @@ char
 text
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -105,10 +97,6 @@ current
 error
 text
 .
-.
-.
-_Returns
-:
 Returns
 -
 -

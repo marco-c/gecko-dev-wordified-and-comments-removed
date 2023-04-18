@@ -44,10 +44,6 @@ file
 or
 socket
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -76,10 +72,6 @@ PRFileDesc
 fd
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -112,10 +104,6 @@ file
 or
 socket
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -190,10 +178,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -230,10 +214,6 @@ on
 Win32
 platforms
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

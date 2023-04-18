@@ -60,10 +60,6 @@ of
 a
 structure
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

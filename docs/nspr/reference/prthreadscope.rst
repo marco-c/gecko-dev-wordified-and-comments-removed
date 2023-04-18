@@ -35,10 +35,6 @@ ref
 :
 PR_GetThreadScope
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -69,10 +65,6 @@ PR_GLOBAL_BOUND_THREAD
 }
 PRThreadScope
 ;
-.
-.
-_Enumerators
-:
 Enumerators
 ~
 ~
@@ -120,10 +112,6 @@ by
 the
 host
 OS
-.
-.
-_Description
-:
 Description
 -
 -

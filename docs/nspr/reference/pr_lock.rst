@@ -12,10 +12,6 @@ specified
 lock
 object
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -44,10 +40,6 @@ PRLock
 lock
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -77,10 +69,6 @@ to
 be
 locked
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -174,10 +162,6 @@ in
 undefined
 behavior
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

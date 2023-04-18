@@ -86,10 +86,6 @@ a
 consistent
 fashion
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

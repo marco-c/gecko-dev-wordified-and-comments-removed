@@ -18,10 +18,6 @@ on
 a
 condition
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -52,10 +48,6 @@ PRIntervalTime
 timeout
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -136,10 +128,6 @@ lock
 and
 resume
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -205,10 +193,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

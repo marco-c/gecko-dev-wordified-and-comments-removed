@@ -30,10 +30,6 @@ the
 current
 thread
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -62,10 +58,6 @@ PRUintn
 index
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -97,10 +89,6 @@ private
 data
 table
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -118,10 +106,6 @@ not
 been
 set
 .
-.
-.
-_Description
-:
 Description
 -
 -

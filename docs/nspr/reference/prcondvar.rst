@@ -14,10 +14,6 @@ a
 condition
 variable
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -43,10 +39,6 @@ struct
 PRCondVar
 PRCondVar
 ;
-.
-.
-_Description
-:
 Description
 -
 -

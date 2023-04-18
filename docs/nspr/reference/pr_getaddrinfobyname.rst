@@ -40,10 +40,6 @@ of
 RFC
 3493
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -78,10 +74,6 @@ PRIntn
 flags
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -145,10 +137,6 @@ name
 corresponding
 to
 hostname
-.
-.
-_Returns
-:
 Returns
 ~
 ~

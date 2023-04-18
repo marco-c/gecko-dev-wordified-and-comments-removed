@@ -23,10 +23,6 @@ descriptor
 s
 layer
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -51,10 +47,6 @@ typedef
 PRUintn
 PRDescIdentity
 ;
-.
-.
-_Description
-:
 Description
 -
 -

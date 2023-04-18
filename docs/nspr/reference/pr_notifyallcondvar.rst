@@ -30,10 +30,6 @@ specified
 condition
 variable
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -62,10 +58,6 @@ PRCondVar
 cvar
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -110,10 +102,6 @@ variable
 )
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -

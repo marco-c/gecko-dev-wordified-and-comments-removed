@@ -8,10 +8,6 @@ PRBool
 Boolean
 value
 .
-.
-.
-_Syntax
-:
 Syntax
 ~
 ~
@@ -44,10 +40,6 @@ PR_TRUE
 }
 PRBool
 ;
-.
-.
-_Description
-:
 Description
 ~
 ~

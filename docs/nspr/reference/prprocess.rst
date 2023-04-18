@@ -12,10 +12,6 @@ Represents
 a
 process
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -37,10 +33,6 @@ struct
 PRProcess
 PRProcess
 ;
-.
-.
-_Description
-:
 Description
 -
 -

@@ -30,10 +30,6 @@ specified
 as
 follows
 :
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -63,10 +59,6 @@ char
 argv
 )
 ;
-.
-.
-_See_Also
-:
 See
 Also
 -

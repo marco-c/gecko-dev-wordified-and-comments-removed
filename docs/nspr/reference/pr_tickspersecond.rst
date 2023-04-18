@@ -35,10 +35,6 @@ ref
 :
 PRIntervalTime
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -65,10 +61,6 @@ PR_TicksPerSecond
 void
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -116,10 +108,6 @@ NSPR
 is
 initialized
 .
-.
-.
-_Description
-:
 Description
 -
 -

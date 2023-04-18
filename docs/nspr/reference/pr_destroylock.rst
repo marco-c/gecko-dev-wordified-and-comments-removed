@@ -19,10 +19,6 @@ specified
 lock
 object
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -51,10 +47,6 @@ PRLock
 lock
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -81,10 +73,6 @@ a
 lock
 object
 .
-.
-.
-_Caution
-:
 Caution
 -
 -

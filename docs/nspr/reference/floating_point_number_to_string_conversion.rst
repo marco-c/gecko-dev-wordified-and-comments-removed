@@ -77,10 +77,6 @@ PR_dtoa
 ref
 :
 PR_cnvtf
-.
-.
-_References
-:
 References
 -
 -

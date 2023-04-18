@@ -29,10 +29,6 @@ and
 path
 names
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -61,10 +57,6 @@ char
 mem
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -99,10 +91,6 @@ dynamic
 library
 runtime
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -113,10 +101,6 @@ Returns
 ~
 Nothing
 .
-.
-.
-_Description
-:
 Description
 -
 -

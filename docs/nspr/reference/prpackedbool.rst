@@ -15,10 +15,6 @@ Packed
 Boolean
 value
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -43,10 +39,6 @@ typedef
 PRUint8
 PRPackedBool
 ;
-.
-.
-_Description
-:
 Description
 -
 -

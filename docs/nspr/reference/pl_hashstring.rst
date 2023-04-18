@@ -22,10 +22,6 @@ for
 character
 strings
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -55,10 +51,6 @@ void
 key
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -84,10 +76,6 @@ a
 character
 string
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -104,10 +92,6 @@ the
 specified
 key
 .
-.
-.
-_Description
-:
 Description
 -
 -

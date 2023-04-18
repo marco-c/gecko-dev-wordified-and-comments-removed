@@ -44,10 +44,6 @@ in
 a
 millisecond
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

@@ -18,10 +18,6 @@ from
 the
 heap
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -48,10 +44,6 @@ PR_DELETE
 _ptr
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -94,10 +86,6 @@ assignment
 statement
 )
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -108,10 +96,6 @@ Returns
 ~
 Nothing
 .
-.
-.
-_Description
-:
 Description
 -
 -

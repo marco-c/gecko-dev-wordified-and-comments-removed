@@ -53,10 +53,6 @@ other
 software
 offerings
 .
-.
-.
-_Documentation
-:
 Documentation
 -
 -
@@ -413,10 +409,6 @@ all
 of
 the
 above
-.
-.
-_Community
-:
 Community
 -
 -

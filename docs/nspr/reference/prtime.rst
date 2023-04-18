@@ -11,10 +11,6 @@ of
 absolute
 times
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -39,10 +35,6 @@ typedef
 PRInt64
 PRTime
 ;
-.
-.
-_Description
-:
 Description
 -
 -

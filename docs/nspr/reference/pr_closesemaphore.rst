@@ -21,10 +21,6 @@ a
 specified
 semaphore
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -56,10 +52,6 @@ PRSem
 sem
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -94,10 +86,6 @@ ref
 :
 PR_OpenSemaphore
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

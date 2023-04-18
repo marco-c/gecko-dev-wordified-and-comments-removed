@@ -47,10 +47,6 @@ different
 shared
 library
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -73,10 +69,6 @@ h
 >
 type
 PR_CALLBACKimplementation
-.
-.
-_Description
-:
 Description
 -
 -

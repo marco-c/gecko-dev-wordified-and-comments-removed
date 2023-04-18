@@ -12,10 +12,6 @@ a
 file
 descriptor
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -44,10 +40,6 @@ PRFileDesc
 fd
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -77,10 +69,6 @@ ref
 PRFileDesc
 object
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -115,10 +103,6 @@ closed
 successfully
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -

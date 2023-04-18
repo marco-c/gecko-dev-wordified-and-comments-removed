@@ -11,10 +11,6 @@ An
 NSPR
 thread
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -40,10 +36,6 @@ struct
 PRThread
 PRThread
 ;
-.
-.
-_Description
-:
 Description
 ~
 ~

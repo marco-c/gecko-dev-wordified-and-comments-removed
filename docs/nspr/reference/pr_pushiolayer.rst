@@ -20,10 +20,6 @@ onto
 the
 stack
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ PRFileDesc
 layer
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -137,10 +129,6 @@ to
 the
 stack
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -199,10 +187,6 @@ for
 the
 failure
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -307,10 +291,6 @@ the
 function
 returns
 .
-.
-.
-_Caution
-:
 Caution
 -
 -

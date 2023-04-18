@@ -34,10 +34,6 @@ object
 in
 GMT
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -72,10 +68,6 @@ PRExplodedTime
 gmt
 )
 ;
-.
-.
-_Description
-:
 Description
 -
 -

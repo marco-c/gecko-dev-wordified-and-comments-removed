@@ -26,10 +26,6 @@ a
 destination
 buffer
 .
-.
-.
-_Syntax
-:
 Syntax
 ~
 ~
@@ -56,10 +52,6 @@ char
 src
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -106,10 +98,6 @@ to
 be
 copied
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -132,10 +120,6 @@ the
 dest
 parameter
 .
-.
-.
-_Description
-:
 Description
 ~
 ~

@@ -24,10 +24,6 @@ a
 new
 layer
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -60,10 +56,6 @@ const
 methods
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -111,10 +103,6 @@ the
 new
 layer
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -132,10 +120,6 @@ the
 specified
 layer
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -18,10 +18,6 @@ new
 condition
 variable
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -51,10 +47,6 @@ PRLock
 lock
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -89,10 +81,6 @@ this
 condition
 variable
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

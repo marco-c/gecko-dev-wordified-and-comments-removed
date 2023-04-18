@@ -21,10 +21,6 @@ representation
 of
 times
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -82,10 +78,6 @@ tm_params
 }
 PRExplodedTime
 ;
-.
-.
-_Description
-:
 Description
 -
 -

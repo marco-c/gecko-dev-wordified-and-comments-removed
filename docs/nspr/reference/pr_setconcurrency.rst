@@ -28,10 +28,6 @@ with
 MP
 systems
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -59,10 +55,6 @@ PRUintn
 numCPUs
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -93,10 +85,6 @@ to
 be
 created
 .
-.
-.
-_Description
-:
 Description
 -
 -

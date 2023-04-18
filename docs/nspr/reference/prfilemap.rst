@@ -28,10 +28,6 @@ ref
 :
 PR_CloseFileMap
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ struct
 PRFileMap
 PRFileMap
 ;
-.
-.
-_Description
-:
 Description
 -
 -

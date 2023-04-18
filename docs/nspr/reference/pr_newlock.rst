@@ -14,10 +14,6 @@ a
 new
 lock
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -45,10 +41,6 @@ PR_NewLock
 void
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -95,10 +87,6 @@ constraints
 )
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

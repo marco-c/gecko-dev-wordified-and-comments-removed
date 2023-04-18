@@ -1,7 +1,3 @@
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -27,10 +23,6 @@ struct
 PLHashEntry
 PLHashEntry
 ;
-.
-.
-_Description
-:
 Description
 -
 -

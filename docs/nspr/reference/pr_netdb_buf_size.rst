@@ -44,10 +44,6 @@ ref
 :
 PR_GetProtoByNumber
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

@@ -23,10 +23,6 @@ a
 specified
 monitor
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -55,10 +51,6 @@ PRMonitor
 mon
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -90,10 +82,6 @@ ref
 :
 PRMonitor
 .
-.
-.
-_Description
-:
 Description
 -
 -

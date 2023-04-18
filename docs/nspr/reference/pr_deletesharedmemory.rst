@@ -29,10 +29,6 @@ identified
 by
 name
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -65,10 +61,6 @@ char
 name
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -95,10 +87,6 @@ ref
 :
 PR_OpenSharedMemory
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

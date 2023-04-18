@@ -40,10 +40,6 @@ network
 communication
 )
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -102,10 +98,6 @@ struct
 PRFileDesc
 PRFileDesc
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -177,10 +169,6 @@ ref
 :
 PRDescIdentity
 .
-.
-.
-_Description
-:
 Description
 -
 -

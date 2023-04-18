@@ -27,10 +27,6 @@ a
 timer
 expires
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -72,10 +68,6 @@ PRBool
 joinable
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -187,10 +179,6 @@ ref
 :
 PR_JoinJob
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

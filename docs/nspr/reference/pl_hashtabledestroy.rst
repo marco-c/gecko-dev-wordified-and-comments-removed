@@ -26,10 +26,6 @@ all
 the
 entries
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -58,10 +54,6 @@ PLHashTable
 ht
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -90,10 +82,6 @@ to
 be
 destroyed
 .
-.
-.
-_Description
-:
 Description
 -
 -

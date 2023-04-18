@@ -1398,7 +1398,7 @@ systems
 cannot
 be
 made
-preemptable
+preemptible
 (
 for
 example
@@ -1463,7 +1463,7 @@ that
 can
 be
 made
-preemptable
+preemptible
 but
 run
 the
@@ -1506,7 +1506,7 @@ present
 and
 they
 are
-preemptable
+preemptible
 they
 are
 subject
@@ -1566,7 +1566,7 @@ Threads
 NSPR
 threads
 are
-interruptable
+interruptible
 with
 some
 constraints

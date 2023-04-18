@@ -26,10 +26,6 @@ have
 logging
 enabled
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -165,10 +161,6 @@ notices
 :
 everything
 !
-.
-.
-_Description
-:
 Description
 -
 -
@@ -494,10 +486,6 @@ to
 size
 *
 .
-.
-.
-_Examples
-:
 Examples
 -
 -

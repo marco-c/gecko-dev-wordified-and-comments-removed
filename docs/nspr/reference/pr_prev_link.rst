@@ -19,10 +19,6 @@ in
 a
 list
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -52,10 +48,6 @@ PRCList
 elemp
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -73,10 +65,6 @@ to
 the
 element
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -92,10 +80,6 @@ a
 list
 element
 .
-.
-.
-_Description
-:
 Description
 -
 -

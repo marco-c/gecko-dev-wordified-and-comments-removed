@@ -31,10 +31,6 @@ no
 longer
 needed
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

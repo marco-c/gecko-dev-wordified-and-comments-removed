@@ -27,10 +27,6 @@ a
 bit
 integer
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -63,10 +59,6 @@ PRSeekWhence
 whence
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -227,10 +219,6 @@ the
 offset
 parameter
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -301,10 +289,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -391,10 +375,6 @@ a
 bit
 integer
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

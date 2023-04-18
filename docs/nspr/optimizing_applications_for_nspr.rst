@@ -122,10 +122,6 @@ way
 complete
 .
 *
-.
-.
-_Multiplatform
-:
 Multiplatform
 -
 -

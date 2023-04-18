@@ -24,10 +24,6 @@ memory
 mapped
 file
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -58,10 +54,6 @@ PRUint32
 len
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -102,10 +94,6 @@ the
 memory
 region
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -156,10 +144,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

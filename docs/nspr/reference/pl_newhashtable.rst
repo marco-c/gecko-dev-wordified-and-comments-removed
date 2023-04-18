@@ -20,10 +20,6 @@ new
 hash
 table
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -65,10 +61,6 @@ void
 allocPriv
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -148,10 +140,6 @@ argument
 pool
 )
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -165,10 +153,6 @@ new
 hash
 table
 .
-.
-.
-_Description
-:
 Description
 -
 -

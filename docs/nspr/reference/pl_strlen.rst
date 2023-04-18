@@ -25,10 +25,6 @@ trailing
 0
 '
 )
-.
-.
-_Syntax
-:
 Syntax
 ~
 ~
@@ -51,10 +47,6 @@ char
 str
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -81,10 +73,6 @@ to
 be
 allocated
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

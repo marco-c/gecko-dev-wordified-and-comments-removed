@@ -20,10 +20,6 @@ data
 to
 exist
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ PRIntervalTime
 ticks
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -135,10 +127,6 @@ before
 being
 rescheduled
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -217,10 +205,6 @@ by
 another
 thread
 .
-.
-.
-_Description
-:
 Description
 -
 -

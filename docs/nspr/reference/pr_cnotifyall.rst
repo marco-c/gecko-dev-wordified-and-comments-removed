@@ -27,10 +27,6 @@ of
 monitored
 data
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -59,10 +55,6 @@ void
 address
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -106,10 +98,6 @@ PR_CNotifyAll
 is
 called
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -163,10 +151,6 @@ not
 in
 the
 monitor
-.
-.
-_Description
-:
 Description
 -
 -

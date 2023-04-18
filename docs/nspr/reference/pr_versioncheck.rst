@@ -42,10 +42,6 @@ exported
 version
 )
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -75,10 +71,6 @@ char
 importedVersion
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -107,10 +99,6 @@ library
 being
 imported
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -155,10 +143,6 @@ not
 compatible
 PR_FALSE
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -216,10 +200,6 @@ vary
 over
 time
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

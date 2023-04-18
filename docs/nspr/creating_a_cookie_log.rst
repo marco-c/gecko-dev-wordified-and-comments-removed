@@ -99,10 +99,6 @@ Logging
 ~
 ~
 ~
-.
-.
-_Windows
-:
 Windows
 ^
 ^
@@ -197,10 +193,6 @@ and
 pressing
 Enter
 .
-.
-.
-_Linux
-:
 Linux
 ^
 ^
@@ -291,10 +283,6 @@ firefox
 and
 pressing
 Enter
-.
-.
-_Mac_OS_X
-:
 Mac
 OS
 X
@@ -451,10 +439,6 @@ other
 applications
 )
 .
-.
-.
-_Creating_the_Log
-:
 Creating
 the
 Log

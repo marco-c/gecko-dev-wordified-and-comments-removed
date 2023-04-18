@@ -34,10 +34,6 @@ platform
 dependent
 intervals
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -65,10 +61,6 @@ PRUint32
 milli
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -97,10 +89,6 @@ to
 interval
 form
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~

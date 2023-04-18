@@ -21,10 +21,6 @@ a
 condition
 variable
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -53,10 +49,6 @@ PRCondVar
 cvar
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -87,10 +79,6 @@ to
 be
 destroyed
 .
-.
-.
-_Description
-:
 Description
 -
 -

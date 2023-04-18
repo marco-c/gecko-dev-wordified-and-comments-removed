@@ -33,10 +33,6 @@ for
 preemptive
 scheduling
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

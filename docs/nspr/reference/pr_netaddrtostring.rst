@@ -26,10 +26,6 @@ a
 network
 address
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -64,10 +60,6 @@ PRUint32
 size
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -120,10 +112,6 @@ buffer
 string
 )
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -166,10 +154,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

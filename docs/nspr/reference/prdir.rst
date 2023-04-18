@@ -22,10 +22,6 @@ Directory_I
 >
 __
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -51,10 +47,6 @@ struct
 PRDir
 PRDir
 ;
-.
-.
-_Description
-:
 Description
 -
 -

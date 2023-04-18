@@ -15,10 +15,6 @@ a
 nongraceful
 manner
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -45,10 +41,6 @@ PR_Abort
 void
 )
 ;
-.
-.
-_Description
-:
 Description
 -
 -

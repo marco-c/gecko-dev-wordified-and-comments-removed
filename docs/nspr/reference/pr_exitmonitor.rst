@@ -36,10 +36,6 @@ monitor
 s
 lock
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -68,10 +64,6 @@ PRMonitor
 mon
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -120,10 +112,6 @@ holds
 the
 lock
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -161,10 +149,6 @@ monitor
 )
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -

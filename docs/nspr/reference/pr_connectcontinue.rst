@@ -17,10 +17,6 @@ PR_ConnectContinue
 =
 =
 =
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -51,10 +47,6 @@ PRInt16
 out_flags
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -105,10 +97,6 @@ PR_Poll
 >
 __
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -194,10 +182,6 @@ this
 error
 code
 .
-.
-.
-_Description
-:
 Description
 -
 -

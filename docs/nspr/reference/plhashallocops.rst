@@ -1,7 +1,3 @@
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -121,10 +117,6 @@ entire
 entry
 *
 /
-.
-.
-_Description
-:
 Description
 -
 -
@@ -240,10 +232,6 @@ frees
 the
 entry
 .
-.
-.
-_Remark
-:
 Remark
 -
 -

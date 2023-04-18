@@ -21,10 +21,6 @@ file
 mapping
 object
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -58,10 +54,6 @@ PRFileMapProtect
 prot
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -175,10 +167,6 @@ on
 write
 )
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -205,10 +193,6 @@ If
 unsuccessful
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

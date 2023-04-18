@@ -16,10 +16,6 @@ by
 some
 functions
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

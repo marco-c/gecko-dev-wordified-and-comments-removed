@@ -13,10 +13,6 @@ in
 the
 heap
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -45,10 +41,6 @@ void
 ptr
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -69,10 +61,6 @@ to
 be
 freed
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -83,10 +71,6 @@ Returns
 ~
 Nothing
 .
-.
-.
-_Description
-:
 Description
 -
 -

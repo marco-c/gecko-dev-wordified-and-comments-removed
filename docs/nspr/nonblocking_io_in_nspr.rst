@@ -1365,12 +1365,6 @@ do
 not
 work
 .
-.
-.
-_PR_Available
-(
-)
-:
 PR_Available
 (
 )

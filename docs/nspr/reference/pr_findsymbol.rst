@@ -43,10 +43,6 @@ symbol
 in
 question
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -80,10 +76,6 @@ char
 name
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -129,10 +121,6 @@ symbol
 to
 resolve
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -145,10 +133,6 @@ An
 untyped
 pointer
 .
-.
-.
-_Description
-:
 Description
 -
 -

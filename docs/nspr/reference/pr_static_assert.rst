@@ -30,10 +30,6 @@ at
 compile
 time
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -59,10 +55,6 @@ PR_STATIC_ASSERT
 expression
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -120,10 +112,6 @@ a
 runtime
 alternative
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -133,10 +121,6 @@ Returns
 ~
 ~
 Nothing
-.
-.
-_Description
-:
 Description
 -
 -

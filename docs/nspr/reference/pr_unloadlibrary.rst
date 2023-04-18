@@ -25,10 +25,6 @@ ref
 :
 PR_LoadLibrary
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ PRLibrary
 lib
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -89,10 +81,6 @@ ref
 :
 PR_LoadLibrary
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -133,10 +121,6 @@ for
 the
 failure
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -1,7 +1,3 @@
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -30,10 +26,6 @@ PLHashNumber
 define
 PL_HASH_BITS
 32
-.
-.
-_Description
-:
 Description
 -
 -
@@ -113,10 +105,6 @@ value
 of
 32
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

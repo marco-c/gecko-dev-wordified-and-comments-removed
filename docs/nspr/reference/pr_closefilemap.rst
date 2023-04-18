@@ -19,10 +19,6 @@ a
 file
 mapping
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -51,10 +47,6 @@ PRFileMap
 fmap
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -80,10 +72,6 @@ to
 be
 closed
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -134,10 +122,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -20,10 +20,6 @@ new
 UDP
 socket
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -51,10 +47,6 @@ PR_NewUDPSocket
 void
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -105,10 +97,6 @@ socket
 failed
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -220,10 +208,6 @@ ref
 :
 PR_Close
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

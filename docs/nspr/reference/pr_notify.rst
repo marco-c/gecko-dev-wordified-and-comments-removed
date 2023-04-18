@@ -23,10 +23,6 @@ data
 has
 occurred
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -55,10 +51,6 @@ PRMonitor
 mon
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -108,10 +100,6 @@ holds
 the
 lock
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -139,10 +127,6 @@ If
 unsuccessful
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -

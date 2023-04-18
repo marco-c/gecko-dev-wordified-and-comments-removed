@@ -21,10 +21,6 @@ socket
 file
 descriptors
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -57,10 +53,6 @@ PRIntervalTime
 timeout
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -158,10 +150,6 @@ PR_Poll
 returns
 zero
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -234,10 +222,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 ~
 ~

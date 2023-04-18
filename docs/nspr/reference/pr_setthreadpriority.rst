@@ -27,10 +27,6 @@ a
 specified
 thread
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -61,10 +57,6 @@ PRThreadPriority
 priority
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -107,10 +99,6 @@ want
 to
 set
 .
-.
-.
-_Description
-:
 Description
 -
 -

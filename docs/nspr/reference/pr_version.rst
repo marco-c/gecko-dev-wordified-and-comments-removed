@@ -9,10 +9,6 @@ PR_VERSION
 =
 =
 =
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -42,10 +38,6 @@ PR_VERSION
 1
 yyyymmdd
 "
-.
-.
-_Description
-:
 Description
 -
 -

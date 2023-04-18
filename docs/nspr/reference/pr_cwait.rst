@@ -20,10 +20,6 @@ state
 has
 changed
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ PRIntervalTime
 timeout
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -140,10 +132,6 @@ object
 is
 notified
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -227,10 +215,6 @@ monitor
 s
 mutex
 .
-.
-.
-_Description
-:
 Description
 -
 -

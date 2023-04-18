@@ -8,10 +8,6 @@ PR_Delete
 =
 =
 =
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -41,10 +37,6 @@ char
 name
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -73,10 +65,6 @@ to
 be
 deleted
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -108,10 +96,6 @@ not
 deleted
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -

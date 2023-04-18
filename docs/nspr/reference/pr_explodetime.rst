@@ -24,10 +24,6 @@ clock
 calendar
 time
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -60,10 +56,6 @@ PRExplodedTime
 exploded
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -123,10 +115,6 @@ by
 the
 caller
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -150,10 +138,6 @@ the
 exploded
 time
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -38,10 +38,6 @@ a
 bit
 integer
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -73,10 +69,6 @@ PRFileInfo
 info
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -136,10 +128,6 @@ file
 information
 object
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -176,10 +164,6 @@ successfully
 obtained
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -246,10 +230,6 @@ the
 file
 descriptor
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

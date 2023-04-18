@@ -10,10 +10,6 @@ mutual
 exclusion
 lock
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -39,10 +35,6 @@ struct
 PRLock
 PRLock
 ;
-.
-.
-_Description
-:
 Description
 -
 -

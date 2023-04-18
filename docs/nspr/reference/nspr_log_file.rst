@@ -25,10 +25,6 @@ messages
 are
 directed
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -53,10 +49,6 @@ is
 platform
 specific
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -14,10 +14,6 @@ file
 or
 socket
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -51,10 +47,6 @@ PRInt32
 amount
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -120,10 +112,6 @@ in
 bytes
 )
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -190,10 +178,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

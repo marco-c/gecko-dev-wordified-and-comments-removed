@@ -19,10 +19,6 @@ from
 the
 stack
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -54,10 +50,6 @@ PRDescIdentity
 id
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -111,10 +103,6 @@ from
 the
 stack
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -180,10 +168,6 @@ error
 code
 PR_INVALID_ARGUMENT_ERROR
 .
-.
-.
-_Description
-:
 Description
 -
 -

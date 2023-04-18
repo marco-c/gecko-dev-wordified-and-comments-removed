@@ -30,10 +30,6 @@ ref
 PRFileInfo64
 structures
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -70,10 +66,6 @@ PR_FILE_OTHER
 }
 PRFileType
 ;
-.
-.
-_Enumerators
-:
 Enumerators
 ~
 ~

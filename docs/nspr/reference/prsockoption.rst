@@ -35,10 +35,6 @@ name
 value
 pair
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -82,10 +78,6 @@ PR_SockOpt_Last
 }
 PRSockOption
 ;
-.
-.
-_Enumerators
-:
 Enumerators
 ~
 ~
@@ -235,10 +227,6 @@ socket
 option
 numerator
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -27,10 +27,6 @@ a
 specified
 thread
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -59,10 +55,6 @@ PRThread
 thread
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~

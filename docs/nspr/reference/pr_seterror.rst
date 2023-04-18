@@ -18,10 +18,6 @@ a
 thread
 context
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -50,10 +46,6 @@ errorCode
 PRInt32
 oserr
 )
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -105,10 +97,6 @@ may
 be
 supplied
 .
-.
-.
-_Description
-:
 Description
 -
 -

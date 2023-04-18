@@ -58,10 +58,6 @@ shared
 library
 linking
 .
-.
-.
-_History
-:
 History
 ~
 ~
@@ -386,10 +382,6 @@ of
 host
 offerings
 .
-.
-.
-_Threads
-:
 Threads
 ^
 ^
@@ -863,10 +855,6 @@ IPv4
 or
 IPv6
 .
-.
-.
-_Time
-:
 Time
 ^
 ^
@@ -1217,10 +1205,6 @@ system
 s
 offerings
 .
-.
-.
-_Linking
-:
 Linking
 ^
 ^
@@ -1267,12 +1251,6 @@ various
 platform
 providers
 .
-.
-.
-_Where_It
-.
-27s_Headed
-:
 Where
 It
 '

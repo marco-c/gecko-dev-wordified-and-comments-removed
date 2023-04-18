@@ -25,10 +25,6 @@ floating
 point
 number
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -62,10 +58,6 @@ char
 se
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -113,10 +105,6 @@ the
 input
 string
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -155,10 +143,6 @@ is
 also
 set
 .
-.
-.
-_Description
-:
 Description
 -
 -

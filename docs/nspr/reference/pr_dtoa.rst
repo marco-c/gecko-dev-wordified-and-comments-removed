@@ -15,10 +15,6 @@ to
 a
 string
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -65,10 +61,6 @@ PRSize
 bufsz
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -210,10 +202,6 @@ hold
 the
 result
 .
-.
-.
-_Results
-:
 Results
 ~
 ~
@@ -254,10 +242,6 @@ the
 returned
 value
 .
-.
-.
-_Description
-:
 Description
 -
 -

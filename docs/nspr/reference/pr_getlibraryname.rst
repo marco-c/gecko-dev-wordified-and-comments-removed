@@ -23,10 +23,6 @@ library
 path
 name
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -61,10 +57,6 @@ char
 lib
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -113,10 +105,6 @@ library
 of
 interest
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -145,10 +133,6 @@ error
 returns
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

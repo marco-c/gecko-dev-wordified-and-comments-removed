@@ -401,7 +401,7 @@ ref
 PR_NetAddrToString
 .
 .
-_Getting_Host_Names_and_Addresses
+_Converting_address_formats
 :
 Converting
 address

@@ -21,10 +21,6 @@ two
 character
 strings
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -58,10 +54,6 @@ void
 v2
 )
 ;
-.
-.
-_Description
-:
 Description
 -
 -

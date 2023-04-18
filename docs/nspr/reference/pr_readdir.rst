@@ -20,10 +20,6 @@ in
 the
 directory
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -55,10 +51,6 @@ PRDirFlags
 flags
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -222,10 +214,6 @@ period
 "
 )
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -271,10 +259,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -456,10 +440,6 @@ PR_GetError
 returns
 PR_NO_MORE_FILES_ERROR
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

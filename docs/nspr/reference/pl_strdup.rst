@@ -28,10 +28,6 @@ a
 specified
 string
 .
-.
-.
-_Syntax
-:
 Syntax
 ~
 ~
@@ -62,10 +58,6 @@ char
 s
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -92,10 +84,6 @@ may
 be
 NULL
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -133,10 +121,6 @@ allocation
 fails
 NULL
 .
-.
-.
-_Description
-:
 Description
 ~
 ~
@@ -197,10 +181,6 @@ the
 null
 value
 .
-.
-.
-_Notes
-:
 Notes
 ~
 ~

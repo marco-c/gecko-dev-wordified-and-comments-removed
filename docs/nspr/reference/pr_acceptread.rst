@@ -23,10 +23,6 @@ block
 of
 data
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -70,10 +66,6 @@ PRIntervalTime
 timeout
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -352,10 +344,6 @@ timeout
 interval
 elapses
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -402,10 +390,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -53,10 +53,6 @@ structure
 s
 fields
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -120,10 +116,6 @@ h_addr_list
 }
 PRHostEnt
 ;
-.
-.
-_Fields
-:
 Fields
 ~
 ~
@@ -249,10 +241,6 @@ a
 NULL
 entry
 .
-.
-.
-_Description
-:
 Description
 -
 -
@@ -336,10 +324,6 @@ an
 opaque
 structure
 .
-.
-.
-_Note
-:
 Note
 -
 -

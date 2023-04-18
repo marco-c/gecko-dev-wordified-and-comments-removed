@@ -26,10 +26,6 @@ a
 network
 address
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -62,10 +58,6 @@ PRNetAddr
 addr
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -99,10 +91,6 @@ equivalent
 network
 address
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -145,10 +133,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -30,10 +30,6 @@ O
 methods
 table
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -62,10 +58,6 @@ PR_GetDefaultIOMethods
 void
 )
 ;
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -89,10 +81,6 @@ ref
 PRIOMethods
 structure
 .
-.
-.
-_Description
-:
 Description
 -
 -

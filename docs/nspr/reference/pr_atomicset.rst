@@ -24,10 +24,6 @@ its
 previous
 contents
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -58,10 +54,6 @@ PRInt32
 newval
 )
 ;
-.
-.
-_Parameter
-:
 Parameters
 ~
 ~
@@ -101,10 +93,6 @@ the
 val
 parameter
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -124,10 +112,6 @@ the
 referenced
 variable
 .
-.
-.
-_Description
-:
 Description
 -
 -

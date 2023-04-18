@@ -29,10 +29,6 @@ the
 hash
 table
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -69,10 +65,6 @@ void
 value
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -132,10 +124,6 @@ to
 be
 added
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -151,10 +139,6 @@ the
 new
 entry
 .
-.
-.
-_Description
-:
 Description
 -
 -

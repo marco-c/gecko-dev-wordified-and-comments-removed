@@ -1,7 +1,3 @@
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -95,10 +91,6 @@ current
 entry
 *
 /
-.
-.
-_Description
-:
 Description
 -
 -
@@ -162,10 +154,6 @@ data
 as
 argument
 .
-.
-.
-_Remark
-:
 Remark
 -
 -
@@ -224,10 +212,6 @@ is
 not
 decremented
 .
-.
-.
-_See_Also
-:
 See
 Also
 -

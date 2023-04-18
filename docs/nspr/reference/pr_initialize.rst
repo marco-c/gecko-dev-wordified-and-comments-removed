@@ -44,10 +44,6 @@ the
 primordial
 function
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -83,10 +79,6 @@ PRUintn
 maxPTDs
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -199,10 +191,6 @@ parameter
 is
 ignored
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -220,10 +208,6 @@ root
 function
 prmain
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -69,10 +69,6 @@ html
 >
 __
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

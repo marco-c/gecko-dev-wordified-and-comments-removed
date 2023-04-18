@@ -17,10 +17,6 @@ expression
 is
 FALSE
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -47,10 +43,6 @@ PR_ASSERT
 expression
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -81,10 +73,6 @@ TRUE
 or
 FALSE
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -94,10 +82,6 @@ Returns
 ~
 ~
 Nothing
-.
-.
-_Description
-:
 Description
 -
 -

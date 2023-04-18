@@ -34,10 +34,6 @@ standard
 clock
 microseconds
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -65,10 +61,6 @@ PRIntervalTime
 ticks
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -90,10 +82,6 @@ intervals
 to
 convert
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -114,10 +102,6 @@ the
 ticks
 parameter
 .
-.
-.
-_Description
-:
 Description
 -
 -

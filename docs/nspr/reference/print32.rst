@@ -19,10 +19,6 @@ on
 all
 platforms
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -46,10 +42,6 @@ h
 typedefdefinition
 PRInt32
 ;
-.
-.
-_Description
-:
 Description
 -
 -

@@ -31,10 +31,6 @@ NSPR
 runtime
 clock
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -75,10 +71,6 @@ PR_INTERVAL_NO_WAIT
 define
 PR_INTERVAL_NO_TIMEOUT
 0xffffffffUL
-.
-.
-_Description
-:
 Description
 -
 -

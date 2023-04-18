@@ -19,10 +19,6 @@ always
 64
 bits
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -

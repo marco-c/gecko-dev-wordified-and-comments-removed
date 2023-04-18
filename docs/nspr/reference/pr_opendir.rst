@@ -17,10 +17,6 @@ the
 specified
 pathname
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -51,10 +47,6 @@ char
 name
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -82,10 +74,6 @@ to
 be
 opened
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -131,10 +119,6 @@ function
 returns
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

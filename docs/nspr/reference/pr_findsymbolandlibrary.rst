@@ -46,10 +46,6 @@ it
 was
 found
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -84,10 +80,6 @@ PRLibrary
 lib
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -147,10 +139,6 @@ by
 the
 caller
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -201,10 +189,6 @@ found
 returns
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -74,10 +74,6 @@ existing
 native
 thread
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -111,10 +107,6 @@ PRThreadStack
 stack
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -176,10 +168,6 @@ thread
 being
 attached
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -222,10 +210,6 @@ not
 available
 NULL
 .
-.
-.
-_Description
-:
 Description
 -
 -

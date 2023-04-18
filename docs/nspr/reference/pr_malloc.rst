@@ -18,10 +18,6 @@ from
 the
 heap
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -49,10 +45,6 @@ PR_MALLOC
 _bytes
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -71,10 +63,6 @@ requested
 memory
 block
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -115,10 +103,6 @@ malloc
 (
 )
 .
-.
-.
-_Description
-:
 Description
 -
 -

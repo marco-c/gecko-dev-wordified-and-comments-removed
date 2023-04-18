@@ -28,10 +28,6 @@ associated
 monitored
 data
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -60,10 +56,6 @@ PRCondVar
 cvar
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -89,10 +81,6 @@ variable
 to
 notify
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -137,10 +125,6 @@ variable
 )
 PR_FAILURE
 .
-.
-.
-_Description
-:
 Description
 -
 -

@@ -14,10 +14,6 @@ a
 specified
 socket
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -50,10 +46,6 @@ PRNetAddr
 addr
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -107,10 +99,6 @@ will
 be
 bound
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -157,10 +145,6 @@ ref
 :
 PR_GetError
 .
-.
-.
-_Description
-:
 Description
 -
 -

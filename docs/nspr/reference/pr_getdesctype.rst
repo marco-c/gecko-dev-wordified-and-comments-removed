@@ -26,10 +26,6 @@ specified
 file
 descriptor
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -58,10 +54,6 @@ PRFileDesc
 file
 )
 ;
-.
-.
-_Parameter
-:
 Parameter
 ~
 ~
@@ -97,10 +89,6 @@ to
 be
 returned
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -123,10 +111,6 @@ type
 of
 file
 .
-.
-.
-_Description
-:
 Description
 -
 -

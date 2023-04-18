@@ -70,10 +70,6 @@ a
 native
 thread
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -100,10 +96,6 @@ PR_DetachThread
 void
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -120,10 +112,6 @@ has
 no
 parameters
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -137,10 +125,6 @@ function
 returns
 nothing
 .
-.
-.
-_Description
-:
 Description
 -
 -

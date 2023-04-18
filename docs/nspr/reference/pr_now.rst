@@ -10,10 +10,6 @@ the
 current
 time
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -40,10 +36,6 @@ PR_Now
 void
 )
 ;
-.
-.
-_Parameters
-:
 Parameters
 ~
 ~
@@ -57,10 +49,6 @@ Parameters
 ~
 None
 .
-.
-.
-_Returns
-:
 Returns
 ~
 ~
@@ -80,10 +68,6 @@ ref
 PRTime
 value
 .
-.
-.
-_Description
-:
 Description
 -
 -

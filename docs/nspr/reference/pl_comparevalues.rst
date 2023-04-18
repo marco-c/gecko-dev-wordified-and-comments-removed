@@ -22,10 +22,6 @@ void
 values
 numerically
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -59,10 +55,6 @@ void
 v2
 )
 ;
-.
-.
-_Description
-:
 Description
 -
 -

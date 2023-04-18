@@ -26,10 +26,6 @@ ref
 :
 PR_GetOpenFileInfo64
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -72,10 +68,6 @@ struct
 PRFileInfo64
 PRFileInfo64
 ;
-.
-.
-_Fields
-:
 Fields
 ~
 ~
@@ -203,10 +195,6 @@ h
 >
 __
 .
-.
-.
-_Description
-:
 Description
 -
 -

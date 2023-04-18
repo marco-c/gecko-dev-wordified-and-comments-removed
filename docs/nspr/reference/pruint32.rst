@@ -20,10 +20,6 @@ on
 all
 platforms
 .
-.
-.
-_Syntax
-:
 Syntax
 -
 -
@@ -47,10 +43,6 @@ h
 typedefdefinition
 PRUint32
 ;
-.
-.
-_Description
-:
 Description
 -
 -
