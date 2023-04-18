@@ -322,7 +322,7 @@ sponsoredBlockId
 sponsoredAdvertiser
 :
 "
-testadvertiser
+TestAdvertiser
 "
 isSponsored
 :

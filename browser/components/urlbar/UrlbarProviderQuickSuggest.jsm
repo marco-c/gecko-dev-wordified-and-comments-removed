@@ -1202,6 +1202,15 @@ result
 payload
 ;
 let
+advertiser
+=
+sponsoredAdvertiser
+.
+toLocaleLowerCase
+(
+)
+;
+let
 scenario
 =
 UrlbarPrefs
@@ -1222,8 +1231,6 @@ sendContextualServicesPing
 {
 scenario
 advertiser
-:
-sponsoredAdvertiser
 block_id
 :
 sponsoredBlockId
@@ -1257,8 +1264,6 @@ sendContextualServicesPing
 {
 scenario
 advertiser
-:
-sponsoredAdvertiser
 block_id
 :
 sponsoredBlockId
