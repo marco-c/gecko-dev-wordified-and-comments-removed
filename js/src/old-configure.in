@@ -1112,12 +1112,6 @@ AS
 as
 CC
 )
-AC_CHECK_PROGS
-(
-STRIP
-strip
-:
-)
 fi
 MOZ_TOOL_VARIABLES
 dnl
@@ -3704,12 +3698,6 @@ else
 TARGET_COMPILER_ABI
 =
 msvc
-STRIP
-=
-'
-echo
-not_strip
-'
 #
 aarch64
 doesn
