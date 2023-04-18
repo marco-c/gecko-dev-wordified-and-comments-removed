@@ -3764,7 +3764,7 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
-nsresult
+JoinNodesResult
 JoinNodesWithTransaction
 (
 nsIContent
