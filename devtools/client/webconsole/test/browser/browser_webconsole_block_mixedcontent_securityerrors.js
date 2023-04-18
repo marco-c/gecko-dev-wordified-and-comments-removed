@@ -531,6 +531,12 @@ link
 }
 )
 ;
+gIdentityHandler
+.
+enableMixedContentProtectionNoReload
+(
+)
+;
 }
 )
 ;
