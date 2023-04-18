@@ -1777,6 +1777,12 @@ MakeScopeExit
 &
 ]
 {
+mDataMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 mIsReading
 =
 false
