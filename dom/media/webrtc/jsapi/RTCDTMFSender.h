@@ -57,9 +57,6 @@ mozilla
 class
 AudioSessionConduit
 ;
-class
-TransceiverImpl
-;
 struct
 DtmfEvent
 {
@@ -115,6 +112,9 @@ namespace
 dom
 {
 class
+RTCRtpTransceiver
+;
+class
 RTCDTMFSender
 :
 public
@@ -131,7 +131,7 @@ RTCDTMFSender
 nsPIDOMWindowInner
 *
 aWindow
-TransceiverImpl
+RTCRtpTransceiver
 *
 aTransceiver
 )
@@ -237,7 +237,7 @@ aDelay
 ;
 RefPtr
 <
-TransceiverImpl
+RTCRtpTransceiver
 >
 mTransceiver
 ;
