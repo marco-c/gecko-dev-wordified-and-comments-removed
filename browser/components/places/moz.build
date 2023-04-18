@@ -110,6 +110,11 @@ InteractionsBlocklist
 jsm
 "
 "
+PinnedGroupBuilder
+.
+jsm
+"
+"
 PlacesUIUtils
 .
 jsm
