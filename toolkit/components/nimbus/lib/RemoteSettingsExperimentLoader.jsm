@@ -978,6 +978,11 @@ remoteSettingsClient
 .
 get
 (
+{
+emptyListFallback
+:
+false
+}
 )
 ;
 lazy
@@ -1471,6 +1476,11 @@ COLLECTION_ID
 .
 get
 (
+{
+emptyListFallback
+:
+false
+}
 )
 ;
 }
