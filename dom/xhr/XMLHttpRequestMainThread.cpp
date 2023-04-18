@@ -12947,6 +12947,13 @@ if
 mChannel
 )
 {
+mErrorLoad
+=
+ErrorType
+:
+:
+eChannelOpen
+;
 mFlagSend
 =
 true
@@ -12980,6 +12987,13 @@ GET
 )
 )
 {
+mErrorLoad
+=
+ErrorType
+:
+:
+eChannelOpen
+;
 mFlagSend
 =
 true
