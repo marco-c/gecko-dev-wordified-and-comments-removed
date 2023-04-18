@@ -75,11 +75,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 clearTimeout
 :
@@ -253,6 +259,8 @@ locale
 )
 {
 return
+lazy
+.
 ASRouterTargeting
 .
 Environment
@@ -266,6 +274,8 @@ localeLanguageCode
 )
 {
 return
+lazy
+.
 ASRouterTargeting
 .
 Environment
@@ -279,6 +289,8 @@ region
 )
 {
 return
+lazy
+.
 ASRouterTargeting
 .
 Environment
@@ -292,6 +304,8 @@ userId
 )
 {
 return
+lazy
+.
 ClientEnvironment
 .
 userId
@@ -318,6 +332,8 @@ const
 settings
 }
 =
+lazy
+.
 TelemetryEnvironment
 .
 currentEnvironment
@@ -347,6 +363,8 @@ os
 )
 {
 return
+lazy
+.
 ClientEnvironmentBase
 .
 os
@@ -630,6 +648,8 @@ reject
 let
 timeout
 =
+lazy
+.
 setTimeout
 (
 (
@@ -729,6 +749,8 @@ error
 }
 finally
 {
+lazy
+.
 clearTimeout
 (
 timeout
@@ -857,6 +879,8 @@ contexts
 )
 {
 return
+lazy
+.
 FilterExpressions
 .
 eval
@@ -889,6 +913,8 @@ expression
 )
 {
 return
+lazy
+.
 FilterExpressions
 .
 eval
