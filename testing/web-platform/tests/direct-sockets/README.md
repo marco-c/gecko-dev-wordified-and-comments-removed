@@ -20,13 +20,13 @@ com
 /
 WICG
 /
-raw
+direct
 -
 sockets
 /
 blob
 /
-master
+main
 /
 docs
 /
