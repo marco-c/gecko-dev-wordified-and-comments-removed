@@ -7538,14 +7538,6 @@ false
 ;
 }
 ;
-enum
-class
-SubresourceKind
-{
-Style
-Image
-}
-;
 static
 SubresourceCacheValidationInfo
 GetSubresourceCacheValidationInfo
@@ -7554,7 +7546,6 @@ nsIRequest
 *
 nsIURI
 *
-SubresourceKind
 )
 ;
 static
