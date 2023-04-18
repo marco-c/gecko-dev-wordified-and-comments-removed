@@ -541,6 +541,12 @@ JS
 OffThreadToken
 *
 token
+JS
+:
+:
+InstantiationStorage
+*
+storage
 )
 {
 MOZ_ASSERT
@@ -578,6 +584,7 @@ finishCompileToStencilTask
 (
 cx
 token
+storage
 )
 ;
 return
