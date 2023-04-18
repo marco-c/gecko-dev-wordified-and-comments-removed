@@ -2017,9 +2017,6 @@ env_logger
 log
 "
 "
-mozbuild
-"
-"
 smallvec
 "
 ]
@@ -9914,9 +9911,6 @@ inherent
 "
 "
 log
-"
-"
-mozbuild
 "
 "
 nsstring

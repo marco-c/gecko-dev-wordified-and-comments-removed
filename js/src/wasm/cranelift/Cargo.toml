@@ -153,13 +153,6 @@ to
 reduce
 code
 size
-mozbuild
-=
-"
-0
-.
-1
-"
 [
 features
 ]
