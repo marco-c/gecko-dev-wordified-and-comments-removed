@@ -1782,6 +1782,7 @@ nsINode
 aOriginalEventTargetNode
 )
 ;
+virtual
 nsresult
 OnBlur
 (
@@ -1793,6 +1794,8 @@ EventTarget
 *
 aEventTarget
 )
+=
+0
 ;
 void
 SyncRealTimeSpell
