@@ -5985,6 +5985,16 @@ RevokeTransactionIdAllocator
 (
 )
 ;
+LOG
+(
+"
+Clearing
+mMoveToRectPopupSize
+\
+n
+"
+)
+;
 mMoveToRectPopupSize
 =
 {
