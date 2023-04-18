@@ -73,6 +73,13 @@ nsIThread
 .
 h
 "
+#
+include
+"
+nsXPCOMPrivate
+.
+h
+"
 namespace
 mozilla
 :
@@ -347,6 +354,15 @@ CalculateNumIdleTasks
 }
 )
 ;
+if
+(
+MOZ_LIKELY
+(
+!
+gXPCOMThreadsShutDown
+)
+)
+{
 thread
 -
 >
@@ -356,6 +372,7 @@ runnable
 NS_DISPATCH_NORMAL
 )
 ;
+}
 }
 }
 )
