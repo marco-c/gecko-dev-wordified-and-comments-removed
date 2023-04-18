@@ -14,10 +14,11 @@ BUG_COMPONENT
 Toolkit
 "
 "
-Video
-/
-Audio
-Controls
+Picture
+-
+in
+-
+Picture
 "
 )
 SPHINX_TREES
