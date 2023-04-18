@@ -65,7 +65,7 @@ DelayedRunnable
 (
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 aTarget
 already_AddRefed
@@ -107,7 +107,7 @@ DoRun
 const
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mTarget
 ;
