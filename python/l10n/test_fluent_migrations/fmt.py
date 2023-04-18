@@ -22,7 +22,7 @@ sys
 import
 hglib
 from
-mozboot
+mach
 .
 util
 import

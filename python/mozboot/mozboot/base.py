@@ -2439,11 +2439,6 @@ python_location
 =
 get_mach_virtualenv_binary
 (
-state_dir
-=
-self
-.
-state_dir
 )
         
 if

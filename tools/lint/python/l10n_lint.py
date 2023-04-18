@@ -6,11 +6,11 @@ timedelta
 import
 os
 from
-mozboot
+mach
 import
 util
 as
-mb_util
+mach_util
 from
 mozlint
 import
@@ -81,7 +81,7 @@ lintargs
     
 l10n_base
 =
-mb_util
+mach_util
 .
 get_state_dir
 (
@@ -385,7 +385,7 @@ mozpath
 .
 join
 (
-mb_util
+mach_util
 .
 get_state_dir
 (

@@ -11,7 +11,7 @@ collections
 import
 defaultdict
 from
-mozboot
+mach
 .
 util
 import
@@ -466,9 +466,10 @@ path
 .
 join
 (
+        
 get_state_dir
 (
-srcdir
+specific_to_topsrcdir
 =
 True
 )
@@ -478,6 +479,7 @@ cache
 "
 taskgraph
 "
+    
 )
     
 key

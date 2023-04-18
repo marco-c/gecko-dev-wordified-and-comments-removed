@@ -15,7 +15,7 @@ mozterm
 import
 Terminal
 from
-mozboot
+mach
 .
 util
 import

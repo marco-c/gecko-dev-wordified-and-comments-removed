@@ -470,7 +470,7 @@ python
 c
 "
 from
-mozboot
+mach
 .
 util
 import
@@ -480,7 +480,7 @@ print
 (
 get_state_dir
 (
-srcdir
+specific_to_topsrcdir
 =
 True
 )

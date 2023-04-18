@@ -27,7 +27,7 @@ decorators
 import
 Command
 from
-mozboot
+mach
 .
 util
 import

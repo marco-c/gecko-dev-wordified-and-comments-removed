@@ -48,11 +48,16 @@ import
 NoopTelemetry
 GleanTelemetry
 from
-mozboot
+mach
 .
 util
 import
 get_state_dir
+from
+mozboot
+.
+util
+import
 get_mach_virtualenv_binary
 from
 mozbuild
