@@ -13173,7 +13173,9 @@ IsEmpty
 )
 )
 {
-return
+result
+&
+=
 state
 .
 mImageRenderer
