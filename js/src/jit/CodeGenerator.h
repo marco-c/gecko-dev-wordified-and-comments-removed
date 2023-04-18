@@ -1105,6 +1105,16 @@ Register
 int32_t
 >
 ;
+static
+RegisterOrInt32
+ToRegisterOrInt32
+(
+const
+LAllocation
+*
+allocation
+)
+;
 #
 ifdef
 DEBUG

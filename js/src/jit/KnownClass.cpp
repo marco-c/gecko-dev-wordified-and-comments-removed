@@ -164,6 +164,15 @@ Opcode
 :
 FrameArgumentsSlice
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+InlineArgumentsSlice
+:
 return
 KnownClass
 :

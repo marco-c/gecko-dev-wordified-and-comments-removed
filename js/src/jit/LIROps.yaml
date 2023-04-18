@@ -5819,6 +5819,13 @@ true
 -
 name
 :
+InlineArgumentsSlice
+gen_boilerplate
+:
+false
+-
+name
+:
 NormalizeSliceTerm
 result_type
 :
