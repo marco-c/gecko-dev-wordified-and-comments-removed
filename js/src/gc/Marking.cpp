@@ -9143,6 +9143,11 @@ State
 :
 :
 Sweep
+|
+|
+hasBlackEntries
+(
+)
 )
 {
 queuePos
