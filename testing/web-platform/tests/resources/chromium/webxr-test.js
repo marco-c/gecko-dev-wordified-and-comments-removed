@@ -10054,6 +10054,7 @@ submitFrameWithTextureHandle
 (
 frameId
 texture
+syncToken
 )
 {
 }
