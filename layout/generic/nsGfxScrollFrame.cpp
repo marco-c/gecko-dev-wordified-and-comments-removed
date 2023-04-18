@@ -14880,7 +14880,7 @@ nsLayoutUtils
 :
 CanScrollOriginClobberApz
 (
-mLastScrollOrigin
+aOrigin
 )
 )
 {
