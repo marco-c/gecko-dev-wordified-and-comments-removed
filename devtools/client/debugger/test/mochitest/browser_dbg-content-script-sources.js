@@ -195,8 +195,13 @@ js
 "
 )
 ;
-ok
+await
+waitFor
 (
+(
+)
+=
+>
 findElementWithSelector
 (
 dbg
