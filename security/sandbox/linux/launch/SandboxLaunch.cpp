@@ -1453,8 +1453,6 @@ flags
 |
 =
 CLONE_NEWNET
-|
-CLONE_NEWIPC
 ;
 }
 break
