@@ -677,6 +677,13 @@ h
 "
 test
 /
+TestInterfaceObservableArray
+.
+h
+"
+"
+test
+/
 TestInterfaceSetlike
 .
 h
@@ -753,6 +760,13 @@ cpp
 test
 /
 TestInterfaceMaplikeObject
+.
+cpp
+"
+"
+test
+/
+TestInterfaceObservableArray
 .
 cpp
 "

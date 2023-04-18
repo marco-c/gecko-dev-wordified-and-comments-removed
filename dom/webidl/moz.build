@@ -6317,6 +6317,11 @@ TestInterfaceJSMaplikeSetlikeIterable
 .
 webidl
 "
+"
+TestInterfaceObservableArray
+.
+webidl
+"
 ]
 WEBIDL_FILES
 +
