@@ -1576,6 +1576,15 @@ GetHasRestoreData
 )
 )
 ;
+txn
+.
+SetShouldDelayMediaFromStart
+(
+GetShouldDelayMediaFromStart
+(
+)
+)
+;
 if
 (
 aNewContext
