@@ -118,6 +118,14 @@ T
 class
 OwningNonNull
 ;
+enum
+class
+JoinNodesDirection
+{
+LeftNodeIntoRightNode
+RightNodeIntoLeftNode
+}
+;
 class
 MOZ_STACK_CLASS
 EditResult
