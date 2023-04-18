@@ -191,6 +191,13 @@ h
 #
 include
 "
+ProfilerControl
+.
+h
+"
+#
+include
+"
 js
 /
 Initialization

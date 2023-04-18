@@ -540,6 +540,13 @@ h
 #
 include
 "
+ProfilerControl
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h

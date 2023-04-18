@@ -17305,6 +17305,13 @@ GeckoProfiler
 .
 h
 "
+#
+include
+"
+ProfilerControl
+.
+h
+"
 class
 XREMain
 {

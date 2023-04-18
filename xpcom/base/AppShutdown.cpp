@@ -38,7 +38,7 @@ endif
 #
 include
 "
-GeckoProfiler
+ProfilerControl
 .
 h
 "

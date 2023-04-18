@@ -322,14 +322,14 @@ h
 #
 include
 "
-GeckoProfiler
+Components
 .
 h
 "
 #
 include
 "
-Components
+ProfilerControl
 .
 h
 "
