@@ -22,7 +22,7 @@ const
 TEST_DOMAIN
 =
 "
-http
+https
 :
 /
 /

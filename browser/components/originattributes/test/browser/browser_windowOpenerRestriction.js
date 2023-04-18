@@ -400,6 +400,16 @@ isolate
 "
 true
 ]
+[
+"
+dom
+.
+security
+.
+https_first
+"
+false
+]
 ]
 }
 )
