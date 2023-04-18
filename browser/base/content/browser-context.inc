@@ -4373,6 +4373,17 @@ takeScreenshot
 >
 <
 menuseparator
+id
+=
+"
+context
+-
+sep
+-
+frame
+-
+screenshot
+"
 /
 >
 <
