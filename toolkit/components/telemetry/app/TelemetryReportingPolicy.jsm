@@ -136,11 +136,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetrySend
 "
@@ -1393,6 +1399,8 @@ _recordNotificationData
 (
 )
 ;
+lazy
+.
 TelemetrySend
 .
 notifyCanUpload

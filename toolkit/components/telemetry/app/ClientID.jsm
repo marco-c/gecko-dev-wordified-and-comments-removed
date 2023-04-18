@@ -141,11 +141,17 @@ eec0
 ffeec0ffeec0
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CommonUtils
 "
@@ -168,7 +174,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 CryptoHash
 "
@@ -208,7 +214,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gDatareportingPath
 "
@@ -249,7 +255,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gStateFilePath
 "
@@ -263,6 +269,8 @@ PathUtils
 .
 join
 (
+lazy
+.
 gDatareportingPath
 "
 state
@@ -560,6 +568,8 @@ IOUtils
 .
 readJSON
 (
+lazy
+.
 gStateFilePath
 )
 ;
@@ -659,6 +669,8 @@ this
 .
 updateClientID
 (
+lazy
+.
 CommonUtils
 .
 generateUUID
@@ -743,6 +755,8 @@ IOUtils
 .
 makeDirectory
 (
+lazy
+.
 gDatareportingPath
 )
 ;
@@ -751,12 +765,16 @@ IOUtils
 .
 writeJSON
 (
+lazy
+.
 gStateFilePath
 obj
 {
 tmpPath
 :
 {
+lazy
+.
 gStateFilePath
 }
 .
@@ -1049,6 +1067,8 @@ let
 hash
 =
 new
+lazy
+.
 CryptoHash
 (
 "
@@ -1070,6 +1090,8 @@ this
 .
 _clientIDHash
 =
+lazy
+.
 CommonUtils
 .
 bytesAsHex
@@ -1208,6 +1230,8 @@ IOUtils
 .
 remove
 (
+lazy
+.
 gStateFilePath
 )
 ;

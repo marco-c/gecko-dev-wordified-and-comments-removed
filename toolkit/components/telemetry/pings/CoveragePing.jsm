@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CommonUtils
 "
@@ -54,7 +60,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Log
 "
@@ -77,7 +83,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PromiseUtils
 "
@@ -100,7 +106,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ServiceRequest
 "
@@ -123,7 +129,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UpdateUtils
 "
@@ -268,6 +274,8 @@ PING_SUBMISSION_TIMEOUT
 const
 log
 =
+lazy
+.
 Log
 .
 repository
@@ -293,6 +301,8 @@ prefs
 getIntPref
 (
 LOG_LEVEL_PREF
+lazy
+.
 Log
 .
 Level
@@ -305,11 +315,15 @@ log
 addAppender
 (
 new
+lazy
+.
 Log
 .
 ConsoleAppender
 (
 new
+lazy
+.
 Log
 .
 BasicFormatter
@@ -508,6 +522,8 @@ appinfo
 version
 appUpdateChannel
 :
+lazy
+.
 UpdateUtils
 .
 getUpdateChannel
@@ -564,6 +580,8 @@ cachedUuid
 {
 cachedUuid
 =
+lazy
+.
 CommonUtils
 .
 generateUUID
@@ -632,6 +650,8 @@ payload
 let
 deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -642,6 +662,8 @@ let
 request
 =
 new
+lazy
+.
 ServiceRequest
 (
 {

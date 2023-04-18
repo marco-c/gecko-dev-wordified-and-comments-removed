@@ -123,11 +123,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManagerPrivate
 :
@@ -1474,6 +1480,8 @@ ret
 .
 addonManager
 =
+lazy
+.
 AddonManagerPrivate
 .
 getSimpleMeasures
@@ -2559,6 +2567,8 @@ protect
 )
 =
 >
+lazy
+.
 AddonManagerPrivate
 .
 getTelemetryDetails
@@ -2902,6 +2912,8 @@ _getSessionDataObject
 (
 )
 ;
+lazy
+.
 TelemetryStorage
 .
 saveSessionData
@@ -3003,6 +3015,8 @@ true
 }
 ;
 return
+lazy
+.
 TelemetryController
 .
 submitExternalPing
@@ -3327,6 +3341,8 @@ _loadSessionData
 )
 ;
 await
+lazy
+.
 TelemetryStorage
 .
 saveSessionData
@@ -3377,6 +3393,8 @@ IS_UNIFIED_TELEMETRY
 )
 {
 await
+lazy
+.
 TelemetryController
 .
 checkAbortedSessionPing
@@ -3409,6 +3427,8 @@ monotonicNow
 (
 )
 ;
+lazy
+.
 TelemetryEnvironment
 .
 registerChangeListener
@@ -3429,6 +3449,8 @@ data
 )
 )
 ;
+lazy
+.
 TelemetryScheduler
 .
 init
@@ -3525,6 +3547,8 @@ false
 |
 |
 !
+lazy
+.
 TelemetryReportingPolicy
 .
 isFirstRun
@@ -3570,6 +3594,8 @@ p
 .
 push
 (
+lazy
+.
 TelemetryController
 .
 submitExternalPing
@@ -3640,6 +3666,8 @@ false
 )
 &
 &
+lazy
+.
 TelemetryReportingPolicy
 .
 isFirstRun
@@ -3670,6 +3698,8 @@ p
 .
 push
 (
+lazy
+.
 TelemetryController
 .
 submitExternalPing
@@ -3757,6 +3787,8 @@ p
 .
 push
 (
+lazy
+.
 TelemetryController
 .
 submitExternalPing
@@ -3837,6 +3869,8 @@ true
 }
 ;
 return
+lazy
+.
 TelemetryController
 .
 addPendingPing
@@ -4358,6 +4392,8 @@ overwrite
 true
 }
 ;
+lazy
+.
 TelemetryController
 .
 addPendingPing
@@ -4441,6 +4477,8 @@ if
 IS_UNIFIED_TELEMETRY
 )
 {
+lazy
+.
 TelemetryEnvironment
 .
 unregisterChangeListener
@@ -4448,6 +4486,8 @@ unregisterChangeListener
 ENVIRONMENT_CHANGE_LISTENER
 )
 ;
+lazy
+.
 TelemetryScheduler
 .
 shutdown
@@ -4504,6 +4544,8 @@ IS_UNIFIED_TELEMETRY
 )
 {
 await
+lazy
+.
 TelemetryController
 .
 removeAbortedSessionPing
@@ -4604,6 +4646,8 @@ true
 let
 promise
 =
+lazy
+.
 TelemetryController
 .
 submitExternalPing
@@ -4668,6 +4712,8 @@ let
 data
 =
 await
+lazy
+.
 TelemetryStorage
 .
 loadSessionData
@@ -4935,6 +4981,8 @@ REASON_ENVIRONMENT_CHANGE
 true
 )
 ;
+lazy
+.
 TelemetryScheduler
 .
 rescheduleDailyPing
@@ -4957,6 +5005,8 @@ overrideEnvironment
 oldEnvironment
 }
 ;
+lazy
+.
 TelemetryController
 .
 submitExternalPing
@@ -5081,6 +5131,8 @@ false
 ;
 }
 return
+lazy
+.
 TelemetryController
 .
 saveAbortedSessionPing
@@ -5112,6 +5164,8 @@ _newProfilePingSent
 true
 ;
 return
+lazy
+.
 TelemetryStorage
 .
 saveSessionData

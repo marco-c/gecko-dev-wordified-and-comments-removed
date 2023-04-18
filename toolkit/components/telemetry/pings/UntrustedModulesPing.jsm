@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Log
 :
@@ -118,7 +124,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 UpdateTimerManager
 :
@@ -198,6 +204,8 @@ freeze
 {
 _log
 :
+lazy
+.
 Log
 .
 repository
@@ -211,6 +219,8 @@ start
 (
 )
 {
+lazy
+.
 UpdateTimerManager
 .
 registerTimer
@@ -223,6 +233,8 @@ prefs
 .
 getIntPref
 (
+lazy
+.
 TelemetryUtils
 .
 Preferences
@@ -260,6 +272,8 @@ if
 payload
 )
 {
+lazy
+.
 TelemetryController
 .
 submitExternalPing

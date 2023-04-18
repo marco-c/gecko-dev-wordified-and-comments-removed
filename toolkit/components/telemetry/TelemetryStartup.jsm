@@ -3,11 +3,17 @@ use
 strict
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryController
 "
@@ -30,7 +36,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEnvironment
 "
@@ -99,6 +105,8 @@ change
 "
 )
 {
+lazy
+.
 TelemetryController
 .
 observe
@@ -127,6 +135,8 @@ annotateEnvironment
 (
 )
 ;
+lazy
+.
 TelemetryEnvironment
 .
 registerChangeListener
@@ -137,6 +147,8 @@ CrashAnnotator
 annotateEnvironment
 )
 ;
+lazy
+.
 TelemetryEnvironment
 .
 onInitialized
@@ -196,6 +208,8 @@ JSON
 .
 stringify
 (
+lazy
+.
 TelemetryEnvironment
 .
 currentEnvironment

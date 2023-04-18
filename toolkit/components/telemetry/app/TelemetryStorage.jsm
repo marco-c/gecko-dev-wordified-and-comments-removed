@@ -249,11 +249,17 @@ state
 json
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gDataReportingDir
 "
@@ -285,7 +291,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gPingsArchivePath
 "
@@ -300,6 +306,8 @@ Path
 .
 join
 (
+lazy
+.
 gDataReportingDir
 PINGS_ARCHIVE_DIR
 )
@@ -311,7 +319,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gAbortedSessionFilePath
 "
@@ -326,6 +334,8 @@ Path
 .
 join
 (
+lazy
+.
 gDataReportingDir
 ABORTED_SESSION_FILE_NAME
 )
@@ -337,7 +347,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CommonUtils
 "
@@ -360,7 +370,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryHealthPing
 "
@@ -2606,6 +2616,8 @@ Path
 .
 join
 (
+lazy
+.
 gDataReportingDir
 SESSION_STATE_FILE_NAME
 )
@@ -2613,6 +2625,8 @@ SESSION_STATE_FILE_NAME
 try
 {
 await
+lazy
+.
 CommonUtils
 .
 writeJSON
@@ -3058,6 +3072,8 @@ File
 .
 DirectoryIterator
 (
+lazy
+.
 gPingsArchivePath
 )
 ;
@@ -4080,6 +4096,8 @@ File
 .
 exists
 (
+lazy
+.
 gPingsArchivePath
 )
 )
@@ -4867,6 +4885,8 @@ File
 .
 exists
 (
+lazy
+.
 gPingsArchivePath
 )
 )
@@ -4895,6 +4915,8 @@ File
 .
 DirectoryIterator
 (
+lazy
+.
 gPingsArchivePath
 )
 ;
@@ -5637,6 +5659,8 @@ add
 (
 )
 ;
+lazy
+.
 TelemetryHealthPing
 .
 recordDiscardedPing
@@ -6910,6 +6934,8 @@ add
 (
 )
 ;
+lazy
+.
 TelemetryHealthPing
 .
 recordDiscardedPing
@@ -7543,6 +7569,8 @@ path
 :
 "
 +
+lazy
+.
 gAbortedSessionFilePath
 )
 ;
@@ -7553,6 +7581,8 @@ File
 .
 makeDir
 (
+lazy
+.
 gDataReportingDir
 {
 ignoreExisting
@@ -7577,6 +7607,8 @@ this
 savePingToFile
 (
 ping
+lazy
+.
 gAbortedSessionFilePath
 true
 )
@@ -7602,6 +7634,8 @@ this
 .
 loadPingFile
 (
+lazy
+.
 gAbortedSessionFilePath
 )
 ;
@@ -7684,6 +7718,8 @@ File
 .
 remove
 (
+lazy
+.
 gAbortedSessionFilePath
 {
 ignoreAbsent
@@ -8346,6 +8382,8 @@ Path
 .
 join
 (
+lazy
+.
 gPingsArchivePath
 aDate
 .

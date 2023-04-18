@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 WindowsInstallsInfo
 :
@@ -100,6 +106,8 @@ getOtherInstallsCount
 )
 {
 return
+lazy
+.
 WindowsInstallsInfo
 .
 getInstallPaths

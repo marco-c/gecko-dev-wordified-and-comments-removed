@@ -102,11 +102,17 @@ TelemetryArchive
 :
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryStorage
 "
@@ -331,6 +337,8 @@ field
 }
 }
 return
+lazy
+.
 TelemetryStorage
 .
 saveArchivedPing
@@ -422,6 +430,8 @@ promiseArchivedPingList
 )
 ;
 return
+lazy
+.
 TelemetryStorage
 .
 loadArchivedPingList
@@ -468,6 +478,8 @@ id
 )
 ;
 return
+lazy
+.
 TelemetryStorage
 .
 loadArchivedPing

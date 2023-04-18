@@ -223,11 +223,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryStorage
 "
@@ -250,7 +256,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryReportingPolicy
 "
@@ -273,7 +279,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -296,7 +302,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryHealthPing
 "
@@ -621,6 +627,8 @@ aPing
 )
 {
 return
+lazy
+.
 TelemetryStorage
 .
 savePendingPing
@@ -1940,6 +1948,8 @@ return
 let
 pending
 =
+lazy
+.
 TelemetryStorage
 .
 getPendingPingList
@@ -2833,6 +2843,8 @@ pendingPingCount
 {
 return
 (
+lazy
+.
 TelemetryStorage
 .
 getPendingPingList
@@ -3030,6 +3042,8 @@ ex
 )
 ;
 }
+lazy
+.
 TelemetryStorage
 .
 runEnforcePendingPingsQuotaTask
@@ -3129,6 +3143,8 @@ sendingEnabled
 |
 |
 !
+lazy
+.
 TelemetryReportingPolicy
 .
 canUpload
@@ -3196,6 +3212,8 @@ let
 infos
 =
 await
+lazy
+.
 TelemetryStorage
 .
 loadPendingPingList
@@ -3812,12 +3830,16 @@ try
 const
 pingPath
 =
+lazy
+.
 OS
 .
 Path
 .
 join
 (
+lazy
+.
 TelemetryStorage
 .
 pingDirectoryPath
@@ -3999,6 +4021,8 @@ this
 _isOSShutdown
 &
 &
+lazy
+.
 TelemetryReportingPolicy
 .
 canUpload
@@ -4682,6 +4706,8 @@ pingSendPromises
 .
 push
 (
+lazy
+.
 TelemetryStorage
 .
 loadPendingPing
@@ -4864,6 +4890,8 @@ isPersisted
 )
 {
 return
+lazy
+.
 TelemetryStorage
 .
 removePendingPing
@@ -5400,6 +5428,8 @@ if
 (
 compressedPingSizeBytes
 >
+lazy
+.
 TelemetryStorage
 .
 MAXIMUM_PING_SIZE
@@ -5476,6 +5506,8 @@ delete
 id
 )
 ;
+lazy
+.
 TelemetryHealthPing
 .
 recordDiscardedPing
@@ -5489,6 +5521,8 @@ return
 {
 promise
 :
+lazy
+.
 TelemetryStorage
 .
 removePendingPing
@@ -5973,6 +6007,8 @@ errorCode
 ]
 ;
 }
+lazy
+.
 TelemetryHealthPing
 .
 recordSendFailure
@@ -6329,6 +6365,8 @@ canSendNow
 if
 (
 !
+lazy
+.
 TelemetryReportingPolicy
 .
 canUpload
@@ -6689,6 +6727,8 @@ _currentPings
 size
 persistedPingCount
 :
+lazy
+.
 TelemetryStorage
 .
 getPendingPingList
