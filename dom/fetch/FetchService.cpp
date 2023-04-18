@@ -965,6 +965,14 @@ MOZ_ASSERT
 performanceTiming
 )
 ;
+initiatorType
+=
+u
+"
+navigation
+"
+_ns
+;
 FetchServiceResponse
 response
 =

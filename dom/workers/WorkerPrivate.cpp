@@ -23937,10 +23937,6 @@ GetPerformanceStorage
 (
 )
 {
-AssertIsOnMainThread
-(
-)
-;
 MOZ_ASSERT
 (
 mPerformanceStorage
