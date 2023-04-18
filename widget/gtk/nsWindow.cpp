@@ -18041,7 +18041,9 @@ mConfiguredClearColor
 &
 &
 !
-mParent
+IsPopup
+(
+)
 )
 {
 layerManager
