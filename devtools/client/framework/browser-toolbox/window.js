@@ -1238,6 +1238,12 @@ allowChromeProcess
 =
 true
 ;
+DevToolsServer
+.
+keepAlive
+=
+true
+;
 const
 socketOptions
 =
