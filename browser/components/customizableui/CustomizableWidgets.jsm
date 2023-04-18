@@ -3551,7 +3551,7 @@ addTrustedTab
 "
 about
 :
-myfirefox
+firefoxview
 "
 {
 index

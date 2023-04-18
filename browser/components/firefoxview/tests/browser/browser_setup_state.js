@@ -364,7 +364,7 @@ gBrowser
 "
 about
 :
-myfirefox
+firefoxview
 "
 )
 ;

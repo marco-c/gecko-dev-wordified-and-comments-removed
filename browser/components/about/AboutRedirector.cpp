@@ -361,7 +361,7 @@ IS_SECURE_CHROME_UI
 }
 {
 "
-myfirefox
+firefoxview
 "
 "
 chrome
@@ -372,7 +372,7 @@ browser
 /
 content
 /
-myfirefox
+firefoxview
 .
 html
 "

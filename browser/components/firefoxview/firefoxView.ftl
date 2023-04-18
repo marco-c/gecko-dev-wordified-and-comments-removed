@@ -54,14 +54,14 @@ MPL
 /
 .
 -
-myfirefox
+firefoxview
 -
 brand
 -
 name
 =
-My
 Firefox
+View
 toolbar
 -
 button
@@ -75,7 +75,7 @@ label
 =
 {
 -
-myfirefox
+firefoxview
 -
 brand
 -
@@ -86,13 +86,13 @@ tooltiptext
 =
 {
 -
-myfirefox
+firefoxview
 -
 brand
 -
 name
 }
-myfirefox
+firefoxview
 -
 page
 -
@@ -100,13 +100,13 @@ title
 =
 {
 -
-myfirefox
+firefoxview
 -
 brand
 -
 name
 }
-myfirefox
+firefoxview
 -
 colorway
 -
@@ -133,7 +133,7 @@ or
 so
 of
 now
-myfirefox
+firefoxview
 -
 just
 -
@@ -171,7 +171,7 @@ on
 other
 devices
 .
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -179,7 +179,7 @@ header
 =
 Tab
 Pickup
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -195,7 +195,7 @@ on
 another
 device
 .
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -224,7 +224,7 @@ value
 for
 setup
 completion
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -237,7 +237,7 @@ percentValue
 }
 %
 complete
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -263,7 +263,7 @@ product
 -
 name
 }
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -297,7 +297,7 @@ turn
 on
 sync
 .
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -316,7 +316,7 @@ for
 now
 .
 .
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -335,7 +335,7 @@ on
 a
 mobile
 device
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -347,7 +347,7 @@ Step
 2
 description
 .
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -366,7 +366,7 @@ name
 }
 for
 mobile
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -382,7 +382,7 @@ of
 Sync
 open
 tabs
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -394,7 +394,7 @@ Step
 3
 description
 .
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -405,7 +405,7 @@ primarybutton
 Sync
 open
 tabs
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -416,7 +416,7 @@ header
 Setup
 Complete
 !
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -428,7 +428,7 @@ Step
 4
 description
 .
-myfirefox
+firefoxview
 -
 tabpickup
 -
@@ -440,7 +440,7 @@ Get
 my
 other
 tabs
-myfirefox
+firefoxview
 -
 closed
 -
@@ -450,7 +450,7 @@ title
 =
 Recently
 closed
-myfirefox
+firefoxview
 -
 closed
 -
@@ -470,7 +470,7 @@ recently
 closed
 tabs
 list
-myfirefox
+firefoxview
 -
 closed
 -
@@ -487,7 +487,7 @@ on
 this
 device
 .
-myfirefox
+firefoxview
 -
 closed
 -
@@ -533,7 +533,7 @@ in
 the
 new
 tab
-myfirefox
+firefoxview
 -
 closed
 -

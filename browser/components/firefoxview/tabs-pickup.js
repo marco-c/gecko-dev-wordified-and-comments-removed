@@ -840,7 +840,7 @@ config
 promiseConnectAccountURI
 (
 "
-myfirefox
+firefoxview
 "
 )
 ;

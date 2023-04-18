@@ -142,7 +142,7 @@ content
 browser
 \
 /
-myfirefox
+firefoxview
 \
 .
 js

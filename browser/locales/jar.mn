@@ -184,7 +184,7 @@ ifdef
 NIGHTLY_BUILD
 preview
 /
-myFirefox
+firefoxView
 .
 ftl
 (
@@ -193,9 +193,9 @@ ftl
 /
 components
 /
-myfirefox
+firefoxview
 /
-myFirefox
+firefoxView
 .
 ftl
 )
