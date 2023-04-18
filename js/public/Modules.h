@@ -475,6 +475,13 @@ MutableHandleValue
 rval
 )
 ;
+enum
+ModuleErrorBehaviour
+{
+ReportModuleErrorsAsync
+ThrowModuleErrorsSync
+}
+;
 extern
 JS_PUBLIC_API
 bool
@@ -489,6 +496,10 @@ JSObject
 *
 >
 evaluationPromise
+ModuleErrorBehaviour
+errorBehaviour
+=
+ReportModuleErrorsAsync
 )
 ;
 extern
