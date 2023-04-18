@@ -17685,16 +17685,6 @@ public
 static
 final
 int
-ERROR_UNEXPECTED_ADDON_VERSION
-=
--
-9
-;
-field
-public
-static
-final
-int
 ERROR_USER_CANCELED
 =
 -
