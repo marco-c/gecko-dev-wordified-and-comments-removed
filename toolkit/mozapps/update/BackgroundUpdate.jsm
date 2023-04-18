@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -187,7 +193,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -261,7 +267,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 localization
 "
@@ -302,7 +308,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 UpdateService
 "
@@ -396,6 +402,8 @@ _hasOmnijar
 const
 appOmniJar
 =
+lazy
+.
 FileUtils
 .
 getFile
@@ -413,6 +421,8 @@ OMNIJAR_NAME
 const
 greOmniJar
 =
+lazy
+.
 FileUtils
 .
 getFile
@@ -501,6 +511,8 @@ reasons
 [
 ]
 ;
+lazy
+.
 log
 .
 debug
@@ -521,6 +533,8 @@ let
 updateAuto
 =
 await
+lazy
+.
 UpdateUtils
 .
 getAppUpdateAutoEnabled
@@ -545,6 +559,8 @@ NO_APP_UPDATE_AUTO
 )
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -567,6 +583,8 @@ let
 updateBackground
 =
 await
+lazy
+.
 UpdateUtils
 .
 readUpdateConfigSetting
@@ -636,6 +654,8 @@ Ci
 nsIBackgroundTasks
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -700,6 +720,8 @@ Ci
 nsIApplicationUpdateService
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -745,6 +767,8 @@ CANNOT_USUALLY_CHECK
 )
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -828,6 +852,8 @@ WINDOWS_CANNOT_USUALLY_USE_BITS
 ;
 }
 }
+lazy
+.
 log
 .
 debug
@@ -979,6 +1005,8 @@ NS_ERROR_NOT_AVAILABLE
 if
 (
 !
+lazy
+.
 BackgroundTasksUtils
 .
 hasDefaultProfile
@@ -1001,6 +1029,8 @@ NO_DEFAULT_PROFILE_EXISTS
 if
 (
 !
+lazy
+.
 BackgroundTasksUtils
 .
 currentProfileIsDefaultProfile
@@ -1020,6 +1050,8 @@ NOT_DEFAULT_PROFILE
 )
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -1064,6 +1096,8 @@ if
 updateLangpack
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1093,6 +1127,8 @@ let
 langpacks
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonsByTypes
@@ -1104,6 +1140,8 @@ locale
 ]
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1178,6 +1216,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -1280,6 +1320,8 @@ Dump
 -
 MOZ_LOG_FILE
 "
+lazy
+.
 FileUtils
 .
 getFile
@@ -1310,6 +1352,8 @@ backgroundupdate
 let
 workingDirectory
 =
+lazy
+.
 FileUtils
 .
 getDir
@@ -1328,6 +1372,8 @@ let
 description
 =
 await
+lazy
+.
 localization
 .
 formatValue
@@ -1352,6 +1398,8 @@ let
 result
 =
 await
+lazy
+.
 TaskScheduler
 .
 registerTask
@@ -1411,6 +1459,8 @@ ensureExperimentToRolloutTransitionPerformed
 if
 (
 !
+lazy
+.
 UpdateUtils
 .
 PER_INSTALLATION_PREFS_SUPPORTED
@@ -1461,6 +1511,8 @@ true
 const
 defaultValue
 =
+lazy
+.
 UpdateUtils
 .
 PER_INSTALLATION_PREFS
@@ -1479,6 +1531,8 @@ enabled
 defaultValue
 ;
 await
+lazy
+.
 UpdateUtils
 .
 writeUpdateConfigSetting
@@ -1608,6 +1662,8 @@ enabled
 break
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -1652,6 +1708,8 @@ ensureExperimentToRolloutTransitionPerformed
 (
 )
 ;
+lazy
+.
 log
 .
 info
@@ -1680,6 +1738,8 @@ try
 previousEnabled
 =
 await
+lazy
+.
 TaskScheduler
 .
 taskExists
@@ -1848,6 +1908,8 @@ locale
 return
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -1891,6 +1953,8 @@ onUninstalled
 onAddonEvent
 }
 ;
+lazy
+.
 AddonManager
 .
 addAddonListener
@@ -1905,6 +1969,8 @@ _initialized
 true
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -1933,6 +1999,8 @@ _reasonsToNotUpdateInstallation
 (
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1991,6 +2059,8 @@ _force
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2104,6 +2174,8 @@ if
 enabled
 )
 {
+lazy
+.
 log
 .
 info
@@ -2139,6 +2211,8 @@ previousEnabled
 )
 {
 await
+lazy
+.
 TaskScheduler
 .
 deleteTask
@@ -2148,6 +2222,8 @@ this
 taskId
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -2214,6 +2290,8 @@ taskInstalledVersion
 TASK_DEF_CURRENT_VERSION
 )
 {
+lazy
+.
 log
 .
 info
@@ -2238,6 +2316,8 @@ return
 true
 ;
 }
+lazy
+.
 log
 .
 info
@@ -2275,6 +2355,8 @@ registered
 try
 {
 await
+lazy
+.
 TaskScheduler
 .
 deleteTask
@@ -2290,6 +2372,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -2314,6 +2398,8 @@ try
 let
 oldUpdateDir
 =
+lazy
+.
 FileUtils
 .
 getDir
@@ -2396,6 +2482,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 warn
@@ -2421,6 +2509,8 @@ ex
 ;
 }
 }
+lazy
+.
 log
 .
 info
@@ -2454,6 +2544,8 @@ this
 taskId
 )
 ;
+lazy
+.
 log
 .
 info
@@ -2494,6 +2586,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -2567,6 +2661,8 @@ autoDownload
 set
 (
 await
+lazy
+.
 UpdateUtils
 .
 getAppUpdateAutoEnabled
@@ -2583,6 +2679,8 @@ backgroundUpdate
 set
 (
 await
+lazy
+.
 UpdateUtils
 .
 readUpdateConfigSetting
@@ -2607,6 +2705,8 @@ channel
 .
 set
 (
+lazy
+.
 UpdateUtils
 .
 UpdateChannel
@@ -2646,6 +2746,8 @@ canUsuallyApplyUpdates
 .
 set
 (
+lazy
+.
 UpdateService
 .
 canUsuallyApplyUpdates
@@ -2659,6 +2761,8 @@ canUsuallyCheckForUpdates
 .
 set
 (
+lazy
+.
 UpdateService
 .
 canUsuallyCheckForUpdates
@@ -2672,6 +2776,8 @@ canUsuallyStageUpdates
 .
 set
 (
+lazy
+.
 UpdateService
 .
 canUsuallyStageUpdates
@@ -2685,6 +2791,8 @@ canUsuallyUseBits
 .
 set
 (
+lazy
+.
 UpdateService
 .
 canUsuallyUseBits
@@ -2840,6 +2948,8 @@ EXIT_CODE
 {
 .
 .
+.
+lazy
 .
 BackgroundTasksManager
 .

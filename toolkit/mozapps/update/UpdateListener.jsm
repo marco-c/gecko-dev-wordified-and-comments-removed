@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AppMenuNotifications
 "
@@ -136,7 +142,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 AppUpdateService
 "
@@ -162,7 +168,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 UpdateManager
 "
@@ -212,7 +218,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 SUPPRESS_PROMPTS
 "
@@ -381,6 +387,8 @@ getTime
 let
 updateTime
 =
+lazy
+.
 UpdateManager
 .
 getUpdateAt
@@ -559,6 +567,8 @@ clearPendingAndActiveNotifications
 (
 )
 {
+lazy
+.
 AppMenuNotifications
 .
 removeNotification
@@ -892,6 +902,8 @@ dismiss
 true
 }
 ;
+lazy
+.
 AppMenuNotifications
 .
 showNotification
@@ -943,6 +955,8 @@ dismissed
 let
 notification
 =
+lazy
+.
 AppUpdateService
 .
 isOtherInstanceHandlingUpdates
@@ -1009,6 +1023,8 @@ dismissed
 =
 >
 {
+lazy
+.
 AppUpdateService
 .
 downloadUpdate
@@ -1233,11 +1249,15 @@ suppressedPromptDelay
 {
 if
 (
+lazy
+.
 UpdateManager
 .
 downloadingUpdate
 |
 |
+lazy
+.
 UpdateManager
 .
 readyUpdate
@@ -1552,6 +1572,8 @@ AppConstants
 NIGHTLY_BUILD
 &
 &
+lazy
+.
 SUPPRESS_PROMPTS
 )
 {
@@ -1585,6 +1607,8 @@ badgeWaitTimeMs
 if
 (
 !
+lazy
+.
 AppUpdateService
 .
 isOtherInstanceHandlingUpdates
@@ -1695,6 +1719,8 @@ AppConstants
 NIGHTLY_BUILD
 &
 &
+lazy
+.
 SUPPRESS_PROMPTS
 )
 {
