@@ -690,6 +690,14 @@ GetEdgeInTwips
 noscript
 ]
 void
+SetupSilentPrinting
+(
+)
+;
+[
+noscript
+]
+void
 SetUnwriteableMarginInTwips
 (
 in

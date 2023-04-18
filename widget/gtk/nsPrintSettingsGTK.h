@@ -379,6 +379,12 @@ aHeight
 override
 ;
 NS_IMETHOD
+SetupSilentPrinting
+(
+)
+override
+;
+NS_IMETHOD
 SetPageRanges
 (
 const
