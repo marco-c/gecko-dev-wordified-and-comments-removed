@@ -2346,15 +2346,6 @@ type
 boolean
 "
 }
-windowUsingAdvancedLayers
-:
-{
-type
-:
-"
-boolean
-"
-}
 numAcceleratedWindowsMessage
 :
 {

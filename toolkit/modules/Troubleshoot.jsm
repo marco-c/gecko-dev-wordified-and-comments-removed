@@ -3018,14 +3018,6 @@ winUtils
 .
 layerManagerRemote
 ;
-data
-.
-windowUsingAdvancedLayers
-=
-winUtils
-.
-usingAdvancedLayers
-;
 }
 catch
 (

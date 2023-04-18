@@ -386,9 +386,6 @@ mSupportsPartialUploads
 bool
 mSupportsComponentAlpha
 ;
-bool
-mUsingAdvancedLayers
-;
 SyncHandle
 mSyncHandle
 ;
@@ -498,10 +495,6 @@ mSupportsComponentAlpha
 (
 aSupportsComponentAlpha
 )
-mUsingAdvancedLayers
-(
-false
-)
 mSyncHandle
 (
 aSyncHandle
@@ -607,10 +600,6 @@ aSupportsPartialUploads
 mSupportsComponentAlpha
 (
 aSupportsComponentAlpha
-)
-mUsingAdvancedLayers
-(
-false
 )
 mSyncHandle
 (
@@ -725,14 +714,6 @@ mSupportsComponentAlpha
 aOther
 .
 mSupportsComponentAlpha
-&
-&
-mUsingAdvancedLayers
-=
-=
-aOther
-.
-mUsingAdvancedLayers
 &
 &
 mSyncHandle
