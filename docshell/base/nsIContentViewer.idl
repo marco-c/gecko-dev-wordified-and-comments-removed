@@ -673,6 +673,9 @@ attribute
 boolean
 beforeUnloadFiring
 ;
+[
+can_run_script
+]
 void
 pageHide
 (

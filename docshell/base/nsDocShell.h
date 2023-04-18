@@ -2701,6 +2701,7 @@ GetInProcessParentDocshell
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 FirePageHideNotificationInternal
 (
@@ -2717,6 +2718,7 @@ bool
 aThaw
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 FirePageHideShowNonRecursive
 (
