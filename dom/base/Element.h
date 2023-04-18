@@ -5721,14 +5721,6 @@ EventChainPreVisitor
 aVisitor
 )
 ;
-void
-DispatchChromeOnlyLinkClickEvent
-(
-EventChainPostVisitor
-&
-aVisitor
-)
-;
 MOZ_CAN_RUN_SCRIPT
 nsresult
 PostHandleEventForLinks
