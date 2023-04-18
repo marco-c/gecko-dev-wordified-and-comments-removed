@@ -320,10 +320,7 @@ handleOpacity
 ;
 Maybe
 <
-gfx
-:
-:
-Rect
+LayoutDeviceRect
 >
 maskRect
 ;
