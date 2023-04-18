@@ -141,6 +141,15 @@ ATTR_GLOBAL
 <
 3
 ;
+const
+uint8_t
+ATTR_VALINT
+=
+0x1
+<
+<
+4
+;
 #
 define
 kNoReqStates
