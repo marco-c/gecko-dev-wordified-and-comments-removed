@@ -28,9 +28,6 @@ PWD
 public
 /
 build
-COMPRESS_EXT
-=
-bz2
 cd
 GECKO_PATH
 export

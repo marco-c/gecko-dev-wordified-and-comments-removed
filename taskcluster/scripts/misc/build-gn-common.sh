@@ -182,11 +182,11 @@ gn
 .
 tar
 .
-COMPRESS_EXT
+zst
 cp
 gn
 .
 tar
 .
-COMPRESS_EXT
+zst
 UPLOAD_DIR

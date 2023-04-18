@@ -24,9 +24,6 @@ WORKSPACE
 HOME
 /
 workspace
-COMPRESS_EXT
-=
-zst
 export
 CC
 =
