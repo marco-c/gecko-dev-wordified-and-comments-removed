@@ -4062,9 +4062,6 @@ wasm_simd
 )
 depends
 (
-milestone
-.
-is_nightly
 "
 -
 -
@@ -4086,7 +4083,6 @@ target
 def
 default_wasm_avx
 (
-is_nightly
 wasm_simd_enabled
 simulator
 target
@@ -4116,7 +4112,7 @@ x86
 )
 :
 return
-is_nightly
+True
 option
 (
 "
