@@ -1157,6 +1157,7 @@ i
 +
 )
 {
+PUSH_IGNORE_THREAD_SAFETY
 mRestrictedPortList
 .
 AppendElement
@@ -1167,6 +1168,7 @@ i
 ]
 )
 ;
+POP_THREAD_SAFETY
 }
 Preferences
 :

@@ -1097,7 +1097,6 @@ NS_CHANNEL_EVENT_SINK_CATEGORY
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 {
 "
 nsIOService
@@ -1112,6 +1111,10 @@ nsTArray
 int32_t
 >
 mRestrictedPortList
+GUARDED_BY
+(
+mMutex
+)
 ;
 uint32_t
 mTotalRequests
