@@ -1,11 +1,13 @@
 import
 time
 import
+multiprocessing
+import
 threading
 from
-queue
+.
 import
-Queue
+mpcontext
 "
 "
 "
@@ -371,7 +373,7 @@ current_thread
 (
 )
 .
-ident
+native_id
 time
 .
 time
@@ -404,7 +406,7 @@ current_thread
 (
 )
 .
-ident
+native_id
 time
 .
 time
@@ -562,7 +564,7 @@ None
         
 self
 .
-thread
+instrument_proc
 =
 None
     
@@ -576,7 +578,7 @@ self
 assert
 self
 .
-thread
+instrument_proc
 is
 None
         
@@ -591,17 +593,27 @@ self
 .
 queue
 =
+multiprocessing
+.
 Queue
+(
+)
+        
+mp
+=
+mpcontext
+.
+get_context
 (
 )
         
 self
 .
-thread
+instrument_proc
 =
-threading
+mp
 .
-Thread
+Process
 (
 target
 =
@@ -612,7 +624,7 @@ run
         
 self
 .
-thread
+instrument_proc
 .
 start
 (
@@ -660,7 +672,7 @@ None
         
 self
 .
-thread
+instrument_proc
 .
 join
 (
@@ -668,7 +680,7 @@ join
         
 self
 .
-thread
+instrument_proc
 =
 None
         
