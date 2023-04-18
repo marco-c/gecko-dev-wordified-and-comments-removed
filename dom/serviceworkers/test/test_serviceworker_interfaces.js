@@ -507,10 +507,13 @@ name
 "
 NetworkInformation
 "
-android
+disabled
 :
 true
 }
+"
+NavigationPreloadManager
+"
 "
 Notification
 "
