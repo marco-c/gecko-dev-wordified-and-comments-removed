@@ -7624,6 +7624,12 @@ Object
 result_type
 :
 Value
+movable
+:
+true
+congruent_to
+:
+if_operands_equal
 alias_set
 :
 custom
