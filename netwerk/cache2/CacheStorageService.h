@@ -652,7 +652,6 @@ void
 TelemetryRecordEntryRemoval
 (
 CacheEntry
-const
 *
 entry
 )

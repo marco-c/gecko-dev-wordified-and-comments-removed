@@ -1608,6 +1608,13 @@ lock
 mFile
 )
 ;
+mFile
+-
+>
+AssertOwnsLock
+(
+)
+;
 LOG
 (
 (
@@ -1879,6 +1886,13 @@ CacheFileAutoLock
 lock
 (
 mFile
+)
+;
+mFile
+-
+>
+AssertOwnsLock
+(
 )
 ;
 if

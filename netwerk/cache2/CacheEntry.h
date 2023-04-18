@@ -827,7 +827,6 @@ mozilla
 MallocSizeOf
 mallocSizeOf
 )
-const
 ;
 size_t
 SizeOfIncludingThis
@@ -838,7 +837,6 @@ mozilla
 MallocSizeOf
 mallocSizeOf
 )
-const
 ;
 private
 :
@@ -1438,12 +1436,15 @@ NS_ERROR_NOT_INITIALIZED
 }
 ;
 nsCString
+const
 mURI
 ;
 nsCString
+const
 mEnhanceID
 ;
 nsCString
+const
 mStorageID
 ;
 bool
@@ -1464,6 +1465,13 @@ mIsDoomed
 false
 }
 ;
+Atomic
+<
+bool
+Relaxed
+>
+mPinned
+;
 bool
 mSecurityInfoLoaded
 :
@@ -1476,11 +1484,6 @@ mPreventCallbacks
 ;
 bool
 mHasData
-:
-1
-;
-bool
-mPinned
 :
 1
 ;
