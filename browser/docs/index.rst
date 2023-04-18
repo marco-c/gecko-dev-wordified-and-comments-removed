@@ -99,6 +99,9 @@ pagedata
 docs
 /
 index
+places
+/
+index
 components
 /
 newtab
