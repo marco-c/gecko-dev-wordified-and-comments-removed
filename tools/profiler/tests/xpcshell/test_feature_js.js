@@ -114,7 +114,7 @@ functionA
 \
 (
 .
-+
+*
 test_feature_js
 \
 .
@@ -136,7 +136,7 @@ functionB
 \
 (
 .
-+
+*
 test_feature_js
 \
 .
@@ -158,7 +158,7 @@ functionC
 \
 (
 .
-+
+*
 test_feature_js
 \
 .

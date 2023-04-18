@@ -137,7 +137,7 @@ functionA
 \
 (
 .
-+
+*
 test_merged_stacks
 \
 .
@@ -159,7 +159,7 @@ functionB
 \
 (
 .
-+
+*
 test_merged_stacks
 \
 .
@@ -181,7 +181,7 @@ functionC
 \
 (
 .
-+
+*
 test_merged_stacks
 \
 .
