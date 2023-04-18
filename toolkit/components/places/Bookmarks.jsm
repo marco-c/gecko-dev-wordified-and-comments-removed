@@ -9214,6 +9214,7 @@ NULL
 matchBehavior
 :
 searchBehavior
+NULL
 )
 "
 ;

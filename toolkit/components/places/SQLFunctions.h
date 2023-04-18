@@ -147,9 +147,16 @@ kArgIndexSearchBehavior
 static
 const
 uint32_t
-kArgIndexLength
+kArgIndexFallbackTitle
 =
 10
+;
+static
+const
+uint32_t
+kArgIndexLength
+=
+11
 ;
 typedef
 bool

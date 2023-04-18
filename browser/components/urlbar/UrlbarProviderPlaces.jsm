@@ -259,6 +259,7 @@ open_count
 matchBehavior
 :
 searchBehavior
+NULL
 )
 ELSE
 AUTOCOMPLETE_MATCH
@@ -287,6 +288,7 @@ open_count
 matchBehavior
 :
 searchBehavior
+NULL
 )
 END
 {
@@ -403,6 +405,7 @@ open_count
 matchBehavior
 :
 searchBehavior
+NULL
 )
 ORDER
 BY
