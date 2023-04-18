@@ -208,6 +208,11 @@ Fetch
 )
 ;
 void
+Cancel
+(
+)
+;
+void
 OnResponseEnd
 (
 FetchDriverObserver
@@ -283,6 +288,12 @@ RefPtr
 PerformanceStorage
 >
 mPerformanceStorage
+;
+RefPtr
+<
+FetchDriver
+>
+mFetchDriver
 ;
 MozPromiseHolder
 <
