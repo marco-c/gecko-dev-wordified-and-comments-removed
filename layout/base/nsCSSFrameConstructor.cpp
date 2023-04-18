@@ -13562,14 +13562,12 @@ rv
 ;
 MOZ_ASSERT
 (
+!
 newAnonymousItems
 .
-Length
+IsEmpty
 (
 )
-=
-=
-2
 )
 ;
 MOZ_ASSERT
