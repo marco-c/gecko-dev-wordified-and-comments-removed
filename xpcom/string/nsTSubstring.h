@@ -4261,13 +4261,7 @@ aClassFlags
 if
 defined
 (
-DEBUG
-)
-|
-|
-defined
-(
-FORCE_BUILD_REFCNT_LOGGING
+NS_BUILD_REFCNT_LOGGING
 )
 #
 define
