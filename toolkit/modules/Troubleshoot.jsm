@@ -1160,6 +1160,7 @@ dataProviders
 {
 application
 :
+async
 function
 application
 (
@@ -1310,11 +1311,14 @@ Windows_NT
 {
 if
 (
+(
+await
 Services
 .
 sysinfo
 .
 processInfo
+)
 .
 isWindowsSMode
 )
