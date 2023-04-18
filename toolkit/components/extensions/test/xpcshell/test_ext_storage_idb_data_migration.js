@@ -2548,10 +2548,11 @@ set
 "
 fake_invalid_key
 "
-new
-Error
+function
 (
 )
+{
+}
 )
 ;
 async

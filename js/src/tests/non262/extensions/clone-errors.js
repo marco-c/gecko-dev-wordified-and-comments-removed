@@ -48,17 +48,6 @@ exception
 }
 check
 (
-new
-Error
-(
-"
-oops
-"
-)
-)
-;
-check
-(
 this
 )
 ;
