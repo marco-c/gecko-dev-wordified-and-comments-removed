@@ -201,6 +201,11 @@ Base
 :
 DisposeNative
 ;
+bool
+IsCacheEnabled
+(
+)
+;
 jni
 :
 :
