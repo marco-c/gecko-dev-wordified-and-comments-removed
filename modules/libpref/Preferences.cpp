@@ -26583,6 +26583,16 @@ mLen
 ;
 }
 ;
+if
+(
+!
+aIsContentProcess
+)
+{
+return
+false
+;
+}
 static
 const
 PrefListEntry
