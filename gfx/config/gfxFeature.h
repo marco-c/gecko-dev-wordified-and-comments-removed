@@ -286,6 +286,16 @@ decoding
 "
 )
 \
+_
+(
+VIDEO_OVERLAY
+Feature
+"
+video
+overlay
+"
+)
+\
 /
 *
 Add
