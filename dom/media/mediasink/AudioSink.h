@@ -334,6 +334,8 @@ AudioDataValue
 aBuffer
 uint32_t
 aFrames
+bool
+aAudioThreadChanged
 )
 override
 ;
