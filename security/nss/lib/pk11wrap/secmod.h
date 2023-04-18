@@ -523,6 +523,14 @@ SECMODModule
 mod
 )
 ;
+PRBool
+SECMOD_LockedModuleHasRemovableSlots
+(
+SECMODModule
+*
+mod
+)
+;
 PK11SlotInfo
 *
 SECMOD_WaitForAnyTokenEvent
