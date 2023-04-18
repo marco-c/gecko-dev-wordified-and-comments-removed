@@ -237,8 +237,6 @@ res
 {
 }
 ;
-this
-.
 _deferredResult
 =
 res
@@ -253,8 +251,6 @@ Promise
 _makeDeferred
 )
 ;
-this
-.
 _deferredResult
 =
 null
