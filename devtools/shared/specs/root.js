@@ -119,6 +119,15 @@ getTab
 request
 :
 {
+browserId
+:
+Option
+(
+0
+"
+number
+"
+)
 outerWindowID
 :
 Option

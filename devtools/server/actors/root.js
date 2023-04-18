@@ -823,6 +823,7 @@ async
 function
 (
 {
+browserId
 outerWindowID
 tabId
 }
@@ -906,6 +907,7 @@ tabList
 getTab
 (
 {
+browserId
 outerWindowID
 tabId
 }
