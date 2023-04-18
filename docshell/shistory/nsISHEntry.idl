@@ -777,7 +777,6 @@ aIgnoreBC
 [
 implicit_jscontext
 ]
-readonly
 attribute
 jsval
 wireframe
