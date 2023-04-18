@@ -659,10 +659,13 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 uint16_t
 mReadyState
+GUARDED_BY
+(
+mMutex
+)
 ;
 }
 ;
