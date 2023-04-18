@@ -363,6 +363,24 @@ topsrcdir
         
 )
     
+topsrcdir
+=
+os
+.
+path
+.
+normcase
+(
+os
+.
+path
+.
+normpath
+(
+topsrcdir
+)
+)
+    
 srcdir_hash
 =
 hashlib

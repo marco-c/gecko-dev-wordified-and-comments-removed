@@ -1027,7 +1027,7 @@ topsrcdir
 :
 str
         
-state_dir
+checkout_scoped_state_dir
 :
 Optional
 [
@@ -1067,18 +1067,33 @@ the
 Firefox
 repo
             
-state_dir
+checkout_scoped_state_dir
 :
 The
 path
 to
 the
+checkout
+-
+scoped
 state_dir
+                
 generally
 ~
 /
 .
 mozbuild
+/
+srcdirs
+/
+<
+checkout
+-
+based
+-
+dir
+>
+/
             
 requirements
 :
@@ -1176,14 +1191,20 @@ self
 .
 _virtualenv_root
 =
+(
+            
 _mach_virtualenv_root
 (
-state_dir
+checkout_scoped_state_dir
 )
+            
 if
-state_dir
+checkout_scoped_state_dir
+            
 else
 None
+        
+)
         
 self
 .
@@ -1258,7 +1279,7 @@ the
 path
 to
 the
-workdir
+checkout
 -
 scoped
                 
@@ -1272,7 +1293,7 @@ mozbuild
 srcdirs
 /
 <
-worktree
+checkout
 -
 based
 -
@@ -2163,9 +2184,12 @@ topsrcdir
 :
 str
         
-state_dir
+checkout_scoped_state_dir
 :
+Optional
+[
 str
+]
         
 virtualenv_root
 :
@@ -2206,18 +2230,33 @@ the
 Firefox
 repo
             
-state_dir
+checkout_scoped_state_dir
 :
 The
 path
 to
 the
+checkout
+-
+scoped
 state_dir
+                
 generally
 ~
 /
 .
 mozbuild
+/
+srcdirs
+/
+<
+checkout
+-
+based
+-
+dir
+>
+/
             
 virtualenv_root
 :
@@ -2305,9 +2344,9 @@ topsrcdir
         
 self
 .
-_state_dir
+_checkout_scoped_state_dir
 =
-state_dir
+checkout_scoped_state_dir
         
 self
 .
@@ -2419,9 +2458,12 @@ topsrcdir
 :
 str
         
-state_dir
+checkout_scoped_state_dir
 :
+Optional
+[
 str
+]
         
 site_name
 :
@@ -2450,18 +2492,33 @@ the
 Firefox
 repo
             
-state_dir
+checkout_scoped_state_dir
 :
 The
 path
 to
 the
+checkout
+-
+scoped
 state_dir
+                
 generally
 ~
 /
 .
 mozbuild
+/
+srcdirs
+/
+<
+checkout
+-
+based
+-
+dir
+>
+/
             
 site_name
 :
@@ -2675,7 +2732,7 @@ cls
             
 topsrcdir
             
-state_dir
+checkout_scoped_state_dir
             
 os
 .
@@ -3564,6 +3621,11 @@ SitePackagesSource
 VENV
 :
             
+assert
+self
+.
+_checkout_scoped_state_dir
+            
 lines
 .
 append
@@ -3576,7 +3638,7 @@ _mach_virtualenv_root
 (
 self
 .
-_state_dir
+_checkout_scoped_state_dir
 )
                 
 )
@@ -6040,7 +6102,7 @@ True
 def
 _mach_virtualenv_root
 (
-state_dir
+checkout_scoped_state_dir
 )
 :
     
@@ -6051,7 +6113,7 @@ path
 .
 join
 (
-state_dir
+checkout_scoped_state_dir
 "
 _virtualenvs
 "
