@@ -17,10 +17,6 @@ include
 NeckoChannelParams
 ;
 include
-protocol
-PFileDescriptorSet
-;
-include
 "
 mozilla
 /

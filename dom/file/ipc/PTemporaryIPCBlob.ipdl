@@ -62,10 +62,6 @@ PBackground
 ;
 include
 protocol
-PFileDescriptorSet
-;
-include
-protocol
 PRemoteLazyInputStream
 ;
 include

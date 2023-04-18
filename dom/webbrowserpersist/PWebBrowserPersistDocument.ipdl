@@ -104,10 +104,6 @@ protocol
 PWebBrowserPersistSerialize
 ;
 include
-protocol
-PFileDescriptorSet
-;
-include
 PBackgroundSharedTypes
 ;
 include

@@ -66,10 +66,6 @@ PContent
 ;
 include
 protocol
-PFileDescriptorSet
-;
-include
-protocol
 PSocketProcess
 ;
 include

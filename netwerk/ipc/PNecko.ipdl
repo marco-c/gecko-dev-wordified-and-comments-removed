@@ -49,10 +49,6 @@ PDNSRequest
 ;
 include
 protocol
-PFileDescriptorSet
-;
-include
-protocol
 PDataChannel
 ;
 include

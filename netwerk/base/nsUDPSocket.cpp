@@ -188,6 +188,13 @@ h
 #
 include
 "
+nsIPipe
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h
