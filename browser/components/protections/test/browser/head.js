@@ -328,6 +328,11 @@ getVPNOverrides
 hasSubscription
 =
 false
+location
+=
+"
+us
+"
 )
 =
 >
@@ -342,7 +347,10 @@ vpnOverrides
 >
 {
 return
+{
 hasSubscription
+location
+}
 ;
 }
 }
