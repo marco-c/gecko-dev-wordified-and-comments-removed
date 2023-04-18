@@ -71,6 +71,8 @@ include
 theme_dark
 {
 background
+-
+image
 :
 url
 (
@@ -85,11 +87,6 @@ dark
 .
 svg
 )
-bottom
-center
-no
--
-repeat
 ;
 }
 }

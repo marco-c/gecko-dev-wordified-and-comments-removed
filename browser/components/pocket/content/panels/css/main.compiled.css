@@ -12252,6 +12252,8 @@ stp_header
 stp_header_logo
 {
 background
+-
+image
 :
 url
 (
@@ -12266,11 +12268,6 @@ dark
 .
 svg
 )
-bottom
-center
-no
--
-repeat
 ;
 }
 .
