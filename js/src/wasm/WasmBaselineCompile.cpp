@@ -32256,6 +32256,7 @@ masm
 .
 minFloat32x4
 (
+rsd
 rs
 rsd
 temp1
@@ -32284,6 +32285,7 @@ masm
 .
 minFloat64x2
 (
+rsd
 rs
 rsd
 temp1
@@ -32312,6 +32314,7 @@ masm
 .
 maxFloat32x4
 (
+rsd
 rs
 rsd
 temp1
@@ -32340,6 +32343,7 @@ masm
 .
 maxFloat64x2
 (
+rsd
 rs
 rsd
 temp1
