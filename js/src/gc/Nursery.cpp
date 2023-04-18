@@ -6478,6 +6478,14 @@ MinorCollecting
 ;
 AutoSetThreadIsPerformingGC
 performingGC
+(
+rt
+-
+>
+gcContext
+(
+)
+)
 ;
 AutoStopVerifyingBarriers
 av
