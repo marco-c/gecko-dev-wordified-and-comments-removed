@@ -1450,7 +1450,7 @@ None
 =
 >
 {
-println
+warn
 !
 (
 "
@@ -2632,7 +2632,7 @@ print
 self
 )
 {
-println
+debug
 !
 (
 "
@@ -2662,7 +2662,7 @@ enumerate
 (
 )
 {
-println
+debug
 !
 (
 "
@@ -2722,7 +2722,7 @@ enumerate
 (
 )
 {
-println
+debug
 !
 (
 "
@@ -2752,7 +2752,7 @@ enumerate
 (
 )
 {
-println
+debug
 !
 (
 "
@@ -2780,7 +2780,7 @@ sub_pass
 .
 task_ids
 {
-println
+debug
 !
 (
 "

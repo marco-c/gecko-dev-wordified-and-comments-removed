@@ -999,7 +999,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -1021,7 +1021,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -1236,7 +1236,7 @@ frame_state
 if
 is_chased
 {
-println
+info
 !
 (
 "
@@ -3800,7 +3800,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -5094,7 +5094,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -5224,7 +5224,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -5356,7 +5356,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -5440,7 +5440,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
