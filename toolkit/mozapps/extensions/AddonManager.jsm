@@ -15542,6 +15542,11 @@ case
 dictionary
 "
 :
+case
+"
+sitepermission
+"
+:
 return
 addonType
 ;

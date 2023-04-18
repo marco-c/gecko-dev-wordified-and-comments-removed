@@ -1000,6 +1000,9 @@ locale
 dictionary
 "
 "
+sitepermission
+"
+"
 other
 "
 "
@@ -1551,6 +1554,9 @@ locale
 dictionary
 "
 "
+sitepermission
+"
+"
 other
 "
 "
@@ -1811,6 +1817,9 @@ locale
 "
 "
 dictionary
+"
+"
+sitepermission
 "
 "
 other
