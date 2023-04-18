@@ -14610,6 +14610,11 @@ layout_display_partial_background_images
 )
 &
 &
+XRE_IsContentProcess
+(
+)
+&
+&
 !
 aPresContext
 -
