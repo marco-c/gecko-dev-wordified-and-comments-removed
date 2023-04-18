@@ -54,7 +54,13 @@ class
 ShutdownActionFinishedPromiseHandler
 ;
 class
+ReadableStream
+;
+class
 ReadableStreamDefaultReader
+;
+class
+WritableStream
 ;
 class
 WritableStreamDefaultWriter

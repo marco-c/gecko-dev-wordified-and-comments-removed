@@ -5,6 +5,17 @@ mozilla
 /
 dom
 /
+AbortSignal
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ReadableStream
 .
 h
