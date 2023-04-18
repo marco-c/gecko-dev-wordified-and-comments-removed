@@ -102,12 +102,9 @@ aGlobal
 RefPtr
 <
 ServiceWorkerRegistration
-:
-:
-Inner
 >
 &
-aInner
+aServiceWorkerRegistration
 )
 ;
 nsIGlobalObject
@@ -219,11 +216,8 @@ mGlobal
 RefPtr
 <
 ServiceWorkerRegistration
-:
-:
-Inner
 >
-mInner
+mServiceWorkerRegistration
 ;
 }
 ;
