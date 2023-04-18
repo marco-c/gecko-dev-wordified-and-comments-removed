@@ -331,6 +331,11 @@ MediaStream
 stream
 )
 ;
+void
+fireNegotiationNeededEvent
+(
+)
+;
 /
 *
 Packet
