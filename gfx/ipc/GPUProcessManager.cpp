@@ -2900,6 +2900,7 @@ surface
 FEATURE_FAILURE_WEBRENDER_NEW_SURFACE
 "
 _ns
+true
 )
 ;
 }

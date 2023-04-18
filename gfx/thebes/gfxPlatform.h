@@ -2221,6 +2221,10 @@ const
 nsACString
 &
 aFailureId
+bool
+aCrashAfterFinalFallback
+=
+false
 )
 ;
 void
