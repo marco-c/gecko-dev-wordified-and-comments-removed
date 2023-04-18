@@ -523,6 +523,14 @@ return
 }
 ;
 }
+AUTO_PROFILER_LABEL
+(
+"
+profiler_add_marker
+"
+PROFILER
+)
+;
 return
 :
 :
