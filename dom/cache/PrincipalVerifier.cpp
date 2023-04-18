@@ -47,7 +47,9 @@ mozilla
 /
 dom
 /
-QMResultInlines
+cache
+/
+ManagerId
 .
 h
 "
@@ -58,9 +60,9 @@ mozilla
 /
 dom
 /
-cache
+quota
 /
-ManagerId
+ResultExtensions
 .
 h
 "

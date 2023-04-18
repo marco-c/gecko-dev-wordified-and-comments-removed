@@ -72,11 +72,6 @@ QMResult
 h
 "
 "
-QMResultInlines
-.
-h
-"
-"
 StorageManager
 .
 h
@@ -183,6 +178,11 @@ FirstInitializationAttemptsImpl
 h
 "
 "
+ForwardDecls
+.
+h
+"
+"
 InitializationTypes
 .
 h
@@ -234,6 +234,11 @@ h
 "
 "
 QuotaObject
+.
+h
+"
+"
+ResultExtensions
 .
 h
 "

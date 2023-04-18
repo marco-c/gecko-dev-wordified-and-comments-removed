@@ -2,6 +2,11 @@ UNIFIED_SOURCES
 =
 [
 "
+Common
+.
+cpp
+"
+"
 TestCheckedUnsafePtr
 .
 cpp
@@ -13,6 +18,11 @@ cpp
 "
 "
 TestFlatten
+.
+cpp
+"
+"
+TestForwardDecls
 .
 cpp
 "
@@ -33,6 +43,11 @@ cpp
 "
 "
 TestQuotaManager
+.
+cpp
+"
+"
+TestResultExtensions
 .
 cpp
 "

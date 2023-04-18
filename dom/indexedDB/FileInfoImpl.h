@@ -29,7 +29,9 @@ mozilla
 /
 dom
 /
-QMResultInlines
+quota
+/
+QuotaCommon
 .
 h
 "
@@ -42,7 +44,7 @@ dom
 /
 quota
 /
-QuotaCommon
+ResultExtensions
 .
 h
 "
