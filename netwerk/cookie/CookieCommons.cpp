@@ -174,15 +174,6 @@ ThirdPartyUtil
 .
 h
 "
-constexpr
-auto
-CONSOLE_SCHEMEFUL_CATEGORY
-=
-"
-cookieSchemeful
-"
-_ns
-;
 namespace
 mozilla
 {
