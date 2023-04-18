@@ -85,7 +85,6 @@ log
 import
 {
 isGenerated
-isOriginal
 }
 from
 "
@@ -786,10 +785,9 @@ source
 ;
 if
 (
-isOriginal
-(
 source
-)
+.
+isOriginal
 )
 {
 await
