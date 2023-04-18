@@ -51,6 +51,12 @@ typedef
 DWORD
 ProcessId
 ;
+#
+define
+PRIPID
+"
+lu
+"
 const
 ProcessHandle
 kInvalidProcessHandle
@@ -77,6 +83,12 @@ typedef
 pid_t
 ProcessId
 ;
+#
+define
+PRIPID
+"
+d
+"
 const
 ProcessHandle
 kInvalidProcessHandle
