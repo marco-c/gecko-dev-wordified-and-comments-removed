@@ -3361,6 +3361,14 @@ EditorDOMPoint
 aStartOfDeepestRightNode
 )
 ;
+enum
+class
+BRElementNextToSplitPoint
+{
+Keep
+Delete
+}
+;
 [
 [
 nodiscard
@@ -3384,6 +3392,8 @@ const
 EditorDOMPoint
 &
 aPointToInsert
+BRElementNextToSplitPoint
+aBRElementNextToSplitPoint
 )
 ;
 [
