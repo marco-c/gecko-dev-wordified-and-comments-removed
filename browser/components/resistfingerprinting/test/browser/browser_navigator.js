@@ -1747,7 +1747,7 @@ hardwareConcurrency
 SPOOFED_HW_CONCURRENCY
 mimeTypesLength
 :
-0
+2
 oscpu
 :
 SPOOFED_OSCPU
@@ -1766,7 +1766,7 @@ platform
 ]
 pluginsLength
 :
-0
+5
 userAgentNavigator
 :
 spoofedUserAgentNavigator
