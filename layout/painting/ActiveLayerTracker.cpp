@@ -1806,7 +1806,13 @@ GetSize
 )
 {
 return
-true
+!
+StaticPrefs
+:
+:
+gfx_will_change_ignore_opacity
+(
+)
 ;
 }
 LayerActivity
