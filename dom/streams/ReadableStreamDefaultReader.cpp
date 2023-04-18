@@ -1001,7 +1001,7 @@ Readable
 {
 RefPtr
 <
-ReadableStreamDefaultController
+ReadableStreamController
 >
 controller
 (
