@@ -227,7 +227,7 @@ token
 extern
 JS_PUBLIC_API
 void
-CancelOffThreadCompileToStencil
+CancelCompileToStencilOffThread
 (
 JSContext
 *

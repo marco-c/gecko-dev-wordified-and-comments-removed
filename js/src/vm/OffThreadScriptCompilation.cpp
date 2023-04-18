@@ -530,7 +530,7 @@ Stencil
 JS
 :
 :
-FinishOffThreadCompileToStencil
+FinishCompileToStencilOffThread
 (
 JSContext
 *
@@ -709,7 +709,7 @@ void
 JS
 :
 :
-CancelOffThreadCompileToStencil
+CancelCompileToStencilOffThread
 (
 JSContext
 *
