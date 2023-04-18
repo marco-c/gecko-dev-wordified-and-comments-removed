@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 EXAMPLE_URL
 =

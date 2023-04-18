@@ -367,16 +367,6 @@ framework
 *
 *
 "
-"
-client
-/
-debugger
-/
-test
-/
-*
-*
-"
 ]
 rules
 :

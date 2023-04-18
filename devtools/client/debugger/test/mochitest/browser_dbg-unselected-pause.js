@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 IFRAME_TEST_COM_URI
 =

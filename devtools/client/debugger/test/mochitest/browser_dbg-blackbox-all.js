@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 SOURCE_FILES
 =

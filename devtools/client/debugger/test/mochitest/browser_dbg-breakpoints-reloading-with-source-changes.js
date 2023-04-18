@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 IS_BREAKPOINT_SHIFTING_ENABLED
 =
