@@ -83,15 +83,6 @@ files
 patch
 "
 "
-loosen
--
-msvc
--
-detection
-.
-patch
-"
-"
 fuzzing_ccov_build_clang_12
 .
 patch
