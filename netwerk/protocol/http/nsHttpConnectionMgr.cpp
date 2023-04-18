@@ -12452,6 +12452,12 @@ thread
 "
 )
 ;
+mCoalescingHash
+.
+Clear
+(
+)
+;
 nsHttpConnectionInfo
 *
 ci

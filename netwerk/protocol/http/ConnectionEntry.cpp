@@ -2255,6 +2255,12 @@ DontReuse
 )
 ;
 }
+mCoalescingKeys
+.
+Clear
+(
+)
+;
 }
 uint32_t
 ConnectionEntry
