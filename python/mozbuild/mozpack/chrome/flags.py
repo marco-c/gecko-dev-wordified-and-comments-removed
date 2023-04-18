@@ -9,11 +9,11 @@ re
 import
 six
 from
-distutils
+packaging
 .
 version
 import
-LooseVersion
+Version
 from
 mozpack
 .
@@ -1163,7 +1163,7 @@ append
 =
 =
 "
-LooseVersion
+Version
 (
 value
 [
@@ -1247,7 +1247,7 @@ value
 :
 2
 ]
-LooseVersion
+Version
 (
 value
 [
@@ -1272,7 +1272,7 @@ value
 [
 0
 ]
-LooseVersion
+Version
 (
 value
 [
@@ -1475,7 +1475,7 @@ False
         
 value
 =
-LooseVersion
+Version
 (
 value
 )

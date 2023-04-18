@@ -13,11 +13,11 @@ collections
 import
 namedtuple
 from
-distutils
+packaging
 .
 version
 import
-StrictVersion
+Version
 from
 mozboot
 .
@@ -767,7 +767,7 @@ output
 ]
     
 return
-StrictVersion
+Version
 (
 version
 )
@@ -866,7 +866,7 @@ min_rustfmt_version
     
 min_version
 =
-StrictVersion
+Version
 (
 min_version_str
 )

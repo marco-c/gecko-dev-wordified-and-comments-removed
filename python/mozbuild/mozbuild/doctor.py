@@ -33,11 +33,11 @@ psutil
 import
 requests
 from
-distutils
+packaging
 .
 version
 import
-LooseVersion
+Version
 import
 mozpack
 .
@@ -57,12 +57,12 @@ FREESPACE_THRESHOLD
 10
 LATEST_MOZILLABUILD_VERSION
 =
-LooseVersion
+Version
 (
 "
-3
+4
 .
-3
+0
 "
 )
 DISABLE_LASTACCESS_WIN
@@ -2600,7 +2600,7 @@ version
 )
         
 if
-LooseVersion
+Version
 (
 local_version
 )
