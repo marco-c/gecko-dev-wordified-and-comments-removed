@@ -26,6 +26,7 @@ data
 key
 )
 {
+let
 x
 =
 {
