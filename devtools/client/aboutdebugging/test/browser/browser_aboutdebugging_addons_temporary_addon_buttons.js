@@ -88,7 +88,11 @@ org
 "
 ;
 const
+{
+xpiFile
+:
 addonFile
+}
 =
 await
 installTemporaryExtensionFromXPI

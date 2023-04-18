@@ -73,7 +73,11 @@ extension
 "
 ;
 let
+{
+xpiFile
+:
 addonFile
+}
 =
 await
 installTemporaryExtensionFromXPI
