@@ -13861,13 +13861,6 @@ emit_LambdaArrow
 (
 )
 {
-frame
-.
-popRegsAndSync
-(
-1
-)
-;
 prepareVMCall
 (
 )
@@ -13881,7 +13874,7 @@ frame
 addressOfEnvironmentChain
 (
 )
-R2
+R0
 .
 scratchReg
 (
@@ -13891,11 +13884,6 @@ scratchReg
 pushArg
 (
 R0
-)
-;
-pushArg
-(
-R2
 .
 scratchReg
 (
@@ -13933,7 +13921,6 @@ JSContext
 *
 HandleFunction
 HandleObject
-HandleValue
 )
 ;
 if

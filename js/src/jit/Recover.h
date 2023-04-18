@@ -3259,7 +3259,7 @@ public
 RINSTRUCTION_HEADER_NUM_OP_
 (
 LambdaArrow
-3
+2
 )
 [
 [

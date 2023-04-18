@@ -4976,9 +4976,6 @@ operands
 environmentChain
 :
 WordSized
-newTarget
-:
-BoxedValue
 num_temps
 :
 1

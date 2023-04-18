@@ -19947,18 +19947,6 @@ environmentChain
 )
 )
 ;
-ValueOperand
-newTarget
-=
-ToValue
-(
-lir
-LLambdaArrow
-:
-:
-NewTargetIndex
-)
-;
 Register
 output
 =
@@ -20014,7 +20002,6 @@ JSContext
 *
 HandleFunction
 HandleObject
-HandleValue
 )
 ;
 OutOfLineCode
@@ -20035,7 +20022,6 @@ ImmGCPtr
 fun
 )
 envChain
-newTarget
 )
 StoreRegisterTo
 (
@@ -20112,7 +20098,9 @@ masm
 .
 storeValue
 (
-newTarget
+NullValue
+(
+)
 Address
 (
 output

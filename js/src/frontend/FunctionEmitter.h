@@ -258,16 +258,6 @@ GCThingIndex
 index
 )
 ;
-[
-[
-nodiscard
-]
-]
-bool
-emitNewTargetForArrow
-(
-)
-;
 }
 ;
 class

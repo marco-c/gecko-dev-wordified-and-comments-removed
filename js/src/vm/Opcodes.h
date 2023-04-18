@@ -1730,7 +1730,7 @@ LambdaArrow
 lambda_arrow
 NULL
 5
-1
+0
 1
 JOF_OBJECT
 )
