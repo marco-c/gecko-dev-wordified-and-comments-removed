@@ -1995,6 +1995,17 @@ easingFunction
 )
 }
 ;
+propertyAnimation
+-
+>
+mScrollTimelineOptions
+=
+animation
+.
+scrollTimelineOptions
+(
+)
+;
 nsTArray
 <
 PropertyAnimation
