@@ -3,8 +3,10 @@ use
 strict
 "
 ;
-var
-session
+const
+{
+TelemetrySession
+}
 =
 ChromeUtils
 .
@@ -23,7 +25,6 @@ TelemetrySession
 .
 jsm
 "
-null
 )
 ;
 const
@@ -275,8 +276,6 @@ finished
 }
 )
 ;
-session
-.
 TelemetrySession
 .
 getPayload
