@@ -247,7 +247,7 @@ if
 (
 UtilityProcessParent
 *
-child
+parent
 =
 utilitypm
 -
@@ -259,13 +259,13 @@ GetProcessParent
 {
 if
 (
-child
+parent
 -
 >
 mMemoryReportRequest
 )
 {
-child
+parent
 -
 >
 mMemoryReportRequest
@@ -276,7 +276,7 @@ Finish
 aGeneration2
 )
 ;
-child
+parent
 -
 >
 mMemoryReportRequest
@@ -320,7 +320,7 @@ if
 (
 UtilityProcessParent
 *
-child
+parent
 =
 utilitypm
 -
@@ -330,7 +330,7 @@ GetProcessParent
 )
 )
 {
-child
+parent
 -
 >
 mMemoryReportRequest
