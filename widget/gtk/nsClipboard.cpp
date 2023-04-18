@@ -2040,6 +2040,7 @@ mContext
 >
 ReleaseClipboardData
 (
+&
 clipboardData
 )
 ;
@@ -2185,6 +2186,7 @@ mContext
 >
 ReleaseClipboardData
 (
+&
 clipboardData
 )
 ;
@@ -2394,6 +2396,7 @@ mContext
 >
 ReleaseClipboardData
 (
+&
 clipboardData
 )
 ;
@@ -2603,6 +2606,7 @@ mContext
 >
 ReleaseClipboardData
 (
+&
 clipboardData
 )
 ;
@@ -2646,6 +2650,7 @@ mContext
 >
 ReleaseClipboardData
 (
+&
 clipboardData
 )
 ;
