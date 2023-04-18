@@ -3613,6 +3613,13 @@ tabData
 .
 index
 ;
+if
+(
+entries
+.
+length
+)
+{
 let
 entry
 =
@@ -3678,6 +3685,7 @@ tabData
 .
 image
 ;
+}
 }
 }
 return
