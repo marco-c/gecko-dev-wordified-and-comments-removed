@@ -793,6 +793,11 @@ mallocSizeOf
 )
 const
 ;
+WASM_DECLARE_FRIEND_SERIALIZE
+(
+FuncType
+)
+;
 }
 ;
 struct
@@ -1077,6 +1082,11 @@ MallocSizeOf
 mallocSizeOf
 )
 const
+;
+WASM_DECLARE_FRIEND_SERIALIZE
+(
+StructType
+)
 ;
 }
 ;
@@ -2130,6 +2140,11 @@ MallocSizeOf
 mallocSizeOf
 )
 const
+;
+WASM_DECLARE_FRIEND_SERIALIZE
+(
+TypeDef
+)
 ;
 }
 ;

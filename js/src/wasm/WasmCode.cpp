@@ -288,7 +288,7 @@ ExecutableCodePageSize
 ;
 }
 UniqueCodeBytes
-CodeSegment
+wasm
 :
 :
 AllocateCodeBytes
@@ -582,8 +582,10 @@ codeLength
 )
 ;
 }
-static
 bool
+wasm
+:
+:
 StaticallyLink
 (
 const
@@ -786,8 +788,10 @@ return
 true
 ;
 }
-static
 void
+wasm
+:
+:
 StaticallyUnlink
 (
 uint8_t

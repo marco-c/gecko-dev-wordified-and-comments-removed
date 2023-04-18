@@ -272,6 +272,11 @@ mallocSizeOf
 )
 const
 ;
+WASM_DECLARE_FRIEND_SERIALIZE
+(
+InitExpr
+)
+;
 }
 ;
 }
