@@ -63,7 +63,7 @@ substitution
 define
 item
 #
-downloadsRichListBox
+downloadsListBox
 >
 richlistitem
 %
@@ -86,7 +86,7 @@ controls
 *
 /
 #
-downloadsRichListBox
+downloadsListBox
 {
 /
 *

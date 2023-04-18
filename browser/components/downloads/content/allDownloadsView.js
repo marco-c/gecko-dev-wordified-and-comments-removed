@@ -3586,7 +3586,7 @@ document
 getElementById
 (
 "
-downloadsRichListBox
+downloadsListBox
 "
 )
 ;

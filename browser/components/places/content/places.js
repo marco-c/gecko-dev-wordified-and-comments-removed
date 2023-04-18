@@ -762,7 +762,7 @@ document
 getElementById
 (
 "
-downloadsRichListBox
+downloadsListBox
 "
 )
 false

@@ -262,7 +262,7 @@ document
 getElementById
 (
 "
-downloadsRichListBox
+downloadsListBox
 "
 )
 ;

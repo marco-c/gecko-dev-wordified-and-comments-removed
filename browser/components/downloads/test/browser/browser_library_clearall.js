@@ -204,7 +204,7 @@ document
 getElementById
 (
 "
-downloadsRichListBox
+downloadsListBox
 "
 )
 ;
