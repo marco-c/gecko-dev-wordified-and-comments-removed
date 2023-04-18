@@ -5937,6 +5937,14 @@ IsModuleRequest
 )
 )
 {
+mModuleLoader
+-
+>
+SetAcquiringImportMaps
+(
+false
+)
+;
 ModuleLoadRequest
 *
 modReq
