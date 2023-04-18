@@ -119,6 +119,11 @@ failures
 "
 0
 "
+skipped
+=
+"
+0
+"
 disabled
 =
 "
@@ -321,6 +326,11 @@ tests
 1
 "
 failures
+=
+"
+0
+"
+skipped
 =
 "
 0

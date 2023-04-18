@@ -1,9 +1,9 @@
 #
 ifndef
-GTEST_INCLUDE_GTEST_GTEST_SPI_H_
+GOOGLETEST_INCLUDE_GTEST_GTEST_SPI_H_
 #
 define
-GTEST_INCLUDE_GTEST_GTEST_SPI_H_
+GOOGLETEST_INCLUDE_GTEST_GTEST_SPI_H_
 #
 include
 "
@@ -16,6 +16,7 @@ h
 GTEST_DISABLE_MSC_WARNINGS_PUSH_
 (
 4251
+\
 )
 namespace
 testing
@@ -254,7 +255,6 @@ ScopedFakeTestPartResultReporter
 :
 \
 INTERCEPT_ONLY_CURRENT_THREAD
-\
 &
 gtest_failures
 )
@@ -373,8 +373,8 @@ testing
 ScopedFakeTestPartResultReporter
 :
 :
-INTERCEPT_ALL_THREADS
 \
+INTERCEPT_ALL_THREADS
 &
 gtest_failures
 )
@@ -476,7 +476,6 @@ ScopedFakeTestPartResultReporter
 :
 \
 INTERCEPT_ONLY_CURRENT_THREAD
-\
 &
 gtest_failures
 )
@@ -497,10 +496,8 @@ AlwaysTrue
 )
 )
 {
-\
 statement
 ;
-\
 }
 \
 }
@@ -611,10 +608,8 @@ AlwaysTrue
 )
 )
 {
-\
 statement
 ;
-\
 }
 \
 }

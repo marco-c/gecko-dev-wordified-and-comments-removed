@@ -32,7 +32,7 @@ NSS_VERSION
 "
 3
 .
-74
+73
 "
 _NSS_CUSTOMIZED
 "
@@ -45,7 +45,7 @@ NSS_VMAJOR
 #
 define
 NSS_VMINOR
-74
+73
 #
 define
 NSS_VPATCH

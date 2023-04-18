@@ -82,7 +82,6 @@ called
 ;
 }
 }
-static
 PRBool
 NoopExtensionWriter
 (
@@ -115,7 +114,6 @@ return
 PR_FALSE
 ;
 }
-static
 PRBool
 EmptyExtensionWriter
 (
@@ -148,7 +146,6 @@ return
 PR_TRUE
 ;
 }
-static
 SECStatus
 NoopExtensionHandler
 (

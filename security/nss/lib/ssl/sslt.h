@@ -92,9 +92,6 @@ ssl_hs_next_proto
 ssl_hs_message_hash
 =
 254
-ssl_hs_ech_outer_client_hello
-=
-257
 }
 SSLHandshakeType
 ;
@@ -1058,12 +1055,15 @@ ssl_renegotiation_info_xtn
 ssl_tls13_short_header_xtn
 =
 0xff03
+ssl_tls13_ech_is_inner_xtn
+=
+0xda09
 ssl_tls13_outer_extensions_xtn
 =
 0xfd00
 ssl_tls13_encrypted_client_hello_xtn
 =
-0xfe0d
+0xfe0a
 ssl_tls13_encrypted_sni_xtn
 =
 0xffce

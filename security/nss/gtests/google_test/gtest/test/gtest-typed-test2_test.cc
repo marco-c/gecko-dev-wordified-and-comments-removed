@@ -25,9 +25,6 @@ gtest
 .
 h
 "
-#
-if
-GTEST_HAS_TYPED_TEST_P
 INSTANTIATE_TYPED_TEST_SUITE_P
 (
 Vector
@@ -47,5 +44,3 @@ int
 >
 )
 ;
-#
-endif
