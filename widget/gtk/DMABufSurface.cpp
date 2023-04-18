@@ -2541,8 +2541,8 @@ planes
 d
 modifiers
 %
-lx
 "
+PRIx64
 mWidth
 mHeight
 mDrmFormats
