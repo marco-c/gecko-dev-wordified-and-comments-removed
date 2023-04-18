@@ -4420,6 +4420,15 @@ return
 NS_ERROR_FAILURE
 ;
 }
+ModuleLoader
+*
+requestModuleLoader
+=
+aRequest
+-
+>
+mLoader
+;
 nsCOMPtr
 <
 nsIURI
@@ -4428,7 +4437,7 @@ uri
 =
 ResolveModuleSpecifier
 (
-aRequest
+requestModuleLoader
 -
 >
 mLoader
