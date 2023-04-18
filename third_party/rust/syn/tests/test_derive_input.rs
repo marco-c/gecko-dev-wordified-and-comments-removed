@@ -1,4 +1,15 @@
 #
+!
+[
+allow
+(
+clippy
+:
+:
+too_many_lines
+)
+]
+#
 [
 macro_use
 ]

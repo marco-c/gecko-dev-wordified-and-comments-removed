@@ -20,7 +20,7 @@ serde
 .
 0
 .
-126
+130
 "
 )
 ]
@@ -231,6 +231,7 @@ cmp
 iter
 mem
 num
+ptr
 slice
 str
 }

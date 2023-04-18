@@ -457,7 +457,7 @@ ryu
 /
 tree
 /
-1c413e127f8d02afd12eb6259bc80163722f1385
+abf76d252bc97300354857e64e80d4a2bf664291
 toml
 [
 dependencies
@@ -559,6 +559,8 @@ opt
 ryu
 /
 benchmark
+:
+ryu_benchmark
 And
 the
 same

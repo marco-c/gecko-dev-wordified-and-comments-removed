@@ -106,6 +106,13 @@ use
 lib
 :
 :
+ptr
+;
+pub
+use
+lib
+:
+:
 result
 :
 :

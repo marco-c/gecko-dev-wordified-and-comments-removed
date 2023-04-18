@@ -135,7 +135,6 @@ test_error
 i16
 >
 (
-&
 yaml
 expected
 )
@@ -259,7 +258,6 @@ test_error
 A
 >
 (
-&
 yaml
 expected
 )
@@ -362,7 +360,6 @@ test_error
 Basic
 >
 (
-&
 yaml
 expected
 )
@@ -416,7 +413,6 @@ test_error
 String
 >
 (
-&
 yaml
 expected
 )
@@ -493,7 +489,6 @@ test_error
 Wrapper
 >
 (
-&
 yaml
 expected
 )
@@ -550,7 +545,6 @@ test_error
 usize
 >
 (
-&
 yaml
 expected
 )
@@ -628,7 +622,6 @@ test_error
 E
 >
 (
-&
 yaml
 expected
 )
@@ -706,7 +699,6 @@ test_error
 E
 >
 (
-&
 yaml
 expected
 )
@@ -784,7 +776,6 @@ test_error
 E
 >
 (
-&
 yaml
 expected
 )
@@ -846,7 +837,6 @@ test_error
 bool
 >
 (
-&
 yaml
 expected
 )
@@ -908,7 +898,6 @@ test_error
 i64
 >
 (
-&
 yaml
 expected
 )
@@ -970,7 +959,6 @@ test_error
 f64
 >
 (
-&
 yaml
 expected
 )
@@ -1032,7 +1020,6 @@ test_error
 )
 >
 (
-&
 yaml
 expected
 )
@@ -1095,7 +1082,6 @@ u8
 )
 >
 (
-&
 yaml
 expected
 )
@@ -1157,7 +1143,6 @@ u8
 )
 >
 (
-&
 yaml
 expected
 )
@@ -1214,7 +1199,7 @@ location
 (
 )
 ;
-assert_eq
+assert
 !
 (
 utf8_location
@@ -1222,7 +1207,6 @@ utf8_location
 is_none
 (
 )
-true
 )
 ;
 }

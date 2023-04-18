@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+non_ascii_literal
+)
+]
 use
 proc_macro2
 :
@@ -110,7 +121,6 @@ input1
 .
 advance_to
 (
-&
 input2
 )
 ;

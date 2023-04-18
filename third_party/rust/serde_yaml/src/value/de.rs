@@ -38,10 +38,7 @@ use
 serde
 :
 :
-{
 forward_to_deserialize_any
-serde_if_integer128
-}
 ;
 use
 std
@@ -1267,9 +1264,6 @@ deserialize_number
 visitor
 )
 }
-serde_if_integer128
-!
-{
 fn
 deserialize_i128
 <
@@ -1306,7 +1300,6 @@ deserialize_number
 (
 visitor
 )
-}
 }
 fn
 deserialize_u8
@@ -1456,9 +1449,6 @@ deserialize_number
 visitor
 )
 }
-serde_if_integer128
-!
-{
 fn
 deserialize_u128
 <
@@ -1495,7 +1485,6 @@ deserialize_number
 (
 visitor
 )
-}
 }
 fn
 deserialize_f32

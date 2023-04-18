@@ -148,15 +148,6 @@ docs
 rs
 /
 slab
-/
-0
-.
-4
-.
-3
-/
-slab
-/
 )
 #
 #
@@ -183,8 +174,6 @@ slab
 0
 .
 4
-.
-3
 "
 Next
 add
@@ -194,10 +183,6 @@ your
 crate
 :
 rust
-extern
-crate
-slab
-;
 use
 slab
 :

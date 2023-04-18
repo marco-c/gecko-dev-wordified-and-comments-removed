@@ -420,6 +420,7 @@ _
 self
 algorithm
 )
+;
 }
 #
 [

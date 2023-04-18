@@ -20,12 +20,6 @@ indoc
 indoc
 ;
 use
-serde
-:
-:
-serde_if_integer128
-;
-use
 serde_derive
 :
 :
@@ -371,7 +365,6 @@ third
 }
 test_de
 (
-&
 yaml
 &
 expected
@@ -457,7 +450,6 @@ true
 ;
 test_de
 (
-&
 yaml
 &
 expected
@@ -635,7 +627,6 @@ true
 ;
 test_de
 (
-&
 yaml
 &
 expected
@@ -750,7 +741,6 @@ B
 ;
 test_de
 (
-&
 yaml
 &
 expected
@@ -868,7 +858,6 @@ into
 ;
 test_de
 (
-&
 yaml
 &
 expected
@@ -940,16 +929,12 @@ to_owned
 ;
 test_de
 (
-&
 yaml
 &
 expected
 )
 ;
 }
-serde_if_integer128
-!
-{
 #
 [
 test
@@ -1007,7 +992,6 @@ from_str
 i128
 >
 (
-&
 yaml
 )
 .
@@ -1073,7 +1057,6 @@ from_str
 u128
 >
 (
-&
 yaml
 )
 .
@@ -1082,7 +1065,6 @@ unwrap
 )
 )
 ;
-}
 }
 #
 [
@@ -1167,7 +1149,6 @@ to_owned
 ;
 test_de
 (
-&
 yaml
 &
 expected
@@ -1329,7 +1310,6 @@ to_owned
 ;
 test_de
 (
-&
 yaml
 &
 expected
@@ -2012,7 +1992,6 @@ from_str
 Data
 >
 (
-&
 yaml
 )
 .

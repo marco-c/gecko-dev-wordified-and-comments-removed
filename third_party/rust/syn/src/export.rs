@@ -26,16 +26,6 @@ use
 std
 :
 :
-convert
-:
-:
-From
-;
-pub
-use
-std
-:
-:
 default
 :
 :

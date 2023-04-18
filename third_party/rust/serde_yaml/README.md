@@ -349,13 +349,14 @@ serde
 YAML
 ]
 :
-http
+https
 :
 /
 /
 yaml
 .
 org
+/
 This
 library
 does

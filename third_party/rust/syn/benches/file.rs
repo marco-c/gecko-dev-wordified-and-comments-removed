@@ -123,9 +123,11 @@ tests
 /
 rust
 /
-src
+library
 /
-libcore
+core
+/
+src
 /
 str
 /

@@ -20,7 +20,7 @@ serde_derive
 .
 0
 .
-126
+130
 "
 )
 ]
@@ -61,6 +61,10 @@ clippy
 :
 :
 cognitive_complexity
+clippy
+:
+:
+collapsible_match
 clippy
 :
 :

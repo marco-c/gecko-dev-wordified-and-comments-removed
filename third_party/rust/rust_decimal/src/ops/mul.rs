@@ -8,7 +8,7 @@ constants
 {
 BIG_POWERS_10
 MAX_I64_SCALE
-MAX_PRECISION
+MAX_PRECISION_U32
 U32_MAX
 }
 ;
@@ -180,12 +180,12 @@ u64
 if
 scale
 >
-MAX_PRECISION
+MAX_PRECISION_U32
 {
 if
 scale
 >
-MAX_PRECISION
+MAX_PRECISION_U32
 +
 MAX_I64_SCALE
 {
@@ -205,7 +205,7 @@ ZERO
 scale
 -
 =
-MAX_PRECISION
+MAX_PRECISION_U32
 +
 1
 ;
@@ -278,7 +278,7 @@ low64
 }
 scale
 =
-MAX_PRECISION
+MAX_PRECISION_U32
 ;
 }
 return
@@ -319,7 +319,6 @@ lo
 )
 as
 u64
-&
 d2
 &
 mut
@@ -353,7 +352,6 @@ lo
 )
 as
 u64
-&
 d1
 &
 mut
@@ -799,7 +797,7 @@ upper_word
 |
 scale
 >
-MAX_PRECISION
+MAX_PRECISION_U32
 {
 scale
 =

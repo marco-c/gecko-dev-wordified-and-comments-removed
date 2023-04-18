@@ -20,7 +20,13 @@ use
 syn
 :
 :
-*
+{
+Expr
+Item
+Lit
+Pat
+Type
+}
 ;
 #
 [

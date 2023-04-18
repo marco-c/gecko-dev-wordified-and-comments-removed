@@ -3,7 +3,7 @@
 [
 feature
 (
-asm
+llvm_asm
 )
 ]
 #

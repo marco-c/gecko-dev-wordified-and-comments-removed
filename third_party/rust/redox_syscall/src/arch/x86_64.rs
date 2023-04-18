@@ -27,7 +27,7 @@ Result
 usize
 >
 {
-asm
+llvm_asm
 !
 (
 "
@@ -99,7 +99,7 @@ Result
 usize
 >
 {
-asm
+llvm_asm
 !
 (
 "
@@ -179,7 +179,7 @@ Result
 usize
 >
 {
-asm
+llvm_asm
 !
 (
 "
@@ -295,7 +295,7 @@ Result
 usize
 >
 {
-asm
+llvm_asm
 !
 (
 "
@@ -389,7 +389,7 @@ Result
 usize
 >
 {
-asm
+llvm_asm
 !
 (
 "
@@ -494,7 +494,7 @@ Result
 usize
 >
 {
-asm
+llvm_asm
 !
 (
 "
@@ -610,7 +610,7 @@ Result
 usize
 >
 {
-asm
+llvm_asm
 !
 (
 "

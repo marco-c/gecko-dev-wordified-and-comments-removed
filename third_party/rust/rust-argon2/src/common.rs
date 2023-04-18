@@ -20,7 +20,7 @@ MAX_LANES
 :
 u32
 =
-0x00FFFFFF
+0x00FF_FFFF
 ;
 pub
 const
@@ -52,7 +52,7 @@ MAX_HASH_LENGTH
 :
 u32
 =
-0xFFFFFFFF
+0xFFFF_FFFF
 ;
 pub
 const
@@ -108,7 +108,7 @@ MAX_MEMORY
 :
 u32
 =
-0xFFFFFFFF
+0xFFFF_FFFF
 ;
 pub
 const
@@ -132,7 +132,7 @@ MAX_TIME
 :
 u32
 =
-0xFFFFFFFF
+0xFFFF_FFFF
 ;
 pub
 const
@@ -148,7 +148,7 @@ MAX_PWD_LENGTH
 :
 u32
 =
-0xFFFFFFFF
+0xFFFF_FFFF
 ;
 pub
 const
@@ -164,7 +164,7 @@ MAX_AD_LENGTH
 :
 u32
 =
-0xFFFFFFFF
+0xFFFF_FFFF
 ;
 pub
 const
@@ -180,7 +180,7 @@ MAX_SALT_LENGTH
 :
 u32
 =
-0xFFFFFFFF
+0xFFFF_FFFF
 ;
 pub
 const
@@ -196,7 +196,7 @@ MAX_SECRET_LENGTH
 :
 u32
 =
-0xFFFFFFFF
+0xFFFF_FFFF
 ;
 pub
 const
