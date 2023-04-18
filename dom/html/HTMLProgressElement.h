@@ -213,12 +213,6 @@ override
 ;
 protected
 :
-bool
-IsIndeterminate
-(
-)
-const
-;
 static
 const
 double

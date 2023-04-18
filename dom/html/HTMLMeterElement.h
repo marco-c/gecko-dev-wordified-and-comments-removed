@@ -131,6 +131,12 @@ Value
 )
 const
 ;
+double
+Position
+(
+)
+const
+;
 void
 SetValue
 (
