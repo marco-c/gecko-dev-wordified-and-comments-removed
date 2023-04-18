@@ -8877,6 +8877,16 @@ XMLSerializer
 :
 1
 ;
+#
+ifdef
+MOZ_DOM_STREAMS
+bool
+ReadableStream
+:
+1
+;
+#
+endif
 bool
 atob
 :
