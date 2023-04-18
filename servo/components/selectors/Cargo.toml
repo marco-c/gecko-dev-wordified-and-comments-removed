@@ -229,6 +229,11 @@ path
 to_shmem_derive
 "
 }
+new_debug_unreachable
+=
+"
+1
+"
 [
 build
 -
