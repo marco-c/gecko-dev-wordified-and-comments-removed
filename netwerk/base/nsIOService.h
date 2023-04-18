@@ -1198,7 +1198,13 @@ nsTHashSet
 <
 nsCString
 >
-mSocketProcessTopicBlackList
+mSocketProcessTopicBlockedList
+;
+nsTHashSet
+<
+nsCString
+>
+mIOServiceTopicList
 ;
 nsCOMPtr
 <
