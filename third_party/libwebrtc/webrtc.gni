@@ -2208,6 +2208,9 @@ winuwp
 is_mac
 |
 |
+is_bsd
+|
+|
 (
 (
 is_linux

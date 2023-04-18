@@ -165,7 +165,7 @@ else
 return
 reinterpret_cast
 <
-PlatformThreadId
+long
 >
 (
 pthread_self

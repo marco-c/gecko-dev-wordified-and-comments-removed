@@ -32,6 +32,9 @@ platform_thread
 h
 "
 #
+ifdef
+WEBRTC_LINUX
+#
 include
 <
 sys
@@ -40,6 +43,8 @@ inotify
 .
 h
 >
+#
+endif
 struct
 v4l2_capability
 ;

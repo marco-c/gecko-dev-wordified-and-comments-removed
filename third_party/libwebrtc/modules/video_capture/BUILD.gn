@@ -468,6 +468,9 @@ if
 is_linux
 |
 |
+is_bsd
+|
+|
 is_chromeos
 )
 {
