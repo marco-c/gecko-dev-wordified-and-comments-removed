@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Pocket
 "
@@ -78,7 +84,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CustomizableUI
 "
@@ -100,7 +106,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AboutReaderParent
 "
@@ -131,7 +137,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gStrings
 "
@@ -173,6 +179,8 @@ init
 (
 )
 {
+lazy
+.
 CustomizableUI
 .
 createWidget
@@ -367,6 +375,8 @@ shutdown
 (
 )
 {
+lazy
+.
 CustomizableUI
 .
 destroyWidget
@@ -572,6 +582,8 @@ finished
 )
 ;
 }
+lazy
+.
 AboutReaderParent
 .
 addMessageListener
@@ -584,6 +596,8 @@ OnSetup
 this
 )
 ;
+lazy
+.
 AboutReaderParent
 .
 addMessageListener
@@ -655,6 +669,8 @@ pocket
 "
 label
 :
+lazy
+.
 gStrings
 .
 formatStringFromName
@@ -709,6 +725,8 @@ if
 newValue
 )
 {
+lazy
+.
 AboutReaderParent
 .
 broadcastAsyncMessage
@@ -756,6 +774,8 @@ finished
 }
 else
 {
+lazy
+.
 AboutReaderParent
 .
 broadcastAsyncMessage
@@ -957,6 +977,8 @@ setToolbarPanelFrame
 frame
 )
 ;
+lazy
+.
 Pocket
 .
 _initPanelView
@@ -1224,6 +1246,8 @@ hidePopup
 }
 else
 {
+lazy
+.
 Pocket
 .
 savePage
