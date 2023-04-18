@@ -46,6 +46,13 @@ nsIAccessibleEvent
 EVENT_SCROLLING_END
 ;
 const
+EVENT_SELECTION
+=
+nsIAccessibleEvent
+.
+EVENT_SELECTION
+;
+const
 EVENT_SHOW
 =
 nsIAccessibleEvent
