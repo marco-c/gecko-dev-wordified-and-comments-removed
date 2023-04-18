@@ -433,6 +433,17 @@ aEventInitDict
 mCancelable
 )
 ;
+if
+(
+aEventInitDict
+.
+mData
+.
+WasPassed
+(
+)
+)
+{
 const
 auto
 &
@@ -502,6 +513,7 @@ NS_ERROR_OUT_OF_MEMORY
 return
 nullptr
 ;
+}
 }
 e
 -
