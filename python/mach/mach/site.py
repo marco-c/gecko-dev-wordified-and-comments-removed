@@ -19,11 +19,13 @@ platform
 import
 shutil
 import
-site
-import
 subprocess
 import
 sys
+from
+collections
+import
+OrderedDict
 from
 pathlib
 import
@@ -234,7 +236,7 @@ mach_site_packages_source
 :
 SitePackagesSource
         
-external_python
+original_python
 :
 "
 ExternalPythonSite
@@ -307,7 +309,7 @@ installed
 dependencies
 from
             
-external_python
+original_python
 :
 The
 external
@@ -396,9 +398,9 @@ mach_site_packages_source
         
 self
 .
-external_python
+original_python
 =
-external_python
+original_python
         
 self
 .
@@ -455,12 +457,12 @@ mach_site_packages_source
 name
             
 "
-external_python_executable
+original_python_executable
 "
 :
 self
 .
-external_python
+original_python
 .
 python_path
             
@@ -567,14 +569,14 @@ mach_site_packages_source
 and
 self
 .
-external_python
+original_python
 .
 python_path
 =
 =
 other
 .
-external_python
+original_python
 .
 python_path
         
@@ -741,7 +743,7 @@ ExternalPythonSite
 raw
 [
 "
-external_python_executable
+original_python_executable
 "
 ]
 )
@@ -1050,7 +1052,7 @@ requirements
 :
 MachEnvRequirements
         
-external_python
+original_python
 :
 "
 ExternalPythonSite
@@ -1128,7 +1130,7 @@ mach_virtualenv_packages
 .
 txt
             
-external_python
+original_python
 :
 The
 external
@@ -1140,6 +1142,29 @@ used
 to
 invoke
 Mach
+.
+                
+If
+Mach
+invocations
+are
+nested
+then
+"
+original_python
+"
+refers
+to
+                
+Python
+site
+that
+was
+used
+to
+start
+Mach
+first
 .
                 
 Usually
@@ -1154,6 +1179,7 @@ usr
 bin
 /
 python3
+.
             
 site_packages_source
 :
@@ -1180,12 +1206,6 @@ self
 _topsrcdir
 =
 topsrcdir
-        
-self
-.
-_external_python
-=
-external_python
         
 self
 .
@@ -1237,7 +1257,7 @@ site_packages_source
             
 site_packages_source
             
-external_python
+original_python
             
 self
 .
@@ -1347,6 +1367,15 @@ optional
 .
 "
         
+external_python
+=
+ExternalPythonSite
+(
+sys
+.
+executable
+)
+        
 active_metadata
 =
 MozSiteMetadata
@@ -1359,23 +1388,18 @@ if
 active_metadata
 :
             
-external_python
+original_python
 =
 active_metadata
 .
-external_python
+original_python
         
 else
 :
             
-external_python
+original_python
 =
-ExternalPythonSite
-(
-sys
-.
-executable
-)
+external_python
         
 if
 not
@@ -1458,7 +1482,7 @@ state_dir
             
 requirements
             
-external_python
+original_python
             
 source
         
@@ -1513,13 +1537,9 @@ _topsrcdir
 )
                 
 *
-self
+sys
 .
-_external_python
-.
-all_site_packages_dirs
-(
-)
+path
             
 ]
             
@@ -1725,6 +1745,22 @@ self
 .
 _topsrcdir
 )
+                
+sys
+.
+path
+=
+list
+(
+OrderedDict
+.
+fromkeys
+(
+sys
+.
+path
+)
+)
             
 elif
 self
@@ -1737,41 +1773,22 @@ SitePackagesSource
 NONE
 :
                 
-external_site_packages
-=
-ExternalPythonSite
-(
-                    
-sys
-.
-executable
-                
-)
-.
-all_site_packages_dirs
-(
-)
-                
 sys
 .
 path
 =
-[
-                    
-path
-for
-path
-in
-sys
+list
+(
+self
 .
-path
-if
-path
-not
-in
-external_site_packages
-                
-]
+_metadata
+.
+original_python
+.
+stdlib_paths
+(
+)
+)
                 
 sys
 .
@@ -1823,41 +1840,22 @@ prefix
 )
 :
                     
-external_site_packages
-=
-ExternalPythonSite
-(
-                        
-sys
-.
-executable
-                    
-)
-.
-all_site_packages_dirs
-(
-)
-                    
 sys
 .
 path
 =
-[
-                        
-path
-for
-path
-in
-sys
+list
+(
+self
 .
-path
-if
-path
-not
-in
-external_site_packages
-                    
-]
+_metadata
+.
+original_python
+.
+stdlib_paths
+(
+)
+)
                     
 activate_path
 =
@@ -2419,14 +2417,6 @@ mach_site_packages_source
         
 self
 .
-_external_python
-=
-active_metadata
-.
-external_python
-        
-self
-.
 _requirements
 =
 requirements
@@ -2452,7 +2442,7 @@ mach_site_packages_source
             
 active_metadata
 .
-external_python
+original_python
             
 virtualenv_root
         
@@ -2636,27 +2626,37 @@ SitePackagesSource
 .
 VENV
         
-elif
-not
-active_metadata
+else
+:
+            
+external_python
+=
+ExternalPythonSite
+(
+sys
 .
+executable
+)
+            
+if
+not
 external_python
 .
 has_pip
 (
 )
 :
-            
+                
 if
 requirements
 .
 pypi_requirements
 :
-                
+                    
 raise
 Exception
 (
-                    
+                        
 f
 '
 The
@@ -2669,7 +2669,7 @@ site
 requires
 pip
 '
-                    
+                        
 "
 packages
 and
@@ -2684,7 +2684,7 @@ pip
 packages
 in
 "
-                    
+                        
 "
 the
 system
@@ -2701,7 +2701,7 @@ doesn
 '
 t
 "
-                    
+                        
 '
 have
 "
@@ -2710,44 +2710,40 @@ pip
 installed
 .
 '
-                
+                    
 )
-            
+                
 source
 =
 SitePackagesSource
 .
 NONE
-        
+            
 else
 :
-            
+                
 source
 =
 (
-                
+                    
 SitePackagesSource
 .
 SYSTEM
-                
+                    
 if
-active_metadata
-.
 external_python
 .
 provides_any_package
 (
-                    
 site_name
 requirements
-                
 )
-                
+                    
 else
 SitePackagesSource
 .
 NONE
-            
+                
 )
         
 checkout_scoped_state_dir
@@ -3646,17 +3642,40 @@ SitePackagesSource
 SYSTEM
 :
             
+stdlib_paths
+=
+self
+.
+_metadata
+.
+original_python
+.
+stdlib_paths
+(
+)
+            
+system_sys_path
+=
+[
+p
+for
+p
+in
+sys
+.
+path
+if
+p
+not
+in
+stdlib_paths
+]
+            
 lines
 .
 extend
 (
-self
-.
-_external_python
-.
-all_site_packages_dirs
-(
-)
+system_sys_path
 )
         
 elif
@@ -3736,17 +3755,40 @@ SYSTEM
 )
 :
             
+stdlib_paths
+=
+self
+.
+_metadata
+.
+original_python
+.
+stdlib_paths
+(
+)
+            
+system_sys_path
+=
+[
+p
+for
+p
+in
+sys
+.
+path
+if
+p
+not
+in
+stdlib_paths
+]
+            
 lines
 .
 extend
 (
-self
-.
-_external_python
-.
-all_site_packages_dirs
-(
-)
+system_sys_path
 )
         
 elif
@@ -3770,6 +3812,19 @@ site_packages_dir
 (
 )
             
+while
+site_packages_dir
+in
+lines
+:
+                
+lines
+.
+remove
+(
+site_packages_dir
+)
+            
 lines
 .
 extend
@@ -3777,6 +3832,18 @@ extend
 _deprioritize_venv_packages
 (
 site_packages_dir
+)
+)
+        
+lines
+=
+list
+(
+OrderedDict
+.
+fromkeys
+(
+lines
 )
 )
         
@@ -4472,64 +4539,56 @@ None
 )
     
 def
-all_site_packages_dirs
+stdlib_paths
 (
 self
 )
 :
         
-if
-self
-.
-_prefix
-=
-=
-sys
-.
-prefix
-:
-            
-return
-[
-site
-.
-getusersitepackages
-(
-)
-]
-+
-site
-.
-getsitepackages
-(
-)
-        
-else
-:
-            
-paths_string
+stdlib_paths
 =
 subprocess
 .
 check_output
 (
-                
+            
 [
-                    
+                
 self
 .
 python_path
-                    
+                
 "
 -
 c
 "
-                    
+                
 "
+import
+sys
+;
 import
 site
 ;
+"
+                
+"
 print
+(
+"
+                
+"
+set
+(
+sys
+.
+path
+)
+"
+                
+"
+-
+set
 (
 [
 site
@@ -4538,9 +4597,6 @@ getusersitepackages
 (
 )
 ]
-"
-                    
-"
 +
 site
 .
@@ -4550,8 +4606,12 @@ getsitepackages
 )
 "
                 
+"
+)
+"
+            
 ]
-                
+            
 env
 =
 {
@@ -4577,19 +4637,19 @@ k
 VIRTUAL_ENV
 "
 }
-                
+            
 universal_newlines
 =
 True
-            
+        
 )
-            
+        
 return
 ast
 .
 literal_eval
 (
-paths_string
+stdlib_paths
 )
     
 functools
@@ -5807,9 +5867,11 @@ check_call
         
 [
             
-sys
+metadata
 .
-executable
+original_python
+.
+python_path
             
 _virtualenv_py_path
 (
