@@ -1712,16 +1712,6 @@ nodiscard
 ]
 ]
 bool
-emitPushNotUndefinedOrNull
-(
-)
-;
-[
-[
-nodiscard
-]
-]
-bool
 emitUint16Operand
 (
 JSOp
