@@ -396,6 +396,13 @@ aOptions
 mSignal
 )
 ;
+requestActor
+-
+>
+MaybeSetWorkerRef
+(
+)
+;
 SendPLockRequestConstructor
 (
 requestActor

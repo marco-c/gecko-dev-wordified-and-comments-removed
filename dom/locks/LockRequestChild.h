@@ -126,6 +126,11 @@ AbortSignal
 aSignal
 )
 ;
+void
+MaybeSetWorkerRef
+(
+)
+;
 IPCResult
 RecvResolve
 (
