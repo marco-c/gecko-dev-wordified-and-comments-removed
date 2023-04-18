@@ -17,10 +17,10 @@ false
 btoa
 :
 false
-debug
+dump
 :
 false
-dump
+Intl
 :
 false
 WebAssembly

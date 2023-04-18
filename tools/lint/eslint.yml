@@ -34,6 +34,9 @@ extensions
 :
 [
 '
+mjs
+'
+'
 js
 '
 '
@@ -46,10 +49,10 @@ jsx
 html
 '
 '
-xhtml
-'
-'
 sjs
+'
+'
+xhtml
 '
 ]
 support
