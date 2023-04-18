@@ -3823,6 +3823,12 @@ JSOp
 :
 MoreIter
 :
+case
+JSOp
+:
+:
+OptimizeSpreadCall
+:
 MOZ_ASSERT
 (
 nuses
@@ -11492,6 +11498,14 @@ JSOp
 :
 OptimizeSpreadCall
 :
+MOZ_ASSERT
+(
+defIndex
+=
+=
+1
+)
+;
 return
 write
 (

@@ -1773,7 +1773,7 @@ liveRegs_
 ValueOperand
 value_
 ;
-ValueOperand
+Register
 output_
 ;
 Register
@@ -1787,7 +1787,7 @@ LiveRegisterSet
 liveRegs
 ValueOperand
 value
-ValueOperand
+Register
 output
 Register
 temp
@@ -1828,7 +1828,7 @@ return
 value_
 ;
 }
-ValueOperand
+Register
 output
 (
 )
@@ -1872,7 +1872,8 @@ IonOptimizeSpreadCallIC
 ic
 HandleValue
 value
-MutableHandleValue
+bool
+*
 result
 )
 ;

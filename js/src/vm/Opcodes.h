@@ -1777,7 +1777,7 @@ optimize_spread_call
 NULL
 1
 1
-1
+2
 JOF_BYTE
 |
 JOF_IC

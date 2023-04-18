@@ -2435,7 +2435,8 @@ IonOptimizeSpreadCallIC
 ic
 HandleValue
 value
-MutableHandleValue
+bool
+*
 result
 )
 {
