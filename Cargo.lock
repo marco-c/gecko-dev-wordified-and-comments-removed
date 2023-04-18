@@ -12666,6 +12666,11 @@ mio
 moz_asserts
 "
 "
+mozglue
+-
+static
+"
+"
 mozurl
 "
 "
