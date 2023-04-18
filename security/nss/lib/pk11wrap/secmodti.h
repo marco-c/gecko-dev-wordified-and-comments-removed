@@ -264,6 +264,10 @@ NSSToken
 *
 nssToken
 ;
+PZLock
+*
+nssTokenLock
+;
 CK_TOKEN_INFO
 tokenInfo
 ;
