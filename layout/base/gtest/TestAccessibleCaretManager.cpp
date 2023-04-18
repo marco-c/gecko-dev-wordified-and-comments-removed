@@ -499,13 +499,17 @@ CaretMode
 )
 )
 ;
-MOCK_METHOD1
+MOCK_METHOD2
 (
 DispatchCaretStateChangedEvent
 void
 (
 CaretChangedReason
 aReason
+const
+nsPoint
+*
+aPoint
 )
 )
 ;
@@ -722,6 +726,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -884,6 +889,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -912,6 +918,7 @@ CaretChangedReason
 :
 :
 Visibilitychange
+nullptr
 )
 )
 .
@@ -938,6 +945,7 @@ mManager
 DispatchCaretStateChangedEvent
 (
 _
+nullptr
 )
 )
 .
@@ -963,6 +971,7 @@ mManager
 DispatchCaretStateChangedEvent
 (
 _
+nullptr
 )
 )
 .
@@ -991,6 +1000,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -1020,6 +1030,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -1048,6 +1059,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -1332,6 +1344,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -1360,6 +1373,7 @@ CaretChangedReason
 :
 :
 Visibilitychange
+nullptr
 )
 )
 .
@@ -1386,6 +1400,7 @@ mManager
 DispatchCaretStateChangedEvent
 (
 _
+nullptr
 )
 )
 .
@@ -1411,6 +1426,7 @@ mManager
 DispatchCaretStateChangedEvent
 (
 _
+nullptr
 )
 )
 .
@@ -1439,6 +1455,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -1468,6 +1485,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -1496,6 +1514,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -1767,6 +1786,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -1795,6 +1815,7 @@ CaretChangedReason
 :
 :
 Visibilitychange
+nullptr
 )
 )
 .
@@ -1820,6 +1841,7 @@ mManager
 DispatchCaretStateChangedEvent
 (
 _
+nullptr
 )
 )
 .
@@ -2012,6 +2034,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -2035,6 +2058,7 @@ CaretChangedReason
 :
 :
 Scroll
+nullptr
 )
 )
 ;
@@ -2058,6 +2082,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -2106,6 +2131,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -2129,6 +2155,7 @@ CaretChangedReason
 :
 :
 Scroll
+nullptr
 )
 )
 ;
@@ -2152,6 +2179,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -2175,6 +2203,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -2540,6 +2569,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -2563,6 +2593,7 @@ CaretChangedReason
 :
 :
 Scroll
+nullptr
 )
 )
 ;
@@ -2583,6 +2614,7 @@ mManager
 DispatchCaretStateChangedEvent
 (
 _
+nullptr
 )
 )
 .
@@ -2611,6 +2643,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -2659,6 +2692,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -2682,6 +2716,7 @@ CaretChangedReason
 :
 :
 Scroll
+nullptr
 )
 )
 ;
@@ -2702,6 +2737,7 @@ mManager
 DispatchCaretStateChangedEvent
 (
 _
+nullptr
 )
 )
 .
@@ -2730,6 +2766,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -2753,6 +2790,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -3171,6 +3209,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -3199,6 +3238,7 @@ CaretChangedReason
 :
 :
 Scroll
+nullptr
 )
 )
 .
@@ -3252,6 +3292,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -3280,6 +3321,7 @@ CaretChangedReason
 :
 :
 Scroll
+nullptr
 )
 )
 .
@@ -3333,6 +3375,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -3553,6 +3596,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 .
@@ -3581,6 +3625,7 @@ CaretChangedReason
 :
 :
 Visibilitychange
+nullptr
 )
 )
 .
@@ -3894,6 +3939,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -3917,6 +3963,7 @@ CaretChangedReason
 :
 :
 Scroll
+nullptr
 )
 )
 ;
@@ -3965,6 +4012,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -3988,6 +4036,7 @@ CaretChangedReason
 :
 :
 Scroll
+nullptr
 )
 )
 ;
@@ -4011,6 +4060,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -4034,6 +4084,7 @@ CaretChangedReason
 :
 :
 Scroll
+nullptr
 )
 )
 ;
@@ -4057,6 +4108,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -4326,6 +4378,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -4350,6 +4403,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -4374,6 +4428,7 @@ CaretChangedReason
 :
 :
 Scroll
+nullptr
 )
 )
 ;
@@ -4423,6 +4478,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -4447,6 +4503,7 @@ CaretChangedReason
 :
 :
 Scroll
+nullptr
 )
 )
 ;
@@ -4471,6 +4528,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;
@@ -4495,6 +4553,7 @@ CaretChangedReason
 :
 :
 Scroll
+nullptr
 )
 )
 ;
@@ -4519,6 +4578,7 @@ CaretChangedReason
 :
 :
 Updateposition
+nullptr
 )
 )
 ;

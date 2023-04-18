@@ -759,6 +759,12 @@ dom
 :
 CaretChangedReason
 aReason
+const
+nsPoint
+*
+aPoint
+=
+nullptr
 )
 ;
 nscoord
