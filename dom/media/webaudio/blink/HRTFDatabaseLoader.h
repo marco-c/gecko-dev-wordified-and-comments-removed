@@ -386,11 +386,14 @@ mozilla
 :
 Mutex
 m_threadLock
-MOZ_UNANNOTATED
 ;
 PRThread
 *
 m_databaseLoaderThread
+GUARDED_BY
+(
+m_threadLock
+)
 ;
 float
 m_databaseSampleRate
