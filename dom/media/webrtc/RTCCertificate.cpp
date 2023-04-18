@@ -1409,7 +1409,13 @@ EXPIRATION_DEFAULT
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 value
 (
 aCx

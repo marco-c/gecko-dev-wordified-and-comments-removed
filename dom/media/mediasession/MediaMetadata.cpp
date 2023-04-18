@@ -450,7 +450,13 @@ i
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 value
 (
 aCx
