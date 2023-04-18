@@ -277,6 +277,7 @@ picture
 BlitReason
 OrderedPictureChild
 PrimitiveList
+SurfaceInfo
 }
 ;
 use
@@ -1593,6 +1594,12 @@ FastHashMap
 PipelineId
 u32
 >
+surfaces
+:
+Vec
+<
+SurfaceInfo
+>
 }
 impl
 <
@@ -1906,6 +1913,14 @@ FastHashMap
 default
 (
 )
+surfaces
+:
+Vec
+:
+:
+new
+(
+)
 }
 ;
 builder
@@ -2039,6 +2054,11 @@ prim_instances
 builder
 .
 prim_instances
+surfaces
+:
+builder
+.
+surfaces
 }
 }
 fn
