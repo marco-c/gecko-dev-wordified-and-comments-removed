@@ -27,6 +27,12 @@ Parameters
 from
 taskgraph
 .
+taskgraph
+import
+TaskGraph
+from
+taskgraph
+.
 util
 .
 taskcluster
@@ -72,11 +78,6 @@ parameters
 import
 get_version
 get_app_version
-from
-.
-taskgraph
-import
-TaskGraph
 from
 .
 try_option_syntax

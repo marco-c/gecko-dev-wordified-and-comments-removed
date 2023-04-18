@@ -33,6 +33,12 @@ Task
 from
 taskgraph
 .
+taskgraph
+import
+TaskGraph
+from
+taskgraph
+.
 util
 .
 yaml
@@ -52,11 +58,6 @@ from
 optimize
 import
 optimize_task_graph
-from
-.
-taskgraph
-import
-TaskGraph
 from
 .
 transforms

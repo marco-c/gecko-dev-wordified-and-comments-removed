@@ -98,6 +98,12 @@ Graph
 from
 taskgraph
 .
+taskgraph
+import
+TaskGraph
+from
+taskgraph
+.
 util
 .
 parameterization
@@ -108,12 +114,6 @@ resolve_task_references
     
 resolve_timestamps
 )
-from
-gecko_taskgraph
-.
-taskgraph
-import
-TaskGraph
 from
 gecko_taskgraph
 .

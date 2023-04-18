@@ -23,6 +23,12 @@ task
 import
 Task
 from
+taskgraph
+.
+taskgraph
+import
+TaskGraph
+from
 gecko_taskgraph
 import
 target_tasks
@@ -30,12 +36,6 @@ from
 gecko_taskgraph
 import
 try_option_syntax
-from
-gecko_taskgraph
-.
-taskgraph
-import
-TaskGraph
 class
 FakeTryOptionSyntax
 :

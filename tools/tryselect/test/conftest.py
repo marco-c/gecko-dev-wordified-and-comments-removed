@@ -23,12 +23,6 @@ resolve
 import
 TestResolver
 from
-gecko_taskgraph
-.
-taskgraph
-import
-TaskGraph
-from
 taskgraph
 .
 graph
@@ -40,6 +34,12 @@ taskgraph
 task
 import
 Task
+from
+taskgraph
+.
+taskgraph
+import
+TaskGraph
 from
 tryselect
 import

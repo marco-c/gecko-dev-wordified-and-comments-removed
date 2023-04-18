@@ -35,6 +35,12 @@ slugid
 from
 taskgraph
 .
+taskgraph
+import
+TaskGraph
+from
+taskgraph
+.
 util
 .
 taskcluster
@@ -67,12 +73,6 @@ import
 read_artifact
 write_artifact
 rename_artifact
-from
-gecko_taskgraph
-.
-taskgraph
-import
-TaskGraph
 from
 gecko_taskgraph
 .

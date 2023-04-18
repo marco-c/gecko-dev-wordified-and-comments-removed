@@ -309,7 +309,7 @@ import
 Graph
     
 from
-gecko_taskgraph
+taskgraph
 .
 taskgraph
 import

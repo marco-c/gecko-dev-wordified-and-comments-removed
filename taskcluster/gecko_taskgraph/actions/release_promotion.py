@@ -11,6 +11,12 @@ Parameters
 from
 taskgraph
 .
+taskgraph
+import
+TaskGraph
+from
+taskgraph
+.
 util
 .
 taskcluster
@@ -62,12 +68,6 @@ get_partner_url_config
     
 get_token
 )
-from
-gecko_taskgraph
-.
-taskgraph
-import
-TaskGraph
 from
 gecko_taskgraph
 .
