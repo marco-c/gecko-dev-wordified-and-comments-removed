@@ -2821,6 +2821,13 @@ false
 -
 name
 :
+BitNotI64
+gen_boilerplate
+:
+false
+-
+name
+:
 BitOpI
 gen_boilerplate
 :
