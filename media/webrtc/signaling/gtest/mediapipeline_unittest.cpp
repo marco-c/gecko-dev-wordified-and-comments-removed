@@ -320,6 +320,10 @@ GetMainThreadEventTarget
 MainAsCurrentTaskQueue
 "
 )
+"
+MainAsCurrent
+"
+_ns
 )
 mSetter
 (

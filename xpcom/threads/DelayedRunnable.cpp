@@ -5,6 +5,15 @@ DelayedRunnable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ProfilerRunnable
+.
+h
+"
 namespace
 mozilla
 {
@@ -275,6 +284,11 @@ std
 move
 (
 mWrappedRunnable
+)
+;
+AUTO_PROFILE_FOLLOWING_RUNNABLE
+(
+r
 )
 ;
 return
