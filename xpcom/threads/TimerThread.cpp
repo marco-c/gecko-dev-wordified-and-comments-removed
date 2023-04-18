@@ -1873,11 +1873,9 @@ timeout
 now
 )
 .
-ToMilliseconds
+ToMicroseconds
 (
 )
-*
-1000
 ;
 if
 (
