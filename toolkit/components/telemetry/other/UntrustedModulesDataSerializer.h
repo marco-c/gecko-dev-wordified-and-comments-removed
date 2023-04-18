@@ -117,9 +117,9 @@ JS
 MutableHandleValue
 aElement
 const
-ProcessedModuleLoadEvent
+ProcessedModuleLoadEventContainer
 &
-aEvent
+aEventContainer
 const
 IndexMap
 &
@@ -144,10 +144,7 @@ nsresult
 AddLoadEvents
 (
 const
-Vector
-<
-ProcessedModuleLoadEvent
->
+UntrustedModuleLoadingEvents
 &
 aEvents
 JS
