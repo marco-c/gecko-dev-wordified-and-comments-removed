@@ -7743,7 +7743,7 @@ including
 -
 social
 -
-media
+media2
 =
 .
 label
@@ -7752,10 +7752,6 @@ Cross
 -
 site
 tracking
-cookies
-includes
-social
-media
 cookies
 sitedata
 -
@@ -7773,7 +7769,7 @@ including
 -
 social
 -
-media
+media2
 =
 .
 label
@@ -7781,10 +7777,14 @@ label
 Cross
 -
 site
+tracking
 cookies
-includes
-social
-media
+and
+isolate
+other
+cross
+-
+site
 cookies
 sitedata
 -
