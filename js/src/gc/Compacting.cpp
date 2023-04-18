@@ -1040,13 +1040,6 @@ JS
 :
 AutoSuppressGCAnalysis
 nogc
-(
-TlsContext
-.
-get
-(
-)
-)
 ;
 MOZ_ASSERT
 (
