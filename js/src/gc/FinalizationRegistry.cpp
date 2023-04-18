@@ -30,6 +30,15 @@ include
 "
 gc
 /
+GCInternals
+.
+h
+"
+#
+include
+"
+gc
+/
 GCRuntime
 .
 h
