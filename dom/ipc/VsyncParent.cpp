@@ -99,6 +99,17 @@ aVsyncDispatcher
 {
 if
 (
+aVsyncDispatcher
+=
+=
+mVsyncDispatcher
+)
+{
+return
+;
+}
+if
+(
 mObservingVsync
 &
 &
