@@ -43,10 +43,6 @@ protocol
 PWebRenderBridge
 ;
 include
-protocol
-PWebGPU
-;
-include
 "
 mozilla
 /
@@ -518,9 +514,6 @@ PCompositorWidget
 manages
 PWebRenderBridge
 ;
-manages
-PWebGPU
-;
 child
 :
 async
@@ -632,11 +625,6 @@ PAPZCTreeManager
 (
 LayersId
 layersId
-)
-;
-async
-PWebGPU
-(
 )
 ;
 sync

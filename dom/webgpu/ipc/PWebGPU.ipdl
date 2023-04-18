@@ -144,7 +144,7 @@ h
 ;
 include
 protocol
-PCompositorBridge
+PCanvasManager
 ;
 namespace
 mozilla
@@ -152,12 +152,15 @@ mozilla
 namespace
 webgpu
 {
+[
+RefCounted
+]
 async
 protocol
 PWebGPU
 {
 manager
-PCompositorBridge
+PCanvasManager
 ;
 parent
 :
@@ -496,11 +499,6 @@ returns
 (
 MaybeScopedError
 maybeError
-)
-;
-async
-Shutdown
-(
 )
 ;
 child
