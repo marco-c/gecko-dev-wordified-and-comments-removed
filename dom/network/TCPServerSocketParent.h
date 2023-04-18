@@ -42,8 +42,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -173,7 +173,6 @@ mIPCOpen
 ;
 }
 ;
-}
 }
 #
 endif

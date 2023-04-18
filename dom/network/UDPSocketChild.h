@@ -63,8 +63,8 @@ nsIUDPSocketInternal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -404,7 +404,6 @@ mFilterName
 ;
 }
 ;
-}
 }
 #
 endif

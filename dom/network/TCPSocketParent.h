@@ -74,8 +74,8 @@ TCPSOCKETPARENT_CID
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -367,7 +367,6 @@ aReadyState
 ;
 }
 ;
-}
 }
 #
 endif

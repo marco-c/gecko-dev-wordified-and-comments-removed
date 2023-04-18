@@ -38,11 +38,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 payments
 {
 class
@@ -857,8 +857,6 @@ mPhone
 ;
 }
 ;
-}
-}
 }
 #
 endif

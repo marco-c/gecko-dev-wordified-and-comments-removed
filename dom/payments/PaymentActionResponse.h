@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -463,7 +463,6 @@ mBillingAddress
 ;
 }
 ;
-}
 }
 #
 endif

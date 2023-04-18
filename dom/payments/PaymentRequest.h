@@ -78,8 +78,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1226,7 +1226,6 @@ mIPC
 ;
 }
 ;
-}
 }
 #
 endif

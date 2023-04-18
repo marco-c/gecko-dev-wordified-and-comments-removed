@@ -67,8 +67,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -391,7 +391,6 @@ mSupportedRegions
 ;
 }
 ;
-}
 }
 #
 endif

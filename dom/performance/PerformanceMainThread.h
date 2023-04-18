@@ -20,8 +20,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -558,7 +558,6 @@ GetPresShell
 ;
 }
 ;
-}
 }
 #
 endif

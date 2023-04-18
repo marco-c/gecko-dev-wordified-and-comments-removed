@@ -17,8 +17,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -210,7 +210,6 @@ mDetail
 ;
 }
 ;
-}
 }
 #
 endif

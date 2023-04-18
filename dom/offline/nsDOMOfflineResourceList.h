@@ -110,8 +110,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -120,7 +120,6 @@ DOMStringList
 class
 Event
 ;
-}
 }
 class
 nsDOMOfflineResourceList

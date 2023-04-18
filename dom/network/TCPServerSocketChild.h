@@ -57,8 +57,8 @@ nsITCPServerSocketInternal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -174,7 +174,6 @@ socket
 ;
 }
 ;
-}
 }
 #
 endif

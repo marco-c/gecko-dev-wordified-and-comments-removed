@@ -22,8 +22,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsresult
@@ -92,7 +92,6 @@ MutableHandleValue
 aValue
 )
 ;
-}
 }
 #
 endif
