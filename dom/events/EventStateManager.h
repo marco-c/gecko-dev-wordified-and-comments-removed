@@ -346,6 +346,7 @@ nsEventStatus
 aStatus
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DispatchLegacyMouseScrollEvents
 (
@@ -1405,6 +1406,7 @@ false
 }
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SendLineScrollEvent
 (
@@ -1423,6 +1425,7 @@ DeltaDirection
 aDeltaDirection
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SendPixelScrollEvent
 (
