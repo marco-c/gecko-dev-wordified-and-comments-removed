@@ -1178,12 +1178,10 @@ ReportConnectionError
 const
 char
 *
-aChannelName
-Message
-*
-aMsg
-=
-nullptr
+aFunctionName
+const
+uint32_t
+aMsgTyp
 )
 const
 ;
