@@ -23455,6 +23455,9 @@ dependencies
 "
 libc
 "
+"
+rustc_version
+"
 ]
 [
 [

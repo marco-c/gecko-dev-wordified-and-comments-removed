@@ -160,3 +160,15 @@ optional
 =
 true
 }
+[
+build
+-
+dependencies
+]
+rustc_version
+=
+"
+0
+.
+2
+"
