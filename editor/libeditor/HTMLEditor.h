@@ -4153,7 +4153,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 MoveNodeResult
-MoveOneHardLineContents
+MoveOneHardLineContentsWithTransaction
 (
 const
 EditorDOMPoint
