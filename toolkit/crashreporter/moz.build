@@ -281,6 +281,9 @@ src
 /
 processor
 "
+"
+pthread_create_interposer
+"
 ]
 if
 CONFIG
