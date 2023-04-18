@@ -184,7 +184,7 @@ eVoidEvent
 nullptr
 )
 )
-mClientPoint
+mDefaultClientPoint
 (
 0
 0
@@ -1044,7 +1044,7 @@ DuplicatePrivateData
 (
 )
 {
-mClientPoint
+mDefaultClientPoint
 =
 Event
 :
@@ -1057,7 +1057,7 @@ mEvent
 -
 >
 mRefPoint
-mClientPoint
+mDefaultClientPoint
 )
 ;
 mMovementPoint
@@ -1085,7 +1085,7 @@ mEvent
 -
 >
 mRefPoint
-mClientPoint
+mDefaultClientPoint
 )
 ;
 CSSIntPoint
