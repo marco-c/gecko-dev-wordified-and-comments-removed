@@ -184,8 +184,11 @@ return
 true
 ;
 }
-void
-GetDebugInfo
+RefPtr
+<
+GenericPromise
+>
+RequestDebugInfo
 (
 dom
 :
