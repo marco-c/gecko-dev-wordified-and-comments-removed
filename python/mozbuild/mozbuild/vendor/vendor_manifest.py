@@ -2049,11 +2049,11 @@ dst
 }
                     
 "
-Performing
+action
+:
 copy
 -
 file
-action
 src
 :
 {
@@ -2387,13 +2387,13 @@ file
 }
                     
 "
-Performing
+action
+:
 replace
 -
 in
 -
 file
-action
 file
 :
 {
@@ -2523,11 +2523,11 @@ path
 }
                     
 "
-Performing
+action
+:
 delete
 -
 path
-action
 path
 :
 {
@@ -2590,6 +2590,54 @@ support_cwd
 True
 )
                 
+args
+=
+[
+]
+                
+for
+a
+in
+update
+.
+get
+(
+"
+args
+"
+[
+]
+)
+:
+                    
+if
+a
+=
+=
+"
+{
+revision
+}
+"
+:
+                        
+args
+.
+append
+(
+revision
+)
+                    
+else
+:
+                        
+args
+.
+append
+(
+a
+)
+                
 self
 .
 log
@@ -2614,14 +2662,19 @@ run_dir
 "
 :
 run_dir
+"
+args
+"
+:
+args
 }
                     
 "
-Performing
+action
+:
 run
 -
 script
-action
 script
 :
 {
@@ -2632,6 +2685,11 @@ dir
 :
 {
 run_dir
+}
+args
+:
+{
+args
 }
 "
                 
@@ -2647,6 +2705,8 @@ args
 [
 script
 ]
++
+args
                     
 cwd
 =
