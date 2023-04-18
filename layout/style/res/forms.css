@@ -901,15 +901,6 @@ shorthand
 *
 /
 }
-textarea
->
-scrollbar
-{
-cursor
-:
-default
-;
-}
 :
 :
 placeholder
