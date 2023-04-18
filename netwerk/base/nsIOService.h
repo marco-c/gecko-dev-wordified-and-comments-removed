@@ -682,6 +682,12 @@ TooManySocketProcessCrash
 (
 )
 ;
+static
+void
+IncreaseSocketProcessCrashCount
+(
+)
+;
 private
 :
 nsIOService

@@ -2431,6 +2431,11 @@ type
 )
 ;
 async
+SocketProcessCrashed
+(
+)
+;
+async
 ReinitRenderingForDeviceReset
 (
 )
