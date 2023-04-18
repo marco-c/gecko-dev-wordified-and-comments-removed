@@ -109,7 +109,6 @@ if
 GetInstallHash
 (
 installPath
-MOZ_APP_VENDOR
 pathHash
 )
 )
