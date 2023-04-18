@@ -56460,7 +56460,12 @@ mBrowsingContext
 {
 triggeringSandboxFlags
 =
-mBrowsingContext
+aContent
+-
+>
+OwnerDoc
+(
+)
 -
 >
 GetSandboxFlags
