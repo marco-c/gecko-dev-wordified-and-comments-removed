@@ -3893,6 +3893,8 @@ MaybeDiscardedBrowsingContext
 browsingContext
 bool
 wasExternallyTriggered
+bool
+hasValidUserGestureActivation
 )
 ;
 async
