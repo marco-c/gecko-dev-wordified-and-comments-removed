@@ -267,6 +267,7 @@ AggregateDevice
 set_master_device
 (
 kAudioObjectUnknown
+kAudioObjectUnknown
 )
 .
 is_err
@@ -1372,6 +1373,7 @@ AggregateDevice
 set_master_device
 (
 device
+output_device
 )
 .
 is_ok
@@ -1518,6 +1520,11 @@ AggregateDevice
 set_master_device
 (
 device
+output_device
+.
+unwrap
+(
+)
 )
 .
 is_ok
@@ -1717,6 +1724,7 @@ AggregateDevice
 set_master_device
 (
 device
+output_device
 )
 .
 is_ok
