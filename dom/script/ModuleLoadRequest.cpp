@@ -668,6 +668,11 @@ return
 mLoader
 -
 >
+GetModuleLoader
+(
+)
+-
+>
 StartFetchingModuleDependencies
 (
 this
@@ -965,6 +970,11 @@ LoadFinished
 )
 {
 mLoader
+-
+>
+GetModuleLoader
+(
+)
 -
 >
 ProcessLoadedModuleTree
