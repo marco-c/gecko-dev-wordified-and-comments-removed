@@ -646,6 +646,7 @@ bool
 aNeedsFocus
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 WindowHidden
 (
@@ -656,6 +657,7 @@ uint64_t
 aActionId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireDelayedEvents
 (
@@ -1186,6 +1188,7 @@ Nothing
 )
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SendFocusOrBlurEvent
 (
@@ -1225,6 +1228,7 @@ aRelatedTarget
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireFocusOrBlurEvent
 (
@@ -1261,6 +1265,7 @@ aRelatedTarget
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireFocusInOrOutEvent
 (

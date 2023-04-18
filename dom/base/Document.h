@@ -7511,6 +7511,7 @@ aIncrease
 1
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 UnsuppressEventHandlingAndFireEvents
 (
