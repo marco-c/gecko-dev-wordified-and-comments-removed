@@ -1,7 +1,7 @@
 import
-pytest
+asyncio
 import
-time
+pytest
 from
 .
 import
@@ -34,14 +34,11 @@ async
 def
 test_console_log_cached_messages
 (
+    
 bidi_session
-                                           
 current_session
-                                           
 wait_for_event
-                                           
 inline
-                                           
 log_type
 )
 :
@@ -157,7 +154,6 @@ events
 =
 =
 1
-;
     
 assert_base_entry
 (
@@ -206,7 +202,8 @@ entryAdded
 ]
 )
     
-time
+await
+asyncio
 .
 sleep
 (
@@ -223,7 +220,6 @@ events
 =
 =
 1
-;
     
 on_entry_added
 =
@@ -259,7 +255,6 @@ events
 =
 =
 2
-;
     
 assert_base_entry
 (
@@ -342,7 +337,6 @@ events
 =
 =
 3
-;
     
 assert_base_entry
 (
@@ -385,14 +379,11 @@ async
 def
 test_console_log_cached_message_after_refresh
 (
+    
 bidi_session
-                                                        
 current_session
-                                                        
 wait_for_event
-                                                        
 inline
-                                                        
 log_type
 )
 :
@@ -471,7 +462,6 @@ current_session
 refresh
 (
 )
-;
     
 expected_text
 =
@@ -517,7 +507,7 @@ entryAdded
 await
 on_entry_added
     
-time
+asyncio
 .
 sleep
 (
@@ -534,7 +524,6 @@ events
 =
 =
 1
-;
     
 assert_base_entry
 (

@@ -1,7 +1,7 @@
 import
-pytest
+asyncio
 import
-time
+pytest
 from
 .
 import
@@ -34,14 +34,11 @@ async
 def
 test_subscribe_twice
 (
+    
 bidi_session
-                               
 current_session
-                               
 inline
-                               
 wait_for_event
-                               
 log_type
 )
 :
@@ -163,7 +160,7 @@ text
 expected_text
 )
     
-time
+asyncio
 .
 sleep
 (
@@ -180,7 +177,6 @@ events
 =
 =
 1
-;
     
 remove_listener
 (
@@ -212,14 +208,11 @@ async
 def
 test_subscribe_unsubscribe
 (
+    
 bidi_session
-                                     
 current_session
-                                     
 inline
-                                     
 wait_for_event
-                                     
 log_type
 )
 :
@@ -329,7 +322,7 @@ text2
 "
 )
     
-time
+asyncio
 .
 sleep
 (
@@ -346,7 +339,6 @@ events
 =
 =
 0
-;
     
 current_session
 .
@@ -364,7 +356,7 @@ text3
 "
 )
     
-time
+asyncio
 .
 sleep
 (
@@ -381,7 +373,6 @@ events
 =
 =
 0
-;
     
 current_session
 .
@@ -441,7 +432,6 @@ events
 =
 =
 1
-;
     
 assert_base_entry
 (
@@ -494,7 +484,6 @@ events
 =
 =
 2
-;
     
 assert_base_entry
 (
