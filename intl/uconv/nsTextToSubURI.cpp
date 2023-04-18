@@ -512,6 +512,8 @@ const
 nsACString
 &
 aURIFragment
+bool
+aDontEscape
 nsAString
 &
 _retval
@@ -555,6 +557,15 @@ CopyUTF8toUTF16
 aURIFragment
 _retval
 )
+;
+}
+if
+(
+aDontEscape
+)
+{
+return
+NS_OK
 ;
 }
 if
