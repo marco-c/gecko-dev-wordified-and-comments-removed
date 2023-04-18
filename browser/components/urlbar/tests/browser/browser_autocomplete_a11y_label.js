@@ -588,12 +588,10 @@ expectedSearches
 [
 searchTerm
 "
-foo
-foo
+foofoo
 "
 "
-foo
-bar
+foobar
 "
 ]
 ;
