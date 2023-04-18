@@ -473,6 +473,8 @@ static
 void
 Start
 (
+uint32_t
+aNamespace
 )
 ;
 static

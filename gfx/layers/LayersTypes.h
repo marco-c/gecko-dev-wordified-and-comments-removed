@@ -1230,6 +1230,17 @@ mHandle
 ;
 }
 ;
+enum
+class
+CompositableHandleOwner
+:
+uint8_t
+{
+WebRenderBridge
+ImageBridge
+InProcessManager
+}
+;
 MOZ_DEFINE_ENUM_CLASS_WITH_BASE
 (
 ScrollDirection
