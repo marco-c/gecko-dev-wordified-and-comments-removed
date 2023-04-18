@@ -1771,6 +1771,12 @@ pcOffset
 )
 const
 ;
+ResumeMode
+resumeMode
+(
+)
+const
+;
 [
 [
 nodiscard
