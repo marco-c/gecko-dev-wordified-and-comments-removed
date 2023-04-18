@@ -165,6 +165,7 @@ index
 SavedFrame
 /
 index
+feature_checklist
 Components
 of
 SpiderMonkey
