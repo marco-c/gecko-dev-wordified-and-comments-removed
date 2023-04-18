@@ -159,7 +159,7 @@ of
 "
 background
 -
-script
+page
 -
 event
 "
@@ -168,7 +168,7 @@ start
 -
 background
 -
-script
+page
 "
 ]
 )
@@ -365,7 +365,7 @@ once
 "
 background
 -
-script
+page
 -
 event
 "
@@ -435,7 +435,7 @@ get
 "
 background
 -
-script
+page
 -
 event
 "
@@ -463,7 +463,7 @@ start
 -
 background
 -
-script
+page
 "
 )
 false
@@ -543,7 +543,7 @@ start
 -
 background
 -
-script
+page
 "
 )
 true
@@ -555,7 +555,7 @@ start
 -
 background
 -
-script
+page
 event
 "
 )
@@ -679,7 +679,7 @@ get
 "
 background
 -
-script
+page
 -
 event
 "
@@ -691,7 +691,7 @@ have
 gotten
 a
 background
-script
+page
 event
 "
 )
@@ -707,13 +707,13 @@ start
 -
 background
 -
-script
+page
 "
 )
 false
 "
 Background
-script
+page
 should
 not
 be
@@ -786,7 +786,7 @@ start
 -
 background
 -
-script
+page
 "
 )
 true
@@ -798,7 +798,7 @@ start
 -
 background
 -
-script
+page
 event
 "
 )

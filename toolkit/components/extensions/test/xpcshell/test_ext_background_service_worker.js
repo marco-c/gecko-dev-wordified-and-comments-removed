@@ -2151,7 +2151,7 @@ start
 -
 background
 -
-script
+page
 "
 )
 ;
