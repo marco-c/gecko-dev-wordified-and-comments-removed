@@ -4361,8 +4361,6 @@ remote_test_root
             
 libxul_path
             
-enable_webrender
-            
 InstallIntent
 .
 NO
@@ -4946,8 +4944,6 @@ remote_test_root
     
 libxul_path
     
-enable_webrender
-    
 install
 )
 :
@@ -5190,8 +5186,6 @@ remote_test_root
 libxul_path
         
 None
-        
-enable_webrender
     
 )
 :
