@@ -798,6 +798,17 @@ FireStateChangeEvent
 (
 )
 {
+if
+(
+!
+GetOwner
+(
+)
+)
+{
+return
+;
+}
 StateChange
 (
 )
