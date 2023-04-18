@@ -1771,15 +1771,6 @@ Import
 CssRule
 :
 :
-Container
-(
-.
-.
-)
-|
-CssRule
-:
-:
 LayerStatement
 (
 .

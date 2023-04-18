@@ -651,11 +651,6 @@ CSS
 h
 "
 "
-CSSContainerRule
-.
-h
-"
-"
 CSSCounterStyleRule
 .
 h
@@ -861,11 +856,6 @@ cpp
 "
 "
 CSS
-.
-cpp
-"
-"
-CSSContainerRule
 .
 cpp
 "
