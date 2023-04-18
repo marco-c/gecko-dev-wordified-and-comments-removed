@@ -30480,6 +30480,14 @@ PresShell
 >
 SetVisualViewportOffset
 (
+mOuter
+-
+>
+PresShell
+(
+)
+-
+>
 GetVisualViewportOffset
 (
 )
