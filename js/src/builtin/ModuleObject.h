@@ -1546,7 +1546,7 @@ importEntries
 HandleArrayObject
 localExportEntries
 HandleArrayObject
-indiretExportEntries
+indirectExportEntries
 HandleArrayObject
 starExportEntries
 )
