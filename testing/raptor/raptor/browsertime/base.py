@@ -3691,6 +3691,27 @@ output_timeout
 =
 BROWSERTIME_BENCHMARK_OUTPUT_TIMEOUT
             
+if
+self
+.
+config
+[
+"
+live_sites
+"
+]
+:
+                
+output_timeout
+*
+=
+2
+                
+proc_timeout
+*
+=
+2
+            
 proc
 =
 self
