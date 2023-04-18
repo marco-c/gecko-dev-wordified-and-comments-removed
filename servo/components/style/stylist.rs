@@ -12161,6 +12161,14 @@ name
 containing_rule_state
 )
 ;
+containing_rule_state
+.
+restore
+(
+&
+saved_containing_rule_state
+)
+;
 }
 }
 CssRule
