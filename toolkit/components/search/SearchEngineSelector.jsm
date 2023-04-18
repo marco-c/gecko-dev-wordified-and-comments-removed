@@ -631,9 +631,6 @@ order
 "
 id
 "
-loadDumpIfNewer
-:
-true
 }
 )
 ;
