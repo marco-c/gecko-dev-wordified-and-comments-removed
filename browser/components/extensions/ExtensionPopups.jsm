@@ -42,11 +42,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CustomizableUI
 "
@@ -68,7 +74,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionParent
 "
@@ -91,7 +97,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setTimeout
 "
@@ -268,7 +274,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 standaloneStylesheets
 "
@@ -1074,6 +1080,8 @@ push
 .
 .
 .
+lazy
+.
 ExtensionParent
 .
 extensionStylesheets
@@ -1094,6 +1102,8 @@ push
 (
 .
 .
+.
+lazy
 .
 standaloneStylesheets
 )
@@ -1968,6 +1978,8 @@ this
 true
 )
 ;
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -3166,6 +3178,8 @@ Promise
 resolve
 =
 >
+lazy
+.
 setTimeout
 (
 resolve
@@ -3210,6 +3224,8 @@ this
 destroyed
 )
 {
+lazy
+.
 CustomizableUI
 .
 hidePanelForNode
@@ -3667,6 +3683,8 @@ this
 shown
 )
 {
+lazy
+.
 CustomizableUI
 .
 hidePanelForNode

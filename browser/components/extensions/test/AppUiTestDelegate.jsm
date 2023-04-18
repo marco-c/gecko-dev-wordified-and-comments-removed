@@ -99,11 +99,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CustomizableUI
 :
@@ -390,6 +396,8 @@ extensionId
 )
 {
 return
+lazy
+.
 CustomizableUI
 .
 getWidget
@@ -445,6 +453,8 @@ group
 areaType
 =
 =
+lazy
+.
 CustomizableUI
 .
 TYPE_TOOLBAR
@@ -477,6 +487,8 @@ group
 areaType
 =
 =
+lazy
+.
 CustomizableUI
 .
 TYPE_MENU_PANEL
@@ -885,6 +897,8 @@ group
 viewId
 )
 ;
+lazy
+.
 CustomizableUI
 .
 hidePanelForNode

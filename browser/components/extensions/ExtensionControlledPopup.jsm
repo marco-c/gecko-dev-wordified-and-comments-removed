@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -111,7 +117,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserUIUtils
 "
@@ -133,7 +139,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CustomizableUI
 "
@@ -155,7 +161,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionSettingsStore
 "
@@ -178,7 +184,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -208,7 +214,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 strBundle
 "
@@ -255,7 +261,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 distributionAddonsList
 "
@@ -470,6 +476,8 @@ id
 {
 if
 (
+lazy
+.
 distributionAddonsList
 .
 has
@@ -485,6 +493,8 @@ true
 let
 setting
 =
+lazy
+.
 ExtensionSettingsStore
 .
 getSetting
@@ -515,6 +525,8 @@ id
 )
 {
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -522,6 +534,8 @@ initialize
 )
 ;
 return
+lazy
+.
 ExtensionSettingsStore
 .
 addSetting
@@ -547,6 +561,8 @@ id
 )
 {
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -554,6 +570,8 @@ initialize
 )
 ;
 return
+lazy
+.
 ExtensionSettingsStore
 .
 removeSetting
@@ -668,6 +686,8 @@ extensionId
 )
 {
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -733,6 +753,8 @@ extensionId
 )
 {
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -754,6 +776,8 @@ extensionId
 let
 item
 =
+lazy
+.
 ExtensionSettingsStore
 .
 getSetting
@@ -789,6 +813,8 @@ topWindow
 let
 isPrivate
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -1027,6 +1053,8 @@ let
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -1234,6 +1262,8 @@ else
 let
 action
 =
+lazy
+.
 CustomizableUI
 .
 getWidget
@@ -1460,6 +1490,8 @@ addon
 let
 message
 =
+lazy
+.
 strBundle
 .
 GetStringFromName
@@ -1497,6 +1529,8 @@ description
 .
 appendChild
 (
+lazy
+.
 BrowserUIUtils
 .
 getLocalizedFragment
@@ -1568,6 +1602,8 @@ link
 .
 textContent
 =
+lazy
+.
 strBundle
 .
 GetStringFromName
