@@ -512,7 +512,7 @@ stream
 >
 base
 =
-0
+NULL
 ;
 }
 FT_CALLBACK_DEF

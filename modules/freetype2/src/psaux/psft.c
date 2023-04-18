@@ -2793,9 +2793,6 @@ glyph_data
 .
 length
 =
-(
-FT_Int
-)
 type1
 -
 >
@@ -2826,9 +2823,6 @@ pointer
 FT_ULong
 charstring_len
 =
-(
-FT_ULong
-)
 glyph_data
 .
 length
@@ -2927,7 +2921,7 @@ data
 length
 =
 (
-FT_Int
+FT_UInt
 )
 (
 buf

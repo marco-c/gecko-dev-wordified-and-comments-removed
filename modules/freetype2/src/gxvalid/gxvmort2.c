@@ -620,7 +620,7 @@ p
 lat_base
 (
 %
-d
+ld
 byte
 rewind
 )
@@ -664,7 +664,7 @@ lat_limit
 p
 (
 %
-d
+ld
 byte
 overrun
 )
@@ -774,7 +774,7 @@ short
 offset
 0x
 %
-08x
+08lx
 :
 "
 "
@@ -785,7 +785,7 @@ offset
 ligatureTable
 (
 %
-d
+lu
 byte
 rewind
 )
@@ -837,7 +837,7 @@ long
 offset
 0x
 %
-08x
+08lx
 :
 "
 "
@@ -852,7 +852,7 @@ ligatureTable_length
 "
 (
 %
-d
+lu
 byte
 overrun
 )

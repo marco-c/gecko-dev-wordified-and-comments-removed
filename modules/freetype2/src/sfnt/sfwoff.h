@@ -27,6 +27,9 @@ ftobjs
 h
 >
 FT_BEGIN_HEADER
+#
+ifdef
+FT_CONFIG_OPTION_USE_ZLIB
 FT_LOCAL
 (
 FT_Error
@@ -39,6 +42,8 @@ TT_Face
 face
 )
 ;
+#
+endif
 FT_END_HEADER
 #
 endif

@@ -444,7 +444,7 @@ char
 *
 ft2_debug
 =
-0
+NULL
 ;
 if
 (

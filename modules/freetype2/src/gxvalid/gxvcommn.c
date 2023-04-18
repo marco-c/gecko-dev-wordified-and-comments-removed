@@ -1525,7 +1525,7 @@ glyphs
 d
 -
 %
-d
+ld
 are
 missing
 \
@@ -3048,7 +3048,7 @@ overflow
 :
 num_glyphs
 %
-d
+ld
 <
 %
 d
@@ -5055,6 +5055,9 @@ int
 *
 length_p
 )
+(
+int
+)
 stateSize
 (
 int
@@ -5737,7 +5740,7 @@ nClasses
 =
 0x
 %
-08x
+08lx
 \
 n
 "
@@ -5760,7 +5763,7 @@ classTable
 =
 0x
 %
-08x
+08lx
 \
 n
 "
@@ -5778,7 +5781,7 @@ stateArray
 =
 0x
 %
-08x
+08lx
 \
 n
 "
@@ -5796,7 +5799,7 @@ entryTable
 =
 0x
 %
-08x
+08lx
 \
 n
 "

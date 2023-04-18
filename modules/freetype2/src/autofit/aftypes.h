@@ -364,9 +364,6 @@ metrics
 )
 ;
 #
-define
-AFWRTSYS_H_
-#
 undef
 WRITING_SYSTEM
 #
@@ -388,7 +385,9 @@ AF_WritingSystem_
 #
 include
 "
-afwrtsys
+afws
+-
+iter
 .
 h
 "
@@ -396,9 +395,6 @@ AF_WRITING_SYSTEM_MAX
 }
 AF_WritingSystem
 ;
-#
-undef
-AFWRTSYS_H_
 typedef
 struct
 AF_WritingSystemClassRec_

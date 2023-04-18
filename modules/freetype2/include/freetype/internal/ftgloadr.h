@@ -13,6 +13,15 @@ freetype
 .
 h
 >
+#
+include
+"
+compiler
+-
+macros
+.
+h
+"
 FT_BEGIN_HEADER
 typedef
 struct

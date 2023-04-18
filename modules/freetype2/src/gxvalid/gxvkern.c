@@ -1547,7 +1547,7 @@ GXV_TRACE
 maxGID
 =
 %
-d
+ld
 but
 glyphCount
 =
@@ -2619,7 +2619,7 @@ Subtable
 length
 =
 %
-d
+lu
 \
 n
 "
@@ -2678,7 +2678,7 @@ Subtable
 length
 =
 %
-d
+lu
 \
 n
 "
@@ -2759,7 +2759,7 @@ dialect
 just
 skip
 %
-d
+lu
 byte
 \
 n
@@ -3088,7 +3088,7 @@ subtable
 d
 /
 %
-d
+lu
 \
 n
 "

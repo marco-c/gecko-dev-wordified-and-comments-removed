@@ -195,6 +195,8 @@ GXV_TABLE_LOAD
 _sfnt
 )
 \
+FT_BEGIN_STMNT
+\
 if
 (
 (
@@ -253,12 +255,16 @@ Exit
 ;
 \
 }
+\
+FT_END_STMNT
 #
 define
 GXV_TABLE_VALIDATE
 (
 _sfnt
 )
+\
+FT_BEGIN_STMNT
 \
 if
 (
@@ -328,6 +334,8 @@ Exit
 ;
 \
 }
+\
+FT_END_STMNT
 #
 define
 GXV_TABLE_SET

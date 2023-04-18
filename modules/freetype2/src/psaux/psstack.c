@@ -61,8 +61,6 @@ stackSize
 {
 FT_Error
 error
-=
-FT_Err_Ok
 ;
 CF2_Stack
 stack

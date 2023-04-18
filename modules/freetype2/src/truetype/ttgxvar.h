@@ -126,7 +126,7 @@ typedef
 struct
 GX_DeltaSetIdxMapRec_
 {
-FT_UInt
+FT_ULong
 mapCount
 ;
 FT_UInt

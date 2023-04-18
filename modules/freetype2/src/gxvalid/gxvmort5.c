@@ -46,10 +46,8 @@ GXV_mort_subtable_type5_StateOptRec
 *
 GXV_mort_subtable_type5_StateOptRecData
 ;
-FT_LOCAL_DEF
-(
+static
 void
-)
 gxv_mort_subtable_type5_subtable_setup
 (
 FT_UShort

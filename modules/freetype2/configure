@@ -741,8 +741,8 @@ print
 if
 test
 inode_src
--
-ne
+!
+=
 inode_dst
 ;
 then

@@ -4706,6 +4706,10 @@ tt_face_get_colr_glyph_paint
 )
 PUT_COLOR_LAYERS_V1
 (
+tt_face_get_color_glyph_clipbox
+)
+PUT_COLOR_LAYERS_V1
+(
 tt_face_get_paint_layers
 )
 PUT_COLOR_LAYERS_V1

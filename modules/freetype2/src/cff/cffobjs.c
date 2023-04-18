@@ -1391,6 +1391,9 @@ FT_Size_Request
 req
 )
 {
+FT_Error
+error
+;
 CFF_Size
 cffsize
 =
@@ -1472,6 +1475,8 @@ strike_index
 }
 #
 endif
+error
+=
 FT_Request_Metrics
 (
 size
@@ -1480,6 +1485,13 @@ size
 face
 req
 )
+;
+if
+(
+error
+)
+goto
+Exit
 ;
 funcs
 =
@@ -1702,8 +1714,10 @@ y_scale
 ;
 }
 }
+Exit
+:
 return
-FT_Err_Ok
+error
 ;
 }
 FT_LOCAL_DEF
@@ -4629,7 +4643,7 @@ cmaprec
 FT_CharMap
 cmap
 ;
-FT_UInt
+FT_Int
 nn
 ;
 CFF_Encoding
@@ -4649,9 +4663,6 @@ nn
 ;
 nn
 <
-(
-FT_UInt
-)
 cffface
 -
 >
@@ -4754,9 +4765,6 @@ FT_ENCODING_UNICODE
 ;
 nn
 =
-(
-FT_UInt
-)
 cffface
 -
 >
@@ -4811,9 +4819,6 @@ charmap
 nn
 !
 =
-(
-FT_UInt
-)
 cffface
 -
 >

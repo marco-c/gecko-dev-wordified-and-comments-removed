@@ -149,10 +149,7 @@ p
 =
 NULL
 ;
-(
-void
-)
-FT_QALLOC
+FT_MEM_QALLOC
 (
 p
 sz
@@ -1098,15 +1095,13 @@ error
 =
 FT_Err_Ok
 ;
-FT_ULong
-delta
-;
 for
 (
 ;
 ;
 )
 {
+FT_ULong
 delta
 =
 (
@@ -1619,7 +1614,7 @@ stream
 >
 base
 =
-0
+NULL
 ;
 stream
 -

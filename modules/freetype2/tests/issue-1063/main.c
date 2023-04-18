@@ -1,13 +1,6 @@
 #
 include
 <
-limits
-.
-h
->
-#
-include
-<
 stdio
 .
 h
@@ -57,7 +50,7 @@ FREETYPE_TESTS_DATA_DIR
 char
 filepath
 [
-PATH_MAX
+FILENAME_MAX
 ]
 ;
 snprintf

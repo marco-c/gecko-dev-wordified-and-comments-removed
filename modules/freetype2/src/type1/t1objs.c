@@ -379,6 +379,9 @@ FT_Size_Request
 req
 )
 {
+FT_Error
+error
+;
 T1_Size
 size
 =
@@ -395,6 +398,8 @@ T1_Size_Get_Globals_Funcs
 size
 )
 ;
+error
+=
 FT_Request_Metrics
 (
 size
@@ -405,6 +410,13 @@ root
 face
 req
 )
+;
+if
+(
+error
+)
+goto
+Exit
 ;
 if
 (
@@ -445,8 +457,10 @@ y_scale
 0
 )
 ;
+Exit
+:
 return
-FT_Err_Ok
+error
 ;
 }
 FT_LOCAL_DEF

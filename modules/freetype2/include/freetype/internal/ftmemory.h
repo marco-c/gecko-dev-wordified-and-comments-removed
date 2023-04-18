@@ -1294,7 +1294,6 @@ FT_QNEW
 (
 ptr
 )
-\
 FT_MEM_SET_ERROR
 (
 FT_MEM_QNEW
@@ -1312,7 +1311,7 @@ count
 \
 FT_MEM_SET_ERROR
 (
-FT_MEM_NEW_ARRAY
+FT_MEM_QNEW_ARRAY
 (
 ptr
 count
@@ -1329,7 +1328,7 @@ newcnt
 \
 FT_MEM_SET_ERROR
 (
-FT_MEM_RENEW_ARRAY
+FT_MEM_QRENEW_ARRAY
 (
 ptr
 curcnt

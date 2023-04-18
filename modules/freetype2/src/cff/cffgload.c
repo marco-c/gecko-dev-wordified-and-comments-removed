@@ -187,9 +187,6 @@ pointer
 *
 length
 =
-(
-FT_ULong
-)
 data
 .
 length
@@ -289,7 +286,7 @@ data
 length
 =
 (
-FT_Int
+FT_UInt
 )
 length
 ;

@@ -135,7 +135,7 @@ out
 of
 range
 %
-d
+lu
 \
 n
 "

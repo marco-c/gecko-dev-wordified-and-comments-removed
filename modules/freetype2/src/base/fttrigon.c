@@ -75,7 +75,7 @@ ft_trig_arctan_table
 ;
 #
 ifdef
-FT_LONG64
+FT_INT64
 static
 FT_Fixed
 ft_trig_downscale

@@ -349,7 +349,7 @@ stream
 >
 base
 =
-0
+NULL
 ;
 }
 FT_BASE_DEF
@@ -563,17 +563,13 @@ file
 ;
 if
 (
-(
-long
-)
 stream
 -
 >
 base
 =
 =
--
-1
+MAP_FAILED
 )
 {
 FT_ERROR
@@ -651,7 +647,7 @@ stream
 >
 read
 =
-0
+NULL
 ;
 FT_TRACE1
 (
@@ -783,7 +779,7 @@ memory
 >
 user
 =
-0
+NULL
 ;
 memory
 -

@@ -59,7 +59,7 @@ FT_MulFix
 endif
 #
 ifndef
-FT_LONG64
+FT_INT64
 typedef
 struct
 FT_Int64_
@@ -339,7 +339,7 @@ v
 }
 #
 ifdef
-FT_LONG64
+FT_INT64
 FT_EXPORT_DEF
 (
 FT_Long
@@ -3493,7 +3493,7 @@ out_y
 {
 #
 ifdef
-FT_LONG64
+FT_INT64
 FT_Int64
 delta
 =

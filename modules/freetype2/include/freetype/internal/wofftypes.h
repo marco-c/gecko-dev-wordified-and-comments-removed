@@ -77,7 +77,7 @@ typedef
 struct
 WOFF_TableRec_
 {
-FT_ULong
+FT_Tag
 Tag
 ;
 FT_ULong
@@ -186,7 +186,7 @@ WOFF2_TableRec_
 FT_Byte
 FlagByte
 ;
-FT_ULong
+FT_Tag
 Tag
 ;
 FT_ULong

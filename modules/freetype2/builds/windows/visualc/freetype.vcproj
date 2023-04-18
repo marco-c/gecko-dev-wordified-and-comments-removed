@@ -147,7 +147,7 @@ false
 CharacterSet
 =
 "
-1
+0
 "
 >
 <
@@ -256,6 +256,11 @@ RuntimeLibrary
 "
 2
 "
+EnableEnhancedInstructionSet
+=
+"
+2
+"
 EnableFunctionLevelLinking
 =
 "
@@ -333,6 +338,16 @@ Name
 =
 "
 VCLinkerTool
+"
+OptimizeReferences
+=
+"
+2
+"
+EnableCOMDATFolding
+=
+"
+2
 "
 /
 >
@@ -477,7 +492,7 @@ false
 CharacterSet
 =
 "
-1
+0
 "
 >
 <
@@ -583,6 +598,11 @@ RuntimeLibrary
 =
 "
 0
+"
+EnableEnhancedInstructionSet
+=
+"
+2
 "
 EnableFunctionLevelLinking
 =
@@ -784,7 +804,7 @@ false
 CharacterSet
 =
 "
-1
+0
 "
 >
 <
@@ -1103,7 +1123,7 @@ false
 CharacterSet
 =
 "
-1
+0
 "
 >
 <

@@ -46,7 +46,7 @@ FT_Byte
 *
 *
 start
-FT_Byte
+FT_UInt
 offsize
 )
 ;

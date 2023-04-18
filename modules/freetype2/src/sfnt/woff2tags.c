@@ -8,6 +8,9 @@ tttags
 h
 >
 #
+ifdef
+FT_CONFIG_OPTION_USE_BROTLI
+#
 include
 "
 woff2tags
@@ -16,7 +19,7 @@ h
 "
 FT_LOCAL_DEF
 (
-FT_ULong
+FT_Tag
 )
 woff2_known_tags
 (
@@ -24,8 +27,9 @@ FT_Byte
 index
 )
 {
+static
 const
-FT_ULong
+FT_Tag
 known_tags
 [
 63
@@ -992,3 +996,11 @@ index
 ]
 ;
 }
+#
+else
+typedef
+int
+_woff2tags_dummy
+;
+#
+endif

@@ -1161,7 +1161,7 @@ glyph_index
 FT_Stream
 stream
 ;
-FT_Int
+FT_UInt
 byte_len
 ;
 FT_Short

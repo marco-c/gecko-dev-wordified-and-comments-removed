@@ -624,6 +624,11 @@ machine
 :
 I386
 /
+opt
+:
+REF
+ICF
+/
 out
 :
 "
