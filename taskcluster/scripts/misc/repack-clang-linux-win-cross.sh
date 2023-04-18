@@ -124,15 +124,6 @@ bin
 clang
 .
 exe
-clang
-/
-bin
-/
-llvm
--
-symbolizer
-.
-exe
 mv
 clang
 /
