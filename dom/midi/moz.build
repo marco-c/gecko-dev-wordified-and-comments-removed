@@ -142,6 +142,11 @@ MIDIInputMap
 cpp
 "
 "
+MIDILog
+.
+cpp
+"
+"
 MIDIManagerChild
 .
 cpp
