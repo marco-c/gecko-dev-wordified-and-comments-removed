@@ -26,7 +26,7 @@ MIDIMessage
 namespace
 MIDIUtils
 {
-uint32_t
+bool
 ParseMessages
 (
 const
