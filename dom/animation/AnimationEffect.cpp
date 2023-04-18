@@ -1066,7 +1066,16 @@ static_cast
 uint64_t
 >
 (
+std
+:
+:
+max
+(
 overallProgress
+0
+.
+0
+)
 )
 ;
 double
