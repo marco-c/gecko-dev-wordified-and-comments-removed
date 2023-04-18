@@ -108,6 +108,11 @@ GeckoViewRemoteDebugger
 jsm
 "
 "
+GeckoViewSelectionAction
+.
+jsm
+"
+"
 GeckoViewSettings
 .
 jsm
