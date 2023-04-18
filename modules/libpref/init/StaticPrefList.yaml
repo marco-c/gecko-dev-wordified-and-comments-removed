@@ -59279,7 +59279,7 @@ sameSite
 laxByDefault
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 IS_EARLY_BETA_OR_EARLIER
