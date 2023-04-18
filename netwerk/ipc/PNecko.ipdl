@@ -604,8 +604,9 @@ uri
 )
 returns
 (
-nsIInputStream
-stream
+RemoteStreamInfo
+?
+info
 )
 ;
 child
