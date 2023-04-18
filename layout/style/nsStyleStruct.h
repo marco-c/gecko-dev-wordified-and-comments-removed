@@ -8717,6 +8717,12 @@ mAnimationIterationCountCount
 uint32_t
 mAnimationTimelineCount
 ;
+mozilla
+:
+:
+StyleScrollTimelineName
+mScrollTimelineName
+;
 }
 ;
 struct

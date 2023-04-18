@@ -474,6 +474,7 @@ box_
 {
 ScrollSnapStrictness
 ScrollSnapType
+ScrollTimelineName
 }
 ;
 pub
