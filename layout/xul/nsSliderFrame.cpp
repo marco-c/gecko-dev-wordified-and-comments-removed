@@ -6079,6 +6079,11 @@ CaptureFlags
 :
 :
 IgnoreAllowedState
+|
+CaptureFlags
+:
+:
+PreventDragStart
 )
 ;
 }
