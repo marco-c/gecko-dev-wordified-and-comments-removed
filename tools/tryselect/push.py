@@ -915,9 +915,17 @@ selected_duration
     
 )
     
+if
+"
+percentile
+"
+in
+durations
+:
+        
 print
 (
-        
+            
 "
 estimates
 :
@@ -933,6 +941,7 @@ durations
 .
 format
 (
+                
 100
 -
 durations
@@ -941,8 +950,9 @@ durations
 percentile
 "
 ]
+            
 )
-    
+        
 )
     
 print
