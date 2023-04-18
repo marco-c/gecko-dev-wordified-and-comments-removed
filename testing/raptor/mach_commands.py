@@ -375,6 +375,17 @@ browsertime_visualmetrics
 "
 ]
         
+self
+.
+clean
+=
+kwargs
+[
+"
+clean
+"
+]
+        
 if
 Conditions
 .
@@ -1277,6 +1288,14 @@ mozbuild_path
 get_state_dir
 (
 )
+            
+"
+clean
+"
+:
+self
+.
+clean
         
 }
         

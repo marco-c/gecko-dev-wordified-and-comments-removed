@@ -1409,6 +1409,17 @@ auto_gen_test_config
 js
 #
 Ignore
+condprofile
+build
+directory
+^
+testing
+/
+condprofile
+/
+build
+#
+Ignore
 browsertime
 output
 directory
