@@ -473,3 +473,17 @@ import_assertions
 true
 )
 ;
+user_pref
+(
+"
+javascript
+.
+options
+.
+experimental
+.
+array_find_last
+"
+false
+)
+;
