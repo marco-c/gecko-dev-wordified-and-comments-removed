@@ -6,7 +6,7 @@ createVersionizedHttpTestServer
 "
 sourcemaps
 -
-reload2
+reload
 "
 )
 ;
