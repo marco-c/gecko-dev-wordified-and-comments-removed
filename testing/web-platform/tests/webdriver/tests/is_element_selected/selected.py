@@ -15,13 +15,10 @@ fixture
 def
 check_doc
 (
-inline
 )
 :
     
 return
-inline
-(
 "
 "
 "
@@ -50,20 +47,16 @@ checkbox
 "
 "
 "
-)
 pytest
 .
 fixture
 def
 option_doc
 (
-inline
 )
 :
     
 return
-inline
-(
 "
 "
 "
@@ -99,7 +92,6 @@ select
 "
 "
 "
-)
 def
 is_element_selected
 (
@@ -254,41 +246,52 @@ such
 window
 "
 )
+pytest
+.
+mark
+.
+parametrize
+(
+"
+as_frame
+"
+[
+False
+True
+]
+ids
+=
+[
+"
+top_context
+"
+"
+child_context
+"
+]
+)
 def
-test_element_stale
+test_stale_element_reference
 (
 session
+stale_element
 check_doc
+as_frame
 )
 :
     
-session
-.
-url
-=
-check_doc
-    
 element
 =
-session
-.
-find
-.
-css
+stale_element
 (
+check_doc
 "
 #
 checked
 "
-all
+as_frame
 =
-False
-)
-    
-session
-.
-refresh
-(
+as_frame
 )
     
 result
@@ -314,6 +317,7 @@ def
 test_element_checked
 (
 session
+inline
 check_doc
 )
 :
@@ -322,7 +326,10 @@ session
 .
 url
 =
+inline
+(
 check_doc
+)
     
 element
 =
@@ -360,6 +367,7 @@ def
 test_checkbox_not_selected
 (
 session
+inline
 check_doc
 )
 :
@@ -368,7 +376,10 @@ session
 .
 url
 =
+inline
+(
 check_doc
+)
     
 element
 =
@@ -406,6 +417,7 @@ def
 test_element_selected
 (
 session
+inline
 option_doc
 )
 :
@@ -414,7 +426,10 @@ session
 .
 url
 =
+inline
+(
 option_doc
+)
     
 element
 =
@@ -452,6 +467,7 @@ def
 test_element_not_selected
 (
 session
+inline
 option_doc
 )
 :
@@ -460,7 +476,10 @@ session
 .
 url
 =
+inline
+(
 option_doc
+)
     
 element
 =

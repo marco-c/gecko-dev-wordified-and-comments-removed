@@ -6,7 +6,6 @@ fixture
 def
 get_shadow_page
 (
-inline
 )
 :
     
@@ -18,8 +17,6 @@ shadow_content
 :
         
 return
-inline
-(
 "
 "
 "
@@ -120,7 +117,6 @@ script
 format
 (
 shadow_content
-)
 )
     
 return

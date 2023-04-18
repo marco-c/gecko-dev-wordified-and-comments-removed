@@ -11,8 +11,6 @@ inline
 :
     
 return
-inline
-(
 "
 "
 "
@@ -143,4 +141,3 @@ script
 "
 "
 "
-)
