@@ -79,6 +79,14 @@ python
 /
 jsmin
 "
+    
+"
+third_party
+/
+python
+/
+six
+"
 )
 sys
 .
