@@ -1241,6 +1241,17 @@ return
 creationTime_
 ;
 }
+FILE
+*
+profileFile
+(
+)
+const
+{
+return
+gcProfileFile
+;
+}
 void
 maybePrintProfileHeaders
 (
@@ -1326,6 +1337,10 @@ gcTimerFile
 FILE
 *
 gcDebugFile
+;
+FILE
+*
+gcProfileFile
 ;
 ZoneGCStats
 zoneStats
@@ -1737,7 +1752,6 @@ printSliceProfile
 (
 )
 ;
-static
 void
 printProfileTimes
 (

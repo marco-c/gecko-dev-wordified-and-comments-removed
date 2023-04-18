@@ -1475,7 +1475,6 @@ json
 )
 const
 ;
-static
 void
 printProfileHeader
 (
@@ -2945,6 +2944,9 @@ static
 void
 printProfileDurations
 (
+FILE
+*
+file
 const
 ProfileDurations
 &
