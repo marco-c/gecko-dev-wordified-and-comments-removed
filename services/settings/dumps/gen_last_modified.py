@@ -44,6 +44,10 @@ with
 a
 data
 list
+and
+a
+timestamp
+      
 e
 .
 g
@@ -55,6 +59,11 @@ data
 :
 [
 ]
+"
+timestamp
+"
+:
+42
 }
     
 -
@@ -101,7 +110,7 @@ as
 f
 :
         
-records
+changeset
 =
 json
 .
@@ -109,12 +118,16 @@ load
 (
 f
 )
+    
+records
+=
+changeset
 [
 "
 data
 "
 ]
-        
+    
 assert
 isinstance
 (
@@ -124,30 +137,37 @@ list
     
 last_modified
 =
-0
-    
-if
-records
-:
-        
-last_modified
-=
-records
-[
-0
-]
-[
+changeset
+.
+get
+(
 "
-last_modified
+timestamp
 "
-]
+)
     
 assert
 isinstance
 (
+        
 last_modified
 int
+    
 )
+f
+"
+{
+full_path_to_remote_settings_dump_file
+}
+is
+missing
+the
+timestamp
+.
+See
+Bug
+1725660
+"
     
 return
 last_modified
