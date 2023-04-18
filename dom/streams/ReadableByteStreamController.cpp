@@ -1619,6 +1619,7 @@ return
 false
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerCallPullIfNeeded
 (
@@ -1730,7 +1731,10 @@ rv
 ReadableByteStreamControllerCallPullIfNeeded
 (
 aCx
+MOZ_KnownLive
+(
 mController
+)
 rv
 )
 ;
@@ -1821,7 +1825,6 @@ NS_INTERFACE_MAP_ENTRY
 nsISupports
 )
 NS_INTERFACE_MAP_END
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerCallPullIfNeeded
 (
@@ -2447,7 +2450,6 @@ return
 }
 }
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerEnqueue
 (
@@ -2974,7 +2976,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamController
 :
@@ -3199,7 +3200,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -3414,7 +3414,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamController
 :
@@ -4471,7 +4470,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerRespondInternal
 (
@@ -4670,7 +4668,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerRespond
 (
@@ -4915,7 +4912,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerRespondWithNewView
 (
@@ -5708,7 +5704,6 @@ return
 ready
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerPullInto
 (
@@ -6523,7 +6518,6 @@ NS_INTERFACE_MAP_ENTRY
 nsISupports
 )
 NS_INTERFACE_MAP_END
-MOZ_CAN_RUN_SCRIPT
 void
 SetUpReadableByteStreamController
 (

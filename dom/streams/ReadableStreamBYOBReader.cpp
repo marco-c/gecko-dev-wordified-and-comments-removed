@@ -659,7 +659,6 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 ReadIntoRequest
 )
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamBYOBReaderRead
 (
@@ -797,7 +796,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise

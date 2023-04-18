@@ -982,6 +982,7 @@ false
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 PullWithDefaultReader
 (
@@ -996,6 +997,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 PullWithBYOBReader
 (
@@ -1017,6 +1019,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ByteStreamTeePullAlgorithm
 (
@@ -1269,7 +1272,10 @@ ByteStreamTeePullAlgorithm
 (
 aCx
 mBranchIndex
+MOZ_KnownLive
+(
 mTeeState
+)
 aRv
 )
 ;
@@ -1900,7 +1906,10 @@ ByteStreamTeePullAlgorithm
 (
 cx
 1
+MOZ_KnownLive
+(
 mTeeState
+)
 rv
 )
 ;
@@ -2085,7 +2094,6 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 ReadRequest
 )
-MOZ_CAN_RUN_SCRIPT
 void
 PullWithDefaultReader
 (
@@ -2776,7 +2784,10 @@ ByteStreamTeePullAlgorithm
 (
 cx
 1
+MOZ_KnownLive
+(
 mTeeState
+)
 rv
 )
 ;
@@ -2809,7 +2820,10 @@ ByteStreamTeePullAlgorithm
 (
 cx
 1
+MOZ_KnownLive
+(
 mTeeState
+)
 rv
 )
 ;
@@ -3375,7 +3389,6 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 ReadIntoRequest
 )
-MOZ_CAN_RUN_SCRIPT
 void
 PullWithBYOBReader
 (
@@ -4257,7 +4270,6 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 UnderlyingSourceCancelCallbackHelper
 )
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamTee
 (

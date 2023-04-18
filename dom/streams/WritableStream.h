@@ -608,6 +608,7 @@ aGivenProto
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 already_AddRefed
 <
@@ -654,6 +655,7 @@ return
 mWriter
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -679,6 +681,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise

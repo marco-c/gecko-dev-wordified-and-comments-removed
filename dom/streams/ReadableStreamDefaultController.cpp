@@ -651,6 +651,7 @@ aRv
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 static
 void
 ReadableStreamDefaultControllerCallPullIfNeeded
@@ -666,7 +667,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamDefaultControllerEnqueue
 (
@@ -960,7 +960,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamDefaultController
 :
@@ -1271,6 +1270,7 @@ aController
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 void
 ResolvedCallback
 (
@@ -1323,7 +1323,10 @@ rv
 ReadableStreamDefaultControllerCallPullIfNeeded
 (
 aCx
+MOZ_KnownLive
+(
 mController
+)
 rv
 )
 ;
@@ -1412,7 +1415,6 @@ NS_INTERFACE_MAP_ENTRY
 nsISupports
 )
 NS_INTERFACE_MAP_END
-MOZ_CAN_RUN_SCRIPT
 static
 void
 ReadableStreamDefaultControllerCallPullIfNeeded
@@ -1824,7 +1826,6 @@ NS_INTERFACE_MAP_ENTRY
 nsISupports
 )
 NS_INTERFACE_MAP_END
-MOZ_CAN_RUN_SCRIPT
 void
 SetUpReadableStreamDefaultController
 (
@@ -2074,7 +2075,6 @@ startPromiseHandler
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 SetupReadableStreamDefaultControllerFromUnderlyingSource
 (
@@ -2220,7 +2220,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -2328,7 +2327,6 @@ forget
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamDefaultController
 :

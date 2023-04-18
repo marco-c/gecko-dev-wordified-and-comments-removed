@@ -214,7 +214,6 @@ mView
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamBYOBRequest
 :
@@ -362,7 +361,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamBYOBRequest
 :

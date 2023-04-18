@@ -1441,7 +1441,6 @@ clear
 ;
 }
 }
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -1898,7 +1897,6 @@ forget
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -3578,7 +3576,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStream
 :
@@ -3697,7 +3694,6 @@ aReadIntoRequest
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 ReadableStream

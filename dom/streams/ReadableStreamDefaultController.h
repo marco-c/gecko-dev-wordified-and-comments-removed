@@ -305,6 +305,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Enqueue
 (
@@ -349,6 +350,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 already_AddRefed
 <
@@ -376,6 +378,7 @@ aRv
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 PullSteps
@@ -689,6 +692,7 @@ mStream
 ;
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 SetUpReadableStreamDefaultController
@@ -721,6 +725,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 SetupReadableStreamDefaultControllerFromUnderlyingSource
@@ -749,6 +754,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 ReadableStreamDefaultControllerEnqueue
@@ -790,6 +796,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 ReadableStreamDefaultReaderRead

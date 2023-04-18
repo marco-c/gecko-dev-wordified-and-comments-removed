@@ -821,7 +821,6 @@ NS_INTERFACE_MAP_ENTRY
 nsISupports
 )
 NS_INTERFACE_MAP_END
-MOZ_CAN_RUN_SCRIPT
 void
 SetUpWritableStreamDefaultController
 (
@@ -1130,7 +1129,6 @@ startPromiseHandler
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 SetUpWritableStreamDefaultControllerFromUnderlyingSink
 (
