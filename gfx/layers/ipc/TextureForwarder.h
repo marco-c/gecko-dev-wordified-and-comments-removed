@@ -247,11 +247,6 @@ wr
 MaybeExternalImageId
 &
 aExternalImageId
-nsISerialEventTarget
-*
-aTarget
-=
-nullptr
 )
 =
 0

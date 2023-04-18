@@ -237,15 +237,6 @@ MediaTransportChild
 this
 )
 ;
-actor
--
->
-SetEventTargetForActor
-(
-child
-mCallbackThread
-)
-;
 mChild
 =
 actor

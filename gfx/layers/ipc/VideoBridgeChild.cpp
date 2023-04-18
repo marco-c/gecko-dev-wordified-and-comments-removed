@@ -849,9 +849,6 @@ wr
 MaybeExternalImageId
 &
 aExternalImageId
-nsISerialEventTarget
-*
-aTarget
 )
 {
 MOZ_ASSERT

@@ -9216,7 +9216,6 @@ node
 doUrlClassify
 (
 principal
-eventTarget
 callback
 )
 {
@@ -9322,7 +9321,6 @@ unwrap
 (
 principal
 )
-eventTarget
 wrapCallback
 )
 ;

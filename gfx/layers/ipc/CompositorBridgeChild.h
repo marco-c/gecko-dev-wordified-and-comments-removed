@@ -437,9 +437,6 @@ wr
 MaybeExternalImageId
 &
 aExternalImageId
-nsISerialEventTarget
-*
-aTarget
 )
 override
 ;

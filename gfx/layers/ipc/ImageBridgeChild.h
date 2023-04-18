@@ -837,11 +837,6 @@ wr
 MaybeExternalImageId
 &
 aExternalImageId
-nsISerialEventTarget
-*
-aTarget
-=
-nullptr
 )
 override
 ;

@@ -557,6 +557,17 @@ return
 mListener
 ;
 }
+nsISerialEventTarget
+*
+GetWorkerEventTarget
+(
+)
+const
+{
+return
+mWorkerThread
+;
+}
 bool
 Open
 (
