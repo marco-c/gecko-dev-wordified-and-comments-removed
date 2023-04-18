@@ -2931,11 +2931,6 @@ mWaitingForMoveToRectCallback
 :
 1
 ;
-bool
-mUpdatedByMoveToRectCallback
-:
-1
-;
 struct
 WaylandPopupMoveToRectParams
 {
