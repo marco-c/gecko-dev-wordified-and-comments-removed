@@ -571,7 +571,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 TransceiverImpl
 )
 static
-nsresult
+void
 NegotiatedDetailsToAudioCodecConfigs
 (
 const
@@ -590,7 +590,7 @@ aConfigs
 )
 ;
 static
-nsresult
+void
 NegotiatedDetailsToVideoCodecConfigs
 (
 const
