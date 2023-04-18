@@ -16,11 +16,6 @@ nsITransaction
 idl
 "
 "
-nsITransactionListener
-.
-idl
-"
-"
 nsITransactionManager
 .
 idl

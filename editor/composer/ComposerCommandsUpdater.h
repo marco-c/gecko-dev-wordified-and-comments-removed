@@ -199,11 +199,6 @@ DidDoTransaction
 TransactionManager
 &
 aTransactionManager
-nsITransaction
-*
-aTransaction
-nsresult
-aDoTransactionResult
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -213,11 +208,6 @@ DidUndoTransaction
 TransactionManager
 &
 aTransactionManager
-nsITransaction
-*
-aTransaction
-nsresult
-aUndoTransactionResult
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -227,11 +217,6 @@ DidRedoTransaction
 TransactionManager
 &
 aTransactionManager
-nsITransaction
-*
-aTransaction
-nsresult
-aRedoTransactionResult
 )
 ;
 protected

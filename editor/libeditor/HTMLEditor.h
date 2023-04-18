@@ -8439,7 +8439,7 @@ TransactionManager
 &
 aTransactionManager
 nsITransaction
-*
+&
 aTransaction
 nsresult
 aDoTransactionResult
@@ -8465,8 +8465,6 @@ updater
 DidDoTransaction
 (
 aTransactionManager
-aTransaction
-aDoTransactionResult
 )
 ;
 }
@@ -8479,7 +8477,7 @@ TransactionManager
 &
 aTransactionManager
 nsITransaction
-*
+&
 aTransaction
 nsresult
 aUndoTransactionResult
@@ -8505,8 +8503,6 @@ updater
 DidUndoTransaction
 (
 aTransactionManager
-aTransaction
-aUndoTransactionResult
 )
 ;
 }
@@ -8519,7 +8515,7 @@ TransactionManager
 &
 aTransactionManager
 nsITransaction
-*
+&
 aTransaction
 nsresult
 aRedoTransactionResult
@@ -8545,8 +8541,6 @@ updater
 DidRedoTransaction
 (
 aTransactionManager
-aTransaction
-aRedoTransactionResult
 )
 ;
 }
