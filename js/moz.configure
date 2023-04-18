@@ -979,6 +979,15 @@ cpu
 "
 x86_64
 "
+and
+target
+.
+cpu
+!
+=
+"
+aarch64
+"
 :
 die
 (
@@ -993,6 +1002,8 @@ on
 x86
 -
 64
+or
+arm64
 .
 "
 %
