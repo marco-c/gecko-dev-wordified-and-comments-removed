@@ -48,7 +48,7 @@ extensions
 .
 formautofill
 .
-addressess
+addresses
 .
 supported
 "
@@ -172,7 +172,7 @@ extensions
 .
 formautofill
 .
-addressess
+addresses
 .
 supported
 "
@@ -312,7 +312,7 @@ extensions
 .
 formautofill
 .
-addressess
+addresses
 .
 supported
 "
