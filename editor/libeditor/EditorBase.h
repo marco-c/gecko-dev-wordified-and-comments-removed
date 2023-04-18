@@ -4988,16 +4988,6 @@ inNode
 const
 ;
 bool
-IsEditorRoot
-(
-const
-nsINode
-*
-aNode
-)
-const
-;
-bool
 IsDescendantOfRoot
 (
 const
