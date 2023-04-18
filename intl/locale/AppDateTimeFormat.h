@@ -124,6 +124,12 @@ aStringOut
 ;
 static
 void
+ClearLocaleCache
+(
+)
+;
+static
+void
 Shutdown
 (
 )
