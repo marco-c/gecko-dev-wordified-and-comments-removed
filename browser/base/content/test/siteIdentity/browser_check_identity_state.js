@@ -385,9 +385,6 @@ compat
 config
 "
 "
-devtools
-"
-"
 downloads
 "
 "
