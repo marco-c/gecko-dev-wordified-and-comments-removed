@@ -682,7 +682,7 @@ nsAString
 aError
 )
 {
-nsIConstraintValidation
+ConstraintValidation
 :
 :
 SetCustomValidity
@@ -6345,7 +6345,7 @@ default
 :
 {
 return
-nsIConstraintValidation
+ConstraintValidation
 :
 :
 GetValidationMessage
