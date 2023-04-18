@@ -651,6 +651,17 @@ rv
 rv
 )
 ;
+if
+(
+IsDefunct
+(
+)
+)
+{
+return
+NS_OK
+;
+}
 uint32_t
 eventType
 =
