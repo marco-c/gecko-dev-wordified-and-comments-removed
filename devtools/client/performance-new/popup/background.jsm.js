@@ -2936,10 +2936,7 @@ symbolicationService
 )
 ;
 }
-(
-this
-)
-.
+var
 module
 =
 {

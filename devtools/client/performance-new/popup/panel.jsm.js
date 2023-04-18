@@ -1616,10 +1616,7 @@ panelviewControllers
 )
 ;
 }
-(
-this
-)
-.
+var
 module
 =
 {

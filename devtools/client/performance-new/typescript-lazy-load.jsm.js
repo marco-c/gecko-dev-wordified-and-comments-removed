@@ -70,10 +70,7 @@ return
 result
 ;
 }
-(
-this
-)
-.
+var
 module
 =
 {

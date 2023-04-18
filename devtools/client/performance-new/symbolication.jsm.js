@@ -955,10 +955,7 @@ return
 service
 ;
 }
-(
-this
-)
-.
+var
 module
 =
 {

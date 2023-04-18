@@ -3,10 +3,7 @@ use
 strict
 "
 ;
-(
-this
-)
-.
+var
 exports
 =
 {
