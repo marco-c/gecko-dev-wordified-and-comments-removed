@@ -377,13 +377,6 @@ h
 #
 include
 "
-InterceptedChannel
-.
-h
-"
-#
-include
-"
 nsContentSecurityManager
 .
 h
