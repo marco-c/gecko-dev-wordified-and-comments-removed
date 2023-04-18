@@ -102,7 +102,9 @@ version
 "
 0
 .
-5
+8
+.
+4
 "
 optional
 =
@@ -128,7 +130,9 @@ clap
 version
 =
 "
-2
+3
+.
+1
 "
 features
 =
@@ -304,7 +308,7 @@ semver
 "
 0
 .
-9
+11
 .
 0
 "
