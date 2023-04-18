@@ -72,11 +72,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventDispatcher
 :
@@ -115,7 +121,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 LoginInfo
 "
@@ -267,6 +273,8 @@ const
 info
 =
 new
+lazy
+.
 LoginInfo
 (
 this
@@ -1489,6 +1497,8 @@ domains
 }
 ;
 return
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1522,6 +1532,8 @@ debug
 fetchCreditCards
 ;
 return
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1552,6 +1564,8 @@ debug
 fetchAddresses
 ;
 return
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1585,6 +1599,8 @@ onCreditCardSave
 aCreditCard
 }
 ;
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1621,6 +1637,8 @@ onAddressSave
 aAddress
 }
 ;
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1657,6 +1675,8 @@ onLoginSave
 aLogin
 }
 ;
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1693,6 +1713,8 @@ onLoginUsed
 aLogin
 }
 ;
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1780,6 +1802,8 @@ const
 prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 aBrowser
@@ -1923,6 +1947,8 @@ const
 prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 aBrowser
@@ -2066,6 +2092,8 @@ const
 prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 aBrowser

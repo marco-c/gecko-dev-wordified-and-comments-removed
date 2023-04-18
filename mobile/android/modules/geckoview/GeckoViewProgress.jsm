@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 OverrideService
 "
@@ -112,7 +118,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 IDNService
 "
@@ -138,7 +144,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserTelemetryUtils
 :
@@ -514,6 +520,8 @@ result
 .
 host
 =
+lazy
+.
 IDNService
 .
 convertToDisplayIDN
@@ -573,6 +581,8 @@ result
 .
 securityException
 =
+lazy
+.
 OverrideService
 .
 hasMatchingOverride
@@ -698,6 +708,8 @@ this
 pageLoadProbe
 =
 new
+lazy
+.
 HistogramStopwatch
 (
 "
@@ -711,6 +723,8 @@ this
 pageReloadProbe
 =
 new
+lazy
+.
 HistogramStopwatch
 (
 "
@@ -724,6 +738,8 @@ this
 pageLoadProgressProbe
 =
 new
+lazy
+.
 HistogramStopwatch
 (
 "
@@ -1824,6 +1840,8 @@ aIsSuccess
 }
 )
 ;
+lazy
+.
 BrowserTelemetryUtils
 .
 recordSiteOriginTelemetry

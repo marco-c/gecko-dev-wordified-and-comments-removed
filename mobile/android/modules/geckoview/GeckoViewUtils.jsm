@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AndroidLog
 :
@@ -108,6 +114,8 @@ GeckoViewUtils
 class
 AndroidFormatter
 extends
+lazy
+.
 Log
 .
 BasicFormatter
@@ -130,6 +138,8 @@ message
 class
 AndroidAppender
 extends
+lazy
+.
 Log
 .
 Appender
@@ -164,6 +174,8 @@ _mapping
 =
 {
 [
+lazy
+.
 Log
 .
 Level
@@ -175,6 +187,8 @@ Fatal
 e
 "
 [
+lazy
+.
 Log
 .
 Level
@@ -186,6 +200,8 @@ Error
 e
 "
 [
+lazy
+.
 Log
 .
 Level
@@ -197,6 +213,8 @@ Warn
 w
 "
 [
+lazy
+.
 Log
 .
 Level
@@ -208,6 +226,8 @@ Info
 i
 "
 [
+lazy
+.
 Log
 .
 Level
@@ -219,6 +239,8 @@ Config
 d
 "
 [
+lazy
+.
 Log
 .
 Level
@@ -230,6 +252,8 @@ Debug
 d
 "
 [
+lazy
+.
 Log
 .
 Level
@@ -290,6 +314,8 @@ format
 aMessage
 )
 ;
+lazy
+.
 AndroidLog
 [
 this
@@ -466,6 +492,8 @@ data
 =
 >
 {
+lazy
+.
 Services
 .
 obs
@@ -482,6 +510,8 @@ if
 once
 )
 {
+lazy
+.
 Services
 .
 obs
@@ -517,6 +547,8 @@ forEach
 topic
 =
 >
+lazy
+.
 Services
 .
 obs
@@ -624,6 +656,8 @@ ppmm
 {
 addMMListener
 (
+lazy
+.
 Services
 .
 ppmm
@@ -638,6 +672,8 @@ mm
 {
 addMMListener
 (
+lazy
+.
 Services
 .
 mm
@@ -661,6 +697,8 @@ callback
 =
 >
 {
+lazy
+.
 EventDispatcher
 .
 instance
@@ -677,6 +715,8 @@ if
 once
 )
 {
+lazy
+.
 EventDispatcher
 .
 instance
@@ -705,6 +745,8 @@ callback
 ;
 }
 ;
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1009,6 +1051,8 @@ forEach
 pref
 =
 >
+lazy
+.
 Services
 .
 prefs
@@ -1062,6 +1106,8 @@ string
 :
 value
 =
+lazy
+.
 Services
 .
 prefs
@@ -1085,6 +1131,8 @@ number
 :
 value
 =
+lazy
+.
 Services
 .
 prefs
@@ -1108,6 +1156,8 @@ boolean
 :
 value
 =
+lazy
+.
 Services
 .
 prefs
@@ -1138,6 +1188,8 @@ value
 {
 observer
 (
+lazy
+.
 Services
 .
 prefs
@@ -1170,6 +1222,8 @@ if
 once
 )
 {
+lazy
+.
 Services
 .
 prefs
@@ -1190,6 +1244,8 @@ forEach
 handler
 =
 >
+lazy
+.
 Services
 .
 prefs
@@ -1373,6 +1429,8 @@ return
 mm
 &
 &
+lazy
+.
 EventDispatcher
 .
 forMessageManager
@@ -1410,6 +1468,8 @@ win
 WindowEventDispatcher
 |
 |
+lazy
+.
 EventDispatcher
 .
 for
@@ -1520,6 +1580,8 @@ _
 const
 logger
 =
+lazy
+.
 Log
 .
 repository
@@ -1607,6 +1669,8 @@ this
 .
 _rootLogger
 =
+lazy
+.
 Log
 .
 repository
@@ -1738,6 +1802,8 @@ aLogger
 .
 level
 >
+lazy
+.
 Log
 .
 Level
@@ -2017,6 +2083,8 @@ IS_PARENT_PROCESS
 _
 =
 >
+lazy
+.
 Services
 .
 appinfo
@@ -2024,6 +2092,8 @@ appinfo
 processType
 =
 =
+lazy
+.
 Services
 .
 appinfo

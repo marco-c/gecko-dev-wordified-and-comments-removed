@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 PushNotifier
 "
@@ -242,6 +248,8 @@ if
 data
 )
 {
+lazy
+.
 PushNotifier
 .
 notifyPush
@@ -276,6 +284,8 @@ ignore
 )
 )
 ;
+lazy
+.
 PushNotifier
 .
 notifyPushWithData
@@ -316,6 +326,8 @@ createScopeAndPrincipal
 scope
 )
 ;
+lazy
+.
 PushNotifier
 .
 notifySubscriptionChange

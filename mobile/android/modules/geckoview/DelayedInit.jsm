@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 MessageLoop
 "
@@ -240,6 +246,8 @@ nextDue
 undefined
 )
 {
+lazy
+.
 MessageLoop
 .
 postIdleTask
@@ -340,6 +348,8 @@ pendingInits
 length
 )
 {
+lazy
+.
 MessageLoop
 .
 postIdleTask

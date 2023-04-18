@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 E10SUtils
 :
@@ -118,7 +124,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ReferrerInfo
 "
@@ -200,6 +206,8 @@ try
 {
 referrerUri
 =
+lazy
+.
 Services
 .
 io
@@ -218,6 +226,8 @@ ignored
 }
 return
 new
+lazy
+.
 ReferrerInfo
 (
 Ci
@@ -517,6 +527,8 @@ sessionContextId
 )
 ;
 }
+lazy
+.
 Services
 .
 obs
@@ -830,6 +842,8 @@ referrerSessionId
 const
 referrerWindow
 =
+lazy
+.
 Services
 .
 ww
@@ -884,6 +898,8 @@ EMPTY
 referrerInfo
 =
 new
+lazy
+.
 ReferrerInfo
 (
 referrerPolicy
@@ -931,6 +947,8 @@ isExternal
 {
 triggeringPrincipal
 =
+lazy
+.
 Services
 .
 scriptSecurityManager
@@ -949,6 +967,8 @@ triggeringPrincipal
 {
 triggeringPrincipal
 =
+lazy
+.
 Services
 .
 scriptSecurityManager
@@ -1059,6 +1079,8 @@ additionalHeaders
 {
 additionalHeaders
 =
+lazy
+.
 E10SUtils
 .
 makeInputStream
@@ -1293,6 +1315,8 @@ remoteType
 )
 ;
 }
+lazy
+.
 Services
 .
 obs
@@ -1318,6 +1342,8 @@ aSubject
 }
 }
 ;
+lazy
+.
 Services
 .
 obs
@@ -1386,6 +1412,8 @@ null
 const
 newSessionId
 =
+lazy
+.
 Services
 .
 uuid
@@ -1516,6 +1544,8 @@ null
 }
 )
 ;
+lazy
+.
 Services
 .
 tm
@@ -1590,6 +1620,8 @@ aFlags
 ;
 if
 (
+lazy
+.
 LoadURIDelegate
 .
 load
@@ -1721,6 +1753,8 @@ aParams
 }
 if
 (
+lazy
+.
 LoadURIDelegate
 .
 load
@@ -1834,6 +1868,8 @@ flags
 ;
 if
 (
+lazy
+.
 LoadURIDelegate
 .
 load
@@ -2175,6 +2211,8 @@ return
 {
 uri
 :
+lazy
+.
 Services
 .
 io
@@ -2187,6 +2225,8 @@ URI
 displaySpec
 principal
 :
+lazy
+.
 E10SUtils
 .
 serializePrincipal
@@ -2233,6 +2273,8 @@ try
 {
 fixedURI
 =
+lazy
+.
 Services
 .
 io
@@ -2303,6 +2345,8 @@ contentPrincipal
 const
 rawPerms
 =
+lazy
+.
 Services
 .
 perms

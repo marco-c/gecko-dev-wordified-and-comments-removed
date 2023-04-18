@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Services
 :
@@ -275,6 +281,8 @@ this
 .
 enabled
 =
+lazy
+.
 Services
 .
 prefs
@@ -410,6 +418,8 @@ javascript
 "
 )
 ;
+lazy
+.
 Services
 .
 console
@@ -436,6 +446,8 @@ trace
 const
 bundle
 =
+lazy
+.
 Services
 .
 strings
@@ -600,6 +612,8 @@ n
 }
 )
 ;
+lazy
+.
 Services
 .
 console
@@ -631,6 +645,8 @@ arguments
 const
 bundle
 =
+lazy
+.
 Services
 .
 strings
@@ -673,6 +689,8 @@ name
 ]
 )
 ;
+lazy
+.
 Services
 .
 console
@@ -704,6 +722,8 @@ arguments
 const
 bundle
 =
+lazy
+.
 Services
 .
 strings
@@ -751,6 +771,8 @@ duration
 ]
 )
 ;
+lazy
+.
 Services
 .
 console
@@ -787,6 +809,8 @@ level
 }
 else
 {
+lazy
+.
 Services
 .
 console
