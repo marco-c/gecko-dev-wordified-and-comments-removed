@@ -113,7 +113,17 @@ initialSize
 :
 PropTypes
 .
+oneOfType
+(
+[
+PropTypes
+.
+number
+PropTypes
+.
 string
+]
+)
 initialWidth
 :
 PropTypes

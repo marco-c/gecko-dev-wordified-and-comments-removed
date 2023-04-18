@@ -1312,7 +1312,7 @@ initiallyExpanded
 :
 PropTypes
 .
-bool
+func
 }
 ;
 }
