@@ -293,6 +293,17 @@ ActorDestroyReason
 aReason
 )
 {
+if
+(
+aReason
+!
+=
+ActorDestroyReason
+:
+:
+AncestorDeletion
+)
+{
 CastedManager
 (
 )
@@ -302,6 +313,7 @@ NotifyRequestDestroy
 (
 )
 ;
+}
 }
 IPCResult
 LockRequestChild
