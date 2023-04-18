@@ -222,12 +222,9 @@ PathUtils
 .
 join
 (
-await
 PathUtils
 .
-getTempDir
-(
-)
+tempDir
 "
 downloaded
 .
