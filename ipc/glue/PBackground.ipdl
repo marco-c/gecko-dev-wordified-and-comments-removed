@@ -150,10 +150,6 @@ PHttpBackgroundChannel
 ;
 include
 protocol
-PIPCClientCerts
-;
-include
-protocol
 PIdleScheduler
 ;
 include
@@ -469,9 +465,6 @@ PGamepadTestChannel
 ;
 manages
 PHttpBackgroundChannel
-;
-manages
-PIPCClientCerts
 ;
 manages
 PIdleScheduler
@@ -1210,11 +1203,6 @@ ContentPrincipalInfo
 aPrincipalInfo
 nsID
 aClientId
-)
-;
-async
-PIPCClientCerts
-(
 )
 ;
 child

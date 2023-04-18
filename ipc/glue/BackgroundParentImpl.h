@@ -1417,15 +1417,6 @@ aSequenceID
 )
 override
 ;
-already_AddRefed
-<
-PIPCClientCertsParent
->
-AllocPIPCClientCertsParent
-(
-)
-override
-;
 bool
 DeallocPMessagePortParent
 (
