@@ -221,6 +221,14 @@ aFetchState
 )
 ;
 void
+SetDictionarySucceeded
+(
+DictionaryFetcher
+*
+aFetcher
+)
+;
+void
 SetFallbackDictionary
 (
 DictionaryFetcher
