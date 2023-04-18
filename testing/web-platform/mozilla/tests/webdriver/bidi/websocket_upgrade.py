@@ -1,9 +1,11 @@
 import
 pytest
 from
+support
 .
+network
 import
-connect
+websocket_request
 get_host
 pytest
 .
@@ -25,7 +27,7 @@ status
 localhost
 "
 "
-remote_agent_port
+server_port
 "
 101
 )
@@ -51,7 +53,7 @@ default_port
 1
 "
 "
-remote_agent_port
+server_port
 "
 101
 )
@@ -81,7 +83,7 @@ default_port
 ]
 "
 "
-remote_agent_port
+server_port
 "
 101
 )
@@ -111,7 +113,7 @@ default_port
 1
 "
 "
-remote_agent_port
+server_port
 "
 101
 )
@@ -146,7 +148,7 @@ f535
 ]
 "
 "
-remote_agent_port
+server_port
 "
 101
 )
@@ -177,7 +179,7 @@ mozilla
 org
 "
 "
-remote_agent_port
+server_port
 "
 400
 )
@@ -520,9 +522,22 @@ current_browser
 =
 browser
 (
+extra_args
+=
+[
+"
+-
+-
+remote
+-
+debugging
+-
+port
+"
+]
 )
     
-remote_agent_port
+server_port
 =
 current_browser
 .
@@ -532,16 +547,16 @@ test_host
 =
 get_host
 (
-hostname
 port_type
-remote_agent_port
+hostname
+server_port
 )
     
 response
 =
-connect
+websocket_request
 (
-remote_agent_port
+server_port
 host
 =
 test_host
@@ -574,7 +589,7 @@ status
 testhost
 "
 "
-remote_agent_port
+server_port
 "
 101
 )
@@ -610,7 +625,7 @@ wrong_port
 1
 "
 "
-remote_agent_port
+server_port
 "
 101
 )
@@ -645,7 +660,7 @@ f535
 ]
 "
 "
-remote_agent_port
+server_port
 "
 101
 )
@@ -680,7 +695,7 @@ default_port
 1
 "
 "
-remote_agent_port
+server_port
 "
 101
 )
@@ -710,7 +725,7 @@ default_port
 ]
 "
 "
-remote_agent_port
+server_port
 "
 101
 )
@@ -734,7 +749,7 @@ default_port
 localhost
 "
 "
-remote_agent_port
+server_port
 "
 400
 )
@@ -915,6 +930,23 @@ current_browser
 =
 browser
 (
+        
+extra_args
+=
+[
+"
+-
+-
+remote
+-
+debugging
+-
+port
+"
+]
+        
+extra_prefs
+=
 {
 "
 remote
@@ -928,9 +960,10 @@ allowed
 testhost
 "
 }
+    
 )
     
-remote_agent_port
+server_port
 =
 current_browser
 .
@@ -940,16 +973,16 @@ test_host
 =
 get_host
 (
-hostname
 port_type
-remote_agent_port
+hostname
+server_port
 )
     
 response
 =
-connect
+websocket_request
 (
-remote_agent_port
+server_port
 host
 =
 test_host
@@ -1022,9 +1055,22 @@ current_browser
 =
 browser
 (
+extra_args
+=
+[
+"
+-
+-
+remote
+-
+debugging
+-
+port
+"
+]
 )
     
-remote_agent_port
+server_port
 =
 current_browser
 .
@@ -1032,9 +1078,9 @@ remote_agent_port
     
 response
 =
-connect
+websocket_request
 (
-remote_agent_port
+server_port
 origin
 =
 origin
@@ -1121,6 +1167,22 @@ current_browser
 browser
 (
         
+extra_args
+=
+[
+"
+-
+-
+remote
+-
+debugging
+-
+port
+"
+]
+        
+extra_prefs
+=
 {
 "
 remote
@@ -1143,7 +1205,7 @@ localhost
     
 )
     
-remote_agent_port
+server_port
 =
 current_browser
 .
@@ -1151,9 +1213,9 @@ remote_agent_port
     
 response
 =
-connect
+websocket_request
 (
-remote_agent_port
+server_port
 origin
 =
 origin
