@@ -1230,13 +1230,6 @@ bool
 aIsVideo
 )
 ;
-bool
-CanSpecializeSurface
-(
-IOSurfaceRef
-surface
-)
-;
 CALayer
 *
 mWrappingCALayer
