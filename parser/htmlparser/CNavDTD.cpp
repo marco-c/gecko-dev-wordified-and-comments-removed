@@ -66,9 +66,6 @@ const
 CParserContext
 &
 aParserContext
-nsITokenizer
-*
-aTokenizer
 nsIContentSink
 *
 aSink
@@ -84,9 +81,6 @@ CNavDTD
 :
 BuildModel
 (
-nsITokenizer
-*
-aTokenizer
 nsIContentSink
 *
 aSink

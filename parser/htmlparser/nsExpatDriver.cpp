@@ -7901,9 +7901,6 @@ const
 CParserContext
 &
 aParserContext
-nsITokenizer
-*
-aTokenizer
 nsIContentSink
 *
 aSink
@@ -8419,9 +8416,6 @@ nsExpatDriver
 :
 BuildModel
 (
-nsITokenizer
-*
-aTokenizer
 nsIContentSink
 *
 aSink

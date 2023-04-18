@@ -56,6 +56,9 @@ nsCOMPtr
 h
 "
 class
+nsITokenizer
+;
+class
 CParserContext
 {
 public
