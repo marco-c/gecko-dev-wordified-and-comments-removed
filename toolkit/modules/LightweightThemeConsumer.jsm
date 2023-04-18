@@ -2379,6 +2379,12 @@ aTheme
 ?
 .
 toolbarColor
+|
+|
+aTheme
+?
+.
+accentcolor
 )
 ;
 let
