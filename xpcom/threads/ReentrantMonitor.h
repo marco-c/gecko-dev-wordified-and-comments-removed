@@ -304,7 +304,7 @@ AssertCurrentThreadIn
 )
 ASSERT_CAPABILITY
 (
-mReentrantMonitor
+this
 )
 {
 PR_ASSERT_CURRENT_THREAD_IN_MONITOR
@@ -317,9 +317,10 @@ void
 AssertNotCurrentThreadIn
 (
 )
-EXCLUDES
+ASSERT_CAPABILITY
 (
-mReentrantMonitor
+!
+this
 )
 {
 }
@@ -331,7 +332,7 @@ AssertCurrentThreadIn
 )
 ASSERT_CAPABILITY
 (
-mReentrantMonitor
+this
 )
 {
 }
@@ -339,9 +340,10 @@ void
 AssertNotCurrentThreadIn
 (
 )
-EXCLUDES
+ASSERT_CAPABILITY
 (
-mReentrantMonitor
+!
+this
 )
 {
 }
