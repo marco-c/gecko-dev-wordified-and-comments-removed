@@ -507,7 +507,7 @@ name
 "
 NetworkInformation
 "
-disabled
+android
 :
 true
 }
