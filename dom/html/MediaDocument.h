@@ -83,8 +83,8 @@ properties
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -383,7 +383,6 @@ mNextStream
 ;
 }
 ;
-}
 }
 #
 endif

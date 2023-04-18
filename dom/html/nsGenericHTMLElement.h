@@ -3235,14 +3235,13 @@ aChange
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 HTMLFieldSetElement
 ;
-}
 }
 #
 define
@@ -4177,8 +4176,8 @@ _tag
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -4211,7 +4210,6 @@ dom
 FromParser
 )
 ;
-}
 }
 #
 define

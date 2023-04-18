@@ -25,8 +25,8 @@ nsContentList
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -457,7 +457,6 @@ MappedDeclarations
 ;
 }
 ;
-}
 }
 #
 endif

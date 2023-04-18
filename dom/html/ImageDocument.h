@@ -36,8 +36,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -403,7 +403,6 @@ mOriginalResolution
 ;
 }
 ;
-}
 }
 #
 endif

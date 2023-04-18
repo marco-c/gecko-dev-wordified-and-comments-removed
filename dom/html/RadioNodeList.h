@@ -61,8 +61,8 @@ MOZILLA_DOM_RADIONODELIST_IMPLEMENTATION_IID
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -150,7 +150,6 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 RadioNodeList
 MOZILLA_DOM_RADIONODELIST_IMPLEMENTATION_IID
 )
-}
 }
 #
 endif

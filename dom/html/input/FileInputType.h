@@ -17,8 +17,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -87,7 +87,6 @@ aInputElement
 }
 }
 ;
-}
 }
 #
 endif

@@ -61,8 +61,8 @@ nsIContent
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -598,7 +598,6 @@ mWindowDestroyObserver
 ;
 }
 ;
-}
 }
 #
 endif

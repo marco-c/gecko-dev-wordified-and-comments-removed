@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -156,7 +156,6 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 HTMLUnknownElement
 NS_HTMLUNKNOWNELEMENT_IID
 )
-}
 }
 #
 endif
