@@ -512,12 +512,6 @@ virtualenv_name
         
 *
         
-base_python
-=
-sys
-.
-executable
-        
 manifest_path
 =
 None
@@ -565,12 +559,6 @@ self
 topsrcdir
 =
 topsrcdir
-        
-self
-.
-_base_python
-=
-base_python
         
 self
 .
@@ -627,47 +615,6 @@ txt
         
 )
         
-hex_version
-=
-subprocess
-.
-check_output
-(
-            
-[
-self
-.
-_base_python
-"
--
-c
-"
-"
-import
-sys
-;
-print
-(
-sys
-.
-hexversion
-)
-"
-]
-        
-)
-        
-hex_version
-=
-int
-(
-hex_version
-.
-rstrip
-(
-)
-)
-        
 self
 .
 _metadata
@@ -675,7 +622,9 @@ _metadata
 MozVirtualenvMetadata
 (
             
-hex_version
+sys
+.
+hexversion
             
 virtualenv_name
             
@@ -1277,9 +1226,9 @@ run
             
 [
                 
-self
+sys
 .
-_base_python
+executable
                 
 os
 .
