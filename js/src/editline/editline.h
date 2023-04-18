@@ -278,6 +278,10 @@ extern
 void
 rl_add_slash
 (
+char
+*
+char
+*
 )
 ;
 #
