@@ -3,6 +3,11 @@ EXTRA_JS_MODULES
 =
 [
 "
+ScreenshotsOverlayChild
+.
+jsm
+"
+"
 ScreenshotsUtils
 .
 jsm
