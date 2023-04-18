@@ -22636,13 +22636,13 @@ component
 properties
 .
 compact
-includeDescriptions
+hideDescriptions
 :
 component
 .
 properties
 .
-includeDescriptions
+hideDescriptions
 compactGrid
 :
 component
@@ -72511,7 +72511,7 @@ const
 {
 is_video
 saveToPocketCard
-includeDescriptions
+hideDescriptions
 compactImages
 imageGradient
 titleLines
@@ -72530,7 +72530,8 @@ props
 const
 excerpt
 =
-includeDescriptions
+!
+hideDescriptions
 ?
 this
 .
@@ -74488,7 +74489,7 @@ props
 ;
 const
 {
-includeDescriptions
+hideDescriptions
 lastCardMessageEnabled
 saveToPocketCard
 loadMoreThreshold
@@ -74741,9 +74742,9 @@ this
 props
 .
 display_engagement_labels
-includeDescriptions
+hideDescriptions
 :
-includeDescriptions
+hideDescriptions
 saveToPocketCard
 :
 saveToPocketCard
@@ -74934,9 +74935,10 @@ variant
 :
 ;
 const
-includeDescriptionsClassName
+hideDescriptionsClassName
 =
-includeDescriptions
+!
+hideDescriptions
 ?
 ds
 -
@@ -75001,7 +75003,7 @@ variantClass
 compactClass
 }
 {
-includeDescriptionsClassName
+hideDescriptionsClassName
 }
 {
 compactGridClassName

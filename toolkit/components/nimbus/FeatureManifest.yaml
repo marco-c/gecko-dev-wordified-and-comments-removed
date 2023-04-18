@@ -1295,7 +1295,7 @@ thumbnail
 on
 hover
 .
-includeDescriptions
+hideDescriptions
 :
 type
 :
@@ -1314,7 +1314,7 @@ stream
 .
 discoverystream
 .
-includeDescriptions
+hideDescriptions
 .
 enabled
 description
@@ -1324,7 +1324,7 @@ description
 Hide
 or
 display
-descriptios
+descriptions
 for
 Pocket
 stories

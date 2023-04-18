@@ -2313,7 +2313,7 @@ const
 {
 is_video
 saveToPocketCard
-includeDescriptions
+hideDescriptions
 compactImages
 imageGradient
 titleLines
@@ -2332,7 +2332,8 @@ props
 const
 excerpt
 =
-includeDescriptions
+!
+hideDescriptions
 ?
 this
 .

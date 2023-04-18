@@ -339,7 +339,7 @@ props
 ;
 const
 {
-includeDescriptions
+hideDescriptions
 lastCardMessageEnabled
 saveToPocketCard
 loadMoreThreshold
@@ -651,10 +651,10 @@ props
 .
 display_engagement_labels
 }
-includeDescriptions
+hideDescriptions
 =
 {
-includeDescriptions
+hideDescriptions
 }
 saveToPocketCard
 =
@@ -934,9 +934,10 @@ variant
 :
 ;
 const
-includeDescriptionsClassName
+hideDescriptionsClassName
 =
-includeDescriptions
+!
+hideDescriptions
 ?
 ds
 -
@@ -995,7 +996,7 @@ variantClass
 compactClass
 }
 {
-includeDescriptionsClassName
+hideDescriptionsClassName
 }
 {
 compactGridClassName

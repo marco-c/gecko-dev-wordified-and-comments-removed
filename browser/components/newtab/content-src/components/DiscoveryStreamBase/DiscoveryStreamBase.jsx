@@ -1637,14 +1637,14 @@ properties
 .
 compact
 }
-includeDescriptions
+hideDescriptions
 =
 {
 component
 .
 properties
 .
-includeDescriptions
+hideDescriptions
 }
 compactGrid
 =
