@@ -328,6 +328,17 @@ shared
 oxidized_breakpad
 "
 ]
+webmidi_midir_impl
+=
+[
+"
+gkrust
+-
+shared
+/
+webmidi_midir_impl
+"
+]
 [
 dependencies
 ]
