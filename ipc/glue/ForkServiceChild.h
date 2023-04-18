@@ -162,13 +162,12 @@ private
 void
 OnMessageReceived
 (
-UniquePtr
-<
 IPC
 :
 :
 Message
->
+&
+&
 message
 )
 ;

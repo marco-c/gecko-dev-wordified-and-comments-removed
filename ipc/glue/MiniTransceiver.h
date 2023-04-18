@@ -114,13 +114,10 @@ Ok
 bool
 Recv
 (
-UniquePtr
-<
 IPC
 :
 :
 Message
->
 &
 aMsg
 )
@@ -129,13 +126,10 @@ inline
 bool
 RecvInfallible
 (
-UniquePtr
-<
 IPC
 :
 :
 Message
->
 &
 aMsg
 const

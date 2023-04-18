@@ -460,7 +460,7 @@ input_buf_offset_
 mozilla
 :
 :
-UniquePtr
+Maybe
 <
 Message
 >

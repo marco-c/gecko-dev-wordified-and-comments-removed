@@ -578,13 +578,12 @@ aMessage
 void
 OnMessageReceived
 (
-UniquePtr
-<
 IPC
 :
 :
 Message
->
+&
+&
 aMessage
 )
 override

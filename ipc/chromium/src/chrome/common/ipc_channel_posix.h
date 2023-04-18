@@ -509,7 +509,7 @@ kControlBufferHeaderSize
 mozilla
 :
 :
-UniquePtr
+Maybe
 <
 Message
 >
