@@ -1564,7 +1564,7 @@ DOMLocalization
 TranslateElements
 (
 const
-Sequence
+nsTArray
 <
 OwningNonNull
 <
@@ -1597,7 +1597,7 @@ DOMLocalization
 TranslateElements
 (
 const
-Sequence
+nsTArray
 <
 OwningNonNull
 <
@@ -1695,7 +1695,6 @@ domElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

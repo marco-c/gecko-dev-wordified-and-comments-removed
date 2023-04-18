@@ -330,7 +330,7 @@ Promise
 TranslateElements
 (
 const
-Sequence
+nsTArray
 <
 OwningNonNull
 <
@@ -351,7 +351,7 @@ Promise
 TranslateElements
 (
 const
-Sequence
+nsTArray
 <
 OwningNonNull
 <
