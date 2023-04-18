@@ -242,6 +242,9 @@ long
 aColumnIndex
 )
 ;
+[
+can_run_script
+]
 void
 getTableSize
 (
@@ -256,6 +259,9 @@ long
 aColCount
 )
 ;
+[
+can_run_script
+]
 Element
 getCellAt
 (
@@ -270,6 +276,9 @@ long
 aColumnIndex
 )
 ;
+[
+can_run_script
+]
 void
 getCellDataAt
 (
@@ -308,6 +317,9 @@ boolean
 aIsSelected
 )
 ;
+[
+can_run_script
+]
 Element
 getFirstRow
 (
@@ -316,6 +328,9 @@ Element
 aTableElement
 )
 ;
+[
+can_run_script
+]
 Element
 getSelectedOrParentTableElement
 (
@@ -352,6 +367,9 @@ long
 aColIndex
 )
 ;
+[
+can_run_script
+]
 Array
 <
 Element
