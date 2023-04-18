@@ -1441,6 +1441,12 @@ MutexAutoLock
 aProofOfLock
 )
 {
+mMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 bool
 nsISSLStatusPresent
 ;
@@ -6100,6 +6106,12 @@ nsACString
 aResult
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 aResult
 .
 Assign

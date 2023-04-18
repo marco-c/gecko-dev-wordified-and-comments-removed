@@ -3515,6 +3515,12 @@ nsACString
 aResult
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 if
 (
 !
@@ -3616,9 +3622,7 @@ mPeerId
 .
 Append
 (
-GetHostName
-(
-)
+mHostName
 )
 ;
 mPeerId
@@ -3642,9 +3646,7 @@ GetPort
 nsAutoCString
 suffix
 ;
-GetOriginAttributes
-(
-)
+mOriginAttributes
 .
 CreateSuffix
 (
