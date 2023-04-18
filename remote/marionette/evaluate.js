@@ -1023,6 +1023,14 @@ isElement
 (
 obj
 )
+|
+|
+element
+.
+isShadowRoot
+(
+obj
+)
 )
 {
 if
