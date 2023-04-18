@@ -8433,6 +8433,12 @@ mIsAlphaPremult
 =
 true
 ;
+data
+.
+mDoPaintCallbacks
+=
+true
+;
 mOffscreenCanvas
 -
 >
