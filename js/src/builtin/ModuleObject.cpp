@@ -4921,16 +4921,6 @@ JSObject
 obj
 )
 {
-MOZ_ASSERT
-(
-fop
--
->
-maybeOnHelperThread
-(
-)
-)
-;
 ModuleObject
 *
 self
