@@ -1415,6 +1415,7 @@ NssManagePolicy
 policyManage
 (
 policy_
+option_
 )
 ;
 ScopedPRFileDesc

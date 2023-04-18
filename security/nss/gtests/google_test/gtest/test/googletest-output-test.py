@@ -1,3 +1,4 @@
+r
 "
 "
 "
@@ -2001,6 +2002,10 @@ golden_file
 write
 (
 output
+.
+encode
+(
+)
 )
       
 golden_file

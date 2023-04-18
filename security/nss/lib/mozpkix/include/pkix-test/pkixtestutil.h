@@ -1322,6 +1322,12 @@ CertID
 &
 certID
 ;
+DigestAlgorithm
+certIDHashAlgorithm
+;
+ByteString
+certIDHashAlgorithmEncoded
+;
 enum
 OCSPResponseStatus
 {

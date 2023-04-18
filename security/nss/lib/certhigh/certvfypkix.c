@@ -1854,6 +1854,11 @@ errLevel
 =
 0
 ;
+(
+void
+)
+errLevel
+;
 PKIX_Int32
 nssErr
 =

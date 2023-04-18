@@ -1363,6 +1363,11 @@ key
 int
 count
 ;
+(
+void
+)
+count
+;
 #
 ifdef
 FREEBL_USE_PRELINK
