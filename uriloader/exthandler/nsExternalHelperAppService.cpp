@@ -12678,6 +12678,16 @@ mSourceUrl
 )
 )
 ;
+if
+(
+!
+fileUrl
+)
+{
+return
+NS_OK
+;
+}
 Cancel
 (
 NS_BINDING_ABORTED

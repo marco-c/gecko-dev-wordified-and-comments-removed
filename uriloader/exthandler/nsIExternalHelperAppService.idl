@@ -198,6 +198,11 @@ aFile
 )
 ;
 void
+launchLocalFile
+(
+)
+;
+void
 saveDestinationAvailable
 (
 in
