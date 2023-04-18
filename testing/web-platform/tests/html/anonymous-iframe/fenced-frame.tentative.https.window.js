@@ -167,7 +167,7 @@ msg_queue
 "
 window
 .
-anonymous
+isAnonymouslyFramed
 )
 ;
 )
@@ -186,7 +186,7 @@ false
 Check
 window
 .
-anonymous
+isAnonymouslyFramed
 in
 FencedFrame
 "
