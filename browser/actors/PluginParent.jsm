@@ -424,6 +424,9 @@ CrashSubmit
 submit
 (
 pluginDumpID
+CrashSubmit
+.
+SUBMITTED_FROM_CRASH_TAB
 {
 recordSubmission
 :
