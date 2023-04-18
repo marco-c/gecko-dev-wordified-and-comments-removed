@@ -653,7 +653,6 @@ rgbDesc
 (
 mGfxSize
 mGfxFormat
-false
 )
 ;
 const

@@ -1851,12 +1851,6 @@ true
 ;
 aInfo
 .
-hasIntermediateBuffer
-=
-false
-;
-aInfo
-.
 hasSynchronization
 =
 mHasSynchronization
@@ -3581,12 +3575,6 @@ YUV
 aInfo
 .
 supportsMoz2D
-=
-false
-;
-aInfo
-.
-hasIntermediateBuffer
 =
 false
 ;

@@ -743,7 +743,7 @@ const
 size_t
 kMaxTexturesAllowed
 =
-4
+5
 ;
 Vector
 <

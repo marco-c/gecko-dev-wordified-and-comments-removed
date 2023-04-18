@@ -591,9 +591,6 @@ size
 SurfaceFormat
 format
 ;
-bool
-hasIntermediateBuffer
-;
 }
 ;
 [
@@ -637,9 +634,6 @@ yUVColorSpace
 ;
 ColorRange
 colorRange
-;
-bool
-hasIntermediateBuffer
 ;
 }
 ;

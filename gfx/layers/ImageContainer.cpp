@@ -2833,7 +2833,6 @@ pdata
 -
 >
 mColorRange
-false
 )
 ;
 CopyPlane

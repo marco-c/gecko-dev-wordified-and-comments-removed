@@ -381,12 +381,6 @@ false
 ;
 aInfo
 .
-hasIntermediateBuffer
-=
-false
-;
-aInfo
-.
 hasSynchronization
 =
 false
