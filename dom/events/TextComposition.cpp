@@ -2363,6 +2363,7 @@ contentObserver
 >
 IsManaging
 (
+*
 this
 )
 )
@@ -2630,6 +2631,7 @@ contentObserver
 >
 IsManaging
 (
+*
 this
 )
 )
