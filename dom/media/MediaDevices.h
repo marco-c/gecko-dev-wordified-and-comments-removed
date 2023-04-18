@@ -398,6 +398,11 @@ mIsDeviceChangeListenerSetUp
 false
 ;
 bool
+mHaveUnprocessedDeviceListChange
+=
+false
+;
+bool
 mCanExposeMicrophoneInfo
 =
 false
