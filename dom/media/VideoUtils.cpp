@@ -1819,7 +1819,7 @@ if
 (
 aProfile
 >
-2
+3
 )
 {
 return
