@@ -5,6 +5,7 @@ strict
 ;
 const
 {
+loader
 require
 }
 =
@@ -45,13 +46,14 @@ emitter
 "
 )
 ;
-const
-{
-KeyCodes
-}
-=
-require
+loader
+.
+lazyRequireGetter
 (
+this
+"
+KeyCodes
+"
 "
 devtools
 /
@@ -61,6 +63,7 @@ shared
 /
 keycodes
 "
+true
 )
 ;
 const
