@@ -3389,6 +3389,7 @@ ErrorResult
 aError
 )
 ;
+virtual
 bool
 SetFontInternal
 (
