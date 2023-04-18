@@ -291,9 +291,6 @@ MOZ_DEV_EDITION
 "
 STLPORT_LIBS
 "
-"
-RANLIB
-"
 )
 :
 if
