@@ -42,6 +42,13 @@ nsIAppStartup
 startup
 "
 "
+nsIBlocklistService
+"
+:
+"
+blocklist
+"
+"
 nsICacheStorageService
 "
 :
@@ -306,6 +313,13 @@ nsIThreadManager
 :
 "
 tm
+"
+"
+nsIURIFixup
+"
+:
+"
+uriFixup
 "
 "
 nsIURLFormatter
