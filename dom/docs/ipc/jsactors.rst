@@ -53,7 +53,6 @@ JSProcessActor
 to
 communicate
 between
-the
 a
 child
 process
@@ -135,7 +134,7 @@ a
 child
 process
 and
-a
+its
 parent
 process
 .
@@ -550,7 +549,9 @@ A
 review
 of
 the
-current
+pre
+-
+Fission
 Message
 Manager
 mechanism
