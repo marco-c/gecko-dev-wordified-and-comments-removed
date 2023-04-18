@@ -155,6 +155,9 @@ class
 nsIDocShell
 ;
 class
+nsIPrincipal
+;
+class
 nsRefreshDriver
 ;
 namespace
@@ -308,6 +311,13 @@ AddPostRefreshObserverIfNecessary
 nsIGlobalObject
 *
 GetParentObject
+(
+)
+const
+;
+nsIPrincipal
+*
+PrincipalOrNull
 (
 )
 const
