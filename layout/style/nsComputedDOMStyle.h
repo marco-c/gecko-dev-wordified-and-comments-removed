@@ -1122,14 +1122,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetMask
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetPaddingTop
 (
 )

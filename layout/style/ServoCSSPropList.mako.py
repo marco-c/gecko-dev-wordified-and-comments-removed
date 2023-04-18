@@ -493,14 +493,7 @@ shorthand
 :
         
 return
-prop
-.
-name
-!
-=
-"
-mask
-"
+True
     
 if
 prop
