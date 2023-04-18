@@ -63,9 +63,6 @@ class
 WheelScrollAnimation
 ;
 class
-KeyboardScrollAnimation
-;
-class
 OverscrollAnimation
 ;
 class
@@ -177,17 +174,6 @@ move
 (
 mDeferredTasks
 )
-;
-}
-virtual
-KeyboardScrollAnimation
-*
-AsKeyboardScrollAnimation
-(
-)
-{
-return
-nullptr
 ;
 }
 virtual

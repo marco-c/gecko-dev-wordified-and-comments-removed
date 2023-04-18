@@ -2578,10 +2578,6 @@ WheelScrollAnimation
 ;
 friend
 class
-KeyboardScrollAnimation
-;
-friend
-class
 ZoomAnimation
 ;
 friend
