@@ -661,7 +661,7 @@ initialize
 )
 ;
 }
-componentWillUpdate
+UNSAFE_componentWillUpdate
 (
 nextProps
 nextState

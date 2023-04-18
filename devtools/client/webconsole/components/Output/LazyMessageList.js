@@ -259,7 +259,7 @@ this
 )
 ;
 }
-componentWillUpdate
+UNSAFE_componentWillUpdate
 (
 nextProps
 nextState

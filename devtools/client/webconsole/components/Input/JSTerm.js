@@ -2513,7 +2513,7 @@ lastInputValue
 ;
 }
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )
