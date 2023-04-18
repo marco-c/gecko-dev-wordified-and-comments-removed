@@ -163,7 +163,6 @@ picture
 {
 BackdropKind
 SubpixelMode
-TileCacheLogger
 RasterConfig
 PictureCompositeMode
 }
@@ -1611,11 +1610,6 @@ composite_state
 &
 mut
 CompositeState
-tile_cache_logger
-:
-&
-mut
-TileCacheLogger
 tile_caches
 :
 &
@@ -2176,7 +2170,6 @@ mut
 scratch
 .
 primitive
-tile_cache_logger
 tile_caches
 )
 {
@@ -2214,7 +2207,6 @@ mut
 scratch
 .
 primitive
-tile_cache_logger
 tile_caches
 &
 mut
@@ -2252,12 +2244,6 @@ frame_state
 ;
 }
 }
-tile_cache_logger
-.
-advance
-(
-)
-;
 frame_state
 .
 pop_dirty_region
@@ -2382,11 +2368,6 @@ ScratchBuffer
 debug_flags
 :
 DebugFlags
-tile_cache_logger
-:
-&
-mut
-TileCacheLogger
 tile_caches
 :
 &
@@ -2638,7 +2619,6 @@ debug_flags
 &
 mut
 composite_state
-tile_cache_logger
 tile_caches
 spatial_tree
 profile

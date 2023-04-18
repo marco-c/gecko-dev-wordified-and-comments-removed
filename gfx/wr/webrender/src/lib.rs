@@ -1003,7 +1003,6 @@ picture
 :
 {
 PrimitiveCompareResult
-PrimitiveCompareResultDetail
 CompareHelperResult
 }
 ;
@@ -1018,10 +1017,7 @@ picture
 {
 TileNode
 TileNodeKind
-TileSerializer
-TileCacheInstanceSerializer
 TileOffset
-TileCacheLoggerUpdateLists
 }
 ;
 pub
