@@ -100,7 +100,7 @@ compiler
 -
 rt
 -
-14
+13
 :
 description
 :
@@ -112,7 +112,7 @@ Compiler
 rt
 for
 Clang
-14
+13
 toolchain
 build
 "
@@ -126,7 +126,7 @@ aarch64
 -
 crt
 -
-14
+13
 )
 run
 :
@@ -141,7 +141,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 resources
@@ -155,7 +155,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 -
@@ -200,7 +200,7 @@ fetch
 -
 clang
 -
-14
+13
 toolchain
 :
 -
@@ -208,7 +208,7 @@ linux64
 -
 clang
 -
-14
+13
 -
 stage1
 -
@@ -229,7 +229,7 @@ compiler
 -
 rt
 -
-14
+13
 :
 description
 :
@@ -241,7 +241,7 @@ Compiler
 rt
 for
 Clang
-14
+13
 toolchain
 build
 "
@@ -255,7 +255,7 @@ arm
 -
 crt
 -
-14
+13
 )
 run
 :
@@ -270,7 +270,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 resources
@@ -284,7 +284,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 -
@@ -329,7 +329,7 @@ fetch
 -
 clang
 -
-14
+13
 toolchain
 :
 -
@@ -337,7 +337,7 @@ linux64
 -
 clang
 -
-14
+13
 -
 stage1
 -
@@ -358,7 +358,7 @@ compiler
 -
 rt
 -
-14
+13
 :
 description
 :
@@ -370,7 +370,7 @@ Compiler
 rt
 for
 Clang
-14
+13
 toolchain
 build
 "
@@ -384,7 +384,7 @@ x86
 -
 crt
 -
-14
+13
 )
 run
 :
@@ -399,7 +399,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 resources
@@ -413,7 +413,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 -
@@ -458,7 +458,7 @@ fetch
 -
 clang
 -
-14
+13
 toolchain
 :
 -
@@ -466,7 +466,7 @@ linux64
 -
 clang
 -
-14
+13
 -
 stage1
 -
@@ -487,7 +487,7 @@ compiler
 -
 rt
 -
-14
+13
 :
 description
 :
@@ -499,7 +499,7 @@ Compiler
 rt
 for
 Clang
-14
+13
 toolchain
 build
 "
@@ -513,7 +513,7 @@ x64
 -
 crt
 -
-14
+13
 )
 run
 :
@@ -528,7 +528,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 resources
@@ -542,7 +542,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 -
@@ -587,7 +587,7 @@ fetch
 -
 clang
 -
-14
+13
 toolchain
 :
 -
@@ -595,7 +595,7 @@ linux64
 -
 clang
 -
-14
+13
 -
 stage1
 -
@@ -616,7 +616,7 @@ compiler
 -
 rt
 -
-14
+13
 :
 description
 :
@@ -628,7 +628,7 @@ Compiler
 rt
 for
 Clang
-14
+13
 toolchain
 build
 "
@@ -642,7 +642,7 @@ x86
 -
 crt
 -
-14
+13
 )
 run
 :
@@ -657,7 +657,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 resources
@@ -671,7 +671,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 -
@@ -718,7 +718,7 @@ fetch
 -
 clang
 -
-14
+13
 toolchain
 :
 -
@@ -726,7 +726,7 @@ linux64
 -
 clang
 -
-14
+13
 -
 stage1
 -
@@ -745,7 +745,7 @@ compiler
 -
 rt
 -
-14
+13
 :
 description
 :
@@ -757,7 +757,7 @@ Compiler
 rt
 for
 Clang
-14
+13
 toolchain
 build
 "
@@ -771,7 +771,7 @@ x64
 -
 crt
 -
-14
+13
 )
 run
 :
@@ -786,7 +786,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 resources
@@ -800,7 +800,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 -
@@ -847,7 +847,7 @@ fetch
 -
 clang
 -
-14
+13
 toolchain
 :
 -
@@ -855,7 +855,7 @@ linux64
 -
 clang
 -
-14
+13
 -
 stage1
 -
@@ -874,7 +874,7 @@ compiler
 -
 rt
 -
-14
+13
 :
 description
 :
@@ -886,7 +886,7 @@ Compiler
 rt
 for
 Clang
-14
+13
 toolchain
 build
 "
@@ -900,7 +900,7 @@ aarch64
 -
 crt
 -
-14
+13
 )
 run
 :
@@ -915,7 +915,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 resources
@@ -929,7 +929,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 -
@@ -976,7 +976,7 @@ fetch
 -
 clang
 -
-14
+13
 toolchain
 :
 -
@@ -984,7 +984,7 @@ linux64
 -
 clang
 -
-14
+13
 -
 stage1
 -
@@ -1003,7 +1003,7 @@ compiler
 -
 rt
 -
-14
+13
 :
 description
 :
@@ -1015,7 +1015,7 @@ Compiler
 rt
 for
 Clang
-14
+13
 toolchain
 build
 "
@@ -1029,7 +1029,7 @@ x64
 -
 crt
 -
-14
+13
 )
 run
 :
@@ -1044,7 +1044,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 resources
@@ -1058,7 +1058,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 -
@@ -1103,7 +1103,7 @@ fetch
 -
 clang
 -
-14
+13
 toolchain
 :
 -
@@ -1111,7 +1111,7 @@ linux64
 -
 clang
 -
-14
+13
 -
 stage1
 -
@@ -1130,7 +1130,7 @@ compiler
 -
 rt
 -
-14
+13
 :
 description
 :
@@ -1142,7 +1142,7 @@ Compiler
 rt
 for
 Clang
-14
+13
 toolchain
 build
 "
@@ -1156,7 +1156,7 @@ aarch64
 -
 crt
 -
-14
+13
 )
 run
 :
@@ -1171,7 +1171,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 resources
@@ -1185,7 +1185,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 -
@@ -1230,7 +1230,7 @@ fetch
 -
 clang
 -
-14
+13
 toolchain
 :
 -
@@ -1238,7 +1238,7 @@ linux64
 -
 clang
 -
-14
+13
 -
 stage1
 -
@@ -1255,7 +1255,7 @@ compiler
 -
 rt
 -
-14
+13
 :
 description
 :
@@ -1267,7 +1267,7 @@ Compiler
 rt
 for
 Clang
-14
+13
 toolchain
 build
 "
@@ -1279,7 +1279,7 @@ TW32
 (
 crt
 -
-14
+13
 )
 run
 :
@@ -1294,7 +1294,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 resources
@@ -1308,7 +1308,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 -
@@ -1355,7 +1355,7 @@ fetch
 -
 clang
 -
-14
+13
 toolchain
 :
 -
@@ -1363,7 +1363,7 @@ linux64
 -
 clang
 -
-14
+13
 -
 stage1
 -
@@ -1373,14 +1373,14 @@ liblowercase
 -
 win64
 -
-vs2019
+vs2017
 win64
 -
 compiler
 -
 rt
 -
-14
+13
 :
 description
 :
@@ -1392,7 +1392,7 @@ Compiler
 rt
 for
 Clang
-14
+13
 toolchain
 build
 "
@@ -1404,7 +1404,7 @@ TW64
 (
 crt
 -
-14
+13
 )
 run
 :
@@ -1419,7 +1419,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 resources
@@ -1433,7 +1433,7 @@ clang
 /
 clang
 -
-14
+13
 .
 json
 -
@@ -1480,7 +1480,7 @@ fetch
 -
 clang
 -
-14
+13
 toolchain
 :
 -
@@ -1488,7 +1488,7 @@ linux64
 -
 clang
 -
-14
+13
 -
 stage1
 -
@@ -1498,7 +1498,7 @@ liblowercase
 -
 win64
 -
-vs2019
+vs2017
 wasm32
 -
 wasi
@@ -1507,7 +1507,7 @@ compiler
 -
 rt
 -
-14
+13
 :
 description
 :
@@ -1520,7 +1520,7 @@ Compiler
 rt
 for
 Clang
-14
+13
 toolchain
 build
 "
@@ -1534,7 +1534,7 @@ wasi
 -
 crt
 -
-14
+13
 )
 worker
 -
@@ -1595,7 +1595,7 @@ fetch
 -
 clang
 -
-14
+13
 -
 wasi
 -
@@ -1607,6 +1607,6 @@ linux64
 -
 clang
 -
-14
+13
 -
 stage1
