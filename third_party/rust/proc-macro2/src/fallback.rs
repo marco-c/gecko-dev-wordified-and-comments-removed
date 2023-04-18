@@ -127,12 +127,6 @@ std
 :
 vec
 ;
-use
-unicode_xid
-:
-:
-UnicodeXID
-;
 pub
 fn
 force
@@ -3724,7 +3718,7 @@ _
 '
 |
 |
-UnicodeXID
+unicode_ident
 :
 :
 is_xid_start
@@ -3747,7 +3741,7 @@ char
 >
 bool
 {
-UnicodeXID
+unicode_ident
 :
 :
 is_xid_continue
