@@ -281,11 +281,6 @@ Keep
 Alive
 "
 "
-Large
--
-Allocation
-"
-"
 Last
 -
 Modified

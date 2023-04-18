@@ -411,14 +411,6 @@ workerRemoteType
 )
 )
 ;
-MOZ_ASSERT
-(
-workerRemoteType
-!
-=
-LARGE_ALLOCATION_REMOTE_TYPE
-)
-;
 return
 processRemoteType
 .

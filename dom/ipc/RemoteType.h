@@ -92,13 +92,6 @@ COEP
 _ns
 #
 define
-LARGE_ALLOCATION_REMOTE_TYPE
-"
-webLargeAllocation
-"
-_ns
-#
-define
 SERVICEWORKER_REMOTE_TYPE
 "
 webServiceWorker
