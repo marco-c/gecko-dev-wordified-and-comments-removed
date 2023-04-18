@@ -3270,6 +3270,11 @@ mRelativePopupPosition
 {
 }
 ;
+GdkPoint
+mRelativePopupOffset
+{
+}
+;
 RefPtr
 <
 nsWindow
