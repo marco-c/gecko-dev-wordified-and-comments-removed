@@ -307,10 +307,9 @@ rhs
         
 self
 .
-assertTrue
+assertGreater
 (
 lhs
->
 4
 *
 rhs
@@ -327,10 +326,9 @@ rhs
         
 self
 .
-assertTrue
+assertLess
 (
 lhs
-<
 2
 *
 rhs
@@ -338,10 +336,9 @@ rhs
         
 self
 .
-assertTrue
+assertGreater
 (
 lhs
->
 rhs
 /
 2
@@ -458,15 +455,16 @@ self
 .
 marionette
 .
-execute_script
+execute_async_script
 (
                 
 "
 "
 "
                 
-let
+const
 [
+name
 resolve
 ]
 =
@@ -486,22 +484,18 @@ addObserver
 resolve
 (
 )
-"
-{
-}
-"
+name
 )
 ;
             
 "
 "
 "
-.
-format
-(
-                    
-name
                 
+script_args
+=
+(
+name
 )
             
 )
@@ -541,7 +535,16 @@ execute_script
 "
 "
                 
-let
+const
+name
+=
+arguments
+[
+0
+]
+;
+                
+const
 snapshot
 =
 Services
@@ -561,9 +564,9 @@ return
 snapshot
 .
 parent
-.
-{
-}
+[
+name
+]
 .
 values
 ;
@@ -571,12 +574,11 @@ values
 "
 "
 "
-.
-format
-(
-                    
-name
                 
+script_args
+=
+(
+name
 )
             
 )
