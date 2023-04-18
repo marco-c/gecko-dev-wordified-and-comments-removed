@@ -102,6 +102,11 @@ Snapshots
 jsm
 "
 "
+SnapshotScorer
+.
+jsm
+"
+"
 SnapshotSelector
 .
 jsm
