@@ -1349,9 +1349,12 @@ ScriptLoadRequest
 aRequest
 )
 ;
-nsresult
-MaybePrepareForBytecodeEncoding
+void
+MaybePrepareForBytecodeEncodingBeforeExecute
 (
+ScriptLoadRequest
+*
+aRequest
 JS
 :
 :
@@ -1361,6 +1364,11 @@ JSScript
 *
 >
 aScript
+)
+;
+nsresult
+MaybePrepareForBytecodeEncodingAfterExecute
+(
 ScriptLoadRequest
 *
 aRequest
