@@ -312,6 +312,11 @@ content
 "
 string
 "
+media
+:
+"
+string
+"
 scheme
 :
 "
