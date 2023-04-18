@@ -65,6 +65,15 @@ include
 "
 mozilla
 /
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
