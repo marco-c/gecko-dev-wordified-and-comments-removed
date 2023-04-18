@@ -1806,6 +1806,9 @@ loading
 .
 png
 )
+#
+ifdef
+NIGHTLY_BUILD
 skin
 /
 classic
@@ -1836,6 +1839,8 @@ dial
 .
 svg
 )
+#
+endif
 skin
 /
 classic
