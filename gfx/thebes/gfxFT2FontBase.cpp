@@ -215,7 +215,6 @@ gfxFT2FontBase
 LockFTFace
 (
 )
-const
 CAPABILITY_ACQUIRE
 (
 mFTFace
@@ -289,7 +288,6 @@ gfxFT2FontBase
 UnlockFTFace
 (
 )
-const
 CAPABILITY_RELEASE
 (
 mFTFace
@@ -2817,6 +2815,23 @@ strikeoutSize
 #
 endif
 }
+const
+gfxFont
+:
+:
+Metrics
+&
+gfxFT2FontBase
+:
+:
+GetHorizontalMetrics
+(
+)
+{
+return
+mMetrics
+;
+}
 uint32_t
 gfxFT2FontBase
 :
@@ -2983,7 +2998,6 @@ GetEmboldenStrength
 FT_Face
 aFace
 )
-const
 {
 FT_Vector
 strength
@@ -3148,7 +3162,6 @@ IntRect
 *
 aBounds
 )
-const
 {
 gfxFT2LockedFace
 face
@@ -3575,7 +3588,6 @@ IntRect
 *
 aBounds
 )
-const
 {
 if
 (
@@ -3691,7 +3703,6 @@ aBounds
 bool
 aTight
 )
-const
 {
 IntRect
 bounds

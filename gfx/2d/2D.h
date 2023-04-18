@@ -3532,7 +3532,6 @@ mData
 bool
 Lock
 (
-const
 void
 *
 aOwner
@@ -3585,7 +3584,6 @@ Unlock
 void
 ForgetLockOwner
 (
-const
 void
 *
 aOwner
@@ -3620,7 +3618,6 @@ mLock
 ;
 Atomic
 <
-const
 void
 *
 >

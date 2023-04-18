@@ -1787,7 +1787,6 @@ gfxFontEntry
 :
 TryGetSVGData
 (
-const
 gfxFont
 *
 aFont
@@ -1959,7 +1958,6 @@ count
 i
 )
 {
-const
 gfxFont
 *
 font
