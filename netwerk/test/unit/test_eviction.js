@@ -180,7 +180,7 @@ now
 ;
 Services
 .
-cookiemgr
+cookies
 .
 removeAll
 (
@@ -257,7 +257,7 @@ check_remaining_cookies
 ;
 Services
 .
-cookiemgr
+cookies
 .
 removeAll
 (
@@ -334,7 +334,7 @@ check_remaining_cookies
 ;
 Services
 .
-cookiemgr
+cookies
 .
 removeAll
 (
@@ -411,7 +411,7 @@ check_remaining_cookies
 ;
 Services
 .
-cookiemgr
+cookies
 .
 removeAll
 (
@@ -460,7 +460,7 @@ check_remaining_cookies
 ;
 Services
 .
-cookiemgr
+cookies
 .
 removeAll
 (
@@ -537,7 +537,7 @@ check_remaining_cookies
 ;
 Services
 .
-cookiemgr
+cookies
 .
 removeAll
 (
@@ -718,7 +718,7 @@ tests
 ;
 Services
 .
-cookiemgr
+cookies
 .
 add
 (
@@ -838,7 +838,7 @@ cookies
 =
 Services
 .
-cookiemgr
+cookies
 .
 getCookiesFromHost
 (
@@ -890,7 +890,7 @@ cookie
 of
 Services
 .
-cookiemgr
+cookies
 .
 cookies
 )
