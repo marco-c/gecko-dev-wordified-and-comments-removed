@@ -6986,7 +6986,7 @@ previousSession
 =
 mGeckoView
 .
-releaseSession
+getSession
 (
 )
 ;
