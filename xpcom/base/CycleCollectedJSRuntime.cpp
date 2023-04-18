@@ -636,7 +636,7 @@ if
 JS
 :
 :
-GCThingIsMarkedGray
+GCThingIsMarkedGrayInCC
 (
 aThing
 )
@@ -793,7 +793,7 @@ aKey
 JS
 :
 :
-GCThingIsMarkedGray
+GCThingIsMarkedGrayInCC
 (
 aKey
 )
@@ -821,7 +821,7 @@ aValue
 JS
 :
 :
-GCThingIsMarkedGray
+GCThingIsMarkedGrayInCC
 (
 aValue
 )
@@ -1004,7 +1004,7 @@ aKey
 JS
 :
 :
-GCThingIsMarkedGray
+GCThingIsMarkedGrayInCC
 (
 aKey
 )
@@ -1070,7 +1070,7 @@ aKey
 JS
 :
 :
-GCThingIsMarkedGray
+GCThingIsMarkedGrayInCC
 (
 aKey
 )
@@ -1084,7 +1084,7 @@ aValue
 JS
 :
 :
-GCThingIsMarkedGray
+GCThingIsMarkedGrayInCC
 (
 aValue
 )
@@ -1220,7 +1220,7 @@ aValue
 JS
 :
 :
-GCThingIsMarkedGray
+GCThingIsMarkedGrayInCC
 (
 aValue
 )
@@ -1235,7 +1235,7 @@ aKey
 JS
 :
 :
-GCThingIsMarkedGray
+GCThingIsMarkedGrayInCC
 (
 aKey
 )
@@ -1654,7 +1654,7 @@ kind
 JS
 :
 :
-GCThingIsMarkedGray
+GCThingIsMarkedGrayInCC
 (
 aThing
 )
@@ -1954,7 +1954,7 @@ if
 JS
 :
 :
-GCThingIsMarkedGray
+GCThingIsMarkedGrayInCC
 (
 aThing
 )
@@ -4362,7 +4362,7 @@ isMarkedGray
 JS
 :
 :
-GCThingIsMarkedGray
+GCThingIsMarkedGrayInCC
 (
 aThing
 )
