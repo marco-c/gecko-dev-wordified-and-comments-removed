@@ -352,7 +352,10 @@ mFontSizeKeyword
 int8_t
 mMathDepth
 ;
-uint8_t
+mozilla
+:
+:
+StyleMathMLMathVariant
 mMathVariant
 ;
 uint8_t

@@ -188,7 +188,10 @@ mozilla
 StyleTextTransform
 mTextTransform
 ;
-uint8_t
+mozilla
+:
+:
+StyleMathMLMathVariant
 mMathVariant
 ;
 bool
