@@ -659,6 +659,10 @@ mSheetNeedsShow
 (
 false
 )
+mSizeMode
+(
+nsSizeMode_Normal
+)
 mInFullScreenMode
 (
 false

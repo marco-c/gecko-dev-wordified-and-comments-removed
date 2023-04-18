@@ -403,6 +403,10 @@ mCompositorWidget
 (
 nullptr
 )
+mSizeMode
+(
+nsSizeMode_Normal
+)
 mLastSizeMode
 (
 nsSizeMode_Normal
@@ -1622,13 +1626,9 @@ mSizeMode
 return
 ;
 }
-nsBaseWidget
-:
-:
-SetSizeMode
-(
+mSizeMode
+=
 aMode
-)
 ;
 ApplySizeModeSideEffects
 (

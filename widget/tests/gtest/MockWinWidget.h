@@ -112,6 +112,15 @@ SizeMode
 override
 ;
 void
+SetSizeMode
+(
+nsSizeMode
+aMode
+)
+override
+{
+}
+void
 *
 GetNativeData
 (

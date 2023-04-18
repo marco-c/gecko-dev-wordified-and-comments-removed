@@ -990,6 +990,17 @@ aY
 override
 ;
 virtual
+nsSizeMode
+SizeMode
+(
+)
+override
+{
+return
+mSizeMode
+;
+}
+virtual
 void
 SetSizeMode
 (
@@ -1893,6 +1904,9 @@ mWindowMadeHere
 ;
 bool
 mSheetNeedsShow
+;
+nsSizeMode
+mSizeMode
 ;
 bool
 mInFullScreenMode

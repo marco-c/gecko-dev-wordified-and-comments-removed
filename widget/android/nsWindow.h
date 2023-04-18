@@ -668,6 +668,17 @@ aZIndex
 override
 ;
 virtual
+nsSizeMode
+SizeMode
+(
+)
+override
+{
+return
+mSizeMode
+;
+}
+virtual
 void
 SetSizeMode
 (
@@ -1251,6 +1262,9 @@ mozilla
 :
 ScreenIntMargin
 mSafeAreaInsets
+;
+nsSizeMode
+mSizeMode
 ;
 bool
 mIsFullScreen

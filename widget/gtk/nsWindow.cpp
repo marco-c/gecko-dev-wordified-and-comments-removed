@@ -12758,13 +12758,9 @@ n
 aMode
 )
 ;
-nsBaseWidget
-:
-:
-SetSizeMode
-(
+mSizeMode
+=
 aMode
-)
 ;
 if
 (
