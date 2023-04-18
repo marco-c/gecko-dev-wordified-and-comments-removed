@@ -442,17 +442,6 @@ const
 final
 ;
 virtual
-void
-MarkAsNotScriptCreated
-(
-const
-char
-*
-aCommand
-)
-override
-;
-virtual
 bool
 IsScriptCreated
 (

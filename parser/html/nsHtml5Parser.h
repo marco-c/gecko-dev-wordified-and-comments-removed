@@ -402,7 +402,6 @@ HasNonzeroScriptNestingLevel
 const
 final
 ;
-virtual
 void
 MarkAsNotScriptCreated
 (
@@ -411,7 +410,6 @@ char
 *
 aCommand
 )
-override
 ;
 virtual
 bool
