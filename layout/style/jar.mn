@@ -57,6 +57,7 @@ toolkit
 .
 jar
 :
+*
 res
 /
 ua
@@ -69,6 +70,7 @@ ua
 .
 css
 )
+*
 res
 /
 html
@@ -129,6 +131,7 @@ noframes
 .
 css
 )
+*
 res
 /
 scrollbars
@@ -141,6 +144,7 @@ scrollbars
 .
 css
 )
+*
 res
 /
 forms
