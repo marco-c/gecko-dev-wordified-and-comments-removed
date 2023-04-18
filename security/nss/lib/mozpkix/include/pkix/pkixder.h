@@ -1650,7 +1650,6 @@ PublicKeyAlgorithm
 {
 RSA_PKCS1
 ECDSA
-Uninitialized
 }
 ;
 Result
@@ -1707,6 +1706,19 @@ tbs
 SignedDataWithSignature
 &
 signedDataWithSignature
+)
+;
+Result
+ECDSASigValue
+(
+Input
+ecdsaSignature
+Input
+&
+r
+Input
+&
+s
 )
 ;
 }

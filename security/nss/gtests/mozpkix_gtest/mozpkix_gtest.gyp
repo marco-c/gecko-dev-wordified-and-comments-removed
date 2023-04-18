@@ -203,6 +203,11 @@ pkixnames_tests
 cpp
 '
 '
+pkixnss_tests
+.
+cpp
+'
+'
 pkixocsp_CreateEncodedOCSPRequest_tests
 .
 cpp
