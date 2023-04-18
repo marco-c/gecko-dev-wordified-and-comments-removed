@@ -66,6 +66,16 @@ true
 ]
 [
 "
+browser
+.
+download
+.
+always_ask_before_handling_new_types
+"
+false
+]
+[
+"
 security
 .
 dialog_enable_delay

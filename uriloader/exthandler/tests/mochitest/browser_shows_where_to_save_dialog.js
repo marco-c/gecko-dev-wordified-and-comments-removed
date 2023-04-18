@@ -115,6 +115,16 @@ browser
 .
 download
 .
+always_ask_before_handling_new_types
+"
+false
+]
+[
+"
+browser
+.
+download
+.
 useDownloadDir
 "
 false

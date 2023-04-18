@@ -242,6 +242,16 @@ browser
 .
 download
 .
+always_ask_before_handling_new_types
+"
+false
+]
+[
+"
+browser
+.
+download
+.
 enable_spam_prevention
 "
 true

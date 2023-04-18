@@ -477,7 +477,6 @@ equal
 handlerInfo
 .
 alwaysAskBeforeHandling
-!
 prefSvc
 .
 getBoolPref
@@ -487,7 +486,7 @@ browser
 .
 download
 .
-improvements_to_download_panel
+always_ask_before_handling_new_types
 "
 false
 )
