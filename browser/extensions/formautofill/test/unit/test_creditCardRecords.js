@@ -4994,7 +4994,7 @@ Services
 .
 prefs
 .
-setCharPref
+setBoolPref
 (
 "
 extensions
@@ -5003,11 +5003,9 @@ formautofill
 .
 creditCards
 .
-supported
+available
 "
-"
-off
-"
+false
 )
 ;
 let
@@ -5097,7 +5095,7 @@ Services
 .
 prefs
 .
-clearUserPref
+setBoolPref
 (
 "
 extensions
@@ -5106,8 +5104,9 @@ formautofill
 .
 creditCards
 .
-availability
+available
 "
+true
 )
 ;
 }
