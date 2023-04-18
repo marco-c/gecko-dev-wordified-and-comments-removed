@@ -19,6 +19,11 @@ UTF
 -
 8
 <
+!
+DOCTYPE
+html
+>
+<
 script
 >
 console

@@ -25,6 +25,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 foo
 "
 ;
