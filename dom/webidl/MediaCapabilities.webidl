@@ -207,7 +207,7 @@ long
 bitrate
 ;
 required
-DOMString
+double
 framerate
 ;
 boolean
