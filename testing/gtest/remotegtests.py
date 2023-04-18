@@ -93,7 +93,6 @@ build_environment
 self
 shuffle
 test_filter
-enable_webrender
 )
 :
         
@@ -280,10 +279,6 @@ GTEST_FILTER
 =
 test_filter
         
-if
-enable_webrender
-:
-            
 env
 [
 "
@@ -293,20 +288,6 @@ MOZ_WEBRENDER
 =
 "
 1
-"
-        
-else
-:
-            
-env
-[
-"
-MOZ_WEBRENDER
-"
-]
-=
-"
-0
 "
         
 return
@@ -335,8 +316,6 @@ remote_test_root
 libxul_path
         
 symbols_path
-        
-enable_webrender
     
 )
 :
@@ -657,7 +636,6 @@ build_environment
 (
 shuffle
 test_filter
-enable_webrender
 )
         
 args
@@ -2717,49 +2695,6 @@ self
 .
 add_argument
 (
-            
-"
--
--
-enable
--
-webrender
-"
-            
-action
-=
-"
-store_true
-"
-            
-dest
-=
-"
-enable_webrender
-"
-            
-default
-=
-False
-            
-help
-=
-"
-Enable
-the
-WebRender
-compositor
-in
-Gecko
-.
-"
-        
-)
-        
-self
-.
-add_argument
-(
 "
 args
 "
@@ -3030,10 +2965,6 @@ libxul_path
 options
 .
 symbols_path
-            
-options
-.
-enable_webrender
         
 )
     

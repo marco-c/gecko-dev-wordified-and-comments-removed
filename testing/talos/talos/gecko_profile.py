@@ -175,15 +175,6 @@ Compositor
         
 )
         
-if
-browser_config
-[
-"
-enable_webrender
-"
-]
-:
-            
 gecko_profile_threads
 +
 =

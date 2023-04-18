@@ -141,10 +141,6 @@ cold
 =
 False
         
-enable_webrender
-=
-False
-        
 chimera
 =
 False
@@ -251,12 +247,6 @@ autostart
 False
         
 )
-        
-self
-.
-webrender_enabled
-=
-enable_webrender
         
 self
 .
@@ -426,12 +416,6 @@ cold
 "
 )
             
-if
-self
-.
-webrender_enabled
-:
-                
 extra_options
 .
 append
@@ -498,8 +482,6 @@ name
 )
         
 if
-(
-            
 self
 .
 app
@@ -507,32 +489,22 @@ app
 lower
 (
 )
-            
 in
 (
-                
+            
 "
 chrome
 "
-                
+            
 "
 chrome
 -
 m
 "
-                
+            
 "
 chromium
 "
-            
-)
-            
-and
-"
-webrender
-"
-in
-extra_options
         
 )
 :
@@ -1433,15 +1405,6 @@ self
 fission_enabled
 "
 fission
-"
-)
-                    
-(
-self
-.
-webrender_enabled
-"
-webrender
 "
 )
                 

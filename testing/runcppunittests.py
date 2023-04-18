@@ -599,7 +599,6 @@ build_core_environment
 (
 self
 env
-enable_webrender
 )
 :
         
@@ -674,46 +673,6 @@ MOZ_CRASHREPORTER
 1
 "
         
-if
-enable_webrender
-:
-            
-env
-[
-"
-MOZ_WEBRENDER
-"
-]
-=
-"
-1
-"
-            
-env
-[
-"
-MOZ_ACCELERATED
-"
-]
-=
-"
-1
-"
-        
-else
-:
-            
-env
-[
-"
-MOZ_WEBRENDER
-"
-]
-=
-"
-0
-"
-        
 return
 env
     
@@ -721,9 +680,6 @@ def
 build_environment
 (
 self
-enable_webrender
-=
-False
 )
 :
         
@@ -821,7 +777,6 @@ self
 build_core_environment
 (
 env
-enable_webrender
 )
         
 pathvar
@@ -1114,10 +1069,6 @@ utility_path
 =
 None
         
-enable_webrender
-=
-False
-        
 interactive
 =
 False
@@ -1291,7 +1242,6 @@ self
 .
 build_environment
 (
-enable_webrender
 )
         
 pass_count
@@ -1650,48 +1600,6 @@ directory
 containing
 utility
 programs
-"
-        
-)
-        
-self
-.
-add_option
-(
-            
-"
--
--
-enable
--
-webrender
-"
-            
-action
-=
-"
-store_true
-"
-            
-dest
-=
-"
-enable_webrender
-"
-            
-default
-=
-False
-            
-help
-=
-"
-Enable
-the
-WebRender
-compositor
-in
-Gecko
 "
         
 )
@@ -2251,10 +2159,6 @@ symbols_path
 options
 .
 utility_path
-        
-options
-.
-enable_webrender
     
 )
     

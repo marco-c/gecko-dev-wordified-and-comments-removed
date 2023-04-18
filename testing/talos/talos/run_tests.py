@@ -1892,16 +1892,7 @@ sw
 "
 )
     
-elif
-browser_config
-.
-get
-(
-"
-enable_webrender
-"
-False
-)
+else
 :
         
 talos_results

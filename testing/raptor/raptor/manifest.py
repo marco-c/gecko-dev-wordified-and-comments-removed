@@ -1396,22 +1396,6 @@ Compositor
 "
 ]
         
-if
-os
-.
-getenv
-(
-"
-MOZ_WEBRENDER
-"
-)
-=
-=
-"
-1
-"
-:
-            
 threads
 .
 extend
