@@ -383,7 +383,7 @@ MOZ_ASSERT
 mRequest
 -
 >
-IsLoading
+IsFetching
 (
 )
 )
@@ -1530,7 +1530,7 @@ MOZ_ASSERT
 mRequest
 -
 >
-IsLoading
+IsFetching
 (
 )
 )
@@ -1730,7 +1730,7 @@ MOZ_ASSERT
 mRequest
 -
 >
-IsLoading
+IsFetching
 (
 )
 )
