@@ -1009,16 +1009,6 @@ settings
 )
 {
 const
-tempDir
-=
-await
-PathUtils
-.
-getTempDir
-(
-)
-;
-const
 filePath
 =
 await
@@ -1026,6 +1016,8 @@ IOUtils
 .
 createUniqueFile
 (
+PathUtils
+.
 tempDir
 "
 marionette
