@@ -3466,14 +3466,6 @@ HandleObject
 weakRef
 )
 ;
-bool
-unregisterWeakRefWrapper
-(
-JSObject
-*
-wrapper
-)
-;
 void
 traceKeptObjects
 (
