@@ -631,12 +631,6 @@ length
 ;
 }
 const
-removedIds
-=
-[
-]
-;
-const
 warningGroupType
 =
 getWarningGroupType
@@ -1397,11 +1391,7 @@ newMessage
 ;
 }
 return
-removeMessagesFromState
-(
 state
-removedIds
-)
 ;
 }
 function
