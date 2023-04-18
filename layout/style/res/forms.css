@@ -6898,6 +6898,9 @@ GrayText
 input
 :
 autofill
+select
+:
+autofill
 {
 /
 *
@@ -6955,6 +6958,14 @@ background
 ;
 }
 input
+:
+-
+moz
+-
+autofill
+-
+preview
+select
 :
 -
 moz
