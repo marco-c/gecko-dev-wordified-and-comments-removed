@@ -95,7 +95,7 @@ Document
 ;
 }
 class
-ContentBlocking
+StorageAccessAPIHelper
 final
 {
 public
