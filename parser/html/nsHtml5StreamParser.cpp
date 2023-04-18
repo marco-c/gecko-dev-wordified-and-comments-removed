@@ -2030,7 +2030,7 @@ uuid
 nsresult
 rv
 =
-nsID
+nsContentUtils
 :
 :
 GenerateUUIDInPlace

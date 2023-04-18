@@ -87,6 +87,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 prthread
 .
 h
@@ -426,7 +433,7 @@ id
 nsresult
 rv
 =
-nsID
+nsContentUtils
 :
 :
 GenerateUUIDInPlace
@@ -1528,7 +1535,7 @@ id
 ;
 rv
 =
-nsID
+nsContentUtils
 :
 :
 GenerateUUIDInPlace

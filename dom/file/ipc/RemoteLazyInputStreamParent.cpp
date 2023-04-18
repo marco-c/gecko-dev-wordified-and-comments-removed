@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 RemoteLazyInputStreamStorage
 .
 h
@@ -80,7 +87,7 @@ id
 *
 aRv
 =
-nsID
+nsContentUtils
 :
 :
 GenerateUUIDInPlace

@@ -1,6 +1,13 @@
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -1248,7 +1255,7 @@ uuid
 nsresult
 rv
 =
-nsID
+nsContentUtils
 :
 :
 GenerateUUIDInPlace
