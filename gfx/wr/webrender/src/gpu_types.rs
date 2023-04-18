@@ -1341,6 +1341,13 @@ f32
 }
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Debug
@@ -1375,13 +1382,6 @@ derive
 (
 Deserialize
 )
-)
-]
-#
-[
-allow
-(
-dead_code
 )
 ]
 pub
