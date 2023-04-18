@@ -179,6 +179,9 @@ MODE_CLIENT
 ;
 enum
 {
+#
+ifndef
+FUZZING
 kMaximumMessageSize
 =
 256
@@ -186,6 +189,17 @@ kMaximumMessageSize
 1024
 *
 1024
+#
+else
+kMaximumMessageSize
+=
+1792
+*
+1024
+*
+1024
+#
+endif
 kReadBufferSize
 =
 4
