@@ -149,8 +149,13 @@ on
 releases
 :
 [
-beta
 ]
+#
+disabled
+until
+uploads
+fully
+working
 shipping
 -
 phase
