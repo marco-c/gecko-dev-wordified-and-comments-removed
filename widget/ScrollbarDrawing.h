@@ -323,6 +323,15 @@ StyleScrollbarWidth
 Overlay
 )
 ;
+ScrollbarSizes
+GetScrollbarSizes
+(
+nsPresContext
+*
+nsIFrame
+*
+)
+;
 virtual
 LayoutDeviceIntSize
 GetMinimumWidgetSize
