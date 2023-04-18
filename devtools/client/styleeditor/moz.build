@@ -25,6 +25,11 @@ panel
 js
 "
 "
+SplitView
+.
+jsm
+"
+"
 StyleEditorUI
 .
 jsm
