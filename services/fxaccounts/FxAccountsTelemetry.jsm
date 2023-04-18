@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Observers
 :
@@ -121,7 +127,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 pref_sanitizedUid
 "
@@ -144,6 +150,8 @@ _fxai
 =
 fxai
 ;
+lazy
+.
 Services
 .
 telemetry
@@ -186,6 +194,8 @@ js
 "
 )
 ;
+lazy
+.
 Observers
 .
 notify
@@ -211,6 +221,8 @@ generateUUID
 )
 {
 return
+lazy
+.
 Services
 .
 uuid
@@ -254,6 +266,8 @@ if
 hashedUID
 )
 {
+lazy
+.
 Services
 .
 prefs
@@ -266,6 +280,8 @@ PREF_SANITIZED_UID
 }
 else
 {
+lazy
+.
 Services
 .
 prefs
@@ -283,6 +299,8 @@ getSanitizedUID
 )
 {
 return
+lazy
+.
 pref_sanitizedUid
 |
 |
@@ -314,6 +332,8 @@ null
 ;
 }
 return
+lazy
+.
 CryptoUtils
 .
 sha256
@@ -386,6 +406,8 @@ true
 "
 ;
 }
+lazy
+.
 Services
 .
 telemetry
@@ -476,6 +498,8 @@ true
 ;
 if
 (
+lazy
+.
 Services
 .
 prefs
@@ -542,6 +566,8 @@ service
 )
 ;
 }
+lazy
+.
 Services
 .
 telemetry

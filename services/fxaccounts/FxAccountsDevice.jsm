@@ -106,11 +106,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CommonUtils
 "
@@ -144,7 +150,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 pref_localDeviceName
 "
@@ -668,6 +674,8 @@ PREF_DEPRECATED_DEVICE_NAME
 let
 name
 =
+lazy
+.
 pref_localDeviceName
 ;
 if
@@ -1438,6 +1446,8 @@ registeredCommandsKeys
 |
 |
 !
+lazy
+.
 CommonUtils
 .
 arrayEqual
@@ -1511,6 +1521,8 @@ sort
 if
 (
 !
+lazy
+.
 CommonUtils
 .
 arrayEqual

@@ -129,11 +129,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 URL
@@ -196,6 +202,8 @@ this
 serverURL
 =
 new
+lazy
+.
 URL
 (
 options

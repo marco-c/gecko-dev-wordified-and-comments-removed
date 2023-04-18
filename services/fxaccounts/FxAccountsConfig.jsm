@@ -108,11 +108,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -152,7 +158,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 EnsureFxAccountsWebChannel
 "
@@ -175,7 +181,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 ROOT_URL
 "
@@ -194,7 +200,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 CONTEXT_PARAM
 "
@@ -211,7 +217,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 REQUIRES_HTTPS
 "
@@ -668,6 +674,8 @@ return
 {
 context
 :
+lazy
+.
 CONTEXT_PARAM
 }
 ;
@@ -704,11 +712,15 @@ new
 URL
 (
 path
+lazy
+.
 ROOT_URL
 )
 ;
 if
 (
+lazy
+.
 REQUIRES_HTTPS
 &
 &
@@ -939,6 +951,8 @@ pref
 )
 ;
 }
+lazy
+.
 EnsureFxAccountsWebChannel
 (
 )
@@ -1320,6 +1334,8 @@ root
 rootURL
 )
 ;
+lazy
+.
 EnsureFxAccountsWebChannel
 (
 )
@@ -1368,6 +1384,8 @@ rootURL
 {
 rootURL
 =
+lazy
+.
 ROOT_URL
 ;
 }
@@ -1563,6 +1581,8 @@ getSignedInUser
 )
 {
 return
+lazy
+.
 fxAccounts
 .
 getSignedInUser
