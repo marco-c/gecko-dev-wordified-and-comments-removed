@@ -20,8 +20,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -511,7 +511,6 @@ mBufferSet
 ;
 }
 ;
-}
 }
 #
 endif

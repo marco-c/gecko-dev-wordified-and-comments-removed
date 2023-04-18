@@ -66,8 +66,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -482,7 +482,6 @@ mIsMandatory
 ;
 }
 ;
-}
 }
 #
 endif

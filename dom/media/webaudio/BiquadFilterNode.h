@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -286,7 +286,6 @@ mGain
 ;
 }
 ;
-}
 }
 #
 endif

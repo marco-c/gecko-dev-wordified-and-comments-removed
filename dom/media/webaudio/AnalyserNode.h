@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -397,7 +397,6 @@ mOutputBuffer
 ;
 }
 ;
-}
 }
 #
 endif

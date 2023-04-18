@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -264,7 +264,6 @@ mNumberOfInputChannels
 ;
 }
 ;
-}
 }
 #
 endif

@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -254,7 +254,6 @@ mInputCount
 ;
 }
 ;
-}
 }
 #
 endif

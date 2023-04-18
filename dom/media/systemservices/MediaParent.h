@@ -24,8 +24,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 media
 {
 class
@@ -364,7 +364,6 @@ PMediaParent
 aActor
 )
 ;
-}
 }
 #
 endif

@@ -61,8 +61,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1175,7 +1175,6 @@ mMaxValue
 ;
 }
 ;
-}
 }
 #
 endif

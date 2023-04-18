@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -340,7 +340,6 @@ mNormalize
 ;
 }
 ;
-}
 }
 #
 endif

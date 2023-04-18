@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -572,7 +572,6 @@ blockOffset
 i
 )
 ;
-}
 }
 }
 }

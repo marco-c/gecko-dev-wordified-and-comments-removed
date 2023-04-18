@@ -24,8 +24,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 typedef
@@ -35,7 +35,6 @@ AudioParamDescriptor
 >
 AudioParamDescriptorMap
 ;
-}
 }
 #
 endif

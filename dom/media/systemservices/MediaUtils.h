@@ -128,8 +128,8 @@ nsIEventTarget
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 media
 {
 template
@@ -1227,7 +1227,6 @@ forget
 p
 )
 ;
-}
 }
 }
 #

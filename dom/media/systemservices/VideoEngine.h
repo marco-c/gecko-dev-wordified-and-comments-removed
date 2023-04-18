@@ -74,8 +74,8 @@ functional
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 camera
 {
 class
@@ -392,7 +392,6 @@ GenerateId
 ;
 }
 ;
-}
 }
 #
 endif

@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -290,7 +290,6 @@ mOutputCount
 ;
 }
 ;
-}
 }
 #
 endif

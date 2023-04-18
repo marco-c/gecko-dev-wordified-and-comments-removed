@@ -36,8 +36,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -401,7 +401,6 @@ mDurationBeforeFirstTimeAudible
 ;
 }
 ;
-}
 }
 #
 endif

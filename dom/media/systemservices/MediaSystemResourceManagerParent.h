@@ -42,8 +42,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 media
 {
 class
@@ -195,7 +195,6 @@ mResourceRequests
 ;
 }
 ;
-}
 }
 #
 endif
