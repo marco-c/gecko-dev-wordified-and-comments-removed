@@ -7215,6 +7215,11 @@ intl
 .
 "
 "
+keyword
+.
+enabled
+"
+"
 layers
 .
 "
@@ -7249,6 +7254,13 @@ signon
 "
 spellchecker
 .
+"
+"
+toolkit
+.
+legacyUserProfileCustomizations
+.
+stylesheets
 "
 "
 ui
