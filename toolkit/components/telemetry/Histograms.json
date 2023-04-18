@@ -135614,9 +135614,11 @@ description
 "
 :
 "
-Percentage
+Frames
 of
-frames
+of
+10
+000
 decoded
 frames
 dropped
