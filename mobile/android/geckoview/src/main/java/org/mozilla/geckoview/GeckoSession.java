@@ -8578,6 +8578,11 @@ GeckoResult
 <
 >
 (
+ThreadUtils
+.
+getUiHandler
+(
+)
 )
 ;
 ThreadUtils
