@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CanonicalJSON
 "
@@ -78,7 +84,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -337,6 +343,8 @@ key
 }
 }
 return
+lazy
+.
 fetch
 (
 url
@@ -640,6 +648,8 @@ string
 ?
 data
 :
+lazy
+.
 CanonicalJSON
 .
 stringify
