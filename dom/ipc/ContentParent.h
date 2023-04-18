@@ -2106,10 +2106,6 @@ nsCString
 &
 aFeatures
 const
-float
-&
-aFullZoom
-const
 IPC
 :
 :
@@ -2166,10 +2162,6 @@ const
 nsCString
 &
 aFeatures
-const
-float
-&
-aFullZoom
 const
 nsString
 &
@@ -3200,7 +3192,7 @@ PBrowserParent
 *
 aThisTab
 BrowsingContext
-*
+&
 aParent
 bool
 aSetOpener
@@ -3227,10 +3219,6 @@ const
 nsCString
 &
 aFeatures
-const
-float
-&
-aFullZoom
 BrowserParent
 *
 aNextRemoteBrowser
