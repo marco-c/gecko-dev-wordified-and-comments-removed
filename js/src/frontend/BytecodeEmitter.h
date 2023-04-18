@@ -2070,9 +2070,6 @@ emitGoto
 NestableControl
 *
 target
-JumpList
-*
-jumplist
 GotoKind
 kind
 )
