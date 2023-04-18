@@ -15452,7 +15452,9 @@ name
 KeyframesName
 :
 :
-from_atom
+Ident
+(
+CustomIdent
 (
 Atom
 :
@@ -15460,6 +15462,7 @@ Atom
 from_addrefed
 (
 name
+)
 )
 )
 ;
