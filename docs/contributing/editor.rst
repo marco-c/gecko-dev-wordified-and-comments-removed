@@ -183,10 +183,6 @@ vscode
 dedicated
 page
 .
-.
-.
-_VIM
-:
 VIM
 -
 -
