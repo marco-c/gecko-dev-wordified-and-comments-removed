@@ -1988,6 +1988,32 @@ test
 )
 )
         
+if
+self
+.
+debug_mode
+:
+            
+browsertime_options
+.
+extend
+(
+[
+"
+-
+vv
+"
+"
+-
+-
+debug
+"
+"
+true
+"
+]
+)
+        
 self
 .
 results_handler
@@ -2172,14 +2198,6 @@ if
 self
 .
 verbose
-and
-"
--
-vvv
-"
-not
-in
-browsertime_options
 :
             
 browsertime_options
@@ -2756,6 +2774,22 @@ android
 .
 intentArgument
 "
+            
+"
+-
+-
+firefox
+.
+args
+"
+            
+"
+-
+-
+firefox
+.
+preference
+"
         
 ]
         
@@ -2955,6 +2989,17 @@ timeout
 )
 :
         
+if
+self
+.
+debug_mode
+:
+            
+return
+sys
+.
+maxsize
+        
 bt_timeout
 =
 int
@@ -3085,6 +3130,10 @@ test
 timeout
 )
         
+output_timeout
+=
+BROWSERTIME_PAGELOAD_OUTPUT_TIMEOUT
+        
 if
 test
 .
@@ -3103,9 +3152,29 @@ scenario
 "
 :
             
-BROWSERTIME_PAGELOAD_OUTPUT_TIMEOUT
+output_timeout
 =
 timeout
+        
+elif
+self
+.
+benchmark
+:
+            
+output_timeout
+=
+BROWSERTIME_BENCHMARK_OUTPUT_TIMEOUT
+        
+if
+self
+.
+debug_mode
+:
+            
+output_timeout
+=
+2147483647
         
 LOG
 .
@@ -3577,6 +3646,11 @@ error
 "
 in
 level
+and
+not
+self
+.
+debug_mode
 :
                     
 self
