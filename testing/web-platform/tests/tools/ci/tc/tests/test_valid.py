@@ -776,24 +776,21 @@ e
                 
 print
 (
+f
 "
 Validation
 failed
 for
 task
 '
-%
-s
+{
+name
+}
 '
 :
 \
 n
-%
-s
-"
-%
-(
-name
+{
 json
 .
 dumps
@@ -803,7 +800,8 @@ indent
 =
 2
 )
-)
+}
+"
 )
                 
 raise

@@ -4337,6 +4337,7 @@ logger
 .
 warning
 (
+f
 "
 Found
 a
@@ -4347,8 +4348,9 @@ should
 change
 status
 from
-%
-s
+{
+status
+}
 to
 CRASH
 but
@@ -4356,10 +4358,6 @@ this
 causes
 instability
 "
-%
-(
-status
-)
 )
         
 status_subns
@@ -5632,6 +5630,7 @@ logger
 .
 warning
 (
+f
 "
 Command
 left
@@ -5640,16 +5639,17 @@ command_queue
 during
 cleanup
 :
-%
-r
-%
-r
-"
-%
-(
+{
 cmd
+!
+r
+}
+{
 data
-)
+!
+r
+}
+"
 )
         
 while
@@ -5676,6 +5676,7 @@ logger
 .
 warning
 (
+f
 "
 Command
 left
@@ -5684,16 +5685,17 @@ remote_queue
 during
 cleanup
 :
-%
-r
-%
-r
-"
-%
-(
+{
 cmd
+!
+r
+}
+{
 data
-)
+!
+r
+}
+"
 )
             
 except

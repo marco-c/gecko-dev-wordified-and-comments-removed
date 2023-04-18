@@ -802,14 +802,9 @@ parser
 .
 prog
 =
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 os
 .
 path
@@ -818,8 +813,11 @@ basename
 (
 prog
 )
+}
+{
 command
-)
+}
+"
     
 else
 :

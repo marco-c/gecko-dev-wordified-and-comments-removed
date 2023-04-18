@@ -1118,17 +1118,15 @@ ref_path
             
 path
 =
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 path
+}
+{
 ref_path
-)
+}
+"
         
 proc
 =
@@ -1136,17 +1134,15 @@ subprocess
 .
 Popen
 (
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 editor
+}
+{
 path
-)
+}
+"
 shell
 =
 True

@@ -896,24 +896,22 @@ sync_tree
 .
 rev
                                 
+f
 "
 Update
-%
-s
-to
-revision
-%
-s
-"
-%
-(
+{
 state
 .
 suite_name
+}
+to
+revision
+{
 sync_tree
 .
 rev
-)
+}
+"
 )
         
 test_prefix

@@ -848,20 +848,18 @@ os
 .
 remove
 (
+f
 '
-%
-s
-/
-%
-s
-'
-%
-(
+{
 self
 .
 font_dir
+}
+/
+{
 font_name
-)
+}
+'
 )
         
 try

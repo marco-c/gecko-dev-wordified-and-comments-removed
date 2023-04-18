@@ -112,29 +112,27 @@ a
         
 message
 =
+f
 "
 /
-%
-s
+{
+filename
+}
 longer
 than
 maximum
 path
 length
 (
-%
-s
+{
+146
++
+idx
+}
 >
 150
 )
 "
-%
-(
-filename
-146
-+
-idx
-)
         
 errors
 =
@@ -320,10 +318,12 @@ test
     
 message
 =
+f
 "
 /
-%
-s
+{
+path
+}
 is
 an
 unsupported
@@ -333,10 +333,6 @@ type
 symlink
 )
 "
-%
-(
-path
-)
     
 with
 mock

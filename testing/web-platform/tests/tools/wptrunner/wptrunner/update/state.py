@@ -687,18 +687,18 @@ logger
 .
 debug
 (
+f
 "
 Loading
 data
-%
-r
-"
-%
-(
+{
 rv
 .
 _data
-)
+!
+r
+}
+"
 )
                     
 rv

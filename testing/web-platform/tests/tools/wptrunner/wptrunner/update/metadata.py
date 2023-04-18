@@ -199,26 +199,24 @@ rev
             
 message
 =
+f
 "
 Update
-%
-s
+{
+state
+.
+suite_name
+}
 expected
 data
 to
 revision
-%
-s
-"
-%
-(
-state
-.
-suite_name
+{
 sync_tree
 .
 rev
-)
+}
+"
         
 else
 :

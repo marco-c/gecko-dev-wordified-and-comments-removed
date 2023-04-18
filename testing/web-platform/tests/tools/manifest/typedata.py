@@ -755,9 +755,13 @@ dict
 raise
 KeyError
 (
+f
 "
-%
+{
+key
+!
 r
+}
 is
 a
 child
@@ -765,13 +769,7 @@ of
 a
 test
 (
-%
-r
-)
-"
-%
-(
-key
+{
 key
 [
 :
@@ -779,7 +777,11 @@ i
 +
 1
 ]
+!
+r
+}
 )
+"
 )
         
 node

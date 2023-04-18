@@ -745,25 +745,23 @@ self
 :
         
 return
+f
 "
 <
-%
-s
-%
-s
->
-"
-%
-(
+{
 self
 .
 __class__
+}
+{
 self
 .
 node
 .
 data
-)
+}
+>
+"
     
 def
 __str__

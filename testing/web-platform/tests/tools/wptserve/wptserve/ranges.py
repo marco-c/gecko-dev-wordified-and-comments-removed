@@ -71,17 +71,15 @@ HTTPException
 416
 message
 =
+f
 "
 Unrecognised
 range
 type
-%
-s
-"
-%
-(
+{
 header
-)
+}
+"
 )
         
 parts
@@ -423,25 +421,23 @@ self
 :
         
 return
+f
 "
 <
 Range
-%
-s
--
-%
-s
->
-"
-%
-(
+{
 self
 .
 lower
+}
+-
+{
 self
 .
 upper
-)
+}
+>
+"
     
 def
 __lt__

@@ -5995,23 +5995,21 @@ path
                 
 print
 (
+f
 "
 Fatal
 :
-%
-s
+{
+name
+}
 path
-%
-s
+{
+path
+}
 does
 not
 exist
 "
-%
-(
-name
-path
-)
 )
                 
 sys
@@ -6035,24 +6033,22 @@ path
                 
 print
 (
+f
 "
 Fatal
 :
-%
-s
+{
+name
+}
 path
-%
-s
+{
+path
+}
 is
 not
 a
 directory
 "
-%
-(
-name
-path
-)
 )
                 
 sys

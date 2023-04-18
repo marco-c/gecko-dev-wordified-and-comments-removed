@@ -55,22 +55,20 @@ else
             
 data
 =
+f
 "
-%
-s
-:
-%
-s
-"
-%
-(
+{
 node
 .
 prop
+}
+:
+{
 node
 .
 value
-)
+}
+"
         
 if
 node
@@ -107,19 +105,17 @@ rv
 .
 append
 (
+f
 "
-%
-s
+{
+prefix
+}
 <
-%
-s
+{
+data
+}
 >
 "
-%
-(
-prefix
-data
-)
 )
         
 for
