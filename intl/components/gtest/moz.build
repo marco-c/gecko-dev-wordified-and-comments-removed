@@ -73,6 +73,11 @@ TestRelativeTimeFormat
 cpp
 "
 "
+TestScript
+.
+cpp
+"
+"
 TestString
 .
 cpp
