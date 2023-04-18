@@ -76,13 +76,6 @@ bincode
 "
 1
 "
-mozbuild
-=
-"
-0
-.
-1
-"
 [
 build
 -
@@ -109,13 +102,6 @@ features
 =
 false
 }
-mozbuild
-=
-"
-0
-.
-1
-"
 [
 features
 ]

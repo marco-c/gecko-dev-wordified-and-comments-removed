@@ -115,13 +115,6 @@ ffi
 "
 ]
 }
-mozbuild
-=
-"
-0
-.
-1
-"
 [
 features
 ]

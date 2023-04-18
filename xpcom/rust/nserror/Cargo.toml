@@ -70,10 +70,3 @@ path
 nsstring
 "
 }
-mozbuild
-=
-"
-0
-.
-1
-"

@@ -1789,6 +1789,12 @@ MOZ_SRC
 topsrcdir
 )
 export
+MOZ_DIST
+=
+(
+ABS_DIST
+)
+export
 LIBCLANG_PATH
 =
 (
