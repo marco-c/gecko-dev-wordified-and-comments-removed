@@ -14,9 +14,6 @@ getBreakpointsList
 from
 "
 .
-.
-/
-reducers
 /
 breakpoints
 "
