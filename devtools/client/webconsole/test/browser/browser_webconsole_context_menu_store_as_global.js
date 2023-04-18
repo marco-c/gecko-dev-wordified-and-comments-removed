@@ -567,7 +567,7 @@ equalTo
 msg
 =
 await
-findMessageVirtualized
+findMessageVirtualizedById
 (
 {
 hud
