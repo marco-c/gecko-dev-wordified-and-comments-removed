@@ -140,7 +140,7 @@ finalExpectedEventCount
 finalExpectedEventCount
 ;
 }
-setUpAppHistoryListeners
+setUpNavigationAPIListeners
 (
 )
 {
