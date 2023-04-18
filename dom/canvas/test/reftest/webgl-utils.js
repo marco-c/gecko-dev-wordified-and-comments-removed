@@ -297,6 +297,8 @@ canvas
 getContext
 (
 "
+experimental
+-
 webgl
 "
 argDict
