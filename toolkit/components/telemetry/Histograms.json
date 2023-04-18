@@ -156315,7 +156315,7 @@ expires_in_version
 "
 :
 "
-100
+120
 "
 "
 kind
@@ -156360,7 +156360,7 @@ alert_emails
 :
 [
 "
-zbraniecki
+nordzilla
 mozilla
 .
 com
@@ -156372,6 +156372,7 @@ bug_numbers
 :
 [
 1692064
+1754653
 ]
 "
 keyed
