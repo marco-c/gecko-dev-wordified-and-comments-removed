@@ -1953,6 +1953,10 @@ tempFixed
 (
 CallTempReg0
 )
+tempFixed
+(
+CallTempReg1
+)
 )
 ;
 if

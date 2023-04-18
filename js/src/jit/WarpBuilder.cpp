@@ -8651,6 +8651,7 @@ inlineCallInfo
 argv
 (
 )
+templateObj
 )
 ;
 if

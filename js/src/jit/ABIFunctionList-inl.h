@@ -406,6 +406,17 @@ _
 js
 :
 :
+ArgumentsObject
+:
+:
+finishInlineForIonPure
+)
+\
+_
+(
+js
+:
+:
 ArrayShiftMoveElements
 )
 \
