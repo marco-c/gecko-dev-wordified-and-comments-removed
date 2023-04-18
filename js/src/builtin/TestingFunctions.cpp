@@ -24988,7 +24988,10 @@ false
 }
 idx
 =
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 inlineFrameNo
 )
@@ -25017,7 +25020,10 @@ inlineFrameNo
 }
 idx
 =
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 physicalFrameNo
 )
@@ -25656,7 +25662,10 @@ compartment
 {
 id
 =
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 stackIndex
 )

@@ -108,7 +108,13 @@ jsid
 int_id
 (
 cx
-INT_TO_JSID
+JS
+:
+:
+PropertyKey
+:
+:
+Int
 (
 1729
 )

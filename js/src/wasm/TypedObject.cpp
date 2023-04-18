@@ -3296,7 +3296,10 @@ index
 {
 id
 =
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 index
 )

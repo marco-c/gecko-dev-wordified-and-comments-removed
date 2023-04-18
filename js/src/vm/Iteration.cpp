@@ -1088,7 +1088,10 @@ CheckForDuplicates
 (
 cx
 pobj
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 i
 )
@@ -1185,7 +1188,10 @@ CheckForDuplicates
 (
 cx
 pobj
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 i
 )

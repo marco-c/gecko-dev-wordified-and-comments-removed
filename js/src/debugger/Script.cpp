@@ -8985,7 +8985,10 @@ RootedId
 id
 (
 cx
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 lineno
 )

@@ -10786,7 +10786,10 @@ true
 jsid
 id
 =
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 index
 )

@@ -1283,7 +1283,10 @@ GetPropertyNoGC
 cx
 obj
 receiver
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 index
 )
