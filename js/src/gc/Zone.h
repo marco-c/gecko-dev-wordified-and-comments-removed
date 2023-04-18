@@ -1684,11 +1684,6 @@ return
 lastDiscardedCodeTime_
 ;
 }
-bool
-canCollect
-(
-)
-;
 void
 changeGCState
 (
