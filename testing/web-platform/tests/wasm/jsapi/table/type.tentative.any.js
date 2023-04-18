@@ -74,7 +74,7 @@ element
 "
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -108,7 +108,7 @@ element
 "
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -149,7 +149,7 @@ element
 "
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -186,7 +186,7 @@ element
 "
 :
 "
-anyfunc
+funcref
 "
 }
 )

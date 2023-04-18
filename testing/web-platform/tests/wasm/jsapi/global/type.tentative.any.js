@@ -376,7 +376,7 @@ value
 "
 :
 "
-anyfunc
+funcref
 "
 "
 mutable
@@ -387,7 +387,7 @@ true
 )
 }
 "
-anyfunc
+funcref
 mutable
 "
 )
@@ -406,7 +406,7 @@ value
 "
 :
 "
-anyfunc
+funcref
 "
 "
 mutable
@@ -417,7 +417,7 @@ false
 )
 }
 "
-anyfunc
+funcref
 immutable
 "
 )

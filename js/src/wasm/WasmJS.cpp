@@ -5526,7 +5526,7 @@ cx
 UTF8CharsToString
 (
 cx
-ToJSAPIString
+ToString
 (
 valType
 )
@@ -5768,7 +5768,7 @@ cx
 UTF8CharsToString
 (
 cx
-ToJSAPIString
+ToString
 (
 type
 )
@@ -6342,7 +6342,7 @@ cx
 UTF8CharsToString
 (
 cx
-ToJSAPIString
+ToString
 (
 type
 )
