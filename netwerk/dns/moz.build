@@ -24,9 +24,6 @@ DIRS
 =
 [
 "
-mdns
-"
-"
 tests
 "
 ]
