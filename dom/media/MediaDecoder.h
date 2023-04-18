@@ -1090,17 +1090,6 @@ IsWebMEnabled
 (
 )
 ;
-#
-ifdef
-MOZ_WMF
-static
-bool
-IsWMFEnabled
-(
-)
-;
-#
-endif
 FrameStatistics
 &
 GetFrameStatistics
