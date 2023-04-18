@@ -729,7 +729,7 @@ sAllocatedInstances
 )
 ;
 }
-MediaDecoderStateMachine
+MediaDecoderStateMachineBase
 *
 HLSDecoder
 :

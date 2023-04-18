@@ -1003,7 +1003,7 @@ forget
 )
 ;
 }
-MediaDecoderStateMachine
+MediaDecoderStateMachineBase
 *
 ChannelMediaDecoder
 :
