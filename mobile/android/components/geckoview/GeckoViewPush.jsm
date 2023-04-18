@@ -51,11 +51,17 @@ GeckoViewPush
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 EventDispatcher
 "
@@ -255,6 +261,8 @@ const
 response
 =
 await
+lazy
+.
 EventDispatcher
 .
 instance
@@ -367,6 +375,8 @@ callback
 try
 {
 await
+lazy
+.
 EventDispatcher
 .
 instance
@@ -435,6 +445,8 @@ const
 response
 =
 await
+lazy
+.
 EventDispatcher
 .
 instance

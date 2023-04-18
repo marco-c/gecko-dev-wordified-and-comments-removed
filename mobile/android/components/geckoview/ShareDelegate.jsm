@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 GeckoViewPrompter
 :
@@ -102,6 +108,8 @@ jsm
 const
 domBundle
 =
+lazy
+.
 Services
 .
 strings
@@ -219,6 +227,8 @@ const
 prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 this

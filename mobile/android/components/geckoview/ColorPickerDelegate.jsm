@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 GeckoViewPrompter
 :
@@ -114,6 +120,8 @@ this
 _prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 aParent

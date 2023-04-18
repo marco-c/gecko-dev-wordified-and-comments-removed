@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 GeckoViewAutocomplete
 :
@@ -244,6 +250,8 @@ const
 prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 aBrowser
@@ -263,6 +271,8 @@ _createMessage
 dismissed
 }
 [
+lazy
+.
 LoginEntry
 .
 fromLoginInfo
@@ -298,6 +308,8 @@ return
 const
 loginInfo
 =
+lazy
+.
 LoginEntry
 .
 parse
@@ -309,6 +321,8 @@ toLoginInfo
 (
 )
 ;
+lazy
+.
 Services
 .
 obs
@@ -325,6 +339,8 @@ save
 "
 )
 ;
+lazy
+.
 GeckoViewAutocomplete
 .
 onLoginSave
@@ -371,6 +387,8 @@ autoSavedLoginGuid
 const
 newLogin
 =
+lazy
+.
 LoginEntry
 .
 fromLoginInfo
@@ -432,6 +450,8 @@ const
 prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 aBrowser
@@ -479,6 +499,8 @@ selectedLogin
 return
 ;
 }
+lazy
+.
 GeckoViewAutocomplete
 .
 onLoginSave
@@ -489,6 +511,8 @@ selectedLogin
 const
 loginInfo
 =
+lazy
+.
 LoginEntry
 .
 parse
@@ -500,6 +524,8 @@ toLoginInfo
 (
 )
 ;
+lazy
+.
 Services
 .
 obs

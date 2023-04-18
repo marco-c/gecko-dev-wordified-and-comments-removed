@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ActorManagerParent
 :
@@ -699,6 +705,8 @@ GeckoViewConsole
 ;
 if
 (
+lazy
+.
 Services
 .
 appinfo
@@ -706,6 +714,8 @@ appinfo
 processType
 =
 =
+lazy
+.
 Services
 .
 appinfo
@@ -713,6 +723,8 @@ appinfo
 PROCESS_TYPE_DEFAULT
 )
 {
+lazy
+.
 ActorManagerParent
 .
 addJSWindowActors
@@ -720,6 +732,8 @@ addJSWindowActors
 JSWINDOWACTORS
 )
 ;
+lazy
+.
 ActorManagerParent
 .
 addJSProcessActors
@@ -950,6 +964,8 @@ aborted
 }
 )
 ;
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1108,6 +1124,8 @@ jsm
 "
 )
 ;
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1134,6 +1152,8 @@ SetLocale
 ]
 )
 ;
+lazy
+.
 Services
 .
 obs
@@ -1154,6 +1174,8 @@ finished
 "
 )
 ;
+lazy
+.
 Services
 .
 obs
@@ -1187,6 +1209,8 @@ finished
 "
 :
 {
+lazy
+.
 Services
 .
 obs
@@ -1197,6 +1221,8 @@ this
 aTopic
 )
 ;
+lazy
+.
 Services
 .
 startup
@@ -1240,6 +1266,8 @@ const
 prefs
 =
 new
+lazy
+.
 Preferences
 (
 )
@@ -1268,6 +1296,8 @@ const
 prefs
 =
 new
+lazy
+.
 Preferences
 (
 {
@@ -1341,6 +1371,8 @@ aData
 requestedLocales
 )
 {
+lazy
+.
 Services
 .
 locale
@@ -1385,6 +1417,8 @@ aData
 .
 acceptLanguages
 ;
+lazy
+.
 Services
 .
 prefs
