@@ -1237,6 +1237,16 @@ ErrorResult
 aRv
 )
 ;
+void
+SetTargetTopLevelLinkClicksToBlank
+(
+bool
+aTargetTopLevelLinkClicksToBlank
+ErrorResult
+&
+aRv
+)
+;
 bool
 IsReplaced
 (
