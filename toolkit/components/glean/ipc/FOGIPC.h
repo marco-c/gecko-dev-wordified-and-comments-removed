@@ -149,6 +149,11 @@ Promise
 promise
 )
 ;
+void
+RecordPowerMetrics
+(
+)
+;
 }
 }
 #
