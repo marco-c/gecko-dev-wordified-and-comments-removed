@@ -1255,10 +1255,6 @@ get_outgoing_files
 self
 diff_filter
 upstream
-=
-"
-default
-"
 )
 :
         
@@ -2899,9 +2895,7 @@ ADM
 "
 upstream
 =
-"
-default
-"
+None
 )
 :
         
@@ -2912,6 +2906,47 @@ self
 _files_template
 (
 diff_filter
+)
+        
+if
+not
+upstream
+:
+            
+return
+self
+.
+_run
+(
+                
+"
+log
+"
+"
+-
+r
+"
+"
+draft
+(
+)
+and
+ancestors
+(
+.
+)
+"
+"
+-
+-
+template
+"
+template
+            
+)
+.
+split
+(
 )
         
 return
@@ -4072,9 +4107,7 @@ ADM
 "
 upstream
 =
-"
-default
-"
+None
 )
 :
         
@@ -4098,20 +4131,15 @@ diff_filter
         
 not_condition
 =
+upstream
+if
+upstream
+else
 "
 -
 -
 remotes
 "
-if
-upstream
-=
-=
-"
-default
-"
-else
-upstream
         
 files
 =
