@@ -2718,6 +2718,12 @@ uint32_t
 aNotSlow
 )
 {
+StaticMutexAutoLock
+lock
+(
+sLock
+)
+;
 *
 aSlow
 =
