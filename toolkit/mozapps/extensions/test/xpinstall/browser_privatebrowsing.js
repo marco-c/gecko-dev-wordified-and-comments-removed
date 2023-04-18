@@ -161,6 +161,10 @@ waitForExplicitFinish
 (
 )
 ;
+setInstallTriggerPrefs
+(
+)
+;
 await
 SpecialPowers
 .

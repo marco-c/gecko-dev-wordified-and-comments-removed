@@ -96,6 +96,10 @@ test
 (
 )
 {
+setInstallTriggerPrefs
+(
+)
+;
 Harness
 .
 downloadFailedCallback

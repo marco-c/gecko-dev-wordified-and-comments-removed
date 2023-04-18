@@ -8,6 +8,10 @@ test
 (
 )
 {
+setInstallTriggerPrefs
+(
+)
+;
 Harness
 .
 installConfirmCallback

@@ -6,6 +6,10 @@ test
 (
 )
 {
+setInstallTriggerPrefs
+(
+)
+;
 Harness
 .
 downloadProgressCallback

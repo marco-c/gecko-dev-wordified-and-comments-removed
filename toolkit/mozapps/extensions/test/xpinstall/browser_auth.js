@@ -3,6 +3,10 @@ test
 (
 )
 {
+setInstallTriggerPrefs
+(
+)
+;
 Services
 .
 prefs
