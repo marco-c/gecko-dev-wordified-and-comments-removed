@@ -61,11 +61,11 @@ ParamTraits
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 class
@@ -1480,8 +1480,6 @@ aIndex
 ;
 }
 ;
-}
-}
 }
 #
 endif

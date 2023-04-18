@@ -79,11 +79,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 #
@@ -1051,8 +1051,6 @@ toObject
 return
 true
 ;
-}
-}
 }
 }
 #

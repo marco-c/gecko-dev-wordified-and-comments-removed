@@ -61,8 +61,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -952,7 +952,6 @@ void
 aClosure
 )
 ;
-}
 }
 }
 MOZ_DECLARE_RELOCATE_USING_MOVE_CONSTRUCTOR

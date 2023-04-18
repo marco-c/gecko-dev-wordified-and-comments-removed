@@ -74,8 +74,8 @@ Heap
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -569,7 +569,6 @@ mStrings
 ;
 }
 ;
-}
 }
 }
 #

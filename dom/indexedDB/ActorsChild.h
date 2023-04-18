@@ -321,11 +321,11 @@ CloneInfo
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 class
@@ -2730,8 +2730,6 @@ override
 ;
 }
 ;
-}
-}
 }
 #
 endif

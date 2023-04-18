@@ -20,11 +20,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 class
@@ -82,8 +82,6 @@ aInnerWindowID
 ;
 }
 ;
-}
-}
 }
 #
 endif

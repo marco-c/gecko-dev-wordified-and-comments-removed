@@ -36,8 +36,8 @@ nsRefreshDriver
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -257,7 +257,6 @@ mRefreshDriver
 ;
 }
 ;
-}
 }
 #
 endif

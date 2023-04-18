@@ -68,11 +68,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 class
@@ -589,8 +589,6 @@ mFileInfos
 ;
 }
 ;
-}
-}
 }
 #
 endif

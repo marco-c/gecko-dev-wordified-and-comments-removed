@@ -19,14 +19,13 @@ nsIFormControl
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 HTMLInputElement
 ;
-}
 }
 #
 define

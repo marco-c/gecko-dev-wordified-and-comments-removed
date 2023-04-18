@@ -43,11 +43,11 @@ utility
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 enum
@@ -851,8 +851,6 @@ return
 aResult
 }
 ;
-}
-}
 }
 }
 #

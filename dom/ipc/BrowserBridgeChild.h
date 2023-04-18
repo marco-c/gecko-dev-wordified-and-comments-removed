@@ -41,8 +41,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -532,7 +532,6 @@ endif
 endif
 }
 ;
-}
 }
 #
 endif

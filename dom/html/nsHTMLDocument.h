@@ -105,8 +105,8 @@ nsILoadGroup
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -120,7 +120,6 @@ Nullable
 class
 WindowProxyHolder
 ;
-}
 }
 class
 nsHTMLDocument
@@ -847,8 +846,8 @@ mViewSource
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 inline
@@ -909,7 +908,6 @@ nsHTMLDocument
 this
 )
 ;
-}
 }
 }
 #

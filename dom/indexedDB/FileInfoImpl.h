@@ -66,11 +66,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 template
@@ -627,8 +627,6 @@ nullptr
 return
 file
 ;
-}
-}
 }
 }
 #

@@ -51,8 +51,8 @@ nsIPrincipal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -218,7 +218,6 @@ override
 ;
 }
 ;
-}
 }
 }
 #

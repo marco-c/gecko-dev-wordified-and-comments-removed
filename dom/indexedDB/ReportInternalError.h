@@ -122,11 +122,11 @@ IDB_REPORT_INTERNAL_ERR
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 MOZ_COLD
@@ -145,8 +145,6 @@ char
 aStr
 )
 ;
-}
-}
 }
 #
 endif

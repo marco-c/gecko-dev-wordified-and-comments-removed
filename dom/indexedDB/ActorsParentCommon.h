@@ -135,11 +135,11 @@ mozIStorageValueArray
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 class
@@ -496,8 +496,6 @@ nsLiteralCString
 aSQLCommands
 )
 ;
-}
-}
 }
 #
 endif

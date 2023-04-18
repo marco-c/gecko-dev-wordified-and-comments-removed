@@ -60,8 +60,8 @@ nsIPrincipal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -190,7 +190,6 @@ NS_DECL_NSIOBSERVER
 NS_DECL_NSIIDBPERMISSIONSREQUEST
 }
 ;
-}
 }
 }
 #
