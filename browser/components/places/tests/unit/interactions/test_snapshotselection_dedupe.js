@@ -633,8 +633,11 @@ Set
 ;
 selector
 .
-setUrl
+updateDetailsAndRebuild
 (
+{
+url
+:
 "
 https
 :
@@ -646,6 +649,7 @@ com
 /
 relevant
 "
+}
 )
 ;
 let
