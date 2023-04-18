@@ -57402,7 +57402,7 @@ XP_MACOSX
 &
 defined
 (
-__aarch64__
+MOZ_AARCH64
 )
 value
 :
