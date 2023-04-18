@@ -358,6 +358,12 @@ RefPtr
 <
 nsIContent
 >
+mAccountItemContent
+;
+RefPtr
+<
+nsIContent
+>
 mQuitItemContent
 ;
 NS_DECL_CHANGEOBSERVER
