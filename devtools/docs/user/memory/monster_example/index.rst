@@ -389,10 +389,6 @@ click
 makeMonsters
 )
 ;
-<
-/
-pre
->
 The
 page
 contains
