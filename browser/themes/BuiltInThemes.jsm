@@ -55,11 +55,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -117,7 +123,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 retainedThemes
 "
@@ -188,6 +194,8 @@ _BuiltInThemes
 {
 builtInThemeMap
 =
+lazy
+.
 BuiltInThemeConfig
 ;
 previewForBuiltInThemeId
@@ -288,6 +296,8 @@ if
 activeBuiltInTheme
 )
 {
+lazy
+.
 AddonManager
 .
 maybeInstallBuiltinAddon
@@ -382,6 +392,8 @@ themeInfo
 expiry
 |
 |
+lazy
+.
 retainedThemes
 .
 includes
@@ -405,6 +417,8 @@ installPromises
 .
 push
 (
+lazy
+.
 AddonManager
 .
 maybeInstallBuiltinAddon
@@ -497,6 +511,8 @@ id
 )
 {
 return
+lazy
+.
 retainedThemes
 .
 includes
@@ -580,6 +596,8 @@ expiry
 &
 &
 !
+lazy
+.
 retainedThemes
 .
 includes
@@ -634,6 +652,8 @@ let
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -686,6 +706,8 @@ id
 if
 (
 !
+lazy
+.
 retainedThemes
 .
 includes
@@ -694,6 +716,8 @@ id
 )
 )
 {
+lazy
+.
 retainedThemes
 .
 push
@@ -712,6 +736,8 @@ JSON
 .
 stringify
 (
+lazy
+.
 retainedThemes
 )
 )
