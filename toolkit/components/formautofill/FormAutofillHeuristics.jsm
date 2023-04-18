@@ -3278,6 +3278,12 @@ isFathomCreditCardsEnabled
 )
 )
 {
+fieldScanner
+.
+parsingIndex
++
++
+;
 return
 true
 ;
