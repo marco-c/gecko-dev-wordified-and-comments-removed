@@ -9397,8 +9397,6 @@ t
 support
 TLS
 variables
-MOZ_TLS
-=
 if
 test
 "
@@ -9491,9 +9489,6 @@ AC_DEFINE
 (
 HAVE_THREAD_TLS_KEYWORD
 )
-MOZ_TLS
-=
-1
 ;
 ;
 esac
