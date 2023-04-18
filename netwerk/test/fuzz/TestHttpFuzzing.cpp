@@ -391,7 +391,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 true
 )
