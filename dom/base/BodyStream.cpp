@@ -815,7 +815,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MutexAutoLock
+MutexSingleWriterAutoLock
 lock
 (
 mMutex
@@ -1122,7 +1122,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MutexAutoLock
+MutexSingleWriterAutoLock
 lock
 (
 mMutex
@@ -1398,7 +1398,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MutexAutoLock
+MutexSingleWriterAutoLock
 lock
 (
 mMutex
@@ -1601,7 +1601,9 @@ ErrorResult
 aRv
 )
 {
-AssertIsOnOwningThread
+mMutex
+.
+AssertOnWritingThread
 (
 )
 ;
@@ -1816,7 +1818,9 @@ ErrorCallback
 (
 )
 {
-AssertIsOnOwningThread
+mMutex
+.
+AssertOnWritingThread
 (
 )
 ;
@@ -1975,6 +1979,7 @@ BodyStream
 :
 mMutex
 "
+this
 )
 mState
 (
@@ -2030,7 +2035,7 @@ JSContext
 *
 aCx
 const
-MutexAutoLock
+MutexSingleWriterAutoLock
 &
 aProofOfLock
 ReadableStream
@@ -2052,7 +2057,7 @@ JSContext
 *
 aCx
 const
-MutexAutoLock
+MutexSingleWriterAutoLock
 &
 aProofOfLock
 JS
@@ -2066,7 +2071,9 @@ aError
 {
 #
 endif
-AssertIsOnOwningThread
+mMutex
+.
+AssertOnWritingThread
 (
 )
 ;
@@ -2165,7 +2172,7 @@ ErrorResult
 )
 ;
 {
-MutexAutoUnlock
+MutexSingleWriterAutoUnlock
 unlock
 (
 mMutex
@@ -2405,6 +2412,7 @@ nsIAsyncInputStream
 *
 aStream
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 AssertIsOnOwningThread
 (
@@ -2417,7 +2425,7 @@ aStream
 ;
 Maybe
 <
-MutexAutoLock
+MutexSingleWriterAutoLock
 >
 lock
 ;
@@ -2914,7 +2922,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MutexAutoLock
+MutexSingleWriterAutoLock
 lock
 (
 mMutex
@@ -3075,7 +3083,7 @@ JSContext
 *
 aCx
 const
-MutexAutoLock
+MutexSingleWriterAutoLock
 &
 aProofOfLock
 ReadableStream
@@ -3106,7 +3114,7 @@ ReleaseObjects
 aProofOfLock
 )
 ;
-MutexAutoUnlock
+MutexSingleWriterAutoUnlock
 unlock
 (
 mMutex
@@ -3171,7 +3179,7 @@ JSContext
 *
 aCx
 const
-MutexAutoLock
+MutexSingleWriterAutoLock
 &
 aProofOfLock
 JS
@@ -3204,7 +3212,7 @@ ReleaseObjects
 aProofOfLock
 )
 ;
-MutexAutoUnlock
+MutexSingleWriterAutoUnlock
 unlock
 (
 mMutex
@@ -3257,7 +3265,7 @@ ReleaseObjects
 (
 )
 {
-MutexAutoLock
+MutexSingleWriterAutoLock
 lock
 (
 mMutex
@@ -3276,7 +3284,7 @@ BodyStream
 ReleaseObjects
 (
 const
-MutexAutoLock
+MutexSingleWriterAutoLock
 &
 aProofOfLock
 )
@@ -3579,6 +3587,7 @@ BodyStream
 AssertIsOnOwningThread
 (
 )
+const
 {
 NS_ASSERT_OWNINGTHREAD
 (
