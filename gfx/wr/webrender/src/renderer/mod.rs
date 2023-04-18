@@ -381,7 +381,7 @@ glyph_rasterizer
 {
 GlyphFormat
 GlyphRasterizer
-SharedFontInstanceMap
+SharedFontResources
 }
 ;
 use
@@ -5247,9 +5247,9 @@ options
 namespace_alloc_by_client
 ;
 let
-font_instances
+fonts
 =
-SharedFontInstanceMap
+SharedFontResources
 :
 :
 new
@@ -5378,9 +5378,9 @@ clone
 )
 ;
 let
-sb_font_instances
+sb_fonts
 =
-font_instances
+fonts
 .
 clone
 (
@@ -5439,7 +5439,7 @@ SceneBuilderThread
 new
 (
 config
-sb_font_instances
+sb_fonts
 make_size_of_ops
 (
 )
@@ -5577,7 +5577,7 @@ clone
 }
 ;
 let
-backend_blob_handler
+rb_blob_handler
 =
 blob_image_handler
 .
@@ -5691,9 +5691,9 @@ clone
 )
 ;
 let
-rb_font_instances
+rb_fonts
 =
-font_instances
+fonts
 .
 clone
 (
@@ -5800,7 +5800,8 @@ texture_cache
 picture_textures
 glyph_rasterizer
 glyph_cache
-rb_font_instances
+rb_fonts
+rb_blob_handler
 )
 ;
 resource_cache
@@ -5824,7 +5825,6 @@ result_tx
 rb_scene_tx
 resource_cache
 backend_notifier
-backend_blob_handler
 config
 sampler
 make_size_of_ops
@@ -6317,7 +6317,7 @@ api_tx
 scene_tx
 low_priority_scene_tx
 blob_image_handler
-font_instances
+fonts
 )
 ;
 Ok

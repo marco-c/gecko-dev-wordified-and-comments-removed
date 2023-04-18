@@ -1311,8 +1311,10 @@ FontKey
 )
 -
 >
-&
+Option
+<
 FontTemplate
+>
 ;
 fn
 get_font_instance_data

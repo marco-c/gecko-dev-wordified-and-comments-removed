@@ -354,6 +354,11 @@ derive
 (
 Clone
 Debug
+Hash
+Eq
+PartialEq
+PartialOrd
+Ord
 Serialize
 Deserialize
 )
@@ -388,6 +393,11 @@ derive
 (
 Clone
 Debug
+Hash
+Eq
+PartialEq
+PartialOrd
+Ord
 Serialize
 Deserialize
 )
@@ -563,6 +573,9 @@ key
 derive
 (
 Clone
+Hash
+Eq
+PartialEq
 )
 ]
 pub
@@ -1496,6 +1509,7 @@ Debug
 Deserialize
 Hash
 Eq
+MallocSizeOf
 PartialEq
 PartialOrd
 Ord

@@ -145,7 +145,7 @@ crate
 glyph_rasterizer
 :
 :
-SharedFontInstanceMap
+SharedFontResources
 ;
 use
 crate
@@ -577,9 +577,9 @@ scene
 :
 Scene
 pub
-font_instances
+fonts
 :
-SharedFontInstanceMap
+SharedFontResources
 pub
 view
 :
@@ -1286,9 +1286,9 @@ ApiMsg
 config
 :
 FrameBuilderConfig
-font_instances
+fonts
 :
-SharedFontInstanceMap
+SharedFontResources
 size_of_ops
 :
 Option
@@ -1407,9 +1407,9 @@ new
 config
 :
 FrameBuilderConfig
-font_instances
+fonts
 :
-SharedFontInstanceMap
+SharedFontResources
 size_of_ops
 :
 Option
@@ -1458,7 +1458,7 @@ default
 rx
 tx
 config
-font_instances
+fonts
 size_of_ops
 hooks
 simulate_slow_ms
@@ -2516,7 +2516,7 @@ item
 scene
 item
 .
-font_instances
+fonts
 &
 item
 .
@@ -3385,7 +3385,7 @@ build
 scene
 self
 .
-font_instances
+fonts
 .
 clone
 (
