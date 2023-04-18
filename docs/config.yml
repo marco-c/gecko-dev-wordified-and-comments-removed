@@ -157,6 +157,12 @@ geckodriver
 -
 testing
 /
+test
+-
+verification
+-
+testing
+/
 xpcshell
 -
 web
