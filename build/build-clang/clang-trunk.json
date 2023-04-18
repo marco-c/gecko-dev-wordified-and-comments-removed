@@ -121,6 +121,10 @@ init
 3652
 -
 gf3c2094d8c11
+-
+clang
+-
+14
 .
 patch
 "
@@ -136,6 +140,10 @@ init
 3651
 -
 g85ba583eba19
+-
+clang
+-
+14
 .
 patch
 "
