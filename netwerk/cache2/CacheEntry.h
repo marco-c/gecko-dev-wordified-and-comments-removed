@@ -1454,7 +1454,11 @@ bool
 const
 mSkipSizeCheck
 ;
+Atomic
+<
 bool
+Relaxed
+>
 mIsDoomed
 {
 false
