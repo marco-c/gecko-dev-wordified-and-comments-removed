@@ -2017,6 +2017,9 @@ env_logger
 log
 "
 "
+mozbuild
+"
+"
 smallvec
 "
 ]
