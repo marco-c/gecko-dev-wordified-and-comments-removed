@@ -675,6 +675,12 @@ return
 false
 ;
 }
+mMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 nsCOMPtr
 <
 nsIChannel
