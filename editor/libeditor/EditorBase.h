@@ -279,6 +279,11 @@ nscore
 .
 h
 "
+#
+include
+<
+tuple
+>
 class
 mozInlineSpellChecker
 ;
@@ -6061,7 +6066,10 @@ HowToHandleCollapsedRange
 aHowToHandleCollapsedRange
 )
 ;
-Tuple
+std
+:
+:
+tuple
 <
 EditorDOMPointInText
 EditorDOMPointInText
