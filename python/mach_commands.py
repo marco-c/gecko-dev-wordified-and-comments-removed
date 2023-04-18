@@ -1722,17 +1722,27 @@ run
 (
         
 cmd
+        
 env
 =
 env
+        
 stdout
 =
 subprocess
 .
 PIPE
+        
+stderr
+=
+subprocess
+.
+STDOUT
+        
 universal_newlines
 =
 True
+        
 encoding
 =
 "
@@ -1851,6 +1861,10 @@ if
 not
 file_displayed_test
 :
+        
+return_code
+=
+1
         
 _log
 (
