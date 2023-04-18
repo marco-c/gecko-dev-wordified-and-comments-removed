@@ -217,6 +217,9 @@ replacement
 hb_codepoint_t
 invisible
 ;
+hb_codepoint_t
+not_found
+;
 hb_buffer_scratch_flags_t
 scratch_flags
 ;

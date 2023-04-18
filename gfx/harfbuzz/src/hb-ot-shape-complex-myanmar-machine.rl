@@ -288,6 +288,11 @@ MH
 21
 ;
 export
+ML
+=
+33
+;
+export
 MR
 =
 22
@@ -401,8 +406,14 @@ MR
 MW
 MH
 ?
+ML
+?
 |
 MH
+ML
+?
+|
+ML
 )
 As
 ?
@@ -435,6 +446,8 @@ post_vowel_group
 =
 VPst
 MH
+?
+ML
 ?
 As
 *

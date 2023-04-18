@@ -58,9 +58,8 @@ hb_subset_input_t
 hb_object_header_t
 header
 ;
-union
-{
 struct
+sets_t
 {
 hb_set_t
 *
@@ -91,6 +90,10 @@ hb_set_t
 layout_features
 ;
 }
+;
+union
+{
+sets_t
 sets
 ;
 hb_set_t
@@ -99,7 +102,7 @@ set_ptrs
 [
 sizeof
 (
-sets
+sets_t
 )
 /
 sizeof

@@ -1713,7 +1713,7 @@ protected
 HBUINT16
 flags
 ;
-HBGlyphID
+HBGlyphID16
 glyphIndex
 ;
 public
@@ -5865,7 +5865,6 @@ it
 )
 ;
 operation_count
-+
 =
 add_gid_and_children
 (

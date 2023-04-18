@@ -87,6 +87,13 @@ OUTPUT
 "
 r
 "
+encoding
+=
+'
+utf
+-
+8
+'
 )
 as
 old_output

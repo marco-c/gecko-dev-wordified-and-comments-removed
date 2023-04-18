@@ -302,10 +302,10 @@ base
 )
 ;
 }
-HBGlyphID
+HBGlyphID16
 last
 ;
-HBGlyphID
+HBGlyphID16
 first
 ;
 T
@@ -652,7 +652,10 @@ last
 first
 +
 1
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -666,10 +669,10 @@ ds
 )
 ;
 }
-HBGlyphID
+HBGlyphID16
 last
 ;
-HBGlyphID
+HBGlyphID16
 first
 ;
 NNOffset16To
@@ -933,7 +936,7 @@ base
 )
 ;
 }
-HBGlyphID
+HBGlyphID16
 glyph
 ;
 T
@@ -1217,7 +1220,7 @@ protected
 HBUINT16
 format
 ;
-HBGlyphID
+HBGlyphID16
 firstGlyph
 ;
 HBUINT16
@@ -1406,7 +1409,7 @@ format
 HBUINT16
 valueSize
 ;
-HBGlyphID
+HBGlyphID16
 firstGlyph
 ;
 HBUINT16
@@ -3157,7 +3160,7 @@ c
 }
 protected
 :
-HBGlyphID
+HBGlyphID16
 firstGlyph
 ;
 Array16Of

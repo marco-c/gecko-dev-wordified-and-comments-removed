@@ -996,7 +996,7 @@ mark_set
 return
 ;
 const
-HBGlyphID
+HBGlyphID16
 *
 replacement
 ;
@@ -1027,7 +1027,7 @@ markIndex
 const
 Lookup
 <
-HBGlyphID
+HBGlyphID16
 >
 &
 lookup
@@ -1089,7 +1089,7 @@ codepoint
 const
 UnsizedArrayOf
 <
-HBGlyphID
+HBGlyphID16
 >
 &
 subs_old
@@ -1098,7 +1098,7 @@ subs_old
 const
 UnsizedArrayOf
 <
-HBGlyphID
+HBGlyphID16
 >
 &
 )
@@ -1259,7 +1259,7 @@ currentIndex
 const
 Lookup
 <
-HBGlyphID
+HBGlyphID16
 >
 &
 lookup
@@ -1321,7 +1321,7 @@ codepoint
 const
 UnsizedArrayOf
 <
-HBGlyphID
+HBGlyphID16
 >
 &
 subs_old
@@ -1330,7 +1330,7 @@ subs_old
 const
 UnsizedArrayOf
 <
-HBGlyphID
+HBGlyphID16
 >
 &
 )
@@ -1486,7 +1486,7 @@ UnsizedListOfOffset16To
 <
 Lookup
 <
-HBGlyphID
+HBGlyphID16
 >
 HBUINT
 false
@@ -1731,7 +1731,7 @@ UnsizedListOfOffset16To
 <
 Lookup
 <
-HBGlyphID
+HBGlyphID16
 >
 HBUINT
 false
@@ -2540,7 +2540,7 @@ arrayZ
 )
 ;
 const
-HBGlyphID
+HBGlyphID16
 &
 ligatureData
 =
@@ -2790,7 +2790,7 @@ component
 const
 UnsizedArrayOf
 <
-HBGlyphID
+HBGlyphID16
 >
 &
 ligature
@@ -2939,7 +2939,7 @@ NNOffsetTo
 <
 UnsizedArrayOf
 <
-HBGlyphID
+HBGlyphID16
 >
 HBUINT
 >
@@ -3061,7 +3061,7 @@ i
 )
 {
 const
-HBGlyphID
+HBGlyphID16
 *
 replacement
 =
@@ -3154,7 +3154,7 @@ protected
 :
 Lookup
 <
-HBGlyphID
+HBGlyphID16
 >
 substitute
 ;
@@ -3427,7 +3427,7 @@ data
 markedInsertIndex
 ;
 const
-HBGlyphID
+HBGlyphID16
 *
 glyphs
 =
@@ -3668,7 +3668,7 @@ data
 currentInsertIndex
 ;
 const
-HBGlyphID
+HBGlyphID16
 *
 glyphs
 =
@@ -3833,7 +3833,7 @@ mark
 const
 UnsizedArrayOf
 <
-HBGlyphID
+HBGlyphID16
 >
 &
 insertionAction
@@ -3945,7 +3945,7 @@ NNOffsetTo
 <
 UnsizedArrayOf
 <
-HBGlyphID
+HBGlyphID16
 >
 HBUINT
 >
@@ -4183,7 +4183,10 @@ dispatch
 u
 .
 rearrangement
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -4209,7 +4212,10 @@ dispatch
 u
 .
 contextual
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -4235,7 +4241,10 @@ dispatch
 u
 .
 ligature
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -4261,7 +4270,10 @@ dispatch
 u
 .
 noncontextual
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -4287,7 +4299,10 @@ dispatch
 u
 .
 insertion
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >

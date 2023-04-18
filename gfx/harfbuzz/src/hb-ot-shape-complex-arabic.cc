@@ -1714,7 +1714,7 @@ if
 (
 unlikely
 (
-hb_in_range
+hb_in_ranges
 <
 hb_codepoint_t
 >
@@ -1727,6 +1727,8 @@ i
 codepoint
 0x180Bu
 0x180Du
+0x180Fu
+0x180Fu
 )
 )
 )

@@ -71,6 +71,10 @@ hb_unicode_funcs_t
 *
 unicode
 ;
+const
+hb_codepoint_t
+not_found
+;
 bool
 (
 *

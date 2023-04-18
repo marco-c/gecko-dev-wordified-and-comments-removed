@@ -223,7 +223,7 @@ protected
 ActionSubrecordHeader
 header
 ;
-HBGlyphID
+HBGlyphID16
 addGlyph
 ;
 public
@@ -275,10 +275,10 @@ header
 HBFixed
 substThreshold
 ;
-HBGlyphID
+HBGlyphID16
 addGlyph
 ;
-HBGlyphID
+HBGlyphID16
 substGlyph
 ;
 public
@@ -388,7 +388,7 @@ header
 HBUINT16
 flags
 ;
-HBGlyphID
+HBGlyphID16
 glyph
 ;
 public

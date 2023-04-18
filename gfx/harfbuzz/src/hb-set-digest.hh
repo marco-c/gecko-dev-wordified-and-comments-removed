@@ -774,7 +774,9 @@ tail
 ;
 }
 ;
-typedef
+using
+hb_set_digest_t
+=
 hb_set_digest_combiner_t
 <
 hb_set_digest_lowest_bits_t
@@ -799,7 +801,6 @@ long
 >
 >
 >
-hb_set_digest_t
 ;
 #
 endif

@@ -1360,9 +1360,6 @@ syllable_type
 )
 {
 case
-use_independent_cluster
-:
-case
 use_symbol_cluster
 :
 case

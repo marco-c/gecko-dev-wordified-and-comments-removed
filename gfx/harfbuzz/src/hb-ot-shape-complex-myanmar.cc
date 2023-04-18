@@ -774,7 +774,7 @@ i
 +
 ;
 }
-indic_position_t
+myanmar_position_t
 pos
 =
 POS_AFTER_MAIN

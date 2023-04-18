@@ -1516,7 +1516,10 @@ n
 )
 ;
 return
-hb_forward
+std
+:
+:
+forward
 <
 T
 >
@@ -1590,7 +1593,10 @@ returned
 true
 ;
 return
-hb_forward
+std
+:
+:
+forward
 <
 T
 >
@@ -1696,7 +1702,10 @@ HB_UNUSED
 )
 {
 return
-hb_forward
+std
+:
+:
+forward
 <
 T
 >
@@ -1743,7 +1752,10 @@ HB_UNUSED
 )
 {
 return
-hb_forward
+std
+:
+:
+forward
 <
 T
 >

@@ -2990,7 +2990,7 @@ startCharCode
 ;
 ArrayOf
 <
-HBGlyphID
+HBGlyphID16
 UINT
 >
 glyphIdArray
@@ -4524,7 +4524,7 @@ this
 HBUINT24
 unicodeValue
 ;
-HBGlyphID
+HBGlyphID16
 glyphID
 ;
 public

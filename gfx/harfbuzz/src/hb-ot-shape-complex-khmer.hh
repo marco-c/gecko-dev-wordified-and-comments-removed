@@ -53,6 +53,11 @@ OT_Ygroup
 22
 }
 ;
+using
+khmer_position_t
+=
+indic_position_t
+;
 static
 inline
 void
@@ -91,11 +96,11 @@ type
 0xFFu
 )
 ;
-indic_position_t
+khmer_position_t
 pos
 =
 (
-indic_position_t
+khmer_position_t
 )
 (
 type

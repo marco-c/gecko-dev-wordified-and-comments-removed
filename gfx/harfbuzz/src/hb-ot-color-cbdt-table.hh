@@ -2442,10 +2442,10 @@ format
 )
 ;
 }
-HBGlyphID
+HBGlyphID16
 firstGlyphIndex
 ;
-HBGlyphID
+HBGlyphID16
 lastGlyphIndex
 ;
 Offset32To
@@ -3401,10 +3401,10 @@ horizontal
 SBitLineMetrics
 vertical
 ;
-HBGlyphID
+HBGlyphID16
 startGlyphIndex
 ;
-HBGlyphID
+HBGlyphID16
 endGlyphIndex
 ;
 HBUINT8
