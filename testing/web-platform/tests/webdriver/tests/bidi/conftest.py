@@ -25,6 +25,12 @@ tab
 "
 )
     
+initial_window
+=
+current_session
+.
+window_handle
+    
 current_session
 .
 window_handle
@@ -53,6 +59,12 @@ contexts
 [
 0
 ]
+    
+current_session
+.
+window_handle
+=
+initial_window
     
 await
 bidi_session
