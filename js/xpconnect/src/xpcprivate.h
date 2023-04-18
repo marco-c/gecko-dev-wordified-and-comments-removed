@@ -8923,6 +8923,11 @@ fetch
 1
 ;
 bool
+storage
+:
+1
+;
+bool
 structuredClone
 :
 1
