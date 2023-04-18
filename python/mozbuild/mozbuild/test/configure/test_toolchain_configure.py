@@ -5840,9 +5840,7 @@ return
             
 0
             
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5862,7 +5860,7 @@ __file__
 )
 )
 "
-fake_macos_sdk
+macos_fake_sdk
 "
 )
             
