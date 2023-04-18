@@ -1136,16 +1136,6 @@ important
 "
 &
 &
-(
-earlier
-.
-textProp
-.
-rule
-.
-inherited
-|
-|
 !
 computedProp
 .
@@ -1154,7 +1144,6 @@ textProp
 rule
 .
 inherited
-)
 )
 {
 earlier
