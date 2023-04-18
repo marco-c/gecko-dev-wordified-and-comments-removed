@@ -56571,7 +56571,9 @@ clone
 >
 mDocumentBaseURI
 =
-mDocumentBaseURI
+GetDocBaseURI
+(
+)
 ;
 clone
 -
