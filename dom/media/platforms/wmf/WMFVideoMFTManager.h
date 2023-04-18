@@ -374,7 +374,7 @@ bool
 mUseHwAccel
 ;
 bool
-mNoCopyNV12Texture
+mZeroCopyNV12Texture
 ;
 nsCString
 mDXVAFailureReason

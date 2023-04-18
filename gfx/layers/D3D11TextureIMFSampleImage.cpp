@@ -241,6 +241,11 @@ AllocateTextureClient
 KnowsCompositor
 *
 aKnowsCompositor
+RefPtr
+<
+IMFSampleUsageInfo
+>
+aUsageInfo
 )
 {
 mTextureClient
@@ -263,6 +268,7 @@ NV12
 mYUVColorSpace
 mColorRange
 aKnowsCompositor
+aUsageInfo
 )
 ;
 MOZ_ASSERT

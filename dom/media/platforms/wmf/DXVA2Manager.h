@@ -281,6 +281,16 @@ BeforeShutdownVideoMFTDecoder
 )
 {
 }
+virtual
+bool
+SupportsZeroCopyNV12Texture
+(
+)
+{
+return
+false
+;
+}
 static
 bool
 IsNV12Supported
