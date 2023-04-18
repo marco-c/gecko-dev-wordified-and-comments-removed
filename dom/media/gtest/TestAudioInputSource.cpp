@@ -1337,6 +1337,16 @@ ErrorForcedEvent
 )
 )
 ;
+WaitFor
+(
+stream
+-
+>
+ErrorStoppedEvent
+(
+)
+)
+;
 DispatchFunction
 (
 [
