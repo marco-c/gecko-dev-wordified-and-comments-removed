@@ -36,7 +36,7 @@ test_expected_url
 (
 bidi_session
 inline
-top_context
+new_tab
 value
 )
 :
@@ -69,7 +69,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -116,7 +116,7 @@ get_tree
             
 parent
 =
-top_context
+new_tab
 [
 "
 context
@@ -184,7 +184,7 @@ test_slow_image
 (
 bidi_session
 inline
-top_context
+new_tab
 wait
 expect_timeout
 )
@@ -253,7 +253,7 @@ navigate
             
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -319,7 +319,7 @@ get_tree
             
 parent
 =
-top_context
+new_tab
 [
 "
 context
@@ -386,8 +386,8 @@ def
 test_slow_page
 (
 bidi_session
+new_tab
 url
-top_context
 wait
 expect_timeout
 )
@@ -442,7 +442,7 @@ navigate
             
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -529,7 +529,7 @@ test_slow_script
 (
 bidi_session
 inline
-top_context
+new_tab
 wait
 expect_timeout
 )
@@ -602,7 +602,7 @@ navigate
             
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -668,7 +668,7 @@ get_tree
             
 parent
 =
-top_context
+new_tab
 [
 "
 context

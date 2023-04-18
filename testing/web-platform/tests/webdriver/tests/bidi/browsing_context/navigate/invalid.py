@@ -165,7 +165,7 @@ def
 test_params_url_invalid_type
 (
 bidi_session
-top_context
+new_tab
 value
 )
 :
@@ -191,7 +191,7 @@ navigate
             
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -235,7 +235,7 @@ def
 test_params_url_invalid_value
 (
 bidi_session
-top_context
+new_tab
 value
 )
 :
@@ -261,7 +261,7 @@ navigate
             
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -296,7 +296,7 @@ test_params_wait_invalid_type
 (
 bidi_session
 inline
-top_context
+new_tab
 value
 )
 :
@@ -322,7 +322,7 @@ navigate
             
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -367,7 +367,7 @@ test_params_wait_invalid_value
 (
 bidi_session
 inline
-top_context
+new_tab
 value
 )
 :
@@ -393,7 +393,7 @@ navigate
             
 context
 =
-top_context
+new_tab
 [
 "
 context
