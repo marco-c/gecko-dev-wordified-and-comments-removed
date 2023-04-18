@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PeerConnectionIdp
 "
@@ -3280,6 +3286,8 @@ this
 _localIdp
 =
 new
+lazy
+.
 PeerConnectionIdp
 (
 this
@@ -3293,6 +3301,8 @@ this
 _remoteIdp
 =
 new
+lazy
+.
 PeerConnectionIdp
 (
 this
