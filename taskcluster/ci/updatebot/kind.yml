@@ -587,13 +587,7 @@ tooltool
 -
 manifests
 /
-vc
-+
-+
--
-2019
--
-runtime
+updatebot
 .
 manifest
 "
@@ -788,3 +782,5 @@ windows
 24
 -
 arcanist
+-
+depot_tools
