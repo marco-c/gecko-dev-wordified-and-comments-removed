@@ -922,6 +922,14 @@ GetChildSingleton
 (
 )
 ;
+cache
+.
+mSaveMonitor
+.
+AssertOnWritingThread
+(
+)
+;
 auto
 processType
 =
@@ -1090,6 +1098,7 @@ ScriptPreloader
 mSaveMonitor
 ]
 "
+this
 )
 {
 if
@@ -1342,7 +1351,7 @@ StartCacheWrite
 }
 }
 {
-MonitorAutoLock
+MonitorSingleWriterAutoLock
 saveMonitorAutoLock
 (
 mSaveMonitor
@@ -2084,6 +2093,12 @@ nsAString
 basePath
 )
 {
+mSaveMonitor
+.
+AssertOnWritingThread
+(
+)
+;
 mCacheInitialized
 =
 true
@@ -2178,6 +2193,12 @@ ScriptCacheChild
 cacheChild
 )
 {
+mSaveMonitor
+.
+AssertOnWritingThread
+(
+)
+;
 MOZ_ASSERT
 (
 XRE_IsContentProcess
@@ -3111,7 +3132,7 @@ mDataPrepared
 mSaveComplete
 )
 {
-MonitorAutoUnlock
+MonitorSingleWriterAutoUnlock
 mau
 (
 mSaveMonitor
@@ -3611,7 +3632,7 @@ Run
 (
 )
 {
-MonitorAutoLock
+MonitorSingleWriterAutoLock
 mal
 (
 mSaveMonitor
@@ -3682,7 +3703,7 @@ isErr
 )
 ;
 {
-MonitorAutoLock
+MonitorSingleWriterAutoLock
 lock
 (
 mChildCache
