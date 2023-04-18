@@ -3258,12 +3258,8 @@ if
 WMFDecoderModule
 :
 :
-CanCreateMFTDecoder
+HasH264
 (
-WMFStreamType
-:
-:
-H264
 )
 )
 {
