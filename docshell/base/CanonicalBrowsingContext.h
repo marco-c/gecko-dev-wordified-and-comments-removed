@@ -1072,6 +1072,11 @@ HistoryCommitIndexAndLength
 )
 ;
 void
+SynchronizeLayoutHistoryState
+(
+)
+;
+void
 ResetScalingZoom
 (
 )
