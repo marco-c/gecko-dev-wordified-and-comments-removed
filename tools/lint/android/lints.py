@@ -981,7 +981,8 @@ Please
 run
 .
 /
-gradlew
+mach
+gradle
 {
 }
 for
