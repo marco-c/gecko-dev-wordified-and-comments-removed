@@ -321,9 +321,6 @@ ReadableStream
 >
 GetReadable
 (
-ErrorResult
-&
-aRv
 )
 ;
 already_AddRefed
@@ -332,9 +329,6 @@ WritableStream
 >
 GetWritable
 (
-ErrorResult
-&
-aRv
 )
 ;
 private
