@@ -3050,7 +3050,7 @@ aScrollPosition
 )
 ;
 nscoord
-GetIntrinsicVScrollbarWidth
+IntrinsicScrollbarGutterSizeAtInlineEdges
 (
 gfxContext
 *
