@@ -600,14 +600,14 @@ config
 >
 rc_undershoot_pct
 =
-200
+100
 ;
 config
 -
 >
 rc_overshoot_pct
 =
-200
+15
 ;
 config
 -
