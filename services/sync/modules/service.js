@@ -2332,14 +2332,11 @@ modInfo
 module
 ;
 }
+try
+{
 let
 ns
 =
-{
-}
-;
-try
-{
 ChromeUtils
 .
 import
@@ -2347,7 +2344,6 @@ import
 modInfo
 .
 module
-ns
 )
 ;
 if

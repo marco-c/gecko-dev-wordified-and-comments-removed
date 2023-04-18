@@ -153,8 +153,6 @@ settings
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -4778,7 +4776,9 @@ init
 )
 ;
 const
-Blocklist
+{
+BlocklistPrivate
+}
 =
 ChromeUtils
 .
@@ -4797,10 +4797,9 @@ Blocklist
 .
 jsm
 "
-null
 )
 ;
-Blocklist
+BlocklistPrivate
 .
 ExtensionBlocklistRS
 .
@@ -4808,7 +4807,7 @@ _ensureInitialized
 (
 )
 ;
-Blocklist
+BlocklistPrivate
 .
 PluginBlocklistRS
 .
@@ -4816,7 +4815,7 @@ _ensureInitialized
 (
 )
 ;
-Blocklist
+BlocklistPrivate
 .
 GfxBlocklistRS
 .
