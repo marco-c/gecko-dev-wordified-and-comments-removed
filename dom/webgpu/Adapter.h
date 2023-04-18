@@ -147,7 +147,7 @@ mLimits
 ;
 const
 bool
-mIsSoftware
+mIsFallbackAdapter
 =
 false
 ;
@@ -205,11 +205,15 @@ Limits
 const
 ;
 bool
-IsSoftware
+IsFallbackAdapter
 (
 )
 const
+{
+return
+mIsFallbackAdapter
 ;
+}
 already_AddRefed
 <
 dom

@@ -163,6 +163,7 @@ dom
 :
 GPURequestAdapterOptions
 mPowerPreference
+mForceFallbackAdapter
 )
 ;
 DEFINE_IPC_SERIALIZER_WITH_FIELDS

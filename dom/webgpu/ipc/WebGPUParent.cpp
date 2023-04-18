@@ -1587,6 +1587,14 @@ Value
 )
 ;
 }
+options
+.
+force_fallback_adapter
+=
+aOptions
+.
+mForceFallbackAdapter
+;
 ErrorBuffer
 error
 ;

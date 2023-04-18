@@ -594,6 +594,11 @@ GPURequestAdapterOptions
 GPUPowerPreference
 powerPreference
 ;
+boolean
+forceFallbackAdapter
+=
+false
+;
 }
 ;
 [
@@ -843,7 +848,7 @@ limits
 readonly
 attribute
 boolean
-isSoftware
+isFallbackAdapter
 ;
 [
 NewObject
