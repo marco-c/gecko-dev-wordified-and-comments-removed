@@ -251,7 +251,6 @@ ipc
 SharedPreferenceSerializer
 >
 (
-ShouldSanitizePreference
 )
 ;
 if
