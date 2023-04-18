@@ -924,6 +924,17 @@ DestroySocketProcess
 (
 )
 ;
+nsresult
+SetOfflineInternal
+(
+bool
+offline
+bool
+notifySocketProcess
+=
+true
+)
+;
 private
 :
 mozilla
