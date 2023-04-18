@@ -918,16 +918,6 @@ MarkBitmapWordBits
 ;
 const
 size_t
-ChunkRuntimeOffset
-=
-offsetof
-(
-ChunkBase
-runtime
-)
-;
-const
-size_t
 ChunkStoreBufferOffset
 =
 offsetof
