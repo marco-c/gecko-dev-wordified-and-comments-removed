@@ -797,7 +797,7 @@ nsresult
 ModuleLoader
 :
 :
-CompileOrFinishModuleScript
+CompileFetchedModule
 (
 JSContext
 *
@@ -828,7 +828,7 @@ MutableHandle
 JSObject
 *
 >
-aModule
+aModuleOut
 )
 {
 if
@@ -971,7 +971,7 @@ instantiateOptions
 aOptions
 )
 ;
-aModule
+aModuleOut
 .
 set
 (
@@ -994,7 +994,7 @@ address
 if
 (
 !
-aModule
+aModuleOut
 )
 {
 return
@@ -1265,7 +1265,7 @@ instantiateOptions
 aOptions
 )
 ;
-aModule
+aModuleOut
 .
 set
 (
@@ -1283,7 +1283,7 @@ stencil
 if
 (
 !
-aModule
+aModuleOut
 )
 {
 return

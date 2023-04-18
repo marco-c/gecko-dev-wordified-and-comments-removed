@@ -553,7 +553,7 @@ aRequest
 ;
 virtual
 nsresult
-CompileOrFinishModuleScript
+CompileFetchedModule
 (
 JSContext
 *
@@ -584,7 +584,7 @@ MutableHandle
 JSObject
 *
 >
-aModuleScript
+aModuleOut
 )
 =
 0
