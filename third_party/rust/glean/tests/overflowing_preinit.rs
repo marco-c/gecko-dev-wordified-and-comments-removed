@@ -324,7 +324,7 @@ in
 0
 .
 .
-110
+1010
 {
 metrics
 :
@@ -350,7 +350,7 @@ assert_eq
 (
 Some
 (
-100
+1000
 )
 metrics
 :
@@ -386,7 +386,7 @@ assert
 val
 >
 =
-110
+1010
 )
 ;
 glean
