@@ -124,8 +124,6 @@ RLBoxSandboxDataBase
 >
 CreateSandboxData
 (
-uint64_t
-aSize
 )
 override
 ;

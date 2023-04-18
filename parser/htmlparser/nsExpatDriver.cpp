@@ -7093,8 +7093,6 @@ RLBoxExpatSandboxPool
 :
 CreateSandboxData
 (
-uint64_t
-aSize
 )
 {
 auto
@@ -7122,7 +7120,6 @@ sandbox
 create_sandbox
 (
 false
-aSize
 )
 ;
 #
@@ -7162,7 +7159,6 @@ MakeUnique
 RLBoxExpatSandboxData
 >
 (
-aSize
 )
 ;
 sbxData
