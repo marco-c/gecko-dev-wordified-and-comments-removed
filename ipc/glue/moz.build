@@ -1421,6 +1421,16 @@ test
 /
 gtest
 "
+"
+test
+/
+utility_process_xpcom
+"
+"
+test
+/
+browser
+"
 ]
 include
 (
