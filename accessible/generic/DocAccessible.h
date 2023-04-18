@@ -58,13 +58,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h
@@ -144,8 +137,6 @@ HyperTextAccessibleWrap
 public
 nsIDocumentObserver
 public
-nsIObserver
-public
 nsSupportsWeakReference
 public
 nsIAccessiblePivotObserver
@@ -156,7 +147,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 DocAccessible
 LocalAccessible
 )
-NS_DECL_NSIOBSERVER
 NS_DECL_NSIACCESSIBLEPIVOTOBSERVER
 protected
 :
