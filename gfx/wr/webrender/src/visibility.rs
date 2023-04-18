@@ -390,6 +390,12 @@ push_surface
 (
 shared_clips
 spatial_tree
+&
+self
+.
+data_stores
+.
+clip
 )
 ;
 }

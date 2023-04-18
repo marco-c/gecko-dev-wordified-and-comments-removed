@@ -14437,7 +14437,9 @@ transforms
 .
 get_id
 (
-clip_instance
+clip_node
+.
+item
 .
 spatial_node_index
 ctx
@@ -14473,7 +14475,9 @@ transforms
 .
 get_id
 (
-clip_instance
+clip_node
+.
+item
 .
 spatial_node_index
 root_spatial_node_index
@@ -14581,7 +14585,9 @@ SpaceMapper
 new_with_target
 (
 root_spatial_node_index
-clip_instance
+clip_node
+.
+item
 .
 spatial_node_index
 WorldRect
@@ -14872,7 +14878,9 @@ spatial_tree
 .
 get_spatial_node
 (
-clip_instance
+clip_node
+.
+item
 .
 spatial_node_index
 )
@@ -15319,7 +15327,9 @@ add_tiled_clip_mask
 (
 actual_rect
 rect
-clip_instance
+clip_node
+.
+item
 .
 spatial_node_index
 ctx
