@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 FrameTransport
 :
@@ -128,6 +134,8 @@ jsm
 class
 RootMessageHandler
 extends
+lazy
+.
 MessageHandler
 {
 static
@@ -182,6 +190,8 @@ this
 _frameTransport
 =
 new
+lazy
+.
 FrameTransport
 (
 this
@@ -192,6 +202,8 @@ this
 _sessionData
 =
 new
+lazy
+.
 SessionData
 (
 this
@@ -267,6 +279,8 @@ type
 )
 {
 case
+lazy
+.
 WindowGlobalMessageHandler
 .
 type
@@ -458,6 +472,8 @@ destination
 {
 type
 :
+lazy
+.
 WindowGlobalMessageHandler
 .
 type

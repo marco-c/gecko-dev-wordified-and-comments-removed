@@ -63,11 +63,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ContextDescriptorType
 :
@@ -131,7 +137,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -139,6 +145,8 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
@@ -178,6 +186,8 @@ constructor
 type
 !
 =
+lazy
+.
 RootMessageHandler
 .
 type
@@ -293,6 +303,8 @@ value
 }
 else
 {
+lazy
+.
 logger
 .
 warn
@@ -500,6 +512,8 @@ value
 }
 else
 {
+lazy
+.
 logger
 .
 warn
@@ -643,6 +657,8 @@ type
 =
 =
 =
+lazy
+.
 ContextDescriptorType
 .
 All

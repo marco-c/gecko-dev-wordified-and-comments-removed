@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ActorManagerParent
 :
@@ -81,7 +87,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -89,6 +95,8 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
@@ -203,6 +211,8 @@ registered
 return
 ;
 }
+lazy
+.
 ActorManagerParent
 .
 addJSWindowActors
@@ -220,6 +230,8 @@ registered
 =
 true
 ;
+lazy
+.
 logger
 .
 trace

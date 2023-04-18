@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 getMessageHandlerClass
 :
@@ -130,7 +136,7 @@ XPCOMUtils
 .
 defineLazyModuleGetter
 (
-this
+lazy
 "
 getTestModuleClass
 "
@@ -172,7 +178,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -180,6 +186,8 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
@@ -434,6 +442,8 @@ this
 messageHandler
 )
 ;
+lazy
+.
 logger
 .
 trace
@@ -460,6 +470,8 @@ type
 }
 else
 {
+lazy
+.
 logger
 .
 trace
@@ -563,6 +575,8 @@ _useTestModules
 )
 {
 return
+lazy
+.
 getTestModuleClass
 (
 moduleName
@@ -571,6 +585,8 @@ moduleFolder
 ;
 }
 return
+lazy
+.
 getModuleClass
 (
 moduleName
@@ -587,6 +603,8 @@ destinationType
 const
 originPath
 =
+lazy
+.
 getMessageHandlerClass
 (
 originType
@@ -610,6 +628,8 @@ originPath
 const
 destinationPath
 =
+lazy
+.
 getMessageHandlerClass
 (
 destinationType

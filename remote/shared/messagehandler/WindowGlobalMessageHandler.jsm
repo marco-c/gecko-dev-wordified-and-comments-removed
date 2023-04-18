@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ContextDescriptorType
 :
@@ -86,6 +92,8 @@ jsm
 class
 WindowGlobalMessageHandler
 extends
+lazy
+.
 MessageHandler
 {
 constructor
@@ -367,6 +375,8 @@ type
 =
 =
 =
+lazy
+.
 ContextDescriptorType
 .
 All
@@ -379,6 +389,8 @@ type
 =
 =
 =
+lazy
+.
 ContextDescriptorType
 .
 TopBrowsingContext

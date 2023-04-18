@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 error
 :
@@ -136,6 +142,8 @@ this
 .
 type
 =
+lazy
+.
 WindowGlobalMessageHandler
 .
 type
@@ -155,6 +163,8 @@ this
 _registry
 =
 new
+lazy
+.
 MessageHandlerRegistry
 (
 this
@@ -218,6 +228,8 @@ DOMWindowCreated
 {
 if
 (
+lazy
+.
 isBrowsingContextCompatible
 (
 this
@@ -303,6 +315,8 @@ if
 (
 e
 instanceof
+lazy
+.
 error
 .
 MessageHandlerError
