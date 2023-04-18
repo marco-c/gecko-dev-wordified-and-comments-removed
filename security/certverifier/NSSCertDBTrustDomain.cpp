@@ -602,6 +602,9 @@ MOZ_ASSERT
 rootsModule
 )
 ;
+AutoSECMODListReadLock
+lock
+;
 for
 (
 int
