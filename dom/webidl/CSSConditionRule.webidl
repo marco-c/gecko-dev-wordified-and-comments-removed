@@ -153,7 +153,9 @@ CSSConditionRule
 :
 CSSGroupingRule
 {
-readonly
+[
+SetterThrows
+]
 attribute
 UTF8String
 conditionText

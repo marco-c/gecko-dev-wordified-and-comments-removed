@@ -408,12 +408,6 @@ case
 StyleCssRuleType
 :
 :
-Container
-:
-case
-StyleCssRuleType
-:
-:
 Document
 :
 {
@@ -599,12 +593,6 @@ StyleCssRuleType
 :
 :
 Supports
-:
-case
-StyleCssRuleType
-:
-:
-Container
 :
 case
 StyleCssRuleType
