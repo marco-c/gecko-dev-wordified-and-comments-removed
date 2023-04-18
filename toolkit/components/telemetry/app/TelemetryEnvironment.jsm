@@ -16,11 +16,6 @@ Policy
 ]
 ;
 const
-myScope
-=
-this
-;
-const
 {
 Log
 }
@@ -3969,7 +3964,8 @@ this
 _environment
 .
 _currentEnvironment
-myScope
+{
+}
 )
 ;
 }
@@ -5008,7 +5004,8 @@ cloneInto
 this
 .
 _currentEnvironment
-myScope
+{
+}
 )
 ;
 }
@@ -5656,7 +5653,8 @@ cloneInto
 this
 .
 _currentEnvironment
-myScope
+{
+}
 )
 ;
 let
@@ -5800,7 +5798,8 @@ cloneInto
 this
 .
 _currentEnvironment
-myScope
+{
+}
 )
 ;
 delete
@@ -5847,7 +5846,8 @@ experiments
 |
 {
 }
-myScope
+{
+}
 )
 ;
 }
@@ -6263,7 +6263,8 @@ cloneInto
 this
 .
 _currentEnvironment
-myScope
+{
+}
 )
 ;
 this
@@ -7095,7 +7096,8 @@ cloneInto
 this
 .
 _currentEnvironment
-myScope
+{
+}
 )
 ;
 await
@@ -7145,7 +7147,8 @@ cloneInto
 this
 .
 _currentEnvironment
-myScope
+{
+}
 )
 ;
 this

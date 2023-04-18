@@ -228,11 +228,6 @@ Utils
 TelemetryUtils
 ;
 const
-myScope
-=
-this
-;
-const
 PAYLOAD_VERSION
 =
 4
@@ -5059,7 +5054,8 @@ Cu
 cloneInto
 (
 aProvidedPayload
-myScope
+{
+}
 )
 ;
 payload
