@@ -3291,12 +3291,8 @@ WaylandPopupSetDirectPosition
 )
 ;
 bool
-WaylandPopupFitsParentWindow
+WaylandPopupFitsToplevelWindow
 (
-const
-GdkRectangle
-&
-aSize
 )
 ;
 const
