@@ -3764,6 +3764,11 @@ PersistentBufferProvider
 >
 mBufferProvider
 ;
+bool
+mAllowAcceleration
+=
+true
+;
 RefPtr
 <
 CanvasShutdownObserver
