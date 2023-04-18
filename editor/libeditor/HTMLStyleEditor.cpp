@@ -5163,6 +5163,13 @@ aPoint
 }
 if
 (
+splitResult
+.
+GetPreviousContent
+(
+)
+&
+&
 HTMLEditUtils
 :
 :
