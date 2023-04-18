@@ -205,6 +205,14 @@ RemoteWorkerManager
 )
 ;
 #
+ifdef
+LOG
+#
+undef
+LOG
+#
+endif
+#
 define
 LOG
 (
