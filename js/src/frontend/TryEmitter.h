@@ -208,6 +208,12 @@ JSOpLength_Try
 )
 ;
 }
+bool
+shouldUpdateRval
+(
+)
+const
+;
 [
 [
 nodiscard
