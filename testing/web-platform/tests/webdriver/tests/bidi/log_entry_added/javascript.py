@@ -178,3 +178,17 @@ time_end
 time_end
     
 )
+    
+current_session
+.
+url
+=
+inline
+(
+"
+<
+p
+>
+foo
+"
+)
