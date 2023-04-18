@@ -540,6 +540,10 @@ const
 nsAString
 &
 aPath
+const
+GetChildrenOptions
+&
+aOptions
 )
 ;
 static
@@ -954,6 +958,8 @@ GetChildrenSync
 nsIFile
 *
 aFile
+bool
+aIgnoreAbsent
 )
 ;
 static
