@@ -5658,9 +5658,6 @@ str
 .
 AppendFloat
 (
-(
-float
-)
 aVal
 )
 ;
