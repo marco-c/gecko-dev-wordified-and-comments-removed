@@ -1227,6 +1227,17 @@ NULL
 JOF_BYTE
 )
 (
+CloseIter
+close_iter
+NULL
+2
+1
+0
+JOF_UINT8
+|
+JOF_IC
+)
+(
 CheckIsObj
 check_is_obj
 NULL

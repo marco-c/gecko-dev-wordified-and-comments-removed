@@ -68,6 +68,19 @@ src
 /
 copy
 /
+CompletionKind
+.
+h
+"
+:
+"
+a491664ee7423ce75f34af4efa3df47934b42139f1b19741b2aa95f02d9230bf
+"
+"
+src
+/
+copy
+/
 FunctionFlags
 .
 h
@@ -126,7 +139,7 @@ h
 "
 :
 "
-47760d4e2545cf6c935dd4575cb76f04fefd91f31bf62a3865ad3923afe40d06
+4363a2c0535de4d8383fb69f972cc1deb3539ff281f76bd30933f8b0dc6de308
 "
 "
 src
@@ -244,7 +257,7 @@ rs
 "
 :
 "
-84d7e1fa34ae4338f7d6ef60712aeca6b5762bc90567c7e44f329a0d7262d39d
+462651d722fa7e2da9312ada585f8f21211c7fd8b50ad0adb9a48e179a75d2ee
 "
 "
 src
