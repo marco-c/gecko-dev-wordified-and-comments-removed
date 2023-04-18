@@ -531,7 +531,9 @@ network
 .
 trr
 .
-temp_blocklist_duration_sec
+blacklist
+-
+duration
 "
 )
 ;
