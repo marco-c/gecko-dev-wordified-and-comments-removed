@@ -102,6 +102,11 @@ SnapshotGroups
 jsm
 "
 "
+SnapshotMonitor
+.
+jsm
+"
+"
 Snapshots
 .
 jsm
