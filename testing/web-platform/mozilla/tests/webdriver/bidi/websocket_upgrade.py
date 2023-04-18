@@ -522,19 +522,9 @@ current_browser
 =
 browser
 (
-extra_args
+enable_bidi
 =
-[
-"
--
--
-remote
--
-debugging
--
-port
-"
-]
+True
 )
     
 server_port
@@ -931,18 +921,13 @@ current_browser
 browser
 (
         
+enable_bidi
+=
+True
+        
 extra_args
 =
 [
-"
--
--
-remote
--
-debugging
--
-port
-"
 "
 -
 -
@@ -1051,19 +1036,9 @@ current_browser
 =
 browser
 (
-extra_args
+enable_bidi
 =
-[
-"
--
--
-remote
--
-debugging
--
-port
-"
-]
+True
 )
     
 server_port
@@ -1163,20 +1138,13 @@ current_browser
 browser
 (
         
+enable_bidi
+=
+True
+        
 extra_args
 =
 [
-            
-"
--
--
-remote
--
-debugging
--
-port
-"
-            
 "
 -
 -
@@ -1186,7 +1154,6 @@ allow
 -
 origins
 "
-            
 "
 http
 :
@@ -1196,7 +1163,6 @@ localhost
 :
 1234
 "
-        
 ]
     
 )
