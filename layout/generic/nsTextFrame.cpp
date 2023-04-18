@@ -51931,7 +51931,7 @@ ISize
 wm
 )
 =
-NSToCoordCeil
+NSToCoordCeilClamped
 (
 std
 :
