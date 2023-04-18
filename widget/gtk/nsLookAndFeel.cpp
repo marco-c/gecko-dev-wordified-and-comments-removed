@@ -3397,7 +3397,7 @@ scrollbar
 =
 GetWidget
 (
-MOZ_GTK_SCROLLBAR_HORIZONTAL
+MOZ_GTK_SCROLLBAR_VERTICAL
 )
 ;
 aResult

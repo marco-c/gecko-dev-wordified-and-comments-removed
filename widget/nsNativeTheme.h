@@ -236,14 +236,6 @@ nsIFrame
 aFrame
 )
 ;
-int32_t
-GetScrollbarButtonType
-(
-nsIFrame
-*
-aFrame
-)
-;
 bool
 IsSelectedTab
 (
