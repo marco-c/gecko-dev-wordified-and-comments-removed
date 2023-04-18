@@ -2239,9 +2239,6 @@ ReadableStream
 :
 GetReader
 (
-JSContext
-*
-aCx
 const
 ReadableStreamGetReaderOptions
 &

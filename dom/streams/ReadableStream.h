@@ -555,9 +555,6 @@ aRv
 void
 GetReader
 (
-JSContext
-*
-aCx
 const
 ReadableStreamGetReaderOptions
 &
