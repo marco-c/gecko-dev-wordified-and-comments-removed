@@ -9197,6 +9197,10 @@ mResponseBlobImpl
 if
 (
 !
+mResponseBlob
+|
+|
+!
 GetOrCreateDOMReflector
 (
 aCx
