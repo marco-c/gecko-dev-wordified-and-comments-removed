@@ -5467,7 +5467,7 @@ ccf
 ccf
 -
 >
-IsDroppedDown
+IsDroppedDownOrHasParentPopup
 (
 )
 )
@@ -14756,7 +14756,7 @@ ccf
 ccf
 -
 >
-IsDroppedDown
+IsDroppedDownOrHasParentPopup
 (
 )
 )

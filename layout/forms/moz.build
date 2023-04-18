@@ -69,11 +69,6 @@ UNIFIED_SOURCES
 =
 [
 "
-HTMLSelectEventListener
-.
-cpp
-"
-"
 nsButtonFrameRenderer
 .
 cpp

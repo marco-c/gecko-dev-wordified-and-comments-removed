@@ -4602,7 +4602,7 @@ aScrolledFrame
 )
 ;
 void
-InitializeListboxSelect
+InitializeSelectFrame
 (
 nsFrameConstructorState
 &
@@ -4622,6 +4622,8 @@ aParentFrame
 ComputedStyle
 *
 aComputedStyle
+bool
+aBuildCombobox
 nsFrameList
 &
 aFrameList

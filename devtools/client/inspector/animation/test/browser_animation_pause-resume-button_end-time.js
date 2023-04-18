@@ -266,8 +266,7 @@ paused
 "
 )
 ;
-await
-changePlaybackRateSelector
+clickOnPlaybackRateSelector
 (
 animationInspector
 panel

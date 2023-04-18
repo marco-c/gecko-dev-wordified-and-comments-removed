@@ -312,6 +312,13 @@ h
 #
 include
 "
+nsListControlFrame
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -1980,6 +1987,13 @@ nsGlobalWindowOuter
 :
 :
 ShutDown
+(
+)
+;
+nsListControlFrame
+:
+:
+Shutdown
 (
 )
 ;

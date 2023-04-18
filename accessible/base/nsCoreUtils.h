@@ -664,15 +664,6 @@ aContent
 ;
 static
 bool
-CanCreateAccessibleWithoutFrame
-(
-nsIContent
-*
-aContent
-)
-;
-static
-bool
 IsDocumentVisibleConsideringInProcessAncestors
 (
 const
