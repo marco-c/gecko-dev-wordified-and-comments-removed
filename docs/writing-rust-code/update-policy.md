@@ -1479,6 +1479,13 @@ March
 May
 3
 |
+*
+*
+Estimated
+*
+*
+|
+|
 Firefox
 101
 |
@@ -1506,13 +1513,6 @@ April
 2022
 May
 31
-|
-*
-*
-Estimated
-*
-*
-|
 |
 Firefox
 102
