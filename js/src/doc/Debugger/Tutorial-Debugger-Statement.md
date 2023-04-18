@@ -337,9 +337,12 @@ start
 debugging
 anything
 .
-Components
-.
-utils
+const
+{
+addDebuggerToGlobal
+}
+=
+ChromeUtils
 .
 import
 (
