@@ -2301,6 +2301,13 @@ BuildTree
 moz
 :
 MozillaTree
+#
+[
+allow
+(
+dead_code
+)
+]
 jsp
 :
 JsparagusTree
