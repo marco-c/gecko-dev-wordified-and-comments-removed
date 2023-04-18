@@ -3326,6 +3326,12 @@ nsIURI
 *
 baseURL
 ;
+nsCOMPtr
+<
+Element
+>
+element
+;
 if
 (
 script
@@ -3346,6 +3352,15 @@ script
 -
 >
 BaseURL
+(
+)
+;
+element
+=
+script
+-
+>
+GetScriptElement
 (
 )
 ;
@@ -3461,7 +3476,6 @@ document
 GetReferrerPolicy
 (
 )
-nullptr
 principal
 global
 )
@@ -3490,6 +3504,7 @@ CreateDynamicImport
 uri
 options
 baseURL
+element
 loader
 aReferencingPrivate
 specifierString
@@ -5989,7 +6004,6 @@ ScriptFetchOptions
 (
 aCORSMode
 aReferrerPolicy
-domElement
 aTriggeringPrincipal
 nullptr
 )
@@ -6026,6 +6040,7 @@ aContext
 new
 DOMScriptLoadContext
 (
+domElement
 aRequest
 )
 ;
@@ -6059,6 +6074,7 @@ CreateTopLevel
 (
 aURI
 fetchOptions
+domElement
 aIntegrity
 referrer
 this
@@ -13270,6 +13286,13 @@ aRequest
 -
 >
 mBaseURL
+aRequest
+-
+>
+mLoadContext
+-
+>
+mElement
 )
 ;
 JS
