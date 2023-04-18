@@ -180,6 +180,10 @@ taskgraph
 .
 yml
 -
+vendor
+.
+yml
+-
 webidl
 .
 yml
