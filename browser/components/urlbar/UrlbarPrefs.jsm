@@ -484,6 +484,14 @@ true
 "
 suggest
 .
+remotetab
+"
+true
+]
+[
+"
+suggest
+.
 quicksuggest
 .
 nonsponsored
