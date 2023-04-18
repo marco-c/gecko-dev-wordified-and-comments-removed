@@ -241,8 +241,7 @@ init
 "
 )
 ;
-this
-.
+const
 LoginTestUtils
 =
 {

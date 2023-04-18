@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -14,6 +14,9 @@ FormAutofillHeuristics
 FieldScanner
 "
 ]
+;
+let
+FormAutofillHeuristics
 ;
 const
 {
@@ -2049,8 +2052,6 @@ confidences
 ;
 }
 }
-this
-.
 FormAutofillHeuristics
 =
 {

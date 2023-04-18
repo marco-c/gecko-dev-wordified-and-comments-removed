@@ -145,8 +145,7 @@ InsecurePasswordUtils
 }
 )
 ;
-this
-.
+const
 InsecurePasswordUtils
 =
 {

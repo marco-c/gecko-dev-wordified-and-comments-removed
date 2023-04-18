@@ -110,10 +110,6 @@ let
 BindToObject
 RequestBackoffV4
 ;
-this
-.
-log
-=
 function
 log
 (
@@ -197,11 +193,6 @@ n
 )
 ;
 }
-;
-this
-.
-PROT_ListManager
-=
 function
 PROT_ListManager
 (
@@ -320,7 +311,6 @@ this
 )
 ;
 }
-;
 PROT_ListManager
 .
 prototype

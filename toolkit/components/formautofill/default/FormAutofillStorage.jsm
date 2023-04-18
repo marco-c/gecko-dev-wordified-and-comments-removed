@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -1164,8 +1163,7 @@ data
 ;
 }
 }
-this
-.
+const
 formAutofillStorage
 =
 new

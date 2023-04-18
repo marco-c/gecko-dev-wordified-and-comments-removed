@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -12,6 +11,9 @@ EXPORTED_SYMBOLS
 ExtensionStorageIDB
 "
 ]
+;
+let
+ExtensionStorageIDB
 ;
 const
 {
@@ -1943,8 +1945,6 @@ success
 )
 ;
 }
-this
-.
 ExtensionStorageIDB
 =
 {

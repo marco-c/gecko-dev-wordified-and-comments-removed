@@ -661,11 +661,8 @@ return
 )
 ;
 }
-this
-.
-CrashService
-=
 function
+CrashService
 (
 )
 {
@@ -684,7 +681,6 @@ application
 )
 ;
 }
-;
 CrashService
 .
 prototype

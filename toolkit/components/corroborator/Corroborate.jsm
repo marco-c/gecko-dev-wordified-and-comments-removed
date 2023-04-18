@@ -58,8 +58,7 @@ Corroborate
 "
 ]
 ;
-this
-.
+const
 Corroborate
 =
 {

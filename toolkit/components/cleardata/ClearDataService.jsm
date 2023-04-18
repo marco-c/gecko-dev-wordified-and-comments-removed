@@ -6088,11 +6088,8 @@ PreflightCacheCleaner
 }
 ]
 ;
-this
-.
-ClearDataService
-=
 function
+ClearDataService
 (
 )
 {
@@ -6103,7 +6100,6 @@ _initialize
 )
 ;
 }
-;
 ClearDataService
 .
 prototype

@@ -132,8 +132,7 @@ LoginManagerContextMenu
 }
 )
 ;
-this
-.
+const
 LoginManagerContextMenu
 =
 {

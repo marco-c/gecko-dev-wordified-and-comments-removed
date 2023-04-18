@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -11,6 +11,9 @@ EXPORTED_SYMBOLS
 MessageChannel
 "
 ]
+;
+let
+MessageChannel
 ;
 const
 {
@@ -1272,8 +1275,6 @@ msg
 ;
 }
 }
-this
-.
 MessageChannel
 =
 {

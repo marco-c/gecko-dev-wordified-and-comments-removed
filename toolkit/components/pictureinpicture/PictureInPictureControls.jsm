@@ -18,8 +18,7 @@ TOGGLE_POLICY_STRINGS
 "
 ]
 ;
-this
-.
+const
 KEYBOARD_CONTROLS
 =
 {
@@ -58,8 +57,7 @@ CLOSE
 4
 }
 ;
-this
-.
+const
 TOGGLE_POLICIES
 =
 {
@@ -83,8 +81,7 @@ BOTTOM
 6
 }
 ;
-this
-.
+const
 TOGGLE_POLICY_STRINGS
 =
 {

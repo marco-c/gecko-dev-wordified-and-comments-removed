@@ -2007,10 +2007,6 @@ text
 "
 )
 ;
-this
-.
-LoginManagerChild
-=
 class
 LoginManagerChild
 extends
@@ -11247,4 +11243,3 @@ result
 ;
 }
 }
-;

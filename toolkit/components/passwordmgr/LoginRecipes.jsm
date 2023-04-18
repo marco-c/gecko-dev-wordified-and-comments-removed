@@ -1072,8 +1072,7 @@ recipes
 }
 }
 ;
-this
-.
+const
 LoginRecipesContent
 =
 {

@@ -1379,8 +1379,7 @@ summary
 ;
 }
 }
-this
-.
+const
 LoginHelper
 =
 {

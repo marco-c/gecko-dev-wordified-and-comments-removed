@@ -591,11 +591,8 @@ date
 )
 ;
 }
-this
-.
-TrackingDBService
-=
 function
+TrackingDBService
 (
 )
 {
@@ -610,7 +607,6 @@ _initialize
 )
 ;
 }
-;
 TrackingDBService
 .
 prototype

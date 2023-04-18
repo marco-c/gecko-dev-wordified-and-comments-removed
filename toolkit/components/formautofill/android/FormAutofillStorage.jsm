@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -969,8 +968,7 @@ GeckoViewStorage
 ;
 }
 }
-this
-.
+const
 formAutofillStorage
 =
 new

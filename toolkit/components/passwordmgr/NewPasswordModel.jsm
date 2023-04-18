@@ -3573,8 +3573,7 @@ biases
 )
 ;
 }
-this
-.
+const
 NewPasswordModel
 =
 {
