@@ -224,7 +224,7 @@ DeleteMe
 )
 ;
 async
-Checkpoint
+AsyncCheckpoint
 (
 LSWriteInfo
 [
@@ -233,7 +233,7 @@ writeInfos
 )
 ;
 async
-CheckpointAndNotify
+AsyncCheckpointAndNotify
 (
 LSWriteAndNotifyInfo
 [

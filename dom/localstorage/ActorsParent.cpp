@@ -7871,7 +7871,7 @@ ipc
 :
 :
 IPCResult
-RecvCheckpoint
+RecvAsyncCheckpoint
 (
 nsTArray
 <
@@ -7890,7 +7890,7 @@ ipc
 :
 :
 IPCResult
-RecvCheckpointAndNotify
+RecvAsyncCheckpointAndNotify
 (
 nsTArray
 <
@@ -22929,7 +22929,7 @@ IPCResult
 Snapshot
 :
 :
-RecvCheckpoint
+RecvAsyncCheckpoint
 (
 nsTArray
 <
@@ -23174,7 +23174,7 @@ IPCResult
 Snapshot
 :
 :
-RecvCheckpointAndNotify
+RecvAsyncCheckpointAndNotify
 (
 nsTArray
 <
