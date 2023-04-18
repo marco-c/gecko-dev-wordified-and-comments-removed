@@ -237,13 +237,6 @@ IntSize
 1
 1
 )
-gfx
-:
-:
-ColorSpace2
-:
-:
-SRGB
 )
 ;
 return

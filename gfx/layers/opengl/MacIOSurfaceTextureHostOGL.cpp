@@ -1280,7 +1280,7 @@ ColorF
 0f
 }
 preferCompositorSurface
-true
+false
 )
 ;
 break
