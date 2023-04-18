@@ -303,6 +303,11 @@ Client
 cpp
 "
 "
+ClientUsageArray
+.
+cpp
+"
+"
 DecryptingInputStream
 .
 cpp
