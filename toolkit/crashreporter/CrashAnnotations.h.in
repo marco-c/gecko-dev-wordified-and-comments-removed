@@ -116,7 +116,7 @@ strings
 ;
 /
 /
-Whitelist
+Allowlist
 of
 crash
 annotations
@@ -130,13 +130,13 @@ crash
 ping
 const
 Annotation
-kCrashPingWhitelist
+kCrashPingAllowlist
 [
 ]
 =
 {
 {
-whitelist
+allowlist
 }
 }
 ;
@@ -273,7 +273,7 @@ given
 crash
 annotation
 is
-whitelisted
+allowlisted
 for
 inclusion
 in
@@ -311,7 +311,7 @@ otherwise
 *
 /
 bool
-IsAnnotationWhitelistedForPing
+IsAnnotationAllowlistedForPing
 (
 Annotation
 aAnnotation
