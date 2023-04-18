@@ -119,15 +119,6 @@ nsDeviceContext
 >
 mPrintDC
 ;
-mozilla
-:
-:
-UniquePtr
-<
-nsPrintObject
->
-mPrintObject
-;
 nsCOMArray
 <
 nsIWebProgressListener

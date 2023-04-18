@@ -749,6 +749,15 @@ RemotePrintJobChild
 >
 mRemotePrintJob
 ;
+mozilla
+:
+:
+UniquePtr
+<
+nsPrintObject
+>
+mPrintObject
+;
 nsPrintObject
 *
 mSelectionRoot
