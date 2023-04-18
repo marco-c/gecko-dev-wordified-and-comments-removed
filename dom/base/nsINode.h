@@ -4251,6 +4251,7 @@ GetOwnerDocument
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Normalize
 (
@@ -6486,6 +6487,7 @@ aError
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsINode
 *
 RemoveChild
@@ -7221,6 +7223,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsINode
 *
 ReplaceOrInsertBefore
