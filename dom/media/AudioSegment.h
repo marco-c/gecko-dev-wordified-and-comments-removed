@@ -1644,7 +1644,7 @@ mDuration
 NS_ASSERTION
 (
 (
-UINT32_MAX
+UINT64_MAX
 -
 aInRate
 +
@@ -1667,9 +1667,15 @@ uint32_t
 outSize
 =
 (
+static_cast
+<
+uint64_t
+>
+(
 c
 .
 mDuration
+)
 *
 aOutRate
 +
