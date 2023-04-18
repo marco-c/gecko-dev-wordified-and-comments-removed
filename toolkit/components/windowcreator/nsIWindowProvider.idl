@@ -86,6 +86,9 @@ in
 boolean
 aForceNoReferrer
 in
+boolean
+aIsPopupRequested
+in
 nsDocShellLoadStatePtr
 aLoadState
 out
