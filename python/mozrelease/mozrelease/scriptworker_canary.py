@@ -220,13 +220,10 @@ hg
 "
 )
 )
-.
-joinpath
-(
+/
 "
 hgrc
 "
-)
     
 if
 hgrc
@@ -239,11 +236,12 @@ exists
 raise
 FailedCommandError
 (
-            
+f
 "
 Not
 overwriting
 {
+hgrc
 }
 ;
 cannot
@@ -251,12 +249,6 @@ configure
 ssh
 .
 "
-.
-format
-(
-hgrc
-)
-        
 )
     
 try
@@ -283,13 +275,10 @@ ssh_key_secret
 ssh_key_file
 =
 ssh_key_dir
-.
-joinpath
-(
+/
 "
 id_rsa
 "
-)
         
 ssh_key_file
 .
@@ -389,14 +378,10 @@ ssh_key_dir
 )
 )
         
-os
-.
-remove
-(
-str
-(
 hgrc
-)
+.
+unlink
+(
 )
 def
 push_canary
@@ -529,13 +514,10 @@ Path
 (
 GECKO
 )
-.
-joinpath
-(
+/
 "
 mach
 "
-)
     
 base_command
 =
