@@ -233,7 +233,7 @@ lazyRequireGetter
 (
 this
 "
-inactivePropertyHelper
+isPropertyUsed
 "
 "
 devtools
@@ -2001,8 +2001,6 @@ decl
 .
 isUsed
 =
-inactivePropertyHelper
-.
 isPropertyUsed
 (
 el
@@ -4351,8 +4349,6 @@ _declarations
 const
 isUsed
 =
-inactivePropertyHelper
-.
 isPropertyUsed
 (
 el
