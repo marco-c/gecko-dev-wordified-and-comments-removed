@@ -250,9 +250,6 @@ class
 nsGlobalWindowInner
 ;
 class
-nsIAddonInterposition
-;
-class
 nsIGlobalObject
 ;
 class
@@ -1290,9 +1287,6 @@ XPCStringConvert
 delete
 ;
 }
-;
-class
-nsIAddonInterposition
 ;
 namespace
 xpc
