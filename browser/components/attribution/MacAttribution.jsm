@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -138,7 +144,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Subprocess
 "
@@ -424,6 +430,8 @@ let
 proc
 =
 await
+lazy
+.
 Subprocess
 .
 call
@@ -641,6 +649,8 @@ this
 applicationPath
 )
 {
+lazy
+.
 log
 .
 debug
@@ -702,6 +712,8 @@ NS_ERROR_NOT_AVAILABLE
 )
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -731,6 +743,8 @@ queryQuarantineDatabase
 guid
 )
 ;
+lazy
+.
 log
 .
 debug

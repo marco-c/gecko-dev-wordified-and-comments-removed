@@ -133,11 +133,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 MacAttribution
 "
@@ -159,7 +165,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -774,6 +780,8 @@ value
 }
 else
 {
+lazy
+.
 log
 .
 debug
@@ -1030,6 +1038,8 @@ gCachedAttrData
 null
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1072,6 +1082,8 @@ if
 attributionFile
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1117,6 +1129,8 @@ path
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1145,12 +1159,16 @@ let
 referrer
 =
 await
+lazy
+.
 MacAttribution
 .
 getReferrerUrl
 (
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1188,6 +1206,8 @@ gCachedAttrData
 {
 }
 ;
+lazy
+.
 log
 .
 warn
@@ -1243,6 +1263,8 @@ quarantine_error
 ;
 }
 }
+lazy
+.
 log
 .
 debug
@@ -1273,6 +1295,8 @@ serializeAttributionData
 gCachedAttrData
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1303,6 +1327,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1342,6 +1368,8 @@ return
 gCachedAttrData
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -1363,6 +1391,8 @@ return
 gCachedAttrData
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -1416,6 +1446,8 @@ hasWinPackageId
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1525,6 +1557,8 @@ NotFoundError
 "
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1557,6 +1591,8 @@ return
 gCachedAttrData
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -1581,6 +1617,8 @@ path
 }
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1593,6 +1631,8 @@ is
 "
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1644,6 +1684,8 @@ decode
 bytes
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1688,6 +1730,8 @@ parseAttributionCode
 code
 )
 ;
+lazy
+.
 log
 .
 debug
