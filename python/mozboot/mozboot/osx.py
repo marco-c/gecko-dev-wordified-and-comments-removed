@@ -1628,9 +1628,9 @@ self
 .
 install_toolchain_artifact
 (
+"
 sccache
-.
-MACOS_SCCACHE
+"
 )
         
 self
@@ -1664,18 +1664,15 @@ self
 )
 :
         
-from
-mozboot
-import
-fix_stacks
-        
 self
 .
 install_toolchain_artifact
 (
-fix_stacks
-.
-MACOS_FIX_STACKS
+"
+fix
+-
+stacks
+"
 )
     
 def
@@ -1685,27 +1682,22 @@ self
 )
 :
         
-from
-mozboot
-import
-stylo
-        
 self
 .
 install_toolchain_artifact
 (
-stylo
-.
-MACOS_CLANG
+"
+clang
+"
 )
         
 self
 .
 install_toolchain_artifact
 (
-stylo
-.
-MACOS_CBINDGEN
+"
+cbindgen
+"
 )
     
 def
@@ -1715,18 +1707,13 @@ self
 )
 :
         
-from
-mozboot
-import
-nasm
-        
 self
 .
 install_toolchain_artifact
 (
+"
 nasm
-.
-MACOS_NASM
+"
 )
     
 def
@@ -1736,18 +1723,13 @@ self
 )
 :
         
-from
-mozboot
-import
-node
-        
 self
 .
 install_toolchain_artifact
 (
+"
 node
-.
-OSX
+"
 )
     
 def
@@ -1757,18 +1739,13 @@ self
 )
 :
         
-from
-mozboot
-import
-minidump_stackwalk
-        
 self
 .
 install_toolchain_artifact
 (
+"
 minidump_stackwalk
-.
-MACOS_MINIDUMP_STACKWALK
+"
 )
     
 def

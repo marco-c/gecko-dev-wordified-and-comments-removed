@@ -967,9 +967,9 @@ self
 .
 install_toolchain_artifact
 (
+"
 sccache
-.
-WIN64_SCCACHE
+"
 )
         
 self
@@ -1058,27 +1058,22 @@ bootstrap
             
 )
         
-from
-mozboot
-import
-stylo
-        
 self
 .
 install_toolchain_artifact
 (
-stylo
-.
-WINDOWS_CLANG
+"
+clang
+"
 )
         
 self
 .
 install_toolchain_artifact
 (
-stylo
-.
-WINDOWS_CBINDGEN
+"
+cbindgen
+"
 )
     
 def
@@ -1088,18 +1083,13 @@ self
 )
 :
         
-from
-mozboot
-import
-nasm
-        
 self
 .
 install_toolchain_artifact
 (
+"
 nasm
-.
-WINDOWS_NASM
+"
 )
     
 def
@@ -1109,30 +1099,13 @@ self
 )
 :
         
-from
-mozboot
-import
-node
-        
-node_artifact
-=
-node
-.
-WIN32
-if
-is_aarch64_host
-(
-)
-else
-node
-.
-WIN64
-        
 self
 .
 install_toolchain_artifact
 (
-node_artifact
+"
+node
+"
 )
     
 def
@@ -1142,18 +1115,15 @@ self
 )
 :
         
-from
-mozboot
-import
-fix_stacks
-        
 self
 .
 install_toolchain_artifact
 (
-fix_stacks
-.
-WINDOWS_FIX_STACKS
+"
+fix
+-
+stacks
+"
 )
     
 def
@@ -1163,18 +1133,13 @@ self
 )
 :
         
-from
-mozboot
-import
-minidump_stackwalk
-        
 self
 .
 install_toolchain_artifact
 (
+"
 minidump_stackwalk
-.
-WINDOWS_MINIDUMP_STACKWALK
+"
 )
     
 def
