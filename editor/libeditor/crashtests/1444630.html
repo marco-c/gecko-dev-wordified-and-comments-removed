@@ -49,9 +49,14 @@ focus
 (
 )
 ;
+const
+{
+maybeOnSpellCheck
+}
+=
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -67,7 +72,7 @@ AsyncSpellCheckTestHelper
 jsm
 "
 )
-.
+;
 maybeOnSpellCheck
 (
 textarea

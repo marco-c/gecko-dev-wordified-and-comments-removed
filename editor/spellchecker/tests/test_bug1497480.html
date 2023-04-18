@@ -236,11 +236,13 @@ gMisspeltWords
 ]
 ;
 let
+{
 maybeOnSpellCheck
+}
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -257,10 +259,7 @@ AsyncSpellCheckTestHelper
 .
 jsm
 "
-null
 )
-.
-maybeOnSpellCheck
 ;
 const
 template

@@ -965,9 +965,14 @@ aElement
 innerHTML
 ;
 }
+const
+{
+maybeOnSpellCheck
+}
+=
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -985,7 +990,7 @@ AsyncSpellCheckTestHelper
 jsm
 "
 )
-.
+;
 maybeOnSpellCheck
 (
 aElement

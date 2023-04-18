@@ -213,11 +213,13 @@ init
 )
 {
 var
+{
 onSpellCheck
+}
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -235,8 +237,6 @@ AsyncSpellCheckTestHelper
 jsm
 "
 )
-.
-onSpellCheck
 ;
 var
 textarea
