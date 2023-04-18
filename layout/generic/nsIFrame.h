@@ -6747,7 +6747,7 @@ aModType
 ;
 virtual
 void
-ContentStatesChanged
+ElementStateChanged
 (
 mozilla
 :

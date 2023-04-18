@@ -5825,13 +5825,11 @@ NotifyAbortedLoad
 )
 ;
 void
-ContentStateChanged
+ElementStateChanged
 (
-nsIContent
+Element
 *
-aContent
 ElementState
-aStateMask
 )
 ;
 void

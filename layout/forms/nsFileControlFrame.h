@@ -226,9 +226,8 @@ override
 ;
 #
 endif
-virtual
 void
-ContentStatesChanged
+ElementStateChanged
 (
 mozilla
 :
