@@ -31,7 +31,11 @@ Nexus
 export
 PATH
 =
-JAVA_HOME
+MOZ_FETCHES_DIR
+/
+jdk
+-
+8
 /
 bin
 :
@@ -78,6 +82,11 @@ lite
 /
 mach
 build
+.
+/
+mach
+gradle
+downloadDependencies
 .
 /
 mach
