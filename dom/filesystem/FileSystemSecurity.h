@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -117,7 +117,6 @@ mPaths
 ;
 }
 ;
-}
 }
 #
 endif

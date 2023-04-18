@@ -87,8 +87,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -592,7 +592,6 @@ mChangedTouches
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

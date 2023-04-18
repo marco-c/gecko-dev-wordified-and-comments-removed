@@ -72,8 +72,8 @@ nsPresContext
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -410,7 +410,6 @@ mPointsInitialized
 ;
 }
 ;
-}
 }
 #
 endif

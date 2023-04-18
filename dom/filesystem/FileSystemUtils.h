@@ -33,8 +33,8 @@ nsIRunnable
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -102,7 +102,6 @@ aRunnable
 ;
 }
 ;
-}
 }
 #
 endif

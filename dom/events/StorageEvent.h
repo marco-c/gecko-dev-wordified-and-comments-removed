@@ -91,8 +91,8 @@ nsIPrincipal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -356,7 +356,6 @@ mPrincipal
 }
 }
 ;
-}
 }
 #
 endif

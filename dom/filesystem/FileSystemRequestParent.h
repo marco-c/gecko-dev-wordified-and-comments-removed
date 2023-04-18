@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -113,7 +113,6 @@ mDestroyed
 ;
 }
 ;
-}
 }
 #
 endif

@@ -90,8 +90,8 @@ nsINode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -489,7 +489,6 @@ aParam
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

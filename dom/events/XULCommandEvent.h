@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -231,7 +231,6 @@ mButton
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

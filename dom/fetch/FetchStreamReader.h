@@ -69,8 +69,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -277,7 +277,6 @@ mStreamClosed
 ;
 }
 ;
-}
 }
 #
 endif

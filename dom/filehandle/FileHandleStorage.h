@@ -6,8 +6,8 @@ define
 mozilla_dom_FileHandleStorage_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -19,7 +19,6 @@ FILE_HANDLE_STORAGE_IDB
 FILE_HANDLE_STORAGE_MAX
 }
 ;
-}
 }
 #
 endif

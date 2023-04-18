@@ -40,8 +40,8 @@ nsPresContext
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -288,7 +288,6 @@ nsAString
 aPointerTypeDest
 )
 ;
-}
 }
 already_AddRefed
 <

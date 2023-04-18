@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -297,7 +297,6 @@ mAppUnitsPerDevPixel
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

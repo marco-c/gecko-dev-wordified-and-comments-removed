@@ -57,8 +57,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -249,7 +249,6 @@ mClientArea
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

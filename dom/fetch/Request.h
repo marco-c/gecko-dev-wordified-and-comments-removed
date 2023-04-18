@@ -64,8 +64,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -638,7 +638,6 @@ mSignal
 ;
 }
 ;
-}
 }
 #
 endif
