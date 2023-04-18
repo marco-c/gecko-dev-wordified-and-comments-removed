@@ -247,13 +247,31 @@ product
 "
 )
     
-if
+use_wptrunner_update_props
+=
 kwargs
-[
+.
+get
+(
 "
 product
 "
-]
+)
+is
+not
+None
+    
+kwargs
+=
+wptcommandline
+.
+check_args_metadata_update
+(
+kwargs
+)
+    
+if
+use_wptrunner_update_props
 :
         
 update_properties
@@ -314,15 +332,6 @@ extra_property
 ]
 {
 }
-)
-    
-kwargs
-=
-wptcommandline
-.
-check_args_metadata_update
-(
-kwargs
 )
     
 manifest_update
