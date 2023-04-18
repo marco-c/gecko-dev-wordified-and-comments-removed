@@ -3006,6 +3006,10 @@ mut
 profile
 =
 test_root
+.
+clone
+(
+)
 ;
 profile
 .
@@ -3063,6 +3067,7 @@ geckoview_example
 ;
 run_handler_storage_test
 (
+&
 package
 AndroidStorageInput
 :

@@ -1086,6 +1086,12 @@ sync
 Mutex
 ;
 use
+chrono
+;
+use
+log
+;
+use
 mozprofile
 :
 :
