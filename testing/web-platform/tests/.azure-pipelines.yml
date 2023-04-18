@@ -4136,7 +4136,7 @@ strategy
 :
 parallel
 :
-5
+7
 #
 chosen
 to
@@ -4525,7 +4525,7 @@ strategy
 :
 parallel
 :
-5
+7
 #
 chosen
 to
