@@ -79,6 +79,8 @@ curl
 \
 jq
 \
+libasound2
+\
 libdbus
 -
 glib
