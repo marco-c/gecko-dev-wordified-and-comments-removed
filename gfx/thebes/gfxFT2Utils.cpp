@@ -23,7 +23,7 @@ h
 "
 #
 ifdef
-HAVE_FONTCONFIG_FCFREETYPE_H
+USE_FC_FREETYPE
 #
 include
 <
@@ -75,7 +75,7 @@ return
 ;
 #
 ifdef
-HAVE_FONTCONFIG_FCFREETYPE_H
+USE_FC_FREETYPE
 if
 (
 !
@@ -235,7 +235,7 @@ return
 ;
 #
 ifdef
-HAVE_FONTCONFIG_FCFREETYPE_H
+USE_FC_FREETYPE
 if
 (
 !
