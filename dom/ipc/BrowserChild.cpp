@@ -4649,11 +4649,6 @@ WebNavigation
 )
 )
 ;
-MOZ_ASSERT
-(
-docShell
-)
-;
 if
 (
 !
