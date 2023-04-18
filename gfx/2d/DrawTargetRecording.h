@@ -294,15 +294,9 @@ Point
 &
 aDest
 const
-DeviceColor
+ShadowOptions
 &
-aColor
-const
-Point
-&
-aOffset
-Float
-aSigma
+aShadow
 CompositionOp
 aOperator
 )

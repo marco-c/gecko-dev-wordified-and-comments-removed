@@ -757,6 +757,8 @@ Point
 0
 0
 )
+ShadowOptions
+(
 DeviceColor
 :
 :
@@ -780,6 +782,7 @@ GetBlurRadius
 )
 .
 width
+)
 )
 CompositionOp
 :
