@@ -1100,7 +1100,7 @@ NS_STYLE_HINT_REFLOW
 auto
 restyleHint
 =
-UsesFontMetricDependentFontUnits
+UsesExChUnits
 (
 )
 ?
@@ -1385,7 +1385,7 @@ mIsGlyph
 (
 false
 )
-mUsesFontMetricDependentFontUnits
+mUsesExChUnits
 (
 false
 )
@@ -3084,7 +3084,7 @@ NS_STYLE_HINT_REFLOW
 ;
 if
 (
-UsesFontMetricDependentFontUnits
+UsesExChUnits
 (
 )
 )
@@ -8312,7 +8312,7 @@ DefinitelyRecascadesAllSubtree
 )
 )
 {
-mUsesFontMetricDependentFontUnits
+mUsesExChUnits
 =
 false
 ;
@@ -9219,7 +9219,7 @@ aUpdatedFont
 auto
 hint
 =
-UsesFontMetricDependentFontUnits
+UsesExChUnits
 (
 )
 ?

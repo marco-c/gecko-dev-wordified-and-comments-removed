@@ -945,7 +945,7 @@ unit
 aPresContext
 -
 >
-SetUsesFontMetricDependentFontUnits
+SetUsesExChUnits
 (
 true
 )

@@ -1001,7 +1001,7 @@ No
 pc
 -
 >
-UsesFontMetricDependentFontUnits
+UsesExChUnits
 (
 )
 )
