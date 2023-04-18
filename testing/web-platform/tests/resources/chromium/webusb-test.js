@@ -2171,6 +2171,13 @@ info
 )
 ;
 }
+async
+forgetDevice
+(
+guid
+)
+{
+}
 removeDevice
 (
 fakeDevice
