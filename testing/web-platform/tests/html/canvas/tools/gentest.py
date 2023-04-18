@@ -73,8 +73,6 @@ yaml
 '
 '
 name2dir
--
-canvas
 .
 yaml
 '
