@@ -300,6 +300,13 @@ gfx
 IntSize
 mDisplay
 ;
+float
+mDisplayAspectRatio
+=
+0
+.
+0
+;
 bool
 mKeyFrame
 =
