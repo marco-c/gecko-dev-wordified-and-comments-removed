@@ -4949,15 +4949,6 @@ JitCode
 ;
 }
 using
-WeakHeapPtrAtom
-=
-WeakHeapPtr
-<
-JSAtom
-*
->
-;
-using
 WeakHeapPtrDebugEnvironmentProxy
 =
 WeakHeapPtr

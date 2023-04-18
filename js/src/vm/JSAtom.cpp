@@ -805,7 +805,11 @@ AtomHasher
 match
 (
 const
-WeakHeapPtrAtom
+WeakHeapPtr
+<
+JSAtom
+*
+>
 &
 entry
 const
