@@ -17,10 +17,6 @@ c
 -
 a
 /
-media
-/
-libpng
-/
 pngwutil
 .
 c
@@ -28,10 +24,6 @@ c
 +
 +
 b
-/
-media
-/
-libpng
 /
 pngwutil
 .
