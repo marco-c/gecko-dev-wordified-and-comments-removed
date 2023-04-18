@@ -1014,6 +1014,10 @@ GetPreference
 (
 &
 pref
+GeckoProcessType_GPU
+"
+"
+_ns
 )
 ;
 if
