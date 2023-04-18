@@ -9750,6 +9750,12 @@ if
 mHasDriverVersionMismatch
 )
 {
+aFailureId
+=
+"
+FEATURE_FAILURE_MISMATCHED_VERSION
+"
+;
 *
 aStatus
 =
