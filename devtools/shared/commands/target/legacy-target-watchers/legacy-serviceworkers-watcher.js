@@ -226,7 +226,7 @@ targetCommand
 .
 descriptorFront
 .
-isTabDescriptor
+isLocalTab
 )
 {
 this
@@ -273,7 +273,7 @@ targetCommand
 .
 descriptorFront
 .
-isTabDescriptor
+isLocalTab
 )
 {
 await
@@ -344,7 +344,7 @@ targetCommand
 .
 descriptorFront
 .
-isTabDescriptor
+isLocalTab
 )
 {
 this
@@ -403,7 +403,7 @@ targetCommand
 .
 descriptorFront
 .
-isTabDescriptor
+isLocalTab
 )
 {
 try
@@ -1059,7 +1059,7 @@ targetCommand
 .
 descriptorFront
 .
-isTabDescriptor
+isLocalTab
 )
 {
 return

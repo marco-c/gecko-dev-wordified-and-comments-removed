@@ -36,7 +36,7 @@ https
 /
 example
 .
-org
+com
 /
 document
 -
