@@ -598,12 +598,6 @@ GECKO_PATH
 /
 mach
 python
-\
--
--
-virtualenv
-psutil
-\
 -
 -
 \
