@@ -54,6 +54,11 @@ PlatformMutex
 h
 "
 "
+PlatformRWLock
+.
+h
+"
+"
 Printf
 .
 h
@@ -474,6 +479,11 @@ Mutex_windows
 .
 cpp
 "
+"
+RWLock_windows
+.
+cpp
+"
 ]
 elif
 CONFIG
@@ -516,6 +526,11 @@ cpp
 "
 "
 Mutex_posix
+.
+cpp
+"
+"
+RWLock_posix
 .
 cpp
 "
