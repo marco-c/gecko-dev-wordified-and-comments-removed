@@ -2956,6 +2956,11 @@ const
 #
 else
 void
+initAsDecommitted
+(
+)
+;
+void
 verify
 (
 )
