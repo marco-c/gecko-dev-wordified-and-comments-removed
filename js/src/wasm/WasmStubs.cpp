@@ -3612,7 +3612,7 @@ src
 Address
 (
 tls
-TlsData
+Instance
 :
 :
 offsetOfValueBoxClass
@@ -3823,7 +3823,7 @@ src
 Address
 (
 tls
-TlsData
+Instance
 :
 :
 offsetOfValueBoxClass
@@ -4929,7 +4929,7 @@ loadPtr
 Address
 (
 WasmTlsReg
-TlsData
+Instance
 :
 :
 offsetOfCx
@@ -4958,7 +4958,7 @@ loadPtr
 Address
 (
 WasmTlsReg
-TlsData
+Instance
 :
 :
 offsetOfInstance
@@ -11878,7 +11878,7 @@ Address
 instancePtr
 (
 WasmTlsReg
-TlsData
+Instance
 :
 :
 offsetOfInstance
@@ -13873,7 +13873,7 @@ loadPtr
 Address
 (
 WasmTlsReg
-TlsData
+Instance
 :
 :
 offsetOfInstance

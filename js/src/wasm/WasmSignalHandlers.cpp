@@ -5959,7 +5959,7 @@ uint8_t
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfMemoryBase

@@ -865,7 +865,7 @@ loadPtr
 Address
 (
 tls
-TlsData
+Instance
 :
 :
 offsetOfAddressOfNeedsIncrementalBarrier
@@ -953,7 +953,7 @@ loadPtr
 Address
 (
 tls
-TlsData
+Instance
 :
 :
 offsetOfInstance

@@ -78,8 +78,8 @@ js
 namespace
 wasm
 {
-struct
-TlsData
+class
+Instance
 ;
 }
 namespace
@@ -422,7 +422,7 @@ kind
 wasm
 :
 :
-TlsData
+Instance
 *
 tlsData
 ;

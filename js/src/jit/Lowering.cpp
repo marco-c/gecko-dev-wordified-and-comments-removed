@@ -37729,7 +37729,7 @@ offs
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfGlobalArea
@@ -37992,7 +37992,7 @@ offs
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfGlobalArea

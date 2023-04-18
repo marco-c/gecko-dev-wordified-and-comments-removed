@@ -1181,7 +1181,7 @@ r
 {
 MOZ_ASSERT
 (
-TlsData
+Instance
 :
 :
 sizeOfBaselineScratch
@@ -1227,7 +1227,7 @@ low
 Address
 (
 regForTls
-TlsData
+Instance
 :
 :
 offsetOfBaselineScratch
@@ -1246,7 +1246,7 @@ high
 Address
 (
 regForTls
-TlsData
+Instance
 :
 :
 offsetOfBaselineScratch
@@ -1272,7 +1272,7 @@ r
 {
 MOZ_ASSERT
 (
-TlsData
+Instance
 :
 :
 sizeOfBaselineScratch
@@ -1307,7 +1307,7 @@ load32
 Address
 (
 regForTls
-TlsData
+Instance
 :
 :
 offsetOfBaselineScratch
@@ -1328,7 +1328,7 @@ load32
 Address
 (
 regForTls
-TlsData
+Instance
 :
 :
 offsetOfBaselineScratch
@@ -1350,7 +1350,7 @@ load32
 Address
 (
 regForTls
-TlsData
+Instance
 :
 :
 offsetOfBaselineScratch
@@ -1369,7 +1369,7 @@ load32
 Address
 (
 regForTls
-TlsData
+Instance
 :
 :
 offsetOfBaselineScratch
@@ -7274,7 +7274,7 @@ tagIndex
 size_t
 offset
 =
-TlsData
+Instance
 :
 :
 offsetOfGlobalArea
@@ -7332,7 +7332,7 @@ computeEffectiveAddress
 Address
 (
 WasmTlsReg
-TlsData
+Instance
 :
 :
 offsetOfPendingException
@@ -7381,7 +7381,7 @@ computeEffectiveAddress
 Address
 (
 WasmTlsReg
-TlsData
+Instance
 :
 :
 offsetOfPendingExceptionTag
@@ -9841,7 +9841,7 @@ tmp
 uint32_t
 globalToTlsOffset
 =
-TlsData
+Instance
 :
 :
 offsetOfGlobalArea

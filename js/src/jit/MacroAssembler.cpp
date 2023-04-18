@@ -9984,7 +9984,7 @@ WasmTlsReg
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfCx
@@ -10002,7 +10002,7 @@ WasmTlsReg
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfRealm
@@ -19906,7 +19906,7 @@ tls
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfInterrupt
@@ -20068,7 +20068,7 @@ WasmTlsReg
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfStackLimit
@@ -20154,7 +20154,7 @@ WasmTlsReg
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfStackLimit
@@ -20228,7 +20228,7 @@ WasmTlsReg
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfGlobalArea
@@ -20339,7 +20339,7 @@ WasmTlsReg
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfCx
@@ -20489,7 +20489,7 @@ WasmTlsReg
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfInstance
@@ -20533,7 +20533,7 @@ WasmTlsReg
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfInstance
@@ -21117,7 +21117,7 @@ WasmTlsReg
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfGlobalArea
@@ -22605,7 +22605,7 @@ static_assert
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfMemoryBase
@@ -22662,7 +22662,7 @@ WasmTlsReg
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfMemoryBase

@@ -4345,7 +4345,7 @@ tlsPointer_
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfMemoryBase
@@ -4533,7 +4533,7 @@ tlsPointer_
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfBoundsCheckLimit
@@ -7465,7 +7465,7 @@ tlsPointer_
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfGlobalArea
@@ -12744,7 +12744,7 @@ tlsPointer_
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfPendingException
@@ -12800,7 +12800,7 @@ tlsPointer_
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfPendingExceptionTag
@@ -12852,7 +12852,7 @@ alloc
 (
 )
 tlsPointer_
-TlsData
+Instance
 :
 :
 offsetOfPendingException
@@ -12918,7 +12918,7 @@ alloc
 (
 )
 tlsPointer_
-TlsData
+Instance
 :
 :
 offsetOfPendingExceptionTag

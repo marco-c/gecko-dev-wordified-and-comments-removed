@@ -812,7 +812,7 @@ loadPtr
 Address
 (
 heapBase
-TlsData
+Instance
 :
 :
 offsetOfMemoryBase
@@ -1147,7 +1147,7 @@ ptr
 Address
 (
 tls
-TlsData
+Instance
 :
 :
 offsetOfBoundsCheckLimit
@@ -1185,7 +1185,7 @@ ptr
 Address
 (
 tls
-TlsData
+Instance
 :
 :
 offsetOfBoundsCheckLimit
@@ -1983,7 +1983,7 @@ addPtr
 Address
 (
 tls
-TlsData
+Instance
 :
 :
 offsetOfMemoryBase
@@ -2721,7 +2721,7 @@ addPtr
 Address
 (
 tls
-TlsData
+Instance
 :
 :
 offsetOfMemoryBase
@@ -4656,7 +4656,7 @@ addPtr
 Address
 (
 tls
-TlsData
+Instance
 :
 :
 offsetOfMemoryBase

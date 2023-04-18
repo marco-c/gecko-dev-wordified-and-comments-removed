@@ -72,7 +72,7 @@ int32_t
 (
 ExportArg
 *
-TlsData
+Instance
 *
 )
 ;
@@ -83,7 +83,7 @@ void
 *
 code
 ;
-TlsData
+Instance
 *
 tls
 ;
@@ -138,7 +138,7 @@ void
 *
 code
 ;
-TlsData
+Instance
 *
 tls
 ;

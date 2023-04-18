@@ -1663,7 +1663,7 @@ lineOrBytecode
 }
 static_assert
 (
-TlsData
+Instance
 :
 :
 offsetOfBoundsCheckLimit
@@ -1859,7 +1859,7 @@ memory_guard_size
 )
 memory_base_tls_offset
 (
-TlsData
+Instance
 :
 :
 offsetOfMemoryBase
@@ -1868,7 +1868,7 @@ offsetOfMemoryBase
 )
 instance_tls_offset
 (
-TlsData
+Instance
 :
 :
 offsetOfInstance
@@ -1877,7 +1877,7 @@ offsetOfInstance
 )
 interrupt_tls_offset
 (
-TlsData
+Instance
 :
 :
 offsetOfInterrupt
@@ -1886,7 +1886,7 @@ offsetOfInterrupt
 )
 cx_tls_offset
 (
-TlsData
+Instance
 :
 :
 offsetOfCx
@@ -1904,7 +1904,7 @@ offsetOfRealm
 )
 realm_tls_offset
 (
-TlsData
+Instance
 :
 :
 offsetOfRealm
@@ -1945,7 +1945,7 @@ offsetof
 wasm
 :
 :
-TlsData
+Instance
 globalArea
 )
 +
@@ -3525,7 +3525,7 @@ offsetof
 wasm
 :
 :
-TlsData
+Instance
 memoryBase
 )
 =

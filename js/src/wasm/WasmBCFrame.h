@@ -1375,7 +1375,7 @@ WasmTlsReg
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfStackLimit

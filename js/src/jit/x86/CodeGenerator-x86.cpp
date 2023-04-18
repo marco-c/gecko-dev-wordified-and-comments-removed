@@ -3067,7 +3067,7 @@ tlsPtr
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfMemoryBase

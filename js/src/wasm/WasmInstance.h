@@ -139,9 +139,6 @@ TableDesc
 struct
 TagDesc
 ;
-struct
-TlsData
-;
 class
 alignas
 (
@@ -822,7 +819,7 @@ return
 maybeDebug_
 ;
 }
-TlsData
+Instance
 *
 tlsData
 (
@@ -832,7 +829,7 @@ const
 return
 reinterpret_cast
 <
-TlsData
+Instance
 *
 >
 (
@@ -1863,14 +1860,6 @@ uint8_t
 memBase
 )
 ;
-}
-;
-struct
-TlsData
-:
-public
-Instance
-{
 }
 ;
 bool
