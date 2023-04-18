@@ -163,6 +163,16 @@ NodeInfo
 aNodeInfo
 )
 ;
+virtual
+void
+GetAsSimplePath
+(
+SimplePath
+*
+aSimplePath
+)
+override
+;
 public
 :
 NS_DECL_ADDSIZEOFEXCLUDINGTHIS
