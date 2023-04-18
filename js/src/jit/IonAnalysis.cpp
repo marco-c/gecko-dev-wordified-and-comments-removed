@@ -5596,12 +5596,12 @@ graph
 {
 for
 (
-MBasicBlockIterator
+PostorderIterator
 block
 (
 graph
 .
-begin
+poBegin
 (
 )
 )
@@ -5611,7 +5611,7 @@ block
 =
 graph
 .
-end
+poEnd
 (
 )
 ;
