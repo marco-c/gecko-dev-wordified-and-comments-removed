@@ -232,10 +232,6 @@ gfx
 :
 IntSize
 &
-gfx
-:
-:
-ColorSpace2
 )
 ;
 }
