@@ -5642,7 +5642,7 @@ ipc
 :
 :
 IPCResult
-RecvTestCookiePermissionDecided
+RecvAsyncShouldAllowAccessFor
 (
 const
 MaybeDiscarded
@@ -5650,13 +5650,13 @@ MaybeDiscarded
 BrowsingContext
 >
 &
-aContext
+aTopContext
 const
 Principal
 &
 aPrincipal
 const
-TestCookiePermissionDecidedResolver
+AsyncShouldAllowAccessForResolver
 &
 &
 aResolver
