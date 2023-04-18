@@ -1149,7 +1149,7 @@ screens
 additionalProperties
 "
 :
-false
+true
 "
 if
 "
