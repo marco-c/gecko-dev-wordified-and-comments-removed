@@ -220,6 +220,11 @@ attribute
 ACString
 nativeLeafName
 ;
+readonly
+attribute
+AString
+displayName
+;
 void
 copyTo
 (
