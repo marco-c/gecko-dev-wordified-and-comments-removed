@@ -116,7 +116,7 @@ the
 -
 testutils
 -
-object
+namespace
 *
 /
 [
@@ -138,7 +138,7 @@ testutils
 enabled
 "
 ]
-interface
+namespace
 TestUtils
 {
 [

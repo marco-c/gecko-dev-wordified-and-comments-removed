@@ -412,14 +412,14 @@ if
 (
 self
 .
-testUtils
+TestUtils
 ?
 .
 gc
 )
 {
 await
-testUtils
+TestUtils
 .
 gc
 (
