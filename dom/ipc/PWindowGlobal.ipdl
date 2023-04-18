@@ -699,6 +699,13 @@ aOffFlags
 )
 ;
 async
+UpdateActivePeerConnectionStatus
+(
+bool
+aIsAdded
+)
+;
+async
 SetSingleChannelId
 (
 uint64_t
