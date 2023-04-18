@@ -409,13 +409,15 @@ UrlbarPrefs
 .
 updateFirefoxSuggestScenario
 (
-true
 {
 .
 .
 .
 testOverrides
 scenario
+isStartup
+:
+true
 }
 )
 ;

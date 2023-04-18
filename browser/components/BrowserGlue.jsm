@@ -7997,7 +7997,6 @@ UrlbarPrefs
 .
 updateFirefoxSuggestScenario
 (
-true
 )
 ;
 let

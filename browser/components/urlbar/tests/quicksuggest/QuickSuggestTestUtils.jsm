@@ -755,7 +755,6 @@ UrlbarPrefs
 .
 updateFirefoxSuggestScenario
 (
-false
 {
 scenario
 }
