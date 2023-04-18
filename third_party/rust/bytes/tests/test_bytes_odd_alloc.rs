@@ -1,3 +1,14 @@
+#
+!
+[
+cfg
+(
+not
+(
+miri
+)
+)
+]
 use
 std
 :

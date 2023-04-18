@@ -38,7 +38,7 @@ len
 )
 }
 fn
-bytes
+chunk
 (
 &
 self
