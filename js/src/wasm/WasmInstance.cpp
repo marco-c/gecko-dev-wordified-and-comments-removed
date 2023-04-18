@@ -9700,7 +9700,6 @@ trc
 runtime
 (
 )
-&
 object_
 )
 )

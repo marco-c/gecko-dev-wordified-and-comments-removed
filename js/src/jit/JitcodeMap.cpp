@@ -3567,7 +3567,6 @@ trc
 runtime
 (
 )
-&
 jitcode_
 )
 )
@@ -3612,7 +3611,6 @@ return
 IsMarkedUnbarriered
 (
 rt
-&
 jitcode_
 )
 ;
@@ -3642,7 +3640,6 @@ trc
 runtime
 (
 )
-&
 script_
 )
 )
@@ -3754,7 +3751,6 @@ if
 IsMarkedUnbarriered
 (
 rt
-&
 sizedScriptList
 (
 )
