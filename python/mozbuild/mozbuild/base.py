@@ -1797,6 +1797,13 @@ site
 import
 CommandSiteManager
         
+from
+mozboot
+.
+util
+import
+get_state_dir
+        
 if
 self
 .
@@ -1810,11 +1817,21 @@ self
 _virtualenv_manager
 =
 CommandSiteManager
+.
+from_environment
 (
                 
 self
 .
 topsrcdir
+                
+get_state_dir
+(
+)
+                
+self
+.
+_virtualenv_name
                 
 os
 .
@@ -1829,10 +1846,6 @@ topobjdir
 _virtualenvs
 "
 )
-                
-self
-.
-_virtualenv_name
             
 )
         

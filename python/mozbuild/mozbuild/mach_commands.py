@@ -15190,10 +15190,6 @@ topsrcdir
 get_state_dir
 (
 )
-        
-is_mach_create_mach_env_command
-=
-True
     
 )
     
