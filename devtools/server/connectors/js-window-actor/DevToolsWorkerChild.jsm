@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 wdm
 "
@@ -114,7 +120,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 Loader
 "
@@ -148,7 +154,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 DevToolsUtils
 "
@@ -156,6 +162,8 @@ DevToolsUtils
 )
 =
 >
+lazy
+.
 Loader
 .
 require
@@ -174,7 +182,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 isWindowGlobalPartOfContext
 :
@@ -537,6 +545,8 @@ worker
 )
 &
 &
+lazy
+.
 isWindowGlobalPartOfContext
 (
 this
@@ -618,6 +628,8 @@ browserId
 &
 &
 !
+lazy
+.
 isWindowGlobalPartOfContext
 (
 this
@@ -958,6 +970,8 @@ this
 )
 }
 ;
+lazy
+.
 wdm
 .
 addListener
@@ -1020,6 +1034,8 @@ Array
 .
 from
 (
+lazy
+.
 wdm
 .
 getWorkerDebuggerEnumerator
@@ -1070,6 +1086,8 @@ const
 DevToolsServer
 }
 =
+lazy
+.
 Loader
 .
 require
@@ -1136,6 +1154,8 @@ dbg
 {
 return
 (
+lazy
+.
 DevToolsUtils
 .
 isWorkerDebuggerAlive
@@ -1235,6 +1255,8 @@ const
 connectToWorker
 }
 =
+lazy
+.
 Loader
 .
 require
@@ -1440,6 +1462,8 @@ try
 {
 if
 (
+lazy
+.
 DevToolsUtils
 .
 isWorkerDebuggerAlive
@@ -1502,6 +1526,8 @@ const
 DevToolsServer
 }
 =
+lazy
+.
 Loader
 .
 require
@@ -1622,6 +1648,8 @@ watcherConnectionData
 return
 ;
 }
+lazy
+.
 SessionDataHelpers
 .
 addSessionDataEntry
@@ -1705,6 +1733,8 @@ watcherConnectionData
 return
 ;
 }
+lazy
+.
 SessionDataHelpers
 .
 removeSessionDataEntry
@@ -1731,6 +1761,8 @@ workers
 {
 if
 (
+lazy
+.
 DevToolsUtils
 .
 isWorkerDebuggerAlive
@@ -1809,6 +1841,8 @@ this
 _workerDebuggerListener
 )
 {
+lazy
+.
 wdm
 .
 removeListener
@@ -1894,6 +1928,8 @@ entries
 if
 (
 !
+lazy
+.
 DevToolsUtils
 .
 isWorkerDebuggerAlive
