@@ -4907,7 +4907,7 @@ WriteParam
 aMsg
 aParam
 .
-mWritingMode
+mWritingModeBits
 )
 ;
 WriteParam
@@ -5001,7 +5001,7 @@ aIter
 aResult
 -
 >
-mWritingMode
+mWritingModeBits
 )
 &
 &
