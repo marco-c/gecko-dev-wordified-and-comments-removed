@@ -2908,7 +2908,8 @@ GetCachedTextLines
 {
 MOZ_ASSERT
 (
-IsText
+!
+HasChildren
 (
 )
 )
