@@ -1279,6 +1279,11 @@ mAllowDeprecatedSystemRequests
 false
 ;
 bool
+mIsUserTriggeredSave
+=
+false
+;
+bool
 mIsInDevToolsContext
 =
 false

@@ -944,6 +944,13 @@ infallible
 ]
 attribute
 boolean
+isUserTriggeredSave
+;
+[
+infallible
+]
+attribute
+boolean
 isInDevToolsContext
 ;
 [
