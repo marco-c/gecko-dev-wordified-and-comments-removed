@@ -69036,16 +69036,6 @@ FrameForPointOption
 :
 IgnorePaintSuppression
 ;
-options
-.
-mBits
-+
-=
-FrameForPointOption
-:
-:
-OnlyVisible
-;
 AutoTArray
 <
 nsIFrame

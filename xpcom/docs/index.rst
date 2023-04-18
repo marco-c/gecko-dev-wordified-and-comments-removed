@@ -62,3 +62,5 @@ huntingleaks
 collections
 xpidl
 dmd
+hashtables
+hashtables_detailed
