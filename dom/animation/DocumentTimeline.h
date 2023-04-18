@@ -271,6 +271,11 @@ return
 mDocument
 ;
 }
+void
+UpdateLastRefreshDriverTime
+(
+)
+;
 bool
 IsMonotonicallyIncreasing
 (
@@ -329,7 +334,6 @@ Document
 >
 mDocument
 ;
-mutable
 TimeStamp
 mLastRefreshDriverTime
 ;

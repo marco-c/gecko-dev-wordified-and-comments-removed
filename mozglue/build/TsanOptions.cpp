@@ -678,16 +678,6 @@ n
 "
 race
 :
-DocumentTimeline
-:
-:
-GetCurrentTimeAsDuration
-\
-n
-"
-"
-race
-:
 nssToken_Destroy
 \
 n
