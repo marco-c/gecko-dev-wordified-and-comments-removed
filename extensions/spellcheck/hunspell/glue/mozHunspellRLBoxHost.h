@@ -377,11 +377,11 @@ RLBoxHunspell
 Create
 (
 const
-nsAutoCString
+nsCString
 &
 affpath
 const
-nsAutoCString
+nsCString
 &
 dpath
 )

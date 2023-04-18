@@ -108,11 +108,11 @@ RLBoxHunspell
 Create
 (
 const
-nsAutoCString
+nsCString
 &
 affpath
 const
-nsAutoCString
+nsCString
 &
 dpath
 )
@@ -206,11 +206,11 @@ RLBoxDeleter
 >
 aSandbox
 const
-nsAutoCString
+nsCString
 &
 affpath
 const
-nsAutoCString
+nsCString
 &
 dpath
 )
