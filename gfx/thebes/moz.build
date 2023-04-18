@@ -440,6 +440,11 @@ EXPORTS
 =
 [
 "
+gfxMacUtils
+.
+h
+"
+"
 gfxPlatformMac
 .
 h
@@ -480,6 +485,11 @@ cpp
 "
 "
 gfxMacFont
+.
+cpp
+"
+"
+gfxMacUtils
 .
 cpp
 "
