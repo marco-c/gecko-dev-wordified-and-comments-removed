@@ -3818,6 +3818,7 @@ join
 (
         
 [
+            
 str
 (
 input_variables
@@ -3825,6 +3826,7 @@ input_variables
 k
 ]
 )
+            
 for
 k
 in
@@ -3836,6 +3838,27 @@ keys
 (
 )
 )
+            
+if
+k
+!
+=
+"
+use_x11
+"
+or
+input_variables
+[
+"
+target_os
+"
+]
+!
+=
+"
+openbsd
+"
+        
 ]
     
 )
