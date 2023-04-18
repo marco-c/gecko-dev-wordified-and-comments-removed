@@ -361,6 +361,16 @@ split
 2
 )
 ;
+if
+(
+variantName
+!
+=
+"
+colorway
+"
+)
+{
 let
 defaultFluentId
 =
@@ -411,6 +421,7 @@ should
 exist
 )
 ;
+}
 }
 }
 )
