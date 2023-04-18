@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsTextFragmentImpl
 .
 h

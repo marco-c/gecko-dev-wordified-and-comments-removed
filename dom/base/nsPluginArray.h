@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -37,9 +44,7 @@ include
 "
 mozilla
 /
-dom
-/
-BindingDeclarations
+Array
 .
 h
 "
