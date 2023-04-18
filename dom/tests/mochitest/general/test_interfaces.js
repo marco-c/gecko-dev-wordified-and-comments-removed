@@ -3418,10 +3418,7 @@ name
 "
 Lock
 "
-insecureContext
-:
-false
-disabled
+nightly
 :
 true
 }
@@ -3431,10 +3428,7 @@ name
 "
 LockManager
 "
-insecureContext
-:
-false
-disabled
+nightly
 :
 true
 }
