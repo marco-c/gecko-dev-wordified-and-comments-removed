@@ -129,6 +129,11 @@ InProcessCompositorSession
 h
 "
 "
+OverlayInfo
+.
+h
+"
+"
 RemoteCompositorSession
 .
 h
