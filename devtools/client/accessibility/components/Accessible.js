@@ -670,7 +670,7 @@ this
 )
 ;
 }
-componentWillMount
+UNSAFE_componentWillMount
 (
 )
 {
@@ -687,7 +687,7 @@ onAccessibleInspected
 )
 ;
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 {
 accessibleFront
