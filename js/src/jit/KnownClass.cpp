@@ -168,6 +168,15 @@ MDefinition
 Opcode
 :
 :
+NewPlainObject
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 CreateThis
 :
 return
