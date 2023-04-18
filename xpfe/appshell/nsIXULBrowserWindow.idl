@@ -271,6 +271,17 @@ say
 )
 .
 *
+*
+x
+and
+y
+coordinates
+are
+in
+device
+pixels
+.
+*
 /
 void
 showTooltip
