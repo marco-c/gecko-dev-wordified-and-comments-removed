@@ -403,6 +403,10 @@ midir_impl
 ;
 extern
 crate
+origin_trials_ffi
+;
+extern
+crate
 log
 ;
 use
