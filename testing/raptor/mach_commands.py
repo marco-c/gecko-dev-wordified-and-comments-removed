@@ -1351,6 +1351,9 @@ mach_commands
 as
 browsertime
             
+import
+platform
+            
 self
 .
 config
@@ -1751,7 +1754,7 @@ install
                 
 subprocess
 .
-check_call
+check_output
 (
                     
 [
@@ -1787,6 +1790,22 @@ clobber
 "
                     
 ]
+                    
+shell
+=
+"
+windows
+"
+in
+platform
+.
+system
+(
+)
+.
+lower
+(
+)
                 
 )
                 
