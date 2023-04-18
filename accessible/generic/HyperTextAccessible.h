@@ -543,6 +543,7 @@ nsIAccessibleCoordinateType
 :
 COORDTYPE_SCREEN_RELATIVE
 )
+override
 ;
 LayoutDeviceIntRect
 CharBounds
@@ -552,6 +553,7 @@ aOffset
 uint32_t
 aCoordType
 )
+override
 {
 int32_t
 endOffset

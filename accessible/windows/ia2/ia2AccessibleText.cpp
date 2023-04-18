@@ -568,12 +568,9 @@ LayoutDeviceIntRect
 rect
 ;
 auto
-[
 textAcc
-hr
-]
 =
-LocalTextAcc
+TextAcc
 (
 )
 ;
@@ -584,7 +581,7 @@ textAcc
 )
 {
 return
-hr
+CO_E_OBJNOTCONNECTED
 ;
 }
 rect
