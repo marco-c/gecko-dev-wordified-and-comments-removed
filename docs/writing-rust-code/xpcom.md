@@ -171,8 +171,6 @@ build
 documentation
 ]
 (
-.
-.
 /
 build
 /
@@ -180,7 +178,7 @@ buildsystem
 /
 rust
 .
-html
+rst
 )
 .
 The
@@ -864,8 +862,6 @@ with
 Sync
 ]
 (
-.
-.
 /
 services
 /
@@ -875,7 +871,7 @@ rust
 -
 engines
 .
-html
+rst
 )
 -
 [
@@ -1011,6 +1007,6 @@ webext
 -
 storage
 .
-html
+rst
 )
 .

@@ -23,8 +23,6 @@ build
 documentation
 ]
 (
-.
-.
 /
 build
 /
@@ -32,7 +30,7 @@ buildsystem
 /
 rust
 .
-html
+rst
 )
 explains
 how
@@ -50,14 +48,16 @@ code
 documentation
 ]
 (
-.
-.
 /
 writing
 -
 rust
 -
 code
+/
+index
+.
+md
 )
 explains
 how
@@ -312,8 +312,6 @@ testing
 docs
 ]
 :
-.
-.
 /
 testing
 /
@@ -321,7 +319,7 @@ geckodriver
 /
 Testing
 .
-html
+md
 #
 #
 #
@@ -950,7 +948,7 @@ xpcom
 /
 logging
 .
-html
+rst
 -
 When
 parsing

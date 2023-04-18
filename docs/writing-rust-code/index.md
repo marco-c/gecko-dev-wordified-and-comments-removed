@@ -32,8 +32,6 @@ build
 documentation
 ]
 (
-.
-.
 /
 build
 /
@@ -41,7 +39,7 @@ buildsystem
 /
 rust
 .
-html
+rst
 )
 explains
 how
@@ -59,14 +57,16 @@ test
 documentation
 ]
 (
-.
-.
 /
 testing
 -
 rust
 -
 code
+/
+index
+.
+md
 )
 explains
 how
