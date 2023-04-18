@@ -16257,7 +16257,7 @@ name
 =
 =
 "
-Box
+UI
 "
 :
 pub
@@ -16973,10 +16973,6 @@ self
 bool
 {
 self
-.
-get_box
-(
-)
 .
 clone_display
 (

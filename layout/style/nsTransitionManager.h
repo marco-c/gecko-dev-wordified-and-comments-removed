@@ -36,7 +36,7 @@ class
 nsCSSPropertyIDSet
 ;
 struct
-nsStyleDisplay
+nsStyleUIReset
 ;
 namespace
 mozilla
@@ -177,9 +177,9 @@ bool
 DoUpdateTransitions
 (
 const
-nsStyleDisplay
+nsStyleUIReset
 &
-aDisp
+aStyle
 mozilla
 :
 :
@@ -220,9 +220,9 @@ ConsiderInitiatingTransition
 nsCSSPropertyID
 aProperty
 const
-nsStyleDisplay
+nsStyleUIReset
 &
-aStyleDisplay
+aStyle
 uint32_t
 transitionIdx
 mozilla

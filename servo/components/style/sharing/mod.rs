@@ -2324,7 +2324,7 @@ return
 ;
 }
 let
-box_style
+ui_style
 =
 style
 .
@@ -2332,12 +2332,12 @@ style
 (
 )
 .
-get_box
+get_ui
 (
 )
 ;
 if
-box_style
+ui_style
 .
 specifies_transitions
 (
@@ -2362,7 +2362,7 @@ return
 ;
 }
 if
-box_style
+ui_style
 .
 specifies_animations
 (

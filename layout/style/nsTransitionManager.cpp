@@ -178,15 +178,6 @@ mozilla
 dom
 :
 :
-Animation
-;
-using
-mozilla
-:
-:
-dom
-:
-:
 CSSTransition
 ;
 using
@@ -333,7 +324,7 @@ DoUpdateTransitions
 *
 aNewStyle
 .
-StyleDisplay
+StyleUIReset
 (
 )
 aElement
@@ -351,9 +342,9 @@ nsTransitionManager
 DoUpdateTransitions
 (
 const
-nsStyleDisplay
+nsStyleUIReset
 &
-aDisp
+aStyle
 dom
 :
 :
@@ -408,7 +399,7 @@ for
 uint32_t
 i
 =
-aDisp
+aStyle
 .
 mTransitionPropertyCount
 ;
@@ -426,7 +417,7 @@ i
 0
 &
 &
-aDisp
+aStyle
 .
 GetTransitionCombinedDuration
 (
@@ -445,7 +436,7 @@ continue
 nsCSSPropertyID
 property
 =
-aDisp
+aStyle
 .
 GetTransitionProperty
 (
@@ -532,7 +523,7 @@ startedAny
 ConsiderInitiatingTransition
 (
 p
-aDisp
+aStyle
 i
 aElement
 aPseudoType
@@ -573,7 +564,7 @@ ConsiderInitiatingTransition
 (
 *
 subprop
-aDisp
+aStyle
 i
 aElement
 aPseudoType
@@ -593,7 +584,7 @@ startedAny
 ConsiderInitiatingTransition
 (
 property
-aDisp
+aStyle
 i
 aElement
 aPseudoType
@@ -613,7 +604,7 @@ aElementTransitions
 bool
 checkProperties
 =
-aDisp
+aStyle
 .
 GetTransitionProperty
 (
@@ -636,7 +627,7 @@ for
 uint32_t
 i
 =
-aDisp
+aStyle
 .
 mTransitionPropertyCount
 ;
@@ -652,7 +643,7 @@ i
 nsCSSPropertyID
 property
 =
-aDisp
+aStyle
 .
 GetTransitionProperty
 (
@@ -1409,9 +1400,9 @@ ConsiderInitiatingTransition
 nsCSSPropertyID
 aProperty
 const
-nsStyleDisplay
+nsStyleUIReset
 &
-aStyleDisplay
+aStyle
 uint32_t
 transitionIdx
 dom
@@ -1524,7 +1515,7 @@ false
 float
 delay
 =
-aStyleDisplay
+aStyle
 .
 GetTransitionDelay
 (
@@ -1539,7 +1530,7 @@ std
 :
 max
 (
-aStyleDisplay
+aStyle
 .
 GetTransitionDuration
 (
@@ -2026,7 +2017,7 @@ nsTimingFunction
 &
 tf
 =
-aStyleDisplay
+aStyle
 .
 GetTransitionTimingFunction
 (
