@@ -82,6 +82,7 @@ trr
 submitting_networking_bugs
 .
 md
+new_to_necko_resources
 .
 .
 _HTTP
