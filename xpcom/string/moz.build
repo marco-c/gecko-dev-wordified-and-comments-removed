@@ -202,6 +202,11 @@ nsTextFormatter
 cpp
 "
 "
+nsTStringRepr
+.
+cpp
+"
+"
 nsTSubstring
 .
 cpp
