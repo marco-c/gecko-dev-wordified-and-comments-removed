@@ -672,6 +672,8 @@ isinstance
 value
 collections
 .
+abc
+.
 Mapping
 )
 and
