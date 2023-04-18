@@ -748,13 +748,6 @@ queueFetch
 (
 url
 )
-.
-catch
-(
-console
-.
-error
-)
 ;
 }
 this
