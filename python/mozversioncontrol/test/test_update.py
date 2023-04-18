@@ -133,7 +133,7 @@ foo
 ]
 }
 def
-test_commit
+test_update
 (
 repo
 )

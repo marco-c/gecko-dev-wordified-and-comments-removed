@@ -117,6 +117,8 @@ vcs
 commit
 (
         
+message
+=
 "
 Modify
 bar
@@ -128,6 +130,8 @@ not
 baz
 "
         
+author
+=
 "
 Testing
 McTesterson
@@ -139,6 +143,8 @@ org
 >
 "
         
+date
+=
 "
 2017
 -
@@ -153,6 +159,8 @@ org
 UTC
 "
         
+paths
+=
 [
 "
 bar
@@ -200,7 +208,7 @@ an
 %
 ae
 %
-at
+aD
 %
 B
 "
@@ -247,7 +255,7 @@ l
 T
 "
             
-'
+"
 {
 person
 (
@@ -262,21 +270,13 @@ author
 }
 {
 date
-(
-localdate
-(
-date
-)
-"
-%
-s
-"
-)
+|
+rfc822date
 }
 {
 desc
 }
-'
+"
         
 ]
         
@@ -314,12 +314,11 @@ rstrip
 )
     
 assert
+log
+=
+=
 (
         
-log
-        
-=
-=
 "
 Testing
 McTesterson
@@ -327,7 +326,20 @@ test
 example
 .
 org
-1500000000
+Fri
+14
+"
+        
+"
+Jul
+2017
+02
+:
+40
+:
+00
++
+0000
 Modify
 bar
 \
