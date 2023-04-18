@@ -1172,20 +1172,14 @@ self
 .
 _virtualenv_root
 =
-os
-.
-path
-.
-join
+_mach_virtualenv_root
 (
 state_dir
-"
-_virtualenvs
-"
-"
-mach
-"
 )
+if
+state_dir
+else
+None
         
 self
 .
@@ -1208,10 +1202,9 @@ site_packages_source
             
 external_python
             
-_mach_virtualenv_root
-(
-state_dir
-)
+self
+.
+_virtualenv_root
         
 )
     
