@@ -440,12 +440,6 @@ lite
 2
     
 "
-sfv
-"
-:
-2
-    
-"
 target
 -
 lexicon
