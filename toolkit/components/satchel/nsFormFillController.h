@@ -553,6 +553,11 @@ mAutoCompleteActive
 =
 false
 ;
+bool
+mInvalidatePreviousResult
+=
+false
+;
 }
 ;
 #
