@@ -2262,15 +2262,6 @@ defined
 (
 JS_CODEGEN_X86
 )
-if
-(
-mirGen_
-.
-instrumentedProfiling
-(
-)
-)
-{
 return
 abort
 (
@@ -2280,8 +2271,6 @@ AbortReason
 Disable
 "
 GetElemSuper
-with
-profiling
 is
 not
 supported
@@ -2290,9 +2279,8 @@ x86
 "
 )
 ;
-}
 #
-endif
+else
 MOZ_TRY
 (
 maybeInlineIC
@@ -2304,6 +2292,8 @@ loc
 ;
 break
 ;
+#
+endif
 }
 case
 JSOp
