@@ -468,13 +468,10 @@ InitializeTabList
 (
 )
 ;
-virtual
 void
 InitializeScreenList
 (
 )
-=
-0
 ;
 void
 RefreshWindowList
