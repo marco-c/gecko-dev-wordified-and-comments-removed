@@ -7689,7 +7689,7 @@ GeckoResult
 <
 Boolean
 >
-ensureGpuProcessReady
+isGpuProcessEnabled
 (
 )
 ;

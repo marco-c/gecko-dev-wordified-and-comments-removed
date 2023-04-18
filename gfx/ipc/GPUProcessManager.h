@@ -902,12 +902,12 @@ aSession
 )
 ;
 void
-RebuildRemoteSessions
+DestroyRemoteCompositorSessions
 (
 )
 ;
 void
-RebuildInProcessSessions
+DestroyInProcessCompositorSessions
 (
 )
 ;
@@ -983,6 +983,11 @@ false
 ;
 void
 HandleProcessLost
+(
+)
+;
+void
+ReinitializeRendering
 (
 )
 ;
@@ -1194,6 +1199,9 @@ mDeviceResetCount
 ;
 TimeStamp
 mDeviceResetLastTime
+;
+bool
+mAppInForeground
 ;
 GPUProcessHost
 *
