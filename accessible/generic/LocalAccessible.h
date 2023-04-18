@@ -463,6 +463,7 @@ nsString
 aValue
 )
 const
+override
 ;
 void
 Help
