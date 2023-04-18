@@ -66,6 +66,12 @@ EventTarget
 {
 constructor
 (
+optional
+CloseWatcherOptions
+options
+=
+{
+}
 )
 ;
 undefined
@@ -74,7 +80,7 @@ destroy
 )
 ;
 undefined
-signalClose
+close
 (
 )
 ;
@@ -85,6 +91,14 @@ oncancel
 attribute
 EventHandler
 onclose
+;
+}
+;
+dictionary
+CloseWatcherOptions
+{
+AbortSignal
+signal
 ;
 }
 ;
