@@ -1509,6 +1509,14 @@ hasNativeConsoleAPI
 }
 )
 {
+this
+.
+wrapper
+.
+dispatchUpdateInstantEvaluationResultForCurrentExpression
+(
+)
+;
 await
 this
 .
