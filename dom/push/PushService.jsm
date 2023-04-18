@@ -291,6 +291,12 @@ EXPORTED_SYMBOLS
 "
 PushService
 "
+"
+PushServiceHttp2
+"
+"
+PushServiceWebSocket
+"
 ]
 ;
 XPCOMUtils

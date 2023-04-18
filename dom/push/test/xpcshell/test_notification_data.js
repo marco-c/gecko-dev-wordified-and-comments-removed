@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-const
-{
-PushDB
-PushService
-PushServiceWebSocket
-}
-=
-serviceExports
-;
 let
 db
 ;
