@@ -7378,7 +7378,7 @@ int
 )
 ;
 method
-UiThread
+AnyThread
 public
 boolean
 isOpen
