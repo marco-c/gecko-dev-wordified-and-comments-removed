@@ -1945,7 +1945,7 @@ create
 url
 :
 "
-https
+http
 :
 /
 /
@@ -2013,7 +2013,7 @@ arg
 url
 :
 "
-https
+http
 :
 /
 /
@@ -2642,7 +2642,7 @@ let
 url
 =
 "
-https
+http
 :
 /
 /
@@ -3112,7 +3112,7 @@ let
 pageURL
 =
 "
-https
+http
 :
 /
 /
@@ -3173,7 +3173,7 @@ waitForNewTab
 (
 gBrowser
 "
-https
+http
 :
 /
 /
@@ -3222,7 +3222,7 @@ currentURI
 .
 spec
 "
-https
+http
 :
 /
 /
