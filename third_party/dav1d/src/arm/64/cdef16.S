@@ -277,7 +277,7 @@ stride
 reg
 ret
 tst
-w7
+w6
 #
 1
 /
@@ -305,7 +305,7 @@ s2
 #
 4
 tst
-w7
+w6
 #
 2
 /
@@ -581,7 +581,7 @@ endif
 !
 CDEF_HAVE_LEFT
 tst
-w7
+w6
 #
 2
 /
@@ -928,13 +928,6 @@ pixel
 *
 const
 top
-/
-/
-const
-pixel
-*
-const
-bottom
 int
 h
 /
@@ -992,7 +985,7 @@ stride
 2
 )
 tst
-w7
+w6
 #
 4
 /
@@ -1071,7 +1064,7 @@ section
 3
 :
 tst
-w7
+w6
 #
 1
 /
@@ -1085,7 +1078,7 @@ eq
 /
 CDEF_HAVE_LEFT
 tst
-w7
+w6
 #
 2
 /
@@ -1133,8 +1126,8 @@ x2
 \
 w
 subs
-w6
-w6
+w5
+w5
 #
 1
 str
@@ -1209,8 +1202,8 @@ x2
 \
 w
 subs
-w6
-w6
+w5
+w5
 #
 1
 str
@@ -1259,7 +1252,7 @@ b
 2
 :
 tst
-w7
+w6
 #
 2
 /
@@ -1294,8 +1287,8 @@ x2
 \
 w
 subs
-w6
-w6
+w5
+w5
 #
 1
 str
@@ -1357,8 +1350,8 @@ x2
 \
 w
 subs
-w6
-w6
+w5
+w5
 #
 1
 str
@@ -1405,7 +1398,7 @@ gt
 3
 :
 tst
-w7
+w6
 #
 8
 /
@@ -1464,10 +1457,10 @@ ret
 CDEF_HAVE_BOTTOM
 add
 x9
-x5
+x1
 x2
 pad_top_bot_16
-x5
+x1
 x9
 \
 w

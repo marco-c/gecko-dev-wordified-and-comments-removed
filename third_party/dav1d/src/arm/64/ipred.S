@@ -351,7 +351,6 @@ br
 x5
 4
 :
-AARCH64_VALID_JUMP_TARGET
 st1
 {
 v0
@@ -416,7 +415,6 @@ gt
 ret
 8
 :
-AARCH64_VALID_JUMP_TARGET
 st1
 {
 v0
@@ -469,7 +467,6 @@ gt
 ret
 16
 :
-AARCH64_VALID_JUMP_TARGET
 st1
 {
 v0
@@ -522,7 +519,6 @@ gt
 ret
 320
 :
-AARCH64_VALID_JUMP_TARGET
 movi
 v1
 .
@@ -595,7 +591,6 @@ gt
 ret
 640
 :
-AARCH64_VALID_JUMP_TARGET
 movi
 v1
 .
@@ -838,7 +833,6 @@ br
 x5
 40
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -917,7 +911,6 @@ gt
 ret
 80
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -981,7 +974,6 @@ gt
 ret
 160
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -1045,7 +1037,6 @@ gt
 ret
 320
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -1124,7 +1115,6 @@ gt
 ret
 640
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -1372,7 +1362,6 @@ br
 x5
 4
 :
-AARCH64_VALID_JUMP_TARGET
 ld4r
 {
 v0
@@ -1456,7 +1445,6 @@ gt
 ret
 8
 :
-AARCH64_VALID_JUMP_TARGET
 ld4r
 {
 v0
@@ -1528,7 +1516,6 @@ gt
 ret
 16
 :
-AARCH64_VALID_JUMP_TARGET
 ld4r
 {
 v0
@@ -1600,7 +1587,6 @@ gt
 ret
 32
 :
-AARCH64_VALID_JUMP_TARGET
 ld4r
 {
 v0
@@ -1700,7 +1686,6 @@ gt
 ret
 64
 :
-AARCH64_VALID_JUMP_TARGET
 ld4r
 {
 v0
@@ -1966,7 +1951,6 @@ br
 x5
 40
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v0
@@ -2066,7 +2050,6 @@ gt
 ret
 80
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -2154,7 +2137,6 @@ gt
 ret
 160
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -2242,7 +2224,6 @@ gt
 ret
 320
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -2370,7 +2351,6 @@ gt
 ret
 640
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -2746,7 +2726,6 @@ L
 ipred_dc_left_h4
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v0
@@ -2787,7 +2766,6 @@ L
 ipred_dc_left_w4
 )
 :
-AARCH64_VALID_JUMP_TARGET
 st1
 {
 v0
@@ -2858,7 +2836,6 @@ L
 ipred_dc_left_h8
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -2899,7 +2876,6 @@ L
 ipred_dc_left_w8
 )
 :
-AARCH64_VALID_JUMP_TARGET
 st1
 {
 v0
@@ -2958,7 +2934,6 @@ L
 ipred_dc_left_h16
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -2999,7 +2974,6 @@ L
 ipred_dc_left_w16
 )
 :
-AARCH64_VALID_JUMP_TARGET
 st1
 {
 v0
@@ -3058,7 +3032,6 @@ L
 ipred_dc_left_h32
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -3117,7 +3090,6 @@ L
 ipred_dc_left_w32
 )
 :
-AARCH64_VALID_JUMP_TARGET
 mov
 v1
 .
@@ -3194,7 +3166,6 @@ L
 ipred_dc_left_h64
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -3289,7 +3260,6 @@ L
 ipred_dc_left_w64
 )
 :
-AARCH64_VALID_JUMP_TARGET
 mov
 v1
 .
@@ -3725,7 +3695,6 @@ L
 ipred_dc_h4
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -3765,7 +3734,6 @@ L
 ipred_dc_w4
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v1
@@ -3970,7 +3938,6 @@ L
 ipred_dc_h8
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -3999,7 +3966,6 @@ L
 ipred_dc_w8
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v1
@@ -4170,7 +4136,6 @@ L
 ipred_dc_h16
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -4199,7 +4164,6 @@ L
 ipred_dc_w16
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v1
@@ -4387,7 +4351,6 @@ L
 ipred_dc_h32
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -4434,7 +4397,6 @@ L
 ipred_dc_w32
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v1
@@ -4645,7 +4607,6 @@ L
 ipred_dc_h64
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -4728,7 +4689,6 @@ L
 ipred_dc_w64
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v1
@@ -5235,7 +5195,6 @@ br
 x5
 40
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v5
@@ -5546,7 +5505,6 @@ gt
 ret
 80
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v5
@@ -5965,7 +5923,6 @@ ret
 :
 640
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v5
@@ -6882,7 +6839,6 @@ br
 x5
 40
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v6
@@ -7305,7 +7261,6 @@ gt
 ret
 80
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v6
@@ -7827,7 +7782,6 @@ ret
 :
 640
 :
-AARCH64_VALID_JUMP_TARGET
 add
 x12
 x2
@@ -8512,7 +8466,6 @@ br
 x5
 40
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v6
@@ -8743,7 +8696,6 @@ gt
 ret
 80
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v6
@@ -9013,7 +8965,6 @@ ret
 :
 640
 :
-AARCH64_VALID_JUMP_TARGET
 /
 /
 Set
@@ -9639,7 +9590,6 @@ br
 x5
 40
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v7
@@ -9883,7 +9833,6 @@ gt
 ret
 80
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v7
@@ -10177,7 +10126,6 @@ ret
 :
 640
 :
-AARCH64_VALID_JUMP_TARGET
 sub
 x2
 x2
@@ -10901,7 +10849,6 @@ br
 x5
 40
 :
-AARCH64_VALID_JUMP_TARGET
 ldur
 s0
 [
@@ -11258,7 +11205,6 @@ gt
 ret
 80
 :
-AARCH64_VALID_JUMP_TARGET
 ldur
 d0
 [
@@ -11814,7 +11760,6 @@ ret
 :
 320
 :
-AARCH64_VALID_JUMP_TARGET
 add
 x8
 x2
@@ -13019,7 +12964,6 @@ br
 x6
 4
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v1
@@ -13107,7 +13051,6 @@ gt
 ret
 8
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v1
@@ -13210,7 +13153,6 @@ gt
 ret
 16
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v1
@@ -13331,7 +13273,6 @@ gt
 ret
 32
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v16
@@ -13532,7 +13473,6 @@ gt
 ret
 64
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v16
@@ -13866,7 +13806,6 @@ L
 ipred_cfl_splat_w4
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v2
@@ -13908,7 +13847,7 @@ v3
 v1
 .
 8h
-cmlt
+sshr
 v4
 .
 8h
@@ -13916,11 +13855,16 @@ v2
 .
 8h
 #
-0
+15
 /
 /
 sign
-cmlt
+=
+diff
+>
+>
+15
+sshr
 v5
 .
 8h
@@ -13928,7 +13872,7 @@ v3
 .
 8h
 #
-0
+15
 add
 v2
 .
@@ -14109,7 +14053,6 @@ L
 ipred_cfl_splat_w8
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v2
@@ -14177,7 +14120,7 @@ v5
 v1
 .
 8h
-cmlt
+sshr
 v16
 .
 8h
@@ -14185,11 +14128,16 @@ v2
 .
 8h
 #
-0
+15
 /
 /
 sign
-cmlt
+=
+diff
+>
+>
+15
+sshr
 v17
 .
 8h
@@ -14197,8 +14145,8 @@ v3
 .
 8h
 #
-0
-cmlt
+15
+sshr
 v18
 .
 8h
@@ -14206,8 +14154,8 @@ v4
 .
 8h
 #
-0
-cmlt
+15
+sshr
 v19
 .
 8h
@@ -14215,7 +14163,7 @@ v5
 .
 8h
 #
-0
+15
 add
 v2
 .
@@ -14456,7 +14404,6 @@ L
 ipred_cfl_splat_w16
 )
 :
-AARCH64_VALID_JUMP_TARGET
 add
 x7
 x5
@@ -14549,7 +14496,7 @@ v5
 v1
 .
 8h
-cmlt
+sshr
 v16
 .
 8h
@@ -14557,11 +14504,16 @@ v2
 .
 8h
 #
-0
+15
 /
 /
 sign
-cmlt
+=
+diff
+>
+>
+15
+sshr
 v17
 .
 8h
@@ -14569,8 +14521,8 @@ v3
 .
 8h
 #
-0
-cmlt
+15
+sshr
 v18
 .
 8h
@@ -14578,8 +14530,8 @@ v4
 .
 8h
 #
-0
-cmlt
+15
+sshr
 v19
 .
 8h
@@ -14587,7 +14539,7 @@ v5
 .
 8h
 #
-0
+15
 add
 v2
 .
@@ -14993,7 +14945,6 @@ br
 x7
 4
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v0
@@ -15034,7 +14985,6 @@ ipred_cfl_splat_w4
 )
 8
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -15075,7 +15025,6 @@ ipred_cfl_splat_w8
 )
 16
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -15116,7 +15065,6 @@ ipred_cfl_splat_w16
 )
 32
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v2
@@ -15338,7 +15286,6 @@ L
 ipred_cfl_left_h4
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v0
@@ -15379,7 +15326,6 @@ L
 ipred_cfl_left_h8
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -15420,7 +15366,6 @@ L
 ipred_cfl_left_h16
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -15461,7 +15406,6 @@ L
 ipred_cfl_left_h32
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v2
@@ -15781,7 +15725,6 @@ L
 ipred_cfl_h4
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -15821,7 +15764,6 @@ L
 ipred_cfl_w4
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v2
@@ -15967,7 +15909,6 @@ L
 ipred_cfl_h8
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -15996,7 +15937,6 @@ L
 ipred_cfl_w8
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v2
@@ -16120,7 +16060,6 @@ L
 ipred_cfl_h16
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -16149,7 +16088,6 @@ L
 ipred_cfl_w16
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v2
@@ -16273,7 +16211,6 @@ L
 ipred_cfl_h32
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v2
@@ -16320,7 +16257,6 @@ L
 ipred_cfl_w32
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v2
@@ -16743,7 +16679,6 @@ L
 ipred_cfl_ac_420_w4
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -17084,7 +17019,6 @@ L
 ipred_cfl_ac_420_w8
 )
 :
-AARCH64_VALID_JUMP_TARGET
 cbnz
 w3
 L
@@ -17788,7 +17722,6 @@ L
 ipred_cfl_ac_420_w16
 )
 :
-AARCH64_VALID_JUMP_TARGET
 adr
 x7
 L
@@ -17816,7 +17749,6 @@ L
 ipred_cfl_ac_420_w16_wpad0
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -18104,7 +18036,6 @@ L
 ipred_cfl_ac_420_w16_wpad1
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -18448,7 +18379,6 @@ L
 ipred_cfl_ac_420_w16_wpad2
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -18678,7 +18608,6 @@ L
 ipred_cfl_ac_420_w16_wpad3
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -19362,7 +19291,6 @@ L
 ipred_cfl_ac_422_w4
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -19522,7 +19450,6 @@ L
 ipred_cfl_ac_422_w8
 )
 :
-AARCH64_VALID_JUMP_TARGET
 cbnz
 w3
 L
@@ -19997,7 +19924,6 @@ L
 ipred_cfl_ac_422_w16
 )
 :
-AARCH64_VALID_JUMP_TARGET
 adr
 x7
 L
@@ -20025,7 +19951,6 @@ L
 ipred_cfl_ac_422_w16_wpad0
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -20219,7 +20144,6 @@ L
 ipred_cfl_ac_422_w16_wpad1
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -20461,7 +20385,6 @@ L
 ipred_cfl_ac_422_w16_wpad2
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -20637,7 +20560,6 @@ L
 ipred_cfl_ac_422_w16_wpad3
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -21100,7 +21022,6 @@ L
 ipred_cfl_ac_444_w4
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -21252,7 +21173,6 @@ L
 ipred_cfl_ac_444_w8
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -21430,7 +21350,6 @@ L
 ipred_cfl_ac_444_w16
 )
 :
-AARCH64_VALID_JUMP_TARGET
 cbnz
 w3
 L
@@ -22019,7 +21938,6 @@ L
 ipred_cfl_ac_444_w32
 )
 :
-AARCH64_VALID_JUMP_TARGET
 adr
 x7
 L
@@ -22056,7 +21974,6 @@ L
 ipred_cfl_ac_444_w32_wpad0
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -22304,7 +22221,6 @@ L
 ipred_cfl_ac_444_w32_wpad2
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -22562,7 +22478,6 @@ L
 ipred_cfl_ac_444_w32_wpad4
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /
@@ -22808,7 +22723,6 @@ L
 ipred_cfl_ac_444_w32_wpad6
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 /

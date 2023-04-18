@@ -235,8 +235,6 @@ c_src
 448
 *
 64
-+
-64
 )
 *
 const
@@ -244,7 +242,7 @@ c_dst
 =
 c_src
 +
-64
+32
 ;
 ALIGN_STK_64
 (
@@ -252,8 +250,6 @@ pixel
 a_src
 448
 *
-64
-+
 64
 )
 *
@@ -262,7 +258,7 @@ a_dst
 =
 a_src
 +
-64
+32
 ;
 ALIGN_STK_64
 (
@@ -271,8 +267,6 @@ edge_buf
 448
 *
 8
-+
-64
 )
 *
 const
@@ -280,7 +274,7 @@ h_edge
 =
 edge_buf
 +
-64
+32
 ;
 pixel
 left
@@ -330,6 +324,8 @@ const
 pixel
 *
 lpf
+ptrdiff_t
+lpf_stride
 int
 w
 int
@@ -799,6 +795,12 @@ pixel
 )
 left
 h_edge
+448
+*
+sizeof
+(
+pixel
+)
 w
 h
 &
@@ -818,6 +820,12 @@ pixel
 )
 left
 h_edge
+448
+*
+sizeof
+(
+pixel
+)
 w
 h
 &
@@ -892,6 +900,12 @@ pixel
 )
 left
 h_edge
+448
+*
+sizeof
+(
+pixel
+)
 256
 64
 &
@@ -923,8 +937,6 @@ c_src
 448
 *
 64
-+
-64
 )
 *
 const
@@ -932,7 +944,7 @@ c_dst
 =
 c_src
 +
-64
+32
 ;
 ALIGN_STK_64
 (
@@ -940,8 +952,6 @@ pixel
 a_src
 448
 *
-64
-+
 64
 )
 *
@@ -950,7 +960,7 @@ a_dst
 =
 a_src
 +
-64
+32
 ;
 ALIGN_STK_64
 (
@@ -959,8 +969,6 @@ edge_buf
 448
 *
 8
-+
-64
 )
 *
 const
@@ -968,7 +976,7 @@ h_edge
 =
 edge_buf
 +
-64
+32
 ;
 pixel
 left
@@ -1004,6 +1012,8 @@ const
 pixel
 *
 lpf
+ptrdiff_t
+lpf_stride
 int
 w
 int
@@ -1348,6 +1358,12 @@ pixel
 )
 left
 h_edge
+448
+*
+sizeof
+(
+pixel
+)
 w
 h
 &
@@ -1367,6 +1383,12 @@ pixel
 )
 left
 h_edge
+448
+*
+sizeof
+(
+pixel
+)
 w
 h
 &
@@ -1441,6 +1463,12 @@ pixel
 )
 left
 h_edge
+448
+*
+sizeof
+(
+pixel
+)
 256
 64
 &
