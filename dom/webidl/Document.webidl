@@ -3893,6 +3893,11 @@ requestStorageAccessForOrigin
 (
 DOMString
 thirdPartyOrigin
+optional
+boolean
+requireUserInteraction
+=
+true
 )
 ;
 }

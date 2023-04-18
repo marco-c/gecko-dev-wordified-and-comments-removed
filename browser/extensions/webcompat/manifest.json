@@ -35,7 +35,7 @@ version
 "
 28
 .
-5
+6
 .
 0
 "
@@ -522,6 +522,13 @@ js
 "
 lib
 /
+requestStorageAccess_helper
+.
+js
+"
+"
+lib
+/
 ua_helpers
 .
 js
@@ -821,6 +828,13 @@ live
 test
 -
 shim
+.
+js
+"
+"
+shims
+/
+microsoftLogin
 .
 js
 "
