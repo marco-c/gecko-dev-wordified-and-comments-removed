@@ -5151,9 +5151,6 @@ const
 nsCID
 &
 aClass
-nsISupports
-*
-aDelegate
 const
 nsIID
 &
@@ -5349,7 +5346,7 @@ factory
 >
 CreateInstance
 (
-aDelegate
+nullptr
 aIID
 aResult
 )
@@ -5479,9 +5476,6 @@ const
 char
 *
 aContractID
-nsISupports
-*
-aDelegate
 const
 nsIID
 &
@@ -5701,7 +5695,7 @@ factory
 >
 CreateInstance
 (
-aDelegate
+nullptr
 aIID
 aResult
 )
