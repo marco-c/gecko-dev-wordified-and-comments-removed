@@ -87,7 +87,7 @@ get_repository_object
 (
 repo
 .
-strpath
+dir
 )
     
 assert
@@ -97,11 +97,10 @@ working_directory_clean
 (
 )
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 assert

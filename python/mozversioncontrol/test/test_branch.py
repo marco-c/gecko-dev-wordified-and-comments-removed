@@ -9,10 +9,6 @@ mozunit
 import
 pytest
 from
-pathlib
-import
-Path
-from
 mozversioncontrol
 import
 get_repository_object
@@ -123,16 +119,9 @@ vcs
 =
 get_repository_object
 (
-Path
-(
 repo
 .
-strpath
-)
-.
-resolve
-(
-)
+dir
 )
     
 if
@@ -213,11 +202,10 @@ branch
 is
 None
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 assert
@@ -230,11 +218,10 @@ branch
 test
 "
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 assert

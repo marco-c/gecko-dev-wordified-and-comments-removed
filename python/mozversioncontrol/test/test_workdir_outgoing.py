@@ -4,10 +4,6 @@ import
 absolute_import
 import
 os
-from
-pathlib
-import
-Path
 import
 mozunit
 from
@@ -269,7 +265,7 @@ get_repository_object
 (
 repo
 .
-strpath
+dir
 )
     
 assert
@@ -280,19 +276,12 @@ path
 =
 str
 (
-Path
-(
 repo
 .
-strpath
-)
-.
-resolve
-(
-)
+dir
 )
     
-remotepath
+remote_path
 =
 "
 .
@@ -316,11 +305,10 @@ upstream
 master
 "
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 assert_files
@@ -476,17 +464,16 @@ get_outgoing_files
 "
 AMD
 "
-remotepath
+remote_path
 )
 [
 ]
 )
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 assert_files
@@ -555,7 +542,7 @@ get_outgoing_files
 "
 AMD
 "
-remotepath
+remote_path
 )
 [
 "
@@ -570,11 +557,10 @@ foo
 ]
 )
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 assert_files
@@ -637,11 +623,10 @@ all
 ]
 )
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 assert_files
@@ -676,7 +661,7 @@ get_outgoing_files
 "
 AM
 "
-remotepath
+remote_path
 )
 [
 "
