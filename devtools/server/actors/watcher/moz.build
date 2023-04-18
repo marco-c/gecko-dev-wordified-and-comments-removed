@@ -11,6 +11,15 @@ helpers
 DevToolsModules
 (
 "
+browsing
+-
+context
+-
+helpers
+.
+jsm
+"
+"
 SessionDataHelpers
 .
 jsm
