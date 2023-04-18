@@ -605,9 +605,6 @@ softDisabled
 embedderDisabled
 "
 "
-existingAddonID
-"
-"
 sourceURI
 "
 "
