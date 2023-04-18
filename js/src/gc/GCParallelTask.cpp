@@ -677,9 +677,16 @@ setRunning
 lock
 )
 ;
+JS
+:
+:
+ContextOptions
+options
+;
 AutoSetHelperThreadContext
 usesContext
 (
+options
 lock
 )
 ;
