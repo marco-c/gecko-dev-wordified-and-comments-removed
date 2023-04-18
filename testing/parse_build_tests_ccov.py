@@ -405,14 +405,19 @@ PATH
 /
 bin
 /
-:
+{
+}
 {
 }
 "
 .
 format
 (
+            
 gcc_dir
+os
+.
+pathsep
 os
 .
 environ
@@ -421,6 +426,7 @@ environ
 PATH
 "
 ]
+        
 )
     
 grcov_output

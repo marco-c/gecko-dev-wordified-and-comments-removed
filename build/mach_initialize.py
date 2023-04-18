@@ -654,9 +654,9 @@ PATH
 .
 split
 (
-"
-:
-"
+os
+.
+pathsep
 )
 :
         
