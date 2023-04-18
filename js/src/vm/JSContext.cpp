@@ -5122,16 +5122,6 @@ false
 )
 #
 endif
-#
-ifdef
-DEBUG
-disableCompartmentCheckTracer
-(
-this
-false
-)
-#
-endif
 inUnsafeRegion
 (
 this
