@@ -3565,7 +3565,7 @@ open
 (
 f
 "
-rU
+r
 "
 encoding
 =
@@ -5910,7 +5910,7 @@ open
 (
 args
 "
-rU
+r
 "
 encoding
 =
@@ -6403,7 +6403,7 @@ open
 (
 f
 "
-rU
+r
 "
 encoding
 =

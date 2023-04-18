@@ -1646,7 +1646,7 @@ None
 readmode
 =
 "
-rU
+r
 "
 )
 :
