@@ -120,6 +120,11 @@ TestAudioDriftCorrection
 cpp
 "
 "
+TestAudioInputSource
+.
+cpp
+"
+"
 TestAudioMixer
 .
 cpp
