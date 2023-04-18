@@ -68,6 +68,13 @@ h
 #
 include
 "
+nsAtom
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AtomArray
@@ -92,9 +99,6 @@ MemoryReporting
 .
 h
 "
-class
-nsAtom
-;
 class
 nsIPrincipal
 ;
