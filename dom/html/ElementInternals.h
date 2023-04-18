@@ -414,8 +414,10 @@ ElementInternals
 =
 default
 ;
+RefPtr
+<
 HTMLElement
-*
+>
 mTarget
 ;
 HTMLFormElement
