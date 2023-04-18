@@ -2611,7 +2611,7 @@ childNotifiedPromise
 }
 async
 function
-openPopupForSubframe
+openPopupOnSubframe
 (
 browser
 frameBrowsingContext
@@ -2672,7 +2672,7 @@ cc
 {
 info
 (
-openPopupForSubframe
+openPopupOnSubframe
 :
 before
 VK_DOWN
