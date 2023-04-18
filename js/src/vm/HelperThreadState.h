@@ -2121,10 +2121,6 @@ runtime
 =
 nullptr
 ;
-JSObject
-*
-parseGlobal
-;
 JS
 :
 :
