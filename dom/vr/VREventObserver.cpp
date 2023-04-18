@@ -30,8 +30,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -879,6 +879,5 @@ WebVR
 return
 true
 ;
-}
 }
 }

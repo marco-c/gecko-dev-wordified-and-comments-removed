@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -96,7 +96,6 @@ mWindowId
 ;
 }
 ;
-}
 }
 #
 endif

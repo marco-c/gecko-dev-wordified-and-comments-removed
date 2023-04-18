@@ -34,8 +34,8 @@ nsGlobalWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -206,7 +206,6 @@ mStopActivity
 ;
 }
 ;
-}
 }
 #
 endif

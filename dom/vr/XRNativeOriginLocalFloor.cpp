@@ -23,8 +23,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRNativeOriginLocalFloor
@@ -184,6 +184,5 @@ standing
 return
 mInitialPosition
 ;
-}
 }
 }

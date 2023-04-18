@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -225,7 +225,6 @@ mAnimationFrame
 ;
 }
 ;
-}
 }
 #
 endif

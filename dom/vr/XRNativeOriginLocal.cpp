@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRNativeOriginLocal
@@ -160,6 +160,5 @@ true
 return
 mInitialPosition
 ;
-}
 }
 }

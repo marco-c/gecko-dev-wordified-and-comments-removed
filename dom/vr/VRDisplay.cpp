@@ -199,8 +199,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 VRFieldOfView
@@ -4328,6 +4328,5 @@ Clear
 (
 )
 ;
-}
 }
 }

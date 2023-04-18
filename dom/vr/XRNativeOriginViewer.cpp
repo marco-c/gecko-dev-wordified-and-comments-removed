@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRNativeOriginViewer
@@ -167,6 +167,5 @@ orientation
 ]
 )
 ;
-}
 }
 }

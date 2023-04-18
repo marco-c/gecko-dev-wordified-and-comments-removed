@@ -40,8 +40,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRBoundedReferenceSpace
@@ -385,6 +385,5 @@ forget
 (
 )
 ;
-}
 }
 }

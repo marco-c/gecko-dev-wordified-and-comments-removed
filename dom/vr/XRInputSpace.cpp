@@ -25,8 +25,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRInputSpace
@@ -158,6 +158,5 @@ GamepadCapabilityFlags
 Cap_None
 )
 ;
-}
 }
 }

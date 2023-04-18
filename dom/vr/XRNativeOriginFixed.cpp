@@ -7,8 +7,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRNativeOriginFixed
@@ -45,6 +45,5 @@ GetPosition
 return
 mPosition
 ;
-}
 }
 }
