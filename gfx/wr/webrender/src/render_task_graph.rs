@@ -1464,7 +1464,11 @@ can_use_shared_surface
 =
 task
 .
+kind
+.
 can_use_shared_surface
+(
+)
 &
 &
 task

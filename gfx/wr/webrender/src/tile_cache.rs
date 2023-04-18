@@ -77,6 +77,7 @@ picture
 Picture3DContext
 TileCacheParams
 TileOffset
+PictureFlags
 }
 ;
 use
@@ -2123,6 +2124,12 @@ RasterSpace
 :
 :
 Screen
+PictureFlags
+:
+:
+empty
+(
+)
 )
 )
 ;
