@@ -195,9 +195,6 @@ allAnonymousContentTreeWalkerFilter
 findGridParentContainerForNode
 "
 "
-isDocumentReady
-"
-"
 isNodeDead
 "
 "
@@ -1362,14 +1359,6 @@ if
 this
 .
 rootNode
-&
-&
-isDocumentReady
-(
-this
-.
-rootDoc
-)
 )
 {
 this
