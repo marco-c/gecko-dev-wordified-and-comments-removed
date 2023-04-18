@@ -7395,7 +7395,7 @@ discardJitCode
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )
@@ -9874,7 +9874,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 ;
@@ -9950,7 +9950,7 @@ ReleaseAllJITCode
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )
@@ -9997,7 +9997,7 @@ ReleaseAllJITCode
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )
@@ -10044,7 +10044,7 @@ ReleaseAllJITCode
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )
@@ -10091,7 +10091,7 @@ ReleaseAllJITCode
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )

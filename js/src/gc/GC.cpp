@@ -1368,7 +1368,7 @@ systemZone
 (
 nullptr
 )
-mainThreadFreeOp
+mainThreadContext
 (
 rt
 true
@@ -4001,7 +4001,7 @@ TlsGCContext
 set
 (
 &
-mainThreadFreeOp
+mainThreadContext
 .
 ref
 (
@@ -10713,7 +10713,7 @@ purgeShapeCaches
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )
@@ -12246,7 +12246,7 @@ discardJitCode
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 options
@@ -12555,7 +12555,7 @@ purgeTable
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )
@@ -12619,7 +12619,7 @@ purgeTable
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )
@@ -14739,7 +14739,7 @@ discardJitCode
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )
@@ -16882,7 +16882,7 @@ sweepZones
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 destroyingRuntime
@@ -17088,7 +17088,7 @@ MOZ_ASSERT
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 -

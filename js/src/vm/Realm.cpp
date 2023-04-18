@@ -1674,7 +1674,7 @@ releaseData
 runtime_
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )
@@ -1971,7 +1971,7 @@ ReleaseAllJITCode
 runtime_
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )

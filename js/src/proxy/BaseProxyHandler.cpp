@@ -2005,7 +2005,7 @@ finalize
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 proxy

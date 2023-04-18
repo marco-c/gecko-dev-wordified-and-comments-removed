@@ -5950,7 +5950,7 @@ Destroy
 rt_
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 const_cast
@@ -13477,7 +13477,7 @@ clearIonScript
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 script
@@ -13675,7 +13675,7 @@ gcx
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 ;

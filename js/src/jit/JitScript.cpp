@@ -2470,7 +2470,7 @@ setBaselineScriptImpl
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 script
@@ -2638,7 +2638,7 @@ setIonScriptImpl
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 script

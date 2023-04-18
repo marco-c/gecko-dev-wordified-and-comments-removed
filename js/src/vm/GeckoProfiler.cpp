@@ -428,7 +428,7 @@ ReleaseAllJITCode
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )

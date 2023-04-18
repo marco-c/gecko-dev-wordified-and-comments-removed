@@ -1554,7 +1554,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )
@@ -3843,7 +3843,7 @@ gcx
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 ;
@@ -3918,7 +3918,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 referent
@@ -4004,7 +4004,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 script
@@ -5635,7 +5635,7 @@ gcx
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 ;
@@ -5996,7 +5996,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )

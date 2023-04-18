@@ -1136,7 +1136,7 @@ freeAllStubs
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )

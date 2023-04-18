@@ -26051,7 +26051,7 @@ ReleaseAllJITCode
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )
