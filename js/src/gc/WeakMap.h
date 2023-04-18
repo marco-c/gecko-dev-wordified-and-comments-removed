@@ -484,7 +484,11 @@ Cell
 ;
 #
 endif
-HeapPtrObject
+HeapPtr
+<
+JSObject
+*
+>
 memberOf
 ;
 JS

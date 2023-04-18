@@ -2408,7 +2408,11 @@ JS
 ZoneSet
 debuggeeZones
 ;
-HeapPtrObject
+HeapPtr
+<
+JSObject
+*
+>
 uncaughtExceptionHook
 ;
 bool
