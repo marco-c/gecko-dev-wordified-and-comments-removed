@@ -79,7 +79,7 @@ nsIURI
 aURI
 bool
 aIsMultiPart
-uint32_t
+uint64_t
 aInnerWindowId
 )
 ;
@@ -139,7 +139,7 @@ nsIURI
 aURI
 uint32_t
 aImageFlags
-uint32_t
+uint64_t
 aInnerWindowId
 )
 ;
@@ -165,7 +165,7 @@ nsIURI
 aURI
 uint32_t
 aImageFlags
-uint32_t
+uint64_t
 aInnerWindowId
 )
 ;
