@@ -299,7 +299,7 @@ n
 )
 ;
 }
-void
+bool
 HitTestInfoManager
 :
 :
@@ -407,6 +407,7 @@ HasHitTestInfo
 )
 {
 return
+false
 ;
 }
 const
@@ -465,6 +466,7 @@ IsEmpty
 )
 {
 return
+false
 ;
 }
 const
@@ -507,6 +509,7 @@ spaceAndClipChain
 )
 {
 return
+false
 ;
 }
 HITTEST_INFO_LOG
@@ -564,6 +567,9 @@ area
 flags
 viewId
 )
+;
+return
+true
 ;
 }
 bool

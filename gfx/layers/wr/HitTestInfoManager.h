@@ -77,7 +77,7 @@ Reset
 (
 )
 ;
-void
+bool
 ProcessItem
 (
 nsDisplayItem
