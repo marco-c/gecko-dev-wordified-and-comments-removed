@@ -8570,8 +8570,9 @@ nsNativeBasicTheme
 :
 ThemeDrawsFocusForWidget
 (
+nsIFrame
+*
 StyleAppearance
-aAppearance
 )
 {
 return

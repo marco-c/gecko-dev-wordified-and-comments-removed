@@ -299,14 +299,12 @@ aAppearance
 )
 override
 ;
-NS_IMETHOD_
-(
 bool
-)
 ThemeDrawsFocusForWidget
 (
+nsIFrame
+*
 StyleAppearance
-aAppearance
 )
 override
 ;

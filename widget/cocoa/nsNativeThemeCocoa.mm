@@ -17812,6 +17812,8 @@ nsNativeThemeCocoa
 :
 ThemeDrawsFocusForWidget
 (
+nsIFrame
+*
 StyleAppearance
 aAppearance
 )

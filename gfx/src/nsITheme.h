@@ -539,8 +539,9 @@ virtual
 bool
 ThemeDrawsFocusForWidget
 (
+nsIFrame
+*
 StyleAppearance
-aWidgetType
 )
 =
 0
@@ -549,6 +550,9 @@ virtual
 bool
 ThemeWantsButtonInnerFocusRing
 (
+nsIFrame
+*
+aFrame
 StyleAppearance
 aAppearance
 )
@@ -557,6 +561,7 @@ return
 !
 ThemeDrawsFocusForWidget
 (
+aFrame
 aAppearance
 )
 ;

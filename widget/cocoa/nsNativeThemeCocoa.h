@@ -1685,8 +1685,9 @@ override
 bool
 ThemeDrawsFocusForWidget
 (
+nsIFrame
+*
 StyleAppearance
-aAppearance
 )
 override
 ;
