@@ -1551,7 +1551,10 @@ by
 running
 .
 /
+mach
 configure
+-
+-
 -
 -
 help
