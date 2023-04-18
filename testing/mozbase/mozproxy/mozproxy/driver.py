@@ -573,6 +573,42 @@ production
     
 )
     
+parser
+.
+add_argument
+(
+        
+"
+-
+-
+deterministic
+"
+        
+action
+=
+"
+store_true
+"
+        
+default
+=
+False
+        
+help
+=
+"
+Enable
+or
+disable
+inject_deterministic
+script
+when
+recording
+.
+"
+    
+)
+    
 mozlog
 .
 commandline
@@ -980,6 +1016,14 @@ verbose
 args
 .
 verbose
+                    
+"
+inject_deterministic
+"
+:
+args
+.
+deterministic
                 
 }
             

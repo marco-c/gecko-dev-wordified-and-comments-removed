@@ -1138,6 +1138,11 @@ obama
 +
 quotes
 "
+"
+inject_deterministic
+"
+:
+false
 }
 {
 "
@@ -1988,6 +1993,11 @@ gallery
 /
 m5tYJL6
 "
+"
+inject_deterministic
+"
+:
+false
 }
 {
 "
