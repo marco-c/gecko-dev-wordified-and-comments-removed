@@ -2101,8 +2101,20 @@ setdefault
 "
 ARCHFLAGS
 "
-get_archflags
+"
+-
+arch
+{
+}
+"
+.
+format
 (
+platform
+.
+machine
+(
+)
 )
 )
         
@@ -2270,25 +2282,3 @@ local_folder
         
 return
 path
-def
-get_archflags
-(
-)
-:
-    
-return
-"
--
-arch
-{
-}
-"
-.
-format
-(
-platform
-.
-machine
-(
-)
-)
