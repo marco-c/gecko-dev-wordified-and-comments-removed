@@ -454,6 +454,17 @@ aIsEndOffset
 )
 const
 ;
+void
+AdjustOriginIfEndBoundary
+(
+TextLeafPoint
+&
+aOrigin
+AccessibleTextBoundary
+aBoundaryType
+)
+const
+;
 }
 ;
 }
