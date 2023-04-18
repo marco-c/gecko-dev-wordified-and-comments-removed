@@ -186,6 +186,12 @@ DPIRatio
 )
 override
 ;
+void
+RecomputeScrollbarParams
+(
+)
+override
+;
 bool
 ShouldDrawScrollbarButtons
 (

@@ -199,6 +199,12 @@ DPIRatio
 )
 override
 ;
+void
+RecomputeScrollbarParams
+(
+)
+override
+;
 }
 ;
 }
