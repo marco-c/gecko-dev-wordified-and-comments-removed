@@ -559,6 +559,13 @@ GarbageCollect
 JS
 :
 :
+GCOptions
+:
+:
+Normal
+JS
+:
+:
 GCReason
 :
 :
@@ -584,6 +591,13 @@ mRuntime
 >
 GarbageCollect
 (
+JS
+:
+:
+GCOptions
+:
+:
+Normal
 JS
 :
 :

@@ -8312,6 +8312,11 @@ GarbageCollect
 JS
 :
 :
+GCOptions
+aOptions
+JS
+:
+:
 GCReason
 aReason
 )
@@ -8347,13 +8352,7 @@ JS
 NonIncrementalGC
 (
 cx
-JS
-:
-:
-GCOptions
-:
-:
-Normal
+aOptions
 aReason
 )
 ;

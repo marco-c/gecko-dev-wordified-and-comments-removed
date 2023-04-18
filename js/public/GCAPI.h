@@ -119,6 +119,9 @@ Normal
 Shrink
 =
 1
+Shutdown
+=
+2
 }
 ;
 }

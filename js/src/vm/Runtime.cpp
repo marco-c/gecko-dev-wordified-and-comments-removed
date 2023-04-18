@@ -1276,7 +1276,7 @@ JS
 GCOptions
 :
 :
-Normal
+Shutdown
 JS
 :
 :

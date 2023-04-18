@@ -1806,6 +1806,11 @@ GarbageCollect
 JS
 :
 :
+GCOptions
+options
+JS
+:
+:
 GCReason
 aReason
 )
