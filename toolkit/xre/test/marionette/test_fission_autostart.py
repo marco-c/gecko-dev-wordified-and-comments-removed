@@ -121,12 +121,6 @@ disabledByEnv
 5
     
 "
-disabledBySafeMode
-"
-:
-6
-    
-"
 enabledByDefault
 "
 :
