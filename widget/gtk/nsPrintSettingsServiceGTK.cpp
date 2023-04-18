@@ -8,6 +8,17 @@ h
 #
 include
 "
+mozilla
+/
+embedding
+/
+PPrintingTypes
+.
+h
+"
+#
+include
+"
 nsPrintSettingsGTK
 .
 h
