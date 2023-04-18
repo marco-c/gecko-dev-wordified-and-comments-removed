@@ -189,11 +189,7 @@ reason
 [
 Exposed
 =
-(
-Window
-Worker
-Worklet
-)
+*
 Pref
 =
 "

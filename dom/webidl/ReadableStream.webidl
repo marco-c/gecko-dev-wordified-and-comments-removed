@@ -1,11 +1,7 @@
 [
 Exposed
 =
-(
-Window
-Worker
-Worklet
-)
+*
 /
 /
 Transferable

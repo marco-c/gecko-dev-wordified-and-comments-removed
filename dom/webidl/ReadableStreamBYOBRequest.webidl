@@ -126,11 +126,7 @@ definition
 [
 Exposed
 =
-(
-Window
-Worker
-Worklet
-)
+*
 Pref
 =
 "
