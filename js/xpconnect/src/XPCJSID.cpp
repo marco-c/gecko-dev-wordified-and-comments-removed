@@ -412,16 +412,13 @@ RootedId
 hasInstance
 (
 aCx
-SYMBOL_TO_JSID
-(
-GetWellKnownSymbol
+GetWellKnownSymbolKey
 (
 aCx
 SymbolCode
 :
 :
 hasInstance
-)
 )
 )
 ;
