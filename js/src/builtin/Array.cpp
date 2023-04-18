@@ -16878,7 +16878,7 @@ hasOverriddenLength
 argsobj
 -
 >
-isAnyElementDeleted
+hasOverriddenElement
 (
 )
 )
@@ -17223,7 +17223,7 @@ hasOverriddenLength
 argsobj
 -
 >
-isAnyElementDeleted
+hasOverriddenElement
 (
 )
 )
