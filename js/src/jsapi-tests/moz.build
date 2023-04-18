@@ -410,6 +410,11 @@ testObjectEmulatingUndefined
 cpp
 "
 "
+testObjectSwap
+.
+cpp
+"
+"
 testOOM
 .
 cpp
