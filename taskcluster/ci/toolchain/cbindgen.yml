@@ -112,15 +112,6 @@ cbindgen
 tar
 .
 zst
-run
--
-on
--
-projects
-:
-[
-trunk
-]
 fetches
 :
 fetch

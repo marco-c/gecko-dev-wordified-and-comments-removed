@@ -91,15 +91,6 @@ b
 -
 linux
 run
--
-on
--
-projects
-:
-[
-trunk
-]
-run
 :
 script
 :
