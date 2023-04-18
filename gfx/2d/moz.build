@@ -104,6 +104,11 @@ DrawTargetRecording
 h
 "
 "
+DrawTargetSkia
+.
+h
+"
+"
 Filters
 .
 h
@@ -160,6 +165,11 @@ h
 "
 "
 PathHelpers
+.
+h
+"
+"
+PathSkia
 .
 h
 "
