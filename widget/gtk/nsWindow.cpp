@@ -12383,12 +12383,6 @@ y
 )
 ;
 }
-WaylandPopupPropagateChangesToLayout
-(
-true
-false
-)
-;
 return
 ;
 }
