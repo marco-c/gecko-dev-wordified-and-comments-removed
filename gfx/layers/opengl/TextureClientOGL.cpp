@@ -1362,10 +1362,12 @@ ipc
 :
 FileDescriptor
 (
-readerFd
-.
-release
+std
+:
+:
+move
 (
+readerFd
 )
 )
 mAndroidHardwareBuffer
