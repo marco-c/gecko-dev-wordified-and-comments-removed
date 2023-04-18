@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsExceptionHandler
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MemoryReporting

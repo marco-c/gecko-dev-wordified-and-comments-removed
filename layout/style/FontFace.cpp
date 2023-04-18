@@ -17,6 +17,13 @@ algorithm
 #
 include
 "
+gfxPlatformFontList
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
