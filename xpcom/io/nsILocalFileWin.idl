@@ -69,14 +69,6 @@ attribute
 AString
 canonicalPath
 ;
-[
-noscript
-]
-readonly
-attribute
-ACString
-nativeCanonicalPath
-;
 attribute
 bool
 readOnly
