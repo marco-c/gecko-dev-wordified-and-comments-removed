@@ -367,11 +367,13 @@ uint32_t
 Port
 (
 )
+const
 ;
 bool
 Ssl
 (
 )
+const
 ;
 uint64_t
 BufferedAmount
@@ -448,6 +450,7 @@ TCPSocketBinaryType
 BinaryType
 (
 )
+const
 ;
 void
 UpgradeToSecure

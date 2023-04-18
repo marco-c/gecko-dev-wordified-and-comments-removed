@@ -17232,6 +17232,7 @@ DataChannel
 GetBufferedAmountLowThreshold
 (
 )
+const
 {
 return
 mBufferedThreshold

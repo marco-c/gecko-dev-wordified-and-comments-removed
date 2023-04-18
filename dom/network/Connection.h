@@ -150,6 +150,7 @@ bool
 GetIsWifi
 (
 )
+const
 {
 NS_ASSERT_OWNINGTHREAD
 (
@@ -164,6 +165,7 @@ uint32_t
 GetDhcpGateway
 (
 )
+const
 {
 NS_ASSERT_OWNINGTHREAD
 (

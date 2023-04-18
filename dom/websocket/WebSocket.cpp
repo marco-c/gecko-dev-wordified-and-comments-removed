@@ -946,6 +946,7 @@ aMsg
 bool
 isBinary
 )
+const
 ;
 nsresult
 ScheduleConnectionCloseEvents
@@ -2864,6 +2865,7 @@ aMsg
 bool
 isBinary
 )
+const
 {
 AssertIsOnTargetThread
 (

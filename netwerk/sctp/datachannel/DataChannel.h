@@ -268,6 +268,7 @@ size_t
 GetLength
 (
 )
+const
 {
 return
 mLength
@@ -278,6 +279,7 @@ size_t
 GetLeft
 (
 )
+const
 {
 return
 mLength
@@ -2346,6 +2348,7 @@ uint16_t
 GetType
 (
 )
+const
 {
 return
 mPrPolicy
@@ -2379,6 +2382,7 @@ bool
 GetNegotiated
 (
 )
+const
 {
 return
 mNegotiated
@@ -2388,6 +2392,7 @@ bool
 GetOrdered
 (
 )
+const
 {
 return
 mOrdered
@@ -2414,6 +2419,7 @@ uint32_t
 GetBufferedAmount
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -2430,6 +2436,7 @@ uint32_t
 GetBufferedAmountLowThreshold
 (
 )
+const
 ;
 void
 SetBufferedAmountLowThreshold
@@ -2507,6 +2514,7 @@ uint16_t
 GetStream
 (
 )
+const
 {
 return
 mStream

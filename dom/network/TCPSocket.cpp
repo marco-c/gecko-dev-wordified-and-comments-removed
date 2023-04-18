@@ -2892,6 +2892,7 @@ TCPSocket
 Port
 (
 )
+const
 {
 return
 mPort
@@ -2904,6 +2905,7 @@ TCPSocket
 Ssl
 (
 )
+const
 {
 return
 mSsl
@@ -4146,6 +4148,7 @@ TCPSocket
 BinaryType
 (
 )
+const
 {
 if
 (
