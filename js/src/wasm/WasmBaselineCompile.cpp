@@ -29173,7 +29173,7 @@ return
 emitInstanceCall
 (
 lineOrBytecode
-SASigTableGetFunc
+SASigTableGet
 )
 ;
 }
@@ -29311,7 +29311,7 @@ return
 emitInstanceCall
 (
 lineOrBytecode
-SASigTableSetFunc
+SASigTableSet
 )
 ;
 }
