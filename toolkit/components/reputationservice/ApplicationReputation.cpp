@@ -2087,9 +2087,6 @@ OnStopRequestInternal
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aResult
 uint32_t
@@ -8408,7 +8405,6 @@ rv
 OnStopRequestInternal
 (
 aRequest
-nullptr
 aResult
 verdict
 reason
@@ -8434,9 +8430,6 @@ OnStopRequestInternal
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aResult
 uint32_t

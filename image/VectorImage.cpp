@@ -1740,9 +1740,6 @@ OnImageDataComplete
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 bool
@@ -1821,9 +1818,6 @@ OnImageDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInStr

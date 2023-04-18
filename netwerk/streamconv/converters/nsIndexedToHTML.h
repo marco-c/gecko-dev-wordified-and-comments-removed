@@ -123,9 +123,6 @@ SendToListener
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 const
 nsACString
 &
@@ -138,9 +135,6 @@ DoOnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 nsCString
 &
 aBuffer

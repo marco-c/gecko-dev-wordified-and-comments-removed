@@ -5482,9 +5482,6 @@ downloader
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsresult
 status
 nsIFile

@@ -731,7 +731,6 @@ rv
 DispatchContent
 (
 request
-nullptr
 )
 ;
 LOG
@@ -1078,9 +1077,6 @@ DispatchContent
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 )
 {
 LOG

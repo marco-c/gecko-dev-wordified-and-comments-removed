@@ -796,7 +796,6 @@ mLineStart
 ProcessData
 (
 aRequest
-nullptr
 )
 ;
 }
@@ -1851,7 +1850,6 @@ return
 ProcessData
 (
 aRequest
-nullptr
 )
 ;
 }
@@ -1864,9 +1862,6 @@ ProcessData
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 )
 {
 if
@@ -2080,7 +2075,6 @@ mListener
 OnInformationAvailable
 (
 aRequest
-aCtxt
 NS_ConvertUTF8toUTF16
 (
 value
@@ -2243,7 +2237,6 @@ mListener
 OnIndexAvailable
 (
 aRequest
-aCtxt
 idx
 )
 ;

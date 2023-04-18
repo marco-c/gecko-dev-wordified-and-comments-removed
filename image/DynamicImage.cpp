@@ -219,9 +219,6 @@ OnImageDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInStr
@@ -244,9 +241,6 @@ OnImageDataComplete
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 bool

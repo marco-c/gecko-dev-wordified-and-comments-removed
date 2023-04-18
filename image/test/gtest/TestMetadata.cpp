@@ -1154,7 +1154,6 @@ image
 OnImageDataAvailable
 (
 nullptr
-nullptr
 inputStream
 0
 static_cast
@@ -1181,7 +1180,6 @@ image
 >
 OnImageDataComplete
 (
-nullptr
 nullptr
 NS_OK
 true

@@ -1341,13 +1341,6 @@ self
 mBrotli
 -
 >
-mContext
-self
--
->
-mBrotli
--
->
 mSourceOffset
 reinterpret_cast
 <
@@ -1942,7 +1935,6 @@ rv
 do_OnDataAvailable
 (
 request
-nullptr
 aSourceOffset
 (
 char
@@ -1996,7 +1988,6 @@ rv
 do_OnDataAvailable
 (
 request
-nullptr
 aSourceOffset
 (
 char
@@ -2039,7 +2030,6 @@ rv
 do_OnDataAvailable
 (
 request
-nullptr
 aSourceOffset
 (
 char
@@ -2325,7 +2315,6 @@ rv
 do_OnDataAvailable
 (
 request
-nullptr
 aSourceOffset
 (
 char
@@ -2379,7 +2368,6 @@ rv
 do_OnDataAvailable
 (
 request
-nullptr
 aSourceOffset
 (
 char
@@ -2422,7 +2410,6 @@ rv
 do_OnDataAvailable
 (
 request
-nullptr
 aSourceOffset
 (
 char
@@ -2636,9 +2623,6 @@ do_OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-context
 uint64_t
 offset
 const

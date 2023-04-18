@@ -503,7 +503,6 @@ rv
 DoOnStartRequest
 (
 request
-nullptr
 buffer
 )
 ;
@@ -568,7 +567,6 @@ rv
 SendToListener
 (
 request
-nullptr
 buffer
 )
 ;
@@ -585,9 +583,6 @@ DoOnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 nsCString
 &
 aBuffer
@@ -4506,7 +4501,6 @@ aStatus
 SendToListener
 (
 request
-nullptr
 buffer
 )
 ;
@@ -4544,9 +4538,6 @@ SendToListener
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 const
 nsACString
 &
@@ -4707,9 +4698,6 @@ OnIndexAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 nsIDirIndex
 *
 aIndex
@@ -5621,7 +5609,6 @@ return
 SendToListener
 (
 aRequest
-aCtxt
 pushBuffer
 )
 ;
@@ -5635,9 +5622,6 @@ OnInformationAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 const
 nsAString
 &
@@ -5735,7 +5719,6 @@ return
 SendToListener
 (
 aRequest
-aCtxt
 pushBuffer
 )
 ;

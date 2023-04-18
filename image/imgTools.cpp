@@ -498,7 +498,6 @@ mImage
 OnImageDataAvailable
 (
 aRequest
-nullptr
 aInputStream
 aOffset
 aCount
@@ -564,7 +563,6 @@ mImage
 OnImageDataComplete
 (
 aRequest
-nullptr
 aStatus
 true
 )
@@ -866,7 +864,6 @@ mImage
 OnImageDataComplete
 (
 nullptr
-nullptr
 mStatus
 true
 )
@@ -1054,7 +1051,6 @@ mImage
 >
 OnImageDataAvailable
 (
-nullptr
 nullptr
 mInputStream
 0
@@ -1541,7 +1537,6 @@ image
 OnImageDataAvailable
 (
 nullptr
-nullptr
 stream
 0
 aSize
@@ -1560,7 +1555,6 @@ image
 >
 OnImageDataComplete
 (
-nullptr
 nullptr
 NS_OK
 true

@@ -57,7 +57,6 @@ onDownloadComplete
 (
 downloader
 request
-ctxt
 status
 file
 )

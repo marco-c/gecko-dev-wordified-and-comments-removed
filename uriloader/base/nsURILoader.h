@@ -209,9 +209,6 @@ DispatchContent
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 )
 ;
 nsresult

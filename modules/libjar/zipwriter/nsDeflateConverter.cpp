@@ -489,7 +489,6 @@ rv
 PushAvailableData
 (
 aRequest
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -585,7 +584,6 @@ rv
 PushAvailableData
 (
 aRequest
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -629,9 +627,6 @@ PushAvailableData
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 uint32_t

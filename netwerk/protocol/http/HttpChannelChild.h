@@ -1084,9 +1084,6 @@ DoOnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 ;
 void
@@ -1117,9 +1114,6 @@ DoOnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aStream
@@ -1144,9 +1138,6 @@ nsIRequest
 aRequest
 nsresult
 aChannelStatus
-nsISupports
-*
-aContext
 )
 ;
 void

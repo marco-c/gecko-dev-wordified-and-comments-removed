@@ -186,9 +186,6 @@ PushAvailableData
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 ;
 }

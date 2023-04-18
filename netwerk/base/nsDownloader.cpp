@@ -330,7 +330,6 @@ OnDownloadComplete
 (
 this
 request
-nullptr
 status
 mLocation
 )
