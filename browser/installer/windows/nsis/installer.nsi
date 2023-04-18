@@ -2726,7 +2726,9 @@ AppUserModelID
 "
 "
 8
-1
+{
+IDI_DOCUMENT_ZERO_BASED
+}
 "
 \
 "
@@ -2751,7 +2753,9 @@ AppUserModelID
 "
 "
 8
-1
+{
+IDI_DOCUMENT_ZERO_BASED
+}
 "
 \
 "
@@ -2776,7 +2780,9 @@ AppUserModelID
 "
 "
 8
-1
+{
+IDI_DOCUMENT_ZERO_BASED
+}
 "
 \
 "
