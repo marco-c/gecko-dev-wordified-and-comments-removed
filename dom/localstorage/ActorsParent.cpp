@@ -7909,7 +7909,7 @@ ipc
 :
 :
 IPCResult
-RecvFinish
+RecvAsyncFinish
 (
 )
 override
@@ -23484,7 +23484,7 @@ IPCResult
 Snapshot
 :
 :
-RecvFinish
+RecvAsyncFinish
 (
 )
 {

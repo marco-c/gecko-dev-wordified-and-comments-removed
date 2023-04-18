@@ -4573,7 +4573,7 @@ MOZ_ALWAYS_TRUE
 mActor
 -
 >
-SendFinish
+SendAsyncFinish
 (
 )
 )
