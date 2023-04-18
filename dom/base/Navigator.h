@@ -496,6 +496,15 @@ ErrorResult
 aRv
 )
 ;
+bool
+CanShare
+(
+const
+ShareData
+&
+aData
+)
+;
 Promise
 *
 Share
