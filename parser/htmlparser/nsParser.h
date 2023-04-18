@@ -413,6 +413,12 @@ Cleanup
 (
 )
 ;
+mUnusedInput
+.
+Truncate
+(
+)
+;
 Initialize
 (
 )
@@ -507,10 +513,6 @@ protected
 void
 Initialize
 (
-bool
-aConstructor
-=
-false
 )
 ;
 void
