@@ -18,6 +18,9 @@ invalid_namespace_test
 (
 t
 resolver
+resolverWindow
+=
+window
 )
 =
 >
@@ -51,7 +54,7 @@ error
 ;
 }
 ;
-window
+resolverWindow
 .
 addEventListener
 (
@@ -70,7 +73,7 @@ add_cleanup
 =
 >
 {
-window
+resolverWindow
 .
 removeEventListener
 (
