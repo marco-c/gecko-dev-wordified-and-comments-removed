@@ -823,6 +823,11 @@ resolve
 ;
 }
 ;
+await
+setMediaPermission
+(
+)
+;
 const
 stream
 =
