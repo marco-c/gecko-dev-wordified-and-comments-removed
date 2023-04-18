@@ -23,9 +23,12 @@ insecure
 -
 requests
 directive
-Components
-.
-utils
+const
+{
+NetUtil
+}
+=
+ChromeUtils
 .
 import
 (

@@ -49,9 +49,12 @@ src
 is
 not
 specified
-Components
-.
-utils
+const
+{
+NetUtil
+}
+=
+ChromeUtils
 .
 import
 (

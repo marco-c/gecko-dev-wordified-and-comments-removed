@@ -15,9 +15,12 @@ html
 for
 details
 .
-Components
-.
-utils
+const
+{
+NetUtil
+}
+=
+ChromeUtils
 .
 import
 (

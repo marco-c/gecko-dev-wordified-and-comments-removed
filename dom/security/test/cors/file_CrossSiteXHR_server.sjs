@@ -27,7 +27,12 @@ setInputStream
 "
 )
 ;
-Cu
+const
+{
+Services
+}
+=
+ChromeUtils
 .
 import
 (

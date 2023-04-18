@@ -10,9 +10,12 @@ use
 strict
 "
 ;
-Components
-.
-utils
+const
+{
+NetUtil
+}
+=
+ChromeUtils
 .
 import
 (

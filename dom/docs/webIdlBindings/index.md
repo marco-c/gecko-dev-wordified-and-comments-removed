@@ -17166,9 +17166,12 @@ doNothing
 method
 .
 js
-Components
-.
-utils
+const
+{
+XPCOMUtils
+}
+=
+ChromeUtils
 .
 import
 (

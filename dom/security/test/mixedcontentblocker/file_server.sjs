@@ -1,6 +1,9 @@
-Components
-.
-utils
+const
+{
+NetUtil
+}
+=
+ChromeUtils
 .
 import
 (

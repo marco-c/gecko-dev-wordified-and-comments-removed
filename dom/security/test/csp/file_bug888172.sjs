@@ -5,9 +5,12 @@ file
 for
 CSP
 mochitests
-Components
-.
-utils
+const
+{
+NetUtil
+}
+=
+ChromeUtils
 .
 import
 (

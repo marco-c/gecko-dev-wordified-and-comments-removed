@@ -1,4 +1,9 @@
-Cu
+const
+{
+Services
+}
+=
+ChromeUtils
 .
 import
 (
