@@ -51,8 +51,8 @@ Polygon
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -395,6 +395,5 @@ Finish
 (
 )
 ;
-}
 }
 }

@@ -54,8 +54,8 @@ Script
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -1030,6 +1030,5 @@ crossorigin
 )
 )
 ;
-}
 }
 }

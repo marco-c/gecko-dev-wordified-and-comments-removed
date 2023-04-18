@@ -107,8 +107,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1568,7 +1568,6 @@ enum
 return
 eCSSProperty_UNKNOWN
 ;
-}
 }
 }
 }

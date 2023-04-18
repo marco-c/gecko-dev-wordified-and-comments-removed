@@ -39,8 +39,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SVGPolyElement
@@ -689,6 +689,5 @@ i
 return
 true
 ;
-}
 }
 }

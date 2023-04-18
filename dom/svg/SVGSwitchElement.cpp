@@ -54,8 +54,8 @@ Switch
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -550,6 +550,5 @@ bestChild
 :
 defaultChild
 ;
-}
 }
 }

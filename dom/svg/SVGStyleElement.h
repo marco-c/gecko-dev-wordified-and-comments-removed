@@ -62,8 +62,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -371,7 +371,6 @@ aContent
 ;
 }
 ;
-}
 }
 #
 endif

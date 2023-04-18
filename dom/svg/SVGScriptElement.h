@@ -74,8 +74,8 @@ aFromParser
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -398,7 +398,6 @@ sStringInfo
 ;
 }
 ;
-}
 }
 #
 endif

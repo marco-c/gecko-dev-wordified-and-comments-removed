@@ -200,8 +200,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -2635,6 +2635,5 @@ get
 (
 )
 ;
-}
 }
 }

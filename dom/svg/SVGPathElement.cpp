@@ -137,8 +137,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -2112,6 +2112,5 @@ StyleSVGReset
 >
 mD
 ;
-}
 }
 }

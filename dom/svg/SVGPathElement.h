@@ -69,8 +69,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -623,7 +623,6 @@ mD
 ;
 }
 ;
-}
 }
 #
 endif

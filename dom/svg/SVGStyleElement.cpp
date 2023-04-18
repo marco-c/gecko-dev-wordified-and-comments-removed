@@ -82,8 +82,8 @@ Style
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -833,6 +833,5 @@ No
 }
 )
 ;
-}
 }
 }

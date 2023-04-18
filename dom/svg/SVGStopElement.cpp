@@ -26,8 +26,8 @@ Stop
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -205,6 +205,5 @@ IsAttributeMapped
 name
 )
 ;
-}
 }
 }

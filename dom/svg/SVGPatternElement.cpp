@@ -80,8 +80,8 @@ Pattern
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -787,6 +787,5 @@ sStringInfo
 )
 )
 ;
-}
 }
 }
