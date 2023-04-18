@@ -2655,12 +2655,15 @@ py
 else
 :
             
+with
 pytest
 .
 raises
 (
 IOError
-"
+)
+:
+                
 mock_runner
 .
 add_test
@@ -2668,8 +2671,6 @@ add_test
 manifest_with_tests
 .
 filepath
-)
-"
 )
     
 assert
