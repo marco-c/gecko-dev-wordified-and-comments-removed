@@ -103,7 +103,7 @@ line
 )
 ;
 await
-keyboardExecuteAndWaitForMessage
+keyboardExecuteAndWaitForResultMessage
 (
 hud
 "
@@ -111,10 +111,6 @@ single
 line
 "
 "
-"
-"
-.
-result
 "
 )
 ;
@@ -129,7 +125,7 @@ line
 )
 ;
 await
-keyboardExecuteAndWaitForMessage
+keyboardExecuteAndWaitForResultMessage
 (
 hud
 "
@@ -138,10 +134,6 @@ line
 2
 "
 "
-"
-"
-.
-result
 "
 )
 ;
@@ -155,7 +147,7 @@ lines
 )
 ;
 await
-keyboardExecuteAndWaitForMessage
+keyboardExecuteAndWaitForResultMessage
 (
 hud
 "
@@ -168,10 +160,6 @@ trim
 (
 )
 "
-"
-"
-.
-result
 "
 )
 ;
@@ -205,7 +193,7 @@ mode
 )
 ;
 await
-keyboardExecuteAndWaitForMessage
+keyboardExecuteAndWaitForResultMessage
 (
 hud
 "
@@ -214,10 +202,6 @@ line
 3
 "
 "
-"
-"
-.
-result
 "
 )
 ;
@@ -234,7 +218,7 @@ mode
 )
 ;
 await
-keyboardExecuteAndWaitForMessage
+keyboardExecuteAndWaitForResultMessage
 (
 hud
 "
@@ -254,10 +238,6 @@ trim
 )
 "
 "
-"
-.
-result
-"
 )
 ;
 info
@@ -274,7 +254,7 @@ mode
 )
 ;
 await
-keyboardExecuteAndWaitForMessage
+keyboardExecuteAndWaitForResultMessage
 (
 hud
 "
@@ -287,10 +267,6 @@ trim
 (
 )
 "
-"
-"
-.
-result
 "
 )
 ;

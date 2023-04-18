@@ -359,7 +359,7 @@ result
 )
 ;
 await
-keyboardExecuteAndWaitForMessage
+keyboardExecuteAndWaitForResultMessage
 (
 hud
 localVar
@@ -367,10 +367,6 @@ localVar
 example
 .
 org
-"
-"
-.
-result
 "
 )
 ;
@@ -536,7 +532,7 @@ result
 )
 ;
 await
-keyboardExecuteAndWaitForMessage
+keyboardExecuteAndWaitForResultMessage
 (
 hud
 localVar
@@ -544,10 +540,6 @@ localVar
 example
 .
 net
-"
-"
-.
-result
 "
 )
 ;
