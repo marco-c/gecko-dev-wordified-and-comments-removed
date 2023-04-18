@@ -507,6 +507,7 @@ status
 try
 {
 aCallback
+?
 .
 onInstallEnded
 (
@@ -535,11 +536,8 @@ if
 aInstall
 )
 {
-aCallback
-.
-onInstallEnded
+callCallback
 (
-uri
 UNSUPPORTED_TYPE
 )
 ;
@@ -634,6 +632,13 @@ mimetype
 aBrowser
 triggeringPrincipal
 aInstall
+{
+hasCrossOriginAncestor
+:
+aPayload
+.
+hasCrossOriginAncestor
+}
 )
 ;
 }

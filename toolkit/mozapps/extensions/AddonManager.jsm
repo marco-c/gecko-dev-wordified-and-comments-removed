@@ -7722,6 +7722,7 @@ aMimetype
 aBrowser
 aInstallingPrincipal
 aInstall
+aDetails
 )
 {
 if
@@ -7977,6 +7978,12 @@ return
 else
 if
 (
+aDetails
+?
+.
+hasCrossOriginAncestor
+|
+|
 aInstallingPrincipal
 .
 isNullPrincipal
@@ -8214,6 +8221,15 @@ startInstall
 "
 other
 "
+)
+(
+)
+=
+>
+aInstall
+.
+cancel
+(
 )
 )
 ;
@@ -14073,6 +14089,7 @@ aType
 aBrowser
 aInstallingPrincipal
 aInstall
+details
 )
 {
 AddonManagerInternal
@@ -14083,6 +14100,7 @@ aType
 aBrowser
 aInstallingPrincipal
 aInstall
+details
 )
 ;
 }
