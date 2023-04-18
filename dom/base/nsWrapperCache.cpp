@@ -358,12 +358,10 @@ void
 )
 NoteJSChild
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 aChild
 )
 override
