@@ -5287,6 +5287,12 @@ aIncludeDefaults
 ;
 if
 (
+attrs
+&
+&
+lastAttrs
+&
+&
 !
 attrs
 -
@@ -5400,6 +5406,12 @@ aIncludeDefaults
 ;
 if
 (
+attrs
+&
+&
+lastAttrs
+&
+&
 !
 attrs
 -
