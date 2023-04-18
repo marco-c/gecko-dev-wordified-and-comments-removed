@@ -7,6 +7,8 @@ import
 os
 import
 sys
+import
+warnings
 from
 recommonmark
 .
@@ -700,6 +702,36 @@ True
 }
         
 True
+    
+)
+    
+warnings
+.
+filterwarnings
+(
+        
+action
+=
+"
+ignore
+"
+        
+category
+=
+UserWarning
+        
+message
+=
+r
+"
+.
+*
+Container
+node
+skipped
+.
+*
+"
     
 )
     
