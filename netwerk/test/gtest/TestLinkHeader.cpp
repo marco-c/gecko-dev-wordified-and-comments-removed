@@ -2838,7 +2838,7 @@ _ns
 }
 }
 ;
-INSTANTIATE_TEST_SUITE_P
+INSTANTIATE_TEST_CASE_P
 (
 TestLinkHeader
 SimpleParseTest

@@ -274,7 +274,7 @@ CheckedUnsafePtrTest
 {
 }
 ;
-TYPED_TEST_SUITE_P
+TYPED_TEST_CASE_P
 (
 TypedCheckedUnsafePtrTest
 )
@@ -571,7 +571,7 @@ dangling2
 )
 ;
 }
-REGISTER_TYPED_TEST_SUITE_P
+REGISTER_TYPED_TEST_CASE_P
 (
 TypedCheckedUnsafePtrTest
 PointeeWithOneCheckedUnsafePtr
@@ -596,7 +596,7 @@ BasePointee
 DerivedPointee
 >
 ;
-INSTANTIATE_TYPED_TEST_SUITE_P
+INSTANTIATE_TYPED_TEST_CASE_P
 (
 InstantiationOf
 TypedCheckedUnsafePtrTest
