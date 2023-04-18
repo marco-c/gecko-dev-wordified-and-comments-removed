@@ -35,6 +35,11 @@ Ci
 nsIUtilityProcessTest
 )
 ;
+const
+kGenericUtility
+=
+0x0
+;
 function
 startUtilityProcess
 (
