@@ -25,6 +25,3 @@ patch
 allow_ntpath_in_SignedPolicy_GenerateRules
 .
 patch
-linux_32bit_arg_fixup
-.
-patch
