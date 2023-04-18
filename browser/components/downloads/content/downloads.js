@@ -1805,6 +1805,14 @@ DownloadsView
 .
 richListBox
 .
+selectedIndex
+=
+0
+;
+DownloadsView
+.
+richListBox
+.
 focus
 (
 )
