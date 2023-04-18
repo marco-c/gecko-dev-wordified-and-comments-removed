@@ -477,9 +477,6 @@ allFrames
 |
 |
 false
-checkPermissions
-:
-true
 cssPaths
 :
 details
@@ -514,11 +511,6 @@ matches
 originAttributesPatterns
 :
 null
-persistAcrossSessions
-:
-details
-.
-persistAcrossSessions
 runAt
 :
 details
@@ -529,6 +521,11 @@ runAt
 "
 document_idle
 "
+persistAcrossSessions
+:
+details
+.
+persistAcrossSessions
 }
 }
 ;
