@@ -2140,6 +2140,12 @@ cache_path
 return
 None
         
+node_name
+=
+"
+node
+"
+        
 if
 platform
 .
@@ -2152,6 +2158,14 @@ system
 Windows
 "
 :
+            
+node_name
+=
+"
+node
+.
+exe
+"
             
 node_exe_path
 =
@@ -2223,9 +2237,7 @@ path
 join
 (
 node_exe_path
-"
-node
-"
+node_name
 )
         
 if
