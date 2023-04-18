@@ -604,6 +604,16 @@ nodiscard
 ]
 ]
 bool
+prepareForSpreadArguments
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 wantSpreadOperand
 (
 )
