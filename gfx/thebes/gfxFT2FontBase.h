@@ -679,6 +679,10 @@ GlyphMetrics
 >
 >
 mGlyphMetrics
+GUARDED_BY
+(
+mLock
+)
 ;
 }
 ;
