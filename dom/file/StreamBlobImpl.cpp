@@ -75,6 +75,13 @@ h
 #
 include
 "
+nsIEventTarget
+.
+h
+"
+#
+include
+"
 nsIPipe
 .
 h
