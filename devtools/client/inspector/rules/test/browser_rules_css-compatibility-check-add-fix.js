@@ -13,10 +13,10 @@ id
 "
 chrome
 "
-status
+version
 :
 "
-current
+84
 "
 }
 {
@@ -25,10 +25,10 @@ id
 "
 safari_ios
 "
-status
+version
 :
 "
-current
+13
 "
 }
 ]
