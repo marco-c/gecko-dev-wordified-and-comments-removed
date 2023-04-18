@@ -1341,15 +1341,6 @@ return
 mColorSpace
 ;
 }
-bool
-IsFullRange
-(
-)
-{
-return
-true
-;
-}
 DMABufSurfaceYUV
 (
 )
