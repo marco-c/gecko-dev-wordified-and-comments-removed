@@ -1543,6 +1543,12 @@ NOTIFY_STATE_WINDOW
 ;
 browser
 .
+mute
+(
+)
+;
+browser
+.
 addEventListener
 (
 "
