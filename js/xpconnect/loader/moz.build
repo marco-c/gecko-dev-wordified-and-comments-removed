@@ -18,6 +18,11 @@ ComponentModuleLoader
 cpp
 "
 "
+JSMEnvironmentProxy
+.
+cpp
+"
+"
 ModuleEnvironmentProxy
 .
 cpp
