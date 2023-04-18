@@ -851,7 +851,7 @@ namespace
 {
 min
 :
-49
+45
 max
 :
 55
@@ -871,7 +871,7 @@ display_profile
 {
 min
 :
-49
+45
 max
 :
 50
