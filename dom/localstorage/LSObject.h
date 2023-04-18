@@ -238,12 +238,6 @@ mInExplicitSnapshot
 public
 :
 static
-void
-Initialize
-(
-)
-;
-static
 nsresult
 CreateForWindow
 (
