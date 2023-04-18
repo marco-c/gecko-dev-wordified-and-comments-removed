@@ -416,7 +416,6 @@ test_timestamp
 (
 bidi_session
 current_session
-current_time
 wait_for_event
 )
 :
@@ -452,8 +451,17 @@ entryAdded
     
 time_start
 =
-current_time
+math
+.
+floor
 (
+time
+.
+time
+(
+)
+*
+1000
 )
     
 current_session
@@ -513,8 +521,17 @@ on_entry_added
     
 time_end
 =
-current_time
+math
+.
+ceil
 (
+time
+.
+time
+(
+)
+*
+1000
 )
     
 assert_console_entry

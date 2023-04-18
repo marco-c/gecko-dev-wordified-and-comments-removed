@@ -1975,14 +1975,6 @@ tests
 -
 reftest
 -
-web
--
-platform
--
-tests
--
-wdspec
--
 xpcshell
 android
 -
