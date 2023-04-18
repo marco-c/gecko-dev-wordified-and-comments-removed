@@ -47,6 +47,11 @@ untar
 unzip
 get_download_to_descriptor
 sha256sum
+from
+.
+wpt
+import
+venv_dir
 uname
 =
 platform
@@ -312,7 +317,7 @@ logger
 logger
     
 def
-_get_dest
+_get_browser_binary_dir
 (
 self
 dest
@@ -339,9 +344,9 @@ os
 getcwd
 (
 )
-"
-_venv
-"
+venv_dir
+(
+)
 )
         
 dest
@@ -1166,7 +1171,7 @@ dest
 =
 self
 .
-_get_dest
+_get_browser_binary_dir
 (
 None
 channel
@@ -1466,7 +1471,7 @@ dest
 =
 self
 .
-_get_dest
+_get_browser_binary_dir
 (
 dest
 channel
@@ -1648,23 +1653,11 @@ None
             
 path
 =
-os
+self
 .
-path
-.
-join
+_get_browser_binary_dir
 (
-os
-.
-getcwd
-(
-)
-"
-_venv
-"
-"
-browsers
-"
+None
 channel
 )
         
@@ -1807,42 +1800,13 @@ nightly
 )
 :
         
-if
-venv_path
-is
-None
-:
-            
-venv_path
-=
-os
-.
-path
-.
-join
-(
-os
-.
-getcwd
-(
-)
-"
-_venv
-"
-)
-        
 path
 =
-os
+self
 .
-path
-.
-join
+_get_browser_binary_dir
 (
 venv_path
-"
-browsers
-"
 channel
 )
         
@@ -4206,7 +4170,7 @@ dest
 =
 self
 .
-_get_dest
+_get_browser_binary_dir
 (
 None
 channel
@@ -4341,7 +4305,7 @@ dest
 =
 self
 .
-_get_dest
+_get_browser_binary_dir
 (
 dest
 channel
@@ -5087,7 +5051,7 @@ find_nightly_binary
 (
 self
 .
-_get_dest
+_get_browser_binary_dir
 (
 venv_path
 channel
@@ -11564,7 +11528,7 @@ dest
 =
 self
 .
-_get_dest
+_get_browser_binary_dir
 (
 None
 channel
@@ -11750,7 +11714,7 @@ dest
 =
 self
 .
-_get_dest
+_get_browser_binary_dir
 (
 dest
 channel
@@ -12026,7 +11990,7 @@ venv_base_path
 =
 self
 .
-_get_dest
+_get_browser_binary_dir
 (
 venv_path
 channel

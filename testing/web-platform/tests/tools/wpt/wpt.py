@@ -1029,19 +1029,18 @@ venv_dir
 :
     
 return
+f
 "
 _venv
-"
-+
-str
-(
+{
 sys
 .
 version_info
 [
 0
 ]
-)
+}
+"
 def
 setup_virtualenv
 (

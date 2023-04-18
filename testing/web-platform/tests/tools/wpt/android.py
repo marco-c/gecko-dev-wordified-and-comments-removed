@@ -10,6 +10,11 @@ import
 subprocess
 import
 requests
+from
+.
+wpt
+import
+venv_dir
 android_device
 =
 None
@@ -186,9 +191,9 @@ path
 join
 (
 wpt_root
-"
-_venv
-"
+venv_dir
+(
+)
 )
     
 dest
