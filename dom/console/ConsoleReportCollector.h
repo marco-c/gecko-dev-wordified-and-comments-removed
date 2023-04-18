@@ -307,13 +307,16 @@ mStringParams
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 nsTArray
 <
 PendingReport
 >
 mPendingReports
+GUARDED_BY
+(
+mMutex
+)
 ;
 public
 :
