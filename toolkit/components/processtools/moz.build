@@ -76,6 +76,11 @@ ProcessToolsService
 .
 cpp
 "
+"
+ProcInfo_common
+.
+cpp
+"
 ]
 FINAL_LIBRARY
 =
