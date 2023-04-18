@@ -2355,13 +2355,13 @@ bool
 aCloneSHChildren
 )
 ;
+public
+:
 void
 CollectWireframe
 (
 )
 ;
-public
-:
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 EndPageLoad

@@ -4979,6 +4979,9 @@ node
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 Wireframe
 {
