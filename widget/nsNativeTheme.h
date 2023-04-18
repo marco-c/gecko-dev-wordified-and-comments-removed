@@ -509,14 +509,6 @@ bool
 aLeftOfParent
 )
 ;
-bool
-IsRegularMenuItem
-(
-nsIFrame
-*
-aFrame
-)
-;
 static
 bool
 CheckBooleanAttr
