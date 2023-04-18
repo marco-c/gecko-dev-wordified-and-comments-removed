@@ -1243,6 +1243,14 @@ return
 true
 ;
 }
+isSkippable
+(
+)
+{
+return
+true
+;
+}
 }
 class
 CompanionAd
