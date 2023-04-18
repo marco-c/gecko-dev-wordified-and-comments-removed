@@ -490,9 +490,7 @@ v128
 ;
 assert_throws_js
 (
-WebAssembly
-.
-LinkError
+TypeError
 (
 )
 =
