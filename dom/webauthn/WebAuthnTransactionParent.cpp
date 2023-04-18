@@ -56,8 +56,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 mozilla
@@ -602,6 +602,5 @@ this
 }
 #
 endif
-}
 }
 }

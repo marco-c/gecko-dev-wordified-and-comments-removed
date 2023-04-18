@@ -24,8 +24,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -179,7 +179,6 @@ mCounter
 ;
 }
 ;
-}
 }
 #
 endif

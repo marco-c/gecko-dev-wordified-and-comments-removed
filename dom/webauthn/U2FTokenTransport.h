@@ -26,8 +26,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 typedef
@@ -123,7 +123,6 @@ default
 ;
 }
 ;
-}
 }
 #
 endif

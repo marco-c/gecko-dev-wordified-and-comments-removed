@@ -80,8 +80,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 constexpr
@@ -672,6 +672,5 @@ HandleVisibilityChange
 return
 NS_OK
 ;
-}
 }
 }

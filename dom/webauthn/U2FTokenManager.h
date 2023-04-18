@@ -44,8 +44,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -318,7 +318,6 @@ mPendingRegisterInfo
 ;
 }
 ;
-}
 }
 #
 endif

@@ -79,8 +79,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -3567,7 +3567,6 @@ iter
 second
 )
 ;
-}
 }
 }
 }

@@ -49,8 +49,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -1914,6 +1914,5 @@ result
 __func__
 )
 ;
-}
 }
 }

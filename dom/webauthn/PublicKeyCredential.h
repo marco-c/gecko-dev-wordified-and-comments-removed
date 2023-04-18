@@ -71,8 +71,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -249,7 +249,6 @@ mClientExtensionOutputs
 ;
 }
 ;
-}
 }
 #
 endif

@@ -186,8 +186,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -3923,6 +3923,5 @@ CancelTransaction
 NS_ERROR_DOM_ABORT_ERR
 )
 ;
-}
 }
 }

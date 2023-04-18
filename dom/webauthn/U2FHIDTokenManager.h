@@ -30,8 +30,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -709,7 +709,6 @@ mSignPromise
 ;
 }
 ;
-}
 }
 #
 endif

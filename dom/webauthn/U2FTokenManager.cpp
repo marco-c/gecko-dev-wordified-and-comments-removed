@@ -229,8 +229,8 @@ webauthn_enable_android_fido2
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -2550,6 +2550,5 @@ aTransactionId
 NS_ERROR_DOM_ABORT_ERR
 )
 ;
-}
 }
 }

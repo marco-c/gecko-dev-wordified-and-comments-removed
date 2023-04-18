@@ -30,8 +30,8 @@ nsPIDOMWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -168,7 +168,6 @@ mChild
 ;
 }
 ;
-}
 }
 #
 endif

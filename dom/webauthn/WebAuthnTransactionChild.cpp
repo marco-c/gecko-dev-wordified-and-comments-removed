@@ -11,8 +11,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 WebAuthnTransactionChild
@@ -270,6 +270,5 @@ SendDestroyMe
 (
 )
 ;
-}
 }
 }

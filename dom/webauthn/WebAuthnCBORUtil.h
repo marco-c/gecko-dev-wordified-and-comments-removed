@@ -17,8 +17,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsresult
@@ -65,7 +65,6 @@ CryptoBuffer
 aAttestationObj
 )
 ;
-}
 }
 #
 endif

@@ -104,8 +104,8 @@ softtoken_counter
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -5143,6 +5143,5 @@ Cancel
 (
 )
 {
-}
 }
 }

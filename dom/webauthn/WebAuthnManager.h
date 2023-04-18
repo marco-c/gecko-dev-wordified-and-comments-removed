@@ -57,8 +57,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -376,7 +376,6 @@ aTransaction
 mPromise
 )
 ;
-}
 }
 }
 #

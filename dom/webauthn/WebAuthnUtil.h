@@ -46,8 +46,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -211,7 +211,6 @@ CryptoBuffer
 aClientDataHash
 )
 ;
-}
 }
 namespace
 IPC

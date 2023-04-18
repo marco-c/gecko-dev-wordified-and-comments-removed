@@ -17,8 +17,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -37,7 +37,6 @@ RS256
 257
 }
 ;
-}
 }
 #
 endif

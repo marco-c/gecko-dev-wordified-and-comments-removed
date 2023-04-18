@@ -73,8 +73,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 constexpr
@@ -2104,6 +2104,5 @@ NS_ERROR_FAILURE
 return
 NS_OK
 ;
-}
 }
 }
