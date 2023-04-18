@@ -76,6 +76,7 @@ const
 {
 CanonicalBrowsingContext
 BrowsingContext
+WebExtensionPolicy
 WindowGlobalParent
 WindowGlobalChild
 console
@@ -676,6 +677,7 @@ Blob
 btoa
 CanonicalBrowsingContext
 BrowsingContext
+WebExtensionPolicy
 WindowGlobalParent
 WindowGlobalChild
 console

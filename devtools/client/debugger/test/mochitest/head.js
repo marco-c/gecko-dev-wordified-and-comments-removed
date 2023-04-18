@@ -392,6 +392,14 @@ loadExtension
 manifest
 :
 {
+name
+:
+"
+Test
+content
+script
+extension
+"
 content_scripts
 :
 [
