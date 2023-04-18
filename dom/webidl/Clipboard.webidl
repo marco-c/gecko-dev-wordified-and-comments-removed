@@ -151,15 +151,6 @@ SecureContext
 Exposed
 =
 Window
-Pref
-=
-"
-dom
-.
-events
-.
-asyncClipboard
-"
 ]
 interface
 Clipboard

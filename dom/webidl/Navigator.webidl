@@ -2171,15 +2171,6 @@ interface
 Navigator
 {
 [
-Pref
-=
-"
-dom
-.
-events
-.
-asyncClipboard
-"
 SecureContext
 SameObject
 ]
