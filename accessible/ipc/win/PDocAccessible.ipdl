@@ -546,6 +546,15 @@ aSelected
 )
 ;
 async
+ScrollTo
+(
+uint64_t
+aID
+uint32_t
+aScrollType
+)
+;
+async
 VerifyCache
 (
 uint64_t

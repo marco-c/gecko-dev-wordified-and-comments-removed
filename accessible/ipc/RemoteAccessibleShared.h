@@ -127,13 +127,6 @@ GroupPosition
 override
 ;
 void
-ScrollTo
-(
-uint32_t
-aScrollType
-)
-;
-void
 ScrollToPoint
 (
 uint32_t
