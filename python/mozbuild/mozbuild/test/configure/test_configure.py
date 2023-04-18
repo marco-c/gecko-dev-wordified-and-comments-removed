@@ -2269,6 +2269,48 @@ foo
 sys
 )
         
+os_path
+=
+{
+}
+        
+exec_
+(
+"
+from
+os
+.
+path
+import
+*
+"
+{
+}
+os_path
+)
+        
+os_path
+.
+update
+(
+sandbox
+.
+OS
+.
+path
+.
+__dict__
+)
+        
+os_path
+=
+ReadOnlyNamespace
+(
+*
+*
+os_path
+)
+        
 exec_
 (
             
@@ -2317,7 +2359,7 @@ sandbox
         
 self
 .
-assertIs
+assertEquals
 (
 sandbox
 [
@@ -2327,9 +2369,7 @@ foo
 ]
 (
 )
-os
-.
-path
+os_path
 )
         
 exec_
@@ -2385,7 +2425,7 @@ sandbox
         
 self
 .
-assertIs
+assertEquals
 (
 sandbox
 [
@@ -2395,9 +2435,7 @@ foo
 ]
 (
 )
-os
-.
-path
+os_path
 )
         
 exec_
