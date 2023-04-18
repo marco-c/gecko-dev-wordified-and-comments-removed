@@ -13042,13 +13042,6 @@ mWorkerPrivate
 this
 )
 ;
-debugScope
--
->
-mWorkerPrivate
-=
-nullptr
-;
 }
 RefPtr
 <
