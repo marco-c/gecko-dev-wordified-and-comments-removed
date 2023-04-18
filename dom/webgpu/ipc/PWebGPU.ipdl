@@ -509,6 +509,15 @@ MaybeScopedError
 maybeError
 )
 ;
+async
+GenerateError
+(
+RawId
+deviceId
+nsCString
+message
+)
+;
 child
 :
 async
