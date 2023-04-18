@@ -66,6 +66,11 @@ namespace
 userScripts
 "
 "
+max_manifest_version
+"
+:
+2
+"
 permissions
 "
 :

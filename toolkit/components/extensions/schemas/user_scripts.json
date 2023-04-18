@@ -96,6 +96,11 @@ type
 object
 "
 "
+max_manifest_version
+"
+:
+2
+"
 optional
 "
 :
@@ -152,6 +157,11 @@ namespace
 "
 userScripts
 "
+"
+max_manifest_version
+"
+:
+2
 "
 permissions
 "
