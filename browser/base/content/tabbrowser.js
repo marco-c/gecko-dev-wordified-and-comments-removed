@@ -12231,6 +12231,12 @@ leftoverTab
 )
 ;
 }
+TabBarVisibility
+.
+update
+(
+)
+;
 if
 (
 tabs
@@ -12260,12 +12266,6 @@ this
 tabContainer
 .
 _setPositionalAttributes
-(
-)
-;
-TabBarVisibility
-.
-update
 (
 )
 ;
