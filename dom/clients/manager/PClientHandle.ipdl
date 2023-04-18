@@ -65,10 +65,6 @@ protocol
 PClientHandleOp
 ;
 include
-protocol
-PRemoteLazyInputStream
-;
-include
 ClientIPCTypes
 ;
 include

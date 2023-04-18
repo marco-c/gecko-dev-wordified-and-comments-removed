@@ -61,10 +61,6 @@ protocol
 PBackground
 ;
 include
-protocol
-PRemoteLazyInputStream
-;
-include
 IPCBlob
 ;
 namespace
