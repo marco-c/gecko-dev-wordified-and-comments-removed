@@ -170,6 +170,11 @@ Max
 Unknown
 }
 ;
+int
+GetCycleTimeFrequencyMHz
+(
+)
+;
 struct
 ThreadInfo
 {

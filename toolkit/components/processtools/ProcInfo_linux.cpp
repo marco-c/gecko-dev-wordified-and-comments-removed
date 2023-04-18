@@ -91,6 +91,15 @@ NANOPERSEC
 namespace
 mozilla
 {
+int
+GetCycleTimeFrequencyMHz
+(
+)
+{
+return
+0
+;
+}
 class
 StatReader
 {

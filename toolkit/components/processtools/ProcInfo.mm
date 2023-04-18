@@ -196,6 +196,15 @@ return
 NS_OK
 ;
 }
+int
+GetCycleTimeFrequencyMHz
+(
+)
+{
+return
+0
+;
+}
 ProcInfoPromise
 :
 :
