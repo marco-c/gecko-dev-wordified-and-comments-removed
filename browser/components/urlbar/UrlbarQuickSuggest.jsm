@@ -760,6 +760,11 @@ maybeShowOnboardingDialog
 (
 )
 {
+await
+UrlbarPrefs
+.
+firefoxSuggestScenarioStartupPromise
+;
 if
 (
 !
