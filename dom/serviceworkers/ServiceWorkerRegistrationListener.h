@@ -6,8 +6,8 @@ define
 mozilla_dom_ServiceWorkerRegistrationListener_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -73,7 +73,6 @@ aDescriptor
 ;
 }
 ;
-}
 }
 #
 endif

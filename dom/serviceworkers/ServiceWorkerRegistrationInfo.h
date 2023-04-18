@@ -69,8 +69,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -769,7 +769,6 @@ CheckQuotaUsage
 ;
 }
 ;
-}
 }
 #
 endif

@@ -55,8 +55,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -3965,6 +3965,5 @@ Scope
 )
 )
 ;
-}
 }
 }

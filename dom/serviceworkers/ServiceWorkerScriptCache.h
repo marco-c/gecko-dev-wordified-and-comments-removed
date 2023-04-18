@@ -33,8 +33,8 @@ nsIPrincipal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -127,7 +127,6 @@ CompareCallback
 aCallback
 )
 ;
-}
 }
 }
 #

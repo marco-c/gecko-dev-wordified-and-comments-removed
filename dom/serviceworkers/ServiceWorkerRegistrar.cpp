@@ -343,8 +343,8 @@ _args
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -6840,6 +6840,5 @@ topic
 return
 NS_ERROR_UNEXPECTED
 ;
-}
 }
 }

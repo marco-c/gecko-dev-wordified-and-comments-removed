@@ -84,8 +84,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ISUPPORTS
@@ -1222,6 +1222,5 @@ nsITimer
 TYPE_ONE_SHOT
 )
 ;
-}
 }
 }

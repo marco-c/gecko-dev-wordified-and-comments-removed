@@ -451,8 +451,8 @@ dom
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -9561,6 +9561,5 @@ SetHandlesFetch
 aValue
 )
 ;
-}
 }
 }

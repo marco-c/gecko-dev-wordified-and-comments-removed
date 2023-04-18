@@ -40,8 +40,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -1537,6 +1537,5 @@ return
 *
 mData
 ;
-}
 }
 }

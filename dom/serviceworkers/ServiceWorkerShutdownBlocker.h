@@ -77,8 +77,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -275,7 +275,6 @@ mServiceWorkerManager
 ;
 }
 ;
-}
 }
 #
 endif

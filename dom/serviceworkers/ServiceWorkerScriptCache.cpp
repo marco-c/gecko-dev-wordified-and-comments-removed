@@ -290,11 +290,11 @@ PrincipalInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 serviceWorkerScriptCache
 {
 namespace
@@ -6561,7 +6561,5 @@ rv
 return
 NS_OK
 ;
-}
-}
 }
 }

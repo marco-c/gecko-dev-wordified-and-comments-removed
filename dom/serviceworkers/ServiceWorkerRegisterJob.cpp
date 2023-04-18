@@ -25,8 +25,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ServiceWorkerRegisterJob
@@ -253,7 +253,7 @@ ServiceWorkerRegisterJob
 ServiceWorkerRegisterJob
 (
 )
-{
-}
-}
+=
+default
+;
 }

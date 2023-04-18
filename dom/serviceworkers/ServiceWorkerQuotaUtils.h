@@ -17,8 +17,8 @@ nsIQuotaUsageRequest
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -47,7 +47,6 @@ ServiceWorkerQuotaMitigationCallback
 aCallback
 )
 ;
-}
 }
 #
 endif
