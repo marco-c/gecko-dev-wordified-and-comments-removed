@@ -2538,12 +2538,6 @@ return
 ret
 ;
 }
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 static
 void
 *
@@ -2552,8 +2546,6 @@ gStartAddressesToBlock
 4
 ]
 ;
-#
-endif
 static
 bool
 ShouldBlockThread
@@ -2575,12 +2567,6 @@ return
 false
 ;
 }
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 for
 (
 auto
@@ -2602,8 +2588,6 @@ true
 ;
 }
 }
-#
-endif
 bool
 shouldBlock
 =
@@ -2873,12 +2857,6 @@ n
 endif
 }
 }
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 HMODULE
 hKernel
 =
@@ -2986,8 +2964,6 @@ gStartAddressesToBlock
 pProc
 ;
 }
-#
-endif
 if
 (
 aInitFlags
