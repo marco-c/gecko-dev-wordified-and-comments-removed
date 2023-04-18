@@ -796,10 +796,6 @@ true
 #
 ifdef
 DEBUG
-offThreadParsesRunning_
-(
-0
-)
 offThreadParsingBlocked_
 (
 false
@@ -931,14 +927,6 @@ lock
 empty
 (
 )
-)
-;
-MOZ_ASSERT
-(
-offThreadParsesRunning_
-=
-=
-0
 )
 ;
 MOZ_ASSERT
