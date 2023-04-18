@@ -146,6 +146,15 @@ ALL
 "
 all
 "
+TOP_BROWSING_CONTEXT
+:
+"
+top
+-
+browsing
+-
+context
+"
 }
 ;
 class

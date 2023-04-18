@@ -105,6 +105,7 @@ testBroadcast
 "
 {
 }
+contextDescriptorAll
 rootMessageHandler
 )
 ;
