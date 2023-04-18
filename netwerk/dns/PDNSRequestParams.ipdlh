@@ -59,6 +59,9 @@ isTRR
 uint32_t
 effectiveTRRMode
 ;
+uint32_t
+ttl
+;
 }
 ;
 union
