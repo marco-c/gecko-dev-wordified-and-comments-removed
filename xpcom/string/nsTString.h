@@ -805,9 +805,6 @@ aIndex
 )
 ;
 }
-#
-if
-MOZ_STRING_WITH_OBSOLETE_API
 int32_t
 Find
 (
@@ -1584,8 +1581,6 @@ aEliminateTrailing
 true
 )
 ;
-#
-endif
 void
 Rebind
 (

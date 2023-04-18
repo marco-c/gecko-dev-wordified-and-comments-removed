@@ -15,9 +15,6 @@ nsString
 h
 "
 #
-if
-MOZ_STRING_WITH_OBSOLETE_API
-#
 include
 "
 nsDependentString
@@ -4094,5 +4091,3 @@ nsTString
 char16_t
 >
 ;
-#
-endif
