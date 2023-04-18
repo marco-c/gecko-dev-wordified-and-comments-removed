@@ -509,9 +509,6 @@ GetStreamParser
 SetDocumentCharset
 (
 aEncoding
-(
-nsCharsetSource
-)
 aCharsetSource
 aForceAutoDetection
 )
@@ -2754,7 +2751,7 @@ GetStreamParser
 )
 -
 >
-ContinueAfterScriptsOrEncodingCommitment
+ContinueAfterScripts
 (
 mTokenizer
 .
