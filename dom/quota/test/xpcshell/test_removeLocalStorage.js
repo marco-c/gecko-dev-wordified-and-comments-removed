@@ -66,9 +66,9 @@ dom
 .
 storage
 .
-next_gen
+enable_unsupported_legacy_implementation
 "
-false
+true
 )
 ;
 info
