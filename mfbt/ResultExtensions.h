@@ -935,7 +935,7 @@ typename
 Args
 >
 auto
-ToResultInvokeMemberFunction
+ToResultInvokeMemberInternal
 (
 T
 &
@@ -1276,7 +1276,7 @@ return
 detail
 :
 :
-ToResultInvokeMemberFunction
+ToResultInvokeMemberInternal
 <
 E
 detail
@@ -1381,7 +1381,7 @@ return
 detail
 :
 :
-ToResultInvokeMemberFunction
+ToResultInvokeMemberInternal
 <
 E
 detail
@@ -1894,7 +1894,7 @@ return
 detail
 :
 :
-ToResultInvokeMemberFunction
+ToResultInvokeMemberInternal
 <
 E
 detail
@@ -2000,7 +2000,7 @@ return
 detail
 :
 :
-ToResultInvokeMemberFunction
+ToResultInvokeMemberInternal
 <
 E
 detail
