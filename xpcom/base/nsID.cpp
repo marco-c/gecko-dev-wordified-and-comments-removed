@@ -15,6 +15,13 @@ h
 #
 include
 "
+MainThreadUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -112,6 +119,12 @@ aLength
 ;
 if
 (
+!
+NS_IsMainThread
+(
+)
+|
+|
 !
 NSS_IsInitialized
 (
