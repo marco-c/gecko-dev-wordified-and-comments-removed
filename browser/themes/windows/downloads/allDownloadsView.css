@@ -235,7 +235,15 @@ file
 .
 *
 /
-itemFocused
+#
+downloadsListBox
+:
+focus
+>
+richlistitem
+[
+selected
+]
 {
 color
 :
