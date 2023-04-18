@@ -4650,10 +4650,16 @@ forget
 (
 )
 processedOutputChannelPointersConst
+static_cast
+<
+int32_t
+>
+(
 mPacketizerInput
 -
 >
 mPacketSize
+)
 mPrincipal
 )
 ;
