@@ -1365,6 +1365,15 @@ root
 true
 ]
 ]
+skip_if
+:
+(
+)
+=
+>
+AppConstants
+.
+MOZ_REQUIRE_SIGNING
 }
 async
 function
