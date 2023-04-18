@@ -721,7 +721,7 @@ WM_GETOBJECT
 &
 static_cast
 <
-DWORD
+LONG
 >
 (
 aLParam
