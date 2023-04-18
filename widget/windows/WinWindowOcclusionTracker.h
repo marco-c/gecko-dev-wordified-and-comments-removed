@@ -27,6 +27,13 @@ vector
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ThreadSafeWeakPtr
@@ -637,8 +644,7 @@ std
 unordered_map
 <
 HWND
-nsBaseWidget
-*
+nsWeakPtr
 >
 mHwndRootWindowMap
 ;
