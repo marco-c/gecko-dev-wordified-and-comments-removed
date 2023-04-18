@@ -1959,16 +1959,6 @@ if
 p
 )
 {
-MOZ_CRASH
-(
-"
-Cannot
-get
-no
-ProcessFields
-"
-)
-;
 return
 ;
 }
