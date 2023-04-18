@@ -2408,6 +2408,12 @@ use
 crate
 :
 :
+HashState
+;
+use
+crate
+:
+:
 private
 :
 :
@@ -2436,6 +2442,7 @@ Lazy
 <
 BooleanMetric
 >
+HashState
 >
 >
 =
@@ -2454,9 +2461,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -2499,6 +2507,7 @@ LabeledMetric
 LabeledBooleanMetric
 >
 >
+HashState
 >
 >
 =
@@ -2517,9 +2526,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 2
+HashState
 )
 ;
 map
@@ -2578,6 +2588,7 @@ Lazy
 <
 CounterMetric
 >
+HashState
 >
 >
 =
@@ -2596,9 +2607,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -2641,6 +2653,7 @@ LabeledMetric
 LabeledCounterMetric
 >
 >
+HashState
 >
 >
 =
@@ -2659,9 +2672,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 2
+HashState
 )
 ;
 map
@@ -2720,6 +2734,7 @@ Lazy
 <
 StringMetric
 >
+HashState
 >
 >
 =
@@ -2738,9 +2753,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -2783,6 +2799,7 @@ LabeledMetric
 LabeledStringMetric
 >
 >
+HashState
 >
 >
 =
@@ -2801,9 +2818,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 2
+HashState
 )
 ;
 map
@@ -2862,6 +2880,7 @@ Lazy
 <
 StringListMetric
 >
+HashState
 >
 >
 =
@@ -2880,9 +2899,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -2922,6 +2942,7 @@ Lazy
 <
 TimespanMetric
 >
+HashState
 >
 >
 =
@@ -2940,9 +2961,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -2982,6 +3004,7 @@ Lazy
 <
 TimingDistributionMetric
 >
+HashState
 >
 >
 =
@@ -3000,9 +3023,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -3042,6 +3066,7 @@ Lazy
 <
 MemoryDistributionMetric
 >
+HashState
 >
 >
 =
@@ -3060,9 +3085,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -3102,6 +3128,7 @@ Lazy
 <
 CustomDistributionMetric
 >
+HashState
 >
 >
 =
@@ -3120,9 +3147,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -3162,6 +3190,7 @@ Lazy
 <
 UuidMetric
 >
+HashState
 >
 >
 =
@@ -3180,9 +3209,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -3222,6 +3252,7 @@ Lazy
 <
 DatetimeMetric
 >
+HashState
 >
 >
 =
@@ -3240,9 +3271,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -3282,6 +3314,7 @@ Lazy
 <
 QuantityMetric
 >
+HashState
 >
 >
 =
@@ -3300,9 +3333,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -3342,6 +3376,7 @@ Lazy
 <
 RateMetric
 >
+HashState
 >
 >
 =
@@ -3360,9 +3395,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -3402,6 +3438,7 @@ Lazy
 <
 NumeratorMetric
 >
+HashState
 >
 >
 =
@@ -3420,9 +3457,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -3462,6 +3500,7 @@ Lazy
 <
 DenominatorMetric
 >
+HashState
 >
 >
 =
@@ -3480,9 +3519,10 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 1
+HashState
 )
 ;
 map
@@ -4393,6 +4433,7 @@ u32
 String
 )
 u32
+HashState
 >
 >
 >
@@ -4412,8 +4453,9 @@ new
 HashMap
 :
 :
-new
+with_hasher
 (
+HashState
 )
 )
 )
@@ -4430,6 +4472,7 @@ HashMap
 <
 MetricId
 LabeledBooleanMetric
+HashState
 >
 >
 >
@@ -4449,8 +4492,9 @@ new
 HashMap
 :
 :
-new
+with_hasher
 (
+HashState
 )
 )
 )
@@ -4467,6 +4511,7 @@ HashMap
 <
 MetricId
 LabeledCounterMetric
+HashState
 >
 >
 >
@@ -4486,8 +4531,9 @@ new
 HashMap
 :
 :
-new
+with_hasher
 (
+HashState
 )
 )
 )
@@ -4504,6 +4550,7 @@ HashMap
 <
 MetricId
 LabeledStringMetric
+HashState
 >
 >
 >
@@ -4523,8 +4570,9 @@ new
 HashMap
 :
 :
-new
+with_hasher
 (
+HashState
 )
 )
 )
