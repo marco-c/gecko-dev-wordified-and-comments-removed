@@ -201,7 +201,7 @@ length
 extern
 JSAtom
 *
-PermanentlyAtomizeCharsNonStatic
+PermanentlyAtomizeCharsNonStaticValidLength
 (
 JSContext
 *
