@@ -132,6 +132,13 @@ UniquePtr
 .
 h
 "
+#
+include
+"
+ResolveResult
+.
+h
+"
 class
 nsIURI
 ;
@@ -974,10 +981,7 @@ ImportAssertionVector
 aValues
 )
 ;
-already_AddRefed
-<
-nsIURI
->
+ResolveResult
 ResolveModuleSpecifier
 (
 LoadedScript
@@ -1003,6 +1007,8 @@ const
 nsAString
 &
 aSpecifier
+ResolveError
+aError
 uint32_t
 aLineNumber
 uint32_t
@@ -1017,7 +1023,7 @@ JS
 :
 Value
 >
-errorOut
+aErrorOut
 )
 ;
 enum
