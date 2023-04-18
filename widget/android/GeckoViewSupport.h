@@ -305,8 +305,6 @@ String
 :
 Param
 aChromeURI
-int32_t
-aScreenId
 bool
 aPrivateMode
 )
