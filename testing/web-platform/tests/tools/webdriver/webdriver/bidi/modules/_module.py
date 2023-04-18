@@ -400,10 +400,21 @@ mod_name
 owner
 .
 __name__
+[
+0
+]
 .
 lower
 (
 )
++
+owner
+.
+__name__
+[
+1
+:
+]
             
 if
 hasattr
