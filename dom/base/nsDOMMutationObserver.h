@@ -2558,14 +2558,6 @@ nsMutationReceiver
 aReceiver
 )
 ;
-already_AddRefed
-<
-nsIVariant
->
-TakeRecords
-(
-)
-;
 void
 GetAllSubtreeObserversFor
 (
