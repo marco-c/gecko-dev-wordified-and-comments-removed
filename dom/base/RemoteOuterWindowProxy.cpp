@@ -41,6 +41,17 @@ mozilla
 /
 dom
 /
+ProxyHandlerUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 RemoteObjectProxy
 .
 h

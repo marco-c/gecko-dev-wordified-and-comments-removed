@@ -23,6 +23,17 @@ mozilla
 /
 dom
 /
+ProxyHandlerUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WindowBinding
 .
 h

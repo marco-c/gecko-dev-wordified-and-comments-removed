@@ -288,6 +288,17 @@ mozilla
 /
 dom
 /
+ProxyHandlerUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StorageEvent
 .
 h
