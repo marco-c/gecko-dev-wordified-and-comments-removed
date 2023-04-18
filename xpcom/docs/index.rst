@@ -61,6 +61,11 @@ safety
 huntingleaks
 collections
 xpidl
+writing
+-
+xpcom
+-
+interface
 dmd
 hashtables
 hashtables_detailed
