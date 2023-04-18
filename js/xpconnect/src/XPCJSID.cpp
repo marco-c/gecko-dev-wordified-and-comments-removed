@@ -2425,9 +2425,10 @@ JSLinearString
 *
 name
 =
-JSID_TO_LINEAR_STRING
-(
 id
+.
+toLinearString
+(
 )
 ;
 const
@@ -2565,9 +2566,10 @@ JSLinearString
 *
 name
 =
-JSID_TO_LINEAR_STRING
-(
 id
+.
+toLinearString
+(
 )
 ;
 const

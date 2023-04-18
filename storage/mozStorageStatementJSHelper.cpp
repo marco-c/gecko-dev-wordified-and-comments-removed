@@ -1103,9 +1103,10 @@ JSLinearString
 *
 str
 =
-JSID_TO_LINEAR_STRING
-(
 id
+.
+toLinearString
+(
 )
 ;
 if
