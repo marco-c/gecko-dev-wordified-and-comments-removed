@@ -961,6 +961,16 @@ aPref
 )
 ;
 static
+bool
+HasDefaultValue
+(
+const
+char
+*
+aPref
+)
+;
+static
 nsresult
 AddStrongObserver
 (
