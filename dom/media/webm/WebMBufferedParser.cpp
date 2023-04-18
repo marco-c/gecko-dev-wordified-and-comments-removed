@@ -2120,6 +2120,7 @@ GetTimecodeScale
 }
 }
 }
+PUSH_IGNORE_THREAD_SAFETY
 mRangeParsers
 [
 idx
@@ -2133,6 +2134,7 @@ mTimeMapping
 mReentrantMonitor
 )
 ;
+POP_THREAD_SAFETY
 uint32_t
 i
 =
