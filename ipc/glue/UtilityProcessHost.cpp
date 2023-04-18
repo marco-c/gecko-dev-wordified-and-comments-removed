@@ -927,6 +927,12 @@ SandboxingKind
 :
 GENERIC_UTILITY
 :
+case
+SandboxingKind
+:
+:
+UTILITY_AUDIO_DECODING
+:
 policy
 =
 SandboxBrokerPolicyFactory

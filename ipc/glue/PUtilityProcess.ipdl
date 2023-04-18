@@ -8,6 +8,10 @@ include
 protocol
 PProfiler
 ;
+include
+protocol
+PUtilityAudioDecoder
+;
 #
 if
 defined
@@ -168,6 +172,16 @@ returns
 (
 bool
 unused
+)
+;
+async
+StartUtilityAudioDecoderService
+(
+Endpoint
+<
+PUtilityAudioDecoderParent
+>
+aEndpoint
 )
 ;
 #

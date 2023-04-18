@@ -23,6 +23,7 @@ SandboxingKind
 uint64_t
 {
 GENERIC_UTILITY
+UTILITY_AUDIO_DECODING
 COUNT
 }
 ;
