@@ -276,6 +276,17 @@ include
 <
 algorithm
 >
+#
+if
+defined
+(
+small
+)
+#
+undef
+small
+#
+endif
 namespace
 mozilla
 {
