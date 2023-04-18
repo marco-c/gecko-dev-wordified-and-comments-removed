@@ -74,8 +74,7 @@ info
 children
 "
 ]
-=
-=
+is
 None
     
 assert
