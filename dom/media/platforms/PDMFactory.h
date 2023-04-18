@@ -261,6 +261,8 @@ const
 MediaCodecsSupported
 &
 aSupported
+RemoteDecodeIn
+aLocation
 )
 ;
 static
@@ -294,6 +296,11 @@ CreateGpuPDMs
 ;
 void
 CreateRddPDMs
+(
+)
+;
+void
+CreateUtilityPDMs
 (
 )
 ;
