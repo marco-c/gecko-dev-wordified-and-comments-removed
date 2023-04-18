@@ -604,9 +604,7 @@ chromedriver
                  
 adb_binary
 =
-"
-adb
-"
+None
                  
 remote_queue
 =
