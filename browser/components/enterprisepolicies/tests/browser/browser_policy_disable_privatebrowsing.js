@@ -55,7 +55,7 @@ add_task
 (
 async
 function
-test_menu_shown
+test_privatebrowsing_disabled
 (
 )
 {
@@ -123,6 +123,16 @@ BrowserTestUtils
 closeWindow
 (
 newWin
+)
+;
+await
+testPageBlockedByPolicy
+(
+"
+about
+:
+privatebrowsing
+"
 )
 ;
 }
