@@ -1329,6 +1329,15 @@ aMessage
 )
 ;
 bool
+IsEnabled
+(
+JSContext
+*
+aCx
+)
+const
+;
+bool
 ShouldProceed
 (
 MethodName
