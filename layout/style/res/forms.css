@@ -1719,8 +1719,6 @@ nowrap
 position
 :
 static
-!
-important
 ;
 background
 -
@@ -1734,8 +1732,6 @@ arrow
 gif
 "
 )
-!
-important
 ;
 background
 -
@@ -1744,16 +1740,12 @@ repeat
 no
 -
 repeat
-!
-important
 ;
 background
 -
 position
 :
 center
-!
-important
 ;
 appearance
 :
@@ -1800,8 +1792,6 @@ size
 :
 100
 %
-!
-important
 ;
 box
 -
@@ -1810,8 +1800,6 @@ sizing
 border
 -
 box
-!
-important
 ;
 /
 *
@@ -1860,8 +1848,6 @@ vertical
 align
 :
 top
-!
-important
 ;
 }
 select
