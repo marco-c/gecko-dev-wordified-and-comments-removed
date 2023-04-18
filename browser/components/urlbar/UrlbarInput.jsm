@@ -1646,6 +1646,9 @@ null
 dueToTabSwitch
 =
 false
+dueToSessionRestore
+=
+false
 )
 {
 let
@@ -1778,6 +1781,11 @@ blank
 valid
 =
 !
+dueToSessionRestore
+&
+&
+(
+!
 this
 .
 window
@@ -1799,6 +1807,7 @@ moz
 -
 extension
 "
+)
 )
 ;
 }

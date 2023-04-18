@@ -354,7 +354,7 @@ function
 {
 docShell
 .
-setCurrentURI
+setCurrentURIForSessionStore
 (
 Services
 .

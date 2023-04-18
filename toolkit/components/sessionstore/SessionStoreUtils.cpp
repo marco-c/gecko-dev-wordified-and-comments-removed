@@ -9098,7 +9098,7 @@ URI
 aDocShell
 -
 >
-SetCurrentURI
+SetCurrentURIForSessionStore
 (
 aState
 .
