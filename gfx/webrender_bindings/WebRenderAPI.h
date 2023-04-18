@@ -2227,6 +2227,8 @@ bool
 aIsBackfaceVisible
 bool
 aForceAntiAliasing
+bool
+aIsCheckerboard
 const
 wr
 :

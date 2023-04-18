@@ -13641,6 +13641,10 @@ mBounds
 (
 aBounds
 )
+mIsCheckerboardBackground
+(
+false
+)
 {
 NS_ASSERTION
 (
@@ -13726,6 +13730,16 @@ aStream
 )
 override
 ;
+void
+SetIsCheckerboardBackground
+(
+)
+{
+mIsCheckerboardBackground
+=
+true
+;
+}
 bool
 CreateWebRenderCommands
 (
@@ -13805,6 +13819,9 @@ private
 :
 nsRect
 mBounds
+;
+bool
+mIsCheckerboardBackground
 ;
 Maybe
 <
