@@ -34,13 +34,6 @@ compiler
 rt
 "
 "
-build_type
-"
-:
-"
-Release
-"
-"
 cc
 "
 :

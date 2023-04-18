@@ -12,13 +12,6 @@ build_wasm
 :
 true
 "
-build_type
-"
-:
-"
-Release
-"
-"
 osx_cross_compile
 "
 :
