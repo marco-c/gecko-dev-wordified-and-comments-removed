@@ -5496,6 +5496,16 @@ aRequest
 contentLength
 )
 ;
+aRequest
+.
+contentDisposition
+=
+Ci
+.
+nsIChannel
+.
+DISPOSITION_FORCE_INLINE
+;
 var
 contentLength
 =
