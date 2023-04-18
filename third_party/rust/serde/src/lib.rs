@@ -20,7 +20,7 @@ serde
 .
 0
 .
-136
+137
 "
 )
 ]
@@ -100,10 +100,8 @@ allow
 (
 unnested_or_patterns
 semicolon_if_nothing_returned
-checked_conversions
 empty_enum
-redundant_field_names
-redundant_static_lifetimes
+type_repetition_in_bounds
 cast_possible_truncation
 cast_possible_wrap
 cast_sign_loss
