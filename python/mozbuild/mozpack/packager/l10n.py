@@ -451,6 +451,16 @@ file
 )
 :
         
+base
+relpath
+=
+self
+.
+_get_base
+(
+path
+)
+        
 if
 path
 .
@@ -462,16 +472,6 @@ dic
 "
 )
 :
-            
-base
-relpath
-=
-self
-.
-_get_base
-(
-path
-)
             
 if
 relpath
@@ -569,6 +569,22 @@ dumps
 data
 )
 )
+        
+elif
+relpath
+.
+startswith
+(
+"
+META
+-
+INF
+/
+"
+)
+:
+            
+return
         
 super
 (
