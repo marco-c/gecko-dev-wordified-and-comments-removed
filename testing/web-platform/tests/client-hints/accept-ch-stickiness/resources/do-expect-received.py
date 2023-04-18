@@ -19,7 +19,6 @@ navigate
 here
 *
 do
-not
 *
 contain
 the
@@ -73,7 +72,7 @@ in
 request
 .
 headers
-or
+and
 b
 "
 sec
@@ -94,7 +93,7 @@ result
 =
 u
 "
-FAIL
+PASS
 "
     
 else
@@ -104,7 +103,7 @@ result
 =
 u
 "
-PASS
+FAIL
 "
     
 content
