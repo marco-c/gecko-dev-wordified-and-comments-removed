@@ -2438,10 +2438,6 @@ storageService
 OpenDatabase
 &
 aDBFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 IsDatabaseCorruptionError
 (
@@ -2551,10 +2547,6 @@ storageService
 OpenDatabase
 &
 aDBFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -3313,10 +3305,6 @@ mozIStorageConnection
 ss
 OpenDatabase
 databaseFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -3540,10 +3528,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 archiveFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 IsDatabaseCorruptionError
 ErrToDefaultOk
@@ -3967,10 +3951,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 shadowFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 IsDatabaseCorruptionError
 (
@@ -4021,10 +4001,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 shadowFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -4118,10 +4094,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 shadowFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -4262,10 +4234,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 shadowFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;

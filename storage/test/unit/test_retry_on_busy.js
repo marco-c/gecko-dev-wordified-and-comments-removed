@@ -50,9 +50,9 @@ function
 promiseAsyncDatabase
 (
 name
-openOptions
+options
 =
-0
+null
 )
 {
 return
@@ -74,15 +74,6 @@ getProfileFile
 name
 )
 ;
-const
-connOptions
-=
-Ci
-.
-mozIStorageService
-.
-CONNECTION_DEFAULT
-;
 Services
 .
 storage
@@ -90,8 +81,7 @@ storage
 openAsyncDatabase
 (
 file
-openOptions
-connOptions
+options
 (
 status
 connection

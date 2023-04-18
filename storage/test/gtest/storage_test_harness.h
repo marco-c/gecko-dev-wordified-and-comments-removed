@@ -316,10 +316,6 @@ kMozStorageMemoryStorageKey
 VoidCString
 (
 )
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 getter_AddRefs
 (
 conn
@@ -350,13 +346,6 @@ nsIFile
 aDBFile
 =
 nullptr
-uint32_t
-aConnectionFlags
-=
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 {
 nsCOMPtr
@@ -472,7 +461,6 @@ ss
 OpenDatabase
 (
 dbFile
-aConnectionFlags
 getter_AddRefs
 (
 conn

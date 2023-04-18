@@ -931,10 +931,6 @@ dbFileUrl
 "
 "
 _ns
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 IsDatabaseCorruptionError
 (
@@ -1004,10 +1000,6 @@ dbFileUrl
 "
 "
 _ns
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -1075,10 +1067,6 @@ dbFileUrl
 "
 "
 _ns
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;

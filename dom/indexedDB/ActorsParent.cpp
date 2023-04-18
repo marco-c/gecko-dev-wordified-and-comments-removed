@@ -3909,10 +3909,6 @@ OpenDatabaseWithFileURL
 &
 aFileURL
 telemetryFilename
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;

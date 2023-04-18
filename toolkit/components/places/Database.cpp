@@ -2510,10 +2510,6 @@ storage
 OpenUnsharedDatabase
 (
 databaseFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 getter_AddRefs
 (
 mMainConn
@@ -3044,10 +3040,6 @@ aStorage
 OpenUnsharedDatabase
 (
 databaseFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 getter_AddRefs
 (
 conn
@@ -3805,10 +3797,6 @@ aStorage
 OpenUnsharedDatabase
 (
 databaseFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 getter_AddRefs
 (
 mMainConn
@@ -4074,10 +4062,6 @@ aStorage
 OpenUnsharedDatabase
 (
 recoverFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 getter_AddRefs
 (
 conn
