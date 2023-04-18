@@ -151,6 +151,10 @@ testing
 /
 geckodriver
 -
+testing
+/
+xpcshell
+-
 gtest
 -
 tools
