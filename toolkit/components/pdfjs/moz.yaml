@@ -270,12 +270,12 @@ maintainer
 -
 phab
 :
-tjr
+calixte
 maintainer
 -
 bz
 :
-tom
+cdenizet
 mozilla
 .
 com
@@ -323,4 +323,9 @@ enabled
 true
 frequency
 :
-every
+"
+1
+week
+3
+commits
+"
