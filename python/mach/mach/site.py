@@ -1696,6 +1696,10 @@ SYSTEM
             
 _assert_pip_check
 (
+                
+self
+.
+_topsrcdir
 self
 .
 _sys_path
@@ -1707,6 +1711,7 @@ mach
 self
 .
 _requirements
+            
 )
             
 return
@@ -1737,6 +1742,10 @@ _virtualenv
 return
 _is_venv_up_to_date
 (
+                
+self
+.
+_topsrcdir
                 
 environment
                 
@@ -1968,6 +1977,10 @@ _virtualenv
         
 _create_venv_with_pthfile
 (
+            
+self
+.
+_topsrcdir
             
 environment
             
@@ -3101,6 +3114,10 @@ running
             
 _create_venv_with_pthfile
 (
+                
+self
+.
+_topsrcdir
                 
 self
 .
@@ -4267,6 +4284,10 @@ SYSTEM
 _assert_pip_check
 (
                 
+self
+.
+_topsrcdir
+                
 pthfile_lines
                 
 self
@@ -4289,6 +4310,10 @@ None
 return
 _is_venv_up_to_date
 (
+            
+self
+.
+_topsrcdir
             
 self
 .
@@ -6063,6 +6088,38 @@ packages
         
 )
 def
+_virtualenv_py_path
+(
+topsrcdir
+)
+:
+    
+return
+os
+.
+path
+.
+join
+(
+        
+topsrcdir
+"
+third_party
+"
+"
+python
+"
+"
+virtualenv
+"
+"
+virtualenv
+.
+py
+"
+    
+)
+def
 _resolve_installed_packages
 (
 python_executable
@@ -6155,6 +6212,7 @@ installed_packages
 def
 _assert_pip_check
 (
+topsrcdir
 pthfile_lines
 virtualenv_name
 requirements
@@ -6320,21 +6378,17 @@ sys
 .
 executable
                 
-"
--
-m
-"
-                
-"
-venv
-"
+_virtualenv_py_path
+(
+topsrcdir
+)
                 
 "
 -
 -
-without
+no
 -
-pip
+download
 "
                 
 check_env_path
@@ -6756,6 +6810,8 @@ def
 _create_venv_with_pthfile
 (
     
+topsrcdir
+    
 target_venv
     
 pthfile_lines
@@ -6815,25 +6871,23 @@ check_call
         
 [
             
-sys
+metadata
 .
-executable
+original_python
+.
+python_path
+            
+_virtualenv_py_path
+(
+topsrcdir
+)
             
 "
 -
-m
-"
-            
-"
-venv
-"
-            
-"
 -
+no
 -
-without
--
-pip
+seed
 "
             
 virtualenv_root
@@ -6939,6 +6993,8 @@ def
 _is_venv_up_to_date
 (
     
+topsrcdir
+    
 target_venv
     
 expected_pthfile_lines
@@ -6982,6 +7038,51 @@ exist
 '
 )
     
+virtualenv_package
+=
+os
+.
+path
+.
+join
+(
+        
+topsrcdir
+        
+"
+third_party
+"
+        
+"
+python
+"
+        
+"
+virtualenv
+"
+        
+"
+virtualenv
+"
+        
+"
+version
+.
+py
+"
+    
+)
+    
+deps
+=
+[
+virtualenv_package
+]
++
+requirements
+.
+requirements_paths
+    
 metadata_mtime
 =
 os
@@ -7008,9 +7109,7 @@ METADATA_FILENAME
 for
 dep_file
 in
-requirements
-.
-requirements_paths
+deps
 :
         
 if
