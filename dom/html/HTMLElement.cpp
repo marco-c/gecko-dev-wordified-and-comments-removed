@@ -963,7 +963,7 @@ VALID
 ElementState
 :
 :
-MOZ_UI_VALID
+USER_VALID
 ;
 }
 else
@@ -979,7 +979,7 @@ INVALID
 ElementState
 :
 :
-MOZ_UI_INVALID
+USER_INVALID
 ;
 }
 }
