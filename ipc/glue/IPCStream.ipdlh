@@ -57,9 +57,6 @@ MPL
 *
 /
 include
-BlobTypes
-;
-include
 InputStreamParams
 ;
 include
@@ -102,9 +99,6 @@ IPCStream
 {
 InputStreamParams
 stream
-;
-OptionalFileDescriptorSet
-optionalFds
 ;
 }
 ;

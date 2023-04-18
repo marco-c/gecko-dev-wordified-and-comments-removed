@@ -108,17 +108,6 @@ mozilla
 /
 ipc
 /
-FileDescriptorSetChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ipc
-/
 IPCStreamUtils
 .
 h
