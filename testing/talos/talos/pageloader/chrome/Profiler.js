@@ -523,7 +523,7 @@ const
 NetUtil
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -547,7 +547,7 @@ const
 FileUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

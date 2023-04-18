@@ -773,12 +773,16 @@ execute_async_script
 "
 "
               
-Components
-.
-utils
+const
+{
+BrowserWindowTracker
+}
+=
+ChromeUtils
 .
 import
 (
+                
 "
 resource
 :
@@ -791,6 +795,7 @@ BrowserWindowTracker
 .
 jsm
 "
+              
 )
 ;
               

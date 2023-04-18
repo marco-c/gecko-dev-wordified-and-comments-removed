@@ -5141,12 +5141,16 @@ execute_script
 "
 "
                
-Components
-.
-utils
+const
+{
+Preferences
+}
+=
+ChromeUtils
 .
 import
 (
+                 
 "
 resource
 :
@@ -5160,6 +5164,7 @@ Preferences
 .
 jsm
 "
+               
 )
 ;
                
@@ -5330,12 +5335,16 @@ execute_script
 "
 "
                 
-Components
-.
-utils
+const
+{
+Preferences
+}
+=
+ChromeUtils
 .
 import
 (
+                  
 "
 resource
 :
@@ -5349,6 +5358,7 @@ Preferences
 .
 jsm
 "
+                
 )
 ;
                 
@@ -5600,12 +5610,16 @@ execute_script
 "
 "
                 
-Components
-.
-utils
+const
+{
+Preferences
+}
+=
+ChromeUtils
 .
 import
 (
+                  
 "
 resource
 :
@@ -5619,6 +5633,7 @@ Preferences
 .
 jsm
 "
+                
 )
 ;
                 

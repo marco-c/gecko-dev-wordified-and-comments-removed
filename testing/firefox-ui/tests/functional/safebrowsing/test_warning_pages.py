@@ -470,12 +470,16 @@ execute_script
 "
 "
               
-Components
-.
-utils
+const
+{
+Services
+}
+=
+ChromeUtils
 .
 import
 (
+                
 "
 resource
 :
@@ -489,6 +493,7 @@ Services
 .
 jsm
 "
+              
 )
 ;
               
@@ -650,12 +655,16 @@ execute_script
 "
 "
               
-Components
-.
-utils
+const
+{
+Services
+}
+=
+ChromeUtils
 .
 import
 (
+                
 "
 resource
 :
@@ -669,6 +678,7 @@ Services
 .
 jsm
 "
+              
 )
 ;
               

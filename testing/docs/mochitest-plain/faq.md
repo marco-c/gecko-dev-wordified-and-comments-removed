@@ -2203,7 +2203,7 @@ let
 setTimeout
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -2221,6 +2221,7 @@ Timer
 jsm
 "
 )
+;
 function
 handleRequest
 (

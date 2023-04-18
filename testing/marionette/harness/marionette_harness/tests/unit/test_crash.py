@@ -107,10 +107,16 @@ execute_script
 "
 "
                 
-Cu
+const
+{
+AppConstants
+}
+=
+ChromeUtils
 .
 import
 (
+                  
 "
 resource
 :
@@ -124,6 +130,7 @@ AppConstants
 .
 jsm
 "
+                
 )
 ;
                 

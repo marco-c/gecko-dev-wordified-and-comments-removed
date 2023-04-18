@@ -90,10 +90,16 @@ execute_script
 "
 "
                 
-Cu
+const
+{
+Preferences
+}
+=
+ChromeUtils
 .
 import
 (
+                  
 "
 resource
 :
@@ -107,6 +113,7 @@ Preferences
 .
 jsm
 "
+                
 )
 ;
                 
