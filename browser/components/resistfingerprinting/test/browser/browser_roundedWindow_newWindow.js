@@ -11,11 +11,10 @@ gMaxAvailWidth
 let
 gMaxAvailHeight
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

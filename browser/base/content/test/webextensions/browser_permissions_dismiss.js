@@ -25,11 +25,10 @@ browser_webext_permissions
 .
 xpi
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

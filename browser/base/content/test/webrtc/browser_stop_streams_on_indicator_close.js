@@ -46,11 +46,10 @@ get_user_media
 html
 "
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

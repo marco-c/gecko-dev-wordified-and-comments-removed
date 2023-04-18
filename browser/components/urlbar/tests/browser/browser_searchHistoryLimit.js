@@ -30,11 +30,10 @@ jsm
 let
 gEngine
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

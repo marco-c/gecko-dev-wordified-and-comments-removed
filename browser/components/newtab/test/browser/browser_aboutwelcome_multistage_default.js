@@ -3218,11 +3218,10 @@ DID_SEE_ABOUT_WELCOME_PREF
 }
 )
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

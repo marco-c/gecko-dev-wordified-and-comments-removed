@@ -85,11 +85,10 @@ discoapi
 let
 getAddonIdFromDiscoResult
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

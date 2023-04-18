@@ -126,11 +126,10 @@ jsm
 let
 rsClient
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

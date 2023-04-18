@@ -452,11 +452,10 @@ await
 waitForConsole
 ;
 }
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

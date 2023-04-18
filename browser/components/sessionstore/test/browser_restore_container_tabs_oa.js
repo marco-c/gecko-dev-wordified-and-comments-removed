@@ -146,11 +146,10 @@ NUM_USER_CONTEXTS
 +
 1
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

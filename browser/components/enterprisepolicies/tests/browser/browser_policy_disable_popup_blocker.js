@@ -27,11 +27,10 @@ ORIGINAL_PREF_VALUE
 =
 undefined
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

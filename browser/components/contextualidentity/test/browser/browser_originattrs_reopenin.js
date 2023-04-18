@@ -155,11 +155,10 @@ NUM_PAGES_OPEN_FOR_EACH_TEST_CASE
 =
 5
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

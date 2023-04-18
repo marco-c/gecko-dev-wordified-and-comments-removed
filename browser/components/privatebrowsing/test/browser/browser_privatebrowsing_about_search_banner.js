@@ -75,11 +75,10 @@ MAX_SHOW_COUNT
 =
 5
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {
