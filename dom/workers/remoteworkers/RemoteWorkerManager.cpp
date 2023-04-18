@@ -3238,6 +3238,7 @@ GetNewOrUsedBrowserProcessAsync
 (
 remoteType
 nullptr
+0
 hal
 :
 :
