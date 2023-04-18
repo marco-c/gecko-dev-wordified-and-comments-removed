@@ -25,13 +25,6 @@ h
 #
 include
 "
-nsCSSPropertyID
-.
-h
-"
-#
-include
-"
 nsCoord
 .
 h
@@ -317,7 +310,6 @@ function
 (
 void
 *
-nsCSSPropertyID
 )
 =
 nullptr

@@ -3081,7 +3081,6 @@ gecko
 [
 inline
 ]
-pub
 fn
 to_nscsspropertyid
 (
