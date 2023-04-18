@@ -986,9 +986,6 @@ TextureClient
 >
 mTextureClientsForAsyncPaint
 ;
-Monitor
-mPaintLock
-;
 RefPtr
 <
 CanvasChild

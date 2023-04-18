@@ -578,14 +578,6 @@ mSectionAllocator
 (
 nullptr
 )
-mPaintLock
-(
-"
-CompositorBridgeChild
-.
-mPaintLock
-"
-)
 {
 MOZ_ASSERT
 (
@@ -1686,13 +1678,6 @@ AbnormalShutdown
 "
 ;
 }
-{
-MonitorAutoLock
-lock
-(
-mPaintLock
-)
-;
 mCanSend
 =
 false
@@ -1701,7 +1686,6 @@ mActorDestroyed
 =
 true
 ;
-}
 if
 (
 mProcessToken
