@@ -58,6 +58,11 @@ MOZ_DEBUG
 1
 "
 "
+MOZ_X11
+"
+:
+null
+"
 OS_TARGET
 "
 :
