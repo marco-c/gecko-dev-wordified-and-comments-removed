@@ -316,6 +316,14 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MediaDevice
 )
+enum
+class
+IsScary
+{
+No
+Yes
+}
+;
 MediaDevice
 (
 const
@@ -337,6 +345,8 @@ const
 nsString
 &
 aRawGroupID
+IsScary
+aIsScary
 )
 ;
 MediaDevice

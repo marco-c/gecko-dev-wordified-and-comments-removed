@@ -2617,6 +2617,14 @@ AssertIsOnOwningThread
 (
 )
 ;
+using
+IsScary
+=
+MediaDevice
+:
+:
+IsScary
+;
 if
 (
 aMediaSink
@@ -2697,6 +2705,10 @@ newSource
 GetGroupId
 (
 )
+IsScary
+:
+:
+No
 )
 )
 ;
@@ -2752,6 +2764,10 @@ newSource
 GetGroupId
 (
 )
+IsScary
+:
+:
+No
 )
 )
 ;
