@@ -2538,6 +2538,12 @@ return
 ret
 ;
 }
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 static
 void
 *
@@ -2546,6 +2552,8 @@ gStartAddressesToBlock
 4
 ]
 ;
+#
+endif
 static
 bool
 ShouldBlockThread
@@ -2567,6 +2575,12 @@ return
 false
 ;
 }
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 for
 (
 auto
@@ -2588,6 +2602,8 @@ true
 ;
 }
 }
+#
+endif
 bool
 shouldBlock
 =
@@ -2857,6 +2873,12 @@ n
 endif
 }
 }
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 HMODULE
 hKernel
 =
@@ -2964,6 +2986,8 @@ gStartAddressesToBlock
 pProc
 ;
 }
+#
+endif
 if
 (
 aInitFlags
