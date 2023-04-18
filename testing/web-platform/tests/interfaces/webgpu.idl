@@ -55,11 +55,7 @@ mixin
 GPUObjectBase
 {
 attribute
-(
 USVString
-or
-undefined
-)
 label
 ;
 }
