@@ -444,11 +444,14 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 MessageLoop
 *
 mLoop
+GUARDED_BY
+(
+mMutex
+)
 ;
 }
 ;
