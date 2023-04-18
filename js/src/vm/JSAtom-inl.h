@@ -682,9 +682,10 @@ if
 (
 MOZ_LIKELY
 (
-JSID_IS_INT
-(
 id
+.
+isInt
+(
 )
 )
 )
@@ -696,9 +697,10 @@ CanGC
 >
 (
 cx
-JSID_TO_INT
-(
 id
+.
+toInt
+(
 )
 )
 ;

@@ -1671,9 +1671,10 @@ isExtensible
 |
 |
 (
-JSID_IS_INT
-(
 id
+.
+isInt
+(
 )
 &
 &
@@ -1682,9 +1683,10 @@ obj
 >
 containsDenseElement
 (
-JSID_TO_INT
-(
 id
+.
+toInt
+(
 )
 )
 )

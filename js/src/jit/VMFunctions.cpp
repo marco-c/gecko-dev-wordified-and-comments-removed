@@ -9674,10 +9674,11 @@ if
 (
 MOZ_UNLIKELY
 (
-JSID_IS_INT
-(
-*
 id
+-
+>
+isInt
+(
 )
 )
 )
