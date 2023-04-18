@@ -213,11 +213,6 @@ Finally
 \
 _
 (
-Gosub
-)
-\
-_
-(
 Retsub
 )
 \

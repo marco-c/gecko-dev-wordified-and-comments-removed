@@ -780,15 +780,6 @@ BytecodeFallsThrough
 (
 op
 )
-&
-&
-op
-!
-=
-JSOp
-:
-:
-Gosub
 ;
 if
 (
