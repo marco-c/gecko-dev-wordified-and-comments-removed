@@ -116,6 +116,11 @@ MLSFallback
 >
 mMLSProvider
 ;
+bool
+mWatching
+=
+false
+;
 }
 ;
 }
