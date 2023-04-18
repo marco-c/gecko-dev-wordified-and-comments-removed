@@ -324,6 +324,16 @@ HadUnboxFoldingBailout
 27
 }
 ;
+enum
+class
+SourceRetrievable
+{
+No
+=
+0
+Yes
+}
+;
 }
 #
 endif
