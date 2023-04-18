@@ -329,6 +329,9 @@ aIntegrity
 nsIURI
 *
 aReferrer
+DOMScriptLoadContext
+*
+aContext
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -1120,9 +1123,6 @@ DOMScriptLoadContext
 Element
 *
 aElement
-ScriptLoadRequest
-*
-aRequest
 nsIGlobalObject
 *
 aWebExtGlobal
@@ -1135,6 +1135,14 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMScriptLoadContext
 )
+void
+SetRequest
+(
+ScriptLoadRequest
+*
+aRequest
+)
+;
 static
 void
 PrioritizeAsPreload
