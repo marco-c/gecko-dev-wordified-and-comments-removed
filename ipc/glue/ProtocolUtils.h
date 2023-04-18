@@ -280,6 +280,16 @@ namespace
 {
 enum
 {
+DATA_PIPE_CLOSED_MESSAGE_TYPE
+=
+kuint16max
+-
+18
+DATA_PIPE_BYTES_CONSUMED_MESSAGE_TYPE
+=
+kuint16max
+-
+17
 ACCEPT_INVITE_MESSAGE_TYPE
 =
 kuint16max

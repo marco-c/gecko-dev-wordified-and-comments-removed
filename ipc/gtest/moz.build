@@ -9,6 +9,11 @@ SOURCES
 =
 [
 "
+TestDataPipe
+.
+cpp
+"
+"
 TestLogging
 .
 cpp
