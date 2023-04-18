@@ -10,6 +10,12 @@ EXPORTED_SYMBOLS
 "
 SubprocessImpl
 "
+"
+libc
+"
+"
+win32
+"
 ]
 ;
 const

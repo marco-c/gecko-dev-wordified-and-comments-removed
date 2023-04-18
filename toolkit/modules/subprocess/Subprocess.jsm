@@ -10,6 +10,9 @@ EXPORTED_SYMBOLS
 "
 Subprocess
 "
+"
+SubprocessImpl
+"
 ]
 ;
 const

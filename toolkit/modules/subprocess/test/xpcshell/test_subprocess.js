@@ -2789,7 +2789,6 @@ subprocess_win
 .
 jsm
 "
-null
 )
 ;
 const
@@ -4588,7 +4587,6 @@ subprocess_unix
 .
 jsm
 "
-null
 )
 ;
 let
@@ -4925,7 +4923,6 @@ Subprocess
 .
 jsm
 "
-null
 )
 ;
 let

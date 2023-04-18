@@ -233,6 +233,17 @@ return
 isInitialized
 ;
 }
+get
+promiseInit
+(
+)
+{
+return
+CloudStorageInternal
+.
+promiseInit
+;
+}
 promisePromptInfo
 (
 )
