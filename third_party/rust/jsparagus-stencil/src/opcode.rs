@@ -1329,15 +1329,6 @@ NULL
 JOF_OBJECT
 )
 (
-LambdaArrow
-lambda_arrow
-NULL
-5
-1
-1
-JOF_OBJECT
-)
-(
 SetFunName
 set_fun_name
 NULL

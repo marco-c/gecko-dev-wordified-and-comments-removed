@@ -209,6 +209,12 @@ IsInlinableLargeFunction
 <
 <
 28
+FunctionHasNewTargetBinding
+=
+1
+<
+<
+29
 }
 ;
 enum
