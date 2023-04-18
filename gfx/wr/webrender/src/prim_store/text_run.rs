@@ -1260,9 +1260,6 @@ bool
 raster_space
 :
 RasterSpace
-root_scaling_factor
-:
-f32
 spatial_tree
 :
 &
@@ -1303,8 +1300,6 @@ surface
 device_pixel_scale
 .
 0
-*
-root_scaling_factor
 ;
 let
 font_size
@@ -1901,9 +1896,6 @@ SurfaceInfo
 spatial_node_index
 :
 SpatialNodeIndex
-root_scaling_factor
-:
-f32
 allow_subpixel
 :
 bool
@@ -1959,7 +1951,6 @@ spatial_node_index
 transform
 allow_subpixel
 raster_space
-root_scaling_factor
 spatial_tree
 )
 ;
@@ -1994,8 +1985,6 @@ surface
 device_pixel_scale
 .
 0
-*
-root_scaling_factor
 ;
 let
 transform
