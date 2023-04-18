@@ -7486,6 +7486,12 @@ STATE_CONNECTING
 &
 &
 mDNSRecord
+&
+&
+mCondition
+!
+=
+NS_BASE_STREAM_CLOSED
 )
 {
 mDNSRecord
