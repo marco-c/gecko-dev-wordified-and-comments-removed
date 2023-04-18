@@ -380,16 +380,6 @@ mParserContext
 ;
 }
 NS_IMETHOD
-GetChannel
-(
-nsIChannel
-*
-*
-aChannel
-)
-override
-;
-NS_IMETHOD
 GetDTD
 (
 nsIDTD

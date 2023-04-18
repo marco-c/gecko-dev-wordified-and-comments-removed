@@ -229,7 +229,7 @@ aForceAutoDetection
 )
 override
 ;
-NS_IMETHOD
+nsresult
 GetChannel
 (
 nsIChannel
@@ -237,7 +237,6 @@ nsIChannel
 *
 aChannel
 )
-override
 ;
 NS_IMETHOD
 GetDTD
