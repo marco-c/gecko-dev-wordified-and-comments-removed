@@ -3939,17 +3939,6 @@ host
 )
 )
 {
-permissions
-.
-delete
-(
-perm
-.
-principal
-.
-origin
-)
-;
 log
 (
 "
