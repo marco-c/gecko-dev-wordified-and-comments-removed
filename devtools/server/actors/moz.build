@@ -74,6 +74,11 @@ buffer
 js
 "
 "
+blackboxing
+.
+js
+"
+"
 breakpoint
 -
 list
