@@ -3675,11 +3675,6 @@ inline
 "
 nearest
 "
-behavior
-:
-"
-instant
-"
 }
 )
 ;
