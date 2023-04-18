@@ -664,6 +664,13 @@ kNS_DEVICE_CONTEXT_SPEC_CID
 false
 NULL
 nsDeviceContextSpecXConstructor
+mozilla
+:
+:
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 &
@@ -976,6 +983,13 @@ devicecontextspec
 "
 &
 kNS_DEVICE_CONTEXT_SPEC_CID
+mozilla
+:
+:
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 "

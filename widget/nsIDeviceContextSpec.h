@@ -147,7 +147,6 @@ return
 NS_OK
 ;
 }
-virtual
 float
 GetDPI
 (
@@ -165,13 +164,11 @@ print_default_dpi
 )
 ;
 }
-virtual
 float
 GetPrintingScale
 (
 )
 ;
-virtual
 gfxPoint
 GetPrintingTranslate
 (
