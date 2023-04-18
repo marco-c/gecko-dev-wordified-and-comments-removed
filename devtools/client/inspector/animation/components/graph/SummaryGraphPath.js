@@ -305,7 +305,7 @@ props
 )
 ;
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )

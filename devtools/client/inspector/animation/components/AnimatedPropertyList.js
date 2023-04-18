@@ -182,7 +182,7 @@ animation
 )
 ;
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )

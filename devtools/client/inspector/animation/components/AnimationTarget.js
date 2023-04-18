@@ -274,7 +274,7 @@ null
 }
 ;
 }
-componentWillMount
+UNSAFE_componentWillMount
 (
 )
 {
@@ -290,7 +290,7 @@ animation
 )
 ;
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )

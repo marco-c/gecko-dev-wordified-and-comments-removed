@@ -229,7 +229,7 @@ this
 )
 ;
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 newProps
 )

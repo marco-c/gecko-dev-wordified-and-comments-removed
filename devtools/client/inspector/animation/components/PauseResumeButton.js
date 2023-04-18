@@ -207,7 +207,7 @@ false
 }
 ;
 }
-componentWillMount
+UNSAFE_componentWillMount
 (
 )
 {

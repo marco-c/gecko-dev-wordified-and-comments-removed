@@ -188,7 +188,7 @@ onCurrentTimeUpdated
 )
 ;
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )
