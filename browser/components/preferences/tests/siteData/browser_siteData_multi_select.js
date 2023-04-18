@@ -509,12 +509,6 @@ button
 "
 )
 ;
-sitesList
-.
-focus
-(
-)
-;
 EventUtils
 .
 synthesizeKey
