@@ -647,6 +647,7 @@ text
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -699,6 +700,7 @@ SameSite
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -951,6 +953,7 @@ text
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1001,6 +1004,7 @@ SameSite
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud

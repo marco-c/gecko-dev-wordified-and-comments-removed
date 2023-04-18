@@ -289,6 +289,7 @@ onGroupMessage
 await
 onInGroupMessage
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -351,6 +352,7 @@ now
 await
 onContentBlockingWarningMessage
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -417,6 +419,7 @@ group
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -468,6 +471,7 @@ group
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -537,6 +541,7 @@ warningGroupNode
 await
 onContentBlockingWarningGroupMessage
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -590,6 +595,7 @@ BLOCKED_URL
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -678,6 +684,7 @@ displayed
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -790,6 +797,7 @@ group
 await
 onInGroupMessage
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -884,6 +892,7 @@ group
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -964,6 +973,7 @@ BLOCKED_URL
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1017,6 +1027,7 @@ group
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1081,6 +1092,7 @@ group
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1130,6 +1142,7 @@ BLOCKED_URL
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud

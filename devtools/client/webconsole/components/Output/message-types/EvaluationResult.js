@@ -163,6 +163,7 @@ serviceContainer
 timestampsVisible
 maybeScrollToBottom
 open
+setExpanded
 }
 =
 props
@@ -340,6 +341,7 @@ false
 type
 helperType
 maybeScrollToBottom
+setExpanded
 customFormat
 :
 true

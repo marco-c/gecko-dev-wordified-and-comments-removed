@@ -94,6 +94,11 @@ GripMessageBody
 js
 "
 "
+LazyMessageList
+.
+js
+"
+"
 Message
 .
 js

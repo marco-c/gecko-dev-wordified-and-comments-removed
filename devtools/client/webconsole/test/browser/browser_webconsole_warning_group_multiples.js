@@ -487,6 +487,7 @@ text
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -598,6 +599,7 @@ message
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -732,6 +734,7 @@ STORAGE_BLOCKED_URL
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -804,6 +807,7 @@ hud
 await
 onStorageBlockedMessage
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -910,6 +914,7 @@ CONTENT_BLOCKED_URL
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1059,6 +1064,7 @@ hud
 await
 onContentBlockedMessage
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1183,6 +1189,7 @@ emitContentBlockingMessage
 await
 onContentBlockedWarningGroupMessage
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud

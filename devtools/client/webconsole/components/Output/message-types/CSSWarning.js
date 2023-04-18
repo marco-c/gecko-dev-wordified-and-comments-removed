@@ -213,6 +213,11 @@ PropTypes
 bool
 .
 isRequired
+setExpanded
+:
+PropTypes
+.
+func
 }
 ;
 }
@@ -354,6 +359,7 @@ repeat
 serviceContainer
 timestampsVisible
 inWarningGroup
+setExpanded
 }
 =
 this
@@ -500,6 +506,7 @@ grip
 :
 cssMatchingElements
 serviceContainer
+setExpanded
 }
 )
 )

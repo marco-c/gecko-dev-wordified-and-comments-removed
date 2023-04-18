@@ -240,6 +240,11 @@ maybeScrollToBottom
 PropTypes
 .
 func
+setExpanded
+:
+PropTypes
+.
+func
 }
 ;
 GripMessageBody
@@ -274,6 +279,7 @@ MODE
 LONG
 dispatch
 maybeScrollToBottom
+setExpanded
 customFormat
 =
 false
@@ -324,6 +330,7 @@ props
 0
 mode
 maybeScrollToBottom
+setExpanded
 customFormat
 onCmdCtrlClick
 :

@@ -227,6 +227,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSDisabled
@@ -290,6 +291,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSPreflightDidNotSucceed
@@ -344,6 +346,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSDidNotSucceed
@@ -390,6 +393,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSExternalRedirectNotAllowed
@@ -451,6 +455,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSMissingAllowOrigin
@@ -508,6 +513,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSMultipleAllowOriginNotAllowed
@@ -576,6 +582,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSAllowOriginNotMatchingOrigin
@@ -646,6 +653,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSNotSupportingCredentials
@@ -706,6 +714,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSMethodNotFound
@@ -771,6 +780,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSMissingAllowCredentials
@@ -838,6 +848,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSInvalidAllowMethod
@@ -905,6 +916,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSInvalidAllowHeader
@@ -977,6 +989,7 @@ onCorsMessage
 await
 checkCorsMessage
 (
+hud
 message
 "
 CORSMissingAllowHeaderFromPreflight
@@ -990,6 +1003,7 @@ async
 function
 checkCorsMessage
 (
+hud
 message
 category
 )
@@ -997,9 +1011,35 @@ category
 const
 node
 =
+await
+findMessageVirtualized
+(
+{
+hud
+messageId
+:
 message
 .
 node
+.
+getAttribute
+(
+"
+data
+-
+message
+-
+id
+"
+)
+}
+)
+;
+node
+.
+scrollIntoView
+(
+)
 ;
 ok
 (

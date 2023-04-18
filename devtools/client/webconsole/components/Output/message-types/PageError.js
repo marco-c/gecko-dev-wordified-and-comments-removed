@@ -200,6 +200,11 @@ maybeScrollToBottom
 PropTypes
 .
 func
+setExpanded
+:
+PropTypes
+.
+func
 inWarningGroup
 :
 PropTypes
@@ -234,6 +239,7 @@ repeat
 serviceContainer
 timestampsVisible
 maybeScrollToBottom
+setExpanded
 inWarningGroup
 }
 =
@@ -333,6 +339,7 @@ customFormat
 :
 true
 maybeScrollToBottom
+setExpanded
 .
 .
 .

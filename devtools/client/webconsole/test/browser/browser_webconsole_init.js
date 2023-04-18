@@ -151,10 +151,14 @@ output
 ;
 is
 (
-outputContainer
-.
-querySelectorAll
 (
+await
+findMessagesVirtualized
+(
+{
+hud
+selector
+:
 "
 .
 message
@@ -163,6 +167,8 @@ console
 -
 api
 "
+}
+)
 )
 .
 length

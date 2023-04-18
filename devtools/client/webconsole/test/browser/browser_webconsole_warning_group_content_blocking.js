@@ -480,6 +480,7 @@ text
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -541,6 +542,7 @@ com
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1189,6 +1191,7 @@ text
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1237,6 +1240,7 @@ TRACKER_IMG
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud

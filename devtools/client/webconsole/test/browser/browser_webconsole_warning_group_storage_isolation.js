@@ -392,6 +392,7 @@ text
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -440,6 +441,7 @@ url1
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud

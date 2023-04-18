@@ -170,13 +170,12 @@ message
 ;
 is
 (
-findMessages
+(
+await
+findAllMessagesVirtualized
 (
 hud
-"
-startup
-message
-"
+)
 )
 .
 length
