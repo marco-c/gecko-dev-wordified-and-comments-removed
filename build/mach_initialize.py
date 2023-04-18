@@ -1349,12 +1349,59 @@ MachSiteManager
         
 VirtualenvOutOfDateException
         
+MozSiteMetadata
+        
 MozSiteMetadataOutOfDateError
     
 )
     
 try
 :
+        
+active_metadata
+=
+MozSiteMetadata
+.
+from_runtime
+(
+)
+        
+if
+not
+active_metadata
+and
+os
+.
+path
+.
+basename
+(
+sys
+.
+prefix
+)
+=
+=
+"
+mach
+"
+:
+            
+raise
+MozSiteMetadataOutOfDateError
+(
+                
+"
+Mach
+virtualenv
+is
+missing
+metadata
+file
+.
+"
+            
+)
         
 mach_environment
 =
