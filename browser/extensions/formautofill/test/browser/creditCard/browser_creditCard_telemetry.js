@@ -976,9 +976,9 @@ browser
 )
 {
 let
-onPopupShown
+promiseShown
 =
-waitForPopupShown
+promiseNotificationShown
 (
 )
 ;
@@ -1074,7 +1074,7 @@ mastercard
 )
 ;
 await
-onPopupShown
+promiseShown
 ;
 await
 clickDoorhangerButton
@@ -1864,9 +1864,9 @@ browser
 )
 {
 let
-onPopupShown
+promiseShown
 =
-waitForPopupShown
+promiseNotificationShown
 (
 )
 ;
@@ -1977,7 +1977,7 @@ year
 )
 ;
 await
-onPopupShown
+promiseShown
 ;
 await
 clickDoorhangerButton

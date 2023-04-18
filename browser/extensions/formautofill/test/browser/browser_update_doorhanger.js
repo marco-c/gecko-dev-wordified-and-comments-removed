@@ -57,9 +57,9 @@ browser
 )
 {
 let
-onPopupShown
+promiseShown
 =
-waitForPopupShown
+promiseNotificationShown
 (
 )
 ;
@@ -203,7 +203,7 @@ click
 )
 ;
 await
-onPopupShown
+promiseShown
 ;
 await
 clickDoorhangerButton
@@ -306,9 +306,9 @@ browser
 )
 {
 let
-onPopupShown
+promiseShown
 =
-waitForPopupShown
+promiseNotificationShown
 (
 )
 ;
@@ -453,7 +453,7 @@ click
 )
 ;
 await
-onPopupShown
+promiseShown
 ;
 await
 clickDoorhangerButton
@@ -556,9 +556,9 @@ browser
 )
 {
 let
-onPopupShown
+promiseShown
 =
-waitForPopupShown
+promiseNotificationShown
 (
 )
 ;
@@ -687,7 +687,7 @@ click
 )
 ;
 await
-onPopupShown
+promiseShown
 ;
 await
 clickDoorhangerButton
@@ -771,9 +771,9 @@ browser
 )
 {
 let
-onPopupShown
+promiseShown
 =
-waitForPopupShown
+promiseNotificationShown
 (
 )
 ;
@@ -996,7 +996,7 @@ submit
 )
 ;
 await
-onPopupShown
+promiseShown
 ;
 await
 clickDoorhangerButton
@@ -1127,9 +1127,9 @@ browser
 )
 {
 let
-onPopupShown
+promiseShown
 =
-waitForPopupShown
+promiseNotificationShown
 (
 )
 ;
@@ -1285,7 +1285,7 @@ click
 )
 ;
 await
-onPopupShown
+promiseShown
 ;
 await
 clickDoorhangerButton
