@@ -2238,7 +2238,7 @@ EditorDOMPoint
 aStartOfRightNode
 nsIContent
 &
-aNewLeftNode
+aNewNode
 )
 ;
 [
