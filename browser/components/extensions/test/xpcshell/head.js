@@ -202,6 +202,15 @@ init
 this
 )
 ;
+const
+{
+assertPersistentListeners
+}
+=
+ExtensionTestUtils
+.
+testAssertions
+;
 function
 createHttpServer
 (

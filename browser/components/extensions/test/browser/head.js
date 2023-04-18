@@ -346,6 +346,15 @@ LoginManagerParent
 recipeParentPromise
 ;
 }
+const
+{
+assertPersistentListeners
+}
+=
+ExtensionTestUtils
+.
+testAssertions
+;
 function
 forceGC
 (

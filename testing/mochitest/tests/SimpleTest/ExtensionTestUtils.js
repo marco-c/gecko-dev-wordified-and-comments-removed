@@ -54,6 +54,17 @@ isInBackgroundServiceWorkerTests
 )
 ;
 }
+get
+testAssertions
+(
+)
+{
+return
+ExtensionTestCommon
+.
+testAssertions
+;
+}
 }
 ;
 ExtensionTestUtils
