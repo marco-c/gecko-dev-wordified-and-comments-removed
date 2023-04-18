@@ -526,6 +526,15 @@ mozilla
 /
 use
 -
+isInstance
+eslint
+-
+plugin
+-
+mozilla
+/
+use
+-
 ownerGlobal
 eslint
 -
