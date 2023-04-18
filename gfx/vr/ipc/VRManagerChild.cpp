@@ -652,11 +652,6 @@ sVRManagerChildSingleton
 Open
 (
 sVRManagerParentSingleton
--
->
-GetIPCChannel
-(
-)
 CompositorThread
 (
 )
