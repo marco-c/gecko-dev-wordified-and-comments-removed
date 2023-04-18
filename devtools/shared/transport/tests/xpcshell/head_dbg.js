@@ -460,6 +460,12 @@ init
 (
 )
 ;
+DevToolsServer
+.
+keepAlive
+=
+true
+;
 }
 function
 getTestTempFile

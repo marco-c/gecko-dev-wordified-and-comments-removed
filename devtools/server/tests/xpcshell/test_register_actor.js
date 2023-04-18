@@ -10,6 +10,12 @@ run_test
 {
 DevToolsServer
 .
+keepAlive
+=
+true
+;
+DevToolsServer
+.
 init
 (
 )
