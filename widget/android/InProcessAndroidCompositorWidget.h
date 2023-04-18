@@ -83,6 +83,16 @@ return
 this
 ;
 }
+void
+NotifyClientSizeChanged
+(
+const
+LayoutDeviceIntSize
+&
+aClientSize
+)
+override
+;
 private
 :
 void

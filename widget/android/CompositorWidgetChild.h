@@ -102,6 +102,16 @@ RecvUnobserveVsync
 )
 override
 ;
+void
+NotifyClientSizeChanged
+(
+const
+LayoutDeviceIntSize
+&
+aClientSize
+)
+override
+;
 private
 :
 RefPtr
