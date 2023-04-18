@@ -8880,9 +8880,14 @@ k
 ;
 }
 }
-else
+if
+(
+!
+quitSeen
+)
 {
 mode
+|
 =
 Ci
 .
