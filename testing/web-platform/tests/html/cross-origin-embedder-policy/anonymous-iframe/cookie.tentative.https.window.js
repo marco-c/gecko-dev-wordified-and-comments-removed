@@ -71,7 +71,7 @@ cookie_key
 }
 ;
 const
-cookieFromIframeNavigationRequest
+cookieFromAnonymousIframeRequest
 =
 async
 (
@@ -110,6 +110,12 @@ iframe_origin
 resource_token
 )
 }
+;
+iframe
+.
+anonymous
+=
+true
 ;
 document
 .
@@ -241,7 +247,7 @@ test
 assert_equals
 (
 await
-cookieFromIframeNavigationRequest
+cookieFromAnonymousIframeRequest
 (
 same_origin
 )
@@ -272,7 +278,7 @@ test
 assert_equals
 (
 await
-cookieFromIframeNavigationRequest
+cookieFromAnonymousIframeRequest
 (
 cross_origin
 )
