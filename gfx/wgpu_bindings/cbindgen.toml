@@ -326,6 +326,13 @@ Option_NonZeroU8
 ANativeWindow_setBuffersGeometry
 "
 ]
+include
+=
+[
+"
+BufferUsages
+"
+]
 [
 export
 .
