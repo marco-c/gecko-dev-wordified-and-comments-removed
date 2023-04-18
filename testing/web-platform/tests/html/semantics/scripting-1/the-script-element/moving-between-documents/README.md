@@ -22,6 +22,13 @@ generate
 test
 HTML
 files
+(
+except
+for
+tests
+in
+subdirectories
+)
 .
 Background
 :
