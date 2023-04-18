@@ -26264,7 +26264,9 @@ vpalignr_irr
 unsigned
 imm
 XMMRegisterID
-src
+src1
+XMMRegisterID
+src0
 XMMRegisterID
 dst
 )
@@ -26285,8 +26287,8 @@ VEX_PD
 OP3_PALIGNR_VdqWdqIb
 ESCAPE_3A
 imm
-src
-invalid_xmm
+src1
+src0
 dst
 )
 ;
