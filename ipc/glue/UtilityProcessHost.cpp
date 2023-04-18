@@ -324,6 +324,13 @@ ipc
 SharedPreferenceSerializer
 >
 (
+dom
+:
+:
+ContentParent
+:
+:
+ShouldSyncPreference
 )
 ;
 if
@@ -334,10 +341,6 @@ mPrefSerializer
 >
 SerializeToSharedMemory
 (
-GeckoProcessType_Utility
-"
-"
-_ns
 )
 )
 {
