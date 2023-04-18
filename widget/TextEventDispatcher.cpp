@@ -1806,6 +1806,15 @@ NOTIFY_IME_OF_SELECTION_CHANGE
 if
 (
 mHasFocus
+&
+&
+aIMENotification
+.
+mSelectionChangeData
+.
+HasRange
+(
+)
 )
 {
 mWritingMode
