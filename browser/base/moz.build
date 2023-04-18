@@ -573,6 +573,17 @@ content
 /
 test
 /
+utilityOverlay
+/
+browser
+.
+ini
+"
+"
+content
+/
+test
+/
 webextensions
 /
 browser
