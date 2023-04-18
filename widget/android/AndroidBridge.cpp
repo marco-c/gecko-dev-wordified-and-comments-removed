@@ -159,6 +159,15 @@ h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h
