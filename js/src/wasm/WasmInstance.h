@@ -1554,7 +1554,7 @@ tableIndex
 static
 void
 *
-tableGet
+tableGetFunc
 (
 Instance
 *
@@ -1583,7 +1583,7 @@ tableIndex
 ;
 static
 int32_t
-tableSet
+tableSetFunc
 (
 Instance
 *
@@ -1593,17 +1593,6 @@ index
 void
 *
 value
-uint32_t
-tableIndex
-)
-;
-static
-uint32_t
-tableSize
-(
-Instance
-*
-instance
 uint32_t
 tableIndex
 )

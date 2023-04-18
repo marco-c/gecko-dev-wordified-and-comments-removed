@@ -134,11 +134,10 @@ MemInitM64
 TableCopy
 ElemDrop
 TableFill
-TableGet
+TableGetFunc
 TableGrow
 TableInit
-TableSet
-TableSize
+TableSetFunc
 RefFunc
 RefTest
 RttSub
@@ -474,7 +473,7 @@ SASigTableFill
 extern
 const
 SymbolicAddressSignature
-SASigTableGet
+SASigTableGetFunc
 ;
 extern
 const
@@ -489,12 +488,7 @@ SASigTableInit
 extern
 const
 SymbolicAddressSignature
-SASigTableSet
-;
-extern
-const
-SymbolicAddressSignature
-SASigTableSize
+SASigTableSetFunc
 ;
 extern
 const
