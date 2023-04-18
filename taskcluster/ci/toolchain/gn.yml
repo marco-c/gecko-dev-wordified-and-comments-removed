@@ -200,7 +200,7 @@ sdk
 11
 .
 0
-win32
+win64
 -
 gn
 :
@@ -236,7 +236,7 @@ build
 -
 gn
 -
-win32
+win64
 .
 sh
 fetches
