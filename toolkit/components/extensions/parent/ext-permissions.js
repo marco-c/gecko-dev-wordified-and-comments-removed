@@ -133,15 +133,13 @@ origins
 perms
 ;
 let
-manifestPermissions
+{
+optionalPermissions
+}
 =
 context
 .
 extension
-.
-manifest
-.
-optional_permissions
 ;
 for
 (
@@ -154,7 +152,7 @@ permissions
 if
 (
 !
-manifestPermissions
+optionalPermissions
 .
 includes
 (
@@ -233,7 +231,8 @@ was
 not
 declared
 in
-optional_permissions
+the
+manifest
 )
 ;
 }
