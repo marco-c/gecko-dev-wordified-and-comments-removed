@@ -387,7 +387,7 @@ NS_ERROR_FAILURE
 ;
 AutoTArray
 <
-LocalAccessible
+Accessible
 *
 10
 >
@@ -509,7 +509,7 @@ NS_ERROR_FAILURE
 ;
 AutoTArray
 <
-LocalAccessible
+Accessible
 *
 10
 >

@@ -204,7 +204,7 @@ ColHeaderCells
 (
 nsTArray
 <
-LocalAccessible
+Accessible
 *
 >
 *
@@ -218,7 +218,7 @@ RowHeaderCells
 (
 nsTArray
 <
-LocalAccessible
+Accessible
 *
 >
 *
@@ -595,7 +595,7 @@ SelectedCells
 (
 nsTArray
 <
-LocalAccessible
+Accessible
 *
 >
 *

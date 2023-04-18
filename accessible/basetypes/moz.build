@@ -16,6 +16,16 @@ HyperTextAccessibleBase
 .
 h
 "
+"
+TableAccessibleBase
+.
+h
+"
+"
+TableCellAccessibleBase
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +

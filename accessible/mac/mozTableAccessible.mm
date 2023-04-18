@@ -2094,7 +2094,7 @@ AsTableCell
 ;
 AutoTArray
 <
-LocalAccessible
+Accessible
 *
 10
 >
@@ -2199,7 +2199,7 @@ AsTableCell
 ;
 AutoTArray
 <
-LocalAccessible
+Accessible
 *
 10
 >
