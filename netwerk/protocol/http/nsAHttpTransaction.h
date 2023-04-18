@@ -463,6 +463,8 @@ virtual
 void
 DisableHttp3
 (
+bool
+aAllowRetryHTTPSRR
 )
 {
 }

@@ -2981,6 +2981,7 @@ trans
 >
 DisableHttp3
 (
+true
 )
 ;
 gHttpHandler

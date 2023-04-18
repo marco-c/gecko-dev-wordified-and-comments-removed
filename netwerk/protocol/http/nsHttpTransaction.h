@@ -451,6 +451,8 @@ true
 void
 DisableHttp3
 (
+bool
+aAllowRetryHTTPSRR
 )
 override
 ;
