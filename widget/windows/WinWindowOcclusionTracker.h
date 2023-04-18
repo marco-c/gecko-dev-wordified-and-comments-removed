@@ -191,6 +191,11 @@ mSerializedTaskDispatcher
 ;
 }
 void
+TriggerCalculation
+(
+)
+;
+void
 DumpOccludingWindows
 (
 HWND
@@ -261,6 +266,11 @@ sCalculator
 ;
 }
 void
+Initialize
+(
+)
+;
+void
 Shutdown
 (
 layers
@@ -290,6 +300,11 @@ HandleVisibilityChanged
 (
 bool
 aVisible
+)
+;
+void
+HandleTriggerCalculation
+(
 )
 ;
 private
