@@ -644,6 +644,7 @@ uint64_t
 aActionId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 WindowShown
 (
@@ -1137,7 +1138,7 @@ uint64_t
 aActionId
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 Focus
 (
