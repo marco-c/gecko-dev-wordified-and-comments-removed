@@ -100,7 +100,7 @@ ns
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -486,7 +486,7 @@ ns
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -637,7 +637,7 @@ ns2
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -781,7 +781,7 @@ ns
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -955,7 +955,7 @@ ns
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -1104,7 +1104,7 @@ ns2
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -1418,7 +1418,7 @@ exports
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -3061,7 +3061,7 @@ false
 ;
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource

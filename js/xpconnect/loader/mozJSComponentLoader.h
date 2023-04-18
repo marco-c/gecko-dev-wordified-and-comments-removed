@@ -372,7 +372,7 @@ false
 )
 ;
 nsresult
-ImportModule
+ImportESModule
 (
 JSContext
 *
@@ -389,7 +389,7 @@ aModuleNamespace
 )
 ;
 nsresult
-TryFallbackToImportModule
+TryFallbackToImportESModule
 (
 JSContext
 *

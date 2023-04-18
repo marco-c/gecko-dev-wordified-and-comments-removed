@@ -8,7 +8,7 @@ ns
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -48,7 +48,7 @@ ns2
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -90,7 +90,7 @@ try
 {
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -134,7 +134,7 @@ try
 {
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -200,7 +200,7 @@ try
 {
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -249,7 +249,7 @@ ns
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -291,7 +291,7 @@ ns
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -333,7 +333,7 @@ ns
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -383,7 +383,7 @@ try
 {
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
