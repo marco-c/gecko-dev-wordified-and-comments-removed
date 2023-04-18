@@ -163,11 +163,6 @@ getFaviconInfo
 uri
 )
 {
-const
-preferredWidth
-=
-0
-;
 return
 new
 Promise
@@ -202,7 +197,11 @@ faviconSize
 :
 null
 )
-preferredWidth
+NewTabUtils
+.
+activityStreamProvider
+.
+THUMB_FAVICON_SIZE
 )
 )
 ;

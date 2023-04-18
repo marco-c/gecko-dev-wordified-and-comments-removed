@@ -2458,6 +2458,9 @@ var
 ActivityStreamProvider
 =
 {
+THUMB_FAVICON_SIZE
+:
+96
 _adjustLimitForBlocked
 (
 {
@@ -2856,7 +2859,9 @@ PlacesUtils
 promiseFaviconData
 (
 aUri
-0
+this
+.
+THUMB_FAVICON_SIZE
 )
 ;
 Object
