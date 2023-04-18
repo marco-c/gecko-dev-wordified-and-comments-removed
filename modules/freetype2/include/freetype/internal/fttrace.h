@@ -86,6 +86,10 @@ smooth
 )
 FT_TRACE_DEF
 (
+otsvg
+)
+FT_TRACE_DEF
+(
 cache
 )
 FT_TRACE_DEF
@@ -119,6 +123,10 @@ ttcolr
 FT_TRACE_DEF
 (
 ttcpal
+)
+FT_TRACE_DEF
+(
+ttsvg
 )
 FT_TRACE_DEF
 (

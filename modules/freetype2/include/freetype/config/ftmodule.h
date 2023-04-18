@@ -88,3 +88,8 @@ FT_USE_MODULE
 FT_Renderer_Class
 ft_bitmap_sdf_renderer_class
 )
+FT_USE_MODULE
+(
+FT_Renderer_Class
+ft_svg_renderer_class
+)

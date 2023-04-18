@@ -173,7 +173,7 @@ NULL
 if
 (
 !
-FT_NEW
+FT_QNEW
 (
 inode
 )
@@ -217,6 +217,13 @@ gnode
 gindex
 family
 )
+;
+inode
+-
+>
+glyph
+=
+NULL
 ;
 error
 =

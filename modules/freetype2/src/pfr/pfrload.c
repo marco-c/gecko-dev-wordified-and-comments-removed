@@ -3286,7 +3286,7 @@ Size
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 phy_font
 -

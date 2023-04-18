@@ -113,7 +113,7 @@ C
 )
 2018
 -
-2021
+2022
 by
 *
 /
@@ -297,7 +297,7 @@ h
 define
 FT_VERSION
 2
-11
+12
 1
 0
 #
@@ -306,7 +306,7 @@ FT_VERSION_STR
 "
 2
 .
-11
+12
 .
 1
 "
@@ -407,7 +407,7 @@ LegalCopyright
 251
 2000
 -
-2021
+2022
 The
 FreeType
 Project

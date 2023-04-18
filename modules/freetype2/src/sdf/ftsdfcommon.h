@@ -39,6 +39,15 @@ define
 MAX_SPREAD
 32
 #
+define
+ONE_PIXEL
+(
+1
+<
+<
+6
+)
+#
 ifndef
 USE_SQUARED_DISTANCES
 #

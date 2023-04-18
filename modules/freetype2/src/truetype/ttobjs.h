@@ -279,6 +279,10 @@ hinted_metrics
 TT_Size_Metrics
 ttmetrics
 ;
+FT_Byte
+*
+widthp
+;
 FT_ULong
 strike_index
 ;

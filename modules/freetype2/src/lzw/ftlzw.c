@@ -1050,7 +1050,7 @@ memory
 if
 (
 !
-FT_NEW
+FT_QNEW
 (
 zip
 )

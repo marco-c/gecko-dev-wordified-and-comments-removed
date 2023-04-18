@@ -67,6 +67,13 @@ c
 #
 include
 "
+ttsvg
+.
+c
+"
+#
+include
+"
 ttkern
 .
 c

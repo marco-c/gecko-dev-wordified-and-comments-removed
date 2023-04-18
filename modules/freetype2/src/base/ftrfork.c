@@ -2972,13 +2972,6 @@ new_length
 ;
 FT_Error
 error
-=
-FT_Err_Ok
-;
-FT_UNUSED
-(
-error
-)
 ;
 new_length
 =

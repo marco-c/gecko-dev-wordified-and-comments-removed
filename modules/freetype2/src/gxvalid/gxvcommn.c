@@ -3692,9 +3692,7 @@ stateSize
 (
 int
 )
-(
 maxClassID
-)
 )
 )
 ;
@@ -5062,9 +5060,7 @@ stateSize
 (
 int
 )
-(
 maxClassID
-)
 )
 )
 ;

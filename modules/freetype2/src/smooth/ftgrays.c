@@ -860,6 +860,9 @@ ONE_PIXEL
 PIXEL_BITS
 )
 #
+undef
+TRUNC
+#
 define
 TRUNC
 (
@@ -876,6 +879,9 @@ x
 >
 PIXEL_BITS
 )
+#
+undef
+FRACT
 #
 define
 FRACT

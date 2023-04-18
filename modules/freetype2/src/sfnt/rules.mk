@@ -14,7 +14,7 @@ C
 )
 1996
 -
-2021
+2022
 by
 #
 David
@@ -209,6 +209,14 @@ SFNT_DIR
 )
 /
 ttcolr
+.
+c
+\
+(
+SFNT_DIR
+)
+/
+ttsvg
 .
 c
 \

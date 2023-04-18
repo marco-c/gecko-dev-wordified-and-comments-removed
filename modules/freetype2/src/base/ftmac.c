@@ -129,7 +129,13 @@ define
 FT_DEPRECATED_ATTRIBUTE
 #
 include
-FT_MAC_H
+<
+freetype
+/
+ftmac
+.
+h
+>
 #
 ifndef
 kATSOptionFlagsUnRestrictedScope

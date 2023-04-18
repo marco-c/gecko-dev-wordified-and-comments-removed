@@ -456,10 +456,6 @@ table
 )
 )
 {
-nn
--
--
-;
 FT_TRACE2
 (
 (

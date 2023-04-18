@@ -395,6 +395,14 @@ smooth
 "
 ft_smooth
 "
+            
+"
+svg
+"
+:
+"
+ft_svg
+"
         
 }
 .

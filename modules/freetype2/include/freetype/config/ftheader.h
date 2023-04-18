@@ -546,6 +546,16 @@ h
 >
 #
 define
+FT_OTSVG_H
+<
+freetype
+/
+otsvg
+.
+h
+>
+#
+define
 FT_ERROR_DEFINITIONS_H
 <
 freetype

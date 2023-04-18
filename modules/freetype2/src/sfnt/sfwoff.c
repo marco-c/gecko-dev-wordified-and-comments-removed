@@ -245,13 +245,6 @@ size
 stream
 -
 >
-base
-=
-NULL
-;
-stream
--
->
 close
 =
 NULL

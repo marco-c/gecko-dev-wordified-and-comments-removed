@@ -889,7 +889,7 @@ data
 else
 if
 (
-FT_QALLOC
+FT_ALLOC
 (
 node
 list

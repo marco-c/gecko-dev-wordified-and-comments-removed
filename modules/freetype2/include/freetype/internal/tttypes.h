@@ -995,7 +995,8 @@ hdmx_record_size
 ;
 FT_Byte
 *
-hdmx_record_sizes
+*
+hdmx_records
 ;
 FT_Byte
 *
@@ -1073,6 +1074,10 @@ cpal
 void
 *
 colr
+;
+void
+*
+svg
 ;
 }
 TT_FaceRec
@@ -1230,6 +1235,10 @@ limit
 ;
 FT_ListRec
 composites
+;
+FT_Byte
+*
+widthp
 ;
 }
 TT_LoaderRec
