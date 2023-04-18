@@ -228,6 +228,11 @@ TeeState
 cpp
 "
 "
+TransformerCallbackHelpers
+.
+cpp
+"
+"
 TransformStream
 .
 cpp
