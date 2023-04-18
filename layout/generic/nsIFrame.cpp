@@ -20133,8 +20133,10 @@ EffectiveAppearance
 )
 )
 )
+{
 return
 ;
+}
 if
 (
 isPaintingToWindow
@@ -20144,6 +20146,14 @@ child
 -
 >
 TrackingVisibility
+(
+)
+&
+&
+child
+-
+>
+IsVisibleForPainting
 (
 )
 )
