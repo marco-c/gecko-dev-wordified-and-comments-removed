@@ -177,8 +177,6 @@ aChromeFlags
 bool
 aCalledFromJS
 bool
-aWidthSpecified
-bool
 aIsForPrinting
 )
 ;
@@ -336,10 +334,6 @@ dom
 WindowFeatures
 &
 aFeatures
-const
-SizeSpec
-&
-aSizeSpec
 )
 ;
 static
@@ -356,10 +350,6 @@ dom
 WindowFeatures
 &
 aFeatures
-const
-SizeSpec
-&
-aSizeSpec
 )
 ;
 static

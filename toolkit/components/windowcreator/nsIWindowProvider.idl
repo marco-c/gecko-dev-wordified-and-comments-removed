@@ -71,9 +71,6 @@ in
 boolean
 aCalledFromJS
 in
-boolean
-aWidthSpecified
-in
 nsIURI
 aURI
 in

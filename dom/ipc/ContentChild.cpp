@@ -5499,8 +5499,6 @@ uint32_t
 aChromeFlags
 bool
 aCalledFromJS
-bool
-aWidthSpecified
 nsIURI
 *
 aURI
@@ -5815,7 +5813,6 @@ aTabOpener
 parent
 aChromeFlags
 aCalledFromJS
-aWidthSpecified
 aURI
 features
 fullZoom
@@ -6760,7 +6757,6 @@ parent
 newChild
 aChromeFlags
 aCalledFromJS
-aWidthSpecified
 aOpenWindowInfo
 -
 >
