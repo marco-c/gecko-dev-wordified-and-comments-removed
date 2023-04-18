@@ -1435,6 +1435,20 @@ else
 X86
 "
         
+if
+build_wasm
+and
+is_final_stage
+:
+            
+machine_targets
++
+=
+"
+;
+WebAssembly
+"
+        
 cmake_args
 =
 [
@@ -1806,22 +1820,6 @@ DCOMPILER_RT_BUILD_LIBFUZZER
 OFF
 "
             
-]
-        
-if
-build_wasm
-:
-            
-cmake_args
-+
-=
-[
-"
--
-DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD
-=
-WebAssembly
-"
 ]
         
 if
