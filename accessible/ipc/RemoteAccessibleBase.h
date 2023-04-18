@@ -775,6 +775,17 @@ const
 override
 ;
 virtual
+already_AddRefed
+<
+nsAtom
+>
+DisplayStyle
+(
+)
+const
+override
+;
+virtual
 uint8_t
 ActionCount
 (

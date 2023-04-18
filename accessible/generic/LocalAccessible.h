@@ -1997,6 +1997,17 @@ TagName
 const
 override
 ;
+virtual
+already_AddRefed
+<
+nsAtom
+>
+DisplayStyle
+(
+)
+const
+override
+;
 protected
 :
 virtual
