@@ -448,6 +448,11 @@ DELAYLOAD_DLLS
 =
 [
 "
+advapi32
+.
+dll
+"
+"
 oleaut32
 .
 dll
