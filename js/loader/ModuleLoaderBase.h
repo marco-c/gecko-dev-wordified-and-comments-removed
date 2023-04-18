@@ -242,6 +242,14 @@ loader
 ModuleLoadRequest
 ;
 virtual
+~
+ScriptLoaderInterface
+(
+)
+=
+default
+;
+virtual
 nsIURI
 *
 GetBaseURI

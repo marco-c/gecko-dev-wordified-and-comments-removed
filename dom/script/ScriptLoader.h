@@ -1017,7 +1017,6 @@ override
 ;
 private
 :
-virtual
 ~
 ScriptLoader
 (
