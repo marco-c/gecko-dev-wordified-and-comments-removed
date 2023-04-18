@@ -70,7 +70,7 @@ toctree
 maxdepth
 :
 1
-GraphicsOverview
+RenderingOverview
 LayersHistory
 AsyncPanZoom
 AdvancedLayers
