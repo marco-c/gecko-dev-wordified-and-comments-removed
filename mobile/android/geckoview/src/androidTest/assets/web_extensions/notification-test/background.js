@@ -26,7 +26,7 @@ cake
 iconUrl
 :
 "
-http
+https
 :
 /
 /

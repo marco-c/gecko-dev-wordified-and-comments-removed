@@ -614,7 +614,7 @@ val
 UNKNOWN_HOST_URI
 =
 "
-http
+https
 :
 /
 /

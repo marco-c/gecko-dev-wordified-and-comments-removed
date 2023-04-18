@@ -4061,7 +4061,7 @@ isAutomation
 )
 {
 "
-http
+https
 :
 /
 /
@@ -4081,7 +4081,7 @@ html
 else
 {
 "
-http
+https
 :
 /
 /
@@ -4113,7 +4113,7 @@ isAutomation
 )
 {
 "
-http
+https
 :
 /
 /
@@ -4135,7 +4135,7 @@ redirectUri
 else
 {
 "
-http
+https
 :
 /
 /
@@ -4652,7 +4652,7 @@ isAutomation
 )
 {
 "
-http
+https
 :
 /
 /
@@ -4672,7 +4672,7 @@ html
 else
 {
 "
-http
+https
 :
 /
 /
@@ -4704,7 +4704,7 @@ isAutomation
 )
 {
 "
-http
+https
 :
 /
 /
@@ -4726,7 +4726,7 @@ redirectUri
 else
 {
 "
-http
+https
 :
 /
 /
@@ -5058,7 +5058,7 @@ val
 uri
 =
 "
-http
+https
 :
 /
 /
