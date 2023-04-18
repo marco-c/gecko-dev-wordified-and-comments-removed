@@ -59,9 +59,6 @@ char
 int
 "
 "
-uint
-"
-"
 long
 "
 "
@@ -620,9 +617,6 @@ M_SQRT1_2
 "
 "
 DefaultConstructible
-"
-"
-clamped_lod_e
 "
 ]
 ;

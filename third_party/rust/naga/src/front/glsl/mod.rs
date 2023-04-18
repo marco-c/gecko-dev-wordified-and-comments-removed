@@ -31,10 +31,6 @@ crate
 :
 :
 {
-proc
-:
-:
-Layouter
 FastHashMap
 FastHashSet
 Handle
@@ -397,9 +393,6 @@ Vec
 <
 EntryArg
 >
-layouter
-:
-Layouter
 errors
 :
 Vec
@@ -460,14 +453,6 @@ clear
 self
 .
 entry_args
-.
-clear
-(
-)
-;
-self
-.
-layouter
 .
 clear
 (

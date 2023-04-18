@@ -68,13 +68,6 @@ any
 (
 windows
 unix_wo_apple
-feature
-=
-"
-vulkan
--
-portability
-"
 )
 )
 }
@@ -107,6 +100,7 @@ dx11
 {
 all
 (
+false
 not
 (
 wasm

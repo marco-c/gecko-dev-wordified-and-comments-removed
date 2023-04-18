@@ -147,12 +147,12 @@ super
 fn
 map_storage_class
 (
-space
+class
 :
 crate
 :
 :
-AddressSpace
+StorageClass
 )
 -
 >
@@ -162,12 +162,12 @@ spirv
 StorageClass
 {
 match
-space
+class
 {
 crate
 :
 :
-AddressSpace
+StorageClass
 :
 :
 Handle
@@ -183,7 +183,7 @@ UniformConstant
 crate
 :
 :
-AddressSpace
+StorageClass
 :
 :
 Function
@@ -199,7 +199,7 @@ Function
 crate
 :
 :
-AddressSpace
+StorageClass
 :
 :
 Private
@@ -215,7 +215,7 @@ Private
 crate
 :
 :
-AddressSpace
+StorageClass
 :
 :
 Storage
@@ -235,7 +235,7 @@ StorageBuffer
 crate
 :
 :
-AddressSpace
+StorageClass
 :
 :
 Uniform
@@ -251,7 +251,7 @@ Uniform
 crate
 :
 :
-AddressSpace
+StorageClass
 :
 :
 WorkGroup
@@ -267,7 +267,7 @@ Workgroup
 crate
 :
 :
-AddressSpace
+StorageClass
 :
 :
 PushConstant
@@ -414,7 +414,7 @@ impl
 crate
 :
 :
-AddressSpace
+StorageClass
 {
 pub
 (
@@ -539,12 +539,12 @@ bool
 match
 var
 .
-space
+class
 {
 crate
 :
 :
-AddressSpace
+StorageClass
 :
 :
 Uniform
@@ -552,7 +552,7 @@ Uniform
 crate
 :
 :
-AddressSpace
+StorageClass
 :
 :
 Storage
@@ -564,7 +564,7 @@ Storage
 crate
 :
 :
-AddressSpace
+StorageClass
 :
 :
 PushConstant
@@ -668,6 +668,6 @@ false
 _
 =
 >
-true
+false
 }
 }

@@ -893,13 +893,6 @@ derive
 Debug
 )
 ]
-#
-[
-allow
-(
-dead_code
-)
-]
 enum
 Inner
 <

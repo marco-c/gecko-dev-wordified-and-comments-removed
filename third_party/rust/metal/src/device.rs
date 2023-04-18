@@ -160,9 +160,6 @@ macOS_GPUFamily1_v1
 macOS_GPUFamily1_v2
 =
 10001
-macOS_ReadWriteTextureTier2
-=
-10002
 macOS_GPUFamily1_v3
 =
 10003
@@ -553,8 +550,6 @@ macOS_GPUFamily1_v1
 >
 11
 macOS_GPUFamily1_v2
-|
-macOS_ReadWriteTextureTier2
 =
 >
 12
@@ -610,8 +605,6 @@ tvOS_GPUFamily1_v4
 macOS_GPUFamily1_v1
 |
 macOS_GPUFamily1_v2
-|
-macOS_ReadWriteTextureTier2
 |
 macOS_GPUFamily1_v3
 |
@@ -693,8 +686,6 @@ iOS_GPUFamily5_v1
 macOS_GPUFamily1_v1
 |
 macOS_GPUFamily2_v1
-|
-macOS_ReadWriteTextureTier2
 |
 tvOS_GPUFamily1_v1
 |

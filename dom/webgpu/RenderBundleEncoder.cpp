@@ -212,12 +212,10 @@ ffi
 WGPUTextureFormat
 depthStencilFormat
 =
-{
 ffi
 :
 :
 WGPUTextureFormat_Sentinel
-}
 ;
 if
 (
@@ -292,12 +290,10 @@ ffi
 WGPUTextureFormat
 format
 =
-{
 ffi
 :
 :
 WGPUTextureFormat_Sentinel
-}
 ;
 WebGPUChild
 :
