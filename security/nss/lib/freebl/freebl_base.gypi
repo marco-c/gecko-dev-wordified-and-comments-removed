@@ -481,6 +481,11 @@ coverage
 !
 =
 1
+and
+force_integrated_as
+!
+=
+1
 '
 {
 '

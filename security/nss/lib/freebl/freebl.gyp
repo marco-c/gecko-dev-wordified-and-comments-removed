@@ -146,6 +146,11 @@ cc_is_clang
 =
 =
 1
+and
+force_integrated_as
+!
+=
+1
 '
 {
 '
@@ -1816,6 +1821,11 @@ conditions
 '
 cc_is_clang
 =
+=
+1
+and
+force_integrated_as
+!
 =
 1
 '

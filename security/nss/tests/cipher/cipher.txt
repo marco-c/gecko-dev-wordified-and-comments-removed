@@ -301,6 +301,16 @@ dsa_
 V
 DSA_Verify
 0
+ecdsa_
+-
+S
+ECDSA_Sign
+0
+ecdsa_
+-
+V
+ECDSA_Verify
+0
 md2_
 -
 H
