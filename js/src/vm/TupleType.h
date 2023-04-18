@@ -242,7 +242,14 @@ isAtomized
 const
 {
 return
-false
+getElementsHeader
+(
+)
+-
+>
+tupleIsAtomized
+(
+)
 ;
 }
 static
