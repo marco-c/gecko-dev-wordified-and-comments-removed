@@ -83,6 +83,14 @@ mozilla
 .
 geckoview
 .
+GeckoRuntime
+import
+org
+.
+mozilla
+.
+geckoview
+.
 test
 .
 BaseSessionTest
@@ -214,6 +222,9 @@ expectFatal
 *
 /
 true
+GeckoRuntime
+.
+CRASHED_PROCESS_TYPE_MAIN
 )
 val
 runtime

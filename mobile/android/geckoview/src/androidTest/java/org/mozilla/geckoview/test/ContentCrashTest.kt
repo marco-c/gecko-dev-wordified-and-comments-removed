@@ -107,6 +107,14 @@ mozilla
 .
 geckoview
 .
+GeckoRuntime
+import
+org
+.
+mozilla
+.
+geckoview
+.
 GeckoSession
 .
 ContentDelegate
@@ -181,6 +189,9 @@ expectFatal
 *
 /
 false
+GeckoRuntime
+.
+CRASHED_PROCESS_TYPE_FOREGROUND_CHILD
 )
 }
 IgnoreCrash

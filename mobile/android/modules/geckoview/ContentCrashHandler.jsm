@@ -383,6 +383,13 @@ getPendingMinidump
 dumpID
 )
 ;
+const
+processType
+=
+"
+FOREGROUND_CHILD
+"
+;
 EventDispatcher
 .
 instance
@@ -405,6 +412,7 @@ true
 fatal
 :
 false
+processType
 }
 )
 ;
