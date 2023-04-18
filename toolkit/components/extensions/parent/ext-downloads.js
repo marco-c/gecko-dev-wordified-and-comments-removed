@@ -3108,6 +3108,16 @@ download
 options
 )
 {
+const
+isHandlingUserInput
+=
+context
+.
+callContextData
+?
+.
+isHandlingUserInput
+;
 let
 {
 filename
@@ -4683,6 +4693,9 @@ Downloads
 createDownload
 (
 {
+openDownloadsListOnStart
+:
+isHandlingUserInput
 source
 target
 :
