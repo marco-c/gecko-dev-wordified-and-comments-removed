@@ -48,7 +48,6 @@ destroy
 (
 )
 {
-return
 this
 .
 _inspector
