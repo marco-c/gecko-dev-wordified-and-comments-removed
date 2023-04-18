@@ -33,6 +33,13 @@ h
 #
 include
 "
+MainThreadUtils
+.
+h
+"
+#
+include
+"
 ErrorNamesInternal
 .
 h
@@ -183,6 +190,11 @@ nullptr
 if
 (
 isSecurityError
+&
+&
+NS_IsMainThread
+(
+)
 )
 {
 PRErrorCode
