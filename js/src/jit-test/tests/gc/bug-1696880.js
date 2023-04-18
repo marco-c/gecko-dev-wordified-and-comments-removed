@@ -35,7 +35,7 @@ return
 c
 ;
 }
-offThreadDecodeScript
+offThreadDecodeStencil
 (
 a
 (

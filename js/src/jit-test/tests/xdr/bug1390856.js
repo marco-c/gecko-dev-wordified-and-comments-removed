@@ -123,7 +123,7 @@ i
 THREAD_TYPE_PARSE
 )
 ;
-offThreadDecodeScript
+offThreadDecodeStencil
 (
 t
 {
@@ -133,8 +133,16 @@ true
 }
 )
 ;
-runOffThreadDecodedScript
+var
+stencil
+=
+finishOffThreadDecodeStencil
 (
+)
+;
+evalStencil
+(
+stencil
 )
 ;
 }

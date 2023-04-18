@@ -729,11 +729,11 @@ srcName
 ;
 enum
 class
-ScriptKind
+OffThreadJobKind
 {
-ScriptStencil
-DecodeScript
-ModuleStencil
+CompileScript
+CompileModule
+Decode
 }
 ;
 class

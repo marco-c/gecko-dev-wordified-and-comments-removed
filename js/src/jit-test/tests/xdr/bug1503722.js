@@ -64,7 +64,7 @@ i
 THREAD_TYPE_PARSE
 )
 ;
-offThreadDecodeScript
+offThreadDecodeStencil
 (
 t
 {
