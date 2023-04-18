@@ -67,6 +67,7 @@ page
 "
 )
 ;
+await
 startProfiler
 (
 {
@@ -386,6 +387,7 @@ profile
 "
 )
 ;
+await
 startProfiler
 (
 )
@@ -496,6 +498,7 @@ page
 "
 )
 ;
+await
 startProfiler
 (
 {
@@ -668,6 +671,7 @@ profile
 "
 )
 ;
+await
 startProfiler
 (
 )

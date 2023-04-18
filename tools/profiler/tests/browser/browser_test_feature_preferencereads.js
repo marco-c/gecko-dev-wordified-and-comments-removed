@@ -204,6 +204,7 @@ active
 "
 )
 ;
+await
 startProfiler
 (
 {
@@ -339,6 +340,7 @@ on
 )
 ;
 }
+await
 startProfiler
 (
 {

@@ -28,6 +28,7 @@ features
 [
 ]
 ;
+await
 Services
 .
 profiler

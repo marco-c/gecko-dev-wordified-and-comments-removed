@@ -116,6 +116,7 @@ profiler
 "
 )
 ;
+await
 startProfiler
 (
 {
@@ -375,6 +376,7 @@ allocations
 )
 ;
 {
+await
 startProfiler
 (
 {

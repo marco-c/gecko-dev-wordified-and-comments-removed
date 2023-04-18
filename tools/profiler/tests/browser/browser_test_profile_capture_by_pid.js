@@ -243,6 +243,7 @@ content
 "
 )
 ;
+await
 startProfiler
 (
 {

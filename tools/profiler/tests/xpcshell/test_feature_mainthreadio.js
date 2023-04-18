@@ -321,6 +321,7 @@ threads
 [
 ]
 ;
+await
 Services
 .
 profiler
@@ -559,6 +560,7 @@ getProfileDataAsync
 (
 )
 ;
+await
 Services
 .
 profiler

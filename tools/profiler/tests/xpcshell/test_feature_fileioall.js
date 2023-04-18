@@ -574,6 +574,7 @@ interval
 =
 10
 ;
+await
 Services
 .
 profiler
@@ -812,6 +813,7 @@ getProfileDataAsync
 (
 )
 ;
+await
 Services
 .
 profiler

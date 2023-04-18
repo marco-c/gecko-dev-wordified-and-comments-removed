@@ -106,6 +106,7 @@ browser
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -162,6 +163,7 @@ tests
 "
 )
 ;
+await
 Services
 .
 profiler
@@ -201,6 +203,7 @@ getProfileDataAsync
 (
 )
 ;
+await
 Services
 .
 profiler

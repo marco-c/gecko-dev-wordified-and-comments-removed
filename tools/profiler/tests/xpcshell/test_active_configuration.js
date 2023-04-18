@@ -1,7 +1,10 @@
-function
-run_test
+add_task
+(
+async
 (
 )
+=
+>
 {
 info
 (
@@ -103,6 +106,7 @@ activeTabID
 =
 123
 ;
+await
 Services
 .
 profiler
@@ -269,6 +273,7 @@ configuration
 "
 )
 ;
+await
 Services
 .
 profiler
@@ -382,6 +387,7 @@ object
 )
 ;
 }
+await
 Services
 .
 profiler
@@ -414,3 +420,5 @@ configuration
 )
 ;
 }
+)
+;

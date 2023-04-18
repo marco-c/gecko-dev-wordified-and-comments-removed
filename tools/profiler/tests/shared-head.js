@@ -121,6 +121,7 @@ defaultSettings
 callersSettings
 )
 ;
+return
 Services
 .
 profiler
@@ -151,6 +152,7 @@ startProfilerForMarkerTests
 (
 )
 {
+return
 startProfiler
 (
 {
@@ -852,6 +854,7 @@ getProfileDataAsync
 (
 )
 ;
+await
 Services
 .
 profiler

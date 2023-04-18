@@ -1,7 +1,10 @@
-function
-run_test
+add_task
+(
+async
 (
 )
+=
+>
 {
 Assert
 .
@@ -44,6 +47,7 @@ ms
 =
 10
 ;
+await
 Services
 .
 profiler
@@ -407,6 +411,7 @@ i3
 i4
 )
 ;
+await
 Services
 .
 profiler
@@ -416,3 +421,5 @@ StopProfiler
 )
 ;
 }
+)
+;

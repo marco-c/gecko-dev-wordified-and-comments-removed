@@ -38,6 +38,7 @@ mode
 "
 )
 ;
+await
 startProfiler
 (
 {

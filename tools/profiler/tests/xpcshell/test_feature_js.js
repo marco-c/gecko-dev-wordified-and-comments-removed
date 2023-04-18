@@ -31,6 +31,7 @@ js
 "
 ]
 ;
+await
 Services
 .
 profiler
@@ -60,6 +61,15 @@ Services
 profiler
 .
 getProfileDataAsync
+(
+)
+;
+await
+Services
+.
+profiler
+.
+StopProfiler
 (
 )
 ;

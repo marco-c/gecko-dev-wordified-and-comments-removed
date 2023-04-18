@@ -155,6 +155,7 @@ messages
 "
 )
 ;
+await
 startProfiler
 (
 {
@@ -394,6 +395,7 @@ messages
 "
 )
 ;
+await
 startProfiler
 (
 {
