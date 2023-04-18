@@ -56,5 +56,16 @@ nsIPrincipal
 aPrincipal
 )
 ;
+[
+implicit_jscontext
+]
+Promise
+getState
+(
+in
+nsIPrincipal
+aPrincipal
+)
+;
 }
 ;

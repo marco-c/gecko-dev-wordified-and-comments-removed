@@ -60,6 +60,9 @@ include
 protocol
 PBackground
 ;
+include
+PBackgroundLSSharedTypes
+;
 namespace
 mozilla
 {
@@ -93,6 +96,16 @@ preloaded
 ;
 }
 ;
+struct
+LSSimpleRequestGetStateResponse
+{
+LSItemInfo
+[
+]
+itemInfos
+;
+}
+;
 /
 *
 *
@@ -123,6 +136,8 @@ LSSimpleRequestResponse
 nsresult
 ;
 LSSimpleRequestPreloadedResponse
+;
+LSSimpleRequestGetStateResponse
 ;
 }
 ;

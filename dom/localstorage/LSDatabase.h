@@ -304,6 +304,11 @@ aObject
 )
 ;
 nsresult
+CheckpointExplicitSnapshot
+(
+)
+;
+nsresult
 EndExplicitSnapshot
 (
 )
