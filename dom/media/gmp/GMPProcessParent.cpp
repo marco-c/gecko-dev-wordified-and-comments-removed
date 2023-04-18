@@ -94,9 +94,7 @@ include
 "
 mozilla
 /
-dom
-/
-ContentChild
+Omnijar
 .
 h
 "
