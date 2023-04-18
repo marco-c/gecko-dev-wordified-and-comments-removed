@@ -4,9 +4,7 @@ strict
 "
 ;
 const
-{
 LegacyProcessesWatcher
-}
 =
 require
 (
@@ -1006,7 +1004,5 @@ module
 .
 exports
 =
-{
 LegacyWorkersWatcher
-}
 ;

@@ -24,9 +24,7 @@ listener
 )
 ;
 const
-{
 LegacyWorkersWatcher
-}
 =
 require
 (
@@ -1114,7 +1112,5 @@ module
 .
 exports
 =
-{
 LegacyServiceWorkersWatcher
-}
 ;
