@@ -1240,16 +1240,8 @@ CollapseTo
 (
 uint32_t
 aOffset
-const
-WritingMode
-&
-aWritingMode
 )
 {
-mWritingMode
-=
-aWritingMode
-;
 mOffset
 =
 aOffset

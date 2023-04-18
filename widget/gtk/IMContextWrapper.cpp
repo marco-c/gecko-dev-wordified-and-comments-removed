@@ -10856,9 +10856,6 @@ aCommitString
 Length
 (
 )
-mSelection
-.
-mWritingMode
 )
 ;
 MOZ_LOG
@@ -11177,9 +11174,6 @@ Length
 (
 )
 )
-mSelection
-.
-mWritingMode
 )
 ;
 }
