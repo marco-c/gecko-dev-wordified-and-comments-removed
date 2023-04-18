@@ -727,6 +727,7 @@ uint32_t
 aFlags
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyOfReFocus
 (

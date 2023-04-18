@@ -362,6 +362,7 @@ nsEventStatus
 aStatus
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyDestroyPresContext
 (

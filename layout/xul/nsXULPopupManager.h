@@ -2226,6 +2226,7 @@ nsIContent
 aOldPopup
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 UpdateKeyboardListeners
 (

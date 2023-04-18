@@ -3098,6 +3098,8 @@ EditorHasFocus
 )
 )
 {
+if
+(
 RefPtr
 <
 nsPresContext
@@ -3107,10 +3109,6 @@ presContext
 GetPresContext
 (
 )
-;
-if
-(
-presContext
 )
 {
 nsCOMPtr
@@ -3131,8 +3129,10 @@ IMEStateManager
 :
 OnClickInEditor
 (
+*
 presContext
 focusedContent
+*
 aMouseClickEvent
 )
 ;
