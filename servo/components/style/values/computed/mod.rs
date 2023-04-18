@@ -723,16 +723,6 @@ self
 list
 :
 :
-MozListReversed
-;
-pub
-use
-self
-:
-:
-list
-:
-:
 Quotes
 ;
 pub

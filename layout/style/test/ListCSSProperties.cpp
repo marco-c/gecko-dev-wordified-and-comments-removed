@@ -336,14 +336,6 @@ inert
 -
 moz
 -
-list
--
-reversed
-"
-"
--
-moz
--
 script
 -
 level

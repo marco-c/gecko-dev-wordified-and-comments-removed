@@ -536,14 +536,6 @@ style
 type
 "
 "
--
-moz
--
-list
--
-reversed
-"
-"
 marker
 -
 end

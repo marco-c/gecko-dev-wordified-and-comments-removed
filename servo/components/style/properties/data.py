@@ -2950,10 +2950,6 @@ MozControlCharacterVisibility
 "
                 
 "
-MozListReversed
-"
-                
-"
 MathDepth
 "
                 

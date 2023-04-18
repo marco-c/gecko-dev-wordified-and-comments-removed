@@ -2891,12 +2891,6 @@ mozilla
 StyleClipRectOrAuto
 mImageRegion
 ;
-mozilla
-:
-:
-StyleMozListReversed
-mMozListReversed
-;
 }
 ;
 struct
