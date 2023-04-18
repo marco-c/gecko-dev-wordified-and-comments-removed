@@ -2688,7 +2688,7 @@ inputElement
 )
 ;
 }
-const
+let
 messageData
 =
 {
@@ -2697,6 +2697,16 @@ searchString
 previousResult
 forcePasswordGeneration
 hasBeenTypePassword
+isSecure
+:
+lazy
+.
+InsecurePasswordUtils
+.
+isFormSecure
+(
+form
+)
 isProbablyANewPasswordField
 }
 ;
@@ -2729,6 +2739,11 @@ search
 "
 {
 forcePasswordGeneration
+isSecure
+:
+messageData
+.
+isSecure
 hasBeenTypePassword
 isProbablyANewPasswordField
 searchStringLength
