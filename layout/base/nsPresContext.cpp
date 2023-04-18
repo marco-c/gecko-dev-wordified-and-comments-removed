@@ -4618,6 +4618,16 @@ mColorSchemeOverride
 MediaFeatureValuesChanged
 (
 {
+RestyleHint
+:
+:
+RecascadeSubtree
+(
+)
+nsChangeHint
+(
+0
+)
 MediaFeatureChangeReason
 :
 :
