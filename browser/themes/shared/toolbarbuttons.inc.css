@@ -1873,8 +1873,6 @@ outline
 -
 offset
 :
-calc
-(
 var
 (
 -
@@ -1883,11 +1881,7 @@ focus
 -
 outline
 -
-width
-)
-*
--
-1
+inset
 )
 ;
 }
@@ -2004,11 +1998,8 @@ focus
 -
 outline
 -
-width
+inset
 )
-*
--
-1
 -
 1px
 )

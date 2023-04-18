@@ -830,8 +830,16 @@ outline
 -
 offset
 :
+var
+(
 -
-2px
+-
+focus
+-
+outline
+-
+inset
+)
 ;
 }
 /

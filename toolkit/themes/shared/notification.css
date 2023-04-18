@@ -1027,8 +1027,6 @@ outline
 -
 offset
 :
-calc
-(
 var
 (
 -
@@ -1037,11 +1035,7 @@ focus
 -
 outline
 -
-width
-)
-*
--
-1
+inset
 )
 ;
 border

@@ -426,12 +426,6 @@ box
 -
 button
 :
-not
-(
-:
-active
-)
-:
 focus
 -
 visible
@@ -443,12 +437,6 @@ protection
 icon
 -
 container
-:
-not
-(
-:
-active
-)
 :
 focus
 -
@@ -469,11 +457,6 @@ outline
 -
 offset
 :
-calc
-(
--
-1
-*
 var
 (
 -
@@ -482,8 +465,7 @@ focus
 -
 outline
 -
-width
-)
+inset
 )
 ;
 }
