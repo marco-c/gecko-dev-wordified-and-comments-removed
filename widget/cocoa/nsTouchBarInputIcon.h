@@ -31,13 +31,6 @@ nsTouchBarInput
 .
 h
 "
-#
-include
-"
-nsTouchBarNativeAPIDefines
-.
-h
-"
 using
 namespace
 mozilla
