@@ -11,7 +11,7 @@ storage
 edition
 =
 "
-2018
+2021
 "
 version
 =
@@ -45,17 +45,6 @@ MPL
 "
 [
 features
-]
-log_query_plans
-=
-[
-"
-sql
--
-support
-/
-log_query_plans
-"
 ]
 default
 =
@@ -229,9 +218,9 @@ version
 "
 0
 .
-24
+27
 .
-2
+0
 "
 features
 =
@@ -327,7 +316,7 @@ sys
 "
 0
 .
-20
+24
 .
 1
 "

@@ -11,7 +11,7 @@ support
 edition
 =
 "
-2018
+2021
 "
 version
 =
@@ -49,10 +49,6 @@ MPL
 features
 ]
 default
-=
-[
-]
-log_query_plans
 =
 [
 ]
@@ -122,9 +118,9 @@ version
 "
 0
 .
-24
+27
 .
-2
+0
 "
 features
 =

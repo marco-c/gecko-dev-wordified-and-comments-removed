@@ -92,6 +92,10 @@ free_array
 ARRAY_TYPE
 }
 ;
+#
+[
+inline
+]
 pub
 (
 super
@@ -435,6 +439,7 @@ sqlite3_result_zeroblob
 ctx
 0
 )
+;
 }
 else
 {
@@ -449,10 +454,15 @@ b
 as_ptr
 (
 )
-as
-*
-const
+.
+cast
+:
+:
+<
 c_void
+>
+(
+)
 length
 as
 c_int

@@ -66,6 +66,7 @@ engine
 CollSyncIds
 EngineSyncAssociation
 SyncEngine
+SyncEngineId
 }
 ;
 pub

@@ -510,10 +510,9 @@ conn
 (
 )
 .
-query_rows_and_then_named
+query_rows_and_then
 (
 sql
-&
 [
 ]
 |
@@ -634,7 +633,6 @@ sql_support
 :
 each_chunk
 (
-&
 items
 |
 chunk
@@ -695,7 +693,13 @@ execute
 (
 &
 sql
+rusqlite
+:
+:
+params_from_iter
+(
 chunk
+)
 )
 ?
 ;

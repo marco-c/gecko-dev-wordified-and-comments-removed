@@ -12,10 +12,7 @@ use
 rusqlite
 :
 :
-{
 Connection
-NO_PARAMS
-}
 ;
 fn
 bench_execute
@@ -62,7 +59,8 @@ db
 execute
 (
 sql
-NO_PARAMS
+[
+]
 )
 .
 unwrap

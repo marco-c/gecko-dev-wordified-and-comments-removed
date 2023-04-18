@@ -517,7 +517,6 @@ schema
 :
 create_empty_sync_temp_tables
 (
-&
 self
 .
 db
@@ -560,6 +559,7 @@ db
 begin_interrupt_scope
 (
 )
+?
 ;
 let
 mut
@@ -660,6 +660,7 @@ db
 begin_interrupt_scope
 (
 )
+?
 ;
 let
 tx
@@ -742,7 +743,6 @@ outgoing
 =
 get_outgoing
 (
-&
 self
 .
 db
@@ -817,6 +817,7 @@ db
 begin_interrupt_scope
 (
 )
+?
 ;
 let
 tx
@@ -872,7 +873,6 @@ schema
 :
 create_empty_sync_temp_tables
 (
-&
 self
 .
 db
@@ -1076,13 +1076,12 @@ FROM
 "
 table
 )
-rusqlite
-:
-:
-NO_PARAMS
+[
+]
 |
 row
 |
+{
 row
 .
 get
@@ -1095,6 +1094,7 @@ u32
 (
 0
 )
+}
 )
 .
 expect
@@ -1158,10 +1158,8 @@ json
 2
 )
 "
-rusqlite
-:
-:
-NO_PARAMS
+[
+]
 )
 ?
 ;
@@ -1195,10 +1193,8 @@ a
 '
 )
 "
-rusqlite
-:
-:
-NO_PARAMS
+[
+]
 )
 ?
 ;
@@ -1323,10 +1319,8 @@ a
 '
 ;
 "
-rusqlite
-:
-:
-NO_PARAMS
+[
+]
 |
 row
 |
@@ -1457,10 +1451,8 @@ a
 '
 ;
 "
-rusqlite
-:
-:
-NO_PARAMS
+[
+]
 |
 row
 |

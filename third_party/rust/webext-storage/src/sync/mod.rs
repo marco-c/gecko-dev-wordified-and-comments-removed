@@ -878,6 +878,7 @@ db
 begin_interrupt_scope
 (
 )
+?
 ;
 let
 sql
@@ -898,10 +899,9 @@ conn
 (
 )
 .
-query_rows_and_then_named
+query_rows_and_then
 (
 sql
-&
 [
 ]
 |
@@ -1438,7 +1438,6 @@ new_value
 :
 None
 }
-;
 }
 ;
 (
@@ -1476,7 +1475,6 @@ new
 )
 )
 }
-;
 }
 ;
 (
@@ -1523,7 +1521,6 @@ new
 )
 )
 }
-;
 }
 ;
 }

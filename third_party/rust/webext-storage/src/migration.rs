@@ -16,7 +16,6 @@ named_params
 Connection
 OpenFlags
 Transaction
-NO_PARAMS
 }
 ;
 use
@@ -995,7 +994,8 @@ stmt
 .
 query_and_then
 (
-NO_PARAMS
+[
+]
 |
 row
 |
@@ -1275,7 +1275,7 @@ len
 ;
 tx
 .
-execute_named_cached
+execute_cached
 (
 "
 INSERT
@@ -1449,7 +1449,7 @@ self
 ;
 conn
 .
-execute_named
+execute
 (
 "
 INSERT
@@ -1534,6 +1534,7 @@ try_query_one
 :
 <
 String
+_
 >
 (
 "
@@ -1566,7 +1567,7 @@ false
 ;
 tx
 .
-execute_named
+execute
 (
 "
 DELETE

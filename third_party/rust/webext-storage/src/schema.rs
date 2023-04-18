@@ -199,7 +199,6 @@ initial_pragmas
 ;
 define_functions
 (
-&
 conn
 )
 ?
@@ -548,7 +547,6 @@ types
 :
 Value
 Connection
-NO_PARAMS
 }
 ;
 #
@@ -611,7 +609,8 @@ stmt
 .
 query
 (
-NO_PARAMS
+[
+]
 )
 ?
 ;
@@ -645,7 +644,7 @@ col
 in
 rows
 .
-columns
+as_ref
 (
 )
 .
@@ -654,8 +653,12 @@ expect
 "
 must
 have
-columns
+statement
 "
+)
+.
+columns
+(
 )
 {
 titles
@@ -715,6 +718,10 @@ in
 .
 .
 sql_row
+.
+as_ref
+(
+)
 .
 column_count
 (
@@ -1050,10 +1057,8 @@ temp
 storage_sync_staging
 ;
 "
-rusqlite
-:
-:
-NO_PARAMS
+[
+]
 |
 row
 |
@@ -1128,10 +1133,8 @@ temp
 storage_sync_staging
 ;
 "
-rusqlite
-:
-:
-NO_PARAMS
+[
+]
 |
 row
 |
@@ -1254,6 +1257,7 @@ try_query_row
 <
 _
 Error
+_
 _
 >
 (

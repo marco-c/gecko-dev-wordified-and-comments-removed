@@ -16,6 +16,7 @@ sync
 :
 :
 {
+Arc
 Mutex
 MutexGuard
 }
@@ -42,7 +43,7 @@ sync
 OnceCell
 ;
 use
-sql_support
+interrupt_support
 :
 :
 SqlInterruptHandle
@@ -116,7 +117,10 @@ Store
 >
 handle
 :
+Arc
+<
 SqlInterruptHandle
+>
 }
 impl
 LazyStore
