@@ -28,6 +28,12 @@ expectUtility
 }
 )
 ;
+if
+(
+!
+expectUtility
+)
+{
 await
 SpecialPowers
 .
@@ -53,6 +59,7 @@ expectUtility
 }
 )
 ;
+}
 for
 (
 let
