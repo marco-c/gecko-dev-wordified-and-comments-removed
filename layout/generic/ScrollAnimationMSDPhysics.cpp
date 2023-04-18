@@ -188,8 +188,8 @@ CSSPoint
 aShiftDelta
 )
 {
-nsPoint
-shiftDelta
+mContentShift
++
 =
 CSSPoint
 :
@@ -198,16 +198,6 @@ ToAppUnits
 (
 aShiftDelta
 )
-;
-mStartPos
-+
-=
-shiftDelta
-;
-mDestination
-+
-=
-shiftDelta
 ;
 }
 double
@@ -438,6 +428,8 @@ GetPosition
 )
 )
 )
++
+mContentShift
 ;
 }
 nsSize
