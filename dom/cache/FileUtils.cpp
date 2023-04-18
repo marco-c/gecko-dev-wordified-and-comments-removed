@@ -374,12 +374,6 @@ aRv
 =
 =
 NS_ERROR_FILE_NOT_FOUND
-|
-|
-aRv
-=
-=
-NS_ERROR_FILE_TARGET_DOES_NOT_EXIST
 ;
 }
 Result

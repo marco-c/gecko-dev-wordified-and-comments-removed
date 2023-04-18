@@ -1862,7 +1862,7 @@ if
 currItem
 )
 return
-NS_ERROR_FILE_TARGET_DOES_NOT_EXIST
+NS_ERROR_FILE_NOT_FOUND
 ;
 if
 (
@@ -2790,7 +2790,7 @@ mPattern
 )
 ;
 return
-NS_ERROR_FILE_TARGET_DOES_NOT_EXIST
+NS_ERROR_FILE_NOT_FOUND
 ;
 }
 nsZipItem
