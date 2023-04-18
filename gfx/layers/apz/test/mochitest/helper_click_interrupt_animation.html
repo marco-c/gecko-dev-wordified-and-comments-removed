@@ -416,7 +416,7 @@ scroll
 animation
 .
 await
-promiseNativeMouseEventWithAPZ
+promiseNativeMouseEventWithAPZAndWaitForEvent
 (
 {
 type
@@ -433,6 +433,11 @@ xoffset
 offsetY
 :
 yoffset
+eventTypeToWait
+:
+"
+mouseup
+"
 }
 )
 ;
@@ -544,7 +549,7 @@ stable
 state
 .
 await
-promiseNativeMouseEventWithAPZ
+promiseNativeMouseEventWithAPZAndWaitForEvent
 (
 {
 type
