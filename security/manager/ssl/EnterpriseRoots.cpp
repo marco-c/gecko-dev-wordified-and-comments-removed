@@ -1317,10 +1317,6 @@ fallBackToDeprecatedAPI
 =
 true
 ;
-#
-if
-defined
-MAC_OS_X_VERSION_10_14
 if
 (
 nsCocoaFeatures
@@ -1361,8 +1357,6 @@ false
 ;
 }
 }
-#
-endif
 if
 (
 fallBackToDeprecatedAPI
