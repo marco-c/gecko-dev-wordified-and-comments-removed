@@ -7754,7 +7754,10 @@ NativeObject
 MAX_DENSE_ELEMENTS_COUNT
 <
 =
-JSID_INT_MAX
+PropertyKey
+:
+:
+IntMax
 "
 dense
 elements
@@ -7762,7 +7765,10 @@ don
 '
 t
 exceed
-JSID_INT_MAX
+PropertyKey
+:
+:
+IntMax
 "
 )
 ;
@@ -7998,7 +8004,10 @@ NativeObject
 MAX_DENSE_ELEMENTS_COUNT
 <
 =
-JSID_INT_MAX
+PropertyKey
+:
+:
+IntMax
 "
 dense
 elements
@@ -8006,7 +8015,10 @@ don
 '
 t
 exceed
-JSID_INT_MAX
+PropertyKey
+:
+:
+IntMax
 "
 )
 ;

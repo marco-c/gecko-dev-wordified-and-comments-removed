@@ -4940,7 +4940,13 @@ MOZ_ASSERT
 (
 index
 >
-JSID_INT_MAX
+JS
+:
+:
+PropertyKey
+:
+:
+IntMax
 )
 ;
 char16_t

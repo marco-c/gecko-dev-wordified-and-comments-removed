@@ -4814,7 +4814,10 @@ target
 ;
 static_assert
 (
-JSID_INT_MAX
+PropertyKey
+:
+:
+IntMax
 >
 =
 INT32_MAX

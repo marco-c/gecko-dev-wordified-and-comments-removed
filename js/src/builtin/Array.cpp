@@ -13475,7 +13475,10 @@ uint32_t
 >
 (
 count
-JSID_INT_MAX
+PropertyKey
+:
+:
+IntMax
 )
 ;
 for

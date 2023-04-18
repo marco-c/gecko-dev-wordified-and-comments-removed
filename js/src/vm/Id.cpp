@@ -258,7 +258,10 @@ true
 }
 static_assert
 (
-JSID_INT_MIN
+PropertyKey
+:
+:
+IntMin
 =
 =
 0
@@ -267,7 +270,10 @@ JSID_INT_MIN
 return
 index
 >
-JSID_INT_MAX
+PropertyKey
+:
+:
+IntMax
 ;
 }
 bool

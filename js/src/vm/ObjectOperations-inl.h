@@ -1270,7 +1270,10 @@ if
 (
 index
 >
-JSID_INT_MAX
+PropertyKey
+:
+:
+IntMax
 )
 {
 return
