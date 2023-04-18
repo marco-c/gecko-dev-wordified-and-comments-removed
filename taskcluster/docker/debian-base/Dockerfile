@@ -254,6 +254,10 @@ python3
 -
 psutil
 \
+python3
+-
+venv
+\
 vim
 -
 tiny
