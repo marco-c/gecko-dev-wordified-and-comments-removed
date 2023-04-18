@@ -1751,7 +1751,7 @@ kMaxptimeAttribute
 )
 )
 {
-mFrameSizeMs
+mMaxFrameSizeMs
 =
 remoteMsection
 .
