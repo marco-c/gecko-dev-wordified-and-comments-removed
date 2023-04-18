@@ -1319,8 +1319,9 @@ mCallback
 )
 {
 return
-IPC_OK
+IPC_FAIL_NO_REASON
 (
+this
 )
 ;
 }
@@ -1371,8 +1372,9 @@ mTimestamp
 )
 ;
 return
-IPC_OK
+IPC_FAIL_NO_REASON
 (
+this
 )
 ;
 }
