@@ -11250,6 +11250,9 @@ serde_json
 serde_yaml
 "
 "
+url
+"
+"
 uuid
 "
 "
@@ -32123,12 +32126,6 @@ http
 "
 "
 log
-"
-"
-once_cell
-"
-"
-regex
 "
 "
 serde
