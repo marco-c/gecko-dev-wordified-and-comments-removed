@@ -238,8 +238,8 @@ forget
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ProcessingInstruction
@@ -654,5 +654,4 @@ const
 }
 #
 endif
-}
 }

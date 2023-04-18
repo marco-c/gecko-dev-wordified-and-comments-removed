@@ -164,8 +164,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -937,6 +937,5 @@ uint32_t
 aOffset
 )
 {
-}
 }
 }

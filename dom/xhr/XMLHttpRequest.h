@@ -49,8 +49,8 @@ nsIInputStream
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -662,7 +662,6 @@ aGlobalObject
 }
 }
 ;
-}
 }
 #
 endif

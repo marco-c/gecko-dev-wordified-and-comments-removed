@@ -16,14 +16,13 @@ nsINode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 Document
 ;
-}
 }
 class
 URIUtils

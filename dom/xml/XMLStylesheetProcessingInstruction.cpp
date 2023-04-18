@@ -43,8 +43,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED_0
@@ -691,6 +691,5 @@ data
 )
 )
 ;
-}
 }
 }

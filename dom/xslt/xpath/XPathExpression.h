@@ -69,8 +69,8 @@ txResultRecycler
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -304,7 +304,6 @@ mCheckDocument
 ;
 }
 ;
-}
 }
 #
 endif

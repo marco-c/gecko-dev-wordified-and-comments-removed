@@ -18,8 +18,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_INTERFACE_MAP_BEGIN
@@ -72,6 +72,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

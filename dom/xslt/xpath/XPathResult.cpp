@@ -82,8 +82,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XPathResult
@@ -1218,6 +1218,5 @@ this
 )
 )
 ;
-}
 }
 }

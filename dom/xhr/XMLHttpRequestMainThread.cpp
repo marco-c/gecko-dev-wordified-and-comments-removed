@@ -811,8 +811,8 @@ net
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 const
@@ -18495,6 +18495,5 @@ start
 return
 true
 ;
-}
 }
 }

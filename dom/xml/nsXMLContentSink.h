@@ -101,8 +101,8 @@ nsTextNode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -111,7 +111,6 @@ NodeInfo
 class
 ProcessingInstruction
 ;
-}
 }
 enum
 XMLContentSinkState

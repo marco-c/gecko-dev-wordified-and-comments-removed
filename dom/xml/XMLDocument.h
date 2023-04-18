@@ -50,8 +50,8 @@ nsIChannel
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -282,7 +282,6 @@ mSuppressParserErrorConsoleMessages
 ;
 }
 ;
-}
 }
 #
 endif

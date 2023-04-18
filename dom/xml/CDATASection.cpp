@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 CDATASection
@@ -299,5 +299,4 @@ const
 }
 #
 endif
-}
 }

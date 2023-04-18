@@ -101,8 +101,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -983,6 +983,5 @@ position
 return
 mContextPosition
 ;
-}
 }
 }

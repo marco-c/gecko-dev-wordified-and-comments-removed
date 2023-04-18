@@ -1170,8 +1170,8 @@ NS_OK
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XMLDocument
@@ -1836,6 +1836,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }
