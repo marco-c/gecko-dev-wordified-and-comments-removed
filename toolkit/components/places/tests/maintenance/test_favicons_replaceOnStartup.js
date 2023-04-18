@@ -8,16 +8,7 @@ function
 await
 test_database_replacement
 (
-OS
-.
-Path
-.
-join
-(
-"
-.
-.
-"
+[
 "
 migration
 "
@@ -26,7 +17,7 @@ favicons_v41
 .
 sqlite
 "
-)
+]
 "
 favicons
 .

@@ -33,9 +33,7 @@ test_bookmarks_html_singleframe
 let
 bookmarksFile
 =
-OS
-.
-Path
+PathUtils
 .
 join
 (

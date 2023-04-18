@@ -8,16 +8,7 @@ function
 await
 test_database_replacement
 (
-OS
-.
-Path
-.
-join
-(
-"
-.
-.
-"
+[
 "
 migration
 "
@@ -26,7 +17,7 @@ places_v43
 .
 sqlite
 "
-)
+]
 "
 places
 .

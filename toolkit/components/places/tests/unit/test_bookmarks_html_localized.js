@@ -128,9 +128,7 @@ test_bookmarks_html_localized
 let
 bookmarksFile
 =
-OS
-.
-Path
+PathUtils
 .
 join
 (

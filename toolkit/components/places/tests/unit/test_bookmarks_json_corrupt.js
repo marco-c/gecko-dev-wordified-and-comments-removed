@@ -33,9 +33,7 @@ test_import_bookmarks
 let
 bookmarksFile
 =
-OS
-.
-Path
+PathUtils
 .
 join
 (

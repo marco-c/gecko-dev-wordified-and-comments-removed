@@ -11,16 +11,7 @@ path
 await
 setupPlacesDatabase
 (
-OS
-.
-Path
-.
-join
-(
-"
-.
-.
-"
+[
 "
 migration
 "
@@ -29,7 +20,7 @@ places_v43
 .
 sqlite
 "
-)
+]
 )
 ;
 let

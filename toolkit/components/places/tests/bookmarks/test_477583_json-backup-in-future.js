@@ -270,11 +270,9 @@ filenamesRegex
 .
 test
 (
-OS
+PathUtils
 .
-Path
-.
-basename
+filename
 (
 mostRecentBackupFile
 )
