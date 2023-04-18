@@ -14671,7 +14671,7 @@ return
 rv
 ;
 }
-nsresult
+NS_IMETHODIMP
 HTMLEditor
 :
 :

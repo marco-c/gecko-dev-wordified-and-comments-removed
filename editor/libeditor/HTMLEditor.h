@@ -1613,16 +1613,6 @@ aNodeInserted
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
-InsertTextWithQuotations
-(
-const
-nsAString
-&
-aStringToInsert
-)
-;
-MOZ_CAN_RUN_SCRIPT
-nsresult
 InsertHTMLAsAction
 (
 const
