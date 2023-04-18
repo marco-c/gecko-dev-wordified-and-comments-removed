@@ -36918,7 +36918,7 @@ supportedCountries
 "
 US
 CA
-UK
+GB
 FR
 DE
 "
