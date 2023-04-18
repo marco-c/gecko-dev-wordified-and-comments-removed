@@ -175,12 +175,6 @@ mozterm
 "
 tools
 /
-geckoprocesstypes_generator
-"
-    
-"
-tools
-/
 six
 "
     

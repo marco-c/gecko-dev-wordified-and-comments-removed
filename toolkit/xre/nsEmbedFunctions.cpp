@@ -1128,13 +1128,9 @@ GECKO_PROCESS_TYPE
 enum_value
 enum_name
 string_name
-proc_typename
+xre_name
 \
-process_bin_type
-procinfo_typename
-\
-webidl_typename
-allcaps_name
+bin_type
 )
 \
 case
