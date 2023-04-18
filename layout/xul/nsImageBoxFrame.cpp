@@ -427,6 +427,7 @@ override
 ;
 private
 :
+const
 nsCOMPtr
 <
 nsIContent
@@ -438,6 +439,7 @@ mMessage
 ;
 }
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 nsImageBoxFrameEvent
 :
@@ -450,7 +452,7 @@ RefPtr
 <
 nsPresContext
 >
-pres_context
+presContext
 =
 mContent
 -
@@ -467,7 +469,7 @@ GetPresContext
 if
 (
 !
-pres_context
+presContext
 )
 {
 return
@@ -500,7 +502,7 @@ EventDispatcher
 Dispatch
 (
 mContent
-pres_context
+presContext
 &
 event
 nullptr
