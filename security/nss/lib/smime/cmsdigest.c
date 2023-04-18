@@ -925,6 +925,8 @@ SECItem
 *
 *
 dp
+=
+NULL
 ;
 PLArenaPool
 *
@@ -965,6 +967,9 @@ rv
 =
 =
 SECSuccess
+&
+&
+dp
 )
 {
 rv
