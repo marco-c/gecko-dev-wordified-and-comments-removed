@@ -1618,7 +1618,7 @@ targetCommand
 .
 descriptorFront
 .
-createdForBrowserConsole
+doNotAttachThreadActor
 )
 {
 return

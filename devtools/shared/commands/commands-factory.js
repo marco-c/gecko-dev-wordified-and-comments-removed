@@ -145,6 +145,12 @@ isWebExtension
 }
 )
 ;
+descriptor
+.
+doNotAttachThreadActor
+=
+isWebExtension
+;
 const
 commands
 =
@@ -492,7 +498,7 @@ getMainProcess
 ;
 descriptor
 .
-createdForBrowserConsole
+doNotAttachThreadActor
 =
 true
 ;
