@@ -3050,6 +3050,10 @@ ScrollSnapAxis
 "
                 
 "
+ScrollSnapStop
+"
+                
+"
 ScrollSnapStrictness
 "
                 

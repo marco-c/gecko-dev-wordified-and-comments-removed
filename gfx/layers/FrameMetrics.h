@@ -179,6 +179,12 @@ mozilla
 {
 enum
 class
+StyleScrollSnapStop
+:
+uint8_t
+;
+enum
+class
 StyleScrollSnapStrictness
 :
 uint8_t
@@ -1964,6 +1970,9 @@ mSnapPositionY
 nsRect
 mSnapArea
 ;
+StyleScrollSnapStop
+mScrollSnapStop
+;
 SnapTarget
 (
 )
@@ -1990,6 +1999,8 @@ nsRect
 &
 &
 aSnapArea
+StyleScrollSnapStop
+aScrollSnapStop
 )
 :
 mSnapPositionX
@@ -2021,6 +2032,10 @@ move
 (
 aSnapArea
 )
+)
+mScrollSnapStop
+(
+aScrollSnapStop
 )
 {
 }
@@ -2059,6 +2074,14 @@ mSnapArea
 aOther
 .
 mSnapArea
+&
+&
+mScrollSnapStop
+=
+=
+aOther
+.
+mScrollSnapStop
 ;
 }
 }

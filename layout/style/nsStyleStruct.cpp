@@ -12829,6 +12829,14 @@ mScrollSnapType
 aNewData
 .
 mScrollSnapType
+|
+|
+mScrollSnapStop
+!
+=
+aNewData
+.
+mScrollSnapStop
 )
 {
 hint

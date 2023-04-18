@@ -176,6 +176,10 @@ CSSRect
 10
 )
 )
+StyleScrollSnapStop
+:
+:
+Normal
 )
 )
 ;
@@ -214,6 +218,10 @@ CSSRect
 10
 )
 )
+StyleScrollSnapStop
+:
+:
+Normal
 )
 )
 ;

@@ -575,14 +575,6 @@ style
 "
     
 "
-scroll
--
-snap
--
-stop
-"
-    
-"
 -
 webkit
 -
