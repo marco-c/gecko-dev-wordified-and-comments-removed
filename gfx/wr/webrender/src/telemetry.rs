@@ -122,7 +122,7 @@ pub
 fn
 record_renderer_time
 (
-duration
+_duration
 :
 Duration
 )
@@ -178,7 +178,7 @@ pub
 fn
 record_texture_cache_update_time
 (
-duration
+_duration
 :
 Duration
 )
