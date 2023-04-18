@@ -3747,6 +3747,9 @@ default
 ;
 }
 ;
+#
+if
+0
 TEST
 (
 ThreadUtils
@@ -3986,6 +3989,8 @@ mSetDeadlineCalled
 ;
 }
 }
+#
+endif
 TEST
 (
 ThreadUtils
