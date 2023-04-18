@@ -2529,17 +2529,6 @@ true
 ;
 aOptions
 .
-creationOptions
-(
-)
-.
-setFreezeBuiltins
-(
-true
-)
-;
-aOptions
-.
 behaviors
 (
 )
