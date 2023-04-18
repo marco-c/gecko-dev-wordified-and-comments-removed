@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsHttpHandler
+.
+h
+"
+#
+include
+"
 private
 /
 pprio
