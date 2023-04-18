@@ -1008,12 +1008,15 @@ ViewID
 &
 aScrollId
 const
+nsTArray
+<
 wr
 :
 :
-LayoutVector2D
+SampledScrollOffset
+>
 &
-aScrollOffset
+aSampledOffsets
 )
 ;
 void

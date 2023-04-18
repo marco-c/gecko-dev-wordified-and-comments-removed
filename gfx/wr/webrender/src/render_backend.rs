@@ -27,6 +27,7 @@ api
 IdNamespace
 PipelineId
 RenderNotifier
+SampledScrollOffset
 }
 ;
 use
@@ -2091,7 +2092,7 @@ unwrap
 FrameMsg
 :
 :
-SetScrollOffset
+SetScrollOffsets
 (
 id
 offset
@@ -2110,7 +2111,7 @@ SetScrollOffset
 if
 self
 .
-set_scroll_offset
+set_scroll_offsets
 (
 id
 offset
@@ -2666,7 +2667,7 @@ removed_pipelines
 }
 pub
 fn
-set_scroll_offset
+set_scroll_offsets
 (
 &
 mut
@@ -2674,9 +2675,12 @@ self
 id
 :
 ExternalScrollId
-offset
+offsets
 :
-LayoutVector2D
+Vec
+<
+SampledScrollOffset
+>
 )
 -
 >
@@ -2686,10 +2690,10 @@ self
 .
 spatial_tree
 .
-set_scroll_offset
+set_scroll_offsets
 (
 id
-offset
+offsets
 )
 }
 fn
