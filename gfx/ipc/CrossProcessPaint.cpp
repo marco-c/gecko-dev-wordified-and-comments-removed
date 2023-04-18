@@ -902,6 +902,14 @@ aScale
 )
 )
 ;
+thebes
+-
+>
+SetCrossProcessPaintScale
+(
+aScale
+)
+;
 RefPtr
 <
 PresShell
