@@ -3176,6 +3176,7 @@ PERM_CAN_UNINSTALL
 }
 if
 (
+(
 this
 .
 type
@@ -3185,6 +3186,17 @@ type
 "
 extension
 "
+|
+|
+this
+.
+type
+=
+=
+"
+sitepermission
+"
+)
 &
 &
 this
