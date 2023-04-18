@@ -58,7 +58,7 @@ true
 true
 )
 ;
-log
+info
 (
 Adding
 location
