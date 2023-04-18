@@ -1651,7 +1651,7 @@ idVal_
 AttachDecision
 tryAttachNative
 (
-JSObject
+NativeObject
 *
 obj
 ObjOperandId
@@ -1660,8 +1660,8 @@ jsid
 key
 ValOperandId
 keyId
-bool
-hasOwn
+PropertyResult
+prop
 )
 ;
 void
