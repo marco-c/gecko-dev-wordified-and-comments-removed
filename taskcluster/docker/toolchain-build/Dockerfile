@@ -121,6 +121,8 @@ libxml2
 -
 dev
 \
+msitools
+\
 ninja
 -
 build
