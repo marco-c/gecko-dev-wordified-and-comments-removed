@@ -1760,16 +1760,6 @@ eNone
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
-DeleteNodeWithTransaction
-(
-nsIContent
-&
-aContent
-)
-final
-;
-MOZ_CAN_RUN_SCRIPT
-nsresult
 DeleteTextWithTransaction
 (
 dom
