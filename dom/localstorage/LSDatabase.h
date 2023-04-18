@@ -314,6 +314,12 @@ HasSnapshot
 )
 const
 ;
+int64_t
+GetSnapshotUsage
+(
+)
+const
+;
 private
 :
 ~
