@@ -4051,8 +4051,6 @@ track
 AsAudioProcessingTrack
 (
 )
-;
-t
 )
 {
 t
