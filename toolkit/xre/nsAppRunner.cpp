@@ -5716,6 +5716,13 @@ bool
 aResult
 )
 {
+LookAndFeel
+:
+:
+EnsureColorSchemesInitialized
+(
+)
+;
 *
 aResult
 =

@@ -5592,6 +5592,12 @@ LookAndFeel
 :
 sContentColorScheme
 ;
+bool
+LookAndFeel
+:
+:
+sColorSchemeInitialized
+;
 auto
 LookAndFeel
 :
@@ -5649,6 +5655,10 @@ RecomputeColorSchemes
 (
 )
 {
+sColorSchemeInitialized
+=
+true
+;
 sChromeColorScheme
 =
 [
