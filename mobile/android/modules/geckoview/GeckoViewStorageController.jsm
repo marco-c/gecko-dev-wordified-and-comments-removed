@@ -255,7 +255,7 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_SECURITY_SETTINGS
+CLEAR_CLIENT_AUTH_REMEMBER_SERVICE
 ]
 [
 1
@@ -267,6 +267,11 @@ Ci
 nsIClearDataService
 .
 CLEAR_EME
+Ci
+.
+nsIClearDataService
+.
+CLEAR_HSTS
 ]
 [
 1

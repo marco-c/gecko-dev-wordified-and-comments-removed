@@ -1799,12 +1799,6 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_SECURITY_SETTINGS
-|
-Ci
-.
-nsIClearDataService
-.
 CLEAR_EME
 |
 Ci
@@ -2265,7 +2259,7 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_SECURITY_SETTINGS
+CLEAR_HSTS
 |
 Ci
 .
