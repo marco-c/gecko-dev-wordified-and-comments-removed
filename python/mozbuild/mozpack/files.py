@@ -67,8 +67,6 @@ strip
 may_elfhack
     
 elfhack
-    
-xz_compress
 )
 from
 mozpack
@@ -1860,9 +1858,6 @@ __init__
 (
 self
 path
-xz_compress
-=
-False
 )
 :
         
@@ -1873,12 +1868,6 @@ __init__
 self
 path
 )
-        
-self
-.
-xz_compress
-=
-xz_compress
     
 def
 copy
@@ -1996,17 +1985,6 @@ dest
 :
                 
 elfhack
-(
-dest
-)
-            
-if
-self
-.
-xz_compress
-:
-                
-xz_compress
 (
 dest
 )

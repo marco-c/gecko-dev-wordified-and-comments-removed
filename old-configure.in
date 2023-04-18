@@ -6846,11 +6846,6 @@ AC_DEFINE
 (
 MOZ_LINKER
 )
-AC_CHECK_PROGS
-(
-XZ
-xz
-)
 fi
 if
 test
