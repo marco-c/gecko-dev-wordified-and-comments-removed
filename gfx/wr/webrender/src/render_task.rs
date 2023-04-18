@@ -194,7 +194,10 @@ crate
 render_target
 :
 :
+{
+ResolveOp
 RenderTargetKind
+}
 ;
 use
 crate
@@ -914,6 +917,13 @@ pub
 cmd_buffer_index
 :
 CommandBufferIndex
+pub
+resolve_op
+:
+Option
+<
+ResolveOp
+>
 }
 #
 [
@@ -2287,6 +2297,9 @@ scissor_rect
 valid_rect
 clear_color
 cmd_buffer_index
+resolve_op
+:
+None
 }
 )
 }

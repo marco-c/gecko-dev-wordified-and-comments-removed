@@ -3684,6 +3684,11 @@ dirty_rect
 :
 scissor_rect
 valid_rect
+resolve_op
+:
+pic_task
+.
+resolve_op
 }
 ;
 pass
