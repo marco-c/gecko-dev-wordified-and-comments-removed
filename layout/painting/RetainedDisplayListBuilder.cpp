@@ -2649,6 +2649,15 @@ DisplayItemType
 :
 :
 TYPE_SUBDOCUMENT
+|
+|
+type
+=
+=
+DisplayItemType
+:
+:
+TYPE_STICKY_POSITION
 )
 {
 return
