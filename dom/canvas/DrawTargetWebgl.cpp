@@ -1175,6 +1175,8 @@ ClearSnapshot
 (
 bool
 aCopyOnWrite
+bool
+aNeedHandle
 )
 {
 if
@@ -1253,6 +1255,7 @@ snapshot
 >
 DrawTargetWillChange
 (
+aNeedHandle
 )
 ;
 }
@@ -3972,6 +3975,8 @@ mSnapshot
 {
 ClearSnapshot
 (
+true
+true
 )
 ;
 }

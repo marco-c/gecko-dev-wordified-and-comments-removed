@@ -295,6 +295,8 @@ SourceSurfaceWebgl
 :
 DrawTargetWillChange
 (
+bool
+aNeedHandle
 )
 {
 MOZ_ASSERT
@@ -304,8 +306,13 @@ mDT
 ;
 if
 (
+(
 !
 mData
+|
+|
+aNeedHandle
+)
 &
 &
 !
@@ -416,6 +423,9 @@ mDT
 MOZ_ASSERT
 (
 mHandle
+|
+|
+mData
 )
 ;
 if
