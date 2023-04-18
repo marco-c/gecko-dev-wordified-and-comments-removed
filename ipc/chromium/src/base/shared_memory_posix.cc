@@ -71,6 +71,11 @@ linux_memfd_defs
 h
 "
 #
+endif
+#
+ifdef
+MOZ_WIDGET_GTK
+#
 include
 "
 mozilla
@@ -966,7 +971,7 @@ str
 ;
 #
 ifdef
-OS_LINUX
+MOZ_WIDGET_GTK
 if
 (
 const
