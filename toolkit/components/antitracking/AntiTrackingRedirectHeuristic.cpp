@@ -2067,7 +2067,6 @@ SaveAccessForOriginOnParentProcess
 (
 newPrincipal
 oldPrincipal
-oldOrigin
 ContentBlocking
 :
 :

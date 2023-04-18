@@ -301,11 +301,7 @@ nsIPrincipal
 aParentPrincipal
 nsIPrincipal
 *
-aTrackingPrinciapl
-const
-nsCString
-&
-aTrackingOrigin
+aTrackingPrincipal
 int
 aAllowMode
 uint64_t
@@ -336,11 +332,7 @@ BrowsingContext
 aParentContext
 nsIPrincipal
 *
-aTrackingPrinciapl
-const
-nsCString
-&
-aTrackingOrigin
+aTrackingPrincipal
 int
 aAllowMode
 uint64_t
