@@ -8128,9 +8128,6 @@ case
 kCharsetFromXmlDeclaration
 :
 case
-kCharsetFromMetaPrescan
-:
-case
 kCharsetFromMetaTag
 :
 if
