@@ -2561,6 +2561,9 @@ XRE_IsParentProcess
 )
 &
 &
+sCrashOnBlocklistedPref
+&
+&
 ShouldSanitizePreference
 (
 Name
@@ -2658,6 +2661,9 @@ if
 XRE_IsParentProcess
 (
 )
+&
+&
+sCrashOnBlocklistedPref
 &
 &
 ShouldSanitizePreference
@@ -2759,6 +2765,9 @@ if
 XRE_IsParentProcess
 (
 )
+&
+&
+sCrashOnBlocklistedPref
 &
 &
 ShouldSanitizePreference
@@ -2945,6 +2954,10 @@ mHasUserValue
 &
 !
 mIsSanitized
+&
+&
+!
+sOmitBlocklistedPrefValues
 )
 {
 aDomPref
@@ -3025,7 +3038,12 @@ isNothing
 )
 |
 |
+(
 mIsSanitized
+&
+&
+sOmitBlocklistedPrefValues
+)
 |
 |
 (
