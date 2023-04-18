@@ -413,6 +413,9 @@ nsIPrincipal
 >
 mPrincipal
 ;
+UDPAddressInfo
+mAddress
+;
 }
 ;
 }
