@@ -5,7 +5,7 @@ ExtensionTestCommon
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -22,8 +22,6 @@ ExtensionTestCommon
 .
 jsm
 "
-{
-}
 )
 ;
 var
