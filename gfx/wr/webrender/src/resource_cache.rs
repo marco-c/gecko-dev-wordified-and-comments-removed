@@ -10846,13 +10846,9 @@ data
 :
 native
 .
-0
+name
 .
-postscript_name
-(
-)
-.
-to_string
+clone
 (
 )
 index
