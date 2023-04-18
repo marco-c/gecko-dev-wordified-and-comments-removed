@@ -210,6 +210,13 @@ TextureFactoryIdentifier
 >
 &
 aIdentifier
+const
+Maybe
+<
+uint64_t
+>
+&
+aMediaEngineId
 )
 ;
 bool
