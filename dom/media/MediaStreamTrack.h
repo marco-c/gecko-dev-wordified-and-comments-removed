@@ -128,9 +128,6 @@ class
 PeerConnectionImpl
 ;
 class
-PeerConnectionMedia
-;
-class
 PeerIdentity
 ;
 class
@@ -1060,13 +1057,6 @@ mozilla
 :
 :
 PeerConnectionImpl
-;
-friend
-class
-mozilla
-:
-:
-PeerConnectionMedia
 ;
 friend
 class

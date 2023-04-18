@@ -132,11 +132,6 @@ PeerConnectionImpl
 cpp
 "
 "
-PeerConnectionMedia
-.
-cpp
-"
-"
 RTCDtlsTransport
 .
 cpp

@@ -121,6 +121,15 @@ LOCAL_INCLUDES
 =
 [
 "
+!
+/
+ipc
+/
+ipdl
+/
+_ipdlheaders
+"
+"
 /
 dom
 /
