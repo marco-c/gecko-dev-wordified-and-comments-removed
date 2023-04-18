@@ -984,11 +984,6 @@ GetHadLazyLoadImage
 ;
 }
 bool
-HasActivePeerConnections
-(
-)
-;
-bool
 AllowJavascript
 (
 )
