@@ -1004,7 +1004,7 @@ result
 =
 LoginAutoComplete
 .
-_isProbablyANewPasswordField
+isProbablyANewPasswordField
 (
 input
 )
@@ -1197,7 +1197,7 @@ result
 =
 LoginAutoComplete
 .
-_isProbablyANewPasswordField
+isProbablyANewPasswordField
 (
 input
 )
