@@ -240,6 +240,11 @@ nullptr
 if
 (
 bufferSize
+&
+&
+bufferSize
+<
+32768
 )
 {
 wchar_t

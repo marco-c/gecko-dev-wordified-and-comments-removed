@@ -1,3 +1,15 @@
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+"
+mochitest
+/
+browser_env_path_long
+.
+ini
+"
+]
 GeckoCppUnitTests
 (
 [
