@@ -446,6 +446,7 @@ function
 gInit
 (
 perfFront
+traits
 pageContext
 openAboutProfiling
 )
