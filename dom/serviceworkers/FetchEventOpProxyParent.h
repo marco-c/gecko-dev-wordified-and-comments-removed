@@ -63,6 +63,12 @@ PFetchEventOpProxyParent
 ;
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+FetchEventOpProxyParent
+override
+)
+;
 static
 void
 Create
@@ -96,11 +102,6 @@ nsIInputStream
 aBodyStream
 )
 ;
-~
-FetchEventOpProxyParent
-(
-)
-;
 private
 :
 FetchEventOpProxyParent
@@ -122,6 +123,11 @@ Private
 &
 &
 aPromise
+)
+;
+~
+FetchEventOpProxyParent
+(
 )
 ;
 mozilla
