@@ -73,7 +73,7 @@ key
 ;
 async
 function
-setupPrefs
+prefOffHttpsFirstMode
 (
 )
 {
@@ -93,18 +93,6 @@ dom
 security
 .
 https_first
-"
-false
-]
-[
-"
-network
-.
-cookie
-.
-sameSite
-.
-laxByDefault
 "
 false
 ]
@@ -220,6 +208,6 @@ runTests
 TEST_PAGE
 doTest
 null
-setupPrefs
+prefOffHttpsFirstMode
 )
 ;
