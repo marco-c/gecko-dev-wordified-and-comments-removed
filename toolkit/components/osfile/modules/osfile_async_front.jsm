@@ -215,11 +215,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PromiseUtils
 "
@@ -958,6 +964,8 @@ _killQueue
 let
 deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
