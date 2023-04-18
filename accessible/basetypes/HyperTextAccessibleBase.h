@@ -180,8 +180,6 @@ CaretOffset
 (
 )
 const
-=
-0
 ;
 index_t
 ConvertMagicOffset
