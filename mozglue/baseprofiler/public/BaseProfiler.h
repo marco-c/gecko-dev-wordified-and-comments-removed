@@ -1074,7 +1074,7 @@ false
 ;
 MFBT_API
 void
-profiler_save_profile_to_file
+baseprofiler_save_profile_to_file
 (
 const
 char

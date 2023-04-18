@@ -13875,7 +13875,7 @@ close
 }
 }
 void
-profiler_save_profile_to_file
+baseprofiler_save_profile_to_file
 (
 const
 char
@@ -13886,7 +13886,7 @@ aFilename
 LOG
 (
 "
-profiler_save_profile_to_file
+baseprofiler_save_profile_to_file
 (
 %
 s
