@@ -1541,12 +1541,6 @@ GetFrameForStyle
 const
 ;
 ScrollSnapInfo
-ComputeOldScrollSnapInfo
-(
-)
-const
-;
-ScrollSnapInfo
 ComputeScrollSnapInfo
 (
 const
