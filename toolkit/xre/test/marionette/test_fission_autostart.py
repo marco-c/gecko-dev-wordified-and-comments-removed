@@ -1031,6 +1031,29 @@ self
 setUpSession
 (
 )
+        
+self
+.
+check_fission_status
+(
+            
+enabled
+=
+True
+            
+experiment
+=
+ExperimentStatus
+.
+UNENROLLED
+            
+decision
+=
+"
+enabledByDefault
+"
+        
+)
     
 def
 tearDown
@@ -1127,7 +1150,7 @@ check_fission_status
             
 enabled
 =
-False
+True
             
 experiment
 =
@@ -1138,7 +1161,7 @@ UNENROLLED
 decision
 =
 "
-disabledByDefault
+enabledByDefault
 "
         
 )
@@ -1154,7 +1177,7 @@ Prefs
 .
 FISSION_AUTOSTART
 :
-True
+False
 }
 )
         
@@ -1165,7 +1188,7 @@ check_fission_status
             
 enabled
 =
-True
+False
             
 experiment
 =
@@ -1176,7 +1199,7 @@ UNENROLLED
 decision
 =
 "
-enabledByUserPref
+disabledByUserPref
 "
         
 )
@@ -1197,7 +1220,7 @@ check_fission_status
             
 enabled
 =
-True
+False
             
 experiment
 =
@@ -1208,7 +1231,7 @@ UNENROLLED
 decision
 =
 "
-enabledByUserPref
+disabledByUserPref
 "
         
 )
@@ -1222,7 +1245,7 @@ set_pref
 Prefs
 .
 FISSION_AUTOSTART
-False
+True
 )
         
 self
@@ -1232,7 +1255,7 @@ check_fission_status
             
 enabled
 =
-True
+False
             
 experiment
 =
@@ -1243,12 +1266,12 @@ UNENROLLED
 decision
 =
 "
-enabledByUserPref
+disabledByUserPref
 "
             
 dynamic
 =
-False
+True
         
 )
         
@@ -1270,7 +1293,7 @@ check_fission_status
             
 enabled
 =
-True
+False
             
 experiment
 =
@@ -1281,12 +1304,12 @@ UNENROLLED
 decision
 =
 "
-enabledByUserPref
+disabledByUserPref
 "
             
 dynamic
 =
-False
+True
         
 )
         
@@ -1408,7 +1431,7 @@ check_fission_status
             
 enabled
 =
-False
+True
             
 experiment
 =
@@ -1419,7 +1442,7 @@ UNENROLLED
 decision
 =
 "
-disabledByDefault
+enabledByDefault
 "
         
 )
@@ -1491,9 +1514,15 @@ FISSION_AUTOSTART
 :
 True
 }
+            
 env
 =
 {
+ENV_DISABLE_FISSION
+:
+"
+1
+"
 ENV_ENABLE_FISSION
 :
 "
@@ -1509,7 +1538,7 @@ check_fission_status
             
 enabled
 =
-True
+False
             
 experiment
 =
@@ -1520,7 +1549,59 @@ UNENROLLED
 decision
 =
 "
-enabledByUserPref
+disabledByEnv
+"
+            
+dynamic
+=
+True
+        
+)
+        
+self
+.
+restart
+(
+            
+prefs
+=
+{
+Prefs
+.
+FISSION_AUTOSTART
+:
+False
+}
+env
+=
+{
+ENV_DISABLE_FISSION
+:
+"
+"
+}
+        
+)
+        
+self
+.
+check_fission_status
+(
+            
+enabled
+=
+False
+            
+experiment
+=
+ExperimentStatus
+.
+UNENROLLED
+            
+decision
+=
+"
+disabledByUserPref
 "
         
 )
@@ -1547,7 +1628,7 @@ check_fission_status
             
 enabled
 =
-False
+True
             
 experiment
 =
@@ -1558,7 +1639,7 @@ UNENROLLED
 decision
 =
 "
-disabledByDefault
+enabledByDefault
 "
         
 )
@@ -2005,7 +2086,7 @@ check_fission_status
             
 enabled
 =
-False
+True
             
 experiment
 =
@@ -2016,7 +2097,7 @@ UNENROLLED
 decision
 =
 "
-disabledByDefault
+enabledByDefault
 "
         
 )
