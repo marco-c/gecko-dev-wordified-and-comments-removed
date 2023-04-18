@@ -276,6 +276,11 @@ type
 "
 type
 "
++
+"
+|
+kartenmarke
+"
 }
 {
 email
