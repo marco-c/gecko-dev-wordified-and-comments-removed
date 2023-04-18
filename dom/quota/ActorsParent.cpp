@@ -39311,7 +39311,6 @@ IsStorageInitialized
 )
 )
 NS_ERROR_FAILURE
-;
 )
 ;
 QM_TRY
