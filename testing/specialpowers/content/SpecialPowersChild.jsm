@@ -5485,6 +5485,15 @@ el
 ;
 if
 (
+!
+Cu
+.
+isRemoteProxy
+(
+content
+)
+&
+&
 Window
 .
 isInstance
