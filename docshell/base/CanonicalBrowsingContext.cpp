@@ -211,6 +211,9 @@ ProtocolUtils
 h
 "
 #
+ifdef
+NS_PRINTING
+#
 include
 "
 mozilla
@@ -221,6 +224,8 @@ RemotePrintJobParent
 .
 h
 "
+#
+endif
 #
 include
 "
