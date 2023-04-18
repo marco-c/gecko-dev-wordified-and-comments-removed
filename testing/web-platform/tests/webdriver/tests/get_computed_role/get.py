@@ -15,14 +15,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 get_computed_role
 (
@@ -195,6 +187,7 @@ def
 test_computed_roles
 (
 session
+inline
 html
 tag
 expected

@@ -15,14 +15,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 get_computed_label
 (
@@ -280,6 +272,7 @@ def
 test_get_computed_label
 (
 session
+inline
 html
 tag
 label
