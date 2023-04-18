@@ -1906,6 +1906,11 @@ engines
 privateDefault
 )
 ;
+await
+AddonManager
+.
+readyPromise
+;
 let
 newEngines
 =
