@@ -1666,9 +1666,6 @@ data
 )
 AS
 page_data
-h
-.
-visit_count
 FROM
 moz_places_metadata_snapshots
 s
@@ -1919,9 +1916,6 @@ data
 )
 AS
 page_data
-h
-.
-visit_count
 FROM
 moz_places_metadata_snapshots
 s
@@ -2164,9 +2158,6 @@ data
 )
 AS
 page_data
-h
-.
-visit_count
 FROM
 moz_places_metadata_snapshots
 s
@@ -2705,16 +2696,6 @@ pageData
 new
 Map
 (
-)
-visitCount
-:
-row
-.
-getResultByName
-(
-"
-visit_count
-"
 )
 }
 ;

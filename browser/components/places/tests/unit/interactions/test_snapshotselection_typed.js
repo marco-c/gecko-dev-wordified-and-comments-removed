@@ -226,11 +226,7 @@ selector
 new
 SnapshotSelector
 (
-{
-count
-:
 5
-}
 )
 ;
 let
