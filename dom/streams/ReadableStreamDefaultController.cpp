@@ -2585,5 +2585,14 @@ aRv
 ;
 }
 }
+void
+ReadableStreamDefaultController
+:
+:
+ReleaseSteps
+(
+)
+{
+}
 }
 }

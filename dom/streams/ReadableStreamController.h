@@ -167,6 +167,14 @@ aRv
 =
 0
 ;
+virtual
+void
+ReleaseSteps
+(
+)
+=
+0
+;
 protected
 :
 nsCOMPtr

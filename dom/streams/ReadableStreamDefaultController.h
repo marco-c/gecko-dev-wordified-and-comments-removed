@@ -396,6 +396,13 @@ aRv
 )
 override
 ;
+virtual
+void
+ReleaseSteps
+(
+)
+override
+;
 UnderlyingSourceCancelCallbackHelper
 *
 GetCancelAlgorithm

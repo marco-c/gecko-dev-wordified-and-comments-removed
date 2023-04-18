@@ -194,6 +194,7 @@ ReaderType
 {
 Default
 BYOB
+None
 }
 ;
 struct
@@ -417,6 +418,13 @@ aReadRequest
 ErrorResult
 &
 aRv
+)
+override
+;
+virtual
+void
+ReleaseSteps
+(
 )
 override
 ;
