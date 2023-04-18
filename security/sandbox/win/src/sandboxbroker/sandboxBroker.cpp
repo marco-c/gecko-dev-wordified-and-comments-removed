@@ -3355,7 +3355,7 @@ mPolicy
 >
 SetAlternateDesktop
 (
-false
+true
 )
 ;
 if
