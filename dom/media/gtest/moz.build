@@ -170,6 +170,11 @@ TestBufferReader
 cpp
 "
 "
+TestCubebInputStream
+.
+cpp
+"
+"
 TestDataMutex
 .
 cpp
