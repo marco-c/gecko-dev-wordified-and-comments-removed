@@ -1192,13 +1192,10 @@ this
 )
 ;
 }
-else
-{
 DestroyProcess
 (
 )
 ;
-}
 UtilityProcessParent
 :
 :
