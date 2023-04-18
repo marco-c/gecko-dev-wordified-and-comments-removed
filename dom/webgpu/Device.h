@@ -428,6 +428,11 @@ nsACString
 aMessage
 )
 ;
+void
+CleanupUnregisteredInParent
+(
+)
+;
 private
 :
 ~
