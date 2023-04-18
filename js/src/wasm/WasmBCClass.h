@@ -2527,9 +2527,6 @@ ContinuationKind
 kind
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 void
 popCatchResults
 (
@@ -2539,8 +2536,6 @@ StackHeight
 stackBase
 )
 ;
-#
-endif
 Stk
 captureStackResult
 (
@@ -4333,9 +4328,6 @@ t
 )
 const
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 [
 [
 nodiscard
@@ -4372,8 +4364,6 @@ RegRef
 tagDst
 )
 ;
-#
-endif
 void
 emitPreBarrier
 (
@@ -4627,9 +4617,6 @@ emitElse
 (
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 void
 emitCatchSetup
 (
@@ -4714,8 +4701,6 @@ emitRethrow
 (
 )
 ;
-#
-endif
 [
 [
 nodiscard
@@ -5020,9 +5005,6 @@ ResultType
 type
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 [
 [
 nodiscard
@@ -5035,8 +5017,6 @@ ResultType
 type
 )
 ;
-#
-endif
 void
 doReturn
 (

@@ -2239,9 +2239,6 @@ metadata
 (
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 uint32_t
 tagIndex
 =
@@ -2256,8 +2253,6 @@ metadata
 .
 tags
 ;
-#
-endif
 uint32_t
 globalIndex
 =
@@ -2677,9 +2672,6 @@ WasmMemoryObject
 break
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 DefinitionKind
 :
@@ -2831,8 +2823,6 @@ false
 break
 ;
 }
-#
-endif
 case
 DefinitionKind
 :
@@ -7113,9 +7103,6 @@ asPropertyName
 (
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 JSAtom
 *
 tag
@@ -7156,8 +7143,6 @@ asPropertyName
 (
 )
 ;
-#
-endif
 JSAtom
 *
 type
@@ -7277,9 +7262,6 @@ names
 .
 global
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 DefinitionKind
 :
@@ -7291,8 +7273,6 @@ names
 .
 tag
 ;
-#
-endif
 }
 MOZ_CRASH
 (
@@ -7465,16 +7445,11 @@ numTableImport
 =
 0
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 size_t
 numTagImport
 =
 0
 ;
-#
-endif
 #
 endif
 for
@@ -7868,9 +7843,6 @@ isMutable
 break
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 DefinitionKind
 :
@@ -7913,8 +7885,6 @@ argTypes_
 break
 ;
 }
-#
-endif
 }
 if
 (
@@ -8509,9 +8479,6 @@ isMutable
 break
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 DefinitionKind
 :
@@ -8551,8 +8518,6 @@ argTypes_
 break
 ;
 }
-#
-endif
 }
 if
 (
@@ -27856,9 +27821,6 @@ false
 ;
 }
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 if
 (
 ExceptionsAvailable
@@ -27919,8 +27881,6 @@ false
 }
 }
 }
-#
-endif
 #
 ifdef
 ENABLE_WASM_MOZ_INTGEMM

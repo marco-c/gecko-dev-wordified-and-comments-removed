@@ -168,17 +168,12 @@ JSContext
 *
 cx_
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 GCPtrObject
 pendingException_
 ;
 GCPtrObject
 pendingExceptionTag_
 ;
-#
-endif
 Atomic
 <
 uintptr_t
@@ -342,9 +337,6 @@ td
 )
 const
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 GCPtrWasmTagObject
 &
 tagTls
@@ -356,8 +348,6 @@ td
 )
 const
 ;
-#
-endif
 friend
 class
 js
@@ -597,9 +587,6 @@ valueBoxClass_
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 static
 constexpr
 size_t
@@ -630,8 +617,6 @@ pendingExceptionTag_
 )
 ;
 }
-#
-endif
 static
 constexpr
 size_t
@@ -1073,9 +1058,6 @@ CoercionLevel
 Spec
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 void
 setPendingException
 (
@@ -1083,8 +1065,6 @@ HandleAnyRef
 exn
 )
 ;
-#
-endif
 [
 [
 nodiscard
@@ -1802,9 +1782,6 @@ void
 structDescr
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 static
 void
 *
@@ -1830,8 +1807,6 @@ JSObject
 exn
 )
 ;
-#
-endif
 static
 void
 *

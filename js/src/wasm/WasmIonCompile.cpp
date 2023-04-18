@@ -9648,9 +9648,6 @@ nullptr
 MWasmCallTryDesc
 tryDesc
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 if
 (
 !
@@ -9665,8 +9662,6 @@ return
 false
 ;
 }
-#
-endif
 MInstruction
 *
 ins
@@ -9741,9 +9736,6 @@ add
 ins
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 if
 (
 !
@@ -9758,8 +9750,6 @@ return
 false
 ;
 }
-#
-endif
 return
 true
 ;
@@ -12127,9 +12117,6 @@ loopBody
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 for
 (
 uint32_t
@@ -12248,8 +12235,6 @@ block
 }
 }
 }
-#
-endif
 for
 (
 MPhiIterator
@@ -13179,9 +13164,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 bool
 inTryBlock
 (
@@ -15751,8 +15733,6 @@ tag
 )
 ;
 }
-#
-endif
 uint32_t
 readCallSiteLineOrBytecode
 (
@@ -17137,9 +17117,6 @@ LabelKind
 :
 Body
 :
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 if
 (
 !
@@ -17155,8 +17132,6 @@ return
 false
 ;
 }
-#
-endif
 if
 (
 !
@@ -17404,9 +17379,6 @@ popEnd
 ;
 break
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 LabelKind
 :
@@ -17455,8 +17427,6 @@ popEnd
 ;
 break
 ;
-#
-endif
 }
 MOZ_ASSERT_IF
 (
@@ -17798,9 +17768,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 static
 bool
 EmitTry
@@ -18305,8 +18272,6 @@ relativeDepth
 )
 ;
 }
-#
-endif
 static
 bool
 EmitCallArgs
@@ -29825,9 +29790,6 @@ f
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 uint16_t
 (
@@ -30105,8 +30067,6 @@ f
 )
 )
 ;
-#
-endif
 case
 uint16_t
 (

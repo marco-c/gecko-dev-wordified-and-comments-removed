@@ -412,17 +412,12 @@ funcIndex
 )
 const
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 uint32_t
 tagIndex
 (
 )
 const
 ;
-#
-endif
 uint32_t
 globalIndex
 (
@@ -1309,9 +1304,6 @@ const
 TagType
 >
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 struct
 TagDesc
 {
@@ -1396,8 +1388,6 @@ TagDesc
 SystemAllocPolicy
 >
 ;
-#
-endif
 struct
 ElemSegment
 :

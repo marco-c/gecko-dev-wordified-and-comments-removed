@@ -131,14 +131,9 @@ funcImportGlobalDataOffsets
 GlobalDescVector
 globals
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 TagDescVector
 tags
 ;
-#
-endif
 TableDescVector
 tables
 ;

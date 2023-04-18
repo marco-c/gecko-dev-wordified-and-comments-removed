@@ -1962,9 +1962,6 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 +
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 tryNotes
 .
 sizeOfExcludingThis
@@ -1972,8 +1969,6 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 +
-#
-endif
 trapSites
 .
 sizeOfExcludingThis
@@ -2843,9 +2838,6 @@ empty
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 MOZ_ASSERT
 (
 masm
@@ -2859,8 +2851,6 @@ empty
 )
 )
 ;
-#
-endif
 if
 (
 masm
@@ -3954,9 +3944,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 if
 (
 !
@@ -3974,8 +3961,6 @@ return
 false
 ;
 }
-#
-endif
 for
 (
 Trap
@@ -4175,9 +4160,6 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 +
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 tags
 .
 sizeOfExcludingThis
@@ -4185,8 +4167,6 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 +
-#
-endif
 funcNames
 .
 sizeOfExcludingThis
@@ -4835,9 +4815,6 @@ target
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 const
 wasm
 :
@@ -4919,8 +4896,6 @@ return
 nullptr
 ;
 }
-#
-endif
 bool
 JumpTables
 :
@@ -6051,9 +6026,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 const
 wasm
 :
@@ -6118,8 +6090,6 @@ return
 nullptr
 ;
 }
-#
-endif
 struct
 TrapSitePCOffset
 {

@@ -2861,17 +2861,12 @@ wasm
 SymbolicAccessVector
 symbolicAccesses_
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 wasm
 :
 :
 WasmTryNoteVector
 tryNotes_
 ;
-#
-endif
 #
 ifdef
 DEBUG
@@ -3218,9 +3213,6 @@ access
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 [
 [
 nodiscard
@@ -3273,8 +3265,6 @@ return
 true
 ;
 }
-#
-endif
 wasm
 :
 :
@@ -3327,9 +3317,6 @@ return
 symbolicAccesses_
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 wasm
 :
 :
@@ -3343,8 +3330,6 @@ return
 tryNotes_
 ;
 }
-#
-endif
 }
 ;
 #

@@ -5765,9 +5765,6 @@ type
 ;
 }
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 void
 BaseCompiler
 :
@@ -5847,8 +5844,6 @@ type
 )
 ;
 }
-#
-endif
 Stk
 BaseCompiler
 :
@@ -8494,9 +8489,6 @@ bytes
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 bool
 BaseCompiler
 :
@@ -8692,8 +8684,6 @@ pendingAddr
 )
 ;
 }
-#
-endif
 RegI32
 BaseCompiler
 :
@@ -18567,9 +18557,6 @@ ContinuationKind
 Fallthrough
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 if
 (
 !
@@ -18582,8 +18569,6 @@ return
 false
 ;
 }
-#
-endif
 iter_
 .
 popEnd
@@ -18706,9 +18691,6 @@ popEnd
 ;
 break
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 LabelKind
 :
@@ -18748,8 +18730,6 @@ popEnd
 ;
 break
 ;
-#
-endif
 }
 return
 true
@@ -19413,9 +19393,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 bool
 BaseCompiler
 :
@@ -21987,8 +21964,6 @@ lineOrBytecode
 )
 ;
 }
-#
-endif
 bool
 BaseCompiler
 :
@@ -41673,9 +41648,6 @@ emitElse
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 uint16_t
 (
@@ -41902,8 +41874,6 @@ emitRethrow
 )
 )
 ;
-#
-endif
 case
 uint16_t
 (

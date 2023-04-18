@@ -146,16 +146,8 @@ PostBarrier
 PostBarrierPrecise
 PostBarrierFiltering
 StructNew
-#
-if
-defined
-(
-ENABLE_WASM_EXCEPTIONS
-)
 ExceptionNew
 ThrowException
-#
-endif
 ArrayNew
 InlineTypedObjectClass
 #
@@ -521,9 +513,6 @@ const
 SymbolicAddressSignature
 SASigStructNew
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 extern
 const
 SymbolicAddressSignature
@@ -534,8 +523,6 @@ const
 SymbolicAddressSignature
 SASigThrowException
 ;
-#
-endif
 extern
 const
 SymbolicAddressSignature

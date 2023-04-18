@@ -283,9 +283,6 @@ symbolicAccesses
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 tryNotes
 .
 swap
@@ -297,8 +294,6 @@ tryNotes
 )
 )
 ;
-#
-endif
 codeLabels
 .
 swap
@@ -1308,9 +1303,6 @@ false
 ;
 }
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 for
 (
 TagDesc
@@ -1350,8 +1342,6 @@ false
 ;
 }
 }
-#
-endif
 if
 (
 !
@@ -3469,9 +3459,6 @@ false
 ;
 }
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 auto
 tryNoteOp
 =
@@ -3516,8 +3503,6 @@ return
 false
 ;
 }
-#
-endif
 return
 true
 ;
@@ -4660,9 +4645,6 @@ empty
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 MOZ_ASSERT
 (
 masm_
@@ -4676,8 +4658,6 @@ empty
 )
 )
 ;
-#
-endif
 MOZ_ASSERT
 (
 masm_
@@ -4723,9 +4703,6 @@ finishAndSort
 (
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 std
 :
 :
@@ -4749,8 +4726,6 @@ end
 )
 )
 ;
-#
-endif
 #
 ifdef
 DEBUG
@@ -4956,9 +4931,6 @@ pcOffset
 ;
 }
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 last
 =
 0
@@ -5006,8 +4978,6 @@ end
 }
 #
 endif
-#
-endif
 metadataTier_
 -
 >
@@ -5044,9 +5014,6 @@ shrinkStorageToFit
 (
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 metadataTier_
 -
 >
@@ -5056,8 +5023,6 @@ shrinkStorageToFit
 (
 )
 ;
-#
-endif
 for
 (
 Trap
@@ -5451,9 +5416,6 @@ moduleEnv_
 globals
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 metadata_
 -
 >
@@ -5470,8 +5432,6 @@ moduleEnv_
 tags
 )
 ;
-#
-endif
 metadata_
 -
 >
@@ -6789,9 +6749,6 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 +
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 tryNotes
 .
 sizeOfExcludingThis
@@ -6799,8 +6756,6 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 +
-#
-endif
 codeLabels
 .
 sizeOfExcludingThis

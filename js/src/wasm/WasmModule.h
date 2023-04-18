@@ -269,9 +269,6 @@ memory
 )
 const
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 bool
 instantiateTags
 (
@@ -284,8 +281,6 @@ tagObjs
 )
 const
 ;
-#
-endif
 bool
 instantiateImportedTable
 (

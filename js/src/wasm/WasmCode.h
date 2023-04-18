@@ -1712,14 +1712,9 @@ globals
 TableDescVector
 tables
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 TagDescVector
 tags
 ;
-#
-endif
 CacheableChars
 filename
 ;
@@ -2094,14 +2089,9 @@ funcExports
 StackMaps
 stackMaps
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 WasmTryNoteVector
 tryNotes
 ;
-#
-endif
 uint32_t
 debugTrapOffset
 ;
@@ -2841,9 +2831,6 @@ pc
 )
 const
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 const
 WasmTryNote
 *
@@ -2856,8 +2843,6 @@ pc
 )
 const
 ;
-#
-endif
 void
 addSizeOfMisc
 (
@@ -3563,9 +3548,6 @@ nextPC
 )
 const
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 const
 WasmTryNote
 *
@@ -3580,8 +3562,6 @@ tier
 )
 const
 ;
-#
-endif
 bool
 containsCodePC
 (
