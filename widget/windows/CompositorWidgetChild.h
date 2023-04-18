@@ -134,6 +134,16 @@ aMode
 override
 ;
 void
+NotifyVisibilityUpdated
+(
+nsSizeMode
+aSizeMode
+bool
+aIsFullyOccluded
+)
+override
+;
+void
 ClearTransparentWindow
 (
 )

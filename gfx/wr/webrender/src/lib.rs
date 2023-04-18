@@ -816,6 +816,7 @@ composite
 MappableCompositor
 MappedTileInfo
 SWGLCompositeSurfaceInfo
+WindowVisibility
 }
 ;
 pub

@@ -707,6 +707,15 @@ aCaps
 )
 ;
 virtual
+void
+GetWindowVisibility
+(
+WindowVisibility
+*
+aVisibility
+)
+;
+virtual
 bool
 UsePartialPresent
 (
