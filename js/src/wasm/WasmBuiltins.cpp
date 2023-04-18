@@ -2785,10 +2785,10 @@ rfe
 >
 kind
 =
-ResumeFromException
+ExceptionResumeKind
 :
 :
-RESUME_WASM_CATCH
+WasmCatch
 ;
 rfe
 -
@@ -3042,10 +3042,10 @@ rfe
 >
 kind
 =
-ResumeFromException
+ExceptionResumeKind
 :
 :
-RESUME_WASM
+Wasm
 ;
 rfe
 -
