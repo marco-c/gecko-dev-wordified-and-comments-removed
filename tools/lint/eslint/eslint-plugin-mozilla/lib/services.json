@@ -91,6 +91,13 @@ nsICookieManager
 cookies
 "
 "
+nsICookieService
+"
+:
+"
+cookies
+"
+"
 nsIDOMRequestService
 "
 :
