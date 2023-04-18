@@ -566,7 +566,7 @@ constexpr
 uint32_t
 kVideoDroppedRatio
 =
-5
+1
 ;
 #
 define
