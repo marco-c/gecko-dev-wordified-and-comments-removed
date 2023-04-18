@@ -5122,7 +5122,7 @@ mFakeVertexAttrib0BufferObject
 =
 0
 ;
-size_t
+intptr_t
 mFakeVertexAttrib0BufferObjectSize
 =
 0
