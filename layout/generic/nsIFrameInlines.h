@@ -355,7 +355,7 @@ bool
 nsIFrame
 :
 :
-IsRelativelyPositioned
+IsRelativelyOrStickyPositioned
 (
 )
 const
@@ -366,7 +366,7 @@ StyleDisplay
 )
 -
 >
-IsRelativelyPositioned
+IsRelativelyOrStickyPositioned
 (
 this
 )

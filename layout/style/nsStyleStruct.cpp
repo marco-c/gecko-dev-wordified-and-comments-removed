@@ -12822,14 +12822,14 @@ nsChangeHint_ReconstructFrame
 }
 if
 (
-IsRelativelyPositionedStyle
+IsRelativelyOrStickyPositionedStyle
 (
 )
 !
 =
 aNewData
 .
-IsRelativelyPositionedStyle
+IsRelativelyOrStickyPositionedStyle
 (
 )
 )

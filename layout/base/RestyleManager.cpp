@@ -3356,7 +3356,7 @@ if
 display
 -
 >
-IsRelativelyPositionedStyle
+IsRelativelyOrStickyPositionedStyle
 (
 )
 )

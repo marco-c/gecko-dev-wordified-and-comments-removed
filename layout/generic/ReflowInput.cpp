@@ -3995,7 +3995,7 @@ if
 aFrame
 -
 >
-IsRelativelyPositioned
+IsRelativelyOrStickyPositioned
 (
 )
 )
@@ -10387,7 +10387,7 @@ if
 mStyleDisplay
 -
 >
-IsRelativelyPositioned
+IsRelativelyOrStickyPositioned
 (
 mFrame
 )

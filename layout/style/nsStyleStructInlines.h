@@ -894,7 +894,7 @@ bool
 nsStyleDisplay
 :
 :
-IsRelativelyPositioned
+IsRelativelyOrStickyPositioned
 (
 const
 nsIFrame
@@ -921,7 +921,7 @@ aContextFrame
 )
 ;
 return
-IsRelativelyPositionedStyle
+IsRelativelyOrStickyPositionedStyle
 (
 )
 &

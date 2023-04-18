@@ -7083,7 +7083,7 @@ mPosition
 ;
 }
 bool
-IsRelativelyPositionedStyle
+IsRelativelyOrStickyPositionedStyle
 (
 )
 const
@@ -7774,7 +7774,7 @@ const
 ;
 inline
 bool
-IsRelativelyPositioned
+IsRelativelyOrStickyPositioned
 (
 const
 nsIFrame

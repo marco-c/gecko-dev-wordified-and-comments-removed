@@ -1035,7 +1035,7 @@ JustificationAssignment
 mJustificationAssignment
 ;
 bool
-mRelativePos
+mIsRelativelyOrStickyPos
 :
 1
 ;
