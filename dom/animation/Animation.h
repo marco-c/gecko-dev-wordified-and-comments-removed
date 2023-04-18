@@ -1143,7 +1143,10 @@ aActiveTime
 {
 }
 ;
-int32_t
+Maybe
+<
+uint32_t
+>
 &
 CachedChildIndexRef
 (
@@ -1713,11 +1716,11 @@ sNextAnimationIndex
 uint64_t
 mAnimationIndex
 ;
-int32_t
+Maybe
+<
+uint32_t
+>
 mCachedChildIndex
-=
--
-1
 ;
 enum
 class

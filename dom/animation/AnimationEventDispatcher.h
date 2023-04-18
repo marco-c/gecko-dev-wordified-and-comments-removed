@@ -1303,9 +1303,10 @@ mAnimation
 CachedChildIndexRef
 (
 )
-=
--
-1
+.
+reset
+(
+)
 ;
 }
 std
