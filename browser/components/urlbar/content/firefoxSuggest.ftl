@@ -177,16 +177,6 @@ match
 .
 label
 =
-{
--
-firefox
--
-suggest
--
-brand
--
-name
-}
 Top
 pick
 #
