@@ -158,7 +158,7 @@ AddRef
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 NS_IsMainThread
 (
@@ -216,7 +216,7 @@ Release
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 NS_IsMainThread
 (
