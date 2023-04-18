@@ -4446,11 +4446,6 @@ name
 onSuspend
 "
 "
-unsupported
-"
-:
-true
-"
 type
 "
 :
@@ -4542,11 +4537,6 @@ name
 "
 onSuspendCanceled
 "
-"
-unsupported
-"
-:
-true
 "
 type
 "
