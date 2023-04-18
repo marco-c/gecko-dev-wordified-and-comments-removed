@@ -613,11 +613,13 @@ private
 -
 browsing
 -
-dismiss
+promo
+-
+close
 -
 button
 =
 .
 title
 =
-Dismiss
+Close
