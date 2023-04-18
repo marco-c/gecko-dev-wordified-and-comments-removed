@@ -2941,6 +2941,7 @@ aClosure
 )
 {
 auto
+*
 workerPrivate
 =
 static_cast
@@ -2992,6 +2993,7 @@ aClosure
 )
 {
 auto
+*
 workerPrivate
 =
 static_cast
@@ -13549,6 +13551,7 @@ GetEffectiveEventLoopRecursionDepth
 )
 {
 auto
+*
 ccjs
 =
 CycleCollectedJSContext
@@ -17320,6 +17323,7 @@ nullptr
 }
 }
 auto
+*
 queue
 =
 static_cast
@@ -17771,6 +17775,7 @@ loopInfo
 mResult
 ;
 auto
+*
 queue
 =
 static_cast
