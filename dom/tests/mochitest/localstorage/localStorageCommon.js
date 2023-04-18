@@ -539,7 +539,7 @@ wrap
 document
 )
 .
-nodePrincipal
+effectiveStoragePrincipal
 ;
 let
 request
