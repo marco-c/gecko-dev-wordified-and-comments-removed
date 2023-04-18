@@ -472,7 +472,11 @@ const
 ;
 nsTArray
 <
+Tuple
+<
 nsCString
+SupportedAlpnRank
+>
 >
 GetAllAlpn
 (
@@ -534,7 +538,7 @@ Maybe
 Tuple
 <
 nsCString
-SupportedAlpnType
+SupportedAlpnRank
 >
 >
 mAlpn
@@ -595,7 +599,7 @@ Maybe
 Tuple
 <
 nsCString
-SupportedAlpnType
+SupportedAlpnRank
 >
 >
 aAlpn
@@ -629,7 +633,7 @@ Maybe
 Tuple
 <
 nsCString
-SupportedAlpnType
+SupportedAlpnRank
 >
 >
 mAlpn

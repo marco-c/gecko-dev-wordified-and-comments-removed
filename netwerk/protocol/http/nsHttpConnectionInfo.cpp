@@ -1641,7 +1641,7 @@ Maybe
 Tuple
 <
 nsCString
-SupportedAlpnType
+SupportedAlpnRank
 >
 >
 alpn
@@ -1658,6 +1658,14 @@ isHttp3
 =
 alpn
 ?
+mozilla
+:
+:
+net
+:
+:
+IsHttp3
+(
 Get
 <
 1
@@ -1666,12 +1674,7 @@ Get
 *
 alpn
 )
-=
-=
-SupportedAlpnType
-:
-:
-HTTP_3
+)
 :
 false
 ;

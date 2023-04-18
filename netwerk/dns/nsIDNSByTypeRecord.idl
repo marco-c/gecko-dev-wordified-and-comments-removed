@@ -206,7 +206,7 @@ mozilla
 net
 :
 :
-SupportedAlpnType
+SupportedAlpnRank
 >
 >
 )
