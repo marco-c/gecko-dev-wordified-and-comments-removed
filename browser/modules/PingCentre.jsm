@@ -709,8 +709,7 @@ PingCentre
 =
 PingCentre
 ;
-this
-.
+const
 PingCentreConstants
 =
 {

@@ -661,8 +661,7 @@ selectedBrowser
 }
 }
 ;
-this
-.
+const
 BrowserWindowTracker
 =
 {

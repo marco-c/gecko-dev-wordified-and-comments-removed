@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -98,8 +97,7 @@ properties
 }
 )
 ;
-this
-.
+const
 OpenInTabsUtils
 =
 {
