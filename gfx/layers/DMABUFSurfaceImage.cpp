@@ -243,6 +243,12 @@ GetAsSourceSurface
 (
 )
 {
+StaticMutexAutoLock
+lock
+(
+sSnapshotContextMutex
+)
+;
 if
 (
 !
@@ -290,12 +296,6 @@ nullptr
 ;
 }
 }
-StaticMutexAutoLock
-lock
-(
-sSnapshotContextMutex
-)
-;
 sSnapshotContext
 -
 >
