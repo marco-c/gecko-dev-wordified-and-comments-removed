@@ -2123,7 +2123,6 @@ dnl
 =
 =
 =
-MOZ_ANDROID_CPU_ARCH
 if
 test
 "
