@@ -746,6 +746,8 @@ linux1804
 windows10
 -
 64
+|
+macosx1015
 )
 -
 shippable
@@ -1250,6 +1252,9 @@ variant
 fission
 :
 [
+mozilla
+-
+central
 ]
 default
 :
@@ -2191,6 +2196,8 @@ linux1804
 windows10
 -
 64
+|
+macosx1015
 )
 -
 shippable
@@ -5478,6 +5485,8 @@ webgl
 )
 variants
 :
+-
+fission
 -
 webgl
 -
