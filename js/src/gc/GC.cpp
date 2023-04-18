@@ -10535,12 +10535,10 @@ CallbackTracer
 void
 onChild
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 thing
 )
 override
@@ -10726,12 +10724,10 @@ CompartmentCheckTracer
 :
 onChild
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 thing
 )
 {

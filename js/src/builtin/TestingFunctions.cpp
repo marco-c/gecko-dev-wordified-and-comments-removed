@@ -16346,12 +16346,10 @@ found_
 void
 onChild
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 thing
 )
 override

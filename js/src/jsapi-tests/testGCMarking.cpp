@@ -385,12 +385,10 @@ CallbackTracer
 void
 onChild
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 thing
 )
 override

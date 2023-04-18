@@ -1278,12 +1278,10 @@ wantNames
 void
 onChild
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 thing
 )
 override
