@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 FeaturePolicyViolationReportBody
@@ -368,6 +368,5 @@ mDisposition
 )
 )
 ;
-}
 }
 }

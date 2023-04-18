@@ -22,8 +22,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -337,6 +337,5 @@ set
 buffer
 )
 ;
-}
 }
 }

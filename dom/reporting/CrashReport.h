@@ -16,8 +16,8 @@ nsIPrincipal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -38,7 +38,6 @@ aIsOOM
 ;
 }
 ;
-}
 }
 #
 endif

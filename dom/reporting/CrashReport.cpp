@@ -74,8 +74,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -323,6 +323,5 @@ data
 return
 true
 ;
-}
 }
 }

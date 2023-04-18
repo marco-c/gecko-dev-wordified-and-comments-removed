@@ -43,8 +43,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -583,7 +583,6 @@ mFlags
 ;
 }
 ;
-}
 }
 #
 endif

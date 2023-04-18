@@ -3899,8 +3899,8 @@ mErrorValue
 ;
 namespace
 dom
-{
-namespace
+:
+:
 quota
 {
 extern
@@ -5850,7 +5850,6 @@ firstInitializationAttempt
 }
 )
 ;
-}
 }
 }
 }

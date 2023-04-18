@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 DeprecationReportBody
@@ -399,7 +399,6 @@ Value
 )
 )
 ;
-}
 }
 }
 }

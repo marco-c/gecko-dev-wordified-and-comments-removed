@@ -44,11 +44,11 @@ nsIInputStream
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 quota
 {
 class
@@ -113,8 +113,6 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOUTPUTSTREAM
 }
 ;
-}
-}
 }
 #
 endif

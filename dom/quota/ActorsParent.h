@@ -19,11 +19,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 quota
 {
 class
@@ -53,8 +53,6 @@ RecvShutdownQuotaManager
 (
 )
 ;
-}
-}
 }
 #
 endif

@@ -65,8 +65,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 PushSubscriptionOptions
@@ -321,6 +321,5 @@ set
 mAppServerKey
 )
 ;
-}
 }
 }

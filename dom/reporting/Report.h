@@ -80,8 +80,8 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -213,7 +213,6 @@ mBody
 ;
 }
 ;
-}
 }
 #
 endif

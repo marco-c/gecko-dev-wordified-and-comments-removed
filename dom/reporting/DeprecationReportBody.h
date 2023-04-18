@@ -35,8 +35,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -215,7 +215,6 @@ mColumnNumber
 ;
 }
 ;
-}
 }
 #
 endif

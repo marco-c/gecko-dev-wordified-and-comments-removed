@@ -118,8 +118,8 @@ BatteryInformation
 }
 namespace
 dom
-{
-namespace
+:
+:
 quota
 {
 class
@@ -277,7 +277,6 @@ override
 ;
 }
 ;
-}
 }
 }
 #

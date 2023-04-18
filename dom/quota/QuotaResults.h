@@ -45,11 +45,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 quota
 {
 class
@@ -207,8 +207,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIQUOTAESTIMATERESULT
 }
 ;
-}
-}
 }
 #
 endif

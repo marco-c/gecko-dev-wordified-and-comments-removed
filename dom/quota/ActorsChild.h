@@ -111,8 +111,8 @@ BackgroundChildImpl
 }
 namespace
 dom
-{
-namespace
+:
+:
 quota
 {
 class
@@ -495,7 +495,6 @@ override
 ;
 }
 ;
-}
 }
 }
 #

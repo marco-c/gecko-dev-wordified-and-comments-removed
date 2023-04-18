@@ -56,8 +56,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 EndpointForReportParent
@@ -217,6 +217,5 @@ uri
 )
 )
 ;
-}
 }
 }

@@ -71,11 +71,11 @@ nsIVariant
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 quota
 {
 class
@@ -352,8 +352,6 @@ override
 ;
 }
 ;
-}
-}
 }
 #
 endif
