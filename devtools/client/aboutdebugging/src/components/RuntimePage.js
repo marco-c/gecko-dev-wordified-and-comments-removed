@@ -789,7 +789,7 @@ object
 }
 ;
 }
-componentWillMount
+UNSAFE_componentWillMount
 (
 )
 {

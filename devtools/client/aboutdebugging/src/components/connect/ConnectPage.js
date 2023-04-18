@@ -496,7 +496,7 @@ isRequired
 }
 ;
 }
-componentWillMount
+UNSAFE_componentWillMount
 (
 )
 {
