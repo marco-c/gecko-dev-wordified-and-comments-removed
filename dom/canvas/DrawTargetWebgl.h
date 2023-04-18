@@ -1226,6 +1226,12 @@ bool
 aForceUpdate
 =
 false
+const
+StrokeOptions
+*
+aStrokeOptions
+=
+nullptr
 )
 ;
 void
