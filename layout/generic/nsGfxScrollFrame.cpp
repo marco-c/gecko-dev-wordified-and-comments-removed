@@ -11415,14 +11415,12 @@ void
 ScrollFrameHelper
 :
 :
-ScrollToCSSPixelsApproximate
+ScrollToCSSPixelsForApz
 (
 const
 CSSPoint
 &
 aScrollPosition
-ScrollOrigin
-aOrigin
 )
 {
 nsPoint
@@ -11479,7 +11477,10 @@ ScrollMode
 :
 :
 Instant
-aOrigin
+ScrollOrigin
+:
+:
+Apz
 &
 range
 )
