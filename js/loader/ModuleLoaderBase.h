@@ -488,6 +488,11 @@ GetMainThreadSerialEventTarget
 )
 )
 ;
+void
+Shutdown
+(
+)
+;
 using
 LoadedScript
 =
