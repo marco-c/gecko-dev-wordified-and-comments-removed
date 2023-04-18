@@ -614,6 +614,12 @@ write
 line
 )
         
+tmp_file
+.
+flush
+(
+)
+        
 shutil
 .
 copystat
