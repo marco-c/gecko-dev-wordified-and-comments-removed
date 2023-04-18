@@ -61,6 +61,11 @@ DIRS
 messages
 "
 "
+new
+-
+request
+"
+"
 previews
 "
 "
