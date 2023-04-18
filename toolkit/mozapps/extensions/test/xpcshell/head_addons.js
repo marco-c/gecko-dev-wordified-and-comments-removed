@@ -5426,14 +5426,10 @@ RemoteSettings
 gfx
 "
 {
-bucketNamePref
+bucketName
 :
 "
-services
-.
-blocklist
-.
-bucket
+blocklists
 "
 }
 )

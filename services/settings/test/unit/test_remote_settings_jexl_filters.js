@@ -630,7 +630,7 @@ services
 .
 settings
 .
-default_bucket
+poll_interval
 "
 |
 preferenceExists
@@ -651,7 +651,7 @@ services
 .
 settings
 .
-default_bucket
+poll_interval
 "
 |
 preferenceIsUserSet
