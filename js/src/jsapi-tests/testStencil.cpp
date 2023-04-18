@@ -5182,6 +5182,10 @@ PinnedBufferMax
 =
 1024
 ;
+alignas
+(
+4
+)
 uint8_t
 pinnedBuffer
 [
