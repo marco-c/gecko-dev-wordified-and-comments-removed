@@ -1064,13 +1064,15 @@ aIndex
 )
 override
 ;
+virtual
 int32_t
-GetIndexOfEmbeddedChild
+IndexOfEmbeddedChild
 (
-LocalAccessible
+Accessible
 *
 aChild
 )
+override
 ;
 uint32_t
 ContentChildCount

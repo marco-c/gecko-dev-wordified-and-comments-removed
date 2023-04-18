@@ -295,6 +295,17 @@ aIndex
 0
 ;
 virtual
+int32_t
+IndexOfEmbeddedChild
+(
+Accessible
+*
+aChild
+)
+=
+0
+;
+virtual
 ENameValueFlag
 Name
 (

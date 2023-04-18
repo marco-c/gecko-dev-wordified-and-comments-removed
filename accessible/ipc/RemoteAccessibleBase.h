@@ -521,14 +521,15 @@ EmbeddedChildCount
 )
 const
 ;
+virtual
 int32_t
 IndexOfEmbeddedChild
 (
-const
-Derived
+Accessible
 *
 aChild
 )
+override
 ;
 virtual
 Accessible
