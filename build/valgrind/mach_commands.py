@@ -1035,7 +1035,7 @@ None
         
 timeout
 =
-1800
+2400
         
 binary_not_found_exception
 =
