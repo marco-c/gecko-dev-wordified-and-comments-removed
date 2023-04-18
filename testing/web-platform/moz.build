@@ -5969,8 +5969,9 @@ BUG_COMPONENT
 Core
 "
 "
-JavaScript
-Engine
+DOM
+:
+Streams
 "
 )
 with
