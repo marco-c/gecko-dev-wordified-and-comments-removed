@@ -1671,6 +1671,10 @@ GetScrollableFrameFor
 aBlockFrame
 )
 )
+mMarkerList
+(
+aBuilder
+)
 mBlockSize
 (
 aBlockFrame
