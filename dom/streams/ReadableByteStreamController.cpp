@@ -319,6 +319,8 @@ ReadableStreamController
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mByobRequest
+mCancelAlgorithm
+mPullAlgorithm
 mStream
 )
 tmp
@@ -345,6 +347,8 @@ ReadableStreamController
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mByobRequest
+mCancelAlgorithm
+mPullAlgorithm
 mStream
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
