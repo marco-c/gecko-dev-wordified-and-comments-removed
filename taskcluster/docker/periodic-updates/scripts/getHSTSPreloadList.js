@@ -2474,7 +2474,7 @@ CurWorkD
 "
 Ci
 .
-nsIfile
+nsIFile
 )
 .
 path
