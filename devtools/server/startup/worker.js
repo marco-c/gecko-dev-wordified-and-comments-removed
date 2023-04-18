@@ -221,12 +221,6 @@ server
 ;
 DevToolsServer
 .
-init
-(
-)
-;
-DevToolsServer
-.
 createRootActor
 =
 function
@@ -299,6 +293,12 @@ forwardingPrefix
 }
 =
 packet
+;
+DevToolsServer
+.
+init
+(
+)
 ;
 const
 connection

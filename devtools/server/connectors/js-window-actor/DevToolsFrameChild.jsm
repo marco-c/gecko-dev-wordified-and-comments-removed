@@ -1000,12 +1000,6 @@ init
 ;
 DevToolsServer
 .
-autoDestroy
-=
-true
-;
-DevToolsServer
-.
 registerActors
 (
 {
