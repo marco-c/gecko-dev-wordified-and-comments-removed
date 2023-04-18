@@ -149,17 +149,6 @@ include
 "
 mozilla
 /
-layers
-/
-TextureSourceProvider
-.
-h
-"
-#
-include
-"
-mozilla
-/
 mozalloc
 .
 h
@@ -339,6 +328,9 @@ TextureSourceD3D11
 ;
 class
 TextureSourceBasic
+;
+class
+TextureSourceProvider
 ;
 class
 DataTextureSource
