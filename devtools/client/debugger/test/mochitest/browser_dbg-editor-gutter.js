@@ -59,8 +59,6 @@ selectSource
 (
 dbg
 source
-.
-url
 )
 ;
 await

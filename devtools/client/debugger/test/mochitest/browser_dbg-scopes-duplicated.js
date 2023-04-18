@@ -267,6 +267,8 @@ waitForLoadedSource
 dbg
 "
 test
+.
+js
 "
 )
 ]

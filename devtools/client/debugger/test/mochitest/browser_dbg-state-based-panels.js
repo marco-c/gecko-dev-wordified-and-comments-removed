@@ -20,6 +20,8 @@ html
 "
 "
 simple1
+.
+js
 "
 )
 ;

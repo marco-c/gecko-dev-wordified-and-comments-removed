@@ -39,6 +39,8 @@ waitForLoadedSource
 (
 dbg
 "
+doc
+-
 debugger
 -
 statements

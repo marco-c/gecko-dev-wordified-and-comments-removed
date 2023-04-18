@@ -423,8 +423,6 @@ selectSource
 (
 dbg
 source
-.
-url
 )
 ;
 info
@@ -443,8 +441,6 @@ addBreakpoint
 (
 dbg
 source
-.
-url
 3
 )
 ;

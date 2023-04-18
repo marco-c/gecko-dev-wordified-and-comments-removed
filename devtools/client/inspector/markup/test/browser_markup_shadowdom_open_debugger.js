@@ -775,10 +775,7 @@ await
 waitForLoadedSource
 (
 debuggerContext
-"
-data
-:
-"
+TEST_URL
 )
 ;
 }

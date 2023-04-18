@@ -46,6 +46,8 @@ selectSource
 dbg
 "
 times2
+.
+js
 "
 )
 ;
@@ -55,6 +57,8 @@ addBreakpoint
 dbg
 "
 times2
+.
+js
 "
 2
 )
@@ -78,6 +82,8 @@ waitForSelectedSource
 dbg
 "
 times2
+.
+js
 "
 )
 ;
@@ -199,6 +205,8 @@ selectSource
 dbg
 "
 output
+.
+js
 "
 )
 ;

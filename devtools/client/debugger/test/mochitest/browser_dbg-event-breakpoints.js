@@ -43,6 +43,8 @@ html
 event
 -
 breakpoints
+.
+js
 "
 )
 ;
@@ -54,6 +56,8 @@ dbg
 event
 -
 breakpoints
+.
+js
 "
 )
 ;
@@ -65,6 +69,8 @@ dbg
 event
 -
 breakpoints
+.
+js
 "
 )
 ;

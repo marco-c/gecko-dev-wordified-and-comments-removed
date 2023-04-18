@@ -69,7 +69,7 @@ previews
 )
 {
 const
-filename
+url
 =
 {
 target
@@ -85,6 +85,7 @@ fixture
 /
 input
 .
+js
 ;
 const
 fnName
@@ -139,7 +140,7 @@ invokeWithBreakpoint
 (
 dbg
 fnName
-filename
+url
 {
 line
 column

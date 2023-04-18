@@ -139,6 +139,8 @@ selectSource
 dbg
 "
 simple2
+.
+js
 "
 )
 ;
@@ -148,6 +150,8 @@ addBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 3
 )
@@ -176,6 +180,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 3
 )
@@ -216,6 +222,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 3
 )

@@ -31,6 +31,8 @@ selectSource
 dbg
 "
 long
+.
+js
 "
 )
 ;
@@ -40,6 +42,8 @@ waitForSelectedSource
 dbg
 "
 long
+.
+js
 "
 )
 ;

@@ -26,6 +26,8 @@ doc
 duplicate
 -
 functions
+.
+html
 "
 )
 ;
@@ -41,6 +43,8 @@ doc
 duplicate
 -
 functions
+.
+html
 "
 )
 ;
@@ -49,8 +53,6 @@ selectSource
 (
 dbg
 source
-.
-url
 )
 ;
 await
@@ -58,8 +60,6 @@ addBreakpoint
 (
 dbg
 source
-.
-url
 21
 )
 ;
@@ -73,6 +73,8 @@ doc
 duplicate
 -
 functions
+.
+html
 "
 )
 ;
@@ -158,6 +160,8 @@ doc
 duplicate
 -
 functions
+.
+html
 "
 )
 ;

@@ -20,6 +20,8 @@ html
 "
 "
 simple2
+.
+js
 "
 )
 ;
@@ -29,6 +31,8 @@ selectSource
 dbg
 "
 simple2
+.
+js
 "
 )
 ;
@@ -38,6 +42,8 @@ addBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 3
 )
@@ -48,6 +54,8 @@ addBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 5
 )
@@ -67,6 +75,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 3
 )
@@ -79,6 +89,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 5
 )
@@ -132,6 +144,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 5
 )
@@ -162,6 +176,8 @@ selectSource
 dbg
 "
 simple2
+.
+js
 "
 )
 ;
@@ -171,6 +187,8 @@ addBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 3
 )
@@ -181,6 +199,8 @@ addBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 5
 )
@@ -255,6 +275,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 3
 )
@@ -266,6 +288,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 5
 )
@@ -346,6 +370,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 3
 )
@@ -357,6 +383,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 5
 )
@@ -411,6 +439,8 @@ waitForBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 3
 )
@@ -423,6 +453,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 3
 )
@@ -582,6 +614,8 @@ waitForBreakpointRemoved
 dbg
 "
 simple2
+.
+js
 "
 3
 )
@@ -592,6 +626,8 @@ waitForBreakpointRemoved
 dbg
 "
 simple2
+.
+js
 "
 5
 )

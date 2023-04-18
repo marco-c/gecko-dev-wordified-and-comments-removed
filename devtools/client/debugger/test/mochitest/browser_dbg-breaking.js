@@ -37,6 +37,8 @@ selectSource
 (
 dbg
 "
+doc
+-
 scripts
 .
 html
@@ -48,6 +50,8 @@ addBreakpoint
 (
 dbg
 "
+doc
+-
 scripts
 .
 html

@@ -38,6 +38,8 @@ html
 "
 "
 async
+.
+js
 "
 )
 ;
@@ -47,6 +49,8 @@ selectSource
 dbg
 "
 async
+.
+js
 "
 )
 ;
@@ -56,6 +60,8 @@ addBreakpoint
 dbg
 "
 async
+.
+js
 "
 8
 )

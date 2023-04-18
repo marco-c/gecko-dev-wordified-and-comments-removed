@@ -37,8 +37,6 @@ dbg
 mapTestFunction
 "
 "
-quickstart
-/
 router
 .
 js

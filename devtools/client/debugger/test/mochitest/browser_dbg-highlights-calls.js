@@ -62,8 +62,6 @@ selectSource
 (
 dbg
 source
-.
-url
 )
 ;
 await
@@ -71,8 +69,6 @@ waitForSelectedSource
 (
 dbg
 source
-.
-url
 )
 ;
 invokeInTab
