@@ -82,12 +82,6 @@ ffmpeg58
 /
 include
 "
-"
-/
-media
-/
-ffvpx
-"
 ]
 CXXFLAGS
 +
@@ -193,14 +187,6 @@ MOZ_WAYLAND_USE_VAAPI
 ]
 =
 1
-USE_LIBS
-+
-=
-[
-"
-mozva
-"
-]
 FINAL_LIBRARY
 =
 "
