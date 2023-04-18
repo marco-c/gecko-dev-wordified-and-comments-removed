@@ -679,6 +679,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 ReadableStreamClose
@@ -694,6 +695,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 ReadableStreamFulfillReadRequest

@@ -781,8 +781,10 @@ aController
 return
 ;
 }
+RefPtr
+<
 ReadableStream
-*
+>
 stream
 =
 aController
@@ -920,8 +922,10 @@ aController
 return
 ;
 }
+RefPtr
+<
 ReadableStream
-*
+>
 stream
 =
 aController
@@ -2458,8 +2462,10 @@ ErrorResult
 aRv
 )
 {
+RefPtr
+<
 ReadableStream
-*
+>
 stream
 =
 mStream
