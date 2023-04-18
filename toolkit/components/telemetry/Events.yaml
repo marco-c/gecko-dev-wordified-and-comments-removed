@@ -8218,11 +8218,12 @@ bug_numbers
 1650941
 1678200
 1714252
+1754637
 ]
 expiry_version
 :
 "
-100
+112
 "
 release_channel_collection
 :
@@ -8244,12 +8245,6 @@ main
 notification_emails
 :
 [
-"
-srudie
-mozilla
-.
-com
-"
 "
 passwords
 -
