@@ -497,7 +497,7 @@ error
 =
 0x
 %
-X
+lX
 "
 hr
 )

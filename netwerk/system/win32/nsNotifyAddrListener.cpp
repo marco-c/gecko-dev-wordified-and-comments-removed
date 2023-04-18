@@ -1014,7 +1014,7 @@ CoCreateInstance
 error
 :
 %
-X
+lX
 "
 hr
 )
@@ -1062,7 +1062,7 @@ GetNetworks
 error
 :
 %
-X
+lX
 "
 hr
 )

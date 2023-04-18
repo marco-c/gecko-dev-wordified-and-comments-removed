@@ -1206,7 +1206,7 @@ PrintDlgExW
 failed
 with
 %
-x
+lx
 \
 n
 "
