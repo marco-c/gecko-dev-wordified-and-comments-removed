@@ -4046,6 +4046,15 @@ mWindowSupportsProtectedMedia
 ;
 #
 endif
+RefPtr
+<
+dom
+:
+:
+Promise
+>
+mContentTransformPromise
+;
 DISALLOW_EVIL_CONSTRUCTORS
 (
 BrowserChild
