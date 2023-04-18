@@ -148,8 +148,8 @@ const
 LayoutDeviceRect
 &
 aRect
-bool
-aHorizontal
+ScrollbarKind
+aScrollbarKind
 nsIFrame
 *
 aFrame
@@ -188,6 +188,18 @@ aDocumentState
 aColors
 )
 ;
+const
+bool
+horizontal
+=
+aScrollbarKind
+=
+=
+ScrollbarKind
+:
+:
+Horizontal
+;
 LayoutDeviceRect
 thumbRect
 (
@@ -196,7 +208,7 @@ aRect
 ;
 if
 (
-aHorizontal
+horizontal
 )
 {
 thumbRect
@@ -252,7 +264,7 @@ LayoutDeviceCoord
 radius
 =
 (
-aHorizontal
+horizontal
 ?
 thumbRect
 .
@@ -307,8 +319,8 @@ const
 LayoutDeviceRect
 &
 aRect
-bool
-aHorizontal
+ScrollbarKind
+aScrollbarKind
 nsIFrame
 *
 aFrame
@@ -338,7 +350,7 @@ DoPaintScrollbarThumb
 (
 aDt
 aRect
-aHorizontal
+aScrollbarKind
 aFrame
 aStyle
 aElementState
@@ -364,8 +376,8 @@ const
 LayoutDeviceRect
 &
 aRect
-bool
-aHorizontal
+ScrollbarKind
+aScrollbarKind
 nsIFrame
 *
 aFrame
@@ -395,7 +407,7 @@ DoPaintScrollbarThumb
 (
 aWrData
 aRect
-aHorizontal
+aScrollbarKind
 aFrame
 aStyle
 aElementState

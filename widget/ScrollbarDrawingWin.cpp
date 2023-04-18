@@ -615,8 +615,8 @@ const
 LayoutDeviceRect
 &
 aRect
-bool
-aHorizontal
+ScrollbarKind
+aScrollbarKind
 nsIFrame
 *
 aFrame
@@ -681,8 +681,8 @@ const
 LayoutDeviceRect
 &
 aRect
-bool
-aHorizontal
+ScrollbarKind
+aScrollbarKind
 nsIFrame
 *
 aFrame
@@ -713,7 +713,7 @@ DoPaintScrollbarThumb
 (
 aDrawTarget
 aRect
-aHorizontal
+aScrollbarKind
 aFrame
 aStyle
 aElementState
@@ -736,8 +736,8 @@ const
 LayoutDeviceRect
 &
 aRect
-bool
-aHorizontal
+ScrollbarKind
+aScrollbarKind
 nsIFrame
 *
 aFrame
@@ -768,7 +768,7 @@ DoPaintScrollbarThumb
 (
 aWrData
 aRect
-aHorizontal
+aScrollbarKind
 aFrame
 aStyle
 aElementState
