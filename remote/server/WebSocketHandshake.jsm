@@ -67,11 +67,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 executeSoon
 :
@@ -131,7 +137,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -139,6 +145,8 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
@@ -150,7 +158,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 CryptoHash
 "
@@ -188,7 +196,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 threadManager
 "
@@ -224,7 +232,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 allowedOrigins
 "
@@ -232,6 +240,8 @@ allowedOrigins
 )
 =
 >
+lazy
+.
 RemoteAgent
 .
 allowOrigins
@@ -240,6 +250,8 @@ allowOrigins
 =
 null
 ?
+lazy
+.
 RemoteAgent
 .
 allowOrigins
@@ -252,7 +264,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 allowedOriginURIs
 "
@@ -262,6 +274,8 @@ allowedOriginURIs
 >
 {
 return
+lazy
+.
 allowedOrigins
 .
 map
@@ -426,6 +440,8 @@ ex
 }
 0
 0
+lazy
+.
 threadManager
 .
 currentThread
@@ -583,6 +599,8 @@ hostUri
 )
 |
 |
+lazy
+.
 RemoteAgent
 .
 allowHosts
@@ -598,6 +616,8 @@ isPortValid
 [
 -
 1
+lazy
+.
 RemoteAgent
 .
 port
@@ -656,6 +676,8 @@ null
 )
 {
 return
+lazy
+.
 allowedOrigins
 .
 includes
@@ -685,6 +707,8 @@ originHeader
 )
 ;
 return
+lazy
+.
 allowedOriginURIs
 .
 some
@@ -755,6 +779,8 @@ origin
 )
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -767,6 +793,8 @@ origins
 :
 [
 {
+lazy
+.
 allowedOrigins
 }
 ]
@@ -812,6 +840,8 @@ host
 )
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -824,6 +854,8 @@ hosts
 :
 [
 {
+lazy
+.
 RemoteAgent
 .
 allowHosts
@@ -1163,6 +1195,8 @@ const
 hash
 =
 new
+lazy
+.
 CryptoHash
 (
 "
@@ -1319,6 +1353,8 @@ setListener
 upgradeListener
 )
 {
+lazy
+.
 executeSoon
 (
 (

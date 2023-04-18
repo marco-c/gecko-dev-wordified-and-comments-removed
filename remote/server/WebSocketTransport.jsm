@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventEmitter
 :
@@ -66,6 +72,8 @@ WebSocketTransport
 socket
 )
 {
+lazy
+.
 EventEmitter
 .
 decorate
