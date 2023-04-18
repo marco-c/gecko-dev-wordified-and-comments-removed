@@ -3980,6 +3980,9 @@ insecureContext
 :
 true
 }
+"
+NavigationPreloadManager
+"
 {
 name
 :

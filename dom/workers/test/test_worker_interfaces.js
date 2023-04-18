@@ -1177,6 +1177,9 @@ insecureContext
 :
 true
 }
+"
+NavigationPreloadManager
+"
 {
 name
 :
