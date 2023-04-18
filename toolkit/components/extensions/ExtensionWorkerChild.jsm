@@ -1607,9 +1607,9 @@ close
 ;
 this
 .
-contet
+context
 .
-forgetOnclose
+forgetOnClose
 (
 listener
 .
