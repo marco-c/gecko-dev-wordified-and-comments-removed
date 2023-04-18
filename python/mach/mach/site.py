@@ -1803,7 +1803,7 @@ source
 )
     
 def
-up_to_date
+_up_to_date
 (
 self
 )
@@ -1937,7 +1937,7 @@ up_to_date
 =
 self
 .
-up_to_date
+_up_to_date
 (
 )
         
@@ -1977,9 +1977,6 @@ self
 _build
 (
 )
-        
-return
-up_to_date
     
 def
 attempt_populate_optional_packages
