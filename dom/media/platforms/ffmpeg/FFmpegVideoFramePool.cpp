@@ -570,6 +570,10 @@ GetVideoFrameSurface
 VADRMPRIMESurfaceDescriptor
 &
 aVaDesc
+int
+aWidth
+int
+aHeight
 AVCodecContext
 *
 aAVCodecContext
@@ -665,6 +669,8 @@ DMABufSurfaceYUV
 CreateYUVSurface
 (
 aVaDesc
+aWidth
+aHeight
 )
 ;
 if
@@ -803,6 +809,8 @@ surface
 UpdateYUVData
 (
 aVaDesc
+aWidth
+aHeight
 )
 )
 {

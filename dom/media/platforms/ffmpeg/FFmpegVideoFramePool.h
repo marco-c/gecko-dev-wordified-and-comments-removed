@@ -349,6 +349,10 @@ GetVideoFrameSurface
 VADRMPRIMESurfaceDescriptor
 &
 aVaDesc
+int
+aWidth
+int
+aHeight
 AVCodecContext
 *
 aAVCodecContext
