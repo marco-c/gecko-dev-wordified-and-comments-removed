@@ -77,8 +77,10 @@ WeakMap
 (
 )
 ;
-function
+class
 SplitView
+{
+constructor
 (
 root
 )
@@ -142,6 +144,12 @@ details
 this
 .
 _activeSummary
+=
+null
+;
+this
+.
+_filter
 =
 null
 ;
@@ -456,11 +464,6 @@ true
 )
 ;
 }
-SplitView
-.
-prototype
-=
-{
 get
 isLandscape
 (
@@ -691,8 +694,6 @@ null
 ;
 }
 getSummaryElementByOrdinal
-:
-function
 (
 ordinal
 )
@@ -726,8 +727,6 @@ ordinal
 ;
 }
 appendItem
-:
-function
 (
 summary
 details
@@ -828,8 +827,6 @@ data
 }
 }
 appendTemplatedItem
-:
-function
 (
 name
 options
@@ -976,8 +973,6 @@ details
 ;
 }
 removeItem
-:
-function
 (
 summary
 )
@@ -1046,8 +1041,6 @@ data
 }
 }
 removeAll
-:
-function
 (
 )
 {
@@ -1076,8 +1069,6 @@ firstChild
 }
 }
 setItemClassName
-:
-function
 (
 summary
 className
@@ -1202,4 +1193,3 @@ className
 ;
 }
 }
-;
