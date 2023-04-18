@@ -111,6 +111,13 @@ aValue
 )
 ;
 void
+WriteULEB128
+(
+uint64_t
+aValue
+)
+;
+void
 CloseWithRbspTrailing
 (
 )

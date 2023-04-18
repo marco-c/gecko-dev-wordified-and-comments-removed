@@ -3525,7 +3525,13 @@ mFullRange
 =
 colorSpace
 .
-mRangeId
+mRange
+=
+=
+ColorRange
+:
+:
+FULL
 ;
 RefPtr
 <

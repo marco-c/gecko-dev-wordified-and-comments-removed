@@ -107,6 +107,11 @@ ReadSE
 (
 )
 ;
+CheckedUint64
+ReadULEB128
+(
+)
+;
 size_t
 BitCount
 (
