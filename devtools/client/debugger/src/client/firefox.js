@@ -205,6 +205,9 @@ options
 pauseWorkersUntilAttach
 :
 true
+observeWasm
+:
+true
 }
 ;
 await

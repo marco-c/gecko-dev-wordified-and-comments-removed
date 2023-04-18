@@ -277,9 +277,6 @@ breakpoints
 observeAsmJS
 :
 true
-observeWasm
-:
-true
 breakpoints
 :
 sanitizeBreakpoints
