@@ -444,6 +444,7 @@ REGEXP_PREFIX
 a
 -
 z
+-
 ]
 +
 :
