@@ -96,6 +96,7 @@ PortalKind
 FilePicker
 MimeHandler
 Print
+Settings
 }
 ;
 bool
