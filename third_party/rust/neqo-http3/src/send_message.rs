@@ -1052,11 +1052,8 @@ stream
 send_atomic
 (
 conn
+&
 enc
-.
-as_ref
-(
-)
 )
 .
 map_err
@@ -1608,11 +1605,8 @@ stream
 .
 buffer
 (
+&
 enc
-.
-as_ref
-(
-)
 )
 ;
 self
