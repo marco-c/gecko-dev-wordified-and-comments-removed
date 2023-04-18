@@ -3,19 +3,7 @@ use
 strict
 "
 ;
-if
-(
-typeof
-Components
-!
-=
-"
-undefined
-"
-)
-{
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -24,7 +12,7 @@ AndroidLog
 "
 ]
 ;
-var
+const
 {
 ctypes
 }
@@ -48,7 +36,6 @@ jsm
 "
 )
 ;
-}
 const
 ANDROID_LOG_VERBOSE
 =
