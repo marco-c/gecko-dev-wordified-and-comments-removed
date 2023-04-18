@@ -41,8 +41,8 @@ algorithm
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -230,7 +230,6 @@ kDefaultMax
 ;
 }
 ;
-}
 }
 #
 endif

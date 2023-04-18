@@ -40,8 +40,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1141,7 +1141,6 @@ mIsDoneAddingChildren
 ;
 }
 ;
-}
 }
 #
 endif

@@ -346,8 +346,8 @@ nsRange
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -4543,7 +4543,6 @@ JSObject
 aObj
 )
 ;
-}
 }
 #
 endif

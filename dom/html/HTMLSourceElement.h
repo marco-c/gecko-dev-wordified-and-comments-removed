@@ -36,8 +36,8 @@ nsAttrValue
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -480,7 +480,6 @@ aValue
 ;
 }
 ;
-}
 }
 #
 endif

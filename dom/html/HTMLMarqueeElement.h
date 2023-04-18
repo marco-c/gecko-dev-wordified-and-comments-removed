@@ -29,8 +29,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -717,7 +717,6 @@ aEventTypeArg
 ;
 }
 ;
-}
 }
 #
 endif
