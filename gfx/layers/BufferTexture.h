@@ -245,15 +245,6 @@ return
 this
 ;
 }
-void
-SetDescriptor
-(
-BufferDescriptor
-&
-&
-aDesc
-)
-;
 Maybe
 <
 gfx
