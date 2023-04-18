@@ -878,7 +878,9 @@ t
 -
 osx
 -
-1014
+1015
+-
+r8
 worker
 :
 #
@@ -1022,7 +1024,7 @@ treeherder
 :
 platform
 :
-macosx1014
+macosx1015
 -
 64
 -
@@ -1290,7 +1292,9 @@ t
 -
 osx
 -
-1014
+1015
+-
+r8
 worker
 :
 max
@@ -1404,7 +1408,7 @@ treeherder
 :
 platform
 :
-macosx1014
+macosx1015
 -
 64
 -
