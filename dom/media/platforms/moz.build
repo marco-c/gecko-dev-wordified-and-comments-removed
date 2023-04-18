@@ -64,6 +64,11 @@ AllocationPolicy
 h
 "
 "
+MediaCodecsSupport
+.
+h
+"
+"
 MediaTelemetryConstants
 .
 h

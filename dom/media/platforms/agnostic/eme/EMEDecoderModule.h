@@ -115,7 +115,10 @@ used
 )
 ;
 }
-bool
+media
+:
+:
+DecodeSupportSet
 SupportsMimeType
 (
 const

@@ -62,7 +62,10 @@ RemoteDecodeIn
 aLocation
 )
 ;
-bool
+media
+:
+:
+DecodeSupportSet
 SupportsMimeType
 (
 const
@@ -76,7 +79,10 @@ aDiagnostics
 const
 override
 ;
-bool
+media
+:
+:
+DecodeSupportSet
 Supports
 (
 const
