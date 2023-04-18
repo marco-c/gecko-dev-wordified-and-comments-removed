@@ -735,6 +735,10 @@ order
 content
 :
 {
+logo
+:
+{
+}
 title
 :
 "

@@ -308,9 +308,6 @@ caption
 "
 }
 }
-hide_logo
-:
-true
 backdrop
 :
 "
