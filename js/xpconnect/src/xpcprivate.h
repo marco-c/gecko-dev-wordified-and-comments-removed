@@ -3905,7 +3905,6 @@ mIndexInInterface
 12
 ;
 }
-JS_HAZ_NON_GC_POINTER
 ;
 class
 XPCNativeInterface
@@ -4092,6 +4091,14 @@ mozilla
 :
 MallocSizeOf
 mallocSizeOf
+)
+;
+void
+Trace
+(
+JSTracer
+*
+trc
 )
 ;
 protected
