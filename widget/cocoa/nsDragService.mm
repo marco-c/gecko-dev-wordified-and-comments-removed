@@ -226,11 +226,14 @@ extern
 bool
 gUserCancelledDrag
 ;
+mozilla
+:
+:
+StaticRefPtr
+<
 nsIArray
-*
+>
 gDraggedTransferables
-=
-nullptr
 ;
 NSString
 *
