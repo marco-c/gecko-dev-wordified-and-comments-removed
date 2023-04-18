@@ -437,6 +437,12 @@ true
 ;
 SET_DEFAULT
 (
+disableRedundantShapeGuards
+false
+)
+;
+SET_DEFAULT
+(
 disableBailoutLoopCheck
 false
 )

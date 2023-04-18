@@ -174,6 +174,9 @@ bool
 disableSink
 ;
 bool
+disableRedundantShapeGuards
+;
+bool
 disableBailoutLoopCheck
 ;
 bool
