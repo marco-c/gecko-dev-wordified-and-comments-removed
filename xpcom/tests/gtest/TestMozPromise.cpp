@@ -117,6 +117,10 @@ MediaThreadType
 :
 SUPERVISOR
 )
+"
+TestMozPromise
+AutoTaskQueue
+"
 )
 )
 {

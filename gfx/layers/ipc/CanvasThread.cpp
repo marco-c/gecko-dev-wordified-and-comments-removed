@@ -663,6 +663,9 @@ do_AddRef
 (
 mCanvasWorkers
 )
+"
+CanvasWorker
+"
 )
 ;
 }

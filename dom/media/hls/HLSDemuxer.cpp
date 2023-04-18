@@ -645,6 +645,9 @@ MediaThreadType
 :
 SUPERVISOR
 )
+"
+HLSDemuxer
+"
 false
 )
 )

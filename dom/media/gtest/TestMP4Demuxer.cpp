@@ -235,6 +235,9 @@ MediaThreadType
 :
 SUPERVISOR
 )
+"
+TestMP4Demuxer
+"
 )
 )
 mIndex

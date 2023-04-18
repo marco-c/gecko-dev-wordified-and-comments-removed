@@ -217,6 +217,10 @@ MediaThreadType
 :
 SUPERVISOR
 )
+"
+TestDelayedRunnable
+TaskQueueShutdownLeak
+"
 )
 ;
 taskQueue
@@ -499,6 +503,10 @@ do_AddRef
 (
 pool
 )
+"
+TestDelayedRunnable
+tailTaskQueue1
+"
 true
 )
 ;
@@ -514,6 +522,10 @@ do_AddRef
 (
 pool
 )
+"
+TestDelayedRunnable
+tailTaskQueue2
+"
 true
 )
 ;
@@ -529,6 +541,10 @@ do_AddRef
 (
 pool
 )
+"
+TestDelayedRunnable
+noTailTaskQueue
+"
 false
 )
 ;

@@ -1030,6 +1030,9 @@ MediaThreadType
 :
 PLATFORM_ENCODER
 )
+"
+TestMediaDataEncoder
+"
 )
 )
 ;
