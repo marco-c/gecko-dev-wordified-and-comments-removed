@@ -92,6 +92,12 @@ slugid
 from
 taskgraph
 .
+graph
+import
+Graph
+from
+taskgraph
+.
 util
 .
 parameterization
@@ -102,12 +108,6 @@ resolve_task_references
     
 resolve_timestamps
 )
-from
-gecko_taskgraph
-.
-graph
-import
-Graph
 from
 gecko_taskgraph
 .

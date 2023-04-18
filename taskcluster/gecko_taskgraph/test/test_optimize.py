@@ -16,13 +16,18 @@ main
 from
 taskgraph
 .
+graph
+import
+Graph
+from
+taskgraph
+.
 task
 import
 Task
 from
 gecko_taskgraph
 import
-graph
 optimize
 from
 gecko_taskgraph
@@ -352,8 +357,6 @@ tg
 TaskGraph
 (
 tasks
-graph
-.
 Graph
 (
 set
@@ -453,8 +456,6 @@ return
 TaskGraph
 (
 tasks
-graph
-.
 Graph
 (
 set

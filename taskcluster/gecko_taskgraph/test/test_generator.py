@@ -3,6 +3,12 @@ mozunit
 import
 main
 from
+taskgraph
+.
+graph
+import
+Graph
+from
 gecko_taskgraph
 .
 generator
@@ -14,8 +20,6 @@ import
 (
     
 generator
-    
-graph
 )
 from
 conftest
@@ -176,8 +180,6 @@ full_task_set
 graph
 =
 =
-graph
-.
 Graph
 (
         
@@ -285,8 +287,6 @@ full_task_graph
 graph
 =
 =
-graph
-.
 Graph
 (
         
@@ -443,8 +443,6 @@ target_task_set
 graph
 =
 =
-graph
-.
 Graph
 (
 {
@@ -527,8 +525,6 @@ target_task_graph
 graph
 =
 =
-graph
-.
 Graph
 (
         
@@ -980,8 +976,6 @@ optimized_task_graph
 graph
 =
 =
-graph
-.
 Graph
 (
         

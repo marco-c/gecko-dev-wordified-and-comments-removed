@@ -15,6 +15,12 @@ GraphConfig
 from
 taskgraph
 .
+graph
+import
+Graph
+from
+taskgraph
+.
 parameters
 import
 parameters_loader
@@ -36,11 +42,6 @@ from
 .
 import
 filter_tasks
-from
-.
-graph
-import
-Graph
 from
 .
 morph

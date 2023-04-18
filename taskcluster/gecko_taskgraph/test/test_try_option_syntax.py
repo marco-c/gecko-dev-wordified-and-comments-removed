@@ -7,6 +7,12 @@ main
 from
 taskgraph
 .
+graph
+import
+Graph
+from
+taskgraph
+.
 task
 import
 Task
@@ -17,12 +23,6 @@ try_option_syntax
 import
 TryOptionSyntax
 parse_message
-from
-gecko_taskgraph
-.
-graph
-import
-Graph
 from
 gecko_taskgraph
 .
