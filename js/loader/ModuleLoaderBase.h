@@ -895,6 +895,17 @@ aURL
 )
 const
 ;
+nsresult
+GetFetchedModuleURLs
+(
+nsTArray
+<
+nsCString
+>
+&
+aURLs
+)
+;
 private
 :
 friend
