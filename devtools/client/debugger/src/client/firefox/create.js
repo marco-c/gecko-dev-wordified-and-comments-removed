@@ -835,7 +835,6 @@ options
 {
 }
 location
-astLocation
 generatedLocation
 text
 originalText
@@ -849,7 +848,6 @@ thread
 disabled
 options
 location
-astLocation
 generatedLocation
 text
 originalText

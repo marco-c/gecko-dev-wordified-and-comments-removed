@@ -314,10 +314,6 @@ column
 :
 16
 }
-astLocation
-:
-{
-}
 options
 :
 {

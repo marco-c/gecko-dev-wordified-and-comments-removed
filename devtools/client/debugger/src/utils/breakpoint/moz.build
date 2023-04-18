@@ -69,11 +69,6 @@ DIRS
 CompiledModules
 (
 "
-astBreakpointLocation
-.
-js
-"
-"
 breakpointPositions
 .
 js
