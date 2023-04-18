@@ -112,3 +112,17 @@ str
 ;
 }
 }
+template
+class
+nsTPromiseFlatString
+<
+char
+>
+;
+template
+class
+nsTPromiseFlatString
+<
+char16_t
+>
+;

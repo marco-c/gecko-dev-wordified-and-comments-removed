@@ -487,6 +487,11 @@ nsAtomTable
 cpp
 "
 "
+nsCharSeparatedTokenizer
+.
+cpp
+"
+"
 nsCOMArray
 .
 cpp
