@@ -146,6 +146,17 @@ WorkerPrivate
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+RootedDictionary
+.
+h
+"
 const
 SEC_ASN1Template
 SGN_DigestInfoTemplate

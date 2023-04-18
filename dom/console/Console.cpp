@@ -237,6 +237,17 @@ include
 "
 mozilla
 /
+dom
+/
+RootedDictionary
+.
+h
+"
+#
+include
+"
+mozilla
+/
 BasePrincipal
 .
 h

@@ -30,6 +30,17 @@ mozilla
 /
 dom
 /
+RemoteWorkerChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WindowGlobalChild
 .
 h

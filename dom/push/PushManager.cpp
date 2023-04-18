@@ -107,6 +107,17 @@ mozilla
 /
 dom
 /
+RootedDictionary
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WorkerRunnable
 .
 h
