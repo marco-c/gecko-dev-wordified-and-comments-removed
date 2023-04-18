@@ -171,6 +171,8 @@ FileDescriptor
 sandboxBroker
 bool
 canRecordReleaseTelemetry
+bool
+aIsReadyForBackgroundProcessing
 )
 ;
 async
@@ -255,6 +257,11 @@ returns
 UntrustedModulesData
 ?
 data
+)
+;
+async
+UnblockUntrustedModulesThread
+(
 )
 ;
 #

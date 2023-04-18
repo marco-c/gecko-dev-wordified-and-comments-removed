@@ -24110,6 +24110,7 @@ dllServices
 >
 StartUntrustedModulesProcessor
 (
+false
 )
 ;
 auto
