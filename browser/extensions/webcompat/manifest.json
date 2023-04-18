@@ -35,7 +35,7 @@ version
 "
 102
 .
-10
+11
 .
 0
 "
@@ -843,6 +843,13 @@ js
 shims
 /
 humblebundle
+.
+js
+"
+"
+shims
+/
+iam
 .
 js
 "
