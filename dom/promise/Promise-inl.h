@@ -101,13 +101,12 @@ PromiseNativeThenHandlerBase
 PromiseNativeThenHandlerBase
 (
 Promise
-&
+*
 aPromise
 )
 :
 mPromise
 (
-&
 aPromise
 )
 {
@@ -564,7 +563,7 @@ public
 NativeThenHandler
 (
 Promise
-&
+*
 aPromise
 ResolveCallback
 &
@@ -995,7 +994,6 @@ fallible
 )
 HandlerType
 (
-*
 promise
 std
 :
