@@ -2057,7 +2057,7 @@ xpcshell
 !
 BuildConfig
 .
-DEBUG
+DEBUG_BUILD
 |
 |
 !
