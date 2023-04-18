@@ -14974,6 +14974,10 @@ if
 (
 !
 evaluationPromise
+|
+|
+!
+moduleRequest
 )
 {
 Handle
