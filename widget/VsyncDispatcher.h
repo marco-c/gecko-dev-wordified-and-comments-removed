@@ -241,14 +241,6 @@ aDisplay
 )
 ;
 void
-SetParentRefreshTimer
-(
-VsyncObserver
-*
-aVsyncObserver
-)
-;
-void
 AddChildRefreshTimer
 (
 VsyncObserver
@@ -294,12 +286,6 @@ mDisplay
 ;
 Mutex
 mRefreshTimersLock
-;
-RefPtr
-<
-VsyncObserver
->
-mParentRefreshTimer
 ;
 nsTArray
 <
