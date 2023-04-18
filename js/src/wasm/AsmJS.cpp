@@ -34679,7 +34679,6 @@ funbox
 initWithEnclosingParseContext
 (
 outerpc
-flags
 FunctionSyntaxKind
 :
 :

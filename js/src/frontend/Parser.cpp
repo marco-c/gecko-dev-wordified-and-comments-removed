@@ -438,23 +438,16 @@ ParserBindingName
 6
 >
 ;
-template
-<
-class
-T
-class
-U
->
 static
 inline
 void
 PropagateTransitiveParseFlags
 (
 const
-T
+FunctionBox
 *
 inner
-U
+SharedContext
 *
 outer
 )
@@ -11650,7 +11643,6 @@ this
 compilationState_
 .
 scopeContext
-flags
 syntaxKind
 )
 ;
@@ -15365,7 +15357,6 @@ funbox
 initWithEnclosingParseContext
 (
 pc_
-flags
 kind
 )
 ;
@@ -15911,7 +15902,6 @@ funbox
 initWithEnclosingParseContext
 (
 outerpc
-flags
 kind
 )
 ;
@@ -16221,11 +16211,6 @@ getCompilationState
 )
 .
 scopeContext
-input
-.
-functionFlags
-(
-)
 syntaxKind
 )
 ;
@@ -38500,7 +38485,6 @@ funbox
 initWithEnclosingParseContext
 (
 pc_
-flags
 functionSyntaxKind
 )
 ;
@@ -39351,7 +39335,6 @@ funbox
 initWithEnclosingParseContext
 (
 pc_
-flags
 syntaxKind
 )
 ;
@@ -39813,7 +39796,6 @@ funbox
 initWithEnclosingParseContext
 (
 pc_
-flags
 syntaxKind
 )
 ;
@@ -40359,7 +40341,6 @@ funbox
 initWithEnclosingParseContext
 (
 pc_
-flags
 syntaxKind
 )
 ;
