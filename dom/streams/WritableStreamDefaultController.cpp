@@ -779,10 +779,7 @@ Promise
 :
 Create
 (
-aStream
--
->
-GetParentObject
+GetIncumbentGlobal
 (
 )
 aRv
