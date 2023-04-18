@@ -3023,6 +3023,9 @@ mIMEHasQuit
 bool
 mIsFullyOccluded
 ;
+bool
+mCurrentPanGestureBelongsToSwipe
+;
 static
 nsIRollupListener
 *

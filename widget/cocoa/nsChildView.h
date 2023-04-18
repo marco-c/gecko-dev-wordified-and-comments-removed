@@ -2185,9 +2185,6 @@ CancelableRunnable
 >
 mUnsuspendAsyncCATransactionsRunnable
 ;
-bool
-mCurrentPanGestureBelongsToSwipe
-;
 static
 uint32_t
 sLastInputEventCount

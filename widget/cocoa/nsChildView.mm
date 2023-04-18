@@ -1278,10 +1278,6 @@ mIsDispatchPaint
 (
 false
 )
-mCurrentPanGestureBelongsToSwipe
-{
-false
-}
 {
 }
 nsChildView
