@@ -12,17 +12,6 @@ ChromeMacOSLoginCrypto
 "
 ]
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-crypto
-"
-]
-)
-;
 const
 {
 XPCOMUtils
