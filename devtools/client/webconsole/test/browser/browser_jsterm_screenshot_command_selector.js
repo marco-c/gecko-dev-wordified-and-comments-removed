@@ -308,9 +308,7 @@ image
 .
 src
 =
-OS
-.
-Path
+PathUtils
 .
 toFileURI
 (
@@ -383,9 +381,7 @@ iframe
 )
 ;
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (
@@ -668,9 +664,7 @@ image
 .
 src
 =
-OS
-.
-Path
+PathUtils
 .
 toFileURI
 (
@@ -834,9 +828,7 @@ element
 )
 ;
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (

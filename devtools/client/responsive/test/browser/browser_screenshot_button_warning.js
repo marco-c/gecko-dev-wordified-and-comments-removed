@@ -264,9 +264,7 @@ displayed
 )
 ;
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (

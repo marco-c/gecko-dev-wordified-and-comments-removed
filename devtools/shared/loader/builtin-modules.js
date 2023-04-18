@@ -85,10 +85,12 @@ DOMPoint
 DOMQuad
 DOMRect
 HeapSnapshot
+IOUtils
 L10nRegistry
 Localization
 NamedNodeMap
 NodeFilter
+PathUtils
 StructuredCloneHolder
 TelemetryStopwatch
 }
@@ -694,6 +696,7 @@ DOMRect
 Element
 FileReader
 FormData
+IOUtils
 isWorker
 :
 false
@@ -719,6 +722,7 @@ null
 }
 Localization
 Node
+PathUtils
 reportError
 :
 Cu
