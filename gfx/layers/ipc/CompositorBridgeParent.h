@@ -2838,6 +2838,12 @@ CollectedFrames
 aFrames
 )
 ;
+static
+void
+ResetStable
+(
+)
+;
 void
 MaybeDeclareStable
 (
@@ -3028,6 +3034,14 @@ Lambda
 &
 aCallback
 )
+;
+static
+bool
+sStable
+;
+static
+uint32_t
+sFramesComposited
 ;
 RefPtr
 <
