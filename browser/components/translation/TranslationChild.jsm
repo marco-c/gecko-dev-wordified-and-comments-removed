@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LanguageDetector
 "
@@ -343,6 +349,8 @@ length
 return
 ;
 }
+lazy
+.
 LanguageDetector
 .
 detectLanguage
