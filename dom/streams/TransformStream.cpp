@@ -92,6 +92,7 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 TransformStream
 mGlobal
+mController
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
@@ -484,6 +485,19 @@ return
 nullptr
 ;
 }
+SetUpTransformStreamDefaultControllerFromTransformer
+(
+aGlobal
+.
+Context
+(
+)
+*
+transformStream
+transformerObj
+transformerDict
+)
+;
 return
 transformStream
 .
