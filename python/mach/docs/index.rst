@@ -486,4 +486,11 @@ driver
 logging
 settings
 telemetry
+windows
+-
+usage
+-
+outside
+-
+mozillabuild
 faq
