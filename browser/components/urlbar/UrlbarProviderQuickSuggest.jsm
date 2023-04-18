@@ -486,6 +486,8 @@ get
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 )
 |
@@ -1295,6 +1297,8 @@ case
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 if
@@ -2097,6 +2101,8 @@ get
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 )
 )

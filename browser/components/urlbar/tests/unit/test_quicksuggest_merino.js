@@ -549,6 +549,8 @@ set
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 true
 )

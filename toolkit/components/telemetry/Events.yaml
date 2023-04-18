@@ -19837,6 +19837,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 boolean
 pref
 is

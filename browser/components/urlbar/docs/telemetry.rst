@@ -4356,6 +4356,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 pref
 is
 toggled
@@ -5022,6 +5024,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 :
 True
 if

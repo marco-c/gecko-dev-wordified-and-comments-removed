@@ -100,6 +100,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 get
 :

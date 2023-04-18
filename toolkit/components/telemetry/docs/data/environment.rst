@@ -4234,6 +4234,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 :
 True
 if

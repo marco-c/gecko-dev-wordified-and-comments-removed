@@ -340,6 +340,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 false
 ]
@@ -592,6 +594,8 @@ clear
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 )
 ;

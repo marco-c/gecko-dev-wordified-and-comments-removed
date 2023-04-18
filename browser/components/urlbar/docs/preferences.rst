@@ -1162,6 +1162,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 and
 browser
 .
@@ -1409,6 +1411,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 (
 boolean
 default
