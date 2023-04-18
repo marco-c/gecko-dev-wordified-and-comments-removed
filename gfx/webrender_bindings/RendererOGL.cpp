@@ -903,7 +903,6 @@ RenderedFrameId
 (
 )
 ;
-;
 }
 if
 (

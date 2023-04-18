@@ -1353,6 +1353,10 @@ empty
 )
 )
 {
+ClearSingletonGL
+(
+)
+;
 mHandlingDeviceReset
 =
 false
