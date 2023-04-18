@@ -202,6 +202,15 @@ data
 .
 addonId
 ;
+const
+addonBrowsingContextGroupId
+=
+msg
+.
+data
+.
+addonBrowsingContextGroupId
+;
 if
 (
 DevToolsServer
@@ -286,6 +295,7 @@ WebExtensionTargetActor
 conn
 {
 addonId
+addonBrowsingContextGroupId
 chromeGlobal
 isTopLevelTarget
 :

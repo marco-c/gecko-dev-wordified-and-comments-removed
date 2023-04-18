@@ -220,6 +220,7 @@ function
 conn
 {
 addonId
+addonBrowsingContextGroupId
 chromeGlobal
 isTopLevelTarget
 prefix
@@ -231,6 +232,12 @@ this
 addonId
 =
 addonId
+;
+this
+.
+addonBrowsingContextGroupId
+=
+addonBrowsingContextGroupId
 ;
 this
 .
