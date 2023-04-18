@@ -47,6 +47,11 @@ isServerTargetSwitchingEnabled
 config
 .
 isServerTargetSwitchingEnabled
+isPopupDebuggingEnabled
+:
+config
+.
+isPopupDebuggingEnabled
 }
 ;
 }

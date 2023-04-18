@@ -90,6 +90,15 @@ Option
 boolean
 "
 )
+isPopupDebuggingEnabled
+:
+Option
+(
+0
+"
+boolean
+"
+)
 }
 response
 :
