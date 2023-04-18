@@ -82,6 +82,7 @@ util
 attributes
 import
 TRUNK_PROJECTS
+is_try
 from
 gecko_taskgraph
 .
@@ -3568,12 +3569,11 @@ cache_version
         
 skip_untrusted
 =
+is_try
+(
 config
 .
 params
-.
-is_try
-(
 )
 or
 level
@@ -12910,12 +12910,11 @@ task
 :
             
 if
+is_try
+(
 config
 .
 params
-.
-is_try
-(
 )
 :
                 
@@ -12973,12 +12972,11 @@ after
 days
 "
 if
+is_try
+(
 config
 .
 params
-.
-is_try
-(
 )
 else
 "

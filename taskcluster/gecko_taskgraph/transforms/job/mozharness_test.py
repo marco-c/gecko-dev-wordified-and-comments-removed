@@ -36,6 +36,14 @@ gecko_taskgraph
 .
 util
 .
+attributes
+import
+is_try
+from
+gecko_taskgraph
+.
+util
+.
 schema
 import
 Schema
@@ -1375,12 +1383,11 @@ actions
 )
     
 if
+is_try
+(
 config
 .
 params
-.
-is_try
-(
 )
 :
         
@@ -3424,12 +3431,11 @@ chunk
 )
     
 if
+is_try
+(
 config
 .
 params
-.
-is_try
-(
 )
 :
         
