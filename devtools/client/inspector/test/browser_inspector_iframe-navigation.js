@@ -215,6 +215,11 @@ nodePicker
 .
 stop
 (
+{
+canceled
+:
+true
+}
 )
 ;
 }

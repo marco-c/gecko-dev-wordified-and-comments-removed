@@ -7608,6 +7608,11 @@ nodePicker
 .
 stop
 (
+{
+canceled
+:
+true
+}
 )
 .
 catch
@@ -7748,6 +7753,11 @@ nodePicker
 .
 stop
 (
+{
+canceled
+:
+true
+}
 )
 ;
 this
