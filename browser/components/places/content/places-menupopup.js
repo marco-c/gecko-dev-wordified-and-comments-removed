@@ -2849,16 +2849,6 @@ event
 .
 alignmentOffset
 ;
-this
-.
-setAttribute
-(
-"
-arrowposition
-"
-position
-)
-;
 arrowbox
 .
 style
