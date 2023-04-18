@@ -699,6 +699,9 @@ messages
 expected
 :
 [
+{
+message
+:
 /
 Warning
 processing
@@ -710,8 +713,8 @@ windows
 is
 not
 supported
-.
 /
+}
 ]
 }
 "
