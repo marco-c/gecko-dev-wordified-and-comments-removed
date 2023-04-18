@@ -726,6 +726,44 @@ check_modified_files
 command_context
 )
     
+elif
+ignore_modified
+and
+not
+check_for_update
+:
+        
+print
+(
+            
+"
+Because
+you
+passed
+-
+-
+ignore
+-
+modified
+we
+will
+not
+be
+"
+            
++
+"
+able
+to
+detect
+spurious
+upstream
+updates
+.
+"
+        
+)
+    
 if
 not
 revision
@@ -765,6 +803,8 @@ library
 manifest
         
 revision
+        
+ignore_modified
         
 check_for_update
         
