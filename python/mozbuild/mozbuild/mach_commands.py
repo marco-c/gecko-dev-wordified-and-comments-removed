@@ -6922,7 +6922,7 @@ add_argument
 "
 -
 -
-enable
+disable
 -
 fission
 "
@@ -6945,7 +6945,7 @@ Fission
 site
 isolation
 )
-enabled
+disabled
 .
 "
     
@@ -9885,7 +9885,7 @@ disable_e10s
     
 enable_crash_reporter
     
-enable_fission
+disable_fission
     
 setpref
     
@@ -10777,21 +10777,7 @@ strip
 )
     
 if
-enable_fission
-:
-        
-extra_env
-[
-"
-MOZ_FORCE_ENABLE_FISSION
-"
-]
-=
-"
-1
-"
-    
-else
+disable_fission
 :
         
 extra_env
