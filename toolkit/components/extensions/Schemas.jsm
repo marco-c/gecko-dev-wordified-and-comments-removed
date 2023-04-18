@@ -14264,7 +14264,7 @@ schema
 .
 deserialize
 (
-global
+globalThis
 isParentProcess
 )
 ;

@@ -129,11 +129,6 @@ jsm
 "
 )
 ;
-const
-global
-=
-this
-;
 function
 isStructuredCloneHolder
 (
@@ -211,7 +206,7 @@ value
 .
 deserialize
 (
-global
+globalThis
 )
 ;
 this

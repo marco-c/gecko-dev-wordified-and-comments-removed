@@ -517,11 +517,6 @@ ParentAPIManager
 let
 StartupCache
 ;
-const
-global
-=
-this
-;
 function
 verifyActorForContext
 (
@@ -5387,7 +5382,7 @@ result
 .
 deserialize
 (
-global
+globalThis
 )
 ;
 ChromeUtils

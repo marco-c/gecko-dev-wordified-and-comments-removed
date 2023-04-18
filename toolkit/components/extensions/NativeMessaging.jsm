@@ -243,11 +243,6 @@ message
 bytes
 "
 ;
-const
-global
-=
-this
-;
 var
 NativeApp
 =
@@ -1219,7 +1214,7 @@ holder
 .
 deserialize
 (
-global
+globalThis
 )
 ;
 if
