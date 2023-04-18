@@ -332,7 +332,7 @@ if
 mStream
 )
 {
-Http2Stream
+Http2StreamBase
 *
 stream
 =
@@ -373,7 +373,7 @@ if
 mStream
 )
 {
-Http2Stream
+Http2StreamBase
 *
 stream
 =
@@ -436,7 +436,7 @@ aTransaction
 Http2Session
 *
 aSession
-Http2Stream
+Http2StreamBase
 *
 aAssociatedStream
 uint32_t
@@ -445,7 +445,7 @@ uint64_t
 aCurrentForegroundTabOuterContentWindowId
 )
 :
-Http2Stream
+Http2StreamBase
 (
 aTransaction
 aSession
@@ -622,7 +622,7 @@ countWritten
 nsresult
 rv
 =
-Http2Stream
+Http2StreamBase
 :
 :
 WriteSegments
@@ -984,7 +984,7 @@ Http2PushedStream
 :
 TestOnPush
 (
-Http2Stream
+Http2StreamBase
 *
 stream
 )
@@ -1156,21 +1156,21 @@ SetSentFin
 true
 )
 ;
-Http2Stream
+Http2StreamBase
 :
 :
 mRequestHeadersDone
 =
 1
 ;
-Http2Stream
+Http2StreamBase
 :
 :
 mOpenGenerated
 =
 1
 ;
-Http2Stream
+Http2StreamBase
 :
 :
 ChangeState
@@ -1307,7 +1307,7 @@ StreamID
 )
 )
 ;
-Http2Stream
+Http2StreamBase
 :
 :
 AdjustInitialWindow
@@ -1340,7 +1340,7 @@ Http2PushedStream
 :
 SetConsumerStream
 (
-Http2Stream
+Http2StreamBase
 *
 consumer
 )
@@ -1412,7 +1412,7 @@ Http2PushedStream
 :
 ConnectPushedStream
 (
-Http2Stream
+Http2StreamBase
 *
 stream
 )
@@ -2065,7 +2065,7 @@ Available
 mIsDone
 )
 {
-Http2Stream
+Http2StreamBase
 *
 consumer
 =
