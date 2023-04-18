@@ -3494,11 +3494,6 @@ decrementInvalidationCount
 cx
 -
 >
-runtime
-(
-)
--
->
 gcContext
 (
 )
@@ -3613,11 +3608,6 @@ ionScript
 decrementInvalidationCount
 (
 cx
--
->
-runtime
-(
-)
 -
 >
 gcContext

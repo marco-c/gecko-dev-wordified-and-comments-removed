@@ -2372,11 +2372,6 @@ Destroy
 cx
 -
 >
-runtime
-(
-)
--
->
 gcContext
 (
 )
@@ -2717,11 +2712,6 @@ BaselineScript
 Destroy
 (
 cx
--
->
-runtime
-(
-)
 -
 >
 gcContext
