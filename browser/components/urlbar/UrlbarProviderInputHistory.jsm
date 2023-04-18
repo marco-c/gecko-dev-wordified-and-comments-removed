@@ -307,8 +307,6 @@ FROM
 moz_inputhistory
 WHERE
 input
-COLLATE
-NOCASE
 BETWEEN
 :
 search_string
@@ -978,6 +976,10 @@ search_string
 queryContext
 .
 searchString
+.
+toLowerCase
+(
+)
 matchBehavior
 :
 Ci
