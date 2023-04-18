@@ -91,6 +91,11 @@ KeyframeEffect
 .
 h
 "
+"
+ScrollTimeline
+.
+h
+"
 ]
 EXPORTS
 .
@@ -265,6 +270,11 @@ cpp
 "
 "
 PendingAnimationTracker
+.
+cpp
+"
+"
+ScrollTimeline
 .
 cpp
 "
