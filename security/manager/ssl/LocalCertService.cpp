@@ -1342,10 +1342,8 @@ NS_ERROR_FAILURE
 }
 mCert
 =
+new
 nsNSSCertificate
-:
-:
-Create
 (
 cert
 .
