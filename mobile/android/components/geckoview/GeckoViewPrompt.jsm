@@ -292,9 +292,10 @@ HTMLSelectElement
 {
 if
 (
+!
 target
 .
-multiple
+isCombobox
 )
 {
 this

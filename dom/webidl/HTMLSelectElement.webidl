@@ -210,6 +210,15 @@ long
 size
 ;
 [
+ChromeOnly
+Pure
+]
+readonly
+attribute
+boolean
+isCombobox
+;
+[
 Pure
 ]
 readonly
