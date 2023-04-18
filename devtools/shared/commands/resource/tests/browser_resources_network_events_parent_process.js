@@ -45,6 +45,19 @@ testParentProcessRequests
 (
 )
 {
+await
+pushPref
+(
+"
+devtools
+.
+browsertoolbox
+.
+fission
+"
+true
+)
+;
 const
 commands
 =
@@ -408,7 +421,7 @@ is
 fetchStacktrace
 .
 lineNumber
-52
+56
 )
 ;
 is
@@ -590,7 +603,7 @@ is
 firstImageStacktrace
 .
 lineNumber
-56
+60
 )
 ;
 is
