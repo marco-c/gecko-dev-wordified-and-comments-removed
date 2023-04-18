@@ -7,11 +7,6 @@ ProcessedStack_h__
 #
 include
 <
-string
->
-#
-include
-<
 vector
 >
 #
@@ -39,7 +34,7 @@ mozilla
 /
 ipc
 /
-ProtocolUtils
+MessageChannel
 .
 h
 "
@@ -55,7 +50,7 @@ h
 #
 include
 "
-nsString
+nsStringFwd
 .
 h
 "

@@ -6,13 +6,6 @@ define
 TelemetryIPC_h__
 #
 include
-<
-stdint
-.
-h
->
-#
-include
 "
 mozilla
 /
@@ -24,13 +17,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsXULAppAPI
 .
 h
 "
