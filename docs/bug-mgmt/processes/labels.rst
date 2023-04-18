@@ -444,17 +444,6 @@ Flags
 -
 -
 -
--
--
--
--
--
--
--
--
--
--
--
 Open
 Firefox
 bugs
@@ -822,7 +811,7 @@ ref
 Status
 flags
 <
-Firefox
+Release
 Status
 Flags
 >
