@@ -46,12 +46,9 @@ nsresult
 BodyTraverseFiles
 (
 const
-Maybe
-<
-CacheDirectoryMetadata
->
+QuotaInfo
 &
-aDirectoryMetadata
+aQuotaInfo
 nsIFile
 &
 aBodyDir
@@ -67,12 +64,6 @@ bool
 aTrackQuota
 )
 {
-MOZ_DIAGNOSTIC_ASSERT_IF
-(
-aTrackQuota
-aDirectoryMetadata
-)
-;
 #
 ifdef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
@@ -163,7 +154,7 @@ aBodyDir
 &
 isEmpty
 &
-aDirectoryMetadata
+aQuotaInfo
 aTrackQuota
 &
 aHandleFileFunc
@@ -225,7 +216,7 @@ result
 =
 RemoveNsIFileRecursively
 (
-aDirectoryMetadata
+aQuotaInfo
 *
 file
 false
@@ -295,7 +286,7 @@ result
 =
 RemoveNsIFile
 (
-aDirectoryMetadata
+aQuotaInfo
 *
 file
 aTrackQuota
@@ -351,7 +342,7 @@ result
 =
 RemoveNsIFile
 (
-aDirectoryMetadata
+aQuotaInfo
 *
 file
 false
@@ -443,7 +434,7 @@ result
 =
 RemoveNsIFileRecursively
 (
-aDirectoryMetadata
+aQuotaInfo
 aBodyDir
 false
 )
