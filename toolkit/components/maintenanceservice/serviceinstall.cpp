@@ -406,7 +406,7 @@ service
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -484,7 +484,7 @@ service
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -598,7 +598,7 @@ description
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -640,7 +640,7 @@ description
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -690,7 +690,7 @@ description
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -735,7 +735,7 @@ description
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -892,7 +892,7 @@ format
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -942,7 +942,7 @@ config
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -1145,7 +1145,7 @@ spec
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -1186,7 +1186,7 @@ spec
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -1235,7 +1235,7 @@ path
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -1305,7 +1305,7 @@ manager
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -1367,7 +1367,7 @@ service
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -1421,7 +1421,7 @@ service
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -1483,7 +1483,7 @@ happen
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -1533,7 +1533,7 @@ config
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -1604,7 +1604,7 @@ config
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -1680,7 +1680,7 @@ happen
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -2012,7 +2012,7 @@ work
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -2271,7 +2271,7 @@ upgraded
 .
 (
 %
-d
+lu
 )
 "
 serviceConfig
@@ -2564,7 +2564,7 @@ elevated
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -2623,7 +2623,7 @@ happen
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -2676,7 +2676,7 @@ manager
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -2717,7 +2717,7 @@ service
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -2783,7 +2783,7 @@ request
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -2901,7 +2901,7 @@ manager
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -2942,7 +2942,7 @@ service
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3187,7 +3187,7 @@ size
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3236,7 +3236,7 @@ descriptor
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3275,7 +3275,7 @@ descriptor
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3332,7 +3332,7 @@ DACL
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3381,7 +3381,7 @@ memory
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3437,7 +3437,7 @@ SID
 .
 (
 %
-d
+lu
 )
 "
 lastError
@@ -3481,7 +3481,7 @@ memory
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3534,7 +3534,7 @@ SID
 .
 (
 %
-d
+lu
 )
 "
 lastError
@@ -3717,7 +3717,7 @@ ACL
 .
 (
 %
-d
+lu
 )
 "
 lastError
@@ -3754,7 +3754,7 @@ descriptor
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3795,7 +3795,7 @@ DACL
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3834,7 +3834,7 @@ security
 .
 (
 %
-d
+lu
 )
 "
 GetLastError

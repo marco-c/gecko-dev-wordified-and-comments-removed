@@ -343,7 +343,7 @@ Debug
 CredWriteW
 failed
 %
-d
+lu
 "
 GetLastError
 (
@@ -516,7 +516,7 @@ Debug
 CredReadA
 failed
 %
-d
+lu
 "
 GetLastError
 (

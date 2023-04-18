@@ -1760,7 +1760,7 @@ with
 last_error
 =
 %
-d
+lu
 "
 "
 last_warning
@@ -1799,7 +1799,7 @@ with
 last_error
 =
 %
-d
+lu
 last_warning
 =
 %
@@ -3546,7 +3546,7 @@ last
 error
 :
 %
-x
+lx
 "
 result
 :
@@ -5859,7 +5859,7 @@ last
 error
 :
 %
-x
+lx
 "
 result
 :
@@ -6484,7 +6484,7 @@ last
 error
 :
 %
-x
+lx
 "
 result
 :
@@ -7140,7 +7140,7 @@ last
 error
 :
 %
-x
+lx
 "
 result
 :
@@ -7762,7 +7762,7 @@ last
 error
 :
 %
-x
+lx
 "
 result
 :

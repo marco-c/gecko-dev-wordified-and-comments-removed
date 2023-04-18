@@ -703,7 +703,7 @@ Warning
 RetrieveOption
 returned
 %
-d
+lu
 (
 ERROR_INVALID_PARAMETER
 )
@@ -743,7 +743,7 @@ Warning
 RetrieveOption
 returned
 %
-d
+lu
 when
 option
 %

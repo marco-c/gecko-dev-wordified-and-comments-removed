@@ -121,7 +121,7 @@ key
 .
 (
 %
-d
+ld
 )
 "
 retCode
@@ -162,7 +162,7 @@ key
 .
 (
 %
-d
+ld
 )
 "
 retCode
@@ -388,7 +388,7 @@ subkey
 .
 (
 %
-d
+ld
 )
 "
 retCode
@@ -482,7 +482,7 @@ registry
 .
 (
 %
-d
+ld
 )
 "
 retCode
@@ -546,7 +546,7 @@ registry
 .
 (
 %
-d
+ld
 )
 "
 retCode
@@ -596,7 +596,7 @@ check
 .
 (
 %
-d
+ld
 )
 "
 retCode

@@ -691,7 +691,7 @@ Error
 Code
 :
 %
-d
+lu
 "
 GetLastError
 (
@@ -727,7 +727,7 @@ Error
 Code
 :
 %
-d
+lu
 "
 GetLastError
 (

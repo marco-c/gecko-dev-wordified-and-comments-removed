@@ -9468,7 +9468,7 @@ path
 GetLastError
 =
 %
-d
+lu
 "
 GetLastError
 (
@@ -9515,7 +9515,7 @@ failed
 GetLastError
 =
 %
-d
+lu
 "
 GetLastError
 (

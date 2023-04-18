@@ -3250,7 +3250,7 @@ LOG_S
 lasterr
 :
 %
-x
+lx
 "
 path
 dest
@@ -6875,7 +6875,7 @@ to
 utf8
 :
 %
-d
+lu
 "
 GetLastError
 (
@@ -7810,7 +7810,7 @@ patch
 file
 :
 %
-d
+lu
 "
 GetLastError
 (
@@ -7856,7 +7856,7 @@ to
 utf8
 :
 %
-d
+lu
 "
 GetLastError
 (
@@ -11412,7 +11412,7 @@ Last
 error
 :
 %
-d
+lu
 err
 :
 %
@@ -14939,7 +14939,7 @@ calling
 PathRemoveFileSpecW
 :
 %
-d
+lu
 "
 GetLastError
 (
@@ -17497,7 +17497,7 @@ Last
 error
 :
 %
-d
+lu
 "
 retries
 targetPath
@@ -20414,7 +20414,7 @@ to
 utf16le
 :
 %
-d
+lu
 "
 GetLastError
 (

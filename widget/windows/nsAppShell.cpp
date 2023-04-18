@@ -536,7 +536,7 @@ s
 error
 =
 %
-d
+lu
 "
 RequestTypeStr
 (
@@ -809,7 +809,7 @@ lock
 error
 =
 %
-d
+lu
 "
 RequestTypeStr
 (
@@ -905,7 +905,7 @@ lock
 error
 =
 %
-d
+lu
 "
 RequestTypeStr
 (
