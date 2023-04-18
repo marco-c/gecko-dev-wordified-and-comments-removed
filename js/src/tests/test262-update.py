@@ -88,12 +88,6 @@ regexp
 "
         
 "
-import
--
-assertions
-"
-        
-"
 json
 -
 modules
@@ -207,6 +201,22 @@ set
 SHELL_OPTIONS
 =
 {
+    
+"
+import
+-
+assertions
+"
+:
+"
+-
+-
+enable
+-
+import
+-
+assertions
+"
 }
 contextlib
 .
