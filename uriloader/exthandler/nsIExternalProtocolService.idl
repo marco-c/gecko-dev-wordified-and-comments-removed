@@ -105,6 +105,12 @@ aTriggeringPrincipal
 optional
 ]
 in
+nsIPrincipal
+aRedirectPrincipal
+[
+optional
+]
+in
 BrowsingContext
 aBrowsingContext
 [

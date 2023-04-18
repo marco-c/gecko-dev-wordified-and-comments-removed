@@ -23132,6 +23132,9 @@ uri
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIPrincipal
+*
+aRedirectPrincipal
 const
 MaybeDiscarded
 <
@@ -23212,6 +23215,7 @@ LoadURI
 (
 uri
 aTriggeringPrincipal
+aRedirectPrincipal
 bc
 aWasExternallyTriggered
 )
