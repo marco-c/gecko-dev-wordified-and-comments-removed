@@ -1578,6 +1578,15 @@ BrowserTestUtils
 _httpsFirstEnabled
 &
 &
+typeof
+wantLoad
+=
+=
+"
+string
+"
+&
+&
 wantLoad
 .
 startsWith

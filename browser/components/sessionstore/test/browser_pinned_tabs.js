@@ -7,7 +7,7 @@ const
 REMOTE_URL
 =
 "
-http
+https
 :
 /
 /
