@@ -1551,17 +1551,6 @@ Surface
 :
 Param
 aSurface
-java
-:
-:
-sdk
-:
-:
-SurfaceControl
-:
-:
-Param
-aSurfaceControl
 )
 {
 if
@@ -1585,7 +1574,6 @@ OnSurfaceChanged
 (
 aWidgetId
 aSurface
-aSurfaceControl
 )
 ;
 if

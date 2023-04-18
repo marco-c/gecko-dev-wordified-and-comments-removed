@@ -549,10 +549,6 @@ define
 NS_JAVA_SURFACE
 100
 #
-define
-NS_JAVA_SURFACE_CONTROL
-101
-#
 endif
 #
 define
