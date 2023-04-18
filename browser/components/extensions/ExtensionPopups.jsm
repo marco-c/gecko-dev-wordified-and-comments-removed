@@ -2181,6 +2181,12 @@ return
 }
 this
 .
+blockParser
+=
+false
+;
+this
+.
 browser
 .
 messageManager
