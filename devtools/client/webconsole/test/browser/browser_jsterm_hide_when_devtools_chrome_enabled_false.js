@@ -291,7 +291,7 @@ node
 }
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 new
@@ -306,10 +306,6 @@ true
 }
 )
 prop
-"
-.
-result
-"
 )
 ;
 return

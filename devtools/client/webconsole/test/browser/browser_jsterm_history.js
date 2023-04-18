@@ -90,15 +90,11 @@ command
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 command
 "
-"
-"
-.
-result
 "
 )
 ;

@@ -86,7 +86,7 @@ hud
 )
 {
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 globalThis
@@ -159,7 +159,7 @@ hud
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 delete

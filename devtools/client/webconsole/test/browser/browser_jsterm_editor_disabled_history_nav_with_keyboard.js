@@ -135,15 +135,11 @@ testExpressions
 )
 {
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 expression
 "
-"
-"
-.
-result
 "
 )
 ;

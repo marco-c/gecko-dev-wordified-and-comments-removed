@@ -510,7 +510,7 @@ tab
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud3
 '
@@ -529,10 +529,6 @@ third
 tab
 "
 '
-"
-.
-result
-"
 )
 ;
 state1
@@ -1069,15 +1065,11 @@ toString
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 input
 input
-"
-.
-result
-"
 )
 ;
 }

@@ -90,15 +90,11 @@ command
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 command
 "
-"
-"
-.
-result
 "
 )
 ;
@@ -112,7 +108,7 @@ history
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 "

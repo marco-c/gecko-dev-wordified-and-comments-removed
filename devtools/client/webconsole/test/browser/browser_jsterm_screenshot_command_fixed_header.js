@@ -207,7 +207,7 @@ png
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 command
@@ -232,6 +232,12 @@ png
 "
 )
 }
+"
+.
+console
+-
+api
+"
 )
 ;
 info

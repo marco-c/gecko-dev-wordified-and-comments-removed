@@ -56,7 +56,7 @@ TEST_URI
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -67,10 +67,6 @@ title
 "
 iframe
 parent
-"
-"
-.
-result
 "
 )
 ;
@@ -207,7 +203,7 @@ window
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -223,10 +219,6 @@ iframe
 parent
 .
 html
-"
-"
-.
-result
 "
 )
 ;

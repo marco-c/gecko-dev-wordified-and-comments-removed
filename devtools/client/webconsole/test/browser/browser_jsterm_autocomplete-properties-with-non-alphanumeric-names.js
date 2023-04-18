@@ -43,7 +43,7 @@ TEST_URI
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -62,12 +62,6 @@ aaac
 }
 "
 "
-"
-"
-.
-message
-.
-result
 "
 )
 ;
@@ -116,7 +110,7 @@ aa
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -141,12 +135,6 @@ a
 ;
 "
 "
-"
-"
-.
-message
-.
-result
 "
 )
 ;

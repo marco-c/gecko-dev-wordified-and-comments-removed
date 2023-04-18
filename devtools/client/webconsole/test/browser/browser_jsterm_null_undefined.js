@@ -44,7 +44,7 @@ let
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -52,10 +52,6 @@ null
 "
 "
 null
-"
-"
-.
-result
 "
 )
 ;
@@ -74,7 +70,7 @@ value
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -82,10 +78,6 @@ undefined
 "
 "
 undefined
-"
-"
-.
-result
 "
 )
 ;

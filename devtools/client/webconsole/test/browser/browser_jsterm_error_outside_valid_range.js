@@ -74,7 +74,7 @@ RequestRedirect
 "
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 "
@@ -93,12 +93,6 @@ foo
 )
 "
 text
-"
-.
-message
-.
-error
-"
 )
 ;
 ok

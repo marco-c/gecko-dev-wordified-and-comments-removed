@@ -309,7 +309,7 @@ dpr
 1
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 command
@@ -320,6 +320,12 @@ file
 .
 path
 }
+"
+.
+console
+-
+api
+"
 )
 ;
 info

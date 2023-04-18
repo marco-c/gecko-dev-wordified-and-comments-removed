@@ -59,7 +59,7 @@ window
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -72,10 +72,6 @@ testValue
 "
 testValue
 "
-"
-.
-result
-"
 )
 ;
 const
@@ -86,7 +82,7 @@ inspectWindowNode
 }
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -97,10 +93,6 @@ window
 "
 "
 Window
-"
-"
-.
-result
 "
 )
 ;

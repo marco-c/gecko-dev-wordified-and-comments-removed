@@ -57,7 +57,7 @@ const
 evaluationResultMessage
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 for
@@ -91,10 +91,6 @@ i
 }
 "
 undefined
-"
-"
-.
-result
 "
 )
 ;

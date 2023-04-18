@@ -79,26 +79,6 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-const
-executeAndWaitForErrorMessage
-=
-(
-input
-expectedOutput
-)
-=
->
-executeAndWaitForMessage
-(
-hud
-input
-expectedOutput
-"
-.
-error
-"
-)
-;
 info
 (
 "
@@ -121,6 +101,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 new
 Promise
@@ -183,6 +164,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 Promise
 .
@@ -230,6 +212,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 Promise
 .
@@ -274,6 +257,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 Promise
 .
@@ -313,6 +297,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 Promise
 .
@@ -352,6 +337,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 Promise
 .
@@ -391,6 +377,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 Promise
 .
@@ -430,6 +417,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 Promise
 .
@@ -483,6 +471,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 Promise
 .
@@ -532,6 +521,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 var
 err
 =
@@ -599,6 +589,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 new
 Promise
@@ -646,6 +637,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 new
 Promise
@@ -703,6 +695,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 new
 Promise
@@ -753,6 +746,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 new
 Promise
@@ -807,6 +801,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 new
 Promise
@@ -865,6 +860,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 new
 Promise
@@ -1090,6 +1086,7 @@ res
 await
 executeAndWaitForErrorMessage
 (
+hud
 await
 new
 Promise

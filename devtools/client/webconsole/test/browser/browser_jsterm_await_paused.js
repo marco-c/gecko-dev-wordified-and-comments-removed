@@ -250,7 +250,7 @@ awaitExpression
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -258,10 +258,6 @@ smoke
 "
 "
 smoke
-"
-"
-.
-result
 "
 )
 ;

@@ -148,7 +148,7 @@ message
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -157,10 +157,6 @@ upvar
 "
 optimized
 out
-"
-"
-.
-result
 "
 )
 ;

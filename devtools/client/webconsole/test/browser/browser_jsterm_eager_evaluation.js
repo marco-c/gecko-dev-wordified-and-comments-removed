@@ -113,7 +113,7 @@ TEST_URI
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -132,10 +132,6 @@ y
 result
 :
 7
-"
-"
-.
-result
 "
 )
 ;

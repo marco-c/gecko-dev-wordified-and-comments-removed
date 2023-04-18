@@ -200,7 +200,7 @@ png
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 :
@@ -229,6 +229,12 @@ sameOriginIframeScreenshotFile
 .
 path
 }
+"
+.
+console
+-
+api
+"
 )
 ;
 let
@@ -561,7 +567,7 @@ png
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 :
@@ -585,6 +591,12 @@ remoteIframeSpanScreenshot
 .
 path
 }
+"
+.
+console
+-
+api
+"
 )
 ;
 fileExists
@@ -754,7 +766,7 @@ console
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 :
@@ -793,6 +805,10 @@ on
 the
 page
 .
+"
+.
+warn
+"
 )
 ;
 ok

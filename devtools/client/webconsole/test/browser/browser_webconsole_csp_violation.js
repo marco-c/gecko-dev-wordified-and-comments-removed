@@ -362,7 +362,7 @@ hud
 msg
 =
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 "
@@ -572,7 +572,7 @@ hud
 msg
 =
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 "

@@ -63,7 +63,7 @@ let
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -88,10 +88,6 @@ a
 b
 "
 ]
-"
-.
-result
-"
 )
 ;
 ok
@@ -108,7 +104,7 @@ worked
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -131,10 +127,6 @@ Array
 1
 ]
 "
-"
-.
-result
-"
 )
 ;
 ok
@@ -151,7 +143,7 @@ worked
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -162,10 +154,6 @@ window
 "
 "
 Array
-"
-"
-.
-result
 "
 )
 ;

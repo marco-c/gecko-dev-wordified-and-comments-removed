@@ -49,7 +49,7 @@ let
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -60,10 +60,6 @@ Array
 "
 "
 true
-"
-"
-.
-result
 "
 )
 ;
@@ -81,7 +77,7 @@ correct
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -95,10 +91,6 @@ Object
 "
 true
 "
-"
-.
-result
-"
 )
 ;
 ok
@@ -115,7 +107,7 @@ correct
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -128,10 +120,6 @@ Array
 "
 "
 false
-"
-"
-.
-result
 "
 )
 ;

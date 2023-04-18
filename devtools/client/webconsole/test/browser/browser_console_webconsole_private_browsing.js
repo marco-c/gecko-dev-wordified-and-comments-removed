@@ -407,15 +407,11 @@ window
 "
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 privateCommand
 "
-"
-"
-.
-result
 "
 )
 ;
@@ -432,7 +428,7 @@ const
 historyMessage
 =
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 publicHud
 "

@@ -191,7 +191,7 @@ dpr
 }
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 command
@@ -202,6 +202,12 @@ file
 .
 path
 }
+"
+.
+console
+-
+api
+"
 )
 ;
 const
@@ -461,7 +467,7 @@ const
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 :
@@ -471,6 +477,12 @@ dpr
 }
 Saved
 to
+"
+.
+console
+-
+api
+"
 )
 ;
 const

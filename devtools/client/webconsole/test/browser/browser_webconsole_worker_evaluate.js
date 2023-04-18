@@ -123,7 +123,7 @@ openConsole
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -131,10 +131,6 @@ data
 "
 "
 42
-"
-"
-.
-result
 "
 )
 ;

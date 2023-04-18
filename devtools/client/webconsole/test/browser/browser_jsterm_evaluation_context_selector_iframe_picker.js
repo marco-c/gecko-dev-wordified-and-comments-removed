@@ -277,7 +277,7 @@ button
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -291,10 +291,6 @@ host
 example
 .
 com
-"
-"
-.
-result
 "
 )
 ;
@@ -454,7 +450,7 @@ document
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -468,10 +464,6 @@ host
 example
 .
 org
-"
-"
-.
-result
 "
 )
 ;
@@ -560,7 +552,7 @@ document
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -574,10 +566,6 @@ host
 example
 .
 net
-"
-"
-.
-result
 "
 )
 ;
@@ -662,7 +650,7 @@ document
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -676,10 +664,6 @@ host
 example
 .
 com
-"
-"
-.
-result
 "
 )
 ;

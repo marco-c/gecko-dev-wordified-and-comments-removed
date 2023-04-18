@@ -616,7 +616,7 @@ Console
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 "

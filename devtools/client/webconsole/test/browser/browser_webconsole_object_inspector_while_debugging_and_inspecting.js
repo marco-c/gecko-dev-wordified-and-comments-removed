@@ -204,7 +204,7 @@ const
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -219,10 +219,6 @@ testValue2
 "
 }
 '
-"
-.
-result
-"
 )
 ;
 const

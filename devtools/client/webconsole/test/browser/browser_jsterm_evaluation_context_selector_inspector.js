@@ -1032,15 +1032,11 @@ result
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 variableName
 expectedTextResult
-"
-.
-result
-"
 )
 ;
 ok

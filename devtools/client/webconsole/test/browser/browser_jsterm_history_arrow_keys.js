@@ -149,15 +149,11 @@ TEST_VALUES
 )
 {
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 value
 "
-"
-"
-.
-result
 "
 )
 ;

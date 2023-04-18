@@ -212,7 +212,7 @@ paused
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -222,10 +222,6 @@ hud
 "
 "
 3
-"
-"
-.
-result
 "
 )
 ;
@@ -258,7 +254,7 @@ paused
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -268,10 +264,6 @@ foo2
 "
 "
 globalFooBug783499foo2SecondCall
-"
-"
-.
-result
 "
 )
 ;

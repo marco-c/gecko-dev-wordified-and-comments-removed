@@ -329,7 +329,7 @@ let
 msg
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 '
@@ -342,10 +342,6 @@ nconstant
 '
 "
 constant
-"
-"
-.
-result
 "
 )
 ;
@@ -409,7 +405,7 @@ constant
 msg
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 '
@@ -420,10 +416,6 @@ hud
 "
 "
 '
-"
-.
-result
-"
 )
 ;
 body

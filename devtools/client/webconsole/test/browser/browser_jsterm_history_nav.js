@@ -103,7 +103,7 @@ onShown
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 window
@@ -128,10 +128,6 @@ value1
 }
 "
 "
-"
-.
-result
-"
 )
 ;
 ok
@@ -149,7 +145,7 @@ open
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -160,10 +156,6 @@ foobarBug660806
 location
 "
 "
-"
-"
-.
-result
 "
 )
 ;
