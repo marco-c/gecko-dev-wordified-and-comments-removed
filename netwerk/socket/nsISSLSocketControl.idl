@@ -296,6 +296,10 @@ attribute
 boolean
 denyClientCert
 ;
+attribute
+nsIX509Cert
+clientCert
+;
 [
 infallible
 ]
