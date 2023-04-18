@@ -11167,7 +11167,7 @@ return
 nsContentUtils
 :
 :
-JSBytecodeMimeType
+JSScriptBytecodeMimeType
 (
 )
 ;
