@@ -2744,6 +2744,8 @@ chromeWin
 null
 Services
 .
+focus
+.
 MOVEFOCUS_BACKWARD
 Services
 .
