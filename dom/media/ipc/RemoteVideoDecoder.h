@@ -160,6 +160,13 @@ layers
 TextureFactoryIdentifier
 >
 aIdentifier
+const
+Maybe
+<
+uint64_t
+>
+&
+aMediaEngineId
 )
 ;
 MediaResult
@@ -231,6 +238,11 @@ aManagerThread
 TaskQueue
 *
 aDecodeTaskQueue
+Maybe
+<
+uint64_t
+>
+aMediaEngineId
 )
 ;
 protected
