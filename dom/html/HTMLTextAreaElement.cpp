@@ -4211,7 +4211,7 @@ nsAString
 aError
 )
 {
-ConstraintValidation
+nsIConstraintValidation
 :
 :
 SetCustomValidity
@@ -4675,7 +4675,7 @@ default
 :
 rv
 =
-ConstraintValidation
+nsIConstraintValidation
 :
 :
 GetValidationMessage
