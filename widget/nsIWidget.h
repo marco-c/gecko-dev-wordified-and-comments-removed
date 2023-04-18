@@ -1574,7 +1574,7 @@ GetPreviouslyAttachedWidgetListener
 ;
 virtual
 void
-DidGetContentfulPaint
+DidGetNonBlankPaint
 (
 )
 {

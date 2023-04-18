@@ -2936,7 +2936,7 @@ mConfiguredClearColor
 1
 ;
 bool
-mGotContentfulPaint
+mGotNonBlankPaint
 :
 1
 ;
@@ -3012,7 +3012,7 @@ GetWindowRenderer
 override
 ;
 void
-DidGetContentfulPaint
+DidGetNonBlankPaint
 (
 )
 override
