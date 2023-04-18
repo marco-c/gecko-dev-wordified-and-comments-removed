@@ -3644,6 +3644,9 @@ u64
 fin
 :
 bool
+interim
+:
+bool
 }
 DataReadable
 {
@@ -4176,16 +4179,6 @@ interim
 =
 >
 {
-if
-interim
-{
-Http3Event
-:
-:
-NoEvent
-}
-else
-{
 let
 res
 =
@@ -4218,7 +4211,7 @@ as_u64
 (
 )
 fin
-}
+interim
 }
 }
 Http3ClientEvent

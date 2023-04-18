@@ -238,6 +238,8 @@ uint8_t
 aResponseHeaders
 bool
 fin
+bool
+interim
 )
 ;
 bool
@@ -321,6 +323,7 @@ RecvStreamState
 {
 BEFORE_HEADERS
 READING_HEADERS
+READING_INTERIM_HEADERS
 READING_DATA
 RECEIVED_FIN
 RECV_DONE
