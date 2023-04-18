@@ -689,8 +689,6 @@ ProcessHandle
 process
 int
 exit_code
-bool
-wait
 )
 ;
 bool

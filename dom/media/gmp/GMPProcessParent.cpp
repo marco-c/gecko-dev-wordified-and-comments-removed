@@ -927,10 +927,6 @@ XRE_GetIOMessageLoop
 )
 )
 ;
-Join
-(
-)
-;
 if
 (
 mDeletedCallback

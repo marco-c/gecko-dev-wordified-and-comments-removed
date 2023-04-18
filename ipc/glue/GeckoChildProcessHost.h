@@ -640,11 +640,6 @@ aDstFd
 #
 endif
 void
-Join
-(
-)
-;
-void
 SetAlreadyDead
 (
 )
