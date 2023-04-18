@@ -142,14 +142,7 @@ GL_CONTEXT_PROVIDER_NAME
 if
 defined
 (
-XP_LINUX
-)
-&
-&
-!
-defined
-(
-ANDROID
+MOZ_WIDGET_GTK
 )
 #
 ifdef
