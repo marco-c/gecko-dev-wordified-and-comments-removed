@@ -1,3 +1,14 @@
+PR_OpenDir
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Opens
 the
 directory
@@ -91,6 +102,9 @@ is
 successfully
 opened
 a
+:
+ref
+:
 PRDir
 object
 is
@@ -133,6 +147,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_OpenDir
 opens
 the
@@ -152,6 +169,9 @@ directory
 stream
 (
 a
+:
+ref
+:
 PRDir
 object
 )
@@ -161,6 +181,9 @@ be
 passed
 to
 subsequent
+:
+ref
+:
 PR_ReadDir
 calls
 to
@@ -178,6 +201,9 @@ the
 directory
 .
 The
+:
+ref
+:
 PRDir
 pointer
 should
@@ -188,5 +214,8 @@ by
 a
 call
 to
+:
+ref
+:
 PR_CloseDir
 .

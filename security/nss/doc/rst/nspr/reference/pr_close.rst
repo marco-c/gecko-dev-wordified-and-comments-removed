@@ -1,3 +1,12 @@
+PR_Close
+=
+=
+=
+=
+=
+=
+=
+=
 Closes
 a
 file
@@ -62,6 +71,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 .
@@ -140,6 +152,9 @@ pipe
 On
 successful
 return
+:
+ref
+:
 PR_Close
 frees
 the

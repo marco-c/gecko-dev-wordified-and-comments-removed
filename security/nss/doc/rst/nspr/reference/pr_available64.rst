@@ -1,3 +1,18 @@
+PR_Available64
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Determines
 the
 number
@@ -88,6 +103,9 @@ fd
 Pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -169,6 +187,9 @@ then
 be
 retrieved
 via
+:
+ref
+:
 PR_GetError
 .
 .
@@ -187,6 +208,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_Available64
 works
 on
@@ -195,6 +219,9 @@ files
 and
 sockets
 .
+:
+ref
+:
 PR_Available
 does
 not
@@ -238,5 +265,8 @@ a
 bit
 integer
 use
+:
+ref
+:
 PR_Available
 .

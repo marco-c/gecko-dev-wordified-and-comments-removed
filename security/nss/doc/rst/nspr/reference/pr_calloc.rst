@@ -1,3 +1,13 @@
+PR_Calloc
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Allocates
 zeroed
 memory

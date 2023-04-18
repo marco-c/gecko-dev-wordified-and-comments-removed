@@ -1,3 +1,12 @@
+PRThread
+=
+=
+=
+=
+=
+=
+=
+=
 An
 NSPR
 thread
@@ -62,6 +71,9 @@ opaque
 structure
 of
 type
+:
+ref
+:
 PRThread
 .
 This

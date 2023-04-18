@@ -1,3 +1,12 @@
+PR_Write
+=
+=
+=
+=
+=
+=
+=
+=
 Writes
 a
 buffer
@@ -74,6 +83,9 @@ A
 pointer
 to
 the
+:
+ref
+:
 PRFileDesc
 object
 for
@@ -159,6 +171,9 @@ is
 obtained
 by
 calling
+:
+ref
+:
 PR_GetError
 .
 .
@@ -180,6 +195,9 @@ Description
 The
 thread
 invoking
+:
+ref
+:
 PR_Write
 blocks
 until
@@ -216,6 +234,9 @@ failure
 Note
 that
 if
+:
+ref
+:
 PR_Write
 returns
 -

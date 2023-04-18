@@ -1,3 +1,11 @@
+PR_Wait
+=
+=
+=
+=
+=
+=
+=
 Waits
 for
 an
@@ -77,6 +85,9 @@ existing
 structure
 of
 type
+:
+ref
+:
 PRMonitor
 .
 The
@@ -103,6 +114,9 @@ of
 time
 (
 in
+:
+ref
+:
 PRIntervalTime
 units
 )
@@ -143,6 +157,9 @@ following
 values
 :
 -
+:
+ref
+:
 PR_SUCCESS
 means
 the
@@ -173,6 +190,9 @@ has
 expired
 .
 -
+:
+ref
+:
 PR_FAILURE
 means
 PR_Wait
@@ -216,6 +236,9 @@ Description
 A
 call
 to
+:
+ref
+:
 PR_Wait
 causes
 the
@@ -233,6 +256,9 @@ if
 it
 had
 called
+:
+ref
+:
 PR_ExitMonitor
 as
 many
@@ -241,6 +267,9 @@ as
 it
 had
 called
+:
+ref
+:
 PR_EnterMonitor
 .
 This
@@ -470,6 +499,9 @@ timeout
 is
 not
 PR_INTERVAL_NO_TIMEOUT
+:
+ref
+:
 PR_Wait
 resumes
 execution

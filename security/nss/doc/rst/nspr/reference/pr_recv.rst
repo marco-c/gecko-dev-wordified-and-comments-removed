@@ -1,3 +1,11 @@
+PR_Recv
+=
+=
+=
+=
+=
+=
+=
 Receives
 bytes
 from
@@ -73,6 +81,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -113,6 +124,9 @@ A
 value
 of
 type
+:
+ref
+:
 PRIntervalTime
 specifying
 the
@@ -188,6 +202,9 @@ be
 obtained
 by
 calling
+:
+ref
+:
 PR_GetError
 .
 .
@@ -206,6 +223,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_Recv
 blocks
 until

@@ -1,3 +1,12 @@
+PR_Sleep
+=
+=
+=
+=
+=
+=
+=
+=
 Causes
 the
 current
@@ -56,6 +65,9 @@ Parameter
 ~
 ~
 ~
+:
+ref
+:
 PR_Sleep
 has
 the
@@ -76,6 +88,9 @@ sleep
 for
 (
 see
+:
+ref
+:
 PRIntervalTime
 )
 .
@@ -92,6 +107,9 @@ Returns
 ~
 ~
 Calling
+:
+ref
+:
 PR_Sleep
 with
 a
@@ -125,6 +143,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_Sleep
 simply
 waits
@@ -153,6 +174,9 @@ ticks
 is
 not
 PR_INTERVAL_NO_WAIT
+:
+ref
+:
 PR_Sleep
 uses
 an
@@ -186,6 +210,9 @@ them
 directly
 .
 Calling
+:
+ref
+:
 PR_Sleep
 with
 the
@@ -213,6 +240,9 @@ values
 of
 ticks
 cause
+:
+ref
+:
 PR_Sleep
 to
 block
@@ -227,6 +257,9 @@ interval
 Threads
 blocked
 in
+:
+ref
+:
 PR_Sleep
 are
 interruptible

@@ -1,3 +1,17 @@
+NSPR_LOG_FILE
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 This
 environment
 variable
@@ -70,6 +84,9 @@ the
 default
 .
 If
+:
+ref
+:
 NSPR_LOG_FILE
 is
 not
@@ -91,6 +108,9 @@ the
 platform
 .
 Set
+:
+ref
+:
 NSPR_LOG_FILE
 to
 the
@@ -125,6 +145,9 @@ systems
 you
 can
 set
+:
+ref
+:
 NSPR_LOG_FILE
 to
 the

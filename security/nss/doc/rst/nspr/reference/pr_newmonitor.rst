@@ -1,3 +1,17 @@
+PR_NewMonitor
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Creates
 a
 new
@@ -79,6 +93,9 @@ a
 pointer
 to
 a
+:
+ref
+:
 PRMonitor
 object
 .

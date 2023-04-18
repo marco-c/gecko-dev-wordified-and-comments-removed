@@ -1,3 +1,9 @@
+PRDir
+=
+=
+=
+=
+=
 Directory
 structure
 used
@@ -64,6 +70,9 @@ Description
 The
 opaque
 structure
+:
+ref
+:
 PRDir
 represents
 an
@@ -76,6 +85,9 @@ system
 .
 The
 function
+:
+ref
+:
 PR_OpenDir
 opens
 a
@@ -87,6 +99,9 @@ a
 pointer
 to
 a
+:
+ref
+:
 PRDir
 structure
 which
@@ -94,6 +109,9 @@ can
 be
 passed
 to
+:
+ref
+:
 PR_ReadDir
 repeatedly
 to
@@ -116,8 +134,14 @@ the
 directory
 pass
 the
+:
+ref
+:
 PRDir
 pointer
 to
+:
+ref
+:
 PR_CloseDir
 .

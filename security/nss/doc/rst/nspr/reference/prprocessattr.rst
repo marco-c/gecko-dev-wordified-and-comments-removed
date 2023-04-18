@@ -1,3 +1,17 @@
+PRProcessAttr
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Represents
 the
 attributes
@@ -65,6 +79,9 @@ a
 pointer
 to
 a
+:
+ref
+:
 PRProcessAttr
 into
 PR_CreateProcess

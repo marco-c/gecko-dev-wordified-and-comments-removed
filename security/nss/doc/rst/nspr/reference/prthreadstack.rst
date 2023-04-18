@@ -1,3 +1,17 @@
+PRThreadStack
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 .
 .
 container
@@ -47,6 +61,9 @@ it
 .
 The
 opaque
+:
+ref
+:
 PRThreadStack
 structure
 is
@@ -63,6 +80,9 @@ stack
 "
 to
 the
+:
+ref
+:
 PR_AttachThread
 function
 .
@@ -77,6 +97,9 @@ obsolete
 and
 ignored
 by
+:
+ref
+:
 PR_AttachThread
 .
 You
@@ -90,6 +113,9 @@ stack
 '
 argument
 to
+:
+ref
+:
 PR_AttachThread
 .
 .

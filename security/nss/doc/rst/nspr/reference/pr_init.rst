@@ -1,3 +1,11 @@
+PR_Init
+=
+=
+=
+=
+=
+=
+=
 Initializes
 the
 runtime
@@ -52,6 +60,9 @@ Parameters
 ~
 ~
 ~
+:
+ref
+:
 PR_Init
 has
 the
@@ -108,6 +119,9 @@ by
 a
 program
 .
+:
+ref
+:
 PR_Init
 is
 necessary
@@ -123,6 +137,9 @@ sequencing
 requirements
 .
 Call
+:
+ref
+:
 PR_Init
 as
 follows

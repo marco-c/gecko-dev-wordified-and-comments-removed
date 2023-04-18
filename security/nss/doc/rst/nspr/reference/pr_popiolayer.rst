@@ -1,3 +1,17 @@
+PR_PopIOLayer
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Removes
 a
 layer
@@ -67,6 +81,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -179,6 +196,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_PopIOLayer
 pops
 the
@@ -196,6 +216,9 @@ be
 removed
 is
 found
+:
+ref
+:
 PR_PopIOLayer
 returns
 a

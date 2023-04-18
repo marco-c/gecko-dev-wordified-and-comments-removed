@@ -1,3 +1,15 @@
+PR_GetError
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Returns
 the
 current
@@ -78,6 +90,9 @@ value
 NSPR
 does
 use
+:
+ref
+:
 PR_SetError
 to
 set

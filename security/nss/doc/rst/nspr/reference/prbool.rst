@@ -1,3 +1,10 @@
+PRBool
+=
+=
+=
+=
+=
+=
 Boolean
 value
 .
@@ -76,6 +83,9 @@ instead
 .
 Otherwise
 use
+:
+ref
+:
 PRBool
 for
 variables

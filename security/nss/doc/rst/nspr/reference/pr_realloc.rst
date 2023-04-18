@@ -1,3 +1,14 @@
+PR_Realloc
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Resizes
 allocated
 memory

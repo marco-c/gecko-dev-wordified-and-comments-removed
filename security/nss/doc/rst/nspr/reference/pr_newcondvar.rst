@@ -1,3 +1,17 @@
+PR_NewCondVar
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Creates
 a
 new
@@ -51,6 +65,9 @@ Parameter
 ~
 ~
 ~
+:
+ref
+:
 PR_NewCondVar
 has
 one

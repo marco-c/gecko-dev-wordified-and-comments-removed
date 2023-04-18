@@ -1,3 +1,18 @@
+PR_GetPeerName
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Gets
 the
 network
@@ -69,6 +84,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -120,5 +138,8 @@ be
 obtained
 by
 calling
+:
+ref
+:
 PR_GetError
 .

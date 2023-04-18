@@ -1,3 +1,17 @@
+PRThreadState
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 A
 thread
 '
@@ -102,6 +116,9 @@ used
 as
 arguments
 to
+:
+ref
+:
 PR_JoinThread
 .
 PR_JOINABLE_THREAD
@@ -119,6 +136,9 @@ their
 root
 function
 until
+:
+ref
+:
 PR_JoinThread
 is
 called
@@ -199,6 +219,9 @@ thread
 state
 passed
 to
+:
+ref
+:
 PR_CreateThread
 when
 the

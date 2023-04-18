@@ -1,3 +1,11 @@
+PR_Lock
+=
+=
+=
+=
+=
+=
+=
 Locks
 a
 specified
@@ -50,6 +58,9 @@ Parameter
 ~
 ~
 ~
+:
+ref
+:
 PR_Lock
 has
 one
@@ -83,6 +94,9 @@ Description
 -
 -
 When
+:
+ref
+:
 PR_Lock
 returns
 the
@@ -140,6 +154,9 @@ any
 timeout
 mechanism
 .
+:
+ref
+:
 PR_Lock
 is
 not
@@ -172,4 +189,7 @@ Also
 -
 -
 -
+:
+ref
+:
 PR_Unlock

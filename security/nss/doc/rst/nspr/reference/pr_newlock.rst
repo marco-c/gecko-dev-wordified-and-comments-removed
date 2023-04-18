@@ -1,3 +1,14 @@
+PR_NewLock
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Creates
 a
 new
@@ -100,6 +111,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_NewLock
 creates
 a

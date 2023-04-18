@@ -1,3 +1,15 @@
+PR_CallOnce
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Ensures
 that
 subsystem
@@ -48,6 +60,9 @@ Parameters
 ~
 ~
 ~
+:
+ref
+:
 PR_CallOnce
 has
 these
@@ -61,6 +76,9 @@ an
 object
 of
 type
+:
+ref
+:
 PRCallOnceType
 .
 Initially
@@ -144,6 +162,9 @@ It
 should
 return
 a
+:
+ref
+:
 PRStatus
 indicating
 the

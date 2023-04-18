@@ -1,3 +1,11 @@
+PR_Read
+=
+=
+=
+=
+=
+=
+=
 Reads
 bytes
 from
@@ -70,6 +78,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 for
@@ -174,6 +185,9 @@ for
 the
 failure
 call
+:
+ref
+:
 PR_GetError
 .
 .
@@ -195,6 +209,9 @@ Description
 The
 thread
 invoking
+:
+ref
+:
 PR_Read
 blocks
 until

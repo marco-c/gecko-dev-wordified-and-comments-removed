@@ -1,3 +1,18 @@
+PR_PushIOLayer
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Adds
 a
 layer
@@ -69,6 +84,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -77,6 +95,9 @@ stack
 .
 id
 A
+:
+ref
+:
 PRDescIdentity
 object
 for
@@ -100,6 +121,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -160,6 +184,9 @@ stack
 PR_FAILURE
 .
 Use
+:
+ref
+:
 PR_GetError
 to
 get
@@ -198,6 +225,9 @@ layer
 possibly
 allocated
 using
+:
+ref
+:
 PR_CreateIOLayerStub
 )
 may
@@ -412,6 +442,9 @@ to
 it
 by
 calling
+:
+ref
+:
 PR_GetIdentitiesLayer
 .
 -
@@ -467,6 +500,9 @@ the
 runtime
 will
 fail
+:
+ref
+:
 PR_CreateIOLayerStub
 is
 provided
@@ -494,6 +530,9 @@ is
 closed
 (
 see
+:
+ref
+:
 PR_Close
 )
 .
@@ -507,6 +546,9 @@ some
 method
 other
 than
+:
+ref
+:
 PR_CreateIOLayerStub
 it
 may
@@ -531,5 +573,8 @@ pushed
 )
 before
 calling
+:
+ref
+:
 PR_Close
 .

@@ -1,3 +1,17 @@
+PR_FamilyInet
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Gets
 the
 value
@@ -89,6 +103,9 @@ family
 field
 of
 a
+:
+ref
+:
 PRNetAddr
 object
 .

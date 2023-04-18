@@ -1,3 +1,10 @@
+PR_Now
+=
+=
+=
+=
+=
+=
 Returns
 the
 current
@@ -67,6 +74,9 @@ current
 time
 as
 a
+:
+ref
+:
 PRTime
 value
 .

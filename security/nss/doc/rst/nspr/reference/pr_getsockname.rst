@@ -1,3 +1,18 @@
+PR_GetSockName
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Gets
 network
 address
@@ -68,6 +83,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -115,5 +133,8 @@ be
 obtained
 by
 calling
+:
+ref
+:
 PR_GetError
 .

@@ -1,3 +1,11 @@
+PR_Sync
+=
+=
+=
+=
+=
+=
+=
 Synchronizes
 any
 buffered
@@ -71,6 +79,9 @@ fd
 Pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -127,6 +138,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_Sync
 writes
 all

@@ -1,3 +1,17 @@
+PL_HashString
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 A
 general
 -
@@ -106,6 +120,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PL_HashString
 can
 be

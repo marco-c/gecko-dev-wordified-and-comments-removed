@@ -1,3 +1,15 @@
+PR_Shutdown
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Shuts
 down
 part
@@ -73,6 +85,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -97,6 +112,9 @@ the
 following
 :
 -
+:
+ref
+:
 PR_SHUTDOWN_RCV
 .
 Further
@@ -106,6 +124,9 @@ be
 disallowed
 .
 -
+:
+ref
+:
 PR_SHUTDOWN_SEND
 .
 Further
@@ -115,6 +136,9 @@ be
 disallowed
 .
 -
+:
+ref
+:
 PR_SHUTDOWN_BOTH
 .
 Further
@@ -167,6 +191,9 @@ be
 obtained
 by
 calling
+:
+ref
+:
 PR_GetError
 .
 .

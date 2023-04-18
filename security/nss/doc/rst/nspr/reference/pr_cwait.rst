@@ -1,3 +1,12 @@
+PR_CWait
+=
+=
+=
+=
+=
+=
+=
+=
 Wait
 for
 a
@@ -82,6 +91,9 @@ address
 previously
 passed
 to
+:
+ref
+:
 PR_CEnterMonitor
 .
 timeout
@@ -91,6 +103,9 @@ of
 time
 (
 in
+:
+ref
+:
 PRIntervalTime
 units
 )
@@ -147,6 +162,9 @@ following
 values
 :
 -
+:
+ref
+:
 PR_SUCCESS
 indicates
 either
@@ -171,6 +189,9 @@ been
 exceeded
 .
 -
+:
+ref
+:
 PR_FAILURE
 indicates
 either
@@ -238,6 +259,9 @@ in
 the
 monitor
 cache
+:
+ref
+:
 PR_CWait
 waits
 for
@@ -268,6 +292,9 @@ if
 it
 had
 called
+:
+ref
+:
 PR_CExitMonitor
 as
 many
@@ -276,6 +303,9 @@ as
 it
 had
 called
+:
+ref
+:
 PR_CEnterMonitor
 )
 .

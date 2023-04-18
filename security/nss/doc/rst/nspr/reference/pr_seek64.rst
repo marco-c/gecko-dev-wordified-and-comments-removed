@@ -1,3 +1,13 @@
+PR_Seek64
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Moves
 the
 current
@@ -80,6 +90,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 .
@@ -114,6 +127,9 @@ A
 value
 of
 type
+:
+ref
+:
 PRSeekWhence
 that
 specifies
@@ -148,6 +164,9 @@ the
 following
 :
 -
+:
+ref
+:
 PR_SEEK_SET
 .
 Sets
@@ -163,6 +182,9 @@ offset
 parameter
 .
 -
+:
+ref
+:
 PR_SEEK_CUR
 .
 Sets
@@ -182,6 +204,9 @@ offset
 parameter
 .
 -
+:
+ref
+:
 PR_SEEK_END
 .
 Sets
@@ -271,6 +296,9 @@ then
 be
 retrieved
 with
+:
+ref
+:
 PR_GetError
 .
 .
@@ -336,6 +364,9 @@ a
 bit
 file
 offset
+:
+ref
+:
 PR_Seek64
 may
 fail
@@ -374,4 +405,7 @@ Also
 -
 -
 -
+:
+ref
+:
 PR_Seek

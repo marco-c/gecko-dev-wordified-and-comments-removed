@@ -1,3 +1,13 @@
+PR_MemMap
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Maps
 a
 section
@@ -167,6 +177,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_MemMap
 maps
 a
@@ -216,5 +229,8 @@ with
 a
 call
 to
+:
+ref
+:
 PR_MemUnmap
 .

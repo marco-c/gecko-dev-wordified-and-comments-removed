@@ -210,6 +210,9 @@ in
 performance
 .
 -
+:
+ref
+:
 PR_CEnterMonitor
 enters
 the
@@ -221,6 +224,9 @@ cached
 monitor
 .
 -
+:
+ref
+:
 PR_CExitMonitor
 decrements
 the
@@ -233,6 +239,9 @@ cached
 monitor
 .
 -
+:
+ref
+:
 PR_CWait
 waits
 for
@@ -248,6 +257,9 @@ has
 changed
 .
 -
+:
+ref
+:
 PR_CNotify
 notifies
 a
@@ -264,6 +276,9 @@ monitored
 data
 .
 -
+:
+ref
+:
 PR_CNotifyAll
 notifies
 all

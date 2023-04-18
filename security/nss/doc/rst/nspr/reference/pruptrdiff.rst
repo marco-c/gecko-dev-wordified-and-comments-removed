@@ -1,3 +1,14 @@
+PRUptrdiff
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Unsigned
 pointer
 difference

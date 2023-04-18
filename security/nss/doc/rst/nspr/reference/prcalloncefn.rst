@@ -1,3 +1,16 @@
+PRCallOnceFN
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Defines
 the
 signature
@@ -77,6 +90,9 @@ expected
 to
 return
 a
+:
+ref
+:
 PRStatus
 indicating
 the

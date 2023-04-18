@@ -1,3 +1,16 @@
+PR_NotifyAll
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Promotes
 all
 threads
@@ -74,6 +87,9 @@ existing
 structure
 of
 type
+:
+ref
+:
 PRMonitor
 .
 The
@@ -143,6 +159,9 @@ Description
 A
 call
 to
+:
+ref
+:
 PR_NotifyAll
 causes
 all
@@ -176,6 +195,9 @@ no
 -
 op
 .
+:
+ref
+:
 PR_NotifyAll
 should
 be

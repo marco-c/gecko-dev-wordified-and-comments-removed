@@ -1,3 +1,17 @@
+PR_CNotifyAll
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Notifies
 all
 the
@@ -85,6 +99,9 @@ monitor
 at
 the
 time
+:
+ref
+:
 PR_CNotifyAll
 is
 called
@@ -102,6 +119,9 @@ Returns
 ~
 ~
 -
+:
+ref
+:
 PR_SUCCESS
 indicates
 that
@@ -120,6 +140,9 @@ the
 monitor
 .
 -
+:
+ref
+:
 PR_FAILURE
 indicates
 that
@@ -172,6 +195,9 @@ in
 the
 monitor
 cache
+:
+ref
+:
 PR_CNotifyAll
 notifies
 all

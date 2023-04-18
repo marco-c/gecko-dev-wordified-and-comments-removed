@@ -1,3 +1,13 @@
+PR_Listen
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Listens
 for
 connections
@@ -67,6 +77,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -135,6 +148,9 @@ be
 obtained
 by
 calling
+:
+ref
+:
 PR_GetError
 .
 .
@@ -153,6 +169,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_Listen
 turns
 the
@@ -204,5 +223,8 @@ be
 accepted
 by
 calling
+:
+ref
+:
 PR_Accept
 .

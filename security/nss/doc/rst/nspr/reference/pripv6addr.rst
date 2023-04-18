@@ -1,3 +1,14 @@
+PRIPv6Addr
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Type
 used
 in
@@ -8,6 +19,9 @@ ip
 field
 of
 the
+:
+ref
+:
 PRNetAddr
 structure
 .
@@ -93,6 +107,9 @@ Berkeley
 socket
 interface
 .
+:
+ref
+:
 PRIPv6Addr
 is
 always

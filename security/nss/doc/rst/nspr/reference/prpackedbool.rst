@@ -1,3 +1,16 @@
+PRPackedBool
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Packed
 Boolean
 value
@@ -47,6 +60,9 @@ Description
 -
 -
 Use
+:
+ref
+:
 PRPackedBool
 within
 structures

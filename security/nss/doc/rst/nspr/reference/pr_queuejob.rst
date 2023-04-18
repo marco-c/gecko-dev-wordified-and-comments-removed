@@ -1,3 +1,15 @@
+PR_QueueJob
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Queues
 a
 job
@@ -78,6 +90,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRThreadPool
 structure
 previously
@@ -86,6 +101,9 @@ by
 a
 call
 to
+:
+ref
+:
 PR_CreateThreadPool
 .
 fn
@@ -127,6 +145,9 @@ not
 joinable
 .
 See
+:
+ref
+:
 PR_JoinJob
 .
 .
@@ -144,6 +165,9 @@ Returns
 Pointer
 to
 a
+:
+ref
+:
 PRJob
 structure
 or

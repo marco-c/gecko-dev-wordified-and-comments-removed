@@ -1,3 +1,13 @@
+PR_Writev
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Writes
 data
 to
@@ -77,6 +87,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 for
@@ -140,6 +153,9 @@ A
 value
 of
 type
+:
+ref
+:
 PRIntervalTime
 describing
 the
@@ -204,6 +220,9 @@ be
 obtained
 by
 calling
+:
+ref
+:
 PR_GetError
 .
 .
@@ -225,6 +244,9 @@ Description
 The
 thread
 calling
+:
+ref
+:
 PR_Writev
 blocks
 until
@@ -269,6 +291,9 @@ failure
 Note
 that
 if
+:
+ref
+:
 PR_Writev
 returns
 -
@@ -304,6 +329,9 @@ in
 the
 specified
 interval
+:
+ref
+:
 PR_Writev
 returns
 -

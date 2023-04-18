@@ -1,3 +1,12 @@
+PR_MkDir
+=
+=
+=
+=
+=
+=
+=
+=
 Creates
 a
 directory
@@ -146,6 +155,9 @@ the
 following
 :
 -
+:
+ref
+:
 00400
 .
 Read
@@ -153,6 +165,9 @@ by
 owner
 .
 -
+:
+ref
+:
 00200
 .
 Write
@@ -160,6 +175,9 @@ by
 owner
 .
 -
+:
+ref
+:
 00100
 .
 Search
@@ -167,6 +185,9 @@ by
 owner
 .
 -
+:
+ref
+:
 00040
 .
 Read
@@ -174,6 +195,9 @@ by
 group
 .
 -
+:
+ref
+:
 00020
 .
 Write
@@ -181,6 +205,9 @@ by
 group
 .
 -
+:
+ref
+:
 00010
 .
 Search
@@ -188,6 +215,9 @@ by
 group
 .
 -
+:
+ref
+:
 00004
 .
 Read
@@ -195,6 +225,9 @@ by
 others
 .
 -
+:
+ref
+:
 00002
 .
 Write
@@ -202,6 +235,9 @@ by
 others
 .
 -
+:
+ref
+:
 00001
 .
 Search
@@ -237,6 +273,9 @@ can
 be
 retrieved
 via
+:
+ref
+:
 PR_GetError
 .
 .
@@ -255,6 +294,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_MkDir
 creates
 a
@@ -325,4 +367,7 @@ Also
 -
 -
 -
+:
+ref
+:
 PR_RmDir

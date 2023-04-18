@@ -1,3 +1,16 @@
+PRSockOption
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Enumeration
 type
 used
@@ -6,6 +19,9 @@ the
 option
 field
 of
+:
+ref
+:
 PRSocketOptionData
 to
 form
@@ -236,6 +252,9 @@ Description
 -
 -
 The
+:
+ref
+:
 PRSockOption
 enumeration
 consists
@@ -252,6 +271,9 @@ The
 option
 field
 of
+:
+ref
+:
 PRSocketOptionData
 should
 be
@@ -261,5 +283,8 @@ an
 enumerator
 of
 type
+:
+ref
+:
 PRSockOption
 .

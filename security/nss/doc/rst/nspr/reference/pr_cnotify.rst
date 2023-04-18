@@ -1,3 +1,14 @@
+PR_CNotify
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Notify
 a
 thread
@@ -102,6 +113,9 @@ Returns
 ~
 ~
 -
+:
+ref
+:
 PR_SUCCESS
 indicates
 that
@@ -125,6 +139,9 @@ address
 parameter
 .
 -
+:
+ref
+:
 PR_FAILURE
 indicates
 that
@@ -171,6 +188,9 @@ in
 the
 monitor
 cache
+:
+ref
+:
 PR_CNotify
 notifies
 single
@@ -197,6 +217,9 @@ monitor
 (
 having
 called
+:
+ref
+:
 PR_CWait
 )
 then

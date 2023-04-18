@@ -1,3 +1,12 @@
+PR_RmDir
+=
+=
+=
+=
+=
+=
+=
+=
 Removes
 a
 directory
@@ -99,6 +108,9 @@ can
 be
 retrieved
 via
+:
+ref
+:
 PR_GetError
 .
 .
@@ -117,6 +129,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_RmDir
 removes
 the
@@ -139,9 +154,15 @@ directory
 is
 not
 empty
+:
+ref
+:
 PR_RmDir
 fails
 and
+:
+ref
+:
 PR_GetError
 returns
 the
@@ -163,4 +184,7 @@ Also
 -
 -
 -
+:
+ref
+:
 PR_MkDir

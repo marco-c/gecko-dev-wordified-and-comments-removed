@@ -1,3 +1,13 @@
+PL_strlen
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Returns
 the
 length

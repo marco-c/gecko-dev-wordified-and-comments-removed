@@ -1,3 +1,11 @@
+PR_Bind
+=
+=
+=
+=
+=
+=
+=
 Binds
 an
 address
@@ -69,6 +77,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -80,6 +91,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRNetAddr
 object
 representing
@@ -138,6 +152,9 @@ be
 obtained
 by
 calling
+:
+ref
+:
 PR_GetError
 .
 .
@@ -170,6 +187,9 @@ bound
 to
 it
 .
+:
+ref
+:
 PR_Bind
 assigns
 the
@@ -206,8 +226,14 @@ inet
 ip
 field
 of
+:
+ref
+:
 PRNetAddr
 to
+:
+ref
+:
 PR_htonl
 \
 (
@@ -236,6 +262,9 @@ inet
 port
 field
 of
+:
+ref
+:
 PRNetAddr
 to
 0
@@ -243,6 +272,9 @@ to
 Note
 that
 if
+:
+ref
+:
 PR_Connect
 is
 invoked
@@ -263,6 +295,9 @@ the
 socket
 .
 Call
+:
+ref
+:
 PR_GetSockName
 to
 obtain

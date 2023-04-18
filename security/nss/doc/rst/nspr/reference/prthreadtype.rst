@@ -1,3 +1,16 @@
+PRThreadType
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 The
 type
 of
@@ -9,6 +22,9 @@ as
 a
 parameter
 to
+:
+ref
+:
 PR_CreateThread
 .
 .
@@ -61,6 +77,9 @@ Enumerators
 ~
 ~
 PR_USER_THREAD
+:
+ref
+:
 PR_Cleanup
 blocks
 until
@@ -85,6 +104,9 @@ when
 a
 call
 to
+:
+ref
+:
 PR_Cleanup
 should
 return

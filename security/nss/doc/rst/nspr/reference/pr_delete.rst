@@ -1,3 +1,13 @@
+PR_Delete
+=
+=
+=
+=
+=
+=
+=
+=
+=
 .
 .
 _Syntax
@@ -114,6 +124,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_Delete
 deletes
 a
@@ -136,5 +149,8 @@ then
 be
 retrieved
 via
+:
+ref
+:
 PR_GetError
 .

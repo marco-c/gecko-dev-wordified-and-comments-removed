@@ -1,3 +1,13 @@
+PRNetAddr
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Type
 used
 with
@@ -231,6 +241,9 @@ Description
 -
 The
 union
+:
+ref
+:
 PRNetAddr
 represents
 a
@@ -293,6 +306,9 @@ binary
 supports
 IPv6
 .
+:
+ref
+:
 PRNetAddr
 is
 binary
@@ -358,6 +374,9 @@ sockaddr_in6
 (
 Note
 that
+:
+ref
+:
 PRNetAddr
 does
 not

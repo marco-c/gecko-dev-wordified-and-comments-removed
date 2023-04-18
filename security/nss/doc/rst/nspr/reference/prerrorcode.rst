@@ -1,3 +1,15 @@
+PRErrorCode
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Type
 for
 error
@@ -7,6 +19,9 @@ can
 be
 retrieved
 with
+:
+ref
+:
 PR_GetError
 .
 You
@@ -17,6 +32,9 @@ your
 own
 errors
 using
+:
+ref
+:
 PR_SetError
 .
 .

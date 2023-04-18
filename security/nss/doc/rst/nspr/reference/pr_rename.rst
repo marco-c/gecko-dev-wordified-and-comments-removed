@@ -1,3 +1,13 @@
+PR_Rename
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Renames
 a
 file
@@ -131,6 +141,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_Rename
 renames
 a
@@ -159,6 +172,9 @@ new
 name
 already
 exists
+:
+ref
+:
 PR_Rename
 fails
 with
@@ -170,6 +186,9 @@ PR_FILE_EXISTS_ERROR
 In
 this
 case
+:
+ref
+:
 PR_Rename
 does
 not

@@ -1,3 +1,17 @@
+PR_AcceptRead
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Accepts
 a
 new
@@ -83,6 +97,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -95,6 +112,9 @@ been
 called
 with
 the
+:
+ref
+:
 PR_Listen
 function
 also
@@ -112,6 +132,9 @@ a
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 .
@@ -122,6 +145,9 @@ acceptedSock
 points
 to
 the
+:
+ref
+:
 PRFileDesc
 object
 for
@@ -151,6 +177,9 @@ a
 pointer
 to
 a
+:
+ref
+:
 PRNetAddr
 object
 .
@@ -167,6 +196,9 @@ remote
 socket
 .
 The
+:
+ref
+:
 PRNetAddr
 object
 that
@@ -231,6 +263,9 @@ of
 data
 and
 two
+:
+ref
+:
 PRNetAddr
 structures
 (
@@ -263,6 +298,9 @@ the
 size
 of
 the
+:
+ref
+:
 PRNetAddr
 structures
 .
@@ -291,6 +329,9 @@ of
 the
 operation
 .
+:
+ref
+:
 PR_AcceptRead
 blocks
 indefinitely
@@ -356,6 +397,9 @@ be
 obtained
 by
 calling
+:
+ref
+:
 PR_GetError
 .
 .
@@ -374,6 +418,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_AcceptRead
 accepts
 a
@@ -401,6 +448,9 @@ as
 its
 name
 suggests
+:
+ref
+:
 PR_AcceptRead
 receives
 the

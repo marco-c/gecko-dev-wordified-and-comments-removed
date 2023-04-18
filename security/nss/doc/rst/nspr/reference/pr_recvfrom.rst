@@ -1,3 +1,15 @@
+PR_RecvFrom
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 Receives
 bytes
 from
@@ -83,6 +95,9 @@ A
 pointer
 to
 a
+:
+ref
+:
 PRFileDesc
 object
 representing
@@ -124,6 +139,9 @@ A
 pointer
 to
 the
+:
+ref
+:
 PRNetAddr
 object
 that
@@ -146,6 +164,9 @@ A
 value
 of
 type
+:
+ref
+:
 PRIntervalTime
 specifying
 the
@@ -221,6 +242,9 @@ be
 obtained
 by
 calling
+:
+ref
+:
 PR_GetError
 .
 .
@@ -239,6 +263,9 @@ Description
 -
 -
 -
+:
+ref
+:
 PR_RecvFrom
 receives
 up
@@ -287,6 +314,9 @@ will
 be
 transferred
 .
+:
+ref
+:
 PR_RecvFrom
 is
 usually
