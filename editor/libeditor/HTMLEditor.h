@@ -2255,7 +2255,7 @@ nsIContent
 aContentToKeep
 nsIContent
 &
-aContentToJoin
+aContentToRemove
 )
 ;
 bool
