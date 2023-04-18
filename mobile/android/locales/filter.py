@@ -415,14 +415,6 @@ dom
 .
 properties
 "
-            
-"
-chrome
-/
-plugins
-.
-properties
-"
         
 )
 :
