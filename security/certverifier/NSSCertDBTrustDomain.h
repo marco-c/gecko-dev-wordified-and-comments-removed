@@ -835,6 +835,12 @@ GetSCTListFromOCSPStapling
 const
 ;
 bool
+GetIsBuiltChainRootBuiltInRoot
+(
+)
+const
+;
+bool
 GetIsErrorDueToDistrustedCAPolicy
 (
 )
@@ -1118,6 +1124,9 @@ uint8_t
 >
 &
 mBuiltChain
+;
+bool
+mIsBuiltChainRootBuiltInRoot
 ;
 PinningTelemetryInfo
 *
