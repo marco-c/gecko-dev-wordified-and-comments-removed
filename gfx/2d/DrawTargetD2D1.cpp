@@ -8971,6 +8971,10 @@ tmpImage
 return
 ;
 }
+PushAllClips
+(
+)
+;
 blendEffect
 -
 >
