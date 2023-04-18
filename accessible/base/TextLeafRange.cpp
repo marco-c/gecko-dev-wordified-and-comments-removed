@@ -4905,6 +4905,11 @@ AccAttributes
 (
 )
 ;
+if
+(
+hyperAcc
+)
+{
 TextAttrsMgr
 mgr
 (
@@ -4933,6 +4938,7 @@ nullptr
 nullptr
 )
 ;
+}
 return
 attributes
 .
