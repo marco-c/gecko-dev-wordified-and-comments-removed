@@ -1580,6 +1580,15 @@ aResolvedByTRR
 override
 ;
 NS_IMETHOD
+GetIsLoadedBySocketProcess
+(
+bool
+*
+aResult
+)
+override
+;
+NS_IMETHOD
 GetIsOCSP
 (
 bool
@@ -3694,6 +3703,11 @@ IsOCSP
 (
 uint32_t
 BypassProxy
+1
+)
+(
+uint32_t
+LoadedBySocketProcess
 1
 )
 )
