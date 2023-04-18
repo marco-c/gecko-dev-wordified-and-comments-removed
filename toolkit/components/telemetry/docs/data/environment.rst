@@ -1390,6 +1390,16 @@ bool
 windows
 -
 only
+winPackageFamilyName
+:
+<
+string
+>
+/
+/
+windows
+-
+only
 cpu
 :
 {
