@@ -380,6 +380,13 @@ Instance
 instance
 (
 )
+;
+const
+Instance
+*
+instance
+(
+)
 const
 ;
 GlobalObject
@@ -387,7 +394,6 @@ GlobalObject
 global
 (
 )
-const
 ;
 bool
 hasGlobal
@@ -404,7 +410,6 @@ JSObject
 environmentChain
 (
 )
-const
 ;
 bool
 getLocal

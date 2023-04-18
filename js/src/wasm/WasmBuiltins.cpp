@@ -1949,11 +1949,6 @@ GetNearestEffectiveTls
 (
 fp
 )
--
->
-instance
-(
-)
 ;
 const
 Code
@@ -2768,11 +2763,6 @@ tls
 iter
 .
 instance
-(
-)
--
->
-tlsData
 (
 )
 )
@@ -3831,11 +3821,6 @@ Code
 code
 =
 tlsData
--
->
-instance
-(
-)
 -
 >
 code
