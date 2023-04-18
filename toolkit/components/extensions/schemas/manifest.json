@@ -2364,6 +2364,12 @@ id
 SitePermission
 "
 "
+choices
+"
+:
+[
+{
+"
 type
 "
 :
@@ -2383,6 +2389,8 @@ midi
 -
 sysex
 "
+]
+}
 ]
 }
 {

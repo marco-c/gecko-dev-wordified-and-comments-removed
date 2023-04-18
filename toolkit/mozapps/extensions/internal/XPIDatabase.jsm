@@ -749,6 +749,12 @@ userPermissions
 optionalPermissions
 "
 "
+sitePermissions
+"
+"
+siteOrigin
+"
+"
 icons
 "
 "
@@ -5601,6 +5607,12 @@ dependencies
 "
 "
 signedState
+"
+"
+sitePermissions
+"
+"
+siteOrigin
 "
 "
 isCorrectlySigned
