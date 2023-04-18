@@ -5103,7 +5103,7 @@ nsISound
 >
 sound
 (
-do_CreateInstance
+do_GetService
 (
 "
 mozilla
@@ -10206,7 +10206,7 @@ nsISound
 >
 soundInterface
 =
-do_CreateInstance
+do_GetService
 (
 "
 mozilla
@@ -10750,7 +10750,7 @@ nsISound
 >
 soundInterface
 =
-do_CreateInstance
+do_GetService
 (
 "
 mozilla

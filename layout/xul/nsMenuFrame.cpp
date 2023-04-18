@@ -4325,7 +4325,7 @@ nsISound
 >
 sound
 (
-do_CreateInstance
+do_GetService
 (
 "
 mozilla

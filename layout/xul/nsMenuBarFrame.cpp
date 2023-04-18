@@ -859,7 +859,7 @@ nsISound
 >
 soundInterface
 =
-do_CreateInstance
+do_GetService
 (
 "
 mozilla
