@@ -9,7 +9,13 @@ patterns
 (
         
 "
-__memmove_avx_unaligned_erms
+__memmove_
+(
+avx
+|
+evex
+)
+_unaligned_erms
 "
         
 1
@@ -43,7 +49,13 @@ dst
 (
         
 "
-__memcpy_avx_unaligned
+__memcpy_
+(
+avx
+|
+evex
+)
+_unaligned
 "
         
 1
@@ -75,27 +87,45 @@ dst
 )
     
 (
+        
 "
-__memmove_avx_unaligned_erms
+__memmove_
+(
+avx
+|
+evex
+)
+_unaligned_erms
 "
+        
 1
+        
 "
 arena_t
 :
 :
 RallocSmallOrLarge
 "
+        
 "
 aPtr
 "
+        
 "
 ret
 "
+    
 )
     
 (
 "
-__memcpy_avx_unaligned
+__memcpy_
+(
+avx
+|
+evex
+)
+_unaligned
 "
 1
 "
@@ -166,7 +196,13 @@ newBuf
 (
         
 "
-__memmove_avx_unaligned_erms
+__memmove_
+(
+avx
+|
+evex
+)
+_unaligned_erms
 "
         
 1
@@ -439,7 +475,13 @@ data
 (
         
 "
-__memmove_avx_unaligned_erms
+__memmove_
+(
+avx
+|
+evex
+)
+_unaligned_erms
 "
         
 1
