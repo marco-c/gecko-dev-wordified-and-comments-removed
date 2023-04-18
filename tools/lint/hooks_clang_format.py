@@ -243,9 +243,9 @@ nt
 clang_format_cmd
 =
 [
-"
-sh
-"
+sys
+.
+executable
 "
 mach
 "
