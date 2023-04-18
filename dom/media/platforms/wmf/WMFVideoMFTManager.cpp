@@ -394,6 +394,13 @@ CLSID_WebmMfVpxDec
 ;
 #
 if
+!
+defined
+(
+__MINGW32__
+)
+&
+&
 _WIN32_WINNT
 <
 _WIN32_WINNT_WIN8
