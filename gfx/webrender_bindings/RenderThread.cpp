@@ -4282,13 +4282,6 @@ ExternalImageId
 aExternalImageId
 )
 {
-MOZ_ASSERT
-(
-IsInRenderThread
-(
-)
-)
-;
 MutexAutoLock
 lock
 (
