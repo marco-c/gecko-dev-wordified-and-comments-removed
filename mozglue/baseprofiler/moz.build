@@ -460,13 +460,6 @@ mozilla
 "
 public
 /
-BaseAndGeckoProfilerDetail
-.
-h
-"
-"
-public
-/
 BaseProfileJSONWriter
 .
 h
@@ -644,13 +637,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-core
-/
-BaseAndGeckoProfilerDetail
-.
-cpp
-"
 "
 core
 /
