@@ -7406,8 +7406,8 @@ GetWidget
 )
 )
 {
-nsRect
-prefRect
+nsSize
+prefSize
 =
 LayoutDeviceIntRect
 :
@@ -7417,7 +7417,7 @@ ToAppUnits
 widget
 -
 >
-GetMoveToRectPopupRect
+GetMoveToRectPopupSize
 (
 )
 presContext
@@ -7430,7 +7430,7 @@ AppUnitsPerDevPixel
 ;
 if
 (
-prefRect
+prefSize
 .
 width
 >
@@ -7441,7 +7441,7 @@ mRect
 .
 width
 >
-prefRect
+prefSize
 .
 width
 )
@@ -7481,7 +7481,7 @@ presContext
 AppUnitsPerDevPixel
 (
 )
-prefRect
+prefSize
 .
 width
 /
@@ -7497,14 +7497,14 @@ mRect
 .
 width
 =
-prefRect
+prefSize
 .
 width
 ;
 }
 if
 (
-prefRect
+prefSize
 .
 height
 >
@@ -7515,7 +7515,7 @@ mRect
 .
 height
 >
-prefRect
+prefSize
 .
 height
 )
@@ -7555,7 +7555,7 @@ presContext
 AppUnitsPerDevPixel
 (
 )
-prefRect
+prefSize
 .
 height
 /
@@ -7571,7 +7571,7 @@ mRect
 .
 height
 =
-prefRect
+prefSize
 .
 height
 ;

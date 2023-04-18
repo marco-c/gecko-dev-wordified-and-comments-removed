@@ -3509,8 +3509,8 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 virtual
-LayoutDeviceIntRect
-GetMoveToRectPopupRect
+LayoutDeviceIntSize
+GetMoveToRectPopupSize
 (
 )
 const
@@ -3527,7 +3527,7 @@ wayland
 )
 ;
 return
-LayoutDeviceIntRect
+LayoutDeviceIntSize
 (
 )
 ;
