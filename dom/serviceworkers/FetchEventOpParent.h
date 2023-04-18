@@ -64,7 +64,7 @@ default
 ;
 Maybe
 <
-ParentToParentInternalResponse
+ParentToParentResponseWithTiming
 >
 OnStart
 (
@@ -101,7 +101,7 @@ ipc
 IPCResult
 RecvPreloadResponse
 (
-ParentToParentInternalResponse
+ParentToParentResponseWithTiming
 &
 &
 aResponse
@@ -119,7 +119,7 @@ Pending
 {
 Maybe
 <
-ParentToParentInternalResponse
+ParentToParentResponseWithTiming
 >
 mPreloadResponse
 ;
