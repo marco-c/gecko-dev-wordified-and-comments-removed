@@ -130,6 +130,11 @@ getIntPref
 COOKIE_BEHAVIOR_PREF
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 function
 cleanup
 (
