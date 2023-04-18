@@ -16701,6 +16701,8 @@ mozalloc_handle_oom
 )
 ;
 }
+}
+}
 if
 (
 aConfig
@@ -16727,8 +16729,6 @@ Value
 )
 )
 ;
-}
-}
 }
 mJsConfiguration
 .
