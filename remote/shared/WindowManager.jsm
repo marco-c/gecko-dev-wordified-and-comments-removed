@@ -127,7 +127,7 @@ sync
 .
 js
 "
-waitForEvent
+EventPromise
 :
 "
 chrome
@@ -138,11 +138,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-sync
+Sync
 .
-js
+jsm
 "
 waitForObserverTopic
 :
@@ -565,7 +565,8 @@ win
 let
 activated
 =
-waitForEvent
+new
+EventPromise
 (
 win
 "
@@ -576,7 +577,8 @@ activate
 let
 focused
 =
-waitForEvent
+new
+EventPromise
 (
 win
 "
@@ -706,7 +708,8 @@ isPrivate
 const
 activated
 =
-waitForEvent
+new
+EventPromise
 (
 win
 "
@@ -717,7 +720,8 @@ activate
 const
 focused
 =
-waitForEvent
+new
+EventPromise
 (
 win
 "
