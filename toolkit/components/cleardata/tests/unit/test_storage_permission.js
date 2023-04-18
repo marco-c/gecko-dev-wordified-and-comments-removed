@@ -1501,6 +1501,8 @@ deleteUserInteractionForClearingHistory
 principalWithStorage
 ]
 timestamp
+*
+1000
 resolve
 )
 ;

@@ -213,11 +213,15 @@ range
 :
 [
 timestamp
+*
+1000
 Date
 .
 now
 (
 )
+*
+1000
 ]
 }
 )
