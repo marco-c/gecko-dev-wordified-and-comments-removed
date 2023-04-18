@@ -501,13 +501,6 @@ return
 (
 <
 MultiStageAboutWelcome
-message_id
-=
-{
-props
-.
-messageId
-}
 screens
 =
 {
@@ -523,6 +516,13 @@ this
 state
 .
 metricsFlowUri
+}
+message_id
+=
+{
+props
+.
+messageId
 }
 utm_term
 =
