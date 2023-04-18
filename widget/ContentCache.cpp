@@ -4690,15 +4690,6 @@ aEvent
 mReply
 -
 >
-mHasSelection
-=
-true
-;
-aEvent
-.
-mReply
--
->
 mWritingMode
 =
 mSelection
