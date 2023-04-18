@@ -14082,7 +14082,7 @@ reportSpec
 reportScheme
 }
 ;
-uint32_t
+uint64_t
 innerWindowId
 =
 aLoadInfo
@@ -14247,7 +14247,7 @@ Append
 localizedMsg
 )
 ;
-uint32_t
+uint64_t
 innerWindowId
 =
 aLoadInfo
