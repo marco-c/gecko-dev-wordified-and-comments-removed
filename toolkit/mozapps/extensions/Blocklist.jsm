@@ -10,6 +10,9 @@ EXPORTED_SYMBOLS
 "
 Blocklist
 "
+"
+BlocklistPrivate
+"
 ]
 ;
 const
@@ -1034,12 +1037,6 @@ extra
 }
 }
 ;
-this
-.
-BlocklistTelemetry
-=
-BlocklistTelemetry
-;
 const
 Utils
 =
@@ -1718,8 +1715,7 @@ return
 null
 ;
 }
-this
-.
+const
 GfxBlocklistRS
 =
 {
@@ -2444,8 +2440,7 @@ entries
 }
 }
 ;
-this
-.
+const
 ExtensionBlocklistRS
 =
 {
@@ -3519,8 +3514,7 @@ null
 }
 }
 ;
-this
-.
+const
 ExtensionBlocklistMLBF
 =
 {
@@ -5507,4 +5501,14 @@ Blocklist
 _init
 (
 )
+;
+const
+BlocklistPrivate
+=
+{
+BlocklistTelemetry
+ExtensionBlocklistMLBF
+ExtensionBlocklistRS
+GfxBlocklistRS
+}
 ;
