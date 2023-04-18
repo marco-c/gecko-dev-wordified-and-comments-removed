@@ -17160,16 +17160,6 @@ fromPinnedString
 str
 )
 ;
-mStrJSVals
-[
-i
-]
-.
-setString
-(
-str
-)
-;
 }
 if
 (
