@@ -2716,9 +2716,7 @@ mozilla
 FontSlantStyle
 :
 :
-Normal
-(
-)
+NORMAL
 ;
 aFontStyle
 .
@@ -2730,9 +2728,7 @@ mozilla
 FontWeight
 :
 :
-Normal
-(
-)
+NORMAL
 ;
 aFontStyle
 .
@@ -2744,9 +2740,7 @@ mozilla
 FontStretch
 :
 :
-Normal
-(
-)
+NORMAL
 ;
 aFontStyle
 .

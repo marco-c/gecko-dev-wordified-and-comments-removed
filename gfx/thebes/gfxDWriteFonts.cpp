@@ -1257,6 +1257,9 @@ style
 weight
 =
 FontWeight
+:
+:
+FromInt
 (
 700
 )
@@ -1377,6 +1380,9 @@ Min
 =
 =
 FontWeight
+:
+:
+FromInt
 (
 900
 )
@@ -1395,6 +1401,9 @@ Max
 =
 =
 FontWeight
+:
+:
+FromInt
 (
 900
 )

@@ -38,15 +38,6 @@ h
 #
 include
 "
-mozilla
-/
-FontPropertyTypes
-.
-h
-"
-#
-include
-"
 gfxUserFontSet
 .
 h
