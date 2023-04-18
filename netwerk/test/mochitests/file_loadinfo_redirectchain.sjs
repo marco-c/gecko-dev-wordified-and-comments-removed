@@ -124,9 +124,9 @@ file_loadinfo_redirectchain
 .
 sjs
 ?
-+
+{
 aQuery
-+
+}
 "
 )
 ;
@@ -614,7 +614,7 @@ be
 a
 redirect
 var
-newLoaction
+newLocation
 =
 "
 "

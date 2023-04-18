@@ -22,6 +22,11 @@ TestPrincipalSerialization
 .
 cpp
 "
+"
+TestRedirectChainURITruncation
+.
+cpp
+"
 ]
 include
 (

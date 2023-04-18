@@ -1312,6 +1312,16 @@ mUnstrippedURI
 ;
 }
 ;
+already_AddRefed
+<
+nsIPrincipal
+>
+CreateTruncatedPrincipal
+(
+nsIPrincipal
+*
+)
+;
 }
 }
 #
