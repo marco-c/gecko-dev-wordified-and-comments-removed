@@ -122,12 +122,6 @@ defineLazyGlobalGetters
 this
 [
 "
-TextDecoder
-"
-"
-TextEncoder
-"
-"
 fetch
 "
 ]

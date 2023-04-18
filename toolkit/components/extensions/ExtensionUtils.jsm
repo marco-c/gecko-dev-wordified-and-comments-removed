@@ -92,9 +92,6 @@ this
 "
 fetch
 "
-"
-btoa
-"
 ]
 )
 ;

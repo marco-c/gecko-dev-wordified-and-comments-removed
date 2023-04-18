@@ -83,9 +83,6 @@ this
 "
 fetch
 "
-"
-URL
-"
 ]
 )
 ;
