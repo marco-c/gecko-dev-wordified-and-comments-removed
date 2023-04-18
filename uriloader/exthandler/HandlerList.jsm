@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -16,14 +15,12 @@ kHandlerListVersion
 "
 ]
 ;
-this
-.
+const
 kHandlerListVersion
 =
 1
 ;
-this
-.
+const
 kHandlerList
 =
 {
