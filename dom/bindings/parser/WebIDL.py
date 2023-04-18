@@ -50925,6 +50925,13 @@ _builtins
 "
         
 typedef
+unsigned
+long
+long
+DOMTimeStamp
+;
+        
+typedef
 (
 ArrayBufferView
 or

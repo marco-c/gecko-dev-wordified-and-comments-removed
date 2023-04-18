@@ -1809,11 +1809,6 @@ long
 :
 case
 "
-EpochTimeStamp
-"
-:
-case
-"
 DOMTimeStamp
 "
 :
