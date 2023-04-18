@@ -93,7 +93,7 @@ confirmation
 -
 dialog
 .
-js
+mjs
 (
 content
 /
@@ -103,7 +103,7 @@ confirmation
 -
 dialog
 .
-js
+mjs
 )
 content
 /
@@ -147,7 +147,7 @@ logins
 -
 dialog
 .
-js
+mjs
 (
 content
 /
@@ -159,7 +159,7 @@ logins
 -
 dialog
 .
-js
+mjs
 )
 content
 /
@@ -203,7 +203,7 @@ summary
 -
 dialog
 .
-js
+mjs
 (
 content
 /
@@ -215,7 +215,7 @@ summary
 -
 dialog
 .
-js
+mjs
 )
 content
 /
@@ -259,7 +259,7 @@ error
 -
 dialog
 .
-js
+mjs
 (
 content
 /
@@ -271,7 +271,7 @@ error
 -
 dialog
 .
-js
+mjs
 )
 content
 /
@@ -287,7 +287,7 @@ details
 -
 row
 .
-js
+mjs
 (
 content
 /
@@ -299,7 +299,7 @@ details
 -
 row
 .
-js
+mjs
 )
 content
 /
@@ -337,7 +337,7 @@ generic
 -
 dialog
 .
-js
+mjs
 (
 content
 /
@@ -347,7 +347,7 @@ generic
 -
 dialog
 .
-js
+mjs
 )
 content
 /
@@ -385,7 +385,7 @@ fxaccounts
 -
 button
 .
-js
+mjs
 (
 content
 /
@@ -395,7 +395,7 @@ fxaccounts
 -
 button
 .
-js
+mjs
 )
 content
 /
@@ -433,7 +433,7 @@ login
 -
 filter
 .
-js
+mjs
 (
 content
 /
@@ -443,7 +443,7 @@ login
 -
 filter
 .
-js
+mjs
 )
 content
 /
@@ -481,7 +481,7 @@ login
 -
 intro
 .
-js
+mjs
 (
 content
 /
@@ -491,7 +491,7 @@ login
 -
 intro
 .
-js
+mjs
 )
 content
 /
@@ -529,7 +529,7 @@ login
 -
 item
 .
-js
+mjs
 (
 content
 /
@@ -539,7 +539,7 @@ login
 -
 item
 .
-js
+mjs
 )
 content
 /
@@ -577,7 +577,7 @@ login
 -
 list
 .
-js
+mjs
 (
 content
 /
@@ -587,7 +587,7 @@ login
 -
 list
 .
-js
+mjs
 )
 content
 /
@@ -603,7 +603,7 @@ list
 -
 item
 .
-js
+mjs
 (
 content
 /
@@ -615,7 +615,7 @@ list
 -
 item
 .
-js
+mjs
 )
 content
 /
@@ -631,7 +631,7 @@ list
 -
 section
 .
-js
+mjs
 (
 content
 /
@@ -643,7 +643,7 @@ list
 -
 section
 .
-js
+mjs
 )
 content
 /
@@ -681,7 +681,7 @@ menu
 -
 button
 .
-js
+mjs
 (
 content
 /
@@ -691,7 +691,7 @@ menu
 -
 button
 .
-js
+mjs
 )
 content
 /
@@ -789,13 +789,13 @@ aboutlogins
 /
 aboutLogins
 .
-js
+mjs
 (
 content
 /
 aboutLogins
 .
-js
+mjs
 )
 content
 /
@@ -837,13 +837,13 @@ aboutlogins
 /
 aboutLoginsImportReport
 .
-js
+mjs
 (
 content
 /
 aboutLoginsImportReport
 .
-js
+mjs
 )
 content
 /
@@ -869,13 +869,13 @@ aboutlogins
 /
 aboutLoginsUtils
 .
-js
+mjs
 (
 content
 /
 aboutLoginsUtils
 .
-js
+mjs
 )
 content
 /
