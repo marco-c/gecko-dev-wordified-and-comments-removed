@@ -1079,6 +1079,8 @@ WrBridge
 PushGlyphs
 (
 mBuilder
+*
+mResources
 glyphs
 aFont
 color

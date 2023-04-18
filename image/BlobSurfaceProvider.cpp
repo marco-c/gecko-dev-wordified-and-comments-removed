@@ -965,7 +965,6 @@ wrBridge
 GetFontKeyForScaledFont
 (
 scaled
-&
 aResources
 )
 ;
