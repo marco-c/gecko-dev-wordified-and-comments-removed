@@ -1310,6 +1310,9 @@ focus
 .
 *
 /
+[
+can_run_script
+]
 void
 moveCaretToFocus
 (

@@ -26208,8 +26208,10 @@ ignored
 )
 ;
 }
+RefPtr
+<
 nsFocusManager
-*
+>
 focusManager
 =
 nsFocusManager
