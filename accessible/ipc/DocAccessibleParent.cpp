@@ -2026,6 +2026,7 @@ ProxyCaretMoveEvent
 (
 proxy
 aCaretRect
+aGranularity
 )
 ;
 #
@@ -2035,6 +2036,7 @@ ProxyCaretMoveEvent
 proxy
 aOffset
 aIsSelectionCollapsed
+aGranularity
 )
 ;
 #

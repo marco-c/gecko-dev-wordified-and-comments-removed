@@ -538,6 +538,8 @@ int32_t
 aOffset
 bool
 aIsSelectionCollapsed
+int32_t
+aGranularity
 )
 {
 mozAccessible
@@ -573,6 +575,9 @@ aTarget
 at
 :
 aOffset
+moveGranularity
+:
+aGranularity
 ]
 ;
 if

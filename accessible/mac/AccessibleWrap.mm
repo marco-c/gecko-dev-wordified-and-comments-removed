@@ -1090,6 +1090,14 @@ eventTarget
 at
 :
 caretOffset
+moveGranularity
+:
+event
+-
+>
+GetGranularity
+(
+)
 ]
 ;
 if
