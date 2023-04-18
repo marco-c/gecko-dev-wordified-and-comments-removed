@@ -1230,7 +1230,12 @@ True
         
 return
 [
+mozpath
+.
+normsep
+(
 path
+)
 for
 path
 in
@@ -1435,6 +1440,11 @@ name
                 
 vendor_dir
 =
+mozpath
+.
+normsep
+(
+                    
 self
 .
 manifest
@@ -1450,6 +1460,8 @@ vendor
 directory
 "
 ]
+                
+)
                 
 if
 self
@@ -1624,6 +1636,15 @@ vendor_dir
 "
 )
 :
+                    
+file
+=
+mozpath
+.
+normsep
+(
+file
+)
                     
 if
 file
