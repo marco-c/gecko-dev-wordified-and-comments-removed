@@ -120,7 +120,7 @@ downloadsListBox
 :
 focus
 >
-item
+richlistitem
 [
 selected
 ]
@@ -361,6 +361,12 @@ openWhenFinished
 downloadsPanelFooterButton
 :
 hover
+keyfocus
+itemFocused
+#
+downloadsHistory
+:
+focus
 {
 background
 -
