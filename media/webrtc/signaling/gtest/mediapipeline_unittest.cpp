@@ -2105,9 +2105,6 @@ MediaPipelineTransmit
 (
 test_pc
 transport_
-GetMainThreadSerialEventTarget
-(
-)
 AbstractThread
 :
 :
@@ -2266,9 +2263,6 @@ MediaPipelineReceiveAudio
 (
 test_pc
 transport_
-GetMainThreadSerialEventTarget
-(
-)
 AbstractThread
 :
 :

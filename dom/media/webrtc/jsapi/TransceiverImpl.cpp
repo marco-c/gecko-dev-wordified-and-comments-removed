@@ -869,9 +869,6 @@ JsepTransceiver
 aJsepTransceiver
 nsISerialEventTarget
 *
-aMainThread
-nsISerialEventTarget
-*
 aStsThread
 dom
 :
@@ -902,10 +899,6 @@ aTransportHandler
 mJsepTransceiver
 (
 aJsepTransceiver
-)
-mMainThread
-(
-aMainThread
 )
 mStsThread
 (
@@ -990,7 +983,6 @@ aPrivacyNeeded
 aPCHandle
 aTransportHandler
 aJsepTransceiver
-aMainThread
 mCallWrapper
 -
 >
@@ -1009,7 +1001,6 @@ aWindow
 aPCHandle
 aTransportHandler
 aJsepTransceiver
-aMainThread
 mCallWrapper
 -
 >
@@ -1204,7 +1195,9 @@ aState
 if
 (
 !
-mMainThread
+GetMainThreadEventTarget
+(
+)
 -
 >
 IsOnCurrentThread
@@ -1212,7 +1205,9 @@ IsOnCurrentThread
 )
 )
 {
-mMainThread
+GetMainThreadEventTarget
+(
+)
 -
 >
 Dispatch
@@ -4608,7 +4603,9 @@ __func__
 >
 Then
 (
-mMainThread
+GetMainThreadSerialEventTarget
+(
+)
 __func__
 [
 sender

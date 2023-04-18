@@ -19548,9 +19548,6 @@ GetHandle
 )
 mTransportHandler
 aJsepTransceiver
-GetMainThreadSerialEventTarget
-(
-)
 mSTSThread
 .
 get

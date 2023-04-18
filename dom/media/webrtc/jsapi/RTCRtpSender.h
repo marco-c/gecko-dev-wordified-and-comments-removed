@@ -175,9 +175,6 @@ aTransportHandler
 JsepTransceiver
 *
 aJsepTransceiver
-nsISerialEventTarget
-*
-aMainThread
 AbstractThread
 *
 aCallThread
