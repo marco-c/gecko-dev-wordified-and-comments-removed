@@ -785,10 +785,6 @@ deps
 =
 [
 "
-:
-scalable_video_controller
-"
-"
 .
 .
 /
@@ -875,6 +871,10 @@ deps
 +
 =
 [
+"
+:
+scalable_video_controller
+"
 "
 .
 .
