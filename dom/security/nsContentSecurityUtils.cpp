@@ -6927,6 +6927,11 @@ about
 preferences
 "
 _ns
+u
+"
+debugger
+"
+_ns
 }
 ;
 for
