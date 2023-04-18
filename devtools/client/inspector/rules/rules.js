@@ -8579,6 +8579,10 @@ true
 ;
 this
 .
+readyPromise
+=
+this
+.
 onSelected
 (
 )
@@ -8649,6 +8653,7 @@ view
 )
 {
 return
+null
 ;
 }
 const
@@ -8676,6 +8681,7 @@ isInactive
 )
 {
 return
+null
 ;
 }
 if
@@ -8704,6 +8710,7 @@ isElementNode
 )
 )
 {
+return
 this
 .
 view
@@ -8713,14 +8720,17 @@ selectElement
 null
 )
 ;
-return
-;
 }
 if
 (
+!
 selectElement
 )
 {
+return
+null
+;
+}
 const
 done
 =
@@ -8737,6 +8747,7 @@ view
 "
 )
 ;
+return
 this
 .
 view
@@ -8758,7 +8769,6 @@ done
 done
 )
 ;
-}
 }
 refresh
 :
@@ -9136,6 +9146,10 @@ document
 this
 .
 inspector
+=
+this
+.
+readyPromise
 =
 null
 ;
