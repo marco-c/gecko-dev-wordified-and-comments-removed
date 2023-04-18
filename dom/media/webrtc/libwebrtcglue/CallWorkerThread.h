@@ -41,7 +41,7 @@ nsIDirectTaskDispatcher
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIDIRECTTASKDISPATCHER
 explicit
 CallWorkerThread
@@ -172,11 +172,12 @@ default
 ;
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED
+NS_IMPL_ISUPPORTS
 (
 CallWorkerThread
-AbstractThread
 nsIDirectTaskDispatcher
+nsISerialEventTarget
+nsIEventTarget
 )
 ;
 nsresult

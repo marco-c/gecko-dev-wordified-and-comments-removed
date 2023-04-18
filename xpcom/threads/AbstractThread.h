@@ -97,7 +97,6 @@ aSupportsTailDispatch
 )
 {
 }
-NS_DECL_THREADSAFE_ISUPPORTS
 using
 nsISerialEventTarget
 :
