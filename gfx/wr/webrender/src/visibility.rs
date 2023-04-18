@@ -1466,6 +1466,13 @@ mut
 frame_state
 .
 gpu_cache
+&
+mut
+frame_state
+.
+scratch
+.
+primitive
 is_root_tile_cache
 surfaces
 )
