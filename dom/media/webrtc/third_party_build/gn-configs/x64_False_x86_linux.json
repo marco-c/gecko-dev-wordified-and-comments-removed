@@ -188258,6 +188258,9 @@ defines
 MULTI_MONITOR_SCREENSHARE
 "
 "
+WEBRTC_USE_PIPEWIRE
+"
+"
 USE_UDEV
 "
 "
@@ -188556,6 +188559,13 @@ libyuv
 libyuv
 /
 include
+/
+"
+"
+/
+third_party
+/
+pipewire
 /
 "
 "
