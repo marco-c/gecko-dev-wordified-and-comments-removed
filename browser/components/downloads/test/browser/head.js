@@ -364,6 +364,7 @@ async
 {
 if
 (
+await
 IOUtils
 .
 exists
