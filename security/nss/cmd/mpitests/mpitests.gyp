@@ -120,6 +120,15 @@ c
 '
 ]
 '
+defines
+'
+:
+[
+'
+NSS_USE_STATIC_LIBS
+'
+]
+'
 dependencies
 '
 :
@@ -378,5 +387,10 @@ module
 '
 nss
 '
+'
+use_static_libs
+'
+:
+1
 }
 }
