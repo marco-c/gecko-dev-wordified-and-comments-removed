@@ -1806,6 +1806,7 @@ aErrorStack
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -1817,8 +1818,10 @@ status
 =
 nsEventStatus_eIgnore
 ;
+nsCOMPtr
+<
 nsPIDOMWindowInner
-*
+>
 win
 =
 mWindow
