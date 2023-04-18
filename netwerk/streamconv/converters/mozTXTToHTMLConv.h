@@ -369,8 +369,8 @@ char
 *
 tagTXT
 const
-char
-*
+nsString
+&
 imageName
 nsString
 &

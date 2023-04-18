@@ -1365,11 +1365,6 @@ results
 :
 [
 "
-moz
--
-smiley
--
-s1
 "
 ]
 }
@@ -1389,11 +1384,6 @@ results
 :
 [
 "
-moz
--
-smiley
--
-s1
 "
 ]
 }
@@ -1413,11 +1403,6 @@ results
 :
 [
 "
-moz
--
-smiley
--
-s2
 "
 ]
 }
