@@ -20199,6 +20199,13 @@ fails
 -
 if
 (
+!
+winWidget
+)
+fails
+-
+if
+(
 useDrawSnapshot
 )
 fails
