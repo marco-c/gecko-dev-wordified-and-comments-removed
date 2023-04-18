@@ -741,9 +741,10 @@ str
 ;
 if
 (
+!
 archLetter
 .
-size
+empty
 (
 )
 )
