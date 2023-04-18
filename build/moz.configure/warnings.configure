@@ -155,6 +155,9 @@ enum
 -
 conversion
 "
+when
+=
+not_clang_cl
 )
 check_and_add_warning
 (
