@@ -12,11 +12,17 @@ BasePromiseWorker
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PromiseUtils
 "
@@ -988,6 +994,8 @@ ex
 let
 deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
