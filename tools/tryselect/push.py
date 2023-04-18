@@ -1025,9 +1025,13 @@ try_task_config
 =
 None
     
-push
+stage_changes
 =
-True
+False
+    
+dry_run
+=
+False
     
 closed_tree
 =
@@ -1038,6 +1042,14 @@ files_to_change
 None
 )
 :
+    
+push
+=
+not
+stage_changes
+and
+not
+dry_run
     
 check_working_directory
 (
@@ -1187,7 +1199,11 @@ config_path
 )
     
 if
+(
 push
+or
+stage_changes
+)
 and
 files_to_change
 :

@@ -471,9 +471,13 @@ try_config
 =
 None
     
-push
+stage_changes
 =
-True
+False
+    
+dry_run
+=
+False
     
 message
 =
@@ -1011,9 +1015,13 @@ msg
 msg
 )
         
-push
+stage_changes
 =
-push
+stage_changes
+        
+dry_run
+=
+dry_run
         
 closed_tree
 =

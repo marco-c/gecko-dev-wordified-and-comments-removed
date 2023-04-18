@@ -464,9 +464,13 @@ msg
 }
 "
     
-push
+stage_changes
 =
-True
+False
+    
+dry_run
+=
+False
     
 closed_tree
 =
@@ -638,13 +642,21 @@ push_to_try
 "
 auto
 "
+        
 msg
+        
 try_task_config
 =
 task_config
-push
+        
+stage_changes
 =
-push
+stage_changes
+        
+dry_run
+=
+dry_run
+        
 closed_tree
 =
 closed_tree
