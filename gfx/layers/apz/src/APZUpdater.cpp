@@ -441,6 +441,7 @@ WrWindowId
 &
 aWindowId
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 if
 (
