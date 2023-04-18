@@ -5110,12 +5110,9 @@ PathUtils
 .
 join
 (
-await
 PathUtils
 .
-getProfileDir
-(
-)
+profileDir
 "
 content
 -
