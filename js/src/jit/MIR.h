@@ -49917,6 +49917,11 @@ shuffle
 ]
 )
 ;
+bool
+canRelaxBitselect
+(
+)
+;
 #
 endif
 wasm

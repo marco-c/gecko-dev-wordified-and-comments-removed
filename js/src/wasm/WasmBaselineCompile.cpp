@@ -37987,8 +37987,9 @@ masm
 laneSelectSimd128
 (
 mask
-rhsDest
 lhs
+rhsDest
+rhsDest
 )
 ;
 freeV128
