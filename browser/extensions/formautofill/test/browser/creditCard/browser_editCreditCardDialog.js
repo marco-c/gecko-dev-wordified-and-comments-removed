@@ -907,14 +907,9 @@ test_saveCreditCardWithBillingAddress
 )
 {
 await
-saveAddress
+setStorage
 (
 TEST_ADDRESS_4
-)
-;
-await
-saveAddress
-(
 TEST_ADDRESS_1
 )
 ;
@@ -1646,7 +1641,7 @@ guid
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD
 )
@@ -2223,7 +2218,7 @@ asiv
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD
 )
@@ -2537,7 +2532,7 @@ test_editInvalidCreditCardNumber
 )
 {
 await
-saveAddress
+setStorage
 (
 TEST_ADDRESS_4
 )
@@ -2967,7 +2962,7 @@ TEST_CREDIT_CARD_1
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD
 )

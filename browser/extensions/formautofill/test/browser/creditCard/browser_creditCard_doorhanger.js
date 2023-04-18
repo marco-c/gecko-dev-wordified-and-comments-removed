@@ -522,7 +522,7 @@ CREDITCARDS_USED_STATUS_PREF
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -853,7 +853,7 @@ CREDITCARDS_USED_STATUS_PREF
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -1519,7 +1519,7 @@ CREDITCARDS_USED_STATUS_PREF
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -1776,7 +1776,7 @@ CREDITCARDS_USED_STATUS_PREF
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -2063,7 +2063,7 @@ test_submit_unnormailzed_creditCard_form
 )
 {
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -2987,7 +2987,7 @@ CREDITCARDS_USED_STATUS_PREF
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_3
 )
@@ -3273,7 +3273,7 @@ CREDITCARDS_USED_STATUS_PREF
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -3629,7 +3629,7 @@ CREDITCARDS_USED_STATUS_PREF
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -3987,7 +3987,7 @@ CREDITCARDS_USED_STATUS_PREF
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -4341,7 +4341,7 @@ CREDITCARDS_USED_STATUS_PREF
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 {
 "
@@ -4354,11 +4354,6 @@ number
 6387060366272981
 "
 }
-)
-;
-await
-saveCreditCard
-(
 {
 "
 cc
@@ -5305,7 +5300,7 @@ Doe
 }
 ;
 await
-saveCreditCard
+setStorage
 (
 amexCard
 )
@@ -5764,7 +5759,7 @@ Doe
 }
 ;
 await
-saveCreditCard
+setStorage
 (
 genericCard
 )
@@ -6230,7 +6225,7 @@ Doe
 }
 ;
 await
-saveCreditCard
+setStorage
 (
 amexCard
 )

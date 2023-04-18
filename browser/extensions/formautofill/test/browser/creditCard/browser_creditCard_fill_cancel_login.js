@@ -46,7 +46,7 @@ return
 ;
 }
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_2
 )

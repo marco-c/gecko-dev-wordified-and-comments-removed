@@ -12,7 +12,7 @@ test_update_address
 )
 {
 await
-saveAddress
+setStorage
 (
 TEST_ADDRESS_1
 )

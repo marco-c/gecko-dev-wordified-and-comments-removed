@@ -746,7 +746,7 @@ true
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -1540,7 +1540,7 @@ true
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -1808,7 +1808,7 @@ true
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -2440,7 +2440,7 @@ true
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -2935,7 +2935,7 @@ true
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -3202,20 +3202,10 @@ true
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
-)
-;
-await
-saveCreditCard
-(
 TEST_CREDIT_CARD_2
-)
-;
-await
-saveCreditCard
-(
 TEST_CREDIT_CARD_5
 )
 ;
@@ -3465,7 +3455,7 @@ true
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
@@ -3958,7 +3948,7 @@ true
 )
 ;
 await
-saveCreditCard
+setStorage
 (
 TEST_CREDIT_CARD_1
 )
