@@ -773,6 +773,9 @@ mOriginalReferrer
 ReferrerPolicyEnum
 mPolicy
 ;
+ReferrerPolicyEnum
+mOriginalPolicy
+;
 bool
 mSendReferrer
 ;
