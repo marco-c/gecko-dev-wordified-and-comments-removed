@@ -392,10 +392,6 @@ s
 "
 "
 "
-.
-strip
-(
-)
 CONFIGURE_MERCURIAL
 =
 "
