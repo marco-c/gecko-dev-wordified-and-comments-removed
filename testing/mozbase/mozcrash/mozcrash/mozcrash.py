@@ -1459,19 +1459,26 @@ symbols_path
             
 self
 .
-symbols_path
-=
-tempfile
+logger
 .
-mkdtemp
+warning
 (
-)
-            
-self
+                
+"
+No
+local
+symbols_path
+provided
+only
+http
+symbols
+will
+be
+used
 .
-remove_symbols
-=
-True
+"
+            
+)
         
 if
 mozfile
@@ -2021,11 +2028,6 @@ if
             
 self
 .
-symbols_path
-            
-and
-self
-.
 stackwalk_binary
             
 and
@@ -2166,6 +2168,12 @@ append
 path
 )
             
+if
+self
+.
+symbols_path
+:
+                
 command
 .
 append
@@ -2426,31 +2434,6 @@ True
         
 else
 :
-            
-if
-not
-self
-.
-symbols_path
-:
-                
-errors
-.
-append
-(
-"
-No
-symbols
-path
-given
-can
-'
-t
-process
-dump
-.
-"
-)
             
 if
 not
