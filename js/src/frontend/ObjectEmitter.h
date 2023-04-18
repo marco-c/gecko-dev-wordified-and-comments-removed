@@ -95,7 +95,7 @@ include
 "
 vm
 /
-BytecodeUtil
+NativeObject
 .
 h
 "
@@ -104,7 +104,7 @@ include
 "
 vm
 /
-NativeObject
+Opcodes
 .
 h
 "

@@ -279,7 +279,7 @@ include
 "
 vm
 /
-BytecodeUtil
+FunctionFlags
 .
 h
 "
@@ -288,7 +288,7 @@ include
 "
 vm
 /
-FunctionFlags
+Opcodes
 .
 h
 "
