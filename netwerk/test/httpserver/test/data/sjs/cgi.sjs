@@ -18,11 +18,15 @@ throw
 )
 {
 throw
+new
+Error
+(
 "
 monkey
 wrench
 !
 "
+)
 ;
 }
 response
