@@ -387,14 +387,10 @@ monitor
 AppErrorBoundary
 (
 {
-className
+componentName
 :
 "
-app
--
-error
--
-boundary
+Netmonitor
 "
 panel
 :
