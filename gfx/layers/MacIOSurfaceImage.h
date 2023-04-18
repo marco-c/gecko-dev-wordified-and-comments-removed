@@ -284,6 +284,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+ColorDepth
+aColorDepth
 )
 ;
 private
