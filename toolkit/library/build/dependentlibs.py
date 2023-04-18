@@ -210,12 +210,15 @@ substs
 get
 (
 "
-READELF
+TOOLCHAIN_PREFIX
 "
+"
+"
+)
++
 "
 readelf
 "
-)
 "
 -
 d
