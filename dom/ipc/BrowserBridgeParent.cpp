@@ -442,6 +442,16 @@ GetSingleton
 (
 )
 ;
+if
+(
+!
+cpm
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
 cpm
 -
 >

@@ -12816,6 +12816,16 @@ GetSingleton
 (
 )
 ;
+if
+(
+!
+cpm
+)
+{
+return
+false
+;
+}
 contentParent
 =
 cpm
