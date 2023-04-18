@@ -436,6 +436,9 @@ aData
 mYUVColorSpace
 aData
 .
+mTransferFunction
+aData
+.
 mColorRange
 aData
 .
@@ -1286,6 +1289,11 @@ aYUVColorSpace
 gfx
 :
 :
+TransferFunction
+aTransferFunction
+gfx
+:
+:
 ColorRange
 aColorRange
 gfx
@@ -1438,6 +1446,7 @@ CreateNV12OrP010Surface
 aYSize
 aCbCrSize
 aYUVColorSpace
+aTransferFunction
 aColorRange
 aColorDepth
 )

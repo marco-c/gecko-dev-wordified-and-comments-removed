@@ -226,6 +226,16 @@ mozilla
 gfx
 :
 :
+TransferFunction
+TransferFunction
+;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
 ColorRange
 ColorRange
 ;
@@ -273,6 +283,8 @@ IntSize
 aCbCrSize
 YUVColorSpace
 aColorSpace
+TransferFunction
+aTransferFunction
 ColorRange
 aColorRange
 ColorDepth

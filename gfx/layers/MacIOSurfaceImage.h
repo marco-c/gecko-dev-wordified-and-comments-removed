@@ -282,6 +282,11 @@ aYUVColorSpace
 gfx
 :
 :
+TransferFunction
+aTransferFunction
+gfx
+:
+:
 ColorRange
 aColorRange
 gfx
