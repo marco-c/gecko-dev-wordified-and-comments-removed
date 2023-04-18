@@ -448,10 +448,15 @@ mId
 EventMsgInfo
 ;
 extern
+std
+:
+:
+unordered_map
+<
+UINT
 EventMsgInfo
+>
 gAllEvents
-[
-]
 ;
 #
 ifndef
