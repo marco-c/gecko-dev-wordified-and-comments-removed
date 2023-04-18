@@ -1485,6 +1485,9 @@ sCurrentShutdownPhase
 #
 endif
 void
+AppShutdown
+:
+:
 AdvanceShutdownPhaseInternal
 (
 ShutdownPhase
