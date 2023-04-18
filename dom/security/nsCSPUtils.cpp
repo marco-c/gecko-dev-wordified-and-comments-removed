@@ -3842,6 +3842,12 @@ aKeyword
 !
 =
 CSP_UNSAFE_EVAL
+&
+&
+aKeyword
+!
+=
+CSP_WASM_UNSAFE_EVAL
 )
 )
 ;
