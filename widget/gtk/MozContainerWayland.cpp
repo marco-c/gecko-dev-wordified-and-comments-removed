@@ -2625,6 +2625,17 @@ container
 scale
 )
 ;
+wl_surface_attach
+(
+wl_container
+-
+>
+surface
+nullptr
+0
+0
+)
+;
 wl_surface_set_buffer_scale
 (
 wl_container
