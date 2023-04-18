@@ -332,13 +332,13 @@ browser
 /
 places
 /
-editBookmark
+instantEditBookmark
 .
 js
 (
 content
 /
-editBookmark
+instantEditBookmark
 .
 js
 )

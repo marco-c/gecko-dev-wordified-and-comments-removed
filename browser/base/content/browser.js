@@ -1852,7 +1852,7 @@ content
 /
 places
 /
-editBookmark
+instantEditBookmark
 .
 js
 "

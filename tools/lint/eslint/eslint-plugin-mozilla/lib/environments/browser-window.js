@@ -64,7 +64,7 @@ places
 /
 content
 /
-editBookmark
+instantEditBookmark
 .
 js
 "
