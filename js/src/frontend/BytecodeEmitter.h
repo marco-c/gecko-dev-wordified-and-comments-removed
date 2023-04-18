@@ -3215,6 +3215,8 @@ emitJumpToFinally
 JumpList
 *
 jump
+uint32_t
+idx
 )
 ;
 [
