@@ -564,13 +564,6 @@ url
 |
 |
 false
-isHTML
-:
-!
-!
-sourceResource
-.
-isInlineSource
 }
 )
 ;
@@ -599,9 +592,6 @@ false
 isOriginal
 =
 false
-isHTML
-=
-false
 }
 )
 {
@@ -616,7 +606,6 @@ url
 extensionName
 isExtension
 isWasm
-isHTML
 isPrettyPrinted
 isOriginal
 isBlackBoxed

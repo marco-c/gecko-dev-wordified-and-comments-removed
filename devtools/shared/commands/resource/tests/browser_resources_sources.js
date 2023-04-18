@@ -134,9 +134,6 @@ null
 extensionName
 :
 null
-isInlineSource
-:
-false
 }
 sourceContent
 :
@@ -196,9 +193,6 @@ null
 extensionName
 :
 null
-isInlineSource
-:
-false
 }
 sourceContent
 :
@@ -249,9 +243,6 @@ null
 extensionName
 :
 null
-isInlineSource
-:
-false
 }
 sourceContent
 :
@@ -310,9 +301,6 @@ null
 extensionName
 :
 null
-isInlineSource
-:
-false
 }
 sourceContent
 :
@@ -370,9 +358,6 @@ null
 extensionName
 :
 null
-isInlineSource
-:
-true
 }
 sourceContent
 :
@@ -417,9 +402,6 @@ null
 extensionName
 :
 null
-isInlineSource
-:
-false
 }
 sourceContent
 :
@@ -482,9 +464,6 @@ null
 extensionName
 :
 null
-isInlineSource
-:
-false
 }
 sourceContent
 :
@@ -549,9 +528,6 @@ null
 extensionName
 :
 null
-isInlineSource
-:
-false
 }
 sourceContent
 :
@@ -621,9 +597,6 @@ null
 extensionName
 :
 null
-isInlineSource
-:
-false
 }
 sourceContent
 :
@@ -701,9 +674,6 @@ null
 extensionName
 :
 null
-isInlineSource
-:
-false
 }
 sourceContent
 :
@@ -1467,9 +1437,6 @@ null
 extensionName
 :
 null
-isInlineSource
-:
-false
 }
 sourceContent
 :
