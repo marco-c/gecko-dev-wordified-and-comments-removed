@@ -1834,7 +1834,7 @@ parent
 parent
 -
 >
-IsDoc
+IsOuterDoc
 (
 )
 ;
