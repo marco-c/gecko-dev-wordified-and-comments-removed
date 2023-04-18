@@ -80,6 +80,9 @@ mod
 timing_distribution
 ;
 mod
+url
+;
+mod
 uuid
 ;
 pub
@@ -280,6 +283,16 @@ timing_distribution
 :
 :
 TimingDistributionMetric
+;
+pub
+use
+self
+:
+:
+url
+:
+:
+UrlMetric
 ;
 pub
 use
