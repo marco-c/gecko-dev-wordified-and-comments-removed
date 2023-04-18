@@ -96,6 +96,9 @@ js
 "
 leaf
 "
+"
+threads
+"
 ]
 ;
 const
@@ -243,6 +246,9 @@ const
 features
 =
 [
+"
+threads
+"
 ]
 ;
 const

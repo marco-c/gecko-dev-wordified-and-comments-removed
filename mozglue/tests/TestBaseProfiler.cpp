@@ -28212,6 +28212,14 @@ ProfilerFeature
 :
 :
 StackWalk
+|
+baseprofiler
+:
+:
+ProfilerFeature
+:
+:
+Threads
 ;
 baseprofiler
 :
