@@ -104,6 +104,7 @@ void
 Enter
 (
 )
+const
 {
 mRecursiveMutex
 .
@@ -116,6 +117,7 @@ void
 Exit
 (
 )
+const
 {
 mRecursiveMutex
 .

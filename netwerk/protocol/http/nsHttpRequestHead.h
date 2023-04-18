@@ -100,6 +100,7 @@ void
 Enter
 (
 )
+const
 {
 mRecursiveMutex
 .
@@ -112,6 +113,7 @@ void
 Exit
 (
 )
+const
 {
 mRecursiveMutex
 .
@@ -609,6 +611,7 @@ mHTTPS
 false
 }
 ;
+mutable
 RecursiveMutex
 mRecursiveMutex
 {
