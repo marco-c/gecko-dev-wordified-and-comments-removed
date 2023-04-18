@@ -483,10 +483,13 @@ mozilla
 :
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mDone
+GUARDED_BY
+(
+mMonitor
+)
 ;
 }
 ;

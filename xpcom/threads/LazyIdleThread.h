@@ -233,7 +233,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <
@@ -301,9 +300,17 @@ mIdleTimeoutMS
 ;
 uint32_t
 mPendingEventCount
+GUARDED_BY
+(
+mMutex
+)
 ;
 uint32_t
 mIdleNotificationCount
+GUARDED_BY
+(
+mMutex
+)
 ;
 ShutdownMethod
 mShutdownMethod
@@ -313,6 +320,10 @@ mShutdown
 ;
 bool
 mThreadIsShuttingDown
+GUARDED_BY
+(
+mMutex
+)
 ;
 bool
 mIdleTimeoutEnabled
