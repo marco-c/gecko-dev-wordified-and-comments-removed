@@ -165,11 +165,10 @@ body
 padding
 :
 20px
-52px
 ;
 width
 :
-500px
+465px
 ;
 }
 #
@@ -229,7 +228,7 @@ margin
 -
 bottom
 :
-13px
+8px
 ;
 }
 #
@@ -251,7 +250,7 @@ margin
 -
 bottom
 :
-5px
+0
 ;
 white
 -
@@ -279,9 +278,10 @@ size
 ;
 margin
 -
-bottom
+block
 :
-24px
+10px
+18px
 ;
 }
 #

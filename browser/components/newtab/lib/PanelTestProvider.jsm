@@ -1575,7 +1575,7 @@ body
 size
 :
 "
-20px
+18px
 "
 }
 primary
@@ -1774,7 +1774,7 @@ header
 size
 :
 "
-24px
+22px
 "
 }
 text
@@ -1985,7 +1985,7 @@ header
 size
 :
 "
-24px
+22px
 "
 }
 text
@@ -2009,7 +2009,7 @@ body
 size
 :
 "
-16px
+15px
 "
 }
 primary
