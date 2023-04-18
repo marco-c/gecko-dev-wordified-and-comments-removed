@@ -116,6 +116,11 @@ rollout
 branch
 :
 {
+slug
+:
+"
+slug
+"
 features
 :
 [
@@ -162,6 +167,11 @@ rollout
 branch
 :
 {
+slug
+:
+"
+slug
+"
 features
 :
 [
@@ -815,6 +825,11 @@ rollout
 branch
 :
 {
+slug
+:
+"
+slug
+"
 feature
 :
 {
@@ -877,6 +892,11 @@ rollout
 branch
 :
 {
+slug
+:
+"
+slug
+"
 feature
 :
 {
