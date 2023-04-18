@@ -52,8 +52,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 GPU_IMPL_CYCLE_COLLECTION
@@ -522,7 +522,6 @@ pass
 aRv
 )
 ;
-}
 }
 }
 }

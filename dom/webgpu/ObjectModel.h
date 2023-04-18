@@ -23,8 +23,8 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 class
@@ -130,7 +130,6 @@ aLabel
 ;
 }
 ;
-}
 }
 #
 define

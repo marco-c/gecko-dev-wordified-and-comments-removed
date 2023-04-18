@@ -108,8 +108,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 GPU_IMPL_JS_WRAP
@@ -1057,6 +1057,5 @@ Destroy
 (
 )
 {
-}
 }
 }

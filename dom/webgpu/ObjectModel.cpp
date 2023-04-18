@@ -56,8 +56,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 template
@@ -213,5 +213,4 @@ ChildOf
 Texture
 >
 ;
-}
 }

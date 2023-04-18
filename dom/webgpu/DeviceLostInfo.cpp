@@ -7,8 +7,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 GPU_IMPL_CYCLE_COLLECTION
@@ -20,5 +20,4 @@ GPU_IMPL_JS_WRAP
 (
 DeviceLostInfo
 )
-}
 }

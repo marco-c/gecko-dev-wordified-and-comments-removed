@@ -190,8 +190,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 mozilla
@@ -2974,6 +2974,5 @@ forget
 (
 )
 ;
-}
 }
 }

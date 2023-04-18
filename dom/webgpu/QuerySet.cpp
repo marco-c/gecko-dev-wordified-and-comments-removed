@@ -25,8 +25,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 QuerySet
@@ -56,6 +56,5 @@ Destroy
 (
 )
 {
-}
 }
 }
