@@ -1675,6 +1675,16 @@ HICON
 aIcon
 )
 ;
+void
+SetSmallIconNoData
+(
+)
+;
+void
+SetBigIconNoData
+(
+)
+;
 static
 void
 SetIsRestoringSession
