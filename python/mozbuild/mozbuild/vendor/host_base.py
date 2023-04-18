@@ -64,6 +64,14 @@ as
 temp_repo_clone
 :
             
+starting_directory
+=
+os
+.
+getcwd
+(
+)
+            
 os
 .
 chdir
@@ -305,6 +313,13 @@ splitlines
 -
 1
 ]
+            
+os
+.
+chdir
+(
+starting_directory
+)
             
 return
 (
