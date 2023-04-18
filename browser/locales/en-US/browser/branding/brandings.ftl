@@ -262,6 +262,15 @@ short
 name
 =
 Rally
+-
+focus
+-
+brand
+-
+name
+=
+Firefox
+Focus
 #
 Suggest
 can
