@@ -9057,6 +9057,12 @@ gfxFontStyle
 aStyle
 )
 {
+AutoLock
+lock
+(
+mLock
+)
+;
 nsAutoCString
 key
 ;

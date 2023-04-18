@@ -1212,10 +1212,6 @@ gfxFontStyle
 *
 aStyle
 )
-REQUIRES
-(
-mLock
-)
 ;
 mozilla
 :
