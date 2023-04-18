@@ -34,7 +34,10 @@ use
 bytes
 :
 :
-Buf
+buf
+:
+:
+BufExt
 ;
 #
 [
@@ -74,7 +77,7 @@ world
 let
 buf
 =
-Buf
+BufExt
 :
 :
 chain
@@ -169,7 +172,7 @@ let
 mut
 reader
 =
-Buf
+BufExt
 :
 :
 chain

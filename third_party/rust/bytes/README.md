@@ -167,7 +167,9 @@ dependencies
 bytes
 =
 "
-1
+0
+.
+5
 "
 Next
 add
@@ -218,7 +220,9 @@ bytes
 version
 =
 "
-1
+0
+.
+5
 "
 features
 =

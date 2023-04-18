@@ -596,6 +596,7 @@ append_pair
 "
 batch
 "
+&
 batch
 )
 ;
