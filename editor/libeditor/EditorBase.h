@@ -2144,7 +2144,7 @@ bool
 mDidNormalizeWhitespaces
 ;
 bool
-mNeedsToCleanUpEmptyInlineElements
+mNeedsToCleanUpEmptyElements
 ;
 void
 DidCreateElement
@@ -2326,7 +2326,7 @@ mDidNormalizeWhitespaces
 =
 false
 ;
-mNeedsToCleanUpEmptyInlineElements
+mNeedsToCleanUpEmptyElements
 =
 true
 ;

@@ -2319,6 +2319,16 @@ break
 ;
 }
 }
+if
+(
+TopLevelEditSubActionDataRef
+(
+)
+.
+mNeedsToCleanUpEmptyElements
+)
+{
+nsresult
 rv
 =
 RemoveEmptyNodesIn
@@ -2358,6 +2368,7 @@ failed
 return
 rv
 ;
+}
 }
 switch
 (
@@ -3047,7 +3058,7 @@ TopLevelEditSubActionDataRef
 (
 )
 .
-mNeedsToCleanUpEmptyInlineElements
+mNeedsToCleanUpEmptyElements
 &
 &
 SelectionRef
