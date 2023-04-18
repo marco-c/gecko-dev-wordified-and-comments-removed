@@ -4719,7 +4719,7 @@ metadataTier_
 >
 stackMaps
 .
-sort
+finishAndSort
 (
 )
 ;
@@ -4754,6 +4754,7 @@ endif
 #
 ifdef
 DEBUG
+const
 uint8_t
 *
 previousNextInsnAddr

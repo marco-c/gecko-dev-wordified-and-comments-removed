@@ -75335,11 +75335,15 @@ getBit
 stackMap
 -
 >
+header
+.
 numMappedWords
 -
 stackMap
 -
 >
+header
+.
 frameOffsetFromTop
 +
 i

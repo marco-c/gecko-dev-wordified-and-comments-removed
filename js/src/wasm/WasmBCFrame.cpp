@@ -1708,11 +1708,15 @@ getBit
 stackMap
 -
 >
+header
+.
 numMappedWords
 -
 stackMap
 -
 >
+header
+.
 frameOffsetFromTop
 +
 i
@@ -1785,6 +1789,8 @@ nw
 stackMap
 -
 >
+header
+.
 numMappedWords
 ;
 uint32_t
