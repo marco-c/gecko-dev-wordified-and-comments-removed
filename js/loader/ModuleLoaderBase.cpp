@@ -136,6 +136,17 @@ include
 "
 mozilla
 /
+dom
+/
+ScriptLoadContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CycleCollectedJSContext
 .
 h
