@@ -746,6 +746,13 @@ PrintPreviewResolver
 mPrintPreviewCallback
 ;
 float
+mShrinkToFitFactor
+=
+1
+.
+0f
+;
+float
 mScreenDPI
 =
 115

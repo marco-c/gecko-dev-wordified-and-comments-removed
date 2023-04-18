@@ -166,9 +166,6 @@ mPreparingForPrint
 int32_t
 mNumPrintablePages
 ;
-float
-mShrinkRatio
-;
 private
 :
 nsPrintData

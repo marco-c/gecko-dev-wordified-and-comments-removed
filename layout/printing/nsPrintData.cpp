@@ -110,12 +110,6 @@ mNumPrintablePages
 (
 0
 )
-mShrinkRatio
-(
-1
-.
-0
-)
 {
 }
 nsPrintData
