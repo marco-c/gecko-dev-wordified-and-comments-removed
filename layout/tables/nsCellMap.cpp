@@ -12331,11 +12331,6 @@ n
 )
 ;
 }
-uint32_t
-cellCount
-=
-0
-;
 for
 (
 uint32_t
@@ -12462,10 +12457,6 @@ void
 cellFrame
 cellFrameColIndex
 )
-;
-cellCount
-+
-+
 ;
 }
 }
