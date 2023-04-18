@@ -174,6 +174,8 @@ mutation
 .
 target
 .
+documentElement
+.
 closest
 (
 "
