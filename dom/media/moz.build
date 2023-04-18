@@ -1392,11 +1392,6 @@ MediaContainerType
 cpp
 "
 "
-MediaData
-.
-cpp
-"
-"
 MediaDecoder
 .
 cpp
@@ -1613,6 +1608,11 @@ cpp
 "
 "
 DecoderTraits
+.
+cpp
+"
+"
+MediaData
 .
 cpp
 "
