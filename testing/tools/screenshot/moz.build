@@ -10,13 +10,6 @@ MOZ_WIDGET_TOOLKIT
 "
 gtk
 "
-and
-CONFIG
-[
-"
-MOZ_X11
-"
-]
 :
 Program
 (
