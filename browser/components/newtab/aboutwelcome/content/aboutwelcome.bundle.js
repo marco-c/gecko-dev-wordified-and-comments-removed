@@ -3465,7 +3465,6 @@ height
 }
 getScreenClassName
 (
-isCornerPosition
 isFirstCenteredScreen
 isLastCenteredScreen
 includeNoodles
@@ -3474,12 +3473,6 @@ includeNoodles
 const
 screenClass
 =
-isCornerPosition
-?
-"
-corner
-"
-:
 screen
 -
 {
@@ -4061,11 +4054,15 @@ text
 const
 screenClassName
 =
+isCornerPosition
+?
+"
+"
+:
 this
 .
 getScreenClassName
 (
-isCornerPosition
 isFirstCenteredScreen
 isLastCenteredScreen
 includeNoodles
