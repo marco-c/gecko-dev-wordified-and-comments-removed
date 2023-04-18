@@ -92,7 +92,7 @@ mozilla
 /
 dom
 /
-WorkerPrivate
+WorkerScope
 .
 h
 "
