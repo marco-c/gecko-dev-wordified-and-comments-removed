@@ -3372,6 +3372,9 @@ fails
 n
 "
 interval
+(
+uint32_t
+)
 mLoadFailureCount
 )
 )
