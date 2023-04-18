@@ -25564,6 +25564,12 @@ frontend
 CompileGlobalScriptToStencil
 (
 cx
+cx
+-
+>
+tempLifoAlloc
+(
+)
 input
 .
 get

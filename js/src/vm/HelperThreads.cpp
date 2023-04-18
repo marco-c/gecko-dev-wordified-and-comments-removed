@@ -4018,6 +4018,18 @@ stencilInput_
 return
 ;
 }
+js
+:
+:
+LifoAlloc
+tempLifoAlloc
+(
+JSContext
+:
+:
+TEMP_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+)
+;
 stencil_
 =
 frontend
@@ -4026,6 +4038,7 @@ frontend
 CompileGlobalScriptToStencil
 (
 cx
+tempLifoAlloc
 *
 stencilInput_
 data

@@ -73,6 +73,9 @@ js
 class
 Scope
 ;
+class
+LifoAlloc
+;
 namespace
 frontend
 {
@@ -98,6 +101,12 @@ CompileGlobalScriptToStencil
 JSContext
 *
 cx
+js
+:
+:
+LifoAlloc
+&
+tempLifoAlloc
 CompilationInput
 &
 input
@@ -124,6 +133,12 @@ CompileGlobalScriptToStencil
 JSContext
 *
 cx
+js
+:
+:
+LifoAlloc
+&
+tempLifoAlloc
 CompilationInput
 &
 input
