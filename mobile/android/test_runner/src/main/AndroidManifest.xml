@@ -279,6 +279,15 @@ TestRunnerActivity
 "
 android
 :
+configChanges
+=
+"
+orientation
+|
+screenSize
+"
+android
+:
 exported
 =
 "
