@@ -227,6 +227,11 @@ foo
 .
 bar
 "
+"
+log
+.
+invalidEvent
+"
 ]
 )
 async
