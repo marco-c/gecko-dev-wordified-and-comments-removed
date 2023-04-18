@@ -42299,12 +42299,6 @@ defined
 (
 XP_WIN
 )
-|
-|
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 value
 :
 true
