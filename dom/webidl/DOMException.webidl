@@ -99,11 +99,11 @@ IDL
 file
 is
 *
-http
+https
 :
 /
 /
-dom
+webidl
 .
 spec
 .
@@ -112,9 +112,9 @@ whatwg
 org
 /
 #
-exception
+idl
 -
-domexception
+DOMException
 *
 *
 Copyright
@@ -497,6 +497,7 @@ Exposed
 Window
 Worker
 )
+Serializable
 ]
 interface
 DOMException
