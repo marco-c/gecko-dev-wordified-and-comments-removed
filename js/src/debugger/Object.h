@@ -560,10 +560,7 @@ JSContext
 cx
 HandleDebuggerObject
 object
-MutableHandle
-<
-IdVector
->
+MutableHandleIdVector
 result
 )
 ;
@@ -581,10 +578,7 @@ JSContext
 cx
 HandleDebuggerObject
 object
-MutableHandle
-<
-IdVector
->
+MutableHandleIdVector
 result
 )
 ;
@@ -602,10 +596,7 @@ JSContext
 cx
 HandleDebuggerObject
 object
-MutableHandle
-<
-IdVector
->
+MutableHandleIdVector
 result
 )
 ;
