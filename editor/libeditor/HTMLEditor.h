@@ -9221,10 +9221,6 @@ EditorBase
 ;
 friend
 class
-MoveNodeTransaction
-;
-friend
-class
 JoinNodesTransaction
 ;
 friend
@@ -9234,6 +9230,10 @@ ListElementSelectionState
 friend
 class
 ListItemElementSelectionState
+;
+friend
+class
+MoveNodeTransaction
 ;
 friend
 class
