@@ -348,6 +348,15 @@ from
 "
 .
 /
+tabs
+"
+;
+export
+*
+from
+"
+.
+/
 threads
 "
 ;

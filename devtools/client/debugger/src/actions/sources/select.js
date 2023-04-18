@@ -41,7 +41,7 @@ from
 .
 .
 /
-reducers
+selectors
 /
 tabs
 "
