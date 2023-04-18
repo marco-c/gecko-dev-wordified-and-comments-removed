@@ -28,9 +28,7 @@ __wasi__
 #
 include
 "
-mozilla
-/
-Assertions
+PlatformMutex
 .
 h
 "
@@ -40,6 +38,15 @@ include
 mozilla
 /
 Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
+MemoryChecking
 .
 h
 "

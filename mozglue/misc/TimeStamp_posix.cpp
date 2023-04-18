@@ -190,6 +190,15 @@ TimeStamp
 h
 "
 #
+include
+"
+mozilla
+/
+Uptime
+.
+h
+"
+#
 if
 !
 defined
