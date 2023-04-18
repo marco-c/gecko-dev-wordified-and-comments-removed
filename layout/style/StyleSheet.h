@@ -2026,15 +2026,6 @@ FixUpAfterInnerClone
 )
 ;
 void
-FixUpRuleListAfterContentsChangeIfNeeded
-(
-bool
-aFromClone
-=
-false
-)
-;
-void
 DropRuleList
 (
 )
