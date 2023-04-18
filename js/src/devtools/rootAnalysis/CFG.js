@@ -2253,6 +2253,7 @@ Kind
 Function
 "
 )
+{
 return
 edge
 .
@@ -2261,6 +2262,7 @@ Index
 1
 ]
 ;
+}
 var
 src
 =
