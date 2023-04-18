@@ -14,11 +14,6 @@ import
 BytesIO
 from
 .
-fields
-import
-RequestField
-from
-.
 packages
 import
 six
@@ -29,6 +24,11 @@ packages
 six
 import
 b
+from
+.
+fields
+import
+RequestField
 writer
 =
 codecs

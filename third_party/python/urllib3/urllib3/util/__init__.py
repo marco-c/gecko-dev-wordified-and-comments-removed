@@ -11,8 +11,6 @@ from
 .
 request
 import
-SKIP_HEADER
-SKIPPABLE_HEADERS
 make_headers
 from
 .
@@ -21,26 +19,17 @@ import
 is_fp_closed
 from
 .
-retry
-import
-Retry
-from
-.
 ssl_
 import
 (
     
-ALPN_PROTOCOLS
+SSLContext
     
 HAS_SNI
     
 IS_PYOPENSSL
     
 IS_SECURETRANSPORT
-    
-PROTOCOL_TLS
-    
-SSLContext
     
 assert_fingerprint
     
@@ -49,21 +38,28 @@ resolve_cert_reqs
 resolve_ssl_version
     
 ssl_wrap_socket
+    
+PROTOCOL_TLS
 )
 from
 .
 timeout
 import
-Timeout
 current_time
+Timeout
+from
+.
+retry
+import
+Retry
 from
 .
 url
 import
-Url
 get_host
 parse_url
 split_first
+Url
 from
 .
 wait
@@ -92,10 +88,6 @@ SSLContext
     
 "
 PROTOCOL_TLS
-"
-    
-"
-ALPN_PROTOCOLS
 "
     
 "
@@ -160,13 +152,5 @@ wait_for_read
     
 "
 wait_for_write
-"
-    
-"
-SKIP_HEADER
-"
-    
-"
-SKIPPABLE_HEADERS
 "
 )

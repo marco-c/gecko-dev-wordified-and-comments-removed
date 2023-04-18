@@ -56,7 +56,10 @@ as
 :
 class
 :
+~
 urllib3
+.
+connectionpool
 .
 HTTPConnectionPool
 and
@@ -64,7 +67,10 @@ and
 :
 class
 :
+~
 urllib3
+.
+poolmanager
 .
 PoolManager
 .
@@ -682,9 +688,11 @@ default
 then
         
 :
-func
+meth
 :
 urllib3
+.
+filepost
 .
 encode_multipart_formdata
 is
@@ -703,11 +711,9 @@ type
 Otherwise
         
 :
-func
+meth
 :
 urllib
-.
-parse
 .
 urlencode
 is

@@ -68,16 +68,12 @@ InvalidHeader
 from
 .
 packages
-import
-six
-from
-.
-packages
 .
 six
 import
 iterkeys
 itervalues
+PY3
 __all__
 =
 [
@@ -1086,9 +1082,8 @@ other
 )
     
 if
-six
-.
-PY2
+not
+PY3
 :
         
 iterkeys
@@ -1184,7 +1179,7 @@ the
 corresponding
 value
 .
-        
+          
 If
 key
 is

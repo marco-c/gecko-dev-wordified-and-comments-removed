@@ -2,28 +2,28 @@ from
 __future__
 import
 absolute_import
-import
-io
-import
-logging
-import
-zlib
 from
 contextlib
 import
 contextmanager
-from
-socket
 import
-error
-as
-SocketError
+zlib
+import
+io
+import
+logging
 from
 socket
 import
 timeout
 as
 SocketTimeout
+from
+socket
+import
+error
+as
+SocketError
 try
 :
     
@@ -43,41 +43,53 @@ import
 HTTPHeaderDict
 from
 .
-connection
-import
-BaseSSLError
-HTTPException
-from
-.
 exceptions
 import
 (
     
 BodyNotHttplibCompatible
     
-DecodeError
-    
-HTTPError
-    
-IncompleteRead
-    
-InvalidChunkLength
-    
-InvalidHeader
-    
 ProtocolError
+    
+DecodeError
     
 ReadTimeoutError
     
 ResponseNotChunked
     
-SSLError
+IncompleteRead
+    
+InvalidHeader
+    
+HTTPError
 )
 from
 .
 packages
-import
+.
 six
+import
+string_types
+as
+basestring
+PY3
+from
+.
+packages
+.
+six
+.
+moves
+import
+http_client
+as
+httplib
+from
+.
+connection
+import
+HTTPException
+BaseSSLError
 from
 .
 util
@@ -502,6 +514,14 @@ brotli
 Decompressor
 (
 )
+        
+def
+decompress
+(
+self
+data
+)
+:
             
 if
 hasattr
@@ -515,28 +535,25 @@ decompress
 )
 :
                 
-self
-.
-decompress
-=
+return
 self
 .
 _obj
 .
 decompress
+(
+data
+)
             
-else
-:
-                
-self
-.
-decompress
-=
+return
 self
 .
 _obj
 .
 process
+(
+data
+)
         
 def
 flush
@@ -792,14 +809,10 @@ container
 Backwards
 -
 compatible
-with
-:
-class
-:
-http
-.
-client
-.
+to
+httplib
+'
+s
 HTTPResponse
 but
 the
@@ -864,12 +877,7 @@ behaviour
 not
 present
 in
-:
-class
-:
-http
-.
-client
+httplib
 .
 HTTPResponse
 :
@@ -931,12 +939,7 @@ is
 generated
 from
 an
-:
-class
-:
-http
-.
-client
+httplib
 .
 HTTPResponse
         
@@ -1264,9 +1267,7 @@ isinstance
 (
 body
 (
-six
-.
-string_types
+basestring
 bytes
 )
 )
@@ -1697,16 +1698,12 @@ by
 :
 meth
 :
-urllib3
-.
-response
-.
 HTTPResponse
 .
 read
-        
 if
 bytes
+        
 are
 encoded
 on
@@ -2457,10 +2454,6 @@ e
 :
                     
 raise
-SSLError
-(
-e
-)
                 
 raise
 ReadTimeoutError
@@ -2586,9 +2579,7 @@ to
 :
 meth
 :
-http
-.
-client
+httplib
 .
 HTTPResponse
 .
@@ -3171,9 +3162,7 @@ an
 :
 class
 :
-http
-.
-client
+httplib
 .
 HTTPResponse
 instance
@@ -3229,21 +3218,7 @@ HTTPHeaderDict
 :
             
 if
-six
-.
-PY2
-:
-                
-headers
-=
-HTTPHeaderDict
-.
-from_httplib
-(
-headers
-)
-            
-else
+PY3
 :
                 
 headers
@@ -3255,6 +3230,18 @@ headers
 items
 (
 )
+)
+            
+else
+:
+                
+headers
+=
+HTTPHeaderDict
+.
+from_httplib
+(
+headers
 )
         
 strict
@@ -3719,12 +3706,7 @@ looks
 like
 a
         
-:
-class
-:
-http
-.
-client
+httplib
 .
 HTTPResponse
 object
@@ -3735,9 +3717,9 @@ this
 by
 testing
 for
-        
 the
 fp
+        
 attribute
 .
 If
@@ -3844,9 +3826,10 @@ close
 )
             
 raise
-InvalidChunkLength
+httplib
+.
+IncompleteRead
 (
-self
 line
 )
     
@@ -4165,9 +4148,7 @@ BodyNotHttplibCompatible
 Body
 should
 be
-http
-.
-client
+httplib
 .
 HTTPResponse
 like
