@@ -231,7 +231,6 @@ actions
 ;
 apply_actions
 (
-&
 tx
 actions
 &
@@ -375,7 +374,6 @@ local
 get
 (
 conn
-&
 ext_id
 serde_json
 :
@@ -1837,7 +1835,6 @@ get_mirror_data
 (
 &
 tx
-&
 guid
 )
 DbData
