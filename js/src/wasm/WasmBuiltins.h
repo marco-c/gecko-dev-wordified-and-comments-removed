@@ -154,7 +154,6 @@ ENABLE_WASM_EXCEPTIONS
 )
 ExceptionNew
 ThrowException
-PushRefIntoExn
 #
 endif
 ArrayNew
@@ -534,11 +533,6 @@ extern
 const
 SymbolicAddressSignature
 SASigThrowException
-;
-extern
-const
-SymbolicAddressSignature
-SASigPushRefIntoExn
 ;
 #
 endif

@@ -555,6 +555,11 @@ WasmTableTable
 \
 _
 (
+WasmExceptionData
+)
+\
+_
+(
 WasmTagType
 )
 \

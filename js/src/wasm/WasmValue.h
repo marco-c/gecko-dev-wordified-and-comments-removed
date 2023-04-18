@@ -1933,6 +1933,15 @@ mustWrite64
 )
 const
 ;
+void
+writeToHeapLocation
+(
+void
+*
+loc
+)
+const
+;
 static
 bool
 fromJSValue
