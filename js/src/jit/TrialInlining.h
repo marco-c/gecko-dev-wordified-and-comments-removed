@@ -441,6 +441,8 @@ FindInlinableCallData
 ICCacheIRStub
 *
 stub
+BytecodeLocation
+loc
 )
 ;
 mozilla
