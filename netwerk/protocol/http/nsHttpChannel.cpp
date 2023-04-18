@@ -8083,15 +8083,6 @@ PStreamFilter
 :
 CreateEndpoints
 (
-base
-:
-:
-GetCurrentProcId
-(
-)
-request
-.
-mChildProcessId
 &
 parent
 &
@@ -30294,10 +30285,6 @@ PStreamFilter
 :
 CreateEndpoints
 (
-ProcessId
-(
-)
-aChildProcessId
 &
 parent
 &

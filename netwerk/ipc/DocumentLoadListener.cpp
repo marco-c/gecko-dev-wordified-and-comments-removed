@@ -9661,10 +9661,6 @@ PStreamFilter
 :
 CreateEndpoints
 (
-pid
-request
-.
-mChildProcessId
 &
 parent
 &
