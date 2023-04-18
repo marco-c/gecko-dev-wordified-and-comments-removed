@@ -2157,7 +2157,17 @@ _topsrcdir
 *
 _deprioritize_venv_packages
 (
+                
 environment
+self
+.
+_site_packages_source
+=
+=
+SitePackagesSource
+.
+VENV
+            
 )
         
 ]
@@ -4225,22 +4235,21 @@ _topsrcdir
 )
 )
         
-if
-self
-.
-_populate_virtualenv
-:
-            
 lines
 .
 extend
 (
+            
 _deprioritize_venv_packages
 (
 self
 .
 _virtualenv
+self
+.
+_populate_virtualenv
 )
+        
 )
         
 return
@@ -4584,8 +4593,33 @@ return
 list
 (
             
-{
+filter
+(
                 
+None
+                
+[
+                    
+self
+.
+prefix
+if
+sys
+.
+platform
+.
+startswith
+(
+"
+win
+"
+)
+else
+None
+                    
+*
+{
+                        
 self
 .
 resolve_sysconfig_packages_path
@@ -4594,7 +4628,7 @@ resolve_sysconfig_packages_path
 purelib
 "
 )
-                
+                        
 self
 .
 resolve_sysconfig_packages_path
@@ -4603,8 +4637,12 @@ resolve_sysconfig_packages_path
 platlib
 "
 )
-            
+                    
 }
+                
+]
+            
+)
         
 )
     
@@ -5594,12 +5632,16 @@ c
                 
 "
 import
+os
+;
+import
 sys
 ;
 import
 site
 ;
 "
+                
 "
 packages
 =
@@ -5637,6 +5679,28 @@ sys
 base_prefix
 else
 None
+;
+"
+                
+"
+packages
+=
+[
+p
+for
+p
+in
+packages
+if
+os
+.
+path
+.
+exists
+(
+p
+)
+]
 ;
 "
                 
@@ -5699,19 +5763,42 @@ returncode
 =
 0
         
-return
+stdlib
+=
 ast
 .
 literal_eval
 (
 stdlib_out
 )
+        
+system
+=
 ast
 .
 literal_eval
 (
 system_out
 )
+        
+system
+=
+[
+path
+for
+path
+in
+system
+if
+path
+not
+in
+stdlib
+]
+        
+return
+stdlib
+system
     
 def
 sys_path_stdlib
@@ -6603,25 +6690,9 @@ def
 _deprioritize_venv_packages
 (
 virtualenv
+populate_virtualenv
 )
 :
-    
-implicitly_added_dirs
-=
-[
-        
-virtualenv
-.
-prefix
-        
-*
-virtualenv
-.
-site_packages_dirs
-(
-)
-    
-]
     
 return
 [
@@ -6631,13 +6702,22 @@ line
 for
 site_packages_dir
 in
-implicitly_added_dirs
+virtualenv
+.
+site_packages_dirs
+(
+)
         
 for
 line
 in
+filter
 (
             
+None
+            
+(
+                
 "
 import
 sys
@@ -6656,7 +6736,7 @@ sys
 path
 if
 "
-            
+                
 f
 "
 p
@@ -6678,7 +6758,7 @@ lower
 )
 ]
 "
-            
+                
 f
 "
 import
@@ -6698,6 +6778,14 @@ site_packages_dir
 }
 )
 "
+                
+if
+populate_virtualenv
+                
+else
+None
+            
+)
         
 )
     
@@ -7375,16 +7463,10 @@ prefix
 for
 path
 in
-(
-virtualenv
-.
-prefix
-*
 virtualenv
 .
 site_packages_dirs
 (
-)
 )
 :
         
