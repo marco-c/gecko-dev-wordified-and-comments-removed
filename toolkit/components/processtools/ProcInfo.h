@@ -103,6 +103,7 @@ PrivilegedAbout
 PrivilegedMozilla
 WebLargeAllocation
 WebCOOPCOEP
+WebServiceWorker
 Browser
 IPDLUnitTest
 GMPlugin

@@ -99,6 +99,13 @@ webLargeAllocation
 _ns
 #
 define
+SERVICEWORKER_REMOTE_TYPE
+"
+webServiceWorker
+"
+_ns
+#
+define
 NOT_REMOTE_TYPE
 VoidCString
 (

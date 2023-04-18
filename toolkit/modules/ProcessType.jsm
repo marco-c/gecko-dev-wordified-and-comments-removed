@@ -131,6 +131,15 @@ type
 -
 webisolated
 "
+webServiceWorker
+:
+"
+process
+-
+type
+-
+webserviceworker
+"
 webLargeAllocation
 :
 "
