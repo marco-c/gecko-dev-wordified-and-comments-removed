@@ -34022,6 +34022,16 @@ aFlags
 )
 ;
 }
+if
+(
+aFlags
+&
+imgIContainer
+:
+:
+FLAG_RECORD_BLOB
+)
+{
 LayerIntRect
 clipRect
 =
@@ -34165,6 +34175,7 @@ CLAMP
 )
 )
 ;
+}
 }
 }
 return
