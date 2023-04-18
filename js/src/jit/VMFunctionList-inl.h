@@ -237,6 +237,15 @@ createForIon
 \
 _
 (
+ArgumentsSliceDense
+js
+:
+:
+ArgumentsSliceDense
+)
+\
+_
+(
 ArrayConstructorOneArg
 js
 :
