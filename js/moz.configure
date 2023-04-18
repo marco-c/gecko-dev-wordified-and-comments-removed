@@ -5925,9 +5925,6 @@ True
 )
 depends
 (
-milestone
-.
-is_nightly
 "
 -
 -
@@ -5939,17 +5936,11 @@ cranelift
 def
 default_wasm_exceptions
 (
-is_nightly
 cranelift_enabled
 )
 :
 if
 cranelift_enabled
-:
-return
-if
-not
-is_nightly
 :
 return
 return

@@ -13638,6 +13638,9 @@ true
 #
 ifdef
 ENABLE_WASM_EXCEPTIONS
+#
+ifdef
+WASM_PRIVATE_REFTYPES
 static
 bool
 TagIsJSCompatible
@@ -13688,6 +13691,8 @@ return
 true
 ;
 }
+#
+endif
 static
 bool
 DecodeTag
