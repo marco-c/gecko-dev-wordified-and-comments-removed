@@ -306,6 +306,9 @@ class
 OutOfLineNaNToZero
 ;
 class
+OutOfLineInterruptTrap
+;
+class
 OutOfLineZeroIfNaN
 ;
 class
@@ -767,6 +770,14 @@ void
 visitOutOfLineZeroIfNaN
 (
 OutOfLineZeroIfNaN
+*
+ool
+)
+;
+void
+visitOutOfLineInterruptTrap
+(
+OutOfLineInterruptTrap
 *
 ool
 )
