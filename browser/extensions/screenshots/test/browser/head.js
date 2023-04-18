@@ -147,6 +147,17 @@ button
 -
 copy
 "
+downloadButton
+:
+"
+button
+.
+highlight
+-
+button
+-
+download
+"
 }
 ;
 class
