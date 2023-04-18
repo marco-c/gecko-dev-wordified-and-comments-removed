@@ -716,10 +716,14 @@ waitUntil
 {
 consoleElements
 =
-findMessages
+findMessagesByType
 (
 hud
 expectedWarning
+"
+.
+warn
+"
 )
 ;
 return
