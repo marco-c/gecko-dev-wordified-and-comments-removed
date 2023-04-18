@@ -430,7 +430,7 @@ exit
 return
 template
 def
-extract_crash_ping_allowlist
+extract_crash_ping_whitelist
 (
 annotations
 )
@@ -448,7 +448,7 @@ names
 of
 the
 annotations
-allowlisted
+whitelisted
 for
     
 inclusion
@@ -747,9 +747,9 @@ string
 "
 "
     
-allowlist
+whitelist
 =
-extract_crash_ping_allowlist
+extract_crash_ping_whitelist
 (
 annotations
 )
@@ -788,12 +788,12 @@ annotations
 )
             
 "
-allowlist
+whitelist
 "
 :
 generate_array_initializer
 (
-allowlist
+whitelist
 )
         
 }
@@ -1012,9 +1012,9 @@ annotations
 "
 "
     
-allowlist
+whitelist
 =
-extract_crash_ping_allowlist
+extract_crash_ping_whitelist
 (
 annotations
 )
@@ -1035,12 +1035,12 @@ substitute
 {
             
 "
-allowlist
+whitelist
 "
 :
 generate_java_array_initializer
 (
-allowlist
+whitelist
 )
         
 }
@@ -1137,12 +1137,12 @@ final
 String
 [
 ]
-ANNOTATION_ALLOWLIST
+ANNOTATION_WHITELIST
 =
 {
     
 {
-allowlist
+whitelist
 }
         
 }

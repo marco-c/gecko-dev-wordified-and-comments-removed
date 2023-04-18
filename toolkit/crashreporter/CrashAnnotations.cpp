@@ -125,7 +125,7 @@ true
 ;
 }
 bool
-IsAnnotationAllowlistedForPing
+IsAnnotationWhitelistedForPing
 (
 Annotation
 aAnnotation
@@ -138,11 +138,11 @@ find_if
 (
 begin
 (
-kCrashPingAllowlist
+kCrashPingWhitelist
 )
 end
 (
-kCrashPingAllowlist
+kCrashPingWhitelist
 )
 [
 &
@@ -168,7 +168,7 @@ elem
 =
 end
 (
-kCrashPingAllowlist
+kCrashPingWhitelist
 )
 ;
 }

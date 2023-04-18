@@ -1270,7 +1270,7 @@ FilePreferences
 testing
 :
 :
-AddDirectoryToAllowlist
+AddDirectoryToWhitelist
 (
 u
 "

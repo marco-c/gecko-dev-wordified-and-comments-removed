@@ -3276,7 +3276,7 @@ mozilla
 FilePreferences
 :
 :
-InitDirectoriesAllowlist
+InitDirectoriesWhitelist
 (
 )
 ;
