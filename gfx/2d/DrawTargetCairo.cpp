@@ -7927,9 +7927,10 @@ PopLayer
 {
 MOZ_ASSERT
 (
+!
 mPushedLayers
 .
-size
+empty
 (
 )
 )
