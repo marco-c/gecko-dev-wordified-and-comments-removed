@@ -146,16 +146,6 @@ VariablesView
 .
 jsm
 "
-"
-client
-/
-debugger
-/
-test
-/
-*
-*
-"
 ]
 rules
 :
