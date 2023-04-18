@@ -1255,9 +1255,9 @@ mIsDestroying
 =
 true
 ;
-mPrt
-=
-nullptr
+DestroyPrintingData
+(
+)
 ;
 mDocViewerPrint
 =
@@ -1741,9 +1741,9 @@ rv
 )
 ;
 }
-mPrt
-=
-nullptr
+DestroyPrintingData
+(
+)
 ;
 }
 return
