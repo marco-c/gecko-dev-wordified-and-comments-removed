@@ -219,8 +219,8 @@ masm
 .
 push
 (
-r29
 r30
+r29
 )
 ;
 masm
@@ -328,13 +328,6 @@ masm
 SetStackPointer64
 (
 PseudoStackPointer64
-)
-;
-masm
-.
-moveStackPtrTo
-(
-FramePointer
 )
 ;
 masm
@@ -1390,8 +1383,8 @@ masm
 .
 pop
 (
-r30
 r29
+r30
 )
 ;
 masm
