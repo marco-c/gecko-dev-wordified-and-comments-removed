@@ -79,6 +79,13 @@ disable
 clang
 -
 plugin
+-
+-
+disable
+-
+debug
+-
+symbols
 "
 "
 optimize
