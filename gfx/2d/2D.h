@@ -3529,7 +3529,6 @@ return
 mData
 ;
 }
-PUSH_IGNORE_THREAD_SAFETY
 bool
 Lock
 (
@@ -3538,6 +3537,10 @@ void
 aOwner
 =
 nullptr
+)
+CAPABILITY_ACQUIRE
+(
+mLock
 )
 {
 mLock
@@ -3566,6 +3569,10 @@ void
 Unlock
 (
 )
+CAPABILITY_RELEASE
+(
+mLock
+)
 {
 mLock
 .
@@ -3574,7 +3581,6 @@ Unlock
 )
 ;
 }
-POP_THREAD_SAFETY
 void
 ForgetLockOwner
 (
@@ -3609,7 +3615,6 @@ mData
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 Atomic
 <
@@ -6479,7 +6484,6 @@ mFTLibrary
 static
 StaticMutex
 mFTLock
-MOZ_UNANNOTATED
 ;
 public
 :
@@ -6788,12 +6792,10 @@ protected
 static
 StaticMutex
 mDeviceLock
-MOZ_UNANNOTATED
 ;
 static
 StaticMutex
 mDTDependencyLock
-MOZ_UNANNOTATED
 ;
 friend
 class
