@@ -364,6 +364,12 @@ state
 .
 *
 /
+radiogroup
+:
+focus
+-
+visible
+>
 radio
 [
 focused
