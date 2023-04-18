@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -116,7 +116,7 @@ Update
 const
 MIDIPortList
 &
-aEvent
+aPortList
 )
 ;
 bool
@@ -181,7 +181,6 @@ mChild
 ;
 }
 ;
-}
 }
 #
 endif

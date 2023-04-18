@@ -65,8 +65,8 @@ JSContext
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -289,7 +289,6 @@ mClosingPromise
 ;
 }
 ;
-}
 }
 #
 endif

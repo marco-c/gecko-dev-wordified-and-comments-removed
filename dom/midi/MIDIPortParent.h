@@ -39,8 +39,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -146,11 +146,11 @@ SendUpdateStatus
 const
 MIDIPortDeviceState
 &
-aState
+aDeviceState
 const
 MIDIPortConnectionState
 &
-aConnection
+aConnectionState
 )
 ;
 uint32_t
@@ -189,7 +189,6 @@ mInternalId
 ;
 }
 ;
-}
 }
 #
 endif

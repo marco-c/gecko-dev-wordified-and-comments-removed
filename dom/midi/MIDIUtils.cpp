@@ -449,6 +449,7 @@ currentMsg
 ;
 for
 (
+const
 auto
 &
 byte
@@ -680,8 +681,7 @@ return
 false
 ;
 }
-if
-(
+return
 aMsg
 .
 data
@@ -693,14 +693,6 @@ data
 =
 =
 kSysexMessageStart
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 }

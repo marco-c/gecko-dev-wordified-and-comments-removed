@@ -294,7 +294,7 @@ bool
 aSysexEnabled
 Promise
 *
-aPromise
+aAccessPromise
 )
 :
 DOMEventTargetHelper
@@ -323,7 +323,7 @@ aSysexEnabled
 )
 mAccessPromise
 (
-aPromise
+aAccessPromise
 )
 mHasShutdown
 (
@@ -337,7 +337,7 @@ aWindow
 ;
 MOZ_ASSERT
 (
-aPromise
+aAccessPromise
 )
 ;
 }
@@ -1113,6 +1113,7 @@ aEvent
 {
 for
 (
+const
 auto
 &
 port

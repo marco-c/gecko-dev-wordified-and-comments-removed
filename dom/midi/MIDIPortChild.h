@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -141,7 +141,6 @@ mActorWasAlive
 ;
 }
 ;
-}
 }
 #
 endif

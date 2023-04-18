@@ -80,7 +80,7 @@ nsTArray
 MIDIMessage
 >
 &
-aMsgArray
+aMsgQueue
 )
 ;
 void
@@ -91,7 +91,7 @@ nsTArray
 MIDIMessage
 >
 &
-aMsgArray
+aMsgQueue
 )
 ;
 void

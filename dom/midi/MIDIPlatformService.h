@@ -51,8 +51,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -101,7 +101,7 @@ AddManager
 (
 MIDIManagerParent
 *
-aParent
+aManager
 )
 ;
 void
@@ -109,7 +109,7 @@ RemoveManager
 (
 MIDIManagerParent
 *
-aParent
+aManager
 )
 ;
 void
@@ -381,7 +381,6 @@ mMessageQueueMutex
 ;
 }
 ;
-}
 }
 #
 endif

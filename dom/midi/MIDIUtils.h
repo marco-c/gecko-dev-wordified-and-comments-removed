@@ -16,8 +16,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -57,6 +57,5 @@ MIDIMessage
 a
 )
 ;
-}
 }
 }

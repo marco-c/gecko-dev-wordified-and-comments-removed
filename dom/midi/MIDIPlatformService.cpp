@@ -270,6 +270,7 @@ msgs
 ;
 for
 (
+const
 auto
 &
 msg
@@ -1177,7 +1178,9 @@ AssertIsOnBackgroundThread
 ;
 for
 (
+const
 auto
+&
 port
 :
 mPorts

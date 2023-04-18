@@ -141,6 +141,7 @@ Input
 )
 ;
 auto
+*
 port
 =
 new
@@ -265,6 +266,7 @@ return
 }
 for
 (
+const
 auto
 &
 msg

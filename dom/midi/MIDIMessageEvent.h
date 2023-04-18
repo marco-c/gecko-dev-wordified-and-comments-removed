@@ -89,8 +89,8 @@ JSContext
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -249,7 +249,6 @@ mRawData
 ;
 }
 ;
-}
 }
 #
 endif

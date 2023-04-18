@@ -175,6 +175,7 @@ Output
 )
 ;
 auto
+*
 port
 =
 new

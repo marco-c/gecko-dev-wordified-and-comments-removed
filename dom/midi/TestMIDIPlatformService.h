@@ -31,8 +31,8 @@ nsIThread
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -144,7 +144,6 @@ mIsInitialized
 ;
 }
 ;
-}
 }
 #
 endif
