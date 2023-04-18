@@ -473,6 +473,15 @@ friend
 class
 TenuringTracer
 ;
+#
+ifdef
+ENABLE_RECORD_TUPLE
+friend
+class
+TupleType
+;
+#
+endif
 friend
 bool
 js
