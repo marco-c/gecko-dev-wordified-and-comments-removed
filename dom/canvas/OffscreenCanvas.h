@@ -510,6 +510,16 @@ return
 mCurrentContext
 ;
 }
+CanvasContextType
+GetContextType
+(
+)
+const
+{
+return
+mCurrentContextType
+;
+}
 already_AddRefed
 <
 gfx

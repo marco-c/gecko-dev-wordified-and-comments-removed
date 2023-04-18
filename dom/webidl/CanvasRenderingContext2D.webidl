@@ -250,6 +250,8 @@ HTMLCanvasElement
 or
 HTMLVideoElement
 or
+OffscreenCanvas
+or
 ImageBitmap
 )
 CanvasImageSource
