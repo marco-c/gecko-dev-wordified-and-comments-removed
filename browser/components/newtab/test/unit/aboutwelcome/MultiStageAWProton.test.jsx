@@ -220,7 +220,7 @@ title
 test
 title
 "
-subtitle
+hero_text
 :
 "
 test
