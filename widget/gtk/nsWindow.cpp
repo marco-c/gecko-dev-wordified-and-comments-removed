@@ -37638,7 +37638,10 @@ ty
 ;
 if
 (
-GdkIsWaylandDisplay
+innerMostWindow
+-
+>
+IsWaylandPopup
 (
 )
 )
@@ -38060,7 +38063,10 @@ ty
 ;
 if
 (
-GdkIsWaylandDisplay
+innerMostWindow
+-
+>
+IsWaylandPopup
 (
 )
 )
