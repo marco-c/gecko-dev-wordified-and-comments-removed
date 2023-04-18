@@ -557,9 +557,6 @@ Cleanup
 nsresult
 WillBuildModel
 (
-nsString
-&
-aFilename
 )
 ;
 nsresult
