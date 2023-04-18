@@ -414,7 +414,10 @@ extra_flags
 return
 base_flags
 +
+list
+(
 extra_flags
+)
 if
 extra_flags
 :
