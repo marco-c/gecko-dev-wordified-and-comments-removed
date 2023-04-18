@@ -266,18 +266,6 @@ true
 ;
 try
 {
-if
-(
-typeof
-options
-.
-userAgent
-!
-=
-=
-undefined
-)
-{
 await
 this
 .
@@ -296,7 +284,6 @@ userAgent
 }
 )
 ;
-}
 const
 front
 =
