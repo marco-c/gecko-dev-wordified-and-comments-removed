@@ -520,7 +520,6 @@ window
 )
 ;
 }
-async
 openBrowserWindow
 (
 focus
@@ -536,11 +535,15 @@ windowManager
 .
 openBrowserWindow
 (
+{
+openerWindow
+:
 this
 .
 window
 focus
 isPrivate
+}
 )
 ;
 }
