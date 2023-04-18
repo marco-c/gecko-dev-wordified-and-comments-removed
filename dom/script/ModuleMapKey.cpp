@@ -7,10 +7,10 @@ h
 "
 using
 namespace
-JS
+mozilla
 :
 :
-loader
+dom
 ;
 ModuleMapKey
 :
@@ -173,9 +173,6 @@ mKey
 ;
 hash
 =
-mozilla
-:
-:
 AddToHash
 (
 hash

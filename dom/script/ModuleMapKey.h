@@ -19,10 +19,10 @@ nsIGlobalObject
 h
 "
 namespace
-JS
+mozilla
 :
 :
-loader
+dom
 {
 class
 ModuleMapKey
