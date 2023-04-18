@@ -145,6 +145,11 @@ attribute
 string
 mimeType
 ;
+readonly
+attribute
+ACString
+fileName
+;
 imgIRequest
 clone
 (
