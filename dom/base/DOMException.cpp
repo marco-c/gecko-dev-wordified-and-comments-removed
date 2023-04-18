@@ -250,16 +250,7 @@ DOMException_Binding
 :
 :
 DATA_CLONE_ERR
-InvalidPointerId
-=
-0
 EncodingError
-=
-0
-TypeError
-=
-0
-RangeError
 =
 0
 UnknownError
