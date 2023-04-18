@@ -165,13 +165,13 @@ padding
 -
 left
 :
-10qi
+10cqi
 ;
 padding
 -
 right
 :
-10qb
+10cqb
 ;
 }
 <
@@ -260,7 +260,7 @@ assert_implements_container_queries
 )
 ;
 function
-assert_qi_equals
+assert_cqi_equals
 (
 element
 expected
@@ -279,7 +279,7 @@ expected
 ;
 }
 function
-assert_qb_equals
+assert_cqb_equals
 (
 element
 expected
@@ -304,7 +304,7 @@ function
 t
 )
 {
-assert_qi_equals
+assert_cqi_equals
 (
 child
 '
@@ -324,7 +324,7 @@ containerType
 none
 '
 ;
-assert_qi_equals
+assert_cqi_equals
 (
 child
 '
@@ -343,7 +343,7 @@ style
 '
 ;
 }
-assert_qi_equals
+assert_cqi_equals
 (
 child
 '
@@ -352,7 +352,7 @@ child
 )
 ;
 }
-qi
+cqi
 respond
 when
 selected
@@ -375,7 +375,7 @@ function
 (
 )
 {
-assert_qb_equals
+assert_cqb_equals
 (
 child
 '
@@ -395,7 +395,7 @@ containerType
 none
 '
 ;
-assert_qb_equals
+assert_cqb_equals
 (
 child
 '
@@ -414,7 +414,7 @@ style
 '
 ;
 }
-assert_qb_equals
+assert_cqb_equals
 (
 child
 '
@@ -423,7 +423,7 @@ child
 )
 ;
 }
-qb
+cqb
 respond
 when
 selected
@@ -444,7 +444,7 @@ function
 (
 )
 {
-assert_qb_equals
+assert_cqb_equals
 (
 child
 '
@@ -474,7 +474,7 @@ height
 200px
 '
 ;
-assert_qb_equals
+assert_cqb_equals
 (
 child
 '
@@ -493,7 +493,7 @@ style
 '
 ;
 }
-assert_qb_equals
+assert_cqb_equals
 (
 child
 '
@@ -502,7 +502,7 @@ child
 )
 ;
 }
-qb
+cqb
 respond
 when
 intermediate
@@ -525,7 +525,7 @@ function
 (
 )
 {
-assert_qi_equals
+assert_cqi_equals
 (
 child
 '
@@ -545,7 +545,7 @@ width
 50px
 '
 ;
-assert_qi_equals
+assert_cqi_equals
 (
 child
 '
@@ -564,7 +564,7 @@ style
 '
 ;
 }
-assert_qi_equals
+assert_cqi_equals
 (
 child
 '
@@ -574,7 +574,7 @@ child
 ;
 }
 '
-qi
+cqi
 respond
 when
 selected
@@ -592,7 +592,7 @@ function
 (
 )
 {
-assert_qb_equals
+assert_cqb_equals
 (
 child
 '
@@ -612,7 +612,7 @@ height
 50px
 '
 ;
-assert_qb_equals
+assert_cqb_equals
 (
 child
 '
@@ -631,7 +631,7 @@ style
 '
 ;
 }
-assert_qb_equals
+assert_cqb_equals
 (
 child
 '
@@ -641,7 +641,7 @@ child
 ;
 }
 '
-qb
+cqb
 respond
 when
 selected
