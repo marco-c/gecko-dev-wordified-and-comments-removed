@@ -4909,6 +4909,15 @@ type
 string
 "
 }
+urlTimestampIndex
+:
+{
+type
+:
+"
+number
+"
+}
 }
 }
 [
