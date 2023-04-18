@@ -41,8 +41,8 @@ nsIEventTarget
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -140,7 +140,6 @@ mEventTarget
 ;
 }
 ;
-}
 }
 #
 endif

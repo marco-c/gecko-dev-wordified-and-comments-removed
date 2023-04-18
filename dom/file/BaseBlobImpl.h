@@ -26,8 +26,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -559,7 +559,6 @@ mLastModificationDate
 ;
 }
 ;
-}
 }
 #
 endif

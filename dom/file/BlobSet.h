@@ -36,8 +36,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -123,7 +123,6 @@ mBlobImpls
 ;
 }
 ;
-}
 }
 #
 endif

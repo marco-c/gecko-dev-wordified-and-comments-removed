@@ -31,8 +31,8 @@ nsIFile
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -134,7 +134,6 @@ mActive
 ;
 }
 ;
-}
 }
 #
 endif

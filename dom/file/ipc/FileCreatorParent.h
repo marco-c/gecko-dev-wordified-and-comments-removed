@@ -20,8 +20,8 @@ nsIFile
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -144,7 +144,6 @@ mIPCActive
 ;
 }
 ;
-}
 }
 #
 endif

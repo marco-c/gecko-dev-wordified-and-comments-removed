@@ -30,8 +30,8 @@ nsIURI
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -85,7 +85,6 @@ mContentStreamOpened
 ;
 }
 ;
-}
 }
 #
 endif

@@ -116,8 +116,8 @@ NS_IBLOBURLMUTATOR_IID
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -423,7 +423,6 @@ NS_HOSTOBJECTURIMUTATOR_CID
 \
 }
 \
-}
 }
 }
 #

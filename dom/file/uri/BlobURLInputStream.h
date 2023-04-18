@@ -47,8 +47,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -243,7 +243,6 @@ mAsyncLengthWaitTarget
 ;
 }
 ;
-}
 }
 #
 endif

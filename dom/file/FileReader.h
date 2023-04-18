@@ -83,8 +83,8 @@ nsIEventTarget
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -709,7 +709,6 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 FileReader
 FILEREADER_ID
 )
-}
 }
 #
 endif

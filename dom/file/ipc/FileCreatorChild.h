@@ -17,8 +17,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -97,7 +97,6 @@ mPromise
 ;
 }
 ;
-}
 }
 #
 endif

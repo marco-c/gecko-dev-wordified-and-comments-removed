@@ -20,8 +20,8 @@ nsIFile
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -333,7 +333,6 @@ override
 ;
 }
 ;
-}
 }
 #
 endif

@@ -35,8 +35,8 @@ fonttable
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -96,7 +96,6 @@ SchemeIs
 FONTTABLEURI_SCHEME
 )
 ;
-}
 }
 }
 #
