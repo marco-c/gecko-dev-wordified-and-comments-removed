@@ -359,11 +359,6 @@ TextInputHandler
 mm
 "
 "
-TextRecognition
-.
-mm
-"
-"
 VibrancyManager
 .
 mm
@@ -873,11 +868,6 @@ OS_LIBS
 -
 framework
 IOSurface
-"
-"
--
-framework
-Vision
 "
 ]
 SPHINX_TREES

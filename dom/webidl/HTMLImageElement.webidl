@@ -374,10 +374,7 @@ ChromeOnly
 ]
 Promise
 <
-sequence
-<
-ImageText
->
+void
 >
 recognizeCurrentImageText
 (
