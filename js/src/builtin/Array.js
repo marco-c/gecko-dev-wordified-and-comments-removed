@@ -1293,10 +1293,8 @@ kValue
 var
 object
 =
-std_Object_create
-(
-null
-)
+{
+}
 ;
 for
 (
