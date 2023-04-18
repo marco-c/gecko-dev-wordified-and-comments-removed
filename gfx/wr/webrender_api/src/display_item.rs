@@ -1761,6 +1761,7 @@ NinePatchBorderSource
 Image
 (
 ImageKey
+ImageRendering
 )
 Gradient
 (
@@ -7657,6 +7658,10 @@ ImageKey
 default
 (
 )
+ImageRendering
+:
+:
+Auto
 )
 BorderDetails
 =

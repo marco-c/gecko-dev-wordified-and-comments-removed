@@ -16583,6 +16583,9 @@ LayoutSideOffsets
 image
 :
 WrImageKey
+image_rendering
+:
+ImageRendering
 width
 :
 i32
@@ -16672,6 +16675,9 @@ Image
 params
 .
 image
+params
+.
+image_rendering
 )
 width
 :
