@@ -1547,6 +1547,14 @@ true
 ;
 element
 .
+value
+=
+option
+.
+value
+;
+element
+.
 dispatchEvent
 (
 new
