@@ -461,6 +461,16 @@ height
 uint32_t
 [
 ]
+widthAligned
+;
+uint32_t
+[
+]
+heightAligned
+;
+uint32_t
+[
+]
 format
 ;
 uint32_t
