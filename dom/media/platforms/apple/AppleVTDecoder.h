@@ -444,6 +444,13 @@ gfx
 ColorRange
 mColorRange
 ;
+const
+gfx
+:
+:
+ColorDepth
+mColorDepth
+;
 MediaResult
 InitializeSession
 (
