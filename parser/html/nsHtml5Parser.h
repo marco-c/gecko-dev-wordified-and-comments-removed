@@ -353,12 +353,6 @@ aTagStack
 override
 ;
 NS_IMETHOD
-BuildModel
-(
-)
-override
-;
-NS_IMETHOD
 CancelParsingEvents
 (
 )

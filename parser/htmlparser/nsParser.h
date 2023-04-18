@@ -267,13 +267,6 @@ aTagStack
 override
 ;
 NS_IMETHOD
-BuildModel
-(
-void
-)
-override
-;
-NS_IMETHOD
 ContinueInterruptedParsing
 (
 )

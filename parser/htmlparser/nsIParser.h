@@ -370,14 +370,6 @@ aTagStack
 0
 ;
 NS_IMETHOD
-BuildModel
-(
-void
-)
-=
-0
-;
-NS_IMETHOD
 CancelParsingEvents
 (
 )
