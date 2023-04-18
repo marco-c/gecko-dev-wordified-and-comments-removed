@@ -901,12 +901,6 @@ checkForSelection
 browsingContext
 )
 ;
-settings
-.
-isPrintSelectionRBEnabled
-=
-hasSelection
-;
 try
 {
 await
@@ -939,6 +933,7 @@ showPrintDialog
 browsingContext
 .
 topChromeWindow
+hasSelection
 settings
 )
 ;

@@ -520,13 +520,6 @@ infallible
 ]
 attribute
 boolean
-isPrintSelectionRBEnabled
-;
-[
-infallible
-]
-attribute
-boolean
 printSelectionOnly
 ;
 attribute

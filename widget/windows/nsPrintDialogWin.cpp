@@ -275,6 +275,8 @@ ShowPrintDialog
 mozIDOMWindowProxy
 *
 aParent
+bool
+aHaveSelection
 nsIPrintSettings
 *
 aSettings
@@ -314,6 +316,7 @@ return
 NativeShowPrintDialog
 (
 hWnd
+aHaveSelection
 aSettings
 )
 ;

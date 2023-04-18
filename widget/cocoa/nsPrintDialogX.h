@@ -128,6 +128,12 @@ nsIPrintSettings
 *
 )
 aSettings
+haveSelection
+:
+(
+bool
+)
+aHaveSelection
 ;
 -
 (
@@ -154,6 +160,12 @@ nsIPrintSettings
 *
 )
 aSettings
+haveSelection
+:
+(
+bool
+)
+aHaveSelection
 ;
 -
 (
