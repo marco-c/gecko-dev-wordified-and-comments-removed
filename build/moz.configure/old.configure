@@ -565,13 +565,6 @@ datadir
 -
 enable
 -
-crashreporter
-"
-"
--
--
-enable
--
 dbus
 "
 "
