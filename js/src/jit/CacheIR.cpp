@@ -27558,8 +27558,6 @@ InlinableNativeIRGenerator
 :
 tryAttachArrayPush
 (
-HandleFunction
-callee
 )
 {
 if
@@ -27835,8 +27833,6 @@ InlinableNativeIRGenerator
 :
 tryAttachArrayPopShift
 (
-HandleFunction
-callee
 InlinableNative
 native
 )
@@ -28054,8 +28050,6 @@ InlinableNativeIRGenerator
 :
 tryAttachArrayJoin
 (
-HandleFunction
-callee
 )
 {
 if
@@ -28267,8 +28261,6 @@ InlinableNativeIRGenerator
 :
 tryAttachArraySlice
 (
-HandleFunction
-callee
 )
 {
 if
@@ -28592,8 +28584,6 @@ InlinableNativeIRGenerator
 :
 tryAttachArrayIsArray
 (
-HandleFunction
-callee
 )
 {
 if
@@ -28673,8 +28663,6 @@ InlinableNativeIRGenerator
 :
 tryAttachDataViewGet
 (
-HandleFunction
-callee
 Scalar
 :
 :
@@ -29047,8 +29035,6 @@ InlinableNativeIRGenerator
 :
 tryAttachDataViewSet
 (
-HandleFunction
-callee
 Scalar
 :
 :
@@ -29408,8 +29394,6 @@ InlinableNativeIRGenerator
 :
 tryAttachUnsafeGetReservedSlot
 (
-HandleFunction
-callee
 InlinableNative
 native
 )
@@ -29678,8 +29662,6 @@ InlinableNativeIRGenerator
 :
 tryAttachUnsafeSetReservedSlot
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -29857,8 +29839,6 @@ InlinableNativeIRGenerator
 :
 tryAttachIsSuspendedGenerator
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -29927,8 +29907,6 @@ InlinableNativeIRGenerator
 :
 tryAttachToObject
 (
-HandleFunction
-callee
 InlinableNative
 native
 )
@@ -30091,8 +30069,6 @@ InlinableNativeIRGenerator
 :
 tryAttachToInteger
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -30191,8 +30167,6 @@ InlinableNativeIRGenerator
 :
 tryAttachToLength
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -30318,8 +30292,6 @@ InlinableNativeIRGenerator
 :
 tryAttachIsObject
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -30388,8 +30360,6 @@ InlinableNativeIRGenerator
 :
 tryAttachIsPackedArray
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -30480,8 +30450,6 @@ InlinableNativeIRGenerator
 :
 tryAttachIsCallable
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -30550,8 +30518,6 @@ InlinableNativeIRGenerator
 :
 tryAttachIsConstructor
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -30650,8 +30616,6 @@ InlinableNativeIRGenerator
 :
 tryAttachIsCrossRealmArrayConstructor
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -30775,8 +30739,6 @@ InlinableNativeIRGenerator
 :
 tryAttachGuardToClass
 (
-HandleFunction
-callee
 InlinableNative
 native
 )
@@ -30913,8 +30875,6 @@ InlinableNativeIRGenerator
 :
 tryAttachHasClass
 (
-HandleFunction
-callee
 const
 JSClass
 *
@@ -31054,8 +31014,6 @@ InlinableNativeIRGenerator
 :
 tryAttachRegExpMatcherSearcherTester
 (
-HandleFunction
-callee
 InlinableNative
 native
 )
@@ -31326,8 +31284,6 @@ InlinableNativeIRGenerator
 :
 tryAttachRegExpPrototypeOptimizable
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -31418,8 +31374,6 @@ InlinableNativeIRGenerator
 :
 tryAttachRegExpInstanceOptimizable
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -31547,8 +31501,6 @@ InlinableNativeIRGenerator
 :
 tryAttachGetFirstDollarIndex
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -31639,8 +31591,6 @@ InlinableNativeIRGenerator
 :
 tryAttachSubstringKernel
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -31805,8 +31755,6 @@ InlinableNativeIRGenerator
 :
 tryAttachObjectHasPrototype
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -31979,8 +31927,6 @@ InlinableNativeIRGenerator
 :
 tryAttachString
 (
-HandleFunction
-callee
 )
 {
 if
@@ -32095,8 +32041,6 @@ InlinableNativeIRGenerator
 :
 tryAttachStringConstructor
 (
-HandleFunction
-callee
 )
 {
 if
@@ -32263,8 +32207,6 @@ InlinableNativeIRGenerator
 :
 tryAttachStringToStringValueOf
 (
-HandleFunction
-callee
 )
 {
 if
@@ -32371,8 +32313,6 @@ InlinableNativeIRGenerator
 :
 tryAttachStringReplaceString
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -32537,8 +32477,6 @@ InlinableNativeIRGenerator
 :
 tryAttachStringSplitString
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -32666,8 +32604,6 @@ InlinableNativeIRGenerator
 :
 tryAttachStringChar
 (
-HandleFunction
-callee
 StringChar
 kind
 )
@@ -32849,14 +32785,11 @@ InlinableNativeIRGenerator
 :
 tryAttachStringCharCodeAt
 (
-HandleFunction
-callee
 )
 {
 return
 tryAttachStringChar
 (
-callee
 StringChar
 :
 :
@@ -32870,14 +32803,11 @@ InlinableNativeIRGenerator
 :
 tryAttachStringCharAt
 (
-HandleFunction
-callee
 )
 {
 return
 tryAttachStringChar
 (
-callee
 StringChar
 :
 :
@@ -32891,8 +32821,6 @@ InlinableNativeIRGenerator
 :
 tryAttachStringFromCharCode
 (
-HandleFunction
-callee
 )
 {
 if
@@ -32993,8 +32921,6 @@ InlinableNativeIRGenerator
 :
 tryAttachStringFromCodePoint
 (
-HandleFunction
-callee
 )
 {
 if
@@ -33132,8 +33058,6 @@ InlinableNativeIRGenerator
 :
 tryAttachStringToLowerCase
 (
-HandleFunction
-callee
 )
 {
 if
@@ -33240,8 +33164,6 @@ InlinableNativeIRGenerator
 :
 tryAttachStringToUpperCase
 (
-HandleFunction
-callee
 )
 {
 if
@@ -33348,8 +33270,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathRandom
 (
-HandleFunction
-callee
 )
 {
 if
@@ -33377,7 +33297,7 @@ realm
 )
 =
 =
-callee
+callee_
 -
 >
 realm
@@ -33473,8 +33393,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathAbs
 (
-HandleFunction
-callee
 )
 {
 if
@@ -33630,8 +33548,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathClz32
 (
-HandleFunction
-callee
 )
 {
 if
@@ -33781,8 +33697,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathSign
 (
-HandleFunction
-callee
 )
 {
 if
@@ -33963,8 +33877,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathImul
 (
-HandleFunction
-callee
 )
 {
 if
@@ -34167,8 +34079,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathFloor
 (
-HandleFunction
-callee
 )
 {
 if
@@ -34354,8 +34264,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathCeil
 (
-HandleFunction
-callee
 )
 {
 if
@@ -34541,8 +34449,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathTrunc
 (
-HandleFunction
-callee
 )
 {
 if
@@ -34728,8 +34634,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathRound
 (
-HandleFunction
-callee
 )
 {
 if
@@ -34919,8 +34823,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathSqrt
 (
-HandleFunction
-callee
 )
 {
 if
@@ -35021,8 +34923,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathFRound
 (
-HandleFunction
-callee
 )
 {
 if
@@ -35254,8 +35154,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathPow
 (
-HandleFunction
-callee
 )
 {
 if
@@ -35459,8 +35357,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathHypot
 (
-HandleFunction
-callee
 )
 {
 if
@@ -35750,8 +35646,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathATan2
 (
-HandleFunction
-callee
 )
 {
 if
@@ -35888,8 +35782,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathMinMax
 (
-HandleFunction
-callee
 bool
 isMax
 )
@@ -36195,8 +36087,6 @@ InlinableNativeIRGenerator
 :
 tryAttachSpreadMathMinMax
 (
-HandleFunction
-callee
 bool
 isMax
 )
@@ -36367,8 +36257,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMathFunction
 (
-HandleFunction
-callee
 UnaryMathFunction
 fun
 )
@@ -36569,8 +36457,6 @@ InlinableNativeIRGenerator
 :
 tryAttachNumberToString
 (
-HandleFunction
-callee
 )
 {
 if
@@ -36676,8 +36562,6 @@ InlinableNativeIRGenerator
 :
 tryAttachReflectGetPrototypeOf
 (
-HandleFunction
-callee
 )
 {
 if
@@ -36956,8 +36840,6 @@ InlinableNativeIRGenerator
 :
 tryAttachAtomicsCompareExchange
 (
-HandleFunction
-callee
 )
 {
 if
@@ -37460,8 +37342,6 @@ InlinableNativeIRGenerator
 :
 emitAtomicsReadWriteModifyOperands
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -37613,8 +37493,6 @@ InlinableNativeIRGenerator
 :
 tryAttachAtomicsExchange
 (
-HandleFunction
-callee
 )
 {
 if
@@ -37641,7 +37519,6 @@ numericValueId
 =
 emitAtomicsReadWriteModifyOperands
 (
-callee
 )
 ;
 auto
@@ -37706,8 +37583,6 @@ InlinableNativeIRGenerator
 :
 tryAttachAtomicsAdd
 (
-HandleFunction
-callee
 )
 {
 if
@@ -37734,7 +37609,6 @@ numericValueId
 =
 emitAtomicsReadWriteModifyOperands
 (
-callee
 )
 ;
 auto
@@ -37807,8 +37681,6 @@ InlinableNativeIRGenerator
 :
 tryAttachAtomicsSub
 (
-HandleFunction
-callee
 )
 {
 if
@@ -37835,7 +37707,6 @@ numericValueId
 =
 emitAtomicsReadWriteModifyOperands
 (
-callee
 )
 ;
 auto
@@ -37908,8 +37779,6 @@ InlinableNativeIRGenerator
 :
 tryAttachAtomicsAnd
 (
-HandleFunction
-callee
 )
 {
 if
@@ -37936,7 +37805,6 @@ numericValueId
 =
 emitAtomicsReadWriteModifyOperands
 (
-callee
 )
 ;
 auto
@@ -38009,8 +37877,6 @@ InlinableNativeIRGenerator
 :
 tryAttachAtomicsOr
 (
-HandleFunction
-callee
 )
 {
 if
@@ -38037,7 +37903,6 @@ numericValueId
 =
 emitAtomicsReadWriteModifyOperands
 (
-callee
 )
 ;
 auto
@@ -38110,8 +37975,6 @@ InlinableNativeIRGenerator
 :
 tryAttachAtomicsXor
 (
-HandleFunction
-callee
 )
 {
 if
@@ -38138,7 +38001,6 @@ numericValueId
 =
 emitAtomicsReadWriteModifyOperands
 (
-callee
 )
 ;
 auto
@@ -38211,8 +38073,6 @@ InlinableNativeIRGenerator
 :
 tryAttachAtomicsLoad
 (
-HandleFunction
-callee
 )
 {
 if
@@ -38463,8 +38323,6 @@ InlinableNativeIRGenerator
 :
 tryAttachAtomicsStore
 (
-HandleFunction
-callee
 )
 {
 if
@@ -38833,8 +38691,6 @@ InlinableNativeIRGenerator
 :
 tryAttachAtomicsIsLockFree
 (
-HandleFunction
-callee
 )
 {
 if
@@ -38944,8 +38800,6 @@ InlinableNativeIRGenerator
 :
 tryAttachBoolean
 (
-HandleFunction
-callee
 )
 {
 if
@@ -39043,8 +38897,6 @@ InlinableNativeIRGenerator
 :
 tryAttachBailout
 (
-HandleFunction
-callee
 )
 {
 if
@@ -39115,8 +38967,6 @@ InlinableNativeIRGenerator
 :
 tryAttachAssertFloat32
 (
-HandleFunction
-callee
 )
 {
 if
@@ -39181,8 +39031,6 @@ InlinableNativeIRGenerator
 :
 tryAttachAssertRecoveredOnBailout
 (
-HandleFunction
-callee
 )
 {
 if
@@ -39275,8 +39123,6 @@ InlinableNativeIRGenerator
 :
 tryAttachObjectIs
 (
-HandleFunction
-callee
 )
 {
 if
@@ -39937,8 +39783,6 @@ InlinableNativeIRGenerator
 :
 tryAttachObjectIsPrototypeOf
 (
-HandleFunction
-callee
 )
 {
 if
@@ -40060,8 +39904,6 @@ InlinableNativeIRGenerator
 :
 tryAttachObjectToString
 (
-HandleFunction
-callee
 )
 {
 if
@@ -40190,8 +40032,6 @@ InlinableNativeIRGenerator
 :
 tryAttachBigIntAsIntN
 (
-HandleFunction
-callee
 )
 {
 if
@@ -40356,8 +40196,6 @@ InlinableNativeIRGenerator
 :
 tryAttachBigIntAsUintN
 (
-HandleFunction
-callee
 )
 {
 if
@@ -40522,8 +40360,6 @@ InlinableNativeIRGenerator
 :
 tryAttachSetHas
 (
-HandleFunction
-callee
 )
 {
 if
@@ -40917,8 +40753,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMapHas
 (
-HandleFunction
-callee
 )
 {
 if
@@ -41312,8 +41146,6 @@ InlinableNativeIRGenerator
 :
 tryAttachMapGet
 (
-HandleFunction
-callee
 )
 {
 if
@@ -42088,8 +41920,6 @@ InlinableNativeIRGenerator
 :
 tryAttachIsTypedArray
 (
-HandleFunction
-callee
 bool
 isPossiblyWrapped
 )
@@ -42189,8 +42019,6 @@ InlinableNativeIRGenerator
 :
 tryAttachIsTypedArrayConstructor
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -42281,8 +42109,6 @@ InlinableNativeIRGenerator
 :
 tryAttachTypedArrayByteOffset
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -42437,8 +42263,6 @@ InlinableNativeIRGenerator
 :
 tryAttachTypedArrayElementSize
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -42548,8 +42372,6 @@ InlinableNativeIRGenerator
 :
 tryAttachTypedArrayLength
 (
-HandleFunction
-callee
 bool
 isPossiblyWrapped
 )
@@ -42745,8 +42567,6 @@ InlinableNativeIRGenerator
 :
 tryAttachArrayBufferByteLength
 (
-HandleFunction
-callee
 bool
 isPossiblyWrapped
 )
@@ -42942,8 +42762,6 @@ InlinableNativeIRGenerator
 :
 tryAttachIsConstructing
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -43009,8 +42827,6 @@ InlinableNativeIRGenerator
 :
 tryAttachGetNextMapSetEntryForIterator
 (
-HandleFunction
-callee
 bool
 isMap
 )
@@ -43183,8 +42999,6 @@ InlinableNativeIRGenerator
 :
 tryAttachFinishBoundFunctionInit
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -43356,8 +43170,6 @@ InlinableNativeIRGenerator
 :
 tryAttachNewArrayIterator
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -43441,8 +43253,6 @@ InlinableNativeIRGenerator
 :
 tryAttachNewStringIterator
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -43526,8 +43336,6 @@ InlinableNativeIRGenerator
 :
 tryAttachNewRegExpStringIterator
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -43611,8 +43419,6 @@ InlinableNativeIRGenerator
 :
 tryAttachArrayIteratorPrototypeOptimizable
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -43757,8 +43563,6 @@ InlinableNativeIRGenerator
 :
 tryAttachObjectCreate
 (
-HandleFunction
-callee
 )
 {
 if
@@ -43943,8 +43747,6 @@ InlinableNativeIRGenerator
 :
 tryAttachArrayConstructor
 (
-HandleFunction
-callee
 )
 {
 if
@@ -44042,7 +43844,7 @@ AutoRealm
 ar
 (
 cx_
-callee
+callee_
 )
 ;
 templateObj
@@ -44180,8 +43982,6 @@ InlinableNativeIRGenerator
 :
 tryAttachTypedArrayConstructor
 (
-HandleFunction
-callee
 )
 {
 MOZ_ASSERT
@@ -44351,7 +44151,7 @@ TypedArrayObject
 GetTemplateObjectForNative
 (
 cx_
-callee
+callee_
 -
 >
 native
@@ -46306,16 +46106,10 @@ tryAttachStub
 (
 )
 {
-HandleFunction
-callee
-(
-callee_
-)
-;
 if
 (
 !
-callee
+callee_
 -
 >
 hasJitInfo
@@ -46323,7 +46117,7 @@ hasJitInfo
 )
 |
 |
-callee
+callee_
 -
 >
 jitInfo
@@ -46352,7 +46146,7 @@ NoAction
 InlinableNative
 native
 =
-callee
+callee_
 -
 >
 jitInfo
@@ -46372,7 +46166,7 @@ realm
 )
 !
 =
-callee
+callee_
 -
 >
 realm
@@ -46408,7 +46202,7 @@ if
 ObjectValue
 (
 *
-callee
+callee_
 )
 !
 =
@@ -46436,7 +46230,6 @@ Array
 return
 tryAttachArrayConstructor
 (
-callee
 )
 ;
 case
@@ -46448,7 +46241,6 @@ TypedArrayConstructor
 return
 tryAttachTypedArrayConstructor
 (
-callee
 )
 ;
 case
@@ -46460,7 +46252,6 @@ String
 return
 tryAttachStringConstructor
 (
-callee
 )
 ;
 default
@@ -46504,7 +46295,6 @@ MathMin
 return
 tryAttachSpreadMathMinMax
 (
-callee
 false
 )
 ;
@@ -46517,7 +46307,6 @@ MathMax
 return
 tryAttachSpreadMathMinMax
 (
-callee
 true
 )
 ;
@@ -46547,7 +46336,6 @@ Array
 return
 tryAttachArrayConstructor
 (
-callee
 )
 ;
 case
@@ -46559,7 +46347,6 @@ ArrayPush
 return
 tryAttachArrayPush
 (
-callee
 )
 ;
 case
@@ -46577,7 +46364,6 @@ ArrayShift
 return
 tryAttachArrayPopShift
 (
-callee
 native
 )
 ;
@@ -46590,7 +46376,6 @@ ArrayJoin
 return
 tryAttachArrayJoin
 (
-callee
 )
 ;
 case
@@ -46602,7 +46387,6 @@ ArraySlice
 return
 tryAttachArraySlice
 (
-callee
 )
 ;
 case
@@ -46614,7 +46398,6 @@ ArrayIsArray
 return
 tryAttachArrayIsArray
 (
-callee
 )
 ;
 case
@@ -46626,7 +46409,6 @@ DataViewGetInt8
 return
 tryAttachDataViewGet
 (
-callee
 Scalar
 :
 :
@@ -46642,7 +46424,6 @@ DataViewGetUint8
 return
 tryAttachDataViewGet
 (
-callee
 Scalar
 :
 :
@@ -46658,7 +46439,6 @@ DataViewGetInt16
 return
 tryAttachDataViewGet
 (
-callee
 Scalar
 :
 :
@@ -46674,7 +46454,6 @@ DataViewGetUint16
 return
 tryAttachDataViewGet
 (
-callee
 Scalar
 :
 :
@@ -46690,7 +46469,6 @@ DataViewGetInt32
 return
 tryAttachDataViewGet
 (
-callee
 Scalar
 :
 :
@@ -46706,7 +46484,6 @@ DataViewGetUint32
 return
 tryAttachDataViewGet
 (
-callee
 Scalar
 :
 :
@@ -46722,7 +46499,6 @@ DataViewGetFloat32
 return
 tryAttachDataViewGet
 (
-callee
 Scalar
 :
 :
@@ -46738,7 +46514,6 @@ DataViewGetFloat64
 return
 tryAttachDataViewGet
 (
-callee
 Scalar
 :
 :
@@ -46754,7 +46529,6 @@ DataViewGetBigInt64
 return
 tryAttachDataViewGet
 (
-callee
 Scalar
 :
 :
@@ -46770,7 +46544,6 @@ DataViewGetBigUint64
 return
 tryAttachDataViewGet
 (
-callee
 Scalar
 :
 :
@@ -46786,7 +46559,6 @@ DataViewSetInt8
 return
 tryAttachDataViewSet
 (
-callee
 Scalar
 :
 :
@@ -46802,7 +46574,6 @@ DataViewSetUint8
 return
 tryAttachDataViewSet
 (
-callee
 Scalar
 :
 :
@@ -46818,7 +46589,6 @@ DataViewSetInt16
 return
 tryAttachDataViewSet
 (
-callee
 Scalar
 :
 :
@@ -46834,7 +46604,6 @@ DataViewSetUint16
 return
 tryAttachDataViewSet
 (
-callee
 Scalar
 :
 :
@@ -46850,7 +46619,6 @@ DataViewSetInt32
 return
 tryAttachDataViewSet
 (
-callee
 Scalar
 :
 :
@@ -46866,7 +46634,6 @@ DataViewSetUint32
 return
 tryAttachDataViewSet
 (
-callee
 Scalar
 :
 :
@@ -46882,7 +46649,6 @@ DataViewSetFloat32
 return
 tryAttachDataViewSet
 (
-callee
 Scalar
 :
 :
@@ -46898,7 +46664,6 @@ DataViewSetFloat64
 return
 tryAttachDataViewSet
 (
-callee
 Scalar
 :
 :
@@ -46914,7 +46679,6 @@ DataViewSetBigInt64
 return
 tryAttachDataViewSet
 (
-callee
 Scalar
 :
 :
@@ -46930,7 +46694,6 @@ DataViewSetBigUint64
 return
 tryAttachDataViewSet
 (
-callee
 Scalar
 :
 :
@@ -46982,7 +46745,6 @@ IntlGuardToRelativeTimeFormat
 return
 tryAttachGuardToClass
 (
-callee
 native
 )
 ;
@@ -47019,7 +46781,6 @@ IntrinsicUnsafeGetBooleanFromReservedSlot
 return
 tryAttachUnsafeGetReservedSlot
 (
-callee
 native
 )
 ;
@@ -47032,7 +46793,6 @@ IntrinsicUnsafeSetReservedSlot
 return
 tryAttachUnsafeSetReservedSlot
 (
-callee
 )
 ;
 case
@@ -47044,7 +46804,6 @@ IntrinsicIsSuspendedGenerator
 return
 tryAttachIsSuspendedGenerator
 (
-callee
 )
 ;
 case
@@ -47056,7 +46815,6 @@ IntrinsicToObject
 return
 tryAttachToObject
 (
-callee
 native
 )
 ;
@@ -47069,7 +46827,6 @@ IntrinsicToInteger
 return
 tryAttachToInteger
 (
-callee
 )
 ;
 case
@@ -47081,7 +46838,6 @@ IntrinsicToLength
 return
 tryAttachToLength
 (
-callee
 )
 ;
 case
@@ -47093,7 +46849,6 @@ IntrinsicIsObject
 return
 tryAttachIsObject
 (
-callee
 )
 ;
 case
@@ -47105,7 +46860,6 @@ IntrinsicIsPackedArray
 return
 tryAttachIsPackedArray
 (
-callee
 )
 ;
 case
@@ -47117,7 +46871,6 @@ IntrinsicIsCallable
 return
 tryAttachIsCallable
 (
-callee
 )
 ;
 case
@@ -47129,7 +46882,6 @@ IntrinsicIsConstructor
 return
 tryAttachIsConstructor
 (
-callee
 )
 ;
 case
@@ -47141,7 +46893,6 @@ IntrinsicIsCrossRealmArrayConstructor
 return
 tryAttachIsCrossRealmArrayConstructor
 (
-callee
 )
 ;
 case
@@ -47195,7 +46946,6 @@ IntrinsicGuardToAsyncIteratorHelper
 return
 tryAttachGuardToClass
 (
-callee
 native
 )
 ;
@@ -47208,7 +46958,6 @@ IntrinsicSubstringKernel
 return
 tryAttachSubstringKernel
 (
-callee
 )
 ;
 case
@@ -47220,7 +46969,6 @@ IntrinsicIsConstructing
 return
 tryAttachIsConstructing
 (
-callee
 )
 ;
 case
@@ -47232,7 +46980,6 @@ IntrinsicFinishBoundFunctionInit
 return
 tryAttachFinishBoundFunctionInit
 (
-callee
 )
 ;
 case
@@ -47244,7 +46991,6 @@ IntrinsicNewArrayIterator
 return
 tryAttachNewArrayIterator
 (
-callee
 )
 ;
 case
@@ -47256,7 +47002,6 @@ IntrinsicNewStringIterator
 return
 tryAttachNewStringIterator
 (
-callee
 )
 ;
 case
@@ -47268,7 +47013,6 @@ IntrinsicNewRegExpStringIterator
 return
 tryAttachNewRegExpStringIterator
 (
-callee
 )
 ;
 case
@@ -47280,7 +47024,6 @@ IntrinsicArrayIteratorPrototypeOptimizable
 return
 tryAttachArrayIteratorPrototypeOptimizable
 (
-callee
 )
 ;
 case
@@ -47292,7 +47035,6 @@ IntrinsicObjectHasPrototype
 return
 tryAttachObjectHasPrototype
 (
-callee
 )
 ;
 case
@@ -47304,7 +47046,6 @@ IsRegExpObject
 return
 tryAttachHasClass
 (
-callee
 &
 RegExpObject
 :
@@ -47322,7 +47063,6 @@ IsPossiblyWrappedRegExpObject
 return
 tryAttachHasClass
 (
-callee
 &
 RegExpObject
 :
@@ -47352,7 +47092,6 @@ RegExpTester
 return
 tryAttachRegExpMatcherSearcherTester
 (
-callee
 native
 )
 ;
@@ -47365,7 +47104,6 @@ RegExpPrototypeOptimizable
 return
 tryAttachRegExpPrototypeOptimizable
 (
-callee
 )
 ;
 case
@@ -47377,7 +47115,6 @@ RegExpInstanceOptimizable
 return
 tryAttachRegExpInstanceOptimizable
 (
-callee
 )
 ;
 case
@@ -47389,7 +47126,6 @@ GetFirstDollarIndex
 return
 tryAttachGetFirstDollarIndex
 (
-callee
 )
 ;
 case
@@ -47401,7 +47137,6 @@ String
 return
 tryAttachString
 (
-callee
 )
 ;
 case
@@ -47419,7 +47154,6 @@ StringValueOf
 return
 tryAttachStringToStringValueOf
 (
-callee
 )
 ;
 case
@@ -47431,7 +47165,6 @@ StringCharCodeAt
 return
 tryAttachStringCharCodeAt
 (
-callee
 )
 ;
 case
@@ -47443,7 +47176,6 @@ StringCharAt
 return
 tryAttachStringCharAt
 (
-callee
 )
 ;
 case
@@ -47455,7 +47187,6 @@ StringFromCharCode
 return
 tryAttachStringFromCharCode
 (
-callee
 )
 ;
 case
@@ -47467,7 +47198,6 @@ StringFromCodePoint
 return
 tryAttachStringFromCodePoint
 (
-callee
 )
 ;
 case
@@ -47479,7 +47209,6 @@ StringToLowerCase
 return
 tryAttachStringToLowerCase
 (
-callee
 )
 ;
 case
@@ -47491,7 +47220,6 @@ StringToUpperCase
 return
 tryAttachStringToUpperCase
 (
-callee
 )
 ;
 case
@@ -47503,7 +47231,6 @@ IntrinsicStringReplaceString
 return
 tryAttachStringReplaceString
 (
-callee
 )
 ;
 case
@@ -47515,7 +47242,6 @@ IntrinsicStringSplitString
 return
 tryAttachStringSplitString
 (
-callee
 )
 ;
 case
@@ -47527,7 +47253,6 @@ MathRandom
 return
 tryAttachMathRandom
 (
-callee
 )
 ;
 case
@@ -47539,7 +47264,6 @@ MathAbs
 return
 tryAttachMathAbs
 (
-callee
 )
 ;
 case
@@ -47551,7 +47275,6 @@ MathClz32
 return
 tryAttachMathClz32
 (
-callee
 )
 ;
 case
@@ -47563,7 +47286,6 @@ MathSign
 return
 tryAttachMathSign
 (
-callee
 )
 ;
 case
@@ -47575,7 +47297,6 @@ MathImul
 return
 tryAttachMathImul
 (
-callee
 )
 ;
 case
@@ -47587,7 +47308,6 @@ MathFloor
 return
 tryAttachMathFloor
 (
-callee
 )
 ;
 case
@@ -47599,7 +47319,6 @@ MathCeil
 return
 tryAttachMathCeil
 (
-callee
 )
 ;
 case
@@ -47611,7 +47330,6 @@ MathTrunc
 return
 tryAttachMathTrunc
 (
-callee
 )
 ;
 case
@@ -47623,7 +47341,6 @@ MathRound
 return
 tryAttachMathRound
 (
-callee
 )
 ;
 case
@@ -47635,7 +47352,6 @@ MathSqrt
 return
 tryAttachMathSqrt
 (
-callee
 )
 ;
 case
@@ -47647,7 +47363,6 @@ MathFRound
 return
 tryAttachMathFRound
 (
-callee
 )
 ;
 case
@@ -47659,7 +47374,6 @@ MathHypot
 return
 tryAttachMathHypot
 (
-callee
 )
 ;
 case
@@ -47671,7 +47385,6 @@ MathATan2
 return
 tryAttachMathATan2
 (
-callee
 )
 ;
 case
@@ -47683,7 +47396,6 @@ MathSin
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47699,7 +47411,6 @@ MathTan
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47715,7 +47426,6 @@ MathCos
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47731,7 +47441,6 @@ MathExp
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47747,7 +47456,6 @@ MathLog
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47763,7 +47471,6 @@ MathASin
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47779,7 +47486,6 @@ MathATan
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47795,7 +47501,6 @@ MathACos
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47811,7 +47516,6 @@ MathLog10
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47827,7 +47531,6 @@ MathLog2
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47843,7 +47546,6 @@ MathLog1P
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47859,7 +47561,6 @@ MathExpM1
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47875,7 +47576,6 @@ MathCosH
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47891,7 +47591,6 @@ MathSinH
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47907,7 +47606,6 @@ MathTanH
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47923,7 +47621,6 @@ MathACosH
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47939,7 +47636,6 @@ MathASinH
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47955,7 +47651,6 @@ MathATanH
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47971,7 +47666,6 @@ MathCbrt
 return
 tryAttachMathFunction
 (
-callee
 UnaryMathFunction
 :
 :
@@ -47987,7 +47681,6 @@ MathPow
 return
 tryAttachMathPow
 (
-callee
 )
 ;
 case
@@ -47999,7 +47692,6 @@ MathMin
 return
 tryAttachMathMinMax
 (
-callee
 false
 )
 ;
@@ -48012,7 +47704,6 @@ MathMax
 return
 tryAttachMathMinMax
 (
-callee
 true
 )
 ;
@@ -48025,7 +47716,6 @@ IntrinsicGuardToMapObject
 return
 tryAttachGuardToClass
 (
-callee
 native
 )
 ;
@@ -48038,7 +47728,6 @@ IntrinsicGetNextMapEntryForIterator
 return
 tryAttachGetNextMapSetEntryForIterator
 (
-callee
 true
 )
 ;
@@ -48051,7 +47740,6 @@ NumberToString
 return
 tryAttachNumberToString
 (
-callee
 )
 ;
 case
@@ -48063,7 +47751,6 @@ Object
 return
 tryAttachToObject
 (
-callee
 native
 )
 ;
@@ -48076,7 +47763,6 @@ ObjectCreate
 return
 tryAttachObjectCreate
 (
-callee
 )
 ;
 case
@@ -48088,7 +47774,6 @@ ObjectIs
 return
 tryAttachObjectIs
 (
-callee
 )
 ;
 case
@@ -48100,7 +47785,6 @@ ObjectIsPrototypeOf
 return
 tryAttachObjectIsPrototypeOf
 (
-callee
 )
 ;
 case
@@ -48112,7 +47796,6 @@ ObjectToString
 return
 tryAttachObjectToString
 (
-callee
 )
 ;
 case
@@ -48124,7 +47807,6 @@ IntrinsicGuardToSetObject
 return
 tryAttachGuardToClass
 (
-callee
 native
 )
 ;
@@ -48137,7 +47819,6 @@ IntrinsicGetNextSetEntryForIterator
 return
 tryAttachGetNextMapSetEntryForIterator
 (
-callee
 false
 )
 ;
@@ -48150,7 +47831,6 @@ IntrinsicGuardToArrayBuffer
 return
 tryAttachGuardToClass
 (
-callee
 native
 )
 ;
@@ -48163,7 +47843,6 @@ IntrinsicArrayBufferByteLength
 return
 tryAttachArrayBufferByteLength
 (
-callee
 false
 )
 ;
@@ -48176,7 +47855,6 @@ IntrinsicPossiblyWrappedArrayBufferByteLength
 return
 tryAttachArrayBufferByteLength
 (
-callee
 true
 )
 ;
@@ -48189,7 +47867,6 @@ IntrinsicGuardToSharedArrayBuffer
 return
 tryAttachGuardToClass
 (
-callee
 native
 )
 ;
@@ -48214,7 +47891,6 @@ IntrinsicIsTypedArray
 return
 tryAttachIsTypedArray
 (
-callee
 false
 )
 ;
@@ -48227,7 +47903,6 @@ IntrinsicIsPossiblyWrappedTypedArray
 return
 tryAttachIsTypedArray
 (
-callee
 true
 )
 ;
@@ -48240,7 +47915,6 @@ IntrinsicIsTypedArrayConstructor
 return
 tryAttachIsTypedArrayConstructor
 (
-callee
 )
 ;
 case
@@ -48252,7 +47926,6 @@ IntrinsicTypedArrayByteOffset
 return
 tryAttachTypedArrayByteOffset
 (
-callee
 )
 ;
 case
@@ -48264,7 +47937,6 @@ IntrinsicTypedArrayElementSize
 return
 tryAttachTypedArrayElementSize
 (
-callee
 )
 ;
 case
@@ -48276,7 +47948,6 @@ IntrinsicTypedArrayLength
 return
 tryAttachTypedArrayLength
 (
-callee
 false
 )
 ;
@@ -48289,7 +47960,6 @@ IntrinsicPossiblyWrappedTypedArrayLength
 return
 tryAttachTypedArrayLength
 (
-callee
 true
 )
 ;
@@ -48302,7 +47972,6 @@ ReflectGetPrototypeOf
 return
 tryAttachReflectGetPrototypeOf
 (
-callee
 )
 ;
 case
@@ -48314,7 +47983,6 @@ AtomicsCompareExchange
 return
 tryAttachAtomicsCompareExchange
 (
-callee
 )
 ;
 case
@@ -48326,7 +47994,6 @@ AtomicsExchange
 return
 tryAttachAtomicsExchange
 (
-callee
 )
 ;
 case
@@ -48338,7 +48005,6 @@ AtomicsAdd
 return
 tryAttachAtomicsAdd
 (
-callee
 )
 ;
 case
@@ -48350,7 +48016,6 @@ AtomicsSub
 return
 tryAttachAtomicsSub
 (
-callee
 )
 ;
 case
@@ -48362,7 +48027,6 @@ AtomicsAnd
 return
 tryAttachAtomicsAnd
 (
-callee
 )
 ;
 case
@@ -48374,7 +48038,6 @@ AtomicsOr
 return
 tryAttachAtomicsOr
 (
-callee
 )
 ;
 case
@@ -48386,7 +48049,6 @@ AtomicsXor
 return
 tryAttachAtomicsXor
 (
-callee
 )
 ;
 case
@@ -48398,7 +48060,6 @@ AtomicsLoad
 return
 tryAttachAtomicsLoad
 (
-callee
 )
 ;
 case
@@ -48410,7 +48071,6 @@ AtomicsStore
 return
 tryAttachAtomicsStore
 (
-callee
 )
 ;
 case
@@ -48422,7 +48082,6 @@ AtomicsIsLockFree
 return
 tryAttachAtomicsIsLockFree
 (
-callee
 )
 ;
 case
@@ -48434,7 +48093,6 @@ BigIntAsIntN
 return
 tryAttachBigIntAsIntN
 (
-callee
 )
 ;
 case
@@ -48446,7 +48104,6 @@ BigIntAsUintN
 return
 tryAttachBigIntAsUintN
 (
-callee
 )
 ;
 case
@@ -48458,7 +48115,6 @@ Boolean
 return
 tryAttachBoolean
 (
-callee
 )
 ;
 case
@@ -48470,7 +48126,6 @@ SetHas
 return
 tryAttachSetHas
 (
-callee
 )
 ;
 case
@@ -48482,7 +48137,6 @@ MapHas
 return
 tryAttachMapHas
 (
-callee
 )
 ;
 case
@@ -48494,7 +48148,6 @@ MapGet
 return
 tryAttachMapGet
 (
-callee
 )
 ;
 case
@@ -48506,7 +48159,6 @@ TestBailout
 return
 tryAttachBailout
 (
-callee
 )
 ;
 case
@@ -48518,7 +48170,6 @@ TestAssertFloat32
 return
 tryAttachAssertFloat32
 (
-callee
 )
 ;
 case
@@ -48530,7 +48181,6 @@ TestAssertRecoveredOnBailout
 return
 tryAttachAssertRecoveredOnBailout
 (
-callee
 )
 ;
 case
