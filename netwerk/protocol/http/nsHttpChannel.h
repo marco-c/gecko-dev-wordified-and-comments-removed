@@ -3152,6 +3152,7 @@ mozilla
 :
 Mutex
 mRCWNLock
+MOZ_UNANNOTATED
 {
 "
 nsHttpChannel

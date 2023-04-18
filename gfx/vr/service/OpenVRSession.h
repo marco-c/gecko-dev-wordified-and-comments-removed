@@ -566,6 +566,7 @@ mozilla
 :
 Mutex
 mControllerHapticStateMutex
+MOZ_UNANNOTATED
 ;
 UniquePtr
 <

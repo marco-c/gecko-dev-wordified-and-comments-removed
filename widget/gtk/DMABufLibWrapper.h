@@ -906,6 +906,7 @@ mozilla
 :
 StaticMutex
 sDRILock
+MOZ_UNANNOTATED
 ;
 static
 bool

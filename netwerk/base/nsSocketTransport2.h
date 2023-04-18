@@ -1350,6 +1350,7 @@ OnSocketConnected
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 {
 "
 nsSocketTransport

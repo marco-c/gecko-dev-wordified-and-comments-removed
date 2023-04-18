@@ -1446,6 +1446,7 @@ mTaskQueue
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 RefPtr
 <

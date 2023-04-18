@@ -262,6 +262,7 @@ mLengthCallbackEventTarget
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 }
 ;

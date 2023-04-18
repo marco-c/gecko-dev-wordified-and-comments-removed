@@ -7397,6 +7397,7 @@ override
 }
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 nsCString
 mMsg

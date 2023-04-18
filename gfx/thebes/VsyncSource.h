@@ -285,6 +285,7 @@ UpdateVsyncStatus
 ;
 Mutex
 mDispatcherLock
+MOZ_UNANNOTATED
 ;
 bool
 mRefreshTimerNeedsVsync

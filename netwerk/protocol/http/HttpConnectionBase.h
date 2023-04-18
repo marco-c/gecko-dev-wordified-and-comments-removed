@@ -687,6 +687,7 @@ mBootstrappedTimings
 ;
 Mutex
 mCallbacksLock
+MOZ_UNANNOTATED
 {
 "
 nsHttpConnection

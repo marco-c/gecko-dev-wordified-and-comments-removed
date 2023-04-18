@@ -2175,6 +2175,7 @@ edge
 }
 Mutex
 lock_
+MOZ_UNANNOTATED
 ;
 MonoTypeBuffer
 <

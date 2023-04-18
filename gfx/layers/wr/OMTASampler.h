@@ -397,10 +397,12 @@ mAnimStorage
 mutable
 Mutex
 mStorageLock
+MOZ_UNANNOTATED
 ;
 static
 StaticMutex
 sWindowIdLock
+MOZ_UNANNOTATED
 ;
 static
 StaticAutoPtr
@@ -431,6 +433,7 @@ mWindowId
 mutable
 Mutex
 mThreadIdLock
+MOZ_UNANNOTATED
 ;
 Maybe
 <
@@ -440,6 +443,7 @@ mSamplerThreadId
 ;
 Mutex
 mSampleTimeLock
+MOZ_UNANNOTATED
 ;
 TimeStamp
 mSampleTime

@@ -388,6 +388,7 @@ mInitPromise
 mutable
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 RefPtr
 <
@@ -657,6 +658,7 @@ mType
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 media
 :

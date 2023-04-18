@@ -738,6 +738,7 @@ mozilla
 :
 Mutex
 mSurfaceLock
+MOZ_UNANNOTATED
 ;
 mozilla
 :

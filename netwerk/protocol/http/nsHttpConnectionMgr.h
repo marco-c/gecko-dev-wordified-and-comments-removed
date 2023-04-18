@@ -596,6 +596,7 @@ PendingTransactionInfo
 ;
 ReentrantMonitor
 mReentrantMonitor
+MOZ_UNANNOTATED
 {
 "
 nsHttpConnectionMgr

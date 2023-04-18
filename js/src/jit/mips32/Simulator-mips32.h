@@ -1511,6 +1511,7 @@ singleton_
 ;
 Mutex
 cacheLock_
+MOZ_UNANNOTATED
 ;
 Redirection
 *

@@ -342,6 +342,7 @@ aProofOfLock
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 static
 const

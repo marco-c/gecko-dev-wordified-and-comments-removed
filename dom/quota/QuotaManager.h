@@ -2317,6 +2317,7 @@ mozilla
 :
 Mutex
 mQuotaMutex
+MOZ_UNANNOTATED
 ;
 nsClassHashtable
 <

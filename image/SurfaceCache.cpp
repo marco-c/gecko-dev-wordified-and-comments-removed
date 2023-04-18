@@ -252,6 +252,7 @@ sInstance
 static
 StaticMutex
 sInstanceMutex
+MOZ_UNANNOTATED
 ;
 typedef
 size_t

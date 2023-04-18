@@ -185,6 +185,7 @@ mResponse
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 ~
 ViaductRequest

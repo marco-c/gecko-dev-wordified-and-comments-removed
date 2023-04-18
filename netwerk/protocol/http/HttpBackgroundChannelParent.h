@@ -354,6 +354,7 @@ mIPCOpened
 ;
 Mutex
 mBgThreadMutex
+MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <

@@ -240,6 +240,7 @@ mozilla
 :
 Mutex
 mProviderDictLock
+MOZ_UNANNOTATED
 ;
 }
 ;

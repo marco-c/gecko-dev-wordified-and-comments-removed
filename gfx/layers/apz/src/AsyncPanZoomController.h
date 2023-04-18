@@ -1884,6 +1884,7 @@ mGestureEventListener
 mutable
 Monitor
 mRefPtrMonitor
+MOZ_UNANNOTATED
 ;
 Atomic
 <
@@ -1936,6 +1937,7 @@ mScrollMetadata
 mutable
 RecursiveMutex
 mRecursiveMutex
+MOZ_UNANNOTATED
 ;
 private
 :
@@ -3222,6 +3224,7 @@ aMagnitude
 ;
 Mutex
 mCheckerboardEventLock
+MOZ_UNANNOTATED
 ;
 UniquePtr
 <

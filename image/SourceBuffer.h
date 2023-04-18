@@ -1425,6 +1425,7 @@ aChunk
 mutable
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 AutoTArray
 <

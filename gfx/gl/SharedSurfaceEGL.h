@@ -74,6 +74,7 @@ SharedSurface
 mutable
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 EGLSync
 mSync

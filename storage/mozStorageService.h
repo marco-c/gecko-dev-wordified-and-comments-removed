@@ -262,6 +262,7 @@ Service
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 struct
 AutoVFSRegistration
@@ -302,6 +303,7 @@ mObfuscatingSqliteVFS
 ;
 Mutex
 mRegistrationMutex
+MOZ_UNANNOTATED
 ;
 nsTArray
 <

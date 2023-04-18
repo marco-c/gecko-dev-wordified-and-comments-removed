@@ -433,6 +433,7 @@ mSize
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <

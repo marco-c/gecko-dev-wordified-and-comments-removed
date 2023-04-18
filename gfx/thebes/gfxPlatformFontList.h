@@ -3096,6 +3096,7 @@ mozilla
 :
 Mutex
 mFontFamiliesMutex
+MOZ_UNANNOTATED
 ;
 FontFamilyTable
 mFontFamilies

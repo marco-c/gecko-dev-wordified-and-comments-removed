@@ -225,6 +225,7 @@ mPtr
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 }
 ;

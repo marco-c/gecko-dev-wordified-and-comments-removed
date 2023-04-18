@@ -942,6 +942,7 @@ PermissionManager
 static
 StaticMutex
 sCreationMutex
+MOZ_UNANNOTATED
 ;
 nsresult
 GetStripPermsForPrincipal
@@ -1468,6 +1469,7 @@ mPermissionsFile
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 enum
 State

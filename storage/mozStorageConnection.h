@@ -317,6 +317,7 @@ getAsyncExecutionTarget
 ;
 Mutex
 sharedAsyncExecutionMutex
+MOZ_UNANNOTATED
 ;
 SQLiteMutex
 sharedDBMutex

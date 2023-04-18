@@ -778,6 +778,7 @@ mHasPendingEvents
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 }
 ;

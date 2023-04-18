@@ -625,6 +625,7 @@ mRunnable
 mutable
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 Image
 *

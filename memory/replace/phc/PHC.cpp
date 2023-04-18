@@ -1750,6 +1750,7 @@ public
 static
 Mutex
 sMutex
+MOZ_UNANNOTATED
 ;
 GMut
 (

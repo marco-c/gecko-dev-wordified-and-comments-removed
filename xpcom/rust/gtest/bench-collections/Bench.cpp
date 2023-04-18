@@ -1542,6 +1542,7 @@ sVals
 static
 StaticMutex
 sValsMutex
+MOZ_UNANNOTATED
 ;
 }
 ;

@@ -769,6 +769,7 @@ eClosed
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 State
 mState

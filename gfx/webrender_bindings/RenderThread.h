@@ -1346,6 +1346,7 @@ aId
 ;
 Mutex
 mRenderTextureMapLock
+MOZ_UNANNOTATED
 ;
 std
 :

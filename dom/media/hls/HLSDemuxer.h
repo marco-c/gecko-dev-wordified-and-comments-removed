@@ -597,6 +597,7 @@ mQueuedSample
 mutable
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 UniquePtr
 <

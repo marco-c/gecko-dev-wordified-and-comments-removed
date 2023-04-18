@@ -307,6 +307,7 @@ mStringParams
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 nsTArray
 <

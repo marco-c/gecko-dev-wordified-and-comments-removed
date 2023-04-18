@@ -228,6 +228,7 @@ mStreams
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 const
 nsID

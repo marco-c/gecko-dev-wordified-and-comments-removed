@@ -86,6 +86,7 @@ MAX_DISPLAY_CONNECTIONS
 static
 StaticMutex
 gWaylandDisplayArrayWriteMutex
+MOZ_UNANNOTATED
 ;
 void
 WaylandDispatchDisplays

@@ -656,9 +656,11 @@ mThread
 ;
 Mutex
 mUnprocessedMutex
+MOZ_UNANNOTATED
 ;
 Mutex
 mModuleCacheMutex
+MOZ_UNANNOTATED
 ;
 UnprocessedModuleLoads
 mUnprocessedModuleLoads

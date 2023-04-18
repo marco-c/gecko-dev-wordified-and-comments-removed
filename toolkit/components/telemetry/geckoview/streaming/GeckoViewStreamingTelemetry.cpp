@@ -162,6 +162,7 @@ background
 static
 StaticMutex
 gMutex
+MOZ_UNANNOTATED
 ;
 TimeStamp
 gBatchBegan
