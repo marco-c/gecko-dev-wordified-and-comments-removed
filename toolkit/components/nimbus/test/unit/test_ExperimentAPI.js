@@ -3052,7 +3052,7 @@ add_task
 (
 async
 function
-test_activateBranch
+test_getActiveBranch
 (
 )
 {
@@ -3154,7 +3154,7 @@ deepEqual
 (
 ExperimentAPI
 .
-activateBranch
+getActiveBranch
 (
 {
 featureId
@@ -3190,7 +3190,7 @@ add_task
 (
 async
 function
-test_activateBranch_safe
+test_getActiveBranch_safe
 (
 )
 {
@@ -3227,7 +3227,7 @@ equal
 (
 ExperimentAPI
 .
-activateBranch
+getActiveBranch
 (
 {
 featureId
@@ -3279,7 +3279,7 @@ add_task
 (
 async
 function
-test_activateBranch_storeFailure
+test_getActiveBranch_storeFailure
 (
 )
 {
@@ -3403,7 +3403,7 @@ try
 {
 ExperimentAPI
 .
-activateBranch
+getActiveBranch
 (
 {
 featureId
@@ -3452,7 +3452,7 @@ add_task
 (
 async
 function
-test_activateBranch_noActivationEvent
+test_getActiveBranch_noActivationEvent
 (
 )
 {
@@ -3560,7 +3560,7 @@ emit
 ;
 ExperimentAPI
 .
-activateBranch
+getActiveBranch
 (
 {
 featureId

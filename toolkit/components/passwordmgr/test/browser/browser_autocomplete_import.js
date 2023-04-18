@@ -362,7 +362,7 @@ stub
 (
 ExperimentAPI
 "
-activateBranch
+getActiveBranch
 "
 )
 .
