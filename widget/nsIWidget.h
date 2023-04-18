@@ -3510,7 +3510,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 virtual
 LayoutDeviceIntRect
-GetPreferredPopupRect
+GetMoveToRectPopupRect
 (
 )
 const
@@ -3518,7 +3518,7 @@ const
 NS_WARNING
 (
 "
-GetPreferredPopupRect
+GetLayoutPopupRect
 implemented
 only
 for
@@ -3534,14 +3534,14 @@ LayoutDeviceIntRect
 }
 virtual
 void
-FlushPreferredPopupRect
+MoveToRectPopupRectClear
 (
 )
 {
 NS_WARNING
 (
 "
-FlushPreferredPopupRect
+LayoutPopupRectChanged
 implemented
 only
 for

@@ -3028,7 +3028,7 @@ IS_WAYLAND_DISPLAY
 widget
 -
 >
-FlushPreferredPopupRect
+MoveToRectPopupRectClear
 (
 )
 ;
@@ -7408,7 +7408,7 @@ ToAppUnits
 widget
 -
 >
-GetPreferredPopupRect
+GetMoveToRectPopupRect
 (
 )
 presContext
