@@ -17902,8 +17902,6 @@ MediaManager
 "
 "
 singleton
-and
-thread
 "
 )
 ;
