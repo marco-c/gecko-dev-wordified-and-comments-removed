@@ -4011,6 +4011,10 @@ pub
 max_update_rects
 :
 usize
+pub
+supports_surface_for_backdrop
+:
+bool
 }
 impl
 Default
@@ -4036,6 +4040,9 @@ false
 max_update_rects
 :
 1
+supports_surface_for_backdrop
+:
+false
 }
 }
 }
