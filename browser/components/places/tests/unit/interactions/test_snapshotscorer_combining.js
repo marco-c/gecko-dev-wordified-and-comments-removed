@@ -236,7 +236,9 @@ url
 TEST_URL1
 score
 :
-6
+7
+.
+5
 }
 {
 url
@@ -369,7 +371,9 @@ url
 TEST_URL2
 score
 :
-6
+7
+.
+5
 }
 {
 url
