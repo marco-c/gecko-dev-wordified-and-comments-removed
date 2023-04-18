@@ -502,6 +502,11 @@ if
 child
 .
 innerWindowId
+&
+&
+child
+.
+innerWindowId
 !
 =
 innerWindowId
