@@ -396,9 +396,17 @@ display
 none
 ;
 }
-%
-ifndef
-XP_MACOSX
+media
+not
+(
+-
+moz
+-
+platform
+:
+macos
+)
+{
 :
 host
 (
@@ -422,5 +430,4 @@ appearance
 none
 ;
 }
-%
-endif
+}
