@@ -1337,6 +1337,16 @@ if
 module
 )
 {
+MOZ_RELEASE_ASSERT
+(
+!
+gIsWasmSmith
+|
+|
+!
+error
+)
+;
 continue
 ;
 }
