@@ -164,6 +164,15 @@ MIDIPlatformService
 IsRunning
 (
 )
+&
+&
+mConnectionState
+=
+=
+MIDIPortConnectionState
+:
+:
+Closed
 )
 {
 MIDIPlatformService

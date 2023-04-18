@@ -109,7 +109,7 @@ mConnectionState
 MIDIPortConnectionState
 :
 :
-Open
+Closed
 )
 mShuttingDown
 (
