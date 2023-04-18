@@ -132,6 +132,8 @@ llvm
 -
 symbolizer
 /
+bin
+/
 llvm
 -
 symbolizer
@@ -148,6 +150,8 @@ MOZ_FETCHES_DIR
 llvm
 -
 symbolizer
+/
+bin
 /
 llvm
 -
