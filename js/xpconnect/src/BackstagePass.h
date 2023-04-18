@@ -62,7 +62,6 @@ XPCWrappedNative
 ;
 class
 BackstagePass
-final
 :
 public
 nsIGlobalObject
@@ -84,6 +83,7 @@ BackstagePass
 NS_DECL_ISUPPORTS
 NS_DECL_NSIXPCSCRIPTABLE
 NS_DECL_NSICLASSINFO
+virtual
 nsIPrincipal
 *
 GetPrincipal
@@ -95,6 +95,7 @@ return
 mPrincipal
 ;
 }
+virtual
 nsIPrincipal
 *
 GetEffectiveStoragePrincipal
@@ -106,6 +107,7 @@ return
 mPrincipal
 ;
 }
+virtual
 nsIPrincipal
 *
 PartitionedPrincipal
@@ -115,21 +117,6 @@ override
 {
 return
 mPrincipal
-;
-}
-mozilla
-:
-:
-OriginTrials
-Trials
-(
-)
-const
-override
-{
-return
-{
-}
 ;
 }
 JSObject
