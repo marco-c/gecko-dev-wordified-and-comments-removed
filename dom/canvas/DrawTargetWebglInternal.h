@@ -1496,6 +1496,9 @@ aPath
 Pattern
 *
 aPattern
+StoredStrokeOptions
+*
+aStrokeOptions
 const
 Matrix
 &
@@ -1523,6 +1526,10 @@ const
 Pattern
 *
 aPattern
+const
+StrokeOptions
+*
+aStrokeOptions
 const
 Matrix
 &
@@ -1583,6 +1590,12 @@ Pattern
 >
 mPattern
 ;
+UniquePtr
+<
+StoredStrokeOptions
+>
+mStrokeOptions
+;
 }
 ;
 class
@@ -1616,6 +1629,10 @@ const
 Pattern
 *
 aPattern
+const
+StrokeOptions
+*
+aStrokeOptions
 const
 Matrix
 &

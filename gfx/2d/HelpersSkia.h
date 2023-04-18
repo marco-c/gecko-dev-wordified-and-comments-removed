@@ -546,6 +546,10 @@ const
 StrokeOptions
 &
 aOptions
+bool
+aUsePathEffects
+=
+true
 )
 {
 if
@@ -624,6 +628,9 @@ aOptions
 mDashLength
 >
 0
+&
+&
+aUsePathEffects
 )
 {
 uint32_t
