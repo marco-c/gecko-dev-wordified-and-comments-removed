@@ -2079,13 +2079,6 @@ AssertShape
 gen_boilerplate
 :
 false
--
-name
-:
-CreateThisWithTemplate
-gen_boilerplate
-:
-false
 #
 Caller
 -

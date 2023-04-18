@@ -2323,17 +2323,6 @@ InitialHeap
 initialHeap
 )
 ;
-JSObject
-*
-CreateThisWithTemplate
-(
-JSContext
-*
-cx
-HandleObject
-templateObject
-)
-;
 ArrayObject
 *
 NewArrayOperation
