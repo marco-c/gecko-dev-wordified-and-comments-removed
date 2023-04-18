@@ -662,6 +662,16 @@ T
 FatalError
 >
 ;
+#
+[
+allow
+(
+clippy
+:
+:
+large_enum_variant
+)
+]
 enum
 Operation
 {
