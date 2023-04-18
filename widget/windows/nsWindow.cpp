@@ -13113,14 +13113,14 @@ rect
 bottom
 -
 =
-mHorResizeMargin
+mVertResizeMargin
 ;
 rect
 .
 left
 +
 =
-mVertResizeMargin
+mHorResizeMargin
 ;
 MapWindowPoints
 (
