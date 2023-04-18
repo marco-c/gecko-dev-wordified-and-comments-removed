@@ -672,6 +672,16 @@ crash_exception_info_
 ;
 }
 pid_t
+pid
+(
+)
+const
+{
+return
+pid_
+;
+}
+pid_t
 crash_thread
 (
 )
