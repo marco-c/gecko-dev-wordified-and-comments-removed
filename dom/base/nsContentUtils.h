@@ -1169,6 +1169,7 @@ static
 bool
 ShouldResistFingerprinting
 (
+const
 char
 *
 aChar

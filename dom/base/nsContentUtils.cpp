@@ -11424,6 +11424,7 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
+const
 char
 *
 aChar
