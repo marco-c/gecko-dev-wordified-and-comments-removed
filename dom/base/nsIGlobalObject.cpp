@@ -726,6 +726,10 @@ mCountQueuingStrategySizeFunction
 =
 nullptr
 ;
+mByteLengthQueuingStrategySizeFunction
+=
+nullptr
+;
 #
 endif
 }
