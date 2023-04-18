@@ -234,6 +234,7 @@ Debugger
 FirstExecution
 UninitializedLexical
 IonExceptionDebugMode
+Finally
 OnStackInvalidation
 Unreachable
 Limit
@@ -428,6 +429,17 @@ IonExceptionDebugMode
 return
 "
 IonExceptionDebugMode
+"
+;
+case
+BailoutKind
+:
+:
+Finally
+:
+return
+"
+Finally
 "
 ;
 case
