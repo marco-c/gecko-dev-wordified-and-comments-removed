@@ -234,7 +234,7 @@ header
 b
 "
 -
-recieved
+received
 "
 request_client_hints
 [
