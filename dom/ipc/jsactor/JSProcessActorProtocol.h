@@ -73,9 +73,6 @@ class
 EventTarget
 ;
 class
-JSActorProtocolUtils
-;
-class
 JSProcessActorProtocol
 final
 :
@@ -247,10 +244,6 @@ bool
 mIncludeParent
 =
 false
-;
-friend
-class
-JSActorProtocolUtils
 ;
 ParentSide
 mParent

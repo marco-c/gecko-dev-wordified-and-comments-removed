@@ -156,11 +156,9 @@ child
 dictionary
 WindowActorSidedOptions
 {
+required
 ByteString
 moduleURI
-;
-ByteString
-esModuleURI
 ;
 }
 ;
