@@ -1,4 +1,7 @@
 cfg_if
+:
+:
+cfg_if
 !
 {
 if
@@ -13,6 +16,11 @@ target_os
 =
 "
 redox
+"
+target_os
+=
+"
+wasi
 "
 )
 )

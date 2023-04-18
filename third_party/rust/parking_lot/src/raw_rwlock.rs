@@ -1528,7 +1528,7 @@ WRITER_BIT
 Ordering
 :
 :
-Relaxed
+Acquire
 )
 ;
 if
@@ -1586,7 +1586,7 @@ WRITER_BIT
 Ordering
 :
 :
-Relaxed
+Acquire
 Ordering
 :
 :

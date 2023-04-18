@@ -222,6 +222,17 @@ num_files
 }
 #
 [
+cfg
+(
+target_os
+=
+"
+linux
+"
+)
+]
+#
+[
 test
 ]
 fn

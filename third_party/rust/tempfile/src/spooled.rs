@@ -39,8 +39,9 @@ derive
 Debug
 )
 ]
+pub
 enum
-SpooledInner
+SpooledData
 {
 InMemory
 (
@@ -73,7 +74,7 @@ max_size
 usize
 inner
 :
-SpooledInner
+SpooledData
 }
 #
 [
@@ -121,7 +122,7 @@ max_size
 max_size
 inner
 :
-SpooledInner
+SpooledData
 :
 :
 InMemory
@@ -157,7 +158,7 @@ self
 .
 inner
 {
-SpooledInner
+SpooledData
 :
 :
 InMemory
@@ -167,7 +168,7 @@ _
 =
 >
 false
-SpooledInner
+SpooledData
 :
 :
 OnDisk
@@ -217,7 +218,7 @@ tempfile
 ;
 if
 let
-SpooledInner
+SpooledData
 :
 :
 InMemory
@@ -266,7 +267,7 @@ self
 .
 inner
 =
-SpooledInner
+SpooledData
 :
 :
 OnDisk
@@ -326,7 +327,7 @@ self
 .
 inner
 {
-SpooledInner
+SpooledData
 :
 :
 InMemory
@@ -358,7 +359,7 @@ Ok
 )
 )
 }
-SpooledInner
+SpooledData
 :
 :
 OnDisk
@@ -376,6 +377,20 @@ set_len
 size
 )
 }
+}
+pub
+fn
+into_inner
+(
+self
+)
+-
+>
+SpooledData
+{
+self
+.
+inner
 }
 }
 impl
@@ -412,7 +427,7 @@ self
 .
 inner
 {
-SpooledInner
+SpooledData
 :
 :
 InMemory
@@ -429,7 +444,7 @@ read
 (
 buf
 )
-SpooledInner
+SpooledData
 :
 :
 OnDisk
@@ -485,7 +500,7 @@ false
 ;
 if
 let
-SpooledInner
+SpooledData
 :
 :
 InMemory
@@ -536,7 +551,7 @@ self
 .
 inner
 {
-SpooledInner
+SpooledData
 :
 :
 InMemory
@@ -553,7 +568,7 @@ write
 (
 buf
 )
-SpooledInner
+SpooledData
 :
 :
 OnDisk
@@ -599,7 +614,7 @@ self
 .
 inner
 {
-SpooledInner
+SpooledData
 :
 :
 InMemory
@@ -615,7 +630,7 @@ cursor
 flush
 (
 )
-SpooledInner
+SpooledData
 :
 :
 OnDisk
@@ -664,7 +679,7 @@ self
 .
 inner
 {
-SpooledInner
+SpooledData
 :
 :
 InMemory
@@ -681,7 +696,7 @@ seek
 (
 pos
 )
-SpooledInner
+SpooledData
 :
 :
 OnDisk
