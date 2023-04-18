@@ -191,10 +191,7 @@ prim_store
 backdrop
 :
 :
-{
-BackdropCapture
-BackdropRender
-}
+Backdrop
 ;
 use
 crate
