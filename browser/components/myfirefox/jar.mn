@@ -87,3 +87,14 @@ tabs
 pickup
 .
 js
+content
+/
+browser
+/
+recently
+-
+closed
+-
+tabs
+.
+js
