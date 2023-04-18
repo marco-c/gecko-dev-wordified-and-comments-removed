@@ -292,15 +292,6 @@ Deprecated
 "
 IDBDatabaseCreateMutableFile
 "
-Pref
-=
-"
-dom
-.
-fileHandle
-.
-enabled
-"
 ]
 IDBRequest
 createMutableFile

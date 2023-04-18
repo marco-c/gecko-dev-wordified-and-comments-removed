@@ -113,15 +113,6 @@ MPL
 Exposed
 =
 Window
-Pref
-=
-"
-dom
-.
-fileHandle
-.
-enabled
-"
 ]
 interface
 IDBFileRequest

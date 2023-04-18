@@ -95,15 +95,6 @@ MPL
 Exposed
 =
 Window
-Pref
-=
-"
-dom
-.
-fileHandle
-.
-enabled
-"
 ]
 interface
 IDBMutableFile
