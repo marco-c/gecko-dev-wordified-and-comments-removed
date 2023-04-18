@@ -37,11 +37,6 @@ nsUnicodeProperties
 .
 h
 "
-"
-nsUnicodeScriptCodes
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +

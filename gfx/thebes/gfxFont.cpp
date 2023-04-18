@@ -5802,6 +5802,9 @@ otherLookups
 nsTHashMap
 <
 nsUint32HashKey
+intl
+:
+:
 Script
 >
 *
@@ -5832,6 +5835,9 @@ HasSubstitution
 uint32_t
 *
 aBitVector
+intl
+:
+:
 Script
 aScript
 )
@@ -6632,9 +6638,14 @@ min
 int
 >
 (
-u_getIntPropertyMaxValue
+intl
+:
+:
+UnicodeProperties
+:
+:
+GetMaxNumberOfScripts
 (
-UCHAR_SCRIPT
 )
 +
 1

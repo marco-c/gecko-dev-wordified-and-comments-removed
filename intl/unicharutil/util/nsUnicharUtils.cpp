@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsUnicodeProperties
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Likely
@@ -2924,7 +2917,10 @@ u
 )
 &
 &
-unicode
+intl
+:
+:
+UnicodeProperties
 :
 :
 GetScriptCode
@@ -2933,7 +2929,7 @@ u
 )
 !
 =
-unicode
+intl
 :
 :
 Script
