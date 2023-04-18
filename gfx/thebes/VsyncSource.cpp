@@ -75,7 +75,7 @@ dispatcher
 lock
 "
 )
-mRefreshTimerNeedsVsync
+mVsyncDispatcherNeedsVsync
 (
 false
 )
@@ -777,7 +777,7 @@ void
 VsyncSource
 :
 :
-NotifyRefreshTimerVsyncStatus
+NotifyVsyncDispatcherVsyncStatus
 (
 bool
 aEnable
@@ -790,7 +790,7 @@ NS_IsMainThread
 )
 )
 ;
-mRefreshTimerNeedsVsync
+mVsyncDispatcherNeedsVsync
 =
 aEnable
 ;
@@ -836,7 +836,7 @@ IsEmpty
 )
 |
 |
-mRefreshTimerNeedsVsync
+mVsyncDispatcherNeedsVsync
 |
 |
 !
