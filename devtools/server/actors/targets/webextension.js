@@ -671,7 +671,15 @@ location
 .
 href
 =
+{
 FALLBACK_DOC_URL
+}
+#
+{
+this
+.
+addonId
+}
 ;
 return
 this
