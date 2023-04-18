@@ -7241,7 +7241,7 @@ content
 setTimeout
 (
 resolve
-1000
+100
 )
 )
 ;
@@ -7595,7 +7595,7 @@ content
 setTimeout
 (
 resolve
-1000
+100
 )
 )
 ;
