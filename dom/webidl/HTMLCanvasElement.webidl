@@ -164,9 +164,6 @@ document
 interface
 nsISupports
 ;
-interface
-Variant
-;
 typedef
 (
 HTMLCanvasElement
