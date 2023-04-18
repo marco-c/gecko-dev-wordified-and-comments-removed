@@ -206,6 +206,11 @@ attributes
 ;
 readonly
 attribute
+nsIPersistentProperties
+cache
+;
+readonly
+attribute
 nsISupports
 nativeInterface
 ;

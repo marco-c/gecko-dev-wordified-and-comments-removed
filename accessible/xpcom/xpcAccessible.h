@@ -267,6 +267,16 @@ aAttributes
 final
 ;
 NS_IMETHOD
+GetCache
+(
+nsIPersistentProperties
+*
+*
+aCachedFields
+)
+final
+;
+NS_IMETHOD
 GetNativeInterface
 (
 nsISupports
