@@ -1657,10 +1657,6 @@ wr
 /
 target
 /
-android
--
-artifacts
-/
 debug
 /
 apk
@@ -1996,10 +1992,6 @@ gfx
 wr
 /
 target
-/
-android
--
-artifacts
 /
 release
 /

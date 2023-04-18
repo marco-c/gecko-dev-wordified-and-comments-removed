@@ -1017,9 +1017,9 @@ fetch
 -
 android
 -
-rs
+ndk
 -
-glue
+rs
 toolchain
 :
 -
