@@ -29,6 +29,9 @@ remoteworkers
 "
 sharedworkers
 "
+"
+loader
+"
 ]
 EXPORTS
 .
