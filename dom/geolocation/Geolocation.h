@@ -157,8 +157,8 @@ nsGeolocationRequest
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -182,7 +182,6 @@ PositionErrorCallback
 nsIDOMGeoPositionErrorCallback
 >
 ;
-}
 }
 struct
 CachedPositionAndAccuracy
@@ -357,8 +356,8 @@ false
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -712,7 +711,6 @@ sNonWindowSingleton
 ;
 }
 ;
-}
 }
 #
 endif

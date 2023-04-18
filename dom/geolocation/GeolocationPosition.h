@@ -183,8 +183,8 @@ mCoords
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -294,7 +294,6 @@ mGeoPosition
 ;
 }
 ;
-}
 }
 #
 endif

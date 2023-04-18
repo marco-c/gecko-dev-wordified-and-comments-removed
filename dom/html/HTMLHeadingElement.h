@@ -22,8 +22,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -332,7 +332,6 @@ MappedDeclarations
 ;
 }
 ;
-}
 }
 #
 endif

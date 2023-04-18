@@ -34,8 +34,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -170,7 +170,6 @@ mAreas
 ;
 }
 ;
-}
 }
 #
 endif

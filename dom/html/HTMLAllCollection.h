@@ -58,8 +58,8 @@ nsINode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -345,7 +345,6 @@ mNamedMap
 ;
 }
 ;
-}
 }
 #
 endif

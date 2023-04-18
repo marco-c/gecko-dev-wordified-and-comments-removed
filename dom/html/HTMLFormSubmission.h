@@ -72,8 +72,8 @@ nsIMultiplexInputStream
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -778,7 +778,6 @@ mTotalLength
 ;
 }
 ;
-}
 }
 #
 endif

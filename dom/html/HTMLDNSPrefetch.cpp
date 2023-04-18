@@ -246,8 +246,8 @@ net
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -2916,6 +2916,5 @@ Flush
 return
 NS_OK
 ;
-}
 }
 }

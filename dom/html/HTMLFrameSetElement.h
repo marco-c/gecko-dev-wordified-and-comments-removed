@@ -56,8 +56,8 @@ NS_MAX_FRAMESET_SPEC_COUNT
 16000
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -490,7 +490,6 @@ mColSpecs
 ;
 }
 ;
-}
 }
 #
 endif

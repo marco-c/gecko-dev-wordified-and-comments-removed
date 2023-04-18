@@ -54,8 +54,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -188,7 +188,6 @@ mCoords
 ;
 }
 ;
-}
 }
 #
 endif

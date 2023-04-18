@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -252,7 +252,6 @@ mToggleEventDispatcher
 ;
 }
 ;
-}
 }
 #
 endif
