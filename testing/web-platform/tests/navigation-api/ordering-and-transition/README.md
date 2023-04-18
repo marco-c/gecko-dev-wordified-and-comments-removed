@@ -1,6 +1,6 @@
 #
-App
-history
+Navigation
+API
 ordering
 /
 transition
@@ -75,9 +75,9 @@ com
 /
 WICG
 /
-app
+navigation
 -
-history
+api
 /
 #
 complete
