@@ -136,7 +136,10 @@ enabled
 "
 Exposed
 =
+(
 Window
+DedicatedWorker
+)
 ]
 interface
 GPUUncapturedErrorEvent
