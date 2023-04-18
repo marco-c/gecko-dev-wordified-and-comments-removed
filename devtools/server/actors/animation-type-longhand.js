@@ -2330,6 +2330,13 @@ outline
 -
 width
 "
+"
+overflow
+-
+clip
+-
+box
+"
 ]
 )
 ]
