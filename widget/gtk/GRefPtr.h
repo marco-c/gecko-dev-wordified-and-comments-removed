@@ -16,6 +16,15 @@ h
 #
 include
 <
+gio
+/
+gio
+.
+h
+>
+#
+include
+<
 gtk
 /
 gtk
@@ -162,6 +171,10 @@ GDBusMessage
 GOBJECT_TRAITS
 (
 GdkPixbuf
+)
+GOBJECT_TRAITS
+(
+GCancellable
 )
 #
 ifdef
