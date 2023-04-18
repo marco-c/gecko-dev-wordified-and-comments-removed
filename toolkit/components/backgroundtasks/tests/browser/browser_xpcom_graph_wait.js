@@ -753,6 +753,15 @@ info
 ;
 1
 "
+"
+mozilla
+.
+org
+/
+mime
+;
+1
+"
 ]
 }
 }
