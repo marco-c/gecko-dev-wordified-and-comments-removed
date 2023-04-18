@@ -322,7 +322,6 @@ mIOPool
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 nsTArray
 <
@@ -332,6 +331,10 @@ TaskQueue
 >
 >
 mTaskQueues
+GUARDED_BY
+(
+mMutex
+)
 ;
 }
 ;
