@@ -1618,7 +1618,7 @@ param_pid_Ntid
 child
 -
 >
-ErrnoTest
+ErrnoValueTest
 (
 "
 sched_getparam
@@ -1628,6 +1628,7 @@ Ntid
 "
 _ns
 false
+EPERM
 [
 &
 ]
