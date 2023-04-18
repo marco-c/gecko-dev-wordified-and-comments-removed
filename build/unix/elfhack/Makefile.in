@@ -184,8 +184,9 @@ DT_TYPE
 dynamic
 info
 (
-READELF
+TOOLCHAIN_PREFIX
 )
+readelf
 -
 d
 |
