@@ -522,6 +522,31 @@ file
 )
 CommandArgument
 (
+    
+"
+-
+-
+linkcheck
+"
+action
+=
+"
+store_true
+"
+help
+=
+"
+Check
+if
+the
+links
+are
+still
+valid
+"
+)
+CommandArgument
+(
 "
 -
 -
@@ -587,6 +612,10 @@ jobs
 None
     
 write_url
+=
+None
+    
+linkcheck
 =
 None
     
@@ -878,6 +907,16 @@ location
 path
         
 )
+    
+if
+linkcheck
+:
+        
+fmt
+=
+"
+linkcheck
+"
     
 result
 =
