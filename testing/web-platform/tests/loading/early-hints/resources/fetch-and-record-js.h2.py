@@ -1,5 +1,7 @@
 import
 importlib
+import
+time
 utils
 =
 importlib
@@ -77,6 +79,15 @@ script
 *
 /
 "
+    
+time
+.
+sleep
+(
+0
+.
+05
+)
     
 return
 (
