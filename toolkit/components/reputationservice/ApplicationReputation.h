@@ -70,7 +70,7 @@ char
 const
 kNonBinaryExecutables
 [
-3
+4
 ]
 ;
 #
