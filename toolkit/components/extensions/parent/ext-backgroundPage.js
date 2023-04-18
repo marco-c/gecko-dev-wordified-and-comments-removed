@@ -1382,6 +1382,11 @@ startupReason
 "
 APP_STARTUP
 "
+|
+|
+extension
+.
+updateReason
 )
 )
 {
