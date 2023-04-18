@@ -135,7 +135,7 @@ size_t
 ;
 #
 ifdef
-__AFL_COMPILER
+AFLFUZZ
 static
 int
 afl_interface_raw
