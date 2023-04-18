@@ -58,9 +58,12 @@ rounded
 ]
 ;
 var
-kWebKitPrefixKeywords
+kNonGenericFontFamilyKeywords
 =
 [
+"
+NonGenericFontFamilyName
+"
 "
 -
 webkit
@@ -78,6 +81,9 @@ standard
 webkit
 -
 pictograph
+"
+"
+BlinkMacSystemFont
 "
 ]
 ;
