@@ -3707,10 +3707,7 @@ void
 pc
 Trap
 *
-trap1Out
-Trap
-*
-trap2Out
+trap
 BytecodeOffset
 *
 bytecode
