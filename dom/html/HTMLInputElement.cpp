@@ -13851,7 +13851,7 @@ return
 selected
 ;
 }
-nsresult
+void
 HTMLInputElement
 :
 :
@@ -13869,7 +13869,6 @@ mForm
 )
 {
 return
-NS_OK
 ;
 }
 RefPtr
@@ -13892,7 +13891,6 @@ presShell
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -13977,9 +13975,6 @@ nullptr
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 HTMLInputElement
@@ -17864,19 +17859,11 @@ aVisitor
 mPresContext
 )
 {
-rv
-=
 MaybeSubmitForm
 (
 aVisitor
 .
 mPresContext
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }
