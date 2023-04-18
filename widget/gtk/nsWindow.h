@@ -2098,6 +2098,7 @@ GetFocusedWindow
 #
 ifdef
 MOZ_WAYLAND
+static
 void
 RequestFocusWaylandWindow
 (
