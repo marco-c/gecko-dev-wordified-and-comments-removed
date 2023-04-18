@@ -17363,9 +17363,6 @@ checkForBackupFiles
 function
 checkCallbackLog
 (
-)
-{
-let
 appLaunchLog
 =
 getApplyDirFile
@@ -17377,7 +17374,8 @@ gCallbackArgs
 1
 ]
 )
-;
+)
+{
 if
 (
 !
