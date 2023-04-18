@@ -1354,10 +1354,17 @@ return
 nullptr
 ;
 }
+if
+(
+!
+mIsInTransaction
+)
+{
 mTransactionsSinceGetDataSurface
 =
 0
 ;
+}
 EnsureBeginTransaction
 (
 )
