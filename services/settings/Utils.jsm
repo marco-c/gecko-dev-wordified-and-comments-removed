@@ -484,18 +484,6 @@ if
 bypassProxy
 |
 |
-Services
-.
-startup
-.
-shuttingDown
-|
-|
-Utils
-.
-isOffline
-|
-|
 !
 request
 .
@@ -519,6 +507,8 @@ return
 ServiceRequest
 .
 logProxySource
+?
+.
 (
 request
 .
