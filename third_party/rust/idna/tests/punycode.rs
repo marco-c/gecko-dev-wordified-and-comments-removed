@@ -109,9 +109,6 @@ result
 =
 =
 decoded
-format
-!
-(
 "
 Incorrect
 decoding
@@ -147,7 +144,6 @@ n
 encoded
 result
 decoded
-)
 )
 }
 }
@@ -185,9 +181,6 @@ result
 =
 =
 encoded
-format
-!
-(
 "
 Incorrect
 encoding
@@ -223,7 +216,6 @@ n
 decoded
 result
 encoded
-)
 )
 }
 }
