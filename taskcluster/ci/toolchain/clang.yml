@@ -120,7 +120,9 @@ symbol
 :
 TL
 (
-clang5
+clang
+-
+5
 .
 0
 )
@@ -286,6 +288,8 @@ TMW
 (
 clang
 -
+14
+-
 x86
 )
 worker
@@ -397,6 +401,8 @@ TMW
 (
 clang
 -
+14
+-
 x64
 )
 tier
@@ -504,7 +510,9 @@ symbol
 :
 TL
 (
-clang14
+clang
+-
+14
 -
 stage1
 )
@@ -672,7 +680,9 @@ symbol
 :
 TL
 (
-clang14
+clang
+-
+14
 -
 profile
 )
@@ -869,7 +879,9 @@ symbol
 :
 TL
 (
-clang14
+clang
+-
+14
 -
 raw
 )
@@ -1070,7 +1082,9 @@ symbol
 :
 TL
 (
-clang14
+clang
+-
+14
 )
 worker
 -
