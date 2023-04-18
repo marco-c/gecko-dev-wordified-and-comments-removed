@@ -16453,12 +16453,7 @@ mainThread
 aWindow
 -
 >
-AsGlobal
-(
-)
--
->
-AbstractMainThreadFor
+EventTargetFor
 (
 TaskCategory
 :
