@@ -871,7 +871,7 @@ await
 addTab
 (
 '
-http
+https
 :
 /
 /
@@ -892,7 +892,7 @@ iframe
 src
 =
 "
-http
+https
 :
 /
 /
@@ -922,7 +922,7 @@ const
 secondPageUrl
 =
 "
-http
+https
 :
 /
 /
@@ -2000,7 +2000,7 @@ await
 addTab
 (
 "
-http
+https
 :
 /
 /
@@ -2126,7 +2126,7 @@ const
 netUrl
 =
 "
-http
+https
 :
 /
 /
