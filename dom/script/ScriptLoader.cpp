@@ -7279,7 +7279,7 @@ JS
 :
 :
 Value
-ScriptLoader
+ModuleLoader
 :
 :
 FindFirstParseError
@@ -7375,7 +7375,7 @@ UndefinedValue
 ;
 }
 bool
-ScriptLoader
+ModuleLoader
 :
 :
 InstantiateModuleTree
@@ -7649,7 +7649,7 @@ true
 ;
 }
 nsresult
-ScriptLoader
+ModuleLoader
 :
 :
 InitDebuggerDataForModuleTree
@@ -14565,6 +14565,9 @@ mModuleScript
 if
 (
 !
+mModuleLoader
+-
+>
 InstantiateModuleTree
 (
 request
@@ -14979,6 +14982,9 @@ mModuleScript
 if
 (
 !
+mModuleLoader
+-
+>
 InstantiateModuleTree
 (
 aRequest
@@ -16664,6 +16670,9 @@ module
 nsresult
 rv
 =
+mModuleLoader
+-
+>
 InitDebuggerDataForModuleTree
 (
 cx
