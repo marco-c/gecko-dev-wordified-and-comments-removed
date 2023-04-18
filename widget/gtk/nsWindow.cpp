@@ -12535,13 +12535,10 @@ mPopupUseMoveToRect
 {
 if
 (
-mNeedsShow
-&
-&
-mPopupType
-!
+mPopupHint
 =
-ePopupTypeTooltip
+=
+ePopupTypeMenu
 )
 {
 LOG
