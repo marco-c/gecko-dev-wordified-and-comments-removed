@@ -2149,6 +2149,12 @@ LayoutAndVisual
 )
 const
 ;
+LayoutDevicePoint
+GetAsyncScrollDeltaForSampling
+(
+)
+const
+;
 LayoutDeviceToParentLayerScale
 GetCurrentPinchZoomScale
 (
