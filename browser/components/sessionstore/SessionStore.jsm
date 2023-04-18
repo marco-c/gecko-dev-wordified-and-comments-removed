@@ -542,7 +542,7 @@ Ci
 .
 nsIWebBrowserChrome
 .
-HROME_WINDOW_RAISED
+CHROME_WINDOW_RAISED
 "
 alwaysraised
 "
