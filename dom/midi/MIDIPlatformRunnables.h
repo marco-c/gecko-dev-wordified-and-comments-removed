@@ -336,10 +336,9 @@ public
 :
 SetStatusRunnable
 (
-const
-nsAString
-&
-aPortId
+MIDIPortParent
+*
+aPort
 MIDIPortDeviceState
 aState
 MIDIPortConnectionState
@@ -352,9 +351,9 @@ MIDIBackgroundRunnable
 SetStatusRunnable
 "
 )
-mPortId
+mPort
 (
-aPortId
+aPort
 )
 mState
 (
@@ -381,8 +380,9 @@ override
 ;
 private
 :
-nsString
-mPortId
+MIDIPortParent
+*
+mPort
 ;
 MIDIPortDeviceState
 mState
