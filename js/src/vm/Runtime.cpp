@@ -1179,6 +1179,14 @@ destroyInstance
 ;
 #
 endif
+caches
+(
+)
+.
+purgeStencils
+(
+)
+;
 if
 (
 gcInitialized
