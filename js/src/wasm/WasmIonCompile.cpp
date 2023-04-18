@@ -11582,6 +11582,9 @@ loopBody
 )
 ;
 }
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
 for
 (
 uint32_t
@@ -11686,6 +11689,8 @@ block
 }
 }
 }
+#
+endif
 for
 (
 MPhiIterator
