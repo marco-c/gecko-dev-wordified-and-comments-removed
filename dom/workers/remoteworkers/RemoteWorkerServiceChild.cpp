@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 RemoteWorkerServiceChild
@@ -24,8 +24,9 @@ RemoteWorkerServiceChild
 RemoteWorkerServiceChild
 (
 )
-{
-}
+=
+default
+;
 RemoteWorkerServiceChild
 :
 :
@@ -36,5 +37,4 @@ RemoteWorkerServiceChild
 =
 default
 ;
-}
 }

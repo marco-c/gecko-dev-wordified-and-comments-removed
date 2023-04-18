@@ -6,8 +6,8 @@ define
 mozilla_dom_workers_WorkerStatus_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -23,7 +23,6 @@ Killing
 Dead
 }
 ;
-}
 }
 #
 endif

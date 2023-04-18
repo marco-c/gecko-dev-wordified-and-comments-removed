@@ -54,8 +54,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -63,8 +63,8 @@ WorkerPrivate
 ;
 namespace
 workerinternals
-{
-namespace
+:
+:
 loader
 {
 class
@@ -215,8 +215,6 @@ mIsMainScript
 ;
 }
 ;
-}
-}
 }
 }
 #

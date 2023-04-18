@@ -100,8 +100,8 @@ nsIConsoleReportCollector
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -614,7 +614,6 @@ mLauncherData
 ;
 }
 ;
-}
 }
 #
 endif

@@ -25,8 +25,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 WorkletPrincipals
@@ -126,6 +126,5 @@ WorkletPrincipals
 aPrincipals
 )
 ;
-}
 }
 }

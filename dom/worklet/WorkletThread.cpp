@@ -140,8 +140,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -2053,5 +2053,4 @@ WorkletThread
 nsThread
 nsIObserver
 )
-}
 }

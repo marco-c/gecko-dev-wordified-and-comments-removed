@@ -47,8 +47,8 @@ nsIURI
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -351,7 +351,6 @@ mChannel
 }
 }
 ;
-}
 }
 #
 endif

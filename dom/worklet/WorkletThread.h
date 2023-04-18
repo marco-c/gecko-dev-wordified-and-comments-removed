@@ -70,8 +70,8 @@ nsIRunnable
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -221,7 +221,6 @@ mIsTerminating
 ;
 }
 ;
-}
 }
 #
 endif

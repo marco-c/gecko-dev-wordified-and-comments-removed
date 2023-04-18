@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 uint32_t
@@ -79,6 +79,5 @@ GetCurrentTimerNestingLevel
 (
 )
 ;
-}
 }
 }

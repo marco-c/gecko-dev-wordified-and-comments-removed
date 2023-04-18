@@ -24,11 +24,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 workerinternals
 :
 :
@@ -153,8 +153,6 @@ mLoadInfo
 ;
 }
 ;
-}
-}
 }
 #
 endif

@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -103,7 +103,6 @@ NOT_REMOTE_TYPE
 ;
 }
 ;
-}
 }
 #
 endif

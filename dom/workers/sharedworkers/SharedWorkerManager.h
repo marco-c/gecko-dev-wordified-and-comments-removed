@@ -54,8 +54,8 @@ nsIPrincipal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -472,7 +472,6 @@ mHolders
 ;
 }
 ;
-}
 }
 #
 endif

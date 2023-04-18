@@ -71,8 +71,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -328,7 +328,6 @@ mPendings
 ;
 }
 ;
-}
 }
 #
 endif
