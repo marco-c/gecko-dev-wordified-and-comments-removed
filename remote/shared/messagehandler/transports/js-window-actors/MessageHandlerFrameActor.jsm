@@ -161,6 +161,14 @@ MessageHandlerFrameChild
 .
 jsm
 "
+events
+:
+{
+DOMWindowCreated
+:
+{
+}
+}
 }
 allFrames
 :
