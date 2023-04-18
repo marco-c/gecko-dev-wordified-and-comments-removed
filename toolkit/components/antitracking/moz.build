@@ -132,11 +132,6 @@ AntiTrackingUtils
 h
 "
 "
-ContentBlocking
-.
-h
-"
-"
 ContentBlockingAllowList
 .
 h
@@ -182,6 +177,11 @@ StorageAccess
 h
 "
 "
+StorageAccessAPIHelper
+.
+h
+"
+"
 StoragePrincipalHelper
 .
 h
@@ -208,11 +208,6 @@ cpp
 "
 "
 AntiTrackingUtils
-.
-cpp
-"
-"
-ContentBlocking
 .
 cpp
 "
@@ -263,6 +258,11 @@ cpp
 "
 "
 StorageAccess
+.
+cpp
+"
+"
+StorageAccessAPIHelper
 .
 cpp
 "

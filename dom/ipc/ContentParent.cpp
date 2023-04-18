@@ -344,15 +344,6 @@ include
 "
 mozilla
 /
-ContentBlocking
-.
-h
-"
-#
-include
-"
-mozilla
-/
 BasePrincipal
 .
 h
@@ -588,6 +579,15 @@ include
 mozilla
 /
 StaticPrefs_widget
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StorageAccessAPIHelper
 .
 h
 "
@@ -33807,7 +33807,7 @@ value
 )
 ;
 }
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 SaveAccessForOriginOnParentProcess
@@ -33841,7 +33841,7 @@ aResolver
 )
 ]
 (
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 ParentAccessGrantPromise
@@ -33945,7 +33945,7 @@ IPC_OK
 )
 ;
 }
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 CompleteAllowAccessFor
@@ -33982,7 +33982,7 @@ aResolver
 )
 ]
 (
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 StorageAccessPermissionGrantPromise
@@ -34170,7 +34170,7 @@ bool
 >
 result
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 CheckCookiesPermittedDecidesStorageAccessAPI
