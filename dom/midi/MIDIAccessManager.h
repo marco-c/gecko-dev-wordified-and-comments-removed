@@ -141,11 +141,6 @@ MIDIPortList
 aObserver
 )
 ;
-void
-SendRefresh
-(
-)
-;
 private
 :
 MIDIAccessManager

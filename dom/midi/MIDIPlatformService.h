@@ -138,14 +138,6 @@ Init
 ;
 virtual
 void
-Refresh
-(
-)
-=
-0
-;
-virtual
-void
 Open
 (
 MIDIPortParent

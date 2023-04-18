@@ -82,11 +82,6 @@ PBackground
 parent
 :
 async
-Refresh
-(
-)
-;
-async
 Shutdown
 (
 )
