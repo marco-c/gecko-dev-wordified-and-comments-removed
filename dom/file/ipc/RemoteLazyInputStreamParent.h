@@ -296,12 +296,6 @@ Recv__delete__
 )
 override
 ;
-bool
-HasValidStream
-(
-)
-const
-;
 private
 :
 template
