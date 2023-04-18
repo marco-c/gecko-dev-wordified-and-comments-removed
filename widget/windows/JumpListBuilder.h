@@ -161,9 +161,17 @@ mscom
 :
 AgileReference
 mJumpListMgr
+GUARDED_BY
+(
+mMonitor
+)
 ;
 uint32_t
 mMaxItems
+GUARDED_BY
+(
+mMonitor
+)
 ;
 bool
 mHasCommit
@@ -176,7 +184,6 @@ mIOThread
 ;
 ReentrantMonitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 nsString
 mAppUserModelId
