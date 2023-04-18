@@ -1205,11 +1205,6 @@ MENU_BUTTON
 menubutton
 "
 ;
-const
-TIMEOUT_ENSURE_PROFILE_NOT_SAVED
-=
-1000
-;
 function
 getDisplayedPopupItems
 (
