@@ -493,9 +493,6 @@ GetIntrinsicBSize
 )
 override
 ;
-bool
-mHaveReflowed
-;
 friend
 nsIFrame
 *

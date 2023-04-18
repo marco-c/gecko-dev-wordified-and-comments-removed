@@ -3899,10 +3899,6 @@ aStyle
 aPresContext
 kClassID
 )
-mHaveReflowed
-(
-false
-)
 {
 }
 nsPageBreakFrame
@@ -4001,6 +3997,7 @@ status
 "
 )
 ;
+const
 WritingMode
 wm
 =
@@ -4056,6 +4053,7 @@ legend
 )
 )
 {
+const
 nsContainerFrame
 *
 parent
@@ -4104,8 +4102,10 @@ GetParent
 {
 if
 (
+const
 nsFieldSetFrame
 *
+const
 fieldset
 =
 do_QueryFrame
@@ -4114,8 +4114,10 @@ parent
 )
 )
 {
+const
 auto
 *
+const
 legend
 =
 fieldset
@@ -4197,10 +4199,6 @@ SetSize
 wm
 finalSize
 )
-;
-mHaveReflowed
-=
-true
 ;
 }
 #
