@@ -79,6 +79,9 @@ MacroAssembler
 &
 masm
 ;
+ARMRegister
+cycleGeneralReg_
+;
 uint32_t
 pushedAtStart_
 ;
