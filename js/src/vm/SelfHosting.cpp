@@ -16294,6 +16294,15 @@ intl_toLocaleUpperCase
 )
 #
 endif
+JS_FN
+(
+"
+new_List
+"
+intrinsic_newList
+0
+0
+)
 JS_INLINABLE_FN
 (
 "

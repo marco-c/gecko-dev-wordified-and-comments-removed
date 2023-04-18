@@ -1144,8 +1144,9 @@ lastIndex
 var
 results
 =
-[
-]
+new_List
+(
+)
 ;
 var
 nResults
@@ -1494,8 +1495,9 @@ firstDollarIndex
 var
 captures
 =
-[
-]
+new_List
+(
+)
 ;
 var
 capturesLength
@@ -1912,8 +1914,9 @@ S
 var
 captures
 =
-[
-]
+new_List
+(
+)
 ;
 for
 (
