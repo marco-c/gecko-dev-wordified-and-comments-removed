@@ -542,6 +542,16 @@ aSuspectedCCObjects
 )
 ;
 void
+PokeMinorGC
+(
+JS
+:
+:
+GCReason
+aReason
+)
+;
+void
 UserIsInactive
 (
 )

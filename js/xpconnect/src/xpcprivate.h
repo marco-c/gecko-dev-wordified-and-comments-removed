@@ -1164,6 +1164,13 @@ aNewRecursionDepth
 )
 override
 ;
+virtual
+void
+MaybePokeGC
+(
+)
+override
+;
 ~
 XPCJSContext
 (

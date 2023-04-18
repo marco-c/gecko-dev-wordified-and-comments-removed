@@ -432,6 +432,12 @@ aDelay
 ;
 static
 void
+MaybePokeGC
+(
+)
+;
+static
+void
 DoLowMemoryGC
 (
 )
