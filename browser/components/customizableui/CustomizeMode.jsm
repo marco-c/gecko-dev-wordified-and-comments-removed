@@ -243,11 +243,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -270,7 +276,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AMTelemetry
 "
@@ -293,7 +299,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DragPositionManager
 "
@@ -315,7 +321,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserUsageTelemetry
 "
@@ -337,7 +343,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SessionStore
 "
@@ -361,7 +367,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gWidgetsBundle
 "
@@ -405,7 +411,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gTouchBarUpdater
 "
@@ -432,7 +438,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -1158,6 +1164,8 @@ true
 "
 )
 ;
+lazy
+.
 SessionStore
 .
 persistTabAttribute
@@ -1435,6 +1443,8 @@ _handler
 isExitingCustomizeMode
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2127,6 +2137,8 @@ _updateEmptyPaletteNotice
 (
 )
 ;
+lazy
+.
 AddonManager
 .
 addAddonListener
@@ -2186,6 +2198,8 @@ e
 =
 >
 {
+lazy
+.
 log
 .
 error
@@ -2254,6 +2268,8 @@ _handler
 isEnteringCustomizeMode
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2297,6 +2313,8 @@ this
 resetting
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2351,6 +2369,8 @@ _teardownDownloadAutoHideToggle
 (
 )
 ;
+lazy
+.
 AddonManager
 .
 removeAddonListener
@@ -2770,6 +2790,8 @@ e
 =
 >
 {
+lazy
+.
 log
 .
 error
@@ -3535,6 +3557,8 @@ CustomizableUI
 AREA_NAVBAR
 )
 ;
+lazy
+.
 BrowserUsageTelemetry
 .
 recordWidgetChange
@@ -3703,6 +3727,8 @@ id
 panel
 )
 ;
+lazy
+.
 BrowserUsageTelemetry
 .
 recordWidgetChange
@@ -3956,6 +3982,8 @@ aNode
 id
 )
 ;
+lazy
+.
 BrowserUsageTelemetry
 .
 recordWidgetChange
@@ -4196,6 +4224,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -4231,6 +4261,8 @@ if
 widgetNode
 )
 {
+lazy
+.
 log
 .
 error
@@ -5479,6 +5511,8 @@ setAttribute
 "
 title
 "
+lazy
+.
 gWidgetsBundle
 .
 GetStringFromName
@@ -5627,6 +5661,8 @@ if
 toolbarItem
 )
 {
+lazy
+.
 log
 .
 error
@@ -5988,6 +6024,8 @@ child
 .
 catch
 (
+lazy
+.
 log
 .
 error
@@ -6105,6 +6143,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -6477,6 +6517,8 @@ clear
 .
 catch
 (
+lazy
+.
 log
 .
 error
@@ -6606,6 +6648,8 @@ exit
 .
 catch
 (
+lazy
+.
 log
 .
 error
@@ -6699,6 +6743,8 @@ false
 .
 catch
 (
+lazy
+.
 log
 .
 error
@@ -7198,6 +7244,8 @@ openAddonsManagerThemes
 (
 )
 {
+lazy
+.
 AMTelemetry
 .
 recordLinkEvent
@@ -7251,6 +7299,8 @@ hidePopup
 (
 )
 ;
+lazy
+.
 AMTelemetry
 .
 recordLinkEvent
@@ -8139,6 +8189,8 @@ spacer
 let
 isTouchBarInitialized
 =
+lazy
+.
 gTouchBarUpdater
 .
 isTouchBarInitialized
@@ -8567,6 +8619,8 @@ _teardownPaletteDragging
 (
 )
 {
+lazy
+.
 DragPositionManager
 .
 stop
@@ -9164,6 +9218,8 @@ hidden
 =
 true
 ;
+lazy
+.
 DragPositionManager
 .
 start
@@ -10294,6 +10350,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -10465,6 +10523,8 @@ drag
 "
 )
 ;
+lazy
+.
 BrowserUsageTelemetry
 .
 recordWidgetChange
@@ -10736,6 +10796,8 @@ aTargetArea
 id
 )
 ;
+lazy
+.
 BrowserUsageTelemetry
 .
 recordWidgetChange
@@ -10883,6 +10945,8 @@ if
 placement
 )
 {
+lazy
+.
 log
 .
 debug
@@ -10945,6 +11009,8 @@ aDraggedItemId
 position
 )
 ;
+lazy
+.
 BrowserUsageTelemetry
 .
 recordWidgetChange
@@ -10972,6 +11038,8 @@ id
 position
 )
 ;
+lazy
+.
 BrowserUsageTelemetry
 .
 recordWidgetChange
@@ -11279,6 +11347,8 @@ _dragOverItem
 null
 ;
 }
+lazy
+.
 DragPositionManager
 .
 stop
@@ -11897,6 +11967,8 @@ return
 let
 positionManager
 =
+lazy
+.
 DragPositionManager
 .
 getManagerForArea
@@ -11960,6 +12032,8 @@ draggedWrapper
 let
 positionManager
 =
+lazy
+.
 DragPositionManager
 .
 getManagerForArea
@@ -12620,6 +12694,8 @@ else
 let
 positionManager
 =
+lazy
+.
 DragPositionManager
 .
 getManagerForArea
@@ -12667,6 +12743,8 @@ _onMouseDown
 aEvent
 )
 {
+lazy
+.
 log
 .
 debug
@@ -12748,6 +12826,8 @@ _onMouseUp
 aEvent
 )
 {
+lazy
+.
 log
 .
 debug
@@ -13337,6 +13417,8 @@ bar
 insertionPoint
 )
 ;
+lazy
+.
 BrowserUsageTelemetry
 .
 recordWidgetChange
@@ -15933,6 +16015,8 @@ str
 }
 "
 ;
+lazy
+.
 log
 .
 debug
