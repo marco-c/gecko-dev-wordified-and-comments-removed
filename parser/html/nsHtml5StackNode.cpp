@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsHtml5MetaScanner
-.
-h
-"
-#
-include
-"
 nsHtml5UTF16Buffer
 .
 h

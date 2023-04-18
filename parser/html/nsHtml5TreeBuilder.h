@@ -196,9 +196,6 @@ class
 nsHtml5Tokenizer
 ;
 class
-nsHtml5MetaScanner
-;
-class
 nsHtml5UTF16Buffer
 ;
 class
