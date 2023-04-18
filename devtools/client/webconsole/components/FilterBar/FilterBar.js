@@ -380,6 +380,13 @@ FILTERBAR_DISPLAY_MODES
 )
 .
 isRequired
+enableNetworkMonitoring
+:
+PropTypes
+.
+bool
+.
+isRequired
 filter
 :
 PropTypes
@@ -611,6 +618,7 @@ const
 {
 closeButtonVisible
 displayMode
+enableNetworkMonitoring
 filter
 filteredMessagesCount
 groupWarnings
@@ -643,6 +651,15 @@ displayMode
 =
 =
 displayMode
+|
+|
+nextProps
+.
+enableNetworkMonitoring
+!
+=
+=
+enableNetworkMonitoring
 |
 |
 nextProps
@@ -1610,6 +1627,7 @@ renderSettingsButton
 const
 {
 dispatch
+enableNetworkMonitoring
 eagerEvaluation
 groupWarnings
 persistLogs
@@ -1628,6 +1646,7 @@ ConsoleSettings
 (
 {
 dispatch
+enableNetworkMonitoring
 eagerEvaluation
 groupWarnings
 persistLogs
@@ -2021,6 +2040,11 @@ autocomplete
 prefsState
 .
 autocomplete
+enableNetworkMonitoring
+:
+uiState
+.
+enableNetworkMonitoring
 }
 ;
 }
