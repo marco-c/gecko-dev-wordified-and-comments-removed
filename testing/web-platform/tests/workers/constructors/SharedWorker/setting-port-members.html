@@ -275,11 +275,8 @@ onmessage
 =
 f
 ;
-worker
-.
-port
-.
-onmessage
+const
+handler
 =
 {
 handleEvent
@@ -292,6 +289,14 @@ handleEvent
 }
 }
 ;
+worker
+.
+port
+.
+onmessage
+=
+handler
+;
 assert_equals
 (
 worker
@@ -299,7 +304,7 @@ worker
 port
 .
 onmessage
-null
+handler
 '
 {
 handleEvent
