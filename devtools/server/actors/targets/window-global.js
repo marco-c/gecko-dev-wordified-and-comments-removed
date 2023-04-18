@@ -546,6 +546,7 @@ docShell
 followWindowGlobalLifeCycle
 isTopLevelTarget
 ignoreSubFrames
+sessionContext
 }
 )
 {
@@ -619,6 +620,12 @@ this
 ignoreSubFrames
 =
 ignoreSubFrames
+;
+this
+.
+sessionContext
+=
+sessionContext
 ;
 this
 .
