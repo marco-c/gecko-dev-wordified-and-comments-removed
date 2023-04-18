@@ -13951,6 +13951,12 @@ get
 =
 =
 slot
+|
+|
+PK11_HasRootCerts
+(
+slot
+)
 )
 {
 MOZ_LOG
@@ -13966,6 +13972,8 @@ Debug
 looking
 at
 internal
+/
+builtin
 slot
 )
 "
