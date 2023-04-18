@@ -68,7 +68,7 @@ notifications
 ;
 Services
 .
-os
+obs
 .
 addObserver
 (
