@@ -138,8 +138,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 Http2Stream
@@ -6276,11 +6276,7 @@ classFlags
 trans
 -
 >
-GetClassOfService
-(
-)
-.
-Flags
+ClassOfService
 (
 )
 ;
@@ -8323,5 +8319,6 @@ GetOriginAttributes
 oa
 )
 ;
+}
 }
 }

@@ -201,11 +201,6 @@ addCertFromFile
 (
 certdb
 "
-.
-.
-/
-unit
-/
 http2
 -
 ca

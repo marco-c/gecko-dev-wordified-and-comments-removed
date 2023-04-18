@@ -208,11 +208,6 @@ ClassifierDummyChannelParent
 h
 "
 "
-ClassOfService
-.
-h
-"
-"
 EarlyHintsService
 .
 h

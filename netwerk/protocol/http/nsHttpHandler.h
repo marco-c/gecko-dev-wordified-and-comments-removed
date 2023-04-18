@@ -189,8 +189,8 @@ nsIStreamConverterService
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 bool
@@ -949,9 +949,7 @@ UpdateClassOfServiceOnTransaction
 HttpTransactionShell
 *
 trans
-const
-ClassOfService
-&
+uint32_t
 classOfService
 )
 ;
@@ -3191,6 +3189,7 @@ mCallback
 ;
 }
 ;
+}
 }
 #
 endif

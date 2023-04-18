@@ -92,8 +92,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 class
@@ -849,6 +849,7 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 HttpTransactionParent
 HTTP_TRANSACTION_PARENT_IID
 )
+}
 }
 #
 endif

@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 class
@@ -126,6 +126,7 @@ sHttpUpgradeListenerMap
 ;
 }
 ;
+}
 }
 #
 endif

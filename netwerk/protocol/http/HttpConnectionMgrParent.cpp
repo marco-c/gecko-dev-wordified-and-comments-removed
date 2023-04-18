@@ -92,8 +92,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 nsTHashMap
@@ -709,9 +709,7 @@ UpdateClassOfServiceOnTransaction
 HttpTransactionShell
 *
 aTrans
-const
-ClassOfService
-&
+uint32_t
 aClassOfService
 )
 {
@@ -1341,5 +1339,6 @@ AsHttpConnectionMgrParent
 return
 this
 ;
+}
 }
 }

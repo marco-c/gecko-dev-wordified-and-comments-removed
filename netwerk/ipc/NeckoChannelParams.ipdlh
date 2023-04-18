@@ -83,17 +83,6 @@ AntiTrackingIPCUtils
 h
 "
 ;
-include
-"
-mozilla
-/
-net
-/
-ClassOfService
-.
-h
-"
-;
 using
 mozilla
 :
@@ -676,7 +665,7 @@ uploadStreamHasHeaders
 int16_t
 priority
 ;
-ClassOfService
+uint32_t
 classOfService
 ;
 uint8_t

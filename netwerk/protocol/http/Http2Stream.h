@@ -72,8 +72,8 @@ OriginAttributes
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 class
@@ -1234,6 +1234,7 @@ mIsWebsocket
 ;
 }
 ;
+}
 }
 #
 endif

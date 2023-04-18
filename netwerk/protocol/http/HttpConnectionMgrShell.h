@@ -22,8 +22,8 @@ nsIInterfaceRequestor
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 class
@@ -49,9 +49,6 @@ HttpConnectionMgrParent
 ;
 class
 SpeculativeTransaction
-;
-class
-ClassOfService
 ;
 #
 define
@@ -326,9 +323,7 @@ UpdateClassOfServiceOnTransaction
 (
 HttpTransactionShell
 *
-const
-ClassOfService
-&
+uint32_t
 classOfService
 )
 =
@@ -721,9 +716,7 @@ UpdateClassOfServiceOnTransaction
 \
 HttpTransactionShell
 *
-const
-ClassOfService
-&
+uint32_t
 classOfService
 )
 override
@@ -879,6 +872,7 @@ AsHttpConnectionMgrParent
 )
 override
 ;
+}
 }
 #
 endif

@@ -114,8 +114,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 NS_IMPL_ADDREF
@@ -420,7 +420,7 @@ trafficCategory
 nsIRequestContext
 *
 requestContext
-ClassOfService
+uint32_t
 classOfService
 uint32_t
 initialRwin
@@ -4461,5 +4461,6 @@ GetSupportsHTTP3
 return
 mSupportsHTTP3
 ;
+}
 }
 }

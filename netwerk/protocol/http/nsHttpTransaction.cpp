@@ -369,8 +369,8 @@ net
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 nsHttpTransaction
@@ -568,7 +568,7 @@ const
 {
 return
 (
-mClassOfServiceFlags
+mClassOfService
 &
 (
 nsIClassOfService
@@ -606,7 +606,7 @@ nsHttpTransaction
 :
 SetClassOfService
 (
-ClassOfService
+uint32_t
 cos
 )
 {
@@ -625,21 +625,9 @@ EligibleForThrottling
 (
 )
 ;
-mClassOfServiceFlags
+mClassOfService
 =
 cos
-.
-Flags
-(
-)
-;
-mClassOfServiceIncremental
-=
-cos
-.
-Incremental
-(
-)
 ;
 bool
 isThrottling
@@ -1009,7 +997,7 @@ trafficCategory
 nsIRequestContext
 *
 requestContext
-ClassOfService
+uint32_t
 classOfService
 uint32_t
 initialRwin
@@ -3879,7 +3867,7 @@ ShouldThrottle
 {
 if
 (
-mClassOfServiceFlags
+mClassOfService
 &
 nsIClassOfService
 :
@@ -3954,7 +3942,7 @@ if
 (
 !
 (
-mClassOfServiceFlags
+mClassOfService
 &
 nsIClassOfService
 :
@@ -16377,5 +16365,6 @@ Assign
 mHashKeyOfConnectionEntry
 )
 ;
+}
 }
 }

@@ -19,13 +19,6 @@ h
 #
 include
 "
-nsIClassOfService
-.
-h
-"
-#
-include
-"
 TimingStruct
 .
 h
@@ -82,8 +75,8 @@ nsITransportEventSink
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 enum
@@ -228,7 +221,7 @@ trafficCategory
 nsIRequestContext
 *
 requestContext
-ClassOfService
+uint32_t
 classOfService
 uint32_t
 initialRwin
@@ -687,7 +680,7 @@ nsIRequestContext
 *
 requestContext
 \
-ClassOfService
+uint32_t
 classOfService
 uint32_t
 initialRwin
@@ -1103,6 +1096,7 @@ GetSupportsHTTP3
 )
 override
 ;
+}
 }
 #
 endif

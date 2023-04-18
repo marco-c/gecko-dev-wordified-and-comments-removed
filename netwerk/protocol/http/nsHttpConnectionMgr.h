@@ -134,8 +134,8 @@ nsIHttpUpgradeListener
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 class
@@ -1073,7 +1073,7 @@ ARefBase
 void
 OnMsgUpdateClassOfServiceOnTransaction
 (
-ClassOfService
+int32_t
 ARefBase
 *
 )
@@ -1454,6 +1454,7 @@ aTrans
 ;
 }
 ;
+}
 }
 #
 endif

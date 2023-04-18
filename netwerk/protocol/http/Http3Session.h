@@ -91,8 +91,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 class
@@ -945,6 +945,7 @@ Http3Session
 NS_HTTP3SESSION_IID
 )
 ;
+}
 }
 #
 endif

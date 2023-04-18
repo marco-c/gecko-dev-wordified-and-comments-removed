@@ -15500,9 +15500,7 @@ UpdateClassOfServiceOnTransaction
 HttpTransactionShell
 *
 trans
-const
-ClassOfService
-&
+uint32_t
 classOfService
 )
 {
