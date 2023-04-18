@@ -603,6 +603,14 @@ GetSignalImpl
 const
 override
 ;
+AbortSignalImpl
+*
+GetSignalImplToConsumeBody
+(
+)
+const
+final
+;
 private
 :
 ~
