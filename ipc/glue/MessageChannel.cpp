@@ -12603,6 +12603,9 @@ if
 pid
 !
 =
+base
+:
+:
 kInvalidProcessId
 &
 &

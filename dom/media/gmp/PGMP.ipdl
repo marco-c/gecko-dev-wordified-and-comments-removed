@@ -35,6 +35,9 @@ mozilla
 namespace
 gmp
 {
+[
+NeedsOtherPid
+]
 intr
 protocol
 PGMP

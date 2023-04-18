@@ -66,6 +66,9 @@ enableLogging
 ;
 }
 ;
+[
+NeedsOtherPid
+]
 intr
 protocol
 PRemoteSandboxBroker

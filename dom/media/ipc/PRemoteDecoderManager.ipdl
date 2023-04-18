@@ -119,6 +119,9 @@ VideoDecoderInfoIPDL
 ;
 }
 ;
+[
+NeedsOtherPid
+]
 sync
 protocol
 PRemoteDecoderManager

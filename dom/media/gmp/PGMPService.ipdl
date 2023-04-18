@@ -27,6 +27,7 @@ gmp
 {
 [
 RefCounted
+NeedsOtherPid
 ]
 sync
 protocol

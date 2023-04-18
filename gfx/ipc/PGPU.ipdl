@@ -301,6 +301,9 @@ ownerId
 ;
 }
 ;
+[
+NeedsOtherPid
+]
 sync
 protocol
 PGPU

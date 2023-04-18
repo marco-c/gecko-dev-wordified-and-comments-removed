@@ -129,6 +129,9 @@ mozilla
 namespace
 layers
 {
+[
+NeedsOtherPid
+]
 sync
 protocol
 PImageBridge

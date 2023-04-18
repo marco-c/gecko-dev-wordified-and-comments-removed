@@ -80,6 +80,7 @@ layers
 {
 [
 RefCounted
+NeedsOtherPid
 ]
 async
 protocol

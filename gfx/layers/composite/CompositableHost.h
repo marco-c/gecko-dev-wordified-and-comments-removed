@@ -171,10 +171,7 @@ AsyncCompositableRef
 :
 mProcessId
 (
-mozilla
-:
-:
-ipc
+base
 :
 :
 kInvalidProcessId

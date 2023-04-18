@@ -139,6 +139,9 @@ endif
 namespace
 mozilla
 {
+[
+NeedsOtherPid
+]
 protocol
 PRDD
 {

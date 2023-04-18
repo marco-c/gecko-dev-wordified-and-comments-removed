@@ -49,6 +49,9 @@ mozilla
 namespace
 layers
 {
+[
+NeedsOtherPid
+]
 sync
 protocol
 PUiCompositorController

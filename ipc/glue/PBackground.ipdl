@@ -392,6 +392,7 @@ ipc
 {
 [
 RefCounted
+NeedsOtherPid
 ]
 sync
 protocol

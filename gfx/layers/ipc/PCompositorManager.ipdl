@@ -258,6 +258,9 @@ SameProcessWidgetCompositorOptions
 ;
 }
 ;
+[
+NeedsOtherPid
+]
 sync
 protocol
 PCompositorManager

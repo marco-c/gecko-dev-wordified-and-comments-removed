@@ -1502,7 +1502,7 @@ return
 ;
 }
 return
-IProtocol
+PHttpChannelParent
 :
 :
 OtherPid

@@ -192,6 +192,9 @@ mozilla
 namespace
 gfx
 {
+[
+NeedsOtherPid
+]
 sync
 protocol
 PVRManager
