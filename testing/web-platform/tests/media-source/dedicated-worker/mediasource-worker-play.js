@@ -146,7 +146,9 @@ onupdateend
 =
 >
 {
-sourceBuffer
+util
+.
+mediaSource
 .
 duration
 =
