@@ -93,13 +93,9 @@ NS_DECL_NSIINPUTSTREAM
 nsresult
 InitFile
 (
-nsZipHandle
+nsJAR
 *
-aFd
-const
-uint8_t
-*
-aData
+aJar
 nsZipItem
 *
 item

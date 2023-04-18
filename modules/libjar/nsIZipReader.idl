@@ -126,7 +126,6 @@ nsIFile
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 fad6f72f
@@ -192,9 +191,6 @@ appnote
 /
 *
 /
-[
-infallible
-]
 readonly
 attribute
 unsigned
@@ -217,9 +213,6 @@ item
 .
 *
 /
-[
-infallible
-]
 readonly
 attribute
 unsigned
@@ -242,9 +235,6 @@ item
 .
 *
 /
-[
-infallible
-]
 readonly
 attribute
 unsigned
@@ -269,9 +259,6 @@ entry
 .
 *
 /
-[
-infallible
-]
 readonly
 attribute
 unsigned
@@ -300,9 +287,6 @@ otherwise
 .
 *
 /
-[
-infallible
-]
 readonly
 attribute
 boolean
@@ -447,9 +431,6 @@ synthetic
 .
 *
 /
-[
-infallible
-]
 readonly
 attribute
 boolean
@@ -470,9 +451,6 @@ item
 .
 *
 /
-[
-infallible
-]
 readonly
 attribute
 unsigned
