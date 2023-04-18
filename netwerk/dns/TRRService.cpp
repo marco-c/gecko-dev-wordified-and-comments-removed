@@ -320,6 +320,14 @@ xfinity
 com
 "
 _ns
+"
+dns
+.
+shaw
+.
+ca
+"
+_ns
 }
 ;
 const
