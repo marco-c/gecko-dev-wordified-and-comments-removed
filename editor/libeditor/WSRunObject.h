@@ -5220,14 +5220,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 static
-Result
-<
-RefPtr
-<
-Element
->
-nsresult
->
+CreateElementResult
 InsertBRElement
 (
 HTMLEditor
@@ -5237,6 +5230,9 @@ const
 EditorDOMPoint
 &
 aPointToInsert
+Element
+&
+aEditingHost
 )
 ;
 template
