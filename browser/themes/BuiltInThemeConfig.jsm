@@ -201,7 +201,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022red
 /
@@ -243,7 +243,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022orange
 /
@@ -285,7 +285,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022green
 /
@@ -327,7 +327,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022yellow
 /
@@ -369,7 +369,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022purple
 /
@@ -411,7 +411,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022blue
 /
@@ -455,7 +455,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021lush
 /
@@ -503,7 +503,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021lush
 /
@@ -551,7 +551,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021lush
 /
@@ -599,7 +599,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021abstract
 /
@@ -647,7 +647,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021abstract
 /
@@ -695,7 +695,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021abstract
 /
@@ -743,7 +743,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021elemental
 /
@@ -791,7 +791,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021elemental
 /
@@ -839,7 +839,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021elemental
 /
@@ -887,7 +887,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021cheers
 /
@@ -935,7 +935,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021cheers
 /
@@ -983,7 +983,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021cheers
 /
@@ -1031,7 +1031,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021graffiti
 /
@@ -1079,7 +1079,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021graffiti
 /
@@ -1127,7 +1127,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021graffiti
 /
@@ -1175,7 +1175,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021foto
 /
@@ -1223,7 +1223,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021foto
 /
@@ -1271,7 +1271,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021foto
 /
@@ -1319,7 +1319,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022playmaker
 /
@@ -1365,7 +1365,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022playmaker
 /
@@ -1411,7 +1411,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022playmaker
 /
@@ -1457,7 +1457,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022expressionist
 /
@@ -1503,7 +1503,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022expressionist
 /
@@ -1549,7 +1549,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022expressionist
 /
@@ -1595,7 +1595,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022visionary
 /
@@ -1641,7 +1641,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022visionary
 /
@@ -1687,7 +1687,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022visionary
 /
@@ -1733,7 +1733,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022activist
 /
@@ -1779,7 +1779,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022activist
 /
@@ -1825,7 +1825,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022activist
 /
@@ -1871,7 +1871,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022dreamer
 /
@@ -1917,7 +1917,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022dreamer
 /
@@ -1963,7 +1963,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022dreamer
 /
@@ -2009,7 +2009,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022innovator
 /
@@ -2055,7 +2055,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022innovator
 /
@@ -2101,7 +2101,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2022innovator
 /
