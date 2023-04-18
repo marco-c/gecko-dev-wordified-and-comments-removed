@@ -970,14 +970,14 @@ app
 "
 )
         
+setattr
+(
 options
-[
 "
 disable_fission
 "
-]
-=
 True
+)
         
 return
 runtestsremote
