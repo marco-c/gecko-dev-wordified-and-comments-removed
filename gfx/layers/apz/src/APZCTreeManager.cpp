@@ -9201,6 +9201,17 @@ if
 mHit
 .
 mHitOverscrollGutter
+&
+&
+mHit
+.
+mFixedPosSides
+=
+=
+SideBits
+:
+:
+eNone
 )
 {
 mResult

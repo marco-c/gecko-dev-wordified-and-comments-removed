@@ -3114,7 +3114,7 @@ IsInOverscrollGutter
 const
 ScreenPoint
 &
-aPoint
+aHitTestPoint
 )
 const
 ;
@@ -3124,7 +3124,7 @@ IsInOverscrollGutter
 const
 ParentLayerPoint
 &
-aPoint
+aHitTestPoint
 )
 const
 ;
