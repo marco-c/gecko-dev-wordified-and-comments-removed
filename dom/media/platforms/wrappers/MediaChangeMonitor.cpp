@@ -62,12 +62,17 @@ VPXDecoder
 h
 "
 #
+ifdef
+MOZ_AV1
+#
 include
 "
 AOMDecoder
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1658,6 +1663,9 @@ mPixelAspectRatio
 ;
 }
 ;
+#
+ifdef
+MOZ_AV1
 class
 AV1ChangeMonitor
 :
@@ -2371,6 +2379,8 @@ mPixelAspectRatio
 ;
 }
 ;
+#
+endif
 MediaChangeMonitor
 :
 :
@@ -2488,6 +2498,9 @@ VPXChangeMonitor
 currentConfig
 )
 ;
+#
+ifdef
+MOZ_AV1
 }
 else
 if
@@ -2513,6 +2526,8 @@ AV1ChangeMonitor
 currentConfig
 )
 ;
+#
+endif
 }
 else
 {

@@ -20,12 +20,17 @@ VPXDecoder
 h
 "
 #
+ifdef
+MOZ_AV1
+#
 include
 "
 AOMDecoder
 .
 h
 "
+#
+endif
 #
 include
 "
