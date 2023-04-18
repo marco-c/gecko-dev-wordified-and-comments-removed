@@ -27533,7 +27533,7 @@ SymbolicAddressSignature
 &
 callee
 =
-SASigTableGet
+SASigTableGetFunc
 ;
 CallCompileState
 args
@@ -28069,7 +28069,7 @@ SymbolicAddressSignature
 &
 callee
 =
-SASigTableSet
+SASigTableSetFunc
 ;
 CallCompileState
 args
