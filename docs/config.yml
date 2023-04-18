@@ -149,6 +149,12 @@ configs
 -
 testing
 /
+chrome
+-
+tests
+-
+testing
+/
 marionette
 -
 testing
