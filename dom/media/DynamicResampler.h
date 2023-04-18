@@ -1033,8 +1033,6 @@ uint32_t
 aOutRate
 uint32_t
 aPreBufferFrames
-=
-0
 )
 ;
 void
