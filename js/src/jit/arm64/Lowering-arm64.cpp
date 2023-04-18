@@ -7013,10 +7013,11 @@ rhs
 )
 )
 ;
-define
+defineReuseInput
 (
 lir
 ins
+0
 )
 ;
 }
