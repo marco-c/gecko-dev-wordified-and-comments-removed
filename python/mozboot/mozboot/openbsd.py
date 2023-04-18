@@ -164,8 +164,6 @@ def
 ensure_clang_static_analysis_package
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -175,8 +173,6 @@ def
 ensure_stylo_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -198,8 +194,6 @@ def
 ensure_nasm_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -209,8 +203,6 @@ def
 ensure_node_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         

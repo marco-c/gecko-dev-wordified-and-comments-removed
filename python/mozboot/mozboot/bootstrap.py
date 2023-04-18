@@ -1242,12 +1242,8 @@ args
 def
 maybe_install_private_packages_or_exit
 (
-        
 self
-state_dir
-checkout_root
 application
-    
 )
 :
         
@@ -1257,8 +1253,6 @@ instance
 .
 ensure_node_packages
 (
-state_dir
-checkout_root
 )
         
 self
@@ -1267,8 +1261,6 @@ instance
 .
 ensure_fix_stacks_packages
 (
-state_dir
-checkout_root
 )
         
 self
@@ -1277,8 +1269,6 @@ instance
 .
 ensure_minidump_stackwalk_packages
 (
-state_dir
-checkout_root
 )
         
 if
@@ -1296,8 +1286,6 @@ instance
 .
 ensure_stylo_packages
 (
-state_dir
-checkout_root
 )
             
 self
@@ -1306,8 +1294,6 @@ instance
 .
 ensure_clang_static_analysis_package
 (
-state_dir
-checkout_root
 )
             
 self
@@ -1316,8 +1302,6 @@ instance
 .
 ensure_nasm_packages
 (
-state_dir
-checkout_root
 )
             
 self
@@ -1326,8 +1310,6 @@ instance
 .
 ensure_sccache_packages
 (
-state_dir
-checkout_root
 )
         
 getattr
@@ -1344,10 +1326,6 @@ s_packages
 application
 )
 (
-            
-state_dir
-checkout_root
-        
 )
     
 def
@@ -1946,9 +1924,16 @@ self
 .
 instance
 .
+srcdir
+=
+checkout_root
+        
+self
+.
+instance
+.
 validate_environment
 (
-checkout_root
 )
         
 self
@@ -1969,11 +1954,7 @@ self
 .
 maybe_install_private_packages_or_exit
 (
-                
-state_dir
-checkout_root
 application
-            
 )
             
 self
@@ -2182,11 +2163,7 @@ self
 .
 maybe_install_private_packages_or_exit
 (
-            
-state_dir
-checkout_root
 application
-        
 )
         
 self

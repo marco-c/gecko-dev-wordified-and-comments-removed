@@ -341,8 +341,6 @@ def
 ensure_clang_static_analysis_package
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -355,13 +353,9 @@ self
 .
 install_toolchain_static_analysis
 (
-            
-state_dir
-checkout_root
 static_analysis
 .
 LINUX_CLANG_TIDY
-        
 )
     
 def

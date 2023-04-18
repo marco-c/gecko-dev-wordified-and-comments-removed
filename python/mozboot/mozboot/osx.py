@@ -518,8 +518,6 @@ def
 ensure_mobile_android_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -566,26 +564,18 @@ self
 .
 install_toolchain_artifact
 (
-                
-state_dir
-checkout_root
 android
 .
 MACOS_X86_64_ANDROID_AVD
-            
 )
             
 self
 .
 install_toolchain_artifact
 (
-                
-state_dir
-checkout_root
 android
 .
 MACOS_ARM_ANDROID_AVD
-            
 )
         
 elif
@@ -601,13 +591,9 @@ self
 .
 install_toolchain_artifact
 (
-                
-state_dir
-checkout_root
 android
 .
 MACOS_ARM64_ANDROID_AVD
-            
 )
     
 def
@@ -858,8 +844,6 @@ def
 ensure_node_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -869,8 +853,6 @@ def
 ensure_stylo_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -880,8 +862,6 @@ def
 ensure_clang_static_analysis_package
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -891,8 +871,6 @@ def
 ensure_nasm_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1617,8 +1595,6 @@ def
 ensure_clang_static_analysis_package
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1631,21 +1607,15 @@ self
 .
 install_toolchain_static_analysis
 (
-            
-state_dir
-checkout_root
 static_analysis
 .
 MACOS_CLANG_TIDY
-        
 )
     
 def
 ensure_sccache_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1658,8 +1628,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 sccache
 .
 MACOS_SCCACHE
@@ -1669,40 +1637,30 @@ self
 .
 install_toolchain_artifact
 (
-            
-state_dir
-checkout_root
 sccache
 .
 RUSTC_DIST_TOOLCHAIN
 no_unpack
 =
 True
-        
 )
         
 self
 .
 install_toolchain_artifact
 (
-            
-state_dir
-checkout_root
 sccache
 .
 CLANG_DIST_TOOLCHAIN
 no_unpack
 =
 True
-        
 )
     
 def
 ensure_fix_stacks_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1715,21 +1673,15 @@ self
 .
 install_toolchain_artifact
 (
-            
-state_dir
-checkout_root
 fix_stacks
 .
 MACOS_FIX_STACKS
-        
 )
     
 def
 ensure_stylo_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1742,8 +1694,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 stylo
 .
 MACOS_CLANG
@@ -1753,8 +1703,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 stylo
 .
 MACOS_CBINDGEN
@@ -1764,8 +1712,6 @@ def
 ensure_nasm_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1778,8 +1724,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 nasm
 .
 MACOS_NASM
@@ -1789,8 +1733,6 @@ def
 ensure_node_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1803,8 +1745,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 node
 .
 OSX
@@ -1814,8 +1754,6 @@ def
 ensure_minidump_stackwalk_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1828,13 +1766,9 @@ self
 .
 install_toolchain_artifact
 (
-            
-state_dir
-checkout_root
 minidump_stackwalk
 .
 MACOS_MINIDUMP_STACKWALK
-        
 )
     
 def

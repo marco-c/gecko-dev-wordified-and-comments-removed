@@ -487,8 +487,6 @@ def
 ensure_mobile_android_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -544,8 +542,6 @@ def
 ensure_clang_static_analysis_package
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -558,21 +554,15 @@ self
 .
 install_toolchain_static_analysis
 (
-            
-state_dir
-checkout_root
 static_analysis
 .
 WINDOWS_CLANG_TIDY
-        
 )
     
 def
 ensure_stylo_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -640,8 +630,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 stylo
 .
 WINDOWS_CLANG
@@ -651,21 +639,15 @@ self
 .
 install_toolchain_artifact
 (
-            
-state_dir
-checkout_root
 stylo
 .
 WINDOWS_CBINDGEN
-        
 )
     
 def
 ensure_nasm_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -678,8 +660,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 nasm
 .
 WINDOWS_NASM
@@ -689,8 +669,6 @@ def
 ensure_node_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -717,8 +695,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 node_artifact
 )
     

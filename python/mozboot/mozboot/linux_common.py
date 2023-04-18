@@ -46,8 +46,6 @@ def
 ensure_sccache_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -60,8 +58,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 sccache
 .
 LINUX_SCCACHE
@@ -89,8 +85,6 @@ def
 ensure_fix_stacks_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -103,13 +97,9 @@ self
 .
 install_toolchain_artifact
 (
-            
-state_dir
-checkout_root
 fix_stacks
 .
 LINUX_FIX_STACKS
-        
 )
 class
 StyloInstall
@@ -134,8 +124,6 @@ def
 ensure_stylo_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -185,8 +173,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 stylo
 .
 LINUX_CLANG
@@ -196,8 +182,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 stylo
 .
 LINUX_CBINDGEN
@@ -225,8 +209,6 @@ def
 ensure_nasm_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -272,8 +254,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 nasm
 .
 LINUX_NASM
@@ -301,8 +281,6 @@ def
 ensure_node_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -349,8 +327,6 @@ self
 .
 install_toolchain_artifact
 (
-state_dir
-checkout_root
 node
 .
 LINUX
@@ -378,8 +354,6 @@ def
 ensure_clang_static_analysis_package
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -427,13 +401,9 @@ self
 .
 install_toolchain_static_analysis
 (
-            
-state_dir
-checkout_root
 static_analysis
 .
 LINUX_CLANG_TIDY
-        
 )
 class
 MinidumpStackwalkInstall
@@ -458,8 +428,6 @@ def
 ensure_minidump_stackwalk_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -472,13 +440,9 @@ self
 .
 install_toolchain_artifact
 (
-            
-state_dir
-checkout_root
 minidump_stackwalk
 .
 LINUX_MINIDUMP_STACKWALK
-        
 )
 class
 MobileAndroidBootstrapper
@@ -634,8 +598,6 @@ def
 ensure_mobile_android_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -662,26 +624,18 @@ self
 .
 install_toolchain_artifact
 (
-            
-state_dir
-checkout_root
 android
 .
 LINUX_X86_64_ANDROID_AVD
-        
 )
         
 self
 .
 install_toolchain_artifact
 (
-            
-state_dir
-checkout_root
 android
 .
 LINUX_ARM_ANDROID_AVD
-        
 )
     
 def
