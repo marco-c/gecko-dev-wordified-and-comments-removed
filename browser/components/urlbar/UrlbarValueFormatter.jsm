@@ -1940,13 +1940,9 @@ document
 .
 documentElement
 .
-querySelector
+hasAttribute
 (
 "
-:
--
-moz
--
 lwtheme
 "
 )
