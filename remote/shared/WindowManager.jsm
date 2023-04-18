@@ -820,7 +820,7 @@ name
 ;
 }
 }
-waitForInitialApplicationWindow
+waitForInitialApplicationWindowLoaded
 (
 )
 {
