@@ -4108,6 +4108,14 @@ hasValidTransientUserGestureActivation
 [
 ChromeOnly
 ]
+readonly
+attribute
+DOMHighResTimeStamp
+lastUserGestureTimeStamp
+;
+[
+ChromeOnly
+]
 boolean
 consumeTransientUserGestureActivation
 (

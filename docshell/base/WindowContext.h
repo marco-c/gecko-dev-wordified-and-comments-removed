@@ -67,6 +67,13 @@ h
 #
 include
 "
+nsDOMNavigationTiming
+.
+h
+"
+#
+include
+"
 nsILoadInfo
 .
 h
@@ -958,6 +965,11 @@ HasBeenUserGestureActivated
 ;
 bool
 HasValidTransientUserGestureActivation
+(
+)
+;
+DOMHighResTimeStamp
+LastUserGestureTimeStamp
 (
 )
 ;

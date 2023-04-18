@@ -10731,6 +10731,11 @@ HasBeenUserGestureActivated
 (
 )
 ;
+DOMHighResTimeStamp
+LastUserGestureTimeStamp
+(
+)
+;
 bool
 HasValidTransientUserGestureActivation
 (
