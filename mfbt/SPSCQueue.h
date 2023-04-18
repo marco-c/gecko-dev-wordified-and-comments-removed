@@ -369,9 +369,6 @@ atomic_thread_fence
 std
 :
 :
-memory_order
-:
-:
 memory_order_seq_cst
 )
 ;
@@ -453,9 +450,6 @@ load
 std
 :
 :
-memory_order
-:
-:
 memory_order_acquire
 )
 ;
@@ -467,9 +461,6 @@ mWriteIndex
 load
 (
 std
-:
-:
-memory_order
 :
 :
 memory_order_relaxed
@@ -632,9 +623,6 @@ toWrite
 std
 :
 :
-memory_order
-:
-:
 memory_order_release
 )
 ;
@@ -677,9 +665,6 @@ load
 std
 :
 :
-memory_order
-:
-:
 memory_order_acquire
 )
 ;
@@ -691,9 +676,6 @@ mReadIndex
 load
 (
 std
-:
-:
-memory_order
 :
 :
 memory_order_relaxed
@@ -813,9 +795,6 @@ toRead
 std
 :
 :
-memory_order
-:
-:
 memory_order_release
 )
 ;
@@ -839,9 +818,6 @@ load
 std
 :
 :
-memory_order
-:
-:
 memory_order_relaxed
 )
 mWriteIndex
@@ -849,9 +825,6 @@ mWriteIndex
 load
 (
 std
-:
-:
-memory_order
 :
 :
 memory_order_relaxed
@@ -875,9 +848,6 @@ load
 std
 :
 :
-memory_order
-:
-:
 memory_order_relaxed
 )
 mWriteIndex
@@ -885,9 +855,6 @@ mWriteIndex
 load
 (
 std
-:
-:
-memory_order
 :
 :
 memory_order_relaxed
