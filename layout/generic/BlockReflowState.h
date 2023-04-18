@@ -318,7 +318,7 @@ StyleClear
 aBreakType
 nsIFrame
 *
-aReplacedBlock
+aFloatAvoidingBlock
 =
 nullptr
 )
@@ -453,11 +453,11 @@ true
 ;
 }
 bool
-ReplacedBlockFitsInAvailSpace
+FloatAvoidingBlockFitsInAvailSpace
 (
 nsIFrame
 *
-aReplacedBlock
+aFloatAvoidingBlock
 const
 nsFlowAreaRect
 &
@@ -513,11 +513,11 @@ aLine
 )
 ;
 void
-ComputeReplacedBlockOffsetsForFloats
+ComputeFloatAvoidingOffsets
 (
 nsIFrame
 *
-aFrame
+aFloatAvoidingBlock
 const
 mozilla
 :

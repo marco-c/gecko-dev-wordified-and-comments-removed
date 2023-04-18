@@ -1090,7 +1090,7 @@ aFrame
 )
 ;
 struct
-ReplacedElementISizeToClear
+FloatAvoidingISizeToClear
 {
 nscoord
 marginIStart
@@ -1099,7 +1099,7 @@ borderBoxISize
 }
 ;
 static
-ReplacedElementISizeToClear
+FloatAvoidingISizeToClear
 ISizeToClearPastFloats
 (
 const
@@ -1115,7 +1115,7 @@ LogicalRect
 aFloatAvailableSpace
 nsIFrame
 *
-aFrame
+aFloatAvoidingBlock
 )
 ;
 void
