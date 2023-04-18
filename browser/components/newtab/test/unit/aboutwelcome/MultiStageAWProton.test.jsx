@@ -474,9 +474,11 @@ label
 string_id
 "
 "
-mr1
+fx100
 -
-onboarding
+thank
+-
+you
 -
 pin
 -
@@ -549,9 +551,11 @@ label
 string_id
 "
 "
-mr1
+fx100
 -
-onboarding
+thank
+-
+you
 -
 pin
 -
@@ -1015,6 +1019,7 @@ it
 (
 "
 should
+not
 have
 an
 image
@@ -1036,7 +1041,7 @@ prepConfig
 ;
 assert
 .
-property
+notProperty
 (
 data
 .

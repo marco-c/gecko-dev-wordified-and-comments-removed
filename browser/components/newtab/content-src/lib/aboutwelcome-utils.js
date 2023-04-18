@@ -290,9 +290,6 @@ title
 help_text
 :
 {
-text
-:
-{
 string_id
 :
 "
@@ -306,7 +303,6 @@ image
 -
 caption
 "
-}
 }
 backdrop
 :
