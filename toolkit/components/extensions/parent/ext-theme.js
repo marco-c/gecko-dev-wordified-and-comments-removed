@@ -161,7 +161,9 @@ if
 (
 extension
 .
-isPrivileged
+canUseThemeExperiment
+(
+)
 )
 {
 this
