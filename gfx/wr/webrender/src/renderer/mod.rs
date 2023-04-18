@@ -5254,12 +5254,6 @@ SharedFontResources
 :
 new
 (
-RenderBackend
-:
-:
-next_namespace_id
-(
-)
 )
 ;
 let
