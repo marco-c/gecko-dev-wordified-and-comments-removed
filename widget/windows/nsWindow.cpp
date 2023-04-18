@@ -15618,16 +15618,6 @@ TRUE
 }
 else
 {
-if
-(
-mSizeMode
-!
-=
-nsSizeMode_Fullscreen
-)
-return
-NS_OK
-;
 SetSizeMode
 (
 mOldSizeMode
