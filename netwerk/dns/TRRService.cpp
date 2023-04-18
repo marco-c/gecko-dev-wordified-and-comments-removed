@@ -3292,6 +3292,11 @@ threads
 )
 )
 {
+mShutdown
+=
+true
+;
+{
 MutexSingleWriterAutoLock
 lock
 (
@@ -3308,6 +3313,7 @@ shutdown
 lock
 )
 ;
+}
 if
 (
 sTRRBackgroundThread
@@ -3375,6 +3381,9 @@ StaticPrefs
 network_trr_split_horizon_mitigations
 (
 )
+|
+|
+mShutdown
 )
 {
 return

@@ -635,6 +635,16 @@ Relaxed
 >
 mDisableIPv6
 ;
+Atomic
+<
+bool
+Relaxed
+>
+mShutdown
+{
+false
+}
+;
 DataMutex
 <
 nsTHashMap
