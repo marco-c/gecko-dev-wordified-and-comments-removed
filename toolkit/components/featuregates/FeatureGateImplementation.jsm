@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FeatureGate
 "
@@ -217,6 +223,8 @@ extraFacts
 )
 {
 return
+lazy
+.
 FeatureGate
 .
 evaluateTargetedValue
@@ -278,6 +286,8 @@ extraFacts
 )
 {
 return
+lazy
+.
 FeatureGate
 .
 evaluateTargetedValue
