@@ -1128,6 +1128,13 @@ js
 "
 shims
 /
+doubleverify
+.
+js
+"
+"
+shims
+/
 eluminate
 .
 js

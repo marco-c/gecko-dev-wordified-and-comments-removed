@@ -35,7 +35,7 @@ version
 "
 102
 .
-0
+1
 .
 0
 "
@@ -679,6 +679,13 @@ js
 shims
 /
 cxense
+.
+js
+"
+"
+shims
+/
+doubleverify
 .
 js
 "
