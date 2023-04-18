@@ -927,13 +927,6 @@ nsRLBoxExpatDriver
 .
 h
 "
-#
-include
-"
-RLBoxWOFF2Types
-.
-h
-"
 using
 namespace
 mozilla
@@ -1670,13 +1663,6 @@ RLBoxExpatSandboxPool
 :
 :
 Initialize
-(
-)
-;
-RLBoxWOFF2SandboxPool
-:
-:
-Initalize
 (
 )
 ;

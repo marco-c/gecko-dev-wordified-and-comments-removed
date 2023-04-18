@@ -1764,15 +1764,6 @@ htmlparser
 target
 -
 objects
-gfx
-/
-ots
-/
-src
-/
-target
--
-objects
 :
 security
 /
