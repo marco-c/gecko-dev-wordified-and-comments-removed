@@ -603,7 +603,7 @@ device_name
 device_name
             
 "
-fission
+enable_fission
 "
 :
 extra_prefs
@@ -615,7 +615,7 @@ fission
 .
 autostart
 "
-True
+False
 )
             
 "
@@ -2187,7 +2187,7 @@ fission
 .
 autostart
 "
-True
+False
 )
 :
             

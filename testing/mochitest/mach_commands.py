@@ -970,12 +970,6 @@ app
 "
 )
         
-options
-.
-fission
-=
-False
-        
 return
 runtestsremote
 .

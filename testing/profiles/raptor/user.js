@@ -204,6 +204,16 @@ initDelay
 ;
 user_pref
 (
+"
+fission
+.
+autostart
+"
+false
+)
+;
+user_pref
+(
 '
 media
 .
