@@ -353,6 +353,9 @@ unsigned
 long
 pliCount
 ;
+double
+framesPerSecond
+;
 }
 ;
 dictionary
