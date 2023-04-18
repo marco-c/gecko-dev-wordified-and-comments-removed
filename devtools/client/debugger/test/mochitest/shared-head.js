@@ -2620,6 +2620,8 @@ s
 .
 url
 ?
+decodeURI
+(
 s
 .
 url
@@ -2638,6 +2640,7 @@ lastIndexOf
 )
 +
 1
+)
 )
 :
 "
