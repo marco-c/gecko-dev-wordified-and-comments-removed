@@ -35,8 +35,8 @@ MutableHandle
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -321,7 +321,6 @@ JSObject
 aValue
 )
 ;
-}
 }
 #
 endif

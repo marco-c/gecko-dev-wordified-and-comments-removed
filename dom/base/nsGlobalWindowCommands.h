@@ -13,14 +13,13 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 layers
 {
 struct
 KeyboardScrollAction
 ;
-}
 }
 class
 nsControllerCommandTable

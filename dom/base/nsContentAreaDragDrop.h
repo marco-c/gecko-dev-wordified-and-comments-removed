@@ -42,8 +42,8 @@ nsIFile
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -52,7 +52,6 @@ DataTransfer
 class
 Selection
 ;
-}
 }
 class
 nsContentAreaDragDrop

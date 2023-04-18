@@ -44,14 +44,13 @@ nsIScriptGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
 ErrorEventInit
 ;
-}
 }
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool

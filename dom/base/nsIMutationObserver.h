@@ -34,14 +34,13 @@ nsINode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 Element
 ;
-}
 }
 #
 define

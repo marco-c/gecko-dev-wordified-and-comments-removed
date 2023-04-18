@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -112,7 +112,6 @@ mList
 ;
 }
 ;
-}
 }
 #
 endif

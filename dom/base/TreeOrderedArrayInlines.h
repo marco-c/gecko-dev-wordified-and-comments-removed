@@ -38,8 +38,8 @@ type_traits
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -266,7 +266,6 @@ aNode
 return
 idx
 ;
-}
 }
 }
 #

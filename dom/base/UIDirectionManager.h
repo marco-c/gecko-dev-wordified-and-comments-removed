@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -68,7 +68,6 @@ gUIDirectionManager
 ;
 }
 ;
-}
 }
 #
 endif

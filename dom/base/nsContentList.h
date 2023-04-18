@@ -135,14 +135,13 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 Element
 ;
-}
 }
 class
 nsBaseContentList

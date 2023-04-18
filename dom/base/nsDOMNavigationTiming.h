@@ -88,8 +88,8 @@ MessageWriter
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 class
@@ -102,7 +102,6 @@ typename
 struct
 IPDLParamTraits
 ;
-}
 }
 class
 nsDOMNavigationTiming
@@ -1065,8 +1064,8 @@ nsDOMNavigationTiming
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 template
@@ -1120,7 +1119,6 @@ aResult
 ;
 }
 ;
-}
 }
 #
 endif

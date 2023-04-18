@@ -34,14 +34,13 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 DOMRect
 ;
-}
 }
 class
 nsDOMCaretPosition

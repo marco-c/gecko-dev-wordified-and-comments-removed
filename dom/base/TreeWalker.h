@@ -44,8 +44,8 @@ nsINode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -274,7 +274,6 @@ aResult
 ;
 }
 ;
-}
 }
 #
 endif

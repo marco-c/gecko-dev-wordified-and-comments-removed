@@ -61,8 +61,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -393,7 +393,6 @@ mArgs
 ;
 }
 ;
-}
 }
 #
 endif

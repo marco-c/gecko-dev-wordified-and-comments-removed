@@ -116,8 +116,8 @@ default
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -128,7 +128,6 @@ JSTracer
 aTrc
 )
 ;
-}
 }
 #
 endif

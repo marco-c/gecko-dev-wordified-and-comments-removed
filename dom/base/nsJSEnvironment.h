@@ -584,8 +584,8 @@ cx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -696,7 +696,6 @@ mStackHolder
 ;
 }
 ;
-}
 }
 #
 define

@@ -76,8 +76,8 @@ Principal
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -525,7 +525,6 @@ mIsRequestDelegatedToUnsafeThirdParty
 ;
 }
 ;
-}
 }
 using
 mozilla

@@ -184,14 +184,13 @@ ServiceWorkerRegistrationDescriptor
 }
 namespace
 JS
-{
-namespace
+:
+:
 loader
 {
 class
 ModuleLoaderBase
 ;
-}
 }
 class
 nsIGlobalObject

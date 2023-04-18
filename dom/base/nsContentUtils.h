@@ -8565,8 +8565,8 @@ sDOMNodeRemovedSuppressCount
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -8618,7 +8618,6 @@ aElem2
 }
 }
 ;
-}
 }
 #
 define

@@ -13,14 +13,13 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 Animation
 ;
-}
 }
 #
 define

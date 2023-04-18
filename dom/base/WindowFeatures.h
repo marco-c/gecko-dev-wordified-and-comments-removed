@@ -45,8 +45,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -495,7 +495,6 @@ tokenizedFeatures_
 ;
 }
 ;
-}
 }
 #
 endif

@@ -20,8 +20,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -157,7 +157,6 @@ aViewportInfo
 ;
 }
 ;
-}
 }
 #
 endif

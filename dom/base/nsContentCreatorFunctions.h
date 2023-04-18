@@ -43,8 +43,8 @@ nsGenericHTMLElement
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -56,7 +56,6 @@ NodeInfo
 struct
 CustomElementDefinition
 ;
-}
 }
 nsresult
 NS_NewElement
