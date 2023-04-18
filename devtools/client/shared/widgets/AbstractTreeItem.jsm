@@ -70,11 +70,17 @@ keycodes
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 EventEmitter
 "
@@ -151,6 +157,8 @@ this
 _rootItem
 )
 {
+lazy
+.
 EventEmitter
 .
 decorate
