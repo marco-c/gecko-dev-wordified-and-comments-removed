@@ -1258,13 +1258,9 @@ void
 emitLambdaInit
 (
 Register
-resultReg
+output
 Register
-envChainReg
-const
-LambdaFunctionInfo
-&
-info
+envChain
 )
 ;
 template
