@@ -1117,8 +1117,6 @@ stage_dir
     
 package_name
     
-build_libcxx
-    
 osx_cross_compile
     
 build_type
@@ -1573,21 +1571,8 @@ cmake_args
 -
 DLLVM_TOOL_LIBCXX_BUILD
 =
-%
-s
-"
-%
-(
-"
 ON
 "
-if
-build_libcxx
-else
-"
-OFF
-"
-)
                 
 "
 -
@@ -3878,52 +3863,6 @@ builds
             
 )
     
-build_libcxx
-=
-True
-    
-if
-"
-build_libcxx
-"
-in
-config
-:
-        
-build_libcxx
-=
-config
-[
-"
-build_libcxx
-"
-]
-        
-if
-build_libcxx
-not
-in
-(
-True
-False
-)
-:
-            
-raise
-ValueError
-(
-"
-Only
-boolean
-values
-are
-accepted
-for
-build_libcxx
-.
-"
-)
-    
 build_wasm
 =
 False
@@ -5229,8 +5168,6 @@ stage1_dir
             
 package_name
             
-build_libcxx
-            
 osx_cross_compile
             
 build_type
@@ -5387,8 +5324,6 @@ llvm_source_dir
 stage2_dir
             
 package_name
-            
-build_libcxx
             
 osx_cross_compile
             
@@ -5556,8 +5491,6 @@ llvm_source_dir
 stage3_dir
             
 package_name
-            
-build_libcxx
             
 osx_cross_compile
             
@@ -5866,8 +5799,6 @@ llvm_source_dir
 stage4_dir
             
 package_name
-            
-build_libcxx
             
 osx_cross_compile
             
