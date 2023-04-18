@@ -15,13 +15,6 @@ h
 #
 include
 "
-ReaderProxy
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ProfilerMarkers
