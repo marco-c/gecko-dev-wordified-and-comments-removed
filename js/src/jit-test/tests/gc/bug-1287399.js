@@ -20,7 +20,7 @@ this
 }
 lfGlobal
 .
-offThreadCompileToStencil
+offThreadCompileScript
 (
 var
 desc

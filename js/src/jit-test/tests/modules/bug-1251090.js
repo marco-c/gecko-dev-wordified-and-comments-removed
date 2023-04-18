@@ -1,10 +1,10 @@
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 "
 )
 ;
-finishOffThreadCompileModuleToStencil
+finishOffThreadModule
 (
 )
 ;

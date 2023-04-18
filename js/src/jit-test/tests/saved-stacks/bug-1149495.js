@@ -1,6 +1,6 @@
 try
 {
-offThreadCompileToStencil
+offThreadCompileScript
 (
 '
 Error
@@ -16,16 +16,8 @@ lineNumber
 }
 )
 ;
-var
-stencil
-=
-finishOffThreadCompileToStencil
+runOffThreadScript
 (
-)
-;
-evalStencil
-(
-stencil
 )
 .
 stack

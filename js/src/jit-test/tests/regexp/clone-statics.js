@@ -1,4 +1,4 @@
-offThreadCompileToStencil
+offThreadCompileScript
 (
 function
 foo
@@ -89,15 +89,7 @@ foo
 ;
 )
 ;
-var
-stencil
-=
-finishOffThreadCompileToStencil
+runOffThreadScript
 (
-)
-;
-evalStencil
-(
-stencil
 )
 ;

@@ -6,7 +6,7 @@ isLcovEnabled
 true
 )
 ;
-offThreadCompileToStencil
+offThreadCompileScript
 (
 let
 hitCount
@@ -42,16 +42,8 @@ offThreadFun
 ;
 )
 ;
-var
-stencil
-=
-finishOffThreadCompileToStencil
+runOffThreadScript
 (
-)
-;
-evalStencil
-(
-stencil
 )
 ;
 assertEq

@@ -13,7 +13,7 @@ pow
 ;
 evaluate
 (
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 \
@@ -85,7 +85,7 @@ maxSize
 ;
 evaluate
 (
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 \

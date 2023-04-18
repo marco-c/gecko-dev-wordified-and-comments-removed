@@ -14,7 +14,7 @@ helperThreadCount
 0
 )
 {
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 function
@@ -26,16 +26,8 @@ f
 "
 )
 ;
-var
-stencil
-=
-finishOffThreadCompileToStencil
+runOffThreadScript
 (
-)
-;
-evalStencil
-(
-stencil
 )
 ;
 }

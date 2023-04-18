@@ -639,7 +639,7 @@ IsModuleRequest
 JS
 :
 :
-CancelCompileModuleToStencilOffThread
+CancelOffThreadModule
 (
 cx
 mOffThreadToken
@@ -657,7 +657,7 @@ IsSource
 JS
 :
 :
-CancelCompileToStencilOffThread
+CancelOffThreadScript
 (
 cx
 mOffThreadToken
@@ -676,7 +676,7 @@ IsBytecode
 JS
 :
 :
-CancelDecodeStencilOffThread
+CancelOffThreadScriptDecoder
 (
 cx
 mOffThreadToken

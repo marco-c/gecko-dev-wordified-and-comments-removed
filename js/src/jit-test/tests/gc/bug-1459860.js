@@ -4,7 +4,7 @@ eval
 source
 )
 {
-offThreadCompileModuleToStencil
+offThreadCompileModule
 (
 source
 )

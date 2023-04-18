@@ -5,7 +5,7 @@ oomTest
 =
 >
 {
-offThreadCompileToStencil
+offThreadCompileScript
 (
 function
 f
@@ -43,16 +43,8 @@ f
 ;
 )
 ;
-var
-stencil
-=
-finishOffThreadCompileToStencil
+runOffThreadScript
 (
-)
-;
-evalStencil
-(
-stencil
 )
 ;
 }

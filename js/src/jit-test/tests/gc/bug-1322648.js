@@ -16,7 +16,7 @@ startgc
 1
 )
 ;
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 "

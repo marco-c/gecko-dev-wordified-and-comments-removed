@@ -3,7 +3,7 @@ gczeal
 4
 )
 ;
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 let

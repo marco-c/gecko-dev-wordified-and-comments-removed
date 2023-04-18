@@ -20,7 +20,7 @@ newGlobal
 (
 )
 .
-offThreadCompileToStencil
+offThreadCompileScript
 (
 \
 "

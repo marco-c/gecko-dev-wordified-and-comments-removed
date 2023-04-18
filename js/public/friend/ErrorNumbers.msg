@@ -11656,3 +11656,17 @@ be
 negative
 "
 )
+MSG_DEF
+(
+JSMSG_STENCIL_OPTIONS_MISMATCH
+0
+JSEXN_ERR
+"
+CompileOptions
+mismatch
+between
+input
+and
+Stencil
+"
+)

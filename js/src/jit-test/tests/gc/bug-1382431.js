@@ -24,7 +24,7 @@ fe
 =
 fe
 ;
-offThreadCompileToStencil
+offThreadCompileScript
 (
 fe
 {

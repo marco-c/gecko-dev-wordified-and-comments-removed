@@ -4,7 +4,7 @@ schedulezone
 "
 )
 ;
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 "
