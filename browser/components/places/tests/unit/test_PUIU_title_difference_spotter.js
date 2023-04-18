@@ -5,6 +5,14 @@ TESTS
 {
 title
 :
+null
+expected
+:
+undefined
+}
+{
+title
+:
 "
 Short
 title
