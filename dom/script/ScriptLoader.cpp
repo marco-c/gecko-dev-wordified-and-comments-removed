@@ -11197,7 +11197,7 @@ encodeBytecode
 aRequest
 -
 >
-SetScript
+MarkForBytecodeEncoding
 (
 aScript
 )
@@ -11711,7 +11711,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-mScript
+mScriptForBytecodeEncoding
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -12294,7 +12294,7 @@ aCx
 aRequest
 -
 >
-mScript
+mScriptForBytecodeEncoding
 )
 ;
 if
@@ -12856,7 +12856,7 @@ cx
 request
 -
 >
-mScript
+mScriptForBytecodeEncoding
 )
 ;
 if
