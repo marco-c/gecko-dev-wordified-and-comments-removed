@@ -786,10 +786,6 @@ Map
 (
 )
 ;
-this
-.
-FxAccountsPairingFlow
-=
 class
 FxAccountsPairingFlow
 {
@@ -2288,7 +2284,6 @@ scopedKeys
 ;
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

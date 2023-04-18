@@ -398,15 +398,8 @@ enabled
 true
 )
 ;
-var
-AccountState
-=
-(
-this
-.
-AccountState
-=
 function
+AccountState
 (
 storageManager
 )
@@ -490,8 +483,6 @@ err
 )
 ;
 }
-)
-;
 AccountState
 .
 prototype

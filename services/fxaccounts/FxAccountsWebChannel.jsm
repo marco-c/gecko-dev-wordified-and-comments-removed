@@ -512,11 +512,8 @@ return
 details
 ;
 }
-this
-.
-FxAccountsWebChannel
-=
 function
+FxAccountsWebChannel
 (
 options
 )
@@ -634,7 +631,6 @@ _setupChannel
 )
 ;
 }
-;
 FxAccountsWebChannel
 .
 prototype
@@ -1498,11 +1494,8 @@ prePath
 }
 }
 ;
-this
-.
-FxAccountsWebChannelHelpers
-=
 function
+FxAccountsWebChannelHelpers
 (
 options
 )
@@ -1549,7 +1542,6 @@ privateBrowsingUtils
 PrivateBrowsingUtils
 ;
 }
-;
 FxAccountsWebChannelHelpers
 .
 prototype
