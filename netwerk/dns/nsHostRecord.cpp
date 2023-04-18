@@ -1898,7 +1898,7 @@ if
 StaticPrefs
 :
 :
-network_trr_strict_native_fallback
+network_trr_retry_on_recoverable_errors
 (
 )
 )

@@ -229,7 +229,7 @@ GetRequestTimeout
 )
 ;
 void
-StrictModeConfirm
+RetryTRRConfirm
 (
 )
 ;
@@ -699,9 +699,9 @@ ConfirmationEvent
 {
 Init
 PrefChange
-Retry
+ConfirmationRetry
 FailedLookups
-StrictMode
+RetryTRR
 URIChange
 CaptivePortalConnectivity
 NetworkUp

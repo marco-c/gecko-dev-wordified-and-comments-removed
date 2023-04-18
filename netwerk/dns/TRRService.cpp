@@ -4105,7 +4105,7 @@ false
 StaticPrefs
 :
 :
-network_trr_strict_native_fallback
+network_trr_retry_on_recoverable_errors
 (
 )
 )
@@ -4271,7 +4271,7 @@ case
 ConfirmationEvent
 :
 :
-Retry
+ConfirmationRetry
 :
 MOZ_ASSERT
 (
@@ -4292,6 +4292,8 @@ CONFIRM_FAILED
 maybeConfirm
 (
 "
+confirmation
+-
 retry
 "
 )
@@ -4352,7 +4354,7 @@ case
 ConfirmationEvent
 :
 :
-StrictMode
+RetryTRR
 :
 MOZ_ASSERT
 (
@@ -4365,9 +4367,9 @@ CONFIRM_OK
 maybeConfirm
 (
 "
-strict
+retry
 -
-mode
+trr
 "
 )
 ;
@@ -5618,7 +5620,7 @@ HandleEvent
 ConfirmationEvent
 :
 :
-Retry
+ConfirmationRetry
 lock
 )
 ;
@@ -5783,7 +5785,7 @@ void
 TRRService
 :
 :
-StrictModeConfirm
+RetryTRRConfirm
 (
 )
 {
@@ -5806,7 +5808,7 @@ LOG
 TRRService
 :
 :
-StrictModeConfirm
+RetryTRRConfirm
 triggering
 confirmation
 "
@@ -5820,7 +5822,7 @@ HandleEvent
 ConfirmationEvent
 :
 :
-StrictMode
+RetryTRR
 )
 ;
 }
@@ -5994,7 +5996,7 @@ if
 StaticPrefs
 :
 :
-network_trr_strict_native_fallback
+network_trr_retry_on_recoverable_errors
 (
 )
 )
@@ -6007,9 +6009,10 @@ TRRService
 not
 counting
 failures
-in
-strict
-mode
+when
+retry
+is
+enabled
 "
 )
 )
