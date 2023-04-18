@@ -6826,6 +6826,12 @@ true
 ;
 printSettings
 .
+showPrintProgress
+=
+false
+;
+printSettings
+.
 outputFormat
 =
 Ci

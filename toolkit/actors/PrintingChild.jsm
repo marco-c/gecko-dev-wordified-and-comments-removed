@@ -1577,6 +1577,12 @@ getPrintSettings
 lastUsedPrinterName
 )
 ;
+printSettings
+.
+showPrintProgress
+=
+false
+;
 if
 (
 printSettings

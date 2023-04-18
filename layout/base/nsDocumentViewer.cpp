@@ -11673,6 +11673,14 @@ GetIsPrinting
 )
 )
 {
+nsPrintJob
+:
+:
+CloseProgressDialog
+(
+aWebProgressListener
+)
+;
 return
 NS_ERROR_FAILURE
 ;

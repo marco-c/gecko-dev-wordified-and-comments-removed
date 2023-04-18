@@ -576,6 +576,10 @@ boolean
 shrinkToFit
 ;
 attribute
+boolean
+showPrintProgress
+;
+attribute
 AString
 paperId
 ;

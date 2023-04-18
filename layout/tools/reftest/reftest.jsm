@@ -10910,6 +10910,12 @@ true
 ;
 ps
 .
+showPrintProgress
+=
+false
+;
+ps
+.
 printBGImages
 =
 true
