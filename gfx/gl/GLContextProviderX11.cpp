@@ -57,7 +57,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProviderLinux
+GLContextProviderX11
 :
 :
 CreateForCompositorWidget
@@ -73,6 +73,7 @@ aForceAccelerated
 {
 if
 (
+!
 gfxVars
 :
 :
@@ -82,7 +83,7 @@ UseEGL
 )
 {
 return
-sGLContextProviderEGL
+sGLContextProviderGLX
 .
 CreateForCompositorWidget
 (
@@ -95,7 +96,7 @@ aForceAccelerated
 else
 {
 return
-sGLContextProviderGLX
+sGLContextProviderEGL
 .
 CreateForCompositorWidget
 (
@@ -110,7 +111,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProviderLinux
+GLContextProviderX11
 :
 :
 CreateHeadless
@@ -127,6 +128,7 @@ out_failureId
 {
 if
 (
+!
 gfxVars
 :
 :
@@ -136,7 +138,7 @@ UseEGL
 )
 {
 return
-sGLContextProviderEGL
+sGLContextProviderGLX
 .
 CreateHeadless
 (
@@ -148,7 +150,7 @@ out_failureId
 else
 {
 return
-sGLContextProviderGLX
+sGLContextProviderEGL
 .
 CreateHeadless
 (
@@ -160,7 +162,7 @@ out_failureId
 }
 GLContext
 *
-GLContextProviderLinux
+GLContextProviderX11
 :
 :
 GetGlobalContext
@@ -169,6 +171,7 @@ GetGlobalContext
 {
 if
 (
+!
 gfxVars
 :
 :
@@ -178,7 +181,7 @@ UseEGL
 )
 {
 return
-sGLContextProviderEGL
+sGLContextProviderGLX
 .
 GetGlobalContext
 (
@@ -188,7 +191,7 @@ GetGlobalContext
 else
 {
 return
-sGLContextProviderGLX
+sGLContextProviderEGL
 .
 GetGlobalContext
 (
@@ -197,7 +200,7 @@ GetGlobalContext
 }
 }
 void
-GLContextProviderLinux
+GLContextProviderX11
 :
 :
 Shutdown
@@ -206,6 +209,7 @@ Shutdown
 {
 if
 (
+!
 gfxVars
 :
 :
@@ -214,7 +218,7 @@ UseEGL
 )
 )
 {
-sGLContextProviderEGL
+sGLContextProviderGLX
 .
 Shutdown
 (
@@ -223,7 +227,7 @@ Shutdown
 }
 else
 {
-sGLContextProviderGLX
+sGLContextProviderEGL
 .
 Shutdown
 (
