@@ -730,6 +730,16 @@ id
 =
 =
 "
+webAppearanceGroup
+"
+|
+|
+child
+.
+id
+=
+=
+"
 colorsGroup
 "
 |
