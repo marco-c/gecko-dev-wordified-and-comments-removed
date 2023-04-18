@@ -1828,6 +1828,12 @@ self
 expected_repeated_runs
 =
 0
+        
+self
+.
+all_skipped
+=
+False
 def
 run_tests
 (
@@ -2834,6 +2840,12 @@ test_status
 .
 skipped
 :
+                    
+test_status
+.
+all_skipped
+=
+True
                     
 break
     
