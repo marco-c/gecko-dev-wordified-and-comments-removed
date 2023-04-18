@@ -180,6 +180,7 @@ reset
 (
 )
 ;
+await
 SnapshotMonitor
 .
 observe
