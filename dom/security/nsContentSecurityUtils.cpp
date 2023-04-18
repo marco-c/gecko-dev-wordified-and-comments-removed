@@ -5761,12 +5761,6 @@ _ns
 "
 about
 :
-printpreview
-"
-_ns
-"
-about
-:
 logo
 "
 _ns
