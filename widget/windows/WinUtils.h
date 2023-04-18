@@ -40,6 +40,11 @@ dwmapi
 h
 >
 #
+include
+<
+unordered_map
+>
+#
 undef
 GetMessage
 #
