@@ -105,17 +105,6 @@ VC141
 .
 CRT
 export
-DIA_SDK_PATH
-=
-"
-{
-VSPATH
-}
-/
-DIA
-SDK
-"
-export
 VC_PATH
 =
 "
