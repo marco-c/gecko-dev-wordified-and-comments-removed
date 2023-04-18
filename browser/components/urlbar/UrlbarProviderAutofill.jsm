@@ -2886,6 +2886,7 @@ query_type
 let
 autofilledValue
 finalCompleteValue
+autofilledType
 ;
 switch
 (
@@ -2918,6 +2919,12 @@ getResultByName
 url
 "
 )
+;
+autofilledType
+=
+"
+origin
+"
 ;
 break
 ;
@@ -3055,6 +3062,12 @@ strippedPrefix
 +
 autofilledValue
 ;
+autofilledType
+=
+"
+url
+"
+;
 break
 ;
 case
@@ -3083,6 +3096,12 @@ getResultByName
 url
 "
 )
+;
+autofilledType
+=
+"
+adaptive
+"
 ;
 break
 ;
@@ -3216,6 +3235,9 @@ selectionEnd
 autofilledValue
 .
 length
+type
+:
+autofilledType
 }
 ;
 return
