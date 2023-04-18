@@ -3444,7 +3444,7 @@ if
 activation
 -
 >
-wasmExitTls
+wasmExitInstance
 (
 )
 -
