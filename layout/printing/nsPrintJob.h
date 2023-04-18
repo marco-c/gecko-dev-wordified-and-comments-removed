@@ -294,14 +294,6 @@ GetPrintPreviewNumSheets
 )
 const
 ;
-already_AddRefed
-<
-nsIPrintSettings
->
-GetCurrentPrintSettings
-(
-)
-;
 void
 SetIsPrinting
 (
