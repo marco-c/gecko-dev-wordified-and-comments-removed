@@ -2920,12 +2920,6 @@ WHATS_NEW_PANEL_SELECTOR
 ;
 }
 }
-this
-.
-_ToolbarPanelHub
-=
-_ToolbarPanelHub
-;
 const
 ToolbarPanelHub
 =

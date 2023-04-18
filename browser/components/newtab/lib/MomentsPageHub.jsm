@@ -669,12 +669,6 @@ false
 ;
 }
 }
-this
-.
-_MomentsPageHub
-=
-_MomentsPageHub
-;
 const
 MomentsPageHub
 =

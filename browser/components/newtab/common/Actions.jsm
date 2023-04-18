@@ -56,12 +56,6 @@ BACKGROUND_PROCESS
 :
 UI_CODE
 ;
-this
-.
-globalImportContext
-=
-globalImportContext
-;
 const
 actionTypes
 =
@@ -1058,12 +1052,6 @@ action
 action
 ;
 }
-this
-.
-actionTypes
-=
-actionTypes
-;
 const
 actionCreators
 =

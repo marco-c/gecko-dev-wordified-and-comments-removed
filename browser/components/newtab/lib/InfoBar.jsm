@@ -792,12 +792,6 @@ notification
 }
 }
 ;
-this
-.
-InfoBar
-=
-InfoBar
-;
 const
 EXPORTED_SYMBOLS
 =

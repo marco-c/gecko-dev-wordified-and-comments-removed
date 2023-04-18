@@ -1500,12 +1500,6 @@ this
 ;
 }
 }
-this
-.
-_ToolbarBadgeHub
-=
-_ToolbarBadgeHub
-;
 const
 ToolbarBadgeHub
 =

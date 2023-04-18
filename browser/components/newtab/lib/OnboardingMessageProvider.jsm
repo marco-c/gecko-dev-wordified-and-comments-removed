@@ -2339,12 +2339,6 @@ message
 }
 }
 ;
-this
-.
-OnboardingMessageProvider
-=
-OnboardingMessageProvider
-;
 const
 EXPORTED_SYMBOLS
 =

@@ -2846,12 +2846,6 @@ break
 }
 }
 }
-this
-.
-PlacesFeed
-=
-PlacesFeed
-;
 PlacesFeed
 .
 BookmarksObserver

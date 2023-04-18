@@ -4637,12 +4637,6 @@ SHOW_TEST
 }
 }
 ;
-this
-.
-SnippetsTestMessageProvider
-=
-SnippetsTestMessageProvider
-;
 const
 EXPORTED_SYMBOLS
 =

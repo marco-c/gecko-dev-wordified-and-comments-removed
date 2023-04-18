@@ -2287,12 +2287,6 @@ locale
 }
 }
 ;
-this
-.
-MessageLoaderUtils
-=
-MessageLoaderUtils
-;
 class
 _ASRouter
 {
@@ -8233,12 +8227,6 @@ experimentProvider
 ;
 }
 }
-this
-.
-_ASRouter
-=
-_ASRouter
-;
 const
 ASRouter
 =
