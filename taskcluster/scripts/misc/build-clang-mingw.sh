@@ -1391,7 +1391,7 @@ on
 redeclaration
 "
 \
-MOZ_FETCHES_DIR
+TOOLCHAIN_DIR
 /
 libunwind
 make

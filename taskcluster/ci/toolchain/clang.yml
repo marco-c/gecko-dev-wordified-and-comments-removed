@@ -349,8 +349,6 @@ mingw
 -
 w64
 -
-libunwind
--
 llvm
 -
 mingw
@@ -464,8 +462,6 @@ clang
 mingw
 -
 w64
--
-libunwind
 -
 llvm
 -
