@@ -183,6 +183,10 @@ position
 "
 corner
 "
+logo
+:
+{
+}
 title
 :
 {
@@ -368,6 +372,10 @@ order
 content
 :
 {
+logo
+:
+{
+}
 title
 :
 {
@@ -482,6 +490,10 @@ order
 content
 :
 {
+logo
+:
+{
+}
 title
 :
 {
@@ -654,6 +666,10 @@ order
 content
 :
 {
+logo
+:
+{
+}
 title
 :
 {
@@ -774,6 +790,10 @@ order
 content
 :
 {
+logo
+:
+{
+}
 title
 :
 {
