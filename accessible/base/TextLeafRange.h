@@ -298,16 +298,6 @@ bool
 aIncludeOrigin
 =
 false
-const
-AccAttributes
-*
-aOriginAttrs
-=
-nullptr
-bool
-aIncludeDefaults
-=
-true
 )
 const
 ;
