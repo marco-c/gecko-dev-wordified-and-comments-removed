@@ -1149,7 +1149,7 @@ getOwnPropertyNamesMethod
 )
 ;
 bool
-getOwnPropertiesLengthMethod
+getOwnPropertyNamesLengthMethod
 (
 )
 ;
@@ -4366,7 +4366,7 @@ DebuggerObject
 CallData
 :
 :
-getOwnPropertiesLengthMethod
+getOwnPropertyNamesLengthMethod
 (
 )
 {
@@ -4379,7 +4379,7 @@ if
 DebuggerObject
 :
 :
-getOwnPropertiesLength
+getOwnPropertyNamesLength
 (
 cx
 object
@@ -8369,9 +8369,9 @@ getOwnPropertyNamesMethod
 JS_DEBUG_FN
 (
 "
-getOwnPropertiesLength
+getOwnPropertyNamesLength
 "
-getOwnPropertiesLengthMethod
+getOwnPropertyNamesLengthMethod
 0
 )
 JS_DEBUG_FN
@@ -10839,7 +10839,7 @@ bool
 DebuggerObject
 :
 :
-getOwnPropertiesLength
+getOwnPropertyNamesLength
 (
 JSContext
 *

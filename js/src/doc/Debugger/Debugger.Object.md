@@ -3501,7 +3501,7 @@ object
 #
 #
 #
-getOwnPropertiesLength
+getOwnPropertyNamesLength
 (
 )
 Return

@@ -82,7 +82,7 @@ obj
 .
 value
 .
-getOwnPropertiesLength
+getOwnPropertyNamesLength
 (
 )
 ;
