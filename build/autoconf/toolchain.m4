@@ -543,17 +543,6 @@ ranlib
 )
 AC_CHECK_PROGS
 (
-AS
-"
-{
-TOOLCHAIN_PREFIX
-}
-as
-"
-:
-)
-AC_CHECK_PROGS
-(
 LIPO
 "
 {
