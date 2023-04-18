@@ -4952,14 +4952,6 @@ JitCode
 ;
 }
 using
-PreBarrieredId
-=
-PreBarriered
-<
-jsid
->
-;
-using
 PreBarrieredValue
 =
 PreBarriered
