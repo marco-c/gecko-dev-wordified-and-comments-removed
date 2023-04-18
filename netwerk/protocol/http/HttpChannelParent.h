@@ -472,7 +472,7 @@ int16_t
 &
 priority
 const
-ClassOfServiceStruct
+ClassOfService
 &
 classOfService
 const
@@ -658,7 +658,7 @@ IPCResult
 RecvSetClassOfService
 (
 const
-ClassOfServiceStruct
+ClassOfService
 &
 cos
 )

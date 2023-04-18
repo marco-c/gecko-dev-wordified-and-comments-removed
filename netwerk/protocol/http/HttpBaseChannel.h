@@ -2657,7 +2657,7 @@ redirectFlags
 =
 0
 ;
-ClassOfServiceStruct
+ClassOfService
 classOfService
 =
 {
@@ -3549,7 +3549,7 @@ mLoadFlags
 uint32_t
 mCaps
 ;
-ClassOfServiceStruct
+ClassOfService
 mClassOfService
 ;
 MOZ_ATOMIC_BITFIELDS

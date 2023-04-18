@@ -483,8 +483,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 HttpChannelChild
@@ -12118,7 +12118,7 @@ HttpChannelChild
 :
 SetClassOfService
 (
-ClassOfServiceStruct
+ClassOfService
 inCos
 )
 {
@@ -14192,6 +14192,5 @@ aObserver
 return
 NS_OK
 ;
-}
 }
 }

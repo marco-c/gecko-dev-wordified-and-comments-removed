@@ -20,13 +20,10 @@ nsIHttpUpgradeListener
 class
 nsIInterfaceRequestor
 ;
-struct
-ClassOfServiceStruct
-;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -52,6 +49,9 @@ HttpConnectionMgrParent
 ;
 class
 SpeculativeTransaction
+;
+class
+ClassOfService
 ;
 #
 define
@@ -327,7 +327,7 @@ UpdateClassOfServiceOnTransaction
 HttpTransactionShell
 *
 const
-ClassOfServiceStruct
+ClassOfService
 &
 classOfService
 )
@@ -722,11 +722,10 @@ UpdateClassOfServiceOnTransaction
 HttpTransactionShell
 *
 const
-ClassOfServiceStruct
+ClassOfService
 &
 classOfService
 )
-\
 override
 ;
 \
@@ -880,7 +879,6 @@ AsHttpConnectionMgrParent
 )
 override
 ;
-}
 }
 #
 endif

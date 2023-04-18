@@ -369,8 +369,8 @@ net
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 nsHttpTransaction
@@ -606,7 +606,7 @@ nsHttpTransaction
 :
 SetClassOfService
 (
-ClassOfServiceStruct
+ClassOfService
 cos
 )
 {
@@ -1009,7 +1009,7 @@ trafficCategory
 nsIRequestContext
 *
 requestContext
-ClassOfServiceStruct
+ClassOfService
 classOfService
 uint32_t
 initialRwin
@@ -16377,6 +16377,5 @@ Assign
 mHashKeyOfConnectionEntry
 )
 ;
-}
 }
 }

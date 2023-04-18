@@ -55,8 +55,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -587,7 +587,7 @@ override
 NS_IMETHOD
 SetClassOfService
 (
-ClassOfServiceStruct
+ClassOfService
 cos
 )
 override
@@ -641,7 +641,6 @@ override
 ;
 }
 ;
-}
 }
 #
 endif

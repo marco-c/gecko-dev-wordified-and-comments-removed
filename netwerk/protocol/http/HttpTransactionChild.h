@@ -89,8 +89,8 @@ nsInputStreamPump
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -188,7 +188,7 @@ uint64_t
 &
 aRequestContextID
 const
-ClassOfServiceStruct
+ClassOfService
 &
 aClassOfService
 const
@@ -386,7 +386,7 @@ uint8_t
 httpTrafficCategory
 uint64_t
 requestContextID
-ClassOfServiceStruct
+ClassOfService
 classOfService
 uint32_t
 initialRwin
@@ -517,7 +517,6 @@ mDataBridgeParent
 ;
 }
 ;
-}
 }
 inline
 nsISupports
