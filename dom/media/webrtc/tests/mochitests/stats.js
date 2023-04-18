@@ -3233,7 +3233,7 @@ stat
 .
 bytesReceived
 >
-5000
+500
 {
 stat
 .
@@ -3247,8 +3247,7 @@ sane
 number
 (
 >
-5
-000
+500
 )
 for
 a
