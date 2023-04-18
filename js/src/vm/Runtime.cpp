@@ -753,10 +753,6 @@ atoms_
 (
 nullptr
 )
-permanentAtomsDuringInit_
-(
-nullptr
-)
 permanentAtoms_
 (
 nullptr

@@ -1794,14 +1794,6 @@ PhaseKind
 MARK_RUNTIME_DATA
 )
 ;
-rt
--
->
-tracePermanentThingsDuringInit
-(
-trc
-)
-;
 TraceAtoms
 (
 trc

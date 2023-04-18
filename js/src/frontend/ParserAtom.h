@@ -200,6 +200,9 @@ namespace
 js
 {
 class
+AtomSet
+;
+class
 GenericPrinter
 ;
 class
@@ -2111,6 +2114,9 @@ instantiatePermanentAtom
 JSContext
 *
 cx
+AtomSet
+&
+atomSet
 ParserAtomIndex
 index
 CompilationAtomCache
@@ -2928,6 +2934,9 @@ InstantiateMarkedAtomsAsPermanent
 JSContext
 *
 cx
+AtomSet
+&
+atomSet
 const
 ParserAtomSpan
 &

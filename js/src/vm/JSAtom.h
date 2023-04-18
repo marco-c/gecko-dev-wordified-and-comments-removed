@@ -70,6 +70,9 @@ h
 namespace
 js
 {
+class
+AtomSet
+;
 extern
 UniqueChars
 AtomToPrintableString
@@ -91,14 +94,6 @@ js
 {
 void
 TraceAtoms
-(
-JSTracer
-*
-trc
-)
-;
-void
-TraceWellKnownSymbols
 (
 JSTracer
 *
@@ -216,6 +211,9 @@ PermanentlyAtomizeChars
 JSContext
 *
 cx
+AtomSet
+&
+atomSet
 mozilla
 :
 :

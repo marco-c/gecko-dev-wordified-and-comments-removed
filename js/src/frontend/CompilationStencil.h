@@ -311,6 +311,9 @@ namespace
 js
 {
 class
+AtomSet
+;
+class
 JSONPrinter
 ;
 class
@@ -4647,6 +4650,9 @@ instantiateSelfHostedAtoms
 JSContext
 *
 cx
+AtomSet
+&
+atomSet
 CompilationAtomCache
 &
 atomCache
