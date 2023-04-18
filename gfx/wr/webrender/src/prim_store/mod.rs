@@ -5223,10 +5223,6 @@ pub
 vis
 :
 PrimitiveVisibility
-pub
-anti_aliased
-:
-bool
 }
 impl
 PrimitiveInstance
@@ -5302,9 +5298,6 @@ ClipSet
 local_clip_rect
 clip_chain_id
 }
-anti_aliased
-:
-false
 }
 }
 pub
