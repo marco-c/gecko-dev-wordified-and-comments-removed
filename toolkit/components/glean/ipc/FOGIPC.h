@@ -149,11 +149,6 @@ Promise
 promise
 )
 ;
-void
-RecordPowerMetrics
-(
-)
-;
 }
 }
 #
