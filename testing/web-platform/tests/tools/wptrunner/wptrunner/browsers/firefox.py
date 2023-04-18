@@ -1840,9 +1840,6 @@ processor
 "
 swgl
 "
-"
-domstreams
-"
 ]
             
 {

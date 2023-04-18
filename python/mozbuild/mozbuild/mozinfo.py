@@ -872,27 +872,6 @@ non_native_theme
 =
 True
     
-d
-[
-"
-domstreams
-"
-]
-=
-substs
-.
-get
-(
-"
-MOZ_DOM_STREAMS
-"
-)
-=
-=
-"
-1
-"
-    
 def
 guess_platform
 (
