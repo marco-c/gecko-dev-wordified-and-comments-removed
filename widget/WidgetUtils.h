@@ -158,14 +158,6 @@ nsAString
 aBrandName
 )
 ;
-static
-const
-char
-*
-GetSnapInstanceName
-(
-)
-;
 }
 ;
 }
