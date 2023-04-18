@@ -1560,6 +1560,15 @@ FileRecord
 open_manifest
 unpack_file
     
+from
+taskgraph
+.
+util
+.
+taskcluster
+import
+get_artifact_url
+    
 import
 redo
     
@@ -1568,15 +1577,6 @@ requests
     
 import
 time
-    
-from
-gecko_taskgraph
-.
-util
-.
-taskcluster
-import
-get_artifact_url
     
 start
 =

@@ -11,7 +11,7 @@ functools
 import
 partial
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .

@@ -15,7 +15,7 @@ util
 import
 memoize
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .
