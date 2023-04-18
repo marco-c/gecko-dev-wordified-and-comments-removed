@@ -2139,8 +2139,17 @@ mMonitor
 #
 ifdef
 FUZZING_SNAPSHOT
+const
+bool
+mIsFuzzMsg
+;
 bool
 mFuzzStopped
+GUARDED_BY
+(
+*
+mMonitor
+)
 ;
 #
 endif
