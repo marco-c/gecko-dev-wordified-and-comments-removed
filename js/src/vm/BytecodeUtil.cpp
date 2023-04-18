@@ -10394,12 +10394,6 @@ JSOp
 :
 CallIter
 :
-case
-JSOp
-:
-:
-FunCall
-:
 {
 uint16_t
 argc

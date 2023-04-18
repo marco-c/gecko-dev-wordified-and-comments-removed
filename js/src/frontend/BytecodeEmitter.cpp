@@ -37014,15 +37014,6 @@ JSOp
 :
 :
 SpreadCall
-|
-|
-op
-=
-=
-JSOp
-:
-:
-FunCall
 )
 {
 coordNode
