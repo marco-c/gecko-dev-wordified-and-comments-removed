@@ -1508,6 +1508,17 @@ indexId
 )
 ;
 AttachDecision
+tryAttachArgumentsObjectArg
+(
+HandleObject
+obj
+ObjOperandId
+objId
+Int32OperandId
+indexId
+)
+;
+AttachDecision
 tryAttachNamedProp
 (
 HandleObject
