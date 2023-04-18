@@ -265,12 +265,6 @@ uint64_t
 aResult
 )
 {
-FILETIME
-createTime
-exitTime
-kernelTime
-userTime
-;
 int
 frequencyInMHz
 =
@@ -330,6 +324,12 @@ return
 NS_OK
 ;
 }
+FILETIME
+createTime
+exitTime
+kernelTime
+userTime
+;
 if
 (
 !
