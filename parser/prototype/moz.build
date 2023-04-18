@@ -51,6 +51,12 @@ LOCAL_INCLUDES
 =
 [
 "
+.
+.
+/
+htmlparser
+"
+"
 /
 dom
 /

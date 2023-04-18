@@ -171,6 +171,12 @@ layout
 /
 style
 "
+"
+/
+parser
+/
+htmlparser
+"
 ]
 RESOURCE_FILES
 .

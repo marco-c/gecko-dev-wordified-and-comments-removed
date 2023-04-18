@@ -228,6 +228,12 @@ xpconnect
 /
 src
 "
+"
+/
+parser
+/
+htmlparser
+"
 ]
 FINAL_LIBRARY
 =

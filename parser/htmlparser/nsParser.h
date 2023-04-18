@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsParserCIID
-.
-h
-"
-#
-include
-"
 nsHTMLTags
 .
 h
@@ -573,11 +566,6 @@ bool
 mIsAboutBlank
 ;
 }
-;
-nsresult
-nsParserInitialize
-(
-)
 ;
 #
 endif
