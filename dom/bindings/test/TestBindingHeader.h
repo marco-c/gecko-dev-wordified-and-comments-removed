@@ -7040,6 +7040,16 @@ ConditionalOnSecureContext8
 (
 )
 ;
+bool
+ConditionalOnSecureContext9
+(
+)
+;
+void
+ConditionalOnSecureContext10
+(
+)
+;
 int32_t
 AttrWithLenientThis
 (

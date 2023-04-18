@@ -29,6 +29,8 @@ enum
 OriginTrial
 {
 TestTrial
+=
+1
 }
 impl
 OriginTrial
