@@ -545,13 +545,6 @@ aValue
 IsResolve
 (
 )
-&
-&
-aValue
-.
-ResolveValue
-(
-)
 )
 {
 return
