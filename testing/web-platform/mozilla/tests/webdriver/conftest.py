@@ -69,12 +69,6 @@ pytest_plugins
 [
     
 "
-support
-.
-fixtures
-"
-    
-"
 tests
 .
 support
