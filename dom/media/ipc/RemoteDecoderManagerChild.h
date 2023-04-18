@@ -166,6 +166,8 @@ const
 CreateDecoderParams
 &
 aParams
+RemoteDecodeIn
+aLocation
 )
 ;
 static
@@ -454,6 +456,8 @@ RemoteDecoderChild
 &
 &
 aChild
+RemoteDecodeIn
+aLocation
 )
 ;
 static

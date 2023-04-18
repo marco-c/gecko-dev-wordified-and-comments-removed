@@ -390,6 +390,7 @@ RemoteDecoderManagerChild
 CreateAudioDecoder
 (
 params
+mLocation
 )
 ;
 }
@@ -400,6 +401,7 @@ RemoteDecoderManagerChild
 CreateAudioDecoder
 (
 aParams
+mLocation
 )
 ;
 }
