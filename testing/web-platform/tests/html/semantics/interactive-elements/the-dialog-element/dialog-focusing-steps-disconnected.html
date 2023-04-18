@@ -13,12 +13,8 @@ head
 title
 >
 Test
-that
 focusing
 steps
-do
-not
-run
 when
 dialog
 is
@@ -185,7 +181,8 @@ Focusing
 steps
 should
 not
-run
+change
+focus
 "
 )
 ;
@@ -211,7 +208,8 @@ focusing
 steps
 should
 not
-run
+change
+focus
 on
 disconnected
 <
@@ -251,6 +249,9 @@ showModal
 )
 ;
 }
+)
+;
+}
 "
 dialog
 .
@@ -265,9 +266,6 @@ disconnected
 dialog
 >
 "
-)
-;
-}
 )
 ;
 <
