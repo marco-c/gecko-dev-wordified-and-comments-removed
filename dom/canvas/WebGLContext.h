@@ -704,7 +704,7 @@ AvailabilityRunnable
 final
 :
 public
-Runnable
+DiscardableRunnable
 {
 public
 :
