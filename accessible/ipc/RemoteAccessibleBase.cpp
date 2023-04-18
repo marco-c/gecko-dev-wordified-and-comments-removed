@@ -576,7 +576,6 @@ Derived
 EmbeddedChildCount
 (
 )
-const
 {
 size_t
 count

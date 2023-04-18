@@ -437,6 +437,14 @@ GroupPosition
 )
 ;
 virtual
+uint32_t
+EmbeddedChildCount
+(
+)
+=
+0
+;
+virtual
 Accessible
 *
 EmbeddedChildAt

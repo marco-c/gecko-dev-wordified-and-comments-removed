@@ -990,10 +990,12 @@ childCount
 nullptr
 ;
 }
+virtual
 uint32_t
 EmbeddedChildCount
 (
 )
+override
 ;
 virtual
 LocalAccessible
