@@ -475,6 +475,17 @@ kwargs
 specialpowers_path
 "
 ]
+            
+"
+debug_test
+"
+:
+kwargs
+[
+"
+debug_test
+"
+]
 }
 def
 executor_kwargs
@@ -741,6 +752,7 @@ test_type
 extra_prefs
                  
 enable_fission
+debug_test
 browser_channel
 certutil_binary
 ca_certificate_path
@@ -763,6 +775,7 @@ extra_prefs
                                              
 True
 enable_fission
+debug_test
 browser_channel
 None
                                              
@@ -1047,6 +1060,9 @@ adb_binary
 =
 None
                  
+debug_test
+=
+False
 *
 *
 kwargs
@@ -1219,6 +1235,8 @@ test_type
 extra_prefs
                                               
 False
+                                              
+debug_test
                                               
 browser_channel
                                               
