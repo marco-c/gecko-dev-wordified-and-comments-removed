@@ -359,7 +359,6 @@ frame_builder
 :
 {
 Frame
-ChasePrimitive
 FrameBuilderConfig
 }
 ;
@@ -4991,11 +4990,6 @@ true
 dual_source_blending_is_supported
 :
 use_dual_source_blending
-chase_primitive
-:
-options
-.
-chase_primitive
 testing
 :
 options
@@ -26859,10 +26853,6 @@ Send
 >
 >
 pub
-chase_primitive
-:
-ChasePrimitive
-pub
 support_low_priority_transactions
 :
 bool
@@ -27102,12 +27092,6 @@ None
 sampler
 :
 None
-chase_primitive
-:
-ChasePrimitive
-:
-:
-Nothing
 support_low_priority_transactions
 :
 false
