@@ -22004,15 +22004,7 @@ oneLineRange
 CreateRangeExtendedToHardLineStartAndEnd
 (
 aPointInHardLine
-.
-ToRawRangeBoundary
-(
-)
 aPointInHardLine
-.
-ToRawRangeBoundary
-(
-)
 EditSubAction
 :
 :
