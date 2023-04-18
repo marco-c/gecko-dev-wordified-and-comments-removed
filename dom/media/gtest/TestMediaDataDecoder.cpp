@@ -319,6 +319,14 @@ defined
 (
 MOZ_FFVPX
 )
+&
+&
+\
+!
+defined
+(
+MOZ_FFVPX_AUDIOONLY
+)
 TEST
 (
 MediaDataDecoder
