@@ -100,7 +100,6 @@ api
 :
 :
 {
-SharedFontInstanceMap
 FontKey
 FontInstanceKey
 NativeFontHandle
@@ -239,6 +238,15 @@ api_resources
 :
 :
 ApiResources
+;
+use
+crate
+:
+:
+glyph_rasterizer
+:
+:
+SharedFontInstanceMap
 ;
 use
 crate

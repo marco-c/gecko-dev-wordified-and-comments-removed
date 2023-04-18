@@ -34,7 +34,6 @@ DisplayItemRef
 ExtendMode
 ExternalScrollId
 FilterData
-SharedFontInstanceMap
 }
 ;
 use
@@ -218,7 +217,10 @@ crate
 glyph_rasterizer
 :
 :
+{
 FontInstance
+SharedFontInstanceMap
+}
 ;
 use
 crate
