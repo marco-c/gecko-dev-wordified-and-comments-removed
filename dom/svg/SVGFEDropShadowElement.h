@@ -60,8 +60,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -388,7 +388,6 @@ sStringInfo
 ;
 }
 ;
-}
 }
 #
 endif

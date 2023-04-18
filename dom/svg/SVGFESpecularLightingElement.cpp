@@ -64,8 +64,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -477,6 +477,5 @@ aCtx
 aParent
 )
 ;
-}
 }
 }

@@ -150,8 +150,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -1737,7 +1737,6 @@ GetParent
 )
 )
 ;
-}
 }
 }
 }

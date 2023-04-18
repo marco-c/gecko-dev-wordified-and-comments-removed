@@ -42,8 +42,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -281,6 +281,5 @@ sNumberInfo
 )
 )
 ;
-}
 }
 }
