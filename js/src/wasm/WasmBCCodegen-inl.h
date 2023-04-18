@@ -1206,6 +1206,9 @@ Kind
 kind
 )
 {
+#
+ifndef
+RABALDR_PIN_INSTANCE
 fr
 .
 loadTlsPtr
@@ -1213,6 +1216,8 @@ loadTlsPtr
 WasmTlsReg
 )
 ;
+#
+endif
 masm
 .
 nopPatchableToCall
