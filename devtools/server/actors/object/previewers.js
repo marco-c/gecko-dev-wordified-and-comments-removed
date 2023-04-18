@@ -959,6 +959,7 @@ PropertyIterators
 enumSetEntries
 (
 objectActor
+true
 )
 )
 {
@@ -1005,6 +1006,7 @@ PropertyIterators
 enumWeakSetEntries
 (
 objectActor
+true
 )
 ;
 grip
@@ -1184,6 +1186,7 @@ PropertyIterators
 enumMapEntries
 (
 objectActor
+true
 )
 )
 {
@@ -1230,6 +1233,7 @@ PropertyIterators
 enumWeakMapEntries
 (
 objectActor
+true
 )
 ;
 grip
