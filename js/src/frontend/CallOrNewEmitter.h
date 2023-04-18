@@ -181,7 +181,6 @@ SuperCallee
 OtherCallee
 This
 WantSpreadOperand
-SpreadArgumentsTest
 SpreadIteration
 Arguments
 End
@@ -559,16 +558,6 @@ nodiscard
 ]
 bool
 emitSpreadArgumentsTest
-(
-)
-;
-[
-[
-nodiscard
-]
-]
-bool
-emitSpreadArgumentsTestEnd
 (
 )
 ;

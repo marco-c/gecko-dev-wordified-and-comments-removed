@@ -656,6 +656,11 @@ val
 )
 ;
 void
+emitPushNonArrowFunctionNewTarget
+(
+)
+;
+void
 emitGetAliasedVar
 (
 ValueOperand

@@ -1529,11 +1529,6 @@ newThisName
 )
 ;
 NameNodeType
-newNewTargetName
-(
-)
-;
-NameNodeType
 newDotGeneratorName
 (
 )
@@ -2541,12 +2536,6 @@ Base
 :
 :
 newInternalDotName
-;
-using
-Base
-:
-:
-newNewTargetName
 ;
 using
 Base
@@ -3912,7 +3901,7 @@ nullptr
 bool
 tryNewTarget
 (
-NewTargetNodeType
+BinaryNodeType
 *
 newTarget
 )

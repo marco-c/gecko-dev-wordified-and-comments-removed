@@ -2230,17 +2230,6 @@ canSkipLazyClosedOverBindings
 )
 ;
 bool
-declareNewTarget
-(
-const
-UsedNameTracker
-&
-usedNames
-bool
-canSkipLazyClosedOverBindings
-)
-;
-bool
 declareDotGeneratorName
 (
 )

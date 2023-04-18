@@ -4904,6 +4904,7 @@ ExecuteKernel
 cx
 script
 env
+NullHandleValue
 frame
 rval
 )

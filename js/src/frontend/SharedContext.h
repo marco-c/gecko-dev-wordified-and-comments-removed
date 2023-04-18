@@ -1883,11 +1883,6 @@ IMMUTABLE_FLAG_GETTER_SETTER
 functionHasThisBinding
 FunctionHasThisBinding
 )
-IMMUTABLE_FLAG_GETTER_SETTER
-(
-functionHasNewTargetBinding
-FunctionHasNewTargetBinding
-)
 IMMUTABLE_FLAG_GETTER
 (
 useMemberInitializers
