@@ -1010,7 +1010,8 @@ requirements
 "
 "
         
-assert
+if
+not
 os
 .
 path
@@ -1018,6 +1019,24 @@ path
 isfile
 (
 requirements_path
+)
+:
+            
+raise
+Exception
+(
+f
+'
+Missing
+requirements
+file
+at
+"
+{
+requirements_path
+}
+"
+'
 )
         
 requirements_output
