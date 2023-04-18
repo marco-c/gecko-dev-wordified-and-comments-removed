@@ -2620,11 +2620,17 @@ true
 }
 }
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 SHIFT_DATA
 "
@@ -2832,6 +2838,8 @@ rawKey
 )
 {
 return
+lazy
+.
 SHIFT_DATA
 .
 get

@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 pprint
 :
@@ -813,6 +819,8 @@ none
 :
 msg
 =
+lazy
+.
 pprint
 Element
 {
@@ -846,6 +854,8 @@ pointer
 events
 enabled
 +
+lazy
+.
 pprint
 and
 element
@@ -865,6 +875,8 @@ default
 :
 msg
 =
+lazy
+.
 pprint
 Element
 {
@@ -889,6 +901,8 @@ y
 }
 )
 +
+lazy
+.
 pprint
 because
 another
