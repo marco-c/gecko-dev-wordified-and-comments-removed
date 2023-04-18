@@ -1553,6 +1553,10 @@ ins
 void
 dumpInstructions
 (
+const
+char
+*
+who
 )
 ;
 public
