@@ -8416,6 +8416,10 @@ mFiles
 aFiles
 )
 {
+mMayCreateShmem
+=
+true
+;
 }
 ~
 GMPSandboxPolicy

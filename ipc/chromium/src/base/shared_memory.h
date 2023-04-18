@@ -364,6 +364,12 @@ pid_t
 pid
 )
 ;
+static
+bool
+UsingPosixShm
+(
+)
+;
 #
 endif
 private
