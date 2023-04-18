@@ -1147,6 +1147,14 @@ aMaybeSource
 )
 ;
 void
+GetProfilerLabel
+(
+nsACString
+&
+aOutString
+)
+;
+void
 SetIsPreloadRequest
 (
 )
