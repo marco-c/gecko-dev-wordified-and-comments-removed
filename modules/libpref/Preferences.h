@@ -1807,6 +1807,7 @@ bool
 const
 char
 *
+bool
 )
 >
 &
@@ -2312,6 +2313,19 @@ InitStaticMembers
 )
 ;
 }
+;
+bool
+ShouldSyncPreference
+(
+const
+char
+*
+aPref
+bool
+aIsContentProcess
+=
+true
+)
 ;
 }
 #

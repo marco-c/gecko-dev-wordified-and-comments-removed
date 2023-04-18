@@ -500,12 +500,6 @@ aData
 if
 (
 !
-dom
-:
-:
-ContentParent
-:
-:
 ShouldSyncPreference
 (
 strData
@@ -513,6 +507,7 @@ strData
 Data
 (
 )
+false
 )
 )
 {
@@ -531,12 +526,6 @@ pref
 strData
 false
 !
-dom
-:
-:
-ContentParent
-:
-:
 ShouldSyncPreference
 (
 strData

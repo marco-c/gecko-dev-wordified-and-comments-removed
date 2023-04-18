@@ -2723,12 +2723,6 @@ aName
 )
 false
 !
-dom
-:
-:
-ContentParent
-:
-:
 ShouldSyncPreference
 (
 aName
