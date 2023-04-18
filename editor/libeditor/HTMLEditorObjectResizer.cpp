@@ -5563,6 +5563,7 @@ aY
 ResizeAt
 aResizeAt
 )
+const
 {
 int32_t
 result

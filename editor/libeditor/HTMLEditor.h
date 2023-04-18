@@ -444,10 +444,16 @@ GetAsHTMLEditor
 nullptr
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 GetReturnInParagraphCreatesNewParagraph
 (
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
@@ -4710,6 +4716,7 @@ AutoRangeArray
 &
 aRangesToDelete
 )
+const
 ;
 [
 [
@@ -8091,6 +8098,11 @@ eWidth
 eHeight
 }
 ;
+[
+[
+nodiscard
+]
+]
 int32_t
 GetNewResizingIncrement
 (
@@ -8101,6 +8113,7 @@ aY
 ResizeAt
 aResizeAt
 )
+const
 ;
 [
 [
@@ -8283,6 +8296,7 @@ int32_t
 &
 newY
 )
+const
 ;
 nsresult
 GrabberClicked

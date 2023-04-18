@@ -1166,6 +1166,7 @@ AutoRangeArray
 &
 aRangesToDelete
 )
+const
 {
 MOZ_ASSERT
 (
@@ -3217,6 +3218,7 @@ AutoRangeArray
 &
 aRangesToDelete
 )
+const
 {
 MOZ_ASSERT
 (

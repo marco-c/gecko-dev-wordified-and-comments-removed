@@ -231,6 +231,7 @@ nsRange
 GetRange
 (
 )
+const
 ;
 [
 [

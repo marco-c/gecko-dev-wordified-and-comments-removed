@@ -30562,6 +30562,7 @@ HTMLEditor
 GetReturnInParagraphCreatesNewParagraph
 (
 )
+const
 {
 return
 mCRInParagraphCreatesParagraph
