@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Subprocess
 :
@@ -112,7 +118,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 XreDirProvider
 :
@@ -141,7 +147,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -224,6 +230,8 @@ intervalSeconds
 options
 )
 {
+lazy
+.
 log
 .
 info
@@ -260,6 +268,8 @@ _uid
 (
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -384,6 +394,8 @@ str
 )
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -402,6 +414,8 @@ let
 bootout
 =
 await
+lazy
+.
 Subprocess
 .
 call
@@ -439,6 +453,8 @@ stdout
 }
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -471,6 +487,8 @@ wait
 (
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -488,6 +506,8 @@ let
 bootstrap
 =
 await
+lazy
+.
 Subprocess
 .
 call
@@ -522,6 +542,8 @@ stdout
 }
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -555,6 +577,8 @@ wait
 )
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -630,6 +654,8 @@ deleteTask
 id
 )
 {
+lazy
+.
 log
 .
 info
@@ -677,6 +703,8 @@ _formatPlistPath
 label
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -712,6 +740,8 @@ _uid
 (
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -729,6 +759,8 @@ let
 bootout
 =
 await
+lazy
+.
 Subprocess
 .
 call
@@ -778,6 +810,8 @@ wait
 (
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -791,6 +825,8 @@ exitCode
 }
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -823,6 +859,8 @@ let
 proc
 =
 await
+lazy
+.
 Subprocess
 .
 call
@@ -960,6 +998,8 @@ this
 _labelMatchesThisApp
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -977,6 +1017,8 @@ deleteAllTasks
 (
 )
 {
+lazy
+.
 log
 .
 info
@@ -1062,6 +1104,8 @@ deleted
 failed
 }
 ;
+lazy
+.
 log
 .
 debug
@@ -1563,6 +1607,8 @@ id
 let
 installHash
 =
+lazy
+.
 XreDirProvider
 .
 getInstallHash
@@ -1593,6 +1639,8 @@ label
 let
 installHash
 =
+lazy
+.
 XreDirProvider
 .
 getInstallHash
@@ -1708,6 +1756,8 @@ let
 proc
 =
 await
+lazy
+.
 Subprocess
 .
 call
