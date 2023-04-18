@@ -200,9 +200,6 @@ class
 MouseEvent
 ;
 class
-MessageEvent
-;
-class
 TimeEvent
 ;
 class
@@ -504,17 +501,6 @@ virtual
 CustomEvent
 *
 AsCustomEvent
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
-MessageEvent
-*
-AsMessageEvent
 (
 )
 {

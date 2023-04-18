@@ -7,7 +7,7 @@ Exposed
 Transferable
 See
 Bug
-1562065
+1734240
 ]
 interface
 ReadableStream

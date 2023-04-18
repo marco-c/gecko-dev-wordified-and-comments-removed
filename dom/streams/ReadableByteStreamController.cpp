@@ -152,6 +152,17 @@ mozilla
 /
 dom
 /
+PromiseNativeHandler
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ReadableByteStreamController
 .
 h
