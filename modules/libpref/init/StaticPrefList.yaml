@@ -54227,7 +54227,7 @@ is
 failure
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
