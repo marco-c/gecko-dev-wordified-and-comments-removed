@@ -136,7 +136,7 @@ using
 OwningOffscreenRenderingContext
 =
 class
-OwningImageBitmapRenderingContextOrWebGLRenderingContextOrWebGL2RenderingContextOrGPUCanvasContext
+OwningOffscreenCanvasRenderingContext2DOrImageBitmapRenderingContextOrWebGLRenderingContextOrWebGL2RenderingContextOrGPUCanvasContext
 ;
 struct
 OffscreenCanvasCloneData
@@ -637,6 +637,18 @@ ShouldResistFingerprinting
 )
 const
 ;
+bool
+IsTransferredFromElement
+(
+)
+const
+{
+return
+!
+!
+mDisplay
+;
+}
 private
 :
 ~
