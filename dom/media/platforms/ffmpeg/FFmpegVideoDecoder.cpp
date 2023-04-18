@@ -4329,8 +4329,13 @@ mDecodedFrames
 FFMPEG_LOG
 (
 "
+decode
+time
+%
+.
+2f
+ms
 averange
-frame
 decode
 time
 %
@@ -4344,6 +4349,7 @@ d
 \
 n
 "
+decodeTime
 mAverangeDecodeTime
 mDecodedFrames
 )
