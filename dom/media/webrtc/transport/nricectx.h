@@ -777,6 +777,11 @@ std
 string
 &
 aName
+)
+;
+nsresult
+SetIceConfig
+(
 const
 Config
 &
@@ -1310,6 +1315,7 @@ NrIceCtx
 )
 private
 :
+explicit
 NrIceCtx
 (
 const
@@ -1319,10 +1325,6 @@ std
 string
 &
 name
-const
-Config
-&
-aConfig
 )
 ;
 virtual

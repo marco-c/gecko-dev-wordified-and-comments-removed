@@ -2141,7 +2141,6 @@ NrIceCtx
 Create
 (
 name
-config
 )
 )
 offerer_
@@ -2269,6 +2268,14 @@ IceTestPeer
 :
 :
 ConnectionStateChange
+)
+;
+ice_ctx_
+-
+>
+SetIceConfig
+(
+config
 )
 ;
 consent_timestamp_
@@ -11851,12 +11858,6 @@ Create
 "
 test
 "
-NrIceCtx
-:
-:
-Config
-(
-)
 )
 ;
 nsCOMPtr
