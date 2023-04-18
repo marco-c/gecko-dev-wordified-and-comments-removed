@@ -4788,7 +4788,7 @@ resumeOffset
 offsetStack
 stackDepth
 -
-2
+1
 )
 )
 {
@@ -11336,7 +11336,7 @@ return
 write
 (
 "
-THROWING
+PC
 "
 )
 ;
@@ -11353,7 +11353,7 @@ return
 write
 (
 "
-PC
+THROWING
 "
 )
 ;
