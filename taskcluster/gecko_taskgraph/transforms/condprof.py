@@ -349,6 +349,27 @@ name
 "
 ]
         
+run_as_root
+=
+task
+[
+"
+run
+"
+]
+.
+get
+(
+"
+run
+-
+as
+-
+root
+"
+False
+)
+        
 for
 scenario
 in
@@ -442,7 +463,7 @@ taskdesc
 {
                 
 "
-label
+name
 "
 :
 "
@@ -660,6 +681,16 @@ command
 "
 :
 tcmd
+                    
+"
+run
+-
+as
+-
+root
+"
+:
+run_as_root
                 
 }
                 
