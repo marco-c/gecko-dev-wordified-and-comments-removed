@@ -336,12 +336,6 @@ def
 ensure_nasm_packages
 (
 self
-state_dir
-:
-Path
-checkout_root
-:
-Path
 )
 :
         
