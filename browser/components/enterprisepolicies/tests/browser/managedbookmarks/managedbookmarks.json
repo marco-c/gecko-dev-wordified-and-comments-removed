@@ -5,6 +5,11 @@ policies
 :
 {
 "
+DisablePrivateBrowsing
+"
+:
+true
+"
 DisplayBookmarksToolbar
 "
 :
