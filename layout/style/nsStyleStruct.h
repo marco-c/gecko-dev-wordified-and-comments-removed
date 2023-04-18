@@ -355,7 +355,7 @@ mMathDepth
 mozilla
 :
 :
-StyleMathMLMathVariant
+StyleMathVariant
 mMathVariant
 ;
 uint8_t

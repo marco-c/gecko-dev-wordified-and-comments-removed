@@ -1009,7 +1009,7 @@ NS_MATHML_DEFAULT_SCRIPT_MIN_SIZE_PT
 8
 enum
 class
-StyleMathMLMathVariant
+StyleMathVariant
 :
 uint8_t
 {
