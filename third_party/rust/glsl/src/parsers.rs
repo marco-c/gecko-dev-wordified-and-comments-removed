@@ -8597,7 +8597,7 @@ tag
 )
 blank
 )
-logical_or_expr
+logical_xor_expr
 )
 a
 move
@@ -8687,7 +8687,7 @@ tag
 )
 blank
 )
-logical_xor_expr
+logical_and_expr
 )
 a
 move
@@ -8777,7 +8777,7 @@ tag
 )
 blank
 )
-logical_and_expr
+inclusive_or_expr
 )
 a
 move

@@ -122,7 +122,7 @@ version
 .
 3
 .
-2
+3
 "
 authors
 =
@@ -218,7 +218,7 @@ version
 "
 0
 .
-12
+13
 "
 [
 dependencies
@@ -240,9 +240,7 @@ bytes
 version
 =
 "
-0
-.
-5
+1
 "
 [
 dependencies

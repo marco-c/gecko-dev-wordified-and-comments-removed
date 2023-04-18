@@ -301,7 +301,6 @@ atomic
 :
 {
 AtomicUsize
-ATOMIC_USIZE_INIT
 Ordering
 }
 ;
@@ -310,7 +309,13 @@ FEATURE
 :
 AtomicUsize
 =
-ATOMIC_USIZE_INIT
+AtomicUsize
+:
+:
+new
+(
+0
+)
 ;
 const
 INIT
