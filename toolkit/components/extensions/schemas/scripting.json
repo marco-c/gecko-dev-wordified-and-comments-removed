@@ -100,11 +100,6 @@ enum
 scripting
 "
 ]
-"
-min_manifest_version
-"
-:
-3
 }
 ]
 }
@@ -144,11 +139,6 @@ permissions
 scripting
 "
 ]
-"
-min_manifest_version
-"
-:
-3
 "
 types
 "
