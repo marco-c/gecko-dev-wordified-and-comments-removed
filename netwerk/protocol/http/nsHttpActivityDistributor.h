@@ -97,6 +97,12 @@ mActivated
 false
 }
 ;
+bool
+mObserveProxyResponse
+{
+false
+}
+;
 }
 ;
 }
