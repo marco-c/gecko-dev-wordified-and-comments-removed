@@ -406,6 +406,7 @@ n
 )
 ;
 }
+virtual
 void
 TextBeforeOffset
 (
@@ -423,6 +424,7 @@ nsAString
 &
 aText
 )
+override
 ;
 virtual
 void
@@ -444,6 +446,7 @@ aText
 )
 override
 ;
+virtual
 void
 TextAfterOffset
 (
@@ -461,6 +464,7 @@ nsAString
 &
 aText
 )
+override
 ;
 virtual
 already_AddRefed
