@@ -142,9 +142,6 @@ getAttribute
 (
 href
 )
-activate
-:
-true
 source
 position
 }

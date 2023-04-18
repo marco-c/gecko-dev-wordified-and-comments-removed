@@ -201,9 +201,6 @@ example
 .
 com
 "
-activate
-:
-true
 source
 :
 "
