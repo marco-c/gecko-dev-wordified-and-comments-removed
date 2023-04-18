@@ -190,6 +190,16 @@ pushPrefs
 (
 [
 "
+browser
+.
+aboutwelcome
+.
+transitions
+"
+false
+]
+[
+"
 intl
 .
 multilingual
@@ -383,6 +393,8 @@ waitForCondition
 (
 getVisibleElement
 selector
+200
+100
 )
 ;
 getVisibleElement
