@@ -1708,14 +1708,6 @@ TileCache
 }
 )
 |
-Some
-(
-PictureCompositeMode
-:
-:
-IntermediateSurface
-)
-|
 None
 =
 >
