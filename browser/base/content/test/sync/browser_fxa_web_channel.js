@@ -80,7 +80,6 @@ FxAccountsWebChannel
 .
 jsm
 "
-null
 )
 ;
 const

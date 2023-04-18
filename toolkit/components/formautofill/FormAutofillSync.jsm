@@ -13,6 +13,12 @@ AddressesEngine
 "
 CreditCardsEngine
 "
+"
+sanitizeStorageObject
+"
+"
+AutofillRecord
+"
 ]
 ;
 const
