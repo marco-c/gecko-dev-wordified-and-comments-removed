@@ -10,3 +10,11 @@ mozconfigs
 /
 common
 "
+ac_add_options
+-
+-
+enable
+-
+clang
+-
+plugin
