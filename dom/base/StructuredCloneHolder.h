@@ -1350,6 +1350,16 @@ bool
 aSameProcessScopeRequired
 )
 ;
+already_AddRefed
+<
+MessagePort
+>
+ReceiveMessagePort
+(
+uint64_t
+aIndex
+)
+;
 bool
 mSupportsCloning
 ;
