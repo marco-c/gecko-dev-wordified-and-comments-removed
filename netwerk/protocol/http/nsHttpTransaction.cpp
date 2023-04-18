@@ -6349,7 +6349,7 @@ network_http_early_data_disable_on_error
 mEarlyDataWasAvailable
 &
 &
-SecurityErrorToBeHandledByTransaction
+SecurityErrorThatMayNeedRestart
 (
 reason
 )

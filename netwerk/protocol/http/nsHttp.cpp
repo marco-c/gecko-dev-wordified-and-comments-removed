@@ -5094,7 +5094,7 @@ NOT_SUPPORTED
 ;
 }
 bool
-SecurityErrorToBeHandledByTransaction
+SecurityErrorThatMayNeedRestart
 (
 nsresult
 aReason
