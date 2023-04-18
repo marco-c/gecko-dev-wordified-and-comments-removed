@@ -77,6 +77,16 @@ profile
 )
 ;
 async
+GetGatherProfileProgress
+(
+)
+returns
+(
+GatherProfileProgress
+progress
+)
+;
+async
 ClearAllPages
 (
 )
