@@ -227,7 +227,7 @@ titleExtra
 ;
 }
 function
-test_computed_value_greater_or_lower_than
+testComputedValueGreaterOrLowerThan
 (
 property
 specified
@@ -426,10 +426,9 @@ titleExtra
 ;
 }
 function
-compareValueCloseTo
+testTransformValuesCloseTo
 (
-property_name
-calcValue
+specified
 epsilon
 expectedValue
 description
@@ -445,7 +444,7 @@ description
 =
 Property
 {
-calcValue
+specified
 }
 value
 expected
@@ -486,7 +485,9 @@ style
 .
 setProperty
 (
-property_name
+'
+transform
+'
 "
 initial
 "
@@ -498,8 +499,10 @@ style
 .
 setProperty
 (
-property_name
-calcValue
+'
+transform
+'
+specified
 )
 ;
 var
@@ -510,7 +513,9 @@ getComputedStyle
 targetElement
 )
 [
-property_name
+'
+transform
+'
 ]
 ;
 computedCalcValue
@@ -631,7 +636,9 @@ style
 .
 setProperty
 (
-property_name
+'
+transform
+'
 expectedValue
 )
 ;
@@ -643,7 +650,9 @@ getComputedStyle
 targetElement
 )
 [
-property_name
+'
+transform
+'
 ]
 ;
 computedExpectedValue
