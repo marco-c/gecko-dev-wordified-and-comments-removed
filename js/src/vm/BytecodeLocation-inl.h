@@ -349,15 +349,6 @@ is
 JSOp
 :
 :
-LambdaArrow
-)
-|
-|
-is
-(
-JSOp
-:
-:
 FunWithProto
 )
 )

@@ -11533,12 +11533,6 @@ JSOp
 :
 Lambda
 :
-case
-JSOp
-:
-:
-LambdaArrow
-:
 return
 write
 (
