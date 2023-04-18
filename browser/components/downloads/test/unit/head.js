@@ -425,7 +425,7 @@ run_next_test
 )
 ;
 }
-add_task
+add_setup
 (
 async
 function

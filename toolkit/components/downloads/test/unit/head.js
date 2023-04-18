@@ -2970,7 +2970,7 @@ sourceUriSpec
 var
 gMostRecentFirstBytePos
 ;
-add_task
+add_setup
 (
 function
 test_common_initialize

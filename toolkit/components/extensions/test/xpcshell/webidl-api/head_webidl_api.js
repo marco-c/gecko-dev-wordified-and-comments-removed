@@ -42,7 +42,7 @@ jsm
 }
 )
 ;
-add_task
+add_setup
 (
 function
 checkExtensionsWebIDLEnabled

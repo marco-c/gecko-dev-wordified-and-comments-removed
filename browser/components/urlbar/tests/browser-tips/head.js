@@ -261,14 +261,6 @@ update
 "
 }
 ;
-add_task
-(
-async
-function
-init
-(
-)
-{
 registerCleanupFunction
 (
 (
@@ -280,9 +272,6 @@ UrlbarProviderInterventions
 .
 resetAppUpdater
 (
-)
-;
-}
 )
 ;
 }

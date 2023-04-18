@@ -302,7 +302,7 @@ return
 true
 ;
 }
-add_task
+add_setup
 (
 setup
 )
