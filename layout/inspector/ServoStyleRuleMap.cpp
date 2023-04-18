@@ -402,7 +402,7 @@ case
 StyleCssRuleType
 :
 :
-Layer
+LayerBlock
 :
 case
 StyleCssRuleType
@@ -420,6 +420,12 @@ Clear
 break
 ;
 }
+case
+StyleCssRuleType
+:
+:
+LayerStatement
+:
 case
 StyleCssRuleType
 :
@@ -574,7 +580,7 @@ case
 StyleCssRuleType
 :
 :
-Layer
+LayerBlock
 :
 case
 StyleCssRuleType
@@ -676,6 +682,12 @@ GetStyleSheet
 break
 ;
 }
+case
+StyleCssRuleType
+:
+:
+LayerStatement
+:
 case
 StyleCssRuleType
 :

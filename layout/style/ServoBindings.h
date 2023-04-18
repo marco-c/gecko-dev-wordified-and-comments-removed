@@ -248,7 +248,11 @@ Supports
 )
 GROUP_RULE_FUNCS
 (
-Layer
+LayerBlock
+)
+BASIC_RULE_FUNCS
+(
+LayerStatement
 )
 BASIC_RULE_FUNCS
 (

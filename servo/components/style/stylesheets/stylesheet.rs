@@ -1777,7 +1777,16 @@ Import
 CssRule
 :
 :
-Layer
+LayerStatement
+(
+.
+.
+)
+|
+CssRule
+:
+:
+LayerBlock
 (
 .
 .

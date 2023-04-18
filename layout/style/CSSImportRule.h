@@ -156,6 +156,14 @@ GetStyleSheetForBindings
 )
 ;
 void
+GetLayerName
+(
+nsACString
+&
+)
+const
+;
+void
 DropSheetReference
 (
 )
