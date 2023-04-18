@@ -404,15 +404,6 @@ CheckBeforeDestroy
 )
 const
 ;
-mozilla
-:
-:
-PresShell
-*
-GetPrintPreviewPresShell
-(
-)
-;
 nsresult
 Cancel
 (
