@@ -1043,8 +1043,10 @@ SpeechRecognition
 ;
 private
 :
+RefPtr
+<
 SpeechRecognition
-*
+>
 mRecognition
 ;
 RefPtr
