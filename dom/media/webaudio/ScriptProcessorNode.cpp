@@ -2096,6 +2096,9 @@ nsGkAtoms
 :
 :
 onaudioprocess
+&
+&
+mTrack
 )
 {
 UpdateConnectedStatus
