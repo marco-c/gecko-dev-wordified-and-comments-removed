@@ -5968,6 +5968,11 @@ RevokeTransactionIdAllocator
 (
 )
 ;
+mMoveToRectPopupSize
+=
+{
+}
+;
 }
 }
 void
