@@ -1081,7 +1081,7 @@ cubeb_device_type
 aType
 cubeb_device_collection
 *
-collection
+aCollection
 )
 ;
 int

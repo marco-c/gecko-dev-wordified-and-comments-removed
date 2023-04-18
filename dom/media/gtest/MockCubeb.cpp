@@ -1787,7 +1787,7 @@ cubeb_device_type
 aType
 cubeb_device_collection
 *
-collection
+aCollection
 )
 {
 #
@@ -1852,7 +1852,7 @@ Length
 )
 ;
 }
-collection
+aCollection
 -
 >
 device
@@ -1863,7 +1863,7 @@ cubeb_device_info
 count
 ]
 ;
-collection
+aCollection
 -
 >
 count
@@ -1891,7 +1891,7 @@ device
 mInputDevices
 )
 {
-collection
+aCollection
 -
 >
 device
@@ -1923,7 +1923,7 @@ device
 mOutputDevices
 )
 {
-collection
+aCollection
 -
 >
 device
