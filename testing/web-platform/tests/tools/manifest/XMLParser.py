@@ -173,9 +173,6 @@ XML_ERROR_UNDEFINED_ENTITY
 ]
 class
 XMLParser
-(
-object
-)
 :
     
 "

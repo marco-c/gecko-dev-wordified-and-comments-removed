@@ -80,7 +80,7 @@ MutableMapping
 [
 Tuple
 [
-Text
+str
 .
 .
 .
@@ -99,12 +99,12 @@ MutableMapping
 [
 Tuple
 [
-Text
+str
 .
 .
 .
 ]
-Text
+str
 ]
 else
 :

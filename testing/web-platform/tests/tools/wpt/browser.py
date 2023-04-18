@@ -293,9 +293,6 @@ return
 resp
 class
 Browser
-(
-object
-)
 :
     
 __metaclass__
@@ -3737,8 +3734,6 @@ logger
         
 super
 (
-FirefoxAndroid
-self
 )
 .
 __init__
@@ -4100,8 +4095,6 @@ logger
         
 super
 (
-Chrome
-self
 )
 .
 __init__
@@ -4509,9 +4502,6 @@ with
 open
 (
 last_url_file
-"
-rt
-"
 )
 as
 f
@@ -6531,8 +6521,6 @@ logger
         
 super
 (
-ChromeAndroidBase
-self
 )
 .
 __init__
@@ -11228,9 +11216,6 @@ etc
 os
 -
 release
-'
-'
-r
 '
 )
 as

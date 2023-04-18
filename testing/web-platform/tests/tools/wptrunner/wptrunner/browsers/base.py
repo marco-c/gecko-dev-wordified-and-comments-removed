@@ -429,9 +429,6 @@ Exception
 pass
 class
 Browser
-(
-object
-)
 :
     
 "
@@ -969,8 +966,6 @@ kwargs
         
 super
 (
-NullBrowser
-self
 )
 .
 __init__
@@ -2250,7 +2245,7 @@ ENOENT
 :
                 
 raise
-IOError
+OSError
 (
                     
 "

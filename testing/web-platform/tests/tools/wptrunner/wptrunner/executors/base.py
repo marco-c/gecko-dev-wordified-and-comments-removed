@@ -354,9 +354,6 @@ url_parts
 )
 class
 TestharnessResultConverter
-(
-object
-)
 :
     
 harness_codes
@@ -1092,9 +1089,6 @@ message
 message
 class
 TimedRunner
-(
-object
-)
 :
     
 def
@@ -1502,9 +1496,6 @@ raise
 NotImplementedError
 class
 TestExecutor
-(
-object
-)
 :
     
 "
@@ -2402,9 +2393,6 @@ is_print
 True
 class
 RefTestImplementation
-(
-object
-)
 :
     
 def
@@ -4367,9 +4355,6 @@ timeout
 )
 class
 WdspecRun
-(
-object
-)
 :
     
 def
@@ -4576,7 +4561,7 @@ except
 socket
 .
 timeout
-IOError
+OSError
 )
 :
             
@@ -4655,9 +4640,6 @@ set
 )
 class
 CallbackHandler
-(
-object
-)
 :
     
 "
@@ -5174,9 +5156,6 @@ message
 )
 class
 ActionContext
-(
-object
-)
 :
     
 def

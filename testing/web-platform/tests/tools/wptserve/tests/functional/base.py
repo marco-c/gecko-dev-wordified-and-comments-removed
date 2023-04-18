@@ -828,8 +828,6 @@ self
         
 super
 (
-TestWrapperHandlerUsingServer
-self
 )
 .
 setUp
@@ -1039,8 +1037,6 @@ self
         
 super
 (
-TestWrapperHandlerUsingServer
-self
 )
 .
 tearDown

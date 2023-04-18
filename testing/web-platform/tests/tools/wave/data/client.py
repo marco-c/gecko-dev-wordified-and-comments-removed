@@ -1,8 +1,5 @@
 class
 Client
-(
-object
-)
 :
     
 def

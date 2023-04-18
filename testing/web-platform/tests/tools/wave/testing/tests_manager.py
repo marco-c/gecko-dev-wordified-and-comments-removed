@@ -30,9 +30,6 @@ COMPLETED
 ABORTED
 class
 TestsManager
-(
-object
-)
 :
     
 def
@@ -773,9 +770,6 @@ test
         
 class
 compare
-(
-object
-)
 :
             
 def

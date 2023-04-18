@@ -94,9 +94,6 @@ DEFAULT_TEST_MANUAL_TIMEOUT
 300000
 class
 SessionsManager
-(
-object
-)
 :
     
 def
@@ -395,19 +392,16 @@ manual
 raise
 InvalidDataException
 (
+f
 "
 Unknown
 type
 '
 {
+test_type
 }
 '
 "
-.
-format
-(
-test_type
-)
 )
         
 token
@@ -1696,9 +1690,6 @@ with
 open
 (
 info_file
-"
-r
-"
 )
 as
 file
@@ -2675,19 +2666,16 @@ query
 "
         
 return
+f
 "
 {
+test
 }
 ?
 {
+query_string
 }
 "
-.
-format
-(
-test
-query_string
-)
     
 def
 find_token

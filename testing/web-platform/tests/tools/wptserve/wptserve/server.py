@@ -429,9 +429,6 @@ stream
 "
 class
 RequestRewriter
-(
-object
-)
 :
     
 def
@@ -2921,7 +2918,6 @@ b
 :
 protocol
 '
-u
 '
 :
 protocol
@@ -4089,9 +4085,6 @@ write
 )
 class
 H2ConnectionGuard
-(
-object
-)
 :
     
 "
@@ -4302,9 +4295,6 @@ function
 ]
 class
 H2HandlerCopy
-(
-object
-)
 :
     
 def
@@ -4638,9 +4628,6 @@ return
 True
 class
 WebTestHttpd
-(
-object
-)
 :
     
 "
@@ -5231,6 +5218,7 @@ key_file
 raise
 ValueError
 (
+f
 "
 SSL
 certificate
@@ -5238,13 +5226,9 @@ not
 found
 :
 {
+key_file
 }
 "
-.
-format
-(
-key_file
-)
 )
             
 if
@@ -5262,6 +5246,7 @@ certificate
 raise
 ValueError
 (
+f
 "
 SSL
 key
@@ -5269,13 +5254,9 @@ not
 found
 :
 {
+certificate
 }
 "
-.
-format
-(
-certificate
-)
 )
         
 try
@@ -5719,9 +5700,6 @@ fragment
 )
 class
 _WebSocketConnection
-(
-object
-)
 :
     
 def
@@ -5826,9 +5804,6 @@ length
 )
 class
 _WebSocketRequest
-(
-object
-)
 :
     
 def

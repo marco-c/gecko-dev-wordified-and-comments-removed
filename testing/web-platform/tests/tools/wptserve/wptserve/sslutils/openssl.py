@@ -25,9 +25,6 @@ hours
 )
 class
 OpenSSL
-(
-object
-)
 :
     
 def
@@ -1291,9 +1288,6 @@ return
 rv
 class
 OpenSSLEnvironment
-(
-object
-)
 :
     
 ssl_enabled

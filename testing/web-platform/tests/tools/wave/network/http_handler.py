@@ -28,9 +28,6 @@ handler
 )
 class
 HttpHandler
-(
-object
-)
 :
     
 def
@@ -686,7 +683,7 @@ proxy_response
 status
         
 except
-IOError
+OSError
 :
             
 message
@@ -721,26 +718,22 @@ logger
 .
 error
 (
+f
 "
 {
-}
-:
-{
-}
-:
-{
-}
-"
-.
-format
-(
 message
+}
+:
+{
 info
 [
 0
 ]
 .
 __name__
+}
+:
+{
 info
 [
 1
@@ -750,7 +743,8 @@ args
 [
 0
 ]
-)
+}
+"
 )
             
 response

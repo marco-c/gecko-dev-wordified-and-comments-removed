@@ -156,9 +156,6 @@ root
 )
 class
 LogLevelRewriter
-(
-object
-)
 :
     
 "
@@ -358,9 +355,6 @@ data
 )
 class
 LoggedAboveLevelHandler
-(
-object
-)
 :
     
 "
@@ -699,7 +693,7 @@ get
 except
 (
 EOFError
-IOError
+OSError
 )
 :
                 

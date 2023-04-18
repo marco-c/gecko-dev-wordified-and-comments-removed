@@ -26,7 +26,6 @@ re
 .
 compile
 (
-u
 "
 [
 \

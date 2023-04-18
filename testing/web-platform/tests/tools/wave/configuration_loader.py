@@ -3,10 +3,6 @@ json
 import
 os
 from
-io
-import
-open
-from
 tools
 .
 wpt
@@ -830,9 +826,6 @@ with
 open
 (
 path
-"
-r
-"
 )
 as
 configuration_file

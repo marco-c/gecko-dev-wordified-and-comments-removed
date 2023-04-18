@@ -5600,7 +5600,6 @@ bar
 .
 xml
 "
-u
 "
 \
 uFFFF
@@ -6131,7 +6130,6 @@ items
 =
 =
 [
-u
 '
 /
 _fake_base
@@ -6145,7 +6143,6 @@ any
 html
 '
                                             
-u
 '
 /
 _fake_base
@@ -6161,7 +6158,6 @@ html
 wss
 '
                                             
-u
 '
 /
 _fake_base
@@ -6177,7 +6173,6 @@ serviceworker
 html
 '
                                             
-u
 '
 /
 _fake_base
@@ -6195,7 +6190,6 @@ html
 wss
 '
                                             
-u
 '
 /
 _fake_base
@@ -6211,7 +6205,6 @@ sharedworker
 html
 '
                                             
-u
 '
 /
 _fake_base
@@ -6229,7 +6222,6 @@ html
 wss
 '
                                             
-u
 '
 /
 _fake_base
@@ -6245,7 +6237,6 @@ worker
 html
 '
                                             
-u
 '
 /
 _fake_base

@@ -162,9 +162,6 @@ do_teardown
 "
 class
 NullInstrument
-(
-object
-)
 :
     
 def
@@ -305,9 +302,6 @@ kwargs
 return
 class
 InstrumentWriter
-(
-object
-)
 :
     
 def
@@ -451,9 +445,6 @@ stack
 ]
 class
 Instrument
-(
-object
-)
 :
     
 def

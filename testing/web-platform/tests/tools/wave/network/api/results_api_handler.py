@@ -46,8 +46,6 @@ web_root
         
 super
 (
-ResultsApiHandler
-self
 )
 .
 __init__

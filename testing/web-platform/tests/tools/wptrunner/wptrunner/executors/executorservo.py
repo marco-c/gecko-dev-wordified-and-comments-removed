@@ -916,9 +916,6 @@ set
 )
 class
 TempFilename
-(
-object
-)
 :
     
 def

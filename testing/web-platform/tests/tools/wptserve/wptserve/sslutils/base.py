@@ -1,8 +1,5 @@
 class
 NoSSLEnvironment
-(
-object
-)
 :
     
 ssl_enabled

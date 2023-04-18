@@ -242,9 +242,6 @@ data
 )
 class
 TokenTypes
-(
-object
-)
 :
     
 def
@@ -310,9 +307,6 @@ TokenTypes
 )
 class
 Tokenizer
-(
-object
-)
 :
     
 def
@@ -564,14 +558,9 @@ if
 tokens
 :
                     
-for
-token
-in
-tokens
-:
-                        
 yield
-token
+from
+tokens
             
 self
 .
@@ -3493,9 +3482,6 @@ escape
 )
 class
 Parser
-(
-object
-)
 :
     
 def
@@ -3735,10 +3721,17 @@ tokenizer
 .
 line_number
                              
+f
 "
 Token
 '
 {
+self
+.
+token
+[
+0
+]
 }
 '
 doesn
@@ -3749,20 +3742,10 @@ expected
 type
 '
 {
+type
 }
 '
 "
-.
-format
-(
-self
-.
-token
-[
-0
-]
-type
-)
 )
         
 if
@@ -3798,10 +3781,17 @@ tokenizer
 .
 line_number
                                  
+f
 "
 Token
 '
 {
+self
+.
+token
+[
+1
+]
 }
 '
 doesn
@@ -3812,20 +3802,10 @@ expected
 value
 '
 {
+value
 }
 '
 "
-.
-format
-(
-self
-.
-token
-[
-1
-]
-value
-)
 )
         
 self
@@ -3973,10 +3953,17 @@ tokenizer
 .
 line_number
                                  
+f
 "
 Token
 '
 {
+self
+.
+token
+[
+0
+]
 }
 '
 is
@@ -3984,16 +3971,6 @@ not
 a
 string
 "
-.
-format
-(
-self
-.
-token
-[
-0
-]
-)
 )
             
 self
@@ -4269,10 +4246,17 @@ tokenizer
 .
 line_number
                              
+f
 "
 Token
 '
 {
+self
+.
+token
+[
+0
+]
 }
 '
 is
@@ -4281,16 +4265,6 @@ a
 known
 type
 "
-.
-format
-(
-self
-.
-token
-[
-0
-]
-)
 )
     
 def
@@ -5165,9 +5139,6 @@ consume
 )
 class
 Treebuilder
-(
-object
-)
 :
     
 def
@@ -5266,9 +5237,6 @@ return
 node
 class
 ExpressionBuilder
-(
-object
-)
 :
     
 def

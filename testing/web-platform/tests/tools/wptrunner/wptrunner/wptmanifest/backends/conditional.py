@@ -25,9 +25,6 @@ import
 parse
 class
 ConditionalValue
-(
-object
-)
 :
     
 def
@@ -1491,9 +1488,6 @@ data
 ]
 class
 ManifestItem
-(
-object
-)
 :
     
 def
@@ -1656,14 +1650,9 @@ self
 children
 :
             
-for
-node
-in
-child
-:
-                
 yield
-node
+from
+child
     
 property
     
@@ -2511,9 +2500,8 @@ self
 )
 :
         
-for
-item
-in
+yield
+from
 self
 .
 _flatten
@@ -2523,10 +2511,6 @@ _flatten
 items
 (
 )
-:
-            
-yield
-item
     
 def
 iterkeys
@@ -2535,9 +2519,8 @@ self
 )
 :
         
-for
-item
-in
+yield
+from
 self
 .
 _flatten
@@ -2547,10 +2530,6 @@ _flatten
 keys
 (
 )
-:
-            
-yield
-item
     
 def
 iter_properties

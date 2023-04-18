@@ -761,8 +761,6 @@ ca_certificate_path
         
 super
 (
-ProfileCreator
-self
 )
 .
 __init__
@@ -772,13 +770,13 @@ prefs_root
 config
 test_type
 extra_prefs
-                                             
+                         
 True
 enable_fission
 debug_test
 browser_channel
 None
-                                             
+                         
 certutil_binary
 ca_certificate_path
 )
@@ -1071,8 +1069,6 @@ kwargs
         
 super
 (
-FirefoxAndroidBrowser
-self
 )
 .
 __init__
@@ -1754,35 +1750,29 @@ forward
             
 local
 =
+f
 "
 tcp
 :
 {
-}
-"
-.
-format
-(
 self
 .
 marionette_port
-)
+}
+"
             
 remote
 =
+f
 "
 tcp
 :
 {
-}
-"
-.
-format
-(
 self
 .
 marionette_port
-)
+}
+"
 )
         
 for
@@ -1818,31 +1808,25 @@ reverse
                     
 local
 =
+f
 "
 tcp
 :
 {
+port
 }
 "
-.
-format
-(
-port
-)
                     
 remote
 =
+f
 "
 tcp
 :
 {
+port
 }
 "
-.
-format
-(
-port
-)
 )
         
 self
@@ -2391,31 +2375,25 @@ reverse
                     
 local
 =
+f
 "
 tcp
 :
 {
+port
 }
 "
-.
-format
-(
-port
-)
                     
 remote
 =
+f
 "
 tcp
 :
 {
+port
 }
 "
-.
-format
-(
-port
-)
 )
         
 super

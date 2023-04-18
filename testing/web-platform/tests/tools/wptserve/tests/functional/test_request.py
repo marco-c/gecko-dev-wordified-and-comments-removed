@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 import
 pytest
 from
@@ -1190,7 +1178,6 @@ route
         
 encoded_text
 =
-u
 "
 "
 .
@@ -1238,7 +1225,6 @@ read
         
 encoded_text
 =
-u
 "
 "
 .
@@ -1345,7 +1331,6 @@ route
         
 encoded_text
 =
-u
 "
 "
 .
@@ -1458,7 +1443,6 @@ route
         
 encoded_text
 =
-u
 "
 "
 .
@@ -1664,7 +1648,6 @@ b
         
 encoded_text
 =
-u
 "
 "
 .

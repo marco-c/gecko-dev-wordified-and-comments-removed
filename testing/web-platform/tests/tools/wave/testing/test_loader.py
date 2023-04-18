@@ -20,9 +20,6 @@ MANUAL
 ]
 class
 TestLoader
-(
-object
-)
 :
     
 def

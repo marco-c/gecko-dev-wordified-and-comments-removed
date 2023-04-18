@@ -90,8 +90,6 @@ test_loader
         
 super
 (
-TestsApiHandler
-self
 )
 .
 __init__
@@ -1684,19 +1682,16 @@ urlunsplit
 (
 [
 protocol
+f
 "
 {
+hostname
 }
 :
 {
+port
 }
 "
-.
-format
-(
-hostname
-port
-)
 uri
 query
 '

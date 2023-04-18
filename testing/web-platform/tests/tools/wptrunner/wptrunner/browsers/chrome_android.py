@@ -512,9 +512,6 @@ server_host
 }
 class
 LogcatRunner
-(
-object
-)
 :
     
 def

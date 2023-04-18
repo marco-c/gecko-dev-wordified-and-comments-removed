@@ -157,9 +157,6 @@ _products
 )
 class
 all_products
-(
-object
-)
 :
     
 def
@@ -260,9 +257,6 @@ f
 )
 class
 active_products
-(
-object
-)
 :
     
 def

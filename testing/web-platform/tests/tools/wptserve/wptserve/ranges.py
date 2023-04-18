@@ -5,9 +5,6 @@ import
 HTTPException
 class
 RangeParser
-(
-object
-)
 :
     
 def
@@ -362,9 +359,6 @@ rv
 ]
 class
 Range
-(
-object
-)
 :
     
 def

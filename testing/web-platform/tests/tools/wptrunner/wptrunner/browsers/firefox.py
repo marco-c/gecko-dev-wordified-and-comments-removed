@@ -2526,8 +2526,6 @@ down
         
 super
 (
-PreloadInstanceManager
-self
 )
 .
 __init__
@@ -4053,9 +4051,6 @@ with
 open
 (
 profiles
-'
-r
-'
 )
 as
 fh
@@ -5596,7 +5591,7 @@ test
 )
         
 except
-IOError
+OSError
 :
             
 self

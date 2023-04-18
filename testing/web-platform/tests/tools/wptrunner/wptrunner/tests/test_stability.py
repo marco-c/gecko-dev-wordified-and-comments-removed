@@ -1118,13 +1118,11 @@ err_string
 (
         
 {
-u
 '
 OK
 '
 :
 1
-u
 '
 FAIL
 '
@@ -1135,7 +1133,6 @@ FAIL
 )
 =
 =
-u
 "
 *
 *
@@ -1153,13 +1150,11 @@ err_string
 (
         
 {
-u
 '
 OK
 '
 :
 2
-u
 '
 FAIL
 '
@@ -1170,7 +1165,6 @@ FAIL
 )
 =
 =
-u
 "
 *
 *
@@ -1187,7 +1181,6 @@ stability
 err_string
 (
 {
-u
 '
 SKIP
 '
@@ -1198,7 +1191,6 @@ SKIP
 )
 =
 =
-u
 "
 Duplicate
 subtest
@@ -1212,13 +1204,11 @@ err_string
 (
         
 {
-u
 '
 SKIP
 '
 :
 1
-u
 '
 OK
 '
@@ -1229,7 +1219,6 @@ OK
 )
 =
 =
-u
 "
 Duplicate
 subtest
@@ -1243,7 +1232,6 @@ err_string
 (
         
 {
-u
 '
 FAIL
 '
@@ -1254,7 +1242,6 @@ FAIL
 )
 =
 =
-u
 "
 *
 *
@@ -1279,13 +1266,11 @@ err_string
 (
         
 {
-u
 '
 FAIL
 '
 :
 1
-u
 '
 OK
 '
@@ -1296,7 +1281,6 @@ OK
 )
 =
 =
-u
 "
 *
 *
@@ -1326,13 +1310,11 @@ err_string
 (
         
 {
-u
 '
 OK
 '
 :
 1
-u
 '
 FAIL
 '
@@ -1343,7 +1325,6 @@ FAIL
 )
 =
 =
-u
 "
 *
 *
@@ -1368,19 +1349,16 @@ err_string
 (
         
 {
-u
 '
 OK
 '
 :
 2
-u
 '
 FAIL
 '
 :
 1
-u
 '
 SKIP
 '
@@ -1391,7 +1369,6 @@ SKIP
 )
 =
 =
-u
 "
 FAIL
 :
@@ -1417,19 +1394,16 @@ err_string
 (
         
 {
-u
 '
 FAIL
 '
 :
 1
-u
 '
 SKIP
 '
 :
 1
-u
 '
 OK
 '
@@ -1440,7 +1414,6 @@ OK
 )
 =
 =
-u
 "
 FAIL
 :

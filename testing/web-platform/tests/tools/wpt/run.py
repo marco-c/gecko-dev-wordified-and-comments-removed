@@ -133,8 +133,6 @@ None
         
 super
 (
-WptrunnerHelpAction
-self
 )
 .
 __init__
@@ -1076,9 +1074,6 @@ with
 open
 (
 hosts_path
-"
-r
-"
 )
 as
 f
@@ -1249,9 +1244,6 @@ message
 )
 class
 BrowserSetup
-(
-object
-)
 :
     
 name
@@ -3263,8 +3255,6 @@ kwargs
         
 super
 (
-ChromeAndroid
-self
 )
 .
 setup_kwargs
@@ -3426,8 +3416,6 @@ kwargs
         
 super
 (
-AndroidWeblayer
-self
 )
 .
 setup_kwargs

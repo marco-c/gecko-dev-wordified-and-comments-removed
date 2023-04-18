@@ -59,8 +59,6 @@ result
 =
 super
 (
-ServerProcSpy
-self
 )
 .
 start

@@ -101,9 +101,6 @@ data
 )
 class
 TestRunner
-(
-object
-)
 :
     
 "
@@ -893,9 +890,6 @@ e
 )
 class
 BrowserManager
-(
-object
-)
 :
     
 def
@@ -1465,9 +1459,6 @@ is_alive
 )
 class
 _RunnerManagerState
-(
-object
-)
 :
     
 before_init
@@ -2652,7 +2643,7 @@ command
 )
         
 except
-IOError
+OSError
 :
             
 self
@@ -5754,9 +5745,6 @@ return
 queue
 class
 ManagerGroup
-(
-object
-)
 :
     
 "

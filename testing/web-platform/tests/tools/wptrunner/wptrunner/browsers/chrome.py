@@ -654,6 +654,7 @@ address_space_overrides_arg
 join
 (
         
+f
 "
 127
 .
@@ -664,17 +665,13 @@ join
 1
 :
 {
+port_number
 }
 =
 {
+address_space
 }
 "
-.
-format
-(
-port_number
-address_space
-)
         
 for
 port_name
@@ -918,6 +915,7 @@ args
 append
 (
             
+f
 "
 -
 -
@@ -938,16 +936,12 @@ platform
 test
 :
 {
-}
-"
-.
-format
-(
 webtranport_h3_port
 [
 0
 ]
-)
+}
+"
 )
     
 executor_kwargs

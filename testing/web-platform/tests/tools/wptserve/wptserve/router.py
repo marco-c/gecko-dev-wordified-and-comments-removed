@@ -16,9 +16,6 @@ object
 )
 class
 RouteTokenizer
-(
-object
-)
 :
     
 def
@@ -187,9 +184,6 @@ input_str
 )
 class
 RouteCompiler
-(
-object
-)
 :
     
 def
@@ -552,9 +546,6 @@ tokens
 )
 class
 Router
-(
-object
-)
 :
     
 "

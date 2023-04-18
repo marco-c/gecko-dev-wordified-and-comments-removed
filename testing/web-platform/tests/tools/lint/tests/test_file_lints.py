@@ -4971,9 +4971,7 @@ python
             
 expected
 =
-set
-(
-[
+{
 (
 "
 PARSE
@@ -4989,8 +4987,7 @@ file
 filename
 1
 )
-]
-)
+}
         
 elif
 kind
@@ -5011,9 +5008,7 @@ strict
             
 expected
 =
-set
-(
-[
+{
                 
 (
 "
@@ -5165,8 +5160,7 @@ filename
 None
 )
             
-]
-)
+}
         
 else
 :

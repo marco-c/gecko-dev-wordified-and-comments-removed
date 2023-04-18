@@ -249,13 +249,11 @@ totalPixels
 [
 (
 (
-u
 "
 test
 .
 html
 "
-u
 "
 ref
 .
@@ -304,13 +302,11 @@ totalPixels
 [
 (
 (
-u
 "
 test
 .
 html
 "
-u
 "
 ref
 .
@@ -377,13 +373,11 @@ maxDifference
 [
 (
 (
-u
 "
 test
 .
 html
 "
-u
 "
 ref
 .
@@ -408,13 +402,11 @@ html
       
 (
 (
-u
 "
 test
 .
 html
 "
-u
 "
 ref1
 .

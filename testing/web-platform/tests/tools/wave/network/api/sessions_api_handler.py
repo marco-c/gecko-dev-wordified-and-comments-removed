@@ -78,8 +78,6 @@ read_sessions_enabled
         
 super
 (
-SessionsApiHandler
-self
 )
 .
 __init__
@@ -2266,7 +2264,6 @@ body
 .
 decode
 (
-u
 "
 utf
 -
@@ -2278,7 +2275,6 @@ if
 body
 !
 =
-u
 "
 "
 :

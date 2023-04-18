@@ -74,8 +74,6 @@ web_root
         
 super
 (
-DevicesApiHandler
-self
 )
 .
 __init__
@@ -392,7 +390,6 @@ request
 )
             
 if
-u
 "
 device_token
 "
@@ -555,7 +552,6 @@ request
 )
             
 if
-u
 "
 device_token
 "
@@ -681,7 +677,6 @@ self
 .
 handle_exception
 (
-u
 "
 Failed
 to
@@ -757,7 +752,6 @@ request
 )
             
 if
-u
 "
 device_token
 "
@@ -929,7 +923,6 @@ request
 )
             
 if
-u
 "
 device_token
 "
@@ -1064,7 +1057,6 @@ if
 method
 =
 =
-u
 "
 POST
 "
@@ -1084,7 +1076,6 @@ if
 method
 =
 =
-u
 "
 GET
 "
@@ -1121,7 +1112,6 @@ if
 method
 =
 =
-u
 "
 GET
 "
@@ -1131,7 +1121,6 @@ if
 function
 =
 =
-u
 "
 events
 "
@@ -1206,7 +1195,6 @@ if
 method
 =
 =
-u
 "
 GET
 "
@@ -1216,7 +1204,6 @@ if
 function
 =
 =
-u
 "
 events
 "

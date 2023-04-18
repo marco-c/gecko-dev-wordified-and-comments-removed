@@ -351,11 +351,10 @@ timeout
 exceptions
 .
 NoSuchWindowException
-                    
 exceptions
 .
 ErrorInResponseException
-IOError
+OSError
 )
 :
                 
@@ -1554,8 +1553,6 @@ do_delayed_imports
         
 super
 (
-SeleniumProtocol
-self
 )
 .
 __init__

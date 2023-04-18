@@ -137,9 +137,6 @@ assert
 False
 class
 NoVCSTree
-(
-object
-)
 :
     
 name
@@ -268,9 +265,6 @@ self
 pass
 class
 HgTree
-(
-object
-)
 :
     
 name
@@ -778,9 +772,6 @@ return
 False
 class
 GitTree
-(
-object
-)
 :
     
 name
@@ -2648,9 +2639,6 @@ return
 False
 class
 CommitMessage
-(
-object
-)
 :
     
 def
@@ -2730,9 +2718,6 @@ lines
 )
 class
 Commit
-(
-object
-)
 :
     
 msg_cls

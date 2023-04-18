@@ -1,8 +1,5 @@
 class
 ClickAction
-(
-object
-)
 :
     
 name
@@ -91,9 +88,6 @@ element
 )
 class
 DeleteAllCookiesAction
-(
-object
-)
 :
     
 name
@@ -155,9 +149,6 @@ delete_all_cookies
 )
 class
 SendKeysAction
-(
-object
-)
 :
     
 name
@@ -258,9 +249,6 @@ keys
 )
 class
 MinimizeWindowAction
-(
-object
-)
 :
     
 name
@@ -310,9 +298,6 @@ minimize
 )
 class
 SetWindowRectAction
-(
-object
-)
 :
     
 name
@@ -371,9 +356,6 @@ rect
 )
 class
 ActionSequenceAction
-(
-object
-)
 :
     
 name
@@ -541,9 +523,6 @@ element_selector
 )
 class
 GenerateTestReportAction
-(
-object
-)
 :
     
 name
@@ -620,9 +599,6 @@ message
 )
 class
 SetPermissionAction
-(
-object
-)
 :
     
 name
@@ -749,9 +725,6 @@ one_realm
 )
 class
 AddVirtualAuthenticatorAction
-(
-object
-)
 :
     
 name
@@ -846,9 +819,6 @@ return
 authenticator_id
 class
 RemoveVirtualAuthenticatorAction
-(
-object
-)
 :
     
 name
@@ -925,9 +895,6 @@ authenticator_id
 )
 class
 AddCredentialAction
-(
-object
-)
 :
     
 name
@@ -1016,9 +983,6 @@ credential
 )
 class
 GetCredentialsAction
-(
-object
-)
 :
     
 name
@@ -1097,9 +1061,6 @@ authenticator_id
 )
 class
 RemoveCredentialAction
-(
-object
-)
 :
     
 name
@@ -1192,9 +1153,6 @@ credential_id
 )
 class
 RemoveAllCredentialsAction
-(
-object
-)
 :
     
 name
@@ -1273,9 +1231,6 @@ authenticator_id
 )
 class
 SetUserVerifiedAction
-(
-object
-)
 :
     
 name
@@ -1377,9 +1332,6 @@ uv
 )
 class
 SetSPCTransactionModeAction
-(
-object
-)
 :
     
 name

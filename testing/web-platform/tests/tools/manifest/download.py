@@ -827,7 +827,7 @@ read
 )
             
 except
-IOError
+OSError
 :
                 
 logger
@@ -874,7 +874,7 @@ read
 )
             
 except
-IOError
+OSError
 :
                 
 logger
@@ -946,7 +946,7 @@ decompressed
 data
             
 except
-IOError
+OSError
 :
                 
 logger

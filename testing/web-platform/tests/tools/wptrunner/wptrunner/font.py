@@ -39,9 +39,6 @@ lower
 )
 class
 FontInstaller
-(
-object
-)
 :
     
 def

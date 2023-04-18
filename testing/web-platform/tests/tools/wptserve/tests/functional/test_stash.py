@@ -67,8 +67,6 @@ uuid4
             
 super
 (
-TestResponseSetCookie
-self
 )
 .
 run

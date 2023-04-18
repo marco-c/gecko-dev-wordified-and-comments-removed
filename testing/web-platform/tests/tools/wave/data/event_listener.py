@@ -1,8 +1,5 @@
 class
 EventListener
-(
-object
-)
 :
     
 def
@@ -15,8 +12,6 @@ dispatcher_token
         
 super
 (
-EventListener
-self
 )
 .
 __init__

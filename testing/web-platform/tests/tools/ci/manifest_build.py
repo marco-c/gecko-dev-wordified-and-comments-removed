@@ -99,9 +99,6 @@ __name__
 )
 class
 Status
-(
-object
-)
 :
     
 SUCCESS

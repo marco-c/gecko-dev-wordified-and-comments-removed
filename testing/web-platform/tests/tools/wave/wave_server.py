@@ -118,9 +118,6 @@ v3
 "
 class
 WaveServer
-(
-object
-)
 :
     
 def

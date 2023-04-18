@@ -89,7 +89,6 @@ request
 method
 !
 =
-u
 '
 CONNECT
 '
@@ -185,8 +184,6 @@ handshake
         
 super
 (
-WsH2Handshaker
-self
 )
 .
 __init__

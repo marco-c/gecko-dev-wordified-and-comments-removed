@@ -698,9 +698,6 @@ node
 pass
 class
 ManifestItem
-(
-object
-)
 :
     
 def
@@ -1131,9 +1128,8 @@ self
 )
 :
         
-for
-item
-in
+yield
+from
 self
 .
 _flatten
@@ -1143,10 +1139,6 @@ _flatten
 items
 (
 )
-:
-            
-yield
-item
     
 def
 iterkeys
@@ -1155,9 +1147,8 @@ self
 )
 :
         
-for
-item
-in
+yield
+from
 self
 .
 _flatten
@@ -1167,10 +1158,6 @@ _flatten
 keys
 (
 )
-:
-            
-yield
-item
     
 def
 itervalues
@@ -1179,9 +1166,8 @@ self
 )
 :
         
-for
-item
-in
+yield
+from
 self
 .
 _flatten
@@ -1191,10 +1177,6 @@ _flatten
 values
 (
 )
-:
-            
-yield
-item
     
 def
 append

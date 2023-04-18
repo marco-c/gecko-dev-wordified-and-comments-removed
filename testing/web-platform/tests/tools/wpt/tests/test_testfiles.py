@@ -35,14 +35,12 @@ get_revish
 (
 revish
 =
-u
 "
 abcdef
 "
 )
 =
 =
-u
 "
 abcdef
 "
@@ -54,7 +52,6 @@ get_revish
 (
 revish
 =
-u
 "
 123456
 \
@@ -63,7 +60,6 @@ n
 )
 =
 =
-u
 "
 123456
 "
@@ -87,7 +83,6 @@ branch_point
 "
 return_value
 =
-u
 "
 base
 "
@@ -102,7 +97,6 @@ get_revish
 )
 =
 =
-u
 "
 base
 .
@@ -275,12 +269,9 @@ assert
 tests_changed
 =
 =
-set
-(
-[
+{
 full_test_path
-]
-)
+}
 def
 test_exclude_ignored
 (

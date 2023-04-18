@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 import
 sys
 os
@@ -70,13 +58,11 @@ index
 '
 project
 =
-u
 '
 wptserve
 '
 copyright
 =
-u
 '
 2013
 Mozilla
@@ -146,13 +132,11 @@ wptserve
 .
 tex
 '
-u
 '
 wptserve
 Documentation
 '
    
-u
 '
 James
 Graham
@@ -173,14 +157,12 @@ index
 '
 wptserve
 '
-u
 '
 wptserve
 Documentation
 '
      
 [
-u
 '
 James
 Graham
@@ -200,13 +182,11 @@ index
 '
 wptserve
 '
-u
 '
 wptserve
 Documentation
 '
    
-u
 '
 James
 Graham

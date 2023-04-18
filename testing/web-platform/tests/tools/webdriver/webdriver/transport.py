@@ -366,16 +366,11 @@ self
 )
 :
         
-for
-item
-in
+yield
+from
 self
 .
 headers_dict
-:
-            
-yield
-item
     
 def
 __len__
@@ -393,9 +388,6 @@ headers_dict
 )
 class
 Response
-(
-object
-)
 :
     
 "
@@ -670,9 +662,6 @@ headers
 )
 class
 HTTPWireProtocol
-(
-object
-)
 :
     
 "

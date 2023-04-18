@@ -1,8 +1,5 @@
 class
 NodeVisitor
-(
-object
-)
 :
     
 def
@@ -40,9 +37,6 @@ node
 )
 class
 Node
-(
-object
-)
 :
     
 def

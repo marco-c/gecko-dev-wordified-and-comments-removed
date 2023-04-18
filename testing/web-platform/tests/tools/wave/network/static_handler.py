@@ -1,14 +1,7 @@
 import
 os
-from
-io
-import
-open
 class
 StaticHandler
-(
-object
-)
 :
     
 def

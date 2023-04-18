@@ -487,8 +487,6 @@ runner
         
 super
 (
-ChromeDriverPrintRefTestExecutor
-self
 )
 .
 setup

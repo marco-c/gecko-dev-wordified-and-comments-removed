@@ -55,7 +55,6 @@ test_markdown_adjust
 :
     
 assert
-u
 '
 \
 \
@@ -74,7 +73,6 @@ t
 )
     
 assert
-u
 '
 \
 \
@@ -93,7 +91,6 @@ r
 )
     
 assert
-u
 '
 \
 \
@@ -112,7 +109,6 @@ n
 )
     
 assert
-u
 '
 '
 =
@@ -126,7 +122,6 @@ markdown_adjust
 )
     
 assert
-u
 '
 \
 \
@@ -144,7 +139,6 @@ markdown_adjust
 )
     
 assert
-u
 '
 \
 \

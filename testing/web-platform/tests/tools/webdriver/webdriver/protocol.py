@@ -45,8 +45,6 @@ session
         
 super
 (
-Encoder
-self
 )
 .
 __init__
@@ -186,8 +184,6 @@ id
 return
 super
 (
-Encoder
-self
 )
 .
 default
@@ -230,8 +226,6 @@ session
         
 super
 (
-Decoder
-self
 )
 .
 __init__

@@ -519,9 +519,6 @@ raise
 ValueError
 class
 ConfigBuilder
-(
-object
-)
 :
     
 "
@@ -1873,7 +1870,6 @@ ascii
 "
 )
 +
-u
 "
 .
 "
@@ -1988,7 +1984,6 @@ ascii
 "
 )
 +
-u
 "
 .
 "

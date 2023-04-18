@@ -73,7 +73,6 @@ return
 (
 (
 (
-(
 until
 -
 offset
@@ -81,7 +80,6 @@ offset
 /
 /
 epoch
-)
 )
 *
 epoch
@@ -236,7 +234,6 @@ args
         
 pattern
         
-u
 '
 -
 -
@@ -246,7 +243,6 @@ sort
 committerdate
 '
         
-u
 '
 -
 -
@@ -272,7 +268,6 @@ raw
 )
 '
         
-u
 '
 -
 -

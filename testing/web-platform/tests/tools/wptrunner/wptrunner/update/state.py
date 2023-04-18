@@ -21,9 +21,6 @@ __file__
 )
 class
 BaseState
-(
-object
-)
 :
     
 def
@@ -79,8 +76,6 @@ found
 return
 super
 (
-BaseState
-cls
 )
 .
 __new__
@@ -738,7 +733,7 @@ file
 )
         
 except
-IOError
+OSError
 :
             
 logger
@@ -803,8 +798,6 @@ self
         
 super
 (
-SavedState
-self
 )
 .
 clear
@@ -858,9 +851,6 @@ self
 return
 class
 StateContext
-(
-object
-)
 :
     
 def

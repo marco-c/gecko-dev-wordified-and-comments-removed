@@ -123,9 +123,6 @@ return
 module
 class
 Product
-(
-object
-)
 :
     
 def

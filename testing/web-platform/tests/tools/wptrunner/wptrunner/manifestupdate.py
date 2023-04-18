@@ -325,9 +325,6 @@ raise
 ValueError
 class
 UpdateProperties
-(
-object
-)
 :
     
 def
@@ -2124,9 +2121,6 @@ return
 root
 class
 PropertyUpdate
-(
-object
-)
 :
     
 property_name
@@ -3161,7 +3155,6 @@ current_conditions
                 
 if
 (
-(
 not
 condition
 .
@@ -3172,13 +3165,12 @@ issubset
 update_properties
 )
 and
-                     
+                    
 not
 run_info_by_condition
 [
 condition
 ]
-)
 )
 :
                     
@@ -5532,7 +5524,7 @@ remove_intermittent
 )
     
 except
-IOError
+OSError
 :
         
 return

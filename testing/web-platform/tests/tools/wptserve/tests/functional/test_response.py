@@ -825,7 +825,6 @@ resp_content
 assert
 sorted
 (
-[
 x
 .
 lower
@@ -843,7 +842,6 @@ info
 keys
 (
 )
-]
 )
 =
 =

@@ -12,9 +12,6 @@ Optional
 Text
 class
 GitHubChecksOutputter
-(
-object
-)
 :
     
 "

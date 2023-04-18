@@ -39,9 +39,6 @@ unknown
 "
 class
 Session
-(
-object
-)
 :
     
 def

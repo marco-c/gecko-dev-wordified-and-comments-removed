@@ -38,9 +38,6 @@ device_removed
 "
 class
 EventDispatcher
-(
-object
-)
 :
     
 def

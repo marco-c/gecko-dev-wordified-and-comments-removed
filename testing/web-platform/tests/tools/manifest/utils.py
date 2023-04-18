@@ -100,7 +100,6 @@ url_base
 ]
 !
 =
-u
 "
 /
 "
@@ -108,7 +107,6 @@ u
         
 url_base
 =
-u
 "
 /
 "
@@ -123,7 +121,6 @@ url_base
 ]
 !
 =
-u
 "
 /
 "
@@ -132,7 +129,6 @@ u
 url_base
 +
 =
-u
 "
 /
 "
@@ -147,7 +143,6 @@ replace
 os
 .
 sep
-u
 "
 /
 "
@@ -167,7 +162,6 @@ path
 sep
 =
 =
-u
 "
 /
 "
@@ -182,7 +176,6 @@ win32
 "
     
 if
-u
 "
 /
 "
@@ -213,14 +206,12 @@ os
 path
 .
 sep
-u
 "
 /
 "
 )
     
 if
-u
 "
 \
 \
@@ -268,7 +259,6 @@ path
 sep
 =
 =
-u
 "
 /
 "
@@ -283,7 +273,6 @@ win32
 "
     
 if
-u
 "
 \
 \
@@ -305,7 +294,6 @@ contains
 )
     
 if
-u
 "
 /
 "
@@ -326,7 +314,6 @@ path
 .
 replace
 (
-u
 "
 /
 "
@@ -355,7 +342,6 @@ args
 full_cmd
 =
 [
-u
 "
 git
 "
@@ -421,7 +407,6 @@ full_cmd
 0
 ]
 =
-u
 "
 git
 .
@@ -461,13 +446,11 @@ try
         
 gitfunc
 (
-u
 "
 rev
 -
 parse
 "
-u
 "
 -
 -

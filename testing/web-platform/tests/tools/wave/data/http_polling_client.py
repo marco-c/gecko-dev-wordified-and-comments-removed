@@ -21,8 +21,6 @@ event
         
 super
 (
-HttpPollingClient
-self
 )
 .
 __init__

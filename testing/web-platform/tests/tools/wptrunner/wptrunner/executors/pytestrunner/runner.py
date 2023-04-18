@@ -494,9 +494,6 @@ results
 )
 class
 HarnessResultRecorder
-(
-object
-)
 :
     
 outcomes
@@ -576,9 +573,6 @@ None
 )
 class
 SubtestResultRecorder
-(
-object
-)
 :
     
 def
@@ -776,22 +770,19 @@ message
         
 message
 =
+f
 "
 {
+report
+.
+when
 }
 error
 :
 {
+message
 }
 "
-.
-format
-(
-report
-.
-when
-message
-)
         
 self
 .
@@ -910,9 +901,6 @@ new_result
 )
 class
 TemporaryDirectory
-(
-object
-)
 :
     
 def

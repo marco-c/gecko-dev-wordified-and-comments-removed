@@ -207,21 +207,18 @@ lower
         
 return
 [
+f
 "
 {
+key
 }
 :
 {
+v
 }
 \
 n
 "
-.
-format
-(
-key
-v
-)
 for
 v
 in

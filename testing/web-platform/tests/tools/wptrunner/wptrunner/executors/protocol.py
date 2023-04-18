@@ -112,9 +112,6 @@ key
 source_value
 class
 Protocol
-(
-object
-)
 :
     
 "
@@ -588,9 +585,6 @@ teardown
 )
 class
 ProtocolPart
-(
-object
-)
 :
     
 "
