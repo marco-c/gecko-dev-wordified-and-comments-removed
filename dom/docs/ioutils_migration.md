@@ -3906,7 +3906,7 @@ Promise
 <
 void
 >
-setModificationTime
+touch
 (
 DOMString
 path
@@ -3956,7 +3956,7 @@ js
 await
 IOUtils
 .
-setModificationTime
+touch
 (
 path
 new
