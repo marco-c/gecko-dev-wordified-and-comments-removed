@@ -1798,6 +1798,7 @@ async
 handleAction
 (
 event
+target
 )
 {
 let
@@ -1819,6 +1820,9 @@ currentTarget
 let
 targetContent
 =
+target
+|
+|
 props
 .
 content
