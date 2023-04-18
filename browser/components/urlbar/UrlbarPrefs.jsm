@@ -187,6 +187,16 @@ autoFill
 .
 adaptiveHistory
 .
+minCharsThreshold
+"
+0
+]
+[
+"
+autoFill
+.
+adaptiveHistory
+.
 useCountThreshold
 "
 [
