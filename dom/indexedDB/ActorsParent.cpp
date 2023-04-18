@@ -48401,9 +48401,14 @@ aParams
 )
 {
 return
-IPC_FAIL_NO_REASON
+IPC_FAIL
 (
 this
+"
+StartCursor
+failed
+!
+"
 )
 ;
 }
