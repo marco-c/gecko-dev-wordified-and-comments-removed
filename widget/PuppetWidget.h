@@ -722,17 +722,6 @@ WebRenderLayerManager
 aInitializeFunc
 )
 ;
-bool
-HasWindowRenderer
-(
-)
-{
-return
-!
-!
-mWindowRenderer
-;
-}
 virtual
 void
 SetInputContext

@@ -2630,6 +2630,15 @@ GetWindowRenderer
 0
 ;
 virtual
+bool
+HasWindowRenderer
+(
+)
+const
+=
+0
+;
+virtual
 void
 PrepareWindowEffects
 (
