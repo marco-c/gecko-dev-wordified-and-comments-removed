@@ -8060,6 +8060,11 @@ syncStackPtr
 (
 )
 ;
+assertStackAlignment
+(
+ABIStackAlignment
+)
+;
 }
 void
 MacroAssembler
