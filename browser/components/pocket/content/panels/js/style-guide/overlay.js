@@ -24,6 +24,8 @@ from
 components
 /
 PopularTopics
+/
+PopularTopics
 "
 ;
 var
