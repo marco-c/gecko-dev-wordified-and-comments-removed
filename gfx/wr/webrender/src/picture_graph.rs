@@ -708,6 +708,13 @@ parent
 =
 parent_pic_index
 ;
+pic
+.
+pre_update
+(
+frame_context
+)
+;
 let
 can_be_drawn
 =
@@ -739,9 +746,11 @@ None
 {
 pic
 .
-pre_update_visibility_check
+is_visible
 (
 frame_context
+.
+spatial_tree
 )
 }
 }
