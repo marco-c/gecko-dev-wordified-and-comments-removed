@@ -644,6 +644,20 @@ mozboot
 import
 android
         
+android
+.
+ensure_java
+(
+"
+linux
+"
+platform
+.
+machine
+(
+)
+)
+        
 self
 .
 install_toolchain_artifact

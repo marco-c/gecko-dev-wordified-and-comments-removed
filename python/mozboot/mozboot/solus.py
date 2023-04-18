@@ -153,12 +153,6 @@ MOBILE_ANDROID_COMMON_PACKAGES
 [
         
 "
-openjdk
--
-8
-"
-        
-"
 ncurses
 -
 32bit
@@ -334,13 +328,6 @@ packages
             
 raise
 e
-        
-self
-.
-ensure_java
-(
-mozconfig_builder
-)
         
 super
 (

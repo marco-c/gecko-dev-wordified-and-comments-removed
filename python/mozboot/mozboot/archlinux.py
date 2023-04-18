@@ -204,12 +204,6 @@ MOBILE_ANDROID_COMMON_PACKAGES
 [
         
 "
-jdk8
--
-openjdk
-"
-        
-"
 multilib
 /
 lib32
@@ -474,13 +468,6 @@ stderr
             
 raise
 e
-        
-self
-.
-ensure_java
-(
-mozconfig_builder
-)
         
 super
 (
