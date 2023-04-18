@@ -731,6 +731,10 @@ DISPATCH_SYNC
 return
 ;
 }
+mProcessToken
+=
+0
+;
 if
 (
 mWidget
