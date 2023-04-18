@@ -650,6 +650,9 @@ type
 "
 all
 "
+isServerTargetSwitchingEnabled
+:
+false
 }
 )
 ;

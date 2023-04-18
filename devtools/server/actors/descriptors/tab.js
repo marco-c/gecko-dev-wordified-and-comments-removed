@@ -678,8 +678,12 @@ this
 _browser
 .
 browserId
-}
+isServerTargetSwitchingEnabled
+:
 config
+.
+isServerTargetSwitchingEnabled
+}
 )
 ;
 this

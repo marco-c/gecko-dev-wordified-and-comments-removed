@@ -412,8 +412,12 @@ this
 _form
 .
 innerWindowId
-}
+isServerTargetSwitchingEnabled
+:
 config
+.
+isServerTargetSwitchingEnabled
+}
 )
 ;
 this
