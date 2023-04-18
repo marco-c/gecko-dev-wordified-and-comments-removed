@@ -5969,7 +5969,6 @@ _shutdown
 true
 ;
 }
-async
 _watchPreferences
 (
 aPreferences
@@ -5987,7 +5986,6 @@ _watchedPrefs
 =
 aPreferences
 ;
-await
 this
 .
 _updateSettings
@@ -6995,7 +6993,6 @@ break
 ;
 }
 }
-async
 _updateSearchEngine
 (
 )
@@ -7078,7 +7075,6 @@ settings
 const
 defaultEngineInfo
 =
-await
 Services
 .
 search
@@ -7166,7 +7162,6 @@ defaultPrivateSearchEngineData
 ;
 }
 }
-async
 _onSearchEngineChange
 (
 )
@@ -7196,7 +7191,6 @@ _currentEnvironment
 }
 )
 ;
-await
 this
 .
 _updateSearchEngine
@@ -7756,7 +7750,6 @@ _isDefaultBrowser
 null
 ;
 }
-async
 _updateSettings
 (
 )
@@ -7945,7 +7938,6 @@ _updateDefaultBrowser
 (
 )
 ;
-await
 this
 .
 _updateSearchEngine

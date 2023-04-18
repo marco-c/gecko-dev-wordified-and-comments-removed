@@ -1479,7 +1479,6 @@ engine
 let
 engineInfo
 =
-await
 Services
 .
 search

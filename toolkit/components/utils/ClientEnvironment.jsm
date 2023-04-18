@@ -657,14 +657,14 @@ Services
 .
 search
 .
-getDefaultEngineInfo
+getDefault
 (
 )
 ;
 return
 defaultEngineInfo
 .
-defaultSearchEngine
+telemetryId
 ;
 }
 )
