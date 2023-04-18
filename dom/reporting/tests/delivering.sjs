@@ -27,7 +27,9 @@ setInputStream
 "
 )
 ;
-Cu
+Components
+.
+utils
 .
 importGlobalProperties
 (

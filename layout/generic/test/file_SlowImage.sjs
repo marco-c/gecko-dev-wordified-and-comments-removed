@@ -69,7 +69,9 @@ iid
 .
 equals
 (
-Ci
+Components
+.
+interfaces
 .
 nsISupports
 )
@@ -86,7 +88,9 @@ Exception
 (
 "
 "
-Cr
+Components
+.
+results
 .
 NS_ERROR_NO_INTERFACE
 )

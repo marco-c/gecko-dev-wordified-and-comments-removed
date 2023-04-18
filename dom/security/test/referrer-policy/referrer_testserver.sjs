@@ -49,7 +49,9 @@ bug
 1184781
 *
 /
-Cu
+Components
+.
+utils
 .
 importGlobalProperties
 (

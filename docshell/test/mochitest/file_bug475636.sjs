@@ -1,4 +1,3 @@
-let
 jsURL
 =
 "
@@ -69,7 +68,6 @@ script
 '
 )
 ;
-let
 dataURL
 =
 "
@@ -154,7 +152,6 @@ script
 '
 )
 ;
-let
 tests
 =
 [
@@ -551,7 +548,6 @@ n
 "
 )
 ;
-let
 test
 =
 tests

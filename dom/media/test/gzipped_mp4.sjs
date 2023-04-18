@@ -45,7 +45,9 @@ gz
 var
 fileInputStream
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -66,7 +68,9 @@ stream
 .
 createInstance
 (
-Ci
+Components
+.
+interfaces
 .
 nsIFileInputStream
 )
@@ -74,7 +78,9 @@ nsIFileInputStream
 var
 binaryInputStream
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -89,7 +95,9 @@ binaryinputstream
 .
 createInstance
 (
-Ci
+Components
+.
+interfaces
 .
 nsIBinaryInputStream
 )

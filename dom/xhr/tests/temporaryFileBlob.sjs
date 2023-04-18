@@ -95,9 +95,6 @@ bodyBytes
 [
 ]
 ;
-let
-bodyAvail
-;
 while
 (
 (
@@ -187,7 +184,9 @@ bodyBytes
 ;
 }
 1000
-Ci
+Components
+.
+interfaces
 .
 nsITimer
 .
@@ -214,7 +213,9 @@ finish
 ;
 }
 2000
-Ci
+Components
+.
+interfaces
 .
 nsITimer
 .

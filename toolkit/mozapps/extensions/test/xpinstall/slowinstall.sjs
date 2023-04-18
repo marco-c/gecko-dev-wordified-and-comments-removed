@@ -403,6 +403,10 @@ download
 "
 )
 ;
+downloadPaused
+=
+false
+;
 try
 {
 /

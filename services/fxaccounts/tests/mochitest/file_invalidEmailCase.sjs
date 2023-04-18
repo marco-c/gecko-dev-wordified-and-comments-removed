@@ -504,7 +504,6 @@ Ouch
 break
 ;
 }
-let
 messageStr
 =
 JSON

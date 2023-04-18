@@ -11,10 +11,11 @@ processAsync
 (
 )
 ;
-let
 timer
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -29,7 +30,9 @@ timer
 .
 createInstance
 (
-Ci
+Components
+.
+interfaces
 .
 nsITimer
 )
@@ -65,7 +68,9 @@ finish
 ;
 }
 1000
-Ci
+Components
+.
+interfaces
 .
 nsITimer
 .

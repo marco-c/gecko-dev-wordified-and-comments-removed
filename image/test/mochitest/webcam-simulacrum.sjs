@@ -52,7 +52,9 @@ gif
 var
 timer
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -72,7 +74,9 @@ timer
 .
 createInstance
 (
-Ci
+Components
+.
+interfaces
 .
 nsITimer
 )
@@ -86,7 +90,9 @@ aFilename
 var
 file
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -103,7 +109,9 @@ directory_service
 .
 getService
 (
-Ci
+Components
+.
+interfaces
 .
 nsIProperties
 )
@@ -113,7 +121,9 @@ get
 "
 CurWorkD
 "
-Ci
+Components
+.
+interfaces
 .
 nsIFile
 )
@@ -164,7 +174,9 @@ aFilename
 var
 fileStream
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -185,7 +197,9 @@ stream
 .
 createInstance
 (
-Ci
+Components
+.
+interfaces
 .
 nsIFileInputStream
 )

@@ -8,7 +8,9 @@ response
 var
 file
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -25,7 +27,9 @@ directory_service
 .
 getService
 (
-Ci
+Components
+.
+interfaces
 .
 nsIProperties
 )
@@ -35,7 +39,9 @@ get
 "
 CurWorkD
 "
-Ci
+Components
+.
+interfaces
 .
 nsIFile
 )
@@ -167,7 +173,9 @@ false
 var
 fileStream
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -188,7 +196,9 @@ stream
 .
 createInstance
 (
-Ci
+Components
+.
+interfaces
 .
 nsIFileInputStream
 )
@@ -206,7 +216,9 @@ false
 var
 binaryStream
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -221,7 +233,9 @@ binaryinputstream
 .
 createInstance
 (
-Ci
+Components
+.
+interfaces
 .
 nsIBinaryInputStream
 )

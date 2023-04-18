@@ -154,7 +154,9 @@ use
 strict
 "
 ;
-Cu
+Components
+.
+utils
 .
 importGlobalProperties
 (

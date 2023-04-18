@@ -180,7 +180,9 @@ false
 var
 file
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -197,7 +199,9 @@ directory_service
 .
 getService
 (
-Ci
+Components
+.
+interfaces
 .
 nsIProperties
 )
@@ -207,7 +211,9 @@ get
 "
 CurWorkD
 "
-Ci
+Components
+.
+interfaces
 .
 nsIFile
 )
@@ -215,7 +221,9 @@ nsIFile
 var
 fis
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -236,7 +244,9 @@ stream
 .
 createInstance
 (
-Ci
+Components
+.
+interfaces
 .
 nsIFileInputStream
 )
@@ -244,7 +254,9 @@ nsIFileInputStream
 var
 bis
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -259,7 +271,9 @@ binaryinputstream
 .
 createInstance
 (
-Ci
+Components
+.
+interfaces
 .
 nsIBinaryInputStream
 )
@@ -612,7 +626,6 @@ substring
 end
 here
 .
-let
 byterange
 =
 bytes

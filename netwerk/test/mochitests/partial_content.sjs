@@ -697,7 +697,6 @@ totalLength
 totalLength
 )
 ;
-let
 date
 =
 new
