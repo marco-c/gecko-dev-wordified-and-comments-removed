@@ -686,6 +686,11 @@ GetScrollGeneration
 )
 aRequest
 .
+GetScrollGenerationOnApz
+(
+)
+aRequest
+.
 GetScrollAnimationType
 (
 )

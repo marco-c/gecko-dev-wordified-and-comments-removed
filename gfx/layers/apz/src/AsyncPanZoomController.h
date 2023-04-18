@@ -2017,6 +2017,9 @@ CompositionPayload
 >
 mScrollPayload
 ;
+APZScrollGeneration
+mScrollGeneration
+;
 friend
 class
 Axis

@@ -1309,7 +1309,7 @@ void
 SetScrollGeneration
 (
 const
-ScrollGeneration
+MainThreadScrollGeneration
 &
 aScrollGeneration
 )
@@ -1319,7 +1319,7 @@ mScrollGeneration
 aScrollGeneration
 ;
 }
-ScrollGeneration
+MainThreadScrollGeneration
 GetScrollGeneration
 (
 )
@@ -1797,7 +1797,7 @@ mScrollOffset
 CSSToParentLayerScale
 mZoom
 ;
-ScrollGeneration
+MainThreadScrollGeneration
 mScrollGeneration
 ;
 CSSSize
