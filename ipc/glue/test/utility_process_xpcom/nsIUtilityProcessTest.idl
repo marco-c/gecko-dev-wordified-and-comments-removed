@@ -33,5 +33,10 @@ startProcess
 (
 )
 ;
+void
+stopProcess
+(
+)
+;
 }
 ;
