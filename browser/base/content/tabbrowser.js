@@ -28311,6 +28311,11 @@ window
 =
 0
 ;
+showFullScreenViewContextMenuItems
+(
+aPopupMenu
+)
+;
 document
 .
 getElementById
