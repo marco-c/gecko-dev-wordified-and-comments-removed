@@ -328,15 +328,6 @@ non
 -
 loopback
 device
-*
-if
-remote
-.
-force
--
-local
-is
-true
 .
 *
 /
