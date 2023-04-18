@@ -210,6 +210,10 @@ const
 nsACString
 &
 aPath
+const
+nsACString
+&
+aHost
 nsString
 &
 aThumbnailPath
