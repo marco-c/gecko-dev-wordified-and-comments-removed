@@ -999,13 +999,6 @@ fuzzy
 -
 10
 )
-fails
--
-if
-(
-!
-useDrawSnapshot
-)
 =
 =
 fieldset
