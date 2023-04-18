@@ -618,6 +618,13 @@ ProfileChunkedBuffer
 .
 h
 "
+"
+public
+/
+ProportionValue
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
