@@ -1718,6 +1718,10 @@ table
 styling
 changed
 "
+"
+inner
+reorder
+"
 }
 ;
 #

@@ -186,6 +186,13 @@ nsIAccessibleEvent
 EVENT_TABLE_STYLING_CHANGED
 ;
 const
+EVENT_INNER_REORDER
+=
+nsIAccessibleEvent
+.
+EVENT_INNER_REORDER
+;
+const
 EventsLogger
 =
 {
