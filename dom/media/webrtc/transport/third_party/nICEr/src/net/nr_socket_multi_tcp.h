@@ -18,6 +18,10 @@ struct
 nr_ice_ctx_
 *
 ctx
+struct
+nr_ice_component_
+*
+component
 nr_transport_addr
 *
 addr
