@@ -731,9 +731,15 @@ MOZ_CAN_RUN_SCRIPT
 void
 NotifyOfReFocus
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 &
-aContent
+aElement
 )
 ;
 static
