@@ -408,6 +408,7 @@ bool
 isInThirdPartyContext
 ;
 bool
+?
 isThirdPartyContextToTopWindow
 ;
 bool
@@ -585,6 +586,7 @@ bool
 isMetaRefresh
 ;
 bool
+?
 isThirdPartyContextToTopWindow
 ;
 bool
