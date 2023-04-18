@@ -2472,7 +2472,7 @@ mozilla
 :
 :
 StyleGenericFontFamily
-Gecko_nsStyleFont_ComputeDefaultFontType
+Gecko_nsStyleFont_ComputeFallbackFontTypeForLanguage
 (
 const
 mozilla
@@ -2483,11 +2483,6 @@ dom
 :
 Document
 *
-mozilla
-:
-:
-StyleGenericFontFamily
-generic_family
 nsAtom
 *
 language
