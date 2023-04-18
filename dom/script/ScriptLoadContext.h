@@ -249,9 +249,6 @@ public
 explicit
 ScriptLoadContext
 (
-Element
-*
-aElement
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -588,12 +585,6 @@ mLineNo
 ;
 bool
 mIsPreload
-;
-nsCOMPtr
-<
-Element
->
-mElement
 ;
 RefPtr
 <
