@@ -211,11 +211,6 @@ WasmTable
 cpp
 "
 "
-WasmTlsData
-.
-cpp
-"
-"
 WasmTypeDef
 .
 cpp
