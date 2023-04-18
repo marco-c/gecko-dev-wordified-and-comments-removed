@@ -860,10 +860,10 @@ Failed
 (
 )
 "
-Selection
+EditorBase
 :
 :
-CollapseInLimiter
+CollapseSelectionTo
 (
 )
 failed
