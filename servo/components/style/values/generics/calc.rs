@@ -110,6 +110,7 @@ Ch
 Deg
 Em
 Ex
+Ic
 Px
 Rem
 Sec

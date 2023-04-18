@@ -144,7 +144,6 @@ GetGlyphVAdvance
 hb_codepoint_t
 glyph
 )
-const
 ;
 void
 GetGlyphVOrigin

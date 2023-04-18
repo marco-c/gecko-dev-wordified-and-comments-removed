@@ -346,7 +346,7 @@ private
 uint32_t
 GetCharExtents
 (
-char
+uint32_t
 aChar
 gfxFloat
 *

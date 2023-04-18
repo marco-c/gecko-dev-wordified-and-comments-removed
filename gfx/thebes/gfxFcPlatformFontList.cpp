@@ -2948,7 +2948,10 @@ font
 >
 GetCharAdvance
 (
-0x6C34
+gfxFont
+:
+:
+kWaterIdeograph
 vertical
 )
 ;

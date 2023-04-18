@@ -5871,6 +5871,9 @@ gfxFloat
 zeroWidth
 ;
 gfxFloat
+ideographicWidth
+;
+gfxFloat
 ZeroOrAveCharWidth
 (
 )
@@ -5888,6 +5891,13 @@ aveCharWidth
 ;
 }
 }
+;
+static
+constexpr
+uint32_t
+kWaterIdeograph
+=
+0x6C34
 ;
 typedef
 nsFontMetrics
@@ -5928,8 +5938,6 @@ if
 mVerticalMetrics
 )
 {
-mVerticalMetrics
-=
 CreateVerticalMetrics
 (
 )
@@ -6835,14 +6843,7 @@ GetHorizontalMetrics
 =
 0
 ;
-mozilla
-:
-:
-UniquePtr
-<
-const
-Metrics
->
+void
 CreateVerticalMetrics
 (
 )
@@ -7781,7 +7782,6 @@ mozilla
 :
 UniquePtr
 <
-const
 Metrics
 >
 mVerticalMetrics

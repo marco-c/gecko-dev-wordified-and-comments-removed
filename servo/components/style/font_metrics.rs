@@ -68,6 +68,13 @@ Option
 Length
 >
 pub
+ic_width
+:
+Option
+<
+Length
+>
+pub
 ascent
 :
 Length
@@ -94,6 +101,9 @@ zero_advance_measure
 :
 None
 cap_height
+:
+None
+ic_width
 :
 None
 ascent

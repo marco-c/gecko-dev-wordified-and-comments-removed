@@ -2524,6 +2524,12 @@ mozilla
 :
 :
 Length
+mIcWidth
+;
+mozilla
+:
+:
+Length
 mAscent
 ;
 }

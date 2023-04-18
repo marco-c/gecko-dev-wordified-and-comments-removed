@@ -1604,7 +1604,7 @@ advance
 =
 GetCharAdvance
 (
-0x6C34
+kWaterIdeograph
 vertical
 )
 ;
@@ -2223,6 +2223,16 @@ GetCharAdvance
 '
 0
 '
+)
+;
+mMetrics
+-
+>
+ideographicWidth
+=
+GetCharAdvance
+(
+kWaterIdeograph
 )
 ;
 mMetrics
