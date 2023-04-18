@@ -1268,7 +1268,7 @@ rv
 ;
 AutoTArray
 <
-LocalAccessible
+Accessible
 *
 XPC_TABLE_DEFAULT_SIZE
 >
@@ -1310,7 +1310,7 @@ idx
 +
 )
 {
-LocalAccessible
+Accessible
 *
 cell
 =

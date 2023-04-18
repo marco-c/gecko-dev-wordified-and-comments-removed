@@ -172,7 +172,7 @@ SelectedCells
 (
 nsTArray
 <
-LocalAccessible
+Accessible
 *
 >
 *

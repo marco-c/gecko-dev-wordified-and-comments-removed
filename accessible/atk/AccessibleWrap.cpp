@@ -7751,7 +7751,7 @@ nullptr
 }
 AutoTArray
 <
-LocalAccessible
+Accessible
 *
 10
 >
@@ -7784,6 +7784,11 @@ headerCells
 [
 0
 ]
+-
+>
+AsLocal
+(
+)
 ;
 }
 LocalAccessible
@@ -7876,7 +7881,7 @@ nullptr
 }
 AutoTArray
 <
-LocalAccessible
+Accessible
 *
 10
 >
@@ -7909,5 +7914,10 @@ headerCells
 [
 0
 ]
+-
+>
+AsLocal
+(
+)
 ;
 }
