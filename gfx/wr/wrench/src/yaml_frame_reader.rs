@@ -8526,6 +8526,10 @@ NinePatchBorderSource
 Image
 (
 image_key
+ImageRendering
+:
+:
+Auto
 )
 }
 "
