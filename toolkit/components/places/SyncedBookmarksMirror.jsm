@@ -5118,12 +5118,6 @@ finalizePromise
 ;
 }
 }
-this
-.
-SyncedBookmarksMirror
-=
-SyncedBookmarksMirror
-;
 SyncedBookmarksMirror
 .
 META_KEY

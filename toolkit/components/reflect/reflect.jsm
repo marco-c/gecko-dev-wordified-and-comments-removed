@@ -31,9 +31,10 @@ init
 (
 )
 ;
-this
-.
+const
 Reflect
 =
+globalThis
+.
 Reflect
 ;
