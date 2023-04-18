@@ -3905,16 +3905,6 @@ XCD
 "
 }
 }
-Currencies
-%
-variant
-{
-GEL
-{
-"
-"
-}
-}
 CurrencyPlurals
 {
 AED

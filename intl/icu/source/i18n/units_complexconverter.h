@@ -271,8 +271,6 @@ status
 )
 const
 ;
-private
-:
 MaybeStackVector
 <
 UnitsConverter
@@ -285,6 +283,8 @@ MeasureUnitImplWithIndex
 >
 units_
 ;
+private
+:
 void
 init
 (

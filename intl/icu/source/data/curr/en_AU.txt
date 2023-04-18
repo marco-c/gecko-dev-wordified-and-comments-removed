@@ -336,6 +336,16 @@ Colombian
 Peso
 "
 }
+CUP
+{
+"
+CUP
+"
+"
+Cuban
+Peso
+"
+}
 CVE
 {
 "

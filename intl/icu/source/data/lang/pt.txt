@@ -791,7 +791,8 @@ cree
 crh
 {
 "
-turco
+t
+rtara
 da
 Crimeia
 "
