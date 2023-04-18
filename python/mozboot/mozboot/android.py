@@ -112,6 +112,19 @@ arm
 -
 repack
 "
+MACOS_ARM64_ANDROID_AVD
+=
+"
+linux64
+-
+android
+-
+avd
+-
+arm64
+-
+repack
+"
 WINDOWS_X86_64_ANDROID_AVD
 =
 "
@@ -201,6 +214,40 @@ android
 avds
 /
 arm
+.
+json
+"
+)
+)
+AVD_MANIFEST_ARM64
+=
+os
+.
+path
+.
+abspath
+(
+    
+os
+.
+path
+.
+join
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+"
+android
+-
+avds
+/
+arm64
 .
 json
 "
@@ -421,7 +468,9 @@ i686
 For
 newer
 phones
-.
+or
+Apple
+silicon
 #
 ac_add_options
 -
@@ -2093,6 +2142,8 @@ ensure_android
     
 os_name
     
+os_arch
+    
 artifact_mode
 =
 False
@@ -2338,6 +2389,8 @@ mozbuild_path
         
 os_name
         
+os_arch
+        
 sdk_path
 =
 sdk_path
@@ -2406,9 +2459,32 @@ load
 (
 f
 )
+        
+if
+"
+emulator_prewarm
+"
+in
+avd_manifest
+:
+            
+prewarm_avd
+=
+prewarm_avd
+and
+avd_manifest
+[
+"
+emulator_prewarm
+"
+]
     
 ensure_android_packages
 (
+        
+os_name
+        
+os_arch
         
 sdkmanager_tool
 =
@@ -2503,6 +2579,8 @@ ensure_android_sdk_and_ndk
 mozbuild_path
     
 os_name
+    
+os_arch
     
 sdk_path
     
@@ -3537,6 +3615,10 @@ def
 ensure_android_packages
 (
     
+os_name
+    
+os_arch
+    
 sdkmanager_tool
     
 emulator_only
@@ -3708,6 +3790,35 @@ args
 [
 sdkmanager_tool
 ]
+    
+if
+os_name
+=
+=
+"
+macosx
+"
+and
+os_arch
+=
+=
+"
+arm64
+"
+:
+        
+args
+.
+append
+(
+"
+-
+-
+channel
+=
+3
+"
+)
     
 args
 .
@@ -4587,10 +4698,20 @@ system
         
 )
     
+os_arch
+=
+platform
+.
+machine
+(
+)
+    
 ensure_android
 (
         
 os_name
+        
+os_arch
         
 artifact_mode
 =

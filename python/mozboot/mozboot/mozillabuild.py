@@ -9,6 +9,8 @@ ctypes
 import
 os
 import
+platform
+import
 sys
 import
 subprocess
@@ -738,6 +740,29 @@ mozboot
 import
 android
         
+os_arch
+=
+platform
+.
+machine
+(
+)
+        
+if
+os_arch
+=
+=
+"
+AMD64
+"
+:
+            
+os_arch
+=
+"
+x86_64
+"
+        
 android
 .
 ensure_android
@@ -746,9 +771,13 @@ ensure_android
 "
 windows
 "
+            
+os_arch
+            
 artifact_mode
 =
 artifact_mode
+            
 no_interactive
 =
 self
@@ -765,6 +794,8 @@ ensure_android
 "
 windows
 "
+            
+os_arch
             
 system_images_only
 =
@@ -796,6 +827,8 @@ ensure_android
 "
 windows
 "
+            
+os_arch
             
 system_images_only
 =

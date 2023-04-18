@@ -7,6 +7,8 @@ unicode_literals
 import
 os
 import
+platform
+import
 subprocess
 import
 sys
@@ -736,20 +738,28 @@ _ensure_homebrew_casks
 casks
 )
         
-is_64bits
+os_arch
 =
-sys
+platform
 .
-maxsize
->
-2
-*
-*
-32
+machine
+(
+)
         
 if
-not
-is_64bits
+os_arch
+!
+=
+"
+x86_64
+"
+and
+os_arch
+!
+=
+"
+arm64
+"
 :
             
 raise
@@ -839,9 +849,13 @@ ensure_android
 "
 macosx
 "
+            
+os_arch
+            
 artifact_mode
 =
 artifact_mode
+            
 no_interactive
 =
 self
@@ -858,6 +872,8 @@ ensure_android
 "
 macosx
 "
+            
+os_arch
             
 system_images_only
 =
@@ -889,6 +905,8 @@ ensure_android
 "
 macosx
 "
+            
+os_arch
             
 system_images_only
 =
