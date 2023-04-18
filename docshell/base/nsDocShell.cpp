@@ -55507,7 +55507,6 @@ URI
 (
 )
 triggeringPrincipal
-nullptr
 mBrowsingContext
 false
 )
