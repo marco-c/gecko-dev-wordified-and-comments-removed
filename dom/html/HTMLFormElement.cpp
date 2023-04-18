@@ -4640,12 +4640,9 @@ EventDispatcher
 :
 DispatchDOMEvent
 (
-MOZ_KnownLive
-(
 ToSupports
 (
 this
-)
 )
 nullptr
 event

@@ -7557,7 +7557,6 @@ bool
 aAllowWrapping
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 DispatchEvent
@@ -7589,7 +7588,6 @@ ChromeOnlyDispatch
 eNo
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 DispatchEvent

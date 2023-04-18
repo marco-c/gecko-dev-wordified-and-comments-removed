@@ -53,7 +53,6 @@ ErrorEventInit
 ;
 }
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 NS_HandleScriptError
 (

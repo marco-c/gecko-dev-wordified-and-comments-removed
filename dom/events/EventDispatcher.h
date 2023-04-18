@@ -640,7 +640,6 @@ aTargets
 nullptr
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchDOMEvent

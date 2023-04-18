@@ -289,7 +289,6 @@ aCallback
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 RunPluginCrashCallbacks
 (
