@@ -4642,9 +4642,9 @@ menu
 -
 help
 -
-feedback
+share
 -
-page
+ideas
 "
 appmenu
 -
@@ -4659,9 +4659,9 @@ appmenu
 -
 help
 -
-feedback
+share
 -
-page
+ideas
 "
 /
 >
