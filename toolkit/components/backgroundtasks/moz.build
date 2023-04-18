@@ -320,6 +320,13 @@ jsm
 "
 tests
 /
+BackgroundTask_jsdebugger
+.
+jsm
+"
+"
+tests
+/
 BackgroundTask_policies
 .
 jsm
