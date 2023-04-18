@@ -51884,7 +51884,7 @@ clockdrift
 buffering
 type
 :
-uint32_t
+RelaxedAtomicUint32
 mirror
 :
 always

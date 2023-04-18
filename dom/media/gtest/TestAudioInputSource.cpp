@@ -766,6 +766,13 @@ ais
 GetAudioSegment
 (
 requestFrames
+AudioInputSource
+:
+:
+Consumer
+:
+:
+Same
 )
 ;
 EXPECT_EQ
@@ -991,6 +998,13 @@ ais
 GetAudioSegment
 (
 requestFrames
+AudioInputSource
+:
+:
+Consumer
+:
+:
+Same
 )
 ;
 EXPECT_EQ
