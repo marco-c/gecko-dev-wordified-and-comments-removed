@@ -237,6 +237,15 @@ ArrayConstructorOneArg
 \
 _
 (
+ArrayFromArgumentsObject
+js
+:
+:
+ArrayFromArgumentsObject
+)
+\
+_
+(
 ArrayJoin
 js
 :
