@@ -250,7 +250,7 @@ const
 uint64_t
 aState
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aBounds
 const

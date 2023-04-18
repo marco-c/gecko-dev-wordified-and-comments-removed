@@ -92,10 +92,8 @@ AtkCoordType
 aCoordType
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 pos
-=
-nsIntPoint
 (
 -
 1
@@ -248,10 +246,8 @@ gint
 aAccHeight
 )
 {
-nsIntSize
+LayoutDeviceIntSize
 size
-=
-nsIntSize
 (
 -
 1

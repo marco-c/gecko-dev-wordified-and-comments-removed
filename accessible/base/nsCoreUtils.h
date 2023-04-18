@@ -59,6 +59,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 nsRange
 ;
@@ -314,7 +321,10 @@ nsIFrame
 *
 aFrame
 const
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 &
 aPoint
 )
@@ -340,7 +350,10 @@ aHorizontal
 )
 ;
 static
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 GetScreenCoordsForWindow
 (
 nsINode

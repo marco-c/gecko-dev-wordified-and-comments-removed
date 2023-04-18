@@ -264,7 +264,7 @@ int32_t
 aOffset
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 TextBounds
 (
 int32_t
@@ -280,7 +280,7 @@ nsIAccessibleCoordinateType
 COORDTYPE_SCREEN_RELATIVE
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 CharBounds
 (
 int32_t
@@ -431,14 +431,14 @@ int32_t
 aPosition
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 ImagePosition
 (
 uint32_t
 aCoordType
 )
 ;
-nsIntSize
+LayoutDeviceIntSize
 ImageSize
 (
 )
@@ -999,7 +999,7 @@ aWhichChild
 )
 override
 ;
-nsIntRect
+LayoutDeviceIntRect
 Bounds
 (
 )

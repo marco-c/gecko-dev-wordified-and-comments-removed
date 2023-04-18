@@ -327,7 +327,7 @@ aria_multiselectable
 ;
 }
 static
-nsIntPoint
+LayoutDeviceIntPoint
 ConvertToScreenCoords
 (
 int32_t
@@ -359,7 +359,7 @@ aAccessible
 )
 ;
 static
-nsIntPoint
+LayoutDeviceIntPoint
 GetScreenCoordsForParent
 (
 LocalAccessible
