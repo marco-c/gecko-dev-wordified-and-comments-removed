@@ -15,14 +15,11 @@ context
 var
 urlBase
 =
-"
-https
-:
-/
-/
-example
+{
+location
 .
-com
+origin
+}
 /
 tests
 /
@@ -33,7 +30,6 @@ cache
 test
 /
 mochitest
-"
 ;
 var
 url1

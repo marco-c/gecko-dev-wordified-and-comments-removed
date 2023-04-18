@@ -635,6 +635,7 @@ caches
 .
 enabled
 "
+SecureContext
 SameObject
 ]
 readonly
