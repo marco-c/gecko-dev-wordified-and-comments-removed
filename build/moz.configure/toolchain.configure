@@ -366,9 +366,9 @@ sdk_min_version
 Version
 (
 "
-11
+10
 .
-0
+12
 "
 )
 if
