@@ -2660,6 +2660,12 @@ mDiscoveredClearance
 mDiscoveredClearance
 ;
 }
+bool
+ShouldApplyAutomaticMinimumOnBlockAxis
+(
+)
+const
+;
 static
 mozilla
 :
