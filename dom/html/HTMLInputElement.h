@@ -705,6 +705,16 @@ aVisitor
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
+nsresult
+MaybeHandleRadioButtonNavigation
+(
+EventChainPostVisitor
+&
+uint32_t
+aKeyCode
+)
+;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 PostHandleEventForRangeThumb
