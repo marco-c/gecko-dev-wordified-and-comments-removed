@@ -877,14 +877,18 @@ steps
 fetch
     
 -
+keep
+    
+-
+include
+    
+-
 exclude
     
 -
-update
+move
 -
-moz
--
-yaml
+contents
     
 -
 update
@@ -895,6 +899,18 @@ actions
 hg
 -
 add
+    
+-
+spurious
+-
+check
+    
+-
+update
+-
+moz
+-
+yaml
     
 -
 update
@@ -1476,6 +1492,16 @@ file
   
 #
 -
+replace
+-
+in
+-
+file
+-
+regex
+  
+#
+-
 delete
 -
 path
@@ -1539,6 +1565,14 @@ replace
 in
 -
 file
+or
+replace
+-
+in
+-
+file
+-
+regex
 :
   
 #
@@ -3139,6 +3173,16 @@ file
 "
                                     
 "
+replace
+-
+in
+-
+file
+-
+regex
+"
+                                    
+"
 run
 -
 script
@@ -4196,8 +4240,8 @@ v
 action
 "
 ]
-=
-=
+in
+[
 "
 replace
 -
@@ -4205,6 +4249,16 @@ in
 -
 file
 "
+"
+replace
+-
+in
+-
+file
+-
+regex
+"
+]
 :
                 
 if
