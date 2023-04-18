@@ -6491,8 +6491,12 @@ def
 _request_in_app_shutdown
 (
 self
-*
 flags
+=
+None
+safe_mode
+=
+False
 )
 :
         
@@ -6570,6 +6574,27 @@ include
 .
         
 :
+param
+safe_mode
+:
+Optional
+flag
+to
+indicate
+that
+the
+application
+has
+to
+            
+be
+restarted
+in
+safe
+mode
+.
+        
+:
 returns
 :
 A
@@ -6636,12 +6661,10 @@ body
 }
         
 if
-len
-(
 flags
-)
->
-0
+is
+not
+None
 :
             
 body
@@ -6651,7 +6674,25 @@ flags
 "
 ]
 =
+list
+(
+                
 flags
+            
+)
+        
+if
+safe_mode
+:
+            
+body
+[
+"
+safeMode
+"
+]
+=
+safe_mode
         
 return
 self
@@ -7182,15 +7223,18 @@ def
 restart
 (
 self
+callback
+=
+None
 clean
 =
 False
 in_app
 =
 False
-callback
+safe_mode
 =
-None
+False
 )
 :
         
@@ -7226,6 +7270,28 @@ creating
 a
 session
 again
+.
+        
+:
+param
+callback
+:
+If
+provided
+and
+in_app
+is
+True
+the
+callback
+will
+be
+                         
+used
+to
+trigger
+the
+restart
 .
         
 :
@@ -7293,24 +7359,23 @@ process
         
 :
 param
-callback
+safe_mode
 :
-If
-provided
-and
-in_app
-is
-True
-the
-callback
-will
-be
-                         
-used
+Optional
+flag
 to
-trigger
+indicate
+that
 the
-restart
+application
+has
+to
+            
+be
+restarted
+in
+safe
+mode
 .
         
 :
@@ -7427,6 +7492,14 @@ False
 }
         
 if
+safe_mode
+:
+            
+in_app
+=
+True
+        
+if
 in_app
 :
             
@@ -7537,9 +7610,18 @@ self
 .
 _request_in_app_shutdown
 (
+                        
+flags
+=
+[
 "
 eRestart
 "
+]
+safe_mode
+=
+safe_mode
+                    
 )
             
 except
