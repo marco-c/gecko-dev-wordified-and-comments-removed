@@ -288,6 +288,12 @@ data
 EC_POINT_FORM_UNCOMPRESSED
 )
 ;
+const
+bool
+kVerifyValid
+=
+false
+;
 UniqueSECKEYPublicKey
 pubKey
 =
@@ -299,6 +305,7 @@ CreateECPublicKey
 &
 rawKey
 kEcAlgorithm
+kVerifyValid
 )
 ;
 if
