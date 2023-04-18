@@ -69,8 +69,8 @@ skin
 customizableui
 /
 panelUI
-.
-inc
+-
+shared
 .
 css
 "
@@ -257,8 +257,8 @@ Overrides
 value
 from
 panelUI
-.
-inc
+-
+shared
 .
 css
 *
@@ -280,8 +280,8 @@ Overrides
 value
 from
 panelUI
-.
-inc
+-
+shared
 .
 css
 *
