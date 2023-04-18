@@ -870,6 +870,12 @@ ShutdownPromise
 promises
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 for
 (
 auto
