@@ -214,11 +214,6 @@ NavigationPreloadManager
 cpp
 "
 "
-RemoteServiceWorkerContainerImpl
-.
-cpp
-"
-"
 RemoteServiceWorkerImpl
 .
 cpp
