@@ -2027,7 +2027,7 @@ IMEHandler
 :
 AssociateIMEContext
 (
-nsWindowBase
+nsWindow
 *
 aWindowBase
 bool
@@ -2284,7 +2284,7 @@ sAssociateIMCOnlyWhenIMM_IMEActive
 return
 ;
 }
-nsWindowBase
+nsWindow
 *
 windowBase
 =

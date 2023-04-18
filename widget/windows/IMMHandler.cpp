@@ -793,7 +793,7 @@ IMEContext
 :
 IMEContext
 (
-nsWindowBase
+nsWindow
 *
 aWindowBase
 )
@@ -857,7 +857,7 @@ IMEContext
 :
 Init
 (
-nsWindowBase
+nsWindow
 *
 aWindowBase
 )

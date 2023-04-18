@@ -4346,7 +4346,7 @@ SetNSWindowBasePtr
 (
 HWND
 aWnd
-nsWindowBase
+nsWindow
 *
 aWidget
 )
@@ -4387,7 +4387,7 @@ aWidget
 )
 ;
 }
-nsWindowBase
+nsWindow
 *
 WinUtils
 :
@@ -4401,7 +4401,7 @@ aWnd
 return
 static_cast
 <
-nsWindowBase
+nsWindow
 *
 >
 (

@@ -765,7 +765,7 @@ MouseScrollHandler
 :
 ProcessMessage
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -1137,7 +1137,7 @@ MouseScrollHandler
 :
 SynthesizeNativeMouseScrollEvent
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 const
@@ -1519,7 +1519,7 @@ MouseScrollHandler
 :
 InitEvent
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 WidgetGUIEvent
@@ -1786,7 +1786,7 @@ MouseScrollHandler
 :
 ProcessNativeMouseWheelMessage
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -2055,7 +2055,7 @@ underCursorWnd
 )
 )
 {
-nsWindowBase
+nsWindow
 *
 destWindow
 =
@@ -2423,7 +2423,7 @@ MouseScrollHandler
 :
 ProcessNativeScrollMessage
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -2734,7 +2734,7 @@ MouseScrollHandler
 :
 HandleMouseWheelMessage
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -2928,7 +2928,7 @@ aMessage
 ;
 RefPtr
 <
-nsWindowBase
+nsWindow
 >
 kungFuDethGrip
 (
@@ -3070,7 +3070,7 @@ MouseScrollHandler
 :
 HandleScrollMessageAsMouseWheelMessage
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -3449,7 +3449,7 @@ EventInfo
 :
 EventInfo
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -3880,7 +3880,7 @@ LastEventInfo
 :
 InitWheelEvent
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 WidgetWheelEvent
@@ -6467,7 +6467,7 @@ Elantech
 :
 HandleKeyMessage
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -7930,7 +7930,7 @@ SynthesizingEvent
 :
 NativeMessageReceived
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT

@@ -6033,7 +6033,7 @@ NativeKey
 :
 NativeKey
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 const
@@ -24239,7 +24239,7 @@ KeyboardLayout
 :
 SynthesizeNativeKeyEvent
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 int32_t

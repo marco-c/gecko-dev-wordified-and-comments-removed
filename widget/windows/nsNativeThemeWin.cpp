@@ -501,13 +501,13 @@ GetNearestWidget
 (
 )
 ;
-nsWindowBase
+nsWindow
 *
 window
 =
 static_cast
 <
-nsWindowBase
+nsWindow
 *
 >
 (

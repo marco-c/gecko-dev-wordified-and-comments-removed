@@ -2037,7 +2037,7 @@ CreateCompositor
 (
 )
 {
-nsWindowBase
+nsBaseWidget
 :
 :
 CreateCompositor
@@ -2078,7 +2078,7 @@ MaybeEnableWindowOcclusion
 false
 )
 ;
-nsWindowBase
+nsBaseWidget
 :
 :
 DestroyCompositor

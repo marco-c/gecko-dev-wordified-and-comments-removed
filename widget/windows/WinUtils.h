@@ -403,9 +403,6 @@ public
 class
 nsWindow
 ;
-class
-nsWindowBase
-;
 struct
 KeyPair
 ;
@@ -1027,13 +1024,13 @@ SetNSWindowBasePtr
 (
 HWND
 aWnd
-nsWindowBase
+nsWindow
 *
 aWidget
 )
 ;
 static
-nsWindowBase
+nsWindow
 *
 GetNSWindowBasePtr
 (
