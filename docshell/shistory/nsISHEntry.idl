@@ -218,14 +218,6 @@ contentViewer
 [
 infallible
 ]
-readonly
-attribute
-boolean
-isInBFCache
-;
-[
-infallible
-]
 attribute
 boolean
 sticky
