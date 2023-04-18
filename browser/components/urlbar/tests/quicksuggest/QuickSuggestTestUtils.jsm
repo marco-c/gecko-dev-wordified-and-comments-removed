@@ -839,6 +839,7 @@ clear
 (
 )
 ;
+await
 UrlbarQuickSuggest
 .
 _addResults
