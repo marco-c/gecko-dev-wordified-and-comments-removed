@@ -31,15 +31,6 @@ nsString
 .
 h
 "
-#
-include
-"
-mozilla
-/
-RefPtr
-.
-h
-"
 class
 AudioDeviceInfo
 ;
