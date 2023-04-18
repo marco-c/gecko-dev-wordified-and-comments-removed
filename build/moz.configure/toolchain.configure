@@ -14430,7 +14430,7 @@ check_build_environment
 target_sysroot
 .
 path
-windows_sdk_dir
+valid_windows_sdk_dir
 vc_path
 when
 =
@@ -14501,6 +14501,8 @@ append
 (
 (
 windows_sdk_dir
+.
+path
 "
 k
 :
