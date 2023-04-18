@@ -3626,7 +3626,7 @@ return
 ;
 }
 let
-isMasterPasswordSet
+isPrimaryPasswordSet
 =
 Services
 .
@@ -3637,7 +3637,7 @@ sharedData
 get
 (
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 "
 )
 ;
@@ -3661,10 +3661,10 @@ document
 .
 visibilityState
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 :
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 )
 ;
 if
@@ -3679,7 +3679,7 @@ visible
 "
 |
 |
-isMasterPasswordSet
+isPrimaryPasswordSet
 )
 {
 this
@@ -3772,7 +3772,7 @@ return
 ;
 }
 let
-isMasterPasswordSet
+isPrimaryPasswordSet
 =
 Services
 .
@@ -3783,7 +3783,7 @@ sharedData
 get
 (
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 "
 )
 ;
@@ -3807,10 +3807,10 @@ document
 .
 visibilityState
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 :
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 )
 ;
 let
@@ -3869,7 +3869,7 @@ visible
 "
 |
 |
-isMasterPasswordSet
+isPrimaryPasswordSet
 )
 {
 this
@@ -4045,7 +4045,7 @@ pwField
 ownerDocument
 ;
 let
-isMasterPasswordSet
+isPrimaryPasswordSet
 =
 Services
 .
@@ -4056,7 +4056,7 @@ sharedData
 get
 (
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 "
 )
 ;
@@ -4071,10 +4071,10 @@ document
 .
 visibilityState
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 :
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 )
 ;
 if
@@ -4089,7 +4089,7 @@ visible
 "
 |
 |
-isMasterPasswordSet
+isPrimaryPasswordSet
 )
 {
 this
@@ -4468,7 +4468,7 @@ _getLoginDataFromParent
 (
 form
 {
-showMasterPassword
+showPrimaryPassword
 :
 true
 }
@@ -5221,7 +5221,7 @@ acForm
 guid
 :
 loginGUID
-showMasterPassword
+showPrimaryPassword
 :
 false
 }

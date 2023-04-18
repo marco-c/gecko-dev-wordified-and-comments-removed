@@ -302,7 +302,7 @@ login
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 enable
 (
@@ -390,7 +390,7 @@ logoutAndTeardown
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 disable
 (

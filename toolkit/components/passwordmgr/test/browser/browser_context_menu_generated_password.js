@@ -397,13 +397,13 @@ add_task
 (
 async
 function
-test_fill_hidden_by_locked_master_password
+test_fill_hidden_by_locked_primary_password
 (
 )
 {
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 enable
 (
@@ -510,7 +510,7 @@ hidePopup
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 disable
 (

@@ -951,7 +951,7 @@ expected
 Dialog
 is
 the
-Master
+Primary
 Password
 dialog
 "
@@ -982,9 +982,9 @@ setUserInput
 (
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
-masterPassword
+primaryPassword
 )
 ;
 dialog

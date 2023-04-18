@@ -175,7 +175,7 @@ cancels
 entry
 of
 their
-master
+primary
 password
 .
 *
@@ -273,7 +273,7 @@ cancels
 entry
 of
 their
-master
+primary
 password
 or
 if
@@ -344,7 +344,7 @@ cancels
 entry
 of
 their
-master
+primary
 password
 or
 if
@@ -390,7 +390,7 @@ uiBusy
 True
 when
 a
-master
+primary
 password
 prompt
 is
@@ -437,7 +437,7 @@ will
 result
 in
 a
-master
+primary
 *
 password
 prompt

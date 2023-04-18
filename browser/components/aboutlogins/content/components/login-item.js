@@ -1,7 +1,7 @@
 import
 {
 recordTelemetryEvent
-promptForMasterPassword
+promptForPrimaryPassword
 }
 from
 "
@@ -2317,10 +2317,10 @@ editing
 )
 {
 let
-masterPasswordAuth
+primaryPasswordAuth
 =
 await
-promptForMasterPassword
+promptForPrimaryPassword
 (
 "
 about
@@ -2344,7 +2344,7 @@ message
 if
 (
 !
-masterPasswordAuth
+primaryPasswordAuth
 )
 {
 this
@@ -2627,10 +2627,10 @@ password
 )
 {
 let
-masterPasswordAuth
+primaryPasswordAuth
 =
 await
-promptForMasterPassword
+promptForPrimaryPassword
 (
 "
 about
@@ -2654,7 +2654,7 @@ message
 if
 (
 !
-masterPasswordAuth
+primaryPasswordAuth
 )
 {
 return
@@ -2899,10 +2899,10 @@ button
 )
 {
 let
-masterPasswordAuth
+primaryPasswordAuth
 =
 await
-promptForMasterPassword
+promptForPrimaryPassword
 (
 "
 about
@@ -2926,7 +2926,7 @@ message
 if
 (
 !
-masterPasswordAuth
+primaryPasswordAuth
 )
 {
 return

@@ -1271,7 +1271,7 @@ isLoggedIn
 addMessageListener
 (
 "
-setMasterPassword
+setPrimaryPassword
 "
 (
 {
@@ -1288,7 +1288,7 @@ enable
 {
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 enable
 (
@@ -1299,7 +1299,7 @@ else
 {
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 disable
 (

@@ -926,7 +926,7 @@ log
 "
 Waiting
 for
-master
+primary
 password
 UI
 "

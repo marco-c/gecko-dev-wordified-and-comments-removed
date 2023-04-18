@@ -1582,7 +1582,7 @@ be
 prompted
 for
 a
-master
+primary
 *
 password
 to
@@ -2005,7 +2005,7 @@ decrypted
 including
 if
 the
-master
+primary
 -
 password
 prompt
@@ -2029,7 +2029,7 @@ begin
 syncing
 if
 the
-master
+primary
 -
 password
 is
@@ -2103,7 +2103,7 @@ encrypted
 including
 if
 the
-master
+primary
 -
 password
 *
@@ -2253,7 +2253,7 @@ newSyncID
 True
 when
 a
-master
+primary
 password
 prompt
 is
@@ -2274,7 +2274,7 @@ uiBusy
 True
 when
 the
-master
+primary
 password
 has
 already

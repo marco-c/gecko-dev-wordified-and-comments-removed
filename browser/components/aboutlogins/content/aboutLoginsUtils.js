@@ -206,7 +206,7 @@ tabindex
 }
 export
 function
-promptForMasterPassword
+promptForPrimaryPassword
 (
 messageId
 )
@@ -223,7 +223,7 @@ window
 .
 AboutLoginsUtils
 .
-promptForMasterPassword
+promptForPrimaryPassword
 (
 resolve
 messageId

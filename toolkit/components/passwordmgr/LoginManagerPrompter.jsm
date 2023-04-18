@@ -2085,7 +2085,7 @@ if
 !
 LoginHelper
 .
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 )
@@ -2126,7 +2126,7 @@ if
 !
 LoginHelper
 .
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 )
@@ -3125,7 +3125,7 @@ hideToggle
 =
 LoginHelper
 .
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 |

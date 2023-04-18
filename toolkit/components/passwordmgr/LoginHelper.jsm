@@ -6001,7 +6001,7 @@ return
 logins
 ;
 }
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 {

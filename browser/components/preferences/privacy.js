@@ -10713,7 +10713,7 @@ noMP
 !
 LoginHelper
 .
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 ;
@@ -11050,7 +11050,7 @@ if
 !
 LoginHelper
 .
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 &

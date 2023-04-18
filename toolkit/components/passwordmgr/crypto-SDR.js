@@ -428,7 +428,7 @@ Exception
 "
 User
 canceled
-master
+primary
 password
 entry
 "
@@ -647,7 +647,7 @@ Exception
 "
 User
 canceled
-master
+primary
 password
 entry
 "
@@ -854,7 +854,7 @@ Exception
 "
 User
 canceled
-master
+primary
 password
 entry
 "
@@ -1076,7 +1076,7 @@ Exception
 "
 User
 canceled
-master
+primary
 password
 entry
 "
@@ -1260,7 +1260,7 @@ log
 Prompted
 for
 a
-master
+primary
 password
 notifying
 for

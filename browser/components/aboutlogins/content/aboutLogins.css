@@ -461,7 +461,7 @@ root
 not
 (
 .
-master
+primary
 -
 password
 -
@@ -470,7 +470,7 @@ auth
 required
 )
 #
-master
+primary
 -
 password
 -
@@ -484,7 +484,7 @@ none
 ;
 }
 .
-master
+primary
 -
 password
 -
@@ -496,7 +496,7 @@ body
 >
 header
 .
-master
+primary
 -
 password
 -
@@ -510,7 +510,7 @@ login
 -
 list
 .
-master
+primary
 -
 password
 -
@@ -530,7 +530,7 @@ blur
 )
 }
 #
-master
+primary
 -
 password
 -

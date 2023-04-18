@@ -1022,7 +1022,7 @@ isLoggedIn
 {
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 enable
 (
@@ -1078,7 +1078,7 @@ isLoggedIn
 {
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 disable
 (

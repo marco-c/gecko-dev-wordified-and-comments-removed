@@ -1899,10 +1899,10 @@ recipeParent
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 =
 {
-masterPassword
+primaryPassword
 :
 "
 omgsecret
@@ -1932,7 +1932,7 @@ newPW
 =
 this
 .
-masterPassword
+primaryPassword
 ;
 }
 else
@@ -1941,7 +1941,7 @@ oldPW
 =
 this
 .
-masterPassword
+primaryPassword
 ;
 newPW
 =

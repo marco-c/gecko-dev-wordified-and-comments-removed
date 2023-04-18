@@ -4,7 +4,7 @@ strict
 "
 ;
 function
-resetMasterPassword
+resetPrimaryPassword
 (
 )
 {
@@ -87,7 +87,7 @@ loginInfo
 )
 ;
 }
-resetMasterPassword
+resetPrimaryPassword
 (
 )
 ;
@@ -758,7 +758,7 @@ exists
 /
 )
 ;
-resetMasterPassword
+resetPrimaryPassword
 (
 )
 ;
@@ -874,7 +874,7 @@ getLastSync
 123
 )
 ;
-resetMasterPassword
+resetPrimaryPassword
 (
 )
 ;

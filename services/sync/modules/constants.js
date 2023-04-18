@@ -416,7 +416,7 @@ User
 elected
 to
 leave
-Master
+Primary
 Password
 locked
 "

@@ -921,7 +921,7 @@ log
 "
 User
 cancelled
-master
+primary
 password
 prompt
 .
@@ -2059,7 +2059,7 @@ formOrigin
 actionOrigin
 {
 guid
-showMasterPassword
+showPrimaryPassword
 }
 )
 {
@@ -2111,7 +2111,7 @@ ex
 if
 (
 !
-showMasterPassword
+showPrimaryPassword
 &
 &
 !
@@ -2284,7 +2284,7 @@ sendLoginDataToChild
 formOrigin
 actionOrigin
 {
-showMasterPassword
+showPrimaryPassword
 }
 )
 ;
@@ -2529,7 +2529,7 @@ for
 autocomplete
 since
 the
-master
+primary
 password
 prompt
 is
@@ -2577,7 +2577,7 @@ for
 autocomplete
 since
 the
-master
+primary
 password
 "
 +

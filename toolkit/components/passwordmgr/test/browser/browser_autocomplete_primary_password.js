@@ -240,7 +240,7 @@ login
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 enable
 (
@@ -254,7 +254,7 @@ function
 {
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 disable
 (

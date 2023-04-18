@@ -105,7 +105,7 @@ removeAllUserFacingLogins
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 disable
 (
@@ -165,7 +165,7 @@ test
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 enable
 (
@@ -261,7 +261,7 @@ getNotificationBox
 getNotificationWithValue
 (
 "
-master
+primary
 -
 password
 -
@@ -274,7 +274,7 @@ required
 "
 waiting
 for
-master
+primary
 -
 password
 -
@@ -289,7 +289,7 @@ ok
 (
 notification
 "
-master
+primary
 -
 password
 -
@@ -380,7 +380,7 @@ mpDialogShown
 info
 (
 "
-Master
+Primary
 Password
 dialog
 shown
@@ -490,7 +490,7 @@ mpDialogShown
 info
 (
 "
-Master
+Primary
 Password
 dialog
 shown
@@ -584,7 +584,7 @@ mpDialogShown
 info
 (
 "
-Master
+Primary
 Password
 dialog
 shown
@@ -756,7 +756,7 @@ mpDialogShown
 info
 (
 "
-Master
+Primary
 Password
 dialog
 shown
@@ -911,7 +911,7 @@ mpDialogShown
 info
 (
 "
-Master
+Primary
 Password
 dialog
 shown
@@ -1409,7 +1409,7 @@ empty
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 disable
 (
@@ -1439,7 +1439,7 @@ content
 .
 AboutLoginsUtils
 .
-masterPasswordEnabled
+primaryPasswordEnabled
 =
 false
 ;
@@ -1605,7 +1605,7 @@ test
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 enable
 (
@@ -1740,7 +1740,7 @@ authenticated
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 disable
 (

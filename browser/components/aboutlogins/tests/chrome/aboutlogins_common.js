@@ -353,7 +353,7 @@ focus
 ;
 }
 async
-promptForMasterPassword
+promptForPrimaryPassword
 (
 resolve
 messageId
@@ -422,7 +422,7 @@ fileImport
 enabled
 "
 )
-masterPasswordEnabled
+primaryPasswordEnabled
 :
 false
 }
