@@ -232,6 +232,8 @@ gecko_taskgraph
 transforms
 .
 test
+.
+other
 import
 test_setting_description_schema
     
