@@ -213,16 +213,8 @@ VK_RETURN
 let
 promiseShown
 =
-BrowserTestUtils
-.
-waitForEvent
+promiseNotificationShown
 (
-PopupNotifications
-.
-panel
-"
-popupshown
-"
 )
 ;
 await
