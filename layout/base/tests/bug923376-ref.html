@@ -61,9 +61,14 @@ focus
 (
 )
 ;
+var
+{
+maybeOnSpellCheck
+}
+=
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -80,7 +85,6 @@ AsyncSpellCheckTestHelper
 .
 jsm
 "
-window
 )
 ;
 maybeOnSpellCheck
