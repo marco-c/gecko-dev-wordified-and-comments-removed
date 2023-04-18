@@ -1,11 +1,12 @@
+const
+{
+Services
+}
+=
 ChromeUtils
 .
-defineModuleGetter
+import
 (
-this
-"
-Services
-"
 "
 resource
 :
