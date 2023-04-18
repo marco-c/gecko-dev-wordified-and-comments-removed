@@ -21,13 +21,6 @@ h
 #
 include
 "
-DefaultPDF
-.
-h
-"
-#
-include
-"
 Notification
 .
 h
@@ -39,10 +32,6 @@ const
 DefaultBrowserInfo
 &
 browserInfo
-const
-DefaultPdfInfo
-&
-pdfInfo
 const
 NotificationActivities
 &

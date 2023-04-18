@@ -66,11 +66,6 @@ DefaultBrowser
 cpp
 "
 "
-DefaultPDF
-.
-cpp
-"
-"
 EventLog
 .
 cpp
@@ -112,11 +107,6 @@ cpp
 "
 "
 Telemetry
-.
-cpp
-"
-"
-UtfConvert
 .
 cpp
 "
