@@ -3,6 +3,7 @@ socket
 from
 typing
 import
+AnyStr
 Dict
 List
 TypeVar
@@ -31,7 +32,12 @@ def
 isomorphic_decode
 (
 s
+:
+AnyStr
 )
+-
+>
+str
 :
     
 "
@@ -239,7 +245,12 @@ def
 isomorphic_encode
 (
 s
+:
+AnyStr
 )
+-
+>
+bytes
 :
     
 "
@@ -421,7 +432,11 @@ __init__
 (
 self
 code
+:
+int
 message
+:
+str
 =
 "
 "
@@ -443,8 +458,17 @@ def
 _open_socket
 (
 host
+:
+str
 port
+:
+int
 )
+-
+>
+socket
+.
+socket
 :
     
 sock
@@ -504,7 +528,12 @@ def
 is_bad_port
 (
 port
+:
+int
 )
+-
+>
+bool
 :
     
 "
@@ -706,10 +735,15 @@ def
 get_port
 (
 host
+:
+str
 =
 '
 '
 )
+-
+>
+int
 :
     
 host
@@ -775,6 +809,9 @@ def
 http2_compatible
 (
 )
+-
+>
+bool
 :
     
 import
