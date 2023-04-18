@@ -315,9 +315,6 @@ ReadableStreamBYOBReader
 >
 AcquireReadableStreamBYOBReader
 (
-JSContext
-*
-aCx
 ReadableStream
 *
 aStream

@@ -2376,7 +2376,6 @@ byobReader
 =
 AcquireReadableStreamBYOBReader
 (
-aCx
 thisRefPtr
 aRv
 )
