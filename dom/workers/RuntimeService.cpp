@@ -7233,6 +7233,15 @@ lock
 mMutex
 )
 ;
+if
+(
+!
+mShuttingDown
+)
+{
+return
+;
+}
 ActiveWorkerStats
 activeStats
 ;

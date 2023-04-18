@@ -158,6 +158,16 @@ aPhase
 )
 ;
 static
+const
+char
+*
+GetShutdownPhaseName
+(
+ShutdownPhase
+aPhase
+)
+;
+static
 ShutdownPhase
 GetShutdownPhaseFromTopic
 (
