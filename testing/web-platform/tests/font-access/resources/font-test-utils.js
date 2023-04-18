@@ -546,11 +546,9 @@ isPlatformSupported
 const
 fonts
 =
-navigator
+self
 .
-fonts
-.
-query
+queryLocalFonts
 (
 )
 ;

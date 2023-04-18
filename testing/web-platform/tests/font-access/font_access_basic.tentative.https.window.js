@@ -21,11 +21,9 @@ const
 fonts
 =
 await
-navigator
+self
 .
-fonts
-.
-query
+queryLocalFonts
 (
 )
 ;
@@ -223,7 +221,7 @@ expectedFont
 ;
 }
 '
-query
+queryLocalFonts
 (
 )
 :
