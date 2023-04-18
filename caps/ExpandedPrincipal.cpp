@@ -266,6 +266,7 @@ ExpandedPrincipal
 :
 Create
 (
+const
 nsTArray
 <
 nsCOMPtr
