@@ -168,7 +168,7 @@ filePath
 await
 IOUtils
 .
-touch
+setModificationTime
 (
 filePath
 setTime

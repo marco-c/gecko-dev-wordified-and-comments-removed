@@ -831,7 +831,7 @@ add_task
 (
 async
 function
-test_touch_and_stat
+test_setModificationTime_and_stat
 (
 )
 {
@@ -841,7 +841,7 @@ info
 Test
 attempt
 to
-touch
+setModificationTime
 a
 file
 "
@@ -866,7 +866,7 @@ join
 (
 tmpDir
 "
-test_touch_and_stat
+test_setModificationTime_and_stat
 .
 tmp
 "
@@ -909,7 +909,7 @@ stamp
 await
 IOUtils
 .
-touch
+setModificationTime
 (
 tmpFileName
 )
@@ -938,7 +938,7 @@ lastModified
 IOUtils
 :
 :
-touch
+setModificationTime
 can
 update
 the
@@ -962,7 +962,7 @@ lastModified
 IOUtils
 :
 :
-touch
+setModificationTime
 returns
 the
 updated
@@ -978,7 +978,7 @@ info
 Test
 attempt
 to
-touch
+setModificationTime
 a
 directory
 "
@@ -993,7 +993,7 @@ join
 (
 tmpDir
 "
-test_touch_and_stat
+test_setModificationTime_and_stat
 .
 tmp
 .
@@ -1021,7 +1021,7 @@ add_task
 (
 async
 function
-test_touch_custom_mod_time
+test_setModificationTime_custom_mod_time
 (
 )
 {
@@ -1044,7 +1044,7 @@ join
 (
 tmpDir
 "
-test_touch_custom_mod_time
+test_setModificationTime_custom_mod_time
 .
 tmp
 "
@@ -1112,7 +1112,7 @@ newModTime
 await
 IOUtils
 .
-touch
+setModificationTime
 (
 tempFileName
 future
@@ -1143,7 +1143,7 @@ lastModified
 IOUtils
 :
 :
-touch
+setModificationTime
 can
 set
 a
@@ -1166,7 +1166,7 @@ lastModified
 IOUtils
 :
 :
-touch
+setModificationTime
 returns
 the
 updated
@@ -1183,7 +1183,7 @@ future
 IOUtils
 :
 :
-touch
+setModificationTime
 return
 value
 matches
@@ -1223,7 +1223,7 @@ newModTime
 await
 IOUtils
 .
-touch
+setModificationTime
 (
 tempFileName
 past
@@ -1254,7 +1254,7 @@ lastModified
 IOUtils
 :
 :
-touch
+setModificationTime
 can
 set
 a
@@ -1277,7 +1277,7 @@ lastModified
 IOUtils
 :
 :
-touch
+setModificationTime
 returns
 the
 updated
@@ -1294,7 +1294,7 @@ past
 IOUtils
 :
 :
-touch
+setModificationTime
 return
 value
 matches
@@ -1397,7 +1397,7 @@ lastModified
 await
 IOUtils
 .
-touch
+setModificationTime
 (
 tempFileName
 future
@@ -1556,7 +1556,7 @@ add_task
 (
 async
 function
-test_touch_failures
+test_setModificationTime_failures
 (
 )
 {
@@ -1566,7 +1566,7 @@ info
 Test
 attempt
 to
-touch
+setModificationTime
 a
 non
 -
@@ -1594,7 +1594,7 @@ join
 (
 tmpDir
 "
-test_touch_not_exists
+test_setModificationTime_not_exists
 .
 tmp
 "
@@ -1607,14 +1607,17 @@ rejects
 (
 IOUtils
 .
-touch
+setModificationTime
 (
 notExistsFile
 )
 /
 Could
 not
-touch
+set
+modification
+time
+of
 file
 \
 (
@@ -1632,7 +1635,7 @@ exist
 IOUtils
 :
 :
-touch
+setModificationTime
 throws
 if
 the
@@ -1667,7 +1670,7 @@ join
 (
 tmpDir
 "
-test_touch_epoch
+test_setModificationTime_epoch
 .
 tmp
 "
@@ -1686,7 +1689,7 @@ rejects
 (
 IOUtils
 .
-touch
+setModificationTime
 (
 tempFileName
 0
@@ -1713,7 +1716,7 @@ to
 IOUtils
 :
 :
-touch
+setModificationTime
 cannot
 set
 the
