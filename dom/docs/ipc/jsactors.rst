@@ -2105,7 +2105,12 @@ JSWindowActorParent
 ~
 ~
 CanonicalBrowsingContext
-TODO
+Getter
+:
+this
+.
+browsingcontext
+.
 WindowGlobalParent
 TODO
 Other
