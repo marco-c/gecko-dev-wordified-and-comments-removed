@@ -39,7 +39,7 @@ aFunc
 {
 if
 (
-ShutdownStarted
+IsShuttingDown
 (
 )
 )
