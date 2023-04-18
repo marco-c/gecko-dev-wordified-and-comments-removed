@@ -19,8 +19,8 @@ nsGlobalWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -72,7 +72,6 @@ aAllowEval
 ;
 }
 ;
-}
 }
 #
 endif

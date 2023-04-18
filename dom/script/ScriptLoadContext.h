@@ -205,8 +205,8 @@ OffThreadToken
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -581,7 +581,6 @@ mUnreportedPreloadError
 ;
 }
 ;
-}
 }
 #
 endif

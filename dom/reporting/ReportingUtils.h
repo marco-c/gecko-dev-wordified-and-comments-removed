@@ -19,8 +19,8 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -57,7 +57,6 @@ aBody
 ;
 }
 ;
-}
 }
 #
 endif

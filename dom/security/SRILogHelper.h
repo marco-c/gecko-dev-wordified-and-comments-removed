@@ -15,8 +15,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -47,7 +47,6 @@ gSriPRLog
 }
 }
 ;
-}
 }
 #
 endif

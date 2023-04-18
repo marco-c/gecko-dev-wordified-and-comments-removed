@@ -40,8 +40,8 @@ nsIConsoleReportCollector
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -266,7 +266,6 @@ aReporter
 ;
 }
 ;
-}
 }
 #
 endif

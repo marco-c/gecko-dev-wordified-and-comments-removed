@@ -30,8 +30,8 @@ nsIPrincipal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -158,7 +158,6 @@ mAllowList
 ;
 }
 ;
-}
 }
 #
 endif

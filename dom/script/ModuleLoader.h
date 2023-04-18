@@ -63,8 +63,8 @@ ModuleLoadRequest
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -316,7 +316,6 @@ mKind
 ;
 }
 ;
-}
 }
 #
 endif

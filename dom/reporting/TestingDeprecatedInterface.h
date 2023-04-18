@@ -64,8 +64,8 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -165,7 +165,6 @@ mGlobal
 ;
 }
 ;
-}
 }
 #
 endif

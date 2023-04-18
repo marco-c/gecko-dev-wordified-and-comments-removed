@@ -70,8 +70,8 @@ type_traits
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -399,7 +399,6 @@ written
 }
 }
 ;
-}
 }
 #
 endif

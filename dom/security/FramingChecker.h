@@ -31,14 +31,13 @@ nsIContentSecurityPolicy
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 BrowsingContext
 ;
-}
 }
 class
 FramingChecker

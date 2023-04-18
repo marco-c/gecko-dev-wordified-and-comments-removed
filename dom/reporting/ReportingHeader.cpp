@@ -215,8 +215,8 @@ host
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -3865,5 +3865,4 @@ NS_IMPL_RELEASE
 (
 ReportingHeader
 )
-}
 }

@@ -16,8 +16,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -324,6 +324,5 @@ mPolicy
 =
 eAllowList
 ;
-}
 }
 }

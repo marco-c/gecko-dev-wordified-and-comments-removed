@@ -267,8 +267,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -2318,5 +2318,4 @@ LOG_ENABLED
 #
 undef
 LOG
-}
 }

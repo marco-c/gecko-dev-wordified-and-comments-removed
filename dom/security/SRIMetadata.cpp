@@ -98,8 +98,8 @@ args
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SRIMetadata
@@ -1116,6 +1116,5 @@ false
 return
 true
 ;
-}
 }
 }

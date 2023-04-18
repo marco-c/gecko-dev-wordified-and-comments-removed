@@ -9,8 +9,8 @@ nsIHttpChannel
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -68,7 +68,6 @@ aHTTPChannel
 ;
 }
 ;
-}
 }
 #
 endif

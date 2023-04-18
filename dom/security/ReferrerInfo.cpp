@@ -253,8 +253,8 @@ net
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CLASSINFO
@@ -7038,6 +7038,5 @@ mPolicy
 telemetryOffset
 )
 ;
-}
 }
 }

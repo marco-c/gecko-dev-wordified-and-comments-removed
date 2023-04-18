@@ -193,8 +193,8 @@ args
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -2909,6 +2909,5 @@ aData
 return
 NS_OK
 ;
-}
 }
 }
