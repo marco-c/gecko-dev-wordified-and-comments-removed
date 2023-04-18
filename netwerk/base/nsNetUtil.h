@@ -3062,6 +3062,14 @@ nsIURI
 uri
 )
 ;
+bool
+NS_IsAboutSrcdoc
+(
+nsIURI
+*
+uri
+)
+;
 nsresult
 NS_GenerateHostPort
 (

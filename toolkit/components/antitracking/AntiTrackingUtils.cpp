@@ -2716,6 +2716,12 @@ NS_IsAboutBlank
 (
 uri
 )
+|
+|
+NS_IsAboutSrcdoc
+(
+uri
+)
 )
 {
 nsIScriptSecurityManager
@@ -2879,6 +2885,13 @@ aURI
 &
 !
 NS_IsAboutBlank
+(
+aURI
+)
+&
+&
+!
+NS_IsAboutSrcdoc
 (
 aURI
 )
