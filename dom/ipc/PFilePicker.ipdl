@@ -3,10 +3,6 @@ protocol
 PBrowser
 ;
 include
-protocol
-PRemoteLazyInputStream
-;
-include
 IPCBlob
 ;
 using

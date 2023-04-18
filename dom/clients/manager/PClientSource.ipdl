@@ -65,10 +65,6 @@ protocol
 PClientSourceOp
 ;
 include
-protocol
-PRemoteLazyInputStream
-;
-include
 ClientIPCTypes
 ;
 namespace

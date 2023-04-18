@@ -61,16 +61,6 @@ protocol
 PBackground
 ;
 include
-protocol
-PRemoteLazyInputStream
-;
-/
-/
-FIXME
-:
-bug
-792908
-include
 DOMTypes
 ;
 using
