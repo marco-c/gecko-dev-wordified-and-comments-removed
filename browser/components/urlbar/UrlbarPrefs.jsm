@@ -183,6 +183,14 @@ float
 ]
 [
 "
+bestMatch
+.
+enabled
+"
+true
+]
+[
+"
 ctrlCanonizesURLs
 "
 true

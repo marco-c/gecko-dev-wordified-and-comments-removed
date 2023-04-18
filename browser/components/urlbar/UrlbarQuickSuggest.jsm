@@ -537,6 +537,11 @@ null
 }
 return
 {
+is_best_match
+:
+result
+.
+_test_is_best_match
 full_keyword
 :
 this
