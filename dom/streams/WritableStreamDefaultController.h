@@ -389,7 +389,7 @@ mStrategySizeAlgorithm
 aStrategySizeAlgorithm
 ;
 }
-UnderlyingSinkAlgorithmsBase
+UnderlyingSinkAlgorithms
 *
 GetAlgorithms
 (
@@ -402,7 +402,7 @@ mAlgorithms
 void
 SetAlgorithms
 (
-UnderlyingSinkAlgorithmsBase
+UnderlyingSinkAlgorithms
 *
 aAlgorithms
 )
@@ -515,7 +515,7 @@ mStrategySizeAlgorithm
 ;
 RefPtr
 <
-UnderlyingSinkAlgorithmsBase
+UnderlyingSinkAlgorithms
 >
 mAlgorithms
 ;
@@ -540,7 +540,7 @@ aStream
 WritableStreamDefaultController
 *
 aController
-UnderlyingSinkAlgorithmsBase
+UnderlyingSinkAlgorithms
 *
 aSinkCallbacks
 double
