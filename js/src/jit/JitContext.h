@@ -536,6 +536,11 @@ InitializeJit
 (
 )
 ;
+void
+ShutdownJit
+(
+)
+;
 JitContext
 *
 GetJitContext
