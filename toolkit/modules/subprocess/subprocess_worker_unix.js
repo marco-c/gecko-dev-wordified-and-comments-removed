@@ -440,9 +440,7 @@ byteLength
 )
 {
 return
-ArrayBuffer
-.
-transfer
+ArrayBuffer_transfer
 (
 buffer
 read
