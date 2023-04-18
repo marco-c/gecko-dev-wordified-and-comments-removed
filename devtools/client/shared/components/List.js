@@ -481,11 +481,12 @@ onClick
 onKeyDownCapture
 :
 active
-&
-&
+?
 this
 .
 _onKeyDown
+:
+null
 }
 div
 (
