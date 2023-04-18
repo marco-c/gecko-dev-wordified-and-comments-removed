@@ -3359,13 +3359,12 @@ jsm
 )
 ;
 let
-Scope
-=
-{
-}
+scope
 ;
 try
 {
+scope
+=
 ChromeUtils
 .
 import
@@ -3385,7 +3384,6 @@ ospath
 .
 jsm
 "
-Scope
 )
 ;
 }
@@ -3401,7 +3399,7 @@ ok
 (
 !
 !
-Scope
+scope
 .
 basename
 )
