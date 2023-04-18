@@ -8,7 +8,7 @@ from
 .
 .
 /
-reducers
+selectors
 /
 sources
 "

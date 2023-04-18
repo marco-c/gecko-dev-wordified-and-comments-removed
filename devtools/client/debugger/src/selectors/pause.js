@@ -22,7 +22,7 @@ from
 .
 .
 /
-reducers
+selectors
 /
 sources
 "

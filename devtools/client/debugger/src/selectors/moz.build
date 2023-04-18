@@ -168,6 +168,11 @@ tree
 js
 "
 "
+sources
+.
+js
+"
+"
 tabs
 .
 js

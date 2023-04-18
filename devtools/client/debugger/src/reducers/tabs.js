@@ -34,6 +34,9 @@ getSpecificSourceByURL
 from
 "
 .
+.
+/
+selectors
 /
 sources
 "
