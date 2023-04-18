@@ -1145,13 +1145,6 @@ mTransactionObserver
 public
 :
 void
-SetConnectionInfo
-(
-nsHttpConnectionInfo
-*
-)
-;
-void
 SetTransactionObserver
 (
 TransactionObserver

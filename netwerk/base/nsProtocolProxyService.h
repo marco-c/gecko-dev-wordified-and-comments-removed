@@ -719,6 +719,15 @@ FilterLink
 >
 mFilters
 ;
+nsTArray
+<
+nsCOMPtr
+<
+nsIProxyConfigChangedCallback
+>
+>
+mProxyConfigChangedCallbacks
+;
 uint32_t
 mProxyConfig
 {

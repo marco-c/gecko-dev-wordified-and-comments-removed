@@ -6412,7 +6412,6 @@ if
 mTrrService
 )
 {
-return
 mTrrService
 -
 >
