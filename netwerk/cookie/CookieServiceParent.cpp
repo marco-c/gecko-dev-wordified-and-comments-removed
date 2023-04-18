@@ -525,7 +525,12 @@ aChannel
 )
 ;
 bool
-aIsSameSiteForeign
+hadCrossSiteRedirects
+=
+false
+;
+bool
+isSameSiteForeign
 =
 CookieCommons
 :
@@ -534,6 +539,8 @@ IsSameSiteForeign
 (
 aChannel
 uri
+&
+hadCrossSiteRedirects
 )
 ;
 StoragePrincipalHelper
@@ -631,7 +638,8 @@ IsStorageAccessPermissionGranted
 )
 rejectedReason
 isSafeTopLevelNav
-aIsSameSiteForeign
+isSameSiteForeign
+hadCrossSiteRedirects
 false
 attrs
 foundCookieList
@@ -793,6 +801,10 @@ bool
 &
 aIsSameSiteForeign
 const
+bool
+&
+aHadCrossSiteRedirects
+const
 OriginAttributes
 &
 aAttrs
@@ -839,6 +851,7 @@ aStorageAccessPermissionGranted
 aRejectedReason
 aIsSafeTopLevelNav
 aIsSameSiteForeign
+aHadCrossSiteRedirects
 false
 aAttrs
 foundCookieList

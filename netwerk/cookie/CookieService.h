@@ -258,6 +258,8 @@ aIsSafeTopLevelNav
 bool
 aIsSameSiteForeign
 bool
+aHadCrossSiteRedirects
+bool
 aHttpBound
 const
 OriginAttributes

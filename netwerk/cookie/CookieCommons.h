@@ -530,6 +530,9 @@ aChannel
 nsIURI
 *
 aHostURI
+bool
+*
+aHadCrossSiteRedirects
 )
 ;
 }

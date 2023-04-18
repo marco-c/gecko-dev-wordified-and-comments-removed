@@ -193,6 +193,10 @@ bool
 &
 aIsSameSiteForeign
 const
+bool
+&
+aHadCrossSiteRedirects
+const
 OriginAttributes
 &
 aAttrs

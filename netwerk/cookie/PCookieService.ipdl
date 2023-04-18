@@ -100,6 +100,8 @@ bool
 isSafeTopLevelNav
 bool
 isSameSiteForeign
+bool
+hadCrossSiteRedirects
 OriginAttributes
 attrs
 )
