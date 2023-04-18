@@ -1,15 +1,3 @@
-if
-(
-isLocEnabled
-(
-)
-)
-{
-quit
-(
-)
-;
-}
 let
 source
 =
@@ -64,7 +52,7 @@ fileName
 "
 inner
 -
-00
+03
 .
 js
 "
@@ -74,7 +62,7 @@ lineNumber
 eagerDelazificationStrategy
 :
 "
-OnDemandOnly
+ParseEverythingEagerly
 "
 newContext
 :
