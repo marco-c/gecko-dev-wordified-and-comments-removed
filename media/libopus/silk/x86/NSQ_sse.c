@@ -1048,7 +1048,7 @@ LTP_ORDER
 /
 2
 ;
-celt_assert
+silk_assert
 (
 start_idx
 >

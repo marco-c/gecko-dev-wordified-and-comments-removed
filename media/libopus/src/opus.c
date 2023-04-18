@@ -1219,9 +1219,6 @@ count
 |
 framesize
 *
-(
-opus_int32
-)
 count
 >
 5760

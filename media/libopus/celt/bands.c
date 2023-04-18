@@ -2367,7 +2367,7 @@ celt_ener
 minE
 ;
 #
-ifdef
+if
 FIXED_POINT
 int
 shift
@@ -2403,7 +2403,7 @@ minE
 )
 ;
 #
-ifdef
+if
 FIXED_POINT
 shift
 =
@@ -5881,6 +5881,8 @@ X
 celt_norm
 *
 Y
+int
+b
 celt_norm
 *
 lowband_out
@@ -5988,6 +5990,14 @@ ctx
 -
 >
 remaining_bits
+-
+=
+1
+<
+<
+BITRES
+;
+b
 -
 =
 1
@@ -7163,6 +7173,7 @@ quant_band_n1
 ctx
 X
 NULL
+b
 lowband_out
 )
 ;
@@ -7803,6 +7814,7 @@ quant_band_n1
 ctx
 X
 Y
+b
 lowband_out
 )
 ;

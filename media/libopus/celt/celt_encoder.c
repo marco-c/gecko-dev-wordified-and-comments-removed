@@ -9857,8 +9857,8 @@ nbCompressedBytes
 8
 *
 50
-<
-<
+>
+>
 (
 3
 -
@@ -13987,7 +13987,7 @@ signalBandwidth
 ;
 codedBands
 =
-clt_compute_allocation
+compute_allocation
 (
 mode
 start

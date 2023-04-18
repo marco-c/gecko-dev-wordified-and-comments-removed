@@ -133,9 +133,6 @@ h
 "
 #
 define
-OVERRIDE_COMB_FILTER_CONST
-#
-define
 OVERRIDE_comb_filter
 void
 comb_filter
