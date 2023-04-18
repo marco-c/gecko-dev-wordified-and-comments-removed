@@ -103,7 +103,7 @@ mAddresses
 uint32_t
 mTtl
 =
-UINT32_MAX
+0
 ;
 }
 ;
