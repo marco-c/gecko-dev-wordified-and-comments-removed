@@ -729,6 +729,12 @@ CacheKind
 :
 OptimizeSpreadCall
 :
+case
+CacheKind
+:
+:
+CloseIter
+:
 return
 1
 ;

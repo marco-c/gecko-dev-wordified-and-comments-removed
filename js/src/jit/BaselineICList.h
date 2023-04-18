@@ -156,6 +156,11 @@ _
 (
 GetPropSuper
 )
+\
+_
+(
+CloseIter
+)
 }
 }
 #

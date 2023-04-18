@@ -1496,6 +1496,8 @@ NULL
 1
 0
 JOF_BYTE
+|
+JOF_IC
 )
 \
 \
