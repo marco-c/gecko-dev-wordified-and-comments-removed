@@ -9365,10 +9365,13 @@ aSplitAtEdges
 ;
 if
 (
+MOZ_UNLIKELY
+(
 splitNodeResult
 .
 Failed
 (
+)
 )
 )
 {

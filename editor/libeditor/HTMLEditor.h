@@ -4160,6 +4160,11 @@ eDoNotCreateEmptyContainer
 eAllowToCreateEmptyContainer
 }
 ;
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
 SplitNodeResult
 SplitNodeDeepWithTransaction
