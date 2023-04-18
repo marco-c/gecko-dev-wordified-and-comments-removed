@@ -498,6 +498,10 @@ mDocFlags
 (
 0
 )
+mViewportCacheDirty
+(
+false
+)
 mLoadEventType
 (
 0
