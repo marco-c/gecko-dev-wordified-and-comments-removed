@@ -195,6 +195,10 @@ team
 mozilla
 .
 com
+no_lint
+:
+-
+REDUNDANT_PING
 test
 -
 ping
@@ -271,3 +275,7 @@ team
 mozilla
 .
 com
+no_lint
+:
+-
+REDUNDANT_PING

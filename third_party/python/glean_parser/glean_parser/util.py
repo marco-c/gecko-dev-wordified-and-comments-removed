@@ -37,6 +37,7 @@ Iterable
 Sequence
 Tuple
 Union
+Optional
 import
 urllib
 .
@@ -115,6 +116,36 @@ type
 "
 "
 "
+if
+sys
+.
+version_info
+<
+(
+3
+7
+)
+:
+    
+class
+DictWrapper
+(
+OrderedDict
+)
+:
+        
+pass
+else
+:
+    
+class
+DictWrapper
+(
+dict
+)
+:
+        
+pass
 class
 _NoDatesSafeLoader
 (
@@ -340,7 +371,7 @@ node
         
 mapping
 =
-OrderedDict
+DictWrapper
 (
 loader
 .
@@ -447,7 +478,7 @@ OrderedDumper
 .
 add_representer
 (
-OrderedDict
+DictWrapper
 _dict_representer
 )
     
@@ -568,7 +599,15 @@ dict
 :
         
 return
+yaml_load
+(
+yaml
+.
+dump
+(
 path
+)
+)
     
 if
 path
@@ -1884,6 +1923,7 @@ parts
 .
 extend
 (
+            
 [
 "
 "
@@ -1894,13 +1934,16 @@ this
 node
 :
 "
-_utils
+textwrap
 .
 indent
 (
 description
+"
+"
 )
 ]
+        
 )
     
 return
@@ -1916,6 +1959,7 @@ parts
 def
 format_error
 (
+    
 filepath
 :
 Union
@@ -1923,12 +1967,23 @@ Union
 str
 Path
 ]
+    
 header
 :
 str
+    
 content
 :
 str
+    
+lineno
+:
+Optional
+[
+int
+]
+=
+None
 )
 -
 >
@@ -1978,6 +2033,23 @@ string
 "
     
 if
+lineno
+:
+        
+filepath
+=
+f
+"
+{
+filepath
+}
+:
+{
+lineno
+}
+"
+    
+if
 header
 :
         
@@ -1994,11 +2066,13 @@ header
 \
 n
 {
-_utils
+textwrap
 .
 indent
 (
 content
+'
+'
 )
 }
 "
@@ -2016,11 +2090,13 @@ filepath
 \
 n
 {
-_utils
+textwrap
 .
 indent
 (
 content
+'
+'
 )
 }
 "
