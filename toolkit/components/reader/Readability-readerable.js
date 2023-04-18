@@ -264,6 +264,7 @@ querySelectorAll
 "
 p
 pre
+article
 "
 )
 ;
