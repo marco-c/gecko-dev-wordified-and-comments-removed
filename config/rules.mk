@@ -1685,8 +1685,6 @@ compatibility_version
 -
 current_version
 1
--
-single_module
 endif
 endif
 #
