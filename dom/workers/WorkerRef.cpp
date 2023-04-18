@@ -313,10 +313,7 @@ mCallback
 return
 ;
 }
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
@@ -355,10 +352,7 @@ Create
 WorkerPrivate
 *
 aWorkerPrivate
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
@@ -549,10 +543,7 @@ char
 *
 const
 aName
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
@@ -879,10 +870,7 @@ const
 char
 *
 aName
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
