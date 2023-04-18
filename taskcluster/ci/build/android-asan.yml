@@ -490,6 +490,8 @@ b
 linux
 -
 large
+-
+gcp
 worker
 :
 env
