@@ -89,7 +89,7 @@ aScanner
 )
 mDTDMode
 (
-eDTDMode_unknown
+eDTDMode_autodetect
 )
 mDocType
 (
