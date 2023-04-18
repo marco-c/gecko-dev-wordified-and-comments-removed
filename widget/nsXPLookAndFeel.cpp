@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsNativeBasicTheme
+Theme
 .
 h
 "
@@ -2054,7 +2054,10 @@ lnf
 }
 ;
 }
-nsNativeBasicTheme
+widget
+:
+:
+Theme
 :
 :
 Init
@@ -2098,7 +2101,10 @@ Clear
 (
 )
 ;
-nsNativeBasicTheme
+widget
+:
+:
+Theme
 :
 :
 Shutdown
@@ -6738,7 +6744,10 @@ RefreshImpl
 (
 )
 ;
-nsNativeBasicTheme
+widget
+:
+:
+Theme
 :
 :
 LookAndFeelChanged
