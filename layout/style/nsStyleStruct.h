@@ -1756,6 +1756,12 @@ StyleLength
 >
 mScrollMargin
 ;
+mozilla
+:
+:
+StyleLength
+mOverflowClipMargin
+;
 }
 ;
 struct
