@@ -1701,9 +1701,12 @@ EventDispatcher
 :
 Dispatch
 (
+MOZ_KnownLive
+(
 ToSupports
 (
 this
+)
 )
 nullptr
 &
