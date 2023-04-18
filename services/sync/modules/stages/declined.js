@@ -136,8 +136,6 @@ service
 ;
 }
 ;
-this
-.
 DeclinedEngines
 .
 prototype

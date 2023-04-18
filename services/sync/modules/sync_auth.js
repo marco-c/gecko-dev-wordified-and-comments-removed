@@ -586,8 +586,6 @@ topic
 ;
 }
 }
-this
-.
 SyncAuthManager
 .
 prototype

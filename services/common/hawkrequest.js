@@ -615,8 +615,6 @@ init
 )
 ;
 }
-this
-.
 Intl
 .
 prototype
