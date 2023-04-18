@@ -5865,6 +5865,8 @@ const
 {
 nsID
 uuid
+{
+}
 ;
 char
 uuidBuffer
