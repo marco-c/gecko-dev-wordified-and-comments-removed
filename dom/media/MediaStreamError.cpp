@@ -293,6 +293,7 @@ Promise
 *
 aPromise
 )
+const
 {
 switch
 (
