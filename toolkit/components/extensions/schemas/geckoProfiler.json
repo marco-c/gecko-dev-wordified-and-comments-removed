@@ -172,6 +172,9 @@ samplingallthreads
 markersallthreads
 "
 "
+unregisteredthreads
+"
+"
 responsiveness
 "
 ]
