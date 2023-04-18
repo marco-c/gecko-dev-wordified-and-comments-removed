@@ -117,6 +117,8 @@ public
 PromiseNativeHandler
 public
 StructuredCloneHolderBase
+public
+SingleWriterLockOwner
 {
 friend
 class
@@ -172,6 +174,13 @@ HandleObject
 aObj
 )
 ;
+bool
+OnWritingThread
+(
+)
+const
+override
+;
 struct
 PromiseWorkerProxyStructuredCloneCallbacks
 {
@@ -210,6 +219,7 @@ GetWorkerPrivate
 (
 )
 const
+NO_THREAD_SAFETY_ANALYSIS
 ;
 Promise
 *
@@ -228,6 +238,10 @@ Mutex
 Lock
 (
 )
+RETURN_CAPABILITY
+(
+mCleanUpLock
+)
 {
 return
 mCleanUpLock
@@ -238,6 +252,10 @@ CleanedUp
 (
 )
 const
+REQUIRES
+(
+mCleanUpLock
+)
 {
 mCleanUpLock
 .
@@ -428,6 +446,10 @@ mWorkerPromise
 ;
 bool
 mCleanedUp
+GUARDED_BY
+(
+mCleanUpLock
+)
 ;
 const
 PromiseWorkerProxyStructuredCloneCallbacks
@@ -436,7 +458,6 @@ mCallbacks
 ;
 Mutex
 mCleanUpLock
-MOZ_UNANNOTATED
 ;
 }
 ;
