@@ -3101,12 +3101,10 @@ aSkipChildLists
 skip
 +
 =
-{
 nsIFrame
 :
 :
 kPopupList
-}
 ;
 for
 (
