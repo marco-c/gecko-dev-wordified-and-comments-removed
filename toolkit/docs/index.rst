@@ -176,3 +176,10 @@ extensions
 spellcheck
 /
 index
+mozapps
+/
+update
+/
+docs
+/
+index
