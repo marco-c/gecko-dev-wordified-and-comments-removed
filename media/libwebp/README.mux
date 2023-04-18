@@ -77,7 +77,7 @@ v1
 .
 2
 .
-1
+2
 Description
 :
 =
@@ -353,6 +353,8 @@ color
 profile
 /
 metadata
+/
+parameters
 :
 loop
 LOOP_COUNT
@@ -360,6 +362,13 @@ set
 the
 loop
 count
+bgcolor
+BACKGROUND_COLOR
+set
+the
+animation
+background
+color
 icc
 file
 .
@@ -1962,7 +1971,7 @@ to
 get
 started
 :
-http
+https
 :
 /
 /
@@ -2000,7 +2009,7 @@ webmproject
 org
 Web
 :
-http
+https
 :
 /
 /

@@ -1564,6 +1564,7 @@ predict
 =
 pred_func
 (
+&
 current_row
 [
 x

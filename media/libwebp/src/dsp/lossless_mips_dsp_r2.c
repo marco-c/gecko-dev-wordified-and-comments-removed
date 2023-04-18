@@ -2425,7 +2425,10 @@ static
 uint32_t
 Predictor5_MIPSdspR2
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -2437,6 +2440,7 @@ top
 return
 Average3
 (
+*
 left
 top
 [
@@ -2453,7 +2457,10 @@ static
 uint32_t
 Predictor6_MIPSdspR2
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -2465,6 +2472,7 @@ top
 return
 Average2
 (
+*
 left
 top
 [
@@ -2478,7 +2486,10 @@ static
 uint32_t
 Predictor7_MIPSdspR2
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -2490,6 +2501,7 @@ top
 return
 Average2
 (
+*
 left
 top
 [
@@ -2502,7 +2514,10 @@ static
 uint32_t
 Predictor8_MIPSdspR2
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -2535,7 +2550,10 @@ static
 uint32_t
 Predictor9_MIPSdspR2
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -2567,7 +2585,10 @@ static
 uint32_t
 Predictor10_MIPSdspR2
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -2579,6 +2600,7 @@ top
 return
 Average4
 (
+*
 left
 top
 [
@@ -2600,7 +2622,10 @@ static
 uint32_t
 Predictor11_MIPSdspR2
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -2616,6 +2641,7 @@ top
 [
 0
 ]
+*
 left
 top
 [
@@ -2629,7 +2655,10 @@ static
 uint32_t
 Predictor12_MIPSdspR2
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -2641,6 +2670,7 @@ top
 return
 ClampedAddSubtractFull
 (
+*
 left
 top
 [
@@ -2658,7 +2688,10 @@ static
 uint32_t
 Predictor13_MIPSdspR2
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -2670,6 +2703,7 @@ top
 return
 ClampedAddSubtractHalf
 (
+*
 left
 top
 [
