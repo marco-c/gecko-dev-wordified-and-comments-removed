@@ -36,15 +36,8 @@ jsm
 "
 )
 ;
-var
-Assert
-=
-(
-this
-.
-Assert
-=
 function
+Assert
 (
 reporterFunc
 isDefault
@@ -77,8 +70,6 @@ reporterFunc
 ;
 }
 }
-)
-;
 Object
 .
 setPrototypeOf
