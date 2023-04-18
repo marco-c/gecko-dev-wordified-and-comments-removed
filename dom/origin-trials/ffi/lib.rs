@@ -31,6 +31,9 @@ OriginTrial
 TestTrial
 =
 1
+OffscreenCanvas
+=
+2
 MAX
 }
 impl
@@ -51,7 +54,6 @@ Option
 Self
 >
 {
-return
 Some
 (
 match
@@ -66,6 +68,15 @@ Self
 :
 :
 TestTrial
+"
+OffscreenCanvas
+"
+=
+>
+Self
+:
+:
+OffscreenCanvas
 _
 =
 >
@@ -73,7 +84,6 @@ return
 None
 }
 )
-;
 }
 }
 #
