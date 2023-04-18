@@ -448,15 +448,6 @@ updateURL
 '
 browser
 .
-chrome
-.
-dynamictoolbar
-'
-:
-False
-'
-browser
-.
 link
 .
 open_newwindow
