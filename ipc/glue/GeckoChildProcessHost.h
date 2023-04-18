@@ -743,6 +743,7 @@ mIsFileContent
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 FilePath
 mProcessPath
@@ -782,10 +783,6 @@ PROCESS_CONNECTED
 PROCESS_ERROR
 }
 mProcessState
-GUARDED_BY
-(
-mMonitor
-)
 ;
 void
 PrepareLaunch
@@ -995,14 +992,11 @@ GeckoChildProcessHost
 >
 >
 sGeckoChildProcessHosts
-GUARDED_BY
-(
-sMutex
-)
 ;
 static
 StaticMutex
 sMutex
+MOZ_UNANNOTATED
 ;
 }
 ;

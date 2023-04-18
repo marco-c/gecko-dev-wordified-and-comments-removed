@@ -233,7 +233,7 @@ mozilla
 :
 Mutex
 lock_
-MOZ_ANNOTATED
+MOZ_UNANNOTATED
 {
 "
 Port

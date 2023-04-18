@@ -98,6 +98,7 @@ mIdentifier
 static
 StaticMutex
 sLock
+MOZ_UNANNOTATED
 ;
 static
 BrowserProcessSubThread
@@ -106,10 +107,6 @@ sBrowserThreads
 [
 ID_COUNT
 ]
-GUARDED_BY
-(
-sLock
-)
 ;
 }
 ;
