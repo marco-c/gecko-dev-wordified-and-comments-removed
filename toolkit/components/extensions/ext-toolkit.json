@@ -1373,6 +1373,11 @@ proxy
 "
 ]
 ]
+"
+startupBlocking
+"
+:
+true
 }
 "
 runtime
@@ -2004,5 +2009,10 @@ webRequest
 "
 ]
 ]
+"
+startupBlocking
+"
+:
+true
 }
 }
