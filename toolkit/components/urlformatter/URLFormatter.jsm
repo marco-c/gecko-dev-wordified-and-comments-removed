@@ -88,11 +88,17 @@ distribution
 version
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UpdateUtils
 "
@@ -115,7 +121,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Region
 "
@@ -385,6 +391,8 @@ REGION
 try
 {
 return
+lazy
+.
 Region
 .
 home
@@ -620,6 +628,8 @@ CHANNEL
 )
 =
 >
+lazy
+.
 UpdateUtils
 .
 UpdateChannel
