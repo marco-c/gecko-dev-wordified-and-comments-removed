@@ -609,6 +609,11 @@ evicted
 ;
 while
 (
+GetSize
+(
+)
+)
+{
 ResourceItem
 *
 item
@@ -617,8 +622,7 @@ ResourceAt
 (
 0
 )
-)
-{
+;
 SBR_DEBUG
 (
 "
@@ -771,6 +775,11 @@ evicted
 ;
 while
 (
+GetSize
+(
+)
+)
+{
 ResourceItem
 *
 item
@@ -779,8 +788,7 @@ ResourceAt
 (
 0
 )
-)
-{
+;
 SBR_DEBUG
 (
 "
