@@ -149,6 +149,10 @@ GAppInfo
 )
 GOBJECT_TRAITS
 (
+GAppLaunchContext
+)
+GOBJECT_TRAITS
+(
 GdkDragContext
 )
 GOBJECT_TRAITS
