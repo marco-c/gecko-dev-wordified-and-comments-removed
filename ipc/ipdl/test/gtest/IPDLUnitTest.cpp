@@ -275,6 +275,16 @@ ipc
 SharedPreferenceSerializer
 >
 (
+mozilla
+:
+:
+dom
+:
+:
+ContentParent
+:
+:
+ShouldSyncPreference
 )
 ;
 if
@@ -285,10 +295,6 @@ prefSerializer
 >
 SerializeToSharedMemory
 (
-GeckoProcessType_IPDLUnitTest
-"
-"
-_ns
 )
 )
 {
