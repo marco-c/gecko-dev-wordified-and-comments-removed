@@ -3608,6 +3608,7 @@ uint32_t
 aType
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 MaybeFireNodeRemoved
@@ -4349,6 +4350,7 @@ aTemplate
 ;
 public
 :
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 SetNodeTextContent
