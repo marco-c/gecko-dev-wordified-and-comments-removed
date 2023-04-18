@@ -206,6 +206,13 @@ override
 ;
 }
 ;
+static
+constexpr
+uint32_t
+kDefaultWinScrollbarSize
+=
+17
+;
 }
 #
 endif

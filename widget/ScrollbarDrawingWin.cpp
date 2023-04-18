@@ -835,7 +835,7 @@ RecomputeScrollbarParams
 uint32_t
 defaultSize
 =
-17
+kDefaultWinScrollbarSize
 ;
 uint32_t
 overrideSize
