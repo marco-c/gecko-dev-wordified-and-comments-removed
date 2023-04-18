@@ -216,10 +216,6 @@ character
 "
     
 "
-page
-"
-    
-"
 -
 webkit
 -

@@ -96,6 +96,13 @@ page
 :
 PaperSize
 ;
+pub
+use
+specified
+:
+:
+PageName
+;
 #
 [
 derive
