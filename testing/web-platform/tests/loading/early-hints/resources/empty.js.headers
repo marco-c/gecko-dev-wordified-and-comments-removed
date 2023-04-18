@@ -16,3 +16,10 @@ allow
 origin
 :
 *
+timing
+-
+allow
+-
+origin
+:
+*
