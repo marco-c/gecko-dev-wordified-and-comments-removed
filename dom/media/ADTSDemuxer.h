@@ -385,7 +385,7 @@ aFrame
 int64_t
 FrameIndexFromOffset
 (
-int64_t
+uint64_t
 aOffset
 )
 const
@@ -403,7 +403,7 @@ aTime
 )
 const
 ;
-int32_t
+uint32_t
 Read
 (
 uint8_t
@@ -431,7 +431,7 @@ FrameParser
 *
 mParser
 ;
-int64_t
+uint64_t
 mOffset
 ;
 uint64_t
