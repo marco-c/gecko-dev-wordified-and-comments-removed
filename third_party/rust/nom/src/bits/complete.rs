@@ -37,10 +37,10 @@ ops
 :
 {
 AddAssign
+Div
 RangeFrom
 Shl
 Shr
-Div
 }
 ;
 use

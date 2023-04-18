@@ -7,9 +7,9 @@ macros
 ;
 pub
 mod
-streaming
+complete
 ;
 pub
 mod
-complete
+streaming
 ;

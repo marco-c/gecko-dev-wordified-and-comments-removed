@@ -19,9 +19,6 @@ nom
 :
 :
 {
-IResult
-Needed
-Err
 error
 :
 :
@@ -33,11 +30,14 @@ streaming
 :
 :
 {
+be_f32
 be_u16
 be_u32
 be_u64
-be_f32
 }
+Err
+IResult
+Needed
 }
 ;
 use
@@ -148,7 +148,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 offset
 as
@@ -1050,7 +1050,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 100
 )

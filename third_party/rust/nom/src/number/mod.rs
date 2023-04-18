@@ -7,11 +7,11 @@ macros
 ;
 pub
 mod
-streaming
+complete
 ;
 pub
 mod
-complete
+streaming
 ;
 #
 [
@@ -30,4 +30,5 @@ Endianness
 {
 Big
 Little
+Native
 }

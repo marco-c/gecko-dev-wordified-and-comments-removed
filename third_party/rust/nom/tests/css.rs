@@ -6,12 +6,6 @@ use
 nom
 :
 :
-IResult
-;
-use
-nom
-:
-:
 bytes
 :
 :
@@ -40,6 +34,12 @@ sequence
 :
 :
 tuple
+;
+use
+nom
+:
+:
+IResult
 ;
 #
 [

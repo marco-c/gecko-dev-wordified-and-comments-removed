@@ -2766,6 +2766,15 @@ use
 crate
 :
 :
+error
+:
+:
+ErrorKind
+;
+use
+crate
+:
+:
 internal
 :
 :
@@ -2786,15 +2795,6 @@ streaming
 :
 :
 be_u16
-;
-use
-crate
-:
-:
-error
-:
-:
-ErrorKind
 ;
 macro_rules
 !
@@ -3016,7 +3016,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 blen
 )
@@ -3107,7 +3107,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 cnt
 )
@@ -3187,11 +3187,10 @@ u8
 }
 #
 [
-cfg_attr
-(
 rustfmt
-rustfmt_skip
-)
+:
+:
+skip
 ]
 #
 [
@@ -3501,11 +3500,10 @@ mnop
 }
 #
 [
-cfg_attr
-(
 rustfmt
-rustfmt_skip
-)
+:
+:
+skip
 ]
 #
 [
@@ -3746,7 +3744,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -3779,7 +3777,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -4070,7 +4068,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -4104,7 +4102,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -4367,7 +4365,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 4
 )
@@ -4400,7 +4398,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 4
 )
@@ -4660,7 +4658,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 4
 )
@@ -4693,7 +4691,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 4
 )
@@ -4967,7 +4965,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -5000,7 +4998,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -5033,7 +5031,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -5340,7 +5338,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -5373,7 +5371,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 2
 )
@@ -5463,7 +5461,6 @@ i
 )
 )
 }
-;
 fn
 ret_int2
 (
@@ -5493,7 +5490,6 @@ i
 )
 )
 }
-;
 named
 !
 (
@@ -5663,7 +5659,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 4
 )
@@ -5696,7 +5692,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 4
 )
@@ -5707,11 +5703,10 @@ Size
 }
 #
 [
-cfg_attr
-(
 rustfmt
-rustfmt_skip
-)
+:
+:
+skip
 ]
 #
 [
@@ -5843,7 +5838,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 5
 )

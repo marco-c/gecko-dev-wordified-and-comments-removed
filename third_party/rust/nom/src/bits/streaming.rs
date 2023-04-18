@@ -38,10 +38,10 @@ ops
 :
 {
 AddAssign
+Div
 RangeFrom
 Shl
 Shr
-Div
 }
 ;
 use
@@ -230,7 +230,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 count
 as

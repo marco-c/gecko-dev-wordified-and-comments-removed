@@ -36,15 +36,6 @@ extern
 crate
 nom
 ;
-use
-nom
-:
-:
-{
-Err
-Needed
-}
-;
 #
 [
 cfg
@@ -67,6 +58,15 @@ streaming
 :
 :
 be_u64
+;
+use
+nom
+:
+:
+{
+Err
+Needed
+}
 ;
 named
 !
@@ -190,7 +190,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 18446744073709551615
 )
@@ -233,7 +233,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 18446744073709551615
 )
@@ -332,8 +332,6 @@ xff
 xff
 \
 xff
-\
-xaa
 "
 [
 .
@@ -350,7 +348,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 18446744073709551615
 )
@@ -449,8 +447,6 @@ xff
 xff
 \
 xef
-\
-xaa
 "
 [
 .
@@ -467,7 +463,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 18446744073709551599
 )
@@ -566,8 +562,6 @@ xff
 xff
 \
 xef
-\
-xaa
 "
 [
 .
@@ -584,7 +578,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 18446744073709551599
 )
@@ -696,8 +690,6 @@ xff
 xff
 \
 xef
-\
-xaa
 "
 [
 .
@@ -714,7 +706,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 18446744073709551599
 )
@@ -815,8 +807,6 @@ xff
 xff
 \
 xef
-\
-xaa
 "
 [
 .
@@ -833,7 +823,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 18446744073709551599
 )
@@ -933,8 +923,6 @@ xff
 xff
 \
 xef
-\
-xaa
 "
 [
 .
@@ -951,7 +939,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 18446744073709551599
 )
@@ -1065,8 +1053,6 @@ xff
 xff
 \
 xee
-\
-xaa
 "
 [
 .
@@ -1083,7 +1069,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 18446744073709551598
 )
@@ -1182,8 +1168,6 @@ xff
 xff
 \
 xff
-\
-xaa
 "
 [
 .
@@ -1200,7 +1184,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 18446744073709551615
 )
