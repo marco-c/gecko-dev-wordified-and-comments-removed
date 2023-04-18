@@ -4222,11 +4222,11 @@ CleanedUp
 return
 ;
 }
-MOZ_ASSERT
+if
 (
 mWorkerRef
 )
-;
+{
 mWorkerRef
 -
 >
@@ -4239,6 +4239,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
+}
 mCleanedUp
 =
 true
