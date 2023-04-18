@@ -561,6 +561,8 @@ hunspell
 /
 src
 /
+function2
+/
 gfx
 /
 angle
