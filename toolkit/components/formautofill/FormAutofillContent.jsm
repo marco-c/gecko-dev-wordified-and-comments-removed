@@ -3556,6 +3556,16 @@ formFillController
 passwordPopupAutomaticallyOpened
 )
 ;
+if
+(
+this
+.
+activeSection
+?
+.
+flowId
+)
+{
 Services
 .
 telemetry
@@ -3578,6 +3588,7 @@ activeSection
 flowId
 )
 ;
+}
 }
 _markAsAutofillField
 (
