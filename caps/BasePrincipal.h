@@ -815,8 +815,6 @@ nsIURI
 *
 aURI
 bool
-aIsPrivateWin
-bool
 *
 aRes
 )
