@@ -1,8 +1,8 @@
 EXPORTS
 .
-mozilla
+js
 .
-dom
+loader
 +
 =
 [
