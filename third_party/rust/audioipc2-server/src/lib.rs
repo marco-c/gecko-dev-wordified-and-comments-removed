@@ -723,7 +723,7 @@ Starting
 }
 thread
 "
-rpc_name
+device_collection_name
 )
 ;
 register_thread
@@ -750,7 +750,7 @@ Stopping
 }
 thread
 "
-rpc_name
+device_collection_name
 )
 ;
 }
@@ -778,7 +778,7 @@ thread
 ?
 }
 "
-rpc_name
+device_collection_name
 e
 )
 ;
