@@ -330,7 +330,7 @@ primary
 )
 sessionRule
 .
-delegateDuringNextWait
+waitUntilCalled
 (
 object
 :
@@ -412,11 +412,6 @@ ORIENTATION_PORTRAIT
 promise
 .
 value
-mainSession
-.
-waitForRoundTrip
-(
-)
 }
 private
 fun
@@ -448,7 +443,7 @@ primary
 )
 sessionRule
 .
-delegateDuringNextWait
+waitUntilCalled
 (
 object
 :
@@ -530,11 +525,6 @@ ORIENTATION_LANDSCAPE
 promise
 .
 value
-mainSession
-.
-waitForRoundTrip
-(
-)
 }
 Test
 fun
@@ -903,7 +893,7 @@ primary
 )
 sessionRule
 .
-delegateDuringNextWait
+waitUntilCalled
 (
 object
 :
@@ -986,11 +976,6 @@ ORIENTATION_LANDSCAPE
 promise
 .
 value
-mainSession
-.
-waitForRoundTrip
-(
-)
 mainSession
 .
 evaluateJS
