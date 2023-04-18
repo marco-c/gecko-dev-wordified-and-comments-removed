@@ -8130,6 +8130,8 @@ Windows8WindowFrameColor
 .
 jsm
 "
+{
+}
 )
 .
 Windows8WindowFrameColor
@@ -11128,6 +11130,8 @@ DownloadsTaskbar
 .
 jsm
 "
+{
+}
 )
 .
 DownloadsTaskbar

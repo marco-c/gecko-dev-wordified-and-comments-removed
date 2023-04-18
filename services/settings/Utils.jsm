@@ -205,6 +205,8 @@ Console
 .
 jsm
 "
+{
+}
 )
 ;
 return

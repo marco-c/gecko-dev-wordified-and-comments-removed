@@ -157,6 +157,8 @@ Loader
 .
 jsm
 "
+{
+}
 )
 ;
 const

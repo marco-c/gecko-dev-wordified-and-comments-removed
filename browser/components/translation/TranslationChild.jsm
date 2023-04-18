@@ -511,6 +511,8 @@ engine
 Translator
 .
 jsm
+{
+}
 )
 ;
 let

@@ -1075,9 +1075,7 @@ waitForStartupFinished
 )
 {
 let
-{
 SafeBrowsing
-}
 =
 ChromeUtils
 .
@@ -1096,7 +1094,11 @@ SafeBrowsing
 .
 jsm
 "
+{
+}
 )
+.
+SafeBrowsing
 ;
 SafeBrowsing
 .

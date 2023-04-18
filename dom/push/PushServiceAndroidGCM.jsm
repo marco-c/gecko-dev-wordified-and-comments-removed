@@ -197,6 +197,8 @@ AndroidLog
 .
 jsm
 "
+{
+}
 )
 .
 AndroidLog

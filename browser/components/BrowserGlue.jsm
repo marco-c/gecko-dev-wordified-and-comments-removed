@@ -8309,6 +8309,8 @@ UpdateUtils
 .
 jsm
 "
+{
+}
 )
 .
 UpdateUtils

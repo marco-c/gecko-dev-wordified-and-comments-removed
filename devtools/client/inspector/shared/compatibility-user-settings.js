@@ -47,6 +47,8 @@ settings
 .
 js
 "
+{
+}
 )
 ;
 const

@@ -293,6 +293,8 @@ FxAccounts
 .
 jsm
 "
+{
+}
 )
 ;
 this

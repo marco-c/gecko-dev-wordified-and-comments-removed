@@ -137,9 +137,7 @@ null
 ;
 }
 let
-{
 Finder
-}
 =
 ChromeUtils
 .
@@ -158,7 +156,11 @@ Finder
 .
 jsm
 "
+{
+}
 )
+.
+Finder
 ;
 this
 .

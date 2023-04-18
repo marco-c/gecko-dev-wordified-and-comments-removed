@@ -2852,6 +2852,8 @@ CoverageUtils
 .
 jsm
 "
+{
+}
 )
 .
 CoverageCollector

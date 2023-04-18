@@ -31,6 +31,8 @@ SessionFile
 .
 jsm
 "
+{
+}
 )
 .
 SessionFile

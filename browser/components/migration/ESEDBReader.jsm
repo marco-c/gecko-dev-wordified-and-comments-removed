@@ -116,9 +116,7 @@ log
 >
 {
 let
-{
 ConsoleAPI
-}
 =
 ChromeUtils
 .
@@ -137,7 +135,11 @@ Console
 .
 jsm
 "
+{
+}
 )
+.
+ConsoleAPI
 ;
 let
 consoleOptions

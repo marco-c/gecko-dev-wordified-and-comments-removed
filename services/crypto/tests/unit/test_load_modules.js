@@ -60,6 +60,8 @@ ChromeUtils
 import
 (
 resource
+{
+}
 )
 ;
 }

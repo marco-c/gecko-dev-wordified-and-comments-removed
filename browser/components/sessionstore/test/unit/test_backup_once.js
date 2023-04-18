@@ -152,6 +152,8 @@ SessionFile
 .
 jsm
 "
+{
+}
 )
 .
 SessionFile

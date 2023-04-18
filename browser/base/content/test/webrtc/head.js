@@ -558,6 +558,8 @@ webrtcUI
 .
 jsm
 "
+{
+}
 )
 .
 webrtcUI

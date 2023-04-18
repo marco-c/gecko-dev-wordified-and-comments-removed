@@ -592,9 +592,7 @@ selected
 }
 ;
 let
-{
 SessionStore
-}
 =
 ChromeUtils
 .
@@ -614,7 +612,11 @@ SessionStore
 .
 jsm
 "
+{
+}
 )
+.
+SessionStore
 ;
 let
 tabRestored

@@ -1360,6 +1360,8 @@ UpdateUtils
 .
 jsm
 "
+{
+}
 )
 .
 UpdateUtils

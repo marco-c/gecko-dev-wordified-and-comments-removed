@@ -374,6 +374,8 @@ SessionFile
 .
 jsm
 "
+{
+}
 )
 .
 SessionFile

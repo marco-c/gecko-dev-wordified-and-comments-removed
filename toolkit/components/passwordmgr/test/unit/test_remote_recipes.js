@@ -27,6 +27,8 @@ settings
 .
 js
 "
+{
+}
 )
 ;
 const

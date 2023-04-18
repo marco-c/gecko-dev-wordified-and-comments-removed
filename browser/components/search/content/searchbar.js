@@ -619,6 +619,8 @@ FormHistory
 .
 jsm
 "
+{
+}
 )
 .
 FormHistory
@@ -644,6 +646,8 @@ SearchSuggestionController
 .
 jsm
 "
+{
+}
 )
 .
 SearchSuggestionController

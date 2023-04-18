@@ -138,6 +138,8 @@ ChromeUtils
 import
 (
 resource
+{
+}
 )
 ;
 succeeded
@@ -210,6 +212,8 @@ ChromeUtils
 import
 (
 resource
+{
+}
 )
 ;
 succeeded

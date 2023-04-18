@@ -210,6 +210,8 @@ TestRunner
 .
 jsm
 "
+{
+}
 )
 .
 TestRunner
