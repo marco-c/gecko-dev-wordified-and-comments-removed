@@ -351,6 +351,9 @@ xml
 available
 :
 true
+managedElsewhere
+:
+true
 }
 {
 extension
@@ -405,6 +408,9 @@ disabledPref
 )
 ;
 }
+managedElsewhere
+:
+true
 }
 {
 extension
