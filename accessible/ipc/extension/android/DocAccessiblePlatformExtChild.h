@@ -42,7 +42,7 @@ ipc
 :
 :
 IPCResult
-RecvPivotTo
+RecvPivot
 (
 uint64_t
 aID
