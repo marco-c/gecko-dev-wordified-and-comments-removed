@@ -4933,7 +4933,10 @@ read
 size_t
 written
 ;
-Tie
+std
+:
+:
+tie
 (
 result
 read
