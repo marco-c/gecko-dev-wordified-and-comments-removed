@@ -34,8 +34,8 @@ nsPIDOMWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -184,7 +184,6 @@ mWindow
 ;
 }
 ;
-}
 }
 #
 endif

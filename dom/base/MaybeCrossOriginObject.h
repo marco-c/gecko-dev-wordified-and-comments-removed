@@ -40,8 +40,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -918,7 +918,6 @@ override
 ;
 }
 ;
-}
 }
 #
 endif

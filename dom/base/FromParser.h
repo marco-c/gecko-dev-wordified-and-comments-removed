@@ -6,8 +6,8 @@ define
 mozilla_dom_FromParser_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -39,7 +39,6 @@ FROM_PARSER_XSLT
 3
 }
 ;
-}
 }
 #
 endif

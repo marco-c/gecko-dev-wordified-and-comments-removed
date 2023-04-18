@@ -47,8 +47,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -244,7 +244,6 @@ mInternalSubset
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

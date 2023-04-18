@@ -58,8 +58,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 inline
@@ -273,7 +273,6 @@ mServoRestyleRootDirtyBits
 =
 aDirtyBits
 ;
-}
 }
 }
 #

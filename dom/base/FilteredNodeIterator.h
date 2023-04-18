@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -206,7 +206,6 @@ Iter
 }
 }
 ;
-}
 }
 #
 endif

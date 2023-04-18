@@ -6,8 +6,8 @@ define
 mozilla_dom_DOMTokenListSupportedTokens_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 typedef
@@ -22,7 +22,6 @@ DOMTokenListSupportedToken
 *
 DOMTokenListSupportedTokenArray
 ;
-}
 }
 #
 endif

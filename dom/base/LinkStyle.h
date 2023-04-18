@@ -68,8 +68,8 @@ nsIURI
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -755,7 +755,6 @@ mColumnNumber
 ;
 }
 ;
-}
 }
 #
 endif

@@ -44,8 +44,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 inline
@@ -87,7 +87,6 @@ UnregisterActivityObserver
 this
 )
 ;
-}
 }
 }
 inline

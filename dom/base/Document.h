@@ -1429,14 +1429,13 @@ ACTIVE_LOCK
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
 ChannelEventQueue
 ;
-}
 }
 #
 define
@@ -1463,8 +1462,8 @@ NS_IDOCUMENT_IID
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -14894,7 +14893,6 @@ Document
 aDoc
 )
 ;
-}
 }
 nsresult
 NS_NewHTMLDocument

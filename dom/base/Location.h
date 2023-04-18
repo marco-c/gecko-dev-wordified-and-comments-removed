@@ -79,8 +79,8 @@ nsPIDOMWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -520,7 +520,6 @@ mBrowsingContextId
 ;
 }
 ;
-}
 }
 #
 endif

@@ -44,8 +44,8 @@ nsIReferrerInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -524,7 +524,6 @@ Traverse
 aCallback
 )
 ;
-}
 }
 }
 #

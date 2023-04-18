@@ -73,8 +73,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -214,7 +214,6 @@ mCountListeners
 ;
 }
 ;
-}
 }
 inline
 nsISupports

@@ -24,8 +24,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -195,7 +195,6 @@ DOMEventTargetHelper
 )
 }
 ;
-}
 }
 #
 endif

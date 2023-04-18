@@ -147,8 +147,8 @@ mNode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -900,7 +900,6 @@ ContentUnbinder
 ;
 }
 ;
-}
 }
 #
 define
