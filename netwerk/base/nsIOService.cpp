@@ -2683,7 +2683,7 @@ aSucceeded
 ;
 mSocketProcessLaunchComplete
 =
-true
+aSucceeded
 ;
 if
 (
@@ -2694,6 +2694,10 @@ mShutdown
 SocketProcessReady
 (
 )
+|
+|
+!
+aSucceeded
 )
 {
 return
