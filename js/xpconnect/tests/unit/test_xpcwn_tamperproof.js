@@ -1029,14 +1029,6 @@ Cu
 .
 createCommandLine
 (
-[
-]
-null
-Ci
-.
-nsICommandLine
-.
-STATE_INITIAL_LAUNCH
 )
 ;
 test_twice
