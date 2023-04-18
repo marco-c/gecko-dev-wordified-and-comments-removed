@@ -33,15 +33,6 @@ include
 "
 mozilla
 /
-SeekableStreamWrapper
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 InputStreamUtils
