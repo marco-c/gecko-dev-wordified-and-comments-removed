@@ -1246,9 +1246,6 @@ targetCommand
 .
 watchTargets
 (
-{
-types
-:
 [
 targetCommand
 .
@@ -1258,7 +1255,6 @@ SERVICE_WORKER
 ]
 onAvailable
 onDestroyed
-}
 )
 ;
 return

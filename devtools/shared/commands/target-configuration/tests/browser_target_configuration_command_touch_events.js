@@ -353,9 +353,6 @@ otherTargetCommand
 .
 watchTargets
 (
-{
-types
-:
 [
 otherTargetCommand
 .
@@ -363,14 +360,11 @@ TYPES
 .
 FRAME
 ]
-onAvailable
-:
 (
 )
 =
 >
 {
-}
 }
 )
 ;

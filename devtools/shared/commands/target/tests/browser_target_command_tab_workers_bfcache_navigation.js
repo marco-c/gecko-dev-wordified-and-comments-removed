@@ -265,7 +265,7 @@ targets
 }
 ;
 const
-onDestroyed
+onDestroy
 =
 async
 (
@@ -325,9 +325,6 @@ targetCommand
 .
 watchTargets
 (
-{
-types
-:
 [
 TYPES
 .
@@ -337,8 +334,7 @@ TYPES
 SHARED_WORKER
 ]
 onAvailable
-onDestroyed
-}
+onDestroy
 )
 ;
 is
