@@ -1032,6 +1032,7 @@ result
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 computedStyle

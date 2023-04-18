@@ -3423,6 +3423,7 @@ aElement
 {
 RefPtr
 <
+const
 ComputedStyle
 >
 sc

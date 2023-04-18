@@ -16660,6 +16660,7 @@ NS_ERROR_FAILURE
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 computedStyle

@@ -21528,6 +21528,7 @@ nsLayoutUtils
 :
 GetFontMetricsForComputedStyle
 (
+const
 ComputedStyle
 *
 aComputedStyle
@@ -35968,6 +35969,7 @@ nsLayoutUtils
 :
 GetTextRunFlagsForStyle
 (
+const
 ComputedStyle
 *
 aComputedStyle
@@ -36153,6 +36155,7 @@ nsLayoutUtils
 :
 GetTextRunOrientFlagsForStyle
 (
+const
 ComputedStyle
 *
 aComputedStyle

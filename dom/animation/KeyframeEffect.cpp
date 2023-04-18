@@ -800,6 +800,7 @@ mTarget
 {
 RefPtr
 <
+const
 ComputedStyle
 >
 computedStyle
@@ -1216,6 +1217,7 @@ return
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 style
@@ -2534,6 +2536,7 @@ aProperties
 ;
 RefPtr
 <
+const
 ComputedStyle
 >
 baseComputedStyle
@@ -2645,6 +2648,7 @@ ComputedStyle
 aComputedStyle
 RefPtr
 <
+const
 ComputedStyle
 >
 &
@@ -4404,6 +4408,7 @@ UpdateTargetRegistration
 ;
 RefPtr
 <
+const
 ComputedStyle
 >
 computedStyle
@@ -4855,6 +4860,7 @@ CascadeLevel
 }
 already_AddRefed
 <
+const
 ComputedStyle
 >
 KeyframeEffect
@@ -5969,6 +5975,7 @@ AsCSSAnimation
 ;
 RefPtr
 <
+const
 ComputedStyle
 >
 computedStyle
@@ -8080,6 +8087,7 @@ return
 }
 already_AddRefed
 <
+const
 ComputedStyle
 >
 KeyframeEffect
@@ -8311,6 +8319,7 @@ continue
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 fromContext
@@ -8347,6 +8356,7 @@ return
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 toContext

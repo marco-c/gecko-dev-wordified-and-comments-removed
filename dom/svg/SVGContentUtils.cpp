@@ -1674,8 +1674,8 @@ doCompute
 &
 ]
 (
-ComputedStyle
 const
+ComputedStyle
 *
 computedStyle
 )
@@ -1904,6 +1904,7 @@ if
 (
 RefPtr
 <
+const
 ComputedStyle
 >
 style
@@ -1992,6 +1993,7 @@ SVGContentUtils
 :
 GetFontSize
 (
+const
 ComputedStyle
 *
 aComputedStyle
@@ -2111,6 +2113,7 @@ if
 (
 RefPtr
 <
+const
 ComputedStyle
 >
 style
@@ -2199,6 +2202,7 @@ SVGContentUtils
 :
 GetFontXHeight
 (
+const
 ComputedStyle
 *
 aComputedStyle

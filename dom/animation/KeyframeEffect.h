@@ -1325,12 +1325,12 @@ None
 ;
 already_AddRefed
 <
+const
 ComputedStyle
 >
 GetTargetComputedStyle
 (
 Flush
-aFlushType
 )
 const
 ;
@@ -1374,6 +1374,7 @@ ComputedStyle
 aComputedValues
 RefPtr
 <
+const
 ComputedStyle
 >
 &
@@ -1473,6 +1474,7 @@ aComputedTiming
 ;
 already_AddRefed
 <
+const
 ComputedStyle
 >
 CreateComputedStyleForAnimationValue

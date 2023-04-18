@@ -995,6 +995,7 @@ aElement
 {
 RefPtr
 <
+const
 ComputedStyle
 >
 elementStyle

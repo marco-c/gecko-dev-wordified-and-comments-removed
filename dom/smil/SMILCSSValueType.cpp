@@ -2208,6 +2208,7 @@ aTargetElement
 nsPresContext
 *
 aPresContext
+const
 ComputedStyle
 *
 aComputedStyle
@@ -2426,6 +2427,7 @@ return
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 computedStyle

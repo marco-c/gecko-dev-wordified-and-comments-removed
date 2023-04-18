@@ -1232,6 +1232,7 @@ if
 (
 RefPtr
 <
+const
 ComputedStyle
 >
 computedStyle

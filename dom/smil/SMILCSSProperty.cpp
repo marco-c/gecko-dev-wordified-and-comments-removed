@@ -87,6 +87,7 @@ dom
 Element
 *
 aElement
+const
 ComputedStyle
 *
 aBaseComputedStyle

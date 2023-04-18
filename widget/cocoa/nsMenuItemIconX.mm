@@ -487,6 +487,7 @@ nullptr
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 sc

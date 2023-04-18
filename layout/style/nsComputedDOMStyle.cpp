@@ -2209,6 +2209,7 @@ NS_OK
 }
 already_AddRefed
 <
+const
 ComputedStyle
 >
 nsComputedDOMStyle
@@ -2265,9 +2266,6 @@ bool
 MustReresolveStyle
 (
 const
-mozilla
-:
-:
 ComputedStyle
 *
 aStyle
@@ -2384,6 +2382,7 @@ IsDocument
 }
 already_AddRefed
 <
+const
 ComputedStyle
 >
 nsComputedDOMStyle
@@ -2667,6 +2666,7 @@ forget
 }
 already_AddRefed
 <
+const
 ComputedStyle
 >
 nsComputedDOMStyle
@@ -2683,6 +2683,7 @@ aPseudo
 {
 RefPtr
 <
+const
 ComputedStyle
 >
 style
@@ -3552,6 +3553,7 @@ SetResolvedComputedStyle
 (
 RefPtr
 <
+const
 ComputedStyle
 >
 &
@@ -4975,6 +4977,7 @@ GetPresShell
 ;
 RefPtr
 <
+const
 ComputedStyle
 >
 resolvedComputedStyle

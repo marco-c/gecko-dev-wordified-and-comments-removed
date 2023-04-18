@@ -74,6 +74,7 @@ dom
 Element
 *
 aElement
+const
 ComputedStyle
 *
 aBaseComputedStyle
@@ -150,6 +151,7 @@ Element
 *
 mElement
 ;
+const
 ComputedStyle
 *
 mBaseComputedStyle
