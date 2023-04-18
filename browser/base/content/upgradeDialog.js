@@ -514,6 +514,7 @@ getAddonByID
 id
 )
 )
+?
 .
 enable
 (

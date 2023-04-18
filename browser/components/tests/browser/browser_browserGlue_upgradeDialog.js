@@ -161,6 +161,15 @@ org
 "
 )
 ;
+if
+(
+!
+theme
+)
+{
+return
+;
+}
 await
 showAndWaitForDialog
 (
