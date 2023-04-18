@@ -4231,6 +4231,11 @@ ScrollFlags
 :
 :
 ScrollSnap
+|
+ScrollFlags
+:
+:
+TriggeredByScript
 ;
 if
 (
