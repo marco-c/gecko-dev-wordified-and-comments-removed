@@ -3,7 +3,7 @@ mypy
 =
 0
 .
-940
+941
 mypy
 -
 extensions
