@@ -1249,6 +1249,13 @@ searchMode
 isPreview
 |
 |
+this
+.
+view
+.
+selectedElement
+|
+|
 (
 this
 .
