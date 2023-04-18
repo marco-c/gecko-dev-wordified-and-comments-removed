@@ -309,11 +309,16 @@ string
 }
 static
 bool
+#
+ifndef
+__ANDROID__
 MOZ_FORMAT_PRINTF
 (
 5
 6
 )
+#
+endif
 check_print
 (
 const
