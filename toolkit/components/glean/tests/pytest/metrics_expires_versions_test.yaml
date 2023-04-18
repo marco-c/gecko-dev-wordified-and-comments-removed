@@ -81,7 +81,7 @@ glean
 /
 metrics
 /
-2
+1
 -
 0
 -
@@ -95,7 +95,9 @@ type
 boolean
 expires
 :
+"
 41
+"
 description
 :
 |
@@ -151,7 +153,9 @@ type
 labeled_boolean
 expires
 :
+"
 42
+"
 description
 :
 |
@@ -207,7 +211,9 @@ type
 labeled_boolean
 expires
 :
+"
 100
+"
 description
 :
 |

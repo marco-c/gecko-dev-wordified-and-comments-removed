@@ -112,11 +112,11 @@ ffi
 version
 =
 "
-44
+43
 .
 0
 .
-0
+2
 "
 authors
 =
@@ -280,11 +280,11 @@ core
 version
 =
 "
-44
+43
 .
 0
 .
-0
+2
 "
 [
 dependencies
