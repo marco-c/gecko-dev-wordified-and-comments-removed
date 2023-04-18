@@ -194,7 +194,6 @@ element
 Exposed
 =
 Window
-ProbablyShortLivingWrapper
 ]
 interface
 HTMLSpanElement

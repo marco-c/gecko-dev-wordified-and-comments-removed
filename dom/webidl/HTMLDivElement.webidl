@@ -160,7 +160,6 @@ document
 Exposed
 =
 Window
-ProbablyShortLivingWrapper
 ]
 interface
 HTMLDivElement
