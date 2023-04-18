@@ -212,10 +212,16 @@ resolve
 arguments
 ;
                 
-Cu
+const
+{
+ClientID
+}
+=
+ChromeUtils
 .
 import
 (
+                  
 "
 resource
 :
@@ -229,6 +235,7 @@ ClientID
 .
 jsm
 "
+                
 )
 ;
                 

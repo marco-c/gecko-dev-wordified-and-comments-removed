@@ -1208,10 +1208,16 @@ resolve
 arguments
 ;
             
-Cu
+const
+{
+TelemetryEnvironment
+}
+=
+ChromeUtils
 .
 import
 (
+              
 "
 resource
 :
@@ -1225,6 +1231,7 @@ TelemetryEnvironment
 .
 jsm
 "
+            
 )
 ;
             
@@ -1457,11 +1464,21 @@ marionette
 execute_script
 (
                 
-'
-Cu
+"
+"
+"
+\
+                
+const
+{
+ClientID
+}
+=
+ChromeUtils
 .
 import
 (
+                  
 "
 resource
 :
@@ -1475,11 +1492,10 @@ ClientID
 .
 jsm
 "
+                
 )
 ;
-'
                 
-"
 return
 ClientID
 .
@@ -1487,6 +1503,9 @@ getCachedClientID
 (
 )
 ;
+                
+"
+"
 "
             
 )
@@ -1539,11 +1558,21 @@ marionette
 execute_script
 (
                 
-'
-Cu
+"
+"
+"
+\
+                
+const
+{
+TelemetryController
+}
+=
+ChromeUtils
 .
 import
 (
+                  
 "
 resource
 :
@@ -1557,11 +1586,10 @@ TelemetryController
 .
 jsm
 "
+                
 )
 ;
-'
                 
-"
 return
 TelemetryController
 .
@@ -1570,6 +1598,9 @@ getCurrentPingData
 true
 )
 ;
+                
+"
+"
 "
             
 )
