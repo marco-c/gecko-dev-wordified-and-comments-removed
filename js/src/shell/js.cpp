@@ -341,14 +341,14 @@ XP_DARWIN
 #
 include
 <
-spawn
+crt_externs
 .
 h
 >
 #
 include
 <
-crt_externs
+spawn
 .
 h
 >
