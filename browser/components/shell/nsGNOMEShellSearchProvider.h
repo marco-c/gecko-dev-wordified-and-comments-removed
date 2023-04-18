@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
