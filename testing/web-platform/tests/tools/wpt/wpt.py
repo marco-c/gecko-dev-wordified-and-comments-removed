@@ -910,6 +910,27 @@ add_subparsers
 (
 )
     
+venv_path
+=
+os
+.
+environ
+[
+"
+VIRTUAL_ENV
+"
+]
+    
+venv
+=
+virtualenv
+.
+Virtualenv
+(
+venv_path
+True
+)
+    
 for
 command
 in
@@ -923,20 +944,26 @@ commands
 command
 ]
         
-if
+for
+path
+in
 props
+.
+get
+(
+"
+requirements
+"
 [
-"
-virtualenv
-"
 ]
+)
 :
             
-setup_virtualenv
+venv
+.
+install_requirements
 (
-None
-False
-props
+path
 )
         
 subparser
