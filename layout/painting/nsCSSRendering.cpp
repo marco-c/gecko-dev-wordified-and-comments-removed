@@ -10747,12 +10747,13 @@ haveRoundedCorners
 nsIFrame
 :
 :
-InsetBorderRadii
+AdjustBorderRadii
 (
 aClipState
 -
 >
 mRadii
+-
 border
 )
 ;
