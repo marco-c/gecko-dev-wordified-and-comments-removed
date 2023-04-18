@@ -3972,6 +3972,14 @@ ErrorResult
 aRv
 )
 ;
+nsresult
+HasStorageAccessSync
+(
+bool
+&
+aHasStorageAccess
+)
+;
 already_AddRefed
 <
 Promise
