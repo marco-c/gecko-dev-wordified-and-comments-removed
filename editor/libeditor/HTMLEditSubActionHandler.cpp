@@ -3043,6 +3043,13 @@ if
 mPlaceholderBatch
 &
 &
+TopLevelEditSubActionDataRef
+(
+)
+.
+mNeedsToCleanUpEmptyInlineElements
+&
+&
 SelectionRef
 (
 )

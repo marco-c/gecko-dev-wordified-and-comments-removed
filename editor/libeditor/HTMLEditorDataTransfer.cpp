@@ -3642,6 +3642,16 @@ inspectErr
 )
 ;
 }
+mHTMLEditor
+.
+TopLevelEditSubActionDataRef
+(
+)
+.
+mNeedsToCleanUpEmptyInlineElements
+=
+false
+;
 if
 (
 !

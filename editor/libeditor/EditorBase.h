@@ -2143,6 +2143,9 @@ mRestoreContentEditableCount
 bool
 mDidNormalizeWhitespaces
 ;
+bool
+mNeedsToCleanUpEmptyInlineElements
+;
 void
 DidCreateElement
 (
@@ -2322,6 +2325,10 @@ false
 mDidNormalizeWhitespaces
 =
 false
+;
+mNeedsToCleanUpEmptyInlineElements
+=
+true
 ;
 }
 nsresult
