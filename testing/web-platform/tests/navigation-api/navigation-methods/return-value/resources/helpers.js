@@ -24,6 +24,16 @@ w
 Object
 .
 prototype
+"
+result
+object
+must
+be
+from
+the
+right
+realm
+"
 )
 ;
 assert_array_equals
