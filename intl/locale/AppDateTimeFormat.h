@@ -218,7 +218,7 @@ aStringOut
 static
 nsCString
 *
-mLocale
+sLocale
 ;
 static
 nsTHashMap
@@ -228,7 +228,7 @@ DateTimeFormat
 *
 >
 *
-mFormatCache
+sFormatCache
 ;
 }
 ;

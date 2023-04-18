@@ -131,7 +131,7 @@ prExplodedTime
 AppDateTimeFormat
 :
 :
-mLocale
+sLocale
 =
 new
 nsCString
@@ -1037,7 +1037,7 @@ prExplodedTime
 AppDateTimeFormat
 :
 :
-mLocale
+sLocale
 =
 new
 nsCString
@@ -1354,7 +1354,7 @@ prExplodedTime
 AppDateTimeFormat
 :
 :
-mLocale
+sLocale
 =
 new
 nsCString
@@ -2327,7 +2327,7 @@ prExplodedTime
 AppDateTimeFormat
 :
 :
-mLocale
+sLocale
 =
 new
 nsCString
