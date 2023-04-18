@@ -10,7 +10,7 @@ js
 )
 ;
 function
-getWasmScriptWithoutAllowUnobservedAsmJS
+getWasmScriptWithoutAllowUnobservedWasm
 (
 wast
 )
@@ -37,7 +37,7 @@ Debugger
 ;
 dbg
 .
-allowUnobservedAsmJS
+allowUnobservedWasm
 =
 true
 ;
@@ -117,7 +117,7 @@ wasmScript
 var
 wasmScript1
 =
-getWasmScriptWithoutAllowUnobservedAsmJS
+getWasmScriptWithoutAllowUnobservedWasm
 (
 '
 (
@@ -197,7 +197,7 @@ true
 var
 wasmScript2
 =
-getWasmScriptWithoutAllowUnobservedAsmJS
+getWasmScriptWithoutAllowUnobservedWasm
 (
 '
 (

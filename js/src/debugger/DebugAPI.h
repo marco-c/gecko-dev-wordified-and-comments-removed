@@ -673,6 +673,15 @@ global
 ;
 static
 bool
+debuggerObservesWasm
+(
+GlobalObject
+*
+global
+)
+;
+static
+bool
 isObservedByDebuggerTrackingAllocations
 (
 const

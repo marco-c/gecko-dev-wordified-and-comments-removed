@@ -787,7 +787,7 @@ realm
 )
 -
 >
-debuggerObservesAsmJS
+debuggerObservesWasm
 (
 )
 ;

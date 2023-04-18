@@ -101,6 +101,9 @@ true
 observeAsmJS
 :
 true
+observeWasm
+:
+true
 pauseWorkersUntilAttach
 :
 true
