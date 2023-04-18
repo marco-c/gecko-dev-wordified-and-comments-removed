@@ -707,6 +707,14 @@ aHighestPriorityRecord
 )
 override
 ;
+void
+GetHashKeyOfConnectionEntry
+(
+nsACString
+&
+aResult
+)
+;
 private
 :
 friend
@@ -1782,6 +1790,10 @@ mCallbacks
 void
 OnPendingQueueInserted
 (
+const
+nsACString
+&
+aConnectionHashKey
 )
 ;
 private
@@ -1990,6 +2002,9 @@ nsCOMPtr
 nsIEarlyHintObserver
 >
 mEarlyHintObserver
+;
+nsCString
+mHashKeyOfConnectionEntry
 ;
 }
 ;

@@ -1192,6 +1192,12 @@ Transaction
 >
 OnPendingQueueInserted
 (
+mConnInfo
+-
+>
+HashKey
+(
+)
 )
 ;
 }

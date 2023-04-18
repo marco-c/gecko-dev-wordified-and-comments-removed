@@ -220,6 +220,10 @@ RemoveTransFromConnEntry
 nsHttpTransaction
 *
 aTrans
+const
+nsACString
+&
+aHashKey
 )
 ;
 [
@@ -1414,6 +1418,14 @@ NotifyConnectionOfBrowsingContextIdChange
 (
 uint64_t
 previousId
+)
+;
+void
+CheckTransInPendingQueue
+(
+nsHttpTransaction
+*
+aTrans
 )
 ;
 }

@@ -755,6 +755,12 @@ nsAHttpTransaction
 override
 ;
 void
+SanityCheck
+(
+)
+override
+;
+void
 TransactionHasDataToWrite
 (
 Http2Stream
