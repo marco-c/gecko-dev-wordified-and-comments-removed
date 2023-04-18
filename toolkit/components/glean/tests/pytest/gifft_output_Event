@@ -35,6 +35,13 @@ DataMutex
 h
 "
 #
+include
+"
+nsThreadUtils
+.
+h
+"
+#
 ifndef
 mozilla_glean_EventGifftMap_h
 #
