@@ -75,6 +75,17 @@ constraints
 ;
 }
 ;
+enum
+SelfCapturePreferenceEnum
+{
+"
+include
+"
+"
+exclude
+"
+}
+;
 dictionary
 DisplayMediaStreamConstraints
 {
@@ -95,6 +106,9 @@ MediaTrackConstraints
 audio
 =
 false
+;
+SelfCapturePreferenceEnum
+selfBrowserSurface
 ;
 }
 ;
@@ -194,9 +208,6 @@ monitor
 "
 "
 window
-"
-"
-application
 "
 "
 browser

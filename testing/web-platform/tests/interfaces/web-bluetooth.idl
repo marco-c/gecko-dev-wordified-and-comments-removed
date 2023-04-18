@@ -422,6 +422,14 @@ Promise
 <
 undefined
 >
+forget
+(
+)
+;
+Promise
+<
+undefined
+>
 watchAdvertisements
 (
 optional
