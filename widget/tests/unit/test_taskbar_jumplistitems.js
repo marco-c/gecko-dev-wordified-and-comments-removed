@@ -1765,7 +1765,6 @@ taskbar
 .
 createJumpListBuilder
 (
-false
 )
 ;
 Assert

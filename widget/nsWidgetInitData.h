@@ -177,10 +177,6 @@ mResizable
 (
 false
 )
-mIsPrivate
-(
-false
-)
 {
 }
 nsWindowType
@@ -235,9 +231,6 @@ mFissionWindow
 ;
 bool
 mResizable
-;
-bool
-mIsPrivate
 ;
 }
 ;
