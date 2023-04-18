@@ -560,6 +560,14 @@ Storage
 .
 .
 }
+|
+crate
+:
+:
+StorageClass
+:
+:
+PushConstant
 =
 >
 {

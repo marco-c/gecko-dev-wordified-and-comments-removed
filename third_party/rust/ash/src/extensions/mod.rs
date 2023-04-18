@@ -1,14 +1,3 @@
-#
-!
-[
-deny
-(
-clippy
-:
-:
-use_self
-)
-]
 pub
 mod
 experimental

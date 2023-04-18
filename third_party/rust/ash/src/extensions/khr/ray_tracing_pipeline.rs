@@ -60,7 +60,7 @@ vk
 :
 :
 Device
-ray_tracing_fn
+fp
 :
 vk
 :
@@ -88,7 +88,16 @@ Device
 Self
 {
 let
-ray_tracing_fn
+handle
+=
+device
+.
+handle
+(
+)
+;
+let
+fp
 =
 vk
 :
@@ -112,11 +121,7 @@ instance
 .
 get_device_proc_addr
 (
-device
-.
 handle
-(
-)
 name
 .
 as_ptr
@@ -130,13 +135,7 @@ as_ptr
 Self
 {
 handle
-:
-device
-.
-handle
-(
-)
-ray_tracing_fn
+fp
 }
 }
 pub
@@ -303,7 +302,7 @@ u32
 {
 self
 .
-ray_tracing_fn
+fp
 .
 cmd_trace_rays_khr
 (
@@ -447,7 +446,7 @@ len
 ;
 self
 .
-ray_tracing_fn
+fp
 .
 create_ray_tracing_pipelines_khr
 (
@@ -578,7 +577,7 @@ err_code
 =
 self
 .
-ray_tracing_fn
+fp
 .
 get_ray_tracing_shader_group_handles_khr
 (
@@ -710,7 +709,7 @@ data_size
 ;
 self
 .
-ray_tracing_fn
+fp
 .
 get_ray_tracing_capture_replay_shader_group_handles_khr
 (
@@ -834,7 +833,7 @@ DeviceAddress
 {
 self
 .
-ray_tracing_fn
+fp
 .
 cmd_trace_rays_indirect_khr
 (
@@ -933,7 +932,7 @@ DeviceSize
 {
 self
 .
-ray_tracing_fn
+fp
 .
 get_ray_tracing_shader_group_stack_size_khr
 (
@@ -1003,7 +1002,7 @@ u32
 {
 self
 .
-ray_tracing_fn
+fp
 .
 cmd_set_ray_tracing_pipeline_stack_size_khr
 (
@@ -1052,7 +1051,7 @@ KhrRayTracingPipelineFn
 &
 self
 .
-ray_tracing_fn
+fp
 }
 pub
 fn

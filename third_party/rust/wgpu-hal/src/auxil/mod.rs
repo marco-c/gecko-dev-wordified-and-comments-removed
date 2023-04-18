@@ -77,6 +77,17 @@ u32
 }
 }
 pub
+const
+MAX_I32_BINDING_SIZE
+:
+u32
+=
+1
+<
+<
+31
+;
+pub
 fn
 map_naga_stage
 (

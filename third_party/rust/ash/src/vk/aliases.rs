@@ -952,3 +952,9 @@ AccelerationStructureInstanceNV
 =
 AccelerationStructureInstanceKHR
 ;
+pub
+type
+AttachmentSampleCountInfoNV
+=
+AttachmentSampleCountInfoAMD
+;

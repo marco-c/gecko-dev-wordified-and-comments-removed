@@ -376,7 +376,7 @@ aligned
 "
 )
 ;
-Align
+Self
 {
 ptr
 elem_size

@@ -1900,6 +1900,12 @@ native
 :
 :
 Format
+format_aspects
+:
+crate
+:
+:
+FormatAspects
 target_base
 :
 (

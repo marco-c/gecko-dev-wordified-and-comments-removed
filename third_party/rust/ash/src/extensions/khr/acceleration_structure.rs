@@ -60,7 +60,7 @@ vk
 :
 :
 Device
-acceleration_structure_fn
+fp
 :
 vk
 :
@@ -88,7 +88,16 @@ Device
 Self
 {
 let
-acceleration_structure_fn
+handle
+=
+device
+.
+handle
+(
+)
+;
+let
+fp
 =
 vk
 :
@@ -112,11 +121,7 @@ instance
 .
 get_device_proc_addr
 (
-device
-.
 handle
-(
-)
 name
 .
 as_ptr
@@ -130,13 +135,7 @@ as_ptr
 Self
 {
 handle
-:
-device
-.
-handle
-(
-)
-acceleration_structure_fn
+fp
 }
 }
 pub
@@ -297,7 +296,7 @@ zeroed
 ;
 self
 .
-acceleration_structure_fn
+fp
 .
 create_acceleration_structure_khr
 (
@@ -385,7 +384,7 @@ AllocationCallbacks
 {
 self
 .
-acceleration_structure_fn
+fp
 .
 destroy_acceleration_structure_khr
 (
@@ -554,7 +553,7 @@ _
 ;
 self
 .
-acceleration_structure_fn
+fp
 .
 cmd_build_acceleration_structures_khr
 (
@@ -774,7 +773,7 @@ _
 ;
 self
 .
-acceleration_structure_fn
+fp
 .
 cmd_build_acceleration_structures_indirect_khr
 (
@@ -969,7 +968,7 @@ _
 ;
 self
 .
-acceleration_structure_fn
+fp
 .
 build_acceleration_structures_khr
 (
@@ -996,7 +995,7 @@ as_ptr
 )
 )
 .
-into
+result
 (
 )
 }
@@ -1069,7 +1068,7 @@ VkResult
 {
 self
 .
-acceleration_structure_fn
+fp
 .
 copy_acceleration_structure_khr
 (
@@ -1084,7 +1083,7 @@ const
 _
 )
 .
-into
+result
 (
 )
 }
@@ -1157,7 +1156,7 @@ VkResult
 {
 self
 .
-acceleration_structure_fn
+fp
 .
 copy_acceleration_structure_to_memory_khr
 (
@@ -1172,7 +1171,7 @@ const
 _
 )
 .
-into
+result
 (
 )
 }
@@ -1245,7 +1244,7 @@ VkResult
 {
 self
 .
-acceleration_structure_fn
+fp
 .
 copy_memory_to_acceleration_structure_khr
 (
@@ -1260,7 +1259,7 @@ const
 _
 )
 .
-into
+result
 (
 )
 }
@@ -1345,7 +1344,7 @@ VkResult
 {
 self
 .
-acceleration_structure_fn
+fp
 .
 write_acceleration_structures_properties_khr
 (
@@ -1388,7 +1387,7 @@ c_void
 stride
 )
 .
-into
+result
 (
 )
 }
@@ -1454,7 +1453,7 @@ CopyAccelerationStructureInfoKHR
 {
 self
 .
-acceleration_structure_fn
+fp
 .
 cmd_copy_acceleration_structure_khr
 (
@@ -1525,7 +1524,7 @@ CopyAccelerationStructureToMemoryInfoKHR
 {
 self
 .
-acceleration_structure_fn
+fp
 .
 cmd_copy_acceleration_structure_to_memory_khr
 (
@@ -1600,7 +1599,7 @@ CopyMemoryToAccelerationStructureInfoKHR
 {
 self
 .
-acceleration_structure_fn
+fp
 .
 cmd_copy_memory_to_acceleration_structure_khr
 (
@@ -1675,7 +1674,7 @@ DeviceAddress
 {
 self
 .
-acceleration_structure_fn
+fp
 .
 get_acceleration_structure_device_address_khr
 (
@@ -1768,7 +1767,7 @@ u32
 {
 self
 .
-acceleration_structure_fn
+fp
 .
 cmd_write_acceleration_structures_properties_khr
 (
@@ -1867,7 +1866,7 @@ default
 ;
 self
 .
-acceleration_structure_fn
+fp
 .
 get_device_acceleration_structure_compatibility_khr
 (
@@ -1989,7 +1988,7 @@ default
 ;
 self
 .
-acceleration_structure_fn
+fp
 .
 get_acceleration_structure_build_sizes_khr
 (
@@ -2058,7 +2057,7 @@ KhrAccelerationStructureFn
 &
 self
 .
-acceleration_structure_fn
+fp
 }
 pub
 fn

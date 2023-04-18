@@ -51,7 +51,7 @@ pub
 struct
 DeviceDiagnosticCheckpoints
 {
-device_diagnostic_checkpoints_fn
+fp
 :
 vk
 :
@@ -79,7 +79,7 @@ Device
 Self
 {
 let
-device_diagnostic_checkpoints_fn
+fp
 =
 vk
 :
@@ -120,7 +120,7 @@ as_ptr
 ;
 Self
 {
-device_diagnostic_checkpoints_fn
+fp
 }
 }
 #
@@ -183,7 +183,7 @@ c_void
 {
 self
 .
-device_diagnostic_checkpoints_fn
+fp
 .
 cmd_set_checkpoint_nv
 (
@@ -264,7 +264,7 @@ u32
 ;
 self
 .
-device_diagnostic_checkpoints_fn
+fp
 .
 get_queue_checkpoint_data_nv
 (
@@ -315,7 +315,7 @@ _
 ;
 self
 .
-device_diagnostic_checkpoints_fn
+fp
 .
 get_queue_checkpoint_data_nv
 (
@@ -372,6 +372,6 @@ NvDeviceDiagnosticCheckpointsFn
 &
 self
 .
-device_diagnostic_checkpoints_fn
+fp
 }
 }

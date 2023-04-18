@@ -60,7 +60,7 @@ vk
 :
 :
 Device
-deferred_host_operations_fn
+fp
 :
 vk
 :
@@ -88,7 +88,16 @@ Device
 Self
 {
 let
-deferred_host_operations_fn
+handle
+=
+device
+.
+handle
+(
+)
+;
+let
+fp
 =
 vk
 :
@@ -112,11 +121,7 @@ instance
 .
 get_device_proc_addr
 (
-device
-.
 handle
-(
-)
 name
 .
 as_ptr
@@ -130,13 +135,7 @@ as_ptr
 Self
 {
 handle
-:
-device
-.
-handle
-(
-)
-deferred_host_operations_fn
+fp
 }
 }
 #
@@ -218,7 +217,7 @@ zeroed
 ;
 self
 .
-deferred_host_operations_fn
+fp
 .
 create_deferred_operation_khr
 (
@@ -302,7 +301,7 @@ VkResult
 {
 self
 .
-deferred_host_operations_fn
+fp
 .
 deferred_operation_join_khr
 (
@@ -381,7 +380,7 @@ AllocationCallbacks
 {
 self
 .
-deferred_host_operations_fn
+fp
 .
 destroy_deferred_operation_khr
 (
@@ -455,7 +454,7 @@ u32
 {
 self
 .
-deferred_host_operations_fn
+fp
 .
 get_deferred_operation_max_concurrency_khr
 (
@@ -527,7 +526,7 @@ VkResult
 {
 self
 .
-deferred_host_operations_fn
+fp
 .
 get_deferred_operation_result_khr
 (
@@ -581,7 +580,7 @@ KhrDeferredHostOperationsFn
 &
 self
 .
-deferred_host_operations_fn
+fp
 }
 pub
 fn

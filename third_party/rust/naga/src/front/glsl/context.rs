@@ -4382,7 +4382,6 @@ self
 parser
 :
 &
-mut
 Parser
 expr
 :
@@ -4441,7 +4440,6 @@ self
 parser
 :
 &
-mut
 Parser
 expr
 :
@@ -4572,7 +4570,6 @@ self
 parser
 :
 &
-mut
 Parser
 expr
 :
@@ -4668,7 +4665,6 @@ self
 parser
 :
 &
-mut
 Parser
 left
 :
@@ -4892,7 +4888,6 @@ self
 parser
 :
 &
-mut
 Parser
 expr
 :

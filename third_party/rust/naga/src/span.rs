@@ -329,6 +329,7 @@ String
 derive
 (
 Debug
+Clone
 )
 ]
 pub

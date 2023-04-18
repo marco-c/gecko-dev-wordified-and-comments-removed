@@ -203,7 +203,7 @@ as_ptr
 )
 }
 ;
-Instance
+Self
 {
 handle
 :
@@ -415,6 +415,7 @@ html
 "
 ]
 pub
+unsafe
 fn
 enumerate_physical_device_groups
 (
@@ -438,8 +439,6 @@ VkResult
 (
 )
 >
-{
-unsafe
 {
 let
 mut
@@ -474,10 +473,9 @@ as_mut_ptr
 )
 )
 .
-into
+result
 (
 )
-}
 }
 #
 [
@@ -788,7 +786,7 @@ format_info
 image_format_prop
 )
 .
-into
+result
 (
 )
 }
@@ -889,7 +887,7 @@ vk
 :
 :
 PhysicalDevice
-queue_family_props
+out
 :
 &
 mut
@@ -905,7 +903,7 @@ let
 mut
 queue_count
 =
-queue_family_props
+out
 .
 len
 (
@@ -923,7 +921,7 @@ physical_device
 &
 mut
 queue_count
-queue_family_props
+out
 .
 as_mut_ptr
 (

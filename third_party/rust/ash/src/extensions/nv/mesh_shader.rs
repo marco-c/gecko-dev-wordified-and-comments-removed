@@ -39,7 +39,7 @@ pub
 struct
 MeshShader
 {
-mesh_shader_fn
+fp
 :
 vk
 :
@@ -67,7 +67,7 @@ Device
 Self
 {
 let
-mesh_shader_fn
+fp
 =
 vk
 :
@@ -108,7 +108,7 @@ as_ptr
 ;
 Self
 {
-mesh_shader_fn
+fp
 }
 }
 #
@@ -172,7 +172,7 @@ u32
 {
 self
 .
-mesh_shader_fn
+fp
 .
 cmd_draw_mesh_tasks_nv
 (
@@ -255,7 +255,7 @@ u32
 {
 self
 .
-mesh_shader_fn
+fp
 .
 cmd_draw_mesh_tasks_indirect_nv
 (
@@ -352,7 +352,7 @@ u32
 {
 self
 .
-mesh_shader_fn
+fp
 .
 cmd_draw_mesh_tasks_indirect_count_nv
 (
@@ -406,6 +406,6 @@ NvMeshShaderFn
 &
 self
 .
-mesh_shader_fn
+fp
 }
 }

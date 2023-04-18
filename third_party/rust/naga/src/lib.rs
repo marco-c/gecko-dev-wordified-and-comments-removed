@@ -2214,6 +2214,8 @@ Atan2
 Asinh
 Acosh
 Atanh
+Radians
+Degrees
 Ceil
 Floor
 Round
@@ -2250,6 +2252,8 @@ CountOneBits
 ReverseBits
 ExtractBits
 InsertBits
+FindLsb
+FindMsb
 Pack4x8snorm
 Pack4x8unorm
 Pack2x16snorm
@@ -2412,6 +2416,7 @@ Clone
 Copy
 Debug
 PartialEq
+PartialOrd
 )
 ]
 #
@@ -2729,6 +2734,12 @@ sampler
 Handle
 <
 Expression
+>
+gather
+:
+Option
+<
+SwizzleComponent
 >
 coordinate
 :

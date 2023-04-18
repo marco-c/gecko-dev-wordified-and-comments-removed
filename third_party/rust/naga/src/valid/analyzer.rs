@@ -2678,6 +2678,9 @@ ImageSample
 {
 image
 sampler
+gather
+:
+_
 coordinate
 array_index
 offset

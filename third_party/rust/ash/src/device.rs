@@ -205,7 +205,7 @@ as_ptr
 )
 }
 ;
-Device
+Self
 {
 handle
 :
@@ -1077,7 +1077,7 @@ wait_info
 timeout
 )
 .
-into
+result
 (
 )
 }
@@ -1156,7 +1156,7 @@ handle
 signal_info
 )
 .
-into
+result
 (
 )
 }
@@ -1495,7 +1495,7 @@ as_ptr
 )
 )
 .
-into
+result
 (
 )
 }
@@ -1587,7 +1587,7 @@ as_ptr
 )
 )
 .
-into
+result
 (
 )
 }
@@ -3429,7 +3429,7 @@ handle
 event
 )
 .
-into
+result
 (
 )
 }
@@ -3507,7 +3507,7 @@ handle
 event
 )
 .
-into
+result
 (
 )
 }
@@ -5249,7 +5249,7 @@ as_ptr
 )
 )
 .
-into
+result
 (
 )
 }
@@ -6603,7 +6603,7 @@ handle
 )
 )
 .
-into
+result
 (
 )
 }
@@ -6799,7 +6799,7 @@ pool
 flags
 )
 .
-into
+result
 (
 )
 }
@@ -6884,7 +6884,7 @@ command_pool
 flags
 )
 .
-into
+result
 (
 )
 }
@@ -6964,7 +6964,7 @@ command_buffer
 flags
 )
 .
-into
+result
 (
 )
 }
@@ -7056,7 +7056,7 @@ as_ptr
 )
 )
 .
-into
+result
 (
 )
 }
@@ -9614,7 +9614,7 @@ _
 flags
 )
 .
-into
+result
 (
 )
 }
@@ -10942,7 +10942,7 @@ as_ptr
 )
 )
 .
-into
+result
 (
 )
 }
@@ -11221,7 +11221,7 @@ as_ptr
 )
 )
 .
-into
+result
 (
 )
 }
@@ -11313,7 +11313,7 @@ as_ptr
 )
 )
 .
-into
+result
 (
 )
 }
@@ -11853,7 +11853,7 @@ command_buffer
 begin_info
 )
 .
-into
+result
 (
 )
 }
@@ -11926,7 +11926,7 @@ end_command_buffer
 command_buffer
 )
 .
-into
+result
 (
 )
 }
@@ -12028,7 +12028,7 @@ u32
 timeout
 )
 .
-into
+result
 (
 )
 }
@@ -12215,7 +12215,7 @@ queue_wait_idle
 queue
 )
 .
-into
+result
 (
 )
 }
@@ -12316,7 +12316,7 @@ as_ptr
 fence
 )
 .
-into
+result
 (
 )
 }
@@ -12417,7 +12417,7 @@ as_ptr
 fence
 )
 .
-into
+result
 (
 )
 }
@@ -13877,7 +13877,7 @@ device_memory
 offset
 )
 .
-into
+result
 (
 )
 }
@@ -13969,7 +13969,7 @@ device_memory
 offset
 )
 .
-into
+result
 (
 )
 }

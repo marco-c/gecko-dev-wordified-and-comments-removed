@@ -60,7 +60,7 @@ vk
 :
 :
 Device
-ray_tracing_fn
+fp
 :
 vk
 :
@@ -88,7 +88,16 @@ Device
 Self
 {
 let
-ray_tracing_fn
+handle
+=
+device
+.
+handle
+(
+)
+;
+let
+fp
 =
 vk
 :
@@ -112,11 +121,7 @@ instance
 .
 get_device_proc_addr
 (
-device
-.
 handle
-(
-)
 name
 .
 as_ptr
@@ -130,13 +135,7 @@ as_ptr
 Self
 {
 handle
-:
-device
-.
-handle
-(
-)
-ray_tracing_fn
+fp
 }
 }
 pub
@@ -297,7 +296,7 @@ zeroed
 ;
 self
 .
-ray_tracing_fn
+fp
 .
 create_acceleration_structure_nv
 (
@@ -385,7 +384,7 @@ AllocationCallbacks
 {
 self
 .
-ray_tracing_fn
+fp
 .
 destroy_acceleration_structure_nv
 (
@@ -474,7 +473,7 @@ zeroed
 ;
 self
 .
-ray_tracing_fn
+fp
 .
 get_acceleration_structure_memory_requirements_nv
 (
@@ -554,7 +553,7 @@ VkResult
 {
 self
 .
-ray_tracing_fn
+fp
 .
 bind_acceleration_structure_memory_nv
 (
@@ -575,7 +574,7 @@ as_ptr
 )
 )
 .
-into
+result
 (
 )
 }
@@ -680,7 +679,7 @@ DeviceSize
 {
 self
 .
-ray_tracing_fn
+fp
 .
 cmd_build_acceleration_structure_nv
 (
@@ -783,7 +782,7 @@ CopyAccelerationStructureModeNV
 {
 self
 .
-ray_tracing_fn
+fp
 .
 cmd_copy_acceleration_structure_nv
 (
@@ -924,7 +923,7 @@ u32
 {
 self
 .
-ray_tracing_fn
+fp
 .
 cmd_trace_rays_nv
 (
@@ -1053,7 +1052,7 @@ len
 ;
 self
 .
-ray_tracing_fn
+fp
 .
 create_ray_tracing_pipelines_nv
 (
@@ -1165,7 +1164,7 @@ VkResult
 {
 self
 .
-ray_tracing_fn
+fp
 .
 get_ray_tracing_shader_group_handles_nv
 (
@@ -1197,7 +1196,7 @@ ffi
 c_void
 )
 .
-into
+result
 (
 )
 }
@@ -1281,7 +1280,7 @@ handle
 ;
 self
 .
-ray_tracing_fn
+fp
 .
 get_acceleration_structure_handle_nv
 (
@@ -1400,7 +1399,7 @@ u32
 {
 self
 .
-ray_tracing_fn
+fp
 .
 cmd_write_acceleration_structures_properties_nv
 (
@@ -1488,7 +1487,7 @@ VkResult
 {
 self
 .
-ray_tracing_fn
+fp
 .
 compile_deferred_nv
 (
@@ -1499,7 +1498,7 @@ pipeline
 shader
 )
 .
-into
+result
 (
 )
 }
@@ -1543,7 +1542,7 @@ NvRayTracingFn
 &
 self
 .
-ray_tracing_fn
+fp
 }
 pub
 fn

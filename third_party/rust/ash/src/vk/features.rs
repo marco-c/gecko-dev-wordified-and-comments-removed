@@ -147,7 +147,7 @@ CStr
 const
 c_void
 {
-StaticFn
+Self
 {
 get_instance_proc_addr
 :
@@ -508,7 +508,7 @@ CStr
 const
 c_void
 {
-EntryFnV1_0
+Self
 {
 create_instance
 :
@@ -1627,7 +1627,7 @@ CStr
 const
 c_void
 {
-InstanceFnV1_0
+Self
 {
 destroy_instance
 :
@@ -8724,7 +8724,7 @@ CStr
 const
 c_void
 {
-DeviceFnV1_0
+Self
 {
 destroy_device
 :
@@ -30347,7 +30347,7 @@ CStr
 const
 c_void
 {
-EntryFnV1_1
+Self
 {
 enumerate_instance_version
 :
@@ -30690,7 +30690,7 @@ CStr
 const
 c_void
 {
-InstanceFnV1_1
+Self
 {
 enumerate_physical_device_groups
 :
@@ -32848,7 +32848,7 @@ CStr
 const
 c_void
 {
-DeviceFnV1_1
+Self
 {
 bind_buffer_memory2
 :
@@ -35754,7 +35754,7 @@ CStr
 const
 c_void
 {
-EntryFnV1_2
+Self
 {
 }
 }
@@ -35825,7 +35825,7 @@ CStr
 const
 c_void
 {
-InstanceFnV1_2
+Self
 {
 }
 }
@@ -36026,7 +36026,7 @@ CStr
 const
 c_void
 {
-DeviceFnV1_2
+Self
 {
 cmd_draw_indirect_count
 :
