@@ -9451,6 +9451,9 @@ record_in_processes
 "
 main
 "
+"
+content
+"
 ]
 expiry_version
 :
@@ -10011,6 +10014,11 @@ firefox
 thunderbird
 "
 ]
+release_channel_collection
+:
+opt
+-
+out
 #
 This
 is
