@@ -1350,6 +1350,9 @@ copy
 destWindow
 =
 window
+afterTab
+=
+true
 )
 {
 let
@@ -1384,6 +1387,15 @@ width
 2
 +
 10
+*
+(
+afterTab
+?
+1
+:
+-
+1
+)
 clientY
 :
 rect
