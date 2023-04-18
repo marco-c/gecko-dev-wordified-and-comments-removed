@@ -3691,7 +3691,12 @@ _replace_in_file
                     
 file
                     
+update
+[
+"
 pattern
+"
+]
                     
 replacement
                     
