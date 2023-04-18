@@ -410,9 +410,7 @@ var
 -
 lwt
 -
-accent
--
-color
+frame
 )
 ;
 }
@@ -535,9 +533,7 @@ var
 -
 lwt
 -
-accent
--
-color
+frame
 -
 inactive
 var
@@ -546,9 +542,7 @@ var
 -
 lwt
 -
-accent
--
-color
+frame
 )
 )
 ;
@@ -611,9 +605,7 @@ var
 -
 lwt
 -
-accent
--
-color
+frame
 )
 ;
 background
@@ -767,9 +759,7 @@ var
 -
 lwt
 -
-accent
--
-color
+frame
 -
 inactive
 var
@@ -778,9 +768,7 @@ var
 -
 lwt
 -
-accent
--
-color
+frame
 )
 )
 ;

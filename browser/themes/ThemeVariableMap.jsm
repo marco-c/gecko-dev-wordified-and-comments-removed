@@ -44,9 +44,7 @@ ThemeVariableMap
 -
 lwt
 -
-accent
--
-color
+frame
 -
 inactive
 "
@@ -54,7 +52,7 @@ inactive
 lwtProperty
 :
 "
-accentcolorInactive
+frame_inactive
 "
 }
 ]
