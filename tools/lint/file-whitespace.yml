@@ -1097,6 +1097,13 @@ py
 -
 testing
 /
+perfdocs
+/
+generated
+/
+-
+testing
+/
 talos
 /
 talos
@@ -1884,6 +1891,9 @@ properties
 -
 .
 rs
+-
+.
+rst
 -
 .
 xhtml
