@@ -1865,16 +1865,16 @@ var
 gBrowserLanguagesDialog
 =
 {
-telemetryId
+_telemetryId
 :
 null
 accepted
 :
 false
-_availableLocales
+_availableLocalesUI
 :
 null
-_selectedLocales
+_selectedLocalesUI
 :
 null
 selectedLocales
@@ -1929,7 +1929,7 @@ dialog
 "
 this
 .
-telemetryId
+_telemetryId
 extra
 )
 ;
@@ -2001,7 +2001,7 @@ arguments
 ;
 this
 .
-telemetryId
+_telemetryId
 =
 telemetryId
 ;
@@ -2118,7 +2118,7 @@ selectedLocales
 {
 this
 .
-_selectedLocales
+_selectedLocalesUI
 =
 new
 OrderedListBox
@@ -2194,7 +2194,7 @@ reorder
 ;
 this
 .
-_selectedLocales
+_selectedLocalesUI
 .
 setItems
 (
@@ -2215,7 +2215,7 @@ search
 {
 this
 .
-_availableLocales
+_availableLocalesUI
 =
 new
 SortedItemSelectList
@@ -2342,7 +2342,7 @@ return
 }
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 disableWithMessageId
 (
@@ -2518,7 +2518,7 @@ items
 =
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 items
 ;
@@ -2539,7 +2539,7 @@ availableItems
 ;
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 setItems
 (
@@ -2548,7 +2548,7 @@ items
 ;
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 enableWithMessageId
 (
@@ -2649,7 +2649,7 @@ search
 }
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 setItems
 (
@@ -2741,7 +2741,7 @@ available
 {
 this
 .
-_selectedLocales
+_selectedLocalesUI
 .
 addItem
 (
@@ -2753,7 +2753,7 @@ selectedCount
 =
 this
 .
-_selectedLocales
+_selectedLocalesUI
 .
 items
 .
@@ -2781,7 +2781,7 @@ availableCount
 {
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 items
 .
@@ -2791,13 +2791,13 @@ shift
 ;
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 setItems
 (
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 items
 )
@@ -2805,7 +2805,7 @@ items
 }
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 enableWithMessageId
 (
@@ -2829,7 +2829,7 @@ item
 {
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 disableWithMessageId
 (
@@ -2925,7 +2925,7 @@ true
 ;
 this
 .
-_selectedLocales
+_selectedLocalesUI
 .
 addItem
 (
@@ -2934,7 +2934,7 @@ item
 ;
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 enableWithMessageId
 (
@@ -3046,7 +3046,7 @@ false
 ;
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 enableWithMessageId
 (
@@ -3149,7 +3149,7 @@ getSelectedLocales
 return
 this
 .
-_selectedLocales
+_selectedLocalesUI
 .
 items
 .
@@ -3181,7 +3181,7 @@ remove
 ;
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 addItem
 (
@@ -3192,7 +3192,7 @@ if
 (
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 items
 [
@@ -3205,7 +3205,7 @@ item
 {
 this
 .
-_availableLocales
+_availableLocalesUI
 .
 addItem
 (
