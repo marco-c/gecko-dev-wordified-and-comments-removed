@@ -75,7 +75,7 @@ false
 ;
 Services
 .
-cookies
+cookiemgr
 .
 sessionCookies
 ;
@@ -188,7 +188,7 @@ com
 ;
 Services
 .
-cookies
+cookiesvc
 .
 setCookieStringFromHttp
 (
@@ -296,7 +296,7 @@ equal
 (
 Services
 .
-cookies
+cookiemgr
 .
 countCookiesFromHost
 (
@@ -315,7 +315,7 @@ equal
 (
 Services
 .
-cookies
+cookiemgr
 .
 countCookiesFromHost
 (
@@ -334,7 +334,7 @@ equal
 (
 Services
 .
-cookies
+cookiemgr
 .
 countCookiesFromHost
 (
@@ -353,7 +353,7 @@ equal
 (
 Services
 .
-cookies
+cookiemgr
 .
 countCookiesFromHost
 (
@@ -372,7 +372,7 @@ equal
 (
 Services
 .
-cookies
+cookiemgr
 .
 countCookiesFromHost
 (
@@ -431,7 +431,7 @@ equal
 (
 Services
 .
-cookies
+cookiemgr
 .
 countCookiesFromHost
 (
@@ -481,7 +481,7 @@ com
 ;
 Services
 .
-cookies
+cookiemgr
 .
 remove
 (
@@ -531,7 +531,7 @@ com
 ;
 Services
 .
-cookies
+cookiemgr
 .
 remove
 (
@@ -640,7 +640,7 @@ equal
 (
 Services
 .
-cookies
+cookiemgr
 .
 countCookiesFromHost
 (

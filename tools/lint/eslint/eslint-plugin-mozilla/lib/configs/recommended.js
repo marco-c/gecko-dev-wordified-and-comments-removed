@@ -889,17 +889,6 @@ services
 error
 "
 "
-mozilla
-/
-valid
--
-services
-"
-:
-"
-error
-"
-"
 no
 -
 array

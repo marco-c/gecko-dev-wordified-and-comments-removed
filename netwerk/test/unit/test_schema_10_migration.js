@@ -66,7 +66,7 @@ do_get_profile
 ;
 Services
 .
-cookies
+cookiemgr
 .
 sessionCookies
 ;
@@ -531,7 +531,7 @@ equal
 (
 Services
 .
-cookies
+cookiemgr
 .
 countCookiesFromHost
 (
@@ -550,7 +550,7 @@ equal
 (
 Services
 .
-cookies
+cookiemgr
 .
 countCookiesFromHost
 (
@@ -569,7 +569,7 @@ equal
 (
 Services
 .
-cookies
+cookiemgr
 .
 countCookiesFromHost
 (
@@ -587,7 +587,7 @@ cookies
 =
 Services
 .
-cookies
+cookiemgr
 .
 getCookiesFromHost
 (
