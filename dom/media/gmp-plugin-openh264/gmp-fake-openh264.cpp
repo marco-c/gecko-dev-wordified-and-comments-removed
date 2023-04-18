@@ -2145,6 +2145,7 @@ PUBLIC_FUNC
 GMPErr
 GMPInit
 (
+const
 GMPPlatformAPI
 *
 aPlatformAPI
