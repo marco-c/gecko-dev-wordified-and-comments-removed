@@ -227,6 +227,7 @@ linesWithResults
 5
 42
 55
+62
 ]
 ;
 await
