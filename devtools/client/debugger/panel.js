@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 MultiLocalizationHelper
@@ -729,6 +734,11 @@ _unhighlight
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 return
