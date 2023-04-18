@@ -307,7 +307,10 @@ arrayProto
 lookup
 (
 cx
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -
@@ -700,7 +703,10 @@ array
 lookup
 (
 cx
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -

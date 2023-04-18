@@ -5768,7 +5768,10 @@ defaultCtor
 jsid
 speciesId
 =
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -
@@ -6678,7 +6681,10 @@ RootedId
 iteratorId
 (
 cx
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -

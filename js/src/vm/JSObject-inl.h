@@ -1594,7 +1594,10 @@ LookupPropertyPure
 (
 cx
 obj
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 toPrimitive
 )
@@ -1634,7 +1637,10 @@ LookupPropertyPure
 (
 cx
 holder
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 toPrimitive
 )

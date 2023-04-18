@@ -366,7 +366,10 @@ sym
 )
 {
 return
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 sym
 )

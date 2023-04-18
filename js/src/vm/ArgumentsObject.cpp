@@ -3653,7 +3653,10 @@ RootedId
 iteratorId
 (
 cx
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -
@@ -4172,7 +4175,10 @@ false
 }
 id
 =
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -
@@ -5687,7 +5693,10 @@ false
 }
 id
 =
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -

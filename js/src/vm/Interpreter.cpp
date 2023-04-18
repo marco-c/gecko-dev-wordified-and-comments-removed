@@ -4751,7 +4751,10 @@ RootedId
 id
 (
 cx
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -

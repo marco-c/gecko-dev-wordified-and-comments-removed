@@ -483,7 +483,13 @@ IsSymbol
 {
 aId
 =
-SYMBOL_TO_JSID
+JS
+:
+:
+PropertyKey
+:
+:
+Symbol
 (
 GetSymbol
 (
