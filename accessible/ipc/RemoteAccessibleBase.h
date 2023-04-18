@@ -1241,6 +1241,9 @@ UINTPTR_MAX
 friend
 Derived
 ;
+friend
+DocAccessibleParent
+;
 nsTArray
 <
 Derived

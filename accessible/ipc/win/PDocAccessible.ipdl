@@ -425,6 +425,15 @@ bool
 aFinal
 )
 ;
+async
+AccessiblesWillMove
+(
+uint64_t
+[
+]
+aIDs
+)
+;
 child
 :
 async
