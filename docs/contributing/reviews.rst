@@ -274,6 +274,15 @@ review
 it
 .
 For
+simple
+documentation
+changes
+reviews
+are
+not
+required
+.
+For
 more
 information
 about

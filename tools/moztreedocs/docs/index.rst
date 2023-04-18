@@ -149,6 +149,15 @@ docs
 -
 reviewers
 .
+For
+simple
+documentation
+changes
+reviews
+are
+not
+required
+.
 .
 .
 toctree
