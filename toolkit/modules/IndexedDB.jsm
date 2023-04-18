@@ -12,6 +12,17 @@ IndexedDB
 "
 ]
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+indexedDB
+"
+]
+)
+;
 function
 wrapRequest
 (

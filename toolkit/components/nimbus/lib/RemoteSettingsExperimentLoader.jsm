@@ -71,6 +71,18 @@ lazy
 ;
 XPCOMUtils
 .
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+fetch
+"
+]
+)
+;
+XPCOMUtils
+.
 defineLazyModuleGetters
 (
 lazy
@@ -394,6 +406,8 @@ NimbusExperiment
 )
 {
 return
+lazy
+.
 fetch
 (
 "
@@ -1867,6 +1881,8 @@ const
 schema
 =
 await
+lazy
+.
 fetch
 (
 uri

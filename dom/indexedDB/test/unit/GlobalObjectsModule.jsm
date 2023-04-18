@@ -1,3 +1,14 @@
+Cu
+.
+importGlobalProperties
+(
+[
+"
+indexedDB
+"
+]
+)
+;
 var
 EXPORTED_SYMBOLS
 =

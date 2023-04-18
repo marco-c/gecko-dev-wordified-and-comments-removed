@@ -26,15 +26,6 @@ false
 WebAssembly
 :
 false
-fetch
-:
-false
-crypto
-:
-false
-indexedDB
-:
-false
 }
 }
 ;

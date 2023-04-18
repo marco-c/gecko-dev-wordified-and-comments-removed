@@ -191,6 +191,18 @@ nsINetworkLinkService
 ;
 XPCOMUtils
 .
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+fetch
+"
+]
+)
+;
+XPCOMUtils
+.
 defineLazyGetter
 (
 lazy
@@ -1273,6 +1285,8 @@ collection
 try
 {
 await
+lazy
+.
 fetch
 (
 resource
@@ -1357,6 +1371,8 @@ let
 res
 =
 await
+lazy
+.
 fetch
 (
 "

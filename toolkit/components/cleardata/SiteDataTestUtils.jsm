@@ -114,6 +114,18 @@ nsIServiceWorkerManager
 "
 )
 ;
+XPCOMUtils
+.
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+indexedDB
+"
+]
+)
+;
 var
 SiteDataTestUtils
 =
@@ -219,6 +231,8 @@ origin
 let
 request
 =
+lazy
+.
 indexedDB
 .
 openForPrincipal
@@ -946,6 +960,8 @@ true
 let
 request
 =
+lazy
+.
 indexedDB
 .
 openForPrincipal

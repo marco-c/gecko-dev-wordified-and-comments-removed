@@ -78,6 +78,18 @@ lazy
 ;
 XPCOMUtils
 .
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+URL
+"
+]
+)
+;
+XPCOMUtils
+.
 defineLazyModuleGetters
 (
 lazy
@@ -474,6 +486,8 @@ isBlob
 &
 &
 !
+lazy
+.
 URL
 .
 isValidURL

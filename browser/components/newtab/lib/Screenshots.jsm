@@ -42,6 +42,18 @@ lazy
 {
 }
 ;
+XPCOMUtils
+.
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+fetch
+"
+]
+)
+;
 ChromeUtils
 .
 defineModuleGetter
@@ -224,6 +236,8 @@ const
 filePathResponse
 =
 await
+lazy
+.
 fetch
 (
 file

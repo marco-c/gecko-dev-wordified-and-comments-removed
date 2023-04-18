@@ -92,6 +92,18 @@ lazy
 ;
 XPCOMUtils
 .
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+fetch
+"
+]
+)
+;
+XPCOMUtils
+.
 defineLazyModuleGetters
 (
 lazy
@@ -4851,6 +4863,8 @@ map
 url
 =
 >
+lazy
+.
 fetch
 (
 url

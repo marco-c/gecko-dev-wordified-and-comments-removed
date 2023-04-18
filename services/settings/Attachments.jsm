@@ -99,6 +99,18 @@ jsm
 "
 )
 ;
+XPCOMUtils
+.
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+fetch
+"
+]
+)
+;
 class
 DownloadError
 extends
@@ -1748,6 +1760,8 @@ try
 {
 return
 await
+lazy
+.
 fetch
 (
 resourceUrl

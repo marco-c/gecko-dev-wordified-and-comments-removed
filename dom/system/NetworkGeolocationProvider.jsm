@@ -111,6 +111,18 @@ jsm
 }
 )
 ;
+XPCOMUtils
+.
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+fetch
+"
+]
+)
+;
 const
 POSITION_UNAVAILABLE
 =
@@ -2152,6 +2164,8 @@ let
 req
 =
 await
+lazy
+.
 fetch
 (
 url

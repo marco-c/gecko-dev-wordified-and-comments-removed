@@ -12,6 +12,17 @@ webrequest_test
 "
 ]
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+fetch
+"
+]
+)
+;
 var
 webrequest_test
 =

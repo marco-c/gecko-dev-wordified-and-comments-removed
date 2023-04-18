@@ -150,6 +150,18 @@ jsm
 "
 )
 ;
+XPCOMUtils
+.
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+URLSearchParams
+"
+]
+)
+;
 var
 EXPORTED_SYMBOLS
 =
@@ -216,6 +228,8 @@ let
 aParams
 =
 new
+lazy
+.
 URLSearchParams
 (
 a
@@ -261,6 +275,8 @@ let
 bParams
 =
 new
+lazy
+.
 URLSearchParams
 (
 b
@@ -3065,6 +3081,8 @@ let
 params
 =
 new
+lazy
+.
 URLSearchParams
 (
 entry
