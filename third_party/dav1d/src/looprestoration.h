@@ -138,11 +138,13 @@ const
 pixel
 *
 lpf
+ptrdiff_t
+lpf_stride
+\
 int
 w
 int
 h
-\
 const
 LooprestorationParams
 *

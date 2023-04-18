@@ -6934,7 +6934,6 @@ type
 _lag0
 )
 :
-AARCH64_VALID_JUMP_TARGET
 .
 ifc
 \
@@ -7222,7 +7221,6 @@ type
 _lag1
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v27
@@ -7484,7 +7482,6 @@ type
 _lag2
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v30
@@ -7635,7 +7632,6 @@ type
 _lag3
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v29
@@ -8313,7 +8309,6 @@ type
 _lag0
 )
 :
-AARCH64_VALID_JUMP_TARGET
 dup
 v28
 .
@@ -8526,7 +8521,6 @@ type
 _lag1
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v27
@@ -8708,7 +8702,6 @@ type
 _lag2
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v30
@@ -8818,7 +8811,6 @@ type
 _lag3
 )
 :
-AARCH64_VALID_JUMP_TARGET
 ldr
 q29
 [
@@ -10120,7 +10112,6 @@ ox
 oy
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 ld1
@@ -11740,7 +11731,6 @@ ox
 oy
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 ld1
@@ -13008,7 +12998,6 @@ ox
 oy
 )
 :
-AARCH64_VALID_JUMP_TARGET
 1
 :
 ld1
