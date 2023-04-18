@@ -17211,7 +17211,7 @@ false
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 Preferences
 :
 :

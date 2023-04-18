@@ -1953,6 +1953,11 @@ SaveMethod
 aSaveMethod
 )
 ;
+nsresult
+ResetUserPrefs
+(
+)
+;
 public
 :
 enum
