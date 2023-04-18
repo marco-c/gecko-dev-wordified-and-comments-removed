@@ -138,6 +138,13 @@ browsertime_failure
         
 self
 .
+browsertime_user_args
+=
+[
+]
+        
+self
+.
 process_handler
 =
 process_handler
@@ -319,6 +326,10 @@ browsertime_geckodriver
             
 "
 browsertime_chromedriver
+"
+            
+"
+browsertime_user_args
 "
         
 )
@@ -2453,6 +2464,43 @@ str
 (
 value
 )
+]
+)
+        
+for
+user_arg
+in
+self
+.
+browsertime_user_args
+:
+            
+arg
+val
+=
+user_arg
+.
+split
+(
+"
+=
+"
+)
+            
+priority1_options
+.
+extend
+(
+[
+f
+"
+-
+-
+{
+arg
+}
+"
+val
 ]
 )
         
