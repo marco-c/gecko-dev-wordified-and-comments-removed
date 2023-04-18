@@ -2428,6 +2428,24 @@ enable_mojojs
 else
 None
         
+inject_script
+=
+kwargs
+[
+"
+inject_script
+"
+]
+if
+kwargs
+[
+"
+inject_script
+"
+]
+else
+None
+        
 recording
 .
 set
@@ -2488,6 +2506,8 @@ enable_webtransport_h3
 ]
                                  
 mojojs_path
+                                 
+inject_script
 )
 as
 test_environment

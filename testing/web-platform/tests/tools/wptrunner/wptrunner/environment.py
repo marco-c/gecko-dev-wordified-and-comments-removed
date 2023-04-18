@@ -472,6 +472,9 @@ False
 mojojs_path
 =
 None
+inject_script
+=
+None
 )
 :
         
@@ -632,6 +635,12 @@ self
 mojojs_path
 =
 mojojs_path
+        
+self
+.
+inject_script
+=
+inject_script
     
 def
 __enter__
@@ -1300,6 +1309,11 @@ serve
 .
 RoutesBuilder
 (
+inject_script
+=
+self
+.
+inject_script
 )
         
 for
