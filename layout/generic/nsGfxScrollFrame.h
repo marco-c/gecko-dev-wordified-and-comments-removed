@@ -1665,7 +1665,7 @@ MarkScrollbarsDirtyForReflow
 const
 ;
 void
-InvalidateVerticalScrollbar
+InvalidateScrollbars
 (
 )
 const
@@ -4483,7 +4483,7 @@ MarkScrollbarsDirtyForReflow
 ;
 }
 void
-InvalidateVerticalScrollbar
+InvalidateScrollbars
 (
 )
 const
@@ -4491,7 +4491,7 @@ final
 {
 mHelper
 .
-InvalidateVerticalScrollbar
+InvalidateScrollbars
 (
 )
 ;
@@ -6897,7 +6897,7 @@ MarkScrollbarsDirtyForReflow
 ;
 }
 void
-InvalidateVerticalScrollbar
+InvalidateScrollbars
 (
 )
 const
@@ -6905,7 +6905,7 @@ final
 {
 mHelper
 .
-InvalidateVerticalScrollbar
+InvalidateScrollbars
 (
 )
 ;

@@ -944,7 +944,7 @@ const
 ;
 virtual
 void
-InvalidateVerticalScrollbar
+InvalidateScrollbars
 (
 )
 const

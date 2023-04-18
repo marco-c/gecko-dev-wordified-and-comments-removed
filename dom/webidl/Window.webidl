@@ -5098,6 +5098,8 @@ values
 between
 0
 and
+scrollMaxX
+/
 scrollMaxY
 .
 [
@@ -5112,6 +5114,11 @@ unsigned
 long
 >
 marks
+optional
+boolean
+onHorizontalScrollbar
+=
+false
 )
 ;
 }
