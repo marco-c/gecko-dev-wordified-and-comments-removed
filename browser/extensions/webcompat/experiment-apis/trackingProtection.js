@@ -93,11 +93,11 @@ new
 MatchPatternSet
 (
 patterns
-)
 |
 |
 [
 ]
+)
 ;
 this
 .
