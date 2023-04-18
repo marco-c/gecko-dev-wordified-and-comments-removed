@@ -55,6 +55,9 @@ maxdepth
 logging
 stringguide
 refptr
+thread
+-
+safety
 huntingleaks
 collections
 xpidl
