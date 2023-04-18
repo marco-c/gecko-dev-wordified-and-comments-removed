@@ -533,6 +533,7 @@ gz
 repos
 =
 {
+        
 "
 mozilla
 -
@@ -544,6 +545,7 @@ mozilla
 -
 central
 "
+        
 "
 integration
 /
@@ -553,6 +555,21 @@ autoland
 "
 autoland
 "
+        
+"
+releases
+/
+mozilla
+-
+esr91
+"
+:
+"
+mozilla
+-
+esr91
+"
+    
 }
     
 cset_url
