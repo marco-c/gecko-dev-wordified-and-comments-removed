@@ -11521,7 +11521,6 @@ aarch64
 )
 )
 or
-(
 target
 .
 os
@@ -11530,16 +11529,6 @@ os
 "
 OSX
 "
-and
-target
-.
-cpu
-=
-=
-"
-aarch64
-"
-)
 )
 option
 (
