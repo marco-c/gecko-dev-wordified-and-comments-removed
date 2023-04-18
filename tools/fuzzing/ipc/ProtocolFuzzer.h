@@ -499,11 +499,7 @@ aProtocol
 OnMessageReceived
 (
 m
-*
-getter_Transfers
-(
 reply
-)
 )
 ;
 }

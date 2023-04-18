@@ -894,7 +894,6 @@ std
 :
 move
 (
-*
 message
 )
 )
