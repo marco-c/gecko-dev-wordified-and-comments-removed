@@ -215,6 +215,16 @@ BrowserElementParent
 jsm
 "
 "
+ClipboardReadTextPasteChild
+.
+jsm
+"
+"
+ClipboardReadTextPasteParent
+.
+jsm
+"
+"
 ContentMetaChild
 .
 jsm

@@ -32153,6 +32153,10 @@ mRefPoint
 rootView
 )
 ;
+mLastOverWindowMouseLocation
+=
+mMouseLocation
+;
 mMouseEventTargetGuid
 =
 InputAPZContext
@@ -32206,6 +32210,10 @@ GetEventCoordinatesRelativeTo
 aEvent
 relativeTo
 )
+;
+mLastOverWindowMouseLocation
+=
+mMouseLocation
 ;
 mMouseEventTargetGuid
 =
