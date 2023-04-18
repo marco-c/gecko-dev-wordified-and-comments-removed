@@ -102,7 +102,6 @@ processHeader
 dummyUri
 header
 secInfo
-0
 sss
 .
 SOURCE_ORGANIC_REQUEST
@@ -203,7 +202,6 @@ processHeader
 dummyUri
 header
 secInfo
-0
 sss
 .
 SOURCE_ORGANIC_REQUEST

@@ -17251,20 +17251,6 @@ error
 nssBadCert
 "
 ;
-uint32_t
-flags
-=
-UsePrivateBrowsing
-(
-)
-?
-nsISocketProvider
-:
-:
-NO_PERMANENT_STORAGE
-:
-0
-;
 bool
 isStsHost
 =
@@ -17336,7 +17322,6 @@ sss
 IsSecureURI
 (
 aURI
-flags
 attrsForHSTS
 nullptr
 nullptr
@@ -17382,7 +17367,6 @@ cc
 SendIsSecureURI
 (
 aURI
-flags
 attrsForHSTS
 &
 isStsHost

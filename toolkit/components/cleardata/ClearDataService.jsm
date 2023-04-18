@@ -4942,7 +4942,6 @@ sss
 resetState
 (
 uri
-0
 entry
 .
 originAttributes
@@ -5067,7 +5066,6 @@ sss
 resetState
 (
 uri
-0
 originAttributes
 )
 ;

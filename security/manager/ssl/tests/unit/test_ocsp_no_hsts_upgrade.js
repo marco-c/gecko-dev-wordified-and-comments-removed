@@ -270,7 +270,6 @@ age
 10000
 "
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -285,7 +284,6 @@ SSService
 isSecureURI
 (
 uri
-0
 )
 "
 Domain

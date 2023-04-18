@@ -1396,8 +1396,6 @@ const
 OriginAttributes
 &
 aOriginAttributes
-uint32_t
-aProviderFlags
 bool
 &
 aOverrideAllowed
@@ -1555,7 +1553,6 @@ sss
 IsSecureURI
 (
 uri
-aProviderFlags
 aOriginAttributes
 nullptr
 nullptr
@@ -3031,8 +3028,6 @@ nsIX509Cert
 >
 &
 aCert
-uint32_t
-aProviderFlags
 mozilla
 :
 :
@@ -3209,7 +3204,6 @@ OverrideAllowedForHost
 aPtrForLog
 aHostName
 aOriginAttributes
-aProviderFlags
 overrideAllowed
 )
 )
@@ -4108,7 +4102,6 @@ mHostName
 mPort
 mOriginAttributes
 cert
-mProviderFlags
 mTime
 error
 collectedErrors

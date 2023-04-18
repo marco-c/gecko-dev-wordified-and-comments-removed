@@ -169,7 +169,6 @@ age
 ;
 "
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -480,7 +479,6 @@ gSSService
 isSecureURI
 (
 uri
-0
 attrs
 )
 ;

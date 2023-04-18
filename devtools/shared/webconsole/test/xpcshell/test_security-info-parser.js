@@ -153,6 +153,8 @@ parseSecurityInfo
 MockSecurityInfo
 {
 }
+{
+}
 new
 Map
 (

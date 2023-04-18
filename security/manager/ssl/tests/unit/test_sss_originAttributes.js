@@ -106,7 +106,6 @@ processHeader
 uri
 header
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -122,7 +121,6 @@ sss
 isSecureURI
 (
 uri
-0
 originAttributes1
 )
 "
@@ -144,7 +142,6 @@ sss
 isSecureURI
 (
 uri
-0
 originAttributes2
 )
 shouldShare
@@ -181,7 +178,6 @@ sss
 resetState
 (
 uri
-0
 originAttributes2
 )
 ;
@@ -192,7 +188,6 @@ sss
 isSecureURI
 (
 uri
-0
 originAttributes1
 )
 "
@@ -214,7 +209,6 @@ sss
 resetState
 (
 uri
-0
 originAttributes1
 )
 ;
@@ -226,7 +220,6 @@ sss
 isSecureURI
 (
 uri
-0
 originAttributes1
 )
 "
@@ -274,7 +267,6 @@ processHeader
 uri
 header
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -291,7 +283,6 @@ sss
 isSecureURI
 (
 uri
-0
 originAttributes
 )
 (
@@ -303,7 +294,6 @@ sss
 resetState
 (
 uri
-0
 originAttributes
 )
 ]

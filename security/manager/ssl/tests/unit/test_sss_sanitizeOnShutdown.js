@@ -216,7 +216,6 @@ com
 )
 header
 secInfo
-0
 Ci
 .
 nsISiteSecurityService

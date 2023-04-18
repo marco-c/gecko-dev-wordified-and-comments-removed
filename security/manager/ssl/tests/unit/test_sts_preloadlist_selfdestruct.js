@@ -60,7 +60,6 @@ SSService
 isSecureURI
 (
 uri
-0
 )
 )
 ;
@@ -99,7 +98,6 @@ SSService
 isSecureURI
 (
 uri
-0
 )
 )
 ;
@@ -123,7 +121,6 @@ SSService
 isSecureURI
 (
 uri
-0
 )
 )
 ;

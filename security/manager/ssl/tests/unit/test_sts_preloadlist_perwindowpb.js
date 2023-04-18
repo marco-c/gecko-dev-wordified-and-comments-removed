@@ -213,7 +213,6 @@ example
 com
 "
 )
-0
 )
 )
 ;
@@ -238,7 +237,6 @@ https
 com
 "
 )
-0
 )
 )
 ;
@@ -283,7 +281,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -327,7 +324,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -357,7 +353,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -393,7 +388,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -424,7 +418,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -456,7 +449,6 @@ com
 .
 "
 )
-0
 )
 )
 ;
@@ -519,7 +511,6 @@ age
 0
 "
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -535,7 +526,6 @@ gSSService
 isSecureURI
 (
 uri
-0
 )
 )
 ;
@@ -547,7 +537,6 @@ gSSService
 isSecureURI
 (
 subDomainUri
-0
 )
 )
 ;
@@ -564,7 +553,6 @@ age
 1000
 "
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -579,7 +567,6 @@ gSSService
 isSecureURI
 (
 uri
-0
 )
 )
 ;
@@ -591,7 +578,6 @@ gSSService
 isSecureURI
 (
 subDomainUri
-0
 )
 )
 ;
@@ -637,7 +623,6 @@ age
 0
 "
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -669,7 +654,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -681,7 +665,6 @@ gSSService
 isSecureURI
 (
 uri
-0
 )
 )
 ;
@@ -721,7 +704,6 @@ age
 0
 "
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -753,7 +735,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -783,7 +764,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -813,7 +793,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -845,7 +824,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -862,7 +840,6 @@ age
 1000
 "
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -896,7 +873,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -926,7 +902,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -959,7 +934,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -991,7 +965,6 @@ gSSService
 isSecureURI
 (
 uri
-0
 )
 )
 ;
@@ -1008,7 +981,6 @@ age
 1
 "
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -1031,7 +1003,6 @@ gSSService
 isSecureURI
 (
 uri
-0
 )
 )
 ;
@@ -1044,13 +1015,13 @@ run_next_test
 ;
 }
 const
-IS_PRIVATE
+PRIVATE_ORIGIN_ATTRIBUTES
 =
-Ci
-.
-nsISocketProvider
-.
-NO_PERMANENT_STORAGE
+{
+privateBrowsingId
+:
+1
+}
 ;
 function
 test_private_browsing1
@@ -1122,7 +1093,7 @@ gSSService
 isSecureURI
 (
 uri
-IS_PRIVATE
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 )
 ;
@@ -1133,7 +1104,7 @@ gSSService
 isSecureURI
 (
 subDomainUri
-IS_PRIVATE
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 )
 ;
@@ -1150,12 +1121,12 @@ age
 0
 "
 secInfo
-IS_PRIVATE
 Ci
 .
 nsISiteSecurityService
 .
 SOURCE_ORGANIC_REQUEST
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 ;
 ok
@@ -1166,7 +1137,7 @@ gSSService
 isSecureURI
 (
 uri
-IS_PRIVATE
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 )
 ;
@@ -1178,7 +1149,7 @@ gSSService
 isSecureURI
 (
 subDomainUri
-IS_PRIVATE
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 )
 ;
@@ -1195,12 +1166,12 @@ age
 1000
 "
 secInfo
-IS_PRIVATE
 Ci
 .
 nsISiteSecurityService
 .
 SOURCE_ORGANIC_REQUEST
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 ;
 ok
@@ -1210,7 +1181,7 @@ gSSService
 isSecureURI
 (
 uri
-IS_PRIVATE
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 )
 ;
@@ -1222,7 +1193,7 @@ gSSService
 isSecureURI
 (
 subDomainUri
-IS_PRIVATE
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 )
 ;
@@ -1239,12 +1210,12 @@ age
 0
 "
 secInfo
-IS_PRIVATE
 Ci
 .
 nsISiteSecurityService
 .
 SOURCE_ORGANIC_REQUEST
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 ;
 ok
@@ -1255,7 +1226,7 @@ gSSService
 isSecureURI
 (
 uri
-IS_PRIVATE
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 )
 ;
@@ -1267,7 +1238,7 @@ gSSService
 isSecureURI
 (
 subDomainUri
-IS_PRIVATE
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 )
 ;
@@ -1299,7 +1270,7 @@ gSSService
 isSecureURI
 (
 uri
-IS_PRIVATE
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 )
 ;
@@ -1316,12 +1287,12 @@ age
 1
 "
 secInfo
-IS_PRIVATE
 Ci
 .
 nsISiteSecurityService
 .
 SOURCE_ORGANIC_REQUEST
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 ;
 do_timeout
@@ -1339,7 +1310,7 @@ gSSService
 isSecureURI
 (
 uri
-IS_PRIVATE
+PRIVATE_ORIGIN_ATTRIBUTES
 )
 )
 ;
@@ -1394,7 +1365,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -1424,7 +1394,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;
@@ -1452,7 +1421,6 @@ preloaded
 test
 "
 )
-0
 )
 )
 ;

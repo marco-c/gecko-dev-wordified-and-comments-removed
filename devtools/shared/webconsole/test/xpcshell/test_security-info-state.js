@@ -129,6 +129,8 @@ parseSecurityInfo
 null
 {
 }
+{
+}
 new
 Map
 (
@@ -188,6 +190,8 @@ NetworkHelper
 parseSecurityInfo
 (
 MockSecurityInfo
+{
+}
 {
 }
 new
@@ -260,6 +264,8 @@ parseSecurityInfo
 MockSecurityInfo
 {
 }
+{
+}
 new
 Map
 (
@@ -325,6 +331,8 @@ parseSecurityInfo
 MockSecurityInfo
 {
 }
+{
+}
 new
 Map
 (
@@ -378,6 +386,8 @@ NetworkHelper
 parseSecurityInfo
 (
 MockSecurityInfo
+{
+}
 {
 }
 new

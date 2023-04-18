@@ -3829,7 +3829,6 @@ sss
 IsSecureURI
 (
 aURI
-0
 aOriginAttributes
 nullptr
 nullptr

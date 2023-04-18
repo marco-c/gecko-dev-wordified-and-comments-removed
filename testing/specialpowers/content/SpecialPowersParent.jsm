@@ -5263,15 +5263,6 @@ data
 origin
 ;
 let
-flags
-=
-aMessage
-.
-data
-.
-flags
-;
-let
 uri
 =
 Services
@@ -5311,7 +5302,6 @@ sss
 resetState
 (
 uri
-flags
 )
 ;
 return

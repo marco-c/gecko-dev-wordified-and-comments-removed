@@ -366,8 +366,6 @@ int64_t
 maxage
 bool
 includeSubdomains
-uint32_t
-flags
 SecurityPropertyState
 aHSTSState
 SecurityPropertySource
@@ -391,8 +389,6 @@ aHeader
 nsITransportSecurityInfo
 *
 aSecInfo
-uint32_t
-aFlags
 SecurityPropertySource
 aSource
 const
@@ -420,8 +416,6 @@ const
 nsCString
 &
 aHeader
-uint32_t
-flags
 SecurityPropertySource
 aSource
 const
@@ -446,8 +440,6 @@ const
 nsAutoCString
 &
 aHost
-uint32_t
-aFlags
 bool
 aIsPreload
 const
@@ -462,8 +454,6 @@ ResetStateInternal
 nsIURI
 *
 aURI
-uint32_t
-aFlags
 const
 OriginAttributes
 &
@@ -479,8 +469,6 @@ nsAutoCString
 aHost
 bool
 aRequireIncludeSubdomains
-uint32_t
-aFlags
 const
 OriginAttributes
 &
@@ -518,8 +506,6 @@ const
 nsACString
 &
 aHost
-uint32_t
-aFlags
 const
 OriginAttributes
 &

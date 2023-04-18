@@ -57,7 +57,6 @@ example
 com
 "
 )
-0
 )
 )
 ;
@@ -85,7 +84,6 @@ example
 com
 "
 )
-0
 )
 )
 ;
@@ -113,7 +111,6 @@ example
 com
 "
 )
-0
 )
 )
 ;
@@ -142,7 +139,6 @@ example
 com
 "
 )
-0
 )
 )
 ;
@@ -171,7 +167,6 @@ example
 com
 "
 )
-0
 )
 )
 ;
@@ -200,7 +195,6 @@ example
 com
 "
 )
-0
 )
 )
 ;
@@ -229,7 +223,6 @@ example
 com
 "
 )
-0
 )
 )
 ;

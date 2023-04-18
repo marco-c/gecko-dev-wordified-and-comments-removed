@@ -2884,7 +2884,6 @@ NS_ShouldSecureUpgrade
 mURI
 mLoadInfo
 resultPrincipal
-mPrivateBrowsing
 LoadAllowSTS
 (
 )
@@ -8908,8 +8907,6 @@ ProcessHSTSHeader
 nsITransportSecurityInfo
 *
 aSecInfo
-uint32_t
-aFlags
 )
 {
 nsHttpAtom
@@ -9058,7 +9055,6 @@ ProcessHeader
 mURI
 securityHeader
 aSecInfo
-aFlags
 headerSource
 originAttributes
 nullptr
@@ -9211,21 +9207,6 @@ mSecurityInfo
 NS_OK
 )
 ;
-uint32_t
-flags
-=
-NS_UsePrivateBrowsing
-(
-this
-)
-?
-nsISocketProvider
-:
-:
-NO_PERMANENT_STORAGE
-:
-0
-;
 nsCOMPtr
 <
 nsITransportSecurityInfo
@@ -9259,7 +9240,6 @@ rv
 ProcessHSTSHeader
 (
 transSecInfo
-flags
 )
 ;
 NS_ENSURE_SUCCESS

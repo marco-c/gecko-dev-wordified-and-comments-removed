@@ -83,7 +83,6 @@ newURI
 (
 host
 )
-0
 )
 {
 host
@@ -261,7 +260,6 @@ newURI
 (
 host
 )
-0
 )
 {
 host

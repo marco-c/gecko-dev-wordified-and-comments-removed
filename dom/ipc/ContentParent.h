@@ -3688,10 +3688,6 @@ nsIURI
 *
 aURI
 const
-uint32_t
-&
-aFlags
-const
 OriginAttributes
 &
 aOriginAttributes

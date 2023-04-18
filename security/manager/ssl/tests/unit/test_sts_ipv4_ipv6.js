@@ -110,7 +110,6 @@ s
 isSecureURI
 (
 uri
-0
 )
 )
 ;
@@ -141,7 +140,6 @@ age
 includeSubdomains
 "
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -161,7 +159,6 @@ s
 isSecureURI
 (
 uri
-0
 )
 "
 URI
