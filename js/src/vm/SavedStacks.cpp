@@ -3098,7 +3098,11 @@ JSContext
 cx
 )
 {
-RootedGlobalObject
+Rooted
+<
+GlobalObject
+*
+>
 global
 (
 cx

@@ -16986,7 +16986,11 @@ hasNonSyntacticScope
 )
 )
 ;
-RootedGlobalObject
+Rooted
+<
+GlobalObject
+*
+>
 global
 (
 cx

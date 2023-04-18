@@ -2356,7 +2356,11 @@ JSOp
 BindGName
 :
 {
-RootedGlobalObject
+Rooted
+<
+GlobalObject
+*
+>
 global
 (
 cx_
