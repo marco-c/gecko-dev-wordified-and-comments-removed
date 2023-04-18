@@ -635,17 +635,6 @@ aElementValidityState
 )
 ;
 bool
-GetValidity
-(
-)
-const
-{
-return
-!
-mInvalidElementsCount
-;
-}
-bool
 CheckValidFormSubmission
 (
 )
