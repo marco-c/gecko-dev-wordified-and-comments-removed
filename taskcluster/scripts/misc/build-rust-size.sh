@@ -43,6 +43,9 @@ Linux
 ;
 MINGW
 *
+|
+MSYS
+*
 )
 UPLOAD_DIR
 =

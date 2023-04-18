@@ -48,6 +48,9 @@ s
 in
 MINGW
 *
+|
+MSYS
+*
 )
 UPLOAD_DIR
 =
@@ -414,6 +417,9 @@ esac
 ;
 ;
 MINGW
+*
+|
+MSYS
 *
 )
 cargo

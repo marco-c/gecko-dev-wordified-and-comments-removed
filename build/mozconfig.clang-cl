@@ -123,6 +123,9 @@ s
 in
 MINGW
 *
+|
+MSYS
+*
 )
 DIAGNOSTICS_DIR
 =

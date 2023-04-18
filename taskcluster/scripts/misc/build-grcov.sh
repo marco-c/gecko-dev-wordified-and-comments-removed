@@ -137,6 +137,9 @@ PATH
 ;
 MINGW
 *
+|
+MSYS
+*
 )
 UPLOAD_DIR
 =

@@ -9,6 +9,9 @@ s
 in
 MINGW
 *
+|
+MSYS
+*
 )
 #
 For

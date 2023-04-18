@@ -75,7 +75,12 @@ s
 grep
 -
 c
+"
 MINGW
+\
+|
+MSYS
+"
 2
 >
 /

@@ -62,6 +62,9 @@ PATH
 ;
 MINGW
 *
+|
+MSYS
+*
 )
 UPLOAD_DIR
 =
@@ -367,6 +370,9 @@ esac
 ;
 ;
 MINGW
+*
+|
+MSYS
 *
 )
 cargo

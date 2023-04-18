@@ -40,6 +40,9 @@ s
 in
 MINGW
 *
+|
+MSYS
+*
 )
 UPLOAD_DIR
 =
