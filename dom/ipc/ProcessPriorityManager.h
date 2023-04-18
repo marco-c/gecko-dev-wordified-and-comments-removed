@@ -69,7 +69,7 @@ CurrentProcessIsForeground
 ;
 static
 void
-ActivityChanged
+BrowserPriorityChanged
 (
 dom
 :
@@ -78,12 +78,12 @@ CanonicalBrowsingContext
 *
 aBC
 bool
-aIsActive
+aPriority
 )
 ;
 static
 void
-ActivityChanged
+BrowserPriorityChanged
 (
 dom
 :
@@ -92,7 +92,7 @@ BrowserParent
 *
 aBrowserParent
 bool
-aIsActive
+aPriority
 )
 ;
 static

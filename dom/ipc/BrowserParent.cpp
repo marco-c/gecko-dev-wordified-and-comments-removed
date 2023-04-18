@@ -1529,7 +1529,7 @@ IsPriorityActive
 ProcessPriorityManager
 :
 :
-ActivityChanged
+BrowserPriorityChanged
 (
 this
 true
@@ -3350,7 +3350,7 @@ this
 ProcessPriorityManager
 :
 :
-ActivityChanged
+BrowserPriorityChanged
 (
 this
 false

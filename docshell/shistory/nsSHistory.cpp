@@ -6088,7 +6088,7 @@ GetBrowserParent
 ProcessPriorityManager
 :
 :
-ActivityChanged
+BrowserPriorityChanged
 (
 bp
 true
