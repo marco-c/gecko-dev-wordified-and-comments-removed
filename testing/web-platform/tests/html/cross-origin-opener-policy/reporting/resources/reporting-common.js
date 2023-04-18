@@ -687,7 +687,7 @@ reject
 const
 polls
 =
-20
+5
 ;
 const
 waitTime
@@ -1466,7 +1466,7 @@ const
 openee_headers
 =
 [
-getReportingEndpointsHeader
+getReportToHeader
 (
 host
 .

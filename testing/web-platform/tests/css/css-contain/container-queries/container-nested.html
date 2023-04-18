@@ -202,38 +202,6 @@ assert_implements_container_queries
 script
 >
 <
-!
--
--
-"
-Implicit
-"
-refers
-to
-implicit
-container
-selection
-i
-.
-e
-.
-understanding
-which
-container
-to
-evaluate
-against
-by
-looking
-at
-the
-features
-used
-.
--
--
->
-<
 style
 >
 container
@@ -255,7 +223,7 @@ child
 {
 -
 -
-implicit
+nearest
 :
 true
 ;
@@ -288,7 +256,7 @@ getPropertyValue
 '
 -
 -
-implicit
+nearest
 '
 )
 '
@@ -298,7 +266,7 @@ true
 ;
 }
 '
-Implicit
+Nearest
 '
 )
 ;
@@ -328,7 +296,7 @@ child
 {
 -
 -
-implicit
+nearest
 -
 outer
 -
@@ -365,7 +333,7 @@ getPropertyValue
 '
 -
 -
-implicit
+nearest
 -
 outer
 -
@@ -378,7 +346,7 @@ fail
 ;
 }
 '
-Implicit
+Nearest
 outer
 failing
 '
@@ -410,7 +378,7 @@ child
 {
 -
 -
-implicit
+nearest
 -
 inner
 -
@@ -447,7 +415,7 @@ getPropertyValue
 '
 -
 -
-implicit
+nearest
 -
 inner
 -
@@ -460,7 +428,7 @@ fail
 ;
 }
 '
-Implicit
+Nearest
 inner
 failing
 '
@@ -846,7 +814,7 @@ outer
 -
 inner
 -
-implicit
+nearest
 :
 true
 ;
@@ -885,7 +853,7 @@ outer
 -
 inner
 -
-implicit
+nearest
 '
 )
 '
@@ -898,7 +866,7 @@ true
 Outer
 named
 inner
-implicit
+nearest
 '
 )
 ;
@@ -929,7 +897,7 @@ child
 {
 -
 -
-implicit
+nearest
 -
 outer
 -
@@ -968,7 +936,7 @@ getPropertyValue
 '
 -
 -
-implicit
+nearest
 -
 outer
 -
@@ -987,7 +955,7 @@ true
 Inner
 named
 outer
-implicit
+nearest
 '
 )
 ;
@@ -1018,7 +986,7 @@ child
 {
 -
 -
-implicit
+nearest
 -
 outer
 -
@@ -1059,7 +1027,7 @@ getPropertyValue
 '
 -
 -
-implicit
+nearest
 -
 outer
 -
@@ -1080,7 +1048,7 @@ true
 Inner
 named
 outer
-implicit
+nearest
 (
 reverse
 )
@@ -1434,7 +1402,7 @@ child
 -
 outer
 -
-implicit
+nearest
 -
 invalidation
 :
@@ -1491,7 +1459,7 @@ getPropertyValue
 -
 outer
 -
-implicit
+nearest
 -
 invalidation
 '
@@ -1525,7 +1493,7 @@ getPropertyValue
 -
 outer
 -
-implicit
+nearest
 -
 invalidation
 '
@@ -1536,7 +1504,7 @@ invalidation
 ;
 }
 '
-Implicit
+Nearest
 outer
 invalidation
 '

@@ -174,12 +174,6 @@ this
 eventsSeen_
 )
 ;
-testChannel
-.
-close
-(
-)
-;
 }
 )
 ;
@@ -235,12 +229,6 @@ postMessage
 '
 readyToActivate
 '
-)
-;
-prerenderChannel
-.
-close
-(
 )
 ;
 }

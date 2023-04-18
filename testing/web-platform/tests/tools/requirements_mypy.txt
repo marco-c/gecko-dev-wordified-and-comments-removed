@@ -3,7 +3,7 @@ mypy
 =
 0
 .
-941
+931
 mypy
 -
 extensions
@@ -53,7 +53,7 @@ dateutil
 .
 8
 .
-10
+9
 types
 -
 PyYAML
@@ -63,7 +63,7 @@ PyYAML
 .
 0
 .
-5
+4
 types
 -
 requests
@@ -73,7 +73,7 @@ requests
 .
 27
 .
-14
+11
 types
 -
 setuptools
@@ -83,7 +83,7 @@ setuptools
 .
 4
 .
-11
+9
 types
 -
 six
@@ -93,7 +93,7 @@ six
 .
 16
 .
-12
+11
 types
 -
 ujson

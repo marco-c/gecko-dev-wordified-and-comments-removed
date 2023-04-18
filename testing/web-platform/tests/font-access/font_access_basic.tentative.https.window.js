@@ -17,7 +17,7 @@ getTestData
 (
 )
 ;
-const
+let
 fonts
 =
 await

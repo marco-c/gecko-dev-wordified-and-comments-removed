@@ -2405,9 +2405,6 @@ _proc
 .
 kill
 (
-timeout
-=
-5
 )
             
 if
@@ -2430,9 +2427,6 @@ _proc
 kill
 (
 9
-timeout
-=
-5
 )
         
 success

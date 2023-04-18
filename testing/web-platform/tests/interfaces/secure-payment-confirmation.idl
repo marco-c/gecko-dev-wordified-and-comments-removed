@@ -64,10 +64,6 @@ BufferSource
 challenge
 ;
 required
-USVString
-rpId
-;
-required
 FrozenArray
 <
 BufferSource

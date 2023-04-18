@@ -107,7 +107,7 @@ loadEventEnd
 ;
 readonly
 attribute
-NavigationTimingType
+NavigationType
 type
 ;
 readonly
@@ -127,7 +127,7 @@ toJSON
 }
 ;
 enum
-NavigationTimingType
+NavigationType
 {
 "
 navigate

@@ -683,6 +683,15 @@ wpt
 ]
 )
     
+if
+kwargs
+[
+"
+venv
+"
+]
+:
+        
 cmd
 .
 extend
@@ -693,21 +702,12 @@ extend
 -
 venv
 "
+kwargs
+[
 "
-/
-app
-/
 venv
 "
-"
--
--
-skip
--
-venv
--
-setup
-"
+]
 ]
 )
     
@@ -811,6 +811,20 @@ docker
 docker_build
 (
 )
+        
+kwargs
+[
+"
+venv
+"
+]
+=
+"
+/
+app
+/
+venv
+"
         
 return
 docker_run
@@ -928,8 +942,7 @@ extras
 [
 "
 -
--
-port
+p
 "
 str
 (

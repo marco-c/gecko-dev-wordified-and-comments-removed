@@ -111,15 +111,6 @@ fileHandle
 .
 createSyncAccessHandle
 (
-{
-mode
-:
-"
-in
--
-place
-"
-}
 )
 ;
 await

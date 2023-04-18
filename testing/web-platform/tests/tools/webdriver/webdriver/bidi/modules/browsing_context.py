@@ -1,4 +1,8 @@
 from
+tokenize
+import
+Number
+from
 typing
 import
 Any
@@ -24,7 +28,6 @@ def
 get_tree
 (
 self
-                 
 max_depth
 :
 Optional
@@ -33,7 +36,6 @@ int
 ]
 =
 None
-                 
 parent
 :
 Optional
@@ -43,13 +45,6 @@ str
 =
 None
 )
--
->
-Mapping
-[
-str
-Any
-]
 :
         
 params
