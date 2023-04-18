@@ -263,6 +263,10 @@ mCurrentSize
 (
 0
 )
+mMaximumSize
+(
+250
+)
 mDeliveringMessage
 (
 false
@@ -276,10 +280,6 @@ mLock
 "
 )
 {
-mMaximumSize
-=
-250
-;
 #
 ifdef
 XP_WIN

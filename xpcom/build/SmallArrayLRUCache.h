@@ -749,6 +749,10 @@ mozilla
 OffTheBooksMutexAutoLock
 &
 )
+REQUIRES
+(
+mMutex
+)
 {
 for
 (
@@ -854,6 +858,10 @@ cache
 ;
 unsigned
 mSize
+GUARDED_BY
+(
+mMutex
+)
 =
 0
 ;
@@ -862,6 +870,10 @@ mLRUArray
 [
 LRUCapacity
 ]
+GUARDED_BY
+(
+mMutex
+)
 ;
 #
 ifdef
@@ -873,6 +885,10 @@ LRUCapacity
 +
 1
 ]
+GUARDED_BY
+(
+mMutex
+)
 =
 {
 0u
