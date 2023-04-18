@@ -884,6 +884,7 @@ PointerIcon
 {
 javadoc_uri
 }
+}
 /
 ContentBlockingController
 .
@@ -898,6 +899,7 @@ html
 {
 javadoc_uri
 }
+}
 /
 StorageController
 .
@@ -911,6 +913,7 @@ java
 {
 {
 javadoc_uri
+}
 }
 /
 GeckoSession
@@ -929,6 +932,7 @@ PERMISSION_TRACKING
 {
 {
 javadoc_uri
+}
 }
 /
 GeckoSession
@@ -968,6 +972,7 @@ List
 {
 {
 javadoc_uri
+}
 }
 /
 StorageController
