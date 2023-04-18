@@ -76,12 +76,12 @@ hash_after
 [
         
 (
-'
-'
-'
+"
+"
+"
 #
 foo
-'
+"
 )
         
 (
@@ -89,10 +89,21 @@ foo
 #
 foo
 "
-'
+"
 #
 bar
-'
+"
+)
+        
+(
+"
+#
+foo
+"
+"
+#
+foo
+"
 )
         
 (
@@ -100,8 +111,8 @@ bar
 #
 bar
 "
-'
-'
+"
+"
 )
     
 ]
@@ -111,31 +122,29 @@ ids
 [
         
 "
-from
-url
 without
 hash
 to
-url
 with
 hash
 "
         
 "
-between
-urls
 with
 different
 hashes
 "
         
 "
-from
-url
+with
+identical
+hashes
+"
+        
+"
 with
 hash
 to
-url
 without
 hash
 "
@@ -146,6 +155,7 @@ async
 def
 test_navigate_in_the_same_document
 (
+    
 bidi_session
 new_tab
 url
@@ -239,8 +249,9 @@ hashes
 )
 async
 def
-test_navigate_different_urls
+test_navigate_different_documents
 (
+    
 bidi_session
 new_tab
 url
@@ -293,7 +304,6 @@ url_before
 =
 inline
 (
-        
 f
 "
 <
@@ -311,7 +321,6 @@ frame_start_url
 iframe
 >
 "
-    
 )
     
 contexts
