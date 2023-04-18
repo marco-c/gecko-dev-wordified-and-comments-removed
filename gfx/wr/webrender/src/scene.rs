@@ -1581,6 +1581,9 @@ default
 tile_size_override
 :
 None
+max_surface_override
+:
+None
 max_depth_ids
 :
 0

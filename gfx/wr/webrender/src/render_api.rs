@@ -3482,6 +3482,13 @@ Option
 DeviceIntSize
 >
 )
+SetMaximumSurfaceSize
+(
+Option
+<
+usize
+>
+)
 }
 pub
 enum

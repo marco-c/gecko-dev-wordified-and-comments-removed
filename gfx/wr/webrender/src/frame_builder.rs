@@ -549,6 +549,13 @@ Option
 DeviceIntSize
 >
 pub
+max_surface_override
+:
+Option
+<
+usize
+>
+pub
 max_depth_ids
 :
 i32
@@ -2336,8 +2343,6 @@ take_context
 (
 *
 pic_index
-root_spatial_node_index
-root_spatial_node_index
 None
 SubpixelMode
 :
