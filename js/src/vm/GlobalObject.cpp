@@ -4069,6 +4069,10 @@ maybeGetIntrinsicValue
 (
 selfHostedName
 funVal
+.
+address
+(
+)
 cx
 )
 )
@@ -4381,6 +4385,10 @@ maybeGetIntrinsicValue
 (
 name
 value
+.
+address
+(
+)
 cx
 )
 )
