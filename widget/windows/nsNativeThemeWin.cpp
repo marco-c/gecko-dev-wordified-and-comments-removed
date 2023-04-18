@@ -10436,13 +10436,13 @@ bottom
 =
 3
 ;
+}
 left
 =
 right
 =
 5
 ;
-}
 break
 ;
 default
