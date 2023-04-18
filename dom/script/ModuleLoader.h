@@ -110,12 +110,6 @@ GetScriptLoader
 (
 )
 ;
-void
-EnsureModuleHooksInitialized
-(
-)
-override
-;
 nsresult
 StartModuleLoad
 (
