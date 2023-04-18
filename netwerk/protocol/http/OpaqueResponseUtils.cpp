@@ -764,7 +764,6 @@ if
 (
 rangeStart
 >
-=
 rangeEnd
 )
 {
