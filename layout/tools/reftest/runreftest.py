@@ -3166,23 +3166,7 @@ dumps
 manifests
 )
         
-prefs
-[
-"
-browser
-.
-tabs
-.
-remote
-.
-autostart
-"
-]
-=
-True
-        
 if
-not
 options
 .
 e10s
@@ -3201,8 +3185,32 @@ autostart
 "
 ]
 =
+True
+        
+else
+:
+            
+prefs
+[
+"
+browser
+.
+tabs
+.
+remote
+.
+autostart
+"
+]
+=
 False
         
+if
+options
+.
+fission
+:
+            
 prefs
 [
 "
@@ -3214,10 +3222,7 @@ autostart
 =
 True
         
-if
-options
-.
-disableFission
+else
 :
             
 prefs

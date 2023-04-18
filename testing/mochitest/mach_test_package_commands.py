@@ -1170,15 +1170,6 @@ runjunit
 import
 run_test_harness
     
-args
-[
-"
-disable_fission
-"
-]
-=
-True
-    
 logger
 .
 info

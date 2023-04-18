@@ -241,10 +241,6 @@ expanded
 :
 null
 puppeteer
--
-no
--
-fission
 :
 description
 :
@@ -264,8 +260,6 @@ symbol
 remote
 (
 pup
--
-nofis
 )
 run
 :
@@ -339,11 +333,6 @@ firefox
 -
 -
 headless
--
--
-disable
--
-fission
 -
 -
 write
@@ -489,6 +478,11 @@ firefox
 -
 -
 headless
+-
+-
+enable
+-
+fission
 -
 -
 write

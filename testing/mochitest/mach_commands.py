@@ -971,13 +971,10 @@ app
 )
         
 options
-[
-"
-disable_fission
-"
-]
+.
+fission
 =
-True
+False
         
 return
 runtestsremote
@@ -1026,15 +1023,6 @@ Namespace
 *
 kwargs
 )
-        
-options
-[
-"
-disable_fission
-"
-]
-=
-True
         
 return
 runjunit
