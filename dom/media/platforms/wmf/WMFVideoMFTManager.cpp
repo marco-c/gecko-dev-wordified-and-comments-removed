@@ -1695,6 +1695,14 @@ media_wmf_no_copy_nv12_textures
 )
 &
 &
+mKnowsCompositor
+-
+>
+UsingHardwareWebRender
+(
+)
+&
+&
 mDXVA2Manager
 &
 &
