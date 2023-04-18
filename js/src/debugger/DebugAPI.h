@@ -779,7 +779,11 @@ cx
 JSObject
 *
 obj
-HandleSavedFrame
+Handle
+<
+SavedFrame
+*
+>
 frame
 mozilla
 :
@@ -869,7 +873,11 @@ JSContext
 cx
 HandleObject
 obj
-HandleSavedFrame
+Handle
+<
+SavedFrame
+*
+>
 frame
 mozilla
 :

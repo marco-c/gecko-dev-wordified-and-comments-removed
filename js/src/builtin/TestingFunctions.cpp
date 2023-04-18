@@ -38833,7 +38833,11 @@ excVal
 cx
 )
 ;
-RootedSavedFrame
+Rooted
+<
+SavedFrame
+*
+>
 stack
 (
 cx

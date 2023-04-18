@@ -2381,7 +2381,11 @@ e
 cx
 )
 ;
-RootedSavedFrame
+Rooted
+<
+SavedFrame
+*
+>
 stack
 (
 cx

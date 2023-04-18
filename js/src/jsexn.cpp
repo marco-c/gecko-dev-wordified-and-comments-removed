@@ -1910,7 +1910,11 @@ errObject
 )
 )
 ;
-RootedSavedFrame
+Rooted
+<
+SavedFrame
+*
+>
 nstack
 (
 cx
@@ -3272,7 +3276,11 @@ JSMSG_UNCAUGHT_EXCEPTION
 bool
 skippedAsync
 ;
-RootedSavedFrame
+Rooted
+<
+SavedFrame
+*
+>
 frame
 (
 cx

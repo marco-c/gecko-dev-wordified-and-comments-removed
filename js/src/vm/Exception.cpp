@@ -196,7 +196,11 @@ CHECK_THREAD
 cx
 )
 ;
-RootedSavedFrame
+Rooted
+<
+SavedFrame
+*
+>
 nstack
 (
 cx

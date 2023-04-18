@@ -1169,7 +1169,11 @@ ResumeMode
 resumeMode
 MutableHandleValue
 value
-MutableHandleSavedFrame
+MutableHandle
+<
+SavedFrame
+*
+>
 exnStack
 )
 const
@@ -2532,7 +2536,11 @@ JSContext
 cx
 HandleObject
 obj
-HandleSavedFrame
+Handle
+<
+SavedFrame
+*
+>
 frame
 mozilla
 :

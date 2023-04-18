@@ -769,7 +769,11 @@ completionException
 cx_
 )
 ;
-RootedSavedFrame
+Rooted
+<
+SavedFrame
+*
+>
 completionExceptionStack
 (
 cx_
