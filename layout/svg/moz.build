@@ -427,6 +427,3 @@ svg
 css
 "
 ]
-REQUIRES_UNIFIED_BUILD
-=
-True

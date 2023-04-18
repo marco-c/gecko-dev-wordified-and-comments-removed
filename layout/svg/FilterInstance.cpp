@@ -166,6 +166,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 CSSFilterInstance
 .
 h

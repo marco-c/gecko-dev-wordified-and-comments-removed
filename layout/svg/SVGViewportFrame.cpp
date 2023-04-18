@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ISVGDisplayableFrame
@@ -61,6 +54,13 @@ mozilla
 dom
 /
 SVGViewportElement
+.
+h
+"
+#
+include
+"
+nsLayoutUtils
 .
 h
 "
