@@ -2025,7 +2025,7 @@ NS_IsMainThread
 nsAutoCString
 uri
 ;
-uint64_t
+double
 markCreationEpoch
 =
 0
@@ -2114,7 +2114,7 @@ markCreationEpoch
 =
 static_cast
 <
-uint64_t
+double
 >
 (
 PR_Now
