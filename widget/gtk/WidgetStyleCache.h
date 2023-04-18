@@ -128,5 +128,13 @@ gint
 aScaleFactor
 )
 ;
+gint
+GetBorderRadius
+(
+GtkStyleContext
+*
+aStyle
+)
+;
 #
 endif
