@@ -460,10 +460,15 @@ init
 =
 function
 (
+{
 onClose
 onRun
 overwritePreferences
 binaryPath
+}
+=
+{
+}
 )
 {
 if

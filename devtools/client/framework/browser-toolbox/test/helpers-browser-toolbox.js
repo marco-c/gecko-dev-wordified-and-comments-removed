@@ -229,9 +229,12 @@ BrowserToolboxLauncher
 .
 init
 (
-null
+{
 onRun
+overwritePreferences
+:
 true
+}
 )
 ;
 }

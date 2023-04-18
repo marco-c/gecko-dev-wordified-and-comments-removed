@@ -339,7 +339,10 @@ BrowserToolboxLauncher
 .
 init
 (
+{
 onClose
+onRun
+:
 _process
 =
 >
@@ -361,6 +364,7 @@ resolve
 _process
 )
 ;
+}
 }
 )
 ;
