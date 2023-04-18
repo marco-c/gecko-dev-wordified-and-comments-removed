@@ -447,6 +447,17 @@ nimbus
 schemas
 /
 "
+"
+resource
+:
+/
+/
+activity
+-
+stream
+/
+schemas
+"
 ]
 ;
 if
