@@ -947,12 +947,6 @@ ThreadList
 (
 )
 ;
-static
-void
-ClearThreadList
-(
-)
-;
 void
 AddToThreadList
 (
@@ -1056,11 +1050,6 @@ mIsAPoolThreadFree
 ;
 bool
 mCanInvokeJS
-;
-bool
-mHasTLSEntry
-=
-false
 ;
 mozilla
 :
