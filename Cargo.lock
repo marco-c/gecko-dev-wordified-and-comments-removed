@@ -27962,6 +27962,9 @@ smallbitvec
 smallvec
 "
 "
+static_assertions
+"
+"
 static_prefs
 "
 "

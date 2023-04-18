@@ -557,6 +557,13 @@ smallvec
 .
 0
 "
+static_assertions
+=
+"
+1
+.
+1
+"
 static_prefs
 =
 {

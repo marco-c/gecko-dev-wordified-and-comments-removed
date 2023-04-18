@@ -206,6 +206,14 @@ macro_use
 ]
 extern
 crate
+static_assertions
+;
+#
+[
+macro_use
+]
+extern
+crate
 style_derive
 ;
 #
@@ -916,9 +924,6 @@ reexport_computed_values
 name
 :
 ident
-boxed
-:
-expr
 }
 )
 +
