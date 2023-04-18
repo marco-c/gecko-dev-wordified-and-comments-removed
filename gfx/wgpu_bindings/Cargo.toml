@@ -98,7 +98,7 @@ wgpu
 rev
 =
 "
-b51fd851
+0b61a191
 "
 #
 Note
@@ -170,7 +170,7 @@ wgpu
 rev
 =
 "
-b51fd851
+0b61a191
 "
 [
 dependencies
@@ -204,7 +204,7 @@ wgpu
 rev
 =
 "
-b51fd851
+0b61a191
 "
 [
 dependencies

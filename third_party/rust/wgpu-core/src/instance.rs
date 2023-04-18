@@ -4756,12 +4756,12 @@ discrete
 .
 or
 (
-integrated
+other
 )
 .
 or
 (
-other
+integrated
 )
 .
 or

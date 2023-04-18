@@ -502,6 +502,8 @@ into_owned
 write
 !
 (
+&
+mut
 suffixed
 "
 {

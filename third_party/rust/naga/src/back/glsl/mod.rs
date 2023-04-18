@@ -3673,15 +3673,6 @@ Sampler
 .
 .
 }
-|
-TypeInner
-:
-:
-BindingArray
-{
-.
-.
-}
 =
 >
 {
