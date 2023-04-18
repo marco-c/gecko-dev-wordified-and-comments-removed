@@ -15,7 +15,9 @@ stubs
 .
 set
 (
+"
 NaN
+"
 {
 type
 :
