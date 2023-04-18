@@ -70,14 +70,14 @@ JSObject
 *
 CloneAsUint8Array
 (
+JSContext
+*
+aCx
 JS
 :
 :
 HandleObject
 O
-ErrorResult
-&
-aRv
 )
 ;
 }
