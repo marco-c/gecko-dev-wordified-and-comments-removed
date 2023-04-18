@@ -219,7 +219,7 @@ Throws
 ]
 Promise
 <
-ReadableStreamDefaultReadResult
+ReadableStreamReadResult
 >
 read
 (
@@ -240,7 +240,7 @@ includes
 ReadableStreamGenericReader
 ;
 dictionary
-ReadableStreamDefaultReadResult
+ReadableStreamReadResult
 {
 any
 value

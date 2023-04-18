@@ -154,7 +154,7 @@ Throws
 ]
 Promise
 <
-ReadableStreamBYOBReadResult
+ReadableStreamReadResult
 >
 read
 (
@@ -175,15 +175,4 @@ releaseLock
 ReadableStreamBYOBReader
 includes
 ReadableStreamGenericReader
-;
-dictionary
-ReadableStreamBYOBReadResult
-{
-ArrayBufferView
-value
-;
-boolean
-done
-;
-}
 ;

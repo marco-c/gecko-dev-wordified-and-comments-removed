@@ -618,7 +618,7 @@ return
 }
 RootedDictionary
 <
-ReadableStreamDefaultReadResult
+ReadableStreamReadResult
 >
 result
 (
@@ -708,7 +708,7 @@ aRv
 {
 RootedDictionary
 <
-ReadableStreamDefaultReadResult
+ReadableStreamReadResult
 >
 result
 (
