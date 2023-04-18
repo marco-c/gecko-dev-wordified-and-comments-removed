@@ -1206,7 +1206,7 @@ devices
 async
 requestDevice
 (
-filters
+options
 )
 {
 return
