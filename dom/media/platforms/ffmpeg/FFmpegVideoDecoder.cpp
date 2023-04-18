@@ -6779,6 +6779,14 @@ mVideoFramePool
 GetVideoFrameSurface
 (
 vaDesc
+mFrame
+-
+>
+width
+mFrame
+-
+>
+height
 mCodecContext
 mFrame
 mLib
