@@ -998,12 +998,6 @@ common
     
 site
 .
-ensure
-(
-)
-    
-site
-.
 activate
 (
 )

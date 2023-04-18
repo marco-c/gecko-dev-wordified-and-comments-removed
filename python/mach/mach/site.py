@@ -1428,11 +1428,6 @@ class
 and
 call
 .
-ensure
-(
-)
-and
-.
 activate
 (
 )
@@ -1446,6 +1441,12 @@ active
 "
 "
 "
+        
+self
+.
+ensure
+(
+)
         
 activate_path
 =
