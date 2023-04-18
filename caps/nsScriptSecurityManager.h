@@ -286,16 +286,7 @@ cx
 JS
 :
 :
-RuntimeCode
-kind
-JS
-:
-:
-Handle
-<
-JSString
-*
->
+HandleString
 aCode
 )
 ;

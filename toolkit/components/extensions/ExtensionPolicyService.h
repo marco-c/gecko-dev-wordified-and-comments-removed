@@ -517,9 +517,6 @@ mObs
 nsString
 mDefaultCSP
 ;
-nsString
-mDefaultCSPV3
-;
 }
 ;
 }

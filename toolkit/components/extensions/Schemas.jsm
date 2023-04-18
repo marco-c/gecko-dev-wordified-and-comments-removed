@@ -3922,12 +3922,6 @@ Ci
 nsIAddonContentPolicy
 .
 CSP_ALLOW_LOCALHOST
-|
-Ci
-.
-nsIAddonContentPolicy
-.
-CSP_ALLOW_WASM
 ;
 let
 error
