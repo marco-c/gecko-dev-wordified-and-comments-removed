@@ -892,16 +892,12 @@ ImportAssertionVector
 aValues
 )
 ;
-static
 already_AddRefed
 <
 nsIURI
 >
 ResolveModuleSpecifier
 (
-ModuleLoaderBase
-*
-aLoader
 LoadedScript
 *
 aScript
