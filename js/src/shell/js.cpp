@@ -22793,9 +22793,6 @@ toString
 (
 cx
 NewStringCopyUTF8Z
-<
-CanGC
->
 (
 cx
 report

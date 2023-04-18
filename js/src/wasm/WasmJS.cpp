@@ -5178,9 +5178,6 @@ chars
 {
 return
 NewStringCopyUTF8Z
-<
-CanGC
->
 (
 cx
 JS

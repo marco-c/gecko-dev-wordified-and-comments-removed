@@ -15680,9 +15680,6 @@ cx
 ;
 return
 NewStringCopyUTF8Z
-<
-CanGC
->
 (
 cx
 s
@@ -15716,9 +15713,6 @@ cx
 ;
 return
 NewStringCopyUTF8N
-<
-CanGC
->
 (
 cx
 s

@@ -7166,9 +7166,6 @@ asChars
 ;
 return
 NewStringCopyUTF8N
-<
-CanGC
->
 (
 cx
 JS
@@ -7327,9 +7324,6 @@ asChars
 ;
 return
 NewStringCopyUTF8N
-<
-CanGC
->
 (
 cx
 JS

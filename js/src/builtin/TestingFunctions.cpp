@@ -32100,9 +32100,6 @@ JSString
 str
 =
 NewStringCopyUTF8Z
-<
-CanGC
->
 (
 cx
 utf8chars

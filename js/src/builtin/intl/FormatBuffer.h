@@ -367,9 +367,6 @@ char
 {
 return
 NewStringCopyUTF8N
-<
-CanGC
->
 (
 cx
 JS
