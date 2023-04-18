@@ -17516,6 +17516,7 @@ this
 &
 resultList
 this
+usingBackdropFilter
 )
 ;
 createdContainer
@@ -17638,6 +17639,7 @@ resultList
 containerItemASR
 opacityItemForEventsOnly
 needsActiveOpacityLayer
+usingBackdropFilter
 )
 ;
 createdContainer
