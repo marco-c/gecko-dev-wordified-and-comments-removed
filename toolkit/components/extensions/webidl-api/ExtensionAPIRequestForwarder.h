@@ -858,6 +858,9 @@ ClientInfo
 >
 mClientInfo
 ;
+uint64_t
+mSWDescriptorId
+;
 RefPtr
 <
 ExtensionEventListener

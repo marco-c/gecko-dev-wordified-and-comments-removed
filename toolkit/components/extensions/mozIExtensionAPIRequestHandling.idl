@@ -102,6 +102,13 @@ attribute
 AString
 clientInfoId
 ;
+readonly
+attribute
+unsigned
+long
+long
+descriptorId
+;
 }
 ;
 [
