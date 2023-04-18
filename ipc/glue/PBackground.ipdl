@@ -1156,8 +1156,6 @@ async
 PVerifySSLServerCert
 (
 ByteArray
-aServerCert
-ByteArray
 [
 ]
 aPeerCertChain
