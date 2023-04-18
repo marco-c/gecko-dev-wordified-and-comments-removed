@@ -14327,15 +14327,7 @@ aBuilder
 )
 const
 override
-{
-return
-CanBuildWebRenderDisplayItems
-(
-aManager
-aBuilder
-)
 ;
-}
 nsRect
 GetBounds
 (
