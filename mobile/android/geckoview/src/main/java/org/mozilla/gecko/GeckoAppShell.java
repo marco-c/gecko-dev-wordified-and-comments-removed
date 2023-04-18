@@ -1915,8 +1915,6 @@ float
 heading
 float
 speed
-long
-time
 )
 ;
 private
@@ -2473,11 +2471,6 @@ accuracy
 altitudeAccuracy
 heading
 speed
-location
-.
-getTime
-(
-)
 )
 ;
 }
