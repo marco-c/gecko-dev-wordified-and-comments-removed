@@ -51,6 +51,7 @@ LockdownEnabled
 MissingWebRender
 OperatingSystemNotSupported
 PrefNotSet
+MissingRemoteWebGL
 }
 ;
 const
