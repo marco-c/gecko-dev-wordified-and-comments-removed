@@ -107,7 +107,6 @@ core
 {
 RuleTree
 StrongRuleNode
-RULE_NODE_SIZE
 }
 ;
 pub

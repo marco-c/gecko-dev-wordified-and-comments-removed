@@ -285,6 +285,13 @@ Percentage
 Resolution
 >
 ;
+size_of_test
+!
+(
+Image
+16
+)
+;
 pub
 type
 Gradient

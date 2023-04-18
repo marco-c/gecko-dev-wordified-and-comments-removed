@@ -956,6 +956,13 @@ pseudos
 :
 EagerPseudoStyles
 }
+size_of_test
+!
+(
+ElementStyles
+16
+)
+;
 impl
 ElementStyles
 {
@@ -1258,6 +1265,13 @@ flags
 :
 ElementDataFlags
 }
+size_of_test
+!
+(
+ElementData
+24
+)
+;
 #
 [
 derive

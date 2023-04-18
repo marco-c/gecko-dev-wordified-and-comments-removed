@@ -72,14 +72,6 @@ macro_use
 ]
 extern
 crate
-size_of_test
-;
-#
-[
-macro_use
-]
-extern
-crate
 style
 ;
 extern

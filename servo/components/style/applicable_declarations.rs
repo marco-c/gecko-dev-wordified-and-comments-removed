@@ -737,3 +737,10 @@ cascade_priority
 )
 }
 }
+size_of_test
+!
+(
+ApplicableDeclarationBlock
+24
+)
+;
