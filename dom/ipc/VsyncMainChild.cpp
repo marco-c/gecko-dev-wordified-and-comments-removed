@@ -316,8 +316,10 @@ aVsyncRate
 ;
 for
 (
+RefPtr
+<
 VsyncObserver
-*
+>
 observer
 :
 mObservers
