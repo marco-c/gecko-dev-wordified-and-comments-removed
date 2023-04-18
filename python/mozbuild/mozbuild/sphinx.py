@@ -929,9 +929,9 @@ app
 from
 mach
 .
-virtualenv
+site
 import
-VirtualenvManager
+MozSiteManager
     
 from
 moztreedocs
@@ -969,9 +969,9 @@ manager
 .
 topsrcdir
     
-ve
+site
 =
-VirtualenvManager
+MozSiteManager
 (
         
 topsrcdir
@@ -996,13 +996,13 @@ common
     
 )
     
-ve
+site
 .
 ensure
 (
 )
     
-ve
+site
 .
 activate
 (

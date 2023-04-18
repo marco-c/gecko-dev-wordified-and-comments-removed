@@ -19,7 +19,7 @@ CalledProcessError
 from
 mach
 .
-virtualenv
+site
 import
 VirtualenvHelper
 from

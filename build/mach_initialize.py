@@ -1388,24 +1388,24 @@ pyparsing
 from
 mach
 .
-virtualenv
+site
 import
 (
         
-MozVirtualenvMetadata
+MozSiteMetadata
         
-MozVirtualenvMetadataOutOfDateError
+MozSiteMetadataOutOfDateError
         
-VirtualenvManager
+MozSiteManager
     
 )
     
 try
 :
         
-mach_virtualenv
+mach_site
 =
-VirtualenvManager
+MozSiteManager
 (
             
 topsrcdir
@@ -1428,33 +1428,29 @@ mach
         
 )
         
-active_metadata
+active_site_metadata
 =
-MozVirtualenvMetadata
+MozSiteMetadata
 .
 from_runtime
 (
 )
         
-is_mach_virtualenv
+is_mach_site
 =
-(
-            
-active_metadata
+active_site_metadata
 and
-active_metadata
+active_site_metadata
 .
-virtualenv_name
+site_name
 =
 =
 "
 mach
 "
-        
-)
     
 except
-MozVirtualenvMetadataOutOfDateError
+MozSiteMetadataOutOfDateError
 as
 e
 :
@@ -1496,7 +1492,7 @@ exit
     
 requirements
 =
-mach_virtualenv
+mach_site
 .
 requirements
 (
@@ -1836,12 +1832,12 @@ topsrcdir
 )
     
 elif
-is_mach_virtualenv
+is_mach_site
 :
         
 if
 not
-mach_virtualenv
+mach_site
 .
 up_to_date
 (

@@ -69,7 +69,7 @@ moz_virtualenv_metadata
 json
 "
 class
-MozVirtualenvMetadataOutOfDateError
+MozSiteMetadataOutOfDateError
 (
 Exception
 )
@@ -77,28 +77,20 @@ Exception
     
 pass
 class
-MozVirtualenvMetadata
+MozSiteMetadata
 :
     
 "
 "
 "
+Details
+about
+a
 Moz
 -
-specific
-information
-that
-is
-encoded
-into
-a
-file
-at
-the
-root
-of
-a
-virtualenv
+managed
+python
+environment
 "
 "
 "
@@ -108,7 +100,7 @@ __init__
 (
 self
 hex_version
-virtualenv_name
+site_name
 file_path
 )
 :
@@ -121,9 +113,9 @@ hex_version
         
 self
 .
-virtualenv_name
+site_name
 =
-virtualenv_name
+site_name
         
 self
 .
@@ -154,7 +146,7 @@ virtualenv_name
 :
 self
 .
-virtualenv_name
+site_name
 }
         
 with
@@ -214,12 +206,12 @@ hex_version
 and
 self
 .
-virtualenv_name
+site_name
 =
 =
 other
 .
-virtualenv_name
+site_name
         
 )
     
@@ -318,13 +310,14 @@ KeyError
 :
             
 raise
-MozVirtualenvMetadataOutOfDateError
+MozSiteMetadataOutOfDateError
 (
                 
 f
 '
 The
-virtualenv
+moz
+site
 metadata
 at
 "
@@ -475,7 +468,7 @@ bin_path
 binary
 )
 class
-VirtualenvManager
+MozSiteManager
 (
 VirtualenvHelper
 )
@@ -488,7 +481,10 @@ Contains
 logic
 for
 managing
-virtualenvs
+the
+Python
+import
+scope
 for
 building
 the
@@ -508,7 +504,7 @@ topsrcdir
         
 virtualenvs_dir
         
-virtualenv_name
+site_name
         
 *
         
@@ -528,12 +524,12 @@ path
 join
 (
 virtualenvs_dir
-virtualenv_name
+site_name
 )
         
 super
 (
-VirtualenvManager
+MozSiteManager
 self
 )
 .
@@ -582,9 +578,9 @@ txt
         
 self
 .
-_virtualenv_name
+_site_name
 =
-virtualenv_name
+site_name
         
 self
 .
@@ -606,7 +602,7 @@ build
 f
 "
 {
-virtualenv_name
+site_name
 }
 _virtualenv_packages
 .
@@ -619,14 +615,14 @@ self
 .
 _metadata
 =
-MozVirtualenvMetadata
+MozSiteMetadata
 (
             
 sys
 .
 hexversion
             
-virtualenv_name
+site_name
             
 os
 .
@@ -851,17 +847,15 @@ try
             
 existing_metadata
 =
-MozVirtualenvMetadata
+MozSiteMetadata
 .
 from_path
 (
-                
 self
 .
 _metadata
 .
 file_path
-            
 )
             
 if
@@ -877,7 +871,7 @@ return
 False
         
 except
-MozVirtualenvMetadataOutOfDateError
+MozSiteMetadataOutOfDateError
 :
             
 return
@@ -1017,7 +1011,7 @@ self
 "
 Ensure
 the
-virtualenv
+site
 is
 present
 and
@@ -1028,7 +1022,7 @@ date
         
 If
 the
-virtualenv
+site
 is
 up
 to
@@ -1043,7 +1037,7 @@ it
 creates
 and
 populates
-the
+a
 virtualenv
 as
 necessary
@@ -1323,17 +1317,17 @@ the
 {
 self
 .
-_virtualenv_name
+_site_name
 }
 "
 '
                 
 "
-virtualenv
+site
 .
 However
 that
-virtualenv
+site
 is
 missing
 its
@@ -1411,7 +1405,7 @@ is_thunderbird
             
 self
 .
-_virtualenv_name
+_site_name
 in
 (
 "
@@ -1676,10 +1670,11 @@ self
 "
 "
 Activate
-the
-virtualenv
-in
 this
+site
+in
+the
+current
 Python
 context
 .
@@ -1699,7 +1694,7 @@ activate
 "
 the
         
-virtualenv
+site
 you
 can
 simply

@@ -187,9 +187,9 @@ six
 from
 mach
 .
-virtualenv
+site
 import
-VirtualenvManager
+MozSiteManager
 from
 mozbuild
 .
@@ -1551,9 +1551,9 @@ __file__
 )
 )
     
-build_venv
+build_site
 =
-VirtualenvManager
+MozSiteManager
 (
         
 topsrcdir
@@ -1578,7 +1578,7 @@ build
     
 if
 not
-build_venv
+build_site
 .
 up_to_date
 (
@@ -1595,13 +1595,13 @@ virtualenv
 "
 )
         
-build_venv
+build_site
 .
 build
 (
 )
     
-build_venv
+build_site
 .
 activate
 (

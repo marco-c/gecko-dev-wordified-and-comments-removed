@@ -23,7 +23,7 @@ requirements
 import
 MachEnvRequirements
 def
-_resolve_command_virtualenv_names
+_resolve_command_site_names
 (
 )
 :
@@ -503,15 +503,15 @@ whl_path
 return
 whl_path
 def
-test_virtualenvs_compatible
+test_sites_compatible
 (
 tmpdir
 )
 :
     
-command_virtualenv_names
+command_site_names
 =
-_resolve_command_virtualenv_names
+_resolve_command_site_names
 (
 )
     
@@ -604,7 +604,7 @@ env
 for
 name
 in
-command_virtualenv_names
+command_site_names
 :
         
 print
@@ -619,7 +619,7 @@ of
 name
 }
 "
-virtualenv
+site
 '
 )
         

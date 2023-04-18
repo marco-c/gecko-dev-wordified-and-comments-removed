@@ -248,7 +248,7 @@ the
 dependencies
 of
 a
-virtualenv
+site
 .
 The
 source
@@ -305,6 +305,8 @@ under
         
 the
 virtualenv
+'
+s
 site
 packages
 directory
@@ -341,7 +343,7 @@ PyPI
 Continue
 using
 the
-virtualenv
+site
 even
 if
 the
@@ -730,7 +732,7 @@ topsrcdir
         
 is_thunderbird
         
-is_mach_or_build_virtualenv
+is_mach_or_build_site
         
 requirements_definition
     
@@ -754,7 +756,7 @@ topsrcdir
             
 is_thunderbird
             
-is_mach_or_build_virtualenv
+is_mach_or_build_site
         
 )
         
@@ -772,7 +774,7 @@ topsrcdir
     
 is_thunderbird
     
-is_mach_or_build_virtualenv
+is_mach_or_build_site
 )
 :
     
@@ -1125,13 +1127,11 @@ append
                 
 PypiSpecifier
 (
-                    
 _parse_package_specifier
 (
 params
-is_mach_or_build_virtualenv
+is_mach_or_build_site
 )
-                
 )
             
 )
@@ -1247,10 +1247,8 @@ repercussion
                     
 _parse_package_specifier
 (
-                        
 raw_requirement
-is_mach_or_build_virtualenv
-                    
+is_mach_or_build_site
 )
                 
 )
@@ -1408,7 +1406,7 @@ def
 _parse_package_specifier
 (
 raw_requirement
-is_mach_or_build_virtualenv
+is_mach_or_build_site
 )
 :
     
@@ -1421,7 +1419,7 @@ raw_requirement
     
 if
 not
-is_mach_or_build_virtualenv
+is_mach_or_build_site
 and
 [
         
@@ -1452,7 +1450,7 @@ Exception
             
 '
 All
-virtualenvs
+sites
 except
 for
 "
