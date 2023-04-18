@@ -307,6 +307,12 @@ rv
 =
 NS_OK
 ;
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 nsCOMPtr
 <
 nsIFileChannel
