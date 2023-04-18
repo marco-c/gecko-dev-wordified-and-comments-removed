@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsPrintfCString
+RemoteUtils
 .
 h
 "
 #
 include
 "
-RemoteUtils
+nsIStringBundle
 .
 h
 "

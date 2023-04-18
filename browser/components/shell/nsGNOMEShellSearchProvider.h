@@ -7,15 +7,6 @@ __nsGNOMEShellSearchProvider_h__
 #
 include
 "
-mozilla
-/
-DBusHelpers
-.
-h
-"
-#
-include
-"
 nsINavHistoryService
 .
 h

@@ -26,15 +26,6 @@ nsString
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 ifdef
 MOZ_ENABLE_DBUS
 #
