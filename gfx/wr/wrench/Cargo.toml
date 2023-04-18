@@ -515,7 +515,7 @@ sdk
 configure
 android_version
 =
-30
+31
 target_sdk_version
 =
 18

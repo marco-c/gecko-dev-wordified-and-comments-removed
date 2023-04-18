@@ -306,6 +306,13 @@ targetActivity
 .
 TestRunnerActivity
 "
+android
+:
+exported
+=
+"
+true
+"
 >
 <
 intent

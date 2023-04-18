@@ -172,6 +172,13 @@ AppTheme
 activity
 android
 :
+exported
+=
+"
+true
+"
+android
+:
 name
 =
 "
