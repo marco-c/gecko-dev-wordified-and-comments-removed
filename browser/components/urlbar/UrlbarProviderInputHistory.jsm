@@ -307,6 +307,8 @@ FROM
 moz_inputhistory
 WHERE
 input
+COLLATE
+NOCASE
 BETWEEN
 :
 search_string
