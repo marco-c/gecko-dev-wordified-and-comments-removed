@@ -1604,7 +1604,7 @@ pixel
 2
 ]
 ;
-debug
+print
 !
 (
 "
@@ -1623,11 +1623,9 @@ b
 )
 ;
 }
-debug
+println
 !
 (
-"
-"
 )
 ;
 }

@@ -4087,7 +4087,7 @@ load
 tracy_path
 )
 ;
-info
+println
 !
 (
 "
@@ -5888,10 +5888,12 @@ MarkerEXT
 }
 else
 {
-warn
+println
 !
 (
 "
+Warning
+:
 asking
 to
 enable_gpu_markers

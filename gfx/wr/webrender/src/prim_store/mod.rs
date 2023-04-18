@@ -5187,7 +5187,7 @@ cfg
 debug_assertions
 )
 ]
-info
+println
 !
 (
 "
@@ -5203,7 +5203,7 @@ self
 id
 )
 ;
-info
+println
 !
 (
 "

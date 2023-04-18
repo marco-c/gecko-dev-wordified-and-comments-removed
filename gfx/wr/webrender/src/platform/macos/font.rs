@@ -3366,7 +3366,7 @@ height
 usize
 )
 {
-debug
+println
 !
 (
 "
@@ -3459,7 +3459,7 @@ pixel
 3
 ]
 ;
-debug
+print
 !
 (
 "
@@ -3481,7 +3481,7 @@ a
 )
 ;
 }
-debug
+println
 !
 (
 )
