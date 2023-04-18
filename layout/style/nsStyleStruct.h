@@ -8645,12 +8645,6 @@ mWindowOpacity
 mozilla
 :
 :
-StyleLength
-mMozWindowInputRegionMargin
-;
-mozilla
-:
-:
 StyleTransform
 mMozWindowTransform
 ;

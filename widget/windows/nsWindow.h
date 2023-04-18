@@ -734,11 +734,10 @@ GetSizeConstraints
 override
 ;
 void
-SetInputRegion
+SetWindowMouseTransparent
 (
-const
-InputRegion
-&
+bool
+aIsTransparent
 )
 override
 ;

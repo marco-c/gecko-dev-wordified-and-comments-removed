@@ -10557,12 +10557,10 @@ void
 nsCocoaWindow
 :
 :
-SetInputRegion
+SetWindowMouseTransparent
 (
-const
-InputRegion
-&
-aInputRegion
+bool
+aIsTransparent
 )
 {
 MOZ_ASSERT
@@ -10586,9 +10584,7 @@ windows
 ;
 if
 (
-aInputRegion
-.
-mFullyTransparent
+aIsTransparent
 )
 {
 [
