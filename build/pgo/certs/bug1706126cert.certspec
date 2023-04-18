@@ -7,17 +7,6 @@ redirect
 example
 .
 com
-extension
-:
-subjectAlternativeName
-:
-www
-.
-redirect
--
-example
-.
-com
 issuer
 :
 printableString
