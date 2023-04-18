@@ -7965,7 +7965,7 @@ if
 InitPropertyOperation
 (
 cx
-op
+pc
 obj
 name
 rhs
