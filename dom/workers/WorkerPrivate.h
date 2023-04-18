@@ -244,17 +244,6 @@ mozilla
 /
 dom
 /
-WorkerScope
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WorkerStatus
 .
 h
