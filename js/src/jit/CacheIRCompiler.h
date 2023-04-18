@@ -4687,6 +4687,16 @@ AutoScratchRegisterMaybeOutputType
 =
 delete
 ;
+Register
+get
+(
+)
+const
+{
+return
+scratchReg_
+;
+}
 operator
 Register
 (
