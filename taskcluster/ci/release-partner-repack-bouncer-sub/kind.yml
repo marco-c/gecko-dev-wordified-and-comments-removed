@@ -72,14 +72,6 @@ gecko_taskgraph
 .
 transforms
 .
-release
-:
-run_on_releases
--
-gecko_taskgraph
-.
-transforms
-.
 bouncer_submission_partners
 :
 transforms
