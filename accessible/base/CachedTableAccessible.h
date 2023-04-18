@@ -1214,6 +1214,13 @@ return
 mAcc
 ;
 }
+virtual
+bool
+IsProbablyLayoutTable
+(
+)
+override
+;
 private
 :
 explicit
