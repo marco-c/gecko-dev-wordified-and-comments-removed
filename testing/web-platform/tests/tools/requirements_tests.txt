@@ -33,14 +33,6 @@ pyyaml
 6
 .
 0
-requests
-=
-=
-2
-.
-27
-.
-1
 taskcluster
 =
 =
