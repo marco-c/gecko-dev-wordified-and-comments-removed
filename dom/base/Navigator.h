@@ -1149,6 +1149,16 @@ NotifyActiveVRDisplaysChanged
 (
 )
 ;
+bool
+TestTrialGatedAttribute
+(
+)
+const
+{
+return
+true
+;
+}
 private
 :
 virtual
