@@ -65,7 +65,6 @@ MOZ_DEFINE_ENUM_AT_CLASS_SCOPE
 RendertraceProperty
 (
 Page
-PaintedCriticalDisplayPort
 PaintedDisplayPort
 RequestedDisplayPort
 UserVisible

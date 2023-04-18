@@ -63,11 +63,6 @@ page
 "
 "
 painted
-critical
-displayport
-"
-"
-painted
 displayport
 "
 "
@@ -92,9 +87,6 @@ sColors
 {
 "
 brown
-"
-"
-darkgreen
 "
 "
 lightgreen
