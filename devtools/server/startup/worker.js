@@ -375,12 +375,6 @@ attached
 }
 )
 ;
-workerTargetActor
-.
-attach
-(
-)
-;
 connections
 .
 set
