@@ -4893,6 +4893,13 @@ this
 _currentWebVTTTrack
 )
 {
+this
+.
+setUpCaptionChangeListener
+(
+originatingVideo
+)
+;
 return
 ;
 }
@@ -6494,6 +6501,11 @@ mode
 "
 showing
 "
+&
+&
+track
+.
+cues
 )
 {
 this
