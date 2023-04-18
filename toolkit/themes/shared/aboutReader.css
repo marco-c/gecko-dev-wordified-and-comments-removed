@@ -599,6 +599,15 @@ colours
 *
 /
 }
+pre
+{
+font
+-
+family
+:
+inherit
+;
+}
 body
 .
 sepia
