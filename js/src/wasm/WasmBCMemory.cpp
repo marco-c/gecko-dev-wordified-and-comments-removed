@@ -1248,6 +1248,12 @@ ptr
 #
 endif
 }
+#
+if
+defined
+(
+ENABLE_WASM_MEMORY64
+)
 static
 inline
 void
@@ -1261,6 +1267,8 @@ ptr
 )
 {
 }
+#
+endif
 template
 <
 typename
