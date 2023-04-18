@@ -1666,6 +1666,16 @@ DownloadsPanel
 showPanel
 (
 true
+aEvent
+.
+type
+.
+startsWith
+(
+"
+key
+"
+)
 )
 ;
 aEvent

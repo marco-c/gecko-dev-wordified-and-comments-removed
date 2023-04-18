@@ -651,6 +651,9 @@ showPanel
 openedManually
 =
 false
+isKeyPress
+=
+false
 )
 {
 Services
@@ -735,6 +738,7 @@ this
 _openPopupIfDataReady
 (
 openedManually
+isKeyPress
 )
 0
 )
@@ -2244,6 +2248,7 @@ true
 _openPopupIfDataReady
 (
 openedManually
+isKeyPress
 )
 {
 if
@@ -2403,6 +2408,18 @@ popup
 "
 )
 ;
+if
+(
+isKeyPress
+)
+{
+this
+.
+keyFocusing
+=
+true
+;
+}
 setTimeout
 (
 (
