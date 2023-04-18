@@ -639,6 +639,7 @@ dllSvc
 >
 StartUntrustedModulesProcessor
 (
+false
 )
 ;
 }
