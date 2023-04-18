@@ -1641,6 +1641,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 ReadableByteStreamControllerCallPullIfNeeded
@@ -1656,6 +1657,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetUpReadableByteStreamControllerFromUnderlyingSource
 (
