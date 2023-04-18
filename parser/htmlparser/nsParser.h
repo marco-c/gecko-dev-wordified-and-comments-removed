@@ -504,15 +504,6 @@ DidBuildModel
 private
 :
 nsresult
-Tokenize
-(
-bool
-aIsFinalChunk
-=
-false
-)
-;
-nsresult
 Parse
 (
 const
