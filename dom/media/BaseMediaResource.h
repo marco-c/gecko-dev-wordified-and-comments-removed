@@ -331,7 +331,7 @@ BaseMediaResource
 =
 default
 ;
-void
+nsresult
 ModifyLoadFlags
 (
 nsLoadFlags

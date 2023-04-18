@@ -1514,6 +1514,10 @@ nsIRequest
 LOAD_BACKGROUND
 )
 {
+NS_WARN_IF
+(
+NS_FAILED
+(
 ModifyLoadFlags
 (
 loadFlags
@@ -1523,6 +1527,8 @@ nsIRequest
 :
 :
 LOAD_BACKGROUND
+)
+)
 )
 ;
 }
