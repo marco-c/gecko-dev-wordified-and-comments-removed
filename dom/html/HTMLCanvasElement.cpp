@@ -5579,14 +5579,6 @@ frame
 )
 return
 ;
-ActiveLayerTracker
-:
-:
-NotifyContentChange
-(
-frame
-)
-;
 CanvasRenderer
 *
 renderer
