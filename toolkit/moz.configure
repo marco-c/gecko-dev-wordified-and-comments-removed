@@ -9885,6 +9885,9 @@ ogg
 "
 hunspell
 "
+"
+expat
+"
 )
 depends
 (
