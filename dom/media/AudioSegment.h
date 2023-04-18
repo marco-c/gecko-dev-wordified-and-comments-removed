@@ -2270,8 +2270,7 @@ aChannels
 )
 const
 ;
-AudioChunk
-*
+void
 AppendAndConsumeChunk
 (
 AudioChunk
@@ -2376,9 +2375,6 @@ aChunk
 .
 mPrincipalHandle
 )
-;
-return
-chunk
 ;
 }
 void
