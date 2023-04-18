@@ -2035,16 +2035,6 @@ color
 is_system
 (
 )
-|
-|
-alpha_channel
-(
-color
-context
-)
-=
-=
-0
 {
 return
 ;
