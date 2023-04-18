@@ -4443,8 +4443,9 @@ in_media_query
 :
 false
 quirks_mode
+container_info
 :
-quirks_mode
+None
 for_smil_animation
 :
 false
