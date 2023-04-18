@@ -4998,6 +4998,12 @@ HitTestingTreeNode
 aNextSibling
 )
 {
+mTreeLock
+.
+AssertCurrentThreadIn
+(
+)
+;
 if
 (
 aNextSibling
