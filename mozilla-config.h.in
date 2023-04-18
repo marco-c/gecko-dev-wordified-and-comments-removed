@@ -194,8 +194,17 @@ family
 define
 __STDC_LIMIT_MACROS
 #
+if
+!
+defined
+(
+__STDC_CONSTANT_MACROS
+)
+#
 define
 __STDC_CONSTANT_MACROS
+#
+endif
 #
 if
 !
