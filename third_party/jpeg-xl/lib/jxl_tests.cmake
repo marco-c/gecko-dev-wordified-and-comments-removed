@@ -51,11 +51,6 @@ ac_strategy_test
 cc
 jxl
 /
-adaptive_reconstruction_test
-.
-cc
-jxl
-/
 alpha_test
 .
 cc
@@ -111,11 +106,6 @@ color_management_test
 cc
 jxl
 /
-compressed_image_test
-.
-cc
-jxl
-/
 convolve_test
 .
 cc
@@ -167,11 +157,6 @@ cc
 jxl
 /
 fields_test
-.
-cc
-jxl
-/
-filters_internal_test
 .
 cc
 jxl

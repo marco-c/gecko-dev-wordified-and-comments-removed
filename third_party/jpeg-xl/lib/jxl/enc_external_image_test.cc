@@ -170,7 +170,7 @@ ColorEncoding
 SRGB
 (
 )
-true
+4
 false
 16
 JXL_BIG_ENDIAN
@@ -209,7 +209,7 @@ ColorEncoding
 SRGB
 (
 )
-true
+4
 false
 16
 JXL_BIG_ENDIAN
@@ -246,7 +246,7 @@ ColorEncoding
 SRGB
 (
 )
-true
+4
 false
 16
 JXL_BIG_ENDIAN
@@ -335,7 +335,7 @@ ColorEncoding
 SRGB
 (
 )
-true
+4
 false
 8
 JXL_BIG_ENDIAN

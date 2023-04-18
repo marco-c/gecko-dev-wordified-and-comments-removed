@@ -1245,7 +1245,7 @@ find_package
 LCMS2
 2
 .
-10
+13
 )
 if
 (

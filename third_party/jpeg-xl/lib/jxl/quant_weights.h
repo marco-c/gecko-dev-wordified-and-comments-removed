@@ -2186,7 +2186,7 @@ Status
 EnsureComputed
 (
 uint32_t
-kind_mask
+acs_mask
 )
 ;
 private

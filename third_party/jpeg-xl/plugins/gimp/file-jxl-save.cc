@@ -3894,13 +3894,12 @@ false
 }
 if
 (
+!
 icc
 .
-size
+empty
 (
 )
->
-0
 &
 &
 !

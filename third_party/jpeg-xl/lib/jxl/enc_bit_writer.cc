@@ -704,15 +704,14 @@ GetSpan
 ;
 if
 (
+!
 span
 .
-size
+empty
 (
 )
-!
-=
-0
 )
+{
 memcpy
 (
 storage_
@@ -743,6 +742,7 @@ size
 (
 )
 ;
+}
 }
 storage_
 [

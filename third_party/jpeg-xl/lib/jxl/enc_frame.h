@@ -179,6 +179,14 @@ extra_channel_blending_info
 }
 ;
 Status
+ParamsPostInit
+(
+CompressParams
+*
+p
+)
+;
+Status
 EncodeFrame
 (
 const

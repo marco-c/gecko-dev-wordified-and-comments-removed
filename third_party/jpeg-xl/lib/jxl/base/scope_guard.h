@@ -88,6 +88,7 @@ template
 typename
 CallbackParam
 >
+explicit
 ScopeGuard
 (
 CallbackParam
@@ -167,6 +168,10 @@ callback
 )
 {
 return
+ScopeGuard
+<
+Callback
+>
 {
 std
 :

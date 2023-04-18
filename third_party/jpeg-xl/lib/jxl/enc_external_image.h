@@ -159,8 +159,8 @@ const
 ColorEncoding
 &
 c_current
-bool
-has_alpha
+size_t
+channels
 bool
 alpha_is_premultiplied
 size_t

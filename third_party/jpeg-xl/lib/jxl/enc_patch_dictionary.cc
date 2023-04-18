@@ -6168,9 +6168,9 @@ nullptr
 )
 )
 ;
-if
-(
-!
+size_t
+ref_xsize
+=
 dec_state
 .
 shared_storage
@@ -6190,7 +6190,13 @@ color
 xsize
 (
 )
+;
+if
+(
+!
+ref_xsize
 )
+{
 JXL_CHECK
 (
 DecodeFrame
@@ -6215,6 +6221,7 @@ nullptr
 )
 )
 ;
+}
 JXL_CHECK
 (
 br

@@ -18,6 +18,17 @@ CodecInOut
 io
 )
 ;
+struct
+ImageMetadata
+;
+void
+SetIntensityTarget
+(
+ImageMetadata
+*
+m
+)
+;
 }
 #
 endif

@@ -3585,14 +3585,13 @@ ftyp
 ;
 while
 (
+!
 in
 -
 >
-size
+empty
 (
 )
->
-0
 )
 {
 Box

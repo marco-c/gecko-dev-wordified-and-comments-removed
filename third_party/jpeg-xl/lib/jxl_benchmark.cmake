@@ -75,11 +75,6 @@ dec_external_image_gbench
 cc
 jxl
 /
-dec_reconstruct_gbench
-.
-cc
-jxl
-/
 enc_external_image_gbench
 .
 cc

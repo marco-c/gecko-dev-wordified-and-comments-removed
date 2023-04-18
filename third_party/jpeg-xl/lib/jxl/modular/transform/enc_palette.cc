@@ -4646,9 +4646,6 @@ nb_deltas_orig
 =
 nb_deltas
 ;
-bool
-status
-;
 if
 (
 (
@@ -4670,8 +4667,8 @@ bitdepth
 8
 )
 {
-status
-=
+JXL_RETURN_IF_ERROR
+(
 FwdPaletteIteration
 (
 input
@@ -4684,6 +4681,7 @@ lossy
 predictor
 wp_header
 palette_iteration_data
+)
 )
 ;
 }
@@ -4701,8 +4699,7 @@ nb_deltas
 =
 nb_deltas_orig
 ;
-status
-=
+return
 FwdPaletteIteration
 (
 input
@@ -4716,9 +4713,6 @@ predictor
 wp_header
 palette_iteration_data
 )
-;
-return
-status
 ;
 }
 }

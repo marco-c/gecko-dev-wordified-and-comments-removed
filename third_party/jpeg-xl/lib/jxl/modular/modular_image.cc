@@ -170,7 +170,7 @@ iw
 size_t
 ih
 int
-bd
+bitdepth
 int
 nb_chans
 )
@@ -185,7 +185,7 @@ ih
 )
 bitdepth
 (
-bd
+bitdepth
 )
 nb_meta_channels
 (

@@ -62,14 +62,6 @@ coalescing
 =
 true
 ;
-Override
-preview
-=
-Override
-:
-:
-kDefault
-;
 uint32_t
 max_passes
 =

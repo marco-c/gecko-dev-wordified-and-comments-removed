@@ -1997,6 +1997,7 @@ if
 !
 in_place
 )
+{
 return
 JXL_FAILURE
 (
@@ -2014,6 +2015,7 @@ residuals
 "
 )
 ;
+}
 image
 .
 nb_meta_channels

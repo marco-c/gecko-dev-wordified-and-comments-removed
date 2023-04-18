@@ -783,6 +783,7 @@ EncodeImagePNM
 ppf
 bits_per_sample
 pool
+0
 &
 bytes_vector
 )
