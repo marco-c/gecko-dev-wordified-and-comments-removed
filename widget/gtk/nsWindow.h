@@ -2194,10 +2194,6 @@ LayoutDeviceIntRect
 (
 )
 ;
-mMoveToRectPopupRectCleared
-=
-true
-;
 }
 ;
 #
@@ -2927,11 +2923,6 @@ mPopupClosed
 ;
 bool
 mPopupUseMoveToRect
-:
-1
-;
-bool
-mMoveToRectPopupRectCleared
 :
 1
 ;
