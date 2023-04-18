@@ -393,7 +393,7 @@ void
 ProcessChild
 :
 :
-NotifyImpendingShutdown
+NotifiedImpendingShutdown
 (
 )
 {

@@ -149,7 +149,7 @@ mUILoop
 }
 static
 void
-NotifyImpendingShutdown
+NotifiedImpendingShutdown
 (
 )
 ;
