@@ -1039,17 +1039,6 @@ IsBorderCollapse
 )
 )
 {
-const
-bool
-rebuild
-=
-StaticPrefs
-:
-:
-layout_display_list_retain_sc
-(
-)
-;
 GetParent
 (
 )
@@ -1065,7 +1054,7 @@ GetPosition
 (
 )
 aDisplayItemKey
-rebuild
+false
 )
 ;
 }
@@ -1109,7 +1098,7 @@ GetPosition
 (
 )
 aDisplayItemKey
-aRebuildDisplayItems
+false
 )
 ;
 }
