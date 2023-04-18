@@ -1024,7 +1024,7 @@ mCurrentPosition
 )
 {
 return
-0
+nullptr
 ;
 }
 info
@@ -1043,7 +1043,7 @@ mWindowWatcher
 >
 mOldestWindow
 ?
-0
+nullptr
 :
 info
 ;
@@ -1082,7 +1082,7 @@ aInfo
 >
 mYounger
 :
-0
+nullptr
 ;
 }
 }
@@ -1113,7 +1113,7 @@ mEnumeratorList
 )
 mOldestWindow
 (
-0
+nullptr
 )
 mListLock
 (
@@ -2767,7 +2767,7 @@ aResult
 *
 aResult
 =
-0
+nullptr
 ;
 if
 (
@@ -6732,7 +6732,7 @@ domwin
 "
 domwindowopened
 "
-0
+nullptr
 )
 ;
 }
@@ -6821,7 +6821,7 @@ mOldestWindow
 ;
 listEnd
 =
-0
+nullptr
 ;
 while
 (
@@ -6859,7 +6859,7 @@ mOldestWindow
 ;
 }
 return
-0
+nullptr
 ;
 }
 nsresult
@@ -6935,7 +6935,7 @@ mYounger
 =
 mOldestWindow
 ?
-0
+nullptr
 :
 aInfo
 -
@@ -6996,7 +6996,7 @@ domwin
 "
 domwindowclosed
 "
-0
+nullptr
 )
 ;
 }
@@ -7039,7 +7039,7 @@ NS_ERROR_INVALID_ARG
 *
 aResult
 =
-0
+nullptr
 ;
 MutexAutoLock
 lock
