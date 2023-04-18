@@ -144,12 +144,6 @@ defined
 (
 _WIN32
 )
-|
-|
-defined
-(
-__CYGWIN__
-)
 #
 define
 WIDECHAR
@@ -685,6 +679,9 @@ level
 ;
 int
 strategy
+;
+int
+reset
 ;
 z_off64_t
 skip

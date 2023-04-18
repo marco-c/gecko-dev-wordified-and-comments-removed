@@ -1119,7 +1119,7 @@ groups
 )
 ;
 void
-DisableECDHEServerKeyReuse
+EnableECDHEServerKeyReuse
 (
 )
 ;

@@ -18,9 +18,9 @@ Version
 .
 2
 .
-11
+12
 (
-cacf7f1d4e3d44d871b605da3b647f07d718623f
+21767c654d31d2dccdde4330529775c6c5fd5389
 )
 License
 :
@@ -46,14 +46,6 @@ NSS
 uses
 zlib
 in
-libSSL
-(
-for
-the
-DEFLATE
-compression
-method
-)
 modutil
 and
 signtool

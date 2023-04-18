@@ -276,10 +276,6 @@ RESUME_NONE
 RESUME_NONE
 )
 ;
-DisableECDHEServerKeyReuse
-(
-)
-;
 EXPECT_EQ
 (
 SECSuccess
@@ -339,10 +335,6 @@ ConfigureSessionCache
 (
 RESUME_NONE
 RESUME_NONE
-)
-;
-DisableECDHEServerKeyReuse
-(
 )
 ;
 EXPECT_EQ
@@ -439,10 +431,6 @@ ConfigureSessionCache
 (
 RESUME_NONE
 RESUME_NONE
-)
-;
-DisableECDHEServerKeyReuse
-(
 )
 ;
 DataBuffer

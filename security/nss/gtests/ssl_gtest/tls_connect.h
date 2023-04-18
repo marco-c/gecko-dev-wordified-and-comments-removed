@@ -779,7 +779,7 @@ expected
 )
 ;
 void
-DisableECDHEServerKeyReuse
+EnableECDHEServerKeyReuse
 (
 )
 ;

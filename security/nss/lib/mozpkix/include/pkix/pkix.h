@@ -52,6 +52,15 @@ Input
 cert
 Input
 hostname
+)
+;
+Result
+CheckCertHostname
+(
+Input
+cert
+Input
+hostname
 NameMatchingPolicy
 &
 nameMatchingPolicy
