@@ -1246,7 +1246,6 @@ msg
 ;
 ReentrantMonitor
 monitor_
-MOZ_UNANNOTATED
 ;
 bool
 err_

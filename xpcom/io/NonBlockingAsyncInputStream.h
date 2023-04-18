@@ -199,7 +199,6 @@ mWeakTellableInputStream
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 struct
 WaitClosureOnly

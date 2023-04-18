@@ -2261,7 +2261,6 @@ base_
 ;
 Mutex
 lock_
-MOZ_UNANNOTATED
 ;
 mozilla
 :

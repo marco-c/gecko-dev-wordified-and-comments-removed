@@ -436,7 +436,6 @@ PerformBlockIOs
 ;
 Mutex
 mFileMutex
-MOZ_UNANNOTATED
 ;
 nsresult
 MoveBlockInFile
@@ -489,7 +488,6 @@ mFDCurrentPos
 ;
 Mutex
 mDataMutex
-MOZ_UNANNOTATED
 ;
 void
 EnsureWriteScheduled

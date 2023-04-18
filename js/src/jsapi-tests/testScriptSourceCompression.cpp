@@ -2944,7 +2944,6 @@ js
 :
 Monitor
 monitor
-MOZ_UNANNOTATED
 (
 js
 :

@@ -1234,7 +1234,6 @@ IterationWaitHelper
 {
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mNeedAnotherIteration

@@ -561,7 +561,6 @@ mCapEngine
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 MediaEngineSourceState
 mState

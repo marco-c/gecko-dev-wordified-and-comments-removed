@@ -451,7 +451,6 @@ mEntries
 ;
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <

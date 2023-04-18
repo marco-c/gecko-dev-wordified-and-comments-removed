@@ -1219,7 +1219,6 @@ mozilla
 :
 ReentrantMonitor
 mRendererMonitor
-MOZ_UNANNOTATED
 ;
 RefPtr
 <
@@ -1449,7 +1448,6 @@ mWatchManager
 mutable
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 const
 UniquePtr

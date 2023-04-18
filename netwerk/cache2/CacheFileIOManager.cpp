@@ -3196,7 +3196,6 @@ mozilla
 :
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mNotified
@@ -21210,7 +21209,6 @@ mozilla
 :
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mMonitorNotified

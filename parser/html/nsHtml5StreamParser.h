@@ -1132,7 +1132,6 @@ mozilla
 :
 Mutex
 mTokenizerMutex
-MOZ_UNANNOTATED
 ;
 nsHtml5AtomTable
 mAtomTable
@@ -1172,7 +1171,6 @@ mozilla
 :
 Mutex
 mSpeculationMutex
-MOZ_UNANNOTATED
 ;
 mozilla
 :
@@ -1284,7 +1282,6 @@ mozilla
 :
 Mutex
 mFlushTimerMutex
-MOZ_UNANNOTATED
 ;
 bool
 mFlushTimerArmed

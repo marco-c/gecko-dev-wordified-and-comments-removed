@@ -55,7 +55,6 @@ gPerformanceService
 static
 StaticMutex
 gPerformanceServiceMutex
-MOZ_UNANNOTATED
 ;
 PerformanceService
 *

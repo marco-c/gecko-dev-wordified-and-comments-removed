@@ -3077,7 +3077,6 @@ NS_OK
 static
 StaticMutex
 gTelemetryEventsMutex
-MOZ_UNANNOTATED
 ;
 void
 TelemetryEvent

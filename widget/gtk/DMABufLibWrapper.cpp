@@ -114,7 +114,6 @@ nsGbmLib
 :
 :
 sDRILock
-MOZ_UNANNOTATED
 ;
 void
 *

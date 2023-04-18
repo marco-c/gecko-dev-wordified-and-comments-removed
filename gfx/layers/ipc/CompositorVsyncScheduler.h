@@ -368,7 +368,6 @@ Observer
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 CompositorVsyncScheduler
 *
@@ -431,7 +430,6 @@ mozilla
 :
 Monitor
 mCurrentCompositeTaskMonitor
-MOZ_UNANNOTATED
 ;
 RefPtr
 <
@@ -450,7 +448,6 @@ mozilla
 :
 Monitor
 mCurrentVRTaskMonitor
-MOZ_UNANNOTATED
 ;
 RefPtr
 <

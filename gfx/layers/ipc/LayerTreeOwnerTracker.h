@@ -148,7 +148,6 @@ mozilla
 :
 Mutex
 mLayerIdsLock
-MOZ_UNANNOTATED
 ;
 std
 :

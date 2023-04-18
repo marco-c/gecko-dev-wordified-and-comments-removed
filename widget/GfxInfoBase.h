@@ -860,7 +860,6 @@ aOut
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 }
 ;

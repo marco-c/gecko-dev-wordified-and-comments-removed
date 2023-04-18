@@ -85,7 +85,6 @@ mozilla
 :
 ReentrantMonitor
 mDelegateMonitor
-MOZ_UNANNOTATED
 ;
 mozilla
 :

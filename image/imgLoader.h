@@ -1582,7 +1582,6 @@ mUncachedImages
 ;
 Mutex
 mUncachedImagesMutex
-MOZ_UNANNOTATED
 ;
 static
 double

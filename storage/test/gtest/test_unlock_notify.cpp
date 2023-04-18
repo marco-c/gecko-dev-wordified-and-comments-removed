@@ -297,7 +297,6 @@ mozilla
 :
 ReentrantMonitor
 monitor
-MOZ_UNANNOTATED
 ;
 protected
 :

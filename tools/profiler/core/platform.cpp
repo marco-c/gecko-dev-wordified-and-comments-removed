@@ -16826,7 +16826,6 @@ mDelaySpyStart
 ;
 Monitor
 mSpyingStateMonitor
-MOZ_UNANNOTATED
 {
 "
 SamplerThread

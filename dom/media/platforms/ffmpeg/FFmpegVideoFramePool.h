@@ -426,7 +426,6 @@ private
 :
 Mutex
 mSurfaceLock
-MOZ_UNANNOTATED
 ;
 nsTArray
 <

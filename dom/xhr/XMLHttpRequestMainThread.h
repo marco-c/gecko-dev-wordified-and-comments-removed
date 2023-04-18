@@ -541,7 +541,6 @@ aLength2
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 uint8_t
 *

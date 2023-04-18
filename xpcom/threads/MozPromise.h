@@ -5697,7 +5697,6 @@ mCreationSite
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 ResolveOrRejectValue
 mValue

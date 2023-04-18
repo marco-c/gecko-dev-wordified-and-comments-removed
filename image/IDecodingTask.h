@@ -242,7 +242,6 @@ MetadataDecodingTask
 }
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 NotNull
 <

@@ -383,7 +383,6 @@ mFlags
 ;
 RWLock
 mSubstitutionsLock
-MOZ_UNANNOTATED
 ;
 nsTHashMap
 <

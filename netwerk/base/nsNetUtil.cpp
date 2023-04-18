@@ -7623,7 +7623,6 @@ true
 }
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <

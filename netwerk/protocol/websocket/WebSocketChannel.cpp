@@ -2634,7 +2634,6 @@ sManager
 static
 StaticMutex
 sLock
-MOZ_UNANNOTATED
 ;
 }
 ;

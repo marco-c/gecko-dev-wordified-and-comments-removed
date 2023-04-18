@@ -181,7 +181,6 @@ mVsyncSource
 ;
 Mutex
 mCompositorObserverLock
-MOZ_UNANNOTATED
 ;
 RefPtr
 <

@@ -2031,7 +2031,6 @@ mEvictionState
 mutable
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 RefPtr
 <

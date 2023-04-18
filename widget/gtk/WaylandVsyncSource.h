@@ -225,7 +225,6 @@ aVsyncTimestamp
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 bool
 mIsShutdown

@@ -246,7 +246,6 @@ mAsyncWaitLengthCallback
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 }
 ;

@@ -781,7 +781,6 @@ UnlockImageDataRunnable
 mutable
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 RefPtr
 <

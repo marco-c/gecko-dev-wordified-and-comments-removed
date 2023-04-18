@@ -416,7 +416,6 @@ mRevoked
 static
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
 ;
 static
 nsClassHashtable

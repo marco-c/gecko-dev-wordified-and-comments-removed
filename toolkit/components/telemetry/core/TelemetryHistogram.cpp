@@ -468,7 +468,6 @@ TelemetryIPCAccumulator
 static
 StaticMutex
 gTelemetryHistogramMutex
-MOZ_UNANNOTATED
 ;
 namespace
 {

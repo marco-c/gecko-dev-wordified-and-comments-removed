@@ -436,7 +436,6 @@ mCallbacks
 ;
 Mutex
 mCleanUpLock
-MOZ_UNANNOTATED
 ;
 }
 ;

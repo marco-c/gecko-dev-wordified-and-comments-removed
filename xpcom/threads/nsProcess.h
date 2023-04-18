@@ -231,7 +231,6 @@ mozilla
 :
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 bool
 mShutdown

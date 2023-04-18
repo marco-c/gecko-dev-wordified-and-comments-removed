@@ -98,7 +98,6 @@ mIdentifier
 static
 StaticMutex
 sLock
-MOZ_UNANNOTATED
 ;
 static
 BrowserProcessSubThread

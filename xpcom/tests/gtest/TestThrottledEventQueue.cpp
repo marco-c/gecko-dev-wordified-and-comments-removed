@@ -1319,7 +1319,6 @@ AwaitIdle
 {
 Mutex
 mutex
-MOZ_UNANNOTATED
 (
 "
 TEQ
@@ -1607,7 +1606,6 @@ thread
 ;
 Mutex
 mutex
-MOZ_UNANNOTATED
 (
 "
 AwaitIdleMixed
@@ -2502,7 +2500,6 @@ AwaitIdlePaused
 {
 Mutex
 mutex
-MOZ_UNANNOTATED
 (
 "
 AwaitIdlePaused

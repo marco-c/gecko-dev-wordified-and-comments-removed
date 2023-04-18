@@ -603,7 +603,6 @@ args
 ;
 Mutex
 createMutex
-MOZ_UNANNOTATED
 ;
 friend
 class

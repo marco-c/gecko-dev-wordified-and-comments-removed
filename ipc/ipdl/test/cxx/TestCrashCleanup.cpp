@@ -130,7 +130,6 @@ nullptr
 ;
 Mutex
 mutex
-MOZ_UNANNOTATED
 (
 "
 TestCrashCleanup

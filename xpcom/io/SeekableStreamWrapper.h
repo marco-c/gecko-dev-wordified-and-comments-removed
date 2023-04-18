@@ -237,7 +237,6 @@ mOriginal
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 {
 "
 SeekableStreamWrapper

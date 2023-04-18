@@ -202,7 +202,6 @@ mIOLayerHelpers
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 bool
 mSocketCreated

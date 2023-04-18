@@ -503,7 +503,6 @@ mEpochData
 static
 StaticMutex
 sWindowIdLock
-MOZ_UNANNOTATED
 ;
 static
 StaticAutoPtr
@@ -532,7 +531,6 @@ mWindowId
 mutable
 Mutex
 mThreadIdLock
-MOZ_UNANNOTATED
 ;
 Maybe
 <
@@ -556,7 +554,6 @@ mRunnable
 ;
 Mutex
 mQueueLock
-MOZ_UNANNOTATED
 ;
 std
 :

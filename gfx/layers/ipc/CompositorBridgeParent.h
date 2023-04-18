@@ -3108,14 +3108,12 @@ mozilla
 :
 Monitor
 mPauseCompositionMonitor
-MOZ_UNANNOTATED
 ;
 mozilla
 :
 :
 Monitor
 mResumeCompositionMonitor
-MOZ_UNANNOTATED
 ;
 uint64_t
 mCompositorBridgeID

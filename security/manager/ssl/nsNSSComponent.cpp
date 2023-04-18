@@ -4699,7 +4699,6 @@ MOZ_NO_SMART_CARDS
 static
 StaticMutex
 sCheckForSmartCardChangesMutex
-MOZ_UNANNOTATED
 ;
 static
 TimeStamp

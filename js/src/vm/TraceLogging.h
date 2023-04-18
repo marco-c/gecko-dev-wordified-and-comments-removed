@@ -1749,7 +1749,6 @@ textId
 ;
 Mutex
 lock
-MOZ_UNANNOTATED
 ;
 TraceLoggerThreadState
 (
