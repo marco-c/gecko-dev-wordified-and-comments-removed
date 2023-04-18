@@ -193,6 +193,10 @@ defined
 (
 _WIN32
 )
+_tzset
+(
+)
+;
 return
 localtime_s
 (
@@ -210,6 +214,10 @@ defined
 (
 HAVE_LOCALTIME_R
 )
+tzset
+(
+)
+;
 return
 localtime_r
 (
