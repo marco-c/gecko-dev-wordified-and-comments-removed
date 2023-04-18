@@ -606,14 +606,12 @@ QM_TRY_UNWRAP
 (
 auto
 file
-ToResultInvoke
-<
+MOZ_TO_RESULT_INVOKE_TYPED
+(
 nsCOMPtr
 <
 nsIFile
 >
->
-(
 NS_NewLocalFile
 aPath
 false
