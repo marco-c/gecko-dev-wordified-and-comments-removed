@@ -217,7 +217,7 @@ requests
 /
 (
 by
-verifyNumberOfResourceTimingEntries
+verifyLoadedAndNoDoubleDownload
 (
 )
 )
@@ -1151,16 +1151,15 @@ events
 /
 This
 deflakes
-verifyNumberOfResourceTimingEntries
+verifyLoadedAndNoDoubleDownload
 results
 .
 await
 preloadPromise
 ;
-verifyNumberOfResourceTimingEntries
+verifyLoadedAndNoDoubleDownload
 (
 url
-1
 )
 ;
 }
