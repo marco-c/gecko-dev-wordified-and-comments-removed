@@ -98,6 +98,9 @@ true
 contentSize
 :
 true
+priority
+:
+false
 startTime
 :
 false

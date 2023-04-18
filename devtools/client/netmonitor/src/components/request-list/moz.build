@@ -91,6 +91,11 @@ RequestListColumnMethod
 js
 "
 "
+RequestListColumnPriority
+.
+js
+"
+"
 RequestListColumnProtocol
 .
 js
