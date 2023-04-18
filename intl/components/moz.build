@@ -15,6 +15,13 @@ h
 "
 src
 /
+BidiClass
+.
+h
+"
+"
+src
+/
 BidiEmbeddingLevel
 .
 h
