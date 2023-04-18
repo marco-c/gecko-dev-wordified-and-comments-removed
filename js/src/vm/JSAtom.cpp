@@ -1720,14 +1720,6 @@ i
 +
 )
 {
-HandlePropertyName
-description
-=
-descriptions
-[
-i
-]
-;
 JS
 :
 :
@@ -1741,7 +1733,7 @@ JS
 Symbol
 :
 :
-new_
+newWellKnown
 (
 cx
 JS
@@ -1751,7 +1743,10 @@ SymbolCode
 (
 i
 )
-description
+descriptions
+[
+i
+]
 )
 ;
 if

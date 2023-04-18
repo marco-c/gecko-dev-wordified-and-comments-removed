@@ -227,9 +227,8 @@ isAtomsZone
 )
 )
 ;
-if
+MOZ_ASSERT
 (
-!
 cx
 -
 >
@@ -237,11 +236,7 @@ zone
 (
 )
 )
-{
-return
-true
 ;
-}
 MOZ_ASSERT
 (
 !
