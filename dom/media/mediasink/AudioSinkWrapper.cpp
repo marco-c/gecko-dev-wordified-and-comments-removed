@@ -1075,7 +1075,7 @@ ShutdownCause
 Muting
 )
 ;
-MOZ_ASSERT
+if
 (
 rv
 .
@@ -1083,7 +1083,7 @@ isSome
 (
 )
 )
-;
+{
 mEndedPromiseHolder
 =
 std
@@ -1098,6 +1098,7 @@ ref
 )
 )
 ;
+}
 mAudioSink
 =
 nullptr
