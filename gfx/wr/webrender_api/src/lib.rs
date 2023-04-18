@@ -2281,6 +2281,14 @@ START_OBSERVING_VSYNC
 <
 18
 ;
+const
+ASYNC_IMAGE_COMPOSITE_UNTIL
+=
+1
+<
+<
+19
+;
 }
 }
 impl
