@@ -2956,7 +2956,6 @@ hidden
 )
 ;
 }
-}
 this
 .
 subItems
@@ -2965,6 +2964,7 @@ clear
 (
 )
 ;
+}
 }
 removeAllSearchTooltips
 (
