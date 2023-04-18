@@ -2970,6 +2970,7 @@ void
 *
 aClosure
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 auto
 *
@@ -3022,6 +3023,7 @@ void
 *
 aClosure
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 auto
 *
@@ -4034,11 +4036,14 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 WorkerPrivate
 *
 mWorkerPrivate
+GUARDED_BY
+(
+mMutex
+)
 ;
 nsIEventTarget
 *
@@ -13096,11 +13101,6 @@ Access
 (
 )
 ;
-MOZ_ASSERT
-(
-mThread
-)
-;
 MOZ_RELEASE_ASSERT
 (
 !
@@ -15604,6 +15604,7 @@ aRtStats
 bool
 aAnonymize
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 AssertIsOnWorkerThread
 (
