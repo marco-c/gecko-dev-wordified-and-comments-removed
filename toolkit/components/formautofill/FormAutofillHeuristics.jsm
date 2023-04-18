@@ -4873,6 +4873,10 @@ regexp
 test
 (
 string
+.
+toLowerCase
+(
+)
 )
 )
 {
