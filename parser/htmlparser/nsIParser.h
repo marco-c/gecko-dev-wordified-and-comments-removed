@@ -352,13 +352,6 @@ void
 =
 0
 ;
-NS_IMETHOD
-CancelParsingEvents
-(
-)
-=
-0
-;
 virtual
 bool
 IsInsertionPointDefined

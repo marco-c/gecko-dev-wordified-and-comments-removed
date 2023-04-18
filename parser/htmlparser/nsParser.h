@@ -359,12 +359,6 @@ Encoding
 aCharset
 )
 ;
-NS_IMETHOD
-CancelParsingEvents
-(
-)
-override
-;
 virtual
 bool
 IsInsertionPointDefined

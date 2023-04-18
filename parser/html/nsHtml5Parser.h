@@ -322,12 +322,6 @@ Terminate
 )
 override
 ;
-NS_IMETHOD
-CancelParsingEvents
-(
-)
-override
-;
 virtual
 bool
 IsInsertionPointDefined
