@@ -271,7 +271,7 @@ ShouldTimeOutCPOWs
 (
 )
 ;
-void
+nsresult
 Dispatch
 (
 already_AddRefed

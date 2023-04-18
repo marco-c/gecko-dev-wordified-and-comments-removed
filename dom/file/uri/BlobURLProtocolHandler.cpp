@@ -813,6 +813,11 @@ GetSingleton
 (
 )
 ;
+if
+(
+cc
+)
+{
 Unused
 <
 <
@@ -835,6 +840,7 @@ aPrincipal
 )
 )
 ;
+}
 }
 class
 BlobURLsReporter
