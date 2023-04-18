@@ -206,10 +206,12 @@ already_AddRefed
 <
 Function
 >
-Size
+GetSize
 (
+ErrorResult
+&
+aRv
 )
-const
 ;
 private
 :
