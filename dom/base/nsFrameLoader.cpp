@@ -16271,6 +16271,7 @@ Print
 (
 aPrintSettings
 nullptr
+nullptr
 docShellToCloneInto
 nsGlobalWindowOuter
 :

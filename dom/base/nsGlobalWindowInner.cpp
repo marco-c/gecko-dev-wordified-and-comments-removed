@@ -18105,6 +18105,7 @@ FORWARD_TO_OUTER_OR_THROW
 Print
 (
 aSettings
+nullptr
 aListener
 aDocShellToCloneInto
 nsGlobalWindowOuter

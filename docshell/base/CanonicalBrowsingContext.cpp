@@ -3715,6 +3715,7 @@ outerWindow
 Print
 (
 aPrintSettings
+nullptr
 listener
 nullptr
 nsGlobalWindowOuter
