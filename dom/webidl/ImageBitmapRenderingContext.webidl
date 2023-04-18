@@ -385,6 +385,7 @@ void
 transferFromImageBitmap
 (
 ImageBitmap
+?
 bitmap
 )
 ;
