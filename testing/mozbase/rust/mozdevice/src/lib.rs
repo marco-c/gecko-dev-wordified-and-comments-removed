@@ -3417,9 +3417,10 @@ shell_command
 .
 replace
 (
-"
 '
-"
+\
+'
+'
 "
 '
 \
@@ -3564,9 +3565,10 @@ shell_command
 .
 replace
 (
-"
 '
-"
+\
+'
+'
 "
 '
 \
