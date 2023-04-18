@@ -451,6 +451,11 @@ return
 mBrowsingContext
 ;
 }
+void
+RecomputeProcessPriority
+(
+)
+;
 already_AddRefed
 <
 nsILoadContext
