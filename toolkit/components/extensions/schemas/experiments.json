@@ -99,11 +99,6 @@ optional
 "
 :
 true
-"
-privileged
-"
-:
-true
 }
 }
 }
