@@ -777,12 +777,12 @@ defined
 (
 JS_ION_PERF
 )
-WasmPerfSpewer
+IonPerfSpewer
 wasmPerfSpewer_
 ;
 public
 :
-WasmPerfSpewer
+IonPerfSpewer
 &
 perfSpewer
 (

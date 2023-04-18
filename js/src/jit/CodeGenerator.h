@@ -1744,7 +1744,7 @@ defined
 (
 JS_ION_PERF
 )
-PerfSpewer
+IonPerfSpewer
 perfSpewer_
 ;
 #
