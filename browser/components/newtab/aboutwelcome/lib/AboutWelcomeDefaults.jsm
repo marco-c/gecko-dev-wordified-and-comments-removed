@@ -219,6 +219,9 @@ caption
 "
 }
 }
+has_noodles
+:
+true
 primary_button
 :
 {
@@ -378,6 +381,9 @@ default
 subtitle
 "
 }
+has_noodles
+:
+true
 primary_button
 :
 {
@@ -489,6 +495,9 @@ import
 subtitle
 "
 }
+has_noodles
+:
+true
 primary_button
 :
 {
@@ -606,6 +615,9 @@ theme
 subtitle
 "
 }
+has_noodles
+:
+true
 tiles
 :
 {
