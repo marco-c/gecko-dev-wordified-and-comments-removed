@@ -2018,7 +2018,7 @@ responseStatus
 &
 responseStatus
 <
-512
+600
 )
 {
 switch
