@@ -485,6 +485,13 @@ Notify
 (
 )
 {
+mResizeObserverNotificationHelper
+-
+>
+Unregister
+(
+)
+;
 if
 (
 mResizeObservers
@@ -564,13 +571,6 @@ shallowestTargetDepth
 )
 ;
 }
-mResizeObserverNotificationHelper
--
->
-Unregister
-(
-)
-;
 if
 (
 HasAnySkippedObservations
