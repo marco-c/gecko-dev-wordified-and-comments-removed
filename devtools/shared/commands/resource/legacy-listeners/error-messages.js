@@ -60,7 +60,7 @@ targetCommand
 .
 descriptorFront
 .
-isLocalTab
+isTabDescriptor
 ;
 const
 isAllowed
