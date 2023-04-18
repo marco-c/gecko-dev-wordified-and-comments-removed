@@ -1813,12 +1813,6 @@ dnl
 =
 =
 =
-MOZ_USER_DIR
-=
-"
-.
-mozilla
-"
 MOZ_FIX_LINK_PATHS
 =
 "
@@ -5041,11 +5035,6 @@ BIN_SUFFIX
 .
 exe
 '
-MOZ_USER_DIR
-=
-"
-Mozilla
-"
 case
 "
 host_os
