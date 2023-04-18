@@ -80,6 +80,7 @@ bool
 const
 char
 *
+bool
 )
 >
 &
@@ -199,6 +200,7 @@ bool
 const
 char
 *
+bool
 )
 >
 mShouldSerializeFn
