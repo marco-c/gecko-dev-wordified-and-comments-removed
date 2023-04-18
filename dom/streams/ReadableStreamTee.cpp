@@ -166,7 +166,7 @@ mTeeState
 ;
 RefPtr
 <
-ReadableStreamDefaultReader
+ReadableStreamGenericReader
 >
 reader
 (

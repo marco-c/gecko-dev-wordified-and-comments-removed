@@ -184,6 +184,9 @@ class
 UnderlyingSourceStartCallbackHelper
 ;
 class
+ReadableStreamGenericReader
+;
+class
 ReadableStreamDefaultController
 final
 :
@@ -794,7 +797,7 @@ ReadableStreamDefaultReaderRead
 JSContext
 *
 aCx
-ReadableStreamDefaultReader
+ReadableStreamGenericReader
 *
 reader
 ReadRequest

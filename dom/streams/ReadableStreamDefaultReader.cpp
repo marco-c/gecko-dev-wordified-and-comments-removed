@@ -884,7 +884,7 @@ ReadableStreamDefaultReaderRead
 JSContext
 *
 aCx
-ReadableStreamDefaultReader
+ReadableStreamGenericReader
 *
 aReader
 ReadRequest

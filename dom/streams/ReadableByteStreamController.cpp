@@ -2236,6 +2236,9 @@ ReaderType
 Default
 )
 ;
+(
+void
+)
 ReadableByteStreamControllerShiftPendingPullInto
 (
 aController
