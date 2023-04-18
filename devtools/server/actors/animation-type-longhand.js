@@ -198,11 +198,6 @@ rule
 "
 color
 -
-adjust
-"
-"
-color
--
 interpolation
 "
 "
@@ -736,6 +731,13 @@ events
 "
 "
 position
+"
+"
+print
+-
+color
+-
+adjust
 "
 "
 quotes

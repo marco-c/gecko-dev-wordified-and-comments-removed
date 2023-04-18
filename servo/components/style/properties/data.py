@@ -3010,6 +3010,10 @@ PositiveIntegerOrNone
 "
                 
 "
+PrintColorAdjust
+"
+                
+"
 Resize
 "
                 

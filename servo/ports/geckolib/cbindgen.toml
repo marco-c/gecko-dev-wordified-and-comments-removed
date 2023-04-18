@@ -992,6 +992,9 @@ DProperty
 ImageRendering
 "
 "
+PrintColorAdjust
+"
+"
 ScrollbarGutter
 "
 "

@@ -28044,10 +28044,10 @@ StyleVisibility
 )
 -
 >
-mColorAdjust
+mPrintColorAdjust
 !
 =
-StyleColorAdjust
+StylePrintColorAdjust
 :
 :
 Exact

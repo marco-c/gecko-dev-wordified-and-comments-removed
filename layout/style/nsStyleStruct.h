@@ -4894,8 +4894,8 @@ mTextOrientation
 mozilla
 :
 :
-StyleColorAdjust
-mColorAdjust
+StylePrintColorAdjust
+mPrintColorAdjust
 ;
 bool
 IsVisible

@@ -86,7 +86,10 @@ specified
 color
 :
 :
+{
 ColorScheme
+PrintColorAdjust
+}
 ;
 pub
 type

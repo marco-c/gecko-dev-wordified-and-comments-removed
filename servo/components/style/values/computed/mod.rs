@@ -476,6 +476,7 @@ Color
 ColorOrAuto
 ColorPropertyValue
 ColorScheme
+PrintColorAdjust
 }
 ;
 pub
