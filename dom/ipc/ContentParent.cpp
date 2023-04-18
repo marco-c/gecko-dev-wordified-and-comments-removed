@@ -12994,6 +12994,7 @@ ipc
 SharedPreferenceSerializer
 >
 (
+ShouldSyncPreference
 )
 ;
 if
@@ -18127,12 +18128,22 @@ changed
 )
 )
 {
+NS_LossyConvertUTF16toASCII
+strData
+(
+aData
+)
+;
 if
 (
 !
 ShouldSyncPreference
 (
-aData
+strData
+.
+Data
+(
+)
 )
 )
 {
@@ -18140,12 +18151,6 @@ return
 NS_OK
 ;
 }
-NS_LossyConvertUTF16toASCII
-strData
-(
-aData
-)
-;
 Pref
 pref
 (
@@ -19197,9 +19202,9 @@ ContentParent
 ShouldSyncPreference
 (
 const
-char16_t
+char
 *
-aData
+aPref
 )
 {
 #
@@ -19219,7 +19224,7 @@ s
 /
 sizeof
 (
-char16_t
+char
 )
 )
 -
@@ -19229,7 +19234,7 @@ struct
 ParentOnlyPrefListEntry
 {
 const
-char16_t
+char
 *
 mPrefBranch
 ;
@@ -19248,7 +19253,6 @@ sParentOnlyPrefBranchList
 {
 PARENT_ONLY_PREF_LIST_ENTRY
 (
-u
 "
 app
 .
@@ -19260,7 +19264,6 @@ lastUpdateTime
 )
 PARENT_ONLY_PREF_LIST_ENTRY
 (
-u
 "
 datareporting
 .
@@ -19270,7 +19273,6 @@ policy
 )
 PARENT_ONLY_PREF_LIST_ENTRY
 (
-u
 "
 browser
 .
@@ -19282,7 +19284,6 @@ provider
 )
 PARENT_ONLY_PREF_LIST_ENTRY
 (
-u
 "
 browser
 .
@@ -19292,7 +19293,6 @@ shell
 )
 PARENT_ONLY_PREF_LIST_ENTRY
 (
-u
 "
 browser
 .
@@ -19302,7 +19302,6 @@ slowStartup
 )
 PARENT_ONLY_PREF_LIST_ENTRY
 (
-u
 "
 browser
 .
@@ -19312,7 +19311,6 @@ startup
 )
 PARENT_ONLY_PREF_LIST_ENTRY
 (
-u
 "
 extensions
 .
@@ -19324,7 +19322,6 @@ cache
 )
 PARENT_ONLY_PREF_LIST_ENTRY
 (
-u
 "
 media
 .
@@ -19336,7 +19333,6 @@ manager
 )
 PARENT_ONLY_PREF_LIST_ENTRY
 (
-u
 "
 media
 .
@@ -19348,7 +19344,6 @@ gmpopenh264
 )
 PARENT_ONLY_PREF_LIST_ENTRY
 (
-u
 "
 privacy
 .
@@ -19373,12 +19368,12 @@ sParentOnlyPrefBranchList
 {
 if
 (
-NS_strncmp
+strncmp
 (
 entry
 .
 mPrefBranch
-aData
+aPref
 entry
 .
 mLen
