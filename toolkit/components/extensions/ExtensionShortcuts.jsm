@@ -87,11 +87,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionParent
 "
@@ -114,7 +120,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionSettingsStore
 "
@@ -137,7 +143,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -160,7 +166,7 @@ Object
 .
 defineProperties
 (
-this
+lazy
 {
 windowTracker
 :
@@ -170,6 +176,8 @@ get
 )
 {
 return
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -188,6 +196,8 @@ get
 )
 {
 return
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -206,6 +216,8 @@ get
 )
 {
 return
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -224,6 +236,8 @@ get
 )
 {
 return
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -590,6 +604,8 @@ this
 .
 _os
 =
+lazy
+.
 ExtensionParent
 .
 PlatformInfo
@@ -753,12 +769,16 @@ extensionId
 )
 {
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
 (
 )
 ;
+lazy
+.
 ExtensionSettingsStore
 .
 getAllForExtension
@@ -775,6 +795,8 @@ key
 =
 >
 {
+lazy
+.
 ExtensionSettingsStore
 .
 removeSetting
@@ -943,6 +965,8 @@ let
 previousUpdates
 =
 await
+lazy
+.
 ExtensionSettingsStore
 .
 getSetting
@@ -1035,6 +1059,8 @@ shortcut
 ;
 }
 await
+lazy
+.
 ExtensionSettingsStore
 .
 addSetting
@@ -1112,6 +1138,8 @@ name
 let
 storedCommand
 =
+lazy
+.
 ExtensionSettingsStore
 .
 getSetting
@@ -1153,6 +1181,8 @@ name
 }
 )
 ;
+lazy
+.
 ExtensionSettingsStore
 .
 removeSetting
@@ -1317,6 +1347,8 @@ for
 let
 window
 of
+lazy
+.
 windowTracker
 .
 browserWindows
@@ -1386,6 +1418,8 @@ commands
 }
 }
 ;
+lazy
+.
 windowTracker
 .
 addOpenListener
@@ -1405,6 +1439,8 @@ for
 let
 window
 of
+lazy
+.
 windowTracker
 .
 browserWindows
@@ -1439,6 +1475,8 @@ remove
 ;
 }
 }
+lazy
+.
 windowTracker
 .
 removeOpenListener
@@ -1467,6 +1505,8 @@ let
 PlatformInfo
 }
 =
+lazy
+.
 ExtensionParent
 ;
 let
@@ -1561,6 +1601,8 @@ extensionId
 )
 {
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -1570,6 +1612,8 @@ initialize
 let
 names
 =
+lazy
+.
 ExtensionSettingsStore
 .
 getAllForExtension
@@ -1595,6 +1639,8 @@ name
 let
 command
 =
+lazy
+.
 ExtensionSettingsStore
 .
 getSetting
@@ -1641,6 +1687,8 @@ extension
 privateBrowsingAllowed
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -1966,12 +2014,18 @@ actionFor
 _execute_action
 ]
 :
+lazy
+.
 browserActionFor
 _execute_page_action
 :
+lazy
+.
 pageActionFor
 _execute_sidebar_action
 :
+lazy
+.
 sidebarActionFor
 }
 [
