@@ -44,6 +44,10 @@ webidl_typename
 "
 allcaps_name
 "
+        
+"
+crash_ping
+"
     
 ]
 )
@@ -83,6 +87,8 @@ Browser
 "
 DEFAULT
 "
+        
+False
     
 )
     
@@ -118,6 +124,8 @@ Content
 "
 CONTENT
 "
+        
+True
     
 )
     
@@ -153,6 +161,8 @@ IpdlUnitTest
 "
 IPDLUNITTEST
 "
+        
+False
     
 )
     
@@ -188,6 +198,8 @@ GmpPlugin
 "
 GMPLUGIN
 "
+        
+False
     
 )
     
@@ -223,6 +235,8 @@ Gpu
 "
 GPU
 "
+        
+True
     
 )
     
@@ -258,6 +272,8 @@ Vr
 "
 VR
 "
+        
+True
     
 )
     
@@ -293,6 +309,8 @@ Rdd
 "
 RDD
 "
+        
+True
     
 )
     
@@ -328,6 +346,8 @@ Socket
 "
 SOCKET
 "
+        
+True
     
 )
     
@@ -363,6 +383,8 @@ RemoteSandboxBroker
 "
 REMOTESANDBOXBROKER
 "
+        
+False
     
 )
     
@@ -398,6 +420,8 @@ ForkServer
 "
 FORKSERVER
 "
+        
+False
     
 )
 ]

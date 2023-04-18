@@ -235,7 +235,14 @@ isOfType
 (
 cm
 .
-PROCESS_TYPE_MAIN
+processTypes
+[
+Ci
+.
+nsIXULRuntime
+.
+PROCESS_TYPE_DEFAULT
+]
 cm
 .
 CRASH_TYPE_CRASH
