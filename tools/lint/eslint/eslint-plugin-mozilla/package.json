@@ -503,11 +503,6 @@ rm
 f
 lib
 /
-modules
-.
-json
-lib
-/
 environments
 /
 saved
