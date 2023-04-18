@@ -434,6 +434,7 @@ AuthorNormal
 }
 =
 >
+{
 important_author
 .
 push
@@ -451,6 +452,7 @@ important
 )
 )
 )
+}
 UANormal
 =
 >
