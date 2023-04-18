@@ -10431,5 +10431,17 @@ return
 NS_OK
 ;
 }
+PRIntervalTime
+Http3Session
+:
+:
+LastWriteTime
+(
+)
+{
+return
+mLastWriteTime
+;
+}
 }
 }
