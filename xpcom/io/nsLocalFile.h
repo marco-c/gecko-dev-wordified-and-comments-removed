@@ -361,6 +361,17 @@ EFBIG
 return
 NS_ERROR_FILE_TOO_BIG
 ;
+#
+ifdef
+ENOATTR
+case
+ENOATTR
+:
+return
+NS_ERROR_NOT_AVAILABLE
+;
+#
+endif
 default
 :
 return
