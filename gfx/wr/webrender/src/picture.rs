@@ -21406,6 +21406,12 @@ local_clip_rect
 }
 )
 ;
+let
+mut
+backdrop_in_use_and_visible
+=
+false
+;
 if
 let
 Some
@@ -21455,12 +21461,6 @@ capabilities
 supports_surface_for_backdrop
 }
 }
-;
-let
-mut
-backdrop_in_use_and_visible
-=
-false
 ;
 if
 supports_surface_for_backdrop
@@ -21651,6 +21651,7 @@ device_rect
 }
 }
 }
+}
 if
 !
 backdrop_in_use_and_visible
@@ -21684,7 +21685,6 @@ backdrop_surface
 =
 None
 ;
-}
 }
 }
 if
