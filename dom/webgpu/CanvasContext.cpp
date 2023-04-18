@@ -405,6 +405,12 @@ mHeight
 ;
 data
 .
+mIsOpaque
+=
+false
+;
+data
+.
 mHandle
 =
 mHandle
