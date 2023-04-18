@@ -1872,6 +1872,9 @@ context
 )
 )
 ;
+nsresult
+dispatch_ack_rv
+;
 if
 (
 context
@@ -1880,6 +1883,8 @@ context
 mIsMainThreadJoining
 )
 {
+dispatch_ack_rv
+=
 SchedulerGroup
 :
 :
@@ -1899,6 +1904,8 @@ forget
 }
 else
 {
+dispatch_ack_rv
+=
 context
 -
 >
@@ -1912,6 +1919,14 @@ NS_DISPATCH_NORMAL
 )
 ;
 }
+MOZ_RELEASE_ASSERT
+(
+NS_SUCCEEDED
+(
+dispatch_ack_rv
+)
+)
+;
 self
 -
 >
