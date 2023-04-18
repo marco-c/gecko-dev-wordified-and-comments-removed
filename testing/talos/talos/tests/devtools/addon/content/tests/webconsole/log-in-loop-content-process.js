@@ -5,7 +5,6 @@ strict
 ;
 const
 {
-garbageCollect
 logTestResult
 testSetup
 testTeardown
@@ -425,11 +424,6 @@ logTestResult
 (
 label
 contentProcessConsoleAPIDuration
-)
-;
-await
-garbageCollect
-(
 )
 ;
 }
