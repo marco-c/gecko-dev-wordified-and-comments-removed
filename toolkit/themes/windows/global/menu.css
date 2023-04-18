@@ -1417,8 +1417,6 @@ true
 color
 :
 inherit
-!
-important
 ;
 }
 menubar
@@ -1459,8 +1457,6 @@ SelectedItem
 color
 :
 SelectedItemText
-!
-important
 ;
 text
 -
