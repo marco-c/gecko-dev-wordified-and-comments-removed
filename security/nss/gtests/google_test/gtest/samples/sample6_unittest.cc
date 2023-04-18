@@ -112,6 +112,9 @@ table_
 ;
 }
 ;
+#
+if
+GTEST_HAS_TYPED_TEST
 using
 testing
 :
@@ -412,6 +415,11 @@ GetNextPrime
 )
 ;
 }
+#
+endif
+#
+if
+GTEST_HAS_TYPED_TEST_P
 using
 testing
 :
@@ -742,4 +750,6 @@ PrimeTableTest2
 PrimeTableImplementations
 )
 ;
+#
+endif
 }

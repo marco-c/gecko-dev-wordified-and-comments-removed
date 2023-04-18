@@ -260,7 +260,7 @@ n
 "
 test_info
 .
-test_suite_name
+test_case_name
 (
 )
 test_info
