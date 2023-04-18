@@ -3470,6 +3470,16 @@ numDownloading
 1
 &
 &
+browserWin
+=
+=
+Services
+.
+focus
+.
+activeWindow
+&
+&
 gAlwaysOpenPanel
 ;
 if
