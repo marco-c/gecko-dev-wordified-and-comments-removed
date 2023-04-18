@@ -36,11 +36,6 @@ HostType
 var
 toolbox
 ;
-requestLongerTimeout
-(
-2
-)
-;
 const
 URL
 =

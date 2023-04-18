@@ -181,7 +181,7 @@ test
 const
 onTrackChange
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "

@@ -73,7 +73,7 @@ rendered
 let
 onUpdate
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "
@@ -168,7 +168,7 @@ info
 ;
 onUpdate
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "

@@ -42,7 +42,7 @@ item
 const
 onUpdate
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "

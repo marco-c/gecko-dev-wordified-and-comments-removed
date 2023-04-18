@@ -69,7 +69,7 @@ size
 let
 onUpdate
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "
@@ -151,7 +151,7 @@ size
 ;
 onUpdate
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "

@@ -153,7 +153,7 @@ inspector
 const
 onTrackChange
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "

@@ -130,7 +130,7 @@ panel
 const
 onTrackChange
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "
@@ -342,7 +342,7 @@ test
 const
 onTrackChange
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "

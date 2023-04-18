@@ -119,7 +119,7 @@ red
 const
 onTrackChange
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "

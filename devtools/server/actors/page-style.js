@@ -4588,17 +4588,6 @@ values
 ]
 )
 {
-if
-(
-!
-styleActor
-.
-_parentSheet
-)
-{
-continue
-;
-}
 const
 resourceId
 =
