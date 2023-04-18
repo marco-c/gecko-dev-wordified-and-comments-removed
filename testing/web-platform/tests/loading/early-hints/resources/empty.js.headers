@@ -7,3 +7,12 @@ max
 age
 =
 600
+access
+-
+control
+-
+allow
+-
+origin
+:
+*
