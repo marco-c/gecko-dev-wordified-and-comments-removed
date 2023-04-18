@@ -540,7 +540,7 @@ server
 :
 Server
 .
-HTTPS_PRIVATE
+HTTPS_LOCAL
 }
 target
 :
@@ -580,7 +580,7 @@ FAILURE
 }
 )
 "
-private
+local
 https
 to
 local
@@ -646,7 +646,7 @@ FAILURE
 }
 )
 "
-pubiic
+private
 https
 to
 local
