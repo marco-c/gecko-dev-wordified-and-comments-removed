@@ -59,6 +59,13 @@ override
 ;
 virtual
 void
+Refresh
+(
+)
+override
+;
+virtual
+void
 Open
 (
 MIDIPortParent
