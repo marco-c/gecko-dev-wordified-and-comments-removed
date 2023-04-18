@@ -334,6 +334,10 @@ logs
 /
 coverage
 /
+lcov
+-
+report
+/
 index
 .
 html

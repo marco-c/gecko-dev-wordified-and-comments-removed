@@ -222,7 +222,7 @@ reports
 :
 [
 "
-html
+lcov
 "
 "
 text
