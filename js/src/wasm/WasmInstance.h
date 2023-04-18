@@ -1653,6 +1653,16 @@ CoercionLevel
 Spec
 )
 ;
+void
+ReportTrapError
+(
+JSContext
+*
+cx
+unsigned
+errorNumber
+)
+;
 }
 }
 #
