@@ -164,8 +164,11 @@ nsString
 >
 mDictionaryList
 ;
+nsTArray
+<
 nsCString
-mPreferredLang
+>
+mPreferredLangs
 ;
 uint32_t
 mTxtSrvFilterType
@@ -187,7 +190,7 @@ DeleteSuggestedWordList
 (
 )
 ;
-void
+bool
 BuildDictionaryList
 (
 const
