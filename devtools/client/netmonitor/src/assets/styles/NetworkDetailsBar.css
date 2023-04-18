@@ -3682,6 +3682,14 @@ custom
 method
 -
 value
+{
+width
+:
+4
+.
+5em
+;
+}
 .
 network
 -
@@ -3697,9 +3705,9 @@ value
 {
 width
 :
-4
+6
 .
-5em
+0em
 ;
 }
 .
