@@ -600,10 +600,6 @@ generateEmptyGroup
 {
 return
 {
-title
-:
-"
-"
 builder
 :
 "
