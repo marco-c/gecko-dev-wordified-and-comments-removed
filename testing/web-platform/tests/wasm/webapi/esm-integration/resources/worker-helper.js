@@ -1,8 +1,13 @@
 export
-const
+function
 pm
-=
-DedicatedWorkerGlobalScope
-.
+(
+x
+)
+{
 postMessage
+(
+x
+)
 ;
+}
