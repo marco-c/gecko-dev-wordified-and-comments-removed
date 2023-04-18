@@ -57,7 +57,7 @@ class
 LocalMediaDevice
 ;
 class
-MediaEngineSource
+MediaDevice
 ;
 template
 <
@@ -2050,12 +2050,9 @@ NormalizedConstraints
 &
 aConstraints
 const
-RefPtr
-<
-MediaEngineSource
->
-&
-aMediaEngineSource
+MediaDevice
+*
+aMediaDevice
 )
 ;
 static
