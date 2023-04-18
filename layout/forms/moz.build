@@ -231,6 +231,3 @@ dom
 html
 "
 ]
-REQUIRES_UNIFIED_BUILD
-=
-True
