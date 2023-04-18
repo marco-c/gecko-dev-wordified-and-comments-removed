@@ -9604,6 +9604,11 @@ range
 )
 )
 ;
+mRequestedIndex
+=
+-
+1
+;
 return
 NS_ERROR_FAILURE
 ;
