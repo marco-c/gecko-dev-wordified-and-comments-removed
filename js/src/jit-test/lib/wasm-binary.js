@@ -712,6 +712,16 @@ I16x8RelaxedQ15MulrS
 0x111
 ;
 const
+I16x8DotI8x16I7x16S
+=
+0x112
+;
+const
+I32x4DotI8x16I7x16AddS
+=
+0x113
+;
+const
 WORMHOLE_SELFTEST
 =
 0
