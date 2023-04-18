@@ -565,13 +565,6 @@ datadir
 -
 enable
 -
-negotiateauth
-"
-"
--
--
-enable
--
 official
 -
 branding
