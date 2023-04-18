@@ -1523,6 +1523,8 @@ gfx
 IntSize
 &
 aSurfaceSize
+uint64_t
+aInnerWindowId
 )
 ;
 void
@@ -2647,6 +2649,16 @@ GetOMTASampler
 )
 const
 ;
+uint64_t
+GetInnerWindowId
+(
+)
+const
+{
+return
+mInnerWindowId
+;
+}
 CompositorOptions
 GetOptions
 (
@@ -3141,6 +3153,9 @@ RefPtr
 OMTASampler
 >
 mOMTASampler
+;
+uint64_t
+mInnerWindowId
 ;
 RefPtr
 <

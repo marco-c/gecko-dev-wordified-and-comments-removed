@@ -423,6 +423,8 @@ gfx
 IntSize
 &
 aSurfaceSize
+uint64_t
+aInnerWindowId
 bool
 *
 aRetry
@@ -1074,6 +1076,8 @@ gfx
 IntSize
 &
 aSurfaceSize
+uint64_t
+aInnerWindowId
 )
 ;
 DISALLOW_COPY_AND_ASSIGN

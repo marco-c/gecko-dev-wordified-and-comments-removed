@@ -180,6 +180,8 @@ gfx
 IntSize
 &
 aSurfaceSize
+uint64_t
+aInnerWindowId
 )
 ;
 static

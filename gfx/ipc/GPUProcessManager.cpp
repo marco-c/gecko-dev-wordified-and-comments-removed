@@ -4089,6 +4089,8 @@ gfx
 IntSize
 &
 aSurfaceSize
+uint64_t
+aInnerWindowId
 bool
 *
 aRetryOut
@@ -4134,6 +4136,7 @@ aScale
 aOptions
 aUseExternalSurfaceSize
 aSurfaceSize
+aInnerWindowId
 )
 ;
 if
@@ -4182,6 +4185,7 @@ aSurfaceSize
 AllocateNamespace
 (
 )
+aInnerWindowId
 )
 ;
 }
@@ -4271,6 +4275,8 @@ gfx
 IntSize
 &
 aSurfaceSize
+uint64_t
+aInnerWindowId
 )
 {
 #
@@ -4311,6 +4317,7 @@ aScale
 aOptions
 aUseExternalSurfaceSize
 aSurfaceSize
+aInnerWindowId
 )
 ;
 if
