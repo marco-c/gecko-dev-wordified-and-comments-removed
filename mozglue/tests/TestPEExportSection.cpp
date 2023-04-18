@@ -1691,9 +1691,6 @@ Sleep
 )
 ;
 }
-return
-0
-;
 }
 ChildProcess
 (

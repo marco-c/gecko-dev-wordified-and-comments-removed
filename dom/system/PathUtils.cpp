@@ -386,7 +386,7 @@ return
 true
 ;
 #
-endif
+else
 return
 xpc
 :
@@ -397,9 +397,13 @@ IsInAutomation
 ;
 #
 endif
+#
+else
 return
 false
 ;
+#
+endif
 }
 nsresult
 PathUtils

@@ -2345,9 +2345,6 @@ bytes_read
 0
 ;
 }
-return
-true
-;
 }
 bool
 Channel

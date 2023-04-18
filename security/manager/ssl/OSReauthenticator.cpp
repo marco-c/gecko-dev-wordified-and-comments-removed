@@ -2213,10 +2213,12 @@ isBlankPassword
 )
 ;
 #
-endif
+else
 return
 NS_OK
 ;
+#
+endif
 }
 static
 void

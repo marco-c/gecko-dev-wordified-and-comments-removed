@@ -1751,10 +1751,12 @@ return
 autoHide
 ;
 #
-endif
+else
 return
 false
 ;
+#
+endif
 }
 void
 WindowsUIUtils
