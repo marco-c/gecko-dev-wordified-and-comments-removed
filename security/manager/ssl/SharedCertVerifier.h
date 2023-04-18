@@ -87,11 +87,6 @@ uint32_t
 certShortLifetimeInDays
 SHA1Mode
 sha1Mode
-BRNameMatchingPolicy
-:
-:
-Mode
-nameMatchingMode
 NetscapeStepUpPolicy
 netscapeStepUpPolicy
 CertificateTransparencyMode
@@ -121,7 +116,6 @@ ocspSoftTimeout
 ocspHardTimeout
 certShortLifetimeInDays
 sha1Mode
-nameMatchingMode
 netscapeStepUpPolicy
 ctMode
 crliteMode
