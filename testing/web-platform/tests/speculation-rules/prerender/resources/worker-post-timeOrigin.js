@@ -1,0 +1,7 @@
+postMessage
+(
+performance
+.
+timeOrigin
+)
+;
