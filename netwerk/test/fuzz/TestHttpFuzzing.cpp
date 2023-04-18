@@ -299,6 +299,10 @@ http
 "
 ;
 }
+net_EnsurePSMInit
+(
+)
+;
 return
 0
 ;
