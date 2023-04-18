@@ -39,10 +39,18 @@ mach
 .
 util
 import
+(
+    
 get_state_dir
+    
 UserError
+    
 to_optional_path
+    
 to_optional_str
+    
+win_to_msys_path
+)
 from
 mach
 .
@@ -3827,23 +3835,9 @@ environ
             
 cinnabar_dir
 =
-"
-/
-"
-+
-cinnabar_dir
-            
-cinnabar_dir
-=
-cinnabar_dir
-.
-replace
+win_to_msys_path
 (
-"
-:
-"
-"
-"
+cinnabar_dir
 )
             
 print
