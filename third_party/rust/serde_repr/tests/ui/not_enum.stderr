@@ -8,7 +8,9 @@ enum
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 not_enum
 .
@@ -50,9 +52,10 @@ this
 error
 originates
 in
-a
+the
 derive
 macro
+Serialize_repr
 (
 in
 Nightly

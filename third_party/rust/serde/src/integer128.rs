@@ -2,7 +2,10 @@
 [
 cfg
 (
-integer128
+not
+(
+no_integer128
+)
 )
 ]
 #
@@ -35,10 +38,7 @@ tt
 [
 cfg
 (
-not
-(
-integer128
-)
+no_integer128
 )
 ]
 #

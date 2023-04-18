@@ -1,4 +1,13 @@
 #
+!
+[
+allow
+(
+unused_macros
+unused_macro_rules
+)
+]
+#
 [
 path
 =
@@ -29,10 +38,6 @@ Parse
 Result
 }
 ;
-#
-[
-macro_export
-]
 macro_rules
 !
 errorf
@@ -97,10 +102,6 @@ unwrap
 }
 ;
 }
-#
-[
-macro_export
-]
 macro_rules
 !
 punctuated
@@ -172,10 +173,6 @@ e
 }
 ;
 }
-#
-[
-macro_export
-]
 macro_rules
 !
 snapshot
@@ -204,10 +201,6 @@ args
 }
 ;
 }
-#
-[
-macro_export
-]
 macro_rules
 !
 snapshot_impl

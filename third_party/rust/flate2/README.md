@@ -589,7 +589,7 @@ zlib
 .
 It
 requires
-a
+an
 x86
 -
 64

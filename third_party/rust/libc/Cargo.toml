@@ -109,7 +109,7 @@ version
 .
 2
 .
-112
+126
 "
 authors
 =
@@ -161,6 +161,8 @@ toml
 description
 =
 "
+"
+"
 Raw
 FFI
 bindings
@@ -170,8 +172,8 @@ libraries
 like
 libc
 .
-\
-n
+"
+"
 "
 homepage
 =

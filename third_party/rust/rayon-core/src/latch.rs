@@ -601,6 +601,9 @@ cross_registry
 ;
 let
 registry
+:
+&
+Registry
 =
 if
 self
@@ -620,10 +623,14 @@ registry
 )
 ;
 &
+*
 cross_registry
 }
 else
 {
+&
+*
+*
 self
 .
 registry

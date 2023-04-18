@@ -913,6 +913,14 @@ is_closed
 }
 #
 [
+cfg_attr
+(
+miri
+ignore
+)
+]
+#
+[
 test
 ]
 fn

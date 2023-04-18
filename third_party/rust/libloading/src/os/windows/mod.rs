@@ -4,7 +4,7 @@ cfg
 (
 all
 (
-docsrs
+libloading_docs
 not
 (
 windows
@@ -201,7 +201,7 @@ any
 (
 not
 (
-docsrs
+libloading_docs
 )
 windows
 )

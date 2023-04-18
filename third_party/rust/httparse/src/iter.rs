@@ -63,8 +63,6 @@ a
 Bytes
 {
 slice
-:
-slice
 pos
 :
 0
@@ -142,10 +140,7 @@ debug_assert
 self
 .
 pos
-+
-1
 <
-=
 self
 .
 slice
@@ -352,13 +347,11 @@ from_raw_parts
 (
 ptr
 .
-offset
+add
 (
 self
 .
 pos
-as
-isize
 )
 self
 .
@@ -861,8 +854,6 @@ b
 {
 Bytes8
 {
-bytes
-:
 bytes
 pos
 :

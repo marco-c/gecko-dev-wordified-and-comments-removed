@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+ref_option_ref
+)
+]
 use
 serde_bytes
 :

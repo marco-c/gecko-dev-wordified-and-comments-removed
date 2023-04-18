@@ -109,7 +109,7 @@ version
 "
 1
 .
-36
+45
 "
 name
 =
@@ -125,10 +125,12 @@ version
 .
 3
 .
-19
+21
 "
 description
 =
+"
+"
 "
 Tools
 for
@@ -136,8 +138,8 @@ working
 with
 tasks
 .
-\
-n
+"
+"
 "
 homepage
 =

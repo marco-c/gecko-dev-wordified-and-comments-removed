@@ -329,7 +329,7 @@ buffer
 )
 }
 fn
-validate_header
+validate_library
 (
 path
 :
@@ -354,12 +354,12 @@ any
 target_os
 =
 "
-freebsd
+linux
 "
 target_os
 =
 "
-linux
+freebsd
 "
 )
 )
@@ -828,12 +828,12 @@ any
 target_os
 =
 "
-openbsd
+freebsd
 "
 target_os
 =
 "
-freebsd
+haiku
 "
 target_os
 =
@@ -843,7 +843,7 @@ netbsd
 target_os
 =
 "
-haiku
+openbsd
 "
 )
 )
@@ -941,7 +941,7 @@ filename
 )
 ;
 match
-validate_header
+validate_library
 (
 &
 path

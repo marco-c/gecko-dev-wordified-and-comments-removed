@@ -120,7 +120,7 @@ version
 .
 7
 .
-2
+3
 "
 authors
 =
@@ -248,7 +248,7 @@ args
 cfg
 "
 "
-docsrs
+libloading_docs
 "
 ]
 [

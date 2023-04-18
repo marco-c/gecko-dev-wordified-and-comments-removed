@@ -8,7 +8,9 @@ variant
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 non_unit_variant
 .

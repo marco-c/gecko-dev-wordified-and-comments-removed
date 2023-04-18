@@ -1,5 +1,5 @@
 pub
-const
+static
 CRC32_TABLE
 :
 [

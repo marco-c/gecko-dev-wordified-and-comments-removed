@@ -469,7 +469,7 @@ surrogate_codepoints
 UNICODE_VERSION
 =
 (
-13
+14
 0
 0
 )

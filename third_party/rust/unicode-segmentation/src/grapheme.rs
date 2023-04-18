@@ -848,6 +848,15 @@ GraphemeCat
 PairResult
 {
 use
+self
+:
+:
+PairResult
+:
+:
+*
+;
+use
 crate
 :
 :
@@ -858,15 +867,6 @@ grapheme
 :
 :
 GraphemeCat
-:
-:
-*
-;
-use
-self
-:
-:
-PairResult
 :
 :
 *
@@ -1529,6 +1529,7 @@ chunk_start
 _
 =
 >
+{
 if
 self
 .
@@ -1587,6 +1588,7 @@ ch
 )
 )
 ;
+}
 }
 }
 }
@@ -2125,6 +2127,7 @@ Ok
 (
 true
 )
+;
 }
 if
 self
@@ -2142,6 +2145,7 @@ Ok
 (
 false
 )
+;
 }
 if
 self
@@ -2194,6 +2198,7 @@ GraphemeIncomplete
 :
 InvalidOffset
 )
+;
 }
 }
 if

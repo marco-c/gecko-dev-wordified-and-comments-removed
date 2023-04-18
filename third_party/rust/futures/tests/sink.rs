@@ -2319,6 +2319,14 @@ rx
 }
 #
 [
+cfg_attr
+(
+miri
+ignore
+)
+]
+#
+[
 test
 ]
 fn

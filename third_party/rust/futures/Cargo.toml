@@ -123,10 +123,12 @@ version
 .
 3
 .
-19
+21
 "
 description
 =
+"
+"
 "
 An
 implementation
@@ -137,16 +139,15 @@ streams
 featuring
 zero
 allocations
-\
-ncomposability
+composability
 and
 iterator
 -
 like
 interfaces
 .
-\
-n
+"
+"
 "
 homepage
 =
@@ -304,7 +305,7 @@ version
 .
 3
 .
-19
+21
 "
 features
 =
@@ -332,7 +333,7 @@ version
 .
 3
 .
-19
+21
 "
 default
 -
@@ -353,7 +354,7 @@ version
 .
 3
 .
-19
+21
 "
 optional
 =
@@ -377,7 +378,7 @@ version
 .
 3
 .
-19
+21
 "
 default
 -
@@ -398,7 +399,7 @@ version
 .
 3
 .
-19
+21
 "
 default
 -
@@ -419,7 +420,7 @@ version
 .
 3
 .
-19
+21
 "
 default
 -
@@ -440,7 +441,7 @@ version
 .
 3
 .
-19
+21
 "
 features
 =

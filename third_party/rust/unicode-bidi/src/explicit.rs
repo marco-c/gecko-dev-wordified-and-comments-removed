@@ -15,6 +15,7 @@ char_data
 :
 :
 {
+is_rtl
 BidiClass
 :
 :
@@ -22,7 +23,6 @@ BidiClass
 self
 *
 }
-is_rtl
 }
 ;
 use

@@ -33,8 +33,8 @@ testdata
 :
 :
 {
-TEST_SAME
 TEST_DIFF
+TEST_SAME
 }
 ;
 pub
@@ -1295,6 +1295,7 @@ s
 w
 )
 }
+;
 }
 assert_
 !
@@ -1631,6 +1632,7 @@ s
 w
 )
 }
+;
 }
 assert_
 !

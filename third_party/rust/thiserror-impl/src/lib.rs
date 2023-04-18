@@ -10,6 +10,10 @@ blocks_in_if_conditions
 clippy
 :
 :
+cast_lossless
+clippy
+:
+:
 cast_possible_truncation
 clippy
 :
@@ -39,6 +43,10 @@ clippy
 :
 :
 too_many_lines
+clippy
+:
+:
+wrong_self_convention
 )
 ]
 extern

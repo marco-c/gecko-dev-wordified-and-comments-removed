@@ -84,6 +84,8 @@ examples
 /
 hello_world
 .
+txt
+.
 gz
 "
 )

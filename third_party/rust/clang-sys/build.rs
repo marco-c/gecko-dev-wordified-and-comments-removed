@@ -65,7 +65,9 @@ rs
 ]
 pub
 mod
-static_
+r
+#
+static
 ;
 #
 [
@@ -328,7 +330,9 @@ static
 "
 )
 {
-static_
+r
+#
+static
 :
 :
 link

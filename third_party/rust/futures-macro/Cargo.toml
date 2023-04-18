@@ -125,10 +125,12 @@ version
 .
 3
 .
-19
+21
 "
 description
 =
+"
+"
 "
 The
 futures
@@ -138,8 +140,8 @@ procedural
 macro
 implementations
 .
-\
-n
+"
+"
 "
 homepage
 =

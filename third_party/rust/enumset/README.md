@@ -35,11 +35,15 @@ https
 :
 /
 /
+app
+.
 travis
 -
 ci
 .
 com
+/
+github
 /
 Lymia
 /
@@ -90,7 +94,7 @@ Requires
 rustc
 1
 .
-34
+36
 +
 ]
 (
@@ -110,7 +114,7 @@ rustc
 -
 1
 .
-34
+36
 +
 -
 red

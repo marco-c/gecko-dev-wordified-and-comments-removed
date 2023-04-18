@@ -24,7 +24,11 @@ _
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+pin_project
 /
 conflict
 -
@@ -186,7 +190,7 @@ macro
 crate
 :
 :
-__pin_project_internal
+__pin_project_make_unpin_impl
 (
 in
 Nightly
@@ -228,7 +232,11 @@ _
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+pin_project
 /
 conflict
 -
@@ -373,7 +381,7 @@ macro
 crate
 :
 :
-__pin_project_internal
+__pin_project_make_unpin_impl
 (
 in
 Nightly
@@ -415,7 +423,11 @@ _
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+pin_project
 /
 conflict
 -
@@ -576,7 +588,7 @@ macro
 crate
 :
 :
-__pin_project_internal
+__pin_project_make_unpin_impl
 (
 in
 Nightly

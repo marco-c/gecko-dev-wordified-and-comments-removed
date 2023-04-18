@@ -37,6 +37,14 @@ thread
 ;
 #
 [
+cfg_attr
+(
+miri
+ignore
+)
+]
+#
+[
 test
 ]
 fn
