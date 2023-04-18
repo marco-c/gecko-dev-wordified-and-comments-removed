@@ -3474,9 +3474,14 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+EditorDOMPoint
 nsresult
-RemoveBlockContainerElements
+>
+RemoveBlockContainerElementsWithTransaction
 (
+const
 nsTArray
 <
 OwningNonNull
