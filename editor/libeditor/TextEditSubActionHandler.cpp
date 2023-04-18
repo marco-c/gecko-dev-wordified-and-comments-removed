@@ -2258,7 +2258,10 @@ eInsertTextComingFromIME
 EditorRawDOMPoint
 compositionStartPoint
 =
-GetCompositionStartPoint
+GetFirstIMESelectionStartPoint
+<
+EditorRawDOMPoint
+>
 (
 )
 ;

@@ -3174,7 +3174,7 @@ RawRangeBoundary
 TextComposition
 :
 :
-GetStartRef
+FirstIMESelectionStartRef
 (
 )
 const
@@ -3522,7 +3522,7 @@ RawRangeBoundary
 TextComposition
 :
 :
-GetEndRef
+LastIMESelectionEndRef
 (
 )
 const
