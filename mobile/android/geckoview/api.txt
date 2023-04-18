@@ -8942,6 +8942,7 @@ LoadRequest
 )
 ;
 method
+Deprecated
 DeprecationSchedule
 (
 id
@@ -8953,7 +8954,7 @@ permissions
 "
 version
 =
-92
+104
 )
 UiThread
 default

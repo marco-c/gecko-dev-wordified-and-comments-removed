@@ -14070,6 +14070,7 @@ interface
 NavigationDelegate
 {
 UiThread
+Deprecated
 DeprecationSchedule
 (
 id
@@ -14081,7 +14082,7 @@ permissions
 "
 version
 =
-92
+104
 )
 default
 void
