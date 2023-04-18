@@ -289,12 +289,26 @@ name
 tu
             
 if
+os
+.
+path
+.
+normcase
+(
 priorTU
 .
 filename
+)
 !
 =
+os
+.
+path
+.
+normcase
+(
 filename
+)
 :
                 
 _error
