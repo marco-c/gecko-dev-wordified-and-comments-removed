@@ -8659,17 +8659,12 @@ implemented_pseudo_element
 )
 {
 if
-!
 pseudo
 .
-is_animatable
+animations_stored_in_parent
 (
 )
 {
-return
-false
-;
-}
 return
 self
 .
@@ -8700,6 +8695,7 @@ ElementHasAnimations
 }
 )
 ;
+}
 }
 self
 .

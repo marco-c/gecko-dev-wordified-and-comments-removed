@@ -366,7 +366,7 @@ inline
 ]
 pub
 fn
-is_animatable
+animations_stored_in_parent
 (
 &
 self
