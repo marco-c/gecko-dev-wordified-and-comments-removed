@@ -3497,7 +3497,10 @@ limit
 {
 if
 (
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 flag
 -

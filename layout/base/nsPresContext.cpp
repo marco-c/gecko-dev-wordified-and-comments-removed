@@ -113,6 +113,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -10951,7 +10958,10 @@ ifndef
 XP_WIN
 if
 (
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 ev
 "

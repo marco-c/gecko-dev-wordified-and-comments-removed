@@ -293,6 +293,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsAtom
 .
 h
@@ -6482,7 +6489,10 @@ limit
 {
 if
 (
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 flag
 -
