@@ -1039,13 +1039,13 @@ OffThreadToken
 JS
 :
 :
-DecodeMultiOffThreadStencils
+DecodeMultiStencilsOffThread
 (
 JSContext
 *
 cx
 const
-ReadOnlyCompileOptions
+DecodeOptions
 &
 options
 TranscodeSources
@@ -1089,7 +1089,7 @@ length
 }
 MOZ_ASSERT
 (
-CanCompileOffThread
+CanDecodeOffThread
 (
 cx
 options
@@ -1115,7 +1115,7 @@ bool
 JS
 :
 :
-FinishMultiOffThreadStencilDecoder
+FinishDecodeMultiStencilsOffThread
 (
 JSContext
 *
@@ -1179,7 +1179,7 @@ void
 JS
 :
 :
-CancelMultiOffThreadScriptsDecoder
+CancelDecodeMultiStencilsOffThread
 (
 JSContext
 *
