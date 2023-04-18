@@ -2151,7 +2151,10 @@ nsresult
 RemoveNsIFileRecursively
 (
 const
+Maybe
+<
 ClientMetadata
+>
 &
 aClientMetadata
 nsIFile
@@ -2162,6 +2165,12 @@ bool
 aTrackQuota
 )
 {
+MOZ_DIAGNOSTIC_ASSERT_IF
+(
+aTrackQuota
+aClientMetadata
+)
+;
 QM_TRY_INSPECT
 (
 const
@@ -2285,7 +2294,10 @@ nsresult
 RemoveNsIFile
 (
 const
+Maybe
+<
 ClientMetadata
+>
 &
 aClientMetadata
 nsIFile
@@ -2296,6 +2308,12 @@ bool
 aTrackQuota
 )
 {
+MOZ_DIAGNOSTIC_ASSERT_IF
+(
+aTrackQuota
+aClientMetadata
+)
+;
 int64_t
 fileSize
 =
@@ -2388,6 +2406,7 @@ aTrackQuota
 ;
 DecreaseUsageForClientMetadata
 (
+*
 aClientMetadata
 fileSize
 )
