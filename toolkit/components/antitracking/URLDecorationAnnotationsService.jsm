@@ -4,11 +4,17 @@ URLDecorationAnnotationsService
 )
 {
 }
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 RemoteSettings
 "
@@ -267,6 +273,8 @@ true
 const
 client
 =
+lazy
+.
 RemoteSettings
 (
 COLLECTION_NAME

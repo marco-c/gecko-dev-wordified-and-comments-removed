@@ -71,11 +71,17 @@ THREE_DAYS_MS
 *
 1000
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gClassifier
 "
@@ -101,7 +107,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gStorageActivityService
 "
@@ -127,7 +133,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gClassifierFeature
 "
@@ -137,6 +143,8 @@ gClassifierFeature
 >
 {
 return
+lazy
+.
 gClassifier
 .
 getFeatureByName
@@ -155,7 +163,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -200,7 +208,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gConsiderEntityList
 "
@@ -409,6 +417,8 @@ resolve
 {
 try
 {
+lazy
+.
 gClassifier
 .
 asyncClassifyLocalWithFeatures
@@ -417,6 +427,8 @@ principal
 .
 URI
 [
+lazy
+.
 gClassifierFeature
 ]
 Ci
@@ -513,6 +525,8 @@ thirdPartyHost
 }
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -537,12 +551,16 @@ resolve
 {
 try
 {
+lazy
+.
 gClassifier
 .
 asyncClassifyLocalWithFeatures
 (
 uri
 [
+lazy
+.
 gClassifierFeature
 ]
 Ci
@@ -563,6 +581,8 @@ list
 .
 length
 ;
+lazy
+.
 logger
 .
 debug
@@ -615,6 +635,8 @@ principal
 .
 origin
 ;
+lazy
+.
 logger
 .
 debug
@@ -654,6 +676,8 @@ telemetry
 canRecordPrereleaseData
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -688,6 +712,8 @@ if
 isTracker
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -785,6 +811,8 @@ principal
 baseDomain
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -811,6 +839,8 @@ false
 ;
 if
 (
+lazy
+.
 gConsiderEntityList
 |
 |
@@ -861,9 +891,13 @@ if
 isAllowedThirdParty
 &
 &
+lazy
+.
 gConsiderEntityList
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -884,6 +918,8 @@ exiting
 return
 ;
 }
+lazy
+.
 logger
 .
 log
@@ -972,6 +1008,8 @@ resolve
 }
 )
 ;
+lazy
+.
 logger
 .
 log
@@ -1337,6 +1375,8 @@ clearSiteSettingsOnShutdown
 )
 )
 {
+lazy
+.
 logger
 .
 log
@@ -1441,6 +1481,8 @@ activeWithCookieBehavior
 purgeEnabled
 )
 {
+lazy
+.
 logger
 .
 log
@@ -1468,6 +1510,8 @@ resetPurgeList
 return
 ;
 }
+lazy
+.
 logger
 .
 log
@@ -1771,6 +1815,8 @@ THREE_DAYS_MS
 let
 storagePrincipals
 =
+lazy
+.
 gStorageActivityService
 .
 getActiveOrigins
@@ -1885,6 +1931,8 @@ length
 100
 )
 {
+lazy
+.
 logger
 .
 log
@@ -1923,6 +1971,8 @@ true
 return
 ;
 }
+lazy
+.
 logger
 .
 log
