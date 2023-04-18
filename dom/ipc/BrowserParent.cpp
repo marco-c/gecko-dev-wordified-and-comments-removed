@@ -4862,6 +4862,18 @@ MOZ_ASSERT
 widget
 )
 ;
+if
+(
+GetBrowsingContext
+(
+)
+-
+>
+IsTopContent
+(
+)
+)
+{
 Unused
 <
 <
@@ -4875,6 +4887,7 @@ GetDynamicToolbarMaxHeight
 )
 )
 ;
+}
 #
 endif
 }
