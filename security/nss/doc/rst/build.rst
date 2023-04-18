@@ -395,7 +395,7 @@ note
 :
 :
 To
-retreive
+retrieve
 the
 source
 code
