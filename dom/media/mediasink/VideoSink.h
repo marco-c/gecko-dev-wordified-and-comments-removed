@@ -176,7 +176,6 @@ aTimeStamp
 =
 nullptr
 )
-const
 override
 ;
 bool

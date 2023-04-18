@@ -632,7 +632,6 @@ TimeStamp
 *
 aTimeStamp
 )
-const
 {
 AssertOwnerThread
 (
