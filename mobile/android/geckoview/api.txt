@@ -16002,6 +16002,7 @@ int
 ;
 method
 AnyThread
+Deprecated
 DeprecationSchedule
 (
 id
@@ -16013,7 +16014,7 @@ string
 "
 version
 =
-93
+106
 )
 public
 void
@@ -16027,6 +16028,7 @@ int
 ;
 method
 AnyThread
+Deprecated
 DeprecationSchedule
 (
 id
@@ -16038,7 +16040,7 @@ string
 "
 version
 =
-93
+106
 )
 public
 void

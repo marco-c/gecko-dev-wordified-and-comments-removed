@@ -1060,6 +1060,7 @@ msg
 ;
 }
 AnyThread
+Deprecated
 DeprecationSchedule
 (
 id
@@ -1071,7 +1072,7 @@ string
 "
 version
 =
-93
+106
 )
 public
 void
@@ -1103,6 +1104,7 @@ value
 ;
 }
 AnyThread
+Deprecated
 DeprecationSchedule
 (
 id
@@ -1114,7 +1116,7 @@ string
 "
 version
 =
-93
+106
 )
 public
 void
