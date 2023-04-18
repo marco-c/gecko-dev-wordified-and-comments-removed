@@ -38,17 +38,6 @@ mozilla
 /
 dom
 /
-RemoteWorkerChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WindowContext
 .
 h

@@ -154,6 +154,10 @@ ServiceWorkerOp
 ;
 public
 :
+MOZ_DECLARE_THREADSAFEWEAKREFERENCE_TYPENAME
+(
+RemoteWorkerChild
+)
 MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 RemoteWorkerChild

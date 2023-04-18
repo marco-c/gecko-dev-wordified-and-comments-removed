@@ -233,13 +233,6 @@ nsProxyRelease
 h
 "
 #
-include
-"
-nsIInputStream
-.
-h
-"
-#
 ifdef
 CreateFile
 #

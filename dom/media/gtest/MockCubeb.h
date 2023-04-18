@@ -994,6 +994,10 @@ SmartMockCubebStream
 {
 public
 :
+MOZ_DECLARE_THREADSAFEWEAKREFERENCE_TYPENAME
+(
+SmartMockCubebStream
+)
 MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 SmartMockCubebStream

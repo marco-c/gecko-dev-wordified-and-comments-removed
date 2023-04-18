@@ -12,17 +12,6 @@ mozilla
 /
 dom
 /
-BindingUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WorkerBinding
 .
 h
