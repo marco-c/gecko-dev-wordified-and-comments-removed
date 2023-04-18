@@ -1376,6 +1376,9 @@ DedicatedWorker
 interface
 GPUValidationError
 {
+[
+Throws
+]
 constructor
 (
 DOMString

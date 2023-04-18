@@ -2462,6 +2462,11 @@ new
 ValidationError
 (
 self
+-
+>
+GetParentObject
+(
+)
 aMaybeError
 -
 >
