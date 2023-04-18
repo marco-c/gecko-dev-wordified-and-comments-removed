@@ -397,6 +397,8 @@ swr
 '
 xpcshell
 -
+fis
+-
 e10s
 '
 linux
@@ -479,6 +481,8 @@ swr
 "
 '
 xpcshell
+-
+fis
 -
 e10s
 '
