@@ -113,6 +113,16 @@ JSContext
 cx
 )
 ;
+bool
+getOwnProperty
+(
+HandleId
+id
+MutableHandleValue
+vp
+)
+const
+;
 inline
 uint32_t
 length

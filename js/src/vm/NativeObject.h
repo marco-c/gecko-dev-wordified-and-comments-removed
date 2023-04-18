@@ -2076,6 +2076,7 @@ containsDenseElement
 uint32_t
 idx
 )
+const
 {
 return
 idx

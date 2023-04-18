@@ -3624,7 +3624,7 @@ if
 (
 vp
 .
-hasObjectPayload
+isObject
 (
 )
 )
@@ -3633,7 +3633,7 @@ return
 &
 vp
 .
-getObjectPayload
+toObject
 (
 )
 ;
@@ -3671,7 +3671,7 @@ if
 (
 vp
 .
-hasObjectPayload
+isObject
 (
 )
 )
@@ -3680,7 +3680,7 @@ return
 &
 vp
 .
-getObjectPayload
+toObject
 (
 )
 ;
@@ -3718,7 +3718,7 @@ if
 (
 vp
 .
-hasObjectPayload
+isObject
 (
 )
 )
@@ -3727,7 +3727,7 @@ return
 &
 vp
 .
-getObjectPayload
+toObject
 (
 )
 ;
