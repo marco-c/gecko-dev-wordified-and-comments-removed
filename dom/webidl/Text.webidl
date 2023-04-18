@@ -149,7 +149,6 @@ apply
 Exposed
 =
 Window
-ProbablyShortLivingWrapper
 ]
 interface
 Text
