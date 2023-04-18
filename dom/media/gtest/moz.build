@@ -180,6 +180,11 @@ TestDecoderBenchmark
 cpp
 "
 "
+TestDeviceInputTrack
+.
+cpp
+"
+"
 TestDriftCompensation
 .
 cpp
