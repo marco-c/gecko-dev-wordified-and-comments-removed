@@ -53,6 +53,11 @@ ReadableStream
 h
 "
 "
+ReadableStreamBYOBReader
+.
+h
+"
+"
 ReadableStreamBYOBRequest
 .
 h
@@ -79,6 +84,11 @@ h
 "
 "
 ReadableStreamTee
+.
+h
+"
+"
+ReadIntoRequest
 .
 h
 "
@@ -144,6 +154,11 @@ cpp
 "
 "
 ReadableStream
+.
+cpp
+"
+"
+ReadableStreamBYOBReader
 .
 cpp
 "

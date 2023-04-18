@@ -5865,6 +5865,11 @@ ReadableStream
 webidl
 "
 "
+ReadableStreamBYOBReader
+.
+webidl
+"
+"
 ReadableStreamBYOBRequest
 .
 webidl

@@ -234,14 +234,13 @@ aGivenProto
 )
 ;
 }
-static
 bool
 ReadableStreamReaderGenericInitialize
 (
 JSContext
 *
 aCx
-ReadableStreamDefaultReader
+ReadableStreamGenericReader
 *
 aReader
 ReadableStream
@@ -1152,11 +1151,10 @@ forget
 )
 ;
 }
-static
 void
-ReadableStreamGenericRelease
+ReadableStreamReaderGenericRelease
 (
-ReadableStreamDefaultReader
+ReadableStreamGenericReader
 *
 aReader
 ErrorResult
@@ -1372,7 +1370,7 @@ requests
 return
 ;
 }
-ReadableStreamGenericRelease
+ReadableStreamReaderGenericRelease
 (
 this
 aRv
@@ -1383,7 +1381,7 @@ already_AddRefed
 <
 Promise
 >
-ReadableStreamDefaultReader
+ReadableStreamGenericReader
 :
 :
 Closed
@@ -1409,7 +1407,7 @@ ReadableStreamGenericReaderCancel
 JSContext
 *
 aCx
-ReadableStreamDefaultReader
+ReadableStreamGenericReader
 *
 aReader
 JS
@@ -1461,7 +1459,7 @@ already_AddRefed
 <
 Promise
 >
-ReadableStreamDefaultReader
+ReadableStreamGenericReader
 :
 :
 Cancel
