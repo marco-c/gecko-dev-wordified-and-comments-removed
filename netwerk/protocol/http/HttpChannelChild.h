@@ -1451,6 +1451,11 @@ mSuspendSent
 1
 ;
 uint8_t
+mIsFirstPartOfMultiPart
+:
+1
+;
+uint8_t
 mIsLastPartOfMultiPart
 :
 1

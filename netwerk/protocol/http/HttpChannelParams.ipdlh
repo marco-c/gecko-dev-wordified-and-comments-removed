@@ -163,6 +163,9 @@ uint32_t
 multiPartID
 ;
 bool
+isFirstPartOfMultiPart
+;
+bool
 isLastPartOfMultiPart
 ;
 CrossOriginOpenerPolicy

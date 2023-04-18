@@ -136,6 +136,8 @@ nsIChannel
 aMultipartChannel
 uint32_t
 aPartID
+bool
+aIsFirstPart
 nsIStreamListener
 *
 aListener
@@ -329,6 +331,9 @@ mByteRangeEnd
 ;
 uint32_t
 mPartID
+;
+bool
+mIsFirstPart
 ;
 bool
 mIsLastPart
