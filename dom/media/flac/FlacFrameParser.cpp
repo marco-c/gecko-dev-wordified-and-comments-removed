@@ -129,6 +129,7 @@ mPacketCount
 )
 {
 }
+;
 FlacFrameParser
 :
 :
@@ -735,12 +736,12 @@ mBitDepth
 =
 bps
 ;
-AudioCodecSpecificBinaryBlob
-codecSpecificBlob
+FlacCodecSpecificData
+flacCodecSpecificData
 ;
-codecSpecificBlob
+flacCodecSpecificData
 .
-mBinaryBlob
+mStreamInfoBinaryBlob
 -
 >
 AppendElements
@@ -760,7 +761,7 @@ std
 :
 move
 (
-codecSpecificBlob
+flacCodecSpecificData
 )
 }
 ;
