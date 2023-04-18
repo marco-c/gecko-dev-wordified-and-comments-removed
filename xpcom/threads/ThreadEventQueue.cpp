@@ -177,7 +177,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 {
 if
 (
@@ -1154,7 +1153,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 {
 size_t
 n
@@ -1170,6 +1168,13 @@ mBaseQueue
 SizeOfIncludingThis
 (
 aMallocSizeOf
+)
+;
+{
+MutexAutoLock
+lock
+(
+mLock
 )
 ;
 n
@@ -1204,6 +1209,7 @@ SizeOfIncludingThis
 aMallocSizeOf
 )
 ;
+}
 }
 return
 SynchronizedEventQueue

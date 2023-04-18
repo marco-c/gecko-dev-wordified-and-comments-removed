@@ -120,7 +120,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 {
 return
 aMallocSizeOf
@@ -144,7 +143,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 =
 0
 ;
@@ -276,16 +274,10 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 override
 {
 return
-mEventObservers
-.
-ShallowSizeOfExcludingThis
-(
-aMallocSizeOf
-)
+0
 ;
 }
 virtual

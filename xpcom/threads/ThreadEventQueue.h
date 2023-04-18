@@ -207,7 +207,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 override
 ;
 private
@@ -238,6 +237,7 @@ NestedSink
 aQueue
 )
 ;
+const
 UniquePtr
 <
 EventQueue
