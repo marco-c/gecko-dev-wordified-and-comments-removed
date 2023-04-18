@@ -805,7 +805,7 @@ request
 mLoader
 -
 >
-ProcessLoadedModuleTree
+OnModuleLoadComplete
 (
 request
 )
