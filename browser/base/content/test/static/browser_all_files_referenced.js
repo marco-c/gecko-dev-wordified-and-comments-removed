@@ -437,6 +437,16 @@ pagedata
 schemas
 /
 "
+"
+resource
+:
+/
+/
+nimbus
+/
+schemas
+/
+"
 ]
 ;
 if
