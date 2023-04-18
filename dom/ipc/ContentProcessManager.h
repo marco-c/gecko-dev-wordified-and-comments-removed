@@ -53,8 +53,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -204,7 +204,6 @@ ContentProcessManager
 ;
 }
 ;
-}
 }
 #
 endif

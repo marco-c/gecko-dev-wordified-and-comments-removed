@@ -27,8 +27,8 @@ ParamTraits
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -155,7 +155,6 @@ IdType
 ContentParent
 >
 ;
-}
 }
 namespace
 IPC

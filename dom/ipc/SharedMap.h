@@ -92,8 +92,8 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1064,7 +1064,6 @@ aName
 ;
 }
 ;
-}
 }
 }
 #

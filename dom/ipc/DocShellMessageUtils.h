@@ -45,8 +45,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 template
@@ -100,7 +100,6 @@ aResult
 ;
 }
 ;
-}
 }
 namespace
 IPC

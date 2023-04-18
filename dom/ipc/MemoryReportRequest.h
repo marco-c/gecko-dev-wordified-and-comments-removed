@@ -43,8 +43,8 @@ nsMemoryReporterManager
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -254,7 +254,6 @@ mFinishCallback
 ;
 }
 ;
-}
 }
 #
 endif

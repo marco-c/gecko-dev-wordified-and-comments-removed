@@ -63,8 +63,8 @@ nsIContent
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -262,7 +262,6 @@ aInfo
 ;
 }
 ;
-}
 }
 #
 endif

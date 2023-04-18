@@ -120,8 +120,8 @@ mPrincipal
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 template
@@ -314,7 +314,6 @@ mPrincipal
 }
 }
 ;
-}
 }
 #
 endif

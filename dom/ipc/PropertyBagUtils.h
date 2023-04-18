@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 template
@@ -137,7 +137,6 @@ aResult
 ;
 }
 ;
-}
 }
 #
 endif

@@ -55,8 +55,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -180,7 +180,6 @@ delete
 ;
 }
 ;
-}
 }
 #
 endif

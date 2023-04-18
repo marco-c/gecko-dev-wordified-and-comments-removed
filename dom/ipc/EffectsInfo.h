@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -201,7 +201,6 @@ aTransformToAncestorScale
 }
 }
 ;
-}
 }
 #
 endif

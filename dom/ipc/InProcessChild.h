@@ -66,8 +66,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -206,7 +206,6 @@ mProcessActors
 ;
 }
 ;
-}
 }
 #
 endif

@@ -22,11 +22,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 ipc
 {
 struct
@@ -462,8 +462,6 @@ mSize
 ;
 }
 ;
-}
-}
 }
 #
 endif

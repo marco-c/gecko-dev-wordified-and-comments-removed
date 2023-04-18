@@ -44,11 +44,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 ipc
 {
 class
@@ -506,8 +506,6 @@ mEntries
 ;
 }
 ;
-}
-}
 }
 #
 endif

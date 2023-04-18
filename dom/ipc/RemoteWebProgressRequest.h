@@ -20,8 +20,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -95,7 +95,6 @@ mMatchedList
 ;
 }
 ;
-}
 }
 #
 endif
