@@ -1136,7 +1136,6 @@ callobj
 >
 setAliasedBinding
 (
-cx
 fi
 frame
 .
