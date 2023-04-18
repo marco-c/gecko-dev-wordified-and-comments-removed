@@ -1028,7 +1028,10 @@ str
         
 state_dir
 :
+Optional
+[
 str
+]
         
 requirements
 :
@@ -1258,7 +1261,7 @@ mozbuild
         
 requirements
 =
-_requirements
+resolve_requirements
 (
 topsrcdir
 "
@@ -2483,7 +2486,7 @@ sites
         
 requirements
 =
-_requirements
+resolve_requirements
 (
 topsrcdir
 site_name
@@ -3462,7 +3465,7 @@ priority
         
 lines
 =
-_requirements
+resolve_requirements
 (
 self
 .
@@ -3474,9 +3477,11 @@ mach
 .
 pths_as_absolute
 (
+            
 self
 .
 _topsrcdir
+        
 )
         
 mach_site_packages_source
@@ -4786,7 +4791,7 @@ maxsize
 None
 )
 def
-_requirements
+resolve_requirements
 (
 topsrcdir
 virtualenv_name
