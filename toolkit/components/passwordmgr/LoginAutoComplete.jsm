@@ -1946,6 +1946,15 @@ index
 )
 ;
 }
+isRemovableAt
+(
+index
+)
+{
+return
+true
+;
+}
 removeValueAt
 (
 index
