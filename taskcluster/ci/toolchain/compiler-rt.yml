@@ -196,6 +196,8 @@ clang
 -
 13
 -
+stage1
+-
 linux64
 -
 android
@@ -293,6 +295,8 @@ linux64
 clang
 -
 13
+-
+stage1
 -
 linux64
 -
@@ -392,6 +396,8 @@ clang
 -
 13
 -
+stage1
+-
 linux64
 -
 android
@@ -489,6 +495,8 @@ linux64
 clang
 -
 13
+-
+stage1
 -
 linux64
 -
@@ -594,6 +602,8 @@ clang
 -
 13
 -
+stage1
+-
 sysroot
 -
 aarch64
@@ -674,6 +684,8 @@ clang
 -
 13
 -
+stage1
+-
 macosx64
 -
 sdk
@@ -753,6 +765,8 @@ linux64
 clang
 -
 13
+-
+stage1
 -
 macosx64
 -

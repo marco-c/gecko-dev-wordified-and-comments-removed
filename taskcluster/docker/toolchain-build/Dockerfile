@@ -113,6 +113,10 @@ libucl
 -
 dev
 \
+libxml2
+-
+dev
+\
 ninja
 -
 build
