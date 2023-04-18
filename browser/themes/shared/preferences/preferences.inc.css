@@ -6370,6 +6370,8 @@ start
 }
 #
 moreFromMozillaCategory
+-
+header
 .
 subtitle
 {
@@ -6406,7 +6408,9 @@ height
 #
 moreFromMozillaCategory
 .
-list
+mozilla
+-
+product
 -
 item
 {
