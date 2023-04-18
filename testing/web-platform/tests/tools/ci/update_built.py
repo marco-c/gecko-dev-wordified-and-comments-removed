@@ -156,6 +156,24 @@ py
 ]
     
 "
+fetch
+"
+:
+[
+"
+fetch
+/
+metadata
+/
+tools
+/
+generate
+.
+py
+"
+]
+    
+"
 html5lib
 "
 :
