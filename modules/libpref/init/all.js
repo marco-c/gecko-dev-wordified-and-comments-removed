@@ -34928,7 +34928,7 @@ dom
 .
 maxHardwareConcurrency
 "
-16
+128
 )
 ;
 pref
