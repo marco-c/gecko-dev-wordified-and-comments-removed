@@ -1098,8 +1098,7 @@ online
 ?
 matched_keywords
 :
-"
-"
+undefined
 position
 :
 index
@@ -1118,8 +1117,7 @@ online
 ?
 search_query
 :
-"
-"
+undefined
 }
 ;
 let
