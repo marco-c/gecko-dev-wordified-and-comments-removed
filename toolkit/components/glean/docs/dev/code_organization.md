@@ -2,12 +2,9 @@
 FOG
 code
 organization
-eval_rst
-.
-.
+{
 note
-:
-:
+}
 Project
 FOG
 is

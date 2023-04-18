@@ -3,12 +3,9 @@ Developing
 Firefox
 on
 Glean
-eval_rst
-.
-.
+{
 toctree
-:
-:
+}
 :
 titlesonly
 :

@@ -2,12 +2,9 @@
 Firefox
 on
 macOS
-eval_rst
-.
-.
+{
 toctree
-:
-:
+}
 :
 titlesonly
 :

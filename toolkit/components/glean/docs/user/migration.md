@@ -86,12 +86,9 @@ to
 Glean
 ones
 .
-eval_rst
-.
-.
+{
 contents
-:
-:
+}
 #
 #
 General

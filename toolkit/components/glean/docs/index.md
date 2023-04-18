@@ -165,12 +165,9 @@ glean
 matrix
 ]
 .
-eval_rst
-.
-.
+{
 toctree
-:
-:
+}
 :
 titlesonly
 :
@@ -195,6 +192,8 @@ telemetry
 .
 /
 telemetry
+/
+index
 [
 glean
 -

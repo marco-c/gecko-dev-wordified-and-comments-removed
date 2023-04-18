@@ -72,12 +72,9 @@ run
 mach
 vendor
 python
-eval_rst
-.
-.
+{
 note
-:
-:
+}
 *
 *
 Important

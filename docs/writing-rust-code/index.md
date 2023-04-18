@@ -79,12 +79,9 @@ code
 in
 Firefox
 .
-eval_rst
-.
-.
+{
 toctree
-:
-:
+}
 :
 titlesonly
 :
