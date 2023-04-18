@@ -1359,7 +1359,7 @@ name
 PropertyKey
 :
 :
-fromNonIntAtom
+NonIntAtom
 (
 str
 )
@@ -1483,7 +1483,7 @@ cx
 PropertyKey
 :
 :
-fromNonIntAtom
+NonIntAtom
 (
 str
 )

@@ -141,7 +141,7 @@ JS
 PropertyKey
 :
 :
-fromNonIntAtom
+NonIntAtom
 (
 atom
 )

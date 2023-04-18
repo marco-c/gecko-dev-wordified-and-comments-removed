@@ -886,7 +886,7 @@ JS
 PropertyKey
 :
 :
-fromNonIntAtom
+NonIntAtom
 (
 str
 )
@@ -1220,7 +1220,7 @@ JS
 PropertyKey
 :
 :
-fromNonIntAtom
+NonIntAtom
 (
 str
 )
