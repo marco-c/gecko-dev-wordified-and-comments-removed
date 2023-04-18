@@ -241,7 +241,7 @@ dbg
 )
 {
 await
-waitForTime
+wait
 (
 200
 )

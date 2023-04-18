@@ -748,7 +748,7 @@ js
 )
 ;
 await
-waitForTime
+wait
 (
 1000
 )
