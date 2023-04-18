@@ -47,6 +47,8 @@ class
 OriginTrials
 final
 {
+public
+:
 void
 UpdateFromToken
 (

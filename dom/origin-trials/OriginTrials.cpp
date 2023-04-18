@@ -272,7 +272,7 @@ if
 !
 result
 .
-IsSuccess
+IsOk
 (
 )
 )
@@ -285,7 +285,7 @@ trial
 =
 result
 .
-AsSuccess
+AsOk
 (
 )
 .
