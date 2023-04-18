@@ -884,8 +884,14 @@ var
 focus
 -
 outline
-1px
-dotted
+2px
+solid
+-
+moz
+-
+accent
+-
+color
 )
 ;
 outline
@@ -901,7 +907,6 @@ focus
 outline
 -
 offset
--
 2px
 )
 ;

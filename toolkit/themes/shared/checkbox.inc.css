@@ -661,10 +661,9 @@ native
 ]
 )
 :
+focus
 -
-moz
--
-focusring
+visible
 >
 .
 checkbox
@@ -673,8 +672,6 @@ check
 {
 outline
 :
-2px
-solid
 var
 (
 -
@@ -682,8 +679,8 @@ var
 focus
 -
 outline
--
-color
+2px
+solid
 -
 moz
 -
