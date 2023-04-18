@@ -8241,6 +8241,13 @@ Open
 OTHER
 )
 ;
+gfxPlatform
+:
+:
+GetPlatform
+(
+)
+;
 nsCOMPtr
 <
 nsIWindowWatcher
@@ -10296,10 +10303,6 @@ mParent
 parent
 ;
 }
-CreateLayerManager
-(
-)
-;
 #
 ifdef
 DEBUG_ANDROID_WIDGET

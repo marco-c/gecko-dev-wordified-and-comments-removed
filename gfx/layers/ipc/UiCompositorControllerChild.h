@@ -133,6 +133,9 @@ const
 LayersId
 &
 aRootLayerTreeId
+nsBaseWidget
+*
+aWidget
 )
 ;
 static
@@ -153,6 +156,9 @@ PUiCompositorControllerChild
 &
 &
 aEndpoint
+nsBaseWidget
+*
+aWidget
 )
 ;
 bool
@@ -242,14 +248,6 @@ aEnable
 void
 Destroy
 (
-)
-;
-void
-SetBaseWidget
-(
-nsBaseWidget
-*
-aWidget
 )
 ;
 bool
@@ -399,6 +397,9 @@ const
 uint64_t
 &
 aProcessToken
+nsBaseWidget
+*
+aWidget
 )
 ;
 virtual
