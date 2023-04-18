@@ -2754,9 +2754,14 @@ if
 CONFIG
 [
 "
-MOZ_X11
+MOZ_WIDGET_TOOLKIT
 "
 ]
+=
+=
+"
+gtk
+"
 :
 CXXFLAGS
 +
@@ -2764,7 +2769,7 @@ CXXFLAGS
 CONFIG
 [
 "
-TK_CFLAGS
+MOZ_GTK3_CFLAGS
 "
 ]
 GeneratedFile

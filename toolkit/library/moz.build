@@ -1546,7 +1546,7 @@ in
 CONFIG
 [
 "
-TK_LIBS
+MOZ_GTK3_LIBS
 "
 ]
 if
