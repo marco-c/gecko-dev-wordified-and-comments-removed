@@ -109,6 +109,8 @@ h
 #
 include
 "
+x11
+/
 keysym2ucs
 .
 h
