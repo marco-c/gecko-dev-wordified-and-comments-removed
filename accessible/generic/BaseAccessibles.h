@@ -223,11 +223,6 @@ bool
 aIsOnclick
 =
 nullptr
-bool
-*
-aIsLabelWithControl
-=
-nullptr
 )
 const
 ;

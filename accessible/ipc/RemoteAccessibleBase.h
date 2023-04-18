@@ -1284,6 +1284,13 @@ HasPrimaryAction
 const
 override
 ;
+nsAtom
+*
+GetPrimaryAction
+(
+)
+const
+;
 private
 :
 uintptr_t

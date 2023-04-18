@@ -1169,6 +1169,7 @@ bool
 IsLocal
 (
 )
+const
 {
 return
 !
@@ -1266,6 +1267,14 @@ int32_t
 *
 aSetSize
 )
+;
+const
+Accessible
+*
+ActionAncestor
+(
+)
+const
 ;
 virtual
 bool
