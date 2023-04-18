@@ -272,13 +272,6 @@ nsTArray
 WrPipelineIdAndEpoch
 >
 ;
-const
-uint64_t
-ROOT_CLIP_CHAIN
-=
-~
-0
-;
 }
 }
 void

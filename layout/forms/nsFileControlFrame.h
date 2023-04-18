@@ -233,7 +233,10 @@ ContentStatesChanged
 mozilla
 :
 :
-EventStates
+dom
+:
+:
+ElementState
 aStates
 )
 override

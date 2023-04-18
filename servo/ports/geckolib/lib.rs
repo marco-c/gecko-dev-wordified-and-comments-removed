@@ -14,6 +14,10 @@ extern
 crate
 cstr
 ;
+extern
+crate
+dom
+;
 #
 [
 macro_use

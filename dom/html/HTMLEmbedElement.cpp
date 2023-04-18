@@ -3,15 +3,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindContext
@@ -183,7 +174,10 @@ FROM_PARSER_NETWORK
 ;
 AddStatesSilently
 (
-NS_EVENT_STATE_LOADING
+ElementState
+:
+:
+LOADING
 )
 ;
 }
@@ -1061,7 +1055,7 @@ false
 )
 ;
 }
-EventStates
+ElementState
 HTMLEmbedElement
 :
 :

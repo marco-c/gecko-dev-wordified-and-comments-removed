@@ -562,7 +562,10 @@ AdjustUnthemedScrollbarThumbColor
 (
 nscolor
 aFaceColor
-EventStates
+dom
+:
+:
+ElementState
 aStates
 )
 ;

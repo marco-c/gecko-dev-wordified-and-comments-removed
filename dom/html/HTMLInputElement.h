@@ -796,7 +796,7 @@ DestroyContent
 )
 override
 ;
-EventStates
+ElementState
 IntrinsicState
 (
 )
@@ -3493,7 +3493,10 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_REQUIRED
+ElementState
+:
+:
+REQUIRED
 )
 ;
 }

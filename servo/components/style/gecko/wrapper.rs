@@ -65,10 +65,7 @@ TShadowRoot
 }
 ;
 use
-crate
-:
-:
-element_state
+dom
 :
 :
 {
@@ -4580,7 +4577,7 @@ self
 .
 mState
 .
-mStates
+bits
 ;
 }
 unsafe
@@ -4626,7 +4623,7 @@ owner_doc
 .
 mDocumentState
 .
-mStates
+bits
 )
 }
 #
@@ -8549,7 +8546,7 @@ intersects
 ElementState
 :
 :
-IN_VISITED_STATE
+VISITED
 )
 }
 #
@@ -12759,7 +12756,7 @@ intersects
 ElementState
 :
 :
-IN_VISITED_OR_UNVISITED_STATE
+VISITED_OR_UNVISITED
 )
 }
 #

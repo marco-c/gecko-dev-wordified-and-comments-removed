@@ -29,15 +29,6 @@ use
 crate
 :
 :
-element_state
-:
-:
-ElementState
-;
-use
-crate
-:
-:
 invalidation
 :
 :
@@ -156,6 +147,12 @@ crate
 Atom
 WeakAtom
 }
+;
+use
+dom
+:
+:
+ElementState
 ;
 use
 selectors
@@ -988,7 +985,7 @@ contains
 ElementState
 :
 :
-IN_VISITED_OR_UNVISITED_STATE
+VISITED_OR_UNVISITED
 )
 {
 trace

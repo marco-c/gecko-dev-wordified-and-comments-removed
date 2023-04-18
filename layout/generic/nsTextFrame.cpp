@@ -733,7 +733,10 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_REVEALED
+ElementState
+:
+:
+REVEALED
 )
 ;
 }

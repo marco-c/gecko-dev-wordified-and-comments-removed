@@ -208,7 +208,7 @@ aNotify
 )
 override
 ;
-EventStates
+ElementState
 IntrinsicState
 (
 )

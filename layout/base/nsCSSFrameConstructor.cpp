@@ -132,15 +132,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Likely
 .
 h
@@ -16391,7 +16382,10 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_BROKEN
+ElementState
+:
+:
+BROKEN
 )
 )
 {

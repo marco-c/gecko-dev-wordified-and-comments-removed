@@ -3,15 +3,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindContext
@@ -214,7 +205,10 @@ true
 ;
 AddStatesSilently
 (
-NS_EVENT_STATE_LOADING
+ElementState
+:
+:
+LOADING
 )
 ;
 }
@@ -1263,7 +1257,7 @@ false
 )
 ;
 }
-EventStates
+ElementState
 HTMLObjectElement
 :
 :

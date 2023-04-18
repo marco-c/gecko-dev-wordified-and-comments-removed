@@ -445,7 +445,10 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_MODAL_DIALOG
+ElementState
+:
+:
+MODAL_DIALOG
 )
 ;
 }

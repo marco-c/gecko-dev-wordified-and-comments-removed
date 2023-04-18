@@ -287,7 +287,7 @@ aNullParent
 override
 ;
 virtual
-EventStates
+ElementState
 IntrinsicState
 (
 )

@@ -2177,11 +2177,11 @@ ComputedStyle
 &
 aStyle
 const
-EventStates
+ElementState
 &
 aElementState
 const
-EventStates
+DocumentState
 &
 aDocumentState
 const
@@ -2393,11 +2393,11 @@ ComputedStyle
 &
 aStyle
 const
-EventStates
+ElementState
 &
 aElementState
 const
-EventStates
+DocumentState
 &
 aDocumentState
 const
@@ -2448,11 +2448,11 @@ ComputedStyle
 &
 aStyle
 const
-EventStates
+ElementState
 &
 aElementState
 const
-EventStates
+DocumentState
 &
 aDocumentState
 const
@@ -2508,7 +2508,7 @@ ComputedStyle
 &
 aStyle
 const
-EventStates
+DocumentState
 &
 aDocumentState
 const
@@ -2599,7 +2599,7 @@ ComputedStyle
 &
 aStyle
 const
-EventStates
+DocumentState
 &
 aDocumentState
 const
@@ -2649,7 +2649,7 @@ ComputedStyle
 &
 aStyle
 const
-EventStates
+DocumentState
 &
 aDocumentState
 const
@@ -2704,7 +2704,7 @@ ComputedStyle
 &
 aStyle
 const
-EventStates
+DocumentState
 &
 aDocumentState
 const
@@ -2795,7 +2795,7 @@ ComputedStyle
 &
 aStyle
 const
-EventStates
+DocumentState
 &
 aDocumentState
 const
@@ -2845,7 +2845,7 @@ ComputedStyle
 &
 aStyle
 const
-EventStates
+DocumentState
 &
 aDocumentState
 const

@@ -476,15 +476,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 IMEStateManager
 .
 h
@@ -3909,7 +3900,7 @@ return
 NS_OK
 ;
 }
-EventStates
+ElementState
 nsObjectLoadingContent
 :
 :
@@ -3927,7 +3918,10 @@ case
 eType_Loading
 :
 return
-NS_EVENT_STATE_LOADING
+ElementState
+:
+:
+LOADING
 ;
 case
 eType_Image
@@ -3944,7 +3938,7 @@ case
 eType_Document
 :
 return
-EventStates
+ElementState
 (
 )
 ;
@@ -3952,7 +3946,7 @@ case
 eType_Fallback
 :
 return
-EventStates
+ElementState
 (
 )
 ;
@@ -3960,7 +3954,10 @@ case
 eType_Null
 :
 return
-NS_EVENT_STATE_BROKEN
+ElementState
+:
+:
+BROKEN
 ;
 }
 MOZ_ASSERT_UNREACHABLE
@@ -3973,7 +3970,10 @@ type
 )
 ;
 return
-NS_EVENT_STATE_LOADING
+ElementState
+:
+:
+LOADING
 ;
 }
 void
@@ -6748,7 +6748,7 @@ mChannelLoaded
 false
 ;
 }
-EventStates
+ElementState
 oldState
 =
 ObjectState
@@ -9013,7 +9013,7 @@ NotifyStateChanged
 (
 ObjectType
 aOldType
-EventStates
+ElementState
 aOldState
 bool
 aNotify
@@ -9146,7 +9146,7 @@ return
 ;
 }
 const
-EventStates
+ElementState
 newState
 =
 ObjectState

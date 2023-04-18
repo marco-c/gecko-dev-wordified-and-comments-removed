@@ -246,7 +246,7 @@ const
 override
 ;
 virtual
-EventStates
+ElementState
 IntrinsicState
 (
 )

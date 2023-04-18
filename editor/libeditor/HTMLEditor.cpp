@@ -137,15 +137,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 IntegerRange
 .
 h
@@ -3441,7 +3432,10 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_READWRITE
+ElementState
+:
+:
+READWRITE
 )
 )
 {

@@ -80,7 +80,7 @@ aNodeInfo
 )
 ;
 virtual
-EventStates
+ElementState
 IntrinsicState
 (
 )
@@ -344,7 +344,7 @@ const
 double
 kDefaultMax
 ;
-EventStates
+ElementState
 GetOptimumState
 (
 )

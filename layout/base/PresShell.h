@@ -440,9 +440,6 @@ class
 AccessibleCaretEventHub
 ;
 class
-EventStates
-;
-class
 GeckoMVMContext
 ;
 class
@@ -3221,7 +3218,10 @@ override
 void
 DocumentStatesChanged
 (
-EventStates
+dom
+:
+:
+DocumentState
 )
 ;
 NS_DECL_NSIDOCUMENTOBSERVER_BEGINLOAD

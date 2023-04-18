@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h
@@ -114,9 +105,6 @@ nsStyleChangeList
 namespace
 mozilla
 {
-class
-EventStates
-;
 class
 ServoStyleSet
 ;
@@ -1082,7 +1070,10 @@ ContentStateChanged
 nsIContent
 *
 aContent
-EventStates
+dom
+:
+:
+ElementState
 aStateMask
 )
 ;

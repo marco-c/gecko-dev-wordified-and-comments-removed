@@ -463,9 +463,6 @@ class
 nsDisplayListSet
 ;
 class
-EventStates
-;
-class
 ServoRestyleState
 ;
 class
@@ -6755,7 +6752,10 @@ ContentStatesChanged
 mozilla
 :
 :
-EventStates
+dom
+:
+:
+ElementState
 aStates
 )
 ;

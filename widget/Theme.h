@@ -145,6 +145,14 @@ AccentColor
 =
 ThemeAccentColor
 ;
+using
+ElementState
+=
+dom
+:
+:
+ElementState
+;
 public
 :
 explicit
@@ -492,7 +500,7 @@ sRGBColor
 ComputeCheckboxColors
 (
 const
-EventStates
+ElementState
 &
 StyleAppearance
 const
@@ -504,7 +512,7 @@ sRGBColor
 ComputeCheckmarkColor
 (
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -525,7 +533,7 @@ sRGBColor
 ComputeBorderColor
 (
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -544,7 +552,7 @@ sRGBColor
 ComputeButtonColors
 (
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -566,7 +574,7 @@ sRGBColor
 ComputeTextfieldColors
 (
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -585,7 +593,7 @@ sRGBColor
 ComputeRangeProgressColors
 (
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -603,7 +611,7 @@ sRGBColor
 ComputeRangeTrackColors
 (
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -621,7 +629,7 @@ sRGBColor
 ComputeRangeThumbColors
 (
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -669,7 +677,7 @@ sRGBColor
 ComputeMeterchunkColors
 (
 const
-EventStates
+ElementState
 &
 aMeterState
 const
@@ -746,7 +754,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -763,7 +771,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -779,7 +787,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -875,7 +883,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -897,7 +905,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 DPIRatio
 )
@@ -916,7 +924,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -938,7 +946,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -960,7 +968,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -979,7 +987,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 )
 ;
@@ -994,7 +1002,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 StyleAppearance
 const
@@ -1019,7 +1027,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -1045,7 +1053,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 const
 Colors
@@ -1071,7 +1079,7 @@ const
 LayoutDeviceRect
 &
 const
-EventStates
+ElementState
 &
 const
 Colors

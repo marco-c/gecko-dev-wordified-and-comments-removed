@@ -140,15 +140,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 FloatingPoint
 .
 h
@@ -1061,7 +1052,7 @@ NativeState
 (
 )
 ;
-EventStates
+ElementState
 elmState
 =
 mContent
@@ -1082,7 +1073,10 @@ elmState
 .
 HasState
 (
-NS_EVENT_STATE_DEFAULT
+ElementState
+:
+:
+DEFAULT
 )
 )
 state

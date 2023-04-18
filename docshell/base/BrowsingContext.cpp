@@ -15254,7 +15254,10 @@ doc
 >
 UpdateDocumentStates
 (
-NS_DOCUMENT_STATE_WINDOW_INACTIVE
+DocumentState
+:
+:
+WINDOW_INACTIVE
 true
 )
 ;

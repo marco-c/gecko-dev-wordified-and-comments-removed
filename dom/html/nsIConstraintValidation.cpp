@@ -483,7 +483,10 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_FOCUS
+ElementState
+:
+:
+FOCUS
 )
 )
 {

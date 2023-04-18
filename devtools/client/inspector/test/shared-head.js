@@ -2300,7 +2300,7 @@ args
 >
 {
 const
-NS_EVENT_STATE_VISITED
+ELEMENT_STATE_VISITED
 =
 1
 <
@@ -2343,7 +2343,7 @@ getContentState
 target
 )
 &
-NS_EVENT_STATE_VISITED
+ELEMENT_STATE_VISITED
 )
 )
 {

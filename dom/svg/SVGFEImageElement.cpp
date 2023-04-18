@@ -14,15 +14,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SVGObserverUtils
 .
 h
@@ -270,7 +261,10 @@ mImageAnimationMode
 {
 AddStatesSilently
 (
-NS_EVENT_STATE_BROKEN
+ElementState
+:
+:
+BROKEN
 )
 ;
 }
@@ -851,7 +845,7 @@ aNullParent
 )
 ;
 }
-EventStates
+ElementState
 SVGFEImageElement
 :
 :

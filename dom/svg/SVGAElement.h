@@ -281,7 +281,7 @@ HasHref
 const
 ;
 virtual
-EventStates
+ElementState
 IntrinsicState
 (
 )

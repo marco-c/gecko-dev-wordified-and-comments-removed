@@ -62,7 +62,7 @@ PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 link
 "
 Link
-IN_UNVISITED_STATE
+UNVISITED
 _
 )
 (
@@ -72,7 +72,7 @@ any
 link
 "
 AnyLink
-IN_VISITED_OR_UNVISITED_STATE
+VISITED_OR_UNVISITED
 _
 )
 (
@@ -80,7 +80,7 @@ _
 visited
 "
 Visited
-IN_VISITED_STATE
+VISITED
 _
 )
 (
@@ -88,7 +88,7 @@ _
 active
 "
 Active
-IN_ACTIVE_STATE
+ACTIVE
 _
 )
 (
@@ -96,7 +96,7 @@ _
 autofill
 "
 Autofill
-IN_AUTOFILL_STATE
+AUTOFILL
 _
 )
 (
@@ -104,7 +104,7 @@ _
 checked
 "
 Checked
-IN_CHECKED_STATE
+CHECKED
 _
 )
 (
@@ -112,7 +112,7 @@ _
 defined
 "
 Defined
-IN_DEFINED_STATE
+DEFINED
 _
 )
 (
@@ -120,7 +120,7 @@ _
 disabled
 "
 Disabled
-IN_DISABLED_STATE
+DISABLED
 _
 )
 (
@@ -128,7 +128,7 @@ _
 enabled
 "
 Enabled
-IN_ENABLED_STATE
+ENABLED
 _
 )
 (
@@ -136,7 +136,7 @@ _
 focus
 "
 Focus
-IN_FOCUS_STATE
+FOCUS
 _
 )
 (
@@ -146,7 +146,7 @@ focus
 within
 "
 FocusWithin
-IN_FOCUS_WITHIN_STATE
+FOCUS_WITHIN
 _
 )
 (
@@ -156,7 +156,7 @@ focus
 visible
 "
 FocusVisible
-IN_FOCUSRING_STATE
+FOCUSRING
 _
 )
 (
@@ -164,7 +164,7 @@ _
 hover
 "
 Hover
-IN_HOVER_STATE
+HOVER
 _
 )
 (
@@ -177,7 +177,7 @@ drag
 over
 "
 MozDragOver
-IN_DRAGOVER_STATE
+DRAGOVER
 _
 )
 (
@@ -185,7 +185,7 @@ _
 target
 "
 Target
-IN_TARGET_STATE
+URLTARGET
 _
 )
 (
@@ -193,7 +193,7 @@ _
 indeterminate
 "
 Indeterminate
-IN_INDETERMINATE_STATE
+INDETERMINATE
 _
 )
 (
@@ -204,7 +204,7 @@ moz
 inert
 "
 MozInert
-IN_MOZINERT_STATE
+INERT
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
@@ -217,7 +217,7 @@ devtools
 highlighted
 "
 MozDevtoolsHighlighted
-IN_DEVTOOLS_HIGHLIGHTED_STATE
+DEVTOOLS_HIGHLIGHTED
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
@@ -230,7 +230,7 @@ styleeditor
 transitioning
 "
 MozStyleeditorTransitioning
-IN_STYLEEDITOR_TRANSITIONING_STATE
+STYLEEDITOR_TRANSITIONING
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
@@ -238,7 +238,7 @@ PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 fullscreen
 "
 Fullscreen
-IN_FULLSCREEN_STATE
+FULLSCREEN
 _
 )
 (
@@ -251,7 +251,7 @@ modal
 dialog
 "
 MozModalDialog
-IN_MODAL_DIALOG_STATE
+MODAL_DIALOG
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
@@ -264,7 +264,7 @@ topmost
 modal
 "
 MozTopmostModal
-IN_TOPMOST_MODAL_TOP_LAYER_STATE
+TOPMOST_MODAL
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
@@ -275,7 +275,7 @@ moz
 broken
 "
 MozBroken
-IN_BROKEN_STATE
+BROKEN
 _
 )
 (
@@ -286,7 +286,7 @@ moz
 loading
 "
 MozLoading
-IN_LOADING_STATE
+LOADING
 _
 )
 (
@@ -301,7 +301,7 @@ dir
 attr
 "
 MozHasDirAttr
-IN_HAS_DIR_ATTR_STATE
+HAS_DIR_ATTR
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
@@ -316,7 +316,7 @@ attr
 ltr
 "
 MozDirAttrLTR
-IN_HAS_DIR_ATTR_LTR_STATE
+HAS_DIR_ATTR_LTR
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
@@ -331,7 +331,7 @@ attr
 rtl
 "
 MozDirAttrRTL
-IN_HAS_DIR_ATTR_RTL_STATE
+HAS_DIR_ATTR_RTL
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
@@ -348,7 +348,7 @@ like
 auto
 "
 MozDirAttrLikeAuto
-IN_HAS_DIR_ATTR_LIKE_AUTO_STATE
+HAS_DIR_ATTR_LIKE_AUTO
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
@@ -361,7 +361,7 @@ autofill
 preview
 "
 MozAutofillPreview
-IN_AUTOFILL_PREVIEW_STATE
+AUTOFILL_PREVIEW
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
 (
@@ -374,7 +374,7 @@ value
 empty
 "
 MozValueEmpty
-IN_VALUE_EMPTY_STATE
+VALUE_EMPTY
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
@@ -385,7 +385,7 @@ moz
 revealed
 "
 MozRevealed
-IN_REVEALED_STATE
+REVEALED
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
@@ -402,7 +402,7 @@ script
 level
 "
 MozMathIncrementScriptLevel
-IN_INCREMENT_SCRIPT_LEVEL_STATE
+INCREMENT_SCRIPT_LEVEL
 _
 )
 (
@@ -410,7 +410,7 @@ _
 required
 "
 Required
-IN_REQUIRED_STATE
+REQUIRED
 _
 )
 (
@@ -418,7 +418,7 @@ _
 optional
 "
 Optional
-IN_OPTIONAL_STATE
+OPTIONAL_
 _
 )
 (
@@ -426,7 +426,7 @@ _
 valid
 "
 Valid
-IN_VALID_STATE
+VALID
 _
 )
 (
@@ -434,7 +434,7 @@ _
 invalid
 "
 Invalid
-IN_INVALID_STATE
+INVALID
 _
 )
 (
@@ -444,7 +444,7 @@ in
 range
 "
 InRange
-IN_INRANGE_STATE
+INRANGE
 _
 )
 (
@@ -456,7 +456,7 @@ of
 range
 "
 OutOfRange
-IN_OUTOFRANGE_STATE
+OUTOFRANGE
 _
 )
 (
@@ -464,7 +464,7 @@ _
 default
 "
 Default
-IN_DEFAULT_STATE
+DEFAULT
 _
 )
 (
@@ -474,7 +474,7 @@ placeholder
 shown
 "
 PlaceholderShown
-IN_PLACEHOLDER_SHOWN_STATE
+PLACEHOLDER_SHOWN
 _
 )
 (
@@ -484,7 +484,7 @@ read
 only
 "
 ReadOnly
-IN_READONLY_STATE
+READONLY
 _
 )
 (
@@ -494,7 +494,7 @@ read
 write
 "
 ReadWrite
-IN_READWRITE_STATE
+READWRITE
 _
 )
 (
@@ -504,7 +504,7 @@ user
 valid
 "
 UserValid
-IN_MOZ_UI_VALID_STATE
+MOZ_UI_VALID
 _
 )
 (
@@ -514,7 +514,7 @@ user
 invalid
 "
 UserInvalid
-IN_MOZ_UI_INVALID_STATE
+MOZ_UI_INVALID
 _
 )
 (
@@ -527,7 +527,7 @@ meter
 optimum
 "
 MozMeterOptimum
-IN_OPTIMUM_STATE
+OPTIMUM
 _
 )
 (
@@ -542,7 +542,7 @@ sub
 optimum
 "
 MozMeterSubOptimum
-IN_SUB_OPTIMUM_STATE
+SUB_OPTIMUM
 _
 )
 (
@@ -559,7 +559,7 @@ sub
 optimum
 "
 MozMeterSubSubOptimum
-IN_SUB_SUB_OPTIMUM_STATE
+SUB_SUB_OPTIMUM
 _
 )
 (

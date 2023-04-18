@@ -13831,7 +13831,7 @@ gpuProcessPid
 *
 Adds
 an
-EventStates
+ElementState
 bit
 to
 the
@@ -13862,7 +13862,10 @@ example
 higlighted
 "
 for
-NS_EVENT_STATE_HIGHLIGHTED
+ElementState
+:
+:
+HIGHLIGHTED
 )
 *
 *
@@ -13900,7 +13903,7 @@ state
 Removes
 the
 specified
-EventStates
+ElementState
 bits
 from
 the

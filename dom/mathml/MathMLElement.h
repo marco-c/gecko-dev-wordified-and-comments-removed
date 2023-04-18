@@ -286,7 +286,10 @@ virtual
 mozilla
 :
 :
-EventStates
+dom
+:
+:
+ElementState
 IntrinsicState
 (
 )

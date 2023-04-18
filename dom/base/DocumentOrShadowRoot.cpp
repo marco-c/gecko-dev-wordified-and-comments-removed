@@ -1819,7 +1819,10 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_FULLSCREEN
+ElementState
+:
+:
+FULLSCREEN
 )
 "
 Fullscreen

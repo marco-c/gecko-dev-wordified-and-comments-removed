@@ -211,7 +211,10 @@ NS_DECL_NSICHANNELEVENTSINK
 mozilla
 :
 :
-EventStates
+dom
+:
+:
+ElementState
 ObjectState
 (
 )
@@ -983,7 +986,10 @@ aOldType
 mozilla
 :
 :
-EventStates
+dom
+:
+:
+ElementState
 aOldState
 bool
 aNotify

@@ -23,15 +23,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 2D
@@ -328,7 +319,10 @@ aNodeInfo
 {
 AddStatesSilently
 (
-NS_EVENT_STATE_BROKEN
+ElementState
+:
+:
+BROKEN
 )
 ;
 }
@@ -1160,7 +1154,7 @@ aNullParent
 )
 ;
 }
-EventStates
+ElementState
 SVGImageElement
 :
 :

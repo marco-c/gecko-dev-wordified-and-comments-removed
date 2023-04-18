@@ -10,15 +10,6 @@ use
 crate
 :
 :
-element_state
-:
-:
-ElementState
-;
-use
-crate
-:
-:
 stylesheets
 :
 :
@@ -53,6 +44,12 @@ as
 CssParser
 ParserInput
 }
+;
+use
+dom
+:
+:
+ElementState
 ;
 use
 selectors
@@ -1106,7 +1103,7 @@ Ltr
 ElementState
 :
 :
-IN_LTR_STATE
+LTR
 Some
 (
 HorizontalDirection
@@ -1119,7 +1116,7 @@ Rtl
 ElementState
 :
 :
-IN_RTL_STATE
+RTL
 None
 =
 >
