@@ -4065,6 +4065,7 @@ depends
 target
 c_compiler
 moz_debug
+milestone
 )
 def
 wasm_verify_serialization_for_size
@@ -4072,6 +4073,7 @@ wasm_verify_serialization_for_size
 target
 c_compiler
 debug
+milestone
 )
 :
 if
@@ -4107,6 +4109,10 @@ type
 "
 clang
 "
+and
+milestone
+.
+is_nightly
 )
 :
 return
