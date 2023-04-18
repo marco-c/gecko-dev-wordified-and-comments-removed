@@ -6279,6 +6279,10 @@ trans
 ClassOfService
 (
 )
+.
+Flags
+(
+)
 ;
 if
 (

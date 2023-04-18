@@ -4369,10 +4369,8 @@ PR_IntervalNow
 (
 )
 ;
-uint32_t
+ClassOfServiceStruct
 cos
-=
-0
 ;
 if
 (
