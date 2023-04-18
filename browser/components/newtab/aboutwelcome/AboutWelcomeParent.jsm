@@ -1417,7 +1417,6 @@ onContentMessage
 type
 data
 browser
-window
 )
 {
 log
@@ -1956,9 +1955,6 @@ message
 let
 browser
 ;
-let
-window
-;
 if
 (
 this
@@ -1978,12 +1974,6 @@ rootFrameLoader
 .
 ownerElement
 ;
-window
-=
-browser
-.
-ownerGlobal
-;
 return
 this
 .
@@ -1992,7 +1982,6 @@ onContentMessage
 name
 data
 browser
-window
 )
 ;
 }
