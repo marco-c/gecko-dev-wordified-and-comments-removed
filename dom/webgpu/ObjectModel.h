@@ -100,6 +100,16 @@ true
 ;
 public
 :
+bool
+IsValid
+(
+)
+const
+{
+return
+mValid
+;
+}
 void
 GetLabel
 (

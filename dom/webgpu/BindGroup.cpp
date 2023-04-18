@@ -69,6 +69,17 @@ mId
 aId
 )
 {
+if
+(
+!
+aId
+)
+{
+mValid
+=
+false
+;
+}
 }
 BindGroup
 :
