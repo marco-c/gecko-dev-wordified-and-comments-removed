@@ -784,14 +784,6 @@ isSome
 )
 ;
 }
-bool
-UsingSharedSurface
-(
-ContainerProducerID
-aProducerId
-)
-const
-;
 void
 ClearImageKey
 (
@@ -834,9 +826,6 @@ RefPtr
 ImageContainer
 >
 mContainer
-;
-bool
-mOwnsKey
 ;
 }
 ;
