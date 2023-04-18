@@ -437,6 +437,13 @@ headers
 }
 )
 {
+if
+(
+RemoteAgent
+.
+webDriverBiDi
+)
+{
 const
 origin
 =
@@ -495,6 +502,7 @@ origin
 }
 )
 ;
+}
 }
 const
 hostHeader
