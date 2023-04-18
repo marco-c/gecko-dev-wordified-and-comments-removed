@@ -1190,6 +1190,13 @@ TEST_HOST
 GeckoSessionTestRule
 .
 TEST_HOST
+const
+val
+TEST_PORT
+=
+GeckoSessionTestRule
+.
+TEST_PORT
 }
 get
 :
