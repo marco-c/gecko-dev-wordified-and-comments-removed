@@ -1027,14 +1027,14 @@ Namespace
 kwargs
 )
         
+setattr
+(
 options
-[
-"
+'
 disable_fission
-"
-]
-=
+'
 True
+)
         
 return
 runjunit
