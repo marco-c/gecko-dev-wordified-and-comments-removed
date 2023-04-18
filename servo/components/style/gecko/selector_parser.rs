@@ -481,10 +481,15 @@ lang
 )
 ?
 ;
-s
-.
+cssparser
+:
+:
+ToCss
+:
+:
 to_css
 (
+s
 dest
 )
 ?
