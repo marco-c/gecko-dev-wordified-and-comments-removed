@@ -262,6 +262,10 @@ mPrefSerializer
 >
 SerializeToSharedMemory
 (
+GeckoProcessType_RDD
+"
+"
+_ns
 )
 )
 {
