@@ -239,6 +239,9 @@ properties
 let
 manualURL
 =
+new
+URL
+(
 Services
 .
 urlFormatter
@@ -254,6 +257,7 @@ url
 .
 manual
 "
+)
 )
 ;
 let
@@ -273,12 +277,20 @@ manualLink
 textContent
 =
 manualURL
+.
+origin
++
+manualURL
+.
+pathname
 ;
 manualLink
 .
 href
 =
 manualURL
+.
+href
 ;
 document
 .
@@ -292,6 +304,8 @@ failedLink
 href
 =
 manualURL
+.
+href
 ;
 this
 .
