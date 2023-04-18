@@ -2873,7 +2873,7 @@ if
 font
 -
 >
-IsSyntheticBold
+ApplySyntheticBold
 (
 )
 )
