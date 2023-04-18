@@ -2312,12 +2312,6 @@ HasIMEEventMessage
 const
 ;
 bool
-HasPluginActivationEventMessage
-(
-)
-const
-;
-bool
 CanBeSentToRemoteProcess
 (
 )
