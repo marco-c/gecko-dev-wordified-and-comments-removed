@@ -94,16 +94,9 @@ OPEN_PRINT_BROWSER
 return
 PrintUtils
 .
-startPrintWindow
+handleStaticCloneCreatedForPrint
 (
 aOpenWindowInfo
-.
-parent
-{
-openWindowInfo
-:
-aOpenWindowInfo
-}
 )
 ;
 }
