@@ -10731,6 +10731,10 @@ HasScriptsBlockedBySandbox
 void
 ReportHasScrollLinkedEffect
 (
+const
+TimeStamp
+&
+aTimeStamp
 )
 ;
 bool
@@ -10738,11 +10742,7 @@ HasScrollLinkedEffect
 (
 )
 const
-{
-return
-mHasScrollLinkedEffect
 ;
-}
 #
 ifdef
 DEBUG
@@ -13111,6 +13111,9 @@ mFontFaceSet
 TimeStamp
 mLastFocusTime
 ;
+TimeStamp
+mLastScrollLinkedEffectDetectionTime
+;
 EventStates
 mDocumentState
 {
@@ -13364,11 +13367,6 @@ mFontFaceSetDirty
 ;
 bool
 mDidFireDOMContentLoaded
-:
-1
-;
-bool
-mHasScrollLinkedEffect
 :
 1
 ;
