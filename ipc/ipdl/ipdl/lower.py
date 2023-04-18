@@ -760,23 +760,6 @@ PrivateIPDLInterface
 )
 )
 def
-_iterType
-(
-ptr
-)
-:
-    
-return
-Type
-(
-"
-PickleIterator
-"
-ptr
-=
-ptr
-)
-def
 _deleteId
 (
 )
@@ -12208,21 +12191,21 @@ aVar
 "
 )
     
-msgvar
+writervar
 =
 ExprVar
 (
 "
-aMsg
+aWriter
 "
 )
     
-itervar
+readervar
 =
 ExprVar
 (
 "
-aIter
+aReader
 "
 )
     
@@ -12387,7 +12370,7 @@ def
 writeSentinel
 (
 cls
-msgvar
+writervar
 sentinelKey
 )
 :
@@ -12426,7 +12409,7 @@ ExprCall
                     
 ExprSelect
 (
-msgvar
+writervar
 "
 -
 >
@@ -12462,8 +12445,7 @@ def
 readSentinel
 (
 cls
-msgvar
-itervar
+readervar
 sentinelKey
 sentinelFail
 )
@@ -12476,7 +12458,7 @@ ExprCall
             
 ExprSelect
 (
-msgvar
+readervar
 "
 -
 >
@@ -12489,7 +12471,6 @@ ReadSentinel
 args
 =
 [
-itervar
 ExprLiteral
 .
 Int
@@ -12557,7 +12538,7 @@ write
 (
 cls
 var
-msgvar
+writervar
 actor
 ipdltype
 =
@@ -12593,7 +12574,7 @@ WriteIPDLParam
 args
 =
 [
-msgvar
+writervar
 actor
 var
 ]
@@ -12607,7 +12588,7 @@ checkedWrite
 cls
 ipdltype
 var
-msgvar
+writervar
 sentinelKey
 actor
 )
@@ -12687,7 +12668,7 @@ cls
 write
 (
 var
-msgvar
+writervar
 actor
 ipdltype
 )
@@ -12705,7 +12686,7 @@ cls
 .
 writeSentinel
 (
-msgvar
+writervar
 sentinelKey
 )
 )
@@ -12780,7 +12761,7 @@ ExprSelect
 (
 cls
 .
-msgvar
+writervar
 "
 -
 >
@@ -12850,7 +12831,7 @@ writeSentinel
 (
 cls
 .
-msgvar
+writervar
 cls
 .
 bulkSentinelKey
@@ -12896,7 +12877,7 @@ ExprSelect
 (
 cls
 .
-msgvar
+readervar
 "
 -
 >
@@ -12909,10 +12890,6 @@ ReadBytesInto
 args
 =
 [
-                
-cls
-.
-itervar
                 
 ExprAddrOf
 (
@@ -13019,11 +12996,7 @@ readSentinel
                 
 cls
 .
-msgvar
-                
-cls
-.
-itervar
+readervar
                 
 cls
 .
@@ -13058,9 +13031,7 @@ ipdltype
         
 var
         
-msgvar
-        
-itervar
+readervar
         
 errfn
         
@@ -13088,7 +13059,6 @@ StmtIf
             
 ExprNot
 (
-                
 ExprCall
 (
 ExprVar
@@ -13100,13 +13070,11 @@ ReadIPDLParam
 args
 =
 [
-msgvar
-itervar
+readervar
 actor
 var
 ]
 )
-            
 )
         
 )
@@ -13217,8 +13185,7 @@ cls
 .
 readSentinel
 (
-msgvar
-itervar
+readervar
 sentinelKey
 errfnSentinel
 (
@@ -13277,11 +13244,7 @@ var
             
 cls
 .
-msgvar
-            
-cls
-.
-itervar
+readervar
             
 errfn
 =
@@ -13454,7 +13417,7 @@ Type
 IPC
 :
 :
-Message
+MessageWriter
 "
 ptr
 =
@@ -13462,7 +13425,7 @@ True
 )
 cls
 .
-msgvar
+writervar
 .
 name
 )
@@ -13549,33 +13512,15 @@ Type
 IPC
 :
 :
-Message
+MessageReader
 "
 ptr
 =
 True
-const
-=
-True
 )
 cls
 .
-msgvar
-.
-name
-)
-                    
-Decl
-(
-_iterType
-(
-ptr
-=
-True
-)
-cls
-.
-itervar
+readervar
 .
 name
 )
@@ -13916,7 +13861,7 @@ id
 )
 cls
 .
-msgvar
+writervar
 cls
 .
 actor
@@ -13958,10 +13903,7 @@ actor
 ReadActor
 (
 {
-msgvar
-}
-{
-itervar
+readervar
 }
 true
 {
@@ -14023,17 +13965,11 @@ cls
 .
 actor
             
-msgvar
+readervar
 =
 cls
 .
-msgvar
-            
-itervar
-=
-cls
-.
-itervar
+readervar
             
 actortype
 =
@@ -14214,7 +14150,7 @@ f
                         
 cls
 .
-msgvar
+writervar
                         
 sentinelKey
 =
@@ -14531,10 +14467,13 @@ checkedWrite
 (
                 
 None
+                
 typevar
+                
 cls
 .
-msgvar
+writervar
+                
 sentinelKey
 =
 uniontype
@@ -14542,6 +14481,7 @@ uniontype
 name
 (
 )
+                
 actor
 =
 cls
@@ -14706,7 +14646,7 @@ getTypeName
                 
 cls
 .
-msgvar
+writervar
                 
 sentinelKey
 =
@@ -24228,21 +24168,6 @@ replyvar
 =
 replyvar
         
-itervar
-=
-ExprVar
-(
-"
-iter__
-"
-)
-        
-self
-.
-itervar
-=
-itervar
-        
 var
 =
 ExprVar
@@ -30219,6 +30144,15 @@ self
 .
 msgvar
         
+writervar
+=
+ExprVar
+(
+"
+writer__
+"
+)
+        
 routingId
 =
 self
@@ -30308,6 +30242,37 @@ routingId
 )
                 
 )
+                
+StmtDecl
+(
+                    
+Decl
+(
+Type
+(
+"
+IPC
+:
+:
+MessageWriter
+"
+)
+writervar
+.
+name
+)
+                    
+initargs
+=
+[
+ExprDeref
+(
+msgvar
+)
+this
+]
+                
+)
             
 ]
             
@@ -30329,17 +30294,24 @@ checkedWrite
 p
 .
 ipdltype
+                    
 p
 .
 var
 (
 )
-msgvar
+                    
+ExprAddrOf
+(
+writervar
+)
+                    
 sentinelKey
 =
 p
 .
 name
+                    
 actor
 =
 this
@@ -30503,9 +30475,15 @@ paramValue
 idx
 )
                 
-self
-.
-replyvar
+ExprAddrOf
+(
+ExprVar
+(
+"
+writer__
+"
+)
+)
                 
 sentinelKey
 =
@@ -30667,6 +30645,20 @@ IProtocol
 self__
 )
 {
+                        
+IPC
+:
+:
+MessageWriter
+writer__
+(
+*
+{
+replyvar
+}
+self__
+)
+;
                         
 *
 {
@@ -30884,6 +30876,39 @@ routingId
                 
 )
                 
+StmtDecl
+(
+                    
+Decl
+(
+Type
+(
+"
+IPC
+:
+:
+MessageWriter
+"
+)
+"
+writer__
+"
+)
+                    
+initargs
+=
+[
+ExprDeref
+(
+replyvar
+)
+ExprVar
+.
+THIS
+]
+                
+)
+                
 Whitespace
 .
 NL
@@ -30908,7 +30933,15 @@ var
 (
 )
                     
-replyvar
+ExprAddrOf
+(
+ExprVar
+(
+"
+writer__
+"
+)
+)
                     
 sentinelKey
 =
@@ -31036,17 +31069,20 @@ self
 .
 msgvar
         
-itervar
-=
-self
-.
-itervar
-        
 msgexpr
 =
 ExprAddrOf
 (
 msgvar
+)
+        
+readervar
+=
+ExprVar
+(
+"
+reader__
+"
 )
         
 isctor
@@ -31171,13 +31207,9 @@ ExprAddrOf
 handlevar
 )
                     
-msgexpr
-                    
 ExprAddrOf
 (
-self
-.
-itervar
+readervar
 )
                     
 errfn
@@ -31332,11 +31364,9 @@ var
 )
 )
                     
-msgexpr
-                    
 ExprAddrOf
 (
-itervar
+readervar
 )
                     
 errfn
@@ -31403,22 +31433,27 @@ StmtDecl
                         
 Decl
 (
-_iterType
+Type
 (
-ptr
-=
-False
+"
+IPC
+:
+:
+MessageReader
+"
 )
-self
-.
-itervar
+readervar
 .
 name
 )
+                        
 initargs
 =
 [
 msgvar
+ExprVar
+.
+THIS
 ]
                     
 )
@@ -31440,12 +31475,23 @@ reads
                 
 +
 [
-self
-.
-endRead
+StmtCode
 (
-msgvar
-itervar
+"
+{
+reader
+}
+.
+EndRead
+(
+)
+;
+\
+n
+"
+reader
+=
+readervar
 )
 ]
             
@@ -31473,11 +31519,14 @@ self
 .
 msgvar
         
-itervar
+readervar
 =
-self
-.
-itervar
+ExprVar
+(
+"
+reader__
+"
+)
         
 msgexpr
 =
@@ -31538,12 +31587,9 @@ if
 !
 ReadIPDLParam
 (
-{
-msgexpr
-}
 &
 {
-itervar
+readervar
 }
 this
 &
@@ -31572,13 +31618,9 @@ MsgValueError
 "
 "
                 
-msgexpr
+readervar
 =
-msgexpr
-                
-itervar
-=
-itervar
+readervar
             
 )
         
@@ -31606,12 +31648,9 @@ if
 !
 ReadIPDLParam
 (
-{
-msgexpr
-}
 &
 {
-itervar
+readervar
 }
 this
 &
@@ -31636,26 +31675,23 @@ MsgValueError
                 
 }
                 
-"
-"
-"
-                
-msgexpr
-=
-msgexpr
-                
-itervar
-=
-itervar
-            
-)
-            
-self
+{
+readervar
+}
 .
-endRead
+EndRead
 (
-msgvar
-itervar
+)
+;
+                
+"
+"
+"
+                
+readervar
+=
+readervar
+            
 )
         
 ]
@@ -31707,26 +31743,37 @@ extend
 (
             
 [
+                
 StmtDecl
 (
+                    
 Decl
 (
-_iterType
+Type
 (
-ptr
-=
-False
+"
+IPC
+:
+:
+MessageReader
+"
 )
-itervar
+readervar
 .
 name
 )
+                    
 initargs
 =
 [
 msgvar
+ExprVar
+.
+THIS
 ]
+                
 )
+            
 ]
             
 +
@@ -31798,11 +31845,9 @@ ExprAddrOf
 handlevar
 )
                     
-msgexpr
-                    
 ExprAddrOf
 (
-itervar
+readervar
 )
                     
 errfn
@@ -31915,11 +31960,9 @@ var
 )
 )
                     
-msgexpr
-                    
 ExprAddrOf
 (
-itervar
+readervar
 )
                     
 errfn
@@ -31972,12 +32015,21 @@ start
             
 +
 [
-self
-.
-endRead
+StmtCode
 (
-msgvar
-itervar
+"
+{
+reader
+}
+.
+EndRead
+(
+)
+;
+"
+reader
+=
+readervar
 )
 ]
         
@@ -32051,11 +32103,14 @@ returns
 return
 stmts
         
-itervar
+readervar
 =
-self
-.
-itervar
+ExprVar
+(
+"
+reader__
+"
+)
         
 declstmts
 =
@@ -32119,22 +32174,29 @@ StmtDecl
                     
 Decl
 (
-_iterType
+Type
 (
-ptr
-=
-False
+"
+IPC
+:
+:
+MessageReader
+"
 )
-itervar
+readervar
 .
 name
 )
+                    
 initargs
 =
 [
 self
 .
 replyvar
+ExprVar
+.
+THIS
 ]
                 
 )
@@ -32171,16 +32233,7 @@ var
                     
 ExprAddrOf
 (
-self
-.
-replyvar
-)
-                    
-ExprAddrOf
-(
-self
-.
-itervar
+readervar
 )
                     
 errfn
@@ -32229,14 +32282,21 @@ returns
             
 +
 [
-self
-.
-endRead
+StmtCode
 (
-self
+"
+{
+reader
+}
 .
-replyvar
-itervar
+EndRead
+(
+)
+;
+"
+reader
+=
+readervar
 )
 ]
         
@@ -33789,56 +33849,6 @@ saveIdStmts
 return
 idvar
 saveIdStmts
-    
-def
-endRead
-(
-self
-msgexpr
-iterexpr
-)
-:
-        
-return
-StmtCode
-(
-            
-"
-"
-"
-            
-{
-msg
-}
-.
-EndRead
-(
-{
-iter
-}
-{
-msg
-}
-.
-type
-(
-)
-)
-;
-            
-"
-"
-"
-            
-msg
-=
-msgexpr
-            
-iter
-=
-iterexpr
-        
-)
 class
 _GenerateProtocolParentCode
 (
