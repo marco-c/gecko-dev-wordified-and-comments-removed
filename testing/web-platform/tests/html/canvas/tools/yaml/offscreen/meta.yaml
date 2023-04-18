@@ -429,7 +429,7 @@ code
 "
 "
 "
-offscreenCanvas
+canvas
 .
 width
 =
@@ -474,7 +474,7 @@ value
 )
 s
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -1612,10 +1612,10 @@ offscreenCanvas2
 new
 OffscreenCanvas
 (
-offscreenCanvas
+canvas
 .
 width
-offscreenCanvas
+canvas
 .
 height
 )
@@ -6912,7 +6912,7 @@ code
 +
 =
 "
-offscreenCanvas
+canvas
 .
 width
 =
@@ -6922,7 +6922,7 @@ s
 '
 ;
 \
-noffscreenCanvas
+ncanvas
 .
 height
 =
@@ -6944,7 +6944,7 @@ code
 =
 "
 assert
-offscreenCanvas
+canvas
 .
 width
 =
@@ -6955,7 +6955,7 @@ width
 \
 n
 assert
-offscreenCanvas
+canvas
 .
 height
 =
@@ -6984,7 +6984,7 @@ code
 assert
 throws
 TypeError
-offscreenCanvas
+canvas
 .
 width
 =
@@ -7007,7 +7007,7 @@ code
 +
 =
 "
-offscreenCanvas
+canvas
 .
 width
 =
@@ -7017,7 +7017,7 @@ s
 '
 ;
 \
-noffscreenCanvas
+ncanvas
 .
 height
 =
@@ -7039,7 +7039,7 @@ code
 =
 "
 assert
-offscreenCanvas
+canvas
 .
 width
 =
@@ -7051,7 +7051,7 @@ s
 \
 n
 assert
-offscreenCanvas
+canvas
 .
 height
 =

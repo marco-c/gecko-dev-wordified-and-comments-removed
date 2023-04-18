@@ -1686,7 +1686,7 @@ fillRect
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 5
 5
 outputColor
@@ -1881,7 +1881,7 @@ fillRect
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 5
 5
 color
@@ -2328,7 +2328,7 @@ fillRect
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 5
 5
 outputColor
@@ -2743,7 +2743,7 @@ fillRect
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 5
 5
 outputColor
@@ -3131,7 +3131,7 @@ fillRect
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 5
 5
 outputColor
