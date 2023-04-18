@@ -513,10 +513,15 @@ extension
 event
 fire
 params
+isInStartup
 )
 {
 if
 (
+!
+isInStartup
+|
+|
 params
 [
 1
