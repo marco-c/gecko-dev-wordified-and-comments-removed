@@ -268,8 +268,8 @@ test_utils
 .
 elementFromPoint
 (
-20
-20
+60
+60
 false
 false
 )
@@ -299,7 +299,7 @@ is
 evt
 .
 clientX
-20
+60
 "
 evt
 .
@@ -326,7 +326,7 @@ is
 evt
 .
 clientY
-20
+60
 "
 evt
 .
@@ -644,8 +644,8 @@ test_utils
 sendSimpleGestureEvent
 (
 type
-20
-20
+60
+60
 direction
 delta
 modifiers
@@ -731,8 +731,8 @@ test_utils
 sendSimpleGestureEvent
 (
 type
-20
-20
+60
+60
 0
 0
 0
