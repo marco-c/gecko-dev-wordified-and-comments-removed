@@ -133,6 +133,7 @@ button
 await
 onWhyPausedDisplayed
 ;
+await
 waitUntil
 (
 (
