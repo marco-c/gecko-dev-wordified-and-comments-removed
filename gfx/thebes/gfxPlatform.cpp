@@ -5180,7 +5180,12 @@ StaticPrefs
 gfx_android_rgb16_force_AtStartup
 (
 )
-0
+StaticPrefs
+:
+:
+gfx_canvas_accelerated
+(
+)
 StaticPrefs
 :
 :
