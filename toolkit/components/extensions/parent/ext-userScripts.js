@@ -433,6 +433,13 @@ scriptId
 userScript
 )
 ;
+registeredScriptIds
+.
+add
+(
+scriptId
+)
+;
 const
 scriptOptions
 =
