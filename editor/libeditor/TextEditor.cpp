@@ -3209,6 +3209,9 @@ CanHandle
 return
 ;
 }
+EditorBase
+:
+:
 OnFocus
 (
 aElement
