@@ -3,8 +3,8 @@ clap
 :
 :
 {
+App
 Arg
-Command
 }
 ;
 use
@@ -114,7 +114,7 @@ Criterion
 {
 let
 mut
-cmd
+app
 =
 app_short
 (
@@ -140,7 +140,7 @@ build_help
 (
 &
 mut
-cmd
+app
 )
 )
 )
@@ -159,7 +159,7 @@ Criterion
 {
 let
 mut
-cmd
+app
 =
 app_long
 (
@@ -185,7 +185,7 @@ build_help
 (
 &
 mut
-cmd
+app
 )
 )
 )
@@ -5848,13 +5848,13 @@ app_short
 )
 -
 >
-Command
+App
 <
 '
 static
 >
 {
-cmd
+app
 (
 false
 |
@@ -5874,13 +5874,13 @@ app_long
 )
 -
 >
-Command
+App
 <
 '
 static
 >
 {
-cmd
+app
 (
 true
 |
@@ -5897,11 +5897,11 @@ long
 fn
 build_help
 (
-cmd
+app
 :
 &
 mut
-Command
+App
 )
 -
 >
@@ -5925,7 +5925,7 @@ with_capacity
 )
 )
 ;
-cmd
+app
 .
 write_help
 (
@@ -5960,7 +5960,7 @@ unwrap
 )
 }
 fn
-cmd
+app
 <
 F
 >
@@ -5974,7 +5974,7 @@ F
 )
 -
 >
-Command
+App
 <
 '
 static
@@ -6034,7 +6034,7 @@ long
 name
 )
 ;
-Command
+App
 :
 :
 new

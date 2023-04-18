@@ -1097,13 +1097,11 @@ LF
 )
 =
 >
-{
 return
 Some
 (
 position_before
 )
-}
 SentenceCat
 :
 :
@@ -1157,9 +1155,7 @@ ATerm
 )
 =
 >
-{
 continue
-}
 _
 if
 match_sb8
@@ -1201,9 +1197,7 @@ state_before
 )
 =
 >
-{
 continue
-}
 SentenceCat
 :
 :
@@ -1236,9 +1230,7 @@ state_before
 )
 =
 >
-{
 continue
-}
 SentenceCat
 :
 :
@@ -1266,9 +1258,7 @@ state_before
 )
 =
 >
-{
 continue
-}
 _
 if
 match_sb11
@@ -1862,7 +1852,6 @@ else
 {
 return
 None
-;
 }
 }
 if

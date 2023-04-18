@@ -279,7 +279,7 @@ httparse
 :
 EMPTY_HEADER
 ;
-64
+16
 ]
 ;
 let

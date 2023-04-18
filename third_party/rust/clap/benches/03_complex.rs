@@ -4,8 +4,9 @@ clap
 :
 {
 arg
+App
+AppSettings
 Arg
-Command
 }
 ;
 use
@@ -66,7 +67,7 @@ create_app
 >
 {
 {
-Command
+App
 :
 :
 new
@@ -462,7 +463,7 @@ false
 .
 subcommand
 (
-Command
+App
 :
 :
 new
@@ -580,7 +581,7 @@ iter
 |
 |
 {
-Command
+App
 :
 :
 new
@@ -1175,7 +1176,7 @@ max_values
 .
 subcommand
 (
-Command
+App
 :
 :
 new
@@ -1948,9 +1949,12 @@ create_app
 (
 )
 .
-args_conflicts_with_subcommands
+setting
 (
-true
+AppSettings
+:
+:
+ArgsNegateSubcommands
 )
 .
 get_matches_from

@@ -404,7 +404,6 @@ it
 allow
 (
 unused_macros
-unused_macro_rules
 )
 ]
 macro_rules

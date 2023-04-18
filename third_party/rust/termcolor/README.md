@@ -150,14 +150,13 @@ the
 UNLICENSE
 ]
 (
-https
+http
 :
 /
 /
 unlicense
 .
 org
-/
 )
 .
 #
@@ -732,7 +731,9 @@ termcolor
 /
 1
 .
-*
+0
+.
+5
 /
 termcolor
 /

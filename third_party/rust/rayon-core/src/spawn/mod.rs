@@ -195,12 +195,10 @@ new
 let
 registry
 =
-Arc
-:
-:
+registry
+.
 clone
 (
-registry
 )
 ;
 move

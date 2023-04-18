@@ -17,13 +17,6 @@ clippy
 used_underscore_binding
 )
 ]
-#
-[
-rustfmt
-:
-:
-skip
-]
 mod
 gen
 ;

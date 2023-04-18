@@ -125,12 +125,10 @@ version
 .
 3
 .
-21
+19
 "
 description
 =
-"
-"
 "
 Common
 utilities
@@ -144,8 +142,8 @@ futures
 rs
 library
 .
-"
-"
+\
+n
 "
 homepage
 =
@@ -238,7 +236,7 @@ version
 .
 3
 .
-21
+19
 "
 features
 =
@@ -269,7 +267,7 @@ version
 .
 3
 .
-21
+19
 "
 default
 -
@@ -290,7 +288,7 @@ version
 .
 3
 .
-21
+19
 "
 features
 =
@@ -322,7 +320,7 @@ version
 .
 3
 .
-21
+19
 "
 optional
 =
@@ -346,7 +344,7 @@ version
 .
 3
 .
-21
+19
 "
 optional
 =
@@ -370,7 +368,7 @@ version
 .
 3
 .
-21
+19
 "
 default
 -

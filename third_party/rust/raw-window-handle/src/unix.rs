@@ -49,10 +49,6 @@ display
 *
 mut
 c_void
-pub
-visual_id
-:
-c_ulong
 }
 #
 [
@@ -84,10 +80,6 @@ connection
 *
 mut
 c_void
-pub
-visual_id
-:
-u32
 }
 #
 [
@@ -147,9 +139,6 @@ ptr
 null_mut
 (
 )
-visual_id
-:
-0
 }
 }
 }
@@ -178,9 +167,6 @@ ptr
 null_mut
 (
 )
-visual_id
-:
-0
 }
 }
 }

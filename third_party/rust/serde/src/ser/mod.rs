@@ -1980,10 +1980,7 @@ iter
 [
 cfg
 (
-not
-(
-no_iterator_try_fold
-)
+iterator_try_fold
 )
 ]
 {
@@ -2018,7 +2015,10 @@ item
 [
 cfg
 (
-no_iterator_try_fold
+not
+(
+iterator_try_fold
+)
 )
 ]
 {
@@ -2124,10 +2124,7 @@ iter
 [
 cfg
 (
-not
-(
-no_iterator_try_fold
-)
+iterator_try_fold
 )
 ]
 {
@@ -2167,7 +2164,10 @@ value
 [
 cfg
 (
-no_iterator_try_fold
+not
+(
+iterator_try_fold
+)
 )
 ]
 {

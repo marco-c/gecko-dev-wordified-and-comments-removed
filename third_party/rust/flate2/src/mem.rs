@@ -719,7 +719,9 @@ ffi
 uInt
 :
 :
-MAX
+max_value
+(
+)
 as
 usize
 )
@@ -1125,7 +1127,9 @@ usize
 len
 )
 ;
+return
 ret
+;
 }
 }
 }
@@ -1496,7 +1500,9 @@ usize
 len
 )
 ;
+return
 ret
+;
 }
 }
 #
@@ -1580,7 +1586,9 @@ ffi
 uInt
 :
 :
-MAX
+max_value
+(
+)
 as
 usize
 )

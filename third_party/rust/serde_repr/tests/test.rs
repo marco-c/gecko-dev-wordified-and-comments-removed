@@ -6,10 +6,6 @@ allow
 clippy
 :
 :
-nonstandard_macro_braces
-clippy
-:
-:
 wildcard_imports
 )
 ]

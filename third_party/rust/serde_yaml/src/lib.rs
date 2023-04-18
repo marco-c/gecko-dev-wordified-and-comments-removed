@@ -20,7 +20,7 @@ serde_yaml
 .
 8
 .
-24
+23
 "
 )
 ]
@@ -37,10 +37,6 @@ missing_docs
 [
 allow
 (
-clippy
-:
-:
-iter_not_returning_iterator
 clippy
 :
 :
@@ -105,10 +101,6 @@ clippy
 :
 :
 items_after_statements
-clippy
-:
-:
-return_self_not_must_use
 clippy
 :
 :

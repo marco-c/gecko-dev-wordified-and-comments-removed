@@ -60,7 +60,7 @@ cfg
 (
 all
 (
-libloading_docs
+docsrs
 not
 (
 unix
@@ -134,7 +134,7 @@ any
 (
 not
 (
-libloading_docs
+docsrs
 )
 unix
 )

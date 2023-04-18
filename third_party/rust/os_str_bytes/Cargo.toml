@@ -125,7 +125,7 @@ version
 .
 0
 .
-1
+0
 "
 authors
 =
@@ -155,8 +155,6 @@ tests
 description
 =
 "
-"
-"
 Utilities
 for
 converting
@@ -168,8 +166,8 @@ platform
 -
 native
 strings
-"
-"
+\
+n
 "
 readme
 =

@@ -3851,16 +3851,6 @@ c_long
 ;
 pub
 const
-SYS_rseq
-:
-:
-:
-c_long
-=
-334
-;
-pub
-const
 SYS_pidfd_send_signal
 :
 :

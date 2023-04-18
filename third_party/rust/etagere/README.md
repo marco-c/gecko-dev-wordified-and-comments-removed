@@ -316,13 +316,11 @@ c
 .
 rectangle
 atlas
-.
-get
-(
+[
 c
 .
 id
-)
+]
 )
 ;
 atlas

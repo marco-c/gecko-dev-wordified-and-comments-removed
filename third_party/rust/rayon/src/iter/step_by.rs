@@ -3,7 +3,7 @@
 [
 cfg
 (
-has_step_by_rev
+step_by
 )
 ]
 use

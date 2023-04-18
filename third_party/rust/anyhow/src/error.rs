@@ -185,10 +185,6 @@ std
 [
 cold
 ]
-#
-[
-must_use
-]
 pub
 fn
 new
@@ -236,10 +232,6 @@ backtrace
 #
 [
 cold
-]
-#
-[
-must_use
 ]
 pub
 fn
@@ -1334,10 +1326,6 @@ inner
 #
 [
 cold
-]
-#
-[
-must_use
 ]
 pub
 fn

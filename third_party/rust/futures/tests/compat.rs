@@ -10,17 +10,6 @@ compat
 "
 )
 ]
-#
-!
-[
-cfg
-(
-not
-(
-miri
-)
-)
-]
 use
 futures
 :

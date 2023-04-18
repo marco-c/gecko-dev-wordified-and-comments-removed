@@ -6,6 +6,15 @@ use
 flate2
 :
 :
+read
+:
+:
+GzDecoder
+;
+use
+flate2
+:
+:
 write
 :
 :
@@ -15,10 +24,7 @@ use
 flate2
 :
 :
-{
-read
 Compression
-}
 ;
 use
 std
@@ -136,9 +142,6 @@ let
 mut
 gz
 =
-read
-:
-:
 GzDecoder
 :
 :

@@ -31,9 +31,13 @@ rustversion
 :
 attr
 (
-not
+before
 (
-nightly
+2021
+-
+05
+-
+15
 )
 ignore
 )
@@ -98,7 +102,6 @@ tests
 /
 ui
 /
-*
 *
 /
 *

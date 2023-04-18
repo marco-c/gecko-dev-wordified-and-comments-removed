@@ -9095,7 +9095,7 @@ all
 feature
 =
 "
-beta
+nightly
 "
 not
 (
@@ -12099,7 +12099,7 @@ x86_64
 feature
 =
 "
-beta
+nightly
 "
 )
 )
@@ -12157,7 +12157,7 @@ not
 feature
 =
 "
-beta
+nightly
 "
 )
 )

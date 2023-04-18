@@ -70,14 +70,6 @@ Ready
 }
 #
 [
-cfg_attr
-(
-miri
-ignore
-)
-]
-#
-[
 test
 ]
 fn

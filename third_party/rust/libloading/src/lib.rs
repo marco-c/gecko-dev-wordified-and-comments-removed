@@ -25,7 +25,7 @@ unused
 [
 cfg_attr
 (
-libloading_docs
+docsrs
 feature
 (
 doc_cfg
@@ -64,7 +64,7 @@ any
 (
 unix
 windows
-libloading_docs
+docsrs
 )
 )
 ]
@@ -79,7 +79,7 @@ any
 (
 unix
 windows
-libloading_docs
+docsrs
 )
 )
 ]

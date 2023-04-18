@@ -5,7 +5,7 @@ cfg
 any
 (
 unix
-libloading_docs
+docsrs
 )
 )
 ]
@@ -13,7 +13,7 @@ libloading_docs
 [
 cfg_attr
 (
-libloading_docs
+docsrs
 doc
 (
 cfg
@@ -34,7 +34,7 @@ cfg
 any
 (
 windows
-libloading_docs
+docsrs
 )
 )
 ]
@@ -42,7 +42,7 @@ libloading_docs
 [
 cfg_attr
 (
-libloading_docs
+docsrs
 doc
 (
 cfg

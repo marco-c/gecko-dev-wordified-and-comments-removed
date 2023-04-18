@@ -4,8 +4,8 @@ clap
 :
 {
 arg
+App
 Arg
-Command
 }
 ;
 use
@@ -28,7 +28,7 @@ create_app
 >
 {
 {
-Command
+App
 :
 :
 new
@@ -194,7 +194,7 @@ iter
 (
 |
 |
-Command
+App
 :
 :
 new
@@ -269,7 +269,7 @@ something
 "
 )
 ;
-Command
+App
 :
 :
 new
@@ -318,7 +318,7 @@ iter
 (
 |
 |
-Command
+App
 :
 :
 new
@@ -399,7 +399,7 @@ something
 "
 )
 ;
-Command
+App
 :
 :
 new
@@ -448,7 +448,7 @@ iter
 (
 |
 |
-Command
+App
 :
 :
 new
@@ -517,7 +517,7 @@ some
 "
 )
 ;
-Command
+App
 :
 :
 new

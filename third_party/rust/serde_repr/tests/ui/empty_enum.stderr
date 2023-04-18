@@ -10,9 +10,7 @@ variant
 -
 -
 >
-tests
-/
-ui
+DIR
 /
 empty_enum
 .
@@ -54,10 +52,9 @@ this
 error
 originates
 in
-the
+a
 derive
 macro
-Serialize_repr
 (
 in
 Nightly

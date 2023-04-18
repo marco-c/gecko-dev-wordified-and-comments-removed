@@ -322,7 +322,7 @@ self
 )
 -
 >
-f64
+usize
 ;
 fn
 whitespace_width
@@ -332,7 +332,7 @@ self
 )
 -
 >
-f64
+usize
 ;
 fn
 penalty_width
@@ -342,7 +342,7 @@ self
 )
 -
 >
-f64
+usize
 ;
 }
 #
@@ -480,6 +480,7 @@ width
 :
 display_width
 (
+&
 trimmed
 )
 whitespace
@@ -770,13 +771,11 @@ self
 )
 -
 >
-f64
+usize
 {
 self
 .
 width
-as
-f64
 }
 #
 [
@@ -790,7 +789,7 @@ self
 )
 -
 >
-f64
+usize
 {
 self
 .
@@ -799,8 +798,6 @@ whitespace
 len
 (
 )
-as
-f64
 }
 #
 [
@@ -814,7 +811,7 @@ self
 )
 -
 >
-f64
+usize
 {
 self
 .
@@ -823,8 +820,6 @@ penalty
 len
 (
 )
-as
-f64
 }
 }
 pub
@@ -891,8 +886,6 @@ width
 )
 >
 line_width
-as
-f64
 {
 shortened_words
 .

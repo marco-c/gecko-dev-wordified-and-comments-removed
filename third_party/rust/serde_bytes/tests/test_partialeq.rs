@@ -1,14 +1,3 @@
-#
-!
-[
-allow
-(
-clippy
-:
-:
-needless_pass_by_value
-)
-]
 use
 serde_bytes
 :

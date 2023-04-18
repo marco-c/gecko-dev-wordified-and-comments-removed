@@ -1,14 +1,3 @@
-#
-!
-[
-cfg
-(
-not
-(
-miri
-)
-)
-]
 use
 futures
 :

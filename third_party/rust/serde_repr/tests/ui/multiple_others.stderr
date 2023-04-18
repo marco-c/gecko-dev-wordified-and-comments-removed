@@ -15,9 +15,7 @@ other
 -
 -
 >
-tests
-/
-ui
+DIR
 /
 multiple_others
 .
@@ -61,10 +59,9 @@ this
 error
 originates
 in
-the
+a
 derive
 macro
-Deserialize_repr
 (
 in
 Nightly

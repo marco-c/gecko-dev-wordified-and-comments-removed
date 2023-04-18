@@ -159,7 +159,7 @@ fetch_add
 Ordering
 :
 :
-Relaxed
+SeqCst
 )
 as
 u32
@@ -373,7 +373,7 @@ increment
 Ordering
 :
 :
-Relaxed
+SeqCst
 )
 ;
 println

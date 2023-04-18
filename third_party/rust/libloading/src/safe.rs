@@ -8,7 +8,7 @@ Error
 [
 cfg
 (
-libloading_docs
+docsrs
 )
 ]
 use
@@ -30,7 +30,7 @@ all
 (
 not
 (
-libloading_docs
+docsrs
 )
 unix
 )
@@ -55,7 +55,7 @@ all
 (
 not
 (
-libloading_docs
+docsrs
 )
 windows
 )
@@ -103,7 +103,7 @@ ops
 [
 cfg_attr
 (
-libloading_docs
+docsrs
 doc
 (
 cfg
@@ -374,7 +374,7 @@ Library
 [
 cfg_attr
 (
-libloading_docs
+docsrs
 doc
 (
 cfg

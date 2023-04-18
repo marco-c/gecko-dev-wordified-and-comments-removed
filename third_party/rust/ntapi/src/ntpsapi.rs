@@ -142,7 +142,7 @@ all
 feature
 =
 "
-beta
+nightly
 "
 not
 (
@@ -4111,7 +4111,7 @@ all
 feature
 =
 "
-beta
+nightly
 "
 not
 (
@@ -4208,7 +4208,7 @@ all
 feature
 =
 "
-beta
+nightly
 "
 not
 (
@@ -4255,7 +4255,7 @@ all
 feature
 =
 "
-beta
+nightly
 "
 not
 (

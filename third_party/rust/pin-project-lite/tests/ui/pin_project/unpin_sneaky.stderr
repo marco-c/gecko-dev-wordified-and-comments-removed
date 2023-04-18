@@ -13,11 +13,7 @@ scope
 -
 -
 >
-tests
-/
-ui
-/
-pin_project
+DIR
 /
 unpin_sneaky
 .
@@ -88,11 +84,7 @@ error
 -
 -
 >
-tests
-/
-ui
-/
-pin_project
+DIR
 /
 unpin_sneaky
 .

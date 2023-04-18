@@ -83,12 +83,12 @@ use
 clap
 :
 :
-CommandFactory
+IntoApp
 ;
 Cli
 :
 :
-command
+into_app
 (
 )
 .

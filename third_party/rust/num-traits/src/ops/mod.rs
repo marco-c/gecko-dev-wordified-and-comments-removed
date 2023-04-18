@@ -4,10 +4,6 @@ checked
 ;
 pub
 mod
-euclid
-;
-pub
-mod
 inv
 ;
 pub

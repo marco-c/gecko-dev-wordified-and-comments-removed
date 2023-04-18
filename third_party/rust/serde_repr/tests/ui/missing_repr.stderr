@@ -14,9 +14,7 @@ attribute
 -
 -
 >
-tests
-/
-ui
+DIR
 /
 missing_repr
 .
@@ -58,10 +56,9 @@ this
 error
 originates
 in
-the
+a
 derive
 macro
-Serialize_repr
 (
 in
 Nightly

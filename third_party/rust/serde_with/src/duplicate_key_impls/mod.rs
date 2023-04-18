@@ -4,16 +4,6 @@ error_on_duplicate
 mod
 first_value_wins
 ;
-mod
-last_value_wins
-;
-#
-[
-allow
-(
-deprecated
-)
-]
 pub
 use
 self
@@ -34,9 +24,5 @@ first_value_wins
 DuplicateInsertsFirstWinsMap
 DuplicateInsertsFirstWinsSet
 }
-last_value_wins
-:
-:
-DuplicateInsertsLastWinsSet
 }
 ;
