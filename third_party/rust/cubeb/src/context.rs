@@ -1,10 +1,4 @@
 use
-{
-Context
-Result
-}
-;
-use
 std
 :
 :
@@ -12,6 +6,12 @@ ffi
 :
 :
 CString
+;
+use
+{
+Context
+Result
+}
 ;
 pub
 fn

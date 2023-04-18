@@ -347,7 +347,7 @@ tests
 commented
 with
 *
-FIXIT
+FIXME
 *
 are
 left

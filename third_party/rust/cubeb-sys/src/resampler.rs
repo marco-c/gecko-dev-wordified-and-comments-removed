@@ -46,6 +46,17 @@ CUBEB_RESAMPLER_QUALITY_DEFAULT
 CUBEB_RESAMPLER_QUALITY_DESKTOP
 }
 }
+cubeb_enum
+!
+{
+pub
+enum
+cubeb_resampler_reclock
+{
+CUBEB_RESAMPLER_RECLOCK_NONE
+CUBEB_RESAMPLER_RECLOCK_INPUT
+}
+}
 extern
 "
 C
@@ -84,6 +95,9 @@ c_void
 quality
 :
 cubeb_resampler_quality
+reclock
+:
+cubeb_resampler_reclock
 )
 -
 >

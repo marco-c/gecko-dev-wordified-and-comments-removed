@@ -1,10 +1,4 @@
 use
-{
-ContextRef
-DeviceInfo
-}
-;
-use
 ffi
 ;
 use
@@ -17,6 +11,12 @@ std
 {
 ops
 slice
+}
+;
+use
+{
+ContextRef
+DeviceInfo
 }
 ;
 type

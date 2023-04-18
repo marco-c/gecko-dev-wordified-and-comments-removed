@@ -12,6 +12,9 @@ clippy
 "
 allow
 (
+clippy
+:
+:
 float_cmp
 )
 )

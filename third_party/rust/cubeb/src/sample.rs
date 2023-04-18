@@ -9,6 +9,8 @@ Copy
 fn
 from_float
 (
+_
+:
 f32
 )
 -

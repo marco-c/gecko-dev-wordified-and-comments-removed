@@ -61,8 +61,6 @@ e
 )
 =
 >
-unsafe
-{
 Error
 :
 :
@@ -70,7 +68,6 @@ from_raw
 (
 e
 )
-}
 None
 =
 >

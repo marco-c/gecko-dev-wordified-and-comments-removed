@@ -287,6 +287,16 @@ ffi
 cubeb
 )
 >
+#
+[
+allow
+(
+clippy
+:
+:
+type_complexity
+)
+]
 pub
 stream_init
 :

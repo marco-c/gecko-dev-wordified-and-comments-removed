@@ -20,14 +20,14 @@ h
 #
 include
 "
-cubeb_log
+cubeb_assert
 .
 h
 "
 #
 include
 "
-cubeb_assert
+cubeb_log
 .
 h
 "

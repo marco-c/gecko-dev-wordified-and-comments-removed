@@ -5,15 +5,6 @@ use
 std
 :
 :
-{
-error
-fmt
-}
-;
-use
-std
-:
-:
 ffi
 :
 :
@@ -30,6 +21,15 @@ raw
 :
 :
 c_int
+;
+use
+std
+:
+:
+{
+error
+fmt
+}
 ;
 pub
 type
@@ -94,6 +94,16 @@ ErrorCode
 impl
 Error
 {
+#
+[
+allow
+(
+clippy
+:
+:
+self_named_constructors
+)
+]
 pub
 fn
 error
@@ -190,7 +200,6 @@ DeviceUnavailable
 }
 }
 pub
-unsafe
 fn
 from_raw
 (
@@ -259,8 +268,6 @@ Error
 ;
 Error
 {
-code
-:
 code
 }
 }
@@ -480,6 +487,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 self
@@ -508,8 +517,6 @@ Error
 Error
 {
 code
-:
-code
 }
 }
 }
@@ -532,8 +539,6 @@ NulError
 >
 Error
 {
-unsafe
-{
 Error
 :
 :
@@ -544,7 +549,6 @@ ffi
 :
 CUBEB_ERROR
 )
-}
 }
 }
 #
@@ -600,8 +604,6 @@ ident
 let
 e
 =
-unsafe
-{
 Error
 :
 :
@@ -612,7 +614,6 @@ ffi
 :
 raw
 )
-}
 ;
 assert_eq
 !

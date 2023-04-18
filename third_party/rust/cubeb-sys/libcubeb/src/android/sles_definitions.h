@@ -7,6 +7,7 @@ OPENSL_ES_ANDROIDCONFIGURATION_H_
 #
 define
 SL_ANDROID_KEY_RECORDING_PRESET
+\
 (
 (
 const
@@ -141,6 +142,7 @@ SLint32
 #
 define
 SL_ANDROID_KEY_PERFORMANCE_MODE
+\
 (
 (
 const

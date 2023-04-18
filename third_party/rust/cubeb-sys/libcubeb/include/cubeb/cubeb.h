@@ -10,6 +10,13 @@ define
 CUBEB_c2f983e9_c96f_e71c_72c3_bbf62992a382
 #
 include
+"
+cubeb_export
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -22,13 +29,6 @@ stdlib
 .
 h
 >
-#
-include
-"
-cubeb_export
-.
-h
-"
 #
 if
 defined
@@ -551,6 +551,7 @@ endif
 #
 define
 CUBEB_DEVICE_FMT_S16_MASK
+\
 (
 CUBEB_DEVICE_FMT_S16LE
 |
@@ -559,6 +560,7 @@ CUBEB_DEVICE_FMT_S16BE
 #
 define
 CUBEB_DEVICE_FMT_F32_MASK
+\
 (
 CUBEB_DEVICE_FMT_F32LE
 |
@@ -567,6 +569,7 @@ CUBEB_DEVICE_FMT_F32BE
 #
 define
 CUBEB_DEVICE_FMT_ALL
+\
 (
 CUBEB_DEVICE_FMT_S16_MASK
 |

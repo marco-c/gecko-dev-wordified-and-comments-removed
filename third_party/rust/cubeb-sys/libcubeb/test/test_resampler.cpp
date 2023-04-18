@@ -1959,6 +1959,7 @@ void
 &
 state
 CUBEB_RESAMPLER_QUALITY_VOIP
+CUBEB_RESAMPLER_RECLOCK_NONE
 )
 ;
 long
@@ -2887,6 +2888,7 @@ target_rate
 test_output_only_noop_data_cb
 nullptr
 CUBEB_RESAMPLER_QUALITY_VOIP
+CUBEB_RESAMPLER_RECLOCK_NONE
 )
 ;
 const
@@ -3040,6 +3042,7 @@ test_drain_data_cb
 &
 cb_count
 CUBEB_RESAMPLER_QUALITY_VOIP
+CUBEB_RESAMPLER_RECLOCK_NONE
 )
 ;
 const
@@ -3212,6 +3215,7 @@ target_rate
 cb_passthrough_resampler_output
 nullptr
 CUBEB_RESAMPLER_QUALITY_VOIP
+CUBEB_RESAMPLER_RECLOCK_NONE
 )
 ;
 float
@@ -3386,6 +3390,7 @@ target_rate
 cb_passthrough_resampler_input
 nullptr
 CUBEB_RESAMPLER_QUALITY_VOIP
+CUBEB_RESAMPLER_RECLOCK_NONE
 )
 ;
 float
@@ -4006,6 +4011,7 @@ cb_passthrough_resampler_duplex
 &
 c
 CUBEB_RESAMPLER_QUALITY_VOIP
+CUBEB_RESAMPLER_RECLOCK_NONE
 )
 ;
 const
@@ -4414,6 +4420,7 @@ cb_passthrough_resampler_duplex
 &
 c
 CUBEB_RESAMPLER_QUALITY_VOIP
+CUBEB_RESAMPLER_RECLOCK_NONE
 )
 ;
 const

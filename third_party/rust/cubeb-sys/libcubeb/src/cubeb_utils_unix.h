@@ -11,14 +11,14 @@ CUBEB_UTILS_UNIX
 #
 include
 <
-pthread
+errno
 .
 h
 >
 #
 include
 <
-errno
+pthread
 .
 h
 >

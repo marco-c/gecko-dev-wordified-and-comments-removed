@@ -1,10 +1,4 @@
 use
-{
-ContextOps
-StreamOps
-}
-;
-use
 cubeb_core
 :
 :
@@ -46,6 +40,12 @@ raw
 c_char
 c_int
 c_void
+}
+;
+use
+{
+ContextOps
+StreamOps
 }
 ;
 macro_rules
@@ -121,6 +121,7 @@ e
 )
 }
 }
+;
 }
 #
 [

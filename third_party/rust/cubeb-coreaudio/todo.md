@@ -41,7 +41,7 @@ tests
 .
 Search
 *
-FIXIT
+FIXME
 *
 to
 find
@@ -1162,3 +1162,11 @@ not
 outdated
 now
 .
+-
+Add
+in
+-
+out
+support
+for
+TestDevicePlugger

@@ -24,6 +24,7 @@ XASSERT
 (
 expr
 )
+\
 do
 {
 \

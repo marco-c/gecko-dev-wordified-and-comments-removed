@@ -4,9 +4,6 @@
 macro_use
 ]
 use
-Error
-;
-use
 std
 :
 :
@@ -17,6 +14,9 @@ raw
 :
 :
 c_int
+;
+use
+Error
 ;
 pub
 fn
@@ -47,8 +47,6 @@ n
 >
 Err
 (
-unsafe
-{
 Error
 :
 :
@@ -56,7 +54,6 @@ from_raw
 (
 n
 )
-}
 )
 _
 =
