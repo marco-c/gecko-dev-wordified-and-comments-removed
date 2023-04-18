@@ -47,6 +47,15 @@ include
 "
 mozilla
 /
+GRefPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 GUniquePtr
 .
 h

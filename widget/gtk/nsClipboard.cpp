@@ -172,6 +172,15 @@ include
 "
 mozilla
 /
+GRefPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SchedulerGroup
 .
 h

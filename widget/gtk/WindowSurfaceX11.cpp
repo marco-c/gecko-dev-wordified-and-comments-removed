@@ -12,17 +12,10 @@ gfxPlatform
 .
 h
 "
-#
-include
-"
-X11UndefineNone
-.
-h
-"
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 WindowSurfaceX11
@@ -234,6 +227,5 @@ SurfaceFormat
 :
 UNKNOWN
 ;
-}
 }
 }

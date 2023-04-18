@@ -38,10 +38,17 @@ Xlib
 .
 h
 >
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 class
@@ -113,7 +120,6 @@ mFormat
 ;
 }
 ;
-}
 }
 #
 endif

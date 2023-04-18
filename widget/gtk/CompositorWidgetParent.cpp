@@ -25,10 +25,17 @@ PlatformWidgetTypes
 .
 h
 "
+#
+include
+"
+nsWindow
+.
+h
+"
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 CompositorWidgetParent
@@ -232,6 +239,5 @@ IPC_OK
 (
 )
 ;
-}
 }
 }
