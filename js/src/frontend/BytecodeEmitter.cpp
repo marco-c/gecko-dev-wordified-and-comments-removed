@@ -46256,12 +46256,12 @@ false
 if
 (
 !
-emitBuiltinObject
+emit1
 (
-BuiltinObjectKind
+JSOp
 :
 :
-FunctionPrototype
+Null
 )
 )
 {
@@ -46277,7 +46277,7 @@ emit1
 JSOp
 :
 :
-InitHiddenElemGetter
+InitHiddenElem
 )
 )
 {
