@@ -1134,10 +1134,10 @@ ScrollMode
 Instant
 mDirection
 mScrollUnit
-ScrollSnapFlags
+nsIScrollbarMediator
 :
 :
-IntendedDirection
+ENABLE_SNAP
 )
 ;
 return
