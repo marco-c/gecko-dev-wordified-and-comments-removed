@@ -31,11 +31,6 @@ stdcxx
 compat
 -
 -
-disable
--
-gold
--
--
 without
 -
 system
