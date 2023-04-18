@@ -2004,7 +2004,6 @@ pushExecuteFrame
 (
 cx
 script_
-newTargetValue_
 envChain_
 evalInFrame_
 )
@@ -4308,8 +4307,6 @@ HandleScript
 script
 HandleObject
 envChainArg
-HandleValue
-newTargetValue
 AbstractFramePtr
 evalInFrame
 MutableHandleValue
@@ -4470,7 +4467,6 @@ state
 (
 cx
 script
-newTargetValue
 envChainArg
 evalInFrame
 result
@@ -4665,7 +4661,6 @@ ExecuteKernel
 cx
 script
 envChain
-NullHandleValue
 NullFramePtr
 (
 )
@@ -25113,20 +25108,6 @@ CASE
 NewTarget
 )
 {
-MOZ_ASSERT
-(
-REGS
-.
-fp
-(
-)
--
->
-isFunctionFrame
-(
-)
-)
-;
 PUSH_COPY
 (
 REGS
