@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CleanupManager
 "
@@ -78,7 +84,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 JSONFile
 "
@@ -101,7 +107,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LogManager
 "
@@ -124,7 +130,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEnvironment
 "
@@ -147,7 +153,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEvents
 "
@@ -170,7 +176,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NormandyUtils
 "
@@ -193,7 +199,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrefUtils
 "
@@ -373,6 +379,8 @@ const
 storage
 =
 new
+lazy
+.
 JSONFile
 (
 {
@@ -437,6 +445,8 @@ gStorePromise
 const
 log
 =
+lazy
+.
 LogManager
 .
 getLogger
@@ -456,6 +466,8 @@ Map
 (
 )
 ;
+lazy
+.
 CleanupManager
 .
 addCleanupHandler
@@ -607,6 +619,8 @@ init
 (
 )
 {
+lazy
+.
 CleanupManager
 .
 addCleanupHandler
@@ -661,6 +675,8 @@ spec
 overridden
 &
 &
+lazy
+.
 PrefUtils
 .
 getPref
@@ -693,6 +709,8 @@ sideload
 ;
 }
 }
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentActive
@@ -718,6 +736,8 @@ experiment
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -1104,6 +1124,8 @@ experiment
 .
 enrollmentId
 =
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -1242,6 +1264,8 @@ data
 experiments
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -1354,6 +1378,8 @@ preferencesWithConflicts
 length
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -1410,6 +1436,8 @@ length
 MAX_EXPERIMENT_SUBTYPE_LENGTH
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -1527,6 +1555,8 @@ default
 )
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -1603,6 +1633,8 @@ preferenceType
 givenPrefType
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -1663,6 +1695,8 @@ prevPrefType
 givenPrefType
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -1721,6 +1755,8 @@ preferenceInfo
 .
 previousPreferenceValue
 =
+lazy
+.
 PrefUtils
 .
 getPref
@@ -1799,6 +1835,8 @@ preferenceName
 }
 else
 {
+lazy
+.
 PrefUtils
 .
 setPref
@@ -1826,6 +1864,8 @@ user
 "
 )
 {
+lazy
+.
 PrefUtils
 .
 setPref
@@ -1868,6 +1908,8 @@ preferences
 const
 enrollmentId
 =
+lazy
+.
 NormandyUtils
 .
 generateUuid
@@ -1918,6 +1960,8 @@ saveSoon
 (
 )
 ;
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentActive
@@ -1935,12 +1979,16 @@ enrollmentId
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
 }
 )
 ;
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -1960,6 +2008,8 @@ enrollmentId
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -2091,6 +2141,8 @@ preferenceValue
 const
 newValue
 =
+lazy
+.
 PrefUtils
 .
 getPref
@@ -2542,6 +2594,8 @@ update
 experiment
 )
 ;
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -2565,6 +2619,8 @@ experiment
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -2677,6 +2733,8 @@ experiments
 )
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -2778,6 +2836,8 @@ experiment
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -2812,6 +2872,8 @@ caller
 caller
 ;
 }
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -2926,6 +2988,8 @@ previousPreferenceValue
 null
 )
 {
+lazy
+.
 PrefUtils
 .
 setPref
@@ -3029,6 +3093,8 @@ saveSoon
 (
 )
 ;
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentInactive
@@ -3036,6 +3102,8 @@ setExperimentInactive
 experimentSlug
 )
 ;
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -3072,6 +3140,8 @@ experiment
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -3997,6 +4067,8 @@ specification
 .
 overridden
 =
+lazy
+.
 PrefUtils
 .
 getPref

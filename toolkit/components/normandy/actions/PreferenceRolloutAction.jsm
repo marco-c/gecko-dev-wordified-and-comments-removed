@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEnvironment
 "
@@ -78,7 +84,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PreferenceRollouts
 "
@@ -101,7 +107,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrefUtils
 "
@@ -124,7 +130,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ActionSchemas
 "
@@ -149,7 +155,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEvents
 "
@@ -172,7 +178,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NormandyUtils
 "
@@ -238,6 +244,8 @@ schema
 )
 {
 return
+lazy
+.
 ActionSchemas
 [
 "
@@ -263,6 +271,8 @@ arguments
 ;
 if
 (
+lazy
+.
 PreferenceRollouts
 .
 GRADUATION_SET
@@ -347,6 +357,8 @@ preferenceName
 value
 previousValue
 :
+lazy
+.
 PrefUtils
 .
 getPref
@@ -369,6 +381,8 @@ const
 existingRollout
 =
 await
+lazy
+.
 PreferenceRollouts
 .
 get
@@ -401,6 +415,8 @@ anyChanged
 )
 {
 await
+lazy
+.
 PreferenceRollouts
 .
 update
@@ -408,6 +424,8 @@ update
 newRollout
 )
 ;
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -434,6 +452,8 @@ existingRollout
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -448,6 +468,8 @@ state
 )
 {
 case
+lazy
+.
 PreferenceRollouts
 .
 STATE_ACTIVE
@@ -473,6 +495,8 @@ break
 ;
 }
 case
+lazy
+.
 PreferenceRollouts
 .
 STATE_GRADUATED
@@ -494,6 +518,8 @@ slug
 }
 )
 ;
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentActive
@@ -594,6 +620,8 @@ previousValue
 )
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -645,6 +673,8 @@ preferences
 let
 enrollmentId
 =
+lazy
+.
 NormandyUtils
 .
 generateUuid
@@ -658,6 +688,8 @@ enrollmentId
 enrollmentId
 ;
 await
+lazy
+.
 PreferenceRollouts
 .
 add
@@ -678,6 +710,8 @@ args
 preferences
 )
 {
+lazy
+.
 PrefUtils
 .
 setPref
@@ -711,6 +745,8 @@ slug
 }
 )
 ;
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentActive
@@ -734,12 +770,16 @@ enrollmentId
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
 }
 )
 ;
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -759,6 +799,8 @@ enrollmentId
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -790,6 +832,8 @@ const
 rollout
 of
 await
+lazy
+.
 PreferenceRollouts
 .
 getAllActive
@@ -852,6 +896,8 @@ preferenceName
 )
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -946,6 +992,8 @@ existingPrefType
 rolloutPrefType
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -1126,6 +1174,8 @@ anyChanged
 =
 true
 ;
+lazy
+.
 PrefUtils
 .
 setPref
@@ -1256,6 +1306,8 @@ value
 }
 )
 ;
+lazy
+.
 PrefUtils
 .
 setPref
@@ -1287,6 +1339,8 @@ _finalize
 )
 {
 await
+lazy
+.
 PreferenceRollouts
 .
 saveStartupPrefs

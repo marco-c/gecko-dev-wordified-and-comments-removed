@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -106,6 +112,8 @@ extensionDetails
 const
 downloadDeferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -115,6 +123,8 @@ defer
 const
 installDeferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -125,6 +135,8 @@ const
 install
 =
 await
+lazy
+.
 AddonManager
 .
 getInstallForURL
@@ -250,6 +262,8 @@ failure
 {
 detail
 :
+lazy
+.
 AddonManager
 .
 errorToString
@@ -295,6 +309,8 @@ failure
 {
 detail
 :
+lazy
+.
 AddonManager
 .
 errorToString

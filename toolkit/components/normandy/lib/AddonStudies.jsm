@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 IndexedDB
 "
@@ -54,7 +60,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -77,7 +83,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BranchedAddonStudyAction
 "
@@ -100,7 +106,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CleanupManager
 "
@@ -123,7 +129,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LogManager
 "
@@ -146,7 +152,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEnvironment
 "
@@ -169,7 +175,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEvents
 "
@@ -243,6 +249,8 @@ ended
 const
 log
 =
+lazy
+.
 LogManager
 .
 getLogger
@@ -260,6 +268,8 @@ openDatabase
 )
 {
 return
+lazy
+.
 IndexedDB
 .
 open
@@ -555,6 +565,8 @@ const
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -586,6 +598,8 @@ sideload
 continue
 ;
 }
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentActive
@@ -611,6 +625,8 @@ study
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -618,6 +634,8 @@ NO_ENROLLMENT_ID_MARKER
 )
 ;
 }
+lazy
+.
 AddonManager
 .
 addAddonListener
@@ -625,6 +643,8 @@ addAddonListener
 this
 )
 ;
+lazy
+.
 CleanupManager
 .
 addCleanupHandler
@@ -634,6 +654,8 @@ addCleanupHandler
 =
 >
 {
+lazy
+.
 AddonManager
 .
 removeAddonListener
@@ -672,6 +694,8 @@ study
 .
 enrollmentId
 =
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -908,6 +932,8 @@ const
 action
 =
 new
+lazy
+.
 BranchedAddonStudyAction
 (
 )
@@ -1606,6 +1632,8 @@ recipeId
 }
 )
 ;
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -1653,12 +1681,16 @@ study
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
 }
 )
 ;
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentInactive

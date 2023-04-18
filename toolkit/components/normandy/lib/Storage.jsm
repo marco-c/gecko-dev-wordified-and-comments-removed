@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 JSONFile
 "
@@ -54,7 +60,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -86,7 +92,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 lazyStore
 "
@@ -98,12 +104,16 @@ function
 const
 path
 =
+lazy
+.
 OS
 .
 Path
 .
 join
 (
+lazy
+.
 OS
 .
 Constants
@@ -126,6 +136,8 @@ const
 store
 =
 new
+lazy
+.
 JSONFile
 (
 {
@@ -173,6 +185,8 @@ const
 store
 =
 await
+lazy
+.
 lazyStore
 ;
 store
@@ -199,6 +213,8 @@ const
 store
 =
 await
+lazy
+.
 lazyStore
 ;
 const
@@ -238,6 +254,8 @@ const
 store
 =
 await
+lazy
+.
 lazyStore
 ;
 if
@@ -298,6 +316,8 @@ const
 store
 =
 await
+lazy
+.
 lazyStore
 ;
 if
@@ -341,6 +361,8 @@ const
 store
 =
 await
+lazy
+.
 lazyStore
 ;
 store

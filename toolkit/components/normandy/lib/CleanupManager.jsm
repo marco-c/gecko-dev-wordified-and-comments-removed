@@ -3,11 +3,17 @@ use
 strict
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AsyncShutdown
 "
@@ -152,6 +158,8 @@ ex
 (
 )
 ;
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange

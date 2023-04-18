@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BranchedAddonStudyAction
 :
@@ -169,6 +175,8 @@ PREF_OPT_OUT_STUDIES_ENABLED
 this
 )
 ;
+lazy
+.
 CleanupManager
 .
 addCleanupHandler
@@ -257,6 +265,8 @@ const
 action
 =
 new
+lazy
+.
 BranchedAddonStudyAction
 (
 )
@@ -266,6 +276,8 @@ studyPromises
 =
 (
 await
+lazy
+.
 AddonStudies
 .
 getAll
@@ -316,6 +328,8 @@ experimentPromises
 =
 (
 await
+lazy
+.
 PreferenceExperiments
 .
 getAll
@@ -341,6 +355,8 @@ null
 ;
 }
 return
+lazy
+.
 PreferenceExperiments
 .
 stop

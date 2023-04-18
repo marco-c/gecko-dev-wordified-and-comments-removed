@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ActionSchemas
 "
@@ -72,6 +78,8 @@ schema
 )
 {
 return
+lazy
+.
 ActionSchemas
 [
 "

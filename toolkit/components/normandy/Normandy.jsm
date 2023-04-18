@@ -123,11 +123,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonRollouts
 :
@@ -508,6 +514,8 @@ obs
 addObserver
 (
 this
+lazy
+.
 TelemetryUtils
 .
 TELEMETRY_UPLOAD_DISABLED_TOPIC
@@ -544,6 +552,8 @@ resolve
 )
 ;
 await
+lazy
+.
 NormandyMigrations
 .
 applyAll
@@ -654,6 +664,8 @@ topic
 =
 =
 =
+lazy
+.
 TelemetryUtils
 .
 TELEMETRY_UPLOAD_DISABLED_TOPIC
@@ -665,9 +677,17 @@ Promise
 all
 (
 [
+lazy
+.
 PreferenceExperiments
+lazy
+.
 PreferenceRollouts
+lazy
+.
 AddonStudies
+lazy
+.
 AddonRollouts
 ]
 .
@@ -693,6 +713,8 @@ finishInit
 {
 try
 {
+lazy
+.
 TelemetryEvents
 .
 init
@@ -722,6 +744,8 @@ err
 ;
 }
 await
+lazy
+.
 PreferenceRollouts
 .
 recordOriginalValues
@@ -732,6 +756,8 @@ rolloutPrefsChanged
 )
 ;
 await
+lazy
+.
 PreferenceExperiments
 .
 recordOriginalValues
@@ -741,6 +767,8 @@ this
 studyPrefsChanged
 )
 ;
+lazy
+.
 LogManager
 .
 configure
@@ -767,11 +795,15 @@ prefs
 addObserver
 (
 PREF_LOGGING_LEVEL
+lazy
+.
 LogManager
 .
 configure
 )
 ;
+lazy
+.
 CleanupManager
 .
 addCleanupHandler
@@ -787,6 +819,8 @@ prefs
 removeObserver
 (
 PREF_LOGGING_LEVEL
+lazy
+.
 LogManager
 .
 configure
@@ -796,6 +830,8 @@ configure
 try
 {
 await
+lazy
+.
 ExperimentManager
 .
 onStartup
@@ -826,6 +862,8 @@ err
 try
 {
 await
+lazy
+.
 RemoteSettingsExperimentLoader
 .
 init
@@ -856,6 +894,8 @@ err
 try
 {
 await
+lazy
+.
 AddonStudies
 .
 init
@@ -887,6 +927,8 @@ err
 try
 {
 await
+lazy
+.
 PreferenceRollouts
 .
 init
@@ -918,6 +960,8 @@ err
 try
 {
 await
+lazy
+.
 AddonRollouts
 .
 init
@@ -949,6 +993,8 @@ err
 try
 {
 await
+lazy
+.
 PreferenceExperiments
 .
 init
@@ -979,6 +1025,8 @@ err
 }
 try
 {
+lazy
+.
 ShieldPreferences
 .
 init
@@ -1008,6 +1056,8 @@ err
 ;
 }
 await
+lazy
+.
 RecipeRunner
 .
 init
@@ -1031,6 +1081,8 @@ uninit
 )
 {
 await
+lazy
+.
 CleanupManager
 .
 cleanup
@@ -1044,6 +1096,8 @@ prefs
 removeObserver
 (
 PREF_LOGGING_LEVEL
+lazy
+.
 LogManager
 .
 configure
@@ -1055,6 +1109,8 @@ const
 topic
 of
 [
+lazy
+.
 TelemetryUtils
 .
 TELEMETRY_UPLOAD_DISABLED_TOPIC

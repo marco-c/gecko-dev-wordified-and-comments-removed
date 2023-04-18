@@ -89,11 +89,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gBrandBundle
 "
@@ -130,7 +136,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gStringBundle
 "
@@ -542,6 +548,8 @@ for
 let
 str
 of
+lazy
+.
 gStringBundle
 .
 getSimpleEnumeration
@@ -564,6 +572,8 @@ value
 const
 brandName
 =
+lazy
+.
 gBrandBundle
 .
 GetStringFromName
@@ -577,6 +587,8 @@ strings
 .
 enabledList
 =
+lazy
+.
 gStringBundle
 .
 formatStringFromName

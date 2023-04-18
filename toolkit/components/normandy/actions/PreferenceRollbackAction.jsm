@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEnvironment
 "
@@ -54,7 +60,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PreferenceRollouts
 "
@@ -77,7 +83,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrefUtils
 "
@@ -100,7 +106,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ActionSchemas
 "
@@ -125,7 +131,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEvents
 "
@@ -164,6 +170,8 @@ schema
 )
 {
 return
+lazy
+.
 ActionSchemas
 [
 "
@@ -193,6 +201,8 @@ const
 rollout
 =
 await
+lazy
+.
 PreferenceRollouts
 .
 get
@@ -202,6 +212,8 @@ rolloutSlug
 ;
 if
 (
+lazy
+.
 PreferenceRollouts
 .
 GRADUATION_SET
@@ -212,6 +224,8 @@ rolloutSlug
 )
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -241,6 +255,8 @@ rollout
 enrollmentId
 ?
 ?
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -298,6 +314,8 @@ state
 )
 {
 case
+lazy
+.
 PreferenceRollouts
 .
 STATE_ACTIVE
@@ -320,6 +338,8 @@ rollout
 .
 state
 =
+lazy
+.
 PreferenceRollouts
 .
 STATE_ROLLED_BACK
@@ -337,6 +357,8 @@ rollout
 preferences
 )
 {
+lazy
+.
 PrefUtils
 .
 setPref
@@ -354,6 +376,8 @@ default
 ;
 }
 await
+lazy
+.
 PreferenceRollouts
 .
 update
@@ -361,6 +385,8 @@ update
 rollout
 )
 ;
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -385,12 +411,16 @@ rollout
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
 }
 )
 ;
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentInactive
@@ -402,6 +432,8 @@ break
 ;
 }
 case
+lazy
+.
 PreferenceRollouts
 .
 STATE_ROLLED_BACK
@@ -411,11 +443,15 @@ break
 ;
 }
 case
+lazy
+.
 PreferenceRollouts
 .
 STATE_GRADUATED
 :
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -440,6 +476,8 @@ rollout
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -493,6 +531,8 @@ _finalize
 )
 {
 await
+lazy
+.
 PreferenceRollouts
 .
 saveStartupPrefs

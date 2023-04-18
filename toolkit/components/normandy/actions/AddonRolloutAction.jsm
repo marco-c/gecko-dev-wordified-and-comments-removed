@@ -75,11 +75,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ActionSchemas
 :
@@ -445,6 +451,8 @@ schema
 )
 {
 return
+lazy
+.
 ActionSchemas
 [
 "
@@ -475,6 +483,8 @@ const
 existingRollout
 =
 await
+lazy
+.
 AddonRollouts
 .
 get
@@ -499,6 +509,8 @@ const
 extensionDetails
 =
 await
+lazy
+.
 NormandyApi
 .
 fetchExtensionDetails
@@ -593,6 +605,8 @@ const
 activeRollouts
 =
 await
+lazy
+.
 AddonRollouts
 .
 getAllActive
@@ -660,6 +674,8 @@ conflictingRollout
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -734,6 +750,8 @@ enrollmentId
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -786,6 +804,8 @@ enrollmentId
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -852,6 +872,8 @@ existingRollout
 )
 {
 await
+lazy
+.
 AddonRollouts
 .
 update
@@ -873,6 +895,8 @@ else
 {
 enrollmentId
 =
+lazy
+.
 NormandyUtils
 .
 generateUuid
@@ -880,6 +904,8 @@ generateUuid
 )
 ;
 await
+lazy
+.
 AddonRollouts
 .
 add
@@ -892,6 +918,8 @@ recipe
 id
 state
 :
+lazy
+.
 AddonRollouts
 .
 STATE_ACTIVE
@@ -901,6 +929,8 @@ enrollmentId
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -929,6 +959,8 @@ existingRollout
 )
 {
 await
+lazy
+.
 AddonRollouts
 .
 update
@@ -940,6 +972,8 @@ existingRollout
 else
 {
 await
+lazy
+.
 AddonRollouts
 .
 delete
@@ -959,6 +993,8 @@ installedVersion
 ]
 =
 await
+lazy
+.
 NormandyAddonManager
 .
 downloadAndInstall
@@ -1024,11 +1060,15 @@ slug
 }
 )
 ;
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentActive
 (
 slug
+lazy
+.
 AddonRollouts
 .
 STATE_ACTIVE
@@ -1044,6 +1084,8 @@ addonrollout
 )
 ;
 }
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -1065,6 +1107,8 @@ enrollmentId
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -1085,6 +1129,8 @@ instanceof
 AddonRolloutError
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -1130,6 +1176,8 @@ error
 name
 }
 ;
+lazy
+.
 TelemetryEvents
 .
 sendEvent

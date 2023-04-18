@@ -75,11 +75,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ActionSchemas
 "
@@ -104,7 +110,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserWindowTracker
 "
@@ -126,7 +132,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ClientEnvironment
 "
@@ -149,7 +155,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Heartbeat
 "
@@ -172,7 +178,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ShellService
 "
@@ -194,7 +200,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Storage
 "
@@ -217,7 +223,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UpdateUtils
 "
@@ -240,7 +246,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NormandyUtils
 "
@@ -272,7 +278,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gAllRecipeStorage
 "
@@ -282,6 +288,8 @@ function
 {
 return
 new
+lazy
+.
 Storage
 (
 "
@@ -320,6 +328,8 @@ BaseAction
 static
 Heartbeat
 =
+lazy
+.
 Heartbeat
 ;
 static
@@ -346,6 +356,8 @@ this
 .
 Heartbeat
 =
+lazy
+.
 Heartbeat
 ;
 }
@@ -356,6 +368,8 @@ schema
 )
 {
 return
+lazy
+.
 ActionSchemas
 [
 "
@@ -389,6 +403,8 @@ const
 recipeStorage
 =
 new
+lazy
+.
 Storage
 (
 recipe
@@ -440,6 +456,8 @@ message
 const
 targetWindow
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -501,6 +519,8 @@ recipe
 )
 flowId
 :
+lazy
+.
 NormandyUtils
 .
 generateUuid
@@ -569,6 +589,8 @@ Promise
 all
 (
 [
+lazy
+.
 gAllRecipeStorage
 .
 setItem
@@ -612,6 +634,8 @@ let
 lastShown
 =
 await
+lazy
+.
 gAllRecipeStorage
 .
 getItem
@@ -812,6 +836,8 @@ let
 lastShown
 =
 await
+lazy
+.
 gAllRecipeStorage
 .
 getItem
@@ -945,6 +971,8 @@ surveyId
 :
 :
 {
+lazy
+.
 ClientEnvironment
 .
 userId
@@ -985,6 +1013,8 @@ postAnswerUrl
 const
 userId
 =
+lazy
+.
 ClientEnvironment
 .
 userId
@@ -1018,6 +1048,8 @@ appinfo
 version
 isDefaultBrowser
 :
+lazy
+.
 ShellService
 .
 isDefaultBrowser
@@ -1062,6 +1094,8 @@ username
 0
 updateChannel
 :
+lazy
+.
 UpdateUtils
 .
 getUpdateChannel

@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LogManager
 "
@@ -87,7 +93,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -97,6 +103,8 @@ log
 >
 {
 return
+lazy
+.
 LogManager
 .
 getLogger
@@ -529,6 +537,8 @@ default
 "
 )
 {
+lazy
+.
 log
 .
 warn

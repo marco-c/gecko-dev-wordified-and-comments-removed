@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 IndexedDB
 "
@@ -78,7 +84,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEnvironment
 "
@@ -101,7 +107,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CleanupManager
 "
@@ -124,7 +130,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrefUtils
 "
@@ -147,7 +153,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEvents
 "
@@ -232,6 +238,8 @@ openDatabase
 )
 {
 return
+lazy
+.
 IndexedDB
 .
 open
@@ -768,6 +776,8 @@ init
 (
 )
 {
+lazy
+.
 CleanupManager
 .
 addCleanupHandler
@@ -828,6 +838,8 @@ set
 continue
 ;
 }
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentActive
@@ -853,6 +865,8 @@ rollout
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -888,6 +902,8 @@ rollout
 .
 enrollmentId
 =
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -1525,6 +1541,8 @@ rollout
 preferences
 )
 {
+lazy
+.
 PrefUtils
 .
 setPref
@@ -1593,6 +1611,8 @@ put
 rollout
 )
 ;
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -1615,6 +1635,8 @@ rollout
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER

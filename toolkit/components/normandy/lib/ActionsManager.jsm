@@ -46,11 +46,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonRollbackAction
 :
@@ -305,6 +311,8 @@ addon
 rollback
 "
 :
+lazy
+.
 AddonRollbackAction
 "
 addon
@@ -312,6 +320,8 @@ addon
 rollout
 "
 :
+lazy
+.
 AddonRolloutAction
 "
 branched
@@ -321,6 +331,8 @@ addon
 study
 "
 :
+lazy
+.
 BranchedAddonStudyAction
 "
 console
@@ -328,6 +340,8 @@ console
 log
 "
 :
+lazy
+.
 ConsoleLogAction
 "
 messaging
@@ -335,6 +349,8 @@ messaging
 experiment
 "
 :
+lazy
+.
 MessagingExperimentAction
 "
 multi
@@ -344,6 +360,8 @@ preference
 experiment
 "
 :
+lazy
+.
 PreferenceExperimentAction
 "
 preference
@@ -351,6 +369,8 @@ preference
 rollback
 "
 :
+lazy
+.
 PreferenceRollbackAction
 "
 preference
@@ -358,6 +378,8 @@ preference
 rollout
 "
 :
+lazy
+.
 PreferenceRolloutAction
 "
 show
@@ -365,6 +387,8 @@ show
 heartbeat
 "
 :
+lazy
+.
 ShowHeartbeatAction
 }
 ;
@@ -486,6 +510,8 @@ suitability
 !
 =
 =
+lazy
+.
 BaseAction
 .
 suitability
@@ -522,11 +548,15 @@ invalid
 )
 ;
 await
+lazy
+.
 Uptake
 .
 reportRecipe
 (
 recipe
+lazy
+.
 Uptake
 .
 RECIPE_INVALID_ACTION
