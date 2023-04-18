@@ -6484,10 +6484,9 @@ state
 mShowVScrollbar
 )
 ;
+const
 nsRect
 insideBorderArea
-=
-nsRect
 (
 nsPoint
 (
@@ -31471,11 +31470,11 @@ aState
 const
 nsRect
 &
-aContentArea
+aInsideBorderArea
 const
 nsRect
 &
-aOldScrollArea
+aOldScrollPort
 )
 {
 NS_ASSERTION
@@ -31610,7 +31609,7 @@ vRect
 .
 width
 =
-aContentArea
+aInsideBorderArea
 .
 width
 -
@@ -31624,7 +31623,7 @@ x
 =
 scrollbarOnLeft
 ?
-aContentArea
+aInsideBorderArea
 .
 x
 :
@@ -31786,7 +31785,7 @@ hRect
 .
 height
 =
-aContentArea
+aInsideBorderArea
 .
 height
 -
@@ -31907,7 +31906,7 @@ r
 ;
 if
 (
-aContentArea
+aInsideBorderArea
 .
 x
 !
@@ -31924,7 +31923,7 @@ r
 .
 x
 =
-aContentArea
+aInsideBorderArea
 .
 x
 ;
@@ -31936,7 +31935,7 @@ mScrollPort
 .
 x
 -
-aContentArea
+aInsideBorderArea
 .
 x
 ;
@@ -31966,7 +31965,7 @@ r
 .
 width
 =
-aContentArea
+aInsideBorderArea
 .
 XMost
 (
@@ -31982,7 +31981,7 @@ r
 .
 x
 =
-aContentArea
+aInsideBorderArea
 .
 XMost
 (
@@ -32014,7 +32013,7 @@ rect
 }
 if
 (
-aContentArea
+aInsideBorderArea
 .
 y
 !
@@ -32041,7 +32040,7 @@ r
 .
 height
 =
-aContentArea
+aInsideBorderArea
 .
 YMost
 (
@@ -32057,7 +32056,7 @@ r
 .
 y
 =
-aContentArea
+aInsideBorderArea
 .
 YMost
 (
@@ -32274,7 +32273,7 @@ width
 ;
 if
 (
-aContentArea
+aInsideBorderArea
 .
 x
 =
@@ -32292,7 +32291,7 @@ r
 .
 x
 =
-aContentArea
+aInsideBorderArea
 .
 XMost
 (
@@ -32342,7 +32341,7 @@ height
 ;
 if
 (
-aContentArea
+aInsideBorderArea
 .
 y
 =
@@ -32356,7 +32355,7 @@ r
 .
 y
 =
-aContentArea
+aInsideBorderArea
 .
 YMost
 (
@@ -32496,7 +32495,7 @@ hRect
 }
 if
 (
-aOldScrollArea
+aOldScrollPort
 .
 Size
 (
