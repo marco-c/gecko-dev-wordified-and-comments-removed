@@ -1818,7 +1818,9 @@ bool
 )
 >
 &
-aShouldSerializeFn
+aShouldSanitizeFn
+bool
+aIsDestinationContentProcess
 )
 ;
 static

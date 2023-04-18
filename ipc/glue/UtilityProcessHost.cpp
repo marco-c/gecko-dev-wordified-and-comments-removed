@@ -335,6 +335,10 @@ mPrefSerializer
 >
 SerializeToSharedMemory
 (
+GeckoProcessType_Utility
+"
+"
+_ns
 )
 )
 {
