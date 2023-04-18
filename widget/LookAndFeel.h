@@ -214,6 +214,8 @@ SystemHorizontalScrollbarHeight
 TouchDeviceSupportPresent
 TitlebarRadius
 GtkMenuRadius
+DynamicRange
+VideoDynamicRange
 End
 }
 ;
