@@ -451,7 +451,7 @@ if
 (
 BuildConfig
 .
-DEBUG
+DEBUG_BUILD
 )
 {
 throw

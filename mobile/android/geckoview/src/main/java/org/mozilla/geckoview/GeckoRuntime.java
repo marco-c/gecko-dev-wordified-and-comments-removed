@@ -2053,13 +2053,6 @@ info
 xpcshell
 &
 &
-(
-!
-BuildConfig
-.
-DEBUG
-|
-|
 !
 "
 org
@@ -2081,7 +2074,6 @@ getApplicationContext
 .
 getPackageName
 (
-)
 )
 )
 )

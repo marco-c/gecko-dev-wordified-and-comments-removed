@@ -3086,7 +3086,7 @@ if
 (
 BuildConfig
 .
-DEBUG
+DEBUG_BUILD
 )
 {
 throw
@@ -3165,7 +3165,7 @@ if
 (
 BuildConfig
 .
-DEBUG
+DEBUG_BUILD
 )
 {
 try
@@ -3350,7 +3350,7 @@ if
 (
 BuildConfig
 .
-DEBUG
+DEBUG_BUILD
 )
 {
 throw
@@ -3587,7 +3587,7 @@ if
 (
 BuildConfig
 .
-DEBUG
+DEBUG_BUILD
 )
 {
 throw
@@ -5194,7 +5194,7 @@ if
 (
 BuildConfig
 .
-DEBUG
+DEBUG_BUILD
 )
 {
 throw
@@ -5315,7 +5315,7 @@ if
 (
 BuildConfig
 .
-DEBUG
+DEBUG_BUILD
 )
 {
 throw
