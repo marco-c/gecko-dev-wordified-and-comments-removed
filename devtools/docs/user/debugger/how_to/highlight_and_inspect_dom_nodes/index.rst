@@ -90,7 +90,7 @@ are
 working
 with
 DOM
-notes
+nodes
 in
 the
 debugger
