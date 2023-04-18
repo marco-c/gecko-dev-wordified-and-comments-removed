@@ -492,12 +492,6 @@ case
 LayersBackend
 :
 :
-LAYERS_D3D11
-:
-case
-LayersBackend
-:
-:
 LAYERS_OPENGL
 :
 case
