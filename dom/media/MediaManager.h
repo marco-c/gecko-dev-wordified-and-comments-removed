@@ -117,15 +117,6 @@ include
 "
 mozilla
 /
-StaticMutex
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPtr
 .
 h
@@ -1729,11 +1720,6 @@ StaticRefPtr
 MediaManager
 >
 sSingleton
-;
-static
-StaticMutex
-sSingletonMutex
-MOZ_UNANNOTATED
 ;
 MediaEventListener
 mDeviceListChangeListener
