@@ -21325,7 +21325,7 @@ type
 RelaxedAtomicUint32
 value
 :
-131072
+16384
 mirror
 :
 always
@@ -21558,7 +21558,7 @@ type
 uint32_t
 value
 :
-20000
+5000
 mirror
 :
 always
