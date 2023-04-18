@@ -46,9 +46,9 @@ nsresult
 BodyTraverseFiles
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 &
 aBodyDir
@@ -154,7 +154,7 @@ aBodyDir
 &
 isEmpty
 &
-aQuotaInfo
+aClientMetadata
 aTrackQuota
 &
 aHandleFileFunc
@@ -216,7 +216,7 @@ result
 =
 RemoveNsIFileRecursively
 (
-aQuotaInfo
+aClientMetadata
 *
 file
 false
@@ -286,7 +286,7 @@ result
 =
 RemoveNsIFile
 (
-aQuotaInfo
+aClientMetadata
 *
 file
 aTrackQuota
@@ -342,7 +342,7 @@ result
 =
 RemoveNsIFile
 (
-aQuotaInfo
+aClientMetadata
 *
 file
 false
@@ -434,7 +434,7 @@ result
 =
 RemoveNsIFileRecursively
 (
-aQuotaInfo
+aClientMetadata
 aBodyDir
 false
 )

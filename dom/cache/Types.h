@@ -95,7 +95,7 @@ INVALID_CACHE_ID
 1
 ;
 struct
-QuotaInfo
+ClientMetadata
 :
 quota
 :

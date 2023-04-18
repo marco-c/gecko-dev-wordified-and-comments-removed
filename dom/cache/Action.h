@@ -170,9 +170,9 @@ Resolver
 >
 aResolver
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 Data
 *
 aOptionalData
