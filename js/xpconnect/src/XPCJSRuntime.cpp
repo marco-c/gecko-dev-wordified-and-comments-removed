@@ -4360,6 +4360,7 @@ mWrappedJSMap
 >
 UpdateWeakPointersAfterGC
 (
+trc
 )
 ;
 self
@@ -4367,8 +4368,9 @@ self
 >
 mUAWidgetScopeMap
 .
-sweep
+traceWeak
 (
+trc
 )
 ;
 }
@@ -4414,6 +4416,7 @@ xpcComp
 >
 UpdateWeakPointersAfterGC
 (
+trc
 )
 ;
 }
@@ -4424,12 +4427,16 @@ CompartmentPrivate
 :
 UpdateWeakPointersAfterGC
 (
+JSTracer
+*
+trc
 )
 {
 mRemoteProxies
 .
-sweep
+traceWeak
 (
+trc
 )
 ;
 mWrappedJSMap
@@ -4437,6 +4444,7 @@ mWrappedJSMap
 >
 UpdateWeakPointersAfterGC
 (
+trc
 )
 ;
 mScope
@@ -4444,6 +4452,7 @@ mScope
 >
 UpdateWeakPointersAfterGC
 (
+trc
 )
 ;
 }
