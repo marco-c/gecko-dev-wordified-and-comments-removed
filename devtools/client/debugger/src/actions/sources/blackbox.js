@@ -105,7 +105,7 @@ isBlackBoxed
 }
 async
 function
-getSourceId
+getBlackboxRangeForSource
 (
 source
 sourceMaps
@@ -207,7 +207,7 @@ range
 }
 =
 await
-getSourceId
+getBlackboxRangeForSource
 (
 source
 sourceMaps
@@ -328,7 +328,7 @@ range
 }
 =
 await
-getSourceId
+getBlackboxRangeForSource
 (
 source
 sourceMaps
