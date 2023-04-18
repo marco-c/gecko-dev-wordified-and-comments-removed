@@ -308,6 +308,16 @@ Attributes
 (
 )
 ;
+if
+(
+!
+attributes
+)
+{
+return
+nil
+;
+}
 attributes
 -
 >
