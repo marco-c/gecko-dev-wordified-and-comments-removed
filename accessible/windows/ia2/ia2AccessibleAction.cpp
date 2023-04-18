@@ -224,11 +224,11 @@ long
 aActionIndex
 )
 {
-AccessibleWrap
+Accessible
 *
 acc
 =
-LocalAcc
+Acc
 (
 )
 ;
