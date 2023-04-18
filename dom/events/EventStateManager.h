@@ -854,6 +854,7 @@ nsEventStatus
 aStatus
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsIFrame
 *
 DispatchMouseOrPointerEvent
@@ -889,6 +890,7 @@ WidgetMouseEvent
 aMouseEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyMouseOver
 (
@@ -900,6 +902,7 @@ nsIContent
 aContent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyMouseOut
 (
