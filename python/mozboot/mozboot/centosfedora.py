@@ -153,10 +153,6 @@ devel
 "
             
 "
-nasm
-"
-            
-"
 pulseaudio
 -
 libs

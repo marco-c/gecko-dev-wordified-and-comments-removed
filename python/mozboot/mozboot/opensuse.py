@@ -536,24 +536,6 @@ user
 )
     
 def
-ensure_nasm_packages
-(
-self
-state_dir
-checkout_root
-)
-:
-        
-self
-.
-zypper_install
-(
-"
-nasm
-"
-)
-    
-def
 zypper_install
 (
 self
