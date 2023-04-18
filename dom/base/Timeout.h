@@ -114,7 +114,6 @@ uint8_t
 eTimeoutOrInterval
 eIdleCallbackTimeout
 eAbortSignalTimeout
-eDelayedWebTaskTimeout
 }
 ;
 struct
