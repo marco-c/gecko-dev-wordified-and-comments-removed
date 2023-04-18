@@ -43,7 +43,7 @@ named
 "
 main
 /
-addon
+addons
 -
 manager
 -
@@ -270,7 +270,7 @@ the
 "
 main
 /
-addon
+addons
 -
 manager
 -
@@ -289,7 +289,7 @@ the
 "
 main
 /
-addon
+addons
 -
 manager
 -
@@ -351,7 +351,7 @@ by
 "
 main
 /
-addon
+addons
 -
 manager
 -
@@ -391,7 +391,7 @@ the
 "
 main
 /
-addon
+addons
 -
 manager
 -
@@ -451,7 +451,7 @@ the
 "
 main
 /
-addon
+addons
 -
 manager
 -
@@ -1439,7 +1439,7 @@ the
 "
 main
 /
-addon
+addons
 -
 manager
 -
