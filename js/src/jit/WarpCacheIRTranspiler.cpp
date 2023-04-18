@@ -27605,6 +27605,8 @@ ObjOperandId
 calleeId
 CompletionKind
 kind
+uint32_t
+calleeNargs
 )
 {
 MDefinition
@@ -27653,7 +27655,7 @@ nargs
 )
 =
 =
-0
+calleeNargs
 )
 ;
 MOZ_ASSERT
