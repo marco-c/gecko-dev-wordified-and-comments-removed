@@ -1594,11 +1594,6 @@ fop
 )
 ;
 void
-clearTables
-(
-)
-;
-void
 addSizeOfIncludingThis
 (
 mozilla

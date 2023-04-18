@@ -963,16 +963,6 @@ AllocKind
 thingKind
 )
 ;
-void
-adoptArenas
-(
-ArenaLists
-*
-fromArenaLists
-bool
-targetZoneIsCollecting
-)
-;
 inline
 void
 checkEmptyFreeLists

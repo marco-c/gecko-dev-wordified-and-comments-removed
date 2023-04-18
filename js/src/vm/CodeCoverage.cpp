@@ -3187,8 +3187,9 @@ scripts
 "
 )
 ;
-if
+MOZ_ASSERT
 (
+!
 cx
 -
 >
@@ -3196,11 +3197,7 @@ isHelperThreadContext
 (
 )
 )
-{
-return
-true
 ;
-}
 const
 char
 *

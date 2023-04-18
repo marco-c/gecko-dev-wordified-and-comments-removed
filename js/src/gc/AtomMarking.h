@@ -255,17 +255,6 @@ Value
 value
 )
 ;
-void
-adoptMarkedAtoms
-(
-Zone
-*
-target
-Zone
-*
-source
-)
-;
 #
 ifdef
 DEBUG
