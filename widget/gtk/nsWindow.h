@@ -2720,6 +2720,9 @@ mAspectRatioSaved
 .
 0f
 ;
+LayoutDeviceIntSize
+mLastSizeRequest
+;
 nsIntPoint
 mClientOffset
 ;
@@ -2909,7 +2912,7 @@ mIsTransparent
 1
 ;
 bool
-mBoundsAreValid
+mHasReceivedSizeAllocate
 :
 1
 ;
@@ -2975,6 +2978,16 @@ mPopupUseMoveToRect
 ;
 bool
 mWaitingForMoveToRectCallback
+:
+1
+;
+bool
+mMovedAfterMoveToRect
+:
+1
+;
+bool
+mResizedAfterMoveToRect
 :
 1
 ;
@@ -3454,9 +3467,6 @@ mWaylandPopupPrev
 ;
 LayoutDeviceIntSize
 mMoveToRectPopupSize
-;
-LayoutDeviceIntRect
-mNewBoundsAfterMoveToRect
 ;
 RefPtr
 <
