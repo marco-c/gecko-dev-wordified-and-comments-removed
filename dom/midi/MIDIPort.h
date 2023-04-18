@@ -273,6 +273,13 @@ DisconnectFromOwner
 )
 override
 ;
+const
+nsString
+&
+StableId
+(
+)
+;
 protected
 :
 RefPtr
