@@ -162,7 +162,7 @@ mozilla
 /
 intl
 /
-Bidi
+BidiEmbeddingLevel
 .
 h
 "
@@ -8634,10 +8634,7 @@ mozilla
 intl
 :
 :
-Bidi
-:
-:
-EmbeddingLevel
+BidiEmbeddingLevel
 frameLevel
 =
 nsBidiPresUtils
@@ -45072,10 +45069,7 @@ mozilla
 intl
 :
 :
-Bidi
-:
-:
-Direction
+BidiDirection
 :
 :
 RTL

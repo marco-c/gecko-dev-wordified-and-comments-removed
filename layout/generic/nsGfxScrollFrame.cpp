@@ -105,7 +105,7 @@ mozilla
 /
 intl
 /
-Bidi
+BidiEmbeddingLevel
 .
 h
 "
@@ -33651,10 +33651,7 @@ mozilla
 intl
 :
 :
-Bidi
-:
-:
-Direction
+BidiDirection
 :
 :
 LTR

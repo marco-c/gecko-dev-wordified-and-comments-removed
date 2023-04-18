@@ -15,6 +15,13 @@ h
 "
 src
 /
+BidiEmbeddingLevel
+.
+h
+"
+"
+src
+/
 Calendar
 .
 h
@@ -175,6 +182,13 @@ UNIFIED_SOURCES
 src
 /
 Bidi
+.
+cpp
+"
+"
+src
+/
+BidiEmbeddingLevel
 .
 cpp
 "
