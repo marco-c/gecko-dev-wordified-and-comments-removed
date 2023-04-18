@@ -63,6 +63,11 @@ TestJSHandleRootedTypedef
 cpp
 "
 "
+TestKnownLive
+.
+cpp
+"
+"
 TestKungFuDeathGrip
 .
 cpp
