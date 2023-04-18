@@ -49,6 +49,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ScriptLoadContext
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
