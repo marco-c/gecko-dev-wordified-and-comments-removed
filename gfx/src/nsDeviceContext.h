@@ -278,9 +278,12 @@ return
 mAppUnitsPerDevPixelAtUnitFullZoom
 ;
 }
-uint32_t
+nsresult
 GetDepth
 (
+uint32_t
+&
+aDepth
 )
 ;
 nsresult
