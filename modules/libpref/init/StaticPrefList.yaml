@@ -54394,13 +54394,13 @@ vp9
 enabled
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
 mirror
 :
-once
+always
 -
 name
 :
