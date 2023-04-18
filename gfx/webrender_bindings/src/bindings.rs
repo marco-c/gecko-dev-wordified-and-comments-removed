@@ -14293,7 +14293,7 @@ clip_rect
 LayoutRect
 scroll_offset
 :
-LayoutPoint
+LayoutVector2D
 key
 :
 SpatialTreeItemKey
@@ -14342,10 +14342,6 @@ pipeline_id
 content_rect
 clip_rect
 scroll_offset
-.
-to_vector
-(
-)
 key
 )
 ;
