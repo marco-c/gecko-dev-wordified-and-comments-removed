@@ -607,3 +607,17 @@ aria
 label
 =
 Close
+about
+-
+private
+-
+browsing
+-
+dismiss
+-
+button
+=
+.
+title
+=
+Dismiss
