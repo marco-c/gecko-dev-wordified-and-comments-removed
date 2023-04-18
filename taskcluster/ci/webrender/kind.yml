@@ -1901,6 +1901,10 @@ linux
 -
 linux64
 -
+jdk
+-
+linux64
+-
 rust
 -
 android
@@ -2237,6 +2241,10 @@ linux
 -
 linux64
 -
+jdk
+-
+linux64
+-
 rust
 -
 android
@@ -2513,6 +2521,10 @@ avd
 x86_64
 -
 linux
+-
+linux64
+-
+jdk
 run
 :
 using
@@ -2852,6 +2864,10 @@ avd
 x86_64
 -
 linux
+-
+linux64
+-
+jdk
 run
 :
 using

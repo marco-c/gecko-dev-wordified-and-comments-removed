@@ -886,6 +886,12 @@ repack
 -
 linux64
 -
+jdk
+-
+repack
+-
+linux64
+-
 node
 when
 :

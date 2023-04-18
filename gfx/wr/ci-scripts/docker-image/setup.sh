@@ -149,12 +149,6 @@ ninja
 -
 build
 \
-openjdk
--
-8
--
-jdk
-\
 pkg
 -
 config

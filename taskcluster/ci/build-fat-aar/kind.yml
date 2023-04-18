@@ -688,6 +688,10 @@ clang
 -
 linux64
 -
+jdk
+-
+linux64
+-
 rust
 -
 android

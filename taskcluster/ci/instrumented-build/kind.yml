@@ -1127,6 +1127,10 @@ android
 sdk
 -
 linux
+-
+linux64
+-
+jdk
 #
 Workaround
 issues
@@ -1645,6 +1649,10 @@ android
 sdk
 -
 linux
+-
+linux64
+-
+jdk
 -
 linux64
 -
