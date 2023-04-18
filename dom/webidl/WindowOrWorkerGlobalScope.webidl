@@ -674,6 +674,7 @@ mixin
 WindowOrWorkerGlobalScope
 {
 [
+Replaceable
 Pref
 =
 "
