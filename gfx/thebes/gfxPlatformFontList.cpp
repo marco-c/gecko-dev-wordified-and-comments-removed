@@ -2754,6 +2754,14 @@ SetHasStyles
 true
 )
 ;
+family
+-
+>
+SetCheckedForLegacyFamilyNames
+(
+true
+)
+;
 added
 =
 true
