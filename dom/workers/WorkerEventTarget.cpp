@@ -32,8 +32,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -543,6 +543,5 @@ IsOnCurrentThreadInfallible
 return
 NS_OK
 ;
-}
 }
 }

@@ -54,8 +54,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSExecutionManager
@@ -1018,7 +1018,6 @@ mCurrentMTManager
 =
 nullptr
 ;
-}
 }
 }
 }

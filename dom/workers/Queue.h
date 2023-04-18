@@ -22,11 +22,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 workerinternals
 {
 template
@@ -696,8 +696,6 @@ Queue
 ;
 }
 ;
-}
-}
 }
 #
 endif

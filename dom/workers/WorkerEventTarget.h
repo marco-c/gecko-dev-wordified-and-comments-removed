@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -113,7 +113,6 @@ NS_DECL_NSIEVENTTARGET
 NS_DECL_NSISERIALEVENTTARGET
 }
 ;
-}
 }
 #
 endif

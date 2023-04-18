@@ -32,8 +32,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -1005,6 +1005,5 @@ IPCWorkerRef
 return
 mWorkerPrivate
 ;
-}
 }
 }

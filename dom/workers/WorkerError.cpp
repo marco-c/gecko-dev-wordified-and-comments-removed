@@ -460,8 +460,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -2438,6 +2438,5 @@ CreateAndDispatch
 aWorkerPrivate
 )
 ;
-}
 }
 }

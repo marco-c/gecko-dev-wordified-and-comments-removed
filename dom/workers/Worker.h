@@ -61,8 +61,8 @@ PostMessage
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -253,7 +253,6 @@ mWorkerPrivate
 ;
 }
 ;
-}
 }
 #
 endif

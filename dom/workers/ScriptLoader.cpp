@@ -546,11 +546,11 @@ PrincipalInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 workerinternals
 {
 namespace
@@ -5842,7 +5842,5 @@ aWorkerScriptType
 aRv
 )
 ;
-}
-}
 }
 }

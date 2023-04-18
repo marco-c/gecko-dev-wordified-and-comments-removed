@@ -18,8 +18,8 @@ nsPIDOMWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -146,7 +146,6 @@ JSObject
 object
 )
 ;
-}
 }
 #
 endif

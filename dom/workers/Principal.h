@@ -15,8 +15,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -73,7 +73,6 @@ mIsSystemOrAddonPrincipal
 ;
 }
 ;
-}
 }
 #
 endif

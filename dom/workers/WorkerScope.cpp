@@ -1101,8 +1101,8 @@ PrincipalInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -6866,6 +6866,5 @@ GlobalType
 :
 WorkerDebuggerSandbox
 ;
-}
 }
 }

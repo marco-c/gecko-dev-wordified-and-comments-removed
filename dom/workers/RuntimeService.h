@@ -117,8 +117,8 @@ nsPIDOMWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -724,7 +724,6 @@ aFunc
 ;
 }
 ;
-}
 }
 }
 #

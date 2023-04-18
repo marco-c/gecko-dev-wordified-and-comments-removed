@@ -54,8 +54,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 WorkerPrincipal
@@ -150,6 +150,5 @@ WorkerPrincipal
 aPrincipals
 )
 ;
-}
 }
 }

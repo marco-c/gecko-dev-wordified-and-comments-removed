@@ -63,11 +63,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 workerinternals
 {
 const
@@ -228,8 +228,6 @@ false
 }
 }
 ;
-}
-}
 }
 #
 endif

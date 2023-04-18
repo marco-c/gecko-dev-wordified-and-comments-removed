@@ -49,8 +49,8 @@ nsPIDOMWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -182,7 +182,6 @@ DedicatedWorkerWindow
 ;
 }
 ;
-}
 }
 #
 endif

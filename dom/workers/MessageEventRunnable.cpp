@@ -72,8 +72,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MessageEventRunnable
@@ -734,6 +734,5 @@ DispatchEvent
 event
 )
 ;
-}
 }
 }

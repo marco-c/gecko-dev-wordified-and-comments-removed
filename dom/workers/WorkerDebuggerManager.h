@@ -113,8 +113,8 @@ workerdebuggermanager
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -419,7 +419,6 @@ aWorkerPrivate
 return
 NS_OK
 ;
-}
 }
 }
 #

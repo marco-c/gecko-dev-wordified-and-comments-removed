@@ -99,8 +99,8 @@ PostMessage
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 already_AddRefed
@@ -1001,5 +1001,4 @@ NS_IMPL_RELEASE_INHERITED
 Worker
 DOMEventTargetHelper
 )
-}
 }
