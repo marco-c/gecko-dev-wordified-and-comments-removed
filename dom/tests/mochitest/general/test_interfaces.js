@@ -5805,16 +5805,6 @@ true
 name
 :
 "
-SVGPathSegList
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 SVGPatternElement
 "
 insecureContext

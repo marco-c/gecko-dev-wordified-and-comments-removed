@@ -143,6 +143,17 @@ apply
 Exposed
 =
 Window
+Pref
+=
+"
+dom
+.
+svg
+.
+pathSeg
+.
+enabled
+"
 ]
 interface
 SVGPathSegList
