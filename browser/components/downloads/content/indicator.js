@@ -1665,6 +1665,7 @@ DownloadsPanel
 .
 showPanel
 (
+true
 )
 ;
 aEvent
