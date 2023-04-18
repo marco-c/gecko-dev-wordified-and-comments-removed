@@ -1944,6 +1944,7 @@ dllSvc
 >
 StartUntrustedModulesProcessor
 (
+true
 )
 ;
 for

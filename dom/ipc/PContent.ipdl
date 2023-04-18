@@ -2491,6 +2491,11 @@ UntrustedModulesData
 data
 )
 ;
+async
+UnblockUntrustedModulesThread
+(
+)
+;
 #
 endif
 async
@@ -2949,6 +2954,8 @@ SharedMemoryHandle
 [
 ]
 sharedFontListBlocks
+bool
+aIsStartingUp
 )
 ;
 async
