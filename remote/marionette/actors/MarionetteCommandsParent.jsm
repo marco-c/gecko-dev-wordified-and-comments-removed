@@ -347,10 +347,16 @@ evaluate
 .
 fromJSON
 (
+{
+obj
+:
 result
 .
 data
+seenEls
+:
 elementIdCache
+}
 )
 ;
 }
