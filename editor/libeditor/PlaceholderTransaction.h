@@ -14,9 +14,14 @@ h
 #
 include
 "
-mozilla
-/
-Maybe
+EditorForwards
+.
+h
+"
+#
+include
+"
+SelectionState
 .
 h
 "
@@ -25,7 +30,7 @@ include
 "
 mozilla
 /
-SelectionState
+Maybe
 .
 h
 "
@@ -41,9 +46,6 @@ h
 namespace
 mozilla
 {
-class
-EditorBase
-;
 class
 PlaceholderTransaction
 final

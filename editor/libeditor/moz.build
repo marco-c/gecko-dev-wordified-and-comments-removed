@@ -85,6 +85,11 @@ EditorDOMPoint
 h
 "
 "
+EditorForwards
+.
+h
+"
+"
 EditorUtils
 .
 h

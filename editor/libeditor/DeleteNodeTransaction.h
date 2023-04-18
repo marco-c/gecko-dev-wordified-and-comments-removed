@@ -7,9 +7,14 @@ DeleteNodeTransaction_h
 #
 include
 "
-mozilla
-/
 EditTransactionBase
+.
+h
+"
+#
+include
+"
+EditorForwards
 .
 h
 "
@@ -58,9 +63,6 @@ h
 namespace
 mozilla
 {
-class
-EditorBase
-;
 class
 DeleteNodeTransaction
 final

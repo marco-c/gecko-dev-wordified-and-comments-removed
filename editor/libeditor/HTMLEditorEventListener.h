@@ -14,8 +14,13 @@ h
 #
 include
 "
-mozilla
-/
+EditorForwards
+.
+h
+"
+#
+include
+"
 HTMLEditor
 .
 h
@@ -37,9 +42,6 @@ class
 Element
 ;
 }
-class
-EditorBase
-;
 class
 HTMLEditorEventListener
 final

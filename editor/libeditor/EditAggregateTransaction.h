@@ -7,8 +7,6 @@ EditAggregateTransaction_h
 #
 include
 "
-mozilla
-/
 EditTransactionBase
 .
 h

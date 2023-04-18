@@ -36,6 +36,15 @@ include
 "
 mozilla
 /
+EditorForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IntegerRange
 .
 h
@@ -164,9 +173,6 @@ nsITransferable
 namespace
 mozilla
 {
-class
-MoveNodeResult
-;
 template
 <
 class

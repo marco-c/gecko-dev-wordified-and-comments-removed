@@ -36,6 +36,15 @@ include
 "
 mozilla
 /
+EditorForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EditorUtils
 .
 h
@@ -166,10 +175,6 @@ nsPresContext
 namespace
 mozilla
 {
-enum
-class
-EditAction
-;
 class
 HTMLEditUtils
 final

@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+EditorForwards
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -65,9 +74,6 @@ nsStyledElement
 namespace
 mozilla
 {
-class
-HTMLEditor
-;
 namespace
 dom
 {

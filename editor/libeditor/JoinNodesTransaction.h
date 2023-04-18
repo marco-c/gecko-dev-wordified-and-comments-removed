@@ -21,6 +21,13 @@ h
 #
 include
 "
+EditorForwards
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -55,9 +62,6 @@ nsINode
 namespace
 mozilla
 {
-class
-HTMLEditor
-;
 class
 JoinNodesTransaction
 final

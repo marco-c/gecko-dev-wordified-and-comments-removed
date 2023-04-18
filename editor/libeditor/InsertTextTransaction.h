@@ -7,8 +7,6 @@ InsertTextTransaction_h
 #
 include
 "
-mozilla
-/
 EditTransactionBase
 .
 h
@@ -16,9 +14,7 @@ h
 #
 include
 "
-mozilla
-/
-EditorDOMPoint
+EditorForwards
 .
 h
 "
@@ -60,9 +56,6 @@ h
 namespace
 mozilla
 {
-class
-EditorBase
-;
 namespace
 dom
 {

@@ -14,6 +14,13 @@ h
 #
 include
 "
+EditorForwards
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RangeBoundary
@@ -68,12 +75,6 @@ nsINode
 namespace
 mozilla
 {
-class
-EditorBase
-;
-class
-RangeUpdater
-;
 class
 DeleteRangeTransaction
 final
