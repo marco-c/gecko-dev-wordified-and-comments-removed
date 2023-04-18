@@ -807,6 +807,16 @@ defineModuleGetter
 ;
 global
 .
+Cu
+=
+{
+isInAutomation
+:
+true
+}
+;
+global
+.
 define
 =
 function
