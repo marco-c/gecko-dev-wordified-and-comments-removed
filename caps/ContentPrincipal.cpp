@@ -1990,6 +1990,12 @@ rv
 !
 =
 NS_ERROR_INSUFFICIENT_DOMAIN_LEVELS
+&
+&
+rv
+!
+=
+NS_ERROR_INVALID_ARG
 )
 {
 return
