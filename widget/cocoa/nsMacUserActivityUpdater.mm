@@ -108,6 +108,11 @@ aPageUrl
 if
 (
 !
+pageUrl
+|
+|
+(
+!
 [
 pageUrl
 .
@@ -131,6 +136,7 @@ isEqualToString
 http
 "
 ]
+)
 )
 {
 [
