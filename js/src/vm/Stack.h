@@ -953,13 +953,6 @@ isConstructing
 const
 ;
 inline
-Value
-newTarget
-(
-)
-const
-;
-inline
 bool
 debuggerNeedsCheckPrimitiveReturn
 (
