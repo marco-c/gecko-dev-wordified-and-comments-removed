@@ -519,6 +519,11 @@ attribute
 any
 reason
 ;
+undefined
+throwIfAborted
+(
+)
+;
 attribute
 EventHandler
 onabort

@@ -525,6 +525,7 @@ EventTarget
 readonly
 attribute
 USVString
+?
 url
 ;
 readonly

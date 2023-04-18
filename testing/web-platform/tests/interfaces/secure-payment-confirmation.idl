@@ -54,6 +54,7 @@ secure
 payment
 -
 confirmation
+/
 )
 dictionary
 SecurePaymentConfirmationRequest

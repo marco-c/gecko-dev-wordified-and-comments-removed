@@ -211,6 +211,14 @@ Promise
 <
 undefined
 >
+forget
+(
+)
+;
+Promise
+<
+undefined
+>
 sendReport
 (
 [

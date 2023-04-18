@@ -1696,7 +1696,11 @@ Exposed
 Window
 ]
 static
+(
 CSSColorValue
+or
+CSSStyleValue
+)
 parse
 (
 USVString

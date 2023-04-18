@@ -59,7 +59,7 @@ ComputePressureUpdateCallback
 =
 undefined
 (
-ComputePressureObserverUpdate
+ComputePressureEntry
 update
 ComputePressureObserver
 observer
@@ -98,7 +98,7 @@ unobserve
 }
 ;
 dictionary
-ComputePressureObserverUpdate
+ComputePressureEntry
 {
 double
 cpuSpeed
