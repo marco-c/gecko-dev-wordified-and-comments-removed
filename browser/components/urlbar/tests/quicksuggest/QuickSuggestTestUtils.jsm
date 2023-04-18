@@ -756,7 +756,9 @@ UrlbarPrefs
 updateFirefoxSuggestScenario
 (
 false
+{
 scenario
+}
 )
 ;
 }
