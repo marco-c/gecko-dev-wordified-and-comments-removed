@@ -34,15 +34,6 @@ include
 "
 frontend
 /
-BytecodeOffset
-.
-h
-"
-#
-include
-"
-frontend
-/
 IteratorKind
 .
 h
@@ -73,6 +64,9 @@ frontend
 {
 struct
 BytecodeEmitter
+;
+class
+BytecodeOffset
 ;
 class
 EmitterScope

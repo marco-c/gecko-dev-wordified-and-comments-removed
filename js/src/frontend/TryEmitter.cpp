@@ -39,15 +39,6 @@ include
 "
 vm
 /
-JSScript
-.
-h
-"
-#
-include
-"
-vm
-/
 Opcodes
 .
 h

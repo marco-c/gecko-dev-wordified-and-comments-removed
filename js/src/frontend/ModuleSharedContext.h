@@ -47,15 +47,6 @@ Scope
 .
 h
 "
-#
-include
-"
-vm
-/
-SharedStencil
-.
-h
-"
 struct
 JS_PUBLIC_API
 JSContext
@@ -73,6 +64,9 @@ js
 {
 class
 ModuleBuilder
+;
+struct
+SourceExtent
 ;
 namespace
 frontend

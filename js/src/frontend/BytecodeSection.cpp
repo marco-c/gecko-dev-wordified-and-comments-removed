@@ -19,15 +19,6 @@ h
 #
 include
 "
-mozilla
-/
-ReverseIterator
-.
-h
-"
-#
-include
-"
 frontend
 /
 AbstractScopePtr

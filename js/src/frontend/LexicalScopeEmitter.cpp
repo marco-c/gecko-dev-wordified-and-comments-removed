@@ -7,15 +7,6 @@ LexicalScopeEmitter
 .
 h
 "
-#
-include
-"
-frontend
-/
-BytecodeEmitter
-.
-h
-"
 using
 namespace
 js

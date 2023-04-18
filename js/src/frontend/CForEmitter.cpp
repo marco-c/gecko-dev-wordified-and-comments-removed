@@ -39,7 +39,7 @@ include
 "
 vm
 /
-Scope
+ScopeKind
 .
 h
 "

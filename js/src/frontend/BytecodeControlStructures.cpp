@@ -19,15 +19,6 @@ h
 #
 include
 "
-frontend
-/
-EmitterScope
-.
-h
-"
-#
-include
-"
 vm
 /
 Opcodes

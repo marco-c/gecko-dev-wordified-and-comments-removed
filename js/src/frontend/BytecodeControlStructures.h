@@ -43,7 +43,7 @@ include
 "
 frontend
 /
-BytecodeSection
+BytecodeOffset
 .
 h
 "
