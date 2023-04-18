@@ -1328,17 +1328,6 @@ model
 docs
 ]
 (
-.
-.
-/
-.
-.
-/
-.
-.
-/
-.
-.
 /
 dom
 /
@@ -1346,7 +1335,7 @@ ipc
 /
 process_model
 .
-html
+rst
 )
 for
 more

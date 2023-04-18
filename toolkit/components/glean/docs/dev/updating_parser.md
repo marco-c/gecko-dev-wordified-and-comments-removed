@@ -165,7 +165,7 @@ SDK
 (
 updating_sdk
 .
-html
+md
 )
 for
 details

@@ -827,6 +827,11 @@ instrumentation
 tests
 ]
 (
+.
+.
+/
+dev
+/
 testing
 .
 md
