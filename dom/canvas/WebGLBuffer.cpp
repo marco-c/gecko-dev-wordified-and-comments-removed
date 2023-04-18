@@ -74,8 +74,10 @@ InvalidateCaches
 )
 ;
 mIndexCache
-=
-nullptr
+.
+reset
+(
+)
 ;
 mIndexRanges
 .
@@ -435,6 +437,11 @@ uploadData
 {
 maybeCalloc
 =
+UniqueBuffer
+:
+:
+Take
+(
 calloc
 (
 1
@@ -444,6 +451,7 @@ size_t
 >
 (
 size
+)
 )
 )
 ;
@@ -503,6 +511,11 @@ mNeedsIndexValidation
 {
 newIndexCache
 =
+UniqueBuffer
+:
+:
+Take
+(
 malloc
 (
 AssertedCast
@@ -511,6 +524,7 @@ size_t
 >
 (
 size
+)
 )
 )
 ;
@@ -670,8 +684,10 @@ InvalidateCaches
 )
 ;
 mIndexCache
-=
-nullptr
+.
+reset
+(
+)
 ;
 return
 ;

@@ -5955,8 +5955,13 @@ true
 ;
 }
 const
-UniqueBuffer
+auto
 data
+=
+UniqueBuffer
+:
+:
+Take
 (
 malloc
 (

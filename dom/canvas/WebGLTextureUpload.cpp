@@ -9252,6 +9252,11 @@ isValid
 {
 zeros
 =
+UniqueBuffer
+:
+:
+Take
+(
 calloc
 (
 1u
@@ -9259,6 +9264,7 @@ byteCount
 .
 value
 (
+)
 )
 )
 ;
