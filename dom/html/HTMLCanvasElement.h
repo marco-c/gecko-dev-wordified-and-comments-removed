@@ -692,14 +692,11 @@ const
 void
 SetWriteOnly
 (
-)
-;
-void
-SetWriteOnly
-(
 nsIPrincipal
 *
 aExpandedReader
+=
+nullptr
 )
 ;
 void
