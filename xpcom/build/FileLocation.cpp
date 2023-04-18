@@ -868,6 +868,13 @@ mBaseFile
 )
 ;
 }
+if
+(
+aData
+.
+mZip
+)
+{
 aData
 .
 mItem
@@ -896,6 +903,7 @@ mItem
 return
 NS_OK
 ;
+}
 }
 return
 NS_ERROR_FILE_UNRECOGNIZED_PATH
