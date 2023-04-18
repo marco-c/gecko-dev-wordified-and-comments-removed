@@ -2708,6 +2708,12 @@ MutexAutoLock
 aProofOfLock
 )
 {
+mGraphMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 bool
 taskRan
 =
@@ -2951,6 +2957,12 @@ MutexAutoLock
 aProofOfLock
 )
 {
+mGraphMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 nsCOMPtr
 <
 nsIThread

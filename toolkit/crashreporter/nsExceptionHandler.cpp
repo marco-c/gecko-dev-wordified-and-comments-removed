@@ -15215,6 +15215,7 @@ xpstring
 &
 aFilePath
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 nsCOMPtr
 <
@@ -15437,6 +15438,7 @@ ClientInfo
 &
 aClientInfo
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 ProcessId
 pid

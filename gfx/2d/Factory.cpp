@@ -3318,6 +3318,7 @@ aFTLibrary
 )
 ;
 }
+PUSH_IGNORE_THREAD_SAFETY
 void
 Factory
 :
@@ -3352,6 +3353,7 @@ Unlock
 )
 ;
 }
+POP_THREAD_SAFETY
 FT_Face
 Factory
 :

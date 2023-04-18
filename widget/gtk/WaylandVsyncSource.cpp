@@ -648,6 +648,12 @@ mVsyncRate
 )
 )
 ;
+mMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 if
 (
 !

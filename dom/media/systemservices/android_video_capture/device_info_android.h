@@ -169,6 +169,10 @@ char
 *
 deviceUniqueIdUTF8
 )
+RTC_EXCLUSIVE_LOCKS_REQUIRED
+(
+_apiLock
+)
 ;
 virtual
 int32_t

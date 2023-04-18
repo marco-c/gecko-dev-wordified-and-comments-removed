@@ -3124,6 +3124,7 @@ MozContainer
 *
 container
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 if
 (
@@ -3182,6 +3183,7 @@ wl_surface
 *
 surface
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 if
 (
@@ -3312,6 +3314,7 @@ MozContainer
 *
 container
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 container
 -
@@ -3333,6 +3336,7 @@ MozContainer
 *
 container
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 container
 -

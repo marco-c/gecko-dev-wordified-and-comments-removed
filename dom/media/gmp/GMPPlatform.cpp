@@ -1175,6 +1175,7 @@ delete
 this
 ;
 }
+PUSH_IGNORE_THREAD_SAFETY
 void
 GMPMutexImpl
 :
@@ -1205,6 +1206,7 @@ Exit
 )
 ;
 }
+POP_THREAD_SAFETY
 GMPTask
 *
 NewGMPTask

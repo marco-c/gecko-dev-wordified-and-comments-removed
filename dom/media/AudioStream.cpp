@@ -1080,6 +1080,12 @@ Args
 aArgs
 )
 {
+mMonitor
+.
+AssertCurrentThreadOwns
+(
+)
+;
 MonitorAutoUnlock
 mon
 (

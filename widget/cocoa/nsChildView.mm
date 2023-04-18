@@ -7078,6 +7078,7 @@ WidgetRenderingContext
 *
 aContext
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 mCompositingLock
 .
@@ -7132,6 +7133,7 @@ WidgetRenderingContext
 *
 aContext
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 mCompositingLock
 .

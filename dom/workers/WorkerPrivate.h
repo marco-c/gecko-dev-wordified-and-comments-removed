@@ -504,6 +504,11 @@ Mutex
 &
 (
 )
+RETURN_CAPABILITY
+(
+*
+mMutex
+)
 {
 return
 *
@@ -517,6 +522,11 @@ Mutex
 (
 )
 const
+RETURN_CAPABILITY
+(
+*
+mMutex
+)
 {
 return
 *
@@ -528,6 +538,11 @@ AssertCurrentThreadOwns
 (
 )
 const
+ASSERT_CAPABILITY
+(
+*
+mMutex
+)
 {
 mMutex
 -

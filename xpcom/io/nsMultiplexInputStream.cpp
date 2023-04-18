@@ -5785,6 +5785,12 @@ MutexAutoLock
 aProofOfLock
 )
 {
+mLock
+.
+AssertCurrentThreadOwns
+(
+)
+;
 nsCOMPtr
 <
 nsIInputStreamLengthCallback
