@@ -299,7 +299,7 @@ EXTRA_JS_MODULES
 "
 OSCrypto_win
 .
-js
+jsm
 "
 ]
 if
