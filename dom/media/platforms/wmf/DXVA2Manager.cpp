@@ -1294,8 +1294,10 @@ fpsDenominator
 =
 0
 ;
-hr
-=
+if
+(
+SUCCEEDED
+(
 MFGetAttributeRatio
 (
 pType
@@ -1305,16 +1307,9 @@ fpsNumerator
 &
 fpsDenominator
 )
-;
-NS_ENSURE_TRUE
-(
-SUCCEEDED
-(
-hr
 )
-hr
 )
-;
+{
 pDesc
 -
 >
@@ -1391,6 +1386,7 @@ Numerator
 =
 2
 ;
+}
 }
 return
 S_OK
@@ -1558,7 +1554,7 @@ hr
 =
 ConvertMFTypeToDXVAType
 (
-aOutputType
+aInputType
 &
 desc
 )
