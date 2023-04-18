@@ -1747,10 +1747,6 @@ remove
 }
 #
 endif
-SanityCheck
-(
-)
-;
 }
 #
 ifdef
