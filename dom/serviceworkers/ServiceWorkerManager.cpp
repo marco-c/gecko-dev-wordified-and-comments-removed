@@ -7,13 +7,6 @@ h
 "
 #
 include
-"
-ServiceWorkerPrivateImpl
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -3561,7 +3554,7 @@ mActor
 =
 nullptr
 ;
-ServiceWorkerPrivateImpl
+ServiceWorkerPrivate
 :
 :
 RunningShutdown
