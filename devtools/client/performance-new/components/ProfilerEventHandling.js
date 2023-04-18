@@ -103,6 +103,11 @@ reportProfilerStarted
 reportProfilerStopped
 reportPrivateBrowsingStarted
 reportPrivateBrowsingStopped
+traits
+:
+{
+noDisablingOnPrivateBrowsing
+}
 }
 =
 this
@@ -128,6 +133,10 @@ perfFront
 isActive
 (
 )
+noDisablingOnPrivateBrowsing
+?
+false
+:
 perfFront
 .
 isLockedForPrivateBrowsing
@@ -188,6 +197,12 @@ stopped
 reportProfilerStopped
 )
 ;
+if
+(
+!
+noDisablingOnPrivateBrowsing
+)
+{
 this
 .
 props
@@ -232,6 +247,7 @@ browsing
 reportPrivateBrowsingStopped
 )
 ;
+}
 }
 componentWillUnmount
 (

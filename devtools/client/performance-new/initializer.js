@@ -736,6 +736,7 @@ ProfilerEventHandling
 (
 {
 perfFront
+traits
 }
 )
 ProfilerPreferenceObserver
