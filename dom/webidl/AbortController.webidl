@@ -133,6 +133,9 @@ constructor
 (
 )
 ;
+[
+SameObject
+]
 readonly
 attribute
 AbortSignal
@@ -141,6 +144,9 @@ signal
 void
 abort
 (
+optional
+any
+reason
 )
 ;
 }
