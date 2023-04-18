@@ -1387,6 +1387,7 @@ PrefersContrast
 {
 More
 Less
+Custom
 NoPreference
 }
 fn

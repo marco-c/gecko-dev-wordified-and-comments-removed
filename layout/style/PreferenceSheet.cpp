@@ -935,12 +935,6 @@ mIsChrome
 =
 aIsChrome
 ;
-if
-(
-!
-aIsChrome
-)
-{
 mUseAccessibilityTheme
 =
 LookAndFeel
@@ -957,6 +951,12 @@ IntID
 UseAccessibilityTheme
 )
 ;
+if
+(
+!
+aIsChrome
+)
+{
 mUseDocumentColors
 =
 UseDocumentColors
