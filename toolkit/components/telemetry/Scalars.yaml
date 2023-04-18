@@ -5323,6 +5323,8 @@ bug_numbers
 1630155
 -
 1689269
+-
+1754650
 description
 :
 >
@@ -5355,7 +5357,7 @@ U2FSignAbort
 expires
 :
 "
-100
+112
 "
 kind
 :
@@ -5373,7 +5375,7 @@ mozilla
 .
 com
 -
-jjones
+rmf
 mozilla
 .
 com

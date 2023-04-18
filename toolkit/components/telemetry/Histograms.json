@@ -149497,7 +149497,7 @@ mozilla
 com
 "
 "
-jjones
+rmf
 mozilla
 .
 com
@@ -149508,7 +149508,7 @@ expires_in_version
 "
 :
 "
-100
+112
 "
 "
 releaseChannelCollection
@@ -149545,6 +149545,7 @@ bug_numbers
 1558870
 1630155
 1689269
+1754650
 ]
 "
 description
@@ -149603,7 +149604,7 @@ mozilla
 com
 "
 "
-jjones
+rmf
 mozilla
 .
 com
@@ -149614,7 +149615,7 @@ expires_in_version
 "
 :
 "
-100
+112
 "
 "
 releaseChannelCollection
@@ -149651,6 +149652,7 @@ bug_numbers
 1558870
 1630155
 1689269
+1754650
 ]
 "
 description
