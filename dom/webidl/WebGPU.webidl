@@ -1038,8 +1038,9 @@ GPURenderPipelineDescriptor
 descriptor
 )
 ;
-/
-/
+[
+Throws
+]
 Promise
 <
 GPUComputePipeline
@@ -1050,8 +1051,9 @@ GPUComputePipelineDescriptor
 descriptor
 )
 ;
-/
-/
+[
+Throws
+]
 Promise
 <
 GPURenderPipeline
