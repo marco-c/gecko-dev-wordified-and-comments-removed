@@ -2096,7 +2096,6 @@ legacy
 %
 s
 (
-nullptr
 aIID
 aResult
 )

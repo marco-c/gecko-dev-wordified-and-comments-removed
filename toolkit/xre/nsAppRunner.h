@@ -180,9 +180,6 @@ mozilla
 nsresult
 AppInfoConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsID
 &

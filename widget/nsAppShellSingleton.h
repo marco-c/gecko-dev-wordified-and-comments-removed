@@ -96,9 +96,6 @@ sAppShell
 nsresult
 nsAppShellConstructor
 (
-nsISupports
-*
-outer
 const
 nsIID
 &
@@ -109,13 +106,6 @@ void
 result
 )
 {
-NS_ENSURE_TRUE
-(
-!
-outer
-NS_ERROR_NO_AGGREGATION
-)
-;
 NS_ENSURE_TRUE
 (
 sAppShell

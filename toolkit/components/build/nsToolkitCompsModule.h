@@ -18,9 +18,6 @@ nsISupports
 nsresult
 nsUrlClassifierDBServiceConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &

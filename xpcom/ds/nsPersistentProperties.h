@@ -123,8 +123,9 @@ public
 nsPropertyElement
 (
 )
-{
-}
+=
+default
+;
 nsPropertyElement
 (
 const
@@ -153,9 +154,6 @@ static
 nsresult
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -170,8 +168,9 @@ private
 nsPropertyElement
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 nsCString

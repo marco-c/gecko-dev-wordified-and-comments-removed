@@ -679,9 +679,6 @@ endif
 nsresult
 nsThreadManagerGetSingleton
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -701,18 +698,6 @@ outptr
 "
 )
 ;
-if
-(
-NS_WARN_IF
-(
-aOuter
-)
-)
-{
-return
-NS_ERROR_NO_AGGREGATION
-;
-}
 return
 nsThreadManager
 :
@@ -731,9 +716,6 @@ aInstancePtr
 nsresult
 nsLocalFileConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -750,7 +732,6 @@ nsLocalFile
 :
 nsLocalFileConstructor
 (
-aOuter
 aIID
 aInstancePtr
 )
@@ -951,7 +932,6 @@ nsDebugImpl
 :
 Create
 (
-nullptr
 NS_GET_IID
 (
 nsIDebug2

@@ -528,9 +528,6 @@ nsArrayBase
 :
 XPCOMConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -541,15 +538,6 @@ void
 aResult
 )
 {
-if
-(
-aOuter
-)
-{
-return
-NS_ERROR_NO_AGGREGATION
-;
-}
 nsCOMPtr
 <
 nsIMutableArray

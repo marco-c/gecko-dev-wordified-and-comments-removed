@@ -1717,9 +1717,6 @@ nsAboutRedirector
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void

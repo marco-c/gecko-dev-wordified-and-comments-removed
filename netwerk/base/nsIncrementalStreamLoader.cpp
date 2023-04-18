@@ -79,9 +79,6 @@ nsIncrementalStreamLoader
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -90,13 +87,6 @@ void
 aResult
 )
 {
-if
-(
-aOuter
-)
-return
-NS_ERROR_NO_AGGREGATION
-;
 RefPtr
 <
 nsIncrementalStreamLoader

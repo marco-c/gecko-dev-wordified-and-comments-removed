@@ -775,9 +775,6 @@ nsObserverService
 :
 Create
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &

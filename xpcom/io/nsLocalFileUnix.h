@@ -195,9 +195,6 @@ static
 nsresult
 nsLocalFileConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &

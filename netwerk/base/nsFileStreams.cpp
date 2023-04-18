@@ -1673,9 +1673,6 @@ nsFileInputStream
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -1684,11 +1681,6 @@ void
 aResult
 )
 {
-NS_ENSURE_NO_AGGREGATION
-(
-aOuter
-)
-;
 RefPtr
 <
 nsFileInputStream
@@ -2746,9 +2738,6 @@ nsFileOutputStream
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -2757,11 +2746,6 @@ void
 aResult
 )
 {
-NS_ENSURE_NO_AGGREGATION
-(
-aOuter
-)
-;
 RefPtr
 <
 nsFileOutputStream
@@ -3679,9 +3663,6 @@ nsFileStream
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -3690,11 +3671,6 @@ void
 aResult
 )
 {
-NS_ENSURE_NO_AGGREGATION
-(
-aOuter
-)
-;
 RefPtr
 <
 nsFileStream

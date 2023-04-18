@@ -76,9 +76,6 @@ static
 nsresult
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void

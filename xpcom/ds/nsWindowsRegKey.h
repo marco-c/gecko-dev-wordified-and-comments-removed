@@ -75,9 +75,6 @@ extern
 nsresult
 nsWindowsRegKeyConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &

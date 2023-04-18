@@ -756,7 +756,6 @@ nsFileInputStream
 :
 Create
 (
-nullptr
 NS_GET_IID
 (
 nsIFileInputStream
@@ -795,7 +794,6 @@ nsBufferedInputStream
 :
 Create
 (
-nullptr
 NS_GET_IID
 (
 nsIBufferedInputStream
@@ -831,7 +829,6 @@ stream
 ;
 nsMIMEInputStreamConstructor
 (
-nullptr
 NS_GET_IID
 (
 nsIMIMEInputStream
@@ -867,7 +864,6 @@ stream
 ;
 nsMultiplexInputStreamConstructor
 (
-nullptr
 NS_GET_IID
 (
 nsIMultiplexInputStream

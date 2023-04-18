@@ -55,9 +55,6 @@ b3ae97a7c758
 nsresult
 nsPipeConstructor
 (
-nsISupports
-*
-outer
 REFNSIID
 iid
 void

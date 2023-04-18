@@ -3889,9 +3889,6 @@ this
 nsresult
 nsMultiplexInputStreamConstructor
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -3905,15 +3902,6 @@ aResult
 =
 nullptr
 ;
-if
-(
-aOuter
-)
-{
-return
-NS_ERROR_NO_AGGREGATION
-;
-}
 RefPtr
 <
 nsMultiplexInputStream

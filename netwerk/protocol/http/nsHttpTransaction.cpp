@@ -1409,7 +1409,6 @@ rv
 =
 nsMultiplexInputStreamConstructor
 (
-nullptr
 NS_GET_IID
 (
 nsIMultiplexInputStream

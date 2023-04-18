@@ -1021,9 +1021,6 @@ the
 signature
 nsresult
 (
-nsISupports
-*
-aOuter
 const
 nsID
 &

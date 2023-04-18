@@ -1368,9 +1368,6 @@ nsBufferedInputStream
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -1379,11 +1376,6 @@ void
 aResult
 )
 {
-NS_ENSURE_NO_AGGREGATION
-(
-aOuter
-)
-;
 RefPtr
 <
 nsBufferedInputStream
@@ -3598,9 +3590,6 @@ nsBufferedOutputStream
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -3609,11 +3598,6 @@ void
 aResult
 )
 {
-NS_ENSURE_NO_AGGREGATION
-(
-aOuter
-)
-;
 RefPtr
 <
 nsBufferedOutputStream

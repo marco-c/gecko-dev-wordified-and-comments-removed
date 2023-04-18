@@ -28,9 +28,6 @@ T
 nsresult
 NSSConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
