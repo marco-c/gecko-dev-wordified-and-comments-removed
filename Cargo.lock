@@ -33865,6 +33865,9 @@ cstr
 libc
 "
 "
+mozbuild
+"
+"
 nserror
 "
 "
@@ -33940,6 +33943,9 @@ dependencies
 [
 "
 lazy_static
+"
+"
+mozbuild
 "
 "
 proc

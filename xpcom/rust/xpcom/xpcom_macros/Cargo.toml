@@ -69,3 +69,10 @@ lazy_static
 .
 0
 "
+mozbuild
+=
+"
+0
+.
+1
+"
