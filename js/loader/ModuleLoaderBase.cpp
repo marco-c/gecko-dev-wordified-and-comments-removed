@@ -5509,7 +5509,7 @@ if
 aRequest
 -
 >
-HasLoadContext
+HasScriptLoadContext
 (
 )
 )
@@ -5582,7 +5582,7 @@ MOZ_ASSERT_IF
 request
 -
 >
-HasLoadContext
+HasScriptLoadContext
 (
 )
 !
@@ -5753,7 +5753,7 @@ if
 request
 -
 >
-HasLoadContext
+HasScriptLoadContext
 (
 )
 )
