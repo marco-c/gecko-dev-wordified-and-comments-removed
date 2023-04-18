@@ -380,6 +380,11 @@ if
 (
 target
 .
+textContent
+|
+|
+target
+.
 hasAttribute
 (
 "
