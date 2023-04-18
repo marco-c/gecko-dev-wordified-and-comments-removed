@@ -2334,6 +2334,11 @@ bool
 aCloneSHChildren
 )
 ;
+void
+CollectWireframe
+(
+)
+;
 public
 :
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
