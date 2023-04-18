@@ -7902,6 +7902,9 @@ false
 if
 (
 mDirtyAA
+|
+|
+aStrokeOptions
 )
 {
 float
@@ -7914,6 +7917,9 @@ CompositionOp
 :
 :
 OP_SOURCE
+|
+|
+aStrokeOptions
 ?
 0
 .
@@ -7948,7 +7954,9 @@ aaData
 ;
 mDirtyAA
 =
-false
+!
+!
+aStrokeOptions
 ;
 }
 float
@@ -8953,6 +8961,9 @@ false
 if
 (
 mDirtyAA
+|
+|
+aStrokeOptions
 )
 {
 float
@@ -8965,6 +8976,9 @@ CompositionOp
 :
 :
 OP_SOURCE
+|
+|
+aStrokeOptions
 ?
 0
 .
@@ -8999,7 +9013,9 @@ aaData
 ;
 mDirtyAA
 =
-false
+!
+!
+aStrokeOptions
 ;
 }
 DeviceColor
