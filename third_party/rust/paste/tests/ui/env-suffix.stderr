@@ -6,7 +6,9 @@ literal
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 env
 -
@@ -14,11 +16,11 @@ suffix
 .
 rs
 :
-2
+4
 :
 15
 |
-2
+4
 |
 fn
 [

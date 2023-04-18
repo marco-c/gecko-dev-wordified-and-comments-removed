@@ -5,7 +5,9 @@ modifier
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 unexpected
 -
@@ -13,11 +15,11 @@ modifier
 .
 rs
 :
-2
+4
 :
 10
 |
-2
+4
 |
 fn
 [
