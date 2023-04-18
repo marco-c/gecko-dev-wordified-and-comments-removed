@@ -646,6 +646,7 @@ false
 ;
 }
 }
+static
 Nullable
 <
 double
