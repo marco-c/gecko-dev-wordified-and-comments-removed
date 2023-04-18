@@ -365,15 +365,6 @@ extensions
 /
 schemas
 /
-scripting
-.
-json
-content
-/
-extensions
-/
-schemas
-/
 storage
 .
 json
