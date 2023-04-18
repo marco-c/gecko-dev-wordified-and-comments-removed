@@ -52118,9 +52118,9 @@ manifest
 *
 *
 :
-mitm6
+mitm7
 -
-darwin
+linux
 -
 firefox
 -
@@ -52135,11 +52135,11 @@ version
 *
 *
 :
-6
+7
 .
 0
 .
-2
+4
 *
 *
 *
