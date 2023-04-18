@@ -156,7 +156,10 @@ aWhy
 override
 ;
 virtual
-bool
+ipc
+:
+:
+IPCResult
 RecvShutDown
 (
 )

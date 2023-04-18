@@ -79,7 +79,10 @@ DocumentChannelCreationArgs
 aArgs
 )
 ;
-bool
+ipc
+:
+:
+IPCResult
 RecvCancel
 (
 const
@@ -103,7 +106,9 @@ aStatus
 ;
 }
 return
-true
+IPC_OK
+(
+)
 ;
 }
 void

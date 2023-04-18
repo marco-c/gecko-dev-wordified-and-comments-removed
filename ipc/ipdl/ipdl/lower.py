@@ -33399,56 +33399,87 @@ retsems
 resolver
 "
         
-failif
+okdecl
 =
-StmtIf
+StmtDecl
 (
             
-ExprNot
+Decl
 (
-                
+Type
+(
+"
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+"
+)
+"
+__ok
+"
+)
+            
+init
+=
 self
 .
 thisCall
 (
-                    
+                
 md
 .
 recvMethod
 (
 )
-                    
+                
 md
 .
 makeCxxArgs
 (
-                        
+                    
 paramsems
 =
 "
 move
 "
-                        
+                    
 retsems
 =
 retsems
-                        
+                    
 retcallsems
 =
 "
 out
 "
-                        
+                    
 implicit
 =
 implicit
-                    
-)
                 
 )
             
 )
         
+)
+        
+failif
+=
+StmtIf
+(
+ExprNot
+(
+ExprVar
+(
+"
+__ok
+"
+)
+)
 )
         
 failif
@@ -33507,6 +33538,7 @@ ProcessingError
         
 return
 [
+okdecl
 failif
 ]
     
