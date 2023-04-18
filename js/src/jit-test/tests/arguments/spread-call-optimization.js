@@ -735,6 +735,10 @@ defaultIndex
 ;
 }
 }
+testBasic
+(
+)
+;
 function
 testOverriddenIterator
 (
