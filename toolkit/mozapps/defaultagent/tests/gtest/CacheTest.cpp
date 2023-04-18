@@ -357,7 +357,7 @@ Cache
 :
 :
 kDefaultCapacity
-2U
+2
 )
 ;
 Cache
@@ -560,7 +560,7 @@ value
 )
 .
 entryVersion
-2U
+2
 )
 ;
 ASSERT_EQ
@@ -681,7 +681,7 @@ value
 )
 .
 entryVersion
-2U
+2
 )
 ;
 ASSERT_EQ
@@ -1035,7 +1035,7 @@ value
 )
 .
 entryVersion
-1U
+1
 )
 ;
 ASSERT_EQ
@@ -1193,7 +1193,7 @@ value
 )
 .
 entryVersion
-1U
+1
 )
 ;
 ASSERT_EQ
@@ -1296,7 +1296,7 @@ value
 )
 .
 entryVersion
-2U
+2
 )
 ;
 ASSERT_EQ
@@ -1901,7 +1901,7 @@ value
 )
 .
 entryVersion
-9999U
+9999
 )
 ;
 ASSERT_EQ
@@ -2022,7 +2022,7 @@ value
 )
 .
 entryVersion
-2U
+2
 )
 ;
 ASSERT_EQ
@@ -2143,7 +2143,7 @@ value
 )
 .
 entryVersion
-2U
+2
 )
 ;
 ASSERT_EQ

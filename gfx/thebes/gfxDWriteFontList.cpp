@@ -6469,13 +6469,7 @@ index
 index
 !
 =
-static_cast
-<
-unsigned
->
-(
 sysLocIndex
-)
 )
 ;
 }

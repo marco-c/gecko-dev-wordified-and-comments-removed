@@ -1884,7 +1884,7 @@ diff
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -3461,7 +3461,7 @@ dlgRect
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -5475,7 +5475,7 @@ UIInit
 {
 for
 (
-size_t
+int
 i
 =
 0

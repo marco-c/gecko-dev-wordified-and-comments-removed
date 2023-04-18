@@ -433,7 +433,7 @@ MakeScopeExit
 {
 for
 (
-UINT32
+int
 i
 =
 1

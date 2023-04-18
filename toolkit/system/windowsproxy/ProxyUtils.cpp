@@ -99,7 +99,8 @@ addr
 nsACString
 &
 dst
-size_t
+const
+int
 i
 )
 {

@@ -1005,7 +1005,7 @@ i
 {
 for
 (
-size_t
+int
 j
 =
 0
@@ -1952,7 +1952,7 @@ htm
 ;
 for
 (
-size_t
+int
 i
 =
 0

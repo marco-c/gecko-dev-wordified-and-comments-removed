@@ -2334,7 +2334,7 @@ tokens
 Length
 (
 )
-3U
+3
 )
 ;
 if
@@ -2346,7 +2346,7 @@ Length
 )
 !
 =
-3U
+3
 )
 {
 const
