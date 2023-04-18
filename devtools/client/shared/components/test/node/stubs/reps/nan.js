@@ -17,7 +17,9 @@ set
 (
 NaN
 {
+"
 type
+"
 :
 "
 NaN

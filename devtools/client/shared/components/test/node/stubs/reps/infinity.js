@@ -17,7 +17,9 @@ set
 (
 Infinity
 {
+"
 type
+"
 :
 "
 Infinity
@@ -31,7 +33,9 @@ set
 (
 NegativeInfinity
 {
+"
 type
+"
 :
 "
 -
