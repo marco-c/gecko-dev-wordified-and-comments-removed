@@ -1591,7 +1591,7 @@ this
 activeTitle
 ;
 const
-PRINTPROMPTSVC
+PRINTDIALOGSVC
 =
 Cc
 [
@@ -1600,9 +1600,9 @@ mozilla
 .
 org
 /
-embedcomp
+widget
 /
-printingprompt
+printdialog
 -
 service
 ;
@@ -1614,7 +1614,7 @@ getService
 (
 Ci
 .
-nsIPrintingPromptService
+nsIPrintDialogService
 )
 ;
 try
@@ -1638,7 +1638,7 @@ this
 .
 _showPrintDialog
 (
-PRINTPROMPTSVC
+PRINTDIALOGSVC
 window
 settings
 )
@@ -4755,13 +4755,13 @@ aMessage
 async
 _showPrintDialog
 (
-aPrintingPromptService
+aPrintDialogService
 aWindow
 aSettings
 )
 {
 return
-aPrintingPromptService
+aPrintDialogService
 .
 showPrintDialog
 (

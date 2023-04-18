@@ -291,7 +291,7 @@ kInitSaveAll
 try
 {
 var
-PRINTPROMPTSVC
+PRINTDIALOGSVC
 =
 Cc
 [
@@ -300,9 +300,9 @@ mozilla
 .
 org
 /
-embedcomp
+widget
 /
-printingprompt
+printdialog
 -
 service
 ;
@@ -314,10 +314,10 @@ getService
 (
 Ci
 .
-nsIPrintingPromptService
+nsIPrintDialogService
 )
 ;
-PRINTPROMPTSVC
+PRINTDIALOGSVC
 .
 showPageSetupDialog
 (
@@ -917,9 +917,9 @@ mozilla
 .
 org
 /
-embedcomp
+widget
 /
-printingprompt
+printdialog
 -
 service
 ;
@@ -931,7 +931,7 @@ getService
 (
 Ci
 .
-nsIPrintingPromptService
+nsIPrintDialogService
 )
 .
 showPrintDialog

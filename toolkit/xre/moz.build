@@ -695,11 +695,6 @@ nsConsoleWriter
 cpp
 "
 "
-nsEmbeddingModule
-.
-cpp
-"
-"
 nsNativeAppSupportBase
 .
 cpp

@@ -1362,14 +1362,6 @@ mozilla
 Module
 kXREModule
 ;
-extern
-const
-mozilla
-:
-:
-Module
-kEmbeddingModule
-;
 static
 nsTArray
 <
@@ -1872,12 +1864,6 @@ RegisterModule
 (
 &
 kXREModule
-)
-;
-RegisterModule
-(
-&
-kEmbeddingModule
 )
 ;
 for

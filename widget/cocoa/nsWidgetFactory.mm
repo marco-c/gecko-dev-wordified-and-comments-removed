@@ -716,6 +716,13 @@ kNS_PRINTDIALOGSERVICE_CID
 false
 NULL
 nsPrintDialogServiceXConstructor
+mozilla
+:
+:
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 &
@@ -1052,6 +1059,13 @@ kNS_PRINTSETTINGSSERVICE_CID
 NS_PRINTDIALOGSERVICE_CONTRACTID
 &
 kNS_PRINTDIALOGSERVICE_CID
+mozilla
+:
+:
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 "

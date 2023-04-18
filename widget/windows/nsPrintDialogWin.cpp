@@ -270,9 +270,9 @@ NS_IMETHODIMP
 nsPrintDialogServiceWin
 :
 :
-Show
+ShowPrintDialog
 (
-nsPIDOMWindowOuter
+mozIDOMWindowProxy
 *
 aParent
 nsIPrintSettings
@@ -322,9 +322,9 @@ NS_IMETHODIMP
 nsPrintDialogServiceWin
 :
 :
-ShowPageSetup
+ShowPageSetupDialog
 (
-nsPIDOMWindowOuter
+mozIDOMWindowProxy
 *
 aParent
 nsIPrintSettings
