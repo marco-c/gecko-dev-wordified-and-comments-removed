@@ -114,6 +114,11 @@ pause
 js
 "
 "
+threads
+.
+js
+"
+"
 visibleBreakpoints
 .
 js

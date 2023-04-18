@@ -342,6 +342,15 @@ from
 pause
 "
 ;
+export
+*
+from
+"
+.
+/
+threads
+"
+;
 import
 {
 objectInspector
