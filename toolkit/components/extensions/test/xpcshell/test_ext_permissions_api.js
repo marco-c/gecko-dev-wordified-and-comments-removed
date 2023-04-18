@@ -243,6 +243,9 @@ overrideContext
 nativeMessaging
 "
 "
+scripting
+"
+"
 search
 "
 "
