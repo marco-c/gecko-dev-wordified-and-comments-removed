@@ -53,11 +53,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -80,7 +86,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManagerPrivate
 "
@@ -103,7 +109,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Blocklist
 "
@@ -126,7 +132,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CertUtils
 "
@@ -149,7 +155,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ServiceRequest
 "
@@ -172,7 +178,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonSettings
 "
@@ -320,6 +326,8 @@ return
 }
 if
 (
+lazy
+.
 AddonManager
 .
 checkUpdateSecurity
@@ -826,6 +834,8 @@ strict_min_version
 "
 string
 "
+lazy
+.
 AddonManagerPrivate
 .
 webExtensionsMinPlatformVersion
@@ -1095,6 +1105,8 @@ this
 request
 =
 new
+lazy
+.
 ServiceRequest
 (
 {
@@ -1128,11 +1140,15 @@ channel
 notificationCallbacks
 =
 new
+lazy
+.
 CertUtils
 .
 BadCertHandler
 (
 !
+lazy
+.
 AddonSettings
 .
 UPDATE_REQUIREBUILTINCERTS
@@ -1329,6 +1345,8 @@ holder
 ;
 try
 {
+lazy
+.
 CertUtils
 .
 checkCert
@@ -1337,6 +1355,8 @@ request
 .
 channel
 !
+lazy
+.
 AddonSettings
 .
 UPDATE_REQUIREBUILTINCERTS
@@ -1373,6 +1393,8 @@ this
 .
 notifyError
 (
+lazy
+.
 AddonManager
 .
 ERROR_DOWNLOAD_ERROR
@@ -1421,6 +1443,8 @@ this
 .
 notifyError
 (
+lazy
+.
 AddonManager
 .
 ERROR_DOWNLOAD_ERROR
@@ -1486,6 +1510,8 @@ this
 .
 notifyError
 (
+lazy
+.
 AddonManager
 .
 ERROR_DOWNLOAD_ERROR
@@ -1556,6 +1582,8 @@ this
 .
 notifyError
 (
+lazy
+.
 AddonManager
 .
 ERROR_PARSE_ERROR
@@ -1677,6 +1705,8 @@ this
 .
 notifyError
 (
+lazy
+.
 AddonManager
 .
 ERROR_TIMEOUT
@@ -1857,6 +1887,8 @@ this
 .
 notifyError
 (
+lazy
+.
 AddonManager
 .
 ERROR_DOWNLOAD_ERROR
@@ -1974,6 +2006,8 @@ this
 .
 notifyError
 (
+lazy
+.
 AddonManager
 .
 ERROR_CANCELLED
@@ -2392,6 +2426,8 @@ let
 state
 =
 await
+lazy
+.
 Blocklist
 .
 getAddonBlocklistState
@@ -2486,6 +2522,8 @@ newestVersion
 )
 )
 {
+lazy
+.
 Blocklist
 .
 recordAddonBlockChangeTelemetry

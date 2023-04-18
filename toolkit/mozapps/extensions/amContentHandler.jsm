@@ -69,11 +69,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 ThirdPartyUtil
 :
@@ -331,6 +337,8 @@ sourceURL
 browsingContext
 hasCrossOriginAncestor
 :
+lazy
+.
 ThirdPartyUtil
 .
 isThirdPartyChannel

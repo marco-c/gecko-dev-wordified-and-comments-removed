@@ -229,11 +229,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AMTelemetry
 :
@@ -377,7 +383,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 aomStartup
 :
@@ -800,6 +806,8 @@ return
 let
 data
 =
+lazy
+.
 aomStartup
 .
 readStartupData
@@ -1695,6 +1703,8 @@ Object
 .
 getOwnPropertyDescriptor
 (
+lazy
+.
 FileTestUtils
 "
 _globalTemporaryDirectory
@@ -2175,6 +2185,8 @@ createHttpServer
 args
 )
 {
+lazy
+.
 XPCShellContentUtils
 .
 ensureInitialized
@@ -2185,6 +2197,8 @@ testScope
 )
 ;
 return
+lazy
+.
 XPCShellContentUtils
 .
 createHttpServer
@@ -2205,6 +2219,8 @@ args
 )
 {
 return
+lazy
+.
 XPCShellContentUtils
 .
 registerJSON
@@ -2407,6 +2423,8 @@ platformVersion
 "
 )
 {
+lazy
+.
 updateAppInfo
 (
 {
@@ -2424,6 +2442,8 @@ this
 .
 appInfo
 =
+lazy
+.
 getAppInfo
 (
 )
@@ -3082,6 +3102,8 @@ nsIX509CertDB
 )
 }
 ;
+lazy
+.
 MockRegistrar
 .
 register
@@ -3552,6 +3574,8 @@ platformVersion
 newVersion
 ;
 }
+lazy
+.
 ExtensionAddonObserver
 .
 init
@@ -3755,6 +3779,8 @@ if
 earlyStartup
 )
 {
+lazy
+.
 ExtensionTestCommon
 .
 notifyEarlyStartup
@@ -3767,6 +3793,8 @@ if
 lateStartup
 )
 {
+lazy
+.
 ExtensionTestCommon
 .
 notifyLateStartup
@@ -4103,12 +4131,16 @@ jsm
 "
 )
 ;
+lazy
+.
 ExtensionAddonObserver
 .
 uninit
 (
 )
 ;
+lazy
+.
 ExtensionTestCommon
 .
 resetStartupPromises
@@ -4160,6 +4192,8 @@ notifyEarlyStartup
 )
 {
 return
+lazy
+.
 ExtensionTestCommon
 .
 notifyEarlyStartup
@@ -4172,6 +4206,8 @@ notifyLateStartup
 )
 {
 return
+lazy
+.
 ExtensionTestCommon
 .
 notifyLateStartup
@@ -4898,6 +4934,8 @@ data
 let
 file
 =
+lazy
+.
 ExtensionTestCommon
 .
 generateXPI
@@ -6859,6 +6897,8 @@ resolve
 =
 >
 {
+lazy
+.
 Management
 .
 on
@@ -6887,6 +6927,8 @@ id
 id
 )
 {
+lazy
+.
 Management
 .
 off
@@ -7016,6 +7058,8 @@ let
 pendingSearchSetupTasks
 }
 =
+lazy
+.
 Management
 .
 global
@@ -7070,6 +7114,8 @@ PREF_DISABLE_SECURITY
 true
 )
 ;
+lazy
+.
 aomStartup
 .
 initializeURLPreloader
@@ -7175,6 +7221,8 @@ this
 .
 overrideEntry
 =
+lazy
+.
 aomStartup
 .
 registerChrome
@@ -7230,10 +7278,14 @@ hookAMTelemetryEvents
 let
 originalRecordEvent
 =
+lazy
+.
 AMTelemetry
 .
 recordEvent
 ;
+lazy
+.
 AMTelemetry
 .
 recordEvent
@@ -7289,6 +7341,8 @@ finished
 "
 )
 ;
+lazy
+.
 AMTelemetry
 .
 recordEvent

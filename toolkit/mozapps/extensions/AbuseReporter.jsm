@@ -153,11 +153,17 @@ sitepermission
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -211,7 +217,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 ABUSE_REPORT_URL
 "
@@ -222,7 +228,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 AMO_DETAILS_API_URL
 "
@@ -498,6 +504,8 @@ let
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -529,6 +537,8 @@ if
 addon
 )
 {
+lazy
+.
 AMTelemetry
 .
 recordReportEvent
@@ -595,6 +605,8 @@ await
 fetch
 (
 {
+lazy
+.
 AMO_DETAILS_API_URL
 }
 /
@@ -723,6 +735,8 @@ reportError
 err
 )
 ;
+lazy
+.
 AMTelemetry
 .
 recordReportEvent
@@ -931,6 +945,8 @@ details
 is_recommended
 signedState
 :
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_UNKNOWN
@@ -1121,6 +1137,8 @@ signedState
 )
 {
 case
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_BROKEN
@@ -1136,6 +1154,8 @@ broken
 break
 ;
 case
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_UNKNOWN
@@ -1151,6 +1171,8 @@ unknown
 break
 ;
 case
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_MISSING
@@ -1166,6 +1188,8 @@ missing
 break
 ;
 case
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_PRELIMINARY
@@ -1181,6 +1205,8 @@ preliminary
 break
 ;
 case
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_SIGNED
@@ -1196,6 +1222,8 @@ signed
 break
 ;
 case
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_SYSTEM
@@ -1211,6 +1239,8 @@ system
 break
 ;
 case
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_PRIVILEGED
@@ -1261,6 +1291,8 @@ data
 client_id
 =
 await
+lazy
+.
 ClientID
 .
 getClientIdHash
@@ -1812,6 +1844,8 @@ reportEntryPoint
 =
 this
 ;
+lazy
+.
 AMTelemetry
 .
 recordReportEvent
@@ -1956,6 +1990,8 @@ response
 await
 fetch
 (
+lazy
+.
 ABUSE_REPORT_URL
 {
 signal
