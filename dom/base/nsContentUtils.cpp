@@ -19221,7 +19221,7 @@ bool
 nsContentUtils
 :
 :
-HasExactSitePerm
+HasSitePerm
 (
 nsIPrincipal
 *
@@ -19273,7 +19273,7 @@ rv
 permMgr
 -
 >
-TestExactPermissionFromPrincipal
+TestPermissionFromPrincipal
 (
 aPrincipal
 aType
