@@ -1334,11 +1334,6 @@ append
 html
 "
 <
-!
-doctype
-html
->
-<
 html
 >
 <
@@ -1478,11 +1473,6 @@ else
 doc
 =
 <
-!
-doctype
-html
->
-<
 body
 {
 attrsToString
@@ -1599,11 +1589,6 @@ encodedDoc
 =
 encodeURIComponent
 (
-<
-!
-doctype
-html
->
 <
 html
 >

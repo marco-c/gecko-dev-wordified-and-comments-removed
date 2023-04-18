@@ -771,6 +771,11 @@ uint32_t
 aRow
 )
 ;
+bool
+TableIsProbablyForLayout
+(
+)
+;
 RemoteAccessible
 *
 AtkTableColumnHeader

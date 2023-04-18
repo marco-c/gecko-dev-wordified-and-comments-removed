@@ -191,11 +191,11 @@ aResult
 )
 ;
 static
-Accessible
+LocalAccessible
 *
 GetColumnHeader
 (
-TableAccessibleBase
+TableAccessible
 *
 aAccessible
 int32_t
@@ -203,11 +203,11 @@ aColIdx
 )
 ;
 static
-Accessible
+LocalAccessible
 *
 GetRowHeader
 (
-TableAccessibleBase
+TableAccessible
 *
 aAccessible
 int32_t
