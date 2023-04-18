@@ -115,7 +115,9 @@ gWidgetWaylandLog
 define
 LOGWAYLAND
 (
-args
+.
+.
+.
 )
 \
 MOZ_LOG
@@ -128,7 +130,9 @@ LogLevel
 :
 :
 Debug
-args
+(
+__VA_ARGS__
+)
 )
 #
 else
@@ -136,7 +140,9 @@ else
 define
 LOGWAYLAND
 (
-args
+.
+.
+.
 )
 #
 endif
@@ -875,7 +881,6 @@ aSurface
 {
 LOGWAYLAND
 (
-(
 "
 WaylandBuffer
 :
@@ -951,7 +956,6 @@ GetWlBuffer
 :
 -
 1
-)
 )
 ;
 wl_buffer
@@ -1211,7 +1215,6 @@ get
 ;
 LOGWAYLAND
 (
-(
 "
 WaylandBufferSHM
 Created
@@ -1236,7 +1239,6 @@ waylandDisplay
 .
 get
 (
-)
 )
 )
 ;
@@ -1515,7 +1517,6 @@ get
 ;
 LOGWAYLAND
 (
-(
 "
 Dumped
 wl_buffer
@@ -1529,7 +1530,6 @@ filename
 .
 get
 (
-)
 )
 )
 ;

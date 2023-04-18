@@ -122,7 +122,9 @@ gWidgetWaylandLog
 define
 LOGWAYLAND
 (
-args
+.
+.
+.
 )
 \
 MOZ_LOG
@@ -135,7 +137,9 @@ LogLevel
 :
 :
 Debug
-args
+(
+__VA_ARGS__
+)
 )
 #
 else
@@ -143,7 +147,9 @@ else
 define
 LOGWAYLAND
 (
-args
+.
+.
+.
 )
 #
 endif
@@ -246,7 +252,6 @@ container
 {
 LOGWAYLAND
 (
-(
 "
 moz_container_wayland_invalidate
 [
@@ -263,7 +268,6 @@ void
 moz_container_get_nsWindow
 (
 container
-)
 )
 )
 ;
@@ -287,7 +291,6 @@ window
 {
 LOGWAYLAND
 (
-(
 "
 Failed
 -
@@ -297,7 +300,6 @@ GdkWindow
 \
 n
 "
-)
 )
 ;
 return
@@ -383,7 +385,6 @@ dy
 {
 LOGWAYLAND
 (
-(
 "
 moz_container_wayland_move
 [
@@ -407,7 +408,6 @@ container
 )
 dx
 dy
-)
 )
 ;
 MozContainerWayland
@@ -906,7 +906,6 @@ wl_container
 ;
 LOGWAYLAND
 (
-(
 "
 %
 s
@@ -965,7 +964,6 @@ initial_draw_cbs
 .
 size
 (
-)
 )
 )
 ;
@@ -1321,7 +1319,6 @@ container_lock
 ;
 LOGWAYLAND
 (
-(
 "
 %
 s
@@ -1340,7 +1337,6 @@ void
 moz_container_get_nsWindow
 (
 container
-)
 )
 )
 ;
@@ -1461,7 +1457,6 @@ wl_container
 ;
 LOGWAYLAND
 (
-(
 "
 %
 s
@@ -1482,7 +1477,6 @@ moz_container_get_nsWindow
 MOZ_CONTAINER
 (
 widget
-)
 )
 )
 )
@@ -1587,7 +1581,6 @@ widget
 {
 LOGWAYLAND
 (
-(
 "
 %
 s
@@ -1608,7 +1601,6 @@ moz_container_get_nsWindow
 MOZ_CONTAINER
 (
 widget
-)
 )
 )
 )
@@ -1655,7 +1647,6 @@ widget
 {
 LOGWAYLAND
 (
-(
 "
 %
 s
@@ -1676,7 +1667,6 @@ moz_container_get_nsWindow
 MOZ_CONTAINER
 (
 widget
-)
 )
 )
 )
@@ -1749,7 +1739,6 @@ widget
 ;
 LOGWAYLAND
 (
-(
 "
 moz_container_wayland_size_allocate
 [
@@ -1797,7 +1786,6 @@ allocation
 -
 >
 height
-)
 )
 ;
 container
@@ -2375,7 +2363,6 @@ return
 }
 LOGWAYLAND
 (
-(
 "
 %
 s
@@ -2399,7 +2386,6 @@ moz_container_get_nsWindow
 container
 )
 scale
-)
 )
 ;
 wl_surface_set_buffer_scale
@@ -2478,7 +2464,6 @@ wl_container
 ;
 LOGWAYLAND
 (
-(
 "
 %
 s
@@ -2497,7 +2482,6 @@ void
 moz_container_get_nsWindow
 (
 container
-)
 )
 )
 ;
@@ -2530,7 +2514,6 @@ parent_surface
 {
 LOGWAYLAND
 (
-(
 "
 Failed
 -
@@ -2540,14 +2523,12 @@ surface
 !
 "
 )
-)
 ;
 return
 false
 ;
 }
 LOGWAYLAND
-(
 (
 "
 gtk
@@ -2575,7 +2556,6 @@ wl_proxy
 parent_surface
 )
 )
-)
 ;
 if
 (
@@ -2587,13 +2567,11 @@ commit_to_parent
 {
 LOGWAYLAND
 (
-(
 "
 commit
 to
 parent
 "
-)
 )
 ;
 wl_container
@@ -2657,7 +2635,6 @@ surface
 {
 LOGWAYLAND
 (
-(
 "
 Failed
 -
@@ -2668,7 +2645,6 @@ create
 surface
 !
 "
-)
 )
 ;
 return
@@ -2718,7 +2694,6 @@ wl_surface_destroy
 ;
 LOGWAYLAND
 (
-(
 "
 Failed
 -
@@ -2731,7 +2706,6 @@ sub
 surface
 !
 "
-)
 )
 ;
 return
@@ -2793,7 +2767,6 @@ dy
 ;
 LOGWAYLAND
 (
-(
 "
 guessing
 subsurface
@@ -2807,7 +2780,6 @@ n
 "
 dx
 dy
-)
 )
 ;
 }
@@ -2853,7 +2825,6 @@ container
 ;
 LOGWAYLAND
 (
-(
 "
 created
 frame
@@ -2875,7 +2846,6 @@ wl_container
 -
 >
 frame_callback_handler
-)
 )
 )
 ;
@@ -2911,7 +2881,6 @@ container
 ;
 LOGWAYLAND
 (
-(
 "
 created
 surface
@@ -2942,7 +2911,6 @@ wl_container
 -
 >
 surface
-)
 )
 )
 ;
@@ -3055,7 +3023,6 @@ container
 {
 LOGWAYLAND
 (
-(
 "
 %
 s
@@ -3097,7 +3064,6 @@ container
 wl_container
 .
 ready_to_draw
-)
 )
 ;
 if
@@ -3204,7 +3170,6 @@ wl_container
 ;
 LOGWAYLAND
 (
-(
 "
 %
 s
@@ -3235,7 +3200,6 @@ wl_container
 -
 >
 eglwindow
-)
 )
 ;
 MutexAutoLock
@@ -3328,7 +3292,6 @@ scale
 ;
 LOGWAYLAND
 (
-(
 "
 %
 s
@@ -3360,7 +3323,6 @@ wl_container
 -
 >
 eglwindow
-)
 )
 ;
 }
