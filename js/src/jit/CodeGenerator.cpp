@@ -40872,6 +40872,7 @@ JSObject
 JSContext
 *
 HandleScript
+const
 jsbytecode
 *
 pc
@@ -92910,6 +92911,7 @@ bool
 JSContext
 *
 HandleScript
+const
 jsbytecode
 *
 )

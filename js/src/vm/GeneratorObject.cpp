@@ -753,6 +753,7 @@ HandleObject
 obj
 AbstractFramePtr
 frame
+const
 jsbytecode
 *
 pc

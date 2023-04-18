@@ -28146,6 +28146,7 @@ JSContext
 cx
 HandleScript
 script
+const
 jsbytecode
 *
 pc

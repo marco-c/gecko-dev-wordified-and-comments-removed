@@ -324,6 +324,7 @@ JSContext
 cx
 AbstractFramePtr
 frame
+const
 jsbytecode
 *
 pc

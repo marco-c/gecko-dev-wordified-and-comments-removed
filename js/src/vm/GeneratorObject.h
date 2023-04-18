@@ -210,6 +210,7 @@ HandleObject
 obj
 AbstractFramePtr
 frame
+const
 jsbytecode
 *
 pc
@@ -556,6 +557,7 @@ RESUME_INDEX_RUNNING
 void
 setResumeIndex
 (
+const
 jsbytecode
 *
 pc

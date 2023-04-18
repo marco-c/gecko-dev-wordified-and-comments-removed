@@ -3404,6 +3404,7 @@ BaselineScript
 :
 retAddrEntryFromReturnAddress
 (
+const
 uint8_t
 *
 returnAddr

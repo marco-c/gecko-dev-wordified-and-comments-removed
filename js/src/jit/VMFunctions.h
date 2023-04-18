@@ -1328,6 +1328,7 @@ cx
 BaselineFrame
 *
 frame
+const
 jsbytecode
 *
 pc
@@ -1349,6 +1350,7 @@ cx
 BaselineFrame
 *
 frame
+const
 jsbytecode
 *
 pc
@@ -1405,6 +1407,7 @@ BaselineFrame
 frame
 uint32_t
 frameSize
+const
 jsbytecode
 *
 pc
@@ -1423,6 +1426,7 @@ JSContext
 cx
 HandleObject
 obj
+const
 jsbytecode
 *
 pc
@@ -1503,6 +1507,7 @@ JSContext
 cx
 HandleScript
 script
+const
 jsbytecode
 *
 pc
@@ -1585,6 +1590,7 @@ cx
 BaselineFrame
 *
 frame
+const
 uint8_t
 *
 retAddr
@@ -1717,6 +1723,7 @@ cx
 BaselineFrame
 *
 frame
+const
 jsbytecode
 *
 pc
@@ -1752,6 +1759,7 @@ cx
 BaselineFrame
 *
 frame
+const
 jsbytecode
 *
 pc
@@ -1787,6 +1795,7 @@ cx
 BaselineFrame
 *
 frame
+const
 jsbytecode
 *
 pc
@@ -1806,6 +1815,7 @@ cx
 BaselineFrame
 *
 frame
+const
 jsbytecode
 *
 pc
