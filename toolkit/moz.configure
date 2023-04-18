@@ -9891,6 +9891,9 @@ hunspell
 "
 expat
 "
+"
+woff2
+"
 )
 depends
 (
