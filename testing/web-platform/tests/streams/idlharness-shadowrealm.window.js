@@ -1,0 +1,14 @@
+idl_test_shadowrealm
+(
+[
+"
+streams
+"
+]
+[
+"
+dom
+"
+]
+)
+;
