@@ -1450,11 +1450,13 @@ worker
 -
 type
 :
-t
--
 win10
 -
 64
+-
+2004
+-
+ssd
 worker
 :
 max
@@ -1549,6 +1551,8 @@ platform
 windows10
 -
 64
+-
+2004
 -
 qr
 /
