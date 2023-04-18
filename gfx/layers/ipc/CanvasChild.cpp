@@ -1002,14 +1002,6 @@ mHasOutstandingWriteLock
 false
 ;
 }
-mRecorder
--
->
-TakeExternalSurfaces
-(
-mLastTransactionExternalSurfaces
-)
-;
 }
 void
 CanvasChild
