@@ -11078,13 +11078,6 @@ cfr
 "
 \
 "
-moments
--
-page
-\
-"
-\
-"
 aboutwelcome
 \
 "
@@ -11096,6 +11089,13 @@ infobar
 \
 "
 spotlight
+\
+"
+\
+"
+moments
+-
+page
 \
 "
 ]
