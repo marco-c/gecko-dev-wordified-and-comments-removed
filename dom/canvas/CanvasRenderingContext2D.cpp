@@ -19073,12 +19073,11 @@ false
 {
 if
 (
-Preferences
+StaticPrefs
 :
 :
-GetBool
+gfx_missing_fonts_notify
 (
-GFX_MISSING_FONTS_NOTIFY_PREF
 )
 )
 {
