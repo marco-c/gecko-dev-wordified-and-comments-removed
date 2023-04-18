@@ -85,12 +85,6 @@ harness
 .
 js
 ;
--
--
-wasm
--
-memory64
-;
 skip
 -
 if

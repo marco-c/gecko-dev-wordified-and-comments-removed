@@ -727,12 +727,6 @@ directive
 =
 "
 ;
--
--
-wasm
--
-memory64
-;
 skip
 -
 if
