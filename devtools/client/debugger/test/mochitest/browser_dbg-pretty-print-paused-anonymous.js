@@ -50,6 +50,15 @@ prettyPrint
 dbg
 )
 ;
+await
+resume
+(
+dbg
+)
+;
+await
+debuggerDone
+;
 }
 )
 ;

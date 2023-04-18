@@ -508,7 +508,6 @@ selectors
 getSelectedFrame
 getCurrentThread
 }
-getState
 }
 =
 dbg

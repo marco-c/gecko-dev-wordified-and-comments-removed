@@ -26,7 +26,7 @@ js
 )
 ;
 await
-previews
+testPreviews
 (
 dbg
 "
@@ -73,7 +73,7 @@ dbg
 )
 ;
 await
-previews
+testPreviews
 (
 dbg
 "
@@ -157,7 +157,7 @@ null
 )
 ;
 await
-previews
+testPreviews
 (
 dbg
 "
@@ -206,7 +206,7 @@ result
 )
 ;
 await
-previews
+testPreviews
 (
 dbg
 "
@@ -300,7 +300,7 @@ length
 )
 ;
 await
-previews
+testPreviews
 (
 dbg
 "
@@ -441,16 +441,13 @@ result
 ;
 async
 function
-previews
+testPreviews
 (
 dbg
 fnName
 previews
 )
 {
-const
-invokeResult
-=
 invokeInTab
 (
 fnName
@@ -493,9 +490,6 @@ testBucketedArray
 dbg
 )
 {
-const
-invokeResult
-=
 invokeInTab
 (
 "

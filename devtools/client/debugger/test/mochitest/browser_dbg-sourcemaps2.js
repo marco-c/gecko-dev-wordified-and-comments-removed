@@ -45,7 +45,6 @@ selectors
 getBreakpoint
 getBreakpointCount
 }
-getState
 }
 =
 dbg

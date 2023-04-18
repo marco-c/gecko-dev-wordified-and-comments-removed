@@ -30,7 +30,6 @@ const
 selectors
 :
 {
-getSource
 getSourceContent
 }
 }

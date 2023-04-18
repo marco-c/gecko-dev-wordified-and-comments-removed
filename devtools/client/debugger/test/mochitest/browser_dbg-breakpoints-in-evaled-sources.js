@@ -23,17 +23,6 @@ LINE
 10
 )
 ;
-const
-REGULAR_SOURCE_FILE
-=
-"
-doc
--
-scripts
-.
-html
-"
-;
 add_task
 (
 async

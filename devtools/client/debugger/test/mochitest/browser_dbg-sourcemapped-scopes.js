@@ -269,22 +269,6 @@ parcel
 )
 ;
 const
-hasBabel
-=
-target
-.
-includes
-(
-"
--
-babel
-"
-)
-|
-|
-isParcel
-;
-const
 isWebpack4
 =
 target
@@ -972,7 +956,6 @@ const
 {
 defaultExport
 rollupOptimized
-webpackImportGetter
 maybeLineStart
 }
 =
@@ -1240,8 +1223,6 @@ babel7
 const
 {
 defaultExport
-rollupOptimized
-webpackImportGetter
 maybeLineStart
 }
 =
@@ -1535,7 +1516,6 @@ const
 {
 isParcel
 rollupOptimized
-webpackImportGetter
 maybeLineStart
 }
 =
@@ -1917,7 +1897,6 @@ babel7
 const
 {
 rollupOptimized
-webpackImportGetter
 maybeLineStart
 }
 =
@@ -2355,8 +2334,6 @@ babel7
 const
 {
 isParcel
-rollupOptimized
-webpackImportGetter
 maybeLineStart
 }
 =
@@ -2925,7 +2902,6 @@ const
 {
 isParcel
 rollupOptimized
-webpackImportGetter
 maybeLineStart
 }
 =
@@ -3540,7 +3516,6 @@ babel7
 const
 {
 rollupOptimized
-webpackImportGetter
 maybeLineStart
 }
 =
@@ -3980,8 +3955,6 @@ babel7
 const
 {
 isParcel
-rollupOptimized
-webpackImportGetter
 maybeLineStart
 }
 =
@@ -4380,7 +4353,6 @@ babel7
 const
 {
 rollupOptimized
-webpackImportGetter
 maybeLineStart
 }
 =
@@ -4703,7 +4675,6 @@ babel7
 const
 {
 rollupOptimized
-webpackImportGetter
 maybeLineStart
 }
 =
@@ -4967,8 +4938,6 @@ babel7
 const
 {
 isParcel
-rollupOptimized
-webpackImportGetter
 maybeLineStart
 }
 =
@@ -5404,8 +5373,6 @@ babel7
 {
 const
 {
-rollupOptimized
-webpackImportGetter
 maybeLineStart
 }
 =

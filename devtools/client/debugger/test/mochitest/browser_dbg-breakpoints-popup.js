@@ -1362,9 +1362,6 @@ gBrowser
 .
 selectedTab
 ;
-const
-popupBrowsingContext
-=
 await
 openPopup
 (
