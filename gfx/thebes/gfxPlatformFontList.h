@@ -599,7 +599,7 @@ typedef
 mozilla
 :
 :
-intl
+unicode
 :
 :
 Script

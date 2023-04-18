@@ -44874,7 +44874,7 @@ bool
 allowSplitLigature
 ;
 typedef
-intl
+unicode
 :
 :
 Script
@@ -44883,10 +44883,7 @@ Script
 Script
 script
 =
-intl
-:
-:
-UnicodeProperties
+unicode
 :
 :
 GetScriptCode
