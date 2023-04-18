@@ -1111,7 +1111,6 @@ finalize
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 static
@@ -2440,7 +2439,6 @@ nullptr
 nullptr
 nullptr
 finalize
-nullptr
 nullptr
 nullptr
 trace
@@ -6038,7 +6036,6 @@ finalize
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 static
@@ -7158,7 +7155,6 @@ nullptr
 nullptr
 nullptr
 finalize
-nullptr
 nullptr
 nullptr
 trace

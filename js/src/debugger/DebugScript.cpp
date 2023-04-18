@@ -327,7 +327,6 @@ DebugScriptObject
 finalize
 nullptr
 nullptr
-nullptr
 DebugScriptObject
 :
 :

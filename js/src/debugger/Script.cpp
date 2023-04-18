@@ -435,7 +435,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 CallTraceMethod
 <
 DebuggerScript

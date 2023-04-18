@@ -224,7 +224,6 @@ finalize
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 const

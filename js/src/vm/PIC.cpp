@@ -1524,7 +1524,6 @@ nullptr
 ForOfPIC_finalize
 nullptr
 nullptr
-nullptr
 ForOfPIC_traceObject
 }
 ;

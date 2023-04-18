@@ -5988,7 +5988,6 @@ nullptr
 finalize
 nullptr
 nullptr
-nullptr
 trace
 }
 ;

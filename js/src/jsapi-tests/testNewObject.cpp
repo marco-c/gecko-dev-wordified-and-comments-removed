@@ -687,7 +687,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 constructHook
 nullptr
 }
@@ -1006,7 +1005,6 @@ JSClassOps
 Base_classOps
 =
 {
-nullptr
 nullptr
 nullptr
 nullptr

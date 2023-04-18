@@ -1254,7 +1254,6 @@ nullptr
 finalize
 nullptr
 nullptr
-nullptr
 CallTraceMethod
 <
 DebuggerFrame

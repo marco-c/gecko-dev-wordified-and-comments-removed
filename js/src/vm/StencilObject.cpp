@@ -136,7 +136,6 @@ finalize
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 const
@@ -395,7 +394,6 @@ StencilXDRBufferObject
 :
 :
 finalize
-nullptr
 nullptr
 nullptr
 nullptr

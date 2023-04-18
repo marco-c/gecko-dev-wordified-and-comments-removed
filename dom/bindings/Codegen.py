@@ -3907,13 +3907,6 @@ call
 nullptr
 /
 *
-hasInstance
-*
-/
-              
-nullptr
-/
-*
 construct
 *
 /
@@ -5613,13 +5606,6 @@ ctorname
 /
 *
 call
-*
-/
-                    
-nullptr
-/
-*
-hasInstance
 *
 /
                     

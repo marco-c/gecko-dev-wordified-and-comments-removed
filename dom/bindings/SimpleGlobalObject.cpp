@@ -249,7 +249,6 @@ JS_MayResolveStandardClass
 SimpleGlobal_finalize
 nullptr
 nullptr
-nullptr
 JS_GlobalObjectTraceHook
 }
 ;

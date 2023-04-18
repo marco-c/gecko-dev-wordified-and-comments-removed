@@ -2328,7 +2328,6 @@ nullptr
 nullptr
 nullptr
 ConstructAbstract
-nullptr
 ConstructAbstract
 nullptr
 }
@@ -2382,7 +2381,6 @@ CType
 :
 :
 ConstructData
-nullptr
 CType
 :
 :
@@ -2432,7 +2430,6 @@ FunctionType
 :
 :
 Call
-nullptr
 FunctionType
 :
 :
@@ -2475,7 +2472,6 @@ CClosure
 :
 :
 Finalize
-nullptr
 nullptr
 nullptr
 CClosure
@@ -2531,7 +2527,6 @@ CDataFinalizer
 :
 :
 Finalize
-nullptr
 nullptr
 nullptr
 nullptr
@@ -3600,7 +3595,6 @@ Int64Base
 :
 :
 Finalize
-nullptr
 nullptr
 nullptr
 nullptr

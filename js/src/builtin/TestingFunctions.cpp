@@ -18867,7 +18867,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 static
@@ -23953,7 +23952,6 @@ finalize_counter_finalize
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 static
@@ -28350,7 +28348,6 @@ Finalize
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 const
@@ -30382,7 +30379,6 @@ ShapeSnapshotObject
 :
 :
 finalize
-nullptr
 nullptr
 nullptr
 ShapeSnapshotObject

@@ -10981,7 +10981,6 @@ TypedArrayObject
 finalize
 nullptr
 nullptr
-nullptr
 ArrayBufferViewObject
 :
 :

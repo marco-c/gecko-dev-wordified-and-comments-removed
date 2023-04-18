@@ -122,7 +122,6 @@ BarkWhenTracedClass
 finalize
 nullptr
 nullptr
-nullptr
 BarkWhenTracedClass
 :
 :

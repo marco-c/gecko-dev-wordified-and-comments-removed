@@ -4537,7 +4537,6 @@ ModuleObject
 finalize
 nullptr
 nullptr
-nullptr
 ModuleObject
 :
 :

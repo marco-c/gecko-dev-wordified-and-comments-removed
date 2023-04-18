@@ -2897,7 +2897,6 @@ nullptr
 XPC_WN_NoHelper_Finalize
 nullptr
 nullptr
-nullptr
 XPCWrappedNative
 :
 :
@@ -5376,7 +5375,6 @@ XPC_WN_Proto_Finalize
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 static
@@ -5775,7 +5773,6 @@ nullptr
 XPC_WN_TearOff_Resolve
 nullptr
 XPC_WN_TearOff_Finalize
-nullptr
 nullptr
 nullptr
 nullptr

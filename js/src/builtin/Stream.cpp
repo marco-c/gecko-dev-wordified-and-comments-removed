@@ -1383,7 +1383,6 @@ ReadableByteStreamControllerFinalize
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 JS_STREAMS_CLASS_SPEC

@@ -1701,7 +1701,6 @@ nullptr
 WeakCollection_finalize
 nullptr
 nullptr
-nullptr
 WeakCollection_trace
 }
 ;

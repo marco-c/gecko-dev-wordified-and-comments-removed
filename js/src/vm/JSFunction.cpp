@@ -5197,7 +5197,6 @@ fun_mayResolve
 nullptr
 nullptr
 nullptr
-nullptr
 fun_trace
 }
 ;

@@ -437,7 +437,6 @@ FinalizationRegistrationsObject
 finalize
 nullptr
 nullptr
-nullptr
 FinalizationRegistrationsObject
 :
 :
@@ -943,7 +942,6 @@ FinalizationRegistryObject
 :
 :
 finalize
-nullptr
 nullptr
 nullptr
 FinalizationRegistryObject
@@ -2941,7 +2939,6 @@ FinalizationQueueObject
 :
 :
 finalize
-nullptr
 nullptr
 nullptr
 FinalizationQueueObject

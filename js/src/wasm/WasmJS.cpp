@@ -6403,7 +6403,6 @@ finalize
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 const
@@ -9623,7 +9622,6 @@ WasmInstanceObject
 finalize
 nullptr
 nullptr
-nullptr
 WasmInstanceObject
 :
 :
@@ -12222,7 +12220,6 @@ finalize
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 const
@@ -14568,7 +14565,6 @@ WasmTableObject
 :
 :
 finalize
-nullptr
 nullptr
 nullptr
 WasmTableObject
@@ -16972,7 +16968,6 @@ WasmGlobalObject
 finalize
 nullptr
 nullptr
-nullptr
 WasmGlobalObject
 :
 :
@@ -18331,7 +18326,6 @@ finalize
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 const
@@ -19134,7 +19128,6 @@ WasmExceptionObject
 :
 :
 finalize
-nullptr
 nullptr
 nullptr
 WasmExceptionObject
@@ -26237,7 +26230,6 @@ ResolveResponseClosure
 :
 :
 finalize
-nullptr
 nullptr
 nullptr
 nullptr

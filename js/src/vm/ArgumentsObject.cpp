@@ -6377,7 +6377,6 @@ ArgumentsObject
 finalize
 nullptr
 nullptr
-nullptr
 ArgumentsObject
 :
 :
@@ -6500,7 +6499,6 @@ ArgumentsObject
 :
 :
 finalize
-nullptr
 nullptr
 nullptr
 ArgumentsObject

@@ -3189,7 +3189,6 @@ JS_MayResolveStandardClass
 sandbox_finalize
 nullptr
 nullptr
-nullptr
 JS_GlobalObjectTraceHook
 }
 ;

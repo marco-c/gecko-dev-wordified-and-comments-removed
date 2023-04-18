@@ -9250,7 +9250,6 @@ JS_MayResolveStandardClass
 nullptr
 nullptr
 nullptr
-nullptr
 JS_GlobalObjectTraceHook
 }
 ;

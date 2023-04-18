@@ -23021,7 +23021,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 JS_GlobalObjectTraceHook
 }
 ;
@@ -29363,7 +29362,6 @@ XDRBufferObject
 :
 :
 finalize
-nullptr
 nullptr
 nullptr
 nullptr
@@ -39775,7 +39773,6 @@ nullptr
 IsHTMLDDA_Call
 nullptr
 nullptr
-nullptr
 }
 ;
 static
@@ -44062,7 +44059,6 @@ StreamCacheEntryObject
 :
 :
 finalize
-nullptr
 nullptr
 nullptr
 nullptr
@@ -59655,7 +59651,6 @@ nullptr
 global_enumerate
 global_resolve
 global_mayResolve
-nullptr
 nullptr
 nullptr
 nullptr
