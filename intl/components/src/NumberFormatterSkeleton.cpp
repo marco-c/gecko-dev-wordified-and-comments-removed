@@ -691,9 +691,7 @@ false
 }
 static
 const
-:
-:
-MeasureUnit
+SimpleMeasureUnit
 &
 FindSimpleMeasureUnit
 (
@@ -913,9 +911,7 @@ this
 ]
 (
 const
-:
-:
-MeasureUnit
+SimpleMeasureUnit
 &
 unit
 )

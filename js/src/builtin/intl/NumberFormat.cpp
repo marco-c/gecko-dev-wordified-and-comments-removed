@@ -1517,6 +1517,9 @@ auto
 &
 unit
 :
+intl
+:
+:
 simpleMeasureUnits
 )
 {

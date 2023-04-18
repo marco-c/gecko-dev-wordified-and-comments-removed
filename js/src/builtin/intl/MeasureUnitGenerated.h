@@ -1,5 +1,17 @@
+#
+ifndef
+builtin_intl_MeasureUnitGenerated_h
+#
+define
+builtin_intl_MeasureUnitGenerated_h
+namespace
+js
+:
+:
+intl
+{
 struct
-MeasureUnit
+SimpleMeasureUnit
 {
 const
 char
@@ -17,7 +29,7 @@ name
 ;
 inline
 constexpr
-MeasureUnit
+SimpleMeasureUnit
 simpleMeasureUnits
 [
 ]
@@ -373,3 +385,6 @@ year
 }
 }
 ;
+}
+#
+endif

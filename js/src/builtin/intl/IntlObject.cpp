@@ -3851,7 +3851,10 @@ auto
 MeasurementUnitNames
 (
 const
-MeasureUnit
+intl
+:
+:
+SimpleMeasureUnit
 (
 &
 units
@@ -3926,6 +3929,9 @@ simpleMeasureUnitNames
 =
 MeasurementUnitNames
 (
+intl
+:
+:
 simpleMeasureUnits
 )
 ;

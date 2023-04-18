@@ -1,5 +1,17 @@
+#
+ifndef
+intl_components_MeasureUnitGenerated_h
+#
+define
+intl_components_MeasureUnitGenerated_h
+namespace
+mozilla
+:
+:
+intl
+{
 struct
-MeasureUnit
+SimpleMeasureUnit
 {
 const
 char
@@ -17,7 +29,7 @@ name
 ;
 inline
 constexpr
-MeasureUnit
+SimpleMeasureUnit
 simpleMeasureUnits
 [
 ]
@@ -373,3 +385,6 @@ year
 }
 }
 ;
+}
+#
+endif
