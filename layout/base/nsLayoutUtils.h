@@ -716,6 +716,16 @@ mozilla
 gfx
 :
 :
+MatrixScales
+MatrixScales
+;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
 MatrixScalesDouble
 MatrixScalesDouble
 ;
@@ -5371,7 +5381,7 @@ aFrame
 )
 ;
 static
-Size
+MatrixScales
 ComputeSuitableScaleForAnimation
 (
 const
