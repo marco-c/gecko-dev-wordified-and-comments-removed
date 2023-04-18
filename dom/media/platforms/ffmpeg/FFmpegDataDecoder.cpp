@@ -761,6 +761,11 @@ IsOnCurrentThread
 )
 )
 ;
+PROCESS_DECODE_LOG
+(
+aSample
+)
+;
 bool
 gotFrame
 =

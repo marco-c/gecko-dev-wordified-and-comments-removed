@@ -547,6 +547,10 @@ decoder
 s
 requested
 type
+'
+%
+s
+'
 "
 supports
 ?
@@ -557,6 +561,11 @@ supports
 "
 rejects
 "
+mimeType
+.
+BeginReading
+(
+)
 )
 )
 ;

@@ -886,6 +886,11 @@ AssertOnTaskQueue
 (
 )
 ;
+PROCESS_DECODE_LOG
+(
+aSample
+)
+;
 if
 (
 mIsFlushing
