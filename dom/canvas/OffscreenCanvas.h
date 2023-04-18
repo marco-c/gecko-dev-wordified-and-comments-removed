@@ -683,10 +683,6 @@ CanvasAttrChanged
 (
 )
 {
-mAttrDirty
-=
-true
-;
 ErrorResult
 dummy
 ;
@@ -701,9 +697,6 @@ dummy
 )
 ;
 }
-bool
-mAttrDirty
-;
 bool
 mNeutered
 ;
