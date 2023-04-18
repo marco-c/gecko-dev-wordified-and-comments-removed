@@ -564,6 +564,11 @@ realm
 ;
 #
 endif
+bool
+CurrentThreadIsParseThread
+(
+)
+;
 void
 CancelOffThreadParses
 (

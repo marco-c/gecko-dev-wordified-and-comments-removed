@@ -5556,9 +5556,6 @@ compileOptions
 )
 ;
 }
-#
-ifdef
-DEBUG
 bool
 js
 :
@@ -5594,8 +5591,6 @@ offThreadFrontendErrors
 )
 ;
 }
-#
-endif
 bool
 GlobalHelperThreadState
 :
