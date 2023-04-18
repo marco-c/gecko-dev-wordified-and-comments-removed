@@ -172,8 +172,7 @@ jsm
 }
 )
 ;
-this
-.
+const
 browser
 =
 {

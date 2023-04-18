@@ -298,13 +298,6 @@ Ci
 .
 nsIServerSocket
 ;
-this
-.
-server
-=
-{
-}
-;
 const
 PROTOCOL_VERSION
 =

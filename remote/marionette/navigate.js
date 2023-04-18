@@ -245,8 +245,7 @@ TIMEOUT_UNLOAD_EVENT
 =
 5000
 ;
-this
-.
+const
 navigate
 =
 {

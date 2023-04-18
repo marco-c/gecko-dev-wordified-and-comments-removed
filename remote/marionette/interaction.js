@@ -342,8 +342,7 @@ submit
 ]
 )
 ;
-this
-.
+const
 interaction
 =
 {

@@ -916,11 +916,8 @@ TIMEOUT_NO_WINDOW_MANAGER
 =
 5000
 ;
-this
-.
-GeckoDriver
-=
 function
+GeckoDriver
 (
 server
 )
@@ -977,7 +974,6 @@ dialogObserver
 null
 ;
 }
-;
 Object
 .
 defineProperty

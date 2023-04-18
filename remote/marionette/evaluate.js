@@ -203,8 +203,7 @@ FINISH
 finish
 "
 ;
-this
-.
+const
 evaluate
 =
 {
@@ -1493,8 +1492,7 @@ false
 ;
 }
 ;
-this
-.
+const
 sandbox
 =
 {
@@ -1810,11 +1808,8 @@ sb
 ;
 }
 ;
-this
-.
-Sandboxes
-=
 class
+Sandboxes
 {
 constructor
 (
@@ -1992,4 +1987,3 @@ clear
 ;
 }
 }
-;

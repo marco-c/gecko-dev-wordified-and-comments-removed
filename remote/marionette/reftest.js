@@ -363,8 +363,7 @@ DEFAULT_PDF_RESOLUTION
 /
 72
 ;
-this
-.
+const
 reftest
 =
 {

@@ -105,8 +105,7 @@ js
 }
 )
 ;
-this
-.
+const
 permissions
 =
 {

@@ -133,8 +133,7 @@ parser
 }
 )
 ;
-this
-.
+const
 l10n
 =
 {

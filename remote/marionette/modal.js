@@ -135,8 +135,7 @@ commonDialog
 xhtml
 "
 ;
-this
-.
+const
 modal
 =
 {

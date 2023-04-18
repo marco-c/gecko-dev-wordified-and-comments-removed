@@ -155,8 +155,7 @@ org
 xhtml
 "
 ;
-this
-.
+const
 capture
 =
 {

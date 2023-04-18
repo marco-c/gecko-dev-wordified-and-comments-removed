@@ -174,8 +174,7 @@ SAMESITE_STRICT
 ]
 )
 ;
-this
-.
+const
 cookie
 =
 {

@@ -128,8 +128,7 @@ stricttransportsecurity
 preloadlist
 "
 ;
-this
-.
+const
 allowAllCerts
 =
 {

@@ -517,8 +517,7 @@ EnvironmentPrefs
 =
 EnvironmentPrefs
 ;
-this
-.
+const
 MarionettePrefs
 =
 new

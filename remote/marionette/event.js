@@ -79,8 +79,7 @@ jsm
 }
 )
 ;
-this
-.
+const
 event
 =
 {

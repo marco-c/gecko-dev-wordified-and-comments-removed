@@ -168,8 +168,7 @@ js
 }
 )
 ;
-this
-.
+const
 action
 =
 {

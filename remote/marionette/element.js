@@ -276,8 +276,7 @@ tab
 ]
 )
 ;
-this
-.
+const
 element
 =
 {

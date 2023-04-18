@@ -996,8 +996,7 @@ return
 data
 ;
 }
-this
-.
+const
 StreamUtils
 =
 {

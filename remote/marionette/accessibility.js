@@ -191,8 +191,7 @@ undefined
 }
 )
 ;
-this
-.
+const
 accessibility
 =
 {
