@@ -8460,6 +8460,9 @@ permissions
 "
 schemas
 "
+"
+menus
+"
 ]
 )
 _ensureDirectoryPromise
@@ -8837,6 +8840,14 @@ id
 this
 .
 permissions
+.
+delete
+(
+id
+)
+this
+.
+menus
 .
 delete
 (
