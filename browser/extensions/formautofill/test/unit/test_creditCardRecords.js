@@ -4994,7 +4994,7 @@ Services
 .
 prefs
 .
-setCharPref
+setBoolPref
 (
 "
 extensions
@@ -5005,9 +5005,7 @@ creditCards
 .
 available
 "
-"
-off
-"
+false
 )
 ;
 let
@@ -5097,7 +5095,7 @@ Services
 .
 prefs
 .
-clearUserPref
+setBoolPref
 (
 "
 extensions
@@ -5108,6 +5106,7 @@ creditCards
 .
 available
 "
+true
 )
 ;
 }
