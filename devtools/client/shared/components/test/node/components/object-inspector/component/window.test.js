@@ -133,8 +133,6 @@ get
 Window
 "
 )
-.
-_grip
 }
 }
 )

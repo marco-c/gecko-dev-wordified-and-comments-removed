@@ -812,8 +812,6 @@ get
 Window
 "
 )
-.
-_grip
 }
 }
 )
@@ -875,8 +873,6 @@ get
 Window
 "
 )
-.
-_grip
 }
 }
 )
