@@ -6,11 +6,6 @@ cstdlib
 #
 include
 <
-cstdio
->
-#
-include
-<
 fcntl
 .
 h

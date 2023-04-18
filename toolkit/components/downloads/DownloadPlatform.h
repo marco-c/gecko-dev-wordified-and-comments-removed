@@ -14,13 +14,10 @@ h
 #
 include
 "
-nsCOMPtr
+nsISupports
 .
 h
 "
-class
-nsIURI
-;
 class
 DownloadPlatform
 :
