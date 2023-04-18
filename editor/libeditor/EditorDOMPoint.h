@@ -3673,6 +3673,7 @@ if
 mChild
 &
 &
+(
 mChild
 -
 >
@@ -3682,6 +3683,15 @@ GetParentNode
 !
 =
 mParent
+|
+|
+mChild
+-
+>
+IsBeingRemoved
+(
+)
+)
 )
 {
 return

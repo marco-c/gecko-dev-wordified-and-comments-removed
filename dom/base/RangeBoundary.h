@@ -1019,6 +1019,17 @@ GetParentNode
 Container
 (
 )
+&
+&
+!
+Ref
+(
+)
+-
+>
+IsBeingRemoved
+(
+)
 ;
 }
 MOZ_ASSERT
