@@ -593,6 +593,7 @@ function
 PageThumbs_captureToBlob
 (
 aBrowser
+aArgs
 )
 {
 if
@@ -635,6 +636,7 @@ captureToCanvas
 (
 aBrowser
 canvas
+aArgs
 )
 .
 then
@@ -754,6 +756,15 @@ aArgs
 .
 isBackgroundThumb
 :
+false
+fullViewport
+:
+aArgs
+?
+.
+fullViewport
+?
+?
 false
 }
 ;
@@ -1283,6 +1294,9 @@ scale
 aArgs
 .
 backgroundColor
+aArgs
+.
+fullViewport
 )
 ;
 thumbnail
