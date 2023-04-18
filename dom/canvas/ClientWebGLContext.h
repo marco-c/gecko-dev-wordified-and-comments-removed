@@ -10856,6 +10856,12 @@ ShouldResistFingerprinting
 )
 const
 ;
+uint32_t
+GetPrincipalHashValue
+(
+)
+const
+;
 void
 BeginComposition
 (

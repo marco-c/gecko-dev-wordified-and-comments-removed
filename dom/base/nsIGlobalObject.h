@@ -646,6 +646,17 @@ ShouldResistFingerprinting
 )
 const
 ;
+virtual
+uint32_t
+GetPrincipalHashValue
+(
+)
+const
+{
+return
+0
+;
+}
 protected
 :
 virtual
