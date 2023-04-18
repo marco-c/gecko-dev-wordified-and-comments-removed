@@ -3820,7 +3820,6 @@ treegrid_row1
 )
 4
 false
-isCacheEnabled
 )
 ;
 }
@@ -4360,8 +4359,6 @@ table_cell
 )
 3
 4
-null
-isCacheEnabled
 )
 ;
 testGroupAttrs
@@ -4374,8 +4371,6 @@ table_row
 )
 2
 2
-null
-isCacheEnabled
 )
 ;
 testGroupParentAttrs
@@ -4388,7 +4383,6 @@ table
 )
 2
 false
-isCacheEnabled
 )
 ;
 testGroupParentAttrs
@@ -4401,7 +4395,6 @@ table_row
 )
 4
 false
-isCacheEnabled
 )
 ;
 }
