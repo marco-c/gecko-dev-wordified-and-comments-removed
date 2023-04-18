@@ -996,6 +996,13 @@ dest
 const
 ;
 inline
+bool
+hasCachedSavedFrame
+(
+)
+const
+;
+inline
 unsigned
 numActualArgs
 (
