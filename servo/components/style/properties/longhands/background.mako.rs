@@ -842,6 +842,9 @@ animation_value_type
 "
 discrete
 "
+gecko_inexhaustive
+=
+True
 spec
 =
 "

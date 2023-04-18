@@ -3753,6 +3753,9 @@ Color
 Luminosity
 =
 15
+PlusLighter
+=
+16
 }
 #
 [

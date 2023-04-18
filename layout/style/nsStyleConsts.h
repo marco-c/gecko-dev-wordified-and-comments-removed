@@ -1792,6 +1792,7 @@ Hue
 Saturation
 Color
 Luminosity
+PlusLighter
 }
 ;
 enum

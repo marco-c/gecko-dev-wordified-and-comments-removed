@@ -1236,6 +1236,13 @@ Luminosity
 "
 luminosity
 "
+PlusLighter
+=
+"
+plus
+-
+lighter
+"
 ]
 )
 ;
