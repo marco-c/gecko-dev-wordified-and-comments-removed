@@ -350,10 +350,7 @@ mozilla
 intl
 :
 :
-LineBreaker
-:
-:
-WordBreak
+WordBreakRule
 aMode
 )
 {
@@ -414,10 +411,7 @@ mozilla
 intl
 :
 :
-LineBreaker
-:
-:
-WordBreak
+WordBreakRule
 :
 :
 BreakAll
@@ -676,10 +670,7 @@ mozilla
 intl
 :
 :
-LineBreaker
-:
-:
-WordBreak
+WordBreakRule
 mWordBreak
 ;
 mozilla

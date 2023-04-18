@@ -3387,7 +3387,7 @@ begin
 end
 -
 begin
-WordBreak
+WordBreakRule
 :
 :
 Normal
@@ -3537,7 +3537,7 @@ char16_t
 aChars
 uint32_t
 aLength
-WordBreak
+WordBreakRule
 aWordBreak
 Strictness
 aLevel
@@ -3768,7 +3768,7 @@ if
 aWordBreak
 =
 =
-WordBreak
+WordBreakRule
 :
 :
 BreakAll
@@ -3928,7 +3928,7 @@ if
 aWordBreak
 =
 =
-WordBreak
+WordBreakRule
 :
 :
 KeepAll
@@ -3967,7 +3967,7 @@ prev
 aWordBreak
 !
 =
-WordBreak
+WordBreakRule
 :
 :
 BreakAll
@@ -4071,7 +4071,7 @@ if
 aWordBreak
 =
 =
-WordBreak
+WordBreakRule
 :
 :
 BreakAll
@@ -4188,7 +4188,7 @@ uint8_t
 aChars
 uint32_t
 aLength
-WordBreak
+WordBreakRule
 aWordBreak
 Strictness
 aLevel
@@ -4327,7 +4327,7 @@ if
 aWordBreak
 =
 =
-WordBreak
+WordBreakRule
 :
 :
 BreakAll
@@ -4432,7 +4432,7 @@ cl
 aWordBreak
 !
 =
-WordBreak
+WordBreakRule
 :
 :
 KeepAll
