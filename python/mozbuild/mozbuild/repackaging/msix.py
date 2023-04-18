@@ -3714,10 +3714,7 @@ locale
 for
 locale
 in
-sorted
-(
 locales
-)
     
 )
     

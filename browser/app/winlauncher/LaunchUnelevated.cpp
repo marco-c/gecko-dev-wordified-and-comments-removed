@@ -756,7 +756,7 @@ packageFamilyName
 int
 cmdLen
 =
-26
+22
 +
 wcslen
 (
@@ -787,7 +787,7 @@ appsFolder
 %
 s
 !
-FIREFOX
+App
 "
 packageFamilyName
 .
