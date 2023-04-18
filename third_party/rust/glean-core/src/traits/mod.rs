@@ -38,6 +38,9 @@ mod
 string_list
 ;
 mod
+text
+;
+mod
 timespan
 ;
 mod
@@ -208,6 +211,16 @@ string_list
 :
 :
 StringList
+;
+pub
+use
+self
+:
+:
+text
+:
+:
+Text
 ;
 pub
 use

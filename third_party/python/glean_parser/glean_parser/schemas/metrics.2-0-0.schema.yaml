@@ -2027,7 +2027,7 @@ labeled_metric_id
 "
 maxItems
 :
-100
+4096
 -
 type
 :
