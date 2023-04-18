@@ -2247,13 +2247,7 @@ Get
 >
 UnregisterExternalImage
 (
-wr
-:
-:
-AsUint64
-(
 aExternalImageId
-)
 )
 ;
 }
@@ -3053,13 +3047,7 @@ Get
 >
 RegisterExternalImage
 (
-wr
-:
-:
-AsUint64
-(
 aExternalImageId
-)
 texture
 .
 forget
