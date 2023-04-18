@@ -9941,9 +9941,6 @@ bind
 negative
 )
 ;
-Label
-notmin
-;
 masm
 .
 cmp32

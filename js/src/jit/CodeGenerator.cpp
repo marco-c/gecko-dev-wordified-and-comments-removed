@@ -12802,9 +12802,6 @@ TraceLogger_IrregexpExecute
 }
 #
 endif
-Label
-success
-;
 masm
 .
 bind
@@ -61645,10 +61642,6 @@ output
 (
 )
 )
-;
-Label
-call
-done
 ;
 using
 Fn
