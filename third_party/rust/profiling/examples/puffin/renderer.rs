@@ -2220,10 +2220,9 @@ _submit_nodes
 :
 &
 mut
-Vec
-<
+[
 RenderFeatureSubmitNode
->
+]
 )
 {
 }
