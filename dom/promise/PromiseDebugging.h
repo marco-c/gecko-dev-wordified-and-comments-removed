@@ -237,7 +237,11 @@ AddUncaughtRejection
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 )
 ;
 static
@@ -247,7 +251,11 @@ AddConsumedRejection
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 )
 ;
 static
