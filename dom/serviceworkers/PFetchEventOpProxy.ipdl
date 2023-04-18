@@ -116,7 +116,7 @@ child
 async
 PreloadResponse
 (
-ParentToChildResponseWithTiming
+ParentToChildInternalResponse
 aResponse
 )
 ;
