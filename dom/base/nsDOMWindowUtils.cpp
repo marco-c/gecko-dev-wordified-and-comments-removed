@@ -10268,11 +10268,9 @@ auPerDev
 LookAndFeel
 :
 :
-SystemZoomSettings
+GetTextScaleFactor
 (
 )
-.
-mFullZoom
 ;
 return
 LayoutDeviceToCSSScale
