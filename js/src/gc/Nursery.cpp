@@ -4999,8 +4999,8 @@ Reason
 PRate
 "
 "
-OldSz
-NewSz
+OldKB
+NewKB
 Dedup
 "
 )
