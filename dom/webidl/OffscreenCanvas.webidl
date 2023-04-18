@@ -122,8 +122,6 @@ interface
 /
 typedef
 (
-OffscreenCanvasRenderingContext2D
-or
 ImageBitmapRenderingContext
 or
 WebGLRenderingContext
@@ -155,9 +153,13 @@ quality
 enum
 OffscreenRenderingContextId
 {
+/
+*
 "
 2d
 "
+*
+/
 "
 bitmaprenderer
 "
