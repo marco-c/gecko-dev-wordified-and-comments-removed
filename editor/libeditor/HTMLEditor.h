@@ -3494,7 +3494,11 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+EditorDOMPoint
 nsresult
+>
 CreateOrChangeBlockContainerElement
 (
 nsTArray
@@ -3509,6 +3513,10 @@ aArrayOfContents
 nsAtom
 &
 aBlockTag
+const
+Element
+&
+aEditingHost
 )
 ;
 [
