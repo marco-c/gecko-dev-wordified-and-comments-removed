@@ -1635,6 +1635,9 @@ firstToCheck
 #
 elif
 __GNUC__
+|
+|
+__clang__
 #
 define
 MOZ_FORMAT_PRINTF
