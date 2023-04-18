@@ -481,7 +481,9 @@ u2661
 "
 ;
 let
+{
 Preferences
+}
 =
 ChromeUtils
 .
@@ -500,11 +502,7 @@ Preferences
 .
 jsm
 "
-{
-}
 )
-.
-Preferences
 ;
 Preferences
 .

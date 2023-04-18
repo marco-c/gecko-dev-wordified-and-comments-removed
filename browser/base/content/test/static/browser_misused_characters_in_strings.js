@@ -1300,8 +1300,6 @@ FluentSyntax
 .
 jsm
 "
-{
-}
 )
 ;
 class

@@ -49,8 +49,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 )
 ;

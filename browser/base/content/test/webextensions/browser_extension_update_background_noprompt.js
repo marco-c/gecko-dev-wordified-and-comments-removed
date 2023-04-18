@@ -44,8 +44,6 @@ AddonTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 AddonTestUtils

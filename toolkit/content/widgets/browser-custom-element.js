@@ -1876,8 +1876,6 @@ ChromeUtils
 import
 (
 jsm
-{
-}
 )
 ;
 this
@@ -1918,7 +1916,9 @@ null
 ;
 }
 let
+{
 Finder
+}
 =
 ChromeUtils
 .
@@ -1937,11 +1937,7 @@ Finder
 .
 jsm
 "
-{
-}
 )
-.
-Finder
 ;
 this
 .

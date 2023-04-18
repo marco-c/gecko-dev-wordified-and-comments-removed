@@ -537,7 +537,9 @@ log
 >
 {
 let
+{
 ConsoleAPI
+}
 =
 ChromeUtils
 .
@@ -556,11 +558,7 @@ Console
 .
 jsm
 "
-{
-}
 )
-.
-ConsoleAPI
 ;
 return
 new

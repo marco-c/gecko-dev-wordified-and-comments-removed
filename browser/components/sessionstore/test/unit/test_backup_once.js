@@ -152,8 +152,6 @@ SessionFile
 .
 jsm
 "
-{
-}
 )
 .
 SessionFile

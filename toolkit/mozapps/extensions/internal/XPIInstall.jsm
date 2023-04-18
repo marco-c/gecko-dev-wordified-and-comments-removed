@@ -341,8 +341,6 @@ ExtensionParent
 .
 jsm
 "
-{
-}
 )
 .
 ExtensionParent

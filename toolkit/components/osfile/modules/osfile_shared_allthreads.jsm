@@ -77,8 +77,6 @@ PromiseWorker
 .
 jsm
 "
-{
-}
 )
 .
 BasePromiseWorker

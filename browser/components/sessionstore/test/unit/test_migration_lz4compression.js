@@ -374,8 +374,6 @@ SessionFile
 .
 jsm
 "
-{
-}
 )
 .
 SessionFile
