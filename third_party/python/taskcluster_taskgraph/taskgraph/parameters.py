@@ -15,6 +15,10 @@ pprint
 import
 pformat
 from
+subprocess
+import
+CalledProcessError
+from
 urllib
 .
 parse
@@ -324,6 +328,46 @@ getcwd
 )
 )
     
+try
+:
+        
+repo_url
+=
+repo
+.
+get_url
+(
+)
+        
+project
+=
+repo_url
+.
+rsplit
+(
+"
+/
+"
+1
+)
+[
+1
+]
+    
+except
+CalledProcessError
+:
+        
+repo_url
+=
+"
+"
+        
+project
+=
+"
+"
+    
 return
 {
         
@@ -331,11 +375,7 @@ return
 base_repository
 "
 :
-repo
-.
-get_url
-(
-)
+repo_url
         
 "
 build_date
@@ -386,11 +426,7 @@ head_ref
 head_repository
 "
 :
-repo
-.
-get_url
-(
-)
+repo_url
         
 "
 head_rev
@@ -464,22 +500,7 @@ com
 project
 "
 :
-repo
-.
-get_url
-(
-)
-.
-rsplit
-(
-"
-/
-"
-1
-)
-[
-1
-]
+project
         
 "
 pushdate
