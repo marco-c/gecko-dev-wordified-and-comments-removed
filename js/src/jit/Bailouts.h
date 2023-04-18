@@ -291,9 +291,6 @@ InvalidationBailout
 InvalidationBailoutStack
 *
 sp
-size_t
-*
-frameSizeOut
 BaselineBailoutInfo
 *
 *

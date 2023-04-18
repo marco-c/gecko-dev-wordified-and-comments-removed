@@ -971,9 +971,6 @@ InvalidationBailout
 InvalidationBailoutStack
 *
 sp
-size_t
-*
-frameSizeOut
 BaselineBailoutInfo
 *
 *
@@ -1083,15 +1080,6 @@ frame
 snapshotOffset
 (
 )
-)
-;
-*
-frameSizeOut
-=
-frame
-.
-frameSize
-(
 )
 ;
 MOZ_ASSERT
