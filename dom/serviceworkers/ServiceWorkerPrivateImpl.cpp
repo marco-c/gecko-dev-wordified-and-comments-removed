@@ -1281,6 +1281,9 @@ Nothing
 nullptr
 storageAccess
 isThirdPartyContextToTopWindow
+OriginTrials
+(
+)
 std
 :
 :

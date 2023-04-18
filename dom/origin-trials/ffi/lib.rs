@@ -31,6 +31,7 @@ OriginTrial
 TestTrial
 =
 1
+MAX
 }
 impl
 OriginTrial

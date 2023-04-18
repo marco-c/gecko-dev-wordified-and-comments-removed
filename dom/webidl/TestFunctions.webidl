@@ -164,7 +164,7 @@ TestTrial
 "
 Exposed
 =
-Window
+*
 ]
 interface
 TestTrialInterface

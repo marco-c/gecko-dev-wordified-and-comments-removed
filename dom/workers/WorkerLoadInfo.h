@@ -27,6 +27,15 @@ include
 "
 mozilla
 /
+OriginTrials
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -425,6 +434,9 @@ mReferrerInfo
 ;
 uint32_t
 mPrincipalHashValue
+;
+OriginTrials
+mTrials
 ;
 bool
 mFromWindow
