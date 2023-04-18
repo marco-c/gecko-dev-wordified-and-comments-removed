@@ -7171,6 +7171,17 @@ IsBorderCollapse
 )
 )
 {
+const
+bool
+rebuild
+=
+StaticPrefs
+:
+:
+layout_display_list_retain_sc
+(
+)
+;
 GetParent
 (
 )
@@ -7186,7 +7197,7 @@ GetPosition
 (
 )
 aDisplayItemKey
-false
+rebuild
 )
 ;
 }
@@ -7230,7 +7241,7 @@ GetPosition
 (
 )
 aDisplayItemKey
-false
+aRebuildDisplayItems
 )
 ;
 }
