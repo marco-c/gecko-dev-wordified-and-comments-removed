@@ -9,6 +9,12 @@ attr
 from
 taskgraph
 .
+config
+import
+GraphConfig
+from
+taskgraph
+.
 util
 .
 yaml
@@ -80,7 +86,6 @@ from
 config
 import
 load_graph_config
-GraphConfig
 logger
 =
 logging

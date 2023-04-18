@@ -13,6 +13,12 @@ responses
 import
 RequestsMock
 from
+taskgraph
+.
+config
+import
+GraphConfig
+from
 gecko_taskgraph
 import
 (
@@ -41,7 +47,6 @@ gecko_taskgraph
 config
 import
 load_graph_config
-GraphConfig
 from
 gecko_taskgraph
 .
