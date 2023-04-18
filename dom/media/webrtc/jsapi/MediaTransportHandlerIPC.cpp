@@ -994,7 +994,7 @@ std
 string
 &
 aLocalPwd
-size_t
+int
 aComponentCount
 )
 {
