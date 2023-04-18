@@ -18,6 +18,14 @@ from
 redo
 import
 retry
+from
+taskgraph
+.
+util
+.
+path
+import
+ancestors
 PUSHLOG_TMPL
 =
 "
@@ -1137,6 +1145,15 @@ exception
 "
 "
     
+for
+path
+in
+ancestors
+(
+path
+)
+:
+        
 if
 os
 .
@@ -1158,13 +1175,13 @@ hg
 )
 )
 :
-        
+            
 return
 HgRepository
 (
 path
 )
-    
+        
 elif
 os
 .
@@ -1186,7 +1203,7 @@ git
 )
 )
 :
-        
+            
 return
 GitRepository
 (
