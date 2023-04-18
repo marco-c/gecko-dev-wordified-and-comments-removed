@@ -6,6 +6,15 @@ define
 jsmath_h
 #
 include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
 <
 stdint
 .

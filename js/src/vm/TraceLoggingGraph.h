@@ -25,6 +25,15 @@ h
 #
 include
 "
+js
+/
+TypeDecls
+.
+h
+"
+#
+include
+"
 vm
 /
 MutexIDs
