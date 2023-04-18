@@ -26,6 +26,17 @@ include
 "
 mozilla
 /
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D
