@@ -1177,7 +1177,7 @@ checkUniqueMessageExists
 (
 hud
 msg
-selector
+typeSelector
 )
 {
 info
@@ -1212,14 +1212,14 @@ const
 msgs
 =
 await
-findMessagesVirtualized
+findMessagesVirtualizedByType
 (
 {
 hud
 text
 :
 msg
-selector
+typeSelector
 }
 )
 ;
