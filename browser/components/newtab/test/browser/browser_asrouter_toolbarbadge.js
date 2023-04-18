@@ -77,6 +77,12 @@ tabs
 ]
 )
 ;
+gBrowser
+.
+stop
+(
+)
+;
 Services
 .
 prefs
