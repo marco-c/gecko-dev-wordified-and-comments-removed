@@ -798,7 +798,10 @@ aValue
 aRv
 ArgType
 (
-Get
+std
+:
+:
+get
 <
 Indices
 >
@@ -871,7 +874,10 @@ mOnResolve
 RejectCallback
 mOnReject
 ;
-Tuple
+std
+:
+:
+tuple
 <
 StorageType
 <
