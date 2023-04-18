@@ -1983,9 +1983,6 @@ definition
 )
 :
         
-global
-ALWAYS_ALLOWED_KEYS
-        
 general_keys
 =
 ALWAYS_ALLOWED_KEYS
