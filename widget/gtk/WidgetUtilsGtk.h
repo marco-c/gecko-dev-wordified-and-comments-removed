@@ -141,7 +141,6 @@ PortalKind
 FilePicker
 MimeHandler
 Settings
-Location
 }
 ;
 bool
