@@ -2072,6 +2072,17 @@ winAttestation
 WEBAUTHN_ATTESTATION_CONVEYANCE_PREFERENCE_NONE
 )
 {
+const
+uint8_t
+zeroGuid
+[
+16
+]
+=
+{
+0
+}
+;
 authenticatorData
 .
 ReplaceElementsAt
@@ -2082,7 +2093,8 @@ ReplaceElementsAt
 +
 4
 16
-0x0
+zeroGuid
+16
 )
 ;
 CryptoBuffer
