@@ -2145,11 +2145,7 @@ properties
 }
 additionalProperties
 :
-false
-required
-:
-[
-]
+true
 }
 ;
 for
@@ -2213,7 +2209,7 @@ prop
 type
 =
 "
-integer
+number
 "
 ;
 break
@@ -2223,7 +2219,7 @@ case
 json
 "
 :
-break
+continue
 ;
 default
 :
@@ -2298,15 +2294,6 @@ varName
 ]
 =
 prop
-;
-schema
-.
-required
-.
-push
-(
-varName
-)
 ;
 }
 return
