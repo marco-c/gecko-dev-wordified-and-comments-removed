@@ -341,12 +341,6 @@ defined
 (
 GP_OS_darwin
 )
-&
-&
-defined
-(
-MOZ_PROFILING
-)
 #
 define
 HAVE_NATIVE_UNWIND
