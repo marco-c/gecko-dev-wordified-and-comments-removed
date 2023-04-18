@@ -5,6 +5,19 @@ mozilla_WasiAtomic_h
 define
 mozilla_WasiAtomic_h
 #
+if
+_LIBCPP_VERSION
+>
+=
+14000
+#
+include
+<
+atomic
+>
+#
+else
+#
 include
 <
 cstdint
@@ -810,5 +823,7 @@ uint64_t
 >
 ;
 }
+#
+endif
 #
 endif
