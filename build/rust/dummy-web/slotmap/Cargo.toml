@@ -31,3 +31,13 @@ Apache
 .
 0
 "
+[
+lib
+]
+path
+=
+"
+lib
+.
+rs
+"
