@@ -498,13 +498,13 @@ python3
 dev
 tox
 -
-python3_9
+python3_10
 :
 env
 :
 TOXENV
 :
-py39
+py310
 PY_COLORS
 :
 0
@@ -513,17 +513,17 @@ install
 -
 python3
 .
-9
+10
 -
 python3
 .
-9
+10
 -
 distutils
 -
 python3
 .
-9
+10
 -
 dev
 tests
@@ -1992,7 +1992,7 @@ unittests
 Python
 3
 .
-9
+10
 )
 :
 description
@@ -2008,7 +2008,7 @@ under
 Python
 3
 .
-9
+10
 excluding
 wptrunner
 use
@@ -2024,7 +2024,7 @@ pr
 -
 tox
 -
-python3_9
+python3_10
 command
 :
 .
@@ -2149,7 +2149,7 @@ tests
 Python
 3
 .
-9
+10
 )
 :
 description
@@ -2165,7 +2165,7 @@ under
 Python
 3
 .
-9
+10
 use
 :
 -
@@ -2179,7 +2179,7 @@ pr
 -
 tox
 -
-python3_9
+python3_10
 command
 :
 .
@@ -2321,7 +2321,7 @@ tests
 Python
 3
 .
-9
+10
 )
 :
 description
@@ -2343,7 +2343,7 @@ under
 Python
 3
 .
-9
+10
 use
 :
 -
@@ -2357,7 +2357,7 @@ pr
 -
 tox
 -
-python3_9
+python3_10
 command
 :
 .
