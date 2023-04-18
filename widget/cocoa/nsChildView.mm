@@ -19465,6 +19465,8 @@ currentEvent
 )
 ;
 }
+break
+;
 }
 default
 :
