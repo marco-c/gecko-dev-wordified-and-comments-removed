@@ -2384,6 +2384,17 @@ WillInterrupt
 (
 )
 ;
+if
+(
+!
+mBlocked
+)
+{
+BlockParser
+(
+)
+;
+}
 return
 NS_OK
 ;
