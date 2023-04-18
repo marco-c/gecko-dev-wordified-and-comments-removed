@@ -91,17 +91,6 @@ aEvent
 {
 if
 (
-!
-this
-.
-isContentWindow
-)
-{
-return
-;
-}
-if
-(
 aEvent
 .
 originalTarget
