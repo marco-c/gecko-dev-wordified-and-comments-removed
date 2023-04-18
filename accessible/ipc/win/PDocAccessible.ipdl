@@ -295,6 +295,8 @@ aCaretRect
 int32_t
 aOffset
 bool
+aIsAtEndOfLine
+bool
 aIsSelectionCollapsed
 )
 ;

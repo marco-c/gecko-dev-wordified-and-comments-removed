@@ -996,6 +996,10 @@ const
 bool
 &
 aIsSelectionCollapsed
+const
+bool
+&
+aIsAtEndOfLine
 )
 {
 return
@@ -1008,6 +1012,7 @@ aID
 )
 aOffset
 aIsSelectionCollapsed
+aIsAtEndOfLine
 )
 ;
 }
@@ -1033,6 +1038,10 @@ const
 bool
 &
 aIsSelectionCollapsed
+const
+bool
+&
+aIsAtEndOfLine
 )
 {
 if
@@ -1052,6 +1061,7 @@ aID
 aCaretRect
 aOffset
 aIsSelectionCollapsed
+aIsAtEndOfLine
 )
 ;
 }
@@ -1067,6 +1077,7 @@ aID
 aCaretRect
 aOffset
 aIsSelectionCollapsed
+aIsAtEndOfLine
 )
 )
 ;

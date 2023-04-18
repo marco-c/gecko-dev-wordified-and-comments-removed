@@ -260,6 +260,10 @@ const
 bool
 &
 aIsSelectionCollapsed
+const
+bool
+&
+aIsAtEndOfLine
 )
 ;
 bool
@@ -281,6 +285,10 @@ const
 bool
 &
 aIsSelectionCollapsed
+const
+bool
+&
+aIsAtEndOfLine
 )
 ;
 bool
@@ -787,6 +795,8 @@ int32_t
 aOffset
 bool
 aIsSelectionCollapsed
+bool
+aIsAtEndOfLine
 )
 :
 DeferredEvent
@@ -808,6 +818,10 @@ aOffset
 mIsSelectionCollapsed
 (
 aIsSelectionCollapsed
+)
+mIsAtEndOfLine
+(
+aIsAtEndOfLine
 )
 {
 }
@@ -832,6 +846,7 @@ mID
 mCaretRect
 mOffset
 mIsSelectionCollapsed
+mIsAtEndOfLine
 )
 ;
 }
@@ -846,6 +861,9 @@ mOffset
 ;
 bool
 mIsSelectionCollapsed
+;
+bool
+mIsAtEndOfLine
 ;
 }
 ;

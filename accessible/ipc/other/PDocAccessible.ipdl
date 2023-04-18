@@ -373,6 +373,8 @@ int32_t
 aOffset
 bool
 aIsSelectionCollapsed
+bool
+aIsAtEndOfLine
 )
 ;
 async

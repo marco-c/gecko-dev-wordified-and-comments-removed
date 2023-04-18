@@ -36,5 +36,10 @@ attribute
 bool
 isSelectionCollapsed
 ;
+readonly
+attribute
+bool
+isAtEndOfLine
+;
 }
 ;

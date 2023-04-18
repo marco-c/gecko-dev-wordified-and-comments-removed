@@ -1170,6 +1170,12 @@ cm
 IsSelectionCollapsed
 (
 )
+cm
+-
+>
+IsAtEndOfLine
+(
+)
 )
 ;
 return
