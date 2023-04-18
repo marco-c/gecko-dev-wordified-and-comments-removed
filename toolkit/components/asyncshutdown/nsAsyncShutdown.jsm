@@ -3,11 +3,17 @@ use
 strict
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AsyncShutdown
 "
@@ -935,6 +941,8 @@ k
 let
 wrapped
 =
+lazy
+.
 AsyncShutdown
 [
 k
@@ -1000,6 +1008,8 @@ new
 nsAsyncShutdownBarrier
 (
 new
+lazy
+.
 AsyncShutdown
 .
 Barrier
