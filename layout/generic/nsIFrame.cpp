@@ -5493,7 +5493,7 @@ if
 updateData
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 data
