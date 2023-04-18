@@ -6670,7 +6670,7 @@ aValue
 GetFlatThreadAnnotation
 (
 getThreadAnnotationCB
-false
+true
 )
 ;
 }
