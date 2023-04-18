@@ -1988,7 +1988,7 @@ aChild
 )
 {
 return
-LocalAccessible
+HyperTextAccessible
 :
 :
 InsertChildAt

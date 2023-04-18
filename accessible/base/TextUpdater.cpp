@@ -252,7 +252,6 @@ mHyperText
 GetChildOffset
 (
 mTextLeaf
-true
 )
 ;
 NS_ASSERTION
@@ -490,6 +489,13 @@ mTextLeaf
 SetText
 (
 aNewText
+)
+;
+mHyperText
+-
+>
+InvalidateCachedHyperTextOffsets
+(
 )
 ;
 return
@@ -755,6 +761,13 @@ mTextLeaf
 SetText
 (
 aNewText
+)
+;
+mHyperText
+-
+>
+InvalidateCachedHyperTextOffsets
+(
 )
 ;
 }
