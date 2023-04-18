@@ -25,7 +25,7 @@ namespace
 a11y
 {
 inline
-LocalAccessible
+Accessible
 *
 TextRange
 :
@@ -45,7 +45,7 @@ pos2
 ;
 AutoTArray
 <
-LocalAccessible
+Accessible
 *
 30
 >

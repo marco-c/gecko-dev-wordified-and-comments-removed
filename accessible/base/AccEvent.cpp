@@ -1270,16 +1270,10 @@ AppendElement
 new
 xpcAccessibleTextRange
 (
-std
-:
-:
-move
-(
 ranges
 [
 idx
 ]
-)
 )
 )
 ;
