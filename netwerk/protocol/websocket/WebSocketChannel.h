@@ -1238,7 +1238,10 @@ uint8_t
 *
 mDynamicOutput
 ;
+Atomic
+<
 bool
+>
 mPrivateBrowsing
 ;
 nsCOMPtr
