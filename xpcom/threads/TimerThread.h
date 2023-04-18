@@ -229,7 +229,6 @@ uint32_t
 AllowedEarlyFiringMicroseconds
 (
 )
-const
 ;
 private
 :
@@ -372,6 +371,17 @@ if
 mTimerImpl
 )
 {
+MOZ_ASSERT
+(
+mTimerImpl
+-
+>
+mHolder
+=
+=
+this
+)
+;
 mTimerImpl
 -
 >

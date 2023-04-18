@@ -3027,6 +3027,12 @@ mGeneration
 return
 ;
 }
+MOZ_ASSERT
+(
+!
+mHolder
+)
+;
 +
 +
 mFiring
