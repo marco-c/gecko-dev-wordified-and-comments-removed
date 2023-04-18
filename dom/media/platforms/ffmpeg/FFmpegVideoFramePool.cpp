@@ -335,6 +335,10 @@ av_buffer_unref
 mAVHWDeviceContext
 )
 ;
+mLib
+=
+nullptr
+;
 }
 if
 (
