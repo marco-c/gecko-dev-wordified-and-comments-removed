@@ -420,6 +420,10 @@ aNamespace
 nsAtom
 *
 aLocalName
+bool
+aFragmentsOnly
+=
+false
 )
 ;
 bool
