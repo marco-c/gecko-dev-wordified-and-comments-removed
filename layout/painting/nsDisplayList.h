@@ -8392,17 +8392,6 @@ nsRect
 aBuildingRect
 )
 {
-if
-(
-aBuildingRect
-=
-=
-mBuildingRect
-)
-{
-return
-;
-}
 mBuildingRect
 =
 aBuildingRect
