@@ -306,6 +306,16 @@ dll
 "
 )
 ;
+LoadLibraryW
+(
+L
+"
+gdi32
+.
+dll
+"
+)
+;
 mozilla
 :
 :
