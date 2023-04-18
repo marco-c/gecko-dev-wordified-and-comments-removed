@@ -519,6 +519,8 @@ TEST_LOGIN1
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1019,6 +1021,8 @@ TEST_LOGIN2
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1210,6 +1214,8 @@ false
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1342,6 +1348,8 @@ false
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1529,6 +1537,8 @@ false
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab

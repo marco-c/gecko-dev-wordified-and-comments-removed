@@ -851,6 +851,8 @@ report
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1332,6 +1334,8 @@ TEST_LOGIN1
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1529,6 +1533,8 @@ false
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1729,6 +1735,8 @@ selectedTab
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -3352,6 +3360,8 @@ numBreachesResolved
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -3838,6 +3848,8 @@ numBreachesResolved
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -4030,6 +4042,8 @@ numBreachesResolved
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -4222,6 +4236,8 @@ numBreachesResolved
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -5999,6 +6015,8 @@ us
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -6982,6 +7000,8 @@ false
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
