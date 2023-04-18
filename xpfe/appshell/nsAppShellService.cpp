@@ -477,6 +477,15 @@ return
 NS_ERROR_FAILURE
 ;
 }
+if
+(
+mHiddenWindow
+)
+{
+return
+NS_OK
+;
+}
 nsCOMPtr
 <
 nsIFile
