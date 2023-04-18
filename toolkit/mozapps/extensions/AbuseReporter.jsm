@@ -100,6 +100,9 @@ extension
 "
 theme
 "
+"
+sitepermission
+"
 ]
 ;
 XPCOMUtils
