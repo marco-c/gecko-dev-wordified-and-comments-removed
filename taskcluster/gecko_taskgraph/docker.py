@@ -9,12 +9,6 @@ io
 import
 BytesIO
 from
-taskgraph
-.
-parameters
-import
-Parameters
-from
 gecko_taskgraph
 .
 generator
@@ -28,6 +22,12 @@ optimize
 strategies
 import
 IndexSearch
+from
+gecko_taskgraph
+.
+parameters
+import
+Parameters
 from
 gecko_taskgraph
 .
