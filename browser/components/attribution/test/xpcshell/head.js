@@ -170,6 +170,13 @@ msstoresignedin
 :
 true
 }
+platforms
+:
+[
+"
+win
+"
+]
 }
 {
 code
