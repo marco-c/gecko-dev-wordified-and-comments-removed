@@ -873,11 +873,7 @@ test_runner
                  
 device_serial
 =
-"
-emulator
--
-5444
-"
+None
 extra_prefs
 =
 None
