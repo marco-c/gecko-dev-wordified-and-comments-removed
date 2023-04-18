@@ -945,10 +945,6 @@ ImageContainerChild
 ;
 public
 :
-MOZ_DECLARE_THREADSAFEWEAKREFERENCE_TYPENAME
-(
-ImageContainer
-)
 MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 ImageContainer
