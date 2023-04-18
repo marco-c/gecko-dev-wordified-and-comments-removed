@@ -49,6 +49,7 @@ LockdownEnabled
 =
 1
 MissingWebRender
+MissingRemoteWebGL
 OperatingSystemNotSupported
 PrefNotSet
 }
