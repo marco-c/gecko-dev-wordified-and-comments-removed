@@ -2198,6 +2198,10 @@ argv
 [
 2
 ]
+SetPermissionsOf
+:
+:
+BaseDirIfNotExists
 updateDir
 )
 ;
