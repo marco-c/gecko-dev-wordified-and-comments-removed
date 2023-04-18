@@ -565,15 +565,6 @@ datadir
 -
 enable
 -
-dump
--
-painting
-"
-"
--
--
-enable
--
 extensions
 "
 "
