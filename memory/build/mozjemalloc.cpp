@@ -1797,7 +1797,6 @@ endif
 static
 StaticMutex
 gInitLock
-MOZ_UNANNOTATED
 =
 {
 STATIC_MUTEX_INIT
@@ -2424,7 +2423,6 @@ out
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 void
 *
@@ -2880,7 +2878,6 @@ mId
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 arena_stats_t
 mStats
@@ -3673,7 +3670,6 @@ mDefaultArena
 }
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 private
 :
@@ -3731,7 +3727,6 @@ gChunkRTree
 static
 Mutex
 chunks_mtx
-MOZ_UNANNOTATED
 ;
 static
 RedBlackTree
@@ -3752,7 +3747,6 @@ gChunksByAddress
 static
 Mutex
 huge_mtx
-MOZ_UNANNOTATED
 ;
 static
 RedBlackTree
@@ -3793,7 +3787,6 @@ base_past_addr
 static
 Mutex
 base_mtx
-MOZ_UNANNOTATED
 ;
 static
 size_t

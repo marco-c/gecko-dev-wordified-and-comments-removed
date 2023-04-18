@@ -97,7 +97,6 @@ false
 static
 Mutex
 sMutex
-MOZ_UNANNOTATED
 ;
 #
 ifndef

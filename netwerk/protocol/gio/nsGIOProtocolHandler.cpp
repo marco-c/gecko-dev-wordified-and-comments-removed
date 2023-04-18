@@ -764,7 +764,6 @@ mozilla
 :
 Monitor
 mMonitorMountInProgress
-MOZ_UNANNOTATED
 {
 "
 GIOInputStream

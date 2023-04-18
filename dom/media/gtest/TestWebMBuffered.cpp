@@ -81,7 +81,6 @@ BasicTests
 {
 ReentrantMonitor
 dummy
-MOZ_UNANNOTATED
 (
 "
 dummy
@@ -324,7 +323,6 @@ RealData
 {
 ReentrantMonitor
 dummy
-MOZ_UNANNOTATED
 (
 "
 dummy
@@ -489,7 +487,6 @@ RealDataAppend
 {
 ReentrantMonitor
 dummy
-MOZ_UNANNOTATED
 (
 "
 dummy

@@ -14178,7 +14178,6 @@ sPendingWriteCount
 static
 StaticMutex
 sWritingToFile
-MOZ_UNANNOTATED
 ;
 }
 ;
@@ -24891,7 +24890,6 @@ false
 static
 StaticMutex
 sOncePrefMutex
-MOZ_UNANNOTATED
 ;
 namespace
 StaticPrefs

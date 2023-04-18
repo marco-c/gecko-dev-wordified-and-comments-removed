@@ -140,7 +140,6 @@ sync
 ;
 Monitor
 monitor
-MOZ_UNANNOTATED
 (
 "
 TaskQueue

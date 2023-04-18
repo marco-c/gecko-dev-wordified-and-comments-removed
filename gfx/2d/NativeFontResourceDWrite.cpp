@@ -58,7 +58,6 @@ gfx
 static
 StaticMutex
 sFontFileStreamsMutex
-MOZ_UNANNOTATED
 ;
 static
 uint64_t

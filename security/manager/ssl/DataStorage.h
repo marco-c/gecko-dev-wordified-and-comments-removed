@@ -491,7 +491,6 @@ aProofOfLock
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 DataStorageTable
 mPersistentDataTable
@@ -537,7 +536,6 @@ mInitCalled
 ;
 Monitor
 mReadyMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mReady

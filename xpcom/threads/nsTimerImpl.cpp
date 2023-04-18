@@ -256,7 +256,6 @@ mozilla
 :
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
 ;
 TimerThread
 *
@@ -1554,7 +1553,6 @@ nsTimerImpl
 :
 :
 sDeltaMutex
-MOZ_UNANNOTATED
 ;
 double
 nsTimerImpl

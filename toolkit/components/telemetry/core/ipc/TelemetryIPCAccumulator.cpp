@@ -356,7 +356,6 @@ gChildEvents
 static
 StaticMutex
 gTelemetryIPCAccumulatorMutex
-MOZ_UNANNOTATED
 ;
 namespace
 {

@@ -405,7 +405,6 @@ sCollectionMask
 static
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
 ;
 static
 StaticAutoPtr

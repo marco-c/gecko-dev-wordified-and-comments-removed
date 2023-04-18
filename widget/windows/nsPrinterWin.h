@@ -219,7 +219,6 @@ mozilla
 :
 Mutex
 mDriverMutex
-MOZ_UNANNOTATED
 {
 "
 nsPrinterWin

@@ -1733,7 +1733,6 @@ sSingleton
 static
 StaticMutex
 sSingletonMutex
-MOZ_UNANNOTATED
 ;
 MediaEventListener
 mDeviceListChangeListener

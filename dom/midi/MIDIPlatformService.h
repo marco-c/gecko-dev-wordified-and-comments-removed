@@ -361,7 +361,6 @@ mMessageQueues
 ;
 Mutex
 mMessageQueueMutex
-MOZ_UNANNOTATED
 ;
 }
 ;

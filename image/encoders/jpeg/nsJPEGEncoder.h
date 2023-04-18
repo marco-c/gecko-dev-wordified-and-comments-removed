@@ -185,7 +185,6 @@ mNotifyThreshold
 ;
 ReentrantMonitor
 mReentrantMonitor
-MOZ_UNANNOTATED
 ;
 }
 ;

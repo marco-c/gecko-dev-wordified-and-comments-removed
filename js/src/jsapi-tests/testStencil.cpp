@@ -2366,7 +2366,6 @@ js
 :
 Monitor
 monitor
-MOZ_UNANNOTATED
 (
 js
 :
@@ -2654,7 +2653,6 @@ js
 :
 Monitor
 monitor
-MOZ_UNANNOTATED
 (
 js
 :
@@ -2978,7 +2976,6 @@ js
 :
 Monitor
 monitor
-MOZ_UNANNOTATED
 (
 js
 :
@@ -3318,7 +3315,6 @@ js
 :
 Monitor
 monitor
-MOZ_UNANNOTATED
 (
 js
 :
@@ -3858,7 +3854,6 @@ js
 :
 Monitor
 monitor
-MOZ_UNANNOTATED
 (
 js
 :
@@ -4368,7 +4363,6 @@ js
 :
 Monitor
 monitor
-MOZ_UNANNOTATED
 (
 js
 :
@@ -4909,7 +4903,6 @@ js
 :
 Monitor
 monitor
-MOZ_UNANNOTATED
 (
 js
 :
@@ -5479,7 +5472,6 @@ js
 :
 Monitor
 monitor
-MOZ_UNANNOTATED
 (
 js
 :

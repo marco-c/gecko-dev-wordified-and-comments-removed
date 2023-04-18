@@ -659,7 +659,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 uint16_t
 mReadyState

@@ -84,7 +84,6 @@ default
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 RefPtr
 <

@@ -510,7 +510,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 uint16_t
 mCipherSuite
@@ -914,7 +913,6 @@ private
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 static
 RememberCertErrorsTable

@@ -217,7 +217,6 @@ mozilla
 :
 RWLock
 mGraphLock
-MOZ_UNANNOTATED
 ;
 struct
 TLDCacheEntry

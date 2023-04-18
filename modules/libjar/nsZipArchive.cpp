@@ -667,7 +667,6 @@ private
 static
 StaticMutex
 sLock
-MOZ_UNANNOTATED
 ;
 int
 mRefCnt

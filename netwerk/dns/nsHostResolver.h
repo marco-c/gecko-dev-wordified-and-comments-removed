@@ -1246,7 +1246,6 @@ mDefaultGracePeriod
 mutable
 Mutex
 mLock
-MOZ_UNANNOTATED
 {
 "
 nsHostResolver

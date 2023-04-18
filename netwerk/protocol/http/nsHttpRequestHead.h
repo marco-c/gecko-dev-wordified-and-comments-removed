@@ -614,7 +614,6 @@ false
 mutable
 RecursiveMutex
 mRecursiveMutex
-MOZ_UNANNOTATED
 {
 "
 nsHttpRequestHead

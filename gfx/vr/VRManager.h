@@ -774,7 +774,6 @@ mozilla
 :
 Monitor
 mCurrentSubmitTaskMonitor
-MOZ_UNANNOTATED
 ;
 RefPtr
 <

@@ -424,7 +424,6 @@ return
 }
 Monitor
 monitor
-MOZ_UNANNOTATED
 (
 "
 nsUpdateDriver

@@ -924,7 +924,6 @@ mozilla
 :
 ReentrantMonitor
 m1
-MOZ_UNANNOTATED
 (
 "
 dd
@@ -1123,7 +1122,6 @@ mozilla
 :
 RecursiveMutex
 m1
-MOZ_UNANNOTATED
 (
 "
 dd

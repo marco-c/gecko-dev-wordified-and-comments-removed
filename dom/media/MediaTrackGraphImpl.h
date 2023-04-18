@@ -1745,7 +1745,6 @@ mPendingResumeOperations
 ;
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 nsTArray
 <

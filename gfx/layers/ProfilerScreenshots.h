@@ -200,7 +200,6 @@ mAvailableSurfaces
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 uint32_t
 mLiveSurfaceCount

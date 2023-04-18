@@ -408,7 +408,6 @@ mMarkersStores
 static
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
 ;
 }
 ;

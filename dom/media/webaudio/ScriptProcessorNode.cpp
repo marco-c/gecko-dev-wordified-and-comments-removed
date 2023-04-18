@@ -348,7 +348,6 @@ BufferList
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 BufferList
 mBufferList

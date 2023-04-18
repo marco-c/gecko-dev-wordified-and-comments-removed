@@ -136,7 +136,6 @@ private
 static
 StaticMutex
 sLock
-MOZ_UNANNOTATED
 ;
 static
 StaticRefPtr

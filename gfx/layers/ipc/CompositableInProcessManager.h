@@ -261,7 +261,6 @@ sCompositables
 static
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
 ;
 static
 uint32_t

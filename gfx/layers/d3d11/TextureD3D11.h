@@ -2369,7 +2369,6 @@ aFallible
 ;
 Mutex
 mSyncLock
-MOZ_UNANNOTATED
 ;
 RefPtr
 <

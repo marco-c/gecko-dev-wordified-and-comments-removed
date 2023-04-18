@@ -476,7 +476,6 @@ mPooledClients
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 bool
 mIsDestroyed

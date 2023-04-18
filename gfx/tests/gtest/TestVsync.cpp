@@ -270,7 +270,6 @@ private
 :
 Monitor
 mVsyncMonitor
-MOZ_UNANNOTATED
 ;
 }
 ;

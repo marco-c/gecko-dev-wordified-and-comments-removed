@@ -530,7 +530,6 @@ EGL_NO_CONTEXT
 static
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
 ;
 static
 StaticRefPtr

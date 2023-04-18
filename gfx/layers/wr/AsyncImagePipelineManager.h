@@ -1259,7 +1259,6 @@ mRenderSubmittedUpdates
 ;
 Mutex
 mRenderSubmittedUpdatesLock
-MOZ_UNANNOTATED
 ;
 Atomic
 <

@@ -1807,7 +1807,6 @@ override
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 float
 mVolume

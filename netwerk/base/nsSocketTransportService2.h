@@ -550,7 +550,6 @@ false
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 {
 "
 nsSocketTransportService

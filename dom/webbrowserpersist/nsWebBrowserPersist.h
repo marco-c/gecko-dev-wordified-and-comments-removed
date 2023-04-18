@@ -752,7 +752,6 @@ mozilla
 :
 Mutex
 mOutputMapMutex
-MOZ_UNANNOTATED
 ;
 nsClassHashtable
 <

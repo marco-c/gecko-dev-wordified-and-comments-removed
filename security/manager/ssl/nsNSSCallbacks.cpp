@@ -446,7 +446,6 @@ proofOfLock
 ;
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mNotifiedDone

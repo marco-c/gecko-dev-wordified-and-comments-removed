@@ -609,7 +609,6 @@ mQueue
 ;
 Mutex
 mBufferMutex
-MOZ_UNANNOTATED
 ;
 bool
 mReceivedStop

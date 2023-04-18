@@ -1050,7 +1050,6 @@ mTexturesWaitingNotifyNotUsed
 ;
 Mutex
 mContainerMapLock
-MOZ_UNANNOTATED
 ;
 std
 :

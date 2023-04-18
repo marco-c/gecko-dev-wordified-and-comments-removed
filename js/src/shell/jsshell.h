@@ -909,7 +909,6 @@ js
 :
 Mutex
 watchdogLock
-MOZ_UNANNOTATED
 ;
 js
 :
@@ -1007,7 +1006,6 @@ js
 :
 Monitor
 offThreadMonitor
-MOZ_UNANNOTATED
 ;
 Vector
 <

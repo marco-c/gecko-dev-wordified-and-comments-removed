@@ -5946,7 +5946,6 @@ js
 :
 Mutex
 lock
-MOZ_UNANNOTATED
 ;
 friend
 class

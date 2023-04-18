@@ -5378,7 +5378,6 @@ gInstance
 static
 StaticMutex
 sLock
-MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <

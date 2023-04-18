@@ -1096,7 +1096,6 @@ mOriginalInput
 ;
 ReentrantMonitor
 mReentrantMonitor
-MOZ_UNANNOTATED
 ;
 nsSegmentedBuffer
 mBuffer

@@ -4070,7 +4070,6 @@ private
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 const
 RefPtr

@@ -6295,7 +6295,6 @@ nullptr
 static
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
 ;
 static
 StaticRefPtr

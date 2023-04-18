@@ -625,7 +625,6 @@ mODATarget
 ;
 Mutex
 mEventTargetMutex
-MOZ_UNANNOTATED
 {
 "
 HttpTransactionParent

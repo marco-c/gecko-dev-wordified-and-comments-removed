@@ -221,7 +221,6 @@ mPendingRequests
 ;
 Mutex
 mPendingRequestsLock
-MOZ_UNANNOTATED
 {
 "
 DNSPendingRequestsLock

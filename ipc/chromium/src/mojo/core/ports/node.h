@@ -905,7 +905,6 @@ mozilla
 :
 Mutex
 ports_lock_
-MOZ_UNANNOTATED
 {
 "
 Ports

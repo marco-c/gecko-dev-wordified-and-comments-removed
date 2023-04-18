@@ -477,7 +477,6 @@ mozilla
 :
 Mutex
 mWaitLock
-MOZ_UNANNOTATED
 ;
 }
 ;

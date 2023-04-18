@@ -186,7 +186,6 @@ mImplementation
 static
 StaticMutex
 gBackgroundThreadMutex
-MOZ_UNANNOTATED
 ;
 static
 nsCOMPtr

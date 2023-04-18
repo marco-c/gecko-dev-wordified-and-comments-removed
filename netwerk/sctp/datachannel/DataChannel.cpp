@@ -1185,7 +1185,6 @@ mShutdownBlocker
 static
 StaticMutex
 sInstanceMutex
-MOZ_UNANNOTATED
 ;
 }
 ;

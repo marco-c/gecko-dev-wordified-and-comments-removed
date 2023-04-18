@@ -157,7 +157,6 @@ ProcessCodeSegmentMap
 {
 Mutex
 mutatorsMutex_
-MOZ_UNANNOTATED
 ;
 CodeSegmentVector
 segments1_

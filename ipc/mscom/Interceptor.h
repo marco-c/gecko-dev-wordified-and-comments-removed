@@ -636,7 +636,6 @@ mozilla
 :
 Mutex
 mInterceptorMapMutex
-MOZ_UNANNOTATED
 ;
 nsTArray
 <
@@ -649,7 +648,6 @@ mozilla
 :
 Mutex
 mStdMarshalMutex
-MOZ_UNANNOTATED
 ;
 RefPtr
 <

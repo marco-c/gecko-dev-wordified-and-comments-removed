@@ -660,7 +660,6 @@ mHangMonitor
 ;
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mSentReport
@@ -1121,7 +1120,6 @@ mIPCOpen
 ;
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 RefPtr
 <
@@ -1141,7 +1139,6 @@ mBrowserCrashDumpIds
 ;
 Mutex
 mBrowserCrashDumpHashLock
-MOZ_UNANNOTATED
 ;
 mozilla
 :

@@ -104,7 +104,6 @@ length_
 ;
 Mutex
 growLock_
-MOZ_UNANNOTATED
 ;
 wasm
 :

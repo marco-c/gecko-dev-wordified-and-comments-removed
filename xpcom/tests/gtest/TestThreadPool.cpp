@@ -554,7 +554,6 @@ mDone
 ;
 Monitor
 mon
-MOZ_UNANNOTATED
 (
 "
 ThreadPool

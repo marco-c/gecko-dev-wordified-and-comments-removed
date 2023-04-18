@@ -370,7 +370,6 @@ private
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 nsRefPtrHashtable
 <

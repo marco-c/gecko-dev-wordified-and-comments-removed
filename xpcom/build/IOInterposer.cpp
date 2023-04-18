@@ -1744,7 +1744,6 @@ IOInterposer
 :
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 mozilla
 :

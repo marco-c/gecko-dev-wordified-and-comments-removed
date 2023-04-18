@@ -529,7 +529,6 @@ mozilla
 :
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 uint32_t
 mCacheSize

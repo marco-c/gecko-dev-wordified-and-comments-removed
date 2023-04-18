@@ -396,7 +396,6 @@ mTarget
 ;
 Monitor
 mQueueMonitor
-MOZ_UNANNOTATED
 ;
 typedef
 struct
