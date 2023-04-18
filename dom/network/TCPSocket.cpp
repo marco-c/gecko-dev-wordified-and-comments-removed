@@ -4853,10 +4853,16 @@ aStatus
 )
 !
 =
+static_cast
+<
+uint32_t
+>
+(
 nsISocketTransport
 :
 :
 STATUS_CONNECTED_TO
+)
 )
 {
 return
