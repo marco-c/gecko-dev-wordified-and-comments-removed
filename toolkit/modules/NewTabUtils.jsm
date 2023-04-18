@@ -3887,6 +3887,8 @@ stream
 .
 hideTopSitesWithSearchParam
 "
+"
+"
 )
 }
 aOptions
