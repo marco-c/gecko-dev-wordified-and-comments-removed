@@ -89,12 +89,14 @@ breakpointSources
 js
 "
 "
-getCallStackFrames
+event
+-
+listeners
 .
 js
 "
 "
-inComponent
+getCallStackFrames
 .
 js
 "
