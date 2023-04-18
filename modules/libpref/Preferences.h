@@ -2315,7 +2315,7 @@ InitStaticMembers
 }
 ;
 bool
-ShouldSyncPreference
+ShouldSanitizePreference
 (
 const
 char
