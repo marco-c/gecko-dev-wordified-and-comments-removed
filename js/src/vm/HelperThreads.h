@@ -577,6 +577,14 @@ JSRuntime
 runtime
 )
 ;
+void
+CancelOffThreadDelazify
+(
+JSRuntime
+*
+runtime
+)
+;
 JS
 :
 :

@@ -1234,6 +1234,11 @@ CancelOffThreadParses
 this
 )
 ;
+CancelOffThreadDelazify
+(
+this
+)
+;
 CancelOffThreadCompressions
 (
 this
