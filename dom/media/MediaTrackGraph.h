@@ -1753,6 +1753,16 @@ GetVolumeLocked
 (
 )
 ;
+Mutex
+&
+GetMutex
+(
+)
+{
+return
+mMutex
+;
+}
 friend
 class
 MediaTrackGraphImpl
