@@ -2,13 +2,13 @@ use
 std
 :
 :
-io
+cmp
 ;
 use
 std
 :
 :
-cmp
+io
 ;
 use
 std
@@ -257,9 +257,7 @@ usize
 as
 DWORD
 ;
-try
-!
-(
+crate
 :
 :
 cvt
@@ -292,7 +290,7 @@ _
 )
 }
 )
-)
+?
 ;
 Ok
 (
@@ -358,9 +356,7 @@ usize
 as
 DWORD
 ;
-try
-!
-(
+crate
 :
 :
 cvt
@@ -393,7 +389,7 @@ _
 )
 }
 )
-)
+?
 ;
 Ok
 (
@@ -589,6 +585,7 @@ DWORD
 let
 res
 =
+crate
 :
 :
 cvt
@@ -675,6 +672,7 @@ bytes
 let
 res
 =
+crate
 :
 :
 cvt
@@ -741,10 +739,12 @@ wait
 FALSE
 =
 >
+{
 Ok
 (
 None
 )
+}
 Err
 (
 e
@@ -940,6 +940,7 @@ DWORD
 let
 res
 =
+crate
 :
 :
 cvt
@@ -1026,6 +1027,7 @@ bytes
 let
 res
 =
+crate
 :
 :
 cvt
@@ -1092,10 +1094,12 @@ wait
 FALSE
 =
 >
+{
 Ok
 (
 None
 )
+}
 Err
 (
 e
