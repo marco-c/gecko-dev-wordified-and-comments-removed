@@ -439,6 +439,17 @@ mozilla
 /
 dom
 /
+WorkerPrivate
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WorkerRef
 .
 h

@@ -8,6 +8,13 @@ h
 #
 include
 "
+WorkerPrivate
+.
+h
+"
+#
+include
+"
 WorkerScope
 .
 h
