@@ -1691,6 +1691,17 @@ mpi_tests
 '
 gtests
 /
+base_gtest
+/
+base_gtest
+.
+gyp
+:
+base_gtest
+'
+'
+gtests
+/
 certhigh_gtest
 /
 certhigh_gtest

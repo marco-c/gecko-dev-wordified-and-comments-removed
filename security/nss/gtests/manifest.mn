@@ -111,6 +111,8 @@ NSS_BUILD_UTIL_ONLY
 NSS_SRCDIRS
 =
 \
+base_gtest
+\
 certdb_gtest
 \
 certhigh_gtest
@@ -140,6 +142,9 @@ pkcs11testmodule
 (
 NULL
 )
+base_gtest
+:
+common
 certdb_gtest
 :
 common

@@ -23,10 +23,6 @@ TLS13_ECH_SIGNAL_LEN
 define
 TLS13_ECH_AEAD_TAG_LEN
 16
-#
-define
-TLS13_ECH_GREASE_SNI_LEN
-100
 static
 const
 char

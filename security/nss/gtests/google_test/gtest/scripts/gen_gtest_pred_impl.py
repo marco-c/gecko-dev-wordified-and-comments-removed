@@ -270,6 +270,7 @@ n
   
 return
 (
+  
 "
 "
 "
@@ -614,6 +615,12 @@ predicate
 assertion
 macros
 .
+/
+/
+GOOGLETEST_CM0001
+DO
+NOT
+DELETE
 #
 ifndef
 GTEST_INCLUDE_GTEST_GTEST_PRED_IMPL_H_
@@ -1605,11 +1612,12 @@ impl
 =
 Iter
 (
+      
 n
 "
 "
 "
-                            
+      
 <
 <
 "
@@ -1630,12 +1638,21 @@ to
 "
 <
 <
+:
+:
+testing
+:
+:
+PrintToString
+(
 v
 %
 s
+)
 "
 "
 "
+  
 )
   
 impl
@@ -2286,6 +2303,7 @@ argv
   
 return
 (
+  
 "
 "
 "
@@ -3173,6 +3191,7 @@ n
 tests
 =
 (
+  
 "
 "
 "
@@ -3245,30 +3264,26 @@ two
 functions
 are
 needed
-to
-circumvent
+because
 a
-bug
-in
+compiler
+doesn
+'
+t
+have
 /
 /
-gcc
-2
-.
-95
-.
-3
+a
+context
+yet
+to
+know
 which
-sometimes
-has
-problem
-with
-the
-above
 template
-/
-/
 function
+must
+be
+instantiated
 .
 bool
 PredFunction
@@ -3816,11 +3831,11 @@ Test
 protected
 :
   
-virtual
 void
 SetUp
 (
 )
+override
 {
     
 expected_to_finish_
@@ -3878,11 +3893,11 @@ tests
 "
 "
   
-virtual
 void
 TearDown
 (
 )
+override
 {
     
 /
@@ -4063,7 +4078,10 @@ expected
 /
 /
 true
-iff
+if
+and
+only
+if
 the
 test
 function
@@ -4083,7 +4101,10 @@ expected_to_finish_
 /
 /
 true
-iff
+if
+and
+only
+if
 the
 test
 function
@@ -4289,7 +4310,10 @@ Args
 use_format
 :
 true
-iff
+if
+and
+only
+if
 the
 assertion
 is
@@ -4302,7 +4326,10 @@ _PRED_FORMAT
 use_assert
 :
 true
-iff
+if
+and
+only
+if
 the
 assertion
 is
@@ -4314,7 +4341,10 @@ ASSERT_
 expect_failure
 :
 true
-iff
+if
+and
+only
+if
 the
 assertion
 is
@@ -4326,7 +4356,10 @@ fail
 use_functor
 :
 true
-iff
+if
+and
+only
+if
 the
 first
 argument
@@ -4348,7 +4381,10 @@ function
 use_user_type
 :
 true
-iff
+if
+and
+only
+if
 the
 predicate
 functor

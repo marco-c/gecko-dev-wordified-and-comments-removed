@@ -386,6 +386,11 @@ tlsprfalg
 .
 c
 '
+'
+secmpi
+.
+c
+'
 ]
 '
 conditions

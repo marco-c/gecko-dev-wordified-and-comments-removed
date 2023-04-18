@@ -1129,6 +1129,7 @@ GTESTS
 GTESTS
 :
 -
+base_gtest
 certhigh_gtest
 certdb_gtest
 der_gtest

@@ -190,10 +190,6 @@ NSSModule
 *
 module
 ;
-NSSToken
-*
-token
-;
 CK_SLOT_ID
 slotID
 ;

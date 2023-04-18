@@ -235,6 +235,15 @@ PublicKeyAlgorithm
 :
 RSA_PKCS1
 :
+case
+der
+:
+:
+PublicKeyAlgorithm
+:
+:
+RSA_PSS
+:
 {
 unsigned
 int

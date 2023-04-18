@@ -1442,7 +1442,14 @@ NSS_DEFAULT_DB_TYPE
 "
 :
 "
-dbm
+sql
+"
+"
+NSS_DISABLE_UNLOAD
+"
+:
+"
+1
 "
 }
 run_tests

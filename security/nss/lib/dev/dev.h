@@ -264,16 +264,6 @@ slot
 )
 ;
 NSS_EXTERN
-NSSUTF8
-*
-nssSlot_GetTokenName
-(
-NSSSlot
-*
-slot
-)
-;
-NSS_EXTERN
 NSSModule
 *
 nssSlot_GetModule

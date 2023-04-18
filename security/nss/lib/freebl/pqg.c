@@ -5874,7 +5874,7 @@ generate_G
 }
 err
 =
-mpp_pprime
+mpp_pprime_secure
 (
 &
 Q
@@ -6006,7 +6006,7 @@ step_11_9
 ;
 err
 =
-mpp_pprime
+mpp_pprime_secure
 (
 &
 P
@@ -7208,7 +7208,7 @@ r
 ;
 CHECKPARAM
 (
-mpp_pprime
+mpp_pprime_secure
 (
 &
 Q
@@ -7225,7 +7225,7 @@ MP_YES
 ;
 CHECKPARAM
 (
-mpp_pprime
+mpp_pprime_secure
 (
 &
 P

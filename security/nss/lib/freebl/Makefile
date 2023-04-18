@@ -5349,6 +5349,9 @@ DEFINES
 DMP_API_COMPATIBLE
 MPI_USERS
 =
+secmpi
+.
+c
 dh
 .
 c

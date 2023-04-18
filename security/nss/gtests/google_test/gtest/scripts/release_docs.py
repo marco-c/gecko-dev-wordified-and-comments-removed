@@ -76,7 +76,7 @@ can
        
 look
 up
-documenation
+documentation
 relevant
 for
 that

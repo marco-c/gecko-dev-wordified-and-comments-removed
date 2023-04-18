@@ -1,9 +1,9 @@
 #
 ifndef
-GTEST_TEST_GTEST_TYPED_TEST_TEST_H_
+GOOGLETEST_TEST_GTEST_TYPED_TEST_TEST_H_
 #
 define
-GTEST_TEST_GTEST_TYPED_TEST_TEST_H_
+GOOGLETEST_TEST_GTEST_TYPED_TEST_TEST_H_
 #
 include
 "
@@ -13,9 +13,6 @@ gtest
 .
 h
 "
-#
-if
-GTEST_HAS_TYPED_TEST_P
 using
 testing
 :
@@ -77,7 +74,5 @@ CanBeDefaultConstructed
 InitialSizeIsZero
 )
 ;
-#
-endif
 #
 endif

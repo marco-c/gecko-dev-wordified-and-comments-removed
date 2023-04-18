@@ -28,6 +28,16 @@ direct
 h
 >
 #
+elif
+GTEST_OS_OS2
+#
+include
+<
+strings
+.
+h
+>
+#
 endif
 #
 include

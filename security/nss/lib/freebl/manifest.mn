@@ -778,6 +778,10 @@ jpake
 .
 c
 \
+secmpi
+.
+c
+\
 (
 MPI_SRCS
 )

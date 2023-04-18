@@ -68,6 +68,10 @@ RANLIB
 ?
 =
 ranlib
+LD
+?
+=
+ld
 include
 (
 CORE_DEPTH
@@ -825,7 +829,9 @@ findstring
 8
 (
 shell
-ld
+(
+LD
+)
 -
 v
 )

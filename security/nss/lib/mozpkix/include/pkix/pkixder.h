@@ -1649,6 +1649,7 @@ class
 PublicKeyAlgorithm
 {
 RSA_PKCS1
+RSA_PSS
 ECDSA
 }
 ;
