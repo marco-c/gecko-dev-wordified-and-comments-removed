@@ -34,8 +34,6 @@ titlesonly
 .
 /
 README
-.
-.
 /
 tools
 /
@@ -43,7 +41,7 @@ wptrunner
 /
 README
 .
-.
+rst
 /
 tools
 /
