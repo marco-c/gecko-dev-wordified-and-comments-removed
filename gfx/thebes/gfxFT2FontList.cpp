@@ -1753,6 +1753,13 @@ stretch
 )
 )
 ;
+aFontEntry
+-
+>
+SetupVariationRanges
+(
+)
+;
 }
 FT2FontEntry
 *
