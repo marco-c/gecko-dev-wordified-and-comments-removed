@@ -8264,8 +8264,6 @@ cast_unit
 )
 &
 map_local_to_surface
-&
-pic_to_world_mapper
 frame_context
 .
 spatial_tree
@@ -8278,10 +8276,6 @@ resource_cache
 frame_context
 .
 global_device_pixel_scale
-&
-frame_context
-.
-global_screen_world_rect
 &
 mut
 frame_state

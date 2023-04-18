@@ -4868,17 +4868,6 @@ clip_mask_kind
 }
 else
 {
-let
-dirty_world_rect
-=
-frame_state
-.
-current_dirty_region
-(
-)
-.
-combined
-;
 for
 segment
 in
@@ -4929,10 +4918,6 @@ pic_state
 .
 map_local_to_pic
 &
-pic_state
-.
-map_pic_to_world
-&
 frame_context
 .
 spatial_tree
@@ -4943,8 +4928,6 @@ frame_state
 .
 resource_cache
 device_pixel_scale
-&
-dirty_world_rect
 &
 mut
 data_stores

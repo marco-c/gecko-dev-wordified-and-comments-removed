@@ -1676,8 +1676,6 @@ local_rect
 &
 map_local_to_surface
 &
-map_surface_to_world
-&
 frame_context
 .
 spatial_tree
@@ -1690,8 +1688,6 @@ resource_cache
 surface
 .
 device_pixel_scale
-&
-world_culling_rect
 &
 mut
 frame_state
