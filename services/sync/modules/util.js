@@ -358,16 +358,6 @@ sha256
 CryptoUtils
 .
 sha256
-makeHMACKey
-:
-CryptoUtils
-.
-makeHMACKey
-makeHMACHasher
-:
-CryptoUtils
-.
-makeHMACHasher
 hkdfExpand
 :
 CryptoUtils
