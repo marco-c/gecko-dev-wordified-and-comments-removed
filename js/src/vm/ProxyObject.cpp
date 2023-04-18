@@ -997,7 +997,10 @@ value
 *
 reinterpret_cast
 <
-GCPtrValue
+GCPtr
+<
+Value
+>
 *
 >
 (

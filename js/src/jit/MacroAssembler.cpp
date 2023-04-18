@@ -4117,7 +4117,10 @@ offset
 =
 sizeof
 (
-GCPtrValue
+GCPtr
+<
+Value
+>
 )
 )
 {
@@ -4169,7 +4172,10 @@ offset
 =
 sizeof
 (
-GCPtrValue
+GCPtr
+<
+Value
+>
 )
 )
 {
@@ -4215,7 +4221,10 @@ offset
 =
 sizeof
 (
-GCPtrValue
+GCPtr
+<
+Value
+>
 )
 )
 {

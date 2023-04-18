@@ -148,7 +148,10 @@ i
 )
 )
 ;
-GCPtrValue
+GCPtr
+<
+Value
+>
 &
 lhs
 =

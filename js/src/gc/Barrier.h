@@ -4952,14 +4952,6 @@ JitCode
 ;
 }
 using
-GCPtrValue
-=
-GCPtr
-<
-Value
->
-;
-using
 ImmutablePropertyNamePtr
 =
 ImmutableTenuredPtr

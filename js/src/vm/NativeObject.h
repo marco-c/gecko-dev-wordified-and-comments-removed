@@ -266,7 +266,10 @@ MOZ_ALWAYS_INLINE
 void
 Debug_SetValueRangeToCrashOnTouch
 (
-GCPtrValue
+GCPtr
+<
+Value
+>
 *
 vec
 size_t
