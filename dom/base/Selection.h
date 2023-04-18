@@ -634,7 +634,7 @@ nsRange
 *
 GetRangeAt
 (
-int32_t
+uint32_t
 aIndex
 )
 const

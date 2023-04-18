@@ -45,6 +45,15 @@ include
 "
 mozilla
 /
+IntegerRange
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RangeBoundary
 .
 h

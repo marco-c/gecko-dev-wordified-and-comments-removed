@@ -1859,8 +1859,9 @@ NS_ENSURE_ARG_POINTER
 aSel
 )
 ;
+const
 uint32_t
-count
+rangeCount
 =
 aSel
 -
@@ -1871,7 +1872,7 @@ RangeCount
 ;
 if
 (
-count
+rangeCount
 <
 1
 )
@@ -1967,7 +1968,7 @@ aSel
 >
 GetRangeAt
 (
-count
+rangeCount
 -
 1
 )
@@ -2243,7 +2244,7 @@ aSel
 >
 GetRangeAt
 (
-count
+rangeCount
 -
 1
 )
