@@ -1183,8 +1183,6 @@ self
 browser
 .
 pid
-(
-)
         
 except
 Exception

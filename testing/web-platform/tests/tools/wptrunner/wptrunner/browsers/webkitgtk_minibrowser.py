@@ -29,6 +29,14 @@ from
 .
 executors
 .
+base
+import
+WdspecExecutor
+from
+.
+.
+executors
+.
 executorwebdriver
 import
 (
@@ -38,14 +46,6 @@ WebDriverRefTestExecutor
                                            
 WebDriverCrashtestExecutor
 )
-from
-.
-.
-executors
-.
-executorwebkit
-import
-WebKitDriverWdspecExecutor
 __wptrunner__
 =
 {
@@ -69,21 +69,9 @@ check_args
 browser
 "
 :
-{
-None
-:
 "
 WebKitGTKMiniBrowser
 "
-                             
-"
-wdspec
-"
-:
-"
-NullBrowser
-"
-}
                  
 "
 browser_kwargs
@@ -119,7 +107,7 @@ wdspec
 "
 :
 "
-WebKitDriverWdspecExecutor
+WdspecExecutor
 "
                               
 "
@@ -275,7 +263,7 @@ browser_required_args
 -
 automation
 "
-                            
+                             
 "
 -
 -
@@ -291,7 +279,7 @@ automatically
 =
 true
 "
-                            
+                             
 "
 -
 -
@@ -303,7 +291,7 @@ auditor
 =
 false
 "
-                            
+                             
 "
 -
 -
@@ -315,7 +303,7 @@ capabilities
 =
 true
 "
-                            
+                             
 "
 -
 -
@@ -327,7 +315,7 @@ media
 =
 true
 "
-                            
+                             
 "
 -
 -
@@ -339,7 +327,7 @@ stream
 =
 true
 "
-                            
+                             
 "
 -
 -
@@ -353,7 +341,7 @@ devices
 =
 true
 "
-                            
+                             
 "
 -
 -
@@ -541,35 +529,4 @@ WebKitBrowser
 )
 :
     
-def
-__init__
-(
-self
-logger
-binary
-=
-None
-webdriver_binary
-=
-None
-                 
-webdriver_args
-=
-None
-*
-*
-kwargs
-)
-:
-        
-WebKitBrowser
-.
-__init__
-(
-self
-logger
-binary
-webdriver_binary
-                               
-webdriver_args
-)
+pass

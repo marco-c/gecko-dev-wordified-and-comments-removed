@@ -30,6 +30,14 @@ from
 .
 executors
 .
+base
+import
+WdspecExecutor
+from
+.
+.
+executors
+.
 executorwebdriver
 import
 (
@@ -37,14 +45,6 @@ WebDriverTestharnessExecutor
                                            
 WebDriverRefTestExecutor
 )
-from
-.
-.
-executors
-.
-executorchrome
-import
-ChromeDriverWdspecExecutor
 __wptrunner__
 =
 {
@@ -68,21 +68,9 @@ check_args
 browser
 "
 :
-{
-None
-:
 "
 SystemWebViewShell
 "
-                             
-"
-wdspec
-"
-:
-"
-NullBrowser
-"
-}
                  
 "
 executor
@@ -110,7 +98,7 @@ wdspec
 "
 :
 "
-ChromeDriverWdspecExecutor
+WdspecExecutor
 "
 }
                  
@@ -626,18 +614,16 @@ testing
         
 super
 (
-SystemWebViewShell
-self
 )
 .
 __init__
 (
 logger
-                
+                         
 webdriver_binary
 remote_queue
 device_serial
-                
+                         
 webdriver_args
 stackwalk_binary
 symbols_path

@@ -10,8 +10,6 @@ import
 (
 EdgeBrowser
                    
-EdgeDriverWdspecExecutor
-                   
 check_args
                    
 browser_kwargs
@@ -26,6 +24,14 @@ run_info_extras
                    
 get_timeout_multiplier
 )
+from
+.
+.
+executors
+.
+base
+import
+WdspecExecutor
 from
 .
 .
@@ -61,21 +67,9 @@ check_args
 browser
 "
 :
-{
-None
-:
 "
 EdgeBrowser
 "
-                             
-"
-wdspec
-"
-:
-"
-NullBrowser
-"
-}
                  
 "
 executor
@@ -103,7 +97,7 @@ wdspec
 "
 :
 "
-EdgeDriverWdspecExecutor
+WdspecExecutor
 "
 }
                  

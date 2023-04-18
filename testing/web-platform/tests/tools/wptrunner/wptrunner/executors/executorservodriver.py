@@ -13,8 +13,6 @@ import
 (
 Protocol
                    
-BaseProtocolPart
-                   
 RefTestExecutor
                    
 RefTestImplementation
@@ -27,8 +25,13 @@ strip_server
 )
 from
 .
+protocol
+import
+BaseProtocolPart
+from
 .
-webdriver_server
+.
+environment
 import
 wait_for_service
 webdriver
@@ -483,14 +486,15 @@ WebDriver
         
 wait_for_service
 (
-(
+self
+.
+logger
 self
 .
 host
 self
 .
 port
-)
 timeout
 =
 self

@@ -1424,6 +1424,12 @@ self
 venv
 .
 skip_virtualenv_setup
+and
+self
+.
+browser
+.
+requirements
 :
             
 self
