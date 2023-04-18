@@ -24,8 +24,6 @@ is
 defined
 in
 GeckoProcessTypes
-.
-h
 <
 https
 :
@@ -43,11 +41,13 @@ source
 /
 xpcom
 /
-build
+geckoprocesstypes_generator
 /
-GeckoProcessTypes
+geckoprocesstypes
+/
+__init__
 .
-h
+py
 >
 _
 .
