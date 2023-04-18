@@ -1805,9 +1805,6 @@ if
 CanScroll
 (
 )
-|
-|
-mAxisLocked
 )
 {
 return
