@@ -2810,9 +2810,8 @@ row
 >
 (
 {
-.
-.
-.
+snapshot
+:
 this
 .
 #
@@ -2820,7 +2819,7 @@ translateRow
 (
 row
 )
-overlappingVisitScore
+score
 :
 row
 .
@@ -3032,9 +3031,8 @@ row
 >
 (
 {
-.
-.
-.
+snapshot
+:
 this
 .
 #
@@ -3042,7 +3040,7 @@ translateRow
 (
 row
 )
-commonReferrerScore
+score
 :
 1
 .
