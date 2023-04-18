@@ -336,8 +336,10 @@ Unknown
 )
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

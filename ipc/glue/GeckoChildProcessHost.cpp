@@ -1031,8 +1031,10 @@ GetIPCLauncher
 ;
 mLaunchThread
 =
-new
 TaskQueue
+:
+:
+Create
 (
 threadOrPool
 .

@@ -13423,8 +13423,10 @@ GetVideoFrameContainer
 )
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

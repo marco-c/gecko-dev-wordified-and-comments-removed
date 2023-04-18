@@ -98,8 +98,10 @@ aAbstractMainThread
 :
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

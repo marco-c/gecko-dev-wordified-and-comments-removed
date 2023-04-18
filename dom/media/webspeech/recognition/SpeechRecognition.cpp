@@ -3576,10 +3576,10 @@ return
 }
 mEncodeTaskQueue
 =
-MakeAndAddRef
-<
 TaskQueue
->
+:
+:
+Create
 (
 GetMediaThreadPool
 (

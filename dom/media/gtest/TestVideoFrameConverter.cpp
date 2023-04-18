@@ -2606,10 +2606,10 @@ false
 auto
 q
 =
-MakeRefPtr
-<
 TaskQueue
->
+:
+:
+Create
 (
 GetMediaThreadPool
 (

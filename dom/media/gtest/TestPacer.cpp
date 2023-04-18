@@ -60,10 +60,10 @@ aDuplicationInterval
 :
 mTaskQueue
 (
-MakeRefPtr
-<
 TaskQueue
->
+:
+:
+Create
 (
 GetMediaThreadPool
 (

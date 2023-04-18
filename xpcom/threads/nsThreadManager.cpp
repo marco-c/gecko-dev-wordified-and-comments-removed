@@ -961,8 +961,10 @@ TaskQueue
 >
 queue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 do_AddRef
 (

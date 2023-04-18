@@ -654,10 +654,10 @@ CreateWorkerTaskQueue
 )
 {
 return
-MakeAndAddRef
-<
 TaskQueue
->
+:
+:
+Create
 (
 do_AddRef
 (
@@ -666,6 +666,10 @@ mCanvasWorkers
 "
 CanvasWorker
 "
+)
+.
+forget
+(
 )
 ;
 }

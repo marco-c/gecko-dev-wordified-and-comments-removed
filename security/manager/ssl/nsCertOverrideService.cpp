@@ -889,8 +889,10 @@ target
 ;
 mWriterTaskQueue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 target
 .

@@ -7473,8 +7473,10 @@ NS_ERROR_FAILURE
 }
 mTaskQueue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 target
 .
