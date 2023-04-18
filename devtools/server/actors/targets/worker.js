@@ -177,6 +177,7 @@ function
 connection
 workerGlobal
 workerDebuggerData
+sessionContext
 )
 {
 Actor
@@ -196,6 +197,12 @@ this
 workerGlobal
 =
 workerGlobal
+;
+this
+.
+sessionContext
+=
+sessionContext
 ;
 this
 .

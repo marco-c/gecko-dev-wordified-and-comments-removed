@@ -47,6 +47,7 @@ chrome
 const
 {
 createBrowserSessionContext
+createContentProcessSessionContext
 }
 =
 require
@@ -451,6 +452,11 @@ conn
 isXpcShellTarget
 :
 true
+sessionContext
+:
+createContentProcessSessionContext
+(
+)
 }
 )
 ;

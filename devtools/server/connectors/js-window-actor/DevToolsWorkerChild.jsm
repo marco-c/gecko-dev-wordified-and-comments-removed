@@ -1262,6 +1262,11 @@ dbg
 workerThreadServerForwardingPrefix
 {
 sessionData
+sessionContext
+:
+sessionData
+.
+sessionContext
 }
 )
 ;

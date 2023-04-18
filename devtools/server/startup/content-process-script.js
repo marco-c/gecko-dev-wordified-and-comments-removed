@@ -690,7 +690,7 @@ createTargetActor
 (
 watcherActorID
 parentConnectionPrefix
-initialData
+sessionData
 ignoreAlreadyCreated
 =
 false
@@ -809,6 +809,11 @@ data
 watcherActorID
 parentConnectionPrefix
 prefix
+sessionContext
+:
+sessionData
+.
+sessionContext
 }
 }
 )
@@ -831,7 +836,7 @@ for
 const
 type
 in
-initialData
+sessionData
 )
 {
 actor
@@ -839,7 +844,7 @@ actor
 addSessionDataEntry
 (
 type
-initialData
+sessionData
 [
 type
 ]

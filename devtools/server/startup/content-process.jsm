@@ -273,6 +273,15 @@ new
 ContentProcessTargetActor
 (
 conn
+{
+sessionContext
+:
+msg
+.
+data
+.
+sessionContext
+}
 )
 ;
 actor

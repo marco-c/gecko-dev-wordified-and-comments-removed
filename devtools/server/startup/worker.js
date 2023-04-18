@@ -322,6 +322,11 @@ global
 packet
 .
 workerDebuggerData
+packet
+.
+options
+.
+sessionContext
 )
 ;
 workerTargetActor
@@ -416,7 +421,6 @@ if
 packet
 .
 options
-?
 .
 sessionData
 )
