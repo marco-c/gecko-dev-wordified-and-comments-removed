@@ -4705,6 +4705,8 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 FetchEvent
 ExtendableEvent
 mRequest
+mHandled
+mPreloadResponse
 )
 ExtendableEvent
 :
