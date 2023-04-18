@@ -9,13 +9,6 @@ std
 :
 :
 {
-cell
-:
-:
-{
-Ref
-RefCell
-}
 collections
 :
 :
@@ -24,6 +17,14 @@ rc
 :
 :
 Rc
+sync
+:
+:
+Mutex
+sync
+:
+:
+MutexGuard
 }
 ;
 use
@@ -128,7 +129,7 @@ B
 {
 sources
 :
-RefCell
+Mutex
 <
 Vec
 <
@@ -159,7 +160,7 @@ B
 {
 lock
 :
-Ref
+MutexGuard
 <
 '
 a
@@ -665,7 +666,11 @@ shared
 .
 sources
 .
-borrow
+lock
+(
+)
+.
+unwrap
 (
 )
 bundle_adapter
@@ -713,7 +718,7 @@ shared
 .
 sources
 .
-try_borrow_mut
+try_lock
 (
 )
 .
@@ -826,7 +831,7 @@ shared
 .
 sources
 .
-try_borrow_mut
+try_lock
 (
 )
 .
@@ -984,7 +989,7 @@ shared
 .
 sources
 .
-try_borrow_mut
+try_lock
 (
 )
 .
@@ -1106,7 +1111,7 @@ shared
 .
 sources
 .
-try_borrow_mut
+try_lock
 (
 )
 .
@@ -1161,7 +1166,7 @@ shared
 .
 sources
 .
-try_borrow_mut
+try_lock
 (
 )
 .
@@ -1236,7 +1241,7 @@ shared
 .
 sources
 .
-try_borrow_mut
+try_lock
 (
 )
 .
@@ -1309,7 +1314,7 @@ shared
 .
 sources
 .
-try_borrow_mut
+try_lock
 (
 )
 .
@@ -1382,7 +1387,7 @@ shared
 .
 sources
 .
-try_borrow_mut
+try_lock
 (
 )
 .
