@@ -5144,7 +5144,10 @@ buildconfig
 )
     
 except
+(
 ImportError
+MissingVCSTool
+)
 :
         
 pass
