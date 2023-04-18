@@ -617,7 +617,7 @@ AudioProcessing
 >
 mAudioProcessing
 ;
-UniquePtr
+Maybe
 <
 AudioPacketizer
 <
@@ -627,7 +627,7 @@ float
 >
 mPacketizerInput
 ;
-UniquePtr
+Maybe
 <
 AudioPacketizer
 <
