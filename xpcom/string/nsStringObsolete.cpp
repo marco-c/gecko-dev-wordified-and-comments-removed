@@ -3769,11 +3769,12 @@ size_type
 )
 const
 ;
+}
 template
 <
 >
 double
-nsTStringRepr
+nsTString
 <
 char
 >
@@ -3801,7 +3802,9 @@ if
 this
 -
 >
-mLength
+Length
+(
+)
 >
 0
 )
@@ -3818,7 +3821,9 @@ str
 this
 -
 >
-mData
+get
+(
+)
 ;
 res
 =
@@ -3861,7 +3866,9 @@ str
 this
 -
 >
-mLength
+Length
+(
+)
 )
 {
 *
@@ -3895,7 +3902,7 @@ template
 <
 >
 double
-nsTStringRepr
+nsTString
 <
 char16_t
 >
@@ -3939,5 +3946,4 @@ ToDouble
 aErrorCode
 )
 ;
-}
 }
