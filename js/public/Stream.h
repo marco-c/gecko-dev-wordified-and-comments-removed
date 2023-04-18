@@ -312,6 +312,7 @@ class
 ReadableStreamReaderMode
 {
 Default
+Byob
 }
 ;
 extern

@@ -1289,13 +1289,6 @@ return
 true
 ;
 }
-enum
-class
-ReadableStreamReaderMode
-{
-Byob
-}
-;
 [
 [
 nodiscard
@@ -1409,6 +1402,9 @@ false
 }
 Maybe
 <
+JS
+:
+:
 ReadableStreamReaderMode
 >
 mode
@@ -1542,6 +1538,9 @@ mode
 =
 Some
 (
+JS
+:
+:
 ReadableStreamReaderMode
 :
 :
@@ -1593,6 +1592,9 @@ value
 )
 =
 =
+JS
+:
+:
 ReadableStreamReaderMode
 :
 :
