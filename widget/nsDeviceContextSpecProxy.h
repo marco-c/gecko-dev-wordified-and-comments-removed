@@ -192,12 +192,6 @@ nsDeviceContextSpecProxy
 ;
 nsCOMPtr
 <
-nsIPrintSettings
->
-mPrintSettings
-;
-nsCOMPtr
-<
 nsIDeviceContextSpec
 >
 mRealDeviceContextSpec

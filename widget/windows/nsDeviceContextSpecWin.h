@@ -257,12 +257,6 @@ mDevMode
 =
 nullptr
 ;
-nsCOMPtr
-<
-nsIPrintSettings
->
-mPrintSettings
-;
 int16_t
 mOutputFormat
 =

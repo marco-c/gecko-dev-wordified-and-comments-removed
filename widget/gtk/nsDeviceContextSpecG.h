@@ -175,12 +175,6 @@ nsDeviceContextSpecGTK
 (
 )
 ;
-nsCOMPtr
-<
-nsIPrintSettings
->
-mPrintSettings
-;
 GtkPrintSettings
 *
 mGtkPrintSettings

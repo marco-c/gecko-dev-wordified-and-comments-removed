@@ -161,7 +161,7 @@ mPageFormat
 nullptr
 ;
 PMPrintSettings
-mPrintSettings
+mPMPrintSettings
 =
 nullptr
 ;

@@ -246,6 +246,14 @@ EndPage
 =
 0
 ;
+protected
+:
+nsCOMPtr
+<
+nsIPrintSettings
+>
+mPrintSettings
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

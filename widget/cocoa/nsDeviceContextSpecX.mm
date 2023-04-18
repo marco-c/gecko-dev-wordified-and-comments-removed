@@ -276,14 +276,14 @@ mPageFormat
 }
 if
 (
-mPrintSettings
+mPMPrintSettings
 )
 {
 :
 :
 PMRelease
 (
-mPrintSettings
+mPMPrintSettings
 )
 ;
 }
@@ -420,7 +420,7 @@ PMPageFormat
 ]
 )
 ;
-mPrintSettings
+mPMPrintSettings
 =
 static_cast
 <
@@ -441,7 +441,7 @@ mPrintSession
 mPageFormat
 &
 &
-mPrintSettings
+mPMPrintSettings
 )
 ;
 :
@@ -462,7 +462,7 @@ mPageFormat
 :
 PMRetain
 (
-mPrintSettings
+mPMPrintSettings
 )
 ;
 [
@@ -521,7 +521,7 @@ status
 PMSessionGetDestinationType
 (
 mPrintSession
-mPrintSettings
+mPMPrintSettings
 &
 destination
 )
@@ -578,7 +578,7 @@ status
 PMSessionCopyDestinationLocation
 (
 mPrintSession
-mPrintSettings
+mPMPrintSettings
 destURL
 .
 receive
@@ -706,7 +706,7 @@ status
 PMSessionGetDestinationType
 (
 mPrintSession
-mPrintSettings
+mPMPrintSettings
 &
 destination
 )
@@ -908,7 +908,7 @@ status
 PMSessionGetDestinationType
 (
 mPrintSession
-mPrintSettings
+mPMPrintSettings
 &
 destination
 )
@@ -969,7 +969,7 @@ status
 PMPrinterPrintWithFile
 (
 currentPrinter
-mPrintSettings
+mPMPrintSettings
 mPageFormat
 mimeType
 pdfURL
@@ -1046,7 +1046,7 @@ status
 PMSessionCopyDestinationLocation
 (
 mPrintSession
-mPrintSettings
+mPMPrintSettings
 destURL
 .
 receive
@@ -1529,7 +1529,7 @@ CreateOrNull
 mOutputStream
 mPrintSession
 mPageFormat
-mPrintSettings
+mPMPrintSettings
 size
 )
 ;
