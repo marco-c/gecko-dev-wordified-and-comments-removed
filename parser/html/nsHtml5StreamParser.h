@@ -1172,7 +1172,13 @@ mozilla
 Mutex
 mSpeculationMutex
 ;
+mozilla
+:
+:
+Atomic
+<
 uint32_t
+>
 mSpeculationFailureCount
 ;
 uint32_t
