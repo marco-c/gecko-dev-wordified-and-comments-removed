@@ -765,6 +765,11 @@ mLoader
 GetFetchedModule
 (
 mURI
+GetLoadContext
+(
+)
+-
+>
 GetWebExtGlobal
 (
 )
