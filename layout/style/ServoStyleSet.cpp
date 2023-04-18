@@ -3086,7 +3086,7 @@ aIndex
 }
 Maybe
 <
-StyleOrientation
+StylePageOrientation
 >
 ServoStyleSet
 :
@@ -3196,7 +3196,7 @@ h
 return
 Some
 (
-StyleOrientation
+StylePageOrientation
 :
 :
 Landscape
@@ -3213,7 +3213,7 @@ h
 return
 Some
 (
-StyleOrientation
+StylePageOrientation
 :
 :
 Portrait

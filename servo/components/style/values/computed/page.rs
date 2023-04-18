@@ -84,7 +84,7 @@ generics
 page
 :
 :
-Orientation
+PageOrientation
 ;
 pub
 use
@@ -138,7 +138,7 @@ NonNegativeLength
 )
 Orientation
 (
-Orientation
+PageOrientation
 )
 Auto
 }
@@ -204,7 +204,7 @@ Self
 PaperSize
 (
 p
-Orientation
+PageOrientation
 :
 :
 Landscape
@@ -250,7 +250,7 @@ Self
 PaperSize
 (
 p
-Orientation
+PageOrientation
 :
 :
 Portrait

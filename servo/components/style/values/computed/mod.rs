@@ -762,7 +762,7 @@ page
 :
 :
 {
-Orientation
+PageOrientation
 PageName
 PageSize
 PaperSize

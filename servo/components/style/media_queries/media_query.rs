@@ -5,7 +5,10 @@ crate
 queries
 :
 :
+{
 QueryCondition
+FeatureType
+}
 ;
 use
 crate
@@ -631,6 +634,10 @@ parse
 (
 context
 input
+FeatureType
+:
+:
+Media
 )
 ?
 )
@@ -667,6 +674,10 @@ parse_disallow_or
 (
 context
 input
+FeatureType
+:
+:
+Media
 )
 ?
 )

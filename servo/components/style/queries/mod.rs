@@ -14,6 +14,10 @@ mod
 feature_expression
 ;
 pub
+mod
+values
+;
+pub
 use
 self
 :
@@ -31,5 +35,8 @@ self
 feature_expression
 :
 :
+{
 QueryFeatureExpression
+FeatureType
+}
 ;

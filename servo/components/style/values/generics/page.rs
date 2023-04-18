@@ -439,7 +439,7 @@ u8
 ]
 pub
 enum
-Orientation
+PageOrientation
 {
 Portrait
 Landscape
@@ -454,7 +454,7 @@ is_portrait
 orientation
 :
 &
-Orientation
+PageOrientation
 )
 -
 >
@@ -464,7 +464,7 @@ bool
 orientation
 =
 =
-Orientation
+PageOrientation
 :
 :
 Portrait
@@ -505,7 +505,7 @@ S
 )
 Orientation
 (
-Orientation
+PageOrientation
 )
 PaperSize
 (
@@ -521,7 +521,7 @@ is_portrait
 "
 )
 ]
-Orientation
+PageOrientation
 )
 }
 pub
