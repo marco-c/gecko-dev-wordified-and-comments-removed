@@ -19492,9 +19492,6 @@ aFullscreen
 nsIWidget
 *
 aWidget
-nsIScreen
-*
-aScreen
 nsISupports
 *
 aTransitionData
@@ -19516,10 +19513,6 @@ aWindow
 mWidget
 (
 aWidget
-)
-mScreen
-(
-aScreen
 )
 mTransitionData
 (
@@ -19627,12 +19620,6 @@ nsCOMPtr
 nsIWidget
 >
 mWidget
-;
-nsCOMPtr
-<
-nsIScreen
->
-mScreen
 ;
 nsCOMPtr
 <
@@ -19841,7 +19828,6 @@ FullscreenReason
 ForFullscreenAPI
 mFullscreen
 mWidget
-mScreen
 )
 )
 {
@@ -20389,7 +20375,6 @@ SetWidgetFullscreen
 aReason
 aFullscreen
 widget
-nullptr
 )
 ;
 }
@@ -20406,7 +20391,6 @@ duration
 aWindow
 aFullscreen
 widget
-nullptr
 transitionData
 )
 ;
@@ -20844,9 +20828,6 @@ aIsFullscreen
 nsIWidget
 *
 aWidget
-nsIScreen
-*
-aScreen
 )
 {
 MOZ_ASSERT
@@ -20995,7 +20976,6 @@ aWidget
 MakeFullScreenWithNativeTransition
 (
 aIsFullscreen
-aScreen
 )
 :
 aWidget
@@ -21004,7 +20984,6 @@ aWidget
 MakeFullScreen
 (
 aIsFullscreen
-aScreen
 )
 ;
 return

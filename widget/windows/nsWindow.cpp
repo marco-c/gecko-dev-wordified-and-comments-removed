@@ -9891,7 +9891,6 @@ nsSizeMode_Fullscreen
 MakeFullScreen
 (
 true
-nullptr
 )
 ;
 }
@@ -9917,7 +9916,6 @@ nsSizeMode_Normal
 MakeFullScreen
 (
 false
-nullptr
 )
 ;
 }
@@ -15687,9 +15685,6 @@ MakeFullScreen
 (
 bool
 aFullScreen
-nsIScreen
-*
-aTargetScreen
 )
 {
 if
@@ -15804,7 +15799,6 @@ nsBaseWidget
 InfallibleMakeFullScreen
 (
 aFullScreen
-aTargetScreen
 )
 ;
 if

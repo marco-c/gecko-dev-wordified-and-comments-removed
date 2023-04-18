@@ -929,11 +929,6 @@ MakeFullScreen
 (
 bool
 aFullScreen
-nsIScreen
-*
-aScreen
-=
-nullptr
 )
 override
 ;
@@ -942,11 +937,6 @@ InfallibleMakeFullScreen
 (
 bool
 aFullScreen
-nsIScreen
-*
-aScreen
-=
-nullptr
 )
 ;
 WindowRenderer
