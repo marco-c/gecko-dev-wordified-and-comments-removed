@@ -3157,7 +3157,7 @@ DisabledByE10S
 if
 (
 !
-IsWin10FallCreatorsUpdateOrLater
+IsWin8OrLater
 (
 )
 )
