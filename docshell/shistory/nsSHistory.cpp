@@ -10310,6 +10310,14 @@ SetHasValidUserGestureActivation
 aUserActivation
 )
 ;
+loadState
+-
+>
+SetIsExemptFromHTTPSOnlyMode
+(
+true
+)
+;
 aFrameEntry
 -
 >

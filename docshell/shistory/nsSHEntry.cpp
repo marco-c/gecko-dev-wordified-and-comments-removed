@@ -3807,6 +3807,14 @@ this
 )
 ;
 loadState
+-
+>
+SetIsExemptFromHTTPSOnlyMode
+(
+true
+)
+;
+loadState
 .
 forget
 (

@@ -1407,6 +1407,13 @@ SetFirstParty
 true
 )
 ;
+aLoadState
+.
+SetIsExemptFromHTTPSOnlyMode
+(
+true
+)
+;
 }
 SessionHistoryInfo
 :
