@@ -239,6 +239,9 @@ bool
 traceRegExpPeephole
 ;
 bool
+lessDebugCode
+;
+bool
 enableWasmJitExit
 ;
 bool

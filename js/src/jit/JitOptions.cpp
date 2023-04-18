@@ -859,6 +859,12 @@ false
 ;
 SET_DEFAULT
 (
+lessDebugCode
+false
+)
+;
+SET_DEFAULT
+(
 enableWasmJitExit
 true
 )

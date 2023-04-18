@@ -23429,9 +23429,8 @@ scratch2
 #
 ifdef
 JS_64BIT
-inline
 void
-assertCanonicalInt32
+debugAssertCanonicalInt32
 (
 Register
 r
