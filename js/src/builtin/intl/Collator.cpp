@@ -1283,7 +1283,7 @@ intl
 LocaleParser
 :
 :
-TryParse
+tryParse
 (
 mozilla
 :
@@ -1398,7 +1398,7 @@ result
 =
 tag
 .
-ToString
+toString
 (
 buffer
 )

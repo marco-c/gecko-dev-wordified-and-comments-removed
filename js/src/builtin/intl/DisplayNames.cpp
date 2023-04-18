@@ -1803,7 +1803,7 @@ if
 LocaleParser
 :
 :
-TryParseBaseName
+tryParseBaseName
 (
 chars
 tag
@@ -1891,7 +1891,7 @@ result
 =
 tag
 .
-CanonicalizeBaseName
+canonicalizeBaseName
 (
 )
 ;
@@ -1969,7 +1969,7 @@ result
 =
 tag
 .
-ToString
+toString
 (
 buffer
 )
@@ -2224,7 +2224,7 @@ tag
 ;
 tag
 .
-SetLanguage
+setLanguage
 (
 "
 und
@@ -2233,7 +2233,7 @@ und
 ;
 tag
 .
-SetScript
+setScript
 (
 script
 )
@@ -2242,7 +2242,7 @@ if
 (
 tag
 .
-CanonicalizeBaseName
+canonicalizeBaseName
 (
 )
 .
@@ -2267,11 +2267,11 @@ MOZ_ASSERT
 (
 tag
 .
-Script
+script
 (
 )
 .
-Present
+present
 (
 )
 )
@@ -2306,7 +2306,7 @@ result
 =
 tag
 .
-ToString
+toString
 (
 buffer
 )
@@ -2449,7 +2449,7 @@ Code
 {
 script
 .
-ToTitleCase
+toTitleCase
 (
 )
 ;
@@ -2462,7 +2462,7 @@ CanGC
 cx
 script
 .
-Span
+span
 (
 )
 )
@@ -2485,7 +2485,7 @@ canonicalScript
 =
 tag
 .
-Script
+script
 (
 )
 ;
@@ -2516,7 +2516,7 @@ copy_n
 (
 canonicalScript
 .
-Span
+span
 (
 )
 .
@@ -2525,7 +2525,7 @@ data
 )
 canonicalScript
 .
-Length
+length
 (
 )
 scriptChars
@@ -2643,7 +2643,7 @@ Code
 {
 script
 .
-ToTitleCase
+toTitleCase
 (
 )
 ;
@@ -2656,7 +2656,7 @@ CanGC
 cx
 script
 .
-Span
+span
 (
 )
 )
@@ -2738,7 +2738,7 @@ tag
 ;
 tag
 .
-SetLanguage
+setLanguage
 (
 "
 und
@@ -2747,7 +2747,7 @@ und
 ;
 tag
 .
-SetRegion
+setRegion
 (
 region
 )
@@ -2756,7 +2756,7 @@ if
 (
 tag
 .
-CanonicalizeBaseName
+canonicalizeBaseName
 (
 )
 .
@@ -2781,11 +2781,11 @@ MOZ_ASSERT
 (
 tag
 .
-Region
+region
 (
 )
 .
-Present
+present
 (
 )
 )
@@ -2803,7 +2803,7 @@ canonicalRegion
 =
 tag
 .
-Region
+region
 (
 )
 ;
@@ -2834,7 +2834,7 @@ copy_n
 (
 canonicalRegion
 .
-Span
+span
 (
 )
 .
@@ -2843,7 +2843,7 @@ data
 )
 canonicalRegion
 .
-Length
+length
 (
 )
 regionChars
@@ -2961,7 +2961,7 @@ Code
 {
 region
 .
-ToUpperCase
+toUpperCase
 (
 )
 ;
@@ -2974,7 +2974,7 @@ CanGC
 cx
 region
 .
-Span
+span
 (
 )
 )
@@ -3357,7 +3357,7 @@ if
 LocaleParser
 :
 :
-CanParseUnicodeExtensionType
+canParseUnicodeExtensionType
 (
 mozilla
 :
@@ -3483,7 +3483,7 @@ intl
 Locale
 :
 :
-ReplaceUnicodeExtensionType
+replaceUnicodeExtensionType
 (
 key
 type
@@ -3874,7 +3874,7 @@ if
 LocaleParser
 :
 :
-TryParse
+tryParse
 (
 mozilla
 :
@@ -3974,7 +3974,7 @@ result
 =
 tag
 .
-ToString
+toString
 (
 buffer
 )

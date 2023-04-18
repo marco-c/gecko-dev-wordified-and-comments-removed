@@ -51,7 +51,7 @@ locale
 ;
 locale
 .
-SetLanguage
+setLanguage
 (
 "
 fr
@@ -60,7 +60,7 @@ fr
 ;
 locale
 .
-SetRegion
+setRegion
 (
 "
 CA
@@ -69,7 +69,7 @@ CA
 ;
 locale
 .
-SetScript
+setScript
 (
 "
 Latn
@@ -80,7 +80,7 @@ ASSERT_TRUE
 (
 locale
 .
-SetUnicodeExtension
+setUnicodeExtension
 (
 MakeStringSpan
 (
@@ -103,11 +103,11 @@ ASSERT_TRUE
 (
 locale
 .
-Language
+language
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 fr
@@ -119,11 +119,11 @@ ASSERT_TRUE
 (
 locale
 .
-Region
+region
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 CA
@@ -135,11 +135,11 @@ ASSERT_TRUE
 (
 locale
 .
-Script
+script
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 Latn
@@ -151,7 +151,7 @@ ASSERT_EQ
 (
 locale
 .
-GetUnicodeExtension
+unicodeExtension
 (
 )
 .
@@ -180,7 +180,7 @@ ASSERT_TRUE
 (
 locale
 .
-ToString
+toString
 (
 buffer
 )
@@ -220,7 +220,7 @@ ASSERT_TRUE
 LocaleParser
 :
 :
-TryParse
+tryParse
 (
 MakeStringSpan
 (
@@ -254,7 +254,7 @@ ASSERT_EQ
 (
 locale2
 .
-Variants
+variants
 (
 )
 [
@@ -272,7 +272,7 @@ ASSERT_EQ
 (
 locale2
 .
-Extensions
+extensions
 (
 )
 [
@@ -296,7 +296,7 @@ hybrid
 ;
 locale2
 .
-ClearVariants
+clearVariants
 (
 )
 ;
@@ -304,7 +304,7 @@ ASSERT_EQ
 (
 locale2
 .
-Variants
+variants
 (
 )
 .
@@ -540,7 +540,7 @@ ASSERT_TRUE
 LocaleParser
 :
 :
-TryParse
+tryParse
 (
 MakeStringSpan
 (
@@ -570,7 +570,7 @@ ASSERT_TRUE
 LocaleParser
 :
 :
-TryParse
+tryParse
 (
 MakeStringSpan
 (
@@ -590,7 +590,7 @@ ASSERT_TRUE
 (
 locale
 .
-AddLikelySubtags
+addLikelySubtags
 (
 )
 .
@@ -609,7 +609,7 @@ ASSERT_TRUE
 (
 locale
 .
-ToString
+toString
 (
 buffer
 )
@@ -639,7 +639,7 @@ ASSERT_TRUE
 (
 locale
 .
-RemoveLikelySubtags
+removeLikelySubtags
 (
 )
 .
@@ -658,7 +658,7 @@ ASSERT_TRUE
 (
 locale
 .
-ToString
+toString
 (
 buffer
 )
@@ -695,7 +695,7 @@ ASSERT_TRUE
 LocaleParser
 :
 :
-TryParse
+tryParse
 (
 MakeStringSpan
 (
@@ -717,7 +717,7 @@ ASSERT_TRUE
 (
 locale
 .
-Canonicalize
+canonicalize
 (
 )
 .
@@ -736,7 +736,7 @@ ASSERT_TRUE
 (
 locale
 .
-ToString
+toString
 (
 buffer
 )
