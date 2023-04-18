@@ -2751,7 +2751,7 @@ eWindowType_dialog
 )
 widgetInitData
 .
-clipChildren
+mClipChildren
 =
 true
 ;
