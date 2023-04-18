@@ -65,6 +65,16 @@ allow_eval_with_system_principal
 true
 )
 ;
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 function
 handleRequest
 (

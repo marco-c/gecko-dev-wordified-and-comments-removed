@@ -410,7 +410,6 @@ split
 "
 )
 ;
-var
 partialstart
 =
 parts
@@ -418,7 +417,6 @@ parts
 0
 ]
 ;
-var
 partialend
 =
 parts
