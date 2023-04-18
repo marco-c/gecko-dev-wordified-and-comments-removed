@@ -1813,15 +1813,6 @@ SyncRealTimeSpell
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-void
-ReinitializeSelection
-(
-Element
-&
-aElement
-)
-;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 CutAsAction
 (

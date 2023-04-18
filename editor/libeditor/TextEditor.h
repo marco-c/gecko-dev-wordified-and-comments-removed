@@ -163,6 +163,15 @@ PostCreate
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+ReinitializeSelection
+(
+Element
+&
+aElement
+)
+;
 [
 [
 nodiscard
