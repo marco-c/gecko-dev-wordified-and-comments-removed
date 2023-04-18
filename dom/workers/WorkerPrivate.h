@@ -2948,6 +2948,13 @@ mLoadInfo
 mWindow
 ;
 }
+nsPIDOMWindowInner
+*
+GetAncestorWindow
+(
+)
+const
+;
 nsIContentSecurityPolicy
 *
 GetCSP
