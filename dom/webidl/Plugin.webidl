@@ -113,11 +113,6 @@ filename
 readonly
 attribute
 DOMString
-version
-;
-readonly
-attribute
-DOMString
 name
 ;
 readonly
