@@ -723,6 +723,12 @@ defined
 (
 MOZ_TSAN
 )
+|
+|
+defined
+(
+MOZ_ASAN
+)
 constexpr
 PRUint32
 sStackSize
