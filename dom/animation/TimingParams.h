@@ -124,7 +124,6 @@ TimingParams
 =
 default
 ;
-constexpr
 TimingParams
 (
 float
@@ -186,7 +185,6 @@ Update
 )
 ;
 }
-constexpr
 TimingParams
 (
 const
