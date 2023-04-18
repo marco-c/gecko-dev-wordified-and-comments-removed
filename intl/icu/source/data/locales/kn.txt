@@ -1118,15 +1118,6 @@ nominative
 }
 "
 }
-vocative
-{
-"
-{
-0
-}
-!
-"
-}
 }
 gender
 {

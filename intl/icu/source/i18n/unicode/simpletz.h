@@ -508,9 +508,6 @@ ec
 const
 override
 ;
-#
-ifndef
-U_FORCE_HIDE_DRAFT_API
 virtual
 void
 getOffsetFromLocal
@@ -534,8 +531,6 @@ status
 const
 override
 ;
-#
-endif
 virtual
 int32_t
 getRawOffset

@@ -263,6 +263,13 @@ chr
 Cheroke
 "
 }
+ckb
+{
+"
+Kurdish
+sote
+"
+}
 co
 {
 "
@@ -1716,13 +1723,6 @@ Languages
 %
 menu
 {
-ckb
-{
-"
-Kurdish
-sote
-"
-}
 yue
 {
 "

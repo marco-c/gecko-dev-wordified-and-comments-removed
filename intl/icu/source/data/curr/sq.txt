@@ -1987,12 +1987,6 @@ EGP
 EGP
 "
 }
-EUR
-{
-"
-EUR
-"
-}
 FJD
 {
 "

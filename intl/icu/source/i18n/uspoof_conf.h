@@ -51,8 +51,10 @@ SPUString
 public
 UMemory
 {
+LocalPointer
+<
 UnicodeString
-*
+>
 fStr
 ;
 int32_t
@@ -60,8 +62,10 @@ fCharOrStrTableIndex
 ;
 SPUString
 (
+LocalPointer
+<
 UnicodeString
-*
+>
 s
 )
 ;

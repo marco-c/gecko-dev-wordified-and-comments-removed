@@ -12659,7 +12659,7 @@ status
 result
 -
 >
-addElementX
+adoptElement
 (
 fld
 status
@@ -12800,7 +12800,7 @@ status
 result
 -
 >
-addElementX
+adoptElement
 (
 textfld
 status
@@ -12862,7 +12862,7 @@ status
 result
 -
 >
-addElementX
+adoptElement
 (
 fld
 status
@@ -12953,7 +12953,7 @@ status
 result
 -
 >
-addElementX
+adoptElement
 (
 fld
 status
@@ -13045,7 +13045,7 @@ status
 result
 -
 >
-addElementX
+adoptElement
 (
 tfld
 status
@@ -13090,7 +13090,7 @@ status
 result
 -
 >
-addElementX
+adoptElement
 (
 fld
 status
