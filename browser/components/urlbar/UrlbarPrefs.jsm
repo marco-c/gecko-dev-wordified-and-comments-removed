@@ -192,7 +192,7 @@ useCountThreshold
 [
 0
 .
-1
+47
 "
 float
 "
