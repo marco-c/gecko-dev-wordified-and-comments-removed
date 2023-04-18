@@ -295,7 +295,7 @@ request
 queryString
 )
 {
-var
+let
 counter
 =
 getState
@@ -322,7 +322,7 @@ counter
 }
 else
 {
-var
+let
 body
 =
 new
@@ -333,10 +333,10 @@ request
 bodyInputStream
 )
 ;
-var
+let
 avail
 ;
-var
+let
 bytes
 =
 [
@@ -375,7 +375,7 @@ avail
 )
 ;
 }
-var
+let
 counter
 =
 getState
