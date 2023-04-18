@@ -742,6 +742,7 @@ PathLength
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 IsPointInFill
 (
@@ -751,6 +752,7 @@ DOMPointInit
 aPoint
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 IsPointInStroke
 (
@@ -760,11 +762,13 @@ DOMPointInit
 aPoint
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 float
-GetTotalLength
+GetTotalLengthForBinding
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 DOMSVGPoint
@@ -787,6 +791,12 @@ GetNumberInfo
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+FlushStyleIfNeeded
+(
+)
+;
 SVGAnimatedNumber
 mPathLength
 ;
@@ -808,6 +818,11 @@ already_AddRefed
 Path
 >
 GetOrBuildPathForHitTest
+(
+)
+;
+float
+GetTotalLength
 (
 )
 ;

@@ -179,6 +179,13 @@ point
 }
 )
 ;
+[
+BinaryName
+=
+"
+getTotalLengthForBinding
+"
+]
 float
 getTotalLength
 (
