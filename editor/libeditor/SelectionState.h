@@ -102,6 +102,10 @@ enum
 class
 JoinNodesDirection
 ;
+enum
+class
+SplitNodeDirection
+;
 struct
 RangeItem
 final
@@ -602,10 +606,14 @@ SelAdjSplitNode
 (
 nsIContent
 &
-aRightNode
+aOriginalContent
+uint32_t
+aSplitOffset
 nsIContent
 &
-aNewLeftNode
+aNewContent
+SplitNodeDirection
+aSplitNodeDirection
 )
 ;
 nsresult

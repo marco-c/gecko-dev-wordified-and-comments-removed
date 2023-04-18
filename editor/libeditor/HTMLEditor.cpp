@@ -21059,8 +21059,17 @@ aStartOfRightNode
 GetContainerAsContent
 (
 )
+aStartOfRightNode
+.
+Offset
+(
+)
 *
 newLeftContent
+SplitNodeDirection
+:
+:
+LeftNodeIsNewOne
 )
 ;
 NS_WARNING_ASSERTION

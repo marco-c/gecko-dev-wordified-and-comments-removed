@@ -126,6 +126,14 @@ LeftNodeIntoRightNode
 RightNodeIntoLeftNode
 }
 ;
+enum
+class
+SplitNodeDirection
+{
+LeftNodeIsNewOne
+RightNodeIsNewOne
+}
+;
 class
 MOZ_STACK_CLASS
 EditResult
