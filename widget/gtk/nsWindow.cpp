@@ -11125,8 +11125,6 @@ height
 return
 ;
 }
-else
-{
 mNewBoundsAfterMoveToRect
 =
 LayoutDeviceIntRect
@@ -11137,7 +11135,6 @@ LayoutDeviceIntRect
 0
 )
 ;
-}
 if
 (
 !
