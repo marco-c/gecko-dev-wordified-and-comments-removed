@@ -206,8 +206,6 @@ colno
 ;
 any
 error
-=
-null
 ;
 }
 ;
