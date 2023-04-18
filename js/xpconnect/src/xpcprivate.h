@@ -8798,6 +8798,11 @@ Headers
 1
 ;
 bool
+IOUtils
+:
+1
+;
+bool
 InspectorUtils
 :
 1
@@ -8814,6 +8819,11 @@ Node
 ;
 bool
 NodeFilter
+:
+1
+;
+bool
+PathUtils
 :
 1
 ;
