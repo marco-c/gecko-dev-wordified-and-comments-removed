@@ -91,6 +91,3 @@ patch
 allow_reparse_points
 .
 patch
-transfer_mitigations_to_child
-.
-patch
