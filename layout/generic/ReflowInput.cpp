@@ -2221,9 +2221,11 @@ if
 mStyleDisplay
 -
 >
-IsContainSize
+GetContainSizeAxes
 (
 )
+.
+mBContained
 )
 {
 AvailableBSize

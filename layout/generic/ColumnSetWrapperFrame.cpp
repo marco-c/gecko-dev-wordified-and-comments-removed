@@ -688,9 +688,11 @@ StyleDisplay
 )
 -
 >
-IsContainSize
+GetContainSizeAxes
 (
 )
+.
+mIContained
 )
 {
 const
@@ -846,9 +848,11 @@ StyleDisplay
 )
 -
 >
-IsContainSize
+GetContainSizeAxes
 (
 )
+.
+mIContained
 )
 {
 const

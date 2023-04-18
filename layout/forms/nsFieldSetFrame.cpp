@@ -1783,9 +1783,11 @@ StyleDisplay
 )
 -
 >
-IsContainSize
+GetContainSizeAxes
 (
 )
+.
+mIContained
 )
 {
 if
@@ -4034,9 +4036,11 @@ aReflowInput
 mStyleDisplay
 -
 >
-IsContainSize
+GetContainSizeAxes
 (
 )
+.
+mBContained
 )
 {
 nscoord
