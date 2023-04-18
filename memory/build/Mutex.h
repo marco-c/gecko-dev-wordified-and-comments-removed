@@ -440,4 +440,10 @@ Mutex
 >
 ;
 #
+define
+MOZ_UNANNOTATED
+#
+define
+MOZ_ANNOTATED
+#
 endif

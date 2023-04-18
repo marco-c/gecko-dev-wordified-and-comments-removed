@@ -287,6 +287,7 @@ sCurrent
 static
 StaticMutex
 sStackMutex
+MOZ_UNANNOTATED
 ;
 static
 void

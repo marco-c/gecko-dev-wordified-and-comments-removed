@@ -1135,6 +1135,7 @@ mAllocations
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 }
 ;

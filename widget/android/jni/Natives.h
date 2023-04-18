@@ -2243,6 +2243,7 @@ mJavaOwner
 mutable
 RWLock
 mLock
+MOZ_UNANNOTATED
 ;
 StorageType
 mNativeImpl

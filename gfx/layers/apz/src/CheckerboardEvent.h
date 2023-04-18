@@ -330,6 +330,7 @@ mPeakPixels
 mutable
 Monitor
 mRendertraceLock
+MOZ_UNANNOTATED
 ;
 PropertyBuffer
 mBufferedProperties

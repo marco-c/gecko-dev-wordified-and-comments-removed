@@ -159,6 +159,7 @@ nullptr
 static
 StaticMutex
 gFeaturesAlreadyReportedMutex
+MOZ_UNANNOTATED
 ;
 class
 ObserverToDestroyFeaturesAlreadyReported

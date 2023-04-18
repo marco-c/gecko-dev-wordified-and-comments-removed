@@ -239,6 +239,7 @@ HLSResourceCallbacksSupport
 }
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 HLSDecoder
 *

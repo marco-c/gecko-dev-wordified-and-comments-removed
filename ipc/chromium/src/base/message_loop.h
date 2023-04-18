@@ -993,6 +993,7 @@ mozilla
 :
 Mutex
 incoming_queue_lock_
+MOZ_UNANNOTATED
 ;
 RunState
 *

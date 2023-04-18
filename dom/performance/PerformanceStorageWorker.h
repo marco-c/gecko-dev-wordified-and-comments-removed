@@ -124,6 +124,7 @@ PerformanceStorageWorker
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 RefPtr
 <

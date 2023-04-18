@@ -1227,6 +1227,7 @@ mSnapshot
 ;
 Mutex
 mSnapshotLock
+MOZ_UNANNOTATED
 ;
 #
 ifdef

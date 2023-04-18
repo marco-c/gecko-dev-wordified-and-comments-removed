@@ -214,6 +214,7 @@ mThread
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 bool
 mShutdownDone

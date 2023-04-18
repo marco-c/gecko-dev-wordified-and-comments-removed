@@ -437,6 +437,7 @@ aProofOfLock
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 Representation
 mOnscreenRepresentation
@@ -1322,6 +1323,7 @@ aFn
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 Maybe
 <

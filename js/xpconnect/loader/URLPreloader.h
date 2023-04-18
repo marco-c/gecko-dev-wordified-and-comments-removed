@@ -1182,6 +1182,7 @@ mCachedURLs
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 {
 "
 [

@@ -281,6 +281,7 @@ mNestedQueues
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 CondVar
 mEventsAvailable

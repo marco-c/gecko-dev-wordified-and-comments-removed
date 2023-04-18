@@ -846,6 +846,7 @@ mPersistentStorageAllowed
 ;
 Monitor
 mInitPromiseMonitor
+MOZ_UNANNOTATED
 ;
 MozMonitoredPromiseHolder
 <

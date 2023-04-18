@@ -458,6 +458,7 @@ mozilla
 :
 Monitor
 mLock
+MOZ_UNANNOTATED
 ;
 mozilla
 :

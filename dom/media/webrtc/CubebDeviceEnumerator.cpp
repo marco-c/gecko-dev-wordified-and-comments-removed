@@ -100,6 +100,7 @@ sInstance
 static
 StaticMutex
 sInstanceMutex
+MOZ_UNANNOTATED
 ;
 CubebDeviceEnumerator
 *

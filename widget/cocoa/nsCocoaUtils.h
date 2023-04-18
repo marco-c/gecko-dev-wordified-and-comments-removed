@@ -1385,6 +1385,7 @@ sAudioCapturePromises
 static
 StaticMutex
 sMediaCaptureMutex
+MOZ_UNANNOTATED
 ;
 }
 ;

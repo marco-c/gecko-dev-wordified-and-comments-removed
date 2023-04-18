@@ -1161,9 +1161,11 @@ sSingleton
 static
 StaticMutex
 sSingletonMutex
+MOZ_UNANNOTATED
 ;
 Mutex
 mGraphMutex
+MOZ_UNANNOTATED
 ;
 Mutex
 mPoolInitializationMutex

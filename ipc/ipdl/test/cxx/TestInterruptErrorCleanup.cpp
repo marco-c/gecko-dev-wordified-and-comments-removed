@@ -130,6 +130,7 @@ nullptr
 ;
 Mutex
 mutex
+MOZ_UNANNOTATED
 (
 "
 TestInterruptErrorCleanup

@@ -401,6 +401,7 @@ mCallbacks
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 bool
 mCanceled

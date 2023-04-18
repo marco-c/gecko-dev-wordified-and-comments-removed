@@ -821,6 +821,7 @@ private
 :
 Monitor
 mFrozenStartMonitor
+MOZ_UNANNOTATED
 ;
 bool
 mFrozenStart

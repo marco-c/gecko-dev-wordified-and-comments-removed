@@ -61,6 +61,7 @@ protected
 mutable
 Mutex
 lock_
+MOZ_UNANNOTATED
 ;
 mutable
 T
@@ -1029,6 +1030,7 @@ RWExclusiveData
 mutable
 Mutex
 lock_
+MOZ_UNANNOTATED
 ;
 mutable
 ConditionVariable

@@ -551,6 +551,7 @@ mRefCnt
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 const
 IID
@@ -629,6 +630,7 @@ mPayload
 ;
 Mutex
 mPayloadMutex
+MOZ_UNANNOTATED
 ;
 }
 ;

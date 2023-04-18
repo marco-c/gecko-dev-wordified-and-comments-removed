@@ -1398,6 +1398,7 @@ mozilla
 :
 Mutex
 mutex
+MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <

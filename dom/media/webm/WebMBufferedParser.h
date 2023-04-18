@@ -630,6 +630,7 @@ WebMBufferedState
 )
 ReentrantMonitor
 mReentrantMonitor
+MOZ_UNANNOTATED
 ;
 nsTArray
 <

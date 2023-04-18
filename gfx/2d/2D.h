@@ -3607,6 +3607,7 @@ mData
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 Atomic
 <
@@ -6484,6 +6485,7 @@ mFTLibrary
 static
 StaticMutex
 mFTLock
+MOZ_UNANNOTATED
 ;
 public
 :
@@ -6792,10 +6794,12 @@ protected
 static
 StaticMutex
 mDeviceLock
+MOZ_UNANNOTATED
 ;
 static
 StaticMutex
 mDTDependencyLock
+MOZ_UNANNOTATED
 ;
 friend
 class

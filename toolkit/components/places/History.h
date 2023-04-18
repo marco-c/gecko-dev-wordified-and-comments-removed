@@ -448,9 +448,11 @@ mShuttingDown
 ;
 Mutex
 mShuttingDownMutex
+MOZ_UNANNOTATED
 ;
 Mutex
 mBlockShutdownMutex
+MOZ_UNANNOTATED
 ;
 friend
 class

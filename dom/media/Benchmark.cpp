@@ -373,6 +373,7 @@ false
 static
 StaticMutex
 sMutex
+MOZ_UNANNOTATED
 ;
 uint32_t
 decodeFps

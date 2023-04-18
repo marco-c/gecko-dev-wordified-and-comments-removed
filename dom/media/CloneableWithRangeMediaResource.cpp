@@ -471,6 +471,7 @@ mAsyncStream
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 }
 ;

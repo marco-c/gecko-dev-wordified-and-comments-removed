@@ -198,6 +198,7 @@ TicklerTimer
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <

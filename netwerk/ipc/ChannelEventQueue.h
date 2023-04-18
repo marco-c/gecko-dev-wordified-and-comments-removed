@@ -700,9 +700,11 @@ mOwner
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 RecursiveMutex
 mRunningMutex
+MOZ_UNANNOTATED
 ;
 friend
 class

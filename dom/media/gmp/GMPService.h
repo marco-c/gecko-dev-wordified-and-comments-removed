@@ -468,6 +468,7 @@ GetShutdownBarrier
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 const
 nsCOMPtr

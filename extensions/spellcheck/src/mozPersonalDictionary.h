@@ -183,12 +183,14 @@ mozilla
 :
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 mozilla
 :
 :
 Monitor
 mMonitorSave
+MOZ_UNANNOTATED
 ;
 nsTHashSet
 <

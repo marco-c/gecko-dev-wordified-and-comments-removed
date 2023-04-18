@@ -13826,6 +13826,7 @@ Notify
 }
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 StructuredCloneReadInfoParent
 &

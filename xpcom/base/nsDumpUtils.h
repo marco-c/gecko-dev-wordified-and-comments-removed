@@ -426,6 +426,7 @@ mozilla
 :
 Mutex
 mFifoInfoLock
+MOZ_UNANNOTATED
 ;
 FifoInfoArray
 mFifoInfo
@@ -562,6 +563,7 @@ mozilla
 :
 Mutex
 mSignalInfoLock
+MOZ_UNANNOTATED
 ;
 SignalInfoArray
 mSignalInfo
