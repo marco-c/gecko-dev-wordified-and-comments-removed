@@ -40,8 +40,8 @@ LoadExtendedValidationInfo
 (
 )
 ;
-bool
-GetFirstEVPolicy
+void
+GetKnownEVPolicies
 (
 const
 nsTArray
@@ -50,6 +50,8 @@ uint8_t
 >
 &
 cert
+nsTArray
+<
 mozilla
 :
 :
@@ -57,8 +59,9 @@ pkix
 :
 :
 CertPolicyId
+>
 &
-policy
+policies
 )
 ;
 bool
