@@ -28,9 +28,9 @@ MACOS_SYSROOT
 MOZ_FETCHES_DIR
 }
 /
-MacOSX11
+MacOSX10
 .
-0
+12
 .
 sdk
 "
