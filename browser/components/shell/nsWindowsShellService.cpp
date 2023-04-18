@@ -5152,6 +5152,9 @@ nsAutoString
 aShortcutPath
 )
 {
+return
+NS_ERROR_ABORT
+;
 VARIANT
 dir
 ;
