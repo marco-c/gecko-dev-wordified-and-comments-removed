@@ -2351,7 +2351,11 @@ HandleScript
 scriptOrModule
 )
 {
-RootedScriptSourceObject
+Rooted
+<
+ScriptSourceObject
+*
+>
 sso
 (
 cx

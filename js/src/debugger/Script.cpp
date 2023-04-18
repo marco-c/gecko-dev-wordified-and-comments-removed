@@ -2422,7 +2422,11 @@ BaseScript
 script
 )
 {
-RootedScriptSourceObject
+Rooted
+<
+ScriptSourceObject
+*
+>
 source
 (
 cx_

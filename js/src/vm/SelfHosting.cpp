@@ -18756,7 +18756,11 @@ return
 nullptr
 ;
 }
-RootedScriptSourceObject
+Rooted
+<
+ScriptSourceObject
+*
+>
 sourceObject
 (
 cx
