@@ -430,7 +430,7 @@ aEvent
 )
 ;
 const
-nsCOMPtr
+RefPtr
 <
 nsIContent
 >
@@ -1521,6 +1521,7 @@ Event
 aTriggerEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 ShowPopupAsNativeMenu
 (
@@ -2049,6 +2050,7 @@ bool
 aDeselectMenu
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 BeginShowingPopup
 (
@@ -2146,6 +2148,7 @@ bool
 aIsTooltip
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsEventStatus
 FirePopupShowingEvent
 (
