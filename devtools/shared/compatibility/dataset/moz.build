@@ -1,6 +1,11 @@
 DevToolsModules
 (
 "
+browsers
+.
+json
+"
+"
 css
 -
 properties
