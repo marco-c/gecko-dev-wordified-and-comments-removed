@@ -335,8 +335,8 @@ aOrientation
 )
 returns
 (
-bool
-allowed
+nsresult
+result
 )
 ;
 async

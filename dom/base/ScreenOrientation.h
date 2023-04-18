@@ -233,12 +233,7 @@ LOCK_ALLOWED
 ;
 RefPtr
 <
-MozPromise
-<
-bool
-bool
-false
->
+GenericNonExclusivePromise
 >
 LockDeviceOrientation
 (
