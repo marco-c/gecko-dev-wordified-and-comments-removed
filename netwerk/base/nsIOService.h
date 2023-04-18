@@ -676,6 +676,12 @@ LaunchSocketProcess
 (
 )
 ;
+static
+bool
+TooManySocketProcessCrash
+(
+)
+;
 private
 :
 nsIOService
@@ -1117,6 +1123,10 @@ mNetWon
 {
 0
 }
+;
+static
+uint32_t
+sSocketProcessCrashedCount
 ;
 mozilla
 :
