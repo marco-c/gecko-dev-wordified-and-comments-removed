@@ -63,14 +63,6 @@ srtp_key_limit_t
 new_key
 )
 ;
-srtp_err_status_t
-srtp_key_limit_check
-(
-const
-srtp_key_limit_t
-key
-)
-;
 srtp_key_event_t
 srtp_key_limit_update
 (

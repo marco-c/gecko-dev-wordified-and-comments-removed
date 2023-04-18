@@ -1,6 +1,13 @@
 #
 include
 "
+config
+.
+h
+"
+#
+include
+"
 util
 .
 h
@@ -19,6 +26,7 @@ stdint
 .
 h
 >
+static
 char
 bit_string
 [

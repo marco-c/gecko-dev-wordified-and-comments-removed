@@ -43,6 +43,13 @@ h
 #
 endif
 #
+include
+"
+cipher_priv
+.
+h
+"
+#
 define
 PRINT_DEBUG
 0
@@ -637,7 +644,7 @@ seq
 (
 uint16_t
 )
-rand
+srtp_cipher_rand_u32_for_tests
 (
 )
 ;

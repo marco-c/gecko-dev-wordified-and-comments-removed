@@ -120,6 +120,12 @@ format
 .
 )
 {
+char
+msg
+[
+512
+]
+;
 va_list
 args
 ;
@@ -163,12 +169,6 @@ va_start
 args
 format
 )
-;
-char
-msg
-[
-512
-]
 ;
 if
 (

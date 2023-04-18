@@ -352,13 +352,3 @@ return
 0
 ;
 }
-srtp_err_status_t
-crypto_kernel_cipher_test
-(
-void
-)
-{
-return
-srtp_err_status_ok
-;
-}

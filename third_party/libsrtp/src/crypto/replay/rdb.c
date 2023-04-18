@@ -17,6 +17,17 @@ rdb
 .
 h
 "
+#
+define
+rdb_bits_in_bitmask
+(
+8
+*
+sizeof
+(
+v128_t
+)
+)
 srtp_err_status_t
 srtp_rdb_init
 (

@@ -450,12 +450,6 @@ value
 ;
 policy
 .
-ekt
-=
-nullptr
-;
-policy
-.
 window_size
 =
 1024
