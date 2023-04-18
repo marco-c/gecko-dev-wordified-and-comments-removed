@@ -793,7 +793,7 @@ hasLatin1Chars
 {
 atom
 =
-AtomizeCharsNonStatic
+AtomizeCharsNonStaticValidLength
 (
 cx
 hash
@@ -812,7 +812,7 @@ else
 {
 atom
 =
-AtomizeCharsNonStatic
+AtomizeCharsNonStaticValidLength
 (
 cx
 hash
