@@ -1040,6 +1040,7 @@ paramType
 &
 aParam
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 aParam
 .
@@ -1349,6 +1350,7 @@ paramType
 &
 aParam
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 aParam
 .
