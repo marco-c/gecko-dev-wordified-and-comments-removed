@@ -4623,14 +4623,6 @@ file_pdf_application_pdf
 .
 pdf
 "
-&
-&
-where
-!
-=
-"
-frame
-"
 ;
 await
 BrowserTestUtils
