@@ -3593,16 +3593,6 @@ browser_tabs_remote_useCrossOriginEmbedderPolicy
 )
 )
 .
-setWritableStreamsEnabled
-(
-StaticPrefs
-:
-:
-javascript_options_writable_streams
-(
-)
-)
-.
 setPropertyErrorMessageFixEnabled
 (
 sPropertyErrorMessageFixEnabled

@@ -339,15 +339,6 @@ Response
 {
 [
 GetterThrows
-Pref
-=
-"
-javascript
-.
-options
-.
-streams
-"
 ]
 readonly
 attribute
