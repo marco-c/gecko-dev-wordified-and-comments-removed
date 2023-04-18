@@ -370,9 +370,6 @@ flex
 -
 container
 "
-numFixProps
-:
-2
 }
 {
 invalidProperties
@@ -437,9 +434,6 @@ flex
 -
 item
 "
-numFixProps
-:
-2
 }
 {
 invalidProperties
@@ -536,9 +530,6 @@ grid
 -
 container
 "
-numFixProps
-:
-2
 }
 {
 invalidProperties
@@ -641,9 +632,6 @@ grid
 -
 item
 "
-numFixProps
-:
-2
 }
 {
 invalidProperties
@@ -725,9 +713,6 @@ flex
 -
 item
 "
-numFixProps
-:
-4
 }
 {
 invalidProperties
@@ -818,9 +803,6 @@ flex
 -
 container
 "
-numFixProps
-:
-2
 }
 {
 invalidProperties
@@ -904,9 +886,6 @@ flex
 -
 container
 "
-numFixProps
-:
-2
 }
 {
 invalidProperties
@@ -1003,9 +982,6 @@ multicol
 -
 container
 "
-numFixProps
-:
-3
 }
 {
 invalidProperties
@@ -1120,9 +1096,6 @@ or
 -
 tablecell
 "
-numFixProps
-:
-2
 }
 {
 invalidProperties
@@ -1203,9 +1176,6 @@ of
 -
 display
 "
-numFixProps
-:
-2
 }
 {
 invalidProperties
@@ -1286,9 +1256,6 @@ of
 -
 display
 "
-numFixProps
-:
-1
 }
 {
 invalidProperties
@@ -1426,9 +1393,6 @@ on
 -
 floated
 "
-numFixProps
-:
-2
 }
 {
 invalidProperties
@@ -1473,9 +1437,6 @@ in
 -
 visited
 "
-numFixProps
-:
-1
 learnMoreURL
 :
 VISITED_MDN_LINK
@@ -1543,9 +1504,6 @@ unpositioned
 -
 box
 "
-numFixProps
-:
-1
 }
 {
 invalidProperties
@@ -1615,9 +1573,6 @@ unpositioned
 -
 box
 "
-numFixProps
-:
-1
 }
 {
 invalidProperties
@@ -1671,9 +1626,6 @@ no
 -
 overflow
 "
-numFixProps
-:
-1
 }
 {
 invalidProperties
@@ -1786,9 +1738,6 @@ table
 -
 elements
 "
-numFixProps
-:
-1
 }
 {
 invalidProperties
@@ -1931,9 +1880,6 @@ table
 -
 cells
 "
-numFixProps
-:
-1
 }
 {
 invalidProperties
@@ -1994,9 +1940,6 @@ not
 -
 table
 "
-numFixProps
-:
-1
 }
 {
 invalidProperties
@@ -2132,9 +2075,6 @@ scroll
 -
 container
 "
-numFixProps
-:
-1
 }
 ]
 ;
@@ -2236,11 +2176,6 @@ msgId
 "
 ;
 let
-numFixProps
-=
-0
-;
-let
 learnMoreURL
 =
 null
@@ -2325,12 +2260,6 @@ validator
 .
 msgId
 ;
-numFixProps
-=
-validator
-.
-numFixProps
-;
 learnMoreURL
 =
 validator
@@ -2384,7 +2313,6 @@ return
 display
 fixId
 msgId
-numFixProps
 property
 learnMoreURL
 used
