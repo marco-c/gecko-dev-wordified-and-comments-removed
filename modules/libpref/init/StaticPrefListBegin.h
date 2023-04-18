@@ -84,6 +84,10 @@ cpp_type
 :
 :
 value
+&
+&
+\
+sCrashOnBlocklistedPref
 )
 {
 \
@@ -246,6 +250,10 @@ cpp_type
 :
 :
 value
+&
+&
+\
+sCrashOnBlocklistedPref
 )
 {
 \
