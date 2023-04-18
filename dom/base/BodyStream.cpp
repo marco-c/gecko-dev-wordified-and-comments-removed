@@ -2289,7 +2289,11 @@ static_cast
 uint64_t
 >
 (
-UINT32_MAX
+256
+*
+1024
+*
+1024
 )
 aAvailableData
 )
