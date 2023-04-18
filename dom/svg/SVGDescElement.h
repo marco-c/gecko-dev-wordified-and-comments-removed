@@ -44,8 +44,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -146,7 +146,6 @@ override
 ;
 }
 ;
-}
 }
 #
 endif

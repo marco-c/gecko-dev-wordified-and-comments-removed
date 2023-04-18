@@ -53,8 +53,8 @@ ClipPath
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -222,5 +222,4 @@ NS_IMPL_ELEMENT_CLONE_WITH_INIT
 (
 SVGClipPathElement
 )
-}
 }

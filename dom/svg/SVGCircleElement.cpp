@@ -76,8 +76,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -864,7 +864,6 @@ enum
 return
 eCSSProperty_UNKNOWN
 ;
-}
 }
 }
 }

@@ -50,8 +50,8 @@ nsIContent
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -108,7 +108,6 @@ FromParser
 aFromParser
 )
 ;
-}
 }
 #
 define

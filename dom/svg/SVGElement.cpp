@@ -589,8 +589,8 @@ rv
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -12387,7 +12387,6 @@ mState
 mMallocSizeOf
 )
 ;
-}
 }
 }
 }

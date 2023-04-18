@@ -100,8 +100,8 @@ dom
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsresult
@@ -187,7 +187,6 @@ aResult
 return
 NS_OK
 ;
-}
 }
 }
 nsresult

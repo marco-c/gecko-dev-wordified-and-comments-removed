@@ -98,8 +98,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -1574,6 +1574,5 @@ sNumberListInfo
 )
 )
 ;
-}
 }
 }

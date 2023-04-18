@@ -61,8 +61,8 @@ NS_SVG_FE_COMPONENT_TRANSFER_FUNCTION_ELEMENT_CID
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -338,7 +338,6 @@ SVGComponentTransferFunctionElement
 NS_SVG_FE_COMPONENT_TRANSFER_FUNCTION_ELEMENT_CID
 )
 }
-}
 nsresult
 NS_NewSVGFEFuncRElement
 (
@@ -363,8 +362,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -485,7 +484,6 @@ override
 }
 ;
 }
-}
 nsresult
 NS_NewSVGFEFuncGElement
 (
@@ -510,8 +508,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -632,7 +630,6 @@ override
 }
 ;
 }
-}
 nsresult
 NS_NewSVGFEFuncBElement
 (
@@ -657,8 +654,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -779,7 +776,6 @@ override
 }
 ;
 }
-}
 nsresult
 NS_NewSVGFEFuncAElement
 (
@@ -804,8 +800,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -925,7 +921,6 @@ override
 ;
 }
 ;
-}
 }
 #
 endif

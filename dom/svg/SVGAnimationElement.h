@@ -80,8 +80,8 @@ MOZILLA_SVGANIMATIONELEMENT_IID
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -490,7 +490,6 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 SVGAnimationElement
 MOZILLA_SVGANIMATIONELEMENT_IID
 )
-}
 }
 #
 endif

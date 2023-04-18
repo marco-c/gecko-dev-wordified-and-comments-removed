@@ -88,8 +88,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -600,7 +600,6 @@ sNumberListInfo
 ;
 }
 ;
-}
 }
 #
 endif
