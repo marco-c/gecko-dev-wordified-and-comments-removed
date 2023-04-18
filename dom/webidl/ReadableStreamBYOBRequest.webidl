@@ -138,7 +138,7 @@ dom
 .
 streams
 .
-readable_stream_byob_request
+byte_streams
 .
 enabled
 "

@@ -136,7 +136,7 @@ dom
 .
 streams
 .
-readable_byte_stream_controller
+byte_streams
 .
 enabled
 "

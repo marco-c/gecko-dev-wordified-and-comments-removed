@@ -13,7 +13,7 @@ dom
 .
 streams
 .
-readable_stream_byob_reader
+byte_streams
 .
 enabled
 "
