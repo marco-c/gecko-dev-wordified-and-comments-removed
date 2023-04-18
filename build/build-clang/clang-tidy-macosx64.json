@@ -160,17 +160,6 @@ compiler
 -
 rt
 -
-cross
--
-compile
-.
-patch
-"
-"
-compiler
--
-rt
--
 13
 -
 no
