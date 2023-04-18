@@ -53,6 +53,13 @@ aHarnessWindow
 this
 .
 window
+&
+&
+this
+.
+window
+.
+test_driver
 )
 {
 this
