@@ -410,11 +410,12 @@ mFlatHttpRequestHeaders
 Find
 (
 "
-Content
+content
 -
-Length
+length
 :
 "
+true
 )
 ;
 if
