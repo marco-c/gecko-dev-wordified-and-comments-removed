@@ -352,7 +352,7 @@ result
 LocaleParser
 :
 :
-tryParse
+TryParse
 (
 loc
 locale
@@ -369,7 +369,7 @@ isOk
 &
 locale
 .
-addLikelySubtags
+AddLikelySubtags
 (
 )
 .
@@ -380,11 +380,11 @@ isOk
 &
 locale
 .
-region
+Region
 (
 )
 .
-present
+Present
 (
 )
 )
@@ -404,11 +404,11 @@ Append
 (
 locale
 .
-region
+Region
 (
 )
 .
-span
+Span
 (
 )
 )
