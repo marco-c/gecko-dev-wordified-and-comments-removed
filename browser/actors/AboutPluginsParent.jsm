@@ -12,11 +12,17 @@ AboutPluginsParent
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -124,6 +130,8 @@ let
 plugins
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonsByTypes

@@ -152,11 +152,17 @@ tls13
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserUtils
 "
@@ -179,7 +185,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gSerializationHelper
 "
@@ -421,6 +427,8 @@ null
 let
 securityInfo
 =
+lazy
+.
 gSerializationHelper
 .
 deserializeObject
@@ -977,6 +985,8 @@ enabled
 )
 )
 {
+lazy
+.
 BrowserUtils
 .
 promiseObserved

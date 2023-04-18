@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 SessionStore
 :
@@ -180,6 +186,8 @@ updateTabCrashedCount
 let
 report
 =
+lazy
+.
 TabCrashHandler
 .
 onAboutTabCrashedLoad
@@ -206,6 +214,8 @@ closeTab
 "
 :
 {
+lazy
+.
 TabCrashHandler
 .
 maybeSendCrashReport
@@ -235,6 +245,8 @@ restoreTab
 "
 :
 {
+lazy
+.
 TabCrashHandler
 .
 maybeSendCrashReport
@@ -243,6 +255,8 @@ browser
 message
 )
 ;
+lazy
+.
 SessionStore
 .
 reviveCrashedTab
@@ -259,6 +273,8 @@ restoreAll
 "
 :
 {
+lazy
+.
 TabCrashHandler
 .
 maybeSendCrashReport
@@ -267,6 +283,8 @@ browser
 message
 )
 ;
+lazy
+.
 SessionStore
 .
 reviveAllCrashedTabs
@@ -314,6 +332,8 @@ updateTabCrashedCount
 (
 )
 ;
+lazy
+.
 TabCrashHandler
 .
 onAboutTabCrashedUnload

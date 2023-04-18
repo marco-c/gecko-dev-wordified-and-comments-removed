@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FaviconLoader
 "
@@ -102,6 +108,8 @@ this
 _iconLoader
 =
 new
+lazy
+.
 FaviconLoader
 (
 this

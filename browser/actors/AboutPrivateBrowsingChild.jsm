@@ -79,11 +79,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NimbusFeatures
 :
@@ -233,6 +239,8 @@ source
 const
 experiment
 =
+lazy
+.
 ExperimentAPI
 .
 getExperimentMetaData
@@ -247,6 +255,8 @@ privatebrowsing
 )
 |
 |
+lazy
+.
 ExperimentAPI
 .
 getExperimentMetaData
@@ -292,6 +302,8 @@ PrivateBrowsingShouldHideDefault
 const
 config
 =
+lazy
+.
 NimbusFeatures
 .
 pbNewtab
@@ -318,6 +330,8 @@ PrivateBrowsingExposureTelemetry
 (
 )
 {
+lazy
+.
 NimbusFeatures
 .
 pbNewtab
@@ -339,6 +353,8 @@ PrivateBrowsingFeatureConfig
 const
 config
 =
+lazy
+.
 NimbusFeatures
 .
 privatebrowsing
@@ -351,6 +367,8 @@ getAllVariables
 {
 }
 ;
+lazy
+.
 NimbusFeatures
 .
 privatebrowsing

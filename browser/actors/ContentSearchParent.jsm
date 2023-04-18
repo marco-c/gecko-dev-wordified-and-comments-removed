@@ -63,11 +63,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserSearchTelemetry
 :
@@ -290,6 +296,8 @@ hiddenOneOffs
 this
 )
 ;
+lazy
+.
 UrlbarPrefs
 .
 addObserver
@@ -657,6 +665,8 @@ pref
 {
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 shouldHandOffToSearchModePrefs
@@ -968,6 +978,8 @@ params
 )
 ;
 }
+lazy
+.
 BrowserSearchTelemetry
 .
 recordSearch
@@ -1054,6 +1066,8 @@ browserData
 let
 ok
 =
+lazy
+.
 SearchSuggestionController
 .
 engineOffersSuggestions
@@ -1084,6 +1098,8 @@ MAX_SUGGESTIONS
 let
 priv
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -1244,6 +1260,8 @@ try
 {
 isPrivate
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -1276,6 +1294,8 @@ value
 .
 length
 >
+lazy
+.
 SearchSuggestionController
 .
 SEARCH_HISTORY_MAX_VALUE_LENGTH
@@ -1296,6 +1316,8 @@ browser
 true
 )
 ;
+lazy
+.
 FormHistory
 .
 update
@@ -1495,6 +1517,8 @@ state
 .
 isInPrivateBrowsingMode
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
@@ -1929,6 +1953,8 @@ actor
 "
 HandoffSearchModePrefs
 "
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2301,6 +2327,8 @@ _broadcast
 "
 HandoffSearchModePrefs
 "
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2374,6 +2402,8 @@ data
 controller
 :
 new
+lazy
+.
 SearchSuggestionController
 (
 )

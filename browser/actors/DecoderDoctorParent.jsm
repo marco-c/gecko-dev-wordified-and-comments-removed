@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gNavigatorBundle
 "
@@ -125,7 +131,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 DEBUG_LOG
 "
@@ -149,6 +155,8 @@ message
 {
 if
 (
+lazy
+.
 DEBUG_LOG
 )
 {
@@ -210,6 +218,8 @@ MediaWMFNeeded
 )
 {
 return
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -235,6 +245,8 @@ MediaPlatformDecoderNotFound
 )
 {
 return
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -265,6 +277,8 @@ pulseaudio
 )
 {
 return
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -302,6 +316,8 @@ linux
 )
 {
 return
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -329,6 +345,8 @@ error
 )
 {
 return
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -356,6 +374,8 @@ warning
 )
 {
 return
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -989,6 +1009,8 @@ push
 {
 label
 :
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -1074,6 +1096,8 @@ push
 {
 label
 :
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -1088,6 +1112,8 @@ button
 )
 accessKey
 :
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName

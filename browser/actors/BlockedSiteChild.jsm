@@ -31,11 +31,17 @@ BlockedSiteChild
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SafeBrowsing
 "
@@ -407,6 +413,8 @@ setAttribute
 "
 href
 "
+lazy
+.
 SafeBrowsing
 .
 getReportURL
@@ -483,6 +491,8 @@ setAttribute
 "
 href
 "
+lazy
+.
 SafeBrowsing
 .
 getReportURL

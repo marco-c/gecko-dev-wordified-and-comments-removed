@@ -79,11 +79,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gSerializationHelper
 "
@@ -196,6 +202,8 @@ nsISerializable
 )
 ;
 return
+lazy
+.
 gSerializationHelper
 .
 serializeToString

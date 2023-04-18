@@ -44,11 +44,17 @@ resistFingerprinting
 letterboxing
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 isLetterboxingEnabled
 "
@@ -68,6 +74,8 @@ aMessage
 {
 if
 (
+lazy
+.
 isLetterboxingEnabled
 &
 &

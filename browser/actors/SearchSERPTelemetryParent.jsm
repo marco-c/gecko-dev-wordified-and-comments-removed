@@ -12,11 +12,17 @@ SearchSERPTelemetryParent
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SearchSERPTelemetry
 "
@@ -69,6 +75,8 @@ PageInfo
 "
 )
 {
+lazy
+.
 SearchSERPTelemetry
 .
 reportPageWithAds

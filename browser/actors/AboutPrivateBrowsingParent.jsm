@@ -127,11 +127,17 @@ banner
 shown
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 MAX_SEARCH_BANNER_SHOW_COUNT
 "
@@ -155,7 +161,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 isPrivateSearchUIEnabled
 "
@@ -177,7 +183,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UrlbarPrefs
 :
@@ -710,6 +716,8 @@ private
 let
 shouldHandOffToSearchMode
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -757,6 +765,8 @@ null
 if
 (
 !
+lazy
+.
 isPrivateSearchUIEnabled
 |
 |
@@ -789,6 +799,8 @@ if
 shownTimes
 >
 =
+lazy
+.
 MAX_SEARCH_BANNER_SHOW_COUNT
 )
 {
@@ -857,6 +869,8 @@ prefs
 setIntPref
 (
 SHOWN_PREF
+lazy
+.
 MAX_SEARCH_BANNER_SHOW_COUNT
 )
 ;
@@ -893,6 +907,8 @@ SpecialMessageActionDispatch
 "
 :
 {
+lazy
+.
 SpecialMessageActions
 .
 handleAction

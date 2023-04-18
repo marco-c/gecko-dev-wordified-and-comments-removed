@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -63,7 +69,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ReaderMode
 "
@@ -86,7 +92,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 pktApi
 "
@@ -544,6 +550,8 @@ PocketLoginStatusRequest
 :
 {
 return
+lazy
+.
 pktApi
 .
 isUserLoggedIn
@@ -567,6 +575,8 @@ resolve
 =
 >
 {
+lazy
+.
 pktApi
 .
 getArticleInfo
@@ -624,6 +634,8 @@ resolve
 =
 >
 {
+lazy
+.
 pktApi
 .
 getRecsForItem
@@ -681,6 +693,8 @@ resolve
 =
 >
 {
+lazy
+.
 pktApi
 .
 addLink
@@ -771,6 +785,8 @@ resolve
 =
 >
 {
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -789,6 +805,8 @@ iconUri
 {
 iconUri
 =
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -1679,6 +1697,8 @@ spec
 let
 originalURL
 =
+lazy
+.
 ReaderMode
 .
 getOriginalUrl
@@ -1733,6 +1753,8 @@ browser
 )
 {
 return
+lazy
+.
 ReaderMode
 .
 downloadAndParseDocument

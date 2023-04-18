@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ScreenshotsOverlayChild
 :
@@ -511,6 +517,8 @@ this
 _overlay
 =
 new
+lazy
+.
 ScreenshotsOverlayChild
 .
 AnonymousContentOverlay

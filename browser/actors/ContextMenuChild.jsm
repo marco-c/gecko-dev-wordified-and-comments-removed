@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 E10SUtils
 :
@@ -193,7 +199,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 PageMenuChild
 "
@@ -385,6 +391,8 @@ GetFrameTitle
 let
 target
 =
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -422,6 +430,8 @@ ToBlobURL
 let
 target
 =
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -479,6 +489,8 @@ DoCustomCommand
 "
 :
 {
+lazy
+.
 E10SUtils
 .
 wrapHandlingUserInput
@@ -495,6 +507,8 @@ handlingUserInput
 )
 =
 >
+lazy
+.
 PageMenuChild
 .
 executeMenu
@@ -541,6 +555,8 @@ MediaCommand
 "
 :
 {
+lazy
+.
 E10SUtils
 .
 wrapHandlingUserInput
@@ -561,6 +577,8 @@ handlingUserInput
 let
 media
 =
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -861,6 +879,8 @@ ReloadFrame
 let
 target
 =
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -901,6 +921,8 @@ GetImageText
 let
 img
 =
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -932,6 +954,8 @@ ToggleRevealPassword
 let
 target
 =
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -966,6 +990,8 @@ ReloadImage
 let
 image
 =
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -1007,6 +1033,8 @@ SearchFieldBookmarkData
 let
 node
 =
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -1328,6 +1356,8 @@ SaveVideoFrameAsImage
 let
 video
 =
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -1436,6 +1466,8 @@ SetAsDesktopBackground
 let
 target
 =
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -2851,6 +2883,8 @@ spec
 let
 frameID
 =
+lazy
+.
 WebNavigationFrames
 .
 getFrameId
@@ -2876,6 +2910,8 @@ id
 let
 loginFillInfo
 =
+lazy
+.
 LoginManagerChild
 .
 forWindow
@@ -3060,6 +3096,8 @@ e
 let
 selectionInfo
 =
+lazy
+.
 SelectionUtils
 .
 getSelectionDetails
@@ -3170,6 +3208,8 @@ composedTarget
 ;
 referrerInfo
 =
+lazy
+.
 E10SUtils
 .
 serializeReferrerInfo
@@ -3244,6 +3284,8 @@ _cleanContext
 }
 editFlags
 =
+lazy
+.
 SpellCheckHelper
 .
 isEditable
@@ -3260,6 +3302,8 @@ if
 (
 editFlags
 &
+lazy
+.
 SpellCheckHelper
 .
 SPELLCHECKABLE
@@ -3267,6 +3311,8 @@ SPELLCHECKABLE
 {
 spellInfo
 =
+lazy
+.
 InlineSpellCheckerContent
 .
 initContextMenu
@@ -3349,6 +3395,8 @@ data
 .
 frameReferrerInfo
 =
+lazy
+.
 E10SUtils
 .
 serializeReferrerInfo
@@ -3368,6 +3416,8 @@ data
 .
 linkReferrerInfo
 =
+lazy
+.
 E10SUtils
 .
 serializeReferrerInfo
@@ -3396,6 +3446,8 @@ data
 .
 customMenuItems
 =
+lazy
+.
 PageMenuChild
 .
 build
@@ -3466,6 +3518,8 @@ data
 .
 cookieJarSettings
 =
+lazy
+.
 E10SUtils
 .
 serializeCookieJarSettings
@@ -3578,6 +3632,8 @@ ownerDocument
 contentType
 isPrivate
 :
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
@@ -3994,6 +4050,8 @@ toolbox
 const
 editFlags
 =
+lazy
+.
 SpellCheckHelper
 .
 isEditable
@@ -4012,6 +4070,8 @@ isAboutDevtoolsToolbox
 (
 editFlags
 &
+lazy
+.
 SpellCheckHelper
 .
 TEXTINPUT
@@ -4295,6 +4355,8 @@ context
 .
 targetIdentifier
 =
+lazy
+.
 ContentDOMReference
 .
 get
@@ -4330,6 +4392,8 @@ context
 .
 csp
 =
+lazy
+.
 E10SUtils
 .
 serializeCSP
@@ -4347,6 +4411,8 @@ context
 .
 frameID
 =
+lazy
+.
 WebNavigationFrames
 .
 getFrameId
@@ -5206,10 +5272,14 @@ if
 editFlags
 &
 (
+lazy
+.
 SpellCheckHelper
 .
 INPUT
 |
+lazy
+.
 SpellCheckHelper
 .
 TEXTAREA
@@ -5223,6 +5293,8 @@ onTextInput
 (
 editFlags
 &
+lazy
+.
 SpellCheckHelper
 .
 TEXTINPUT
@@ -5239,6 +5311,8 @@ onNumeric
 (
 editFlags
 &
+lazy
+.
 SpellCheckHelper
 .
 NUMERIC
@@ -5255,6 +5329,8 @@ onEditable
 (
 editFlags
 &
+lazy
+.
 SpellCheckHelper
 .
 EDITABLE
@@ -5271,6 +5347,8 @@ onPassword
 (
 editFlags
 &
+lazy
+.
 SpellCheckHelper
 .
 PASSWORD
@@ -5302,6 +5380,8 @@ onSpellcheckable
 (
 editFlags
 &
+lazy
+.
 SpellCheckHelper
 .
 SPELLCHECKABLE
@@ -5331,6 +5411,8 @@ onKeywordField
 =
 editFlags
 &
+lazy
+.
 SpellCheckHelper
 .
 KEYWORD
@@ -5909,6 +5991,8 @@ if
 (
 editFlags
 &
+lazy
+.
 SpellCheckHelper
 .
 CONTENTEDITABLE

@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PluralForm
 "
@@ -87,7 +93,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -110,7 +116,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SitePermissions
 "
@@ -132,7 +138,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 webrtcUI
 "
@@ -154,7 +160,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gBrandBundle
 "
@@ -191,7 +197,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 OSPermissions
 "
@@ -249,6 +255,8 @@ manager
 outerWindowId
 )
 ;
+lazy
+.
 webrtcUI
 .
 forgetStreamsFromBrowserContext
@@ -258,6 +266,8 @@ this
 browsingContext
 )
 ;
+lazy
+.
 webrtcUI
 .
 activePerms
@@ -341,6 +351,8 @@ Array
 .
 from
 (
+lazy
+.
 webrtcUI
 .
 peerConnectionBlockers
@@ -431,6 +443,8 @@ if
 decision
 )
 {
+lazy
+.
 webrtcUI
 .
 emitter
@@ -458,6 +472,8 @@ Allow
 }
 else
 {
+lazy
+.
 webrtcUI
 .
 emitter
@@ -541,6 +557,8 @@ data
 }
 )
 ;
+lazy
+.
 webrtcUI
 .
 emitter
@@ -790,6 +808,8 @@ topWindowContext
 documentPrincipal
 ;
 }
+lazy
+.
 webrtcUI
 .
 streamAddedOrRemoved
@@ -828,6 +848,8 @@ browsingContext
 let
 state
 =
+lazy
+.
 webrtcUI
 .
 updateIndicators
@@ -1013,6 +1035,8 @@ camNeeded
 micNeeded
 )
 {
+lazy
+.
 OSPermissions
 .
 getMediaCapturePermissionState
@@ -1043,6 +1067,8 @@ this
 checkAndGetOSPermission
 (
 camPermission
+lazy
+.
 OSPermissions
 .
 requestVideoCapturePermission
@@ -1080,6 +1106,8 @@ this
 checkAndGetOSPermission
 (
 micPermission
+lazy
+.
 OSPermissions
 .
 requestAudioCapturePermission
@@ -1107,6 +1135,8 @@ if
 scrNeeded
 )
 {
+lazy
+.
 OSPermissions
 .
 getScreenCapturePermissionState
@@ -1121,11 +1151,15 @@ scrStatus
 value
 =
 =
+lazy
+.
 OSPermissions
 .
 PERMISSION_STATE_DENIED
 )
 {
+lazy
+.
 OSPermissions
 .
 maybeRequestScreenCapturePermission
@@ -1153,6 +1187,8 @@ if
 devicePermission
 =
 =
+lazy
+.
 OSPermissions
 .
 PERMISSION_STATE_DENIED
@@ -1161,6 +1197,8 @@ PERMISSION_STATE_DENIED
 devicePermission
 =
 =
+lazy
+.
 OSPermissions
 .
 PERMISSION_STATE_RESTRICTED
@@ -1175,6 +1213,8 @@ if
 devicePermission
 =
 =
+lazy
+.
 OSPermissions
 .
 PERMISSION_STATE_NOTDETERMINED
@@ -1218,6 +1258,8 @@ browsingContext
 state
 }
 of
+lazy
+.
 webrtcUI
 .
 _streams
@@ -1299,6 +1341,8 @@ aId
 if
 (
 !
+lazy
+.
 webrtcUI
 .
 activePerms
@@ -1313,6 +1357,8 @@ outerWindowId
 )
 )
 {
+lazy
+.
 webrtcUI
 .
 activePerms
@@ -1331,6 +1377,8 @@ Set
 )
 ;
 }
+lazy
+.
 webrtcUI
 .
 activePerms
@@ -1365,6 +1413,8 @@ aPermissionPrincipal
 if
 (
 !
+lazy
+.
 webrtcUI
 .
 activePerms
@@ -1385,6 +1435,8 @@ return
 let
 set
 =
+lazy
+.
 webrtcUI
 .
 activePerms
@@ -1445,6 +1497,8 @@ return
 let
 gracePeriodMs
 =
+lazy
+.
 webrtcUI
 .
 deviceGracePeriodTimeoutMs
@@ -1471,15 +1525,21 @@ join
 "
 )
 ;
+lazy
+.
 SitePermissions
 .
 setForPrincipal
 (
 aPermissionPrincipal
 permissionName
+lazy
+.
 SitePermissions
 .
 ALLOW
+lazy
+.
 SitePermissions
 .
 SCOPE_TEMPORARY
@@ -1595,6 +1655,8 @@ secondOrigin
 let
 set
 =
+lazy
+.
 webrtcUI
 .
 activePerms
@@ -1651,6 +1713,8 @@ limited
 &
 &
 (
+lazy
+.
 SitePermissions
 .
 getForPrincipal
@@ -1662,11 +1726,15 @@ permissionID
 state
 =
 =
+lazy
+.
 SitePermissions
 .
 ALLOW
 |
 |
+lazy
+.
 SitePermissions
 .
 getForPrincipal
@@ -1693,6 +1761,8 @@ getBrowser
 state
 =
 =
+lazy
+.
 SitePermissions
 .
 ALLOW
@@ -2139,6 +2209,8 @@ toLowerCase
 ;
 if
 (
+lazy
+.
 SitePermissions
 .
 getForPrincipal
@@ -2151,6 +2223,8 @@ aBrowser
 state
 =
 =
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -2624,6 +2698,8 @@ denyRequest
 aRequest
 )
 ;
+lazy
+.
 SitePermissions
 .
 setForPrincipal
@@ -2632,9 +2708,13 @@ principal
 "
 screen
 "
+lazy
+.
 SitePermissions
 .
 BLOCK
+lazy
+.
 SitePermissions
 .
 SCOPE_TEMPORARY
@@ -2668,6 +2748,8 @@ denyRequest
 aRequest
 )
 ;
+lazy
+.
 SitePermissions
 .
 setForPrincipal
@@ -2676,9 +2758,13 @@ principal
 "
 screen
 "
+lazy
+.
 SitePermissions
 .
 BLOCK
+lazy
+.
 SitePermissions
 .
 SCOPE_PERSISTENT
@@ -2758,6 +2844,8 @@ length
 let
 scope
 =
+lazy
+.
 SitePermissions
 .
 SCOPE_TEMPORARY
@@ -2774,6 +2862,8 @@ checkboxChecked
 {
 scope
 =
+lazy
+.
 SitePermissions
 .
 SCOPE_PERSISTENT
@@ -2786,6 +2876,8 @@ audioInputDevices
 length
 )
 {
+lazy
+.
 SitePermissions
 .
 setForPrincipal
@@ -2794,6 +2886,8 @@ principal
 "
 microphone
 "
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -2811,6 +2905,8 @@ videoInputDevices
 length
 )
 {
+lazy
+.
 SitePermissions
 .
 setForPrincipal
@@ -2825,6 +2921,8 @@ screen
 "
 camera
 "
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -2843,6 +2941,8 @@ browser
 let
 productName
 =
+lazy
+.
 gBrandBundle
 .
 GetStringFromName
@@ -2858,6 +2958,8 @@ options
 {
 name
 :
+lazy
+.
 webrtcUI
 .
 getHostOrExtensionName
@@ -3719,6 +3821,8 @@ label
 ;
 name
 =
+lazy
+.
 PluralForm
 .
 get
@@ -4173,6 +4277,8 @@ scrStatus
 {
 }
 ;
+lazy
+.
 OSPermissions
 .
 getScreenCapturePermissionState
@@ -4187,11 +4293,15 @@ scrStatus
 value
 =
 =
+lazy
+.
 OSPermissions
 .
 PERMISSION_STATE_DENIED
 )
 {
+lazy
+.
 OSPermissions
 .
 maybeRequestScreenCapturePermission
@@ -5103,6 +5213,8 @@ if
 remember
 )
 {
+lazy
+.
 SitePermissions
 .
 setForPrincipal
@@ -5111,6 +5223,8 @@ principal
 "
 camera
 "
+lazy
+.
 SitePermissions
 .
 ALLOW
@@ -5212,6 +5326,8 @@ if
 remember
 )
 {
+lazy
+.
 SitePermissions
 .
 setForPrincipal
@@ -5220,6 +5336,8 @@ principal
 "
 microphone
 "
+lazy
+.
 SitePermissions
 .
 ALLOW
@@ -5414,6 +5532,8 @@ shouldShowAlwaysRemember
 {
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -5751,6 +5871,8 @@ options
 .
 secondName
 =
+lazy
+.
 webrtcUI
 .
 getHostOrExtensionName
@@ -5997,6 +6119,8 @@ return
 let
 perms
 =
+lazy
+.
 SitePermissions
 .
 getAllForBrowser
@@ -6024,6 +6148,8 @@ id
 .
 split
 (
+lazy
+.
 SitePermissions
 .
 PERM_KEY_DELIMITER
@@ -6039,6 +6165,8 @@ perm
 state
 =
 =
+lazy
+.
 SitePermissions
 .
 ALLOW
@@ -6049,6 +6177,8 @@ perm
 scope
 =
 =
+lazy
+.
 SitePermissions
 .
 SCOPE_TEMPORARY
@@ -6090,6 +6220,8 @@ forEach
 perm
 =
 >
+lazy
+.
 SitePermissions
 .
 removeFromPrincipal
