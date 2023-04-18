@@ -160,6 +160,9 @@ false
 nightly
 =
 true
+thunderbird
+=
+true
 }
 [
 web
