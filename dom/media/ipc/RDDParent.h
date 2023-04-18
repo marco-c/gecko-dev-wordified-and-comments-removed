@@ -165,10 +165,6 @@ PRemoteDecoderManagerParent
 &
 &
 aEndpoint
-const
-bool
-&
-aAllowHardwareDecoding
 )
 ;
 mozilla

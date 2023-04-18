@@ -1472,10 +1472,6 @@ move
 (
 parentPipe
 )
-mNumUnexpectedCrashes
-=
-=
-0
 )
 ;
 *

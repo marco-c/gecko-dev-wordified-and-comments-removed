@@ -3173,7 +3173,6 @@ move
 (
 aEndpoint
 )
-true
 )
 )
 {
