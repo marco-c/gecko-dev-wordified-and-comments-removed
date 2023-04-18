@@ -33,6 +33,11 @@ TestCheckedUnsafePtr
 cpp
 "
 "
+TestClientUsageArray
+.
+cpp
+"
+"
 TestEncryptedStream
 .
 cpp
