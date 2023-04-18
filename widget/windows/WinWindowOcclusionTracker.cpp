@@ -170,12 +170,8 @@ WinUtils
 h
 "
 #
-if
-(
-_WIN32_WINNT
-<
-0x0602
-)
+ifndef
+EVENT_OBJECT_CLOAKED
 #
 define
 EVENT_OBJECT_CLOAKED
