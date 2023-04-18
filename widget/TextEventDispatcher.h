@@ -880,6 +880,7 @@ WidgetEventTime
 aEventTime
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 DispatchKeyboardEventInternal
 (

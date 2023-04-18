@@ -10422,6 +10422,16 @@ mMessage
 eKeyPress
 )
 {
+if
+(
+!
+aEvent
+.
+AreAllEditCommandsInitialized
+(
+)
+)
+{
 Maybe
 <
 WritingMode
@@ -10474,6 +10484,7 @@ InitAllEditCommands
 writingMode
 )
 ;
+}
 }
 else
 {
