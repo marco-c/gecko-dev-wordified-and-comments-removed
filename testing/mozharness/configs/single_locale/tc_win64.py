@@ -99,4 +99,26 @@ zip
 "
     
 }
+    
+"
+tooltool_manifest_src
+"
+:
+"
+browser
+/
+config
+/
+tooltool
+-
+manifests
+/
+vs2017
+-
+15
+.
+9
+.
+manifest
+"
 }

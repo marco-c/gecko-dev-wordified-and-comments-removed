@@ -944,9 +944,6 @@ file
 paths
 =
 None
-allow_spaces
-=
-False
 )
 :
 if
@@ -1050,10 +1047,6 @@ exts
 =
 exts
 )
-if
-not
-allow_spaces
-:
 return
 normalize_path
 (
@@ -1063,11 +1056,6 @@ if
 path
 else
 None
-return
-normsep
-(
-path
-)
 if
 paths
 :
@@ -1123,10 +1111,6 @@ exts
 =
 exts
 )
-if
-not
-allow_spaces
-:
 return
 normalize_path
 (
@@ -1136,11 +1120,6 @@ if
 path
 else
 None
-return
-normsep
-(
-path
-)
 imports
 (
 "

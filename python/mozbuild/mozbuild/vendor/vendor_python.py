@@ -882,10 +882,6 @@ virtualenv
 "
         
 "
-vsdownload
-"
-        
-"
 moz
 .
 build
