@@ -2684,10 +2684,6 @@ mIsInClearCachedResources
 =
 true
 ;
-SendClearCachedResources
-(
-)
-;
 }
 void
 WebRenderBridgeChild
@@ -2712,7 +2708,14 @@ false
 return
 ;
 }
-ProcessWebRenderParentCommands
+SendClearCachedResources
+(
+mParentCommands
+)
+;
+mParentCommands
+.
+Clear
 (
 )
 ;

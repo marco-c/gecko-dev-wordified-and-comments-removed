@@ -563,6 +563,10 @@ childEpoch
 async
 ClearCachedResources
 (
+WebRenderParentCommand
+[
+]
+commands
 )
 ;
 async
