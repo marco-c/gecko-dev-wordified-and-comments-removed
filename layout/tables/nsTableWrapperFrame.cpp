@@ -5436,7 +5436,7 @@ containerSize
 ReflowChildFlags
 :
 :
-Default
+ApplyRelativePositioning
 )
 ;
 captionRI
