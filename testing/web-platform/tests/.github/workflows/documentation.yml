@@ -89,7 +89,7 @@ actions
 setup
 -
 python
-v2
+v3
 with
 :
 python
