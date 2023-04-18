@@ -6493,6 +6493,15 @@ media
 .
 getusermedia
 "
+"
+media
+.
+gmp
+-
+gmpopenh264
+.
+enabled
+"
 ]
 ;
 const
