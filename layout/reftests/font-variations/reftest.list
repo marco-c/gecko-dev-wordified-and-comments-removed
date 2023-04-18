@@ -79,14 +79,6 @@ fails
 -
 if
 (
-OSX
-<
-1012
-)
-fails
--
-if
-(
 /
 ^
 Windows
