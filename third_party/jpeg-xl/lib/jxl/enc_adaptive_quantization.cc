@@ -1222,6 +1222,7 @@ overall_ratio
 =
 SumOfLanes
 (
+d
 overall_ratio
 )
 ;
@@ -1648,6 +1649,7 @@ overall_red_coverage
 =
 SumOfLanes
 (
+d
 red_coverage
 )
 ;
@@ -1681,6 +1683,7 @@ overall_blue_coverage
 =
 SumOfLanes
 (
+d
 blue_coverage
 )
 ;
@@ -1978,6 +1981,7 @@ sum
 =
 SumOfLanes
 (
+d
 sum
 )
 ;

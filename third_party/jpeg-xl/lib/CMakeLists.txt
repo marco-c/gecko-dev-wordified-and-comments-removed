@@ -159,7 +159,7 @@ versions
 set
 (
 JPEGXL_SO_MINOR_VERSION
-6
+7
 )
 if
 (

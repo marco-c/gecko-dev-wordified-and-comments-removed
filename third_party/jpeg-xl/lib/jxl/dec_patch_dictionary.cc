@@ -867,11 +867,11 @@ ysize
 for
 (
 size_t
-i
+j
 =
 0
 ;
-i
+j
 <
 shared_
 -
@@ -889,7 +889,7 @@ size
 +
 1
 ;
-i
+j
 +
 +
 )
@@ -976,7 +976,7 @@ PatchBlendMode
 kNone
 &
 &
-i
+j
 >
 0
 )

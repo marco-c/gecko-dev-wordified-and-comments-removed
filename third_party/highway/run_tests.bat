@@ -23,6 +23,12 @@ cmake
 .
 .
 -
+DHWY_WARNINGS_ARE_ERRORS
+:
+BOOL
+=
+ON
+-
 G
 Ninja
 |

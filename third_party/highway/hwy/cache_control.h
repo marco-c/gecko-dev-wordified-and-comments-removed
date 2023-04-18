@@ -164,7 +164,7 @@ endif
 HWY_INLINE
 HWY_ATTR_CACHE
 void
-StoreFence
+FlushStream
 (
 )
 {
@@ -184,6 +184,18 @@ _mm_sfence
 ;
 #
 endif
+}
+HWY_INLINE
+HWY_ATTR_CACHE
+void
+StoreFence
+(
+)
+{
+FlushStream
+(
+)
+;
 }
 template
 <

@@ -57,6 +57,11 @@ render_spotcolors
 =
 true
 ;
+bool
+coalescing
+=
+true
+;
 Override
 preview
 =

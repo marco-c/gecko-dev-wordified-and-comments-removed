@@ -2864,6 +2864,7 @@ GetLane
 (
 SumOfLanes
 (
+df
 entropy_v
 )
 )
@@ -2875,6 +2876,7 @@ GetLane
 (
 SumOfLanes
 (
+df
 nzeros_v
 )
 )
@@ -2927,6 +2929,7 @@ GetLane
 (
 SumOfLanes
 (
+df
 info_loss
 )
 )
@@ -2945,6 +2948,7 @@ GetLane
 (
 SumOfLanes
 (
+df
 info_loss2
 )
 )

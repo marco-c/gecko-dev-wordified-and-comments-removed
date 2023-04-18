@@ -41,7 +41,7 @@ file
 if
 (
 NOT
-WIN32
+MSVC
 )
 add_subdirectory
 (

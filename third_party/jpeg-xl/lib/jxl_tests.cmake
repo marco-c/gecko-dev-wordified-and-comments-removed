@@ -152,6 +152,11 @@ entropy_coder_test
 cc
 jxl
 /
+fast_dct_test
+.
+cc
+jxl
+/
 fast_math_test
 .
 cc

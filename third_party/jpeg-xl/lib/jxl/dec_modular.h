@@ -501,6 +501,8 @@ dec_state
 ImageBundle
 *
 output
+bool
+allow_truncated
 )
 ;
 Status

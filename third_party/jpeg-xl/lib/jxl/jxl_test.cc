@@ -8041,7 +8041,7 @@ compressed
 size
 (
 )
-1320000u
+1325000u
 )
 ;
 EXPECT_THAT

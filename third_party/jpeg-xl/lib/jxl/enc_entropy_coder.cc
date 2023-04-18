@@ -542,6 +542,7 @@ GetLane
 (
 SumOfLanes
 (
+di
 neg_sum_zero
 )
 )
@@ -829,6 +830,7 @@ GetLane
 (
 SumOfLanes
 (
+di
 neg_sum_zero
 )
 )
