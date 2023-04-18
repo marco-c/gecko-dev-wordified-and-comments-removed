@@ -11,6 +11,7 @@ pin_project
 /
 ~
 ERROR
+E0263
 E0496
 pub
 struct
@@ -21,11 +22,6 @@ __pin
 T
 >
 {
-/
-/
-~
-ERROR
-E0263
 #
 [
 pin

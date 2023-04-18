@@ -431,7 +431,7 @@ vulnerabilities
 vulnerability
 =
 "
-deny
+warn
 "
 #
 The
@@ -775,6 +775,9 @@ BSD
 3
 -
 Clause
+"
+"
+Zlib
 "
 #
 "

@@ -1410,7 +1410,7 @@ io
 :
 Result
 <
-usize
+u64
 >
 {
 unsafe
@@ -1460,7 +1460,7 @@ stat
 .
 st_size
 as
-usize
+u64
 )
 }
 else

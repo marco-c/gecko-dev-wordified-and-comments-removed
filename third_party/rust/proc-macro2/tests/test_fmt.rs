@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+from_iter_instead_of_collect
+)
+]
 use
 proc_macro2
 :
@@ -224,10 +235,6 @@ Delimiter
 :
 None
 inner
-.
-clone
-(
-)
 )
 ;
 assert_eq

@@ -488,9 +488,7 @@ context
 io_mut
 (
 )
-&
 window
-&
 event
 )
 ;
@@ -1755,7 +1753,6 @@ imgui_context
 =
 init_imgui
 (
-&
 window
 )
 ;
@@ -1785,7 +1782,6 @@ imgui_context
 io_mut
 (
 )
-&
 window
 imgui_winit_support
 :

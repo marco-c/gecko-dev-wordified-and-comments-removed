@@ -21,7 +21,6 @@ Foo
 _
 _
 >
-:
 -
 -
 >
@@ -182,8 +181,12 @@ this
 error
 originates
 in
-a
+the
 macro
+crate
+:
+:
+__pin_project_internal
 (
 in
 Nightly
@@ -222,7 +225,6 @@ Bar
 _
 _
 >
-:
 -
 -
 >
@@ -366,8 +368,12 @@ this
 error
 originates
 in
-a
+the
 macro
+crate
+:
+:
+__pin_project_internal
 (
 in
 Nightly
@@ -406,7 +412,6 @@ Baz
 _
 _
 >
-:
 -
 -
 >
@@ -566,8 +571,12 @@ this
 error
 originates
 in
-a
+the
 macro
+crate
+:
+:
+__pin_project_internal
 (
 in
 Nightly

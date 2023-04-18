@@ -453,7 +453,7 @@ ident
 )
 =
 >
-(
+{
 (
 impl
 ToTokens
@@ -490,7 +490,8 @@ self
 }
 )
 *
-)
+}
+;
 }
 primitive
 !

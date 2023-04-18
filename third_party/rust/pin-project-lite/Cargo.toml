@@ -131,7 +131,7 @@ version
 .
 2
 .
-6
+7
 "
 authors
 =
@@ -157,7 +157,7 @@ exclude
 "
 "
 /
-scripts
+tools
 "
 ]
 description

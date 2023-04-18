@@ -18,7 +18,6 @@ Foo
 _
 _
 >
-:
 -
 -
 >
@@ -110,8 +109,12 @@ this
 error
 originates
 in
-a
+the
 macro
+crate
+:
+:
+__pin_project_internal
 (
 in
 Nightly
