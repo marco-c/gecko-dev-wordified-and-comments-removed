@@ -11,7 +11,7 @@ EXPORTED_SYMBOLS
 Subprocess
 "
 "
-SubprocessImpl
+getSubprocessImplForTest
 "
 ]
 ;
@@ -619,3 +619,12 @@ freeze
 Subprocess
 )
 ;
+function
+getSubprocessImplForTest
+(
+)
+{
+return
+SubprocessImpl
+;
+}
