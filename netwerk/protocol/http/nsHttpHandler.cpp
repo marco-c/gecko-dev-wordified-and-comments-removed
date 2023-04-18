@@ -15501,7 +15501,7 @@ HttpTransactionShell
 *
 trans
 const
-ClassOfServiceStruct
+ClassOfService
 &
 classOfService
 )

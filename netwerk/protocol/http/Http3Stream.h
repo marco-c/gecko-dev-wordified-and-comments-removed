@@ -72,7 +72,7 @@ nsAHttpTransaction
 Http3Session
 *
 const
-ClassOfServiceStruct
+ClassOfService
 &
 uint64_t
 )

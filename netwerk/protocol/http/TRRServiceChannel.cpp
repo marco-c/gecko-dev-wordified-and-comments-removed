@@ -153,8 +153,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 NS_IMPL_ADDREF
@@ -6508,11 +6508,11 @@ TRRServiceChannel
 :
 SetClassOfService
 (
-ClassOfServiceStruct
+ClassOfService
 cos
 )
 {
-ClassOfServiceStruct
+ClassOfService
 previous
 =
 mClassOfService
@@ -7490,6 +7490,5 @@ aURI
 return
 true
 ;
-}
 }
 }
