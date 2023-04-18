@@ -1417,11 +1417,6 @@ message_id
 this
 .
 AWMessageId
-id
-:
-"
-ABOUT_WELCOME
-"
 }
 )
 ;
