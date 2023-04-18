@@ -5420,6 +5420,12 @@ options
 ;
 options
 .
+borrowBuffer
+=
+true
+;
+options
+.
 usePinnedBytecode
 =
 true
