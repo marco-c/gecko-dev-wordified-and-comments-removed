@@ -42,12 +42,6 @@ util
 import
 MINIMUM_RUST_VERSION
 from
-mozbuild
-.
-mach_commands
-import
-cargo_vet
-from
 pathlib
 import
 Path
@@ -3294,6 +3288,13 @@ False
     
 )
 :
+        
+from
+mozbuild
+.
+mach_commands
+import
+cargo_vet
         
 self
 .
