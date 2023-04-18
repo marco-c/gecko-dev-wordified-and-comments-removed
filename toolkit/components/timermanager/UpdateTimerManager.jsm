@@ -103,11 +103,17 @@ update
 timer
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gLogEnabled
 "
@@ -129,6 +135,8 @@ if
 alwaysLog
 |
 |
+lazy
+.
 gLogEnabled
 )
 {
