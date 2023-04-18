@@ -370,14 +370,14 @@ itertools
 "
 0
 .
-8
+10
 "
 itoa
 =
 "
-0
+1
 .
-4
+0
 "
 lazy_static
 =
@@ -871,8 +871,6 @@ version
 =
 "
 0
-.
-4
 .
 5
 "
