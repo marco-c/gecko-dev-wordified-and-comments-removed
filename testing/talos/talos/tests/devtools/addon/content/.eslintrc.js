@@ -36,9 +36,6 @@ true
 require
 :
 true
-rootURI
-:
-true
 }
 rules
 :
