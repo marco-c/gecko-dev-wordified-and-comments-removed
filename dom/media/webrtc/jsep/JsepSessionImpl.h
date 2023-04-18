@@ -996,6 +996,7 @@ GetTransceiverForLevel
 size_t
 level
 )
+const
 ;
 JsepTransceiver
 *
@@ -1009,6 +1010,7 @@ string
 &
 mid
 )
+const
 ;
 JsepTransceiver
 *
@@ -1040,6 +1042,7 @@ string
 &
 transportId
 )
+const
 ;
 JsepTransceiver
 *
