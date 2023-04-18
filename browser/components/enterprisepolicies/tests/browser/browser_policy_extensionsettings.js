@@ -133,7 +133,7 @@ add_setup
 (
 async
 function
-ensureInstallTriggerEnabled
+setupTestEnvironment
 (
 )
 {
@@ -165,6 +165,16 @@ InstallTriggerImpl
 enabled
 "
 true
+]
+[
+"
+xpinstall
+.
+userActivation
+.
+required
+"
+false
 ]
 ]
 }
