@@ -68,6 +68,11 @@ Sampling
 jsm
 "
 "
+WindowsInstallsInfo
+.
+jsm
+"
+"
 WindowsVersionInfo
 .
 jsm
