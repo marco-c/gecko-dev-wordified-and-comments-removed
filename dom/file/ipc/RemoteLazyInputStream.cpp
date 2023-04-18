@@ -3491,6 +3491,11 @@ eventTarget
 ;
 }
 }
+if
+(
+aCallback
+)
+{
 InputStreamCallbackRunnable
 :
 :
@@ -3507,6 +3512,7 @@ eventTarget
 this
 )
 ;
+}
 return
 NS_OK
 ;
