@@ -104,6 +104,11 @@ GeckoViewContentParent
 jsm
 "
 "
+GeckoViewFormValidationChild
+.
+jsm
+"
+"
 GeckoViewPromptChild
 .
 jsm
