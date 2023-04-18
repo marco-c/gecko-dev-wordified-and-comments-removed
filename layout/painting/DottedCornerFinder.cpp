@@ -24,6 +24,13 @@ BorderConsts
 .
 h
 "
+#
+include
+"
+nsTHashMap
+.
+h
+"
 namespace
 mozilla
 {
