@@ -178,6 +178,17 @@ lib
 /
 jxl
 /
+enc_color_management
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 enc_params
 .
 h
@@ -421,6 +432,9 @@ Main
 pool
 &
 opsin
+GetJxlCms
+(
+)
 )
 ;
 opsin
@@ -660,6 +674,9 @@ RoundtripImage
 opsin
 &
 enc_state
+GetJxlCms
+(
+)
 &
 pool
 )
@@ -691,6 +708,9 @@ io1
 cparams
 .
 ba_params
+GetJxlCms
+(
+)
 nullptr
 &
 pool

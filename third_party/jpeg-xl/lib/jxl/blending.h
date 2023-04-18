@@ -40,7 +40,7 @@ h
 namespace
 jxl
 {
-Status
+void
 PerformBlending
 (
 const
@@ -60,6 +60,8 @@ float
 const
 *
 out
+size_t
+x0
 size_t
 xsize
 const

@@ -1,13 +1,4 @@
 #
-ifndef
-JPEGXL_ENABLE_SKCMS
-#
-define
-JPEGXL_ENABLE_SKCMS
-0
-#
-endif
-#
 include
 "
 lib

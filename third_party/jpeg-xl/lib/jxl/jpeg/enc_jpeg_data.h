@@ -76,7 +76,6 @@ color_encoding
 Status
 DecodeImageJPG
 (
-const
 Span
 <
 const

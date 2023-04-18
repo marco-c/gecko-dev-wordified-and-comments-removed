@@ -116,6 +116,10 @@ const
 CodecMetadata
 *
 metadata
+const
+JxlCmsInterface
+&
+cms
 ThreadPool
 *
 pool
@@ -156,6 +160,10 @@ passes_enc_state
 PaddedBytes
 *
 compressed
+const
+JxlCmsInterface
+&
+cms
 AuxOut
 *
 aux_out
@@ -190,6 +198,10 @@ FrameEncCache
 PaddedBytes
 *
 compressed
+const
+JxlCmsInterface
+&
+cms
 AuxOut
 *
 aux_out
@@ -213,6 +225,7 @@ io
 &
 passes_enc_state
 compressed
+cms
 aux_out
 pool
 )

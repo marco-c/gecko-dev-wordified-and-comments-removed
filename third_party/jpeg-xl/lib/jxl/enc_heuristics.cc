@@ -5914,6 +5914,10 @@ original_pixels
 Image3F
 *
 opsin
+const
+JxlCmsInterface
+&
+cms
 ThreadPool
 *
 pool
@@ -6262,6 +6266,20 @@ SpeedTier
 kSquirrel
 )
 {
+if
+(
+!
+shared
+.
+image_features
+.
+splines
+.
+HasAny
+(
+)
+)
+{
 shared
 .
 image_features
@@ -6274,6 +6292,7 @@ FindSplines
 opsin
 )
 ;
+}
 JXL_RETURN_IF_ERROR
 (
 shared
@@ -6338,6 +6357,7 @@ FindBestPatchDictionary
 *
 opsin
 enc_state
+cms
 pool
 aux_out
 )
@@ -6480,6 +6500,7 @@ ToXYB
 original_pixels
 pool
 opsin
+cms
 nullptr
 )
 ;
@@ -6656,8 +6677,10 @@ process_tile
 &
 ]
 (
-size_t
+const
+uint32_t
 tid
+const
 size_t
 thread
 )
@@ -6923,6 +6946,8 @@ cmap
 }
 }
 ;
+JXL_RETURN_IF_ERROR
+(
 RunOnPool
 (
 pool
@@ -6984,6 +7009,7 @@ process_tile
 Enc
 Heuristics
 "
+)
 )
 ;
 acs_heuristics
@@ -7050,6 +7076,7 @@ original_pixels
 *
 opsin
 enc_state
+cms
 pool
 aux_out
 )

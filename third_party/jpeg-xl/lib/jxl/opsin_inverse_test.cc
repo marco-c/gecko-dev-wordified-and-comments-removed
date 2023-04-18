@@ -71,6 +71,17 @@ lib
 /
 jxl
 /
+enc_color_management
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 enc_xyb
 .
 h
@@ -217,6 +228,9 @@ Main
 null_pool
 &
 opsin
+GetJxlCms
+(
+)
 )
 ;
 OpsinParams
@@ -298,6 +312,8 @@ ysize
 )
 )
 ;
+EXPECT_TRUE
+(
 RgbToYcbcr
 (
 rgb
@@ -340,6 +356,7 @@ Plane
 2
 )
 null_pool
+)
 )
 ;
 Image3F
