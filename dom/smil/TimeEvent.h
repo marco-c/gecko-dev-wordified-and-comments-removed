@@ -60,8 +60,8 @@ nsGlobalWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -210,7 +210,6 @@ mDetail
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

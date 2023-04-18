@@ -19,8 +19,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 extern
@@ -29,7 +29,6 @@ char
 *
 kPrefSimpleDBEnabled
 ;
-}
 }
 #
 endif

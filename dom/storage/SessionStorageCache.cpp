@@ -59,8 +59,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -1377,6 +1377,5 @@ newOriginUsage
 return
 true
 ;
-}
 }
 }

@@ -142,8 +142,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -2120,6 +2120,5 @@ initialize
 return
 sSelf
 ;
-}
 }
 }

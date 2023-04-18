@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -216,7 +216,6 @@ mOnFailure
 ;
 }
 ;
-}
 }
 #
 endif

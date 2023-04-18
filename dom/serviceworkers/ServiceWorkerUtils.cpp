@@ -84,8 +84,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -825,7 +825,6 @@ Client
 ;
 return
 ;
-}
 }
 }
 }

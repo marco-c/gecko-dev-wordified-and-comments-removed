@@ -44,8 +44,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -481,6 +481,5 @@ Finish
 NS_OK
 )
 ;
-}
 }
 }

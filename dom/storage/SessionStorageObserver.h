@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -97,7 +97,6 @@ SessionStorageObserver
 ;
 }
 ;
-}
 }
 #
 endif

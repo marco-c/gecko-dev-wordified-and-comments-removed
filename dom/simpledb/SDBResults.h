@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -65,7 +65,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSISDBRESULT
 }
 ;
-}
 }
 #
 endif

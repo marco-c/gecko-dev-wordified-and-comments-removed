@@ -79,8 +79,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -2618,6 +2618,5 @@ newUsage
 return
 true
 ;
-}
 }
 }

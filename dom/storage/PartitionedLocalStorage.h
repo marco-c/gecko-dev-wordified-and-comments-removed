@@ -16,8 +16,8 @@ nsIPrincipal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -206,7 +206,6 @@ mCache
 ;
 }
 ;
-}
 }
 #
 endif

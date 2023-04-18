@@ -48,8 +48,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 TimeEvent
@@ -214,7 +214,6 @@ GetOuterWindow
 :
 nullptr
 ;
-}
 }
 }
 using

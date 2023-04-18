@@ -7,8 +7,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ISUPPORTS
@@ -119,6 +119,5 @@ const
 return
 mPromise
 ;
-}
 }
 }

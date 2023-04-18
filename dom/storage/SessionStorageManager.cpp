@@ -211,8 +211,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -4479,6 +4479,5 @@ RemoveElement
 aActor
 )
 ;
-}
 }
 }
