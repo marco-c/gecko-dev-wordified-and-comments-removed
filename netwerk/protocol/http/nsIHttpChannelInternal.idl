@@ -108,9 +108,6 @@ interface
 nsIAsyncOutputStream
 ;
 interface
-nsIEarlyHintObserver
-;
-interface
 nsIPrincipal
 ;
 interface
@@ -816,17 +813,6 @@ readonly
 attribute
 boolean
 hasHTTPSRR
-;
-[
-must_use
-]
-void
-setEarlyHintObserver
-(
-in
-nsIEarlyHintObserver
-aObserver
-)
 ;
 }
 ;

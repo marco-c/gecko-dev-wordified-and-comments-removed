@@ -84,13 +84,6 @@ h
 #
 include
 "
-nsIEarlyHintObserver
-.
-h
-"
-#
-include
-"
 nsTHashMap
 .
 h
@@ -1984,12 +1977,6 @@ ShouldRestartOn0RttError
 nsresult
 reason
 )
-;
-nsCOMPtr
-<
-nsIEarlyHintObserver
->
-mEarlyHintObserver
 ;
 }
 ;
