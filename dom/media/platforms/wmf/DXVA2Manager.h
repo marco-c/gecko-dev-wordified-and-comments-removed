@@ -188,6 +188,8 @@ CopyToBGRATexture
 ID3D11Texture2D
 *
 aInTexture
+uint32_t
+aArrayIndex
 ID3D11Texture2D
 *
 *

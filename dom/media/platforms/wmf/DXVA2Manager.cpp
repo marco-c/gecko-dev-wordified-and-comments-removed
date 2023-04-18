@@ -3237,6 +3237,8 @@ CopyToBGRATexture
 ID3D11Texture2D
 *
 aInTexture
+uint32_t
+aArrayIndex
 ID3D11Texture2D
 *
 *
@@ -5681,6 +5683,8 @@ CopyToBGRATexture
 ID3D11Texture2D
 *
 aInTexture
+uint32_t
+aArrayIndex
 ID3D11Texture2D
 *
 *
@@ -6136,7 +6140,7 @@ __uuidof
 ID3D11Texture2D
 )
 inTexture
-0
+aArrayIndex
 FALSE
 getter_AddRefs
 (

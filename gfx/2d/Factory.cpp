@@ -5710,6 +5710,8 @@ CreateBGRA8DataSourceSurfaceForD3D11Texture
 ID3D11Texture2D
 *
 aSrcTexture
+uint32_t
+aArrayIndex
 )
 {
 D3D11_TEXTURE2D_DESC
@@ -5783,6 +5785,7 @@ ReadbackTexture
 (
 destTexture
 aSrcTexture
+aArrayIndex
 )
 )
 {
@@ -5815,6 +5818,8 @@ aDestCpuTexture
 ID3D11Texture2D
 *
 aSrcTexture
+uint32_t
+aArrayIndex
 )
 {
 RefPtr
@@ -5922,6 +5927,7 @@ manager
 CopyToBGRATexture
 (
 aSrcTexture
+aArrayIndex
 getter_AddRefs
 (
 newSrcTexture
@@ -6148,6 +6154,8 @@ aDestCpuTexture
 ID3D11Texture2D
 *
 aSrcTexture
+uint32_t
+aArrayIndex
 )
 {
 D3D11_TEXTURE2D_DESC
@@ -6207,6 +6215,7 @@ ConvertSourceAndRetryReadback
 (
 aDestCpuTexture
 aSrcTexture
+aArrayIndex
 )
 ;
 }
@@ -6301,6 +6310,14 @@ return
 false
 ;
 }
+MOZ_ASSERT
+(
+aArrayIndex
+=
+=
+0
+)
+;
 bool
 ret
 =
