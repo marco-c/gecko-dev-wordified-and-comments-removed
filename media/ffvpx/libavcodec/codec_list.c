@@ -38,6 +38,13 @@ ff_mp3_decoder
 endif
 #
 if
+CONFIG_LIBDAV1D
+&
+ff_libdav1d_decoder
+#
+endif
+#
+if
 CONFIG_AV1_DECODER
 &
 ff_av1_decoder
