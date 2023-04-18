@@ -150,7 +150,6 @@ NS_IMPL_CYCLE_COLLECTION
 (
 ScriptFetchOptions
 mTriggeringPrincipal
-mWebExtGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
@@ -183,9 +182,6 @@ aReferrerPolicy
 nsIPrincipal
 *
 aTriggeringPrincipal
-nsIGlobalObject
-*
-aWebExtGlobal
 )
 :
 mCORSMode
@@ -199,10 +195,6 @@ aReferrerPolicy
 mTriggeringPrincipal
 (
 aTriggeringPrincipal
-)
-mWebExtGlobal
-(
-aWebExtGlobal
 )
 {
 MOZ_ASSERT

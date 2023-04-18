@@ -262,11 +262,6 @@ aReferrerPolicy
 nsIPrincipal
 *
 aTriggeringPrincipal
-nsIGlobalObject
-*
-aWebExtGlobal
-=
-nullptr
 )
 ;
 const
@@ -292,12 +287,6 @@ nsCOMPtr
 nsIPrincipal
 >
 mTriggeringPrincipal
-;
-nsCOMPtr
-<
-nsIGlobalObject
->
-mWebExtGlobal
 ;
 }
 ;

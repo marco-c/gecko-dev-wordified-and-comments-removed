@@ -189,13 +189,6 @@ h
 #
 include
 "
-nsIGlobalObject
-.
-h
-"
-#
-include
-"
 nsIScriptElement
 .
 h
@@ -298,13 +291,6 @@ override
 ;
 bool
 IsPreload
-(
-)
-const
-;
-nsIGlobalObject
-*
-GetWebExtGlobal
 (
 )
 const
