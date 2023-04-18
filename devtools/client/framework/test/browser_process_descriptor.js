@@ -202,10 +202,10 @@ is
 (
 descriptor
 .
-isParent
+isParentProcessDescriptor
 false
 "
-isParent
+isParentProcessDescriptor
 is
 false
 for

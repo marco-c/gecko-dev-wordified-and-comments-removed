@@ -2608,7 +2608,7 @@ targetCommand
 .
 descriptorFront
 .
-isParentProcessDescriptor
+isBrowserProcessDescriptor
 &
 &
 !

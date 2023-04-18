@@ -1030,7 +1030,7 @@ this
 .
 descriptorFront
 .
-isParentProcessDescriptor
+isBrowserProcessDescriptor
 &
 &
 !
@@ -1459,7 +1459,7 @@ this
 .
 descriptorFront
 .
-isParentProcessDescriptor
+isBrowserProcessDescriptor
 )
 {
 const

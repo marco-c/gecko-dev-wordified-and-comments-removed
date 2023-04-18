@@ -1043,7 +1043,7 @@ targetCommand
 .
 descriptorFront
 .
-isParentProcessDescriptor
+isBrowserProcessDescriptor
 )
 {
 return
