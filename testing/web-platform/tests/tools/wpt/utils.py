@@ -452,6 +452,24 @@ makedirs
 link_dst_dir
 )
                     
+if
+os
+.
+path
+.
+islink
+(
+info_dst_path
+)
+:
+                        
+os
+.
+unlink
+(
+info_dst_path
+)
+                    
 os
 .
 symlink
