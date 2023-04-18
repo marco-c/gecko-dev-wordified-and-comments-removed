@@ -417,7 +417,7 @@ list
 (
 index
 .
-html
+rst
 #
 communication
 )
@@ -569,7 +569,7 @@ Contributing
 (
 Contributing
 .
-html
+md
 )
 to
 get
@@ -688,13 +688,11 @@ out
 in
 [
 Patches
-.
-md
 ]
 (
 Patches
 .
-html
+md
 )
 .
 Resources

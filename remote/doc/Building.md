@@ -324,8 +324,6 @@ remote
 mozconfig
 ]
 :
-.
-.
 /
 build
 /
@@ -333,7 +331,7 @@ buildsystem
 /
 mozconfigs
 .
-html
+rst
 [
 artifact
 builds
@@ -366,8 +364,6 @@ Artifact_builds
 Marionette
 ]
 :
-.
-.
 /
 testing
 /
@@ -375,4 +371,4 @@ marionette
 /
 index
 .
-html
+rst

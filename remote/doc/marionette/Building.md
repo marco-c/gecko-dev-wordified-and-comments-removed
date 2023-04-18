@@ -429,8 +429,6 @@ Artifact_builds
 mozconfig
 ]
 :
-.
-.
 /
 build
 /
@@ -438,7 +436,7 @@ buildsystem
 /
 mozconfigs
 .
-html
+rst
 [
 ccache
 ]
@@ -473,11 +471,9 @@ Remote
 Agent
 ]
 :
-.
-.
 /
 remote
 /
 index
 .
-html
+rst

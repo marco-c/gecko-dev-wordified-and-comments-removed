@@ -748,7 +748,7 @@ Testing
 /
 Testing
 .
-html
+md
 [
 Puppeteer
 test

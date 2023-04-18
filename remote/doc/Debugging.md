@@ -367,11 +367,9 @@ directory
 preference
 ]
 :
-.
-/
 Prefs
 .
-html
+md
 [
 System
 observer
