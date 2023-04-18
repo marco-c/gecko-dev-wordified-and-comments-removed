@@ -631,6 +631,11 @@ mModuleScript
 mLoader
 -
 >
+GetModuleLoader
+(
+)
+-
+>
 GetFetchedModule
 (
 mURI
