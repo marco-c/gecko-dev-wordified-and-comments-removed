@@ -3965,7 +3965,9 @@ MOZ_ASSERT
 (
 aCodec
 .
-mType
+Type
+(
+)
 =
 =
 SdpMediaSection
@@ -3978,7 +3980,9 @@ if
 (
 aCodec
 .
-mType
+Type
+(
+)
 !
 =
 SdpMediaSection
@@ -4762,7 +4766,9 @@ MOZ_ASSERT
 (
 aCodec
 .
-mType
+Type
+(
+)
 =
 =
 SdpMediaSection
@@ -4775,7 +4781,9 @@ if
 (
 aCodec
 .
-mType
+Type
+(
+)
 !
 =
 SdpMediaSection
