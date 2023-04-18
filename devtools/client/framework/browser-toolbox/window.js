@@ -1257,6 +1257,16 @@ unload
 onUnload
 )
 ;
+gClient
+.
+once
+(
+"
+closed
+"
+quitApp
+)
+;
 if
 (
 Services

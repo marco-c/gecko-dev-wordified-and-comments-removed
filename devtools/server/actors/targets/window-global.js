@@ -2874,6 +2874,11 @@ _isRootDocShell
 (
 d
 )
+&
+&
+d
+.
+DOMWindow
 ;
 }
 )
