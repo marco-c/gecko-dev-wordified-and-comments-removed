@@ -287,8 +287,9 @@ aFocusEvent
 nsresult
 Blur
 (
+const
 InternalFocusEvent
-*
+&
 aBlurEvent
 )
 ;
