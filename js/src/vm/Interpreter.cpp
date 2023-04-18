@@ -26812,7 +26812,10 @@ clone
 >
 setExtendedSlot
 (
-0
+FunctionExtended
+:
+:
+ARROW_NEWTARGET_SLOT
 newTargetv
 )
 ;
