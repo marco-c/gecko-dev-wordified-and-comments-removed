@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 const
 {
 gDevToolsBrowser
@@ -53,15 +48,14 @@ html
 await
 addTab
 (
+{
 EXAMPLE_URL
-+
-"
+}
 doc
 -
 scripts
 .
 html
-"
 )
 ;
 info
@@ -75,7 +69,7 @@ Toolbox
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -105,7 +99,7 @@ jsdebugger
 "
 )
 ;
-let
+const
 dbg
 =
 createDebuggerContext
@@ -252,7 +246,7 @@ window
 "
 )
 ;
-let
+const
 onToolboxDestroyed
 =
 toolbox

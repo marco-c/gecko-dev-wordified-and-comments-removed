@@ -92,7 +92,7 @@ i
 +
 )
 {
-let
+const
 onReloaded
 =
 waitForReload
@@ -185,7 +185,7 @@ n
 "
 )
 ;
-let
+const
 source
 =
 findSource

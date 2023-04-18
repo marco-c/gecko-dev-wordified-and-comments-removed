@@ -25,7 +25,7 @@ js
 "
 )
 ;
-let
+const
 doc
 =
 dbg

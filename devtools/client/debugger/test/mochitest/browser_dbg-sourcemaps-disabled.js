@@ -70,12 +70,12 @@ js
 ;
 info
 (
-'
+"
 Pretty
 print
 the
 bundle
-'
+"
 )
 ;
 await
@@ -109,10 +109,10 @@ formatted
 ok
 (
 true
-'
+"
 everything
 finished
-'
+"
 )
 ;
 }

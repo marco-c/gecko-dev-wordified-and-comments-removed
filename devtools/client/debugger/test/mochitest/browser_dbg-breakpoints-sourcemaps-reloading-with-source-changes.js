@@ -253,6 +253,7 @@ source
 )
 "
 )
+;
 await
 selectSource
 (
@@ -514,6 +515,7 @@ function
 foo
 "
 )
+;
 assertTextContentOnLine
 (
 dbg
@@ -543,6 +545,7 @@ source
 )
 "
 )
+;
 await
 selectSource
 (

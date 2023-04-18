@@ -61,9 +61,9 @@ gBrowser
 .
 selectedBrowser
 [
+{
 EXAMPLE_REMOTE_URL
-+
-"
+}
 doc
 -
 early
@@ -71,7 +71,6 @@ early
 xhr
 .
 html
-"
 ]
 remoteUrl
 =
@@ -185,9 +184,9 @@ gBrowser
 .
 selectedBrowser
 [
+{
 EXAMPLE_REMOTE_URL
-+
-"
+}
 doc
 -
 early
@@ -195,7 +194,6 @@ early
 xhr
 .
 html
-"
 ]
 remoteUrl
 =

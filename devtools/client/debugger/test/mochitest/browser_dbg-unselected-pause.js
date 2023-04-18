@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 const
 IFRAME_TEST_COM_URI
 =
@@ -22,7 +17,7 @@ sjs
 ?
 html
 =
-+
+{
 encodeURI
 (
 <
@@ -49,6 +44,7 @@ a
 script
 >
 )
+}
 ;
 const
 IFRAME_TEST_URI
@@ -69,7 +65,7 @@ sjs
 ?
 html
 =
-+
+{
 encodeURI
 (
 <
@@ -119,6 +115,7 @@ iframe
 body
 >
 )
+}
 ;
 add_task
 (

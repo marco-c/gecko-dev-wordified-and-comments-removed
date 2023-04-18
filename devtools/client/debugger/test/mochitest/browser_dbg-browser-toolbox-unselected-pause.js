@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 requestLongerTimeout
 (
 4
@@ -123,9 +118,7 @@ stringify
 selectors
 )
 async
-(
 _selectors
-)
 =
 >
 {

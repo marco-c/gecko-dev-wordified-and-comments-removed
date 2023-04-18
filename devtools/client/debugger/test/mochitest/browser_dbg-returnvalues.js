@@ -144,7 +144,7 @@ return_something
 "
 )
 ;
-let
+const
 label
 =
 getLabel

@@ -138,7 +138,7 @@ visible
 "
 )
 ;
-let
+const
 pauseLine
 =
 getVisibleSelectedFrameLine

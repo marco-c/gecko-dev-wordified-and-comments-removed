@@ -22,7 +22,7 @@ html
 "
 )
 ;
-let
+const
 onPaused
 =
 waitForPaused

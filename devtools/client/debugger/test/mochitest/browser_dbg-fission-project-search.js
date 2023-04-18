@@ -1,14 +1,9 @@
-"
-use
-strict
-"
-;
 const
 TEST_COM_URI
 =
+{
 URL_ROOT_COM_SSL
-+
-"
+}
 examples
 /
 doc_dbg
@@ -20,7 +15,6 @@ frame
 sources
 .
 html
-"
 ;
 add_task
 (
@@ -126,6 +120,7 @@ results
 found
 "
 )
+;
 is
 (
 matches

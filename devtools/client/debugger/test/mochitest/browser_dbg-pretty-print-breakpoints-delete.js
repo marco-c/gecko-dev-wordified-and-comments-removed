@@ -262,6 +262,7 @@ source
 )
 "
 )
+;
 await
 selectSource
 (
@@ -294,6 +295,7 @@ source
 )
 "
 )
+;
 await
 closeTab
 (

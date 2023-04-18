@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 PromiseTestUtils
 .
 allowMatchingRejectionsGlobally

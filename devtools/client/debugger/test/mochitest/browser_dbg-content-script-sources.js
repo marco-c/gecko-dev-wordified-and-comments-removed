@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 add_task
 (
 async
@@ -334,7 +329,7 @@ onload
 }
 ;
 }
-let
+const
 extension
 =
 ExtensionTestUtils

@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 add_task
 (
 async
@@ -159,6 +154,7 @@ message
 {
 return
 false
+;
 }
 return
 message

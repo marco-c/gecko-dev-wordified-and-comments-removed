@@ -51,7 +51,7 @@ sjs
 ?
 html
 =
-+
+{
 encodeURI
 (
 <
@@ -91,6 +91,7 @@ me
 button
 >
 )
+}
 ;
 const
 TEST_URI

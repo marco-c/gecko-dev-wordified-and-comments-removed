@@ -25,7 +25,6 @@ page
 const
 POPUP_URL
 =
-"
 https
 :
 /
@@ -42,8 +41,7 @@ sjs
 ?
 html
 =
-"
-+
+{
 escape
 (
 popup
@@ -75,11 +73,11 @@ false
 script
 >
 )
+}
 ;
 const
 POPUP_DEBUGGER_STATEMENT_URL
 =
-"
 https
 :
 /
@@ -96,8 +94,7 @@ sjs
 ?
 html
 =
-"
-+
+{
 escape
 (
 popup
@@ -123,6 +120,7 @@ false
 script
 >
 )
+}
 ;
 function
 isPopupPaused
@@ -767,7 +765,7 @@ breakpoint
 "
 )
 ;
-let
+const
 browser
 =
 gBrowser

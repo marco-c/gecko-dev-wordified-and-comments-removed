@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 requestLongerTimeout
 (
 4
@@ -118,9 +113,9 @@ waitForAllTargetsToBeAttached
 await
 addTab
 (
+{
 EXAMPLE_URL
-+
-"
+}
 doc
 -
 all
@@ -128,7 +123,6 @@ all
 workers
 .
 html
-"
 )
 ;
 await

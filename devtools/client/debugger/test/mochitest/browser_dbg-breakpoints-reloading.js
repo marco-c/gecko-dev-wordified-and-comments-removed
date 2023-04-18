@@ -104,6 +104,7 @@ long
 js
 "
 )
+;
 assertSourceDoesNotExist
 (
 dbg

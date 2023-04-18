@@ -225,7 +225,6 @@ getVisibleSelectedFrame
 )
 ;
 return
-(
 frame
 ?
 .
@@ -240,7 +239,6 @@ getInScopeLines
 frame
 .
 location
-)
 )
 ;
 }

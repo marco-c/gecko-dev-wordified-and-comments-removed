@@ -306,6 +306,7 @@ message
 {
 return
 false
+;
 }
 const
 linkEl

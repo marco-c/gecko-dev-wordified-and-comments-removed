@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 requestLongerTimeout
 (
 5
@@ -141,6 +136,7 @@ line
 "
 }
 }
+;
 add_task
 (
 async
@@ -637,6 +633,7 @@ be
 hit
 "
 )
+;
 assertNotPaused
 (
 dbg
