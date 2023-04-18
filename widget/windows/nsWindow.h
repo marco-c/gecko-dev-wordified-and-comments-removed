@@ -3635,13 +3635,8 @@ LayoutDeviceIntRect
 >
 mWindowButtonsRect
 ;
-POINT
+LayoutDeviceIntPoint
 mCachedHitTestPoint
-=
-{
-0
-0
-}
 ;
 TimeStamp
 mCachedHitTestTime
