@@ -269,14 +269,6 @@ Private
 >
 mPromise
 ;
-base
-:
-:
-ProcessId
-mChildProcessId
-=
-0
-;
 mozilla
 :
 :
@@ -952,11 +944,6 @@ ChildEndpointPromise
 >
 AttachStreamFilter
 (
-base
-:
-:
-ProcessId
-aChildProcessId
 )
 ;
 void

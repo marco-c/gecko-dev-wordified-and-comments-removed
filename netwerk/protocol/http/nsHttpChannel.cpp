@@ -8160,9 +8160,6 @@ docListener
 >
 AttachStreamFilter
 (
-request
-.
-mChildProcessId
 )
 -
 >
@@ -30166,11 +30163,6 @@ nsHttpChannel
 :
 AttachStreamFilter
 (
-base
-:
-:
-ProcessId
-aChildProcessId
 )
 -
 >
@@ -30274,13 +30266,6 @@ Private
 (
 __func__
 )
-;
-request
--
->
-mChildProcessId
-=
-aChildProcessId
 ;
 return
 request
