@@ -10375,7 +10375,7 @@ bool
 CompilationStencil
 :
 :
-instantiateSelfHostedForRuntime
+instantiateSelfHostedAtoms
 (
 JSContext
 *

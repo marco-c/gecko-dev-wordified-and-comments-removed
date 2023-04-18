@@ -4642,7 +4642,7 @@ nodiscard
 ]
 ]
 bool
-instantiateSelfHostedForRuntime
+instantiateSelfHostedAtoms
 (
 JSContext
 *
