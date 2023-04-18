@@ -109,7 +109,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 HandleValue
 argument
 )
@@ -766,7 +766,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 Handle
 <
 AsyncGeneratorRequest
@@ -788,7 +788,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 )
 ;
 static
@@ -801,7 +801,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 )
 ;
 bool
@@ -850,7 +850,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 CompletionKind
 completionKind
 HandleValue
