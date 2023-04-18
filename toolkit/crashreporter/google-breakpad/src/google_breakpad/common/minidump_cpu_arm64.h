@@ -97,6 +97,13 @@ MD_CONTEXT_ARM64_FULL
 |
 MD_CONTEXT_ARM64_DEBUG
 )
+#
+pragma
+pack
+(
+push
+4
+)
 typedef
 struct
 {
@@ -160,13 +167,6 @@ MD_FLOATINGSAVEAREA_ARM64_FPR_COUNT
 }
 MDFloatingSaveAreaARM64_Old
 ;
-#
-pragma
-pack
-(
-push
-4
-)
 typedef
 struct
 {
