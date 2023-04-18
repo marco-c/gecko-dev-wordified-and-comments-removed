@@ -217,9 +217,6 @@ CompilationAtomCache
 struct
 CompilationStencil
 ;
-class
-BorrowingCompilationStencil
-;
 template
 <
 typename
@@ -2914,8 +2911,8 @@ class
 ParserAtomsTable
 {
 friend
-class
-BorrowingCompilationStencil
+struct
+CompilationStencil
 ;
 private
 :
