@@ -8865,7 +8865,7 @@ exists
 cache
 -
 >
-HasData
+HasScript
 (
 mSrcURI
 &
@@ -8891,7 +8891,7 @@ rv
 cache
 -
 >
-GetOutputStream
+GetScriptOutputStream
 (
 mSrcURI
 getter_AddRefs
@@ -8934,7 +8934,7 @@ tmp
 cache
 -
 >
-FinishOutputStream
+FinishScriptOutputStream
 (
 mSrcURI
 )
@@ -9244,7 +9244,7 @@ rv
 cache
 -
 >
-GetInputStream
+GetScriptInputStream
 (
 mSrcURI
 getter_AddRefs
@@ -9313,7 +9313,7 @@ GetStencil
 cache
 -
 >
-FinishInputStream
+FinishScriptInputStream
 (
 mSrcURI
 )
