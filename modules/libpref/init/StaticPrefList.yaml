@@ -52745,7 +52745,7 @@ flac
 enabled
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
