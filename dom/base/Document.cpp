@@ -69116,7 +69116,10 @@ nsIFrame
 *
 frame
 :
+Reversed
+(
 frames
+)
 )
 {
 auto
