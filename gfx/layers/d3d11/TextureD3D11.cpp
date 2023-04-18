@@ -29,13 +29,6 @@ h
 #
 include
 "
-ReadbackManagerD3D11
-.
-h
-"
-#
-include
-"
 gfx2DGlue
 .
 h
