@@ -8344,6 +8344,9 @@ sScheduler
 .
 NoteGCBegin
 (
+aDesc
+.
+reason_
 )
 ;
 sCurrentGCStartTime
