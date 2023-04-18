@@ -341,12 +341,6 @@ CXXFLAGS
 [
 "
 -
-Wno
--
-shadow
-"
-"
--
 Werror
 =
 format

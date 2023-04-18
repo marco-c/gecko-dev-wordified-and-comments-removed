@@ -307,14 +307,6 @@ function
 -
 Wno
 -
-error
-=
-shadow
-"
-"
--
-Wno
--
 unused
 -
 local

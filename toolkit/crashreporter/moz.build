@@ -628,12 +628,6 @@ CXXFLAGS
 -
 Wno
 -
-shadow
-"
-"
--
-Wno
--
 error
 =
 stack

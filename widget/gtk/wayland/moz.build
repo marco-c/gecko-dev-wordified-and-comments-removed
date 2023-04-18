@@ -289,16 +289,3 @@ CONFIG
 TK_CFLAGS
 "
 ]
-CXXFLAGS
-+
-=
-[
-"
--
-Wno
--
-error
-=
-shadow
-"
-]
