@@ -356,9 +356,15 @@ fuzzy
 query
 "
 '
-linux64
+test
+-
+linux1804
+-
+64
 -
 shippable
+-
+qr
 /
 '
 damp
