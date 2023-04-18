@@ -28826,7 +28826,7 @@ expires_in_version
 "
 :
 "
-99
+never
 "
 "
 kind
@@ -28886,6 +28886,12 @@ mozilla
 .
 com
 "
+"
+vgosu
+mozilla
+.
+com
+"
 ]
 "
 bug_numbers
@@ -28894,6 +28900,7 @@ bug_numbers
 [
 1296288
 1654309
+1749881
 ]
 "
 releaseChannelCollection
@@ -28939,7 +28946,7 @@ expires_in_version
 "
 :
 "
-99
+never
 "
 "
 kind
@@ -28993,6 +29000,12 @@ mozilla
 .
 com
 "
+"
+vgosu
+mozilla
+.
+com
+"
 ]
 "
 bug_numbers
@@ -29001,6 +29014,7 @@ bug_numbers
 [
 1296288
 1654309
+1749881
 ]
 "
 releaseChannelCollection
@@ -29046,7 +29060,7 @@ expires_in_version
 "
 :
 "
-99
+never
 "
 "
 kind
@@ -29108,6 +29122,12 @@ mozilla
 .
 com
 "
+"
+vgosu
+mozilla
+.
+com
+"
 ]
 "
 bug_numbers
@@ -29116,6 +29136,7 @@ bug_numbers
 [
 1296288
 1654309
+1749881
 ]
 "
 releaseChannelCollection
