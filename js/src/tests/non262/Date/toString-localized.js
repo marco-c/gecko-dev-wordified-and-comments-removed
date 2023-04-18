@@ -546,7 +546,7 @@ GMT
 +
 0000
 (
-Temps
+temps
 universel
 coordonn
 )
