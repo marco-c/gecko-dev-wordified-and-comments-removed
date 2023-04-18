@@ -22804,11 +22804,7 @@ WillDeleteRange
 this
 aRangesToDelete
 .
-GetStartPointOfFirstRange
-(
-)
-.
-To
+GetFirstRangeStartPoint
 <
 EditorRawDOMPoint
 >
@@ -22816,11 +22812,7 @@ EditorRawDOMPoint
 )
 aRangesToDelete
 .
-GetEndPointOfFirstRange
-(
-)
-.
-To
+GetFirstRangeEndPoint
 <
 EditorRawDOMPoint
 >

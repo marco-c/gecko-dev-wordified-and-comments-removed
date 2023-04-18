@@ -8969,12 +8969,8 @@ pointToInsert
 =
 aPointToInsert
 .
-GetNonAnonymousSubtreePoint
-(
-)
-.
 template
-To
+GetNonAnonymousSubtreePoint
 <
 EditorDOMPointType
 >
@@ -8982,6 +8978,8 @@ EditorDOMPointType
 )
 ;
 if
+(
+MOZ_UNLIKELY
 (
 NS_WARN_IF
 (
@@ -9008,6 +9006,7 @@ IsInclusiveDescendantOf
 (
 &
 aEditingHost
+)
 )
 )
 )
@@ -9122,11 +9121,8 @@ pointToInsert
 return
 forwardScanFromPointToInsertResult
 .
-RawPointAfterContent
-(
-)
-.
-To
+template
+PointAfterContent
 <
 EditorDOMPointType
 >

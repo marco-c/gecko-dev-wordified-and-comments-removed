@@ -4019,6 +4019,9 @@ CollapseSelectionTo
 scanResultInTextNode
 .
 Point
+<
+EditorRawDOMPoint
+>
 (
 )
 )
@@ -25405,10 +25408,6 @@ pointToInsert
 selNotify
 .
 ComputeInsertionPoint
-(
-)
-.
-To
 <
 EditorDOMPoint
 >

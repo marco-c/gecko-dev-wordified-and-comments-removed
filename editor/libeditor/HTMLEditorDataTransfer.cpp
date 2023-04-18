@@ -2298,6 +2298,9 @@ pointToPutCaret
 backwardScanFromPointToCaretResult
 .
 Point
+<
+EditorDOMPoint
+>
 (
 )
 ;
