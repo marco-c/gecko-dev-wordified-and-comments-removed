@@ -1905,8 +1905,6 @@ Validator
 schema
 )
 ;
-continue
-;
 }
 if
 (

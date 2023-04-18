@@ -191,7 +191,7 @@ remoteValue
 type
 :
 "
-boolean
+int
 "
 }
 enabled
@@ -222,7 +222,7 @@ remoteValue
 type
 :
 "
-boolean
+int
 "
 }
 enabled
