@@ -251,13 +251,6 @@ kCCPurpleLimit
 =
 200
 ;
-static
-const
-int64_t
-kNumCCNodesBetweenTimeChecks
-=
-1000
-;
 enum
 class
 GCRunnerAction
