@@ -10791,6 +10791,20 @@ MOZ_FORCE_ENABLE_FISSION
 1
 "
     
+else
+:
+        
+extra_env
+[
+"
+MOZ_FORCE_DISABLE_FISSION
+"
+]
+=
+"
+1
+"
+    
 if
 some_debugging_option
 :

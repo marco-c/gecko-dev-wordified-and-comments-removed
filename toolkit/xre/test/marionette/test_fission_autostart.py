@@ -76,6 +76,11 @@ ENV_ENABLE_FISSION
 "
 MOZ_FORCE_ENABLE_FISSION
 "
+ENV_DISABLE_FISSION
+=
+"
+MOZ_FORCE_DISABLE_FISSION
+"
 ENV_DISABLE_E10S
 =
 "
@@ -110,40 +115,46 @@ enabledByEnv
 4
     
 "
-disabledBySafeMode
+disabledByEnv
 "
 :
 5
     
 "
-enabledByDefault
+disabledBySafeMode
 "
 :
 6
     
 "
-disabledByDefault
+enabledByDefault
 "
 :
 7
     
 "
-enabledByUserPref
+disabledByDefault
 "
 :
 8
     
 "
-disabledByUserPref
+enabledByUserPref
 "
 :
 9
     
 "
-disabledByE10sOther
+disabledByUserPref
 "
 :
 10
+    
+"
+disabledByE10sOther
+"
+:
+11
 }
 class
 TestFissionAutostart
