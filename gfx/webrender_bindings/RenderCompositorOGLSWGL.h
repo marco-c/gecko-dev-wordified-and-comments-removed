@@ -275,12 +275,6 @@ mEGLSurface
 =
 EGL_NO_SURFACE
 ;
-Maybe
-<
-LayoutDeviceIntSize
->
-mEGLSurfaceSize
-;
 bool
 mFullRender
 =

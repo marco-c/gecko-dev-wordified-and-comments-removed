@@ -180,6 +180,12 @@ defined
 (
 MOZ_X11
 )
+|
+|
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 class
 CompositorWidgetParent
 ;
@@ -398,6 +404,13 @@ aCompositor
 return
 true
 ;
+}
+virtual
+void
+OnResumeComposition
+(
+)
+{
 }
 virtual
 LayoutDeviceIntSize

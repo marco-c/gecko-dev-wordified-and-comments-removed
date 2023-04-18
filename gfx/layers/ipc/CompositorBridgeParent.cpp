@@ -3161,6 +3161,13 @@ lock
 mResumeCompositionMonitor
 )
 ;
+mWidget
+-
+>
+OnResumeComposition
+(
+)
+;
 bool
 resumed
 =
