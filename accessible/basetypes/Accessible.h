@@ -1267,6 +1267,15 @@ int32_t
 aSetSize
 )
 ;
+virtual
+bool
+HasPrimaryAction
+(
+)
+const
+=
+0
+;
 private
 :
 static

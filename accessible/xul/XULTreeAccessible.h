@@ -539,6 +539,14 @@ const
 override
 ;
 virtual
+bool
+HasPrimaryAction
+(
+)
+const
+override
+;
+virtual
 void
 ActionNameAt
 (

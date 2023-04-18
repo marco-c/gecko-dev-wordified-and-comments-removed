@@ -84,8 +84,8 @@ const
 override
 ;
 virtual
-uint8_t
-ActionCount
+bool
+HasPrimaryAction
 (
 )
 const

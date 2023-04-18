@@ -1276,6 +1276,14 @@ GetOrCreateGroupInfo
 )
 override
 ;
+virtual
+bool
+HasPrimaryAction
+(
+)
+const
+override
+;
 private
 :
 uintptr_t
