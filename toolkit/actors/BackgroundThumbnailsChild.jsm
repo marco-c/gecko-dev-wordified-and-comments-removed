@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PageThumbUtils
 "
@@ -115,6 +121,8 @@ document
 )
 {
 return
+lazy
+.
 PageThumbUtils
 .
 createImageThumbnailCanvas
@@ -146,6 +154,8 @@ width
 height
 ]
 =
+lazy
+.
 PageThumbUtils
 .
 getContentSize

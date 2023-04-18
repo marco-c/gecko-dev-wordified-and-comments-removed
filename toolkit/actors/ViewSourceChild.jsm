@@ -31,11 +31,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ViewSourcePageChild
 "
@@ -237,6 +243,8 @@ drawSelection
 baseURI
 )
 {
+lazy
+.
 ViewSourcePageChild
 .
 setNeedsDrawSelection
@@ -336,6 +344,8 @@ forceEncodingDetection
 )
 ;
 }
+lazy
+.
 ViewSourcePageChild
 .
 setInitialLineNumber

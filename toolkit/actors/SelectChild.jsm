@@ -39,11 +39,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LayoutUtils
 "
@@ -66,7 +72,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DeferredTask
 "
@@ -247,6 +253,8 @@ this
 _updateTimer
 =
 new
+lazy
+.
 DeferredTask
 (
 this
@@ -816,6 +824,8 @@ _getBoundingContentRect
 )
 {
 return
+lazy
+.
 LayoutUtils
 .
 getElementBoundingScreenRect

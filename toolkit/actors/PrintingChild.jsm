@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setTimeout
 "
@@ -63,7 +69,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ReaderMode
 "
@@ -86,7 +92,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DeferredTask
 "
@@ -274,6 +280,8 @@ this
 _scrollTask
 =
 new
+lazy
+.
 DeferredTask
 (
 (
@@ -404,6 +412,8 @@ try
 article
 =
 await
+lazy
+.
 ReaderMode
 .
 parseDocument
@@ -539,6 +549,8 @@ MozAfterPaint
 onPaint
 )
 ;
+lazy
+.
 setTimeout
 (
 (

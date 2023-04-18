@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AsyncPrefs
 "
@@ -63,7 +69,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -86,7 +92,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 RemotePageAccessManager
 "
@@ -224,6 +230,8 @@ functions
 let
 allowAccess
 =
+lazy
+.
 RemotePageAccessManager
 .
 checkAllowAccessToFeature
@@ -434,6 +442,8 @@ document
 if
 (
 !
+lazy
+.
 RemotePageAccessManager
 .
 checkAllowAccess
@@ -731,6 +741,8 @@ this
 .
 wrapPromise
 (
+lazy
+.
 AsyncPrefs
 .
 set
@@ -762,6 +774,8 @@ RPMIsWindowPrivate
 )
 {
 return
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
