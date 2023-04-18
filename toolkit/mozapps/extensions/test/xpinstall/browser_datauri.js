@@ -139,16 +139,6 @@ block_toplevel_data_uri_navigations
 "
 false
 ]
-[
-"
-xpinstall
-.
-userActivation
-.
-required
-"
-false
-]
 ]
 }
 runTest

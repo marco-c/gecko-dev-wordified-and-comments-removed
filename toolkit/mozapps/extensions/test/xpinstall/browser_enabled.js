@@ -39,16 +39,6 @@ enabled
 "
 true
 ]
-[
-"
-xpinstall
-.
-userActivation
-.
-required
-"
-false
-]
 ]
 }
 )
