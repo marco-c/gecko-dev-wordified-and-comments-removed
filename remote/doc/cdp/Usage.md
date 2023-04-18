@@ -467,10 +467,6 @@ mozilla
 .
 org
 /
-en
--
-GB
-/
 firefox
 /
 channel

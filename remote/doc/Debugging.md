@@ -253,11 +253,8 @@ notifications
 -
 -
 -
-[
-System
-observer
+Observer
 notifications
-]
 are
 used
 extensively

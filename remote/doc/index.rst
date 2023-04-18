@@ -215,16 +215,10 @@ _testing
 /
 marionette
 :
-.
-.
 /
 testing
 /
 marionette
-/
-index
-.
-html
 .
 .
 _remote
@@ -333,9 +327,6 @@ cdp
 :
 cdp
 /
-index
-.
-html
 .
 .
 _webdriver

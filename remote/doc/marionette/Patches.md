@@ -281,10 +281,6 @@ devguide
 contributing
 .
 html
-?
-highlight
-=
-phabricator
 #
 submitting
 -
