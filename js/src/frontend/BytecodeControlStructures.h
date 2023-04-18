@@ -495,7 +495,7 @@ emittingSubroutine_
 public
 :
 JumpList
-gosubs
+finallyJumps_
 ;
 TryFinallyControl
 (

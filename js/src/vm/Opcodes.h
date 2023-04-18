@@ -2587,7 +2587,7 @@ finally
 NULL
 1
 0
-2
+0
 JOF_BYTE
 )
 \
