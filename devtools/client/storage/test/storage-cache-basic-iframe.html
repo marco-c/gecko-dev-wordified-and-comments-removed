@@ -75,6 +75,10 @@ no
 unused
 -
 vars
+const
+cache
+=
+await
 caches
 .
 open
@@ -83,13 +87,8 @@ open
 foo
 "
 )
-.
-then
-(
-cache
-=
->
-{
+;
+await
 cache
 .
 add
@@ -101,9 +100,6 @@ blank
 .
 html
 "
-)
-;
-}
 )
 ;
 }
@@ -124,6 +120,7 @@ no
 unused
 -
 vars
+return
 caches
 .
 delete
