@@ -1252,8 +1252,6 @@ lastResult
 .
 comment
 )
-.
-telemetryEventData
 ;
 if
 (
@@ -1308,6 +1306,11 @@ delete
 rawExtraData
 .
 searchStartTimeMS
+;
+delete
+rawExtraData
+.
+formHostname
 ;
 results
 .
