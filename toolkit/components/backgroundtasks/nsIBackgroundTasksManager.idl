@@ -1,7 +1,7 @@
 #
 include
 "
-nsISupports
+nsICommandLineHandler
 .
 idl
 "
@@ -10,7 +10,6 @@ nsICommandLine
 ;
 [
 scriptable
-function
 uuid
 (
 4d48c536
@@ -27,7 +26,7 @@ add4f28f92f0
 interface
 nsIBackgroundTasksManager
 :
-nsISupports
+nsICommandLineHandler
 {
 void
 runBackgroundTaskNamed
