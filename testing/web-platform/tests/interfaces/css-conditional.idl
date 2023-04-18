@@ -82,6 +82,7 @@ CSSConditionRule
 :
 CSSGroupingRule
 {
+readonly
 attribute
 CSSOMString
 conditionText
