@@ -181,11 +181,6 @@ collectedZoneCount
 0
 ;
 int
-collectableZoneCount
-=
-0
-;
-int
 zoneCount
 =
 0
@@ -220,7 +215,7 @@ return
 collectedZoneCount
 =
 =
-collectableZoneCount
+zoneCount
 ;
 }
 ZoneGCStats

@@ -18838,12 +18838,6 @@ length
 (
 )
 ;
-zoneStats
-.
-collectableZoneCount
-+
-+
-;
 if
 (
 zone
