@@ -788,7 +788,7 @@ aDest
 )
 {
 return
-encoding_mem_convert_utf8_to_utf16
+encoding_mem_convert_str_to_utf16
 (
 aSource
 .
