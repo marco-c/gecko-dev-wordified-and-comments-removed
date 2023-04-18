@@ -396,6 +396,10 @@ pub
 mod
 parser
 ;
+pub
+mod
+piecewise_linear
+;
 #
 [
 macro_use

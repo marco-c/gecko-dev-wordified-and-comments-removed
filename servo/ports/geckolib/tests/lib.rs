@@ -92,6 +92,10 @@ extern
 crate
 to_shmem
 ;
+extern
+crate
+euclid
+;
 #
 [
 cfg
@@ -108,4 +112,7 @@ size_of
 ;
 mod
 specified_values
+;
+mod
+piecewise_linear
 ;
