@@ -7564,6 +7564,7 @@ testURL
 def
 getTestsByScheme
 (
+        
 self
 options
 testsToFilter
@@ -7572,6 +7573,10 @@ None
 disabled
 =
 True
+manifestToFilter
+=
+None
+    
 )
 :
         
@@ -7693,6 +7698,24 @@ path
 not
 in
 testsToFilter
+)
+:
+                
+continue
+            
+if
+manifestToFilter
+and
+(
+test
+[
+"
+manifest
+"
+]
+not
+in
+manifestToFilter
 )
 :
                 
@@ -17183,6 +17206,9 @@ runMochitests
 self
 options
 testsToRun
+manifestToFilter
+=
+None
 )
 :
         
@@ -17323,6 +17349,7 @@ doTests
 (
 options
 testsToRun
+manifestToFilter
 )
             
 if
@@ -19379,6 +19406,9 @@ runMochitests
 (
 options
 tests_in_manifest
+manifestToFilter
+=
+m
 )
             
 result
@@ -19873,6 +19903,9 @@ doTests
 self
 options
 testsToFilter
+=
+None
+manifestToFilter
 =
 None
 )
@@ -20537,8 +20570,12 @@ self
 .
 getTestsByScheme
 (
+                
 options
 testsToFilter
+True
+manifestToFilter
+            
 )
 :
                 
