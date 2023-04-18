@@ -101,6 +101,12 @@ color
 :
 FieldText
 ;
+border
+:
+1px
+solid
+ThreeDShadow
+;
 overflow
 :
 auto
