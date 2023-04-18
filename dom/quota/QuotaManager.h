@@ -1397,6 +1397,15 @@ aStepDescription
 )
 ;
 void
+RecordQuotaManagerShutdownStep
+(
+const
+nsACString
+&
+aStepDescription
+)
+;
+void
 MaybeRecordQuotaManagerShutdownStep
 (
 const
