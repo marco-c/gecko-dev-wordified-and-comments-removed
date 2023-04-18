@@ -146,6 +146,17 @@ dom
 -
 loading
 "
+|
+|
+name
+=
+=
+=
+"
+dom
+-
+interactive
+"
 ?
 targetActor
 .
