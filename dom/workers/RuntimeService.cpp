@@ -3790,10 +3790,6 @@ cx
 return
 ;
 }
-nsCycleCollector_shutdown
-(
-)
-;
 mWorkerPrivate
 =
 nullptr
@@ -10166,12 +10162,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsWeakPtr
-globalScopeSentinel
-;
-nsWeakPtr
-debuggerScopeSentinel
-;
 {
 nsCycleCollector_startup
 (
@@ -10297,6 +10287,7 @@ NS_ProcessPendingEvents
 nullptr
 )
 ;
+nsWeakPtr
 globalScopeSentinel
 =
 do_GetWeakReference
@@ -10309,6 +10300,7 @@ GlobalScope
 )
 )
 ;
+nsWeakPtr
 debuggerScopeSentinel
 =
 do_GetWeakReference
@@ -10386,7 +10378,10 @@ GCReason
 WORKER_SHUTDOWN
 )
 ;
-}
+nsCycleCollector_shutdown
+(
+)
+;
 nsCOMPtr
 <
 DOMEventTargetHelper
@@ -10444,6 +10439,10 @@ NoteWorkerTerminated
 (
 )
 ;
+globalScopeAlive
+=
+nullptr
+;
 }
 if
 (
@@ -10468,6 +10467,11 @@ NoteWorkerTerminated
 (
 )
 ;
+debuggerScopeAlive
+=
+nullptr
+;
+}
 }
 }
 mWorkerPrivate
