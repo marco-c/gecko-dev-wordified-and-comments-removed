@@ -622,6 +622,16 @@ StartDying
 )
 ;
 }
+void
+NoteWorkerTerminated
+(
+)
+{
+mWorkerPrivate
+=
+nullptr
+;
+}
 ClientSource
 &
 MutableClientSourceRef
