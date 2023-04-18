@@ -434,12 +434,10 @@ Reset
 nsresult
 UpdateSelState
 (
-dom
-:
-:
-Selection
+const
+HTMLEditor
 &
-aSelection
+aHTMLEditor
 )
 ;
 void
