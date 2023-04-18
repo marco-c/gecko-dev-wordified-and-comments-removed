@@ -12836,6 +12836,7 @@ if
 !
 emitInitializeInstanceMembers
 (
+true
 )
 )
 {
@@ -46150,6 +46151,8 @@ BytecodeEmitter
 :
 emitInitializeInstanceMembers
 (
+bool
+isDerivedClassConstructor
 )
 {
 const
@@ -46219,6 +46222,11 @@ false
 }
 if
 (
+isDerivedClassConstructor
+)
+{
+if
+(
 !
 emitCheckPrivateField
 (
@@ -46252,6 +46260,7 @@ Pop
 return
 false
 ;
+}
 }
 if
 (

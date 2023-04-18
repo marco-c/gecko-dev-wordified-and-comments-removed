@@ -2409,6 +2409,8 @@ nodiscard
 bool
 emitInitializeInstanceMembers
 (
+bool
+isDerivedClassConstructor
 )
 ;
 [
