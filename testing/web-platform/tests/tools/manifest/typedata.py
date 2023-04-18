@@ -1117,7 +1117,7 @@ values
 )
 )
         
-stack
+json_stack
 =
 [
 self
@@ -1126,12 +1126,12 @@ _json_data
 ]
         
 while
-stack
+json_stack
 :
             
-v
+json_v
 =
-stack
+json_stack
 .
 pop
 (
@@ -1140,7 +1140,7 @@ pop
 if
 isinstance
 (
-v
+json_v
 list
 )
 :
@@ -1153,11 +1153,11 @@ count
 else
 :
                 
-stack
+json_stack
 .
 extend
 (
-v
+json_v
 .
 values
 (
