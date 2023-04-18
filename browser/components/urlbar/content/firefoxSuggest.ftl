@@ -158,8 +158,8 @@ label
 shown
 above
 the
-best
-match
+top
+pick
 group
 in
 the
@@ -187,8 +187,8 @@ brand
 -
 name
 }
-Best
-Match
+Top
+pick
 #
 Tooltip
 text
