@@ -1261,13 +1261,6 @@ mInterrupted
 (
 false
 )
-mTerminatedMutex
-(
-"
-nsHtml5StreamParser
-mTerminatedMutex
-"
-)
 mEventTarget
 (
 nsHtml5Module
