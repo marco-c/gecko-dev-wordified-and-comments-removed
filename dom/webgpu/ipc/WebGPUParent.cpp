@@ -4132,6 +4132,15 @@ error
 )
 )
 {
+data
+-
+>
+mBuffersLock
+.
+Unlock
+(
+)
+;
 return
 IPC_OK
 (
