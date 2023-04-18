@@ -9282,6 +9282,7 @@ gmps
 >
 UpdateContentProcessGMPCapabilities
 (
+this
 )
 ;
 for
