@@ -2223,17 +2223,7 @@ geckoview
 "
         
 "
-docs
-"
-        
-"
-javadoc
-"
-        
-"
-withGeckoBinaries
--
-debug
+libs
 "
         
 "
