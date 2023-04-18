@@ -133,7 +133,9 @@ it
 "
 should
 have
-12
+correct
+number
+of
 messages
 "
 (
@@ -146,7 +148,7 @@ assert
 lengthOf
 (
 messages
-12
+13
 )
 ;
 }
