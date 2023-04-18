@@ -4783,7 +4783,9 @@ style
 FontSlantStyle
 :
 :
-NORMAL
+Normal
+(
+)
 ;
 PangoFontDescription
 *
@@ -4846,9 +4848,6 @@ aFontStyle
 weight
 =
 FontWeight
-:
-:
-FromInt
 (
 pango_font_description_get_weight
 (
@@ -4864,7 +4863,9 @@ stretch
 FontStretch
 :
 :
-NORMAL
+Normal
+(
+)
 ;
 float
 size

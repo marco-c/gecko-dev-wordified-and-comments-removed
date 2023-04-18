@@ -1584,9 +1584,11 @@ wantBold
 aStyle
 .
 weight
-.
-IsBold
+>
+=
+FontWeight
 (
+600
 )
 ;
 bool

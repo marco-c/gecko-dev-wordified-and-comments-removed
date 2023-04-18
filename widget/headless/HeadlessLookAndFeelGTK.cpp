@@ -842,7 +842,9 @@ style
 FontSlantStyle
 :
 :
-NORMAL
+Normal
+(
+)
 ;
 aFontStyle
 .
@@ -851,7 +853,9 @@ weight
 FontWeight
 :
 :
-NORMAL
+Normal
+(
+)
 ;
 aFontStyle
 .
@@ -860,7 +864,9 @@ stretch
 FontStretch
 :
 :
-NORMAL
+Normal
+(
+)
 ;
 aFontStyle
 .
