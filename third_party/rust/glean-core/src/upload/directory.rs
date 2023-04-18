@@ -793,7 +793,7 @@ headers
 =
 metadata
 .
-map
+and_then
 (
 |
 m
@@ -805,10 +805,6 @@ path
 &
 m
 )
-)
-.
-flatten
-(
 )
 ;
 return

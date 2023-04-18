@@ -307,8 +307,6 @@ now
 local_now_with_offset
 (
 )
-.
-0
 ;
 let
 (
@@ -1295,8 +1293,6 @@ now
 local_now_with_offset
 (
 )
-.
-0
 ;
 }
 }
@@ -1911,8 +1907,6 @@ scheduler
 local_now_with_offset
 (
 )
-.
-0
 )
 ;
 assert_eq
