@@ -1064,6 +1064,23 @@ append
 ignored
 "
 )
+        
+return
+not
+len
+(
+self
+.
+run
+(
+*
+args
+)
+.
+strip
+(
+)
+)
     
 def
 update
