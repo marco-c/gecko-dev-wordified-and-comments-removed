@@ -1892,9 +1892,6 @@ use
 crate
 :
 :
-alloc
-:
-:
 AllocErr
 ;
 if

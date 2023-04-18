@@ -1628,6 +1628,7 @@ x
 )
 ;
 }
+pub
 fn
 drain_filter
 <
@@ -1871,7 +1872,9 @@ end
 =
 self
 .
-as_mut_ptr
+buf
+.
+ptr
 (
 )
 .

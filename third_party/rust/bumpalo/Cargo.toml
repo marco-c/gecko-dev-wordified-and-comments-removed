@@ -112,9 +112,9 @@ version
 "
 3
 .
-9
+10
 .
-1
+0
 "
 authors
 =
@@ -187,8 +187,6 @@ bumpalo
 readme
 =
 "
-.
-/
 README
 .
 md
