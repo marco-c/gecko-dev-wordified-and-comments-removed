@@ -574,6 +574,7 @@ pageA
 pageB
 urlB
 funcBeforeBackNavigation
+argsBeforeBackNavigation
 )
 {
 await
@@ -724,6 +725,10 @@ funcBeforeBackNavigation
 >
 {
 }
+argsBeforeBackNavigation
+:
+[
+]
 shouldBeCached
 :
 true
@@ -906,6 +911,9 @@ urlB
 params
 .
 funcBeforeBackNavigation
+params
+.
+argsBeforeBackNavigation
 )
 ;
 if
