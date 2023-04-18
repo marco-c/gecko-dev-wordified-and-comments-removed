@@ -1049,6 +1049,11 @@ ScrollbarDrawingWin
 cpp
 "
 "
+ScrollbarDrawingWin11
+.
+cpp
+"
+"
 SharedWidgetUtils
 .
 cpp

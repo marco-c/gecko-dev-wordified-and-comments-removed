@@ -361,7 +361,6 @@ Nothing
 )
 ;
 }
-static
 bool
 IsScrollbarTrackOpaque
 (
@@ -369,7 +368,7 @@ nsIFrame
 *
 )
 ;
-static
+virtual
 sRGBColor
 ComputeScrollbarTrackColor
 (
@@ -387,7 +386,7 @@ Colors
 &
 )
 ;
-static
+virtual
 sRGBColor
 ComputeScrollbarThumbColor
 (
@@ -435,7 +434,6 @@ ComputedStyle
 &
 )
 ;
-static
 nscolor
 GetScrollbarButtonColor
 (
@@ -444,7 +442,6 @@ aTrackColor
 EventStates
 )
 ;
-static
 Maybe
 <
 nscolor
@@ -455,6 +452,7 @@ nscolor
 aButtonColor
 )
 ;
+virtual
 std
 :
 :
@@ -484,6 +482,7 @@ Colors
 &
 )
 ;
+virtual
 bool
 PaintScrollbarButton
 (
@@ -508,9 +507,6 @@ EventStates
 aDocumentState
 const
 Colors
-&
-const
-DPIRatio
 &
 )
 ;
