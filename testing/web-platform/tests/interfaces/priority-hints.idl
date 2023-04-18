@@ -54,7 +54,7 @@ hints
 /
 )
 enum
-Importance
+FetchPriority
 {
 "
 high
@@ -73,8 +73,8 @@ Request
 {
 readonly
 attribute
-Importance
-importance
+FetchPriority
+priority
 ;
 }
 ;
@@ -82,8 +82,8 @@ partial
 dictionary
 RequestInit
 {
-Importance
-importance
+FetchPriority
+priority
 ;
 }
 ;
@@ -96,7 +96,7 @@ CEReactions
 ]
 attribute
 DOMString
-importance
+fetchpriority
 ;
 }
 ;
@@ -109,7 +109,7 @@ CEReactions
 ]
 attribute
 DOMString
-importance
+fetchpriority
 ;
 }
 ;
@@ -122,7 +122,7 @@ CEReactions
 ]
 attribute
 DOMString
-importance
+fetchpriority
 ;
 }
 ;
@@ -135,7 +135,7 @@ CEReactions
 ]
 attribute
 DOMString
-importance
+fetchpriority
 ;
 }
 ;
