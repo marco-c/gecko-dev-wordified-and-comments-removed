@@ -30519,14 +30519,14 @@ nsDocShell
 :
 ReportBFCacheComboTelemetry
 (
-uint16_t
+uint32_t
 aCombo
 )
 {
 enum
 BFCacheStatusCombo
 :
-uint16_t
+uint32_t
 {
 BFCACHE_SUCCESS
 NOT_ONLY_TOPLEVEL
