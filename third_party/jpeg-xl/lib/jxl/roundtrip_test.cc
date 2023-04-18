@@ -3509,6 +3509,9 @@ dec
 )
 ;
 }
+#
+if
+JPEGXL_ENABLE_JPEG
 TEST
 (
 RoundtripTest
@@ -3910,3 +3913,5 @@ used
 )
 ;
 }
+#
+endif

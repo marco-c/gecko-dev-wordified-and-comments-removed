@@ -49,6 +49,19 @@ jxl
 /
 base
 /
+printf_macros
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
+base
+/
 status
 .
 h
@@ -122,9 +135,6 @@ endif
 namespace
 jxl
 {
-namespace
-{
-inline
 const
 char
 *
@@ -303,7 +313,6 @@ INVALID
 }
 ;
 }
-inline
 std
 :
 :
@@ -506,7 +515,6 @@ i
 ]
 "
 ;
-}
 }
 }
 void

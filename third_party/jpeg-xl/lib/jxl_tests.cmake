@@ -377,6 +377,11 @@ dec_transforms_testonly
 h
 jxl
 /
+fake_parallel_runner_testonly
+.
+h
+jxl
+/
 image_test_utils
 .
 h

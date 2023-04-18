@@ -76,13 +76,12 @@ pool
 {
 while
 (
+!
 transform
 .
-size
+empty
 (
 )
->
-0
 )
 {
 Transform

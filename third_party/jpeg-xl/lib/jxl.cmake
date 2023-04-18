@@ -274,6 +274,13 @@ jxl
 /
 base
 /
+printf_macros
+.
+h
+jxl
+/
+base
+/
 profiler
 .
 h

@@ -170,6 +170,15 @@ jxl
 size
 )
 ;
+JxlDecoderCloseInput
+(
+dec
+.
+get
+(
+)
+)
+;
 const
 constexpr
 size_t

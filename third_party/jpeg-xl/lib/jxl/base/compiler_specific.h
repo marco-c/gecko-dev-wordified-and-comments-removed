@@ -162,6 +162,11 @@ noreturn
 )
 )
 #
+else
+#
+define
+JXL_NORETURN
+#
 endif
 #
 if

@@ -918,7 +918,7 @@ c
 =
 %
 "
-PRIuS
+PRIu64
 "
 :
 max
@@ -937,7 +937,13 @@ exceeds
 \
 n
 "
+static_cast
+<
+uint64_t
+>
+(
 c
+)
 max_l1
 threshold_l1
 )
@@ -953,7 +959,7 @@ c
 =
 %
 "
-PRIuS
+PRIu64
 "
 :
 max
@@ -979,7 +985,13 @@ x
 \
 n
 "
+static_cast
+<
+uint64_t
+>
+(
 c
+)
 max_l1
 max_relative
 threshold_l1
@@ -1876,6 +1888,7 @@ max
 )
 ;
 }
+JXL_INLINE
 void
 RandomFillImage
 (
@@ -2042,6 +2055,7 @@ max
 )
 ;
 }
+JXL_INLINE
 void
 RandomFillImage
 (

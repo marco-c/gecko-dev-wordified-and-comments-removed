@@ -75,6 +75,11 @@ dec_external_image_gbench
 cc
 jxl
 /
+dec_reconstruct_gbench
+.
+cc
+jxl
+/
 enc_external_image_gbench
 .
 cc
@@ -243,6 +248,9 @@ jxl_gbench
 JPEGXL_INTERNAL_SOURCES_GBENCH
 }
 "
+gbench_main
+.
+cc
 )
 target_compile_definitions
 (
@@ -274,10 +282,6 @@ benchmark
 :
 :
 benchmark
-benchmark
-:
-:
-benchmark_main
 )
 endif
 (
