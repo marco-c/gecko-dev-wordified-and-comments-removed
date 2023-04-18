@@ -353,6 +353,10 @@ aTransform2d
 ScaleFactors
 (
 )
+.
+ToSize
+(
+)
 ;
 Matrix
 frameTransform

@@ -57,6 +57,17 @@ include
 "
 mozilla
 /
+gfx
+/
+Matrix
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_gfx
 .
 h

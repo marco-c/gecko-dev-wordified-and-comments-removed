@@ -402,7 +402,7 @@ autoSR
 aCtx
 )
 ;
-gfxSize
+auto
 scaleFactors
 =
 aCtx
@@ -420,7 +420,7 @@ if
 (
 scaleFactors
 .
-width
+xScale
 =
 =
 0
@@ -428,7 +428,7 @@ width
 |
 scaleFactors
 .
-height
+yScale
 =
 =
 0
@@ -442,7 +442,7 @@ scaleMatrix
 (
 scaleFactors
 .
-width
+xScale
 0
 .
 0f
@@ -451,7 +451,7 @@ width
 0f
 scaleFactors
 .
-height
+yScale
 0
 .
 0f
@@ -3032,6 +3032,10 @@ mUserSpaceToFilterSpaceScale
 mPaintTransform
 .
 ScaleFactors
+(
+)
+.
+ToSize
 (
 )
 ;

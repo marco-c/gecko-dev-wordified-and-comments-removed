@@ -11528,6 +11528,10 @@ transform2D
 ScaleFactors
 (
 )
+.
+ToSize
+(
+)
 ;
 }
 return
@@ -11723,6 +11727,10 @@ transform2D
 )
 .
 ScaleFactors
+(
+)
+.
+ToSize
 (
 )
 ;
@@ -31730,7 +31738,7 @@ Size
 (
 )
 ;
-gfxSize
+auto
 scaleFactors
 =
 currentMatrix
@@ -31751,10 +31759,10 @@ Scale
 (
 scaleFactors
 .
-width
+xScale
 scaleFactors
 .
-height
+yScale
 )
 ;
 snappedDestSize
@@ -31853,7 +31861,7 @@ if
 (
 scaleFactors
 .
-width
+xScale
 =
 =
 1
@@ -31863,7 +31871,7 @@ width
 &
 scaleFactors
 .
-height
+yScale
 =
 =
 1
@@ -32152,6 +32160,10 @@ Size
 currentMatrix
 .
 ScaleFactors
+(
+)
+.
+ToSize
 (
 )
 :
@@ -47896,10 +47908,7 @@ aMaxSize
 height
 )
 ;
-gfx
-:
-:
-Size
+auto
 scale
 =
 transform2D
@@ -47912,7 +47921,7 @@ if
 (
 scale
 .
-width
+xScale
 !
 =
 0
@@ -47920,7 +47929,7 @@ width
 &
 scale
 .
-height
+yScale
 !
 =
 0
@@ -47933,7 +47942,7 @@ width
 =
 scale
 .
-width
+xScale
 ;
 result
 .
@@ -47942,7 +47951,7 @@ height
 =
 scale
 .
-height
+yScale
 ;
 }
 transform2D
@@ -47965,7 +47974,7 @@ if
 (
 scale
 .
-width
+xScale
 !
 =
 0
@@ -47973,7 +47982,7 @@ width
 &
 scale
 .
-height
+yScale
 !
 =
 0
@@ -47986,7 +47995,7 @@ _11
 =
 scale
 .
-width
+xScale
 ;
 transform2D
 .
@@ -47995,7 +48004,7 @@ _12
 =
 scale
 .
-width
+xScale
 ;
 transform2D
 .
@@ -48004,7 +48013,7 @@ _21
 =
 scale
 .
-height
+yScale
 ;
 transform2D
 .
@@ -48013,7 +48022,7 @@ _22
 =
 scale
 .
-height
+yScale
 ;
 }
 result
@@ -50812,7 +50821,7 @@ MOZ_ASSERT
 browserChild
 )
 ;
-Size
+auto
 scale
 =
 browserChild
@@ -50835,7 +50844,7 @@ margin
 (
 scale
 .
-width
+xScale
 *
 CSSPixel
 :
@@ -50846,7 +50855,7 @@ aMargin
 )
 scale
 .
-height
+yScale
 *
 CSSPixel
 :

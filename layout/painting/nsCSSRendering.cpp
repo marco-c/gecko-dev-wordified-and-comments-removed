@@ -23745,10 +23745,7 @@ spreadRadius
 constrainSpreadRadius
 )
 ;
-gfx
-:
-:
-Size
+auto
 scale
 =
 aDestinationCtx
@@ -23898,7 +23895,7 @@ floor
 (
 scale
 .
-width
+xScale
 *
 aInnerClipRectRadii
 [
@@ -23922,7 +23919,7 @@ floor
 (
 scale
 .
-height
+yScale
 *
 aInnerClipRectRadii
 [
