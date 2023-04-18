@@ -264,6 +264,10 @@ const
 bool
 &
 aIsAtEndOfLine
+const
+int32_t
+&
+aGranularity
 )
 ;
 bool
@@ -289,6 +293,10 @@ const
 bool
 &
 aIsAtEndOfLine
+const
+int32_t
+&
+aGranularity
 )
 ;
 bool
@@ -797,6 +805,8 @@ bool
 aIsSelectionCollapsed
 bool
 aIsAtEndOfLine
+int32_t
+aGranularity
 )
 :
 DeferredEvent
@@ -823,6 +833,10 @@ mIsAtEndOfLine
 (
 aIsAtEndOfLine
 )
+mGranularity
+(
+aGranularity
+)
 {
 }
 void
@@ -847,6 +861,7 @@ mCaretRect
 mOffset
 mIsSelectionCollapsed
 mIsAtEndOfLine
+mGranularity
 )
 ;
 }
@@ -864,6 +879,9 @@ mIsSelectionCollapsed
 ;
 bool
 mIsAtEndOfLine
+;
+int32_t
+mGranularity
 ;
 }
 ;

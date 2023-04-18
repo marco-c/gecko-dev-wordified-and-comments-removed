@@ -343,6 +343,8 @@ bool
 aIsAtEndOfLine
 bool
 aIsSelectionCollapsed
+int32_t
+aGranularity
 )
 ;
 async

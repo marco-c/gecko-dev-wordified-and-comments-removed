@@ -1929,6 +1929,10 @@ const
 bool
 &
 aIsAtEndOfLine
+const
+int32_t
+&
+aGranularity
 )
 {
 if
@@ -2111,6 +2115,7 @@ fromUser
 aOffset
 aIsSelectionCollapsed
 aIsAtEndOfLine
+aGranularity
 )
 ;
 nsCoreUtils

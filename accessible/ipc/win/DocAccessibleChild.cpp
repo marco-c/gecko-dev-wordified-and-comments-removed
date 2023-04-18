@@ -1000,6 +1000,10 @@ const
 bool
 &
 aIsAtEndOfLine
+const
+int32_t
+&
+aGranularity
 )
 {
 return
@@ -1013,6 +1017,7 @@ aID
 aOffset
 aIsSelectionCollapsed
 aIsAtEndOfLine
+aGranularity
 )
 ;
 }
@@ -1042,6 +1047,10 @@ const
 bool
 &
 aIsAtEndOfLine
+const
+int32_t
+&
+aGranularity
 )
 {
 if
@@ -1062,6 +1071,7 @@ aCaretRect
 aOffset
 aIsSelectionCollapsed
 aIsAtEndOfLine
+aGranularity
 )
 ;
 }
@@ -1078,6 +1088,7 @@ aCaretRect
 aOffset
 aIsSelectionCollapsed
 aIsAtEndOfLine
+aGranularity
 )
 )
 ;

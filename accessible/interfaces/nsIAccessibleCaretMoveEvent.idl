@@ -41,5 +41,10 @@ attribute
 bool
 isAtEndOfLine
 ;
+readonly
+attribute
+long
+granularity
+;
 }
 ;
