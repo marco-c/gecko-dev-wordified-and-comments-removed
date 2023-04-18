@@ -1781,9 +1781,7 @@ country
 !
 FormAutofill
 .
-supportedCountries
-.
-includes
+isAutofillAddressesAvailableInCountry
 (
 record
 .
