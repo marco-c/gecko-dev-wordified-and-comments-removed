@@ -143,11 +143,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CommonUtils
 "
@@ -170,7 +176,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 EventDispatcher
 "
@@ -193,7 +199,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -216,7 +222,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ReaderWorker
 "
@@ -241,7 +247,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LanguageDetector
 "
@@ -265,7 +271,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Readerable
 "
@@ -1081,6 +1087,8 @@ doc
 if
 (
 !
+lazy
+.
 Readerable
 .
 shouldCheckUri
@@ -1092,6 +1100,8 @@ documentURIObject
 |
 |
 !
+lazy
+.
 Readerable
 .
 shouldCheckUri
@@ -1176,6 +1186,8 @@ result
 if
 (
 !
+lazy
+.
 Readerable
 .
 shouldCheckUri
@@ -1187,6 +1199,8 @@ documentURIObject
 |
 |
 !
+lazy
+.
 Readerable
 .
 shouldCheckUri
@@ -1262,6 +1276,8 @@ try
 if
 (
 !
+lazy
+.
 Readerable
 .
 shouldCheckUri
@@ -1679,6 +1695,8 @@ let
 array
 =
 await
+lazy
+.
 OS
 .
 File
@@ -1716,6 +1734,8 @@ if
 (
 e
 instanceof
+lazy
+.
 OS
 .
 File
@@ -1783,6 +1803,8 @@ _ensureCacheDir
 )
 ;
 return
+lazy
+.
 OS
 .
 File
@@ -1809,6 +1831,8 @@ success
 =
 >
 {
+lazy
+.
 OS
 .
 File
@@ -1825,6 +1849,8 @@ info
 >
 {
 return
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1877,6 +1903,8 @@ url
 )
 ;
 await
+lazy
+.
 OS
 .
 File
@@ -2158,6 +2186,8 @@ try
 article
 =
 await
+lazy
+.
 ReaderWorker
 .
 post
@@ -2464,6 +2494,8 @@ length
 let
 hash
 =
+lazy
+.
 CommonUtils
 .
 encodeBase32
@@ -2502,12 +2534,16 @@ json
 "
 ;
 return
+lazy
+.
 OS
 .
 Path
 .
 join
 (
+lazy
+.
 OS
 .
 Constants
@@ -2529,12 +2565,16 @@ _ensureCacheDir
 let
 dir
 =
+lazy
+.
 OS
 .
 Path
 .
 join
 (
+lazy
+.
 OS
 .
 Constants
@@ -2548,6 +2588,8 @@ readercache
 )
 ;
 return
+lazy
+.
 OS
 .
 File
@@ -2570,6 +2612,8 @@ exists
 )
 {
 return
+lazy
+.
 OS
 .
 File
@@ -2593,6 +2637,8 @@ article
 )
 {
 return
+lazy
+.
 LanguageDetector
 .
 detectLanguage
