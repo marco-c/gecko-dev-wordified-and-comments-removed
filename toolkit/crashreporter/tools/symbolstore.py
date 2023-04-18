@@ -3594,18 +3594,6 @@ stdout
 subprocess
 .
 PIPE
-                
-stderr
-=
-open
-(
-os
-.
-devnull
-"
-wb
-"
-)
             
 )
             
@@ -4110,6 +4098,7 @@ retcode
 raise
 RuntimeError
 (
+                        
 "
 dump_syms
 failed
@@ -4118,9 +4107,20 @@ error
 code
 %
 d
-"
+while
+processing
 %
+s
+\
+n
+"
+                        
+%
+(
 retcode
+file
+)
+                    
 )
                 
 print
@@ -4173,49 +4173,13 @@ code_id
 else
 :
                 
-proc
-=
-subprocess
-.
-Popen
-(
-                    
-cmd
-stdout
-=
-open
-(
-os
-.
-devnull
-"
-wb
-"
-)
-stderr
-=
-subprocess
-.
-PIPE
-                
-)
-                
-(
-_
-dumperr
-)
-=
-proc
-.
-communicate
-(
-)
-                
 retcode
 =
 proc
 .
-returncode
+wait
+(
+)
                 
 message
 =
@@ -4230,6 +4194,15 @@ the
 expected
 output
 "
+                    
+"
+file
+:
+%
+s
+"
+%
+file
                     
 "
 return
@@ -4252,15 +4225,6 @@ s
 "
 %
 module_line
-                    
-"
-stderr
-:
-%
-s
-"
-%
-dumperr
                 
 ]
                 
