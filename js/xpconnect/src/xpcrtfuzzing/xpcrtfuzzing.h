@@ -61,5 +61,10 @@ size_t
 size
 )
 ;
+int
+FuzzXPCRuntimeShutdown
+(
+)
+;
 #
 endif
