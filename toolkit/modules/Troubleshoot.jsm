@@ -1740,6 +1740,9 @@ locale
 "
 dictionary
 "
+"
+sitepermission
+"
 ]
 )
 ;
