@@ -120,7 +120,7 @@ const
 nsACString
 &
 aExpectedURL
-bool
+uint32_t
 aExpectedResult
 )
 {
@@ -139,16 +139,14 @@ testURI
 aTestURL
 )
 ;
-bool
-result
-;
 nsCOMPtr
 <
 nsIURI
 >
 strippedURI
 ;
-result
+uint32_t
+numStripped
 =
 URLQueryStringStripper
 :
@@ -162,7 +160,7 @@ strippedURI
 ;
 EXPECT_TRUE
 (
-result
+numStripped
 =
 =
 aExpectedResult
@@ -171,7 +169,7 @@ aExpectedResult
 if
 (
 !
-result
+numStripped
 )
 {
 EXPECT_TRUE
@@ -393,7 +391,7 @@ isPBM
 "
 "
 _ns
-false
+0
 )
 ;
 DoTest
@@ -417,7 +415,7 @@ isPBM
 "
 "
 _ns
-false
+0
 )
 ;
 DoTest
@@ -443,7 +441,7 @@ isPBM
 "
 "
 _ns
-false
+0
 )
 ;
 }
@@ -489,7 +487,7 @@ false
 "
 "
 _ns
-false
+0
 )
 ;
 RefPtr
@@ -585,7 +583,7 @@ isPBM
 "
 "
 _ns
-false
+0
 )
 ;
 DoTest
@@ -609,7 +607,7 @@ isPBM
 "
 "
 _ns
-false
+0
 )
 ;
 DoTest
@@ -635,7 +633,7 @@ isPBM
 "
 "
 _ns
-false
+0
 )
 ;
 }
@@ -663,7 +661,7 @@ false
 "
 "
 _ns
-false
+0
 )
 ;
 RefPtr
@@ -820,7 +818,7 @@ isPBM
 "
 "
 _ns
-false
+0
 )
 ;
 DoTest
@@ -844,7 +842,7 @@ isPBM
 "
 "
 _ns
-false
+0
 )
 ;
 DoTest
@@ -877,6 +875,10 @@ com
 "
 _ns
 expectStrip
+?
+1
+:
+0
 )
 ;
 DoTest
@@ -911,6 +913,10 @@ com
 "
 _ns
 expectStrip
+?
+2
+:
+0
 )
 ;
 DoTest
@@ -953,6 +959,10 @@ Barfoo
 "
 _ns
 expectStrip
+?
+2
+:
+0
 )
 ;
 DoTest
@@ -985,6 +995,10 @@ com
 "
 _ns
 expectStrip
+?
+1
+:
+0
 )
 ;
 DoTest
@@ -1020,7 +1034,7 @@ barfoo
 foobar
 "
 _ns
-false
+0
 )
 ;
 DoTest
@@ -1065,6 +1079,10 @@ nostrip
 "
 _ns
 expectStrip
+?
+2
+:
+0
 )
 ;
 DoTest
@@ -1100,7 +1118,7 @@ AfoobazB
 123
 "
 _ns
-false
+0
 )
 ;
 }
@@ -1201,7 +1219,7 @@ false
 "
 "
 _ns
-false
+0
 )
 ;
 DoTest
@@ -1227,7 +1245,7 @@ false
 "
 "
 _ns
-false
+0
 )
 ;
 DoTest
@@ -1259,7 +1277,7 @@ com
 /
 "
 _ns
-true
+1
 )
 ;
 DoTest
@@ -1307,7 +1325,7 @@ foobaz
 abc
 "
 _ns
-true
+1
 )
 ;
 }

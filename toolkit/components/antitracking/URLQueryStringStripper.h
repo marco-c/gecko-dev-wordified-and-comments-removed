@@ -43,7 +43,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIURLQUERYSTRIPPINGLISTOBSERVER
 static
-bool
+uint32_t
 Strip
 (
 nsIURI
@@ -91,7 +91,7 @@ Shutdown
 (
 )
 ;
-bool
+uint32_t
 StripQueryString
 (
 nsIURI
