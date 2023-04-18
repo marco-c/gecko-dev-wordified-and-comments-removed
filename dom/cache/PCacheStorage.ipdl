@@ -73,10 +73,6 @@ protocol
 PCacheStreamControl
 ;
 include
-protocol
-PFileDescriptorSet
-;
-include
 CacheTypes
 ;
 namespace

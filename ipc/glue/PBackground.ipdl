@@ -134,10 +134,6 @@ PEndpointForReport
 ;
 include
 protocol
-PFileDescriptorSet
-;
-include
-protocol
 PFileSystemRequest
 ;
 include
@@ -459,9 +455,6 @@ PClientManager
 ;
 manages
 PEndpointForReport
-;
-manages
-PFileDescriptorSet
 ;
 manages
 PFileSystemRequest
@@ -1276,13 +1269,6 @@ nsID
 aID
 uint64_t
 aSize
-)
-;
-async
-PFileDescriptorSet
-(
-FileDescriptor
-fd
 )
 ;
 }

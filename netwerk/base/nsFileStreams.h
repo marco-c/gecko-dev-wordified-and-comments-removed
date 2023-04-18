@@ -483,9 +483,6 @@ ipc
 InputStreamParams
 &
 aParams
-FileDescriptorArray
-&
-aFileDescriptors
 )
 ;
 nsresult

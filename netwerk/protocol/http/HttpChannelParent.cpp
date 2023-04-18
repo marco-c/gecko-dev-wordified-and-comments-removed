@@ -21,17 +21,6 @@ mozilla
 /
 ipc
 /
-FileDescriptorSetParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ipc
-/
 IPCStreamUtils
 .
 h
