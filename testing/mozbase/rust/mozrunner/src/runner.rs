@@ -687,6 +687,13 @@ FirefoxProcess
 process
 :
 Child
+#
+[
+allow
+(
+dead_code
+)
+]
 profile
 :
 Profile
