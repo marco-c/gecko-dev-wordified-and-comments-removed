@@ -18,6 +18,11 @@ xpcObjectHelper
 h
 "
 "
+XPCPrefableContextOptions
+.
+h
+"
+"
 xpcpublic
 .
 h

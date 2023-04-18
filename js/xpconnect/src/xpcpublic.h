@@ -280,9 +280,6 @@ class
 Compartment
 ;
 class
-ContextOptions
-;
-class
 Realm
 ;
 class
@@ -2084,17 +2081,6 @@ JS
 :
 :
 RealmOptions
-&
-options
-)
-;
-void
-SetPrefableContextOptions
-(
-JS
-:
-:
-ContextOptions
 &
 options
 )
