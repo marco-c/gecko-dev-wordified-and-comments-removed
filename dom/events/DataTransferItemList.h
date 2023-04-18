@@ -42,8 +42,8 @@ nsIVariant
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -456,7 +456,6 @@ mIndexedItems
 ;
 }
 ;
-}
 }
 #
 endif

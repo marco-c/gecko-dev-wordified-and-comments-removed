@@ -42,8 +42,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -251,7 +251,6 @@ Clipboard
 ;
 }
 ;
-}
 }
 #
 endif

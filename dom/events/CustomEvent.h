@@ -26,8 +26,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -195,7 +195,6 @@ aDetail
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

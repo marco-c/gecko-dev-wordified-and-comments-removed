@@ -45,8 +45,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -267,7 +267,6 @@ DebuggerNotification
 aType
 )
 ;
-}
 }
 }
 }

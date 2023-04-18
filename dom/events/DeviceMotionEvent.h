@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -586,7 +586,6 @@ mInterval
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

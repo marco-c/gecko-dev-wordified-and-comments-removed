@@ -99,8 +99,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -472,7 +472,6 @@ mPorts
 ;
 }
 ;
-}
 }
 #
 endif

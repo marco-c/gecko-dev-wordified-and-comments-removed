@@ -168,8 +168,8 @@ MessageWriter
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1607,7 +1607,6 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 Event
 NS_EVENT_IID
 )
-}
 }
 already_AddRefed
 <

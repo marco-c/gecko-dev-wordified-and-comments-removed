@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -460,7 +460,6 @@ const
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

@@ -62,8 +62,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -243,7 +243,6 @@ mTimeStamp
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

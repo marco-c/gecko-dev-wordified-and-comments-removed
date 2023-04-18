@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -160,7 +160,6 @@ aRelatedTarget
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

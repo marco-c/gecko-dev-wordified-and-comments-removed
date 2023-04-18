@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -118,7 +118,6 @@ default
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

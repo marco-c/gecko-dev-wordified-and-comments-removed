@@ -41,8 +41,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -243,7 +243,6 @@ mNotificationObservers
 ;
 }
 ;
-}
 }
 #
 endif

@@ -59,8 +59,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -222,7 +222,6 @@ mRanges
 ;
 }
 ;
-}
 }
 already_AddRefed
 <

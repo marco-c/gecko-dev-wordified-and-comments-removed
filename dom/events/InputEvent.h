@@ -55,8 +55,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -212,7 +212,6 @@ mInputTypeValue
 ;
 }
 ;
-}
 }
 already_AddRefed
 <
