@@ -456,6 +456,8 @@ leave
 MacroAssembler
 &
 masm
+bool
+calledIntoIon
 )
 {
 MOZ_ASSERT
@@ -481,11 +483,28 @@ setFramePushed
 framePushedAtEnterStubFrame_
 )
 ;
+if
+(
+calledIntoIon
+)
+{
+masm
+.
+adjustFrame
+(
+sizeof
+(
+intptr_t
+)
+)
+;
+}
 #
 endif
 EmitBaselineLeaveStubFrame
 (
 masm
+calledIntoIon
 )
 ;
 }
@@ -2782,6 +2801,7 @@ stubFrame
 leave
 (
 masm
+true
 )
 ;
 if
@@ -8737,6 +8757,7 @@ stubFrame
 leave
 (
 masm
+true
 )
 ;
 if
@@ -14967,6 +14988,7 @@ stubFrame
 leave
 (
 masm
+true
 )
 ;
 if
@@ -15422,6 +15444,7 @@ stubFrame
 leave
 (
 masm
+true
 )
 ;
 if
@@ -16307,6 +16330,7 @@ stubFrame
 leave
 (
 masm
+true
 )
 ;
 return

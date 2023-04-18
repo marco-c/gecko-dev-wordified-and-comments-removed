@@ -17923,7 +17923,7 @@ range
 }
 graph
 .
-setLocalSlotsSize
+setLocalSlotCount
 (
 stackSlotAllocator
 .

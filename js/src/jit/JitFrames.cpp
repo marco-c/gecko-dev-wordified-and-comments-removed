@@ -4623,8 +4623,6 @@ uint8_t
 )
 this
 -
-IonFirstSlotOffset
--
 where
 .
 slot

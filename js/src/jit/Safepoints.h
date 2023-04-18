@@ -90,7 +90,7 @@ CompactBufferWriter
 stream_
 ;
 BitSet
-localSlots_
+frameSlots_
 ;
 BitSet
 argumentSlots_
@@ -101,9 +101,9 @@ explicit
 SafepointWriter
 (
 uint32_t
-localSlotsSize
+slotCount
 uint32_t
-argumentsSize
+argumentCount
 )
 ;
 [
@@ -248,7 +248,7 @@ CompactBufferReader
 stream_
 ;
 uint32_t
-localSlots_
+frameSlots_
 ;
 uint32_t
 argumentSlots_

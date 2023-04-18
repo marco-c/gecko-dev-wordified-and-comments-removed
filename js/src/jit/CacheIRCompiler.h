@@ -4452,6 +4452,10 @@ leave
 MacroAssembler
 &
 masm
+bool
+calledIntoIon
+=
+false
 )
 ;
 #
