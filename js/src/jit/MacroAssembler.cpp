@@ -2821,7 +2821,10 @@ store32
 (
 Imm32
 (
-0
+ObjectElements
+:
+:
+FIXED
 )
 Address
 (
@@ -5361,7 +5364,10 @@ store32
 (
 Imm32
 (
-0
+ObjectElements
+:
+:
+FIXED
 )
 Address
 (
