@@ -28803,6 +28803,10 @@ mClippedToDisplayPort
 (
 aClippedToDisplayPort
 )
+mShouldFlatten
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
