@@ -1116,7 +1116,7 @@ if
 prevFrame
 )
 {
-EnsureUnwoundJitExitFrame
+EnsureBareExitFrame
 (
 act_
 prevFrame

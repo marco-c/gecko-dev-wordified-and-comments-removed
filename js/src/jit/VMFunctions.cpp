@@ -5480,7 +5480,7 @@ framePrefix
 (
 )
 ;
-EnsureUnwoundJitExitFrame
+EnsureBareExitFrame
 (
 cx
 -

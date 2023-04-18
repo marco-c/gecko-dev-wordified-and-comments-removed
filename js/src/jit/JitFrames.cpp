@@ -4304,7 +4304,7 @@ fp
 }
 }
 void
-EnsureUnwoundJitExitFrame
+EnsureBareExitFrame
 (
 JitActivation
 *
@@ -4349,7 +4349,7 @@ MOZ_ASSERT
 exitFrame
 -
 >
-isUnwoundJitExit
+isBareExit
 (
 )
 )
@@ -4469,7 +4469,7 @@ footer
 )
 -
 >
-setUnwoundJitExitFrame
+setBareExitFrame
 (
 )
 ;
@@ -4478,7 +4478,7 @@ MOZ_ASSERT
 exitFrame
 -
 >
-isUnwoundJitExit
+isBareExit
 (
 )
 )
@@ -6882,13 +6882,6 @@ if
 frame
 .
 isBareExit
-(
-)
-|
-|
-frame
-.
-isUnwoundJitExit
 (
 )
 )
