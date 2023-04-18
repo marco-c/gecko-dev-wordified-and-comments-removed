@@ -361,6 +361,8 @@ nsCString
 hostName
 nsCString
 trrServer
+int32_t
+port
 uint16_t
 type
 OriginAttributes

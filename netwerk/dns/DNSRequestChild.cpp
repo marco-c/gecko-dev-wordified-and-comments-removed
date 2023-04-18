@@ -1501,6 +1501,8 @@ const
 nsACString
 &
 aTrrServer
+int32_t
+aPort
 const
 uint16_t
 &
@@ -1541,6 +1543,10 @@ mTrrServer
 (
 aTrrServer
 )
+mPort
+(
+aPort
+)
 mType
 (
 aType
@@ -1569,6 +1575,10 @@ const
 nsCString
 &
 trrServer
+const
+int32_t
+&
+port
 const
 uint16_t
 &
@@ -1645,6 +1655,10 @@ trrServer
 (
 mTrrServer
 )
+port
+(
+mPort
+)
 type
 (
 mType
@@ -1700,6 +1714,7 @@ SendCancelDNSRequest
 (
 host
 trrServer
+port
 type
 originAttributes
 flags
@@ -1732,6 +1747,7 @@ SendCancelDNSRequest
 (
 host
 trrServer
+port
 type
 originAttributes
 flags
@@ -1883,6 +1899,7 @@ SendPDNSRequestConstructor
 child
 mHost
 mTrrServer
+mPort
 mType
 mOriginAttributes
 mFlags
@@ -1941,6 +1958,7 @@ SendPDNSRequestConstructor
 child
 mHost
 mTrrServer
+mPort
 mType
 mOriginAttributes
 mFlags
@@ -2035,6 +2053,10 @@ self
 -
 >
 mTrrServer
+self
+-
+>
+mPort
 self
 -
 >
@@ -2459,6 +2481,10 @@ nsCString
 &
 trrServer
 const
+int32_t
+&
+port
+const
 uint16_t
 &
 type
@@ -2483,6 +2509,7 @@ OnRecvCancelDNSRequest
 (
 hostName
 trrServer
+port
 type
 originAttributes
 flags

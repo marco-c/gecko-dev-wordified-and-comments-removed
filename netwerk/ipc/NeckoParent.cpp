@@ -2898,6 +2898,10 @@ nsCString
 &
 aTrrServer
 const
+int32_t
+&
+aPort
+const
 uint16_t
 &
 aType
@@ -2966,6 +2970,10 @@ nsCString
 &
 aTrrServer
 const
+int32_t
+&
+aPort
+const
 uint16_t
 &
 aType
@@ -3019,6 +3027,7 @@ DoAsyncResolve
 (
 aHost
 aTrrServer
+aPort
 aType
 aOriginAttributes
 aFlags

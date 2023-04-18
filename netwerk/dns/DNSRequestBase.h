@@ -107,6 +107,10 @@ nsCString
 &
 trrServer
 const
+int32_t
+&
+port
+const
 uint16_t
 &
 type
@@ -205,6 +209,8 @@ const
 nsACString
 &
 aTrrServer
+int32_t
+aPort
 const
 uint16_t
 &
@@ -236,6 +242,10 @@ const
 nsCString
 &
 trrServer
+const
+int32_t
+&
+port
 const
 uint16_t
 &
@@ -346,6 +356,9 @@ mHost
 nsCString
 mTrrServer
 ;
+int32_t
+mPort
+;
 uint16_t
 mType
 =
@@ -392,6 +405,8 @@ const
 nsACString
 &
 trrServer
+int32_t
+port
 uint16_t
 type
 const
@@ -413,6 +428,10 @@ const
 nsCString
 &
 trrServer
+const
+int32_t
+&
+port
 const
 uint16_t
 &

@@ -539,6 +539,10 @@ nsCString
 &
 aTrrServer
 const
+int32_t
+&
+aPort
+const
 uint16_t
 &
 aType
@@ -573,6 +577,10 @@ const
 nsCString
 &
 trrServer
+const
+int32_t
+&
+aPort
 const
 uint16_t
 &

@@ -32,6 +32,11 @@ XPIDL_SOURCES
 =
 [
 "
+nsIDNSAdditionalInfo
+.
+idl
+"
+"
 nsIDNSByTypeRecord
 .
 idl
@@ -43,11 +48,6 @@ idl
 "
 "
 nsIDNSRecord
-.
-idl
-"
-"
-nsIDNSResolverInfo
 .
 idl
 "
@@ -242,6 +242,11 @@ DNS
 cpp
 "
 "
+DNSAdditionalInfo
+.
+cpp
+"
+"
 DNSListenerProxy
 .
 cpp
@@ -258,11 +263,6 @@ cpp
 "
 "
 DNSRequestParent
-.
-cpp
-"
-"
-DNSResolverInfo
 .
 cpp
 "

@@ -131,6 +131,8 @@ const
 nsACString
 &
 aTrrServer
+int32_t
+aPort
 uint16_t
 aType
 const
@@ -157,9 +159,9 @@ uint16_t
 type
 uint32_t
 flags
-nsIDNSResolverInfo
+nsIDNSAdditionalInfo
 *
-aResolver
+aInfo
 nsIDNSListener
 *
 listener
@@ -187,9 +189,9 @@ uint16_t
 aType
 uint32_t
 aFlags
-nsIDNSResolverInfo
+nsIDNSAdditionalInfo
 *
-aResolver
+aInfo
 nsIDNSListener
 *
 aListener

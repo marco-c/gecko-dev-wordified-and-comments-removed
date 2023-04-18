@@ -126,6 +126,10 @@ nsCString
 &
 trrServer
 const
+int32_t
+&
+port
+const
 uint16_t
 &
 type
