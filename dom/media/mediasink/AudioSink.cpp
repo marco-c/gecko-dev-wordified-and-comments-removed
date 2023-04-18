@@ -2405,6 +2405,16 @@ mAudioQueue
 IsFinished
 (
 )
+&
+&
+mAudioQueue
+.
+GetSize
+(
+)
+=
+=
+0
 )
 {
 DrainConverter
