@@ -104,17 +104,6 @@ ServiceWorkerCloneData
 )
 ;
 bool
-StealFromAndBuildClonedMessageData
-(
-ClonedOrErrorMessageData
-&
-aFromClonedData
-ClonedOrErrorMessageData
-&
-aToClonedData
-)
-;
-bool
 BuildClonedMessageData
 (
 ClonedOrErrorMessageData
