@@ -78,12 +78,11 @@ bool
 const
 char
 *
-bool
 )
 >
 &
 &
-aShouldSanitizeFn
+aShouldSerializeFn
 )
 :
 mPrefMapSize
@@ -94,9 +93,9 @@ mPrefsLength
 (
 0
 )
-mShouldSanitizeFn
+mShouldSerializeFn
 (
-aShouldSanitizeFn
+aShouldSerializeFn
 )
 {
 MOZ_COUNT_CTOR
@@ -208,7 +207,7 @@ Preferences
 SerializePreferences
 (
 prefs
-mShouldSanitizeFn
+mShouldSerializeFn
 )
 ;
 mPrefsLength

@@ -2722,11 +2722,6 @@ nsCString
 aName
 )
 false
-ShouldSanitizePreference
-(
-aName
-false
-)
 Nothing
 (
 )

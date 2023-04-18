@@ -402,9 +402,6 @@ aFlags
 mIsLocked
 aFlags
 .
-mIsSanitized
-aFlags
-.
 mIsSkippedByIteration
 }
 )
@@ -502,9 +499,6 @@ mIsSticky
 aFlags
 .
 mIsLocked
-aFlags
-.
-mIsSanitized
 aFlags
 .
 mIsSkippedByIteration
@@ -628,9 +622,6 @@ mIsSticky
 aFlags
 .
 mIsLocked
-aFlags
-.
-mIsSanitized
 aFlags
 .
 mIsSkippedByIteration
@@ -1100,10 +1091,6 @@ entry
 -
 >
 mIsLocked
-entry
--
->
-mIsSanitized
 entry
 -
 >
