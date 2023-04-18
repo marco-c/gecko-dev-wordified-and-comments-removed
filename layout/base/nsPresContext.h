@@ -3259,13 +3259,6 @@ UIResolutionChangedInternal
 )
 ;
 void
-UIResolutionChangedInternalScale
-(
-double
-aScale
-)
-;
-void
 SetImgAnimations
 (
 nsIContent

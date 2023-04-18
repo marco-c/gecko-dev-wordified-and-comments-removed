@@ -360,11 +360,6 @@ EndPage
 bool
 CheckDPIChange
 (
-double
-*
-aScale
-=
-nullptr
 )
 ;
 bool
@@ -424,11 +419,6 @@ aWantReferenceContext
 void
 SetDPI
 (
-double
-*
-aScale
-=
-nullptr
 )
 ;
 void
