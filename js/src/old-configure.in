@@ -4660,15 +4660,6 @@ opt
 nolldtailmerge
 "
 fi
-if
-test
--
-n
-"
-CLANG_CL
-"
-;
-then
 #
 XXX
 We
@@ -5442,7 +5433,6 @@ marked
 -
 unused
 "
-fi
 LIBS
 =
 "
