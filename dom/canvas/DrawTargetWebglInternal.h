@@ -1361,6 +1361,11 @@ HashNumber
 aHash
 )
 ;
+~
+GlyphCacheEntry
+(
+)
+;
 bool
 MatchesGlyphs
 (
