@@ -1750,6 +1750,7 @@ EmptyCheckOption
 TreatSingleBRElementAsVisible
 TreatListItemAsVisible
 TreatTableCellAsVisible
+IgnoreEditableState
 SafeToAskLayout
 }
 ;
