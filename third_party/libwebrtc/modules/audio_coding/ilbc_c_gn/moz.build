@@ -1836,6 +1836,16 @@ USE_GLIB
 DEFINES
 [
 "
+USE_X11
+"
+]
+=
+"
+1
+"
+DEFINES
+[
+"
 WEBRTC_BSD
 "
 ]

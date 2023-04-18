@@ -444,6 +444,16 @@ USE_GLIB
 DEFINES
 [
 "
+USE_X11
+"
+]
+=
+"
+1
+"
+DEFINES
+[
+"
 _FILE_OFFSET_BITS
 "
 ]
