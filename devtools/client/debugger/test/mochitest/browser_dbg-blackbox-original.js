@@ -223,13 +223,9 @@ test
 "
 )
 ;
-is
-(
-isPaused
+assertNotPaused
 (
 dbg
-)
-false
 )
 ;
 await
