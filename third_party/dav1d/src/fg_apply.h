@@ -44,6 +44,7 @@ Dav1dPicture
 *
 const
 out
+const
 Dav1dPicture
 *
 const

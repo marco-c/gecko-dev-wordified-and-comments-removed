@@ -2,7 +2,7 @@
 Copyright
 2018
 -
-2021
+2022
 VideoLAN
 and
 dav1d
@@ -297,7 +297,7 @@ dav1d_soname_version
 '
 6
 .
-0
+3
 .
 0
 '
@@ -1043,7 +1043,7 @@ set
 COPYRIGHT_YEARS
 '
 '
-2021
+2022
 '
 )
 else

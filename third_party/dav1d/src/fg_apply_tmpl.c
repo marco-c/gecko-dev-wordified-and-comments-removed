@@ -532,6 +532,7 @@ Dav1dPicture
 *
 const
 out
+const
 Dav1dPicture
 *
 const
@@ -555,11 +556,11 @@ film_grain
 .
 data
 ;
+ALIGN_STK_16
+(
 entry
 grain_lut
-[
 3
-]
 [
 GRAIN_HEIGHT
 +
@@ -568,6 +569,7 @@ GRAIN_HEIGHT
 [
 GRAIN_WIDTH
 ]
+)
 ;
 uint8_t
 scaling

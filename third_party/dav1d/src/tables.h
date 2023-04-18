@@ -491,9 +491,7 @@ const
 int8_t
 dav1d_mc_subpel_filters
 [
-5
-+
-ARCH_X86_64
+6
 ]
 [
 15

@@ -994,11 +994,11 @@ shift_hor
 -
 ss_hor
 ;
+ALIGN_STK_16
+(
 pixel
 pre_lr_border
-[
 2
-]
 [
 128
 +
@@ -1007,6 +1007,7 @@ pre_lr_border
 [
 4
 ]
+)
 ;
 const
 Av1RestorationUnit
