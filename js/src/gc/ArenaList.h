@@ -80,6 +80,9 @@ gc
 class
 Arena
 ;
+class
+BackgroundUnmarkTask
+;
 struct
 FinalizePhase
 ;
@@ -1239,6 +1242,10 @@ thingKind
 ShouldCheckThresholds
 checkThresholds
 )
+;
+friend
+class
+BackgroundUnmarkTask
 ;
 friend
 class

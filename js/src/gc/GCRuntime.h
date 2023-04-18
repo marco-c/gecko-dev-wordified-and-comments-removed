@@ -700,16 +700,6 @@ lock
 )
 override
 ;
-private
-:
-void
-unmarkZones
-(
-AutoLockGC
-&
-lock
-)
-;
 ZoneVector
 zones
 ;
