@@ -103,7 +103,7 @@ style
 {
 props
 .
-label
+children
 }
 <
 /
