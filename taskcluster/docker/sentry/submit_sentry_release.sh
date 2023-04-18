@@ -90,7 +90,7 @@ in
 revisions
 ;
 do
-SENTRY_API_KEY
+SENTRY_AUTH_TOKEN
 =
 sentry_api_key
 SENTRY_ORG
