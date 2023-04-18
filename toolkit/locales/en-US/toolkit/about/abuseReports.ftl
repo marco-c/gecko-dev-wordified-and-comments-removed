@@ -145,7 +145,7 @@ sitepermission
 Report
 This
 Site
-Permission
+Permissions
 add
 -
 on
@@ -643,7 +643,7 @@ ve
 removed
 the
 Site
-Permission
+Permissions
 add
 -
 on
