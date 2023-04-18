@@ -1013,7 +1013,7 @@ text
 ;
 mClipboardData
 =
-moz_xmalloc
+g_malloc
 (
 mClipboardDataLength
 )
@@ -1190,7 +1190,7 @@ dataLength
 ;
 mClipboardData
 =
-moz_xmalloc
+g_malloc
 (
 dataLength
 )
@@ -1870,7 +1870,7 @@ char
 aClipboardData
 )
 {
-free
+g_free
 (
 (
 void
