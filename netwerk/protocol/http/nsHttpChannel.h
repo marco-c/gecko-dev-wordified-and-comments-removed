@@ -3244,6 +3244,12 @@ nsIEarlyHintObserver
 >
 mEarlyHintObserver
 ;
+Maybe
+<
+nsCString
+>
+mOpenerCallingScriptLocation
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
