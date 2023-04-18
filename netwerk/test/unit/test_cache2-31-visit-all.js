@@ -241,9 +241,9 @@ lcis
 }
 ]
 ;
-get_cache_service
-(
-)
+Services
+.
+cache2
 .
 asyncVisitAllStorages
 (
@@ -257,9 +257,9 @@ function
 (
 )
 {
-get_cache_service
-(
-)
+Services
+.
+cache2
 .
 asyncVisitAllStorages
 (

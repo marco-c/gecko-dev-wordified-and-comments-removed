@@ -10,9 +10,9 @@ url
 callback
 )
 {
-get_cache_service
-(
-)
+Services
+.
+cache2
 .
 diskCacheStorage
 (

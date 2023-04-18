@@ -12,14 +12,9 @@ do_get_profile
 (
 )
 ;
-var
-svc
-=
-get_cache_service
-(
-)
-;
-svc
+Services
+.
+cache2
 .
 clear
 (

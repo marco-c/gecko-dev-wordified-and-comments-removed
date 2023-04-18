@@ -2194,9 +2194,9 @@ wait_for_cache_index
 continue_func
 )
 {
-get_cache_service
-(
-)
+Services
+.
+cache2
 .
 asyncGetDiskConsumption
 (
