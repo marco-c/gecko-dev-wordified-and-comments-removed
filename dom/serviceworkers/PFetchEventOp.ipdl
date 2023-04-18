@@ -83,7 +83,7 @@ parent
 async
 PreloadResponse
 (
-IPCInternalResponse
+ParentToParentInternalResponse
 aResponse
 )
 ;
@@ -109,7 +109,7 @@ aParams
 async
 RespondWith
 (
-IPCFetchEventRespondWithResult
+ParentToParentFetchEventRespondWithResult
 aResult
 )
 ;

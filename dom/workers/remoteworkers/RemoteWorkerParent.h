@@ -81,7 +81,7 @@ PFetchEventOpProxyParent
 AllocPFetchEventOpProxyParent
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToChildServiceWorkerFetchEventOpArgs
 &
 aArgs
 )

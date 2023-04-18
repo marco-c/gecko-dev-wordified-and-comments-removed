@@ -129,7 +129,7 @@ RemoteWorkerControllerChild
 AllocPFetchEventOpChild
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 aArgs
 )

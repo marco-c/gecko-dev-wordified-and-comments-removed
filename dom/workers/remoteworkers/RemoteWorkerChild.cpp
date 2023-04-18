@@ -5311,7 +5311,7 @@ type
 ServiceWorkerOpArgs
 :
 :
-TServiceWorkerFetchEventOpArgs
+TParentToChildServiceWorkerFetchEventOpArgs
 "
 FetchEvent
 operations
@@ -5554,7 +5554,7 @@ RemoteWorkerChild
 AllocPFetchEventOpProxyChild
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToChildServiceWorkerFetchEventOpArgs
 &
 aArgs
 )
@@ -5583,7 +5583,7 @@ PFetchEventOpProxyChild
 *
 aActor
 const
-ServiceWorkerFetchEventOpArgs
+ParentToChildServiceWorkerFetchEventOpArgs
 &
 aArgs
 )

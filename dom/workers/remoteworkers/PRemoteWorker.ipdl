@@ -233,7 +233,7 @@ child
 async
 PFetchEventOpProxy
 (
-ServiceWorkerFetchEventOpArgs
+ParentToChildServiceWorkerFetchEventOpArgs
 aArgs
 )
 ;

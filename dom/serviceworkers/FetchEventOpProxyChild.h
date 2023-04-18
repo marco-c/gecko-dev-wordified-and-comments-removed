@@ -78,7 +78,7 @@ class
 InternalResponse
 ;
 class
-ServiceWorkerFetchEventOpArgs
+ParentToChildServiceWorkerFetchEventOpArgs
 ;
 class
 FetchEventOpProxyChild
@@ -109,7 +109,7 @@ void
 Initialize
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToChildServiceWorkerFetchEventOpArgs
 &
 aArgs
 )
@@ -148,7 +148,7 @@ ipc
 IPCResult
 RecvPreloadResponse
 (
-IPCInternalResponse
+ParentToChildInternalResponse
 &
 &
 aResponse

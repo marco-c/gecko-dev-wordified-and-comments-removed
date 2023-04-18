@@ -306,7 +306,7 @@ RemoteWorkerControllerParent
 AllocPFetchEventOpParent
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 aArgs
 )
@@ -348,7 +348,7 @@ PFetchEventOpParent
 *
 aActor
 const
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 aArgs
 )

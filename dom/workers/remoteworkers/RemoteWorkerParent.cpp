@@ -268,7 +268,7 @@ RemoteWorkerParent
 AllocPFetchEventOpProxyParent
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToChildServiceWorkerFetchEventOpArgs
 &
 aArgs
 )

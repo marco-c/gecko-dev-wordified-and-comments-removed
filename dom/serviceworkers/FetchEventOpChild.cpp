@@ -828,7 +828,7 @@ SendFetchEvent
 PRemoteWorkerControllerChild
 *
 aManager
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 &
 aArgs
@@ -987,7 +987,7 @@ FetchEventOpChild
 :
 FetchEventOpChild
 (
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 &
 aArgs
@@ -1087,7 +1087,7 @@ InternalResponse
 aInternalResponse
 )
 {
-IPCInternalResponse
+ParentToParentInternalResponse
 ipcPreloadResponse
 ;
 if
@@ -1229,7 +1229,7 @@ FetchEventOpChild
 :
 RecvRespondWith
 (
-IPCFetchEventRespondWithResult
+ParentToParentFetchEventRespondWithResult
 &
 &
 aResult
@@ -1255,10 +1255,10 @@ type
 )
 {
 case
-IPCFetchEventRespondWithResult
+ParentToParentFetchEventRespondWithResult
 :
 :
-TIPCSynthesizeResponseArgs
+TParentToParentSynthesizeResponseArgs
 :
 mInterceptedChannel
 -
@@ -1267,7 +1267,7 @@ SetFetchHandlerStart
 (
 aResult
 .
-get_IPCSynthesizeResponseArgs
+get_ParentToParentSynthesizeResponseArgs
 (
 )
 .
@@ -1287,7 +1287,7 @@ SetFetchHandlerFinish
 (
 aResult
 .
-get_IPCSynthesizeResponseArgs
+get_ParentToParentSynthesizeResponseArgs
 (
 )
 .
@@ -1309,7 +1309,7 @@ move
 (
 aResult
 .
-get_IPCSynthesizeResponseArgs
+get_ParentToParentSynthesizeResponseArgs
 (
 )
 )
@@ -1318,7 +1318,7 @@ get_IPCSynthesizeResponseArgs
 break
 ;
 case
-IPCFetchEventRespondWithResult
+ParentToParentFetchEventRespondWithResult
 :
 :
 TResetInterceptionArgs
@@ -1371,7 +1371,7 @@ false
 break
 ;
 case
-IPCFetchEventRespondWithResult
+ParentToParentFetchEventRespondWithResult
 :
 :
 TCancelInterceptionArgs
@@ -1601,7 +1601,7 @@ FetchEventOpChild
 :
 StartSynthesizedResponse
 (
-IPCSynthesizeResponseArgs
+ParentToParentSynthesizeResponseArgs
 &
 &
 aArgs
@@ -1732,6 +1732,10 @@ clonePtr
 (
 )
 mArgs
+.
+common
+(
+)
 .
 workerScriptSpec
 (
@@ -2041,6 +2045,10 @@ request
 =
 mArgs
 .
+common
+(
+)
+.
 internalRequest
 (
 )
@@ -2230,6 +2238,10 @@ interceptedChannel
 registration
 mArgs
 .
+common
+(
+)
+.
 isNonSubresourceRequest
 (
 )
@@ -2331,7 +2343,7 @@ FetchEventOpChild
 :
 SynthesizeResponse
 (
-IPCSynthesizeResponseArgs
+ParentToParentSynthesizeResponseArgs
 &
 &
 aArgs
@@ -2537,6 +2549,10 @@ mActive
 &
 mArgs
 .
+common
+(
+)
+.
 isNonSubresourceRequest
 (
 )
@@ -2611,6 +2627,10 @@ mInterceptedChannelHandled
 if
 (
 mArgs
+.
+common
+(
+)
 .
 isNonSubresourceRequest
 (

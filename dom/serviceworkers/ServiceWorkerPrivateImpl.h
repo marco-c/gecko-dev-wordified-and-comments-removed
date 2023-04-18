@@ -469,7 +469,7 @@ ServiceWorkerRegistrationInfo
 &
 &
 aRegistration
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 &
 aArgs
@@ -655,7 +655,7 @@ ServiceWorkerRegistrationInfo
 &
 &
 aRegistration
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 &
 aArgs
@@ -688,7 +688,7 @@ PendingFetchEvent
 ;
 private
 :
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 mArgs
 ;
 nsCOMPtr

@@ -48,7 +48,7 @@ class
 PRemoteWorkerParent
 ;
 class
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 ;
 class
 FetchEventOpProxyParent
@@ -87,7 +87,7 @@ Private
 &
 aPromise
 const
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 aArgs
 RefPtr
@@ -174,7 +174,7 @@ IPCResult
 RecvRespondWith
 (
 const
-IPCFetchEventRespondWithResult
+ChildToParentFetchEventRespondWithResult
 &
 aResult
 )
