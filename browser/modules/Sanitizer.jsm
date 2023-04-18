@@ -503,6 +503,9 @@ progress
 isShutdown
 :
 true
+clearHonoringExceptions
+:
+true
 }
 ;
 shutdownClient
@@ -635,6 +638,16 @@ pendingSanitizations
 {
 try
 {
+options
+.
+progress
+=
+{
+clearHonoringExceptions
+:
+true
+}
+;
 await
 this
 .
@@ -1219,6 +1232,9 @@ sanitizeOnShutdown
 (
 {
 isShutdown
+:
+true
+clearHonoringExceptions
 :
 true
 }
@@ -2861,7 +2877,7 @@ if
 (
 progress
 .
-isShutdown
+clearHonoringExceptions
 )
 {
 let
