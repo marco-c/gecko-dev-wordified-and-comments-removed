@@ -229,16 +229,6 @@ gfx
 ColorRange
 ColorRange
 ;
-typedef
-mozilla
-:
-:
-gfx
-:
-:
-ColorDepth
-ColorDepth
-;
 static
 already_AddRefed
 <
@@ -261,7 +251,7 @@ already_AddRefed
 <
 MacIOSurface
 >
-CreateNV12OrP010Surface
+CreateNV12Surface
 (
 const
 IntSize
@@ -275,8 +265,6 @@ YUVColorSpace
 aColorSpace
 ColorRange
 aColorRange
-ColorDepth
-aColorDepth
 )
 ;
 static

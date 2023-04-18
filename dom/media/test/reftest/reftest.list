@@ -350,9 +350,6 @@ mp4
 ref
 .
 html
-#
-Bug
-1758718
 skip
 -
 if
@@ -402,12 +399,6 @@ xulRuntime
 .
 XPCOMABI
 )
-)
-skip
--
-if
-(
-OSX
 )
 fuzzy
 (
@@ -555,7 +546,7 @@ skip
 -
 if
 (
-OSX
+appleSilicon
 )
 =
 =
