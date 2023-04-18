@@ -327,7 +327,7 @@ return
 mMediaElement
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 trackElement
 )
@@ -2773,7 +2773,7 @@ return
 mMediaElement
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 trackElement
 )

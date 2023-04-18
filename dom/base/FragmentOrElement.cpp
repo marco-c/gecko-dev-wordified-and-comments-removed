@@ -2119,7 +2119,7 @@ return
 mNode
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aContent
 )

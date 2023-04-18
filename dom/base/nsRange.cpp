@@ -4295,7 +4295,7 @@ nodeIndex
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 &
 aNode
@@ -5063,7 +5063,7 @@ parent
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aChild
 )
@@ -6001,7 +6001,7 @@ MOZ_ASSERT
 aContainer
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aStartContent
 )
@@ -6010,7 +6010,7 @@ aStartContent
 aContainer
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aEndContent
 )
@@ -6024,7 +6024,7 @@ aStartContent
 aContainer
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aStartContent
 )
@@ -6042,7 +6042,7 @@ aEndContent
 aContainer
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aEndContent
 )
@@ -6452,13 +6452,14 @@ NS_ERROR_DOM_INVALID_NODE_TYPE_ERR
 return
 ;
 }
+const
 int32_t
 index
 =
 container
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 &
 aNode
@@ -14679,7 +14680,7 @@ startOffset
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 startContainer
 )

@@ -2362,7 +2362,7 @@ Some
 mParent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 mChild
 )

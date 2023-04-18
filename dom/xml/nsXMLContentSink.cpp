@@ -1642,7 +1642,7 @@ NS_ASSERTION
 mDocument
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 rootElement
 )

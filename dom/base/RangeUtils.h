@@ -217,13 +217,14 @@ RawRangeBoundary
 )
 ;
 }
+const
 int32_t
 indexInParent
 =
 parentNode
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aNode
 )

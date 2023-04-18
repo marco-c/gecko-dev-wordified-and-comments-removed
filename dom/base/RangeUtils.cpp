@@ -594,7 +594,7 @@ nodeStart
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aNode
 )

@@ -5817,6 +5817,7 @@ GetParentNode
 :
 nullptr
 ;
+const
 int32_t
 idxInParent
 =
@@ -5825,7 +5826,7 @@ parentNode
 parentNode
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aNode
 )

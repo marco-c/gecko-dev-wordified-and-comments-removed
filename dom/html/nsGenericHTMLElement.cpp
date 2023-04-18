@@ -2946,7 +2946,7 @@ GetParent
 )
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 child
 )

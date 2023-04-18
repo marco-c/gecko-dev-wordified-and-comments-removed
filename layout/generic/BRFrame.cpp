@@ -934,7 +934,7 @@ offsets
 content
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 mContent
 )

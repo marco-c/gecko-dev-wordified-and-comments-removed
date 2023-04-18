@@ -1970,9 +1970,8 @@ aIndex
 )
 const
 ;
-virtual
 int32_t
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 const
 nsINode

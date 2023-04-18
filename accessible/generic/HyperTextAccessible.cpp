@@ -2062,7 +2062,7 @@ parentNode
 parentNode
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 node
 )
@@ -11077,7 +11077,7 @@ idx
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 content
 )
@@ -11202,7 +11202,7 @@ idx
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 content
 )

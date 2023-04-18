@@ -5378,7 +5378,7 @@ startNodeOffset
 startNode
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 content
 )
@@ -5439,7 +5439,7 @@ startNodeOffset
 startNode
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 content
 )
@@ -5889,13 +5889,14 @@ return
 NS_ERROR_FAILURE
 ;
 }
+const
 int32_t
 indexInParent
 =
 endNode
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 content
 )
@@ -13505,7 +13506,7 @@ parent
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aStartPosition
 .
@@ -13818,13 +13819,14 @@ return
 NS_ERROR_FAILURE
 ;
 }
+const
 int32_t
 indexInParent
 =
 parentContent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 endPosition
 .
@@ -14904,7 +14906,7 @@ aNode
 )
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 node
 )
@@ -14923,7 +14925,7 @@ aNode
 )
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 node
 )

@@ -6155,7 +6155,7 @@ mParent
 mParent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 &
 aNode
@@ -12372,13 +12372,14 @@ GetParent
 (
 )
 ;
+const
 int32_t
 offset
 =
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aCellElement
 )

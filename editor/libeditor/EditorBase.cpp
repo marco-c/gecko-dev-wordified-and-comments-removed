@@ -6218,7 +6218,7 @@ MOZ_ASSERT
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 firstEditableLeaf
 )
