@@ -895,12 +895,6 @@ masm
 bailoutTail
 )
 ;
-if
-(
-JitOptions
-.
-supportsFloatingPoint
-)
 {
 JitSpew
 (
@@ -1011,6 +1005,7 @@ id
 )
 ;
 }
+}
 JitSpew
 (
 JitSpew_Codegen
@@ -1046,7 +1041,6 @@ masm
 bailoutTail
 )
 ;
-}
 static_assert
 (
 std

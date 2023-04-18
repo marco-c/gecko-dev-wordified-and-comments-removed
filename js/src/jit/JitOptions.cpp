@@ -794,12 +794,6 @@ true
 endif
 SET_DEFAULT
 (
-supportsFloatingPoint
-false
-)
-;
-SET_DEFAULT
-(
 supportsUnalignedAccesses
 false
 )

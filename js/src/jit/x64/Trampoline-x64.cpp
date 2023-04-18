@@ -4245,13 +4245,6 @@ break
 case
 Type_Double
 :
-MOZ_ASSERT
-(
-JitOptions
-.
-supportsFloatingPoint
-)
-;
 masm
 .
 loadDouble
