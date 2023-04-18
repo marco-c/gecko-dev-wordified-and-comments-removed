@@ -153,11 +153,6 @@ WriteFinishedPromiseHandler
 class
 ShutdownActionFinishedPromiseHandler
 ;
-using
-:
-:
-ImplCycleCollectionUnlink
-;
 class
 PipeToPump
 final

@@ -5075,6 +5075,12 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 class_
 )
 \
+using
+:
+:
+ImplCycleCollectionUnlink
+;
+\
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 \
@@ -5138,6 +5144,12 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 class_
 _base
 )
+\
+using
+:
+:
+ImplCycleCollectionUnlink
+;
 \
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
