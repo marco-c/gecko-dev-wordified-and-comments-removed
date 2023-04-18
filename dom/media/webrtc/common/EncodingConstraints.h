@@ -9,6 +9,15 @@ include
 <
 algorithm
 >
+#
+include
+"
+mozilla
+/
+Maybe
+.
+h
+"
 namespace
 mozilla
 {
