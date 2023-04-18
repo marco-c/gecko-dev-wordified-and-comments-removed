@@ -1299,7 +1299,7 @@ std
 :
 string
 >
-mLocalMid
+mMid
 ;
 Mirror
 <

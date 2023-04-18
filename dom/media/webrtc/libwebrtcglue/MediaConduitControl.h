@@ -104,7 +104,7 @@ std
 string
 >
 *
-CanonicalLocalMid
+CanonicalMid
 (
 )
 =

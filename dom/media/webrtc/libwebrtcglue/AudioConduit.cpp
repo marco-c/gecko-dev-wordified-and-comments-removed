@@ -318,7 +318,7 @@ string
 )
 INIT_MIRROR
 (
-mLocalMid
+mMid
 std
 :
 :
@@ -459,7 +459,7 @@ DisconnectIfConnected
 ;
 mControl
 .
-mLocalMid
+mMid
 .
 DisconnectIfConnected
 (
@@ -848,12 +848,12 @@ CONNECT
 aControl
 -
 >
-CanonicalLocalMid
+CanonicalMid
 (
 )
 mControl
 .
-mLocalMid
+mMid
 )
 ;
 CONNECT
@@ -1175,7 +1175,7 @@ if
 (
 mControl
 .
-mLocalMid
+mMid
 .
 Ref
 (
@@ -1197,7 +1197,7 @@ mid
 =
 mControl
 .
-mLocalMid
+mMid
 .
 Ref
 (
