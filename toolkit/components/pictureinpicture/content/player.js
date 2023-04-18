@@ -1042,6 +1042,12 @@ this
 isFullscreen
 )
 {
+window
+.
+focus
+(
+)
+;
 this
 .
 actor
