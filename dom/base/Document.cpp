@@ -33798,7 +33798,12 @@ DOMIntersectionObserver
 ComputeInput
 (
 *
-this
+el
+-
+>
+OwnerDoc
+(
+)
 nullptr
 nullptr
 )
