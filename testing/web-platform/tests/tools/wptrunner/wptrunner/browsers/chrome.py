@@ -612,6 +612,26 @@ test
 "
 )
     
+chrome_options
+[
+"
+args
+"
+]
+.
+append
+(
+"
+-
+-
+enable
+-
+features
+=
+SecurePaymentConfirmationBrowser
+"
+)
+    
 address_space_overrides_ports
 =
 [
