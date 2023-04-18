@@ -754,11 +754,6 @@ provider
 )
 ;
 }
-var
-lib
-=
-this
-;
 function
 UrlClassifierLib
 (
@@ -768,7 +763,11 @@ this
 .
 wrappedJSObject
 =
-lib
+{
+RequestBackoff
+RequestBackoffV4
+BindToObject
+}
 ;
 }
 UrlClassifierLib
