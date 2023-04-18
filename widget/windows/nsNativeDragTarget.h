@@ -257,8 +257,10 @@ nsIWidget
 *
 mWidget
 ;
+nsCOMPtr
+<
 nsIDragService
-*
+>
 mDragService
 ;
 IDropTargetHelper
