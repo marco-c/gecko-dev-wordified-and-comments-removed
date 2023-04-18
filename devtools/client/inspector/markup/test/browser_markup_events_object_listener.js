@@ -63,9 +63,6 @@ attributes
 "
 Bubbling
 "
-"
-DOM2
-"
 ]
 handler
 :
@@ -130,9 +127,6 @@ attributes
 [
 "
 Bubbling
-"
-"
-DOM2
 "
 ]
 handler
