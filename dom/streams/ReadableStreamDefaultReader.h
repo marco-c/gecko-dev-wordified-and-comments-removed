@@ -96,8 +96,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -455,7 +455,6 @@ ErrorResult
 aRv
 )
 ;
-}
 }
 #
 endif

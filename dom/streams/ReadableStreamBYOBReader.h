@@ -100,8 +100,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -111,11 +111,10 @@ class
 ReadableStream
 ;
 }
-}
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -389,7 +388,6 @@ ErrorResult
 aRv
 )
 ;
-}
 }
 #
 endif

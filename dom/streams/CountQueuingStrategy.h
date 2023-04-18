@@ -87,8 +87,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -187,7 +187,6 @@ aRv
 ;
 }
 ;
-}
 }
 #
 endif

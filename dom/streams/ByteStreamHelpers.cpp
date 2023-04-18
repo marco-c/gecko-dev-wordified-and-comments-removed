@@ -49,8 +49,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -386,6 +386,5 @@ nullptr
 return
 array
 ;
-}
 }
 }

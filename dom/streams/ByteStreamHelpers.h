@@ -24,8 +24,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -77,10 +77,9 @@ JS
 :
 :
 HandleObject
-O
+aObject
 )
 ;
-}
 }
 #
 endif

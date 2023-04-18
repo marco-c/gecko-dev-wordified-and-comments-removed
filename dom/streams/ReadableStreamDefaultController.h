@@ -161,8 +161,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -859,7 +859,6 @@ ReadableStreamDefaultController
 aController
 )
 ;
-}
 }
 #
 endif
