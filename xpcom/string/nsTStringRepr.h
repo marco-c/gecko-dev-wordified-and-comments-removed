@@ -294,7 +294,13 @@ aLength
 :
 mLength
 (
+static_cast
+<
+uint32_t
+>
+(
 aLength
+)
 )
 {
 MOZ_RELEASE_ASSERT
@@ -338,7 +344,13 @@ large
 ;
 mLength
 =
+static_cast
+<
+uint32_t
+>
+(
 aLength
+)
 ;
 return
 *
