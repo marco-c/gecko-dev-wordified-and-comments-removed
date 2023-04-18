@@ -6611,7 +6611,6 @@ aWidget
 >
 DispatchWindowEvent
 (
-&
 appCommandEvent
 )
 ;

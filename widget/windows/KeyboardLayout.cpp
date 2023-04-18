@@ -9868,7 +9868,6 @@ mWidget
 >
 DispatchWindowEvent
 (
-&
 appCommandEvent
 )
 |
@@ -10533,7 +10532,6 @@ mWidget
 >
 DispatchWindowEvent
 (
-&
 contentCommandEvent
 )
 ;

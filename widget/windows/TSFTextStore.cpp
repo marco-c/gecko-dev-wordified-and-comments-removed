@@ -10919,7 +10919,6 @@ mWidget
 >
 DispatchWindowEvent
 (
-&
 aEvent
 )
 ;

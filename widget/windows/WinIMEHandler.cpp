@@ -4588,7 +4588,6 @@ aWindow
 >
 DispatchWindowEvent
 (
-&
 queryCaretRectEvent
 )
 ;
