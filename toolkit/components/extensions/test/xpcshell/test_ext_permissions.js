@@ -3551,6 +3551,9 @@ PermissionNoPrompt
 "
 OptionalPermissionNoPrompt
 "
+"
+PermissionPrivileged
+"
 ]
 )
 ;

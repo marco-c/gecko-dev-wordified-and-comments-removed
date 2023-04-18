@@ -268,7 +268,7 @@ extend
 "
 :
 "
-PermissionNoPrompt
+PermissionPrivileged
 "
 "
 choices

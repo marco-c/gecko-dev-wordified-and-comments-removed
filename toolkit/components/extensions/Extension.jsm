@@ -715,6 +715,9 @@ PermissionNoPrompt
 "
 OptionalPermissionNoPrompt
 "
+"
+PermissionPrivileged
+"
 ]
 )
 )
