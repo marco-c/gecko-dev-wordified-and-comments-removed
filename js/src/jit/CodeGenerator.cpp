@@ -60409,7 +60409,7 @@ ToTempUnboxRegister
 lir
 -
 >
-temp1
+temp0
 (
 )
 )
@@ -60420,15 +60420,7 @@ branchTestObjectEmulatesUndefined
 objreg
 nullOrLikeUndefined
 notNullOrLikeUndefined
-ToRegister
-(
-lir
--
->
-temp0
-(
-)
-)
+output
 ool
 )
 ;

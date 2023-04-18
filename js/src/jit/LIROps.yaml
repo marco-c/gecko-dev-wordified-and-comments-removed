@@ -2571,7 +2571,7 @@ value
 BoxedValue
 num_temps
 :
-2
+1
 mir_op
 :
 Compare
