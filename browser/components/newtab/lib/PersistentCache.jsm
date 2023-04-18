@@ -198,10 +198,11 @@ error
 if
 (
 !
+DOMException
+.
+isInstance
 (
 error
-instanceof
-DOMException
 )
 |
 |

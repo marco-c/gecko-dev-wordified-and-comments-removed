@@ -289,9 +289,12 @@ ex
 {
 if
 (
-ex
-instanceof
 DOMException
+.
+isInstance
+(
+ex
+)
 &
 &
 ex
