@@ -1,6 +1,6 @@
 const
 {
-PREFS_GUID
+getPrefsGUIDForTest
 }
 =
 ChromeUtils
@@ -22,6 +22,13 @@ prefs
 .
 js
 "
+)
+;
+const
+PREFS_GUID
+=
+getPrefsGUIDForTest
+(
 )
 ;
 const

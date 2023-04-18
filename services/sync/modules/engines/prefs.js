@@ -9,7 +9,7 @@ PrefsEngine
 PrefRec
 "
 "
-PREFS_GUID
+getPrefsGUIDForTest
 "
 ]
 ;
@@ -2022,3 +2022,12 @@ break
 }
 }
 ;
+function
+getPrefsGUIDForTest
+(
+)
+{
+return
+PREFS_GUID
+;
+}
