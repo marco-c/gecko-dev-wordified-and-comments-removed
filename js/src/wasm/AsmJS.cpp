@@ -39153,7 +39153,11 @@ const
 AsmJSMetadata
 &
 metadata
-MutableHandleWasmInstanceObject
+MutableHandle
+<
+WasmInstanceObject
+*
+>
 instanceObj
 MutableHandleObject
 exportObj
@@ -39868,7 +39872,11 @@ asAsmJS
 (
 )
 ;
-RootedWasmInstanceObject
+Rooted
+<
+WasmInstanceObject
+*
+>
 instanceObj
 (
 cx

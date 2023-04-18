@@ -2567,7 +2567,11 @@ Unwind
 True
 )
 ;
-RootedWasmInstanceObject
+Rooted
+<
+WasmInstanceObject
+*
+>
 keepAlive
 (
 cx

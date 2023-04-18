@@ -50,7 +50,11 @@ registerInstance
 JSContext
 *
 cx
-HandleWasmInstanceObject
+Handle
+<
+WasmInstanceObject
+*
+>
 instanceObj
 )
 ;

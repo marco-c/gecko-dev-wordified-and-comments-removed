@@ -1470,7 +1470,11 @@ return
 false
 ;
 }
-RootedWasmInstanceObject
+Rooted
+<
+WasmInstanceObject
+*
+>
 instanceObj
 (
 cx

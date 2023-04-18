@@ -48440,7 +48440,11 @@ TypedArrayObject
 )
 )
 ;
-RootedWasmInstanceObject
+Rooted
+<
+WasmInstanceObject
+*
+>
 instanceObj
 (
 cx

@@ -1194,7 +1194,11 @@ moduleLen
 =
 8
 ;
-RootedWasmInstanceObject
+Rooted
+<
+WasmInstanceObject
+*
+>
 instanceObj
 (
 gCx
