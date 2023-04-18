@@ -7896,10 +7896,6 @@ gfx
 UnscaledFont
 >
 mUnscaledFont
-GUARDED_BY
-(
-mLock
-)
 ;
 mozilla
 :
