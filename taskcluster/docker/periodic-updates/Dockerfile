@@ -1,10 +1,10 @@
 FROM
 DOCKER_IMAGE_PARENT
 MAINTAINER
-Simon
-Fraser
+Julien
+Cristau
 <
-sfraser
+jcristau
 mozilla
 .
 com

@@ -105,8 +105,6 @@ libxt6
 \
 libxtst6
 \
-python
-\
 shellcheck
 \
 unzip
