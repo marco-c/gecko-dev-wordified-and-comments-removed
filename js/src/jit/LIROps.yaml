@@ -2873,7 +2873,7 @@ input
 BoxedValue
 num_temps
 :
-3
+2
 mir_op
 :
 Not

@@ -24511,9 +24511,6 @@ tempDouble
 temp
 (
 )
-temp
-(
-)
 )
 ;
 define
