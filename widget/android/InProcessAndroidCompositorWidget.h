@@ -83,14 +83,14 @@ return
 this
 ;
 }
+private
+:
 void
 OnCompositorSurfaceChanged
 (
 )
 override
 ;
-private
-:
 nsWindow
 *
 mWindow

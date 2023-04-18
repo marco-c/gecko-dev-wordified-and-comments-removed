@@ -72,6 +72,13 @@ view
 .
 Surface
 ;
+import
+android
+.
+view
+.
+SurfaceControl
+;
 interface
 ICompositorSurfaceManager
 {
@@ -83,6 +90,9 @@ widgetId
 in
 Surface
 surface
+in
+SurfaceControl
+surfaceControl
 )
 ;
 }

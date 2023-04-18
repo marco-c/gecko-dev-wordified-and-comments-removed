@@ -22,6 +22,13 @@ view
 Surface
 ;
 import
+android
+.
+view
+.
+SurfaceControl
+;
+import
 org
 .
 mozilla
@@ -83,6 +90,9 @@ widgetId
 final
 Surface
 surface
+final
+SurfaceControl
+surfaceControl
 )
 throws
 RemoteException
@@ -93,6 +103,7 @@ onSurfaceChanged
 (
 widgetId
 surface
+surfaceControl
 )
 ;
 }

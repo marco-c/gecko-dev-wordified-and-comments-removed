@@ -96,14 +96,14 @@ GetVsyncObserver
 const
 override
 ;
+private
+:
 void
 OnCompositorSurfaceChanged
 (
 )
 override
 ;
-private
-:
 RefPtr
 <
 VsyncObserver
