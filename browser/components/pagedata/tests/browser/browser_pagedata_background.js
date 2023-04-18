@@ -266,7 +266,6 @@ returned
 the
 right
 data
-data
 "
 )
 ;
