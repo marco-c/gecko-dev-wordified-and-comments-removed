@@ -3640,6 +3640,10 @@ GPUParent
 :
 RecvTestTriggerMetrics
 (
+TestTriggerMetricsResolver
+&
+&
+aResolve
 )
 {
 mozilla
@@ -3656,6 +3660,11 @@ a_counter
 Add
 (
 45326
+)
+;
+aResolve
+(
+true
 )
 ;
 return

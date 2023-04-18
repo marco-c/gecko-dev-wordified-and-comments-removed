@@ -648,6 +648,10 @@ ipc
 IPCResult
 RecvTestTriggerMetrics
 (
+TestTriggerMetricsResolver
+&
+&
+aResolve
 )
 ;
 mozilla

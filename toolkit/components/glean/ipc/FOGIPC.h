@@ -133,13 +133,10 @@ FlushAndUseFOGData
 )
 ;
 void
-TestTriggerGPUMetrics
+TestTriggerMetrics
 (
-)
-;
-void
-TestTriggerRDDMetrics
-(
+uint32_t
+processType
 const
 RefPtr
 <
