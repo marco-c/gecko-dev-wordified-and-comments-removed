@@ -1,17 +1,5 @@
-import
-pktPanelMessaging
-from
-"
-.
-.
-/
-messages
-.
-js
-"
-;
 var
-SavedOverlay
+PKT_PANEL_OVERLAY
 =
 function
 (
@@ -2610,7 +2598,7 @@ function
 (
 )
 {
-pktPanelMessaging
+thePKT_PANEL
 .
 clickHelper
 (
@@ -3307,7 +3295,7 @@ renderedRecs
 )
 )
 ;
-pktPanelMessaging
+thePKT_PANEL
 .
 clickHelper
 (
@@ -3637,7 +3625,7 @@ pkt_ext_container_finalerrorstate
 ;
 }
 ;
-SavedOverlay
+PKT_PANEL_OVERLAY
 .
 prototype
 =
@@ -4214,8 +4202,4 @@ PKT_show_saved
 ;
 }
 }
-;
-export
-default
-SavedOverlay
 ;
