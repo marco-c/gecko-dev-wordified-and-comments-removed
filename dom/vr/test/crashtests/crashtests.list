@@ -4,6 +4,15 @@ dom
 .
 vr
 .
+enabled
+true
+)
+pref
+(
+dom
+.
+vr
+.
 always_support_vr
 true
 )

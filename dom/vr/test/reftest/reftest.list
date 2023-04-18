@@ -27,6 +27,15 @@ dom
 .
 vr
 .
+enabled
+true
+)
+pref
+(
+dom
+.
+vr
+.
 puppet
 .
 enabled
