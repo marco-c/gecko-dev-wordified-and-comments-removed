@@ -408,6 +408,7 @@ el
 =
 this
 .
+#
 getSummaryElementByOrdinal
 (
 newFocusOrdinal
@@ -625,6 +626,7 @@ data
 ;
 }
 }
+#
 getSummaryElementByOrdinal
 (
 ordinal
