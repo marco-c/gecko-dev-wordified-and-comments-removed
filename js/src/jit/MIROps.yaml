@@ -9152,13 +9152,6 @@ false
 -
 name
 :
-WasmLoadTableElement
-gen_boilerplate
-:
-false
--
-name
-:
 WasmStoreGlobalVar
 gen_boilerplate
 :
@@ -9181,13 +9174,6 @@ false
 name
 :
 WasmDerivedPointer
-gen_boilerplate
-:
-false
--
-name
-:
-WasmDerivedIndexPointer
 gen_boilerplate
 :
 false
