@@ -222,6 +222,15 @@ include
 "
 libwebrtcglue
 /
+WebrtcCallWrapper
+.
+h
+"
+#
+include
+"
+libwebrtcglue
+/
 WebrtcGmpVideoCodec
 .
 h
@@ -842,6 +851,9 @@ aSendTrack
 WebrtcCallWrapper
 *
 aCallWrapper
+RTCStatsIdGenerator
+*
+aIdGenerator
 )
 :
 mWindow
@@ -1021,6 +1033,7 @@ mCallWrapper
 mCallThread
 aStsThread
 mConduit
+aIdGenerator
 this
 )
 ;

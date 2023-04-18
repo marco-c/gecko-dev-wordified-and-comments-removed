@@ -88,6 +88,9 @@ DataChannel
 class
 PeerIdentity
 ;
+class
+RTCStatsIdGenerator
+;
 namespace
 dom
 {
@@ -305,6 +308,9 @@ aSendTrack
 SharedWebrtcState
 *
 aSharedWebrtcState
+RTCStatsIdGenerator
+*
+aIdGenerator
 RefPtr
 <
 TransceiverImpl

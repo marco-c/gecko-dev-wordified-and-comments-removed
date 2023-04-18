@@ -3621,6 +3621,9 @@ aSendTrack
 SharedWebrtcState
 *
 aSharedWebrtcState
+RTCStatsIdGenerator
+*
+aIdGenerator
 RefPtr
 <
 TransceiverImpl
@@ -3718,6 +3721,7 @@ mCall
 get
 (
 )
+aIdGenerator
 )
 ;
 if

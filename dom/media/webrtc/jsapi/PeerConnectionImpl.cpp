@@ -5147,6 +5147,7 @@ ctx
 GetSharedWebrtcState
 (
 )
+mIdGenerator
 &
 transceiverImpl
 )
