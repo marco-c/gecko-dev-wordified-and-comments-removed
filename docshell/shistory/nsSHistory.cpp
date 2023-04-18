@@ -6325,6 +6325,7 @@ AllowedInBFCache
 Nothing
 (
 )
+nullptr
 )
 ;
 MOZ_LOG

@@ -3318,6 +3318,7 @@ aTopBC
 AllowedInBFCache
 (
 aChannelId
+aChannelCreationURI
 )
 ;
 if
