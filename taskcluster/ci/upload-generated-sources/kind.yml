@@ -198,6 +198,14 @@ reference
 :
 "
 python
+-
+-
+virtualenv
+upload
+-
+generated
+-
+sources
 build
 /
 upload_generated_sources
