@@ -615,9 +615,9 @@ WillDestroyFrameTree
 bool
 DestroyFramesFor
 (
-Element
+nsIContent
 *
-aElement
+aContent
 )
 ;
 nsIFrame

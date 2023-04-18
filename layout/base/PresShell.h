@@ -1343,6 +1343,14 @@ aElement
 )
 ;
 void
+ShadowRootWillBeAttached
+(
+Element
+&
+aElement
+)
+;
+void
 SlotAssignmentWillChange
 (
 Element
