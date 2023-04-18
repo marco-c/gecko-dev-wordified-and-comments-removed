@@ -9,10 +9,10 @@ cairocffi
 fonttools
 =
 =
-3
+4
 .
-13
+31
 .
-1
+2
 pyyaml
 genshi
