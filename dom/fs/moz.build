@@ -26,6 +26,11 @@ FileSystemHandle
 .
 h
 "
+"
+FileSystemSyncAccessHandle
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -48,6 +53,11 @@ cpp
 "
 "
 FileSystemHandle
+.
+cpp
+"
+"
+FileSystemSyncAccessHandle
 .
 cpp
 "

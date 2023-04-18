@@ -3597,6 +3597,11 @@ FileSystemHandle
 webidl
 "
 "
+FileSystemSyncAccessHandle
+.
+webidl
+"
+"
 FinalizationRegistry
 .
 webidl
