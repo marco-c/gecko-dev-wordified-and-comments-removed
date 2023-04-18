@@ -4,11 +4,11 @@ import
 absolute_import
 division
 from
-packaging
+distutils
 .
 version
 import
-Version
+LooseVersion
 import
 json
 import
@@ -93,7 +93,7 @@ BaseScript
 class
 CompareVersion
 (
-Version
+LooseVersion
 )
 :
     
@@ -227,7 +227,7 @@ join
 parts
 )
         
-Version
+LooseVersion
 (
 versionMap
 )
@@ -3970,14 +3970,14 @@ win64
 "
 )
 or
-Version
+LooseVersion
 (
                 
 fromVersion
             
 )
 <
-Version
+LooseVersion
 (
 "
 42
