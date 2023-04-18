@@ -99,11 +99,6 @@ RemoteLazyInputStreamThread
 .
 h
 "
-"
-RemoteLazyInputStreamUtils
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
@@ -146,11 +141,6 @@ cpp
 "
 "
 RemoteLazyInputStreamThread
-.
-cpp
-"
-"
-RemoteLazyInputStreamUtils
 .
 cpp
 "

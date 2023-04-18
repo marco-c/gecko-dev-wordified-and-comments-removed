@@ -25,10 +25,6 @@ PRemotePrintJob
 ;
 include
 protocol
-PRemoteLazyInputStream
-;
-include
-protocol
 PPaymentRequest
 ;
 include
