@@ -40,16 +40,6 @@ avutil
 h
 "
 #
-include
-"
-version
-.
-h
-"
-#
-if
-FF_API_DECLARE_ALIGNED
-#
 if
 defined
 (
@@ -369,8 +359,6 @@ static
 const
 t
 v
-#
-endif
 #
 endif
 #

@@ -15,6 +15,15 @@ h
 >
 #
 include
+<
+va
+/
+va_dec_vp9
+.
+h
+>
+#
+include
 "
 libavutil
 /

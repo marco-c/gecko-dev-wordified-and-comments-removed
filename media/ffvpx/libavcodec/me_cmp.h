@@ -205,6 +205,12 @@ median_sad
 }
 MECmpContext
 ;
+int
+ff_check_alignment
+(
+void
+)
+;
 void
 ff_me_cmp_init
 (

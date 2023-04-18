@@ -12,15 +12,6 @@ include
 "
 libavutil
 /
-mem_internal
-.
-h
-"
-#
-include
-"
-libavutil
-/
 x86
 /
 asm
