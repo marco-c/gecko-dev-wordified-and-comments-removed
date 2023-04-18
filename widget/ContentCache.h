@@ -140,7 +140,10 @@ default
 ;
 protected
 :
+Maybe
+<
 nsString
+>
 mText
 ;
 Maybe
@@ -882,6 +885,13 @@ mSelection
 mHasRange
 &
 &
+mText
+.
+isSome
+(
+)
+&
+&
 mSelection
 -
 >
@@ -891,7 +901,8 @@ EndOffset
 <
 =
 mText
-.
+-
+>
 Length
 (
 )
