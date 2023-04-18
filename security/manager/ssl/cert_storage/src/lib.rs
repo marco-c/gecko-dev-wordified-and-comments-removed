@@ -7471,7 +7471,6 @@ return
 ;
 }
 let
-mut
 stash_file
 =
 match
@@ -7519,6 +7518,18 @@ return
 ;
 let
 mut
+stash_reader
+=
+BufReader
+:
+:
+new
+(
+stash_file
+)
+;
+let
+mut
 crlite_stash
 =
 HashMap
@@ -7533,7 +7544,7 @@ load_crlite_stash_from_reader_into_map
 (
 &
 mut
-stash_file
+stash_reader
 &
 mut
 crlite_stash
