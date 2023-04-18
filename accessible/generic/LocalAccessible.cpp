@@ -18117,6 +18117,10 @@ StaticPrefs
 accessibility_cache_enabled_AtStartup
 (
 )
+|
+|
+!
+mOldComputedStyle
 )
 {
 return

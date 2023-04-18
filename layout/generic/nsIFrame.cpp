@@ -5925,6 +5925,11 @@ ifdef
 ACCESSIBILITY
 if
 (
+aOldComputedStyle
+)
+{
+if
+(
 nsAccessibilityService
 *
 accService
@@ -5945,6 +5950,7 @@ PresShell
 mContent
 )
 ;
+}
 }
 #
 endif
