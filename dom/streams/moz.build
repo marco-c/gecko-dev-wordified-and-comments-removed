@@ -28,6 +28,11 @@ dom
 =
 [
 "
+BaseQueuingStrategy
+.
+h
+"
+"
 ByteStreamHelpers
 .
 h
