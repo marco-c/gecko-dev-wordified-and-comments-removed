@@ -3060,7 +3060,7 @@ client
 .
 attachments
 .
-downloadToDisk
+download
 (
 filter
 )

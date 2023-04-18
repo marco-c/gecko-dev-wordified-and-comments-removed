@@ -1547,7 +1547,7 @@ newtab
 await
 downloader
 .
-downloadToDisk
+download
 (
 record
 .
