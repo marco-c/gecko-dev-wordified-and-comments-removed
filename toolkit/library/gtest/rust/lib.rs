@@ -13,7 +13,11 @@ cfg
 feature
 =
 "
-libfuzzer
+gecko
+-
+fuzz
+-
+targets
 "
 )
 ]
