@@ -468,6 +468,12 @@ expected
 )
 ;
 }
+widget
+.
+destroy
+(
+)
+;
 }
 )
 ;

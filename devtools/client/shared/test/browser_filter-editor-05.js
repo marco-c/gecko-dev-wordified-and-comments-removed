@@ -690,6 +690,12 @@ value
 "
 )
 ;
+widget
+.
+destroy
+(
+)
+;
 }
 )
 ;

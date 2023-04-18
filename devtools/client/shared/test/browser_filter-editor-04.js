@@ -565,6 +565,12 @@ _mouseUp
 (
 )
 ;
+widget
+.
+destroy
+(
+)
+;
 }
 )
 ;

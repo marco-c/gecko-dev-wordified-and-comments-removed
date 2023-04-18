@@ -513,6 +513,12 @@ INVERT_MIN
 "
 )
 ;
+widget
+.
+destroy
+(
+)
+;
 }
 )
 ;

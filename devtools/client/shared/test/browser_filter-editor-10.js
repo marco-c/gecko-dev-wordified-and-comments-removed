@@ -360,6 +360,12 @@ number
 "
 )
 ;
+widget
+.
+destroy
+(
+)
+;
 triggerKey
 =
 null

@@ -573,6 +573,12 @@ correctly
 "
 )
 ;
+widget
+.
+destroy
+(
+)
+;
 triggerKey
 =
 null

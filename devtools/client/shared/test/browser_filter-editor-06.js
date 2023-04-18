@@ -401,6 +401,12 @@ filters
 ;
 }
 }
+widget
+.
+destroy
+(
+)
+;
 }
 )
 ;

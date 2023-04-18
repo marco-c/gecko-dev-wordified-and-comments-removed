@@ -1130,6 +1130,12 @@ urls
 "
 )
 ;
+widget
+.
+destroy
+(
+)
+;
 }
 )
 ;
