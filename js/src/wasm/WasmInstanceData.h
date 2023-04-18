@@ -1,9 +1,9 @@
 #
 ifndef
-wasm_tls_data_h
+wasm_instance_data_h
 #
 define
-wasm_tls_data_h
+wasm_instance_data_h
 #
 include
 <

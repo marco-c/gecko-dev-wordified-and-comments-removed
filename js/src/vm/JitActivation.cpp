@@ -139,7 +139,7 @@ include
 "
 wasm
 /
-WasmProcess
+WasmInstanceData
 .
 h
 "
@@ -148,7 +148,7 @@ include
 "
 wasm
 /
-WasmTlsData
+WasmProcess
 .
 h
 "

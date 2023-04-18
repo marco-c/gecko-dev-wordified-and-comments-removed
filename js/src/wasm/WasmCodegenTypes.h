@@ -70,7 +70,7 @@ include
 "
 wasm
 /
-WasmSerialize
+WasmInstanceData
 .
 h
 "
@@ -79,7 +79,7 @@ include
 "
 wasm
 /
-WasmTlsData
+WasmSerialize
 .
 h
 "

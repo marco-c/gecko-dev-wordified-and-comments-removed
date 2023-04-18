@@ -145,7 +145,7 @@ include
 "
 wasm
 /
-WasmJS
+WasmInstanceData
 .
 h
 "
@@ -154,7 +154,7 @@ include
 "
 wasm
 /
-WasmTlsData
+WasmJS
 .
 h
 "
