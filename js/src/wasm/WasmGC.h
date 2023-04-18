@@ -1807,7 +1807,7 @@ MacroAssembler
 &
 masm
 Register
-tls
+instance
 Register
 scratch
 Register
@@ -1827,7 +1827,7 @@ MacroAssembler
 &
 masm
 Register
-tls
+instance
 Register
 scratch
 Register

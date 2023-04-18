@@ -808,7 +808,7 @@ GCPtrWasmTagObject
 Instance
 :
 :
-tagTls
+tagInstanceData
 (
 const
 TagDesc
@@ -8450,7 +8450,7 @@ i
 ]
 -
 >
-tlsElements
+instanceElements
 (
 )
 ;
@@ -8514,7 +8514,7 @@ i
 nullptr
 )
 ;
-tagTls
+tagInstanceData
 (
 td
 )
@@ -10017,7 +10017,7 @@ TraceNullableEdge
 (
 trc
 &
-tagTls
+tagInstanceData
 (
 tag
 )
@@ -13297,7 +13297,7 @@ i
 ]
 -
 >
-tlsElements
+instanceElements
 (
 )
 ;

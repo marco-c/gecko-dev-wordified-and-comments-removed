@@ -578,7 +578,7 @@ jit
 ShadowStackSpace
 "
 Callee
-tls
+instance
 stored
 right
 above
@@ -614,13 +614,13 @@ void
 )
 "
 Caller
-tls
+instance
 stored
 right
 above
 the
 callee
-tls
+instance
 .
 "
 )
