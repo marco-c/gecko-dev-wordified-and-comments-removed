@@ -1318,9 +1318,12 @@ mOffscreenCanvas
 )
 return
 ;
-mCapturedFrameInvalidated
+mFrameCaptureState
 =
-true
+FrameCaptureState
+:
+:
+DIRTY
 ;
 if
 (
