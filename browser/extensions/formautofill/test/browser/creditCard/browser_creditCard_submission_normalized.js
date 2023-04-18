@@ -152,7 +152,7 @@ browser
 let
 promiseShown
 =
-waitForPopupShown
+promiseNotificationShown
 (
 )
 ;
@@ -502,7 +502,7 @@ browser
 let
 promiseShown
 =
-waitForPopupShown
+promiseNotificationShown
 (
 )
 ;
