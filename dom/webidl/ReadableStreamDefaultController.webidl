@@ -6,6 +6,17 @@ Window
 Worker
 Worklet
 )
+Pref
+=
+"
+dom
+.
+streams
+.
+expose
+.
+ReadableStreamDefaultController
+"
 ]
 interface
 ReadableStreamDefaultController

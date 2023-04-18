@@ -50,6 +50,17 @@ Window
 Worker
 Worklet
 )
+Pref
+=
+"
+dom
+.
+streams
+.
+expose
+.
+ReadableStreamDefaultReader
+"
 ]
 interface
 ReadableStreamDefaultReader
