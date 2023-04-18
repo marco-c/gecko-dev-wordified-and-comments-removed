@@ -3461,6 +3461,10 @@ mAsyncStream
 nullptr
 ;
 }
+ClearProgressEventTimer
+(
+)
+;
 FreeFileData
 (
 )
