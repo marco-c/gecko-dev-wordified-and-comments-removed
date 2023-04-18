@@ -771,6 +771,12 @@ _retval
 )
 override
 ;
+NS_IMETHOD
+CrashGPUProcessForTests
+(
+)
+override
+;
 int64_t
 mScreenPixels
 ;

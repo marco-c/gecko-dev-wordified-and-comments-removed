@@ -1298,6 +1298,10 @@ intent
 )
 )
 ;
+stopSelf
+(
+)
+;
 return
 Service
 .

@@ -256,6 +256,11 @@ KillProcess
 (
 )
 ;
+void
+CrashProcess
+(
+)
+;
 #
 ifdef
 MOZ_WIDGET_ANDROID

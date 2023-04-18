@@ -701,6 +701,11 @@ KillProcess
 (
 )
 ;
+void
+CrashProcess
+(
+)
+;
 base
 :
 :

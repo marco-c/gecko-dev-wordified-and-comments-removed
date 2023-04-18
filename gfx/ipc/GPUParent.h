@@ -650,6 +650,17 @@ RecvTestTriggerMetrics
 (
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvCrashProcess
+(
+)
+;
 void
 ActorDestroy
 (

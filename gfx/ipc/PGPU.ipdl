@@ -615,6 +615,11 @@ TestTriggerMetrics
 (
 )
 ;
+async
+CrashProcess
+(
+)
+;
 child
 :
 async
