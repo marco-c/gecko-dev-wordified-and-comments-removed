@@ -61,10 +61,6 @@ protocol
 PBackground
 ;
 include
-protocol
-PFileDescriptorSet
-;
-include
 IPCStream
 ;
 using

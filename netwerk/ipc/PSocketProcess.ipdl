@@ -24,10 +24,6 @@ PHttpConnectionMgr
 ;
 include
 protocol
-PFileDescriptorSet
-;
-include
-protocol
 PInputChannelThrottleQueue
 ;
 include
@@ -538,9 +534,6 @@ PDNSRequest
 ;
 manages
 PWebrtcTCPSocket
-;
-manages
-PFileDescriptorSet
 ;
 manages
 PHttpTransaction
@@ -1101,13 +1094,6 @@ UnblockUntrustedModulesThread
 endif
 both
 :
-async
-PFileDescriptorSet
-(
-FileDescriptor
-fd
-)
-;
 async
 PDNSRequest
 (

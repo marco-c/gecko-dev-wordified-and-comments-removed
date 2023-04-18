@@ -25,10 +25,6 @@ PRemotePrintJob
 ;
 include
 protocol
-PFileDescriptorSet
-;
-include
-protocol
 PRemoteLazyInputStream
 ;
 include

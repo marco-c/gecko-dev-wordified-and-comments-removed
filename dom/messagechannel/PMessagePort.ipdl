@@ -62,16 +62,6 @@ PBackground
 ;
 include
 protocol
-PFileDescriptorSet
-;
-/
-/
-FIXME
-:
-bug
-792908
-include
-protocol
 PRemoteLazyInputStream
 ;
 /
