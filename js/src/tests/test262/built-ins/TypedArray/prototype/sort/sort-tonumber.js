@@ -26,15 +26,6 @@ called
 =
 false
 ;
-assert
-.
-throws
-(
-TypeError
-function
-(
-)
-{
 ta
 .
 sort
@@ -66,9 +57,6 @@ true
 ;
 }
 }
-;
-}
-)
 ;
 }
 )

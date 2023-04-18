@@ -6,7 +6,6 @@ length
 [
 ]
 ;
-;
 reportCompare
 (
 0

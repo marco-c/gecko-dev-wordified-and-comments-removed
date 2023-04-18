@@ -1,0 +1,13 @@
+class
+_
+{
+#
+;
+}
+;
+reportCompare
+(
+0
+0
+)
+;

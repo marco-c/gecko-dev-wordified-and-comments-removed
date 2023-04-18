@@ -1,0 +1,13 @@
+DONOTEVALUATE
+(
+)
+;
+/
+\
+p
+{
+RGI_Emoji
+}
+/
+u
+;

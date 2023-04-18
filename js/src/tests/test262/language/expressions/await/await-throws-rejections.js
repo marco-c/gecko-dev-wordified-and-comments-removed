@@ -50,9 +50,13 @@ caught
 )
 ;
 }
-reportCompare
+foo
 (
-0
-0
+)
+.
+then
+(
+DONE
+DONE
 )
 ;

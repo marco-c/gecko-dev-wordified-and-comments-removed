@@ -1,0 +1,9 @@
+throw
+new
+Error
+(
+'
+foobar
+'
+)
+;

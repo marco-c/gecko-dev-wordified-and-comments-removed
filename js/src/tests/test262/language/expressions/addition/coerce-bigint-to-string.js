@@ -1,16 +1,3 @@
-function
-ToString
-(
-x
-)
-{
-return
-x
-+
-"
-"
-;
-}
 assert
 .
 sameValue

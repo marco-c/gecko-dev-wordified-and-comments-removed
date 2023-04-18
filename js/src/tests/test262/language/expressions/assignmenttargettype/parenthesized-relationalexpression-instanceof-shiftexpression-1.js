@@ -2,11 +2,6 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 (
 1
 instanceof
@@ -15,4 +10,3 @@ instanceof
 =
 1
 ;
-}

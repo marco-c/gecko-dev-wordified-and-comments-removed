@@ -1,5 +1,5 @@
 assert
-(
+.
 compareArray
 (
 [
@@ -9,11 +9,19 @@ NaN
 NaN
 ]
 )
-)
 ;
 assert
+.
+throws
 (
-!
+Test262Error
+(
+)
+=
+>
+{
+assert
+.
 compareArray
 (
 [
@@ -24,6 +32,8 @@ compareArray
 0
 ]
 )
+;
+}
 )
 ;
 reportCompare

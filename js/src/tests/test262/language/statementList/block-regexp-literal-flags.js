@@ -5,7 +5,6 @@
 /
 g
 ;
-;
 reportCompare
 (
 0

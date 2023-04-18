@@ -12,7 +12,6 @@ return
 ;
 }
 ;
-;
 reportCompare
 (
 0

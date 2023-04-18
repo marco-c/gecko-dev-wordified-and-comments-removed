@@ -2,7 +2,6 @@
 }
 {
 }
-;
 reportCompare
 (
 0

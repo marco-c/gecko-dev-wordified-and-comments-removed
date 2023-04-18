@@ -20,6 +20,21 @@ function
 "
 )
 ;
+const
+arg
+=
+new
+Temporal
+.
+Duration
+(
+0
+0
+0
+0
+5
+)
+;
 assert
 .
 throws
@@ -34,6 +49,7 @@ add
 call
 (
 undefined
+arg
 )
 "
 undefined
@@ -54,6 +70,7 @@ add
 call
 (
 null
+arg
 )
 "
 null
@@ -74,6 +91,7 @@ add
 call
 (
 true
+arg
 )
 "
 true
@@ -95,6 +113,7 @@ call
 (
 "
 "
+arg
 )
 "
 empty
@@ -118,6 +137,7 @@ call
 Symbol
 (
 )
+arg
 )
 "
 symbol
@@ -138,6 +158,7 @@ add
 call
 (
 1
+arg
 )
 "
 1
@@ -159,6 +180,7 @@ call
 (
 {
 }
+arg
 )
 "
 plain
@@ -182,6 +204,7 @@ call
 Temporal
 .
 Instant
+arg
 )
 "
 Temporal
@@ -208,6 +231,7 @@ Temporal
 Instant
 .
 prototype
+arg
 )
 "
 Temporal

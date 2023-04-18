@@ -7,7 +7,6 @@ length
 42
 ]
 ;
-;
 reportCompare
 (
 0

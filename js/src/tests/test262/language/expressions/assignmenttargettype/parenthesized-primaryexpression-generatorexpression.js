@@ -2,11 +2,6 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 (
 function
 *
@@ -18,4 +13,3 @@ function
 =
 1
 ;
-}

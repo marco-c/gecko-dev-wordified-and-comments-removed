@@ -2,11 +2,6 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 (
 typeof
 1
@@ -14,4 +9,3 @@ typeof
 =
 1
 ;
-}

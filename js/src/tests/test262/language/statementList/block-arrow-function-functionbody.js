@@ -10,7 +10,6 @@ return
 ;
 }
 ;
-;
 reportCompare
 (
 0

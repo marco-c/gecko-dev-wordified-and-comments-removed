@@ -2,14 +2,8 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 void
 1
 =
 1
 ;
-}

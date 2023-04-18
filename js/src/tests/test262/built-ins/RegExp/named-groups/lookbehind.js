@@ -1,5 +1,5 @@
 assert
-(
+.
 compareArray
 (
 [
@@ -36,7 +36,6 @@ w
 f
 /
 u
-)
 )
 )
 ;
@@ -193,7 +192,7 @@ u
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -227,10 +226,9 @@ f
 u
 )
 )
-)
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -268,10 +266,9 @@ f
 u
 )
 )
-)
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -306,7 +303,6 @@ d
 f
 /
 u
-)
 )
 )
 ;
@@ -345,7 +341,7 @@ u
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -384,10 +380,9 @@ f
 u
 )
 )
-)
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -426,10 +421,9 @@ f
 u
 )
 )
-)
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -465,7 +459,6 @@ w
 )
 f
 /
-)
 )
 )
 ;
@@ -618,7 +611,7 @@ f
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -651,10 +644,9 @@ f
 /
 )
 )
-)
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -691,10 +683,9 @@ f
 /
 )
 )
-)
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -728,7 +719,6 @@ d
 )
 f
 /
-)
 )
 )
 ;
@@ -766,7 +756,7 @@ f
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -804,10 +794,9 @@ f
 /
 )
 )
-)
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -845,10 +834,9 @@ f
 /
 )
 )
-)
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -895,7 +883,6 @@ abcd
 )
 .
 groups
-)
 )
 )
 ;

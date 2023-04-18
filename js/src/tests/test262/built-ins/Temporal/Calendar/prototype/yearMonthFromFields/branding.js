@@ -20,6 +20,18 @@ function
 "
 )
 ;
+const
+arg
+=
+{
+year
+:
+2021
+month
+:
+1
+}
+;
 assert
 .
 throws
@@ -34,6 +46,7 @@ yearMonthFromFields
 call
 (
 undefined
+arg
 )
 "
 undefined
@@ -54,6 +67,7 @@ yearMonthFromFields
 call
 (
 null
+arg
 )
 "
 null
@@ -74,6 +88,7 @@ yearMonthFromFields
 call
 (
 true
+arg
 )
 "
 true
@@ -95,6 +110,7 @@ call
 (
 "
 "
+arg
 )
 "
 empty
@@ -118,6 +134,7 @@ call
 Symbol
 (
 )
+arg
 )
 "
 symbol
@@ -138,6 +155,7 @@ yearMonthFromFields
 call
 (
 1
+arg
 )
 "
 1
@@ -159,6 +177,7 @@ call
 (
 {
 }
+arg
 )
 "
 plain
@@ -182,6 +201,7 @@ call
 Temporal
 .
 Calendar
+arg
 )
 "
 Temporal
@@ -208,6 +228,7 @@ Temporal
 Calendar
 .
 prototype
+arg
 )
 "
 Temporal

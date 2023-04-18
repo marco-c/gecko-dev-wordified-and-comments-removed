@@ -4,7 +4,6 @@ C
 }
 {
 }
-;
 reportCompare
 (
 0

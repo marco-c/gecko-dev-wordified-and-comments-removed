@@ -1,9 +1,3 @@
-function
-Target
-(
-)
-{
-}
 var
 P
 =

@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+/
+[
+^
+\
+p
+{
+Basic_Emoji
+}
+]
+/
+v
+;

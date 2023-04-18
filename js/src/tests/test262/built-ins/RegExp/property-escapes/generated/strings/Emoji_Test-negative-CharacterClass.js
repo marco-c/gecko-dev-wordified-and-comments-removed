@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+/
+[
+^
+\
+p
+{
+Emoji_Test
+}
+]
+/
+v
+;
