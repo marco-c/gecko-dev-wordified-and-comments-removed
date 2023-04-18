@@ -662,6 +662,7 @@ errors
 }
 }
 pub
+const
 fn
 metadata
 (

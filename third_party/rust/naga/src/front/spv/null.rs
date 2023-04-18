@@ -17,6 +17,7 @@ Handle
 UniqueArena
 }
 ;
+const
 fn
 make_scalar_inner
 (
@@ -768,6 +769,10 @@ BuiltIn
 :
 :
 Position
+{
+.
+.
+}
 )
 =
 >

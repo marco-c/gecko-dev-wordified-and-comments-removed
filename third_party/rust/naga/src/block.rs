@@ -127,6 +127,7 @@ impl
 Block
 {
 pub
+const
 fn
 new
 (

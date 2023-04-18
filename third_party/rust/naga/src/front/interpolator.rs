@@ -105,10 +105,7 @@ ScalarKind
 :
 :
 Sint
-)
 |
-Some
-(
 crate
 :
 :

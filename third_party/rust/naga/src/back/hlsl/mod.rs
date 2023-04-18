@@ -185,6 +185,7 @@ impl
 ShaderModel
 {
 pub
+const
 fn
 to_str
 (
@@ -237,6 +238,7 @@ crate
 ShaderStage
 {
 pub
+const
 fn
 to_hlsl_str
 (
@@ -288,6 +290,7 @@ crate
 :
 ImageDimension
 {
+const
 fn
 to_hlsl_str
 (
@@ -797,6 +800,18 @@ help
 :
 WrappedConstructor
 >
+struct_matrix_access
+:
+crate
+:
+:
+FastHashSet
+<
+help
+:
+:
+WrappedStructMatrixAccess
+>
 }
 impl
 Wrapped
@@ -828,6 +843,14 @@ clear
 self
 .
 constructors
+.
+clear
+(
+)
+;
+self
+.
+struct_matrix_access
 .
 clear
 (

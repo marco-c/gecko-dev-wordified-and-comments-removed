@@ -13,6 +13,14 @@ TBD
 WGSL
 :
 -
+semicolon
+after
+struct
+declaration
+are
+now
+optional
+-
 commas
 are
 used
@@ -20,7 +28,7 @@ to
 separate
 struct
 members
-intead
+instead
 of
 semicolons
 -
@@ -59,6 +67,11 @@ findMsb
 -
 >
 firstLeadingBit
+-
+smoothStep
+-
+>
+smoothstep
 #
 #
 v0
@@ -334,7 +347,7 @@ functions
 -
 hyperbolic
 trigonometry
-functionss
+functions
 -
 validation
 is

@@ -337,6 +337,7 @@ super
 :
 ConstantInner
 {
+const
 fn
 boolean
 (
@@ -397,6 +398,7 @@ impl
 Typifier
 {
 pub
+const
 fn
 new
 (
@@ -830,6 +832,7 @@ index
 }
 }
 pub
+const
 fn
 align_up
 (

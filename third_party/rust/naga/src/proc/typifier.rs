@@ -88,6 +88,7 @@ impl
 TypeResolution
 {
 pub
+const
 fn
 handle
 (
@@ -395,6 +396,7 @@ crate
 ConstantInner
 {
 pub
+const
 fn
 resolve_type
 (

@@ -2867,6 +2867,10 @@ label
 Some
 (
 "
+(
+wgpu
+internal
+)
 clear_texture
 clear
 pass

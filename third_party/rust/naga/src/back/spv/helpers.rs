@@ -144,6 +144,7 @@ pub
 (
 super
 )
+const
 fn
 map_storage_class
 (
@@ -420,6 +421,7 @@ pub
 (
 super
 )
+const
 fn
 to_spirv_semantics_and_scope
 (

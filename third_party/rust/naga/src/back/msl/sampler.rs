@@ -119,6 +119,7 @@ impl
 Coord
 {
 pub
+const
 fn
 as_str
 (
@@ -232,6 +233,7 @@ impl
 Address
 {
 pub
+const
 fn
 as_str
 (
@@ -370,6 +372,7 @@ impl
 BorderColor
 {
 pub
+const
 fn
 as_str
 (
@@ -470,6 +473,7 @@ impl
 Filter
 {
 pub
+const
 fn
 as_str
 (
@@ -605,6 +609,7 @@ impl
 CompareFunc
 {
 pub
+const
 fn
 as_str
 (

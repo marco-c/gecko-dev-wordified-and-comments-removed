@@ -1610,6 +1610,7 @@ ty
 )
 }
 }
+const
 fn
 with_abilities
 (
@@ -5768,10 +5769,7 @@ AddressSpace
 :
 :
 Private
-)
 |
-Some
-(
 crate
 :
 :
@@ -5779,10 +5777,7 @@ AddressSpace
 :
 :
 Function
-)
 |
-Some
-(
 crate
 :
 :

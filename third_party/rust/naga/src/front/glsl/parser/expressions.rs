@@ -2841,6 +2841,7 @@ expr
 )
 }
 }
+const
 fn
 binding_power
 (

@@ -525,6 +525,7 @@ pub
 (
 crate
 )
+const
 fn
 new
 (
@@ -545,6 +546,7 @@ PhantomData
 }
 }
 pub
+const
 fn
 index
 (
@@ -638,6 +640,7 @@ new
 handle_index
 )
 }
+const
 unsafe
 fn
 from_usize_unchecked
@@ -1196,6 +1199,7 @@ T
 >
 {
 pub
+const
 fn
 new
 (
@@ -1235,6 +1239,16 @@ new
 )
 }
 }
+#
+[
+allow
+(
+clippy
+:
+:
+missing_const_for_fn
+)
+]
 pub
 fn
 into_inner

@@ -94,6 +94,7 @@ impl
 TypeLayout
 {
 pub
+const
 fn
 to_stride
 (
@@ -406,6 +407,7 @@ LayoutErrorInner
 impl
 LayoutErrorInner
 {
+const
 fn
 with
 (
@@ -455,6 +457,7 @@ clear
 ;
 }
 pub
+const
 fn
 round_up
 (

@@ -209,6 +209,7 @@ crate
 :
 AtomicFunction
 {
+const
 fn
 to_wgsl
 (

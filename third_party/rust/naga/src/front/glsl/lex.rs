@@ -450,6 +450,15 @@ TokenValue
 :
 Shared
 "
+invariant
+"
+=
+>
+TokenValue
+:
+:
+Invariant
+"
 flat
 "
 =
@@ -628,7 +637,7 @@ readonly
 TokenValue
 :
 :
-StorageAccess
+MemoryQualifier
 (
 StorageAccess
 :
@@ -643,7 +652,7 @@ writeonly
 TokenValue
 :
 :
-StorageAccess
+MemoryQualifier
 (
 StorageAccess
 :

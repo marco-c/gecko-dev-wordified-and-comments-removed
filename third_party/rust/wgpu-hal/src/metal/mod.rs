@@ -1469,7 +1469,11 @@ raw
 set_label
 (
 "
-_Signal
+(
+wgpu
+internal
+)
+Signal
 "
 )
 ;
@@ -1636,7 +1640,11 @@ command_buffer
 set_label
 (
 "
-_Present
+(
+wgpu
+internal
+)
+Present
 "
 )
 ;

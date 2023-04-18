@@ -188,6 +188,7 @@ usize
 impl
 Level
 {
+const
 fn
 next
 (
@@ -363,6 +364,7 @@ FunctionCtx
 _
 >
 {
+const
 fn
 name_key
 (
@@ -444,6 +446,7 @@ local
 )
 }
 }
+const
 fn
 argument_key
 (
@@ -772,6 +775,7 @@ crate
 :
 Expression
 {
+const
 fn
 bake_ref_count
 (
@@ -874,6 +878,7 @@ _
 }
 }
 }
+const
 fn
 binary_operation_str
 (
@@ -1074,6 +1079,7 @@ ShiftRight
 "
 }
 }
+const
 fn
 vector_size_str
 (
@@ -1138,6 +1144,7 @@ crate
 :
 TypeInner
 {
+const
 fn
 is_handle
 (
@@ -1192,6 +1199,7 @@ crate
 Statement
 {
 pub
+const
 fn
 is_terminator
 (

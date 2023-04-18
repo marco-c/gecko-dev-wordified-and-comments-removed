@@ -828,6 +828,10 @@ label
 Some
 (
 "
+(
+wgpu
+internal
+)
 clear
 surface
 texture

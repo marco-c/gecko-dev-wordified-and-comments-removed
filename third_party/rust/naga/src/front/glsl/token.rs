@@ -137,13 +137,14 @@ Buffer
 Const
 Shared
 Restrict
-StorageAccess
+MemoryQualifier
 (
 crate
 :
 :
 StorageAccess
 )
+Invariant
 Interpolation
 (
 Interpolation

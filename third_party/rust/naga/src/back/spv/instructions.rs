@@ -2714,6 +2714,7 @@ pub
 (
 super
 )
+const
 fn
 function_end
 (
@@ -4668,6 +4669,7 @@ pub
 (
 super
 )
+const
 fn
 kill
 (
@@ -4691,6 +4693,7 @@ pub
 (
 super
 )
+const
 fn
 return_void
 (

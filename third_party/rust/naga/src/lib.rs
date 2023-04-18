@@ -3,8 +3,6 @@
 [
 allow
 (
-renamed_and_removed_lints
-unknown_lints
 clippy
 :
 :
@@ -20,15 +18,7 @@ match_like_matches_macro
 clippy
 :
 :
-manual_strip
-clippy
-:
-:
 if_same_then_else
-clippy
-:
-:
-unknown_clippy_lints
 )
 ]
 #
@@ -44,6 +34,10 @@ clippy
 :
 :
 pattern_type_mismatch
+clippy
+:
+:
+missing_const_for_fn
 )
 ]
 #
@@ -573,6 +567,11 @@ enum
 BuiltIn
 {
 Position
+{
+invariant
+:
+bool
+}
 ViewIndex
 BaseInstance
 BaseVertex
