@@ -181,7 +181,7 @@ Deflate
 padding
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 aFrame
@@ -212,6 +212,11 @@ GetContentRectRelativeToSelf
 Size
 (
 )
+"
+Wrong
+scrollport
+?
+"
 )
 ;
 return
