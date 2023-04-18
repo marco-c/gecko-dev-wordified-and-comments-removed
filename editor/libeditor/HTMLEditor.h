@@ -9308,6 +9308,10 @@ SplitNodeTransaction
 ;
 friend
 class
+SplitRangeOffFromNodeResult
+;
+friend
+class
 TransactionManager
 ;
 friend
