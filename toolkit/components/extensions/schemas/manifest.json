@@ -389,6 +389,13 @@ type
 string
 "
 "
+format
+"
+:
+"
+url
+"
+"
 optional
 "
 :
@@ -399,6 +406,13 @@ preprocess
 :
 "
 localize
+"
+"
+onError
+"
+:
+"
+warn
 "
 }
 }
