@@ -293,11 +293,6 @@ StartRequest
 )
 ;
 void
-FindRequestContentLength
-(
-)
-;
-void
 SetPriority
 (
 uint32_t
@@ -375,12 +370,6 @@ nsTArray
 uint8_t
 >
 mFlatResponseHeaders
-;
-uint32_t
-mRequestBodyLenRemaining
-{
-0
-}
 ;
 uint64_t
 mTransactionTabId
