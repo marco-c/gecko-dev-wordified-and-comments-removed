@@ -7,6 +7,15 @@ DOUBLE_CONVERSION_STRING_TO_DOUBLE_H_
 #
 include
 "
+mozilla
+/
+Types
+.
+h
+"
+#
+include
+"
 utils
 .
 h
@@ -112,6 +121,7 @@ separator
 )
 {
 }
+MFBT_API
 double
 StringToDouble
 (
@@ -127,6 +137,7 @@ processed_characters_count
 )
 const
 ;
+MFBT_API
 double
 StringToDouble
 (
