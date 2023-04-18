@@ -602,6 +602,15 @@ vpn
 )
 ;
 }
+if
+(
+BrowserUtils
+.
+shouldShowRallyPromo
+(
+)
+)
+{
 const
 rally
 =
@@ -690,6 +699,7 @@ push
 rally
 )
 ;
+}
 this
 .
 _productsContainer
