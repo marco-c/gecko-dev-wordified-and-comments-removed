@@ -4898,7 +4898,7 @@ lazyStubs
 (
 )
 .
-writeLock
+lock
 (
 )
 ;
@@ -5041,7 +5041,7 @@ lazyStubs
 (
 )
 .
-writeLock
+lock
 (
 )
 ;
@@ -5094,7 +5094,7 @@ lazyStubs
 (
 )
 .
-readLock
+lock
 (
 )
 ;
@@ -12128,7 +12128,7 @@ lazyStubs
 (
 )
 .
-writeLock
+lock
 (
 )
 ;
@@ -12270,7 +12270,7 @@ lazyStubs
 (
 )
 .
-writeLock
+lock
 (
 )
 ;

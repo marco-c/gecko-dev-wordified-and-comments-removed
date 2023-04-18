@@ -2680,7 +2680,7 @@ const
 UniqueModuleSegment
 segment_
 ;
-RWExclusiveData
+ExclusiveData
 <
 LazyStubTier
 >
@@ -2835,7 +2835,7 @@ tier
 ;
 }
 const
-RWExclusiveData
+ExclusiveData
 <
 LazyStubTier
 >
