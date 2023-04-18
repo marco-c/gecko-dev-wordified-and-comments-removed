@@ -242,6 +242,9 @@ bool
 mCanceled
 ;
 bool
+mFlagSendActive
+;
+bool
 mMozAnon
 ;
 bool
