@@ -528,7 +528,6 @@ container_selector
 test_query_known
 (
 '
-size
 (
 width
 )
@@ -538,7 +537,6 @@ width
 test_query_known
 (
 '
-size
 (
 min
 -
@@ -552,7 +550,6 @@ width
 test_query_known
 (
 '
-size
 (
 max
 -
@@ -566,7 +563,6 @@ width
 test_query_known
 (
 '
-size
 (
 height
 )
@@ -576,7 +572,6 @@ height
 test_query_known
 (
 '
-size
 (
 min
 -
@@ -590,7 +585,6 @@ height
 test_query_known
 (
 '
-size
 (
 max
 -
@@ -604,7 +598,6 @@ height
 test_query_known
 (
 '
-size
 (
 aspect
 -
@@ -616,7 +609,6 @@ ratio
 test_query_known
 (
 '
-size
 (
 min
 -
@@ -634,7 +626,6 @@ ratio
 test_query_known
 (
 '
-size
 (
 max
 -
@@ -652,7 +643,6 @@ ratio
 test_query_known
 (
 '
-size
 (
 orientation
 :
@@ -664,7 +654,6 @@ portrait
 test_query_known
 (
 '
-size
 (
 inline
 -
@@ -676,7 +665,6 @@ size
 test_query_known
 (
 '
-size
 (
 min
 -
@@ -692,7 +680,6 @@ size
 test_query_known
 (
 '
-size
 (
 max
 -
@@ -708,7 +695,6 @@ size
 test_query_known
 (
 '
-size
 (
 block
 -
@@ -720,7 +706,6 @@ size
 test_query_known
 (
 '
-size
 (
 min
 -
@@ -736,7 +721,6 @@ size
 test_query_known
 (
 '
-size
 (
 max
 -
@@ -752,7 +736,6 @@ size
 test_query_known
 (
 '
-size
 (
 width
 :
@@ -764,7 +747,6 @@ width
 test_query_known
 (
 '
-size
 (
 (
 width
@@ -778,7 +760,6 @@ width
 test_query_known
 (
 '
-size
 (
 not
 (
@@ -793,7 +774,6 @@ width
 test_query_known
 (
 '
-size
 (
 (
 width
@@ -813,7 +793,6 @@ height
 test_query_known
 (
 '
-size
 (
 (
 width
@@ -833,7 +812,6 @@ height
 test_query_known
 (
 '
-size
 (
 width
 <
@@ -845,7 +823,6 @@ width
 test_query_known
 (
 '
-size
 (
 100px
 <
@@ -857,7 +834,6 @@ width
 test_query_known
 (
 '
-size
 (
 100px
 <
@@ -883,6 +859,15 @@ test_query_unknown
 '
 size
 (
+width
+)
+'
+)
+;
+test_query_unknown
+(
+'
+(
 asdf
 )
 '
@@ -891,7 +876,6 @@ asdf
 test_query_unknown
 (
 '
-size
 (
 resolution
 >
@@ -903,7 +887,6 @@ resolution
 test_query_unknown
 (
 '
-size
 (
 resolution
 :
@@ -915,7 +898,6 @@ resolution
 test_query_unknown
 (
 '
-size
 (
 color
 )
@@ -925,27 +907,11 @@ color
 test_query_unknown
 (
 '
-size
 (
 min
 -
 color
 :
-1
-)
-'
-)
-;
-test_query_unknown
-(
-'
-size
-(
-color
--
-index
->
-=
 1
 )
 '
