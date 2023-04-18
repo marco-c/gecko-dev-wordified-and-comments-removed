@@ -2142,7 +2142,7 @@ write_dso_debug_stream
 buffer
 self
 .
-blamed_thread
+process_id
 &
 dumper
 .
