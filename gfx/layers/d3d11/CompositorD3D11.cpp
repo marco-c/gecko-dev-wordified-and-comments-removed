@@ -4499,10 +4499,6 @@ IsHidden
 )
 )
 {
-ReadUnlockTextures
-(
-)
-;
 return
 Nothing
 (
@@ -4522,10 +4518,6 @@ GetDeviceRemovedReason
 S_OK
 )
 {
-ReadUnlockTextures
-(
-)
-;
 if
 (
 !
@@ -4753,10 +4745,6 @@ height
 0
 )
 {
-ReadUnlockTextures
-(
-)
-;
 return
 Nothing
 (
@@ -5676,10 +5664,6 @@ bool
 aNeedFlush
 )
 {
-ReadUnlockTextures
-(
-)
-;
 if
 (
 aNeedFlush
