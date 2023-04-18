@@ -52,13 +52,14 @@ url
 .
 join
 (
+            
 [
 self
 .
 manifest
 [
 "
-origin
+vendoring
 "
 ]
 [
@@ -78,6 +79,7 @@ format
 JSON
 "
 ]
+        
 )
         
 req
@@ -180,7 +182,7 @@ self
 manifest
 [
 "
-origin
+vendoring
 "
 ]
 [

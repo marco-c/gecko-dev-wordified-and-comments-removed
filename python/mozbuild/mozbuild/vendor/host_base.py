@@ -91,7 +91,7 @@ self
 manifest
 [
 "
-origin
+vendoring
 "
 ]
 [
