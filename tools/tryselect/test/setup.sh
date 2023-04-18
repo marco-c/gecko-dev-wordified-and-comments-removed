@@ -55,6 +55,7 @@ mozbuild
 export
 PATH
 =
+"
 PATH
 :
 HOME
@@ -65,6 +66,7 @@ mozbuild
 fzf
 /
 bin
+"
 export
 MACHRC
 =
