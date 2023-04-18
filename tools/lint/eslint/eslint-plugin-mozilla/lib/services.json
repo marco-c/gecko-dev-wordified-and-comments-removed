@@ -259,6 +259,13 @@ nsISearchService
 search
 "
 "
+nsISessionStorageService
+"
+:
+"
+sessionStorage
+"
+"
 nsISpeculativeConnect
 "
 :
