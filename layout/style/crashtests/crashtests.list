@@ -2097,17 +2097,6 @@ WR
 &
 Bug
 1553971
-pref
-(
-layout
-.
-css
-.
-resizeobserver
-.
-enabled
-true
-)
 load
 1552911
 .
