@@ -11089,6 +11089,17 @@ context
 )
 ;
 }
+MOZ_ASSERT
+(
+!
+aRequest
+-
+>
+IsImportMapRequest
+(
+)
+)
+;
 if
 (
 aRequest
