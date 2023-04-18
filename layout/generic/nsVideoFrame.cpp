@@ -1802,6 +1802,16 @@ child
 IsPrimaryFrame
 (
 )
+|
+|
+PresContext
+(
+)
+-
+>
+IsPrintingOrPrintPreview
+(
+)
 "
 We
 only
