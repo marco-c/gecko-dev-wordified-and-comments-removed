@@ -269,6 +269,14 @@ SocketProcessParent
 aManager
 )
 ;
+bool
+Serialize
+(
+nsIInputStream
+*
+aStream
+)
+;
 IPCStream
 &
 TakeValue
