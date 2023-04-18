@@ -213,14 +213,6 @@ SourceSurface
 aExtraMask
 =
 nullptr
-const
-Matrix
-&
-aExtraMasksTransform
-=
-Matrix
-(
-)
 )
 ;
 void
@@ -239,10 +231,6 @@ aMatrix
 SourceSurface
 *
 aExtraMask
-const
-Matrix
-&
-aExtraMasksTransform
 )
 ;
 bool
