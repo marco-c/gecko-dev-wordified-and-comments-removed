@@ -669,9 +669,15 @@ typeIndex
 ;
 while
 (
+static_cast
+<
+void
+>
+(
 type
 =
 nullptr
+)
 SUCCEEDED
 (
 mDecoder

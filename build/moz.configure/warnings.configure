@@ -429,9 +429,6 @@ check_and_add_warning
 Wcomma
 "
 cxx_compiler
-when
-=
-not_clang_cl
 )
 check_and_add_warning
 (
