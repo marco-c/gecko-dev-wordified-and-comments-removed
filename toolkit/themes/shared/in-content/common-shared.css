@@ -3652,6 +3652,12 @@ color
 :
 inherit
 ;
+color
+-
+scheme
+:
+unset
+;
 }
 xul
 |
@@ -3745,6 +3751,12 @@ color
 50ms
 ease
 0s
+;
+color
+-
+scheme
+:
+unset
 ;
 }
 xul
