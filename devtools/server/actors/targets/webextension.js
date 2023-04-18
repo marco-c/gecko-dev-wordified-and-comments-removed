@@ -232,6 +232,7 @@ addonBrowsingContextGroupId
 chromeGlobal
 isTopLevelTarget
 prefix
+sessionContext
 }
 )
 {
@@ -283,6 +284,7 @@ isTopLevelTarget
 window
 :
 extensionWindow
+sessionContext
 }
 )
 ;

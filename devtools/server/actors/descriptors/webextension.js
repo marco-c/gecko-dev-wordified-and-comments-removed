@@ -586,6 +586,9 @@ addonBrowsingContextGroupId
 policy
 .
 browsingContextGroupId
+isServerTargetSwitchingEnabled
+:
+false
 }
 )
 ;
