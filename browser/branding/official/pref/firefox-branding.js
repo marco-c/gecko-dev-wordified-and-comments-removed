@@ -266,6 +266,7 @@ LOCALE
 /
 firefox
 /
+new
 "
 )
 ;
