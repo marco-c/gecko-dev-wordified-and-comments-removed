@@ -99,11 +99,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileTestUtils
 "
@@ -164,6 +170,8 @@ object
 {
 filePath
 =
+lazy
+.
 FileTestUtils
 .
 getTempFile

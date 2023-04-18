@@ -79,11 +79,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 WindowsGPOParser
 :
@@ -258,7 +264,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -534,12 +540,16 @@ if
 _cleanup
 "
 in
+lazy
+.
 Policies
 )
 {
 let
 policyImpl
 =
+lazy
+.
 Policies
 .
 _cleanup
@@ -868,6 +878,8 @@ if
 policySchema
 )
 {
+lazy
+.
 log
 .
 error
@@ -896,6 +908,8 @@ areEnterpriseOnlyPoliciesAllowed
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -924,6 +938,8 @@ parsedValue
 parsedParameters
 }
 =
+lazy
+.
 JsonSchemaValidator
 .
 validate
@@ -943,6 +959,8 @@ if
 parametersAreValid
 )
 {
+lazy
+.
 log
 .
 error
@@ -963,6 +981,8 @@ continue
 let
 policyImpl
 =
+lazy
+.
 Policies
 [
 policyName
@@ -984,6 +1004,8 @@ parsedParameters
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -1141,6 +1163,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -2611,6 +2635,8 @@ if
 data
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2627,6 +2653,8 @@ path
 }
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -2662,6 +2690,8 @@ this
 _policies
 )
 {
+lazy
+.
 log
 .
 error
@@ -2723,6 +2753,8 @@ instanceof
 SyntaxError
 )
 {
+lazy
+.
 log
 .
 error
@@ -2746,6 +2778,8 @@ true
 }
 else
 {
+lazy
+.
 log
 .
 error
@@ -2970,6 +3004,8 @@ name
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2998,6 +3034,8 @@ this
 .
 _policies
 =
+lazy
+.
 WindowsGPOParser
 .
 readPolicies
@@ -3021,6 +3059,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -3095,6 +3135,8 @@ this
 .
 _policies
 =
+lazy
+.
 macOSPoliciesParser
 .
 readPolicies
