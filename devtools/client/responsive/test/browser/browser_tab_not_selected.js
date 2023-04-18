@@ -92,17 +92,6 @@ openRDM
 tab1
 )
 ;
-await
-waitForRDMLoaded
-(
-ui
-{
-waitForDeviceList
-:
-true
-}
-)
-;
 ok
 (
 !
