@@ -3320,6 +3320,10 @@ LOCAL_EGL_VENDOR
 ;
 if
 (
+vendor
+&
+&
+(
 strcmp
 (
 vendor
@@ -3330,6 +3334,7 @@ ARM
 =
 =
 0
+)
 )
 {
 MarkExtensionUnsupported
