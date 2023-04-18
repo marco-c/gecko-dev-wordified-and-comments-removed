@@ -3290,8 +3290,8 @@ InitARMFlags
 (
 )
 ;
-bool
-ParseARMHwCapFlags
+void
+SetARMHwCapFlagsString
 (
 const
 char
