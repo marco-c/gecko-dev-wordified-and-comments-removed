@@ -943,23 +943,19 @@ debugging
 -
 port
 "
-]
-        
-extra_prefs
-=
-{
 "
+-
+-
 remote
-.
+-
+allow
+-
 hosts
-.
-allowed
 "
-:
 "
 testhost
 "
-}
+]
     
 )
     
@@ -1170,6 +1166,7 @@ browser
 extra_args
 =
 [
+            
 "
 -
 -
@@ -1179,19 +1176,17 @@ debugging
 -
 port
 "
-]
-        
-extra_prefs
-=
-{
+            
 "
+-
+-
 remote
-.
+-
+allow
+-
 origins
-.
-allowed
 "
-:
+            
 "
 http
 :
@@ -1201,7 +1196,8 @@ localhost
 :
 1234
 "
-}
+        
+]
     
 )
     
