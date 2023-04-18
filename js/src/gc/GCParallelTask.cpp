@@ -705,7 +705,6 @@ gc
 -
 >
 rt
-false
 )
 ;
 MOZ_RELEASE_ASSERT
