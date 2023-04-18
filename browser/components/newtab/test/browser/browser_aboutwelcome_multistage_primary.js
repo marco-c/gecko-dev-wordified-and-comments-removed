@@ -36,9 +36,6 @@ id
 "
 AW_PIN_FIREFOX_STEP1
 "
-order
-:
-0
 content
 :
 {
@@ -81,9 +78,6 @@ id
 "
 AW_SET_DEFAULT_STEP2
 "
-order
-:
-1
 content
 :
 {

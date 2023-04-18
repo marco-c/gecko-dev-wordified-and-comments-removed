@@ -70,9 +70,6 @@ makeTestContent
 (
 id
 contentAdditions
-order
-=
-0
 )
 =
 >
@@ -80,7 +77,6 @@ order
 return
 {
 id
-order
 content
 :
 Object
@@ -1002,15 +998,15 @@ screens
 for
 (
 let
-order
+i
 =
 0
 ;
-order
+i
 <
 2
 ;
-order
+i
 +
 +
 )
@@ -1036,7 +1032,6 @@ background
 white
 "
 }
-order
 )
 )
 ;

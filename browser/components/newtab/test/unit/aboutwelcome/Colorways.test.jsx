@@ -143,9 +143,6 @@ screen
 totalNumberofScreens
 :
 1
-order
-:
-0
 content
 :
 {

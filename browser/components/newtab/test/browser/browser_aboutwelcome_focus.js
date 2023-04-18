@@ -24,9 +24,6 @@ id
 "
 AW_STEP1
 "
-order
-:
-0
 content
 :
 {

@@ -12,9 +12,6 @@ id
 "
 MOBILE_DOWNLOADS
 "
-order
-:
-0
 content
 :
 {

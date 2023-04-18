@@ -1164,8 +1164,6 @@ corner
 &
 &
 screen
-.
-order
 =
 =
 =
@@ -1173,8 +1171,6 @@ centeredScreens
 [
 0
 ]
-.
-order
 ;
 const
 isLastCenteredScreen
@@ -1193,8 +1189,6 @@ corner
 &
 &
 screen
-.
-order
 =
 =
 =
@@ -1206,8 +1200,6 @@ length
 -
 1
 ]
-.
-order
 ;
 /
 *
