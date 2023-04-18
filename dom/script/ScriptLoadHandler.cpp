@@ -1580,9 +1580,7 @@ if
 mRequest
 -
 >
-IsLoadingSource
-(
-)
+mFetchSourceOnly
 )
 {
 mRequest
