@@ -181,6 +181,11 @@ nsRepeatService
 cpp
 "
 "
+nsResizerFrame
+.
+cpp
+"
+"
 nsRootBoxFrame
 .
 cpp
@@ -217,6 +222,11 @@ cpp
 "
 "
 nsTextBoxFrame
+.
+cpp
+"
+"
+nsTitleBarFrame
 .
 cpp
 "
