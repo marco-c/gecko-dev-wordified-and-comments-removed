@@ -244,6 +244,14 @@ Name
 "
 atomic
 "
+|
+|
+Name
+=
+=
+"
+tuple
+"
 ;
 }
 }
