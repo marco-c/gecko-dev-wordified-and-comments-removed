@@ -3049,11 +3049,6 @@ ErrorResult
 aError
 )
 ;
-uint64_t
-GetMozPaintCountOuter
-(
-)
-;
 mozilla
 :
 :

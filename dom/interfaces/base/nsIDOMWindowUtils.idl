@@ -14672,15 +14672,6 @@ the
 screen
 .
 *
-*
-Use
-this
-instead
-of
-window
-.
-mozPaintCount
-*
 /
 readonly
 attribute
