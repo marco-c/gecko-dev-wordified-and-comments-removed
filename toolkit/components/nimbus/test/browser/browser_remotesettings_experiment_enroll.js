@@ -156,16 +156,6 @@ all
 ]
 [
 "
-datareporting
-.
-healthreport
-.
-uploadEnabled
-"
-true
-]
-[
-"
 app
 .
 shield
