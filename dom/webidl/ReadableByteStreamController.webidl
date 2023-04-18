@@ -144,6 +144,14 @@ ReadableByteStreamController
 interface
 ReadableByteStreamController
 {
+[
+Throws
+]
+/
+/
+Throws
+on
+OOM
 readonly
 attribute
 ReadableStreamBYOBRequest

@@ -188,7 +188,8 @@ MOZ_CRASH
 Should
 have
 verified
-IsDefaultFirst
+IsDefault
+first
 "
 )
 ;
@@ -205,17 +206,6 @@ override
 {
 return
 this
-;
-}
-nsIGlobalObject
-*
-GetParentObject
-(
-)
-const
-{
-return
-nullptr
 ;
 }
 JSObject
