@@ -5508,6 +5508,11 @@ LOCAL_GL_INVALID_FRAMEBUFFER_OPERATION
 void
 DoColorMask
 (
+Maybe
+<
+GLuint
+>
+i
 uint8_t
 bitmask
 )
