@@ -129,15 +129,6 @@ fails
 -
 if
 (
-winWidget
-&
-&
-isCoverageBuild
-)
-fails
--
-if
-(
 /
 ^
 Windows

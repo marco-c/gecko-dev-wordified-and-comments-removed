@@ -5128,6 +5128,11 @@ ssd
 |
 -
 source
+|
+-
+ssd
+-
+gpu
 )
 :
 provisioner
