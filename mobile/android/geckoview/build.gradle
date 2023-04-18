@@ -5307,6 +5307,16 @@ geckoview
 .
 BuildConfig
 '
+'
+^
+org
+.
+mozilla
+.
+geckoview
+.
+R
+'
 ]
 lintFilters
 =
