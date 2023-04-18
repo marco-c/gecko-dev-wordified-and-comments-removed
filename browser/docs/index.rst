@@ -49,6 +49,7 @@ docs
 /
 BackgroundUpdates
 BrowserUsageTelemetry
+CommandLineParameters
 components
 /
 enterprisepolicies
