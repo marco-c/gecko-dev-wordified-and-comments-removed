@@ -383,11 +383,6 @@ allocateInstantiationStorage
 =
 false
 ;
-bool
-deoptimizeModuleGlobalVars
-=
-false
-;
 const
 char
 *
@@ -821,11 +816,6 @@ usePinnedBytecode
 PrintFields_
 (
 allocateInstantiationStorage
-)
-;
-PrintFields_
-(
-deoptimizeModuleGlobalVars
 )
 ;
 PrintFields_
