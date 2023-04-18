@@ -225,8 +225,14 @@ focusring
 {
 outline
 :
-1px
-dotted
+var
+(
+-
+-
+default
+-
+focusring
+)
 ;
 }
 #
