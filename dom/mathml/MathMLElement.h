@@ -328,7 +328,6 @@ TabIndexDefault
 )
 final
 ;
-virtual
 bool
 IsFocusableInternal
 (
@@ -340,19 +339,6 @@ aWithMouse
 )
 override
 ;
-virtual
-bool
-IsLink
-(
-nsIURI
-*
-*
-aURI
-)
-const
-override
-;
-virtual
 void
 GetLinkTarget
 (
@@ -362,7 +348,6 @@ aTarget
 )
 override
 ;
-virtual
 already_AddRefed
 <
 nsIURI
@@ -373,7 +358,6 @@ GetHrefURI
 const
 override
 ;
-virtual
 void
 NodeInfoChanged
 (

@@ -23434,12 +23434,6 @@ if
 isEditor
 )
 {
-nsCOMPtr
-<
-nsIURI
->
-uri
-;
 for
 (
 Element
@@ -23464,10 +23458,6 @@ element
 >
 IsLink
 (
-getter_AddRefs
-(
-uri
-)
 )
 )
 {

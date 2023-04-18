@@ -117,19 +117,6 @@ aVisitor
 )
 override
 ;
-virtual
-bool
-IsLink
-(
-nsIURI
-*
-*
-aURI
-)
-const
-override
-;
-virtual
 void
 GetLinkTarget
 (
@@ -139,7 +126,6 @@ aTarget
 )
 override
 ;
-virtual
 already_AddRefed
 <
 nsIURI

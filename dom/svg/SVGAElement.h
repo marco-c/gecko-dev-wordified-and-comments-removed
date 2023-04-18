@@ -238,7 +238,6 @@ aAttribute
 const
 override
 ;
-virtual
 int32_t
 TabIndexDefault
 (
@@ -256,19 +255,6 @@ aWithMouse
 )
 override
 ;
-virtual
-bool
-IsLink
-(
-nsIURI
-*
-*
-aURI
-)
-const
-override
-;
-virtual
 void
 GetLinkTarget
 (
@@ -278,7 +264,6 @@ aTarget
 )
 override
 ;
-virtual
 already_AddRefed
 <
 nsIURI

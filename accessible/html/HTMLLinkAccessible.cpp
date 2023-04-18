@@ -564,6 +564,11 @@ aAnchorIndex
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetHrefURI
 (
 )
