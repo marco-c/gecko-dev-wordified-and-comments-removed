@@ -1064,11 +1064,6 @@ childID
 cur
 .
 childID
-filename
-:
-cur
-.
-filename
 totalRamSize
 :
 cur

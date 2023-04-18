@@ -217,9 +217,7 @@ startPos
 1
 )
 ;
-aInfo
-.
-filename
+mName
 .
 Assign
 (
@@ -510,8 +508,8 @@ mMaxIndex
 nsCString
 mFilepath
 ;
-ProcInfo
-mProcInfo
+nsString
+mName
 ;
 private
 :
@@ -787,9 +785,7 @@ name
 .
 Assign
 (
-info
-.
-filename
+mName
 )
 ;
 return
