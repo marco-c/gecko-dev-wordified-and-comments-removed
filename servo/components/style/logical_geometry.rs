@@ -4785,16 +4785,8 @@ T
 LogicalMargin
 {
 block_start
-:
-block_start
-inline_end
-:
 inline_end
 block_end
-:
-block_end
-inline_start
-:
 inline_start
 debug_writing_mode
 :
