@@ -1946,6 +1946,13 @@ l
 =
 slow
 "
+"
+files
+/
+foobar
+.
+js
+"
 ]
     
 env
