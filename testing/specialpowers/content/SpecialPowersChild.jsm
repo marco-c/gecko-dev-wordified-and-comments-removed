@@ -9373,7 +9373,6 @@ return
 win
 .
 docShell
-?
 .
 browserChild
 .
