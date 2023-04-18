@@ -1729,8 +1729,6 @@ startRecover
 (
 uint32_t
 instructionCount
-bool
-resumeAfter
 )
 ;
 void
@@ -2056,9 +2054,6 @@ numInstructions_
 uint32_t
 numInstructionsRead_
 ;
-bool
-resumeAfter_
-;
 RInstructionStorage
 rawData_
 ;
@@ -2173,16 +2168,6 @@ addr
 (
 )
 )
-;
-}
-bool
-resumeAfter
-(
-)
-const
-{
-return
-resumeAfter_
 ;
 }
 }
