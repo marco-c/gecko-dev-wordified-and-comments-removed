@@ -974,11 +974,14 @@ disabled
 ;
 }
 async
-update
+setStyleSheetText
 (
 resourceId
 text
+{
 transition
+=
+false
 kind
 =
 UPDATE_GENERAL
@@ -986,6 +989,10 @@ cause
 =
 "
 "
+}
+=
+{
+}
 )
 {
 const
