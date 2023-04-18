@@ -85,8 +85,10 @@ if
 aOtherPid
 =
 =
--
-1
+base
+:
+:
+kInvalidProcessId
 )
 {
 DLOG

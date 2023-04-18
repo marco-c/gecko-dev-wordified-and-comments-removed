@@ -1961,8 +1961,10 @@ OtherPid
 (
 )
 :
--
-1
+base
+:
+:
+kInvalidProcessId
 )
 ;
 if
@@ -4280,8 +4282,10 @@ peerA
 OtherPid
 (
 )
--
-1
+base
+:
+:
+kInvalidProcessId
 }
 ;
 peerA
