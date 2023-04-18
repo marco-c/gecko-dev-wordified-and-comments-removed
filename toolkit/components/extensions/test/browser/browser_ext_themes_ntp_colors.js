@@ -774,6 +774,14 @@ override
 "
 2
 ]
+[
+"
+ui
+.
+systemUsesDarkTheme
+"
+0
+]
 ]
 }
 )
