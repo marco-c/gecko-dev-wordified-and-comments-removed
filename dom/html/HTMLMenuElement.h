@@ -259,6 +259,7 @@ aError
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 SendShowEvent
 (
