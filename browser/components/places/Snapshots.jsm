@@ -3710,7 +3710,11 @@ translateRow
 (
 row
 )
+data
+:
+{
 interactions
+}
 }
 ;
 }
@@ -3733,6 +3737,8 @@ this
 timeOfDayScore
 (
 e
+.
+data
 .
 interactions
 interactionCounts
