@@ -9,6 +9,13 @@ include
 <
 cstdint
 >
+#
+include
+<
+stddef
+.
+h
+>
 namespace
 js
 {
