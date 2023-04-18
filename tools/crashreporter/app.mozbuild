@@ -79,12 +79,4 @@ src
 /
 processor
 '
-'
-/
-tools
-/
-crashreporter
-/
-minidump_stackwalk
-'
 ]
