@@ -184,6 +184,9 @@ here
 cta_url
 :
 "
+about
+:
+blank
 "
 cta_type
 :
@@ -610,14 +613,6 @@ a
 better
 internet
 "
-icon_url
-:
-"
-"
-icon_alt
-:
-"
-"
 body
 :
 "
@@ -649,7 +644,9 @@ AI
 cta_url
 :
 "
-pioneer
+about
+:
+blank
 "
 cta_where
 :
