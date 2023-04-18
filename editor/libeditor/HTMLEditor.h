@@ -9233,6 +9233,10 @@ ListItemElementSelectionState
 ;
 friend
 class
+MoveNodeResult
+;
+friend
+class
 MoveNodeTransaction
 ;
 friend
