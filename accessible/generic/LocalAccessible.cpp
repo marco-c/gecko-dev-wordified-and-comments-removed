@@ -17791,6 +17791,9 @@ CacheDomain
 :
 :
 GroupInfo
+&
+&
+mContent
 )
 {
 for
@@ -18050,6 +18053,9 @@ Initial
 {
 if
 (
+mContent
+&
+&
 mContent
 -
 >
