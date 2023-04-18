@@ -1477,6 +1477,12 @@ ModuleRequestObject
 specifier
 IdentFilter
 )
+DEFINE_GETTER_FUNCTIONS
+(
+ModuleRequestObject
+assertions
+IdentFilter
+)
 static
 const
 JSPropertySpec
@@ -1491,6 +1497,14 @@ JS_PSG
 specifier
 "
 ShellModuleRequestObjectWrapper_specifierGetter
+0
+)
+JS_PSG
+(
+"
+assertions
+"
+ShellModuleRequestObjectWrapper_assertionsGetter
 0
 )
 JS_PS_END
