@@ -1091,6 +1091,7 @@ nullptr
 bool
 TryGetSVGData
 (
+const
 gfxFont
 *
 aFont
@@ -1728,6 +1729,7 @@ mSVGGlyphs
 ;
 nsTArray
 <
+const
 gfxFont
 *
 >
