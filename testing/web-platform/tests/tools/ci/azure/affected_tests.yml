@@ -41,6 +41,13 @@ checkoutCommit
 -
 script
 :
+|
+set
+-
+eux
+-
+o
+pipefail
 git
 checkout
 {
@@ -100,6 +107,13 @@ yml
 -
 script
 :
+|
+set
+-
+eux
+-
+o
+pipefail
 .
 /
 wpt

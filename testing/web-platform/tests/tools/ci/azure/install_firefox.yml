@@ -31,6 +31,12 @@ caching
 script
 :
 |
+set
+-
+eux
+-
+o
+pipefail
 curl
 https
 :

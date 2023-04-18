@@ -44,6 +44,13 @@ issues
 -
 script
 :
+|
+set
+-
+eux
+-
+o
+pipefail
 sudo
 cp
 fonts

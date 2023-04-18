@@ -81,6 +81,9 @@ script
 set
 -
 eux
+-
+o
+pipefail
 HOMEBREW_NO_AUTO_UPDATE
 =
 1
@@ -213,6 +216,9 @@ script
 set
 -
 eux
+-
+o
+pipefail
 sudo
 softwareupdate
 -

@@ -33,6 +33,12 @@ caching
 script
 :
 |
+set
+-
+eux
+-
+o
+pipefail
 HOMEBREW_NO_AUTO_UPDATE
 =
 1
