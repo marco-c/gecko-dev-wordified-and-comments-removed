@@ -16194,6 +16194,14 @@ operand
 isArrayBufferViewLength
 (
 )
+|
+|
+operand
+-
+>
+isArgumentsLength
+(
+)
 )
 &
 &
