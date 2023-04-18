@@ -71906,7 +71906,7 @@ LSafepoint
 &
 safepoint
 const
-MachineState
+RegisterOffsets
 &
 trapExitLayout
 size_t
@@ -72077,17 +72077,11 @@ gcRegsIter
 size_t
 offsetFromTop
 =
-reinterpret_cast
-<
-size_t
->
-(
 trapExitLayout
 .
-address
+getOffset
 (
 reg
-)
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -72478,7 +72472,7 @@ ArgTypeVector
 &
 argTypes
 const
-MachineState
+RegisterOffsets
 &
 trapExitLayout
 size_t

@@ -668,13 +668,13 @@ pair
 .
 second
 ;
-MachineState
+RegisterOffsets
 trapExitLayout
 ;
 size_t
 trapExitLayoutNumWords
 ;
-GenerateTrapExitMachineState
+GenerateTrapExitRegisterOffsets
 (
 &
 trapExitLayout

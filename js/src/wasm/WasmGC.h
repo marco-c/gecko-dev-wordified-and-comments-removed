@@ -1426,7 +1426,7 @@ const
 jit
 :
 :
-MachineState
+RegisterOffsets
 &
 trapExitLayout
 size_t
@@ -1460,7 +1460,7 @@ const
 jit
 :
 :
-MachineState
+RegisterOffsets
 &
 trapExitLayout
 const

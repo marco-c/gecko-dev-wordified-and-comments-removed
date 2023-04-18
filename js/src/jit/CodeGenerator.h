@@ -494,7 +494,7 @@ ArgTypeVector
 &
 argTys
 const
-MachineState
+RegisterOffsets
 &
 trapExitLayout
 size_t

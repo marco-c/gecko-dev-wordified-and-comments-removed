@@ -4753,7 +4753,7 @@ StackMapGenerator
 private
 :
 const
-MachineState
+RegisterOffsets
 &
 trapExitLayout_
 ;
@@ -4802,7 +4802,7 @@ StackMaps
 *
 stackMaps
 const
-MachineState
+RegisterOffsets
 &
 trapExitLayout
 const

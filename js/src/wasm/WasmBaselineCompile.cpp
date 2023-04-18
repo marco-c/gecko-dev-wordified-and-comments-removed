@@ -54790,7 +54790,7 @@ ValTypeVector
 &
 locals
 const
-MachineState
+RegisterOffsets
 &
 trapExitLayout
 size_t
@@ -55314,13 +55314,13 @@ return
 false
 ;
 }
-MachineState
+RegisterOffsets
 trapExitLayout
 ;
 size_t
 trapExitLayoutNumWords
 ;
-GenerateTrapExitMachineState
+GenerateTrapExitRegisterOffsets
 (
 &
 trapExitLayout
