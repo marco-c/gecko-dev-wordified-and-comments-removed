@@ -66,7 +66,17 @@ toString
 (
 )
 ]
+onStdoutLine
+:
+line
+=
+>
 stdoutLines
+.
+push
+(
+line
+)
 }
 )
 ;
