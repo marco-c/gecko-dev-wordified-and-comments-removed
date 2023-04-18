@@ -95,6 +95,9 @@ min
 with
 referenceISODay
 "
+undefined
+undefined
+18
 )
 ;
 TemporalHelpers
@@ -145,6 +148,9 @@ max
 with
 referenceISODay
 "
+undefined
+undefined
+14
 )
 ;
 reportCompare

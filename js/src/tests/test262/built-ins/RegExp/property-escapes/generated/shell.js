@@ -280,6 +280,9 @@ of
 string
 )
 {
+const
+hex
+=
 printCodePoint
 (
 symbol

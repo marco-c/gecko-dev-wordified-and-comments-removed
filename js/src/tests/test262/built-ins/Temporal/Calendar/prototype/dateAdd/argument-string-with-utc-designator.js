@@ -66,6 +66,12 @@ instance
 dateAdd
 (
 arg
+new
+Temporal
+.
+Duration
+(
+)
 )
 "
 String

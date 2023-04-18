@@ -68,7 +68,8 @@ months
 mutually
 exclusive
 (
-1
+prefer
+weeks
 )
 "
 )
@@ -107,7 +108,8 @@ months
 mutually
 exclusive
 (
-2
+prefer
+months
 )
 "
 )

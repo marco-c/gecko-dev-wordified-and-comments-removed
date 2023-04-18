@@ -215,7 +215,6 @@ minutes
 0
 0
 0
-0
 "
 can
 return

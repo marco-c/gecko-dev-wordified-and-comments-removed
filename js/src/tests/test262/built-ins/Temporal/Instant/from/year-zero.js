@@ -8,7 +8,7 @@ invalidStrings
 -
 03
 -
-31T00
+30T00
 :
 45Z
 "
@@ -18,7 +18,7 @@ invalidStrings
 -
 03
 -
-31T01
+30T01
 :
 45
 +
@@ -32,13 +32,13 @@ invalidStrings
 -
 03
 -
-31T01
+30T01
 :
 45
 :
 00
 +
-01
+00
 :
 00
 [
@@ -52,7 +52,7 @@ invalidStrings
 forEach
 (
 (
-str
+arg
 )
 =
 >
@@ -72,7 +72,7 @@ Instant
 .
 from
 (
-str
+arg
 )
 "
 reject

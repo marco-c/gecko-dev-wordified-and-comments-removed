@@ -4,9 +4,9 @@ cal
 {
 id
 :
-'
+"
 foo
-'
+"
 toString
 (
 )
@@ -48,9 +48,9 @@ anotherCal
 {
 id
 :
-'
+"
 bar
-'
+"
 toString
 (
 )

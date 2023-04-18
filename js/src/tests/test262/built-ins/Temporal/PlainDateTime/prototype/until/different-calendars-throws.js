@@ -18,17 +18,6 @@ PlainDateTime
 )
 ;
 const
-cal
-=
-{
-id
-:
-'
-thisisnotiso
-'
-}
-;
-const
 dt2
 =
 new
@@ -45,7 +34,8 @@ PlainDateTime
 0
 0
 0
-cal
+{
+}
 )
 ;
 assert

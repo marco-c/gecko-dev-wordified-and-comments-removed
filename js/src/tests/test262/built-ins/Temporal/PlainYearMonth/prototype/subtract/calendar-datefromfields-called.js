@@ -669,6 +669,9 @@ the
 same
 month
 "
+undefined
+undefined
+6
 )
 ;
 assert
@@ -791,6 +794,9 @@ the
 previous
 month
 "
+undefined
+undefined
+1
 )
 ;
 assert
@@ -919,6 +925,9 @@ the
 same
 month
 "
+undefined
+undefined
+6
 )
 ;
 assert
@@ -1045,6 +1054,9 @@ the
 following
 month
 "
+undefined
+undefined
+14
 )
 ;
 assert

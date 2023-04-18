@@ -72,7 +72,7 @@ cause
 ;
 assert
 .
-deepEqual
+compareArray
 (
 sequence
 [

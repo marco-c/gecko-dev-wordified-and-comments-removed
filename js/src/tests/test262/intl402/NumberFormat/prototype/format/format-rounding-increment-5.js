@@ -131,6 +131,9 @@ roundingIncrement
 maximumFractionDigits
 :
 2
+minimumFractionDigits
+:
+2
 }
 {
 '
@@ -164,7 +167,7 @@ maximumFractionDigits
 '
 1
 .
-1
+10
 '
 '
 1
@@ -175,7 +178,7 @@ maximumFractionDigits
 '
 1
 .
-1
+10
 '
 '
 1
@@ -186,7 +189,7 @@ maximumFractionDigits
 '
 1
 .
-1
+10
 '
 }
 )
