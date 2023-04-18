@@ -297,6 +297,17 @@ const
 =
 0
 ;
+virtual
+bool
+IsScrollTimeline
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 nsCOMPtr
