@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setTimeout
 "
@@ -63,7 +69,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 clearTimeout
 "
@@ -503,6 +509,8 @@ this
 _deadlineTimer
 )
 {
+lazy
+.
 clearTimeout
 (
 this
@@ -515,6 +523,8 @@ this
 .
 _deadlineTimer
 =
+lazy
+.
 setTimeout
 (
 (

@@ -106,11 +106,17 @@ msg
 )
 ;
 }
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ContentRestore
 "
@@ -134,7 +140,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SessionHistory
 "
@@ -492,6 +498,8 @@ NOTIFY_STATE_DOCUMENT
 if
 (
 !
+lazy
+.
 SessionHistory
 .
 isEmpty
@@ -666,6 +674,8 @@ null
 let
 history
 =
+lazy
+.
 SessionHistory
 .
 collect
@@ -1710,6 +1720,8 @@ true
 ;
 return
 new
+lazy
+.
 ContentRestore
 (
 mm

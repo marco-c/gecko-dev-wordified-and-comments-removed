@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SessionHistory
 "
@@ -65,7 +71,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Utils
 "
@@ -308,6 +314,8 @@ uri
 )
 ;
 }
+lazy
+.
 SessionHistory
 .
 restore
@@ -773,6 +781,8 @@ docShell
 .
 domWindow
 ;
+lazy
+.
 Utils
 .
 restoreFrameTreeData
@@ -800,6 +810,8 @@ data
 }
 )
 ;
+lazy
+.
 Utils
 .
 restoreFrameTreeData

@@ -12,11 +12,17 @@ TabState
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivacyFilter
 "
@@ -41,7 +47,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TabStateCache
 "
@@ -65,7 +71,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TabAttributes
 "
@@ -172,6 +178,8 @@ data
 }
 )
 {
+lazy
+.
 TabStateCache
 .
 update
@@ -323,6 +331,8 @@ tabData
 .
 attributes
 =
+lazy
+.
 TabAttributes
 .
 get
@@ -447,6 +457,8 @@ options
 let
 data
 =
+lazy
+.
 TabStateCache
 .
 get
@@ -513,6 +525,8 @@ storage
 {
 value
 =
+lazy
+.
 PrivacyFilter
 .
 filterSessionStorageData
@@ -535,6 +549,8 @@ formdata
 {
 value
 =
+lazy
+.
 PrivacyFilter
 .
 filterFormData

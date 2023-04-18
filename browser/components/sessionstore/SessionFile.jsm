@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 RunState
 :
@@ -721,6 +727,8 @@ e
 if
 (
 !
+lazy
+.
 SessionStore
 .
 isFormatVersionCompatible
@@ -1142,6 +1150,8 @@ _initialized
 =
 true
 ;
+lazy
+.
 SessionWriter
 .
 init
@@ -1199,6 +1209,8 @@ Promise
 .
 resolve
 (
+lazy
+.
 SessionWriter
 )
 ;
@@ -1210,6 +1222,8 @@ aData
 {
 if
 (
+lazy
+.
 RunState
 .
 isClosed
@@ -1239,6 +1253,8 @@ false
 ;
 if
 (
+lazy
+.
 RunState
 .
 isClosing
@@ -1248,6 +1264,8 @@ isFinalWrite
 =
 true
 ;
+lazy
+.
 RunState
 .
 setClosed
@@ -1262,6 +1280,8 @@ isFinalWrite
 &
 &
 !
+lazy
+.
 SessionStore
 .
 willAutoRestore

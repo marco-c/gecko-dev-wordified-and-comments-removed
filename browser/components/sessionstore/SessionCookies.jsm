@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivacyLevel
 "
@@ -543,6 +549,8 @@ cookie
 isSession
 &
 &
+lazy
+.
 PrivacyLevel
 .
 canSave
@@ -583,6 +591,8 @@ cookie
 isSession
 &
 &
+lazy
+.
 PrivacyLevel
 .
 canSave
@@ -695,6 +705,8 @@ clear
 if
 (
 !
+lazy
+.
 PrivacyLevel
 .
 canSave
