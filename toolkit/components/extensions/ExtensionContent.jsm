@@ -303,18 +303,6 @@ jsm
 "
 )
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-crypto
-"
-]
-)
-;
 const
 {
 DefaultMap
@@ -1593,8 +1581,6 @@ const
 buffer
 =
 await
-lazy
-.
 crypto
 .
 subtle
