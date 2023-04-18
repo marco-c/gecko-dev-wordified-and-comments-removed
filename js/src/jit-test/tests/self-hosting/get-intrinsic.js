@@ -6,7 +6,7 @@ intrinsic_names
 IsConstructor
 "
 "
-ArrayIndexOf
+ArrayMap
 "
 "
 localeCache
