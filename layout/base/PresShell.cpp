@@ -4651,6 +4651,10 @@ leaking
 ;
 MOZ_ASSERT
 (
+!
+mAllocatedPointers
+|
+|
 mAllocatedPointers
 -
 >
