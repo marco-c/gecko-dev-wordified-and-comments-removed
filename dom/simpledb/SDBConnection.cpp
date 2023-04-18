@@ -1507,7 +1507,13 @@ Write
 JS
 :
 :
-HandleValue
+Handle
+<
+JS
+:
+:
+Value
+>
 aValue
 JSContext
 *

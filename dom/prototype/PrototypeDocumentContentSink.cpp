@@ -4567,7 +4567,13 @@ NS_OK
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 rval
 (
 cx

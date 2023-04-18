@@ -9998,7 +9998,11 @@ aCx
 JS
 :
 :
-MutableHandleScript
+MutableHandle
+<
+JSScript
+*
+>
 aScript
 )
 {
