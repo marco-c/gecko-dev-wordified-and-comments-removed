@@ -1701,6 +1701,12 @@ remove
 (
 )
 ;
+}
+function
+handleCheckbox
+(
+)
+{
 if
 (
 checkbox
@@ -1909,6 +1915,10 @@ button
 gPrevTheme
 =
 null
+;
+handleCheckbox
+(
+)
 ;
 removeColorways
 (
