@@ -4538,7 +4538,7 @@ void
 js
 :
 :
-Nursery
+TenuringTracer
 :
 :
 relocateDependentStringChars
@@ -4987,14 +4987,11 @@ void
 js
 :
 :
-Nursery
+TenuringTracer
 :
 :
 collectToObjectFixedPoint
 (
-TenuringTracer
-&
-mover
 )
 {
 for
@@ -5003,8 +5000,6 @@ RelocationOverlay
 *
 p
 =
-mover
-.
 objHead
 ;
 p
@@ -5037,8 +5032,6 @@ forwardingAddress
 )
 )
 ;
-mover
-.
 traceObject
 (
 obj
@@ -5050,14 +5043,11 @@ void
 js
 :
 :
-Nursery
+TenuringTracer
 :
 :
 collectToStringFixedPoint
 (
-TenuringTracer
-&
-mover
 )
 {
 for
@@ -5066,8 +5056,6 @@ StringRelocationOverlay
 *
 p
 =
-mover
-.
 stringHead
 ;
 p
@@ -5206,8 +5194,6 @@ rootBase
 ;
 }
 }
-mover
-.
 traceString
 (
 tenuredStr

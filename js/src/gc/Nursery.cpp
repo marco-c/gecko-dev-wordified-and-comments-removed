@@ -6488,9 +6488,10 @@ ProfileKey
 CollectToObjFP
 )
 ;
+mover
+.
 collectToObjectFixedPoint
 (
-mover
 )
 ;
 endProfile
@@ -6509,9 +6510,10 @@ ProfileKey
 CollectToStrFP
 )
 ;
+mover
+.
 collectToStringFixedPoint
 (
-mover
 )
 ;
 endProfile
