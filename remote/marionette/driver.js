@@ -9771,6 +9771,15 @@ settings
 printBackground
 )
 ;
+assert
+.
+array
+(
+settings
+.
+pageRanges
+)
+;
 const
 linkedBrowser
 =
