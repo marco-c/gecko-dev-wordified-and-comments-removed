@@ -2989,7 +2989,7 @@ color
 -
 hover
 :
-SelectedItemText
+ButtonFace
 ;
 -
 -
@@ -3029,7 +3029,7 @@ background
 -
 hover
 :
-SelectedItem
+ButtonText
 ;
 -
 -
@@ -3043,7 +3043,7 @@ background
 -
 active
 :
-SelectedItem
+ButtonText
 ;
 -
 -
@@ -3057,20 +3057,7 @@ border
 -
 color
 :
-var
-(
--
--
-in
--
-content
--
-button
--
-text
--
-color
-)
+ButtonText
 ;
 -
 -
@@ -3086,7 +3073,7 @@ text
 -
 color
 :
-SelectedItemText
+ButtonFace
 ;
 -
 -
@@ -3104,7 +3091,7 @@ color
 -
 hover
 :
-SelectedItem
+ButtonText
 ;
 -
 -
@@ -3118,7 +3105,7 @@ button
 -
 background
 :
-SelectedItem
+ButtonText
 ;
 -
 -
@@ -3166,7 +3153,7 @@ border
 -
 hover
 :
-SelectedItem
+ButtonText
 ;
 -
 -
