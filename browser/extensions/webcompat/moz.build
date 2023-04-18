@@ -1491,6 +1491,13 @@ vmad
 .
 xml
 "
+"
+shims
+/
+webtrends
+.
+js
+"
 ]
 FINAL_TARGET_FILES
 .
