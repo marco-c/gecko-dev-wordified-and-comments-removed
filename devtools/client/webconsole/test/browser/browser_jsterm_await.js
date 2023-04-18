@@ -215,7 +215,7 @@ messages
 const
 {
 visibleMessages
-messagesById
+mutableMessagesById
 }
 =
 hud
@@ -245,7 +245,7 @@ visibleMessages
 const
 delta
 =
-messagesById
+mutableMessagesById
 .
 get
 (
@@ -254,7 +254,7 @@ resultId
 .
 timeStamp
 -
-messagesById
+mutableMessagesById
 .
 get
 (

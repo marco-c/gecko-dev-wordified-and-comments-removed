@@ -93,7 +93,7 @@ state
 .
 messages
 .
-messagesById
+mutableMessagesById
 .
 size
 ;

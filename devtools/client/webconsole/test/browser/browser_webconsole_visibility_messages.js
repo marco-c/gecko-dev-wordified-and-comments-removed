@@ -270,7 +270,7 @@ getState
 .
 messages
 .
-messagesById
+mutableMessagesById
 .
 size
 ;

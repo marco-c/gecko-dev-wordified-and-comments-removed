@@ -31,7 +31,7 @@ true
 )
 ;
 function
-getAllMessagesById
+getMutableMessagesById
 (
 state
 )
@@ -41,7 +41,7 @@ state
 .
 messages
 .
-messagesById
+mutableMessagesById
 ;
 }
 function
@@ -52,7 +52,7 @@ id
 )
 {
 return
-getAllMessagesById
+getMutableMessagesById
 (
 state
 )
@@ -245,7 +245,7 @@ exports
 {
 getAllGroupsById
 getAllWarningGroupsById
-getAllMessagesById
+getMutableMessagesById
 getAllCssMessagesMatchingElements
 getAllMessagesUiById
 getAllNetworkMessagesUpdateById

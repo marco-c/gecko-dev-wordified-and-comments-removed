@@ -89,7 +89,7 @@ index
 ;
 const
 {
-getAllMessagesById
+getMutableMessagesById
 }
 =
 require
@@ -403,7 +403,7 @@ index
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 state
 )
@@ -452,7 +452,7 @@ state
 const
 lastIndex
 =
-getAllMessagesById
+getMutableMessagesById
 (
 state
 )

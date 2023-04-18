@@ -11,7 +11,7 @@ getAllNetworkMessagesUpdateById
 getAllRepeatById
 getCurrentGroup
 getGroupsById
-getAllMessagesById
+getMutableMessagesById
 getVisibleMessages
 }
 =
@@ -229,7 +229,7 @@ getState
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 state
 )
@@ -263,7 +263,7 @@ getState
 ;
 expect
 (
-getAllMessagesById
+getMutableMessagesById
 (
 state
 )

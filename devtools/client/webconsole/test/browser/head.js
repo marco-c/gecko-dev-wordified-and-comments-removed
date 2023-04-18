@@ -597,7 +597,7 @@ getState
 .
 messages
 .
-messagesById
+mutableMessagesById
 .
 values
 (

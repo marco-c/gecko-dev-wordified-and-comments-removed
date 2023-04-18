@@ -152,7 +152,7 @@ messages
 ;
 const
 {
-getAllMessagesById
+getMutableMessagesById
 getMessage
 }
 =
@@ -835,7 +835,7 @@ messages
 .
 .
 .
-getAllMessagesById
+getMutableMessagesById
 (
 store
 .
