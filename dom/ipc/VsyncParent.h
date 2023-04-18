@@ -69,6 +69,11 @@ friend
 class
 PVsyncParent
 ;
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+VsyncParent
+override
+)
 public
 :
 VsyncParent
