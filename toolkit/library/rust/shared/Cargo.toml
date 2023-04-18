@@ -418,7 +418,7 @@ rs
 rev
 =
 "
-dea28d0c7d9952bbf430701ee244f6a4349c98f1
+b313a83c0a0becf6115f6002510081a3537562ee
 "
 optional
 =
@@ -451,7 +451,7 @@ rs
 rev
 =
 "
-f2456201dbfdc467b80f0ff6bbb1b8a6faf7df02
+df4dc0288b07b865440f4c7e41ca49ca9ccffc63
 "
 optional
 =
@@ -476,7 +476,7 @@ version
 "
 0
 .
-9
+10
 "
 optional
 =
@@ -518,7 +518,7 @@ audioipc
 rev
 =
 "
-8e3c4c1b1edbd19cfafc833c3254f12731af31c4
+f8f611808168b7b1395b2e5dc17e5e6e2b975c6d
 "
 optional
 =
@@ -555,7 +555,7 @@ audioipc
 rev
 =
 "
-8e3c4c1b1edbd19cfafc833c3254f12731af31c4
+f8f611808168b7b1395b2e5dc17e5e6e2b975c6d
 "
 optional
 =
@@ -592,7 +592,7 @@ audioipc
 rev
 =
 "
-515bb210a93f520642fd3a60f391652680b3e988
+405b8208a8fb32e13db87c252aba9b371ae47859
 "
 optional
 =
@@ -623,7 +623,7 @@ audioipc
 rev
 =
 "
-515bb210a93f520642fd3a60f391652680b3e988
+405b8208a8fb32e13db87c252aba9b371ae47859
 "
 optional
 =
@@ -965,13 +965,17 @@ chardetng_c
 "
 audio_thread_priority
 =
+{
+version
+=
 "
 0
 .
-23
+26
 .
-4
+1
 "
+}
 mdns_service
 =
 {
