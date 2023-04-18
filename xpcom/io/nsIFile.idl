@@ -650,6 +650,14 @@ attribute
 int64_t
 diskSpaceAvailable
 ;
+[
+must_use
+]
+readonly
+attribute
+int64_t
+diskCapacity
+;
 void
 appendRelativePath
 (
