@@ -255,6 +255,9 @@ namespace
 gc
 {
 class
+AutoTraceSession
+;
+class
 AutoCheckCanAccessAtomsDuringGC
 ;
 class
@@ -5011,7 +5014,10 @@ MOZ_IMPLICIT
 AutoAccessAtomsZone
 (
 const
-AutoLockAllAtoms
+gc
+:
+:
+AutoTraceSession
 &
 lock
 )

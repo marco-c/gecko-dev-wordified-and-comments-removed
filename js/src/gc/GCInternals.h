@@ -408,8 +408,6 @@ MOZ_RAII
 AutoTraceSession
 :
 public
-AutoLockAllAtoms
-public
 AutoHeapSession
 {
 public
@@ -422,10 +420,6 @@ JSRuntime
 rt
 )
 :
-AutoLockAllAtoms
-(
-rt
-)
 AutoHeapSession
 (
 &
