@@ -668,7 +668,7 @@ r
 }
 #
 ifndef
-RABALDR_HAS_HEAPREG
+WASM_HAS_HEAPREG
 static
 inline
 RegPtr
@@ -715,7 +715,7 @@ r
 }
 #
 ifndef
-RABALDR_HAS_HEAPREG
+WASM_HAS_HEAPREG
 static
 inline
 RegPtr
@@ -741,7 +741,7 @@ endif
 endif
 #
 ifdef
-RABALDR_HAS_HEAPREG
+WASM_HAS_HEAPREG
 void
 BaseCompiler
 :
@@ -1502,7 +1502,7 @@ isInvalid
 }
 #
 ifdef
-RABALDR_HAS_HEAPREG
+WASM_HAS_HEAPREG
 MOZ_ASSERT_IF
 (
 check
@@ -1747,7 +1747,7 @@ check
 {
 #
 ifndef
-RABALDR_HAS_HEAPREG
+WASM_HAS_HEAPREG
 return
 true
 ;
@@ -4529,7 +4529,7 @@ endif
 endif
 #
 ifdef
-RABALDR_HAS_HEAPREG
+WASM_HAS_HEAPREG
 template
 <
 typename
@@ -4683,7 +4683,7 @@ offset
 endif
 #
 ifndef
-RABALDR_HAS_HEAPREG
+WASM_HAS_HEAPREG
 #
 ifdef
 JS_CODEGEN_X86
@@ -4958,7 +4958,7 @@ check
 ;
 #
 ifdef
-RABALDR_HAS_HEAPREG
+WASM_HAS_HEAPREG
 RegPtr
 tls
 =
@@ -7372,7 +7372,7 @@ check
 if
 defined
 (
-RABALDR_HAS_HEAPREG
+WASM_HAS_HEAPREG
 )
 RegPtr
 tls
@@ -9121,7 +9121,7 @@ check
 ;
 #
 ifdef
-RABALDR_HAS_HEAPREG
+WASM_HAS_HEAPREG
 RegPtr
 tls
 =
@@ -11497,7 +11497,7 @@ check
 ;
 #
 ifdef
-RABALDR_HAS_HEAPREG
+WASM_HAS_HEAPREG
 RegPtr
 tls
 =

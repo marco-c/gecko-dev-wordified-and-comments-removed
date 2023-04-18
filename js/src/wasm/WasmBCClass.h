@@ -3702,7 +3702,7 @@ ok
 if
 defined
 (
-RABALDR_HAS_HEAPREG
+WASM_HAS_HEAPREG
 )
 template
 <
