@@ -49,7 +49,7 @@ src
 /
 +
 /
-master
+main
 /
 services
 /

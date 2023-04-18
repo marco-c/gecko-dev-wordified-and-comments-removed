@@ -35,7 +35,7 @@ src
 /
 +
 /
-master
+main
 /
 mojo
 /
@@ -97,7 +97,7 @@ src
 /
 +
 /
-master
+main
 /
 docs
 /
