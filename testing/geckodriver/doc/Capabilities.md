@@ -441,12 +441,11 @@ Protocol
 ]
 :
 /
-testing
-/
 remote
 /
-doc
-/
+index
+.
+rst
 [
 Chrome
 DevTools

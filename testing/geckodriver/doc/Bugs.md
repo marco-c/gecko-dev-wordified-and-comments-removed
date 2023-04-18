@@ -394,7 +394,7 @@ log
 :
 TraceLogs
 .
-html
+md
 [
 GitHub
 issue

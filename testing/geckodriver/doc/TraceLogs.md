@@ -908,10 +908,7 @@ a
 patch
 ]
 :
-.
-.
-/
-CONTRIBUTING
+Patches
 .
 md
 C

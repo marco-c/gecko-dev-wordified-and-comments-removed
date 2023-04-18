@@ -227,7 +227,7 @@ Testing
 (
 Testing
 .
-html
+md
 )
 for
 how
@@ -342,13 +342,9 @@ testing
 /
 marionette
 /
-doc
-/
-marionette
-/
 Protocol
 .
-html
+md
 [
 WebDriver
 ]
@@ -374,6 +370,6 @@ testing
 /
 marionette
 /
-doc
-/
-marionette
+index
+.
+rst
