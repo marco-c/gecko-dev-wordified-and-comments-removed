@@ -270,6 +270,8 @@ t
 '
 )
 F_GLOBAL_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -288,6 +290,8 @@ n
 '
 )
 F_GLOBAL_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -306,6 +310,8 @@ f
 '
 )
 F_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -324,6 +330,8 @@ f
 '
 )
 F_GLOBAL_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -342,6 +350,8 @@ f
 '
 )
 F_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -360,6 +370,8 @@ f
 '
 )
 F_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -378,6 +390,8 @@ f
 '
 )
 F_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -396,6 +410,8 @@ f
 '
 )
 F_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -414,6 +430,8 @@ f
 '
 )
 F_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -432,6 +450,8 @@ u
 '
 )
 F_GLOBAL_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -450,6 +470,8 @@ t
 '
 )
 F_GLOBAL_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -468,6 +490,8 @@ t
 '
 )
 F_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -486,6 +510,8 @@ s
 '
 )
 F_GLOBAL_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -504,6 +530,8 @@ s
 '
 )
 F_GLOBAL_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -522,6 +550,8 @@ s
 '
 )
 F_GLOBAL_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -540,6 +570,8 @@ s
 '
 )
 F_GLOBAL_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -558,6 +590,8 @@ n
 '
 )
 F_GLOBAL_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 }
 ;
@@ -681,6 +715,7 @@ c
 l
 '
 )
+F_PER_SYLLABLE
 )
 ;
 map
@@ -703,6 +738,7 @@ m
 p
 '
 )
+F_PER_SYLLABLE
 )
 ;
 unsigned
@@ -779,14 +815,6 @@ indic_features
 [
 i
 ]
-)
-;
-map
--
->
-add_gsub_pause
-(
-_hb_clear_syllables
 )
 ;
 }

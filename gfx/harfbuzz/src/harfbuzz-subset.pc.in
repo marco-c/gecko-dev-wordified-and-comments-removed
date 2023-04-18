@@ -21,6 +21,7 @@ includedir
 Name
 :
 harfbuzz
+subsetter
 Description
 :
 HarfBuzz
@@ -34,6 +35,10 @@ VERSION
 Requires
 :
 harfbuzz
+=
+%
+VERSION
+%
 Libs
 :
 -

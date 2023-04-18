@@ -52,7 +52,7 @@ VERSION
 =
 4
 .
-1
+3
 .
 0
 git
@@ -204,7 +204,6 @@ README
 md
 src
 THANKS
-TODO
 "
 for
 f

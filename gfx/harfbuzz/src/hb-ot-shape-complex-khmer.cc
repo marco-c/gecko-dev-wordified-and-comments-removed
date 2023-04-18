@@ -76,6 +76,8 @@ f
 '
 )
 F_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -94,6 +96,8 @@ f
 '
 )
 F_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -112,6 +116,8 @@ f
 '
 )
 F_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -130,6 +136,8 @@ f
 '
 )
 F_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -148,6 +156,8 @@ r
 '
 )
 F_MANUAL_JOINERS
+|
+F_PER_SYLLABLE
 }
 {
 HB_TAG
@@ -327,6 +337,7 @@ c
 l
 '
 )
+F_PER_SYLLABLE
 )
 ;
 map
@@ -349,6 +360,7 @@ m
 p
 '
 )
+F_PER_SYLLABLE
 )
 ;
 unsigned
@@ -384,7 +396,7 @@ map
 >
 add_gsub_pause
 (
-_hb_clear_syllables
+nullptr
 )
 ;
 for

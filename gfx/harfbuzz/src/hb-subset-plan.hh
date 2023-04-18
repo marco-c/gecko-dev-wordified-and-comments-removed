@@ -65,6 +65,16 @@ hb_set_t
 *
 unicodes
 ;
+hb_vector_t
+<
+hb_pair_t
+<
+hb_codepoint_t
+hb_codepoint_t
+>
+>
+unicode_to_new_gid_list
+;
 hb_set_t
 *
 name_ids
@@ -100,6 +110,10 @@ glyph_map
 hb_map_t
 *
 reverse_glyph_map
+;
+hb_map_t
+*
+glyph_map_gsub
 ;
 hb_face_t
 *

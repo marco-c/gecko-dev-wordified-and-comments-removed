@@ -14,7 +14,7 @@ HarfBuzz
 [
 4
 .
-1
+3
 .
 0
 ]
@@ -3997,6 +3997,9 @@ subset
 data
 /
 repack_tests
+/
+Makefile
+perf
 /
 Makefile
 docs

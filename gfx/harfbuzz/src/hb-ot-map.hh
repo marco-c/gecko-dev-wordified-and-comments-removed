@@ -109,6 +109,12 @@ random
 :
 1
 ;
+unsigned
+int
+per_syllable
+:
+1
+;
 int
 cmp
 (
@@ -159,6 +165,12 @@ auto_zwj
 unsigned
 short
 random
+:
+1
+;
+unsigned
+short
+per_syllable
 :
 1
 ;
@@ -862,6 +874,9 @@ F_GLOBAL_SEARCH
 F_RANDOM
 =
 0x0020u
+F_PER_SYLLABLE
+=
+0x0040u
 }
 ;
 HB_MARK_AS_FLAG_T
@@ -1061,6 +1076,10 @@ auto_zwj
 true
 bool
 random
+=
+false
+bool
+per_syllable
 =
 false
 )

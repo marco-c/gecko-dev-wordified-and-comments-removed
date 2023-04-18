@@ -259,6 +259,7 @@ c
 l
 '
 )
+F_PER_SYLLABLE
 )
 ;
 map
@@ -281,6 +282,7 @@ m
 p
 '
 )
+F_PER_SYLLABLE
 )
 ;
 map
@@ -321,6 +323,8 @@ myanmar_basic_features
 i
 ]
 F_MANUAL_ZWJ
+|
+F_PER_SYLLABLE
 )
 ;
 map
@@ -332,14 +336,6 @@ nullptr
 )
 ;
 }
-map
--
->
-add_gsub_pause
-(
-_hb_clear_syllables
-)
-;
 for
 (
 unsigned

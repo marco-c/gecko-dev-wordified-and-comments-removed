@@ -1687,9 +1687,7 @@ file
 )
 )
 return
-hb_blob_get_empty
-(
-)
+nullptr
 ;
 int
 fd
@@ -1922,9 +1920,7 @@ file
 )
 )
 return
-hb_blob_get_empty
-(
-)
+nullptr
 ;
 HANDLE
 fd

@@ -484,6 +484,7 @@ c
 l
 '
 )
+F_PER_SYLLABLE
 )
 ;
 map
@@ -506,6 +507,7 @@ m
 p
 '
 )
+F_PER_SYLLABLE
 )
 ;
 map
@@ -528,6 +530,7 @@ k
 t
 '
 )
+F_PER_SYLLABLE
 )
 ;
 map
@@ -551,6 +554,8 @@ n
 '
 )
 F_MANUAL_ZWJ
+|
+F_PER_SYLLABLE
 )
 ;
 map
@@ -582,6 +587,8 @@ f
 '
 )
 F_MANUAL_ZWJ
+|
+F_PER_SYLLABLE
 )
 ;
 map
@@ -621,6 +628,8 @@ f
 '
 )
 F_MANUAL_ZWJ
+|
+F_PER_SYLLABLE
 )
 ;
 map
@@ -660,6 +669,8 @@ use_basic_features
 i
 ]
 F_MANUAL_ZWJ
+|
+F_PER_SYLLABLE
 )
 ;
 map
@@ -668,14 +679,6 @@ map
 add_gsub_pause
 (
 reorder_use
-)
-;
-map
--
->
-add_gsub_pause
-(
-_hb_clear_syllables
 )
 ;
 for

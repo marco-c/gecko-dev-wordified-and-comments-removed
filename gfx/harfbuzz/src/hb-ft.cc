@@ -68,13 +68,6 @@ FT_TRUETYPE_TABLES_H
 struct
 hb_ft_font_t
 {
-mutable
-hb_mutex_t
-lock
-;
-FT_Face
-ft_face
-;
 int
 load_flags
 ;
@@ -83,6 +76,13 @@ symbol
 ;
 bool
 unref
+;
+mutable
+hb_mutex_t
+lock
+;
+FT_Face
+ft_face
 ;
 mutable
 int
