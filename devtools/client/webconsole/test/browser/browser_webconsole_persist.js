@@ -404,6 +404,11 @@ text
 /
 html
 <
+!
+DOCTYPE
+html
+>
+<
 script
 >
 console
@@ -451,6 +456,11 @@ data
 text
 /
 html
+<
+!
+DOCTYPE
+html
+>
 <
 script
 >

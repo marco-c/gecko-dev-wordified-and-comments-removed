@@ -15,6 +15,11 @@ html
 charset
 =
 utf8
+<
+!
+DOCTYPE
+html
+>
 test
 autocompletion
 with

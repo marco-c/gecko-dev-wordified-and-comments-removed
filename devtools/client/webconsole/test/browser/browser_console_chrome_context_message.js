@@ -53,6 +53,11 @@ text
 /
 html
 <
+!
+DOCTYPE
+html
+>
+<
 script
 >
 console

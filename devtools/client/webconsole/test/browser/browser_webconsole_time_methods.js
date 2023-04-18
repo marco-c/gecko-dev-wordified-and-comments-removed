@@ -55,6 +55,11 @@ utf
 -
 8
 <
+!
+DOCTYPE
+html
+>
+<
 script
 >
 "
@@ -90,6 +95,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 <
 script
 >
@@ -136,6 +146,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 "
 +
 "

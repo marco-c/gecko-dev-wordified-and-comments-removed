@@ -21,6 +21,11 @@ charset
 =
 utf8
 <
+!
+DOCTYPE
+html
+>
+<
 style
 >
 body

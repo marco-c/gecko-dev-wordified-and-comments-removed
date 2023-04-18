@@ -17,6 +17,11 @@ charset
 =
 utf8
 <
+!
+DOCTYPE
+html
+>
+<
 p
 >
 browser_console_devtools_loader_exception

@@ -23,6 +23,11 @@ data
 text
 /
 html
+<
+!
+DOCTYPE
+html
+>
 Test
 expanding
 longString

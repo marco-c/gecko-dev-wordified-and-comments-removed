@@ -26,6 +26,11 @@ charset
 =
 utf8
 <
+!
+DOCTYPE
+html
+>
+<
 script
 >
 const

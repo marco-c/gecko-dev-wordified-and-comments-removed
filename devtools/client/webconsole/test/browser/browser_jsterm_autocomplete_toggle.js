@@ -17,6 +17,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 ;
 const
 PREF_INPUT_AUTOCOMPLETE

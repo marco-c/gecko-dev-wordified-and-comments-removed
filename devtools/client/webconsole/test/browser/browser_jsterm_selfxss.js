@@ -19,6 +19,11 @@ utf
 -
 8
 <
+!
+DOCTYPE
+html
+>
+<
 p
 >
 Test

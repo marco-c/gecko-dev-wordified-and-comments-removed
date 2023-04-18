@@ -16,6 +16,11 @@ html
 charset
 =
 utf8
+<
+!
+DOCTYPE
+html
+>
 Web
 Console
 weak

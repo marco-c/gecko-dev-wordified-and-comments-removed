@@ -24,6 +24,11 @@ charset
 =
 utf8
 <
+!
+DOCTYPE
+html
+>
+<
 title
 >
 bug871156

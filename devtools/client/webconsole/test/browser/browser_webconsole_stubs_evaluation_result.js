@@ -39,6 +39,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 stub
 generation
 "

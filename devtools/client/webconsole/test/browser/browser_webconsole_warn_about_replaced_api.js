@@ -17,6 +17,11 @@ charset
 =
 utf8
 <
+!
+DOCTYPE
+html
+>
+<
 script
 >
 console
@@ -50,6 +55,11 @@ html
 charset
 =
 utf8
+<
+!
+DOCTYPE
+html
+>
 <
 script
 >

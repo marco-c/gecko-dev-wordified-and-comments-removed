@@ -32,6 +32,11 @@ html
 charset
 =
 utf8
+<
+!
+DOCTYPE
+html
+>
 errordoc
 tests
 "
@@ -52,6 +57,11 @@ html
 charset
 =
 utf8
+<
+!
+DOCTYPE
+html
+>
 <
 script
 >

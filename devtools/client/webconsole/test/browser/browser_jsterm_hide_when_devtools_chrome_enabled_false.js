@@ -121,6 +121,11 @@ html
 charset
 =
 utf8
+<
+!
+DOCTYPE
+html
+>
 hello
 world
 "

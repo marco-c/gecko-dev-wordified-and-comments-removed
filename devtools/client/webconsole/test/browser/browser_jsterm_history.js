@@ -18,6 +18,11 @@ charset
 UTF
 -
 8
+<
+!
+DOCTYPE
+html
+>
 test
 "
 ;
