@@ -227,6 +227,9 @@ malloc_context_size
 =
 5
 "
+MOZ_MARIONETTE
+:
+null
 }
 }
 )
