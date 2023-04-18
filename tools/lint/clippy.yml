@@ -651,13 +651,6 @@ clippy
 -
 servo
 /
-components
-/
-hashglobe
-/
--
-servo
-/
 ports
 /
 geckolib
@@ -697,13 +690,6 @@ webrtc
 sdp
 /
 rsdparsa_capi
-/
--
-servo
-/
-components
-/
-fallible
 /
 -
 testing

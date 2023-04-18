@@ -638,10 +638,7 @@ let
 mut
 children_count
 =
-crate
-:
-:
-hash
+fxhash
 :
 :
 FxHashMap
