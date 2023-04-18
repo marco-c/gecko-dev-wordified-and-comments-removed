@@ -122,7 +122,7 @@ StackingContextHelper
 gfx
 :
 :
-Size
+MatrixScales
 GetInheritedScale
 (
 )
@@ -231,7 +231,7 @@ mBuilder
 gfx
 :
 :
-Size
+MatrixScales
 mScale
 ;
 gfx
