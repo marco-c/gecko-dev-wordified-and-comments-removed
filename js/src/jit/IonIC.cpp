@@ -1377,7 +1377,11 @@ SetPropIRGenerator
 :
 DeferType
 ;
-RootedShape
+Rooted
+<
+Shape
+*
+>
 oldShape
 (
 cx

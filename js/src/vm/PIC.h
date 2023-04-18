@@ -420,7 +420,11 @@ arrayProto_
 GCPtrNativeObject
 arrayIteratorProto_
 ;
-GCPtrShape
+GCPtr
+<
+Shape
+*
+>
 arrayProtoShape_
 ;
 uint32_t
@@ -429,7 +433,11 @@ arrayProtoIteratorSlot_
 GCPtrValue
 canonicalIteratorFunc_
 ;
-GCPtrShape
+GCPtr
+<
+Shape
+*
+>
 arrayIteratorProtoShape_
 ;
 uint32_t

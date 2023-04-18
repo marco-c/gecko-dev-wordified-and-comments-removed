@@ -1577,7 +1577,11 @@ ScopeKind
 kind
 HandleScope
 enclosing
-HandleShape
+Handle
+<
+Shape
+*
+>
 envShape
 )
 ;
@@ -1653,7 +1657,11 @@ ScopeKind
 kind
 HandleScope
 enclosing
-HandleShape
+Handle
+<
+Shape
+*
+>
 envShape
 MutableHandle
 <

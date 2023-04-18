@@ -9258,7 +9258,11 @@ FunctionClassForAllocKind
 allocKind
 )
 ;
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx
@@ -9809,7 +9813,11 @@ clasp
 allocKind
 )
 ;
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

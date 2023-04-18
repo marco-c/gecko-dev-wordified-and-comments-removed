@@ -1465,7 +1465,11 @@ tryAttachStub
 AttachDecision
 tryAttachAddSlotStub
 (
-HandleShape
+Handle
+<
+Shape
+*
+>
 oldShape
 )
 ;
@@ -2022,7 +2026,11 @@ getThisShapeForScripted
 (
 HandleFunction
 calleeFunc
-MutableHandleShape
+MutableHandle
+<
+Shape
+*
+>
 result
 )
 ;

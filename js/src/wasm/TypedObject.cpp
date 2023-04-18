@@ -3767,7 +3767,11 @@ allocKind
 )
 ;
 }
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

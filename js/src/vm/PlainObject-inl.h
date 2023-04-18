@@ -519,7 +519,11 @@ JS_IS_CONSTRUCTING
 )
 )
 ;
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

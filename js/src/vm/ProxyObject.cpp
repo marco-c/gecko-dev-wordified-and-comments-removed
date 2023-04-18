@@ -477,7 +477,11 @@ metadata
 cx
 )
 ;
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

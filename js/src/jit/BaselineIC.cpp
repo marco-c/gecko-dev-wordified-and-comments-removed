@@ -4637,7 +4637,11 @@ return
 false
 ;
 }
-RootedShape
+Rooted
+<
+Shape
+*
+>
 oldShape
 (
 cx
@@ -7712,7 +7716,11 @@ return
 false
 ;
 }
-RootedShape
+Rooted
+<
+Shape
+*
+>
 oldShape
 (
 cx

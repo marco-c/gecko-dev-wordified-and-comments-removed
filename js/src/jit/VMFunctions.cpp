@@ -4205,7 +4205,11 @@ NewCallObject
 JSContext
 *
 cx
-HandleShape
+Handle
+<
+Shape
+*
+>
 shape
 )
 {

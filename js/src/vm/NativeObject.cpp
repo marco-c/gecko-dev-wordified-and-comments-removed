@@ -6555,7 +6555,11 @@ HandleNativeObject
 obj
 HandleValue
 v
-HandleShape
+Handle
+<
+Shape
+*
+>
 newShape
 )
 {
@@ -13177,7 +13181,11 @@ cx
 )
 )
 ;
-RootedShape
+Rooted
+<
+Shape
+*
+>
 fromShape
 (
 cx

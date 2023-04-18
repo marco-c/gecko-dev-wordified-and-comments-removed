@@ -292,7 +292,11 @@ JSContext
 cx
 uint32_t
 length
-HandleShape
+Handle
+<
+Shape
+*
+>
 shape
 )
 ;

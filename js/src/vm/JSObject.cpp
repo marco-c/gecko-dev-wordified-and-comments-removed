@@ -3947,7 +3947,11 @@ kind
 )
 ;
 }
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx
@@ -5123,7 +5127,11 @@ return
 true
 ;
 }
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

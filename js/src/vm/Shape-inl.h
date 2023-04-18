@@ -166,7 +166,11 @@ return
 true
 ;
 }
-RootedShape
+Rooted
+<
+Shape
+*
+>
 emptyShape
 (
 cx
@@ -178,7 +182,11 @@ shape
 )
 )
 ;
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

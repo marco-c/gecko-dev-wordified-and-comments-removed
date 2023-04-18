@@ -558,7 +558,11 @@ uint32_t
 initialLength
 )
 {
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

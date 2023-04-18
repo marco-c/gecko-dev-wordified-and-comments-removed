@@ -1548,7 +1548,11 @@ kind
 BaseScopeData
 *
 scopeData
-MutableHandleShape
+MutableHandle
+<
+Shape
+*
+>
 shape
 )
 const
