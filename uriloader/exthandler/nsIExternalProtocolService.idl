@@ -119,6 +119,12 @@ optional
 in
 bool
 aWasTriggeredExternally
+[
+optional
+]
+in
+bool
+aHasValidUserGestureActivation
 )
 ;
 AString

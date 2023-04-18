@@ -56530,6 +56530,17 @@ triggeringPrincipal
 nullptr
 mBrowsingContext
 false
+aContent
+-
+>
+OwnerDoc
+(
+)
+-
+>
+HasValidTransientUserGestureActivation
+(
+)
 )
 ;
 }

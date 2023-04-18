@@ -23286,6 +23286,8 @@ BrowsingContext
 aContext
 bool
 aWasExternallyTriggered
+bool
+aHasValidUserGestureActivation
 )
 {
 if
@@ -23360,6 +23362,7 @@ aTriggeringPrincipal
 aRedirectPrincipal
 bc
 aWasExternallyTriggered
+aHasValidUserGestureActivation
 )
 ;
 return
