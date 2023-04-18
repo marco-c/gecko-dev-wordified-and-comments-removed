@@ -1155,10 +1155,6 @@ void
 MoveFlexItemToFinalPosition
 (
 const
-ReflowInput
-&
-aReflowInput
-const
 FlexItem
 &
 aItem
