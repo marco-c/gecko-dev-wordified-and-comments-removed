@@ -4981,6 +4981,11 @@ getLocaleDisplayNames
 (
 undefined
 available
+{
+preferNative
+:
+true
+}
 )
 ;
 let
@@ -6755,6 +6760,11 @@ undefined
 [
 systemLocale
 ]
+{
+preferNative
+:
+true
+}
 )
 ;
 if

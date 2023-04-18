@@ -715,6 +715,12 @@ locales
 in
 jsval
 localeCodes
+[
+optional
+]
+in
+jsval
+options
 )
 ;
 readonly
