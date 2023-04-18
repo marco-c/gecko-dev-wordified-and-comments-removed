@@ -704,7 +704,6 @@ code
 block
 :
 :
-JavaScript
 console
 .
 log
@@ -768,7 +767,6 @@ code
 block
 :
 :
-javascript
 console
 .
 log

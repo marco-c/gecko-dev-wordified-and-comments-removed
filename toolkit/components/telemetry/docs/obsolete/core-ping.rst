@@ -177,7 +177,6 @@ code
 block
 :
 :
-javascript
 {
 "
 v

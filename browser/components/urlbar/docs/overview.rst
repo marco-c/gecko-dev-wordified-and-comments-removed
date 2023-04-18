@@ -2772,13 +2772,9 @@ RESULT_TYPE
 .
 .
 .
-highlight
-:
-:
-JavaScript
-.
-.
 code
+-
+block
 :
 :
 UrlbarResult
