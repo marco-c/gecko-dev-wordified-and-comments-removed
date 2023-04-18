@@ -4394,12 +4394,11 @@ IsEditActionDataAvailable
 )
 &
 &
-!
 SavedSelectionRef
 (
 )
 .
-IsEmpty
+RangeCount
 (
 )
 ;
@@ -4459,11 +4458,12 @@ IsEditActionDataAvailable
 ;
 if
 (
+!
 SavedSelectionRef
 (
 )
 .
-IsEmpty
+RangeCount
 (
 )
 )
@@ -4546,7 +4546,7 @@ SavedSelectionRef
 (
 )
 .
-Clear
+RemoveAllRanges
 (
 )
 ;
