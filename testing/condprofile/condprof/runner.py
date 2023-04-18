@@ -103,6 +103,16 @@ visible
 skip_logs
 =
 False
+        
+remote_test_root
+=
+"
+/
+sdcard
+/
+test_root
+/
+"
     
 )
 :
@@ -154,6 +164,12 @@ self
 skip_logs
 =
 skip_logs
+        
+self
+.
+remote_test_root
+=
+remote_test_root
         
 self
 .
@@ -893,6 +909,12 @@ skip_logs
 self
 .
 skip_logs
+            
+remote_test_root
+=
+self
+.
+remote_test_root
         
 )
 .

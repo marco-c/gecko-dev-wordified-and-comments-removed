@@ -669,6 +669,16 @@ mozilla
 -
 central
 "
+    
+remote_test_root
+=
+"
+/
+sdcard
+/
+test_root
+/
+"
 )
 :
     
