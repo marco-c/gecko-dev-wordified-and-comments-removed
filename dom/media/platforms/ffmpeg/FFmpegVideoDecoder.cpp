@@ -4521,6 +4521,9 @@ mVideoFramePool
 GetVideoFrameSurface
 (
 vaDesc
+mCodecContext
+mFrame
+mLib
 )
 ;
 if
@@ -4545,16 +4548,6 @@ error
 )
 ;
 }
-surface
--
->
-LockVAAPIData
-(
-mCodecContext
-mFrame
-mLib
-)
-;
 surface
 -
 >
