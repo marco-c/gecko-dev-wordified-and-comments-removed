@@ -4487,16 +4487,6 @@ return
 }
 if
 (
-StaticPrefs
-:
-:
-dom_webcomponents_disabledFeatures_enabled
-(
-)
-)
-{
-if
-(
 !
 JSObjectToAtomArray
 (
@@ -4553,7 +4543,6 @@ shadow
 )
 )
 ;
-}
 if
 (
 StaticPrefs
