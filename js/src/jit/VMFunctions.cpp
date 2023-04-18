@@ -844,7 +844,7 @@ result
 VMFunctionData
 :
 :
-RootFunction
+RootObject
 ;
 }
 ;

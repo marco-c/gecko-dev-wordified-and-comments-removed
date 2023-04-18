@@ -201,7 +201,6 @@ RootNone
 RootObject
 RootString
 RootId
-RootFunction
 RootValue
 RootCell
 RootBigInt
