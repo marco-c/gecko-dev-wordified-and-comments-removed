@@ -142,6 +142,16 @@ moz_wasm2c_trap_handler
 DEFINES
 [
 "
+WASM2C_MALLOC_FAIL_CALLBACK
+"
+]
+=
+"
+moz_wasm2c_malloc_failed
+"
+DEFINES
+[
+"
 WASM_DONT_EXPORT_FUNCS
 "
 ]
