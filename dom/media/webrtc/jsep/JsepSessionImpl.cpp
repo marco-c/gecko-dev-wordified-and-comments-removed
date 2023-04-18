@@ -11466,8 +11466,10 @@ mozilla
 .
 THIS_IS_SDPARTA
 -
+99
+.
+0
 "
-MOZ_APP_UA_VERSION
 mSessionId
 mSessionVersion
 sdp
