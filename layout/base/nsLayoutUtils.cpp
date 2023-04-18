@@ -44259,6 +44259,7 @@ aFrameWM
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 nsLayoutUtils
 :
@@ -44306,9 +44307,12 @@ EventDispatcher
 :
 Dispatch
 (
+MOZ_KnownLive
+(
 ToSupports
 (
 doc
+)
 )
 nullptr
 &
