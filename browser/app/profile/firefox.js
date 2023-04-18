@@ -11437,16 +11437,6 @@ pref
 "
 security
 .
-secure_connection_icon_color_gray
-"
-true
-)
-;
-pref
-(
-"
-security
-.
 insecure_connection_text
 .
 enabled
