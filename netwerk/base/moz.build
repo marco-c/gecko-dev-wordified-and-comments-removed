@@ -744,11 +744,6 @@ DefaultURI
 h
 "
 "
-ExecuteIfOnMainThreadEventTarget
-.
-h
-"
-"
 IOActivityMonitor
 .
 h
@@ -830,11 +825,6 @@ cpp
 "
 "
 EventTokenBucket
-.
-cpp
-"
-"
-ExecuteIfOnMainThreadEventTarget
 .
 cpp
 "
