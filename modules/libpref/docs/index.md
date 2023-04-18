@@ -36,11 +36,6 @@ e
 .
 g
 .
-dom
-.
-IntersectionObserver
-.
-enabled
 xpinstall
 .
 signatures
