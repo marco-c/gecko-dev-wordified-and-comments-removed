@@ -580,17 +580,3 @@ XPIDL_MODULE
 "
 dom_indexeddb
 "
-TESTING_JS_MODULES
-+
-=
-[
-"
-test
-/
-unit
-/
-GlobalObjectsModule
-.
-jsm
-"
-]
