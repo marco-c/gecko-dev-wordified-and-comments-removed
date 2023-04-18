@@ -267,16 +267,6 @@ global
 tooltip
 .
 css
-*
-skin
-/
-classic
-/
-global
-/
-tree
-.
-css
 skin
 /
 classic
