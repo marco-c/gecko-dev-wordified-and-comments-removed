@@ -2723,13 +2723,13 @@ matched
 false
 ;
 }
-}
 self
 .
 unget_char
 (
 )
 ;
+}
 }
 matched
 }
