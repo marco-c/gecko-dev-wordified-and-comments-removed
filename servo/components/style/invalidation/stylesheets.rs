@@ -2919,10 +2919,7 @@ ScrollTimeline
 .
 .
 )
-=
->
-{
-}
+|
 CounterStyle
 (
 .

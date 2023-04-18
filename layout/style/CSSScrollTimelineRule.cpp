@@ -157,7 +157,7 @@ aOrientation
 )
 const
 {
-Servo_ScrollTimelineRule_GetOrientation
+Servo_ScrollTimelineRule_GetOrientationAsString
 (
 mRawRule
 &

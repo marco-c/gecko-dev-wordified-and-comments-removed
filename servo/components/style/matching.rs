@@ -1065,7 +1065,7 @@ get_box
 )
 ;
 let
-keyframes_could_have_changed
+keyframes_or_timeline_could_have_changed
 =
 context
 .
@@ -1082,7 +1082,7 @@ ForCSSRuleChanges
 )
 ;
 if
-keyframes_could_have_changed
+keyframes_or_timeline_could_have_changed
 {
 return
 true
