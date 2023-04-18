@@ -222,7 +222,7 @@ getSubscription
 ;
 Promise
 <
-PushPermissionState
+PermissionState
 >
 permissionState
 (
@@ -301,7 +301,7 @@ Throws
 ]
 Promise
 <
-PushPermissionState
+PermissionState
 >
 permissionState
 (
@@ -313,19 +313,5 @@ options
 }
 )
 ;
-}
-;
-enum
-PushPermissionState
-{
-"
-granted
-"
-"
-denied
-"
-"
-prompt
-"
 }
 ;
