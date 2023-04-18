@@ -13,6 +13,8 @@ derive
 (
 Debug
 PartialEq
+Eq
+Hash
 Copy
 Clone
 )

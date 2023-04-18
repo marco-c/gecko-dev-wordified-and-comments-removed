@@ -3,8 +3,8 @@ clap
 :
 :
 {
-app_from_crate
 arg
+command
 }
 ;
 fn
@@ -15,7 +15,7 @@ main
 let
 matches
 =
-app_from_crate
+command
 !
 (
 )

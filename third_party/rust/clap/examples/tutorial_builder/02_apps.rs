@@ -4,7 +4,7 @@ clap
 :
 {
 arg
-App
+Command
 }
 ;
 fn
@@ -15,7 +15,7 @@ main
 let
 matches
 =
-App
+Command
 :
 :
 new

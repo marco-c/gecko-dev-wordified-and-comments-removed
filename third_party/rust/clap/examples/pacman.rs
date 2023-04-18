@@ -3,9 +3,8 @@ clap
 :
 :
 {
-App
-AppSettings
 Arg
+Command
 }
 ;
 fn
@@ -16,7 +15,7 @@ main
 let
 matches
 =
-App
+Command
 :
 :
 new
@@ -46,12 +45,14 @@ version
 "
 )
 .
-setting
+subcommand_required
 (
-AppSettings
-:
-:
-SubcommandRequiredElseHelp
+true
+)
+.
+arg_required_else_help
+(
+true
 )
 .
 author
@@ -65,7 +66,7 @@ Team
 .
 subcommand
 (
-App
+Command
 :
 :
 new
@@ -213,7 +214,7 @@ true
 .
 subcommand
 (
-App
+Command
 :
 :
 new

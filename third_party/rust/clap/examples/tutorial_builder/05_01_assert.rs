@@ -3,8 +3,8 @@ clap
 :
 :
 {
-app_from_crate
 arg
+command
 }
 ;
 fn
@@ -15,7 +15,7 @@ main
 let
 matches
 =
-app
+cmd
 (
 )
 .
@@ -69,7 +69,7 @@ port
 ;
 }
 fn
-app
+cmd
 (
 )
 -
@@ -77,13 +77,13 @@ app
 clap
 :
 :
-App
+Command
 <
 '
 static
 >
 {
-app_from_crate
+command
 !
 (
 )
@@ -135,7 +135,7 @@ verify_app
 (
 )
 {
-app
+cmd
 (
 )
 .
