@@ -2177,7 +2177,6 @@ recordEvent
 "
 jsm
 "
-null
 consoleEvent
 )
 ;

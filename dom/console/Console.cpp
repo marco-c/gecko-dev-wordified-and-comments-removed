@@ -7352,7 +7352,6 @@ return
 }
 nsAutoString
 innerID
-outerID
 ;
 MOZ_ASSERT
 (
@@ -7382,13 +7381,6 @@ ConsoleCallData
 eString
 )
 {
-outerID
-=
-aData
--
->
-mOuterIDString
-;
 innerID
 =
 aData
@@ -7411,16 +7403,6 @@ ConsoleCallData
 :
 :
 eNumber
-)
-;
-outerID
-.
-AppendInt
-(
-aData
--
->
-mOuterIDNumber
 )
 ;
 innerID
@@ -7485,7 +7467,6 @@ mStorage
 RecordEvent
 (
 innerID
-outerID
 eventValue
 )
 )
