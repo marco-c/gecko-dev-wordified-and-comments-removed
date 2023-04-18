@@ -7943,6 +7943,12 @@ pocket
 sign
 -
 up
+.
+pocket
+-
+discover
+-
+more
 )
 .
 forEach
