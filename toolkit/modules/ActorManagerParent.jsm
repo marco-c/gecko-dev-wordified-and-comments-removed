@@ -1922,9 +1922,16 @@ jsm
 events
 :
 {
+DOMContentLoaded
+:
+{
+}
 DOMMetaAdded
 :
 {
+createActor
+:
+false
 }
 }
 }
