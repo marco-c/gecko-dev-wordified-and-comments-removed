@@ -167,18 +167,11 @@ new
 NetworkObserver
 (
 {
-browserId
-:
-this
-.
-browserId
-addonId
+sessionContext
 :
 watcherActor
 .
 sessionContext
-.
-addonId
 }
 {
 onNetworkEvent
@@ -1033,7 +1026,6 @@ channelId
 }
 destroy
 (
-watcherActor
 )
 {
 if
