@@ -2250,7 +2250,6 @@ js
 leaf
 stackwalk
 cpu
-threads
 screenshots
 "
                 
