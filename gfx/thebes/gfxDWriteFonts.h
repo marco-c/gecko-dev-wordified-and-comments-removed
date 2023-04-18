@@ -334,7 +334,6 @@ const
 override
 {
 return
-*
 mMetrics
 ;
 }
@@ -402,7 +401,6 @@ IDWriteFontFace1
 mFontFace1
 ;
 Metrics
-*
 mMetrics
 ;
 mozilla
