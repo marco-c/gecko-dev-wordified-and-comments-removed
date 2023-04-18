@@ -1410,6 +1410,12 @@ RenderTextureHost
 >
 mRenderTexturesDeferred
 ;
+RefPtr
+<
+nsIRunnable
+>
+mRenderTextureOpsRunnable
+;
 bool
 mHasShutdown
 ;
