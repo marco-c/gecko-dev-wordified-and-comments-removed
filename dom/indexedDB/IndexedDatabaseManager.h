@@ -412,6 +412,7 @@ GetLocale
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 CommonPostHandleEvent

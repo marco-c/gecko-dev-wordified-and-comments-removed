@@ -1590,11 +1590,11 @@ if
 aWorkerPrivate
 )
 {
+RefPtr
+<
 WorkerGlobalScope
-*
+>
 globalScope
-=
-nullptr
 ;
 UNWRAP_OBJECT
 (
@@ -1744,9 +1744,12 @@ EventDispatcher
 :
 DispatchDOMEvent
 (
+MOZ_KnownLive
+(
 ToSupports
 (
 globalScope
+)
 )
 nullptr
 event
