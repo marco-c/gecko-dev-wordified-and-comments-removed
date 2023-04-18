@@ -1399,6 +1399,9 @@ __init__
 self
 *
 args
+check
+=
+True
 *
 *
 kwargs
@@ -1418,11 +1421,21 @@ args
 kwargs
 )
         
+self
+.
+check
+=
+check
+        
 if
 not
 gecko_taskgraph
 .
 fast
+and
+self
+.
+check
 :
             
 check_schema
@@ -1457,6 +1470,12 @@ args
 kwargs
 )
         
+if
+self
+.
+check
+:
+            
 check_schema
 (
 schema
