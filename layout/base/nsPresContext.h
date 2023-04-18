@@ -1598,13 +1598,13 @@ ManagedPostRefreshObserver
 *
 )
 ;
+protected
+:
 void
 CancelManagedPostRefreshObservers
 (
 )
 ;
-protected
-:
 void
 UpdateEffectiveTextZoom
 (
