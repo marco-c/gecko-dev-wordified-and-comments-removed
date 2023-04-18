@@ -778,7 +778,7 @@ GdkAtom
 nsRetrievalContextWaylandAsync
 :
 :
-GetTargetsImpl
+GetTargets
 (
 int32_t
 aWhichClipboard
