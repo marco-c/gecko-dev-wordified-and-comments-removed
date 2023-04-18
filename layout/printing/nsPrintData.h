@@ -134,12 +134,6 @@ nsIWebProgressListener
 >
 mPrintProgressListeners
 ;
-nsPrintObject
-*
-mSelectionRoot
-=
-nullptr
-;
 bool
 mOnStartSent
 ;

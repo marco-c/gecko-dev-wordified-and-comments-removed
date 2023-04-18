@@ -749,6 +749,12 @@ RemotePrintJobChild
 >
 mRemotePrintJob
 ;
+nsPrintObject
+*
+mSelectionRoot
+=
+nullptr
+;
 nsTArray
 <
 nsPrintObject

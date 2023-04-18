@@ -871,9 +871,6 @@ printisfocuseddoc
 )
 )
 {
-mPrt
--
->
 mSelectionRoot
 =
 aParentPO
@@ -887,9 +884,6 @@ else
 if
 (
 !
-mPrt
--
->
 mSelectionRoot
 &
 &
@@ -901,9 +895,6 @@ HasSelection
 )
 )
 {
-mPrt
--
->
 mSelectionRoot
 =
 mPrt
@@ -9764,17 +9755,11 @@ NS_ENSURE_STATE
 mDisallowSelectionPrint
 &
 &
-printData
--
->
 mSelectionRoot
 )
 ;
 if
 (
-printData
--
->
 mSelectionRoot
 -
 >
@@ -9785,9 +9770,6 @@ eIFrame
 &
 &
 !
-printData
--
->
 mSelectionRoot
 -
 >
@@ -9796,9 +9778,6 @@ HasSelection
 )
 )
 {
-printData
--
->
 mSelectionRoot
 -
 >
@@ -9810,9 +9789,6 @@ true
 }
 else
 {
-printData
--
->
 mSelectionRoot
 -
 >
@@ -9905,9 +9881,6 @@ hasSelection
 mDisallowSelectionPrint
 &
 &
-printData
--
->
 mSelectionRoot
 ;
 const
