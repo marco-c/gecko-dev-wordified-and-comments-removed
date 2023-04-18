@@ -687,9 +687,6 @@ FirefoxProcess
 process
 :
 Child
-profile
-:
-Profile
 }
 impl
 RunnerProcess
@@ -1734,11 +1731,6 @@ Ok
 FirefoxProcess
 {
 process
-profile
-:
-self
-.
-profile
 }
 )
 }
