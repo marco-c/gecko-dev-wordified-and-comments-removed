@@ -1177,6 +1177,15 @@ aChannel
 ;
 static
 bool
+ShouldResistFingerprinting
+(
+char
+*
+aChar
+)
+;
+static
+bool
 UseStandinsForNativeColors
 (
 )
