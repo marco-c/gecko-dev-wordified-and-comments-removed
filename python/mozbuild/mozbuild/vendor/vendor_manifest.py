@@ -2804,18 +2804,18 @@ in
 /
 mach
 vendor
-and
-should
-be
-reported
-to
-the
+.
 "
                 
 +
 "
-Updatebot
-maintainers
+Please
+review
+the
+affected
+files
+before
+committing
 .
 "
             
@@ -2825,5 +2825,6 @@ sys
 .
 exit
 (
+-
 1
 )
