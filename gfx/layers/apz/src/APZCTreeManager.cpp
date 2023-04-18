@@ -12841,6 +12841,9 @@ transformedHandoffState
 ;
 if
 (
+current
+-
+>
 IsZero
 (
 residualVelocity
