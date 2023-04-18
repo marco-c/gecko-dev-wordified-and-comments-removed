@@ -490,7 +490,7 @@ messages
 const
 onLaxMissingWarningMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 test
@@ -567,7 +567,7 @@ grouping
 const
 onCookieSameSiteWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 test
@@ -913,7 +913,7 @@ node
 }
 =
 await
-waitForMessage
+waitForMessageByType
 (
 hud
 groupLabel

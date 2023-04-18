@@ -414,7 +414,7 @@ page
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -422,6 +422,12 @@ another
 simple
 text
 message
+"
+"
+.
+console
+-
+api
 "
 )
 ;

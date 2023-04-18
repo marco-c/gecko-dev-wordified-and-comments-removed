@@ -147,12 +147,16 @@ title
 const
 onPermissionDeniedMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
 Permission
 denied
+"
+"
+.
+error
 "
 )
 ;

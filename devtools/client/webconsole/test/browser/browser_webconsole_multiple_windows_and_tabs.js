@@ -244,10 +244,16 @@ tab
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 message
+"
+.
+console
+-
+api
+"
 )
 ;
 await

@@ -333,7 +333,7 @@ grouped
 let
 onContentBlockedMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 CONTENT_BLOCKED_URL
@@ -448,7 +448,7 @@ grouping
 let
 onContentBlockedWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 CONTENT_BLOCKED_GROUP_LABEL
@@ -520,7 +520,7 @@ message
 let
 onStorageBlockedWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 STORAGE_BLOCKED_URL
@@ -656,7 +656,7 @@ group
 ;
 onStorageBlockedWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 STORAGE_BLOCKED_GROUP_LABEL
@@ -805,7 +805,7 @@ group
 let
 onStorageBlockedMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 STORAGE_BLOCKED_URL
@@ -1046,7 +1046,7 @@ one
 ;
 onStorageBlockedMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 STORAGE_BLOCKED_URL
@@ -1066,7 +1066,7 @@ onStorageBlockedMessage
 ;
 onContentBlockedMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 CONTENT_BLOCKED_URL
@@ -1173,7 +1173,7 @@ warningGroups
 ;
 onStorageBlockedWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 STORAGE_BLOCKED_GROUP_LABEL
@@ -1192,7 +1192,7 @@ onStorageBlockedWarningGroupMessage
 ;
 onContentBlockedWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 CONTENT_BLOCKED_GROUP_LABEL
@@ -1400,10 +1400,16 @@ str
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 str
+"
+.
+console
+-
+api
+"
 )
 ;
 SpecialPowers

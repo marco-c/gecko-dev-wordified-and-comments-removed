@@ -890,7 +890,7 @@ values
 const
 onResult
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "

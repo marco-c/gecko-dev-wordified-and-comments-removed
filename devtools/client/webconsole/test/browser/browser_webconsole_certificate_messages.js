@@ -248,10 +248,16 @@ max
 const
 onContentLog
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 TRIGGER_MSG
+"
+.
+console
+-
+api
+"
 )
 ;
 await

@@ -129,7 +129,7 @@ delay
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -140,8 +140,6 @@ concurrent
 9000
 "
 "
-.
-message
 .
 result
 "

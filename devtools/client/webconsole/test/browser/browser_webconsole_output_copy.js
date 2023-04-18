@@ -55,10 +55,16 @@ world
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 smokeMessage
+"
+.
+console
+-
+api
+"
 )
 ;
 SpecialPowers

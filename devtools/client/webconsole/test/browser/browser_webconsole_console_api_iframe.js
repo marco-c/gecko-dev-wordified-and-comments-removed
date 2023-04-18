@@ -97,10 +97,16 @@ console
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 loggedString
+"
+.
+console
+-
+api
+"
 )
 ;
 BrowserReload

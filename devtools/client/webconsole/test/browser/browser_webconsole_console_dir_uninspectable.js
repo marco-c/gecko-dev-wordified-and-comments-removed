@@ -157,10 +157,16 @@ broken
 const
 onLogMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 SECOND_LOG_MESSAGE
+"
+.
+console
+-
+api
+"
 )
 ;
 SpecialPowers

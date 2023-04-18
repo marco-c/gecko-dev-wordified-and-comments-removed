@@ -392,7 +392,7 @@ input
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "

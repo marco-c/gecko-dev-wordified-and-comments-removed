@@ -104,7 +104,7 @@ expression
 let
 onResultMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -197,7 +197,7 @@ length
 ;
 onResultMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -252,7 +252,7 @@ button
 ;
 onResultMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -376,7 +376,7 @@ length
 ;
 onResultMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "

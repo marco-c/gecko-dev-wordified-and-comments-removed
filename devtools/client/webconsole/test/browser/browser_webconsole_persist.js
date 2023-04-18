@@ -1094,7 +1094,7 @@ hud
 const
 onNavigatedMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -1103,6 +1103,10 @@ to
 "
 +
 TEST_COM_URI
+"
+.
+navigationMarker
+"
 )
 ;
 const
@@ -1205,7 +1209,7 @@ persisted
 const
 onNavigatedMessage2
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -1214,6 +1218,10 @@ to
 "
 +
 TEST_ORG_URI
+"
+.
+navigationMarker
+"
 )
 ;
 timeBeforeNavigation
@@ -1310,7 +1318,7 @@ lifecycle
 const
 onNavigatedMessage3
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -1319,6 +1327,10 @@ to
 "
 +
 TEST_MOCHI_URI
+"
+.
+navigationMarker
+"
 )
 ;
 timeBeforeNavigation

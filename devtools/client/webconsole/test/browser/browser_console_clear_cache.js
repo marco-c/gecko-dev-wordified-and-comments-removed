@@ -299,10 +299,16 @@ text
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 text
+"
+.
+console
+-
+api
+"
 )
 ;
 SpecialPowers

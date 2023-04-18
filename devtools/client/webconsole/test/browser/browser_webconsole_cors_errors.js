@@ -201,7 +201,7 @@ true
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -209,6 +209,10 @@ Reason
 :
 CORS
 disabled
+"
+"
+.
+error
 "
 )
 ;
@@ -257,7 +261,7 @@ CORSPreflightDidNotSucceed
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 (
@@ -274,6 +278,10 @@ succeed
 Status
 code
 :
+"
+.
+error
+"
 )
 ;
 makeFaultyCorsCall
@@ -311,7 +319,7 @@ succeed
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -328,6 +336,10 @@ succeed
 Status
 code
 :
+"
+"
+.
+error
 "
 )
 ;
@@ -363,7 +375,7 @@ CORSExternalRedirectNotAllowed
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -375,6 +387,10 @@ external
 redirect
 not
 allowed
+"
+"
+.
+error
 "
 )
 ;
@@ -410,7 +426,7 @@ CORSMissingAllowOrigin
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 (
@@ -438,6 +454,10 @@ missing
 Status
 code
 :
+"
+.
+error
+"
 )
 ;
 makeFaultyCorsCall
@@ -472,7 +492,7 @@ CORSMultipleAllowOriginNotAllowed
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 Reason
@@ -496,6 +516,10 @@ Origin
 }
 not
 allowed
+"
+.
+error
+"
 )
 ;
 makeFaultyCorsCall
@@ -530,7 +554,7 @@ CORSAllowOriginNotMatchingOrigin
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 Reason
@@ -565,6 +589,10 @@ test
 "
 )
 }
+"
+.
+error
+"
 )
 ;
 makeFaultyCorsCall
@@ -599,7 +627,7 @@ CORSNotSupportingCredentials
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 Reason
@@ -636,6 +664,10 @@ quote
 "
 )
 }
+"
+.
+error
+"
 )
 ;
 makeFaultyCorsCall
@@ -670,7 +702,7 @@ CORSMethodNotFound
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 Reason
@@ -697,6 +729,10 @@ Methods
 "
 )
 }
+"
+.
+error
+"
 )
 ;
 makeFaultyCorsCall
@@ -731,7 +767,7 @@ CORSMissingAllowCredentials
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 Reason
@@ -763,6 +799,10 @@ Credentials
 "
 )
 }
+"
+.
+error
+"
 )
 ;
 makeFaultyCorsCall
@@ -797,7 +837,7 @@ CORSInvalidAllowMethod
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 Reason
@@ -831,6 +871,10 @@ Methods
 "
 )
 }
+"
+.
+error
+"
 )
 ;
 makeFaultyCorsCall
@@ -865,7 +909,7 @@ CORSInvalidAllowHeader
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 Reason
@@ -899,6 +943,10 @@ Headers
 "
 )
 }
+"
+.
+error
+"
 )
 ;
 makeFaultyCorsCall
@@ -933,7 +981,7 @@ CORSMissingAllowHeaderFromPreflight
 ;
 onCorsMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 Reason
@@ -972,6 +1020,10 @@ from
 CORS
 preflight
 response
+"
+.
+error
+"
 )
 ;
 makeFaultyCorsCall

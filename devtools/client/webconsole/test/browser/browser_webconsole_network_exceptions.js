@@ -101,11 +101,15 @@ expectUncaughtException
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
 bug618078exception
+"
+"
+.
+error
 "
 )
 ;

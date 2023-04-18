@@ -61,10 +61,16 @@ test
 const
 onLoggedMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 label
+"
+.
+console
+-
+api
+"
 )
 ;
 await

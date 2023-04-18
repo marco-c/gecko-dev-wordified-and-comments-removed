@@ -271,7 +271,7 @@ url1
 const
 onStorageIsolationWarningMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 message
@@ -325,7 +325,7 @@ grouping
 const
 onStorageIsolationWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 STORAGE_ISOLATION_GROUP_LABEL

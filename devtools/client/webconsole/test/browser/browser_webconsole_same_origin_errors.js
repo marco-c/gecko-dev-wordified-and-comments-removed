@@ -72,7 +72,7 @@ org
 const
 onErrorMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -80,6 +80,10 @@ may
 not
 load
 data
+"
+"
+.
+error
 "
 )
 ;

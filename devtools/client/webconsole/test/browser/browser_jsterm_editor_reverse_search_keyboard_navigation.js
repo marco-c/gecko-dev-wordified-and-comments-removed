@@ -174,7 +174,7 @@ Snoopy
 const
 onLastMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "

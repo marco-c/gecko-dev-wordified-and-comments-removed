@@ -245,10 +245,16 @@ world
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 messageText
+"
+.
+console
+-
+api
+"
 )
 ;
 SpecialPowers

@@ -226,7 +226,7 @@ result
 const
 onAwaitResultMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 [
@@ -238,8 +238,6 @@ bar
 "
 ]
 "
-.
-message
 .
 result
 "

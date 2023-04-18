@@ -316,12 +316,16 @@ empty
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
 hello
 world
+"
+"
+.
+result
 "
 )
 ;

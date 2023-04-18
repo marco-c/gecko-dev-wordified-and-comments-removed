@@ -118,10 +118,14 @@ hud
 const
 onCSPViolationMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 CSP_VIOLATION_MSG
+"
+.
+warn
+"
 )
 ;
 await

@@ -439,10 +439,14 @@ hud
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 XHR_URL
+"
+.
+network
+"
 )
 ;
 const

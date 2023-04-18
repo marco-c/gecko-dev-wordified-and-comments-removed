@@ -78,7 +78,7 @@ TEST_URI
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -86,6 +86,10 @@ bogus
 is
 not
 defined
+"
+"
+.
+error
 "
 )
 ;

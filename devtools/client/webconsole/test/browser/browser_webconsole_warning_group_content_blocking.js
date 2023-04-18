@@ -356,7 +356,7 @@ enabled
 const
 onContentBlockingWarningMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 message
@@ -418,7 +418,7 @@ grouping
 const
 onContentBlockingWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL
@@ -1085,7 +1085,7 @@ url
 const
 onStorageAccessBlockedMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 getWarningMessage
@@ -1145,7 +1145,7 @@ grouping
 const
 onContentBlockingWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 groupLabel

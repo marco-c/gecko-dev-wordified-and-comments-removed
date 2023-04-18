@@ -84,7 +84,7 @@ longString
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 LONGSTRING
@@ -94,6 +94,12 @@ slice
 0
 50
 )
+"
+.
+console
+-
+api
+"
 )
 ;
 SpecialPowers

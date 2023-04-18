@@ -377,7 +377,7 @@ expression
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
