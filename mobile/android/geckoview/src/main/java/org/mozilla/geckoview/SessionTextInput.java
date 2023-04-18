@@ -600,6 +600,9 @@ RectF
 [
 ]
 aRects
+final
+RectF
+aCaretRect
 )
 ;
 }

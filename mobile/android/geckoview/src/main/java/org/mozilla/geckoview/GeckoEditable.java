@@ -10227,6 +10227,9 @@ RectF
 [
 ]
 rects
+final
+RectF
+caretRect
 )
 {
 if
@@ -10303,6 +10306,7 @@ mListener
 updateCompositionRects
 (
 rects
+caretRect
 )
 ;
 }

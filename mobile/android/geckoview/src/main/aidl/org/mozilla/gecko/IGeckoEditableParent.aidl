@@ -262,6 +262,9 @@ RectF
 [
 ]
 rects
+in
+RectF
+caretRect
 )
 ;
 }
