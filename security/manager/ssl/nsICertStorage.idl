@@ -363,6 +363,12 @@ STATE_NOT_COVERED
 =
 3
 ;
+const
+short
+STATE_NO_FILTER
+=
+4
+;
 [
 must_use
 ]
