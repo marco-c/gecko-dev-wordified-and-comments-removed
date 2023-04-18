@@ -1178,9 +1178,6 @@ GetFactory
 nsresult
 CreateInstance
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
