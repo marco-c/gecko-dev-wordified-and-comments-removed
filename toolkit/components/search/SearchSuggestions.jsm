@@ -46,11 +46,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SearchSuggestionController
 "
@@ -95,6 +101,8 @@ this
 _suggestionController
 =
 new
+lazy
+.
 SearchSuggestionController
 (
 obj

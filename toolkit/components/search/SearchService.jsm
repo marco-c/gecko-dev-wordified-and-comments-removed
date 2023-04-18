@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -272,7 +278,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -294,6 +300,8 @@ SearchService
 "
 maxLogLevel
 :
+lazy
+.
 SearchUtils
 .
 loggingEnabled
@@ -510,6 +518,8 @@ this
 _settings
 =
 new
+lazy
+.
 SearchSettings
 (
 this
@@ -641,6 +651,8 @@ _initRV
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -747,6 +759,8 @@ this
 "
 _separatePrivateDefaultPrefValue
 "
+lazy
+.
 SearchUtils
 .
 BROWSER_SEARCH_PREF
@@ -773,6 +787,8 @@ this
 "
 _separatePrivateDefaultEnabledPrefValue
 "
+lazy
+.
 SearchUtils
 .
 BROWSER_SEARCH_PREF
@@ -802,6 +818,8 @@ obs
 addObserver
 (
 this
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -814,6 +832,8 @@ this
 _engineSelector
 =
 new
+lazy
+.
 SearchEngineSelector
 (
 this
@@ -868,6 +888,8 @@ startup
 shuttingDown
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -909,6 +931,8 @@ this
 _initRV
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -955,6 +979,8 @@ Cr
 .
 NS_ERROR_FAILURE
 ;
+lazy
+.
 logConsole
 .
 error
@@ -1028,6 +1054,8 @@ obs
 notifyObservers
 (
 null
+lazy
+.
 SearchUtils
 .
 TOPIC_SEARCH_SERVICE
@@ -1038,6 +1066,8 @@ complete
 "
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -1075,6 +1105,8 @@ const
 current
 =
 await
+lazy
+.
 IgnoreLists
 .
 getAndSubscribe
@@ -1109,6 +1141,8 @@ obs
 notifyObservers
 (
 null
+lazy
+.
 SearchUtils
 .
 TOPIC_SEARCH_SERVICE
@@ -1128,6 +1162,8 @@ _handleIgnoreListUpdated
 eventData
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -1533,6 +1569,8 @@ _extensionID
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -1578,6 +1616,8 @@ extension
 manifest
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -1658,6 +1698,8 @@ extension
 manifest
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -1906,6 +1948,8 @@ prevMetaData
 .
 appDefaultEngine
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -1939,6 +1983,8 @@ privateDefault
 )
 ;
 await
+lazy
+.
 AddonManager
 .
 readyPromise
@@ -1970,6 +2016,8 @@ engine
 )
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -2010,6 +2058,8 @@ _installExtensionEngine
 (
 extension
 [
+lazy
+.
 SearchUtils
 .
 DEFAULT_TAG
@@ -2044,6 +2094,8 @@ settings
 engines
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -2212,6 +2264,8 @@ _loadEnginesFromConfig
 engineConfigs
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2310,6 +2364,8 @@ this
 _maybeReloadDebounce
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2394,6 +2450,8 @@ reportError
 10000
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -2430,6 +2488,8 @@ get
 (
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -2462,6 +2522,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -2480,6 +2542,8 @@ _reloadingEngines
 =
 false
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -2710,6 +2774,8 @@ webExtension
 locale
 |
 |
+lazy
+.
 SearchUtils
 .
 DEFAULT_TAG
@@ -2901,6 +2967,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -3051,6 +3119,8 @@ defaultEngine
 prevCurrentEngine
 )
 {
+lazy
+.
 SearchUtils
 .
 notifyAction
@@ -3058,6 +3128,8 @@ notifyAction
 this
 .
 _currentEngine
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -3073,6 +3145,8 @@ this
 _separatePrivateDefault
 )
 {
+lazy
+.
 SearchUtils
 .
 notifyAction
@@ -3080,6 +3154,8 @@ notifyAction
 this
 .
 _currentEngine
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -3160,6 +3236,8 @@ defaultPrivateEngine
 prevPrivateEngine
 )
 {
+lazy
+.
 SearchUtils
 .
 notifyAction
@@ -3167,6 +3245,8 @@ notifyAction
 this
 .
 _currentPrivateEngine
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -3254,6 +3334,8 @@ let
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -3288,11 +3370,15 @@ engine
 )
 ;
 }
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 engine
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -3337,6 +3423,8 @@ obs
 notifyObservers
 (
 null
+lazy
+.
 SearchUtils
 .
 TOPIC_SEARCH_SERVICE
@@ -3457,6 +3545,8 @@ engine
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -3472,6 +3562,8 @@ engine
 return
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -3529,6 +3621,8 @@ name
 hasSameNameAsUpdate
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -3635,11 +3729,15 @@ name
 engine
 )
 ;
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 engine
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -3691,11 +3789,15 @@ _saveSortedEngineList
 )
 ;
 }
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 engine
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -3781,6 +3883,8 @@ name
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -3863,6 +3967,8 @@ enginesCache
 return
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -4018,6 +4124,8 @@ let
 engine
 =
 new
+lazy
+.
 SearchEngine
 (
 {
@@ -4052,6 +4160,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -4080,6 +4190,8 @@ if
 skippedEngines
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -4119,6 +4231,8 @@ locale
 appLocaleAsBCP47
 region
 :
+lazy
+.
 Region
 .
 home
@@ -4149,6 +4263,8 @@ AppConstants
 MOZ_UPDATE_CHANNEL
 experiment
 :
+lazy
+.
 NimbusFeatures
 .
 search
@@ -4165,6 +4281,8 @@ experiment
 "
 distroID
 :
+lazy
+.
 SearchUtils
 .
 distroID
@@ -4255,6 +4373,8 @@ webExtension
 locale
 ?
 ?
+lazy
+.
 SearchUtils
 .
 DEFAULT_TAG
@@ -4334,6 +4454,8 @@ _saveSortedEngineList
 (
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -4422,6 +4544,8 @@ useSavedOrder
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -4671,6 +4795,8 @@ alphaEngines
 )
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -4986,6 +5112,8 @@ init
 (
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -5124,6 +5252,8 @@ async
 =
 >
 {
+lazy
+.
 logConsole
 .
 debug
@@ -5239,6 +5369,8 @@ _migrateLegacyEngines
 (
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -5358,6 +5490,8 @@ engines
 length
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -5405,6 +5539,8 @@ engine
 }
 }
 }
+lazy
+.
 logConsole
 .
 debug
@@ -5423,6 +5559,8 @@ _checkWebExtensionEngines
 (
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -5498,6 +5636,8 @@ let
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -5513,6 +5653,8 @@ if
 addon
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -5568,6 +5710,8 @@ addon
 isActive
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -5650,6 +5794,8 @@ if
 providerSettings
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -5711,6 +5857,8 @@ providerSettings
 name
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -5770,6 +5918,8 @@ providerSettings
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -5822,6 +5972,8 @@ _extensionID
 }
 }
 }
+lazy
+.
 logConsole
 .
 debug
@@ -5847,6 +5999,8 @@ init
 (
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -5879,6 +6033,8 @@ init
 true
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -5959,6 +6115,8 @@ _getEnginesByExtensionID
 extensionID
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -6216,6 +6374,8 @@ engine
 _locale
 |
 |
+lazy
+.
 SearchUtils
 .
 DEFAULT_TAG
@@ -6289,6 +6449,8 @@ isAppProvided
 manifest
 locale
 =
+lazy
+.
 SearchUtils
 .
 DEFAULT_TAG
@@ -6343,6 +6505,8 @@ trim
 (
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -6444,6 +6608,8 @@ extensionID
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -6520,6 +6686,8 @@ let
 newEngine
 =
 new
+lazy
+.
 SearchEngine
 (
 {
@@ -6577,6 +6745,8 @@ addEnginesFromExtension
 extension
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -6721,6 +6891,8 @@ locale
 ;
 }
 }
+lazy
+.
 logConsole
 .
 debug
@@ -6769,6 +6941,8 @@ _installExtensionEngine
 (
 extension
 [
+lazy
+.
 SearchUtils
 .
 DEFAULT_TAG
@@ -6823,6 +6997,8 @@ engine
 _locale
 |
 |
+lazy
+.
 SearchUtils
 .
 DEFAULT_TAG
@@ -7060,6 +7236,8 @@ makeEngineFromConfig
 config
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -7103,6 +7281,8 @@ webExtension
 .
 locale
 :
+lazy
+.
 SearchUtils
 .
 DEFAULT_TAG
@@ -7125,6 +7305,8 @@ let
 engine
 =
 new
+lazy
+.
 SearchEngine
 (
 {
@@ -7198,6 +7380,8 @@ initEngine
 false
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -7258,6 +7442,8 @@ of
 locales
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -7300,6 +7486,8 @@ extension
 manifest
 locale
 =
+lazy
+.
 SearchUtils
 .
 DEFAULT_TAG
@@ -7342,6 +7530,8 @@ if
 engine
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -7403,6 +7593,8 @@ engineURL
 iconURL
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -7431,6 +7623,8 @@ var
 engine
 =
 new
+lazy
+.
 OpenSearchEngine
 (
 )
@@ -7532,6 +7726,8 @@ this
 isInitialized
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -7560,6 +7756,8 @@ id
 return
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -7864,11 +8062,15 @@ _saveSortedEngineList
 ;
 }
 }
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 engineToRemove
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -8019,6 +8221,8 @@ nsISearchEngine
 (
 engine
 instanceof
+lazy
+.
 SearchEngine
 )
 )
@@ -8255,11 +8459,15 @@ newIndex
 movedEngine
 )
 ;
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 engine
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -8527,6 +8735,8 @@ if
 newDefault
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -8753,6 +8963,8 @@ nsISearchEngine
 (
 newEngine
 instanceof
+lazy
+.
 SearchEngine
 )
 )
@@ -8848,6 +9060,8 @@ unknown
 let
 loadPathHash
 =
+lazy
+.
 SearchUtils
 .
 getVerificationHash
@@ -8891,11 +9105,15 @@ loadPathHash
 loadPathHash
 )
 ;
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 newCurrentEngine
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -9024,6 +9242,8 @@ _recordTelemetryData
 )
 ;
 }
+lazy
+.
 SearchUtils
 .
 notifyAction
@@ -9032,6 +9252,8 @@ this
 [
 currentEngine
 ]
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -9060,6 +9282,8 @@ this
 _separatePrivateDefault
 )
 {
+lazy
+.
 SearchUtils
 .
 notifyAction
@@ -9068,6 +9292,8 @@ this
 [
 currentEngine
 ]
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -9166,6 +9392,8 @@ prefs
 .
 setBoolPref
 (
+lazy
+.
 SearchUtils
 .
 BROWSER_SEARCH_PREF
@@ -9295,6 +9523,8 @@ true
 )
 )
 {
+lazy
+.
 SearchUtils
 .
 notifyAction
@@ -9302,6 +9532,8 @@ notifyAction
 this
 .
 defaultPrivateEngine
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -9429,6 +9661,8 @@ else
 let
 loadPathHash
 =
+lazy
+.
 SearchUtils
 .
 getVerificationHash
@@ -9477,6 +9711,8 @@ engine
 .
 _getURLOfType
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -9518,6 +9754,8 @@ innerEngine
 .
 _getURLOfType
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -10149,6 +10387,8 @@ mainDomain
 false
 )
 ;
+lazy
+.
 SearchStaticData
 .
 getAlternateDomains
@@ -10615,6 +10855,8 @@ idPrefix
 /
 ;
 await
+lazy
+.
 AddonManager
 .
 installBuiltinAddon
@@ -10654,6 +10896,8 @@ topic
 )
 {
 case
+lazy
+.
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -10664,6 +10908,8 @@ verb
 )
 {
 case
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -10681,6 +10927,8 @@ Ci
 nsISearchEngine
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -10709,6 +10957,8 @@ wrappedJSObject
 break
 ;
 case
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -10716,6 +10966,8 @@ MODIFIED_TYPE
 ADDED
 :
 case
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -10723,6 +10975,8 @@ MODIFIED_TYPE
 CHANGED
 :
 case
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -10762,6 +11016,8 @@ _queuedIdle
 =
 false
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -10849,10 +11105,14 @@ reportError
 break
 ;
 case
+lazy
+.
 Region
 .
 REGION_TOPIC
 :
+lazy
+.
 logConsole
 .
 debug
@@ -10862,6 +11122,8 @@ Region
 updated
 :
 "
+lazy
+.
 Region
 .
 home
@@ -10889,6 +11151,8 @@ notify
 timer
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -10911,6 +11175,8 @@ prefs
 .
 getBoolPref
 (
+lazy
+.
 SearchUtils
 .
 BROWSER_SEARCH_PREF
@@ -10934,6 +11200,8 @@ now
 (
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -10990,6 +11258,8 @@ updateexpir
 "
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -11036,6 +11306,8 @@ expirTime
 engineExpired
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -11049,6 +11321,8 @@ engine
 continue
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -11098,6 +11372,8 @@ _observersAdded
 =
 true
 ;
+lazy
+.
 NimbusFeatures
 .
 search
@@ -11126,6 +11402,8 @@ obs
 addObserver
 (
 this
+lazy
+.
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -11213,6 +11491,8 @@ this
 _initialized
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -11285,6 +11565,8 @@ this
 _ignoreListListener
 )
 {
+lazy
+.
 IgnoreLists
 .
 unsubscribe
@@ -11332,6 +11614,8 @@ removeObservers
 (
 )
 ;
+lazy
+.
 NimbusFeatures
 .
 search
@@ -11360,6 +11644,8 @@ obs
 removeObserver
 (
 this
+lazy
+.
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -11392,6 +11678,8 @@ obs
 removeObserver
 (
 this
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -11522,6 +11810,8 @@ localeToLoad
 locale
 =
 =
+lazy
+.
 SearchUtils
 .
 DEFAULT_TAG
@@ -11608,6 +11898,8 @@ engine
 .
 wrappedJSObject
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -11631,6 +11923,8 @@ prefs
 .
 getBoolPref
 (
+lazy
+.
 SearchUtils
 .
 BROWSER_SEARCH_PREF
@@ -11663,6 +11957,8 @@ engine
 .
 _getURLOfType
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -11696,6 +11992,8 @@ engine
 .
 uri
 :
+lazy
+.
 SearchUtils
 .
 makeURI
@@ -11728,6 +12026,8 @@ https
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -11745,6 +12045,8 @@ update
 return
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -11763,6 +12065,8 @@ spec
 testEngine
 =
 new
+lazy
+.
 OpenSearchEngine
 (
 )
@@ -11788,6 +12092,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -11807,6 +12113,8 @@ ex
 }
 else
 {
+lazy
+.
 logConsole
 .
 debug
@@ -11882,8 +12190,12 @@ this
 .
 _remoteConfig
 =
+lazy
+.
 RemoteSettings
 (
+lazy
+.
 SearchUtils
 .
 SETTINGS_ALLOWLIST_KEY
@@ -12051,6 +12363,8 @@ ex
 )
 ;
 }
+lazy
+.
 logConsole
 .
 debug

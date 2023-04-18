@@ -70,11 +70,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ExtensionParent
 :
@@ -165,7 +171,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -187,6 +193,8 @@ SearchEngine
 "
 maxLogLevel
 :
+lazy
+.
 SearchUtils
 .
 loggingEnabled
@@ -465,6 +473,8 @@ if
 (
 streamSize
 >
+lazy
+.
 SearchUtils
 .
 MAX_ICON_SIZE
@@ -541,6 +551,8 @@ prefs
 .
 getDefaultBranch
 (
+lazy
+.
 SearchUtils
 .
 BROWSER_SEARCH_PREF
@@ -635,6 +647,8 @@ onNimbusUpdate
 (
 )
 ;
+lazy
+.
 NimbusFeatures
 .
 search
@@ -646,6 +660,8 @@ this
 onNimbusUpdate
 )
 ;
+lazy
+.
 NimbusFeatures
 .
 search
@@ -695,6 +711,8 @@ onNimbusUpdate
 let
 extraParams
 =
+lazy
+.
 NimbusFeatures
 .
 search
@@ -1094,6 +1112,8 @@ if
 name
 =
 =
+lazy
+.
 SearchUtils
 .
 MOZ_PARAM
@@ -1114,6 +1134,8 @@ if
 name
 =
 =
+lazy
+.
 SearchUtils
 .
 MOZ_PARAM
@@ -1400,6 +1422,8 @@ this
 .
 _queryCharset
 =
+lazy
+.
 SearchUtils
 .
 DEFAULT_QUERY_CHARSET
@@ -1407,6 +1431,8 @@ DEFAULT_QUERY_CHARSET
 var
 templateURI
 =
+lazy
+.
 SearchUtils
 .
 makeURI
@@ -1734,6 +1760,8 @@ _regionParams
 ?
 .
 [
+lazy
+.
 Region
 .
 current
@@ -1747,6 +1775,8 @@ engine
 .
 _regionParams
 [
+lazy
+.
 Region
 .
 current
@@ -2193,6 +2223,8 @@ this
 type
 !
 =
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -2462,6 +2494,8 @@ value
 }
 else
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2628,6 +2662,8 @@ height
 var
 uri
 =
+lazy
+.
 SearchUtils
 .
 makeURI
@@ -2644,6 +2680,8 @@ uri
 return
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -2777,6 +2815,8 @@ if
 byteArray
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -2798,6 +2838,8 @@ byteArray
 .
 length
 >
+lazy
+.
 SearchUtils
 .
 MAX_ICON_SIZE
@@ -2805,6 +2847,8 @@ MAX_ICON_SIZE
 {
 try
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2834,6 +2878,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -2888,6 +2934,8 @@ this
 .
 _iconURI
 =
+lazy
+.
 SearchUtils
 .
 makeURI
@@ -2920,11 +2968,15 @@ this
 _engineAddedToStore
 )
 {
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 this
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -2944,6 +2996,8 @@ isPreferred
 let
 chan
 =
+lazy
+.
 SearchUtils
 .
 makeChannel
@@ -2955,6 +3009,8 @@ let
 listener
 =
 new
+lazy
+.
 SearchUtils
 .
 LoadListener
@@ -3236,6 +3292,8 @@ let
 IconDetails
 }
 =
+lazy
+.
 ExtensionParent
 ;
 let
@@ -3393,6 +3451,8 @@ if
 locale
 !
 =
+lazy
+.
 SearchUtils
 .
 DEFAULT_TAG
@@ -3677,6 +3737,8 @@ this
 .
 _getEngineURLFromMetaData
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -3782,6 +3844,8 @@ this
 .
 _getEngineURLFromMetaData
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -3878,6 +3942,8 @@ this
 .
 _getURLOfType
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -3892,6 +3958,8 @@ this
 .
 _getEngineURLFromMetaData
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -4029,11 +4097,15 @@ locale
 configuration
 )
 ;
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 this
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -4098,11 +4170,15 @@ chrome_settings_overrides
 search_provider
 )
 ;
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 this
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -4172,6 +4248,8 @@ _overriddenData
 }
 else
 {
+lazy
+.
 logConsole
 .
 error
@@ -4199,11 +4277,15 @@ overriddenBy
 "
 )
 ;
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 this
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -4254,6 +4336,8 @@ json
 queryCharset
 |
 |
+lazy
+.
 SearchUtils
 .
 DEFAULT_QUERY_CHARSET
@@ -4303,6 +4387,8 @@ this
 .
 _iconURI
 =
+lazy
+.
 SearchUtils
 .
 makeURI
@@ -4463,6 +4549,8 @@ url
 type
 |
 |
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -4645,6 +4733,8 @@ this
 queryCharset
 !
 =
+lazy
+.
 SearchUtils
 .
 DEFAULT_QUERY_CHARSET
@@ -4770,11 +4860,15 @@ alias
 value
 )
 ;
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 this
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -4953,11 +5047,15 @@ hidden
 value
 )
 ;
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 this
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -5075,6 +5173,8 @@ this
 _extensionID
 &
 &
+lazy
+.
 SearchUtils
 .
 GENERAL_SEARCH_ENGINE_IDS
@@ -5144,6 +5244,8 @@ this
 .
 _getURLOfType
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -5204,6 +5306,8 @@ this
 .
 _getURLOfType
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -5240,6 +5344,8 @@ this
 .
 _searchForm
 =
+lazy
+.
 SearchUtils
 .
 makeURI
@@ -5275,6 +5381,8 @@ this
 _queryCharset
 |
 |
+lazy
+.
 SearchUtils
 .
 DEFAULT_QUERY_CHARSET
@@ -5288,6 +5396,8 @@ _defaultMobileResponseType
 let
 type
 =
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -5428,6 +5538,8 @@ this
 .
 _defaultMobileResponseType
 :
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -5465,6 +5577,8 @@ return
 new
 Submission
 (
+lazy
+.
 SearchUtils
 .
 makeURI
@@ -5507,6 +5621,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -5531,6 +5647,8 @@ textToSubURI
 .
 ConvertAndEscape
 (
+lazy
+.
 SearchUtils
 .
 DEFAULT_QUERY_CHARSET
@@ -5582,6 +5700,8 @@ getSubmission
 searchTerms
 }
 "
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -5714,6 +5834,8 @@ getSubmission
 searchTerms
 }
 "
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -5788,6 +5910,8 @@ this
 .
 _defaultMobileResponseType
 :
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -5841,6 +5965,8 @@ this
 .
 _defaultMobileResponseType
 :
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -6282,6 +6408,8 @@ this
 .
 supportsResponseType
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -6300,6 +6428,8 @@ getSubmission
 "
 dummy
 "
+lazy
+.
 SearchUtils
 .
 URL_TYPE

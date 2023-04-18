@@ -55,11 +55,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 DeferredTask
 :
@@ -98,7 +104,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -120,6 +126,8 @@ SearchSettings
 "
 maxLogLevel
 :
+lazy
+.
 SearchUtils
 .
 loggingEnabled
@@ -209,6 +217,8 @@ obs
 addObserver
 (
 this
+lazy
+.
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -221,6 +231,8 @@ obs
 addObserver
 (
 this
+lazy
+.
 SearchUtils
 .
 TOPIC_SEARCH_SERVICE
@@ -238,6 +250,8 @@ obs
 removeObserver
 (
 this
+lazy
+.
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -250,6 +264,8 @@ obs
 removeObserver
 (
 this
+lazy
+.
 SearchUtils
 .
 TOPIC_SEARCH_SERVICE
@@ -342,6 +358,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -406,6 +424,8 @@ _metaData
 const
 prefName
 =
+lazy
+.
 SearchUtils
 .
 BROWSER_SEARCH_PREF
@@ -516,6 +536,8 @@ arm
 return
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -543,6 +565,8 @@ this
 _batchTask
 =
 new
+lazy
+.
 DeferredTask
 (
 task
@@ -581,6 +605,8 @@ _batchTask
 return
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -664,6 +690,8 @@ settings
 .
 version
 =
+lazy
+.
 SearchUtils
 .
 SETTINGS_VERSION
@@ -795,6 +823,8 @@ engine
 )
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -845,6 +875,8 @@ tmp
 }
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -868,6 +900,8 @@ obs
 notifyObservers
 (
 null
+lazy
+.
 SearchUtils
 .
 TOPIC_SEARCH_SERVICE
@@ -890,6 +924,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -959,6 +995,8 @@ name
 )
 ]
 =
+lazy
+.
 SearchUtils
 .
 getVerificationHash
@@ -1023,6 +1061,8 @@ name
 )
 !
 =
+lazy
+.
 SearchUtils
 .
 getVerificationHash
@@ -1031,6 +1071,8 @@ val
 )
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -1201,6 +1243,8 @@ topic
 )
 {
 case
+lazy
+.
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -1211,6 +1255,8 @@ verb
 )
 {
 case
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -1218,6 +1264,8 @@ MODIFIED_TYPE
 ADDED
 :
 case
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -1225,6 +1273,8 @@ MODIFIED_TYPE
 CHANGED
 :
 case
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -1243,6 +1293,8 @@ break
 break
 ;
 case
+lazy
+.
 SearchUtils
 .
 TOPIC_SEARCH_SERVICE

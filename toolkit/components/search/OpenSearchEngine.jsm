@@ -46,11 +46,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EngineURL
 :
@@ -104,7 +110,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -126,6 +132,8 @@ OpenSearchEngine
 "
 maxLogLevel
 :
+lazy
+.
 SearchUtils
 .
 loggingEnabled
@@ -303,6 +311,8 @@ resultCode
 class
 OpenSearchEngine
 extends
+lazy
+.
 SearchEngine
 {
 _data
@@ -348,6 +358,8 @@ nsIURI
 ?
 uri
 :
+lazy
+.
 SearchUtils
 .
 makeURI
@@ -419,6 +431,8 @@ NS_ERROR_INVALID_ARG
 )
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -439,6 +453,8 @@ spec
 var
 chan
 =
+lazy
+.
 SearchUtils
 .
 makeChannel
@@ -506,6 +522,8 @@ var
 listener
 =
 new
+lazy
+.
 SearchUtils
 .
 LoadListener
@@ -566,6 +584,8 @@ this
 _engineToUpdate
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -655,6 +675,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -828,6 +850,8 @@ nsISearchService
 ERROR_DUPLICATE_ENGINE
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -853,6 +877,8 @@ OpenSearchEngine
 .
 getAnonymizedLoadPath
 (
+lazy
+.
 SearchUtils
 .
 sanitizeName
@@ -894,6 +920,8 @@ setAttr
 "
 loadPathHash
 "
+lazy
+.
 SearchUtils
 .
 getVerificationHash
@@ -905,11 +933,15 @@ _loadPath
 )
 ;
 }
+lazy
+.
 SearchUtils
 .
 notifyAction
 (
 this
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -997,6 +1029,8 @@ namespaceURI
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -1182,6 +1216,8 @@ suggestions
 {
 type
 =
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -1195,6 +1231,8 @@ var
 url
 =
 new
+lazy
+.
 EngineURL
 (
 type
@@ -1320,6 +1358,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -1426,6 +1466,8 @@ height
 0
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -1558,6 +1600,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -1729,6 +1773,8 @@ this
 .
 supportsResponseType
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -1772,6 +1818,8 @@ this
 .
 _getURLOfType
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE

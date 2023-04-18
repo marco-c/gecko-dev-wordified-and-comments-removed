@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PromiseUtils
 :
@@ -680,6 +686,8 @@ engine
 .
 supportsResponseType
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -1334,6 +1342,8 @@ userContextId
 let
 deferredResponse
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -1357,6 +1367,8 @@ engine
 getSubmission
 (
 searchTerm
+lazy
+.
 SearchUtils
 .
 URL_TYPE
@@ -2617,6 +2629,8 @@ engine
 .
 supportsResponseType
 (
+lazy
+.
 SearchUtils
 .
 URL_TYPE
