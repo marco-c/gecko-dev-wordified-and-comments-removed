@@ -4056,12 +4056,11 @@ handler
 ;
 }
 else
-{
-MOZ_ASSERT
+if
 (
 mRespondWithHandler
 )
-;
+{
 mRespondWithHandler
 -
 >
@@ -4251,6 +4250,10 @@ requestURL
 ;
 }
 else
+if
+(
+mRespondWithHandler
+)
 {
 mRespondWithHandler
 -
