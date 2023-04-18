@@ -2313,6 +2313,15 @@ InitStaticMembers
 ;
 }
 ;
+bool
+ShouldSyncPreference
+(
+const
+char
+*
+aPref
+)
+;
 }
 #
 endif
