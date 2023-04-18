@@ -73,11 +73,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Sqlite
 "
@@ -5211,6 +5217,8 @@ try
 conn
 =
 await
+lazy
+.
 Sqlite
 .
 openConnection
@@ -5220,6 +5228,8 @@ path
 }
 )
 ;
+lazy
+.
 Sqlite
 .
 shutdown
