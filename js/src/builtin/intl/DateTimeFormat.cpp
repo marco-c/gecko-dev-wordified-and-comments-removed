@@ -8313,7 +8313,6 @@ mozDtf
 GetOriginalSkeleton
 (
 skeleton
-hcPattern
 )
 ;
 if
