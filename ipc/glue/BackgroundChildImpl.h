@@ -76,8 +76,6 @@ BackgroundChildImpl
 :
 public
 PBackgroundChild
-public
-ChildToParentStreamActorManager
 {
 public
 :

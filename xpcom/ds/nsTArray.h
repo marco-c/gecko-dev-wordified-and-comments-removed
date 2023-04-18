@@ -367,9 +367,6 @@ mozilla
 ipc
 {
 class
-AutoIPCStream
-;
-class
 ContentSecurityPolicy
 ;
 template
