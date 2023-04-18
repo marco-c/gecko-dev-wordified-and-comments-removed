@@ -3536,7 +3536,6 @@ mVideoRtxSsrc
 =
 rtxSsrc
 ;
-}
 if
 (
 mJsepTransceiver
@@ -3605,6 +3604,7 @@ DisableSsrcChanges
 )
 )
 ;
+}
 }
 if
 (
@@ -3905,7 +3905,6 @@ front
 (
 )
 ;
-}
 if
 (
 mJsepTransceiver
@@ -3974,6 +3973,7 @@ DisableSsrcChanges
 )
 )
 ;
+}
 }
 if
 (
