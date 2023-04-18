@@ -341,6 +341,8 @@ debug
 ensureEnterFrameTrapsState
 (
 cx
+&
+instance
 true
 )
 ;

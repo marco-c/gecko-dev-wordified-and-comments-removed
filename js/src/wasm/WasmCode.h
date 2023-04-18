@@ -1928,6 +1928,10 @@ tier
 (
 tier
 )
+debugTrapOffset
+(
+0
+)
 {
 }
 const
@@ -1963,8 +1967,8 @@ tryNotes
 ;
 #
 endif
-Uint32Vector
-debugTrapFarJumpOffsets
+uint32_t
+debugTrapOffset
 ;
 FuncExport
 &

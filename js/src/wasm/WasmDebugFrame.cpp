@@ -954,6 +954,9 @@ debug
 adjustEnterAndLeaveFrameTrapsState
 (
 cx
+instance
+(
+)
 true
 )
 ;
@@ -995,6 +998,9 @@ debug
 adjustEnterAndLeaveFrameTrapsState
 (
 cx
+instance
+(
+)
 false
 )
 ;

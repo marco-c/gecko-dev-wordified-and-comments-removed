@@ -415,6 +415,9 @@ returnLabel_
 FuncOffsets
 offsets_
 ;
+NonAssertingLabel
+debugTrapStub_
+;
 StkVector
 &
 stkSource_

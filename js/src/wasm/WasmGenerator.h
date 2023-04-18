@@ -850,9 +850,6 @@ lastPatchedCallSite_
 uint32_t
 startOfUnpatchedCallsites_
 ;
-CodeOffsetVector
-debugTrapFarJumps_
-;
 bool
 parallel_
 ;

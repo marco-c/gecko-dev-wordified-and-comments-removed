@@ -16662,6 +16662,7 @@ debug
 ensureEnterFrameTrapsState
 (
 cx
+instance
 enableTrap
 )
 ;
