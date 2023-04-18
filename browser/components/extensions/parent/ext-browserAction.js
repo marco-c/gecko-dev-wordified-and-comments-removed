@@ -968,6 +968,16 @@ extension
 true
 )
 ;
+view
+.
+setAttribute
+(
+"
+neverhidden
+"
+true
+)
+;
 document
 .
 getElementById
