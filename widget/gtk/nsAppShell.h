@@ -152,6 +152,12 @@ mLogin1Proxy
 =
 nullptr
 ;
+DBusGProxy
+*
+mTimedate1Proxy
+=
+nullptr
+;
 #
 endif
 }

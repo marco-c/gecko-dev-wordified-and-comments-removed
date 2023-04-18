@@ -1603,6 +1603,15 @@ bool
 aEnable
 )
 ;
+static
+bool
+GetTimezoneName
+(
+wchar_t
+*
+aBuffer
+)
+;
 private
 :
 static

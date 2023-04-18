@@ -1771,6 +1771,17 @@ ipc
 :
 :
 IPCResult
+RecvSystemTimezoneChanged
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvAddPermission
 (
 const

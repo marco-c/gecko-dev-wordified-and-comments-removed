@@ -82,6 +82,12 @@ nsBaseAppShell
 (
 )
 ;
+static
+void
+OnSystemTimezoneChange
+(
+)
+;
 protected
 :
 virtual
