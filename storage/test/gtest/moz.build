@@ -28,6 +28,11 @@ test_file_perms
 cpp
 "
 "
+test_interruptSynchronousConnection
+.
+cpp
+"
+"
 test_mutex
 .
 cpp
