@@ -3124,7 +3124,6 @@ nsWindow
 :
 GetParent
 (
-void
 )
 {
 return
