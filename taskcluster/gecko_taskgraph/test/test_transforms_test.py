@@ -1821,14 +1821,6 @@ socketprocess
             
 assert_spi_not_disabled
             
-marks
-=
-pytest
-.
-mark
-.
-xfail
-            
 id
 =
 "

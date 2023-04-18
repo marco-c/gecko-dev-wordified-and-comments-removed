@@ -6345,20 +6345,12 @@ has_no_setpref
 )
             
 and
-variant
-!
-=
 "
 socketprocess
 "
-            
-and
+not
+in
 variant
-!
-=
-"
-socketprocess_networking
-"
         
 )
 :
