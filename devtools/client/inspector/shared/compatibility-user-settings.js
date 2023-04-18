@@ -61,6 +61,9 @@ safari_ios
 "
 edge
 "
+"
+ie
+"
 ]
 ;
 const
