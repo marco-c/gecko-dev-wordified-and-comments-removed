@@ -4692,6 +4692,9 @@ instance
 type
 :
 integer
+ping
+:
+true
 Vendor
 :
 description
