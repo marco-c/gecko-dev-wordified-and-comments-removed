@@ -29,7 +29,7 @@ resource
 /
 autofill
 /
-FormAutofillHeuristics
+FormAutofillUtils
 .
 jsm
 "
