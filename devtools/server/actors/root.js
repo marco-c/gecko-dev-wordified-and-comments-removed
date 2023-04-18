@@ -370,9 +370,6 @@ true
 noPauseOnThreadActorAttach
 :
 true
-noDisablingOnPrivateBrowsing
-:
-true
 }
 ;
 }
