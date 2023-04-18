@@ -2568,7 +2568,7 @@ aType
 ;
 static
 bool
-HasSitePerm
+HasExactSitePerm
 (
 nsIPrincipal
 *
