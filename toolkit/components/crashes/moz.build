@@ -86,9 +86,9 @@ inputs
 "
 CrashManager
 .
-jsm
-.
 in
+.
+jsm
 "
 ]
 )
