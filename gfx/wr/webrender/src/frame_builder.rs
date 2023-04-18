@@ -1774,6 +1774,13 @@ FrameVisibilityContext
 global_device_pixel_scale
 spatial_tree
 global_screen_world_rect
+surfaces
+:
+&
+mut
+scene
+.
+surfaces
 debug_flags
 scene_properties
 config
@@ -1967,11 +1974,6 @@ mut
 scene
 .
 prim_instances
-&
-mut
-scene
-.
-surfaces
 )
 ;
 tile_cache
