@@ -476,6 +476,13 @@ mSheetLoadData
 -
 >
 mURI
+nsContentUtils
+:
+:
+SubresourceKind
+:
+:
+Style
 )
 ;
 if
