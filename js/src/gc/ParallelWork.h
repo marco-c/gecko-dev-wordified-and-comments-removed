@@ -193,9 +193,6 @@ unlock
 lock
 )
 ;
-AutoDisableProxyCheck
-noProxyCheck
-;
 for
 (
 ;
