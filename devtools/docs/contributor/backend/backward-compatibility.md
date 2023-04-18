@@ -597,7 +597,7 @@ do
 :
 js
 let
-hasPerformanceActor
+hasSomeActor
 =
 toolbox
 .
@@ -606,7 +606,7 @@ target
 hasActor
 (
 "
-performance
+actorTypeName
 "
 )
 ;

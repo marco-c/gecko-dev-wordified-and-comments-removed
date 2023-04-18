@@ -59,7 +59,7 @@ target
 getCachedFront
 (
 "
-performance
+accessibility
 "
 )
 ;
@@ -99,7 +99,7 @@ target
 getFront
 (
 "
-performance
+accessibility
 "
 )
 ;
@@ -110,7 +110,7 @@ target
 getCachedFront
 (
 "
-performance
+accessibility
 "
 )
 ;
@@ -154,7 +154,7 @@ target
 getCachedFront
 (
 "
-performance
+accessibility
 "
 )
 ;
