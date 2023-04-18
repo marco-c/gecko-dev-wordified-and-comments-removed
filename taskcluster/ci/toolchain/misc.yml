@@ -1561,6 +1561,13 @@ Linux
 and
 Windows
 "
+attributes
+:
+local
+-
+toolchain
+:
+true
 treeherder
 :
 symbol
