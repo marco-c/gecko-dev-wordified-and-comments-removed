@@ -159,15 +159,6 @@ from
 threads
 "
 ;
-import
-{
-uniq
-}
-from
-"
-lodash
-"
-;
 export
 function
 initialSourcesState
@@ -1985,7 +1976,12 @@ source
 )
 {
 return
-uniq
+[
+.
+.
+.
+new
+Set
 (
 getSourceActors
 (
@@ -2012,6 +2008,7 @@ actor
 thread
 )
 )
+]
 ;
 }
 export

@@ -182,7 +182,6 @@ PreviewFunction
 ;
 import
 {
-uniq
 sortBy
 }
 from
@@ -1392,7 +1391,12 @@ state
 let
 classes
 =
-uniq
+[
+.
+.
+.
+new
+Set
 (
 functions
 .
@@ -1408,6 +1412,7 @@ klass
 klass
 )
 )
+]
 ;
 let
 namedFunctions

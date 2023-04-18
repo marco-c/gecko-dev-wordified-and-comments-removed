@@ -1,6 +1,5 @@
 import
 {
-uniq
 remove
 }
 from
@@ -110,7 +109,12 @@ getState
 const
 newEvents
 =
-uniq
+[
+.
+.
+.
+new
+Set
 (
 [
 .
@@ -123,6 +127,7 @@ eventsToAdd
 activeListenerBreakpoints
 ]
 )
+]
 ;
 await
 updateBreakpoints
@@ -278,7 +283,12 @@ getState
 const
 newExpanded
 =
-uniq
+[
+.
+.
+.
+new
+Set
 (
 [
 .
@@ -288,6 +298,7 @@ expanded
 category
 ]
 )
+]
 ;
 await
 updateExpanded
