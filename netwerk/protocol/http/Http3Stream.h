@@ -432,7 +432,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 uint32_t
 mRequestBodyLenExpected
 {

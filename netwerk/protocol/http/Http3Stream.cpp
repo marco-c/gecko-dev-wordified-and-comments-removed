@@ -635,7 +635,7 @@ path
 ;
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 nsAutoCString
 contentLength
 ;
@@ -1087,7 +1087,7 @@ break
 }
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 mRequestBodyLenSent
 +
 =
@@ -1125,7 +1125,7 @@ count
 ;
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 mRequestBodyLenSent
 +
 =
@@ -2021,8 +2021,8 @@ mSendingBlockedByFlowControlCount
 ;
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
-MOZ_DIAGNOSTIC_ASSERT
+DEBUG
+MOZ_ASSERT
 (
 mRequestBodyLenSent
 =
