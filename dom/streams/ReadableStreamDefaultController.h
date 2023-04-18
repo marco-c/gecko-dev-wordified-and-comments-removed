@@ -219,10 +219,10 @@ protected
 ReadableStreamDefaultController
 (
 )
+override
 ;
 public
 :
-virtual
 bool
 IsDefault
 (
@@ -233,7 +233,6 @@ return
 true
 ;
 }
-virtual
 bool
 IsByte
 (
@@ -244,7 +243,6 @@ return
 false
 ;
 }
-virtual
 ReadableStreamDefaultController
 *
 AsDefault
@@ -352,7 +350,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 already_AddRefed
 <
 Promise
@@ -380,7 +377,6 @@ aRv
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 void
 PullSteps
 (
@@ -396,7 +392,6 @@ aRv
 )
 override
 ;
-virtual
 void
 ReleaseSteps
 (

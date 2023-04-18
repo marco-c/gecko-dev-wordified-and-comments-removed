@@ -1217,7 +1217,6 @@ aBranch
 {
 }
 MOZ_CAN_RUN_SCRIPT
-virtual
 already_AddRefed
 <
 Promise
@@ -1299,6 +1298,7 @@ protected
 NativeByteStreamTeePullAlgorithm
 (
 )
+override
 =
 default
 ;
@@ -2348,11 +2348,11 @@ false
 }
 protected
 :
-virtual
 ~
 PullWithDefaultReaderReadRequest
 (
 )
+override
 =
 default
 ;
@@ -2555,11 +2555,11 @@ const
 TeeBranch
 mForBranch
 ;
-virtual
 ~
 PullWithBYOBReader_ReadIntoRequest
 (
 )
+override
 =
 default
 ;
@@ -3900,6 +3900,7 @@ PromiseNativeHandler
 ForwardReaderErrorPromiseHandler
 (
 )
+override
 =
 default
 ;
@@ -3968,7 +3969,6 @@ override
 {
 }
 MOZ_CAN_RUN_SCRIPT
-virtual
 void
 RejectedCallback
 (
@@ -4266,7 +4266,6 @@ aBranch
 {
 }
 MOZ_CAN_RUN_SCRIPT
-virtual
 already_AddRefed
 <
 Promise
@@ -4533,6 +4532,7 @@ protected
 ReadableByteStreamTeeCancelAlgorithm
 (
 )
+override
 =
 default
 ;

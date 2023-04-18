@@ -239,6 +239,7 @@ protected
 ReadableByteStreamController
 (
 )
+override
 ;
 public
 :
@@ -377,7 +378,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 already_AddRefed
 <
 Promise
@@ -405,7 +405,6 @@ aRv
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 void
 PullSteps
 (
@@ -421,7 +420,6 @@ aRv
 )
 override
 ;
-virtual
 void
 ReleaseSteps
 (

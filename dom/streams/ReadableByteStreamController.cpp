@@ -1986,6 +1986,7 @@ PromiseNativeHandler
 ByteStreamPullIfNeededPromiseHandler
 (
 )
+override
 =
 default
 ;
@@ -7128,6 +7129,7 @@ PromiseNativeHandler
 ByteStreamStartPromiseNativeHandler
 (
 )
+override
 =
 default
 ;

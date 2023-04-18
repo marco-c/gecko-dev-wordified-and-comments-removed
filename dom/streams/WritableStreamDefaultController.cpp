@@ -557,6 +557,7 @@ PromiseNativeHandler
 WritableStartPromiseNativeHandler
 (
 )
+override
 =
 default
 ;
@@ -1291,6 +1292,7 @@ PromiseNativeHandler
 SinkCloseNativePromiseHandler
 (
 )
+override
 =
 default
 ;
@@ -1602,6 +1604,7 @@ PromiseNativeHandler
 SinkWriteNativePromiseHandler
 (
 )
+override
 =
 default
 ;

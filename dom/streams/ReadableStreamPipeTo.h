@@ -149,11 +149,11 @@ override
 ;
 private
 :
-virtual
 ~
 PipeToPump
 (
 )
+override
 =
 default
 ;

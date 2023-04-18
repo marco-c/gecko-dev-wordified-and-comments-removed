@@ -1477,6 +1477,7 @@ PromiseNativeHandler
 PullIfNeededNativePromiseHandler
 (
 )
+override
 =
 default
 ;
@@ -1786,6 +1787,7 @@ PromiseNativeHandler
 StartPromiseNativeHandler
 (
 )
+override
 =
 default
 ;

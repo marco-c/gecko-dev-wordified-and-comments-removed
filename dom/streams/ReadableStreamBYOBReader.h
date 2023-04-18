@@ -287,11 +287,11 @@ mReadIntoRequests
 }
 private
 :
-virtual
 ~
 ReadableStreamBYOBReader
 (
 )
+override
 =
 default
 ;

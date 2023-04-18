@@ -538,6 +538,7 @@ PromiseNativeHandler
 AbortStepsNativePromiseHandler
 (
 )
+override
 =
 default
 ;
