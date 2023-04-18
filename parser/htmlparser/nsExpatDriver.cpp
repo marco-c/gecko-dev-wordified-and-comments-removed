@@ -6443,9 +6443,6 @@ ConsumeToken
 nsScanner
 &
 aScanner
-bool
-&
-aFlushTokens
 )
 {
 nsScannerIterator

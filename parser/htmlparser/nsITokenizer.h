@@ -64,9 +64,6 @@ ConsumeToken
 nsScanner
 &
 aScanner
-bool
-&
-aFlushTokens
 )
 =
 0
@@ -97,9 +94,6 @@ ConsumeToken
 nsScanner
 &
 aScanner
-bool
-&
-aFlushTokens
 )
 override
 ;
