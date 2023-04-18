@@ -173,6 +173,12 @@ webrender
 -
 testing
 /
+mochitest
+-
+plain
+-
+testing
+/
 xpcshell
 -
 web

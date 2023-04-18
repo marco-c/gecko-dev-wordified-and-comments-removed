@@ -1003,6 +1003,13 @@ Mozilla
 specific
 features
 .
+They
+can
+access
+the
+SpecialPowers
+APIs
+.
 mozilla
 /
 meta
