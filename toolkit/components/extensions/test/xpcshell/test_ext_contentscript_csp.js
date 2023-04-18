@@ -2500,9 +2500,6 @@ all_urls
 >
 "
 ]
-granted_host_permissions
-:
-true
 background
 :
 {
@@ -2517,9 +2514,6 @@ js
 ]
 }
 }
-temporarilyInstalled
-:
-true
 files
 :
 {
