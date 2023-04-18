@@ -4,6 +4,7 @@ createInitial
 insertResources
 removeResources
 updateResources
+getResourceValues
 }
 from
 "

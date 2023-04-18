@@ -493,7 +493,7 @@ dispatch
 type
 :
 "
-REMOVE_BREAKPOINTS
+CLEAR_BREAKPOINTS
 "
 }
 )
