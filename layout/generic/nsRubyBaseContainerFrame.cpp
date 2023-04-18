@@ -109,6 +109,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 RubyUtils
 .
 h
