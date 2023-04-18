@@ -5,7 +5,7 @@ crate
 builtins
 :
 :
-FluentDateTimeOptionsRaw
+FluentDateTimeOptions
 ;
 use
 fluent
@@ -654,8 +654,7 @@ locale
 nsCString
 options
 :
-&
-FluentDateTimeOptionsRaw
+FluentDateTimeOptions
 )
 -
 >
