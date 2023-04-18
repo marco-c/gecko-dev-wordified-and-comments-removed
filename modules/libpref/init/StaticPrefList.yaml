@@ -57395,10 +57395,9 @@ type
 RelaxedAtomicBool
 #
 if
-!
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WIDGET_ANDROID
 )
 value
 :
