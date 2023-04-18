@@ -580,6 +580,8 @@ CertificateTransparencyMode
 ctMode
 CRLiteMode
 crliteMode
+uint64_t
+crliteCTMergeDelaySeconds
 const
 Vector
 <
@@ -631,6 +633,10 @@ ctMode
 mCRLiteMode
 (
 crliteMode
+)
+mCRLiteCTMergeDelaySeconds
+(
+crliteCTMergeDelaySeconds
 )
 {
 LoadKnownCTLogs
@@ -2946,6 +2952,7 @@ NetscapeStepUpPolicy
 :
 NeverMatch
 mCRLiteMode
+mCRLiteCTMergeDelaySeconds
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -3186,6 +3193,7 @@ i
 ]
 mNetscapeStepUpPolicy
 mCRLiteMode
+mCRLiteCTMergeDelaySeconds
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -3550,6 +3558,7 @@ j
 ]
 mNetscapeStepUpPolicy
 mCRLiteMode
+mCRLiteCTMergeDelaySeconds
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -3816,6 +3825,7 @@ SHA1Mode
 Allowed
 mNetscapeStepUpPolicy
 mCRLiteMode
+mCRLiteCTMergeDelaySeconds
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -3882,6 +3892,7 @@ NetscapeStepUpPolicy
 :
 NeverMatch
 mCRLiteMode
+mCRLiteCTMergeDelaySeconds
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -3986,6 +3997,7 @@ NetscapeStepUpPolicy
 :
 NeverMatch
 mCRLiteMode
+mCRLiteCTMergeDelaySeconds
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs

@@ -98,6 +98,8 @@ CertificateTransparencyMode
 ctMode
 CRLiteMode
 crliteMode
+uint64_t
+crliteCTMergeDelaySeconds
 const
 Vector
 <
@@ -125,6 +127,7 @@ nameMatchingMode
 netscapeStepUpPolicy
 ctMode
 crliteMode
+crliteCTMergeDelaySeconds
 thirdPartyCerts
 )
 {
