@@ -311,6 +311,10 @@ linux64
 -
 clang
 -
+win
+-
+cross
+-
 linux64
 -
 rust
@@ -916,6 +920,10 @@ linux64
 -
 clang
 -
+win
+-
+cross
+-
 linux64
 -
 rust
@@ -1520,6 +1528,10 @@ binutils
 linux64
 -
 clang
+-
+win
+-
+cross
 -
 linux64
 -
@@ -5726,6 +5738,10 @@ linux64
 -
 clang
 -
+win
+-
+cross
+-
 linux64
 -
 rust
@@ -6036,6 +6052,10 @@ binutils
 linux64
 -
 clang
+-
+win
+-
+cross
 -
 linux64
 -
@@ -6425,6 +6445,10 @@ linux64
 -
 clang
 -
+win
+-
+cross
+-
 linux64
 -
 rust
@@ -6722,6 +6746,10 @@ binutils
 linux64
 -
 clang
+-
+win
+-
+cross
 -
 linux64
 -
@@ -7747,6 +7775,10 @@ binutils
 linux64
 -
 clang
+-
+win
+-
+cross
 -
 linux64
 -

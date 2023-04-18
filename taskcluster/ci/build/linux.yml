@@ -8398,6 +8398,10 @@ linux64
 -
 clang
 -
+aarch64
+-
+cross
+-
 linux64
 -
 rust
