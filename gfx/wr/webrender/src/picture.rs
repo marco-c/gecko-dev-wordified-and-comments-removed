@@ -28119,6 +28119,7 @@ spatial_tree
 let
 clipped
 =
+(
 local_to_world
 .
 map
@@ -28138,6 +28139,11 @@ unwrap
 surface
 .
 device_pixel_scale
+)
+.
+round_out
+(
+)
 ;
 let
 unclipped
