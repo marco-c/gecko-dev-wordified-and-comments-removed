@@ -415,7 +415,7 @@ Time
 )
 )
 ;
-EXPECT_GT
+EXPECT_EQ
 (
 apzc
 -
@@ -425,9 +425,14 @@ GetVelocityVector
 )
 .
 y
-3
-.
 0
+)
+;
+apzc
+-
+>
+AssertStateIsSmoothMsdScroll
+(
 )
 ;
 mcc
