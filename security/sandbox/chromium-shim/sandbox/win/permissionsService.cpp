@@ -160,7 +160,7 @@ aFolder
 nullptr
 )
 {
-int
+size_t
 slashIdx
 =
 aFilename
