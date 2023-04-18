@@ -13097,6 +13097,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -13138,6 +13139,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -13239,9 +13241,11 @@ Assembler
 Condition
 cond
 FloatRegister
+lhs
+FloatRegister
 rhs
 FloatRegister
-lhsDest
+dest
 )
 DEFINED_ON
 (
@@ -13258,9 +13262,11 @@ Assembler
 Condition
 cond
 FloatRegister
+lhs
+FloatRegister
 rhs
 FloatRegister
-lhsDest
+dest
 FloatRegister
 temp1
 FloatRegister
@@ -13437,6 +13443,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
