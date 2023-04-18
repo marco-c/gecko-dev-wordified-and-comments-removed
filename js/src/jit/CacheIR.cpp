@@ -27378,14 +27378,11 @@ InlinableNativeIRGenerator
 :
 emitNativeCalleeGuard
 (
-JSFunction
-*
-callee
 )
 {
 MOZ_ASSERT
 (
-callee
+callee_
 -
 >
 isNativeWithoutJitEntry
@@ -27423,7 +27420,7 @@ writer
 guardSpecificFunction
 (
 calleeObjId
-callee
+callee_
 )
 ;
 if
@@ -27445,7 +27442,7 @@ toObject
 )
 =
 =
-callee
+callee_
 )
 ;
 ValOperandId
@@ -27478,7 +27475,7 @@ writer
 guardSpecificFunction
 (
 newTargetObjId
-callee
+callee_
 )
 ;
 }
@@ -27750,7 +27747,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -27955,7 +27951,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -28147,7 +28142,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -28433,7 +28427,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -28631,7 +28624,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -28908,7 +28900,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -29247,7 +29238,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -30008,7 +29998,6 @@ Object
 {
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 }
@@ -32045,7 +32034,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -32212,7 +32200,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -32325,7 +32312,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -32734,7 +32720,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -32949,7 +32934,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -33089,7 +33073,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -33198,7 +33181,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -33307,7 +33289,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -33434,7 +33415,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 mozilla
@@ -33545,7 +33525,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -33694,7 +33673,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -33846,7 +33824,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -34040,7 +34017,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -34265,7 +34241,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -34453,7 +34428,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -34641,7 +34615,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -34829,7 +34802,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -34990,7 +34962,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -35093,7 +35064,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -35338,7 +35308,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -35563,7 +35532,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -35836,7 +35804,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -36019,7 +35986,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 if
@@ -36333,7 +36299,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ObjOperandId
@@ -36456,7 +36421,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -36654,7 +36618,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -36765,7 +36728,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -37193,7 +37155,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -37544,7 +37505,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -38397,7 +38357,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -38724,7 +38683,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -38927,7 +38885,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -39018,7 +38975,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 if
@@ -39119,7 +39075,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 writer
@@ -39192,7 +39147,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 writer
@@ -39271,7 +39225,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -39354,7 +39307,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -40034,7 +39986,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -40180,7 +40131,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -40315,7 +40265,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -40482,7 +40431,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -40638,7 +40586,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -41034,7 +40981,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -41430,7 +41376,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -43915,7 +43860,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -44144,7 +44088,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 Int32OperandId
@@ -44472,7 +44415,6 @@ setInputOperandId
 ;
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
