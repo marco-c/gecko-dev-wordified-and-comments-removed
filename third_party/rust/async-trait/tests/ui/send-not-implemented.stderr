@@ -102,14 +102,6 @@ help
 within
 impl
 Future
-<
-Output
-=
-[
-async
-output
-]
->
 the
 trait
 Send
@@ -155,7 +147,7 @@ rs
 :
 11
 :
-9
+12
 |
 10
 |
@@ -201,9 +193,6 @@ f
 await
 ;
 |
-^
-^
-^
 ^
 ^
 ^
@@ -360,14 +349,6 @@ help
 within
 impl
 Future
-<
-Output
-=
-[
-async
-output
-]
->
 the
 trait
 Send
@@ -413,7 +394,7 @@ rs
 :
 17
 :
-9
+12
 |
 16
 |
@@ -459,9 +440,6 @@ f
 await
 ;
 |
-^
-^
-^
 ^
 ^
 ^

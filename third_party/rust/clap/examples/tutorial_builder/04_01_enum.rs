@@ -3,8 +3,8 @@ clap
 :
 :
 {
-app_from_crate
 arg
+command
 ArgEnum
 PossibleValue
 }
@@ -234,7 +234,7 @@ main
 let
 matches
 =
-app_from_crate
+command
 !
 (
 )

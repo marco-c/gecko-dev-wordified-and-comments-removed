@@ -125,10 +125,12 @@ version
 .
 3
 .
-19
+21
 "
 description
 =
+"
+"
 "
 The
 core
@@ -141,8 +143,8 @@ the
 futures
 library
 .
-\
-n
+"
+"
 "
 homepage
 =

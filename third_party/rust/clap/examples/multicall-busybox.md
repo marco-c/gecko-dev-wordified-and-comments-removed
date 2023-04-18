@@ -27,10 +27,10 @@ for
 clap
 :
 :
-AppSettings
+Command
 :
 :
-Multicall
+multicall
 for
 rationale
 .

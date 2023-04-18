@@ -113,9 +113,7 @@ c_uint
 pub
 data
 :
-:
-:
-intptr_t
+i64
 pub
 udata
 :

@@ -76,6 +76,9 @@ Colorizer
 #
 [
 inline
+(
+never
+)
 ]
 pub
 (
@@ -110,6 +113,9 @@ vec
 #
 [
 inline
+(
+never
+)
 ]
 pub
 (
@@ -153,6 +159,9 @@ Good
 #
 [
 inline
+(
+never
+)
 ]
 pub
 (
@@ -196,6 +205,9 @@ Warning
 #
 [
 inline
+(
+never
+)
 ]
 pub
 (
@@ -239,6 +251,9 @@ Error
 #
 [
 inline
+(
+never
+)
 ]
 #
 [
@@ -289,6 +304,9 @@ Hint
 #
 [
 inline
+(
+never
+)
 ]
 pub
 (

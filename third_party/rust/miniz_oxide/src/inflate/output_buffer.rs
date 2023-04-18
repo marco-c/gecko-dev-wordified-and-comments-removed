@@ -209,6 +209,7 @@ len
 inline
 ]
 pub
+const
 fn
 bytes_left
 (

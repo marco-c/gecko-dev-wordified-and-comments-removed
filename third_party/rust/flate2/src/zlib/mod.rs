@@ -161,6 +161,8 @@ thread_rng
 gen_range
 (
 0
+.
+.
 v
 .
 len
@@ -472,6 +474,8 @@ thread_rng
 gen_range
 (
 0
+.
+.
 v
 .
 len

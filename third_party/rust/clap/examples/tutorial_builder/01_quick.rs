@@ -3,9 +3,9 @@ clap
 :
 :
 {
-app_from_crate
 arg
-App
+command
+Command
 }
 ;
 use
@@ -25,7 +25,7 @@ main
 let
 matches
 =
-app_from_crate
+command
 !
 (
 )
@@ -105,7 +105,7 @@ on
 .
 subcommand
 (
-App
+Command
 :
 :
 new

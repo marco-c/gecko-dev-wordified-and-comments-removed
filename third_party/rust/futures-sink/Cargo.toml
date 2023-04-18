@@ -125,10 +125,12 @@ version
 .
 3
 .
-19
+21
 "
 description
 =
+"
+"
 "
 The
 asynchronous
@@ -141,8 +143,8 @@ futures
 rs
 library
 .
-\
-n
+"
+"
 "
 homepage
 =

@@ -6740,7 +6740,6 @@ map
 |
 it
 |
-{
 (
 Token
 !
@@ -6779,7 +6778,6 @@ it
 )
 )
 )
-}
 )
 fat_arrow_token
 :
@@ -7131,7 +7129,6 @@ map
 |
 it
 |
-{
 (
 f
 .
@@ -7163,7 +7160,6 @@ spans
 )
 )
 )
-}
 )
 ty
 :
@@ -7235,6 +7231,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7256,6 +7253,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7265,6 +7263,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7286,6 +7285,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7295,6 +7295,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7316,6 +7317,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7325,6 +7327,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7346,6 +7349,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7355,6 +7359,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7376,6 +7381,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7385,6 +7391,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7407,6 +7414,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7416,6 +7424,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7438,6 +7447,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7511,6 +7521,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7532,6 +7543,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7541,6 +7553,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7563,6 +7576,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7572,6 +7586,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7594,6 +7609,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7603,6 +7619,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7625,6 +7642,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7634,6 +7652,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7655,6 +7674,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7664,6 +7684,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7686,6 +7707,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7695,6 +7717,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7717,6 +7740,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7726,6 +7750,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7748,6 +7773,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7757,6 +7783,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7778,6 +7805,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7787,6 +7815,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7809,6 +7838,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7818,6 +7848,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7840,6 +7871,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7849,6 +7881,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7871,6 +7904,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7880,6 +7914,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7902,6 +7937,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -7911,6 +7947,7 @@ _binding_0
 )
 =
 >
+{
 BinOp
 :
 :
@@ -7933,6 +7970,7 @@ spans
 )
 )
 )
+}
 BinOp
 :
 :
@@ -9254,6 +9292,7 @@ _binding_0
 )
 =
 >
+{
 Expr
 :
 :
@@ -9270,6 +9309,7 @@ _binding_0
 )
 )
 )
+}
 Expr
 :
 :
@@ -9467,6 +9507,7 @@ _binding_0
 )
 =
 >
+{
 Expr
 :
 :
@@ -9483,6 +9524,7 @@ _binding_0
 )
 )
 )
+}
 Expr
 :
 :
@@ -9492,6 +9534,7 @@ _binding_0
 )
 =
 >
+{
 Expr
 :
 :
@@ -9508,6 +9551,7 @@ _binding_0
 )
 )
 )
+}
 Expr
 :
 :
@@ -9538,6 +9582,7 @@ _binding_0
 )
 =
 >
+{
 Expr
 :
 :
@@ -9554,6 +9599,7 @@ _binding_0
 )
 )
 )
+}
 Expr
 :
 :
@@ -9849,6 +9895,7 @@ _binding_0
 )
 =
 >
+{
 Expr
 :
 :
@@ -9865,6 +9912,7 @@ _binding_0
 )
 )
 )
+}
 Expr
 :
 :
@@ -9974,6 +10022,7 @@ _binding_0
 )
 =
 >
+{
 Expr
 :
 :
@@ -9990,6 +10039,7 @@ _binding_0
 )
 )
 )
+}
 Expr
 :
 :
@@ -10152,6 +10202,13 @@ _binding_0
 )
 )
 )
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -11455,35 +11512,6 @@ fold_attribute
 it
 )
 )
-asyncness
-:
-(
-node
-.
-asyncness
-)
-.
-map
-(
-|
-it
-|
-Token
-!
-[
-async
-]
-(
-tokens_helper
-(
-f
-&
-it
-.
-span
-)
-)
-)
 movability
 :
 (
@@ -11501,6 +11529,35 @@ Token
 !
 [
 static
+]
+(
+tokens_helper
+(
+f
+&
+it
+.
+span
+)
+)
+)
+asyncness
+:
+(
+node
+.
+asyncness
+)
+.
+map
+(
+|
+it
+|
+Token
+!
+[
+async
 ]
 (
 tokens_helper
@@ -12216,7 +12273,6 @@ map
 |
 it
 |
-{
 (
 Token
 !
@@ -12255,7 +12311,6 @@ it
 )
 )
 )
-}
 )
 }
 }
@@ -15614,6 +15669,7 @@ _binding_0
 )
 =
 >
+{
 ForeignItem
 :
 :
@@ -15626,6 +15682,7 @@ fold_foreign_item_fn
 _binding_0
 )
 )
+}
 ForeignItem
 :
 :
@@ -15658,6 +15715,7 @@ _binding_0
 )
 =
 >
+{
 ForeignItem
 :
 :
@@ -15670,6 +15728,7 @@ fold_foreign_item_type
 _binding_0
 )
 )
+}
 ForeignItem
 :
 :
@@ -15679,6 +15738,7 @@ _binding_0
 )
 =
 >
+{
 ForeignItem
 :
 :
@@ -15691,6 +15751,7 @@ fold_foreign_item_macro
 _binding_0
 )
 )
+}
 ForeignItem
 :
 :
@@ -15707,6 +15768,13 @@ Verbatim
 (
 _binding_0
 )
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -16304,6 +16372,7 @@ _binding_0
 )
 =
 >
+{
 GenericArgument
 :
 :
@@ -16316,6 +16385,7 @@ fold_type
 _binding_0
 )
 )
+}
 GenericArgument
 :
 :
@@ -16371,6 +16441,7 @@ _binding_0
 )
 =
 >
+{
 GenericArgument
 :
 :
@@ -16383,6 +16454,7 @@ fold_expr
 _binding_0
 )
 )
+}
 }
 }
 #
@@ -16532,6 +16604,7 @@ _binding_0
 )
 =
 >
+{
 GenericParam
 :
 :
@@ -16544,6 +16617,7 @@ fold_type_param
 _binding_0
 )
 )
+}
 GenericParam
 :
 :
@@ -16576,6 +16650,7 @@ _binding_0
 )
 =
 >
+{
 GenericParam
 :
 :
@@ -16588,6 +16663,7 @@ fold_const_param
 _binding_0
 )
 )
+}
 }
 }
 #
@@ -16844,6 +16920,7 @@ _binding_0
 )
 =
 >
+{
 ImplItem
 :
 :
@@ -16856,6 +16933,7 @@ fold_impl_item_const
 _binding_0
 )
 )
+}
 ImplItem
 :
 :
@@ -16865,6 +16943,7 @@ _binding_0
 )
 =
 >
+{
 ImplItem
 :
 :
@@ -16877,6 +16956,7 @@ fold_impl_item_method
 _binding_0
 )
 )
+}
 ImplItem
 :
 :
@@ -16907,6 +16987,7 @@ _binding_0
 )
 =
 >
+{
 ImplItem
 :
 :
@@ -16919,6 +17000,7 @@ fold_impl_item_macro
 _binding_0
 )
 )
+}
 ImplItem
 :
 :
@@ -16935,6 +17017,13 @@ Verbatim
 (
 _binding_0
 )
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -17718,6 +17807,7 @@ _binding_0
 )
 =
 >
+{
 Item
 :
 :
@@ -17730,6 +17820,7 @@ fold_item_extern_crate
 _binding_0
 )
 )
+}
 Item
 :
 :
@@ -17760,6 +17851,7 @@ _binding_0
 )
 =
 >
+{
 Item
 :
 :
@@ -17772,6 +17864,7 @@ fold_item_foreign_mod
 _binding_0
 )
 )
+}
 Item
 :
 :
@@ -17928,6 +18021,7 @@ _binding_0
 )
 =
 >
+{
 Item
 :
 :
@@ -17940,6 +18034,7 @@ fold_item_trait_alias
 _binding_0
 )
 )
+}
 Item
 :
 :
@@ -18019,6 +18114,13 @@ Verbatim
 (
 _binding_0
 )
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -18497,7 +18599,6 @@ map
 |
 it
 |
-{
 (
 Token
 !
@@ -18529,7 +18630,6 @@ it
 1
 )
 )
-}
 )
 semi_token
 :
@@ -18918,7 +19018,6 @@ map
 |
 it
 |
-{
 (
 (
 (
@@ -18979,7 +19078,6 @@ span
 )
 )
 )
-}
 )
 self_ty
 :
@@ -19374,7 +19472,6 @@ map
 |
 it
 |
-{
 (
 Brace
 (
@@ -19412,7 +19509,6 @@ it
 )
 )
 )
-}
 )
 semi
 :
@@ -21605,7 +21701,6 @@ map
 |
 it
 |
-{
 (
 Token
 !
@@ -21644,7 +21739,6 @@ it
 )
 )
 )
-}
 )
 semi_token
 :
@@ -22089,6 +22183,7 @@ _binding_0
 )
 =
 >
+{
 Meta
 :
 :
@@ -22101,6 +22196,7 @@ fold_meta_name_value
 _binding_0
 )
 )
+}
 }
 }
 #
@@ -22897,6 +22993,7 @@ _binding_0
 )
 =
 >
+{
 Pat
 :
 :
@@ -22909,6 +23006,7 @@ fold_pat_tuple_struct
 _binding_0
 )
 )
+}
 Pat
 :
 :
@@ -22967,6 +23065,13 @@ fold_pat_wild
 _binding_0
 )
 )
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -23215,7 +23320,6 @@ map
 |
 it
 |
-{
 (
 Token
 !
@@ -23253,7 +23357,6 @@ it
 )
 )
 )
-}
 )
 }
 }
@@ -25441,7 +25544,6 @@ map
 |
 it
 |
-{
 (
 Token
 !
@@ -25483,7 +25585,6 @@ it
 )
 )
 )
-}
 )
 mutability
 :
@@ -25604,6 +25705,7 @@ _binding_1
 )
 =
 >
+{
 ReturnType
 :
 :
@@ -25639,6 +25741,7 @@ _binding_1
 )
 )
 )
+}
 }
 }
 #
@@ -26037,6 +26140,7 @@ _binding_1
 )
 =
 >
+{
 Stmt
 :
 :
@@ -26064,6 +26168,7 @@ spans
 )
 )
 )
+}
 }
 }
 #
@@ -26324,6 +26429,7 @@ _binding_0
 )
 =
 >
+{
 TraitItem
 :
 :
@@ -26336,6 +26442,7 @@ fold_trait_item_const
 _binding_0
 )
 )
+}
 TraitItem
 :
 :
@@ -26345,6 +26452,7 @@ _binding_0
 )
 =
 >
+{
 TraitItem
 :
 :
@@ -26357,6 +26465,7 @@ fold_trait_item_method
 _binding_0
 )
 )
+}
 TraitItem
 :
 :
@@ -26366,6 +26475,7 @@ _binding_0
 )
 =
 >
+{
 TraitItem
 :
 :
@@ -26378,6 +26488,7 @@ fold_trait_item_type
 _binding_0
 )
 )
+}
 TraitItem
 :
 :
@@ -26387,6 +26498,7 @@ _binding_0
 )
 =
 >
+{
 TraitItem
 :
 :
@@ -26399,6 +26511,7 @@ fold_trait_item_macro
 _binding_0
 )
 )
+}
 TraitItem
 :
 :
@@ -26415,6 +26528,13 @@ Verbatim
 (
 _binding_0
 )
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -26555,7 +26675,6 @@ map
 |
 it
 |
-{
 (
 Token
 !
@@ -26587,7 +26706,6 @@ it
 1
 )
 )
-}
 )
 semi_token
 :
@@ -26993,7 +27111,6 @@ map
 |
 it
 |
-{
 (
 Token
 !
@@ -27025,7 +27142,6 @@ it
 1
 )
 )
-}
 )
 semi_token
 :
@@ -27169,6 +27285,7 @@ _binding_0
 )
 =
 >
+{
 Type
 :
 :
@@ -27181,6 +27298,7 @@ fold_type_impl_trait
 _binding_0
 )
 )
+}
 Type
 :
 :
@@ -27358,6 +27476,7 @@ _binding_0
 )
 =
 >
+{
 Type
 :
 :
@@ -27370,6 +27489,7 @@ fold_type_trait_object
 _binding_0
 )
 )
+}
 Type
 :
 :
@@ -27407,6 +27527,13 @@ Verbatim
 (
 _binding_0
 )
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -28335,6 +28462,7 @@ _binding_0
 )
 =
 >
+{
 TypeParamBound
 :
 :
@@ -28347,6 +28475,7 @@ fold_trait_bound
 _binding_0
 )
 )
+}
 TypeParamBound
 :
 :
@@ -29137,6 +29266,7 @@ _binding_0
 )
 =
 >
+{
 UnOp
 :
 :
@@ -29158,6 +29288,7 @@ spans
 )
 )
 )
+}
 UnOp
 :
 :
@@ -29167,6 +29298,7 @@ _binding_0
 )
 =
 >
+{
 UnOp
 :
 :
@@ -29188,6 +29320,7 @@ spans
 )
 )
 )
+}
 UnOp
 :
 :
@@ -29197,6 +29330,7 @@ _binding_0
 )
 =
 >
+{
 UnOp
 :
 :
@@ -29218,6 +29352,7 @@ spans
 )
 )
 )
+}
 }
 }
 #
@@ -29920,7 +30055,6 @@ map
 |
 it
 |
-{
 (
 Token
 !
@@ -29952,7 +30086,6 @@ it
 1
 )
 )
-}
 )
 }
 }
@@ -30282,6 +30415,7 @@ _binding_0
 )
 =
 >
+{
 Visibility
 :
 :
@@ -30294,6 +30428,7 @@ fold_vis_public
 _binding_0
 )
 )
+}
 Visibility
 :
 :
@@ -30497,6 +30632,7 @@ _binding_0
 )
 =
 >
+{
 WherePredicate
 :
 :
@@ -30509,6 +30645,7 @@ fold_predicate_type
 _binding_0
 )
 )
+}
 WherePredicate
 :
 :
@@ -30541,6 +30678,7 @@ _binding_0
 )
 =
 >
+{
 WherePredicate
 :
 :
@@ -30553,5 +30691,6 @@ fold_predicate_eq
 _binding_0
 )
 )
+}
 }
 }

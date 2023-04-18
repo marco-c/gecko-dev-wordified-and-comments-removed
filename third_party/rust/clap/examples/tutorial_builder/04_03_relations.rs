@@ -3,8 +3,8 @@ clap
 :
 :
 {
-app_from_crate
 arg
+command
 ArgGroup
 }
 ;
@@ -16,7 +16,7 @@ main
 let
 matches
 =
-app_from_crate
+command
 !
 (
 )

@@ -249,6 +249,13 @@ t
 [
 macro_export
 ]
+#
+[
+doc
+(
+hidden
+)
+]
 macro_rules
 !
 FIELD_OFFSET
@@ -297,6 +304,13 @@ i
 :
 usize
 }
+#
+[
+allow
+(
+unaligned_references
+)
+]
 Transmuter
 {
 r

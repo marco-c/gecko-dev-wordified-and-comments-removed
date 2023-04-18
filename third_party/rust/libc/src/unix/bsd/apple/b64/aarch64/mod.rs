@@ -33,6 +33,16 @@ pointers
 support
 }
 }
+pub
+const
+CLOCK_UPTIME_RAW
+:
+:
+:
+clockid_t
+=
+8
+;
 cfg_if
 !
 {

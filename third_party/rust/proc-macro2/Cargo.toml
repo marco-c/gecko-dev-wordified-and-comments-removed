@@ -125,7 +125,7 @@ version
 .
 0
 .
-36
+38
 "
 authors
 =
@@ -157,6 +157,8 @@ false
 description
 =
 "
+"
+"
 A
 substitute
 implementation
@@ -169,8 +171,7 @@ proc_macro
 API
 to
 decouple
-\
-ntoken
+token
 -
 based
 libraries
@@ -181,8 +182,8 @@ macro
 use
 case
 .
-\
-n
+"
+"
 "
 documentation
 =
@@ -342,6 +343,8 @@ version
 =
 "
 0
+.
+2
 .
 2
 "

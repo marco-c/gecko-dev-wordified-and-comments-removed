@@ -122,9 +122,6 @@ Box
 Heap
 ]
 >
-max_allocation_count
-:
-u32
 allocations_remains
 :
 u32
@@ -404,11 +401,6 @@ buffer_device_address
 props
 .
 buffer_device_address
-max_allocation_count
-:
-props
-.
-max_memory_allocation_count
 allocations_remains
 :
 props

@@ -671,6 +671,14 @@ future1
 }
 #
 [
+cfg_attr
+(
+miri
+ignore
+)
+]
+#
+[
 test
 ]
 fn

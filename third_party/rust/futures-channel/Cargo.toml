@@ -125,10 +125,12 @@ version
 .
 3
 .
-19
+21
 "
 description
 =
+"
+"
 "
 Channels
 for
@@ -139,8 +141,8 @@ futures
 -
 rs
 .
-\
-n
+"
+"
 "
 homepage
 =
@@ -233,7 +235,7 @@ version
 .
 3
 .
-19
+21
 "
 default
 -
@@ -254,7 +256,7 @@ version
 .
 3
 .
-19
+21
 "
 optional
 =

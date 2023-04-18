@@ -8,7 +8,7 @@ pub
 type
 wchar_t
 =
-i16
+u32
 ;
 pub
 type

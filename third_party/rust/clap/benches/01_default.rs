@@ -2,7 +2,7 @@ use
 clap
 :
 :
-App
+Command
 ;
 use
 criterion
@@ -41,7 +41,7 @@ iter
 (
 |
 |
-App
+Command
 :
 :
 new
@@ -82,7 +82,7 @@ iter
 (
 |
 |
-App
+Command
 :
 :
 new

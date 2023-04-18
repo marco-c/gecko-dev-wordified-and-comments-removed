@@ -285,6 +285,14 @@ is_ready
 }
 #
 [
+cfg_attr
+(
+miri
+ignore
+)
+]
+#
+[
 test
 ]
 fn

@@ -496,7 +496,11 @@ copy_nonoverlapping
 (
 buf
 .
-get_unchecked
+as_ptr
+(
+)
+.
+add
 (
 i
 )

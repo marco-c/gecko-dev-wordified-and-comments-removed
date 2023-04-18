@@ -3,7 +3,7 @@
 [
 cfg
 (
-min_const_generics
+has_min_const_generics
 )
 ]
 use

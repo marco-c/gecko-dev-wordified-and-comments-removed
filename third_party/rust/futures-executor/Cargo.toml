@@ -125,10 +125,12 @@ version
 .
 3
 .
-19
+21
 "
 description
 =
+"
+"
 "
 Executors
 for
@@ -142,8 +144,8 @@ futures
 rs
 library
 .
-\
-n
+"
+"
 "
 homepage
 =
@@ -236,7 +238,7 @@ version
 .
 3
 .
-19
+21
 "
 default
 -
@@ -257,7 +259,7 @@ version
 .
 3
 .
-19
+21
 "
 default
 -
@@ -278,7 +280,7 @@ version
 .
 3
 .
-19
+21
 "
 default
 -

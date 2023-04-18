@@ -43,6 +43,12 @@ Self
 >
 {
 if
+std
+:
+:
+arch
+:
+:
 is_aarch64_feature_detected
 !
 (
