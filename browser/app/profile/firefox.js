@@ -1955,7 +1955,7 @@ upgradeDialog
 .
 enabled
 "
-true
+false
 )
 ;
 pref
