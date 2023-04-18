@@ -685,6 +685,10 @@ DescriptorMap
 ;
 DescriptorMap
 mSurfaceDescriptors
+GUARDED_BY
+(
+mSurfaceDescriptorsMonitor
+)
 ;
 Monitor
 mSurfaceDescriptorsMonitor
