@@ -270,11 +270,6 @@ DNSResolverInfo
 cpp
 "
 "
-DNSServiceBase
-.
-cpp
-"
-"
 DNSUtils
 .
 cpp
