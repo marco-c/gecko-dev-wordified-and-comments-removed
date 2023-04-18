@@ -8294,10 +8294,6 @@ ResizeDirectManipulationViewport
 )
 ;
 }
-NotifyRollupGeometryChange
-(
-)
-;
 }
 void
 nsWindow
@@ -8673,10 +8669,6 @@ if
 aRepaint
 )
 Invalidate
-(
-)
-;
-NotifyRollupGeometryChange
 (
 )
 ;
@@ -9198,10 +9190,6 @@ if
 aRepaint
 )
 Invalidate
-(
-)
-;
-NotifyRollupGeometryChange
 (
 )
 ;

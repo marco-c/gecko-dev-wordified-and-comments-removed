@@ -100,14 +100,6 @@ aWidgetChain
 0
 ;
 virtual
-void
-NotifyGeometryChange
-(
-)
-=
-0
-;
-virtual
 nsIWidget
 *
 GetRollupWidget

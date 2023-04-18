@@ -4876,10 +4876,6 @@ aMove
 true
 )
 ;
-NotifyRollupGeometryChange
-(
-)
-;
 DispatchResized
 (
 )
@@ -5314,10 +5310,6 @@ NativeMoveResize
 (
 true
 false
-)
-;
-NotifyRollupGeometryChange
-(
 )
 ;
 }
