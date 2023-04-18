@@ -42,9 +42,7 @@ static
 void
 Init
 (
-const
 CrossProcessMutexHandle
-&
 aHandle
 )
 ;
@@ -95,9 +93,7 @@ CodeCoverageHandler
 explicit
 CodeCoverageHandler
 (
-const
 CrossProcessMutexHandle
-&
 aHandle
 )
 ;

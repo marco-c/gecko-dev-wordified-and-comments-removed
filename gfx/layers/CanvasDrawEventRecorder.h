@@ -147,7 +147,6 @@ aWriterServices
 bool
 InitReader
 (
-const
 ipc
 :
 :
@@ -155,15 +154,10 @@ SharedMemoryBasic
 :
 :
 Handle
-&
 aReadHandle
-const
 CrossProcessSemaphoreHandle
-&
 aReaderSem
-const
 CrossProcessSemaphoreHandle
-&
 aWriterSem
 UniquePtr
 <

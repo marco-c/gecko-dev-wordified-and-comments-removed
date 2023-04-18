@@ -1252,8 +1252,8 @@ const
 SurfaceDescriptor
 &
 aDesc
-const
 ReadLockDescriptor
+&
 &
 aReadLock
 ISurfaceAllocator
@@ -1566,8 +1566,8 @@ const
 SurfaceDescriptor
 &
 aSharedData
-const
 ReadLockDescriptor
+&
 &
 aDescriptor
 LayersBackend
@@ -1768,8 +1768,8 @@ aTransactionId
 void
 DeserializeReadLock
 (
-const
 ReadLockDescriptor
+&
 &
 aDesc
 ISurfaceAllocator

@@ -481,7 +481,13 @@ shm
 >
 SetHandle
 (
+std
+:
+:
+move
+(
 handle
+)
 true
 )
 )

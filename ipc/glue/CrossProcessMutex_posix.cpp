@@ -311,7 +311,13 @@ mSharedBuffer
 >
 SetHandle
 (
+std
+:
+:
+move
+(
 aHandle
+)
 ipc
 :
 :
