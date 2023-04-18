@@ -1955,11 +1955,13 @@ true
 ;
 }
 return
-StaticPrefs
+CanvasUtils
 :
 :
-gfx_offscreencanvas_enabled
+IsOffscreenCanvasEnabled
 (
+aCx
+aObj
 )
 ;
 }

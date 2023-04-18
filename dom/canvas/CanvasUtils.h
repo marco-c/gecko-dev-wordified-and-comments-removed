@@ -227,6 +227,17 @@ aObj
 )
 ;
 bool
+IsOffscreenCanvasEnabled
+(
+JSContext
+*
+aCx
+JSObject
+*
+aObj
+)
+;
+bool
 IsImageExtractionAllowed
 (
 dom

@@ -573,6 +573,15 @@ SupportsThreadsafeGL
 bool
 false
 )
+\
+_
+(
+OffscreenCanvasDomainAllowlist
+nsCString
+nsCString
+(
+)
+)
 class
 gfxVars
 final
