@@ -2321,6 +2321,11 @@ InitWebRenderConfig
 (
 )
 ;
+void
+InitHardwareVideoConfig
+(
+)
+;
 virtual
 void
 InitWebGLConfig
