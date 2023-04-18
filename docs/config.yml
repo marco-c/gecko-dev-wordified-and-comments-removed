@@ -53,6 +53,8 @@ layout
 -
 gfx
 -
+ipc
+-
 devtools
 -
 toolkit
@@ -309,6 +311,11 @@ l10n
 l10n
 :
 l10n
+ipc
+/
+ipc
+:
+ipc
 modules
 /
 libpref
