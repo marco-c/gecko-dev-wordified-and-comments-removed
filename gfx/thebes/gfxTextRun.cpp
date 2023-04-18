@@ -12367,7 +12367,10 @@ if
 fe
 )
 {
-return
+gfxFont
+*
+f
+=
 fe
 -
 >
@@ -12377,6 +12380,15 @@ FindOrMakeFont
 mStyle
 )
 ;
+if
+(
+f
+)
+{
+return
+f
+;
+}
 }
 }
 }
