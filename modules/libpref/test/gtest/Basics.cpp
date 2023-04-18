@@ -417,6 +417,7 @@ return
 true
 ;
 }
+true
 )
 ;
 ASSERT_EQ
@@ -472,6 +473,7 @@ bool
 0
 ;
 }
+true
 )
 ;
 ASSERT_NE
