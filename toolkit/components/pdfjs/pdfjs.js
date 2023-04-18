@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PdfStreamConverter
 "
@@ -75,6 +81,8 @@ false
 {
 return
 new
+lazy
+.
 PdfStreamConverter
 (
 )
