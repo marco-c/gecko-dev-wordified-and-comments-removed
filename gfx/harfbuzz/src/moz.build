@@ -830,14 +830,6 @@ True
 DEFINES
 [
 '
-HB_NO_MT
-'
-]
-=
-True
-DEFINES
-[
-'
 HB_NO_UCD
 '
 ]
