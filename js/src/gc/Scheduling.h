@@ -1606,14 +1606,6 @@ checkEmptyOnDestroy
 )
 ;
 void
-adopt
-(
-MemoryTracker
-&
-other
-)
-;
-void
 trackGCMemory
 (
 Cell
