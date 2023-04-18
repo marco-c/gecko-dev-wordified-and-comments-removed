@@ -79,11 +79,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PlacesUtils
 :
@@ -497,6 +503,8 @@ true
 let
 shutdownClient
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -967,6 +975,8 @@ isShutdown
 let
 shutdownClient
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -1490,6 +1500,8 @@ let
 principalsCollector
 =
 new
+lazy
+.
 PrincipalsCollector
 (
 )
@@ -1758,6 +1770,8 @@ resolve
 =
 >
 {
+lazy
+.
 FormHistory
 .
 update
@@ -2893,6 +2907,8 @@ let
 principalsCollector
 =
 new
+lazy
+.
 PrincipalsCollector
 (
 )
@@ -3382,6 +3398,8 @@ let
 principalsCollector
 =
 new
+lazy
+.
 PrincipalsCollector
 (
 )
@@ -4205,6 +4223,8 @@ sanitizeNewTabSegregation
 let
 identity
 =
+lazy
+.
 ContextualIdentityService
 .
 getPrivateIdentity

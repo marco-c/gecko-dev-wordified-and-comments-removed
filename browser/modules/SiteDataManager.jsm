@@ -60,11 +60,17 @@ SiteDataManager
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gStringBundle
 "
@@ -101,7 +107,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gBrandBundle
 "
@@ -2063,6 +2069,8 @@ allowed
 let
 brandName
 =
+lazy
+.
 gBrandBundle
 .
 GetStringFromName
@@ -2108,6 +2116,8 @@ BUTTON_POS_0_DEFAULT
 let
 title
 =
+lazy
+.
 gStringBundle
 .
 GetStringFromName
@@ -2120,6 +2130,8 @@ clearSiteDataPromptTitle
 let
 text
 =
+lazy
+.
 gStringBundle
 .
 formatStringFromName
@@ -2135,6 +2147,8 @@ brandName
 let
 btn0Label
 =
+lazy
+.
 gStringBundle
 .
 GetStringFromName

@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 bundle
 "
@@ -107,6 +113,8 @@ key
 )
 {
 return
+lazy
+.
 bundle
 .
 GetStringFromName
@@ -122,6 +130,8 @@ params
 )
 {
 return
+lazy
+.
 bundle
 .
 formatStringFromName

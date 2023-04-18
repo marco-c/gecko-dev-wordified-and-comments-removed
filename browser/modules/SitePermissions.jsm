@@ -55,11 +55,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 clearTimeout
 :
@@ -382,6 +388,8 @@ if
 expireTimeout
 )
 {
+lazy
+.
 clearTimeout
 (
 expireTimeout
@@ -390,6 +398,8 @@ expireTimeout
 }
 expireTimeout
 =
+lazy
+.
 setTimeout
 (
 (
@@ -487,6 +497,8 @@ if
 expireTimeout
 )
 {
+lazy
+.
 clearTimeout
 (
 expireTimeout
@@ -613,6 +625,8 @@ if
 expireTimeout
 )
 {
+lazy
+.
 clearTimeout
 (
 expireTimeout
@@ -1028,6 +1042,8 @@ expireTimeout
 return
 ;
 }
+lazy
+.
 clearTimeout
 (
 expireTimeout

@@ -46,11 +46,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UpdateUtils
 "
@@ -73,7 +79,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEnvironment
 "
@@ -96,7 +102,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 sendStandalonePing
 "
@@ -406,6 +412,8 @@ _createExperimentsPayload
 let
 activeExperiments
 =
+lazy
+.
 TelemetryEnvironment
 .
 getActiveExperiments
@@ -505,6 +513,8 @@ AppConstants
 MOZ_APP_VERSION
 release_channel
 :
+lazy
+.
 UpdateUtils
 .
 getUpdateChannel
@@ -529,6 +539,8 @@ payload
 )
 {
 return
+lazy
+.
 sendStandalonePing
 (
 endpoint

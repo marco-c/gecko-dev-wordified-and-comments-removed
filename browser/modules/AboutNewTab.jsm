@@ -75,11 +75,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ActivityStream
 :
@@ -356,6 +362,8 @@ pageListener
 |
 |
 new
+lazy
+.
 RemotePages
 (
 [
@@ -636,6 +644,8 @@ this
 activityStream
 =
 new
+lazy
+.
 ActivityStream
 (
 )
@@ -737,6 +747,8 @@ site
 if
 (
 !
+lazy
+.
 ObjectUtils
 .
 deepEqual

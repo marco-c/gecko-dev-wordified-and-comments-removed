@@ -181,11 +181,17 @@ taskbar
 1
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 imgTools
 "
@@ -209,7 +215,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PageThumbs
 "
@@ -387,6 +393,8 @@ getService
 (
 )
 ;
+lazy
+.
 imgTools
 .
 decodeImageAsync
@@ -548,6 +556,8 @@ function
 let
 canvas
 =
+lazy
+.
 PageThumbs
 .
 createCanvas
@@ -764,6 +774,8 @@ resetCacheTimer
 )
 ;
 return
+lazy
+.
 PageThumbs
 .
 captureToCanvas
@@ -941,6 +953,8 @@ height
 let
 composite
 =
+lazy
+.
 PageThumbs
 .
 createCanvas

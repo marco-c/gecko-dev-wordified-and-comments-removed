@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UpdateUtils
 :
@@ -400,6 +406,8 @@ this
 .
 promiseAutoUpdateSetting
 =
+lazy
+.
 UpdateUtils
 .
 getAppUpdateAutoEnabled
@@ -1079,6 +1087,8 @@ this
 .
 promiseAutoUpdateSetting
 =
+lazy
+.
 UpdateUtils
 .
 getAppUpdateAutoEnabled

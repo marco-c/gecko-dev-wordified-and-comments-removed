@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DeferredTask
 "
@@ -63,7 +69,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PromiseUtils
 "
@@ -856,6 +862,8 @@ this
 .
 _deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -2735,6 +2743,8 @@ this
 iconTask
 =
 new
+lazy
+.
 DeferredTask
 (
 (

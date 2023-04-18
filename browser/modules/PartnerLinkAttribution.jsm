@@ -74,11 +74,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Region
 :
@@ -116,7 +122,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 structuredIngestionEndpointBase
 "
@@ -152,7 +158,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 pingcentre
 "
@@ -163,6 +169,8 @@ pingcentre
 {
 return
 new
+lazy
+.
 PingCentre
 (
 {
@@ -196,7 +204,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 contextId
 "
@@ -767,8 +775,12 @@ payload
 .
 context_id
 =
+lazy
+.
 contextId
 ;
+lazy
+.
 pingcentre
 .
 sendStructuredIngestionPing
@@ -784,6 +796,8 @@ _pingCentre
 )
 {
 return
+lazy
+.
 pingcentre
 ;
 }
@@ -818,6 +832,8 @@ X
 -
 Region
 "
+lazy
+.
 Region
 .
 home
@@ -955,6 +971,8 @@ docID
 ;
 return
 {
+lazy
+.
 structuredIngestionEndpointBase
 }
 /

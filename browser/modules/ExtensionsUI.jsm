@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -529,6 +535,8 @@ let
 sideloaded
 =
 await
+lazy
+.
 AddonManagerPrivate
 .
 getNewSideloads
@@ -630,6 +638,8 @@ size
 0
 )
 {
+lazy
+.
 AddonManager
 .
 removeAddonListener
@@ -649,6 +659,8 @@ null
 }
 }
 ;
+lazy
+.
 AddonManager
 .
 addAddonListener
@@ -706,6 +718,8 @@ size
 0
 )
 {
+lazy
+.
 AppMenuNotifications
 .
 removeNotification
@@ -720,6 +734,8 @@ alert
 }
 else
 {
+lazy
+.
 AppMenuNotifications
 .
 showBadgeOnlyNotification
@@ -854,6 +870,8 @@ sideload
 }
 )
 ;
+lazy
+.
 AMTelemetry
 .
 recordManageEvent
@@ -918,6 +936,8 @@ addon
 .
 permissions
 &
+lazy
+.
 AddonManager
 .
 PERM_CAN_CHANGE_PRIVATEBROWSING_ACCESS
@@ -956,6 +976,8 @@ browser
 info
 )
 {
+lazy
+.
 AMTelemetry
 .
 recordInstallEvent
@@ -1127,6 +1149,8 @@ addon
 signedState
 <
 =
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_MISSING
@@ -1336,6 +1360,8 @@ sideload
 "
 )
 {
+lazy
+.
 AMTelemetry
 .
 recordManageEvent
@@ -1360,6 +1386,8 @@ length
 }
 else
 {
+lazy
+.
 AMTelemetry
 .
 recordInstallEvent
@@ -1889,6 +1917,8 @@ info
 let
 strings
 =
+lazy
+.
 ExtensionData
 .
 formatPermissionStrings
@@ -2786,6 +2816,8 @@ permissions
 }
 =
 await
+lazy
+.
 ExtensionPermissions
 .
 get
@@ -2853,6 +2885,8 @@ addon
 .
 permissions
 &
+lazy
+.
 AddonManager
 .
 PERM_CAN_CHANGE_PRIVATEBROWSING_ACCESS
@@ -2927,6 +2961,8 @@ checked
 )
 {
 await
+lazy
+.
 ExtensionPermissions
 .
 add
@@ -2951,6 +2987,8 @@ hasIncognito
 )
 {
 await
+lazy
+.
 ExtensionPermissions
 .
 remove
@@ -2977,6 +3015,8 @@ value
 undefined
 )
 {
+lazy
+.
 AMTelemetry
 .
 recordActionEvent
@@ -3039,6 +3079,8 @@ addon
 .
 isWebExtension
 ?
+lazy
+.
 AddonManager
 .
 getPreferredIconURL
@@ -3093,6 +3135,8 @@ win
 =
 >
 {
+lazy
+.
 AppMenuNotifications
 .
 removeNotification
@@ -3112,6 +3156,8 @@ win
 }
 }
 ;
+lazy
+.
 AppMenuNotifications
 .
 showNotification

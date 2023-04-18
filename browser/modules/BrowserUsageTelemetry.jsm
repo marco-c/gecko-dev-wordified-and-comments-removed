@@ -93,11 +93,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ClientID
 :
@@ -257,7 +263,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gRecentVisitedOriginsExpiry
 "
@@ -917,6 +923,8 @@ actionId
 let
 action
 =
+lazy
+.
 PageActions
 .
 actionForID
@@ -1349,6 +1357,8 @@ webProgress
 isTopLevel
 )
 {
+lazy
+.
 SearchSERPTelemetry
 .
 stopTrackingBrowser
@@ -1407,6 +1417,8 @@ let
 shouldCountURI
 =
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -1562,6 +1574,8 @@ LOCATION_CHANGE_SAME_DOCUMENT
 )
 )
 {
+lazy
+.
 SearchSERPTelemetry
 .
 updateTrackingStatus
@@ -1694,12 +1708,16 @@ baseDomain
 ;
 if
 (
+lazy
+.
 gRecentVisitedOriginsExpiry
 )
 {
 let
 timeoutId
 =
+lazy
+.
 setTimeout
 (
 (
@@ -1726,6 +1744,8 @@ timeoutId
 )
 ;
 }
+lazy
+.
 gRecentVisitedOriginsExpiry
 *
 1000
@@ -1781,6 +1801,8 @@ forEach
 timeoutId
 =
 >
+lazy
+.
 clearTimeout
 (
 timeoutId
@@ -1835,6 +1857,8 @@ async
 )
 =
 >
+lazy
+.
 ClientID
 .
 getClientID
@@ -1945,6 +1969,8 @@ this
 .
 _recordContentProcessCountInterval
 =
+lazy
+.
 setInterval
 (
 (
@@ -2063,6 +2089,8 @@ this
 TELEMETRY_SUBSESSIONSPLIT_TOPIC
 )
 ;
+lazy
+.
 clearInterval
 (
 this
@@ -2565,6 +2593,8 @@ for
 let
 area
 of
+lazy
+.
 CustomizableUI
 .
 areas
@@ -2618,6 +2648,8 @@ start
 let
 widgets
 =
+lazy
+.
 CustomizableUI
 .
 getWidgetsInArea
@@ -2715,6 +2747,8 @@ position
 let
 actions
 =
+lazy
+.
 PageActions
 .
 actions
@@ -2788,6 +2822,8 @@ for
 let
 area
 of
+lazy
+.
 CustomizableUI
 .
 areas
@@ -2816,6 +2852,8 @@ for
 let
 widget
 of
+lazy
+.
 CustomizableUI
 .
 getWidgetIdsInArea
@@ -3818,6 +3856,8 @@ let
 position
 }
 =
+lazy
+.
 CustomizableUI
 .
 getPlacementOfWidget
@@ -3832,6 +3872,8 @@ position
 urlPosition
 }
 =
+lazy
+.
 CustomizableUI
 .
 getPlacementOfWidget
@@ -3976,6 +4018,8 @@ start
 let
 widgets
 =
+lazy
+.
 CustomizableUI
 .
 getWidgetsInArea
@@ -5275,6 +5319,8 @@ getInstallData
 const
 installPaths
 =
+lazy
+.
 WindowsInstallsInfo
 .
 getInstallPaths

@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AsyncShutdown
 :
@@ -293,6 +299,8 @@ if
 addShutdownBlocker
 )
 {
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange
@@ -826,6 +834,8 @@ else
 let
 index
 =
+lazy
+.
 BinarySearch
 .
 insertionIndexOf
@@ -1904,6 +1914,8 @@ this
 disablePrivateBrowsing
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate

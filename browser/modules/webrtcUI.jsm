@@ -88,11 +88,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PluralForm
 "
@@ -115,7 +121,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserWindowTracker
 "
@@ -137,7 +143,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 XPCOMUtils
 "
@@ -160,7 +166,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SitePermissions
 "
@@ -233,6 +239,8 @@ initialized
 =
 true
 ;
+lazy
+.
 XPCOMUtils
 .
 defineLazyPreferenceGetter
@@ -251,6 +259,8 @@ legacyGlobalIndicator
 true
 )
 ;
+lazy
+.
 XPCOMUtils
 .
 defineLazyPreferenceGetter
@@ -1770,6 +1780,8 @@ for
 let
 win
 of
+lazy
+.
 BrowserWindowTracker
 .
 orderedWindows
@@ -2535,6 +2547,8 @@ webRTC
 let
 perms
 =
+lazy
+.
 SitePermissions
 .
 getAllForBrowser
@@ -2599,6 +2613,8 @@ id
 .
 split
 (
+lazy
+.
 SitePermissions
 .
 PERM_KEY_DELIMITER
@@ -2648,6 +2664,8 @@ perm
 =
 >
 {
+lazy
+.
 SitePermissions
 .
 removeFromPrincipal
@@ -3851,6 +3869,8 @@ for
 let
 win
 of
+lazy
+.
 BrowserWindowTracker
 .
 orderedWindows
@@ -4634,6 +4654,8 @@ length
 let
 label
 =
+lazy
+.
 PluralForm
 .
 get

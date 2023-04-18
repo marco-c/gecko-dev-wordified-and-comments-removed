@@ -134,11 +134,17 @@ WinTaskbarJumpList
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 _prefs
 "
@@ -163,7 +169,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 _stringBundle
 "
@@ -200,7 +206,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 _idle
 "
@@ -224,7 +230,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 _taskbarService
 "
@@ -248,7 +254,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -271,7 +277,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -297,6 +303,8 @@ name
 )
 {
 return
+lazy
+.
 _stringBundle
 .
 GetStringFromName
@@ -1555,6 +1563,8 @@ aScope
 var
 options
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -1578,6 +1588,8 @@ aSortingMode
 var
 query
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -1587,6 +1599,8 @@ getNewQuery
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 history
@@ -1761,6 +1775,8 @@ URIsToRemove
 length
 )
 {
+lazy
+.
 PlacesUtils
 .
 history
@@ -1819,6 +1835,8 @@ return
 }
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 enabled
@@ -1966,6 +1984,8 @@ this
 .
 _enabled
 =
+lazy
+.
 _prefs
 .
 getBoolPref
@@ -1976,6 +1996,8 @@ PREF_TASKBAR_ENABLED
 var
 showTasks
 =
+lazy
+.
 _prefs
 .
 getBoolPref
@@ -1990,18 +2012,24 @@ _builder
 refreshPrefs
 (
 showTasks
+lazy
+.
 _prefs
 .
 getBoolPref
 (
 PREF_TASKBAR_FREQUENT
 )
+lazy
+.
 _prefs
 .
 getBoolPref
 (
 PREF_TASKBAR_RECENT
 )
+lazy
+.
 _prefs
 .
 getIntPref
@@ -2033,6 +2061,8 @@ WTBJL__initTaskbar
 var
 builder
 =
+lazy
+.
 _taskbarService
 .
 createJumpListBuilder
@@ -2043,6 +2073,8 @@ false
 var
 pbBuilder
 =
+lazy
+.
 _taskbarService
 .
 createJumpListBuilder
@@ -2147,6 +2179,8 @@ history
 "
 )
 ;
+lazy
+.
 _prefs
 .
 addObserver
@@ -2173,6 +2207,8 @@ this
 )
 )
 ;
+lazy
+.
 PlacesUtils
 .
 observers
@@ -2233,6 +2269,8 @@ history
 "
 )
 ;
+lazy
+.
 _prefs
 .
 removeObserver
@@ -2249,6 +2287,8 @@ this
 _placesObserver
 )
 {
+lazy
+.
 PlacesUtils
 .
 observers
@@ -2326,6 +2366,8 @@ _timer
 initWithCallback
 (
 this
+lazy
+.
 _prefs
 .
 getIntPref
@@ -2407,6 +2449,8 @@ this
 _hasIdleObserver
 )
 {
+lazy
+.
 _idle
 .
 addIdleObserver
@@ -2443,6 +2487,8 @@ this
 _hasIdleObserver
 )
 {
+lazy
+.
 _idle
 .
 removeIdleObserver
@@ -2566,6 +2612,8 @@ _enabled
 &
 &
 !
+lazy
+.
 _prefs
 .
 getBoolPref

@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CustomizableUI
 :
@@ -372,6 +378,8 @@ this
 .
 _initializationPromise
 =
+lazy
+.
 IgnoreLists
 .
 getAndSubscribe
@@ -424,6 +432,8 @@ getHomepagePref
 ;
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
@@ -433,6 +443,8 @@ permanentPrivateBrowsing
 aWindow
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -879,6 +891,8 @@ const
 item
 =
 await
+lazy
+.
 ExtensionPreferencesManager
 .
 getSetting
@@ -899,6 +913,8 @@ id
 )
 {
 await
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -910,6 +926,8 @@ chrome_settings_overrides
 "
 )
 ;
+lazy
+.
 ExtensionPreferencesManager
 .
 removeSetting
@@ -1016,6 +1034,8 @@ kWidgetRemovedPref
 true
 )
 ;
+lazy
+.
 CustomizableUI
 .
 removeListener
@@ -1079,6 +1099,8 @@ false
 &
 &
 !
+lazy
+.
 CustomizableUI
 .
 getWidget
@@ -1092,6 +1114,8 @@ areaType
 let
 navbarPlacements
 =
+lazy
+.
 CustomizableUI
 .
 getWidgetIdsInArea
@@ -1166,6 +1190,8 @@ break
 ;
 }
 }
+lazy
+.
 CustomizableUI
 .
 addWidgetToArea
@@ -1199,6 +1225,8 @@ false
 )
 )
 {
+lazy
+.
 CustomizableUI
 .
 addListener
