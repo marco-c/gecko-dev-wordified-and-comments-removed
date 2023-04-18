@@ -7005,6 +7005,12 @@ NeedsBoundsCheck
 (
 true
 )
+mozilla
+:
+:
+Nothing
+(
+)
 )
 ;
 }
