@@ -21982,11 +21982,6 @@ pluralCount
 }
 ;
 let
-alignToTab
-=
-true
-;
-let
 label
 ;
 const
@@ -22024,10 +22019,6 @@ tab
 mOverCloseButton
 )
 {
-alignToTab
-=
-false
-;
 label
 =
 tab
@@ -22215,10 +22206,6 @@ affectedTabsLength
 )
 ;
 }
-alignToTab
-=
-false
-;
 }
 else
 {
