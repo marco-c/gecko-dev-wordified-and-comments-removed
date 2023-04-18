@@ -491,12 +491,6 @@ aData
 if
 (
 !
-dom
-:
-:
-ContentParent
-:
-:
 ShouldSyncPreference
 (
 strData

@@ -251,12 +251,6 @@ ipc
 SharedPreferenceSerializer
 >
 (
-dom
-:
-:
-ContentParent
-:
-:
 ShouldSyncPreference
 )
 ;

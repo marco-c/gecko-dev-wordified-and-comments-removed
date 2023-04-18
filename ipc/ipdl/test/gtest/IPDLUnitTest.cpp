@@ -275,15 +275,6 @@ ipc
 SharedPreferenceSerializer
 >
 (
-mozilla
-:
-:
-dom
-:
-:
-ContentParent
-:
-:
 ShouldSyncPreference
 )
 ;
