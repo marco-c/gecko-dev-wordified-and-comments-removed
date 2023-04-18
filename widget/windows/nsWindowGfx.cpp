@@ -1707,7 +1707,8 @@ OCCLUDED
 if
 (
 mFrameState
-.
+-
+>
 GetSizeMode
 (
 )
@@ -1757,7 +1758,8 @@ d
 "
 "
 mFrameState
-.
+-
+>
 GetSizeMode
 (
 )
@@ -1766,7 +1768,8 @@ d
 "
 mIsFullyOccluded
 mFrameState
-.
+-
+>
 GetSizeMode
 (
 )
@@ -1826,7 +1829,8 @@ mCompositorWidgetDelegate
 NotifyVisibilityUpdated
 (
 mFrameState
-.
+-
+>
 GetSizeMode
 (
 )
@@ -1958,7 +1962,8 @@ mCompositorWidgetDelegate
 NotifyVisibilityUpdated
 (
 mFrameState
-.
+-
+>
 GetSizeMode
 (
 )
@@ -2062,7 +2067,8 @@ mCompositorWidgetDelegate
 NotifyVisibilityUpdated
 (
 mFrameState
-.
+-
+>
 GetSizeMode
 (
 )
