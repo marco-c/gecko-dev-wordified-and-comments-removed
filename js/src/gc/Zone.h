@@ -1798,7 +1798,7 @@ needs
 )
 ;
 const
-uint32_t
+BarrierState
 *
 addressOfNeedsIncrementalBarrier
 (
