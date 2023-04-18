@@ -2028,6 +2028,11 @@ mochitest
 menuCreateParams
 :
 {
+id
+:
+"
+action_item
+"
 title
 :
 "
@@ -2321,6 +2326,11 @@ mochitest
 menuCreateParams
 :
 {
+id
+:
+"
+action_popup
+"
 title
 :
 "
