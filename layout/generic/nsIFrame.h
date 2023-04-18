@@ -13742,7 +13742,13 @@ aResult
 const
 ;
 static
-int32_t
+mozilla
+:
+:
+Maybe
+<
+uint32_t
+>
 ContentIndexInContainer
 (
 const
