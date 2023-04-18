@@ -565,13 +565,6 @@ datadir
 -
 enable
 -
-extensions
-"
-"
--
--
-enable
--
 libproxy
 "
 "
