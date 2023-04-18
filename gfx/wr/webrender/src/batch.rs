@@ -15963,6 +15963,10 @@ Vec
 <
 RenderTaskId
 >
+pub
+wraps_sub_graph
+:
+bool
 }
 impl
 CommandBufferBuilder
@@ -15998,6 +16002,9 @@ Vec
 new
 (
 )
+wraps_sub_graph
+:
+false
 }
 }
 pub
@@ -16041,6 +16048,9 @@ Vec
 new
 (
 )
+wraps_sub_graph
+:
+false
 }
 }
 pub
@@ -16059,6 +16069,9 @@ Option
 <
 RenderTaskId
 >
+wraps_sub_graph
+:
+bool
 )
 -
 >
@@ -16088,6 +16101,7 @@ Vec
 new
 (
 )
+wraps_sub_graph
 }
 }
 }
