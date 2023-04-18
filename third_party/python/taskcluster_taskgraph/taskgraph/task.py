@@ -168,6 +168,25 @@ tasks
 label
 .
     
+-
+if_dependencies
+:
+only
+run
+this
+task
+if
+at
+least
+one
+of
+these
+dependencies
+      
+are
+present
+.
+    
 And
 later
 as
@@ -257,6 +276,18 @@ ib
 (
 )
     
+description
+=
+attr
+.
+ib
+(
+default
+=
+"
+"
+)
+    
 task_id
 =
 attr
@@ -294,6 +325,17 @@ dict
 )
     
 soft_dependencies
+=
+attr
+.
+ib
+(
+factory
+=
+list
+)
+    
+if_dependencies
 =
 attr
 .
@@ -352,6 +394,14 @@ self
 label
             
 "
+description
+"
+:
+self
+.
+description
+            
+"
 attributes
 "
 :
@@ -374,6 +424,14 @@ soft_dependencies
 self
 .
 soft_dependencies
+            
+"
+if_dependencies
+"
+:
+self
+.
+if_dependencies
             
 "
 optimization
@@ -494,6 +552,19 @@ label
 "
 ]
             
+description
+=
+task_dict
+.
+get
+(
+"
+description
+"
+"
+"
+)
+            
 attributes
 =
 task_dict
@@ -540,6 +611,17 @@ get
 (
 "
 soft_dependencies
+"
+)
+            
+if_dependencies
+=
+task_dict
+.
+get
+(
+"
+if_dependencies
 "
 )
         
