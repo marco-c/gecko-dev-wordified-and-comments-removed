@@ -211,7 +211,7 @@ _retval
 return
 WriteSegments
 (
-NS_CopySegmentToBuffer
+NS_CopyBufferToSegment
 (
 char
 *
