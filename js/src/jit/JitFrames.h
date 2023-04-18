@@ -370,7 +370,8 @@ int32_t
 EntryFrame
 Catch
 Finally
-ForcedReturn
+ForcedReturnBaseline
+ForcedReturnIon
 Bailout
 Wasm
 WasmCatch
