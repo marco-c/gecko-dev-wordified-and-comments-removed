@@ -516,6 +516,7 @@ mPendingSpellCheck
 int32_t
 mNumWordsInSpellSelection
 ;
+const
 int32_t
 mMaxNumWordsInSpellSelection
 ;
