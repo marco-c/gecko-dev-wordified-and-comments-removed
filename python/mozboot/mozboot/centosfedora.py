@@ -317,6 +317,7 @@ packages
 +
 =
 [
+                
 "
 redhat
 -
@@ -324,6 +325,11 @@ rpm
 -
 config
 "
+                
+"
+watchman
+"
+            
 ]
             
 if

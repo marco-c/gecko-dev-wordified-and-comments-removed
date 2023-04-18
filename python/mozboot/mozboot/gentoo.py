@@ -82,6 +82,7 @@ self
 .
 run_as_root
 (
+            
 [
 "
 emerge
@@ -103,7 +104,15 @@ arch
 /
 zip
 "
+"
+dev
+-
+util
+/
+watchman
+"
 ]
+        
 )
     
 def

@@ -40,14 +40,6 @@ SYSTEM_PACKAGES
 [
         
 "
-which
-"
-        
-"
-rpmconf
-"
-        
-"
 libcurl
 -
 devel
@@ -57,6 +49,18 @@ devel
 libpulse
 -
 devel
+"
+        
+"
+rpmconf
+"
+        
+"
+watchman
+"
+        
+"
+which
 "
     
 ]

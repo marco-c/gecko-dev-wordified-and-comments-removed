@@ -43,6 +43,9 @@ make
 mercurial
 "
 "
+watchman
+"
+"
 unzip
 "
 "
