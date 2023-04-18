@@ -62,6 +62,9 @@ true
 getCookieStoreIdForTab
 :
 true
+getOriginAttributesPatternForCookieStoreId
+:
+true
 isContainerCookieStoreId
 :
 true
