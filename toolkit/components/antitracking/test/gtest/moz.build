@@ -3,6 +3,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TestPartitioningExceptionList
+.
+cpp
+"
+"
 TestStoragePrincipalHelper
 .
 cpp
