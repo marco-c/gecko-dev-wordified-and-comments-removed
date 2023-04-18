@@ -3167,16 +3167,9 @@ Local
 data
 Go
 to
-[
 about
 :
 telemetry
-]
-(
-about
-:
-telemetry
-)
 to
 see
 stats

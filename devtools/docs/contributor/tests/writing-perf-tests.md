@@ -14,6 +14,8 @@ tests
 performance
 -
 tests
+-
+damp
 .
 md
 )
@@ -280,8 +282,6 @@ writing
 example
 ]
 (
-.
-/
 writing
 -
 perf
@@ -290,7 +290,7 @@ tests
 -
 example
 .
-html
+md
 )
 for
 a
@@ -309,8 +309,6 @@ writing
 tips
 ]
 (
-.
-/
 writing
 -
 perf
@@ -319,7 +317,7 @@ tests
 -
 tips
 .
-html
+md
 )
 for
 detailed
