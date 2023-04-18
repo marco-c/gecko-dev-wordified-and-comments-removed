@@ -56304,7 +56304,7 @@ this
 ;
 if
 (
-GetUnretargetedFullscreenElement
+Fullscreen
 (
 )
 )
@@ -67595,7 +67595,7 @@ if
 (
 aSubDoc
 .
-GetUnretargetedFullscreenElement
+Fullscreen
 (
 )
 )
@@ -67632,19 +67632,12 @@ IsFullscreenLeaf
 (
 )
 {
-if
-(
-!
-GetUnretargetedFullscreenElement
+return
+Fullscreen
 (
 )
-)
-{
-return
-false
-;
-}
-return
+&
+&
 CountFullscreenSubDocuments
 (
 *
@@ -67684,7 +67677,7 @@ if
 !
 aDoc
 .
-GetUnretargetedFullscreenElement
+Fullscreen
 (
 )
 )
@@ -67846,7 +67839,7 @@ NS_ASSERTION
 !
 aDocument
 .
-GetUnretargetedFullscreenElement
+Fullscreen
 (
 )
 "
@@ -68088,7 +68081,7 @@ root
 root
 -
 >
-GetUnretargetedFullscreenElement
+Fullscreen
 (
 )
 )
@@ -68117,7 +68110,7 @@ NS_ASSERTION
 root
 -
 >
-GetUnretargetedFullscreenElement
+Fullscreen
 (
 )
 "
@@ -68218,7 +68211,7 @@ aExit
 NS_ASSERTION
 (
 !
-GetUnretargetedFullscreenElement
+Fullscreen
 (
 )
 |
@@ -68270,7 +68263,7 @@ return
 if
 (
 !
-GetUnretargetedFullscreenElement
+Fullscreen
 (
 )
 |
@@ -71677,7 +71670,7 @@ FullscreenRequest
 >
 aRequest
 bool
-applyFullScreenDirectly
+aApplyFullscreenDirectly
 )
 {
 if
@@ -71696,7 +71689,7 @@ move
 (
 aRequest
 )
-applyFullScreenDirectly
+aApplyFullscreenDirectly
 )
 ;
 }
@@ -71711,7 +71704,7 @@ move
 (
 aRequest
 )
-applyFullScreenDirectly
+aApplyFullscreenDirectly
 )
 ;
 }
@@ -71728,7 +71721,7 @@ FullscreenRequest
 >
 aRequest
 bool
-applyFullScreenDirectly
+aApplyFullscreenDirectly
 )
 {
 MOZ_ASSERT
@@ -71740,11 +71733,9 @@ XRE_IsContentProcess
 ;
 if
 (
-applyFullScreenDirectly
+aApplyFullscreenDirectly
 |
 |
-!
-!
 nsContentUtils
 :
 :
@@ -71754,7 +71745,7 @@ this
 )
 -
 >
-GetUnretargetedFullscreenElement
+Fullscreen
 (
 )
 )
@@ -71868,7 +71859,7 @@ FullscreenRequest
 >
 aRequest
 bool
-applyFullScreenDirectly
+aApplyFullscreenDirectly
 )
 {
 MOZ_ASSERT
@@ -71912,7 +71903,7 @@ return
 }
 if
 (
-applyFullScreenDirectly
+aApplyFullscreenDirectly
 |
 |
 ShouldApplyFullscreenDirectly
