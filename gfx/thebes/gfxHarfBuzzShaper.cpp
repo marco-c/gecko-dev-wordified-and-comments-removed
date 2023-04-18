@@ -1507,11 +1507,15 @@ FloatToFixed
 mFont
 -
 >
-GetHorizontalMetrics
+GetMetrics
 (
+nsFontMetrics
+:
+:
+eVertical
 )
 .
-emHeight
+aveCharWidth
 )
 ;
 }
