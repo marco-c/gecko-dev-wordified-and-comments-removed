@@ -5546,6 +5546,9 @@ GetDocShell
 ;
 if
 (
+docShellBeingHidden
+&
+&
 nsDocShell
 :
 :
