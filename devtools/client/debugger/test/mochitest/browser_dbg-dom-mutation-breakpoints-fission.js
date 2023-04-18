@@ -514,9 +514,13 @@ disabled
 )
 )
 ;
-assertNotPaused
+is
+(
+isPaused
 (
 dbg
+)
+false
 "
 DOM
 breakpoint

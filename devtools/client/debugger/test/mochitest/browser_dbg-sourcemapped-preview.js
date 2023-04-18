@@ -124,7 +124,7 @@ toUpperCase
 )
 )
 ;
-info
+log
 (
 Starting
 {

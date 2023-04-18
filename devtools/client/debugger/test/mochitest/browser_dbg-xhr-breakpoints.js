@@ -234,7 +234,7 @@ remoteUrl
 )
 ;
 await
-wait
+waitForTime
 (
 1000
 )
