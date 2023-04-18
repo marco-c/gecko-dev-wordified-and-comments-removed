@@ -831,6 +831,14 @@ settings
 compress
 :
 true
+tmpPath
+:
+path
++
+"
+.
+tmp
+"
 }
 )
 ;
