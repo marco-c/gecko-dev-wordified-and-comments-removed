@@ -33,7 +33,7 @@ let
 url1
 =
 "
-http
+https
 :
 /
 /
@@ -66,7 +66,7 @@ let
 url2
 =
 "
-http
+https
 :
 /
 /

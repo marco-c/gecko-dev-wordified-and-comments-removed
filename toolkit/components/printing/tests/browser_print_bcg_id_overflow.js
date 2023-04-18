@@ -38,7 +38,7 @@ OPENED_URI
 =
 PrintHelper
 .
-defaultTestPageUrl
+defaultTestPageUrlHTTPS
 ;
 const
 OPEN_NOOPENER_WINDOW
