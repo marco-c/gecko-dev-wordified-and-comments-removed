@@ -364,6 +364,17 @@ profiler_mark_thread_asleep
 (
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
+mData
+.
+RecordWakeCount
+(
+)
+;
+#
+endif
 ThreadRegistry
 :
 :
