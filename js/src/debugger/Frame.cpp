@@ -1741,7 +1741,6 @@ isGeneratorScriptAboutToBeFinalized
 return
 IsAboutToBeFinalized
 (
-&
 generatorScript_
 )
 ;

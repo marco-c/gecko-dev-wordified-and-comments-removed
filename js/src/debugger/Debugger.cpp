@@ -20073,7 +20073,6 @@ if
 (
 IsAboutToBeFinalizedUnbarriered
 (
-&
 frameObj
 )
 )
@@ -20102,7 +20101,6 @@ debuggerDying
 =
 IsAboutToBeFinalized
 (
-&
 dbg
 -
 >
@@ -20158,7 +20156,6 @@ debuggerDying
 |
 IsAboutToBeFinalizedUnbarriered
 (
-&
 global
 )
 )

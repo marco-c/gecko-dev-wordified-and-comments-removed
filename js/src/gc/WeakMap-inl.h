@@ -2439,7 +2439,6 @@ gc
 :
 IsAboutToBeFinalizedUnbarriered
 (
-&
 k
 )
 )
@@ -2472,7 +2471,6 @@ gc
 :
 IsAboutToBeFinalizedUnbarriered
 (
-&
 delegate
 )
 "
@@ -2497,7 +2495,6 @@ gc
 :
 IsAboutToBeFinalized
 (
-&
 r
 .
 front

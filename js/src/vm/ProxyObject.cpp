@@ -587,7 +587,7 @@ IsAboutToBeFinalizedUnbarriered
 (
 shape
 .
-address
+get
 (
 )
 )

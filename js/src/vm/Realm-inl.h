@@ -173,7 +173,6 @@ gc
 :
 IsAboutToBeFinalized
 (
-&
 global_
 )
 )

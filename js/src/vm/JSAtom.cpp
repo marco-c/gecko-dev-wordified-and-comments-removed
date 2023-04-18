@@ -3446,7 +3446,6 @@ if
 (
 IsAboutToBeFinalizedUnbarriered
 (
-&
 atom
 )
 )
@@ -4495,7 +4494,6 @@ if
 !
 IsAboutToBeFinalizedUnbarriered
 (
-&
 atom
 )
 )

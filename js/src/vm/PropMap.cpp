@@ -797,7 +797,6 @@ isGCSweeping
 &
 IsAboutToBeFinalizedUnbarriered
 (
-&
 child
 )
 )

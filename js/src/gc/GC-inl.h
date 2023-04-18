@@ -1419,7 +1419,6 @@ if
 !
 IsAboutToBeFinalizedUnbarriered
 (
-&
 current
 )
 )

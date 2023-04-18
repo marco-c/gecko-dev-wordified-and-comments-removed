@@ -1361,7 +1361,6 @@ MOZ_ASSERT
 (
 IsAboutToBeFinalizedUnbarriered
 (
-&
 key
 )
 )

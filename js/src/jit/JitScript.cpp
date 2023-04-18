@@ -1793,7 +1793,6 @@ if
 (
 IsAboutToBeFinalizedUnbarriered
 (
-&
 script
 )
 )
