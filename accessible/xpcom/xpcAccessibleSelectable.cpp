@@ -1,9 +1,7 @@
 #
 include
 "
-LocalAccessible
--
-inl
+Accessible
 .
 h
 "
@@ -103,7 +101,7 @@ widget
 ;
 AutoTArray
 <
-LocalAccessible
+Accessible
 *
 10
 >
