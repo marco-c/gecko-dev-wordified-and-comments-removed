@@ -129,7 +129,7 @@ EXTRA_JS_MODULES
 =
 [
 "
-360seProfileMigrator
+360seMigrationUtils
 .
 jsm
 "
