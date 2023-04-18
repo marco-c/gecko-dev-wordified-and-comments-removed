@@ -1756,6 +1756,16 @@ about
 loginsimportreport
 "
 ]
+allFrames
+:
+true
+remoteTypes
+:
+[
+"
+privilegedabout
+"
+]
 }
 AboutNewTab
 :
