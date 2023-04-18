@@ -124,12 +124,6 @@ AccEvent
 >
 mEvents
 ;
-RefPtr
-<
-AccEvent
->
-mFocusEvent
-;
 }
 ;
 }
