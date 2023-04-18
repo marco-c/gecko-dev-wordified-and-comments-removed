@@ -244,7 +244,6 @@ Compact
 }
 ;
 class
-CAPABILITY
 LockingWithMutex
 {
 mozilla
@@ -252,6 +251,7 @@ mozilla
 :
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 protected
 :
@@ -270,11 +270,9 @@ mMutex
 )
 {
 }
+PUSH_IGNORE_THREAD_SAFETY
 void
 Lock
-(
-)
-CAPABILITY_ACQUIRE
 (
 )
 {
@@ -287,9 +285,6 @@ Lock
 }
 void
 Unlock
-(
-)
-CAPABILITY_RELEASE
 (
 )
 {
@@ -301,7 +296,6 @@ Unlock
 ;
 }
 class
-SCOPED_CAPABILITY
 AutoLock
 {
 LockingWithMutex
@@ -315,10 +309,6 @@ AutoLock
 (
 LockingWithMutex
 &
-aHost
-)
-CAPABILITY_ACQUIRE
-(
 aHost
 )
 :
@@ -338,9 +328,6 @@ Lock
 AutoLock
 (
 )
-CAPABILITY_RELEASE
-(
-)
 {
 mHost
 .
@@ -351,6 +338,7 @@ Unlock
 }
 }
 ;
+POP_THREAD_SAFETY
 friend
 class
 AutoLock
