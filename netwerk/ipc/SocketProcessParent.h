@@ -459,13 +459,6 @@ const
 ByteArray
 &
 aServerCert
-Maybe
-<
-ByteArray
->
-&
-&
-aClientCert
 nsTArray
 <
 ByteArray
