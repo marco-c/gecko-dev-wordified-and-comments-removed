@@ -1793,6 +1793,16 @@ pointerEventsNone
 return
 ;
 }
+if
+(
+IsContentHidden
+(
+)
+)
+{
+return
+;
+}
 bool
 needToDescend
 =

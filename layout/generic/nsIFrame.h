@@ -8063,6 +8063,12 @@ IsContentDisabled
 )
 const
 ;
+bool
+IsContentHidden
+(
+)
+const
+;
 mozilla
 :
 :
