@@ -4677,8 +4677,6 @@ aSize
 bool
 aUseEmbeddedBitmap
 bool
-aUseMultistrikeBold
-bool
 aGDIForced
 )
 {
@@ -4692,7 +4690,6 @@ aFontFace
 aUnscaledFont
 aSize
 aUseEmbeddedBitmap
-aUseMultistrikeBold
 aGDIForced
 aStyle
 )

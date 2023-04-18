@@ -6634,8 +6634,6 @@ aSize
 bool
 aUseEmbeddedBitmap
 bool
-aUseMultistrikeBold
-bool
 aGDIForced
 )
 ;
