@@ -2730,9 +2730,8 @@ SyncDisabledState
 (
 )
 {
-ElementState
-eventStates
-=
+if
+(
 mContent
 -
 >
@@ -2744,10 +2743,6 @@ AsElement
 State
 (
 )
-;
-if
-(
-eventStates
 .
 HasState
 (

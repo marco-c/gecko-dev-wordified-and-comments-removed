@@ -157,7 +157,7 @@ dom
 :
 :
 ElementState
-eventState
+state
 =
 mContent
 -
@@ -173,7 +173,7 @@ State
 ;
 if
 (
-eventState
+state
 .
 HasState
 (
@@ -186,15 +186,17 @@ ElementState
 UNVISITED
 )
 )
+{
 return
 states
 :
 :
 LINKED
 ;
+}
 if
 (
-eventState
+state
 .
 HasState
 (

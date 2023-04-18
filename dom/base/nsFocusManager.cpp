@@ -6546,7 +6546,7 @@ aGettingFocus
 )
 {
 ElementState
-eventStateToAdd
+stateToAdd
 =
 ElementState
 :
@@ -6558,7 +6558,7 @@ if
 aShouldShowFocusRing
 )
 {
-eventStateToAdd
+stateToAdd
 |
 =
 ElementState
@@ -6572,7 +6572,7 @@ aElement
 >
 AddStates
 (
-eventStateToAdd
+stateToAdd
 )
 ;
 for
@@ -6620,9 +6620,11 @@ FOCUS
 }
 else
 {
-ElementState
-eventStateToRemove
-=
+aElement
+-
+>
+RemoveStates
+(
 ElementState
 :
 :
@@ -6632,13 +6634,6 @@ ElementState
 :
 :
 FOCUSRING
-;
-aElement
--
->
-RemoveStates
-(
-eventStateToRemove
 )
 ;
 for

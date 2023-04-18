@@ -6843,7 +6843,7 @@ GetDocumentState
 )
 ;
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -6907,7 +6907,7 @@ aFrame
 =
 parentFrame
 ;
-eventState
+elementState
 =
 GetContentState
 (
@@ -6943,7 +6943,7 @@ IsAuto
 )
 )
 {
-eventState
+elementState
 |
 =
 ElementState
@@ -6954,7 +6954,7 @@ FOCUSRING
 }
 else
 {
-eventState
+elementState
 &
 =
 ~
@@ -7004,7 +7004,7 @@ Range
 &
 &
 !
-eventState
+elementState
 .
 HasState
 (
@@ -7066,7 +7066,7 @@ PaintRadioControl
 (
 aPaintData
 rect
-eventState
+elementState
 colors
 dpiRatio
 )
@@ -7112,7 +7112,7 @@ PaintCheckboxControl
 (
 aPaintData
 rect
-eventState
+elementState
 colors
 dpiRatio
 )
@@ -7143,7 +7143,7 @@ PaintTextField
 (
 aPaintData
 devPxRect
-eventState
+elementState
 colors
 dpiRatio
 )
@@ -7160,7 +7160,7 @@ PaintListbox
 (
 aPaintData
 devPxRect
-eventState
+elementState
 colors
 dpiRatio
 )
@@ -7183,7 +7183,7 @@ PaintMenulist
 (
 aPaintData
 devPxRect
-eventState
+elementState
 colors
 dpiRatio
 )
@@ -7220,7 +7220,7 @@ PaintMenulistArrowButton
 aFrame
 aPaintData
 devPxRect
-eventState
+elementState
 )
 ;
 }
@@ -7262,7 +7262,7 @@ PaintSpinnerButton
 aFrame
 aPaintData
 devPxRect
-eventState
+elementState
 aAppearance
 colors
 dpiRatio
@@ -7282,7 +7282,7 @@ PaintRange
 aFrame
 aPaintData
 devPxRect
-eventState
+elementState
 colors
 dpiRatio
 IsRangeHorizontal
@@ -7312,7 +7312,7 @@ PaintProgress
 aFrame
 aPaintData
 devPxRect
-eventState
+elementState
 colors
 dpiRatio
 false
@@ -7339,7 +7339,7 @@ PaintProgress
 aFrame
 aPaintData
 devPxRect
-eventState
+elementState
 colors
 dpiRatio
 true
@@ -7407,7 +7407,7 @@ StyleForScrollbar
 (
 aFrame
 )
-eventState
+elementState
 docState
 colors
 dpiRatio
@@ -7524,7 +7524,7 @@ StyleForScrollbar
 (
 aFrame
 )
-eventState
+elementState
 docState
 colors
 dpiRatio
@@ -7676,7 +7676,7 @@ StyleForScrollbar
 (
 aFrame
 )
-eventState
+elementState
 docState
 colors
 dpiRatio
@@ -7698,7 +7698,7 @@ PaintButton
 aFrame
 aPaintData
 devPxRect
-eventState
+elementState
 colors
 dpiRatio
 )

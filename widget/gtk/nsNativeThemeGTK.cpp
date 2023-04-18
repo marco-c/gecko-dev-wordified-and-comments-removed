@@ -1075,7 +1075,7 @@ aWidgetFlags
 ;
 }
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -1105,7 +1105,7 @@ aWidgetFlags
 {
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -1125,7 +1125,7 @@ MOZ_GTK_WIDGET_CHECKED
 }
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -1149,7 +1149,7 @@ aState
 >
 disabled
 =
-eventState
+elementState
 .
 HasState
 (
@@ -1170,7 +1170,7 @@ aState
 >
 active
 =
-eventState
+elementState
 .
 HasState
 (
@@ -1185,7 +1185,7 @@ aState
 >
 focused
 =
-eventState
+elementState
 .
 HasState
 (
@@ -1200,7 +1200,7 @@ aState
 >
 inHover
 =
-eventState
+elementState
 .
 HasState
 (
@@ -1470,7 +1470,7 @@ aState
 >
 focused
 =
-eventState
+elementState
 .
 HasState
 (
@@ -2652,7 +2652,7 @@ GetParent
 )
 ;
 ElementState
-eventStates
+elementState
 =
 GetContentState
 (
@@ -2662,7 +2662,7 @@ aAppearance
 ;
 aGtkWidgetType
 =
-eventStates
+elementState
 .
 HasState
 (
