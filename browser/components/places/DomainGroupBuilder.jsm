@@ -329,7 +329,7 @@ async
 update
 (
 {
-addedUrls
+addedItems
 removedUrls
 }
 )
@@ -353,9 +353,11 @@ Set
 for
 (
 let
+{
 url
+}
 of
-addedUrls
+addedItems
 .
 values
 (
