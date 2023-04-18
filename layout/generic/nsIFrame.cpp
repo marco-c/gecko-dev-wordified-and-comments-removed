@@ -16291,6 +16291,11 @@ false
 bool
 usingBackdropFilter
 =
+IsVisibleForPainting
+(
+)
+&
+&
 effects
 -
 >
