@@ -927,6 +927,9 @@ nsIAuthModule
 >
 module
 ;
+#
+ifdef
+MOZ_AUTH_EXTENSION
 bool
 forceGeneric
 =
@@ -1116,6 +1119,8 @@ identityInvalid
 true
 ;
 }
+#
+endif
 if
 (
 !

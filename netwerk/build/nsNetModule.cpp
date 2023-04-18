@@ -136,12 +136,17 @@ RedirectChannelRegistrar
 h
 "
 #
+ifdef
+MOZ_AUTH_EXTENSION
+#
 include
 "
 nsAuthGSSAPI
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1501,6 +1506,9 @@ Shutdown
 (
 )
 ;
+#
+ifdef
+MOZ_AUTH_EXTENSION
 nsAuthGSSAPI
 :
 :
@@ -1508,6 +1516,8 @@ Shutdown
 (
 )
 ;
+#
+endif
 delete
 gNetSniffers
 ;
