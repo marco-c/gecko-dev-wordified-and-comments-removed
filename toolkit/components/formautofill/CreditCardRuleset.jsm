@@ -4720,8 +4720,7 @@ year
 ]
 ]
 ;
-this
-.
+var
 creditCardRulesets
 =
 {
@@ -4806,8 +4805,6 @@ type
 }
 }
 ;
-this
-.
 creditCardRulesets
 .
 init
