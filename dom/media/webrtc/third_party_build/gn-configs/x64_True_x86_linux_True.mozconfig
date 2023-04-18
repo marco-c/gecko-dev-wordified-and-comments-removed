@@ -21,4 +21,4 @@ MOZ_OBJDIR
 =
 obj
 -
-x64_True_x86_linux
+x64_True_x86_linux_True
