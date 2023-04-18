@@ -140,10 +140,6 @@ manifests
 fennec_geckoview
 .
 yml
-maven_packages
-:
--
-geckoview
 index
 :
 product
@@ -772,6 +768,10 @@ push
 apk
 :
 true
+maven_packages
+:
+-
+geckoview
 shipping
 -
 phase
@@ -1004,6 +1004,14 @@ push
 apk
 :
 true
+maven_packages
+:
+-
+geckoview
+-
+geckoview
+-
+exoplayer2
 shipping
 -
 phase
