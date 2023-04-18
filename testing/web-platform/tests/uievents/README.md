@@ -10,11 +10,9 @@ http
 :
 /
 /
-w3c
--
-test
+wpt
 .
-org
+live
 /
 uievents
 /

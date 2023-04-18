@@ -27,11 +27,9 @@ https
 :
 /
 /
-w3c
--
-test
+wpt
 .
-org
+live
 /
 IndexedDB
 /

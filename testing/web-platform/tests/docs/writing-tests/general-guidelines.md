@@ -1341,12 +1341,6 @@ on
 external
 network
 resources
-including
-w3c
--
-test
-.
-org
 .
 When
 these
