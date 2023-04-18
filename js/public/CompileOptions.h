@@ -214,11 +214,6 @@ classStaticBlocks
 false
 ;
 bool
-useOffThreadParseGlobal
-=
-true
-;
-bool
 borrowBuffer
 =
 false

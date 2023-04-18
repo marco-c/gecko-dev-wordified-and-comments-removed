@@ -7630,7 +7630,7 @@ return
 false
 ;
 }
-if
+MOZ_ASSERT
 (
 !
 cx
@@ -7640,7 +7640,7 @@ isHelperThreadContext
 (
 )
 )
-{
+;
 Rooted
 <
 ScriptSourceObject
@@ -7671,7 +7671,6 @@ options
 return
 false
 ;
-}
 }
 return
 true
@@ -8721,7 +8720,7 @@ return
 false
 ;
 }
-if
+MOZ_ASSERT
 (
 !
 cx
@@ -8731,7 +8730,7 @@ isHelperThreadContext
 (
 )
 )
-{
+;
 if
 (
 !
@@ -8748,7 +8747,6 @@ module
 return
 false
 ;
-}
 }
 }
 return
