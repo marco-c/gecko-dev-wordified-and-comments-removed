@@ -229,7 +229,7 @@ MessagePump
 :
 MessagePump
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -651,7 +651,7 @@ TYPE_ONE_SHOT
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 MessagePump
 :
@@ -670,7 +670,7 @@ mEventTarget
 ;
 }
 return
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

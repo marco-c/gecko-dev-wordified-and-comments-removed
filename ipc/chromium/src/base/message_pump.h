@@ -12,7 +12,7 @@ nsISupportsImpl
 h
 "
 class
-nsIEventTarget
+nsISerialEventTarget
 ;
 namespace
 base
@@ -122,7 +122,7 @@ delayed_work_time
 0
 ;
 virtual
-nsIEventTarget
+nsISerialEventTarget
 *
 GetXPCOMThread
 (

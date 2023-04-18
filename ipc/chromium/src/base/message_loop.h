@@ -110,9 +110,6 @@ nsThreadUtils
 h
 "
 class
-nsIEventTarget
-;
-class
 nsISerialEventTarget
 ;
 namespace
@@ -317,7 +314,7 @@ Type
 type
 =
 TYPE_DEFAULT
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 =
