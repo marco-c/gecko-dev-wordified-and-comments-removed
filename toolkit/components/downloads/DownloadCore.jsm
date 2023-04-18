@@ -600,6 +600,9 @@ null
 launchWhenSucceeded
 :
 false
+openDownloadsListOnStart
+:
+true
 contentType
 :
 null
@@ -3446,6 +3449,9 @@ contentType
 "
 "
 handleInternally
+"
+"
+openDownloadsListOnStart
 "
 ]
 ;
