@@ -324,6 +324,17 @@ frameIds
 frameIds
 ;
 }
+else
+{
+options
+.
+frameIds
+=
+[
+0
+]
+;
+}
 options
 .
 runAt
