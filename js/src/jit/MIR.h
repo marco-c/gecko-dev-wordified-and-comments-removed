@@ -33855,6 +33855,16 @@ AliasSet
 :
 :
 UnboxedElement
+|
+AliasSet
+:
+:
+ObjectFields
+|
+AliasSet
+:
+:
+ArrayBufferViewLengthOrOffset
 )
 ;
 }
