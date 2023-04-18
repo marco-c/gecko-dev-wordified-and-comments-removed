@@ -1072,7 +1072,6 @@ CanvasRenderingContextHelper
 ToBlob
 (
 aCx
-global
 callback
 aType
 aParams
