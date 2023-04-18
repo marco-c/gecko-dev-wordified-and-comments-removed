@@ -266,11 +266,14 @@ StaticAutoPtr
 nsCString
 >
 sCachedAppPath
+GUARDED_BY
+(
+sCachedAppPathMutex
+)
 ;
 static
 StaticMutex
 sCachedAppPathMutex
-MOZ_UNANNOTATED
 ;
 static
 nsresult

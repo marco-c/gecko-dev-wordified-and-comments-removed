@@ -8000,6 +8000,16 @@ MallocSizeOf
 this
 )
 ;
+{
+mozilla
+:
+:
+MutexAutoLock
+autoLock
+(
+mMutex
+)
+;
 n
 +
 =
@@ -8022,6 +8032,7 @@ ShallowSizeOfIncludingThis
 MallocSizeOf
 )
 ;
+}
 MOZ_COLLECT_REPORT
 (
 "
@@ -8657,7 +8668,9 @@ forget
 if
 (
 !
-mIsRegistrationBlocked
+IsRegistrationBlocked
+(
+)
 &
 &
 net
