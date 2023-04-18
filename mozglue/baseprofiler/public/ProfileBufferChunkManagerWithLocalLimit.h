@@ -1366,6 +1366,10 @@ PeekExtantReleasedChunksAndLock
 (
 )
 final
+CAPABILITY_ACQUIRE
+(
+mMutex
+)
 {
 mMutex
 .
@@ -1396,6 +1400,10 @@ UnlockAfterPeekExtantReleasedChunks
 (
 )
 final
+CAPABILITY_RELEASE
+(
+mMutex
+)
 {
 mMutex
 .
