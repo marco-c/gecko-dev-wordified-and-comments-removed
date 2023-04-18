@@ -173,6 +173,11 @@ TestObserverService
 cpp
 "
 "
+TestOwningNonNull
+.
+cpp
+"
+"
 TestPLDHash
 .
 cpp

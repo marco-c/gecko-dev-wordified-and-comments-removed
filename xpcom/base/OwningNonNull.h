@@ -536,7 +536,13 @@ aValue
 {
 mPtr
 =
+std
+:
+:
+move
+(
 aValue
+)
 ;
 MOZ_ASSERT
 (
