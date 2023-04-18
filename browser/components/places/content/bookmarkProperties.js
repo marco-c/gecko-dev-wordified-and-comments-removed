@@ -1818,6 +1818,7 @@ document
 commandDispatcher
 .
 focusedElement
+?
 .
 blur
 (
