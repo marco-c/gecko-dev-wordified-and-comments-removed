@@ -886,6 +886,15 @@ mAcquiringImportMaps
 acquiring
 ;
 }
+bool
+IsModuleFetched
+(
+nsIURI
+*
+aURL
+)
+const
+;
 private
 :
 friend
