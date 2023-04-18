@@ -644,6 +644,15 @@ rec
 .
 engagement
 }
+pocket_button_enabled
+=
+{
+this
+.
+props
+.
+pocket_button_enabled
+}
 display_engagement_labels
 =
 {

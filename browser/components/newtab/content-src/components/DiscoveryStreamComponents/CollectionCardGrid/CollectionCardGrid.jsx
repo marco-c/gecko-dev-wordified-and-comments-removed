@@ -386,6 +386,7 @@ const
 {
 data
 dismissible
+pocket_button_enabled
 }
 =
 this
@@ -874,6 +875,11 @@ grid
 >
 <
 CardGrid
+pocket_button_enabled
+=
+{
+pocket_button_enabled
+}
 title
 =
 {

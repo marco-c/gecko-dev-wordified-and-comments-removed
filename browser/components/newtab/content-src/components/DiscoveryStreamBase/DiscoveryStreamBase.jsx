@@ -1508,6 +1508,13 @@ component
 .
 cta_variant
 }
+pocket_button_enabled
+=
+{
+component
+.
+pocketButtonEnabled
+}
 display_engagement_labels
 =
 {
@@ -1772,6 +1779,13 @@ cta_variant
 component
 .
 cta_variant
+}
+pocket_button_enabled
+=
+{
+component
+.
+pocketButtonEnabled
 }
 display_engagement_labels
 =
