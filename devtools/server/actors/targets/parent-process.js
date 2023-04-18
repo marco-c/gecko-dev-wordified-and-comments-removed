@@ -185,6 +185,7 @@ connection
 {
 isTopLevelTarget
 window
+sessionContext
 }
 )
 {
@@ -258,6 +259,7 @@ window
 .
 docShell
 isTopLevelTarget
+sessionContext
 }
 )
 ;

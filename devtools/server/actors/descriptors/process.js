@@ -424,6 +424,11 @@ conn
 isTopLevelTarget
 :
 true
+sessionContext
+:
+createBrowserSessionContext
+(
+)
 }
 )
 ;
