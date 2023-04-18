@@ -1103,6 +1103,8 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
+TEST_URL
 )
 ;
 await
@@ -1157,6 +1159,8 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
+TEST_URL
 )
 ;
 await
