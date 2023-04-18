@@ -1036,12 +1036,12 @@ moxUnignoredChildren
 if
 (
 mRole
-!
+=
 =
 roles
 :
 :
-APPLICATION
+DOCUMENT
 &
 &
 [
