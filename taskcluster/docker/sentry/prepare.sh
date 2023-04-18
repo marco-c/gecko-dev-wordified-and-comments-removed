@@ -15,10 +15,6 @@ nounset
 set
 -
 o
-pipefail
-set
--
-o
 xtrace
 apt
 -
