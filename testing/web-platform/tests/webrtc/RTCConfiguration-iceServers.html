@@ -178,9 +178,6 @@ sequence
 RTCIceServer
 >
 iceServers
-=
-[
-]
 ;
 .
 .
@@ -257,7 +254,7 @@ RTCPeerConnection
 (
 )
 ;
-assert_array_equals
+assert_equals
 (
 pc
 .
@@ -266,8 +263,7 @@ getConfiguration
 )
 .
 iceServers
-[
-]
+undefined
 )
 ;
 }
@@ -362,7 +358,7 @@ undefined
 }
 )
 ;
-assert_array_equals
+assert_equals
 (
 pc
 .
@@ -371,8 +367,7 @@ getConfiguration
 )
 .
 iceServers
-[
-]
+undefined
 )
 ;
 }

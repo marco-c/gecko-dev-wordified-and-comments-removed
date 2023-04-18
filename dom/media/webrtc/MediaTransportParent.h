@@ -112,17 +112,6 @@ const
 string
 &
 name
-)
-;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
-RecvSetIceConfig
-(
 nsTArray
 <
 RTCIceServer

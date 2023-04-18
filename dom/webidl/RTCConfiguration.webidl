@@ -205,9 +205,6 @@ sequence
 RTCIceServer
 >
 iceServers
-=
-[
-]
 ;
 RTCIceTransportPolicy
 iceTransportPolicy
@@ -234,9 +231,6 @@ sequence
 RTCCertificate
 >
 certificates
-=
-[
-]
 ;
 /
 /

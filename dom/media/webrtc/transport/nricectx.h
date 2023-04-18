@@ -777,11 +777,6 @@ std
 string
 &
 aName
-)
-;
-nsresult
-SetIceConfig
-(
 const
 Config
 &
@@ -1240,6 +1235,11 @@ bool
 online
 )
 ;
+nsresult
+Finalize
+(
+)
+;
 void
 AccumulateStats
 (
@@ -1310,7 +1310,6 @@ NrIceCtx
 )
 private
 :
-explicit
 NrIceCtx
 (
 const
@@ -1320,6 +1319,10 @@ std
 string
 &
 name
+const
+Config
+&
+aConfig
 )
 ;
 virtual

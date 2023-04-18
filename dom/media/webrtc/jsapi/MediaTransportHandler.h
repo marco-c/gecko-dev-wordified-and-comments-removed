@@ -273,7 +273,7 @@ ExitPrivateMode
 0
 ;
 virtual
-void
+nsresult
 CreateIceCtx
 (
 const
@@ -283,14 +283,6 @@ std
 string
 &
 aName
-)
-=
-0
-;
-virtual
-nsresult
-SetIceConfig
-(
 const
 nsTArray
 <
