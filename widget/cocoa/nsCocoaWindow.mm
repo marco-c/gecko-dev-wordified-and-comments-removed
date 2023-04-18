@@ -1607,14 +1607,6 @@ mWindowType
 eWindowType_popup
 )
 {
-SetWindowMouseTransparent
-(
-aInitData
--
->
-mMouseTransparent
-)
-;
 LayoutDeviceIntRect
 devRect
 =

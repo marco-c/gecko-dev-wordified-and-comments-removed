@@ -164,11 +164,6 @@ mSupportTranslucency
 false
 ;
 bool
-mMouseTransparent
-=
-false
-;
-bool
 mHasRemoteContent
 =
 false

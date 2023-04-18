@@ -26434,16 +26434,6 @@ aInitData
 >
 mNoAutoHide
 ;
-mMouseTransparent
-=
-aInitData
-&
-&
-aInitData
--
->
-mMouseTransparent
-;
 GtkWindowType
 type
 =
