@@ -236,7 +236,7 @@ get_cookies
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 len
@@ -578,7 +578,7 @@ key
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 set
@@ -747,7 +747,7 @@ get_cookies
         
 self
 .
-assertEquals
+assertEqual
 (
 count
 +
@@ -877,7 +877,7 @@ cookies
         
 self
 .
-assertEquals
+assertEqual
 (
 cookie2
 [

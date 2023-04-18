@@ -473,7 +473,7 @@ items
         
 self
 .
-assertEquals
+assertEqual
 (
             
 set
@@ -683,7 +683,7 @@ fh
         
 self
 .
-assertEquals
+assertEqual
 (
             
 sources

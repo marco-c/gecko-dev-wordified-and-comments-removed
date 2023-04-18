@@ -215,7 +215,7 @@ runnable
         
 self
 .
-assertEquals
+assertEqual
 (
 (
 0
@@ -238,7 +238,7 @@ cmd_condition_true
         
 self
 .
-assertEquals
+assertEqual
 (
 (
 0
@@ -342,7 +342,7 @@ name
             
 self
 .
-assertEquals
+assertEqual
 (
 1
 result
@@ -360,7 +360,7 @@ fail_conditions
             
 self
 .
-assertEquals
+assertEqual
 (
 fail_msg
 .
@@ -403,7 +403,7 @@ _populate_context
             
 self
 .
-assertEquals
+assertEqual
 (
 1
 result
@@ -421,7 +421,7 @@ fail_conditions
             
 self
 .
-assertEquals
+assertEqual
 (
 fail_msg
 .

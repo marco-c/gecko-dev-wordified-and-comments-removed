@@ -388,7 +388,7 @@ flush
         
 self
 .
-assertEquals
+assertEqual
 (
 stream
 .

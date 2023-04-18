@@ -2467,7 +2467,7 @@ exception
             
 self
 .
-assertEquals
+assertEqual
 (
 e
 .
@@ -2491,7 +2491,7 @@ sep
             
 self
 .
-assertEquals
+assertEqual
 (
 e
 .

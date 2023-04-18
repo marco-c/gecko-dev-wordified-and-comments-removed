@@ -5714,7 +5714,7 @@ bar
         
 self
 .
-assertEquals
+assertEqual
 (
 type
 (
@@ -5725,7 +5725,7 @@ FooBar
         
 self
 .
-assertEquals
+assertEqual
 (
 t
 .
@@ -5737,7 +5737,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 t
 .
@@ -5747,7 +5747,7 @@ bar
         
 self
 .
-assertEquals
+assertEqual
 (
 t
 [
@@ -5760,7 +5760,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 t
 [
@@ -5830,7 +5830,7 @@ t1
         
 self
 .
-assertEquals
+assertEqual
 (
 type
 (
@@ -6451,7 +6451,7 @@ gcc
         
 self
 .
-assertEquals
+assertEqual
 (
 type
 "
@@ -6461,7 +6461,7 @@ gcc
         
 self
 .
-assertNotEquals
+assertNotEqual
 (
 type
 "
@@ -6471,7 +6471,7 @@ clang
         
 self
 .
-assertNotEquals
+assertNotEqual
 (
 type
 "
@@ -6526,7 +6526,7 @@ EnumStringComparisonError
             
 self
 .
-assertEquals
+assertEqual
 (
 type
 "
@@ -6545,7 +6545,7 @@ EnumStringComparisonError
             
 self
 .
-assertNotEquals
+assertNotEqual
 (
 type
 "

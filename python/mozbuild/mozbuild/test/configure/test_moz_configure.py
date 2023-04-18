@@ -1113,7 +1113,7 @@ args
                 
 this
 .
-assertEquals
+assertEqual
 (
 args
 (
@@ -1264,7 +1264,7 @@ v3
         
 self
 .
-assertEquals
+assertEqual
 (
 check_nsis_version
 (
@@ -1283,7 +1283,7 @@ v3
         
 self
 .
-assertEquals
+assertEqual
 (
 check_nsis_version
 (
@@ -1302,7 +1302,7 @@ v3
         
 self
 .
-assertEquals
+assertEqual
 (
 check_nsis_version
 (
@@ -1321,7 +1321,7 @@ v3
         
 self
 .
-assertEquals
+assertEqual
 (
 check_nsis_version
 (
@@ -1340,7 +1340,7 @@ v3
         
 self
 .
-assertEquals
+assertEqual
 (
 check_nsis_version
 (
@@ -1361,7 +1361,7 @@ v3
         
 self
 .
-assertEquals
+assertEqual
 (
 check_nsis_version
 (
@@ -1382,7 +1382,7 @@ v3
         
 self
 .
-assertEquals
+assertEqual
 (
 check_nsis_version
 (

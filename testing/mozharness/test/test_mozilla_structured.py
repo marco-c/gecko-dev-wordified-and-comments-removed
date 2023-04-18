@@ -374,7 +374,7 @@ result
         
 self
 .
-assertEquals
+assertEqual
 (
 tbpl_status
 TBPL_SUCCESS
@@ -382,7 +382,7 @@ TBPL_SUCCESS
         
 self
 .
-assertEquals
+assertEqual
 (
 worst_log_level
 INFO
@@ -390,7 +390,7 @@ INFO
         
 self
 .
-assertEquals
+assertEqual
 (
 joined_summary
 success_summary
@@ -519,7 +519,7 @@ result
         
 self
 .
-assertEquals
+assertEqual
 (
 tbpl_status
 TBPL_WARNING
@@ -527,7 +527,7 @@ TBPL_WARNING
         
 self
 .
-assertEquals
+assertEqual
 (
 worst_log_level
 WARNING
@@ -535,7 +535,7 @@ WARNING
         
 self
 .
-assertEquals
+assertEqual
 (
 joined_summary
 failure_summary

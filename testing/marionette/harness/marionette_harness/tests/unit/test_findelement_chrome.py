@@ -451,7 +451,7 @@ vbox
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 vbox

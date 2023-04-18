@@ -3221,7 +3221,7 @@ utility_path
         
 self
 .
-assertEquals
+assertEqual
 (
             
 expected
@@ -3514,7 +3514,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -3526,7 +3526,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -3538,7 +3538,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -3550,7 +3550,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -3636,7 +3636,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -3648,7 +3648,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -3660,7 +3660,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -3672,7 +3672,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -3790,7 +3790,7 @@ TEST_FAIL_STRING
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -3802,7 +3802,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -4372,7 +4372,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -4384,7 +4384,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -4396,7 +4396,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -4408,7 +4408,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -4533,7 +4533,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -4545,7 +4545,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -4557,7 +4557,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -4569,7 +4569,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -4696,7 +4696,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -4708,7 +4708,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -4720,7 +4720,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -4732,7 +4732,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -4867,7 +4867,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -4879,7 +4879,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -4891,7 +4891,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -4903,7 +4903,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -5033,7 +5033,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -5045,7 +5045,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -5057,7 +5057,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -5069,7 +5069,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -5206,7 +5206,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -5218,7 +5218,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -5230,7 +5230,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -5242,7 +5242,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -5378,7 +5378,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -5390,7 +5390,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -5402,7 +5402,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -5414,7 +5414,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -5556,7 +5556,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -5568,7 +5568,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -5580,7 +5580,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -5592,7 +5592,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -5701,7 +5701,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -5713,7 +5713,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -5725,7 +5725,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -5737,7 +5737,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -5936,7 +5936,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -5948,7 +5948,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -5960,7 +5960,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -5972,7 +5972,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6079,7 +6079,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 2
 self
@@ -6091,7 +6091,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6103,7 +6103,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6115,7 +6115,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6214,7 +6214,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6226,7 +6226,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6238,7 +6238,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6250,7 +6250,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6353,7 +6353,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6365,7 +6365,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6377,7 +6377,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6389,7 +6389,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6505,7 +6505,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6517,7 +6517,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6529,7 +6529,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6541,7 +6541,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6642,7 +6642,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6654,7 +6654,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6666,7 +6666,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6678,7 +6678,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6798,7 +6798,7 @@ rejection
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6810,7 +6810,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6822,7 +6822,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6889,7 +6889,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6901,7 +6901,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6913,7 +6913,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -6983,7 +6983,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -6995,7 +6995,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -7007,7 +7007,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7208,7 +7208,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7220,7 +7220,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -7232,7 +7232,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7305,7 +7305,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7317,7 +7317,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -7329,7 +7329,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7400,7 +7400,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7412,7 +7412,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7424,7 +7424,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -7495,7 +7495,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7507,7 +7507,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7519,7 +7519,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -7586,7 +7586,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7598,7 +7598,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -7610,7 +7610,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7679,7 +7679,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7691,7 +7691,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -7703,7 +7703,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7776,7 +7776,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7788,7 +7788,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -7800,7 +7800,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7961,7 +7961,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7973,7 +7973,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -7985,7 +7985,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -8036,7 +8036,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -8048,7 +8048,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -8060,7 +8060,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -8156,7 +8156,7 @@ True
             
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -8266,7 +8266,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 10
 self
@@ -8278,7 +8278,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 10
 self
@@ -9393,7 +9393,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -9405,7 +9405,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -9417,7 +9417,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -9507,7 +9507,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -9519,7 +9519,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -9531,7 +9531,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -9626,7 +9626,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -9638,7 +9638,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -9650,7 +9650,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -9748,7 +9748,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -9760,7 +9760,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -9772,7 +9772,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -9860,7 +9860,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -9872,7 +9872,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -9884,7 +9884,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -9972,7 +9972,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -9984,7 +9984,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -9996,7 +9996,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -10085,7 +10085,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -10097,7 +10097,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -10109,7 +10109,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -10190,7 +10190,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -10202,7 +10202,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -10214,7 +10214,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -10226,7 +10226,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -10322,7 +10322,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -10334,7 +10334,7 @@ testCount
         
 self
 .
-assertEquals
+assertEqual
 (
 1
 self
@@ -10346,7 +10346,7 @@ passCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self
@@ -10358,7 +10358,7 @@ failCount
         
 self
 .
-assertEquals
+assertEqual
 (
 0
 self

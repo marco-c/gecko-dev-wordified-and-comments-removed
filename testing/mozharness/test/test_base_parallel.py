@@ -45,7 +45,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -77,7 +77,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
             
 self
@@ -114,7 +114,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -146,7 +146,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -192,7 +192,7 @@ thing
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -213,7 +213,7 @@ thing
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -233,7 +233,7 @@ thing
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .

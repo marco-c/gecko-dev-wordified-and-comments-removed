@@ -67,7 +67,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
 VendorRust
 .
@@ -88,7 +88,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 VendorRust
 .
@@ -105,7 +105,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 VendorRust
 .
@@ -122,7 +122,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 VendorRust
 .
@@ -141,7 +141,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 VendorRust
 .
@@ -160,7 +160,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 VendorRust
 .
@@ -179,7 +179,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 VendorRust
 .
@@ -200,7 +200,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 VendorRust
 .
@@ -219,7 +219,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 VendorRust
 .

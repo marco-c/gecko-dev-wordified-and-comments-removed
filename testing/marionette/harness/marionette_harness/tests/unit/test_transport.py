@@ -390,7 +390,7 @@ to_msg
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -403,7 +403,7 @@ TYPE
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -416,7 +416,7 @@ msgid
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -429,7 +429,7 @@ name
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -475,7 +475,7 @@ msg
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -488,7 +488,7 @@ id
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -501,7 +501,7 @@ name
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -727,7 +727,7 @@ to_msg
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -740,7 +740,7 @@ TYPE
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -753,7 +753,7 @@ msgid
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -766,7 +766,7 @@ error
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -812,7 +812,7 @@ msg
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -825,7 +825,7 @@ id
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [
@@ -838,7 +838,7 @@ error
         
 self
 .
-assertEquals
+assertEqual
 (
 msg
 [

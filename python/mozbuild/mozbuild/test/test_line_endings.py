@@ -189,7 +189,7 @@ name
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -248,7 +248,7 @@ name
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -309,7 +309,7 @@ name
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .

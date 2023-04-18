@@ -91,7 +91,7 @@ MarionetteException
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -148,7 +148,7 @@ stacktrace
         
 self
 .
-assertEquals
+assertEqual
 (
 exc
 .
@@ -158,7 +158,7 @@ message
         
 self
 .
-assertEquals
+assertEqual
 (
 exc
 .
@@ -168,7 +168,7 @@ cause
         
 self
 .
-assertEquals
+assertEqual
 (
 exc
 .

@@ -2322,7 +2322,7 @@ var
                 
 self
 .
-assertEquals
+assertEqual
 (
 (
 var
@@ -2340,7 +2340,7 @@ SystemExit
                 
 self
 .
-assertEquals
+assertEqual
 (
 (
 var
@@ -2562,7 +2562,7 @@ OBJ_SUFFIX
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 "

@@ -22,7 +22,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
 True
 False

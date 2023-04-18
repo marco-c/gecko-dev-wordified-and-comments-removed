@@ -258,7 +258,7 @@ chrome
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -292,7 +292,7 @@ content
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -306,7 +306,7 @@ content
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -340,7 +340,7 @@ chrome
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -367,7 +367,7 @@ content
                 
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -381,7 +381,7 @@ content
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -395,7 +395,7 @@ chrome
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -429,7 +429,7 @@ chrome
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -454,7 +454,7 @@ content
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -468,7 +468,7 @@ content
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -514,7 +514,7 @@ MarionetteException
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -549,7 +549,7 @@ m
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -577,7 +577,7 @@ m
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .

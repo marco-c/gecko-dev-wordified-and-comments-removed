@@ -222,7 +222,7 @@ lines
             
 self
 .
-assert_
+assertTrue
 (
                 
 len
@@ -280,7 +280,7 @@ pop
         
 self
 .
-assert_
+assertTrue
 (
             
 len

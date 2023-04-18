@@ -156,7 +156,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -218,7 +218,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -298,7 +298,7 @@ error
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -361,7 +361,7 @@ i
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -474,7 +474,7 @@ bar
         
 self
 .
-assertEquals
+assertEqual
 (
             
 self

@@ -176,7 +176,7 @@ fallback
         
 self
 .
-assert_
+assertTrue
 (
 "
 FAIL
@@ -189,7 +189,7 @@ c
         
 self
 .
-assert_
+assertTrue
 (
 "
 PASS
@@ -376,7 +376,7 @@ operator
         
 self
 .
-assert_
+assertTrue
 (
 Expression
 (
@@ -396,7 +396,7 @@ c
         
 self
 .
-assert_
+assertTrue
 (
 not
 Expression
@@ -437,7 +437,7 @@ operator
         
 self
 .
-assert_
+assertTrue
 (
 Expression
 (
@@ -479,7 +479,7 @@ operator
         
 self
 .
-assert_
+assertTrue
 (
 Expression
 (

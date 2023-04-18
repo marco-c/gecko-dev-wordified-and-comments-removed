@@ -178,7 +178,7 @@ email
         
 self
 .
-assertEquals
+assertEqual
 (
 element
 .
@@ -227,7 +227,7 @@ email
         
 self
 .
-assertEquals
+assertEqual
 (
 element
 .
@@ -323,7 +323,7 @@ sixth
         
 self
 .
-assertEquals
+assertEqual
 (
 frame
 frame1

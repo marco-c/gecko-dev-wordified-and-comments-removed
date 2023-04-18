@@ -4849,7 +4849,7 @@ c
         
 self
 .
-assertRegexpMatches
+assertRegex
 (
 o
 .
@@ -10397,7 +10397,7 @@ cxx_shared
                     
 self
 .
-assertEquals
+assertEqual
 (
                         
 obj
@@ -10454,7 +10454,7 @@ just_c_shared
                     
 self
 .
-assertEquals
+assertEqual
 (
                         
 obj
@@ -13390,7 +13390,7 @@ RustLibrary
         
 self
 .
-assertRegexpMatches
+assertRegex
 (
 lib
 .
@@ -13402,7 +13402,7 @@ random_crate
         
 self
 .
-assertRegexpMatches
+assertRegex
 (
 lib
 .
@@ -13414,7 +13414,7 @@ random_crate
         
 self
 .
-assertRegexpMatches
+assertRegex
 (
 lib
 .
@@ -14371,7 +14371,7 @@ HostRustLibrary
         
 self
 .
-assertRegexpMatches
+assertRegex
 (
 lib
 .
@@ -14383,7 +14383,7 @@ host_lib
         
 self
 .
-assertRegexpMatches
+assertRegex
 (
 lib
 .

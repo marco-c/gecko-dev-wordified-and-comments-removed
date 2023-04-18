@@ -200,7 +200,7 @@ exc_info
         
 self
 .
-assertEquals
+assertEqual
 (
             
 traceback
@@ -430,7 +430,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -555,7 +555,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -704,7 +704,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -880,7 +880,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -996,7 +996,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -1109,7 +1109,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -1306,7 +1306,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -1462,7 +1462,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -1553,7 +1553,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -1637,7 +1637,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -1745,7 +1745,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -1868,7 +1868,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -2009,7 +2009,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -2151,7 +2151,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -2292,7 +2292,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -2498,7 +2498,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -2721,7 +2721,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -2812,7 +2812,7 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -2930,9 +2930,8 @@ lint_test
         
 self
 .
-assertEquals
+assertEqual
 (
-            
 str
 (
 e
@@ -2952,7 +2951,6 @@ to
 be
 imported
 "
-        
 )
 if
 __name__

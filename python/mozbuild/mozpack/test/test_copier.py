@@ -3492,7 +3492,7 @@ st_mode
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
