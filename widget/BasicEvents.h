@@ -674,6 +674,12 @@ false
 ;
 if
 (
+!
+XRE_IsParentProcess
+(
+)
+&
+&
 IsWaitingReplyFromRemoteProcess
 (
 )
