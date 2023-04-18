@@ -63,6 +63,9 @@ PRemoteWorkerController
 include
 ServiceWorkerOpArgs
 ;
+include
+FetchTypes
+;
 namespace
 mozilla
 {
@@ -74,6 +77,15 @@ PFetchEventOp
 {
 manager
 PRemoteWorkerController
+;
+parent
+:
+async
+PreloadResponse
+(
+IPCInternalResponse
+aResponse
+)
 ;
 child
 :

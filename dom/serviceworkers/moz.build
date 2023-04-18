@@ -49,6 +49,11 @@ FetchEventOpProxyParent
 h
 "
 "
+FetchService
+.
+h
+"
+"
 NavigationPreloadManager
 .
 h

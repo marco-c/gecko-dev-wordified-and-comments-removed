@@ -63,6 +63,9 @@ PRemoteWorker
 include
 ServiceWorkerOpArgs
 ;
+include
+FetchTypes
+;
 namespace
 mozilla
 {
@@ -109,6 +112,15 @@ __delete__
 (
 ServiceWorkerFetchEventOpResult
 aResult
+)
+;
+child
+:
+async
+PreloadResponse
+(
+IPCInternalResponse
+aResponse
 )
 ;
 }
