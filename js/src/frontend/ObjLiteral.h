@@ -3144,6 +3144,13 @@ frontend
 :
 StencilXDR
 ;
+friend
+struct
+frontend
+:
+:
+CompilationStencil
+;
 mozilla
 :
 :
