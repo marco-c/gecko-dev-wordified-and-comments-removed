@@ -727,9 +727,6 @@ ACCESSIBILITY
 void
 FireMenuItemActiveEvent
 (
-nsIContent
-*
-aPreviousOption
 )
 ;
 #

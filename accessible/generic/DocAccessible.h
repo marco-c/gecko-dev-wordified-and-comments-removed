@@ -1336,9 +1336,12 @@ aEventType
 void
 ARIAActiveDescendantIDMaybeMoved
 (
-LocalAccessible
+dom
+:
+:
+Element
 *
-aAccessible
+aElm
 )
 ;
 bool
