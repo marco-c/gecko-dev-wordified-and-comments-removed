@@ -2106,16 +2106,6 @@ notification_enable_delay
 user_pref
 (
 "
-security
-.
-warn_viewing_mixed
-"
-false
-)
-;
-user_pref
-(
-"
 services
 .
 settings

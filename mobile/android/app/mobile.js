@@ -2686,16 +2686,6 @@ pref
 "
 security
 .
-warn_viewing_mixed
-"
-false
-)
-;
-pref
-(
-"
-security
-.
 cert_pinning
 .
 enforcement_level
