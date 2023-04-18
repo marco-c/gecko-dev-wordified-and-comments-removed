@@ -14474,15 +14474,6 @@ scratch
 )
 ;
 void
-profilerEnterFrame
-(
-RegisterOrSP
-framePtr
-Register
-scratch
-)
-;
-void
 profilerExitFrame
 (
 )

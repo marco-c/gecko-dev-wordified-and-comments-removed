@@ -138,6 +138,17 @@ h
 #
 include
 "
+jit
+/
+JSJitFrameIter
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 JSScript
@@ -259,7 +270,10 @@ fn
 ;
 }
 static
-void
+jit
+:
+:
+JitFrameLayout
 *
 GetTopProfilingJitFrame
 (
@@ -372,7 +386,7 @@ done
 return
 jitIter
 .
-fp
+framePtr
 (
 )
 ;
@@ -557,7 +571,7 @@ activation
 (
 )
 ;
-void
+auto
 *
 lastProfilingFrame
 =
