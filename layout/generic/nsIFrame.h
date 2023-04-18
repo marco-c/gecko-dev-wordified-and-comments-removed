@@ -8822,6 +8822,15 @@ GetOverflowAreasRelativeToParent
 )
 const
 ;
+mozilla
+:
+:
+OverflowAreas
+GetActualAndNormalOverflowAreasRelativeToParent
+(
+)
+const
+;
 nsRect
 ScrollableOverflowRectRelativeToParent
 (

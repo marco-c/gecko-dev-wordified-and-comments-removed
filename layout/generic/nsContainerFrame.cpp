@@ -14262,7 +14262,7 @@ UnionWith
 aChildFrame
 -
 >
-GetOverflowAreasRelativeToParent
+GetActualAndNormalOverflowAreasRelativeToParent
 (
 )
 )
