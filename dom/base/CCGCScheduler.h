@@ -331,6 +331,17 @@ CCGCScheduler
 (
 )
 :
+mAskParentBeforeMajorGC
+(
+XRE_IsContentProcess
+(
+)
+)
+mReadyForMajorGC
+(
+!
+mAskParentBeforeMajorGC
+)
 mInterruptRequested
 (
 false
@@ -1430,6 +1441,10 @@ mInIncrementalGC
 =
 false
 ;
+const
+bool
+mAskParentBeforeMajorGC
+;
 bool
 mHaveAskedParent
 =
@@ -1437,8 +1452,6 @@ false
 ;
 bool
 mReadyForMajorGC
-=
-false
 ;
 mozilla
 :
