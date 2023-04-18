@@ -4411,8 +4411,8 @@ cargo_vet_failed
 failure
                     
 "
-Vetting
-missing
+Missing
+audit
 for
 {
 crate
@@ -4421,9 +4421,12 @@ crate
 {
 version
 }
+(
+requires
 {
 missing_criteria
 }
+)
 .
 "
                     
@@ -4437,6 +4440,7 @@ vet
 for
 more
 information
+.
 "
                 
 )
