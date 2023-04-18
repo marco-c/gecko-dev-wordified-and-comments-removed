@@ -311,7 +311,7 @@ anIncrValue
 }
 protected
 :
-bool
+void
 AppendToBuffer
 (
 nsScannerString
@@ -363,8 +363,13 @@ return
 true
 ;
 }
+mozilla
+:
+:
+UniquePtr
+<
 nsScannerString
-*
+>
 mSlidingBuffer
 ;
 nsScannerIterator
