@@ -2056,7 +2056,7 @@ failed
 rc
 =
 %
-d
+ld
 :
 %
 s

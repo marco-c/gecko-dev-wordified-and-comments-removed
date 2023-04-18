@@ -2371,7 +2371,7 @@ s
 weight
 :
 %
-d
+ld
 stretch
 :
 normal

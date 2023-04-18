@@ -2445,7 +2445,7 @@ s
 type
 :
 %
-u
+lu
 "
 NS_ConvertUTF16toUTF8
 (

@@ -275,7 +275,7 @@ Sessions
 \
 \
 %
-u
+lu
 \
 \
 BaseNamedObjects
@@ -780,7 +780,7 @@ AppendPrintf
 "
 _
 %
-08x_
+08lx_
 %
 08
 "

@@ -1872,11 +1872,11 @@ point
 x
 =
 %
-d
+ld
 y
 =
 %
-d
+ld
 }
 "
 aWidget

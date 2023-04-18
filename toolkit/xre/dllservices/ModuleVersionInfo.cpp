@@ -50,13 +50,13 @@ StringFileInfo
 \
 \
 %
-02X
+02lX
 %
-02X
+02lX
 %
-02X
+02lX
 %
-02X
+02lX
 \
 \
 %

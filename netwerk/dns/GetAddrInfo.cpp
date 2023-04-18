@@ -357,7 +357,7 @@ s
 status
 =
 %
-X
+lX
 .
 reqFamily
 =
@@ -396,7 +396,7 @@ failed
 with
 status
 %
-X
+lX
 .
 \
 n

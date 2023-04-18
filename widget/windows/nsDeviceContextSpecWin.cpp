@@ -2452,11 +2452,11 @@ failed
 code
 :
 %
-d
+ld
 /
 0x
 %
-x
+lx
 \
 n
 "

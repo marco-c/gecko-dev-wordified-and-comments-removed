@@ -439,7 +439,7 @@ AppendPrintf
 (
 "
 %
-08X
+08lX
 "
 "
 %
