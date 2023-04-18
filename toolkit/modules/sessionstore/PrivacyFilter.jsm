@@ -413,6 +413,10 @@ i
 ;
 if
 (
+!
+tab
+|
+|
 tab
 .
 isPrivate
