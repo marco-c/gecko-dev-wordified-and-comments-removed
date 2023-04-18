@@ -4363,6 +4363,15 @@ nsIAccessibleText
 :
 :
 BOUNDARY_LINE_END
+|
+|
+aBoundaryType
+=
+=
+nsIAccessibleText
+:
+:
+BOUNDARY_PARAGRAPH
 )
 )
 {
