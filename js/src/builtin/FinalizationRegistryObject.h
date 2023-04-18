@@ -190,7 +190,7 @@ FinalizationRecordObject
 js
 :
 :
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 class
@@ -323,7 +323,7 @@ FinalizationRecordObject
 js
 :
 :
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 class

@@ -913,7 +913,7 @@ DefaultHasher
 <
 PreBarrieredId
 >
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 mozilla

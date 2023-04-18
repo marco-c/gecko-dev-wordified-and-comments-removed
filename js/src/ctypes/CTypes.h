@@ -1627,7 +1627,7 @@ JSLinearString
 >
 FieldInfo
 FieldHashPolicy
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 struct
@@ -1679,7 +1679,7 @@ JSObject
 *
 >
 0
-ZoneAllocPolicy
+CellAllocPolicy
 >
 mArgTypes
 ;
@@ -1688,7 +1688,7 @@ Vector
 ffi_type
 *
 0
-ZoneAllocPolicy
+CellAllocPolicy
 >
 mFFITypes
 ;

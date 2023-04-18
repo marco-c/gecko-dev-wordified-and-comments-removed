@@ -1181,7 +1181,7 @@ DefaultHasher
 <
 uint32_t
 >
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 ExportMap
@@ -1441,7 +1441,7 @@ WasmGlobalObject
 *
 >
 0
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 GlobalObjectVector
@@ -1611,7 +1611,7 @@ MovableCellHasher
 <
 WeakHeapPtrWasmInstanceObject
 >
-ZoneAllocPolicy
+CellAllocPolicy
 >
 >
 ;
