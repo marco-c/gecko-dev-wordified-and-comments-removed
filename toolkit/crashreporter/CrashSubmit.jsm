@@ -46,11 +46,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -331,6 +337,8 @@ getL10nStrings
 let
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -363,6 +371,8 @@ let
 pathExists
 =
 await
+lazy
+.
 OS
 .
 File
@@ -381,6 +391,8 @@ pathExists
 let
 parentDir
 =
+lazy
+.
 OS
 .
 Path
@@ -392,6 +404,8 @@ path
 ;
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -424,6 +438,8 @@ let
 pathExists
 =
 await
+lazy
+.
 OS
 .
 File
@@ -494,6 +510,8 @@ CrashDetailsURL
 ;
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -527,6 +545,8 @@ ini
 pathExists
 =
 await
+lazy
+.
 OS
 .
 File
@@ -615,6 +635,8 @@ nsIFile
 path
 ;
 return
+lazy
+.
 OS
 .
 Path
@@ -650,6 +672,8 @@ dirName
 let
 filePath
 =
+lazy
+.
 OS
 .
 Path
@@ -661,6 +685,8 @@ fileName
 )
 ;
 await
+lazy
+.
 OS
 .
 File
@@ -671,6 +697,8 @@ dirPath
 {
 unixFlags
 :
+lazy
+.
 OS
 .
 Constants
@@ -682,6 +710,8 @@ S_IRWXU
 )
 ;
 await
+lazy
+.
 OS
 .
 File
@@ -745,6 +775,8 @@ suffix
 >
 {
 return
+lazy
+.
 OS
 .
 Path
@@ -998,6 +1030,8 @@ path
 >
 {
 return
+lazy
+.
 OS
 .
 File
@@ -2055,6 +2089,8 @@ let
 extraData
 =
 await
+lazy
+.
 OS
 .
 File
@@ -2168,6 +2204,8 @@ Promise
 all
 (
 [
+lazy
+.
 OS
 .
 File
@@ -2176,6 +2214,8 @@ exists
 (
 dump
 )
+lazy
+.
 OS
 .
 File
@@ -2184,6 +2224,8 @@ exists
 (
 extra
 )
+lazy
+.
 OS
 .
 File
@@ -2322,6 +2364,8 @@ dumpsExistsPromises
 .
 push
 (
+lazy
+.
 OS
 .
 File
@@ -2608,6 +2652,8 @@ path
 >
 {
 return
+lazy
+.
 OS
 .
 File
@@ -2650,6 +2696,8 @@ let
 file
 =
 await
+lazy
+.
 OS
 .
 File
@@ -2669,6 +2717,8 @@ true
 {
 unixFlags
 :
+lazy
+.
 OS
 .
 Constants
@@ -2722,6 +2772,8 @@ try
 dirIter
 =
 new
+lazy
+.
 OS
 .
 File
@@ -2852,6 +2904,8 @@ entries
 id
 ]
 =
+lazy
+.
 OS
 .
 File
@@ -3038,6 +3092,8 @@ try
 dirIter
 =
 new
+lazy
+.
 OS
 .
 File
@@ -3057,6 +3113,8 @@ if
 (
 ex
 instanceof
+lazy
+.
 OS
 .
 File
@@ -3139,6 +3197,8 @@ entry
 path
 infoPromise
 :
+lazy
+.
 OS
 .
 File
@@ -3319,6 +3379,8 @@ matches
 let
 pathComponents
 =
+lazy
+.
 OS
 .
 Path
@@ -3347,6 +3409,8 @@ matches
 let
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -3398,6 +3462,8 @@ path
 >
 {
 return
+lazy
+.
 OS
 .
 File
