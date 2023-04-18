@@ -674,6 +674,13 @@ requested
 "
 )
 ;
+RecommendedPreferences
+.
+applyPreferences
+(
+RECOMMENDED_PREFS
+)
+;
 for
 (
 let
@@ -1355,13 +1362,6 @@ All
 scripts
 recorded
 .
-)
-;
-RecommendedPreferences
-.
-applyPreferences
-(
-RECOMMENDED_PREFS
 )
 ;
 try
