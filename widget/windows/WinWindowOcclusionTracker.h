@@ -151,6 +151,16 @@ IsInWinWindowOcclusionThread
 )
 ;
 void
+EnsureDisplayStatusObserver
+(
+)
+;
+void
+EnsureSessionChangeObserver
+(
+)
+;
+void
 Enable
 (
 nsBaseWidget
