@@ -570,7 +570,7 @@ being
 scanned
 #
 matches
-peform
+perform
 the
 actions
 and
@@ -2782,7 +2782,7 @@ a
 operator
 .
 #
-Otherewise
+Otherwise
 is
 a
 literal
@@ -2935,7 +2935,7 @@ a
 operator
 .
 #
-Otherewise
+Otherwise
 is
 a
 literal

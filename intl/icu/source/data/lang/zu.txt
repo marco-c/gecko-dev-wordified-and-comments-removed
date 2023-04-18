@@ -2644,6 +2644,12 @@ isi
 Rarotongan
 "
 }
+rhg
+{
+"
+Rohingya
+"
+}
 rm
 {
 "
@@ -7448,6 +7454,14 @@ UCCOR
 {
 "
 Ubhalomagama
+Oluhlanganisiwe
+"
+}
+UCRCOR
+{
+"
+Ubhalomagama
+Olubuyekeziwe
 Oluhlanganisiwe
 "
 }

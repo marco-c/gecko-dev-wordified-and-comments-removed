@@ -606,7 +606,7 @@ Length
 Mark
 #
 urdu
-compatibity
+compatibility
 forms
 uka
 =
@@ -1126,7 +1126,7 @@ u0314o
 so
 ;
 #
-preceeded
+preceded
 by
 consonants
 consonants

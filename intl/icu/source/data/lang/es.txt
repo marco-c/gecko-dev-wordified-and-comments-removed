@@ -1875,7 +1875,7 @@ kurukh
 ks
 {
 "
-cachemiro
+cachemir
 "
 }
 ksb
@@ -2240,7 +2240,8 @@ macedonio
 ml
 {
 "
-malayalam
+malay
+lam
 "
 }
 mn
@@ -2750,6 +2751,12 @@ rar
 {
 "
 rarotongano
+"
+}
+rhg
+{
+"
+rohiny
 "
 }
 rm
@@ -3967,7 +3974,7 @@ griego
 Gujr
 {
 "
-gujarati
+guyarat
 "
 }
 Guru
@@ -3979,7 +3986,9 @@ gurmuji
 Hanb
 {
 "
-hanb
+han
+con
+bopomofo
 "
 }
 Hang
@@ -5570,7 +5579,8 @@ mlym
 d
 gitos
 en
-malayalam
+malay
+lam
 "
 }
 mong

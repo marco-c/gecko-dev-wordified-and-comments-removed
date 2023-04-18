@@ -142,6 +142,9 @@ DEFS
 (
 CPPFLAGS
 )
+(
+CFLAGS
+)
 GEN_DEPS
 .
 cc
@@ -156,6 +159,9 @@ DEFS
 )
 (
 CPPFLAGS
+)
+(
+CXXFLAGS
 )
 ifeq
 (

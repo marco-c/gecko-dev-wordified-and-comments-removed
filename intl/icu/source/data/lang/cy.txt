@@ -1991,7 +1991,8 @@ Marsialeg
 mi
 {
 "
-Maori
+M
+ori
 "
 }
 mic
@@ -2548,6 +2549,12 @@ rar
 {
 "
 Raratongeg
+"
+}
+rhg
+{
+"
+Rohingya
 "
 }
 rm

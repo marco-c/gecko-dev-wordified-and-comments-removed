@@ -489,17 +489,12 @@ Locale
 locale
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 Builder
 &
 setNoDefaultLocale
 (
 )
 ;
-#
-endif
 Builder
 &
 setDefaultLocale
@@ -552,9 +547,6 @@ return
 this
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 Builder
 &
 setMaxDistance
@@ -569,8 +561,6 @@ Locale
 supported
 )
 ;
-#
-endif
 UBool
 copyErrorTo
 (
@@ -784,9 +774,6 @@ errorCode
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UBool
 isMatch
 (
@@ -804,8 +791,6 @@ errorCode
 )
 const
 ;
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API

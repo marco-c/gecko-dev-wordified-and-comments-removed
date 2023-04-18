@@ -96,6 +96,9 @@ endPos
 UVector32
 &
 foundBreaks
+UErrorCode
+&
+status
 )
 const
 =
@@ -170,6 +173,7 @@ UChar32
 c
 )
 const
+override
 ;
 virtual
 int32_t
@@ -185,8 +189,12 @@ endPos
 UVector32
 &
 foundBreaks
+UErrorCode
+&
+status
 )
 const
+override
 ;
 virtual
 void
@@ -234,6 +242,7 @@ getEngineFor
 UChar32
 c
 )
+override
 ;
 protected
 :

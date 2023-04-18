@@ -163,7 +163,7 @@ DateFormatSymbols
 (
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -175,7 +175,7 @@ other
 )
 const
 ;
-UBool
+bool
 operator
 !
 =
@@ -730,6 +730,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID
@@ -900,6 +901,13 @@ fShortQuartersCount
 ;
 UnicodeString
 *
+fNarrowQuarters
+;
+int32_t
+fNarrowQuartersCount
+;
+UnicodeString
+*
 fStandaloneQuarters
 ;
 int32_t
@@ -911,6 +919,13 @@ fStandaloneShortQuarters
 ;
 int32_t
 fStandaloneShortQuartersCount
+;
+UnicodeString
+*
+fStandaloneNarrowQuarters
+;
+int32_t
+fStandaloneNarrowQuartersCount
 ;
 UnicodeString
 *

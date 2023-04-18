@@ -356,7 +356,7 @@ TimeZoneNamesDelegate
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -367,9 +367,10 @@ TimeZoneNames
 other
 )
 const
+override
 ;
 virtual
-UBool
+bool
 operator
 !
 =
@@ -398,6 +399,7 @@ clone
 (
 )
 const
+override
 ;
 StringEnumeration
 *
@@ -408,6 +410,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 StringEnumeration
 *
@@ -422,6 +425,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 UnicodeString
 &
@@ -438,6 +442,7 @@ UnicodeString
 mzID
 )
 const
+override
 ;
 UnicodeString
 &
@@ -456,6 +461,7 @@ UnicodeString
 tzID
 )
 const
+override
 ;
 UnicodeString
 &
@@ -472,6 +478,7 @@ UnicodeString
 name
 )
 const
+override
 ;
 UnicodeString
 &
@@ -488,6 +495,7 @@ UnicodeString
 name
 )
 const
+override
 ;
 UnicodeString
 &
@@ -502,6 +510,7 @@ UnicodeString
 name
 )
 const
+override
 ;
 void
 loadAllDisplayNames
@@ -510,6 +519,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 void
 getDisplayNames
@@ -536,6 +546,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 MatchInfoCollection
 *
@@ -554,6 +565,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 private
 :
@@ -1001,7 +1013,7 @@ gTimeZoneNamesLock
 )
 ;
 }
-UBool
+bool
 TimeZoneNamesDelegate
 :
 :
@@ -1026,7 +1038,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 const
@@ -1061,7 +1073,7 @@ fTZnamesCacheEntry
 ;
 }
 return
-FALSE
+false
 ;
 }
 TimeZoneNamesDelegate
@@ -2063,7 +2075,7 @@ status
 )
 -
 >
-addElement
+addElementX
 (
 matchInfo
 status
@@ -2150,7 +2162,7 @@ status
 )
 -
 >
-addElement
+addElementX
 (
 matchInfo
 status

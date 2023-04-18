@@ -354,6 +354,11 @@ fString
 ;
 }
 void
+resetString
+(
+)
+;
+void
 appendSpanInfo
 (
 UFieldCategory

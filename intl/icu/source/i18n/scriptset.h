@@ -72,7 +72,7 @@ ScriptSet
 (
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -84,7 +84,7 @@ other
 )
 const
 ;
-UBool
+bool
 operator
 !
 =

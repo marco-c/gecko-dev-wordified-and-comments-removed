@@ -189,6 +189,7 @@ UnicodeString
 s
 )
 const
+override
 ;
 virtual
 const
@@ -200,6 +201,7 @@ UChar32
 ch
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -216,6 +218,7 @@ int32_t
 limit
 )
 const
+override
 ;
 RBBISymbolTable
 (

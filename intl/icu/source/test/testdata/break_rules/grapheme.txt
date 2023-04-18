@@ -290,7 +290,7 @@ LVT
 ;
 #
 Emoji
-defintions
+definitions
 Extended_Pict
 =
 [

@@ -74,7 +74,7 @@ const
 0
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -87,7 +87,7 @@ that
 const
 ;
 virtual
-UBool
+bool
 operator
 !
 =
@@ -294,6 +294,7 @@ clone
 (
 )
 const
+override
 ;
 InitialTimeZoneRule
 &
@@ -307,7 +308,7 @@ right
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -318,9 +319,10 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 virtual
-UBool
+bool
 operator
 !
 =
@@ -331,6 +333,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 UBool
 getStartInYear
@@ -357,6 +360,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 virtual
 UBool
@@ -371,6 +375,7 @@ UDate
 result
 )
 const
+override
 ;
 virtual
 UBool
@@ -385,6 +390,7 @@ UDate
 result
 )
 const
+override
 ;
 virtual
 UBool
@@ -403,6 +409,7 @@ UDate
 result
 )
 const
+override
 ;
 virtual
 UBool
@@ -421,6 +428,7 @@ UDate
 result
 )
 const
+override
 ;
 public
 :
@@ -439,6 +447,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;
@@ -516,6 +525,7 @@ clone
 (
 )
 const
+override
 ;
 AnnualTimeZoneRule
 &
@@ -529,7 +539,7 @@ right
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -540,9 +550,10 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 virtual
-UBool
+bool
 operator
 !
 =
@@ -553,6 +564,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 const
 DateTimeRule
@@ -602,6 +614,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 virtual
 UBool
@@ -616,6 +629,7 @@ UDate
 result
 )
 const
+override
 ;
 virtual
 UBool
@@ -630,6 +644,7 @@ UDate
 result
 )
 const
+override
 ;
 virtual
 UBool
@@ -648,6 +663,7 @@ UDate
 result
 )
 const
+override
 ;
 virtual
 UBool
@@ -666,6 +682,7 @@ UDate
 result
 )
 const
+override
 ;
 private
 :
@@ -696,6 +713,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;
@@ -752,6 +770,7 @@ clone
 (
 )
 const
+override
 ;
 TimeArrayTimeZoneRule
 &
@@ -765,7 +784,7 @@ right
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -776,9 +795,10 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 virtual
-UBool
+bool
 operator
 !
 =
@@ -789,6 +809,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 DateTimeRule
 :
@@ -828,6 +849,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 virtual
 UBool
@@ -842,6 +864,7 @@ UDate
 result
 )
 const
+override
 ;
 virtual
 UBool
@@ -856,6 +879,7 @@ UDate
 result
 )
 const
+override
 ;
 virtual
 UBool
@@ -874,6 +898,7 @@ UDate
 result
 )
 const
+override
 ;
 virtual
 UBool
@@ -892,6 +917,7 @@ UDate
 result
 )
 const
+override
 ;
 private
 :
@@ -965,6 +991,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;

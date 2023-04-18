@@ -70,6 +70,8 @@ char
 name
 )
 const
+=
+0
 ;
 virtual
 int32_t
@@ -83,6 +85,8 @@ char
 name
 )
 const
+=
+0
 ;
 }
 ;
@@ -425,10 +429,6 @@ int32_t
 kNumLineBuffers
 =
 3
-;
-PropertyNames
-*
-icuPnames
 ;
 const
 PropertyNames

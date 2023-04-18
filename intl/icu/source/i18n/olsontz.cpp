@@ -1452,7 +1452,7 @@ delete
 finalZone
 ;
 }
-UBool
+bool
 OlsonTimeZone
 :
 :

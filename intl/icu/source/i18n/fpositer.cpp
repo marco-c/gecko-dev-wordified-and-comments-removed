@@ -155,7 +155,7 @@ pos
 }
 }
 }
-UBool
+bool
 FieldPositionIterator
 :
 :
@@ -180,7 +180,7 @@ this
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -194,7 +194,7 @@ pos
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -230,7 +230,7 @@ rhs
 data
 )
 :
-FALSE
+false
 ;
 }
 void

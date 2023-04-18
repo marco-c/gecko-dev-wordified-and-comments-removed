@@ -1784,7 +1784,7 @@ i
 continue
 ;
 }
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 }

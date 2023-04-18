@@ -388,6 +388,13 @@ Zarma
 Simi
 "
 }
+doi
+{
+"
+Dogri
+Simi
+"
+}
 dsb
 {
 "
@@ -1368,6 +1375,13 @@ quc
 "
 K
 iche
+Simi
+"
+}
+rhg
+{
+"
+Rohingya
 Simi
 "
 }

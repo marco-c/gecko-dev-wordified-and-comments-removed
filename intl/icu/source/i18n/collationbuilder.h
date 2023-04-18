@@ -186,6 +186,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 uint32_t
 getWeight16Before
@@ -242,6 +243,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 int32_t
 findOrInsertNodeForCEs
@@ -364,6 +366,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 void
@@ -382,6 +385,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 uint32_t
 addWithClosure

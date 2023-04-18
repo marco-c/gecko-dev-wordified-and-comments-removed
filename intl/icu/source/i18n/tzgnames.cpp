@@ -887,6 +887,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 UVector
 *
@@ -1165,7 +1166,7 @@ UTZFMT_TIME_TYPE_UNKNOWN
 fResults
 -
 >
-addElement
+addElementX
 (
 gmatch
 status
@@ -5962,7 +5963,7 @@ return
 instance
 ;
 }
-UBool
+bool
 TimeZoneGenericNames
 :
 :

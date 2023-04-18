@@ -163,7 +163,7 @@ Collator
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -176,7 +176,7 @@ other
 const
 ;
 virtual
-UBool
+bool
 operator
 !
 =
@@ -760,6 +760,7 @@ getDynamicClassID
 void
 )
 const
+override
 =
 0
 ;

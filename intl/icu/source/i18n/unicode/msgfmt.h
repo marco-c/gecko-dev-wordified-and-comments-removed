@@ -191,9 +191,10 @@ clone
 (
 )
 const
+override
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -204,6 +205,7 @@ Format
 other
 )
 const
+override
 ;
 virtual
 void
@@ -486,6 +488,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 UnicodeString
 &
@@ -562,6 +565,7 @@ ParsePosition
 pos
 )
 const
+override
 ;
 static
 UnicodeString
@@ -600,6 +604,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 static
 UClassID
@@ -690,6 +695,7 @@ UErrorCode
 ec
 )
 const
+override
 ;
 void
 reset
@@ -1137,7 +1143,7 @@ Format
 public
 :
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1147,6 +1153,7 @@ Format
 &
 )
 const
+override
 ;
 virtual
 DummyFormat
@@ -1155,6 +1162,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -1192,6 +1200,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -1213,6 +1222,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 void
@@ -1227,6 +1237,7 @@ ParsePosition
 &
 )
 const
+override
 ;
 }
 ;

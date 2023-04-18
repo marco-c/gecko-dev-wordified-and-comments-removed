@@ -1508,6 +1508,15 @@ ec
 Londra
 "
 }
+ld
+{
+"
+temp
+da
+stad
+britannic
+"
+}
 }
 "
 Europe

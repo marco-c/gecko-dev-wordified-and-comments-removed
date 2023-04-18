@@ -392,7 +392,7 @@ U_INVALID_FORMAT_ERROR
 ;
 }
 }
-UBool
+bool
 Format
 :
 :

@@ -368,6 +368,7 @@ resetToOffset
 int32_t
 newOffset
 )
+override
 ;
 virtual
 int32_t
@@ -375,6 +376,7 @@ getOffset
 (
 )
 const
+override
 ;
 virtual
 UChar32
@@ -384,6 +386,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 UChar32
@@ -393,6 +396,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 protected
 :
@@ -406,6 +410,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 void
@@ -417,6 +422,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 uint32_t
@@ -426,6 +432,7 @@ UChar32
 c
 )
 const
+override
 ;
 virtual
 uint32_t
@@ -437,6 +444,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 CollationDataBuilder
 &
@@ -2634,7 +2642,7 @@ return
 }
 conditionalCE32s
 .
-addElement
+addElementX
 (
 cond
 errorCode
@@ -4840,7 +4848,7 @@ break
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 return

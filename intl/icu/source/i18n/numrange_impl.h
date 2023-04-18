@@ -183,8 +183,8 @@ fIdentityFallback
 SimpleFormatter
 fRangeFormatter
 ;
-SimpleModifier
-fApproximatelyModifier
+NumberFormatterImpl
+fApproximatelyFormatter
 ;
 StandardPluralRanges
 fPluralRanges

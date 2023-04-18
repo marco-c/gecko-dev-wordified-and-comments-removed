@@ -749,6 +749,12 @@ rajastan
 s
 "
 }
+rhg
+{
+"
+rohingya
+"
+}
 ro_MD
 {
 "
@@ -1085,12 +1091,6 @@ Telu
 {
 "
 telugu
-"
-}
-Zsye
-{
-"
-emoji
 "
 }
 Zsym

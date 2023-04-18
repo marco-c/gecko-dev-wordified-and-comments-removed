@@ -293,7 +293,7 @@ aposMode
 mode
 ;
 }
-UBool
+bool
 operator
 =
 =
@@ -306,7 +306,7 @@ other
 const
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -690,7 +690,7 @@ type
 UMSGPAT_PART_TYPE_ARG_DOUBLE
 ;
 }
-UBool
+bool
 operator
 =
 =
@@ -703,7 +703,7 @@ other
 const
 ;
 inline
-UBool
+bool
 operator
 !
 =

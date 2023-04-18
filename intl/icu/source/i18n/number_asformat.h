@@ -123,7 +123,7 @@ LocalizedNumberFormatterAsFormat
 )
 U_OVERRIDE
 ;
-UBool
+bool
 operator
 =
 =

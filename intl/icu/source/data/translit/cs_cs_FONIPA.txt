@@ -62,7 +62,7 @@ from
 CLDR
 #
 #
-Tranformation
+Transformation
 from
 Czech
 to

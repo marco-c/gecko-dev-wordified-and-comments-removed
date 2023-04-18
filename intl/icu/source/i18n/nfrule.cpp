@@ -2533,7 +2533,7 @@ return
 FALSE
 ;
 }
-UBool
+bool
 NFRule
 :
 :

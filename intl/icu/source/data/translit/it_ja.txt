@@ -844,7 +844,7 @@ by
 many
 fonts
 or
-softwares
+software
 we
 use
 U

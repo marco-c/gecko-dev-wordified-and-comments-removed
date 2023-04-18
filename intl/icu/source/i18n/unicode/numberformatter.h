@@ -2582,6 +2582,11 @@ sign
 =
 UNUM_SIGN_COUNT
 ;
+bool
+approximately
+=
+false
+;
 UNumberDecimalSeparatorDisplay
 decimal
 =
@@ -3070,9 +3075,6 @@ scale
 &
 &
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 Derived
 usage
 (
@@ -3091,8 +3093,6 @@ usage
 &
 &
 ;
-#
-endif
 #
 ifndef
 U_HIDE_DRAFT_API
@@ -3516,6 +3516,14 @@ const
 #
 ifndef
 U_HIDE_INTERNAL_API
+const
+DecimalFormatSymbols
+*
+getDecimalFormatSymbols
+(
+)
+const
+;
 FormattedNumber
 formatDecimalQuantity
 (
@@ -3954,9 +3962,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 MeasureUnit
 getOutputUnit
 (
@@ -3966,6 +3971,9 @@ status
 )
 const
 ;
+#
+ifndef
+U_HIDE_INTERNAL_API
 const
 char
 *
@@ -3977,11 +3985,6 @@ status
 )
 const
 ;
-#
-endif
-#
-ifndef
-U_HIDE_INTERNAL_API
 void
 getDecimalQuantity
 (

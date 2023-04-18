@@ -89,7 +89,7 @@ Measure
 (
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -134,6 +134,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 protected
 :

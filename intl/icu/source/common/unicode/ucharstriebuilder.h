@@ -173,6 +173,7 @@ int32_t
 i
 )
 const
+override
 ;
 virtual
 char16_t
@@ -184,6 +185,7 @@ int32_t
 unitIndex
 )
 const
+override
 ;
 virtual
 int32_t
@@ -193,6 +195,7 @@ int32_t
 i
 )
 const
+override
 ;
 virtual
 int32_t
@@ -206,6 +209,7 @@ int32_t
 unitIndex
 )
 const
+override
 ;
 virtual
 int32_t
@@ -219,6 +223,7 @@ int32_t
 unitIndex
 )
 const
+override
 ;
 virtual
 int32_t
@@ -232,6 +237,7 @@ int32_t
 count
 )
 const
+override
 ;
 virtual
 int32_t
@@ -245,6 +251,7 @@ char16_t
 unit
 )
 const
+override
 ;
 virtual
 UBool
@@ -252,6 +259,7 @@ matchNodesCanHaveValues
 (
 )
 const
+override
 {
 return
 true
@@ -263,6 +271,7 @@ getMaxBranchLinearSubNodeLength
 (
 )
 const
+override
 {
 return
 UCharsTrie
@@ -277,6 +286,7 @@ getMinLinearMatch
 (
 )
 const
+override
 {
 return
 UCharsTrie
@@ -291,6 +301,7 @@ getMaxLinearMatchLength
 (
 )
 const
+override
 {
 return
 UCharsTrie
@@ -321,7 +332,7 @@ nextNode
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -332,6 +343,7 @@ Node
 other
 )
 const
+override
 ;
 virtual
 void
@@ -341,6 +353,7 @@ StringTrieBuilder
 &
 builder
 )
+override
 ;
 private
 :
@@ -367,6 +380,7 @@ Node
 nextNode
 )
 const
+override
 ;
 UBool
 ensureCapacity
@@ -382,6 +396,7 @@ write
 int32_t
 unit
 )
+override
 ;
 int32_t
 write
@@ -405,6 +420,7 @@ unitIndex
 int32_t
 length
 )
+override
 ;
 virtual
 int32_t
@@ -415,6 +431,7 @@ i
 UBool
 isFinal
 )
+override
 ;
 virtual
 int32_t
@@ -427,6 +444,7 @@ value
 int32_t
 node
 )
+override
 ;
 virtual
 int32_t
@@ -435,6 +453,7 @@ writeDeltaTo
 int32_t
 jumpTarget
 )
+override
 ;
 UnicodeString
 strings

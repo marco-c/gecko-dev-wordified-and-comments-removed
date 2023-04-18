@@ -328,7 +328,7 @@ other
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -339,9 +339,10 @@ Format
 other
 )
 const
+override
 ;
 virtual
-UBool
+bool
 operator
 !
 =
@@ -360,6 +361,7 @@ clone
 (
 )
 const
+override
 ;
 UnicodeString
 &
@@ -380,6 +382,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 UnicodeString
 &
@@ -406,6 +409,7 @@ ParsePosition
 parse_pos
 )
 const
+override
 ;
 static
 UClassID
@@ -421,6 +425,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 private
 :
@@ -496,6 +501,7 @@ UErrorCode
 &
 )
 const
+override
 ;
 void
 reset

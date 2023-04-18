@@ -1871,6 +1871,7 @@ CalendarAstronomer
 &
 a
 )
+override
 {
 return
 a
@@ -1960,6 +1961,7 @@ CalendarAstronomer
 &
 a
 )
+override
 {
 a
 .
@@ -2747,6 +2749,7 @@ CalendarAstronomer
 &
 a
 )
+override
 {
 return
 a
@@ -2851,6 +2854,7 @@ CalendarAstronomer
 &
 a
 )
+override
 {
 result
 =

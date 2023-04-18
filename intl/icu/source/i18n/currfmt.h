@@ -70,6 +70,7 @@ clone
 (
 )
 const
+override
 ;
 using
 MeasureFormat
@@ -97,6 +98,7 @@ UErrorCode
 ec
 )
 const
+override
 ;
 virtual
 void
@@ -114,6 +116,7 @@ ParsePosition
 pos
 )
 const
+override
 ;
 virtual
 UClassID
@@ -121,6 +124,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID

@@ -285,7 +285,7 @@ return
 this
 ;
 }
-UBool
+bool
 TimeZoneTransition
 :
 :
@@ -310,7 +310,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -329,7 +329,7 @@ that
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -343,7 +343,7 @@ fTime
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -439,15 +439,15 @@ fTo
 )
 {
 return
-TRUE
+true
 ;
 }
 }
 return
-FALSE
+false
 ;
 }
-UBool
+bool
 TimeZoneTransition
 :
 :

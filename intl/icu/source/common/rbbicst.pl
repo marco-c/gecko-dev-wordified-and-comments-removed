@@ -360,7 +360,7 @@ Compile
 the
 RBBI
 rule
-paser
+parser
 state
 table
 data
@@ -3346,7 +3346,7 @@ Emit
 the
 constants
 for
-indicies
+indices
 of
 Unicode
 Sets
@@ -3519,7 +3519,7 @@ the
 struct
 definition
 for
-transtion
+transition
 table
 elements
 .

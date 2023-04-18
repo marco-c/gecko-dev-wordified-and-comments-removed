@@ -581,6 +581,8 @@ pos
 UVector
 transliterators
 (
+uprv_deleteUObject
+nullptr
 ec
 )
 ;
@@ -640,7 +642,7 @@ isEmpty
 )
 transliterators
 .
-addElement
+adoptElement
 (
 Transliterator
 :
@@ -667,7 +669,7 @@ isEmpty
 )
 transliterators
 .
-addElement
+adoptElement
 (
 transes
 -
@@ -705,7 +707,7 @@ isEmpty
 )
 transliterators
 .
-addElement
+adoptElement
 (
 Transliterator
 :
@@ -732,7 +734,7 @@ isEmpty
 )
 transliterators
 .
-addElement
+adoptElement
 (
 transes
 -
@@ -742,6 +744,13 @@ orphanElementAt
 0
 )
 ec
+)
+;
+transliterators
+.
+setDeleter
+(
+nullptr
 )
 ;
 if
@@ -835,7 +844,7 @@ break
 case
 RULES
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 return
@@ -2193,7 +2202,7 @@ NULL
 {
 variantList
 .
-addElement
+adoptElement
 (
 emptyString
 status
@@ -2740,6 +2749,18 @@ data
 status
 )
 ;
+if
+(
+U_FAILURE
+(
+status
+)
+)
+{
+delete
+data
+;
+}
 entry
 -
 >
@@ -4216,7 +4237,7 @@ getTerminatedBuffer
 ;
 availableIDs
 .
-addElement
+adoptElement
 (
 newID
 status
@@ -4435,7 +4456,7 @@ NULL
 {
 variantList
 .
-addElement
+adoptElement
 (
 variantEntry
 status
@@ -5741,6 +5762,8 @@ rbts
 new
 UVector
 (
+uprv_deleteUObject
+nullptr
 entry
 -
 >
@@ -5865,7 +5888,7 @@ else
 rbts
 -
 >
-addElement
+adoptElement
 (
 tl
 status
@@ -5887,6 +5910,14 @@ return
 0
 ;
 }
+rbts
+-
+>
+setDeleter
+(
+nullptr
+)
+;
 aliasReturn
 =
 new
@@ -6035,7 +6066,7 @@ return
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 }

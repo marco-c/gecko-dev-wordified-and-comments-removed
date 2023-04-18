@@ -395,7 +395,7 @@ icu
 /
 blob
 /
-master
+main
 /
 icu4c
 /

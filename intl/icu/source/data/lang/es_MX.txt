@@ -438,12 +438,6 @@ uyghur
 }
 Scripts
 {
-Hanb
-{
-"
-hanb
-"
-}
 Mlym
 {
 "

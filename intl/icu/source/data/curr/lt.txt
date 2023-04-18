@@ -9501,7 +9501,7 @@ one
 {
 "
 Lesoto
-loti
+lotis
 "
 }
 other

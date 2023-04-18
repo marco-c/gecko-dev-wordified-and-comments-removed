@@ -539,7 +539,7 @@ which
 cannot
 #
 be
-lenghtened
+lengthened
 )
 we
 rewrite

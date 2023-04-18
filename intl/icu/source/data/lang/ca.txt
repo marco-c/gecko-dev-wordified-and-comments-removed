@@ -2953,6 +2953,12 @@ romany
 s
 "
 }
+rhg
+{
+"
+rohingya
+"
+}
 rm
 {
 "

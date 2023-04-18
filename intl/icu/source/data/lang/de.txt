@@ -2346,7 +2346,8 @@ Marschallesisch
 mi
 {
 "
-Maori
+M
+ori
 "
 }
 mic
@@ -2938,6 +2939,12 @@ rgn
 {
 "
 Romagnol
+"
+}
+rhg
+{
+"
+Rohingyalisch
 "
 }
 rif

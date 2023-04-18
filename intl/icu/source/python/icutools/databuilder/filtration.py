@@ -1645,6 +1645,21 @@ default_filter_json
         
 if
 "
+brkitr_lstm
+"
+=
+=
+category
+:
+            
+filter_json
+=
+"
+exclude
+"
+        
+if
+"
 featureFilters
 "
 in

@@ -127,7 +127,7 @@ RegexPattern
 (
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -140,7 +140,7 @@ that
 const
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -473,6 +473,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID
@@ -1407,6 +1408,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 private
 :

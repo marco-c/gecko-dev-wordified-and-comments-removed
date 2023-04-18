@@ -75,6 +75,9 @@ PropertyNames
 )
 {
 }
+#
+if
+0
 int32_t
 PropertyNames
 :
@@ -121,6 +124,8 @@ name
 )
 ;
 }
+#
+endif
 UniProps
 :
 :
@@ -236,16 +241,9 @@ UErrorCode
 errorCode
 )
 :
-icuPnames
-(
-new
-PropertyNames
-(
-)
-)
 pnames
 (
-icuPnames
+nullptr
 )
 file
 (
@@ -445,9 +443,6 @@ file
 )
 ;
 }
-delete
-icuPnames
-;
 }
 static
 const

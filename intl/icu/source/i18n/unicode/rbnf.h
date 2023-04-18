@@ -258,9 +258,10 @@ clone
 (
 )
 const
+override
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -271,6 +272,7 @@ Format
 other
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -376,6 +378,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -392,6 +395,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -408,6 +412,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -506,6 +511,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 public
 :
@@ -531,6 +537,7 @@ ParsePosition
 parsePosition
 )
 const
+override
 ;
 #
 if
@@ -543,6 +550,7 @@ setLenient
 UBool
 enabled
 )
+override
 ;
 virtual
 inline
@@ -552,6 +560,7 @@ isLenient
 void
 )
 const
+override
 ;
 #
 endif
@@ -585,6 +594,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 ERoundingMode
@@ -593,6 +603,7 @@ getRoundingMode
 void
 )
 const
+override
 ;
 virtual
 void
@@ -601,6 +612,7 @@ setRoundingMode
 ERoundingMode
 roundingMode
 )
+override
 ;
 public
 :
@@ -619,6 +631,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 virtual
 void

@@ -1064,7 +1064,7 @@ return
 copy
 ;
 }
-UBool
+bool
 RegexPattern
 :
 :
@@ -1163,7 +1163,7 @@ NULL
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -1210,7 +1210,7 @@ fPattern
 }
 }
 return
-FALSE
+false
 ;
 }
 RegexPattern

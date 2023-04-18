@@ -697,7 +697,7 @@ break
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 return
@@ -2995,7 +2995,7 @@ m
 }
 else
 {
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 dayOfMonth

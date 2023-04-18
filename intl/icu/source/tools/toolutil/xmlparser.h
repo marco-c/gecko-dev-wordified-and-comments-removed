@@ -178,6 +178,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID
@@ -326,6 +327,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID

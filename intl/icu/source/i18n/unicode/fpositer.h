@@ -83,7 +83,7 @@ FieldPositionIterator
 &
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -94,7 +94,7 @@ FieldPositionIterator
 )
 const
 ;
-UBool
+bool
 operator
 !
 =

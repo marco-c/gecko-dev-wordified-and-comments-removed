@@ -743,7 +743,7 @@ being
 scanned
 #
 matches
-peform
+perform
 the
 actions
 and
@@ -1871,7 +1871,7 @@ name
 #
 The
 is
-consummed
+consumed
 here
 rather
 than

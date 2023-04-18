@@ -100,9 +100,6 @@ endif
 }
 UNumberRangeIdentityResult
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 struct
 UNumberRangeFormatter
 ;
@@ -315,8 +312,6 @@ unumrf_closeResult
 )
 ;
 U_NAMESPACE_END
-#
-endif
 #
 endif
 #

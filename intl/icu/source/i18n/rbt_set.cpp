@@ -1017,7 +1017,7 @@ break
 ruleVector
 -
 >
-addElement
+addElementX
 (
 tempTranslitRule
 status
@@ -1174,7 +1174,7 @@ return
 ruleVector
 -
 >
-addElement
+addElementX
 (
 adoptedRule
 status
@@ -1414,7 +1414,7 @@ x
 {
 v
 .
-addElement
+addElementX
 (
 ruleVector
 -
@@ -1462,7 +1462,7 @@ x
 {
 v
 .
-addElement
+addElementX
 (
 r
 status

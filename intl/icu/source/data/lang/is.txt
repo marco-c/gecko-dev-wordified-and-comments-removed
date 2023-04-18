@@ -746,8 +746,7 @@ sjeyen
 ckb
 {
 "
-sorani
--
+mi
 k
 rd
 ska
@@ -2791,6 +2790,12 @@ rar
 "
 rar
 tongska
+"
+}
+rhg
+{
+"
+rohingja
 "
 }
 rm

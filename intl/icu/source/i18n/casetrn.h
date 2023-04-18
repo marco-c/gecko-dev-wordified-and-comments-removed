@@ -73,6 +73,7 @@ clone
 (
 )
 const
+override
 =
 0
 ;
@@ -100,6 +101,7 @@ UBool
 isIncremental
 )
 const
+override
 ;
 UCaseMapFull
 *

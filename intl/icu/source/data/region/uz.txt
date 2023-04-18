@@ -770,7 +770,7 @@ Ittifoqi
 EZ
 {
 "
-yevrozona
+Yevrozona
 "
 }
 FI

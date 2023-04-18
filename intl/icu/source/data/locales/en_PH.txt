@@ -54,12 +54,4 @@ data
 xml
 en_PH
 {
-%
-%
-Parent
-{
-"
-en_001
-"
-}
 }

@@ -4822,6 +4822,16 @@ Liberia
 "
 }
 }
+LSL
+{
+other
+{
+"
+Loti
+Lesotho
+"
+}
+}
 LTL
 {
 other

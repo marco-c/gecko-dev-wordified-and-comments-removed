@@ -782,7 +782,7 @@ errorCode
 }
 else
 {
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 ucln_common_registerCleanup

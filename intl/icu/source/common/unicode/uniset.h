@@ -312,7 +312,7 @@ o
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -325,7 +325,7 @@ o
 const
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -344,6 +344,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 int32_t
@@ -508,6 +509,7 @@ escapeUnprintable
 false
 )
 const
+override
 ;
 UnicodeSet
 &
@@ -555,6 +557,17 @@ void
 )
 const
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
+UBool
+hasStrings
+(
+)
+const
+;
+#
+endif
 virtual
 UBool
 contains
@@ -563,6 +576,7 @@ UChar32
 c
 )
 const
+override
 ;
 virtual
 UBool
@@ -771,6 +785,7 @@ limit
 UBool
 incremental
 )
+override
 ;
 private
 :
@@ -811,6 +826,7 @@ UnicodeSet
 toUnionTo
 )
 const
+override
 ;
 int32_t
 indexOf
@@ -1012,7 +1028,6 @@ UnicodeSet
 &
 complement
 (
-void
 )
 ;
 virtual
@@ -1173,6 +1188,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 private
 :
@@ -1200,6 +1216,7 @@ uint8_t
 v
 )
 const
+override
 ;
 private
 :
@@ -1318,12 +1335,6 @@ UErrorCode
 status
 )
 ;
-UBool
-hasStrings
-(
-)
-const
-;
 int32_t
 stringsSize
 (
@@ -1388,6 +1399,21 @@ UnicodeString
 buf
 UChar32
 c
+UBool
+escapeUnprintable
+)
+;
+static
+void
+_appendToPat
+(
+UnicodeString
+&
+result
+UChar32
+start
+UChar32
+end
 UBool
 escapeUnprintable
 )
@@ -1594,7 +1620,7 @@ UnicodeSetIterator
 }
 ;
 inline
-UBool
+bool
 UnicodeSet
 :
 :

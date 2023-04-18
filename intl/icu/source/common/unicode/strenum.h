@@ -121,7 +121,7 @@ status
 0
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -134,7 +134,7 @@ that
 const
 ;
 virtual
-UBool
+bool
 operator
 !
 =

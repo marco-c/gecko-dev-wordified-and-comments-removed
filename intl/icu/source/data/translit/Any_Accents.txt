@@ -81,7 +81,7 @@ conversion
 characters
 .
 #
-varients
+variants
 of
 this
 could

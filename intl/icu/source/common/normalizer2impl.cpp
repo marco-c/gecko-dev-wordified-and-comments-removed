@@ -378,7 +378,7 @@ cpStart
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 }
@@ -12295,7 +12295,7 @@ errorCode
 ;
 canonStartSets
 .
-addElement
+addElementX
 (
 set
 errorCode

@@ -1880,7 +1880,7 @@ return
 this
 ;
 }
-UBool
+bool
 PluralFormat
 :
 :
@@ -1905,7 +1905,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -1923,7 +1923,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -2037,7 +2037,7 @@ pluralRules
 )
 ;
 }
-UBool
+bool
 PluralFormat
 :
 :

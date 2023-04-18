@@ -4292,8 +4292,8 @@ BRL
 one
 {
 "
-reals
-brasilians
+real
+brasilian
 "
 }
 other

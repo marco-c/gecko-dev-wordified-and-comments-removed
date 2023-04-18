@@ -740,7 +740,7 @@ y
 )
 ;
 inline
-UBool
+bool
 operator
 !
 =

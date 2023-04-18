@@ -427,7 +427,7 @@ hashCode
 ;
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -440,7 +440,7 @@ other
 const
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -573,7 +573,7 @@ v
 {
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -584,6 +584,7 @@ Node
 other
 )
 const
+override
 ;
 virtual
 void
@@ -593,6 +594,7 @@ StringTrieBuilder
 &
 builder
 )
+override
 ;
 protected
 :
@@ -632,7 +634,7 @@ value
 {
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -643,6 +645,7 @@ Node
 other
 )
 const
+override
 ;
 void
 setValue
@@ -721,7 +724,7 @@ v
 ;
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -732,6 +735,7 @@ Node
 other
 )
 const
+override
 ;
 virtual
 int32_t
@@ -740,6 +744,7 @@ markRightEdgesFirst
 int32_t
 edgeNumber
 )
+override
 ;
 virtual
 void
@@ -749,6 +754,7 @@ StringTrieBuilder
 &
 builder
 )
+override
 ;
 protected
 :
@@ -805,7 +811,7 @@ nextNode
 {
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -816,6 +822,7 @@ Node
 other
 )
 const
+override
 ;
 virtual
 int32_t
@@ -824,6 +831,7 @@ markRightEdgesFirst
 int32_t
 edgeNumber
 )
+override
 ;
 protected
 :
@@ -889,7 +897,7 @@ length
 {
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -900,6 +908,7 @@ Node
 other
 )
 const
+override
 ;
 virtual
 int32_t
@@ -908,6 +917,7 @@ markRightEdgesFirst
 int32_t
 edgeNumber
 )
+override
 ;
 virtual
 void
@@ -917,6 +927,7 @@ StringTrieBuilder
 &
 builder
 )
+override
 ;
 void
 add
@@ -1113,7 +1124,7 @@ greaterOrEqualNode
 {
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1124,6 +1135,7 @@ Node
 other
 )
 const
+override
 ;
 virtual
 int32_t
@@ -1132,6 +1144,7 @@ markRightEdgesFirst
 int32_t
 edgeNumber
 )
+override
 ;
 virtual
 void
@@ -1141,6 +1154,7 @@ StringTrieBuilder
 &
 builder
 )
+override
 ;
 protected
 :
@@ -1202,7 +1216,7 @@ subNode
 {
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1213,6 +1227,7 @@ Node
 other
 )
 const
+override
 ;
 virtual
 int32_t
@@ -1221,6 +1236,7 @@ markRightEdgesFirst
 int32_t
 edgeNumber
 )
+override
 ;
 virtual
 void
@@ -1230,6 +1246,7 @@ StringTrieBuilder
 &
 builder
 )
+override
 ;
 protected
 :

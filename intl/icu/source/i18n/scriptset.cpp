@@ -122,7 +122,7 @@ return
 this
 ;
 }
-UBool
+bool
 ScriptSet
 :
 :
@@ -173,12 +173,12 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 UBool

@@ -68,6 +68,7 @@ clone
 (
 )
 const
+override
 =
 0
 ;
@@ -89,6 +90,7 @@ toMatcher
 (
 )
 const
+override
 ;
 virtual
 UMatchDegree
@@ -106,6 +108,7 @@ limit
 UBool
 incremental
 )
+override
 ;
 virtual
 void
@@ -115,6 +118,7 @@ const
 TransliterationRuleData
 *
 )
+override
 ;
 static
 UClassID

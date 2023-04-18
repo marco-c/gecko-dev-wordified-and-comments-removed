@@ -1627,7 +1627,7 @@ numericValuesLength
 0
 ;
 }
-UBool
+bool
 MessagePattern
 :
 :
@@ -1652,7 +1652,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 return
@@ -2012,7 +2012,7 @@ return
 ;
 }
 }
-UBool
+bool
 MessagePattern
 :
 :
@@ -2040,7 +2040,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 return

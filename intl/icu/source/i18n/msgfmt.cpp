@@ -1585,7 +1585,7 @@ return
 this
 ;
 }
-UBool
+bool
 MessageFormat
 :
 :
@@ -1609,7 +1609,7 @@ this
 rhs
 )
 return
-TRUE
+true
 ;
 MessageFormat
 &
@@ -1652,7 +1652,7 @@ fLocale
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1676,7 +1676,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1688,7 +1688,7 @@ NULL
 )
 {
 return
-TRUE
+true
 ;
 }
 UErrorCode
@@ -1725,7 +1725,7 @@ rhs_count
 )
 {
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -1813,7 +1813,7 @@ integer
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -1871,12 +1871,12 @@ rhs_format
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 MessageFormat
@@ -3818,7 +3818,7 @@ partIndex
 fFormatNames
 -
 >
-addElement
+addElementX
 (
 new
 UnicodeString
@@ -9175,7 +9175,7 @@ Format
 right
 ;
 }
-UBool
+bool
 MessageFormat
 :
 :
@@ -9193,7 +9193,7 @@ Format
 const
 {
 return
-TRUE
+true
 ;
 }
 MessageFormat

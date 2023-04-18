@@ -660,7 +660,7 @@ fLocale
 nullptr
 ;
 }
-UBool
+bool
 CurrencyPluralInfo
 :
 :

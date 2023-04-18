@@ -4739,7 +4739,7 @@ RBBIDebugPrintf
 "
 UnicodeSet
 parse
-postion
+position
 .
 ErrorIndex
 =

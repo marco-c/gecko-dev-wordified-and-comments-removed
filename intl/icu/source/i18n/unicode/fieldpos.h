@@ -140,7 +140,7 @@ FieldPosition
 copy
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -152,7 +152,7 @@ that
 )
 const
 ;
-UBool
+bool
 operator
 !
 =
@@ -246,6 +246,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID
@@ -306,7 +307,7 @@ this
 ;
 }
 inline
-UBool
+bool
 FieldPosition
 :
 :
@@ -349,7 +350,7 @@ fBeginIndex
 ;
 }
 inline
-UBool
+bool
 FieldPosition
 :
 :

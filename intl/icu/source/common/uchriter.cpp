@@ -258,7 +258,7 @@ UCharCharacterIterator
 )
 {
 }
-UBool
+bool
 UCharCharacterIterator
 :
 :
@@ -283,7 +283,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -302,7 +302,7 @@ that
 )
 {
 return
-FALSE
+false
 ;
 }
 UCharCharacterIterator

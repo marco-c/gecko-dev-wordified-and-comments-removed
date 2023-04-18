@@ -766,7 +766,7 @@ int
 "
 )
 ;
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 break
 ;

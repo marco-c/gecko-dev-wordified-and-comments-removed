@@ -298,7 +298,7 @@ other
 )
 const
 ;
-UBool
+bool
 operator
 =
 =
@@ -311,7 +311,7 @@ other
 const
 ;
 inline
-UBool
+bool
 operator
 !
 =

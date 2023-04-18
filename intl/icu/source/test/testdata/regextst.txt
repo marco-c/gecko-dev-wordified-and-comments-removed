@@ -1414,7 +1414,7 @@ letter
 .
 #
 With
-gratuitious
+gratuitous
 nesting
 of
 look
@@ -7164,8 +7164,8 @@ xyz
 >
 "
 #
-Sligthly
-wierd
+Sligthtly
+weird
 but
 correct
 .
@@ -9401,7 +9401,7 @@ abcd
 "
 #
 Case
-Insensitve
+Insensitive
 back
 references
 that
@@ -17672,7 +17672,7 @@ that
 the
 #
 function
-defintions
+definitions
 are
 100
 %
@@ -19219,7 +19219,7 @@ bug
 ZWJ
 \
 u200d
-shoudn
+shouldn
 '
 t
 cause
@@ -60489,7 +60489,7 @@ D
 anything
 between
 2
-seperate
+separate
 comments
 "
 "
@@ -60686,7 +60686,7 @@ N
 anything
 between
 2
-seperate
+separate
 comments
 "
 "
@@ -70546,7 +70546,7 @@ G
 <
 0
 >
-somthing
+something
 someserver
 .
 com
@@ -82105,7 +82105,7 @@ w_
 '
 "
 The
-drity
+dirty
 brown
 fox
 stank

@@ -250,7 +250,7 @@ return
 this
 ;
 }
-UBool
+bool
 TimeZoneRule
 :
 :
@@ -316,7 +316,7 @@ fDSTSavings
 )
 ;
 }
-UBool
+bool
 TimeZoneRule
 :
 :
@@ -556,7 +556,7 @@ return
 this
 ;
 }
-UBool
+bool
 InitialTimeZoneRule
 :
 :
@@ -609,7 +609,7 @@ that
 )
 ;
 }
-UBool
+bool
 InitialTimeZoneRule
 :
 :
@@ -1007,7 +1007,7 @@ return
 this
 ;
 }
-UBool
+bool
 AnnualTimeZoneRule
 :
 :
@@ -1032,7 +1032,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -1051,7 +1051,7 @@ that
 )
 {
 return
-FALSE
+false
 ;
 }
 AnnualTimeZoneRule
@@ -1099,7 +1099,7 @@ fEndYear
 )
 ;
 }
-UBool
+bool
 AnnualTimeZoneRule
 :
 :
@@ -2180,7 +2180,7 @@ return
 this
 ;
 }
-UBool
+bool
 TimeArrayTimeZoneRule
 :
 :
@@ -2205,7 +2205,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -2223,6 +2223,7 @@ that
 )
 |
 |
+!
 TimeZoneRule
 :
 :
@@ -2232,13 +2233,10 @@ operator
 (
 that
 )
-=
-=
-FALSE
 )
 {
 return
-FALSE
+false
 ;
 }
 TimeArrayTimeZoneRule
@@ -2273,13 +2271,13 @@ fNumStartTimes
 )
 {
 return
-FALSE
+false
 ;
 }
-UBool
+bool
 res
 =
-TRUE
+true
 ;
 for
 (
@@ -2316,7 +2314,7 @@ i
 {
 res
 =
-FALSE
+false
 ;
 break
 ;
@@ -2326,7 +2324,7 @@ return
 res
 ;
 }
-UBool
+bool
 TimeArrayTimeZoneRule
 :
 :

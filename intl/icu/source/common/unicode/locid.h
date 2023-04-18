@@ -397,7 +397,7 @@ other
 )
 U_NOEXCEPT
 ;
-UBool
+bool
 operator
 =
 =
@@ -410,7 +410,7 @@ other
 const
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -990,6 +990,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 class
 U_COMMON_API
@@ -1312,7 +1313,7 @@ locale_available_init
 }
 ;
 inline
-UBool
+bool
 Locale
 :
 :

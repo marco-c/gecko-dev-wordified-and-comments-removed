@@ -810,10 +810,6 @@ orphan
 ;
 }
 }
-tmpSts
-=
-U_ZERO_ERROR
-;
 LocalUResourceBundlePointer
 typeMapResByKey
 (
@@ -827,7 +823,7 @@ getAlias
 legacyKeyId
 NULL
 &
-tmpSts
+sts
 )
 )
 ;
@@ -835,11 +831,11 @@ if
 (
 U_FAILURE
 (
-tmpSts
+sts
 )
 )
 {
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_ASSERT
 ;
 }
 else

@@ -58,7 +58,7 @@ ForwardCharacterIterator
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -73,7 +73,7 @@ const
 0
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -102,6 +102,7 @@ getDynamicClassID
 void
 )
 const
+override
 =
 0
 ;
@@ -481,7 +482,7 @@ end
 }
 ;
 inline
-UBool
+bool
 ForwardCharacterIterator
 :
 :

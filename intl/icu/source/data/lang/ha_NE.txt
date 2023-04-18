@@ -129,6 +129,15 @@ Sifaniyanci
 Mesiko
 "
 }
+fa_AF
+{
+"
+Vote
+Farisanci
+na
+Afaganistan
+"
+}
 fr_CA
 {
 "

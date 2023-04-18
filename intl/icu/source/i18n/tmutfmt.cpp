@@ -2013,7 +2013,7 @@ NULL
 {
 pluralCounts
 .
-addElement
+addElementX
 (
 pluralCount
 err
@@ -2199,6 +2199,7 @@ UErrorCode
 &
 errorCode
 )
+override
 {
 if
 (

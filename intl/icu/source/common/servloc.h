@@ -195,6 +195,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 virtual
 int32_t
@@ -213,6 +214,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -224,6 +226,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -235,6 +238,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 virtual
 Locale
@@ -263,6 +267,7 @@ UBool
 fallback
 (
 )
+override
 ;
 virtual
 UBool
@@ -274,6 +279,7 @@ UnicodeString
 id
 )
 const
+override
 ;
 public
 :
@@ -290,6 +296,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 virtual
 ~
@@ -401,6 +408,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 protected
 :
@@ -432,6 +440,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -451,6 +460,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 protected
 :
@@ -502,6 +512,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 #
 ifdef
@@ -610,6 +621,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 void
@@ -623,6 +635,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 protected
 :
@@ -641,6 +654,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 #
 ifdef
@@ -718,6 +732,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UObject
@@ -739,6 +754,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 public
 :
@@ -755,6 +771,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 #
 ifdef
@@ -1018,6 +1035,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 StringEnumeration
@@ -1052,6 +1070,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 ICUServiceKey

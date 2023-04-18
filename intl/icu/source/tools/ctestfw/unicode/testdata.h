@@ -212,6 +212,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UBool
@@ -226,6 +227,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 UBool
@@ -240,6 +242,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 }
 ;

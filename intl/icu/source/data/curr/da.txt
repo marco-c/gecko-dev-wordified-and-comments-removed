@@ -1467,7 +1467,7 @@ LSL
 LSL
 "
 "
-Lesothisk
+lesothisk
 loti
 "
 }
@@ -3080,6 +3080,7 @@ P
 BYN
 {
 "
+Br
 .
 "
 }
@@ -5972,14 +5973,14 @@ LSL
 one
 {
 "
-Lesothisk
+lesothisk
 loti
 "
 }
 other
 {
 "
-Lesothiske
+lesothiske
 loti
 "
 }
@@ -8032,7 +8033,7 @@ XAF
 one
 {
 "
-beninsk
+centralafrikansk
 CFA
 -
 franc

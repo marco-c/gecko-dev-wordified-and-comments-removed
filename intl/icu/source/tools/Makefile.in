@@ -116,6 +116,7 @@ gentest
 gennorm2
 gencfu
 gendict
+icuexportdata
 ifneq
 (
 platform_make_fragment_name

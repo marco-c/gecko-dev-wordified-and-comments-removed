@@ -741,7 +741,7 @@ return
 m_text_
 ;
 }
-UBool
+bool
 SearchIterator
 :
 :
@@ -766,7 +766,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 return

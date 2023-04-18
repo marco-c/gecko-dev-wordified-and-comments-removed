@@ -117,7 +117,7 @@ DateIntervalInfo
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -129,7 +129,7 @@ other
 )
 const
 ;
-UBool
+bool
 operator
 !
 =
@@ -212,6 +212,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID
@@ -389,7 +390,7 @@ fIntervalPatterns
 }
 ;
 inline
-UBool
+bool
 DateIntervalInfo
 :
 :

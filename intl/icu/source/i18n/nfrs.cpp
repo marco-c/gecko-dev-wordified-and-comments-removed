@@ -1254,7 +1254,7 @@ return
 FALSE
 ;
 }
-UBool
+bool
 NFRuleSet
 :
 :
@@ -1338,7 +1338,7 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1381,16 +1381,16 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 return
-FALSE
+false
 ;
 }
 void

@@ -137,6 +137,7 @@ appendCodeUnit
 char16_t
 c
 )
+override
 ;
 virtual
 UBool
@@ -145,6 +146,7 @@ appendCodePoint
 UChar32
 c
 )
+override
 ;
 virtual
 UBool
@@ -157,6 +159,7 @@ s
 int32_t
 length
 )
+override
 ;
 virtual
 UBool
@@ -165,6 +168,7 @@ reserveAppendCapacity
 int32_t
 appendCapacity
 )
+override
 ;
 virtual
 char16_t
@@ -184,6 +188,7 @@ int32_t
 *
 resultCapacity
 )
+override
 ;
 private
 :

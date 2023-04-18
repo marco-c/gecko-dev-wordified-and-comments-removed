@@ -81,7 +81,7 @@ UTimer
 ;
 typedef
 void
-FuntionToBeTimed
+FunctionToBeTimed
 (
 void
 *
@@ -460,7 +460,7 @@ thresholdTimeVal
 int32_t
 *
 loopCount
-FuntionToBeTimed
+FunctionToBeTimed
 fn
 void
 *

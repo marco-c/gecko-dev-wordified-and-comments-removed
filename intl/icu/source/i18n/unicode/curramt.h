@@ -98,6 +98,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 ~
@@ -111,6 +112,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID

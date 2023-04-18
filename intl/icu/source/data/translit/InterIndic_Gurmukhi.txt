@@ -107,7 +107,7 @@ equivalent
 to
 BINDI
 when
-preceeded
+preceded
 by
 a
 vowel

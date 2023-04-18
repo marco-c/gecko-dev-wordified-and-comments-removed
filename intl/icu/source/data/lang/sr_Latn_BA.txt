@@ -113,6 +113,15 @@ njema
 ki
 "
 }
+de_CH
+{
+"
+vajcarski
+visoki
+njema
+ki
+"
+}
 en_GB
 {
 "

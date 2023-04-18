@@ -107,9 +107,10 @@ clone
 (
 )
 const
+override
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -120,6 +121,7 @@ Format
 other
 )
 const
+override
 ;
 using
 DateFormat
@@ -143,6 +145,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -164,6 +167,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 void
@@ -181,6 +185,7 @@ ParsePosition
 pos
 )
 const
+override
 ;
 UDate
 parse
@@ -208,6 +213,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -288,6 +294,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 private
 :
@@ -425,6 +432,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;

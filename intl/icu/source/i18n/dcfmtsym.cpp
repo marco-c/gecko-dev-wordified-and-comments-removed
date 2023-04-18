@@ -338,6 +338,9 @@ NULL
 "
 superscriptingExponent
 "
+"
+approximatelySign
+"
 }
 ;
 DecimalFormatSymbols
@@ -726,7 +729,7 @@ return
 this
 ;
 }
-UBool
+bool
 DecimalFormatSymbols
 :
 :
@@ -751,7 +754,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -765,7 +768,7 @@ fIsCustomCurrencySymbol
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -779,7 +782,7 @@ fIsCustomIntlCurrencySymbol
 )
 {
 return
-FALSE
+false
 ;
 }
 for
@@ -824,7 +827,7 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -864,7 +867,7 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -884,7 +887,7 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -987,6 +990,7 @@ UErrorCode
 &
 errorCode
 )
+override
 {
 ResourceTable
 symbolsTable
@@ -1299,6 +1303,7 @@ UErrorCode
 &
 errorCode
 )
+override
 {
 ResourceTable
 spacingTypesTable
@@ -2584,6 +2589,16 @@ kExponentMultiplicationSymbol
 UChar
 )
 0xd7
+;
+fSymbols
+[
+kApproximatelySignSymbol
+]
+=
+u
+'
+~
+'
 ;
 fIsCustomCurrencySymbol
 =

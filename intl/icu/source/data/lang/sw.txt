@@ -722,6 +722,12 @@ dje
 Kizarma
 "
 }
+doi
+{
+"
+Kidogri
+"
+}
 dsb
 {
 "
@@ -2203,6 +2209,12 @@ rar
 {
 "
 Kirarotonga
+"
+}
+rhg
+{
+"
+Kirohingya
 "
 }
 rm

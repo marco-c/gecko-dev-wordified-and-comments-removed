@@ -62,7 +62,7 @@ from
 CLDR
 #
 #
-Tranforms
+Transforms
 Spanish
 to
 Mandarin
@@ -1949,7 +1949,7 @@ is
 to
 drop
 most
-occurences
+occurrences
 of
 #
 corresponding

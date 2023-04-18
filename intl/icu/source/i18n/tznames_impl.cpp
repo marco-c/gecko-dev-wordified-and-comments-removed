@@ -597,7 +597,7 @@ return
 values
 -
 >
-addElement
+addElementX
 (
 fValues
 status
@@ -621,7 +621,7 @@ fValues
 )
 -
 >
-addElement
+addElementX
 (
 value
 status
@@ -934,7 +934,7 @@ key
 fLazyContents
 -
 >
-addElement
+addElementX
 (
 s
 status
@@ -969,7 +969,7 @@ return
 fLazyContents
 -
 >
-addElement
+addElementX
 (
 value
 status
@@ -3684,6 +3684,7 @@ UErrorCode
 &
 errorCode
 )
+override
 {
 ResourceTable
 namesTable
@@ -4032,6 +4033,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 virtual
 const
@@ -4043,6 +4045,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -4052,6 +4055,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 int32_t
@@ -4062,6 +4066,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 private
 :
@@ -4333,6 +4338,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 TimeZoneNames
 :
@@ -5132,7 +5138,7 @@ NULL
 ;
 }
 }
-UBool
+bool
 TimeZoneNamesImpl
 :
 :
@@ -5157,11 +5163,11 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 return
-FALSE
+false
 ;
 }
 TimeZoneNamesImpl
@@ -5474,7 +5480,7 @@ mzID
 mzIDs
 -
 >
-addElement
+addElementX
 (
 (
 void
@@ -7817,6 +7823,7 @@ UErrorCode
 &
 status
 )
+override
 {
 ResourceTable
 timeZonesTable
@@ -9566,6 +9573,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 TimeZoneNames
 :
@@ -10809,7 +10817,7 @@ TZDBTimeZoneNames
 )
 {
 }
-UBool
+bool
 TZDBTimeZoneNames
 :
 :
@@ -10834,11 +10842,11 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 return
-FALSE
+false
 ;
 }
 TZDBTimeZoneNames

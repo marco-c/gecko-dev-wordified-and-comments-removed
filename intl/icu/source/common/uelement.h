@@ -45,7 +45,7 @@ e2
 )
 ;
 typedef
-int8_t
+int32_t
 U_CALLCONV
 UElementComparator
 (

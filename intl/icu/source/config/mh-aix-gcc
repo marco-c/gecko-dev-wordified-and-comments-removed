@@ -329,10 +329,6 @@ LDFLAGS
 )
 -
 shared
--
-Wl
--
-bexpall
 (
 LD_SOOPTIONS
 )
@@ -354,10 +350,6 @@ LDFLAGS
 )
 -
 shared
--
-Wl
--
-bexpall
 (
 LD_SOOPTIONS
 )

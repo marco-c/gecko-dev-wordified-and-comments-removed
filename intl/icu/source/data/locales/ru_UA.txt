@@ -69,17 +69,6 @@ gregorian
 {
 availableFormats
 {
-GyMMM
-{
-"
-LLL
-y
-'
-'
-.
-G
-"
-}
 yMEd
 {
 "

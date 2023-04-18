@@ -314,6 +314,8 @@ UNumberSignDisplay
 signDisplay
 bool
 perMille
+bool
+approximately
 )
 ;
 void
@@ -468,6 +470,15 @@ const
 U_OVERRIDE
 ;
 UnicodeString
+getCurrencySymbolForUnitWidth
+(
+UErrorCode
+&
+status
+)
+const
+;
+UnicodeString
 toUnicodeString
 (
 )
@@ -492,6 +503,9 @@ fSignDisplay
 ;
 bool
 fPerMilleReplacesPercent
+;
+bool
+fApproximately
 ;
 const
 DecimalFormatSymbols

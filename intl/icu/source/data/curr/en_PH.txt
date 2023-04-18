@@ -54,14 +54,6 @@ data
 xml
 en_PH
 {
-%
-%
-Parent
-{
-"
-en_001
-"
-}
 Currencies
 {
 PHP
@@ -70,7 +62,7 @@ PHP
 "
 "
 Philippine
-Peso
+Piso
 "
 }
 }

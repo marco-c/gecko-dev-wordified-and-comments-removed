@@ -97,7 +97,7 @@ CollationElementIterator
 (
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -109,7 +109,7 @@ other
 )
 const
 ;
-UBool
+bool
 operator
 !
 =
@@ -241,6 +241,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID

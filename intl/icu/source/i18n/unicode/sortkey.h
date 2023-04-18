@@ -103,7 +103,7 @@ CollationKey
 other
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -115,7 +115,7 @@ source
 )
 const
 ;
-UBool
+bool
 operator
 !
 =
@@ -204,6 +204,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID
@@ -380,7 +381,7 @@ fUnion
 }
 ;
 inline
-UBool
+bool
 CollationKey
 :
 :

@@ -3091,6 +3091,12 @@ rgn
 romagnol
 "
 }
+rhg
+{
+"
+rohingya
+"
+}
 rif
 {
 "

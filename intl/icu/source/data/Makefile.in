@@ -895,7 +895,7 @@ data
 in
 the
 current
-endianess
+endianness
 or
 charset
 .
@@ -1005,7 +1005,7 @@ archive
 in
 the
 native
-endianess
+endianness
 #
 and
 it

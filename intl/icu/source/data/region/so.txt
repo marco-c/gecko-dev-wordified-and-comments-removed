@@ -599,8 +599,8 @@ Kilibarton
 CR
 {
 "
-Kosta
-Riika
+Costa
+Rica
 "
 }
 CU
@@ -1087,8 +1087,8 @@ KN
 St
 .
 Kitts
-&
-Nefis
+iyo
+Nevis
 "
 }
 KP
@@ -1465,9 +1465,10 @@ Booland
 PM
 {
 "
-Saint
+St
+.
 Pierre
-and
+iyo
 Miquelon
 "
 }
@@ -1925,7 +1926,8 @@ Samoowa
 XA
 {
 "
-Shigshiga
+Lahjadaha
+Pseudo
 "
 }
 XB
@@ -1980,9 +1982,6 @@ Gobol
 aan
 la
 aqoonin
-amase
-aan
-saxnayn
 "
 }
 }

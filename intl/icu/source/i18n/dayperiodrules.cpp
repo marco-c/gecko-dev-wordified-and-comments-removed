@@ -174,6 +174,7 @@ UErrorCode
 &
 errorCode
 )
+override
 {
 ResourceTable
 dayPeriodData
@@ -1545,6 +1546,7 @@ UErrorCode
 &
 errorCode
 )
+override
 {
 ResourceTable
 rules

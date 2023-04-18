@@ -200,7 +200,6 @@ Notation
 :
 :
 ScientificSettings
-&
 fSettings
 ;
 const

@@ -1310,7 +1310,7 @@ this
 )
 ;
 }
-UBool
+bool
 RuleBasedBreakIterator
 :
 :
@@ -1341,7 +1341,7 @@ that
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1354,7 +1354,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 const
@@ -1384,7 +1384,7 @@ fText
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1417,7 +1417,7 @@ fDone
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1457,11 +1457,11 @@ fData
 )
 {
 return
-TRUE
+true
 ;
 }
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -4518,6 +4518,17 @@ insertElementAt
 fUnhandledBreakEngine
 0
 status
+)
+;
+U_ASSERT
+(
+!
+fLanguageBreakEngines
+-
+>
+hasDeleter
+(
+)
 )
 ;
 if

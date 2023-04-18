@@ -330,7 +330,7 @@ kInvariant
 }
 ;
 inline
-UBool
+bool
 operator
 =
 =
@@ -343,7 +343,7 @@ text
 const
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -1323,6 +1323,7 @@ UnicodeString
 target
 )
 const
+override
 ;
 int32_t
 extract
@@ -2102,6 +2103,7 @@ UnicodeString
 &
 text
 )
+override
 ;
 virtual
 UBool
@@ -2109,6 +2111,7 @@ hasMetaData
 (
 )
 const
+override
 ;
 virtual
 void
@@ -2121,6 +2124,7 @@ limit
 int32_t
 dest
 )
+override
 ;
 inline
 UnicodeString
@@ -2834,6 +2838,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 ~
@@ -2889,6 +2894,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 protected
 :
@@ -2898,6 +2904,7 @@ getLength
 (
 )
 const
+override
 ;
 virtual
 char16_t
@@ -2907,6 +2914,7 @@ int32_t
 offset
 )
 const
+override
 ;
 virtual
 UChar32
@@ -2916,6 +2924,7 @@ int32_t
 offset
 )
 const
+override
 ;
 private
 :
@@ -4296,7 +4305,7 @@ srcLength
 }
 }
 inline
-UBool
+bool
 UnicodeString
 :
 :
@@ -4366,7 +4375,7 @@ len
 }
 }
 inline
-UBool
+bool
 UnicodeString
 :
 :

@@ -77,6 +77,7 @@ clone
 (
 )
 const
+override
 ;
 TimeUnit
 (
@@ -103,6 +104,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID

@@ -586,7 +586,7 @@ TimeZoneNamesImpl
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -597,6 +597,7 @@ TimeZoneNames
 other
 )
 const
+override
 ;
 virtual
 TimeZoneNamesImpl
@@ -605,6 +606,7 @@ clone
 (
 )
 const
+override
 ;
 StringEnumeration
 *
@@ -615,6 +617,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 StringEnumeration
 *
@@ -629,6 +632,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 UnicodeString
 &
@@ -645,6 +649,7 @@ UnicodeString
 mzID
 )
 const
+override
 ;
 UnicodeString
 &
@@ -663,6 +668,7 @@ UnicodeString
 tzID
 )
 const
+override
 ;
 UnicodeString
 &
@@ -679,6 +685,7 @@ UnicodeString
 name
 )
 const
+override
 ;
 UnicodeString
 &
@@ -695,6 +702,7 @@ UnicodeString
 name
 )
 const
+override
 ;
 UnicodeString
 &
@@ -709,6 +717,7 @@ UnicodeString
 name
 )
 const
+override
 ;
 TimeZoneNames
 :
@@ -730,6 +739,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 void
 loadAllDisplayNames
@@ -738,6 +748,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 void
 getDisplayNames
@@ -764,6 +775,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 static
 UnicodeString
@@ -987,7 +999,7 @@ TZDBTimeZoneNames
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -998,6 +1010,7 @@ TimeZoneNames
 other
 )
 const
+override
 ;
 virtual
 TZDBTimeZoneNames
@@ -1006,6 +1019,7 @@ clone
 (
 )
 const
+override
 ;
 StringEnumeration
 *
@@ -1016,6 +1030,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 StringEnumeration
 *
@@ -1030,6 +1045,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 UnicodeString
 &
@@ -1046,6 +1062,7 @@ UnicodeString
 mzID
 )
 const
+override
 ;
 UnicodeString
 &
@@ -1064,6 +1081,7 @@ UnicodeString
 tzID
 )
 const
+override
 ;
 UnicodeString
 &
@@ -1080,6 +1098,7 @@ UnicodeString
 name
 )
 const
+override
 ;
 UnicodeString
 &
@@ -1096,6 +1115,7 @@ UnicodeString
 name
 )
 const
+override
 ;
 TimeZoneNames
 :
@@ -1117,6 +1137,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 static
 const

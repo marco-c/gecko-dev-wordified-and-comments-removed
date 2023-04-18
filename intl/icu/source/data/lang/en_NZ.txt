@@ -62,14 +62,4 @@ Parent
 en_001
 "
 }
-Languages
-{
-mi
-{
-"
-M
-ori
-"
-}
-}
 }

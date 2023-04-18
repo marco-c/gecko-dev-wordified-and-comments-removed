@@ -233,7 +233,7 @@ RBBINode
 other
 )
 ;
-UBool
+bool
 operator
 =
 =

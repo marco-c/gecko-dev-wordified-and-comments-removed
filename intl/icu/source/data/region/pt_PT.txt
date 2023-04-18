@@ -544,13 +544,7 @@ Vietname
 XA
 {
 "
-pseudoacentos
-"
-}
-XB
-{
-"
-pseudobidirecional
+Pseudoacentos
 "
 }
 YE

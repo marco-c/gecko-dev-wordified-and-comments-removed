@@ -400,6 +400,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID

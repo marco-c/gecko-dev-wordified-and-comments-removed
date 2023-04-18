@@ -332,12 +332,6 @@ BWP
 P
 "
 }
-BYN
-{
-"
-.
-"
-}
 BZD
 {
 "
@@ -679,12 +673,6 @@ RUB
 "
 "
 }
-RUR
-{
-"
-.
-"
-}
 RWF
 {
 "
@@ -831,7 +819,7 @@ other
 Version
 {
 "
-39
+40
 "
 }
 currencySpacing

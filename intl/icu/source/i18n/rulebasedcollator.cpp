@@ -346,6 +346,7 @@ n
 int32_t
 length
 )
+override
 ;
 virtual
 UBool
@@ -356,6 +357,7 @@ appendCapacity
 int32_t
 length
 )
+override
 ;
 }
 ;
@@ -485,6 +487,7 @@ n
 int32_t
 length
 )
+override
 ;
 virtual
 UBool
@@ -495,6 +498,7 @@ appendCapacity
 int32_t
 length
 )
+override
 ;
 CollationKey
 &
@@ -1294,7 +1298,7 @@ UOBJECT_DEFINE_RTTI_IMPLEMENTATION
 (
 RuleBasedCollator
 )
-UBool
+bool
 RuleBasedCollator
 :
 :
@@ -1319,7 +1323,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -1337,7 +1341,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -1368,7 +1372,7 @@ settings
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1382,7 +1386,7 @@ data
 )
 {
 return
-TRUE
+true
 ;
 }
 UBool
@@ -1428,7 +1432,7 @@ otherIsRoot
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1484,7 +1488,7 @@ rules
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -1528,7 +1532,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1542,11 +1546,11 @@ otherTailored
 )
 {
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 int32_t
@@ -4707,6 +4711,7 @@ UChar32
 nextRawCodePoint
 (
 )
+override
 {
 if
 (
@@ -5026,6 +5031,7 @@ UChar32
 nextRawCodePoint
 (
 )
+override
 {
 if
 (
@@ -5122,6 +5128,7 @@ UChar32
 nextRawCodePoint
 (
 )
+override
 {
 UErrorCode
 errorCode
@@ -5172,6 +5179,7 @@ UChar32
 nextRawCodePoint
 (
 )
+override
 {
 return
 uiter_next32
@@ -5226,6 +5234,7 @@ UChar32
 nextRawCodePoint
 (
 )
+override
 {
 UErrorCode
 errorCode
@@ -7939,6 +7948,7 @@ Collation
 Level
 l
 )
+override
 {
 if
 (

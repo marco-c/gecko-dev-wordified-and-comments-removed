@@ -170,7 +170,7 @@ MeasureFormat
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -181,6 +181,7 @@ Format
 other
 )
 const
+override
 ;
 virtual
 MeasureFormat
@@ -189,6 +190,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -210,6 +212,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 #
 ifndef
@@ -230,6 +233,7 @@ ParsePosition
 pos
 )
 const
+override
 ;
 #
 endif
@@ -333,6 +337,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 protected
 :

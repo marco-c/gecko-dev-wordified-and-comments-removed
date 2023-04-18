@@ -1296,7 +1296,7 @@ ANG
 one
 {
 "
-florinos
+florino
 antillan
 "
 }
@@ -1313,7 +1313,7 @@ AOA
 one
 {
 "
-kwanzas
+kwanza
 angolan
 "
 }
@@ -1330,7 +1330,7 @@ ARS
 one
 {
 "
-pesos
+peso
 argentin
 "
 }
@@ -1347,7 +1347,7 @@ AUD
 one
 {
 "
-dollares
+dollar
 australian
 "
 }
@@ -1364,7 +1364,7 @@ AWG
 one
 {
 "
-florinos
+florino
 aruban
 "
 }
@@ -1406,7 +1406,7 @@ BBD
 one
 {
 "
-dollares
+dollar
 barbadian
 "
 }
@@ -1440,7 +1440,7 @@ BIF
 one
 {
 "
-francos
+franco
 burundese
 "
 }
@@ -1457,7 +1457,7 @@ BMD
 one
 {
 "
-dollares
+dollar
 bermudan
 "
 }
@@ -1474,7 +1474,7 @@ BOB
 one
 {
 "
-bolivianos
+boliviano
 bolivian
 "
 }
@@ -1491,7 +1491,7 @@ BRL
 one
 {
 "
-reales
+real
 brasilian
 "
 }
@@ -1508,7 +1508,7 @@ BSD
 one
 {
 "
-dollares
+dollar
 bahamian
 "
 }
@@ -1532,7 +1532,7 @@ botswanese
 other
 {
 "
-pula
+pulas
 botswanese
 "
 }
@@ -1559,7 +1559,7 @@ BZD
 one
 {
 "
-dollares
+dollar
 belizan
 "
 }
@@ -1576,7 +1576,7 @@ CAD
 one
 {
 "
-dollares
+dollar
 canadian
 "
 }
@@ -1593,7 +1593,7 @@ CDF
 one
 {
 "
-francos
+franco
 congolese
 "
 }
@@ -1610,7 +1610,7 @@ CHF
 one
 {
 "
-francos
+franco
 suisse
 "
 }
@@ -1627,7 +1627,7 @@ CLP
 one
 {
 "
-pesos
+peso
 chilen
 "
 }
@@ -1661,7 +1661,7 @@ COP
 one
 {
 "
-pesos
+peso
 colombian
 "
 }
@@ -1678,7 +1678,7 @@ CRC
 one
 {
 "
-colones
+colon
 costarican
 "
 }
@@ -1695,7 +1695,7 @@ CUC
 one
 {
 "
-pesos
+peso
 cuban
 convertibile
 "
@@ -1714,7 +1714,7 @@ CUP
 one
 {
 "
-pesos
+peso
 cuban
 "
 }
@@ -1731,7 +1731,7 @@ CVE
 one
 {
 "
-escudos
+escudo
 capoverdian
 "
 }
@@ -1765,7 +1765,7 @@ DEM
 one
 {
 "
-marcos
+marco
 german
 "
 }
@@ -1782,7 +1782,7 @@ DJF
 one
 {
 "
-francos
+franco
 djibutian
 "
 }
@@ -1799,7 +1799,7 @@ DKK
 one
 {
 "
-coronas
+corona
 danese
 "
 }
@@ -1816,7 +1816,7 @@ DOP
 one
 {
 "
-pesos
+peso
 dominican
 "
 }
@@ -1833,7 +1833,7 @@ DZD
 one
 {
 "
-dinares
+dinar
 algerin
 "
 }
@@ -1850,7 +1850,7 @@ EEK
 one
 {
 "
-coronas
+corona
 estonian
 "
 }
@@ -1867,7 +1867,7 @@ EGP
 one
 {
 "
-libras
+libra
 egyptie
 "
 }
@@ -1884,7 +1884,7 @@ ERN
 one
 {
 "
-nakfas
+nakfa
 eritree
 "
 }
@@ -1901,7 +1901,7 @@ ETB
 one
 {
 "
-birres
+birr
 ethiope
 "
 }
@@ -1918,7 +1918,7 @@ EUR
 one
 {
 "
-euros
+euro
 "
 }
 other
@@ -1933,7 +1933,7 @@ FIM
 one
 {
 "
-marcos
+marco
 finnese
 "
 }
@@ -1950,7 +1950,7 @@ FJD
 one
 {
 "
-dollares
+dollar
 fijian
 "
 }
@@ -1967,7 +1967,7 @@ FKP
 one
 {
 "
-libras
+libra
 falklandese
 "
 }
@@ -1984,7 +1984,7 @@ FRF
 one
 {
 "
-francos
+franco
 francese
 "
 }
@@ -2001,7 +2001,7 @@ GBP
 one
 {
 "
-libras
+libra
 sterling
 "
 }
@@ -2018,7 +2018,7 @@ GHS
 one
 {
 "
-cedis
+cedi
 ghanese
 "
 }
@@ -2088,7 +2088,7 @@ GTQ
 one
 {
 "
-quetzales
+quetzal
 guatemaltec
 "
 }
@@ -2105,7 +2105,7 @@ GYD
 one
 {
 "
-dollares
+dollar
 guyanese
 "
 }
@@ -2122,7 +2122,7 @@ HNL
 one
 {
 "
-lempiras
+lempira
 hondurese
 "
 }
@@ -2156,7 +2156,7 @@ HTG
 one
 {
 "
-gourdes
+gourde
 haitian
 "
 }
@@ -2190,7 +2190,7 @@ IEP
 one
 {
 "
-libras
+libra
 irlandese
 "
 }
@@ -2207,7 +2207,7 @@ INR
 one
 {
 "
-rupias
+rupia
 indian
 "
 }
@@ -2224,7 +2224,7 @@ ISK
 one
 {
 "
-coronas
+corona
 islandese
 "
 }
@@ -2241,7 +2241,7 @@ JMD
 one
 {
 "
-dollares
+dollar
 jamaican
 "
 }
@@ -2275,7 +2275,7 @@ KES
 one
 {
 "
-shillings
+shilling
 kenyan
 "
 }
@@ -2292,7 +2292,7 @@ KMF
 one
 {
 "
-francos
+franco
 comorian
 "
 }
@@ -2309,7 +2309,7 @@ KYD
 one
 {
 "
-dollares
+dollar
 del
 Insulas
 Caiman
@@ -2330,7 +2330,7 @@ LRD
 one
 {
 "
-dollares
+dollar
 liberian
 "
 }
@@ -2347,7 +2347,7 @@ LYD
 one
 {
 "
-dinares
+dinar
 libyc
 "
 }
@@ -2364,7 +2364,7 @@ MAD
 one
 {
 "
-dirhams
+dirham
 marocchin
 "
 }
@@ -2432,7 +2432,7 @@ MRO
 one
 {
 "
-ouguiyas
+ouguiya
 mauritan
 (
 1973
@@ -2474,7 +2474,7 @@ MUR
 one
 {
 "
-rupias
+rupia
 mauritian
 "
 }
@@ -2508,7 +2508,7 @@ MXN
 one
 {
 "
-pesos
+peso
 mexican
 "
 }
@@ -2525,7 +2525,7 @@ MZN
 one
 {
 "
-meticales
+metical
 mozambican
 "
 }
@@ -2542,7 +2542,7 @@ NAD
 one
 {
 "
-dollares
+dollar
 namibian
 "
 }
@@ -2576,7 +2576,7 @@ NIO
 one
 {
 "
-cordobas
+cordoba
 nicaraguan
 "
 }
@@ -2593,7 +2593,7 @@ NLG
 one
 {
 "
-florinos
+florino
 nederlandese
 "
 }
@@ -2610,7 +2610,7 @@ NOK
 one
 {
 "
-coronas
+corona
 norvegian
 "
 }
@@ -2627,7 +2627,7 @@ NZD
 one
 {
 "
-dollares
+dollar
 neozelandese
 "
 }
@@ -2644,7 +2644,7 @@ PAB
 one
 {
 "
-balboas
+balboa
 panamen
 "
 }
@@ -2661,7 +2661,7 @@ PEN
 one
 {
 "
-soles
+sol
 peruvian
 "
 }
@@ -2678,7 +2678,7 @@ PGK
 one
 {
 "
-kinas
+kina
 papuan
 "
 }
@@ -2712,7 +2712,7 @@ PYG
 one
 {
 "
-guaranis
+guarani
 paraguayan
 "
 }
@@ -2780,7 +2780,7 @@ RWF
 one
 {
 "
-francos
+franco
 ruandese
 "
 }
@@ -2797,7 +2797,7 @@ SBD
 one
 {
 "
-dollares
+dollar
 del
 insulas
 Salomon
@@ -2818,7 +2818,7 @@ SCR
 one
 {
 "
-rupias
+rupia
 seychellese
 "
 }
@@ -2835,7 +2835,7 @@ SDG
 one
 {
 "
-libras
+libra
 sudanese
 "
 }
@@ -2852,7 +2852,7 @@ SEK
 one
 {
 "
-coronas
+corona
 svedese
 "
 }
@@ -2869,7 +2869,7 @@ SHP
 one
 {
 "
-libras
+libra
 de
 St
 .
@@ -2909,7 +2909,7 @@ SOS
 one
 {
 "
-shillings
+shilling
 somali
 "
 }
@@ -2926,7 +2926,7 @@ SRD
 one
 {
 "
-dollares
+dollar
 surinamese
 "
 }
@@ -2943,7 +2943,7 @@ SSP
 one
 {
 "
-libras
+libra
 sud
 -
 sudanese
@@ -2964,7 +2964,7 @@ STN
 one
 {
 "
-dobras
+dobra
 de
 S
 o
@@ -2993,7 +2993,7 @@ SZL
 one
 {
 "
-emalangeni
+lilangeni
 swazilandese
 "
 }
@@ -3010,7 +3010,7 @@ TND
 one
 {
 "
-dinares
+dinar
 tunisian
 "
 }
@@ -3028,7 +3028,7 @@ one
 {
 "
 pa
-angas
+anga
 tongan
 "
 }
@@ -3046,7 +3046,7 @@ TTD
 one
 {
 "
-dollares
+dollar
 de
 Trinidad
 e
@@ -3069,7 +3069,7 @@ TZS
 one
 {
 "
-shillings
+shilling
 tanzanian
 "
 }
@@ -3103,7 +3103,7 @@ UGX
 one
 {
 "
-shillings
+shilling
 ugandese
 "
 }
@@ -3120,7 +3120,7 @@ USD
 one
 {
 "
-dollares
+dollar
 statounitese
 "
 }
@@ -3137,7 +3137,7 @@ UYU
 one
 {
 "
-pesos
+peso
 uruguayan
 "
 }
@@ -3154,7 +3154,7 @@ VEF
 one
 {
 "
-bolivares
+bolivar
 venezuelan
 (
 2008
@@ -3179,7 +3179,7 @@ VES
 one
 {
 "
-bolivares
+bolivar
 venezuelan
 "
 }
@@ -3196,7 +3196,7 @@ VUV
 one
 {
 "
-vatus
+vatu
 vanuatuan
 "
 }
@@ -3213,7 +3213,7 @@ WST
 one
 {
 "
-talas
+tala
 samoan
 "
 }
@@ -3230,7 +3230,7 @@ XAF
 one
 {
 "
-francos
+franco
 CFA
 de
 Africa
@@ -3253,7 +3253,7 @@ XCD
 one
 {
 "
-dollares
+dollar
 del
 Caribes
 Oriental
@@ -3297,7 +3297,7 @@ XPF
 one
 {
 "
-francos
+franco
 CFP
 "
 }

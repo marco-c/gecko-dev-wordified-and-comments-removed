@@ -187,9 +187,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CAPI
 int32_t
 U_EXPORT2
@@ -214,8 +211,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API

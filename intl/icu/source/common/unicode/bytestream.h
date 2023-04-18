@@ -221,6 +221,7 @@ bytes
 int32_t
 n
 )
+override
 ;
 virtual
 char
@@ -240,6 +241,7 @@ int32_t
 *
 result_capacity
 )
+override
 ;
 int32_t
 NumberOfBytesWritten
@@ -416,6 +418,7 @@ data
 int32_t
 n
 )
+override
 {
 dest_
 -

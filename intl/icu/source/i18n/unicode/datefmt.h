@@ -234,11 +234,12 @@ clone
 (
 )
 const
+override
 =
 0
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -248,6 +249,7 @@ Format
 &
 )
 const
+override
 ;
 using
 Format
@@ -275,6 +277,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -296,6 +299,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -443,6 +447,7 @@ ParsePosition
 parse_pos
 )
 const
+override
 ;
 static
 DateFormat

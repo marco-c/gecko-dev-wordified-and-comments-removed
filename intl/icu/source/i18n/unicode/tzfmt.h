@@ -163,7 +163,7 @@ other
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -174,6 +174,7 @@ Format
 other
 )
 const
+override
 ;
 virtual
 TimeZoneFormat
@@ -182,6 +183,7 @@ clone
 (
 )
 const
+override
 ;
 static
 TimeZoneFormat
@@ -535,6 +537,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 void
@@ -552,6 +555,7 @@ ParsePosition
 parse_pos
 )
 const
+override
 ;
 static
 UClassID
@@ -567,6 +571,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 protected
 :

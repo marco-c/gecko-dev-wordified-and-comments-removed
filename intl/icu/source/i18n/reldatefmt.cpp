@@ -2903,6 +2903,7 @@ UErrorCode
 &
 errorCode
 )
+override
 {
 ResourceTable
 table

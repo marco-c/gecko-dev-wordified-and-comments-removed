@@ -157,9 +157,10 @@ clone
 (
 )
 const
+override
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -170,6 +171,7 @@ Format
 other
 )
 const
+override
 ;
 virtual
 void
@@ -304,6 +306,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -320,6 +323,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -336,6 +340,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -382,6 +387,7 @@ ParsePosition
 parsePosition
 )
 const
+override
 ;
 virtual
 UClassID
@@ -390,6 +396,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 static
 UClassID

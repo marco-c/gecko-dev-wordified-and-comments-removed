@@ -422,7 +422,7 @@ break
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 }
@@ -1431,6 +1431,7 @@ patternInfoToStringBuilder
 patternInfo
 true
 type
+false
 StandardPlural
 :
 :
@@ -1487,6 +1488,7 @@ patternInfoToStringBuilder
 patternInfo
 false
 type
+false
 StandardPlural
 :
 :

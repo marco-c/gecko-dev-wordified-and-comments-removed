@@ -891,6 +891,17 @@ status
 return
 ;
 }
+U_ASSERT
+(
+!
+dest
+-
+>
+hasDeleter
+(
+)
+)
+;
 if
 (
 fType

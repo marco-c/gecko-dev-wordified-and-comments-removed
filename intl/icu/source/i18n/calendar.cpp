@@ -1838,6 +1838,7 @@ UErrorCode
 status
 )
 const
+override
 {
 if
 (
@@ -1938,6 +1939,7 @@ UErrorCode
 status
 )
 const
+override
 {
 #
 ifdef
@@ -2201,6 +2203,7 @@ UErrorCode
 status
 )
 const
+override
 {
 LocaleKey
 &
@@ -2365,6 +2368,7 @@ UObject
 instance
 )
 const
+override
 {
 UnicodeString
 *
@@ -2485,6 +2489,7 @@ UErrorCode
 status
 )
 const
+override
 {
 LocaleKey
 &
@@ -2638,6 +2643,7 @@ isDefault
 (
 )
 const
+override
 {
 return
 countFactories
@@ -4701,7 +4707,7 @@ U_BUFFER_OVERFLOW_ERROR
 ;
 }
 }
-UBool
+bool
 Calendar
 :
 :
@@ -12684,7 +12690,7 @@ if
 btz
 )
 {
-int
+UTimeZoneLocalOption
 duplicatedTimeOpt
 =
 (
@@ -12694,17 +12700,11 @@ fRepeatedWallTime
 UCAL_WALLTIME_FIRST
 )
 ?
-BasicTimeZone
+UCAL_TZ_LOCAL_FORMER
 :
-:
-kFormer
-:
-BasicTimeZone
-:
-:
-kLatter
+UCAL_TZ_LOCAL_LATTER
 ;
-int
+UTimeZoneLocalOption
 nonExistingTimeOpt
 =
 (
@@ -12714,15 +12714,9 @@ fSkippedWallTime
 UCAL_WALLTIME_FIRST
 )
 ?
-BasicTimeZone
+UCAL_TZ_LOCAL_LATTER
 :
-:
-kLatter
-:
-BasicTimeZone
-:
-:
-kFormer
+UCAL_TZ_LOCAL_FORMER
 ;
 btz
 -

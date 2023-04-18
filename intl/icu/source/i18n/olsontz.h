@@ -94,7 +94,7 @@ other
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -105,6 +105,7 @@ TimeZone
 other
 )
 const
+override
 ;
 virtual
 OlsonTimeZone
@@ -113,6 +114,7 @@ clone
 (
 )
 const
+override
 ;
 static
 UClassID
@@ -127,6 +129,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 virtual
 int32_t
@@ -149,6 +152,7 @@ UErrorCode
 ec
 )
 const
+override
 ;
 virtual
 int32_t
@@ -173,6 +177,7 @@ UErrorCode
 ec
 )
 const
+override
 ;
 virtual
 void
@@ -193,6 +198,7 @@ UErrorCode
 ec
 )
 const
+override
 ;
 virtual
 void
@@ -215,6 +221,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 void
@@ -223,6 +230,7 @@ setRawOffset
 int32_t
 offsetMillis
 )
+override
 ;
 virtual
 int32_t
@@ -230,6 +238,7 @@ getRawOffset
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -237,6 +246,7 @@ useDaylightTime
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -249,6 +259,7 @@ UErrorCode
 ec
 )
 const
+override
 ;
 virtual
 int32_t
@@ -256,6 +267,7 @@ getDSTSavings
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -267,6 +279,7 @@ TimeZone
 other
 )
 const
+override
 ;
 virtual
 UBool
@@ -281,6 +294,7 @@ TimeZoneTransition
 result
 )
 const
+override
 ;
 virtual
 UBool
@@ -295,6 +309,7 @@ TimeZoneTransition
 result
 )
 const
+override
 ;
 virtual
 int32_t
@@ -305,6 +320,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 void
@@ -329,6 +345,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 const
 UChar

@@ -99,6 +99,7 @@ clone
 (
 )
 const
+override
 ;
 const
 char
@@ -107,6 +108,7 @@ getType
 (
 )
 const
+override
 ;
 protected
 :
@@ -115,6 +117,7 @@ int32_t
 handleGetExtendedYear
 (
 )
+override
 ;
 virtual
 void
@@ -126,6 +129,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 UDate
@@ -133,6 +137,7 @@ defaultCenturyStart
 (
 )
 const
+override
 ;
 virtual
 int32_t
@@ -140,6 +145,7 @@ defaultCenturyStartYear
 (
 )
 const
+override
 ;
 virtual
 int32_t
@@ -147,6 +153,7 @@ getJDEpochOffset
 (
 )
 const
+override
 ;
 public
 :
@@ -157,6 +164,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 U_I18N_API
 static

@@ -80,6 +80,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 const
@@ -106,6 +107,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 U_I18N_API
 static
@@ -131,6 +133,7 @@ UBool
 isIncremental
 )
 const
+override
 ;
 private
 :

@@ -124,7 +124,7 @@ this
 )
 ;
 }
-UBool
+bool
 DateInterval
 :
 :

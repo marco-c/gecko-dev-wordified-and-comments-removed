@@ -765,7 +765,7 @@ return
 this
 ;
 }
-UBool
+bool
 SelectFormat
 :
 :
@@ -790,7 +790,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -808,7 +808,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -832,7 +832,7 @@ o
 msgPattern
 ;
 }
-UBool
+bool
 SelectFormat
 :
 :

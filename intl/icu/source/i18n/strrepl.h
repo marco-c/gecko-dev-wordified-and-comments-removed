@@ -124,6 +124,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 UnicodeReplacer
@@ -132,6 +133,7 @@ toReplacer
 (
 )
 const
+override
 ;
 virtual
 int32_t
@@ -148,6 +150,7 @@ int32_t
 &
 cursor
 )
+override
 ;
 virtual
 UnicodeString
@@ -161,6 +164,7 @@ UBool
 escapeUnprintable
 )
 const
+override
 ;
 virtual
 void
@@ -171,6 +175,7 @@ UnicodeSet
 toUnionTo
 )
 const
+override
 ;
 virtual
 void
@@ -180,6 +185,7 @@ const
 TransliterationRuleData
 *
 )
+override
 ;
 static
 UClassID
@@ -194,6 +200,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 }
 ;

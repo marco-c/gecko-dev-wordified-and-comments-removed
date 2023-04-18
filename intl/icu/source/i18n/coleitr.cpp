@@ -543,7 +543,7 @@ return
 firstHalf
 ;
 }
-UBool
+bool
 CollationElementIterator
 :
 :
@@ -569,7 +569,7 @@ other
 )
 ;
 }
-UBool
+bool
 CollationElementIterator
 :
 :
@@ -594,7 +594,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 return
@@ -1812,6 +1812,7 @@ handleCE
 (
 int64_t
 )
+override
 {
 }
 virtual
@@ -1826,6 +1827,7 @@ ces
 int32_t
 length
 )
+override
 {
 if
 (

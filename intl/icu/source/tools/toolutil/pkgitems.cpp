@@ -1205,7 +1205,7 @@ return
 char
 localeID
 [
-32
+48
 ]
 ;
 if

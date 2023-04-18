@@ -91,6 +91,7 @@ getDynamicClassID
 void
 )
 const
+override
 =
 0
 ;

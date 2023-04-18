@@ -108,6 +108,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 UnicodeMatcher
@@ -116,6 +117,7 @@ toMatcher
 (
 )
 const
+override
 ;
 virtual
 UnicodeReplacer
@@ -124,6 +126,7 @@ toReplacer
 (
 )
 const
+override
 ;
 virtual
 UMatchDegree
@@ -141,6 +144,7 @@ limit
 UBool
 incremental
 )
+override
 ;
 virtual
 UnicodeString
@@ -156,6 +160,7 @@ escapeUnprintable
 false
 )
 const
+override
 ;
 virtual
 UBool
@@ -165,6 +170,7 @@ uint8_t
 v
 )
 const
+override
 ;
 virtual
 void
@@ -175,6 +181,7 @@ UnicodeSet
 toUnionTo
 )
 const
+override
 ;
 virtual
 void
@@ -184,6 +191,7 @@ const
 TransliterationRuleData
 *
 )
+override
 ;
 virtual
 int32_t
@@ -200,6 +208,7 @@ int32_t
 &
 cursor
 )
+override
 ;
 virtual
 UnicodeString
@@ -213,6 +222,7 @@ UBool
 escapeUnprintable
 )
 const
+override
 ;
 void
 resetMatch
@@ -225,6 +235,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID
@@ -242,6 +253,7 @@ UnicodeSet
 toUnionTo
 )
 const
+override
 ;
 private
 :

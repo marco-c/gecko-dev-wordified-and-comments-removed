@@ -590,7 +590,7 @@ colon
 equals
 because
 we
-watn
+want
 to
 run
 this

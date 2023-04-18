@@ -83,17 +83,12 @@ UNUM_UNIT_WIDTH_FULL_NAME
 UNUM_UNIT_WIDTH_ISO_CODE
 =
 3
-#
-ifndef
-U_HIDE_DRAFT_API
 UNUM_UNIT_WIDTH_FORMAL
 =
 4
 UNUM_UNIT_WIDTH_VARIANT
 =
 5
-#
-endif
 UNUM_UNIT_WIDTH_HIDDEN
 =
 6
@@ -371,9 +366,6 @@ UErrorCode
 ec
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CAPI
 int32_t
 U_EXPORT2
@@ -393,8 +385,6 @@ UErrorCode
 ec
 )
 ;
-#
-endif
 U_CAPI
 void
 U_EXPORT2

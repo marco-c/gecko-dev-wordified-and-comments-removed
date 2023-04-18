@@ -83,6 +83,7 @@ clone
 (
 )
 const
+override
 ;
 private
 :
@@ -91,7 +92,9 @@ TimeZone
 *
 getDangiCalZoneAstroCalc
 (
-void
+UErrorCode
+&
+status
 )
 const
 ;
@@ -104,6 +107,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 U_I18N_API
 static
@@ -121,6 +125,7 @@ getType
 (
 )
 const
+override
 ;
 private
 :

@@ -6202,7 +6202,7 @@ desc
 1
 -
 2
-Unassinged
+Unassigned
 outside
 BMP
 ;

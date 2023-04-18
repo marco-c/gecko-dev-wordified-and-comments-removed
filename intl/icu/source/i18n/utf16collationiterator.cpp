@@ -146,7 +146,7 @@ UTF16CollationIterator
 )
 {
 }
-UBool
+bool
 UTF16CollationIterator
 :
 :
@@ -176,7 +176,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -929,7 +929,7 @@ FCDUTF16CollationIterator
 )
 {
 }
-UBool
+bool
 FCDUTF16CollationIterator
 :
 :
@@ -959,7 +959,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -988,7 +988,7 @@ checkDir
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1020,7 +1020,7 @@ segmentStart
 )
 {
 return
-FALSE
+false
 ;
 }
 if

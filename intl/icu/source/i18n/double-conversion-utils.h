@@ -48,7 +48,6 @@ U_ASSERT
 (
 condition
 )
-;
 #
 endif
 #
@@ -272,6 +271,13 @@ __ia64__
 defined
 (
 __mips__
+)
+|
+|
+\
+defined
+(
+__loongarch__
 )
 |
 |

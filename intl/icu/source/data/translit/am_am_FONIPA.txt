@@ -3239,7 +3239,7 @@ SEPARATOR
 #
 Likewise
 Ethiopic
-numberals
+numerals
 cannot
 be
 pronounced

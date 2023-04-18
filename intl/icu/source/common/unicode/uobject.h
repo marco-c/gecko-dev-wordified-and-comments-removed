@@ -251,7 +251,7 @@ if
 0
 virtual
 inline
-UBool
+bool
 operator
 =
 =
@@ -272,7 +272,7 @@ other
 ;
 }
 inline
-UBool
+bool
 operator
 !
 =

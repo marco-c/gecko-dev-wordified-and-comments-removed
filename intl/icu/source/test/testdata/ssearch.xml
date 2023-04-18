@@ -1845,7 +1845,7 @@ pre
 >
 At
 IDENTICAL
-shoud
+should
 this
 match
 ?
@@ -1915,7 +1915,7 @@ pre
 >
 At
 IDENTICAL
-shoud
+should
 this
 match
 ?
@@ -2197,7 +2197,7 @@ UStringSearch
 How
 did
 the
-orignal
+original
 test
 run
 ?
@@ -2507,7 +2507,7 @@ are
 not
 identical
 to
-orignal
+original
 test
 data
 because

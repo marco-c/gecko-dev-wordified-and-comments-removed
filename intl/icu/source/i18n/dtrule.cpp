@@ -359,7 +359,7 @@ return
 this
 ;
 }
-UBool
+bool
 DateTimeRule
 :
 :
@@ -457,7 +457,7 @@ fTimeRuleType
 )
 ;
 }
-UBool
+bool
 DateTimeRule
 :
 :

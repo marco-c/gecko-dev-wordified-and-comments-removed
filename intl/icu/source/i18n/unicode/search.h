@@ -222,7 +222,7 @@ void
 const
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -234,7 +234,7 @@ that
 )
 const
 ;
-UBool
+bool
 operator
 !
 =
@@ -418,7 +418,7 @@ setMatchNotFound
 }
 ;
 inline
-UBool
+bool
 SearchIterator
 :
 :

@@ -98,6 +98,7 @@ clone
 (
 )
 const
+override
 ;
 private
 :
@@ -124,6 +125,7 @@ ELimitType
 limitType
 )
 const
+override
 ;
 virtual
 int32_t
@@ -135,6 +137,7 @@ int32_t
 month
 )
 const
+override
 ;
 virtual
 int32_t
@@ -148,12 +151,14 @@ UBool
 useMonth
 )
 const
+override
 ;
 virtual
 int32_t
 handleGetExtendedYear
 (
 )
+override
 ;
 virtual
 void
@@ -165,6 +170,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 const
@@ -174,6 +180,7 @@ getFieldResolutionTable
 (
 )
 const
+override
 ;
 public
 :
@@ -189,6 +196,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -202,6 +210,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -215,6 +224,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -228,6 +238,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 private
 :
@@ -367,6 +378,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 static
 UClassID
@@ -384,6 +396,7 @@ getType
 (
 )
 const
+override
 ;
 protected
 :
@@ -396,6 +409,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UBool
@@ -403,6 +417,7 @@ haveDefaultCentury
 (
 )
 const
+override
 ;
 virtual
 UDate
@@ -410,6 +425,7 @@ defaultCenturyStart
 (
 )
 const
+override
 ;
 virtual
 int32_t
@@ -417,6 +433,7 @@ defaultCenturyStartYear
 (
 )
 const
+override
 ;
 private
 :

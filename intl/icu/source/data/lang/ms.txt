@@ -666,7 +666,7 @@ ckb
 {
 "
 Kurdi
-Sorani
+Tengah
 "
 }
 co
@@ -2248,6 +2248,12 @@ rar
 Rarotonga
 "
 }
+rhg
+{
+"
+Rohingya
+"
+}
 rm
 {
 "
@@ -3045,6 +3051,13 @@ Languages
 %
 variant
 {
+ckb
+{
+"
+Kurdi
+Sorani
+"
+}
 ps
 {
 "

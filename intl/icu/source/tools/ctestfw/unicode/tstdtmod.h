@@ -232,6 +232,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 TestData
@@ -245,6 +246,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 TestData
@@ -260,6 +262,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 private
 :

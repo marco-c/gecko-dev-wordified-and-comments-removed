@@ -110,6 +110,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 const
@@ -119,6 +120,7 @@ getType
 (
 )
 const
+override
 ;
 void
 setAmeteAlemEra
@@ -140,6 +142,7 @@ int32_t
 handleGetExtendedYear
 (
 )
+override
 ;
 virtual
 void
@@ -151,6 +154,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 int32_t
@@ -162,6 +166,7 @@ ELimitType
 limitType
 )
 const
+override
 ;
 virtual
 UDate
@@ -169,6 +174,7 @@ defaultCenturyStart
 (
 )
 const
+override
 ;
 virtual
 int32_t
@@ -176,6 +182,7 @@ defaultCenturyStartYear
 (
 )
 const
+override
 ;
 virtual
 int32_t
@@ -183,6 +190,7 @@ getJDEpochOffset
 (
 )
 const
+override
 ;
 private
 :
@@ -198,6 +206,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 U_I18N_API
 static

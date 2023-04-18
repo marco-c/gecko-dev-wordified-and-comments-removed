@@ -3256,6 +3256,13 @@ rgn
 Romanyolca
 "
 }
+rhg
+{
+"
+Rohingya
+dili
+"
+}
 rif
 {
 "
@@ -4439,12 +4446,6 @@ Languages
 %
 short
 {
-az
-{
-"
-Azerice
-"
-}
 en_GB
 {
 "

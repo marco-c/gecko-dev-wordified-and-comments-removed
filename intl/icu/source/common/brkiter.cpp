@@ -889,6 +889,7 @@ UErrorCode
 status
 )
 const
+override
 {
 return
 BreakIterator
@@ -968,6 +969,7 @@ UObject
 instance
 )
 const
+override
 {
 return
 (
@@ -1000,6 +1002,7 @@ UErrorCode
 status
 )
 const
+override
 {
 LocaleKey
 &
@@ -1048,6 +1051,7 @@ isDefault
 (
 )
 const
+override
 {
 return
 countFactories

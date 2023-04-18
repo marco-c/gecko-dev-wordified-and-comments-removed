@@ -217,7 +217,7 @@ other
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -228,6 +228,7 @@ Collator
 other
 )
 const
+override
 ;
 virtual
 RuleBasedCollator
@@ -236,6 +237,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 CollationElementIterator
@@ -284,6 +286,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UCollationResult
@@ -304,6 +307,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UCollationResult
@@ -326,6 +330,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UCollationResult
@@ -342,6 +347,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UCollationResult
@@ -360,6 +366,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 CollationKey
@@ -378,6 +385,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 CollationKey
@@ -398,6 +406,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 int32_t
@@ -405,6 +414,7 @@ hashCode
 (
 )
 const
+override
 ;
 #
 ifndef
@@ -420,6 +430,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 #
 endif
@@ -439,6 +450,7 @@ UVersionInfo
 info
 )
 const
+override
 ;
 #
 ifndef
@@ -460,6 +472,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 static
 UClassID
@@ -524,6 +537,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 UColAttributeValue
@@ -536,6 +550,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 Collator
@@ -548,6 +563,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 UColReorderCode
@@ -555,6 +571,7 @@ getMaxVariable
 (
 )
 const
+override
 ;
 #
 ifndef
@@ -573,6 +590,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 uint32_t
@@ -586,6 +604,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -597,6 +616,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 #
 endif
@@ -609,6 +629,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UnicodeSet
@@ -620,6 +641,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 int32_t
@@ -636,6 +658,7 @@ int32_t
 resultLength
 )
 const
+override
 ;
 virtual
 int32_t
@@ -654,6 +677,7 @@ int32_t
 resultLength
 )
 const
+override
 ;
 virtual
 int32_t
@@ -669,6 +693,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 void
@@ -684,6 +709,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 UCollationResult
@@ -706,6 +732,7 @@ UErrorCode
 errorCode
 )
 const
+override
 ;
 virtual
 int32_t
@@ -725,6 +752,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 int32_t
@@ -748,6 +776,7 @@ UErrorCode
 errorCode
 )
 const
+override
 ;
 RuleBasedCollator
 (
@@ -912,6 +941,7 @@ Locale
 &
 actualLocale
 )
+override
 ;
 private
 :

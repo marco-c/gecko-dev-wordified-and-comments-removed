@@ -430,7 +430,7 @@ void
 )
 field
 ;
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 void
@@ -450,7 +450,7 @@ void
 )
 output
 ;
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 bool
@@ -898,7 +898,7 @@ void
 )
 field
 ;
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 void

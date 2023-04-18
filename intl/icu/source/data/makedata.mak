@@ -328,7 +328,7 @@ uvernum
 h
 U_ICUDATA_NAME
 =
-icudt69
+icudt70
 #
 #
 #
@@ -435,7 +435,7 @@ version
 .
 U_ICUDATA_NAME
 =
-icudt69
+icudt70
 !
 ENDIF
 U_ICUDATA_ENDIAN_SUFFIX
@@ -443,7 +443,7 @@ U_ICUDATA_ENDIAN_SUFFIX
 l
 UNICODE_VERSION
 =
-13
+14
 .
 0
 ICU_LIB_TARGET

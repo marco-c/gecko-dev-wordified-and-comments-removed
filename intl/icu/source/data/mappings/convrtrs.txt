@@ -241,15 +241,15 @@ this
 demo
 :
 #
-http
+https
 :
 /
 /
-demo
-.
-icu
+icu4c
 -
-project
+demos
+.
+unicode
 .
 org
 /
@@ -1364,7 +1364,7 @@ Name
 format
 specified
 by
-http
+https
 :
 /
 /
@@ -1373,8 +1373,6 @@ www
 unicode
 .
 org
-/
-unicode
 /
 reports
 /
@@ -3570,7 +3568,7 @@ BOCU
 1
 #
 See
-http
+https
 :
 /
 /
@@ -3579,8 +3577,6 @@ www
 unicode
 .
 org
-/
-unicode
 /
 reports
 /
@@ -6263,7 +6259,7 @@ are
 various
 interpretations
 and
-extentions
+extensions
 of
 Big5
 ibm
@@ -14278,7 +14274,7 @@ Hebrew
 new
 sheqel
 control
-charaters
+characters
 update
 )
 .

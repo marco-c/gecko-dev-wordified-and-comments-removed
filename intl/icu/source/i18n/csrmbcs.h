@@ -103,6 +103,7 @@ getName
 (
 )
 const
+override
 =
 0
 ;
@@ -113,6 +114,7 @@ getLanguage
 (
 )
 const
+override
 =
 0
 ;
@@ -127,6 +129,7 @@ CharsetMatch
 results
 )
 const
+override
 =
 0
 ;
@@ -172,6 +175,7 @@ InputText
 det
 )
 const
+override
 ;
 UBool
 match
@@ -184,6 +188,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 const
 char
@@ -192,6 +197,7 @@ getName
 (
 )
 const
+override
 ;
 const
 char
@@ -200,6 +206,7 @@ getLanguage
 (
 )
 const
+override
 ;
 }
 ;
@@ -224,6 +231,7 @@ getName
 (
 )
 const
+override
 =
 0
 ;
@@ -234,6 +242,7 @@ getLanguage
 (
 )
 const
+override
 =
 0
 ;
@@ -248,6 +257,7 @@ CharsetMatch
 results
 )
 const
+override
 =
 0
 ;
@@ -262,6 +272,7 @@ InputText
 det
 )
 const
+override
 ;
 }
 ;
@@ -286,6 +297,7 @@ getName
 (
 )
 const
+override
 ;
 const
 char
@@ -294,6 +306,7 @@ getLanguage
 (
 )
 const
+override
 ;
 UBool
 match
@@ -306,6 +319,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -330,6 +344,7 @@ getName
 (
 )
 const
+override
 ;
 const
 char
@@ -338,6 +353,7 @@ getLanguage
 (
 )
 const
+override
 ;
 UBool
 match
@@ -350,6 +366,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -378,6 +395,7 @@ InputText
 det
 )
 const
+override
 ;
 const
 char
@@ -386,6 +404,7 @@ getName
 (
 )
 const
+override
 ;
 const
 char
@@ -394,6 +413,7 @@ getLanguage
 (
 )
 const
+override
 ;
 UBool
 match
@@ -406,6 +426,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -434,6 +455,7 @@ InputText
 det
 )
 const
+override
 ;
 const
 char
@@ -442,6 +464,7 @@ getName
 (
 )
 const
+override
 ;
 const
 char
@@ -450,6 +473,7 @@ getLanguage
 (
 )
 const
+override
 ;
 UBool
 match
@@ -462,6 +486,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;

@@ -2350,7 +2350,7 @@ region
 gSingleZoneCountries
 -
 >
-addElement
+addElementX
 (
 (
 void
@@ -2383,7 +2383,7 @@ region
 gMultiZonesCountries
 -
 >
-addElement
+addElementX
 (
 (
 void
@@ -3418,7 +3418,7 @@ break
 mzMappings
 -
 >
-addElement
+addElementX
 (
 entry
 status
@@ -4046,7 +4046,7 @@ NULL
 gMetaZoneIDs
 -
 >
-addElement
+addElementX
 (
 (
 void

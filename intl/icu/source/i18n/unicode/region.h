@@ -81,7 +81,7 @@ Region
 (
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -93,7 +93,7 @@ that
 )
 const
 ;
-UBool
+bool
 operator
 !
 =

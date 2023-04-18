@@ -1678,7 +1678,7 @@ break
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 }
@@ -2222,7 +2222,7 @@ Formattable
 :
 kObject
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 case
 Formattable
@@ -2230,7 +2230,7 @@ Formattable
 :
 kArray
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 }

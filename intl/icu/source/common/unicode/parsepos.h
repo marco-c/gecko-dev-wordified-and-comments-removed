@@ -118,7 +118,7 @@ copy
 )
 ;
 inline
-UBool
+bool
 operator
 =
 =
@@ -131,7 +131,7 @@ that
 const
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -195,6 +195,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 private
 :
@@ -239,7 +240,7 @@ this
 ;
 }
 inline
-UBool
+bool
 ParsePosition
 :
 :
@@ -280,7 +281,7 @@ true
 ;
 }
 inline
-UBool
+bool
 ParsePosition
 :
 :

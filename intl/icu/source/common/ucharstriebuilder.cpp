@@ -1434,7 +1434,7 @@ len
 )
 ;
 }
-UBool
+bool
 UCharsTrieBuilder
 :
 :
@@ -1462,7 +1462,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -1480,7 +1480,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const

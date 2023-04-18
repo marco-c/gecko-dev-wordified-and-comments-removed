@@ -115,9 +115,15 @@ kSevenDigitSymbol
 kEightDigitSymbol
 kNineDigitSymbol
 kExponentMultiplicationSymbol
+#
+ifndef
+U_HIDE_INTERNAL_API
+kApproximatelySignSymbol
+#
+endif
 kFormatSymbolCount
 =
-kNineDigitSymbol
+kExponentMultiplicationSymbol
 +
 2
 }
@@ -188,7 +194,7 @@ DecimalFormatSymbols
 (
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -200,7 +206,7 @@ other
 )
 const
 ;
-UBool
+bool
 operator
 !
 =
@@ -242,7 +248,7 @@ UnicodeString
 value
 const
 UBool
-propogateDigits
+propagateDigits
 )
 ;
 #
@@ -314,6 +320,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID

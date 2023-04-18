@@ -369,7 +369,7 @@ status
 ;
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -381,7 +381,7 @@ that
 )
 const
 ;
-UBool
+bool
 operator
 !
 =
@@ -1012,6 +1012,7 @@ getDynamicClassID
 void
 )
 const
+override
 =
 0
 ;

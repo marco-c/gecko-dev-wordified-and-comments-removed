@@ -102,7 +102,7 @@ that
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -113,6 +113,7 @@ ForwardCharacterIterator
 that
 )
 const
+override
 ;
 virtual
 StringCharacterIterator
@@ -121,6 +122,7 @@ clone
 (
 )
 const
+override
 ;
 void
 setText
@@ -139,6 +141,7 @@ UnicodeString
 &
 result
 )
+override
 ;
 virtual
 UClassID
@@ -147,6 +150,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 static
 UClassID

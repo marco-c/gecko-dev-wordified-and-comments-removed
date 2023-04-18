@@ -1491,7 +1491,7 @@ u_cleanup
 (
 )
 before
-exitting
+exiting
 (
 will
 attempt

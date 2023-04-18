@@ -764,7 +764,7 @@ fHeader
 ;
 }
 }
-UBool
+bool
 RBBIDataWrapper
 :
 :
@@ -790,7 +790,7 @@ fHeader
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -810,7 +810,7 @@ fLength
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -832,11 +832,11 @@ fLength
 )
 {
 return
-TRUE
+true
 ;
 }
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -1552,7 +1552,7 @@ RBBIDebugPrintf
 (
 "
 \
-nOrignal
+nOriginal
 Rules
 source
 :

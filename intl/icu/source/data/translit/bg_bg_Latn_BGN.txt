@@ -3033,7 +3033,7 @@ where
 appropriate
 for
 local
-pronounciation
+pronunciation
 .
 To
 apply

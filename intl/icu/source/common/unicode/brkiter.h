@@ -124,7 +124,7 @@ BreakIterator
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -137,7 +137,7 @@ const
 =
 0
 ;
-UBool
+bool
 operator
 !
 =
@@ -176,6 +176,7 @@ getDynamicClassID
 void
 )
 const
+override
 =
 0
 ;

@@ -95,7 +95,7 @@ UErrorCode
 ec
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -107,7 +107,7 @@ other
 )
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -330,6 +330,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 private
 :
@@ -715,7 +716,7 @@ count
 ;
 }
 inline
-UBool
+bool
 UVector32
 :
 :

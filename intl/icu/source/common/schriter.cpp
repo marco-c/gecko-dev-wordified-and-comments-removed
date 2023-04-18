@@ -281,7 +281,7 @@ return
 this
 ;
 }
-UBool
+bool
 StringCharacterIterator
 :
 :
@@ -306,7 +306,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -325,7 +325,7 @@ that
 )
 {
 return
-FALSE
+false
 ;
 }
 StringCharacterIterator

@@ -124,6 +124,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 int32_t
@@ -181,6 +182,7 @@ UBool
 escapeUnprintable
 )
 const
+override
 ;
 protected
 :
@@ -193,6 +195,7 @@ UnicodeSet
 result
 )
 const
+override
 ;
 public
 :
@@ -206,6 +209,7 @@ UnicodeSet
 result
 )
 const
+override
 ;
 protected
 :
@@ -223,6 +227,7 @@ UBool
 incremental
 )
 const
+override
 ;
 public
 :
@@ -232,6 +237,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID

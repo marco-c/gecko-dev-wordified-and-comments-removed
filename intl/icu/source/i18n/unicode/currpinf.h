@@ -91,7 +91,7 @@ CurrencyPluralInfo
 (
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -103,7 +103,7 @@ info
 )
 const
 ;
-UBool
+bool
 operator
 !
 =
@@ -198,6 +198,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID
@@ -292,7 +293,7 @@ fInternalStatus
 }
 ;
 inline
-UBool
+bool
 CurrencyPluralInfo
 :
 :

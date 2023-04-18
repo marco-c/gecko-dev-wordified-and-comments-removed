@@ -128,7 +128,7 @@ void
 *
 result
 =
-0
+nullptr
 ;
 if
 (
@@ -140,12 +140,7 @@ n
 {
 result
 =
-elementAt
-(
-n
-)
-;
-removeElementAt
+orphanElementAt
 (
 n
 )

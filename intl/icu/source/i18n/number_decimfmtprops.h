@@ -300,6 +300,9 @@ bool
 exponentSignAlwaysShown
 ;
 bool
+currencyAsDecimal
+;
+bool
 formatFailIfMoreThanMaxDigits
 ;
 int32_t

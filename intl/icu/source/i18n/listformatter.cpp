@@ -2434,6 +2434,7 @@ UErrorCode
 &
 errorCode
 )
+override
 {
 aliasedStyle
 [

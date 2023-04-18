@@ -2613,6 +2613,12 @@ rar
 rarotonga
 "
 }
+rhg
+{
+"
+rohingya
+"
+}
 rm
 {
 "

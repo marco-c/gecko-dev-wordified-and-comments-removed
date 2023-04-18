@@ -915,6 +915,8 @@ Falkland
 FM
 {
 "
+il
+-
 Mikrone
 ja
 "
@@ -1252,7 +1254,7 @@ IS
 "
 l
 -
-i
+I
 landa
 "
 }
@@ -1937,7 +1939,7 @@ SA
 "
 l
 -
-Arabia
+Arabja
 Sawdija
 "
 }
@@ -2098,9 +2100,9 @@ Sirja
 SZ
 {
 "
-is
+l
 -
-Swaziland
+Eswatini
 "
 }
 TA

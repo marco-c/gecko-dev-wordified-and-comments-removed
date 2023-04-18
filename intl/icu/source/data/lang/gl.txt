@@ -699,6 +699,12 @@ dje
 zarma
 "
 }
+doi
+{
+"
+dogri
+"
+}
 dsb
 {
 "
@@ -2122,6 +2128,12 @@ rar
 {
 "
 rarotongano
+"
+}
+rhg
+{
+"
+rohingya
 "
 }
 rm

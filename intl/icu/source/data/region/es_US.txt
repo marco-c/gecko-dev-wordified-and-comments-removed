@@ -167,13 +167,11 @@ y
 Herzegovina
 "
 }
-CI
+EH
 {
 "
-C
-te
-d
-Ivoire
+Sahara
+Occidental
 "
 }
 GG

@@ -29,9 +29,6 @@ measunit
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 U_NAMESPACE_BEGIN
 namespace
 NoUnit
@@ -86,8 +83,6 @@ getPermille
 }
 }
 U_NAMESPACE_END
-#
-endif
 #
 endif
 #

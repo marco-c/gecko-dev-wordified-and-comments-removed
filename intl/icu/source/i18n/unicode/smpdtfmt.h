@@ -223,9 +223,10 @@ clone
 (
 )
 const
+override
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -236,6 +237,7 @@ Format
 other
 )
 const
+override
 ;
 using
 DateFormat
@@ -259,6 +261,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -279,6 +282,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 using
 DateFormat
@@ -302,6 +306,7 @@ ParsePosition
 pos
 )
 const
+override
 ;
 virtual
 void
@@ -415,6 +420,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 virtual
 void
@@ -424,6 +430,7 @@ Calendar
 *
 calendarToAdopt
 )
+override
 ;
 virtual
 void
@@ -464,6 +471,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 void
 adoptNumberFormat
@@ -472,6 +480,7 @@ NumberFormat
 *
 formatToAdopt
 )
+override
 ;
 void
 adoptNumberFormat

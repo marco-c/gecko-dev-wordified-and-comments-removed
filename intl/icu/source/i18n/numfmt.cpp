@@ -1154,7 +1154,7 @@ return
 this
 ;
 }
-UBool
+bool
 NumberFormat
 :
 :
@@ -3513,6 +3513,7 @@ UErrorCode
 status
 )
 const
+override
 {
 return
 NumberFormat
@@ -3612,6 +3613,7 @@ UErrorCode
 status
 )
 const
+override
 {
 if
 (
@@ -3716,6 +3718,7 @@ UErrorCode
 status
 )
 const
+override
 {
 if
 (
@@ -3888,6 +3891,7 @@ UObject
 instance
 )
 const
+override
 {
 return
 (
@@ -3920,6 +3924,7 @@ UErrorCode
 status
 )
 const
+override
 {
 LocaleKey
 &
@@ -3971,6 +3976,7 @@ isDefault
 (
 )
 const
+override
 {
 return
 countFactories

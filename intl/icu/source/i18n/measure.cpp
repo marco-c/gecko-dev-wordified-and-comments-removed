@@ -234,7 +234,7 @@ delete
 unit
 ;
 }
-UBool
+bool
 Measure
 :
 :
@@ -259,7 +259,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -278,7 +278,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const

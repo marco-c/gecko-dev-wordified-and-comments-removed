@@ -315,6 +315,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 int32_t
@@ -329,6 +330,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 uint32_t
@@ -343,6 +345,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 const
@@ -362,6 +365,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 const
@@ -381,6 +385,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 int32_t
@@ -395,6 +400,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 const
@@ -414,6 +420,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 const
@@ -433,6 +440,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 }
 ;

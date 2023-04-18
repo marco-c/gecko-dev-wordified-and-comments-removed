@@ -139,7 +139,7 @@ ANG
 ANG
 "
 "
-Antillergulden
+antillergulden
 "
 }
 AOA
@@ -4089,13 +4089,13 @@ ANG
 one
 {
 "
-Antillergulden
+antillergulden
 "
 }
 other
 {
 "
-Antillergulden
+antillergulden
 "
 }
 }

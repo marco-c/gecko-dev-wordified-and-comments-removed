@@ -167,6 +167,7 @@ clone
 (
 )
 const
+override
 ;
 protected
 :
@@ -184,6 +185,7 @@ UBool
 isIncremental
 )
 const
+override
 ;
 public
 :
@@ -199,6 +201,7 @@ UBool
 escapeUnprintable
 )
 const
+override
 ;
 protected
 :
@@ -211,6 +214,7 @@ UnicodeSet
 result
 )
 const
+override
 ;
 public
 :
@@ -224,6 +228,7 @@ UnicodeSet
 result
 )
 const
+override
 ;
 U_I18N_API
 static
@@ -241,6 +246,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 private
 :

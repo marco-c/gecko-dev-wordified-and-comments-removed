@@ -2569,6 +2569,12 @@ rar
 rarotonganski
 "
 }
+rhg
+{
+"
+rohingja
+"
+}
 rm
 {
 "

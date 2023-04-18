@@ -224,7 +224,7 @@ Micronesiya
 061
 {
 "
-tsibiri
+Tsibiri
 "
 }
 142
@@ -976,6 +976,7 @@ McDonald
 HN
 {
 "
+Yankin
 Honduras
 "
 }
@@ -1376,7 +1377,7 @@ Malawi
 MX
 {
 "
-Makasiko
+Mesiko
 "
 }
 MY

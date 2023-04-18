@@ -195,6 +195,7 @@ clone
 (
 )
 const
+override
 ;
 void
 setGregorianChange
@@ -231,6 +232,7 @@ Calendar
 other
 )
 const
+override
 ;
 #
 ifndef
@@ -247,6 +249,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 #
 endif
@@ -262,6 +265,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 #
 ifndef
@@ -297,6 +301,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 #
 ifndef
@@ -322,6 +327,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UBool
@@ -332,6 +338,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 public
 :
@@ -342,6 +349,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 static
 UClassID
@@ -359,6 +367,7 @@ getType
 (
 )
 const
+override
 ;
 private
 :
@@ -387,6 +396,7 @@ UBool
 useMonth
 )
 const
+override
 ;
 virtual
 int32_t
@@ -395,6 +405,7 @@ handleComputeJulianDay
 UCalendarDateFields
 bestField
 )
+override
 ;
 virtual
 int32_t
@@ -406,6 +417,7 @@ int32_t
 month
 )
 const
+override
 ;
 virtual
 int32_t
@@ -415,6 +427,7 @@ int32_t
 eyear
 )
 const
+override
 ;
 virtual
 int32_t
@@ -481,12 +494,14 @@ ELimitType
 limitType
 )
 const
+override
 ;
 virtual
 int32_t
 handleGetExtendedYear
 (
 )
+override
 ;
 virtual
 int32_t
@@ -497,6 +512,7 @@ yearWoy
 int32_t
 woy
 )
+override
 ;
 virtual
 void
@@ -508,6 +524,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 private
 :
@@ -595,6 +612,7 @@ haveDefaultCentury
 (
 )
 const
+override
 ;
 virtual
 UDate
@@ -602,6 +620,7 @@ defaultCenturyStart
 (
 )
 const
+override
 ;
 virtual
 int32_t
@@ -609,6 +628,7 @@ defaultCenturyStartYear
 (
 )
 const
+override
 ;
 }
 ;

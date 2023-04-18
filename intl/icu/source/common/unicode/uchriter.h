@@ -93,7 +93,7 @@ that
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -104,6 +104,7 @@ ForwardCharacterIterator
 that
 )
 const
+override
 ;
 virtual
 int32_t
@@ -112,6 +113,7 @@ hashCode
 void
 )
 const
+override
 ;
 virtual
 UCharCharacterIterator
@@ -120,6 +122,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 char16_t
@@ -127,6 +130,7 @@ first
 (
 void
 )
+override
 ;
 virtual
 char16_t
@@ -134,6 +138,7 @@ firstPostInc
 (
 void
 )
+override
 ;
 virtual
 UChar32
@@ -141,6 +146,7 @@ first32
 (
 void
 )
+override
 ;
 virtual
 UChar32
@@ -148,6 +154,7 @@ first32PostInc
 (
 void
 )
+override
 ;
 virtual
 char16_t
@@ -155,6 +162,7 @@ last
 (
 void
 )
+override
 ;
 virtual
 UChar32
@@ -162,6 +170,7 @@ last32
 (
 void
 )
+override
 ;
 virtual
 char16_t
@@ -170,6 +179,7 @@ setIndex
 int32_t
 position
 )
+override
 ;
 virtual
 UChar32
@@ -178,6 +188,7 @@ setIndex32
 int32_t
 position
 )
+override
 ;
 virtual
 char16_t
@@ -186,6 +197,7 @@ current
 void
 )
 const
+override
 ;
 virtual
 UChar32
@@ -194,6 +206,7 @@ current32
 void
 )
 const
+override
 ;
 virtual
 char16_t
@@ -201,6 +214,7 @@ next
 (
 void
 )
+override
 ;
 virtual
 char16_t
@@ -208,6 +222,7 @@ nextPostInc
 (
 void
 )
+override
 ;
 virtual
 UChar32
@@ -215,6 +230,7 @@ next32
 (
 void
 )
+override
 ;
 virtual
 UChar32
@@ -222,12 +238,14 @@ next32PostInc
 (
 void
 )
+override
 ;
 virtual
 UBool
 hasNext
 (
 )
+override
 ;
 virtual
 char16_t
@@ -235,6 +253,7 @@ previous
 (
 void
 )
+override
 ;
 virtual
 UChar32
@@ -242,12 +261,14 @@ previous32
 (
 void
 )
+override
 ;
 virtual
 UBool
 hasPrevious
 (
 )
+override
 ;
 virtual
 int32_t
@@ -258,6 +279,7 @@ delta
 EOrigin
 origin
 )
+override
 ;
 #
 ifdef
@@ -276,6 +298,7 @@ delta
 EOrigin
 origin
 )
+override
 ;
 void
 setText
@@ -294,6 +317,7 @@ UnicodeString
 &
 result
 )
+override
 ;
 static
 UClassID
@@ -310,6 +334,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 protected
 :

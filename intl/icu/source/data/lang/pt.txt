@@ -2690,6 +2690,12 @@ rar
 rarotongano
 "
 }
+rhg
+{
+"
+ruainga
+"
+}
 rm
 {
 "
@@ -4580,7 +4586,7 @@ tica
 Zsye
 {
 "
-Emoji
+emoji
 "
 }
 Zsym

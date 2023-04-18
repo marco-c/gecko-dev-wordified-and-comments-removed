@@ -853,7 +853,7 @@ return
 this
 ;
 }
-UBool
+bool
 Formattable
 :
 :
@@ -880,7 +880,7 @@ this
 that
 )
 return
-TRUE
+true
 ;
 if
 (
@@ -892,12 +892,12 @@ that
 fType
 )
 return
-FALSE
+false
 ;
-UBool
+bool
 equal
 =
-TRUE
+true
 ;
 switch
 (
@@ -1016,7 +1016,7 @@ fCount
 {
 equal
 =
-FALSE
+false
 ;
 break
 ;
@@ -1066,7 +1066,7 @@ i
 {
 equal
 =
-FALSE
+false
 ;
 break
 ;
@@ -1099,7 +1099,7 @@ NULL
 {
 equal
 =
-FALSE
+false
 ;
 }
 else

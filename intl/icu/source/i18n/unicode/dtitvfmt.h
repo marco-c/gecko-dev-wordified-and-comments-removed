@@ -359,9 +359,10 @@ clone
 (
 )
 const
+override
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -372,8 +373,9 @@ Format
 other
 )
 const
+override
 ;
-UBool
+bool
 operator
 !
 =
@@ -411,6 +413,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 UnicodeString
 &
@@ -498,6 +501,7 @@ ParsePosition
 parse_pos
 )
 const
+override
 ;
 const
 DateIntervalInfo
@@ -558,9 +562,6 @@ TimeZone
 zone
 )
 ;
-#
-ifndef
-U_FORCE_HIDE_DRAFT_API
 virtual
 void
 setContext
@@ -584,8 +585,6 @@ status
 )
 const
 ;
-#
-endif
 static
 UClassID
 U_EXPORT2
@@ -601,6 +600,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 protected
 :
@@ -1057,7 +1057,7 @@ fCapitalizationContext
 }
 ;
 inline
-UBool
+bool
 DateIntervalFormat
 :
 :

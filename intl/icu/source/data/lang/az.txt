@@ -2027,7 +2027,8 @@ al
 mi
 {
 "
-maori
+m
+ori
 "
 }
 mic
@@ -2539,6 +2540,12 @@ rar
 {
 "
 rarotonqan
+"
+}
+rhg
+{
+"
+Rohinca
 "
 }
 rm

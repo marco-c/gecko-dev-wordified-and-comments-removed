@@ -2069,6 +2069,11 @@ rar
 "
 "
 }
+rhg
+{
+"
+"
+}
 rm
 {
 "
@@ -2795,6 +2800,11 @@ Languages
 %
 menu
 {
+ckb
+{
+"
+"
+}
 yue
 {
 "
@@ -2834,6 +2844,11 @@ Languages
 %
 variant
 {
+ckb
+{
+"
+"
+}
 ps
 {
 "

@@ -404,7 +404,7 @@ Fix
 punctuation
 #
 preserve
-orginal
+original
 \
 :
 \

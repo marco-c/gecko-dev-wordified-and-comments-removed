@@ -86,6 +86,7 @@ UBool
 useMonth
 )
 const
+override
 ;
 virtual
 int32_t
@@ -97,6 +98,7 @@ ELimitType
 limitType
 )
 const
+override
 ;
 virtual
 UBool
@@ -106,6 +108,7 @@ UErrorCode
 &
 )
 const
+override
 ;
 virtual
 UBool
@@ -113,6 +116,7 @@ haveDefaultCentury
 (
 )
 const
+override
 ;
 protected
 :

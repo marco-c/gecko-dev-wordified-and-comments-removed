@@ -1065,6 +1065,11 @@ if
 bAll
 )
 {
+UErrorCode
+status
+=
+U_ZERO_ERROR
+;
 zenum
 =
 TimeZone
@@ -1072,6 +1077,7 @@ TimeZone
 :
 createEnumeration
 (
+status
 )
 ;
 }

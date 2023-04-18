@@ -307,9 +307,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UnicodeString
 select
 (
@@ -326,8 +323,6 @@ status
 )
 const
 ;
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API
@@ -470,7 +465,7 @@ const
 #
 endif
 virtual
-UBool
+bool
 operator
 =
 =
@@ -482,7 +477,7 @@ other
 )
 const
 ;
-UBool
+bool
 operator
 !
 =
@@ -518,6 +513,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 private
 :

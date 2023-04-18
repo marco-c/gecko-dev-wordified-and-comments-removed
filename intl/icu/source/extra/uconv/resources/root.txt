@@ -1469,7 +1469,7 @@ U_ZERO_ERROR
 No
 error
 has
-occured
+occurred
 "
 }
 U_ILLEGAL_ARGUMENT_ERROR

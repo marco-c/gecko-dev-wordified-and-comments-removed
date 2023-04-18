@@ -1965,7 +1965,7 @@ delete
 listFormatter
 ;
 }
-UBool
+bool
 MeasureFormat
 :
 :
@@ -1990,7 +1990,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -2008,7 +2008,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -2037,7 +2037,7 @@ fWidth
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -2086,7 +2086,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -2102,7 +2102,7 @@ rhsLocaleId
 )
 {
 return
-FALSE
+false
 ;
 }
 }

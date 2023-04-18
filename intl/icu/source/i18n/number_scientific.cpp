@@ -419,7 +419,7 @@ void
 )
 field
 ;
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 void

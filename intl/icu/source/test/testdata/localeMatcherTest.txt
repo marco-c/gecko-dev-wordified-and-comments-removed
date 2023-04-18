@@ -2739,8 +2739,6 @@ CA
 >
 >
 en
--
-GB
 supported
 =
 de
@@ -2788,8 +2786,6 @@ CA
 >
 >
 en
--
-GB
 supported
 =
 de
@@ -9640,8 +9636,6 @@ CA
 >
 >
 en
--
-GB
 #
 fr
 -
@@ -9715,8 +9709,6 @@ CA
 >
 >
 en
--
-GB
 supported
 =
 fr
@@ -12848,14 +12840,6 @@ en
 GB
 en
 -
-CA
->
->
-en
--
-GB
-en
--
 IN
 >
 >
@@ -12916,6 +12900,14 @@ States
 fallback
 en
 -
+CA
+>
+>
+en
+-
+US
+en
+-
 US
 >
 >
@@ -12970,7 +12962,7 @@ CA
 >
 en
 -
-GB
+US
 en
 -
 IN
@@ -16256,8 +16248,6 @@ CA
 >
 >
 en
--
-GB
 favor
 =
 script
@@ -16267,8 +16257,6 @@ CA
 >
 >
 en
--
-GB
 *
 *
 test

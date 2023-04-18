@@ -3097,7 +3097,8 @@ mi
 "
 Ti
 ng
-Maori
+M
+ori
 "
 }
 mic
@@ -3838,6 +3839,14 @@ rar
 Ti
 ng
 Rarotongan
+"
+}
+rhg
+{
+"
+Ti
+ng
+Rohingya
 "
 }
 rm

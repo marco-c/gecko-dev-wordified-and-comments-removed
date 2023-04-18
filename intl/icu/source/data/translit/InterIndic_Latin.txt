@@ -597,7 +597,7 @@ Length
 Mark
 #
 urdu
-compatibity
+compatibility
 forms
 uka
 =
@@ -2649,7 +2649,7 @@ u0314
 independent
 vowels
 when
-preceeded
+preceded
 by
 vowels
 vowels

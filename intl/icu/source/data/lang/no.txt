@@ -1408,7 +1408,8 @@ mansk
 gwi
 {
 "
-gwichin
+gwich
+in
 "
 }
 ha
@@ -2891,6 +2892,12 @@ rgn
 {
 "
 romagnolsk
+"
+}
+rhg
+{
+"
+rohingya
 "
 }
 rif

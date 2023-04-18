@@ -536,7 +536,7 @@ EUR
 "
 "
 "
-euro
+Euro
 "
 }
 FJD
@@ -1809,7 +1809,7 @@ XXX
 "
 "
 "
-onbekende
+Onbekende
 geldeenheid
 "
 }

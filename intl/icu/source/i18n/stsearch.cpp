@@ -806,7 +806,7 @@ return
 this
 ;
 }
-UBool
+bool
 StringSearch
 :
 :
@@ -831,7 +831,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -889,7 +889,7 @@ collator
 ;
 }
 return
-FALSE
+false
 ;
 }
 void

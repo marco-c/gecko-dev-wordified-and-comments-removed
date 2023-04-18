@@ -357,7 +357,7 @@ removeReference
 (
 )
 ;
-UBool
+bool
 operator
 =
 =

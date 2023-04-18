@@ -201,6 +201,11 @@ hasCurrencySign
 false
 ;
 bool
+hasCurrencyDecimal
+=
+false
+;
+bool
 hasMinusSign
 =
 false
@@ -364,6 +369,13 @@ hasBody
 const
 U_OVERRIDE
 ;
+bool
+currencyAsDecimal
+(
+)
+const
+U_OVERRIDE
+;
 private
 :
 struct
@@ -420,6 +432,11 @@ this
 }
 UChar32
 peek
+(
+)
+;
+UChar32
+peek2
 (
 )
 ;
@@ -734,6 +751,8 @@ bool
 isPrefix
 PatternSignType
 patternSignType
+bool
+approximately
 StandardPlural
 :
 :

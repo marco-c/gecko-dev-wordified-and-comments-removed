@@ -383,7 +383,7 @@ void
 )
 const
 ;
-UBool
+bool
 operator
 =
 =
@@ -396,7 +396,7 @@ that
 const
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -515,6 +515,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 #
 endif
@@ -591,7 +592,7 @@ bufferPos
 ifndef
 U_HIDE_DEPRECATED_API
 inline
-UBool
+bool
 Normalizer
 :
 :

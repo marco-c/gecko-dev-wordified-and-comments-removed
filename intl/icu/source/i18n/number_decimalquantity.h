@@ -245,6 +245,11 @@ int32_t
 delta
 )
 ;
+void
+resetExponent
+(
+)
+;
 bool
 isZeroish
 (

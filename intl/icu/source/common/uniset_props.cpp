@@ -2500,6 +2500,10 @@ invert
 complement
 (
 )
+.
+removeAllStrings
+(
+)
 ;
 }
 if
@@ -3297,6 +3301,10 @@ value
 )
 {
 complement
+(
+)
+.
+removeAllStrings
 (
 )
 ;
@@ -4127,6 +4135,10 @@ invert
 complement
 (
 )
+.
+removeAllStrings
+(
+)
 ;
 }
 if
@@ -4784,6 +4796,10 @@ invert
 )
 {
 complement
+(
+)
+.
+removeAllStrings
 (
 )
 ;

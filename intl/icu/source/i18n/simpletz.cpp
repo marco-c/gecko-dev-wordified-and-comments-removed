@@ -731,7 +731,7 @@ return
 this
 ;
 }
-UBool
+bool
 SimpleTimeZone
 :
 :

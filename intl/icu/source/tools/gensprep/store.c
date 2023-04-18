@@ -1565,7 +1565,8 @@ put
 entries
 into
 the
-hastable
+hash
+table
 .
 Error
 :

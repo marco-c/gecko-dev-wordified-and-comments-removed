@@ -46,6 +46,7 @@ getName
 (
 )
 const
+override
 ;
 UBool
 match
@@ -58,6 +59,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;

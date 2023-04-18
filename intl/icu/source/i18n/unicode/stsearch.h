@@ -180,7 +180,7 @@ that
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -191,6 +191,7 @@ SearchIterator
 that
 )
 const
+override
 ;
 virtual
 void
@@ -202,6 +203,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 int32_t
@@ -210,6 +212,7 @@ getOffset
 void
 )
 const
+override
 ;
 virtual
 void
@@ -223,6 +226,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -235,6 +239,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 RuleBasedCollator
 *
@@ -279,6 +284,7 @@ void
 reset
 (
 )
+override
 ;
 virtual
 StringSearch
@@ -287,6 +293,7 @@ safeClone
 (
 )
 const
+override
 ;
 virtual
 UClassID
@@ -294,6 +301,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 static
 UClassID
@@ -314,6 +322,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 int32_t
@@ -325,6 +334,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 private
 :

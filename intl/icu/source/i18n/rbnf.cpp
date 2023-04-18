@@ -385,7 +385,7 @@ NULL
 ;
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -398,7 +398,7 @@ rhs
 const
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -563,7 +563,7 @@ return
 FALSE
 ;
 }
-UBool
+bool
 LocalizationInfo
 :
 :
@@ -592,7 +592,7 @@ rhs
 )
 {
 return
-TRUE
+true
 ;
 }
 int32_t
@@ -651,7 +651,7 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -729,7 +729,7 @@ ix
 )
 {
 return
-FALSE
+false
 ;
 }
 for
@@ -770,19 +770,19 @@ j
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 }
 return
-TRUE
+true
 ;
 }
 }
 }
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -1325,6 +1325,7 @@ getNumberOfRuleSets
 void
 )
 const
+override
 {
 return
 numRuleSets
@@ -1340,6 +1341,7 @@ int32_t
 index
 )
 const
+override
 ;
 virtual
 int32_t
@@ -1348,6 +1350,7 @@ getNumberOfDisplayLocales
 void
 )
 const
+override
 {
 return
 numLocales
@@ -1363,6 +1366,7 @@ int32_t
 index
 )
 const
+override
 ;
 virtual
 const
@@ -1376,6 +1380,7 @@ int32_t
 ruleIndex
 )
 const
+override
 ;
 private
 :
@@ -4597,7 +4602,7 @@ this
 )
 ;
 }
-UBool
+bool
 RuleBasedNumberFormat
 :
 :
@@ -4622,7 +4627,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -4691,7 +4696,7 @@ localizations
 =
 NULL
 ?
-FALSE
+false
 :
 *
 localizations
@@ -4745,7 +4750,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 while
@@ -4796,7 +4801,7 @@ NULL
 }
 }
 return
-FALSE
+false
 ;
 }
 UnicodeString

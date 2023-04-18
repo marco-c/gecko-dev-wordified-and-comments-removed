@@ -1659,7 +1659,7 @@ MGF
 MGF
 "
 "
-Madagaskar
+Madagaskari
 frank
 "
 }
@@ -6061,7 +6061,7 @@ MGF
 one
 {
 "
-Madagaskar
+Madagaskari
 frank
 "
 }

@@ -65,7 +65,6 @@ Abidjan
 ec
 {
 "
-Abidjan
 "
 }
 }
@@ -78,7 +77,6 @@ Accra
 ec
 {
 "
-Accra
 "
 }
 }
@@ -91,8 +89,6 @@ Addis_Ababa
 ec
 {
 "
-Addis
-Ababa
 "
 }
 }
@@ -105,7 +101,6 @@ Algiers
 ec
 {
 "
-Algiers
 "
 }
 }
@@ -118,7 +113,6 @@ Asmera
 ec
 {
 "
-Asmara
 "
 }
 }
@@ -131,7 +125,6 @@ Bamako
 ec
 {
 "
-Bamako
 "
 }
 }
@@ -144,7 +137,6 @@ Bangui
 ec
 {
 "
-Bangui
 "
 }
 }
@@ -157,7 +149,6 @@ Banjul
 ec
 {
 "
-Banjul
 "
 }
 }
@@ -170,7 +161,6 @@ Bissau
 ec
 {
 "
-Bissau
 "
 }
 }
@@ -183,7 +173,6 @@ Blantyre
 ec
 {
 "
-Blantyre
 "
 }
 }
@@ -196,7 +185,6 @@ Brazzaville
 ec
 {
 "
-Brazzaville
 "
 }
 }
@@ -209,7 +197,6 @@ Bujumbura
 ec
 {
 "
-Bujumbura
 "
 }
 }
@@ -222,7 +209,6 @@ Cairo
 ec
 {
 "
-Cairo
 "
 }
 }
@@ -235,7 +221,6 @@ Casablanca
 ec
 {
 "
-Casablanca
 "
 }
 }
@@ -248,7 +233,6 @@ Ceuta
 ec
 {
 "
-Ceuta
 "
 }
 }
@@ -261,7 +245,6 @@ Conakry
 ec
 {
 "
-Conakry
 "
 }
 }
@@ -274,7 +257,6 @@ Dakar
 ec
 {
 "
-Dakar
 "
 }
 }
@@ -287,9 +269,6 @@ Dar_es_Salaam
 ec
 {
 "
-Dar
-es
-Salaam
 "
 }
 }
@@ -302,7 +281,6 @@ Djibouti
 ec
 {
 "
-Djibouti
 "
 }
 }
@@ -315,7 +293,6 @@ Douala
 ec
 {
 "
-Douala
 "
 }
 }
@@ -328,8 +305,6 @@ El_Aaiun
 ec
 {
 "
-El
-Aaiun
 "
 }
 }
@@ -342,7 +317,6 @@ Freetown
 ec
 {
 "
-Freetown
 "
 }
 }
@@ -355,7 +329,6 @@ Gaborone
 ec
 {
 "
-Gaborone
 "
 }
 }
@@ -368,7 +341,6 @@ Harare
 ec
 {
 "
-Harare
 "
 }
 }
@@ -381,7 +353,6 @@ Johannesburg
 ec
 {
 "
-Johannesburg
 "
 }
 }
@@ -394,7 +365,6 @@ Juba
 ec
 {
 "
-Juba
 "
 }
 }
@@ -407,7 +377,6 @@ Kampala
 ec
 {
 "
-Kampala
 "
 }
 }
@@ -420,7 +389,6 @@ Khartoum
 ec
 {
 "
-Khartoum
 "
 }
 }
@@ -433,7 +401,6 @@ Kigali
 ec
 {
 "
-Kigali
 "
 }
 }
@@ -446,7 +413,6 @@ Kinshasa
 ec
 {
 "
-Kinshasa
 "
 }
 }
@@ -459,7 +425,6 @@ Lagos
 ec
 {
 "
-Lagos
 "
 }
 }
@@ -472,7 +437,6 @@ Libreville
 ec
 {
 "
-Libreville
 "
 }
 }
@@ -485,7 +449,6 @@ Lome
 ec
 {
 "
-Lome
 "
 }
 }
@@ -498,7 +461,6 @@ Luanda
 ec
 {
 "
-Luanda
 "
 }
 }
@@ -511,7 +473,6 @@ Lubumbashi
 ec
 {
 "
-Lubumbashi
 "
 }
 }
@@ -524,7 +485,6 @@ Lusaka
 ec
 {
 "
-Lusaka
 "
 }
 }
@@ -537,7 +497,6 @@ Malabo
 ec
 {
 "
-Malabo
 "
 }
 }
@@ -550,7 +509,6 @@ Maputo
 ec
 {
 "
-Maputo
 "
 }
 }
@@ -563,7 +521,6 @@ Maseru
 ec
 {
 "
-Maseru
 "
 }
 }
@@ -576,7 +533,6 @@ Mbabane
 ec
 {
 "
-Mbabane
 "
 }
 }
@@ -589,7 +545,6 @@ Mogadishu
 ec
 {
 "
-Mogadishu
 "
 }
 }
@@ -602,7 +557,6 @@ Monrovia
 ec
 {
 "
-Monrovia
 "
 }
 }
@@ -615,7 +569,6 @@ Nairobi
 ec
 {
 "
-Nairobi
 "
 }
 }
@@ -628,7 +581,6 @@ Ndjamena
 ec
 {
 "
-Ndjamena
 "
 }
 }
@@ -641,7 +593,6 @@ Niamey
 ec
 {
 "
-Niamey
 "
 }
 }
@@ -654,7 +605,6 @@ Nouakchott
 ec
 {
 "
-Nouakchott
 "
 }
 }
@@ -667,7 +617,6 @@ Ouagadougou
 ec
 {
 "
-Ouagadougou
 "
 }
 }
@@ -682,9 +631,6 @@ Novo
 ec
 {
 "
-Porto
--
-Novo
 "
 }
 }
@@ -697,8 +643,6 @@ Sao_Tome
 ec
 {
 "
-Sao
-Tome
 "
 }
 }
@@ -711,7 +655,6 @@ Tripoli
 ec
 {
 "
-Tripoli
 "
 }
 }
@@ -724,7 +667,6 @@ Tunis
 ec
 {
 "
-Tunis
 "
 }
 }
@@ -737,7 +679,6 @@ Windhoek
 ec
 {
 "
-Windhoek
 "
 }
 }
@@ -750,7 +691,6 @@ Adak
 ec
 {
 "
-Adak
 "
 }
 }
@@ -763,7 +703,6 @@ Anchorage
 ec
 {
 "
-Anchorage
 "
 }
 }
@@ -776,7 +715,6 @@ Anguilla
 ec
 {
 "
-Anguilla
 "
 }
 }
@@ -789,7 +727,6 @@ Antigua
 ec
 {
 "
-Antigua
 "
 }
 }
@@ -802,7 +739,6 @@ Araguaina
 ec
 {
 "
-Araguaina
 "
 }
 }
@@ -817,8 +753,6 @@ La_Rioja
 ec
 {
 "
-La
-Rioja
 "
 }
 }
@@ -833,8 +767,6 @@ Rio_Gallegos
 ec
 {
 "
-Rio
-Gallegos
 "
 }
 }
@@ -849,7 +781,6 @@ Salta
 ec
 {
 "
-Salta
 "
 }
 }
@@ -864,8 +795,6 @@ San_Juan
 ec
 {
 "
-San
-Juan
 "
 }
 }
@@ -880,8 +809,6 @@ San_Luis
 ec
 {
 "
-San
-Luis
 "
 }
 }
@@ -896,7 +823,6 @@ Tucuman
 ec
 {
 "
-Tucuman
 "
 }
 }
@@ -911,7 +837,6 @@ Ushuaia
 ec
 {
 "
-Ushuaia
 "
 }
 }
@@ -924,7 +849,6 @@ Aruba
 ec
 {
 "
-Aruba
 "
 }
 }
@@ -937,7 +861,6 @@ Asuncion
 ec
 {
 "
-Asuncion
 "
 }
 }
@@ -950,7 +873,6 @@ Bahia
 ec
 {
 "
-Bahia
 "
 }
 }
@@ -963,8 +885,6 @@ Bahia_Banderas
 ec
 {
 "
-Bahia
-Banderas
 "
 }
 }
@@ -977,7 +897,6 @@ Barbados
 ec
 {
 "
-Barbados
 "
 }
 }
@@ -990,7 +909,6 @@ Belem
 ec
 {
 "
-Belem
 "
 }
 }
@@ -1003,7 +921,6 @@ Belize
 ec
 {
 "
-Belize
 "
 }
 }
@@ -1018,9 +935,7 @@ Sablon
 ec
 {
 "
-Blanc
 -
-Sablon
 "
 }
 }
@@ -1033,8 +948,6 @@ Boa_Vista
 ec
 {
 "
-Boa
-Vista
 "
 }
 }
@@ -1047,7 +960,6 @@ Bogota
 ec
 {
 "
-Bogota
 "
 }
 }
@@ -1060,7 +972,6 @@ Boise
 ec
 {
 "
-Boise
 "
 }
 }
@@ -1073,8 +984,6 @@ Buenos_Aires
 ec
 {
 "
-Buenos
-Aires
 "
 }
 }
@@ -1087,8 +996,6 @@ Cambridge_Bay
 ec
 {
 "
-Cambridge
-Bay
 "
 }
 }
@@ -1101,8 +1008,6 @@ Campo_Grande
 ec
 {
 "
-Campo
-Grande
 "
 }
 }
@@ -1115,7 +1020,6 @@ Cancun
 ec
 {
 "
-Cancun
 "
 }
 }
@@ -1128,7 +1032,6 @@ Caracas
 ec
 {
 "
-Caracas
 "
 }
 }
@@ -1141,7 +1044,6 @@ Catamarca
 ec
 {
 "
-Catamarca
 "
 }
 }
@@ -1154,7 +1056,6 @@ Cayenne
 ec
 {
 "
-Cayenne
 "
 }
 }
@@ -1167,7 +1068,6 @@ Cayman
 ec
 {
 "
-Cayman
 "
 }
 }
@@ -1180,7 +1080,6 @@ Chicago
 ec
 {
 "
-Chicago
 "
 }
 }
@@ -1193,7 +1092,6 @@ Chihuahua
 ec
 {
 "
-Chihuahua
 "
 }
 }
@@ -1206,7 +1104,6 @@ Coral_Harbour
 ec
 {
 "
-Atikokan
 "
 }
 }
@@ -1219,7 +1116,6 @@ Cordoba
 ec
 {
 "
-Cordoba
 "
 }
 }
@@ -1232,8 +1128,6 @@ Costa_Rica
 ec
 {
 "
-Costa
-Rica
 "
 }
 }
@@ -1246,7 +1140,6 @@ Creston
 ec
 {
 "
-Creston
 "
 }
 }
@@ -1259,7 +1152,6 @@ Cuiaba
 ec
 {
 "
-Cuiaba
 "
 }
 }
@@ -1272,7 +1164,6 @@ Curacao
 ec
 {
 "
-Curacao
 "
 }
 }
@@ -1285,7 +1176,6 @@ Danmarkshavn
 ec
 {
 "
-Danmarkshavn
 "
 }
 }
@@ -1298,7 +1188,6 @@ Dawson
 ec
 {
 "
-Dawson
 "
 }
 }
@@ -1311,8 +1200,6 @@ Dawson_Creek
 ec
 {
 "
-Dawson
-Creek
 "
 }
 }
@@ -1325,7 +1212,6 @@ Denver
 ec
 {
 "
-Denver
 "
 }
 }
@@ -1338,7 +1224,6 @@ Detroit
 ec
 {
 "
-Detroit
 "
 }
 }
@@ -1351,7 +1236,6 @@ Dominica
 ec
 {
 "
-Dominica
 "
 }
 }
@@ -1364,7 +1248,6 @@ Edmonton
 ec
 {
 "
-Edmonton
 "
 }
 }
@@ -1377,7 +1260,6 @@ Eirunepe
 ec
 {
 "
-Eirunepe
 "
 }
 }
@@ -1390,8 +1272,6 @@ El_Salvador
 ec
 {
 "
-El
-Salvador
 "
 }
 }
@@ -1404,8 +1284,6 @@ Fort_Nelson
 ec
 {
 "
-Fort
-Nelson
 "
 }
 }
@@ -1418,7 +1296,6 @@ Fortaleza
 ec
 {
 "
-Fortaleza
 "
 }
 }
@@ -1431,8 +1308,6 @@ Glace_Bay
 ec
 {
 "
-Glace
-Bay
 "
 }
 }
@@ -1445,7 +1320,6 @@ Godthab
 ec
 {
 "
-Nuuk
 "
 }
 }
@@ -1458,8 +1332,6 @@ Goose_Bay
 ec
 {
 "
-Goose
-Bay
 "
 }
 }
@@ -1472,8 +1344,6 @@ Grand_Turk
 ec
 {
 "
-Grand
-Turk
 "
 }
 }
@@ -1486,7 +1356,6 @@ Grenada
 ec
 {
 "
-Grenada
 "
 }
 }
@@ -1499,7 +1368,6 @@ Guadeloupe
 ec
 {
 "
-Guadeloupe
 "
 }
 }
@@ -1512,7 +1380,6 @@ Guatemala
 ec
 {
 "
-Guatemala
 "
 }
 }
@@ -1525,7 +1392,6 @@ Guayaquil
 ec
 {
 "
-Guayaquil
 "
 }
 }
@@ -1538,7 +1404,6 @@ Guyana
 ec
 {
 "
-Guyana
 "
 }
 }
@@ -1551,7 +1416,6 @@ Halifax
 ec
 {
 "
-Halifax
 "
 }
 }
@@ -1564,7 +1428,6 @@ Havana
 ec
 {
 "
-Havana
 "
 }
 }
@@ -1577,7 +1440,6 @@ Hermosillo
 ec
 {
 "
-Hermosillo
 "
 }
 }
@@ -1592,8 +1454,6 @@ Knox
 ec
 {
 "
-Knox
-Indiana
 "
 }
 }
@@ -1608,8 +1468,6 @@ Marengo
 ec
 {
 "
-Marengo
-Indiana
 "
 }
 }
@@ -1624,8 +1482,6 @@ Petersburg
 ec
 {
 "
-Petersburg
-Indiana
 "
 }
 }
@@ -1640,9 +1496,6 @@ Tell_City
 ec
 {
 "
-Tell
-City
-Indiana
 "
 }
 }
@@ -1657,8 +1510,6 @@ Vevay
 ec
 {
 "
-Vevay
-Indiana
 "
 }
 }
@@ -1673,8 +1524,6 @@ Vincennes
 ec
 {
 "
-Vincennes
-Indiana
 "
 }
 }
@@ -1689,8 +1538,6 @@ Winamac
 ec
 {
 "
-Winamac
-Indiana
 "
 }
 }
@@ -1703,7 +1550,6 @@ Indianapolis
 ec
 {
 "
-Indianapolis
 "
 }
 }
@@ -1716,7 +1562,6 @@ Inuvik
 ec
 {
 "
-Inuvik
 "
 }
 }
@@ -1729,7 +1574,6 @@ Iqaluit
 ec
 {
 "
-Iqaluit
 "
 }
 }
@@ -1742,7 +1586,6 @@ Jamaica
 ec
 {
 "
-Jamaica
 "
 }
 }
@@ -1755,7 +1598,6 @@ Jujuy
 ec
 {
 "
-Jujuy
 "
 }
 }
@@ -1768,7 +1610,6 @@ Juneau
 ec
 {
 "
-Juneau
 "
 }
 }
@@ -1783,8 +1624,6 @@ Monticello
 ec
 {
 "
-Monticello
-Kentucky
 "
 }
 }
@@ -1797,7 +1636,6 @@ Kralendijk
 ec
 {
 "
-Kralendijk
 "
 }
 }
@@ -1810,8 +1648,6 @@ La_Paz
 ec
 {
 "
-La
-Paz
 "
 }
 }
@@ -1824,7 +1660,6 @@ Lima
 ec
 {
 "
-Lima
 "
 }
 }
@@ -1837,8 +1672,6 @@ Los_Angeles
 ec
 {
 "
-Los
-Angeles
 "
 }
 }
@@ -1851,7 +1684,6 @@ Louisville
 ec
 {
 "
-Louisville
 "
 }
 }
@@ -1864,10 +1696,6 @@ Lower_Princes
 ec
 {
 "
-Lower
-Prince
-s
-Quarter
 "
 }
 }
@@ -1880,7 +1708,6 @@ Maceio
 ec
 {
 "
-Maceio
 "
 }
 }
@@ -1893,7 +1720,6 @@ Managua
 ec
 {
 "
-Managua
 "
 }
 }
@@ -1906,7 +1732,6 @@ Manaus
 ec
 {
 "
-Manaus
 "
 }
 }
@@ -1919,7 +1744,6 @@ Marigot
 ec
 {
 "
-Marigot
 "
 }
 }
@@ -1932,7 +1756,6 @@ Martinique
 ec
 {
 "
-Martinique
 "
 }
 }
@@ -1945,7 +1768,6 @@ Matamoros
 ec
 {
 "
-Matamoros
 "
 }
 }
@@ -1958,7 +1780,6 @@ Mazatlan
 ec
 {
 "
-Mazatlan
 "
 }
 }
@@ -1971,7 +1792,6 @@ Mendoza
 ec
 {
 "
-Mendoza
 "
 }
 }
@@ -1984,7 +1804,6 @@ Menominee
 ec
 {
 "
-Menominee
 "
 }
 }
@@ -1997,7 +1816,6 @@ Merida
 ec
 {
 "
-Merida
 "
 }
 }
@@ -2010,7 +1828,6 @@ Metlakatla
 ec
 {
 "
-Metlakatla
 "
 }
 }
@@ -2023,8 +1840,6 @@ Mexico_City
 ec
 {
 "
-Mexico
-City
 "
 }
 }
@@ -2037,7 +1852,6 @@ Miquelon
 ec
 {
 "
-Miquelon
 "
 }
 }
@@ -2050,7 +1864,6 @@ Moncton
 ec
 {
 "
-Moncton
 "
 }
 }
@@ -2063,7 +1876,6 @@ Monterrey
 ec
 {
 "
-Monterrey
 "
 }
 }
@@ -2076,7 +1888,6 @@ Montevideo
 ec
 {
 "
-Montevideo
 "
 }
 }
@@ -2089,7 +1900,6 @@ Montserrat
 ec
 {
 "
-Montserrat
 "
 }
 }
@@ -2102,7 +1912,6 @@ Nassau
 ec
 {
 "
-Nassau
 "
 }
 }
@@ -2115,8 +1924,6 @@ New_York
 ec
 {
 "
-New
-York
 "
 }
 }
@@ -2129,7 +1936,6 @@ Nipigon
 ec
 {
 "
-Nipigon
 "
 }
 }
@@ -2142,7 +1948,6 @@ Nome
 ec
 {
 "
-Nome
 "
 }
 }
@@ -2155,7 +1960,6 @@ Noronha
 ec
 {
 "
-Noronha
 "
 }
 }
@@ -2170,9 +1974,6 @@ Beulah
 ec
 {
 "
-Beulah
-North
-Dakota
 "
 }
 }
@@ -2187,9 +1988,6 @@ Center
 ec
 {
 "
-Center
-North
-Dakota
 "
 }
 }
@@ -2204,10 +2002,6 @@ New_Salem
 ec
 {
 "
-New
-Salem
-North
-Dakota
 "
 }
 }
@@ -2220,7 +2014,6 @@ Ojinaga
 ec
 {
 "
-Ojinaga
 "
 }
 }
@@ -2233,7 +2026,6 @@ Panama
 ec
 {
 "
-Panama
 "
 }
 }
@@ -2246,7 +2038,6 @@ Pangnirtung
 ec
 {
 "
-Pangnirtung
 "
 }
 }
@@ -2259,7 +2050,6 @@ Paramaribo
 ec
 {
 "
-Paramaribo
 "
 }
 }
@@ -2272,7 +2062,6 @@ Phoenix
 ec
 {
 "
-Phoenix
 "
 }
 }
@@ -2289,11 +2078,8 @@ Prince
 ec
 {
 "
-Port
 -
-au
 -
-Prince
 "
 }
 }
@@ -2306,9 +2092,6 @@ Port_of_Spain
 ec
 {
 "
-Port
-of
-Spain
 "
 }
 }
@@ -2321,8 +2104,6 @@ Porto_Velho
 ec
 {
 "
-Porto
-Velho
 "
 }
 }
@@ -2335,8 +2116,6 @@ Puerto_Rico
 ec
 {
 "
-Puerto
-Rico
 "
 }
 }
@@ -2349,8 +2128,6 @@ Punta_Arenas
 ec
 {
 "
-Punta
-Arenas
 "
 }
 }
@@ -2363,8 +2140,6 @@ Rainy_River
 ec
 {
 "
-Rainy
-River
 "
 }
 }
@@ -2377,8 +2152,6 @@ Rankin_Inlet
 ec
 {
 "
-Rankin
-Inlet
 "
 }
 }
@@ -2391,7 +2164,6 @@ Recife
 ec
 {
 "
-Recife
 "
 }
 }
@@ -2404,7 +2176,6 @@ Regina
 ec
 {
 "
-Regina
 "
 }
 }
@@ -2417,7 +2188,6 @@ Resolute
 ec
 {
 "
-Resolute
 "
 }
 }
@@ -2430,8 +2200,6 @@ Rio_Branco
 ec
 {
 "
-Rio
-Branco
 "
 }
 }
@@ -2444,7 +2212,6 @@ Santarem
 ec
 {
 "
-Santarem
 "
 }
 }
@@ -2457,7 +2224,6 @@ Santiago
 ec
 {
 "
-Santiago
 "
 }
 }
@@ -2470,8 +2236,6 @@ Santo_Domingo
 ec
 {
 "
-Santo
-Domingo
 "
 }
 }
@@ -2484,8 +2248,6 @@ Sao_Paulo
 ec
 {
 "
-Sao
-Paulo
 "
 }
 }
@@ -2498,7 +2260,6 @@ Scoresbysund
 ec
 {
 "
-Ittoqqortoormiit
 "
 }
 }
@@ -2511,7 +2272,6 @@ Sitka
 ec
 {
 "
-Sitka
 "
 }
 }
@@ -2524,9 +2284,6 @@ St_Barthelemy
 ec
 {
 "
-St
-.
-Barthelemy
 "
 }
 }
@@ -2539,10 +2296,6 @@ St_Johns
 ec
 {
 "
-St
-.
-John
-s
 "
 }
 }
@@ -2555,9 +2308,6 @@ St_Kitts
 ec
 {
 "
-St
-.
-Kitts
 "
 }
 }
@@ -2570,9 +2320,6 @@ St_Lucia
 ec
 {
 "
-St
-.
-Lucia
 "
 }
 }
@@ -2585,9 +2332,6 @@ St_Thomas
 ec
 {
 "
-St
-.
-Thomas
 "
 }
 }
@@ -2600,9 +2344,6 @@ St_Vincent
 ec
 {
 "
-St
-.
-Vincent
 "
 }
 }
@@ -2615,8 +2356,6 @@ Swift_Current
 ec
 {
 "
-Swift
-Current
 "
 }
 }
@@ -2629,7 +2368,6 @@ Tegucigalpa
 ec
 {
 "
-Tegucigalpa
 "
 }
 }
@@ -2642,7 +2380,6 @@ Thule
 ec
 {
 "
-Thule
 "
 }
 }
@@ -2655,8 +2392,6 @@ Thunder_Bay
 ec
 {
 "
-Thunder
-Bay
 "
 }
 }
@@ -2669,7 +2404,6 @@ Tijuana
 ec
 {
 "
-Tijuana
 "
 }
 }
@@ -2682,7 +2416,6 @@ Toronto
 ec
 {
 "
-Toronto
 "
 }
 }
@@ -2695,7 +2428,6 @@ Tortola
 ec
 {
 "
-Tortola
 "
 }
 }
@@ -2708,7 +2440,6 @@ Vancouver
 ec
 {
 "
-Vancouver
 "
 }
 }
@@ -2721,7 +2452,6 @@ Whitehorse
 ec
 {
 "
-Whitehorse
 "
 }
 }
@@ -2734,7 +2464,6 @@ Winnipeg
 ec
 {
 "
-Winnipeg
 "
 }
 }
@@ -2747,7 +2476,6 @@ Yakutat
 ec
 {
 "
-Yakutat
 "
 }
 }
@@ -2760,7 +2488,6 @@ Yellowknife
 ec
 {
 "
-Yellowknife
 "
 }
 }
@@ -2773,7 +2500,6 @@ Casey
 ec
 {
 "
-Casey
 "
 }
 }
@@ -2786,7 +2512,6 @@ Davis
 ec
 {
 "
-Davis
 "
 }
 }
@@ -2799,9 +2524,6 @@ DumontDUrville
 ec
 {
 "
-Dumont
-d
-Urville
 "
 }
 }
@@ -2814,7 +2536,6 @@ Macquarie
 ec
 {
 "
-Macquarie
 "
 }
 }
@@ -2827,7 +2548,6 @@ Mawson
 ec
 {
 "
-Mawson
 "
 }
 }
@@ -2840,7 +2560,6 @@ McMurdo
 ec
 {
 "
-McMurdo
 "
 }
 }
@@ -2853,7 +2572,6 @@ Palmer
 ec
 {
 "
-Palmer
 "
 }
 }
@@ -2866,7 +2584,6 @@ Rothera
 ec
 {
 "
-Rothera
 "
 }
 }
@@ -2879,7 +2596,6 @@ Syowa
 ec
 {
 "
-Syowa
 "
 }
 }
@@ -2892,7 +2608,6 @@ Troll
 ec
 {
 "
-Troll
 "
 }
 }
@@ -2905,7 +2620,6 @@ Vostok
 ec
 {
 "
-Vostok
 "
 }
 }
@@ -2918,7 +2632,6 @@ Longyearbyen
 ec
 {
 "
-Longyearbyen
 "
 }
 }
@@ -2931,7 +2644,6 @@ Aden
 ec
 {
 "
-Aden
 "
 }
 }
@@ -2944,7 +2656,6 @@ Almaty
 ec
 {
 "
-Almaty
 "
 }
 }
@@ -2957,7 +2668,6 @@ Amman
 ec
 {
 "
-Amman
 "
 }
 }
@@ -2970,7 +2680,6 @@ Anadyr
 ec
 {
 "
-Anadyr
 "
 }
 }
@@ -2983,7 +2692,6 @@ Aqtau
 ec
 {
 "
-Aqtau
 "
 }
 }
@@ -2996,7 +2704,6 @@ Aqtobe
 ec
 {
 "
-Aqtobe
 "
 }
 }
@@ -3009,7 +2716,6 @@ Ashgabat
 ec
 {
 "
-Ashgabat
 "
 }
 }
@@ -3022,7 +2728,6 @@ Atyrau
 ec
 {
 "
-Atyrau
 "
 }
 }
@@ -3035,7 +2740,6 @@ Baghdad
 ec
 {
 "
-Baghdad
 "
 }
 }
@@ -3048,7 +2752,6 @@ Bahrain
 ec
 {
 "
-Bahrain
 "
 }
 }
@@ -3061,7 +2764,6 @@ Baku
 ec
 {
 "
-Baku
 "
 }
 }
@@ -3074,7 +2776,6 @@ Bangkok
 ec
 {
 "
-Bangkok
 "
 }
 }
@@ -3087,7 +2788,6 @@ Barnaul
 ec
 {
 "
-Barnaul
 "
 }
 }
@@ -3100,7 +2800,6 @@ Beirut
 ec
 {
 "
-Beirut
 "
 }
 }
@@ -3113,7 +2812,6 @@ Bishkek
 ec
 {
 "
-Bishkek
 "
 }
 }
@@ -3126,7 +2824,6 @@ Brunei
 ec
 {
 "
-Brunei
 "
 }
 }
@@ -3139,7 +2836,6 @@ Calcutta
 ec
 {
 "
-Kolkata
 "
 }
 }
@@ -3152,7 +2848,6 @@ Chita
 ec
 {
 "
-Chita
 "
 }
 }
@@ -3165,7 +2860,6 @@ Choibalsan
 ec
 {
 "
-Choibalsan
 "
 }
 }
@@ -3178,7 +2872,6 @@ Colombo
 ec
 {
 "
-Colombo
 "
 }
 }
@@ -3191,7 +2884,6 @@ Damascus
 ec
 {
 "
-Damascus
 "
 }
 }
@@ -3204,7 +2896,6 @@ Dhaka
 ec
 {
 "
-Dhaka
 "
 }
 }
@@ -3217,7 +2908,6 @@ Dili
 ec
 {
 "
-Dili
 "
 }
 }
@@ -3230,7 +2920,6 @@ Dubai
 ec
 {
 "
-Dubai
 "
 }
 }
@@ -3243,7 +2932,6 @@ Dushanbe
 ec
 {
 "
-Dushanbe
 "
 }
 }
@@ -3256,7 +2944,6 @@ Famagusta
 ec
 {
 "
-Famagusta
 "
 }
 }
@@ -3269,7 +2956,6 @@ Gaza
 ec
 {
 "
-Gaza
 "
 }
 }
@@ -3282,7 +2968,6 @@ Hebron
 ec
 {
 "
-Hebron
 "
 }
 }
@@ -3295,8 +2980,6 @@ Hong_Kong
 ec
 {
 "
-Hong
-Kong
 "
 }
 }
@@ -3309,7 +2992,6 @@ Hovd
 ec
 {
 "
-Hovd
 "
 }
 }
@@ -3322,7 +3004,6 @@ Irkutsk
 ec
 {
 "
-Irkutsk
 "
 }
 }
@@ -3335,7 +3016,6 @@ Jakarta
 ec
 {
 "
-Jakarta
 "
 }
 }
@@ -3348,7 +3028,6 @@ Jayapura
 ec
 {
 "
-Jayapura
 "
 }
 }
@@ -3361,7 +3040,6 @@ Jerusalem
 ec
 {
 "
-Jerusalem
 "
 }
 }
@@ -3374,7 +3052,6 @@ Kabul
 ec
 {
 "
-Kabul
 "
 }
 }
@@ -3387,7 +3064,6 @@ Kamchatka
 ec
 {
 "
-Kamchatka
 "
 }
 }
@@ -3400,7 +3076,6 @@ Karachi
 ec
 {
 "
-Karachi
 "
 }
 }
@@ -3413,7 +3088,6 @@ Katmandu
 ec
 {
 "
-Kathmandu
 "
 }
 }
@@ -3426,7 +3100,6 @@ Khandyga
 ec
 {
 "
-Khandyga
 "
 }
 }
@@ -3439,7 +3112,6 @@ Krasnoyarsk
 ec
 {
 "
-Krasnoyarsk
 "
 }
 }
@@ -3452,8 +3124,6 @@ Kuala_Lumpur
 ec
 {
 "
-Kuala
-Lumpur
 "
 }
 }
@@ -3466,7 +3136,6 @@ Kuching
 ec
 {
 "
-Kuching
 "
 }
 }
@@ -3479,7 +3148,6 @@ Kuwait
 ec
 {
 "
-Kuwait
 "
 }
 }
@@ -3492,7 +3160,6 @@ Macau
 ec
 {
 "
-Macau
 "
 }
 }
@@ -3505,7 +3172,6 @@ Magadan
 ec
 {
 "
-Magadan
 "
 }
 }
@@ -3518,7 +3184,6 @@ Makassar
 ec
 {
 "
-Makassar
 "
 }
 }
@@ -3531,7 +3196,6 @@ Manila
 ec
 {
 "
-Manila
 "
 }
 }
@@ -3544,7 +3208,6 @@ Muscat
 ec
 {
 "
-Muscat
 "
 }
 }
@@ -3557,7 +3220,6 @@ Nicosia
 ec
 {
 "
-Nicosia
 "
 }
 }
@@ -3570,7 +3232,6 @@ Novokuznetsk
 ec
 {
 "
-Novokuznetsk
 "
 }
 }
@@ -3583,7 +3244,6 @@ Novosibirsk
 ec
 {
 "
-Novosibirsk
 "
 }
 }
@@ -3596,7 +3256,6 @@ Omsk
 ec
 {
 "
-Omsk
 "
 }
 }
@@ -3609,7 +3268,6 @@ Oral
 ec
 {
 "
-Oral
 "
 }
 }
@@ -3622,8 +3280,6 @@ Phnom_Penh
 ec
 {
 "
-Phnom
-Penh
 "
 }
 }
@@ -3636,7 +3292,6 @@ Pontianak
 ec
 {
 "
-Pontianak
 "
 }
 }
@@ -3649,7 +3304,6 @@ Pyongyang
 ec
 {
 "
-Pyongyang
 "
 }
 }
@@ -3662,7 +3316,6 @@ Qatar
 ec
 {
 "
-Qatar
 "
 }
 }
@@ -3675,7 +3328,6 @@ Qostanay
 ec
 {
 "
-Kostanay
 "
 }
 }
@@ -3688,7 +3340,6 @@ Qyzylorda
 ec
 {
 "
-Qyzylorda
 "
 }
 }
@@ -3701,7 +3352,6 @@ Rangoon
 ec
 {
 "
-Rangoon
 "
 }
 }
@@ -3714,7 +3364,6 @@ Riyadh
 ec
 {
 "
-Riyadh
 "
 }
 }
@@ -3727,9 +3376,6 @@ Saigon
 ec
 {
 "
-Ho
-Chi
-Minh
 "
 }
 }
@@ -3742,7 +3388,6 @@ Sakhalin
 ec
 {
 "
-Sakhalin
 "
 }
 }
@@ -3755,7 +3400,6 @@ Samarkand
 ec
 {
 "
-Samarkand
 "
 }
 }
@@ -3768,7 +3412,6 @@ Seoul
 ec
 {
 "
-Seoul
 "
 }
 }
@@ -3781,7 +3424,6 @@ Shanghai
 ec
 {
 "
-Shanghai
 "
 }
 }
@@ -3794,7 +3436,6 @@ Singapore
 ec
 {
 "
-Singapore
 "
 }
 }
@@ -3807,7 +3448,6 @@ Srednekolymsk
 ec
 {
 "
-Srednekolymsk
 "
 }
 }
@@ -3820,7 +3460,6 @@ Taipei
 ec
 {
 "
-Taipei
 "
 }
 }
@@ -3833,7 +3472,6 @@ Tashkent
 ec
 {
 "
-Tashkent
 "
 }
 }
@@ -3846,7 +3484,6 @@ Tbilisi
 ec
 {
 "
-Tbilisi
 "
 }
 }
@@ -3859,7 +3496,6 @@ Tehran
 ec
 {
 "
-Tehran
 "
 }
 }
@@ -3872,7 +3508,6 @@ Thimphu
 ec
 {
 "
-Thimphu
 "
 }
 }
@@ -3885,7 +3520,6 @@ Tokyo
 ec
 {
 "
-Tokyo
 "
 }
 }
@@ -3898,7 +3532,6 @@ Tomsk
 ec
 {
 "
-Tomsk
 "
 }
 }
@@ -3911,7 +3544,6 @@ Ulaanbaatar
 ec
 {
 "
-Ulaanbaatar
 "
 }
 }
@@ -3924,7 +3556,6 @@ Urumqi
 ec
 {
 "
-Urumqi
 "
 }
 }
@@ -3939,9 +3570,7 @@ Nera
 ec
 {
 "
-Ust
 -
-Nera
 "
 }
 }
@@ -3954,7 +3583,6 @@ Vientiane
 ec
 {
 "
-Vientiane
 "
 }
 }
@@ -3967,7 +3595,6 @@ Vladivostok
 ec
 {
 "
-Vladivostok
 "
 }
 }
@@ -3980,7 +3607,6 @@ Yakutsk
 ec
 {
 "
-Yakutsk
 "
 }
 }
@@ -3993,7 +3619,6 @@ Yekaterinburg
 ec
 {
 "
-Yekaterinburg
 "
 }
 }
@@ -4006,7 +3631,6 @@ Yerevan
 ec
 {
 "
-Yerevan
 "
 }
 }
@@ -4019,7 +3643,6 @@ Azores
 ec
 {
 "
-Azores
 "
 }
 }
@@ -4032,7 +3655,6 @@ Bermuda
 ec
 {
 "
-Bermuda
 "
 }
 }
@@ -4045,7 +3667,6 @@ Canary
 ec
 {
 "
-Canary
 "
 }
 }
@@ -4058,8 +3679,6 @@ Cape_Verde
 ec
 {
 "
-Cape
-Verde
 "
 }
 }
@@ -4072,7 +3691,6 @@ Faeroe
 ec
 {
 "
-Faroe
 "
 }
 }
@@ -4085,7 +3703,6 @@ Madeira
 ec
 {
 "
-Madeira
 "
 }
 }
@@ -4098,7 +3715,6 @@ Reykjavik
 ec
 {
 "
-Reykjavik
 "
 }
 }
@@ -4111,8 +3727,6 @@ South_Georgia
 ec
 {
 "
-South
-Georgia
 "
 }
 }
@@ -4125,9 +3739,6 @@ St_Helena
 ec
 {
 "
-St
-.
-Helena
 "
 }
 }
@@ -4140,7 +3751,6 @@ Stanley
 ec
 {
 "
-Stanley
 "
 }
 }
@@ -4153,7 +3763,6 @@ Adelaide
 ec
 {
 "
-Adelaide
 "
 }
 }
@@ -4166,7 +3775,6 @@ Brisbane
 ec
 {
 "
-Brisbane
 "
 }
 }
@@ -4179,8 +3787,6 @@ Broken_Hill
 ec
 {
 "
-Broken
-Hill
 "
 }
 }
@@ -4193,7 +3799,6 @@ Currie
 ec
 {
 "
-Currie
 "
 }
 }
@@ -4206,7 +3811,6 @@ Darwin
 ec
 {
 "
-Darwin
 "
 }
 }
@@ -4219,7 +3823,6 @@ Eucla
 ec
 {
 "
-Eucla
 "
 }
 }
@@ -4232,7 +3835,6 @@ Hobart
 ec
 {
 "
-Hobart
 "
 }
 }
@@ -4245,7 +3847,6 @@ Lindeman
 ec
 {
 "
-Lindeman
 "
 }
 }
@@ -4258,8 +3859,6 @@ Lord_Howe
 ec
 {
 "
-Lord
-Howe
 "
 }
 }
@@ -4272,7 +3871,6 @@ Melbourne
 ec
 {
 "
-Melbourne
 "
 }
 }
@@ -4285,7 +3883,6 @@ Perth
 ec
 {
 "
-Perth
 "
 }
 }
@@ -4298,7 +3895,6 @@ Sydney
 ec
 {
 "
-Sydney
 "
 }
 }
@@ -4311,9 +3907,6 @@ UTC
 ls
 {
 "
-Coordinated
-Universal
-Time
 "
 }
 }
@@ -4326,7 +3919,6 @@ Unknown
 ec
 {
 "
-Unknown
 "
 }
 }
@@ -4339,7 +3931,6 @@ Amsterdam
 ec
 {
 "
-Amsterdam
 "
 }
 }
@@ -4352,7 +3943,6 @@ Andorra
 ec
 {
 "
-Andorra
 "
 }
 }
@@ -4365,7 +3955,6 @@ Astrakhan
 ec
 {
 "
-Astrakhan
 "
 }
 }
@@ -4378,7 +3967,6 @@ Athens
 ec
 {
 "
-Athens
 "
 }
 }
@@ -4391,7 +3979,6 @@ Belgrade
 ec
 {
 "
-Belgrade
 "
 }
 }
@@ -4404,7 +3991,6 @@ Berlin
 ec
 {
 "
-Berlin
 "
 }
 }
@@ -4417,7 +4003,6 @@ Bratislava
 ec
 {
 "
-Bratislava
 "
 }
 }
@@ -4430,7 +4015,6 @@ Brussels
 ec
 {
 "
-Brussels
 "
 }
 }
@@ -4443,7 +4027,6 @@ Bucharest
 ec
 {
 "
-Bucharest
 "
 }
 }
@@ -4456,7 +4039,6 @@ Budapest
 ec
 {
 "
-Budapest
 "
 }
 }
@@ -4469,7 +4051,6 @@ Busingen
 ec
 {
 "
-Busingen
 "
 }
 }
@@ -4482,7 +4063,6 @@ Chisinau
 ec
 {
 "
-Chisinau
 "
 }
 }
@@ -4495,7 +4075,6 @@ Copenhagen
 ec
 {
 "
-Copenhagen
 "
 }
 }
@@ -4508,7 +4087,6 @@ Dublin
 ec
 {
 "
-Dublin
 "
 }
 ld
@@ -4529,7 +4107,6 @@ Gibraltar
 ec
 {
 "
-Gibraltar
 "
 }
 }
@@ -4542,7 +4119,6 @@ Guernsey
 ec
 {
 "
-Guernsey
 "
 }
 }
@@ -4555,7 +4131,6 @@ Helsinki
 ec
 {
 "
-Helsinki
 "
 }
 }
@@ -4568,9 +4143,6 @@ Isle_of_Man
 ec
 {
 "
-Isle
-of
-Man
 "
 }
 }
@@ -4583,7 +4155,6 @@ Istanbul
 ec
 {
 "
-Istanbul
 "
 }
 }
@@ -4596,7 +4167,6 @@ Jersey
 ec
 {
 "
-Jersey
 "
 }
 }
@@ -4609,7 +4179,6 @@ Kaliningrad
 ec
 {
 "
-Kaliningrad
 "
 }
 }
@@ -4622,7 +4191,6 @@ Kiev
 ec
 {
 "
-Kiev
 "
 }
 }
@@ -4635,7 +4203,6 @@ Kirov
 ec
 {
 "
-Kirov
 "
 }
 }
@@ -4648,7 +4215,6 @@ Lisbon
 ec
 {
 "
-Lisbon
 "
 }
 }
@@ -4661,7 +4227,6 @@ Ljubljana
 ec
 {
 "
-Ljubljana
 "
 }
 }
@@ -4674,15 +4239,11 @@ London
 ec
 {
 "
-London
 "
 }
 ld
 {
 "
-British
-Summer
-Time
 "
 }
 }
@@ -4695,7 +4256,6 @@ Luxembourg
 ec
 {
 "
-Luxembourg
 "
 }
 }
@@ -4708,7 +4268,6 @@ Madrid
 ec
 {
 "
-Madrid
 "
 }
 }
@@ -4721,7 +4280,6 @@ Malta
 ec
 {
 "
-Malta
 "
 }
 }
@@ -4734,7 +4292,6 @@ Mariehamn
 ec
 {
 "
-Mariehamn
 "
 }
 }
@@ -4747,7 +4304,6 @@ Minsk
 ec
 {
 "
-Minsk
 "
 }
 }
@@ -4760,7 +4316,6 @@ Monaco
 ec
 {
 "
-Monaco
 "
 }
 }
@@ -4773,7 +4328,6 @@ Moscow
 ec
 {
 "
-Moscow
 "
 }
 }
@@ -4786,7 +4340,6 @@ Oslo
 ec
 {
 "
-Oslo
 "
 }
 }
@@ -4799,7 +4352,6 @@ Paris
 ec
 {
 "
-Paris
 "
 }
 }
@@ -4812,7 +4364,6 @@ Podgorica
 ec
 {
 "
-Podgorica
 "
 }
 }
@@ -4825,7 +4376,6 @@ Prague
 ec
 {
 "
-Prague
 "
 }
 }
@@ -4838,7 +4388,6 @@ Riga
 ec
 {
 "
-Riga
 "
 }
 }
@@ -4851,7 +4400,6 @@ Rome
 ec
 {
 "
-Rome
 "
 }
 }
@@ -4864,7 +4412,6 @@ Samara
 ec
 {
 "
-Samara
 "
 }
 }
@@ -4877,8 +4424,6 @@ San_Marino
 ec
 {
 "
-San
-Marino
 "
 }
 }
@@ -4891,7 +4436,6 @@ Sarajevo
 ec
 {
 "
-Sarajevo
 "
 }
 }
@@ -4904,7 +4448,6 @@ Saratov
 ec
 {
 "
-Saratov
 "
 }
 }
@@ -4917,7 +4460,6 @@ Simferopol
 ec
 {
 "
-Simferopol
 "
 }
 }
@@ -4930,7 +4472,6 @@ Skopje
 ec
 {
 "
-Skopje
 "
 }
 }
@@ -4943,7 +4484,6 @@ Sofia
 ec
 {
 "
-Sofia
 "
 }
 }
@@ -4956,7 +4496,6 @@ Stockholm
 ec
 {
 "
-Stockholm
 "
 }
 }
@@ -4969,7 +4508,6 @@ Tallinn
 ec
 {
 "
-Tallinn
 "
 }
 }
@@ -4982,7 +4520,6 @@ Tirane
 ec
 {
 "
-Tirane
 "
 }
 }
@@ -4995,7 +4532,6 @@ Ulyanovsk
 ec
 {
 "
-Ulyanovsk
 "
 }
 }
@@ -5008,7 +4544,6 @@ Uzhgorod
 ec
 {
 "
-Uzhgorod
 "
 }
 }
@@ -5021,7 +4556,6 @@ Vaduz
 ec
 {
 "
-Vaduz
 "
 }
 }
@@ -5034,7 +4568,6 @@ Vatican
 ec
 {
 "
-Vatican
 "
 }
 }
@@ -5047,7 +4580,6 @@ Vienna
 ec
 {
 "
-Vienna
 "
 }
 }
@@ -5060,7 +4592,6 @@ Vilnius
 ec
 {
 "
-Vilnius
 "
 }
 }
@@ -5073,7 +4604,6 @@ Volgograd
 ec
 {
 "
-Volgograd
 "
 }
 }
@@ -5086,7 +4616,6 @@ Warsaw
 ec
 {
 "
-Warsaw
 "
 }
 }
@@ -5099,7 +4628,6 @@ Zagreb
 ec
 {
 "
-Zagreb
 "
 }
 }
@@ -5112,7 +4640,6 @@ Zaporozhye
 ec
 {
 "
-Zaporozhye
 "
 }
 }
@@ -5125,7 +4652,6 @@ Zurich
 ec
 {
 "
-Zurich
 "
 }
 }
@@ -5138,7 +4664,6 @@ Antananarivo
 ec
 {
 "
-Antananarivo
 "
 }
 }
@@ -5151,7 +4676,6 @@ Chagos
 ec
 {
 "
-Chagos
 "
 }
 }
@@ -5164,7 +4688,6 @@ Christmas
 ec
 {
 "
-Christmas
 "
 }
 }
@@ -5177,7 +4700,6 @@ Cocos
 ec
 {
 "
-Cocos
 "
 }
 }
@@ -5190,7 +4712,6 @@ Comoro
 ec
 {
 "
-Comoro
 "
 }
 }
@@ -5203,7 +4724,6 @@ Kerguelen
 ec
 {
 "
-Kerguelen
 "
 }
 }
@@ -5216,7 +4736,6 @@ Mahe
 ec
 {
 "
-Mahe
 "
 }
 }
@@ -5229,7 +4748,6 @@ Maldives
 ec
 {
 "
-Maldives
 "
 }
 }
@@ -5242,7 +4760,6 @@ Mauritius
 ec
 {
 "
-Mauritius
 "
 }
 }
@@ -5255,7 +4772,6 @@ Mayotte
 ec
 {
 "
-Mayotte
 "
 }
 }
@@ -5268,7 +4784,6 @@ Reunion
 ec
 {
 "
-Reunion
 "
 }
 }
@@ -5281,7 +4796,6 @@ Apia
 ec
 {
 "
-Apia
 "
 }
 }
@@ -5294,7 +4808,6 @@ Auckland
 ec
 {
 "
-Auckland
 "
 }
 }
@@ -5307,7 +4820,6 @@ Bougainville
 ec
 {
 "
-Bougainville
 "
 }
 }
@@ -5320,7 +4832,6 @@ Chatham
 ec
 {
 "
-Chatham
 "
 }
 }
@@ -5333,7 +4844,6 @@ Easter
 ec
 {
 "
-Easter
 "
 }
 }
@@ -5346,7 +4856,6 @@ Efate
 ec
 {
 "
-Efate
 "
 }
 }
@@ -5359,7 +4868,6 @@ Enderbury
 ec
 {
 "
-Enderbury
 "
 }
 }
@@ -5372,7 +4880,6 @@ Fakaofo
 ec
 {
 "
-Fakaofo
 "
 }
 }
@@ -5385,7 +4892,6 @@ Fiji
 ec
 {
 "
-Fiji
 "
 }
 }
@@ -5398,7 +4904,6 @@ Funafuti
 ec
 {
 "
-Funafuti
 "
 }
 }
@@ -5411,7 +4916,6 @@ Galapagos
 ec
 {
 "
-Galapagos
 "
 }
 }
@@ -5424,7 +4928,6 @@ Gambier
 ec
 {
 "
-Gambier
 "
 }
 }
@@ -5437,7 +4940,6 @@ Guadalcanal
 ec
 {
 "
-Guadalcanal
 "
 }
 }
@@ -5450,7 +4952,6 @@ Guam
 ec
 {
 "
-Guam
 "
 }
 }
@@ -5463,7 +4964,6 @@ Honolulu
 ec
 {
 "
-Honolulu
 "
 }
 }
@@ -5476,7 +4976,6 @@ Johnston
 ec
 {
 "
-Johnston
 "
 }
 }
@@ -5489,7 +4988,6 @@ Kiritimati
 ec
 {
 "
-Kiritimati
 "
 }
 }
@@ -5502,7 +5000,6 @@ Kosrae
 ec
 {
 "
-Kosrae
 "
 }
 }
@@ -5515,7 +5012,6 @@ Kwajalein
 ec
 {
 "
-Kwajalein
 "
 }
 }
@@ -5528,7 +5024,6 @@ Majuro
 ec
 {
 "
-Majuro
 "
 }
 }
@@ -5541,7 +5036,6 @@ Marquesas
 ec
 {
 "
-Marquesas
 "
 }
 }
@@ -5554,7 +5048,6 @@ Midway
 ec
 {
 "
-Midway
 "
 }
 }
@@ -5567,7 +5060,6 @@ Nauru
 ec
 {
 "
-Nauru
 "
 }
 }
@@ -5580,7 +5072,6 @@ Niue
 ec
 {
 "
-Niue
 "
 }
 }
@@ -5593,7 +5084,6 @@ Norfolk
 ec
 {
 "
-Norfolk
 "
 }
 }
@@ -5606,7 +5096,6 @@ Noumea
 ec
 {
 "
-Noumea
 "
 }
 }
@@ -5619,8 +5108,6 @@ Pago_Pago
 ec
 {
 "
-Pago
-Pago
 "
 }
 }
@@ -5633,7 +5120,6 @@ Palau
 ec
 {
 "
-Palau
 "
 }
 }
@@ -5646,7 +5132,6 @@ Pitcairn
 ec
 {
 "
-Pitcairn
 "
 }
 }
@@ -5659,7 +5144,6 @@ Ponape
 ec
 {
 "
-Pohnpei
 "
 }
 }
@@ -5672,8 +5156,6 @@ Port_Moresby
 ec
 {
 "
-Port
-Moresby
 "
 }
 }
@@ -5686,7 +5168,6 @@ Rarotonga
 ec
 {
 "
-Rarotonga
 "
 }
 }
@@ -5699,7 +5180,6 @@ Saipan
 ec
 {
 "
-Saipan
 "
 }
 }
@@ -5712,7 +5192,6 @@ Tahiti
 ec
 {
 "
-Tahiti
 "
 }
 }
@@ -5725,7 +5204,6 @@ Tarawa
 ec
 {
 "
-Tarawa
 "
 }
 }
@@ -5738,7 +5216,6 @@ Tongatapu
 ec
 {
 "
-Tongatapu
 "
 }
 }
@@ -5751,7 +5228,6 @@ Truk
 ec
 {
 "
-Chuuk
 "
 }
 }
@@ -5764,7 +5240,6 @@ Wake
 ec
 {
 "
-Wake
 "
 }
 }
@@ -5777,7 +5252,434 @@ Wallis
 ec
 {
 "
-Wallis
+"
+}
+}
+"
+meta
+:
+Acre
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Africa_Central
+"
+{
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Africa_Eastern
+"
+{
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Africa_Southern
+"
+{
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Africa_Western
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Alaska
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Amazon
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Argentina
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Azores
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Bolivia
+"
+{
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Brasilia
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Cape_Verde
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Chile
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Colombia
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Easter
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Ecuador
+"
+{
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Europe_Central
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Europe_Eastern
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Falkland
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+French_Guiana
+"
+{
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+French_Southern
+"
+{
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Galapagos
+"
+{
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Guyana
+"
+{
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Indian_Ocean
+"
+{
+ls
+{
+"
 "
 }
 }
@@ -5790,9 +5692,6 @@ Indonesia_Central
 ls
 {
 "
-Central
-Indonesia
-Time
 "
 }
 }
@@ -5805,9 +5704,6 @@ Indonesia_Eastern
 ls
 {
 "
-Eastern
-Indonesia
-Time
 "
 }
 }
@@ -5820,9 +5716,6 @@ Indonesia_Western
 ls
 {
 "
-Western
-Indonesia
-Time
 "
 }
 }
@@ -5835,8 +5728,118 @@ Malaysia
 ls
 {
 "
-Malaysia
-Time
+"
+}
+}
+"
+meta
+:
+Mauritius
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Noronha
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Paraguay
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Peru
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Reunion
+"
+{
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Seychelles
+"
+{
+ls
+{
+"
 "
 }
 }
@@ -5849,9 +5852,64 @@ Singapore
 ls
 {
 "
-Singapore
-Standard
-Time
+"
+}
+}
+"
+meta
+:
+South_Georgia
+"
+{
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Suriname
+"
+{
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Uruguay
+"
+{
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
+ls
+{
+"
+"
+}
+}
+"
+meta
+:
+Venezuela
+"
+{
+ls
+{
+"
 "
 }
 }
@@ -5911,10 +5969,6 @@ regionFormatDaylight
 {
 0
 }
-(
-+
-1
-)
 "
 }
 regionFormatStandard
@@ -5923,10 +5977,6 @@ regionFormatStandard
 {
 0
 }
-(
-+
-0
-)
 "
 }
 }

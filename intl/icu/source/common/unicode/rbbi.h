@@ -232,7 +232,7 @@ that
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -243,9 +243,10 @@ BreakIterator
 that
 )
 const
+override
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -264,6 +265,7 @@ clone
 (
 )
 const
+override
 ;
 virtual
 int32_t
@@ -291,6 +293,7 @@ getText
 void
 )
 const
+override
 ;
 virtual
 UText
@@ -305,6 +308,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 void
@@ -314,6 +318,7 @@ CharacterIterator
 *
 newText
 )
+override
 ;
 virtual
 void
@@ -324,6 +329,7 @@ UnicodeString
 &
 newText
 )
+override
 ;
 virtual
 void
@@ -336,6 +342,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 int32_t
@@ -343,6 +350,7 @@ first
 (
 void
 )
+override
 ;
 virtual
 int32_t
@@ -350,6 +358,7 @@ last
 (
 void
 )
+override
 ;
 virtual
 int32_t
@@ -358,6 +367,7 @@ next
 int32_t
 n
 )
+override
 ;
 virtual
 int32_t
@@ -365,6 +375,7 @@ next
 (
 void
 )
+override
 ;
 virtual
 int32_t
@@ -372,6 +383,7 @@ previous
 (
 void
 )
+override
 ;
 virtual
 int32_t
@@ -380,6 +392,7 @@ following
 int32_t
 offset
 )
+override
 ;
 virtual
 int32_t
@@ -388,6 +401,7 @@ preceding
 int32_t
 offset
 )
+override
 ;
 virtual
 UBool
@@ -396,6 +410,7 @@ isBoundary
 int32_t
 offset
 )
+override
 ;
 virtual
 int32_t
@@ -404,6 +419,7 @@ current
 void
 )
 const
+override
 ;
 virtual
 int32_t
@@ -411,6 +427,7 @@ getRuleStatus
 (
 )
 const
+override
 ;
 virtual
 int32_t
@@ -425,6 +442,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 UClassID
@@ -433,6 +451,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 static
 UClassID
@@ -460,6 +479,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 #
 endif
@@ -486,6 +506,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 private
 :
@@ -583,7 +604,7 @@ endif
 }
 ;
 inline
-UBool
+bool
 RuleBasedBreakIterator
 :
 :

@@ -8078,7 +8078,6 @@ one
 {
 0
 }
-ka
 segundo
 "
 }
@@ -8088,7 +8087,6 @@ other
 {
 0
 }
-ka
 segundo
 "
 }

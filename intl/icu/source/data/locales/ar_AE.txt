@@ -59,7 +59,7 @@ NumberElements
 default
 {
 "
-arab
+latn
 "
 }
 }

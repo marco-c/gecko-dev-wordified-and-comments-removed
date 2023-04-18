@@ -94,7 +94,7 @@ TimeZoneNames
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -108,7 +108,7 @@ const
 =
 0
 ;
-UBool
+bool
 operator
 !
 =

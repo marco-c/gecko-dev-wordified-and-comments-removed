@@ -2006,7 +2006,7 @@ visualStart
 length
 ;
 }
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 U_CFUNC
