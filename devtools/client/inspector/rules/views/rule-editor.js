@@ -989,7 +989,8 @@ u202A
 )
 }
 ;
-const
+this
+.
 ancestorDataEl
 =
 createChild
@@ -1029,6 +1030,8 @@ parts
 {
 createChild
 (
+this
+.
 ancestorDataEl
 "
 li
