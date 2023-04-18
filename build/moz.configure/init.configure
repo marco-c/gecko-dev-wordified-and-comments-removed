@@ -4909,6 +4909,15 @@ host_variables
 .
 HOST_OS_ARCH
 )
+set_config
+(
+"
+HOST_ALIAS
+"
+host
+.
+alias
+)
 depends
 (
 target
