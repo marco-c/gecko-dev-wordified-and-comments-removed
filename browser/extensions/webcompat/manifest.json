@@ -35,7 +35,7 @@ version
 "
 28
 .
-6
+7
 .
 0
 "
@@ -803,6 +803,13 @@ html
 shims
 /
 hamropatro
+.
+js
+"
+"
+shims
+/
+humblebundle
 .
 js
 "

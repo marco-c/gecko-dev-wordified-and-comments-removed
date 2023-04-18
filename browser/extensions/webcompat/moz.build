@@ -1245,6 +1245,13 @@ js
 "
 shims
 /
+humblebundle
+.
+js
+"
+"
+shims
+/
 iaspet
 .
 js
