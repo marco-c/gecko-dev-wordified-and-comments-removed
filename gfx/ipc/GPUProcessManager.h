@@ -381,7 +381,7 @@ GPUProcessManager
 (
 )
 ;
-void
+bool
 LaunchGPUProcess
 (
 )
