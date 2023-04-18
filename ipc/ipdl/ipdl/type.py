@@ -25,6 +25,7 @@ TypeSpec
 UnionDecl
 UsingStmt
 Visitor
+StringLiteral
 from
 ipdl
 .
@@ -4287,12 +4288,39 @@ tuple
 :
                 
 if
+not
+any
+(
+                    
+isinstance
+(
 attr
 .
 value
-not
+s
+)
+                    
+if
+isinstance
+(
+s
+type
+)
+                    
+else
+attr
+.
+value
+=
+=
+s
+                    
+for
+s
 in
 aspec
+                
+)
 :
                     
 self
@@ -4329,6 +4357,17 @@ name
 .
 join
 (
+                            
+s
+.
+__name__
+if
+isinstance
+(
+s
+type
+)
+else
 str
 (
 s
@@ -4337,6 +4376,7 @@ for
 s
 in
 aspec
+                        
 )
                     
 )
@@ -4602,6 +4642,28 @@ NeedsOtherPid
 "
 :
 None
+                    
+"
+ChildImpl
+"
+:
+(
+"
+virtual
+"
+StringLiteral
+)
+                    
+"
+ParentImpl
+"
+:
+(
+"
+virtual
+"
+StringLiteral
+)
                 
 }
             

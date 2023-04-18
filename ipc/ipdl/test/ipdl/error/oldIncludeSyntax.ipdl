@@ -5,9 +5,11 @@ error
 bad
 syntax
 near
+"
 Foo
 .
 ipdl
+"
 '
 include
 protocol
