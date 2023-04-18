@@ -151,6 +151,9 @@ releases
 [
 beta
 release
+release
+-
+rc
 ]
 shipping
 -
@@ -228,6 +231,8 @@ beta
 :
 beta
 release
+.
+*
 :
 release
 default
