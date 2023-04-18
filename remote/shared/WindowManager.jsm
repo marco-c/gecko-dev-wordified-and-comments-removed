@@ -383,10 +383,11 @@ options
 if
 (
 !
+Window
+.
+isInstance
 (
 win
-instanceof
-Window
 )
 )
 {

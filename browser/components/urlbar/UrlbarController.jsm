@@ -3306,9 +3306,12 @@ else
 {
 action
 =
-event
-instanceof
 MouseEvent
+.
+isInstance
+(
+event
+)
 ?
 "
 click

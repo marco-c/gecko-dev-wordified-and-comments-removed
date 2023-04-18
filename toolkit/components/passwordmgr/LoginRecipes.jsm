@@ -1520,9 +1520,6 @@ null
 if
 (
 !
-(
-field
-instanceof
 aParent
 .
 ownerDocument
@@ -1530,6 +1527,10 @@ ownerDocument
 defaultView
 .
 HTMLInputElement
+.
+isInstance
+(
+field
 )
 )
 {

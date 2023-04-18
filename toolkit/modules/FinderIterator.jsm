@@ -2651,9 +2651,12 @@ do
 {
 if
 (
-node
-instanceof
 HTMLAnchorElement
+.
+isInstance
+(
+node
+)
 )
 {
 isInsideLink
