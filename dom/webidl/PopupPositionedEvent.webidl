@@ -96,6 +96,11 @@ PopupPositionedEventInit
 :
 EventInit
 {
+boolean
+isAnchored
+=
+false
+;
 /
 *
 *
@@ -161,6 +166,11 @@ init
 {
 }
 )
+;
+readonly
+attribute
+boolean
+isAnchored
 ;
 readonly
 attribute

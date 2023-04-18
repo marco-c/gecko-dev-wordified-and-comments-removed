@@ -438,7 +438,7 @@ isArrowPanel
 |
 |
 !
-this
+event
 .
 isAnchored
 )
@@ -672,11 +672,6 @@ this
 {
 if
 (
-this
-.
-isAnchored
-&
-&
 this
 .
 anchorNode
@@ -1068,11 +1063,6 @@ cancel
 }
 if
 (
-this
-.
-isAnchored
-&
-&
 this
 .
 anchorNode
