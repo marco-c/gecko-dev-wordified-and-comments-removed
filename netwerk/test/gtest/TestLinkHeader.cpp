@@ -27,6 +27,13 @@ nsNetUtil
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+net
+;
 LinkHeader
 LinkHeaderSetAll
 (

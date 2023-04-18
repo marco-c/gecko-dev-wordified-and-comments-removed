@@ -1227,6 +1227,9 @@ value
 auto
 linkHeaders
 =
+net
+:
+:
 ParseLinkHeader
 (
 value
@@ -1384,6 +1387,9 @@ nsContentSink
 ProcessLinkFromHeader
 (
 const
+net
+:
+:
 LinkHeader
 &
 aHeader
