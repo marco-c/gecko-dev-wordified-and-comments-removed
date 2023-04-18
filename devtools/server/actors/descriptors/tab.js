@@ -220,6 +220,13 @@ actor
 this
 .
 actorID
+browserId
+:
+this
+.
+_browser
+.
+browserId
 browsingContextID
 :
 this

@@ -98,6 +98,16 @@ id
 =
 tab
 .
+browserId
+|
+|
+"
+outerID
+-
+"
++
+tab
+.
 outerWindowID
 ;
 const
