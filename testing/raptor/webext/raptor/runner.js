@@ -1806,9 +1806,6 @@ stackwalk
 cpu
 "
 "
-threads
-"
-"
 responsiveness
 "
 ]

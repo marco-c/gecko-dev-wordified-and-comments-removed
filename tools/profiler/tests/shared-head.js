@@ -59,9 +59,6 @@ interval
 features
 :
 [
-"
-threads
-"
 ]
 threads
 :
@@ -160,9 +157,6 @@ startProfiler
 features
 :
 [
-"
-threads
-"
 "
 nostacksampling
 "
