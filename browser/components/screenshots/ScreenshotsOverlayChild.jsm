@@ -31,11 +31,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 overlayLocalization
 "
@@ -1031,6 +1037,8 @@ download
 copy
 ]
 =
+lazy
+.
 overlayLocalization
 .
 formatMessagesSync
