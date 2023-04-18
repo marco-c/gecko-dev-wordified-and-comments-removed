@@ -120,10 +120,16 @@ color
 "
 red
 "
+{
+commitValueWith
+:
 "
 VK_ESCAPE
 "
+blurNewProperty
+:
 false
+}
 )
 ;
 is
