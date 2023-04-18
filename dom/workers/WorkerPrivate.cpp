@@ -16566,7 +16566,7 @@ WorkerPrivate
 AddChildWorker
 (
 WorkerPrivate
-*
+&
 aChildWorker
 )
 {
@@ -16619,6 +16619,7 @@ mChildWorkers
 .
 Contains
 (
+&
 aChildWorker
 )
 "
@@ -16638,6 +16639,7 @@ mChildWorkers
 .
 AppendElement
 (
+&
 aChildWorker
 )
 ;
@@ -16669,7 +16671,7 @@ WorkerPrivate
 RemoveChildWorker
 (
 WorkerPrivate
-*
+&
 aChildWorker
 )
 {
@@ -16691,6 +16693,7 @@ mChildWorkers
 .
 Contains
 (
+&
 aChildWorker
 )
 "
@@ -16712,6 +16715,7 @@ mChildWorkers
 .
 RemoveElement
 (
+&
 aChildWorker
 )
 ;
@@ -17051,8 +17055,10 @@ Notify
 }
 AutoTArray
 <
+CheckedUnsafePtr
+<
 WorkerPrivate
-*
+>
 10
 >
 children
