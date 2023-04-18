@@ -8900,7 +8900,7 @@ dataPointer
 static
 ArrayBufferObject
 *
-UnwrapArrayBuffer
+UnwrapOrReportArrayBuffer
 (
 JSContext
 *
@@ -9018,7 +9018,7 @@ ArrayBufferObject
 unwrappedBuffer
 (
 cx
-UnwrapArrayBuffer
+UnwrapOrReportArrayBuffer
 (
 cx
 obj
@@ -9294,7 +9294,7 @@ ArrayBufferObject
 unwrappedSource
 (
 cx
-UnwrapArrayBuffer
+UnwrapOrReportArrayBuffer
 (
 cx
 arrayBuffer
@@ -9608,7 +9608,7 @@ ArrayBufferObject
 unwrappedBuffer
 (
 cx
-UnwrapArrayBuffer
+UnwrapOrReportArrayBuffer
 (
 cx
 obj
