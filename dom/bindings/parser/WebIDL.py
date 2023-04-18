@@ -2641,6 +2641,27 @@ _globalScope
 =
 scope
         
+if
+"
+*
+"
+in
+self
+.
+_exposureGlobalNames
+:
+            
+self
+.
+_exposureGlobalNames
+=
+scope
+.
+globalNames
+        
+else
+:
+            
 for
 globalName
 in
@@ -2648,7 +2669,7 @@ self
 .
 _exposureGlobalNames
 :
-            
+                
 if
 globalName
 not
@@ -2657,11 +2678,11 @@ scope
 .
 globalNames
 :
-                
+                    
 raise
 WebIDLError
 (
-                    
+                        
 "
 Unknown
 [
@@ -2678,7 +2699,7 @@ self
 .
 _location
 ]
-                
+                    
 )
         
 if
@@ -39931,6 +39952,14 @@ QUESTIONMARK
 "
         
 "
+*
+"
+:
+"
+ASTERISK
+"
+        
+"
 "
 :
 "
@@ -47455,6 +47484,9 @@ ExtendedAttributeArgList
 ExtendedAttributeIdent
                           
 |
+ExtendedAttributeWildcard
+                          
+|
 ExtendedAttributeNamedArgList
                           
 |
@@ -47638,6 +47670,9 @@ GT
               
 |
 QUESTIONMARK
+              
+|
+ASTERISK
               
 |
 DOMSTRING
@@ -49840,6 +49875,44 @@ STRING
 IDENTIFIER
 EQUALS
 IDENTIFIER
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+(
+p
+[
+1
+]
+p
+[
+3
+]
+)
+    
+def
+p_ExtendedAttributeWildcard
+(
+self
+p
+)
+:
+        
+"
+"
+"
+        
+ExtendedAttributeWildcard
+:
+IDENTIFIER
+EQUALS
+ASTERISK
         
 "
 "
