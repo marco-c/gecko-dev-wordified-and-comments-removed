@@ -109,6 +109,8 @@ EvaluateIpcCall
 (
 int
 aCall
+int
+aArgShift
 )
 const
 {
