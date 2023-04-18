@@ -171,6 +171,17 @@ include
 "
 mozilla
 /
+layers
+/
+SurfacePool
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
