@@ -3478,6 +3478,9 @@ nsILoadContext
 useRemoteSubframes
 ;
 var
+gFirefoxViewTab
+;
+var
 gBrowserAllowScriptsToCloseInitialTabs
 =
 false

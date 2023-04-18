@@ -4673,9 +4673,7 @@ if
 newTab
 !
 =
-window
-.
-__firefoxViewTab
+gFirefoxViewTab
 )
 {
 this
