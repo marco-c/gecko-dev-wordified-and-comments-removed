@@ -1,7 +1,5 @@
 import
 os
-import
-moznetwork
 from
 mozrunner
 import
@@ -637,17 +635,15 @@ return
 server_host
 "
 :
-moznetwork
+"
+127
 .
-get_ip
-(
-)
-            
+0
+.
+0
+.
+1
 "
-bind_address
-"
-:
-False
             
 "
 supports_debugger
