@@ -802,9 +802,10 @@ config
 {
 UrlbarQuickSuggest
 .
-_config
-=
+_setConfig
+(
 config
+)
 ;
 }
 async
