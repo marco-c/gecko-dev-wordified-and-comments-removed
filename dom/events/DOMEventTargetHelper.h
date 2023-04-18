@@ -271,6 +271,7 @@ EventTarget
 :
 DispatchEvent
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 DispatchEvent
 (

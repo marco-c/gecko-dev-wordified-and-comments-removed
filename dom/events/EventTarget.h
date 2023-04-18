@@ -571,6 +571,7 @@ return
 this
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 bool
 DispatchEvent
@@ -587,6 +588,7 @@ aRv
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DispatchEvent
 (
@@ -595,6 +597,7 @@ Event
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DispatchEvent
 (
