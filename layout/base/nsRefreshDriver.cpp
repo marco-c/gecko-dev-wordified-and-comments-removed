@@ -2436,7 +2436,7 @@ BrowserTabsRemoteAutostart
 mObserver
 -
 >
-NotifyParentProcessVsync
+NotifyVsyncOnMainThread
 (
 )
 ;
@@ -2541,7 +2541,7 @@ XRE_IsContentProcess
 )
 )
 {
-NotifyParentProcessVsync
+NotifyVsyncOnMainThread
 (
 )
 ;
@@ -2571,7 +2571,7 @@ true
 ;
 }
 void
-NotifyParentProcessVsync
+NotifyVsyncOnMainThread
 (
 )
 {
