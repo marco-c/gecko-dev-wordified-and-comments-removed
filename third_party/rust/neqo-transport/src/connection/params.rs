@@ -162,6 +162,7 @@ derive
 (
 Debug
 Clone
+Copy
 )
 ]
 pub
@@ -181,6 +182,7 @@ derive
 (
 Debug
 Clone
+Copy
 )
 ]
 pub

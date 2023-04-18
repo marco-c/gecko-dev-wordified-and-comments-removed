@@ -38,7 +38,10 @@ use
 neqo_transport
 :
 :
+{
 Connection
+StreamId
+}
 ;
 use
 std
@@ -126,7 +129,7 @@ mut
 Connection
 stream_id
 :
-u64
+StreamId
 }
 impl
 <
@@ -316,7 +319,7 @@ mut
 Connection
 stream_id
 :
-u64
+StreamId
 )
 -
 >
