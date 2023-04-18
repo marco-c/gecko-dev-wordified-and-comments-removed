@@ -180,7 +180,7 @@ inspector
 const
 onTrackChange
 =
-waitUntilAction
+waitForDispatch
 (
 store
 "
@@ -191,7 +191,7 @@ TRACK_CHANGE
 const
 onResetChanges
 =
-waitUntilAction
+waitForDispatch
 (
 store
 "

@@ -149,14 +149,14 @@ Promise
 all
 (
 [
-waitUntilAction
+waitForDispatch
 (
 store
 actions
 .
 EXPORT_SNAPSHOT_START
 )
-waitUntilAction
+waitForDispatch
 (
 store
 actions
