@@ -251,6 +251,11 @@ sourceMapURL
 loadFromCache
 :
 false
+sourceMapBaseURL
+:
+generatedSource
+.
+sourceMapBaseURL
 }
 )
 ;
@@ -346,6 +351,14 @@ scopes
 ;
 }
 }
+map
+.
+sourceMapBaseURL
+=
+generatedSource
+.
+sourceMapBaseURL
+;
 if
 (
 map
