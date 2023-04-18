@@ -3490,8 +3490,8 @@ _x
 expectedX
 -
 5
-|
-|
+&
+&
 _x
 <
 =
@@ -3521,8 +3521,8 @@ _y
 expectedY
 -
 5
-|
-|
+&
+&
 _y
 <
 =
@@ -3552,8 +3552,8 @@ _width
 expectedWidth
 -
 5
-|
-|
+&
+&
 _width
 <
 =
@@ -3583,8 +3583,8 @@ _height
 expectedHeight
 -
 5
-|
-|
+&
+&
 _height
 <
 =
