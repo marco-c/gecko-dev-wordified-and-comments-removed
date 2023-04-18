@@ -425,9 +425,10 @@ _retval
 if
 (
 !
-JSID_IS_STRING
-(
 aId
+.
+isString
+(
 )
 )
 return

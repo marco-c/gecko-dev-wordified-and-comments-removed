@@ -1424,9 +1424,10 @@ do
 if
 (
 !
-JSID_IS_STRING
-(
 id
+.
+isString
+(
 )
 )
 {
@@ -1438,9 +1439,10 @@ name
 JS_EncodeStringToLatin1
 (
 ccx
-JSID_TO_STRING
-(
 id
+.
+toString
+(
 )
 )
 ;

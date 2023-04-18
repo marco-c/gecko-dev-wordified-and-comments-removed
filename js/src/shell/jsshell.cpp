@@ -320,9 +320,10 @@ toString
 (
 )
 :
-JSID_TO_STRING
-(
 id
+.
+toString
+(
 )
 )
 )

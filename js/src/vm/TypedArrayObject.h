@@ -1215,9 +1215,10 @@ if
 MOZ_UNLIKELY
 (
 !
-JSID_IS_STRING
-(
 id
+.
+isString
+(
 )
 )
 )

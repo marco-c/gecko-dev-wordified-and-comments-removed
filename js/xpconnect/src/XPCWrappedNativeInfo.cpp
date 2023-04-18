@@ -367,9 +367,10 @@ fun
 ;
 if
 (
-JSID_IS_STRING
-(
 name
+.
+isString
+(
 )
 )
 {

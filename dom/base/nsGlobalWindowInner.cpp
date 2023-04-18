@@ -14383,9 +14383,10 @@ aDesc
 if
 (
 !
-JSID_IS_STRING
-(
 aId
+.
+isString
+(
 )
 )
 {
@@ -14713,9 +14714,10 @@ aId
 if
 (
 !
-JSID_IS_STRING
-(
 aId
+.
+isString
+(
 )
 )
 {

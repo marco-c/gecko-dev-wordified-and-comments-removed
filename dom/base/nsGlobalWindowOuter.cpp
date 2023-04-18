@@ -3590,9 +3590,10 @@ true
 }
 if
 (
-JSID_IS_STRING
-(
 id
+.
+isString
+(
 )
 )
 {
@@ -3607,9 +3608,10 @@ name
 init
 (
 cx
-JSID_TO_STRING
-(
 id
+.
+toString
+(
 )
 )
 )

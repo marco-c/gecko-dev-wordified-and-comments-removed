@@ -2410,9 +2410,10 @@ false
 if
 (
 !
-JSID_IS_STRING
-(
 id
+.
+isString
+(
 )
 )
 {
@@ -2539,9 +2540,10 @@ maybeObj
 if
 (
 !
-JSID_IS_STRING
-(
 id
+.
+isString
+(
 )
 )
 {
