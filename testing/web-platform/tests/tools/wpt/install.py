@@ -49,6 +49,14 @@ dev
 '
     
 '
+chromium
+'
+:
+'
+nightly
+'
+    
+'
 edgechromium
 '
 :
@@ -343,6 +351,9 @@ firefox
 '
 '
 chrome
+'
+'
+chromium
 '
 '
 servo

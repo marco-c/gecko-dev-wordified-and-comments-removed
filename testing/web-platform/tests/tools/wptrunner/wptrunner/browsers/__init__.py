@@ -230,6 +230,10 @@ chrome_ios
 "
                 
 "
+chromium
+"
+                
+"
 edgechromium
 "
                 
