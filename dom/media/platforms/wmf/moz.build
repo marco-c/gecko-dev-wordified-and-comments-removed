@@ -138,6 +138,14 @@ libyuv
 include
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+gtest
+"
+]
 include
 (
 "
