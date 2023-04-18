@@ -211,15 +211,6 @@ if
 (
 *
 sandboxingKind
-<
-SandboxingKind
-:
-:
-GENERIC_UTILITY
-|
-|
-*
-sandboxingKind
 >
 =
 SandboxingKind
