@@ -9057,7 +9057,7 @@ equalTo
 false
 )
 )
-testAccessibilityFocusIframe
+testIframeTree
 (
 REMOTE_IFRAME
 )
@@ -9084,7 +9084,7 @@ testLocalIframeTree
 (
 )
 {
-testAccessibilityFocusIframe
+testIframeTree
 (
 LOCAL_IFRAME
 )
