@@ -253,6 +253,10 @@ char
 deviceUniqueIdUTF8
 )
 override
+RTC_EXCLUSIVE_LOCKS_REQUIRED
+(
+_apiLock
+)
 ;
 private
 :
