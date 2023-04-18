@@ -1021,6 +1021,11 @@ MaybeFireErrorEvent
 (
 )
 ;
+void
+MaybeStoreCrossOriginFeaturePolicy
+(
+)
+;
 nsCOMPtr
 <
 nsIStreamListener
