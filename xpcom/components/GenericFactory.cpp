@@ -21,9 +21,6 @@ GenericFactory
 :
 CreateInstance
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -35,7 +32,6 @@ aResult
 return
 mCtor
 (
-aOuter
 aIID
 aResult
 )

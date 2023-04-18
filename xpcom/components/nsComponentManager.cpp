@@ -5327,7 +5327,6 @@ factory
 >
 CreateInstance
 (
-nullptr
 aIID
 aResult
 )
@@ -5676,7 +5675,6 @@ factory
 >
 CreateInstance
 (
-nullptr
 aIID
 aResult
 )
@@ -8602,7 +8600,6 @@ factory
 >
 CreateInstance
 (
-nullptr
 aIID
 aResult
 )

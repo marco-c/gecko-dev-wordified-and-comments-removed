@@ -9068,9 +9068,6 @@ nsToolkitProfileFactory
 :
 CreateInstance
 (
-nsISupports
-*
-aOuter
 const
 nsID
 &
@@ -9081,13 +9078,6 @@ void
 aResult
 )
 {
-if
-(
-aOuter
-)
-return
-NS_ERROR_NO_AGGREGATION
-;
 RefPtr
 <
 nsToolkitProfileService

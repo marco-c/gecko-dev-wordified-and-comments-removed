@@ -102,7 +102,6 @@ nserror
 {
 nsresult
 NS_ERROR_FAILURE
-NS_ERROR_NO_AGGREGATION
 NS_OK
 }
 ;
@@ -198,7 +197,6 @@ nsIKeyValuePair
 nsIKeyValueVariantCallback
 nsIKeyValueVoidCallback
 nsISerialEventTarget
-nsISupports
 nsIVariant
 }
 nsIID
@@ -254,11 +252,6 @@ C
 fn
 nsKeyValueServiceConstructor
 (
-outer
-:
-*
-const
-nsISupports
 iid
 :
 &
@@ -285,18 +278,6 @@ null_mut
 (
 )
 ;
-if
-!
-outer
-.
-is_null
-(
-)
-{
-return
-NS_ERROR_NO_AGGREGATION
-;
-}
 let
 service
 =

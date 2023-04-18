@@ -76,9 +76,6 @@ nsresult
 ConstructorProcPtr
 )
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
