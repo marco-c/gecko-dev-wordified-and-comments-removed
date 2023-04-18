@@ -6414,16 +6414,6 @@ lwtheme
 Atom
 (
 "
-lwthemetextcolor
-"
-"
-lwthemetextcolor
-"
-)
-    
-Atom
-(
-"
 main
 "
 "

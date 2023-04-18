@@ -12531,16 +12531,6 @@ MozLWTheme
 NonTSPseudoClass
 :
 :
-MozLWThemeBrightText
-|
-NonTSPseudoClass
-:
-:
-MozLWThemeDarkText
-|
-NonTSPseudoClass
-:
-:
 MozLocaleDir
 (
 .

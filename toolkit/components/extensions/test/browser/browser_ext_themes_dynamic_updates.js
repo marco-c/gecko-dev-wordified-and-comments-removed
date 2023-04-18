@@ -267,11 +267,13 @@ docEl
 getAttribute
 (
 "
-lwthemetextcolor
+lwtheme
+-
+brighttext
 "
 )
 "
-bright
+true
 "
 "
 LWT
