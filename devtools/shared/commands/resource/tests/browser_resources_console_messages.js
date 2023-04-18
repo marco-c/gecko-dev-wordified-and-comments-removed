@@ -965,9 +965,6 @@ log
 filename
 :
 documentFilename
-functionName
-:
-EXPECTED_FUNCTION_NAME
 timeStamp
 :
 NUMBER_REGEX
@@ -997,9 +994,6 @@ info
 filename
 :
 documentFilename
-functionName
-:
-EXPECTED_FUNCTION_NAME
 timeStamp
 :
 NUMBER_REGEX
@@ -1029,9 +1023,6 @@ warn
 filename
 :
 documentFilename
-functionName
-:
-EXPECTED_FUNCTION_NAME
 timeStamp
 :
 NUMBER_REGEX
@@ -1118,9 +1109,6 @@ log
 filename
 :
 documentFilename
-functionName
-:
-EXPECTED_FUNCTION_NAME
 timeStamp
 :
 NUMBER_REGEX
@@ -1210,9 +1198,6 @@ info
 filename
 :
 documentFilename
-functionName
-:
-EXPECTED_FUNCTION_NAME
 timeStamp
 :
 NUMBER_REGEX
@@ -1242,9 +1227,6 @@ warn
 filename
 :
 documentFilename
-functionName
-:
-EXPECTED_FUNCTION_NAME
 timeStamp
 :
 NUMBER_REGEX
@@ -1283,9 +1265,6 @@ debug
 filename
 :
 documentFilename
-functionName
-:
-EXPECTED_FUNCTION_NAME
 timeStamp
 :
 NUMBER_REGEX
@@ -1310,9 +1289,6 @@ trace
 filename
 :
 documentFilename
-functionName
-:
-EXPECTED_FUNCTION_NAME
 timeStamp
 :
 NUMBER_REGEX
@@ -1342,9 +1318,6 @@ dir
 filename
 :
 documentFilename
-functionName
-:
-EXPECTED_FUNCTION_NAME
 timeStamp
 :
 NUMBER_REGEX
@@ -1404,9 +1377,6 @@ log
 filename
 :
 documentFilename
-functionName
-:
-EXPECTED_FUNCTION_NAME
 timeStamp
 :
 NUMBER_REGEX
@@ -1459,11 +1429,6 @@ error
 filename
 :
 documentFilename
-functionName
-:
-"
-fromAsmJS
-"
 timeStamp
 :
 NUMBER_REGEX
@@ -1541,11 +1506,6 @@ log
 filename
 :
 gTestPath
-functionName
-:
-"
-frameScript
-"
 timeStamp
 :
 NUMBER_REGEX
