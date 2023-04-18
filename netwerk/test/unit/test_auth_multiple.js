@@ -2048,10 +2048,12 @@ response
 let
 httpserv
 ;
-function
-setup
+add_setup
+(
 (
 )
+=
+>
 {
 Services
 .
@@ -2262,8 +2264,6 @@ stop
 )
 ;
 }
-setup
-(
 )
 ;
 add_task
