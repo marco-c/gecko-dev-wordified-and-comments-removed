@@ -68,8 +68,6 @@ nsIPrincipal
 aPrincipal
 int32_t
 aDelay
-bool
-aMetaRefresh
 )
 :
 mDocShell
@@ -87,10 +85,6 @@ aPrincipal
 mDelay
 (
 aDelay
-)
-mMetaRefresh
-(
-aMetaRefresh
 )
 {
 }
@@ -155,7 +149,6 @@ ForceRefreshURIFromTimer
 mURI
 mPrincipal
 delay
-mMetaRefresh
 aTimer
 )
 ;

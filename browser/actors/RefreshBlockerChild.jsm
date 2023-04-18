@@ -489,7 +489,6 @@ null
 data
 .
 delay
-true
 )
 ;
 break
