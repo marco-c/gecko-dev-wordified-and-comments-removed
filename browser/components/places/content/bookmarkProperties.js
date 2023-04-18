@@ -1824,15 +1824,6 @@ blur
 (
 )
 ;
-if
-(
-this
-.
-_node
-.
-bookmarkGuid
-)
-{
 window
 .
 arguments
@@ -1846,7 +1837,6 @@ gEditItemOverlay
 .
 _bookmarkState
 ;
-}
 gEditItemOverlay
 .
 uninitPanel
