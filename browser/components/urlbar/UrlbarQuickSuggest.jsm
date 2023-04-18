@@ -568,6 +568,11 @@ advertiser
 result
 .
 advertiser
+iab_category
+:
+result
+.
+iab_category
 is_sponsored
 :
 !

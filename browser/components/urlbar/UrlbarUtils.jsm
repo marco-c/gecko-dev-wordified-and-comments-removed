@@ -4894,6 +4894,15 @@ type
 string
 "
 }
+sponsoredIabCategory
+:
+{
+type
+:
+"
+string
+"
+}
 sponsoredImpressionUrl
 :
 {
