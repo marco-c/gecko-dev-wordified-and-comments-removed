@@ -846,6 +846,9 @@ menulist
 menupopup
 >
 menuitem
+:
+is
+(
 [
 checked
 =
@@ -853,15 +856,6 @@ checked
 true
 "
 ]
-:
-not
-(
-menulist
-)
->
-menupopup
->
-menuitem
 [
 selected
 =
@@ -869,6 +863,7 @@ selected
 true
 "
 ]
+)
 {
 appearance
 :
@@ -889,6 +884,9 @@ menulist
 menupopup
 >
 menuitem
+:
+is
+(
 [
 checked
 =
@@ -896,14 +894,6 @@ checked
 true
 "
 ]
-:
-:
-before
-menulist
->
-menupopup
->
-menuitem
 [
 selected
 =
@@ -911,6 +901,7 @@ selected
 true
 "
 ]
+)
 :
 :
 before
