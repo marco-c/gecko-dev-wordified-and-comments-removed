@@ -210,7 +210,7 @@ session
 element
 )
 def
-test_sucess_input
+test_success_input
 (
 session
 inline
@@ -297,7 +297,7 @@ session
 element
 )
 def
-test_sucess_input_non_interactable
+test_success_input_non_interactable
 (
 session
 inline
