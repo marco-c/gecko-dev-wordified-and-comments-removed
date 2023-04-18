@@ -1580,6 +1580,8 @@ Bug
 ]
 Firefox
 96
+.
+0
 :
 The
 event
@@ -1779,7 +1781,7 @@ Firefox
 .
 0
 .
-1
+2
 .
 :
 accept_2
@@ -1911,7 +1913,7 @@ Firefox
 .
 0
 .
-1
+2
 .
 :
 dismissed_other
@@ -1970,7 +1972,7 @@ Firefox
 .
 0
 .
-1
+2
 .
 :
 learn_more
@@ -2002,7 +2004,7 @@ Firefox
 .
 0
 .
-1
+2
 .
 :
 learn_more_2
@@ -2102,7 +2104,7 @@ Firefox
 .
 0
 .
-1
+2
 .
 :
 reject_2
@@ -2147,7 +2149,7 @@ Firefox
 .
 0
 .
-1
+2
 .
 Changelog
 Firefox
@@ -2214,7 +2216,7 @@ Firefox
 .
 0
 .
-1
+2
 Objects
 changed
 to
@@ -2449,6 +2451,8 @@ Bug
 ]
 Firefox
 96
+.
+0
 :
 The
 event
@@ -2734,7 +2738,7 @@ Firefox
 .
 0
 .
-1
+2
 .
 :
 accept_2
@@ -2866,7 +2870,7 @@ Firefox
 .
 0
 .
-1
+2
 .
 :
 dismissed_other
@@ -2925,7 +2929,7 @@ Firefox
 .
 0
 .
-1
+2
 .
 :
 learn_more
@@ -2957,7 +2961,7 @@ Firefox
 .
 0
 .
-1
+2
 .
 :
 learn_more_2
@@ -3033,7 +3037,7 @@ Firefox
 .
 0
 .
-1
+2
 .
 :
 reject_2
@@ -3078,7 +3082,7 @@ Firefox
 .
 0
 .
-1
+2
 .
 Changelog
 Firefox
@@ -3096,7 +3100,7 @@ Firefox
 .
 0
 .
-1
+2
 Added
 accept_2
 reject_2
@@ -3597,6 +3601,8 @@ Bug
 ]
 Firefox
 96
+.
+0
 :
 The
 pref
@@ -3823,6 +3829,8 @@ Bug
 ]
 Firefox
 96
+.
+0
 :
 The
 pref
