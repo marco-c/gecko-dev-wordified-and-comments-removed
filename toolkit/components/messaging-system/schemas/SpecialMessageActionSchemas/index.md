@@ -1037,9 +1037,16 @@ feature
 #
 #
 #
-ENABLE_TOTAL_COOKIE_PROTECTION_SECTION
+ENABLE_TOTAL_COOKIE_PROTECTION_SECTION_AND_OPT_OUT
 Action
 for
+disabling
+the
+Total
+Cookie
+Protection
+feature
+and
 enabling
 an
 additional
@@ -1049,3 +1056,4 @@ in
 about
 :
 preferences
+.
