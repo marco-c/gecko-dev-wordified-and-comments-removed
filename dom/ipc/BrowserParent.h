@@ -933,6 +933,7 @@ RemoteDOMEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -948,6 +949,7 @@ WidgetKeyboardEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
