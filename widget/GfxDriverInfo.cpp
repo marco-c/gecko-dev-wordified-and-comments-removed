@@ -4381,6 +4381,15 @@ DeviceFamily
 :
 Bug1207665
 :
+vendor
+=
+DeviceVendor
+:
+:
+Intel
+;
+break
+;
 case
 DeviceFamily
 :
