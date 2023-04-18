@@ -4221,7 +4221,7 @@ id
 "
 extension
 -
-controlled
+controlling
 -
 web
 -
@@ -4975,7 +4975,7 @@ id
 "
 extension
 -
-controlled
+controlling
 -
 websites
 -
@@ -5487,7 +5487,7 @@ id
 "
 extension
 -
-controlled
+controlling
 -
 password
 -
@@ -5865,7 +5865,7 @@ isControlled
 "
 extension
 -
-controlled
+controlling
 -
 proxy
 -
@@ -6048,7 +6048,7 @@ id
 "
 extension
 -
-controlled
+controlling
 -
 proxy
 -

@@ -642,7 +642,7 @@ settingName
 return
 extension
 -
-controlled
+controlling
 -
 {
 extensionControlledL10nKeys
