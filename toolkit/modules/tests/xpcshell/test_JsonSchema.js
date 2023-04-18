@@ -1,5 +1,7 @@
 const
+{
 JsonSchema
+}
 =
 ChromeUtils
 .

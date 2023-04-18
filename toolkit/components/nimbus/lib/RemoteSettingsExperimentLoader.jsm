@@ -175,7 +175,7 @@ ExperimentAPI
 .
 jsm
 "
-Validator
+JsonSchema
 :
 "
 resource
@@ -1015,6 +1015,8 @@ const
 recipeValidator
 =
 new
+JsonSchema
+.
 Validator
 (
 await
@@ -1836,6 +1838,8 @@ featureId
 ]
 =
 new
+JsonSchema
+.
 Validator
 (
 schema
@@ -1900,6 +1904,8 @@ featureId
 ]
 =
 new
+JsonSchema
+.
 Validator
 (
 schema
