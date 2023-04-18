@@ -8,9 +8,6 @@ EXPORTED_SYMBOLS
 =
 [
 "
-CONTEXT_DESCRIPTOR_TYPES
-"
-"
 MessageHandler
 "
 ]
@@ -136,17 +133,6 @@ get
 (
 )
 )
-;
-const
-CONTEXT_DESCRIPTOR_TYPES
-=
-{
-ALL
-:
-"
-all
-"
-}
 ;
 class
 MessageHandler
