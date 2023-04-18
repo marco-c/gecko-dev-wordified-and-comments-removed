@@ -278,14 +278,6 @@ title
 ;
 event
 .
-nativeConsoleAPI
-=
-packet
-.
-nativeConsoleAPI
-;
-event
-.
 isFrameSwitching
 =
 packet
