@@ -2799,6 +2799,12 @@ ClearCachedWebrenderResources
 )
 override
 ;
+bool
+SetNeedFastSnaphot
+(
+)
+override
+;
 virtual
 void
 WindowUsesOMTC
@@ -3138,6 +3144,9 @@ mIMEHasQuit
 ;
 bool
 mIsFullyOccluded
+;
+bool
+mNeedFastSnaphot
 ;
 bool
 mCurrentPanGestureBelongsToSwipe

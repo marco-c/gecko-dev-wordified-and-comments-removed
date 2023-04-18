@@ -4063,6 +4063,16 @@ ClearCachedWebrenderResources
 {
 }
 virtual
+bool
+SetNeedFastSnaphot
+(
+)
+{
+return
+false
+;
+}
+virtual
 RefPtr
 <
 mozilla
