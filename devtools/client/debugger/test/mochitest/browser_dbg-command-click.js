@@ -195,9 +195,12 @@ waitForPaused
 dbg
 )
 ;
-assertDebugLine
+assertPausedAtSourceAndLine
 (
 dbg
+source
+.
+id
 3
 2
 )
