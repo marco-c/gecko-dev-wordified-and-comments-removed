@@ -540,7 +540,7 @@ return_value
 =
 request
 .
-getfuncargvalue
+getfixturevalue
 (
 "
 has_crashed

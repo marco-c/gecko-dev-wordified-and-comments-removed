@@ -197,9 +197,6 @@ quiet
     
 return
 wrapper
-pytest
-.
-fixture
 def
 minidump_files
 (
@@ -587,6 +584,30 @@ extra
     
 return
 files
+pytest
+.
+fixture
+(
+name
+=
+"
+minidump_files
+"
+)
+def
+minidump_files_fixture
+(
+request
+tmpdir
+)
+:
+    
+return
+minidump_files
+(
+request
+tmpdir
+)
 pytest
 .
 fixture
