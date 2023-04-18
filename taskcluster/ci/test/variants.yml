@@ -41,11 +41,6 @@ suffix
 "
 merge
 :
-attributes
-:
-e10s
-:
-false
 mozharness
 :
 extra
