@@ -132,10 +132,5 @@ PerformanceMeasure
 :
 PerformanceEntry
 {
-readonly
-attribute
-any
-detail
-;
 }
 ;
