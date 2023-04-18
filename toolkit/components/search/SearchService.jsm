@@ -950,8 +950,6 @@ search
 :
 "
 ex
-.
-result
 )
 ;
 }
