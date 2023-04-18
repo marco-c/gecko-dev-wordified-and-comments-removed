@@ -80,6 +80,13 @@ props
 .
 url
 }
+onClick
+=
+{
+props
+.
+onClick
+}
 className
 =
 {
