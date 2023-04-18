@@ -430,9 +430,10 @@ ui
 .
 _view
 .
-activeSummary
-=
+setActiveSummary
+(
 summary
+)
 ;
 info
 (
