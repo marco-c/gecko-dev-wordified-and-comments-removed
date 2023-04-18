@@ -515,6 +515,14 @@ FOG_RegisterContentChildShutdown
 }
 ;
 }
+nsIXULRuntime
+:
+:
+PROCESS_TYPE_GPU
+=
+>
+{
+}
 _
 =
 >
