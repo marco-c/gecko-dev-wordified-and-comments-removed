@@ -21,6 +21,11 @@ freeze
 (
 {
 "
+annotationEditorEnabled
+"
+:
+false
+"
 annotationMode
 "
 :
