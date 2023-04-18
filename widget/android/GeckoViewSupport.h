@@ -49,6 +49,9 @@ WindowEvent
 h
 "
 class
+nsPIDOMWindowOuter
+;
+class
 nsWindow
 ;
 namespace

@@ -87,6 +87,13 @@ nsNetUtil
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 namespace
 mozilla
 {
