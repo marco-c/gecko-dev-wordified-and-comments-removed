@@ -2443,7 +2443,10 @@ nsAndroidBridge
 )
 {
 }
-uint32_t
+hal
+:
+:
+ScreenOrientation
 AndroidBridge
 :
 :
@@ -2475,13 +2478,10 @@ GetScreenOrientation
 )
 ;
 return
-static_cast
-<
 hal
 :
 :
 ScreenOrientation
->
 (
 orientation
 )

@@ -22723,7 +22723,7 @@ IsTop
 )
 )
 {
-uint16_t
+auto
 orientation
 =
 mBrowsingContext
@@ -41597,7 +41597,10 @@ GetOrientationLock
 hal
 :
 :
-eScreenOrientation_None
+ScreenOrientation
+:
+:
+None
 )
 {
 MOZ_ASSERT
@@ -41620,7 +41623,10 @@ SetOrientationLock
 hal
 :
 :
-eScreenOrientation_None
+ScreenOrientation
+:
+:
+None
 )
 )
 ;
@@ -41642,7 +41648,10 @@ UpdateActiveOrientationLock
 hal
 :
 :
-eScreenOrientation_None
+ScreenOrientation
+:
+:
+None
 )
 ;
 }

@@ -83,6 +83,12 @@ BatteryInformation
 class
 NetworkInformation
 ;
+enum
+class
+ScreenOrientation
+:
+uint32_t
+;
 }
 class
 AndroidBridge
@@ -315,7 +321,10 @@ NetworkInformation
 aNetworkInfo
 )
 ;
-uint32_t
+hal
+:
+:
+ScreenOrientation
 GetScreenOrientation
 (
 )
