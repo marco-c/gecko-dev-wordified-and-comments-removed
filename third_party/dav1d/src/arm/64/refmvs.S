@@ -406,6 +406,7 @@ br
 x3
 10
 :
+AARCH64_VALID_JUMP_TARGET
 st1
 {
 v0
@@ -429,6 +430,7 @@ gt
 ret
 20
 :
+AARCH64_VALID_JUMP_TARGET
 st1
 {
 v0
@@ -452,6 +454,7 @@ gt
 ret
 320
 :
+AARCH64_VALID_JUMP_TARGET
 st1
 {
 v0
@@ -522,6 +525,7 @@ x1
 48
 160
 :
+AARCH64_VALID_JUMP_TARGET
 st1
 {
 v0
@@ -558,6 +562,7 @@ x1
 48
 80
 :
+AARCH64_VALID_JUMP_TARGET
 st1
 {
 v0
@@ -577,6 +582,7 @@ x1
 48
 40
 :
+AARCH64_VALID_JUMP_TARGET
 st1
 {
 v0
