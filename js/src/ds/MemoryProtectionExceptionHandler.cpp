@@ -125,7 +125,7 @@ include
 "
 ds
 /
-SplayTree
+AvlTree
 .
 h
 "
@@ -279,7 +279,7 @@ MOZ_UNANNOTATED
 LifoAlloc
 alloc
 ;
-SplayTree
+AvlTree
 <
 Region
 Region

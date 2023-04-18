@@ -36,7 +36,7 @@ include
 "
 ds
 /
-PriorityQueue
+AvlTree
 .
 h
 "
@@ -45,7 +45,7 @@ include
 "
 ds
 /
-SplayTree
+PriorityQueue
 .
 h
 "
@@ -2418,7 +2418,7 @@ allocationQueue
 using
 LiveRangeSet
 =
-SplayTree
+AvlTree
 <
 LiveRange
 *
@@ -2571,7 +2571,7 @@ CallRange
 CallRangeList
 callRangesList
 ;
-SplayTree
+AvlTree
 <
 CallRange
 *
@@ -3753,9 +3753,6 @@ char
 *
 who
 )
-;
-struct
-PrintLiveRange
 ;
 void
 dumpAllocations
