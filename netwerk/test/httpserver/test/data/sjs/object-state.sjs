@@ -82,6 +82,9 @@ match
 )
 {
 throw
+new
+Error
+(
 "
 Bad
 parameter
@@ -99,6 +102,7 @@ i
 "
 '
 "
+)
 ;
 }
 params

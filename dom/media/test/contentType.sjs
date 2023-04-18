@@ -504,10 +504,8 @@ nomime
 ;
 if
 (
+!
 sendContentType
-=
-=
-false
 )
 {
 var
@@ -523,10 +521,8 @@ type
 ;
 if
 (
+!
 contentType
-=
-=
-false
 )
 {
 /

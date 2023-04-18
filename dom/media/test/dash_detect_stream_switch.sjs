@@ -445,6 +445,9 @@ bytes
 )
 {
 throw
+new
+Error
+(
 "
 Should
 not
@@ -461,6 +464,7 @@ range
 "
 +
 range
+)
 ;
 }
 else
@@ -488,6 +492,9 @@ length
 )
 {
 throw
+new
+Error
+(
 "
 DASH
 -
@@ -520,6 +527,7 @@ Range
 header
 .
 "
+)
 ;
 }
 var
@@ -548,6 +556,9 @@ length
 )
 {
 throw
+new
+Error
+(
 "
 DASH
 -
@@ -580,6 +591,7 @@ Range
 header
 .
 "
+)
 ;
 }
 var
@@ -764,6 +776,9 @@ fileSize
 )
 {
 throw
+new
+Error
+(
 "
 Starting
 offset
@@ -790,6 +805,7 @@ fileSize
 ]
 .
 "
+)
 ;
 }
 /
