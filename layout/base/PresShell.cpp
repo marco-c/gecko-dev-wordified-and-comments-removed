@@ -12652,8 +12652,9 @@ nsIFrame
 aFrame
 )
 {
-return
-;
+#
+if
+0
 if
 (
 !
@@ -12749,6 +12750,8 @@ reflowed
 "
 )
 ;
+#
+endif
 }
 #
 endif
