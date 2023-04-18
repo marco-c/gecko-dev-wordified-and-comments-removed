@@ -1601,6 +1601,7 @@ aIsTrustedEvent
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ClickWithInputSource
 (
@@ -2470,6 +2471,7 @@ ErrorResult
 rv
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Click
 (
