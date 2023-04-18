@@ -139,14 +139,9 @@ return
 appInfo
 |
 |
-appInfo
+Services
 .
-getService
-(
-Ci
-.
-nsIXULRuntime
-)
+appinfo
 .
 processType
 =

@@ -1458,17 +1458,6 @@ etc
 off
 "
 "
-mozilla
-/
-use
--
-services
-"
-:
-"
-off
-"
-"
 consistent
 -
 return
