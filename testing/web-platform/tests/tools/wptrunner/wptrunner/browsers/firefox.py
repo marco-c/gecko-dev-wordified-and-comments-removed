@@ -591,13 +591,13 @@ gecko_e10s
 ]
             
 "
-enable_fission
+disable_fission
 "
 :
-run_info_data
+kwargs
 [
 "
-fission
+disable_fission
 "
 ]
             
@@ -1121,6 +1121,20 @@ debug_test
 "
 ]
     
+executor_kwargs
+[
+"
+disable_fission
+"
+]
+=
+kwargs
+[
+"
+disable_fission
+"
+]
+    
 return
 executor_kwargs
 def
@@ -1245,44 +1259,6 @@ None
 else
 False
     
-enable_fission
-=
-[
-item
-for
-item
-in
-[
-kwargs
-.
-get
-(
-"
-enable_fission
-"
-)
-                                        
-get_bool_pref_if_exists
-(
-"
-fission
-.
-autostart
-"
-)
-                                        
-True
-]
-if
-item
-is
-not
-None
-]
-[
-0
-]
-    
 rv
 =
 {
@@ -1348,14 +1324,30 @@ environ
 fission
 "
 :
-enable_fission
+not
+kwargs
+.
+get
+(
+"
+disable_fission
+"
+)
           
 "
 sessionHistoryInParent
 "
 :
 (
-enable_fission
+not
+kwargs
+.
+get
+(
+"
+disable_fission
+"
+)
 or
                                      
 get_bool_pref
@@ -3801,7 +3793,7 @@ test_type
 extra_prefs
 e10s
                  
-enable_fission
+disable_fission
 debug_test
 browser_channel
 binary
@@ -3849,9 +3841,9 @@ e10s
         
 self
 .
-enable_fission
+disable_fission
 =
-enable_fission
+disable_fission
         
 self
 .
@@ -4423,12 +4415,6 @@ True
 }
 )
         
-if
-self
-.
-enable_fission
-:
-            
 profile
 .
 set_preferences
@@ -4444,7 +4430,10 @@ True
 }
 )
         
-else
+if
+self
+.
+disable_fission
 :
             
 profile
@@ -4562,8 +4551,6 @@ version
 )
 :
             
-self
-.
 profile
 .
 set_preferences
@@ -5009,9 +4996,9 @@ None
 e10s
 =
 False
-enable_fission
+disable_fission
 =
-True
+False
                  
 stackfix_dir
 =
@@ -5155,7 +5142,7 @@ extra_prefs
                                          
 e10s
                                          
-enable_fission
+disable_fission
                                          
 debug_test
                                          
@@ -5638,7 +5625,7 @@ e10s
 =
 False
                  
-enable_fission
+disable_fission
 =
 False
 stackfix_dir
@@ -5771,7 +5758,7 @@ extra_prefs
                                          
 e10s
                                          
-enable_fission
+disable_fission
                                          
 debug_test
                                          

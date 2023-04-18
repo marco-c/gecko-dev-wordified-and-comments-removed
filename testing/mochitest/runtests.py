@@ -19736,19 +19736,6 @@ options
 extraPrefs
 )
         
-if
-"
-fission
-.
-autostart
-"
-not
-in
-self
-.
-extraPrefs
-:
-            
 self
 .
 extraPrefs
@@ -19760,9 +19747,10 @@ autostart
 "
 ]
 =
+not
 options
 .
-fission
+disable_fission
         
 mozinfo
 .
@@ -19791,19 +19779,10 @@ e10s
 fission
 "
 :
-self
+not
+options
 .
-extraPrefs
-.
-get
-(
-"
-fission
-.
-autostart
-"
-True
-)
+disable_fission
                 
 "
 headless
@@ -21957,7 +21936,7 @@ get
 "
 fission
 "
-False
+True
 )
                     
 )
