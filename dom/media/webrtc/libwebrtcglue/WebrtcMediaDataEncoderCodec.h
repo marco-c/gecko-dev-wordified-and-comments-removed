@@ -193,6 +193,16 @@ aParameters
 )
 override
 ;
+WebrtcVideoEncoder
+:
+:
+EncoderInfo
+GetEncoderInfo
+(
+)
+const
+override
+;
 MediaEventSource
 <
 uint64_t
