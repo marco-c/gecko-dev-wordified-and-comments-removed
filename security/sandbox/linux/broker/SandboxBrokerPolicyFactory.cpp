@@ -3448,7 +3448,7 @@ snap
 policy
 -
 >
-AddDir
+AddFutureDir
 (
 rdonly
 snap

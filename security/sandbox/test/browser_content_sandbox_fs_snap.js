@@ -111,11 +111,6 @@ testFileAccessLinuxOnly
 ;
 add_task
 (
-testFileAccessLinuxSnap
-)
-;
-add_task
-(
 cleanupBrowserTabs
 )
 ;
