@@ -1222,7 +1222,7 @@ code
 =
 instance
 .
-ensureAndGetIndirectStub
+createIndirectStub
 (
 tier
 funcIndex
