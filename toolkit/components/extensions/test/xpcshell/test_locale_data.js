@@ -117,6 +117,7 @@ new
 ExtensionData
 (
 jarURI
+false
 )
 ;
 await

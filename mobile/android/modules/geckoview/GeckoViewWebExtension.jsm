@@ -2750,6 +2750,7 @@ new
 ExtensionData
 (
 aUri
+false
 )
 ;
 const

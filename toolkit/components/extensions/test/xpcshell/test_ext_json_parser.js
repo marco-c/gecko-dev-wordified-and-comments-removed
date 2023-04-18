@@ -199,6 +199,7 @@ new
 ExtensionData
 (
 uri
+false
 )
 ;
 await
@@ -342,6 +343,7 @@ new
 ExtensionData
 (
 uri
+false
 )
 ;
 let
