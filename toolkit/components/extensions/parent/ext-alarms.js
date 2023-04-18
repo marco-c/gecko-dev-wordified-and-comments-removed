@@ -467,7 +467,6 @@ _fire
 }
 primeListener
 (
-extension
 event
 fire
 )

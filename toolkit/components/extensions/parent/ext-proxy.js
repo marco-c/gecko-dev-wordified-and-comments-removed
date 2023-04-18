@@ -678,7 +678,6 @@ ExtensionAPI
 {
 primeListener
 (
-extension
 event
 fire
 params
@@ -699,6 +698,8 @@ return
 registerProxyFilterEvent
 (
 undefined
+this
+.
 extension
 fire
 .

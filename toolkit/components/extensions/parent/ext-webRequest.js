@@ -496,7 +496,6 @@ ExtensionAPI
 {
 primeListener
 (
-extension
 event
 fire
 params
@@ -526,6 +525,8 @@ blocking
 return
 registerEvent
 (
+this
+.
 extension
 event
 fire
