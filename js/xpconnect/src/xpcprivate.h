@@ -4106,6 +4106,9 @@ NewInstance
 JSContext
 *
 cx
+IID2NativeInterfaceMap
+*
+aMap
 const
 nsXPTInterfaceInfo
 *
