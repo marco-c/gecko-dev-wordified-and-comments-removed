@@ -2101,10 +2101,6 @@ JSContext
 *
 cx_
 ;
-jsbytecode
-*
-pc_
-;
 HandleScript
 script_
 ;
@@ -2984,12 +2980,6 @@ cx_
 generator
 .
 cx_
-)
-pc_
-(
-generator
-.
-pc_
 )
 script_
 (
