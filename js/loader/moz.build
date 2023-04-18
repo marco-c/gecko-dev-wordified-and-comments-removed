@@ -7,11 +7,6 @@ loader
 =
 [
 "
-ImportMap
-.
-h
-"
-"
 LoadContextBase
 .
 h
@@ -32,11 +27,6 @@ ModuleLoadRequest
 h
 "
 "
-ResolveResult
-.
-h
-"
-"
 ScriptKind
 .
 h
@@ -51,11 +41,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-ImportMap
-.
-cpp
-"
 "
 LoadContextBase
 .
