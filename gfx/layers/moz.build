@@ -199,13 +199,6 @@ h
 "
 d3d11
 /
-DiagnosticsD3D11
-.
-h
-"
-"
-d3d11
-/
 HelpersD3D11
 .
 h
@@ -229,13 +222,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-d3d11
-/
-DiagnosticsD3D11
-.
-cpp
-"
 "
 d3d11
 /

@@ -80,9 +80,6 @@ class
 DeviceAttachmentsD3D11
 ;
 class
-DiagnosticsD3D11
-;
-class
 CompositorD3D11
 :
 public
@@ -776,12 +773,6 @@ RefPtr
 DeviceAttachmentsD3D11
 >
 mAttachments
-;
-UniquePtr
-<
-DiagnosticsD3D11
->
-mDiagnostics
 ;
 LayoutDeviceIntSize
 mSize
