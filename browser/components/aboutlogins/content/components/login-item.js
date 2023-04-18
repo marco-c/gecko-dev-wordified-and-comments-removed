@@ -3500,6 +3500,11 @@ this
 setLogin
 (
 login
+{
+skipFocusChange
+:
+true
+}
 )
 ;
 }
