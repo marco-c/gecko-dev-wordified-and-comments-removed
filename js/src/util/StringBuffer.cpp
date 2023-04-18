@@ -607,6 +607,8 @@ empty
 }
 if
 (
+MOZ_UNLIKELY
+(
 !
 JSString
 :
@@ -615,6 +617,7 @@ validateLength
 (
 cx_
 len
+)
 )
 )
 {
