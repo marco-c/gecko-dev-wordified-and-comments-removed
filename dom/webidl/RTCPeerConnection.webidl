@@ -716,6 +716,17 @@ getConfiguration
 (
 )
 ;
+void
+setConfiguration
+(
+optional
+RTCConfiguration
+configuration
+=
+{
+}
+)
+;
 [
 Deprecated
 =
