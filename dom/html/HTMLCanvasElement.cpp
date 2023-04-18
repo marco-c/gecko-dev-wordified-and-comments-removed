@@ -4678,7 +4678,7 @@ return
 CanvasRenderingContextHelper
 :
 :
-GetContext
+GetOrCreateContext
 (
 aCx
 aContextId
