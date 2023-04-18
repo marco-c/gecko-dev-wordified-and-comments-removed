@@ -501,9 +501,10 @@ TaskQueue
 >
 mTaskQueue
 ;
-DataMutex
+DataMutexBase
 <
 bool
+RecursiveMutex
 >
 mHasShutdown
 {
