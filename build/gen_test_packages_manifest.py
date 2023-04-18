@@ -529,26 +529,6 @@ append
 (
 pkg_name
 )
-        
-harness_requirements
-[
-harness
-]
-.
-append
-(
-"
-target
-.
-condprof
-.
-tests
-.
-tar
-.
-gz
-"
-)
     
 return
 harness_requirements
