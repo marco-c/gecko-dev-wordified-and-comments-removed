@@ -240,7 +240,7 @@ badge
 ;
 UpdateListener
 .
-init
+maybeShowUnsupportedNotification
 (
 )
 ;
