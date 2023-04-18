@@ -5446,9 +5446,10 @@ allowGC
 js
 :
 :
-ReportAllocationOverflow
+ReportOversizedAllocation
 (
 cx
+JSMSG_ALLOC_OVERFLOW
 )
 ;
 }
