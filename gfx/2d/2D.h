@@ -5259,6 +5259,10 @@ bool
 aApplySyntheticBold
 =
 false
+bool
+aHasColorGlyphs
+=
+false
 )
 ;
 #
