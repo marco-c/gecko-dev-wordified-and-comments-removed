@@ -590,6 +590,14 @@ false
 "
 quicksuggest
 .
+onboardingDialogVersion
+"
+0
+]
+[
+"
+quicksuggest
+.
 shouldShowOnboardingDialog
 "
 true
