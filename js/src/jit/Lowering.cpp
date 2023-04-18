@@ -24610,16 +24610,6 @@ index
 )
 )
 ;
-if
-(
-ins
--
->
-fallible
-(
-)
-)
-{
 assignSnapshot
 (
 lir
@@ -24631,7 +24621,6 @@ bailoutKind
 )
 )
 ;
-}
 defineBox
 (
 lir
