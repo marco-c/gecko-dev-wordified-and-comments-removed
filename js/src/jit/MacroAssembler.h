@@ -12631,8 +12631,7 @@ dest
 )
 DEFINED_ON
 (
-x86
-x64
+x86_shared
 arm64
 )
 ;
