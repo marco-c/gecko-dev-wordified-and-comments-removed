@@ -2053,7 +2053,7 @@ next
 zone
 -
 >
-traceScriptTableRoots
+traceRootsInMajorGC
 (
 trc
 )
