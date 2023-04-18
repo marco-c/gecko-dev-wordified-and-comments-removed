@@ -133,9 +133,9 @@ const
 frameActorId
 =
 await
-webConsoleUI
+hud
 .
-getFrameActor
+getSelectedFrameActorID
 (
 )
 ;

@@ -795,7 +795,7 @@ opened
 )
 ;
 }
-getDebuggerFrames
+getSelectedFrameActorID
 (
 )
 {
@@ -841,7 +841,7 @@ null
 return
 panel
 .
-getFrames
+getSelectedFrameActorID
 (
 )
 ;

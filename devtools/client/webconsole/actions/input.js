@@ -510,9 +510,9 @@ expression
 {
 frameActor
 :
-webConsoleUI
+hud
 .
-getFrameActor
+getSelectedFrameActorID
 (
 )
 selectedNodeActor
@@ -1694,10 +1694,9 @@ expression
 {
 frameActor
 :
-await
-webConsoleUI
+hud
 .
-getFrameActor
+getSelectedFrameActorID
 (
 )
 selectedNodeActor
