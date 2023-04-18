@@ -466,6 +466,16 @@ ninvoke
 #
 ifdef
 DEBUG
+uint32_t
+numIntermediate
+=
+NumIntermediateValues
+(
+mode
+(
+)
+)
+;
 if
 (
 JSContext
@@ -494,6 +504,8 @@ mode
 (
 )
 exprStack
+-
+numIntermediate
 )
 )
 {
