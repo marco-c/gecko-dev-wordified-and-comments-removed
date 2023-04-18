@@ -17914,6 +17914,13 @@ if
 hasPerspective
 )
 {
+transformItem
+-
+>
+MarkWithAssociatedPerspective
+(
+)
+;
 if
 (
 clipCapturedBy

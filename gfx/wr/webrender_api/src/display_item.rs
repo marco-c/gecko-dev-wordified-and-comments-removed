@@ -2881,6 +2881,9 @@ bool
 should_snap
 :
 bool
+paired_with_perspective
+:
+bool
 }
 Perspective
 {
@@ -7725,6 +7728,9 @@ is_2d_scale_translation
 :
 false
 should_snap
+:
+false
+paired_with_perspective
 :
 false
 }
