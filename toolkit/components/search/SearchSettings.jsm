@@ -276,12 +276,9 @@ PathUtils
 .
 join
 (
-await
 PathUtils
 .
-getProfileDir
-(
-)
+profileDir
 SETTINGS_FILENAME
 )
 ;
@@ -811,12 +808,9 @@ PathUtils
 .
 join
 (
-await
 PathUtils
 .
-getProfileDir
-(
-)
+profileDir
 SETTINGS_FILENAME
 )
 ;

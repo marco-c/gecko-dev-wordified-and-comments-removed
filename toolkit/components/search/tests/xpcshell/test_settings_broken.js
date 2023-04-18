@@ -449,12 +449,9 @@ PathUtils
 .
 join
 (
-await
 PathUtils
 .
-getProfileDir
-(
-)
+profileDir
 SETTINGS_FILENAME
 )
 enginesSettings
