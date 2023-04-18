@@ -5281,7 +5281,7 @@ index
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -5555,7 +5555,7 @@ StopRecycling
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -5700,7 +5700,7 @@ AssertAlive
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -13367,7 +13367,7 @@ Now
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )

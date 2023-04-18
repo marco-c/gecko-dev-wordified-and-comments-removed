@@ -378,7 +378,7 @@ Now
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -1762,7 +1762,7 @@ if
 mLastStatusReported
 &
 &
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -2325,7 +2325,7 @@ rv
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -3725,7 +3725,7 @@ MaybeReportTimingData
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
