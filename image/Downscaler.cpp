@@ -463,7 +463,10 @@ aOriginalSize
 ;
 mScale
 =
-gfxSize
+gfx
+:
+:
+MatrixScalesDouble
 (
 double
 (
@@ -1235,10 +1238,10 @@ ScaleRoundOut
 (
 mScale
 .
-width
+xScale
 mScale
 .
-height
+yScale
 )
 ;
 return
