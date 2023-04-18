@@ -302,6 +302,16 @@ return
 nullptr
 ;
 }
+ioSurf
+-
+>
+SetColorSpace
+(
+desc
+.
+colorSpace
+)
+;
 auto
 tex
 =

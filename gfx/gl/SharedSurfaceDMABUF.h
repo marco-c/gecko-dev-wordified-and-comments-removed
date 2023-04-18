@@ -237,6 +237,13 @@ IntSize
 1
 1
 )
+gfx
+:
+:
+ColorSpace
+:
+:
+SRGB
 )
 ;
 return
