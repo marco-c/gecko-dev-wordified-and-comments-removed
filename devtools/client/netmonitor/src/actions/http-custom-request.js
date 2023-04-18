@@ -295,8 +295,6 @@ headers
 request
 .
 headers
-.
-headers
 ;
 }
 if
