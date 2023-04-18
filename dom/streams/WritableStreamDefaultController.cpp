@@ -424,7 +424,7 @@ aRv
 {
 RefPtr
 <
-UnderlyingSinkAlgorithmsBase
+UnderlyingSinkAlgorithms
 >
 algorithms
 =
@@ -553,7 +553,7 @@ aStream
 WritableStreamDefaultController
 *
 aController
-UnderlyingSinkAlgorithmsBase
+UnderlyingSinkAlgorithms
 *
 aAlgorithms
 double
@@ -1135,7 +1135,7 @@ isEmpty
 ;
 RefPtr
 <
-UnderlyingSinkAlgorithmsBase
+UnderlyingSinkAlgorithms
 >
 algorithms
 =
@@ -1337,7 +1337,7 @@ MarkFirstWriteRequestInFlight
 ;
 RefPtr
 <
-UnderlyingSinkAlgorithmsBase
+UnderlyingSinkAlgorithms
 >
 algorithms
 =
