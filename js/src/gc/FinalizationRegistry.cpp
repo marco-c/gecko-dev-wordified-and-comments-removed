@@ -1675,9 +1675,6 @@ GlobalObject
 global
 )
 {
-AutoDisableCompartmentCheckTracer
-adcct
-;
 for
 (
 RecordSet
