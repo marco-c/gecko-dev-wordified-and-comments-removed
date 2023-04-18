@@ -49747,6 +49747,9 @@ Whether
 cubeb
 is
 sandboxed
+(
+AudioIPC
+)
 -
 name
 :
@@ -49789,6 +49792,15 @@ XP_WIN
 defined
 (
 _ARM64_
+)
+value
+:
+true
+#
+elif
+defined
+(
+XP_MACOSX
 )
 value
 :
