@@ -37685,8 +37685,6 @@ post
 ;
 \
 n
-\
-n
 "
                 
 reindent
@@ -59351,7 +59349,6 @@ CGIndenter
                     
 CGWrapper
 (
-                        
 CGIndenter
 (
 default
@@ -59368,15 +59365,10 @@ n
 post
 =
 "
-break
-;
-\
-n
 }
 \
 n
 "
-                    
 )
                 
 )
@@ -59447,21 +59439,42 @@ an
 optional
     
 argument
+for
+whether
+add
+a
+break
+add
+fallthrough
+annotation
+or
+add
+nothing
+    
 (
 defaulting
 to
-False
+add
+a
+break
 )
-for
-whether
-to
-fall
-through
 .
     
 "
 "
 "
+    
+ADD_BREAK
+=
+0
+    
+ADD_FALLTHROUGH
+=
+1
+    
+DONT_ADD_BREAK
+=
+2
     
 def
 __init__
@@ -59469,9 +59482,9 @@ __init__
 self
 expression
 body
-fallThrough
+breakOrFallthrough
 =
-False
+ADD_BREAK
 )
 :
         
@@ -59482,6 +59495,34 @@ __init__
 self
 [
 ]
+)
+        
+assert
+(
+            
+breakOrFallthrough
+=
+=
+CGCase
+.
+ADD_BREAK
+            
+or
+breakOrFallthrough
+=
+=
+CGCase
+.
+ADD_FALLTHROUGH
+            
+or
+breakOrFallthrough
+=
+=
+CGCase
+.
+DONT_ADD_BREAK
+        
 )
         
 self
@@ -59515,7 +59556,12 @@ body
 )
         
 if
-fallThrough
+breakOrFallthrough
+=
+=
+CGCase
+.
+ADD_FALLTHROUGH
 :
             
 bodyList
@@ -59537,7 +59583,13 @@ n
 )
 )
         
-else
+elif
+breakOrFallthrough
+=
+=
+CGCase
+.
+ADD_BREAK
 :
             
 bodyList
@@ -60091,6 +60143,7 @@ argCountCases
 .
 append
 (
+                    
 CGCase
 (
 str
@@ -60098,8 +60151,11 @@ str
 argCount
 )
 None
-True
+CGCase
+.
+ADD_FALLTHROUGH
 )
+                
 )
                 
 continue
@@ -75162,8 +75218,10 @@ eUninitialized
 toJSValCases
 =
 [
+            
 CGCase
 (
+                
 "
 eUninitialized
 "
@@ -75177,7 +75235,12 @@ false
 n
 "
 )
+CGCase
+.
+DONT_ADD_BREAK
+            
 )
+        
 ]
         
 destructorCases
@@ -75427,11 +75490,14 @@ append
                 
 CGCase
 (
+                    
 "
 eNull
 "
+                    
 CGGeneric
 (
+                        
 "
 rval
 .
@@ -75449,7 +75515,12 @@ true
 \
 n
 "
+CGCase
+.
+DONT_ADD_BREAK
+                    
 )
+                
 )
             
 )
@@ -76313,6 +76384,7 @@ toJSValCases
 .
 append
 (
+                    
 CGCase
 (
 "
@@ -76326,7 +76398,11 @@ name
 "
 ]
 conversionToJS
+CGCase
+.
+DONT_ADD_BREAK
 )
+                
 )
             
 else
@@ -76959,16 +77035,6 @@ define
 (
 )
                     
-+
-"
-\
-nreturn
-false
-;
-\
-n
-"
-                    
 const
 =
 True
@@ -77029,29 +77095,23 @@ CGGeneric
 define
 (
 )
-            
-else
-:
                 
-traceBody
-=
-"
-"
-            
 methods
 .
 append
 (
-                
+                    
 ClassMethod
 (
-                    
+                        
 "
 TraceUnion
 "
+                        
 "
 void
 "
+                        
 [
 Argument
 (
@@ -77064,12 +77124,13 @@ trc
 "
 )
 ]
+                        
 body
 =
 traceBody
-                
+                    
 )
-            
+                
 )
             
 if
@@ -77252,10 +77313,19 @@ self
 ownsMembers
 :
             
+if
+idlTypeNeedsCycleCollection
+(
+self
+.
+type
+)
+:
+                
 friend
 =
 (
-                
+                    
 "
 friend
 void
@@ -77270,7 +77340,7 @@ aUnion
 \
 n
 "
-                
+                    
 %
 CGUnionStruct
 .
@@ -77281,8 +77351,16 @@ self
 type
 True
 )
-            
+                
 )
+            
+else
+:
+                
+friend
+=
+"
+"
         
 else
 :
