@@ -8717,10 +8717,6 @@ mMayCreateShmem
 =
 true
 ;
-mBrokeredConnect
-=
-true
-;
 }
 #
 ifndef

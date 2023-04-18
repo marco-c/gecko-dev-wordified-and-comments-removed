@@ -2246,11 +2246,6 @@ share
 "
 )
 ;
-AddX11Dependencies
-(
-policy
-)
-;
 }
 void
 SandboxBrokerPolicyFactory
@@ -2305,6 +2300,11 @@ headless
 )
 {
 AddGLDependencies
+(
+policy
+)
+;
+AddX11Dependencies
 (
 policy
 )
