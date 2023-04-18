@@ -6655,6 +6655,17 @@ settingName
 presetValue
 ;
 }
+target
+.
+honorPageRuleMargins
+=
+value
+=
+=
+"
+default
+"
+;
 break
 ;
 case
