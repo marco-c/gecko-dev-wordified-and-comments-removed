@@ -19,6 +19,12 @@ memoize
 from
 taskgraph
 .
+parameters
+import
+Parameters
+from
+taskgraph
+.
 util
 import
 yaml
@@ -47,12 +53,6 @@ util
 python_path
 import
 import_sibling_modules
-from
-gecko_taskgraph
-.
-parameters
-import
-Parameters
 actions
 =
 [

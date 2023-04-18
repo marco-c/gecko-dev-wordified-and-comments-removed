@@ -1,4 +1,13 @@
 from
+taskgraph
+.
+parameters
+import
+Parameters
+from
+gecko_taskgraph
+.
+actions
 .
 registry
 import
@@ -9,12 +18,6 @@ gecko_taskgraph
 decision
 import
 taskgraph_decision
-from
-gecko_taskgraph
-.
-parameters
-import
-Parameters
 from
 gecko_taskgraph
 .
