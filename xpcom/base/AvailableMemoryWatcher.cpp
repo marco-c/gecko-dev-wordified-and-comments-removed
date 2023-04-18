@@ -703,13 +703,6 @@ defined
 (
 XP_MACOSX
 )
-&
-&
-!
-defined
-(
-XP_LINUX
-)
 already_AddRefed
 <
 nsAvailableMemoryWatcherBase
