@@ -648,6 +648,10 @@ blockedSubview
 -
 buttons
 {
+display
+:
+flex
+;
 margin
 -
 top
