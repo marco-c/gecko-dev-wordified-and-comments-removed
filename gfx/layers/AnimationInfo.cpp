@@ -949,7 +949,7 @@ widget
 )
 -
 >
-HasLayerManager
+HasWindowRenderer
 (
 )
 )
