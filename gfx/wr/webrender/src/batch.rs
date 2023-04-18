@@ -6947,15 +6947,7 @@ INVALID
 &
 surface
 .
-opaque_rect
-.
-contains_box
-(
-&
-surface
-.
-rect
-)
+is_opaque
 &
 &
 transform_kind
