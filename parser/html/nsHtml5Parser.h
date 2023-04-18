@@ -37,13 +37,6 @@ h
 #
 include
 "
-nsITokenizer
-.
-h
-"
-#
-include
-"
 nsIContentSink
 .
 h

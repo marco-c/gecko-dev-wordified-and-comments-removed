@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsITokenizer
-.
-h
-"
-#
-include
-"
 nsHTMLTags
 .
 h
