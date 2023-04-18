@@ -1978,10 +1978,6 @@ const
 AudioSegment
 *
 aSegment
-const
-PrincipalHandle
-&
-aPrincipalHandle
 )
 {
 MOZ_ASSERT
@@ -2047,7 +2043,9 @@ chunk
 >
 mPrincipalHandle
 =
-aPrincipalHandle
+c
+.
+mPrincipalHandle
 ;
 }
 }
