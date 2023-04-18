@@ -142,6 +142,9 @@ Worker
 interface
 NavigationPreloadManager
 {
+[
+NewObject
+]
 Promise
 <
 void
@@ -150,6 +153,9 @@ enable
 (
 )
 ;
+[
+NewObject
+]
 Promise
 <
 void
@@ -158,6 +164,9 @@ disable
 (
 )
 ;
+[
+NewObject
+]
 Promise
 <
 void
@@ -168,6 +177,9 @@ ByteString
 value
 )
 ;
+[
+NewObject
+]
 Promise
 <
 NavigationPreloadState

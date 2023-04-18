@@ -146,6 +146,9 @@ Promise
 >
 Enable
 (
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -154,6 +157,9 @@ Promise
 >
 Disable
 (
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -166,6 +172,9 @@ const
 nsACString
 &
 aHeader
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -174,6 +183,9 @@ Promise
 >
 GetState
 (
+ErrorResult
+&
+aError
 )
 ;
 private
@@ -193,6 +205,9 @@ SetEnabled
 (
 bool
 aEnabled
+ErrorResult
+&
+aError
 )
 ;
 nsCOMPtr
