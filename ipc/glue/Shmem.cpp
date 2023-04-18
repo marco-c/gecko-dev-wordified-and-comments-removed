@@ -2028,14 +2028,9 @@ Message
 Shmem
 :
 :
-ShareTo
+MkCreatedMessage
 (
 PrivateIPDLCaller
-base
-:
-:
-ProcessId
-aTargetPid
 int32_t
 routingId
 )
@@ -2069,9 +2064,8 @@ if
 mSegment
 -
 >
-ShareHandle
+WriteHandle
 (
-aTargetPid
 msg
 .
 get
@@ -2105,7 +2099,7 @@ Message
 Shmem
 :
 :
-UnshareFrom
+MkDestroyedMessage
 (
 PrivateIPDLCaller
 int32_t

@@ -267,13 +267,8 @@ Signal
 )
 ;
 CrossProcessSemaphoreHandle
-ShareToProcess
+CloneHandle
 (
-base
-:
-:
-ProcessId
-aTargetPid
 )
 ;
 void

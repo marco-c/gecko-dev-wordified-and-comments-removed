@@ -480,14 +480,9 @@ IPC
 :
 Message
 >
-ShareTo
+MkCreatedMessage
 (
 PrivateIPDLCaller
-base
-:
-:
-ProcessId
-aTargetPid
 int32_t
 routingId
 )
@@ -499,7 +494,7 @@ IPC
 :
 Message
 >
-UnshareFrom
+MkDestroyedMessage
 (
 PrivateIPDLCaller
 int32_t

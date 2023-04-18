@@ -189,13 +189,8 @@ Unlock
 )
 ;
 CrossProcessMutexHandle
-ShareToProcess
+CloneHandle
 (
-base
-:
-:
-ProcessId
-aTargetPid
 )
 ;
 private

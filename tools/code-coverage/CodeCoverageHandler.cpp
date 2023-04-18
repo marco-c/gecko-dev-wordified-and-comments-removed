@@ -831,16 +831,13 @@ CodeCoverageHandler
 :
 GetMutexHandle
 (
-int
-aProcId
 )
 {
 return
 mGcovLock
 .
-ShareToProcess
+CloneHandle
 (
-aProcId
 )
 ;
 }

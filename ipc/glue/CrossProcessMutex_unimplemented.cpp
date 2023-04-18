@@ -182,13 +182,8 @@ CrossProcessMutexHandle
 CrossProcessMutex
 :
 :
-ShareToProcess
+CloneHandle
 (
-base
-:
-:
-ProcessId
-aTargetPid
 )
 {
 MOZ_CRASH

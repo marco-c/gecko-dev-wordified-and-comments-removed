@@ -709,13 +709,8 @@ nullptr
 }
 }
 nsresult
-ShareToProcess
+CloneHandle
 (
-base
-:
-:
-ProcessId
-aPid
 SharedMemoryBasic
 :
 :

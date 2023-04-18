@@ -62,8 +62,6 @@ GetMutex
 CrossProcessMutexHandle
 GetMutexHandle
 (
-int
-aProcId
 )
 ;
 static
