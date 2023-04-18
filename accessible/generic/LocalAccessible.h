@@ -1984,6 +1984,17 @@ DisplayStyle
 const
 override
 ;
+virtual
+Maybe
+<
+float
+>
+Opacity
+(
+)
+const
+override
+;
 protected
 :
 virtual

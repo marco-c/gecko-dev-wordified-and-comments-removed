@@ -286,6 +286,13 @@ nsIAccessibleStates
 EXT_STATE_SELECTABLE_TEXT
 ;
 const
+EXT_STATE_OPAQUE
+=
+nsIAccessibleStates
+.
+EXT_STATE_OPAQUE
+;
+const
 kOrdinalState
 =
 false
