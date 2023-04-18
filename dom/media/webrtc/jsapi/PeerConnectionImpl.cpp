@@ -15813,7 +15813,6 @@ idGen
 mIdGenerator
 ]
 (
-const
 nsTArray
 <
 UniquePtr
@@ -15824,7 +15823,6 @@ dom
 RTCStatsCollection
 >
 >
-&
 aStats
 )
 mutable
@@ -15834,7 +15832,13 @@ idGen
 >
 RewriteIds
 (
+std
+:
+:
+move
+(
 aStats
+)
 report
 .
 get
