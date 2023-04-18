@@ -51,3 +51,6 @@ I
 {
 includedir
 }
+-
+D
+DLLEXPORT_TO_DEFINE

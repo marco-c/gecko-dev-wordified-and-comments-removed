@@ -45,7 +45,7 @@ JXL_OS_LINUX
 endif
 #
 ifdef
-__MACH__
+__APPLE__
 #
 define
 JXL_OS_MAC

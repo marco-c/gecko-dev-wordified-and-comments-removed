@@ -456,6 +456,8 @@ linux
 gnueabihf
 -
 gcc
+-
+11
 CXX
 =
 arm
@@ -467,6 +469,8 @@ gnueabihf
 g
 +
 +
+-
+11
 cmake
 .
 .
@@ -563,6 +567,8 @@ linux
 gnu
 -
 gcc
+-
+11
 CXX
 =
 aarch64
@@ -574,6 +580,8 @@ gnu
 g
 +
 +
+-
+11
 cmake
 .
 .

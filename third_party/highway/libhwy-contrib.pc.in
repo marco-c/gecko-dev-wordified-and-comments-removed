@@ -31,10 +31,11 @@ Additions
 to
 Highway
 :
+dot
+product
 image
-and
 math
-library
+sort
 Version
 :
 HWY_LIBRARY_VERSION

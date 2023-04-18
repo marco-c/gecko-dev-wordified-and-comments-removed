@@ -27,9 +27,19 @@ detect_targets
 .
 h
 "
+#
+include
+"
+hwy
+/
+highway_export
+.
+h
+"
 namespace
 hwy
 {
+HWY_DLLEXPORT
 uint32_t
 SupportedTargets
 (
@@ -66,6 +76,7 @@ SupportedTargets
 )
 #
 endif
+HWY_DLLEXPORT
 void
 DisableTargets
 (
@@ -73,6 +84,7 @@ uint32_t
 disabled_targets
 )
 ;
+HWY_DLLEXPORT
 void
 SetSupportedTargetsForTest
 (
@@ -80,6 +92,7 @@ uint32_t
 targets
 )
 ;
+HWY_DLLEXPORT
 bool
 SupportedTargetsCalledForTest
 (
@@ -699,6 +712,7 @@ ChosenTarget
 {
 public
 :
+HWY_DLLEXPORT
 void
 Update
 (
@@ -773,9 +787,12 @@ mask_
 ;
 }
 ;
-extern
+HWY_DLLEXPORT
 ChosenTarget
-chosen_target
+&
+GetChosenTarget
+(
+)
 ;
 }
 #

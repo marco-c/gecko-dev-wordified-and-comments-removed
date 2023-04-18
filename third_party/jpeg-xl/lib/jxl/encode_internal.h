@@ -291,6 +291,15 @@ option_values
 ImageBundle
 frame
 ;
+std
+:
+:
+vector
+<
+uint8_t
+>
+ec_initialized
+;
 }
 ;
 struct
