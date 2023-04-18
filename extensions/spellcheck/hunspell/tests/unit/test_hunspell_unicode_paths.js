@@ -257,11 +257,13 @@ baseDir
 ;
 spellCheck
 .
-dictionary
+dictionaries
 =
+[
 "
 dict
 "
+]
 ;
 ok
 (
