@@ -2095,6 +2095,9 @@ aURI
 nsIURI
 *
 aOriginalURI
+nsIReferrerInfo
+*
+aReferrerInfo
 nsIPrincipal
 *
 aTriggeringPrincipal
