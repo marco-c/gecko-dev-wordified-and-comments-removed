@@ -1607,8 +1607,6 @@ screenshots
 "
 )
 ;
-break
-;
 }
 }
 }

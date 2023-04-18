@@ -30,6 +30,17 @@ path
 testing
 /
 condprofile
+path
+:
+testing
+/
+mozharness
+/
+external_tools
+/
+tooltool
+.
+py
 glob
 :
 *
