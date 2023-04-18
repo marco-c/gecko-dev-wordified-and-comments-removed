@@ -3,11 +3,17 @@ use
 strict
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Async
 "
@@ -337,6 +343,8 @@ cleartexts
 ]
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -525,6 +533,8 @@ serverItems
 const
 yieldState
 =
+lazy
+.
 Async
 .
 yieldState
@@ -538,6 +548,8 @@ clientRecords
 ]
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -570,6 +582,8 @@ serverRecords
 ]
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach

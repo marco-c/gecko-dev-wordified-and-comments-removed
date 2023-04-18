@@ -108,11 +108,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -135,7 +141,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonRepository
 "
@@ -233,6 +239,8 @@ id
 )
 ;
 return
+lazy
+.
 AddonManager
 .
 getInstallForURL
@@ -659,6 +667,8 @@ needsRestart
 return
 ;
 }
+lazy
+.
 AddonManager
 .
 removeAddonListener
@@ -692,6 +702,8 @@ id
 return
 ;
 }
+lazy
+.
 AddonManager
 .
 removeAddonListener
@@ -707,6 +719,8 @@ addon
 }
 }
 ;
+lazy
+.
 AddonManager
 .
 addAddonListener
@@ -758,6 +772,8 @@ let
 addons
 =
 await
+lazy
+.
 AddonRepository
 .
 getAddonsByIDs

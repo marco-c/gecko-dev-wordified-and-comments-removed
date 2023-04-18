@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Weave
 "
@@ -918,6 +924,8 @@ false
 ;
 }
 return
+lazy
+.
 Weave
 .
 Status
@@ -925,6 +933,8 @@ Status
 login
 =
 =
+lazy
+.
 Weave
 .
 LOGIN_FAILED_LOGIN_REJECTED

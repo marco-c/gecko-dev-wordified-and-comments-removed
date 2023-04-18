@@ -75,11 +75,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Async
 "
@@ -102,7 +108,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -125,7 +131,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesSyncUtils
 "
@@ -148,7 +154,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 URLSearchParams
@@ -222,6 +228,8 @@ let
 aParams
 =
 new
+lazy
+.
 URLSearchParams
 (
 a
@@ -267,6 +275,8 @@ let
 bParams
 =
 new
+lazy
+.
 URLSearchParams
 (
 b
@@ -1108,7 +1118,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 SYNCED_ROOTS
 "
@@ -1117,21 +1127,29 @@ SYNCED_ROOTS
 =
 >
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
 .
 menuGuid
+lazy
+.
 PlacesUtils
 .
 bookmarks
 .
 toolbarGuid
+lazy
+.
 PlacesUtils
 .
 bookmarks
 .
 unfiledGuid
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1144,7 +1162,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ROOT_GUID_TO_QUERY_FOLDER_NAME
 "
@@ -1155,6 +1173,8 @@ ROOT_GUID_TO_QUERY_FOLDER_NAME
 (
 {
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1166,6 +1186,8 @@ rootGuid
 PLACES_ROOT
 "
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1177,6 +1199,8 @@ menuGuid
 BOOKMARKS_MENU
 "
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1188,6 +1212,8 @@ tagsGuid
 TAGS
 "
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1199,6 +1225,8 @@ unfiledGuid
 UNFILED_BOOKMARKS
 "
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1210,6 +1238,8 @@ toolbarGuid
 TOOLBAR
 "
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1262,6 +1292,8 @@ Set
 const
 yieldState
 =
+lazy
+.
 Async
 .
 yieldState
@@ -1400,6 +1432,8 @@ node
 )
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -1426,6 +1460,8 @@ node
 }
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -1551,6 +1587,8 @@ this
 .
 yieldState
 =
+lazy
+.
 Async
 .
 yieldState
@@ -1808,6 +1846,8 @@ rootChildren
 ]
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -2041,6 +2081,8 @@ record
 children
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -2226,6 +2268,8 @@ _linkParentIDs
 )
 {
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -2452,6 +2496,8 @@ _linkChildren
 )
 {
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -2487,6 +2533,8 @@ Set
 )
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -2653,6 +2701,8 @@ const
 inCycle
 =
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -2716,6 +2766,8 @@ return
 ;
 }
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -2760,6 +2812,8 @@ yieldState
 )
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -2936,6 +2990,8 @@ this
 .
 yieldState
 =
+lazy
+.
 Async
 .
 yieldState
@@ -2952,6 +3008,8 @@ return
 !
 (
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -2969,6 +3027,8 @@ recordsByQueryId
 )
 {
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -3021,6 +3081,8 @@ let
 params
 =
 new
+lazy
+.
 URLSearchParams
 (
 entry
@@ -3153,6 +3215,8 @@ Map
 let
 syncedRoots
 =
+lazy
+.
 SYNCED_ROOTS
 ;
 const
@@ -3194,6 +3258,8 @@ id
 let
 guid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -3233,6 +3299,8 @@ type
 )
 {
 case
+lazy
+.
 PlacesUtils
 .
 TYPE_X_MOZ_PLACE
@@ -3268,6 +3336,8 @@ bookmark
 break
 ;
 case
+lazy
+.
 PlacesUtils
 .
 TYPE_X_MOZ_PLACE_CONTAINER
@@ -3302,6 +3372,8 @@ name
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 LMANNO_FEEDURI
@@ -3329,6 +3401,8 @@ name
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 LMANNO_SITEURI
@@ -3364,6 +3438,8 @@ folder
 break
 ;
 case
+lazy
+.
 PlacesUtils
 .
 TYPE_X_MOZ_PLACE_SEPARATOR
@@ -3444,12 +3520,16 @@ treeNode
 .
 guid
 in
+lazy
+.
 ROOT_GUID_TO_QUERY_FOLDER_NAME
 )
 {
 let
 queryId
 =
+lazy
+.
 ROOT_GUID_TO_QUERY_FOLDER_NAME
 [
 treeNode
@@ -3522,6 +3602,8 @@ children
 ;
 }
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -3664,6 +3746,8 @@ for
 let
 rootGUID
 of
+lazy
+.
 SYNCED_ROOTS
 )
 {
@@ -3731,6 +3815,8 @@ Map
 )
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -3774,6 +3860,8 @@ yieldState
 )
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -3947,6 +4035,8 @@ differences
 if
 (
 !
+lazy
+.
 SYNCED_ROOTS
 .
 includes
@@ -4495,6 +4585,8 @@ id
 )
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -4695,6 +4787,8 @@ cleartexts
 ]
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -4753,6 +4847,8 @@ let
 clientTree
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseBookmarksTree

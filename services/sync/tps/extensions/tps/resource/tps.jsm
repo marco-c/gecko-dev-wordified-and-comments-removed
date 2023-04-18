@@ -67,11 +67,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Authentication
 :
@@ -685,7 +691,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fileProtocolHandler
 "
@@ -697,6 +703,8 @@ fileProtocolHandler
 let
 fileHandler
 =
+lazy
+.
 Services
 .
 io
@@ -725,7 +733,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gTextDecoder
 "
@@ -747,7 +755,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -1062,6 +1070,8 @@ shouldValidateForms
 false
 _placesInitDeferred
 :
+lazy
+.
 PromiseUtils
 .
 defer
@@ -1089,6 +1099,8 @@ function
 aTopic
 )
 {
+lazy
+.
 Services
 .
 obs
@@ -1104,6 +1116,8 @@ true
 this
 )
 ;
+lazy
+.
 Services
 .
 prefs
@@ -1124,6 +1138,8 @@ globalScore
 {
 if
 (
+lazy
+.
 Weave
 .
 Service
@@ -1136,6 +1152,8 @@ globalScore
 0
 )
 {
+lazy
+.
 Weave
 .
 Service
@@ -1175,6 +1193,8 @@ exc
 {
 errInfo
 =
+lazy
+.
 Log
 .
 exceptionStr
@@ -1187,6 +1207,8 @@ else
 {
 errInfo
 =
+lazy
+.
 Log
 .
 stackTrace
@@ -1198,6 +1220,8 @@ Error
 )
 ;
 }
+lazy
+.
 Logger
 .
 logError
@@ -1253,6 +1277,8 @@ data
 {
 try
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -1299,6 +1325,8 @@ function
 topic
 )
 {
+lazy
+.
 Services
 .
 obs
@@ -1313,6 +1341,8 @@ topic
 this
 )
 ;
+lazy
+.
 Logger
 .
 close
@@ -1366,6 +1396,8 @@ this
 _syncWipeAction
 )
 {
+lazy
+.
 Weave
 .
 Svc
@@ -1425,6 +1457,8 @@ _syncErrors
 0
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -1446,6 +1480,8 @@ _syncErrors
 +
 +
 ;
+lazy
+.
 CommonUtils
 .
 nextTick
@@ -1637,6 +1673,8 @@ fxaccounts
 onlogin
 "
 :
+lazy
+.
 Weave
 .
 Service
@@ -1671,6 +1709,8 @@ break
 ;
 default
 :
+lazy
+.
 Logger
 .
 logInfo
@@ -1710,6 +1750,8 @@ TPS_delayAutoSync
 (
 )
 {
+lazy
+.
 Weave
 .
 Svc
@@ -1726,6 +1768,8 @@ immediateInterval
 7200
 )
 ;
+lazy
+.
 Weave
 .
 Svc
@@ -1742,6 +1786,8 @@ idleInterval
 7200
 )
 ;
+lazy
+.
 Weave
 .
 Svc
@@ -1758,6 +1804,8 @@ activeInterval
 7200
 )
 ;
+lazy
+.
 Weave
 .
 Svc
@@ -1780,6 +1828,8 @@ TPS__quit
 (
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -1809,6 +1859,8 @@ aWindow
 action
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -1846,6 +1898,8 @@ case
 ACTION_ADD
 :
 await
+lazy
+.
 BrowserWindows
 .
 Add
@@ -1858,6 +1912,8 @@ private
 break
 ;
 }
+lazy
+.
 Logger
 .
 logPass
@@ -1895,6 +1951,8 @@ of
 tabs
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -1932,6 +1990,8 @@ case
 ACTION_ADD
 :
 await
+lazy
+.
 BrowserTabs
 .
 Add
@@ -1946,6 +2006,8 @@ break
 case
 ACTION_VERIFY
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -1970,10 +2032,14 @@ tabs
 "
 )
 ;
+lazy
+.
 Logger
 .
 AssertTrue
 (
+lazy
+.
 BrowserTabs
 .
 Find
@@ -2000,6 +2066,8 @@ break
 case
 ACTION_VERIFY_NOT
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2024,11 +2092,15 @@ tabs
 "
 )
 ;
+lazy
+.
 Logger
 .
 AssertTrue
 (
 !
+lazy
+.
 BrowserTabs
 .
 Find
@@ -2059,6 +2131,8 @@ break
 ;
 default
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2075,6 +2149,8 @@ action
 ;
 }
 }
+lazy
+.
 Logger
 .
 logPass
@@ -2112,6 +2188,8 @@ of
 prefs
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -2144,6 +2222,8 @@ let
 preference
 =
 new
+lazy
+.
 Preference
 (
 pref
@@ -2178,6 +2258,8 @@ break
 ;
 default
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2194,6 +2276,8 @@ action
 ;
 }
 }
+lazy
+.
 Logger
 .
 logPass
@@ -2237,6 +2321,8 @@ of
 data
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -2270,6 +2356,8 @@ let
 formdata
 =
 new
+lazy
+.
 FormData
 (
 datum
@@ -2310,6 +2398,8 @@ break
 case
 ACTION_VERIFY
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2333,6 +2423,8 @@ break
 case
 ACTION_VERIFY_NOT
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2364,6 +2456,8 @@ break
 ;
 default
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2380,6 +2474,8 @@ action
 ;
 }
 }
+lazy
+.
 Logger
 .
 logPass
@@ -2429,6 +2525,8 @@ stringify
 entry
 )
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -2462,6 +2560,8 @@ case
 ACTION_ADD
 :
 await
+lazy
+.
 HistoryEntry
 .
 Add
@@ -2478,6 +2578,8 @@ case
 ACTION_DELETE
 :
 await
+lazy
+.
 HistoryEntry
 .
 Delete
@@ -2493,11 +2595,15 @@ break
 case
 ACTION_VERIFY
 :
+lazy
+.
 Logger
 .
 AssertTrue
 (
 await
+lazy
+.
 HistoryEntry
 .
 Find
@@ -2526,6 +2632,8 @@ break
 case
 ACTION_VERIFY_NOT
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2533,6 +2641,8 @@ AssertTrue
 !
 (
 await
+lazy
+.
 HistoryEntry
 .
 Find
@@ -2566,6 +2676,8 @@ break
 ;
 default
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2582,6 +2694,8 @@ action
 ;
 }
 }
+lazy
+.
 Logger
 .
 logPass
@@ -2610,6 +2724,8 @@ e
 )
 {
 await
+lazy
+.
 DumpHistory
 (
 )
@@ -2642,6 +2758,8 @@ of
 passwords
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -2674,6 +2792,8 @@ let
 passwordOb
 =
 new
+lazy
+.
 Password
 (
 password
@@ -2687,6 +2807,8 @@ action
 case
 ACTION_ADD
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2711,6 +2833,8 @@ break
 case
 ACTION_VERIFY
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2736,6 +2860,8 @@ break
 case
 ACTION_VERIFY_NOT
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2766,6 +2892,8 @@ break
 case
 ACTION_DELETE
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2807,6 +2935,8 @@ updateProps
 null
 )
 {
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2838,6 +2968,8 @@ break
 ;
 default
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -2854,6 +2986,8 @@ action
 ;
 }
 }
+lazy
+.
 Logger
 .
 logPass
@@ -2881,6 +3015,8 @@ catch
 e
 )
 {
+lazy
+.
 DumpPasswords
 (
 )
@@ -2912,6 +3048,8 @@ of
 addons
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -2944,6 +3082,8 @@ let
 addon
 =
 new
+lazy
+.
 Addon
 (
 this
@@ -2982,6 +3122,8 @@ break
 case
 ACTION_VERIFY
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -3012,6 +3154,8 @@ break
 case
 ACTION_VERIFY_NOT
 :
+lazy
+.
 Logger
 .
 AssertFalse
@@ -3048,6 +3192,8 @@ break
 case
 ACTION_SET_ENABLED
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -3096,6 +3242,8 @@ action
 ;
 }
 }
+lazy
+.
 Logger
 .
 logPass
@@ -3171,6 +3319,8 @@ folder
 ]
 )
 {
+lazy
+.
 Logger
 .
 clearPotentialError
@@ -3221,6 +3371,8 @@ action
 ACTION_DELETE
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -3262,6 +3414,8 @@ bookmark
 placesItem
 =
 new
+lazy
+.
 Bookmark
 (
 bookmark
@@ -3281,6 +3435,8 @@ bookmark
 placesItem
 =
 new
+lazy
+.
 BookmarkFolder
 (
 bookmark
@@ -3300,6 +3456,8 @@ bookmark
 placesItem
 =
 new
+lazy
+.
 Livemark
 (
 bookmark
@@ -3319,6 +3477,8 @@ bookmark
 placesItem
 =
 new
+lazy
+.
 Separator
 (
 bookmark
@@ -3362,6 +3522,8 @@ action
 ACTION_VERIFY_NOT
 )
 {
+lazy
+.
 Logger
 .
 AssertTrue
@@ -3393,6 +3555,8 @@ bookmark
 }
 else
 {
+lazy
+.
 Logger
 .
 AssertTrue
@@ -3449,6 +3613,8 @@ of
 items
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -3520,6 +3686,8 @@ break
 }
 }
 }
+lazy
+.
 Logger
 .
 logPass
@@ -3548,6 +3716,8 @@ e
 )
 {
 await
+lazy
+.
 DumpBookmarks
 (
 )
@@ -3574,6 +3744,8 @@ of
 addresses
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -3606,6 +3778,8 @@ let
 addressOb
 =
 new
+lazy
+.
 Address
 (
 address
@@ -3643,6 +3817,8 @@ break
 case
 ACTION_VERIFY
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -3665,6 +3841,8 @@ break
 case
 ACTION_VERIFY_NOT
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -3695,6 +3873,8 @@ break
 case
 ACTION_DELETE
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -3723,6 +3903,8 @@ break
 ;
 default
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -3739,6 +3921,8 @@ action
 ;
 }
 }
+lazy
+.
 Logger
 .
 logPass
@@ -3767,6 +3951,8 @@ e
 )
 {
 await
+lazy
+.
 DumpAddresses
 (
 )
@@ -3793,6 +3979,8 @@ of
 creditCards
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -3825,6 +4013,8 @@ let
 creditCardOb
 =
 new
+lazy
+.
 CreditCard
 (
 creditCard
@@ -3862,6 +4052,8 @@ break
 case
 ACTION_VERIFY
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -3884,6 +4076,8 @@ break
 case
 ACTION_VERIFY_NOT
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -3914,6 +4108,8 @@ break
 case
 ACTION_DELETE
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -3942,6 +4138,8 @@ break
 ;
 default
 :
+lazy
+.
 Logger
 .
 AssertTrue
@@ -3958,6 +4156,8 @@ action
 ;
 }
 }
+lazy
+.
 Logger
 .
 logPass
@@ -3986,6 +4186,8 @@ e
 )
 {
 await
+lazy
+.
 DumpCreditCards
 (
 )
@@ -4015,6 +4217,8 @@ catch
 ex
 )
 {
+lazy
+.
 Logger
 .
 logError
@@ -4027,6 +4231,8 @@ server
 :
 "
 +
+lazy
+.
 Log
 .
 exceptionStr
@@ -4041,6 +4247,8 @@ try
 if
 (
 await
+lazy
+.
 Authentication
 .
 isLoggedIn
@@ -4048,6 +4256,8 @@ isLoggedIn
 )
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -4079,6 +4289,8 @@ finish
 )
 ;
 await
+lazy
+.
 Authentication
 .
 signOut
@@ -4088,6 +4300,8 @@ signOut
 await
 waiter
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -4100,6 +4314,8 @@ complete
 ;
 }
 await
+lazy
+.
 Authentication
 .
 deleteEmail
@@ -4119,6 +4335,8 @@ catch
 e
 )
 {
+lazy
+.
 Logger
 .
 logError
@@ -4131,6 +4349,8 @@ out
 :
 "
 +
+lazy
+.
 Log
 .
 exceptionStr
@@ -4158,6 +4378,8 @@ async
 let
 bookmarkEngine
 =
+lazy
+.
 Weave
 .
 Service
@@ -4273,6 +4495,8 @@ serverRecordDumpStr
 ;
 try
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -4290,6 +4514,8 @@ let
 clientTree
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseBookmarksTree
@@ -4324,6 +4550,8 @@ let
 validator
 =
 new
+lazy
+.
 BookmarkValidator
 (
 )
@@ -4390,6 +4618,8 @@ if
 count
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -4417,6 +4647,8 @@ name
 )
 ;
 }
+lazy
+.
 Logger
 .
 AssertEqual
@@ -4440,6 +4672,8 @@ catch
 e
 )
 {
+lazy
+.
 DumpBookmarks
 (
 )
@@ -4449,6 +4683,8 @@ if
 serverRecordDumpStr
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -4484,6 +4720,8 @@ e
 )
 ;
 }
+lazy
+.
 Logger
 .
 logInfo
@@ -4511,6 +4749,8 @@ clientRecordDumpStr
 ;
 try
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -4530,6 +4770,8 @@ engineName
 let
 engine
 =
+lazy
+.
 Weave
 .
 Service
@@ -4686,6 +4928,8 @@ if
 count
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -4713,6 +4957,8 @@ name
 )
 ;
 }
+lazy
+.
 Logger
 .
 AssertEqual
@@ -4748,6 +4994,8 @@ if
 clientRecordDumpStr
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -4774,6 +5022,8 @@ if
 serverRecordDumpStr
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -4809,6 +5059,8 @@ e
 )
 ;
 }
+lazy
+.
 Logger
 .
 logInfo
@@ -4834,6 +5086,8 @@ ValidateCollection
 "
 passwords
 "
+lazy
+.
 PasswordValidator
 )
 ;
@@ -4850,6 +5104,8 @@ ValidateCollection
 "
 forms
 "
+lazy
+.
 FormValidator
 )
 ;
@@ -4866,6 +5122,8 @@ ValidateCollection
 "
 addons
 "
+lazy
+.
 AddonValidator
 )
 ;
@@ -4875,6 +5133,8 @@ RunNextTestAction
 (
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -4908,6 +5168,8 @@ _currentPhase
 length
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -4985,12 +5247,16 @@ ValidateAddons
 )
 ;
 }
+lazy
+.
 SyncTelemetry
 .
 shutdown
 (
 )
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -5042,6 +5308,8 @@ this
 .
 seconds_since_epoch
 =
+lazy
+.
 Services
 .
 prefs
@@ -5119,6 +5387,8 @@ this
 _currentAction
 ]
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -5168,6 +5438,8 @@ e
 {
 if
 (
+lazy
+.
 Async
 .
 isShutdownException
@@ -5183,6 +5455,8 @@ this
 _requestedQuit
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -5256,6 +5530,8 @@ relativePath
 let
 file
 =
+lazy
+.
 fileProtocolHandler
 .
 getFileFromURLSpec
@@ -5282,6 +5558,8 @@ root
 .
 appendRelativePath
 (
+lazy
+.
 OS
 .
 Path
@@ -5318,6 +5596,8 @@ validate
 (
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -5361,6 +5641,8 @@ testFile
 {
 if
 (
+lazy
+.
 Services
 .
 prefs
@@ -5440,9 +5722,13 @@ stream
 init
 (
 schemaFile
+lazy
+.
 FileUtils
 .
 MODE_RDONLY
+lazy
+.
 FileUtils
 .
 PERMS_FILE
@@ -5452,6 +5738,8 @@ PERMS_FILE
 let
 bytes
 =
+lazy
+.
 NetUtil
 .
 readInputStream
@@ -5471,6 +5759,8 @@ JSON
 .
 parse
 (
+lazy
+.
 gTextDecoder
 .
 decode
@@ -5479,6 +5769,8 @@ bytes
 )
 )
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -5495,6 +5787,8 @@ this
 _pingValidator
 =
 new
+lazy
+.
 JsonSchema
 .
 Validator
@@ -5550,6 +5844,8 @@ options
 {
 }
 ;
+lazy
+.
 Logger
 .
 init
@@ -5557,6 +5853,8 @@ init
 logpath
 )
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -5567,9 +5865,13 @@ version
 :
 "
 +
+lazy
+.
 WEAVE_VERSION
 )
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -5580,6 +5882,8 @@ buildid
 :
 "
 +
+lazy
+.
 Services
 .
 appinfo
@@ -5587,6 +5891,8 @@ appinfo
 appBuildID
 )
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -5597,6 +5903,8 @@ version
 :
 "
 +
+lazy
+.
 Services
 .
 appinfo
@@ -5604,6 +5912,8 @@ appinfo
 version
 )
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -5616,6 +5926,8 @@ revision
 "
 +
 (
+lazy
+.
 AppConstants
 .
 SOURCE_REVISION_URL
@@ -5627,6 +5939,8 @@ unknown
 )
 )
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -5637,6 +5951,8 @@ platform
 :
 "
 +
+lazy
+.
 AppConstants
 .
 platform
@@ -5644,6 +5960,8 @@ platform
 ;
 if
 (
+lazy
+.
 Weave
 .
 Service
@@ -5677,6 +5995,8 @@ return
 if
 (
 !
+lazy
+.
 Weave
 .
 Status
@@ -5699,6 +6019,8 @@ ready
 ;
 }
 await
+lazy
+.
 Weave
 .
 Service
@@ -5712,6 +6034,8 @@ shouldValidateBookmarks
 false
 ;
 await
+lazy
+.
 Async
 .
 promiseYield
@@ -5765,6 +6089,8 @@ JSON
 .
 parse
 (
+lazy
+.
 Services
 .
 prefs
@@ -5779,6 +6105,8 @@ config
 )
 )
 ;
+lazy
+.
 Services
 .
 scriptloader
@@ -5983,6 +6311,8 @@ for
 let
 engine
 of
+lazy
+.
 Weave
 .
 Service
@@ -6006,6 +6336,8 @@ names
 )
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -6023,6 +6355,8 @@ name
 )
 ;
 await
+lazy
+.
 Weave
 .
 Service
@@ -6037,6 +6371,8 @@ engine
 }
 }
 }
+lazy
+.
 Logger
 .
 logInfo
@@ -6051,6 +6387,8 @@ this
 _currentPhase
 )
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -6073,6 +6411,8 @@ _currentPhase
 ]
 )
 ;
+lazy
+.
 Weave
 .
 Svc
@@ -6109,6 +6449,8 @@ _currentAction
 0
 ;
 await
+lazy
+.
 SessionStore
 .
 promiseAllWindowsRestored
@@ -6146,6 +6488,8 @@ _interceptSyncTelemetry
 let
 originalObserve
 =
+lazy
+.
 SyncTelemetry
 .
 observe
@@ -6155,6 +6499,8 @@ self
 =
 this
 ;
+lazy
+.
 SyncTelemetry
 .
 observe
@@ -6196,6 +6542,8 @@ e
 }
 }
 ;
+lazy
+.
 SyncTelemetry
 .
 submit
@@ -6204,6 +6552,8 @@ record
 =
 >
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -6260,6 +6610,8 @@ syncs
 length
 !
 =
+lazy
+.
 SyncTelemetry
 .
 maxPayloadCount
@@ -6521,6 +6873,8 @@ resolve
 =
 >
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -6549,6 +6903,8 @@ handler
 =
 >
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -6560,6 +6916,8 @@ Observed
 aEventName
 )
 ;
+lazy
+.
 Svc
 .
 Obs
@@ -6576,6 +6934,8 @@ resolve
 ;
 }
 ;
+lazy
+.
 Svc
 .
 Obs
@@ -6643,6 +7003,8 @@ waitForSyncFinished
 {
 if
 (
+lazy
+.
 Weave
 .
 Service
@@ -6707,6 +7069,8 @@ Login
 if
 (
 await
+lazy
+.
 Authentication
 .
 isReady
@@ -6717,6 +7081,8 @@ isReady
 return
 ;
 }
+lazy
+.
 Logger
 .
 logInfo
@@ -6732,6 +7098,8 @@ login
 )
 ;
 await
+lazy
+.
 Authentication
 .
 signIn
@@ -6750,15 +7118,21 @@ waitForSetupComplete
 (
 )
 ;
+lazy
+.
 Logger
 .
 AssertEqual
 (
+lazy
+.
 Weave
 .
 Status
 .
 service
+lazy
+.
 Weave
 .
 STATUS_OK
@@ -6808,6 +7182,8 @@ impossible
 return
 ;
 }
+lazy
+.
 Logger
 .
 logInfo
@@ -6842,6 +7218,8 @@ _syncWipeAction
 =
 wipeAction
 ;
+lazy
+.
 Weave
 .
 Svc
@@ -6859,6 +7237,8 @@ wipeAction
 }
 else
 {
+lazy
+.
 Weave
 .
 Svc
@@ -6878,6 +7258,8 @@ if
 !
 (
 await
+lazy
+.
 Weave
 .
 Service
@@ -6888,6 +7270,8 @@ login
 )
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -6915,6 +7299,8 @@ this
 .
 _syncCount
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -6945,6 +7331,8 @@ _triggeredSync
 true
 ;
 await
+lazy
+.
 Weave
 .
 Service
@@ -6953,6 +7341,8 @@ sync
 (
 )
 ;
+lazy
+.
 Logger
 .
 logInfo
@@ -6972,6 +7362,8 @@ resolve
 =
 >
 {
+lazy
+.
 CommonUtils
 .
 namedTimer
@@ -6993,6 +7385,8 @@ WipeServer
 (
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -7014,6 +7408,8 @@ Login
 )
 ;
 await
+lazy
+.
 Weave
 .
 Service
@@ -7023,6 +7419,8 @@ login
 )
 ;
 await
+lazy
+.
 Weave
 .
 Service
@@ -7786,6 +8184,8 @@ id
 data
 )
 {
+lazy
+.
 Logger
 .
 logInfo
@@ -7805,6 +8205,8 @@ data
 )
 ;
 await
+lazy
+.
 extensionStorageSync
 .
 set
@@ -7828,6 +8230,8 @@ let
 got
 =
 await
+lazy
+.
 extensionStorageSync
 .
 get
@@ -7838,6 +8242,8 @@ id
 keys
 )
 ;
+lazy
+.
 Logger
 .
 AssertEqual

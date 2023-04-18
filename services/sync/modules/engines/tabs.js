@@ -217,11 +217,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -244,7 +250,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SessionStore
 "
@@ -268,7 +274,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PlacesUtils
 :
@@ -292,7 +298,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExperimentAPI
 "
@@ -313,7 +319,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NimbusFeatures
 :
@@ -335,7 +341,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 TABS_FILTERED_SCHEMES
 "
@@ -808,6 +814,8 @@ win
 closed
 |
 |
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -826,6 +834,8 @@ JSON
 .
 parse
 (
+lazy
+.
 SessionStore
 .
 getTabState
@@ -961,6 +971,8 @@ url
 &
 &
 !
+lazy
+.
 TABS_FILTERED_SCHEMES
 .
 has
@@ -1115,6 +1127,8 @@ let
 iconData
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseFaviconData
@@ -1428,6 +1442,8 @@ browser
 {
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -1457,6 +1473,8 @@ allWindowsArePrivate
 &
 &
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
@@ -2000,6 +2018,8 @@ linkedBrowser
 ;
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -2009,6 +2029,8 @@ browser
 &
 &
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
@@ -2094,6 +2116,8 @@ return
 }
 if
 (
+lazy
+.
 TABS_FILTERED_SCHEMES
 .
 has
@@ -2128,6 +2152,8 @@ true
 const
 delayInMs
 =
+lazy
+.
 NimbusFeatures
 .
 syncAfterTabChange

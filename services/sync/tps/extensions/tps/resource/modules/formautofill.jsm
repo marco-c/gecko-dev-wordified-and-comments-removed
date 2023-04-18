@@ -38,11 +38,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 formAutofillStorage
 "
@@ -63,7 +69,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OSKeyStore
 "
@@ -171,6 +177,8 @@ getStorage
 )
 {
 await
+lazy
+.
 formAutofillStorage
 .
 initialize
@@ -178,6 +186,8 @@ initialize
 )
 ;
 return
+lazy
+.
 formAutofillStorage
 [
 this
@@ -347,6 +357,8 @@ subStorageName
 )
 {
 await
+lazy
+.
 formAutofillStorage
 .
 initialize
@@ -371,6 +383,8 @@ true
 const
 entries
 =
+lazy
+.
 formAutofillStorage
 [
 subStorageName
@@ -598,6 +612,8 @@ number
 ]
 =
 await
+lazy
+.
 OSKeyStore
 .
 decrypt

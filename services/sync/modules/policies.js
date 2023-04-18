@@ -228,11 +228,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Status
 "
@@ -255,7 +261,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -278,7 +284,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -318,7 +324,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 IdleService
 "
@@ -342,7 +348,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 CaptivePortalService
 "
@@ -868,11 +874,15 @@ io
 offline
 |
 |
+lazy
+.
 CaptivePortalService
 .
 state
 =
 =
+lazy
+.
 CaptivePortalService
 .
 LOCKED_PORTAL
@@ -1380,6 +1390,8 @@ this
 ;
 if
 (
+lazy
+.
 Status
 .
 checkSetup
@@ -1432,6 +1444,8 @@ sleep_notification
 this
 )
 ;
+lazy
+.
 IdleService
 .
 addIdleObserver
@@ -1485,6 +1499,8 @@ updated
 :
 if
 (
+lazy
+.
 Status
 .
 login
@@ -1676,6 +1692,8 @@ clearSyncTriggers
 (
 )
 ;
+lazy
+.
 Status
 .
 resetBackoff
@@ -1715,6 +1733,8 @@ adjustSyncInterval
 ;
 if
 (
+lazy
+.
 Status
 .
 service
@@ -1770,6 +1790,8 @@ this
 syncThreshold
 &
 &
+lazy
+.
 Status
 .
 service
@@ -1885,6 +1907,8 @@ _syncErrors
 ;
 if
 (
+lazy
+.
 Status
 .
 sync
@@ -2021,6 +2045,8 @@ clearSyncTriggers
 ;
 if
 (
+lazy
+.
 Status
 .
 login
@@ -2083,6 +2109,8 @@ _fatalLoginStatus
 .
 includes
 (
+lazy
+.
 Status
 .
 login
@@ -2222,12 +2250,16 @@ random
 25
 )
 ;
+lazy
+.
 Status
 .
 backoffInterval
 =
 interval
 ;
+lazy
+.
 Status
 .
 minimumNextSync
@@ -2254,6 +2286,8 @@ sync
 :
 "
 +
+lazy
+.
 Status
 .
 minimumNextSync
@@ -2370,6 +2404,8 @@ savePrefFile
 null
 )
 ;
+lazy
+.
 IdleService
 .
 addIdleObserver
@@ -2443,6 +2479,8 @@ setDefaults
 ;
 try
 {
+lazy
+.
 IdleService
 .
 removeIdleObserver
@@ -3368,6 +3406,8 @@ why
 {
 if
 (
+lazy
+.
 Status
 .
 login
@@ -3399,6 +3439,8 @@ status
 is
 "
 +
+lazy
+.
 Status
 .
 login
@@ -3524,6 +3566,8 @@ this
 missedFxACommandsFetchInterval
 )
 {
+lazy
+.
 fxAccounts
 .
 commands
@@ -3612,6 +3656,8 @@ syncInterval
 }
 if
 (
+lazy
+.
 Status
 .
 backoffInterval
@@ -3619,6 +3665,8 @@ backoffInterval
 &
 interval
 <
+lazy
+.
 Status
 .
 backoffInterval
@@ -3654,6 +3702,8 @@ backoff
 interval
 "
 +
+lazy
+.
 Status
 .
 backoffInterval
@@ -3667,6 +3717,8 @@ instead
 ;
 interval
 =
+lazy
+.
 Status
 .
 backoffInterval
@@ -3884,6 +3936,8 @@ this
 .
 _syncErrors
 MINIMUM_BACKOFF_INTERVAL
+lazy
+.
 Status
 .
 backoffInterval
@@ -4044,6 +4098,8 @@ _syncErrors
 if
 (
 !
+lazy
+.
 Status
 .
 enforceBackoff
@@ -4099,6 +4155,8 @@ backoff
 "
 )
 ;
+lazy
+.
 Status
 .
 enforceBackoff
@@ -4423,6 +4481,8 @@ subject
 newFailed
 )
 {
+lazy
+.
 Status
 .
 engines
@@ -4482,6 +4542,8 @@ checkServerError
 exception
 )
 ;
+lazy
+.
 Status
 .
 engines
@@ -4595,6 +4657,8 @@ error
 {
 if
 (
+lazy
+.
 Status
 .
 sync
@@ -4703,6 +4767,8 @@ service
 is
 "
 +
+lazy
+.
 Status
 .
 service
@@ -4710,6 +4776,8 @@ service
 ;
 if
 (
+lazy
+.
 Status
 .
 sync
@@ -4718,6 +4786,8 @@ sync
 SYNC_SUCCEEDED
 &
 &
+lazy
+.
 Status
 .
 service
@@ -4753,6 +4823,8 @@ lastSyncReassigned
 }
 if
 (
+lazy
+.
 Status
 .
 service
@@ -4920,6 +4992,8 @@ try
 addons
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonsByTypes
@@ -5130,6 +5204,8 @@ resp
 RESPONSE_OVER_QUOTA
 )
 {
+lazy
+.
 Status
 .
 sync
@@ -5304,6 +5380,8 @@ case
 case
 504
 :
+lazy
+.
 Status
 .
 enforceBackoff
@@ -5372,6 +5450,8 @@ service
 isLoggedIn
 )
 {
+lazy
+.
 Status
 .
 sync
@@ -5381,6 +5461,8 @@ SERVER_MAINTENANCE
 }
 else
 {
+lazy
+.
 Status
 .
 login
@@ -5460,6 +5542,8 @@ service
 isLoggedIn
 )
 {
+lazy
+.
 Status
 .
 sync
@@ -5469,6 +5553,8 @@ LOGIN_FAILED_NETWORK_ERROR
 }
 else
 {
+lazy
+.
 Status
 .
 login

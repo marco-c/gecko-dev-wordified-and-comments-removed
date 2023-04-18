@@ -213,11 +213,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Weave
 "
@@ -240,7 +246,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BulkKeyBundle
 "
@@ -263,7 +269,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -303,7 +309,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CommonUtils
 "
@@ -326,7 +332,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -377,7 +383,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 IGNORE_CACHED_AUTH_CREDENTIALS
 "
@@ -499,6 +505,8 @@ this
 .
 _fxaService
 =
+lazy
+.
 fxAccounts
 ;
 this
@@ -526,6 +534,8 @@ this
 .
 _log
 =
+lazy
+.
 log
 ;
 XPCOMUtils
@@ -554,6 +564,8 @@ Async
 asyncObserver
 (
 this
+lazy
+.
 log
 )
 ;
@@ -1003,6 +1015,8 @@ verified
 "
 )
 ;
+lazy
+.
 Weave
 .
 Status
@@ -1015,6 +1029,8 @@ let
 isFirstSync
 =
 !
+lazy
+.
 Weave
 .
 Service
@@ -1107,6 +1123,8 @@ false
 )
 )
 {
+lazy
+.
 Weave
 .
 Service
@@ -1131,6 +1149,8 @@ fxAccountsCommon
 .
 ONLOGOUT_NOTIFICATION
 :
+lazy
+.
 Weave
 .
 Service
@@ -1292,6 +1312,8 @@ _token
 =
 null
 ;
+lazy
+.
 Weave
 .
 Service
@@ -1335,6 +1357,8 @@ if
 data
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1360,6 +1384,8 @@ this
 username
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1388,6 +1414,8 @@ data
 verified
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1418,6 +1446,8 @@ SCOPE_OLD_SYNC
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1450,6 +1480,8 @@ ensureMPUnlocked
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1499,6 +1531,8 @@ result
 LOGIN_FAILED_LOGIN_REJECTED
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -1526,6 +1560,8 @@ _hasValidToken
 {
 if
 (
+lazy
+.
 IGNORE_CACHED_AUTH_CREDENTIALS
 )
 {
@@ -1939,6 +1975,8 @@ this
 .
 _syncKeyBundle
 =
+lazy
+.
 BulkKeyBundle
 .
 fromJWK
@@ -1947,6 +1985,8 @@ key
 )
 ;
 }
+lazy
+.
 Weave
 .
 Status
@@ -2081,6 +2121,8 @@ _fetchTokenForUser
 err
 )
 ;
+lazy
+.
 Weave
 .
 Status
@@ -2109,6 +2151,8 @@ _fetchTokenForUser
 err
 )
 ;
+lazy
+.
 Weave
 .
 Status
@@ -2665,6 +2709,8 @@ if
 cluster
 =
 =
+lazy
+.
 Weave
 .
 Service
@@ -2691,6 +2737,8 @@ to
 cluster
 )
 ;
+lazy
+.
 Weave
 .
 Service
@@ -2717,6 +2765,8 @@ false
 ;
 if
 (
+lazy
+.
 Weave
 .
 Service

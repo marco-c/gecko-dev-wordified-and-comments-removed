@@ -169,11 +169,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -196,7 +202,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesSyncUtils
 "
@@ -326,6 +332,8 @@ getSyncID
 )
 {
 return
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -365,6 +373,8 @@ newSyncID
 )
 ;
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -407,6 +417,8 @@ let
 newSyncID
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -448,6 +460,8 @@ let
 lastSync
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -467,6 +481,8 @@ lastSync
 )
 {
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -539,6 +555,8 @@ let
 guidsToRemove
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -578,6 +596,8 @@ _resetClient
 )
 ;
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -644,6 +664,8 @@ makeGUID
 try
 {
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -703,6 +725,8 @@ try
 guid
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -776,6 +800,8 @@ let
 info
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -830,6 +856,8 @@ let
 urls
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -1176,6 +1204,8 @@ toAdd
 try
 {
 await
+lazy
+.
 PlacesUtils
 .
 history
@@ -1404,6 +1434,8 @@ uri
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 history
@@ -1424,6 +1456,8 @@ record
 .
 url
 =
+lazy
+.
 PlacesUtils
 .
 normalizeToURLOrGUID
@@ -1580,6 +1614,8 @@ try
 curVisitsAsArray
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -1625,6 +1661,8 @@ histUri
 let
 oldestAllowed
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -1655,12 +1693,16 @@ length
 ;
 oldestAllowed
 =
+lazy
+.
 PlacesSyncUtils
 .
 history
 .
 clampVisitDate
 (
+lazy
+.
 PlacesUtils
 .
 toDate
@@ -1711,6 +1753,8 @@ i
 let
 dateObj
 =
+lazy
+.
 PlacesUtils
 .
 toDate
@@ -1721,6 +1765,8 @@ date
 let
 millis
 =
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -1855,6 +1901,8 @@ Object
 .
 values
 (
+lazy
+.
 PlacesUtils
 .
 history
@@ -1903,6 +1951,8 @@ continue
 let
 originalVisitDate
 =
+lazy
+.
 PlacesUtils
 .
 toDate
@@ -1921,6 +1971,8 @@ visit
 .
 date
 =
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -2113,6 +2165,8 @@ let
 removed
 =
 await
+lazy
+.
 PlacesUtils
 .
 history
@@ -2180,6 +2234,8 @@ return
 !
 (
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -2202,6 +2258,8 @@ let
 foo
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -2257,6 +2315,8 @@ record
 visits
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -2326,6 +2386,8 @@ wipe
 )
 {
 return
+lazy
+.
 PlacesSyncUtils
 .
 history

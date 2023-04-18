@@ -31,11 +31,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ObjectUtils
 :
@@ -106,6 +112,8 @@ if
 path
 )
 {
+lazy
+.
 Services
 .
 prefs
@@ -125,6 +133,8 @@ else
 {
 path
 =
+lazy
+.
 Services
 .
 prefs
@@ -462,6 +472,8 @@ msg
 if
 (
 !
+lazy
+.
 ObjectUtils
 .
 deepEqual

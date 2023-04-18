@@ -152,11 +152,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -410,6 +416,8 @@ const
 headers
 =
 new
+lazy
+.
 Headers
 (
 this
@@ -824,6 +832,8 @@ data
 }
 return
 new
+lazy
+.
 Request
 (
 this
@@ -870,6 +880,8 @@ signal
 const
 responsePromise
 =
+lazy
+.
 fetch
 (
 request
