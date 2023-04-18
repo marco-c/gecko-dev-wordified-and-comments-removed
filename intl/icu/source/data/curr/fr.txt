@@ -3756,11 +3756,6 @@ Currencies
 %
 variant
 {
-GEL
-{
-"
-"
-}
 TRY
 {
 "

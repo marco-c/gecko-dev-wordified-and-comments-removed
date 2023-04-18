@@ -922,7 +922,7 @@ OutputFile
 \
 bin
 \
-icutu70
+icutu71
 .
 dll
 <
@@ -1058,7 +1058,7 @@ OutputFile
 \
 bin
 \
-icutu70d
+icutu71d
 .
 dll
 <
@@ -1347,7 +1347,7 @@ OutputFile
 \
 bin64
 \
-icutu70
+icutu71
 .
 dll
 <
@@ -1476,7 +1476,7 @@ OutputFile
 \
 bin64
 \
-icutu70d
+icutu71d
 .
 dll
 <
@@ -1725,7 +1725,7 @@ OutputFile
 \
 binARM
 \
-icutu70
+icutu71
 .
 dll
 <
@@ -1869,7 +1869,7 @@ OutputFile
 \
 binARM
 \
-icutu70d
+icutu71d
 .
 dll
 <
@@ -2120,7 +2120,7 @@ OutputFile
 \
 binARM64
 \
-icutu70
+icutu71
 .
 dll
 <
@@ -2264,7 +2264,7 @@ OutputFile
 \
 binARM64
 \
-icutu70d
+icutu71d
 .
 dll
 <

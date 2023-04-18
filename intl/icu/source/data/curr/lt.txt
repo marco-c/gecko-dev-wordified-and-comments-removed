@@ -4018,11 +4018,6 @@ Currencies
 %
 variant
 {
-GEL
-{
-"
-"
-}
 RUB
 {
 "

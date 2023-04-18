@@ -7897,7 +7897,8 @@ one
 {
 0
 }
-partur
+pt
+.
 /
 mill
 .
@@ -7909,7 +7910,8 @@ other
 {
 0
 }
-partar
+pt
+.
 /
 mill
 .

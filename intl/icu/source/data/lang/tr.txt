@@ -938,9 +938,7 @@ crh
 K
 r
 m
-T
-rk
-esi
+Tatarcas
 "
 }
 crs

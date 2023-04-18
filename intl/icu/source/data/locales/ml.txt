@@ -1036,6 +1036,15 @@ feminine
 }
 "
 }
+neuter
+{
+"
+{
+0
+}
+neuter
+"
+}
 }
 ordinal
 {

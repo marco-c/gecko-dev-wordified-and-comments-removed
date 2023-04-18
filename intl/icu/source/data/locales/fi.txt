@@ -1224,6 +1224,17 @@ iv
 st
 "
 }
+genitive
+{
+"
+tarjous
+voimassa
+{
+0
+}
+ajan
+"
+}
 illative
 {
 "

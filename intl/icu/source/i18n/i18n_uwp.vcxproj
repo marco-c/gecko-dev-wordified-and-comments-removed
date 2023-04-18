@@ -1650,7 +1650,7 @@ OutputFile
 \
 bin32uwp
 \
-icuin70
+icuin71
 .
 dll
 <
@@ -1852,7 +1852,7 @@ OutputFile
 \
 bin32uwp
 \
-icuin70d
+icuin71d
 .
 dll
 <
@@ -2054,7 +2054,7 @@ OutputFile
 \
 bin64uwp
 \
-icuin70
+icuin71
 .
 dll
 <
@@ -2256,7 +2256,7 @@ OutputFile
 \
 bin64uwp
 \
-icuin70d
+icuin71d
 .
 dll
 <
@@ -2458,7 +2458,7 @@ OutputFile
 \
 binARMuwp
 \
-icuin70
+icuin71
 .
 dll
 <
@@ -2660,7 +2660,7 @@ OutputFile
 \
 binARMuwp
 \
-icuin70d
+icuin71d
 .
 dll
 <
@@ -2862,7 +2862,7 @@ OutputFile
 \
 binARM64uwp
 \
-icuin70
+icuin71
 .
 dll
 <
@@ -3064,7 +3064,7 @@ OutputFile
 \
 binARM64uwp
 \
-icuin70d
+icuin71d
 .
 dll
 <

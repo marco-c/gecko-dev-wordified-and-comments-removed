@@ -885,7 +885,7 @@ cree
 crh
 {
 "
-turc
+tatar
 de
 Crim
 e

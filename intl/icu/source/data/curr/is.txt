@@ -2974,16 +2974,6 @@ VND
 "
 }
 }
-Currencies
-%
-variant
-{
-GEL
-{
-"
-"
-}
-}
 CurrencyPlurals
 {
 AED
