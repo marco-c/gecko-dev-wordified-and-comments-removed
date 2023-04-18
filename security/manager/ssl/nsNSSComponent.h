@@ -440,7 +440,7 @@ MOZ_UNANNOTATED
 #
 ifdef
 DEBUG
-nsString
+nsCString
 mTestBuiltInRootHash
 ;
 #

@@ -97,7 +97,10 @@ bool
 isCertTestBuiltInRoot
 (
 in
-CERTCertificatePtr
+Array
+<
+octet
+>
 cert
 )
 ;
