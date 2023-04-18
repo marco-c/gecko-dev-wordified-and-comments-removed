@@ -59,14 +59,9 @@ identity
 )
 [
 Global
-=
-(
-Worker
-RTCIdentityProvider
-)
 Exposed
 =
-RTCIdentityProvider
+RTCIdentityProviderGlobalScope
 ]
 interface
 RTCIdentityProviderGlobalScope
@@ -83,7 +78,7 @@ rtcIdentityProvider
 [
 Exposed
 =
-RTCIdentityProvider
+RTCIdentityProviderGlobalScope
 ]
 interface
 RTCIdentityProviderRegistrar

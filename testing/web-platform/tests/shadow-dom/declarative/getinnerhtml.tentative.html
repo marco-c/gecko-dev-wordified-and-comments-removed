@@ -98,14 +98,13 @@ src
 .
 .
 /
-.
-.
-/
-html
-/
 resources
 /
-common
+shadow
+-
+dom
+-
+utils
 .
 js
 '
@@ -648,7 +647,7 @@ allElements
 .
 .
 .
-HTML5_ELEMENTS
+HTML5_ELEMENT_NAMES
 '
 htmlunknown
 '
@@ -657,7 +656,7 @@ htmlunknown
 const
 safelisted
 =
-HTML5_SHADOW_ALLOWED_ELEMENTS
+ATTACHSHADOW_SAFELISTED_ELEMENTS
 ;
 for
 (

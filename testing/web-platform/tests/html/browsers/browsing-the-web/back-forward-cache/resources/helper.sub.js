@@ -574,7 +574,6 @@ pageA
 pageB
 urlB
 funcBeforeBackNavigation
-argsBeforeBackNavigation
 )
 {
 await
@@ -629,7 +628,6 @@ pageB
 execute_script
 (
 funcBeforeBackNavigation
-argsBeforeBackNavigation
 )
 ;
 }
@@ -726,10 +724,6 @@ funcBeforeBackNavigation
 >
 {
 }
-argsBeforeBackNavigation
-:
-[
-]
 shouldBeCached
 :
 true
@@ -912,9 +906,6 @@ urlB
 params
 .
 funcBeforeBackNavigation
-params
-.
-argsBeforeBackNavigation
 )
 ;
 if

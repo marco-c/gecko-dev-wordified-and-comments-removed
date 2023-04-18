@@ -4,12 +4,6 @@ steps
 script
 :
 |
-set
--
-eux
--
-o
-pipefail
 #
 https
 :

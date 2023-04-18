@@ -52,9 +52,6 @@ io
 battery
 /
 )
-[
-SecureContext
-]
 partial
 interface
 Navigator
@@ -70,7 +67,6 @@ getBattery
 }
 ;
 [
-SecureContext
 Exposed
 =
 Window

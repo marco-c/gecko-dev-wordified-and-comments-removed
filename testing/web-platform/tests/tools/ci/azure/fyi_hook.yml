@@ -98,13 +98,6 @@ none
 -
 script
 :
-|
-set
--
-eux
--
-o
-pipefail
 curl
 -
 f
@@ -159,13 +152,6 @@ hook
 -
 script
 :
-|
-set
--
-eux
--
-o
-pipefail
 curl
 -
 f

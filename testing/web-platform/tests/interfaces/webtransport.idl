@@ -284,12 +284,6 @@ long
 packetsReceived
 ;
 DOMHighResTimeStamp
-smoothedRtt
-;
-DOMHighResTimeStamp
-rttVariation
-;
-DOMHighResTimeStamp
 minRtt
 ;
 unsigned

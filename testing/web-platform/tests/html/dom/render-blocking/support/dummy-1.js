@@ -1,6 +1,0 @@
-window
-.
-dummy
-=
-1
-;

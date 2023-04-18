@@ -81,13 +81,6 @@ script
 set
 -
 eux
--
-o
-pipefail
-export
-SYSTEM_VERSION_COMPAT
-=
-0
 HOMEBREW_NO_AUTO_UPDATE
 =
 1
@@ -220,13 +213,6 @@ script
 set
 -
 eux
--
-o
-pipefail
-export
-SYSTEM_VERSION_COMPAT
-=
-0
 sudo
 softwareupdate
 -

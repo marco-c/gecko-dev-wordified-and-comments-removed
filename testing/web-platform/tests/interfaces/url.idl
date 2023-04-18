@@ -54,7 +54,10 @@ org
 [
 Exposed
 =
-*
+(
+Window
+Worker
+)
 LegacyWindowAlias
 =
 webkitURL
@@ -135,7 +138,10 @@ toJSON
 [
 Exposed
 =
-*
+(
+Window
+Worker
+)
 ]
 interface
 URLSearchParams

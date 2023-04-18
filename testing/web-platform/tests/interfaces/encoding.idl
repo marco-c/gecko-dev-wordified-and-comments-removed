@@ -100,7 +100,10 @@ false
 [
 Exposed
 =
-*
+(
+Window
+Worker
+)
 ]
 interface
 TextDecoder
@@ -176,7 +179,10 @@ written
 [
 Exposed
 =
-*
+(
+Window
+Worker
+)
 ]
 interface
 TextEncoder
@@ -220,7 +226,10 @@ TextEncoderCommon
 [
 Exposed
 =
-*
+(
+Window
+Worker
+)
 ]
 interface
 TextDecoderStream
@@ -257,7 +266,10 @@ GenericTransformStream
 [
 Exposed
 =
-*
+(
+Window
+Worker
+)
 ]
 interface
 TextEncoderStream

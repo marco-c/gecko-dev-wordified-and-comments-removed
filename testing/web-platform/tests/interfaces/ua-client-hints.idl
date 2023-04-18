@@ -106,9 +106,6 @@ in
 favor
 of
 fullVersionList
-boolean
-wow64
-;
 sequence
 <
 NavigatorUABrandVersion

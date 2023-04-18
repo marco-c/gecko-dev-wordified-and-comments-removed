@@ -230,11 +230,7 @@ input
 record
 <
 USVString
-(
 USVString
-or
-undefined
-)
 >
 groups
 ;

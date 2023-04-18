@@ -464,13 +464,6 @@ formSubmissionTemplate
 (
 enctype
 expectedBuilder
-=
-(
-expected
-)
-=
->
-expected
 )
 =
 >
