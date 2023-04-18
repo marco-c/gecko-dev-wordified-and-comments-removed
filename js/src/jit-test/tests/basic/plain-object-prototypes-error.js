@@ -356,6 +356,18 @@ prototype
 "
 )
 ;
+if
+(
+this
+.
+hasOwnProperty
+(
+"
+ReadableStream
+"
+)
+)
+{
 assertThrowsObjectError
 (
 (
@@ -381,6 +393,7 @@ prototype
 "
 )
 ;
+}
 assertThrowsObjectError
 (
 (

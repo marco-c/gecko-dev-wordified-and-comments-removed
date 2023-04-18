@@ -9,17 +9,6 @@ js
 "
 )
 ;
-if
-(
-typeof
-ReadableStream
-=
-=
-"
-function
-"
-)
-{
 assertThrowsInstanceOf
 (
 (
@@ -36,4 +25,3 @@ tee
 TypeError
 )
 ;
-}
