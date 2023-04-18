@@ -341,6 +341,11 @@ CreateIceCtx
 (
 string
 name
+)
+;
+async
+SetIceConfig
+(
 RTCIceServer
 [
 ]
