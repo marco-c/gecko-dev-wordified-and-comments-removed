@@ -2121,7 +2121,10 @@ return
 nsAttrValue
 asAttr
 ;
-HTMLLinkElement
+mozilla
+:
+:
+net
 :
 :
 ParseAsValue
@@ -2149,7 +2152,10 @@ notUsed
 auto
 policyType
 =
-HTMLLinkElement
+mozilla
+:
+:
+net
 :
 :
 AsValueToContentPolicy
@@ -2169,7 +2175,10 @@ TYPE_INVALID
 |
 |
 !
-HTMLLinkElement
+mozilla
+:
+:
+net
 :
 :
 CheckPreloadAttrs
@@ -2181,7 +2190,10 @@ mDocument
 )
 )
 {
-HTMLLinkElement
+mozilla
+:
+:
+net
 :
 :
 WarnIgnoredPreload
