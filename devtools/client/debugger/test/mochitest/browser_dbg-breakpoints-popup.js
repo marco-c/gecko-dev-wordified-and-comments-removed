@@ -161,6 +161,7 @@ async
 function
 openPopup
 (
+dbg
 popupUrl
 browser
 =
@@ -181,6 +182,22 @@ gBrowser
 tabContainer
 "
 TabSelect
+"
+)
+;
+const
+onSwitchedHost
+=
+dbg
+.
+toolbox
+.
+once
+(
+"
+host
+-
+changed
 "
 )
 ;
@@ -239,6 +256,9 @@ selected
 tab
 "
 )
+;
+await
+onSwitchedHost
 ;
 return
 popupBrowsingContext
@@ -357,6 +377,7 @@ firstPopupBrowsingContext
 await
 openPopup
 (
+dbg
 POPUP_URL
 )
 ;
@@ -426,6 +447,7 @@ popupBrowsingContext
 await
 openPopup
 (
+dbg
 POPUP_URL
 )
 ;
@@ -588,6 +610,7 @@ popupBrowsingContext
 await
 openPopup
 (
+dbg
 POPUP_DEBUGGER_STATEMENT_URL
 )
 ;
@@ -722,6 +745,7 @@ popupBrowsingContext
 await
 openPopup
 (
+dbg
 POPUP_URL
 )
 ;
@@ -795,6 +819,7 @@ firstPopupBrowsingContext
 await
 openPopup
 (
+dbg
 POPUP_URL
 )
 ;
@@ -1031,6 +1056,7 @@ secondPopupBrowsingContext
 await
 openPopup
 (
+dbg
 POPUP_URL
 browser
 )
@@ -1315,6 +1341,7 @@ selectedTab
 await
 openPopup
 (
+dbg
 "
 about
 :
