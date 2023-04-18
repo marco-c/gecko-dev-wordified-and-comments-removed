@@ -220,6 +220,15 @@ angle
 .
 sh
 '
+args
+:
+[
+'
+{
+revision
+}
+'
+]
 cwd
 :
 '
