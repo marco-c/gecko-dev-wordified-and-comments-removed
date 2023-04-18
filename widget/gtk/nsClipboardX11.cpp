@@ -1762,6 +1762,8 @@ Text
 aWhichClipboard
 )
 .
-mData
+ExtractText
+(
+)
 ;
 }
