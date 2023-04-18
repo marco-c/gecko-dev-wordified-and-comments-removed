@@ -120,7 +120,10 @@ assert_pretty
 void_id
 "
 "
-JSID_VOID
+JS
+:
+:
+VoidPropertyKey
 "
 )
 run_fragment
