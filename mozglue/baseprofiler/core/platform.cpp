@@ -859,6 +859,7 @@ features
 ;
 }
 static
+constexpr
 uint32_t
 DefaultFeatures
 (
@@ -897,6 +898,7 @@ CPUUtilization
 ;
 }
 static
+constexpr
 uint32_t
 StartupExtraDefaultFeatures
 (

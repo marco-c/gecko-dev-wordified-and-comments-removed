@@ -1151,6 +1151,7 @@ features
 ;
 }
 static
+constexpr
 uint32_t
 DefaultFeatures
 (
@@ -1194,6 +1195,7 @@ Screenshots
 ;
 }
 static
+constexpr
 uint32_t
 StartupExtraDefaultFeatures
 (
