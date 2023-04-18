@@ -96,6 +96,17 @@ beep
 "
 ;
 const
+PREF_STRING_LOCALIZED_MISSING
+=
+"
+intl
+.
+menuitems
+.
+alwaysappendaccesskeys
+"
+;
+const
 PREF_NEW
 =
 "
