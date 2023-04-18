@@ -9021,6 +9021,14 @@ VsyncId
 )
 true
 aReasons
+|
+wr
+:
+:
+RenderReasons
+:
+:
+FLUSH
 )
 ;
 }
