@@ -16131,7 +16131,15 @@ ImmWord
 (
 JSID_BITS
 (
-JSID_VOID
+JS
+:
+:
+PropertyKey
+:
+:
+Void
+(
+)
 )
 )
 )

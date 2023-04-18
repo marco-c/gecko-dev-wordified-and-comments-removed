@@ -104,7 +104,15 @@ dom
 jsid
 s_length_id
 =
-JSID_VOID
+JS
+:
+:
+PropertyKey
+:
+:
+Void
+(
+)
 ;
 bool
 DefineStaticJSVals

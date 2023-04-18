@@ -207,7 +207,15 @@ iterator
 jsid
 void_id
 =
-JSID_VOID
+JS
+:
+:
+PropertyKey
+:
+:
+Void
+(
+)
 ;
 breakpoint
 (

@@ -382,7 +382,15 @@ empty
 )
 {
 return
-JSID_VOID
+JS
+:
+:
+PropertyKey
+:
+:
+Void
+(
+)
 ;
 }
 }

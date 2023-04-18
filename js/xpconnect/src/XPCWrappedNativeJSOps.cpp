@@ -3226,7 +3226,10 @@ ccx
 cx
 obj
 nullptr
-JSID_VOIDHANDLE
+JS
+:
+:
+VoidHandlePropertyKey
 args
 .
 length
@@ -3331,7 +3334,10 @@ ccx
 cx
 obj
 nullptr
-JSID_VOIDHANDLE
+JS
+:
+:
+VoidHandlePropertyKey
 args
 .
 length
@@ -4159,7 +4165,10 @@ ccx
 cx
 obj
 funobj
-JSID_VOIDHANDLE
+JS
+:
+:
+VoidHandlePropertyKey
 args
 .
 length
@@ -4367,7 +4376,10 @@ ccx
 cx
 obj
 funobj
-JSID_VOIDHANDLE
+JS
+:
+:
+VoidHandlePropertyKey
 args
 .
 length
