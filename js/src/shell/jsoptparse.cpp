@@ -3281,6 +3281,13 @@ end
 )
 ;
 }
+JS_DECLARE_NEW_METHODS
+(
+opt_new
+malloc
+static
+MOZ_ALWAYS_INLINE
+)
 bool
 OptionParser
 :
@@ -3330,7 +3337,7 @@ IntOption
 *
 io
 =
-js_new
+opt_new
 <
 IntOption
 >
@@ -3406,7 +3413,7 @@ BoolOption
 *
 bo
 =
-js_new
+opt_new
 <
 BoolOption
 >
@@ -3484,7 +3491,7 @@ StringOption
 *
 so
 =
-js_new
+opt_new
 <
 StringOption
 >
@@ -3563,7 +3570,7 @@ MultiStringOption
 *
 mso
 =
-js_new
+opt_new
 <
 MultiStringOption
 >
@@ -3636,7 +3643,7 @@ StringOption
 *
 so
 =
-js_new
+opt_new
 <
 StringOption
 >
@@ -3735,7 +3742,7 @@ MultiStringOption
 *
 mso
 =
-js_new
+opt_new
 <
 MultiStringOption
 >
