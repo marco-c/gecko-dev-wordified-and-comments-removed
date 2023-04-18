@@ -352,6 +352,12 @@ False
 domstreams
 "
 :
+True
+        
+"
+isolated_process
+"
+:
 False
     
 }
@@ -690,6 +696,12 @@ False
         
 "
 domstreams
+"
+:
+True
+        
+"
+isolated_process
 "
 :
 False
@@ -1034,6 +1046,12 @@ False
         
 "
 domstreams
+"
+:
+True
+        
+"
+isolated_process
 "
 :
 False
