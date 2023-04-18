@@ -1306,6 +1306,13 @@ eMouseEventClass
 )
 NON_IDL_EVENT
 (
+MozMouseExploreByTouch
+eMouseExploreByTouch
+EventNameType_None
+eMouseEventClass
+)
+NON_IDL_EVENT
+(
 DOMAttrModified
 eLegacyAttrModified
 EventNameType_HTMLXUL
