@@ -3614,6 +3614,11 @@ return
 rv
 ;
 }
+MOZ_RELEASE_ASSERT
+(
+mInitPromise
+)
+;
 mInitPromise
 -
 >
