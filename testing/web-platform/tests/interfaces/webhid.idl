@@ -123,6 +123,12 @@ HIDDeviceFilter
 >
 filters
 ;
+sequence
+<
+HIDDeviceFilter
+>
+exclusionFilters
+;
 }
 ;
 dictionary

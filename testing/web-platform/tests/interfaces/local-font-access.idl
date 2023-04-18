@@ -91,7 +91,7 @@ Promise
 <
 sequence
 <
-FontMetadata
+FontData
 >
 >
 query
@@ -113,10 +113,7 @@ sequence
 <
 DOMString
 >
-select
-=
-[
-]
+postscriptNames
 ;
 }
 ;
@@ -126,7 +123,7 @@ Exposed
 Window
 ]
 interface
-FontMetadata
+FontData
 {
 Promise
 <

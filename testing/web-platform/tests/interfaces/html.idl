@@ -767,7 +767,15 @@ interaction
 CEReactions
 ]
 attribute
+(
 boolean
+or
+unrestricted
+double
+or
+DOMString
+)
+?
 hidden
 ;
 [
@@ -10176,6 +10184,10 @@ onabort
 attribute
 EventHandler
 onauxclick
+;
+attribute
+EventHandler
+onbeforematch
 ;
 attribute
 EventHandler

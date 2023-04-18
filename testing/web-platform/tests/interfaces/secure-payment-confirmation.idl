@@ -82,7 +82,9 @@ unsigned
 long
 timeout
 ;
-required
+DOMString
+payeeName
+;
 USVString
 payeeOrigin
 ;
@@ -119,6 +121,9 @@ rp
 USVString
 topOrigin
 ;
+DOMString
+payeeName
+;
 USVString
 payeeOrigin
 ;
@@ -152,7 +157,9 @@ required
 USVString
 topOrigin
 ;
-required
+DOMString
+payeeName
+;
 USVString
 payeeOrigin
 ;

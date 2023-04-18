@@ -56,7 +56,10 @@ region
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 CropTarget
