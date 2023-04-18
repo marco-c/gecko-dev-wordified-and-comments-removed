@@ -3143,6 +3143,14 @@ scriptLoader
 backstagePass
 )
 ;
+backstagePass
+-
+>
+InitModuleLoader
+(
+mModuleLoader
+)
+;
 aGlobal
 .
 set
