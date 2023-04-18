@@ -275,9 +275,6 @@ Parse
 nsIURI
 *
 aURL
-void
-*
-aKey
 )
 {
 nsXULPrototypeDocument

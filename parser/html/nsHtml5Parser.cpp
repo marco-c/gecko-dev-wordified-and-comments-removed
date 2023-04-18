@@ -772,8 +772,6 @@ Parse
 nsIURI
 *
 aURL
-void
-*
 )
 {
 MOZ_ASSERT
