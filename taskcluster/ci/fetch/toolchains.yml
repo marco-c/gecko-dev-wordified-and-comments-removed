@@ -2960,6 +2960,11 @@ description
 rust
 -
 minidump
+0
+.
+10
+.
+2
 source
 code
 (
@@ -2991,7 +2996,7 @@ minidump
 /
 revision
 :
-664dcd1d8ba8c227220f8b83927095880bd68a5f
+77b30fc564c8fe23b5ba4dd1663be799d580d290
 fix
 -
 stacks
