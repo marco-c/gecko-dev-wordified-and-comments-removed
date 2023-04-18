@@ -125,12 +125,6 @@ ErrorResult
 aRv
 )
 ;
-RefPtr
-<
-WebGPUChild
->
-mBridge
-;
 private
 :
 explicit
@@ -139,9 +133,6 @@ Instance
 nsIGlobalObject
 *
 aOwner
-WebGPUChild
-*
-aBridge
 )
 ;
 virtual

@@ -5,17 +5,6 @@ DeviceLostInfo
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-WebGPUBinding
-.
-h
-"
 namespace
 mozilla
 {
@@ -25,7 +14,7 @@ webgpu
 GPU_IMPL_CYCLE_COLLECTION
 (
 DeviceLostInfo
-mParent
+mGlobal
 )
 GPU_IMPL_JS_WRAP
 (
