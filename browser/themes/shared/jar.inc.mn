@@ -243,7 +243,11 @@ classic
 /
 browser
 /
-compacttheme
+light
+-
+dark
+-
+overrides
 .
 css
 (
@@ -252,9 +256,11 @@ css
 /
 shared
 /
-compacttheme
-.
-inc
+light
+-
+dark
+-
+overrides
 .
 css
 )

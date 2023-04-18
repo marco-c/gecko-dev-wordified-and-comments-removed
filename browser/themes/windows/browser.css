@@ -989,7 +989,11 @@ in
 sync
 with
 *
-compacttheme
+light
+-
+dark
+-
+overrides
 .
 css
 minus
