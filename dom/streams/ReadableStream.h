@@ -833,9 +833,6 @@ ReadableStreamDefaultReader
 >
 AcquireReadableStreamDefaultReader
 (
-JSContext
-*
-aCx
 ReadableStream
 *
 aStream

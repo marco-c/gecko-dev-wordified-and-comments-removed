@@ -2180,9 +2180,6 @@ ReadableStreamDefaultReader
 >
 AcquireReadableStreamDefaultReader
 (
-JSContext
-*
-aCx
 ReadableStream
 *
 aStream
@@ -2285,7 +2282,6 @@ defaultReader
 =
 AcquireReadableStreamDefaultReader
 (
-aCx
 thisRefPtr
 aRv
 )

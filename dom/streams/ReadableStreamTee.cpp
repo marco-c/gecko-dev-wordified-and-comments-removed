@@ -2480,7 +2480,6 @@ reader
 =
 AcquireReadableStreamDefaultReader
 (
-aCx
 aTeeState
 -
 >
