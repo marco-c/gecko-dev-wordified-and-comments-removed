@@ -1863,12 +1863,7 @@ onboarding
 -
 colorway
 -
-description
-=
-.
-aria
--
-description
+label
 =
 Explore
 {
@@ -1915,12 +1910,7 @@ default
 -
 theme
 -
-description
-=
-.
-aria
--
-description
+label
 =
 Explore
 default
