@@ -373,7 +373,7 @@ current_thread
 (
 )
 .
-native_id
+ident
 time
 .
 time
@@ -406,7 +406,7 @@ current_thread
 (
 )
 .
-native_id
+ident
 time
 .
 time
@@ -589,21 +589,21 @@ queue
 is
 None
         
-self
-.
-queue
-=
-multiprocessing
-.
-Queue
-(
-)
-        
 mp
 =
 mpcontext
 .
 get_context
+(
+)
+        
+self
+.
+queue
+=
+mp
+.
+Queue
 (
 )
         
