@@ -117,11 +117,11 @@ ci
 /
 ci
 -
-admin
+configuration
 /
 file
 /
-default
+tip
 /
 build
 -
