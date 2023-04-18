@@ -2698,7 +2698,7 @@ TopLevelEditSubActionDataRef
 mSelectedRange
 -
 >
-IsSet
+IsPositioned
 (
 )
 )
@@ -2849,7 +2849,7 @@ TopLevelEditSubActionDataRef
 mSelectedRange
 -
 >
-IsCollapsed
+Collapsed
 (
 )
 &
@@ -35394,7 +35394,7 @@ if
 !
 aRangeItem
 .
-IsCollapsed
+Collapsed
 (
 )
 &
