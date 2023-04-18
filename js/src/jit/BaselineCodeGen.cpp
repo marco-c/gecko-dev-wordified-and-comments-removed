@@ -32685,7 +32685,11 @@ emit_ImportMeta
 (
 )
 {
-RootedModuleObject
+Rooted
+<
+ModuleObject
+*
+>
 module
 (
 cx

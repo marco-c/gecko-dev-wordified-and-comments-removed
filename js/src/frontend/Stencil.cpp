@@ -8692,7 +8692,11 @@ gcOutput
 script
 )
 ;
-RootedModuleObject
+Rooted
+<
+ModuleObject
+*
+>
 module
 (
 cx

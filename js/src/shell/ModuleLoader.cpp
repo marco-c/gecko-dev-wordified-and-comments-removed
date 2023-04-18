@@ -663,7 +663,11 @@ JSContext
 cx
 HandleObject
 moduleRequest
-HandleModuleObject
+Handle
+<
+ModuleObject
+*
+>
 module
 )
 {
