@@ -796,6 +796,9 @@ locale
 "
 theme
 "
+"
+sitepermission
+"
 ]
 )
 ;
