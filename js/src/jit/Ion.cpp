@@ -1885,7 +1885,11 @@ stubsToBarrier
 )
 ;
 const
-WeakHeapPtrJitCode
+WeakHeapPtr
+<
+JitCode
+*
+>
 &
 jitCode
 =
@@ -2525,7 +2529,11 @@ trc
 ;
 for
 (
-WeakHeapPtrJitCode
+WeakHeapPtr
+<
+JitCode
+*
+>
 &
 stub
 :
