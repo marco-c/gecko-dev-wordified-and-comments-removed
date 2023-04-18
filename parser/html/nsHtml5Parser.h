@@ -224,16 +224,6 @@ nsIChannel
 aChannel
 )
 ;
-NS_IMETHOD
-GetDTD
-(
-nsIDTD
-*
-*
-aDTD
-)
-override
-;
 virtual
 nsIStreamListener
 *
