@@ -649,14 +649,6 @@ CC
 }
 "
 export
-MOZ_CARGO_WRAP_LD_CXX
-=
-"
-{
-CXX
-}
-"
-export
 MOZ_CARGO_WRAP_LDFLAGS
 =
 "
