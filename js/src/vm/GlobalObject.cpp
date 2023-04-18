@@ -989,6 +989,9 @@ false
 ;
 #
 endif
+#
+ifndef
+MOZ_DOM_STREAMS
 case
 JSProto_ReadableStream
 :
@@ -1069,6 +1072,8 @@ getWritableStreamsEnabled
 )
 ;
 }
+#
+endif
 case
 JSProto_Atomics
 :

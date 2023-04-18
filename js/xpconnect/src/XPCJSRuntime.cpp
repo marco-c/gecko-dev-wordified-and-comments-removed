@@ -16852,6 +16852,9 @@ cx
 OuterWindowProxyClass
 )
 ;
+#
+ifndef
+MOZ_DOM_STREAMS
 {
 JS
 :
@@ -16922,6 +16925,8 @@ cx
 )
 ;
 }
+#
+endif
 JS
 :
 :
