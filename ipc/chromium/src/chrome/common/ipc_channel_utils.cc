@@ -82,7 +82,16 @@ IPCMessages
 {
 if
 (
+static_cast
+<
+base
+:
+:
+ProcessId
+>
+(
 aOtherPid
+)
 =
 =
 base
