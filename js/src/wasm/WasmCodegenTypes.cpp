@@ -740,6 +740,7 @@ kind
 {
 MOZ_ASSERT
 (
+(
 isImportExit
 (
 )
@@ -747,6 +748,12 @@ isImportExit
 &
 !
 isImportJitExit
+(
+)
+)
+|
+|
+isJitEntry
 (
 )
 )

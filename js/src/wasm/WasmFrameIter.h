@@ -946,7 +946,7 @@ jit
 MacroAssembler
 &
 masm
-Offsets
+CallableOffsets
 *
 offsets
 )
@@ -960,6 +960,9 @@ jit
 MacroAssembler
 &
 masm
+CallableOffsets
+*
+offsets
 )
 ;
 void

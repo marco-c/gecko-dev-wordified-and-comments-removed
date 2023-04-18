@@ -1205,6 +1205,11 @@ isImportExit
 isDebugTrap
 (
 )
+|
+|
+isJitEntry
+(
+)
 ;
 }
 uint32_t
