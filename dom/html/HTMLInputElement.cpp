@@ -4374,9 +4374,6 @@ nsIObserverService
 >
 observerService
 =
-mozilla
-:
-:
 services
 :
 :
@@ -4840,9 +4837,6 @@ HTMLInputElement
 (
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -13945,9 +13939,6 @@ ImplicitSubmissionIsDisabled
 {
 RefPtr
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -19066,12 +19057,6 @@ mForm
 {
 RefPtr
 <
-mozilla
-:
-:
-dom
-:
-:
 HTMLFormElement
 >
 form
@@ -24822,12 +24807,7 @@ filesAndDirs
 Length
 (
 )
-mozilla
-:
-:
-fallible_t
-(
-)
+fallible
 )
 )
 {
@@ -31243,9 +31223,6 @@ nsIStringBundleService
 >
 stringService
 =
-mozilla
-:
-:
 components
 :
 :
