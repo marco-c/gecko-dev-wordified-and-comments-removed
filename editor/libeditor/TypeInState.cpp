@@ -797,12 +797,14 @@ aHTMLEditor
 .
 GetFirstSelectionStartPoint
 <
-EditorRawDOMPoint
+EditorDOMPoint
 >
 (
 )
 ;
 if
+(
+MOZ_UNLIKELY
 (
 NS_WARN_IF
 (
@@ -811,6 +813,7 @@ selectionStartPoint
 .
 IsSet
 (
+)
 )
 )
 )
@@ -1134,13 +1137,6 @@ return
 mLastSelectionPoint
 =
 selectionStartPoint
-.
-To
-<
-EditorDOMPoint
->
-(
-)
 ;
 AutoEditorDOMPointChildInvalidator
 saveOnlyOffset
