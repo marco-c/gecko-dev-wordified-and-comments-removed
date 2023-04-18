@@ -396,11 +396,6 @@ nsLookAndFeel
 cpp
 "
 "
-nsNativeBasicThemeWin
-.
-cpp
-"
-"
 nsNativeDragSource
 .
 cpp
@@ -477,11 +472,6 @@ cpp
 "
 "
 ScreenHelperWin
-.
-cpp
-"
-"
-ScrollbarUtil
 .
 cpp
 "

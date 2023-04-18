@@ -574,11 +574,9 @@ bool
 ThemeSupportsScrollbarButtons
 (
 )
-{
-return
-true
+=
+0
 ;
-}
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

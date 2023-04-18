@@ -206,6 +206,16 @@ Overlay
 )
 override
 ;
+bool
+ThemeSupportsScrollbarButtons
+(
+)
+override
+{
+return
+true
+;
+}
 protected
 :
 virtual

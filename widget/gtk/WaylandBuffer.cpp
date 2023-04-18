@@ -140,6 +140,13 @@ args
 )
 #
 endif
+using
+namespace
+mozilla
+:
+:
+gl
+;
 namespace
 mozilla
 :
