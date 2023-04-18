@@ -387,6 +387,7 @@ NoteDOMContentLoaded
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 RefPtr
 <
 ClientOpPromise

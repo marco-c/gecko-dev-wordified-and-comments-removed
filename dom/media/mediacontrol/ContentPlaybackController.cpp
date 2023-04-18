@@ -498,7 +498,7 @@ Focus
 {
 if
 (
-RefPtr
+nsCOMPtr
 <
 nsPIDOMWindowOuter
 >

@@ -201,6 +201,7 @@ Shutdown
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 FocusWindow
@@ -563,7 +564,7 @@ nsIContent
 aNextContent
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetFocusedWindowWithCallerType
 (

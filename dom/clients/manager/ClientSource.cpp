@@ -2620,11 +2620,11 @@ __func__
 )
 ;
 }
+nsCOMPtr
+<
 nsPIDOMWindowOuter
-*
+>
 outer
-=
-nullptr
 ;
 nsPIDOMWindowInner
 *

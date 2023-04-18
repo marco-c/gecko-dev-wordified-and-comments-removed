@@ -661,6 +661,9 @@ process
 .
 *
 /
+[
+setter_can_run_script
+]
 attribute
 mozIDOMWindowProxy
 focusedWindow
