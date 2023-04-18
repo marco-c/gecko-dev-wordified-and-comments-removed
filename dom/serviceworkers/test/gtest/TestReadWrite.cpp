@@ -181,6 +181,7 @@ nsresult
 TestWriteData
 (
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 return
 WriteData

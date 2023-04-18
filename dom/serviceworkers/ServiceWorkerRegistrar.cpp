@@ -4242,6 +4242,7 @@ i
 }
 }
 }
+PUSH_IGNORE_THREAD_SAFETY
 if
 (
 overwrite
@@ -4276,6 +4277,7 @@ DeleteData
 )
 ;
 }
+POP_THREAD_SAFETY
 return
 NS_OK
 ;
