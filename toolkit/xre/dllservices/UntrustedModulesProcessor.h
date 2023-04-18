@@ -359,6 +359,13 @@ glue
 EnhancedModuleLoadInfo
 >
 ;
+LoadsVec
+ExtractLoadingEventsToProcess
+(
+size_t
+aMaxLength
+)
+;
 class
 ModulesMapResultWithLoads
 final
