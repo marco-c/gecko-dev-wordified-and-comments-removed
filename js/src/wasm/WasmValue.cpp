@@ -394,7 +394,11 @@ isRefRepr
 *
 (
 (
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 *
 )
 loc

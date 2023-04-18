@@ -70,7 +70,11 @@ headerPtr
 )
 ;
 }
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 setter_
 ;
 #

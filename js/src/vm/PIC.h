@@ -411,7 +411,11 @@ BaseChain
 private
 :
 const
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 picObject_
 ;
 GCPtr

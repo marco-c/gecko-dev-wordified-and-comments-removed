@@ -4952,15 +4952,6 @@ JitCode
 ;
 }
 using
-GCPtrObject
-=
-GCPtr
-<
-JSObject
-*
->
-;
-using
 GCPtrValue
 =
 GCPtr
