@@ -879,15 +879,6 @@ nib
 "
 ]
 )
-CXXFLAGS
-+
-=
-CONFIG
-[
-"
-TK_CFLAGS
-"
-]
 OS_LIBS
 +
 =
