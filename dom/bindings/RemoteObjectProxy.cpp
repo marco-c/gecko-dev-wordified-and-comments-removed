@@ -351,6 +351,13 @@ aIsOrdinary
 =
 true
 ;
+aProtop
+.
+set
+(
+nullptr
+)
+;
 return
 true
 ;
