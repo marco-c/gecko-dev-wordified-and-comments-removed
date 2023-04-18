@@ -10658,7 +10658,11 @@ add
 on
 -
 {
-location
+install
+.
+addon
+.
+id
 }
 )
 ;
