@@ -2508,7 +2508,7 @@ aOrientation
 )
 const
 ;
-void
+bool
 ShrinkToLigatureBoundaries
 (
 Range
