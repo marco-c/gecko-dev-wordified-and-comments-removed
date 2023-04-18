@@ -1533,7 +1533,7 @@ storagePrincipal
 aDocument
 -
 >
-EffectiveCookiePrincipal
+EffectiveStoragePrincipal
 (
 )
 ;

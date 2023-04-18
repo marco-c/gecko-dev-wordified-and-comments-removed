@@ -459,15 +459,3 @@ requestAnimationFrame
 true
 )
 ;
-user_pref
-(
-"
-privacy
-.
-partition
-.
-always_partition_non_cookie_storage
-"
-false
-)
-;
