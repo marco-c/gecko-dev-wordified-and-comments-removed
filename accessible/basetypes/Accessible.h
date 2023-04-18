@@ -606,6 +606,14 @@ const
 0
 ;
 virtual
+nsAtom
+*
+LandmarkRole
+(
+)
+const
+;
+virtual
 uint8_t
 ActionCount
 (

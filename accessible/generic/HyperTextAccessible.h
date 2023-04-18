@@ -169,15 +169,6 @@ HyperTextAccessible
 AccessibleWrap
 )
 virtual
-nsAtom
-*
-LandmarkRole
-(
-)
-const
-override
-;
-virtual
 already_AddRefed
 <
 AccAttributes

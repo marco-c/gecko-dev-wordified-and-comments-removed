@@ -528,14 +528,6 @@ ARIARole
 )
 ;
 virtual
-nsAtom
-*
-LandmarkRole
-(
-)
-const
-;
-virtual
 mozilla
 :
 :

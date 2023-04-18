@@ -893,15 +893,6 @@ HTMLFormAccessible
 HyperTextAccessibleWrap
 )
 virtual
-nsAtom
-*
-LandmarkRole
-(
-)
-const
-override
-;
-virtual
 a11y
 :
 :
