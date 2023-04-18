@@ -38,6 +38,8 @@ Source
 Compute
 Pressure
 API
+Level
+1
 (
 https
 :
@@ -123,6 +125,12 @@ constructor
 (
 ComputePressureUpdateCallback
 callback
+optional
+ComputePressureObserverOptions
+options
+=
+{
+}
 )
 ;
 undefined
@@ -130,12 +138,6 @@ observe
 (
 ComputePressureSource
 source
-optional
-ComputePressureObserverOptions
-options
-=
-{
-}
 )
 ;
 undefined
@@ -166,7 +168,7 @@ readonly
 attribute
 FrozenArray
 <
-DOMString
+ComputePressureSource
 >
 supportedSources
 ;
@@ -202,10 +204,7 @@ ComputePressureFactor
 factors
 ;
 DOMHighResTimeStamp
-timestamp
-;
-ComputePressureObserverOptions
-options
+time
 ;
 }
 ;
