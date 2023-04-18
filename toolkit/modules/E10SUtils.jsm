@@ -402,6 +402,12 @@ kSafeSchemes
 bitcoin
 "
 "
+ftp
+"
+"
+ftps
+"
+"
 geo
 "
 "
@@ -433,6 +439,9 @@ nntp
 "
 "
 openpgp4fpr
+"
+"
+sftp
 "
 "
 sip
