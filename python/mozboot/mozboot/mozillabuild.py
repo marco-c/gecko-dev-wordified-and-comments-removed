@@ -452,7 +452,6 @@ def
 validate_environment
 (
 self
-srcdir
 )
 :
         
@@ -528,6 +527,8 @@ stderr
 if
 is_windefender_affecting_srcdir
 (
+self
+.
 srcdir
 )
 :
