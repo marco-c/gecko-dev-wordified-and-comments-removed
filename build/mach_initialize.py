@@ -1841,9 +1841,6 @@ mach_site
 .
 up_to_date
 (
-skip_pip_package_check
-=
-True
 )
 :
             
