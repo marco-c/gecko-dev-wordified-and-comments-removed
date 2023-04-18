@@ -3157,6 +3157,15 @@ nsIChannel
 :
 :
 DISPOSITION_ATTACHMENT
+|
+|
+mContentDispositionHint
+=
+=
+nsIChannel
+:
+:
+DISPOSITION_FORCE_INLINE
 )
 {
 *

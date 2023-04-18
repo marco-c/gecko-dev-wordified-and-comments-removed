@@ -232,6 +232,13 @@ DISPOSITION_ATTACHMENT
 =
 1
 ;
+const
+unsigned
+long
+DISPOSITION_FORCE_INLINE
+=
+2
+;
 attribute
 AString
 contentDispositionFilename
