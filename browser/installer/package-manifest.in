@@ -2178,11 +2178,6 @@ DLL_SUFFIX
 endif
 #
 endif
-BINPATH
-/
-DLL_PREFIX
-ipcclientcerts
-DLL_SUFFIX
 ;
 For
 process

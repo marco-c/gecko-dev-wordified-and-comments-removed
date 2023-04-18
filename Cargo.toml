@@ -98,15 +98,6 @@ manager
 /
 ssl
 /
-ipcclientcerts
-"
-"
-security
-/
-manager
-/
-ssl
-/
 osclientcerts
 "
 "
