@@ -1274,6 +1274,9 @@ kind
 TagType
 type
 ;
+uint32_t
+globalDataOffset
+;
 bool
 isExport
 ;
@@ -1304,6 +1307,10 @@ move
 (
 type
 )
+)
+globalDataOffset
+(
+UINT32_MAX
 )
 isExport
 (
