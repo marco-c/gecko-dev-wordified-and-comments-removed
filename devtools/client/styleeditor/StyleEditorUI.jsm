@@ -445,8 +445,12 @@ org
 xhtml
 "
 ;
-function
+class
 StyleEditorUI
+extends
+EventEmitter
+{
+constructor
 (
 toolbox
 commands
@@ -454,11 +458,8 @@ panelDoc
 cssProperties
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this
@@ -773,11 +774,6 @@ _onOrigSourcesPrefChanged
 )
 ;
 }
-StyleEditorUI
-.
-prototype
-=
-{
 get
 cssProperties
 (
@@ -915,8 +911,6 @@ _waitForLoadingStyleSheets
 ;
 }
 createUI
-:
-function
 (
 )
 {
@@ -1736,8 +1730,6 @@ refreshed
 ;
 }
 _clear
-:
-function
 (
 )
 {
@@ -1883,8 +1875,6 @@ clear
 ;
 }
 _addStyleSheet
-:
-function
 (
 resource
 )
@@ -2173,8 +2163,6 @@ length
 ;
 }
 _getNextFriendlyIndex
-:
-function
 (
 styleSheet
 )
@@ -2438,8 +2426,6 @@ editor
 ;
 }
 _importFromFile
-:
-function
 (
 file
 parentWindow
@@ -2598,8 +2584,6 @@ onFileSelected
 ;
 }
 _onError
-:
-function
 (
 data
 )
@@ -2616,8 +2600,6 @@ data
 ;
 }
 _toggleOrigSources
-:
-function
 (
 )
 {
@@ -2646,8 +2628,6 @@ isEnabled
 ;
 }
 _toggleMediaSidebar
-:
-function
 (
 )
 {
@@ -2676,8 +2656,6 @@ isEnabled
 ;
 }
 _onMediaPrefChanged
-:
-function
 (
 )
 {
@@ -2694,8 +2672,6 @@ _updateMediaList
 ;
 }
 _updateContextMenuItems
-:
-function
 (
 )
 {
@@ -2765,8 +2741,6 @@ href
 }
 }
 _openLinkNewTab
-:
-function
 (
 )
 {
@@ -2789,8 +2763,6 @@ href
 }
 }
 _copyUrl
-:
-function
 (
 )
 {
@@ -2813,8 +2785,6 @@ href
 }
 }
 _removeStyleSheetEditor
-:
-function
 (
 editor
 )
@@ -2921,8 +2891,6 @@ editor
 ;
 }
 _clearStyleSheetEditors
-:
-function
 (
 )
 {
@@ -2952,8 +2920,6 @@ editors
 ;
 }
 _sourceLoaded
-:
-function
 (
 editor
 )
@@ -3539,8 +3505,6 @@ createdEditor
 ;
 }
 switchToSelectedSheet
-:
-function
 (
 )
 {
@@ -3610,8 +3574,6 @@ resolve
 ;
 }
 _isEditorToSelect
-:
-function
 (
 editor
 )
@@ -3686,8 +3648,6 @@ styleSheet
 ;
 }
 _selectEditor
-:
-function
 (
 editor
 line
@@ -3831,8 +3791,6 @@ summaryPromise
 ;
 }
 getEditorSummary
-:
-function
 (
 editor
 )
@@ -3919,8 +3877,6 @@ summary
 ;
 }
 getEditorDetails
-:
-function
 (
 editor
 )
@@ -4007,8 +3963,6 @@ details
 ;
 }
 getStyleSheetIdentifier
-:
-function
 (
 styleSheet
 )
@@ -4043,8 +3997,6 @@ nodeHref
 ;
 }
 getOriginalSourceSheet
-:
-function
 (
 sourceId
 )
@@ -4092,8 +4044,6 @@ null
 ;
 }
 getStylesheetFrontForGeneratedURL
-:
-function
 (
 url
 )
@@ -4149,8 +4099,6 @@ null
 ;
 }
 selectStyleSheet
-:
-function
 (
 stylesheet
 line
@@ -4182,8 +4130,6 @@ switchToSelectedSheet
 ;
 }
 _summaryChange
-:
-function
 (
 editor
 )
@@ -4197,8 +4143,6 @@ editor
 ;
 }
 _updateSummaryForEditor
-:
-function
 (
 editor
 summary
@@ -4501,8 +4445,6 @@ summary
 ;
 }
 _updateMediaList
-:
-function
 (
 editor
 )
@@ -5160,8 +5102,6 @@ node
 ;
 }
 _onMediaConditionClick
-:
-function
 (
 e
 )
@@ -5323,8 +5263,6 @@ options
 ;
 }
 _jumpToLocation
-:
-function
 (
 location
 )
@@ -5875,8 +5813,6 @@ break
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -6077,4 +6013,3 @@ null
 }
 }
 }
-;
