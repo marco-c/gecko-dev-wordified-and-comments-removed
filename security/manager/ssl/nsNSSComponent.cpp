@@ -4427,7 +4427,7 @@ module
 ;
 if
 (
-SECMOD_LockedModuleHasRemovableSlots
+SECMOD_HasRemovableSlots
 (
 module
 )
@@ -4676,7 +4676,7 @@ list
 {
 if
 (
-SECMOD_LockedModuleHasRemovableSlots
+SECMOD_HasRemovableSlots
 (
 list
 -
