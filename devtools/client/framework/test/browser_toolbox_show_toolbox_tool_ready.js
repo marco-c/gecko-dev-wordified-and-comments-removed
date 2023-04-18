@@ -143,7 +143,7 @@ registerTool
 id
 :
 lazyToolId
-isTargetSupported
+isToolSupported
 :
 (
 )

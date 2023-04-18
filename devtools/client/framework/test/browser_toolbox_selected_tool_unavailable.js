@@ -12,7 +12,7 @@ id
 "
 testTool
 "
-isTargetSupported
+isToolSupported
 :
 (
 )
@@ -153,7 +153,7 @@ destroy
 ;
 testToolDefinition
 .
-isTargetSupported
+isToolSupported
 =
 (
 )

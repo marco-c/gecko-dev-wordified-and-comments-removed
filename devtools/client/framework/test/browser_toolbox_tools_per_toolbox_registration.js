@@ -204,7 +204,7 @@ Tool
 inMenu
 :
 true
-isTargetSupported
+isToolSupported
 :
 (
 )

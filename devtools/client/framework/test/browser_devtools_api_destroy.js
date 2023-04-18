@@ -43,7 +43,7 @@ testTool
 .
 enabled
 "
-isTargetSupported
+isToolSupported
 :
 (
 )

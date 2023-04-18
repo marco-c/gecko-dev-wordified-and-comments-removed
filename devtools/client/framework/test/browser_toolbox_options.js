@@ -189,7 +189,7 @@ id
 "
 testTool
 "
-isTargetSupported
+isToolSupported
 :
 (
 )
@@ -371,7 +371,7 @@ pertoolbox
 -
 tool
 "
-isTargetSupported
+isToolSupported
 :
 (
 )

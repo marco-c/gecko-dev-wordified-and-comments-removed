@@ -596,11 +596,13 @@ add
 -
 on
 .
-isTargetSupported
+isToolSupported
 :
-target
+toolbox
 =
 >
+toolbox
+.
 target
 .
 isLocalTab

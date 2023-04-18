@@ -379,7 +379,7 @@ Tools
 isMenu
 :
 true
-isTargetSupported
+isToolSupported
 :
 (
 )
