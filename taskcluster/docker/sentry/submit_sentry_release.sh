@@ -95,7 +95,7 @@ SENTRY_API_KEY
 sentry_api_key
 SENTRY_ORG
 =
-operations
+mozilla
 sentry
 -
 cli
@@ -108,11 +108,7 @@ https
 /
 sentry
 .
-prod
-.
-mozaws
-.
-net
+io
 /
 releases
 -
