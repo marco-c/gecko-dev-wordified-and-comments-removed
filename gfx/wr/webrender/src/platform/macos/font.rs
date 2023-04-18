@@ -3366,7 +3366,7 @@ height
 usize
 )
 {
-println
+debug
 !
 (
 "
@@ -3459,7 +3459,7 @@ pixel
 3
 ]
 ;
-print
+debug
 !
 (
 "
@@ -3481,11 +3481,6 @@ a
 )
 ;
 }
-println
-!
-(
-)
-;
 }
 }
 pub
