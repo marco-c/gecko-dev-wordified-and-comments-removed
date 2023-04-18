@@ -334,6 +334,13 @@ jsm
 "
 tests
 /
+BackgroundTask_profile_is_slim
+.
+jsm
+"
+"
+tests
+/
 BackgroundTask_shouldnotprocessupdates
 .
 jsm
