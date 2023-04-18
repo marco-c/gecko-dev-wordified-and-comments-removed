@@ -287,6 +287,9 @@ IonCompileTask
 :
 IonCompileTask
 (
+JSContext
+*
+cx
 MIRGenerator
 &
 mirGen
@@ -302,6 +305,15 @@ mirGen
 snapshot_
 (
 snapshot
+)
+isExecuting_
+(
+cx
+-
+>
+isExecutingRef
+(
+)
 )
 {
 }

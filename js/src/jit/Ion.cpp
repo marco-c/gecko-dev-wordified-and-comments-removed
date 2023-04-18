@@ -9541,6 +9541,7 @@ new_
 IonCompileTask
 >
 (
+cx
 *
 mirGen
 snapshot
