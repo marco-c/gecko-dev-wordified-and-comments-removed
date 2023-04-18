@@ -2701,11 +2701,6 @@ mSizeMode
 =
 nsSizeMode_Normal
 ;
-nsSizeMode
-mSizeState
-=
-nsSizeMode_Normal
-;
 float
 mAspectRatio
 =
