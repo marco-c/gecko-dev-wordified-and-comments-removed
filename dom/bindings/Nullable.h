@@ -44,8 +44,8 @@ nsCycleCollectionTraversalCallback
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -527,7 +527,6 @@ Value
 )
 )
 ;
-}
 }
 }
 }

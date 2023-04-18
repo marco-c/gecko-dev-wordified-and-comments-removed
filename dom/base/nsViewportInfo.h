@@ -29,8 +29,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -44,7 +44,6 @@ Contain
 Cover
 }
 ;
-}
 }
 static
 const

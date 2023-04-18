@@ -48,8 +48,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -291,7 +291,6 @@ mEntries
 ;
 }
 ;
-}
 }
 template
 <

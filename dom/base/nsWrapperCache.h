@@ -81,8 +81,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -94,7 +94,6 @@ InProcessBrowserChildMessageManager
 class
 BrowserChildMessageManager
 ;
-}
 }
 class
 SandboxPrivate

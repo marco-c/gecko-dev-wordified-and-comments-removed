@@ -99,8 +99,8 @@ nsFrameLoader
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -134,7 +134,6 @@ WindowProxyHolder
 class
 XULFrameElement
 ;
-}
 }
 class
 nsObjectLoadingContent

@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -76,7 +76,6 @@ T
 atomCache
 )
 ;
-}
 }
 }
 #

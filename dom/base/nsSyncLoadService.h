@@ -64,14 +64,13 @@ nsIChannel
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 Document
 ;
-}
 }
 class
 nsSyncLoadService

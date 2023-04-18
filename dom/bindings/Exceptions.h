@@ -48,8 +48,8 @@ already_AddRefed
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -166,7 +166,6 @@ JSObject
 aStack
 )
 ;
-}
 }
 }
 #

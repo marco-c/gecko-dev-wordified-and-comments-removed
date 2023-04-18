@@ -85,8 +85,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 extern
@@ -259,7 +259,6 @@ index
 <
 UINT32_MAX
 ;
-}
 }
 }
 #

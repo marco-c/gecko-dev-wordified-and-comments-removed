@@ -53,8 +53,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -978,7 +978,6 @@ JSObject
 aProxy
 )
 ;
-}
 }
 #
 endif

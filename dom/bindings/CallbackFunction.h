@@ -17,8 +17,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -160,7 +160,6 @@ FastCallbackConstructor
 }
 }
 ;
-}
 }
 #
 endif

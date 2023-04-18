@@ -72,8 +72,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -1608,7 +1608,6 @@ t
 return
 true
 ;
-}
 }
 }
 #

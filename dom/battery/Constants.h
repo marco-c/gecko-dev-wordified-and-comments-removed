@@ -6,11 +6,11 @@ define
 mozilla_dom_battery_Constants_h__
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 battery
 {
 static
@@ -44,8 +44,6 @@ kUnknownRemainingTime
 -
 1
 ;
-}
-}
 }
 #
 endif

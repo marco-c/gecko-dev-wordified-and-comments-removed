@@ -54,11 +54,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 binding_detail
 {
 template
@@ -1280,8 +1280,6 @@ nsTString
 ;
 }
 ;
-}
-}
 }
 template
 <

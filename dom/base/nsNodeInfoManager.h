@@ -91,14 +91,13 @@ already_AddRefed
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 Document
 ;
-}
 }
 class
 nsNodeInfoManager

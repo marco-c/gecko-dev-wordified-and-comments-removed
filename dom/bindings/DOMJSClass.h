@@ -133,8 +133,8 @@ JSCLASS_IS_DOMIFACEANDPROTOJSCLASS
 JSCLASS_USERBIT2
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 inline
@@ -1901,7 +1901,6 @@ toPrivate
 )
 )
 ;
-}
 }
 }
 #

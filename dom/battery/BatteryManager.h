@@ -41,8 +41,8 @@ BatteryInformation
 }
 namespace
 dom
-{
-namespace
+:
+:
 battery
 {
 class
@@ -187,7 +187,6 @@ mRemainingTime
 ;
 }
 ;
-}
 }
 }
 #
