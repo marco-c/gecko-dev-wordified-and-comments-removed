@@ -2576,6 +2576,9 @@ IsOnCurrentThread
 ;
 if
 (
+mAllowSsrcChange
+&
+&
 mRecvStreamConfig
 .
 rtp
