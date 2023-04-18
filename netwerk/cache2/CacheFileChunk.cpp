@@ -2021,13 +2021,6 @@ AssertOwnsLock
 (
 )
 ;
-mFile
--
->
-AssertOwnsLock
-(
-)
-;
 LOG
 (
 (
@@ -2610,13 +2603,6 @@ uint32_t
 aLen
 )
 {
-AssertOwnsLock
-(
-)
-;
-mFile
--
->
 AssertOwnsLock
 (
 )
