@@ -2637,6 +2637,25 @@ readlines
 (
 )
     
+if
+channel
+in
+(
+"
+official
+"
+"
+unofficial
+"
+)
+:
+        
+lines
+.
+reverse
+(
+)
+    
 for
 key
 in
@@ -2660,10 +2679,7 @@ MOZ_ASYNCIHANDLERCONTROL_IID
 for
 line
 in
-reversed
-(
 lines
-)
 :
             
 if
