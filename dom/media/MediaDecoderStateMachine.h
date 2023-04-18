@@ -809,12 +809,10 @@ GenericPromise
 >
 InvokeSetSink
 (
-const
 RefPtr
 <
 AudioDeviceInfo
 >
-&
 aSink
 )
 ;
@@ -1058,9 +1056,7 @@ SetMediaNotSeekable
 void
 ResetDecode
 (
-const
 TrackSet
-&
 aTracks
 =
 TrackSet
@@ -1089,13 +1085,11 @@ GenericPromise
 >
 SetSink
 (
-const
 RefPtr
 <
 AudioDeviceInfo
 >
-&
-aDevice
+aSink
 )
 ;
 void

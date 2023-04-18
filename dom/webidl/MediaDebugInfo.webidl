@@ -406,7 +406,6 @@ audioEnded
 =
 false
 ;
-unsigned
 long
 outputRate
 =
