@@ -3095,7 +3095,7 @@ aSample
 .
 mRunningTimes
 .
-Get
+GetJson
 #
 #
 name
