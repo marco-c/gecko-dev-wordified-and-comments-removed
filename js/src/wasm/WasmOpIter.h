@@ -13472,7 +13472,7 @@ tables
 tableIndex
 ]
 .
-isImportedOrExported
+importedOrExported
 &
 &
 funcType

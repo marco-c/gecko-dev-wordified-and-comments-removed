@@ -2021,7 +2021,7 @@ RefType
 elemType
 ;
 bool
-isImportedOrExported
+importedOrExported
 ;
 bool
 isAsmJS
@@ -2058,7 +2058,7 @@ maximumLength
 bool
 isAsmJS
 bool
-isImportedOrExported
+importedOrExported
 =
 false
 )
@@ -2067,9 +2067,9 @@ elemType
 (
 elemType
 )
-isImportedOrExported
+importedOrExported
 (
-isImportedOrExported
+importedOrExported
 )
 isAsmJS
 (
