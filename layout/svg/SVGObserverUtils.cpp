@@ -5593,6 +5593,15 @@ nsIFrame
 aTextPathFrame
 )
 {
+aTextPathFrame
+=
+aTextPathFrame
+-
+>
+FirstContinuation
+(
+)
+;
 SVGTextPathObserver
 *
 property
