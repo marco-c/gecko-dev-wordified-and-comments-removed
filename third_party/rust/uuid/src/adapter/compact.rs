@@ -152,12 +152,12 @@ test_serialize_compact
 [
 derive
 (
-serde
+serde_derive
 :
 :
 Serialize
 Debug
-serde
+serde_derive
 :
 :
 Deserialize

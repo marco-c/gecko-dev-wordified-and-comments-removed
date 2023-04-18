@@ -527,6 +527,16 @@ usize
 23
 ]
 ;
+#
+[
+allow
+(
+clippy
+:
+:
+needless_range_loop
+)
+]
 fn
 encode
 <
