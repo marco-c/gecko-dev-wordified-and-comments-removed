@@ -557,6 +557,13 @@ SetRTCStats
 (
 aStats
 .
+mCodecStats
+)
+;
+SetRTCStats
+(
+aStats
+.
 mInboundRtpStreamStats
 )
 ;
