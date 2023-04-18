@@ -10692,7 +10692,7 @@ rv
 clipboard
 -
 >
-GetData
+GetSomeData
 (
 transferable
 aClipboardType
@@ -10712,7 +10712,7 @@ NS_WARNING
 nsIClipboard
 :
 :
-GetData
+GetSomeData
 (
 )
 failed
@@ -10878,7 +10878,7 @@ rvIgnored
 clipboard
 -
 >
-GetData
+GetSomeData
 (
 contextTransferable
 aClipboardType
@@ -10894,7 +10894,7 @@ rvIgnored
 nsIClipboard
 :
 :
-GetData
+GetSomeData
 (
 )
 failed
@@ -11103,7 +11103,7 @@ ignored
 clipboard
 -
 >
-GetData
+GetSomeData
 (
 infoTransferable
 aClipboardType
@@ -11119,7 +11119,7 @@ rvIgnored
 nsIClipboard
 :
 :
-GetData
+GetSomeData
 (
 )
 failed
@@ -11823,7 +11823,7 @@ rv
 clipboard
 -
 >
-GetData
+GetSomeData
 (
 transferable
 aSelectionType
@@ -11843,7 +11843,7 @@ NS_WARNING
 nsIClipboard
 :
 :
-GetData
+GetSomeData
 (
 )
 failed
@@ -13208,7 +13208,7 @@ rvIgnored
 clipboard
 -
 >
-GetData
+GetSomeData
 (
 transferable
 aSelectionType
@@ -13224,7 +13224,7 @@ rvIgnored
 nsIClipboard
 :
 :
-GetData
+GetSomeData
 (
 )
 failed

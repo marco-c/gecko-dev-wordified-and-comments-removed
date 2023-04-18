@@ -1083,7 +1083,7 @@ rv
 clipboard
 -
 >
-GetData
+GetSomeData
 (
 transferable
 aClipboardType
@@ -1103,7 +1103,7 @@ NS_WARNING
 nsIClipboard
 :
 :
-GetData
+GetSomeData
 (
 )
 failed

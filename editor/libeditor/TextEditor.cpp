@@ -2569,7 +2569,7 @@ NS_OK
 clipboard
 -
 >
-GetData
+GetSomeData
 (
 trans
 aClipboardType
