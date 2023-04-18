@@ -75,12 +75,7 @@ Init
 )
 ;
 void
-ShutdownNonMainThreads
-(
-)
-;
-void
-ShutdownMainThread
+Shutdown
 (
 )
 ;
