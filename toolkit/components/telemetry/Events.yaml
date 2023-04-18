@@ -18345,6 +18345,11 @@ expiry_version
 "
 never
 "
+release_channel_collection
+:
+opt
+-
+out
 disable
 :
 objects
@@ -18392,6 +18397,11 @@ expiry_version
 "
 never
 "
+release_channel_collection
+:
+opt
+-
+out
 doh
 :
 evaluate_v2
