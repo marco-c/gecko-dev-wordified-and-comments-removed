@@ -240,7 +240,13 @@ OS_LIBS
 =
 [
 "
+advapi32
+"
+"
 comctl32
+"
+"
+gdi32
 "
 "
 ole32
@@ -253,6 +259,9 @@ wininet
 "
 "
 shlwapi
+"
+"
+user32
 "
 ]
 elif

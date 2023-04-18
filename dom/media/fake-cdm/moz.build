@@ -87,6 +87,9 @@ OS_LIBS
 "
 ole32
 "
+"
+user32
+"
 ]
 USE_STATIC_LIBS
 =

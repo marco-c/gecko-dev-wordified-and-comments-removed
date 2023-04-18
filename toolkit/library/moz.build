@@ -1277,6 +1277,9 @@ OS_LIBS
 crypt32
 "
 "
+gdi32
+"
+"
 shell32
 "
 "
@@ -1290,6 +1293,12 @@ version
 "
 "
 winspool
+"
+"
+userenv
+"
+"
+uuid
 "
 ]
 if

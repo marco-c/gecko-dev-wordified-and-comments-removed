@@ -679,6 +679,9 @@ OS_LIBS
 advapi32
 "
 "
+wsock32
+"
+"
 ws2_32
 "
 "
