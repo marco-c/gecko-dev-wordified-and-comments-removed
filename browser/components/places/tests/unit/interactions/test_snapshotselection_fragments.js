@@ -132,10 +132,6 @@ addInteractions
 url
 :
 TEST_URL1
-referrer
-:
-"
-"
 }
 ]
 )

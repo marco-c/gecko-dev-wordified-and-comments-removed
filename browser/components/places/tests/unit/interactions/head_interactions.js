@@ -279,16 +279,6 @@ PlacesTestUtils
 addVisits
 (
 interactions
-.
-map
-(
-i
-=
->
-i
-.
-url
-)
 )
 ;
 for
