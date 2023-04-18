@@ -26,8 +26,8 @@ AnimateMotion
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -144,6 +144,5 @@ mozAnimateMotionDummyAttr
 return
 true
 ;
-}
 }
 }

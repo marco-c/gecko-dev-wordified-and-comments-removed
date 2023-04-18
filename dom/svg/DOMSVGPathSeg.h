@@ -49,8 +49,8 @@ MOZ_SVG_LIST_INDEX_BIT_COUNT
 31
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -2774,7 +2774,6 @@ mArgs
 ;
 }
 ;
-}
 }
 #
 undef

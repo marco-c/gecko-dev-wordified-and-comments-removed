@@ -69,8 +69,8 @@ algorithm
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -933,6 +933,5 @@ mValues
 mAttrEnum
 ]
 ;
-}
 }
 }

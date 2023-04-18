@@ -42,8 +42,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -1398,7 +1398,6 @@ type
 return
 nullptr
 ;
-}
 }
 }
 }

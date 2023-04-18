@@ -26,8 +26,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -187,7 +187,6 @@ mSVGElement
 ;
 }
 ;
-}
 }
 #
 endif

@@ -73,8 +73,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -2398,7 +2398,6 @@ UpdateListIndex
 i
 )
 ;
-}
 }
 }
 }

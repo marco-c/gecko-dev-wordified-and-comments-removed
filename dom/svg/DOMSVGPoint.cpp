@@ -57,8 +57,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1041,5 +1041,4 @@ Length
 }
 #
 endif
-}
 }

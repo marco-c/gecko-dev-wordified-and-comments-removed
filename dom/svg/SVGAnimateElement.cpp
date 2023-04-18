@@ -26,8 +26,8 @@ Animate
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -111,6 +111,5 @@ AnimationFunction
 return
 mAnimationFunction
 ;
-}
 }
 }

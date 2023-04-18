@@ -55,8 +55,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -208,7 +208,6 @@ MpathChanged
 }
 }
 ;
-}
 }
 #
 endif

@@ -39,8 +39,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -443,6 +443,5 @@ GetAnimatedTransformList
 (
 )
 ;
-}
 }
 }

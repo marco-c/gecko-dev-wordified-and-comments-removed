@@ -139,8 +139,8 @@ i
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -1874,6 +1874,5 @@ mItems
 aIndex
 )
 ;
-}
 }
 }

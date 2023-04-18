@@ -123,8 +123,8 @@ M_PI
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -1569,6 +1569,5 @@ SetMatrix
 aMatrix
 )
 ;
-}
 }
 }

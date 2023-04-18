@@ -136,8 +136,8 @@ i
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_CLASS
@@ -1724,6 +1724,5 @@ mItems
 aIndex
 )
 ;
-}
 }
 }

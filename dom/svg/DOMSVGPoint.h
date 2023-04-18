@@ -85,8 +85,8 @@ MOZ_SVG_LIST_INDEX_BIT_COUNT
 30
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -547,7 +547,6 @@ mIsTranslatePoint
 ;
 }
 ;
-}
 }
 #
 undef

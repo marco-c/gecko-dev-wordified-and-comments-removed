@@ -85,8 +85,8 @@ list
 items
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -571,7 +571,6 @@ mTransform
 ;
 }
 ;
-}
 }
 #
 undef

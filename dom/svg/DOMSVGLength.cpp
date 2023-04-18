@@ -94,8 +94,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -2380,5 +2380,4 @@ Length
 }
 #
 endif
-}
 }
