@@ -581,15 +581,6 @@ container
 TRUE
 )
 ;
-gtk_container_set_resize_mode
-(
-GTK_CONTAINER
-(
-container
-)
-GTK_RESIZE_IMMEDIATE
-)
-;
 gtk_widget_set_redraw_on_allocate
 (
 GTK_WIDGET
