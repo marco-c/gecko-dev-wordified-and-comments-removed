@@ -1339,6 +1339,16 @@ ScriptLoadRequest
 aRequest
 )
 ;
+static
+nsCString
+&
+BytecodeMimeTypeFor
+(
+ScriptLoadRequest
+*
+aRequest
+)
+;
 nsresult
 MaybePrepareForBytecodeEncoding
 (
