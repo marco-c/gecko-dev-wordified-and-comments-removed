@@ -1567,7 +1567,7 @@ inverted
 |
 inverted
 .
-transform_point2d
+project_point2d
 (
 test
 .
@@ -1708,7 +1708,7 @@ inverted
 |
 inverted
 .
-transform_point2d
+project_point2d
 (
 test
 .
