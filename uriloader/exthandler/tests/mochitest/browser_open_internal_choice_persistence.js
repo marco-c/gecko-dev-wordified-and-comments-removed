@@ -184,6 +184,16 @@ showOpenOptionForViewableInternally
 "
 true
 ]
+[
+"
+browser
+.
+download
+.
+useDownloadDir
+"
+true
+]
 ]
 }
 )
