@@ -840,6 +840,9 @@ newtab
 "
 pbmode
 "
+"
+document_pdf
+"
 )
 :
 DEFINES

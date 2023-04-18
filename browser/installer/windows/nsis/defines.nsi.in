@@ -306,6 +306,12 @@ IDI_DOCUMENT_ZERO_BASED
 "
 !
 define
+IDI_DOCUMENT_PDF_ZERO_BASED
+"
+5
+"
+!
+define
 CERTIFICATE_NAME
 "
 Mozilla
