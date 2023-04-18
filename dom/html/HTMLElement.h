@@ -208,6 +208,13 @@ aNotify
 )
 override
 ;
+EventStates
+IntrinsicState
+(
+)
+const
+override
+;
 void
 SetFormInternal
 (
