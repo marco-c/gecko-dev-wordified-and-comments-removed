@@ -21801,6 +21801,13 @@ nsSizeMode_Normal
 ;
 }
 else
+if
+(
+mSizeState
+=
+=
+nsSizeMode_Normal
+)
 {
 SetSizeMode
 (
