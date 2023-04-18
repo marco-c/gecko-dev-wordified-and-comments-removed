@@ -216,14 +216,6 @@ nsIConstraintValidation
 (
 )
 ;
-nsresult
-CheckValidity
-(
-bool
-*
-aValidity
-)
-;
 bool
 GetValidityState
 (
