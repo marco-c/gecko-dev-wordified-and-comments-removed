@@ -548,9 +548,9 @@ const
 maxDepth
 =
 null
-parent
+root
 :
-parentId
+rootId
 =
 null
 }
@@ -592,7 +592,7 @@ contexts
 ;
 if
 (
-parentId
+rootId
 !
 =
 =
@@ -603,10 +603,10 @@ assert
 .
 string
 (
-parentId
+rootId
 Expected
 "
-parent
+root
 "
 to
 be
@@ -614,7 +614,7 @@ a
 string
 got
 {
-parentId
+rootId
 }
 )
 ;
@@ -626,7 +626,7 @@ this
 #
 getBrowsingContext
 (
-parentId
+rootId
 )
 ]
 ;

@@ -653,7 +653,7 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 current_session
 .
@@ -669,7 +669,7 @@ contexts
 =
 1
     
-parent_info
+root_info
 =
 contexts
 [
@@ -678,7 +678,7 @@ contexts
     
 children_info
 =
-parent_info
+root_info
 [
 "
 children
@@ -730,7 +730,7 @@ url
         
 parent
 =
-parent_info
+root_info
 [
 "
 context
@@ -775,7 +775,7 @@ url
         
 parent
 =
-parent_info
+root_info
 [
 "
 context
@@ -956,7 +956,7 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 current_session
 .
@@ -972,7 +972,7 @@ contexts
 =
 1
     
-parent_info
+root_info
 =
 contexts
 [
@@ -982,7 +982,7 @@ contexts
 assert
 len
 (
-parent_info
+root_info
 [
 "
 children
@@ -995,7 +995,7 @@ children
     
 child1_info
 =
-parent_info
+root_info
 [
 "
 children
@@ -1061,7 +1061,7 @@ url
         
 parent
 =
-parent_info
+root_info
 [
 "
 context

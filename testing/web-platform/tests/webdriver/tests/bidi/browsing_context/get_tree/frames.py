@@ -73,7 +73,7 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 top_level_context_id
 )
@@ -87,7 +87,7 @@ all_contexts
 =
 1
     
-parent_info
+root_info
 =
 all_contexts
 [
@@ -97,7 +97,7 @@ all_contexts
 assert_browsing_context
 (
         
-parent_info
+root_info
         
 top_level_context_id
         
@@ -117,7 +117,7 @@ test_page_multiple_frames
     
 child1_info
 =
-parent_info
+root_info
 [
 "
 children
@@ -163,7 +163,7 @@ context
 ]
 !
 =
-parent_info
+root_info
 [
 "
 context
@@ -172,7 +172,7 @@ context
     
 child2_info
 =
-parent_info
+root_info
 [
 "
 children
@@ -218,7 +218,7 @@ context
 ]
 !
 =
-parent_info
+root_info
 [
 "
 context
@@ -299,7 +299,7 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 top_level_context_id
 )
@@ -313,7 +313,7 @@ all_contexts
 =
 1
     
-parent_info
+root_info
 =
 all_contexts
 [
@@ -323,7 +323,7 @@ all_contexts
 assert_browsing_context
 (
         
-parent_info
+root_info
         
 top_level_context_id
         
@@ -343,7 +343,7 @@ test_page_cross_origin_frame
     
 child1_info
 =
-parent_info
+root_info
 [
 "
 children
@@ -389,7 +389,7 @@ context
 ]
 !
 =
-parent_info
+root_info
 [
 "
 context

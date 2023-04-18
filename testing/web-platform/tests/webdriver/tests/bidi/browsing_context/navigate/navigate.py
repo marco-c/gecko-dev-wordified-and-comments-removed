@@ -192,7 +192,7 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 new_tab
 [
@@ -519,7 +519,7 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 new_tab
 [
@@ -647,7 +647,7 @@ browsing_context
 get_tree
 (
         
-parent
+root
 =
 new_tab
 [
@@ -736,7 +736,7 @@ browsing_context
 get_tree
 (
         
-parent
+root
 =
 new_tab
 [

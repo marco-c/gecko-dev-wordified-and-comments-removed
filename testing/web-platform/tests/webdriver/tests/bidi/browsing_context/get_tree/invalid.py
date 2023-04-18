@@ -138,7 +138,7 @@ False
 )
 async
 def
-test_params_parent_invalid_type
+test_params_root_invalid_type
 (
 bidi_session
 value
@@ -163,13 +163,13 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 value
 )
 async
 def
-test_params_parent_invalid_value
+test_params_root_invalid_value
 (
 bidi_session
 )
@@ -193,7 +193,7 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 "
 foo
