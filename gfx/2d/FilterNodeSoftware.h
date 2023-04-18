@@ -3358,9 +3358,6 @@ CoordType
 aKernelUnitLengthY
 )
 ;
-Mutex
-mLock
-;
 LightType
 mLight
 ;
