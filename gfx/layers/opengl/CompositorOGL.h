@@ -291,9 +291,6 @@ struct
 EffectChain
 ;
 class
-GLBlitTextureImageHelper
-;
-class
 CompositorTexturePoolOGL
 {
 protected
@@ -891,12 +888,6 @@ SurfaceFormat
 R8G8B8A8
 ;
 }
-GLBlitTextureImageHelper
-*
-BlitTextureImageHelper
-(
-)
-;
 GLuint
 GetTemporaryTexture
 (
@@ -1065,12 +1056,6 @@ RefPtr
 SurfacePoolHandle
 >
 mSurfacePoolHandle
-;
-UniquePtr
-<
-GLBlitTextureImageHelper
->
-mBlitTextureImageHelper
 ;
 gfx
 :

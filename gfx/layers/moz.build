@@ -2494,13 +2494,6 @@ cpp
 "
 opengl
 /
-GLBlitTextureImageHelper
-.
-cpp
-"
-"
-opengl
-/
 OGLShaderProgram
 .
 cpp
