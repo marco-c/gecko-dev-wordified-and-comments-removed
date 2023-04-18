@@ -2146,6 +2146,7 @@ parse_comma_separated
 |
 input
 |
+{
 ImageSetItem
 :
 :
@@ -2156,6 +2157,7 @@ input
 cors_mode
 only_url
 )
+}
 )
 }
 )
@@ -2233,7 +2235,6 @@ parse_nested_block
 |
 input
 |
-{
 Ok
 (
 input
@@ -2255,7 +2256,6 @@ into
 (
 )
 )
-}
 )
 }
 fn
