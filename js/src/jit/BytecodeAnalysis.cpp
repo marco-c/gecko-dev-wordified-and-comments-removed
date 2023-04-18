@@ -694,7 +694,7 @@ resumeOffset
 .
 setJumpTarget
 (
-normallyReachable
+false
 )
 ;
 break
