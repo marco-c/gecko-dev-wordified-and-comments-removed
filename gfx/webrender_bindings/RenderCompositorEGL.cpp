@@ -1448,6 +1448,16 @@ EGL_NO_SURFACE
 egl
 -
 >
+fMakeCurrent
+(
+EGL_NO_SURFACE
+EGL_NO_SURFACE
+EGL_NO_CONTEXT
+)
+;
+egl
+-
+>
 fDestroySurface
 (
 mEGLSurface
