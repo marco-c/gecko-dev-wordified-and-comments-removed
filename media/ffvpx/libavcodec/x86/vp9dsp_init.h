@@ -7,6 +7,15 @@ AVCODEC_X86_VP9DSP_INIT_H
 #
 include
 "
+libavutil
+/
+mem_internal
+.
+h
+"
+#
+include
+"
 libavcodec
 /
 vp9dsp
