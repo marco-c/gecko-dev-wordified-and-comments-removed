@@ -11,6 +11,7 @@ ColorSpace
 PropertyBinding
 PropertyBindingId
 CompositeOperator
+RasterSpace
 }
 ;
 use
@@ -1769,6 +1770,10 @@ pub
 composite_mode_key
 :
 PictureCompositeKey
+pub
+raster_space
+:
+RasterSpace
 }
 #
 [
@@ -1820,6 +1825,10 @@ pub
 composite_mode_key
 :
 PictureCompositeKey
+pub
+raster_space
+:
+RasterSpace
 }
 impl
 PictureKey
@@ -1843,6 +1852,11 @@ composite_mode_key
 pic
 .
 composite_mode_key
+raster_space
+:
+pic
+.
+raster_space
 }
 }
 }
@@ -2113,7 +2127,7 @@ Picture
 >
 (
 )
-88
+96
 "
 Picture
 size
@@ -2157,7 +2171,7 @@ PictureKey
 >
 (
 )
-88
+96
 "
 PictureKey
 size
