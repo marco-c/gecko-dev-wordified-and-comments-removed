@@ -363,6 +363,8 @@ CodeGen
 Node
 Unexpected64bitArgument
 (
+int
+argno
 )
 ;
 const
