@@ -401,7 +401,7 @@ cancel
 )
 {
 }
-launchWithApplication
+setDownloadToLaunch
 (
 )
 {

@@ -4493,7 +4493,7 @@ this
 .
 mLauncher
 .
-launchWithApplication
+setDownloadToLaunch
 (
 this
 .

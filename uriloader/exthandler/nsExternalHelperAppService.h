@@ -887,6 +887,11 @@ nsString
 path
 )
 ;
+nsresult
+LaunchLocalFile
+(
+)
+;
 nsCOMPtr
 <
 nsIWebProgressListener2
