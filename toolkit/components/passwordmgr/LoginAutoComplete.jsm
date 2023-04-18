@@ -2143,6 +2143,13 @@ schemeIs
 about
 "
 )
+|
+|
+aElement
+.
+nodePrincipal
+.
+isSystemPrincipal
 )
 {
 return
