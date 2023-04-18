@@ -597,6 +597,12 @@ hover
 control
 -
 item
+:
+not
+(
+:
+hover
+)
 {
 opacity
 :
