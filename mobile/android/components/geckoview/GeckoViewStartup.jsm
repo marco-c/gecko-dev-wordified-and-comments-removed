@@ -767,7 +767,7 @@ addLazyGetter
 (
 this
 "
-ContentCrashHandler
+ChildCrashHandler
 "
 {
 module
@@ -781,7 +781,7 @@ gre
 /
 modules
 /
-ContentCrashHandler
+ChildCrashHandler
 .
 jsm
 "
@@ -794,6 +794,13 @@ ipc
 content
 -
 shutdown
+"
+"
+compositor
+:
+process
+-
+aborted
 "
 ]
 }
