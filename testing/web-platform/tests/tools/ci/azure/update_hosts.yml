@@ -3,6 +3,13 @@ steps
 -
 script
 :
+|
+set
+-
+eux
+-
+o
+pipefail
 .
 /
 wpt
