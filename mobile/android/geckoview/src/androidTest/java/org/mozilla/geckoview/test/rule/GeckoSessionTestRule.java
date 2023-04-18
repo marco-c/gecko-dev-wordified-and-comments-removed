@@ -11607,8 +11607,8 @@ String
 getLinkColor
 (
 final
-String
-uri
+GeckoSession
+session
 final
 String
 selector
@@ -11620,6 +11620,7 @@ String
 )
 webExtensionApiCall
 (
+session
 "
 GetLinkColor
 "
@@ -11627,16 +11628,6 @@ args
 -
 >
 {
-args
-.
-put
-(
-"
-uri
-"
-uri
-)
-;
 args
 .
 put
