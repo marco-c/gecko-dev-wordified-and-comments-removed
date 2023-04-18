@@ -938,7 +938,7 @@ CoCreateInstance
 (
 CLSID_Location
 nullptr
-CLSCTX_INPROC_SERVER
+CLSCTX_ALL
 IID_ILocation
 getter_AddRefs
 (
