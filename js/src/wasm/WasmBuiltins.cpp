@@ -1462,7 +1462,7 @@ SymbolicAddress
 :
 :
 PushRefIntoExn
-_I32
+_VOID
 _FailOnNegI32
 3
 {

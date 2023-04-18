@@ -20289,13 +20289,6 @@ return
 false
 ;
 }
-freeI32
-(
-popI32
-(
-)
-)
-;
 exn
 =
 popRef
