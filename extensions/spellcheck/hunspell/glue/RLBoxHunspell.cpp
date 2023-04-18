@@ -313,9 +313,9 @@ static_cast
 uint64_t
 >
 (
-4
+6
 .
-8
+4
 *
 dictSize
 )

@@ -253,15 +253,3 @@ patches
 bug1410214
 .
 patch
-patch
--
-p5
-<
-.
-.
-/
-patches
-/
-bug1739761
-.
-patch
