@@ -101,6 +101,13 @@ exceptions
 js
 "
 "
+file
+-
+search
+.
+js
+"
+"
 getCallStackFrames
 .
 js
