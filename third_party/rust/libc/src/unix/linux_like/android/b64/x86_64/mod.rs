@@ -16,6 +16,14 @@ greg_t
 =
 i64
 ;
+pub
+type
+__u64
+=
+:
+:
+c_ulonglong
+;
 s
 !
 {

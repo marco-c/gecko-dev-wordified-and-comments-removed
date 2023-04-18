@@ -2,6 +2,15 @@ use
 std
 :
 :
+borrow
+:
+:
+Cow
+;
+use
+std
+:
+:
 ffi
 :
 :
@@ -9,15 +18,6 @@ ffi
 CStr
 CString
 }
-;
-use
-std
-:
-:
-borrow
-:
-:
-Cow
 ;
 use
 std
@@ -141,6 +141,7 @@ _
 )
 =
 >
+{
 Cow
 :
 :
@@ -169,6 +170,7 @@ source
 )
 ?
 )
+}
 }
 )
 }

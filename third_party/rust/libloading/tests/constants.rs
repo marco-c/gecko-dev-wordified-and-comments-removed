@@ -1,10 +1,10 @@
 extern
 crate
-libloading
+libc
 ;
 extern
 crate
-libc
+libloading
 ;
 extern
 crate

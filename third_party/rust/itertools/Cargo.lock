@@ -16,6 +16,9 @@ for
 manual
 editing
 .
+version
+=
+3
 [
 [
 package
@@ -1352,7 +1355,7 @@ version
 .
 10
 .
-1
+3
 "
 dependencies
 =

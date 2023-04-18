@@ -542,6 +542,7 @@ bool
 derive
 (
 Clone
+Debug
 )
 ]
 pub

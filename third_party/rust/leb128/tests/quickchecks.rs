@@ -1,9 +1,7 @@
-extern
-crate
+use
 leb128
 ;
-extern
-crate
+use
 quickcheck
 ;
 use

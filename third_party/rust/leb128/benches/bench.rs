@@ -10,8 +10,7 @@ extern
 crate
 test
 ;
-extern
-crate
+use
 leb128
 ;
 #

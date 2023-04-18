@@ -322,6 +322,7 @@ HomogeneousTuple
 derive
 (
 Clone
+Debug
 )
 ]
 #

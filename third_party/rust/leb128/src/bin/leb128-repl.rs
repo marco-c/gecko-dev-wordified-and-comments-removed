@@ -1,5 +1,4 @@
-extern
-crate
+use
 leb128
 ;
 use

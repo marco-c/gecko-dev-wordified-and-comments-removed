@@ -903,7 +903,6 @@ hash
 state
 )
 ;
-&
 self
 .
 uc_regspace
