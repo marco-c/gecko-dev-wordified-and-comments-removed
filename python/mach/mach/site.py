@@ -108,32 +108,6 @@ Exception
     
 pass
 class
-SiteUpToDateResult
-:
-    
-def
-__init__
-(
-self
-is_up_to_date
-reason
-=
-None
-)
-:
-        
-self
-.
-is_up_to_date
-=
-is_up_to_date
-        
-self
-.
-reason
-=
-reason
-class
 SitePackagesSource
 (
 enum
@@ -1829,7 +1803,7 @@ source
 )
     
 def
-_up_to_date
+up_to_date
 (
 self
 )
@@ -1847,10 +1821,7 @@ NONE
 :
             
 return
-SiteUpToDateResult
-(
 True
-)
         
 elif
 self
@@ -1903,10 +1874,7 @@ _requirements
 )
             
 return
-SiteUpToDateResult
-(
 True
-)
         
 elif
 self
@@ -1965,11 +1933,11 @@ False
 )
 :
         
-result
+up_to_date
 =
 self
 .
-_up_to_date
+up_to_date
 (
 )
         
@@ -1977,9 +1945,7 @@ if
 force
 or
 not
-result
-.
-is_up_to_date
+up_to_date
 :
             
 if
@@ -2004,9 +1970,6 @@ prefix
 raise
 VirtualenvOutOfDateException
 (
-result
-.
-reason
 )
             
 self
@@ -2014,6 +1977,9 @@ self
 _build
 (
 )
+        
+return
+up_to_date
     
 def
 attempt_populate_optional_packages
@@ -3164,19 +3130,13 @@ packages
 "
 "
         
-result
-=
+if
+not
 self
 .
 _up_to_date
 (
 )
-        
-if
-not
-result
-.
-is_up_to_date
 :
             
 active_site
@@ -3197,18 +3157,6 @@ self
 .
 _site_name
 :
-                
-print
-(
-result
-.
-reason
-file
-=
-sys
-.
-stderr
-)
                 
 raise
 Exception
@@ -7005,23 +6953,7 @@ prefix
 :
         
 return
-SiteUpToDateResult
-(
 False
-f
-'
-"
-{
-target_venv
-.
-prefix
-}
-"
-does
-not
-exist
-'
-)
     
 virtualenv_package
 =
@@ -7091,47 +7023,32 @@ METADATA_FILENAME
     
 )
     
-for
-dep_file
-in
-deps
-:
-        
-if
+dep_mtime
+=
+max
+(
 os
 .
 path
 .
 getmtime
 (
-dep_file
+p
 )
+for
+p
+in
+deps
+)
+    
+if
+dep_mtime
 >
 metadata_mtime
 :
-            
+        
 return
-SiteUpToDateResult
-(
-                
 False
-f
-'
-"
-{
-dep_file
-}
-"
-has
-changed
-since
-the
-virtualenv
-was
-created
-'
-            
-)
     
 try
 :
@@ -7149,19 +7066,10 @@ prefix
     
 except
 MozSiteMetadataOutOfDateError
-as
-e
 :
         
 return
-SiteUpToDateResult
-(
 False
-str
-(
-e
-)
-)
     
 if
 existing_metadata
@@ -7171,47 +7079,7 @@ expected_metadata
 :
         
 return
-SiteUpToDateResult
-(
-            
 False
-            
-f
-"
-The
-existing
-metadata
-on
--
-disk
-(
-{
-vars
-(
-existing_metadata
-)
-}
-)
-does
-not
-match
-"
-            
-f
-"
-the
-expected
-metadata
-(
-{
-vars
-(
-expected_metadata
-)
-}
-"
-        
-)
     
 platlib_site_packages_dir
 =
@@ -7224,8 +7092,12 @@ platlib
 "
 )
     
-pthfile_path
-=
+try
+:
+        
+with
+open
+(
 os
 .
 path
@@ -7235,14 +7107,6 @@ join
 platlib_site_packages_dir
 PTH_FILENAME
 )
-    
-try
-:
-        
-with
-open
-(
-pthfile_path
 )
 as
 file
@@ -7265,22 +7129,7 @@ FileNotFoundError
 :
         
 return
-SiteUpToDateResult
-(
 False
-f
-'
-No
-pthfile
-found
-at
-"
-{
-pthfile_path
-}
-"
-'
-)
     
 expected_pthfile_contents
 =
@@ -7302,99 +7151,10 @@ expected_pthfile_contents
 :
         
 return
-SiteUpToDateResult
-(
-            
 False
-            
-f
-'
-The
-pthfile
-at
-"
-{
-pthfile_path
-}
-"
-does
-not
-match
-the
-expected
-value
-.
-\
-n
-'
-            
-f
-"
-#
--
--
--
-on
--
-disk
-pthfile
-:
--
--
--
-\
-n
-"
-            
-f
-"
-{
-current_pthfile_contents
-}
-\
-n
-"
-            
-f
-"
-#
--
--
--
-expected
-pthfile
-contents
--
--
--
-\
-n
-"
-            
-f
-"
-{
-expected_pthfile_contents
-}
-\
-n
-"
-            
-f
-"
-#
--
--
--
-"
-        
-)
     
 return
-SiteUpToDateResult
-(
 True
-)
 def
 activate_virtualenv
 (
