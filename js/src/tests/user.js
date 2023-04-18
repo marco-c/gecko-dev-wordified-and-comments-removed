@@ -471,3 +471,17 @@ enable_new_set_methods
 false
 )
 ;
+user_pref
+(
+"
+javascript
+.
+options
+.
+experimental
+.
+import_assertions
+"
+true
+)
+;

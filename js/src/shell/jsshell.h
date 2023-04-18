@@ -638,6 +638,10 @@ extern
 bool
 enableClassStaticBlocks
 ;
+extern
+bool
+enableImportAssertions
+;
 #
 ifdef
 JS_GC_ZEAL
