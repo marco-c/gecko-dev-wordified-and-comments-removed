@@ -298,6 +298,16 @@ ByteBuf
 buf
 )
 ;
+async
+TestTriggerMetrics
+(
+)
+returns
+(
+bool
+unused
+)
+;
 child
 :
 async

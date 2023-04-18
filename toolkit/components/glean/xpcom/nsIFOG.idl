@@ -140,5 +140,13 @@ testTriggerGPUMetrics
 (
 )
 ;
+[
+implicit_jscontext
+]
+Promise
+testTriggerRDDMetrics
+(
+)
+;
 }
 ;
