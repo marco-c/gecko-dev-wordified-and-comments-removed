@@ -329,6 +329,10 @@ waitForLoad
 ;
 if
 (
+!
+shouldExpectDialog
+&
+&
 type
 =
 =
@@ -541,6 +545,10 @@ acceptDialog
 }
 if
 (
+!
+shouldExpectDialog
+&
+&
 type
 =
 =
