@@ -497,6 +497,17 @@ public
 JumpList
 finallyJumps_
 ;
+js
+:
+:
+Vector
+<
+BytecodeOffset
+2
+SystemAllocPolicy
+>
+defaultResumeIndexOffsets_
+;
 TryFinallyControl
 (
 BytecodeEmitter

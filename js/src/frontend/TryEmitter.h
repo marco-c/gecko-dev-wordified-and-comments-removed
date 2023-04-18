@@ -208,6 +208,16 @@ JSOpLength_Try
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
+bool
+emitJumpToFinallyWithFallthrough
+(
+)
+;
 public
 :
 TryEmitter
