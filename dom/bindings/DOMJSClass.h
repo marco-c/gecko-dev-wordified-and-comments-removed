@@ -389,7 +389,7 @@ Window
 static
 const
 uint32_t
-BackstagePass
+DedicatedWorkerGlobalScope
 =
 1u
 <
@@ -399,7 +399,7 @@ BackstagePass
 static
 const
 uint32_t
-DedicatedWorkerGlobalScope
+SharedWorkerGlobalScope
 =
 1u
 <
@@ -409,7 +409,7 @@ DedicatedWorkerGlobalScope
 static
 const
 uint32_t
-SharedWorkerGlobalScope
+ServiceWorkerGlobalScope
 =
 1u
 <
@@ -419,7 +419,7 @@ SharedWorkerGlobalScope
 static
 const
 uint32_t
-ServiceWorkerGlobalScope
+WorkerDebuggerGlobalScope
 =
 1u
 <
@@ -429,7 +429,7 @@ ServiceWorkerGlobalScope
 static
 const
 uint32_t
-WorkerDebuggerGlobalScope
+WorkletGlobalScope
 =
 1u
 <
@@ -439,7 +439,7 @@ WorkerDebuggerGlobalScope
 static
 const
 uint32_t
-WorkletGlobalScope
+AudioWorkletGlobalScope
 =
 1u
 <
@@ -449,22 +449,12 @@ WorkletGlobalScope
 static
 const
 uint32_t
-AudioWorkletGlobalScope
-=
-1u
-<
-<
-7
-;
-static
-const
-uint32_t
 PaintWorkletGlobalScope
 =
 1u
 <
 <
-8
+7
 ;
 }
 struct
