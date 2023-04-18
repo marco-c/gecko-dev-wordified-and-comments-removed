@@ -1830,6 +1830,7 @@ interface
 Navigator
 {
 [
+SecureContext
 Throws
 Pref
 =
