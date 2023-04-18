@@ -8,6 +8,13 @@ geckoview
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 os
 .
 Build
@@ -3684,6 +3691,12 @@ response
 )
 ;
 }
+SuppressLint
+(
+"
+WrongThread
+"
+)
 private
 void
 getSettings
