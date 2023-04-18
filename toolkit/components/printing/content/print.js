@@ -1576,14 +1576,6 @@ clone
 ;
 settings
 .
-isPrintSelectionRBEnabled
-=
-this
-.
-hasSelection
-;
-settings
-.
 title
 =
 this
@@ -1640,6 +1632,9 @@ _showPrintDialog
 (
 PRINTDIALOGSVC
 window
+this
+.
+hasSelection
 settings
 )
 ;
@@ -4047,14 +4042,6 @@ updatePrintPreview
 )
 ;
 }
-settings
-.
-isPrintSelectionRBEnabled
-=
-this
-.
-hasSelection
-;
 document
 .
 dispatchEvent
@@ -4757,6 +4744,7 @@ _showPrintDialog
 (
 aPrintDialogService
 aWindow
+aHaveSelection
 aSettings
 )
 {
@@ -4766,6 +4754,7 @@ aPrintDialogService
 showPrintDialog
 (
 aWindow
+aHaveSelection
 aSettings
 )
 ;

@@ -561,6 +561,8 @@ ShowNativePrintDialog
 (
 HWND
 aHWnd
+bool
+aHaveSelection
 nsIPrintSettings
 *
 aPrintSettings
@@ -890,12 +892,7 @@ PD_NOCURRENTPAGE
 if
 (
 !
-aPrintSettings
--
->
-GetIsPrintSelectionRBEnabled
-(
-)
+aHaveSelection
 )
 {
 prntdlg
@@ -1649,6 +1646,8 @@ NativeShowPrintDialog
 (
 HWND
 aHWnd
+bool
+aHaveSelection
 nsIPrintSettings
 *
 aPrintSettings
@@ -1660,6 +1659,7 @@ rv
 ShowNativePrintDialog
 (
 aHWnd
+aHaveSelection
 aPrintSettings
 )
 ;
