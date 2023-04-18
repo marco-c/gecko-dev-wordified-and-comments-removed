@@ -617,11 +617,11 @@ mAltTheme
 mSystemTheme
 ;
 }
+RefPtr
+<
 GDBusProxy
-*
+>
 mDBusSettingsProxy
-=
-nullptr
 ;
 mozilla
 :

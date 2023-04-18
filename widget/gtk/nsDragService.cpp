@@ -9077,8 +9077,10 @@ n
 return
 ;
 }
+RefPtr
+<
 GdkPixbuf
-*
+>
 pixbuf
 =
 nsImageToPixbuf
@@ -9127,11 +9129,6 @@ set
 n
 "
 )
-)
-;
-g_object_unref
-(
-pixbuf
 )
 ;
 }
@@ -9768,8 +9765,10 @@ dragRect
 )
 )
 {
+RefPtr
+<
 GdkPixbuf
-*
+>
 dragPixbuf
 =
 nsImageToPixbuf
@@ -9808,11 +9807,6 @@ aContext
 dragPixbuf
 offsetX
 offsetY
-)
-;
-g_object_unref
-(
-dragPixbuf
 )
 ;
 }
