@@ -1957,11 +1957,13 @@ dom
 GPUCanvasConfiguration
 &
 aDesc
-wr
+const
+layers
 :
 :
-ExternalImageId
-aExternalImageId
+CompositableHandle
+&
+aHandle
 gfx
 :
 :
@@ -2151,7 +2153,7 @@ DeviceCreateSwapChain
 mId
 rgbDesc
 maxBufferCount
-aExternalImageId
+aHandle
 )
 ;
 dom
