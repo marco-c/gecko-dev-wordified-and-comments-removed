@@ -139,6 +139,17 @@ nsExpatDriver
 (
 )
 ;
+nsresult
+Initialize
+(
+nsIURI
+*
+aURI
+nsIContentSink
+*
+aSink
+)
+;
 int
 HandleExternalEntityRef
 (
