@@ -55,6 +55,17 @@ nsPrintSettingsWin
 aPS
 )
 ;
+static
+void
+PaperSizeUnitFromDmPaperSize
+(
+short
+aPaperSize
+int16_t
+&
+aPaperSizeUnit
+)
+;
 void
 InitWithInitializer
 (

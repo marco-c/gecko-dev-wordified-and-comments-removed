@@ -95,6 +95,17 @@ printerInfo
 [
 implicit_jscontext
 ]
+Promise
+copyFromWithValidation
+(
+in
+nsIPrintSettings
+aSettingsToCopyFrom
+)
+;
+[
+implicit_jscontext
+]
 readonly
 attribute
 Promise
