@@ -1144,12 +1144,6 @@ return
 nullptr
 ;
 }
-gSharedSection
-.
-Reset
-(
-)
-;
 LauncherResult
 <
 SharedSection
