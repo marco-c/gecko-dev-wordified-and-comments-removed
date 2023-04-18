@@ -680,14 +680,6 @@ drain
 ;
 pool
 .
-install
-(
-|
-|
-{
-rayon
-:
-:
 scope_fifo
 (
 |
@@ -724,9 +716,6 @@ pool
 traversal
 &
 tls
-)
-;
-}
 )
 ;
 }
