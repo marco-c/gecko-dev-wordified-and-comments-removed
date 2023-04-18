@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 error
 :
@@ -123,7 +129,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -131,10 +137,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -147,7 +157,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 textEncoder
 "
@@ -266,6 +276,8 @@ session
 {
 throw
 new
+lazy
+.
 error
 .
 SessionNotCreatedError
@@ -284,6 +296,8 @@ const
 session
 =
 new
+lazy
+.
 WebDriverSession
 (
 capabilities
@@ -321,6 +335,8 @@ sessionlessConnection
 )
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -366,6 +382,8 @@ session
 path
 }
 ;
+lazy
+.
 logger
 .
 debug
@@ -488,6 +506,8 @@ path
 null
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -593,6 +613,8 @@ registerPathHandler
 session
 "
 new
+lazy
+.
 WebDriverNewSessionHandler
 (
 this
@@ -653,6 +675,8 @@ write
 this
 .
 _activePortPath
+lazy
+.
 textEncoder
 .
 encode
@@ -667,6 +691,8 @@ catch
 e
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -726,6 +752,8 @@ catch
 e
 )
 {
+lazy
+.
 logger
 .
 warn

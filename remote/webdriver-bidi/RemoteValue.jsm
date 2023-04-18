@@ -39,11 +39,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 assert
 :
@@ -107,7 +113,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -115,10 +121,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -151,6 +161,8 @@ type
 undefined
 )
 {
+lazy
+.
 assert
 .
 string
@@ -180,6 +192,8 @@ objectId
 undefined
 )
 {
+lazy
+.
 assert
 .
 string
@@ -199,6 +213,8 @@ objectId
 }
 )
 ;
+lazy
+.
 logger
 .
 warn
@@ -244,6 +260,8 @@ case
 string
 "
 :
+lazy
+.
 assert
 .
 string
@@ -287,6 +305,8 @@ return
 value
 ;
 }
+lazy
+.
 assert
 .
 in
@@ -322,6 +342,8 @@ case
 boolean
 "
 :
+lazy
+.
 assert
 .
 boolean
@@ -349,6 +371,8 @@ case
 bigint
 "
 :
+lazy
+.
 assert
 .
 string
@@ -384,6 +408,8 @@ e
 {
 throw
 new
+lazy
+.
 InvalidArgumentError
 (
 Failed
@@ -400,6 +426,8 @@ value
 ;
 }
 }
+lazy
+.
 logger
 .
 warn
@@ -633,6 +661,8 @@ value
 }
 ;
 }
+lazy
+.
 logger
 .
 warn

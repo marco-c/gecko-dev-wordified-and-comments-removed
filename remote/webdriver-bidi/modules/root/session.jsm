@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 assert
 :
@@ -124,6 +130,8 @@ jsm
 class
 SessionModule
 extends
+lazy
+.
 Module
 {
 destroy
@@ -151,6 +159,8 @@ contexts
 =
 params
 ;
+lazy
+.
 assert
 .
 array
@@ -173,6 +183,8 @@ name
 =
 >
 {
+lazy
+.
 assert
 .
 string
@@ -190,6 +202,8 @@ expected
 }
 )
 ;
+lazy
+.
 assert
 .
 array
@@ -212,6 +226,8 @@ context
 =
 >
 {
+lazy
+.
 assert
 .
 string
@@ -317,6 +333,8 @@ destination
 {
 type
 :
+lazy
+.
 RootMessageHandler
 .
 type
@@ -349,6 +367,8 @@ contexts
 =
 params
 ;
+lazy
+.
 assert
 .
 array
@@ -371,6 +391,8 @@ name
 =
 >
 {
+lazy
+.
 assert
 .
 string
@@ -388,6 +410,8 @@ expected
 }
 )
 ;
+lazy
+.
 assert
 .
 array
@@ -410,6 +434,8 @@ context
 =
 >
 {
+lazy
+.
 assert
 .
 string
@@ -515,6 +541,8 @@ destination
 {
 type
 :
+lazy
+.
 RootMessageHandler
 .
 type
@@ -565,6 +593,8 @@ supportsEvents
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -619,6 +649,8 @@ supportsEvent
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -650,6 +682,8 @@ rootDestination
 {
 type
 :
+lazy
+.
 RootMessageHandler
 .
 type

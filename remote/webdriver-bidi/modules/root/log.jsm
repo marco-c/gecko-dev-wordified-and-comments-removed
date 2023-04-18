@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ContextDescriptorType
 :
@@ -86,6 +92,8 @@ jsm
 class
 LogModule
 extends
+lazy
+.
 Module
 {
 destroy
@@ -135,6 +143,8 @@ contextDescriptor
 {
 type
 :
+lazy
+.
 ContextDescriptorType
 .
 All
@@ -213,6 +223,8 @@ contextDescriptor
 {
 type
 :
+lazy
+.
 ContextDescriptorType
 .
 All

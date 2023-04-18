@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 LoadListener
 :
@@ -86,6 +92,8 @@ jsm
 class
 BrowsingContextModule
 extends
+lazy
+.
 Module
 {
 #
@@ -107,6 +115,8 @@ this
 loadListener
 =
 new
+lazy
+.
 LoadListener
 (
 this

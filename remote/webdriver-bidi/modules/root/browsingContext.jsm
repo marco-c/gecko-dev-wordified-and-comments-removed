@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AppInfo
 :
@@ -289,7 +295,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -297,10 +303,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -349,6 +359,8 @@ complete
 class
 BrowsingContextModule
 extends
+lazy
+.
 Module
 {
 #
@@ -370,6 +382,8 @@ this
 contextListener
 =
 new
+lazy
+.
 BrowsingContextListener
 (
 )
@@ -438,6 +452,8 @@ contextId
 =
 options
 ;
+lazy
+.
 assert
 .
 string
@@ -460,6 +476,8 @@ contextId
 const
 context
 =
+lazy
+.
 TabManager
 .
 getBrowsingContextById
@@ -475,6 +493,8 @@ context
 {
 throw
 new
+lazy
+.
 error
 .
 NoSuchFrameError
@@ -500,6 +520,8 @@ parent
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -521,6 +543,8 @@ level
 }
 if
 (
+lazy
+.
 TabManager
 .
 getTabCount
@@ -532,6 +556,8 @@ getTabCount
 1
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -567,6 +593,8 @@ embedderElement
 const
 tabBrowser
 =
+lazy
+.
 TabManager
 .
 getTabBrowser
@@ -586,6 +614,8 @@ getTabForBrowser
 browser
 )
 ;
+lazy
+.
 TabManager
 .
 removeTab
@@ -632,6 +662,8 @@ window
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -676,6 +708,8 @@ let
 newWindow
 =
 await
+lazy
+.
 windowManager
 .
 openBrowserWindow
@@ -684,6 +718,8 @@ openBrowserWindow
 ;
 browser
 =
+lazy
+.
 TabManager
 .
 getTabBrowser
@@ -703,6 +739,8 @@ tab
 if
 (
 !
+lazy
+.
 TabManager
 .
 supportsTabs
@@ -712,6 +750,8 @@ supportsTabs
 {
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -728,6 +768,8 @@ not
 supported
 in
 {
+lazy
+.
 AppInfo
 .
 name
@@ -739,6 +781,8 @@ let
 tab
 =
 await
+lazy
+.
 TabManager
 .
 addTab
@@ -752,6 +796,8 @@ false
 ;
 browser
 =
+lazy
+.
 TabManager
 .
 getBrowserForTab
@@ -761,6 +807,8 @@ tab
 ;
 }
 await
+lazy
+.
 waitForInitialNavigationCompleted
 (
 browser
@@ -774,6 +822,8 @@ return
 {
 context
 :
+lazy
+.
 TabManager
 .
 getIdForBrowser
@@ -814,6 +864,8 @@ maxDepth
 null
 )
 {
+lazy
+.
 assert
 .
 positiveInteger
@@ -847,6 +899,8 @@ rootId
 null
 )
 {
+lazy
+.
 assert
 .
 string
@@ -883,6 +937,8 @@ else
 {
 contexts
 =
+lazy
+.
 TabManager
 .
 browsers
@@ -956,6 +1012,8 @@ None
 =
 options
 ;
+lazy
+.
 assert
 .
 string
@@ -975,6 +1033,8 @@ contextId
 }
 )
 ;
+lazy
+.
 assert
 .
 string
@@ -1016,6 +1076,8 @@ wait
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -1082,6 +1144,8 @@ destination
 {
 type
 :
+lazy
+.
 WindowGlobalMessageHandler
 .
 type
@@ -1135,6 +1199,8 @@ e
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -1217,6 +1283,8 @@ const
 listener
 =
 new
+lazy
+.
 ProgressListener
 (
 webProgress
@@ -1287,6 +1355,8 @@ contextDescriptor
 {
 type
 :
+lazy
+.
 ContextDescriptorType
 .
 TopBrowsingContext
@@ -1489,6 +1559,8 @@ null
 const
 context
 =
+lazy
+.
 TabManager
 .
 getBrowsingContextById
@@ -1507,6 +1579,8 @@ null
 {
 throw
 new
+lazy
+.
 error
 .
 NoSuchFrameError
@@ -1613,6 +1687,8 @@ contextInfo
 {
 context
 :
+lazy
+.
 TabManager
 .
 getIdForBrowsingContext
@@ -1637,6 +1713,8 @@ isRoot
 const
 parentId
 =
+lazy
+.
 TabManager
 .
 getIdForBrowsingContext
@@ -1705,6 +1783,8 @@ return
 ;
 }
 await
+lazy
+.
 waitForInitialNavigationCompleted
 (
 browsingContext
@@ -1798,6 +1878,8 @@ contextDescriptor
 {
 type
 :
+lazy
+.
 ContextDescriptorType
 .
 All
@@ -1883,6 +1965,8 @@ contextDescriptor
 {
 type
 :
+lazy
+.
 ContextDescriptorType
 .
 All
