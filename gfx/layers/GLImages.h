@@ -259,6 +259,15 @@ return
 this
 ;
 }
+Maybe
+<
+SurfaceDescriptor
+>
+GetDesc
+(
+)
+override
+;
 void
 RegisterSetCurrentCallback
 (
