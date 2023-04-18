@@ -1741,6 +1741,15 @@ NULL
 "
 \
 "
+hidden
+INTEGER
+DEFAULT
+0
+NOT
+NULL
+"
+\
+"
 PRIMARY
 KEY
 (
