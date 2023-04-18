@@ -500,13 +500,6 @@ uint32_t
 aIndex
 )
 ;
-int32_t
-LinkIndexAtOffset
-(
-uint32_t
-aOffset
-)
-;
 RemoteAccessible
 *
 TableOfACell
