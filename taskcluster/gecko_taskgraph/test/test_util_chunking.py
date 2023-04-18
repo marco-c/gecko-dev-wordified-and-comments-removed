@@ -915,6 +915,12 @@ appname
 "
 firefox
 "
+            
+"
+condprof
+"
+:
+False
         
 }
     
