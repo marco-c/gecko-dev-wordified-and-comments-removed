@@ -153,6 +153,14 @@ CallerType
 aCallerType
 )
 ;
+already_AddRefed
+<
+nsIScreen
+>
+GetScreen
+(
+)
+;
 int32_t
 PageX
 (

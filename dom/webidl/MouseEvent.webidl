@@ -180,6 +180,9 @@ apply
 .
 *
 /
+interface
+nsIScreen
+;
 [
 Exposed
 =
@@ -217,6 +220,15 @@ readonly
 attribute
 long
 screenY
+;
+[
+ChromeOnly
+]
+readonly
+attribute
+nsIScreen
+?
+screen
 ;
 readonly
 attribute
