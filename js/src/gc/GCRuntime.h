@@ -5202,6 +5202,12 @@ schedulingState
 ;
 MainThreadData
 <
+bool
+>
+fullGCRequested
+;
+MainThreadData
+<
 double
 >
 helperThreadRatio
