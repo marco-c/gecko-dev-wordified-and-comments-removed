@@ -6050,7 +6050,6 @@ if
 !
 NumberValueToStringBuffer
 (
-cx
 elem
 sb
 )

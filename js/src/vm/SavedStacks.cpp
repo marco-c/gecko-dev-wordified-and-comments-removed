@@ -4954,9 +4954,6 @@ static
 bool
 FormatStackFrameLine
 (
-JSContext
-*
-cx
 js
 :
 :
@@ -4996,7 +4993,6 @@ function
 &
 NumberValueToStringBuffer
 (
-cx
 NumberValue
 (
 frame
@@ -5023,7 +5019,6 @@ append
 return
 NumberValueToStringBuffer
 (
-cx
 NumberValue
 (
 frame
@@ -5128,7 +5123,6 @@ cstr
 return
 NumberValueToStringBuffer
 (
-cx
 NumberValue
 (
 frame
@@ -5308,7 +5302,6 @@ append
 &
 FormatStackFrameLine
 (
-cx
 sb
 frame
 )
@@ -5484,7 +5477,6 @@ append
 &
 FormatStackFrameLine
 (
-cx
 sb
 frame
 )
