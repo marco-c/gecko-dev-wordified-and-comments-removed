@@ -378,7 +378,7 @@ DownloadProgressed
 (
 )
 ;
-MediaDecoderStateMachine
+MediaDecoderStateMachineBase
 *
 CreateStateMachine
 (
