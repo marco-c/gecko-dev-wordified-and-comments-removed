@@ -78,6 +78,15 @@ languages
 using
 extensions
 .
+This
+is
+the
+recommended
+editor
+for
+Firefox
+development
+.
 For
 more
 general
