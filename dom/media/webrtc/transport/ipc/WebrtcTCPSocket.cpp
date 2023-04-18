@@ -387,11 +387,6 @@ GetSingleton
 (
 )
 ;
-if
-(
-cpm
-)
-{
 dom
 :
 :
@@ -417,7 +412,6 @@ cpId
 aTabId
 )
 ;
-}
 }
 nsresult
 WebrtcTCPSocket
