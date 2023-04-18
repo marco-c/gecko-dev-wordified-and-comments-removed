@@ -32,6 +32,8 @@ RaptorGatherer
 StaticGatherer
     
 TalosGatherer
+    
+AwsyGatherer
 )
 logger
 =
@@ -59,6 +61,12 @@ talos
 "
 :
 TalosGatherer
+    
+"
+awsy
+"
+:
+AwsyGatherer
 }
 class
 Gatherer
