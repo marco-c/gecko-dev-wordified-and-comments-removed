@@ -5553,6 +5553,16 @@ aOldPosition
 )
 const
 ;
+nsChangeHint
+CalcTransformPropertyDifference
+(
+const
+nsStyleDisplay
+&
+aNewData
+)
+const
+;
 nsStyleAutoArray
 <
 mozilla
