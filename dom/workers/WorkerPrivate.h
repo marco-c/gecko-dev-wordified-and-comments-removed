@@ -744,7 +744,7 @@ ExtensionAPIAllowed
 (
 )
 {
-MOZ_ASSERT
+return
 (
 StaticPrefs
 :
@@ -752,10 +752,10 @@ StaticPrefs
 extensions_backgroundServiceWorker_enabled_AtStartup
 (
 )
-)
-;
-return
+&
+&
 mExtensionAPIAllowed
+)
 ;
 }
 void
