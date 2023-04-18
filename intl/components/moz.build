@@ -187,6 +187,13 @@ TimeZone
 .
 h
 "
+"
+src
+/
+UnicodeProperties
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +

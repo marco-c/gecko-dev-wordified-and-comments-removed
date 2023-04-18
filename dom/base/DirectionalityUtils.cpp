@@ -95,6 +95,17 @@ h
 #
 include
 "
+mozilla
+/
+intl
+/
+UnicodeProperties
+.
+h
+"
+#
+include
+"
 nsUnicodeProperties
 .
 h
