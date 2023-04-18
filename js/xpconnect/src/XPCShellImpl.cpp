@@ -7060,7 +7060,6 @@ dllSvc
 >
 StartUntrustedModulesProcessor
 (
-true
 )
 ;
 auto

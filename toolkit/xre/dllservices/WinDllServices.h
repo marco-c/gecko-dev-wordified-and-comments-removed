@@ -121,15 +121,7 @@ kTopicDllLoadedNonMainThread
 void
 StartUntrustedModulesProcessor
 (
-bool
-aIsReadyForBackgroundProcessing
 )
-;
-bool
-IsReadyForBackgroundProcessing
-(
-)
-const
 ;
 RefPtr
 <
