@@ -2864,7 +2864,7 @@ symbolicAccesses_
 wasm
 :
 :
-WasmTryNoteVector
+TryNoteVector
 tryNotes_
 ;
 #
@@ -3224,7 +3224,7 @@ append
 wasm
 :
 :
-WasmTryNote
+TryNote
 tryNote
 size_t
 *
@@ -3320,7 +3320,7 @@ symbolicAccesses_
 wasm
 :
 :
-WasmTryNoteVector
+TryNoteVector
 &
 tryNotes
 (

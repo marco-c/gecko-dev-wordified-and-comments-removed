@@ -2683,13 +2683,13 @@ const
 wasm
 :
 :
-WasmTryNote
+TryNote
 *
 tryNote
 =
 code
 .
-lookupWasmTryNote
+lookupTryNote
 (
 (
 void

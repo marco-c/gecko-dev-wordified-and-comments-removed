@@ -260,7 +260,7 @@ stackMaps
 CraneliftReusableData
 craneliftReusableData
 ;
-WasmTryNoteVector
+TryNoteVector
 tryNotes
 ;
 [

@@ -2089,7 +2089,7 @@ funcExports
 StackMaps
 stackMaps
 ;
-WasmTryNoteVector
+TryNoteVector
 tryNotes
 ;
 uint32_t
@@ -2832,9 +2832,9 @@ pc
 const
 ;
 const
-WasmTryNote
+TryNote
 *
-lookupWasmTryNote
+lookupTryNote
 (
 const
 void
@@ -3549,9 +3549,9 @@ nextPC
 const
 ;
 const
-WasmTryNote
+TryNote
 *
-lookupWasmTryNote
+lookupTryNote
 (
 void
 *
