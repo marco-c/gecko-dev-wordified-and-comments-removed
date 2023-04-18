@@ -341,8 +341,6 @@ ColumnBreakpoint
 extends
 PureComponent
 {
-addColumnBreakpoint
-;
 bookmark
 ;
 addColumnBreakpoint
