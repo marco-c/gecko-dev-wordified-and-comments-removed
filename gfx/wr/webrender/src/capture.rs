@@ -240,12 +240,12 @@ new
 (
 )
 .
-enumerate_arrays
+with_enumerate_arrays
 (
 true
 )
 .
-indentor
+with_indentor
 (
 "
 "
