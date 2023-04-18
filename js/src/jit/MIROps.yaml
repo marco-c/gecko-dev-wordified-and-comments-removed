@@ -7174,6 +7174,9 @@ Value
 guard
 :
 true
+folds_to
+:
+custom
 alias_set
 :
 custom
