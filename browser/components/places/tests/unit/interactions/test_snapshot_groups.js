@@ -326,10 +326,9 @@ builder
 "
 domain
 "
-urls
+snapshotCount
 :
-[
-]
+0
 }
 )
 ;
