@@ -2,10 +2,7 @@ use
 super
 :
 :
-{
 QueryFeatureExpression
-FeatureType
-}
 ;
 use
 crate
@@ -386,9 +383,6 @@ i
 '
 t
 >
-feature_type
-:
-FeatureType
 )
 -
 >
@@ -409,7 +403,6 @@ parse_internal
 (
 context
 input
-feature_type
 AllowOr
 :
 :
@@ -441,9 +434,6 @@ i
 '
 t
 >
-feature_type
-:
-FeatureType
 )
 -
 >
@@ -464,7 +454,6 @@ parse_internal
 (
 context
 input
-feature_type
 AllowOr
 :
 :
@@ -495,9 +484,6 @@ i
 '
 t
 >
-feature_type
-:
-FeatureType
 allow_or
 :
 AllowOr
@@ -595,7 +581,6 @@ parse_in_parens
 (
 context
 input
-feature_type
 )
 ?
 ;
@@ -628,7 +613,6 @@ parse_paren_block
 (
 context
 input
-feature_type
 )
 ?
 ;
@@ -727,7 +711,6 @@ parse_in_parens
 (
 context
 input
-feature_type
 )
 ?
 )
@@ -809,7 +792,6 @@ parse_in_parens
 (
 context
 input
-feature_type
 )
 ?
 )
@@ -841,9 +823,6 @@ i
 '
 t
 >
-feature_type
-:
-FeatureType
 )
 -
 >
@@ -871,7 +850,6 @@ parse_paren_block
 (
 context
 input
-feature_type
 )
 }
 fn
@@ -898,9 +876,6 @@ i
 '
 t
 >
-feature_type
-:
-FeatureType
 )
 -
 >
@@ -943,7 +918,6 @@ parse
 (
 context
 i
-feature_type
 )
 )
 {
@@ -976,7 +950,6 @@ parse_in_parenthesis_block
 (
 context
 input
-feature_type
 )
 ?
 ;
