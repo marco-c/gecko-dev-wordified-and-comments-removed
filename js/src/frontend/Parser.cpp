@@ -11098,16 +11098,6 @@ FunctionFlags
 :
 INTERPRETED_LAMBDA_ARROW
 ;
-allocKind
-=
-gc
-:
-:
-AllocKind
-:
-:
-FUNCTION_EXTENDED
-;
 break
 ;
 case
