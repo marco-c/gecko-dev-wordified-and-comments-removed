@@ -4555,9 +4555,15 @@ XDR_DECODE
 {
 stencil
 .
-hasExternalDependency
+storageType
 =
-true
+CompilationStencil
+:
+:
+StorageType
+:
+:
+Borrowed
 ;
 }
 MOZ_TRY
