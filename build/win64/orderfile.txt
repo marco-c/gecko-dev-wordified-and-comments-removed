@@ -40963,7 +40963,7 @@ QEAAXAEBUVsyncEvent
 2
 Z
 ?
-NotifyRefreshTimerVsyncStatus
+NotifyVsyncDispatcherVsyncStatus
 Display
 VsyncSource
 gfx

@@ -61043,7 +61043,7 @@ mozilla
 EAE
 XZ
 ?
-NotifyRefreshTimerVsyncStatus
+NotifyVsyncDispatcherVsyncStatus
 Display
 VsyncSource
 gfx

@@ -179,7 +179,7 @@ aCompositorVsyncDispatcher
 )
 ;
 void
-NotifyRefreshTimerVsyncStatus
+NotifyVsyncDispatcherVsyncStatus
 (
 bool
 aEnable
@@ -288,7 +288,7 @@ mDispatcherLock
 MOZ_UNANNOTATED
 ;
 bool
-mRefreshTimerNeedsVsync
+mVsyncDispatcherNeedsVsync
 ;
 nsTArray
 <
