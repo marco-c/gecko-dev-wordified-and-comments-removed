@@ -213,10 +213,16 @@ forRemoteTabInTest
 (
 {
 outerWindowID
+client
 }
 )
 {
-const
+if
+(
+!
+client
+)
+{
 client
 =
 await
@@ -224,6 +230,7 @@ createLocalClient
 (
 )
 ;
+}
 const
 descriptor
 =
