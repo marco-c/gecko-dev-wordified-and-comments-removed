@@ -3302,13 +3302,6 @@ thingKind
 )
 ;
 void
-setParallelUnmarkEnabled
-(
-bool
-enabled
-)
-;
-void
 startTask
 (
 GCParallelTask

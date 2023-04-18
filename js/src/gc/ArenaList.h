@@ -706,7 +706,6 @@ uint32_t
 {
 None
 BackgroundFinalize
-ParallelUnmark
 }
 ;
 using
@@ -1048,13 +1047,6 @@ thingKind
 SortedArenaList
 &
 finalizedArenas
-)
-;
-void
-setParallelUnmarkEnabled
-(
-bool
-enabled
 )
 ;
 void
