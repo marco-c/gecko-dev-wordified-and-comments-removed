@@ -1072,7 +1072,7 @@ if
 (
 budget
 .
-isOverBudget
+checkAndResetOverBudget
 (
 )
 )
@@ -8703,7 +8703,7 @@ if
 (
 sliceBudget
 .
-isOverBudget
+checkAndResetOverBudget
 (
 )
 )

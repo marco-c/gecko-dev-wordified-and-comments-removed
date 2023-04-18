@@ -8788,6 +8788,12 @@ mNoteChildCount
 )
 ;
 }
+aBudget
+.
+resetOverBudget
+(
+)
+;
 if
 (
 !
@@ -10593,7 +10599,7 @@ if
 mBudget
 -
 >
-isOverBudget
+checkAndResetOverBudget
 (
 )
 )
@@ -11210,7 +11216,7 @@ if
 (
 mBudget
 .
-isOverBudget
+checkAndResetOverBudget
 (
 )
 )
@@ -15668,6 +15674,12 @@ isOverBudget
 while
 (
 continueSlice
+)
+;
+aBudget
+.
+resetOverBudget
+(
 )
 ;
 mActivelyCollecting
