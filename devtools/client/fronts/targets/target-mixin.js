@@ -1561,17 +1561,6 @@ if
 this
 .
 attach
-&
-&
-!
-this
-.
-getTrait
-(
-"
-isAutoAttached
-"
-)
 )
 {
 await

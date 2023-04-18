@@ -1534,9 +1534,6 @@ true
 navigation
 :
 true
-isAutoAttached
-:
-true
 }
 }
 ;
