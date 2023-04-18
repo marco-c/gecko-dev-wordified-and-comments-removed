@@ -18,11 +18,6 @@ extensionStorageSync
 "
 ]
 ;
-const
-global
-=
-this
-;
 Cu
 .
 importGlobalProperties
@@ -1170,7 +1165,7 @@ id
 ;
 }
 }
-global
+this
 .
 EncryptionRemoteTransformer
 =
@@ -1439,7 +1434,7 @@ kbMessage
 ;
 }
 }
-global
+this
 .
 KeyRingEncryptionRemoteTransformer
 =
@@ -2557,7 +2552,7 @@ hash
 }
 }
 ;
-global
+this
 .
 CollectionKeyEncryptionRemoteTransformer
 =
@@ -5038,7 +5033,8 @@ Cu
 cloneInto
 (
 spec
-global
+{
+}
 )
 ;
 }
