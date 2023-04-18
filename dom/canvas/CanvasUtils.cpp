@@ -1430,7 +1430,7 @@ allowlist
 gfxVars
 :
 :
-OffscreenCanvasDomainAllowlist
+GetOffscreenCanvasDomainAllowlistOrDefault
 (
 )
 ;
