@@ -422,6 +422,13 @@ u16
 jsdebugger
 :
 bool
+profile_root
+:
+Option
+<
+&
+Path
+>
 )
 -
 >
@@ -552,6 +559,7 @@ Profile
 :
 new
 (
+profile_root
 )
 ?
 )
@@ -1408,6 +1416,13 @@ Option
 <
 u16
 >
+profile_root
+:
+Option
+<
+&
+Path
+>
 )
 -
 >
@@ -1511,6 +1526,7 @@ Profile
 :
 new
 (
+profile_root
 )
 ?
 false
@@ -2401,6 +2417,7 @@ Profile
 :
 new
 (
+None
 )
 .
 unwrap
@@ -2910,6 +2927,7 @@ Profile
 :
 new
 (
+None
 )
 .
 unwrap

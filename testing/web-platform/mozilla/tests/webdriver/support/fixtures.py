@@ -361,6 +361,13 @@ driver
 yield
 _geckodriver
     
+if
+driver
+is
+not
+None
+:
+        
 driver
 .
 stop
