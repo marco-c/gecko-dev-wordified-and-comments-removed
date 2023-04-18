@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 {
 CrashManager
 CrashStore
@@ -27,7 +27,6 @@ CrashManager
 .
 jsm
 "
-null
 )
 ;
 const
