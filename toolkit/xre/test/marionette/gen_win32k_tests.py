@@ -459,7 +459,8 @@ ENV_DISABLE_E10S
 null
 "
 )
-            
+\
+n
 "
 "
 "
@@ -511,7 +512,8 @@ ENV_DISABLE_WIN32K
 "
 }
 )
-            
+\
+n
 "
 "
 "
@@ -538,7 +540,8 @@ ENV_DISABLE_WIN32K
 "
 "
 )
-            
+\
+n
 "
 "
 "
@@ -573,7 +576,8 @@ WEBGL
 0
 }
 )
-            
+\
+n
 "
 "
 "
@@ -726,6 +730,12 @@ py
 "
 "
 w
+"
+newline
+=
+"
+\
+n
 "
 )
 header

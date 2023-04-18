@@ -2438,7 +2438,7 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByTreatmentGroup
+EnabledByDefault
             
 sessionStatus
 =
@@ -4709,7 +4709,7 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByTreatmentGroup
+EnabledByDefault
             
 sessionStatus
 =
@@ -6893,7 +6893,7 @@ experimentStatus
 =
 ExperimentStatus
 .
-DISQUALIFIED
+ENROLLED_CONTROL
             
 pref
 =
@@ -7052,7 +7052,7 @@ experimentStatus
 =
 ExperimentStatus
 .
-UNENROLLED
+ENROLLED_CONTROL
             
 pref
 =
@@ -8766,7 +8766,7 @@ experimentStatus
 =
 ExperimentStatus
 .
-UNENROLLED
+ENROLLED_TREATMENT
             
 pref
 =
@@ -8966,7 +8966,7 @@ experimentStatus
 =
 ExperimentStatus
 .
-DISQUALIFIED
+ENROLLED_TREATMENT
             
 pref
 =
