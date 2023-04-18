@@ -1,6 +1,7 @@
 import
 {
 makeMockDisplaySource
+formatTree
 }
 from
 "
@@ -26,7 +27,6 @@ addToTree
 createDirectoryNode
 createSourceNode
 createTree
-formatTree
 nodeHasChildren
 }
 from

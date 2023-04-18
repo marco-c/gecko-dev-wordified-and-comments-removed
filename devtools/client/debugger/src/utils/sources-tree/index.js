@@ -22,17 +22,6 @@ collapseTree
 ;
 export
 {
-formatTree
-}
-from
-"
-.
-/
-formatTree
-"
-;
-export
-{
 getDirectories
 findSourceTreeNodes
 }
