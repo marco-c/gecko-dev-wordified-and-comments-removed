@@ -264,6 +264,9 @@ type
 "
 bool
 "
+inverted
+:
+true
 }
 {
 id
