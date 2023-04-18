@@ -1010,11 +1010,9 @@ settings
 /
 services
 /
-common
+settings
 /
-services
-/
-RemoteSettings
+index
 .
 html
 .
