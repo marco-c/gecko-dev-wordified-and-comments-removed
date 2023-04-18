@@ -29,9 +29,17 @@ not
 in
 (
 "
+gkrust
+-
+shared
+/
 gecko_refcount_logging
 "
 "
+gkrust
+-
+shared
+/
 glean_with_gecko
 "
 )
