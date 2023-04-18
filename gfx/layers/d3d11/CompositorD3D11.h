@@ -521,16 +521,6 @@ GetSyncObject
 (
 )
 ;
-void
-UseForSoftwareWebRender
-(
-)
-{
-mUseForSoftwareWebRender
-=
-true
-;
-}
 private
 :
 enum
@@ -846,9 +836,6 @@ mUseMutexOnPresent
 ;
 bool
 mAllowFrameRecording
-;
-bool
-mUseForSoftwareWebRender
 ;
 }
 ;
