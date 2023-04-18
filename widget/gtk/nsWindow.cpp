@@ -17567,6 +17567,11 @@ new
 CompositorVsyncDispatcher
 (
 mWaylandVsyncSource
+-
+>
+GetVsyncDispatcher
+(
+)
 )
 ;
 }
