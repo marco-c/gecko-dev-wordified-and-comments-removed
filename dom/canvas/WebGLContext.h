@@ -1146,6 +1146,11 @@ const
 uint32_t
 mMaxAcceptableFBStatusInvals
 ;
+bool
+mWarnOnce_DepthTexCompareFilterable
+=
+true
+;
 uint64_t
 mNextFenceId
 =
