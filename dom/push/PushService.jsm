@@ -104,11 +104,17 @@ var
 PushServiceWebSocket
 PushServiceHttp2
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gPushNotifier
 "
@@ -132,7 +138,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 pushBroadcastService
 "
@@ -155,7 +161,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PushCrypto
 "
@@ -178,7 +184,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PushServiceAndroidGCM
 "
@@ -276,6 +282,8 @@ PushServiceHttp2
 }
 return
 [
+lazy
+.
 PushServiceAndroidGCM
 ]
 ;
@@ -303,7 +311,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -669,6 +677,8 @@ error
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -699,6 +709,8 @@ error
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -933,6 +945,8 @@ _setState
 aNewState
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1051,6 +1065,8 @@ offline
 calledFromConnEnabledEvent
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1144,6 +1160,8 @@ let
 broadcastListeners
 =
 await
+lazy
+.
 pushBroadcastService
 .
 getListeners
@@ -1172,6 +1190,8 @@ _changeStateConnectionEnabledEvent
 enabled
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1271,6 +1291,8 @@ options
 }
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1300,6 +1322,8 @@ _state
 PUSH_SERVICE_ACTIVATING
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1418,6 +1442,8 @@ serverURL
 "
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1527,6 +1553,8 @@ error
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -1569,6 +1597,8 @@ error
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -1613,6 +1643,8 @@ error
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -1641,6 +1673,8 @@ _clearOriginData
 data
 )
 {
+lazy
+.
 console
 .
 log
@@ -1699,6 +1733,8 @@ record
 reason
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1729,6 +1765,8 @@ record
 return
 ;
 }
+lazy
+.
 console
 .
 debug
@@ -1757,6 +1795,8 @@ then
 =
 >
 {
+lazy
+.
 gPushNotifier
 .
 notifySubscriptionModified
@@ -1778,6 +1818,8 @@ e
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -1801,6 +1843,8 @@ _findService
 serverURL
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1818,6 +1862,8 @@ if
 serverURL
 )
 {
+lazy
+.
 console
 .
 warn
@@ -1862,6 +1908,8 @@ catch
 e
 )
 {
+lazy
+.
 console
 .
 warn
@@ -1915,6 +1963,8 @@ options
 }
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2172,6 +2222,8 @@ STOPPING_SERVICE_EVENT
 ;
 default
 :
+lazy
+.
 console
 .
 error
@@ -2212,6 +2264,8 @@ options
 }
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2326,6 +2380,8 @@ _startObservers
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2434,6 +2490,8 @@ serverURI
 options
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2539,6 +2597,8 @@ _stopService
 event
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2718,6 +2778,8 @@ _stopObservers
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2841,6 +2903,8 @@ _setState
 PUSH_SERVICE_UNINIT
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -2863,6 +2927,8 @@ uninit
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2983,6 +3049,8 @@ record
 return
 ;
 }
+lazy
+.
 gPushNotifier
 .
 notifySubscriptionChange
@@ -3141,6 +3209,8 @@ p256dhPrivateKey
 {
 keygen
 =
+lazy
+.
 PushCrypto
 .
 generateKeys
@@ -3215,6 +3285,8 @@ record
 .
 authenticationSecret
 =
+lazy
+.
 PushCrypto
 .
 generateAuthenticationSecret
@@ -3270,6 +3342,8 @@ data
 updateFunc
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3334,6 +3408,8 @@ timeoutID
 )
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3391,6 +3467,8 @@ error
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -3422,6 +3500,8 @@ message
 context
 )
 {
+lazy
+.
 pushBroadcastService
 .
 receivedBroadcastMessage
@@ -3438,6 +3518,8 @@ e
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -3608,6 +3690,8 @@ record
 =
 >
 {
+lazy
+.
 gPushNotifier
 .
 notifySubscriptionModified
@@ -3636,6 +3720,8 @@ data
 )
 {
 return
+lazy
+.
 PushCrypto
 .
 decrypt
@@ -3670,6 +3756,8 @@ error
 =
 >
 {
+lazy
+.
 console
 .
 warn
@@ -3700,6 +3788,8 @@ record
 scope
 )
 ;
+lazy
+.
 gPushNotifier
 .
 notifyError
@@ -3734,6 +3824,8 @@ _updateQuota
 keyID
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3765,6 +3857,8 @@ isExpired
 )
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3852,6 +3946,8 @@ UNSUBSCRIBE_QUOTA_EXCEEDED
 }
 else
 {
+lazy
+.
 gPushNotifier
 .
 notifySubscriptionModified
@@ -3888,6 +3984,8 @@ error
 =
 >
 {
+lazy
+.
 console
 .
 debug
@@ -3914,6 +4012,8 @@ notificationForOriginShown
 origin
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3978,6 +4078,8 @@ notificationForOriginClosed
 origin
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4019,6 +4121,8 @@ origin
 }
 else
 {
+lazy
+.
 console
 .
 debug
@@ -4079,6 +4183,8 @@ messageID
 reason
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4151,6 +4257,8 @@ originAttributes
 undefined
 )
 {
+lazy
+.
 console
 .
 error
@@ -4172,6 +4280,8 @@ nsIPushErrorReporter
 ACK_NOT_DELIVERED
 ;
 }
+lazy
+.
 console
 .
 debug
@@ -4196,6 +4306,8 @@ hasPermission
 )
 )
 {
+lazy
+.
 console
 .
 warn
@@ -4268,6 +4380,8 @@ if
 payload
 )
 {
+lazy
+.
 gPushNotifier
 .
 notifyPushWithData
@@ -4285,6 +4399,8 @@ payload
 }
 else
 {
+lazy
+.
 gPushNotifier
 .
 notifyPush
@@ -4483,6 +4599,8 @@ _registerWithServer
 aPageRecord
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4541,6 +4659,8 @@ _deletePendingRequest
 aPageRecord
 )
 ;
+lazy
+.
 gPushNotifier
 .
 notifySubscriptionModified
@@ -4603,6 +4723,8 @@ _onRegisterSuccess
 aRecord
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4654,6 +4776,8 @@ _onRegisterError
 reply
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4673,6 +4797,8 @@ reply
 error
 )
 {
+lazy
+.
 console
 .
 warn
@@ -4753,6 +4879,8 @@ register
 aPageRecord
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4798,6 +4926,8 @@ appServerKey
 ;
 keyPromise
 =
+lazy
+.
 PushCrypto
 .
 validateAppServerKey
@@ -5029,6 +5159,8 @@ unregister
 aPageRecord
 )
 {
+lazy
+.
 console
 .
 debug
@@ -5112,6 +5244,8 @@ if
 rec
 )
 {
+lazy
+.
 gPushNotifier
 .
 notifySubscriptionModified
@@ -5215,6 +5349,8 @@ e
 =
 >
 {
+lazy
+.
 console
 .
 warn
@@ -5250,6 +5386,8 @@ registration
 aPageRecord
 )
 {
+lazy
+.
 console
 .
 debug
@@ -5353,6 +5491,8 @@ _dropExpiredRegistrations
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -5427,6 +5567,8 @@ error
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -5459,6 +5601,8 @@ subject
 data
 )
 {
+lazy
+.
 console
 .
 debug
@@ -5536,6 +5680,8 @@ _clearPermissions
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -5597,6 +5743,8 @@ permission
 type
 )
 {
+lazy
+.
 console
 .
 debug
@@ -5759,6 +5907,8 @@ record
 cursor
 )
 {
+lazy
+.
 console
 .
 debug
@@ -5823,6 +5973,8 @@ record
 cursor
 )
 {
+lazy
+.
 console
 .
 debug

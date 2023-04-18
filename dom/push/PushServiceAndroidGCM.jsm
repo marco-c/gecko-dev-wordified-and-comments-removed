@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PushDB
 "
@@ -78,7 +84,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PushRecord
 "
@@ -101,7 +107,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PushCrypto
 "
@@ -124,7 +130,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 EventDispatcher
 "
@@ -147,7 +153,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Preferences
 "
@@ -170,7 +176,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 Log
 "
@@ -224,7 +230,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -264,6 +270,8 @@ ConsoleAPI
 {
 dump
 :
+lazy
+.
 Log
 .
 i
@@ -323,6 +331,8 @@ const
 prefs
 =
 new
+lazy
+.
 Preferences
 (
 "
@@ -349,6 +359,8 @@ newPushDB
 {
 return
 new
+lazy
+.
 PushDB
 (
 kPUSHANDROIDGCMDB_DB_NAME
@@ -408,6 +420,8 @@ debug
 "
 )
 ;
+lazy
+.
 console
 .
 info
@@ -476,6 +490,8 @@ _mainPushService
 null
 )
 {
+lazy
+.
 console
 .
 error
@@ -500,6 +516,8 @@ if
 data
 )
 {
+lazy
+.
 console
 .
 error
@@ -528,6 +546,8 @@ parse
 data
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -553,6 +573,8 @@ _messageAndHeaders
 data
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -717,6 +739,8 @@ debug
 )
 {
 return
+lazy
+.
 EventDispatcher
 .
 instance
@@ -748,6 +772,8 @@ mainPushService
 serverURL
 )
 {
+lazy
+.
 console
 .
 debug
@@ -820,6 +846,8 @@ then
 =
 >
 {
+lazy
+.
 EventDispatcher
 .
 instance
@@ -845,6 +873,8 @@ uninit
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -856,6 +886,8 @@ uninit
 "
 )
 ;
+lazy
+.
 EventDispatcher
 .
 instance
@@ -915,6 +947,8 @@ records
 broadcastListeners
 )
 {
+lazy
+.
 console
 .
 debug
@@ -927,6 +961,8 @@ records
 )
 ;
 return
+lazy
+.
 EventDispatcher
 .
 instance
@@ -959,6 +995,8 @@ parse
 subscriptions
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -995,6 +1033,8 @@ keyID
 )
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1019,6 +1059,8 @@ resolve
 )
 ;
 }
+lazy
+.
 console
 .
 debug
@@ -1054,6 +1096,8 @@ error
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -1107,6 +1151,8 @@ disconnect
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1122,6 +1168,8 @@ register
 record
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1199,6 +1247,8 @@ fxa
 ;
 }
 return
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1223,6 +1273,8 @@ parse
 data
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -1236,6 +1288,8 @@ data
 )
 ;
 return
+lazy
+.
 PushCrypto
 .
 generateKeys
@@ -1291,6 +1345,8 @@ exportedKeys
 ]
 authenticationSecret
 :
+lazy
+.
 PushCrypto
 .
 generateAuthenticationSecret
@@ -1314,6 +1370,8 @@ unregister
 record
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1326,6 +1384,8 @@ record
 )
 ;
 return
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1355,6 +1415,8 @@ messageID
 reason
 )
 {
+lazy
+.
 console
 .
 warn
@@ -1380,6 +1442,8 @@ PushRecordAndroidGCM
 record
 )
 {
+lazy
+.
 PushRecord
 .
 call
@@ -1405,6 +1469,8 @@ Object
 .
 create
 (
+lazy
+.
 PushRecord
 .
 prototype

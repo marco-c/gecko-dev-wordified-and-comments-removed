@@ -123,11 +123,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 pushBroadcastService
 "
@@ -150,7 +156,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ObjectUtils
 "
@@ -322,7 +328,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -658,6 +664,8 @@ _onUAIDChanged
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -687,6 +695,8 @@ _onTimerFired
 timer
 )
 {
+lazy
+.
 console
 .
 debug
@@ -727,6 +737,8 @@ this
 _backoffTimer
 )
 {
+lazy
+.
 console
 .
 debug
@@ -771,6 +783,8 @@ _sendPing
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -814,6 +828,8 @@ catch
 e
 )
 {
+lazy
+.
 console
 .
 debug
@@ -840,6 +856,8 @@ _timeOutRequests
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -906,6 +924,8 @@ this
 _requestTimeout
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1042,6 +1062,8 @@ string
 "
 )
 {
+lazy
+.
 console
 .
 warn
@@ -1065,6 +1087,8 @@ userAgentID
 return
 ;
 }
+lazy
+.
 console
 .
 debug
@@ -1136,6 +1160,8 @@ this
 _ws
 )
 {
+lazy
+.
 console
 .
 warn
@@ -1168,6 +1194,8 @@ stringify
 msg
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -1198,6 +1226,8 @@ mainPushService
 serverURI
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1268,6 +1298,8 @@ _reconnect
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1300,6 +1332,8 @@ shouldCancelPending
 true
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1499,6 +1533,8 @@ _startBackoffTimer
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1555,6 +1591,8 @@ _retryFailCount
 +
 +
 ;
+lazy
+.
 console
 .
 debug
@@ -1792,6 +1830,8 @@ enabled
 )
 )
 {
+lazy
+.
 console
 .
 warn
@@ -1828,6 +1868,8 @@ io
 offline
 )
 {
+lazy
+.
 console
 .
 warn
@@ -1946,6 +1988,8 @@ _beginWSSetup
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1967,6 +2011,8 @@ _currentState
 STATE_SHUT_DOWN
 )
 {
+lazy
+.
 console
 .
 error
@@ -2054,6 +2100,8 @@ Ci
 nsIWebSocketChannel
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -2124,6 +2172,8 @@ catch
 e
 )
 {
+lazy
+.
 console
 .
 error
@@ -2156,6 +2206,8 @@ connect
 broadcastListeners
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2198,6 +2250,8 @@ _handleHelloReply
 reply
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2219,6 +2273,8 @@ _currentState
 STATE_WAITING_FOR_HELLO
 )
 {
+lazy
+.
 console
 .
 error
@@ -2263,6 +2319,8 @@ string
 "
 )
 {
+lazy
+.
 console
 .
 error
@@ -2300,6 +2358,8 @@ uaid
 "
 )
 {
+lazy
+.
 console
 .
 error
@@ -2333,6 +2393,8 @@ length
 128
 )
 {
+lazy
+.
 console
 .
 error
@@ -2430,6 +2492,8 @@ this
 if
 (
 !
+lazy
+.
 ObjectUtils
 .
 isEmpty
@@ -2446,6 +2510,8 @@ context
 {
 phase
 :
+lazy
+.
 pushBroadcastService
 .
 PHASES
@@ -2520,6 +2586,8 @@ error
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -2569,6 +2637,8 @@ reply
 uaid
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2618,6 +2688,8 @@ _handleRegisterReply
 reply
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2768,6 +2840,8 @@ record
 }
 else
 {
+lazy
+.
 console
 .
 error
@@ -2812,6 +2886,8 @@ _handleUnregisterReply
 reply
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2882,6 +2958,8 @@ string
 "
 )
 {
+lazy
+.
 console
 .
 warn
@@ -2919,6 +2997,8 @@ version
 )
 )
 {
+lazy
+.
 console
 .
 warn
@@ -3054,6 +3134,8 @@ err
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -3095,6 +3177,8 @@ err
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -3119,6 +3203,8 @@ _handleNotificationReply
 reply
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3161,6 +3247,8 @@ object
 "
 )
 {
+lazy
+.
 console
 .
 warn
@@ -3179,6 +3267,8 @@ updates
 return
 ;
 }
+lazy
+.
 console
 .
 debug
@@ -3224,6 +3314,8 @@ updates
 i
 ]
 ;
+lazy
+.
 console
 .
 debug
@@ -3251,6 +3343,8 @@ string
 "
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3281,6 +3375,8 @@ version
 undefined
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3364,6 +3460,8 @@ reply
 let
 phase
 =
+lazy
+.
 pushBroadcastService
 .
 PHASES
@@ -3404,6 +3502,8 @@ wasRegistering
 {
 phase
 =
+lazy
+.
 pushBroadcastService
 .
 PHASES
@@ -3436,6 +3536,8 @@ messageID
 reason
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3504,6 +3606,8 @@ version
 status
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3599,6 +3703,8 @@ register
 record
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3738,6 +3844,8 @@ record
 reason
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3838,6 +3946,8 @@ _enqueue
 op
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3904,6 +4014,8 @@ _currentState
 STATE_READY
 )
 {
+lazy
+.
 console
 .
 warn
@@ -3969,6 +4081,8 @@ key
 )
 )
 {
+lazy
+.
 console
 .
 log
@@ -4067,6 +4181,8 @@ _queueRequest
 data
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4220,6 +4336,8 @@ aChannelID
 aLatestVersion
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4270,6 +4388,8 @@ version
 aLatestVersion
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4295,6 +4415,8 @@ return
 record
 ;
 }
+lazy
+.
 console
 .
 debug
@@ -4342,6 +4464,8 @@ err
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -4367,6 +4491,8 @@ _wsOnStart
 context
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4388,6 +4514,8 @@ _currentState
 STATE_WAITING_FOR_WS_START
 )
 {
+lazy
+.
 console
 .
 error
@@ -4438,6 +4566,8 @@ err
 =
 >
 {
+lazy
+.
 console
 .
 warn
@@ -4473,6 +4603,8 @@ err
 =
 >
 {
+lazy
+.
 console
 .
 warn
@@ -4563,6 +4695,8 @@ context
 statusCode
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4590,6 +4724,8 @@ this
 _skipReconnect
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4627,6 +4763,8 @@ context
 message
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4665,6 +4803,8 @@ catch
 e
 )
 {
+lazy
+.
 console
 .
 warn
@@ -4736,6 +4876,8 @@ string
 "
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4826,6 +4968,8 @@ handlerName
 )
 )
 {
+lazy
+.
 console
 .
 warn
@@ -4878,6 +5022,8 @@ function
 "
 )
 {
+lazy
+.
 console
 .
 warn
@@ -4915,6 +5061,8 @@ aStatusCode
 aReason
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4936,6 +5084,8 @@ aStatusCode
 kBACKOFF_WS_STATUS_CODE
 )
 {
+lazy
+.
 console
 .
 debug

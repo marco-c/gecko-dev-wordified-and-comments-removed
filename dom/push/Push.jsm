@@ -75,11 +75,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -141,7 +147,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 PushService
 "
@@ -188,6 +194,8 @@ Push
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -249,6 +257,8 @@ init
 win
 )
 {
+lazy
+.
 console
 .
 debug
@@ -351,6 +361,8 @@ askPermission
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -467,6 +479,8 @@ subscribe
 options
 )
 {
+lazy
+.
 console
 .
 debug
@@ -531,6 +545,8 @@ applicationServerKey
 null
 )
 {
+lazy
+.
 PushService
 .
 subscribe
@@ -582,6 +598,8 @@ NS_ERROR_DOM_PUSH_INVALID_KEY_ERR
 return
 ;
 }
+lazy
+.
 PushService
 .
 subscribeWithKey
@@ -719,6 +737,8 @@ getSubscription
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -756,6 +776,8 @@ resolve
 reject
 )
 ;
+lazy
+.
 PushService
 .
 getSubscription
@@ -777,6 +799,8 @@ permissionState
 (
 )
 {
+lazy
+.
 console
 .
 debug
