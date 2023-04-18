@@ -495,9 +495,6 @@ bool
 mUseFontGetGlyph
 ;
 bool
-mIsSymbolFont
-;
-bool
 mUseFontGlyphWidths
 ;
 bool
