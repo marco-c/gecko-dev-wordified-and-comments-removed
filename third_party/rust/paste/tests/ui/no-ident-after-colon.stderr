@@ -7,7 +7,9 @@ after
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 no
 -
@@ -19,11 +21,11 @@ colon
 .
 rs
 :
-2
+4
 :
 15
 |
-2
+4
 |
 fn
 [

@@ -1,7 +1,10 @@
+use
 paste
 :
 :
-item
+paste
+;
+paste
 !
 {
 fn

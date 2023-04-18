@@ -11,7 +11,9 @@ PASTE_UNKNOWN
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 no
 -
@@ -21,11 +23,11 @@ var
 .
 rs
 :
-2
+4
 :
 17
 |
-2
+4
 |
 fn
 [

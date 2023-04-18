@@ -5,7 +5,9 @@ expected
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 missing
 -
@@ -17,11 +19,11 @@ env
 .
 rs
 :
-2
+4
 :
 15
 |
-2
+4
 |
 fn
 [
