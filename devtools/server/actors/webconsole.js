@@ -4888,10 +4888,6 @@ if
 isWorker
 )
 {
-clearConsoleEvents
-(
-)
-;
 return
 ;
 }

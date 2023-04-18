@@ -1745,11 +1745,6 @@ setConsoleEventHandler
 this
 .
 setConsoleEventHandler
-clearConsoleEvents
-:
-this
-.
-clearConsoleEvents
 console
 :
 console
