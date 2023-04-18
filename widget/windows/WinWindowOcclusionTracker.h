@@ -261,11 +261,6 @@ sCalculator
 ;
 }
 void
-Initialize
-(
-)
-;
-void
 Shutdown
 (
 layers
