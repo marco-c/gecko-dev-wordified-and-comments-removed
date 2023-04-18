@@ -262,16 +262,6 @@ reversed
 -
 placement
 "
-"
--
-moz
--
-proton
--
-places
--
-tooltip
-"
 ]
 ;
 const
