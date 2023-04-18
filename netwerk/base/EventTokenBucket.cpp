@@ -1967,7 +1967,7 @@ FineGrainResetTimerNotify
 events
 =
 %
-d
+zd
 \
 n
 "

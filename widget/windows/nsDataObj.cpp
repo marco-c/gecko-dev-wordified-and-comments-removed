@@ -9256,7 +9256,7 @@ AppendPrintf
 (
 "
 %
-08u
+08zu
 "
 startHTMLOffset
 )
@@ -9274,7 +9274,7 @@ AppendPrintf
 (
 "
 %
-08u
+08zu
 "
 endHTMLOffset
 )
@@ -9292,7 +9292,7 @@ AppendPrintf
 (
 "
 %
-08u
+08zu
 "
 startFragOffset
 )
@@ -9310,7 +9310,7 @@ AppendPrintf
 (
 "
 %
-08u
+08zu
 "
 endFragOffset
 )

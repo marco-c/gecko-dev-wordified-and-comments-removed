@@ -936,7 +936,7 @@ for
 s
 has
 %
-u
+zu
 results
 "
 aCanonHost
