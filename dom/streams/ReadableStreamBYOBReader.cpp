@@ -198,9 +198,6 @@ aGivenProto
 void
 SetUpReadableStreamBYOBReader
 (
-JSContext
-*
-aCx
 ReadableStreamBYOBReader
 *
 reader
@@ -351,11 +348,6 @@ globalObject
 ;
 SetUpReadableStreamBYOBReader
 (
-global
-.
-Context
-(
-)
 reader
 stream
 rv
@@ -1452,7 +1444,6 @@ GetParentObject
 ;
 SetUpReadableStreamBYOBReader
 (
-aCx
 reader
 *
 aStream
