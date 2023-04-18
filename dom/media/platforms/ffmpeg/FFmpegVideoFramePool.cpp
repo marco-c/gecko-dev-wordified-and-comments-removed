@@ -108,7 +108,7 @@ mLib
 (
 nullptr
 )
-mAVHWFramesContext
+mAVHWDeviceContext
 (
 nullptr
 )
@@ -203,7 +203,7 @@ mLib
 =
 aLib
 ;
-mAVHWFramesContext
+mAVHWDeviceContext
 =
 aLib
 -
@@ -213,7 +213,7 @@ av_buffer_ref
 aAVCodecContext
 -
 >
-hw_frames_ctx
+hw_device_ctx
 )
 ;
 mHWAVBuffer
@@ -285,7 +285,7 @@ mLib
 av_buffer_unref
 (
 &
-mAVHWFramesContext
+mAVHWDeviceContext
 )
 ;
 }
