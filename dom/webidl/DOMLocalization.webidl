@@ -20,7 +20,7 @@ constructor
 (
 sequence
 <
-UTF8String
+L10nResourceId
 >
 aResourceIds
 optional

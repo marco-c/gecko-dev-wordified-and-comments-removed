@@ -76,7 +76,7 @@ constructor
 (
 sequence
 <
-UTF8String
+L10nResourceId
 >
 aResourceIds
 optional
@@ -100,7 +100,7 @@ addResourceIds
 (
 sequence
 <
-UTF8String
+L10nResourceId
 >
 aResourceIds
 )
@@ -111,7 +111,7 @@ removeResourceIds
 (
 sequence
 <
-UTF8String
+L10nResourceId
 >
 aResourceIds
 )
