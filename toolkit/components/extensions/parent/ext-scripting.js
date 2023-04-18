@@ -500,9 +500,9 @@ originAttributesPatterns
 null
 runAt
 :
-"
-document_idle
-"
+details
+.
+runAt
 }
 }
 ;
@@ -1099,6 +1099,11 @@ matches
 options
 .
 matches
+runAt
+:
+options
+.
+runAt
 }
 ;
 }
