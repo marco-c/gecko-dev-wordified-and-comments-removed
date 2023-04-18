@@ -1244,6 +1244,15 @@ break
 case
 ERROR_FILE_CORRUPT
 :
+[
+[
+fallthrough
+]
+]
+;
+case
+ERROR_DISK_CORRUPT
+:
 rv
 =
 NS_ERROR_FILE_FS_CORRUPTED
