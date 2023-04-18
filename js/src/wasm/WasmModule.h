@@ -757,11 +757,6 @@ uint8_t
 begin
 size_t
 size
-Metadata
-*
-maybeMetadata
-=
-nullptr
 )
 ;
 bool
