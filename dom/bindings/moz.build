@@ -183,6 +183,11 @@ Nullable
 h
 "
 "
+ObservableArrayProxyHandler
+.
+h
+"
+"
 PinnedStringId
 .
 h
@@ -568,6 +573,11 @@ cpp
 "
 "
 nsScriptErrorWithStack
+.
+cpp
+"
+"
+ObservableArrayProxyHandler
 .
 cpp
 "
