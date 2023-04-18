@@ -99,12 +99,6 @@ SESSION_STORAGE
 ;
 resource
 .
-resourceId
-=
-SESSION_STORAGE
-;
-resource
-.
 resourceKey
 =
 "
