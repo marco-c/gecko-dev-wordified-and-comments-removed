@@ -383,6 +383,15 @@ include
 "
 vm
 /
+StaticStrings
+.
+h
+"
+#
+include
+"
+vm
+/
 StencilEnums
 .
 h

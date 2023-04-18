@@ -235,6 +235,15 @@ h
 #
 include
 "
+vm
+/
+StaticStrings
+.
+h
+"
+#
+include
+"
 gc
 /
 FreeOp

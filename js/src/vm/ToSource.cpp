@@ -233,6 +233,15 @@ include
 "
 vm
 /
+StaticStrings
+.
+h
+"
+#
+include
+"
+vm
+/
 StringType
 .
 h

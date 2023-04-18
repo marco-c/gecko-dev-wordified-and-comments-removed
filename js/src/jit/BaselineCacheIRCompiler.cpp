@@ -131,6 +131,15 @@ h
 #
 include
 "
+vm
+/
+StaticStrings
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler

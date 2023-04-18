@@ -55,6 +55,15 @@ include
 "
 vm
 /
+StaticStrings
+.
+h
+"
+#
+include
+"
+vm
+/
 JSObject
 -
 inl
