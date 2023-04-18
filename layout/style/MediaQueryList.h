@@ -79,8 +79,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -308,7 +308,6 @@ mMatchesValid
 ;
 }
 ;
-}
 }
 #
 endif

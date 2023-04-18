@@ -46,8 +46,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -215,7 +215,6 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 SessionStoreRestoreData
 NS_SESSIONSTORERESTOREDATA_IID
 )
-}
 }
 #
 endif

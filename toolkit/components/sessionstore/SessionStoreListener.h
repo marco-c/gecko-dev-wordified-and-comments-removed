@@ -51,8 +51,8 @@ nsITimer
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -403,7 +403,6 @@ mEpoch
 ;
 }
 ;
-}
 }
 #
 endif
