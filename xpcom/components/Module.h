@@ -44,7 +44,7 @@ unsigned
 int
 kVersion
 =
-100
+101
 ;
 struct
 CIDEntry
