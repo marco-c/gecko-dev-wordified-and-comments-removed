@@ -419,9 +419,7 @@ async
 {
 DownloadIntegration
 .
-getDownloadSpamProtection
-(
-)
+downloadSpamProtection
 .
 clearDownloadSpam
 (
