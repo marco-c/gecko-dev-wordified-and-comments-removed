@@ -842,7 +842,7 @@ o
 x
 )
 (
-rax
+r6
 -
 (
 o_base
@@ -2693,7 +2693,7 @@ i
 3_internal_8bpc
 )
 lea
-rax
+r6
 [
 o_base
 ]
@@ -6205,8 +6205,8 @@ m3
 m3
 q1032
 ;
-in12
 in15
+in12
 in13
 in14
 pshufd
@@ -17877,7 +17877,7 @@ stride
 c
 eob
 lea
-rax
+r6
 [
 o_base
 ]
@@ -18778,7 +18778,7 @@ m6
 lea
 r5
 [
-rax
+r6
 -
 (
 o_base
@@ -19653,7 +19653,7 @@ stride
 c
 eob
 lea
-rax
+r6
 [
 o_base
 ]
@@ -21920,7 +21920,7 @@ stride
 c
 eob
 lea
-rax
+r6
 [
 o_base
 ]
@@ -24710,7 +24710,7 @@ stride
 c
 eob
 lea
-rax
+r6
 [
 o_base
 ]
@@ -25430,7 +25430,7 @@ eob
 undef
 cmp
 lea
-rax
+r6
 [
 o_base
 ]
@@ -25516,7 +25516,7 @@ strideq
 3
 ]
 mov
-rax
+r6
 cq
 paddw
 m11
@@ -25807,7 +25807,7 @@ r0d
 8
 cmp
 cq
-rax
+r6
 ja
 .
 zero_loop
@@ -25816,7 +25816,7 @@ zero_loop_half
 :
 mova
 [
-rax
+r6
 +
 64
 *
@@ -25825,7 +25825,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 64
 *
@@ -25833,13 +25833,13 @@ rax
 ]
 m0
 add
-rax
+r6
 64
 *
 4
 mova
 [
-rax
+r6
 -
 64
 *
@@ -25848,7 +25848,7 @@ rax
 m0
 mova
 [
-rax
+r6
 -
 64
 *
@@ -25867,7 +25867,7 @@ zero_loop
 :
 mova
 [
-rax
+r6
 +
 32
 *
@@ -25876,7 +25876,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 32
 *
@@ -25885,7 +25885,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 32
 *
@@ -25894,7 +25894,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 32
 *
@@ -25902,7 +25902,7 @@ rax
 ]
 m0
 add
-rax
+r6
 32
 *
 4
@@ -25925,7 +25925,7 @@ eob
 undef
 cmp
 lea
-rax
+r6
 [
 o_base
 ]
@@ -26006,7 +26006,7 @@ mov
 r5
 dstq
 mov
-rax
+r6
 cq
 .
 loop
@@ -26331,7 +26331,7 @@ zero_loop
 :
 mova
 [
-rax
+r6
 +
 32
 *
@@ -26340,7 +26340,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 32
 *
@@ -26349,7 +26349,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 32
 *
@@ -26358,7 +26358,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 32
 *
@@ -26366,7 +26366,7 @@ rax
 ]
 m0
 add
-rax
+r6
 32
 *
 4
@@ -26387,7 +26387,7 @@ stride
 c
 eob
 lea
-rax
+r6
 [
 o_base
 ]
@@ -27435,7 +27435,7 @@ mov
 r5
 dstq
 lea
-rax
+r6
 [
 cq
 +
@@ -27715,7 +27715,7 @@ r0d
 16
 cmp
 cq
-rax
+r6
 jne
 .
 zero_loop
@@ -27724,7 +27724,7 @@ zero_loop_topleft
 :
 mova
 [
-rax
+r6
 -
 32
 *
@@ -27733,7 +27733,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 32
 *
@@ -27742,7 +27742,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 32
 *
@@ -27751,7 +27751,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 32
 *
@@ -27759,7 +27759,7 @@ rax
 ]
 m0
 add
-rax
+r6
 64
 *
 4
@@ -27775,7 +27775,7 @@ zero_loop
 :
 mova
 [
-rax
+r6
 -
 32
 *
@@ -27784,7 +27784,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 32
 *
@@ -27793,7 +27793,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 32
 *
@@ -27802,7 +27802,7 @@ rax
 m0
 mova
 [
-rax
+r6
 +
 32
 *
@@ -27810,7 +27810,7 @@ rax
 ]
 m0
 add
-rax
+r6
 32
 *
 4
@@ -28387,7 +28387,7 @@ stride
 c
 eob
 lea
-rax
+r6
 [
 o_base
 ]
@@ -29573,7 +29573,7 @@ r3
 fast3
 :
 add
-rax
+r6
 o_idct64_offset
 call
 m
@@ -29583,7 +29583,7 @@ inv_txfm_add_dct_dct_16x64_8bpc
 .
 main_part1
 add
-rax
+r6
 8
 add
 tmp1q
@@ -30685,7 +30685,7 @@ idct16
 64
 sumsub
 sub
-rax
+r6
 o_idct64_offset
 +
 8
@@ -31004,7 +31004,7 @@ ret
 main_part2_pass2
 :
 sub
-rax
+r6
 o_idct64_offset
 +
 8
@@ -31210,7 +31210,7 @@ stride
 c
 eob
 lea
-rax
+r6
 [
 o_base
 ]
@@ -31762,7 +31762,7 @@ m8
 25
 7
 add
-rax
+r6
 o_idct64_offset
 call
 m
@@ -31772,7 +31772,7 @@ inv_txfm_add_dct_dct_16x64_8bpc
 .
 main_part1
 add
-rax
+r6
 8
 add
 tmp1q
@@ -32493,7 +32493,7 @@ stride
 c
 eob
 lea
-rax
+r6
 [
 o_base
 ]
@@ -33838,7 +33838,7 @@ r8
 fast4
 :
 add
-rax
+r6
 o_idct64_offset
 call
 m
@@ -33848,7 +33848,7 @@ inv_txfm_add_dct_dct_16x64_8bpc
 .
 main_part1
 add
-rax
+r6
 8
 add
 tmp1q
@@ -34022,7 +34022,7 @@ stride
 c
 eob
 lea
-rax
+r6
 [
 o_base
 ]
@@ -34509,7 +34509,7 @@ m8
 25
 7
 add
-rax
+r6
 o_idct64_offset
 call
 m
@@ -34531,7 +34531,7 @@ o_idct64_offset
 )
 ]
 add
-rax
+r6
 8
 add
 tmp1q
@@ -35435,7 +35435,7 @@ stride
 c
 eob
 lea
-rax
+r6
 [
 o_base
 ]
@@ -35898,7 +35898,7 @@ m8
 25
 7
 add
-rax
+r6
 o_idct64_offset
 call
 m
@@ -35908,7 +35908,7 @@ inv_txfm_add_dct_dct_16x64_8bpc
 .
 main_part1
 add
-rax
+r6
 8
 add
 tmp1q
@@ -36613,7 +36613,7 @@ r3
 fast3
 :
 add
-rax
+r6
 o_idct64_offset
 call
 m
@@ -36623,7 +36623,7 @@ inv_txfm_add_dct_dct_16x64_8bpc
 .
 main_part1
 add
-rax
+r6
 8
 add
 tmp1q

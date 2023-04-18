@@ -293,7 +293,7 @@ r2
 align
 ret
 tst
-r6
+r7
 #
 1
 /
@@ -305,7 +305,7 @@ beq
 /
 CDEF_HAVE_LEFT
 tst
-r6
+r7
 #
 2
 /
@@ -464,7 +464,7 @@ pop
 {
 r4
 -
-r7
+r8
 pc
 }
 .
@@ -613,7 +613,7 @@ pop
 {
 r4
 -
-r7
+r8
 pc
 }
 .
@@ -637,7 +637,7 @@ endif
 !
 CDEF_HAVE_LEFT
 tst
-r6
+r7
 #
 2
 /
@@ -779,7 +779,7 @@ pop
 {
 r4
 -
-r7
+r8
 pc
 }
 .
@@ -911,7 +911,7 @@ pop
 {
 r4
 -
-r7
+r8
 pc
 }
 .
@@ -962,6 +962,13 @@ pixel
 *
 const
 top
+/
+/
+const
+pixel
+*
+const
+bottom
 int
 h
 /
@@ -1008,7 +1015,7 @@ push
 {
 r4
 -
-r7
+r8
 lr
 }
 ldrd
@@ -1017,14 +1024,15 @@ r5
 [
 sp
 #
-20
+24
 ]
-ldr
+ldrd
 r6
+r7
 [
 sp
 #
-28
+32
 ]
 vmov
 .
@@ -1033,7 +1041,7 @@ q3
 #
 0x8000
 tst
-r6
+r7
 #
 4
 /
@@ -1104,7 +1112,7 @@ b
 /
 CDEF_HAVE_TOP
 add
-r7
+r8
 r4
 r2
 sub
@@ -1121,7 +1129,7 @@ stride
 )
 pad_top_bot_16
 r4
-r7
+r8
 \
 w
 \
@@ -1140,7 +1148,7 @@ section
 3
 :
 tst
-r6
+r7
 #
 1
 /
@@ -1152,7 +1160,7 @@ beq
 /
 CDEF_HAVE_LEFT
 tst
-r6
+r7
 #
 2
 /
@@ -1206,8 +1214,8 @@ align
 ]
 r2
 subs
-r5
-r5
+r6
+r6
 #
 1
 vstr
@@ -1290,8 +1298,8 @@ align
 ]
 r2
 subs
-r5
-r5
+r6
+r6
 #
 1
 vstr
@@ -1340,7 +1348,7 @@ b
 2
 :
 tst
-r6
+r7
 #
 2
 /
@@ -1381,8 +1389,8 @@ align
 ]
 r2
 subs
-r5
-r5
+r6
+r6
 #
 1
 vstr
@@ -1452,8 +1460,8 @@ align
 ]
 r2
 subs
-r5
-r5
+r6
+r6
 #
 1
 vstr
@@ -1500,7 +1508,7 @@ bgt
 3
 :
 tst
-r6
+r7
 #
 8
 /
@@ -1558,7 +1566,7 @@ pop
 {
 r4
 -
-r7
+r8
 pc
 }
 1
@@ -1567,12 +1575,12 @@ pc
 /
 CDEF_HAVE_BOTTOM
 add
-r7
-r1
+r8
+r5
 r2
 pad_top_bot_16
-r1
-r7
+r5
+r8
 \
 w
 \

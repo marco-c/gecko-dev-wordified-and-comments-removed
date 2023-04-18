@@ -2835,6 +2835,8 @@ low
 out3
 %
 endmacro
+INIT_XMM
+sse2
 cglobal
 inv_txfm_add_wht_wht_4x4_8bpc
 3
@@ -3757,6 +3759,8 @@ end3
 endif
 %
 endmacro
+INIT_XMM
+ssse3
 INV_TXFM_4X8_FN
 dct
 dct

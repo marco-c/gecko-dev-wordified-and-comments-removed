@@ -104,6 +104,11 @@ const
 pixel
 *
 top
+const
+pixel
+*
+bottom
+\
 int
 pri_strength
 int
