@@ -948,6 +948,16 @@ thumbnail
 alt
 :
 alt
+width
+:
+"
+40
+"
+height
+:
+"
+40
+"
 }
 )
 :
