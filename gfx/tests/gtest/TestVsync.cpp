@@ -499,6 +499,12 @@ vsyncDispatcher
 new
 CompositorVsyncDispatcher
 (
+mVsyncSource
+-
+>
+GetVsyncDispatcher
+(
+)
 )
 ;
 RefPtr
