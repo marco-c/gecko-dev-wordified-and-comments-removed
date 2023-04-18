@@ -1803,6 +1803,8 @@ void
 user_ptr
 cubeb_resampler_quality
 quality
+cubeb_resampler_reclock
+reclock
 )
 {
 std

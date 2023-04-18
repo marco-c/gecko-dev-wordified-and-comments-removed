@@ -8113,6 +8113,7 @@ target_sample_rate
 data_callback
 user_ptr
 CUBEB_RESAMPLER_QUALITY_DEFAULT
+CUBEB_RESAMPLER_RECLOCK_NONE
 )
 ;
 if
