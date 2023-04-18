@@ -2844,16 +2844,6 @@ manager
 "
 about
 :
-devtools
-"
-)
-;
-blockAboutPage
-(
-manager
-"
-about
-:
 debugging
 "
 )
