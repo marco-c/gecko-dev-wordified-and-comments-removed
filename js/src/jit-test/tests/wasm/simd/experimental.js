@@ -2179,7 +2179,7 @@ Int32Array
 mem
 )
 0
-2
+4
 )
 ;
 assertSame
@@ -2189,6 +2189,8 @@ result
 200000
 -
 3
+0
+0
 ]
 )
 ;
@@ -2229,7 +2231,7 @@ Uint32Array
 mem
 )
 0
-2
+4
 )
 ;
 assertSame
@@ -2237,6 +2239,8 @@ assertSame
 result
 [
 0x90000000
+0
+0
 0
 ]
 )
