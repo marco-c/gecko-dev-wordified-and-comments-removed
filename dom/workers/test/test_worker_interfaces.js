@@ -1542,6 +1542,16 @@ true
 name
 :
 "
+WebGLQuery
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 WebGLRenderbuffer
 "
 insecureContext

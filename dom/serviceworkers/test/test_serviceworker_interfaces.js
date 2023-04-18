@@ -630,6 +630,9 @@ URLSearchParams
 WebSocket
 "
 "
+WebGLQuery
+"
+"
 WindowClient
 "
 "
