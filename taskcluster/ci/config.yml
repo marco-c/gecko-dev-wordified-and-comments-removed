@@ -4480,11 +4480,8 @@ low
 '
 taskgraph
 :
-register
-:
-gecko_taskgraph
-:
-register
+{
+}
 workers
 :
 aliases

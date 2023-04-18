@@ -523,7 +523,7 @@ import
 gecko_taskgraph
     
 from
-taskgraph
+gecko_taskgraph
 .
 parameters
 import
@@ -717,7 +717,7 @@ None
 :
     
 from
-taskgraph
+gecko_taskgraph
 .
 parameters
 import
@@ -854,7 +854,7 @@ logdir
 :
     
 from
-taskgraph
+gecko_taskgraph
 .
 parameters
 import
@@ -1960,12 +1960,11 @@ as
 get_repository
     
 from
-taskgraph
+gecko_taskgraph
 .
 parameters
 import
 Parameters
-parameters_loader
     
 if
 options
@@ -2184,7 +2183,7 @@ not
 parameters
 :
         
-overrides
+kwargs
 =
 {
             
@@ -2208,18 +2207,15 @@ target_kind
 parameters
 =
 [
-            
-parameters_loader
+Parameters
 (
-None
 strict
 =
 False
-overrides
-=
-overrides
+*
+*
+kwargs
 )
-        
 ]
     
 for

@@ -19,12 +19,6 @@ config
 import
 GraphConfig
 from
-taskgraph
-.
-parameters
-import
-Parameters
-from
 gecko_taskgraph
 import
 (
@@ -66,6 +60,12 @@ gecko_taskgraph
 optimize
 import
 OptimizationStrategy
+from
+gecko_taskgraph
+.
+parameters
+import
+Parameters
 from
 gecko_taskgraph
 .
