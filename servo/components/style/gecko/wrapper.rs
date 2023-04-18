@@ -11891,6 +11891,16 @@ MozAutofillPreview
 NonTSPseudoClass
 :
 :
+MozRevealed
+|
+NonTSPseudoClass
+:
+:
+MozValueEmpty
+|
+NonTSPseudoClass
+:
+:
 Dir
 (
 .
