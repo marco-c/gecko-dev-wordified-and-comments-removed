@@ -97,6 +97,14 @@ mId
 ;
 if
 (
+aAmount
+>
+=
+0
+)
+{
+if
+(
 scalarId
 )
 {
@@ -188,6 +196,7 @@ uint32_t
 aAmount
 )
 ;
+}
 }
 }
 fog_counter_add
