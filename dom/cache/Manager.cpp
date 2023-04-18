@@ -7379,6 +7379,13 @@ AssertIsOnBackgroundThread
 Factory
 :
 :
+AbortAll
+(
+)
+;
+Factory
+:
+:
 ShutdownAll
 (
 )
