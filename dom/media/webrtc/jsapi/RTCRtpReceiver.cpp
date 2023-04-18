@@ -202,7 +202,7 @@ h
 #
 include
 "
-RTCRtpTransceiver
+TransceiverImpl
 .
 h
 "
@@ -567,9 +567,9 @@ aStsThread
 MediaSessionConduit
 *
 aConduit
-RTCRtpTransceiver
+TransceiverImpl
 *
-aTransceiver
+aTransceiverImpl
 )
 :
 mWindow
@@ -596,9 +596,9 @@ mTransportHandler
 (
 aTransportHandler
 )
-mTransceiver
+mTransceiverImpl
 (
-aTransceiver
+aTransceiverImpl
 )
 INIT_CANONICAL
 (
@@ -895,7 +895,7 @@ const
 if
 (
 !
-mTransceiver
+mTransceiverImpl
 )
 {
 return
@@ -903,7 +903,7 @@ nullptr
 ;
 }
 return
-mTransceiver
+mTransceiverImpl
 -
 >
 GetDtlsTransport
@@ -972,7 +972,7 @@ if
 NS_WARN_IF
 (
 !
-mTransceiver
+mTransceiverImpl
 )
 )
 {
@@ -996,7 +996,7 @@ forget
 )
 ;
 }
-mTransceiver
+mTransceiverImpl
 -
 >
 ChainToDomPromiseWithCodecStats
@@ -2842,7 +2842,7 @@ mPipeline
 nullptr
 ;
 }
-mTransceiver
+mTransceiverImpl
 =
 nullptr
 ;
@@ -3525,7 +3525,7 @@ VideoCodecConfig
 >
 configs
 ;
-RTCRtpTransceiver
+TransceiverImpl
 :
 :
 NegotiatedDetailsToVideoCodecConfigs
@@ -3844,7 +3844,7 @@ AudioCodecConfig
 >
 configs
 ;
-RTCRtpTransceiver
+TransceiverImpl
 :
 :
 NegotiatedDetailsToAudioCodecConfigs
