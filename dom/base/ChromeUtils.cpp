@@ -3710,7 +3710,7 @@ true
 }
 static
 bool
-ModuleGetter
+JSModuleGetter
 (
 JSContext
 *
@@ -3999,7 +3999,7 @@ true
 }
 static
 bool
-ModuleSetter
+JSModuleSetter
 (
 JSContext
 *
@@ -4105,7 +4105,7 @@ JSPROP_ENUMERATE
 }
 static
 bool
-DefineGetter
+DefineJSModuleGetter
 (
 JSContext
 *
@@ -4242,7 +4242,7 @@ js
 NewFunctionByIdWithReserved
 (
 aCx
-ModuleGetter
+JSModuleGetter
 0
 0
 id
@@ -4269,7 +4269,7 @@ js
 NewFunctionByIdWithReserved
 (
 aCx
-ModuleSetter
+JSModuleSetter
 0
 0
 id
@@ -4377,7 +4377,7 @@ if
 module_getter
 :
 :
-DefineGetter
+DefineJSModuleGetter
 (
 global
 .
