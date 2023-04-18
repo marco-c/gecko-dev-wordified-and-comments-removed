@@ -817,14 +817,6 @@ consoleAPIListenerOptions
 :
 {
 }
-_allowSource
-(
-)
-{
-return
-true
-;
-}
 get
 dbg
 (
@@ -1326,9 +1318,6 @@ SourcesManager
 this
 .
 threadActor
-this
-.
-_allowSource
 )
 ;
 }
