@@ -8760,7 +8760,7 @@ vsync
 )
 ;
 return
-CreateSoftwareVsyncSource
+GetSoftwareVsyncSource
 (
 )
 ;

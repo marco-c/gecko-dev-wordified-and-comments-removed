@@ -5032,7 +5032,7 @@ IsWaylandDisplay
 )
 {
 return
-CreateSoftwareVsyncSource
+GetSoftwareVsyncSource
 (
 )
 ;
@@ -5191,7 +5191,7 @@ vsync
 )
 ;
 return
-CreateSoftwareVsyncSource
+GetSoftwareVsyncSource
 (
 )
 ;

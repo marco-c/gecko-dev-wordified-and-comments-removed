@@ -5340,7 +5340,7 @@ vsync
 )
 ;
 return
-CreateSoftwareVsyncSource
+GetSoftwareVsyncSource
 (
 )
 ;
