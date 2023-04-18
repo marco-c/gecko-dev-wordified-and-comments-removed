@@ -535,13 +535,6 @@ JS_SHARED_LIBRARY
 "
 shared_js
 )
-add_old_configure_assignment
-(
-"
-JS_SHARED_LIBRARY
-"
-shared_js
-)
 depends
 (
 shared_js
