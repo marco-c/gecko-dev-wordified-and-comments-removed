@@ -3319,6 +3319,12 @@ case
 JSOp
 :
 :
+IsNullOrUndefined
+:
+case
+JSOp
+:
+:
 DelProp
 :
 case
