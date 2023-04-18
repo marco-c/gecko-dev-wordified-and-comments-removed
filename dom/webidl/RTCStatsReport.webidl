@@ -445,11 +445,6 @@ retransmittedBytesSent
 ;
 unsigned
 long
-long
-totalEncodedBytesTarget
-;
-unsigned
-long
 frameWidth
 ;
 unsigned
@@ -459,13 +454,6 @@ frameHeight
 unsigned
 long
 framesSent
-;
-unsigned
-long
-hugeFramesSent
-;
-double
-totalEncodeTime
 ;
 }
 ;
