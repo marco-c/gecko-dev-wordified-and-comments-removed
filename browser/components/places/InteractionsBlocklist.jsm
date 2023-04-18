@@ -416,10 +416,6 @@ v2
 \
 /
 auth
-\
-\
-/
-identifier
 "
 "
 ^
