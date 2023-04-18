@@ -2820,17 +2820,6 @@ NS_ProcessPendingEvents
 thread
 )
 ;
-mozilla
-:
-:
-KillClearOnShutdown
-(
-ShutdownPhase
-:
-:
-XPCOMShutdownLoaders
-)
-;
 nsThreadManager
 :
 :

@@ -302,7 +302,6 @@ threads
 "
 nullptr
 nullptr
-nullptr
 }
 ;
 static_assert
