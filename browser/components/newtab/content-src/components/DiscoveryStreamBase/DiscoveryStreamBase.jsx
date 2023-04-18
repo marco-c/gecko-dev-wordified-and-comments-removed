@@ -1601,6 +1601,13 @@ component
 .
 feed
 }
+widgets
+=
+{
+component
+.
+widgets
+}
 border
 =
 {
