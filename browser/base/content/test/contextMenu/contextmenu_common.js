@@ -108,7 +108,7 @@ onSpellCheck
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -125,8 +125,6 @@ AsyncSpellCheckTestHelper
 .
 jsm
 "
-{
-}
 )
 ;
 onSpellCheck
