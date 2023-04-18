@@ -105,14 +105,11 @@ N
 =
 ArrayVec
 <
-[
 SendNode
 <
 N
 >
-;
 WORK_UNIT_MAX
-]
 >
 ;
 #
