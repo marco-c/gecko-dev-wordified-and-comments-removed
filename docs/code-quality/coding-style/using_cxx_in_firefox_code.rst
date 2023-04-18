@@ -1797,7 +1797,6 @@ Notes
 ~
 rvalue
 references
-:
 Implicit
 move
 method
@@ -1807,7 +1806,6 @@ be
 used
 .
 Attributes
-:
 Several
 common
 attributes
@@ -1847,7 +1845,6 @@ nscore
 h
 .
 Alignment
-:
 Some
 alignment
 utilities
@@ -1882,10 +1879,11 @@ h
 >
 __
 .
-/
-!
-\
-\
+.
+.
+caution
+:
+:
 MOZ_ALIGNOF
 and
 alignof
@@ -1911,7 +1909,6 @@ them
 deprecated
 ]
 ]
-:
 If
 we
 have
@@ -1966,7 +1963,6 @@ helpful
 .
 Sized
 deallocation
-:
 Our
 compilers
 all
@@ -2037,7 +2033,6 @@ Aligned
 allocation
 /
 deallocation
-:
 Our
 custom
 memory
@@ -2053,7 +2048,6 @@ functions
 .
 Thread
 locals
-:
 thread_local
 is
 not
@@ -2063,7 +2057,6 @@ Android
 .
 Designated
 initializers
-:
 Despite
 their
 late
