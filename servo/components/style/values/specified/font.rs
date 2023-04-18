@@ -162,8 +162,7 @@ length
 :
 {
 FontBaseSize
-AU_PER_PT
-AU_PER_PX
+PX_PER_PT
 }
 ;
 use
@@ -12614,11 +12613,7 @@ DEFAULT_SCRIPT_MIN_SIZE_PT
 as
 f32
 *
-(
-AU_PER_PT
-/
-AU_PER_PX
-)
+PX_PER_PT
 )
 }
 }
