@@ -84,10 +84,10 @@ Attributes
 .
 cpp
 index
-b21d4527484
+368fc87dc801
 .
 .
-e9602f1aaf1
+96c2388d776e
 100644
 -
 -
@@ -118,10 +118,10 @@ Attributes
 .
 cpp
 -
-1848
+1902
 7
 +
-1848
+1902
 6
 AttrBuilder
 AttributeFuncs
@@ -140,7 +140,7 @@ addAttribute
 Attribute
 :
 :
-NoAlias
+ReadNone
 )
 .
 addAttribute
@@ -148,7 +148,7 @@ addAttribute
 Attribute
 :
 :
-NoCapture
+ReadOnly
 )
 .
 addAttribute
@@ -156,7 +156,7 @@ addAttribute
 Attribute
 :
 :
-NonNull
+SwiftError
 )
 -
 .
@@ -196,10 +196,7 @@ here
 is
 ignored
 .
-addAttribute
+addPreallocatedAttr
 (
-Attribute
-:
-:
-ReadNone
+Ty
 )
