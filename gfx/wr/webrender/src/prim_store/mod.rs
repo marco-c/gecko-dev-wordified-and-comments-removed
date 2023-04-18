@@ -690,7 +690,7 @@ struct
 ClipTaskIndex
 (
 pub
-u16
+u32
 )
 ;
 impl
