@@ -422,9 +422,6 @@ unwrap
 )
 ;
 }
-#
-ifdef
-MOZ_INTL_PLURAL_RULES_HAS_SELECT_RANGE
 Result
 <
 PluralRules
@@ -501,8 +498,6 @@ unwrap
 )
 ;
 }
-#
-endif
 Result
 <
 EnumSet

@@ -103,14 +103,6 @@ mozilla
 :
 intl
 {
-#
-ifndef
-U_HIDE_DRAFT_API
-#
-define
-MOZ_INTL_PLURAL_RULES_HAS_SELECT_RANGE
-#
-endif
 class
 PluralRules
 final
@@ -199,9 +191,6 @@ aNumber
 )
 const
 ;
-#
-ifdef
-MOZ_INTL_PLURAL_RULES_HAS_SELECT_RANGE
 Result
 <
 PluralRules
@@ -219,8 +208,6 @@ aEnd
 )
 const
 ;
-#
-endif
 Result
 <
 EnumSet

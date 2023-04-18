@@ -94,9 +94,6 @@ string_view
 locale
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UNumberRangeFormatter
 *
 toRangeFormatter
@@ -118,8 +115,6 @@ RangeIdentityFallback
 identity
 )
 ;
-#
-endif
 private
 :
 static

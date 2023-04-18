@@ -89,14 +89,6 @@ mozilla
 :
 intl
 {
-#
-ifndef
-U_HIDE_DRAFT_API
-#
-define
-MOZ_INTL_HAS_NUMBER_RANGE_FORMAT
-#
-endif
 struct
 MOZ_STACK_CLASS
 NumberRangeFormatOptions
@@ -193,9 +185,6 @@ NumberRangeFormat
 =
 delete
 ;
-#
-ifdef
-MOZ_INTL_HAS_NUMBER_RANGE_FORMAT
 ~
 NumberRangeFormat
 (
@@ -778,8 +767,6 @@ parts
 )
 const
 ;
-#
-endif
 }
 ;
 }

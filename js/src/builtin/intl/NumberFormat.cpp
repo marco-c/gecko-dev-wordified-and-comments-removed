@@ -607,9 +607,6 @@ Intl_NumberFormat_formatToParts
 #
 ifdef
 NIGHTLY_BUILD
-#
-ifdef
-MOZ_INTL_HAS_NUMBER_RANGE_FORMAT
 JS_SELF_HOSTED_FN
 (
 "
@@ -632,8 +629,6 @@ Intl_NumberFormat_formatRangeToParts
 2
 0
 )
-#
-endif
 #
 endif
 JS_FN
@@ -7040,9 +7035,6 @@ return
 true
 ;
 }
-#
-ifdef
-MOZ_INTL_HAS_NUMBER_RANGE_FORMAT
 static
 JSLinearString
 *
@@ -8085,8 +8077,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 js
 :
@@ -8103,9 +8093,6 @@ Value
 vp
 )
 {
-#
-ifdef
-MOZ_INTL_HAS_NUMBER_RANGE_FORMAT
 CallArgs
 args
 =
@@ -8779,19 +8766,4 @@ str
 return
 true
 ;
-#
-else
-MOZ_CRASH
-(
-"
-ICU
-draft
-API
-not
-enabled
-"
-)
-;
-#
-endif
 }

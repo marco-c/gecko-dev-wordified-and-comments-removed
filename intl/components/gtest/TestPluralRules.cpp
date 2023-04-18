@@ -4918,9 +4918,6 @@ IntlPluralRules
 SelectRangeEn
 )
 {
-#
-ifdef
-INTL_PLURAL_RULES_HAS_SELECT_RANGE
 for
 (
 auto
@@ -5100,8 +5097,6 @@ Other
 )
 ;
 }
-#
-endif
 }
 TEST
 (
@@ -5109,9 +5104,6 @@ IntlPluralRules
 SelectRangeFrCardinal
 )
 {
-#
-ifdef
-INTL_PLURAL_RULES_HAS_SELECT_RANGE
 PluralRulesOptions
 options
 ;
@@ -5292,8 +5284,6 @@ Keyword
 Other
 )
 ;
-#
-endif
 }
 TEST
 (
@@ -5301,9 +5291,6 @@ IntlPluralRules
 SelectRangeFrOrdinal
 )
 {
-#
-ifdef
-INTL_PLURAL_RULES_HAS_SELECT_RANGE
 PluralRulesOptions
 options
 ;
@@ -5484,8 +5471,6 @@ Keyword
 Other
 )
 ;
-#
-endif
 }
 }
 }
