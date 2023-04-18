@@ -2839,7 +2839,7 @@ uintptr_t
 ptr
 +
 (
-count
+total_size
 -
 1
 )

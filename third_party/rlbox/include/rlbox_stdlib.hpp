@@ -1198,7 +1198,12 @@ memcpy
 sandbox
 copy
 src
-num_trunc
+num
+*
+sizeof
+(
+T
+)
 )
 ;
 if

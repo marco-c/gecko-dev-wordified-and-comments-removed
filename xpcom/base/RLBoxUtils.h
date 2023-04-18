@@ -86,11 +86,6 @@ copy_memory_or_grant_access
 mSandbox
 aBuf
 aLen
-*
-sizeof
-(
-T
-)
 false
 mCopied
 )
