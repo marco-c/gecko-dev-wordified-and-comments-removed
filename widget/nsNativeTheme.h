@@ -592,14 +592,6 @@ nsIFrame
 ;
 static
 bool
-IsDarkColor
-(
-nscolor
-aColor
-)
-;
-static
-bool
 IsWidgetScrollbarPart
 (
 mozilla
