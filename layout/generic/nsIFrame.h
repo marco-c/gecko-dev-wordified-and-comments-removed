@@ -11111,6 +11111,13 @@ const
 ;
 inline
 bool
+IsRelativelyPositioned
+(
+)
+const
+;
+inline
+bool
 IsStickyPositioned
 (
 )

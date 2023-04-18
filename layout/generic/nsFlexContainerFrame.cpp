@@ -22828,12 +22828,6 @@ outerWM
 ;
 if
 (
-StylePositionProperty
-:
-:
-Relative
-=
-=
 aItem
 .
 Frame
@@ -22846,7 +22840,9 @@ StyleDisplay
 )
 -
 >
-mPosition
+IsRelativelyPositionedStyle
+(
+)
 )
 {
 nsMargin
