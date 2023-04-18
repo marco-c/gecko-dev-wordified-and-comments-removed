@@ -1173,6 +1173,16 @@ libxcb1
 i386
 '
 )
+apt_packages
++
+=
+(
+'
+libasound2
+:
+i386
+'
+)
 apt
 -
 get
