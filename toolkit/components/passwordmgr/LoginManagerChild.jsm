@@ -5178,7 +5178,6 @@ LoginRecipesContent
 .
 getRecipes
 (
-this
 formOrigin
 doc
 .
@@ -6955,7 +6954,6 @@ LoginRecipesContent
 .
 getRecipes
 (
-this
 origin
 win
 )
@@ -10901,7 +10899,6 @@ LoginRecipesContent
 .
 getRecipes
 (
-this
 formOrigin
 doc
 .

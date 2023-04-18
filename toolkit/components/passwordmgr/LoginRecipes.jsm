@@ -1173,7 +1173,6 @@ recipes
 }
 getRecipes
 (
-aActor
 aHost
 win
 )
@@ -1181,7 +1180,7 @@ win
 let
 recipes
 ;
-let
+const
 recipeMap
 =
 this
@@ -1217,6 +1216,14 @@ recipes
 ;
 }
 }
+if
+(
+!
+Cu
+.
+isInAutomation
+)
+{
 log
 .
 warn
@@ -1236,6 +1243,7 @@ for
 aHost
 )
 ;
+}
 recipes
 =
 Services
