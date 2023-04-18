@@ -3821,11 +3821,6 @@ setStorage
 items
 )
 {
-await
-removeAllRecords
-(
-)
-;
 for
 (
 let
