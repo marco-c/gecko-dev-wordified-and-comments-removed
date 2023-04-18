@@ -226,11 +226,6 @@ tests
 in
 the
 taskgraph
-python
--
-3
-:
-true
 awsy
 :
 description

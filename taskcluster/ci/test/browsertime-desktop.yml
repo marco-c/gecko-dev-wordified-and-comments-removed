@@ -229,11 +229,6 @@ conditioned
 profile
 =
 settled
-python
--
-3
-:
-true
 browsertime
 -
 tp6

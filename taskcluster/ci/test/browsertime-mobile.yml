@@ -431,11 +431,6 @@ unless
 backstop
 :
 null
-python
--
-3
-:
-true
 limit
 -
 platforms

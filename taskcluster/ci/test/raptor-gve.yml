@@ -211,11 +211,6 @@ unless
 backstop
 :
 null
-python
--
-3
-:
-true
 raptor
 -
 speedometer

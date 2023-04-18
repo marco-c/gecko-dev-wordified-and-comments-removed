@@ -340,11 +340,6 @@ default
 :
 [
 ]
-python
--
-3
-:
-true
 variants
 :
 [

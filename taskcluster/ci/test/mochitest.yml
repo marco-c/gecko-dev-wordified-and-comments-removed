@@ -279,11 +279,6 @@ unittests
 win_unittest
 .
 py
-python
--
-3
-:
-true
 mochitest
 -
 plain

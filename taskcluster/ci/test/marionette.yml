@@ -280,11 +280,6 @@ hardware
 default
 :
 virtual
-python
--
-3
-:
-true
 marionette
 :
 description

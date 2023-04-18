@@ -76,11 +76,6 @@ tests
 in
 the
 taskgraph
-python
--
-3
-:
-true
 geckoview
 -
 junit
