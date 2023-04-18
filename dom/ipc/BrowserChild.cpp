@@ -953,6 +953,13 @@ h
 #
 include
 "
+nsIScreenManager
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h
