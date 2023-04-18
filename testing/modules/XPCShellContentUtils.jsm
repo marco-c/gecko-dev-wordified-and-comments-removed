@@ -122,11 +122,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ContentTask
 :
@@ -195,7 +201,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 proxyService
 :
@@ -1127,6 +1133,8 @@ data
 )
 {
 return
+lazy
+.
 MessageChannel
 .
 sendMessage
@@ -1305,6 +1313,8 @@ task
 )
 {
 return
+lazy
+.
 ContentTask
 .
 spawn
@@ -1376,6 +1386,8 @@ windowlessBrowser
 null
 ;
 await
+lazy
+.
 TestUtils
 .
 topicObserved
@@ -1586,6 +1598,8 @@ let
 server
 =
 new
+lazy
+.
 HttpServer
 (
 )
@@ -1654,6 +1668,8 @@ proxyFilter
 {
 proxyInfo
 :
+lazy
+.
 proxyService
 .
 newProxyInfo
@@ -1715,6 +1731,8 @@ defaultProxyInfo
 }
 }
 ;
+lazy
+.
 proxyService
 .
 registerChannelFilter
@@ -1734,6 +1752,8 @@ registerCleanupFunction
 =
 >
 {
+lazy
+.
 proxyService
 .
 unregisterChannelFilter
@@ -1952,6 +1972,8 @@ undefined
 }
 )
 {
+lazy
+.
 ContentTask
 .
 setTestScope
