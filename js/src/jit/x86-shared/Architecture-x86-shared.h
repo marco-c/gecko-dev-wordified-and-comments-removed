@@ -104,13 +104,6 @@ NUNBOX32_PAYLOAD_OFFSET
 =
 0
 ;
-static
-const
-uint32_t
-BAILOUT_TABLE_ENTRY_SIZE
-=
-5
-;
 #
 endif
 #

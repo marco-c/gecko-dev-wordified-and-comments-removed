@@ -164,11 +164,6 @@ SnapshotOffset
 =
 uint32_t
 ;
-using
-BailoutId
-=
-uint32_t
-;
 static
 const
 uint32_t

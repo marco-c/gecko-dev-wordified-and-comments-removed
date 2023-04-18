@@ -1639,10 +1639,6 @@ recoverInfo
 *
 BOX_PIECES
 )
-bailoutId_
-(
-INVALID_BAILOUT_ID
-)
 bailoutKind_
 (
 kind
