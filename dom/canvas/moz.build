@@ -503,6 +503,11 @@ OffscreenCanvasRenderingContext2D
 .
 cpp
 "
+"
+SourceSurfaceWebgl
+.
+cpp
+"
 ]
 UNIFIED_SOURCES
 +
