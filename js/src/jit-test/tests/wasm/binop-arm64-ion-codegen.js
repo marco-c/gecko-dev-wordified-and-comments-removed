@@ -2304,12 +2304,12 @@ xzr
 fcmp
 d0
 d2
-1e63bc20
+1e633c20
 fcsel
 d0
 d1
 d3
-lt
+lo
 )
 codegenTestARM64_adhoc
 (
