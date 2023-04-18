@@ -9367,6 +9367,12 @@ SizeTo
 ;
 if
 (
+!
+IsWin10OrLater
+(
+)
+&
+&
 aAppearance
 =
 =
@@ -9432,7 +9438,7 @@ WinUtils
 :
 GetSystemMetricsForDpi
 (
-SM_CXFRAME
+SM_CYFRAME
 dpi
 )
 +
@@ -9455,7 +9461,7 @@ top
 =
 GetSystemMetrics
 (
-SM_CXFRAME
+SM_CYFRAME
 )
 +
 GetSystemMetrics
