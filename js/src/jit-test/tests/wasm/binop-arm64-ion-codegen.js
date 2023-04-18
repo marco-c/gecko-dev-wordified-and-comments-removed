@@ -2296,10 +2296,11 @@ c
 '
 f
 '
-9e6703e0
-fmov
+2f00e400
+movi
 d0
-xzr
+#
+0x0
 1e622000
 fcmp
 d0
