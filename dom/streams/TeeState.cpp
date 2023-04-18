@@ -109,9 +109,6 @@ TeeState
 :
 TeeState
 (
-JSContext
-*
-aCx
 ReadableStream
 *
 aStream
@@ -178,9 +175,6 @@ TeeState
 :
 Create
 (
-JSContext
-*
-aCx
 ReadableStream
 *
 aStream
@@ -200,7 +194,6 @@ teeState
 new
 TeeState
 (
-aCx
 aStream
 aCloneForBranch2
 )
