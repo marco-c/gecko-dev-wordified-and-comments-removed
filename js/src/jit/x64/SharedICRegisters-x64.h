@@ -46,7 +46,7 @@ constexpr
 Register
 BaselineFrameReg
 =
-rbp
+FramePointer
 ;
 static
 constexpr
