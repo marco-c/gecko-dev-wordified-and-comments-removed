@@ -43,7 +43,6 @@ crate
 :
 :
 {
-align_to
 command
 :
 :
@@ -101,9 +100,15 @@ use
 hal
 :
 :
+{
+auxil
+:
+:
+align_to
 CommandEncoder
 as
 _
+}
 ;
 use
 thiserror

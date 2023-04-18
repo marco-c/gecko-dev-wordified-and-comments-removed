@@ -9,7 +9,7 @@ Span
 ;
 pub
 fn
-map_storage_class
+map_address_space
 (
 word
 :
@@ -26,7 +26,7 @@ Result
 crate
 :
 :
-StorageClass
+AddressSpace
 Error
 <
 '
@@ -47,7 +47,7 @@ Ok
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Private
@@ -62,7 +62,7 @@ Ok
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 WorkGroup
@@ -77,7 +77,7 @@ Ok
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Uniform
@@ -92,7 +92,7 @@ Ok
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Storage
@@ -120,7 +120,7 @@ Ok
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 PushConstant
@@ -135,7 +135,7 @@ Ok
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Function
@@ -148,7 +148,7 @@ Err
 Error
 :
 :
-UnknownStorageClass
+UnknownAddressSpace
 (
 span
 )
@@ -1896,7 +1896,7 @@ Mf
 :
 InsertBits
 "
-findLsb
+firstTrailingBit
 "
 =
 >
@@ -1905,7 +1905,7 @@ Mf
 :
 FindLsb
 "
-findMsb
+firstLeadingBit
 "
 =
 >

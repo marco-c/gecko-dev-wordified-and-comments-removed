@@ -1360,7 +1360,7 @@ Uint
 width
 :
 4
-pointer_class
+pointer_space
 :
 None
 }
@@ -1414,7 +1414,7 @@ Float
 width
 :
 4
-pointer_class
+pointer_space
 :
 None
 }
@@ -1479,7 +1479,7 @@ Float
 width
 :
 4
-pointer_class
+pointer_space
 :
 Some
 (
@@ -1607,7 +1607,7 @@ Bool
 width
 :
 1
-pointer_class
+pointer_space
 :
 None
 }
@@ -3172,13 +3172,13 @@ clone
 if
 var
 .
-class
+space
 =
 =
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Handle
@@ -3262,7 +3262,7 @@ map_storage_class
 (
 var
 .
-class
+space
 )
 ;
 let
@@ -4395,7 +4395,7 @@ vector_size
 None
 kind
 width
-pointer_class
+pointer_space
 :
 None
 }
@@ -4422,7 +4422,7 @@ size
 )
 kind
 width
-pointer_class
+pointer_space
 :
 None
 }
@@ -4451,7 +4451,7 @@ vector_size
 None
 kind
 width
-pointer_class
+pointer_space
 :
 None
 }
@@ -4513,7 +4513,7 @@ ScalarKind
 :
 Float
 width
-pointer_class
+pointer_space
 :
 None
 }
@@ -4575,7 +4575,7 @@ Value
 vector_size
 kind
 width
-pointer_class
+pointer_space
 :
 Some
 (
@@ -4605,7 +4605,7 @@ Value
 vector_size
 kind
 width
-pointer_class
+pointer_space
 :
 None
 }
@@ -4651,7 +4651,7 @@ sampled_type
 width
 :
 4
-pointer_class
+pointer_space
 :
 None
 }
@@ -6048,7 +6048,7 @@ scalar_kind
 (
 )
 width
-pointer_class
+pointer_space
 :
 None
 }
@@ -7333,7 +7333,7 @@ map_storage_class
 (
 global_variable
 .
-class
+space
 )
 ;
 if
@@ -7385,12 +7385,12 @@ storage_access
 match
 global_variable
 .
-class
+space
 {
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Storage
@@ -7738,7 +7738,7 @@ let
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Storage
@@ -7749,7 +7749,7 @@ Storage
 =
 global_variable
 .
-class
+space
 {
 self
 .
@@ -8105,12 +8105,12 @@ var
 match
 var
 .
-class
+space
 {
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Storage

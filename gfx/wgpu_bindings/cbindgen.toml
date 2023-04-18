@@ -458,3 +458,12 @@ android
 "
 ANDROID
 "
+"
+feature
+=
+id32
+"
+=
+"
+WGPU_FEATURE_ID32
+"

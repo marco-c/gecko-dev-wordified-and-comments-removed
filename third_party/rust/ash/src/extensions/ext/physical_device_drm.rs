@@ -106,6 +106,7 @@ props
 props_drm
 }
 pub
+const
 fn
 name
 (

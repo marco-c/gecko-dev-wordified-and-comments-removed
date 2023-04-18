@@ -1,8 +1,8 @@
 use
-super
+crate
 :
 :
-conv
+auxil
 ;
 use
 std
@@ -112,6 +112,12 @@ self
 dimension
 format
 :
+auxil
+:
+:
+dxgi
+:
+:
 conv
 :
 :
@@ -122,6 +128,12 @@ self
 format
 )
 format_nodepth
+:
+auxil
+:
+:
+dxgi
+:
 :
 conv
 :
