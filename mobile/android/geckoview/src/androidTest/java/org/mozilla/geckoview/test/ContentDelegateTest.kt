@@ -219,9 +219,7 @@ titleChange
 (
 )
 {
-sessionRule
-.
-session
+mainSession
 .
 loadTestPath
 (
@@ -297,9 +295,7 @@ equalTo
 true
 )
 )
-sessionRule
-.
-session
+mainSession
 .
 loadTestPath
 (
@@ -2467,9 +2463,7 @@ not
 complete
 .
 "
-sessionRule
-.
-session
+mainSession
 .
 evaluateJS
 (
@@ -2553,9 +2547,7 @@ not
 complete
 .
 "
-sessionRule
-.
-session
+mainSession
 .
 evaluateJS
 (
@@ -2699,9 +2691,7 @@ did
 complete
 .
 "
-sessionRule
-.
-session
+mainSession
 .
 evaluateJS
 (
@@ -2834,9 +2824,7 @@ not
 complete
 .
 "
-sessionRule
-.
-session
+mainSession
 .
 evaluateJS
 (
@@ -2968,9 +2956,7 @@ did
 complete
 .
 "
-sessionRule
-.
-session
+mainSession
 .
 evaluateJS
 (
@@ -3131,9 +3117,7 @@ not
 complete
 .
 "
-sessionRule
-.
-session
+mainSession
 .
 evaluateJS
 (

@@ -455,9 +455,7 @@ setVerticalClipping
 (
 45
 )
-sessionRule
-.
-session
+mainSession
 .
 loadTestPath
 (

@@ -407,9 +407,7 @@ actions
 )
 )
 ;
-sessionRule
-.
-session
+mainSession
 .
 webExtensionController
 .
@@ -588,9 +586,7 @@ action
 }
 }
 )
-sessionRule
-.
-session
+mainSession
 .
 loadUri
 (
@@ -1110,9 +1106,7 @@ class
 delegate
 -
 >
-sessionRule
-.
-session
+mainSession
 .
 webExtensionController
 .
@@ -1125,9 +1119,7 @@ delegate
 )
 }
 {
-sessionRule
-.
-session
+mainSession
 .
 webExtensionController
 .
@@ -3323,9 +3315,7 @@ Void
 >
 (
 )
-sessionRule
-.
-session
+mainSession
 .
 webExtensionController
 .
@@ -3401,9 +3391,7 @@ openPopup
 needs
 user
 activation
-sessionRule
-.
-session
+mainSession
 .
 synthesizeTap
 (

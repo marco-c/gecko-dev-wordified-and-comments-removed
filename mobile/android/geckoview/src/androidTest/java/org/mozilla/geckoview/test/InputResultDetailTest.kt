@@ -165,9 +165,7 @@ documentPath
 String
 )
 {
-sessionRule
-.
-session
+mainSession
 .
 loadTestPath
 (
@@ -201,9 +199,7 @@ GeckoSession
 }
 }
 )
-sessionRule
-.
-session
+mainSession
 .
 flushApzRepaints
 (
@@ -1087,9 +1083,7 @@ true
 )
 )
 ;
-sessionRule
-.
-session
+mainSession
 .
 flushApzRepaints
 (
