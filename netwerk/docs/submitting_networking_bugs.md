@@ -986,8 +986,7 @@ com
 -
 Use
 the
-Firefox
-platform
+Networking
 preset
 and
 click
