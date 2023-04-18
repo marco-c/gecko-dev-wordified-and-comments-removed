@@ -102,14 +102,6 @@ pref
 /
 "
 "
-resource
-:
-/
-/
-payments
-/
-"
-"
 chrome
 :
 /
