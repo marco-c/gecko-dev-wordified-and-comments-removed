@@ -772,6 +772,8 @@ uint8_t
 videoFrame
 size_t
 videoFrameLength
+size_t
+widthWithPadding
 const
 VideoCaptureCapability
 &
