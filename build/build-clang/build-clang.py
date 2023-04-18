@@ -1564,13 +1564,6 @@ cmake_args
                 
 "
 -
-DLLVM_FORCE_BUILD_RUNTIME
-=
-ON
-"
-                
-"
--
 DLLVM_TOOL_LIBCXX_BUILD
 =
 %
@@ -1628,10 +1621,6 @@ cmake_args
 DLLVM_ENABLE_PROJECTS
 =
 clang
-;
-compiler
--
-rt
 "
                 
 "
@@ -1644,34 +1633,6 @@ OFF
 "
 -
 DLLVM_TOOL_LLI_BUILD
-=
-OFF
-"
-                
-"
--
-DCOMPILER_RT_BUILD_SANITIZERS
-=
-OFF
-"
-                
-"
--
-DCOMPILER_RT_BUILD_XRAY
-=
-OFF
-"
-                
-"
--
-DCOMPILER_RT_BUILD_MEMPROF
-=
-OFF
-"
-                
-"
--
-DCOMPILER_RT_BUILD_LIBFUZZER
 =
 OFF
 "
@@ -3390,17 +3351,6 @@ source_dir
 lld
 "
     
-compiler_rt_source_dir
-=
-source_dir
-+
-"
-/
-compiler
--
-rt
-"
-    
 libcxx_source_dir
 =
 source_dir
@@ -4490,19 +4440,6 @@ p
 source_dir
 )
     
-compiler_rt_source_link
-=
-llvm_source_dir
-+
-"
-/
-projects
-/
-compiler
--
-rt
-"
-    
 symlinks
 =
 [
@@ -4545,11 +4482,6 @@ tools
 /
 lld
 "
-)
-        
-(
-compiler_rt_source_dir
-compiler_rt_source_link
 )
         
 (
