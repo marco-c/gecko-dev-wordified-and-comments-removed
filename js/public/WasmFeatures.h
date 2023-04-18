@@ -129,6 +129,7 @@ define
 JS_FOR_WASM_FEATURES
 (
 DEFAULT
+TENTATIVE
 EXPERIMENTAL
 )
 \
@@ -583,7 +584,7 @@ relaxed_simd
 "
 )
 \
-DEFAULT
+TENTATIVE
 (
 /
 *
