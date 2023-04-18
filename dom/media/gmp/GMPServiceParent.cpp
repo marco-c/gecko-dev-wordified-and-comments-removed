@@ -307,15 +307,6 @@ h
 "
 #
 endif
-using
-mozilla
-:
-:
-ipc
-:
-:
-Transport
-;
 namespace
 mozilla
 :

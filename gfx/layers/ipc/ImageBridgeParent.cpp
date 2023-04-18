@@ -102,17 +102,6 @@ include
 "
 mozilla
 /
-ipc
-/
-Transport
-.
-h
-"
-#
-include
-"
-mozilla
-/
 media
 /
 MediaSystemResourceManagerParent
