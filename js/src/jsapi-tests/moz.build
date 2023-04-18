@@ -85,6 +85,11 @@ testAtomizeUtf8NonAsciiLatin1CodePoint
 cpp
 "
 "
+testAtomizeWithoutActiveZone
+.
+cpp
+"
+"
 testBigInt
 .
 cpp
