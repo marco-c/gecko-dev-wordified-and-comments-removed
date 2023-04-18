@@ -1262,6 +1262,11 @@ new
 (
 )
 .
+len
+(
+size
+)
+.
 map_mut
 (
 &
@@ -1394,6 +1399,11 @@ MmapOptions
 :
 new
 (
+)
+.
+len
+(
+size
 )
 .
 map_mut
