@@ -23,6 +23,8 @@ Exception
 :
     
 "
+"
+"
 Base
 exception
 used
@@ -30,6 +32,8 @@ by
 this
 module
 .
+"
+"
 "
     
 pass
@@ -41,6 +45,8 @@ Warning
 :
     
 "
+"
+"
 Base
 warning
 used
@@ -48,6 +54,8 @@ by
 this
 module
 .
+"
+"
 "
     
 pass
@@ -59,6 +67,8 @@ HTTPError
 :
     
 "
+"
+"
 Base
 exception
 for
@@ -68,6 +78,8 @@ within
 a
 pool
 .
+"
+"
 "
     
 def
@@ -127,6 +139,8 @@ PoolError
 :
     
 "
+"
+"
 Base
 exception
 for
@@ -136,6 +150,8 @@ have
 associated
 URLs
 .
+"
+"
 "
     
 def
@@ -189,6 +205,8 @@ HTTPError
 :
     
 "
+"
+"
 Raised
 when
 SSL
@@ -200,6 +218,8 @@ HTTPS
 connection
 .
 "
+"
+"
     
 pass
 class
@@ -210,6 +230,8 @@ HTTPError
 :
     
 "
+"
+"
 Raised
 when
 the
@@ -219,6 +241,8 @@ a
 proxy
 fails
 .
+"
+"
 "
     
 def
@@ -259,6 +283,8 @@ HTTPError
 :
     
 "
+"
+"
 Raised
 when
 automatic
@@ -271,6 +297,8 @@ Type
 fails
 .
 "
+"
+"
     
 pass
 class
@@ -280,6 +308,8 @@ HTTPError
 )
 :
     
+"
+"
 "
 Raised
 when
@@ -292,6 +322,8 @@ request
 /
 response
 .
+"
+"
 "
     
 pass
@@ -424,6 +456,8 @@ RequestError
 :
     
 "
+"
+"
 Raised
 when
 an
@@ -437,6 +471,8 @@ a
 foreign
 host
 .
+"
+"
 "
     
 def
@@ -565,6 +601,8 @@ RequestError
 :
     
 "
+"
+"
 Raised
 when
 a
@@ -578,6 +616,8 @@ from
 a
 server
 "
+"
+"
     
 pass
 class
@@ -587,6 +627,8 @@ TimeoutError
 )
 :
     
+"
+"
 "
 Raised
 when
@@ -600,6 +642,8 @@ to
 a
 server
 "
+"
+"
     
 pass
 class
@@ -610,6 +654,8 @@ PoolError
 )
 :
     
+"
+"
 "
 Raised
 when
@@ -625,6 +671,8 @@ Usually
 ECONNREFUSED
 .
 "
+"
+"
     
 pass
 class
@@ -634,6 +682,8 @@ PoolError
 )
 :
     
+"
+"
 "
 Raised
 when
@@ -650,6 +700,8 @@ are
 allowed
 .
 "
+"
+"
     
 pass
 class
@@ -659,6 +711,8 @@ PoolError
 )
 :
     
+"
+"
 "
 Raised
 when
@@ -675,6 +729,8 @@ been
 closed
 .
 "
+"
+"
     
 pass
 class
@@ -685,6 +741,8 @@ HTTPError
 )
 :
     
+"
+"
 "
 Raised
 when
@@ -699,6 +757,8 @@ URL
 input
 .
 "
+"
+"
     
 pass
 class
@@ -708,6 +768,8 @@ LocationValueError
 )
 :
     
+"
+"
 "
 Raised
 when
@@ -721,6 +783,8 @@ the
 URL
 input
 .
+"
+"
 "
     
 def
@@ -758,12 +822,75 @@ location
 =
 location
 class
+URLSchemeUnknown
+(
+LocationValueError
+)
+:
+    
+"
+"
+"
+Raised
+when
+a
+URL
+input
+has
+an
+unsupported
+scheme
+.
+"
+"
+"
+    
+def
+__init__
+(
+self
+scheme
+)
+:
+        
+message
+=
+"
+Not
+supported
+URL
+scheme
+%
+s
+"
+%
+scheme
+        
+super
+(
+URLSchemeUnknown
+self
+)
+.
+__init__
+(
+message
+)
+        
+self
+.
+scheme
+=
+scheme
+class
 ResponseError
 (
 HTTPError
 )
 :
     
+"
+"
 "
 Used
 as
@@ -778,6 +905,8 @@ in
 a
 MaxRetryError
 .
+"
+"
 "
     
 GENERIC_ERROR
@@ -808,12 +937,16 @@ HTTPWarning
 :
     
 "
+"
+"
 Warned
 when
 performing
 security
 reducing
 actions
+"
+"
 "
     
 pass
@@ -824,6 +957,8 @@ SecurityWarning
 )
 :
     
+"
+"
 "
 Warned
 when
@@ -839,6 +974,8 @@ a
 SAN
 .
 "
+"
+"
     
 pass
 class
@@ -849,6 +986,8 @@ SecurityWarning
 :
     
 "
+"
+"
 Warned
 when
 making
@@ -857,6 +996,8 @@ unverified
 HTTPS
 request
 .
+"
+"
 "
     
 pass
@@ -868,6 +1009,8 @@ SecurityWarning
 :
     
 "
+"
+"
 Warned
 when
 system
@@ -877,6 +1020,8 @@ suspected
 to
 be
 wrong
+"
+"
 "
     
 pass
@@ -888,9 +1033,13 @@ SecurityWarning
 :
     
 "
+"
+"
 Warned
 when
 certain
+TLS
+/
 SSL
 configuration
 is
@@ -900,6 +1049,8 @@ on
 a
 platform
 .
+"
+"
 "
     
 pass
@@ -911,6 +1062,8 @@ HTTPWarning
 :
     
 "
+"
+"
 Warned
 when
 making
@@ -921,6 +1074,8 @@ without
 SNI
 available
 .
+"
+"
 "
     
 pass
@@ -958,97 +1113,6 @@ dependencies
     
 pass
 class
-InvalidProxyConfigurationWarning
-(
-HTTPWarning
-)
-:
-    
-"
-"
-"
-    
-Warned
-when
-using
-an
-HTTPS
-proxy
-and
-an
-HTTPS
-URL
-.
-Currently
-    
-urllib3
-doesn
-'
-t
-support
-HTTPS
-proxies
-and
-the
-proxy
-will
-be
-    
-contacted
-via
-HTTP
-instead
-.
-This
-warning
-can
-be
-fixed
-by
-    
-changing
-your
-HTTPS
-proxy
-URL
-into
-an
-HTTP
-proxy
-URL
-.
-    
-If
-you
-encounter
-this
-warning
-read
-this
-:
-    
-https
-:
-/
-/
-github
-.
-com
-/
-urllib3
-/
-urllib3
-/
-issues
-/
-1850
-    
-"
-"
-"
-    
-pass
-class
 ResponseNotChunked
 (
 ProtocolError
@@ -1056,6 +1120,8 @@ ValueError
 )
 :
     
+"
+"
 "
 Response
 needs
@@ -1070,6 +1136,8 @@ it
 as
 chunks
 .
+"
+"
 "
     
 pass
@@ -1087,17 +1155,22 @@ HTTPError
 Body
 should
 be
-httplib
+:
+class
+:
+http
+.
+client
 .
 HTTPResponse
 like
+    
 (
 have
 an
 fp
 attribute
 which
-    
 returns
 raw
 chunks
@@ -1138,7 +1211,12 @@ Length
     
 Subclass
 of
-http_client
+:
+class
+:
+http
+.
+client
 .
 IncompleteRead
 to
@@ -1155,7 +1233,6 @@ large
 objects
 on
 streamed
-    
 reads
 .
     
@@ -1218,12 +1295,111 @@ expected
         
 )
 class
+InvalidChunkLength
+(
+HTTPError
+httplib_IncompleteRead
+)
+:
+    
+"
+"
+"
+Invalid
+chunk
+length
+in
+a
+chunked
+response
+.
+"
+"
+"
+    
+def
+__init__
+(
+self
+response
+length
+)
+:
+        
+super
+(
+InvalidChunkLength
+self
+)
+.
+__init__
+(
+            
+response
+.
+tell
+(
+)
+response
+.
+length_remaining
+        
+)
+        
+self
+.
+response
+=
+response
+        
+self
+.
+length
+=
+length
+    
+def
+__repr__
+(
+self
+)
+:
+        
+return
+"
+InvalidChunkLength
+(
+got
+length
+%
+r
+%
+i
+bytes
+read
+)
+"
+%
+(
+            
+self
+.
+length
+            
+self
+.
+partial
+        
+)
+class
 InvalidHeader
 (
 HTTPError
 )
 :
     
+"
+"
 "
 The
 header
@@ -1233,16 +1409,20 @@ somehow
 invalid
 .
 "
+"
+"
     
 pass
 class
 ProxySchemeUnknown
 (
 AssertionError
-ValueError
+URLSchemeUnknown
 )
 :
     
+"
+"
 "
 ProxyManager
 does
@@ -1251,6 +1431,8 @@ support
 the
 supplied
 scheme
+"
+"
 "
     
 def
@@ -1285,12 +1467,37 @@ __init__
 message
 )
 class
+ProxySchemeUnsupported
+(
+ValueError
+)
+:
+    
+"
+"
+"
+Fetching
+HTTPS
+resources
+through
+HTTPS
+proxies
+is
+unsupported
+"
+"
+"
+    
+pass
+class
 HeaderParsingError
 (
 HTTPError
 )
 :
     
+"
+"
 "
 Raised
 by
@@ -1306,6 +1513,8 @@ log
 warning
 statement
 .
+"
+"
 "
     
 def
@@ -1356,6 +1565,8 @@ HTTPError
 :
     
 "
+"
+"
 urllib3
 encountered
 an
@@ -1366,6 +1577,8 @@ to
 rewind
 a
 body
+"
+"
 "
     
 pass

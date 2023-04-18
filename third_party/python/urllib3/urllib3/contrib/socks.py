@@ -144,13 +144,12 @@ for
 the
 SOCKS
 proxy
- 
 .
 .
 note
 :
 :
-    
+   
 It
 is
 recommended
@@ -167,7 +166,7 @@ socks4a
 /
 schemes
 in
-    
+   
 your
 proxy_url
 to
@@ -180,7 +179,7 @@ done
 from
 the
 remote
-    
+   
 server
 instead
 of
@@ -237,7 +236,14 @@ the
 SOCKS
 request
 :
+.
+.
+code
+-
+block
 :
+:
+python
     
 proxy_url
 =
@@ -281,7 +287,14 @@ with
 the
 proxy
 :
+.
+.
+code
+-
+block
 :
+:
+python
     
 proxy_url
 =
@@ -395,6 +408,9 @@ import
 error
 as
 SocketError
+from
+socket
+import
 timeout
 as
 SocketTimeout
