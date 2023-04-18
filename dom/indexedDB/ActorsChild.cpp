@@ -5870,6 +5870,7 @@ PBackgroundIDBFactoryRequestChild
 *
 aRequest
 )
+const
 {
 AssertIsOnOwningThread
 (
@@ -7621,6 +7622,7 @@ PBackgroundIDBDatabaseFileChild
 *
 aActor
 )
+const
 {
 AssertIsOnOwningThread
 (
@@ -8066,6 +8068,7 @@ nsString
 &
 aType
 )
+const
 {
 AssertIsOnOwningThread
 (
@@ -9963,6 +9966,7 @@ PBackgroundFileHandleChild
 *
 aActor
 )
+const
 {
 AssertIsOnOwningThread
 (

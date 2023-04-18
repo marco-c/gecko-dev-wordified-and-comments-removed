@@ -421,6 +421,7 @@ nsIFile
 &
 aJournalFile
 )
+const
 ;
 [
 [

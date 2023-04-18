@@ -2549,6 +2549,7 @@ nsAString
 &
 aName
 )
+const
 {
 AssertIsOnOwningThread
 (
@@ -2620,6 +2621,7 @@ IndexMetadata
 &
 aMetadata
 )
+const
 {
 AssertIsOnOwningThread
 (
@@ -2698,6 +2700,7 @@ const
 int64_t
 aIndexId
 )
+const
 {
 AssertIsOnOwningThread
 (
@@ -2776,6 +2779,7 @@ nsAString
 &
 aName
 )
+const
 {
 AssertIsOnOwningThread
 (

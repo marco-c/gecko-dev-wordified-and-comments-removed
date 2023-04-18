@@ -892,6 +892,7 @@ nsAString
 &
 aName
 )
+const
 ;
 void
 CreateIndex
@@ -907,6 +908,7 @@ IndexMetadata
 &
 aMetadata
 )
+const
 ;
 void
 DeleteIndex
@@ -917,6 +919,7 @@ aObjectStore
 int64_t
 aIndexId
 )
+const
 ;
 void
 RenameIndex
@@ -931,6 +934,7 @@ nsAString
 &
 aName
 )
+const
 ;
 void
 Abort

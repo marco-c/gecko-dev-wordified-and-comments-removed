@@ -765,6 +765,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 bool
 CheckStateAndArgumentsForRead

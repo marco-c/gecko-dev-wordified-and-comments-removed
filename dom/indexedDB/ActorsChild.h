@@ -459,6 +459,7 @@ PBackgroundIDBFactoryRequestChild
 *
 aRequest
 )
+const
 ;
 bool
 DeallocPBackgroundIDBDatabaseChild
@@ -901,6 +902,7 @@ PBackgroundIDBDatabaseFileChild
 *
 aActor
 )
+const
 ;
 PBackgroundIDBDatabaseRequestChild
 *
@@ -980,6 +982,7 @@ nsString
 &
 aType
 )
+const
 ;
 bool
 DeallocPBackgroundMutableFileChild
@@ -1607,6 +1610,7 @@ PBackgroundFileHandleChild
 *
 aActor
 )
+const
 ;
 }
 ;
