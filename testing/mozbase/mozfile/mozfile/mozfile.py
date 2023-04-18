@@ -1265,7 +1265,7 @@ os
 .
 path
 .
-exists
+lexists
 (
 path
 )
