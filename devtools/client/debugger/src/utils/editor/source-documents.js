@@ -648,6 +648,7 @@ text
 isMinified
 (
 source
+content
 )
 &
 &

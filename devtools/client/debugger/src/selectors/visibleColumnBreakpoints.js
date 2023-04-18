@@ -12,16 +12,15 @@ import
 getViewport
 getSource
 getSelectedSource
-getSelectedSourceWithContent
+getSelectedSourceTextContent
 getBreakpointPositions
 getBreakpointPositionsForSource
 }
 from
 "
 .
-.
 /
-selectors
+index
 "
 ;
 import
@@ -604,6 +603,7 @@ positions
 breakpoints
 viewport
 selectedSource
+selectedSourceTextContent
 )
 {
 if
@@ -653,9 +653,7 @@ filterInLine
 (
 positions
 selectedSource
-selectedSource
-.
-content
+selectedSourceTextContent
 )
 ;
 positions
@@ -740,7 +738,8 @@ createSelector
 getVisibleBreakpointPositions
 getVisibleBreakpoints
 getViewport
-getSelectedSourceWithContent
+getSelectedSource
+getSelectedSourceTextContent
 getColumnBreakpoints
 )
 ;

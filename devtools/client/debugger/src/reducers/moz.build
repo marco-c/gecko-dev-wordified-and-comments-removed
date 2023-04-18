@@ -167,6 +167,13 @@ sources
 js
 "
 "
+sources
+-
+content
+.
+js
+"
+"
 tabs
 .
 js

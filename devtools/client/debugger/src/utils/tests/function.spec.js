@@ -108,6 +108,9 @@ findFunctionText
 (
 14
 source
+source
+.
+content
 symbols
 )
 ;
@@ -162,6 +165,9 @@ findFunctionText
 (
 13
 source
+source
+.
+content
 symbols
 )
 ;
@@ -217,6 +223,9 @@ findFunctionText
 (
 15
 source
+source
+.
+content
 symbols
 )
 ;
@@ -272,6 +281,9 @@ findFunctionText
 (
 29
 source
+source
+.
+content
 symbols
 )
 ;
@@ -326,6 +338,9 @@ findFunctionText
 (
 33
 source
+source
+.
+content
 symbols
 )
 ;
@@ -380,6 +395,9 @@ findFunctionText
 (
 20
 source
+source
+.
+content
 symbols
 )
 ;

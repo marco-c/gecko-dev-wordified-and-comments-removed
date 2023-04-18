@@ -71,6 +71,9 @@ expect
 isMinified
 (
 sourceWithContent
+sourceWithContent
+.
+content
 )
 )
 .

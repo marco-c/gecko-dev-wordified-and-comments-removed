@@ -334,7 +334,7 @@ dbg
 .
 selectors
 .
-getSelectedSourceWithContent
+getSelectedSource
 (
 )
 ;

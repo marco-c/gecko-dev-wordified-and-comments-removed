@@ -8,9 +8,6 @@ getBlackBoxRanges
 from
 "
 .
-.
-/
-selectors
 /
 sources
 "

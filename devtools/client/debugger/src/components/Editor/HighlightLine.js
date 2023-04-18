@@ -69,7 +69,7 @@ import
 {
 getVisibleSelectedFrame
 getSelectedLocation
-getSelectedSourceWithContent
+getSelectedSourceTextContent
 getPauseCommand
 getCurrentThread
 }
@@ -130,8 +130,8 @@ line
 function
 isDocumentReady
 (
-selectedSource
 selectedLocation
+selectedSourceTextContent
 )
 {
 return
@@ -139,12 +139,7 @@ return
 selectedLocation
 &
 &
-selectedSource
-&
-&
-selectedSource
-.
-content
+selectedSourceTextContent
 &
 &
 hasDocument
@@ -178,7 +173,7 @@ nextProps
 const
 {
 selectedLocation
-selectedSource
+selectedSourceTextContent
 }
 =
 nextProps
@@ -189,7 +184,7 @@ this
 shouldSetHighlightLine
 (
 selectedLocation
-selectedSource
+selectedSourceTextContent
 )
 ;
 }
@@ -221,7 +216,7 @@ null
 shouldSetHighlightLine
 (
 selectedLocation
-selectedSource
+selectedSourceTextContent
 )
 {
 const
@@ -246,8 +241,8 @@ if
 !
 isDocumentReady
 (
-selectedSource
 selectedLocation
+selectedSourceTextContent
 )
 )
 {
@@ -289,7 +284,7 @@ const
 pauseCommand
 selectedLocation
 selectedFrame
-selectedSource
+selectedSourceTextContent
 }
 =
 this
@@ -326,7 +321,7 @@ prevProps
 selectedLocation
 prevProps
 .
-selectedSource
+selectedSourceTextContent
 )
 ;
 }
@@ -336,7 +331,7 @@ setHighlightLine
 (
 selectedLocation
 selectedFrame
-selectedSource
+selectedSourceTextContent
 )
 ;
 endOperation
@@ -348,7 +343,7 @@ setHighlightLine
 (
 selectedLocation
 selectedFrame
-selectedSource
+selectedSourceTextContent
 )
 {
 const
@@ -367,7 +362,7 @@ this
 shouldSetHighlightLine
 (
 selectedLocation
-selectedSource
+selectedSourceTextContent
 )
 )
 {
@@ -531,7 +526,7 @@ duration
 clearHighlightLine
 (
 selectedLocation
-selectedSource
+selectedSourceTextContent
 )
 {
 if
@@ -539,8 +534,8 @@ if
 !
 isDocumentReady
 (
-selectedSource
 selectedLocation
+selectedSourceTextContent
 )
 )
 {
@@ -651,9 +646,9 @@ getVisibleSelectedFrame
 state
 )
 selectedLocation
-selectedSource
+selectedSourceTextContent
 :
-getSelectedSourceWithContent
+getSelectedSourceTextContent
 (
 state
 )

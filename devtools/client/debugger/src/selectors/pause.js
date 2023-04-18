@@ -20,9 +20,6 @@ getSelectedLocation
 from
 "
 .
-.
-/
-selectors
 /
 sources
 "

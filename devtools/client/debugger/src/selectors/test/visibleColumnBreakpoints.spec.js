@@ -258,6 +258,9 @@ pausePoints
 breakpoints
 viewport
 source
+source
+.
+content
 )
 ;
 expect
@@ -351,6 +354,9 @@ pausePoints
 breakpoints
 viewport
 source
+source
+.
+content
 )
 ;
 expect
@@ -445,6 +451,9 @@ pausePoints
 breakpoints
 viewport
 source
+source
+.
+content
 )
 ;
 expect
@@ -546,6 +555,9 @@ pausePoints
 breakpoints
 viewport
 source
+source
+.
+content
 )
 ;
 expect

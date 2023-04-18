@@ -25,9 +25,6 @@ getSelectedSource
 from
 "
 .
-.
-/
-selectors
 /
 sources
 "
