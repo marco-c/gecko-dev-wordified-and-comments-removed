@@ -36,16 +36,38 @@ test_null
 (
 bidi_session
 current_session
+top_context
 test_page
 type_hint
 )
 :
     
-current_session
+await
+bidi_session
 .
+browsing_context
+.
+navigate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
 url
 =
 test_page
+wait
+=
+"
+complete
+"
+    
+)
     
 current_top_level_context_id
 =
@@ -200,18 +222,41 @@ async
 def
 test_top_level_context
 (
+    
 bidi_session
 current_session
+top_context
 test_page
 type_hint
 )
 :
     
-current_session
+await
+bidi_session
 .
+browsing_context
+.
+navigate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
 url
 =
 test_page
+wait
+=
+"
+complete
+"
+    
+)
     
 other_top_level_context_id
 =
@@ -283,17 +328,40 @@ bidi_session
     
 current_session
     
+top_context
+    
 test_page_same_origin_frame
     
 test_page_nested_frames
 )
 :
     
-current_session
+await
+bidi_session
 .
+browsing_context
+.
+navigate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
 url
 =
 test_page_nested_frames
+wait
+=
+"
+complete
+"
+    
+)
     
 top_level_context_id
 =

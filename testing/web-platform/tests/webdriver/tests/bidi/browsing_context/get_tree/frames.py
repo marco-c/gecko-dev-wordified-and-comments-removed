@@ -21,6 +21,8 @@ bidi_session
     
 current_session
     
+top_context
+    
 test_page
     
 test_page2
@@ -29,11 +31,32 @@ test_page_multiple_frames
 )
 :
     
-current_session
+await
+bidi_session
 .
+browsing_context
+.
+navigate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
 url
 =
 test_page_multiple_frames
+wait
+=
+"
+complete
+"
+    
+)
     
 top_level_context_id
 =
@@ -226,17 +249,40 @@ bidi_session
     
 current_session
     
+top_context
+    
 test_page_cross_origin
     
 test_page_cross_origin_frame
 )
 :
     
-current_session
+await
+bidi_session
 .
+browsing_context
+.
+navigate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
 url
 =
 test_page_cross_origin_frame
+wait
+=
+"
+complete
+"
+    
+)
     
 top_level_context_id
 =

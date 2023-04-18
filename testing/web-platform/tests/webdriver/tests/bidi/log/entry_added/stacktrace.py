@@ -85,9 +85,9 @@ test_console_entry_sync_callstack
 (
 bidi_session
                                             
-current_session
-                                            
 inline
+                                            
+top_context
                                             
 wait_for_event
                                             
@@ -354,11 +354,32 @@ expected_stack
 =
 None
     
-current_session
+await
+bidi_session
 .
+browsing_context
+.
+navigate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
 url
 =
 url
+wait
+=
+"
+complete
+"
+    
+)
     
 event_data
 =
@@ -386,8 +407,22 @@ expected_stack
     
 )
     
-current_session
+await
+bidi_session
 .
+browsing_context
+.
+navigate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
 url
 =
 inline
@@ -398,6 +433,13 @@ p
 >
 foo
 "
+)
+wait
+=
+"
+complete
+"
+    
 )
 pytest
 .
@@ -410,9 +452,9 @@ test_javascript_entry_sync_callstack
 (
 bidi_session
                                                
-current_session
-                                               
 inline
+                                               
+top_context
                                                
 wait_for_event
 )
@@ -581,11 +623,32 @@ url
     
 ]
     
-current_session
+await
+bidi_session
 .
+browsing_context
+.
+navigate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
 url
 =
 url
+wait
+=
+"
+complete
+"
+    
+)
     
 event_data
 =
@@ -617,8 +680,22 @@ expected_stack
     
 )
     
-current_session
+await
+bidi_session
 .
+browsing_context
+.
+navigate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
 url
 =
 inline
@@ -629,4 +706,11 @@ p
 >
 foo
 "
+)
+wait
+=
+"
+complete
+"
+    
 )

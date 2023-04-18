@@ -502,8 +502,10 @@ async
 def
 test_navigate_creates_iframes
 (
+    
 bidi_session
 current_session
+top_context
 test_page_multiple_frames
 )
 :
@@ -567,11 +569,32 @@ CONTEXT_CREATED_EVENT
 ]
 )
     
-current_session
+await
+bidi_session
 .
+browsing_context
+.
+navigate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
 url
 =
 test_page_multiple_frames
+wait
+=
+"
+complete
+"
+    
+)
     
 wait
 =
@@ -785,6 +808,7 @@ test_navigate_creates_nested_iframes
     
 bidi_session
 current_session
+top_context
 test_page_nested_frames
 )
 :
@@ -848,11 +872,32 @@ CONTEXT_CREATED_EVENT
 ]
 )
     
-current_session
+await
+bidi_session
 .
+browsing_context
+.
+navigate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
 url
 =
 test_page_nested_frames
+wait
+=
+"
+complete
+"
+    
+)
     
 wait
 =
