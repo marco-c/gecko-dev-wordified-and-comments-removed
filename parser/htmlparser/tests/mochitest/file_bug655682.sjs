@@ -17,16 +17,12 @@ request
 .
 queryString
 .
-indexOf
+includes
 (
 "
 trigger
 "
 )
-!
-=
--
-1
 )
 {
 setState
