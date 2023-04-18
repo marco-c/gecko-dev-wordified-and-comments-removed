@@ -328,14 +328,6 @@ set
 ;
 }
 }
-if
-(
-loopbackAudio
-|
-|
-loopbackVideo
-)
-{
 testPrefs
 .
 push
@@ -354,7 +346,6 @@ true
 ]
 )
 ;
-}
 return
 SpecialPowers
 .
