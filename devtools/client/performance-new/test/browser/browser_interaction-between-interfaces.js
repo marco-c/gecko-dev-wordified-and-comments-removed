@@ -1553,6 +1553,9 @@ Callback
 Tracing
 IPC
 Messages
+Process
+CPU
+Utilization
 )
 ;
 }

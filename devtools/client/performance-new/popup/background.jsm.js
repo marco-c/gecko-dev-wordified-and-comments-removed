@@ -583,6 +583,9 @@ cpu
 "
 java
 "
+"
+processcpu
+"
 ]
 threads
 :
@@ -698,6 +701,9 @@ cpu
 "
 "
 java
+"
+"
+processcpu
 "
 ]
 threads
@@ -825,6 +831,9 @@ audiocallbacktracing
 "
 "
 ipcmessages
+"
+"
+processcpu
 "
 ]
 threads
@@ -990,6 +999,9 @@ cpu
 "
 "
 java
+"
+"
+processcpu
 "
 ]
 threads

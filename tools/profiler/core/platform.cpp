@@ -1187,6 +1187,11 @@ ProfilerFeature
 :
 :
 Screenshots
+|
+ProfilerFeature
+:
+:
+ProcessCPU
 ;
 }
 static

@@ -890,6 +890,11 @@ ProfilerFeature
 :
 :
 CPUUtilization
+|
+ProfilerFeature
+:
+:
+ProcessCPU
 ;
 }
 static
