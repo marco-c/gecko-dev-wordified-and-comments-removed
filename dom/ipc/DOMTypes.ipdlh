@@ -321,6 +321,17 @@ Types
 h
 "
 ;
+using
+TransferableDataType
+from
+"
+ipc
+/
+nsTransferableIPC
+.
+h
+"
+;
 [
 RefCounted
 ]
@@ -602,6 +613,9 @@ flavor
 ;
 IPCDataTransferData
 data
+;
+TransferableDataType
+dataType
 ;
 IPCDataTransferImage
 ?
