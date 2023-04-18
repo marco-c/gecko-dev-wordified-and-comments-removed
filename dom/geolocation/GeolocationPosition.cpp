@@ -471,7 +471,7 @@ double
 aHeading
 double
 aSpeed
-DOMTimeStamp
+EpochTimeStamp
 aTimestamp
 )
 :
@@ -503,7 +503,7 @@ nsGeoPosition
 nsIDOMGeoPositionCoords
 *
 aCoords
-DOMTimeStamp
+EpochTimeStamp
 aTimestamp
 )
 :
@@ -555,7 +555,7 @@ nsGeoPosition
 :
 GetTimestamp
 (
-DOMTimeStamp
+EpochTimeStamp
 *
 aTimestamp
 )

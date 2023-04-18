@@ -150,7 +150,7 @@ double
 aHeading
 double
 aSpeed
-DOMTimeStamp
+EpochTimeStamp
 aTimestamp
 )
 ;
@@ -159,7 +159,7 @@ nsGeoPosition
 nsIDOMGeoPositionCoords
 *
 aCoords
-DOMTimeStamp
+EpochTimeStamp
 aTimestamp
 )
 ;
@@ -170,7 +170,7 @@ nsGeoPosition
 (
 )
 ;
-DOMTimeStamp
+EpochTimeStamp
 mTimestamp
 ;
 RefPtr

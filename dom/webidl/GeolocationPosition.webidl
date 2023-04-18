@@ -156,7 +156,7 @@ coords
 ;
 readonly
 attribute
-DOMTimeStamp
+EpochTimeStamp
 timestamp
 ;
 }

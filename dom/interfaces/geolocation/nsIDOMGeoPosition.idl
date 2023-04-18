@@ -92,7 +92,7 @@ nsISupports
 {
 readonly
 attribute
-DOMTimeStamp
+EpochTimeStamp
 timestamp
 ;
 readonly
