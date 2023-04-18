@@ -33,6 +33,15 @@ include
 "
 mozilla
 /
+StaticPrefs_midi
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
@@ -971,9 +980,6 @@ IsRunning
 )
 )
 {
-ErrorResult
-rv
-;
 gMIDIPlatformService
 =
 new
