@@ -96,6 +96,13 @@ h
 #
 include
 "
+nsContainerFrame
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions

@@ -26,6 +26,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

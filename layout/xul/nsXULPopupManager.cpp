@@ -182,6 +182,13 @@ h
 #
 include
 "
+nsPresContextInlines
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
