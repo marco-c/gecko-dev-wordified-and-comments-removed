@@ -1016,10 +1016,8 @@ argvDstOffset
 )
 ;
 void
-emitPopArguments
+emitRestoreStackPointerFromFP
 (
-Register
-extraStackSize
 )
 ;
 void
