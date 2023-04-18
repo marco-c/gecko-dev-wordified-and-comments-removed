@@ -204,7 +204,11 @@ vp
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 chunkObj
 (
 cx

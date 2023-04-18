@@ -62,7 +62,11 @@ aGlobal
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aTransformer
 Transformer
 &

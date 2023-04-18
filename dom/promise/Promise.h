@@ -257,7 +257,11 @@ aCx
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aPromise
 )
 ;
@@ -1279,7 +1283,13 @@ JSContext
 JS
 :
 :
-HandleValue
+Handle
+<
+JS
+:
+:
+Value
+>
 ErrorResult
 &
 aRv

@@ -365,7 +365,13 @@ SetStoredError
 JS
 :
 :
-HandleValue
+Handle
+<
+JS
+:
+:
+Value
+>
 aStoredError
 )
 {

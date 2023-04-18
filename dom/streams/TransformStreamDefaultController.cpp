@@ -462,7 +462,13 @@ aRv
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 storedError
 (
 aCx
@@ -734,7 +740,11 @@ aStream
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aTransformer
 Transformer
 &

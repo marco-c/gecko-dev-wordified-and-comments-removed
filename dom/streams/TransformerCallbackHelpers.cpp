@@ -220,7 +220,11 @@ aRv
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 thisObj
 (
 aCx
@@ -300,7 +304,11 @@ aRv
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 thisObj
 (
 aCx

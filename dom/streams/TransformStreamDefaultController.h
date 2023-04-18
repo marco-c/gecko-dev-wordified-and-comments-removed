@@ -275,7 +275,11 @@ aStream
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aTransformer
 Transformer
 &

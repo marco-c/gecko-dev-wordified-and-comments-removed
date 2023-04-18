@@ -698,7 +698,11 @@ aStream
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aUnderlyingSource
 UnderlyingSource
 &
