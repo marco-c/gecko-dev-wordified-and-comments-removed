@@ -2261,9 +2261,8 @@ JSContext
 cx
 HandleValue
 arg
-bool
-*
-optimized
+MutableHandleValue
+result
 )
 ;
 JSObject
