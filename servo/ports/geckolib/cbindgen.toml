@@ -2712,13 +2712,6 @@ GenericColor
 static
 inline
 StyleGenericColor
-CurrentColor
-(
-)
-;
-static
-inline
-StyleGenericColor
 FromColor
 (
 nscolor
