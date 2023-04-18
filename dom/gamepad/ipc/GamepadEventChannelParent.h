@@ -17,8 +17,8 @@ define
 mozilla_dom_GamepadEventChannelParent_h_
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -229,7 +229,6 @@ mBackgroundEventTarget
 ;
 }
 ;
-}
 }
 #
 endif

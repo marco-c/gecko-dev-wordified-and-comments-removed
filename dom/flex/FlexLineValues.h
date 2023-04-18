@@ -34,8 +34,8 @@ ComputedFlexLineInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -191,7 +191,6 @@ mItems
 ;
 }
 ;
-}
 }
 #
 endif

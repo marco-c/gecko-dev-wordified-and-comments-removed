@@ -37,8 +37,8 @@ nsINode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -215,7 +215,6 @@ mClampState
 ;
 }
 ;
-}
 }
 #
 endif

@@ -24,8 +24,8 @@ define
 mozilla_dom_GamepadEventChannelChild_h_
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -165,7 +165,6 @@ mPromiseList
 ;
 }
 ;
-}
 }
 #
 endif

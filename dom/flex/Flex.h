@@ -34,8 +34,8 @@ nsFlexContainerFrame
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -163,7 +163,6 @@ mCrossAxisDirection
 ;
 }
 ;
-}
 }
 #
 endif

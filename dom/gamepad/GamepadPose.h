@@ -44,8 +44,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -275,7 +275,6 @@ mPoseState
 ;
 }
 ;
-}
 }
 #
 endif

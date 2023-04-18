@@ -136,8 +136,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -677,7 +677,6 @@ mTouchIdHash
 ;
 }
 ;
-}
 }
 #
 endif

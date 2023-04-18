@@ -17,8 +17,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -62,7 +62,6 @@ uint8_t
 aBlue
 )
 ;
-}
 }
 #
 endif

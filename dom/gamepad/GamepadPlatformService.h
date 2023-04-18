@@ -69,8 +69,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -454,7 +454,6 @@ mGamepadAdded
 ;
 }
 ;
-}
 }
 #
 endif

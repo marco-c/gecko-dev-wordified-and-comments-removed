@@ -6,8 +6,8 @@ define
 mozilla_dom_gamepad_GamepadTouchState_h_
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -180,7 +180,6 @@ aTouch
 }
 }
 ;
-}
 }
 #
 endif

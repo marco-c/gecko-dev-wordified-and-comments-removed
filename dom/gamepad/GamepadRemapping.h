@@ -50,8 +50,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -399,7 +399,6 @@ bool
 aUsingDefault
 )
 ;
-}
 }
 #
 endif

@@ -44,8 +44,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -166,7 +166,6 @@ PGamepadTestChannelChild
 ;
 }
 ;
-}
 }
 #
 endif
