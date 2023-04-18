@@ -18,7 +18,7 @@ tests
 /
 browser
 /
-page_localstorage_snapshotting_e10s
+page_localstorage_snapshotting
 .
 html
 "
