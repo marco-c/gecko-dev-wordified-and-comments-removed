@@ -7793,7 +7793,7 @@ inherit
 "
 )
 attribute
-double
+DOMString
 letterSpacing
 ;
 /
@@ -7801,7 +7801,9 @@ letterSpacing
 (
 default
 :
-0
+"
+0px
+"
 )
 attribute
 CanvasFontKerning
@@ -7856,7 +7858,7 @@ auto
 "
 )
 attribute
-double
+DOMString
 wordSpacing
 ;
 /
@@ -7864,7 +7866,9 @@ wordSpacing
 (
 default
 :
-0
+"
+0px
+"
 )
 }
 ;
@@ -9905,10 +9909,7 @@ returnValue
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 ErrorEvent
@@ -9995,10 +9996,7 @@ null
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 PromiseRejectionEvent

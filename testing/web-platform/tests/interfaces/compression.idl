@@ -54,10 +54,7 @@ compression
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 CompressionStream
@@ -77,10 +74,7 @@ GenericTransformStream
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 DecompressionStream

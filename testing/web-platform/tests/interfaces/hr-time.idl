@@ -67,10 +67,7 @@ EpochTimeStamp
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 Performance

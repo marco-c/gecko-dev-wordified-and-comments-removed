@@ -149,10 +149,7 @@ measureName
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 PerformanceMark
@@ -181,10 +178,7 @@ detail
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 PerformanceMeasure
