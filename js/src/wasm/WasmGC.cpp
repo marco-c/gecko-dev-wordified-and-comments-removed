@@ -1456,6 +1456,15 @@ return
 true
 ;
 #
+elif
+defined
+(
+JS_CODEGEN_LOONG64
+)
+return
+true
+;
+#
 else
 MOZ_CRASH
 (

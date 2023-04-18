@@ -67,6 +67,11 @@ mips32
 conf
 .
 mips64
+|
+|
+conf
+.
+loong64
 )
 return
 false

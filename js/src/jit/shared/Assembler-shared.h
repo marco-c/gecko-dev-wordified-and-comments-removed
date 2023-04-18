@@ -153,6 +153,13 @@ defined
 (
 JS_CODEGEN_MIPS64
 )
+|
+|
+\
+defined
+(
+JS_CODEGEN_LOONG64
+)
 #
 define
 JS_USE_LINK_REGISTER
@@ -176,6 +183,12 @@ JS_CODEGEN_MIPS64
 defined
 (
 JS_CODEGEN_ARM64
+)
+|
+|
+defined
+(
+JS_CODEGEN_LOONG64
 )
 #
 define
