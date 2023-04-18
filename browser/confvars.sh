@@ -62,9 +62,6 @@ MPL
 MOZ_APP_VENDOR
 =
 Mozilla
-MOZ_UPDATER
-=
-1
 if
 test
 "

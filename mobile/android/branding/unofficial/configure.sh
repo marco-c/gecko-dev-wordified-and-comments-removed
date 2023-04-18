@@ -101,5 +101,3 @@ _
 g
 '
 "
-MOZ_UPDATER
-=

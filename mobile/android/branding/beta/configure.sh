@@ -66,5 +66,3 @@ org
 mozilla
 .
 firefox_beta
-MOZ_UPDATER
-=
