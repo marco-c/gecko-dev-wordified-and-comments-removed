@@ -5245,7 +5245,7 @@ ts
 :
 [
 "
-TIMEOUT
+PASS
 "
 ]
 "
@@ -8472,7 +8472,7 @@ ts
 :
 [
 "
-TIMEOUT
+PASS
 "
 ]
 "
