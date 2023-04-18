@@ -510,15 +510,6 @@ DidBuildModel
 ;
 private
 :
-bool
-WillTokenize
-(
-bool
-aIsFinalChunk
-=
-false
-)
-;
 nsresult
 Tokenize
 (

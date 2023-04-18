@@ -562,9 +562,6 @@ mMadeFinalCallToExpat
 bool
 mInParser
 ;
-bool
-mIsFinalChunk
-;
 nsresult
 mInternalState
 ;
