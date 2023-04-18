@@ -23537,6 +23537,24 @@ args
 )
 :
     
+js_src_builtin_intl_dir
+=
+os
+.
+path
+.
+dirname
+(
+os
+.
+path
+.
+abspath
+(
+__file__
+)
+)
+    
 icu_path
 =
 os
@@ -23580,16 +23598,26 @@ io
 open
 (
         
+os
+.
+path
+.
+join
+(
+js_src_builtin_intl_dir
 "
 SanctionedSimpleUnitIdentifiers
 .
 yaml
 "
+)
+        
 mode
 =
 "
 r
 "
+        
 encoding
 =
 "
@@ -24906,6 +24934,24 @@ args
 )
 :
     
+js_src_builtin_intl_dir
+=
+os
+.
+path
+.
+dirname
+(
+os
+.
+path
+.
+abspath
+(
+__file__
+)
+)
+    
 icu_path
 =
 os
@@ -24948,16 +24994,27 @@ io
 .
 open
 (
+        
+os
+.
+path
+.
+join
+(
+js_src_builtin_intl_dir
 "
 NumberingSystems
 .
 yaml
 "
+)
+        
 mode
 =
 "
 r
 "
+        
 encoding
 =
 "
@@ -24965,6 +25022,7 @@ utf
 -
 8
 "
+    
 )
 as
 f
@@ -25112,12 +25170,7 @@ path
 .
 abspath
 (
-sys
-.
-argv
-[
-0
-]
+__file__
 )
 )
     
@@ -25184,12 +25237,7 @@ builtin
 intl
 "
 %
-sys
-.
-argv
-[
-0
-]
+__file__
 )
     
 topsrcdir
@@ -25626,11 +25674,19 @@ out
         
 default
 =
+os
+.
+path
+.
+join
+(
+thisDir
 "
 TimeZoneDataGenerated
 .
 h
 "
+)
         
 help
 =
@@ -25772,11 +25828,19 @@ out
         
 default
 =
+os
+.
+path
+.
+join
+(
+thisDir
 "
 CurrencyDataGenerated
 .
 js
 "
+)
         
 help
 =
@@ -25893,8 +25957,6 @@ numbering
 systems
 with
 simple
-"
-"
 digit
 mappings
 "
