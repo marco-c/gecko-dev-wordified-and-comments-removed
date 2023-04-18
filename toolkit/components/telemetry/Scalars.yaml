@@ -6744,6 +6744,8 @@ bug_numbers
 1645089
 -
 1678210
+-
+1744559
 description
 :
 >
@@ -6771,7 +6773,7 @@ uint
 notification_emails
 :
 -
-ewright
+pbz
 mozilla
 .
 com
@@ -6786,7 +6788,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 products
 :
 -
