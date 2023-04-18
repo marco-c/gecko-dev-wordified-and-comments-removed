@@ -698,14 +698,7 @@ if
 (
 settings
 .
-outputDestination
-=
-=
-Ci
-.
-nsIPrintSettings
-.
-kOutputDestinationFile
+printToFile
 &
 &
 !

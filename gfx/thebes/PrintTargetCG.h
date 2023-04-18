@@ -20,13 +20,10 @@ PrintTarget
 .
 h
 "
-class
-nsIOutputStream
-;
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 class
@@ -45,9 +42,6 @@ PrintTargetCG
 >
 CreateOrNull
 (
-nsIOutputStream
-*
-aOutputStream
 PMPrintSession
 aPrintSession
 PMPageFormat
@@ -115,8 +109,6 @@ private
 :
 PrintTargetCG
 (
-CGContextRef
-aPrintToStreamContext
 PMPrintSession
 aPrintSession
 PMPageFormat
@@ -134,11 +126,6 @@ PrintTargetCG
 (
 )
 ;
-CGContextRef
-mPrintToStreamContext
-=
-nullptr
-;
 PMPrintSession
 mPrintSession
 ;
@@ -150,6 +137,7 @@ mPrintSettings
 ;
 }
 ;
+}
 }
 #
 endif

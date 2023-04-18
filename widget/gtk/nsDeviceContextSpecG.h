@@ -181,6 +181,11 @@ nsPrintSettingsGTK
 >
 mPrintSettings
 ;
+bool
+mToPrinter
+:
+1
+;
 GtkPrintSettings
 *
 mGtkPrintSettings

@@ -27,12 +27,12 @@ nsIDeviceContextSpec
 {
 private
 :
-virtual
 ~
 nsDeviceContextSpecAndroid
 (
 )
-;
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
