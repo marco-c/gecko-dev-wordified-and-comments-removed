@@ -20,11 +20,6 @@ fonts
 .
 query
 (
-{
-persistentAccess
-:
-true
-}
 )
 ;
 const
