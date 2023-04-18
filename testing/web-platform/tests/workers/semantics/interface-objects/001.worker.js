@@ -69,13 +69,13 @@ PromiseRejectionEvent
 EventSource
 "
 "
+BroadcastChannel
+"
+"
 WebSocket
 "
 "
 CloseEvent
-"
-"
-BroadcastChannel
 "
 "
 ArrayBuffer
