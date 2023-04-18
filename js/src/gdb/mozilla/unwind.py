@@ -122,17 +122,6 @@ BaselineStubFrameLayout
 FrameType
 :
 :
-IonStub
-"
-:
-"
-JitStubFrameLayout
-"
-    
-"
-FrameType
-:
-:
 CppToJSJit
 "
 :
