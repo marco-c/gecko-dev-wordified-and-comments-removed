@@ -3327,13 +3327,6 @@ thingKind
 )
 ;
 void
-setParallelAtomsAllocEnabled
-(
-bool
-enabled
-)
-;
-void
 setParallelUnmarkEnabled
 (
 bool

@@ -222,17 +222,6 @@ RuntimeHeapIsMajorCollecting
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-rt
--
->
-hasHelperThreadZones
-(
-)
-)
-;
 runtime
 -
 >
