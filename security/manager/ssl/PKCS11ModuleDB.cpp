@@ -323,7 +323,7 @@ rv
 nsCString
 fullPath
 ;
-NS_CopyUnicodeToNative
+CopyUTF16toUTF8
 (
 aLibraryFullPath
 fullPath
