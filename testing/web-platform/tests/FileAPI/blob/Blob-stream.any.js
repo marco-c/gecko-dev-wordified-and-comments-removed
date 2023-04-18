@@ -24,10 +24,13 @@ if
 (
 perform_gc
 )
+{
+await
 garbageCollect
 (
 )
 ;
+}
 return
 read_promise
 ;
@@ -396,6 +399,7 @@ blob
 =
 null
 ;
+await
 garbageCollect
 (
 )

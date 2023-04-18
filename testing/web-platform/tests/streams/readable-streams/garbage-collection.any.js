@@ -5,6 +5,7 @@ strict
 ;
 promise_test
 (
+async
 (
 )
 =
@@ -30,6 +31,7 @@ c
 }
 )
 ;
+await
 garbageCollect
 (
 )
@@ -111,6 +113,7 @@ stream
 ;
 promise_test
 (
+async
 (
 )
 =
@@ -145,6 +148,7 @@ getReader
 .
 closed
 ;
+await
 garbageCollect
 (
 )
@@ -199,6 +203,7 @@ lost
 ;
 promise_test
 (
+async
 t
 =
 >
@@ -243,6 +248,7 @@ getReader
 .
 closed
 ;
+await
 garbageCollect
 (
 )
@@ -302,6 +308,7 @@ lost
 ;
 promise_test
 (
+async
 (
 )
 =
@@ -323,6 +330,7 @@ getReader
 (
 )
 ;
+await
 garbageCollect
 (
 )

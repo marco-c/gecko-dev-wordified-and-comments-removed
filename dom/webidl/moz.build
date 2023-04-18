@@ -5502,6 +5502,11 @@ TCPSocketEvent
 webidl
 "
 "
+TestUtils
+.
+webidl
+"
+"
 Text
 .
 webidl
