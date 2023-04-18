@@ -4539,10 +4539,6 @@ LoadFlags
 )
 )
 ;
-mCheckingSessionHistory
-=
-false
-;
 if
 (
 (
