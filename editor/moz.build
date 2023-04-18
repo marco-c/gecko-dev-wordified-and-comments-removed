@@ -137,3 +137,12 @@ exclusive
 docs
 "
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+"
+MOZ_TRIVIAL_AUTO_VAR_INIT
+"
+]
