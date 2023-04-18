@@ -124,6 +124,11 @@ LoadURIDelegateChild
 jsm
 "
 "
+MediaControlDelegateChild
+.
+jsm
+"
+"
 ProgressDelegateChild
 .
 jsm

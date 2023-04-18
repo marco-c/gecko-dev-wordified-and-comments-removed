@@ -85,11 +85,6 @@ geckoview
 js
 content
 /
-GeckoViewMediaControlChild
-.
-js
-content
-/
 SessionStateAggregator
 .
 js
