@@ -423,7 +423,7 @@ http
 .
 http3
 .
-priorization
+priority
 "
 false
 )
@@ -584,7 +584,7 @@ http
 .
 http3
 .
-priorization
+priority
 "
 true
 )

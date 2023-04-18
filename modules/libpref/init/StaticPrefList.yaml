@@ -62117,7 +62117,7 @@ always
 Enable
 http3
 network
-priorization
+priority
 as
 described
 in
@@ -62152,7 +62152,7 @@ http
 .
 http3
 .
-priorization
+priority
 type
 :
 RelaxedAtomicBool
@@ -62235,7 +62235,7 @@ http
 .
 http3
 .
-send_background_tabs_depriorization
+send_background_tabs_deprioritization
 type
 :
 RelaxedAtomicBool

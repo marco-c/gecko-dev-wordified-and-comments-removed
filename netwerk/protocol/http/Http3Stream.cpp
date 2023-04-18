@@ -925,7 +925,7 @@ if
 StaticPrefs
 :
 :
-network_http_http3_send_background_tabs_depriorization
+network_http_http3_send_background_tabs_deprioritization
 (
 )
 |
@@ -2694,7 +2694,7 @@ if
 StaticPrefs
 :
 :
-network_http_http3_priorization
+network_http_http3_priority
 (
 )
 )
@@ -2708,7 +2708,7 @@ if
 StaticPrefs
 :
 :
-network_http_http3_send_background_tabs_depriorization
+network_http_http3_send_background_tabs_deprioritization
 (
 )
 &
@@ -2741,7 +2741,7 @@ if
 StaticPrefs
 :
 :
-network_http_http3_priorization
+network_http_http3_priority
 (
 )
 )
