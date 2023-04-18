@@ -19,11 +19,11 @@ pathlib
 import
 Path
 from
-distutils
+packaging
 .
 version
 import
-LooseVersion
+Version
 from
 mozboot
 import
@@ -871,7 +871,7 @@ js
 "
 MODERN_MERCURIAL_VERSION
 =
-LooseVersion
+Version
 (
 "
 4
@@ -881,7 +881,7 @@ LooseVersion
 )
 MODERN_RUST_VERSION
 =
-LooseVersion
+Version
 (
 MINIMUM_RUST_VERSION
 )
@@ -3807,7 +3807,7 @@ switch
 and
 returns
 a
-LooseVersion
+Version
 representing
 the
 output
@@ -4014,7 +4014,7 @@ return
 None
         
 return
-LooseVersion
+Version
 (
 match
 .
@@ -5134,7 +5134,7 @@ application
 if
 rust_version
 <
-LooseVersion
+Version
 (
 "
 1

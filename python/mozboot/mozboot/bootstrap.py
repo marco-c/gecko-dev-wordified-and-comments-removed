@@ -29,11 +29,11 @@ pathlib
 import
 Path
 from
-distutils
+packaging
 .
 version
 import
-LooseVersion
+Version
 from
 mach
 .
@@ -645,7 +645,7 @@ peril
 "
 MINIMUM_RECOMMENDED_GIT_VERSION
 =
-LooseVersion
+Version
 (
 "
 2
@@ -3705,7 +3705,7 @@ version
     
 git_version
 =
-LooseVersion
+Version
 (
 match
 .
@@ -3745,7 +3745,7 @@ if
 git_version
 >
 =
-LooseVersion
+Version
 (
 "
 2

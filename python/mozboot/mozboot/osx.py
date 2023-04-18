@@ -36,11 +36,11 @@ pathlib
 import
 Path
 from
-distutils
+packaging
 .
 version
 import
-StrictVersion
+Version
 from
 mozboot
 .
@@ -919,7 +919,7 @@ self
 .
 os_version
 =
-StrictVersion
+Version
 (
 version
 )
@@ -929,7 +929,7 @@ self
 .
 os_version
 <
-StrictVersion
+Version
 (
 "
 10
