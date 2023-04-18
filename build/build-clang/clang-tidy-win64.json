@@ -14,11 +14,6 @@ build_type
 Release
 "
 "
-assertions
-"
-:
-false
-"
 build_clang_tidy
 "
 :

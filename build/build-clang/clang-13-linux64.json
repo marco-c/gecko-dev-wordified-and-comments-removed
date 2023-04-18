@@ -24,11 +24,6 @@ build_type
 Release
 "
 "
-assertions
-"
-:
-false
-"
 cc
 "
 :
