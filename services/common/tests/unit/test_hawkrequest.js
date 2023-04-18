@@ -194,6 +194,11 @@ run_test
 (
 )
 {
+registerCleanupFunction
+(
+do_register_cleanup
+)
+;
 Services
 .
 prefs

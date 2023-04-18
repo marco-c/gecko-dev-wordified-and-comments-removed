@@ -22,17 +22,6 @@ js
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-crypto
-"
-]
-)
-;
 var
 cryptoSvc
 =

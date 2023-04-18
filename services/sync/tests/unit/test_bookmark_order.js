@@ -21,7 +21,6 @@ const
 {
 Bookmark
 BookmarkFolder
-BookmarksEngine
 }
 =
 ChromeUtils

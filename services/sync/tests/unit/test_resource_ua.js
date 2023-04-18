@@ -83,13 +83,6 @@ track_collections_helper
 )
 ;
 var
-collections
-=
-collectionsHelper
-.
-collections
-;
-var
 meta_global
 ;
 var

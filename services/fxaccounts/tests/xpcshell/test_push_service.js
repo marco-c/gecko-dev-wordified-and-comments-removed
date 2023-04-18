@@ -134,15 +134,11 @@ mockPushService
 {
 pushTopic
 :
-this
-.
 pushService
 .
 pushTopic
 subscriptionChangeTopic
 :
-this
-.
 pushService
 .
 subscriptionChangeTopic
