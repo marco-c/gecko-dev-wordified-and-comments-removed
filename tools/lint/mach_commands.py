@@ -352,6 +352,12 @@ linters
 parser
 =
 setup_argument_parser
+    
+virtualenv_name
+=
+"
+lint
+"
 )
 def
 lint
