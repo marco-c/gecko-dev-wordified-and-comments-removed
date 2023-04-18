@@ -13237,7 +13237,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-}
 infoObject
 -
 >
@@ -13249,6 +13248,7 @@ EchExtensionStatus
 kGREASE
 )
 ;
+}
 }
 const
 SSLNamedGroup
