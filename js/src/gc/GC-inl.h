@@ -161,7 +161,7 @@ public
 ChainedIterator
 <
 ArenaListIter
-4
+5
 >
 {
 public
@@ -186,6 +186,15 @@ zone
 arenas
 .
 getFirstArena
+(
+kind
+)
+zone
+-
+>
+arenas
+.
+getFirstCollectingArena
 (
 kind
 )
