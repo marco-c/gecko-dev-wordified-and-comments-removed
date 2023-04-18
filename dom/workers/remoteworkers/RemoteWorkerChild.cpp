@@ -3104,6 +3104,7 @@ aDidCreationSucceed
 #
 ifdef
 DEBUG
+{
 auto
 lock
 =
@@ -3142,6 +3143,7 @@ Terminated
 )
 )
 ;
+}
 #
 endif
 RefPtr
@@ -4079,19 +4081,6 @@ mState
 .
 Lock
 (
-)
-;
-MOZ_ASSERT
-(
-lock
--
->
-is
-<
-Pending
->
-(
-)
 )
 ;
 auto
