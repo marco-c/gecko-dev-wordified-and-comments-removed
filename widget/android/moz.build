@@ -160,9 +160,6 @@ GeckoResult
 GeckoRuntime
 "
 "
-GeckoScreenOrientation
-"
-"
 GeckoServiceChildProcess
 "
 "

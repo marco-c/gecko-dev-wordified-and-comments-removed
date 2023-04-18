@@ -1391,11 +1391,6 @@ WindowFeatures
 h
 "
 "
-WindowOrientationObserver
-.
-h
-"
-"
 WindowProxyHolder
 .
 h
@@ -2264,11 +2259,6 @@ cpp
 "
 "
 WindowNamedPropertiesHandler
-.
-cpp
-"
-"
-WindowOrientationObserver
 .
 cpp
 "
