@@ -570,15 +570,6 @@ footerStrRight
 ;
 attribute
 boolean
-isCancelled
-;
-readonly
-attribute
-boolean
-saveOnCancel
-;
-attribute
-boolean
 printSilent
 ;
 [

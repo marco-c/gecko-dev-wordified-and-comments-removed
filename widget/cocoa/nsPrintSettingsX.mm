@@ -88,10 +88,6 @@ mDestination
 =
 kPMDestinationInvalid
 ;
-mSaveOnCancel
-=
-false
-;
 NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
