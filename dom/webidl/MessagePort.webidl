@@ -187,6 +187,17 @@ onmessageerror
 ;
 }
 ;
+/
+/
+Used
+to
+declare
+which
+objects
+should
+be
+transferred
+.
 dictionary
 StructuredSerializeOptions
 {
