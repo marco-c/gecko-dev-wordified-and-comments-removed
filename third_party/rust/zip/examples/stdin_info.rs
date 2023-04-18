@@ -1,7 +1,3 @@
-extern
-crate
-zip
-;
 use
 std
 :
@@ -238,7 +234,5 @@ return
 }
 }
 }
-return
 0
-;
 }

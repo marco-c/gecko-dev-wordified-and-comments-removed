@@ -10,10 +10,6 @@ prelude
 :
 *
 ;
-extern
-crate
-zip
-;
 fn
 main
 (
@@ -245,7 +241,5 @@ println
 contents
 )
 ;
-return
 0
-;
 }
