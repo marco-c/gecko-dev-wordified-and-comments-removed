@@ -2741,7 +2741,7 @@ GetParent
 (
 )
 ;
-uint32_t
+int32_t
 offset
 =
 newContent
