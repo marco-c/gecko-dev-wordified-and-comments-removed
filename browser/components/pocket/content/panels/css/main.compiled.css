@@ -13035,6 +13035,15 @@ start
 16px
 ;
 }
+body
+.
+stp_saved_body
+{
+overflow
+:
+hidden
+;
+}
 .
 stp_panel_error
 {
