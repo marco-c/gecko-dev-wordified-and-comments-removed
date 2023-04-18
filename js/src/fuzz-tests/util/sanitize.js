@@ -541,14 +541,14 @@ function
 )
 {
 }
-offThreadCompileModule
+offThreadCompileModuleToStencil
 :
 function
 (
 )
 {
 }
-finishOffThreadModule
+finishOffThreadCompileModuleToStencil
 :
 function
 (
