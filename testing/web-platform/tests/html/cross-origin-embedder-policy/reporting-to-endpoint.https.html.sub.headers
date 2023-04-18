@@ -44,7 +44,7 @@ report
 .
 py
 ?
-endpoint
+key
 =
 4d8b6d86
 -
@@ -80,7 +80,7 @@ report
 .
 py
 ?
-endpoint
+key
 =
 5d7c1e33
 -
