@@ -4050,13 +4050,13 @@ nodiscard
 ]
 ]
 bool
-copyAndFreeSlotsBeforeSwap
+prepareForSwap
 (
 JSContext
 *
 cx
 MutableHandleValueVector
-values
+slotValuesOut
 )
 ;
 [
@@ -4066,7 +4066,7 @@ nodiscard
 ]
 static
 bool
-fillInSlotsAfterSwap
+fixupAfterSwap
 (
 JSContext
 *
@@ -4079,7 +4079,7 @@ gc
 AllocKind
 kind
 HandleValueVector
-values
+slotValues
 )
 ;
 public

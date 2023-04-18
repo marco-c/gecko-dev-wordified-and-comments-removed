@@ -252,13 +252,13 @@ nodiscard
 ]
 ]
 bool
-copyAndFreeValuesBeforeSwap
+prepareForSwap
 (
 JSContext
 *
 cx
 MutableHandleValueVector
-values
+valuesOut
 )
 ;
 [
@@ -267,7 +267,7 @@ nodiscard
 ]
 ]
 bool
-fillInValuesAfterSwap
+fixupAfterSwap
 (
 JSContext
 *
