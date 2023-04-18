@@ -57,8 +57,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -286,6 +286,5 @@ endif
 return
 true
 ;
-}
 }
 }

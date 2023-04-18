@@ -20,8 +20,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 using
@@ -55,7 +55,6 @@ Maybe
 ScopedError
 >
 ;
-}
 }
 #
 endif

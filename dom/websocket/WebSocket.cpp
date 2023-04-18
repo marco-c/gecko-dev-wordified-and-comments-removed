@@ -572,8 +572,8 @@ net
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -12347,6 +12347,5 @@ aPrincipal
 return
 NS_OK
 ;
-}
 }
 }

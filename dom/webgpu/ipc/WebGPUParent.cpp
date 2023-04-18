@@ -86,8 +86,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 const
@@ -6046,6 +6046,5 @@ IPC_OK
 (
 )
 ;
-}
 }
 }

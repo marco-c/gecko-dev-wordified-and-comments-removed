@@ -15,8 +15,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -36,7 +36,6 @@ JSObject
 aGlobal
 )
 ;
-}
 }
 #
 endif

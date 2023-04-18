@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 namespace
@@ -334,7 +334,6 @@ aDesc
 ;
 }
 ;
-}
 }
 #
 endif
