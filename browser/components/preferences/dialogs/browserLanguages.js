@@ -24,7 +24,7 @@ jsm
 ;
 let
 {
-getAvailableLocales
+LangPackMatcher
 }
 =
 window
@@ -1663,6 +1663,8 @@ new
 Set
 (
 await
+LangPackMatcher
+.
 getAvailableLocales
 (
 )
@@ -1981,6 +1983,8 @@ let
 available
 =
 await
+LangPackMatcher
+.
 getAvailableLocales
 (
 )
@@ -2411,6 +2415,8 @@ new
 Set
 (
 await
+LangPackMatcher
+.
 getAvailableLocales
 (
 )
@@ -2652,6 +2658,8 @@ if
 (
 (
 await
+LangPackMatcher
+.
 getAvailableLocales
 (
 )
@@ -2748,6 +2756,8 @@ availableCount
 =
 (
 await
+LangPackMatcher
+.
 getAvailableLocales
 (
 )
