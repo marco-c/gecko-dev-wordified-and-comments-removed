@@ -8,10 +8,7 @@ float
 ExtendedFloat
 ;
 use
-crate
-:
-:
-lib
+core
 :
 :
 mem

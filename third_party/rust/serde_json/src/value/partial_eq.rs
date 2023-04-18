@@ -5,13 +5,13 @@ super
 Value
 ;
 use
-crate
+alloc
 :
 :
-lib
+string
 :
 :
-*
+String
 ;
 fn
 eq_i64

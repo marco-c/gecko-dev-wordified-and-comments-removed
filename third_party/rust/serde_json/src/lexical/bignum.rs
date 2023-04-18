@@ -8,10 +8,10 @@ math
 *
 ;
 use
-crate
+alloc
 :
 :
-lib
+vec
 :
 :
 Vec

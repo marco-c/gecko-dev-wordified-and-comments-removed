@@ -1,8 +1,5 @@
 use
-crate
-:
-:
-lib
+core
 :
 :
 ops
