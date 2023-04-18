@@ -243,6 +243,9 @@ v8a
 x86
 x86_64
 "
+MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
+:
+system
 artifacts
 :
 -
