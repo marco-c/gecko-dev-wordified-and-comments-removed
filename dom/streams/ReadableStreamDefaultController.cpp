@@ -445,15 +445,6 @@ ReaderState
 Readable
 ;
 }
-enum
-class
-CloseOrEnqueue
-{
-Close
-Enqueue
-}
-;
-static
 bool
 ReadableStreamDefaultControllerCanCloseOrEnqueueAndThrow
 (
@@ -505,7 +496,6 @@ prefix
 Cannot
 close
 a
-readable
 stream
 that
 "
@@ -521,7 +511,6 @@ Cannot
 enqueue
 into
 a
-readable
 stream
 that
 "
@@ -1294,7 +1283,6 @@ aRv
 )
 ;
 }
-static
 bool
 ReadableStreamDefaultControllerShouldCallPull
 (

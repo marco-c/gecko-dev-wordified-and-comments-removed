@@ -595,6 +595,7 @@ aStream
 >
 SetController
 (
+*
 aController
 )
 ;

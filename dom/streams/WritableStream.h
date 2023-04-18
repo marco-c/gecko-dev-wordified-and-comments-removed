@@ -235,6 +235,7 @@ mCloseRequest
 aRequest
 ;
 }
+MOZ_KNOWN_LIVE
 WritableStreamDefaultController
 *
 Controller
@@ -249,17 +250,19 @@ void
 SetController
 (
 WritableStreamDefaultController
-*
+&
 aController
 )
 {
 MOZ_ASSERT
 (
-aController
+!
+mController
 )
 ;
 mController
 =
+&
 aController
 ;
 }
@@ -723,6 +726,7 @@ Promise
 >
 mCloseRequest
 ;
+MOZ_KNOWN_LIVE
 RefPtr
 <
 WritableStreamDefaultController
