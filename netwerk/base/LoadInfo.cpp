@@ -598,7 +598,7 @@ get
 )
 mSandboxedNullPrincipalID
 (
-nsContentUtils
+nsID
 :
 :
 GenerateUUID
@@ -1546,7 +1546,7 @@ aTriggeringPrincipal
 )
 mSandboxedNullPrincipalID
 (
-nsContentUtils
+nsID
 :
 :
 GenerateUUID
@@ -1834,7 +1834,7 @@ aTriggeringPrincipal
 )
 mSandboxedNullPrincipalID
 (
-nsContentUtils
+nsID
 :
 :
 GenerateUUID
@@ -2014,7 +2014,7 @@ aTriggeringPrincipal
 )
 mSandboxedNullPrincipalID
 (
-nsContentUtils
+nsID
 :
 :
 GenerateUUID
@@ -4243,7 +4243,7 @@ ResetSandboxedNullPrincipalID
 {
 mSandboxedNullPrincipalID
 =
-nsContentUtils
+nsID
 :
 :
 GenerateUUID

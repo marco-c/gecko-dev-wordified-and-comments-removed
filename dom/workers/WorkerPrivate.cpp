@@ -4005,7 +4005,7 @@ ComputeWorkerPrivateId
 nsID
 uuid
 =
-nsContentUtils
+nsID
 :
 :
 GenerateUUID
@@ -10574,7 +10574,7 @@ AgentClusterId
 (
 )
 :
-nsContentUtils
+nsID
 :
 :
 GenerateUUID
@@ -10619,7 +10619,7 @@ GetOpenerPolicy
 }
 return
 {
-nsContentUtils
+nsID
 :
 :
 GenerateUUID

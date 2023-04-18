@@ -240,13 +240,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsGlobalWindowInner
 .
 h
@@ -1046,7 +1039,7 @@ ToIPC
 nsID
 agentClusterId
 =
-nsContentUtils
+nsID
 :
 :
 GenerateUUID
