@@ -345,9 +345,11 @@ cr3
 expected
 :
 "
-video
+application
 /
-mp4
+octet
+-
+stream
 "
 }
 ]
