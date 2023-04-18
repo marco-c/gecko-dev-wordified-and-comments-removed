@@ -2229,7 +2229,7 @@ OnModifyDocument
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-void
+SplitNodeResult
 DoSplitNode
 (
 const
@@ -2239,9 +2239,6 @@ aStartOfRightNode
 nsIContent
 &
 aNewLeftNode
-ErrorResult
-&
-aError
 )
 ;
 [
