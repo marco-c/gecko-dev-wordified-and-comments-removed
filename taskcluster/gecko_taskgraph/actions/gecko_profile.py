@@ -9,15 +9,6 @@ exceptions
 import
 HTTPError
 from
-taskgraph
-.
-util
-.
-taskcluster
-import
-get_artifact_from_index
-get_task_definition
-from
 .
 registry
 import
@@ -33,6 +24,14 @@ gecko_taskgraph
 .
 util
 .
+taskcluster
+import
+get_artifact_from_index
+from
+gecko_taskgraph
+.
+util
+.
 taskgraph
 import
 find_decision_task
@@ -42,6 +41,12 @@ gecko_taskgraph
 taskgraph
 import
 TaskGraph
+from
+gecko_taskgraph
+.
+util
+import
+taskcluster
 PUSHLOG_TMPL
 =
 "
@@ -220,6 +225,8 @@ task_id
     
 task
 =
+taskcluster
+.
 get_task_definition
 (
 task_id

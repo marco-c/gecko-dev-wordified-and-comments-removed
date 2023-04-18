@@ -3,13 +3,11 @@ json
 import
 logging
 from
-taskgraph
+.
 .
 util
-.
-taskcluster
 import
-get_task_definition
+taskcluster
 from
 .
 .
@@ -790,6 +788,8 @@ task_id
     
 task
 =
+taskcluster
+.
 get_task_definition
 (
 task_id

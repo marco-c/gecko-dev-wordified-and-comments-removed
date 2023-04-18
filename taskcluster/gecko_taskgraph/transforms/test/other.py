@@ -17,14 +17,6 @@ util
 import
 ReadOnlyDict
 from
-taskgraph
-.
-util
-.
-taskcluster
-import
-get_index_url
-from
 voluptuous
 import
 (
@@ -76,7 +68,12 @@ util
 .
 taskcluster
 import
+(
+    
 get_artifact_path
+    
+get_index_url
+)
 from
 gecko_taskgraph
 .

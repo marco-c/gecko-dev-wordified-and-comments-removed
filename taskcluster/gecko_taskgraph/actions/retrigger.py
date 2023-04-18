@@ -1,18 +1,9 @@
 import
+sys
+import
 logging
 import
 textwrap
-import
-sys
-from
-taskgraph
-.
-util
-.
-taskcluster
-import
-get_task_definition
-rerun_task
 from
 .
 util
@@ -44,10 +35,8 @@ from
 gecko_taskgraph
 .
 util
-.
-taskcluster
 import
-state_task
+taskcluster
 logger
 =
 logging
@@ -361,6 +350,8 @@ effort
     
 task
 =
+taskcluster
+.
 get_task_definition
 (
 task_id
@@ -894,6 +885,8 @@ graph_config
     
 task
 =
+taskcluster
+.
 get_task_definition
 (
 task_id
@@ -1245,6 +1238,8 @@ task_id
     
 task
 =
+taskcluster
+.
 get_task_definition
 (
 task_id
@@ -1345,6 +1340,8 @@ label
     
 state
 =
+taskcluster
+.
 state_task
 (
 task_id
@@ -1395,6 +1392,8 @@ RERUN_STATES
         
 return
     
+taskcluster
+.
 rerun_task
 (
 task_id

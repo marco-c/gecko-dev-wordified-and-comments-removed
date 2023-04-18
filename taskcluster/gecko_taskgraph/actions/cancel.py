@@ -3,7 +3,7 @@ logging
 import
 requests
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .

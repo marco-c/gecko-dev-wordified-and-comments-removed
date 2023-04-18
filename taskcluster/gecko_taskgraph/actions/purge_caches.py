@@ -1,19 +1,24 @@
 import
 logging
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .
 taskcluster
 import
-get_task_definition
 purge_cache
 from
 .
 registry
 import
 register_callback_action
+from
+gecko_taskgraph
+.
+util
+import
+taskcluster
 logger
 =
 logging
@@ -114,6 +119,8 @@ task_id
     
 task
 =
+taskcluster
+.
 get_task_definition
 (
 task_id
