@@ -103,6 +103,14 @@ mozilla
 namespace
 net
 {
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 async
 protocol
 PStunAddrsRequest

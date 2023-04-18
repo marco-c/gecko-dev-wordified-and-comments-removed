@@ -89,6 +89,12 @@ dom
 {
 [
 RefCounted
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
 ]
 sync
 protocol

@@ -119,6 +119,14 @@ the
 writeContent
 method
 .
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PWebBrowserPersistSerialize
 {

@@ -216,6 +216,14 @@ mechanism
 .
 *
 /
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PBackgroundLSRequest
 {

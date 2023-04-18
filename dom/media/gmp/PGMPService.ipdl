@@ -28,6 +28,12 @@ gmp
 [
 RefCounted
 NeedsOtherPid
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
 ]
 sync
 protocol

@@ -234,6 +234,14 @@ vStride
 ;
 }
 ;
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 async
 protocol
 PCameras

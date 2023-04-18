@@ -12,6 +12,14 @@ mozilla
 namespace
 _ipdltest
 {
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 sync
 protocol
 PTestIndirectProtocolParamManage

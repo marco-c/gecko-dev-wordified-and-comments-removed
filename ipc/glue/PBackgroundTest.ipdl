@@ -82,6 +82,14 @@ used
 during
 mochitests
 .
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PBackgroundTest
 {

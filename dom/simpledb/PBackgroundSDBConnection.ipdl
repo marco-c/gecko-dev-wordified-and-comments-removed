@@ -122,6 +122,14 @@ SDBRequestCloseParams
 ;
 }
 ;
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PBackgroundSDBConnection
 {

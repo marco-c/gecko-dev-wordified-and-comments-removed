@@ -89,6 +89,14 @@ mozilla
 namespace
 dom
 {
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 sync
 protocol
 PClientSource

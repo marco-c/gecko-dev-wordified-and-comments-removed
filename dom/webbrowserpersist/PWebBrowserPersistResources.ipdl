@@ -131,6 +131,14 @@ mozilla
 =
 =
 nsIWebBrowserPersistResourceVisitor
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PWebBrowserPersistResources
 {

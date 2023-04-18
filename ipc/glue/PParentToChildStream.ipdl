@@ -124,6 +124,14 @@ protocols
 in
 sync
 .
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PParentToChildStream
 {

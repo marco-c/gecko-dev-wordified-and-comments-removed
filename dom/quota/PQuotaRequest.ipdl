@@ -265,6 +265,14 @@ ListOriginsResponse
 ;
 }
 ;
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PQuotaRequest
 {

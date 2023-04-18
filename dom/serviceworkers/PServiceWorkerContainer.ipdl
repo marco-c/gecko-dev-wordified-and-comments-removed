@@ -85,6 +85,12 @@ dom
 {
 [
 RefCounted
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
 ]
 protocol
 PServiceWorkerContainer

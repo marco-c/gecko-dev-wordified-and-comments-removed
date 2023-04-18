@@ -200,6 +200,14 @@ LSClearInfo
 ;
 }
 ;
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 sync
 protocol
 PBackgroundLSSnapshot

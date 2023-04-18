@@ -69,6 +69,14 @@ dom
 namespace
 indexedDB
 {
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PBackgroundIDBDatabaseFile
 {

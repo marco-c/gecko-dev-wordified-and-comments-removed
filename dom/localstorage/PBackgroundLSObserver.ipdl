@@ -197,6 +197,14 @@ event
 .
 *
 /
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 async
 protocol
 PBackgroundLSObserver

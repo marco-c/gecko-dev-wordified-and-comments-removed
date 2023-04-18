@@ -20,6 +20,14 @@ mozilla
 namespace
 widget
 {
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 sync
 protocol
 PCompositorWidget

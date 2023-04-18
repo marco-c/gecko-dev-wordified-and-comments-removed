@@ -4,6 +4,14 @@ ProfilerTypes
 namespace
 mozilla
 {
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 async
 protocol
 PProfiler

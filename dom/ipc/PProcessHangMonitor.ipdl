@@ -95,6 +95,14 @@ duration
 ;
 }
 ;
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PProcessHangMonitor
 {

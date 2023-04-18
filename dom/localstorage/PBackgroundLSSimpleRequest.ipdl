@@ -244,6 +244,14 @@ ipdlh
 .
 *
 /
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PBackgroundLSSimpleRequest
 {

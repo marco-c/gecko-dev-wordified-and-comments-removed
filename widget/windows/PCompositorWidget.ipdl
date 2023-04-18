@@ -97,6 +97,14 @@ responseReadyEvent
 ;
 }
 ;
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 sync
 protocol
 PCompositorWidget

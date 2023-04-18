@@ -206,6 +206,12 @@ hal_sandbox
 NestedUpTo
 =
 inside_cpow
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
 ]
 sync
 protocol

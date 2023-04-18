@@ -129,6 +129,14 @@ for
 the
 BroadcastChannel
 API
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PBroadcastChannel
 {

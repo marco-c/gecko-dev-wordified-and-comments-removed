@@ -111,6 +111,14 @@ SDBRequestCloseResponse
 ;
 }
 ;
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PBackgroundSDBRequest
 {

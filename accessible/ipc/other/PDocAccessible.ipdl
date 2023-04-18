@@ -283,6 +283,12 @@ EndOffset
 NestedUpTo
 =
 inside_sync
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
 ]
 sync
 protocol

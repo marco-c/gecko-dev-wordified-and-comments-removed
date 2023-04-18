@@ -636,6 +636,14 @@ loading
 )
 *
 /
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 sync
 protocol
 PBackgroundLSDatabase

@@ -58,6 +58,14 @@ mozilla
 namespace
 layers
 {
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 sync
 protocol
 PTexture

@@ -83,6 +83,9 @@ dom
 {
 [
 RefCounted
+ParentImpl
+=
+virtual
 ]
 protocol
 PExternalHelperApp
