@@ -777,6 +777,7 @@ textToSubURI
 UnEscapeURIForUI
 (
 aFragment
+true
 aResult
 )
 ;
