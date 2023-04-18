@@ -279,6 +279,9 @@ Option_NonZeroU32
 "
 Option_NonZeroU8
 "
+"
+ANativeWindow_setBuffersGeometry
+"
 ]
 [
 export
