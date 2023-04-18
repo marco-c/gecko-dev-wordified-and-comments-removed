@@ -289,14 +289,6 @@ ipc
 :
 IShmemAllocator
 public
-mozilla
-:
-:
-ipc
-:
-:
-ChildToParentStreamActorManager
-public
 ProcessActor
 {
 using
