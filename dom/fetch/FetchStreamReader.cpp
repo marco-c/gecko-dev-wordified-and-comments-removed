@@ -790,6 +790,11 @@ mGlobal
 =
 nullptr
 ;
+if
+(
+mPipeOut
+)
+{
 mPipeOut
 -
 >
@@ -798,6 +803,7 @@ CloseWithStatus
 aStatus
 )
 ;
+}
 mPipeOut
 =
 nullptr
