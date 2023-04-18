@@ -3688,6 +3688,11 @@ mCaps
 =
 NS_HTTP_DISALLOW_HTTP3
 ;
+mCaps
+|
+=
+NS_HTTP_DISALLOW_HTTPS_RR
+;
 }
 if
 (
