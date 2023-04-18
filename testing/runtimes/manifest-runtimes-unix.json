@@ -1415,7 +1415,7 @@ mochitest
 -
 browser
 -
-chrome
+a11y
 "
 :
 {
@@ -1621,6 +1621,16 @@ ini
 1
 .
 77
+}
+"
+mochitest
+-
+browser
+-
+chrome
+"
+:
+{
 "
 browser
 /
