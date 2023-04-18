@@ -1189,7 +1189,7 @@ NetworkInformation
 insecureContext
 :
 true
-android
+disabled
 :
 true
 }
