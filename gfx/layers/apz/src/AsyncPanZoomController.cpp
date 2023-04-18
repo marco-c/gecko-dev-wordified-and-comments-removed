@@ -10627,15 +10627,8 @@ mState
 =
 =
 SMOOTHMSD_SCROLL
-)
-{
-CancelAnimation
-(
-)
-;
-}
-if
-(
+|
+|
 mState
 =
 =
