@@ -125,7 +125,10 @@ clap
 version
 =
 "
-3
+^
+2
+.
+19
 "
 default
 -
@@ -135,12 +138,6 @@ false
 features
 =
 [
-"
-cargo
-"
-"
-std
-"
 "
 suggestions
 "
