@@ -3407,6 +3407,7 @@ textToSubURI
 unEscapeURIForUI
 (
 fileName
+true
 )
 )
 ;
@@ -3548,6 +3549,7 @@ unEscapeURIForUI
 url
 .
 fileName
+true
 )
 )
 ;
