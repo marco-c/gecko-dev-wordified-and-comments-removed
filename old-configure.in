@@ -10492,6 +10492,11 @@ Wl
 -
 framework
 AppKit
+-
+Wl
+-
+framework
+CoreMIDI
 '
 TK_CFLAGS
 =
