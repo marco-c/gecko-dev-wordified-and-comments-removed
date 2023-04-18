@@ -971,6 +971,10 @@ ReflowFinished
 (
 )
 {
+mReflowCallbackPosted
+=
+false
+;
 auto
 GetSize
 =
@@ -1817,6 +1821,10 @@ if
 mReflowCallbackPosted
 )
 {
+mReflowCallbackPosted
+=
+true
+;
 PresShell
 (
 )
