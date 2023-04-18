@@ -513,6 +513,14 @@ GR
 EHsc
 "
 ]
+HOST_DEFINES
+[
+"
+LLVM_FORCE_USE_OLD_TOOLCHAIN
+"
+]
+=
+True
 else
 :
 extra_cxxflags
