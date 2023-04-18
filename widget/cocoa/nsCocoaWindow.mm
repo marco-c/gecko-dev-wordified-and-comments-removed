@@ -1853,6 +1853,12 @@ NSWindowStyleMaskClosable
 }
 if
 (
+mPopupType
+!
+=
+ePopupTypeTooltip
+&
+&
 aBorderStyle
 &
 eBorderStyle_minimize
