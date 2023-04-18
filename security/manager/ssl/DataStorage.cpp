@@ -770,8 +770,12 @@ if
 AppShutdown
 :
 :
-IsShuttingDown
+IsInOrBeyond
 (
+ShutdownPhase
+:
+:
+AppShutdownConfirmed
 )
 )
 {

@@ -47,12 +47,6 @@ AppShutdown
 public
 :
 static
-bool
-IsShuttingDown
-(
-)
-;
-static
 ShutdownPhase
 GetCurrentShutdownPhase
 (
