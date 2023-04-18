@@ -185,6 +185,12 @@ ClearCache
 (
 )
 ;
+static
+void
+ClearPrivateBrowsingCache
+(
+)
+;
 [
 [
 nodiscard
