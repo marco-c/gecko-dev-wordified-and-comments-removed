@@ -1655,7 +1655,7 @@ void
 EndDocumentLoad
 (
 bool
-aForProcessSwitch
+aContinueNavigating
 )
 ;
 bool

@@ -1299,7 +1299,7 @@ if
 !
 aRejectValue
 .
-mSwitchedProcess
+mContinueNavigating
 )
 {
 self

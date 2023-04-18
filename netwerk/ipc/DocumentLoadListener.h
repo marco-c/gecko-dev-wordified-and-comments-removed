@@ -406,7 +406,7 @@ nsresult
 mLoadGroupStatus
 ;
 bool
-mSwitchedProcess
+mContinueNavigating
 =
 false
 ;
@@ -1099,7 +1099,7 @@ aStatus
 nsresult
 aLoadGroupStatus
 bool
-aSwitchedProcess
+aContinueNavigating
 =
 false
 )
@@ -1123,6 +1123,11 @@ ContentParent
 >
 &
 aDestinationProcess
+nsTArray
+<
+StreamFilterRequest
+>
+aStreamFilterRequests
 )
 ;
 void
@@ -1302,6 +1307,8 @@ const
 void
 Disconnect
 (
+bool
+aContinueNavigating
 )
 ;
 void
@@ -1643,11 +1650,6 @@ mInitiatedRedirectToRealChannel
 false
 ;
 bool
-mDoingProcessSwitch
-=
-false
-;
-bool
 mOldApplyConversion
 =
 false
@@ -1701,7 +1703,7 @@ aStatus
 nsresult
 aLoadGroupStatus
 bool
-aSwitchedProcess
+aContinueNavigating
 const
 char
 *
@@ -1727,7 +1729,7 @@ OpenPromiseFailedType
 {
 aStatus
 aLoadGroupStatus
-aSwitchedProcess
+aContinueNavigating
 }
 )
 aLocation

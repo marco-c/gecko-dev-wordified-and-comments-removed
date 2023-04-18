@@ -690,7 +690,7 @@ aRejectValue
 mLoadGroupStatus
 aRejectValue
 .
-mSwitchedProcess
+mContinueNavigating
 )
 ;
 }

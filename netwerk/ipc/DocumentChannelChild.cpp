@@ -906,13 +906,13 @@ nsresult
 &
 aLoadGroupStatus
 bool
-aSwitchedProcess
+aContinueNavigating
 )
 {
 if
 (
 !
-aSwitchedProcess
+aContinueNavigating
 )
 {
 DisconnectChildListeners
