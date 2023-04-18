@@ -2608,6 +2608,9 @@ n
 "
 )
 ;
+throw
+e
+;
 }
 }
 function
