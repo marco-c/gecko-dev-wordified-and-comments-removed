@@ -676,7 +676,7 @@ IsBytecode
 JS
 :
 :
-CancelOffThreadScriptDecoder
+CancelDecodeStencilOffThread
 (
 cx
 mOffThreadToken
