@@ -2326,11 +2326,10 @@ aNoOverwrite
 |
 |
 !
-DOMException
-.
-isInstance
 (
 err
+instanceof
+DOMException
 )
 |
 |

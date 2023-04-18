@@ -137,12 +137,9 @@ aParent
 {
 if
 (
-Window
-.
-isInstance
-(
 aParent
-)
+instanceof
+Window
 )
 {
 this

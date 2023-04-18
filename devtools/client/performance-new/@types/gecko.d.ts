@@ -2443,16 +2443,3 @@ MockedExports
 .
 nsIPrefBranch
 ;
-interface
-Function
-{
-isInstance
-(
-obj
-:
-any
-)
-:
-boolean
-;
-}

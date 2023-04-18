@@ -244,12 +244,9 @@ e
 )
 {
 return
-DOMException
-.
-isInstance
-(
 e
-)
+instanceof
+DOMException
 &
 &
 e

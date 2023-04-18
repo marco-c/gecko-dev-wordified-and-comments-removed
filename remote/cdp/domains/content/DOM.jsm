@@ -298,12 +298,9 @@ browsingContext
 ;
 if
 (
-HTMLIFrameElement
-.
-isInstance
-(
 unsafeObj
-)
+instanceof
+HTMLIFrameElement
 )
 {
 context
