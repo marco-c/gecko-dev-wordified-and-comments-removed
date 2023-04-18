@@ -4935,17 +4935,5 @@ T
 }
 ;
 }
-namespace
-js
-{
-using
-HeapPtrValue
-=
-HeapPtr
-<
-Value
->
-;
-}
 #
 endif
