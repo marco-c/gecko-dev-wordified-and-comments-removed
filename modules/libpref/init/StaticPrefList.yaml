@@ -20944,7 +20944,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+true
 mirror
 :
 always
@@ -33610,7 +33610,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+true
 mirror
 :
 always
@@ -33637,6 +33637,11 @@ String
 value
 :
 "
+*
+.
+zoom
+.
+us
 "
 mirror
 :
