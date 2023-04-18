@@ -185,10 +185,6 @@ resetScrollPosition
 =
 true
 ;
-devicePixelRatio
-=
-1
-;
 options
 .
 scale
