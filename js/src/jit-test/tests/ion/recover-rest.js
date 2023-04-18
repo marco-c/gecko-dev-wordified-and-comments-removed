@@ -600,7 +600,7 @@ rest
 assertRecoveredOnBailout
 (
 rest
-false
+true
 )
 ;
 return
@@ -635,7 +635,7 @@ rest
 assertRecoveredOnBailout
 (
 rest
-false
+true
 )
 ;
 return
@@ -731,7 +731,7 @@ rest
 assertRecoveredOnBailout
 (
 rest
-false
+true
 )
 ;
 return
@@ -766,7 +766,7 @@ rest
 assertRecoveredOnBailout
 (
 rest
-false
+true
 )
 ;
 return
@@ -933,7 +933,7 @@ rest
 assertRecoveredOnBailout
 (
 rest
-false
+true
 )
 ;
 return
@@ -969,7 +969,7 @@ rest
 assertRecoveredOnBailout
 (
 rest
-false
+true
 )
 ;
 return

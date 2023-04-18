@@ -1009,6 +1009,8 @@ Register
 extraStackSpace
 Register
 copyreg
+uint32_t
+extraFormals
 )
 ;
 void
