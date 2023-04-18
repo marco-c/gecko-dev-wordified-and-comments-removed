@@ -2112,6 +2112,10 @@ testValidateExnPayload
 (
 )
 ;
+testValidateRethrow
+(
+)
+;
 if
 (
 wasmCompileMode
@@ -2125,10 +2129,6 @@ baseline
 "
 )
 {
-testValidateRethrow
-(
-)
-;
 testValidateDelegate
 (
 )

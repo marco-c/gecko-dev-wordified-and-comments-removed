@@ -579,19 +579,6 @@ f
 42
 )
 ;
-if
-(
-wasmCompileMode
-(
-)
-=
-=
-=
-"
-baseline
-"
-)
-{
 assertThrowsValue
 (
 (
@@ -663,7 +650,6 @@ f
 42
 )
 ;
-}
 {
 var
 wasmThrower
