@@ -1094,6 +1094,17 @@ stubCode_
 ;
 public
 :
+static
+constexpr
+size_t
+FramePointerOffset
+=
+sizeof
+(
+void
+*
+)
+;
 JitCode
 *
 *
