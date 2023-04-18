@@ -863,7 +863,7 @@ Ci
 .
 nsIWebProgressListener
 .
-LOCATION_CHANGE_HASHCHANGE
+LOCATION_CHANGE_SAME_DOCUMENT
 )
 {
 this
@@ -903,7 +903,7 @@ messagePrefix
 }
 location
 =
-hashChange
+sameDocument
 :
 {
 this

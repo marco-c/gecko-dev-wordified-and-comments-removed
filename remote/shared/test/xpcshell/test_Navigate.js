@@ -478,7 +478,7 @@ executeSoon
 )
 ;
 }
-sendLocationChangeHashChange
+sendLocationChangeSameDocument
 (
 )
 {
@@ -512,7 +512,7 @@ Ci
 .
 nsIWebProgressListener
 .
-LOCATION_CHANGE_HASHCHANGE
+LOCATION_CHANGE_SAME_DOCUMENT
 )
 ;
 return
@@ -2980,7 +2980,7 @@ add_test
 (
 async
 function
-test_ProgressListener_resolveWhenHashChange
+test_ProgressListener_resolveWhenNavigatingInsideDocument
 (
 )
 {
@@ -3038,7 +3038,7 @@ resolved
 await
 webProgress
 .
-sendLocationChangeHashChange
+sendLocationChangeSameDocument
 (
 )
 ;
