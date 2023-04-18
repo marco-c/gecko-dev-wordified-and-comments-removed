@@ -77,7 +77,7 @@ promise_rejects_dom
 (
 t
 '
-InvalidStateError
+NoModificationAllowedError
 '
 fileHandle
 .
@@ -217,7 +217,7 @@ promise_rejects_dom
 (
 t
 '
-InvalidStateError
+NoModificationAllowedError
 '
 barFileHandle
 .
@@ -576,7 +576,7 @@ promise_rejects_dom
 (
 t
 '
-InvalidStateError
+NoModificationAllowedError
 '
 fileHandle
 .
@@ -681,7 +681,7 @@ promise_rejects_dom
 (
 t
 '
-InvalidStateError
+NoModificationAllowedError
 '
 fileHandle
 .
@@ -702,7 +702,7 @@ promise_rejects_dom
 (
 t
 '
-InvalidStateError
+NoModificationAllowedError
 '
 fileHandle
 .
