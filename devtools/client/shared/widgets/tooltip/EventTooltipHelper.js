@@ -122,8 +122,10 @@ init
 )
 ;
 }
-function
+class
 EventTooltip
+{
+constructor
 (
 tooltip
 eventListenerInfos
@@ -212,14 +214,7 @@ _subscriptions
 ]
 ;
 }
-EventTooltip
-.
-prototype
-=
-{
 init
-:
-function
 (
 )
 {
@@ -1249,8 +1244,6 @@ destroy
 ;
 }
 _addContentListeners
-:
-function
 (
 header
 )
@@ -1269,8 +1262,6 @@ _headerClicked
 ;
 }
 _headerClicked
-:
-function
 (
 event
 )
@@ -1660,8 +1651,6 @@ ready
 }
 }
 _debugClicked
-:
-function
 (
 event
 )
@@ -1735,8 +1724,6 @@ id
 }
 }
 _parseLocation
-:
-function
 (
 uri
 )
@@ -1901,8 +1888,6 @@ null
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -2103,7 +2088,6 @@ null
 ;
 }
 }
-;
 module
 .
 exports
