@@ -1,5 +1,17 @@
 {
 "
+stages
+"
+:
+"
+4
+"
+"
+pgo
+"
+:
+true
+"
 build_wasm
 "
 :
