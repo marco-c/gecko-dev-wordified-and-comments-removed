@@ -70,8 +70,8 @@ PRLogModuleInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -613,7 +613,6 @@ AudibleChangedReasons
 aReason
 )
 ;
-}
 }
 #
 endif

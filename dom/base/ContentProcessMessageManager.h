@@ -82,8 +82,8 @@ nsFrameMessageManager
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -352,7 +352,6 @@ sWasCreated
 ;
 }
 ;
-}
 }
 #
 endif

@@ -65,8 +65,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -743,7 +743,6 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 DOMIntersectionObserver
 NS_DOM_INTERSECTION_OBSERVER_IID
 )
-}
 }
 #
 endif

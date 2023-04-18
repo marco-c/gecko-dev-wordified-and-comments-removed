@@ -17,8 +17,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -205,7 +205,6 @@ MM_CHROME
 }
 }
 ;
-}
 }
 #
 endif

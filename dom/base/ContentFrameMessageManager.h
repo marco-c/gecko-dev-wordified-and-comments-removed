@@ -40,8 +40,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -213,7 +213,6 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 ContentFrameMessageManager
 NS_CONTENTFRAMEMESSAGEMANAGER_IID
 )
-}
 }
 #
 endif

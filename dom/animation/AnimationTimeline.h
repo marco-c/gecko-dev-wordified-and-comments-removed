@@ -75,8 +75,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -368,7 +368,6 @@ mAnimationOrder
 ;
 }
 ;
-}
 }
 #
 endif

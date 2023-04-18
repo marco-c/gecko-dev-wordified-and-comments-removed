@@ -44,8 +44,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -295,7 +295,6 @@ mSubtreeRootChanges
 ;
 }
 ;
-}
 }
 #
 endif

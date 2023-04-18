@@ -40,8 +40,8 @@ nsPIDOMWindowOuter
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -205,7 +205,6 @@ mIsRegToService
 ;
 }
 ;
-}
 }
 #
 endif

@@ -52,8 +52,8 @@ nsIThread
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -340,7 +340,6 @@ mShuttingDown
 ;
 }
 ;
-}
 }
 #
 endif

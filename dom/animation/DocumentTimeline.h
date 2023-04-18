@@ -77,8 +77,8 @@ JSContext
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -345,7 +345,6 @@ mOriginTime
 ;
 }
 ;
-}
 }
 #
 endif

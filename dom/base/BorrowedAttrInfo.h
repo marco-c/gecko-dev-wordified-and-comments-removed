@@ -21,8 +21,8 @@ nsAttrValue
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -88,7 +88,6 @@ nullptr
 }
 }
 ;
-}
 }
 #
 endif

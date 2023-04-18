@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -416,7 +416,6 @@ GetFlattenedTreeParentNode
 #
 undef
 MUTATION_GUARD
-}
 }
 template
 <

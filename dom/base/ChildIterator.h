@@ -30,8 +30,8 @@ nsIContent
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -584,7 +584,6 @@ Seek
 ;
 }
 ;
-}
 }
 #
 endif
