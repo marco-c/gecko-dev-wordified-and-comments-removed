@@ -31034,9 +31034,8 @@ call
 ;
 masm
 .
-setupUnalignedABICall
+setupAlignedABICall
 (
-argJSContext
 )
 ;
 masm
@@ -86926,9 +86925,8 @@ ins
 ;
 masm
 .
-setupUnalignedABICall
+setupAlignedABICall
 (
-JSContextReg
 )
 ;
 masm
@@ -87574,9 +87572,8 @@ ins
 ;
 masm
 .
-setupUnalignedABICall
+setupAlignedABICall
 (
-JSContextReg
 )
 ;
 masm
