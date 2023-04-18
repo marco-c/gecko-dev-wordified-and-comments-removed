@@ -48,7 +48,7 @@ js
 66
 )
 ;
-log
+info
 (
 "
 Select
@@ -104,7 +104,7 @@ js
 16
 )
 ;
-log
+info
 (
 "
 Select
@@ -155,7 +155,7 @@ js
 18
 )
 ;
-log
+info
 (
 "
 Select
