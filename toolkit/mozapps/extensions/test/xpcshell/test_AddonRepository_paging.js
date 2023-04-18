@@ -393,7 +393,7 @@ i
 ;
 }
 await
-AddonManagerInternal
+AddonManagerPrivate
 .
 backgroundUpdateCheck
 (

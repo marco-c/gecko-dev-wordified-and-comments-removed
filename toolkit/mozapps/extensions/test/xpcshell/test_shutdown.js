@@ -146,6 +146,12 @@ BOOTSTRAP_REASONS
 "
 notifyAddonChanged
 "
+"
+overrideAddonRepository
+"
+"
+overrideAsyncShutdown
+"
 ]
 ;
 async

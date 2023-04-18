@@ -237,7 +237,7 @@ ITEM_ID
 )
 ;
 await
-AddonManagerInternal
+AddonManagerPrivate
 .
 backgroundUpdateCheck
 (

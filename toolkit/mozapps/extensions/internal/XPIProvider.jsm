@@ -11802,6 +11802,16 @@ iterDirectory
 maybeResolveURI
 migrateAddonLoader
 resolveDBReady
+overrideAsyncShutdown
+(
+mockAsyncShutdown
+)
+{
+AsyncShutdown
+=
+mockAsyncShutdown
+;
+}
 }
 ;
 AddonManagerPrivate
