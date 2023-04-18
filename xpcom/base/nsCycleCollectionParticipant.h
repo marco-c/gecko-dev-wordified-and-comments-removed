@@ -2923,6 +2923,7 @@ DEBUG
 #
 define
 NOT_INHERITED_CANT_OVERRIDE
+\
 virtual
 void
 BaseCycleCollectable
