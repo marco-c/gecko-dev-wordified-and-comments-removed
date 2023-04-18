@@ -225,7 +225,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExperimentAPI
 "
@@ -1179,6 +1179,8 @@ false
 const
 pocketNewtabExperiment
 =
+lazy
+.
 ExperimentAPI
 .
 getExperiment
