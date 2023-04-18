@@ -83,6 +83,9 @@ submitting_networking_bugs
 .
 md
 new_to_necko_resources
+network_test_guidelines
+.
+md
 .
 .
 _HTTP
