@@ -44,13 +44,6 @@ WebRenderBridgeChild
 .
 h
 "
-#
-include
-"
-RenderRootStateManager
-.
-h
-"
 namespace
 mozilla
 {

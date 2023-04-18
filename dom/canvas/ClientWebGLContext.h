@@ -902,6 +902,15 @@ Max
 >
 extensions
 ;
+RefPtr
+<
+layers
+:
+:
+CanvasRenderer
+>
+mCanvasRenderer
+;
 explicit
 NotLostData
 (
