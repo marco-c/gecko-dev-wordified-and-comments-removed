@@ -2507,6 +2507,13 @@ AppendSample
 sample
 )
 ;
+{
+MonitorAutoLock
+mon
+(
+mMonitor
+)
+;
 if
 (
 mNextRandomAccessPoint
@@ -2518,12 +2525,6 @@ sample
 mTime
 )
 {
-MonitorAutoLock
-mon
-(
-mMonitor
-)
-;
 mNextRandomAccessPoint
 =
 mManager
@@ -2538,6 +2539,7 @@ MediaSourceDemuxer
 EOS_FUZZ
 )
 ;
+}
 }
 return
 SamplesPromise
