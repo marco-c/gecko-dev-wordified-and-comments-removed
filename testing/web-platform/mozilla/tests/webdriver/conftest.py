@@ -81,6 +81,14 @@ tests
 .
 support
 .
+fixtures_bidi
+"
+    
+"
+tests
+.
+support
+.
 fixtures_http
 "
 ]
