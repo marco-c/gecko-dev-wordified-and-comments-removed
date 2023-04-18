@@ -18,13 +18,10 @@ Units
 .
 h
 "
-class
-nsIBaseWindow
-;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsXULElement
@@ -60,9 +57,6 @@ XULResizerElement
 (
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -89,9 +83,6 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 PostHandleEvent
 (
-mozilla
-:
-:
 EventChainPostVisitor
 &
 )
@@ -130,9 +121,6 @@ MOZ_CAN_RUN_SCRIPT
 void
 PostHandleEventInternal
 (
-mozilla
-:
-:
 EventChainPostVisitor
 &
 )
@@ -157,11 +145,8 @@ nsIContent
 *
 GetContentToResize
 (
-nsIBaseWindow
-*
-*
-aWindow
 )
+const
 ;
 static
 void
@@ -173,10 +158,6 @@ aPos
 int32_t
 *
 aSize
-int32_t
-aMinSize
-int32_t
-aMaxSize
 int32_t
 aMovement
 int8_t
@@ -265,7 +246,6 @@ false
 ;
 }
 ;
-}
 }
 #
 endif
