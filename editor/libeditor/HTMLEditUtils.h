@@ -5760,6 +5760,8 @@ maybeFirstListItem
 >
 GetNextNode
 (
+&
+aListElement
 )
 )
 {
