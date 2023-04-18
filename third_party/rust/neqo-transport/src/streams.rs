@@ -2074,7 +2074,7 @@ StreamType
 >
 Res
 <
-u64
+StreamId
 >
 {
 match
@@ -2254,10 +2254,6 @@ clone
 Ok
 (
 new_id
-.
-as_u64
-(
-)
 )
 }
 }
