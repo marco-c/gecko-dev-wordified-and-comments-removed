@@ -558,9 +558,6 @@ em
 default
 :
 7200
-e10s
-:
-true
 variants
 :
 -
@@ -907,9 +904,6 @@ variants
 :
 [
 ]
-e10s
-:
-true
 run
 -
 on
@@ -1139,9 +1133,6 @@ android
 default
 :
 4
-e10s
-:
-true
 variants
 :
 -
@@ -1537,9 +1528,6 @@ variants
 :
 [
 ]
-e10s
-:
-true
 run
 -
 on

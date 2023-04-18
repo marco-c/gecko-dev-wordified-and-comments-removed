@@ -297,9 +297,6 @@ default
 geckoview_example
 .
 apk
-e10s
-:
-true
 virtualization
 :
 hardware

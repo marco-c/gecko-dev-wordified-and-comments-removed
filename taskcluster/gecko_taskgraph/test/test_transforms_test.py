@@ -854,14 +854,10 @@ webrender
 sw
 +
 wayland
++
+1proc
 "
 }
-                
-"
-e10s
-"
-:
-False
                 
 "
 test
@@ -1004,12 +1000,6 @@ attributes
 }
                 
 "
-e10s
-"
-:
-True
-                
-"
 test
 -
 platform
@@ -1143,12 +1133,6 @@ attributes
 :
 {
 }
-                
-"
-e10s
-"
-:
-True
                 
 "
 test

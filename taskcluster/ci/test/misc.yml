@@ -125,9 +125,6 @@ loopback
 video
 :
 true
-e10s
-:
-true
 target
 :
 geckoview

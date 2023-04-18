@@ -302,9 +302,6 @@ opt
 default
 :
 1
-e10s
-:
-true
 variants
 :
 -
@@ -767,9 +764,6 @@ C
 chunks
 :
 1
-e10s
-:
-true
 variants
 :
 [
@@ -1294,9 +1288,6 @@ opt
 default
 :
 8
-e10s
-:
-true
 variants
 :
 -
@@ -1863,9 +1854,6 @@ R
 chunks
 :
 2
-e10s
-:
-true
 variants
 :
 -
