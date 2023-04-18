@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -46,6 +52,8 @@ headers
     
 url
 =
+isomorphic_decode
+(
 request
 .
 GET
@@ -55,6 +63,7 @@ b
 Redirect
 '
 ]
+)
     
 headers
 .
