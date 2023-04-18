@@ -10427,9 +10427,6 @@ ExecuteCompiledScript
 JSContext
 *
 aCx
-ScriptLoadRequest
-*
-aRequest
 JSExecutionContext
 &
 aExec
@@ -11590,7 +11587,6 @@ rv
 ExecuteCompiledScript
 (
 cx
-aRequest
 exec
 classicScript
 )
