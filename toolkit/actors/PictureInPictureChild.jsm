@@ -4669,12 +4669,6 @@ AppConstants
 NIGHTLY_BUILD
 &
 &
-!
-AppConstants
-.
-DEBUG
-&
-&
 overrides
 ?
 overrides
