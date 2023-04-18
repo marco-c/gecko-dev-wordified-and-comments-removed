@@ -339,8 +339,10 @@ nullptr
 )
 ;
 }
-static
 void
+NullPrincipal
+:
+:
 EscapePrecursorQuery
 (
 nsACString
@@ -356,7 +358,7 @@ if
 NS_EscapeURLSpan
 (
 aPrecursorQuery
-esc_OnlyNonASCII
+esc_Query
 |
 esc_Forced
 modified
@@ -378,8 +380,10 @@ modified
 ;
 }
 }
-static
 void
+NullPrincipal
+:
+:
 UnescapePrecursorQuery
 (
 nsACString
