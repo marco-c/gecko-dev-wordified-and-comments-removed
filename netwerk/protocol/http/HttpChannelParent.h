@@ -708,6 +708,16 @@ const
 uint32_t
 &
 requestBlockingReason
+const
+mozilla
+:
+:
+Maybe
+<
+nsCString
+>
+&
+logString
 )
 override
 ;

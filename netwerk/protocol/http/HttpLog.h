@@ -24,6 +24,14 @@ mozilla
 namespace
 net
 {
+Maybe
+<
+nsCString
+>
+CallingScriptLocationString
+(
+)
+;
 void
 LogCallingScriptLocation
 (
