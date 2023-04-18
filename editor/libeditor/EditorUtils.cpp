@@ -1583,7 +1583,8 @@ NS_ERROR_FAILURE
 )
 ;
 }
-EditorRawDOMPoint
+const
+EditorDOMPoint
 insertionPoint
 =
 aEditorBase
@@ -1591,13 +1592,6 @@ aEditorBase
 FindBetterInsertionPoint
 (
 atStartOfSelection
-.
-To
-<
-EditorRawDOMPoint
->
-(
-)
 )
 ;
 if

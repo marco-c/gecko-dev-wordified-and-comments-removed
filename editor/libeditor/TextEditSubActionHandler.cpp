@@ -434,6 +434,7 @@ EditSubAction
 eInsertTextComingFromIME
 )
 {
+const
 EditorRawDOMPoint
 point
 =
