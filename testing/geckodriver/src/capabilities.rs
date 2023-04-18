@@ -3029,7 +3029,6 @@ format
 "
 Argument
 {
-arg
 }
 can
 '
@@ -3039,6 +3038,7 @@ set
 via
 capabilities
 "
+arg
 )
 )
 )
