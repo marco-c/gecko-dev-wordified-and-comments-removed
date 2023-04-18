@@ -769,7 +769,7 @@ const
 override
 ;
 virtual
-nsIntRect
+LayoutDeviceIntRect
 Bounds
 (
 )

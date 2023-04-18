@@ -1552,7 +1552,7 @@ forget
 )
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 RemoteAccessible
 :
 :
@@ -1566,7 +1566,7 @@ uint32_t
 aCoordType
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 Unused
@@ -1589,7 +1589,7 @@ return
 rect
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 RemoteAccessible
 :
 :
@@ -1601,7 +1601,7 @@ uint32_t
 aCoordType
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 Unused
@@ -2099,7 +2099,7 @@ return
 valid
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 RemoteAccessible
 :
 :
@@ -2109,7 +2109,7 @@ uint32_t
 aCoordType
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 retVal
 ;
 Unused
@@ -2130,7 +2130,7 @@ return
 retVal
 ;
 }
-nsIntSize
+LayoutDeviceIntSize
 RemoteAccessible
 :
 :
@@ -2138,7 +2138,7 @@ ImageSize
 (
 )
 {
-nsIntSize
+LayoutDeviceIntSize
 retVal
 ;
 Unused
@@ -5095,7 +5095,7 @@ ChildCount
 0
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 rect
 =
 target
@@ -5170,7 +5170,7 @@ EWhichChildAtPoint
 DirectChild
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 docRect
 =
 target
@@ -5302,7 +5302,7 @@ return
 target
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 RemoteAccessible
 :
 :
@@ -5333,7 +5333,7 @@ Bounds
 )
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 Unused

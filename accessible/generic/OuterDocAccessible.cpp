@@ -360,7 +360,7 @@ EWhichChildAtPoint
 aWhichChild
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 docRect
 =
 Bounds
@@ -1038,7 +1038,7 @@ EWhichChildAtPoint
 aWhichChild
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 docRect
 =
 Bounds

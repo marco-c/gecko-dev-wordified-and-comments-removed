@@ -2602,7 +2602,7 @@ const
 uint32_t
 &
 aCoordType
-nsIntRect
+LayoutDeviceIntRect
 *
 aRetVal
 )
@@ -2673,7 +2673,7 @@ const
 uint32_t
 &
 aCoordType
-nsIntRect
+LayoutDeviceIntRect
 *
 aRetVal
 )
@@ -3777,7 +3777,7 @@ const
 uint32_t
 &
 aCoordType
-nsIntPoint
+LayoutDeviceIntPoint
 *
 aRetVal
 )
@@ -3830,7 +3830,7 @@ const
 uint64_t
 &
 aID
-nsIntSize
+LayoutDeviceIntSize
 *
 aRetVal
 )
@@ -9600,7 +9600,7 @@ IsDefunct
 )
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 screenRect
 =
 acc
@@ -9625,7 +9625,7 @@ if
 aNeedsScreenCoords
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 winCoords
 =
 nsCoreUtils

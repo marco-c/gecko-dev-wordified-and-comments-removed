@@ -129,13 +129,12 @@ nsIURI
 .
 h
 "
-using
 namespace
 mozilla
 :
 :
 a11y
-;
+{
 NS_IMPL_ISUPPORTS_INHERITED
 (
 ImageAccessible
@@ -694,9 +693,6 @@ false
 ;
 RefPtr
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -731,7 +727,7 @@ tmp
 )
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 ImageAccessible
 :
 :
@@ -741,7 +737,7 @@ uint32_t
 aCoordType
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 point
 =
 Bounds
@@ -773,7 +769,7 @@ return
 point
 ;
 }
-nsIntSize
+LayoutDeviceIntSize
 ImageAccessible
 :
 :
@@ -1386,4 +1382,5 @@ mImageRequestStatus
 =
 status
 ;
+}
 }

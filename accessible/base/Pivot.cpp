@@ -2577,7 +2577,7 @@ FILTER_MATCH
 match
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 childRect
 =
 child

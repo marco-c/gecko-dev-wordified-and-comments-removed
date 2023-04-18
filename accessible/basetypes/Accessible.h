@@ -40,6 +40,13 @@ nsRect
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 nsAtom
 ;
@@ -434,7 +441,7 @@ const
 0
 ;
 virtual
-nsIntRect
+LayoutDeviceIntRect
 Bounds
 (
 )
