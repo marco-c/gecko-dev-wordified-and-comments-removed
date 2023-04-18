@@ -202,6 +202,38 @@ assert_implements_container_queries
 script
 >
 <
+!
+-
+-
+"
+Implicit
+"
+refers
+to
+implicit
+container
+selection
+i
+.
+e
+.
+understanding
+which
+container
+to
+evaluate
+against
+by
+looking
+at
+the
+features
+used
+.
+-
+-
+>
+<
 style
 >
 container
@@ -223,7 +255,7 @@ child
 {
 -
 -
-nearest
+implicit
 :
 true
 ;
@@ -256,7 +288,7 @@ getPropertyValue
 '
 -
 -
-nearest
+implicit
 '
 )
 '
@@ -266,7 +298,7 @@ true
 ;
 }
 '
-Nearest
+Implicit
 '
 )
 ;
@@ -296,7 +328,7 @@ child
 {
 -
 -
-nearest
+implicit
 -
 outer
 -
@@ -333,7 +365,7 @@ getPropertyValue
 '
 -
 -
-nearest
+implicit
 -
 outer
 -
@@ -346,7 +378,7 @@ fail
 ;
 }
 '
-Nearest
+Implicit
 outer
 failing
 '
@@ -378,7 +410,7 @@ child
 {
 -
 -
-nearest
+implicit
 -
 inner
 -
@@ -415,7 +447,7 @@ getPropertyValue
 '
 -
 -
-nearest
+implicit
 -
 inner
 -
@@ -428,7 +460,7 @@ fail
 ;
 }
 '
-Nearest
+Implicit
 inner
 failing
 '
@@ -814,7 +846,7 @@ outer
 -
 inner
 -
-nearest
+implicit
 :
 true
 ;
@@ -853,7 +885,7 @@ outer
 -
 inner
 -
-nearest
+implicit
 '
 )
 '
@@ -866,7 +898,7 @@ true
 Outer
 named
 inner
-nearest
+implicit
 '
 )
 ;
@@ -897,7 +929,7 @@ child
 {
 -
 -
-nearest
+implicit
 -
 outer
 -
@@ -936,7 +968,7 @@ getPropertyValue
 '
 -
 -
-nearest
+implicit
 -
 outer
 -
@@ -955,7 +987,7 @@ true
 Inner
 named
 outer
-nearest
+implicit
 '
 )
 ;
@@ -986,7 +1018,7 @@ child
 {
 -
 -
-nearest
+implicit
 -
 outer
 -
@@ -1027,7 +1059,7 @@ getPropertyValue
 '
 -
 -
-nearest
+implicit
 -
 outer
 -
@@ -1048,7 +1080,7 @@ true
 Inner
 named
 outer
-nearest
+implicit
 (
 reverse
 )
@@ -1402,7 +1434,7 @@ child
 -
 outer
 -
-nearest
+implicit
 -
 invalidation
 :
@@ -1459,7 +1491,7 @@ getPropertyValue
 -
 outer
 -
-nearest
+implicit
 -
 invalidation
 '
@@ -1493,7 +1525,7 @@ getPropertyValue
 -
 outer
 -
-nearest
+implicit
 -
 invalidation
 '
@@ -1504,7 +1536,7 @@ invalidation
 ;
 }
 '
-Nearest
+Implicit
 outer
 invalidation
 '
