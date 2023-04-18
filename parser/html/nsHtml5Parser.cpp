@@ -191,6 +191,7 @@ nsHtml5TreeBuilder
 (
 mExecutor
 nullptr
+false
 )
 )
 mTokenizer
@@ -522,6 +523,9 @@ mExecutor
 SetDocumentCharsetAndSource
 (
 aEncoding
+(
+nsCharsetSource
+)
 aCharsetSource
 )
 ;
@@ -1781,6 +1785,7 @@ executor
 GetStage
 (
 )
+true
 )
 ;
 mDocWriteSpeculativeTreeBuilder

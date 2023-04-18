@@ -83,6 +83,13 @@ nsAutoString
 aTitle
 )
 ;
+void
+UpdateCharsetSource
+(
+nsCharsetSource
+aCharsetSource
+)
+;
 int32_t
 Transition
 (

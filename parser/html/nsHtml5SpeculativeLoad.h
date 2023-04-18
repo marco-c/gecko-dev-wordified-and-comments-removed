@@ -1088,6 +1088,8 @@ Encoding
 aEncoding
 int32_t
 aCharsetSource
+bool
+aCommitEncodingSpeculation
 )
 {
 MOZ_ASSERT
@@ -1131,6 +1133,10 @@ char16_t
 )
 aCharsetSource
 )
+;
+mCommitEncodingSpeculation
+=
+aCommitEncodingSpeculation
 ;
 }
 inline
@@ -1364,6 +1370,9 @@ mIsLinkPreload
 ;
 bool
 mIsError
+;
+bool
+mCommitEncodingSpeculation
 ;
 nsString
 mUrlOrSizes

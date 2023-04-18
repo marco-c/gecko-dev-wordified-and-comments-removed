@@ -101,6 +101,9 @@ mCurrentHtmlScriptIsAsyncOrDefer
 bool
 mPreventScriptExecution
 ;
+bool
+mGenerateSpeculativeLoads
+;
 #
 ifdef
 DEBUG
@@ -223,6 +226,8 @@ aOpSink
 nsHtml5TreeOpStage
 *
 aStage
+bool
+aGenerateSpeculativeLoads
 )
 ;
 ~
@@ -303,7 +308,16 @@ Encoding
 *
 >
 aEncoding
-int32_t
+nsCharsetSource
+aCharsetSource
+bool
+aCommitEncodingSpeculation
+)
+;
+void
+UpdateCharsetSource
+(
+nsCharsetSource
 aCharsetSource
 )
 ;

@@ -73,6 +73,17 @@ aOpQueue
 override
 ;
 void
+MoveOpsTo
+(
+nsTArray
+<
+nsHtml5TreeOperation
+>
+&
+aOpQueue
+)
+;
+void
 MoveOpsAndSpeculativeLoadsTo
 (
 nsTArray

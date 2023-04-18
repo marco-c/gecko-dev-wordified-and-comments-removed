@@ -125,6 +125,13 @@ nsHtml5StreamListener
 .
 h
 "
+#
+include
+"
+nsCharsetSource
+.
+h
+"
 class
 nsHtml5Parser
 final
