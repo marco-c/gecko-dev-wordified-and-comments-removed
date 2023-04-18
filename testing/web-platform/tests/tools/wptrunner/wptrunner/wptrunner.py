@@ -2212,7 +2212,7 @@ repeat
         
 test_status
 .
-expected_repeat
+expected_repeated_runs
 =
 repeat
         

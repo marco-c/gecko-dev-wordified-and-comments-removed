@@ -35,6 +35,10 @@ import
 BaseHandler
 StreamHandler
 LogLevelFilter
+from
+.
+import
+wptrunner
 here
 =
 os
@@ -2264,11 +2268,6 @@ kwargs
 )
 :
     
-from
-.
-import
-wptrunner
-    
 kwargs
 =
 copy
@@ -2329,11 +2328,14 @@ x
 if
 not
 kwargs
-[
+.
+get
+(
 "
 verify_log_full
 "
-]
+False
+)
 :
             
 x
@@ -2423,26 +2425,6 @@ run_tests
 kwargs
 )
     
-iterations
-=
-test_status
-.
-repeated_runs
-    
-if
-not
-restart_after_iteration
-:
-        
-iterations
-=
-kwargs
-[
-"
-rerun
-"
-]
-    
 logger
 .
 _state
@@ -2476,6 +2458,28 @@ seek
 0
 )
     
+total_iterations
+=
+test_status
+.
+repeated_runs
+*
+kwargs
+.
+get
+(
+"
+rerun
+"
+1
+)
+    
+all_skipped
+=
+test_status
+.
+all_skipped
+    
 results
 inconsistent
 slow
@@ -2483,13 +2487,12 @@ slow
 process_results
 (
 log
-test_status
-.
-repeated_runs
+total_iterations
 )
     
 return
-test_status
+total_iterations
+all_skipped
 results
 inconsistent
 slow
@@ -2870,11 +2873,13 @@ github_checks_outputter
 get_gh_checks_outputter
 (
 kwargs
-[
+.
+get
+(
 "
 github_checks_text_file
 "
-]
+)
 )
     
 for
@@ -3001,7 +3006,8 @@ info
 '
 )
         
-test_status
+total_iterations
+all_skipped
 results
 inconsistent
 slow
@@ -3012,18 +3018,6 @@ step_func
 *
 kwargs
 )
-        
-iterations
-=
-test_status
-.
-repeated_runs
-        
-all_skipped
-=
-test_status
-.
-all_skipped
         
 logger
 .
@@ -3036,7 +3030,7 @@ f
 :
 Ran
 {
-iterations
+total_iterations
 }
 of
 expected
@@ -3049,7 +3043,7 @@ iterations
 )
         
 if
-iterations
+total_iterations
 <
 =
 1
@@ -3141,7 +3135,7 @@ logger
 .
 info
 results
-iterations
+total_iterations
 )
         
 if
@@ -3169,8 +3163,9 @@ write_github_checks_summary_inconsistent
 github_checks_outputter
 .
 output
+                                                         
 inconsistent
-iterations
+total_iterations
 )
             
 write_inconsistent
@@ -3179,7 +3174,7 @@ logger
 .
 info
 inconsistent
-iterations
+total_iterations
 )
             
 write_summary
@@ -3243,7 +3238,7 @@ return
 1
         
 if
-iterations
+total_iterations
 !
 =
 expected_iterations
@@ -3256,7 +3251,7 @@ f
 PASS
 *
 {
-iterations
+total_iterations
 }
 /
 {
