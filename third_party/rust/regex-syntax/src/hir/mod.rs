@@ -1315,11 +1315,7 @@ info
 .
 set_match_empty
 (
-word_boundary
-.
-is_negated
-(
-)
+true
 )
 ;
 if
