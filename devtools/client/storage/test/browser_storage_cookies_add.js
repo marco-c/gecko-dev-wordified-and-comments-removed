@@ -190,7 +190,11 @@ await
 addTab
 (
 TEST_URL
+{
+window
+:
 privateWindow
+}
 )
 ;
 await
