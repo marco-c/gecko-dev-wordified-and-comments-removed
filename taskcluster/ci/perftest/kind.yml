@@ -131,6 +131,11 @@ job
 -
 defaults
 :
+attributes
+:
+retrigger
+:
+true
 run
 -
 on
