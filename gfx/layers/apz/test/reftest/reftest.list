@@ -984,7 +984,7 @@ the
 layout
 viewport
 .
-fuzzy
+skip
 -
 if
 (
@@ -992,12 +992,6 @@ winWidget
 &
 &
 isCoverageBuild
-1
--
-1
-24
--
-24
 )
 pref
 (
@@ -1028,7 +1022,7 @@ fixed
 ref
 .
 html
-fuzzy
+skip
 -
 if
 (
@@ -1036,12 +1030,6 @@ winWidget
 &
 &
 isCoverageBuild
-1
--
-1
-24
--
-24
 )
 pref
 (

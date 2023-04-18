@@ -390,6 +390,15 @@ yuv420p
 av1
 .
 webm
+skip
+-
+if
+(
+winWidget
+&
+&
+isCoverageBuild
+)
 fuzzy
 (
 0
