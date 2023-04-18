@@ -10400,12 +10400,6 @@ JSOp
 :
 FunCall
 :
-case
-JSOp
-:
-:
-FunApply
-:
 {
 uint16_t
 argc

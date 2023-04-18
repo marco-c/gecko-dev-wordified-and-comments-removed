@@ -2582,12 +2582,6 @@ case
 JSOp
 :
 :
-FunApply
-:
-case
-JSOp
-:
-:
 New
 :
 case

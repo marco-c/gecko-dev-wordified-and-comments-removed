@@ -3843,15 +3843,6 @@ status
 \
 MACRO_
 (
-std_Function_apply
-std_Function_apply
-"
-std_Function_apply
-"
-)
-\
-MACRO_
-(
 sticky
 sticky
 "

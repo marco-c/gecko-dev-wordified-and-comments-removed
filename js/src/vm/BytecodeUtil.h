@@ -1771,15 +1771,6 @@ JSOp
 :
 :
 FunCall
-|
-|
-op
-=
-=
-JSOp
-:
-:
-FunApply
 )
 ;
 return
