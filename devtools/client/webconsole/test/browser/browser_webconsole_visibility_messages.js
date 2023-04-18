@@ -745,7 +745,7 @@ async
 >
 (
 await
-findMessagesVirtualized
+findMessagesVirtualizedByType
 (
 {
 hud
@@ -756,6 +756,14 @@ in
 -
 inspector
 log
+"
+typeSelector
+:
+"
+.
+console
+-
+api
 "
 }
 )

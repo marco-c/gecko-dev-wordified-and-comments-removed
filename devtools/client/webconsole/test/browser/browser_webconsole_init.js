@@ -153,15 +153,13 @@ is
 (
 (
 await
-findMessagesVirtualized
+findMessagesVirtualizedByType
 (
 {
 hud
-selector
+typeSelector
 :
 "
-.
-message
 .
 console
 -
