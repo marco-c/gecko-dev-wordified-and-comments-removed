@@ -6032,6 +6032,16 @@ pref
 "
 print
 .
+show_page_setup_menu
+"
+false
+)
+;
+pref
+(
+"
+print
+.
 print_headerleft
 "
 "
