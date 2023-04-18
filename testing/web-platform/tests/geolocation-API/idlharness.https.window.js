@@ -3,8 +3,6 @@ idl_test
 [
 '
 geolocation
--
-API
 '
 ]
 [
