@@ -66,6 +66,15 @@ filters
 js
 "
 "
+http
+-
+custom
+-
+request
+.
+js
+"
+"
 index
 .
 js
