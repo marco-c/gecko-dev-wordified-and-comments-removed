@@ -10189,7 +10189,7 @@ if
 (
 v
 .
-hasObjectPayload
+isObject
 (
 )
 )
@@ -10201,7 +10201,7 @@ obj2
 &
 v
 .
-getObjectPayload
+toObject
 (
 )
 ;
