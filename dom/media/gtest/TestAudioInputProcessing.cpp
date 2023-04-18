@@ -1057,7 +1057,7 @@ principal2
 principal1
 }
 {
-200
+440
 PRINCIPAL_HANDLE_NONE
 }
 {
@@ -1077,11 +1077,15 @@ PRINCIPAL_HANDLE_NONE
 principal2
 }
 {
-400
+490
 principal1
 }
 {
-300
+600
+principal1
+}
+{
+330
 principal1
 }
 }
@@ -1297,7 +1301,7 @@ Process
 (
 graph
 0
-3840
+4800
 &
 input
 &
@@ -1311,7 +1315,7 @@ input
 GetDuration
 (
 )
-3840
+4800
 )
 ;
 EXPECT_EQ
@@ -1321,7 +1325,7 @@ data
 GetDuration
 (
 )
-3840
+4800
 )
 ;
 AudioSegment
@@ -1367,7 +1371,7 @@ GetDuration
 )
 480
 +
-3840
+4800
 )
 ;
 output
@@ -1378,7 +1382,7 @@ data
 480
 480
 +
-3840
+4800
 )
 ;
 }
@@ -1408,7 +1412,7 @@ Process
 (
 graph
 0
-3840
+4800
 &
 input
 &
@@ -1422,7 +1426,7 @@ input
 GetDuration
 (
 )
-3840
+4800
 )
 ;
 EXPECT_EQ
@@ -1432,7 +1436,7 @@ output
 GetDuration
 (
 )
-3840
+4800
 )
 ;
 verifyPrincipals
