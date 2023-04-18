@@ -1143,9 +1143,6 @@ DataSource
 &
 mDataSource
 ;
-bool
-mPrefillQuirk
-;
 RefPtr
 <
 AudioDeviceInfo
