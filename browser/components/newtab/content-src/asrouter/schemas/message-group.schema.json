@@ -403,5 +403,5 @@ enabled
 additionalProperties
 "
 :
-false
+true
 }

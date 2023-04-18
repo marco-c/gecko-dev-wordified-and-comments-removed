@@ -571,9 +571,7 @@ tabshifted
 additionalProperties
 "
 :
-"
-false
-"
+true
 "
 required
 "
@@ -592,7 +590,7 @@ where
 additionalProperties
 "
 :
-false
+true
 "
 required
 "

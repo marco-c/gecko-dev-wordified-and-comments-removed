@@ -672,7 +672,7 @@ image
 additionalProperties
 "
 :
-false
+true
 "
 required
 "

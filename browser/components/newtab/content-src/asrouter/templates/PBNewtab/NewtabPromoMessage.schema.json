@@ -673,4 +673,9 @@ uri
 "
 }
 }
+"
+additionalProperties
+"
+:
+true
 }

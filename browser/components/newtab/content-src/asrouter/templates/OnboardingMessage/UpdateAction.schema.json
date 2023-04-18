@@ -293,7 +293,7 @@ action
 additionalProperties
 "
 :
-false
+true
 "
 description
 "
@@ -328,7 +328,7 @@ data
 additionalProperties
 "
 :
-false
+true
 "
 required
 "

@@ -342,7 +342,7 @@ size
 additionalProperties
 "
 :
-false
+true
 }
 "
 body
@@ -786,7 +786,7 @@ type
 additionalProperties
 "
 :
-false
+true
 }
 }
 "
@@ -934,7 +934,7 @@ action
 additionalProperties
 "
 :
-false
+true
 "
 required
 "
@@ -1093,7 +1093,7 @@ label
 additionalProperties
 "
 :
-false
+true
 }
 "
 screens
