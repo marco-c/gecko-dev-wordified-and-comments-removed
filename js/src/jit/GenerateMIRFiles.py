@@ -551,6 +551,11 @@ ClassBodyScope
 "
     
 "
+VarScope
+*
+"
+    
+"
 NamedLambdaObject
 *
 "
