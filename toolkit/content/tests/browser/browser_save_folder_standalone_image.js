@@ -371,7 +371,7 @@ dirPath
 await
 showFilePickerPromise
 ;
-todo_is
+is
 (
 dirPath
 dir
