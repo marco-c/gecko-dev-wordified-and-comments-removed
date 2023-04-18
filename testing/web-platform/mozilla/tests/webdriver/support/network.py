@@ -16,6 +16,12 @@ None
 origin
 =
 None
+path
+=
+"
+/
+session
+"
 )
 :
     
@@ -41,8 +47,9 @@ http
 {
 real_host
 }
-/
-session
+{
+path
+}
 "
     
 conn

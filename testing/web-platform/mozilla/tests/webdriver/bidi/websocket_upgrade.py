@@ -522,7 +522,7 @@ current_browser
 =
 browser
 (
-enable_bidi
+use_bidi
 =
 True
 )
@@ -921,7 +921,7 @@ current_browser
 browser
 (
         
-enable_bidi
+use_bidi
 =
 True
         
@@ -1036,7 +1036,7 @@ current_browser
 =
 browser
 (
-enable_bidi
+use_bidi
 =
 True
 )
@@ -1138,7 +1138,7 @@ current_browser
 browser
 (
         
-enable_bidi
+use_bidi
 =
 True
         
