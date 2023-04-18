@@ -127,7 +127,6 @@ editor
 import
 {
 makeBreakpointId
-sortSelectedBreakpoints
 }
 from
 "
@@ -434,10 +433,6 @@ getEditor
 const
 sources
 =
-[
-.
-.
-.
 breakpointSources
 .
 map
@@ -451,7 +446,6 @@ source
 >
 source
 )
-]
 ;
 return
 (
@@ -480,15 +474,6 @@ breakpoints
 =
 >
 {
-const
-sortedBreakpoints
-=
-sortSelectedBreakpoints
-(
-breakpoints
-selectedSource
-)
-;
 return
 [
 <
@@ -512,10 +497,7 @@ sources
 }
 /
 >
-.
-.
-.
-sortedBreakpoints
+breakpoints
 .
 map
 (
