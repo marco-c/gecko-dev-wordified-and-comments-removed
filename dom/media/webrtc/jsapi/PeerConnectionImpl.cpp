@@ -1282,6 +1282,7 @@ mCertificate
 mSTSThread
 mTransceivers
 mReceiveStreams
+mKungFuDeathGrip
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_PRESERVED_WRAPPER
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -1297,6 +1298,7 @@ mCertificate
 mSTSThread
 mTransceivers
 mReceiveStreams
+mKungFuDeathGrip
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_WRAPPERCACHE
@@ -1755,6 +1757,10 @@ MOZ_ASSERT_IF
 aGlobal
 mWindow
 )
+;
+mKungFuDeathGrip
+=
+this
 ;
 if
 (

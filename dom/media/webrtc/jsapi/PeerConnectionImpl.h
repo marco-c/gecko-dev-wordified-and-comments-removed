@@ -3391,6 +3391,12 @@ mSignalHandler
 ;
 RefPtr
 <
+PeerConnectionImpl
+>
+mKungFuDeathGrip
+;
+RefPtr
+<
 PacketDumper
 >
 mPacketDumper
