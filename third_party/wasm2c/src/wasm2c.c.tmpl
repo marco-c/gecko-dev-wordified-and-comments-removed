@@ -670,7 +670,10 @@ data
 [
 addr
 &
-WASM_HEAP_MASK
+mem
+-
+>
+mem_mask
 ]
 #
 else
@@ -3532,7 +3535,8 @@ void
 *
 create_wasm2c_sandbox
 (
-void
+uint32_t
+max_wasm_pages
 )
 {
 wasm2c_sandbox_t
@@ -3560,6 +3564,7 @@ if
 init_memory
 (
 sbx
+max_wasm_pages
 )
 )
 {
