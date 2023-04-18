@@ -5861,16 +5861,6 @@ GetCSP
 ;
 if
 (
-StaticPrefs
-:
-:
-security_csp_enable
-(
-)
-)
-{
-if
-(
 !
 csp
 )
@@ -5908,7 +5898,6 @@ MainThreadEventTarget
 )
 )
 ;
-}
 }
 mWorkerPrivate
 -
