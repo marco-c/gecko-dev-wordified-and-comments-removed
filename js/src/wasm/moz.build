@@ -201,6 +201,11 @@ WasmRealm
 cpp
 "
 "
+WasmSerialize
+.
+cpp
+"
+"
 WasmStubs
 .
 cpp
