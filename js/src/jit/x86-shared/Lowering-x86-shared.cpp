@@ -7327,6 +7327,15 @@ wasm
 SimdOp
 :
 :
+I16x8RelaxedQ15MulrS
+:
+case
+wasm
+:
+:
+SimdOp
+:
+:
 MozWHPMADDUBSW
 :
 case

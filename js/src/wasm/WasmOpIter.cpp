@@ -2846,6 +2846,12 @@ SimdOp
 :
 I8x16RelaxedSwizzle
 :
+case
+SimdOp
+:
+:
+I16x8RelaxedQ15MulrS
+:
 WASM_SIMD_OP
 (
 OpKind

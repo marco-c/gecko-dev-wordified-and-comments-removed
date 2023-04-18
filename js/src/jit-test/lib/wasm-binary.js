@@ -707,6 +707,11 @@ F64x2RelaxedMaxCode
 0x110
 ;
 const
+I16x8RelaxedQ15MulrS
+=
+0x111
+;
+const
 WORMHOLE_SELFTEST
 =
 0
