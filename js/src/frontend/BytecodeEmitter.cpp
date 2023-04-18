@@ -23049,7 +23049,10 @@ GCThingIndex
 outArrayIndex
 )
 {
+DebugOnly
+<
 uint32_t
+>
 count
 =
 cookedOrRaw
@@ -23143,7 +23146,10 @@ beginDenseArrayElements
 (
 )
 ;
+DebugOnly
+<
 size_t
+>
 idx
 ;
 for
