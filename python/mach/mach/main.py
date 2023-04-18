@@ -29,14 +29,9 @@ abc
 import
 Iterable
 from
-typing
+six
 import
-Union
-List
-from
-pathlib
-import
-Path
+string_types
 from
 .
 base
@@ -1222,19 +1217,17 @@ __init__
 (
 self
 cwd
-:
-str
 )
 :
         
 assert
-Path
+os
+.
+path
+.
+isdir
 (
 cwd
-)
-.
-is_dir
-(
 )
         
 self
@@ -1325,8 +1318,6 @@ load_commands_from_directory
 (
 self
 path
-:
-Path
 )
 :
         
@@ -1381,10 +1372,11 @@ f
 in
 sorted
 (
-path
+os
 .
-iterdir
+listdir
 (
+path
 )
 )
 :
@@ -1393,17 +1385,15 @@ if
 not
 f
 .
-suffix
-=
-=
+endswith
+(
 "
 .
 py
 "
+)
 or
 f
-.
-name
 =
 =
 "
@@ -1417,31 +1407,34 @@ continue
             
 full_path
 =
+os
+.
 path
-/
+.
+join
+(
+path
 f
+)
             
 module_name
 =
-f
 "
 mach
 .
 commands
 .
-{
-str
-(
+%
+s
+"
+%
 f
-)
 [
 0
 :
 -
 3
 ]
-}
-"
             
 self
 .
@@ -1458,12 +1451,6 @@ load_commands_from_file
 (
 self
 path
-:
-Union
-[
-str
-Path
-]
 module_name
 =
 None
@@ -1568,13 +1555,15 @@ mod
             
 module_name
 =
-f
 "
 mach
 .
 commands
 .
-{
+%
+s
+"
+%
 uuid
 .
 uuid4
@@ -1582,8 +1571,6 @@ uuid4
 )
 .
 hex
-}
-"
         
 try
 :
@@ -1593,10 +1580,7 @@ imp
 load_source
 (
 module_name
-str
-(
 path
-)
 )
         
 except
@@ -1621,15 +1605,15 @@ raise
 raise
 MissingFileError
 (
-f
 "
-{
-path
-}
+%
+s
 does
 not
 exist
 "
+%
+path
 )
     
 def
@@ -1804,18 +1788,14 @@ in
 paths
 :
                 
-path
-=
-Path
-(
-path
-)
-                
 if
+os
+.
 path
 .
-is_file
+isfile
 (
+path
 )
 :
                     
@@ -1827,10 +1807,13 @@ path
 )
                 
 elif
+os
+.
 path
 .
-is_dir
+isdir
 (
+path
 )
 :
                     
@@ -1846,19 +1829,19 @@ else
                     
 print
 (
-f
 "
 command
 provider
 '
-{
-path
-}
+%
+s
 '
 does
 not
 exist
 "
+%
+path
 )
     
 def
@@ -2096,26 +2079,13 @@ register_provider
 provider
 )
             
-setting_paths_to_pass
-=
-[
-Path
-(
-path
-)
-for
-path
-in
-self
-.
-settings_paths
-]
-            
 self
 .
 load_settings
 (
-setting_paths_to_pass
+self
+.
+settings_paths
 )
             
 if
@@ -2378,6 +2348,10 @@ argv
 )
 :
         
+topsrcdir
+=
+None
+        
 if
 self
 .
@@ -2386,8 +2360,6 @@ populate_context_handler
             
 topsrcdir
 =
-Path
-(
 self
 .
 populate_context_handler
@@ -2395,7 +2367,6 @@ populate_context_handler
 "
 topdir
 "
-)
 )
             
 sentry
@@ -2816,14 +2787,9 @@ self
 .
 load_settings
 (
-[
-Path
-(
 args
 .
 settings_file
-)
-]
 )
         
 try
@@ -3349,11 +3315,6 @@ load_settings
 (
 self
 paths
-:
-List
-[
-Path
-]
 )
 :
         
@@ -3393,6 +3354,20 @@ machrc
 "
 "
         
+if
+isinstance
+(
+paths
+string_types
+)
+:
+            
+paths
+=
+[
+paths
+]
+        
 valid_names
 =
 (
@@ -3409,16 +3384,17 @@ def
 find_in_dir
 (
 base
-:
-Path
 )
 :
             
 if
-base
+os
 .
-is_file
+path
+.
+isfile
 (
+base
 )
 :
                 
@@ -3433,15 +3409,24 @@ valid_names
                 
 path
 =
-base
-/
-name
-                
-if
+os
+.
 path
 .
-is_file
+join
 (
+base
+name
+)
+                
+if
+os
+.
+path
+.
+isfile
+(
+path
 )
 :
                     
@@ -3470,10 +3455,7 @@ settings
 .
 load_files
 (
-list
-(
 files
-)
 )
     
 def

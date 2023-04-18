@@ -95,18 +95,11 @@ collections
 .
 abc
 import
+os
+import
 sys
 import
 six
-from
-pathlib
-import
-Path
-from
-typing
-import
-List
-Union
 from
 functools
 import
@@ -1667,18 +1660,20 @@ self
 _finalized
 =
 False
+        
+self
+.
+loaded_files
+=
+set
+(
+)
     
 def
 load_file
 (
 self
 filename
-:
-Union
-[
-str
-Path
-]
 )
 :
         
@@ -1687,10 +1682,7 @@ self
 load_files
 (
 [
-Path
-(
 filename
-)
 ]
 )
     
@@ -1699,11 +1691,6 @@ load_files
 (
 self
 filenames
-:
-List
-[
-Path
-]
 )
 :
         
@@ -1765,10 +1752,13 @@ f
 in
 filenames
 if
-f
+os
+.
+path
 .
 exists
 (
+f
 )
 ]
         
@@ -1793,6 +1783,18 @@ self
 load_fps
 (
 fps
+)
+        
+self
+.
+loaded_files
+.
+update
+(
+set
+(
+filtered
+)
 )
         
 for

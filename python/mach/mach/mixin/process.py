@@ -14,10 +14,6 @@ subprocess
 import
 sys
 from
-typing
-import
-Optional
-from
 mozprocess
 .
 processhandler
@@ -221,11 +217,6 @@ args
 None
         
 cwd
-:
-Optional
-[
-str
-]
 =
 None
         

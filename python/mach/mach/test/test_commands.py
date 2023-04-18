@@ -5,6 +5,8 @@ absolute_import
 print_function
 unicode_literals
 import
+os
+import
 sys
 import
 pytest
@@ -12,10 +14,6 @@ from
 mozunit
 import
 main
-from
-pathlib
-import
-Path
 from
 buildconfig
 import
@@ -80,39 +78,43 @@ args
         
 mach_dir
 =
-Path
+os
+.
+path
+.
+dirname
 (
 mach
 .
 __file__
 )
-.
-parent
         
 providers
 =
 [
             
-Path
-(
 "
 commands
 .
 py
 "
-)
             
+os
+.
+path
+.
+join
+(
 mach_dir
-/
 "
 commands
 "
-/
 "
 commandinfo
 .
 py
 "
+)
         
 ]
         

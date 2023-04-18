@@ -39,8 +39,6 @@ __init__
 (
 self
 path
-:
-str
 )
 :
         
@@ -354,8 +352,6 @@ pths_as_absolute
 (
 self
 topsrcdir
-:
-str
 )
 :
         
@@ -371,14 +367,17 @@ path
 .
 normcase
 (
-Path
+os
+.
+path
+.
+join
 (
 topsrcdir
-)
-/
 pth
 .
 path
+)
 )
                 
 for
@@ -407,8 +406,6 @@ from_requirements_definition
 cls
         
 topsrcdir
-:
-str
         
 is_thunderbird
         
@@ -430,15 +427,9 @@ _parse_mach_env_requirements
             
 requirements
             
-Path
-(
 requirements_definition
-)
             
-Path
-(
 topsrcdir
-)
             
 is_thunderbird
             
@@ -455,12 +446,8 @@ _parse_mach_env_requirements
 requirements_output
     
 root_requirements_path
-:
-Path
     
 topsrcdir
-:
-Path
     
 is_thunderbird
     
@@ -468,13 +455,18 @@ is_mach_or_build_site
 )
 :
     
+topsrcdir
+=
+Path
+(
+topsrcdir
+)
+    
 def
 _parse_requirements_line
 (
         
 current_requirements_path
-:
-Path
 line
 line_number
 is_thunderbird_packages_txt
@@ -770,9 +762,15 @@ txt
 _parse_requirements_definition_file
 (
                 
+os
+.
+path
+.
+join
+(
 topsrcdir
-/
 params
+)
                 
 is_thunderbird_packages_txt
             
@@ -954,9 +952,15 @@ is_thunderbird
 _parse_requirements_definition_file
 (
                     
+os
+.
+path
+.
+join
+(
 topsrcdir
-/
 params
+)
 is_thunderbird_packages_txt
 =
 True
@@ -987,8 +991,6 @@ _parse_requirements_definition_file
 (
         
 requirements_path
-:
-Path
 is_thunderbird_packages_txt
     
 )
@@ -1010,10 +1012,13 @@ requirements
         
 if
 not
-requirements_path
+os
 .
-is_file
+path
+.
+isfile
 (
+requirements_path
 )
 :
             
@@ -1040,10 +1045,7 @@ requirements_paths
 .
 append
 (
-str
-(
 requirements_path
-)
 )
         
 with

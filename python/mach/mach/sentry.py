@@ -7,9 +7,11 @@ abc
 import
 re
 from
-pathlib
+os
+.
+path
 import
-Path
+expanduser
 from
 threading
 import
@@ -194,8 +196,6 @@ register_sentry
 argv
 settings
 topsrcdir
-:
-Path
 )
 :
     
@@ -297,8 +297,6 @@ _process_event
 (
 sentry_event
 topsrcdir
-:
-Path
 )
 :
     
@@ -501,8 +499,6 @@ _patch_absolute_paths
 (
 sentry_event
 topsrcdir
-:
-Path
 )
 :
     
@@ -635,10 +631,7 @@ statedir
 )
         
 (
-str
-(
 topsrcdir
-)
 "
 <
 topsrcdir
@@ -647,13 +640,11 @@ topsrcdir
 )
         
 (
-str
+expanduser
 (
-Path
-.
-home
-(
-)
+"
+~
+"
 )
 "
 ~
@@ -793,8 +784,6 @@ def
 _get_repository_object
 (
 topsrcdir
-:
-Path
 )
 :
     
@@ -804,10 +793,7 @@ try
 return
 get_repository_object
 (
-str
-(
 topsrcdir
-)
 )
     
 except
@@ -823,8 +809,6 @@ def
 _is_unmodified_mach_core
 (
 topsrcdir
-:
-Path
 )
 :
     

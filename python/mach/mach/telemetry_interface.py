@@ -6,14 +6,6 @@ absolute_import
 import
 sys
 from
-pathlib
-import
-Path
-from
-typing
-import
-Union
-from
 unittest
 .
 mock
@@ -45,12 +37,6 @@ metrics
 (
 self
 metrics_path
-:
-Union
-[
-str
-Path
-]
 )
 :
         
@@ -242,12 +228,6 @@ metrics
 (
 self
 metrics_path
-:
-Union
-[
-str
-Path
-]
 )
 :
         
