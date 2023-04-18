@@ -160,6 +160,11 @@ https_first_disabled
 obj
 .
 https_first_disabled
+allow_xul_xbl
+:
+obj
+.
+allow_xul_xbl
 }
 }
 ;
@@ -222,6 +227,11 @@ https_first_disabled
 obj
 .
 https_first_disabled
+allow_xul_xbl
+:
+obj
+.
+allow_xul_xbl
 }
 }
 )
