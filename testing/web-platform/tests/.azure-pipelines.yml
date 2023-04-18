@@ -397,7 +397,7 @@ vmImage
 '
 macOS
 -
-11
+12
 '
 steps
 :
@@ -505,7 +505,7 @@ vmImage
 '
 macOS
 -
-11
+12
 '
 steps
 :
@@ -808,7 +808,7 @@ vmImage
 '
 macOS
 -
-11
+12
 '
 steps
 :
@@ -1202,7 +1202,7 @@ vmImage
 '
 macOS
 -
-11
+12
 '
 steps
 :
@@ -1295,7 +1295,7 @@ vmImage
 '
 macOS
 -
-11
+12
 '
 steps
 :
@@ -1390,7 +1390,7 @@ vmImage
 '
 macOS
 -
-11
+12
 '
 steps
 :
@@ -1487,7 +1487,7 @@ vmImage
 '
 macOS
 -
-11
+12
 '
 steps
 :
@@ -1584,7 +1584,7 @@ vmImage
 '
 macOS
 -
-11
+12
 '
 steps
 :
@@ -1721,7 +1721,7 @@ vmImage
 '
 macOS
 -
-11
+12
 '
 steps
 :
@@ -3854,7 +3854,7 @@ vmImage
 '
 macOS
 -
-11
+12
 '
 steps
 :
@@ -4252,7 +4252,7 @@ vmImage
 '
 macOS
 -
-11
+12
 '
 steps
 :
