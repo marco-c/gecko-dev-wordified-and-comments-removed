@@ -497,6 +497,8 @@ props
 onClick
 )
 {
+props
+.
 onClick
 (
 event
