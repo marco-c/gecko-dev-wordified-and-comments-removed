@@ -107,10 +107,13 @@ WRAP
 (
 x
 )
+(
+*
 cubeb_
 #
 #
 x
+)
 #
 define
 LIBASOUND_API_VISIT
@@ -3178,7 +3181,6 @@ NULL
 ;
 if
 (
-*
 WRAP
 (
 snd_config
@@ -3201,7 +3203,6 @@ snd_config_copy
 (
 &
 lconf
-*
 WRAP
 (
 snd_config

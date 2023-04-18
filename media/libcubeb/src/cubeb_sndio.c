@@ -145,10 +145,13 @@ WRAP
 (
 x
 )
+(
+*
 cubeb_
 #
 #
 x
+)
 #
 define
 LIBSNDIO_API_VISIT
