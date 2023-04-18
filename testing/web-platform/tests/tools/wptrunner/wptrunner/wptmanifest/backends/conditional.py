@@ -1,10 +1,6 @@
 import
 operator
 from
-six
-import
-ensure_text
-from
 .
 .
 node
@@ -295,23 +291,6 @@ self
 condition_func
 (
 run_info
-)
-    
-def
-set_value
-(
-self
-value
-)
-:
-        
-self
-.
-value
-=
-ensure_text
-(
-value
 )
     
 def
