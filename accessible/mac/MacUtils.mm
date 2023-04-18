@@ -244,7 +244,7 @@ aString
 nsString
 text
 ;
-LocalAccessible
+Accessible
 :
 :
 TranslateString
