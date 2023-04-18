@@ -3046,9 +3046,9 @@ toShowY
 [
 1
 ]
+)
 -
 1
-)
 )
 ;
 this
@@ -3110,9 +3110,6 @@ _updateGuide
 (
 side
 point
-=
--
-1
 )
 {
 const
@@ -3132,6 +3129,10 @@ side
 ;
 if
 (
+!
+point
+|
+|
 point
 <
 =
