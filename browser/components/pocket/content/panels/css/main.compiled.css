@@ -12007,6 +12007,12 @@ padding
 :
 8px
 ;
+margin
+:
+0
+-
+8px
+;
 }
 .
 stp_article_list
@@ -12517,7 +12523,7 @@ stp_button_text
 color
 :
 #
-F0F0F4
+00DDFF
 ;
 }
 .
