@@ -6,6 +6,13 @@ define
 AndroidBridge_h__
 #
 include
+<
+unistd
+.
+h
+>
+#
+include
 "
 nsCOMPtr
 .
