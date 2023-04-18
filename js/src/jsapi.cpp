@@ -12123,6 +12123,12 @@ rhs
 .
 usePinnedBytecode
 ;
+allocateInstantiationStorage
+=
+rhs
+.
+allocateInstantiationStorage
+;
 introductionType
 =
 rhs

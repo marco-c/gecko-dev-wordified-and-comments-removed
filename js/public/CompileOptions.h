@@ -233,6 +233,11 @@ usePinnedBytecode
 =
 false
 ;
+bool
+allocateInstantiationStorage
+=
+false
+;
 const
 char
 *
