@@ -1276,7 +1276,10 @@ defined
 JS_CODEGEN_X86
 )
 )
-if
+JS
+:
+:
+SetAVXEnabled
 (
 mozilla
 :
@@ -1288,15 +1291,7 @@ javascript_options_wasm_simd_avx
 (
 )
 )
-{
-JS
-:
-:
-SetAVXEnabled
-(
-)
 ;
-}
 #
 endif
 const

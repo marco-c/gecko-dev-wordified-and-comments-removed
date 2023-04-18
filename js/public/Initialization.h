@@ -319,6 +319,8 @@ JS
 void
 SetAVXEnabled
 (
+bool
+enabled
 )
 ;
 }
