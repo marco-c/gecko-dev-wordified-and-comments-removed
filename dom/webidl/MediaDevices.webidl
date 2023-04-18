@@ -183,7 +183,7 @@ getSupportedConstraints
 )
 ;
 [
-Throws
+NewObject
 UseCounter
 ]
 Promise
@@ -198,7 +198,7 @@ enumerateDevices
 )
 ;
 [
-Throws
+NewObject
 NeedsCallerType
 UseCounter
 ]
@@ -262,7 +262,7 @@ getdisplaymedia
 .
 enabled
 "
-Throws
+NewObject
 NeedsCallerType
 UseCounter
 ]
@@ -348,7 +348,7 @@ setsinkid
 .
 enabled
 "
-Throws
+NewObject
 NeedsCallerType
 ]
 Promise

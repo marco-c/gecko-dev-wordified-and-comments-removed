@@ -748,7 +748,7 @@ interface
 SubtleCrypto
 {
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -765,7 +765,7 @@ data
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -782,7 +782,7 @@ data
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -799,7 +799,7 @@ data
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -818,7 +818,7 @@ data
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -833,7 +833,7 @@ data
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -853,7 +853,7 @@ keyUsages
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -877,7 +877,7 @@ keyUsages
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -895,7 +895,7 @@ length
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -919,7 +919,7 @@ keyUsages
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -934,7 +934,7 @@ key
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -953,7 +953,7 @@ wrapAlgorithm
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

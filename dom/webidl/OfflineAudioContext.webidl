@@ -205,7 +205,7 @@ sampleRate
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

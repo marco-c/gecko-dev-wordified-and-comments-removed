@@ -159,7 +159,7 @@ boolean
 bodyUsed
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -170,7 +170,7 @@ arrayBuffer
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -181,7 +181,7 @@ blob
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -192,7 +192,7 @@ formData
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -203,7 +203,7 @@ json
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

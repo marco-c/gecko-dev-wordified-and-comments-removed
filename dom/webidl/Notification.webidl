@@ -192,7 +192,7 @@ NotificationPermission
 permission
 ;
 [
-Throws
+NewObject
 Func
 =
 "
@@ -221,7 +221,7 @@ permissionCallback
 )
 ;
 [
-Throws
+NewObject
 Func
 =
 "

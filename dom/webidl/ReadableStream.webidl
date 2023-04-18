@@ -34,7 +34,7 @@ boolean
 locked
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -100,7 +100,7 @@ pipeTo
 .
 enabled
 "
-Throws
+NewObject
 ]
 Promise
 <

@@ -141,7 +141,7 @@ EventTarget
 /
 Methods
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -330,7 +330,7 @@ handle
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

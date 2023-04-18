@@ -168,7 +168,7 @@ interface
 CredentialsContainer
 {
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -186,7 +186,7 @@ options
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -204,7 +204,7 @@ options
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -217,7 +217,7 @@ credential
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

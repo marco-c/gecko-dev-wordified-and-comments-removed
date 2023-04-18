@@ -425,7 +425,7 @@ boolean
 loop
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -1378,7 +1378,7 @@ interface
 HTMLMediaElement
 {
 [
-Throws
+NewObject
 Pref
 =
 "
@@ -1730,7 +1730,7 @@ DOMString
 sinkId
 ;
 [
-Throws
+NewObject
 SecureContext
 Pref
 =

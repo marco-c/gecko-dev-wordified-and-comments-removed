@@ -169,7 +169,7 @@ asyncClipboard
 .
 read
 "
-Throws
+NewObject
 NeedsSubjectPrincipal
 ]
 Promise
@@ -189,7 +189,7 @@ Clipboard
 :
 ReadTextEnabled
 "
-Throws
+NewObject
 NeedsSubjectPrincipal
 ]
 Promise
@@ -212,7 +212,7 @@ asyncClipboard
 .
 clipboardItem
 "
-Throws
+NewObject
 NeedsSubjectPrincipal
 ]
 Promise
@@ -226,7 +226,7 @@ data
 )
 ;
 [
-Throws
+NewObject
 NeedsSubjectPrincipal
 ]
 Promise
@@ -399,7 +399,7 @@ DOMString
 types
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

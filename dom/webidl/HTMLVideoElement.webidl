@@ -575,7 +575,7 @@ never
 resolve
 .
 [
-Throws
+NewObject
 Func
 =
 "

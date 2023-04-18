@@ -185,7 +185,7 @@ interface
 Permissions
 {
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -198,7 +198,7 @@ permission
 )
 ;
 [
-Throws
+NewObject
 Pref
 =
 "

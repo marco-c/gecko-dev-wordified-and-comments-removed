@@ -3103,7 +3103,7 @@ processes
 *
 /
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -3217,7 +3217,7 @@ timings
 *
 /
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -3245,7 +3245,7 @@ activities
 *
 /
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -3272,7 +3272,7 @@ info
 *
 /
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -3716,7 +3716,7 @@ Scrolling
 *
 /
 [
-Throws
+NewObject
 ]
 Promise
 <

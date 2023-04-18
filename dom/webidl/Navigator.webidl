@@ -1618,7 +1618,7 @@ interface
 Navigator
 {
 [
-Throws
+NewObject
 SecureContext
 Pref
 =
@@ -1831,7 +1831,7 @@ Navigator
 {
 [
 SecureContext
-Throws
+NewObject
 Pref
 =
 "
@@ -2234,7 +2234,7 @@ Navigator
 {
 [
 SecureContext
-Throws
+NewObject
 Func
 =
 "

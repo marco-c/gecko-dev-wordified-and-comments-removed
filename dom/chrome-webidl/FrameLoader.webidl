@@ -429,7 +429,7 @@ flushed
 *
 /
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -617,8 +617,7 @@ success
 *
 /
 [
-ChromeOnly
-Throws
+NewObject
 ]
 Promise
 <
@@ -653,9 +652,6 @@ it
 .
 *
 /
-[
-ChromeOnly
-]
 void
 exitPrintPreview
 (

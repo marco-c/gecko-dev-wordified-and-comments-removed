@@ -331,7 +331,7 @@ interface
 ServiceWorkerRegistration
 {
 [
-Throws
+NewObject
 Pref
 =
 "
@@ -361,7 +361,7 @@ options
 )
 ;
 [
-Throws
+NewObject
 Pref
 =
 "

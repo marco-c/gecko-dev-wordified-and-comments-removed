@@ -258,7 +258,7 @@ transferToImageBitmap
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -293,7 +293,7 @@ Deprecated
 "
 OffscreenCanvasToBlob
 "
-Throws
+NewObject
 ]
 Promise
 <

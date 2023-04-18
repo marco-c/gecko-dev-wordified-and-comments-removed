@@ -234,7 +234,7 @@ AudioWorklet
 audioWorklet
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -266,7 +266,7 @@ sampleRate
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

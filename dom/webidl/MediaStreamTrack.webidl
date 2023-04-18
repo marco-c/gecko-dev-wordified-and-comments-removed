@@ -568,7 +568,7 @@ getSettings
 )
 ;
 [
-Throws
+NewObject
 NeedsCallerType
 ]
 Promise

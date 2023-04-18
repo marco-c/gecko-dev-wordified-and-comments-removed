@@ -190,7 +190,7 @@ reason
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -209,7 +209,7 @@ releaseLock
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

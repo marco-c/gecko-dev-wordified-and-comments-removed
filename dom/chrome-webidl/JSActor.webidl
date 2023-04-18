@@ -16,7 +16,7 @@ obj
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

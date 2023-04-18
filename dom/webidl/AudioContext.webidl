@@ -208,7 +208,7 @@ getOutputTimestamp
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -219,7 +219,7 @@ suspend
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

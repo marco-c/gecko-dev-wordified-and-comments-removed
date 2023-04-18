@@ -1057,7 +1057,7 @@ descriptor
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -1070,7 +1070,7 @@ descriptor
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

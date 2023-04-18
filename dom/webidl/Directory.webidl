@@ -418,7 +418,7 @@ directory
 *
 /
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -436,7 +436,7 @@ getFilesAndDirectories
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

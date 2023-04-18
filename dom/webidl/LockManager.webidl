@@ -20,7 +20,7 @@ interface
 LockManager
 {
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -35,7 +35,7 @@ callback
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -52,7 +52,7 @@ callback
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

@@ -427,7 +427,7 @@ controllerIdx
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -438,7 +438,7 @@ run
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

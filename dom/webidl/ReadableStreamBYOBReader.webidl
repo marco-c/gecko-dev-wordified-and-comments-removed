@@ -150,7 +150,7 @@ stream
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

@@ -180,7 +180,7 @@ reason
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

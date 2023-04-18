@@ -270,7 +270,7 @@ index
 )
 ;
 [
-Throws
+NewObject
 Pref
 =
 "

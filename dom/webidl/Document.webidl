@@ -2192,7 +2192,7 @@ boolean
 mozFullScreenEnabled
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -2203,7 +2203,7 @@ exitFullscreen
 )
 ;
 [
-Throws
+NewObject
 BinaryName
 =
 "
@@ -3232,7 +3232,7 @@ settled
 .
 [
 ChromeOnly
-Throws
+NewObject
 ]
 Promise
 <
@@ -3825,7 +3825,7 @@ storage_access
 .
 enabled
 "
-Throws
+NewObject
 ]
 Promise
 <
@@ -3845,7 +3845,7 @@ storage_access
 .
 enabled
 "
-Throws
+NewObject
 ]
 Promise
 <
@@ -3905,7 +3905,7 @@ Document
 :
 CallerCanAccessPrivilegeSSA
 "
-Throws
+NewObject
 ]
 Promise
 <

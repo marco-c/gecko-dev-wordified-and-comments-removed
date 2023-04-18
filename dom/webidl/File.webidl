@@ -337,7 +337,7 @@ File
 {
 [
 ChromeOnly
-Throws
+NewObject
 NeedsCallerType
 ]
 static
@@ -359,7 +359,7 @@ options
 ;
 [
 ChromeOnly
-Throws
+NewObject
 NeedsCallerType
 ]
 static

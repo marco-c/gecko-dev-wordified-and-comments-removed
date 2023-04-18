@@ -625,7 +625,7 @@ the
 timeout
 .
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -998,7 +998,7 @@ frames
 *
 /
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -1092,7 +1092,7 @@ available
 *
 /
 [
-Throws
+NewObject
 ]
 Promise
 <

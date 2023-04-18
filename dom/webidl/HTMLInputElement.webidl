@@ -955,7 +955,7 @@ only
 .
 [
 ChromeOnly
-Throws
+NewObject
 ]
 Promise
 <

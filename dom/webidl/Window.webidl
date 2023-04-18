@@ -4496,7 +4496,7 @@ Promise
 *
 /
 [
-Throws
+NewObject
 Func
 =
 "

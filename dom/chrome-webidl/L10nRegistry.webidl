@@ -177,7 +177,7 @@ path
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

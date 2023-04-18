@@ -2089,7 +2089,7 @@ displayed
 *
 /
 [
-Throws
+NewObject
 NeedsCallerType
 ]
 Promise
@@ -2118,7 +2118,7 @@ VRDisplay
 *
 /
 [
-Throws
+NewObject
 ]
 Promise
 <

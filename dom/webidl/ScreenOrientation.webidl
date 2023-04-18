@@ -212,7 +212,7 @@ ScreenOrientation
 EventTarget
 {
 [
-Throws
+NewObject
 ]
 Promise
 <

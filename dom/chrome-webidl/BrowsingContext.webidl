@@ -1730,7 +1730,7 @@ finished
 *
 /
 [
-Throws
+NewObject
 ]
 Promise
 <

@@ -377,7 +377,7 @@ promise
 proposal
 .
 [
-Throws
+NewObject
 Pref
 =
 "
@@ -401,7 +401,7 @@ data
 )
 ;
 [
-Throws
+NewObject
 Pref
 =
 "
@@ -425,7 +425,7 @@ data
 )
 ;
 [
-Throws
+NewObject
 Pref
 =
 "

@@ -372,7 +372,7 @@ onremovetrack
 ;
 [
 ChromeOnly
-Throws
+NewObject
 ]
 static
 Promise

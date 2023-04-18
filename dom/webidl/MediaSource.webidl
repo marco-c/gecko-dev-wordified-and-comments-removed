@@ -303,7 +303,7 @@ type
 )
 ;
 [
-Throws
+NewObject
 ChromeOnly
 ]
 Promise

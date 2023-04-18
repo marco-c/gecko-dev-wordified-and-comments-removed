@@ -2064,7 +2064,7 @@ interface
 Element
 {
 [
-Throws
+NewObject
 NeedsCallerType
 ]
 Promise
@@ -2076,7 +2076,7 @@ requestFullscreen
 )
 ;
 [
-Throws
+NewObject
 BinaryName
 =
 "

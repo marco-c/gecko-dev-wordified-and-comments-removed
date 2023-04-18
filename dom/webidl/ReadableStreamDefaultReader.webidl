@@ -171,7 +171,7 @@ void
 closed
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -215,7 +215,7 @@ stream
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

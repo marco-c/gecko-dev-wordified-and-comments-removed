@@ -138,7 +138,7 @@ interface
 StorageManager
 {
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -152,7 +152,7 @@ persisted
 Exposed
 =
 Window
-Throws
+NewObject
 ]
 Promise
 <
@@ -163,7 +163,7 @@ persist
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

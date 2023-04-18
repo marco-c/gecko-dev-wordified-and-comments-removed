@@ -722,7 +722,7 @@ directory
 *
 /
 [
-Throws
+NewObject
 BinaryName
 =
 "
@@ -751,7 +751,7 @@ directory
 *
 /
 [
-Throws
+NewObject
 BinaryName
 =
 "
@@ -780,7 +780,7 @@ process
 *
 /
 [
-Throws
+NewObject
 BinaryName
 =
 "
@@ -807,7 +807,7 @@ directory
 *
 /
 [
-Throws
+NewObject
 BinaryName
 =
 "

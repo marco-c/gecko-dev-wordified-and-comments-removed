@@ -783,7 +783,7 @@ data
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

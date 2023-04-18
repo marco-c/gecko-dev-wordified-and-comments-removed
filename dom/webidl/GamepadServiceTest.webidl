@@ -101,7 +101,7 @@ GamepadHand
 rightHand
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -134,7 +134,7 @@ numTouchEvents
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -149,7 +149,7 @@ index
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -171,7 +171,7 @@ touched
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -195,7 +195,7 @@ value
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -215,7 +215,7 @@ value
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -248,7 +248,7 @@ linAcceleration
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

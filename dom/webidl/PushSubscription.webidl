@@ -289,7 +289,7 @@ name
 )
 ;
 [
-Throws
+NewObject
 UseCounter
 ]
 Promise
