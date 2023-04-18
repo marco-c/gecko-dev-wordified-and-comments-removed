@@ -150,9 +150,14 @@ ThreadTargetSink
 >
 mSink
 ;
+#
+ifdef
+DEBUG
 bool
 mIsMainThread
 ;
+#
+endif
 }
 ;
 }
