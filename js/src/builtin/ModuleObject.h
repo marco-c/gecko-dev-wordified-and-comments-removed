@@ -1795,6 +1795,15 @@ getCycleRoot
 const
 ;
 static
+void
+onTopLevelEvaluationFinished
+(
+ModuleObject
+*
+module
+)
+;
+static
 bool
 appendAsyncParentModule
 (
