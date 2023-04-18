@@ -200,6 +200,12 @@ data
 "
 )
 ;
+showSpotlightStub
+.
+restore
+(
+)
+;
 }
 )
 ;
