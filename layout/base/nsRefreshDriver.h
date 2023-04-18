@@ -1152,6 +1152,13 @@ aTime
 )
 override
 ;
+enum
+IdleCheck
+{
+OnlyThisProcessRefreshDriver
+AllVsyncListeners
+}
+;
 static
 mozilla
 :
@@ -1164,6 +1171,8 @@ mozilla
 :
 TimeStamp
 aDefault
+IdleCheck
+aCheckType
 )
 ;
 static
