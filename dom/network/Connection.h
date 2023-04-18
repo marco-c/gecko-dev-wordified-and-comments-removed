@@ -74,6 +74,8 @@ CreateForWindow
 nsPIDOMWindowInner
 *
 aWindow
+bool
+aShouldResistFingerprinting
 )
 ;
 static
@@ -183,6 +185,8 @@ Connection
 nsPIDOMWindowInner
 *
 aWindow
+bool
+aShouldResistFingerprinting
 )
 ;
 virtual
@@ -225,6 +229,9 @@ mDHCPGateway
 ;
 bool
 mBeenShutDown
+;
+bool
+mShouldResistFingerprinting
 ;
 }
 ;

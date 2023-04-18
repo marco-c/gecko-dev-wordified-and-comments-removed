@@ -82,6 +82,8 @@ Connection
 nsPIDOMWindowInner
 *
 aWindow
+bool
+aShouldResistFingerprinting
 )
 :
 DOMEventTargetHelper
@@ -105,6 +107,10 @@ kDefaultIsWifi
 mDHCPGateway
 (
 kDefaultDHCPGateway
+)
+mShouldResistFingerprinting
+(
+aShouldResistFingerprinting
 )
 mBeenShutDown
 (
@@ -256,12 +262,7 @@ aType
 &
 &
 !
-nsContentUtils
-:
-:
-ShouldResistFingerprinting
-(
-)
+mShouldResistFingerprinting
 )
 {
 DispatchTrustedEvent
@@ -281,6 +282,8 @@ CreateForWindow
 nsPIDOMWindowInner
 *
 aWindow
+bool
+aShouldResistFingerprinting
 )
 {
 MOZ_ASSERT
@@ -293,6 +296,7 @@ new
 ConnectionMainThread
 (
 aWindow
+aShouldResistFingerprinting
 )
 ;
 }
