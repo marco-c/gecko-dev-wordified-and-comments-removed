@@ -66,6 +66,11 @@ attribute
 AString
 defaultGroupId
 ;
+readonly
+attribute
+AString
+defaultPrivateGroupId
+;
 nsITaskbarTabPreview
 createTaskbarTabPreview
 (
