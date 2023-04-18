@@ -92,11 +92,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Preferences
 "
@@ -119,7 +125,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -142,7 +148,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -610,6 +616,8 @@ _removeDistributionBookmarks
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -626,6 +634,8 @@ BOOKMARK_GUID_PREFIX
 bookmark
 =
 >
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -641,6 +651,8 @@ catch
 )
 ;
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -658,6 +670,8 @@ folder
 =
 >
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -991,6 +1005,8 @@ continue
 let
 index
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1042,6 +1058,8 @@ let
 folder
 =
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1051,6 +1069,8 @@ insert
 {
 type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1058,6 +1078,8 @@ bookmarks
 TYPE_FOLDER
 guid
 :
+lazy
+.
 PlacesUtils
 .
 generateGuidWithPrefix
@@ -1116,6 +1138,8 @@ prependIndex
 ;
 }
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1125,6 +1149,8 @@ insert
 {
 type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1168,6 +1194,8 @@ prependIndex
 ;
 }
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1214,6 +1242,8 @@ prependIndex
 ;
 }
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1223,6 +1253,8 @@ insert
 {
 guid
 :
+lazy
+.
 PlacesUtils
 .
 generateGuidWithPrefix
@@ -1274,6 +1306,8 @@ item
 icon
 )
 ;
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -1294,6 +1328,8 @@ getSystemPrincipal
 )
 )
 ;
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -1312,6 +1348,8 @@ link
 )
 faviconURI
 false
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -1539,6 +1577,8 @@ let
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -1822,6 +1862,8 @@ this
 .
 _parseBookmarksSection
 (
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1845,6 +1887,8 @@ this
 .
 _parseBookmarksSection
 (
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2019,6 +2063,8 @@ let
 defaults
 =
 new
+lazy
+.
 Preferences
 (
 {
