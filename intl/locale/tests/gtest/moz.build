@@ -3,7 +3,7 @@ UNIFIED_SOURCES
 =
 [
 "
-TestDateTimeFormat
+TestAppDateTimeFormat
 .
 cpp
 "
