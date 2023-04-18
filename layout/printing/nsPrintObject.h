@@ -69,15 +69,9 @@ PrintObjectType
 eDoc
 =
 0
-eFrame
-=
-1
 eIFrame
 =
-2
-eFrameSet
-=
-3
+1
 }
 ;
 class
