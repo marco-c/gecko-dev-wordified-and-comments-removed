@@ -148,9 +148,6 @@ mod
 profiler
 ;
 mod
-telemetry
-;
-mod
 batch
 ;
 mod
