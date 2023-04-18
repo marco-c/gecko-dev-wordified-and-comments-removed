@@ -5194,12 +5194,14 @@ IPC_OK
 ;
 double
 currentScale
-=
+;
 treeOwnerAsWin
 -
 >
-GetWidgetCSSToDeviceScale
+GetUnscaledDevicePixelsPerCSSPixel
 (
+&
+currentScale
 )
 ;
 int32_t

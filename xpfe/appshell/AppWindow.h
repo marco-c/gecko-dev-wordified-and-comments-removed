@@ -1284,10 +1284,7 @@ mInitialOpenWindowInfo
 nsString
 mTitle
 ;
-mozilla
-:
-:
-DesktopIntRect
+nsIntRect
 mOpenerScreenRect
 ;
 nsCOMPtr
