@@ -7764,7 +7764,7 @@ NS_IMETHODIMP
 nsXULAppInfo
 :
 :
-IsAnnotationWhitelistedForPing
+IsAnnotationAllowlistedForPing
 (
 const
 nsACString
@@ -7772,7 +7772,7 @@ nsACString
 aValue
 bool
 *
-aIsWhitelisted
+aIsAllowlisted
 )
 {
 CrashReporter
@@ -7803,12 +7803,12 @@ NS_ERROR_INVALID_ARG
 ;
 }
 *
-aIsWhitelisted
+aIsAllowlisted
 =
 CrashReporter
 :
 :
-IsAnnotationWhitelistedForPing
+IsAnnotationAllowlistedForPing
 (
 annotation
 )
@@ -25069,7 +25069,7 @@ mozilla
 FilePreferences
 :
 :
-InitDirectoriesWhitelist
+InitDirectoriesAllowlist
 (
 )
 ;

@@ -572,7 +572,7 @@ if
 an
 annotation
 is
-whitelisted
+allowlisted
 for
 inclusion
 in
@@ -629,7 +629,7 @@ value
 *
 /
 boolean
-isAnnotationWhitelistedForPing
+isAnnotationAllowlistedForPing
 (
 in
 ACString
