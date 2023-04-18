@@ -655,7 +655,7 @@ lwtheme
 "
 MozLWTheme
 _
-PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
+_
 )
 (
 "
@@ -668,7 +668,7 @@ brighttext
 "
 MozLWThemeBrightText
 _
-PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
+_
 )
 (
 "
@@ -681,7 +681,7 @@ darktext
 "
 MozLWThemeDarkText
 _
-PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
+_
 )
 (
 "
