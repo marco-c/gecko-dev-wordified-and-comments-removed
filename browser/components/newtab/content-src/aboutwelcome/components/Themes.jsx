@@ -299,11 +299,6 @@ theme
 }
 /
 >
-{
-label
-&
-&
-(
 <
 Localized
 text
@@ -325,8 +320,6 @@ text
 /
 Localized
 >
-)
-}
 <
 /
 label

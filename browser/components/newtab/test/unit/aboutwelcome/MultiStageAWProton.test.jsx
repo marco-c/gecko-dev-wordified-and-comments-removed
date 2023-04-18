@@ -1046,10 +1046,8 @@ screens
 ]
 .
 content
-.
-help_text
 "
-text
+help_text
 "
 )
 ;
@@ -1164,9 +1162,6 @@ help_text
 deleteIfNotEn
 :
 true
-text
-:
-{
 string_id
 :
 "
@@ -1180,7 +1175,6 @@ image
 -
 caption
 "
-}
 }
 }
 }
@@ -1200,10 +1194,8 @@ screens
 ]
 .
 content
-.
-help_text
 "
-text
+help_text
 "
 )
 ;
