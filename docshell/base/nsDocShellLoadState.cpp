@@ -2948,6 +2948,17 @@ aContext
 ;
 if
 (
+!
+TriggeringPrincipal
+(
+)
+)
+{
+return
+;
+}
+if
+(
 GetChannelInitialized
 (
 )
