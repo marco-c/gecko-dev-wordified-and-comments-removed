@@ -325,6 +325,15 @@ n
 "
 leak
 :
+libcups
+.
+so
+\
+n
+"
+"
+leak
+:
 libdl
 .
 so
