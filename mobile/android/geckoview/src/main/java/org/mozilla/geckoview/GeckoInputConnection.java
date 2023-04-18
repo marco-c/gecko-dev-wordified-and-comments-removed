@@ -2190,7 +2190,7 @@ Matrix
 ;
 mSession
 .
-getClientToScreenMatrix
+getClientToScreenOffsetMatrix
 (
 matrix
 )
