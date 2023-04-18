@@ -160,6 +160,15 @@ DIRS
 "
 addons
 "
+"
+shared
+/
+app
+-
+marketplace
+-
+icons
+"
 ]
 with
 Files
