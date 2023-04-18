@@ -4140,6 +4140,10 @@ reason
 )
 )
 ;
+mClosed
+=
+true
+;
 MOZ_ASSERT
 (
 OnSocketThread
@@ -12355,6 +12359,12 @@ HandshakeDone
 (
 )
 {
+if
+(
+!
+mClosed
+)
+{
 mTlsHandshakeComplitionPending
 =
 true
@@ -12399,6 +12409,13 @@ self
 -
 >
 mTlsHandshakeComplitionPending
+&
+&
+!
+self
+-
+>
+mClosed
 )
 {
 self
@@ -12420,6 +12437,7 @@ false
 )
 )
 ;
+}
 return
 NS_OK
 ;

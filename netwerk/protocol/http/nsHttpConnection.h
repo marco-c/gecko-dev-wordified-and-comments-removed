@@ -1429,6 +1429,12 @@ nsIInputStream
 >
 mProxyConnectStream
 ;
+bool
+mClosed
+{
+false
+}
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
