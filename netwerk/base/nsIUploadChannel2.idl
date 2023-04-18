@@ -60,17 +60,6 @@ uploadStreamHasHeaders
 [
 noscript
 ]
-void
-ensureUploadStreamIsCloneable
-(
-in
-nsIRunnable
-aCallback
-)
-;
-[
-noscript
-]
 nsIInputStream
 cloneUploadStream
 (
