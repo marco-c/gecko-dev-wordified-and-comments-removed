@@ -2845,6 +2845,12 @@ args
 .
 debug_command
                 
+profile_command
+=
+args
+.
+profile_command
+                
 *
 *
 vars
