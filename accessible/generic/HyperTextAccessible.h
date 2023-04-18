@@ -643,11 +643,14 @@ IsCaretAtEndOfLine
 )
 const
 ;
+virtual
 int32_t
 SelectionCount
 (
 )
+override
 ;
+virtual
 bool
 SelectionBoundsAt
 (
@@ -660,6 +663,7 @@ int32_t
 *
 aEndOffset
 )
+override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
@@ -725,6 +729,7 @@ aRange
 )
 const
 ;
+virtual
 void
 SelectionRanges
 (
@@ -736,6 +741,7 @@ TextRange
 aRanges
 )
 const
+override
 ;
 void
 VisibleRanges
