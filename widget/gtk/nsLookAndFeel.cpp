@@ -6270,8 +6270,12 @@ scheme
 "
 )
 G_DBUS_CALL_FLAGS_NONE
--
-1
+StaticPrefs
+:
+:
+widget_gtk_settings_portal_timeout_ms
+(
+)
 nullptr
 &
 error
