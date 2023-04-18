@@ -168,9 +168,6 @@ an
 instance
        
 of
-:
-class
-:
 attr
 .
 Factory
@@ -259,9 +256,6 @@ If
 an
 instance
 of
-:
-class
-:
 attr
 .
 Factory

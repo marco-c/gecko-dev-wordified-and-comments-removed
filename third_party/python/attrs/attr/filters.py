@@ -5,9 +5,6 @@ Commonly
 useful
 filters
 for
-:
-func
-:
 attr
 .
 asdict
@@ -122,19 +119,10 @@ whitelist
 type
 what
 :
-:
-class
-:
 list
 of
-:
-class
-:
 type
 or
-:
-class
-:
 attr
 .
 Attribute
@@ -144,9 +132,6 @@ s
     
 :
 rtype
-:
-:
-class
 :
 callable
     
@@ -214,16 +199,10 @@ blacklist
 type
 what
 :
-:
-class
-:
 list
 of
 classes
 or
-:
-class
-:
 attr
 .
 Attribute
@@ -234,9 +213,6 @@ s
     
 :
 rtype
-:
-:
-class
 :
 callable
     
