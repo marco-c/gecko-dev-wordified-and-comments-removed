@@ -662,15 +662,6 @@ gBrowser
 TEST_PAGE
 )
 ;
-await
-BrowserTestUtils
-.
-browserStopped
-(
-gBrowser
-TEST_PAGE
-)
-;
 testURI
 =
 "

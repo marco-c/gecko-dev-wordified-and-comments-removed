@@ -26004,14 +26004,6 @@ mTab
 selected
 &
 &
-aStatus
-!
-=
-Cr
-.
-NS_BINDING_CANCELLED_OLD_LOAD
-&
-&
 !
 isNavigating
 )
