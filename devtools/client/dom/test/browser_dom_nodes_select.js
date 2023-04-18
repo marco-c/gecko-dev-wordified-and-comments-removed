@@ -62,7 +62,7 @@ node
 getRowByIndex
 (
 panel
-2
+0
 )
 ;
 await
