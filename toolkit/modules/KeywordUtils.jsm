@@ -12,11 +12,17 @@ KeywordUtils
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -209,6 +215,8 @@ let
 pageInfo
 =
 await
+lazy
+.
 PlacesUtils
 .
 history
@@ -234,6 +242,8 @@ annotations
 .
 has
 (
+lazy
+.
 PlacesUtils
 .
 CHARSET_ANNO
@@ -248,6 +258,8 @@ annotations
 .
 get
 (
+lazy
+.
 PlacesUtils
 .
 CHARSET_ANNO
@@ -451,6 +463,8 @@ let
 entry
 =
 await
+lazy
+.
 PlacesUtils
 .
 keywords

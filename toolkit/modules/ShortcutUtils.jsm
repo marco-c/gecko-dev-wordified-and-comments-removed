@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 PlatformKeys
 "
@@ -127,7 +133,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 Keys
 "
@@ -334,6 +340,8 @@ else
 elemString
 +
 =
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -343,6 +351,8 @@ VK_CONTROL
 "
 )
 +
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -383,6 +393,8 @@ Darwin
 elemString
 +
 =
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -392,6 +404,8 @@ VK_CONTROL
 "
 )
 +
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -407,6 +421,8 @@ else
 elemString
 +
 =
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -416,6 +432,8 @@ VK_ALT
 "
 )
 +
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -442,6 +460,8 @@ os
 elemString
 +
 =
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -451,6 +471,8 @@ VK_WIN
 "
 )
 +
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -476,6 +498,8 @@ shift
 elemString
 +
 =
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -485,6 +509,8 @@ VK_SHIFT
 "
 )
 +
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -510,6 +536,8 @@ alt
 elemString
 +
 =
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -519,6 +547,8 @@ VK_ALT
 "
 )
 +
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -554,6 +584,8 @@ control
 elemString
 +
 =
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -563,6 +595,8 @@ VK_CONTROL
 "
 )
 +
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -588,6 +622,8 @@ meta
 elemString
 +
 =
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -597,6 +633,8 @@ VK_META
 "
 )
 +
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -615,6 +653,8 @@ haveCloverLeaf
 elemString
 +
 =
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -624,6 +664,8 @@ VK_META
 "
 )
 +
+lazy
+.
 PlatformKeys
 .
 GetStringFromName
@@ -713,8 +755,12 @@ keyCode
 VK_RETURN
 "
 ?
+lazy
+.
 PlatformKeys
 :
+lazy
+.
 Keys
 ;
 key

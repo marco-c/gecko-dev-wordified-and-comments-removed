@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UpdateUtils
 "
@@ -216,6 +222,8 @@ canTestOSKeyStoreLogin
 {
 return
 (
+lazy
+.
 UpdateUtils
 .
 getUpdateChannel

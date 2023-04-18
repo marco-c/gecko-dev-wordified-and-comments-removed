@@ -72,11 +72,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UpdateUtils
 "
@@ -299,6 +305,7 @@ _isWindowsOnARM64
 )
 {
 return
+(
 AppConstants
 .
 platform
@@ -309,6 +316,8 @@ win
 "
 &
 &
+lazy
+.
 UpdateUtils
 .
 ABI
@@ -318,6 +327,7 @@ match
 /
 aarch64
 /
+)
 )
 ;
 }
@@ -329,6 +339,8 @@ aPlugin
 let
 defaultABI
 =
+lazy
+.
 UpdateUtils
 .
 ABI

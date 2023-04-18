@@ -12,11 +12,17 @@ PropertyListUtils
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ctypes
 "
@@ -713,6 +719,8 @@ this
 .
 _JS_MAX_INT_SIGNED
 =
+lazy
+.
 ctypes
 .
 Int64
@@ -724,6 +732,8 @@ this
 .
 _JS_MAX_INT_UNSIGNED
 =
+lazy
+.
 ctypes
 .
 UInt64
@@ -735,6 +745,8 @@ this
 .
 _JS_MIN_INT
 =
+lazy
+.
 ctypes
 .
 Int64
@@ -983,6 +995,8 @@ aByteOffset
 let
 int64
 =
+lazy
+.
 ctypes
 .
 Int64
@@ -995,6 +1009,8 @@ lo
 ;
 if
 (
+lazy
+.
 ctypes
 .
 Int64
@@ -1011,6 +1027,8 @@ _JS_MAX_INT_SIGNED
 1
 |
 |
+lazy
+.
 ctypes
 .
 Int64
@@ -1638,6 +1656,8 @@ offset
 let
 uint64
 =
+lazy
+.
 ctypes
 .
 UInt64
@@ -1650,6 +1670,8 @@ lo
 ;
 if
 (
+lazy
+.
 ctypes
 .
 UInt64

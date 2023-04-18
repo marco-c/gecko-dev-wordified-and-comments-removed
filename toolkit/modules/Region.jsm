@@ -110,11 +110,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 LocationHelper
 :
@@ -153,7 +159,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -165,7 +171,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 wifiScanningEnabled
 "
@@ -185,7 +191,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 networkTimeout
 "
@@ -203,7 +209,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 retryTimeout
 "
@@ -227,7 +233,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 loggingEnabled
 "
@@ -245,7 +251,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 cacheBustEnabled
 "
@@ -265,7 +271,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 updateDebounce
 "
@@ -289,7 +295,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 lastUpdated
 "
@@ -309,7 +315,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 localGeocodingEnabled
 "
@@ -329,7 +335,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 timerManager
 "
@@ -368,6 +374,8 @@ jsm
 "
 maxLogLevel
 :
+lazy
+.
 loggingEnabled
 ?
 "
@@ -548,6 +556,8 @@ _initPromise
 }
 if
 (
+lazy
+.
 cacheBustEnabled
 &
 &
@@ -566,6 +576,8 @@ idleDispatchToMainThread
 =
 >
 {
+lazy
+.
 timerManager
 .
 registerTimer
@@ -642,6 +654,8 @@ _fetchRegion
 }
 if
 (
+lazy
+.
 localGeocodingEnabled
 &
 &
@@ -799,6 +813,8 @@ err
 ;
 if
 (
+lazy
+.
 retryTimeout
 )
 {
@@ -808,6 +824,8 @@ _retryCount
 +
 +
 ;
+lazy
+.
 setTimeout
 (
 (
@@ -832,6 +850,8 @@ this
 )
 ;
 }
+lazy
+.
 retryTimeout
 )
 ;
@@ -1601,6 +1621,8 @@ omit
 ;
 if
 (
+lazy
+.
 wifiScanningEnabled
 )
 {
@@ -1717,6 +1739,8 @@ _fetchTimeout
 (
 url
 fetchOpts
+lazy
+.
 networkTimeout
 )
 ;
@@ -2212,6 +2236,8 @@ _fetchTimeout
 (
 url
 fetchOpts
+lazy
+.
 networkTimeout
 )
 ;
@@ -3087,6 +3113,8 @@ Promise
 race
 (
 [
+lazy
+.
 fetch
 (
 url
@@ -3117,6 +3145,8 @@ Promise
 resolve
 =
 >
+lazy
+.
 setTimeout
 (
 resolve
@@ -3129,6 +3159,8 @@ if
 controller
 )
 {
+lazy
+.
 setTimeout
 (
 (
@@ -3242,6 +3274,8 @@ now
 1000
 )
 -
+lazy
+.
 lastUpdated
 ;
 let
@@ -3250,6 +3284,8 @@ needsUpdate
 sinceUpdate
 >
 =
+lazy
+.
 updateDebounce
 ;
 if
@@ -3460,6 +3496,8 @@ _wifiDataPromise
 let
 data
 =
+lazy
+.
 LocationHelper
 .
 formatWifiAccessPoints

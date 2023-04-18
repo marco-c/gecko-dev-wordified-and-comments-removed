@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 WindowsRegistry
 :
@@ -140,6 +146,8 @@ getAllowedAppSources
 )
 =
 >
+lazy
+.
 WindowsRegistry
 .
 readRegKey
@@ -230,6 +238,8 @@ const
 buildNumber
 }
 =
+lazy
+.
 WindowsVersionInfo
 .
 get

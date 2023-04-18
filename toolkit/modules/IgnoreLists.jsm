@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 RemoteSettings
 :
@@ -106,6 +112,8 @@ this
 .
 _ignoreListSettings
 =
+lazy
+.
 RemoteSettings
 (
 SETTINGS_IGNORELIST_KEY
@@ -266,6 +274,8 @@ if
 (
 ex
 instanceof
+lazy
+.
 RemoteSettingsClient
 .
 InvalidSignatureError
