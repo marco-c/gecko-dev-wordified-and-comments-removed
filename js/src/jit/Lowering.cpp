@@ -48927,16 +48927,6 @@ tempFixed
 ABINonArgReg0
 )
 ;
-LDefinition
-fp
-=
-LDefinition
-:
-:
-BogusTemp
-(
-)
-;
 LInstruction
 *
 lir
@@ -48971,7 +48961,6 @@ numOperands
 (
 )
 scratch
-fp
 )
 ;
 }
@@ -49006,7 +48995,6 @@ numOperands
 (
 )
 scratch
-fp
 )
 ;
 }
@@ -49026,7 +49014,6 @@ numOperands
 (
 )
 scratch
-fp
 )
 ;
 }
