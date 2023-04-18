@@ -960,8 +960,10 @@ ScriptLoader
 (
 )
 ;
+already_AddRefed
+<
 ScriptLoadRequest
-*
+>
 CreateLoadRequest
 (
 ScriptKind
