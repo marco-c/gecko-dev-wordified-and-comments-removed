@@ -460,8 +460,6 @@ nsIXULRuntime
 :
 :
 PROCESS_TYPE_DEFAULT
-as
-u32
 )
 ;
 register_process_shutdown
@@ -514,8 +512,6 @@ nsIXULRuntime
 :
 :
 PROCESS_TYPE_DEFAULT
-as
-u32
 }
 #
 [

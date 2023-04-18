@@ -1334,8 +1334,6 @@ nsIBits
 :
 :
 ERROR_TYPE_SUCCESS
-as
-i32
 Some
 (
 error_type

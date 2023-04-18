@@ -147,9 +147,6 @@ self
 >
 i32
 {
-let
-val
-=
 match
 self
 {
@@ -602,10 +599,6 @@ nsIBits
 :
 ERROR_TYPE_FAILED_TO_CONNECT_TO_BCM
 }
-;
-val
-as
-i32
 }
 }
 impl

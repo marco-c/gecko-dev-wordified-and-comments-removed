@@ -694,8 +694,6 @@ nsIEventTarget
 :
 :
 DISPATCH_NORMAL
-as
-u32
 )
 }
 .
