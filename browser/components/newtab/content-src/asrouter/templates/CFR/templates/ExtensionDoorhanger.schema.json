@@ -2416,7 +2416,7 @@ dispatched
 additionalProperties
 "
 :
-false
+true
 "
 required
 "
@@ -2623,6 +2623,11 @@ id
 ]
 }
 }
+"
+additionalProperties
+"
+:
+true
 "
 required
 "
