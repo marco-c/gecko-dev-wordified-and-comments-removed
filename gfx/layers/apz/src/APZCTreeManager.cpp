@@ -4781,6 +4781,14 @@ aLayer
 {
 if
 (
+StaticPrefs
+:
+:
+apz_printtree
+(
+)
+&
+&
 aLayer
 .
 Dump
