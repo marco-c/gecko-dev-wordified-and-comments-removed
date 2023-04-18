@@ -799,7 +799,7 @@ aChannel
 )
 ;
 void
-CloseInt
+CloseLocked
 (
 DataChannel
 *
