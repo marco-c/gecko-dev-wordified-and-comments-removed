@@ -73,7 +73,7 @@ requests
 .
 27
 .
-24
+25
 types
 -
 setuptools
