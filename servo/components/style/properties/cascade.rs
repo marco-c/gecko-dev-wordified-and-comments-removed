@@ -1839,6 +1839,12 @@ color
 context
 )
 ;
+if
+alpha
+!
+=
+0
+{
 let
 mut
 color
@@ -1875,6 +1881,7 @@ into
 )
 )
 )
+}
 }
 PropertyDeclaration
 :
