@@ -16330,14 +16330,6 @@ Init
 ;
 mResults
 .
-mSuspectedAtCCStart
-=
-SuspectedCount
-(
-)
-;
-mResults
-.
 mAnyManual
 =
 aIsManual

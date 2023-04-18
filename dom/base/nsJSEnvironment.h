@@ -352,7 +352,6 @@ static
 void
 EndCycleCollectionCallback
 (
-const
 mozilla
 :
 :
