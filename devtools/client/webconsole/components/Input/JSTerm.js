@@ -4,6 +4,16 @@ strict
 "
 ;
 const
+ChromeUtils
+=
+require
+(
+"
+ChromeUtils
+"
+)
+;
+const
 Services
 =
 require
@@ -3380,7 +3390,7 @@ const
 OS
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

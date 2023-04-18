@@ -4,6 +4,16 @@ strict
 "
 ;
 const
+ChromeUtils
+=
+require
+(
+"
+ChromeUtils
+"
+)
+;
+const
 {
 L10N
 }
@@ -416,7 +426,7 @@ const
 OS
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
