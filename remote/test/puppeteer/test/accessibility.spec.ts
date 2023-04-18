@@ -1007,9 +1007,7 @@ roledescription
 .
 toEqual
 (
-'
-foo
-'
+undefined
 )
 ;
 }

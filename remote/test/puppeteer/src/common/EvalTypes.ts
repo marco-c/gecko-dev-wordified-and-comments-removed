@@ -136,6 +136,7 @@ export
 type
 JSONArray
 =
+readonly
 Serializable
 [
 ]

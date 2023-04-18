@@ -781,13 +781,17 @@ _checkLifecycleComplete
 )
 ;
 }
+async
 navigationResponse
 (
 )
 :
+Promise
+<
 HTTPResponse
 |
 null
+>
 {
 return
 this

@@ -158,6 +158,11 @@ omitBackground
 :
 boolean
 ;
+timeout
+?
+:
+number
+;
 }
 export
 interface

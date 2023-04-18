@@ -17,3 +17,9 @@ lock
 package
 .
 json
+docs
+-
+dist
+/
+website
+/

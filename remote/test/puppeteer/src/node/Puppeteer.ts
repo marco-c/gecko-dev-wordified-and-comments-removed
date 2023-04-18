@@ -348,6 +348,10 @@ options
 }
 executablePath
 (
+channel
+?
+:
+string
 )
 :
 string
@@ -359,6 +363,7 @@ _launcher
 .
 executablePath
 (
+channel
 )
 ;
 }
