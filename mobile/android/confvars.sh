@@ -100,9 +100,6 @@ branding
 configure
 .
 sh
-MOZ_NO_SMART_CARDS
-=
-1
 MOZ_RAW
 =
 1
