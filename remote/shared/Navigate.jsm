@@ -100,6 +100,13 @@ waitForInitialNavigationCompleted
 browsingContext
 )
 {
+const
+webProgress
+=
+browsingContext
+.
+webProgress
+;
 let
 listener
 ;
@@ -126,8 +133,6 @@ add
 listener
 )
 ;
-browsingContext
-.
 webProgress
 .
 addProgressListener
@@ -157,8 +162,6 @@ currentWindowGlobal
 if
 (
 !
-browsingContext
-.
 webProgress
 .
 isLoadingDocument
@@ -195,8 +198,6 @@ finally
 =
 >
 {
-browsingContext
-.
 webProgress
 .
 removeProgressListener
