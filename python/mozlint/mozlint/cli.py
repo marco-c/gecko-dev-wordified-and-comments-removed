@@ -566,9 +566,7 @@ outgoing
 const
 "
 :
-"
-default
-"
+True
                 
 "
 nargs
@@ -2375,9 +2373,7 @@ lint
             
 outgoing
 =
-"
-default
-"
+True
             
 workdir
 =
