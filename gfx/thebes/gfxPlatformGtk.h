@@ -223,9 +223,6 @@ AccelerateLayersByDefault
 )
 override
 ;
-#
-ifdef
-MOZ_X11
 already_AddRefed
 <
 mozilla
@@ -241,8 +238,6 @@ CreateHardwareVsyncSource
 )
 override
 ;
-#
-endif
 bool
 IsX11Display
 (
