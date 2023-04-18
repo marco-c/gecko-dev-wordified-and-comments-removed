@@ -3468,9 +3468,6 @@ Object
 possibly_calls
 :
 true
-congruent_to
-:
-if_operands_equal
 #
 Although
 this
