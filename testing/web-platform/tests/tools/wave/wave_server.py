@@ -44,6 +44,24 @@ from
 .
 network
 .
+api
+.
+devices_api_handler
+import
+DevicesApiHandler
+from
+.
+network
+.
+api
+.
+general_api_handler
+import
+GeneralApiHandler
+from
+.
+network
+.
 static_handler
 import
 StaticHandler
@@ -72,6 +90,13 @@ from
 .
 testing
 .
+devices_manager
+import
+DevicesManager
+from
+.
+testing
+.
 test_loader
 import
 TestLoader
@@ -82,6 +107,15 @@ testing
 event_dispatcher
 import
 EventDispatcher
+VERSION_STRING
+=
+"
+v3
+.
+3
+.
+0
+"
 class
 WaveServer
 (
@@ -181,6 +215,16 @@ event_dispatcher
 =
 EventDispatcher
 (
+            
+event_cache_duration
+=
+configuration
+[
+"
+event_cache_duration
+"
+]
+        
 )
         
 sessions_manager
@@ -198,6 +242,12 @@ ResultsManager
 tests_manager
 =
 TestsManager
+(
+)
+        
+devices_manager
+=
+DevicesManager
 (
 )
         
@@ -236,6 +286,10 @@ results_directory_path
 results_manager
 =
 results_manager
+            
+configuration
+=
+configuration
         
 )
         
@@ -261,12 +315,12 @@ tests_manager
 =
 tests_manager
             
-import_enabled
+import_results_enabled
 =
 configuration
 [
 "
-import_enabled
+import_results_enabled
 "
 ]
             
@@ -304,6 +358,13 @@ event_dispatcher
 =
 event_dispatcher
         
+)
+        
+devices_manager
+.
+initialize
+(
+event_dispatcher
 )
         
 exclude_list_file_path
@@ -430,6 +491,15 @@ configuration
 web_root
 "
 ]
+            
+read_sessions_enabled
+=
+configuration
+[
+"
+read_sessions_enabled
+"
+]
         
 )
         
@@ -488,12 +558,18 @@ test_loader
         
 )
         
-results_api_handler
+devices_api_handler
 =
-ResultsApiHandler
+DevicesApiHandler
 (
             
-results_manager
+devices_manager
+=
+devices_manager
+            
+event_dispatcher
+=
+event_dispatcher
             
 web_root
 =
@@ -503,6 +579,87 @@ configuration
 web_root
 "
 ]
+        
+)
+        
+results_api_handler
+=
+ResultsApiHandler
+(
+            
+results_manager
+            
+sessions_manager
+            
+web_root
+=
+configuration
+[
+"
+web_root
+"
+]
+        
+)
+        
+general_api_handler
+=
+GeneralApiHandler
+(
+            
+web_root
+=
+configuration
+[
+"
+web_root
+"
+]
+            
+read_sessions_enabled
+=
+configuration
+[
+"
+read_sessions_enabled
+"
+]
+            
+import_results_enabled
+=
+configuration
+[
+"
+import_results_enabled
+"
+]
+            
+reports_enabled
+=
+reports_enabled
+            
+version_string
+=
+VERSION_STRING
+            
+test_type_selection_enabled
+=
+configuration
+[
+"
+enable_test_type_selection
+"
+]
+            
+test_file_selection_enabled
+=
+configuration
+[
+"
+enable_test_file_selection
+"
+]
+        
 )
         
 http_handler
@@ -525,6 +682,14 @@ tests_api_handler
 results_api_handler
 =
 results_api_handler
+            
+devices_api_handler
+=
+devices_api_handler
+            
+general_api_handler
+=
+general_api_handler
             
 http_port
 =

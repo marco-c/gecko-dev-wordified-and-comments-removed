@@ -6,6 +6,8 @@ import
 os
 import
 json
+import
+re
 from
 threading
 import
@@ -111,6 +113,8 @@ tests_manager
 results_directory
                    
 results_manager
+                   
+configuration
 )
 :
         
@@ -156,6 +160,12 @@ self
 _results_manager
 =
 results_manager
+        
+self
+.
+_configuration
+=
+configuration
     
 def
 create_session
@@ -167,7 +177,7 @@ tests
 =
 None
         
-types
+test_types
 =
 None
         
@@ -176,10 +186,6 @@ timeouts
 None
         
 reference_tokens
-=
-None
-        
-webhook_urls
 =
 None
         
@@ -192,6 +198,10 @@ labels
 None
         
 expiration_date
+=
+None
+        
+type
 =
 None
     
@@ -227,17 +237,6 @@ None
 :
             
 reference_tokens
-=
-[
-]
-        
-if
-webhook_urls
-is
-None
-:
-            
-webhook_urls
 =
 [
 ]
@@ -317,7 +316,19 @@ automatic
 "
 ]
 =
-DEFAULT_TEST_AUTOMATIC_TIMEOUT
+self
+.
+_configuration
+[
+"
+timeouts
+"
+]
+[
+"
+automatic
+"
+]
         
 if
 "
@@ -335,33 +346,45 @@ manual
 "
 ]
 =
-DEFAULT_TEST_MANUAL_TIMEOUT
+self
+.
+_configuration
+[
+"
+timeouts
+"
+]
+[
+"
+manual
+"
+]
         
 if
-types
+test_types
 is
 None
 :
             
-types
+test_types
 =
 DEFAULT_TEST_TYPES
         
 for
-type
+test_type
 in
-types
+test_types
 :
             
 if
-type
+test_type
 !
 =
 "
 automatic
 "
 and
-type
+test_type
 !
 =
 "
@@ -383,7 +406,7 @@ type
 .
 format
 (
-type
+test_type
 )
 )
         
@@ -407,7 +430,7 @@ _test_loader
 get_tests
 (
             
-types
+test_types
             
 include_list
 =
@@ -510,6 +533,19 @@ complete
 0
 }
         
+date_created
+=
+int
+(
+time
+.
+time
+(
+)
+*
+1000
+)
+        
 session
 =
 Session
@@ -531,9 +567,9 @@ browser
 =
 browser
             
-types
+test_types
 =
-types
+test_types
             
 timeouts
 =
@@ -560,17 +596,21 @@ reference_tokens
 =
 reference_tokens
             
-webhook_urls
-=
-webhook_urls
-            
 labels
 =
 labels
             
+type
+=
+type
+            
 expiration_date
 =
 expiration_date
+            
+date_created
+=
+date_created
         
 )
         
@@ -635,6 +675,17 @@ is
 None
 :
             
+print
+(
+"
+loading
+session
+from
+file
+system
+"
+)
+            
 session
 =
 self
@@ -660,6 +711,92 @@ session
         
 return
 session
+    
+def
+read_sessions
+(
+self
+index
+=
+None
+count
+=
+None
+)
+:
+        
+if
+index
+is
+None
+:
+            
+index
+=
+0
+        
+if
+count
+is
+None
+:
+            
+count
+=
+10
+        
+self
+.
+load_all_sessions_info
+(
+)
+        
+sessions
+=
+[
+]
+        
+for
+it_index
+token
+in
+enumerate
+(
+self
+.
+_sessions
+)
+:
+            
+if
+it_index
+<
+index
+:
+                
+continue
+            
+if
+len
+(
+sessions
+)
+=
+=
+count
+:
+                
+break
+            
+sessions
+.
+append
+(
+token
+)
+        
+return
+sessions
     
 def
 read_session_status
@@ -821,10 +958,10 @@ update_session_configuration
 self
 token
 tests
-types
+test_types
 timeouts
 reference_tokens
-webhook_urls
+type
     
 )
 :
@@ -936,16 +1073,16 @@ session
 reference_tokens
             
 if
-types
+test_types
 is
 None
 :
                 
-types
+test_types
 =
 session
 .
-types
+test_types
             
 pending_tests
 =
@@ -978,9 +1115,9 @@ reference_tokens
 =
 reference_tokens
                 
-types
+test_types
 =
-types
+test_types
             
 )
             
@@ -1074,7 +1211,7 @@ test_state
 test_state
         
 if
-types
+test_types
 is
 not
 None
@@ -1082,9 +1219,9 @@ None
             
 session
 .
-types
+test_types
 =
-types
+test_types
         
 if
 timeouts
@@ -1151,7 +1288,7 @@ reference_tokens
 reference_tokens
         
 if
-webhook_urls
+type
 is
 not
 None
@@ -1159,9 +1296,9 @@ None
             
 session
 .
-webhook_urls
+type
 =
-webhook_urls
+type
         
 self
 .
@@ -1726,16 +1863,11 @@ next_session
 expiration_date
 /
 1000
-.
-0
 -
-int
-(
 time
 .
 time
 (
-)
 )
         
 if
@@ -1812,6 +1944,8 @@ time
 time
 (
 )
+*
+1000
 )
         
 for
@@ -1824,10 +1958,6 @@ if
 session
 .
 expiration_date
-/
-1000
-.
-0
 <
 now
 :
@@ -1953,9 +2083,9 @@ time
 time
 (
 )
-)
 *
 1000
+)
             
 session
 .
@@ -2113,6 +2243,8 @@ session
 .
 date_finished
 =
+int
+(
 time
 .
 time
@@ -2120,6 +2252,7 @@ time
 )
 *
 1000
+)
         
 self
 .
@@ -2249,6 +2382,8 @@ session
 .
 date_finished
 =
+int
+(
 time
 .
 time
@@ -2256,6 +2391,7 @@ time
 )
 *
 1000
+)
         
 self
 .
@@ -2435,6 +2571,125 @@ session
 running_tests
     
 def
+get_test_path_with_query
+(
+self
+test
+session
+)
+:
+        
+query_string
+=
+"
+"
+        
+include_list
+=
+session
+.
+tests
+[
+"
+include
+"
+]
+        
+for
+include_test
+in
+include_list
+:
+            
+split
+=
+include_test
+.
+split
+(
+"
+?
+"
+)
+            
+query
+=
+"
+"
+            
+if
+len
+(
+split
+)
+>
+1
+:
+                
+include_test
+=
+split
+[
+0
+]
+                
+query
+=
+split
+[
+1
+]
+            
+pattern
+=
+re
+.
+compile
+(
+"
+^
+"
++
+include_test
+)
+            
+if
+pattern
+.
+match
+(
+test
+)
+is
+not
+None
+:
+                
+query_string
++
+=
+query
++
+"
+&
+"
+        
+return
+"
+{
+}
+?
+{
+}
+"
+.
+format
+(
+test
+query_string
+)
+    
+def
 find_token
 (
 self
@@ -2501,3 +2756,18 @@ tokens
 [
 0
 ]
+    
+def
+get_total_sessions
+(
+self
+)
+:
+        
+return
+len
+(
+self
+.
+_sessions
+)

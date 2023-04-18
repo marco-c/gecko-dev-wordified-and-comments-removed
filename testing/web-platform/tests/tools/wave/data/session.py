@@ -54,7 +54,7 @@ token
 =
 None
             
-types
+test_types
 =
 None
             
@@ -98,6 +98,10 @@ recent_completed_count
 =
 None
             
+date_created
+=
+None
+            
 date_started
 =
 None
@@ -118,11 +122,11 @@ browser
 =
 None
             
-webhook_urls
+expiration_date
 =
 None
             
-expiration_date
+type
 =
 None
             
@@ -151,12 +155,12 @@ token
 token
         
 if
-types
+test_types
 is
 None
 :
             
-types
+test_types
 =
 [
 AUTOMATIC
@@ -165,9 +169,9 @@ MANUAL
         
 self
 .
-types
+test_types
 =
-types
+test_types
         
 if
 user_agent
@@ -203,50 +207,17 @@ labels
 =
 labels
         
-if
-tests
-is
-None
-:
-            
-tests
-=
-{
-}
-        
 self
 .
 tests
 =
 tests
         
-if
-pending_tests
-is
-None
-:
-            
-pending_tests
-=
-{
-}
-        
 self
 .
 pending_tests
 =
 pending_tests
-        
-if
-running_tests
-is
-None
-:
-            
-running_tests
-=
-{
-}
         
 self
 .
@@ -287,17 +258,6 @@ status
 =
 status
         
-if
-test_state
-is
-None
-:
-            
-test_state
-=
-{
-}
-        
 self
 .
 test_state
@@ -325,6 +285,12 @@ self
 recent_completed_count
 =
 recent_completed_count
+        
+self
+.
+date_created
+=
+date_created
         
 self
 .
@@ -377,28 +343,17 @@ browser
 =
 browser
         
-if
-webhook_urls
-is
-None
-:
-            
-webhook_urls
-=
-[
-]
-        
-self
-.
-webhook_urls
-=
-webhook_urls
-        
 self
 .
 expiration_date
 =
 expiration_date
+        
+self
+.
+type
+=
+type
         
 if
 malfunctioning_tests

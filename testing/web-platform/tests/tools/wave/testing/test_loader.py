@@ -430,6 +430,10 @@ tests
 [
 test
 ]
+[
+1
+:
+]
 :
                         
 paths
@@ -604,6 +608,20 @@ in
 include_list
 :
                 
+include_test
+=
+include_test
+.
+split
+(
+"
+?
+"
+)
+[
+0
+]
+                
 pattern
 =
 re
@@ -666,6 +684,20 @@ exclude_test
 in
 exclude_list
 :
+                
+exclude_test
+=
+exclude_test
+.
+split
+(
+"
+?
+"
+)
+[
+0
+]
                 
 pattern
 =
@@ -814,7 +846,7 @@ get_tests
         
 self
         
-types
+test_types
 =
 None
         
@@ -834,12 +866,12 @@ None
 :
         
 if
-types
+test_types
 is
 None
 :
             
-types
+test_types
 =
 [
 AUTOMATIC
@@ -899,7 +931,7 @@ reference_tokens
 for
 test_type
 in
-types
+test_types
 :
             
 if
@@ -959,6 +991,18 @@ None
 and
 \
                        
+(
+api
+not
+in
+reference_results
+or
+                       
+(
+api
+in
+reference_results
+and
 test_path
 not
 in
@@ -966,6 +1010,8 @@ reference_results
 [
 api
 ]
+)
+)
 :
                         
 continue

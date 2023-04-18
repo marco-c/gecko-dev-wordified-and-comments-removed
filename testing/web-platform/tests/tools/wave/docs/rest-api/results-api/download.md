@@ -86,7 +86,7 @@ of
 the
 WMAS
 Test
-Suite
+Runner
 can
 import
 .

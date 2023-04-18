@@ -20,8 +20,6 @@ urllib
 error
 import
 URLError
-import
-pytest
 from
 tools
 .
@@ -29,7 +27,7 @@ wpt
 import
 wpt
 def
-is_port_8000_in_use
+is_port_8080_in_use
 (
 )
 :
@@ -65,12 +63,14 @@ bind
 .
 1
 "
-8000
+8080
 )
 )
     
 except
-OSError
+socket
+.
+error
 as
 e
 :
@@ -113,15 +113,13 @@ test_serve
 :
     
 if
-is_port_8000_in_use
+is_port_8080_in_use
 (
 )
 :
         
-pytest
-.
-skip
-(
+assert
+False
 "
 WAVE
 Test
@@ -129,13 +127,12 @@ Runner
 failed
 :
 Port
-8000
+8080
 already
 in
 use
 .
 "
-)
     
 p
 =
@@ -159,13 +156,44 @@ repo_root
 wpt
 "
 )
+        
 "
 serve
 -
 wave
 "
+        
+"
+-
+-
+config
+"
+        
+os
+.
+path
+.
+join
+(
+wpt
+.
+localpaths
+.
+repo_root
+"
+tools
+/
+wave
+/
+tests
+/
+config
+.
+json
+"
+)
 ]
-                         
+        
 preexec_fn
 =
 os
@@ -222,8 +250,6 @@ time
 -
 start
 >
-6
-*
 60
 :
                 
@@ -241,7 +267,7 @@ not
 start
 responding
 within
-6m
+60s
 .
 "
             
@@ -263,7 +289,7 @@ platform
 .
 test
 :
-8000
+8080
 /
 _wave
 /
@@ -287,13 +313,7 @@ URLError
 print
 (
 "
-Server
-not
-responding
-waiting
-another
-10s
-.
+URLError
 "
 )
                 
@@ -301,7 +321,7 @@ time
 .
 sleep
 (
-10
+1
 )
             
 else
