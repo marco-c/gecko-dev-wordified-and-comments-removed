@@ -521,9 +521,9 @@ OF
 (
 (
 unsigned
-value
+code
 int
-length
+len
 )
 )
 ;
@@ -5042,6 +5042,10 @@ ush
 stored_len
 )
 ;
+if
+(
+stored_len
+)
 zmemcpy
 (
 s
@@ -6281,7 +6285,7 @@ s
 {
 unsigned
 long
-black_mask
+block_mask
 =
 0xf3ffc07fUL
 ;
@@ -6302,7 +6306,7 @@ n
 n
 +
 +
-black_mask
+block_mask
 >
 >
 =
@@ -6311,7 +6315,7 @@ black_mask
 if
 (
 (
-black_mask
+block_mask
 &
 1
 )
