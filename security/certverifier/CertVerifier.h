@@ -257,6 +257,9 @@ TelemetryOnly
 Enforce
 =
 2
+ConfirmRevocations
+=
+3
 }
 ;
 enum

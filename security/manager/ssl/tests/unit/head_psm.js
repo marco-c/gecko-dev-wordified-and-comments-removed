@@ -749,6 +749,11 @@ CRLiteModeEnforcePrefValue
 =
 2
 ;
+const
+CRLiteModeConfirmRevocationsValue
+=
+3
+;
 function
 stringToArray
 (
