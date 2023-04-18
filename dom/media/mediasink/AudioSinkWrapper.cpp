@@ -1026,6 +1026,13 @@ DisconnectIfExists
 (
 )
 ;
+if
+(
+IsPlaying
+(
+)
+)
+{
 mPlayDuration
 =
 mAudioSink
@@ -1044,6 +1051,7 @@ Now
 (
 )
 ;
+}
 Maybe
 <
 MozPromiseHolder
