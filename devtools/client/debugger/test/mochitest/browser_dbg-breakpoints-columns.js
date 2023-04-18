@@ -821,6 +821,7 @@ line
 count
 )
 {
+await
 clickGutter
 (
 dbg

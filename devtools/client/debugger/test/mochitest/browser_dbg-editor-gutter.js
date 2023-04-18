@@ -63,6 +63,7 @@ source
 url
 )
 ;
+await
 clickGutter
 (
 dbg
@@ -104,6 +105,7 @@ dbg
 4
 )
 ;
+await
 clickGutter
 (
 dbg
@@ -308,6 +310,7 @@ click
 "
 )
 ;
+await
 clickGutter
 (
 dbg
@@ -377,20 +380,3 @@ blackboxed
 }
 )
 ;
-function
-clickGutter
-(
-dbg
-line
-)
-{
-clickElement
-(
-dbg
-"
-gutter
-"
-line
-)
-;
-}
