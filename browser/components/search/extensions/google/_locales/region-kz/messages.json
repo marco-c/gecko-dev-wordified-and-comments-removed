@@ -44,7 +44,7 @@ www
 .
 google
 .
-by
+kz
 /
 search
 "
@@ -67,7 +67,7 @@ www
 .
 google
 .
-by
+kz
 /
 search
 ?
@@ -96,12 +96,16 @@ www
 .
 google
 .
-by
+kz
 /
 complete
 /
 search
 ?
+client
+=
+firefox
+&
 q
 =
 {

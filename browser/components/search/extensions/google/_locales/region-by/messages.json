@@ -44,7 +44,7 @@ www
 .
 google
 .
-ru
+by
 /
 search
 "
@@ -67,7 +67,7 @@ www
 .
 google
 .
-ru
+by
 /
 search
 ?
@@ -96,12 +96,16 @@ www
 .
 google
 .
-ru
+by
 /
 complete
 /
 search
 ?
+client
+=
+firefox
+&
 q
 =
 {
