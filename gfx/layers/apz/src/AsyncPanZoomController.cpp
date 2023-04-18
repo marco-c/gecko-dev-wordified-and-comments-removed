@@ -18286,6 +18286,14 @@ aSampleTime
 ;
 if
 (
+needComposite
+|
+|
+mAnimation
+)
+{
+if
+(
 APZCTreeManager
 *
 treeManagerLocal
@@ -18304,6 +18312,7 @@ NewAPZScrollGeneration
 (
 )
 ;
+}
 }
 if
 (
