@@ -3281,6 +3281,11 @@ bug
 /
 [
 Replaceable
+Deprecated
+=
+"
+InstallTriggerDeprecated
+"
 ]
 readonly
 attribute
