@@ -605,6 +605,20 @@ _never
             
 return
         
+if
+not
+inspect
+.
+isroutine
+(
+obj
+.
+_func
+)
+:
+            
+return
+        
 func
 glob
 =
@@ -860,6 +874,16 @@ _always
 self
 .
 _never
+)
+or
+not
+inspect
+.
+isroutine
+(
+obj
+.
+_func
 )
 :
                 
