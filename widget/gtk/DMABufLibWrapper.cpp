@@ -1662,6 +1662,17 @@ XRE_IsRDDProcess
 )
 ;
 return
+gfx
+:
+:
+gfxVars
+:
+:
+UseEGL
+(
+)
+&
+&
 StaticPrefs
 :
 :
