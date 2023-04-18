@@ -420,14 +420,6 @@ lite
 2
     
 "
-target
--
-lexicon
-"
-:
-2
-    
-"
 tokio
 "
 :
