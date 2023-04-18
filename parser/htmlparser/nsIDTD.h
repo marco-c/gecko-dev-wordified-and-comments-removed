@@ -88,11 +88,10 @@ aSink
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 DidBuildModel
 (
-nsresult
-anErrorCode
 )
 =
 0
@@ -164,11 +163,9 @@ aSink
 override
 ;
 \
-NS_IMETHOD
+void
 DidBuildModel
 (
-nsresult
-anErrorCode
 )
 override
 ;

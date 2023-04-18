@@ -523,11 +523,9 @@ WillBuildModel
 (
 )
 ;
-nsresult
+void
 DidBuildModel
 (
-nsresult
-anErrorCode
 )
 ;
 private

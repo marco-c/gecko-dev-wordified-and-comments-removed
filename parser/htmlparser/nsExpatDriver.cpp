@@ -8425,14 +8425,12 @@ return
 mInternalState
 ;
 }
-NS_IMETHODIMP
+void
 nsExpatDriver
 :
 :
 DidBuildModel
 (
-nsresult
-anErrorCode
 )
 {
 if
@@ -8453,9 +8451,6 @@ nullptr
 mSink
 =
 nullptr
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
