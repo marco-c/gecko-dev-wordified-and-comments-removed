@@ -704,6 +704,11 @@ CompositorOptions
 compositorOptions
 )
 ;
+async
+NotifyMemoryPressure
+(
+)
+;
 sync
 FlushRendering
 (
