@@ -17332,8 +17332,9 @@ masm
 .
 pseudoMaxFloat32x4
 (
-lhsDest
+lhs
 rhs
+dest
 )
 ;
 break
@@ -17351,8 +17352,9 @@ masm
 .
 pseudoMinFloat32x4
 (
-lhsDest
+lhs
 rhs
+dest
 )
 ;
 break
@@ -17370,8 +17372,9 @@ masm
 .
 pseudoMaxFloat64x2
 (
-lhsDest
+lhs
 rhs
+dest
 )
 ;
 break
@@ -17389,8 +17392,9 @@ masm
 .
 pseudoMinFloat64x2
 (
-lhsDest
+lhs
 rhs
+dest
 )
 ;
 break
@@ -17675,8 +17679,9 @@ masm
 .
 minFloat32x4Relaxed
 (
+lhs
 rhs
-lhsDest
+dest
 )
 ;
 break
@@ -17694,8 +17699,9 @@ masm
 .
 maxFloat32x4Relaxed
 (
+lhs
 rhs
-lhsDest
+dest
 )
 ;
 break
@@ -17713,8 +17719,9 @@ masm
 .
 minFloat64x2Relaxed
 (
+lhs
 rhs
-lhsDest
+dest
 )
 ;
 break
@@ -17732,8 +17739,9 @@ masm
 .
 maxFloat64x2Relaxed
 (
+lhs
 rhs
-lhsDest
+dest
 )
 ;
 break
