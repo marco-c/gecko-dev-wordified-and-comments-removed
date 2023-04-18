@@ -507,7 +507,6 @@ for
 (
 const
 auto
-&
 suffix
 :
 kSuffixes
