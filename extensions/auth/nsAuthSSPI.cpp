@@ -908,7 +908,7 @@ LOG
 (
 "
 %
-s
+S
 package
 not
 found
