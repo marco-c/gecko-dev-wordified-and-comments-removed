@@ -52,6 +52,11 @@ CLEAR_HISTORY
 "
 CLEAR_HISTORY
 "
+ENABLE_NETWORK_MONITORING
+:
+"
+ENABLE_NETWORK_MONITORING
+"
 EDITOR_TOGGLE
 :
 "
@@ -395,6 +400,15 @@ webconsole
 input
 .
 context
+"
+ENABLE_NETWORK_MONITORING
+:
+"
+devtools
+.
+browserconsole
+.
+enableNetworkMonitoring
 "
 }
 FEATURES
