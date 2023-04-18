@@ -7,10 +7,6 @@ logging
 import
 sys
 from
-collections
-import
-defaultdict
-from
 typing
 import
 Any
@@ -322,11 +318,13 @@ async
 def
 _send
 (
+        
 connection
 :
 websockets
 .
 WebSocketClientProtocol
+        
 data
 :
 Mapping
@@ -334,6 +332,7 @@ Mapping
 str
 Any
 ]
+    
 )
 -
 >
