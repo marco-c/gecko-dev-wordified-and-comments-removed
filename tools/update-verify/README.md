@@ -878,14 +878,6 @@ verify
 cfg
 .
 /
-mach
-create
--
-mach
--
-environment
-.
-/
 tools
 /
 update

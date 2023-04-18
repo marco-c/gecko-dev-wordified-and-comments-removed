@@ -2062,15 +2062,6 @@ no_system_changes
             
 self
 .
-instance
-.
-ensure_mach_environment
-(
-checkout_root
-)
-            
-self
-.
 maybe_install_private_packages_or_exit
 (
                 
@@ -2101,15 +2092,6 @@ instance
 .
 install_system_packages
 (
-)
-        
-self
-.
-instance
-.
-ensure_mach_environment
-(
-checkout_root
 )
         
 getattr

@@ -131,14 +131,6 @@ cd
 mozjs
 -
 *
-.
-/
-mach
-create
--
-mach
--
-environment
 AUTOMATION
 =
 1
