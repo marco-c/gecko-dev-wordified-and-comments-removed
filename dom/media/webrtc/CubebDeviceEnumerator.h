@@ -223,7 +223,11 @@ Side
 aSide
 )
 ;
-void
+RefPtr
+<
+const
+AudioDeviceSet
+>
 EnumerateAudioDevices
 (
 Side
