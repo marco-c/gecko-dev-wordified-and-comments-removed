@@ -18,6 +18,12 @@ debug
 h
 "
 #
+if
+SILK_DEBUG
+|
+|
+SILK_TIC_TOC
+#
 include
 "
 SigProc_FIX
@@ -25,11 +31,10 @@ SigProc_FIX
 h
 "
 #
+endif
+#
 if
 SILK_TIC_TOC
-#
-ifdef
-_WIN32
 #
 if
 (
@@ -64,6 +69,9 @@ h
 >
 #
 endif
+#
+ifdef
+_WIN32
 unsigned
 long
 silk_GetHighResolutionTime
@@ -172,7 +180,7 @@ silk_NUM_TIMERS_MAX_TAG_LEN
 ;
 #
 ifdef
-WIN32
+_WIN32
 LARGE_INTEGER
 silk_Timer_start
 [
@@ -223,7 +231,7 @@ silk_NUM_TIMERS_MAX
 ;
 #
 ifdef
-WIN32
+_WIN32
 void
 silk_TimerSave
 (

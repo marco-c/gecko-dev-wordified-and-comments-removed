@@ -69,7 +69,7 @@ ifdef
 USE_ALLOCA
 #
 ifdef
-WIN32
+_WIN32
 #
 include
 <
@@ -161,7 +161,7 @@ type
 var
 #
 ifdef
-WIN32
+_WIN32
 #
 define
 ALLOC

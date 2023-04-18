@@ -34,6 +34,9 @@ h
 "
 #
 endif
+#
+ifndef
+OVERRIDE_silk_warped_autocorrelation_FIX_c
 void
 silk_warped_autocorrelation_FIX_c
 (
@@ -450,3 +453,5 @@ corr_QC
 )
 ;
 }
+#
+endif

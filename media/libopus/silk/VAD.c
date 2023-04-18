@@ -1392,6 +1392,13 @@ counter
 1
 )
 ;
+psSilk_VAD
+-
+>
+counter
++
++
+;
 }
 else
 {
@@ -1615,11 +1622,4 @@ k
 nl
 ;
 }
-psSilk_VAD
--
->
-counter
-+
-+
-;
 }
