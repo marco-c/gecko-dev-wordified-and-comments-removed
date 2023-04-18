@@ -1342,6 +1342,15 @@ uint32_t
 aTotalDuration
 uint32_t
 aChannels
+const
+PrincipalHandle
+&
+aPrincipalHandle
+)
+:
+mPrincipalHandle
+(
+aPrincipalHandle
 )
 {
 uint32_t
@@ -1950,7 +1959,7 @@ chunk
 .
 mPrincipalHandle
 =
-PRINCIPAL_HANDLE_NONE
+mPrincipalHandle
 ;
 chunk
 .
@@ -2065,6 +2074,10 @@ uint32_t
 aOutRate
 uint32_t
 aPreBufferFrames
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 :
 mResampler
@@ -2079,6 +2092,7 @@ aOutRate
 /
 10
 STEREO
+aPrincipalHandle
 )
 {
 }
