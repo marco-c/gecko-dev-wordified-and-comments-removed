@@ -844,7 +844,11 @@ organic
 ]
 :
 [
+<
 code
+>
+|
+other
 |
 none
 ]
@@ -904,6 +908,8 @@ organic
 <
 code
 >
+|
+other
 |
 none
 ]
