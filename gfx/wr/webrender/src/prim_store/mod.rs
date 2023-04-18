@@ -2916,10 +2916,6 @@ pub
 gpu_cache_handle
 :
 GpuCacheHandle
-pub
-edge_aa_mask
-:
-EdgeAaSegmentMask
 }
 impl
 PrimTemplateCommonData
@@ -2969,14 +2965,6 @@ PrimitiveOpacity
 :
 :
 translucent
-(
-)
-edge_aa_mask
-:
-EdgeAaSegmentMask
-:
-:
-all
 (
 )
 }
