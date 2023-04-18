@@ -170,10 +170,13 @@ MakeImageDescriptor
 )
 const
 ;
+Maybe
+<
 wr
 :
 :
 ExternalImageId
+>
 mExternalImageId
 ;
 public

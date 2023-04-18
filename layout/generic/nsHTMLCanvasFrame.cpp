@@ -1137,6 +1137,10 @@ canvasContext
 -
 >
 mExternalImageId
+.
+ref
+(
+)
 imageKey
 imageDesc
 )

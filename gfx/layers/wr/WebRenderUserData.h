@@ -1542,6 +1542,13 @@ RequestFrameReadback
 void
 RefreshExternalImage
 (
+const
+wr
+:
+:
+ExternalImageId
+&
+aExternalImageId
 )
 ;
 WeakPtr
@@ -1596,11 +1603,6 @@ SurfaceFormat
 :
 :
 UNKNOWN
-;
-bool
-mDirty
-=
-false
 ;
 }
 ;

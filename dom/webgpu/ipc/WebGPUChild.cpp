@@ -6968,7 +6968,10 @@ aExternalImageId
 )
 ;
 }
-void
+RefPtr
+<
+SwapChainPromise
+>
 WebGPUChild
 :
 :
@@ -6995,6 +6998,7 @@ mClient
 aTextureId
 )
 ;
+return
 SendSwapChainPresent
 (
 aExternalImageId

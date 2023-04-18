@@ -459,6 +459,10 @@ RawId
 aTextureId
 RawId
 aCommandEncoderId
+SwapChainPresentResolver
+&
+&
+aResolver
 )
 ;
 ipc
