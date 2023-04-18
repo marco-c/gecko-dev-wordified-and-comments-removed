@@ -85,10 +85,10 @@ attribute
 nsIPrintSettings
 defaultPrintSettingsForPrinting
 ;
-readonly
-attribute
 nsIPrintSettings
-newPrintSettings
+createNewPrintSettings
+(
+)
 ;
 readonly
 attribute

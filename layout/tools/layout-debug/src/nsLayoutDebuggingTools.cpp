@@ -703,7 +703,7 @@ printSettings
 printSettingsService
 -
 >
-GetNewPrintSettings
+CreateNewPrintSettings
 (
 getter_AddRefs
 (

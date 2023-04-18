@@ -1542,7 +1542,9 @@ defaultSettings
 =
 PSSVC
 .
-newPrintSettings
+createNewPrintSettings
+(
+)
 ;
 defaultSettings
 .

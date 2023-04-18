@@ -6907,7 +6907,9 @@ printSettings
 =
 psService
 .
-newPrintSettings
+createNewPrintSettings
+(
+)
 ;
 printSettings
 .

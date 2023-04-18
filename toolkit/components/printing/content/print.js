@@ -5555,7 +5555,9 @@ defaultSettings
 =
 PSSVC
 .
-newPrintSettings
+createNewPrintSettings
+(
+)
 ;
 printerInfo
 .

@@ -5115,7 +5115,7 @@ rv
 printSettingsSvc
 -
 >
-GetNewPrintSettings
+CreateNewPrintSettings
 (
 getter_AddRefs
 (
@@ -5442,7 +5442,7 @@ rv
 printSettingsSvc
 -
 >
-GetNewPrintSettings
+CreateNewPrintSettings
 (
 getter_AddRefs
 (
@@ -12060,7 +12060,7 @@ IPC_OK
 printSettingsSvc
 -
 >
-GetNewPrintSettings
+CreateNewPrintSettings
 (
 getter_AddRefs
 (
@@ -12370,7 +12370,7 @@ rv
 printSettingsSvc
 -
 >
-GetNewPrintSettings
+CreateNewPrintSettings
 (
 getter_AddRefs
 (
