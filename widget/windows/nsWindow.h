@@ -2789,6 +2789,16 @@ MouseButton
 aButton
 )
 ;
+void
+SetSizeModeInternal
+(
+nsSizeMode
+aMode
+nsIScreen
+*
+aFullscreenTarget
+)
+;
 protected
 :
 static
