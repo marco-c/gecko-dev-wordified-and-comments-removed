@@ -3161,7 +3161,6 @@ PresContext
 (
 )
 ;
-{
 const
 float
 scale
@@ -3226,7 +3225,6 @@ aBuilder
 set
 )
 ;
-}
 if
 (
 pc
