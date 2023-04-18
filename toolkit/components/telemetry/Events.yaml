@@ -20300,6 +20300,7 @@ bug_numbers
 1660198
 1725295
 1743465
+1754638
 ]
 notification_emails
 :
@@ -20321,9 +20322,7 @@ mozilla
 com
 expiry_version
 :
-"
-100
-"
+never
 contextservices
 .
 quicksuggest
