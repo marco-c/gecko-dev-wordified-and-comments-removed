@@ -1076,11 +1076,6 @@ listNext_
 (
 NotOnList
 )
-weakRefMap_
-(
-this
-this
-)
 keptObjects
 (
 this
