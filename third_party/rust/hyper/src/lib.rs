@@ -51,7 +51,15 @@ unreachable_pub
 [
 cfg_attr
 (
+all
+(
 test
+feature
+=
+"
+full
+"
+)
 deny
 (
 warnings
