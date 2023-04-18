@@ -23,6 +23,10 @@ subprocess
 import
 sys
 from
+pathlib
+import
+Path
+from
 mach
 .
 requirements
@@ -219,9 +223,16 @@ cls
 .
 from_path
 (
+os
+.
+path
+.
+normcase
+(
 sys
 .
 prefix
+)
 )
     
 classmethod
@@ -500,6 +511,28 @@ site_packages_source
     
 )
 :
+        
+topsrcdir
+=
+os
+.
+path
+.
+normcase
+(
+topsrcdir
+)
+        
+state_dir
+=
+os
+.
+path
+.
+normcase
+(
+state_dir
+)
         
 self
 .
@@ -1124,16 +1157,22 @@ up_to_date
 :
             
 if
+Path
+(
 sys
 .
 prefix
+)
 =
 =
+Path
+(
 self
 .
 _metadata
 .
 prefix
+)
 :
                 
 raise
@@ -1276,16 +1315,22 @@ VENV
 :
             
 if
+Path
+(
 sys
 .
 prefix
+)
 !
 =
+Path
+(
 self
 .
 _metadata
 .
 prefix
+)
 :
                 
 raise
@@ -1451,6 +1496,17 @@ site_name
 )
 :
         
+topsrcdir
+=
+os
+.
+path
+.
+normcase
+(
+topsrcdir
+)
+        
 self
 .
 topsrcdir
@@ -1473,8 +1529,17 @@ path
 .
 join
 (
+            
+os
+.
+path
+.
+normcase
+(
 virtualenvs_dir
+)
 site_name
+        
 )
         
 self
@@ -1774,9 +1839,16 @@ op
 "
         
 if
+os
+.
+path
+.
+normcase
+(
 sys
 .
 executable
+)
 .
 startswith
 (
