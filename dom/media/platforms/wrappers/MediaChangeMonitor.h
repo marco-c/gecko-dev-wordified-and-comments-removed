@@ -303,9 +303,6 @@ private
 :
 MediaChangeMonitor
 (
-PlatformDecoderModule
-*
-aPDM
 UniquePtr
 <
 CodecChangeMonitor
@@ -425,12 +422,6 @@ UniquePtr
 CodecChangeMonitor
 >
 mChangeMonitor
-;
-RefPtr
-<
-PlatformDecoderModule
->
-mPDM
 ;
 VideoInfo
 mCurrentConfig
