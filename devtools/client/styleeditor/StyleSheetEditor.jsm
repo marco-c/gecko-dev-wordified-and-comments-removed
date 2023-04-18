@@ -120,11 +120,17 @@ emitter
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -148,7 +154,7 @@ loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -883,6 +889,8 @@ href
 const
 uri
 =
+lazy
+.
 NetUtil
 .
 newURI
@@ -946,6 +954,8 @@ href
 const
 origUri
 =
+lazy
+.
 NetUtil
 .
 newURI
@@ -2678,6 +2688,8 @@ getText
 const
 ostream
 =
+lazy
+.
 FileUtils
 .
 openSafeFileOutputStream
@@ -2732,6 +2744,8 @@ _state
 text
 )
 ;
+lazy
+.
 NetUtil
 .
 asyncCopy
@@ -2781,6 +2795,8 @@ SAVE_ERROR
 return
 ;
 }
+lazy
+.
 FileUtils
 .
 closeSafeFileOutputStream

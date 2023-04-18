@@ -93,11 +93,17 @@ createBundle
 PROPERTIES_URL
 )
 ;
+const
+lazy
+=
+{
+}
+;
 loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 Menu
 "
@@ -116,7 +122,7 @@ loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 MenuItem
 "
@@ -740,6 +746,8 @@ const
 popupMenu
 =
 new
+lazy
+.
 Menu
 (
 )
@@ -749,6 +757,8 @@ popupMenu
 append
 (
 new
+lazy
+.
 MenuItem
 (
 {
@@ -812,6 +822,8 @@ popupMenu
 append
 (
 new
+lazy
+.
 MenuItem
 (
 {
