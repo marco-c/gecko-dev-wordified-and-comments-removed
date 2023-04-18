@@ -380,15 +380,6 @@ extraArgs
 SharedPreferenceSerializer
 prefSerializer
 (
-mozilla
-:
-:
-dom
-:
-:
-ContentParent
-:
-:
 ShouldSyncPreference
 )
 ;
