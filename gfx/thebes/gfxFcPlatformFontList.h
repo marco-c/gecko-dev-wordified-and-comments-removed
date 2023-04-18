@@ -504,6 +504,14 @@ aFontStyle
 )
 override
 ;
+void
+GetUserFontFeatures
+(
+FcPattern
+*
+aPattern
+)
+;
 RefPtr
 <
 FcPattern
