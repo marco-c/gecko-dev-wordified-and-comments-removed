@@ -311,6 +311,16 @@ aIsStartup
 false
 )
 ;
+void
+profiler_mark_thread_awake
+(
+)
+;
+void
+profiler_mark_thread_asleep
+(
+)
+;
 bool
 profiler_get_profile_json
 (
