@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-Mutex
+DataMutex
 .
 h
 "
@@ -241,7 +241,7 @@ aDisplay
 )
 ;
 void
-AddChildRefreshTimer
+AddVsyncObserver
 (
 VsyncObserver
 *
@@ -249,7 +249,7 @@ aVsyncObserver
 )
 ;
 void
-RemoveChildRefreshTimer
+RemoveVsyncObserver
 (
 VsyncObserver
 *
@@ -284,9 +284,8 @@ Display
 *
 mDisplay
 ;
-Mutex
-mRefreshTimersLock
-;
+DataMutex
+<
 nsTArray
 <
 RefPtr
@@ -294,7 +293,8 @@ RefPtr
 VsyncObserver
 >
 >
-mChildRefreshTimers
+>
+mVsyncObservers
 ;
 }
 ;

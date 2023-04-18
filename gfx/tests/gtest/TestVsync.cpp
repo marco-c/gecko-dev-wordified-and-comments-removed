@@ -665,7 +665,7 @@ TestVsyncObserver
 vsyncDispatcher
 -
 >
-AddChildRefreshTimer
+AddVsyncObserver
 (
 testVsyncObserver
 )
@@ -699,7 +699,7 @@ DidGetVsyncNotification
 vsyncDispatcher
 -
 >
-RemoveChildRefreshTimer
+RemoveVsyncObserver
 (
 testVsyncObserver
 )

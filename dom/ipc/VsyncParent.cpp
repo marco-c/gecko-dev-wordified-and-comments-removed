@@ -136,7 +136,7 @@ mVsyncDispatcher
 mVsyncDispatcher
 -
 >
-RemoveChildRefreshTimer
+RemoveVsyncObserver
 (
 this
 )
@@ -159,7 +159,7 @@ mObservingVsync
 mVsyncDispatcher
 -
 >
-AddChildRefreshTimer
+AddVsyncObserver
 (
 this
 )
@@ -330,7 +330,7 @@ mVsyncDispatcher
 mVsyncDispatcher
 -
 >
-AddChildRefreshTimer
+AddVsyncObserver
 (
 this
 )
@@ -384,7 +384,7 @@ mVsyncDispatcher
 mVsyncDispatcher
 -
 >
-RemoveChildRefreshTimer
+RemoveVsyncObserver
 (
 this
 )
@@ -438,7 +438,7 @@ mVsyncDispatcher
 mVsyncDispatcher
 -
 >
-RemoveChildRefreshTimer
+RemoveVsyncObserver
 (
 this
 )

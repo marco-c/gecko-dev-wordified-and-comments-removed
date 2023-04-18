@@ -3409,7 +3409,7 @@ mVsyncDispatcher
 mVsyncDispatcher
 -
 >
-RemoveChildRefreshTimer
+RemoveVsyncObserver
 (
 mVsyncObserver
 )
@@ -3486,7 +3486,7 @@ mVsyncDispatcher
 mVsyncDispatcher
 -
 >
-AddChildRefreshTimer
+AddVsyncObserver
 (
 mVsyncObserver
 )
@@ -3540,7 +3540,7 @@ mVsyncDispatcher
 mVsyncDispatcher
 -
 >
-RemoveChildRefreshTimer
+RemoveVsyncObserver
 (
 mVsyncObserver
 )
