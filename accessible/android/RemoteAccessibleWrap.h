@@ -89,6 +89,17 @@ override
 ;
 virtual
 void
+Description
+(
+nsString
+&
+aDescription
+)
+const
+override
+;
+virtual
+void
 Value
 (
 nsString
