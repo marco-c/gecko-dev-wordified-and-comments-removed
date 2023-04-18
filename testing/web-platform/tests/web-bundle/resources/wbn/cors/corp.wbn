@@ -5,7 +5,6 @@ X
 eindex
 gprimary
 Niresponses
-^
 x
 -
 urn
@@ -360,7 +359,7 @@ origin
 /
 script
 >
-XO
+Xz
 G
 :
 statusC200Lcontent
@@ -368,6 +367,15 @@ statusC200Lcontent
 typeItext
 /
 htmlX
+cross
+-
+origin
+-
+embedder
+-
+policyLrequire
+-
+corpX
 cross
 -
 origin
