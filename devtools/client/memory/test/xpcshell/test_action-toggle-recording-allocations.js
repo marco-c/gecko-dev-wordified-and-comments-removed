@@ -49,10 +49,10 @@ const
 commands
 =
 {
-targetConfigurationCommand
+targetCommand
 :
 {
-supports
+hasTargetWatcherSupport
 (
 )
 {
@@ -60,6 +60,10 @@ return
 true
 ;
 }
+}
+targetConfigurationCommand
+:
+{
 updateConfiguration
 (
 )
