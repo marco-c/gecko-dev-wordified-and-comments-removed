@@ -19916,12 +19916,10 @@ lastFun
 i
 )
 {
-const
 JS
 :
 :
 GCCellPtr
-&
 thing
 =
 script

@@ -2471,12 +2471,10 @@ value
 explicit
 Node
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 thing
 )
 ;

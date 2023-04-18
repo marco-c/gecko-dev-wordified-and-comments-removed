@@ -989,12 +989,10 @@ Node
 :
 Node
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 thing
 )
 {
