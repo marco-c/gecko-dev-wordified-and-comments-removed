@@ -70,6 +70,8 @@ const
 MultiTouchInput
 &
 aEvent
+bool
+aWantsCallback
 APZEventResult
 *
 aOutResult
@@ -91,6 +93,8 @@ const
 MouseInput
 &
 aEvent
+bool
+aWantsCallback
 APZEventResult
 *
 aOutResult
@@ -112,6 +116,8 @@ const
 PanGestureInput
 &
 aEvent
+bool
+aWantsCallback
 APZEventResult
 *
 aOutResult
@@ -133,6 +139,8 @@ const
 PinchGestureInput
 &
 aEvent
+bool
+aWantsCallback
 APZEventResult
 *
 aOutResult
@@ -154,6 +162,8 @@ const
 TapGestureInput
 &
 aEvent
+bool
+aWantsCallback
 APZEventResult
 *
 aOutResult
@@ -175,6 +185,8 @@ const
 ScrollWheelInput
 &
 aEvent
+bool
+aWantsCallback
 APZEventResult
 *
 aOutResult
@@ -196,6 +208,8 @@ const
 KeyboardInput
 &
 aEvent
+bool
+aWantsCallback
 APZEventResult
 *
 aOutResult

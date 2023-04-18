@@ -476,6 +476,14 @@ ReceiveInputEvent
 InputData
 &
 aEvent
+InputBlockCallback
+&
+&
+aCallback
+=
+InputBlockCallback
+(
+)
 )
 override
 ;
@@ -710,7 +718,6 @@ InputBlockCallback
 &
 aCallback
 )
-override
 ;
 void
 ProcessUnhandledEvent
@@ -1287,6 +1294,13 @@ mHit
 APZEventResult
 Finish
 (
+APZCTreeManager
+&
+aTreeManager
+InputBlockCallback
+&
+&
+aCallback
 )
 ;
 }
