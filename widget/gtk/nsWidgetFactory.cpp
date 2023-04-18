@@ -101,12 +101,17 @@ IMContextWrapper
 h
 "
 #
+ifdef
+MOZ_X11
+#
 include
 "
 nsClipboard
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -184,6 +189,9 @@ mozilla
 :
 widget
 ;
+#
+ifdef
+MOZ_X11
 NS_IMPL_COMPONENT_FACTORY
 (
 nsIClipboard
@@ -268,6 +276,8 @@ nsISupports
 )
 ;
 }
+#
+endif
 nsresult
 nsWidgetGtk2ModuleCtor
 (

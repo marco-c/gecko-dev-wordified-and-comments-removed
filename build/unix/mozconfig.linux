@@ -67,8 +67,6 @@ cairo
 -
 gtk3
 -
-x11
--
 wayland
 ;
 ;

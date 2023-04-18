@@ -56,11 +56,6 @@ MOZ_DEBUG
 :
 null
 "
-MOZ_X11
-"
-:
-null
-"
 OS_TARGET
 "
 :

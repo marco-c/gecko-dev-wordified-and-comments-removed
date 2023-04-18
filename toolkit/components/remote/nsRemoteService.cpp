@@ -32,6 +32,13 @@ WidgetUtilsGtk
 h
 "
 #
+include
+"
+nsGTKRemoteServer
+.
+h
+"
+#
 ifdef
 MOZ_ENABLE_DBUS
 #
@@ -50,13 +57,6 @@ h
 "
 #
 else
-#
-include
-"
-nsGTKRemoteServer
-.
-h
-"
 #
 include
 "

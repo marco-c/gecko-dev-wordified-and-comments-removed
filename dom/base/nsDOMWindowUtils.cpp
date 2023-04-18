@@ -543,6 +543,12 @@ algorithm
 if
 defined
 (
+MOZ_X11
+)
+&
+&
+defined
+(
 MOZ_WIDGET_GTK
 )
 #
@@ -555,12 +561,6 @@ gdk
 h
 >
 #
-if
-defined
-(
-MOZ_X11
-)
-#
 include
 <
 gdk
@@ -569,8 +569,6 @@ gdkx
 .
 h
 >
-#
-endif
 #
 endif
 #

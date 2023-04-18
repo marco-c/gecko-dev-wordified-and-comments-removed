@@ -8,9 +8,6 @@ Types
 h
 "
 #
-ifdef
-MOZ_X11
-#
 include
 <
 X11
@@ -32,5 +29,3 @@ return
 False
 ;
 }
-#
-endif

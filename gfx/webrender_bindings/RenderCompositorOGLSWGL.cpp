@@ -150,9 +150,6 @@ gdk
 h
 >
 #
-ifdef
-MOZ_X11
-#
 include
 <
 gdk
@@ -161,8 +158,6 @@ gdkx
 .
 h
 >
-#
-endif
 #
 endif
 namespace

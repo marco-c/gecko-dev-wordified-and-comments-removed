@@ -1481,13 +1481,6 @@ CONFIG
 MOZ_X11
 "
 ]
-or
-CONFIG
-[
-"
-MOZ_WAYLAND
-"
-]
 :
 DIRS
 +
@@ -1743,6 +1736,13 @@ MOZ_WIDGET_TOOLKIT
 "
 gtk
 "
+and
+CONFIG
+[
+"
+MOZ_X11
+"
+]
 :
 IPDL_SOURCES
 =
