@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex
