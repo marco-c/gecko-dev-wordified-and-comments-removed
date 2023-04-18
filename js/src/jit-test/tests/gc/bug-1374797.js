@@ -39,7 +39,7 @@ gc
 (
 )
 ;
-offThreadCompileScript
+offThreadCompileToStencil
 (
 "
 print
@@ -106,7 +106,15 @@ i
 )
 ;
 }
-runOffThreadScript
+var
+stencil
+=
+finishOffThreadCompileToStencil
 (
+)
+;
+evalStencil
+(
+stencil
 )
 ;

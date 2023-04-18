@@ -1,4 +1,4 @@
-offThreadCompileScript
+offThreadCompileToStencil
 (
 oomTest
 (
@@ -24,7 +24,15 @@ fullcompartmentchecks
 ;
 )
 ;
-runOffThreadScript
+var
+stencil
+=
+finishOffThreadCompileToStencil
 (
+)
+;
+evalStencil
+(
+stencil
 )
 ;

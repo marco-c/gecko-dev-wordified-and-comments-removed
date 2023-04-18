@@ -4,7 +4,7 @@ function
 (
 )
 {
-offThreadCompileScript
+offThreadCompileToStencil
 (
 "
 "

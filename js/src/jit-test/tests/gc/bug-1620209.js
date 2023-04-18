@@ -2,7 +2,7 @@ verifyprebarriers
 (
 )
 ;
-offThreadCompileScript
+offThreadCompileToStencil
 (
 '
 '
