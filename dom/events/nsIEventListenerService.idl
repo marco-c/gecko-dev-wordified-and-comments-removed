@@ -167,9 +167,6 @@ EventTarget
 aEventTarget
 )
 ;
-[
-can_run_script
-]
 Array
 <
 EventTarget

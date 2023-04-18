@@ -332,7 +332,6 @@ nsIContent
 aOverrideClickTarget
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 PostHandleKeyboardEvent
 (
@@ -347,7 +346,6 @@ nsEventStatus
 aStatus
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DispatchLegacyMouseScrollEvents
 (
@@ -854,7 +852,6 @@ nsEventStatus
 aStatus
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsIFrame
 *
 DispatchMouseOrPointerEvent
@@ -890,7 +887,6 @@ WidgetMouseEvent
 aMouseEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyMouseOver
 (
@@ -902,7 +898,6 @@ nsIContent
 aContent
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyMouseOut
 (
@@ -1410,7 +1405,6 @@ false
 }
 }
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 SendLineScrollEvent
 (
@@ -1429,7 +1423,6 @@ DeltaDirection
 aDeltaDirection
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 SendPixelScrollEvent
 (

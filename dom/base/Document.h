@@ -6535,7 +6535,6 @@ return
 mPartID
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Sanitize
 (
@@ -9031,7 +9030,6 @@ rv
 )
 const
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsINode
 *
 AdoptNode
