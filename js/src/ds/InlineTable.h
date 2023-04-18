@@ -329,7 +329,7 @@ InlineEntries
 ;
 table_
 .
-clear
+clearAndCompact
 (
 )
 ;
