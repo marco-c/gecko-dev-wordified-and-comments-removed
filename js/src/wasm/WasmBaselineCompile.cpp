@@ -11007,10 +11007,14 @@ tls
 uint32_t
 tableToTlsOffset
 =
-offsetof
+wasm
+:
+:
+Instance
+:
+:
+offsetOfGlobalArea
 (
-TlsData
-globalArea
 )
 +
 table
@@ -11052,7 +11056,7 @@ addressOfTableField
 table
 offsetof
 (
-TableTls
+TableInstanceData
 length
 )
 tls
@@ -11086,7 +11090,7 @@ addressOfTableField
 table
 offsetof
 (
-TableTls
+TableInstanceData
 elements
 )
 tls
@@ -29226,7 +29230,7 @@ addressOfTableField
 table
 offsetof
 (
-TableTls
+TableInstanceData
 length
 )
 tls
