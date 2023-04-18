@@ -901,6 +901,10 @@ nsCOMPtr
 nsICancelable
 >
 mCancelable
+GUARDED_BY
+(
+mMutex
+)
 ;
 nsCOMPtr
 <
@@ -982,6 +986,10 @@ nsCOMPtr
 nsITimer
 >
 mReconnectDelayTimer
+GUARDED_BY
+(
+mMutex
+)
 ;
 nsCOMPtr
 <
@@ -1133,9 +1141,17 @@ mServerCloseReason
 ;
 uint16_t
 mScriptCloseCode
+GUARDED_BY
+(
+mMutex
+)
 ;
 nsCString
 mScriptCloseReason
+GUARDED_BY
+(
+mMutex
+)
 ;
 const
 static
@@ -1255,7 +1271,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 }
 ;
