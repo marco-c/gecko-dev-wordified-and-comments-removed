@@ -528,10 +528,7 @@ return
 :
 AddMarkerToBuffer
 (
-profiler_markers_detail
-:
-:
-CachedCoreBuffer
+profiler_get_core_buffer
 (
 )
 aName
