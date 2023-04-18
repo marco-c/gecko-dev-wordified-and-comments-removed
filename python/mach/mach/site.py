@@ -409,18 +409,6 @@ _virtualenv
 .
 python_path
         
-os
-.
-environ
-.
-pop
-(
-"
-__PYVENV_LAUNCHER__
-"
-None
-)
-        
 self
 .
 topsrcdir
