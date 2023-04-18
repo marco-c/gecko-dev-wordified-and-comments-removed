@@ -1629,7 +1629,7 @@ CreateDecoderPromise
 :
 CreateAndReject
 (
-NS_ERROR_DOM_MEDIA_NEED_NEW_DECODER
+NS_ERROR_DOM_MEDIA_REMOTE_DECODER_CRASHED_ERR
 __func__
 )
 ;
