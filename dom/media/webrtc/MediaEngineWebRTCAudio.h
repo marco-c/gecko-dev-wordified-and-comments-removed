@@ -677,6 +677,9 @@ mEnded
 AudioInputSamples
 mPendingData
 ;
+uint64_t
+mPacketCount
+;
 }
 ;
 class
