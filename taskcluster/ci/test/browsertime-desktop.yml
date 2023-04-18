@@ -796,9 +796,7 @@ qr
 *
 :
 [
-mozilla
--
-central
+trunk
 ]
 default
 :
@@ -834,9 +832,7 @@ shippable
 *
 :
 [
-mozilla
--
-central
+trunk
 ]
 macosx1015
 .
@@ -846,9 +842,7 @@ shippable
 *
 :
 [
-mozilla
--
-central
+trunk
 ]
 windows10
 -
@@ -860,9 +854,7 @@ shippable
 *
 :
 [
-mozilla
--
-central
+trunk
 ]
 default
 :
