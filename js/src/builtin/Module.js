@@ -78,7 +78,7 @@ if
 (
 callFunction
 (
-ArrayIncludes
+std_Array_includes
 exportStarSet
 module
 )
@@ -294,7 +294,7 @@ default
 !
 callFunction
 (
-ArrayIncludes
+std_Array_includes
 exportedNames
 n
 )
@@ -3385,7 +3385,7 @@ MODULE_STATUS_EVALUATED_ERROR
 !
 callFunction
 (
-ArrayIncludes
+std_Array_includes
 execList
 m
 )
