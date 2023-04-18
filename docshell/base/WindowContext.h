@@ -968,10 +968,13 @@ HasValidTransientUserGestureActivation
 (
 )
 ;
-DOMHighResTimeStamp
-LastUserGestureTimeStamp
+const
+TimeStamp
+&
+GetUserGestureStart
 (
 )
+const
 ;
 bool
 ConsumeTransientUserGestureActivation
