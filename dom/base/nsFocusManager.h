@@ -598,6 +598,7 @@ uint64_t
 aActionId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RaiseWindow
 (
@@ -616,6 +617,7 @@ uint64_t
 aActionId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 WindowRaised
 (
@@ -626,7 +628,7 @@ uint64_t
 aActionId
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 WindowLowered
 (

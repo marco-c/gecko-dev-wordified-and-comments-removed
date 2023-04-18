@@ -314,6 +314,7 @@ bool
 aAllowPrefetch
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 FocusActivate
 (
@@ -321,6 +322,7 @@ uint64_t
 aActionId
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 FocusDeactivate
 (
