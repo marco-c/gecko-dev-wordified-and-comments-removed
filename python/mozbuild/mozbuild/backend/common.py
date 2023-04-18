@@ -3686,24 +3686,17 @@ topobjdir
         
 include_tmpl
 =
-(
-            
 '
 include
 !
 (
-concat
+mozbuild
+:
+:
+objdir_path
 !
 (
-env
-!
-(
 "
-MOZ_TOPOBJDIR
-"
-)
-"
-/
 dist
 /
 xpcrs
@@ -3719,8 +3712,6 @@ rs
 )
 )
 '
-        
-)
         
 stems
 =
