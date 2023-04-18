@@ -144,12 +144,10 @@ short
 vp8_filter
 ;
 )
-global
-sym
+globalsym
 (
 vp8_filter_block1d_h6_mmx
 )
-PRIVATE
 sym
 (
 vp8_filter_block1d_h6_mmx
@@ -704,12 +702,10 @@ short
 vp8_filter
 ;
 )
-global
-sym
+globalsym
 (
 vp8_filter_block1dc_v6_mmx
 )
-PRIVATE
 sym
 (
 vp8_filter_block1dc_v6_mmx

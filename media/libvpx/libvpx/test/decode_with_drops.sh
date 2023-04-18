@@ -366,6 +366,10 @@ drop_mode
 {
 devnull
 }
+|
+|
+return
+1
 [
 -
 e
@@ -464,6 +468,10 @@ vp8
 -
 28
 "
+|
+|
+return
+1
 #
 Test
 pattern
@@ -490,6 +498,10 @@ vp8
 /
 4
 "
+|
+|
+return
+1
 fi
 }
 #
@@ -576,6 +588,10 @@ vp9
 -
 19
 "
+|
+|
+return
+1
 #
 Test
 pattern
@@ -602,6 +618,10 @@ vp9
 /
 4
 "
+|
+|
+return
+1
 fi
 }
 decode_with_drops_tests

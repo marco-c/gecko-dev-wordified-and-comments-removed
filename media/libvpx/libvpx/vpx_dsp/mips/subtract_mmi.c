@@ -92,7 +92,7 @@ __asm__
 volatile
 (
 "
-xor
+pxor
 %
 [
 ftmp0
@@ -1489,7 +1489,7 @@ __asm__
 volatile
 (
 "
-xor
+pxor
 %
 [
 ftmp0
@@ -3054,7 +3054,7 @@ __asm__
 volatile
 (
 "
-xor
+pxor
 %
 [
 ftmp0

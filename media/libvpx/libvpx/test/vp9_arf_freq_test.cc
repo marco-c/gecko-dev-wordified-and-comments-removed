@@ -1146,7 +1146,7 @@ min_arf_dist_requested
 ;
 }
 }
-VP9_INSTANTIATE_TEST_CASE
+VP9_INSTANTIATE_TEST_SUITE
 (
 ArfFreqTest
 :

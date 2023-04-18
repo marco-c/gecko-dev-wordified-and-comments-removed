@@ -516,7 +516,7 @@ cxdata
 )
 !
 =
-NULL
+nullptr
 ;
 video
 .
@@ -746,7 +746,7 @@ n
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VP9
 DecodePerfTest
@@ -1023,12 +1023,10 @@ wb
 "
 )
 ;
-ASSERT_TRUE
+ASSERT_NE
 (
 outfile_
-!
-=
-NULL
+nullptr
 )
 ;
 }
@@ -1043,7 +1041,7 @@ if
 outfile_
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1074,7 +1072,7 @@ outfile_
 ;
 outfile_
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1464,7 +1462,7 @@ cxdata
 )
 !
 =
-NULL
+nullptr
 ;
 decode_video
 .
@@ -1700,7 +1698,7 @@ n
 )
 ;
 }
-VP9_INSTANTIATE_TEST_CASE
+VP9_INSTANTIATE_TEST_SUITE
 (
 VP9NewEncodeDecodePerfTest
 :

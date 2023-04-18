@@ -98,12 +98,10 @@ text
 %
 if
 LIBVPX_YASM_WIN64
-global
-sym
+globalsym
 (
 vpx_winx64_fldcw
 )
-PRIVATE
 sym
 (
 vpx_winx64_fldcw
@@ -129,12 +127,10 @@ add
 rsp
 8
 ret
-global
-sym
+globalsym
 (
 vpx_winx64_fstcw
 )
-PRIVATE
 sym
 (
 vpx_winx64_fstcw

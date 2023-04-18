@@ -1430,6 +1430,8 @@ lowvalue
 offset
 )
 )
+&
+0xff
 ;
 lowvalue
 <
@@ -5344,11 +5346,6 @@ bc
 ;
 #
 endif
-int
-savings
-=
-0
-;
 vpx_clear_system_state
 (
 )
@@ -5766,11 +5763,6 @@ newp
 ;
 #
 endif
-savings
-+
-=
-s
-;
 }
 }
 while

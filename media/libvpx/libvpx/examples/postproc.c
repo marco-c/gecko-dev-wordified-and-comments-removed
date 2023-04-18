@@ -320,10 +320,8 @@ res
 =
 VPX_CODEC_INCAPABLE
 )
-die_codec
+die
 (
-&
-codec
 "
 Postproc
 not
@@ -339,10 +337,8 @@ if
 (
 res
 )
-die_codec
+die
 (
-&
-codec
 "
 Failed
 to

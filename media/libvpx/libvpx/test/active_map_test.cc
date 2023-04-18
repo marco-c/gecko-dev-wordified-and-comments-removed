@@ -450,7 +450,7 @@ map
 .
 active_map
 =
-NULL
+nullptr
 ;
 encoder
 -
@@ -542,7 +542,7 @@ video
 )
 ;
 }
-VP9_INSTANTIATE_TEST_CASE
+VP9_INSTANTIATE_TEST_SUITE
 (
 ActiveMapTest
 :

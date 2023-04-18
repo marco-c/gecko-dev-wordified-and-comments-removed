@@ -418,7 +418,7 @@ video
 #
 if
 CONFIG_VP9
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VP9
 DecodeCorruptedFrameTest
@@ -453,7 +453,7 @@ endif
 #
 if
 CONFIG_VP8
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VP8
 DecodeCorruptedFrameTest

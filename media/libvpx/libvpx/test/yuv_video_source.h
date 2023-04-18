@@ -402,6 +402,9 @@ format
 )
 {
 case
+VPX_IMG_FMT_NV12
+:
+case
 VPX_IMG_FMT_I420
 :
 raw_size_

@@ -504,6 +504,10 @@ keyframe_insert
 "
 \
 0
+|
+|
+return
+1
 for
 output_file
 in

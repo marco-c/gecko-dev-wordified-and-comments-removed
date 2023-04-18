@@ -76,7 +76,7 @@ include
 "
 vpx_ports
 /
-mem
+compiler_attributes
 .
 h
 "
@@ -8051,6 +8051,7 @@ cpi
 TileDataEnc
 *
 tile_data
+unsigned
 int
 source_variance
 BLOCK_SIZE

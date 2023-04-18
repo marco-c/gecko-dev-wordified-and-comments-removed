@@ -202,9 +202,15 @@ webm
 DATA_URL
 =
 "
-http
+https
 :
 /
+/
+storage
+.
+googleapis
+.
+com
 /
 downloads
 .
@@ -511,6 +517,10 @@ download_and_check_file
 file
 }
 "
+|
+|
+return
+1
 fi
 done
 if

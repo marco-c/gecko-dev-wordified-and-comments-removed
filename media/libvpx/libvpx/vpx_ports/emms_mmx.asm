@@ -95,12 +95,10 @@ asm
 section
 .
 text
-global
-sym
+globalsym
 (
 vpx_clear_system_state
 )
-PRIVATE
 sym
 (
 vpx_clear_system_state

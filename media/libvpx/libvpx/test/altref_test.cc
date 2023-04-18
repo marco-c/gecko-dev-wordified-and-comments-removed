@@ -320,7 +320,7 @@ altref_count
 )
 ;
 }
-VP8_INSTANTIATE_TEST_CASE
+VP8_INSTANTIATE_TEST_SUITE
 (
 AltRefTest
 :
@@ -826,7 +826,7 @@ video
 ;
 }
 }
-VP8_INSTANTIATE_TEST_CASE
+VP8_INSTANTIATE_TEST_SUITE
 (
 AltRefForcedKeyTestLarge
 :
@@ -855,7 +855,7 @@ Range
 )
 )
 ;
-VP9_INSTANTIATE_TEST_CASE
+VP9_INSTANTIATE_TEST_SUITE
 (
 AltRefForcedKeyTestLarge
 :

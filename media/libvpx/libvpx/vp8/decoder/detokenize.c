@@ -30,6 +30,15 @@ include
 "
 vpx_ports
 /
+compiler_attributes
+.
+h
+"
+#
+include
+"
+vpx_ports
+/
 mem
 .
 h
@@ -298,6 +307,7 @@ NUM_PROBAS
 ]
 ;
 static
+VPX_NO_UNSIGNED_OVERFLOW_CHECK
 int
 GetSigned
 (

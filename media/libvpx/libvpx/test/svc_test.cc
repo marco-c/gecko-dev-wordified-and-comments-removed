@@ -263,6 +263,18 @@ i
 0
 ;
 }
+if
+(
+number_temporal_layers_
+>
+1
+|
+|
+number_spatial_layers_
+>
+1
+)
+{
 svc_params_
 .
 speed_per_layer
@@ -317,6 +329,7 @@ VP9E_SET_SVC_PARAMETERS
 svc_params_
 )
 ;
+}
 encoder
 -
 >

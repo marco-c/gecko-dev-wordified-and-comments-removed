@@ -152,12 +152,10 @@ count
 )
 |
 7
-global
-sym
+globalsym
 (
 vp8_temporal_filter_apply_sse2
 )
-PRIVATE
 sym
 (
 vp8_temporal_filter_apply_sse2

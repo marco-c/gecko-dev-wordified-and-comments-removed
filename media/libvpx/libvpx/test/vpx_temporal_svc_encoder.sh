@@ -513,6 +513,10 @@ threads
 {
 devnull
 }
+|
+|
+return
+1
 #
 Test
 for
@@ -594,6 +598,10 @@ threads
 {
 devnull
 }
+|
+|
+return
+1
 else
 eval
 "
@@ -673,6 +681,10 @@ threads
 {
 devnull
 }
+|
+|
+return
+1
 fi
 done
 }

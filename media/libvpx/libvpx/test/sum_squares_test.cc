@@ -208,6 +208,11 @@ tst_func_
 ;
 }
 ;
+GTEST_ALLOW_UNINSTANTIATED_PARAMETERIZED_TEST
+(
+SumSquaresTest
+)
+;
 TEST_P
 (
 SumSquaresTest
@@ -661,7 +666,7 @@ make_tuple
 #
 if
 HAVE_NEON
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON
 SumSquaresTest
@@ -687,7 +692,7 @@ endif
 #
 if
 HAVE_SSE2
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2
 SumSquaresTest
@@ -713,7 +718,7 @@ endif
 #
 if
 HAVE_MSA
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MSA
 SumSquaresTest

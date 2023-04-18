@@ -106,12 +106,10 @@ short
 *
 mb_dqcoeff
 )
-global
-sym
+globalsym
 (
 vp8_short_inv_walsh4x4_sse2
 )
-PRIVATE
 sym
 (
 vp8_short_inv_walsh4x4_sse2

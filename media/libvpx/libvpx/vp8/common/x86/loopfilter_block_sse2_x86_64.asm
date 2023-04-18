@@ -828,12 +828,10 @@ char
 thresh
 ;
 )
-global
-sym
+globalsym
 (
 vp8_loop_filter_bh_y_sse2
 )
-PRIVATE
 sym
 (
 vp8_loop_filter_bh_y_sse2
@@ -1415,12 +1413,10 @@ char
 thresh
 ;
 )
-global
-sym
+globalsym
 (
 vp8_loop_filter_bv_y_sse2
 )
-PRIVATE
 sym
 (
 vp8_loop_filter_bv_y_sse2

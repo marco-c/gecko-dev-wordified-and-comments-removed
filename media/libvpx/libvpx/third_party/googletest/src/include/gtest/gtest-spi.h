@@ -54,13 +54,12 @@ TestPartResultArray
 result
 )
 ;
-virtual
 ~
 ScopedFakeTestPartResultReporter
 (
 )
+override
 ;
-virtual
 void
 ReportTestPartResult
 (
@@ -69,6 +68,7 @@ TestPartResult
 &
 result
 )
+override
 ;
 private
 :

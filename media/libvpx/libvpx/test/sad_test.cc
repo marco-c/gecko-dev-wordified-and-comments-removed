@@ -137,6 +137,10 @@ vpx_timer
 .
 h
 "
+#
+define
+kDataAlignment
+32
 template
 <
 typename
@@ -611,7 +615,7 @@ source_data8_
 ;
 source_data8_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -620,7 +624,7 @@ reference_data8_
 ;
 reference_data8_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -629,7 +633,7 @@ second_pred8_
 ;
 second_pred8_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -638,7 +642,7 @@ source_data16_
 ;
 source_data16_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -647,7 +651,7 @@ reference_data16_
 ;
 reference_data16_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -656,7 +660,7 @@ second_pred16_
 ;
 second_pred16_
 =
-NULL
+nullptr
 ;
 libvpx_test
 :
@@ -668,13 +672,6 @@ ClearSystemState
 }
 protected
 :
-enum
-{
-kDataAlignment
-=
-32
-}
-;
 static
 const
 int
@@ -3554,7 +3551,7 @@ vpx_highbd_sad4x4_c
 endif
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 SADTest
@@ -3986,7 +3983,7 @@ vpx_highbd_sad4x4_avg_c
 endif
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 SADavgTest
@@ -4418,7 +4415,7 @@ vpx_highbd_sad4x4x4d_c
 endif
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 SADx4Test
@@ -4484,7 +4481,7 @@ vpx_sad4x4x8_c
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 SADx8Test
@@ -4588,7 +4585,7 @@ vpx_sad4x4_neon
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON
 SADTest
@@ -4703,7 +4700,7 @@ vpx_sad4x4_avg_neon
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON
 SADavgTest
@@ -4818,7 +4815,7 @@ vpx_sad4x4x4d_neon
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON
 SADx4Test
@@ -5207,7 +5204,7 @@ vpx_highbd_sad8x4_sse2
 endif
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2
 SADTest
@@ -5591,7 +5588,7 @@ vpx_highbd_sad8x4_avg_sse2
 endif
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2
 SADavgTest
@@ -6023,7 +6020,7 @@ vpx_highbd_sad4x4x4d_sse2
 endif
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2
 SADx4Test
@@ -6097,7 +6094,7 @@ vpx_sad4x4x8_sse4_1
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE4_1
 SADx8Test
@@ -6161,7 +6158,7 @@ vpx_sad32x16_avx2
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 AVX2
 SADTest
@@ -6220,7 +6217,7 @@ vpx_sad32x16_avg_avx2
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 AVX2
 SADavgTest
@@ -6258,7 +6255,7 @@ vpx_sad32x32x4d_avx2
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 AVX2
 SADx4Test
@@ -6289,7 +6286,7 @@ vpx_sad32x32x8_avx2
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 AVX2
 SADx8Test
@@ -6325,7 +6322,7 @@ vpx_sad64x64x4d_avx512
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 AVX512
 SADx4Test
@@ -6445,7 +6442,7 @@ vpx_sad4x4_msa
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MSA
 SADTest
@@ -6560,7 +6557,7 @@ vpx_sad4x4_avg_msa
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MSA
 SADavgTest
@@ -6675,7 +6672,7 @@ vpx_sad4x4x4d_msa
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MSA
 SADx4Test
@@ -6781,7 +6778,7 @@ vpx_sad8x4_vsx
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VSX
 SADTest
@@ -6861,7 +6858,7 @@ vpx_sad16x8_avg_vsx
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VSX
 SADavgTest
@@ -6941,7 +6938,7 @@ vpx_sad16x8x4d_vsx
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VSX
 SADx4Test
@@ -7061,7 +7058,7 @@ vpx_sad4x4_mmi
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MMI
 SADTest
@@ -7176,7 +7173,7 @@ vpx_sad4x4_avg_mmi
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MMI
 SADavgTest
@@ -7291,7 +7288,7 @@ vpx_sad4x4x4d_mmi
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MMI
 SADx4Test

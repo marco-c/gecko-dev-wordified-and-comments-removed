@@ -109,12 +109,10 @@ short
 *
 q
 )
-global
-sym
+globalsym
 (
 vp8_dequantize_b_impl_mmx
 )
-PRIVATE
 sym
 (
 vp8_dequantize_b_impl_mmx
@@ -306,12 +304,10 @@ int
 stride
 )
 3
-global
-sym
+globalsym
 (
 vp8_dequant_idct_add_mmx
 )
-PRIVATE
 sym
 (
 vp8_dequant_idct_add_mmx

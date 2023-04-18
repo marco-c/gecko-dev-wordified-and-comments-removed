@@ -314,7 +314,7 @@ RunTest
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 ExtendBorderTest
@@ -477,7 +477,7 @@ RunTest
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 CopyFrameTest

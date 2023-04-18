@@ -119,7 +119,7 @@ GET_PARAM
 )
 modified_buf_
 (
-NULL
+nullptr
 )
 last_sf_pts_
 (
@@ -578,7 +578,7 @@ sf_count_
 )
 ;
 }
-VP9_INSTANTIATE_TEST_CASE
+VP9_INSTANTIATE_TEST_SUITE
 (
 SuperframeTest
 :

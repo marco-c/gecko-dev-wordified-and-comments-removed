@@ -117,12 +117,10 @@ int
 dst_stride
 ;
 )
-global
-sym
+globalsym
 (
 vp8_copy_mem16x16_sse2
 )
-PRIVATE
 sym
 (
 vp8_copy_mem16x16_sse2

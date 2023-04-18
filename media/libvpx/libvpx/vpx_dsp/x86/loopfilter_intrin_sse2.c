@@ -13591,7 +13591,7 @@ t_dst
 16
 )
 ;
-vpx_lpf_horizontal_4_dual_sse2
+vpx_lpf_horizontal_4_dual
 (
 t_dst
 +
@@ -13735,7 +13735,7 @@ dst
 1
 )
 ;
-vpx_lpf_horizontal_8_sse2
+vpx_lpf_horizontal_8
 (
 t_dst
 +
@@ -13854,7 +13854,7 @@ t_dst
 16
 )
 ;
-vpx_lpf_horizontal_8_dual_sse2
+vpx_lpf_horizontal_8_dual
 (
 t_dst
 +
@@ -14016,7 +14016,7 @@ dst
 2
 )
 ;
-vpx_lpf_horizontal_16_sse2
+vpx_lpf_horizontal_16
 (
 t_dst
 +
@@ -14141,7 +14141,7 @@ t_dst
 16
 )
 ;
-vpx_lpf_horizontal_16_dual_sse2
+vpx_lpf_horizontal_16_dual
 (
 t_dst
 +

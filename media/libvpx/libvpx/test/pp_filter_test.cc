@@ -3001,12 +3001,10 @@ rows_
 cols_
 ]
 ;
-ASSERT_TRUE
+ASSERT_NE
 (
 expected_output
-!
-=
-NULL
+nullptr
 )
 ;
 SetRows
@@ -3345,7 +3343,7 @@ PrintMedian
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 VpxPostProcDownAndAcrossMbRowTest
@@ -3360,7 +3358,7 @@ vpx_post_proc_down_and_across_mb_row_c
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 VpxMbPostProcAcrossIpTest
@@ -3375,7 +3373,7 @@ vpx_mbpost_proc_across_ip_c
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 VpxMbPostProcDownTest
@@ -3393,7 +3391,7 @@ vpx_mbpost_proc_down_c
 #
 if
 HAVE_SSE2
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2
 VpxPostProcDownAndAcrossMbRowTest
@@ -3408,7 +3406,7 @@ vpx_post_proc_down_and_across_mb_row_sse2
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2
 VpxMbPostProcAcrossIpTest
@@ -3423,7 +3421,7 @@ vpx_mbpost_proc_across_ip_sse2
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2
 VpxMbPostProcDownTest
@@ -3443,7 +3441,7 @@ endif
 #
 if
 HAVE_NEON
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON
 VpxPostProcDownAndAcrossMbRowTest
@@ -3458,7 +3456,7 @@ vpx_post_proc_down_and_across_mb_row_neon
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON
 VpxMbPostProcAcrossIpTest
@@ -3473,7 +3471,7 @@ vpx_mbpost_proc_across_ip_neon
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON
 VpxMbPostProcDownTest
@@ -3493,7 +3491,7 @@ endif
 #
 if
 HAVE_MSA
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MSA
 VpxPostProcDownAndAcrossMbRowTest
@@ -3508,7 +3506,7 @@ vpx_post_proc_down_and_across_mb_row_msa
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MSA
 VpxMbPostProcAcrossIpTest
@@ -3523,7 +3521,7 @@ vpx_mbpost_proc_across_ip_msa
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MSA
 VpxMbPostProcDownTest
@@ -3543,7 +3541,7 @@ endif
 #
 if
 HAVE_VSX
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VSX
 VpxPostProcDownAndAcrossMbRowTest
@@ -3558,7 +3556,7 @@ vpx_post_proc_down_and_across_mb_row_vsx
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VSX
 VpxMbPostProcAcrossIpTest
@@ -3573,7 +3571,7 @@ vpx_mbpost_proc_across_ip_vsx
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VSX
 VpxMbPostProcDownTest

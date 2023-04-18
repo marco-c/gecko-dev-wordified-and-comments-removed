@@ -190,7 +190,7 @@ firstpass_stats_
 .
 buf
 =
-NULL
+nullptr
 ;
 firstpass_stats_
 .
@@ -1938,7 +1938,7 @@ multi_thr_psnr
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VP9
 VPxFirstPassEncoderThreadTest
@@ -2000,7 +2000,7 @@ Range
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VP9
 VPxEncoderThreadTest
@@ -2094,7 +2094,7 @@ Range
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VP9Large
 VPxEncoderThreadTest

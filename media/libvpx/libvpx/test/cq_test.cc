@@ -124,7 +124,7 @@ BitrateMap
 ;
 static
 void
-SetUpTestCase
+SetUpTestSuite
 (
 )
 {
@@ -137,7 +137,7 @@ clear
 }
 static
 void
-TearDownTestCase
+TearDownTestSuite
 (
 )
 {
@@ -693,7 +693,7 @@ vbr_psnr_lin
 )
 ;
 }
-VP8_INSTANTIATE_TEST_CASE
+VP8_INSTANTIATE_TEST_SUITE
 (
 CQTest
 :

@@ -356,12 +356,10 @@ mode
 selection
 code
 .
-global
-sym
+globalsym
 (
 vpx_ssim_parms_16x16_sse2
 )
-PRIVATE
 sym
 (
 vpx_ssim_parms_16x16_sse2
@@ -729,12 +727,10 @@ mode
 selection
 code
 .
-global
-sym
+globalsym
 (
 vpx_ssim_parms_8x8_sse2
 )
-PRIVATE
 sym
 (
 vpx_ssim_parms_8x8_sse2

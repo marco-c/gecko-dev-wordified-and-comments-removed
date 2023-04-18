@@ -829,16 +829,14 @@ frames
 )
 )
 ;
-ASSERT_TRUE
+ASSERT_NE
 (
 video
 .
 get
 (
 )
-!
-=
-NULL
+nullptr
 )
 ;
 ASSERT_NO_FATAL_FAILURE
@@ -854,7 +852,7 @@ get
 )
 ;
 }
-VP9_INSTANTIATE_TEST_CASE
+VP9_INSTANTIATE_TEST_SUITE
 (
 VpxEncoderParmsGetToDecoder
 :

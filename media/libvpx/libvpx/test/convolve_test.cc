@@ -2108,7 +2108,7 @@ public
 :
 static
 void
-SetUpTestCase
+SetUpTestSuite
 (
 )
 {
@@ -2253,7 +2253,7 @@ ClearSystemState
 }
 static
 void
-TearDownTestCase
+TearDownTestSuite
 (
 )
 {
@@ -2266,7 +2266,7 @@ input_
 ;
 input_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -2275,7 +2275,7 @@ output_
 ;
 output_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -2284,7 +2284,7 @@ output_ref_
 ;
 output_ref_
 =
-NULL
+nullptr
 ;
 #
 if
@@ -2298,7 +2298,7 @@ input16_
 ;
 input16_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -2307,7 +2307,7 @@ output16_
 ;
 output16_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -2316,7 +2316,7 @@ output16_ref_
 ;
 output16_ref_
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -3175,7 +3175,7 @@ ConvolveTest
 :
 input_
 =
-NULL
+nullptr
 ;
 uint8_t
 *
@@ -3184,7 +3184,7 @@ ConvolveTest
 :
 output_
 =
-NULL
+nullptr
 ;
 uint8_t
 *
@@ -3193,7 +3193,7 @@ ConvolveTest
 :
 output_ref_
 =
-NULL
+nullptr
 ;
 #
 if
@@ -3205,7 +3205,7 @@ ConvolveTest
 :
 input16_
 =
-NULL
+nullptr
 ;
 uint16_t
 *
@@ -3214,7 +3214,7 @@ ConvolveTest
 :
 output16_
 =
-NULL
+nullptr
 ;
 uint16_t
 *
@@ -3223,7 +3223,7 @@ ConvolveTest
 :
 output16_ref_
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -3322,7 +3322,7 @@ in
 kInputStride
 out
 kOutputStride
-NULL
+nullptr
 0
 0
 0
@@ -3472,7 +3472,7 @@ in
 kInputStride
 out
 kOutputStride
-NULL
+nullptr
 0
 0
 0
@@ -4904,7 +4904,7 @@ in
 kInputStride
 out
 kOutputStride
-NULL
+nullptr
 0
 0
 0
@@ -5052,7 +5052,7 @@ in
 kInputStride
 out
 kOutputStride
-NULL
+nullptr
 0
 0
 0
@@ -6242,7 +6242,7 @@ in
 kInputStride
 out
 kOutputStride
-NULL
+nullptr
 0
 0
 0
@@ -6964,7 +6964,7 @@ in
 kInputStride
 out
 kOutputStride
-NULL
+nullptr
 0
 0
 0
@@ -8168,7 +8168,7 @@ convolve8_c
 ;
 #
 endif
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 ConvolveTest
@@ -8314,7 +8314,7 @@ convolve8_sse2
 ;
 #
 endif
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2
 ConvolveTest
@@ -8368,7 +8368,7 @@ convolve8_ssse3
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSSE3
 ConvolveTest
@@ -8475,7 +8475,7 @@ convolve12_avx2
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 AVX2
 ConvolveTest
@@ -8526,7 +8526,7 @@ convolve8_avx2
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 AVX2
 ConvolveTest
@@ -8673,7 +8673,7 @@ convolve8_neon
 ;
 #
 endif
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON
 ConvolveTest
@@ -8727,7 +8727,7 @@ convolve8_dspr2
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 DSPR2
 ConvolveTest
@@ -8781,7 +8781,7 @@ convolve8_msa
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MSA
 ConvolveTest
@@ -8835,7 +8835,7 @@ convolve8_vsx
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VSX
 ConvolveTest
@@ -8889,7 +8889,7 @@ convolve8_mmi
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MMI
 ConvolveTest

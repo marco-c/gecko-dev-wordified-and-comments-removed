@@ -302,10 +302,8 @@ NULL
 0
 )
 )
-die_codec
+die
 (
-&
-codec
 "
 Failed
 to

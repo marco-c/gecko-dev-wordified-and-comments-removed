@@ -804,6 +804,14 @@ SRC_PATH_BARE
 )
 "
 \
+-
+-
+as
+=
+(
+AS
+)
+\
 (
 if
 (

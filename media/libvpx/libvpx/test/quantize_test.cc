@@ -234,7 +234,7 @@ vp8_comp_
 ;
 vp8_comp_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -243,7 +243,7 @@ macroblockd_dst_
 ;
 macroblockd_dst_
 =
-NULL
+nullptr
 ;
 libvpx_test
 :
@@ -761,6 +761,11 @@ c_quant_
 ;
 }
 ;
+GTEST_ALLOW_UNINSTANTIATED_PARAMETERIZED_TEST
+(
+QuantizeTest
+)
+;
 TEST_P
 (
 QuantizeTest
@@ -885,7 +890,7 @@ quantize
 #
 if
 HAVE_SSE2
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2
 QuantizeTest
@@ -918,7 +923,7 @@ endif
 #
 if
 HAVE_SSSE3
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSSE3
 QuantizeTest
@@ -944,7 +949,7 @@ endif
 #
 if
 HAVE_SSE4_1
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE4_1
 QuantizeTest
@@ -970,7 +975,7 @@ endif
 #
 if
 HAVE_NEON
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON
 QuantizeTest
@@ -996,7 +1001,7 @@ endif
 #
 if
 HAVE_MSA
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MSA
 QuantizeTest
@@ -1029,7 +1034,7 @@ endif
 #
 if
 HAVE_MMI
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MMI
 QuantizeTest

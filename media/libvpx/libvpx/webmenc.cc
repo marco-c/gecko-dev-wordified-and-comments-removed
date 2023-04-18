@@ -659,13 +659,13 @@ webm_ctx
 >
 writer
 =
-NULL
+nullptr
 ;
 webm_ctx
 -
 >
 segment
 =
-NULL
+nullptr
 ;
 }

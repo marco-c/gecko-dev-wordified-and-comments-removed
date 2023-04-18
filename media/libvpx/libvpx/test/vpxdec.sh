@@ -674,6 +674,10 @@ threads
 frame
 -
 parallel
+|
+|
+return
+1
 done
 fi
 }

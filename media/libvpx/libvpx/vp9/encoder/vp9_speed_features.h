@@ -996,9 +996,6 @@ prune_rect_thresh
 rd_ml_partition
 ;
 int
-allow_partition_search_skip
-;
-int
 simple_model_rd_from_var
 ;
 int
@@ -1069,6 +1066,9 @@ force_smooth_interpol
 ;
 int
 rt_intra_dc_only_low_content
+;
+int
+allow_skip_txfm_ac_dc
 ;
 }
 SPEED_FEATURES

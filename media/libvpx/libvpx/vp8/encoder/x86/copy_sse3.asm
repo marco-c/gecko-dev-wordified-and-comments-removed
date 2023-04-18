@@ -396,12 +396,10 @@ int
 height
 )
 ;
-global
-sym
+globalsym
 (
 vp8_copy32xn_sse3
 )
-PRIVATE
 sym
 (
 vp8_copy32xn_sse3

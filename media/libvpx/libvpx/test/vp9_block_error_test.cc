@@ -318,6 +318,11 @@ ref_error_block_op_
 ;
 }
 ;
+GTEST_ALLOW_UNINSTANTIATED_PARAMETERIZED_TEST
+(
+BlockErrorTest
+)
+;
 TEST_P
 (
 BlockErrorTest
@@ -1091,7 +1096,7 @@ VPX_BITS_8
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2
 BlockErrorTest
@@ -1111,7 +1116,7 @@ endif
 #
 if
 HAVE_AVX2
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 AVX2
 BlockErrorTest

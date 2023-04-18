@@ -227,9 +227,15 @@ files
 \
 -
 u
-http
+https
 :
 /
+/
+storage
+.
+googleapis
+.
+com
 /
 downloads
 .

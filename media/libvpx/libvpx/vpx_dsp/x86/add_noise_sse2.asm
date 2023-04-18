@@ -119,12 +119,10 @@ height
 int
 pitch
 )
-global
-sym
+globalsym
 (
 vpx_plane_add_noise_sse2
 )
-PRIVATE
 sym
 (
 vpx_plane_add_noise_sse2
