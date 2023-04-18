@@ -317,13 +317,9 @@ xpc
 Scriptability
 :
 :
-Get
+AllowedIfExists
 (
 aCallback
-)
-.
-Allowed
-(
 )
 )
 {

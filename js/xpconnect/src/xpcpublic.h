@@ -373,6 +373,15 @@ JSObject
 aScope
 )
 ;
+static
+bool
+AllowedIfExists
+(
+JSObject
+*
+aScope
+)
+;
 private
 :
 uint32_t
