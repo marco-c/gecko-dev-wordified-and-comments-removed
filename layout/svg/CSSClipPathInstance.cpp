@@ -167,6 +167,15 @@ if
 path
 )
 {
+aContext
+.
+Clip
+(
+Rect
+(
+)
+)
+;
 return
 ;
 }
