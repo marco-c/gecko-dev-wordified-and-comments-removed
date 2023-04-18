@@ -2951,6 +2951,17 @@ return
 mStyle
 ;
 }
+nsPresContext
+*
+GetPresContext
+(
+)
+const
+{
+return
+mPresContext
+;
+}
 static
 bool
 IsInvalidChar
