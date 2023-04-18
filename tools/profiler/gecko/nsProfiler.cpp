@@ -3941,13 +3941,10 @@ nullptr
 }
 nsTArray
 <
-RefPtr
-<
 ProfilerParent
 :
 :
-SingleProcessProfilePromise
->
+SingleProcessProfilePromiseAndChildPid
 >
 profiles
 =
@@ -4216,6 +4213,8 @@ profiles
 )
 {
 profile
+.
+profilePromise
 -
 >
 Then
