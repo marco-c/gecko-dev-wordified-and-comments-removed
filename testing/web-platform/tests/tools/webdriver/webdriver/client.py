@@ -2244,6 +2244,37 @@ rect
 "
 )
     
+rect
+.
+setter
+    
+command
+    
+def
+rect
+(
+self
+new_rect
+)
+:
+        
+self
+.
+session
+.
+send_session_command
+(
+"
+POST
+"
+"
+window
+/
+rect
+"
+new_rect
+)
+    
 property
     
 command
