@@ -76,6 +76,14 @@ imports
 )
 )
 ;
+if
+(
+!
+wasmTestSerializationEnabled
+(
+)
+)
+{
 assertEq
 (
 wasmLoadedFromCache
@@ -85,6 +93,7 @@ m
 false
 )
 ;
+}
 while
 (
 !
