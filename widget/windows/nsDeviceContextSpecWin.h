@@ -152,12 +152,6 @@ aIsPrintPreview
 override
 ;
 float
-GetDPI
-(
-)
-final
-;
-float
 GetPrintingScale
 (
 )
