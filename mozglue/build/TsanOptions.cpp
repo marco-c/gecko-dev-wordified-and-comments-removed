@@ -468,6 +468,17 @@ read
 n
 "
 "
+race
+:
+crossbeam_deque
+*
+:
+:
+steal
+\
+n
+"
+"
 thread
 :
 StartupCache
