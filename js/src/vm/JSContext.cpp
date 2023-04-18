@@ -5233,6 +5233,10 @@ cycleDetectorVector_
 this
 this
 )
+watchtowerTestingCallback_
+(
+this
+)
 data
 (
 nullptr
