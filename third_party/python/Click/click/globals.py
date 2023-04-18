@@ -116,7 +116,7 @@ versionadded
 param
 silent
 :
-if
+is
 set
 to
 True
@@ -154,9 +154,13 @@ try
 :
         
 return
+getattr
+(
 _local
-.
+'
 stack
+'
+)
 [
 -
 1
@@ -177,7 +181,7 @@ silent
 raise
 RuntimeError
 (
-"
+'
 There
 is
 no
@@ -185,7 +189,7 @@ active
 click
 context
 .
-"
+'
 )
 def
 push_context
@@ -216,9 +220,9 @@ __dict__
 .
 setdefault
 (
-"
+'
 stack
-"
+'
 [
 ]
 )

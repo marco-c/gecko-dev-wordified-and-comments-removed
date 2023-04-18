@@ -482,7 +482,7 @@ third_party
 /
 python
 /
-click
+Click
 vendored
 :
 third_party
