@@ -10722,6 +10722,12 @@ bool
 aAnonymize
 )
 {
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 MOZ_COLLECT_REPORT
 (
 "
@@ -10783,12 +10789,6 @@ cache
 index
 .
 "
-)
-;
-MutexAutoLock
-lock
-(
-mLock
 )
 ;
 MOZ_COLLECT_REPORT
