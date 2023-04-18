@@ -1289,6 +1289,13 @@ PROCESS_TYPE_FORKSERVER
 =
 10
 ;
+const
+unsigned
+long
+PROCESS_TYPE_UTILITY
+=
+11
+;
 /
 *
 *

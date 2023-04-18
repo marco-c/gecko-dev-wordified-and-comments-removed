@@ -158,9 +158,6 @@ ReportNoTests
 (
 )
 ;
-#
-ifdef
-XP_UNIX
 void
 PosixTest
 (
@@ -216,8 +213,6 @@ F
 aFunction
 )
 ;
-#
-endif
 private
 :
 explicit

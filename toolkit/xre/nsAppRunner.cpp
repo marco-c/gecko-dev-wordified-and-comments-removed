@@ -4326,7 +4326,7 @@ undef
 GECKO_PROCESS_TYPE
 static_assert
 (
-GeckoProcessType_ForkServer
+GeckoProcessType_Utility
 +
 1
 =
@@ -26571,6 +26571,11 @@ XRE_IsRDDProcess
 |
 |
 XRE_IsSocketProcess
+(
+)
+|
+|
+XRE_IsUtilityProcess
 (
 )
 )

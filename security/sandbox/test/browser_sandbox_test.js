@@ -53,6 +53,9 @@ rdd
 gmplugin
 "
 "
+utility
+"
+"
 gpu
 "
 ]

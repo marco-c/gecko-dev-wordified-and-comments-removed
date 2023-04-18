@@ -3884,6 +3884,9 @@ forkServer
 #
 endif
 "
+utility
+"
+"
 preallocated
 "
 "

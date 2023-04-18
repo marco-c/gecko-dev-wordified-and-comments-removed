@@ -68,6 +68,15 @@ type
 -
 socket
 "
+utility
+:
+"
+process
+-
+type
+-
+utility
+"
 extension
 :
 "
