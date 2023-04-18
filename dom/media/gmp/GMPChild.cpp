@@ -2737,7 +2737,7 @@ IPCResult
 GMPChild
 :
 :
-AnswerStartPlugin
+RecvStartPlugin
 (
 const
 nsString

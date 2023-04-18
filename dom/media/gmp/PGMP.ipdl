@@ -41,8 +41,11 @@ gmp
 {
 [
 NeedsOtherPid
+NestedUpTo
+=
+inside_sync
 ]
-intr
+sync
 protocol
 PGMP
 {
@@ -83,7 +86,12 @@ CrashPluginNow
 (
 )
 ;
-intr
+[
+Nested
+=
+inside_sync
+]
+sync
 StartPlugin
 (
 nsString
