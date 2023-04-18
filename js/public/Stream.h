@@ -80,9 +80,15 @@ JSContext
 cx
 HandleObject
 stream
-void
+JS
+:
+:
+Handle
+<
+JSObject
 *
-buffer
+>
+aChunk
 size_t
 length
 size_t
