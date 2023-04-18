@@ -166,6 +166,15 @@ aChannel
 ;
 static
 nsresult
+CheckAllowLoadInPrivilegedAboutContext
+(
+nsIChannel
+*
+aChannel
+)
+;
+static
+nsresult
 CheckChannelHasProtocolSecurityFlag
 (
 nsIChannel
