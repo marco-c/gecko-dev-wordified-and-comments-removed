@@ -253,6 +253,17 @@ expectedAnswer
 ;
 add_task
 (
+{
+skip_if
+:
+(
+)
+=
+>
+mozinfo
+.
+socketprocess_networking
+}
 async
 function
 cancel_immediately
