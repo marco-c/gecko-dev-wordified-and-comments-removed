@@ -144,6 +144,11 @@ Asserts
 cpp
 "
 "
+CachedTableAccessible
+.
+cpp
+"
+"
 DocManager
 .
 cpp
