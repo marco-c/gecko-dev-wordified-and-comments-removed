@@ -669,14 +669,6 @@ SUPPORT_STORAGE_ID
 ]
 =
 1
-DEFINES
-[
-"
-GMP_SAFE_SHMEM
-"
-]
-=
-True
 include
 (
 "
