@@ -720,6 +720,11 @@ getWatcher
 watcherActorID
 )
 ;
+if
+(
+watcher
+)
+{
 watcher
 .
 notifyTargetDestroyed
@@ -727,6 +732,7 @@ notifyTargetDestroyed
 form
 )
 ;
+}
 }
 return
 this
