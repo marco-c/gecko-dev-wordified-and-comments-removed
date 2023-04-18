@@ -4275,9 +4275,6 @@ output
 force
 log
 verbose
-vendor
-publisher
-friendly_name
 )
 :
     
