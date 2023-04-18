@@ -817,7 +817,7 @@ builder
 =
 builder
 .
-blacklist_item
+blocklist_item
 (
 "
 timezone
@@ -828,7 +828,7 @@ builder
 =
 builder
 .
-blacklist_item
+blocklist_item
 (
 "
 objc_object
@@ -836,6 +836,15 @@ objc_object
 )
 ;
 }
+builder
+=
+builder
+.
+layout_tests
+(
+false
+)
+;
 let
 meta_header
 :
