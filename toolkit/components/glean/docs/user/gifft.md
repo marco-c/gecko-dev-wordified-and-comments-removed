@@ -364,6 +364,9 @@ boolean
 .
 .
 /
+.
+.
+/
 telemetry
 /
 collection
@@ -413,6 +416,9 @@ boolean
 .
 .
 /
+.
+.
+/
 telemetry
 /
 collection
@@ -458,6 +464,9 @@ kind
 uint
 ]
 (
+.
+.
+/
 .
 .
 /
@@ -510,6 +519,9 @@ uint
 .
 .
 /
+.
+.
+/
 telemetry
 /
 collection
@@ -555,6 +567,9 @@ kind
 string
 ]
 (
+.
+.
+/
 .
 .
 /
@@ -639,6 +654,9 @@ kind
 boolean
 ]
 (
+.
+.
+/
 .
 .
 /
@@ -737,6 +755,9 @@ uint
 .
 .
 /
+.
+.
+/
 telemetry
 /
 collection
@@ -796,6 +817,9 @@ exponential
 "
 ]
 (
+.
+.
+/
 .
 .
 /
@@ -863,6 +887,9 @@ exponential
 .
 .
 /
+.
+.
+/
 telemetry
 /
 collection
@@ -923,6 +950,9 @@ exponential
 "
 ]
 (
+.
+.
+/
 .
 .
 /
@@ -989,6 +1019,9 @@ kind
 string
 ]
 (
+.
+.
+/
 .
 .
 /
@@ -1095,6 +1128,9 @@ string
 .
 .
 /
+.
+.
+/
 telemetry
 /
 collection
@@ -1144,6 +1180,9 @@ html
 Events
 ]
 (
+.
+.
+/
 .
 .
 /
@@ -1204,6 +1243,9 @@ uint
 .
 .
 /
+.
+.
+/
 telemetry
 /
 collection
@@ -1250,6 +1292,9 @@ kind
 uint
 ]
 (
+.
+.
+/
 .
 .
 /
@@ -1784,6 +1829,9 @@ uint
 .
 .
 /
+.
+.
+/
 telemetry
 /
 collection
@@ -2216,6 +2264,9 @@ Event
 docs
 ]
 (
+.
+.
+/
 .
 .
 /
