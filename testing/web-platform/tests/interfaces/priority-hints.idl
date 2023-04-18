@@ -96,7 +96,7 @@ CEReactions
 ]
 attribute
 DOMString
-fetchpriority
+fetchPriority
 ;
 }
 ;
@@ -109,7 +109,7 @@ CEReactions
 ]
 attribute
 DOMString
-fetchpriority
+fetchPriority
 ;
 }
 ;
@@ -122,7 +122,7 @@ CEReactions
 ]
 attribute
 DOMString
-fetchpriority
+fetchPriority
 ;
 }
 ;
@@ -135,7 +135,7 @@ CEReactions
 ]
 attribute
 DOMString
-fetchpriority
+fetchPriority
 ;
 }
 ;
