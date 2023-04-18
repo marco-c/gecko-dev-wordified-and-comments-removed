@@ -1871,7 +1871,6 @@ None
                 
 return
         
-return
 self
 .
 _run_pip
@@ -1882,11 +1881,6 @@ install
 "
 package
 ]
-stderr
-=
-subprocess
-.
-STDOUT
 )
     
 def
@@ -2050,17 +2044,11 @@ quiet
 "
 )
         
-return
 self
 .
 _run_pip
 (
 args
-stderr
-=
-subprocess
-.
-STDOUT
 )
     
 def
@@ -2068,21 +2056,8 @@ _run_pip
 (
 self
 args
-*
-*
-kwargs
 )
 :
-        
-kwargs
-.
-setdefault
-(
-"
-check
-"
-True
-)
         
 env
 =
@@ -2118,8 +2093,11 @@ machine
 )
 )
         
-pip
-=
+subprocess
+.
+run
+(
+            
 [
 self
 .
@@ -2132,30 +2110,32 @@ m
 pip
 "
 ]
-        
-return
-subprocess
-.
-run
-(
-            
-pip
 +
 args
+            
 cwd
 =
 self
 .
 topsrcdir
+            
 env
 =
 env
+            
 universal_newlines
 =
 True
-*
-*
-kwargs
+            
+stderr
+=
+subprocess
+.
+STDOUT
+            
+check
+=
+True
         
 )
     
