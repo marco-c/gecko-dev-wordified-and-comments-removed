@@ -1555,6 +1555,17 @@ KnownModules
 S
 ]
 ;
+createObjectIn
+:
+(
+content
+:
+ContentWindow
+)
+=
+>
+object
+;
 exportFunction
 :
 (
