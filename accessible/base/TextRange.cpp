@@ -1219,13 +1219,6 @@ aContainer
 }
 }
 else
-if
-(
-containerPos
-!
-=
-0
-)
 {
 boundary
 =
@@ -1404,13 +1397,6 @@ aContainer
 }
 }
 else
-if
-(
-containerPos
-!
-=
-0
-)
 {
 boundary
 =
