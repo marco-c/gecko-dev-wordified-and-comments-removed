@@ -189,7 +189,7 @@ targetType
 await
 Promise
 .
-all
+allSettled
 (
 threadFronts
 .
