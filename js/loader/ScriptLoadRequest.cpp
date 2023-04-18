@@ -150,6 +150,7 @@ NS_IMPL_CYCLE_COLLECTION
 (
 ScriptFetchOptions
 mTriggeringPrincipal
+mElement
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
@@ -182,6 +183,15 @@ aReferrerPolicy
 nsIPrincipal
 *
 aTriggeringPrincipal
+mozilla
+:
+:
+dom
+:
+:
+Element
+*
+aElement
 )
 :
 mCORSMode
@@ -195,6 +205,10 @@ aReferrerPolicy
 mTriggeringPrincipal
 (
 aTriggeringPrincipal
+)
+mElement
+(
+aElement
 )
 {
 MOZ_ASSERT
