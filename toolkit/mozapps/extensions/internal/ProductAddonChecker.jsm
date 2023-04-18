@@ -261,6 +261,12 @@ true
 ;
 request
 .
+timeout
+=
+TIMEOUT_DELAY_MS
+;
+request
+.
 onerror
 =
 (
