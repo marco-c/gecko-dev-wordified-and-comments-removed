@@ -2625,10 +2625,6 @@ Vec
 RenderTaskId
 >
 pub
-dest_origin
-:
-DevicePoint
-pub
 dest_task_id
 :
 RenderTaskId
