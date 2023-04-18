@@ -1485,13 +1485,3 @@ systemTriggeredAboutBlankAnywhere
 true
 )
 ;
-user_pref
-(
-"
-fission
-.
-autostart
-"
-false
-)
-;

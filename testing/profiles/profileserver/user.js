@@ -10,13 +10,3 @@ enable_budget_timer_throttling
 false
 )
 ;
-user_pref
-(
-"
-fission
-.
-autostart
-"
-false
-)
-;

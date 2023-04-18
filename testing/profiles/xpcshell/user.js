@@ -339,13 +339,3 @@ enabled
 false
 )
 ;
-user_pref
-(
-"
-fission
-.
-autostart
-"
-false
-)
-;
