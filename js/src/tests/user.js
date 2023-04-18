@@ -457,3 +457,17 @@ enable_change_array_by_copy
 false
 )
 ;
+user_pref
+(
+"
+javascript
+.
+options
+.
+experimental
+.
+enable_new_set_methods
+"
+false
+)
+;
