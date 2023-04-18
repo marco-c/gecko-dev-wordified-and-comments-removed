@@ -3818,17 +3818,6 @@ event
 {
 if
 (
-event
-.
-keyCode
-=
-=
-=
-KeyEvent
-.
-DOM_VK_RETURN
-&
-&
 this
 .
 _needBrowserFocusAtEnterKeyUp
