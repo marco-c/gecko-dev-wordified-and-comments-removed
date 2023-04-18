@@ -174,7 +174,7 @@ Utf8Unit
 srcBuf
 )
 ;
-UniquePtr
+already_AddRefed
 <
 CompilationStencil
 >
@@ -197,7 +197,7 @@ char16_t
 srcBuf
 )
 ;
-UniquePtr
+already_AddRefed
 <
 CompilationStencil
 >

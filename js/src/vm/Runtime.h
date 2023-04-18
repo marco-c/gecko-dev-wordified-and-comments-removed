@@ -232,6 +232,17 @@ js
 /
 experimental
 /
+JSStencil
+.
+h
+"
+#
+include
+"
+js
+/
+experimental
+/
 SourceHook
 .
 h
