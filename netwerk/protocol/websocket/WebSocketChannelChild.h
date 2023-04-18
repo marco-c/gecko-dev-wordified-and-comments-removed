@@ -57,6 +57,9 @@ class
 ChannelEventQueue
 ;
 class
+MessageEvent
+;
+class
 WebSocketChannelChild
 final
 :
