@@ -5644,6 +5644,12 @@ mozilla
 StyleContain
 mContain
 ;
+mozilla
+:
+:
+StyleContentVisibility
+mContentVisibility
+;
 private
 :
 mozilla

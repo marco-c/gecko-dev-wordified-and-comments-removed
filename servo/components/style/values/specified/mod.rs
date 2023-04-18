@@ -399,6 +399,7 @@ box_
 :
 {
 Clear
+ContentVisibility
 Float
 Overflow
 OverflowAnchor
