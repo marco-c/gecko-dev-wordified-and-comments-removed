@@ -63,6 +63,26 @@ upper
 =
 values
     
+response
+.
+headers
+.
+append
+(
+b
+"
+Content
+-
+Type
+"
+b
+"
+text
+/
+html
+"
+)
+    
 return
 json
 .
