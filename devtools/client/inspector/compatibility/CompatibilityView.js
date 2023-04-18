@@ -476,6 +476,7 @@ compatibilityApp
 )
 )
 ;
+await
 this
 .
 inspector
@@ -487,6 +488,12 @@ dispatch
 initUserSettings
 (
 )
+)
+;
+this
+.
+_onPanelSelected
+(
 )
 ;
 this
