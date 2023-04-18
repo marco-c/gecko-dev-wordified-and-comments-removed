@@ -51280,7 +51280,7 @@ clockdrift
 buffering
 type
 :
-int32_t
+uint32_t
 mirror
 :
 always
