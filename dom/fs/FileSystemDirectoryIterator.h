@@ -30,8 +30,11 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-:
-:
+{
+class
+ErrorResult
+;
+namespace
 dom
 {
 class
@@ -92,6 +95,9 @@ Promise
 >
 Next
 (
+ErrorResult
+&
+aError
 )
 ;
 protected
@@ -112,6 +118,7 @@ mGlobal
 ;
 }
 ;
+}
 }
 #
 endif

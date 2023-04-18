@@ -654,6 +654,9 @@ short
 stream
 )
 ;
+[
+Throws
+]
 Promise
 <
 any

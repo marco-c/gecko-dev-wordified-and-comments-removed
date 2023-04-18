@@ -30,8 +30,11 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-:
-:
+{
+class
+ErrorResult
+;
+namespace
 dom
 {
 struct
@@ -119,6 +122,9 @@ Truncate
 (
 uint64_t
 aSize
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -127,6 +133,9 @@ Promise
 >
 GetSize
 (
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -135,6 +144,9 @@ Promise
 >
 Flush
 (
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -143,6 +155,9 @@ Promise
 >
 Close
 (
+ErrorResult
+&
+aError
 )
 ;
 private
@@ -163,6 +178,7 @@ mGlobal
 ;
 }
 ;
+}
 }
 #
 endif

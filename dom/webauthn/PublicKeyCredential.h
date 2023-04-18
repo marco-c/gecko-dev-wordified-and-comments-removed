@@ -181,6 +181,9 @@ IsUserVerifyingPlatformAuthenticatorAvailable
 GlobalObject
 &
 aGlobal
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -193,6 +196,9 @@ IsExternalCTAP2SecurityKeySupported
 GlobalObject
 &
 aGlobal
+ErrorResult
+&
+aError
 )
 ;
 void

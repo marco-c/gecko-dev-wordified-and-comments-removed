@@ -171,6 +171,9 @@ FileSystemWritableFileStream
 :
 WritableStream
 {
+[
+NewObject
+]
 Promise
 <
 void
@@ -181,6 +184,9 @@ FileSystemWriteChunkType
 data
 )
 ;
+[
+NewObject
+]
 Promise
 <
 void
@@ -193,6 +199,9 @@ long
 position
 )
 ;
+[
+NewObject
+]
 Promise
 <
 void

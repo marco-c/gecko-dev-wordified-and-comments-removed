@@ -160,6 +160,9 @@ Promise
 >
 Next
 (
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed

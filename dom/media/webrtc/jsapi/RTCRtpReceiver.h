@@ -232,6 +232,9 @@ Promise
 >
 GetStats
 (
+ErrorResult
+&
+aError
 )
 ;
 void

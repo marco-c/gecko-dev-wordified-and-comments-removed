@@ -130,6 +130,9 @@ FileSystemFileHandle
 :
 FileSystemHandle
 {
+[
+NewObject
+]
 Promise
 <
 File
@@ -138,6 +141,9 @@ getFile
 (
 )
 ;
+[
+NewObject
+]
 Promise
 <
 FileSystemWritableFileStream
@@ -156,6 +162,7 @@ options
 Exposed
 =
 DedicatedWorker
+NewObject
 ]
 Promise
 <

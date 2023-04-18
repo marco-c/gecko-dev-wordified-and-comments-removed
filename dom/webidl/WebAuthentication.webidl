@@ -178,6 +178,9 @@ partial
 interface
 PublicKeyCredential
 {
+[
+NewObject
+]
 static
 Promise
 <
@@ -198,6 +201,9 @@ standard
 see
 Bug
 1526023
+[
+NewObject
+]
 static
 Promise
 <

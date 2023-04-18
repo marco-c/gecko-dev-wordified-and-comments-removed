@@ -207,6 +207,7 @@ fs
 .
 enabled
 "
+NewObject
 ]
 Promise
 <

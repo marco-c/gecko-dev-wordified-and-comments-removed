@@ -125,6 +125,9 @@ LegacyNoInterfaceObject
 interface
 FileSystemDirectoryIterator
 {
+[
+NewObject
+]
 Promise
 <
 any

@@ -139,6 +139,9 @@ attribute
 USVString
 name
 ;
+[
+NewObject
+]
 Promise
 <
 boolean

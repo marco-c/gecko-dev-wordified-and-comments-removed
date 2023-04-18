@@ -158,6 +158,9 @@ Promise
 >
 GetDirectory
 (
+ErrorResult
+&
+aRv
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

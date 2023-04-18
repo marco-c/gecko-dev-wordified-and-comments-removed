@@ -30,8 +30,11 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-:
-:
+{
+class
+ErrorResult
+;
+namespace
 dom
 {
 class
@@ -112,6 +115,9 @@ IsSameEntry
 FileSystemHandle
 &
 aOther
+ErrorResult
+&
+aError
 )
 ;
 protected
@@ -132,6 +138,7 @@ mGlobal
 ;
 }
 ;
+}
 }
 #
 endif

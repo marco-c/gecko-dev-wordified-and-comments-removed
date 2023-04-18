@@ -487,6 +487,7 @@ mPublicKey
 aOptions
 .
 mSignal
+aRv
 )
 ;
 }
@@ -548,6 +549,7 @@ mPublicKey
 aOptions
 .
 mSignal
+aRv
 )
 ;
 }
@@ -604,6 +606,7 @@ mManager
 Store
 (
 aCredential
+aRv
 )
 ;
 }

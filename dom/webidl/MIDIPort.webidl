@@ -215,6 +215,9 @@ attribute
 EventHandler
 onstatechange
 ;
+[
+Throws
+]
 Promise
 <
 MIDIPort
@@ -223,6 +226,9 @@ open
 (
 )
 ;
+[
+Throws
+]
 Promise
 <
 MIDIPort

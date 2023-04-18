@@ -152,6 +152,9 @@ RTCDtlsTransport
 ?
 transport
 ;
+[
+NewObject
+]
 Promise
 <
 RTCStatsReport

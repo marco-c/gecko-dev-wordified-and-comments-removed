@@ -210,6 +210,9 @@ values
 (
 )
 ;
+[
+NewObject
+]
 Promise
 <
 FileSystemFileHandle
@@ -226,6 +229,9 @@ options
 }
 )
 ;
+[
+NewObject
+]
 Promise
 <
 FileSystemDirectoryHandle
@@ -242,6 +248,9 @@ options
 }
 )
 ;
+[
+NewObject
+]
 Promise
 <
 void
@@ -258,6 +267,9 @@ options
 }
 )
 ;
+[
+NewObject
+]
 Promise
 <
 sequence

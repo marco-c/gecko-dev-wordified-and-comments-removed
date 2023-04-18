@@ -17,8 +17,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+class
+ErrorResult
+;
+namespace
 dom
 {
 struct
@@ -70,6 +73,9 @@ Promise
 >
 GetFile
 (
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -82,6 +88,9 @@ const
 FileSystemCreateWritableOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -90,6 +99,9 @@ Promise
 >
 CreateSyncAccessHandle
 (
+ErrorResult
+&
+aError
 )
 ;
 private
@@ -103,6 +115,7 @@ default
 ;
 }
 ;
+}
 }
 #
 endif

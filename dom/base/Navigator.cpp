@@ -6806,8 +6806,10 @@ return
 mBatteryPromise
 ;
 }
+already_AddRefed
+<
 Promise
-*
+>
 Navigator
 :
 :
@@ -7369,7 +7371,10 @@ nullptr
 )
 ;
 return
+do_AddRef
+(
 mSharePromise
+)
 ;
 }
 bool

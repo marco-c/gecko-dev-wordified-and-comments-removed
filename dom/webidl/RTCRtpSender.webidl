@@ -148,6 +148,9 @@ RTCDtlsTransport
 ?
 transport
 ;
+[
+NewObject
+]
 Promise
 <
 void
@@ -167,6 +170,9 @@ getParameters
 (
 )
 ;
+[
+Throws
+]
 Promise
 <
 void
@@ -178,6 +184,9 @@ MediaStreamTrack
 withTrack
 )
 ;
+[
+NewObject
+]
 Promise
 <
 RTCStatsReport

@@ -17,8 +17,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+class
+ErrorResult
+;
+namespace
 dom
 {
 class
@@ -126,6 +129,9 @@ const
 FileSystemGetFileOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -142,6 +148,9 @@ const
 FileSystemGetDirectoryOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -158,6 +167,9 @@ const
 FileSystemRemoveOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -169,6 +181,9 @@ Resolve
 FileSystemHandle
 &
 aPossibleDescendant
+ErrorResult
+&
+aError
 )
 ;
 private
@@ -182,6 +197,7 @@ default
 ;
 }
 ;
+}
 }
 #
 endif

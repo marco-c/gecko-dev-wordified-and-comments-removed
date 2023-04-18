@@ -191,6 +191,9 @@ options
 }
 )
 ;
+[
+NewObject
+]
 Promise
 <
 void
@@ -206,6 +209,9 @@ long
 size
 )
 ;
+[
+NewObject
+]
 Promise
 <
 unsigned
@@ -216,6 +222,9 @@ getSize
 (
 )
 ;
+[
+NewObject
+]
 Promise
 <
 void
@@ -224,6 +233,9 @@ flush
 (
 )
 ;
+[
+NewObject
+]
 Promise
 <
 void

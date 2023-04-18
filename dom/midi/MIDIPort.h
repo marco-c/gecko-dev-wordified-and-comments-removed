@@ -213,6 +213,9 @@ Promise
 >
 Open
 (
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -221,6 +224,9 @@ Promise
 >
 Close
 (
+ErrorResult
+&
+aError
 )
 ;
 virtual

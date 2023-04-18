@@ -17,8 +17,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+class
+ErrorResult
+;
+namespace
 dom
 {
 class
@@ -68,6 +71,9 @@ const
 ArrayBufferViewOrArrayBufferOrBlobOrUSVStringOrWriteParams
 &
 aData
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -78,6 +84,9 @@ Seek
 (
 uint64_t
 aPosition
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -88,6 +97,9 @@ Truncate
 (
 uint64_t
 aSize
+ErrorResult
+&
+aError
 )
 ;
 private
@@ -101,6 +113,7 @@ default
 ;
 }
 ;
+}
 }
 #
 endif

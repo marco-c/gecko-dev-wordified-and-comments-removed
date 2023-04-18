@@ -2328,6 +2328,7 @@ Document
 :
 CallerIsTrustedAboutCertError
 "
+NewObject
 ]
 Promise
 <

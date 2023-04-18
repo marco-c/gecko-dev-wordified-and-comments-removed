@@ -354,6 +354,9 @@ DOMException
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 Uint8Array
@@ -443,6 +446,9 @@ DOMException
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 UTF8String
@@ -527,6 +533,9 @@ JSON
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 any
@@ -694,6 +703,9 @@ DOMException
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 unsigned
@@ -803,6 +815,9 @@ DOMException
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 unsigned
@@ -927,6 +942,9 @@ DOMException
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 unsigned
@@ -1041,6 +1059,9 @@ DOMException
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 void
@@ -1114,6 +1135,9 @@ DOMException
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 void
@@ -1181,6 +1205,9 @@ DOMException
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 void
@@ -1258,6 +1285,9 @@ see
 FileInfo
 *
 /
+[
+NewObject
+]
 Promise
 <
 FileInfo
@@ -1343,6 +1373,9 @@ DOMException
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 void
@@ -1481,6 +1514,9 @@ DOMException
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 long
@@ -1559,6 +1595,9 @@ DOMException
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 sequence
@@ -1732,6 +1771,9 @@ DOMException
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 void
@@ -1793,6 +1835,9 @@ exists
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 boolean
@@ -1861,6 +1906,9 @@ filename
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 DOMString
@@ -1939,6 +1987,9 @@ name
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 DOMString
@@ -2008,6 +2059,9 @@ attributes
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 WindowsFileAttributes
@@ -2101,6 +2155,9 @@ successfully
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 void
@@ -2182,6 +2239,9 @@ error
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 boolean
@@ -2251,6 +2311,9 @@ error
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 Uint8Array
@@ -2328,6 +2391,9 @@ error
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 void
@@ -2391,6 +2457,9 @@ error
 .
 *
 /
+[
+NewObject
+]
 Promise
 <
 void
