@@ -223,7 +223,6 @@ AudioInputProcessing
 >
 (
 channels
-PRINCIPAL_HANDLE_NONE
 )
 ;
 const
@@ -975,7 +974,6 @@ AudioInputProcessing
 >
 (
 channels
-PRINCIPAL_HANDLE_NONE
 )
 ;
 AudioGenerator
