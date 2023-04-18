@@ -5070,11 +5070,6 @@ Element
 aElement
 )
 {
-RemoveEventHandler
-(
-aName
-)
-;
 nsCOMPtr
 <
 Document
