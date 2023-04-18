@@ -805,6 +805,17 @@ ReadableStreamDefaultController
 aController
 )
 ;
+Nullable
+<
+double
+>
+ReadableStreamDefaultControllerGetDesiredSize
+(
+ReadableStreamDefaultController
+*
+aController
+)
+;
 }
 #
 endif
