@@ -1263,3 +1263,12 @@ add_task
 test_no_retry_without_doh
 )
 ;
+add_task
+(
+test_connection_reuse_and_cycling
+)
+.
+skip
+(
+)
+;
