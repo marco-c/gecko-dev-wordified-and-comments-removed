@@ -27277,7 +27277,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-MaybeWaitForUploadStreamNormalization
+MaybeWaitForUploadStreamLength
 (
 listener
 nullptr
