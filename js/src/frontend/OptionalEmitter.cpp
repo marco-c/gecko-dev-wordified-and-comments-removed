@@ -142,6 +142,9 @@ IsNullOrUndefined
 )
 )
 {
+return
+false
+;
 }
 if
 (
