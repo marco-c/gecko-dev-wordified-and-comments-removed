@@ -126,9 +126,8 @@ addr
 int
 type
 ;
-nr_ice_stun_server
-*
-stun_server
+nr_transport_addr
+stun_server_addr
 ;
 STAILQ_ENTRY
 (
