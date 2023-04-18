@@ -3317,7 +3317,7 @@ _evalCounter
 ;
 DevToolsUtils
 .
-executeSoon
+executeSoonWithMicroTask
 (
 async
 (
