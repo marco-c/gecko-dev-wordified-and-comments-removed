@@ -1,7 +1,7 @@
 import
 {
 hasInScopeLines
-getSource
+getLocationSource
 getSourceTextContent
 getVisibleSelectedFrame
 }
@@ -137,14 +137,12 @@ parser
 const
 source
 =
-getSource
+getLocationSource
 (
 getState
 (
 )
 location
-.
-sourceId
 )
 ;
 const

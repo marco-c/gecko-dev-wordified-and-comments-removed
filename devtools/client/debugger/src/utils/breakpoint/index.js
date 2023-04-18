@@ -1,6 +1,6 @@
 import
 {
-getSource
+getLocationSource
 getSourceActorsForSource
 }
 from
@@ -185,12 +185,10 @@ location
 const
 source
 =
-getSource
+getLocationSource
 (
 state
 location
-.
-sourceId
 )
 ;
 if

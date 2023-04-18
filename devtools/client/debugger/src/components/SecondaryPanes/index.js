@@ -91,7 +91,7 @@ getThreads
 getCurrentThread
 getThreadContext
 getPauseReason
-getSourceFromId
+getLocationSource
 getSkipPausing
 shouldLogEventBreakpoints
 }
@@ -2219,14 +2219,12 @@ source
 selectedFrame
 &
 &
-getSourceFromId
+getLocationSource
 (
 state
 selectedFrame
 .
 location
-.
-sourceId
 )
 pauseReason
 :

@@ -14,6 +14,7 @@ map
 import
 {
 getSource
+getLocationSource
 }
 from
 "
@@ -162,12 +163,10 @@ location
 const
 source
 =
-getSource
+getLocationSource
 (
 state
 location
-.
-sourceId
 )
 ;
 if
@@ -257,12 +256,10 @@ location
 const
 source
 =
-getSource
+getLocationSource
 (
 state
 location
-.
-sourceId
 )
 ;
 if
