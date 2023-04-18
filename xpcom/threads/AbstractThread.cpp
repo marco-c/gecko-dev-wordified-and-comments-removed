@@ -48,15 +48,6 @@ include
 "
 mozilla
 /
-ProfilerRunnable
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StateWatching
 .
 h
@@ -886,11 +877,6 @@ SerialEventTargetGuard
 guard
 (
 mThread
-)
-;
-AUTO_PROFILE_FOLLOWING_RUNNABLE
-(
-mRunnable
 )
 ;
 return
