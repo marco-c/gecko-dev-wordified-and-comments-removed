@@ -334,6 +334,9 @@ width
 ;
 }
 toolbarbutton
+:
+where
+(
 [
 disabled
 =
@@ -341,6 +344,7 @@ disabled
 true
 "
 ]
+)
 {
 color
 :
@@ -372,6 +376,9 @@ contrast
 )
 {
 toolbarbutton
+:
+where
+(
 [
 disabled
 =
@@ -379,6 +386,7 @@ disabled
 true
 "
 ]
+)
 {
 text
 -
@@ -391,6 +399,9 @@ ThreeDHighlight
 }
 }
 toolbarbutton
+:
+where
+(
 [
 disabled
 =
@@ -398,6 +409,7 @@ disabled
 true
 "
 ]
+)
 {
 color
 :

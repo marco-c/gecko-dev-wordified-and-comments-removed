@@ -126,9 +126,7 @@ let
 property
 =
 "
-border
--
-right
+outline
 -
 color
 "
