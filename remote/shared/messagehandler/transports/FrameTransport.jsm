@@ -180,7 +180,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -562,6 +562,8 @@ attempts
 MAX_RETRY_ATTEMPTS
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -601,6 +603,8 @@ throw
 e
 ;
 }
+lazy
+.
 logger
 .
 trace
