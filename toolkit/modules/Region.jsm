@@ -1890,7 +1890,7 @@ _rsClient
 .
 attachments
 .
-delete
+deleteDownloaded
 (
 entry
 )
@@ -1977,15 +1977,6 @@ download
 return
 ;
 }
-let
-opts
-=
-{
-useCache
-:
-true
-}
-;
 await
 Promise
 .
@@ -2007,7 +1998,6 @@ attachments
 download
 (
 r
-opts
 )
 )
 )
@@ -2075,11 +2065,6 @@ attachments
 download
 (
 record
-{
-useCache
-:
-true
-}
 )
 ;
 let

@@ -5956,7 +5956,7 @@ Downloader
 .
 prototype
 .
-download
+downloadToDisk
 =
 spy
 ;
@@ -18191,7 +18191,7 @@ Downloader
 .
 prototype
 .
-download
+downloadToDisk
 =
 spy
 ;
