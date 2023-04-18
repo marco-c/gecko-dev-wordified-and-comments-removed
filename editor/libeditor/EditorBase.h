@@ -1798,7 +1798,7 @@ FlushPendingSpellCheck
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-void
+nsresult
 OnFocus
 (
 const
