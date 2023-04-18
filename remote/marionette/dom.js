@@ -473,12 +473,6 @@ ev
 ;
 }
 }
-this
-.
-WebElementEventTarget
-=
-WebElementEventTarget
-;
 class
 ContentEventObserverService
 {
@@ -674,9 +668,3 @@ type
 ;
 }
 }
-this
-.
-ContentEventObserverService
-=
-ContentEventObserverService
-;

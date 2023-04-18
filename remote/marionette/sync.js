@@ -1222,12 +1222,6 @@ TYPE_ONE_SHOT
 ;
 }
 }
-this
-.
-DebounceCallback
-=
-DebounceCallback
-;
 function
 waitForMessage
 (

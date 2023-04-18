@@ -245,12 +245,6 @@ Content
 content
 "
 ;
-this
-.
-Context
-=
-Context
-;
 browser
 .
 Context
@@ -1021,10 +1015,4 @@ windowState
 }
 }
 }
-;
-this
-.
-WindowState
-=
-WindowState
 ;

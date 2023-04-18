@@ -566,9 +566,3 @@ uninstall
 ;
 }
 }
-this
-.
-Addon
-=
-Addon
-;

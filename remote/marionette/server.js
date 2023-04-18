@@ -781,12 +781,6 @@ conn
 ;
 }
 }
-this
-.
-TCPListener
-=
-TCPListener
-;
 class
 TCPConnection
 {
@@ -1490,9 +1484,3 @@ id
 ;
 }
 }
-this
-.
-TCPConnection
-=
-TCPConnection
-;
