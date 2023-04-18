@@ -192,6 +192,11 @@ the
 root
 /
 .
+clang
+-
+tidy
+/
+.
 mozconfig
 *
 /

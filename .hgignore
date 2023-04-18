@@ -190,6 +190,12 @@ root
 ^
 \
 .
+clang
+-
+tidy
+^
+\
+.
 mozconfig
 ^
 mozconfig
