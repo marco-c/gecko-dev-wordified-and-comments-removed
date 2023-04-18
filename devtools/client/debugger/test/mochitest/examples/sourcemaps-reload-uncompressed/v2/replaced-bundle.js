@@ -274,10 +274,10 @@ exports
 {
 window
 .
-newOriginal
+____newOriginal
 =
 function
-newOriginal
+____newOriginal
 (
 )
 {
@@ -295,7 +295,7 @@ original
 ;
 window
 .
-newOriginal
+____newOriginal
 (
 )
 ;

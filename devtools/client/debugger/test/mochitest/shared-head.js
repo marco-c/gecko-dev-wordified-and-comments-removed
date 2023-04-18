@@ -11535,8 +11535,6 @@ url
 {
 URL_ROOT
 }
-examples
-/
 {
 testFolderName
 }

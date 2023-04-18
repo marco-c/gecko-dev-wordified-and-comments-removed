@@ -9,9 +9,13 @@ testServer
 createVersionizedHttpTestServer
 (
 "
+examples
+/
 sourcemaps
 -
 reload
+-
+uncompressed
 "
 )
 ;

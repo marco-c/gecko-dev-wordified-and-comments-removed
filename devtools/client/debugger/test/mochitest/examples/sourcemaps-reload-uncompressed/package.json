@@ -7,6 +7,8 @@ name
 sourcemaps
 -
 reload
+-
+uncompressed
 "
 "
 version
@@ -30,6 +32,8 @@ for
 sourcemaps
 -
 reload
+-
+uncompressed
 test
 see
 README
