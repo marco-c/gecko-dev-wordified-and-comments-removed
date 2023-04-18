@@ -4,11 +4,17 @@ strict
 ;
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Services
 "
@@ -31,7 +37,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -54,7 +60,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Log
 "
@@ -77,7 +83,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -100,7 +106,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CommonUtils
 "
@@ -212,6 +218,8 @@ PR_UINT32_MAX
 class
 StorageStreamAppender
 extends
+lazy
+.
 Log
 .
 Appender
@@ -579,6 +587,8 @@ message
 level
 >
 =
+lazy
+.
 Log
 .
 Level
@@ -807,12 +817,16 @@ inputStream
 let
 outputDirectory
 =
+lazy
+.
 OS
 .
 Path
 .
 join
 (
+lazy
+.
 OS
 .
 Constants
@@ -827,6 +841,8 @@ subdirArray
 )
 ;
 await
+lazy
+.
 OS
 .
 File
@@ -840,6 +856,8 @@ ignoreExisting
 true
 from
 :
+lazy
+.
 OS
 .
 Constants
@@ -853,6 +871,8 @@ profileDir
 let
 fullOutputFileName
 =
+lazy
+.
 OS
 .
 Path
@@ -867,6 +887,8 @@ let
 output
 =
 await
+lazy
+.
 OS
 .
 File
@@ -1078,6 +1100,8 @@ formatter
 formatter
 =
 new
+lazy
+.
 Log
 .
 BasicFormatter
@@ -1087,6 +1111,8 @@ BasicFormatter
 consoleAppender
 =
 new
+lazy
+.
 Log
 .
 ConsoleAppender
@@ -1097,6 +1123,8 @@ formatter
 dumpAppender
 =
 new
+lazy
+.
 Log
 .
 DumpAppender
@@ -1140,6 +1168,8 @@ newVal
 let
 level
 =
+lazy
+.
 Log
 .
 Level
@@ -1175,6 +1205,8 @@ branch
 let
 lookVal
 =
+lazy
+.
 Log
 .
 Level
@@ -1266,6 +1298,8 @@ appender
 .
 console
 "
+lazy
+.
 Log
 .
 Level
@@ -1288,6 +1322,8 @@ appender
 .
 dump
 "
+lazy
+.
 Log
 .
 Level
@@ -1327,6 +1363,8 @@ file
 .
 level
 "
+lazy
+.
 Log
 .
 Level
@@ -1345,6 +1383,8 @@ logNames
 let
 log
 =
+lazy
+.
 Log
 .
 repository
@@ -1379,6 +1419,8 @@ this
 .
 _log
 =
+lazy
+.
 Log
 .
 repository
@@ -1867,6 +1909,8 @@ true
 let
 logDir
 =
+lazy
+.
 FileUtils
 .
 getDir
@@ -1883,6 +1927,8 @@ let
 iterator
 =
 new
+lazy
+.
 OS
 .
 File
@@ -1943,6 +1989,8 @@ let
 info
 =
 await
+lazy
+.
 OS
 .
 File
@@ -2000,6 +2048,8 @@ getTime
 )
 ;
 await
+lazy
+.
 OS
 .
 File
@@ -2112,6 +2162,8 @@ files
 "
 )
 ;
+lazy
+.
 Services
 .
 obs

@@ -39,11 +39,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AppConstants
 "
@@ -66,7 +72,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ClientID
 "
@@ -89,7 +95,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Services
 "
@@ -112,7 +118,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 CryptoHash
 "
@@ -152,7 +158,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gSampleRate
 "
@@ -197,6 +203,8 @@ getClientID
 )
 {
 return
+lazy
+.
 ClientID
 .
 getClientID
@@ -269,6 +277,8 @@ let
 hash
 =
 new
+lazy
+.
 CryptoHash
 (
 "
@@ -359,6 +369,8 @@ getChannel
 )
 {
 return
+lazy
+.
 AppConstants
 .
 MOZ_UPDATE_CHANNEL
@@ -604,6 +616,8 @@ this
 _eventsEnabled
 )
 {
+lazy
+.
 Services
 .
 telemetry
@@ -665,6 +679,8 @@ channel
 |
 hash
 <
+lazy
+.
 gSampleRate
 ;
 if
@@ -713,6 +729,8 @@ acc
 }
 )
 ;
+lazy
+.
 Services
 .
 telemetry
