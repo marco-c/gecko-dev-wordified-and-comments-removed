@@ -92,8 +92,6 @@ value
 PropTypes
 .
 any
-.
-isRequired
 variable
 :
 PropTypes
