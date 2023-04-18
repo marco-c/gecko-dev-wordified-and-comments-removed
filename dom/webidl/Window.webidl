@@ -3286,6 +3286,15 @@ Deprecated
 "
 InstallTriggerDeprecated
 "
+Pref
+=
+"
+extensions
+.
+InstallTrigger
+.
+enabled
+"
 ]
 readonly
 attribute
