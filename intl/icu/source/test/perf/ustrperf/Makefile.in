@@ -137,7 +137,7 @@ Target
 information
 TARGET
 =
-ustrperf
+stringperf
 CPPFLAGS
 +
 =

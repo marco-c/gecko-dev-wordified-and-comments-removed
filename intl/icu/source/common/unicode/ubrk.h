@@ -261,7 +261,7 @@ status
 #
 ifndef
 U_HIDE_DEPRECATED_API
-U_DEPRECATED
+U_CAPI
 UBreakIterator
 *
 U_EXPORT2
@@ -284,6 +284,9 @@ status
 ;
 #
 endif
+#
+ifndef
+U_HIDE_DRAFT_API
 U_CAPI
 UBreakIterator
 *
@@ -299,6 +302,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 #
 ifndef
 U_HIDE_DEPRECATED_API

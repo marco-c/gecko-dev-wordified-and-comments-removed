@@ -2516,7 +2516,6 @@ d
 MMM
 y
 .
-G
 "
 }
 GyMd

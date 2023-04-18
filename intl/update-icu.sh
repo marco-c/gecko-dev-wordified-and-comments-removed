@@ -612,6 +612,16 @@ workaround
 .
 diff
 \
+bug
+-
+1738422
+-
+approximately
+-
+sign
+.
+diff
+\
 ;
 do
 echo

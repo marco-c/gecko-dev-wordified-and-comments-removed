@@ -300,7 +300,6 @@ UVector32
 &
 other
 )
-const
 {
 int32_t
 i

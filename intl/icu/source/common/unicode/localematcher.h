@@ -526,7 +526,7 @@ Builder
 setDirection
 (
 ULocMatchDirection
-matchDirection
+direction
 )
 {
 if
@@ -539,7 +539,7 @@ errorCode_
 {
 direction_
 =
-matchDirection
+direction
 ;
 }
 return

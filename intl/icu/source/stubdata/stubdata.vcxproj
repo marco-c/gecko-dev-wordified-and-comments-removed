@@ -771,7 +771,7 @@ OutputFile
 IcuBinOutputDir
 )
 \
-icudt71
+icudt70
 .
 dll
 <
