@@ -15052,7 +15052,7 @@ inspect
 ;
 if
 (
-newListElementOrError
+newListItemElementOrError
 .
 isErr
 (
@@ -15075,7 +15075,7 @@ failed
 return
 EditActionResult
 (
-newListElementOrError
+newListItemElementOrError
 .
 unwrapErr
 (
@@ -15085,7 +15085,7 @@ unwrapErr
 }
 MOZ_ASSERT
 (
-newListElementOrError
+newListItemElementOrError
 .
 inspect
 (
@@ -15098,7 +15098,7 @@ TopLevelEditSubActionDataRef
 .
 mNewBlockElement
 =
-newListElementOrError
+newListItemElementOrError
 .
 inspect
 (
@@ -15118,7 +15118,7 @@ CollapseSelectionToStartOf
 MOZ_KnownLive
 (
 *
-newListElementOrError
+newListItemElementOrError
 .
 inspect
 (
