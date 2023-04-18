@@ -93,11 +93,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 WindowsUIUtils
 :
@@ -1758,6 +1764,8 @@ WINNT
 "
 )
 {
+lazy
+.
 WindowsUIUtils
 .
 setWindowIconNoData
