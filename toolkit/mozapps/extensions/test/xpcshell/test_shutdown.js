@@ -15,12 +15,6 @@ shouldAutoUpdate
 getStartupChanges
 "
 "
-addTypeListener
-"
-"
-removeTypeListener
-"
-"
 addAddonListener
 "
 "
@@ -64,9 +58,6 @@ removeUpgradeListener
 "
 "
 getInstallSourceFromHost
-"
-"
-getInstallSourceFromPrincipal
 "
 "
 stageLangpacksForAppUpdate
