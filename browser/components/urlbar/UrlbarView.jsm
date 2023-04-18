@@ -575,6 +575,10 @@ heuristicResult
 this
 .
 _queryContext
+|
+|
+{
+}
 ;
 return
 !
