@@ -12,7 +12,7 @@ fn
 ident
 field
 :
-expr
+literal
 )
 =
 >
@@ -51,7 +51,7 @@ Error
 where
 T
 :
-serde_with
+crate
 :
 :
 serde
@@ -64,7 +64,7 @@ de
 >
 D
 :
-serde_with
+crate
 :
 :
 serde
@@ -107,11 +107,17 @@ Ok
 }
 }
 ;
+use
+crate
+:
+:
+serde
+;
 #
 [
 derive
 (
-serde_with
+crate
 :
 :
 serde
@@ -127,9 +133,6 @@ serde
 crate
 =
 "
-serde_with
-:
-:
 serde
 "
 )
@@ -178,7 +181,7 @@ Both
 T
 >
 =
-serde_with
+crate
 :
 :
 serde
@@ -232,7 +235,7 @@ None
 >
 Err
 (
-serde_with
+crate
 :
 :
 serde
@@ -263,7 +266,7 @@ _
 >
 Err
 (
-serde_with
+crate
 :
 :
 serde

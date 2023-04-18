@@ -1,7 +1,6 @@
-pub
-(
-crate
-)
+mod
+const_arrays
+;
 mod
 impls
 ;
@@ -79,8 +78,6 @@ U
 }
 impl
 <
-'
-de
 T
 U
 >
