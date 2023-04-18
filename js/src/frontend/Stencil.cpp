@@ -10394,12 +10394,11 @@ isInitialStencil
 )
 ;
 return
-InstantiateAtoms
+InstantiateMarkedAtomsAsPermanent
 (
 cx
+parserAtomData
 atomCache
-*
-this
 )
 ;
 }
