@@ -274,6 +274,14 @@ ComboboxMightHaveChanged
 (
 )
 ;
+void
+OptionValueMightHaveChanged
+(
+nsIContent
+*
+aMutatingNode
+)
+;
 ~
 HTMLSelectEventListener
 (

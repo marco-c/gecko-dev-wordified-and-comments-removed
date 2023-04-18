@@ -373,7 +373,7 @@ aLabel
 void
 GetLabel
 (
-DOMString
+nsAString
 &
 aLabel
 )
