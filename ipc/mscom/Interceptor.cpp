@@ -216,6 +216,7 @@ namespace
 detail
 {
 class
+CAPABILITY
 LiveSet
 final
 {
@@ -246,6 +247,10 @@ void
 Lock
 (
 )
+CAPABILITY_ACQUIRE
+(
+mMutex
+)
 {
 mMutex
 .
@@ -257,6 +262,10 @@ Lock
 void
 Unlock
 (
+)
+CAPABILITY_RELEASE
+(
+mMutex
 )
 {
 mMutex
@@ -386,6 +395,7 @@ mLiveSet
 ;
 class
 MOZ_RAII
+SCOPED_CAPABILITY
 LiveSetAutoLock
 final
 {
@@ -396,6 +406,10 @@ LiveSetAutoLock
 (
 LiveSet
 &
+aLiveSet
+)
+CAPABILITY_ACQUIRE
+(
 aLiveSet
 )
 :
@@ -416,6 +430,9 @@ Lock
 LiveSetAutoLock
 (
 )
+CAPABILITY_RELEASE
+(
+)
 {
 if
 (
@@ -433,6 +450,9 @@ Unlock
 }
 void
 Unlock
+(
+)
+CAPABILITY_RELEASE
 (
 )
 {
@@ -2190,6 +2210,7 @@ IUnknown
 >
 aTarget
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 RefPtr
 <
@@ -2295,6 +2316,7 @@ void
 *
 aOutInterceptor
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 MOZ_ASSERT
 (
@@ -2348,6 +2370,7 @@ hr
 ;
 }
 ;
+PUSH_IGNORE_THREAD_SAFETY
 auto
 cleanup
 =
@@ -2369,6 +2392,7 @@ Unlock
 ;
 }
 ;
+POP_THREAD_SAFETY
 ExecuteWhen
 <
 decltype
