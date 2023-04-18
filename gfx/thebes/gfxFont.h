@@ -7885,7 +7885,6 @@ gfxCharacterMap
 >
 mUnicodeRangeMap
 ;
-const
 RefPtr
 <
 mozilla
@@ -7897,6 +7896,10 @@ gfx
 UnscaledFont
 >
 mUnscaledFont
+GUARDED_BY
+(
+mLock
+)
 ;
 mozilla
 :
