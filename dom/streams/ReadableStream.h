@@ -237,6 +237,7 @@ Errored
 ;
 public
 :
+MOZ_KNOWN_LIVE
 ReadableStreamController
 *
 Controller
@@ -279,12 +280,19 @@ void
 SetController
 (
 ReadableStreamController
-*
+&
 aController
 )
 {
+MOZ_ASSERT
+(
+!
+mController
+)
+;
 mController
 =
+&
 aController
 ;
 }
@@ -640,6 +648,7 @@ aRv
 ;
 private
 :
+MOZ_KNOWN_LIVE
 RefPtr
 <
 ReadableStreamController
