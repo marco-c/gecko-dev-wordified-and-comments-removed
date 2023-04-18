@@ -274,7 +274,10 @@ from_rustup_which
 (
 )
 return
+normalize_path
+(
 prog
+)
 return
 unwrap
 rustc
