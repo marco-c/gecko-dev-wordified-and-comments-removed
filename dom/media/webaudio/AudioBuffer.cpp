@@ -573,6 +573,12 @@ aData
 bool
 )
 {
+StaticMutexAutoLock
+lock
+(
+sMutex
+)
+;
 const
 size_t
 amount
