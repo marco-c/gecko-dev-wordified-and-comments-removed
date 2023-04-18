@@ -399,6 +399,13 @@ IsSharedMemoryAllowed
 const
 final
 ;
+bool
+ShouldResistFingerprinting
+(
+)
+const
+final
+;
 StorageAccess
 GetStorageAccess
 (

@@ -911,6 +911,13 @@ GetWrapper
 nullptr
 ;
 }
+bool
+ShouldResistFingerprinting
+(
+)
+const
+final
+;
 JSObject
 *
 GetGlobalJSObject
@@ -3067,11 +3074,6 @@ aError
 ;
 uint64_t
 GetMozPaintCountOuter
-(
-)
-;
-bool
-ShouldResistFingerprinting
 (
 )
 ;

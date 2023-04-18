@@ -1029,6 +1029,13 @@ GetWrapper
 )
 ;
 }
+bool
+ShouldResistFingerprinting
+(
+)
+const
+final
+;
 JSObject
 *
 GetGlobalJSObject
@@ -5337,11 +5344,6 @@ mozilla
 ErrorResult
 &
 aError
-)
-;
-bool
-ShouldResistFingerprinting
-(
 )
 ;
 bool

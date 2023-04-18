@@ -639,6 +639,13 @@ RemoveReportRecords
 (
 )
 ;
+virtual
+bool
+ShouldResistFingerprinting
+(
+)
+const
+;
 protected
 :
 virtual

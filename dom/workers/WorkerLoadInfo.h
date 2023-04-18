@@ -456,6 +456,9 @@ mHasStorageAccessPermissionGranted
 bool
 mServiceWorkersTestingInWindow
 ;
+bool
+mShouldResistFingerprinting
+;
 OriginAttributes
 mOriginAttributes
 ;
