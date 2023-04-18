@@ -271,9 +271,10 @@ EdgeKind
 >
 bool
 {
-match
+matches
+!
+(
 kind
-{
 EdgeKind
 :
 :
@@ -303,14 +304,7 @@ EdgeKind
 :
 :
 Field
-=
->
-true
-_
-=
->
-false
-}
+)
 }
 fn
 insert
@@ -661,7 +655,7 @@ self
 .
 ctx
 .
-whitelisted_items
+allowlisted_items
 (
 )
 .

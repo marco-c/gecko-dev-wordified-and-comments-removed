@@ -133,9 +133,10 @@ EdgeKind
 >
 bool
 {
-match
+matches
+!
+(
 kind
-{
 EdgeKind
 :
 :
@@ -160,14 +161,7 @@ EdgeKind
 :
 :
 TemplateDeclaration
-=
->
-true
-_
-=
->
-false
-}
+)
 }
 fn
 insert
@@ -348,7 +342,7 @@ self
 .
 ctx
 .
-whitelisted_items
+allowlisted_items
 (
 )
 .

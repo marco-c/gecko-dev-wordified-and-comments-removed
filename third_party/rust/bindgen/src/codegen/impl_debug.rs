@@ -60,9 +60,6 @@ TypeKind
 RUST_DERIVE_IN_ARRAY_LIMIT
 }
 ;
-use
-proc_macro2
-;
 pub
 fn
 gen_debug_impl
@@ -196,7 +193,6 @@ f
 match
 f
 {
-&
 Field
 :
 :
@@ -215,7 +211,6 @@ ctx
 (
 )
 )
-&
 Field
 :
 :
@@ -754,7 +749,7 @@ if
 !
 ctx
 .
-whitelisted_items
+allowlisted_items
 (
 )
 .
@@ -1119,6 +1114,19 @@ if
 len
 <
 RUST_DERIVE_IN_ARRAY_LIMIT
+|
+|
+ctx
+.
+options
+(
+)
+.
+rust_features
+(
+)
+.
+larger_arrays
 {
 debug_print
 (
@@ -1132,7 +1140,6 @@ name_ident
 )
 }
 else
-{
 if
 ctx
 .
@@ -1255,7 +1262,6 @@ String
 ]
 )
 )
-}
 }
 }
 TypeKind

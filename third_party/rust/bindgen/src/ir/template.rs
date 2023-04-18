@@ -122,6 +122,7 @@ Self
 ItemAncestors
 {
 let
+mut
 ancestors
 :
 Vec
@@ -142,11 +143,13 @@ collect
 ;
 ancestors
 .
-into_iter
+reverse
 (
 )
+;
+ancestors
 .
-rev
+into_iter
 (
 )
 .
@@ -844,7 +847,7 @@ path
 =
 item
 .
-path_for_whitelisting
+path_for_allowlisting
 (
 ctx
 )
@@ -888,7 +891,7 @@ resolve_item
 arg
 )
 .
-path_for_whitelisting
+path_for_allowlisting
 (
 ctx
 )
