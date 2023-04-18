@@ -1,0 +1,17 @@
+const
+nsresult
+=
+{
+NS_ERROR_NOT_IMPLEMENTED
+:
+Cr
+.
+NS_ERROR_NOT_IMPLEMENTED
+}
+;
+exported_symbols
+.
+nsresult
+=
+nsresult
+;
