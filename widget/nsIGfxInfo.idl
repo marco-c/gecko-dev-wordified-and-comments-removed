@@ -1317,7 +1317,7 @@ Whether
 hardware
 decoded
 video
-no
+zero
 copy
 is
 supported
@@ -1329,7 +1329,7 @@ in
 /
 const
 long
-FEATURE_HW_DECODED_VIDEO_NO_COPY
+FEATURE_HW_DECODED_VIDEO_ZERO_COPY
 =
 40
 ;
@@ -1346,7 +1346,7 @@ const
 long
 FEATURE_MAX_VALUE
 =
-FEATURE_HW_DECODED_VIDEO_NO_COPY
+FEATURE_HW_DECODED_VIDEO_ZERO_COPY
 ;
 /
 *

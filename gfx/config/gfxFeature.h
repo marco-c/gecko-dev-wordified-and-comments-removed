@@ -298,13 +298,13 @@ overlay
 \
 _
 (
-HW_DECODED_VIDEO_NO_COPY
+HW_DECODED_VIDEO_ZERO_COPY
 Feature
 "
 Hardware
 decoded
 video
-no
+zero
 copy
 "
 )
