@@ -891,10 +891,6 @@ RenderBackend
 Renderer
 "
 "
-Socket
-Thread
-"
-"
 SwComposite
 "
 "
