@@ -2721,7 +2721,7 @@ merino
 .
 enabled
 "
-false
+true
 )
 ;
 pref
