@@ -1652,11 +1652,15 @@ aType
 )
 )
 ;
-NS_ENSURE_TRUE_VOID
+if
 (
+!
 info
 )
+{
+return
 ;
+}
 size_t
 idx
 =
