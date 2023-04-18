@@ -504,6 +504,15 @@ remove
 webrender
 "
 )
+            
+extra_options
+.
+remove
+(
+"
+fission
+"
+)
         
 return
 extra_options
