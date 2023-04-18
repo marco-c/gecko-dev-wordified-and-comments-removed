@@ -226,6 +226,7 @@ RLBoxSandboxPoolData
 )
 ;
 }
+const
 RLBoxSandboxDataBase
 *
 SandboxData
