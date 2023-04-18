@@ -1802,7 +1802,7 @@ builder
 .
 device
 .
-default_background_color_for_forced_colors
+default_background_color
 (
 )
 ;
@@ -1896,7 +1896,7 @@ builder
 .
 device
 .
-default_color_for_forced_colors
+default_color
 (
 )
 ;

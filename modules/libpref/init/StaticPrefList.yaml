@@ -6808,7 +6808,7 @@ display
 use_system_colors
 type
 :
-bool
+RelaxedAtomicBool
 #
 ifdef
 XP_WIN
