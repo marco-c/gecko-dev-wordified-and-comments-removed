@@ -193,7 +193,7 @@ mVsyncSource
 ;
 RefPtr
 <
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 >
 mVsyncDispatcher
 ;

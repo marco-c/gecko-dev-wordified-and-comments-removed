@@ -602,14 +602,14 @@ IsVsyncEnabled
 ;
 RefPtr
 <
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 >
 vsyncDispatcher
 =
 mVsyncSource
 -
 >
-GetRefreshTimerVsyncDispatcher
+GetVsyncDispatcher
 (
 )
 ;

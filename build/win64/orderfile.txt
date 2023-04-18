@@ -31096,7 +31096,7 @@ QEAA
 XZ
 ?
 ?
-0RefreshTimerVsyncDispatcher
+0VsyncDispatcher
 mozilla
 QEAA
 PEAVDisplay
@@ -40927,7 +40927,7 @@ mozilla
 mozilla
 XZ
 ?
-GetRefreshTimerVsyncDispatcher
+GetVsyncDispatcher
 VsyncSource
 gfx
 mozilla
@@ -40936,7 +40936,7 @@ QEAA
 AV
 ?
 RefPtr
-VRefreshTimerVsyncDispatcher
+VVsyncDispatcher
 mozilla
 XZ
 ?
@@ -40950,14 +40950,14 @@ QEBAPEAVnsRootPresContext
 XZ
 ?
 AddChildRefreshTimer
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 mozilla
 QEAAXPEAVVsyncObserver
 2
 Z
 ?
 NotifyVsync
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 mozilla
 QEAAXAEBUVsyncEvent
 2
@@ -74010,7 +74010,7 @@ nsRefreshDriver
 QEAAXXZ
 ?
 RemoveChildRefreshTimer
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 mozilla
 QEAAXPEAVVsyncObserver
 2

@@ -480,10 +480,10 @@ mVsyncSource
 nullptr
 ;
 }
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 :
 :
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 (
 gfx
 :
@@ -500,7 +500,7 @@ aVsyncSource
 mVsyncObservers
 (
 "
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 :
 :
 mVsyncObservers
@@ -522,11 +522,11 @@ NS_IsMainThread
 )
 ;
 }
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 :
 :
 ~
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 (
 )
 {
@@ -546,7 +546,7 @@ NS_IsMainThread
 ;
 }
 void
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 :
 :
 MoveToSource
@@ -572,7 +572,7 @@ aVsyncSource
 ;
 }
 void
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 :
 :
 NotifyVsync
@@ -614,7 +614,7 @@ aVsync
 }
 }
 void
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 :
 :
 AddVsyncObserver
@@ -667,7 +667,7 @@ UpdateVsyncStatus
 ;
 }
 void
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 :
 :
 RemoveVsyncObserver
@@ -707,7 +707,7 @@ UpdateVsyncStatus
 ;
 }
 void
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 :
 :
 UpdateVsyncStatus
@@ -727,14 +727,14 @@ NS_DispatchToMainThread
 NewRunnableMethod
 (
 "
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 :
 :
 UpdateVsyncStatus
 "
 this
 &
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 :
 :
 UpdateVsyncStatus
@@ -756,7 +756,7 @@ NeedsVsync
 ;
 }
 bool
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 :
 :
 NeedsVsync
