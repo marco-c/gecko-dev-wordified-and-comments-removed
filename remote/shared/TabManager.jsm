@@ -89,6 +89,7 @@ var
 TabManager
 =
 {
+get
 browsers
 (
 )
