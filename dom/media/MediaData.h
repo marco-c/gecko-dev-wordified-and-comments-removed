@@ -2057,7 +2057,7 @@ Image
 >
 mImage
 ;
-int32_t
+uint32_t
 mFrameID
 ;
 VideoData
