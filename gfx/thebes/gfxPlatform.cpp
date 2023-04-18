@@ -15091,9 +15091,6 @@ GetGlobalVsyncDispatcher
 MOZ_ASSERT
 (
 mVsyncDispatcher
-!
-=
-nullptr
 "
 mVsyncDispatcher
 should
