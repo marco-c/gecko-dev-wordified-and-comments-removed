@@ -214,7 +214,7 @@ There
 are
 also
 some
-noteable
+notable
 special
 cases
 :
