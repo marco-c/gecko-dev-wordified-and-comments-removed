@@ -1370,6 +1370,22 @@ self
 )
 :
         
+if
+len
+(
+self
+.
+seen_evtlist
+)
+=
+=
+0
+:
+            
+return
+"
+"
+        
 end
 =
 self
@@ -1582,6 +1598,22 @@ provided
 "
 "
 "
+        
+if
+len
+(
+self
+.
+seen_evtlist
+)
+=
+=
+0
+:
+            
+return
+{
+}
         
 end
 =

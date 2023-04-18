@@ -5296,6 +5296,8 @@ qr
 windows10
 -
 64
+.
+*
 -
 shippable
 -
@@ -5348,7 +5350,7 @@ python
 -
 3
 :
-false
+true
 talos
 -
 realworld

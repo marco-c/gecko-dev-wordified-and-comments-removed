@@ -86,3 +86,11 @@ wptserve
 3
 .
 0
+manifestparser
+>
+=
+2
+.
+1
+.
+0
