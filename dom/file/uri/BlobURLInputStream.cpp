@@ -581,6 +581,12 @@ mAsyncWaitCallback
 &
 &
 aCallback
+&
+&
+mAsyncWaitCallback
+!
+=
+aCallback
 )
 )
 {
