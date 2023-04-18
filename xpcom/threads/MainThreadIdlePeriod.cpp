@@ -183,6 +183,15 @@ TimeDuration
 :
 FromMilliseconds
 (
+nsRefreshDriver
+:
+:
+IsInHighRateMode
+(
+)
+?
+1
+:
 StaticPrefs
 :
 :
