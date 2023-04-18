@@ -821,6 +821,9 @@ x86
 -
 64
 "
+"
+noarch
+"
 ]
 "
 allowedContexts
