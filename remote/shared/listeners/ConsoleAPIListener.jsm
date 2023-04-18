@@ -439,9 +439,11 @@ level
 messageObject
 .
 level
-rawMessage
+stacktrace
 :
-message
+messageObject
+.
+stacktrace
 timeStamp
 :
 messageObject
