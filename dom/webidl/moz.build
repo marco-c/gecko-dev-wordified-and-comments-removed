@@ -2617,9 +2617,9 @@ BUG_COMPONENT
 Core
 "
 "
-Canvas
+Graphics
 :
-WebGL
+WebGPU
 "
 )
 with
