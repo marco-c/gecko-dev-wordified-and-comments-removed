@@ -1,14 +1,5 @@
 import
 {
-remove
-}
-from
-"
-lodash
-"
-;
-import
-{
 getActiveEventListeners
 getEventListenerExpanded
 shouldLogEventBreakpoints
@@ -173,9 +164,10 @@ getState
 const
 newEvents
 =
-remove
-(
 activeListenerBreakpoints
+.
+filter
+(
 event
 =
 >
