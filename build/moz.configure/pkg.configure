@@ -49,6 +49,11 @@ check_prog
 PKG_CONFIG
 "
 pkg_config
+bootstrap
+=
+"
+pkgconf
+"
 allow_missing
 =
 True

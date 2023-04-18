@@ -234,6 +234,10 @@ node
 .
 yml
 -
+pkgconf
+.
+yml
+-
 resourcemonitor
 .
 yml
