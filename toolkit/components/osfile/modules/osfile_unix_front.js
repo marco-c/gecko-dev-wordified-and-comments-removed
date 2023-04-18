@@ -17,7 +17,7 @@ Error
 "
 osfile_unix_front
 .
-jsm
+js
 cannot
 be
 used

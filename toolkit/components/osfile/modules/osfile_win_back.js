@@ -15,9 +15,9 @@ new
 Error
 (
 "
-osfile_win
+osfile_win_back
 .
-jsm
+js
 cannot
 be
 used

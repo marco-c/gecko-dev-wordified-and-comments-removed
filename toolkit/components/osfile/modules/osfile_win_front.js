@@ -17,7 +17,7 @@ Error
 "
 osfile_win_front
 .
-jsm
+js
 cannot
 be
 used

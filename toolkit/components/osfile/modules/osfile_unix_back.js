@@ -17,7 +17,7 @@ Error
 "
 osfile_unix_back
 .
-jsm
+js
 cannot
 be
 used

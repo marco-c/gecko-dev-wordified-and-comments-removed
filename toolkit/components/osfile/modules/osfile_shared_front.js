@@ -16,7 +16,7 @@ Error
 "
 osfile_shared_front
 .
-jsm
+js
 cannot
 be
 used
