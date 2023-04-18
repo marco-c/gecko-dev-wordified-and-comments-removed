@@ -101,13 +101,6 @@ nsIDocShell
 .
 h
 "
-#
-include
-"
-nsExceptionHandler
-.
-h
-"
 namespace
 mozilla
 :
