@@ -63,11 +63,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -79,7 +85,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ASRouterTargeting
 :
@@ -197,7 +203,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -248,7 +254,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 timerManager
 "
@@ -370,7 +376,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 COLLECTION_ID
 "
@@ -382,7 +388,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 NIMBUS_DEBUG
 "
@@ -400,6 +406,8 @@ NimbusExperiment
 )
 {
 return
+lazy
+.
 fetch
 (
 "
@@ -476,6 +484,8 @@ this
 .
 manager
 =
+lazy
+.
 ExperimentManager
 ;
 XPCOMUtils
@@ -492,8 +502,12 @@ remoteSettingsClient
 >
 {
 return
+lazy
+.
 RemoteSettings
 (
+lazy
+.
 COLLECTION_ID
 )
 ;
@@ -595,6 +609,8 @@ setTimer
 (
 )
 ;
+lazy
+.
 CleanupManager
 .
 addCleanupHandler
@@ -639,6 +655,8 @@ _initialized
 return
 ;
 }
+lazy
+.
 timerManager
 .
 unregisterTimer
@@ -731,6 +749,8 @@ evaluated
 const
 context
 =
+lazy
+.
 TargetingContext
 .
 combineContexts
@@ -743,11 +763,15 @@ manager
 createTargetingContext
 (
 )
+lazy
+.
 ASRouterTargeting
 .
 Environment
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -765,6 +789,8 @@ const
 targetingContext
 =
 new
+lazy
+.
 TargetingContext
 (
 context
@@ -800,6 +826,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 debug
@@ -840,6 +868,8 @@ recipe
 targeting
 )
 {
+lazy
+.
 log
 .
 debug
@@ -918,6 +948,8 @@ _updating
 =
 true
 ;
+lazy
+.
 log
 .
 debug
@@ -962,6 +994,8 @@ get
 (
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -984,6 +1018,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1015,6 +1051,8 @@ const
 recipeValidator
 =
 new
+lazy
+.
 JsonSchema
 .
 Validator
@@ -1169,6 +1207,8 @@ r
 slug
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1201,6 +1241,8 @@ matches
 +
 +
 ;
+lazy
+.
 log
 .
 debug
@@ -1236,6 +1278,8 @@ loader
 }
 else
 {
+lazy
+.
 log
 .
 debug
@@ -1264,6 +1308,8 @@ slug
 ;
 }
 }
+lazy
+.
 log
 .
 debug
@@ -1355,6 +1401,8 @@ collection
 }
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1375,9 +1423,13 @@ branchSlug
 if
 (
 !
+lazy
+.
 NIMBUS_DEBUG
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1419,11 +1471,15 @@ try
 recipes
 =
 await
+lazy
+.
 RemoteSettings
 (
 collection
 |
 |
+lazy
+.
 COLLECTION_ID
 )
 .
@@ -1503,6 +1559,8 @@ collection
 collection
 |
 |
+lazy
+.
 COLLECTION_ID
 }
 .
@@ -1557,6 +1615,8 @@ slug
 ;
 }
 return
+lazy
+.
 ExperimentManager
 .
 forceEnroll
@@ -1634,6 +1694,8 @@ intervalInSeconds
 return
 ;
 }
+lazy
+.
 timerManager
 .
 registerTimer
@@ -1656,6 +1718,8 @@ this
 intervalInSeconds
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1729,6 +1793,8 @@ feature
 if
 (
 !
+lazy
+.
 NimbusFeatures
 [
 featureId
@@ -1778,6 +1844,8 @@ featureId
 else
 if
 (
+lazy
+.
 NimbusFeatures
 [
 featureId
@@ -1794,6 +1862,8 @@ uri
 const
 uri
 =
+lazy
+.
 NimbusFeatures
 [
 featureId
@@ -1811,6 +1881,8 @@ const
 schema
 =
 await
+lazy
+.
 fetch
 (
 uri
@@ -1843,6 +1915,8 @@ featureId
 ]
 =
 new
+lazy
+.
 JsonSchema
 .
 Validator
@@ -1893,6 +1967,8 @@ this
 _generateVariablesOnlySchema
 (
 featureId
+lazy
+.
 NimbusFeatures
 [
 featureId
@@ -1909,6 +1985,8 @@ featureId
 ]
 =
 new
+lazy
+.
 JsonSchema
 .
 Validator
@@ -1986,6 +2064,8 @@ false
 }
 else
 {
+lazy
+.
 log
 .
 debug

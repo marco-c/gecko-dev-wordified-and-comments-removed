@@ -62,11 +62,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 _ExperimentManager
 :
@@ -223,11 +229,15 @@ SYNC_DATA_PREF_BRANCH
 SYNC_DEFAULTS_PREF_BRANCH
 }
 =
+lazy
+.
 ExperimentStore
 ;
 const
 PATH
 =
+lazy
+.
 FileTestUtils
 .
 getTempFile
@@ -318,6 +328,8 @@ errorMsg
 const
 result
 =
+lazy
+.
 JsonSchema
 .
 validate
@@ -392,6 +404,8 @@ features
 if
 (
 !
+lazy
+.
 FeatureManifest
 [
 feature
@@ -409,6 +423,8 @@ let
 variables
 }
 =
+lazy
+.
 FeatureManifest
 [
 feature
@@ -789,6 +805,8 @@ of
 features
 )
 {
+lazy
+.
 NimbusFeatures
 [
 feature
@@ -816,6 +834,8 @@ features
 )
 {
 delete
+lazy
+.
 NimbusFeatures
 [
 featureId
@@ -839,6 +859,8 @@ store
 let
 sandbox
 =
+lazy
+.
 sinon
 .
 createSandbox
@@ -849,6 +871,8 @@ let
 manager
 =
 new
+lazy
+.
 _ExperimentManager
 (
 {
@@ -927,6 +951,8 @@ store
 {
 return
 new
+lazy
+.
 ExperimentStore
 (
 "
@@ -997,6 +1023,8 @@ featureConfig
 {
 manager
 =
+lazy
+.
 ExperimentManager
 source
 }
@@ -1205,6 +1233,8 @@ featureConfig
 {
 manager
 =
+lazy
+.
 ExperimentManager
 }
 =
@@ -1352,6 +1382,8 @@ recipe
 {
 manager
 =
+lazy
+.
 ExperimentManager
 }
 =
@@ -1641,6 +1673,8 @@ childStore
 {
 return
 new
+lazy
+.
 ExperimentStore
 (
 "
@@ -1662,6 +1696,8 @@ const
 loader
 =
 new
+lazy
+.
 _RemoteSettingsExperimentLoader
 (
 )
@@ -1726,6 +1762,8 @@ active
 true
 enrollmentId
 :
+lazy
+.
 NormandyUtils
 .
 generateUuid
@@ -1849,6 +1887,8 @@ active
 true
 enrollmentId
 :
+lazy
+.
 NormandyUtils
 .
 generateUuid
@@ -1970,6 +2010,8 @@ recipe
 (
 slug
 =
+lazy
+.
 NormandyUtils
 .
 generateUuid
@@ -1985,6 +2027,8 @@ return
 {
 id
 :
+lazy
+.
 NormandyUtils
 .
 generateUuid

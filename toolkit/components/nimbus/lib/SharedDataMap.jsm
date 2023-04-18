@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PromiseUtils
 "
@@ -104,7 +110,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 JSONFile
 "
@@ -192,6 +198,8 @@ this
 .
 _readyDeferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -297,6 +305,8 @@ try
 store
 =
 new
+lazy
+.
 JSONFile
 (
 {
