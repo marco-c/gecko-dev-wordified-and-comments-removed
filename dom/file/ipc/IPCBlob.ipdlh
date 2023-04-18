@@ -58,14 +58,6 @@ MPL
 /
 include
 protocol
-PChildToParentStream
-;
-include
-protocol
-PParentToChildStream
-;
-include
-protocol
 PRemoteLazyInputStream
 ;
 include

@@ -66,14 +66,6 @@ PClientHandleOp
 ;
 include
 protocol
-PChildToParentStream
-;
-include
-protocol
-PParentToChildStream
-;
-include
-protocol
 PFileDescriptorSet
 ;
 include
