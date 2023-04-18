@@ -1790,6 +1790,8 @@ get
 "
 name
 "
+)
+or
 job
 .
 get
@@ -1798,6 +1800,20 @@ get
 label
 "
 )
+.
+replace
+(
+f
+"
+{
+config
+.
+kind
+}
+-
+"
+"
+"
 )
         
 dependencies
