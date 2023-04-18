@@ -256,6 +256,11 @@ UnlockDeviceOrientation
 (
 )
 ;
+void
+CleanupFullscreenListener
+(
+)
+;
 already_AddRefed
 <
 Promise
