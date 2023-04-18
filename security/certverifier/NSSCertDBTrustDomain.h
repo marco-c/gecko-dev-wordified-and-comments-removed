@@ -339,6 +339,11 @@ int
 minRSABits
 ValidityCheckingMode
 validityCheckingMode
+CertVerifier
+:
+:
+SHA1Mode
+sha1Mode
 NetscapeStepUpPolicy
 netscapeStepUpPolicy
 CRLiteMode
@@ -1144,6 +1149,12 @@ mMinRSABits
 ;
 ValidityCheckingMode
 mValidityCheckingMode
+;
+CertVerifier
+:
+:
+SHA1Mode
+mSHA1Mode
 ;
 NetscapeStepUpPolicy
 mNetscapeStepUpPolicy

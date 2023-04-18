@@ -5154,6 +5154,7 @@ evStatus
 nullptr
 nullptr
 nullptr
+nullptr
 &
 certificateTransparencyInfo
 &
