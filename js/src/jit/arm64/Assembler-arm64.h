@@ -531,6 +531,15 @@ fp
 ;
 static
 constexpr
+ARMRegister
+FramePointer64
+{
+FramePointer
+64
+}
+;
+static
+constexpr
 Register
 ZeroRegister
 {
@@ -544,7 +553,6 @@ static
 constexpr
 ARMRegister
 ZeroRegister64
-=
 {
 Registers
 :
@@ -557,7 +565,6 @@ static
 constexpr
 ARMRegister
 ZeroRegister32
-=
 {
 Registers
 :
