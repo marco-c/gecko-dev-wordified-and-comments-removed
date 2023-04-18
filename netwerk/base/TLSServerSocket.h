@@ -230,7 +230,6 @@ mozilla
 :
 Mutex
 mLock
-MOZ_UNANNOTATED
 {
 "
 TLSServerConnectionInfo
@@ -244,6 +243,10 @@ nsCOMPtr
 nsITLSServerSecurityObserver
 >
 mSecurityObserver
+GUARDED_BY
+(
+mLock
+)
 ;
 }
 ;
