@@ -7767,7 +7767,7 @@ linux
         
 elif
 "
-windows
+win
 "
 in
 platform
@@ -7787,7 +7787,7 @@ btime_cache
 FFMPEG_LOCAL_CACHE
 [
 "
-windows
+win
 "
 ]
                 
