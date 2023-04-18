@@ -888,6 +888,17 @@ MOZ_ARTIFACT_BUILD_SYMBOLS
 )
 )
 (
+if
+(
+ENABLE_TESTS
+)
+-
+-
+no
+-
+tests
+)
+(
 verbose_flag
 )
 ifdef
