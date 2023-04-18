@@ -1485,12 +1485,6 @@ sCompositorMap
 nullptr
 ;
 }
-MonitorAutoLock
-lock
-(
-sIndirectLayerTreesLock
-)
-;
 sIndirectLayerTrees
 .
 clear
