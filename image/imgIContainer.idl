@@ -763,6 +763,15 @@ noscript
 notxpcom
 ]
 boolean
+hasDecodedPixels
+(
+)
+;
+[
+noscript
+notxpcom
+]
+boolean
 isImageContainerAvailable
 (
 in

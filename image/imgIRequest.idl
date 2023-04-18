@@ -218,6 +218,15 @@ uint32_t
 aFlags
 )
 ;
+[
+noscript
+notxpcom
+]
+boolean
+hasDecodedPixels
+(
+)
+;
 void
 lockImage
 (
