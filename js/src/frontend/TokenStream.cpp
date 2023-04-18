@@ -14670,6 +14670,11 @@ badToken
 }
 else
 {
+ungetCodeUnit
+(
+unit
+)
+;
 numStart
 =
 this
@@ -14686,7 +14691,9 @@ addressOfNextCodeUnit
 return
 decimalNumber
 (
-unit
+'
+0
+'
 start
 numStart
 modifier
