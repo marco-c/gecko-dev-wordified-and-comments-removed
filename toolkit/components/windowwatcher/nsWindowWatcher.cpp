@@ -5917,9 +5917,6 @@ full_screen_api_exit_on_windowOpen
 )
 &
 &
-windowIsNew
-&
-&
 aCalledFromJS
 &
 &
