@@ -35,6 +35,7 @@ util
 import
 generate_metric_ids
 generate_ping_ids
+get_metrics
 from
 glean_parser
 import
@@ -1215,14 +1216,6 @@ events_by_id
 }
     
 if
-len
-(
-objs
-)
-=
-=
-1
-and
 "
 pings
 "
@@ -1237,6 +1230,21 @@ rust_pings
 .
 jinja2
 "
+        
+objs
+=
+{
+"
+pings
+"
+:
+objs
+[
+"
+pings
+"
+]
+}
     
 else
 :
@@ -1249,9 +1257,16 @@ rust
 jinja2
 "
         
+objs
+=
+get_metrics
+(
+objs
+)
+        
 for
 category_name
-metrics
+category_value
 in
 objs
 .
@@ -1263,7 +1278,7 @@ items
 for
 metric
 in
-metrics
+category_value
 .
 values
 (
