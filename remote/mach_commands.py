@@ -3271,7 +3271,7 @@ add_argument
 "
 -
 -
-enable
+disable
 -
 fission
 "
@@ -3282,10 +3282,20 @@ action
 store_true
 "
         
+default
+=
+False
+        
+dest
+=
+"
+disable_fission
+"
+        
 help
 =
 "
-Enable
+Disable
 Fission
 (
 site
@@ -3777,7 +3787,7 @@ ci
 =
 False
     
-enable_fission
+disable_fission
 =
 False
     
@@ -4122,10 +4132,6 @@ strip
 (
 )
     
-if
-enable_fission
-:
-        
 prefs
 .
 update
@@ -4141,7 +4147,8 @@ True
 }
 )
     
-else
+if
+disable_fission
 :
         
 prefs
