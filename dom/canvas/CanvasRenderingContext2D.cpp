@@ -2798,6 +2798,9 @@ RoundOut
 (
 )
 ;
+if
+(
+!
 bounds
 .
 ToIntRect
@@ -2805,9 +2808,8 @@ ToIntRect
 &
 mTempRect
 )
-;
-if
-(
+|
+|
 !
 mFinalTarget
 -
@@ -3186,6 +3188,14 @@ aCtx
 -
 >
 IsTargetValid
+(
+)
+|
+|
+!
+boundsAfterFilter
+.
+IsFinite
 (
 )
 )
