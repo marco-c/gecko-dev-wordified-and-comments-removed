@@ -1,14 +1,5 @@
 import
 {
-flatten
-}
-from
-"
-lodash
-"
-;
-import
-{
 insertSourceActors
 }
 from
@@ -270,9 +261,10 @@ flush
 )
 ;
 return
-flatten
-(
 sourceList
+.
+flat
+(
 )
 ;
 }
