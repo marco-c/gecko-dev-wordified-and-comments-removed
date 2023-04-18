@@ -912,7 +912,7 @@ png
 fuzzy
 (
 1
-58
+26
 )
 platform
 (
@@ -1115,8 +1115,8 @@ blank
 yaml
 fuzzy
 (
-4
-62000
+3
+79400
 )
 =
 =
@@ -1162,11 +1162,6 @@ scaled
 ref
 .
 yaml
-fuzzy
-(
-5
-72000
-)
 =
 =
 filter
@@ -1189,10 +1184,6 @@ skip_on
 (
 android
 device
-)
-skip_on
-(
-win
 )
 fuzzy
 (
@@ -1425,8 +1416,8 @@ mac
 =
 fuzzy
 (
-6
-36790
+5
+35250
 )
 svg
 -
