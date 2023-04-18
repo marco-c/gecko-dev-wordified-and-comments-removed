@@ -487,6 +487,10 @@ if
 (
 url
 .
+toLowerCase
+(
+)
+.
 startsWith
 (
 "
@@ -502,6 +506,10 @@ url
 decodeURIComponent
 (
 url
+.
+toLowerCase
+(
+)
 .
 substr
 (
