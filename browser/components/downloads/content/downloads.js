@@ -1098,8 +1098,11 @@ window
 )
 .
 attentionSuppressed
+|
 =
-true
+DownloadsCommon
+.
+SUPPRESS_PANEL_OPEN
 ;
 if
 (
@@ -1213,8 +1216,12 @@ window
 )
 .
 attentionSuppressed
+&
 =
-false
+~
+DownloadsCommon
+.
+SUPPRESS_PANEL_OPEN
 ;
 DownloadsButton
 .
