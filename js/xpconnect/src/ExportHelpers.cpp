@@ -243,6 +243,8 @@ obj
 }
 enum
 StackScopedCloneTags
+:
+uint32_t
 {
 SCTAG_BASE
 =

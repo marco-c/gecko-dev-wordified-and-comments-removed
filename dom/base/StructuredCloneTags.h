@@ -21,6 +21,8 @@ dom
 {
 enum
 StructuredCloneTags
+:
+uint32_t
 {
 SCTAG_BASE
 =
