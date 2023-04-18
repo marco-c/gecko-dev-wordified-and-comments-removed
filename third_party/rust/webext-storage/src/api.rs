@@ -2186,8 +2186,8 @@ Ok
 UsageInfo
 {
 ext_id
-num_bytes
 num_keys
+num_bytes
 }
 )
 }

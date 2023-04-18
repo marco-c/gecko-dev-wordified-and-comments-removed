@@ -76,14 +76,6 @@ Debug
 Eq
 Hash
 PartialEq
-serde
-:
-:
-Deserialize
-serde
-:
-:
-Serialize
 )
 ]
 pub

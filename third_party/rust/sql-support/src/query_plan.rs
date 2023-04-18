@@ -855,11 +855,12 @@ Send
 >
 =
 if
-out_file
 !
-=
-"
-"
+out_file
+.
+is_empty
+(
+)
 {
 let
 mut
