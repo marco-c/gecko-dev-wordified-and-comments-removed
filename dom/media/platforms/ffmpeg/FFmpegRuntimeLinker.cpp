@@ -152,6 +152,17 @@ libavcodec
 dylib
 "
 #
+elif
+defined
+(
+XP_OPENBSD
+)
+"
+libavcodec
+.
+so
+"
+#
 else
 "
 libavcodec
