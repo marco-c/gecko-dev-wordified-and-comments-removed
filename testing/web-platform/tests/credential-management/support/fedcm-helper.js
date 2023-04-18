@@ -19,6 +19,7 @@ fedcm_test
 (
 test_func
 name
+exception
 properties
 )
 {
@@ -61,6 +62,19 @@ t
 mock
 )
 ;
+}
+catch
+(
+e
+)
+{
+assert_equals
+(
+exception
+e
+.
+message
+)
 }
 finally
 {
