@@ -82,6 +82,15 @@ include
 "
 jit
 /
+CacheIRReader
+.
+h
+"
+#
+include
+"
+jit
+/
 LIR
 .
 h

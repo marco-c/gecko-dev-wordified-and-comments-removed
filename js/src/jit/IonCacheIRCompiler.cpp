@@ -35,6 +35,15 @@ include
 "
 jit
 /
+CacheIRWriter
+.
+h
+"
+#
+include
+"
+jit
+/
 IonIC
 .
 h

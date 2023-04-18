@@ -21,6 +21,15 @@ include
 "
 jit
 /
+CacheIRGenerator
+.
+h
+"
+#
+include
+"
+jit
+/
 VMFunctions
 .
 h
