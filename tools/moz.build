@@ -501,6 +501,15 @@ PYTHON_UNITTEST_MANIFESTS
 =
 [
 "
+fuzzing
+/
+smoke
+/
+python
+.
+ini
+"
+"
 lint
 /
 test
