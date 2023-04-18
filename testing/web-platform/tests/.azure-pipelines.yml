@@ -1137,6 +1137,10 @@ eux
 -
 o
 pipefail
+export
+SYSTEM_VERSION_COMPAT
+=
+0
 .
 /
 wpt
@@ -4289,6 +4293,10 @@ eux
 -
 o
 pipefail
+export
+SYSTEM_VERSION_COMPAT
+=
+0
 .
 /
 wpt
@@ -4678,6 +4686,10 @@ eux
 -
 o
 pipefail
+export
+SYSTEM_VERSION_COMPAT
+=
+0
 .
 /
 wpt
