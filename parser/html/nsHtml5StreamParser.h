@@ -1301,9 +1301,6 @@ bool
 mDetectorHasSeenNonAscii
 ;
 bool
-mDetectorHadOnlySeenAsciiWhenFirstGuessing
-;
-bool
 mDecodingLocalFileWithoutTokenizing
 ;
 bool

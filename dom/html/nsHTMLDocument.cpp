@@ -3223,7 +3223,7 @@ case
 kCharsetFromInitialAutoDetectionWouldNotHaveBeenUTF8DependedOnTLD
 :
 case
-kCharsetFromFinalAutoDetectionWouldHaveBeenUTF8
+kCharsetFromFinalAutoDetectionWouldHaveBeenUTF8InitialWasASCII
 :
 case
 kCharsetFromFinalAutoDetectionWouldNotHaveBeenUTF8DependedOnTLD
