@@ -806,6 +806,9 @@ const
 char
 *
 aReason
+const
+MutexAutoLock
+&
 )
 ;
 void
@@ -963,6 +966,10 @@ const
 char
 *
 aReason
+const
+MutexAutoLock
+&
+aLock
 )
 {
 mConfirmation
@@ -970,6 +977,7 @@ mConfirmation
 RecordEvent
 (
 aReason
+aLock
 )
 ;
 }
