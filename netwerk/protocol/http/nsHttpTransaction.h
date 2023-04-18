@@ -141,15 +141,6 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs_security
-.
-h
-"
-#
-include
-"
 ARefBase
 .
 h
