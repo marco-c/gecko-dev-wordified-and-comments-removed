@@ -1465,7 +1465,7 @@ WriteParam
 (
 in
 .
-imageSize
+structuredSrcSize
 )
 |
 |
@@ -1775,7 +1775,7 @@ ReadParam
 out
 -
 >
-imageSize
+structuredSrcSize
 )
 |
 |
