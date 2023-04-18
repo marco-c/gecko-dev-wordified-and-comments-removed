@@ -2294,6 +2294,11 @@ if
 global_scope
 .
 GLOBAL
+&
+&
+global_scope
+.
+GLOBAL
 .
 isShadowRealm
 (
