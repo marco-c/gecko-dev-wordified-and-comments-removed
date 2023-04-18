@@ -104,14 +104,6 @@ NS_OK
 ;
 }
 NS_IMETHOD
-WillBuildModel
-(
-nsDTDMode
-aDTDMode
-)
-override
-;
-NS_IMETHOD
 DidBuildModel
 (
 bool
