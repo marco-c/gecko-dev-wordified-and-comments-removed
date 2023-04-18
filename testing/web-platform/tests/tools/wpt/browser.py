@@ -4399,16 +4399,12 @@ version
         
 version
 =
-version
+self
 .
-split
+_remove_version_suffix
 (
-'
-'
+version
 )
-[
-0
-]
         
 try
 :
@@ -4565,6 +4561,52 @@ remove
 (
 existing_chromedriver_path
 )
+    
+def
+_remove_version_suffix
+(
+self
+version
+)
+:
+        
+"
+"
+"
+Removes
+channel
+suffixes
+from
+Chrome
+/
+Chromium
+version
+string
+(
+e
+.
+g
+.
+"
+dev
+"
+)
+.
+"
+"
+"
+        
+return
+version
+.
+split
+(
+'
+'
+)
+[
+0
+]
     
 property
     
@@ -4836,6 +4878,23 @@ version
 binary
 =
 browser_binary
+)
+        
+if
+not
+chrome_version
+:
+            
+return
+None
+        
+chrome_version
+=
+self
+.
+_remove_version_suffix
+(
+chrome_version
 )
         
 try
@@ -6564,16 +6623,12 @@ zip
         
 version
 =
-version
+self
 .
-split
+_remove_version_suffix
 (
-'
-'
+version
 )
-[
-0
-]
         
 parts
 =
