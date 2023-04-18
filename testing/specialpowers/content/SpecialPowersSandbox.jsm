@@ -7,11 +7,17 @@ SpecialPowersSandbox
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Assert
 "
@@ -452,6 +458,8 @@ this
 _Assert
 =
 new
+lazy
+.
 Assert
 (
 (
