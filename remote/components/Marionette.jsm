@@ -333,7 +333,7 @@ null
 ;
 this
 .
-_marionetteActivePortPath
+_activePortPath
 ;
 this
 .
@@ -1480,7 +1480,7 @@ getProfileDir
 ;
 this
 .
-_marionetteActivePortPath
+_activePortPath
 =
 PathUtils
 .
@@ -1512,7 +1512,7 @@ write
 (
 this
 .
-_marionetteActivePortPath
+_activePortPath
 textEncoder
 .
 encode
@@ -1537,7 +1537,7 @@ create
 {
 this
 .
-_marionetteActivePortPath
+_activePortPath
 }
 (
 {
@@ -1603,7 +1603,7 @@ remove
 (
 this
 .
-_marionetteActivePortPath
+_activePortPath
 )
 ;
 }
@@ -1622,7 +1622,7 @@ remove
 {
 this
 .
-_marionetteActivePortPath
+_activePortPath
 }
 (
 {
