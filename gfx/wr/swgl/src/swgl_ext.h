@@ -4338,12 +4338,8 @@ uv_step
 ?
 int
 (
-min
+clamp
 (
-float
-(
-steps
-)
 (
 limit
 -
@@ -4353,6 +4349,13 @@ x
 )
 /
 uv_step
+0
+.
+0f
+float
+(
+steps
+)
 )
 )
 :
