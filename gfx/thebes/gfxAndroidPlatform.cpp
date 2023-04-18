@@ -1808,7 +1808,7 @@ VsyncSource
 gfxAndroidPlatform
 :
 :
-CreateGlobalHardwareVsyncSource
+CreateHardwareVsyncSource
 (
 )
 {
@@ -1860,7 +1860,10 @@ vsync
 )
 ;
 return
-GetSoftwareVsyncSource
+gfxPlatform
+:
+:
+CreateHardwareVsyncSource
 (
 )
 ;

@@ -119,7 +119,7 @@ notifies
 the
 CompositorVsyncDispatchers
 and
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 .
 3
 .
@@ -213,7 +213,7 @@ Observer
 6
 .
 The
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 notifies
 the
 Chrome
@@ -227,7 +227,7 @@ occurred
 7
 .
 The
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 sends
 IPC
 messages
@@ -600,7 +600,7 @@ then
 notify
 the
 associated
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 which
 should
 notify
@@ -3073,7 +3073,7 @@ to
 create
 a
 single
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 per
 Display
 when
@@ -3102,7 +3102,7 @@ we
 can
 associate
 the
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 with
 each
 Display
@@ -3129,7 +3129,7 @@ to
 vsync
 notifications
 from
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 on
 the
 global
@@ -3546,7 +3546,7 @@ unregisters
 itself
 from
 the
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 which
 holds
 the
@@ -3579,7 +3579,7 @@ VsyncSource
 Display
 :
 :
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 receives
 a
 Vsync
@@ -3594,7 +3594,7 @@ process
 .
 2
 .
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 notifies
 VsyncRefreshTimer
 :
@@ -3616,7 +3616,7 @@ thread
 .
 3
 .
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 notifies
 the
 VsyncParent
@@ -3979,7 +3979,7 @@ switches
 to
 the
 correct
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 and
 CompositorVsyncDispatcher
 on
@@ -4130,7 +4130,7 @@ CompositorBridgeParent
 .
 3
 .
-VsyncDispatcher
+RefreshTimerVsyncDispatcher
 -
 As
 long
