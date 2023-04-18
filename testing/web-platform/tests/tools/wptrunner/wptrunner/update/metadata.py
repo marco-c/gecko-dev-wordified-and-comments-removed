@@ -80,30 +80,6 @@ state
 )
 :
         
-if
-state
-.
-sync_tree
-is
-not
-None
-:
-            
-sync_root
-=
-state
-.
-sync_tree
-.
-root
-        
-else
-:
-            
-sync_root
-=
-None
-        
 metadata
 .
 update_expected
@@ -111,10 +87,6 @@ update_expected
 state
 .
 paths
-                                 
-state
-.
-serve_root
                                  
 state
 .
@@ -126,19 +98,11 @@ state
 .
 update_properties
                                  
-rev_old
-=
-None
-                                 
 full_update
 =
 state
 .
 full_update
-                                 
-sync_root
-=
-sync_root
                                  
 disable_intermittent
 =

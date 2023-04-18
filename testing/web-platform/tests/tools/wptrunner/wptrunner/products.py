@@ -509,8 +509,15 @@ update_properties
 in
 data
 else
+(
+[
+"
+product
+"
+]
 {
 }
+)
 )
     
 return
