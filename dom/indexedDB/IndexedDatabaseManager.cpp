@@ -2204,8 +2204,10 @@ SetTrusted
 true
 )
 ;
-auto
-*
+RefPtr
+<
+EventTarget
+>
 target
 =
 static_cast
