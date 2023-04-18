@@ -1728,6 +1728,14 @@ LocalAccessible
 aAcc
 )
 ;
+void
+MaybeHandleChangeToHiddenNameOrDescription
+(
+nsIContent
+*
+aChild
+)
+;
 PresShell
 *
 mPresShell
