@@ -27373,7 +27373,7 @@ args
 {
 }
 void
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 emitNativeCalleeGuard
@@ -27570,7 +27570,7 @@ baseScript
 }
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachArrayPush
@@ -27848,7 +27848,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachArrayPopShift
@@ -28068,7 +28068,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachArrayJoin
@@ -28282,7 +28282,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachArraySlice
@@ -28608,7 +28608,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachArrayIsArray
@@ -28690,7 +28690,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachDataViewGet
@@ -29065,7 +29065,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachDataViewSet
@@ -29427,7 +29427,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachUnsafeGetReservedSlot
@@ -29697,7 +29697,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachUnsafeSetReservedSlot
@@ -29876,7 +29876,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachIsSuspendedGenerator
@@ -29946,7 +29946,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachToObject
@@ -30111,7 +30111,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachToInteger
@@ -30211,7 +30211,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachToLength
@@ -30338,7 +30338,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachIsObject
@@ -30408,7 +30408,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachIsPackedArray
@@ -30500,7 +30500,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachIsCallable
@@ -30570,7 +30570,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachIsConstructor
@@ -30670,7 +30670,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachIsCrossRealmArrayConstructor
@@ -30795,7 +30795,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachGuardToClass
@@ -30933,7 +30933,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachHasClass
@@ -31074,7 +31074,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachRegExpMatcherSearcherTester
@@ -31346,7 +31346,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachRegExpPrototypeOptimizable
@@ -31438,7 +31438,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachRegExpInstanceOptimizable
@@ -31567,7 +31567,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachGetFirstDollarIndex
@@ -31659,7 +31659,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachSubstringKernel
@@ -31825,7 +31825,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachObjectHasPrototype
@@ -31999,7 +31999,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachString
@@ -32116,7 +32116,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachStringConstructor
@@ -32298,7 +32298,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachStringToStringValueOf
@@ -32407,7 +32407,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachStringReplaceString
@@ -32573,7 +32573,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachStringSplitString
@@ -32702,7 +32702,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachStringChar
@@ -32886,7 +32886,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachStringCharCodeAt
@@ -32907,7 +32907,7 @@ CodeAt
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachStringCharAt
@@ -32928,7 +32928,7 @@ At
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachStringFromCharCode
@@ -33031,7 +33031,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachStringFromCodePoint
@@ -33171,7 +33171,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachStringToLowerCase
@@ -33280,7 +33280,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachStringToUpperCase
@@ -33389,7 +33389,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathRandom
@@ -33515,7 +33515,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathAbs
@@ -33673,7 +33673,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathClz32
@@ -33825,7 +33825,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathSign
@@ -34008,7 +34008,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathImul
@@ -34213,7 +34213,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathFloor
@@ -34401,7 +34401,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathCeil
@@ -34589,7 +34589,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathTrunc
@@ -34777,7 +34777,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathRound
@@ -34969,7 +34969,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathSqrt
@@ -35072,7 +35072,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathFRound
@@ -35306,7 +35306,7 @@ unused
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathPow
@@ -35512,7 +35512,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathHypot
@@ -35804,7 +35804,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathATan2
@@ -35943,7 +35943,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathMinMax
@@ -36251,7 +36251,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachSpreadMathMinMax
@@ -36420,7 +36420,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMathFunction
@@ -36623,7 +36623,7 @@ numId
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachNumberToString
@@ -36731,7 +36731,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachReflectGetPrototypeOf
@@ -37012,7 +37012,7 @@ true
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachAtomicsCompareExchange
@@ -37366,7 +37366,7 @@ Attach
 ;
 }
 bool
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 canAttachAtomicsReadWriteModify
@@ -37513,11 +37513,11 @@ return
 true
 ;
 }
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 AtomicsReadWriteModifyOperands
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 emitAtomicsReadWriteModifyOperands
@@ -37671,7 +37671,7 @@ numericValueId
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachAtomicsExchange
@@ -37764,7 +37764,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachAtomicsAdd
@@ -37871,7 +37871,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachAtomicsSub
@@ -37978,7 +37978,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachAtomicsAnd
@@ -38085,7 +38085,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachAtomicsOr
@@ -38192,7 +38192,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachAtomicsXor
@@ -38299,7 +38299,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachAtomicsLoad
@@ -38552,7 +38552,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachAtomicsStore
@@ -38926,7 +38926,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachAtomicsIsLockFree
@@ -39038,7 +39038,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachBoolean
@@ -39138,7 +39138,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachBailout
@@ -39211,7 +39211,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachAssertFloat32
@@ -39278,7 +39278,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachAssertRecoveredOnBailout
@@ -39373,7 +39373,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachObjectIs
@@ -40034,7 +40034,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachObjectIsPrototypeOf
@@ -40158,7 +40158,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachObjectToString
@@ -40289,7 +40289,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachBigIntAsIntN
@@ -40456,7 +40456,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachBigIntAsUintN
@@ -40623,7 +40623,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachSetHas
@@ -41017,7 +41017,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMapHas
@@ -41411,7 +41411,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachMapGet
@@ -42186,7 +42186,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachIsTypedArray
@@ -42287,7 +42287,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachIsTypedArrayConstructor
@@ -42379,7 +42379,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachTypedArrayByteOffset
@@ -42535,7 +42535,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachTypedArrayElementSize
@@ -42646,7 +42646,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachTypedArrayLength
@@ -42843,7 +42843,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachArrayBufferByteLength
@@ -43040,7 +43040,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachIsConstructing
@@ -43105,7 +43105,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachGetNextMapSetEntryForIterator
@@ -43279,7 +43279,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachFinishBoundFunctionInit
@@ -43452,7 +43452,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachNewArrayIterator
@@ -43537,7 +43537,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachNewStringIterator
@@ -43622,7 +43622,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachNewRegExpStringIterator
@@ -43707,7 +43707,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachArrayIteratorPrototypeOptimizable
@@ -43851,7 +43851,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachObjectCreate
@@ -44036,7 +44036,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachArrayConstructor
@@ -44287,7 +44287,7 @@ Attach
 ;
 }
 AttachDecision
-CallIRGenerator
+InlinableNativeIRGenerator
 :
 :
 tryAttachTypedArrayConstructor
@@ -46402,6 +46402,108 @@ AttachDecision
 NoAction
 ;
 }
+bool
+isSpecialized
+=
+mode_
+=
+=
+ICState
+:
+:
+Mode
+:
+:
+Specialized
+;
+bool
+isSpread
+=
+IsSpreadPC
+(
+pc_
+)
+;
+bool
+isSameRealm
+=
+isSpecialized
+&
+&
+cx_
+-
+>
+realm
+(
+)
+=
+=
+callee
+-
+>
+realm
+(
+)
+;
+bool
+isConstructing
+=
+IsConstructPC
+(
+pc_
+)
+;
+CallFlags
+flags
+(
+isConstructing
+isSpread
+isSameRealm
+)
+;
+InlinableNativeIRGenerator
+nativeGen
+(
+*
+this
+flags
+)
+;
+return
+nativeGen
+.
+tryAttachStub
+(
+)
+;
+}
+AttachDecision
+InlinableNativeIRGenerator
+:
+:
+tryAttachStub
+(
+)
+{
+RootedFunction
+callee
+(
+cx_
+&
+callee_
+.
+toObject
+(
+)
+.
+as
+<
+JSFunction
+>
+(
+)
+)
+;
 if
 (
 !
