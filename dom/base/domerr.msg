@@ -1176,17 +1176,6 @@ argument
 )
 DOM_MSG_DEF
 (
-NS_ERROR_NO_AGGREGATION
-"
-Component
-does
-not
-support
-aggregation
-"
-)
-DOM_MSG_DEF
-(
 NS_ERROR_NOT_AVAILABLE
 "
 Component
