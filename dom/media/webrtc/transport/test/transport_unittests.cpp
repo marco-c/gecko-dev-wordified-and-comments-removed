@@ -2007,12 +2007,6 @@ NrIceCtx
 Create
 (
 name
-NrIceCtx
-:
-:
-Config
-(
-)
 )
 ;
 std
