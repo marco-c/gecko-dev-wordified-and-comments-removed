@@ -106069,13 +106069,6 @@ break
 ;
 }
 }
-bool
-profilingEnabled
-=
-isProfilerInstrumentationEnabled
-(
-)
-;
 WasmInstanceObject
 *
 instObj
@@ -106119,7 +106112,6 @@ instance
 (
 )
 stackArgs
-profilingEnabled
 scratch
 &
 callOffset

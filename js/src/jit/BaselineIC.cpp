@@ -759,7 +759,7 @@ BaselineStackReg
 endif
 regs
 .
-take
+takeUnchecked
 (
 BaselineFrameReg
 )
