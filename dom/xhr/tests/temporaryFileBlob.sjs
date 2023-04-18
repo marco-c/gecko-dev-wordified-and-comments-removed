@@ -184,9 +184,7 @@ bodyBytes
 ;
 }
 1000
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 .
@@ -213,9 +211,7 @@ finish
 ;
 }
 2000
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 .

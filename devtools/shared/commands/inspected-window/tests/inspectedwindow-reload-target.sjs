@@ -3,9 +3,7 @@ use
 strict
 "
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

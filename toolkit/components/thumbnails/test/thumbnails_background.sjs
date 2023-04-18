@@ -560,9 +560,7 @@ ms
 ;
 timer
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -577,9 +575,7 @@ timer
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 )
@@ -613,9 +609,7 @@ finish
 opts
 .
 wait
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 .

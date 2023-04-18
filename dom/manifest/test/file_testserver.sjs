@@ -27,9 +27,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (
@@ -93,9 +91,7 @@ file
 const
 testHTMLFile
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -112,9 +108,7 @@ directory_service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProperties
 )
@@ -124,9 +118,7 @@ get
 "
 CurWorkD
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -134,9 +126,7 @@ nsIFile
 const
 testHTMLFileStream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -157,9 +147,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileInputStream
 )

@@ -31,9 +31,7 @@ zero
 var
 timer
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -53,9 +51,7 @@ timer
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 )
@@ -185,9 +181,7 @@ response
 ;
 }
 10
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 .

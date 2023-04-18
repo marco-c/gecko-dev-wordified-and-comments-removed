@@ -42,9 +42,7 @@ policy
 headers
 if
 needed
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

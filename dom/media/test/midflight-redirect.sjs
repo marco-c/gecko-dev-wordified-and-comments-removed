@@ -180,9 +180,7 @@ false
 var
 file
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -199,9 +197,7 @@ directory_service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProperties
 )
@@ -211,9 +207,7 @@ get
 "
 CurWorkD
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -221,9 +215,7 @@ nsIFile
 var
 fis
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -244,9 +236,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileInputStream
 )
@@ -254,9 +244,7 @@ nsIFileInputStream
 var
 bis
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -271,9 +259,7 @@ binaryinputstream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIBinaryInputStream
 )
