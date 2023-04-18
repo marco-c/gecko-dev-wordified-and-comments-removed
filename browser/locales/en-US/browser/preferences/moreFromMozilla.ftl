@@ -463,9 +463,8 @@ button
 mozilla
 -
 rally
-=
-.
-label
+-
+2
 =
 Join
 {
@@ -583,9 +582,8 @@ button
 mozilla
 -
 vpn
-=
-.
-label
+-
+2
 =
 Get
 VPN
