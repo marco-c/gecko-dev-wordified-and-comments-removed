@@ -1802,6 +1802,16 @@ _store
 data
 .
 isDownloadsImprovementsAlreadyMigrated
+&
+&
+AppConstants
+.
+MOZ_APP_NAME
+!
+=
+"
+thunderbird
+"
 )
 {
 for
