@@ -98,7 +98,6 @@ Barrier
 Callback
 UnmarkGray
 VerifyTraceProtoAndIface
-CompartmentCheck
 }
 ;
 enum
