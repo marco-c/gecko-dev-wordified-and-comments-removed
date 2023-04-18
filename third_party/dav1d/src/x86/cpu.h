@@ -37,6 +37,12 @@ DAV1D_X86_CPU_FLAG_AVX512ICL
 <
 <
 4
+DAV1D_X86_CPU_FLAG_SLOW_GATHER
+=
+1
+<
+<
+5
 }
 ;
 unsigned

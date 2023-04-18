@@ -312,7 +312,7 @@ r4
 *
 2
 ]
-ecx
+edx
 mov
 [
 r4
@@ -321,7 +321,7 @@ r4
 *
 3
 ]
-edx
+ecx
 %
 if
 ARCH_X86_64

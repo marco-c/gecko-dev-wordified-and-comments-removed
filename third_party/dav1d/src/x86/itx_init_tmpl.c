@@ -2293,6 +2293,14 @@ R
 avx2
 )
 ;
+assign_itx12_bpc_fn
+(
+16
+16
+12
+avx2
+)
+;
 #
 endif
 if

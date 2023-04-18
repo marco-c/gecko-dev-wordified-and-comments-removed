@@ -27485,7 +27485,6 @@ src_stride
 dst_w
 h
 x
-picptr
 LEA
 r7
 %
@@ -27494,7 +27493,7 @@ base
 r7
 -
 vpbroadcastd
-m3
+xm3
 [
 base
 +
