@@ -1309,6 +1309,11 @@ if
 (
 !
 element
+|
+|
+element
+.
+readOnly
 )
 {
 continue
@@ -1675,6 +1680,11 @@ if
 (
 !
 element
+|
+|
+element
+.
+readOnly
 )
 {
 continue
