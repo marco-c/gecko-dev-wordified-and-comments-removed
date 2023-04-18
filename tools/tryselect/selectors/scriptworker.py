@@ -3,7 +3,7 @@ sys
 import
 requests
 from
-gecko_taskgraph
+taskgraph
 .
 parameters
 import
