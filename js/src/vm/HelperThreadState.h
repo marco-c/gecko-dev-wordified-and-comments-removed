@@ -2230,6 +2230,14 @@ JSRuntime
 rt
 )
 ;
+void
+deactivate
+(
+JSRuntime
+*
+rt
+)
+;
 virtual
 void
 parse
