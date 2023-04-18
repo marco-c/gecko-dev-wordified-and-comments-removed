@@ -87,6 +87,10 @@ tempfile
 import
 zipfile
 from
+pathlib
+import
+Path
+from
 optparse
 import
 OptionParser
@@ -305,24 +309,18 @@ search_dirs
         
 test
 =
-os
-.
-path
-.
-join
+Path
 (
 path
-name
 )
+/
+name
         
 if
-os
-.
-path
-.
-isfile
-(
 test
+.
+is_file
+(
 )
 and
 os
@@ -345,29 +343,25 @@ def
 validate_clone_dest
 (
 dest
+:
+Path
 )
 :
     
 dest
 =
-os
-.
-path
-.
-abspath
-(
 dest
+.
+resolve
+(
 )
     
 if
 not
-os
-.
-path
+dest
 .
 exists
 (
-dest
 )
 :
         
@@ -376,24 +370,23 @@ dest
     
 if
 not
-os
-.
-path
-.
-isdir
-(
 dest
+.
+is_dir
+(
 )
 :
         
 print
 (
+f
 "
 ERROR
 !
 Destination
-%
-s
+{
+dest
+}
 exists
 but
 is
@@ -402,8 +395,6 @@ a
 directory
 .
 "
-%
-dest
 )
         
 return
@@ -411,11 +402,13 @@ None
     
 if
 not
-os
-.
-listdir
+any
 (
 dest
+.
+iterdir
+(
+)
 )
 :
         
@@ -427,26 +420,27 @@ else
         
 print
 (
+f
 "
 ERROR
 !
 Destination
 directory
-%
-s
+{
+dest
+}
 exists
 but
 is
 nonempty
 .
 "
-%
-dest
 )
         
 print
 (
             
+f
 "
 To
 re
@@ -458,8 +452,9 @@ checkout
 go
 into
 '
-%
-s
+{
+dest
+}
 '
 and
 run
@@ -471,9 +466,6 @@ bootstrap
 '
 .
 "
-            
-%
-dest
         
 )
         
@@ -497,26 +489,24 @@ unified
     
 print
 (
+f
 "
 Cloning
 into
-%
-s
-using
-%
-s
-.
-.
-.
-"
-%
-(
+{
 repo_name
+}
+using
+{
 VCS_HUMAN_READABLE
 [
 vcs
 ]
-)
+}
+.
+.
+.
+"
 )
     
 while
@@ -537,6 +527,7 @@ dest
 input
 (
                 
+f
 "
 Destination
 directory
@@ -549,17 +540,17 @@ to
 use
 "
                 
+f
 "
 default
 destination
 of
-%
-s
+{
+repo_name
+}
 )
 :
 "
-%
-repo_name
             
 )
 .
@@ -580,13 +571,13 @@ dest
 =
 validate_clone_dest
 (
-os
-.
-path
+Path
+(
+dest
+)
 .
 expanduser
 (
-dest
 )
 )
         
@@ -607,7 +598,11 @@ def
 hg_clone_firefox
 (
 hg
+:
+Path
 dest
+:
+Path
 )
 :
     
@@ -615,7 +610,10 @@ args
 =
 [
         
+str
+(
 hg
+)
         
 "
 -
@@ -635,7 +633,10 @@ true
 init
 "
         
+str
+(
 dest
+)
     
 ]
     
@@ -674,21 +675,16 @@ None
 with
 open
 (
-os
-.
-path
-.
-join
-(
 dest
+/
 "
 .
 hg
 "
+/
 "
 hgrc
 "
-)
 "
 a
 "
@@ -798,7 +794,10 @@ call
 (
         
 [
+str
+(
 hg
+)
 "
 pull
 "
@@ -820,7 +819,10 @@ unified
 ]
 cwd
 =
+str
+(
 dest
+)
     
 )
     
@@ -870,7 +872,10 @@ subprocess
 call
 (
 [
+str
+(
 hg
+)
 "
 update
 "
@@ -884,7 +889,10 @@ central
 ]
 cwd
 =
+str
+(
 dest
+)
 )
     
 if
@@ -894,6 +902,7 @@ res
 print
 (
             
+f
 "
 error
 updating
@@ -903,8 +912,9 @@ will
 need
 to
 cd
-%
-s
+{
+dest
+}
 &
 &
 hg
@@ -917,8 +927,6 @@ central
 "
 manually
 "
-%
-dest
         
 )
     
@@ -928,8 +936,14 @@ def
 git_clone_firefox
 (
 git
+:
+Path
 dest
+:
+Path
 watchman
+:
+Path
 )
 :
     
@@ -1001,22 +1015,20 @@ zip
             
 tempdir
 =
+Path
+(
 tempfile
 .
 mkdtemp
 (
 )
+)
             
 with
 open
 (
-os
-.
-path
-.
-join
-(
 tempdir
+/
 "
 git
 -
@@ -1024,7 +1036,6 @@ cinnabar
 .
 zip
 "
-)
 mode
 =
 "
@@ -1083,13 +1094,8 @@ tempdir
             
 cinnabar_dir
 =
-os
-.
-path
-.
-join
-(
 tempdir
+/
 "
 git
 -
@@ -1097,23 +1103,16 @@ cinnabar
 -
 master
 "
-)
             
 cinnabar
 =
-os
-.
-path
-.
-join
-(
 cinnabar_dir
+/
 "
 git
 -
 cinnabar
 "
-)
             
 st
 =
@@ -1124,11 +1123,10 @@ stat
 cinnabar
 )
             
-os
+cinnabar
 .
 chmod
 (
-cinnabar
 st
 .
 st_mode
@@ -1144,13 +1142,8 @@ os
 .
 stat
 (
-os
-.
-path
-.
-join
-(
 cinnabar_dir
+/
 "
 git
 -
@@ -1159,28 +1152,21 @@ remote
 hg
 "
 )
-)
             
-os
+(
+cinnabar_dir
+/
+"
+git
+-
+remote
+-
+hg
+"
+)
 .
 chmod
 (
-                
-os
-.
-path
-.
-join
-(
-cinnabar_dir
-"
-git
--
-remote
--
-hg
-"
-)
 st
 .
 st_mode
@@ -1188,7 +1174,6 @@ st_mode
 stat
 .
 S_IEXEC
-            
 )
             
 env
@@ -1198,7 +1183,10 @@ PATH
 "
 ]
 =
+str
+(
 cinnabar_dir
+)
 +
 os
 .
@@ -1229,7 +1217,10 @@ download
 ]
 cwd
 =
+str
+(
 cinnabar_dir
+)
 env
 =
 env
@@ -1312,7 +1303,10 @@ check_call
             
 [
                 
+str
+(
 git
+)
                 
 "
 clone
@@ -1348,7 +1342,10 @@ mozilla
 unified
 "
                 
+str
+(
 dest
+)
             
 ]
             
@@ -1362,8 +1359,12 @@ subprocess
 .
 check_call
 (
+            
 [
+str
+(
 git
+)
 "
 config
 "
@@ -1378,18 +1379,26 @@ true
 ]
 cwd
 =
+str
+(
 dest
+)
 env
 =
 env
+        
 )
         
 subprocess
 .
 check_call
 (
+            
 [
+str
+(
 git
+)
 "
 config
 "
@@ -1404,21 +1413,20 @@ only
 ]
 cwd
 =
+str
+(
 dest
+)
 env
 =
 env
+        
 )
         
 watchman_sample
 =
-os
-.
-path
-.
-join
-(
 dest
+/
 "
 .
 git
@@ -1431,18 +1439,14 @@ watchman
 .
 sample
 "
-)
         
 if
 watchman
 and
-os
-.
-path
+watchman_sample
 .
 exists
 (
-watchman_sample
 )
 :
             
@@ -1456,13 +1460,8 @@ watchman
             
 watchman_config
 =
-os
-.
-path
-.
-join
-(
 dest
+/
 "
 .
 git
@@ -1473,35 +1472,29 @@ query
 -
 watchman
 "
-)
             
 if
 not
-os
-.
-path
+watchman_config
 .
 exists
 (
-watchman_config
 )
 :
                 
 print
 (
+f
 "
 Copying
-%
-s
-to
-%
-s
-"
-%
-(
+{
 watchman_sample
+}
+to
+{
 watchman_config
-)
+}
+"
 )
                 
 copy_args
@@ -1545,21 +1538,31 @@ check_call
 copy_args
 cwd
 =
+str
+(
 dest
+)
 )
             
 config_args
 =
 [
+                
+str
+(
 git
+)
+                
 "
 config
 "
+                
 "
 core
 .
 fsmonitor
 "
+                
 "
 .
 git
@@ -1570,6 +1573,7 @@ query
 -
 watchman
 "
+            
 ]
             
 subprocess
@@ -1579,7 +1583,10 @@ check_call
 config_args
 cwd
 =
+str
+(
 dest
+)
 env
 =
 env
@@ -1661,7 +1668,10 @@ shutil
 .
 rmtree
 (
+str
+(
 tempdir
+)
 )
 def
 clone
@@ -1860,24 +1870,22 @@ None
     
 print
 (
+f
 "
 Cloning
 Firefox
-%
-s
-repository
-to
-%
-s
-"
-%
-(
+{
 VCS_HUMAN_READABLE
 [
 vcs
 ]
+}
+repository
+to
+{
 dest
-)
+}
+"
 )
     
 if
@@ -1919,6 +1927,8 @@ def
 bootstrap
 (
 srcdir
+:
+Path
 application_choice
 no_interactive
 no_system_changes
@@ -1931,13 +1941,10 @@ args
 sys
 .
 executable
-os
-.
-path
-.
-join
+str
 (
 srcdir
+/
 "
 mach
 "
@@ -2032,7 +2039,10 @@ call
 args
 cwd
 =
+str
+(
 srcdir
+)
 )
 def
 main
@@ -2428,9 +2438,7 @@ y
 try
 :
                 
-os
-.
-remove
+Path
 (
 sys
 .
@@ -2438,6 +2446,10 @@ argv
 [
 0
 ]
+)
+.
+unlink
+(
 )
             
 except

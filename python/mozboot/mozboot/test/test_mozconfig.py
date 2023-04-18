@@ -8,6 +8,14 @@ import
 os
 import
 unittest
+import
+sys
+import
+pytest
+from
+pathlib
+import
+Path
 from
 shutil
 import
@@ -152,7 +160,7 @@ _old_env
 )
         
 for
-d
+temp_dir
 in
 self
 .
@@ -161,7 +169,10 @@ _temp_dirs
             
 rmtree
 (
-d
+str
+(
+temp_dir
+)
 )
     
 def
@@ -171,10 +182,13 @@ self
 )
 :
         
-d
+new_temp_dir
 =
+Path
+(
 mkdtemp
 (
+)
 )
         
 self
@@ -183,11 +197,11 @@ _temp_dirs
 .
 add
 (
-d
+new_temp_dir
 )
         
 return
-d
+new_temp_dir
     
 def
 test_find_legacy_env
@@ -308,7 +322,7 @@ MOZCONFIG
 =
 relative_mozconfig
         
-srcdir
+src_dir
 =
 self
 .
@@ -316,7 +330,7 @@ get_temp_dir
 (
 )
         
-curdir
+cur_dir
 =
 self
 .
@@ -327,27 +341,21 @@ get_temp_dir
 dirs
 =
 [
-srcdir
-curdir
+src_dir
+cur_dir
 ]
         
 for
-d
+iter_dir
 in
 dirs
 :
             
 path
 =
-os
-.
-path
-.
-join
-(
-d
+iter_dir
+/
 relative_mozconfig
-)
             
 with
 open
@@ -358,21 +366,24 @@ w
 "
 )
 as
-f
+file
 :
                 
-f
+file
 .
 write
 (
+str
+(
 path
+)
 )
         
 orig_dir
 =
-os
+Path
 .
-getcwd
+cwd
 (
 )
         
@@ -383,7 +394,7 @@ os
 .
 chdir
 (
-curdir
+cur_dir
 )
             
 with
@@ -399,7 +410,7 @@ e
                 
 find_mozconfig
 (
-srcdir
+src_dir
 )
         
 finally
@@ -433,7 +444,7 @@ exception
 )
         
 for
-d
+iter_dir
 in
 dirs
 :
@@ -442,7 +453,14 @@ self
 .
 assertIn
 (
-d
+str
+(
+iter_dir
+.
+resolve
+(
+)
+)
 str
 (
 e
@@ -502,7 +520,7 @@ MOZCONFIG
 =
 relative_mozconfig
         
-topdir
+top_dir
 =
 self
 .
@@ -510,59 +528,39 @@ get_temp_dir
 (
 )
         
-srcdir
+src_dir
 =
-os
-.
-path
-.
-join
-(
-topdir
+top_dir
+/
 "
 src
 "
-)
         
-os
+src_dir
 .
 mkdir
 (
-srcdir
 )
         
-curdir
+cur_dir
 =
-os
-.
-path
-.
-join
-(
-topdir
+top_dir
+/
 "
 obj
 "
-)
         
-os
+cur_dir
 .
 mkdir
 (
-curdir
 )
         
 path
 =
-os
-.
-path
-.
-join
-(
-srcdir
+src_dir
+/
 relative_mozconfig
-)
         
 with
 open
@@ -578,9 +576,9 @@ pass
         
 orig_dir
 =
-os
+Path
 .
-getcwd
+cwd
 (
 )
         
@@ -591,34 +589,29 @@ os
 .
 chdir
 (
-curdir
+cur_dir
 )
             
 self
 .
 assertEqual
 (
-                
-os
-.
-path
-.
-realpath
+Path
 (
 find_mozconfig
 (
-srcdir
+src_dir
 )
 )
-os
 .
-path
-.
-realpath
+resolve
 (
-path
 )
-            
+path
+.
+resolve
+(
+)
 )
         
 finally
@@ -673,7 +666,7 @@ MOZCONFIG
 =
 relative_mozconfig
         
-srcdir
+src_dir
 =
 self
 .
@@ -681,7 +674,7 @@ get_temp_dir
 (
 )
         
-curdir
+cur_dir
 =
 self
 .
@@ -692,15 +685,15 @@ get_temp_dir
 dirs
 =
 [
-srcdir
-curdir
+src_dir
+cur_dir
 ]
         
 orig_dir
 =
-os
+Path
 .
-getcwd
+cwd
 (
 )
         
@@ -711,7 +704,7 @@ os
 .
 chdir
 (
-curdir
+cur_dir
 )
             
 with
@@ -727,7 +720,7 @@ e
                 
 find_mozconfig
 (
-srcdir
+src_dir
 )
         
 finally
@@ -761,7 +754,7 @@ exception
 )
         
 for
-d
+iter_dir
 in
 dirs
 :
@@ -770,7 +763,14 @@ self
 .
 assertIn
 (
-d
+str
+(
+iter_dir
+.
+resolve
+(
+)
+)
 str
 (
 e
@@ -822,33 +822,33 @@ MOZCONFIG
 =
 relative_mozconfig
         
-srcdir
+src_dir
 =
+Path
+(
 self
 .
 get_temp_dir
 (
 )
+)
         
-curdir
+cur_dir
 =
+Path
+(
 self
 .
 get_temp_dir
 (
 )
+)
         
 path
 =
-os
-.
-path
-.
-join
-(
-srcdir
+src_dir
+/
 relative_mozconfig
-)
         
 with
 open
@@ -864,9 +864,9 @@ pass
         
 orig_dir
 =
-os
+Path
 .
-getcwd
+cwd
 (
 )
         
@@ -877,7 +877,7 @@ os
 .
 chdir
 (
-curdir
+cur_dir
 )
             
 self
@@ -885,24 +885,27 @@ self
 assertEqual
 (
                 
-os
-.
-path
-.
-normpath
+str
+(
+Path
 (
 find_mozconfig
 (
-srcdir
+src_dir
 )
 )
-os
 .
-path
-.
-normpath
+resolve
+(
+)
+)
+str
 (
 path
+.
+resolve
+(
+)
 )
             
 )
@@ -915,6 +918,74 @@ os
 chdir
 (
 orig_dir
+)
+    
+pytest
+.
+mark
+.
+skipif
+(
+        
+sys
+.
+platform
+.
+startswith
+(
+"
+win
+"
+)
+        
+reason
+=
+"
+This
+test
+uses
+unix
+-
+style
+absolute
+paths
+since
+we
+now
+use
+Pathlib
+and
+"
+        
+"
+is_absolute
+(
+)
+always
+returns
+False
+on
+Windows
+if
+there
+isn
+'
+t
+a
+drive
+"
+        
+"
+letter
+this
+test
+is
+invalid
+for
+Windows
+.
+"
+    
 )
     
 def
@@ -1002,16 +1073,7 @@ exception
         
 self
 .
-assertTrue
-(
-str
-(
-e
-.
-exception
-)
-.
-endswith
+assertIn
 (
 "
 /
@@ -1025,6 +1087,11 @@ not
 /
 exist
 "
+str
+(
+e
+.
+exception
 )
 )
     
@@ -1145,12 +1212,12 @@ present
 "
         
 for
-p
+default_dir
 in
 DEFAULT_TOPSRCDIR_PATHS
 :
             
-d
+temp_dir
 =
 self
 .
@@ -1160,15 +1227,9 @@ get_temp_dir
             
 path
 =
-os
-.
-path
-.
-join
-(
-d
-p
-)
+temp_dir
+/
+default_dir
             
 with
 open
@@ -1186,9 +1247,12 @@ self
 .
 assertEqual
 (
+Path
+(
 find_mozconfig
 (
-d
+temp_dir
+)
 )
 path
 )
@@ -1228,7 +1292,7 @@ DEFAULT_TOPSRCDIR_PATHS
 1
 )
         
-d
+temp_dir
 =
 self
 .
@@ -1237,7 +1301,7 @@ get_temp_dir
 )
         
 for
-p
+default_dir
 in
 DEFAULT_TOPSRCDIR_PATHS
 :
@@ -1245,15 +1309,9 @@ DEFAULT_TOPSRCDIR_PATHS
 with
 open
 (
-os
-.
-path
-.
-join
-(
-d
-p
-)
+temp_dir
+/
+default_dir
 "
 w
 "
@@ -1275,7 +1333,7 @@ e
             
 find_mozconfig
 (
-d
+temp_dir
 )
         
 self
@@ -1322,12 +1380,12 @@ present
 "
         
 for
-p
+deprecated_dir
 in
 DEPRECATED_TOPSRCDIR_PATHS
 :
             
-d
+temp_dir
 =
 self
 .
@@ -1338,15 +1396,9 @@ get_temp_dir
 with
 open
 (
-os
-.
-path
-.
-join
-(
-d
-p
-)
+temp_dir
+/
+deprecated_dir
 "
 w
 "
@@ -1368,7 +1420,7 @@ e
                 
 find_mozconfig
 (
-d
+temp_dir
 )
             
 self
@@ -1395,7 +1447,10 @@ self
 .
 assertIn
 (
-d
+str
+(
+temp_dir
+)
 str
 (
 e
@@ -1430,7 +1485,7 @@ present
 "
         
 for
-p
+deprecated_path
 in
 DEPRECATED_HOME_PATHS
 :
@@ -1452,19 +1507,16 @@ HOME
 "
 ]
 =
+str
+(
 home
+)
             
 path
 =
-os
-.
-path
-.
-join
-(
 home
-p
-)
+/
+deprecated_path
             
 with
 open
@@ -1522,7 +1574,10 @@ self
 .
 assertIn
 (
+str
+(
 path
+)
 str
 (
 e

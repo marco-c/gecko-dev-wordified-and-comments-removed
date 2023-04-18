@@ -9,6 +9,10 @@ errno
 import
 sys
 from
+pathlib
+import
+Path
+from
 mach
 .
 decorators
@@ -410,6 +414,13 @@ mozfile
 import
 which
     
+from
+mach
+.
+util
+import
+to_optional_path
+    
 repo
 =
 mozversioncontrol
@@ -471,9 +482,12 @@ exe
     
 vcs
 =
+to_optional_path
+(
 which
 (
 tool
+)
 )
     
 if
@@ -525,17 +539,23 @@ update_git_tools
                 
 vcs
                 
+Path
+(
 command_context
 .
 _mach_context
 .
 state_dir
+)
                 
+Path
+(
 command_context
 .
 _mach_context
 .
 topdir
+)
             
 )
         
@@ -547,11 +567,14 @@ bootstrap
 update_vct
 (
 vcs
+Path
+(
 command_context
 .
 _mach_context
 .
 state_dir
+)
 )
     
 else
@@ -575,6 +598,8 @@ configure_git
                 
 vcs
                 
+to_optional_path
+(
 which
 (
 "
@@ -583,18 +608,25 @@ git
 cinnabar
 "
 )
+)
                 
+Path
+(
 command_context
 .
 _mach_context
 .
 state_dir
+)
                 
+Path
+(
 command_context
 .
 _mach_context
 .
 topdir
+)
             
 )
         
@@ -605,10 +637,15 @@ bootstrap
 .
 configure_mercurial
 (
+                
 vcs
+Path
+(
 command_context
 .
 _mach_context
 .
 state_dir
+)
+            
 )

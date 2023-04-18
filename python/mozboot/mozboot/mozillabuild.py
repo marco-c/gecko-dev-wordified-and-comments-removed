@@ -15,6 +15,10 @@ sys
 import
 subprocess
 from
+pathlib
+import
+Path
+from
 mozboot
 .
 base
@@ -271,7 +275,10 @@ paths
 .
 append
 (
+Path
+(
 path
+)
 )
     
 except
@@ -285,7 +292,9 @@ paths
 def
 is_windefender_affecting_srcdir
 (
-srcdir
+src_dir
+:
+Path
 )
 :
     
@@ -298,22 +307,12 @@ get_is_windefender_disabled
 return
 False
     
-srcdir
+src_dir
 =
-os
+src_dir
 .
-path
-.
-normcase
+resolve
 (
-os
-.
-path
-.
-abspath
-(
-srcdir
-)
 )
     
 try
@@ -352,36 +351,29 @@ exclusion_paths
         
 exclusion_path
 =
-os
-.
-path
-.
-normcase
-(
-os
-.
-path
-.
-abspath
-(
 exclusion_path
-)
+.
+resolve
+(
 )
         
 try
 :
             
 if
+Path
+(
 os
 .
 path
 .
 commonpath
 (
-[
+(
 exclusion_path
-srcdir
-]
+src_dir
+)
+)
 )
 =
 =
@@ -1182,13 +1174,8 @@ packages
         
 pip_dir
 =
-os
-.
-path
-.
-join
+Path
 (
-            
 os
 .
 environ
@@ -1197,24 +1184,29 @@ environ
 MOZILLABUILD
 "
 ]
+)
+/
 "
 python
 "
+/
 "
 Scripts
 "
+/
 "
 pip
 .
 exe
 "
         
-)
-        
 command
 =
 [
+str
+(
 pip_dir
+)
 "
 install
 "
