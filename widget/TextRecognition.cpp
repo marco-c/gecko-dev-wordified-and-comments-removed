@@ -690,6 +690,9 @@ IgnoreErrors
 )
 ;
 }
+#
+ifndef
+XP_MACOSX
 auto
 TextRecognition
 :
@@ -743,4 +746,6 @@ __func__
 )
 ;
 }
+#
+endif
 }
