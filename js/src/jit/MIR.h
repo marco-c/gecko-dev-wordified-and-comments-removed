@@ -49996,6 +49996,7 @@ bool
 inTry
 (
 )
+const
 {
 return
 inTry_
@@ -50005,6 +50006,7 @@ size_t
 tryNoteIndex
 (
 )
+const
 {
 return
 tryNoteIndex_

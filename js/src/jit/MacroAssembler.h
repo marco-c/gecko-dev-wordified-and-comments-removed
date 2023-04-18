@@ -16069,8 +16069,12 @@ wasm
 CalleeDesc
 &
 callee
-bool
-needsBoundsCheck
+Label
+*
+boundsCheckFailedLabel
+Label
+*
+nullCheckFailedLabel
 mozilla
 :
 :

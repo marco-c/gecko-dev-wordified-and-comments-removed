@@ -2866,7 +2866,7 @@ FunctionCall
 call
 )
 ;
-void
+bool
 callIndirect
 (
 uint32_t
