@@ -518,6 +518,12 @@ VideoFrameSurface
 >
 mDMABufSurfaces
 ;
+Maybe
+<
+bool
+>
+mTextureCreationWorks
+;
 }
 ;
 }
