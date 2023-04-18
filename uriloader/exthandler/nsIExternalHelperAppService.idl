@@ -208,12 +208,6 @@ saveDestinationAvailable
 in
 nsIFile
 aFile
-[
-optional
-]
-in
-boolean
-aDialogWasShown
 )
 ;
 void
