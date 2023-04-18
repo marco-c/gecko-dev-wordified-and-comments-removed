@@ -3027,9 +3027,6 @@ SpeculativeTransaction
 ci
 callbacks
 caps
-&
-~
-NS_HTTP_ALLOW_KEEPALIVE
 )
 mValidator
 (
@@ -3082,6 +3079,12 @@ XRE_IsParentProcess
 (
 )
 )
+;
+mCaps
+&
+=
+~
+NS_HTTP_ALLOW_KEEPALIVE
 ;
 }
 template
