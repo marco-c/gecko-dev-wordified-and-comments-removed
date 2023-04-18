@@ -10914,7 +10914,7 @@ alloc
 {
 if
 (
-EnsureFloatInputOrConvert
+EnsureFloatConsumersAndInputOrConvert
 (
 this
 alloc
