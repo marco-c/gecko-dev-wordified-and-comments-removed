@@ -6090,11 +6090,12 @@ child
 .
 style
 .
+removeProperty
+(
+"
 visibility
-=
 "
-visible
-"
+)
 ;
 }
 }
