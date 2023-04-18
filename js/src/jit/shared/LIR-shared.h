@@ -3256,7 +3256,7 @@ getTemp
 const
 LDefinition
 *
-getTempStackCounter
+getTempForArgCopy
 (
 )
 {
@@ -3463,7 +3463,7 @@ getTemp
 const
 LDefinition
 *
-getTempStackCounter
+getTempForArgCopy
 (
 )
 {
@@ -3670,7 +3670,7 @@ getTemp
 const
 LDefinition
 *
-getTempStackCounter
+getTempForArgCopy
 (
 )
 {
@@ -3894,7 +3894,7 @@ getTemp
 const
 LAllocation
 *
-getTempStackCounter
+getTempForArgCopy
 (
 )
 {
@@ -4115,7 +4115,7 @@ getOperand
 const
 LAllocation
 *
-getTempStackCounter
+getTempForArgCopy
 (
 )
 {
