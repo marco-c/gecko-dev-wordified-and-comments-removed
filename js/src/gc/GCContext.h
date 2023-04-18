@@ -1,9 +1,9 @@
 #
 ifndef
-gc_FreeOp_h
+gc_GCContext_h
 #
 define
-gc_FreeOp_h
+gc_GCContext_h
 #
 include
 "

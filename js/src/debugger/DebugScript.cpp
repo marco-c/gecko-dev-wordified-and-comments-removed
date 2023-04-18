@@ -71,7 +71,7 @@ include
 "
 gc
 /
-FreeOp
+GCContext
 .
 h
 "
@@ -188,7 +188,7 @@ include
 "
 gc
 /
-FreeOp
+GC
 -
 inl
 .
@@ -199,7 +199,7 @@ include
 "
 gc
 /
-GC
+GCContext
 -
 inl
 .
