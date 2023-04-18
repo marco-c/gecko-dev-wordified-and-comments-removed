@@ -177,17 +177,6 @@ mozilla
 /
 gfx
 /
-2D
-.
-h
-"
-#
-include
-"
-mozilla
-/
-gfx
-/
 Types
 .
 h

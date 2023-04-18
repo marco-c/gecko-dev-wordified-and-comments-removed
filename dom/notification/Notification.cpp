@@ -91,15 +91,6 @@ include
 "
 mozilla
 /
-Components
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_dom
 .
 h

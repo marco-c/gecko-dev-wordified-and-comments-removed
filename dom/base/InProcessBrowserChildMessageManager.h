@@ -77,13 +77,6 @@ h
 #
 include
 "
-nsIScriptContext
-.
-h
-"
-#
-include
-"
 nsDocShell
 .
 h

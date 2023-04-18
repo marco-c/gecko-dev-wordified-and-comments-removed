@@ -73,17 +73,6 @@ include
 "
 mozilla
 /
-net
-/
-WebSocketChannel
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 File

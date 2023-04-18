@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsIStreamListener
-.
-h
-"
-#
-include
-"
 nsIRedirectHistoryEntry
 .
 h

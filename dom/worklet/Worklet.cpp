@@ -186,13 +186,6 @@ h
 #
 include
 "
-nsIInputStreamPump
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

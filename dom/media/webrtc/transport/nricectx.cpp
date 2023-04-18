@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

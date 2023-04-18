@@ -52,13 +52,6 @@ h
 #
 include
 "
-nsIScriptContext
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

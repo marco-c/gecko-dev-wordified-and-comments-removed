@@ -33,17 +33,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Document
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

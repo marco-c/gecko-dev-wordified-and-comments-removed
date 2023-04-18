@@ -73,15 +73,6 @@ DMABufLibWrapper
 h
 "
 #
-include
-"
-mozilla
-/
-StaticPrefs_media
-.
-h
-"
-#
 endif
 #
 define
