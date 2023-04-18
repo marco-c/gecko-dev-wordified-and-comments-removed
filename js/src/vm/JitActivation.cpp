@@ -1315,7 +1315,7 @@ code
 wasm
 :
 :
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 fp
 )

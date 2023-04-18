@@ -833,7 +833,7 @@ return
 wasm
 :
 :
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 wasmExitFP
 (

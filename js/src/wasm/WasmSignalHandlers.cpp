@@ -3917,7 +3917,7 @@ Instance
 *
 instance
 =
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 frame
 )
@@ -5863,7 +5863,7 @@ Instance
 instance
 =
 *
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 Frame
 :

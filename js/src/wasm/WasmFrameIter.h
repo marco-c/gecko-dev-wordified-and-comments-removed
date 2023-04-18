@@ -1005,7 +1005,7 @@ offsets
 const
 Instance
 *
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 const
 Frame
@@ -1015,7 +1015,7 @@ fp
 ;
 Instance
 *
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 Frame
 *

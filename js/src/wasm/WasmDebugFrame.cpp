@@ -104,7 +104,7 @@ fp
 {
 MOZ_ASSERT
 (
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 fp
 )
@@ -147,7 +147,7 @@ offsetOfFrame
 ;
 MOZ_ASSERT
 (
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 fp
 )
@@ -255,7 +255,7 @@ instance
 )
 {
 return
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 &
 frame_
@@ -274,7 +274,7 @@ instance
 const
 {
 return
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 &
 frame_
