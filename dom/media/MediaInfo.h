@@ -1995,11 +1995,6 @@ mExtendedProfile
 (
 0
 )
-mExtraData
-(
-new
-MediaByteBuffer
-)
 {
 }
 AudioInfo
@@ -2131,12 +2126,6 @@ NoCodecSpecificData
 {
 }
 }
-;
-RefPtr
-<
-MediaByteBuffer
->
-mExtraData
 ;
 }
 ;
