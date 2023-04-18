@@ -2037,6 +2037,9 @@ prevCurrentEngine
 &
 &
 newCurrentEngine
+&
+&
+newCurrentEngine
 !
 =
 =
