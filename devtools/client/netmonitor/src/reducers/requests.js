@@ -40,7 +40,7 @@ RIGHT_CLICK_REQUEST
 SELECT_REQUEST
 PRESELECT_REQUEST
 SEND_CUSTOM_REQUEST
-TOGGLE_RECORDING
+SET_RECORDING_STATE
 UPDATE_REQUEST
 }
 =
@@ -287,7 +287,7 @@ id
 ;
 }
 case
-TOGGLE_RECORDING
+SET_RECORDING_STATE
 :
 {
 return
@@ -298,8 +298,7 @@ return
 state
 recording
 :
-!
-state
+action
 .
 recording
 }
