@@ -297,7 +297,6 @@ bounds
 bounds
 depth
 depth
-0
 DesktopToLayoutDeviceScale
 (
 density
@@ -309,13 +308,6 @@ CSSToLayoutDeviceScale
 0f
 )
 dpi
-Screen
-:
-:
-IsPseudoDisplay
-:
-:
-No
 orientation
 angle
 )

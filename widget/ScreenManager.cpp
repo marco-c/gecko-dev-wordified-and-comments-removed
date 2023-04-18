@@ -752,7 +752,6 @@ LayoutDeviceIntRect
 )
 0
 0
-0
 DesktopToLayoutDeviceScale
 (
 )
@@ -760,13 +759,6 @@ CSSToLayoutDeviceScale
 (
 )
 96
-Screen
-:
-:
-IsPseudoDisplay
-:
-:
-No
 hal
 :
 :
@@ -1211,7 +1203,6 @@ LayoutDeviceIntRect
 )
 0
 0
-0
 DesktopToLayoutDeviceScale
 (
 )
@@ -1219,13 +1210,6 @@ CSSToLayoutDeviceScale
 (
 )
 96
-Screen
-:
-:
-IsPseudoDisplay
-:
-:
-No
 hal
 :
 :
