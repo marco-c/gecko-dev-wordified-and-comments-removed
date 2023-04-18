@@ -596,17 +596,6 @@ install_name_tool
 "
 :
 )
-AC_CHECK_PROGS
-(
-OBJCOPY
-"
-{
-TOOLCHAIN_PREFIX
-}
-objcopy
-"
-:
-)
 PATH
 =
 _SAVE_PATH
