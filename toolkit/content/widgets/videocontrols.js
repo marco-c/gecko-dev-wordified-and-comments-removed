@@ -410,6 +410,11 @@ prefValue
 ;
 }
 static
+SEEK_TIME_SECS
+=
+5
+;
+static
 isPictureInPictureVideo
 (
 someVideo
@@ -7967,7 +7972,9 @@ newval
 =
 oldval
 -
-15
+VideoControlsWidget
+.
+SEEK_TIME_SECS
 ;
 }
 this
@@ -8038,7 +8045,9 @@ newval
 =
 oldval
 +
-15
+VideoControlsWidget
+.
+SEEK_TIME_SECS
 ;
 }
 this

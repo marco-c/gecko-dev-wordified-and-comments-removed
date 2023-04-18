@@ -378,6 +378,11 @@ TOGGLE_HIDING_TIMEOUT_MS
 =
 2000
 ;
+const
+SEEK_TIME_SECS
+=
+5
+;
 var
 gPlayerContents
 =
@@ -7354,7 +7359,7 @@ newval
 =
 oldval
 -
-15
+SEEK_TIME_SECS
 ;
 }
 else
@@ -7462,7 +7467,7 @@ newval
 =
 oldval
 +
-15
+SEEK_TIME_SECS
 ;
 }
 else
