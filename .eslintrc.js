@@ -931,17 +931,6 @@ test_origin
 js
 "
 "
-chrome
-/
-test
-/
-unit
-/
-test_no_remote_registration
-.
-js
-"
-"
 extensions
 /
 permissions
