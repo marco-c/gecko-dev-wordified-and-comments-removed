@@ -5364,7 +5364,7 @@ pipeline
 )
 ;
 void
-dispatchWorkgroups
+dispatch
 (
 GPUSize32
 x
@@ -5381,7 +5381,7 @@ z
 )
 ;
 void
-dispatchWorkgroupsIndirect
+dispatchIndirect
 (
 GPUBuffer
 indirectBuffer
