@@ -269,11 +269,9 @@ getScreenPixelsPerCSSPixel
 )
 {
 return
-SpecialPowers
+window
 .
-DOMWindowUtils
-.
-screenPixelsPerCSSPixel
+devicePixelRatio
 ;
 }
 function

@@ -243,11 +243,9 @@ getBoundingClientRect
 const
 screenPixelsPerCSSPixel
 =
-SpecialPowers
+window
 .
-DOMWindowUtils
-.
-screenPixelsPerCSSPixel
+devicePixelRatio
 ;
 const
 screenPixelsPerCSSPixelNoOverride

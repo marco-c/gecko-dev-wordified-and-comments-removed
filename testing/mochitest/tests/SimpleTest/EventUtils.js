@@ -3758,9 +3758,9 @@ return
 let
 scale
 =
-utils
+aWindow
 .
-screenPixelsPerCSSPixel
+devicePixelRatio
 ;
 let
 rect
@@ -4242,9 +4242,9 @@ screenPixelsPerCSSPixel
 )
 {
 return
-utils
+win
 .
-screenPixelsPerCSSPixel
+devicePixelRatio
 ;
 }
 if

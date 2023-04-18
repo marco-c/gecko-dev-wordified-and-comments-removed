@@ -154,13 +154,6 @@ iframe
 <
 script
 >
-const
-utils
-=
-SpecialPowers
-.
-DOMWindowUtils
-;
 function
 getScreenPosition
 (
@@ -207,9 +200,9 @@ top
 const
 scale
 =
-utils
+window
 .
-screenPixelsPerCSSPixel
+devicePixelRatio
 ;
 return
 [
