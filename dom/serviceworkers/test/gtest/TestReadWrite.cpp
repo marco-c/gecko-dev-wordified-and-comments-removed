@@ -208,6 +208,15 @@ ServiceWorkerRegistrationData
 aData
 )
 {
+mozilla
+:
+:
+MonitorAutoLock
+lock
+(
+mMonitor
+)
+;
 RegisterServiceWorkerInternal
 (
 aData

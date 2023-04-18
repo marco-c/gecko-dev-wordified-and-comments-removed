@@ -333,14 +333,14 @@ aVersion
 )
 const
 ;
+protected
+:
 mozilla
 :
 :
 Monitor
 mMonitor
 ;
-protected
-:
 nsCOMPtr
 <
 nsIFile
