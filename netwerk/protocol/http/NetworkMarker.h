@@ -75,6 +75,8 @@ CacheDisposition
 aCacheDisposition
 uint64_t
 aInnerWindowID
+bool
+aIsPrivateBrowsing
 const
 mozilla
 :
