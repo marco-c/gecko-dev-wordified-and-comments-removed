@@ -358,9 +358,6 @@ IPCBlobUtils
 Serialize
 (
 blobImpl
-Manager
-(
-)
 ipcBlob
 )
 ;

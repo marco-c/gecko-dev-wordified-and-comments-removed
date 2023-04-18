@@ -1180,12 +1180,6 @@ IPCBlobUtils
 Serialize
 (
 blobImpl
-mRequestParent
--
->
-Manager
-(
-)
 ipcBlob
 )
 ;

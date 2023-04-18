@@ -22704,9 +22704,6 @@ nsresult
 >
 SerializeStructuredCloneFiles
 (
-PBackgroundParent
-*
-aBackgroundActor
 const
 SafeRefPtr
 <
@@ -22727,11 +22724,6 @@ aForPreprocess
 {
 AssertIsOnBackgroundThread
 (
-)
-;
-MOZ_ASSERT
-(
-aBackgroundActor
 )
 ;
 MOZ_ASSERT
@@ -22858,7 +22850,6 @@ eStructuredClone
 directory
 &
 aDatabase
-aBackgroundActor
 aForPreprocess
 ]
 (
@@ -23014,7 +23005,6 @@ IPCBlobUtils
 Serialize
 (
 impl
-aBackgroundActor
 ipcBlob
 )
 )
@@ -52641,13 +52631,6 @@ files
 )
 SerializeStructuredCloneFiles
 (
-(
-*
-this
--
->
-mBackgroundParent
-)
 this
 -
 >
@@ -89507,7 +89490,6 @@ files
 )
 SerializeStructuredCloneFiles
 (
-mBackgroundParent
 mDatabase
 aInfo
 .
@@ -92613,7 +92595,6 @@ files
 )
 SerializeStructuredCloneFiles
 (
-mBackgroundParent
 mDatabase
 info
 .

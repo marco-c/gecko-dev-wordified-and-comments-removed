@@ -804,7 +804,6 @@ i
 ]
 .
 mBlobImpl
-parent
 ipcBlob
 )
 ;

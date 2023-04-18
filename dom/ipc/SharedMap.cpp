@@ -1720,7 +1720,6 @@ IPCBlobUtils
 Serialize
 (
 blobImpl
-aParent
 *
 blobs
 .
