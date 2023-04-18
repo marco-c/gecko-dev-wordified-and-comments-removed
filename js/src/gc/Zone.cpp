@@ -489,6 +489,8 @@ setGCSliceThresholds
 GCRuntime
 &
 gc
+bool
+waitingOnBGTask
 )
 {
 gcHeapThreshold
@@ -500,6 +502,7 @@ gcHeapSize
 gc
 .
 tunables
+waitingOnBGTask
 )
 ;
 mallocHeapThreshold
@@ -511,6 +514,7 @@ mallocHeapSize
 gc
 .
 tunables
+waitingOnBGTask
 )
 ;
 jitHeapThreshold
@@ -522,6 +526,7 @@ jitHeapSize
 gc
 .
 tunables
+waitingOnBGTask
 )
 ;
 }

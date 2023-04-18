@@ -1355,6 +1355,8 @@ const
 GCSchedulingTunables
 &
 tunables
+bool
+waitingOnBGTask
 )
 ;
 void

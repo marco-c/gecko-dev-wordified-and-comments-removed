@@ -253,6 +253,8 @@ gc
 GCRuntime
 &
 gc
+bool
+waitingOnBGTask
 )
 ;
 void

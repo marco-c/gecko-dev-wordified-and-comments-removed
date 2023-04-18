@@ -2185,6 +2185,12 @@ waitForBackgroundTasks
 (
 )
 ;
+bool
+isWaitingOnBackgroundTask
+(
+)
+const
+;
 void
 lockGC
 (
