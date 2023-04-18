@@ -7012,6 +7012,7 @@ token
 Integer
 .
 MAX_VALUE
+false
 )
 ;
 mActions
@@ -9593,6 +9594,9 @@ start
 final
 int
 unboundedOldEnd
+final
+boolean
+causedOnlyByComposition
 )
 {
 if
@@ -9742,6 +9746,10 @@ start
 unboundedOldEnd
 >
 currentLength
+&
+&
+!
+causedOnlyByComposition
 )
 {
 mText

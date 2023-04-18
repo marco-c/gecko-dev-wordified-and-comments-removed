@@ -218,6 +218,8 @@ int
 start
 int
 unboundedOldEnd
+boolean
+causedOnlyByComposition
 )
 ;
 /

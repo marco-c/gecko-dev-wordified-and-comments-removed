@@ -2964,6 +2964,7 @@ oldEnd
 textTransaction
 .
 newEnd
+causedOnlyByComposition
 )
 ;
 if
@@ -4111,7 +4112,7 @@ dummyChange
 aStart
 aEnd
 aEnd
-false
+true
 false
 )
 ;
