@@ -7504,6 +7504,9 @@ JSMSG_NAN_NUMBER_RANGE
 "
 start
 "
+"
+NumberFormat
+"
 formatToParts
 ?
 "
@@ -7535,6 +7538,9 @@ nullptr
 JSMSG_NAN_NUMBER_RANGE
 "
 end
+"
+"
+NumberFormat
 "
 formatToParts
 ?

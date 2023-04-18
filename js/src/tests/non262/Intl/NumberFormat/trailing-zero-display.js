@@ -313,6 +313,9 @@ NumberFormat
 en
 "
 {
+minimumFractionDigits
+:
+2
 maximumFractionDigits
 :
 2
@@ -334,6 +337,9 @@ NumberFormat
 en
 "
 {
+minimumFractionDigits
+:
+2
 maximumFractionDigits
 :
 2
@@ -360,6 +366,9 @@ NumberFormat
 en
 "
 {
+minimumFractionDigits
+:
+2
 maximumFractionDigits
 :
 2
