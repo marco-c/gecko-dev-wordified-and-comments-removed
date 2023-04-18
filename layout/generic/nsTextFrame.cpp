@@ -51937,12 +51937,9 @@ UnionAdditionalOverflow
 presContext
 aLineLayout
 .
-LineContainerRI
+LineContainerFrame
 (
 )
--
->
-mFrame
 provider
 &
 aMetrics
