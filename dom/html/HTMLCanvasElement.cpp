@@ -6016,7 +6016,6 @@ mOffscreenDisplay
 >
 GetSurfaceSnapshot
 (
-aOutAlphaType
 )
 ;
 }
