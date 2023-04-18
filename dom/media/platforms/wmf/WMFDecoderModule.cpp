@@ -1411,6 +1411,17 @@ return
 sUsableVPXMFT
 &
 &
+gfx
+:
+:
+gfxVars
+:
+:
+UseVP8HwDecode
+(
+)
+&
+&
 CanCreateWMFDecoder
 <
 MFT_CATEGORY_VIDEO_DECODER
