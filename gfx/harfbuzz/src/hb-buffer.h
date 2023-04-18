@@ -499,6 +499,9 @@ HB_BUFFER_FLAG_REMOVE_DEFAULT_IGNORABLES
 HB_BUFFER_FLAG_DO_NOT_INSERT_DOTTED_CIRCLE
 =
 0x00000010u
+HB_BUFFER_FLAG_VERIFY
+=
+0x00000020u
 }
 hb_buffer_flags_t
 ;
@@ -808,6 +811,7 @@ hb_buffer_append
 hb_buffer_t
 *
 buffer
+const
 hb_buffer_t
 *
 source

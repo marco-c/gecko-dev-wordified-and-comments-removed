@@ -46,6 +46,17 @@ include
 hb
 -
 buffer
+-
+verify
+.
+cc
+"
+#
+include
+"
+hb
+-
+buffer
 .
 cc
 "

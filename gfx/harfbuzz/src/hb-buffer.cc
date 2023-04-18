@@ -4198,6 +4198,7 @@ hb_buffer_append
 hb_buffer_t
 *
 buffer
+const
 hb_buffer_t
 *
 source
