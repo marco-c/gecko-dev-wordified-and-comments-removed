@@ -4459,7 +4459,7 @@ writingMode
 dispatcher
 -
 >
-MaybeWritingModeAtSelection
+MaybeQueryWritingModeAtSelection
 (
 )
 ;

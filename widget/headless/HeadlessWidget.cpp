@@ -2022,7 +2022,7 @@ writingMode
 dispatcher
 -
 >
-MaybeWritingModeAtSelection
+MaybeQueryWritingModeAtSelection
 (
 )
 ;

@@ -3691,7 +3691,7 @@ writingMode
 textEventDispatcher
 -
 >
-MaybeWritingModeAtSelection
+MaybeQueryWritingModeAtSelection
 (
 )
 ;

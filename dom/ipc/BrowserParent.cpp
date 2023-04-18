@@ -9121,7 +9121,7 @@ writingMode
 dispatcher
 -
 >
-MaybeWritingModeAtSelection
+MaybeQueryWritingModeAtSelection
 (
 )
 ;
@@ -10461,7 +10461,7 @@ writingMode
 dispatcher
 -
 >
-MaybeWritingModeAtSelection
+MaybeQueryWritingModeAtSelection
 (
 )
 ;
