@@ -11318,11 +11318,6 @@ frame
 mImage
 ;
 }
-if
-(
-provider
-)
-{
 aManager
 -
 >
@@ -11341,7 +11336,6 @@ destRect
 destRect
 )
 ;
-}
 nsDisplayItemGenericImageGeometry
 :
 :
