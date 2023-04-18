@@ -2885,7 +2885,7 @@ return
 }
 RefPtr
 <
-UnderlyingSourcePullCallbackHelper
+ReadableStreamDefaultTeePullAlgorithm
 >
 pullAlgorithm
 =
@@ -2893,6 +2893,14 @@ new
 ReadableStreamDefaultTeePullAlgorithm
 (
 teeState
+)
+;
+teeState
+-
+>
+SetPullAlgorithm
+(
+pullAlgorithm
 )
 ;
 RefPtr
