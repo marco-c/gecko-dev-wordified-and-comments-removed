@@ -193,6 +193,13 @@ SnapshotScorer
 .
 combineAndScore
 (
+{
+getCurrentSessionUrls
+:
+(
+)
+=
+>
 new
 Set
 (
@@ -201,6 +208,7 @@ TEST_URL1
 TEST_URL2
 ]
 )
+}
 [
 snapshot1a
 ]
@@ -310,6 +318,13 @@ SnapshotScorer
 .
 combineAndScore
 (
+{
+getCurrentSessionUrls
+:
+(
+)
+=
+>
 new
 Set
 (
@@ -318,6 +333,7 @@ TEST_URL1
 TEST_URL2
 ]
 )
+}
 [
 snapshot2a
 ]
