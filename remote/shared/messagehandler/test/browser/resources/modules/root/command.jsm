@@ -14,7 +14,7 @@ command
 ;
 const
 {
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 }
 =
 ChromeUtils
@@ -106,9 +106,9 @@ contextDescriptor
 {
 type
 :
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-ALL
+All
 }
 values
 :
@@ -147,9 +147,9 @@ contextDescriptor
 {
 type
 :
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-ALL
+All
 }
 values
 :

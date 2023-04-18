@@ -378,9 +378,9 @@ testBroadcast
 {
 type
 :
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-TOP_BROWSING_CONTEXT
+TopBrowsingContext
 id
 :
 TabManager

@@ -223,9 +223,9 @@ contextDescriptor
 {
 type
 :
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-ALL
+All
 }
 values
 :
