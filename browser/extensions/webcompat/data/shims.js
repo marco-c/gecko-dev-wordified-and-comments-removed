@@ -3440,7 +3440,7 @@ Hamropatro
 platform
 :
 "
-desktop
+all
 "
 name
 :
@@ -3501,7 +3501,7 @@ Kinja
 platform
 :
 "
-desktop
+all
 "
 name
 :
@@ -3816,7 +3816,7 @@ Humblebundle
 platform
 :
 "
-desktop
+all
 "
 name
 :
