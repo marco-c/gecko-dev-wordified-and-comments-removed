@@ -177,9 +177,6 @@ popupAtTarget
 options
 .
 button
-window
-.
-document
 )
 ;
 }

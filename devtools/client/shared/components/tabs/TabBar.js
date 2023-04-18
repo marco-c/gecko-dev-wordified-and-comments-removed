@@ -1536,11 +1536,6 @@ menu
 popupAtTarget
 (
 target
-this
-.
-props
-.
-menuDocument
 )
 ;
 return
