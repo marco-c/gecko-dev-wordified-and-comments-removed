@@ -18,7 +18,9 @@ from
 /
 utils
 /
-resource
+shallow
+-
+equal
 "
 ;
 import

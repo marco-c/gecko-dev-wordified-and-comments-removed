@@ -75,9 +75,6 @@ editor
 pause
 "
 "
-resource
-"
-"
 sources
 -
 tree
@@ -236,6 +233,13 @@ js
 selected
 -
 location
+.
+js
+"
+"
+shallow
+-
+equal
 .
 js
 "
