@@ -1163,6 +1163,12 @@ targetFront
 =
 parentFront
 .
+isTargetFront
+?
+parentFront
+:
+parentFront
+.
 targetFront
 ;
 const
