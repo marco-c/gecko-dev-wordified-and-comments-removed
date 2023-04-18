@@ -7423,6 +7423,13 @@ defined
 (
 _M_X64
 )
+&
+&
+!
+defined
+(
+__MINGW64__
+)
 |
 sandbox
 :
