@@ -27,7 +27,7 @@ mozilla
 /
 dom
 /
-WindowBinding
+AnimationFrameProviderBinding
 .
 h
 "

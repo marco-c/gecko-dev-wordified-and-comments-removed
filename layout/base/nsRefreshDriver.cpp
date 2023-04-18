@@ -8649,9 +8649,6 @@ mDocument
 ;
 nsTArray
 <
-Document
-:
-:
 FrameRequest
 >
 mCallbacks
