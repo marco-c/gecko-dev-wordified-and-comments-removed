@@ -13692,6 +13692,10 @@ AddRecordProperty
 )
 UNSUPPORTED_OPCODE
 (
+AddRecordSpread
+)
+UNSUPPORTED_OPCODE
+(
 FinishRecord
 )
 UNSUPPORTED_OPCODE
