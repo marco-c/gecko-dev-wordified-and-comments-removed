@@ -52,6 +52,13 @@ build
 -
 dependencies
 ]
+mozbuild
+=
+"
+0
+.
+1
+"
 cc
 =
 "
