@@ -79,14 +79,6 @@ Nightly
 <
 !
 ENTITY
-vendorShortName
-"
-Mozilla
-"
->
-<
-!
-ENTITY
 brandPocket
 "
 Pocket
