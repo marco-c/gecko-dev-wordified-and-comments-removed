@@ -1816,6 +1816,17 @@ aRenderingContext
 )
 ;
 }
+if
+(
+maxOptionSize
+)
+{
+maxOptionSize
++
+=
+1
+;
+}
 displayISize
 +
 =
