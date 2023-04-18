@@ -422,6 +422,7 @@ popupShownPromise
 =
 waitForProfilerPopupEvent
 (
+window
 "
 popupshown
 "
@@ -519,6 +520,7 @@ popupHiddenPromise
 =
 waitForProfilerPopupEvent
 (
+window
 "
 popuphidden
 "
