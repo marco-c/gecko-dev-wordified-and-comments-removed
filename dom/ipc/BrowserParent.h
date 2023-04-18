@@ -3768,12 +3768,6 @@ mRect
 ScreenIntSize
 mDimensions
 ;
-hal
-:
-:
-ScreenOrientation
-mOrientation
-;
 float
 mDPI
 ;
