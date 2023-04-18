@@ -674,6 +674,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 android
 -
@@ -695,6 +698,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 default
 :
@@ -810,6 +816,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 android
 -
@@ -829,6 +838,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 android
 -
@@ -1425,6 +1437,9 @@ shippable
 mozilla
 -
 central
+mozilla
+-
+release
 ]
 android
 -
@@ -1443,6 +1458,9 @@ shippable
 mozilla
 -
 central
+mozilla
+-
+release
 ]
 default
 :
@@ -2005,6 +2023,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 android
 -
@@ -2026,6 +2047,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 default
 :
@@ -2059,6 +2083,9 @@ qr
 mozilla
 -
 central
+mozilla
+-
+release
 ]
 default
 :
@@ -2163,6 +2190,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 android
 -
@@ -2184,6 +2214,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 default
 :
@@ -2217,6 +2250,9 @@ qr
 mozilla
 -
 central
+mozilla
+-
+release
 ]
 default
 :

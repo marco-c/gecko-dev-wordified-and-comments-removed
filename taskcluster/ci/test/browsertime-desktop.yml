@@ -1261,6 +1261,9 @@ qr
 :
 [
 trunk
+mozilla
+-
+release
 ]
 default
 :
@@ -1298,6 +1301,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 default
 :
@@ -1349,6 +1355,9 @@ qr
 :
 [
 trunk
+mozilla
+-
+release
 ]
 default
 :
@@ -1399,6 +1408,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 default
 :
@@ -1644,6 +1656,9 @@ qr
 mozilla
 -
 central
+mozilla
+-
+release
 ]
 default
 :
@@ -1679,6 +1694,9 @@ qr
 mozilla
 -
 central
+mozilla
+-
+release
 ]
 default
 :
@@ -1911,6 +1929,9 @@ qr
 mozilla
 -
 central
+mozilla
+-
+release
 ]
 default
 :
@@ -1940,6 +1961,9 @@ qr
 mozilla
 -
 central
+mozilla
+-
+release
 ]
 default
 :
