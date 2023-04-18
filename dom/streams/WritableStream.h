@@ -823,7 +823,6 @@ Locked
 ;
 }
 MOZ_CAN_RUN_SCRIPT
-extern
 already_AddRefed
 <
 Promise
@@ -853,7 +852,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 already_AddRefed
 <
 Promise
@@ -871,7 +869,6 @@ ErrorResult
 aRv
 )
 ;
-extern
 already_AddRefed
 <
 Promise
@@ -886,7 +883,6 @@ ErrorResult
 aRv
 )
 ;
-extern
 already_AddRefed
 <
 WritableStreamDefaultWriter

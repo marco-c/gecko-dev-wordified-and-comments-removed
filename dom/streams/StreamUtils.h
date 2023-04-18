@@ -22,7 +22,6 @@ dom
 struct
 QueuingStrategy
 ;
-extern
 double
 ExtractHighWaterMark
 (

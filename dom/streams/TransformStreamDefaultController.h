@@ -340,7 +340,6 @@ mTransformer
 ;
 }
 ;
-extern
 void
 SetUpTransformStreamDefaultControllerFromTransformer
 (
