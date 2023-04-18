@@ -629,29 +629,10 @@ None
 )
 :
     
-sys
-.
-path
-.
-append
-(
-mozpath
-.
-join
-(
 command_context
 .
-topsrcdir
-"
-tools
-"
-"
-lint
-"
-"
-eslint
-"
-)
+activate_virtualenv
+(
 )
     
 import
@@ -736,12 +717,6 @@ PATH
 "
 ]
     
-)
-    
-command_context
-.
-activate_virtualenv
-(
 )
     
 command_context

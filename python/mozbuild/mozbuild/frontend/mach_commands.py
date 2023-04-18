@@ -112,6 +112,12 @@ mozbuild
 files
 .
 "
+    
+virtualenv_name
+=
+"
+docs
+"
 )
 CommandArgument
 (
@@ -200,24 +206,6 @@ command_context
 .
 activate_virtualenv
 (
-)
-    
-command_context
-.
-virtualenv_manager
-.
-install_pip_package
-(
-"
-Sphinx
-=
-=
-1
-.
-1
-.
-3
-"
 )
     
 from
