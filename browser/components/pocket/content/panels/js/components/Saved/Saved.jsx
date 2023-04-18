@@ -1008,7 +1008,7 @@ articles
 savedStory
 ]
 }
-savedArticle
+openInPocketReader
 =
 {
 true

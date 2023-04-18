@@ -556,6 +556,11 @@ utmParams
 {
 utmParams
 }
+openInPocketReader
+=
+{
+true
+}
 /
 >
 <
