@@ -230,7 +230,6 @@ cursor
 frameId
 )
 ;
-await
 dispatch
 (
 {

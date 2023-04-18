@@ -166,7 +166,6 @@ getState
 }
 )
 {
-await
 dispatch
 (
 {
