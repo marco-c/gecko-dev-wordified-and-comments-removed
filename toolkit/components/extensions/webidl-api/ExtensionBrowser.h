@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsTHashMap
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h

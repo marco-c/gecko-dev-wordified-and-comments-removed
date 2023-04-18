@@ -135,7 +135,6 @@ WritableStreamDefaultWriter
 ;
 class
 WritableStream
-final
 :
 public
 nsISupports
@@ -151,6 +150,7 @@ WritableStream
 )
 protected
 :
+virtual
 ~
 WritableStream
 (
