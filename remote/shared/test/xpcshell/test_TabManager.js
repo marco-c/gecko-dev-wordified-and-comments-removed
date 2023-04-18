@@ -150,6 +150,13 @@ mockBrowsingContext
 id
 )
 ;
+const
+browser
+=
+mockTopBrowsingContext
+.
+embedderElement
+;
 equal
 (
 TabManager
@@ -160,9 +167,9 @@ mockTopBrowsingContext
 )
 TabManager
 .
-getBrowserIdForBrowsingContext
+getIdForBrowser
 (
-mockTopBrowsingContext
+browser
 )
 )
 ;
