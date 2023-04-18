@@ -4952,15 +4952,6 @@ JitCode
 ;
 }
 using
-GCPtrFunction
-=
-GCPtr
-<
-JSFunction
-*
->
-;
-using
 GCPtrLinearString
 =
 GCPtr
