@@ -2835,18 +2835,6 @@ cx
 )
 )
 ;
-js
-:
-:
-SliceBudget
-budget
-{
-TimeBudget
-(
-BudgetMS
-)
-}
-;
 JS
 :
 :
@@ -2866,7 +2854,7 @@ GCReason
 :
 :
 DEBUG_GC
-budget
+BudgetMS
 )
 ;
 CHECK
