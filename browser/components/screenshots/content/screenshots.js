@@ -944,11 +944,6 @@ date
 new
 Date
 (
-Date
-.
-now
-(
-)
 )
 ;
 filenameTitle
