@@ -810,6 +810,15 @@ update
 extras
 )
         
+if
+"
+headless
+"
+not
+in
+self
+:
+            
 self
 [
 "
@@ -817,15 +826,7 @@ headless
 "
 ]
 =
-extras
-.
-get
-(
-"
-headless
-"
 False
-)
         
 self
 [
