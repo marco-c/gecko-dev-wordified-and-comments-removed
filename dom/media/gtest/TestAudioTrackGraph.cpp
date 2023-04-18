@@ -4224,7 +4224,7 @@ IgnoreAndContinue
 TEST
 (
 TestAudioTrackGraph
-SwitchingDriverIfMaxChannelChanged
+SetRequestedInputChannelCount
 )
 "
 _ns
@@ -4805,8 +4805,10 @@ IgnoreAndContinue
 TEST
 (
 TestAudioTrackGraph
-SwitchingDriverIfMaxChannelChanged
+SwitchingDriverIfMaxChannelCountChanged
 )
+#
+1
 "
 _ns
 [
@@ -4978,8 +4980,10 @@ IgnoreAndContinue
 TEST
 (
 TestAudioTrackGraph
-SwitchingDriverIfMaxChannelChanged
+SwitchingDriverIfMaxChannelCountChanged
 )
+#
+2
 "
 _ns
 [
@@ -5455,7 +5459,7 @@ IgnoreAndContinue
 TEST
 (
 TestAudioTrackGraph
-SetInputChannelCountDuringSystemDriver
+SetInputChannelCountBeforeAudioCallbackDriver
 )
 "
 _ns
