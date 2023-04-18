@@ -1287,6 +1287,16 @@ this
 .
 rdmFrame
 .
+contentWindow
+.
+destroy
+(
+)
+;
+this
+.
+rdmFrame
+.
 remove
 (
 )
