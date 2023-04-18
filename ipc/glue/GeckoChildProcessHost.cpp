@@ -5646,7 +5646,6 @@ _ns
 +
 new_dyld_lib_path
 ;
-}
 mLaunchOptions
 -
 >
@@ -5663,6 +5662,7 @@ get
 (
 )
 ;
+}
 const
 char
 *
