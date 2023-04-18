@@ -10872,6 +10872,17 @@ PullOverflowsFromPrevInFlow
 {
 }
 bool
+DidPaintPresShell
+(
+mozilla
+:
+:
+PresShell
+*
+aPresShell
+)
+;
+bool
 IsAbsoluteContainer
 (
 )
