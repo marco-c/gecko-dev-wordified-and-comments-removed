@@ -100,9 +100,6 @@ aDownloadClassification
 in
 nsIReferrerInfo
 aReferrerInfo
-in
-boolean
-aOpenDownloadsListOnStart
 )
 ;
 void
@@ -138,9 +135,6 @@ aDownloadClassification
 in
 nsIReferrerInfo
 aReferrerInfo
-in
-boolean
-aOpenDownloadsListOnStart
 in
 BrowsingContext
 aBrowsingContext

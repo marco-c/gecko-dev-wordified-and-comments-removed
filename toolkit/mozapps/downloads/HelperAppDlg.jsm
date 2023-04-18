@@ -1502,7 +1502,6 @@ aLauncher
 saveDestinationAvailable
 (
 result
-true
 )
 ;
 }
