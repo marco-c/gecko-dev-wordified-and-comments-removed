@@ -4997,7 +4997,7 @@ VsyncSource
 gfxPlatformGtk
 :
 :
-CreateHardwareVsyncSource
+CreateGlobalHardwareVsyncSource
 (
 )
 {
@@ -5017,10 +5017,7 @@ IsWaylandDisplay
 )
 {
 return
-gfxPlatform
-:
-:
-CreateHardwareVsyncSource
+CreateSoftwareVsyncSource
 (
 )
 ;
@@ -5179,10 +5176,7 @@ vsync
 )
 ;
 return
-gfxPlatform
-:
-:
-CreateHardwareVsyncSource
+CreateSoftwareVsyncSource
 (
 )
 ;
@@ -5216,10 +5210,7 @@ forget
 #
 else
 return
-gfxPlatform
-:
-:
-CreateHardwareVsyncSource
+CreateSoftwareVsyncSource
 (
 )
 ;

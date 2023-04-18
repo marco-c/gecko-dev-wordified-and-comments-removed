@@ -424,7 +424,7 @@ GetPlatform
 )
 -
 >
-GetHardwareVsync
+GetGlobalVsync
 (
 )
 ;
