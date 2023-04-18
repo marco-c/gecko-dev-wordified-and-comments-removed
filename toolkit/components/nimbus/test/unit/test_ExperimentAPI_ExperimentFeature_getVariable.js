@@ -471,11 +471,6 @@ rollout
 branch
 :
 {
-slug
-:
-"
-slug
-"
 features
 :
 [
@@ -821,11 +816,6 @@ rollout
 branch
 :
 {
-slug
-:
-"
-slug
-"
 features
 :
 [
