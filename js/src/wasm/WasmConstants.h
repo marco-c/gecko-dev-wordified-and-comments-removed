@@ -1029,9 +1029,6 @@ RefEq
 FirstPrefix
 =
 0xfa
-IntrinsicPrefix
-=
-0xfa
 GcPrefix
 =
 0xfb
@@ -2185,7 +2182,7 @@ Limit
 ;
 enum
 class
-IntrinsicOp
+IntrinsicId
 {
 #
 define
@@ -2251,6 +2248,7 @@ F64Pow
 F64Atan2
 OldCallDirect
 OldCallIndirect
+Intrinsic
 Limit
 }
 ;

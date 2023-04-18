@@ -100,10 +100,10 @@ static
 const
 Intrinsic
 &
-getFromOp
+getFromId
 (
-IntrinsicOp
-op
+IntrinsicId
+id
 )
 ;
 }
@@ -120,9 +120,9 @@ mozilla
 :
 Span
 <
-IntrinsicOp
+IntrinsicId
 >
-ops
+ids
 Shareable
 sharedMemory
 MutableHandleWasmModuleObject
