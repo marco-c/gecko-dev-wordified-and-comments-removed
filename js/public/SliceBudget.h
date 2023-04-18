@@ -164,6 +164,16 @@ Atomic
 bool
 >
 ;
+bool
+idle
+=
+false
+;
+bool
+extended
+=
+false
+;
 private
 :
 static
