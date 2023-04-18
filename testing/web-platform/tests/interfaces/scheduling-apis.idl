@@ -243,6 +243,9 @@ interface
 mixin
 WindowOrWorkerGlobalScope
 {
+[
+Replaceable
+]
 readonly
 attribute
 Scheduler

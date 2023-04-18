@@ -173,6 +173,11 @@ required
 USVString
 icon
 ;
+boolean
+iconMustBeShown
+=
+true
+;
 }
 ;
 enum

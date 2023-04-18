@@ -2757,6 +2757,7 @@ required
 sequence
 <
 GPUColorTargetState
+?
 >
 targets
 ;
@@ -3663,7 +3664,7 @@ indirectOffset
 )
 ;
 undefined
-endPass
+end
 (
 )
 ;
@@ -3926,7 +3927,7 @@ bundles
 )
 ;
 undefined
-endPass
+end
 (
 )
 ;
@@ -3996,6 +3997,7 @@ required
 sequence
 <
 GPURenderPassColorAttachment
+?
 >
 colorAttachments
 ;
@@ -4108,6 +4110,7 @@ required
 sequence
 <
 GPUTextureFormat
+?
 >
 colorFormats
 ;

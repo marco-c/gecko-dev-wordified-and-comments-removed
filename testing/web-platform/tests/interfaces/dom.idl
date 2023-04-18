@@ -493,6 +493,12 @@ reason
 )
 ;
 [
+Exposed
+=
+(
+Window
+Worker
+)
 NewObject
 ]
 static
