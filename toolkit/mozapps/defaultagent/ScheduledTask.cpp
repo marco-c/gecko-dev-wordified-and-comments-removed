@@ -827,7 +827,7 @@ SysAllocString
 (
 L
 "
-PT35M
+PT12H5M
 "
 )
 )
