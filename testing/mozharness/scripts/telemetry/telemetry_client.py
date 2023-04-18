@@ -1306,6 +1306,17 @@ MOZ_IGNORE_NSS_SHUTDOWN_LEAKS
 1
 "
         
+env
+[
+"
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+"
+]
+=
+"
+1
+"
+        
 if
 self
 .

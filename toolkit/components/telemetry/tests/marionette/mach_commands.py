@@ -218,6 +218,19 @@ MOZ_IGNORE_NSS_SHUTDOWN_LEAKS
 1
 "
     
+os
+.
+environ
+[
+"
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+"
+]
+=
+"
+1
+"
+    
 if
 not
 args

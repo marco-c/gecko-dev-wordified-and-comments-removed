@@ -180,6 +180,19 @@ verify_usage
 args
 )
     
+os
+.
+environ
+[
+"
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+"
+]
+=
+"
+1
+"
+    
 if
 not
 args
