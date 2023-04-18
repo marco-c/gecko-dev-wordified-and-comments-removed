@@ -57,14 +57,6 @@ MPL
 *
 /
 include
-protocol
-PChildToParentStream
-;
-include
-protocol
-PParentToChildStream
-;
-include
 BlobTypes
 ;
 include

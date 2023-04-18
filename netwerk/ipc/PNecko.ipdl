@@ -65,14 +65,6 @@ PTransportProvider
 ;
 include
 protocol
-PChildToParentStream
-;
-include
-protocol
-PParentToChildStream
-;
-include
-protocol
 PStunAddrsRequest
 ;
 include
