@@ -47,11 +47,6 @@ wpt
 run
 -
 -
-no
--
-headless
--
--
 log
 -
 mach
