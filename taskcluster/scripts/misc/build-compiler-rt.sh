@@ -369,6 +369,13 @@ chmod
 +
 x
 codesign
+PATH
+=
+"
+PATH
+:
+PWD
+"
 ;
 ;
 *
