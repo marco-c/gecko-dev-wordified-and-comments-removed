@@ -530,6 +530,15 @@ Option
 string
 "
 )
+hasNativeConsoleAPI
+:
+Option
+(
+0
+"
+boolean
+"
+)
 }
 }
 methods

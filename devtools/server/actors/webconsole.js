@@ -6270,6 +6270,7 @@ function
 name
 {
 time
+hasNativeConsoleAPI
 }
 )
 {
@@ -6298,6 +6299,7 @@ documentEvent
 {
 name
 time
+hasNativeConsoleAPI
 }
 )
 ;
