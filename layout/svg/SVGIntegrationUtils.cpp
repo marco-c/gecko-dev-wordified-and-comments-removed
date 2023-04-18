@@ -2230,6 +2230,11 @@ MaskParams
 params
 (
 maskContext
+-
+>
+GetDrawTarget
+(
+)
 aParams
 .
 frame
@@ -2604,8 +2609,11 @@ SVGMaskFrame
 MaskParams
 params
 (
-&
 ctx
+.
+GetDrawTarget
+(
+)
 aParams
 .
 frame

@@ -3330,8 +3330,11 @@ SVGMaskFrame
 MaskParams
 params
 (
-&
 aContext
+.
+GetDrawTarget
+(
+)
 aFrame
 aTransform
 maskUsage
