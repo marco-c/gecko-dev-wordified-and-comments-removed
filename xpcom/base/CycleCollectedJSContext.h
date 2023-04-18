@@ -747,11 +747,11 @@ uint32_t
 aRecursionDepth
 )
 ;
+virtual
 void
-IsIdleGCTaskNeeded
+MaybePokeGC
 (
 )
-const
 ;
 uint32_t
 RecursionDepth
