@@ -34163,9 +34163,6 @@ xml
 "
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 pref
 (
 "
@@ -34180,8 +34177,6 @@ checkContentSignature
 true
 )
 ;
-#
-endif
 pref
 (
 "
