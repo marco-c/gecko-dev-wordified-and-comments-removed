@@ -569,15 +569,6 @@ DropTimer
 )
 ;
 void
-SetEncodingFromExpat
-(
-const
-char16_t
-*
-aEncoding
-)
-;
-void
 SetViewSourceTitle
 (
 nsIURI
