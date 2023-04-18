@@ -984,7 +984,7 @@ wgt
 :
 Extent3d
 }
-FillBuffer
+ClearBuffer
 {
 dst
 :
@@ -1062,6 +1062,15 @@ wgt
 :
 BufferAddress
 }
+PushDebugGroup
+(
+String
+)
+PopDebugGroup
+InsertDebugMarker
+(
+String
+)
 RunComputePass
 {
 base

@@ -23,6 +23,10 @@ clippy
 :
 :
 new_without_default
+clippy
+:
+:
+needless_update
 unused_braces
 )
 ]
@@ -41,13 +45,6 @@ clippy
 pattern_type_mismatch
 )
 ]
-#
-[
-macro_use
-]
-mod
-macros
-;
 pub
 mod
 binding_model
@@ -1441,6 +1438,11 @@ ios
 "
 )
 )
+feature
+=
+"
+angle
+"
 target_arch
 =
 "

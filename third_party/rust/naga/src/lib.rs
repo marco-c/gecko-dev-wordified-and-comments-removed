@@ -73,6 +73,10 @@ front
 ;
 pub
 mod
+keywords
+;
+pub
+mod
 proc
 ;
 mod
@@ -1360,9 +1364,6 @@ u32
 }
 Struct
 {
-top_level
-:
-bool
 members
 :
 Vec

@@ -1419,11 +1419,6 @@ parse_struct
 parse_str
 (
 "
-[
-[
-block
-]
-]
 struct
 Foo
 {
@@ -2512,11 +2507,6 @@ parse_array_length
 parse_str
 (
 "
-[
-[
-block
-]
-]
 struct
 Foo
 {
@@ -2593,7 +2583,7 @@ u32
 >
 ;
 fn
-foo
+baz
 (
 )
 {

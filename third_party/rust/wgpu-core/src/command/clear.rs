@@ -571,7 +571,7 @@ G
 {
 pub
 fn
-command_encoder_fill_buffer
+command_encoder_clear_buffer
 <
 A
 :
@@ -738,7 +738,7 @@ push
 TraceCommand
 :
 :
-FillBuffer
+ClearBuffer
 {
 dst
 offset

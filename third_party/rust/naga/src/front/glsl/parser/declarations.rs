@@ -2408,9 +2408,6 @@ TypeInner
 :
 Struct
 {
-top_level
-:
-true
 members
 :
 members

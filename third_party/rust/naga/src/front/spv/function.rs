@@ -2799,9 +2799,6 @@ TypeInner
 :
 Struct
 {
-top_level
-:
-false
 members
 span
 :

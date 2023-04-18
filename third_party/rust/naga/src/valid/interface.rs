@@ -1948,9 +1948,6 @@ TypeInner
 :
 Struct
 {
-top_level
-:
-false
 ref
 members
 .
@@ -2269,11 +2266,6 @@ TypeFlags
 :
 :
 HOST_SHARED
-|
-TypeFlags
-:
-:
-TOP_LEVEL
 true
 )
 }
@@ -2352,11 +2344,6 @@ TypeFlags
 :
 :
 HOST_SHARED
-|
-TypeFlags
-:
-:
-TOP_LEVEL
 true
 )
 }

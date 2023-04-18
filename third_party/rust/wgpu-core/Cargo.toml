@@ -103,6 +103,15 @@ default
 =
 [
 ]
+angle
+=
+[
+"
+hal
+/
+gles
+"
+]
 #
 Enable
 API
@@ -268,7 +277,7 @@ version
 "
 0
 .
-3
+4
 "
 optional
 =
@@ -344,7 +353,7 @@ naga
 rev
 =
 "
-29571cc
+8ffd6ba
 "
 #
 version

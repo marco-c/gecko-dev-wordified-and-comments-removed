@@ -10,9 +10,6 @@ PartialOrd
 )
 ]
 pub
-(
-crate
-)
 struct
 Version
 {
@@ -44,6 +41,9 @@ impl
 Version
 {
 pub
+(
+crate
+)
 fn
 new
 (
@@ -85,6 +85,9 @@ vendor_info
 }
 }
 pub
+(
+crate
+)
 fn
 new_embedded
 (
@@ -116,6 +119,9 @@ vendor_info
 }
 }
 pub
+(
+crate
+)
 fn
 parse
 (

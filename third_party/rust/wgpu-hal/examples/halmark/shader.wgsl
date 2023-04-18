@@ -1,8 +1,3 @@
-[
-[
-block
-]
-]
 struct
 Globals
 {
@@ -22,11 +17,6 @@ f32
 ;
 }
 ;
-[
-[
-block
-]
-]
 struct
 Locals
 {
@@ -333,7 +323,7 @@ binding
 ]
 ]
 var
-sampler
+sam
 :
 sampler
 ;
@@ -375,7 +365,7 @@ color
 textureSampleLevel
 (
 texture
-sampler
+sam
 in
 .
 tex_coords
