@@ -629,6 +629,7 @@ pageB
 execute_script
 (
 funcBeforeBackNavigation
+argsBeforeBackNavigation
 )
 ;
 }
