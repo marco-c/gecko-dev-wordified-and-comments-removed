@@ -4099,10 +4099,10 @@ showContentMessages
 message
 .
 chromeContext
+!
 =
 =
-=
-false
+true
 &
 &
 message

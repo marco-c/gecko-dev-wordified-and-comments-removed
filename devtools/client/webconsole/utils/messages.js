@@ -1236,16 +1236,9 @@ messageText
 :
 message
 timeStamp
-private
-:
-message
-.
-private
 chromeContext
 :
-message
-.
-chromeContext
+true
 }
 )
 ;

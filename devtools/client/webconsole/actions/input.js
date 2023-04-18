@@ -1154,6 +1154,9 @@ message
 .
 text
 ]
+chromeContext
+:
+true
 }
 resourceType
 :
