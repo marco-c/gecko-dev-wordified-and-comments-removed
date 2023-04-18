@@ -1601,6 +1601,11 @@ nsDisplayListBuilderMode
 Painting
 false
 )
+mList
+(
+&
+mBuilder
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -23381,6 +23386,13 @@ GetContent
 ;
 nsDisplayList
 wrapped
+(
+&
+info
+-
+>
+mBuilder
+)
 ;
 wrapped
 .
@@ -25060,6 +25072,9 @@ aFlags
 void
 AddDisplayItemToBottom
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsDisplayList
 *
 aList
@@ -25070,6 +25085,9 @@ aItem
 {
 nsDisplayList
 list
+(
+aBuilder
+)
 ;
 list
 .
@@ -25138,6 +25156,7 @@ NS_RGB
 ;
 AddDisplayItemToBottom
 (
+aBuilder
 aList
 item
 )
@@ -25498,6 +25517,7 @@ bgcolor
 ;
 AddDisplayItemToBottom
 (
+aBuilder
 aList
 item
 )

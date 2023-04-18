@@ -13753,6 +13753,10 @@ BeginFrame
 ;
 nsDisplayList
 list
+(
+&
+builder
+)
 ;
 nsDisplayTransform
 *
@@ -14820,6 +14824,10 @@ BeginFrame
 ;
 nsDisplayList
 list
+(
+&
+builder
+)
 ;
 if
 (
@@ -16655,6 +16663,11 @@ aFrame
 aBuilderMode
 aBuildCaret
 )
+mList
+(
+&
+mBuilder
+)
 {
 }
 ~
@@ -18144,13 +18157,6 @@ list
 DeleteAll
 (
 builder
-)
-;
-list
--
->
-RestoreState
-(
 )
 ;
 builder
