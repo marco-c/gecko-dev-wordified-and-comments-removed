@@ -46,8 +46,6 @@ import
     
 Defines
     
-GeneratedSources
-    
 HostProgram
     
 HostSources
@@ -520,22 +518,6 @@ isinstance
 (
 obj
 HostSources
-)
-:
-            
-self
-.
-_add_sources
-(
-reldir
-obj
-)
-        
-elif
-isinstance
-(
-obj
-GeneratedSources
 )
 :
             
