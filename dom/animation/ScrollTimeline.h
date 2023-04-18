@@ -229,12 +229,12 @@ aOther
 mSource
 &
 &
-mDirection
+mAxis
 =
 =
 aOther
 .
-mDirection
+mAxis
 ;
 }
 NS_DECL_ISUPPORTS_INHERITED
@@ -478,8 +478,8 @@ const
 Scroller
 &
 aScroller
-StyleScrollDirection
-aDirection
+StyleScrollAxis
+aAxis
 )
 ;
 void
@@ -514,8 +514,8 @@ mDocument
 Scroller
 mSource
 ;
-StyleScrollDirection
-mDirection
+StyleScrollAxis
+mAxis
 ;
 static
 TimingParams
@@ -533,7 +533,7 @@ NonOwningScrollTimelineMap
 =
 HashMap
 <
-StyleScrollDirection
+StyleScrollAxis
 ScrollTimeline
 *
 >
@@ -580,7 +580,7 @@ NonOwningScrollTimelineMap
 AddPtr
 LookupForAdd
 (
-StyleScrollDirection
+StyleScrollAxis
 aKey
 )
 {
@@ -602,7 +602,7 @@ NonOwningScrollTimelineMap
 AddPtr
 &
 aPtr
-StyleScrollDirection
+StyleScrollAxis
 aKey
 ScrollTimeline
 *
@@ -625,7 +625,7 @@ aScrollTimeline
 void
 Remove
 (
-StyleScrollDirection
+StyleScrollAxis
 aKey
 )
 {
