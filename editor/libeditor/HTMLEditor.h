@@ -3435,11 +3435,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 SplitRangeOffFromNodeResult
-SplitRangeOffFromBlockAndRemoveMiddleContainer
+RemoveBlockContainerElementWithTransactionBetween
 (
 Element
 &
-aBlockElement
+aBlockContainerElement
 nsIContent
 &
 aStartOfRange
