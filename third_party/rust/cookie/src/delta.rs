@@ -32,6 +32,9 @@ borrow
 Borrow
 ;
 use
+crate
+:
+:
 Cookie
 ;
 #
@@ -85,8 +88,6 @@ DeltaCookie
 DeltaCookie
 {
 cookie
-:
-cookie
 removed
 :
 false
@@ -114,8 +115,6 @@ DeltaCookie
 {
 DeltaCookie
 {
-cookie
-:
 cookie
 removed
 :
