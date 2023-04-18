@@ -7,6 +7,7 @@ idl
 "
 [
 scriptable
+builtinclass
 uuid
 (
 a076fd12
@@ -25,6 +26,9 @@ nsIMultiplexInputStream
 :
 nsISupports
 {
+[
+infallible
+]
 readonly
 attribute
 unsigned
