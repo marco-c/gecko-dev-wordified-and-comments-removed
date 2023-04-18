@@ -219,6 +219,13 @@ ifdef
 XP_MACOSX
 #
 include
+"
+emmintrin
+.
+h
+"
+#
+include
 <
 spawn
 .
