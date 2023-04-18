@@ -9124,6 +9124,10 @@ hr
 return
 ;
 }
+PushAllClips
+(
+)
+;
 conicGradientEffect
 -
 >
@@ -9386,6 +9390,10 @@ hr
 return
 ;
 }
+PushAllClips
+(
+)
+;
 radialGradientEffect
 -
 >
