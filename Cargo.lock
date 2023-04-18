@@ -27605,6 +27605,9 @@ malloc_size_of_derive
 matches
 "
 "
+mozbuild
+"
+"
 new_debug_unreachable
 "
 "
