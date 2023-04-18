@@ -16,6 +16,11 @@ function
 "
 )
 ;
+requestLongerTimeout
+(
+3
+)
+;
 const
 WebContentIsolationStrategy
 =
