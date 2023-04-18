@@ -26499,15 +26499,6 @@ slowStartup
 PREF_LIST_ENTRY
 (
 "
-browser
-.
-startup
-.
-"
-)
-PREF_LIST_ENTRY
-(
-"
 extensions
 .
 getAddons
