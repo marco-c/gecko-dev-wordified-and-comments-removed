@@ -140,7 +140,6 @@ PortalKind
 {
 FilePicker
 MimeHandler
-Print
 Settings
 }
 ;
