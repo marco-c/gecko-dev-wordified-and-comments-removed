@@ -31,17 +31,6 @@ UnderlyingSourceBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-NativeUnderlyingSource
-.
-h
-"
 namespace
 mozilla
 :
