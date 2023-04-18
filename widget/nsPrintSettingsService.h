@@ -154,7 +154,7 @@ int16_t
 aJust
 )
 ;
-void
+bool
 ReadInchesToTwipsPref
 (
 const
@@ -164,10 +164,6 @@ aPrefId
 int32_t
 &
 aTwips
-const
-char
-*
-aMarginPref
 )
 ;
 void
@@ -181,7 +177,7 @@ int32_t
 aTwips
 )
 ;
-void
+bool
 ReadInchesIntToTwipsPref
 (
 const
@@ -191,10 +187,6 @@ aPrefId
 int32_t
 &
 aTwips
-const
-char
-*
-aMarginPref
 )
 ;
 void
