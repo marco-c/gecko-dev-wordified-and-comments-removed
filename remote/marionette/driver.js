@@ -3559,7 +3559,7 @@ cmd
 {
 assert
 .
-firefox
+desktop
 (
 )
 ;
@@ -6801,7 +6801,7 @@ function
 {
 assert
 .
-firefox
+desktop
 (
 )
 ;
@@ -7391,7 +7391,7 @@ function
 {
 assert
 .
-firefox
+desktop
 (
 )
 ;
@@ -7582,7 +7582,7 @@ function
 {
 assert
 .
-firefox
+desktop
 (
 )
 ;
@@ -7760,7 +7760,7 @@ function
 {
 assert
 .
-firefox
+desktop
 (
 )
 ;
@@ -8968,7 +8968,7 @@ cmd
 {
 assert
 .
-firefox
+desktop
 (
 )
 ;
