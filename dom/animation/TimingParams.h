@@ -117,7 +117,6 @@ UnrestrictedDoubleOrKeyframeAnimationOptions
 struct
 TimingParams
 {
-constexpr
 TimingParams
 (
 )
