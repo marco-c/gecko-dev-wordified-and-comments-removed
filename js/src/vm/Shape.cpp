@@ -1919,6 +1919,17 @@ id
 )
 )
 )
+|
+|
+IF_RECORD_TUPLE
+(
+IsExtendedPrimitiveWrapper
+(
+*
+obj
+)
+false
+)
 )
 ;
 if

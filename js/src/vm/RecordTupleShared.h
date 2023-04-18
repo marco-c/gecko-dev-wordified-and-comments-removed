@@ -1,9 +1,9 @@
 #
 ifndef
-vm_RecordTupleBoxShared_h
+vm_RecordTupleShared_h
 #
 define
-vm_RecordTupleBoxShared_h
+vm_RecordTupleShared_h
 #
 include
 "
@@ -28,6 +28,15 @@ js
 bool
 IsExtendedPrimitive
 (
+JSObject
+&
+obj
+)
+;
+bool
+IsExtendedPrimitiveWrapper
+(
+const
 JSObject
 &
 obj
