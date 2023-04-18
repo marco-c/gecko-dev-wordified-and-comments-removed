@@ -966,6 +966,17 @@ return
 numActualArgs_
 ;
 }
+static
+constexpr
+size_t
+FramePointerOffset
+=
+sizeof
+(
+void
+*
+)
+;
 uint8_t
 *
 callerFramePtr
