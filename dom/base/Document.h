@@ -4686,6 +4686,7 @@ nsHtml5TreeOpExecutor
 aExecutor
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchContentLoadedEvents
 (
@@ -6660,6 +6661,7 @@ BlockDOMContentLoaded
 mBlockDOMContentLoaded
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 UnblockDOMContentLoaded
 (

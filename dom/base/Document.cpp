@@ -37632,9 +37632,12 @@ EventDispatcher
 :
 Dispatch
 (
+MOZ_KnownLive
+(
 ToSupports
 (
 parent
+)
 )
 context
 innerEvent
