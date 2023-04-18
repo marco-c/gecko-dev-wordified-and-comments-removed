@@ -109,6 +109,8 @@ performance
 -
 xpcom
 -
+nspr
+-
 security
 /
 nss
