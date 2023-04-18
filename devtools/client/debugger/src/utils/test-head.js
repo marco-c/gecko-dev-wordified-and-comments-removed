@@ -169,7 +169,7 @@ sourceQueue
 initialize
 (
 {
-newQueuedSources
+newOriginalSources
 :
 sources
 =
@@ -180,7 +180,7 @@ dispatch
 (
 actions
 .
-newQueuedSources
+newOriginalSources
 (
 sources
 )
