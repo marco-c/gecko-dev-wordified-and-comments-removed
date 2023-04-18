@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PageDataSchema
 :
@@ -80,7 +86,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 READY_DELAY
 "
@@ -118,6 +124,8 @@ this
 #
 isContentWindowPrivate
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
@@ -231,6 +239,8 @@ documentURI
 )
 ;
 }
+lazy
+.
 READY_DELAY
 Ci
 .
@@ -303,6 +313,8 @@ Collect
 "
 :
 return
+lazy
+.
 PageDataSchema
 .
 collectPageData

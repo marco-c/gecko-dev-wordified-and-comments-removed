@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PageDataService
 :
@@ -104,6 +110,8 @@ this
 #
 deferredCollection
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -182,6 +190,8 @@ PageData
 DocumentReady
 "
 :
+lazy
+.
 PageDataService
 .
 pageLoaded
