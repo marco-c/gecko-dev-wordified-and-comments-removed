@@ -451,6 +451,9 @@ Texture
 >
 GetCurrentTexture
 (
+ErrorResult
+&
+aRv
 )
 ;
 private

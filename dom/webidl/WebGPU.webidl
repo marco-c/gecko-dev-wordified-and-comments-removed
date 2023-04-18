@@ -5909,6 +5909,9 @@ GPUAdapter
 adapter
 )
 ;
+[
+Throws
+]
 GPUTexture
 getCurrentTexture
 (

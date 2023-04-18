@@ -1696,12 +1696,12 @@ union
 )
 ;
 }
-}
 *
 aCanvasSize
 =
 size
 ;
+}
 const
 layers
 :
