@@ -1759,9 +1759,6 @@ const
 bool
 mIsDocumentLoad
 ;
-EarlyHintsService
-mEarlyHintsService
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
