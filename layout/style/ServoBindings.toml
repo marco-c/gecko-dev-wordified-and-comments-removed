@@ -1078,7 +1078,7 @@ mozilla
 StyleWritingModeProperty
 "
 ]
-whitelist
+allowlist
 -
 vars
 =
@@ -1220,7 +1220,7 @@ and
 structs
 together
 .
-whitelist
+allowlist
 -
 types
 =
@@ -7123,7 +7123,7 @@ nsString
 "
 }
 ]
-whitelist
+allowlist
 -
 functions
 =

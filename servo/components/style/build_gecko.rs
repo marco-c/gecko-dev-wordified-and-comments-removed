@@ -1971,7 +1971,7 @@ item
 |
 b
 .
-blacklist_type
+blocklist_type
 (
 item
 )
@@ -2176,7 +2176,7 @@ fixups
 handle_str_items
 (
 "
-whitelist
+allowlist
 -
 functions
 "
@@ -2186,7 +2186,7 @@ item
 |
 b
 .
-whitelist_function
+allowlist_function
 (
 item
 )
@@ -2233,7 +2233,7 @@ item
 handle_str_items
 (
 "
-whitelist
+allowlist
 -
 vars
 "
@@ -2243,7 +2243,7 @@ item
 |
 b
 .
-whitelist_var
+allowlist_var
 (
 item
 )
@@ -2252,7 +2252,7 @@ item
 handle_str_items
 (
 "
-whitelist
+allowlist
 -
 types
 "
@@ -2262,7 +2262,7 @@ item
 |
 b
 .
-whitelist_type
+allowlist_type
 (
 item
 )
@@ -2337,7 +2337,7 @@ unwrap
 ;
 b
 .
-blacklist_type
+blocklist_type
 (
 format
 !
@@ -2585,7 +2585,7 @@ gecko_name
 ;
 builder
 .
-blacklist_type
+blocklist_type
 (
 gecko
 )

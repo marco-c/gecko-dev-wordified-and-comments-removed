@@ -540,7 +540,7 @@ h
 )
 )
 .
-whitelist_function
+allowlist_function
 (
 "
 gecko_profiler_
@@ -549,7 +549,7 @@ gecko_profiler_
 "
 )
 .
-whitelist_var
+allowlist_var
 (
 "
 mozilla
@@ -568,7 +568,7 @@ sActiveAndFeatures
 "
 )
 .
-whitelist_type
+allowlist_type
 (
 "
 mozilla
