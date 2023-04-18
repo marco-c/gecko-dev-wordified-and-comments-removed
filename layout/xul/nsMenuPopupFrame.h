@@ -1623,6 +1623,11 @@ mScreenRect
 nsRect
 mAnchorRect
 ;
+bool
+mSizedToPopup
+=
+false
+;
 nscoord
 mAlignmentOffset
 ;
@@ -1665,10 +1670,6 @@ mAnchor
 (
 nullptr
 )
-mSizedToPopup
-(
-false
-)
 mIsOpenChanged
 (
 false
@@ -1682,8 +1683,6 @@ nsIFrame
 *
 aAnchor
 bool
-aSizedToPopup
-bool
 aIsOpenChanged
 )
 {
@@ -1694,10 +1693,6 @@ true
 mAnchor
 =
 aAnchor
-;
-mSizedToPopup
-=
-aSizedToPopup
 ;
 mIsOpenChanged
 =
@@ -1717,10 +1712,6 @@ mAnchor
 =
 nullptr
 ;
-mSizedToPopup
-=
-false
-;
 mIsOpenChanged
 =
 false
@@ -1732,9 +1723,6 @@ mPosted
 nsIFrame
 *
 mAnchor
-;
-bool
-mSizedToPopup
 ;
 bool
 mIsOpenChanged
