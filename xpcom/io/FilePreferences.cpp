@@ -139,6 +139,10 @@ AssertCurrentThreadOwns
 static
 WinPaths
 sPaths
+GUARDED_BY
+(
+sMutex
+)
 ;
 return
 sPaths

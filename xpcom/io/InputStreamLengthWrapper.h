@@ -180,13 +180,16 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <
 nsIInputStreamCallback
 >
 mAsyncWaitCallback
+GUARDED_BY
+(
+mMutex
+)
 ;
 }
 ;

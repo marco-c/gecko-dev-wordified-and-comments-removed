@@ -226,10 +226,13 @@ IOInterposer
 :
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mShutdownRequired
+GUARDED_BY
+(
+mMonitor
+)
 ;
 std
 :
@@ -239,6 +242,10 @@ vector
 ObservationWithStack
 >
 mObservations
+GUARDED_BY
+(
+mMonitor
+)
 ;
 }
 ;
