@@ -135,11 +135,6 @@ return
 rv
 ;
 }
-aOffset
-+
-=
-toRead
-;
 aCount
 -
 =
