@@ -353,6 +353,9 @@ nsRect
 >
 &
 aPostFilterClip
+bool
+&
+aInitialized
 )
 ;
 private
@@ -445,6 +448,9 @@ nsRect
 >
 &
 aPostFilterClip
+bool
+&
+aInitialized
 )
 ;
 bool

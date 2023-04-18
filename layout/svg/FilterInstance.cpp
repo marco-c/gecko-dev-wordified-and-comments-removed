@@ -690,6 +690,9 @@ nsRect
 >
 &
 aPostFilterClip
+bool
+&
+aInitialized
 )
 {
 bool
@@ -701,6 +704,7 @@ aFilteredFrame
 aFilters
 aWrFilters
 aPostFilterClip
+aInitialized
 )
 ;
 if
@@ -756,6 +760,9 @@ nsRect
 >
 &
 aPostFilterClip
+bool
+&
+aInitialized
 )
 {
 aWrFilters
@@ -846,8 +853,12 @@ IsInitialized
 )
 )
 {
-return
+aInitialized
+=
 false
+;
+return
+true
 ;
 }
 if

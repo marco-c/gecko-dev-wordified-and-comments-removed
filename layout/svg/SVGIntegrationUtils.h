@@ -512,6 +512,9 @@ nsRect
 >
 &
 aPostFilterClip
+bool
+&
+aInitialized
 )
 ;
 static
