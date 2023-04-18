@@ -958,6 +958,7 @@ First64BitType
 =
 RawInt64
 Value
+Double
 Limit
 }
 ;

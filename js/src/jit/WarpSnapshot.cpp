@@ -2334,6 +2334,15 @@ Type
 :
 RawInt64
 :
+case
+StubField
+:
+:
+Type
+:
+:
+Double
+:
 break
 ;
 case
