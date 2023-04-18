@@ -1653,10 +1653,12 @@ self
 convert_patterns_to_paths
 (
 vendor_dir
+[
 "
 *
 *
 "
+]
 )
 :
                     
