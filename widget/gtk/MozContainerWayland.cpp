@@ -219,6 +219,10 @@ static
 bool
 moz_container_wayland_surface_create_locked
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 MozContainer
 *
 container
@@ -228,6 +232,10 @@ static
 void
 moz_container_wayland_set_opaque_region_locked
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 MozContainer
 *
 container
@@ -374,6 +382,10 @@ static
 void
 moz_container_wayland_move_locked
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 MozContainer
 *
 container
@@ -905,6 +917,10 @@ static
 void
 moz_container_wayland_clear_initial_draw_callback_locked
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 MozContainer
 *
 container
@@ -965,6 +981,7 @@ container_lock
 ;
 moz_container_wayland_clear_initial_draw_callback_locked
 (
+lock
 container
 )
 ;
@@ -1222,6 +1239,10 @@ static
 bool
 moz_gdk_wayland_window_add_frame_callback_surface_locked
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 MozContainer
 *
 container
@@ -1334,6 +1355,10 @@ static
 void
 moz_gdk_wayland_window_remove_frame_callback_surface_locked
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 MozContainer
 *
 container
@@ -1487,6 +1512,7 @@ container
 ;
 moz_container_wayland_clear_initial_draw_callback_locked
 (
+lock
 container
 )
 ;
@@ -1500,6 +1526,7 @@ opaque_region_used
 {
 moz_gdk_wayland_window_remove_frame_callback_surface_locked
 (
+lock
 container
 )
 ;
@@ -1668,6 +1695,7 @@ if
 !
 moz_container_wayland_surface_create_locked
 (
+lock
 MOZ_CONTAINER
 (
 widget
@@ -1690,6 +1718,7 @@ widget
 ;
 moz_container_wayland_set_opaque_region_locked
 (
+lock
 MOZ_CONTAINER
 (
 widget
@@ -2075,6 +2104,7 @@ if
 !
 moz_container_wayland_surface_create_locked
 (
+lock
 container
 )
 )
@@ -2090,11 +2120,13 @@ container
 ;
 moz_container_wayland_set_opaque_region_locked
 (
+lock
 container
 )
 ;
 moz_container_wayland_move_locked
 (
+lock
 container
 allocation
 -
@@ -2215,6 +2247,10 @@ static
 void
 moz_container_wayland_set_opaque_region_locked
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 MozContainer
 *
 container
@@ -2355,6 +2391,7 @@ surface
 {
 moz_container_wayland_set_opaque_region_locked
 (
+lock
 container
 )
 ;
@@ -2393,6 +2430,16 @@ container
 -
 >
 wl_container
+;
+wl_container
+-
+>
+container_lock
+-
+>
+AssertCurrentThreadOwns
+(
+)
 ;
 nsWindow
 *
@@ -2592,6 +2639,10 @@ static
 bool
 moz_container_wayland_surface_create_locked
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 MozContainer
 *
 container
@@ -3021,6 +3072,7 @@ opaque_region_used
 =
 moz_gdk_wayland_window_add_frame_callback_surface_locked
 (
+aProofOfLock
 container
 )
 ;
@@ -3161,6 +3213,10 @@ wl_surface
 *
 moz_container_wayland_get_surface_locked
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 MozContainer
 *
 container
