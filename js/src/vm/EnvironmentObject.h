@@ -972,6 +972,16 @@ PropertyInfo
 propOut
 )
 ;
+static
+ModuleEnvironmentObject
+*
+find
+(
+JSObject
+*
+env
+)
+;
 private
 :
 static
