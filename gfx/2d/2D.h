@@ -4678,6 +4678,16 @@ return
 false
 ;
 }
+virtual
+bool
+MayUseBitmaps
+(
+)
+{
+return
+false
+;
+}
 void
 AddUserData
 (

@@ -121,6 +121,12 @@ true
 ;
 }
 bool
+MayUseBitmaps
+(
+)
+override
+;
+bool
 GetFontInstanceData
 (
 FontInstanceDataOutput

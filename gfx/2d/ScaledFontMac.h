@@ -252,6 +252,16 @@ return
 true
 ;
 }
+bool
+MayUseBitmaps
+(
+)
+override
+{
+return
+mHasColorGlyphs
+;
+}
 DeviceColor
 FontSmoothingBackgroundColor
 (
