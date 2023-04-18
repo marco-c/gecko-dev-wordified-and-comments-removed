@@ -20367,6 +20367,9 @@ endif
 ifndef
 FUZZING
 #
+ifndef
+ANDROID
+#
 ifdef
 DEBUG
 mozilla
@@ -20438,6 +20441,8 @@ xreDirectory
 ;
 }
 }
+#
+endif
 #
 endif
 #
