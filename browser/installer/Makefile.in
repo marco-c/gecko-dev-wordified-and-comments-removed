@@ -647,12 +647,8 @@ MOZ_WIDGET_TOOLKIT
 RESPATH
 =
 (
-_APPNAME
+_RESPATH
 )
-/
-Contents
-/
-Resources
 else
 RESPATH
 =

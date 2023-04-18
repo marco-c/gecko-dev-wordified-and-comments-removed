@@ -151,7 +151,6 @@ ifndef
 _BINPATH
 _BINPATH
 =
-/
 (
 _APPNAME
 )
@@ -173,7 +172,6 @@ precomplete
 file
 _RESPATH
 =
-/
 (
 _APPNAME
 )

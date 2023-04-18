@@ -349,6 +349,11 @@ MOZ_PKG_MANIFEST
 )
 (
 _BINPATH
+:
+%
+=
+/
+%
 )
 )
 \
@@ -954,6 +959,11 @@ MOZ_PKG_DIR
 )
 (
 _BINPATH
+:
+%
+=
+/
+%
 )
 .
 .
@@ -982,6 +992,11 @@ MOZ_PKG_DIR
 )
 (
 _BINPATH
+:
+%
+=
+/
+%
 )
 endif
 #
