@@ -1036,15 +1036,6 @@ unwatchAllResources
 this
 )
 ;
-this
-.
-emit
-(
-"
-destroyed
-"
-)
-;
 Actor
 .
 prototype

@@ -284,6 +284,9 @@ false
 keepAlive
 :
 false
+autoDestroy
+:
+false
 get
 rootlessServer
 (
@@ -1267,6 +1270,12 @@ connection
 ;
 if
 (
+!
+this
+.
+autoDestroy
+|
+|
 this
 .
 hasConnection
