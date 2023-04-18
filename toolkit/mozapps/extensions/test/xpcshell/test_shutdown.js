@@ -75,9 +75,6 @@ AddonAuthor
 AddonScreenshot
 "
 "
-AddonType
-"
-"
 startup
 "
 "
