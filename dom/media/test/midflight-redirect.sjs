@@ -612,6 +612,7 @@ substring
 end
 here
 .
+let
 byterange
 =
 bytes

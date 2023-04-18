@@ -169,10 +169,6 @@ page
 "
 )
 ;
-createIframe
-(
-)
-;
 return
 ;
 }

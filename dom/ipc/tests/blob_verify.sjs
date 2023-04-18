@@ -73,6 +73,9 @@ bodyBytes
 [
 ]
 ;
+let
+bodyAvail
+;
 while
 (
 (

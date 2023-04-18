@@ -63,10 +63,6 @@ bodyInputStream
 )
 ;
 var
-bytes
-=
-[
-]
 avail
 =
 0
