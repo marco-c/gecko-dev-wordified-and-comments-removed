@@ -189,6 +189,7 @@ getBreakableLinesForSourceActors
 (
 state
 ids
+isHTML
 )
 {
 const
@@ -231,6 +232,11 @@ fulfilled
 "
 )
 {
+if
+(
+isHTML
+)
+{
 allBreakableLines
 .
 push
@@ -243,6 +249,15 @@ breakableLines
 value
 )
 ;
+}
+else
+{
+return
+breakableLines
+.
+value
+;
+}
 }
 }
 return

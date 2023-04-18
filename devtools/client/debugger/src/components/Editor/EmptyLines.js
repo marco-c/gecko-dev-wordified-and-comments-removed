@@ -201,11 +201,15 @@ props
 return
 (
 breakableLines
+.
+size
 !
 =
 nextProps
 .
 breakableLines
+.
+size
 |
 |
 selectedSource
