@@ -47,6 +47,7 @@ token
 :
 :
 {
+SourceMetadata
 Token
 TokenValue
 }
@@ -75,7 +76,6 @@ Constant
 ConstantInner
 Expression
 ScalarValue
-Span
 Type
 }
 ;
@@ -146,7 +146,7 @@ source
 >
 last_meta
 :
-Span
+SourceMetadata
 }
 impl
 <
@@ -186,10 +186,10 @@ peekable
 )
 last_meta
 :
-Span
+SourceMetadata
 :
 :
-default
+none
 (
 )
 }
@@ -213,7 +213,7 @@ Result
 <
 (
 String
-Span
+SourceMetadata
 )
 >
 {
@@ -1027,10 +1027,10 @@ into
 )
 meta
 :
-Span
+SourceMetadata
 :
 :
-default
+none
 (
 )
 }
@@ -1060,7 +1060,7 @@ Result
 <
 (
 u32
-Span
+SourceMetadata
 )
 >
 {
@@ -1265,7 +1265,7 @@ Handle
 <
 Constant
 >
-Span
+SourceMetadata
 )
 >
 {
@@ -1381,7 +1381,7 @@ directive
 Directive
 meta
 :
-Span
+SourceMetadata
 )
 {
 let
@@ -2259,7 +2259,7 @@ Vec
 <
 (
 TypeQualifier
-Span
+SourceMetadata
 )
 >
 external
@@ -2322,7 +2322,7 @@ Constant
 >
 meta
 :
-Span
+SourceMetadata
 )
 -
 >

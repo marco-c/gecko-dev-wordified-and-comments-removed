@@ -217,11 +217,6 @@ sample_count
 context
 .
 sample_count
-multiview
-:
-context
-.
-multiview
 }
 }
 #
@@ -458,13 +453,6 @@ id
 SurfaceId
 }
 Present
-(
-id
-:
-:
-SurfaceId
-)
-DiscardSurfaceTexture
 (
 id
 :
@@ -984,7 +972,7 @@ wgt
 :
 Extent3d
 }
-FillBuffer
+ClearBuffer
 {
 dst
 :

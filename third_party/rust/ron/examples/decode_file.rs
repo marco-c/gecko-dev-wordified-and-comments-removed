@@ -1,11 +1,3 @@
-#
-!
-[
-allow
-(
-dead_code
-)
-]
 use
 ron
 :
@@ -69,12 +61,6 @@ tuple
 u32
 u32
 )
-vec
-:
-Vec
-<
-Nested
->
 }
 #
 [

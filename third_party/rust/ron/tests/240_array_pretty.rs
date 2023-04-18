@@ -50,7 +50,7 @@ new
 (
 )
 .
-new_line
+with_new_line
 (
 "
 \

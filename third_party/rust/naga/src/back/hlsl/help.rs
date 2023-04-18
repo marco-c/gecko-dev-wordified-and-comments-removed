@@ -1209,7 +1209,7 @@ ARGUMENT_VARIABLE_NAME
 str
 =
 "
-tex
+texture
 "
 ;
 const

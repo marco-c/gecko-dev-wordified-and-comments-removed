@@ -458,12 +458,12 @@ new
 (
 )
 .
-enumerate_arrays
+with_enumerate_arrays
 (
 true
 )
 .
-extensions
+with_extensions
 (
 Extensions
 :
@@ -727,7 +727,7 @@ new
 (
 )
 .
-separate_tuple_members
+with_separate_tuple_members
 (
 true
 )

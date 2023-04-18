@@ -20,7 +20,7 @@ ErrorKind
 }
 Parser
 Result
-Span
+SourceMetadata
 }
 ;
 use
@@ -136,7 +136,7 @@ a
 [
 (
 TypeQualifier
-Span
+SourceMetadata
 )
 ]
 pub
@@ -166,7 +166,7 @@ Constant
 pub
 meta
 :
-Span
+SourceMetadata
 }
 struct
 BuiltInData
@@ -231,7 +231,7 @@ data
 BuiltInData
 meta
 :
-Span
+SourceMetadata
 )
 -
 >
@@ -249,7 +249,7 @@ module
 .
 types
 .
-insert
+fetch_or_append
 (
 Type
 {
@@ -263,6 +263,10 @@ data
 inner
 }
 meta
+.
+as_span
+(
+)
 )
 ;
 let
@@ -303,6 +307,10 @@ init
 None
 }
 meta
+.
+as_span
+(
+)
 )
 ;
 let
@@ -425,9 +433,6 @@ mutable
 data
 .
 mutable
-constant
-:
-None
 entry_arg
 :
 Some
@@ -470,7 +475,7 @@ name
 str
 meta
 :
-Span
+SourceMetadata
 )
 -
 >
@@ -864,7 +869,7 @@ module
 .
 types
 .
-insert
+fetch_or_append
 (
 Type
 {
@@ -890,6 +895,10 @@ width
 }
 }
 meta
+.
+as_span
+(
+)
 )
 ;
 BuiltInData
@@ -1126,7 +1135,7 @@ name
 str
 meta
 :
-Span
+SourceMetadata
 )
 -
 >
@@ -2722,6 +2731,10 @@ ty
 init
 }
 meta
+.
+as_span
+(
+)
 )
 ;
 let
@@ -2906,7 +2919,6 @@ GlobalLookupKind
 Constant
 (
 init
-ty
 )
 entry_arg
 :
@@ -3101,6 +3113,10 @@ ty
 init
 }
 meta
+.
+as_span
+(
+)
 )
 ;
 if
@@ -3462,6 +3478,10 @@ ty
 init
 }
 meta
+.
+as_span
+(
+)
 )
 ;
 let
