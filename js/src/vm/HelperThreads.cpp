@@ -3738,6 +3738,10 @@ if
 (
 !
 initial
+|
+|
+!
+initial
 -
 >
 cloneFrom
