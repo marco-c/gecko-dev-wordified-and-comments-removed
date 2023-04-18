@@ -2151,13 +2151,6 @@ return
 }
 if
 (
-aSelection
-.
-RangeCount
-(
-)
-&
-&
 mWidget
 )
 {
