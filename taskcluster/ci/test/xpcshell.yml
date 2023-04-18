@@ -522,6 +522,13 @@ test
 -
 platform
 :
+android
+.
+*
+:
+built
+-
+projects
 linux1804
 -
 64
