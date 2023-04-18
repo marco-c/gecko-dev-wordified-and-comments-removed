@@ -17831,13 +17831,10 @@ MozWHPMADDWD
 :
 masm
 .
-vpmaddwd
+widenDotInt16x8
 (
-Operand
-(
-rhs
-)
 lhs
+rhs
 dest
 )
 ;
