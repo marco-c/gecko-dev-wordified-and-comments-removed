@@ -287,7 +287,11 @@ Exposed
 =
 Window
 Throws
-UseCounter
+Deprecated
+=
+"
+IDBDatabaseCreateMutableFile
+"
 ]
 IDBRequest
 createMutableFile

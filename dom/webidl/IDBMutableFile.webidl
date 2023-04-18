@@ -118,7 +118,11 @@ database
 ;
 [
 Throws
-UseCounter
+Deprecated
+=
+"
+IDBMutableFileOpen
+"
 ]
 IDBFileHandle
 open
