@@ -216,12 +216,6 @@ client
 .
 setEvalNextCrashDump
 (
-/
-*
-expectFatal
-*
-/
-true
 GeckoRuntime
 .
 CRASHED_PROCESS_TYPE_MAIN

@@ -173,12 +173,6 @@ client
 .
 setEvalNextCrashDump
 (
-/
-*
-expectFatal
-*
-/
-false
 GeckoRuntime
 .
 CRASHED_PROCESS_TYPE_BACKGROUND_CHILD
