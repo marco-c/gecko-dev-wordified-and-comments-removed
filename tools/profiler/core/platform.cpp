@@ -1206,6 +1206,11 @@ ProfilerFeature
 :
 :
 FileIOAll
+|
+ProfilerFeature
+:
+:
+IPCMessages
 ;
 }
 class

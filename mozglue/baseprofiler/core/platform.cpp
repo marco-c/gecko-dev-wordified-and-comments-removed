@@ -909,6 +909,11 @@ ProfilerFeature
 :
 :
 MainThreadIO
+|
+ProfilerFeature
+:
+:
+IPCMessages
 ;
 }
 class
