@@ -157,7 +157,11 @@ toObject
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 propId
 (
 cx
