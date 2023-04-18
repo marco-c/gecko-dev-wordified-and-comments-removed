@@ -60,4 +60,9 @@ HTTPCustomRequestPanel
 .
 js
 "
+"
+InputMap
+.
+js
+"
 )
