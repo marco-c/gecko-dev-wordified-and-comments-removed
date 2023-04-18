@@ -1184,6 +1184,9 @@ return
 LogMessageWithMode
 (
 aMessage
+nsIConsoleService
+:
+:
 OutputToLog
 )
 ;
@@ -1197,7 +1200,7 @@ LogMessageWithMode
 nsIConsoleMessage
 *
 aMessage
-nsConsoleService
+nsIConsoleService
 :
 :
 OutputMode
