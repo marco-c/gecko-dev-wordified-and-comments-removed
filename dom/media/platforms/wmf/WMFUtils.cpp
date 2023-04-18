@@ -1317,6 +1317,9 @@ Ptr_t
 __VA_ARGS__
 )
 HRESULT
+MediaFoundationInitializer
+:
+:
 MFStartup
 (
 )
@@ -1415,6 +1418,9 @@ hr
 ;
 }
 HRESULT
+MediaFoundationInitializer
+:
+:
 MFShutdown
 (
 )
