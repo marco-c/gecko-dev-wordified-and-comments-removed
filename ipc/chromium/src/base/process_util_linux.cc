@@ -1345,7 +1345,7 @@ fds_to_remap
 )
 )
 {
-DLOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -1424,7 +1424,7 @@ pid
 0
 )
 {
-DLOG
+CHROMIUM_LOG
 (
 WARNING
 )
