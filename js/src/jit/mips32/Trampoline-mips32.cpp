@@ -2381,6 +2381,15 @@ pushReturnAddress
 (
 )
 ;
+#
+error
+"
+Port
+changes
+from
+bug
+1772506
+"
 Register
 numActArgsReg
 =

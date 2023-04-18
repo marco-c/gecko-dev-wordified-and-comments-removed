@@ -2331,6 +2331,15 @@ pushReturnAddress
 (
 )
 ;
+#
+error
+"
+Port
+changes
+from
+bug
+1772506
+"
 masm
 .
 loadPtr
