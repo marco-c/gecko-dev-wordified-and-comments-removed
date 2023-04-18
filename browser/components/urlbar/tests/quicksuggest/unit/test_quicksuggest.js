@@ -5290,7 +5290,7 @@ UrlbarPrefs
 get
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
@@ -5298,7 +5298,7 @@ blockedDigests
 "
 "
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 is
@@ -5491,7 +5491,7 @@ UrlbarPrefs
 get
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
@@ -5542,7 +5542,7 @@ UrlbarPrefs
 set
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
@@ -5703,7 +5703,7 @@ UrlbarPrefs
 get
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
@@ -5785,7 +5785,7 @@ UrlbarPrefs
 get
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
@@ -5810,7 +5810,7 @@ UrlbarPrefs
 set
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
@@ -5883,7 +5883,7 @@ UrlbarPrefs
 clear
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
