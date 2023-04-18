@@ -2,7 +2,7 @@
 Speedometer
 2
 .
-0
+1
 :
 ES2015
 +
