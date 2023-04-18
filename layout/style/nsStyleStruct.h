@@ -8723,6 +8723,12 @@ mozilla
 StyleScrollTimelineName
 mScrollTimelineName
 ;
+mozilla
+:
+:
+StyleScrollAxis
+mScrollTimelineAxis
+;
 }
 ;
 struct

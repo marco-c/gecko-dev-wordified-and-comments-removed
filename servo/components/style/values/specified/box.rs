@@ -5555,9 +5555,17 @@ enum
 ScrollAxis
 {
 Block
+=
+0
 Inline
+=
+1
 Vertical
+=
+2
 Horizontal
+=
+3
 }
 impl
 Default
