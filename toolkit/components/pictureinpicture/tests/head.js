@@ -324,7 +324,7 @@ triggerPictureInPicture
 (
 browser
 videoID
-withCommand
+triggerFn
 )
 {
 let
@@ -344,7 +344,7 @@ null
 ;
 if
 (
-withCommand
+triggerFn
 )
 {
 await
@@ -382,18 +382,7 @@ focus
 }
 )
 ;
-document
-.
-getElementById
-(
-"
-View
-:
-PictureInPicture
-"
-)
-.
-doCommand
+triggerFn
 (
 )
 ;
