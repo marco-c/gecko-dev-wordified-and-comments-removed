@@ -1354,11 +1354,6 @@ mIsOnHeap
 =
 false
 ;
-bool
-mIsRegistryLockedSharedOnThisThread
-=
-false
-;
 static
 MOZ_THREAD_LOCAL
 (
