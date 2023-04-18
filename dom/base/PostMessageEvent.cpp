@@ -283,6 +283,7 @@ PostMessageEvent
 =
 default
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 PostMessageEvent
 :
@@ -1286,9 +1287,12 @@ EventDispatcher
 :
 Dispatch
 (
+MOZ_KnownLive
+(
 ToSupports
 (
 aTargetWindow
+)
 )
 presContext
 internalEvent

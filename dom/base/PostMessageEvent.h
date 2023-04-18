@@ -419,6 +419,7 @@ PostMessageEvent
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Dispatch
 (
@@ -430,6 +431,7 @@ Event
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DispatchError
 (
