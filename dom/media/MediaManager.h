@@ -918,12 +918,6 @@ GetNonE10sParent
 (
 )
 ;
-MediaEngine
-*
-GetBackend
-(
-)
-;
 RefPtr
 <
 GetUserMediaWindowListener
@@ -1622,6 +1616,12 @@ const
 LocalMediaDeviceSet
 &
 aDevices
+)
+;
+MediaEngine
+*
+GetBackend
+(
 )
 ;
 MOZ_DEFINE_MALLOC_SIZE_OF

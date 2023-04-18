@@ -1092,11 +1092,8 @@ media
 Refcountable
 ;
 static
-Atomic
-<
 bool
->
-sHasShutdown
+sHasMainThreadShutdown
 ;
 struct
 DeviceState
@@ -3123,7 +3120,7 @@ NS_IsMainThread
 ;
 if
 (
-sHasShutdown
+sHasMainThreadShutdown
 |
 |
 !
@@ -7436,7 +7433,7 @@ videoTrackSource
 )
 |
 |
-sHasShutdown
+sHasMainThreadShutdown
 )
 {
 LOG
@@ -7470,7 +7467,7 @@ Name
 :
 :
 AbortError
-sHasShutdown
+sHasMainThreadShutdown
 ?
 "
 In
@@ -8452,7 +8449,7 @@ __func__
 ;
 if
 (
-sHasShutdown
+sHasMainThreadShutdown
 )
 {
 holder
@@ -10860,9 +10857,16 @@ Runnable
 task
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
-sHasShutdown
+sHasMainThreadShutdown
 )
 {
 MOZ_CRASH
@@ -11221,7 +11225,7 @@ NS_IsMainThread
 ;
 if
 (
-sHasShutdown
+sHasMainThreadShutdown
 )
 {
 return
@@ -12175,7 +12179,7 @@ aConstraintsPassedIn
 ;
 if
 (
-sHasShutdown
+sHasMainThreadShutdown
 )
 {
 return
@@ -16140,12 +16144,6 @@ if
 mBackend
 )
 {
-MOZ_RELEASE_ASSERT
-(
-!
-sHasShutdown
-)
-;
 #
 if
 defined
@@ -17343,7 +17341,7 @@ NS_IsMainThread
 ;
 if
 (
-sHasShutdown
+sHasMainThreadShutdown
 )
 {
 return
@@ -17675,7 +17673,7 @@ StopWebRtcLog
 ;
 #
 endif
-sHasShutdown
+sHasMainThreadShutdown
 =
 true
 ;
@@ -18486,7 +18484,7 @@ NS_OK
 }
 if
 (
-sHasShutdown
+sHasMainThreadShutdown
 )
 {
 task
