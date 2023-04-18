@@ -23820,6 +23820,9 @@ restore_context
 &
 mut
 self
+pic_index
+:
+PictureIndex
 prim_list
 :
 PrimitiveList
@@ -23875,6 +23878,7 @@ surface_builder
 .
 pop_surface
 (
+pic_index
 frame_state
 .
 rg_builder
