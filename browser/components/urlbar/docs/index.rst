@@ -223,6 +223,11 @@ overview
 overview
 utilities
 telemetry
+firefox
+-
+suggest
+-
+telemetry
 debugging
 experiments
 dynamic
