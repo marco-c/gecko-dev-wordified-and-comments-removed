@@ -116,7 +116,6 @@ split
 "
 ;
 let
-mut
 listener
 =
 TcpListener
@@ -940,7 +939,7 @@ Duration
 :
 from_millis
 (
-50
+10
 )
 )
 ;

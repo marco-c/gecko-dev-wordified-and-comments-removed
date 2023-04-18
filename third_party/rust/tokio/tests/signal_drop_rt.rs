@@ -87,7 +87,6 @@ user_defined1
 )
 ;
 let
-mut
 first_rt
 =
 rt
@@ -123,7 +122,6 @@ signal
 )
 ;
 let
-mut
 second_rt
 =
 rt
@@ -235,11 +233,7 @@ runtime
 Builder
 :
 :
-new
-(
-)
-.
-basic_scheduler
+new_current_thread
 (
 )
 .

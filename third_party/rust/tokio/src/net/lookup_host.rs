@@ -1,4 +1,4 @@
-cfg_dns
+cfg_net
 !
 {
 use
@@ -11,7 +11,10 @@ net
 addr
 :
 :
+{
+self
 ToSocketAddrs
+}
 ;
 use
 std
@@ -266,10 +269,12 @@ T
 :
 ToSocketAddrs
 {
-host
-.
+addr
+:
+:
 to_socket_addrs
 (
+host
 )
 .
 await

@@ -65,7 +65,6 @@ connect_v4
 )
 {
 let
-mut
 srv
 =
 assert_ok
@@ -273,7 +272,6 @@ connect_v6
 )
 {
 let
-mut
 srv
 =
 assert_ok
@@ -479,7 +477,6 @@ connect_addr_ip_string
 )
 {
 let
-mut
 srv
 =
 assert_ok
@@ -606,7 +603,6 @@ connect_addr_ip_str_slice
 )
 {
 let
-mut
 srv
 =
 assert_ok
@@ -738,7 +734,6 @@ connect_addr_host_string
 )
 {
 let
-mut
 srv
 =
 assert_ok
@@ -859,7 +854,6 @@ connect_addr_ip_port_tuple
 )
 {
 let
-mut
 srv
 =
 assert_ok
@@ -978,7 +972,6 @@ connect_addr_ip_str_port_tuple
 )
 {
 let
-mut
 srv
 =
 assert_ok
@@ -1101,7 +1094,6 @@ connect_addr_host_str_port_tuple
 )
 {
 let
-mut
 srv
 =
 assert_ok

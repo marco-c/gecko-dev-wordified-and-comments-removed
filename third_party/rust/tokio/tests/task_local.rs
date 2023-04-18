@@ -1,3 +1,15 @@
+#
+!
+[
+cfg
+(
+feature
+=
+"
+full
+"
+)
+]
 tokio
 :
 :
@@ -23,7 +35,11 @@ tokio
 :
 test
 (
-threaded_scheduler
+flavor
+=
+"
+multi_thread
+"
 )
 ]
 async
@@ -126,7 +142,7 @@ tokio
 time
 :
 :
-delay_for
+sleep
 (
 std
 :

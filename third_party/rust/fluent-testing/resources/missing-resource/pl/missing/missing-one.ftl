@@ -1,0 +1,5 @@
+missing
+-
+one
+=
+zaginiony

@@ -1,0 +1,5 @@
+empty
+-
+one
+=
+pusty

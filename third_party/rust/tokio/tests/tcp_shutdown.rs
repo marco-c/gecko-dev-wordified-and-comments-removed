@@ -27,6 +27,7 @@ io
 :
 {
 self
+AsyncReadExt
 AsyncWriteExt
 }
 ;
@@ -41,15 +42,6 @@ net
 TcpListener
 TcpStream
 }
-;
-use
-tokio
-:
-:
-prelude
-:
-:
-*
 ;
 use
 tokio_test
@@ -71,7 +63,6 @@ shutdown
 )
 {
 let
-mut
 srv
 =
 assert_ok
@@ -159,7 +150,7 @@ mut
 buf
 =
 [
-0
+0u8
 ;
 1
 ]

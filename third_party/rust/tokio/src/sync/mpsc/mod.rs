@@ -38,6 +38,8 @@ bounded
 :
 {
 channel
+OwnedPermit
+Permit
 Receiver
 Sender
 }

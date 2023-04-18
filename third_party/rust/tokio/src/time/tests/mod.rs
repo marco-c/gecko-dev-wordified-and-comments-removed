@@ -1,5 +1,5 @@
 mod
-test_delay
+test_sleep
 ;
 use
 crate
@@ -60,16 +60,13 @@ crate
 time
 :
 :
-driver
-:
-:
-Registration
+Sleep
 ;
 assert_send
 :
 :
 <
-Registration
+Sleep
 >
 (
 )
@@ -78,7 +75,7 @@ assert_sync
 :
 :
 <
-Registration
+Sleep
 >
 (
 )
@@ -93,7 +90,7 @@ test
 should_panic
 ]
 fn
-delay_is_eager
+sleep_is_eager
 (
 )
 {
@@ -121,7 +118,7 @@ _
 time
 :
 :
-delay_until
+sleep_until
 (
 when
 )

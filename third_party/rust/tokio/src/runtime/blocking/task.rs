@@ -115,6 +115,17 @@ FnOnce
 -
 >
 R
++
+Send
++
+'
+static
+R
+:
+Send
++
+'
+static
 {
 type
 Output

@@ -383,12 +383,6 @@ assert
 fs
 :
 :
-os
-:
-:
-unix
-:
-:
 symlink
 (
 src_2

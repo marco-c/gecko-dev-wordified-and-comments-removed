@@ -152,7 +152,6 @@ move
 |
 {
 let
-mut
 rt
 =
 rt
@@ -281,11 +280,7 @@ runtime
 Builder
 :
 :
-new
-(
-)
-.
-basic_scheduler
+new_current_thread
 (
 )
 .

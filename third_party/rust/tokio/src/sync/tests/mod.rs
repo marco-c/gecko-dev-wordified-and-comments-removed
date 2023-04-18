@@ -5,7 +5,7 @@ mod
 atomic_waker
 ;
 mod
-semaphore_ll
+notify
 ;
 mod
 semaphore_batch
@@ -19,16 +19,6 @@ loom_atomic_waker
 ;
 mod
 loom_broadcast
-;
-#
-[
-cfg
-(
-tokio_unstable
-)
-]
-mod
-loom_cancellation_token
 ;
 mod
 loom_list
@@ -46,6 +36,9 @@ mod
 loom_semaphore_batch
 ;
 mod
-loom_semaphore_ll
+loom_watch
+;
+mod
+loom_rwlock
 ;
 }

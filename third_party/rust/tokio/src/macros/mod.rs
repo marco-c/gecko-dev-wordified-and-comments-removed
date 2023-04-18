@@ -52,6 +52,17 @@ macro_use
 mod
 thread_local
 ;
+cfg_trace
+!
+{
+#
+[
+macro_use
+]
+mod
+trace
+;
+}
 #
 [
 macro_use
@@ -64,8 +75,6 @@ feature
 =
 "
 rt
--
-core
 "
 )
 ]

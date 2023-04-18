@@ -28,15 +28,6 @@ net
 TcpListener
 ;
 use
-tokio
-:
-:
-prelude
-:
-:
-*
-;
-use
 tokio_test
 :
 :
@@ -90,7 +81,6 @@ usize
 1024
 ;
 let
-mut
 srv
 =
 assert_ok
@@ -348,6 +338,9 @@ n
 assert_ok
 !
 (
+tokio
+:
+:
 io
 :
 :

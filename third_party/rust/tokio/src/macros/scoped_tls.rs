@@ -170,13 +170,6 @@ ScopedKey
 T
 >
 {
-#
-[
-doc
-(
-hidden
-)
-]
 pub
 (
 crate
@@ -196,13 +189,6 @@ const
 )
 >
 >
-#
-[
-doc
-(
-hidden
-)
-]
 pub
 (
 crate
