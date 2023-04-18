@@ -606,15 +606,6 @@ logrefcnt
 -
 enable
 -
-necko
--
-wifi
-"
-"
--
--
-enable
--
 negotiateauth
 "
 "
