@@ -10583,7 +10583,7 @@ readTime
 .
 enabled
 "
-false
+true
 )
 ;
 pref
