@@ -224,7 +224,7 @@ uint32_t
 mLength
 ;
 int64_t
-mExactUsage
+mUsage
 ;
 int64_t
 mPeakUsage

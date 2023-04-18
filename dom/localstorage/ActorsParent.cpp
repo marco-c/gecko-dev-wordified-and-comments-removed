@@ -6556,7 +6556,7 @@ void
 BeginUpdateBatch
 (
 int64_t
-aSnapshotInitialUsage
+aSnapshotUsage
 )
 ;
 int64_t
@@ -7586,7 +7586,7 @@ aNextLoadIndex
 uint32_t
 aTotalLength
 int64_t
-aInitialUsage
+aUsage
 int64_t
 aPeakUsage
 LSSnapshot
@@ -7606,7 +7606,7 @@ AssertIsOnBackgroundThread
 ;
 MOZ_ASSERT
 (
-aInitialUsage
+aUsage
 >
 =
 0
@@ -7617,7 +7617,7 @@ MOZ_ASSERT
 aPeakUsage
 >
 =
-aInitialUsage
+aUsage
 )
 ;
 MOZ_ASSERT_IF
@@ -7690,7 +7690,7 @@ aTotalLength
 ;
 mUsage
 =
-aInitialUsage
+aUsage
 ;
 mPeakUsage
 =
@@ -20005,7 +20005,7 @@ Datastore
 BeginUpdateBatch
 (
 int64_t
-aSnapshotInitialUsage
+aSnapshotUsage
 )
 {
 AssertIsOnBackgroundThread
@@ -20035,7 +20035,7 @@ mInUpdateBatch
 ;
 mUpdateBatchUsage
 =
-aSnapshotInitialUsage
+aSnapshotUsage
 ;
 if
 (
@@ -22548,7 +22548,7 @@ GetLength
 )
 ;
 int64_t
-initialUsage
+usage
 =
 mDatastore
 -
@@ -22560,7 +22560,7 @@ GetUsage
 int64_t
 peakUsage
 =
-initialUsage
+usage
 ;
 if
 (
@@ -22622,7 +22622,7 @@ unknownItems
 )
 nextLoadIndex
 totalLength
-initialUsage
+usage
 peakUsage
 loadState
 hasOtherProcessDatabases
@@ -22670,11 +22670,11 @@ totalLength
 aInitInfo
 -
 >
-initialUsage
+usage
 (
 )
 =
-initialUsage
+usage
 ;
 aInitInfo
 -
