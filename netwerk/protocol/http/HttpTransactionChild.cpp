@@ -2188,6 +2188,17 @@ protocol
 )
 ;
 }
+nsAutoCString
+unused
+;
+info
+-
+>
+GetPeerId
+(
+unused
+)
+;
 nsCOMPtr
 <
 nsISerializable

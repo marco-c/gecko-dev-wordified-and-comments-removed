@@ -164,7 +164,7 @@ QueryInterface
 (
 Ci
 .
-nsISSLSocketControl
+nsITransportSecurityInfo
 )
 .
 peerId

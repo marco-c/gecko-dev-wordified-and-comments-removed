@@ -310,5 +310,10 @@ attribute
 boolean
 isBuiltCertChainRootBuiltInRoot
 ;
+readonly
+attribute
+ACString
+peerId
+;
 }
 ;
