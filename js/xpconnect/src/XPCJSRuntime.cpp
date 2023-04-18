@@ -755,6 +755,15 @@ Run
 )
 override
 {
+AUTO_PROFILER_LABEL_RELEVANT_FOR_JS
+(
+"
+Incremental
+CC
+"
+GCCC
+)
+;
 AUTO_PROFILER_LABEL
 (
 "
