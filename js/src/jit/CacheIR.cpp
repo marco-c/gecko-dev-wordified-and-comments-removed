@@ -39433,7 +39433,9 @@ args_
 if
 (
 !
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 writer
@@ -40722,7 +40724,9 @@ ifndef
 JS_CODEGEN_X86
 if
 (
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 switch
@@ -41116,7 +41120,9 @@ ifndef
 JS_CODEGEN_X86
 if
 (
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 switch
@@ -41510,7 +41516,9 @@ ifndef
 JS_CODEGEN_X86
 if
 (
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 switch
@@ -43032,7 +43040,9 @@ argc_
 ;
 MOZ_ASSERT
 (
-script_
+script
+(
+)
 -
 >
 isFunction
@@ -43700,7 +43710,9 @@ argc_
 if
 (
 !
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 return
@@ -43862,7 +43874,9 @@ NoAction
 if
 (
 !
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 return
@@ -44288,7 +44302,9 @@ NoAction
 if
 (
 !
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 return
