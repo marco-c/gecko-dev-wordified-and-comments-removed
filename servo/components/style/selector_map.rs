@@ -88,7 +88,6 @@ matching
 :
 {
 matches_selector
-ElementSelectorFlags
 MatchingContext
 }
 ;
@@ -801,7 +800,6 @@ fn
 get_all_matching_rules
 <
 E
-F
 >
 (
 &
@@ -828,11 +826,6 @@ E
 :
 Impl
 >
-flags_setter
-:
-&
-mut
-F
 cascade_level
 :
 CascadeLevel
@@ -845,14 +838,6 @@ where
 E
 :
 TElement
-F
-:
-FnMut
-(
-&
-E
-ElementSelectorFlags
-)
 {
 if
 self
@@ -892,7 +877,6 @@ self
 root
 matching_rules_list
 context
-flags_setter
 cascade_level
 cascade_data
 )
@@ -937,7 +921,6 @@ element
 rules
 matching_rules_list
 context
-flags_setter
 cascade_level
 cascade_data
 )
@@ -978,7 +961,6 @@ element
 rules
 matching_rules_list
 context
-flags_setter
 cascade_level
 cascade_data
 )
@@ -1024,7 +1006,6 @@ element
 rules
 matching_rules_list
 context
-flags_setter
 cascade_level
 cascade_data
 )
@@ -1062,7 +1043,6 @@ element
 rules
 matching_rules_list
 context
-flags_setter
 cascade_level
 cascade_data
 )
@@ -1096,7 +1076,6 @@ element
 rules
 matching_rules_list
 context
-flags_setter
 cascade_level
 cascade_data
 )
@@ -1113,7 +1092,6 @@ self
 other
 matching_rules_list
 context
-flags_setter
 cascade_level
 cascade_data
 )
@@ -1127,7 +1105,6 @@ fn
 get_matching_rules
 <
 E
-F
 >
 (
 element
@@ -1155,11 +1132,6 @@ E
 :
 Impl
 >
-flags_setter
-:
-&
-mut
-F
 cascade_level
 :
 CascadeLevel
@@ -1172,14 +1144,6 @@ where
 E
 :
 TElement
-F
-:
-FnMut
-(
-&
-E
-ElementSelectorFlags
-)
 {
 for
 rule
@@ -1204,7 +1168,6 @@ hashes
 &
 element
 context
-flags_setter
 )
 {
 matching_rules
