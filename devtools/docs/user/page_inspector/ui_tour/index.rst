@@ -320,6 +320,7 @@ layout
 .
 image
 :
+:
 inspector_2pane
 .
 png
@@ -639,6 +640,7 @@ page
 .
 image
 :
+:
 inspector_layout
 .
 png
@@ -943,6 +945,7 @@ deprecated
 .
 image
 :
+:
 compat_view
 .
 png
@@ -1239,6 +1242,7 @@ them
 .
 .
 image
+:
 :
 animation_detail
 .
