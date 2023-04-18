@@ -4,11 +4,6 @@ strict
 "
 ;
 const
-myScope
-=
-this
-;
-const
 {
 PromiseUtils
 }
@@ -2298,7 +2293,8 @@ Cu
 cloneInto
 (
 metadata
-myScope
+{
+}
 )
 ;
 let
