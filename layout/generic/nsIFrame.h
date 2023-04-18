@@ -8069,6 +8069,12 @@ IsContentHidden
 )
 const
 ;
+bool
+AncestorHidesContent
+(
+)
+const
+;
 mozilla
 :
 :
