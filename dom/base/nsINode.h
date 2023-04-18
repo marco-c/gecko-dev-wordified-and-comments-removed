@@ -1457,6 +1457,16 @@ aNode
 )
 const
 ;
+bool
+IsInclusiveFlatTreeDescendantOf
+(
+const
+nsINode
+*
+aNode
+)
+const
+;
 inline
 mozilla
 :
