@@ -47566,6 +47566,9 @@ callee
 (
 )
 ;
+CodeOffset
+retOffset
+;
 switch
 (
 callee
@@ -47584,6 +47587,8 @@ CalleeDesc
 :
 Func
 :
+retOffset
+=
 masm
 .
 call
@@ -47615,6 +47620,8 @@ CalleeDesc
 :
 Import
 :
+retOffset
+=
 masm
 .
 wasmCallImport
@@ -47643,6 +47650,8 @@ CalleeDesc
 :
 WasmTable
 :
+retOffset
+=
 masm
 .
 wasmCallIndirect
@@ -47682,6 +47691,8 @@ CalleeDesc
 :
 Builtin
 :
+retOffset
+=
 masm
 .
 call
@@ -47713,6 +47724,8 @@ CalleeDesc
 :
 BuiltinInstanceMethod
 :
+retOffset
+=
 masm
 .
 wasmCallBuiltinInstanceMethod
@@ -47746,9 +47759,9 @@ break
 }
 markSafepointAt
 (
-masm
+retOffset
 .
-currentOffset
+offset
 (
 )
 lir
