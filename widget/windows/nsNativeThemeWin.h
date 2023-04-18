@@ -154,7 +154,16 @@ TimeDuration
 TimeDuration
 ;
 NS_DECL_ISUPPORTS_INHERITED
-bool
+enum
+class
+NonNative
+{
+No
+Always
+BecauseColorMismatch
+}
+;
+NonNative
 IsWidgetNonNative
 (
 nsIFrame
