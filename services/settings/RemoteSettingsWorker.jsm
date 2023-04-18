@@ -61,11 +61,17 @@ RemoteSettingsWorker
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gMaxIdleMilliseconds
 "
@@ -85,7 +91,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AsyncShutdown
 "
@@ -108,7 +114,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SharedUtils
 "
@@ -623,6 +629,8 @@ stop
 )
 ;
 }
+lazy
+.
 gMaxIdleMilliseconds
 )
 ;
@@ -849,6 +857,8 @@ hash
 )
 {
 return
+lazy
+.
 SharedUtils
 .
 checkContentHash
@@ -862,6 +872,8 @@ hash
 }
 try
 {
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange

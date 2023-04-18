@@ -12,11 +12,17 @@ RemoteSettingsTimer
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 RemoteSettings
 "
@@ -101,6 +107,8 @@ notify
 timer
 )
 {
+lazy
+.
 RemoteSettings
 .
 pollChanges

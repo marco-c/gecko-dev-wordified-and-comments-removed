@@ -22,11 +22,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 KeyValueService
 :
@@ -450,6 +456,8 @@ this
 store
 =
 await
+lazy
+.
 KeyValueService
 .
 getOrCreate
