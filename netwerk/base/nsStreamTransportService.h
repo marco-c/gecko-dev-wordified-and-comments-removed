@@ -168,6 +168,10 @@ nsCOMPtr
 nsIThreadPool
 >
 mPool
+GUARDED_BY
+(
+mShutdownLock
+)
 ;
 DataMutex
 <
@@ -186,7 +190,6 @@ mozilla
 :
 Mutex
 mShutdownLock
-MOZ_UNANNOTATED
 {
 "
 nsStreamTransportService
@@ -197,6 +200,10 @@ mShutdownLock
 ;
 bool
 mIsShutdown
+GUARDED_BY
+(
+mShutdownLock
+)
 {
 false
 }
