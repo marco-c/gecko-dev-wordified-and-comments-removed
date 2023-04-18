@@ -425,6 +425,9 @@ offsets
 YUVColorSpace
 yUVColorSpace
 ;
+ColorRange
+colorRange
+;
 FileDescriptor
 [
 ]
