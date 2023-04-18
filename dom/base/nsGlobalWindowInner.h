@@ -7123,6 +7123,12 @@ GetTopLevelAntiTrackingPrincipal
 (
 )
 ;
+nsIPrincipal
+*
+GetClientPrincipal
+(
+)
+;
 void
 StorageAccessPermissionGranted
 (
