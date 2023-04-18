@@ -1708,7 +1708,7 @@ mozilla
 :
 ColorScheme
 >
-GetOverriddenColorScheme
+GetOverriddenOrEmbedderColorScheme
 (
 )
 const
@@ -4050,7 +4050,7 @@ dom
 :
 :
 PrefersColorSchemeOverride
-mColorSchemeOverride
+mOverriddenOrEmbedderColorScheme
 ;
 protected
 :

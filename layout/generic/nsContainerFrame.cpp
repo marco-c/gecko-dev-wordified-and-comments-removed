@@ -4017,7 +4017,7 @@ scheme
 aPresContext
 -
 >
-GetOverriddenColorScheme
+GetOverriddenOrEmbedderColorScheme
 (
 )
 )

@@ -83669,7 +83669,7 @@ scheme
 pc
 -
 >
-GetOverriddenColorScheme
+GetOverriddenOrEmbedderColorScheme
 (
 )
 )
