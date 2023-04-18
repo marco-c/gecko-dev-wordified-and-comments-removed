@@ -168,6 +168,13 @@ return
 mConfirmationState
 ;
 }
+virtual
+void
+ReadEtcHostsFile
+(
+)
+override
+;
 private
 :
 virtual

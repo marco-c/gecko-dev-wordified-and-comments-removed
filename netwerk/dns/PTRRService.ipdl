@@ -90,6 +90,15 @@ HttpConnectionInfoCloneArgs
 aConnInfoArgs
 )
 ;
+async
+UpdateEtcHosts
+(
+nsCString
+[
+]
+aHosts
+)
+;
 }
 ;
 }
