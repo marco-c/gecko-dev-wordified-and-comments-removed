@@ -679,13 +679,6 @@ done
 )
 ;
 await
-contentPage
-.
-close
-(
-)
-;
-await
 page
 .
 close
@@ -696,6 +689,13 @@ await
 extension
 .
 unload
+(
+)
+;
+await
+contentPage
+.
+close
 (
 )
 ;
