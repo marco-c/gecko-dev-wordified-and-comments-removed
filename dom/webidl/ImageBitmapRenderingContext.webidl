@@ -208,6 +208,12 @@ Worker
 interface
 ImageBitmapRenderingContext
 {
+readonly
+attribute
+CanvasSource
+?
+canvas
+;
 /
 /
 Displays

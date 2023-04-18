@@ -167,6 +167,14 @@ nsISupports
 interface
 Variant
 ;
+typedef
+(
+HTMLCanvasElement
+or
+OffscreenCanvas
+)
+CanvasSource
+;
 [
 Exposed
 =

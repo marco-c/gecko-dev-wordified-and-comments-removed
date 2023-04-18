@@ -3079,11 +3079,7 @@ apparently
 .
 readonly
 attribute
-(
-HTMLCanvasElement
-or
-OffscreenCanvas
-)
+CanvasSource
 ?
 canvas
 ;
