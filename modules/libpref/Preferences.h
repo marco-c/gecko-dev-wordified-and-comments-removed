@@ -941,6 +941,16 @@ aPrefName
 )
 ;
 static
+bool
+IsSanitized
+(
+const
+char
+*
+aPrefName
+)
+;
+static
 nsresult
 ClearUser
 (
