@@ -202,6 +202,12 @@ mEOF
 false
 }
 ;
+bool
+mSeekable
+{
+true
+}
+;
 uint8_t
 mGetBufferCount
 {
