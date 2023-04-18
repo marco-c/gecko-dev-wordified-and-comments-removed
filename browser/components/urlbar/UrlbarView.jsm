@@ -7281,6 +7281,15 @@ if
 result
 .
 heuristic
+&
+&
+!
+result
+.
+autofill
+?
+.
+hasTitle
 )
 {
 isVisitAction

@@ -174,6 +174,9 @@ www
 host
 }
 /
+hasAutofillTitle
+:
+false
 matches
 :
 [
@@ -348,6 +351,9 @@ https
 host
 }
 /
+hasAutofillTitle
+:
+false
 matches
 :
 [

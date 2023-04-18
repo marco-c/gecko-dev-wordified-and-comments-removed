@@ -986,6 +986,9 @@ example
 com
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -1001,7 +1004,9 @@ wwwUrl
 /
 title
 :
-wwwUrl
+"
+Example
+"
 heuristic
 :
 true

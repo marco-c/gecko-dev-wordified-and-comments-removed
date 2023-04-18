@@ -161,6 +161,9 @@ mozilla
 org
 /
 "
+hasAutofillTitle
+:
+false
 matches
 :
 [
@@ -299,6 +302,9 @@ mozilla
 org
 /
 "
+hasAutofillTitle
+:
+false
 matches
 :
 [
