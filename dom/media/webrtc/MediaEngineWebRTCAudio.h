@@ -59,7 +59,7 @@ class
 AudioInputProcessing
 ;
 class
-AudioInputTrack
+AudioProcessingTrack
 ;
 class
 MediaEngineWebRTCMicrophoneSource
@@ -266,7 +266,7 @@ mCurrentPrefs
 ;
 RefPtr
 <
-AudioInputTrack
+AudioProcessingTrack
 >
 mTrack
 ;
@@ -639,7 +639,7 @@ mChunksInPacketizer
 }
 ;
 class
-AudioInputTrack
+AudioProcessingTrack
 :
 public
 ProcessedMediaTrack
@@ -672,7 +672,7 @@ AudioDeviceID
 mDeviceId
 ;
 explicit
-AudioInputTrack
+AudioProcessingTrack
 (
 TrackRate
 aSampleRate
@@ -693,7 +693,7 @@ AudioSegment
 {
 }
 ~
-AudioInputTrack
+AudioProcessingTrack
 (
 )
 =
@@ -752,7 +752,7 @@ aInputProcessing
 )
 ;
 static
-AudioInputTrack
+AudioProcessingTrack
 *
 Create
 (
@@ -843,7 +843,7 @@ uint32_t
 aChannels
 )
 ;
-AudioInputTrack
+AudioProcessingTrack
 *
 AsAudioInputTrack
 (

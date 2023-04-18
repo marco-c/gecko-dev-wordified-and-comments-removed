@@ -202,7 +202,7 @@ uint8_t
 ;
 }
 class
-AudioInputTrack
+AudioProcessingTrack
 ;
 class
 AudioNodeEngine
@@ -707,7 +707,7 @@ class
 AudioNodeExternalInputTrack
 ;
 virtual
-AudioInputTrack
+AudioProcessingTrack
 *
 AsAudioInputTrack
 (

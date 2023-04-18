@@ -5609,7 +5609,7 @@ clear
 ;
 }
 void
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 Destroy
@@ -5636,7 +5636,7 @@ Destroy
 ;
 }
 void
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 SetInputProcessing
@@ -5657,7 +5657,7 @@ ControlMessage
 const
 RefPtr
 <
-AudioInputTrack
+AudioProcessingTrack
 >
 mTrack
 ;
@@ -5674,7 +5674,7 @@ Message
 (
 RefPtr
 <
-AudioInputTrack
+AudioProcessingTrack
 >
 aTrack
 RefPtr
@@ -5719,7 +5719,7 @@ override
 TRACE
 (
 "
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 SetInputProcessingImpl
@@ -5777,9 +5777,9 @@ aInputProcessing
 )
 ;
 }
-AudioInputTrack
+AudioProcessingTrack
 *
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 Create
@@ -5796,12 +5796,12 @@ NS_IsMainThread
 )
 )
 ;
-AudioInputTrack
+AudioProcessingTrack
 *
 track
 =
 new
-AudioInputTrack
+AudioProcessingTrack
 (
 aGraph
 -
@@ -5824,7 +5824,7 @@ track
 ;
 }
 void
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 DestroyImpl
@@ -5853,7 +5853,7 @@ End
 }
 }
 void
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 ProcessInput
@@ -5869,13 +5869,13 @@ aFlags
 TRACE_COMMENT
 (
 "
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 ProcessInput
 "
 "
-AudioInputTrack
+AudioProcessingTrack
 %
 p
 "
@@ -5898,7 +5898,7 @@ Driver
 %
 p
 )
-AudioInputTrack
+AudioProcessingTrack
 %
 p
 ProcessInput
@@ -6004,7 +6004,7 @@ Driver
 %
 p
 )
-AudioInputTrack
+AudioProcessingTrack
 %
 p
 Filling
@@ -6123,7 +6123,7 @@ true
 }
 }
 void
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 GetInputSourceData
@@ -6306,7 +6306,7 @@ Driver
 %
 p
 )
-AudioInputTrack
+AudioProcessingTrack
 %
 p
 Getting
@@ -6365,7 +6365,7 @@ Driver
 %
 p
 )
-AudioInputTrack
+AudioProcessingTrack
 %
 p
 Getting
@@ -6427,7 +6427,7 @@ Driver
 %
 p
 )
-AudioInputTrack
+AudioProcessingTrack
 %
 p
 Getting
@@ -6576,7 +6576,7 @@ source
 }
 }
 void
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 NotifyOutputData
@@ -6642,7 +6642,7 @@ aChannels
 }
 }
 void
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 SetInputProcessingImpl
@@ -6678,7 +6678,7 @@ aInputProcessing
 ;
 }
 nsresult
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 ConnectDeviceInput
@@ -6847,7 +6847,7 @@ NS_OK
 ;
 }
 void
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 DisconnectDeviceInput
@@ -6983,7 +6983,7 @@ CubebUtils
 :
 AudioDeviceID
 >
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 DeviceId

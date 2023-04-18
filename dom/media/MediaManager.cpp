@@ -7155,7 +7155,7 @@ else
 {
 track
 =
-AudioInputTrack
+AudioProcessingTrack
 :
 :
 Create
