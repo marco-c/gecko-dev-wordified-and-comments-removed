@@ -110,6 +110,11 @@ type
 {
 case
 "
+MozOpenDateTimePicker
+"
+:
+case
+"
 mozshowdropdown
 "
 :
