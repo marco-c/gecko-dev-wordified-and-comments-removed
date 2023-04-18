@@ -511,7 +511,7 @@ if
 NS_WARN_IF
 (
 !
-mTransceiverImpl
+mPipeline
 )
 )
 {
@@ -623,7 +623,7 @@ mSenderTrack
 |
 |
 !
-mTransceiverImpl
+mPipeline
 )
 {
 return
@@ -3729,10 +3729,6 @@ Shutdown
 )
 ;
 mPipeline
-=
-nullptr
-;
-mTransceiverImpl
 =
 nullptr
 ;
