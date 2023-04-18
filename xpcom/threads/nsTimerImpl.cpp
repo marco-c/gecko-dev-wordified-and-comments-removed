@@ -2043,15 +2043,6 @@ if
 mEventTarget
 )
 {
-NS_ERROR
-(
-"
-mEventTarget
-is
-NULL
-"
-)
-;
 return
 NS_ERROR_NOT_INITIALIZED
 ;
