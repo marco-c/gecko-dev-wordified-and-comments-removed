@@ -1262,6 +1262,7 @@ nsString
 aID
 )
 const
+override
 ;
 virtual
 already_AddRefed

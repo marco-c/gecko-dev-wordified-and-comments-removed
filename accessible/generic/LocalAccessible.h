@@ -2038,6 +2038,17 @@ Opacity
 const
 override
 ;
+virtual
+void
+DOMNodeID
+(
+nsString
+&
+aID
+)
+const
+override
+;
 protected
 :
 virtual
