@@ -891,13 +891,6 @@ bool
 aSelect
 )
 ;
-bool
-DoAction
-(
-uint8_t
-aIndex
-)
-;
 KeyBinding
 AccessKey
 (

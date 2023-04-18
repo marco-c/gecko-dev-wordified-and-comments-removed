@@ -560,6 +560,17 @@ aDescription
 )
 ;
 }
+virtual
+bool
+DoAction
+(
+uint8_t
+aIndex
+)
+const
+=
+0
+;
 bool
 IsDoc
 (
