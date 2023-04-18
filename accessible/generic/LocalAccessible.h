@@ -2474,6 +2474,9 @@ nsRect
 >
 mBounds
 ;
+int32_t
+mFirstLineStart
+;
 RefPtr
 <
 const
