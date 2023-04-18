@@ -601,6 +601,9 @@ GetPageThumbStream
 (
 nsIURI
 uri
+LoadInfoArgs
+?
+loadInfo
 )
 returns
 (
