@@ -499,6 +499,17 @@ nsACString
 aEchConfig
 )
 ;
+nsresult
+SendPriorityUpdateFrame
+(
+uint64_t
+aStreamId
+uint8_t
+aPriorityUrgency
+bool
+aPriorityIncremental
+)
+;
 private
 :
 ~
