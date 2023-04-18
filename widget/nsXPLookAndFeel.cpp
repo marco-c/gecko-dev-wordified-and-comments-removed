@@ -6497,7 +6497,7 @@ switch
 StaticPrefs
 :
 :
-browser_tabs_drawInTitlebar
+browser_tabs_inTitlebar
 (
 )
 )

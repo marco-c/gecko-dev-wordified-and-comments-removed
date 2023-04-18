@@ -470,7 +470,7 @@ browser
 .
 tabs
 .
-drawInTitlebar
+inTitlebar
 "
 drawInTitlebar
 )
@@ -832,7 +832,7 @@ browser
 .
 tabs
 .
-drawInTitlebar
+inTitlebar
 "
 )
 ;

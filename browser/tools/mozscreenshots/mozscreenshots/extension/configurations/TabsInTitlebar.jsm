@@ -20,7 +20,7 @@ browser
 .
 tabs
 .
-drawInTitlebar
+inTitlebar
 "
 ;
 const

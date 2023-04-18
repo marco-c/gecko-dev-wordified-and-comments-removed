@@ -970,7 +970,7 @@ browser
 .
 tabs
 .
-drawInTitlebar
+inTitlebar
 "
 ;
 Services

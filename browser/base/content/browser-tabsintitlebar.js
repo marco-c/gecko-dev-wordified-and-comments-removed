@@ -245,7 +245,7 @@ browser
 .
 tabs
 .
-drawInTitlebar
+inTitlebar
 "
 _readPref
 (
