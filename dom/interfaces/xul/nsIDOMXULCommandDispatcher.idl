@@ -166,6 +166,9 @@ Element
 updater
 )
 ;
+[
+can_run_script
+]
 void
 updateCommands
 (
