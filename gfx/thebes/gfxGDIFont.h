@@ -98,9 +98,10 @@ ScaledFont
 >
 GetScaledFont
 (
-DrawTarget
-*
-aTarget
+const
+TextRunDrawParams
+&
+aRunParams
 )
 override
 ;
