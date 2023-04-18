@@ -9558,7 +9558,9 @@ gcodeview
 return
 "
 -
-g
+gdwarf
+-
+4
 "
 option
 (
