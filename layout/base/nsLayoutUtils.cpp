@@ -49924,10 +49924,9 @@ isWindowsOrNonNativeTheme
 ifdef
 XP_WIN
 true
-|
-|
+;
 #
-endif
+else
 aDocument
 -
 >
@@ -49935,6 +49934,8 @@ ShouldAvoidNativeTheme
 (
 )
 ;
+#
+endif
 if
 (
 isWindowsOrNonNativeTheme

@@ -1242,7 +1242,7 @@ dmDuplex
 {
 default
 :
-MOZ_ASSERT_UNREACHABLE
+MOZ_FALLTHROUGH_ASSERT
 (
 "
 bad
@@ -1252,12 +1252,6 @@ dmDuplex
 field
 "
 )
-;
-[
-[
-fallthrough
-]
-]
 ;
 case
 DMDUP_SIMPLEX
