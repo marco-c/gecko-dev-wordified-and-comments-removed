@@ -1429,8 +1429,10 @@ release
 )
 mPacketDumper
 (
-new
 PacketDumper
+:
+:
+GetPacketDumper
 (
 mPc
 )
@@ -1630,10 +1632,6 @@ mReceiverRtcpSendEventListener
 DisconnectIfExists
 (
 )
-;
-mPacketDumper
-=
-nullptr
 ;
 }
 void

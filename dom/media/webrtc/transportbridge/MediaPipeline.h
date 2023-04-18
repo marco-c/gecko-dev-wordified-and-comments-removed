@@ -840,7 +840,7 @@ RtpHeaderParser
 >
 mRtpParser
 ;
-UniquePtr
+RefPtr
 <
 PacketDumper
 >
