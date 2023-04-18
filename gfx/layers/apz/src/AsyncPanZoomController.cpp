@@ -26126,7 +26126,7 @@ MaybeAdjustDeltaForScrollSnapping
 ScrollUnit
 :
 :
-LINES
+DEVICE_PIXELS
 predictedDelta
 startPosition
 )
