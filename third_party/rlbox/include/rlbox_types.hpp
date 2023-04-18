@@ -305,6 +305,7 @@ app_pointer_
 #
 SBXNAME
 =
+\
 rlbox
 :
 :
