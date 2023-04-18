@@ -3454,9 +3454,14 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+EditorDOMPoint
 nsresult
-MoveNodesIntoNewBlockquoteElement
+>
+WrapContentsInBlockquoteElementsWithTransaction
 (
+const
 nsTArray
 <
 OwningNonNull
@@ -3466,6 +3471,10 @@ nsIContent
 >
 &
 aArrayOfContents
+const
+Element
+&
+aEditingHost
 )
 ;
 [
