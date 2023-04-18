@@ -643,13 +643,6 @@ void
 ptr
 )
 ;
-static
-const
-int
-CHUNK_SIZE
-=
-4096
-;
 std
 :
 :
@@ -666,6 +659,11 @@ uint8_t
 >
 >
 arena
+;
+int
+current_chunk_size
+=
+0
 ;
 int
 current_chunk_offset
