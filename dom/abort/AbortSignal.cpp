@@ -741,6 +741,16 @@ Value
 aReason
 )
 {
+if
+(
+Aborted
+(
+)
+)
+{
+return
+;
+}
 AbortSignalImpl
 :
 :
