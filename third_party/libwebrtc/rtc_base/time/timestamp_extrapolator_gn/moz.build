@@ -177,12 +177,6 @@ src
 "
 "
 /
-ipc
-/
-glue
-"
-"
-/
 third_party
 /
 libwebrtc

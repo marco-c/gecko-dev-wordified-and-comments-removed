@@ -207,12 +207,6 @@ src
 "
 "
 /
-ipc
-/
-glue
-"
-"
-/
 media
 /
 libyuv
