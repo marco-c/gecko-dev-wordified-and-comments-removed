@@ -3172,7 +3172,7 @@ if
 script_
 -
 >
-module
+isModule
 (
 )
 )

@@ -7414,6 +7414,12 @@ JSRuntime
 rt
 )
 ;
+bool
+isModule
+(
+)
+const
+;
 js
 :
 :

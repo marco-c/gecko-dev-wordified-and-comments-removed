@@ -12418,7 +12418,7 @@ script
 )
 -
 >
-module
+isModule
 (
 )
 ;

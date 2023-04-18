@@ -1380,6 +1380,14 @@ NoEnvironment
 }
 if
 (
+script_
+-
+>
+isModule
+(
+)
+)
+{
 ModuleObject
 *
 module
@@ -1390,8 +1398,7 @@ script_
 module
 (
 )
-)
-{
+;
 JSObject
 *
 obj
