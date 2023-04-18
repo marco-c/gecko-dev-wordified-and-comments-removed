@@ -54,9 +54,6 @@ h_and_cpp
 Adapter
 "
 "
-AdapterFeatures
-"
-"
 BindGroup
 "
 "
@@ -127,6 +124,9 @@ Sampler
 "
 "
 ShaderModule
+"
+"
+SupportedFeatures
 "
 "
 SupportedLimits

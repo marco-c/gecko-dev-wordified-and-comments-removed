@@ -60,6 +60,9 @@ struct
 WGPUClient
 ;
 struct
+WGPULimits
+;
+struct
 WGPUTextureViewDescriptor
 ;
 }
@@ -170,6 +173,12 @@ dom
 GPUDeviceDescriptor
 &
 aDesc
+ffi
+:
+:
+WGPULimits
+*
+aLimtis
 )
 ;
 RawId

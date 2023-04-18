@@ -174,11 +174,14 @@ Adapter
 *
 const
 aParent
-const
+UniquePtr
+<
 ffi
 :
 :
 WGPULimits
+>
+&
 &
 aLimits
 )
