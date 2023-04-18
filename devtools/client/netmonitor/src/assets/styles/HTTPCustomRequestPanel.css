@@ -558,6 +558,12 @@ display
 :
 flex
 ;
+justify
+-
+content
+:
+end
+;
 flex
 -
 wrap
@@ -565,6 +571,12 @@ wrap
 wrap
 -
 reverse
+;
+justify
+-
+content
+:
+end
 ;
 gap
 :
@@ -826,7 +838,7 @@ custom
 -
 request
 -
-close
+clear
 -
 button
 {
@@ -967,6 +979,8 @@ and
 url
 {
 border
+-
+bottom
 :
 1px
 solid
@@ -976,7 +990,7 @@ var
 -
 grey
 -
-50
+60
 )
 ;
 }
@@ -1094,7 +1108,7 @@ var
 -
 grey
 -
-50
+60
 )
 ;
 }
@@ -1115,7 +1129,7 @@ custom
 -
 request
 -
-close
+clear
 -
 button
 {
@@ -1165,7 +1179,7 @@ custom
 -
 request
 -
-close
+clear
 -
 button
 :
@@ -1208,7 +1222,7 @@ custom
 -
 request
 -
-close
+clear
 -
 button
 :
@@ -1427,6 +1441,8 @@ and
 url
 {
 border
+-
+bottom
 :
 1px
 solid
@@ -1596,7 +1612,7 @@ custom
 -
 request
 -
-close
+clear
 -
 button
 {
@@ -1610,7 +1626,7 @@ var
 -
 grey
 -
-20
+25
 )
 ;
 border
@@ -1644,7 +1660,7 @@ custom
 -
 request
 -
-close
+clear
 -
 button
 :
@@ -1687,7 +1703,7 @@ custom
 -
 request
 -
-close
+clear
 -
 button
 :
