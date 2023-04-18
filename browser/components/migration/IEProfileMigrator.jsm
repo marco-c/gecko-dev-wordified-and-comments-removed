@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ctypes
 "
@@ -169,7 +175,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -192,7 +198,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OSCrypto
 "
@@ -384,6 +390,8 @@ url
 spec
 )
 ?
+lazy
+.
 PlacesUtils
 .
 history
@@ -392,6 +400,8 @@ TRANSITIONS
 .
 LINK
 :
+lazy
+.
 PlacesUtils
 .
 history
@@ -428,6 +438,8 @@ date
 :
 time
 ?
+lazy
+.
 PlacesUtils
 .
 toDate
@@ -757,6 +769,8 @@ this
 _crypto
 =
 new
+lazy
+.
 OSCrypto
 (
 )
@@ -1162,6 +1176,8 @@ let
 loginData
 =
 new
+lazy
+.
 ctypes
 .
 StructType
@@ -1173,6 +1189,8 @@ loginData
 {
 unknown1
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1180,6 +1198,8 @@ uint32_t
 {
 headerSize
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1187,6 +1207,8 @@ uint32_t
 {
 dataSize
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1194,6 +1216,8 @@ uint32_t
 {
 unknown2
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1201,6 +1225,8 @@ uint32_t
 {
 unknown3
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1208,6 +1234,8 @@ uint32_t
 {
 dataMax
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1215,6 +1243,8 @@ uint32_t
 {
 unknown4
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1222,6 +1252,8 @@ uint32_t
 {
 unknown5
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1229,6 +1261,8 @@ uint32_t
 {
 unknown6
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1240,6 +1274,8 @@ let
 loginItem
 =
 new
+lazy
+.
 ctypes
 .
 StructType
@@ -1251,6 +1287,8 @@ loginItem
 {
 usernameOffset
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1258,6 +1296,8 @@ uint32_t
 {
 loDateTime
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1265,6 +1305,8 @@ uint32_t
 {
 hiDateTime
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1272,6 +1314,8 @@ uint32_t
 {
 foo
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1279,6 +1323,8 @@ uint32_t
 {
 passwordOffset
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1286,6 +1332,8 @@ uint32_t
 {
 unknown1
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1293,6 +1341,8 @@ uint32_t
 {
 unknown2
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1300,6 +1350,8 @@ uint32_t
 {
 unknown3
 :
+lazy
+.
 ctypes
 .
 uint32_t
@@ -1335,6 +1387,8 @@ data
 let
 cdata
 =
+lazy
+.
 ctypes
 .
 unsigned_char
@@ -1352,6 +1406,8 @@ arr
 let
 currentLoginData
 =
+lazy
+.
 ctypes
 .
 cast
@@ -1377,6 +1433,8 @@ size
 let
 currentLoginItemPointer
 =
+lazy
+.
 ctypes
 .
 cast
@@ -1455,6 +1513,8 @@ currentResult
 .
 username
 =
+lazy
+.
 ctypes
 .
 cast
@@ -1471,6 +1531,8 @@ currentLoginItem
 .
 usernameOffset
 )
+lazy
+.
 ctypes
 .
 char16_t
@@ -1486,6 +1548,8 @@ currentResult
 .
 password
 =
+lazy
+.
 ctypes
 .
 cast
@@ -1502,6 +1566,8 @@ currentLoginItem
 .
 passwordOffset
 )
+lazy
+.
 ctypes
 .
 char16_t
