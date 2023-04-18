@@ -5203,7 +5203,15 @@ screenManager
 screenForRect
 (
 screenXDevPx
+/
+window
+.
+desktopToDeviceScale
 screenYDevPx
+/
+window
+.
+desktopToDeviceScale
 1
 1
 )
