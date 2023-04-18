@@ -696,6 +696,11 @@ build_env
 path
 )
 :
+if
+not
+path
+:
+return
 path_parts
 =
 path
