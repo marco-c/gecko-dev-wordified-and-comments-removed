@@ -350,6 +350,9 @@ dom
 WindowFeatures
 &
 aFeatures
+bool
+*
+aIsPopupRequested
 )
 ;
 static
