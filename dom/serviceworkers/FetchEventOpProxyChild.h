@@ -67,8 +67,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -190,7 +190,6 @@ mPreloadResponsePromise
 ;
 }
 ;
-}
 }
 #
 endif

@@ -44,8 +44,8 @@ nsINode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -495,7 +495,6 @@ mSrcOrigin
 ;
 }
 ;
-}
 }
 #
 endif

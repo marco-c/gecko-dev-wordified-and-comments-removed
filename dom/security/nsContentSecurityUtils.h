@@ -42,14 +42,13 @@ NS_ConvertUTF8toUTF16
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 Document
 ;
-}
 }
 using
 FilenameTypeAndDetails

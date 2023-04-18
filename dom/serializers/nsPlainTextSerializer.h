@@ -81,8 +81,8 @@ nsIContent
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -91,7 +91,6 @@ DocumentType
 class
 Element
 ;
-}
 }
 class
 nsPlainTextSerializer

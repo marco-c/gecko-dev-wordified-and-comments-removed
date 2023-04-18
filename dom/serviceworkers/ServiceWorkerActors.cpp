@@ -60,8 +60,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -157,6 +157,5 @@ Init
 aDescriptor
 )
 ;
-}
 }
 }

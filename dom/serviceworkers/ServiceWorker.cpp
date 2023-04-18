@@ -179,8 +179,8 @@ dom
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -1253,6 +1253,5 @@ mRegistration
 =
 aRegistration
 ;
-}
 }
 }

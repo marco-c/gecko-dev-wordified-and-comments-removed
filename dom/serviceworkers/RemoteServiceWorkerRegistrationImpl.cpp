@@ -58,8 +58,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -1117,7 +1117,6 @@ MaybeDispatchUpdateFoundRunnable
 (
 )
 ;
-}
 }
 }
 }

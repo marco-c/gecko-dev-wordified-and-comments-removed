@@ -59,8 +59,8 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -386,7 +386,6 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 ServiceWorker
 NS_DOM_SERVICEWORKER_IID
 )
-}
 }
 #
 endif

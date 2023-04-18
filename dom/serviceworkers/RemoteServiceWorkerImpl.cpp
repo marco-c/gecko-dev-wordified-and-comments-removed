@@ -70,8 +70,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -499,6 +499,5 @@ mShutdown
 =
 true
 ;
-}
 }
 }

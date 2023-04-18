@@ -70,8 +70,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -690,6 +690,5 @@ parsedFeatures
 return
 true
 ;
-}
 }
 }

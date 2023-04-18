@@ -67,8 +67,8 @@ nsIInterceptedChannel
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -336,7 +336,6 @@ mPreloadResponseReadyPromise
 ;
 }
 ;
-}
 }
 #
 endif

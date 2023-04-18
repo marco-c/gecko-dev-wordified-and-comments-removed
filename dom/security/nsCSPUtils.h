@@ -67,8 +67,8 @@ nsIChannel
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -77,7 +77,6 @@ CSP
 class
 Document
 ;
-}
 }
 void
 CSP_LogLocalizedStr

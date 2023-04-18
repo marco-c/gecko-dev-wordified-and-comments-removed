@@ -6,8 +6,8 @@ define
 mozilla_dom_serviceworkeractors_h__
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -57,7 +57,6 @@ IPCServiceWorkerRegistrationDescriptor
 aDescriptor
 )
 ;
-}
 }
 #
 endif
