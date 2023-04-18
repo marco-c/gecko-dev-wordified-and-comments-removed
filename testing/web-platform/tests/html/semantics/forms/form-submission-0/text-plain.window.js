@@ -1,5 +1,5 @@
 const
-form
+formTest
 =
 formSubmissionTemplate
 (
@@ -8,15 +8,9 @@ text
 /
 plain
 "
-(
-expected
-)
-=
->
-expected
 )
 ;
-form
+formTest
 (
 {
 name
@@ -49,7 +43,7 @@ test
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -97,7 +91,7 @@ test
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -135,7 +129,7 @@ name
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -173,7 +167,7 @@ value
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -217,7 +211,7 @@ filename
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -259,7 +253,7 @@ name
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -301,7 +295,7 @@ name
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -348,7 +342,7 @@ name
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -399,7 +393,7 @@ name
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -441,7 +435,7 @@ value
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -483,7 +477,7 @@ value
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -530,7 +524,7 @@ value
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -581,7 +575,7 @@ value
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -629,7 +623,7 @@ filename
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -677,7 +671,7 @@ filename
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -730,7 +724,7 @@ filename
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -787,7 +781,7 @@ filename
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -826,7 +820,7 @@ name
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -865,7 +859,7 @@ value
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -910,7 +904,7 @@ filename
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -949,7 +943,7 @@ name
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -988,7 +982,7 @@ value
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -1033,7 +1027,7 @@ filename
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -1073,7 +1067,7 @@ name
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -1113,7 +1107,7 @@ value
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -1159,7 +1153,7 @@ filename
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -1202,7 +1196,7 @@ value
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -1250,7 +1244,7 @@ filename
 }
 )
 ;
-form
+formTest
 (
 {
 name
@@ -1309,7 +1303,7 @@ value
 }
 )
 ;
-form
+formTest
 (
 {
 name
