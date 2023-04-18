@@ -856,10 +856,6 @@ mHasRemoteContent
 (
 false
 )
-mFissionWindow
-(
-false
-)
 mUpdateCursor
 (
 true
@@ -1822,9 +1818,6 @@ aInitData
 {
 if
 (
-nullptr
-!
-=
 aInitData
 )
 {
@@ -1862,13 +1855,6 @@ aInitData
 -
 >
 mHasRemoteContent
-;
-mFissionWindow
-=
-aInitData
--
->
-mFissionWindow
 ;
 }
 if

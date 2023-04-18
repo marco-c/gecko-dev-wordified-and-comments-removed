@@ -1628,7 +1628,7 @@ eBorderStyle_default
 ;
 widgetData
 .
-clipSiblings
+mClipSiblings
 =
 true
 ;

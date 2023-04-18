@@ -406,7 +406,7 @@ widgetInit
 ;
 widgetInit
 .
-clipChildren
+mClipChildren
 =
 true
 ;
