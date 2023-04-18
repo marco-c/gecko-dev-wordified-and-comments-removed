@@ -1619,15 +1619,6 @@ is
 JSOp
 :
 :
-ResumeIndex
-)
-|
-|
-is
-(
-JSOp
-:
-:
 InitialYield
 )
 |

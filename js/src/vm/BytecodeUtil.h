@@ -1543,12 +1543,6 @@ case
 JSOp
 :
 :
-Retsub
-:
-case
-JSOp
-:
-:
 FinalYieldRval
 :
 case
