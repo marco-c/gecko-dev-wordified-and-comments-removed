@@ -2464,11 +2464,10 @@ observerPreloads
 >
 {
 let
-scope
-=
 {
+Weave
 }
-;
+=
 ChromeUtils
 .
 import
@@ -2486,12 +2485,9 @@ main
 .
 js
 "
-scope
 )
 ;
 return
-scope
-.
 Weave
 .
 Service
