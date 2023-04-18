@@ -18403,6 +18403,7 @@ aStr
 .
 ReplaceChar
 (
+u
 "
 \
 x09

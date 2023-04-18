@@ -1483,6 +1483,9 @@ userDir
 .
 ReplaceChar
 (
+u
+"
+"
 FILE_PATH_SEPARATOR
 FILE_ILLEGAL_CHARACTERS
 '
@@ -16032,7 +16035,11 @@ fileName
 .
 ReplaceChar
 (
+u
+"
+"
 KNOWN_PATH_SEPARATORS
+u
 '
 _
 '
@@ -16042,7 +16049,11 @@ fileName
 .
 ReplaceChar
 (
+u
+"
+"
 FILE_ILLEGAL_CHARACTERS
+u
 '
 '
 )

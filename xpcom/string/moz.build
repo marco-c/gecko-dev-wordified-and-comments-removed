@@ -192,11 +192,6 @@ nsStringComparator
 cpp
 "
 "
-nsStringObsolete
-.
-cpp
-"
-"
 nsTextFormatter
 .
 cpp
