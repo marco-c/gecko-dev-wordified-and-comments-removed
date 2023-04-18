@@ -511,7 +511,6 @@ aRv
 )
 ;
 }
-virtual
 already_AddRefed
 <
 nsISupports
@@ -540,7 +539,6 @@ ErrorResult
 &
 aRv
 )
-override
 ;
 void
 ToDataURL
