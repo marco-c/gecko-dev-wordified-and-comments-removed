@@ -6118,7 +6118,7 @@ format
 TextureFormat
 :
 :
-R16
+RG16
 )
 ;
 ivec2
