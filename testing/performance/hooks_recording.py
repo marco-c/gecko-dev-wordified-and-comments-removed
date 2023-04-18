@@ -297,7 +297,7 @@ name
 [
             
 "
-mitm6
+mitm7
 "
             
 platform_name
