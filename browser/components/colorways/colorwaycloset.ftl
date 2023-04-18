@@ -78,6 +78,16 @@ True
 Colors
 colorway
 -
+collection
+-
+independent
+-
+voices
+=
+Independent
+Voices
+colorway
+-
 fx
 -
 home
