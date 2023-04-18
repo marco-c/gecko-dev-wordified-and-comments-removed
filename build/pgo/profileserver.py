@@ -770,6 +770,17 @@ MOZ_CRASHREPORTER_NO_REPORT
 env
 [
 "
+MOZ_CRASHREPORTER_SHUTDOWN
+"
+]
+=
+"
+1
+"
+        
+env
+[
+"
 XPCOM_DEBUG_BREAK
 "
 ]
