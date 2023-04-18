@@ -515,14 +515,9 @@ GPUDeviceData
 status
 )
 ;
-sync
+async
 SimulateDeviceReset
 (
-)
-returns
-(
-GPUDeviceData
-status
 )
 ;
 async

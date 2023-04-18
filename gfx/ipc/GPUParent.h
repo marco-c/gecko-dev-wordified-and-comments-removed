@@ -460,9 +460,6 @@ ipc
 IPCResult
 RecvSimulateDeviceReset
 (
-GPUDeviceData
-*
-aOutStatus
 )
 ;
 mozilla
