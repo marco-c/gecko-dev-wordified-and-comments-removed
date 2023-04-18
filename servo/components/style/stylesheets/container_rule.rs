@@ -2,10 +2,10 @@ use
 crate
 :
 :
-media_queries
+queries
 :
 :
-MediaCondition
+QueryCondition
 ;
 use
 crate
@@ -407,5 +407,5 @@ pub
 type
 ContainerCondition
 =
-MediaCondition
+QueryCondition
 ;

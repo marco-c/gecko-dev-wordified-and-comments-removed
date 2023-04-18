@@ -35,10 +35,7 @@ crate
 media_queries
 :
 :
-{
 Device
-MediaCondition
-}
 ;
 use
 crate
@@ -51,6 +48,15 @@ parser
 Parse
 ParserContext
 }
+;
+use
+crate
+:
+:
+queries
+:
+:
+QueryCondition
 ;
 use
 crate
@@ -127,7 +133,7 @@ SourceSize
 {
 condition
 :
-MediaCondition
+QueryCondition
 value
 :
 Length
@@ -177,7 +183,7 @@ i
 let
 condition
 =
-MediaCondition
+QueryCondition
 :
 :
 parse

@@ -2,19 +2,19 @@ use
 super
 :
 :
-media_feature
+feature
 :
 :
 {
 Evaluator
-MediaFeatureDescription
+QueryFeatureDescription
 }
 ;
 use
 super
 :
 :
-media_feature
+feature
 :
 :
 {
@@ -659,7 +659,7 @@ PartialEq
 ]
 pub
 struct
-MediaFeatureExpression
+QueryFeatureExpression
 {
 feature_index
 :
@@ -668,7 +668,7 @@ value
 :
 Option
 <
-MediaExpressionValue
+QueryExpressionValue
 >
 range_or_operator
 :
@@ -680,7 +680,7 @@ RangeOrOperator
 impl
 ToCss
 for
-MediaFeatureExpression
+QueryFeatureExpression
 {
 fn
 to_css
@@ -1316,7 +1316,7 @@ enabled
 false
 }
 impl
-MediaFeatureExpression
+QueryFeatureExpression
 {
 fn
 new
@@ -1328,7 +1328,7 @@ value
 :
 Option
 <
-MediaExpressionValue
+QueryExpressionValue
 >
 range_or_operator
 :
@@ -1371,7 +1371,7 @@ self
 &
 '
 static
-MediaFeatureDescription
+QueryFeatureDescription
 {
 &
 MEDIA_FEATURES
@@ -1955,7 +1955,7 @@ None
 let
 value
 =
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 parse
@@ -2054,7 +2054,7 @@ match
 *
 value
 {
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 variant
@@ -2073,7 +2073,7 @@ unreachable
 (
 "
 Unexpected
-MediaExpressionValue
+QueryExpressionValue
 "
 )
 }
@@ -2477,7 +2477,7 @@ ToShmem
 ]
 pub
 enum
-MediaExpressionValue
+QueryExpressionValue
 {
 Length
 (
@@ -2509,7 +2509,7 @@ KeywordDiscriminant
 )
 }
 impl
-MediaExpressionValue
+QueryExpressionValue
 {
 fn
 to_css
@@ -2530,7 +2530,7 @@ W
 for_expr
 :
 &
-MediaFeatureExpression
+QueryFeatureExpression
 )
 -
 >
@@ -2550,7 +2550,7 @@ match
 *
 self
 {
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Length
@@ -2566,7 +2566,7 @@ to_css
 (
 dest
 )
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Integer
@@ -2581,7 +2581,7 @@ to_css
 (
 dest
 )
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Float
@@ -2596,7 +2596,7 @@ to_css
 (
 dest
 )
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 BoolInteger
@@ -2623,7 +2623,7 @@ else
 "
 }
 )
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 NumberRatio
@@ -2638,7 +2638,7 @@ to_css
 (
 dest
 )
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Resolution
@@ -2654,7 +2654,7 @@ to_css
 (
 dest
 )
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Enumerated
@@ -2716,7 +2716,7 @@ t
 for_feature
 :
 &
-MediaFeatureDescription
+QueryFeatureDescription
 context
 :
 &
@@ -2737,7 +2737,7 @@ t
 >
 Result
 <
-MediaExpressionValue
+QueryExpressionValue
 ParseError
 <
 '
@@ -2776,7 +2776,7 @@ input
 )
 ?
 ;
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Length
@@ -2808,7 +2808,7 @@ input
 )
 ?
 ;
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Integer
@@ -2875,7 +2875,7 @@ UnspecifiedError
 )
 ;
 }
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 BoolInteger
@@ -2910,7 +2910,7 @@ input
 )
 ?
 ;
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Float
@@ -2960,7 +2960,7 @@ input
 )
 ?
 ;
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 NumberRatio
@@ -2998,7 +2998,7 @@ Resolution
 =
 >
 {
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Resolution
@@ -3026,7 +3026,7 @@ parser
 =
 >
 {
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Enumerated

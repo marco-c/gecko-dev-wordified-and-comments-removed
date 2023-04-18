@@ -2,7 +2,7 @@ use
 super
 :
 :
-MediaFeatureExpression
+QueryFeatureExpression
 ;
 use
 crate
@@ -115,17 +115,17 @@ ToShmem
 ]
 pub
 enum
-MediaCondition
+QueryCondition
 {
 Feature
 (
-MediaFeatureExpression
+QueryFeatureExpression
 )
 Not
 (
 Box
 <
-MediaCondition
+QueryCondition
 >
 )
 Operation
@@ -133,7 +133,7 @@ Operation
 Box
 <
 [
-MediaCondition
+QueryCondition
 ]
 >
 Operator
@@ -142,14 +142,14 @@ InParens
 (
 Box
 <
-MediaCondition
+QueryCondition
 >
 )
 }
 impl
 ToCss
 for
-MediaCondition
+QueryCondition
 {
 fn
 to_css
@@ -186,7 +186,7 @@ match
 *
 self
 {
-MediaCondition
+QueryCondition
 :
 :
 Feature
@@ -202,7 +202,7 @@ to_css
 (
 dest
 )
-MediaCondition
+QueryCondition
 :
 :
 Not
@@ -230,7 +230,7 @@ to_css
 dest
 )
 }
-MediaCondition
+QueryCondition
 :
 :
 InParens
@@ -268,7 +268,7 @@ write_char
 '
 )
 }
-MediaCondition
+QueryCondition
 :
 :
 Operation
@@ -356,7 +356,7 @@ Ok
 }
 }
 impl
-MediaCondition
+QueryCondition
 {
 pub
 fn
@@ -587,7 +587,7 @@ input
 return
 Ok
 (
-MediaCondition
+QueryCondition
 :
 :
 Not
@@ -766,7 +766,7 @@ is_err
 return
 Ok
 (
-MediaCondition
+QueryCondition
 :
 :
 Operation
@@ -924,7 +924,7 @@ i
 return
 Ok
 (
-MediaCondition
+QueryCondition
 :
 :
 InParens
@@ -943,7 +943,7 @@ inner
 let
 expr
 =
-MediaFeatureExpression
+QueryFeatureExpression
 :
 :
 parse_in_parenthesis_block
@@ -955,7 +955,7 @@ input
 ;
 Ok
 (
-MediaCondition
+QueryCondition
 :
 :
 Feature
@@ -988,7 +988,7 @@ match
 *
 self
 {
-MediaCondition
+QueryCondition
 :
 :
 Feature
@@ -1004,7 +1004,7 @@ matches
 (
 context
 )
-MediaCondition
+QueryCondition
 :
 :
 InParens
@@ -1020,7 +1020,7 @@ matches
 (
 context
 )
-MediaCondition
+QueryCondition
 :
 :
 Not
@@ -1037,7 +1037,7 @@ matches
 (
 context
 )
-MediaCondition
+QueryCondition
 :
 :
 Operation

@@ -1,11 +1,11 @@
 use
-super
+crate
 :
 :
-media_condition
+queries
 :
 :
-MediaCondition
+QueryCondition
 ;
 use
 crate
@@ -258,7 +258,7 @@ condition
 :
 Option
 <
-MediaCondition
+QueryCondition
 >
 }
 impl
@@ -624,7 +624,7 @@ is_none
 {
 Some
 (
-MediaCondition
+QueryCondition
 :
 :
 parse
@@ -660,7 +660,7 @@ is_ok
 {
 Some
 (
-MediaCondition
+QueryCondition
 :
 :
 parse_disallow_or
