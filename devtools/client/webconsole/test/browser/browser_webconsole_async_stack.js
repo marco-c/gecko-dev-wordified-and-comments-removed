@@ -211,7 +211,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -219,10 +219,6 @@ Trace
 message
 "
 "
-.
-console
--
-api
 .
 trace
 "
@@ -272,7 +268,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -281,10 +277,6 @@ error
 message
 "
 "
-.
-console
--
-api
 .
 error
 "
@@ -348,7 +340,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 "
@@ -362,8 +354,6 @@ message
 "
 .
 javascript
-.
-error
 "
 )
 "

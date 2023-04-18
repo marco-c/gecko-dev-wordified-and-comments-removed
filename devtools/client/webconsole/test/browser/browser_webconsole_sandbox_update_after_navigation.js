@@ -114,7 +114,7 @@ TEST_URI2
 ok
 (
 !
-findMessage
+findErrorMessage
 (
 hud
 "
@@ -173,7 +173,7 @@ result
 ok
 (
 !
-findMessage
+findErrorMessage
 (
 hud
 "
@@ -303,7 +303,7 @@ result
 ok
 (
 !
-findMessage
+findErrorMessage
 (
 hud
 "

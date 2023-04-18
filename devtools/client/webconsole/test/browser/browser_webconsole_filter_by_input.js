@@ -283,7 +283,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 lastSeason
@@ -292,7 +292,7 @@ english
 )
 &
 &
-findMessage
+findConsoleAPIMessage
 (
 hud
 lastSeason

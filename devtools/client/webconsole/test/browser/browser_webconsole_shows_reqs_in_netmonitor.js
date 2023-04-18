@@ -250,10 +250,14 @@ waitFor
 )
 =
 >
-findMessage
+findMessageByType
 (
 hud
 TEST_PATH
+"
+.
+network
+"
 )
 )
 ;

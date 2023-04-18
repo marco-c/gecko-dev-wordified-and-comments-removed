@@ -158,7 +158,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -372,7 +372,7 @@ const
 inInspectorMessages
 =
 await
-findMessages
+findConsoleAPIMessages
 (
 hud
 "
@@ -469,7 +469,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -588,7 +588,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "

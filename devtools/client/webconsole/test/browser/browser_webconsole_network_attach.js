@@ -268,10 +268,14 @@ waitFor
 )
 =
 >
-findMessage
+findMessageByType
 (
 hud
 xhrUrl
+"
+.
+network
+"
 )
 )
 ;

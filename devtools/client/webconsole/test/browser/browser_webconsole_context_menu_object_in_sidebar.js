@@ -137,7 +137,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -651,7 +651,7 @@ object
 const
 errorMsg
 =
-findMessage
+findConsoleAPIMessage
 (
 hud
 "

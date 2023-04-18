@@ -120,16 +120,10 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 SAMPLE_MSG
-"
-.
-message
-.
-warn
-"
 )
 )
 ;

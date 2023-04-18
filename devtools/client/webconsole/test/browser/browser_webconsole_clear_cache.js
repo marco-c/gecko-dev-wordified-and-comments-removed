@@ -118,7 +118,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 EXPECTED_REPORT
@@ -132,7 +132,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 CACHED_MESSAGE
@@ -263,7 +263,7 @@ message
 ;
 is
 (
-findMessage
+findConsoleAPIMessage
 (
 hud
 CACHED_MESSAGE
@@ -282,7 +282,7 @@ anymore
 ;
 is
 (
-findMessage
+findErrorMessage
 (
 hud
 EXPECTED_REPORT
@@ -434,7 +434,7 @@ message
 ;
 is
 (
-findMessage
+findConsoleAPIMessage
 (
 hud
 NEW_CACHED_MESSAGE

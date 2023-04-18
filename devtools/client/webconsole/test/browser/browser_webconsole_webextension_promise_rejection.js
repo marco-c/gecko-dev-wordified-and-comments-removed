@@ -130,7 +130,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 "
@@ -138,12 +138,6 @@ uncaught
 exception
 :
 abc
-"
-"
-.
-message
-.
-error
 "
 )
 )

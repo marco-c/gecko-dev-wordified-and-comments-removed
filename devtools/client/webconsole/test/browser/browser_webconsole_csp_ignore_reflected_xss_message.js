@@ -120,16 +120,10 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 EXPECTED_RESULT
-"
-.
-message
-.
-warn
-"
 )
 )
 ;

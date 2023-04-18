@@ -210,16 +210,10 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 text
-"
-.
-message
-.
-warn
-"
 )
 undefined
 100

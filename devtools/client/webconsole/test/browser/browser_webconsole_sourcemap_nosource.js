@@ -168,7 +168,7 @@ waitFor
 const
 node
 =
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -271,7 +271,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 "

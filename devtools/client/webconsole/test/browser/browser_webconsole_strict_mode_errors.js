@@ -208,16 +208,10 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 text
-"
-.
-message
-.
-error
-"
 )
 )
 ;

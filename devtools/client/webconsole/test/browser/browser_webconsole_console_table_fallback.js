@@ -233,16 +233,10 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 output
-"
-.
-console
--
-api
-"
 )
 Waiting
 for

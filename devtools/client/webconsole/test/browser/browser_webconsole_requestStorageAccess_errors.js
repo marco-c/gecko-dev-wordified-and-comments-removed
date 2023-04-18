@@ -377,16 +377,10 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 text
-"
-.
-message
-.
-error
-"
 )
 undefined
 100

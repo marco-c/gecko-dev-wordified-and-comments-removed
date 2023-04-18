@@ -186,7 +186,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 "
@@ -276,7 +276,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 "

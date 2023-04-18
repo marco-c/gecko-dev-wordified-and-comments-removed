@@ -104,7 +104,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -134,7 +134,7 @@ console
 const
 messages
 =
-findMessages
+findConsoleAPIMessages
 (
 hud
 "

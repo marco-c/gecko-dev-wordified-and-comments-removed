@@ -328,7 +328,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 The
@@ -442,7 +442,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 Request
@@ -565,7 +565,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 Request
@@ -728,7 +728,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 Request
@@ -835,7 +835,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 Request
@@ -945,7 +945,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 Partitioned
@@ -1094,7 +1094,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 Request

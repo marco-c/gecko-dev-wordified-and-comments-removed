@@ -293,7 +293,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 CSP_VIOLATION
@@ -539,7 +539,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 CSP_VIOLATION
@@ -751,7 +751,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 CSP_VIOLATION
@@ -907,7 +907,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 CSP_VIOLATION

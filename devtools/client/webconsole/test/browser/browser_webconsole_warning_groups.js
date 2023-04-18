@@ -552,7 +552,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 BLOCKED_URL
@@ -716,12 +716,16 @@ waitFor
 )
 =
 >
-findMessage
+findMessageByType
 (
 hud
 "
 Navigated
 to
+"
+"
+.
+navigationMarker
 "
 )
 )
@@ -984,7 +988,7 @@ waitFor
 )
 =
 >
-findMessages
+findWarningMessages
 (
 hud
 BLOCKED_URL
@@ -1097,7 +1101,7 @@ waitFor
 )
 =
 >
-findMessages
+findWarningMessages
 (
 hud
 BLOCKED_URL

@@ -64,7 +64,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -75,7 +75,7 @@ a
 )
 &
 &
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -784,7 +784,7 @@ text
 const
 subGroup
 =
-findMessage
+findConsoleAPIMessage
 (
 hud
 "

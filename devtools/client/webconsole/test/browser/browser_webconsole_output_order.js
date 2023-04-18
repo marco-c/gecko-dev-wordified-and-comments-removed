@@ -127,7 +127,7 @@ waitFor
 const
 messages
 =
-findMessages
+findConsoleAPIMessages
 (
 hud
 "
@@ -137,14 +137,6 @@ item
 "
 .
 log
-.
-message
-:
-not
-(
-.
-command
-)
 "
 )
 ;
@@ -167,7 +159,7 @@ null
 const
 commandMessage
 =
-findMessage
+findMessageByType
 (
 hud
 "

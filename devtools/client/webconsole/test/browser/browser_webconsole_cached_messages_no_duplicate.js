@@ -148,7 +148,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -158,7 +158,7 @@ message
 )
 &
 &
-findMessage
+findConsoleAPIMessage
 (
 hud
 "

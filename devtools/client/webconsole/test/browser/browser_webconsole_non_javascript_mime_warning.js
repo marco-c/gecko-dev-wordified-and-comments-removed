@@ -124,16 +124,10 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 MIME_WARNING_MSG
-"
-.
-message
-.
-warn
-"
 )
 "
 "

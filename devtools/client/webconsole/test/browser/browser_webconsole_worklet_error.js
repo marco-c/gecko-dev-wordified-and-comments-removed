@@ -95,7 +95,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 "

@@ -288,14 +288,10 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 expectedError
-"
-.
-error
-"
 )
 Couldn
 '
@@ -530,7 +526,7 @@ expanded
 const
 rejectedObjectMessage
 =
-findMessage
+findErrorMessage
 (
 hud
 Uncaught
@@ -546,10 +542,6 @@ fav
 eggplant
 "
 }
-"
-.
-error
-"
 )
 ;
 const

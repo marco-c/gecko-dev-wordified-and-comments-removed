@@ -151,7 +151,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -313,7 +313,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -478,7 +478,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 '
@@ -565,7 +565,7 @@ waitFor
 =
 >
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -581,7 +581,7 @@ worker
 &
 &
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -719,7 +719,7 @@ onSmokeMessage
 ;
 is
 (
-findMessage
+findConsoleAPIMessage
 (
 newHud
 "
@@ -743,7 +743,7 @@ cleared
 ;
 is
 (
-findMessage
+findConsoleAPIMessage
 (
 newHud
 "

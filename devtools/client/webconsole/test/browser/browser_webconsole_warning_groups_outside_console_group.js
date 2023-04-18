@@ -408,7 +408,7 @@ waitFor
 =
 >
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -460,7 +460,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -588,7 +588,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 BLOCKED_URL
@@ -881,7 +881,7 @@ waitFor
 =
 >
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -966,7 +966,7 @@ waitFor
 =
 >
 !
-findMessage
+findWarningMessage
 (
 hud
 BLOCKED_URL
@@ -1016,7 +1016,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -1081,7 +1081,7 @@ waitFor
 =
 >
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -1135,7 +1135,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 BLOCKED_URL

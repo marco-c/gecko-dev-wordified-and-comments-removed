@@ -291,7 +291,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 "
@@ -303,8 +303,6 @@ for
 cursor
 "
 "
-.
-message
 .
 css
 "
@@ -620,7 +618,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 "
@@ -632,8 +630,6 @@ for
 color
 "
 "
-.
-message
 .
 css
 "

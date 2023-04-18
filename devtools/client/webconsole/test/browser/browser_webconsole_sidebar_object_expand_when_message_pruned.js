@@ -106,7 +106,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -285,7 +285,7 @@ onMessage
 ok
 (
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 "

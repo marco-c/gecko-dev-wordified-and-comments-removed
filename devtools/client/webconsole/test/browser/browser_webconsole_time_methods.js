@@ -198,7 +198,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud1
 "
@@ -272,7 +272,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud2
 "
@@ -280,11 +280,7 @@ bTimer
 "
 "
 .
-message
-.
 timeEnd
-.
-warn
 "
 )
 )
@@ -327,7 +323,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud2
 "
@@ -339,7 +335,7 @@ signal
 ;
 is
 (
-findMessage
+findConsoleAPIMessage
 (
 hud2
 "
@@ -388,7 +384,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud2
 "
@@ -396,11 +392,7 @@ bTimer
 "
 "
 .
-message
-.
 timeEnd
-.
-warn
 "
 )
 )

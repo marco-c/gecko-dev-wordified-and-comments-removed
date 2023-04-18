@@ -280,16 +280,10 @@ onSentinelMessage
 const
 warning
 =
-findMessage
+findWarningMessage
 (
 hud
 INEFFECTIVE_IFRAME_SANDBOXING_MSG
-"
-.
-message
-.
-warn
-"
 )
 ;
 is

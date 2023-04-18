@@ -78,7 +78,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 "
@@ -173,7 +173,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
