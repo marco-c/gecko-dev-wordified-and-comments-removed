@@ -1853,13 +1853,6 @@ mSession
 !
 =
 null
-&
-&
-mSession
-.
-isOpen
-(
-)
 )
 {
 throw
@@ -1959,13 +1952,6 @@ mSession
 !
 =
 null
-&
-&
-mSession
-.
-isOpen
-(
-)
 )
 {
 mSession
