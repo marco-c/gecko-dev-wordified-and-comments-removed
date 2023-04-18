@@ -14551,7 +14551,6 @@ renderer
 .
 Find
 (
-u
 "
 Adreno
 (

@@ -1225,12 +1225,8 @@ targetFilename
 .
 ReplaceChar
 (
-u
-"
-"
 FILE_PATH_SEPARATOR
 FILE_ILLEGAL_CHARACTERS
-u
 '
 -
 '
@@ -3296,7 +3292,6 @@ title
 .
 ReplaceChar
 (
-u
 "
 \
 r

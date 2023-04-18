@@ -3083,7 +3083,6 @@ aValue
 .
 Find
 (
-u
 "
 top
 "
@@ -3109,7 +3108,6 @@ aValue
 .
 Find
 (
-u
 "
 bottom
 "
@@ -3135,7 +3133,6 @@ aValue
 .
 Find
 (
-u
 "
 center
 "
@@ -3161,7 +3158,6 @@ aValue
 .
 Find
 (
-u
 "
 baseline
 "
@@ -3187,7 +3183,6 @@ aValue
 .
 Find
 (
-u
 "
 axis
 "

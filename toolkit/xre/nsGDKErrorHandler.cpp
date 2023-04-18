@@ -356,6 +356,7 @@ buffer
 Find
 (
 minorCodeString
+false
 endptr
 -
 buffer

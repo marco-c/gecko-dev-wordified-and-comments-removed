@@ -5114,7 +5114,6 @@ windowProtocol
 .
 Find
 (
-u
 "
 xwayland
 "
@@ -5142,7 +5141,6 @@ adapterDriverVendor
 .
 Find
 (
-u
 "
 mesa
 "

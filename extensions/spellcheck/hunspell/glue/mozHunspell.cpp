@@ -1486,9 +1486,9 @@ dict
 .
 ReplaceChar
 (
-'
+"
 _
-'
+"
 '
 -
 '

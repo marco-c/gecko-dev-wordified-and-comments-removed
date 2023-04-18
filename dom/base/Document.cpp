@@ -49207,7 +49207,6 @@ docId
 .
 Find
 (
-u
 "
 WAP
 "
@@ -49224,7 +49223,6 @@ docId
 .
 Find
 (
-u
 "
 Mobile
 "
@@ -49241,7 +49239,6 @@ docId
 .
 Find
 (
-u
 "
 WML
 "

@@ -1,0 +1,14 @@
+#
+include
+"
+nsPromiseFlatString
+.
+h
+"
+#
+include
+"
+nsTPromiseFlatString
+.
+cpp
+"
