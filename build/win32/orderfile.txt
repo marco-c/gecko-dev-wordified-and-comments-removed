@@ -47701,7 +47701,7 @@ QAE
 XZ
 ?
 ?
-0RefreshTimerVsyncDispatcher
+0VsyncDispatcher
 mozilla
 QAE
 PAVDisplay
@@ -61008,7 +61008,7 @@ mozilla
 mozilla
 XZ
 ?
-GetRefreshTimerVsyncDispatcher
+GetVsyncDispatcher
 VsyncSource
 gfx
 mozilla
@@ -61017,7 +61017,7 @@ QAE
 AV
 ?
 RefPtr
-VRefreshTimerVsyncDispatcher
+VVsyncDispatcher
 mozilla
 XZ
 ?
@@ -61031,14 +61031,14 @@ QBEPAVnsRootPresContext
 XZ
 ?
 AddChildRefreshTimer
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 mozilla
 QAEXPAVVsyncObserver
 2
 Z
 ?
 ?
-1RefreshTimerVsyncDispatcher
+1VsyncDispatcher
 mozilla
 EAE
 XZ
@@ -61782,7 +61782,7 @@ UAEXABVTimeStamp
 Z
 ?
 NotifyVsync
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 mozilla
 QAEXABUVsyncEvent
 2
@@ -73266,7 +73266,7 @@ nsRefreshDriver
 QAEXXZ
 ?
 RemoveChildRefreshTimer
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 mozilla
 QAEXPAVVsyncObserver
 2
