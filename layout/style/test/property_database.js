@@ -44017,6 +44017,9 @@ true
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 applies_to_first_letter
 :
 true
