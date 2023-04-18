@@ -508,12 +508,9 @@ assert
 (
 hs
 .
-len
+is_empty
 (
 )
-=
-=
-0
 )
 ;
 }
