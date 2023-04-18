@@ -5837,7 +5837,6 @@ options
 [
 [
 '
-filled
 circle
 '
 '
