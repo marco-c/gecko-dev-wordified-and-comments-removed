@@ -1436,6 +1436,9 @@ mallocSizeOf
 )
 ;
 }
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
 size_t
 TagDesc
 :
@@ -1630,6 +1633,8 @@ mallocSizeOf
 )
 ;
 }
+#
+endif
 size_t
 ElemSegment
 :

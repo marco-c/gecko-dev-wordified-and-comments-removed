@@ -12445,6 +12445,9 @@ return
 true
 ;
 }
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
 static
 JSObject
 *
@@ -12484,9 +12487,6 @@ tag
 nullptr
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 void
 Instance
 :
