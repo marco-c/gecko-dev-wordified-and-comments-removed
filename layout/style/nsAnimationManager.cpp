@@ -1107,6 +1107,15 @@ StyleAnimationTimeline
 Tag
 :
 :
+Scroll
+:
+case
+StyleAnimationTimeline
+:
+:
+Tag
+:
+:
 Auto
 :
 timeline
