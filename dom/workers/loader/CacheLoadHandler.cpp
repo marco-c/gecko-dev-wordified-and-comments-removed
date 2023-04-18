@@ -1807,9 +1807,6 @@ ScriptResponseHeaderProcessor
 :
 ProcessCrossOriginEmbedderPolicyHeader
 (
-mLoader
--
->
 mWorkerPrivate
 coep
 mLoader
