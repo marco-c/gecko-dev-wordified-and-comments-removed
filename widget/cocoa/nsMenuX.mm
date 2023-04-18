@@ -2210,6 +2210,7 @@ aMenu
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 Run
 (
@@ -2218,9 +2219,6 @@ override
 {
 if
 (
-mMenu
-)
-{
 RefPtr
 <
 nsMenuX
@@ -2228,7 +2226,8 @@ nsMenuX
 menu
 =
 mMenu
-;
+)
+{
 menu
 -
 >
@@ -2363,7 +2362,7 @@ true
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIContent
 >
@@ -2412,8 +2411,10 @@ WidgetMouseEvent
 eReal
 )
 ;
+RefPtr
+<
 nsIContent
-*
+>
 dispatchTo
 =
 popupContent
@@ -2540,6 +2541,7 @@ aMenu
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 Run
 (
@@ -2548,9 +2550,6 @@ override
 {
 if
 (
-mMenu
-)
-{
 RefPtr
 <
 nsMenuX
@@ -2558,7 +2557,8 @@ nsMenuX
 menu
 =
 mMenu
-;
+)
+{
 menu
 -
 >
@@ -4229,7 +4229,7 @@ odd
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIContent
 >
@@ -4283,8 +4283,10 @@ rv
 =
 NS_OK
 ;
+RefPtr
+<
 nsIContent
-*
+>
 dispatchTo
 =
 popupContent
