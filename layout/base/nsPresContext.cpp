@@ -7313,7 +7313,7 @@ InRDMPane
 {
 mTheme
 =
-do_GetRDMThemeDoNotUseDirectly
+do_GetAndroidNonNativeThemeDoNotUseDirectly
 (
 )
 ;
