@@ -113,7 +113,7 @@ STORAGE_KEY
 testKey
 "
 ;
-let
+const
 skipLocalStorageTests
 =
 !
