@@ -601,14 +601,8 @@ python
 \
 -
 -
-requirements
-GECKO_PATH
-/
-build
-/
-psutil_requirements
-.
-txt
+virtualenv
+psutil
 \
 -
 -
