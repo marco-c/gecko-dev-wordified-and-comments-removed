@@ -939,7 +939,6 @@ false
 ;
 }
 }
-virtual
 void
 AddBox
 (
@@ -1090,8 +1089,14 @@ nsLayoutUtils
 :
 TransformPoints
 (
+RelativeTo
+{
 f
+}
+RelativeTo
+{
 mRelativeToFrame
+}
 4
 points
 )
@@ -2156,8 +2161,14 @@ nsLayoutUtils
 :
 TransformPoints
 (
+RelativeTo
+{
 fromFrame
+}
+RelativeTo
+{
 toFrame
+}
 aPointCount
 aPoints
 )

@@ -2206,11 +2206,9 @@ static
 TransformResult
 TransformPoints
 (
-nsIFrame
-*
+RelativeTo
 aFromFrame
-nsIFrame
-*
+RelativeTo
 aToFrame
 uint32_t
 aPointCount
