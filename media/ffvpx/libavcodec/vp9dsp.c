@@ -19,6 +19,15 @@ h
 #
 include
 "
+libavutil
+/
+mem_internal
+.
+h
+"
+#
+include
+"
 vp9dsp
 .
 h

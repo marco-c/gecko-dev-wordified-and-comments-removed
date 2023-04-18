@@ -39,7 +39,6 @@ avctx
 AVPacket
 *
 pkt
-const
 AVFrame
 *
 frame
