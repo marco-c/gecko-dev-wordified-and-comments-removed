@@ -29,7 +29,7 @@ Poll
 }
 ;
 use
-futures_util
+futures
 :
 :
 TryFuture
@@ -292,10 +292,6 @@ cx
 &
 mut
 Context
-<
-'
-_
->
 )
 -
 >

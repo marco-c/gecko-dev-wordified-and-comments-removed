@@ -26,11 +26,11 @@ rs
 :
 6
 :
-7
+13
 |
 6
 |
-V
+Variant
 (
 PrivateEnum
 )
@@ -117,11 +117,11 @@ rs
 :
 15
 :
-11
+17
 |
 15
 |
-V
+Variant
 (
 PrivateEnum
 )

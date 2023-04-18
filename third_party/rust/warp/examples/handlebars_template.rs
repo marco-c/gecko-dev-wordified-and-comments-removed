@@ -74,10 +74,6 @@ hbs
 Arc
 <
 Handlebars
-<
-'
-_
->
 >
 )
 -

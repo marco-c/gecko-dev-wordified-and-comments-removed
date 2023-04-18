@@ -1007,13 +1007,6 @@ X
 >
 {
 }
-#
-[
-allow
-(
-unreachable_pub
-)
-]
 pub
 trait
 CantImpl

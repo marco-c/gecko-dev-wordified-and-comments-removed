@@ -26,7 +26,7 @@ Foo
 T
 >
 {
-f
+inner
 :
 T
 }
@@ -41,13 +41,13 @@ x
 =
 Foo
 {
-f
+inner
 :
 0_u8
 }
 ;
 let
-_
+_x
 =
 Pin
 :

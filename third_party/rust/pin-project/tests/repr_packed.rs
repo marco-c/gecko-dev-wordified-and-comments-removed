@@ -71,7 +71,7 @@ packed
 )
 ]
 struct
-Struct
+Foo
 {
 field
 :
@@ -80,7 +80,7 @@ u8
 impl
 Drop
 for
-Struct
+Foo
 {
 fn
 drop
@@ -116,7 +116,6 @@ usize
 ;
 }
 )
-;
 }
 }
 #
@@ -136,7 +135,7 @@ field_addr
 let
 x
 =
-Struct
+Foo
 {
 field
 :
@@ -168,10 +167,14 @@ FIELD_ADDR
 .
 with
 (
-Cell
-:
-:
+|
+f
+|
+f
+.
 get
+(
+)
 )
 )
 ;

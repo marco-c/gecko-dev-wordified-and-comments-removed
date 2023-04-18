@@ -3846,17 +3846,6 @@ false
 Header
 :
 :
-Protocol
-(
-.
-.
-)
-=
->
-None
-Header
-:
-:
 Status
 (
 ref

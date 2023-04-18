@@ -36,7 +36,7 @@ Foo
 [
 pin
 ]
-f
+field
 :
 u32
 }
@@ -55,7 +55,7 @@ Bar
 [
 pin
 ]
-f
+field
 :
 u32
 }

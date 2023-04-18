@@ -658,6 +658,13 @@ cx
 .
 await
 }
+#
+[
+doc
+(
+hidden
+)
+]
 pub
 fn
 poll_data

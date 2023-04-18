@@ -215,13 +215,10 @@ SameSite
 None
 =
 >
-write
-!
+Ok
 (
-f
-"
-None
-"
+(
+)
 )
 }
 }

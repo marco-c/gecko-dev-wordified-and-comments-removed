@@ -355,7 +355,7 @@ base64
 bytes
 "
 :
-2
+3
     
 "
 crossbeam
@@ -406,7 +406,11 @@ mio
 2
     
 "
-time
+pin
+-
+project
+-
+lite
 "
 :
 2
@@ -415,7 +419,7 @@ time
 tokio
 "
 :
-2
+3
 }
 class
 VendorRust

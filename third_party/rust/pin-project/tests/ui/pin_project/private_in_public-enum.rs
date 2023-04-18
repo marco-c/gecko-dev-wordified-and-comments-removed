@@ -10,7 +10,7 @@ pub
 enum
 PublicEnum
 {
-V
+Variant
 (
 PrivateEnum
 )
@@ -18,7 +18,7 @@ PrivateEnum
 enum
 PrivateEnum
 {
-V
+Variant
 (
 u8
 )
@@ -33,7 +33,7 @@ crate
 enum
 CrateEnum
 {
-V
+Variant
 (
 PrivateEnum
 )
@@ -41,7 +41,7 @@ PrivateEnum
 enum
 PrivateEnum
 {
-V
+Variant
 (
 u8
 )
