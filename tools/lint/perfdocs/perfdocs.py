@@ -202,6 +202,7 @@ Usage
 for
 verification
 :
+"
 .
 /
 mach
@@ -209,11 +210,14 @@ lint
 -
 l
 perfdocs
+.
+"
     
 Usage
 for
 generation
 :
+"
 .
 /
 mach
@@ -224,6 +228,8 @@ perfdocs
 -
 -
 fix
+.
+"
     
 For
 validation

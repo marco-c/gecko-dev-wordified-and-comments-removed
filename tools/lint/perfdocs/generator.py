@@ -1583,6 +1583,7 @@ perfdocs
 -
 -
 fix
+.
 to
 update
 them
