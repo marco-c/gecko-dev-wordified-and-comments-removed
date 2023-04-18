@@ -415,14 +415,6 @@ pubkey
 [
 must_use
 ]
-boolean
-isBlocklistFresh
-(
-)
-;
-[
-must_use
-]
 void
 setFullCRLiteFilter
 (

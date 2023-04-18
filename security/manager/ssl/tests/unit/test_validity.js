@@ -214,13 +214,6 @@ intFullName
 let
 expectedNamesForOCSP
 =
-gEVExpected
-?
-[
-intFullName
-eeFullName
-]
-:
 [
 eeFullName
 ]
@@ -254,13 +247,6 @@ intFullName
 ;
 expectedNamesForOCSP
 =
-gEVExpected
-?
-[
-intFullName
-eeFullName
-]
-:
 [
 eeFullName
 ]
