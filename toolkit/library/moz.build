@@ -1534,6 +1534,13 @@ MOZ_WIDGET_TOOLKIT
 "
 gtk
 "
+and
+CONFIG
+[
+"
+COMPILE_ENVIRONMENT
+"
+]
 :
 OS_LIBS
 +
