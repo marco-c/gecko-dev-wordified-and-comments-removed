@@ -765,6 +765,11 @@ mNumPrintablePages
 0
 ;
 bool
+mPreparingForPrint
+=
+false
+;
+bool
 mCreatedForPrintPreview
 =
 false

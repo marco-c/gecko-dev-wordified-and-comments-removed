@@ -102,10 +102,6 @@ mIsAborted
 (
 false
 )
-mPreparingForPrint
-(
-false
-)
 {
 }
 nsPrintData

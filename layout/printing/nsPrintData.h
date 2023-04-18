@@ -160,9 +160,6 @@ mOnStartSent
 bool
 mIsAborted
 ;
-bool
-mPreparingForPrint
-;
 private
 :
 nsPrintData
