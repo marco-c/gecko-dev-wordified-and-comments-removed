@@ -267,10 +267,6 @@ choice
 "
 "
 "
-.
-strip
-(
-)
 APPLICATIONS
 =
 OrderedDict
