@@ -394,9 +394,15 @@ urlbar
 .
 onUpdate
 (
+(
+)
+=
+>
 this
 .
 _updateExperimentState
+(
+)
 )
 ;
 }
