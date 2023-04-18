@@ -5384,10 +5384,10 @@ Warning
 Script
 script
 =
-mozilla
+intl
 :
 :
-unicode
+UnicodeProperties
 :
 :
 GetScriptCode
