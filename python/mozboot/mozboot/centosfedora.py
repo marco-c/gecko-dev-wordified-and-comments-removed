@@ -91,9 +91,6 @@ packages
 =
 [
 "
-nodejs
-"
-"
 which
 "
 ]
@@ -258,17 +255,6 @@ Development
 "
                 
 ]
-                
-self
-.
-packages
-+
-=
-[
-"
-npm
-"
-]
             
 else
 :
@@ -331,9 +317,6 @@ packages
 +
 =
 [
-"
-npm
-"
 "
 redhat
 -

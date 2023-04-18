@@ -43,9 +43,6 @@ make
 mercurial
 "
 "
-nodejs
-"
-"
 unzip
 "
 "

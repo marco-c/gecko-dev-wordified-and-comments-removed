@@ -184,10 +184,6 @@ m4
 "
         
 "
-nodejs
-"
-        
-"
 unzip
 "
         
@@ -198,12 +194,6 @@ uuid
 "
 zip
 "
-    
-]
-    
-DEBIAN_PACKAGES
-=
-[
     
 ]
     
@@ -351,26 +341,6 @@ self
 .
 COMMON_PACKAGES
 )
-        
-if
-self
-.
-distro
-=
-=
-"
-debian
-"
-:
-            
-self
-.
-packages
-+
-=
-self
-.
-DEBIAN_PACKAGES
     
 def
 suggest_install_distutils

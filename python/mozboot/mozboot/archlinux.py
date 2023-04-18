@@ -93,9 +93,6 @@ base
 devel
 "
 "
-nodejs
-"
-"
 unzip
 "
 "

@@ -40,14 +40,6 @@ SYSTEM_PACKAGES
 [
         
 "
-nodejs
-"
-        
-"
-npm
-"
-        
-"
 which
 "
         
