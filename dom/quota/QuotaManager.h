@@ -2280,16 +2280,6 @@ mozIStorageConnection
 >
 mStorageConnection
 ;
-LazyInitializedOnceNotNull
-<
-const
-nsCOMPtr
-<
-nsITimer
->
->
-mShutdownTimer
-;
 EnumeratedArray
 <
 Client
