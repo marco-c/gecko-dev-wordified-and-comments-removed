@@ -202,7 +202,11 @@ allocBytes_
 =
 0
 ;
-HeapPtrJitCode
+HeapPtr
+<
+JitCode
+*
+>
 method_
 =
 nullptr
