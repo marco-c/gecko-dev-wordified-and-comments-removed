@@ -4196,14 +4196,7 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
-Result
-<
-nsCOMPtr
-<
-nsIContent
->
-nsresult
->
+SplitNodeResult
 SplitNodeWithTransaction
 (
 const
