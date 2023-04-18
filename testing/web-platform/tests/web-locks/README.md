@@ -21,7 +21,7 @@ github
 .
 com
 /
-WICG
+w3c
 /
 web
 -
@@ -33,7 +33,7 @@ https
 :
 /
 /
-wicg
+w3c
 .
 github
 .
