@@ -13151,10 +13151,10 @@ aPanDistance
 mStartTouch
 )
 ;
-double
+float
 angle
 =
-atan2
+atan2f
 (
 vector
 .
@@ -13166,7 +13166,7 @@ x
 ;
 angle
 =
-fabs
+fabsf
 (
 angle
 )
@@ -13251,7 +13251,7 @@ angle
 StaticPrefs
 :
 :
-apz_axis_lock_breakout_angle
+apz_axis_lock_lock_angle
 (
 )
 )
@@ -13325,7 +13325,7 @@ angle
 StaticPrefs
 :
 :
-apz_axis_lock_breakout_angle
+apz_axis_lock_lock_angle
 (
 )
 )
