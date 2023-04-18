@@ -379,10 +379,7 @@ kNameSpaceID_XLink
 )
 )
 {
-dom
-:
-:
-SVGAElement
+auto
 *
 content
 =
