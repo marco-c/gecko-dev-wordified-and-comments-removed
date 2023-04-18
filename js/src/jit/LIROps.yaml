@@ -7090,7 +7090,7 @@ name
 OptimizeSpreadCallCache
 result_type
 :
-WordSized
+BoxedValue
 operands
 :
 value
