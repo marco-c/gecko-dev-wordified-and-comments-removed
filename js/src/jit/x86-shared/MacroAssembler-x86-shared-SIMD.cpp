@@ -7513,7 +7513,7 @@ src
 dest
 )
 ;
-vpxor
+vxorps
 (
 Operand
 (

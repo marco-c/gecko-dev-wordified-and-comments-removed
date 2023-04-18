@@ -46,12 +46,11 @@ i32x4
 .
 trunc_sat_f32x4_u
 '
-66
 45
 0f
-ef
+57
 ff
-pxor
+xorps
 %
 xmm15
 %
