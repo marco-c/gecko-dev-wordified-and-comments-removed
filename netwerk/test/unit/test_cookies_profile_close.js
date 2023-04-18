@@ -161,7 +161,7 @@ cookies
 =
 Services
 .
-cookiemgr
+cookies
 .
 cookies
 ;
@@ -307,7 +307,7 @@ function
 {
 Services
 .
-cookiemgr
+cookies
 .
 removeAll
 (
@@ -327,7 +327,7 @@ function
 {
 Services
 .
-cookiemgr
+cookies
 .
 cookies
 ;
@@ -345,7 +345,7 @@ function
 {
 Services
 .
-cookiemgr
+cookies
 .
 add
 (
@@ -394,7 +394,7 @@ function
 {
 Services
 .
-cookiemgr
+cookies
 .
 remove
 (
@@ -426,7 +426,7 @@ function
 {
 Services
 .
-cookiemgr
+cookies
 .
 cookieExists
 (
@@ -514,7 +514,7 @@ ok
 (
 Services
 .
-cookiemgr
+cookies
 .
 cookieExists
 (

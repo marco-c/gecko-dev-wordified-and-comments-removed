@@ -303,7 +303,7 @@ cookie
 of
 Services
 .
-cookiemgr
+cookies
 .
 cookies
 )
@@ -367,7 +367,7 @@ futureExpiry
 ;
 Services
 .
-cookiemgr
+cookies
 .
 add
 (
@@ -432,7 +432,7 @@ com
 ;
 Services
 .
-cookiemgr
+cookies
 .
 add
 (
@@ -494,7 +494,7 @@ cookie
 of
 Services
 .
-cookiemgr
+cookies
 .
 getCookiesFromHost
 (
@@ -553,7 +553,7 @@ i
 {
 Services
 .
-cookiemgr
+cookies
 .
 add
 (
@@ -608,7 +608,7 @@ cookie
 of
 Services
 .
-cookiemgr
+cookies
 .
 cookies
 )
@@ -670,7 +670,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -687,7 +687,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -705,7 +705,7 @@ cookie
 of
 Services
 .
-cookiemgr
+cookies
 .
 getCookiesFromHost
 (
