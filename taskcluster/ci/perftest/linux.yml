@@ -347,6 +347,9 @@ linux
 -
 webpagetest
 )
+tier
+:
+2
 attributes
 :
 cron
@@ -477,6 +480,9 @@ linux
 -
 webpagetest
 )
+tier
+:
+2
 attributes
 :
 cron
