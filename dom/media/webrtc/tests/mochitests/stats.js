@@ -6291,6 +6291,10 @@ s
 getStats
 (
 )
+s
+.
+track
+?
 Math
 .
 max
@@ -6311,6 +6315,8 @@ length
 ?
 0
 )
+:
+0
 )
 ;
 }
