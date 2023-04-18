@@ -363,11 +363,6 @@ PromiseWorkerProxy
 (
 )
 ;
-void
-CleanProperties
-(
-)
-;
 typedef
 void
 (
