@@ -331,6 +331,11 @@ SourceSurfaceBlobImage
 .
 h
 "
+"
+WebRenderImageProvider
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
