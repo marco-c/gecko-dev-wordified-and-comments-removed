@@ -11625,6 +11625,13 @@ gkrust
 shared
 "
 "
+lmdb
+-
+rkv
+-
+sys
+"
+"
 mozglue
 -
 static
@@ -11699,6 +11706,13 @@ l10nregistry
 ffi
 -
 gtest
+"
+"
+lmdb
+-
+rkv
+-
+sys
 "
 "
 moz_task
