@@ -1917,7 +1917,7 @@ RUSTC_BOOTSTRAP
 RUSTC_BOOTSTRAP
 )
 encoding_rs
-packed_simd
+packed_simd_2
 endif
 export
 RUSTC_BOOTSTRAP

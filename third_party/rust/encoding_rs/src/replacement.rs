@@ -5,6 +5,9 @@ super
 *
 ;
 use
+crate
+:
+:
 variant
 :
 :
@@ -308,7 +311,15 @@ Malformed
 [
 cfg
 (
+all
+(
 test
+feature
+=
+"
+alloc
+"
+)
 )
 ]
 mod
