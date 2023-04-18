@@ -2400,6 +2400,12 @@ mWebRenderBridgeRef
 nullptr
 ;
 }
+mCompositables
+.
+clear
+(
+)
+;
 ClearResources
 (
 )
