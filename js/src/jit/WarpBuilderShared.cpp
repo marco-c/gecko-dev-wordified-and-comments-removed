@@ -139,7 +139,7 @@ loc
 toRawBytecode
 (
 )
-MResumePoint
+ResumeMode
 :
 :
 ResumeAfter

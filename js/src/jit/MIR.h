@@ -41652,16 +41652,6 @@ MResumePoint
 #
 endif
 {
-public
-:
-enum
-Mode
-{
-ResumeAt
-ResumeAfter
-Outer
-}
-;
 private
 :
 friend
@@ -41696,7 +41686,7 @@ MInstruction
 *
 instruction_
 ;
-Mode
+ResumeMode
 mode_
 ;
 MResumePoint
@@ -41707,7 +41697,7 @@ block
 jsbytecode
 *
 pc
-Mode
+ResumeMode
 mode
 )
 ;
@@ -41820,7 +41810,7 @@ block
 jsbytecode
 *
 pc
-Mode
+ResumeMode
 mode
 )
 ;
@@ -42120,7 +42110,7 @@ instruction_
 nullptr
 ;
 }
-Mode
+ResumeMode
 mode
 (
 )
