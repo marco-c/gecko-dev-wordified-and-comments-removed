@@ -1786,6 +1786,17 @@ aOriginalEventTargetNode
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
+MOZ_CAN_RUN_SCRIPT
+nsresult
+FlushPendingSpellCheck
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 void
 OnFocus
