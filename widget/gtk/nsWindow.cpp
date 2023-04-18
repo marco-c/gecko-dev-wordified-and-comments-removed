@@ -13401,6 +13401,10 @@ return
 false
 ;
 }
+{
+ScopedXErrorHandler
+handler
+;
 result
 =
 XGetWindowProperty
@@ -13424,6 +13428,7 @@ bytes_after_return
 prop_return
 )
 ;
+}
 if
 (
 result
