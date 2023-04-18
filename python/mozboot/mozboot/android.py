@@ -2237,8 +2237,6 @@ mozbuild_path
         
 os_name
         
-os_arch
-        
 sdk_path
 =
 sdk_path
@@ -2425,8 +2423,6 @@ mozbuild_path
 Path
     
 os_name
-    
-os_arch
     
 sdk_path
 :
