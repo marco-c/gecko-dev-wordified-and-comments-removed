@@ -701,11 +701,6 @@ AncestorIterator
 h
 "
 "
-AnimationFrameProvider
-.
-h
-"
-"
 AnonymousContent
 .
 h
@@ -1424,11 +1419,6 @@ UNIFIED_SOURCES
 [
 "
 AbstractRange
-.
-cpp
-"
-"
-AnimationFrameProvider
 .
 cpp
 "

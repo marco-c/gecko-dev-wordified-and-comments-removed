@@ -65,16 +65,6 @@ NS_IsMainThread
 )
 ;
 }
-CompositorWidgetVsyncObserver
-:
-:
-~
-CompositorWidgetVsyncObserver
-(
-)
-=
-default
-;
 bool
 CompositorWidgetVsyncObserver
 :
