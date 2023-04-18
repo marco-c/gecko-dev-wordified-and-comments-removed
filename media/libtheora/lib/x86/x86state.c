@@ -11,6 +11,12 @@ defined
 (
 OC_X86_ASM
 )
+#
+if
+defined
+(
+OC_STATE_USE_VTABLE
+)
 static
 const
 unsigned
@@ -151,6 +157,8 @@ OC_FZIG_ZAG_MMX
 64
 }
 ;
+#
+endif
 static
 const
 unsigned

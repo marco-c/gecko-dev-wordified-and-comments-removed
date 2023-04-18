@@ -438,9 +438,6 @@ defined
 HAVE_CAIRO
 )
 int
-telemetry
-;
-int
 telemetry_mbmode
 ;
 int

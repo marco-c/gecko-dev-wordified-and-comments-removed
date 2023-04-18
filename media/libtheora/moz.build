@@ -42,15 +42,6 @@ theoradec
 .
 h
 '
-'
-include
-/
-theora
-/
-theoraenc
-.
-h
-'
 ]
 AllowCompilerWarnings
 (

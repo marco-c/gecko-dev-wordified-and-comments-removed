@@ -7,7 +7,7 @@ _huffman_H
 )
 #
 define
-_hufffman_H
+_huffman_H
 (
 1
 )

@@ -190,6 +190,7 @@ th_comment_add
 th_comment
 *
 _tc
+const
 char
 *
 _comment
@@ -385,9 +386,11 @@ th_comment_add_tag
 th_comment
 *
 _tc
+const
 char
 *
 _tag
+const
 char
 *
 _val
@@ -485,6 +488,7 @@ th_comment_query
 th_comment
 *
 _tc
+const
 char
 *
 _tag
@@ -581,6 +585,7 @@ th_comment_query_count
 th_comment
 *
 _tc
+const
 char
 *
 _tag
