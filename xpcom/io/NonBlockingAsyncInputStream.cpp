@@ -740,12 +740,6 @@ aLength
 0
 )
 {
-MutexAutoLock
-lock
-(
-mLock
-)
-;
 mInputStream
 -
 >
