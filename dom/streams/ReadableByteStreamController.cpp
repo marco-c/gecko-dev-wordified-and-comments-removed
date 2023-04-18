@@ -5993,6 +5993,11 @@ aCx
 return
 ;
 }
+JS_ClearPendingException
+(
+aCx
+)
+;
 aReadIntoRequest
 -
 >
