@@ -114,6 +114,11 @@ infinity
 js
 "
 "
+jsonml
+.
+js
+"
+"
 nan
 .
 js
