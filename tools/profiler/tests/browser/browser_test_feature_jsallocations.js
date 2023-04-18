@@ -40,9 +40,6 @@ features
 :
 [
 "
-threads
-"
-"
 js
 "
 "
@@ -204,9 +201,6 @@ startProfiler
 features
 :
 [
-"
-threads
-"
 "
 js
 "
