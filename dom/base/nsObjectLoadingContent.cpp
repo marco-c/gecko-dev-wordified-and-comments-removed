@@ -8372,6 +8372,14 @@ cspToInherit
 )
 ;
 }
+loadState
+-
+>
+SetTriggeringSandboxFlags
+(
+sandboxFlags
+)
+;
 auto
 referrerInfo
 =
