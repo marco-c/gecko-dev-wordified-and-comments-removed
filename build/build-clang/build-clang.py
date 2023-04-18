@@ -1771,6 +1771,27 @@ OFF
 ]
         
 if
+not
+is_windows
+(
+)
+and
+is_final_stage
+:
+            
+cmake_args
++
+=
+[
+"
+-
+DLLVM_ENABLE_LIBXML2
+=
+FORCE_ON
+"
+]
+        
+if
 is_linux
 (
 )
@@ -1793,18 +1814,6 @@ DLLVM_BINUTILS_INCDIR
 usr
 /
 include
-"
-]
-            
-cmake_args
-+
-=
-[
-"
--
-DLLVM_ENABLE_LIBXML2
-=
-FORCE_ON
 "
 ]
             
