@@ -117,7 +117,7 @@ regexp
 HandleString
 input
 int32_t
-maybeLastIndex
+lastIndex
 MatchPairs
 *
 maybeMatches
