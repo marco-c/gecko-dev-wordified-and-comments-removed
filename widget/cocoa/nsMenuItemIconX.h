@@ -156,6 +156,7 @@ mImageRegionRect
 ;
 RefPtr
 <
+const
 mozilla
 :
 :
