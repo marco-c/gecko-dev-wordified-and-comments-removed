@@ -16480,7 +16480,6 @@ fragLen
 MAX_SHAPING_LENGTH
 ;
 if
-constexpr
 (
 sizeof
 (
@@ -17454,7 +17453,6 @@ TEXT_ORIENT_MASK
 )
 ;
 if
-constexpr
 (
 sizeof
 (
@@ -17687,7 +17685,6 @@ wordFlags
 flags
 ;
 if
-constexpr
 (
 sizeof
 (

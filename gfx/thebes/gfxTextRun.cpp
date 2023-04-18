@@ -14136,7 +14136,6 @@ aLength
 )
 ;
 if
-constexpr
 (
 sizeof
 (
@@ -15835,7 +15834,6 @@ continue
 ;
 }
 if
-constexpr
 (
 sizeof
 (
@@ -18750,7 +18748,6 @@ aString
 ]
 ;
 if
-constexpr
 (
 sizeof
 (
@@ -18862,7 +18859,6 @@ ch
 nextCh
 ;
 if
-constexpr
 (
 sizeof
 (
