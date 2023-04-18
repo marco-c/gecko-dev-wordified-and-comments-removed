@@ -2403,6 +2403,14 @@ aEvent
 )
 ;
 void
+TryToShowNativeWindowMenu
+(
+GdkEventButton
+*
+aEvent
+)
+;
+void
 EnableRenderingToWindow
 (
 )
