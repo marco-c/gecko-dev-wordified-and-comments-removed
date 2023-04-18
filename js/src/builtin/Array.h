@@ -650,6 +650,15 @@ obj
 ;
 extern
 bool
+PrototypeMayHaveIndexedProperties
+(
+NativeObject
+*
+obj
+)
+;
+extern
+bool
 IsArrayFromJit
 (
 JSContext
