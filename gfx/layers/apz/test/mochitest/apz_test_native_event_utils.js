@@ -3378,6 +3378,7 @@ return
 true
 ;
 }
+async
 function
 synthesizeNativeTouchSequences
 (
@@ -3393,6 +3394,7 @@ aTouchIds
 ]
 )
 {
+await
 synthesizeNativePointerSequences
 (
 aTarget
@@ -3405,6 +3407,7 @@ aTouchIds
 )
 ;
 }
+async
 function
 synthesizeNativePointerDrag
 (
@@ -3558,6 +3561,7 @@ options
 )
 ;
 }
+async
 function
 synthesizeNativeTouchDrag
 (
@@ -5058,6 +5062,7 @@ mouseup
 }
 ;
 }
+async
 function
 pinchZoomInTouchSequence
 (
@@ -5453,6 +5458,7 @@ TransformEnd
 "
 )
 ;
+await
 pinchZoomInTouchSequence
 (
 focusX
@@ -5789,6 +5795,7 @@ TransformEnd
 "
 )
 ;
+await
 synthesizeNativeTouchSequences
 (
 document
@@ -6155,6 +6162,7 @@ touchIds
 )
 ;
 }
+async
 function
 synthesizeDoubleTap
 (
@@ -6169,6 +6177,7 @@ if
 useTouchpad
 )
 {
+await
 synthesizeNativeTouchpadDoubleTap
 (
 element
@@ -6179,6 +6188,7 @@ y
 }
 else
 {
+await
 synthesizeNativeTap
 (
 element
@@ -6186,6 +6196,7 @@ x
 y
 )
 ;
+await
 synthesizeNativeTap
 (
 element
@@ -6212,6 +6223,7 @@ promiseTransformEnd
 (
 )
 ;
+await
 synthesizeDoubleTap
 (
 element
