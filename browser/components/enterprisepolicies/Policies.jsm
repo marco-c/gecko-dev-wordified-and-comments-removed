@@ -7362,6 +7362,11 @@ allowedSecurityPrefs
 "
 security
 .
+block_fileuri_script_with_wrong_mime
+"
+"
+security
+.
 default_personal_cert
 "
 "
