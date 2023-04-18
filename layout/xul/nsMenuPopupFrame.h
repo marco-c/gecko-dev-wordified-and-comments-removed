@@ -355,12 +355,14 @@ default
 ;
 private
 :
+const
 nsCOMPtr
 <
 nsIContent
 >
 mPopup
 ;
+const
 RefPtr
 <
 nsPresContext
