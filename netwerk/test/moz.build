@@ -60,6 +60,13 @@ TESTING_JS_MODULES
 =
 [
 "
+browser
+/
+early_hint_preload_test_helper
+.
+jsm
+"
+"
 unit
 /
 test_http3_prio_helpers
