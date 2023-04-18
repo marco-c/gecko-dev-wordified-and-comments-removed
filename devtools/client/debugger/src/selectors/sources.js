@@ -133,7 +133,7 @@ from
 .
 .
 /
-reducers
+selectors
 /
 source
 -
