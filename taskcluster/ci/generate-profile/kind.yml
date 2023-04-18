@@ -1123,7 +1123,7 @@ win64
 -
 clang
 -
-2stage
+toolchain
 -
 win32
 -
@@ -1270,7 +1270,7 @@ win64
 -
 clang
 -
-2stage
+toolchain
 -
 win32
 -
