@@ -106,16 +106,6 @@ global
 button
 .
 css
-*
-skin
-/
-classic
-/
-global
-/
-commonDialog
-.
-css
 skin
 /
 classic
