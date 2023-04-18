@@ -909,12 +909,6 @@ tsan
 tsan
             
 "
-webrender
-"
-:
-False
-            
-"
 appname
 "
 :
