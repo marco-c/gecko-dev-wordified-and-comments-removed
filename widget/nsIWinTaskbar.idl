@@ -109,6 +109,9 @@ shell
 nsIJumpListBuilder
 createJumpListBuilder
 (
+in
+boolean
+aPrivateBrowsing
 )
 ;
 void
