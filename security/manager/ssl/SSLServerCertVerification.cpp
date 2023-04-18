@@ -283,6 +283,15 @@ h
 #
 include
 "
+mozpkix
+/
+pkixutil
+.
+h
+"
+#
+include
+"
 secerr
 .
 h
