@@ -32,6 +32,9 @@ T
 >
 {
 pub
+(
+crate
+)
 fn
 new
 (
@@ -156,7 +159,7 @@ self
 .
 inner
 .
-bytes
+chunk
 (
 )
 [

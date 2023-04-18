@@ -373,8 +373,6 @@ Label
 Optional
 )
 tag
-:
-tag
 }
 )
 )
@@ -913,7 +911,7 @@ ident
 =
 :
 :
-std
+core
 :
 :
 option

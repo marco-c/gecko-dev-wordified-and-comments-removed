@@ -146,7 +146,6 @@ prost_attrs
 (
 attrs
 )
-?
 ;
 let
 field
@@ -350,7 +349,6 @@ prost_attrs
 (
 attrs
 )
-?
 ;
 let
 field
@@ -1038,7 +1036,7 @@ quote
 (
 :
 :
-std
+core
 :
 :
 default
@@ -1248,7 +1246,6 @@ Label
 fn
 as_str
 (
-&
 self
 )
 -
@@ -1259,7 +1256,6 @@ static
 str
 {
 match
-*
 self
 {
 Label
@@ -1311,8 +1307,6 @@ const
 VARIANTS
 :
 &
-'
-static
 [
 Label
 ]
@@ -1493,10 +1487,6 @@ as_str
 )
 }
 }
-pub
-(
-super
-)
 fn
 prost_attrs
 (
@@ -1509,17 +1499,11 @@ Attribute
 )
 -
 >
-Result
-<
 Vec
 <
 Meta
 >
-Error
->
 {
-Ok
-(
 attrs
 .
 iter
@@ -1659,7 +1643,6 @@ lit
 .
 collect
 (
-)
 )
 }
 pub
@@ -2468,7 +2451,6 @@ attr
 ;
 }
 }
-return
 Ok
 (
 Some
@@ -2476,7 +2458,6 @@ Some
 tags
 )
 )
-;
 }
 Meta
 :
@@ -2560,13 +2541,7 @@ _
 .
 map
 (
-|
-tags
-|
 Some
-(
-tags
-)
 )
 _
 =
