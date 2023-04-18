@@ -64,7 +64,6 @@ eUXButton
 =
 0
 eUXEdit
-eUXTooltip
 eUXRebar
 eUXMediaRebar
 eUXCommunicationsRebar
