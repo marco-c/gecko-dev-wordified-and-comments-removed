@@ -7754,12 +7754,6 @@ Label
 failure
 )
 ;
-void
-loadWasmPinnedRegsFromTls
-(
-)
-{
-}
 public
 :
 void
