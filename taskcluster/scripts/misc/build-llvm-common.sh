@@ -85,7 +85,7 @@ mcpu
 =
 apple
 -
-a12
+m1
 \
 "
 \
