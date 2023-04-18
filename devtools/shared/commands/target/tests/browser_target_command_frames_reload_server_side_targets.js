@@ -224,6 +224,9 @@ targetCommand
 .
 watchTargets
 (
+{
+types
+:
 [
 TYPES
 .
@@ -231,6 +234,7 @@ FRAME
 ]
 onAvailable
 onDestroyed
+}
 )
 ;
 await
@@ -597,6 +601,9 @@ targetCommand
 .
 unwatchTargets
 (
+{
+types
+:
 [
 TYPES
 .
@@ -604,6 +611,7 @@ FRAME
 ]
 onAvailable
 onDestroyed
+}
 )
 ;
 targetCommand
