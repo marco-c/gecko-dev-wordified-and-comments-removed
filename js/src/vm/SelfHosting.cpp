@@ -15668,6 +15668,15 @@ intrinsic_TypedArrayLength
 0
 IntrinsicTypedArrayLength
 )
+JS_FN
+(
+"
+TypedArrayNativeSort
+"
+intrinsic_TypedArrayNativeSort
+1
+0
+)
 JS_INLINABLE_FN
 (
 "
