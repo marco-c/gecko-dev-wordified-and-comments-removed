@@ -263,7 +263,7 @@ aBaseURL
 ScriptLoadContext
 *
 aContext
-ScriptLoader
+ModuleLoaderBase
 *
 aLoader
 JS
