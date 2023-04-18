@@ -1196,6 +1196,12 @@ cpp
 #
 615
 )
+and
+there
+is
+an
+initialized
+PresShell
 the
 DocAccessible
 '
