@@ -1882,7 +1882,7 @@ ifdef
 ANDROID
 value
 :
-true
+IS_NOT_RELEASE_OR_BETA
 #
 else
 value
