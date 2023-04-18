@@ -290,7 +290,6 @@ Ntid
 )
 "
 _ns
-false
 EPERM
 [
 &
@@ -523,7 +522,6 @@ ErrnoValueTest
 connect_abstract_blocked
 "
 _ns
-false
 ENETUNREACH
 [
 &
@@ -638,7 +636,6 @@ ErrnoValueTest
 connect_abstract_permit
 "
 _ns
-false
 ECONNREFUSED
 [
 &
@@ -940,7 +937,7 @@ SendReportTestResults
 CGSessionCopyCurrentDictionary
 "
 _ns
-false
+!
 gotWindowServerDetails
 gotWindowServerDetails
 ?
@@ -1341,7 +1338,6 @@ ErrnoValueTest
 ioctl_tiocsti
 "
 _ns
-false
 ENOSYS
 [
 &
@@ -1408,7 +1404,6 @@ ErrnoValueTest
 unlink
 "
 _ns
-false
 ENOENT
 [
 &
@@ -1438,7 +1433,6 @@ ErrnoValueTest
 unlinkat
 "
 _ns
-false
 ENOENT
 [
 &
@@ -1526,7 +1520,6 @@ ErrnoValueTest
 ioctl_dma_buf
 "
 _ns
-false
 ENOTTY
 [
 ]
@@ -1958,7 +1951,6 @@ ErrnoValueTest
 ioctl_tiocsti
 "
 _ns
-false
 ENOSYS
 [
 &
@@ -2032,8 +2024,7 @@ ErrnoValueTest
 write_only
 "
 _ns
-true
-EPERM
+EACCES
 [
 &
 ]
@@ -2054,11 +2045,6 @@ w
 "
 )
 ;
-int
-errno_copy
-=
-errno
-;
 if
 (
 rv
@@ -2072,22 +2058,13 @@ fclose
 rv
 )
 ;
-MOZ_ASSERT
-(
-!
-rv
-"
-SHould
-have
-had
-a
-nullptr
-"
-)
+return
+0
 ;
 }
 return
-errno_copy
+-
+1
 ;
 }
 )
