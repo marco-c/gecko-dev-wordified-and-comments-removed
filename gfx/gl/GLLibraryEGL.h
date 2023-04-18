@@ -252,6 +252,7 @@ KHR_swap_buffers_with_damage
 EXT_buffer_age
 KHR_partial_update
 NV_robustness_video_memory_purge
+MESA_platform_surfaceless
 Max
 }
 ;
