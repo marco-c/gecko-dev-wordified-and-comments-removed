@@ -24414,12 +24414,8 @@ if
 tempTarget
 )
 {
-gfxDevCrash
+gfxWarning
 (
-LogReason
-:
-:
-InvalidDrawTarget
 )
 <
 <
