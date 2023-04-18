@@ -78,8 +78,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -735,7 +735,6 @@ UpdateItem
 }
 }
 ;
-}
 }
 #
 endif

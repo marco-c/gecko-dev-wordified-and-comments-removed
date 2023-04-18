@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -254,7 +254,6 @@ mTotalDelta
 =
 aDelta
 ;
-}
 }
 }
 #

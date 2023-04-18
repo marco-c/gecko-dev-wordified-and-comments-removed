@@ -55,8 +55,8 @@ nsRefreshDriver
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -195,7 +195,6 @@ aNode
 ;
 }
 ;
-}
 }
 #
 endif

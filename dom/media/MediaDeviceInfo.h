@@ -70,8 +70,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -219,7 +219,6 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 MediaDeviceInfo
 MOZILLA_DOM_MEDIADEVICEINFO_IMPLEMENTATION_IID
 )
-}
 }
 #
 endif

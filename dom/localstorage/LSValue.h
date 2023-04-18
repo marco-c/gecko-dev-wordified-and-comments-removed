@@ -78,8 +78,8 @@ ParamTraits
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -502,7 +502,6 @@ nsString
 aDest
 )
 ;
-}
 }
 #
 endif

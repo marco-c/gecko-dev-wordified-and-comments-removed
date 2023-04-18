@@ -104,8 +104,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -582,7 +582,6 @@ mRoots
 ;
 }
 ;
-}
 }
 #
 endif

@@ -34,8 +34,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -222,7 +222,6 @@ mCrossGraphs
 ;
 }
 ;
-}
 }
 #
 endif

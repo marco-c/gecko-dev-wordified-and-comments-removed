@@ -85,8 +85,8 @@ WindowGlobalParent
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -256,7 +256,6 @@ mManager
 ;
 }
 ;
-}
 }
 #
 endif

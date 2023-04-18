@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -41,7 +41,6 @@ nsACString
 aDest
 )
 ;
-}
 }
 #
 endif

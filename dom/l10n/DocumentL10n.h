@@ -20,8 +20,8 @@ nsIContentSink
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -220,7 +220,6 @@ mIsFirstBrowserWindow
 ;
 }
 ;
-}
 }
 #
 endif

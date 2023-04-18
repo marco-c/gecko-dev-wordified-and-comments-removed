@@ -31,8 +31,8 @@ nsINode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -244,7 +244,6 @@ aStr
 ;
 }
 ;
-}
 }
 #
 endif

@@ -131,8 +131,8 @@ WindowProxyHolder
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -337,7 +337,6 @@ mGlobal
 ;
 }
 ;
-}
 }
 #
 endif

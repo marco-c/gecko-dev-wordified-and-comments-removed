@@ -83,11 +83,11 @@ while
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 localstorage
 {
 MOZ_COLD
@@ -106,8 +106,6 @@ char
 aStr
 )
 ;
-}
-}
 }
 #
 endif

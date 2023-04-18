@@ -18,8 +18,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 media
 {
 template
@@ -30,7 +30,6 @@ T
 class
 IntervalSet
 ;
-}
 }
 template
 <
@@ -72,8 +71,8 @@ Type
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 media
 {
 template
@@ -4049,7 +4048,6 @@ aIntervals2
 return
 intersection
 ;
-}
 }
 }
 #
