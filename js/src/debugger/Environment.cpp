@@ -972,7 +972,7 @@ strlen
 (
 s
 )
-PinAtom
+DoNotPinAtom
 )
 ;
 if
@@ -1072,7 +1072,7 @@ strlen
 (
 s
 )
-PinAtom
+DoNotPinAtom
 )
 ;
 if
