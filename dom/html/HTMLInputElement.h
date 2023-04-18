@@ -4854,7 +4854,6 @@ FormControlType
 InputTime
 |
 |
-(
 aType
 =
 =
@@ -4862,15 +4861,6 @@ FormControlType
 :
 :
 InputDatetimeLocal
-&
-&
-StaticPrefs
-:
-:
-dom_forms_datetime_local_widget
-(
-)
-)
 ;
 }
 bool

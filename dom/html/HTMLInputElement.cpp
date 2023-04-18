@@ -23770,9 +23770,6 @@ FormControlType
 :
 InputTime
 :
-return
-true
-;
 case
 FormControlType
 :
@@ -23780,12 +23777,7 @@ FormControlType
 InputDatetimeLocal
 :
 return
-StaticPrefs
-:
-:
-dom_forms_datetime_local
-(
-)
+true
 ;
 case
 FormControlType
