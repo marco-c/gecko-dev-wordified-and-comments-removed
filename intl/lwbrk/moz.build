@@ -25,11 +25,6 @@ nsComplexBreaker
 h
 "
 "
-Segmenter
-.
-h
-"
-"
 WordBreaker
 .
 h
@@ -41,11 +36,6 @@ UNIFIED_SOURCES
 [
 "
 LineBreaker
-.
-cpp
-"
-"
-Segmenter
 .
 cpp
 "
@@ -154,6 +144,11 @@ nsRuleBreaker
 .
 cpp
 "
+]
+SOURCES
++
+=
+[
 "
 rulebrk
 .
