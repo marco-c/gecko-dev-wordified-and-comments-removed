@@ -998,6 +998,12 @@ array
 custom_keyword
 !
 (
+assert_exception
+)
+;
+custom_keyword
+!
+(
 assert_exhaustion
 )
 ;
@@ -1071,12 +1077,6 @@ custom_keyword
 !
 (
 assert_unlinkable
-)
-;
-custom_keyword
-!
-(
-assert_uncaught_exception
 )
 ;
 custom_keyword

@@ -15,7 +15,7 @@ UNICODE_VERSION
 }
 ;
 use
-std
+core
 :
 :
 cmp
@@ -31,7 +31,7 @@ Greater
 }
 ;
 use
-std
+core
 :
 :
 char
@@ -46,6 +46,9 @@ tables
 bidi_class_table
 ;
 use
+crate
+:
+:
 BidiClass
 :
 :

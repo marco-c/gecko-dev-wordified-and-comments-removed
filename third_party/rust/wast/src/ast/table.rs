@@ -1059,7 +1059,10 @@ Self
 >
 {
 let
+(
+must_use_indices
 ty
+)
 =
 match
 ty
@@ -1086,6 +1089,8 @@ func
 )
 ?
 ;
+(
+true
 ast
 :
 :
@@ -1095,6 +1100,7 @@ RefType
 func
 (
 )
+)
 }
 Some
 (
@@ -1102,7 +1108,10 @@ ty
 )
 =
 >
+(
+false
 ty
+)
 }
 ;
 if
@@ -1120,6 +1129,9 @@ ty
 heap
 {
 if
+must_use_indices
+|
+|
 parser
 .
 peek
