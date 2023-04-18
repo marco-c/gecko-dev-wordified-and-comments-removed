@@ -722,8 +722,6 @@ ftest
 -
 coverage
 -
-DJXL_DISABLE_SLOW_TESTS
--
 DJXL_ENABLE_ASSERT
 =
 0

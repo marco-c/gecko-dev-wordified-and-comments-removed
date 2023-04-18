@@ -114,9 +114,6 @@ const
 SizeConstraints
 &
 constraints
-ThreadPool
-*
-pool
 PackedPixelFile
 *
 ppf

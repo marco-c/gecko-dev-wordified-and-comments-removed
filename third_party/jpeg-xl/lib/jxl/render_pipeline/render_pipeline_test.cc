@@ -340,6 +340,8 @@ Finalize
 frame_dimensions
 )
 ;
+ASSERT_TRUE
+(
 pipeline
 -
 >
@@ -347,6 +349,7 @@ PrepareForThreads
 (
 1
 false
+)
 )
 ;
 for
@@ -409,7 +412,7 @@ Done
 )
 ;
 }
-EXPECT_TRUE
+EXPECT_EQ
 (
 pipeline
 -
@@ -417,8 +420,6 @@ pipeline
 PassesWithAllInput
 (
 )
-=
-=
 1
 )
 ;
@@ -611,6 +612,8 @@ Finalize
 frame_dimensions
 )
 ;
+ASSERT_TRUE
+(
 pipeline
 -
 >
@@ -618,6 +621,7 @@ PrepareForThreads
 (
 1
 false
+)
 )
 ;
 for
@@ -680,7 +684,7 @@ Done
 )
 ;
 }
-EXPECT_TRUE
+EXPECT_EQ
 (
 pipeline
 -
@@ -688,8 +692,6 @@ pipeline
 PassesWithAllInput
 (
 )
-=
-=
 1
 )
 ;
@@ -1622,6 +1624,8 @@ settings
 input_path
 =
 "
+third_party
+/
 imagecompression
 .
 info
@@ -2282,12 +2286,11 @@ s
 .
 cparams
 .
-quality_pair
+butteraugli_distance
 =
-{
-90
-90
-}
+1
+.
+f
 ;
 all_tests
 .
@@ -2308,6 +2311,8 @@ s
 input_path
 =
 "
+third_party
+/
 imagecompression
 .
 info
@@ -2344,6 +2349,8 @@ s
 input_path
 =
 "
+third_party
+/
 imagecompression
 .
 info
@@ -2412,6 +2419,8 @@ s
 input_path
 =
 "
+third_party
+/
 imagecompression
 .
 info
@@ -2448,6 +2457,8 @@ s
 input_path
 =
 "
+third_party
+/
 imagecompression
 .
 info
@@ -2522,6 +2533,8 @@ input
 :
 {
 "
+third_party
+/
 imagecompression
 .
 info
@@ -2535,6 +2548,8 @@ im_q85_444
 jpg
 "
 "
+third_party
+/
 imagecompression
 .
 info
@@ -2548,6 +2563,8 @@ im_q85_420
 jpg
 "
 "
+third_party
+/
 imagecompression
 .
 info
@@ -2561,6 +2578,8 @@ im_q85_422
 jpg
 "
 "
+third_party
+/
 imagecompression
 .
 info

@@ -627,16 +627,11 @@ strategy
 :
 matrix
 :
-#
-'
-main_level10
-'
-currently
-fails
 name
 :
 [
 main_level5
+main_level10
 ]
 steps
 :

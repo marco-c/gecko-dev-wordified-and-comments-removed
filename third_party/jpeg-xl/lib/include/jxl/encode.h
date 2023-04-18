@@ -206,6 +206,9 @@ JXL_ENC_FRAME_SETTING_JPEG_RECON_CFL
 JXL_ENC_FRAME_INDEX_BOX
 =
 31
+JXL_ENC_FRAME_SETTING_BROTLI_EFFORT
+=
+32
 JXL_ENC_FRAME_SETTING_FILL_ENUM
 =
 65535
@@ -660,6 +663,7 @@ distance
 )
 ;
 JXL_EXPORT
+JXL_DEPRECATED
 JxlEncoderStatus
 JxlEncoderOptionsSetDistance
 (
@@ -683,6 +687,7 @@ source
 )
 ;
 JXL_EXPORT
+JXL_DEPRECATED
 JxlEncoderFrameSettings
 *
 JxlEncoderOptionsCreate

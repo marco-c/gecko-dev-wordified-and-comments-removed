@@ -1235,6 +1235,10 @@ spot_color
 if
 (
 pixel_callback
+.
+IsPresent
+(
+)
 )
 {
 builder
@@ -1267,7 +1271,6 @@ GetWriteToU8Stage
 (
 rgb_output
 rgb_stride
-width
 height
 rgb_output_is_rgba
 has_alpha

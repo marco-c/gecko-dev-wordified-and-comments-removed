@@ -76,6 +76,8 @@ image_bytes
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info

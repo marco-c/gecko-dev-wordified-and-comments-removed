@@ -814,6 +814,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -931,6 +933,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -1180,6 +1184,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 64px
@@ -1424,6 +1430,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -1554,6 +1562,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -1680,6 +1690,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -1798,6 +1810,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -1912,6 +1926,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -2030,6 +2046,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -2148,6 +2166,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -2277,6 +2297,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -2449,6 +2471,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -2635,6 +2659,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -2721,6 +2747,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -2822,6 +2850,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -3014,6 +3044,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -3184,6 +3216,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -3312,6 +3346,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -3433,6 +3469,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -3809,7 +3847,7 @@ IsSlightlyBelow
 (
 0
 .
-2f
+04f
 )
 )
 ;
@@ -4021,7 +4059,7 @@ IsSlightlyBelow
 (
 0
 .
-2f
+04f
 )
 )
 ;
@@ -4444,6 +4482,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -4791,6 +4831,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -5013,7 +5055,7 @@ IsSlightlyBelow
 (
 1
 .
-4
+2
 )
 )
 ;
@@ -5037,6 +5079,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -5247,7 +5291,7 @@ IsSlightlyBelow
 (
 1
 .
-4
+2
 )
 )
 ;
@@ -5280,7 +5324,7 @@ IsSlightlyBelow
 (
 1
 .
-8
+35
 )
 )
 ;
@@ -5304,6 +5348,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -5505,6 +5551,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -5700,6 +5748,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -5900,7 +5950,7 @@ compressed
 size
 (
 )
-200u
+180u
 )
 ;
 EXPECT_THAT
@@ -5922,7 +5972,7 @@ IsSlightlyBelow
 (
 0
 .
-8
+9
 )
 )
 ;
@@ -6249,7 +6299,7 @@ speed_tier
 SpeedTier
 :
 :
-kSquirrel
+kWombat
 ;
 DecompressParams
 dparams
@@ -6330,30 +6380,27 @@ pool
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_THAT
 (
-SamePixels
+ButteraugliDistance
 (
-*
 io
-.
-Main
-(
-)
-.
-alpha
-(
-)
-*
 io2
+cparams
 .
-Main
+ba_params
+GetJxlCms
 (
 )
-.
-alpha
-(
+nullptr
+&
+pool
 )
+IsSlightlyBelow
+(
+0
+.
+8
 )
 )
 ;
@@ -6388,12 +6435,11 @@ kNone
 ;
 cparams
 .
-quality_pair
+butteraugli_distance
 =
-{
-100
-100
-}
+0
+.
+f
 ;
 cparams
 .
@@ -6435,6 +6481,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -6542,6 +6590,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -6666,6 +6716,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -6803,6 +6855,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -6988,6 +7042,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -7099,6 +7155,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -8252,6 +8310,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -8290,6 +8350,8 @@ yuv420
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -8448,6 +8510,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -8678,6 +8742,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -8900,6 +8966,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 wesaturate
 /
 500px
@@ -9802,6 +9870,7 @@ EncodeJPEGData
 data_in
 &
 jpeg_data
+cparams
 )
 )
 ;
@@ -10033,6 +10102,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -10084,6 +10155,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -10223,6 +10296,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -10362,6 +10437,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -10507,6 +10584,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -10642,10 +10721,14 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
 /
+"
+"
 flower_foveon
 .
 png
@@ -10783,6 +10866,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -10831,6 +10916,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -10879,10 +10966,14 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
 /
+"
+"
 flower_foveon
 .
 png
@@ -10927,6 +11018,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -10975,6 +11068,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -11023,6 +11118,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -11071,10 +11168,14 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
 /
+"
+"
 flower_foveon
 .
 png
@@ -11119,10 +11220,14 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
 /
+"
+"
 flower_foveon
 .
 png
@@ -11164,6 +11269,8 @@ orig
 ReadTestData
 (
 "
+third_party
+/
 imagecompression
 .
 info
@@ -11273,9 +11380,9 @@ pool
 )
 IsSlightlyBelow
 (
-2
+1
 .
-5f
+1f
 )
 )
 ;

@@ -452,12 +452,8 @@ DTEST_DATA_PATH
 =
 "
 {
-PROJECT_SOURCE_DIR
+JPEGXL_TEST_DATA_PATH
 }
-/
-third_party
-/
-testdata
 "
 )
 target_include_directories

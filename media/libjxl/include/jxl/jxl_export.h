@@ -10,10 +10,11 @@ JXL_EXPORT
 #
 define
 JXL_DEPRECATED
-[
-[
-deprecated
-]
-]
+__attribute__
+(
+(
+__deprecated__
+)
+)
 #
 endif

@@ -348,7 +348,7 @@ return
 true
 ;
 }
-void
+Status
 PrepareForThreads
 (
 size_t
@@ -473,15 +473,6 @@ vector
 uint8_t
 >
 group_completed_passes_
-;
-std
-:
-:
-vector
-<
-CacheAlignedUniquePtr
->
-temp_buffers_
 ;
 friend
 class

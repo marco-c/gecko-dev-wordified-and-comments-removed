@@ -327,6 +327,8 @@ third_party
 /
 testdata
 /
+third_party
+/
 imagecompression
 .
 info
@@ -509,6 +511,8 @@ third_party
 /
 testdata
 /
+third_party
+/
 pngsuite
 /
 *
@@ -634,6 +638,8 @@ Files
 third_party
 /
 testdata
+/
+third_party
 /
 wide
 -

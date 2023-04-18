@@ -802,6 +802,10 @@ PatchBlendMode
 kNone
 )
 {
+if
+(
+xsize
+)
 memcpy
 (
 tmp

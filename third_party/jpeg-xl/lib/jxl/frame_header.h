@@ -268,6 +268,11 @@ i
 uint32_t
 c
 =
+static_cast
+<
+uint8_t
+>
+(
 (
 *
 name
@@ -275,6 +280,7 @@ name
 [
 i
 ]
+)
 ;
 JXL_QUIET_RETURN_IF_ERROR
 (

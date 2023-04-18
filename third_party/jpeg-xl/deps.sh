@@ -104,6 +104,11 @@ a
 git
 submodule
 .
+THIRD_PARTY_BROTLI
+=
+"
+35ef5c554d888bef217d449346067de05e269b30
+"
 THIRD_PARTY_GFLAGS
 =
 "
@@ -551,6 +556,13 @@ from
 a
 tarball
 .
+download_github
+third_party
+/
+brotli
+google
+/
+brotli
 download_github
 third_party
 /
