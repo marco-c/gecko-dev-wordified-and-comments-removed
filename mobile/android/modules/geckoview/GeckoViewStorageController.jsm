@@ -192,12 +192,6 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_APPCACHE
-|
-Ci
-.
-nsIClearDataService
-.
 CLEAR_DOM_QUOTA
 |
 Ci
