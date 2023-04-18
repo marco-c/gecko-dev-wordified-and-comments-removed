@@ -3265,6 +3265,12 @@ parents
 :
             
 break
+        
+path
+=
+path
+.
+parent
     
 raise
 UserError
