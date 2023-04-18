@@ -1902,6 +1902,8 @@ false
 }
 if
 (
+lazy
+.
 enableTestNotifications
 )
 {
@@ -3730,11 +3732,17 @@ PROT_ListManager
 )
 ;
 }
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 enableTestNotifications
 "

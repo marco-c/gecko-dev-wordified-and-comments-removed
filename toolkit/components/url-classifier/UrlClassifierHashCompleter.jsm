@@ -102,11 +102,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gDbService
 "
@@ -132,7 +138,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gUrlUtil
 "
@@ -902,6 +908,8 @@ RequestBackoffV4
 (
 10
 0
+lazy
+.
 gUrlUtil
 .
 getProvider
@@ -1530,6 +1538,8 @@ this
 .
 provider
 =
+lazy
+.
 gUrlUtil
 .
 getProvider
@@ -1553,6 +1563,8 @@ this
 .
 telemetryProvider
 =
+lazy
+.
 gUrlUtil
 .
 getTelemetryProvider
@@ -1631,6 +1643,8 @@ HCR_fillTableStatesBase64
 aCallback
 )
 {
+lazy
+.
 gDbService
 .
 getTables
@@ -2401,6 +2415,8 @@ prefixArray
 )
 ;
 return
+lazy
+.
 gUrlUtil
 .
 makeFindFullHashRequestV4
@@ -3027,6 +3043,8 @@ aNegCacheDuration
 }
 }
 ;
+lazy
+.
 gUrlUtil
 .
 parseFindFullHashResponseV4
@@ -3287,6 +3305,8 @@ aData
 let
 provider
 =
+lazy
+.
 gUrlUtil
 .
 getProvider
