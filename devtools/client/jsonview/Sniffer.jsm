@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+gPrefs
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+gPrefs
 "
 gEnabled
 "
@@ -113,6 +119,8 @@ nsIChannel
 {
 if
 (
+gPrefs
+.
 gEnabled
 &
 &
