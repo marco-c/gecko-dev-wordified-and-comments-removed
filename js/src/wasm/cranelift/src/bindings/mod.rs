@@ -1148,14 +1148,6 @@ pub
 struct
 FuncType
 {
-ptr
-:
-*
-const
-low_level
-:
-:
-FuncType
 args
 :
 Vec
@@ -1326,7 +1318,6 @@ collect
 ;
 Self
 {
-ptr
 args
 results
 }
