@@ -115,6 +115,7 @@ public
 explicit
 gfxFT2LockedFace
 (
+const
 gfxFT2FontBase
 *
 aFont
@@ -202,6 +203,7 @@ FindCharVariantFunction
 (
 )
 ;
+const
 gfxFT2FontBase
 *
 MOZ_NON_OWNING_REF

@@ -174,6 +174,7 @@ aBounds
 bool
 aTight
 )
+const
 override
 ;
 already_AddRefed
@@ -270,6 +271,7 @@ Metrics
 GetHorizontalMetrics
 (
 )
+const
 override
 {
 return
