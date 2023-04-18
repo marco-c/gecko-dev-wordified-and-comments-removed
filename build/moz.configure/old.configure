@@ -576,17 +576,6 @@ enable
 -
 system
 -
-extension
--
-dirs
-"
-"
--
--
-enable
--
-system
--
 pixman
 "
 "
