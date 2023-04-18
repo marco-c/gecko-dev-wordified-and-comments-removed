@@ -1,8 +1,7 @@
 import
 {
-getSources
+getSourcesMap
 getSelectedSource
-getSourceInSources
 getBlackBoxRanges
 }
 from
@@ -89,7 +88,7 @@ location
 function
 getSourceForFrame
 (
-sources
+sourcesMap
 frame
 isGeneratedSource
 )
@@ -106,9 +105,10 @@ isGeneratedSource
 sourceId
 ;
 return
-getSourceInSources
+sourcesMap
+.
+get
 (
-sources
 sourceId
 )
 ;
@@ -116,7 +116,7 @@ sourceId
 function
 appendSource
 (
-sources
+sourcesMap
 frame
 selectedSource
 )
@@ -149,7 +149,7 @@ source
 :
 getSourceForFrame
 (
-sources
+sourcesMap
 frame
 isGeneratedSource
 )
@@ -161,7 +161,7 @@ function
 formatCallStackFrames
 (
 frames
-sources
+sourcesMap
 selectedSource
 blackboxedRanges
 )
@@ -188,7 +188,7 @@ frame
 >
 getSourceForFrame
 (
-sources
+sourcesMap
 frame
 )
 )
@@ -200,7 +200,7 @@ frame
 >
 appendSource
 (
-sources
+sourcesMap
 frame
 selectedSource
 )
@@ -238,7 +238,7 @@ createSelector
 )
 (
 getCurrentThreadFrames
-getSources
+getSourcesMap
 getSelectedSource
 getBlackBoxRanges
 formatCallStackFrames

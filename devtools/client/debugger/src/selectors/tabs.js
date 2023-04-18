@@ -39,8 +39,7 @@ import
 {
 getSource
 getSpecificSourceByURL
-getSources
-getSourceInSources
+getSourcesMap
 }
 from
 "
@@ -127,10 +126,10 @@ getSourcesForTabs
 =
 createSelector
 (
-getSources
+getSourcesMap
 getSourceTabs
 (
-sources
+sourcesMap
 sourceTabs
 )
 =
@@ -144,9 +143,10 @@ map
 tab
 =
 >
-getSourceInSources
+sourcesMap
+.
+get
 (
-sources
 tab
 .
 sourceId
