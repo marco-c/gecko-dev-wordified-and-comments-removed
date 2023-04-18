@@ -1839,6 +1839,7 @@ throttle
 this
 .
 component
+?
 .
 setToolboxButtons
 (
