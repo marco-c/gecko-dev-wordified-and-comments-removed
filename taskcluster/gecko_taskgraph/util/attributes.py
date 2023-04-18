@@ -225,6 +225,10 @@ id
 "
     
 "
+maven_packages
+"
+    
+"
 nightly
 "
     

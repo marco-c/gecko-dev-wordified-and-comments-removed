@@ -73,6 +73,10 @@ manifests
 fennec_geckoview
 .
 yml
+maven_packages
+:
+-
+geckoview
 index
 :
 product
@@ -148,14 +152,6 @@ obj
 build
 /
 gradle
-/
-build
-/
-mobile
-/
-android
-/
-geckoview
 /
 maven
 /
