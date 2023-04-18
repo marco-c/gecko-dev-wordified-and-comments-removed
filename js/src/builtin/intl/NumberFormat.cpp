@@ -5702,7 +5702,9 @@ constexpr
 int32_t
 maximumPositiveExponent
 =
-99
+9
+'
+999
 '
 999
 ;
@@ -5710,9 +5712,9 @@ constexpr
 size_t
 maximumBigIntLength
 =
-332189
+33219277
 .
-4875606413
+626945525
 /
 BigInt
 :
