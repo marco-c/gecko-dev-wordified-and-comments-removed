@@ -52,10 +52,6 @@ PImageBridge
 ;
 include
 protocol
-PRemoteLazyInputStream
-;
-include
-protocol
 PRemotePrintJob
 ;
 include
@@ -2240,9 +2236,6 @@ manages
 PHeapSnapshotTempFileHelper
 ;
 manages
-PRemoteLazyInputStream
-;
-manages
 PRemotePrintJob
 ;
 manages
@@ -3243,15 +3236,6 @@ ScreenDetails
 [
 ]
 aScreens
-)
-;
-async
-PRemoteLazyInputStream
-(
-nsID
-aID
-uint64_t
-aSize
 )
 ;
 async
