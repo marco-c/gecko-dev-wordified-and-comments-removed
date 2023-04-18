@@ -3901,7 +3901,7 @@ nullptr
 bool
 tryNewTarget
 (
-BinaryNodeType
+NewTargetNodeType
 *
 newTarget
 )
