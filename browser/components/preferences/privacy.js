@@ -9733,7 +9733,7 @@ document
 getElementById
 (
 "
-firefoxSuggestBestMatchOptionBox
+firefoxSuggestBestMatch
 "
 )
 .
