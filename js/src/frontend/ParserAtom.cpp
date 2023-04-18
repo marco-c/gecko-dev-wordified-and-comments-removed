@@ -793,7 +793,7 @@ hasLatin1Chars
 {
 atom
 =
-AtomizeChars
+AtomizeCharsNonStatic
 (
 cx
 hash
@@ -812,7 +812,7 @@ else
 {
 atom
 =
-AtomizeChars
+AtomizeCharsNonStatic
 (
 cx
 hash
@@ -901,7 +901,7 @@ JSAtom
 *
 atom
 =
-PermanentlyAtomizeChars
+PermanentlyAtomizeCharsNonStatic
 (
 cx
 atomSet
