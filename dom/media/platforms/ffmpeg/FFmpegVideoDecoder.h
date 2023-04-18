@@ -722,6 +722,9 @@ LIBAVCODEC_VERSION_MAJOR
 int
 mDecodedFramesLate
 ;
+int
+mMissedDecodeInAverangeTime
+;
 #
 endif
 float
