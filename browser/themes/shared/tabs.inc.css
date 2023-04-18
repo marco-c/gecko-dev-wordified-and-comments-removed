@@ -3830,6 +3830,9 @@ tab
 :
 not
 (
+[
+labelendaligned
+]
 :
 hover
 )
@@ -3874,6 +3877,13 @@ visuallyselected
 true
 ]
 :
+not
+(
+[
+labelendaligned
+]
+)
+:
 hover
 #
 tabbrowser
@@ -3905,6 +3915,9 @@ not
 visuallyselected
 =
 true
+]
+[
+labelendaligned
 ]
 )
 :
