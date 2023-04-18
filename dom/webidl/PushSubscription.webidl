@@ -194,6 +194,10 @@ keys
 {
 }
 ;
+EpochTimeStamp
+?
+expirationTime
+;
 }
 ;
 dictionary
@@ -218,6 +222,12 @@ authSecret
 BufferSource
 ?
 appServerKey
+;
+EpochTimeStamp
+?
+expirationTime
+=
+null
 ;
 }
 ;
@@ -260,6 +270,12 @@ readonly
 attribute
 PushSubscriptionOptions
 options
+;
+readonly
+attribute
+EpochTimeStamp
+?
+expirationTime
 ;
 [
 Throws
