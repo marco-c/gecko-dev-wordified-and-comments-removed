@@ -388,7 +388,14 @@ bool
 IsPrinterContext
 (
 )
+const
+{
+return
+!
+!
+mPrintTarget
 ;
+}
 mozilla
 :
 :

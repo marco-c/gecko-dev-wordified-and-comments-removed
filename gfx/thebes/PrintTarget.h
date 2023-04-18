@@ -170,17 +170,6 @@ Finish
 (
 )
 ;
-virtual
-bool
-RotateNeededForLandscape
-(
-)
-const
-{
-return
-false
-;
-}
 const
 IntSize
 &
