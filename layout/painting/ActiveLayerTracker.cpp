@@ -374,7 +374,7 @@ mState
 ;
 Maybe
 <
-Size
+MatrixScales
 >
 mPreviousTransformScale
 ;
@@ -1121,16 +1121,12 @@ ACTIVITY_SCALE
 return
 ;
 }
-Size
+MatrixScales
 scale
 =
 transform2D
 .
 ScaleFactors
-(
-)
-.
-ToSize
 (
 )
 ;
