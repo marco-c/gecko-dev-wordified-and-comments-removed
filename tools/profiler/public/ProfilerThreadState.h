@@ -345,8 +345,17 @@ false
 ;
 }
 #
+ifndef
+MOZ_GECKO_PROFILER
+#
 define
 AUTO_PROFILER_THREAD_WAKE
+#
+else
+#
+define
+AUTO_PROFILER_THREAD_WAKE
+\
 mozilla
 :
 :
@@ -416,5 +425,7 @@ mIssuedWake
 }
 ;
 }
+#
+endif
 #
 endif

@@ -10,9 +10,6 @@ MOZ_GECKO_PROFILER
 #
 define
 AUTO_PROFILER_THREAD_SLEEP
-#
-define
-AUTO_PROFILER_THREAD_WAKE
 static
 inline
 void
