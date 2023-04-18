@@ -9,12 +9,6 @@ from
 unittest
 import
 mock
-from
-unittest
-.
-mock
-import
-Mock
 import
 pytest
 as
@@ -93,7 +87,7 @@ False
 True
 SitePackagesSource
 .
-SYSTEM
+NONE
 )
         
 (
@@ -102,7 +96,7 @@ True
 False
 SitePackagesSource
 .
-SYSTEM
+NONE
 )
         
 (
@@ -111,7 +105,7 @@ True
 True
 SitePackagesSource
 .
-SYSTEM
+NONE
 )
     
 ]
@@ -186,13 +180,9 @@ SitePackagesSource
 .
 from_environment
 (
-Mock
-(
-)
 "
 build
 "
-None
 )
 =
 =
@@ -204,30 +194,21 @@ test_resolve_package_source_always_venv_for_most_sites
 :
     
 assert
-(
-        
 SitePackagesSource
 .
 from_environment
 (
-Mock
-(
-)
 "
 python
 -
 test
 "
-None
 )
-        
 =
 =
 SitePackagesSource
 .
 VENV
-    
-)
 if
 __name__
 =
