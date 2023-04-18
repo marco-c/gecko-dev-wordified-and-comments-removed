@@ -3708,12 +3708,16 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+EditorDOMPoint
 nsresult
+>
 HandleInsertParagraphInHeadingElement
 (
 Element
 &
-aHeader
+aHeadingElement
 const
 EditorDOMPoint
 &
