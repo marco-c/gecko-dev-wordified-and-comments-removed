@@ -212,6 +212,10 @@ void
 InitCodecContext
 (
 )
+REQUIRES
+(
+sMutex
+)
 {
 }
 AVFrame
@@ -274,7 +278,6 @@ protected
 static
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
 ;
 const
 RefPtr

@@ -107,6 +107,10 @@ void
 InitCodecContext
 (
 )
+REQUIRES
+(
+sMutex
+)
 override
 ;
 static
