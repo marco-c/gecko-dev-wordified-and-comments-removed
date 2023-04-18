@@ -3303,6 +3303,15 @@ mPresShell
 IsReflowInterrupted
 (
 )
+|
+|
+!
+mPresShell
+-
+>
+DidInitialize
+(
+)
 )
 {
 return
