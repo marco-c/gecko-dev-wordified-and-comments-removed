@@ -1749,8 +1749,9 @@ function
 testOpenInDebugger
 (
 hud
-toolbox
+{
 text
+typeSelector
 expectUrl
 =
 true
@@ -1763,6 +1764,7 @@ true
 logPointExpr
 =
 undefined
+}
 )
 {
 info
@@ -1796,10 +1798,11 @@ waitFor
 )
 =
 >
-findMessage
+findMessageByType
 (
 hud
 text
+typeSelector
 )
 )
 ;
@@ -1836,6 +1839,8 @@ await
 checkClickOnNode
 (
 hud
+hud
+.
 toolbox
 locationNode
 expectUrl
