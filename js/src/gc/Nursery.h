@@ -2051,7 +2051,7 @@ bool
 hasRecentGrowthData
 ;
 double
-smoothedGrowthFactor
+smoothedTargetSize
 ;
 double
 calcPromotionRate
