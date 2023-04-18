@@ -21524,6 +21524,17 @@ mode
 type
 )
 ;
+replacement
+-
+>
+setBailoutKind
+(
+BailoutKind
+:
+:
+UnboxFolding
+)
+;
 break
 ;
 }
