@@ -2381,10 +2381,6 @@ TraceAtomZoneRoots
 JSTracer
 *
 trc
-const
-AutoAccessAtomsZone
-&
-access
 )
 {
 MOZ_ASSERT
@@ -2430,7 +2426,6 @@ runtime
 >
 atomsZone
 (
-access
 )
 ;
 for
