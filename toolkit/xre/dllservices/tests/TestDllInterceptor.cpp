@@ -457,6 +457,7 @@ p
 ;
 }
 static
+volatile
 bool
 patched_func_called
 =
@@ -1122,6 +1123,7 @@ pfPtr
 =
 reinterpret_cast
 <
+volatile
 bool
 *
 *
