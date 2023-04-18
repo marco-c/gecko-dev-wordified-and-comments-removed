@@ -436,7 +436,7 @@ addMessageListener
 "
 Extension
 :
-RegisterContentScript
+RegisterContentScripts
 "
 this
 )
@@ -1235,7 +1235,7 @@ case
 "
 Extension
 :
-RegisterContentScript
+RegisterContentScripts
 "
 :
 {
@@ -1268,6 +1268,19 @@ get
 policy
 )
 ;
+for
+(
+const
+{
+scriptId
+options
+}
+of
+data
+.
+scripts
+)
+{
 const
 type
 =
@@ -1275,8 +1288,6 @@ type
 userScriptOptions
 "
 in
-data
-.
 options
 ?
 "
@@ -1293,8 +1304,6 @@ registeredContentScripts
 .
 has
 (
-data
-.
 scriptId
 )
 )
@@ -1311,8 +1320,6 @@ Registering
 type
 }
 {
-data
-.
 scriptId
 }
 on
@@ -1337,8 +1344,6 @@ new
 WebExtensionContentScript
 (
 policy
-data
-.
 options
 )
 ;
@@ -1357,8 +1362,6 @@ script
 .
 userScriptOptions
 =
-data
-.
 options
 .
 userScriptOptions
@@ -1375,12 +1378,11 @@ registeredContentScripts
 .
 set
 (
-data
-.
 scriptId
 script
 )
 ;
+}
 }
 }
 break

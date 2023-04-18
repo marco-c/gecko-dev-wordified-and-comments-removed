@@ -806,7 +806,7 @@ broadcast
 "
 Extension
 :
-RegisterContentScript
+RegisterContentScripts
 "
 {
 id
@@ -814,10 +814,16 @@ id
 extension
 .
 id
+scripts
+:
+[
+{
+scriptId
 options
 :
 scriptOptions
-scriptId
+}
+]
 }
 )
 ;
