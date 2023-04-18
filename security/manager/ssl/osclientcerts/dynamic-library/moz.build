@@ -71,6 +71,11 @@ OS_LIBS
 "
 -
 framework
+CoreFoundation
+"
+"
+-
+framework
 Security
 "
 ]

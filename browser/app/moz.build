@@ -555,6 +555,16 @@ USE_LIBS
 mozsandbox
 "
 ]
+OS_LIBS
++
+=
+[
+"
+-
+framework
+CoreFoundation
+"
+]
 if
 CONFIG
 [
