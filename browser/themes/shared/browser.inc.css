@@ -1181,6 +1181,7 @@ lwt
 text
 -
 color
+inherit
 )
 ;
 color
@@ -2626,7 +2627,9 @@ var
 -
 lwt
 -
-frame
+accent
+-
+color
 )
 ;
 background
@@ -2724,7 +2727,9 @@ var
 -
 lwt
 -
-frame
+accent
+-
+color
 -
 inactive
 var
@@ -2733,7 +2738,9 @@ var
 -
 lwt
 -
-frame
+accent
+-
+color
 )
 )
 ;
