@@ -122,7 +122,7 @@ jsm
 )
 ;
 class
-Session
+SessionModule
 extends
 Module
 {
@@ -736,5 +736,5 @@ events
 const
 session
 =
-Session
+SessionModule
 ;

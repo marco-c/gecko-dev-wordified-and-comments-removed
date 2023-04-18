@@ -41,7 +41,7 @@ jsm
 )
 ;
 class
-Event
+EventModule
 extends
 Module
 {
@@ -110,5 +110,5 @@ root
 const
 event
 =
-Event
+EventModule
 ;

@@ -139,7 +139,7 @@ jsm
 )
 ;
 class
-Log
+LogModule
 extends
 Module
 {
@@ -813,5 +813,5 @@ info
 const
 log
 =
-Log
+LogModule
 ;

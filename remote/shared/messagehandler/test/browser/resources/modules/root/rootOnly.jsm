@@ -41,7 +41,7 @@ jsm
 )
 ;
 class
-RootOnly
+RootOnlyModule
 extends
 Module
 {
@@ -66,5 +66,5 @@ params
 const
 rootOnly
 =
-RootOnly
+RootOnlyModule
 ;
