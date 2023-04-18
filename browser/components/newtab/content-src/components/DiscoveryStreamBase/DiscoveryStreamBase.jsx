@@ -1628,6 +1628,15 @@ properties
 .
 items
 }
+hybridLayout
+=
+{
+component
+.
+properties
+.
+hybridLayout
+}
 hideCardBackground
 =
 {

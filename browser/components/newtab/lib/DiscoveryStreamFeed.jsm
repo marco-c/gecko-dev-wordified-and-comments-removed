@@ -2378,6 +2378,11 @@ compactLayout
 pocketConfig
 .
 fourCardLayout
+|
+|
+pocketConfig
+.
+hybridLayout
 )
 {
 items
@@ -2416,6 +2421,11 @@ compactLayout
 pocketConfig
 .
 compactLayout
+hybridLayout
+:
+pocketConfig
+.
+hybridLayout
 hideCardBackground
 :
 pocketConfig
@@ -8113,6 +8123,9 @@ false
 compactLayout
 =
 false
+hybridLayout
+=
+false
 hideCardBackground
 =
 false
@@ -8436,6 +8449,7 @@ properties
 :
 {
 items
+hybridLayout
 hideCardBackground
 :
 hideCardBackground
