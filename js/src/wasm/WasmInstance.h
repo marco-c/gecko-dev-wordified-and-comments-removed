@@ -801,6 +801,11 @@ uint32_t
 len
 )
 ;
+[
+[
+nodiscard
+]
+]
 void
 *
 getIndirectStub
@@ -823,7 +828,7 @@ nodiscard
 ]
 void
 *
-createIndirectStub
+ensureAndGetIndirectStub
 (
 Tier
 tier
