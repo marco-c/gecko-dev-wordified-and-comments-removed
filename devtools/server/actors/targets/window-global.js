@@ -1891,7 +1891,7 @@ this
 ;
 Resources
 .
-unwatchAllTargetResources
+unwatchAllResources
 (
 this
 )
