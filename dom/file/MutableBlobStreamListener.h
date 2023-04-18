@@ -66,7 +66,7 @@ MutableBlobStorage
 :
 :
 MutableBlobStorageType
-aType
+aStorageType
 const
 nsACString
 &

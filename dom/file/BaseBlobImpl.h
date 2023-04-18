@@ -207,7 +207,7 @@ GetDOMPath
 (
 nsAString
 &
-aName
+aPath
 )
 const
 override
@@ -218,7 +218,7 @@ SetDOMPath
 const
 nsAString
 &
-aName
+aPath
 )
 override
 ;
@@ -236,7 +236,7 @@ GetMozFullPath
 (
 nsAString
 &
-aName
+aFileName
 SystemCallerGuarantee
 ErrorResult
 &

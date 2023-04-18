@@ -52,7 +52,7 @@ CreateInputStream
 nsIInputStream
 *
 *
-aInputStream
+aStream
 ErrorResult
 &
 aRv
