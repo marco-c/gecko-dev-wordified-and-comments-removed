@@ -1643,6 +1643,11 @@ toolbox
 target
 .
 isLocalTab
+|
+|
+toolbox
+.
+isBrowserToolbox
 ;
 }
 ;
