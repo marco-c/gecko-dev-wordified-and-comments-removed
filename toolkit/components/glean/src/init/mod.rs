@@ -1747,7 +1747,7 @@ extern
 C
 "
 fn
-test_reset_fog
+fog_test_reset
 (
 data_path_override
 :
@@ -1762,7 +1762,7 @@ nsACString
 >
 nsresult
 {
-test_reset_fog_internal
+fog_test_reset_internal
 (
 data_path_override
 app_id_override
@@ -1787,7 +1787,7 @@ android
 )
 ]
 fn
-test_reset_fog_internal
+fog_test_reset_internal
 (
 data_path_override
 :
@@ -1940,7 +1940,7 @@ extern
 C
 "
 fn
-test_reset_fog
+fog_test_reset
 (
 _data_path_override
 :
