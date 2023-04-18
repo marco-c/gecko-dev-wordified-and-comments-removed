@@ -26,7 +26,7 @@ jsm
 ;
 const
 {
-validate
+JsonSchema
 }
 =
 ChromeUtils
@@ -230,6 +230,8 @@ Assert
 .
 deepEqual
 (
+JsonSchema
+.
 validate
 (
 obj
