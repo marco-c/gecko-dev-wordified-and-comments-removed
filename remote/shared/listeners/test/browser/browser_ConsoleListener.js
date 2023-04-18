@@ -82,6 +82,11 @@ message
 )
 ;
 }
+await
+clearConsole
+(
+)
+;
 }
 )
 ;
@@ -122,6 +127,11 @@ expected
 log
 message
 "
+)
+;
+await
+clearConsole
+(
 )
 ;
 }
