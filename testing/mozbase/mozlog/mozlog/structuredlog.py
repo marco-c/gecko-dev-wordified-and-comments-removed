@@ -3434,17 +3434,6 @@ default
 =
 None
 )
-        
-List
-(
-Unicode
-"
-command_line
-"
-default
-=
-None
-)
     
 )
     
