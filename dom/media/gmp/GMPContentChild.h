@@ -53,8 +53,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -261,7 +261,6 @@ default
 ;
 }
 ;
-}
 }
 #
 endif

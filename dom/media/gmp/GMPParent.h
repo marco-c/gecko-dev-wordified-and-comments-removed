@@ -121,8 +121,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -913,7 +913,6 @@ mMainThread
 ;
 }
 ;
-}
 }
 #
 endif

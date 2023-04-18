@@ -24,8 +24,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -101,7 +101,6 @@ GMPProcessChild
 ;
 }
 ;
-}
 }
 #
 endif

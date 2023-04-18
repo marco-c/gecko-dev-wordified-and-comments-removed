@@ -24,8 +24,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -304,7 +304,6 @@ mData
 ;
 }
 ;
-}
 }
 #
 endif

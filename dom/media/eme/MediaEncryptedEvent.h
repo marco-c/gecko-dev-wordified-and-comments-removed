@@ -77,8 +77,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -247,7 +247,6 @@ mRawInitData
 ;
 }
 ;
-}
 }
 #
 endif

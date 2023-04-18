@@ -68,8 +68,8 @@ nsIRunnable
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -343,7 +343,6 @@ GMPProcessParent
 ;
 }
 ;
-}
 }
 #
 endif

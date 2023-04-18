@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -341,7 +341,6 @@ mCloseBlockerCount
 ;
 }
 ;
-}
 }
 #
 endif

@@ -68,8 +68,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -244,7 +244,6 @@ mAdapter
 ;
 }
 ;
-}
 }
 #
 endif

@@ -6,8 +6,8 @@ define
 MOZILLA_PRINCIPALCHANGEOBSERVER_H_
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -33,7 +33,6 @@ aArg
 ;
 }
 ;
-}
 }
 #
 endif

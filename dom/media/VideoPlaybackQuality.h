@@ -38,8 +38,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -154,7 +154,6 @@ mDroppedFrames
 ;
 }
 ;
-}
 }
 #
 endif

@@ -45,8 +45,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -168,7 +168,6 @@ nsString
 aGMPName
 )
 ;
-}
 }
 #
 endif

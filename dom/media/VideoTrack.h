@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -151,7 +151,6 @@ mVideoStreamTrack
 ;
 }
 ;
-}
 }
 #
 endif

@@ -38,8 +38,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -824,7 +824,6 @@ mInitPromise
 ;
 }
 ;
-}
 }
 #
 endif

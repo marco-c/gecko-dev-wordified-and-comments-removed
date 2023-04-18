@@ -25,8 +25,8 @@ nsGlobalWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -119,7 +119,6 @@ mPromiseHolder
 ;
 }
 ;
-}
 }
 #
 endif

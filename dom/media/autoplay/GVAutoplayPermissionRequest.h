@@ -23,8 +23,8 @@ nsGlobalWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -158,7 +158,6 @@ aType
 ;
 }
 ;
-}
 }
 #
 endif

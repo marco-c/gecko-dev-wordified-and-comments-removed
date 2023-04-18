@@ -74,8 +74,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -424,7 +424,6 @@ mContentParents
 ;
 }
 ;
-}
 }
 #
 endif

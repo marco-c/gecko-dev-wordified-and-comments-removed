@@ -22,8 +22,8 @@ nsIPrincipal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -104,7 +104,6 @@ aContext
 ;
 }
 ;
-}
 }
 #
 endif

@@ -42,8 +42,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -101,7 +101,6 @@ mSystemCode
 ;
 }
 ;
-}
 }
 #
 endif

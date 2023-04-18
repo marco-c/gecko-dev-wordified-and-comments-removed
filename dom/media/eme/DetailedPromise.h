@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -529,7 +529,6 @@ mFailureLatencyProbe
 ;
 }
 ;
-}
 }
 #
 endif

@@ -63,14 +63,13 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 media
 {
 class
 TimeIntervals
 ;
-}
 }
 template
 <

@@ -20,8 +20,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -166,7 +166,6 @@ mSelectedIndex
 ;
 }
 ;
-}
 }
 #
 endif

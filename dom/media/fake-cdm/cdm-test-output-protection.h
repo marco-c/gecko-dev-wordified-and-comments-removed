@@ -46,8 +46,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 cdmtest
 {
 #
@@ -635,6 +635,5 @@ completed
 "
 )
 ;
-}
 }
 }
