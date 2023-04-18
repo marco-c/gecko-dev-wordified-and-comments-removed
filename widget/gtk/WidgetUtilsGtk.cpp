@@ -495,6 +495,12 @@ PortalKind
 :
 MimeHandler
 :
+autoBehavior
+=
+IsRunningUnderFlatpak
+(
+)
+;
 return
 StaticPrefs
 :
