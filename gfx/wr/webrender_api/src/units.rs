@@ -124,6 +124,16 @@ DevicePixel
 ;
 pub
 type
+DeviceIntVector2D
+=
+Vector2D
+<
+i32
+DevicePixel
+>
+;
+pub
+type
 DeviceRect
 =
 Box2D

@@ -3511,6 +3511,14 @@ Backdrop
 =
 >
 {
+frame_state
+.
+surface_builder
+.
+register_resolve_source
+(
+)
+;
 }
 }
 ;
