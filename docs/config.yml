@@ -155,6 +155,10 @@ testing
 /
 xpcshell
 -
+web
+-
+platform
+-
 gtest
 -
 tools
