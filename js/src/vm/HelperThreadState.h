@@ -2707,6 +2707,15 @@ initial
 )
 ;
 bool
+isInterrupted
+(
+)
+{
+return
+false
+;
+}
+bool
 runtimeMatches
 (
 JSRuntime
