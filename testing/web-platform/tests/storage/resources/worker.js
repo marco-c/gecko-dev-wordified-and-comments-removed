@@ -1,0 +1,10 @@
+globalThis
+.
+oninstall
+=
+e
+=
+>
+{
+}
+;
