@@ -827,14 +827,7 @@ instrumentation
 tests
 ]
 (
-.
-.
-/
-dev
-/
-testing
-.
-md
+instrumentation_tests
 )
 .
 For
