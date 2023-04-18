@@ -369,6 +369,16 @@ read
 )
 ?
 ;
+debug_assert_eq
+!
+(
+*
+me
+.
+read
+0
+)
+;
 if
 n
 =

@@ -175,7 +175,6 @@ blocking_io
 (
 |
 |
-{
 self
 .
 options
@@ -187,7 +186,6 @@ self
 .
 path
 )
-}
 )
 )
 ;

@@ -11,8 +11,8 @@ bytes
 :
 :
 {
-Bytes
 BufMut
+Bytes
 BytesMut
 }
 ;
@@ -21,8 +21,8 @@ codec
 :
 :
 {
-Encoder
 Decoder
+Encoder
 }
 ;
 use

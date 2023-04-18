@@ -290,7 +290,7 @@ self
 )
 {
 let
-ref_inc
+is_not_bound
 =
 !
 self
@@ -317,7 +317,7 @@ state
 .
 transition_to_running
 (
-ref_inc
+is_not_bound
 )
 {
 Ok
@@ -345,6 +345,9 @@ return
 }
 }
 ;
+if
+is_not_bound
+{
 self
 .
 core
@@ -360,6 +363,7 @@ to_task
 )
 )
 ;
+}
 let
 res
 =
@@ -399,9 +403,6 @@ Core
 T
 S
 >
-polled
-:
-bool
 }
 impl
 <
@@ -430,12 +431,6 @@ mut
 self
 )
 {
-if
-!
-self
-.
-polled
-{
 self
 .
 core
@@ -446,9 +441,7 @@ drop_future_or_output
 ;
 }
 }
-}
 let
-mut
 guard
 =
 Guard
@@ -460,9 +453,6 @@ self
 core
 (
 )
-polled
-:
-false
 }
 ;
 if
@@ -506,11 +496,13 @@ header
 )
 )
 ;
+mem
+:
+:
+forget
+(
 guard
-.
-polled
-=
-true
+)
 ;
 res
 .

@@ -168,7 +168,6 @@ blocking_io
 (
 |
 |
-{
 StdFile
 :
 :
@@ -179,7 +178,6 @@ self
 .
 path
 )
-}
 )
 )
 ;

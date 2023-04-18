@@ -30,7 +30,7 @@ uds
 .
 2
 .
-5
+7
 "
 )
 ]
@@ -40,7 +40,6 @@ uds
 deny
 (
 missing_docs
-warnings
 missing_debug_implementations
 )
 ]
@@ -164,8 +163,8 @@ stream
 :
 :
 {
-UnixStream
 ConnectFuture
+UnixStream
 }
 ;
 pub

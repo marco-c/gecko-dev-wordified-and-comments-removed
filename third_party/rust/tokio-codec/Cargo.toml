@@ -124,7 +124,7 @@ version
 .
 1
 .
-0
+2
 "
 authors
 =
@@ -192,6 +192,10 @@ codec
 0
 .
 1
+.
+2
+/
+tokio_codec
 "
 categories
 =

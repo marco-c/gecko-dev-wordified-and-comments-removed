@@ -127,6 +127,11 @@ target_os
 "
 solaris
 "
+target_os
+=
+"
+illumos
+"
 )
 )
 ]
@@ -658,6 +663,11 @@ target_os
 =
 "
 solaris
+"
+target_os
+=
+"
+illumos
 "
 )
 )

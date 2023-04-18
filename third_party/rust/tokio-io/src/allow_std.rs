@@ -1,10 +1,4 @@
 use
-{
-AsyncRead
-AsyncWrite
-}
-;
-use
 futures
 :
 :
@@ -20,6 +14,12 @@ std
 {
 fmt
 io
+}
+;
+use
+{
+AsyncRead
+AsyncWrite
 }
 ;
 #

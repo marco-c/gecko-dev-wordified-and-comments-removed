@@ -116,6 +116,13 @@ try_lock
 TryLock
 ;
 }
+pub
+(
+crate
+)
+mod
+trace
+;
 #
 [
 cfg
@@ -159,4 +166,11 @@ rand
 :
 :
 thread_rng_n
+;
+pub
+(
+crate
+)
+mod
+intrusive_double_linked_list
 ;

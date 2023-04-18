@@ -19,11 +19,11 @@ self
 DirEntry
 as
 StdDirEntry
+FileType
+Metadata
 ReadDir
 as
 StdReadDir
-FileType
-Metadata
 }
 ;
 use
@@ -332,7 +332,6 @@ blocking_io
 (
 |
 |
-{
 match
 self
 .
@@ -381,7 +380,6 @@ Ok
 (
 None
 )
-}
 }
 )
 }

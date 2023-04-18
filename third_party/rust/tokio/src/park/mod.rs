@@ -34,7 +34,7 @@ thread
 :
 ParkThread
 ;
-cfg_blocking_impl
+cfg_block_on
 !
 {
 pub
@@ -140,6 +140,14 @@ Self
 :
 Error
 >
+;
+fn
+shutdown
+(
+&
+mut
+self
+)
 ;
 }
 pub

@@ -81,12 +81,14 @@ buf
 {
 *
 x
-.
-as_mut_ptr
-(
-)
 =
+MaybeUninit
+:
+:
+new
+(
 0
+)
 ;
 }
 true
@@ -418,6 +420,7 @@ buf
 )
 }
 }
+;
 }
 impl
 <

@@ -25,10 +25,6 @@ std
 :
 marker
 ;
-#
-[
-macro_export
-]
 macro_rules
 !
 scoped_thread_local

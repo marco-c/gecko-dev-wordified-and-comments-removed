@@ -20,8 +20,8 @@ codec
 :
 :
 {
-Encoder
 Decoder
+Encoder
 }
 ;
 use

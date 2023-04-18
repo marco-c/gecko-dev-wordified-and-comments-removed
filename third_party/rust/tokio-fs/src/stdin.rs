@@ -2,9 +2,7 @@ use
 tokio_io
 :
 :
-{
 AsyncRead
-}
 ;
 use
 std

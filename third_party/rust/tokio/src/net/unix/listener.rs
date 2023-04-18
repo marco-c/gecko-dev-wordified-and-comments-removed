@@ -38,9 +38,6 @@ mio
 Ready
 ;
 use
-mio_uds
-;
-use
 std
 :
 :
@@ -722,9 +719,6 @@ cx
 await
 }
 pub
-(
-crate
-)
 fn
 poll_accept
 (

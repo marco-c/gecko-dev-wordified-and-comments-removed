@@ -24,7 +24,7 @@ thread
 .
 1
 .
-6
+7
 "
 )
 ]
@@ -33,7 +33,6 @@ thread
 [
 deny
 (
-warnings
 missing_docs
 missing_debug_implementations
 )
@@ -211,6 +210,7 @@ Receiver
 <
 Box
 <
+dyn
 Future
 <
 Item
@@ -747,6 +747,7 @@ future
 :
 Box
 <
+dyn
 Future
 <
 Item
@@ -776,6 +777,7 @@ Option
 <
 *
 mut
+dyn
 SpawnLocal
 >
 >
@@ -1783,6 +1785,7 @@ future
 :
 Box
 <
+dyn
 Future
 <
 Item
@@ -2880,6 +2883,7 @@ Sender
 <
 Box
 <
+dyn
 Future
 <
 Item
@@ -3327,6 +3331,7 @@ future
 :
 Box
 <
+dyn
 Future
 <
 Item
@@ -3426,6 +3431,7 @@ future
 :
 Box
 <
+dyn
 Future
 <
 Item
@@ -3752,6 +3758,7 @@ future
 :
 Box
 <
+dyn
 Future
 <
 Item
@@ -3817,6 +3824,7 @@ spawn
 :
 &
 mut
+dyn
 SpawnLocal
 f
 :
@@ -3912,6 +3920,7 @@ spawn
 as
 *
 mut
+dyn
 SpawnLocal
 )
 }
@@ -3946,6 +3955,7 @@ p
 *
 mut
 (
+dyn
 SpawnLocal
 +
 '
@@ -3957,6 +3967,7 @@ a
 *
 mut
 (
+dyn
 SpawnLocal
 +
 '

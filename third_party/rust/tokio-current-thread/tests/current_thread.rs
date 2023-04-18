@@ -136,6 +136,7 @@ Fn
 (
 Box
 <
+dyn
 Future
 <
 Item
@@ -637,6 +638,7 @@ Fn
 (
 Box
 <
+dyn
 Future
 <
 Item
@@ -796,6 +798,7 @@ Fn
 (
 Box
 <
+dyn
 Future
 <
 Item
@@ -1080,6 +1083,7 @@ Fn
 (
 Box
 <
+dyn
 Future
 <
 Item
@@ -1105,6 +1109,7 @@ mut
 CurrentThread
 Box
 <
+dyn
 Future
 <
 Item
@@ -2069,6 +2074,7 @@ Fn
 (
 Box
 <
+dyn
 Future
 <
 Item
@@ -2094,6 +2100,7 @@ mut
 CurrentThread
 Box
 <
+dyn
 Future
 <
 Item
@@ -2463,6 +2470,7 @@ _data
 :
 Box
 <
+dyn
 Any
 >
 }
@@ -2532,6 +2540,7 @@ Fn
 (
 Box
 <
+dyn
 Future
 <
 Item
@@ -2557,6 +2566,7 @@ mut
 CurrentThread
 Box
 <
+dyn
 Future
 <
 Item

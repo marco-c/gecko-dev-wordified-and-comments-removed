@@ -15,7 +15,7 @@ Task
 ;
 pub
 (
-super
+crate
 )
 struct
 NoopSchedule

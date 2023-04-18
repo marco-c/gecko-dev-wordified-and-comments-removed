@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+blacklisted_name
+)
+]
 use
 tokio
 :

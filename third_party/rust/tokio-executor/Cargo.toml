@@ -124,7 +124,7 @@ version
 .
 1
 .
-9
+10
 "
 authors
 =
@@ -185,7 +185,7 @@ executor
 .
 1
 .
-9
+10
 /
 tokio_executor
 "
@@ -243,9 +243,9 @@ version
 "
 0
 .
-6
+7
 .
-2
+0
 "
 [
 dependencies

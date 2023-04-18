@@ -25,6 +25,10 @@ schedule
 mod
 shutdown
 ;
+pub
+(
+crate
+)
 mod
 task
 ;

@@ -168,7 +168,7 @@ unwrap
 ;
 stream
 .
-write
+write_all
 (
 MSG
 )

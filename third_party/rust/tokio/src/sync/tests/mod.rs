@@ -20,6 +20,16 @@ loom_atomic_waker
 mod
 loom_broadcast
 ;
+#
+[
+cfg
+(
+tokio_unstable
+)
+]
+mod
+loom_cancellation_token
+;
 mod
 loom_list
 ;

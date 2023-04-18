@@ -5,7 +5,6 @@ deny
 (
 missing_docs
 missing_debug_implementations
-warnings
 )
 ]
 #
@@ -32,7 +31,7 @@ codec
 .
 1
 .
-0
+2
 "
 )
 ]

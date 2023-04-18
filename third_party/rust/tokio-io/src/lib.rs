@@ -5,7 +5,6 @@ deny
 (
 missing_docs
 missing_debug_implementations
-warnings
 )
 ]
 #
@@ -32,7 +31,7 @@ io
 .
 1
 .
-7
+13
 "
 )
 ]
@@ -82,6 +81,7 @@ T
 =
 Box
 <
+dyn
 Future
 <
 Item
@@ -107,6 +107,7 @@ T
 =
 Box
 <
+dyn
 Stream
 <
 Item
@@ -138,7 +139,7 @@ expr
 )
 =
 >
-(
+{
 match
 e
 {
@@ -190,6 +191,7 @@ Async
 :
 NotReady
 )
+;
 }
 Err
 (
@@ -207,15 +209,20 @@ into
 )
 )
 }
-)
 }
+;
+}
+pub
+mod
+codec
+;
 pub
 mod
 io
 ;
 pub
 mod
-codec
+_tokio_codec
 ;
 mod
 allow_std
@@ -246,10 +253,6 @@ split
 ;
 mod
 window
-;
-pub
-mod
-_tokio_codec
 ;
 pub
 use
@@ -291,6 +294,7 @@ _assert
 <
 Box
 <
+dyn
 AsyncRead
 >
 >
@@ -303,6 +307,7 @@ _assert
 <
 Box
 <
+dyn
 AsyncWrite
 >
 >

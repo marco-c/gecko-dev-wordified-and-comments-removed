@@ -9,8 +9,8 @@ futures
 :
 :
 {
-Stream
 Poll
+Stream
 }
 ;
 use

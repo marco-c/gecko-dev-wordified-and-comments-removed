@@ -420,6 +420,14 @@ ptr
 is_null
 (
 )
+|
+|
+self
+.
+ptr
+=
+=
+SHUTDOWN
 {
 return
 None
@@ -504,6 +512,12 @@ entry
 .
 error
 (
+Error
+:
+:
+shutdown
+(
+)
 )
 ;
 }

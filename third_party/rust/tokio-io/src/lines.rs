@@ -210,6 +210,7 @@ into
 (
 )
 )
+;
 }
 if
 self

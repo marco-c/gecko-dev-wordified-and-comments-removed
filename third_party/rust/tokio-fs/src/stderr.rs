@@ -2,9 +2,7 @@ use
 tokio_io
 :
 :
-{
 AsyncWrite
-}
 ;
 use
 futures
@@ -21,10 +19,10 @@ io
 :
 {
 self
-Write
 Stderr
 as
 StdStderr
+Write
 }
 ;
 #
