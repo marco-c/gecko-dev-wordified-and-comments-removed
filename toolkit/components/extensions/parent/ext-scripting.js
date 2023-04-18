@@ -503,6 +503,11 @@ runAt
 details
 .
 runAt
+persistAcrossSessions
+:
+details
+.
+persistAcrossSessions
 }
 }
 ;
@@ -1088,6 +1093,11 @@ runAt
 options
 .
 runAt
+persistAcrossSessions
+:
+options
+.
+persistAcrossSessions
 }
 ;
 }

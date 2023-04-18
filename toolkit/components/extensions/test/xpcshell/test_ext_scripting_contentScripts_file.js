@@ -243,6 +243,9 @@ id
 js
 ]
 matches
+persistAcrossSessions
+:
+false
 }
 )
 )
