@@ -2197,7 +2197,10 @@ gfx
 :
 TreeAutoIndent
 <
-LOG_DEFAULT
+gfx
+:
+:
+LOG_CRITICAL
 >
 >
 indents
@@ -2823,7 +2826,10 @@ gfx
 :
 TreeAutoIndent
 <
-LOG_DEFAULT
+gfx
+:
+:
+LOG_CRITICAL
 >
 (
 mApzcTreeLog

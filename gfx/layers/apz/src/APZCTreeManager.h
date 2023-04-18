@@ -2002,7 +2002,7 @@ TreeLog
 gfx
 :
 :
-LOG_DEFAULT
+LOG_CRITICAL
 >
 mApzcTreeLog
 ;
