@@ -36,7 +36,6 @@ utils
 ;
 import
 {
-getDomain
 createTreeNodeMatcher
 findNodeInContents
 }
@@ -157,7 +156,7 @@ function
 createTree
 (
 {
-debuggeeUrl
+mainThreadHost
 sources
 threads
 }
@@ -183,7 +182,7 @@ result
 updateTree
 (
 {
-debuggeeUrl
+mainThreadHost
 newSources
 :
 sources
@@ -225,7 +224,7 @@ updateTree
 {
 newSources
 prevSources
-debuggeeUrl
+mainThreadHost
 uncollapsedTree
 threads
 create
@@ -233,14 +232,6 @@ sourceTree
 }
 )
 {
-const
-debuggeeHost
-=
-getDomain
-(
-debuggeeUrl
-)
-;
 const
 contexts
 =
@@ -344,7 +335,7 @@ addToTree
 (
 uncollapsedTree
 source
-debuggeeHost
+mainThreadHost
 thread
 .
 actor
@@ -371,7 +362,7 @@ updateInTree
 uncollapsedTree
 prevSource
 newSource
-debuggeeHost
+mainThreadHost
 thread
 .
 actor
@@ -449,7 +440,7 @@ updateInTree
 tree
 prevSource
 newSource
-debuggeeHost
+mainThreadHost
 thread
 )
 {
@@ -459,7 +450,7 @@ newUrl
 getDisplayURL
 (
 newSource
-debuggeeHost
+mainThreadHost
 )
 ;
 const
@@ -468,7 +459,7 @@ prevUrl
 getDisplayURL
 (
 prevSource
-debuggeeHost
+mainThreadHost
 )
 ;
 const
@@ -480,7 +471,7 @@ tree
 prevUrl
 prevSource
 thread
-debuggeeHost
+mainThreadHost
 )
 ;
 if
@@ -509,7 +500,7 @@ getPathParts
 (
 newUrl
 thread
-debuggeeHost
+mainThreadHost
 )
 ;
 if
@@ -722,7 +713,7 @@ addToTree
 (
 tree
 newSource
-debuggeeHost
+mainThreadHost
 thread
 )
 ;
@@ -734,7 +725,7 @@ tree
 url
 source
 thread
-debuggeeHost
+mainThreadHost
 )
 {
 const
@@ -744,7 +735,7 @@ getPathParts
 (
 url
 thread
-debuggeeHost
+mainThreadHost
 )
 ;
 parts
@@ -791,7 +782,7 @@ createTreeNodeMatcher
 (
 part
 true
-debuggeeHost
+mainThreadHost
 )
 )
 ;

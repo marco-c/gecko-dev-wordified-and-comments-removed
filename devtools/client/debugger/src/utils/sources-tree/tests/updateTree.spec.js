@@ -248,7 +248,7 @@ false
 ]
 ;
 const
-debuggeeUrl
+mainThreadHost
 =
 "
 blah
@@ -301,7 +301,7 @@ uncollapsedTree
 createTree
 (
 {
-debuggeeUrl
+mainThreadHost
 sources
 :
 prevSources
@@ -315,7 +315,7 @@ newTree
 updateTree
 (
 {
-debuggeeUrl
+mainThreadHost
 prevSources
 newSources
 :
@@ -387,7 +387,7 @@ uncollapsedTree
 createTree
 (
 {
-debuggeeUrl
+mainThreadHost
 sources
 :
 prevSources
@@ -401,7 +401,7 @@ newTree
 updateTree
 (
 {
-debuggeeUrl
+mainThreadHost
 prevSources
 newSources
 :
@@ -485,7 +485,7 @@ uncollapsedTree
 createTree
 (
 {
-debuggeeUrl
+mainThreadHost
 sources
 :
 prevSources
@@ -499,7 +499,7 @@ newTree
 updateTree
 (
 {
-debuggeeUrl
+mainThreadHost
 prevSources
 newSources
 :
@@ -589,7 +589,7 @@ uncollapsedTree
 createTree
 (
 {
-debuggeeUrl
+mainThreadHost
 sources
 :
 prevSources
@@ -603,7 +603,7 @@ newTree
 updateTree
 (
 {
-debuggeeUrl
+mainThreadHost
 prevSources
 newSources
 :

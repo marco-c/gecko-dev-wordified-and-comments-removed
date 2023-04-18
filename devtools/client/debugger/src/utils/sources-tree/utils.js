@@ -58,7 +58,7 @@ getPathParts
 (
 url
 thread
-debuggeeHost
+mainThreadHost
 )
 {
 const
@@ -210,7 +210,7 @@ part
 ;
 }
 const
-debuggeeHostIfRoot
+mainThreadHostIfRoot
 =
 index
 =
@@ -218,7 +218,7 @@ index
 =
 1
 ?
-debuggeeHost
+mainThreadHost
 :
 null
 ;
@@ -226,7 +226,7 @@ return
 {
 part
 path
-debuggeeHostIfRoot
+mainThreadHostIfRoot
 }
 ;
 }

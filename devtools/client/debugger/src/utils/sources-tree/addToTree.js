@@ -98,7 +98,7 @@ path
 part
 index
 url
-debuggeeHost
+mainThreadHost
 source
 )
 {
@@ -130,7 +130,7 @@ createTreeNodeMatcher
 part
 !
 addedPartIsFile
-debuggeeHost
+mainThreadHost
 )
 )
 ;
@@ -192,7 +192,7 @@ createTreeNodeMatcher
 part
 !
 addedPartIsFile
-debuggeeHost
+mainThreadHost
 source
 true
 )
@@ -217,7 +217,7 @@ traverseTree
 (
 url
 tree
-debuggeeHost
+mainThreadHost
 source
 thread
 )
@@ -229,7 +229,7 @@ getPathParts
 (
 url
 thread
-debuggeeHost
+mainThreadHost
 )
 ;
 return
@@ -242,7 +242,7 @@ subTree
 {
 part
 path
-debuggeeHostIfRoot
+mainThreadHostIfRoot
 }
 index
 )
@@ -256,7 +256,7 @@ path
 part
 index
 url
-debuggeeHostIfRoot
+mainThreadHostIfRoot
 source
 )
 tree
@@ -481,7 +481,7 @@ addToTree
 (
 tree
 source
-debuggeeHost
+mainThreadHost
 thread
 )
 {
@@ -491,7 +491,7 @@ url
 getDisplayURL
 (
 source
-debuggeeHost
+mainThreadHost
 )
 ;
 if
@@ -513,7 +513,7 @@ traverseTree
 (
 url
 tree
-debuggeeHost
+mainThreadHost
 source
 thread
 )
