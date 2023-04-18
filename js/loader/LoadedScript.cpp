@@ -30,13 +30,6 @@ Modules
 .
 h
 "
-#
-include
-"
-ScriptLoader
-.
-h
-"
 namespace
 mozilla
 {
