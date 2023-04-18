@@ -3,6 +3,18 @@ run_test
 (
 )
 {
+if
+(
+mozinfo
+.
+os
+!
+=
+"
+win
+"
+)
+{
 var
 testDir
 =
@@ -195,4 +207,5 @@ isSymlink
 )
 )
 ;
+}
 }
