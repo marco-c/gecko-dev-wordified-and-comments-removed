@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+Unused
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Vector
 .
 h
@@ -509,6 +518,12 @@ uint8_t
 (
 )
 ;
+mozilla
+:
+:
+Unused
+<
+<
 buffer
 -
 >
@@ -893,8 +908,6 @@ _exit
 (
 1
 )
-;
-return
 ;
 }
 nyx_release
