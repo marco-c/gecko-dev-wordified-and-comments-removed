@@ -4096,7 +4096,7 @@ WordBreakRule
 BreakAll
 )
 {
-ClusterIterator
+GraphemeClusterBreakIteratorUtf16
 ci
 (
 aChars
