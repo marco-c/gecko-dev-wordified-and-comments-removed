@@ -2029,6 +2029,7 @@ CrossCompartmentWrapperObject
 ;
 NotifyGCNukeWrapper
 (
+cx
 wrapper
 )
 ;

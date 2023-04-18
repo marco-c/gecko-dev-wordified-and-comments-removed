@@ -135,9 +135,12 @@ extern
 void
 NotifyGCNukeWrapper
 (
+JSContext
+*
+cx
 JSObject
 *
-o
+wrapper
 )
 ;
 extern

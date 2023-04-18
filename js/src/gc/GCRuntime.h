@@ -166,6 +166,9 @@ class
 FinalizationRegistryObject
 ;
 class
+FinalizationRecordObject
+;
+class
 FinalizationQueueObject
 ;
 class
@@ -2606,6 +2609,17 @@ queueFinalizationRegistryForCleanup
 FinalizationQueueObject
 *
 queue
+)
+;
+void
+nukeFinalizationRecordWrapper
+(
+JSObject
+*
+wrapper
+FinalizationRecordObject
+*
+record
 )
 ;
 void
