@@ -704,6 +704,8 @@ aPriority
 )
 override
 ;
+#
+endif
 virtual
 mozilla
 :
@@ -728,8 +730,6 @@ aSelection
 )
 override
 ;
-#
-endif
 mozilla
 :
 :
@@ -1690,6 +1690,12 @@ mCaretOffset
 ;
 bool
 mIsCaretAtEndOfLine
+;
+nsTArray
+<
+TextRangeData
+>
+mTextSelections
 ;
 static
 uint64_t
