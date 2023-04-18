@@ -1301,6 +1301,7 @@ aVisitor
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 PostHandleEvent
 (
@@ -7440,6 +7441,7 @@ bool
 aUntilExhaustion
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireFrameLoadEvent
 (
