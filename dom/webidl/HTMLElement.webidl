@@ -506,17 +506,6 @@ dom
 -
 attachinternals
 [
-Pref
-=
-"
-dom
-.
-webcomponents
-.
-elementInternals
-.
-enabled
-"
 Throws
 ]
 ElementInternals

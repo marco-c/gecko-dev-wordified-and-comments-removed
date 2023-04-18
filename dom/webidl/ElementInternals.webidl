@@ -116,17 +116,6 @@ elementinternals
 *
 /
 [
-Pref
-=
-"
-dom
-.
-webcomponents
-.
-elementInternals
-.
-enabled
-"
 Exposed
 =
 Window
