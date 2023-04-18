@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -231,7 +231,6 @@ mHost
 ;
 }
 ;
-}
 }
 #
 endif

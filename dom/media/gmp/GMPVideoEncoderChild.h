@@ -49,8 +49,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -317,7 +317,6 @@ mPendingEncodeComplete
 ;
 }
 ;
-}
 }
 #
 endif

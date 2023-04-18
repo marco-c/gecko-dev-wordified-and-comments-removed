@@ -48,14 +48,13 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 class
 SharedPreferenceSerializer
 ;
-}
 }
 class
 nsITimer

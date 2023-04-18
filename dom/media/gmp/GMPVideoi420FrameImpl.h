@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -361,7 +361,6 @@ mDuration
 ;
 }
 ;
-}
 }
 #
 endif

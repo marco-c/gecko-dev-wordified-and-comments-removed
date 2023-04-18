@@ -79,8 +79,8 @@ gMediaControlLog
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 inline
@@ -1041,7 +1041,6 @@ uint8_t
 aKey
 )
 ;
-}
 }
 }
 #

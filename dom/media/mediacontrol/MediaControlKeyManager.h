@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -227,7 +227,6 @@ mSupportedKeys
 ;
 }
 ;
-}
 }
 #
 endif

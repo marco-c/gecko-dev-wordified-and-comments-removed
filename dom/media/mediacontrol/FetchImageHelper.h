@@ -40,8 +40,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -204,7 +204,6 @@ mListener
 ;
 }
 ;
-}
 }
 #
 endif

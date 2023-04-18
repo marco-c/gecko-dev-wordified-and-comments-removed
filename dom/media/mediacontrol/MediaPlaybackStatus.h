@@ -45,8 +45,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -404,7 +404,6 @@ mOwningAudioFocusContextId
 ;
 }
 ;
-}
 }
 #
 endif

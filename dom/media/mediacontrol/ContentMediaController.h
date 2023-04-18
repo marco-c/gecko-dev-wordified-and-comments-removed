@@ -20,8 +20,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -305,7 +305,6 @@ mReceivers
 ;
 }
 ;
-}
 }
 #
 endif

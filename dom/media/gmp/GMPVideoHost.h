@@ -46,8 +46,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -173,7 +173,6 @@ mEncodedFrames
 ;
 }
 ;
-}
 }
 #
 endif

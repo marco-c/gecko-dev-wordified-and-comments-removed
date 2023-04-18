@@ -154,8 +154,8 @@ max
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 wmf
 {
 class
@@ -611,7 +611,6 @@ IMFMediaBuffer
 ppBuffer
 )
 ;
-}
 }
 #
 endif

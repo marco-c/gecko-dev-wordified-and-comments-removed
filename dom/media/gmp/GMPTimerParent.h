@@ -47,8 +47,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -195,7 +195,6 @@ mIsOpen
 ;
 }
 ;
-}
 }
 #
 endif

@@ -60,8 +60,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -324,7 +324,6 @@ mPendingDecodeComplete
 ;
 }
 ;
-}
 }
 #
 endif

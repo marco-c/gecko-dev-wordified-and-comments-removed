@@ -86,8 +86,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -492,7 +492,6 @@ mResetCompleteTimeout
 ;
 }
 ;
-}
 }
 #
 endif

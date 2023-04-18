@@ -81,8 +81,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -735,7 +735,6 @@ mDeactivationTimer
 ;
 }
 ;
-}
 }
 #
 endif

@@ -27,14 +27,13 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 layers
 {
 class
 BufferRecycleBin
 ;
-}
 }
 namespace
 mozilla

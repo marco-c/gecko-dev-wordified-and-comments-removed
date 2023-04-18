@@ -29,8 +29,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -120,7 +120,6 @@ mTelemetryTimer
 ;
 }
 ;
-}
 }
 #
 endif

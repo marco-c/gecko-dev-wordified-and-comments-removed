@@ -72,8 +72,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -746,7 +746,6 @@ mPlaybackStatusDelegate
 ;
 }
 ;
-}
 }
 #
 endif

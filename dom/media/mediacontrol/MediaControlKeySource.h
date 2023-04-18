@@ -64,8 +64,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -414,7 +414,6 @@ mPlaybackState
 ;
 }
 ;
-}
 }
 #
 endif

@@ -58,8 +58,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -140,7 +140,6 @@ mPlugin
 ;
 }
 ;
-}
 }
 #
 endif
