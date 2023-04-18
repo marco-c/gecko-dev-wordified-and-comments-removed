@@ -80,9 +80,6 @@ dom
 namespace
 cache
 {
-[
-ManualDealloc
-]
 protocol
 PCache
 {

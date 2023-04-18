@@ -54,8 +54,10 @@ PCacheStorageChild
 class
 PCacheStorageParent
 ;
+already_AddRefed
+<
 PCacheChild
-*
+>
 AllocPCacheChild
 (
 )
