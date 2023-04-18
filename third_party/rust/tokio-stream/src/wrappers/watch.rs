@@ -96,6 +96,8 @@ inner
 :
 ReusableBoxFuture
 <
+'
+static
 (
 Result
 <

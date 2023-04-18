@@ -326,7 +326,6 @@ Ready
 loop
 {
 let
-mut
 me
 =
 self
@@ -379,8 +378,6 @@ sealed
 :
 :
 Internal
-&
-mut
 me
 .
 collection
@@ -401,8 +398,6 @@ sealed
 :
 :
 Internal
-&
-mut
 me
 .
 collection
@@ -421,8 +416,6 @@ sealed
 :
 :
 Internal
-&
-mut
 me
 .
 collection
