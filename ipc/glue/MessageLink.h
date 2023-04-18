@@ -70,6 +70,17 @@ mozilla
 /
 ipc
 /
+Transport
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 ScopedPort
 .
 h

@@ -43,6 +43,17 @@ include
 "
 mozilla
 /
+ipc
+/
+Transport
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gmp
 /
 PGMPServiceChild

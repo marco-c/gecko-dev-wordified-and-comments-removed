@@ -232,6 +232,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+Transport
+.
+h
+"
+#
+include
+"
 base
 /
 process_util

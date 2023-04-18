@@ -143,6 +143,17 @@ include
 "
 mozilla
 /
+ipc
+/
+Transport
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 CompositableClient

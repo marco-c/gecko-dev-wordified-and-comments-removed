@@ -76,6 +76,17 @@ BrowserProcessSubThread
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ipc
+/
+Transport
+.
+h
+"
 typedef
 mozilla
 :
