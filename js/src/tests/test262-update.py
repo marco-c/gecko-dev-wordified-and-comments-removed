@@ -5024,7 +5024,7 @@ url
 default
 =
 "
-git
+https
 :
 /
 /
