@@ -17892,6 +17892,13 @@ policies
 .
 AppUpdatePin
 ;
+AUSTLMY
+.
+pingPinPolicy
+(
+updatePin
+)
+;
 }
 }
 }
