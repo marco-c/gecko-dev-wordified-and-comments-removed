@@ -101,6 +101,13 @@ windows
 installer
 /
 index
+components
+/
+attribution
+/
+docs
+/
+index
 /
 toolkit
 /
