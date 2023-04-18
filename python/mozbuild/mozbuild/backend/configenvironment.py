@@ -22,6 +22,10 @@ collections
 import
 OrderedDict
 from
+pathlib
+import
+Path
+from
 types
 import
 ModuleType
@@ -1664,6 +1668,19 @@ _load_config_track
 (
 )
         
+existing_files
+=
+{
+Path
+(
+f
+)
+for
+f
+in
+existing_files
+}
+        
 new_files
 =
 set
@@ -1686,12 +1703,15 @@ new_files
 .
 add
 (
+Path
+(
 self
 .
 _write_file
 (
 k
 v
+)
 )
 )
         
