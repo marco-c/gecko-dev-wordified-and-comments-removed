@@ -15396,6 +15396,9 @@ const
 ObservableArrayProxyHandler
 *
 aHandler
+void
+*
+aOwner
 )
 ;
 bool
