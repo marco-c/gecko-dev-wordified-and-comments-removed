@@ -37682,11 +37682,6 @@ aWidget
 GdkDragContext
 *
 aDragContext
-RefPtr
-<
-DataOffer
->
-aDataOffer
 gint
 aX
 gint
@@ -37861,7 +37856,6 @@ ScheduleMotionEvent
 (
 innerMostWindow
 aDragContext
-aDataOffer
 point
 aTime
 )
@@ -37915,7 +37909,6 @@ WindowDragMotionHandler
 (
 aWidget
 aDragContext
-nullptr
 aX
 aY
 aTime
@@ -38109,11 +38102,6 @@ aWidget
 GdkDragContext
 *
 aDragContext
-RefPtr
-<
-DataOffer
->
-aDataOffer
 gint
 aX
 gint
@@ -38284,7 +38272,6 @@ ScheduleDropEvent
 (
 innerMostWindow
 aDragContext
-aDataOffer
 point
 aTime
 )
@@ -38315,7 +38302,6 @@ WindowDragDropHandler
 (
 aWidget
 aDragContext
-nullptr
 aX
 aY
 aTime
