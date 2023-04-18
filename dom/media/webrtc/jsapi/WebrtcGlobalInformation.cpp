@@ -558,11 +558,10 @@ return
 }
 if
 (
-!
 aPc
 -
 >
-IsActive
+IsClosed
 (
 )
 )

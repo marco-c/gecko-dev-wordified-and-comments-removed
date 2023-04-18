@@ -2411,12 +2411,13 @@ mPeerConnections
 {
 if
 (
+!
 idAndPc
 .
 second
 -
 >
-IsActive
+IsClosed
 (
 )
 )
