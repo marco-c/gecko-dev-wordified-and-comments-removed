@@ -196,9 +196,6 @@ Wignored
 -
 qualifiers
 "
-when
-=
-not_clang_cl
 )
 add_warning
 (

@@ -1697,7 +1697,6 @@ PickerClosed
 )
 ;
 bool
-const
 DestroyCalled
 (
 )
