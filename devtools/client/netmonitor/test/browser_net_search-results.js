@@ -151,6 +151,7 @@ makeRequests
 await
 wait
 ;
+await
 store
 .
 dispatch
