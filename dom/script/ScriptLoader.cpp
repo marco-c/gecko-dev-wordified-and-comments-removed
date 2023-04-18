@@ -4311,7 +4311,10 @@ aURI
 fetchOptions
 aIntegrity
 referrer
-context
+new
+ScriptLoadContext
+(
+)
 )
 ;
 return
@@ -11777,13 +11780,6 @@ aRequest
 -
 >
 mBaseURL
-aRequest
--
->
-mFetchOptions
--
->
-mElement
 )
 ;
 JS
