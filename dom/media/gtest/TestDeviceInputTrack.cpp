@@ -2465,7 +2465,7 @@ track
 TEST_F
 (
 TestDeviceInputTrack
-DeviceChangedCallback
+NonNativeDeviceChangedCallback
 )
 {
 MockCubeb
@@ -2838,7 +2838,7 @@ track
 TEST_F
 (
 TestDeviceInputTrack
-ErrorCallback
+NonNativeErrorCallback
 )
 {
 MockCubeb
