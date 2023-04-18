@@ -9405,7 +9405,10 @@ pointToInsert
 =
 splitNodeResult
 .
-SplitPoint
+AtSplitPoint
+<
+EditorDOMPoint
+>
 (
 )
 ;
@@ -21815,6 +21818,10 @@ unwrap
 (
 )
 currentRightNode
+SplitNodeDirection
+:
+:
+LeftNodeIsNewOne
 )
 ;
 if
@@ -21855,6 +21862,10 @@ SplitNodeResult
 (
 currentRightNode
 nullptr
+SplitNodeDirection
+:
+:
+LeftNodeIsNewOne
 )
 ;
 if
@@ -21912,6 +21923,10 @@ SplitNodeResult
 (
 nullptr
 currentRightNode
+SplitNodeDirection
+:
+:
+LeftNodeIsNewOne
 )
 ;
 if
