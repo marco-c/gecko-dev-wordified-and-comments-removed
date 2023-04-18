@@ -120,7 +120,7 @@ define
 GUARDED_VAR
 THREAD_ANNOTATION_ATTRIBUTE__
 (
-guarded
+guarded_var
 )
 #
 define
@@ -140,7 +140,7 @@ define
 PT_GUARDED_VAR
 THREAD_ANNOTATION_ATTRIBUTE__
 (
-pt_guarded
+pt_guarded_var
 )
 #
 define
