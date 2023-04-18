@@ -995,6 +995,13 @@ WhichRepresentation
 aRepresentation
 )
 ;
+bool
+HasUpdateAffectingLayers
+(
+WhichRepresentation
+aRepresentation
+)
+;
 void
 SetBackingScale
 (
