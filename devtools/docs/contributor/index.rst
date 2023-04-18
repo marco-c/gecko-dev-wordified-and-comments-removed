@@ -108,9 +108,6 @@ the
 tools
 see
 the
-:
-doc
-:
 user
 docs
 <
@@ -118,9 +115,8 @@ docs
 devtools
 -
 user
-/
-index
 >
+_
 .
 For
 other

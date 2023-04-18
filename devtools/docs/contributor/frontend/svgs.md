@@ -51,11 +51,9 @@ US
 /
 docs
 /
-Mozilla
+Web
 /
-Developer_guide
-/
-SVG_Guidelines
+SVG
 )
 .
 #
