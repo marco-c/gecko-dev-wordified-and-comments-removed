@@ -355,7 +355,10 @@ rsplit
 ]
     
 except
+(
 CalledProcessError
+IndexError
+)
 :
         
 repo_url
