@@ -310,13 +310,6 @@ h
 #
 include
 "
-nsIXULRuntime
-.
-h
-"
-#
-include
-"
 nsThreadManager
 .
 h
@@ -1548,10 +1541,7 @@ a_counter
 .
 Add
 (
-nsIXULRuntime
-:
-:
-PROCESS_TYPE_RDD
+45327
 )
 ;
 aResolve

@@ -213,13 +213,8 @@ Services
 .
 fog
 .
-testTriggerMetrics
+testTriggerRDDMetrics
 (
-Ci
-.
-nsIXULRuntime
-.
-PROCESS_TYPE_RDD
 )
 ;
 return
@@ -261,6 +256,7 @@ testFlushAllChildren
 ;
 is
 (
+45327
 Glean
 .
 testOnlyIpc
@@ -270,11 +266,6 @@ aCounter
 testGetValue
 (
 )
-Ci
-.
-nsIXULRuntime
-.
-PROCESS_TYPE_RDD
 "
 Ensure
 the
