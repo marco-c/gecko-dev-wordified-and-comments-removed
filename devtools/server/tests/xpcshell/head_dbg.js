@@ -3736,6 +3736,13 @@ client
 server
 targetFront
 commands
+isWorkerServer
+:
+server
+=
+=
+=
+WorkerDevToolsServer
 }
 ;
 if

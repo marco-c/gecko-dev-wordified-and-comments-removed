@@ -815,6 +815,15 @@ grip
 raw
 )
 {
+const
+className
+=
+this
+.
+obj
+.
+class
+;
 for
 (
 const
@@ -822,11 +831,7 @@ previewer
 of
 previewers
 [
-this
-.
-obj
-.
-class
+className
 ]
 |
 |
@@ -845,6 +850,7 @@ previewer
 this
 grip
 raw
+className
 )
 ;
 if
