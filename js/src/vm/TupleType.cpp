@@ -1538,6 +1538,9 @@ true
 ;
 }
 bool
+js
+:
+:
 IsTuple
 (
 const
@@ -1596,7 +1599,10 @@ false
 }
 TupleType
 &
-ThisTupleValue
+TupleType
+:
+:
+thisTupleValue
 (
 const
 Value
@@ -1686,7 +1692,10 @@ TupleType
 &
 tuple
 =
-ThisTupleValue
+TupleType
+:
+:
+thisTupleValue
 (
 args
 .
