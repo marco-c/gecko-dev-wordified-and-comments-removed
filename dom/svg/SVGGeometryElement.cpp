@@ -128,8 +128,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SVGElement
@@ -1608,6 +1608,5 @@ FlushType
 Style
 )
 ;
-}
 }
 }

@@ -80,8 +80,8 @@ Filter
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -658,6 +658,5 @@ sStringInfo
 )
 )
 ;
-}
 }
 }

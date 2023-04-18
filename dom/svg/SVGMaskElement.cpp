@@ -73,8 +73,8 @@ Mask
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -557,6 +557,5 @@ IsAttributeMapped
 name
 )
 ;
-}
 }
 }

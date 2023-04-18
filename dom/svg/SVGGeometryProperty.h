@@ -66,11 +66,11 @@ type_traits
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 SVGGeometryProperty
 {
 namespace
@@ -1414,8 +1414,6 @@ const
 aElement
 )
 ;
-}
-}
 }
 #
 endif

@@ -56,11 +56,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 SVGGeometryProperty
 {
 nsCSSUnit
@@ -446,7 +446,5 @@ nsGkAtoms
 use
 )
 ;
-}
-}
 }
 }

@@ -55,8 +55,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -1414,6 +1414,5 @@ i
 return
 true
 ;
-}
 }
 }

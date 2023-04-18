@@ -138,8 +138,8 @@ Marker
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -1234,6 +1234,5 @@ return
 *
 mViewBoxToViewportTransform
 ;
-}
 }
 }

@@ -105,8 +105,8 @@ MPath
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -1151,7 +1151,6 @@ AnimationNeedsResample
 (
 )
 ;
-}
 }
 }
 }

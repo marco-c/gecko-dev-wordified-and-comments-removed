@@ -64,8 +64,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -434,7 +434,6 @@ mPathTracker
 ;
 }
 ;
-}
 }
 #
 endif

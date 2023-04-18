@@ -46,8 +46,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -298,7 +298,6 @@ sNumberInfo
 ;
 }
 ;
-}
 }
 #
 endif

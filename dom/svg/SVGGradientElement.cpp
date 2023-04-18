@@ -117,8 +117,8 @@ RadialGradient
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -1100,6 +1100,5 @@ sLengthInfo
 )
 )
 ;
-}
 }
 }

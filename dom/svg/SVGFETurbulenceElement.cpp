@@ -64,8 +64,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -1030,6 +1030,5 @@ sStringInfo
 )
 )
 ;
-}
 }
 }

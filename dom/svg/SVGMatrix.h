@@ -43,8 +43,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -521,7 +521,6 @@ mMatrix
 ;
 }
 ;
-}
 }
 #
 endif
