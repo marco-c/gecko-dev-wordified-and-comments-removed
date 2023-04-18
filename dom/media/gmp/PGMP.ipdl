@@ -10,6 +10,10 @@ include
 protocol
 PGMPStorage
 ;
+include
+protocol
+PProfiler
+;
 using
 mozilla
 :
@@ -111,6 +115,16 @@ InitGMPContentChild
 Endpoint
 <
 PGMPContentChild
+>
+endpoint
+)
+;
+async
+InitProfiler
+(
+Endpoint
+<
+PProfilerChild
 >
 endpoint
 )
