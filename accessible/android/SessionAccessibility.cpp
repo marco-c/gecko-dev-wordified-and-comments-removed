@@ -1632,6 +1632,10 @@ AndroidClass
 eventInfo
 )
 ;
+SendWindowContentChangedEvent
+(
+)
+;
 }
 void
 SessionAccessibility
@@ -3073,10 +3077,6 @@ mSessionAccessibility
 UpdateCachedBounds
 (
 infos
-)
-;
-SendWindowContentChangedEvent
-(
 )
 ;
 }
