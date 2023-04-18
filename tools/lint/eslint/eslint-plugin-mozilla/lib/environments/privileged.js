@@ -545,6 +545,12 @@ false
 GamepadServiceTest
 :
 false
+Glean
+:
+false
+GleanPings
+:
+false
 Grid
 :
 false

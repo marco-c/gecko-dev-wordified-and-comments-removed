@@ -235,17 +235,6 @@ expiry
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-Glean
-"
-]
-)
-;
 const
 MAX_UNIQUE_VISITED_DOMAINS
 =

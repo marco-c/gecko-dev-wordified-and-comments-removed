@@ -46,17 +46,6 @@ jsm
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-Glean
-"
-]
-)
-;
 function
 tick
 (

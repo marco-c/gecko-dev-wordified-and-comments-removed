@@ -306,17 +306,6 @@ nsIApplicationUpdateService
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-Glean
-"
-]
-)
-;
 const
 TASK_DEF_CURRENT_VERSION
 =
