@@ -3449,7 +3449,7 @@ mChannel
 =
 channel
 ;
-RefPtr
+SafeRefPtr
 <
 mozilla
 :
@@ -3461,7 +3461,8 @@ InternalResponse
 >
 ir
 =
-new
+MakeSafeRefPtr
+<
 mozilla
 :
 :
@@ -3469,6 +3470,7 @@ dom
 :
 :
 InternalResponse
+>
 (
 200
 "
@@ -3630,7 +3632,13 @@ mCacheCreator
 Global
 (
 )
+std
+:
+:
+move
+(
 ir
+)
 nullptr
 )
 ;

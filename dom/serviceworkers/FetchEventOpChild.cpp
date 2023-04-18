@@ -311,8 +311,10 @@ CSPPermitsResponse
 nsILoadInfo
 *
 aLoadInfo
+SafeRefPtr
+<
 InternalResponse
-*
+>
 aResponse
 const
 nsACString
@@ -1517,7 +1519,7 @@ MOZ_ASSERT
 mRegistration
 )
 ;
-RefPtr
+SafeRefPtr
 <
 InternalResponse
 >
@@ -1617,6 +1619,10 @@ CSPPermitsResponse
 (
 loadInfo
 response
+.
+clonePtr
+(
+)
 mArgs
 .
 workerScriptSpec

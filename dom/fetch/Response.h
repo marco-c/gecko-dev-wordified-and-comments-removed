@@ -98,8 +98,10 @@ Response
 nsIGlobalObject
 *
 aGlobal
+SafeRefPtr
+<
 InternalResponse
-*
+>
 aInternalResponse
 AbortSignalImpl
 *
@@ -548,7 +550,7 @@ int64_t
 aBodySize
 )
 ;
-already_AddRefed
+SafeRefPtr
 <
 InternalResponse
 >
@@ -576,7 +578,7 @@ Response
 (
 )
 ;
-RefPtr
+SafeRefPtr
 <
 InternalResponse
 >
