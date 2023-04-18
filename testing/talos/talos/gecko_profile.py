@@ -197,6 +197,7 @@ join
 self
 .
 upload_dir
+            
 "
 profile_
 {
@@ -209,11 +210,19 @@ zip
 format
 (
 test_config
-[
+.
+get
+(
 "
 suite
 "
+test_config
+[
+"
+name
+"
 ]
+)
 )
         
 )
