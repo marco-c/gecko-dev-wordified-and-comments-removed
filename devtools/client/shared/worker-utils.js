@@ -695,6 +695,18 @@ undefined
 }
 ;
 }
+if
+(
+typeof
+module
+!
+=
+=
+"
+undefined
+"
+)
+{
 module
 .
 exports
@@ -704,3 +716,4 @@ WorkerDispatcher
 workerHandler
 }
 ;
+}

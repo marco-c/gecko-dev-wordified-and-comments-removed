@@ -35,11 +35,7 @@ devtools
 /
 client
 /
-netmonitor
-/
-src
-/
-workers
+shared
 /
 worker
 -
