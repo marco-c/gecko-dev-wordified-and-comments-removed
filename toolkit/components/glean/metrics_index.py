@@ -71,6 +71,16 @@ metrics
 .
 yaml
 "
+    
+"
+browser
+/
+components
+/
+metrics
+.
+yaml
+"
 ]
 pings_yamls
 =
