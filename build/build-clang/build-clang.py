@@ -1491,6 +1491,13 @@ DLLVM_ENABLE_CURL
 =
 OFF
 "
+            
+"
+-
+DLLVM_INCLUDE_TESTS
+=
+OFF
+"
         
 ]
         
@@ -1621,13 +1628,6 @@ cmake_args
 DLLVM_ENABLE_PROJECTS
 =
 clang
-"
-                
-"
--
-DLLVM_INCLUDE_TESTS
-=
-OFF
 "
                 
 "
