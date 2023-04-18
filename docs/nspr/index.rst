@@ -126,6 +126,14 @@ build
 from
 source
 .
+:
+ref
+:
+NSPR
+listing
+All
+NSPR
+pages
 .
 .
 _Getting_NSPR
