@@ -223,7 +223,7 @@ class
 MediaFormatReader
 ;
 class
-MediaDecoderStateMachineBase
+MediaDecoderStateMachine
 ;
 struct
 MediaPlaybackEvent
@@ -716,7 +716,7 @@ aLoadInBackground
 )
 {
 }
-MediaDecoderStateMachineBase
+MediaDecoderStateMachine
 *
 GetStateMachine
 (
@@ -726,7 +726,7 @@ const
 void
 SetStateMachine
 (
-MediaDecoderStateMachineBase
+MediaDecoderStateMachine
 *
 aStateMachine
 )
@@ -1430,7 +1430,7 @@ FinishShutdown
 void
 ConnectMirrors
 (
-MediaDecoderStateMachineBase
+MediaDecoderStateMachine
 *
 aObject
 )
@@ -1450,7 +1450,7 @@ CanPlayThroughImpl
 ;
 RefPtr
 <
-MediaDecoderStateMachineBase
+MediaDecoderStateMachine
 >
 mDecoderStateMachine
 ;

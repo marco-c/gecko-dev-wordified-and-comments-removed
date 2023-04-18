@@ -76,11 +76,6 @@ aManagerThread
 TaskQueue
 *
 aDecodeTaskQueue
-Maybe
-<
-uint64_t
->
-aMediaEngineId
 )
 ;
 void
@@ -225,13 +220,6 @@ RefPtr
 MediaDataDecoder
 >
 mDecoder
-;
-const
-Maybe
-<
-uint64_t
->
-mMediaEngineId
 ;
 private
 :

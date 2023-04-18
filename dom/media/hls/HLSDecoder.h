@@ -168,7 +168,7 @@ HLSDecoder
 (
 )
 ;
-MediaDecoderStateMachineBase
+MediaDecoderStateMachine
 *
 CreateStateMachine
 (

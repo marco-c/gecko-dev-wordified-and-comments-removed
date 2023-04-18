@@ -384,13 +384,6 @@ NullableTimeUnit
 aCanonical
 )
 ;
-void
-UpdateMediaEngineId
-(
-uint64_t
-aMediaEngineId
-)
-;
 private
 :
 ~
