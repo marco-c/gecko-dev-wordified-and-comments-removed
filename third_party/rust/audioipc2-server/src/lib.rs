@@ -879,7 +879,7 @@ extern
 C
 "
 fn
-audioipc_server_start
+audioipc2_server_start
 (
 context_name
 :
@@ -1072,7 +1072,7 @@ extern
 C
 "
 fn
-audioipc_server_new_client
+audioipc2_server_new_client
 (
 p
 :
@@ -1281,7 +1281,7 @@ extern
 C
 "
 fn
-audioipc_server_stop
+audioipc2_server_stop
 (
 p
 :

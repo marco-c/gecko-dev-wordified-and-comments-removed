@@ -357,7 +357,7 @@ extern
 C
 "
 fn
-audioipc_client_init
+audioipc2_client_init
 (
 c
 :
