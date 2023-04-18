@@ -105,11 +105,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -409,7 +415,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 resourceProtocol
 "
@@ -512,7 +518,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 aomStartup
 :
@@ -561,7 +567,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 processCount
 "
@@ -580,7 +586,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 userContextIsolation
 "
@@ -598,7 +604,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 userContextIsolationDefaultRestricted
 "
@@ -621,7 +627,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 eventPagesEnabled
 "
@@ -666,7 +672,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -679,7 +685,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 LocaleData
 "
@@ -696,9 +702,9 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
-LAZY_NO_PROMPT_PERMISSIONS
+NO_PROMPT_PERMISSIONS
 "
 async
 (
@@ -717,6 +723,8 @@ return
 new
 Set
 (
+lazy
+.
 Schemas
 .
 getPermissionNames
@@ -742,9 +750,9 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
-LAZY_SCHEMA_SITE_PERMISSIONS
+SCHEMA_SITE_PERMISSIONS
 "
 async
 (
@@ -760,6 +768,8 @@ lazyInit
 )
 ;
 return
+lazy
+.
 Schemas
 .
 getPermissionNames
@@ -1079,6 +1089,8 @@ addonData
 .
 signedState
 >
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_MISSING
@@ -1663,6 +1675,8 @@ this
 initialized
 )
 {
+lazy
+.
 AddonManager
 .
 addAddonListener
@@ -1689,6 +1703,8 @@ this
 initialized
 )
 {
+lazy
+.
 AddonManager
 .
 removeAddonListener
@@ -1833,6 +1849,8 @@ onUninstalled
 addon
 )
 {
+lazy
+.
 ExtensionPermissions
 .
 removeAll
@@ -1899,6 +1917,8 @@ baseURI
 }
 )
 ;
+lazy
+.
 AsyncShutdown
 .
 profileChangeTeardown
@@ -1920,6 +1940,8 @@ true
 )
 )
 ;
+lazy
+.
 AsyncShutdown
 .
 profileChangeTeardown
@@ -1934,6 +1956,8 @@ addon
 .
 id
 }
+lazy
+.
 ServiceWorkerCleanUp
 .
 removeFromPrincipal
@@ -1956,6 +1980,8 @@ false
 )
 )
 {
+lazy
+.
 AsyncShutdown
 .
 profileChangeTeardown
@@ -1974,6 +2000,8 @@ id
 File
 Backend
 )
+lazy
+.
 ExtensionStorage
 .
 clear
@@ -2024,6 +2052,8 @@ clearStoragesForPrincipal
 storagePrincipal
 )
 ;
+lazy
+.
 ExtensionStorageIDB
 .
 clearMigratedExtensionPref
@@ -2328,6 +2358,8 @@ this
 .
 eventPagesEnabled
 =
+lazy
+.
 eventPagesEnabled
 ;
 }
@@ -2403,6 +2435,8 @@ signedState
 =
 =
 =
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_PRIVILEGED
@@ -2412,6 +2446,8 @@ signedState
 =
 =
 =
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_SYSTEM
@@ -2421,6 +2457,8 @@ builtIn
 |
 |
 (
+lazy
+.
 AddonSettings
 .
 EXPERIMENTS_ENABLED
@@ -2460,6 +2498,8 @@ unknown
 "
 ;
 return
+lazy
+.
 Log
 .
 repository
@@ -2952,6 +2992,8 @@ for
 let
 name
 of
+lazy
+.
 aomStartup
 .
 enumerateJARSubtree
@@ -3082,6 +3124,8 @@ path
 }
 )
 ;
+lazy
+.
 NetUtil
 .
 asyncFetch
@@ -3153,6 +3197,8 @@ try
 let
 text
 =
+lazy
+.
 NetUtil
 .
 readInputStreamToString
@@ -3750,7 +3796,9 @@ return
 !
 (
 await
-LAZY_NO_PROMPT_PERMISSIONS
+lazy
+.
+NO_PROMPT_PERMISSIONS
 )
 .
 has
@@ -3934,6 +3982,8 @@ newOptionalPermissions
 )
 ;
 await
+lazy
+.
 ExtensionPermissions
 .
 add
@@ -3994,6 +4044,8 @@ x
 )
 ;
 await
+lazy
+.
 ExtensionPreferencesManager
 .
 removeSettingsForPermissions
@@ -4003,6 +4055,8 @@ removed
 )
 ;
 await
+lazy
+.
 ExtensionPermissions
 .
 remove
@@ -4042,6 +4096,8 @@ this
 isPrivileged
 |
 |
+lazy
+.
 AddonSettings
 .
 EXPERIMENTS_ENABLED
@@ -4427,6 +4483,8 @@ locale
 ;
 }
 return
+lazy
+.
 Schemas
 .
 normalize
@@ -5312,6 +5370,8 @@ let
 perms
 =
 await
+lazy
+.
 ExtensionPermissions
 .
 get
@@ -5636,6 +5696,8 @@ then
 json
 =
 >
+lazy
+.
 Schemas
 .
 processSchema
@@ -6148,6 +6210,8 @@ replace
 let
 dir
 =
+lazy
+.
 dirname
 (
 path
@@ -6173,6 +6237,8 @@ dir
 let
 leafName
 =
+lazy
+.
 basename
 (
 path
@@ -7165,6 +7231,8 @@ this
 localeData
 =
 new
+lazy
+.
 LocaleData
 (
 {
@@ -8258,6 +8326,8 @@ msgs
 .
 push
 (
+lazy
+.
 PluralForm
 .
 get
@@ -9109,6 +9179,8 @@ data
 reason
 )
 {
+lazy
+.
 AsyncShutdown
 .
 profileChangeTeardown
@@ -9385,6 +9457,8 @@ const
 BOOTSTRAP_REASONS
 }
 =
+lazy
+.
 AddonManagerPrivate
 ;
 return
@@ -9775,6 +9849,8 @@ this
 .
 userContextIsolation
 =
+lazy
+.
 userContextIsolation
 ;
 this
@@ -9976,6 +10052,8 @@ this
 .
 remote
 ?
+lazy
+.
 E10SUtils
 .
 EXTENSION_REMOTE_TYPE
@@ -9989,6 +10067,8 @@ this
 remote
 &
 &
+lazy
+.
 processCount
 !
 =
@@ -10181,6 +10261,8 @@ APP_STARTUP
 "
 )
 {
+lazy
+.
 LightweightThemeManager
 .
 fallbackThemeData
@@ -11156,6 +11238,8 @@ dontSaveStartupData
 return
 ;
 }
+lazy
+.
 AddonManagerPrivate
 .
 setAddonStartupData
@@ -11409,6 +11493,8 @@ JSON
 .
 parse
 (
+lazy
+.
 userContextIsolationDefaultRestricted
 )
 ;
@@ -12798,6 +12884,8 @@ pending
 pendingExtensions
 )
 ;
+lazy
+.
 ExtensionTelemetry
 .
 extensionStartup
@@ -12934,6 +13022,8 @@ if
 isAllowed
 )
 {
+lazy
+.
 ExtensionPermissions
 .
 remove
@@ -12983,6 +13073,8 @@ this
 temporarilyInstalled
 )
 {
+lazy
+.
 ExtensionPermissions
 .
 add
@@ -13033,6 +13125,8 @@ this
 )
 )
 {
+lazy
+.
 ExtensionPermissions
 .
 add
@@ -13065,6 +13159,8 @@ SVG_CONTEXT_PROPERTIES_PERMISSION
 }
 else
 {
+lazy
+.
 ExtensionPermissions
 .
 remove
@@ -13120,6 +13216,8 @@ devtools
 )
 )
 {
+lazy
+.
 ExtensionPermissions
 .
 add
@@ -13179,6 +13277,8 @@ this
 .
 policy
 =
+lazy
+.
 ExtensionProcessScript
 .
 initExtension
@@ -13218,6 +13318,8 @@ storage
 if
 (
 !
+lazy
+.
 ExtensionStorageIDB
 .
 isBackendEnabled
@@ -13237,6 +13339,8 @@ false
 else
 if
 (
+lazy
+.
 ExtensionStorageIDB
 .
 isMigratedExtension
@@ -13262,6 +13366,8 @@ setSharedData
 "
 storageIDBPrincipal
 "
+lazy
+.
 ExtensionStorageIDB
 .
 getStoragePrincipal
@@ -13297,6 +13403,8 @@ false
 )
 )
 {
+lazy
+.
 ExtensionStorageIDB
 .
 setMigratedExtensionPref
@@ -13322,6 +13430,8 @@ setSharedData
 "
 storageIDBPrincipal
 "
+lazy
+.
 ExtensionStorageIDB
 .
 getStoragePrincipal
@@ -13506,6 +13616,8 @@ e
 }
 finally
 {
+lazy
+.
 ExtensionTelemetry
 .
 extensionStartup
@@ -13651,6 +13763,8 @@ storage
 )
 &
 &
+lazy
+.
 ExtensionStorageIDB
 .
 selectedBackendPromises
@@ -13674,6 +13788,8 @@ Storage
 try
 {
 await
+lazy
+.
 ExtensionStorageIDB
 .
 selectedBackendPromises
@@ -13919,6 +14035,8 @@ ServiceWorkers
 "
 ;
 await
+lazy
+.
 ServiceWorkerCleanUp
 .
 removeFromPrincipal
@@ -14381,6 +14499,8 @@ lang
 =
 uri
 ;
+lazy
+.
 spellCheck
 .
 addDictionary
@@ -14418,6 +14538,8 @@ APP_SHUTDOWN
 "
 )
 {
+lazy
+.
 AddonManagerPrivate
 .
 unregisterDictionaries
@@ -14599,6 +14721,8 @@ this
 .
 chromeRegistryHandle
 =
+lazy
+.
 aomStartup
 .
 registerChrome
@@ -14630,6 +14754,8 @@ startupData
 .
 l10nRegistrySources
 ;
+lazy
+.
 resourceProtocol
 .
 setSubstitution
@@ -14824,6 +14950,8 @@ chromeRegistryHandle
 null
 ;
 }
+lazy
+.
 resourceProtocol
 .
 setSubstitution
@@ -15043,12 +15171,16 @@ let
 site_permissions
 =
 await
-LAZY_SCHEMA_SITE_PERMISSIONS
+lazy
+.
+SCHEMA_SITE_PERMISSIONS
 ;
 let
 perms
 =
 await
+lazy
+.
 ExtensionPermissions
 .
 get

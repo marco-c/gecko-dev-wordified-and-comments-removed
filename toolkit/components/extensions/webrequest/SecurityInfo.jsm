@@ -43,11 +43,17 @@ Ci
 .
 nsIWebProgressListener
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 NSSErrorsService
 "
@@ -69,7 +75,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 sss
 "
@@ -91,7 +97,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 pkps
 "
@@ -163,6 +169,8 @@ nsITransportSecurityInfo
 ;
 if
 (
+lazy
+.
 NSSErrorsService
 .
 isNSSErrorCode
@@ -501,6 +509,8 @@ info
 .
 hsts
 =
+lazy
+.
 sss
 .
 isSecureURI
@@ -517,6 +527,8 @@ info
 .
 hpkp
 =
+lazy
+.
 pkps
 .
 hostHasPins

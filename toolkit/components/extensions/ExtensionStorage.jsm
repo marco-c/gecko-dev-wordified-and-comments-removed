@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionUtils
 "
@@ -87,7 +93,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 JSONFile
 "
@@ -110,7 +116,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -369,6 +375,8 @@ _readFile
 extensionId
 )
 {
+lazy
+.
 OS
 .
 File
@@ -387,6 +395,8 @@ ignoreExisting
 true
 from
 :
+lazy
+.
 OS
 .
 Constants
@@ -401,6 +411,8 @@ let
 jsonFile
 =
 new
+lazy
+.
 JSONFile
 (
 {
@@ -587,6 +599,8 @@ undefined
 {
 throw
 new
+lazy
+.
 ExtensionUtils
 .
 ExtensionError
@@ -620,6 +634,8 @@ extensionId
 )
 {
 return
+lazy
+.
 OS
 .
 Path
@@ -639,6 +655,8 @@ extensionId
 )
 {
 return
+lazy
+.
 OS
 .
 Path
@@ -1519,6 +1537,8 @@ e
 {
 throw
 new
+lazy
+.
 ExtensionUtils
 .
 ExtensionError
@@ -1657,12 +1677,16 @@ extensionDir
 )
 =
 >
+lazy
+.
 OS
 .
 Path
 .
 join
 (
+lazy
+.
 OS
 .
 Constants

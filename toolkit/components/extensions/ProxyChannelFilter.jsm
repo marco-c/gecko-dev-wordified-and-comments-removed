@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionParent
 "
@@ -87,7 +93,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 ProxyService
 "
@@ -115,7 +121,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 tabTracker
 "
@@ -125,6 +131,8 @@ tabTracker
 >
 {
 return
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -140,7 +148,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 getCookieStoreIdForOriginAttributes
 "
@@ -150,6 +158,8 @@ getCookieStoreIdForOriginAttributes
 >
 {
 return
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -1065,6 +1075,8 @@ SOCKS4
 {
 proxyInfo
 =
+lazy
+.
 ProxyService
 .
 newProxyInfoWithAuth
@@ -1094,6 +1106,8 @@ else
 {
 proxyInfo
 =
+lazy
+.
 ProxyService
 .
 newProxyInfo
@@ -1243,6 +1257,8 @@ extraInfoSpec
 [
 ]
 ;
+lazy
+.
 ProxyService
 .
 registerChannelFilter
@@ -1371,6 +1387,8 @@ data
 .
 cookieStoreId
 =
+lazy
+.
 getCookieStoreIdForOriginAttributes
 (
 originAttributes
@@ -1513,6 +1531,8 @@ browserElement
 {
 browserData
 =
+lazy
+.
 tabTracker
 .
 getBrowserData
@@ -1841,6 +1861,8 @@ destroy
 (
 )
 {
+lazy
+.
 ProxyService
 .
 unregisterFilter

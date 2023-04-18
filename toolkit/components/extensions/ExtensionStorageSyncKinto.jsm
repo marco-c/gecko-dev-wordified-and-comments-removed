@@ -250,11 +250,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -440,7 +446,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -480,7 +486,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 prefPermitsStorageSync
 "
@@ -492,7 +498,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 prefStorageSyncServerURL
 "
@@ -504,7 +510,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 WeaveCrypto
 "
@@ -607,6 +613,8 @@ android
 {
 _fxaService
 =
+lazy
+.
 fxAccounts
 ;
 }
@@ -695,6 +703,8 @@ ciphertext
 const
 hmacKey
 =
+lazy
+.
 CommonUtils
 .
 byteStringToArrayBuffer
@@ -730,6 +740,8 @@ const
 hmac
 =
 await
+lazy
+.
 CryptoUtils
 .
 hmac
@@ -744,10 +756,14 @@ data
 )
 ;
 return
+lazy
+.
 CommonUtils
 .
 bytesAsHex
 (
+lazy
+.
 CommonUtils
 .
 arrayBufferToByteString
@@ -866,6 +882,8 @@ invalid
 let
 IV
 =
+lazy
+.
 WeaveCrypto
 .
 generateRandomIV
@@ -876,6 +894,8 @@ let
 ciphertext
 =
 await
+lazy
+.
 WeaveCrypto
 .
 encrypt
@@ -1039,6 +1059,8 @@ record
 hmac
 )
 {
+lazy
+.
 Utils
 .
 throwHMACMismatch
@@ -1054,6 +1076,8 @@ let
 cleartext
 =
 await
+lazy
+.
 WeaveCrypto
 .
 decrypt
@@ -1268,6 +1292,8 @@ STORAGE_SYNC_SCOPE
 )
 ;
 return
+lazy
+.
 BulkKeyBundle
 .
 fromJWK
@@ -1335,6 +1361,8 @@ e
 {
 if
 (
+lazy
+.
 Utils
 .
 isHMACMismatch
@@ -1494,6 +1522,8 @@ storageSyncInit
 .
 promise
 =
+lazy
+.
 FirefoxAdapter
 .
 openConnection
@@ -1515,11 +1545,15 @@ connection
 kinto
 :
 new
+lazy
+.
 Kinto
 (
 {
 adapter
 :
+lazy
+.
 FirefoxAdapter
 adapterOptions
 :
@@ -1912,6 +1946,8 @@ getNewSalt
 return
 btoa
 (
+lazy
+.
 CryptoUtils
 .
 generateRandomBytesLegacy
@@ -2070,6 +2106,8 @@ this
 .
 hashWithExtensionSalt
 (
+lazy
+.
 CommonUtils
 .
 encodeUTF8
@@ -2203,6 +2241,8 @@ value
 const
 hash
 =
+lazy
+.
 CryptoUtils
 .
 digestBytes
@@ -2212,6 +2252,8 @@ hasher
 )
 ;
 return
+lazy
+.
 CommonUtils
 .
 encodeBase64URL
@@ -2240,6 +2282,8 @@ const
 collectionKeys
 =
 new
+lazy
+.
 CollectionKeyManager
 (
 )
@@ -2531,6 +2575,8 @@ record
 const
 id
 =
+lazy
+.
 CommonUtils
 .
 encodeUTF8
@@ -2722,6 +2768,8 @@ const
 allEnabledExtensions
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonsByTypes
@@ -3301,6 +3349,8 @@ assign
 {
 remote
 :
+lazy
+.
 prefStorageSyncServerURL
 headers
 :
@@ -3516,8 +3566,12 @@ const
 kintoHttp
 =
 new
+lazy
+.
 KintoHttpClient
 (
+lazy
+.
 prefStorageSyncServerURL
 {
 headers
@@ -4376,6 +4430,8 @@ context
 {
 if
 (
+lazy
+.
 prefPermitsStorageSync
 !
 =
@@ -5276,6 +5332,8 @@ extension
 changes
 )
 {
+lazy
+.
 Observers
 .
 notify
@@ -5322,6 +5380,8 @@ of
 listeners
 )
 {
+lazy
+.
 ExtensionCommon
 .
 runSafeSyncWithoutClone

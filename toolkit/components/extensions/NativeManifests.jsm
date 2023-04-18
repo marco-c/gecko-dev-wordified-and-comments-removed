@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 OS
 :
@@ -376,6 +382,8 @@ this
 .
 _initializePromise
 =
+lazy
+.
 Schemas
 .
 load
@@ -428,6 +436,8 @@ name
 let
 path
 =
+lazy
+.
 WindowsRegistry
 .
 readRegKey
@@ -451,6 +461,8 @@ path
 {
 path
 =
+lazy
+.
 WindowsRegistry
 .
 readRegKey
@@ -475,6 +487,8 @@ path
 {
 path
 =
+lazy
+.
 WindowsRegistry
 .
 readRegKey
@@ -549,6 +563,8 @@ then
 )
 =
 >
+lazy
+.
 OS
 .
 File
@@ -620,6 +636,8 @@ null
 let
 normalized
 =
+lazy
+.
 Schemas
 .
 normalize
@@ -800,6 +818,8 @@ if
 (
 ex
 instanceof
+lazy
+.
 OS
 .
 File
@@ -874,6 +894,8 @@ dirs
 let
 path
 =
+lazy
+.
 OS
 .
 Path

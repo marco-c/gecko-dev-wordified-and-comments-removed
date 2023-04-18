@@ -68,11 +68,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ExtensionParent
 :
@@ -141,7 +147,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 tabTracker
 "
@@ -151,6 +157,8 @@ tabTracker
 >
 {
 return
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -166,7 +174,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 getCookieStoreIdForOriginAttributes
 "
@@ -176,6 +184,8 @@ getCookieStoreIdForOriginAttributes
 >
 {
 return
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -350,6 +360,8 @@ ex
 {
 throw
 new
+lazy
+.
 ExtensionUtils
 .
 ExtensionError
@@ -3848,6 +3860,8 @@ data
 .
 cookieStoreId
 =
+lazy
+.
 getCookieStoreIdForOriginAttributes
 (
 originAttributes
@@ -4019,6 +4033,8 @@ browserElement
 {
 browserData
 =
+lazy
+.
 tabTracker
 .
 getBrowserData
@@ -4478,6 +4494,8 @@ requestBody
 requestBody
 |
 |
+lazy
+.
 WebRequestUpload
 .
 createRequestBody
@@ -5887,6 +5905,8 @@ channel
 )
 {
 return
+lazy
+.
 SecurityInfo
 .
 getSecurityInfo

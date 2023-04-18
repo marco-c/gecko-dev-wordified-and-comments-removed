@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AsyncShutdown
 :
@@ -128,6 +134,8 @@ _singleton
 let
 file
 =
+lazy
+.
 FileUtils
 .
 getFile
@@ -151,6 +159,8 @@ sqlite
 let
 kintoFile
 =
+lazy
+.
 FileUtils
 .
 getFile
@@ -194,6 +204,8 @@ _shutdown
 (
 )
 ;
+lazy
+.
 AsyncShutdown
 .
 profileChangeTeardown
@@ -352,6 +364,8 @@ code
 }
 finally
 {
+lazy
+.
 AsyncShutdown
 .
 profileChangeTeardown

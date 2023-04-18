@@ -87,11 +87,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ExtensionStorage
 :
@@ -340,6 +346,8 @@ length
 )
 {
 return
+lazy
+.
 getTrimmedString
 (
 error
@@ -505,6 +513,8 @@ migrateResult
 "
 storageLocal
 "
+lazy
+.
 getTrimmedString
 (
 extensionId
@@ -557,6 +567,8 @@ data
 storageLocalError
 "
 storageMethod
+lazy
+.
 getTrimmedString
 (
 extensionId
@@ -1495,6 +1507,8 @@ abortIfShuttingDown
 ;
 oldStoragePath
 =
+lazy
+.
 ExtensionStorage
 .
 getStorageFile
@@ -1507,6 +1521,8 @@ id
 oldStorageExists
 =
 await
+lazy
+.
 OS
 .
 File
@@ -1592,6 +1608,8 @@ debugName
 jsonFile
 =
 await
+lazy
+.
 ExtensionStorage
 .
 getFile
@@ -1795,6 +1813,8 @@ err
 finally
 {
 await
+lazy
+.
 ExtensionStorage
 .
 clearCachedFile
@@ -1836,6 +1856,8 @@ try
 if
 (
 await
+lazy
+.
 OS
 .
 File
@@ -1850,6 +1872,8 @@ let
 openInfo
 =
 await
+lazy
+.
 OS
 .
 File
@@ -1878,6 +1902,8 @@ close
 )
 ;
 await
+lazy
+.
 OS
 .
 File
@@ -2566,6 +2592,8 @@ const
 ExtensionError
 }
 =
+lazy
+.
 ExtensionUtils
 ;
 if

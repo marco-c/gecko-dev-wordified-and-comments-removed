@@ -87,11 +87,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 MessageManagerProxy
 "
@@ -136,6 +142,8 @@ target
 }
 return
 new
+lazy
+.
 MessageManagerProxy
 (
 target

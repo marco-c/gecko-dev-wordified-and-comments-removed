@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionParent
 "
@@ -111,7 +117,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 tabTracker
 "
@@ -121,6 +127,8 @@ tabTracker
 >
 {
 return
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -585,6 +593,8 @@ embedderElement
 let
 browserData
 =
+lazy
+.
 tabTracker
 .
 getBrowserData

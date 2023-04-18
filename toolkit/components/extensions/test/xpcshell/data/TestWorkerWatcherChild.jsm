@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 wdm
 "
@@ -216,6 +222,8 @@ url
 }
 }
 ;
+lazy
+.
 wdm
 .
 addListener
@@ -238,6 +246,8 @@ this
 _workerDebuggerListener
 )
 {
+lazy
+.
 wdm
 .
 removeListener

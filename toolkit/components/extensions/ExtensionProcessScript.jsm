@@ -87,11 +87,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ExtensionChild
 :
@@ -214,7 +220,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -222,6 +228,8 @@ console
 )
 =
 >
+lazy
+.
 ExtensionCommon
 .
 getConsole
@@ -278,7 +286,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 isContentProcess
 "
@@ -308,7 +316,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 isContentScriptProcess
 "
@@ -319,6 +327,8 @@ isContentScriptProcess
 {
 return
 (
+lazy
+.
 isContentProcess
 |
 |
@@ -353,6 +363,8 @@ policy
 {
 return
 new
+lazy
+.
 ExtensionChild
 .
 BrowserExtensionContent
@@ -1236,6 +1248,8 @@ shutdown
 }
 if
 (
+lazy
+.
 isContentProcess
 )
 {
@@ -1635,9 +1649,13 @@ break
 }
 if
 (
+lazy
+.
 isContentProcess
 )
 {
+lazy
+.
 ExtensionCommon
 .
 updateAllowedOrigins
@@ -1823,6 +1841,8 @@ if
 privileged
 )
 {
+lazy
+.
 ExtensionPageChild
 .
 initExtensionContext
@@ -1836,6 +1856,8 @@ defaultView
 }
 else
 {
+lazy
+.
 ExtensionContent
 .
 initExtensionContext
@@ -1885,9 +1907,13 @@ contentScript
 {
 if
 (
+lazy
+.
 isContentScriptProcess
 )
 {
+lazy
+.
 ExtensionContent
 .
 contentScripts
@@ -1910,6 +1936,8 @@ window
 )
 {
 return
+lazy
+.
 ExtensionContent
 .
 contentScripts
@@ -1971,6 +1999,8 @@ id
 )
 ;
 }
+lazy
+.
 ExtensionWorkerChild
 .
 initExtensionWorkerContext
@@ -1986,6 +2016,8 @@ policy
 serviceWorkerDescriptorId
 )
 {
+lazy
+.
 ExtensionWorkerChild
 .
 notifyExtensionWorkerContextLoaded
@@ -2001,6 +2033,8 @@ policy
 serviceWorkerDescriptorId
 )
 {
+lazy
+.
 ExtensionWorkerChild
 .
 destroyExtensionWorkerContext
@@ -2166,6 +2200,8 @@ serviceWorkerInfo
 )
 {
 return
+lazy
+.
 ExtensionWorkerChild
 .
 getExtensionWorkerContext
@@ -2192,6 +2228,8 @@ request
 if
 (
 !
+lazy
+.
 Schemas
 .
 checkPermissions
@@ -2265,6 +2303,8 @@ args
 request
 ;
 return
+lazy
+.
 Schemas
 .
 checkParameters
