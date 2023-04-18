@@ -184,6 +184,10 @@ webidl
 .
 yml
 -
+webcompat
+.
+yml
+-
 wpt
 -
 manifest
