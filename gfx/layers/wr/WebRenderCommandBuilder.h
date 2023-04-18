@@ -178,16 +178,6 @@ WebRenderCanvasData
 >
 CanvasDataSet
 ;
-typedef
-nsTHashSet
-<
-RefPtr
-<
-WebRenderLocalCanvasData
->
->
-LocalCanvasDataSet
-;
 public
 :
 explicit

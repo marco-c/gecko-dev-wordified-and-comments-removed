@@ -31,6 +31,9 @@ mozilla
 namespace
 gfx
 {
+[
+NeedsOtherPid
+]
 sync
 protocol
 PCanvasManager

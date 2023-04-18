@@ -32,9 +32,9 @@ include
 "
 mozilla
 /
-dom
+webgpu
 /
-HTMLCanvasElement
+CanvasContext
 .
 h
 "
