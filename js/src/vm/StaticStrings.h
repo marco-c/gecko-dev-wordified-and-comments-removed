@@ -66,10 +66,6 @@ TypeDecls
 .
 h
 "
-class
-JS_PUBLIC_API
-JSTracer
-;
 struct
 JS_PUBLIC_API
 JSContext
@@ -254,14 +250,6 @@ init
 JSContext
 *
 cx
-)
-;
-void
-trace
-(
-JSTracer
-*
-trc
 )
 ;
 static
