@@ -366,6 +366,7 @@ task
     
 create_task_from_def
 (
+        
 task
 parameters
 [
@@ -373,6 +374,16 @@ parameters
 level
 "
 ]
+action_tag
+=
+"
+retrigger
+-
+decision
+-
+task
+"
+    
 )
 register_callback_action
 (
@@ -1075,6 +1086,14 @@ parameters
 decision_task_id
             
 i
+            
+action_tag
+=
+"
+retrigger
+-
+task
+"
         
 )
         
@@ -1866,6 +1885,16 @@ parameters
 decision_task_id
                 
 suffix
+                
+action_tag
+=
+"
+retrigger
+-
+multiple
+-
+task
+"
             
 )
     
