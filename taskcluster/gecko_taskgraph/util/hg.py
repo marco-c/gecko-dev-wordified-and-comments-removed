@@ -646,6 +646,11 @@ def
 get_hg_commit_message
 (
 root
+rev
+=
+"
+.
+"
 )
 :
     
@@ -666,9 +671,7 @@ log
 -
 r
 "
-"
-.
-"
+rev
 "
 -
 T
