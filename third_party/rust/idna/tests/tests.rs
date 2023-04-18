@@ -1,13 +1,4 @@
-extern
-crate
-idna
-;
-extern
-crate
-serde_json
-;
-extern
-crate
+use
 rustc_test
 as
 test

@@ -3422,6 +3422,11 @@ target_arch
 "
 aarch64
 "
+target_arch
+=
+"
+riscv64
+"
 )
 )
 ]
