@@ -85,7 +85,7 @@ h
 #
 define
 DATABASE_SCHEMA_VERSION
-65
+66
 #
 define
 TOPIC_PLACES_INIT_COMPLETE
@@ -766,6 +766,11 @@ MigrateV64Up
 ;
 nsresult
 MigrateV65Up
+(
+)
+;
+nsresult
+MigrateV66Up
 (
 )
 ;

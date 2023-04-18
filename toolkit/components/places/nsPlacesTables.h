@@ -1680,8 +1680,6 @@ KEY
 "
 title
 TEXT
-NOT
-NULL
 "
 \
 "
