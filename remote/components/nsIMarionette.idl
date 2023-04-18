@@ -122,11 +122,9 @@ nsISupports
 *
 Indicates
 whether
-the
-remote
-protocol
+Marionette
 is
-enabled
+running
 .
 *
 /
