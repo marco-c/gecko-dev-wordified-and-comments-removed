@@ -702,7 +702,7 @@ default
 public
 :
 nsresult
-OpenAudioInput
+ConnectDeviceInput
 (
 CubebUtils
 :
@@ -719,7 +719,7 @@ aPrincipal
 )
 ;
 void
-CloseAudioInput
+DisconnectDeviceInput
 (
 )
 ;
