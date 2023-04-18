@@ -1136,6 +1136,26 @@ startswith
                 
 if
 l
+.
+startswith
+(
+"
+-
+l
+"
+)
+:
+                    
+l
+=
+l
+[
+2
+:
+]
+                
+if
+l
 not
 in
 os_libs
