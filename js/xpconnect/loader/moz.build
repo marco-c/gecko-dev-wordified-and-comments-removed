@@ -18,6 +18,11 @@ ComponentModuleLoader
 cpp
 "
 "
+ModuleEnvironmentProxy
+.
+cpp
+"
+"
 mozJSLoaderUtils
 .
 cpp
