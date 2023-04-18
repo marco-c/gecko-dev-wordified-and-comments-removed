@@ -1954,7 +1954,7 @@ RangeUpdater
 &
 aRangeUpdater
 const
-EditorDOMPoint
+EditorRawDOMPoint
 &
 aAtRemovingElement
 )

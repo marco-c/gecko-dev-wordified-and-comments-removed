@@ -3896,8 +3896,17 @@ false
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+EditorDOMPoint
 nsresult
+>
 RemoveContainerWithTransaction
 (
 Element
