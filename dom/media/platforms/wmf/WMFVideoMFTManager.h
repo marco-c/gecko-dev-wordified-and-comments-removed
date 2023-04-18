@@ -358,6 +358,9 @@ mDXVAEnabled
 bool
 mUseHwAccel
 ;
+bool
+mNoCopyNV12Texture
+;
 nsCString
 mDXVAFailureReason
 ;

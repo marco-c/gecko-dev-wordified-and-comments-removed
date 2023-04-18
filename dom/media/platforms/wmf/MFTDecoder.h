@@ -117,6 +117,14 @@ GetAttributes
 (
 )
 ;
+already_AddRefed
+<
+IMFAttributes
+>
+GetOutputStreamAttributes
+(
+)
+;
 HRESULT
 GetOutputMediaType
 (
