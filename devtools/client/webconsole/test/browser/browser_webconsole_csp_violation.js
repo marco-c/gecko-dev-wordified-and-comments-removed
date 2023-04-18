@@ -140,10 +140,14 @@ u201d
 const
 onRepeatedMessage
 =
-waitForRepeatedMessage
+waitForRepeatedMessageByType
 (
 hud
 CSP_VIOLATION_MSG
+"
+.
+error
+"
 2
 )
 ;

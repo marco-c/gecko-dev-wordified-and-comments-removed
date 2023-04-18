@@ -905,10 +905,11 @@ return
 ;
 }
 function
-waitForRepeatedMessage
+waitForRepeatedMessageByType
 (
 hud
 text
+typeSelector
 repeat
 )
 {
@@ -923,10 +924,11 @@ waitFor
 const
 node
 =
-findMessage
+findMessageByType
 (
 hud
 text
+typeSelector
 )
 ;
 if
