@@ -596,6 +596,7 @@ aRv
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -718,6 +719,8 @@ aRv
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+static
 already_AddRefed
 <
 Promise
@@ -1072,6 +1075,8 @@ aRv
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+static
 already_AddRefed
 <
 Promise

@@ -530,6 +530,8 @@ mSignal
 aSignal
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+static
 void
 WritableStreamDefaultControllerAdvanceQueueIfNeeded
 (
@@ -588,6 +590,7 @@ aController
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 void
 ResolvedCallback
 (
@@ -668,7 +671,10 @@ rv
 WritableStreamDefaultControllerAdvanceQueueIfNeeded
 (
 aCx
+MOZ_KnownLive
+(
 mController
+)
 rv
 )
 ;
@@ -686,6 +692,7 @@ return
 ;
 }
 }
+MOZ_CAN_RUN_SCRIPT
 void
 RejectedCallback
 (
@@ -1380,6 +1387,7 @@ FinishInFlightClose
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 RejectedCallback
 (
@@ -1473,6 +1481,8 @@ NS_INTERFACE_MAP_ENTRY
 nsISupports
 )
 NS_INTERFACE_MAP_END
+MOZ_CAN_RUN_SCRIPT
+static
 void
 WritableStreamDefaultControllerProcessClose
 (
@@ -1652,6 +1662,7 @@ aController
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 void
 ResolvedCallback
 (
@@ -1819,7 +1830,10 @@ rv
 WritableStreamDefaultControllerAdvanceQueueIfNeeded
 (
 aCx
+MOZ_KnownLive
+(
 mController
+)
 rv
 )
 ;
@@ -1838,6 +1852,7 @@ failed
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 RejectedCallback
 (
@@ -1950,6 +1965,8 @@ NS_INTERFACE_MAP_ENTRY
 nsISupports
 )
 NS_INTERFACE_MAP_END
+MOZ_CAN_RUN_SCRIPT
+static
 void
 WritableStreamDefaultControllerProcessWrite
 (
@@ -2074,6 +2091,7 @@ CLOSE_SENTINEL
 =
 JS_GENERIC_MAGIC
 ;
+static
 void
 WritableStreamDefaultControllerAdvanceQueueIfNeeded
 (
