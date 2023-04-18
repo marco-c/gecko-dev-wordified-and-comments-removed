@@ -1525,12 +1525,15 @@ __func__
 [
 processPromise
 utilityProc
+sandboxingKind
 ]
 (
 )
 {
+RefPtr
+<
 UtilityProcessParent
-*
+>
 utilityParent
 =
 utilityProc
@@ -1540,6 +1543,7 @@ utilityProc
 >
 GetProcessParent
 (
+sandboxingKind
 )
 :
 nullptr
@@ -1553,6 +1557,10 @@ return
 InitializeSandboxTestingActors
 (
 utilityParent
+.
+get
+(
+)
 processPromise
 )
 ;
