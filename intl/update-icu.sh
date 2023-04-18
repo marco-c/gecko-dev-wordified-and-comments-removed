@@ -612,6 +612,16 @@ workaround
 .
 diff
 \
+bug
+-
+1766220
+-
+ICU
+-
+21994
+.
+diff
+\
 ;
 do
 echo
