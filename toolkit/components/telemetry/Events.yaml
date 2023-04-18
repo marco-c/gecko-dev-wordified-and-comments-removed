@@ -15783,7 +15783,7 @@ firefox
 expiry_version
 :
 "
-97
+109
 "
 notification_emails
 :
@@ -15816,6 +15816,7 @@ bug_numbers
 1553311
 1607501
 1672571
+1739288
 ]
 network
 .
