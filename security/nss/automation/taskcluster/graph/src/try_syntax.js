@@ -493,9 +493,6 @@ scan
 build
 "
 "
-coverity
-"
-"
 hacl
 "
 "

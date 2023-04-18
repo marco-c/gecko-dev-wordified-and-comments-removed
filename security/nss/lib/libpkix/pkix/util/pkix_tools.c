@@ -2456,6 +2456,11 @@ plContext
 PKIX_LISTAPPENDITEMFAILED
 )
 ;
+*
+pFound
+=
+PKIX_TRUE
+;
 }
 else
 {

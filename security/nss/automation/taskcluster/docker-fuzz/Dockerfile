@@ -9,12 +9,6 @@ tests
 Used
 for
 ASAN
-and
-Coverity
-based
-static
--
-analysis
 .
 #
 Note
