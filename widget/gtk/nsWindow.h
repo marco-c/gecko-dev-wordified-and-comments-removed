@@ -507,6 +507,12 @@ endif
 namespace
 mozilla
 {
+enum
+class
+NativeKeyBindingsType
+:
+uint8_t
+;
 class
 TimeStamp
 ;
@@ -1577,6 +1583,9 @@ MOZ_CAN_RUN_SCRIPT
 bool
 GetEditCommands
 (
+mozilla
+:
+:
 NativeKeyBindingsType
 aType
 const

@@ -85,6 +85,15 @@ include
 "
 mozilla
 /
+NativeKeyBindingsType
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h

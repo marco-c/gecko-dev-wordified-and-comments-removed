@@ -45,6 +45,12 @@ _GtkWidget
 namespace
 mozilla
 {
+enum
+class
+NativeKeyBindingsType
+:
+uint8_t
+;
 class
 WritingMode
 ;
@@ -63,13 +69,6 @@ class
 NativeKeyBindings
 final
 {
-typedef
-nsIWidget
-:
-:
-NativeKeyBindingsType
-NativeKeyBindingsType
-;
 public
 :
 static

@@ -111,6 +111,15 @@ include
 "
 mozilla
 /
+NativeKeyBindingsType
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -10078,9 +10087,6 @@ nsIWidget
 :
 GetEditCommands
 (
-nsIWidget
-:
-:
 NativeKeyBindingsType
 aType
 const

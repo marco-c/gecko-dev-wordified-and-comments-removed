@@ -72,6 +72,16 @@ nsMenuBarX
 class
 ChildView
 ;
+namespace
+mozilla
+{
+enum
+class
+NativeKeyBindingsType
+:
+uint8_t
+;
+}
 typedef
 struct
 _nsCocoaWindowList
@@ -1637,6 +1647,9 @@ virtual
 bool
 GetEditCommands
 (
+mozilla
+:
+:
 NativeKeyBindingsType
 aType
 const

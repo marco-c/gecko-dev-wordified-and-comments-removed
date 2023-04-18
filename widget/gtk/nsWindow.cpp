@@ -341,6 +341,15 @@ include
 "
 mozilla
 /
+NativeKeyBindingsType
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h

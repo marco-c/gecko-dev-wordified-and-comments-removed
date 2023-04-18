@@ -30,6 +30,12 @@ h
 namespace
 mozilla
 {
+enum
+class
+NativeKeyBindingsType
+:
+uint8_t
+;
 class
 WritingMode
 ;
@@ -66,9 +72,6 @@ GetInstance
 void
 GetEditCommands
 (
-nsIWidget
-:
-:
 NativeKeyBindingsType
 aType
 const

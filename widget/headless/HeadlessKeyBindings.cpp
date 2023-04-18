@@ -28,6 +28,15 @@ include
 "
 mozilla
 /
+NativeKeyBindingsType
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WritingModes
 .
 h
@@ -103,9 +112,6 @@ HeadlessKeyBindings
 :
 GetEditCommands
 (
-nsIWidget
-:
-:
 NativeKeyBindingsType
 aType
 const
