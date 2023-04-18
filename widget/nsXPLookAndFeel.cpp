@@ -2414,6 +2414,13 @@ content
 override
 "
 _ns
+widget
+:
+:
+ThemeChangeKind
+:
+:
+Style
 }
 {
 "
