@@ -53,6 +53,13 @@ nsIAccessibleEvent
 EVENT_SELECTION
 ;
 const
+EVENT_SELECTION_WITHIN
+=
+nsIAccessibleEvent
+.
+EVENT_SELECTION_WITHIN
+;
+const
 EVENT_SHOW
 =
 nsIAccessibleEvent
