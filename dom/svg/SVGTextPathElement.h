@@ -73,8 +73,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -416,7 +416,6 @@ mPath
 ;
 }
 ;
-}
 }
 #
 endif

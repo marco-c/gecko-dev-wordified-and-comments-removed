@@ -39,8 +39,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -218,7 +218,6 @@ mLengthAttributes
 }
 }
 ;
-}
 }
 #
 endif

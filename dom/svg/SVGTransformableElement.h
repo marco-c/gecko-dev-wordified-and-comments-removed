@@ -60,8 +60,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -358,7 +358,6 @@ mAnimateMotionTransform
 ;
 }
 ;
-}
 }
 #
 endif

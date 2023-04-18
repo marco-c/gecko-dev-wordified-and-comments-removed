@@ -93,8 +93,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -1028,6 +1028,5 @@ aPoint
 -
 1
 ;
-}
 }
 }

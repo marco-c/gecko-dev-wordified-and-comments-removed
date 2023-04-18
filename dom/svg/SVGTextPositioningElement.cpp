@@ -48,8 +48,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SVGElement
@@ -328,6 +328,5 @@ this
 ROTATE
 )
 ;
-}
 }
 }

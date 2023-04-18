@@ -30,8 +30,8 @@ MLSFallback
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -118,7 +118,6 @@ mMLSProvider
 ;
 }
 ;
-}
 }
 #
 endif

@@ -200,8 +200,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -3233,6 +3233,5 @@ aRequestedDir
 return
 NS_OK
 ;
-}
 }
 }

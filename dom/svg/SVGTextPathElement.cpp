@@ -69,8 +69,8 @@ TextPath
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -674,6 +674,5 @@ sStringInfo
 )
 )
 ;
-}
 }
 }

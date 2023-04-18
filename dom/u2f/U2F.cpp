@@ -140,8 +140,8 @@ aOrigHost
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 constexpr
@@ -3072,7 +3072,6 @@ mVisibilityChanged
 =
 true
 ;
-}
 }
 }
 }

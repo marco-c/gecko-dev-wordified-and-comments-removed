@@ -66,8 +66,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsStaticAtom
@@ -1044,7 +1044,6 @@ MaybeInvalidate
 (
 )
 ;
-}
 }
 }
 }

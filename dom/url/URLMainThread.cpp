@@ -70,8 +70,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -519,6 +519,5 @@ HasDataEntry
 asciiurl
 )
 ;
-}
 }
 }

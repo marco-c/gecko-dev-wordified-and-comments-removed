@@ -37,8 +37,8 @@ Title
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -316,5 +316,4 @@ NS_IMPL_ELEMENT_CLONE_WITH_INIT
 (
 SVGTitleElement
 )
-}
 }

@@ -20,14 +20,13 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 Promise
 ;
-}
 }
 using
 mozilla

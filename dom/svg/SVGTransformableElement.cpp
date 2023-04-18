@@ -140,8 +140,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 already_AddRefed
@@ -1526,6 +1526,5 @@ GetConsolidationMatrix
 return
 result
 ;
-}
 }
 }
