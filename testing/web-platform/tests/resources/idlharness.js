@@ -5249,6 +5249,16 @@ generic
 "
 sequence
 "
+|
+|
+type
+.
+generic
+=
+=
+"
+ObservableArray
+"
 )
 {
 assert_true

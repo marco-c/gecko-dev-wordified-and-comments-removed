@@ -448,10 +448,6 @@ more
 details
 .
 [
-Pure
-Cached
-Frozen
-SetterThrows
 Pref
 =
 "
@@ -467,7 +463,7 @@ enabled
 "
 ]
 attribute
-sequence
+ObservableArray
 <
 CSSStyleSheet
 >
