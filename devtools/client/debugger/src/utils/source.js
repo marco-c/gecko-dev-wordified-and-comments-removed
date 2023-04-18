@@ -2398,10 +2398,10 @@ length
 }
 export
 function
-underRoot
+isDescendantOfRoot
 (
 source
-root
+rootUrl
 threads
 )
 {
@@ -2415,7 +2415,7 @@ thread
 {
 if
 (
-root
+rootUrl
 .
 includes
 (
@@ -2425,9 +2425,9 @@ actor
 )
 )
 {
-root
+rootUrl
 =
-root
+rootUrl
 .
 slice
 (
@@ -2486,7 +2486,7 @@ path
 .
 includes
 (
-root
+rootUrl
 )
 ;
 }
@@ -2504,7 +2504,7 @@ url
 .
 includes
 (
-root
+rootUrl
 )
 ;
 }
