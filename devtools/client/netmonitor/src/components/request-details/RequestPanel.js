@@ -974,6 +974,7 @@ requestPostData
 requestPostData
 .
 postData
+?
 .
 text
 :
