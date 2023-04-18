@@ -159,6 +159,9 @@ default
 "
 )
 ;
+await
+promiseShown
+;
 let
 cb
 =
@@ -179,9 +182,6 @@ be
 hidden
 "
 )
-;
-await
-promiseShown
 ;
 await
 clickDoorhangerButton
