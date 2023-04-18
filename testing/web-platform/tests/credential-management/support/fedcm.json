@@ -6,7 +6,7 @@ accounts_endpoint
 "
 accounts
 .
-json
+py
 "
 "
 client_metadata_endpoint
@@ -15,7 +15,7 @@ client_metadata_endpoint
 "
 client_metadata
 .
-json
+py
 "
 "
 id_token_endpoint
@@ -33,6 +33,6 @@ revocation_endpoint
 "
 revoke
 .
-json
+py
 "
 }
