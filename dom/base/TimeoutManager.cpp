@@ -1808,14 +1808,7 @@ return
 +
 mTimeoutIdCounter
 ;
-case
-Timeout
-:
-:
-Reason
-:
-:
-eAbortSignalTimeout
+default
 :
 return
 std
