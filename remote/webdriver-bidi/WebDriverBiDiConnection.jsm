@@ -286,7 +286,7 @@ null
 ;
 logger
 .
-trace
+debug
 (
 truncate
 {
@@ -447,7 +447,7 @@ null
 ;
 logger
 .
-trace
+debug
 (
 truncate
 {
