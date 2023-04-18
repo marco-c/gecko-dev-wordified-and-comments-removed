@@ -2755,7 +2755,7 @@ MOZ_ASSERT
 (
 iter
 .
-tls
+instance
 (
 )
 =
