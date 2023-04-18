@@ -3413,6 +3413,9 @@ double
 aDeltaY
 int32_t
 aModifierFlags
+nsIObserver
+*
+aObserver
 )
 =
 0

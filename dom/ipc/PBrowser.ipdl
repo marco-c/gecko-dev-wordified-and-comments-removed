@@ -1991,6 +1991,8 @@ double
 aDeltaY
 int32_t
 aModifierFlags
+uint64_t
+aObserverId
 )
 ;
 async

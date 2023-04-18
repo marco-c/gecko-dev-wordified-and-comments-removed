@@ -2537,6 +2537,10 @@ const
 int32_t
 &
 aModifierFlags
+const
+uint64_t
+&
+aObserverId
 )
 ;
 mozilla
