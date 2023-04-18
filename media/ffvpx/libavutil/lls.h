@@ -14,7 +14,7 @@ h
 #
 include
 "
-mem
+mem_internal
 .
 h
 "

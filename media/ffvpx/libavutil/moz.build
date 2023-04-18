@@ -287,6 +287,11 @@ color_utils
 c
 '
 '
+film_grain_params
+.
+c
+'
+'
 integer
 .
 c
@@ -313,6 +318,11 @@ c
 '
 '
 timecode
+.
+c
+'
+'
+video_enc_params
 .
 c
 '
