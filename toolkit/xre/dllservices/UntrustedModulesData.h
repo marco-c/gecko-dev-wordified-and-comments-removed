@@ -688,6 +688,11 @@ ProcessedModuleLoadEvent
 =
 default
 ;
+void
+SanitizeRequestedDllName
+(
+)
+;
 private
 :
 static
@@ -2749,6 +2754,13 @@ return
 false
 ;
 }
+aResult
+-
+>
+SanitizeRequestedDllName
+(
+)
+;
 if
 (
 !

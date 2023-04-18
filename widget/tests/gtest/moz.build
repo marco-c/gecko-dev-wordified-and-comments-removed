@@ -35,6 +35,11 @@ MockWinWidget
 cpp
 "
 "
+TestWinHeaderOnlyUtils
+.
+cpp
+"
+"
 TestWinWindowOcclusionTracker
 .
 cpp
