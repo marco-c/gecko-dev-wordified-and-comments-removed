@@ -4137,7 +4137,7 @@ if
 !
 aItem
 .
-iconuri
+iconUri
 )
 {
 return

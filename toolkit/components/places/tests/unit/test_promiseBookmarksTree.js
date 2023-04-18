@@ -296,7 +296,7 @@ BOOKMARK_ONLY_PROPS
 uri
 "
 "
-iconuri
+iconUri
 "
 "
 tags
@@ -741,7 +741,7 @@ aNode
 icon
 aItem
 .
-iconuri
+iconUri
 )
 ;
 }
@@ -768,7 +768,7 @@ check_unset
 (
 aItem
 .
-iconuri
+iconUri
 )
 ;
 }
