@@ -523,7 +523,7 @@ import
 gecko_taskgraph
     
 from
-gecko_taskgraph
+taskgraph
 .
 parameters
 import
@@ -717,7 +717,7 @@ None
 :
     
 from
-gecko_taskgraph
+taskgraph
 .
 parameters
 import
@@ -854,7 +854,7 @@ logdir
 :
     
 from
-gecko_taskgraph
+taskgraph
 .
 parameters
 import
@@ -1960,7 +1960,7 @@ as
 get_repository
     
 from
-gecko_taskgraph
+taskgraph
 .
 parameters
 import
