@@ -249,12 +249,6 @@ aScrollId
 )
 const
 ;
-ScreenMargin
-GetGeckoFixedLayerMargins
-(
-)
-const
-;
 void
 AssertOnSamplerThread
 (

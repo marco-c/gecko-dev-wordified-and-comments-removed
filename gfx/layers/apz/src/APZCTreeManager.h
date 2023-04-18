@@ -1048,12 +1048,6 @@ aStart
 const
 ;
 ScreenMargin
-GetGeckoFixedLayerMargins
-(
-)
-const
-;
-ScreenMargin
 GetCompositorFixedLayerMargins
 (
 )
