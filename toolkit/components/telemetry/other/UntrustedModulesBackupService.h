@@ -128,6 +128,15 @@ UntrustedModulesData
 aData
 )
 ;
+void
+AddWithoutStacks
+(
+UntrustedModulesData
+&
+&
+aData
+)
+;
 }
 ;
 class
