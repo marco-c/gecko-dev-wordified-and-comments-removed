@@ -83,6 +83,7 @@ stp_popular_topics
 props
 .
 topics
+?
 .
 map
 (
