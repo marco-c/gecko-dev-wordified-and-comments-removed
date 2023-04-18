@@ -2457,6 +2457,7 @@ Err
 )
 =
 >
+{
 return
 Err
 (
@@ -2470,6 +2471,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+}
 }
 }
 ;
@@ -2606,6 +2608,7 @@ Err
 )
 =
 >
+{
 return
 Err
 (
@@ -2619,6 +2622,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+}
 }
 ;
 let
@@ -3700,6 +3704,7 @@ Err
 )
 =
 >
+{
 return
 Err
 (
@@ -3720,6 +3725,7 @@ clone
 )
 )
 )
+}
 }
 ;
 if
