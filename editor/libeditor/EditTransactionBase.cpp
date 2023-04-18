@@ -89,7 +89,7 @@ h
 #
 include
 "
-JoinNodeTransaction
+JoinNodesTransaction
 .
 h
 "
@@ -410,7 +410,7 @@ InsertTextTransaction
 )
 NS_IMPL_EDITTRANSACTIONBASE_GETASMETHODS
 (
-JoinNodeTransaction
+JoinNodesTransaction
 )
 NS_IMPL_EDITTRANSACTIONBASE_GETASMETHODS
 (

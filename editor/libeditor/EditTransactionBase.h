@@ -110,7 +110,7 @@ class
 InsertTextTransaction
 ;
 class
-JoinNodeTransaction
+JoinNodesTransaction
 ;
 class
 LogModule
@@ -277,7 +277,7 @@ InsertTextTransaction
 )
 NS_DECL_GETASTRANSACTION_BASE
 (
-JoinNodeTransaction
+JoinNodesTransaction
 )
 NS_DECL_GETASTRANSACTION_BASE
 (

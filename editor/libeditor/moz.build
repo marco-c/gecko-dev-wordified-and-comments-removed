@@ -315,7 +315,7 @@ InternetCiter
 cpp
 "
 "
-JoinNodeTransaction
+JoinNodesTransaction
 .
 cpp
 "

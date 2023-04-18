@@ -399,7 +399,7 @@ class
 InsertTextTransaction
 ;
 class
-JoinNodeTransaction
+JoinNodesTransaction
 ;
 class
 ListElementSelectionState
@@ -6708,7 +6708,7 @@ InsertTextTransaction
 ;
 friend
 class
-JoinNodeTransaction
+JoinNodesTransaction
 ;
 friend
 class

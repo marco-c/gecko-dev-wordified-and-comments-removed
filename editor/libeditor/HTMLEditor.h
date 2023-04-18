@@ -258,7 +258,7 @@ class
 EmptyEditableFunctor
 ;
 class
-JoinNodeTransaction
+JoinNodesTransaction
 ;
 class
 ListElementSelectionState
@@ -9027,7 +9027,7 @@ EmptyEditableFunctor
 ;
 friend
 class
-JoinNodeTransaction
+JoinNodesTransaction
 ;
 friend
 class

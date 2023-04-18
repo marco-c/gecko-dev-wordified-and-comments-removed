@@ -64,7 +64,7 @@ h
 #
 include
 "
-JoinNodeTransaction
+JoinNodesTransaction
 .
 h
 "
@@ -23544,11 +23544,11 @@ Length
 ;
 RefPtr
 <
-JoinNodeTransaction
+JoinNodesTransaction
 >
 transaction
 =
-JoinNodeTransaction
+JoinNodesTransaction
 :
 :
 MaybeCreate
@@ -23571,7 +23571,7 @@ transaction
 NS_WARNING
 (
 "
-JoinNodeTransaction
+JoinNodesTransaction
 :
 :
 MaybeCreate

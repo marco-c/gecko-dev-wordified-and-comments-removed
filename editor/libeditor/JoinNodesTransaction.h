@@ -1,14 +1,12 @@
 #
 ifndef
-JoinNodeTransaction_h
+JoinNodesTransaction_h
 #
 define
-JoinNodeTransaction_h
+JoinNodesTransaction_h
 #
 include
 "
-mozilla
-/
 EditTransactionBase
 .
 h
@@ -54,7 +52,7 @@ class
 HTMLEditor
 ;
 class
-JoinNodeTransaction
+JoinNodesTransaction
 final
 :
 public
@@ -62,7 +60,7 @@ EditTransactionBase
 {
 protected
 :
-JoinNodeTransaction
+JoinNodesTransaction
 (
 HTMLEditor
 &
@@ -80,7 +78,7 @@ public
 static
 already_AddRefed
 <
-JoinNodeTransaction
+JoinNodesTransaction
 >
 MaybeCreate
 (
@@ -103,7 +101,7 @@ const
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-JoinNodeTransaction
+JoinNodesTransaction
 EditTransactionBase
 )
 NS_IMETHOD
@@ -121,7 +119,7 @@ override
 NS_DECL_EDITTRANSACTIONBASE
 NS_DECL_EDITTRANSACTIONBASE_GETASMETHODS_OVERRIDE
 (
-JoinNodeTransaction
+JoinNodesTransaction
 )
 MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
@@ -147,7 +145,7 @@ ostream
 &
 aStream
 const
-JoinNodeTransaction
+JoinNodesTransaction
 &
 aTransaction
 )
