@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+Mutex
 .
 h
 "
@@ -517,7 +517,7 @@ WebMBufferedState
 (
 )
 :
-mReentrantMonitor
+mMutex
 (
 "
 WebMBufferedState
@@ -625,8 +625,8 @@ MOZ_COUNTED_DTOR
 (
 WebMBufferedState
 )
-ReentrantMonitor
-mReentrantMonitor
+Mutex
+mMutex
 ;
 nsTArray
 <
@@ -635,14 +635,14 @@ WebMTimeDataOffset
 mTimeMapping
 GUARDED_BY
 (
-mReentrantMonitor
+mMutex
 )
 ;
 int64_t
 mLastBlockOffset
 GUARDED_BY
 (
-mReentrantMonitor
+mMutex
 )
 ;
 nsTArray
