@@ -2173,10 +2173,6 @@ suite
 "
         
 "
-e10s
-"
-        
-"
 run
 -
 on
@@ -6475,27 +6471,6 @@ yield
 task
             
 continue
-        
-if
-not
-task
-[
-"
-e10s
-"
-]
-:
-            
-continue
-        
-task
-[
-"
-e10s
-"
-]
-=
-True
         
 task
 [
