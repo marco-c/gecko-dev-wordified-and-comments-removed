@@ -769,12 +769,6 @@ uint32_t
 >
 mFront
 ;
-Maybe
-<
-uint32_t
->
-mTextureLockIsUnreliable
-;
 RefPtr
 <
 gfx
