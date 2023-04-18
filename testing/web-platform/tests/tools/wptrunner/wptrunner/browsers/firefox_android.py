@@ -413,6 +413,17 @@ e10s
 ]
             
 "
+disable_fission
+"
+:
+kwargs
+[
+"
+disable_fission
+"
+]
+            
+"
 leak_check
 "
 :
@@ -751,7 +762,7 @@ config
 test_type
 extra_prefs
                  
-enable_fission
+disable_fission
 debug_test
 browser_channel
 certutil_binary
@@ -772,7 +783,7 @@ test_type
 extra_prefs
                          
 True
-enable_fission
+disable_fission
 debug_test
 browser_channel
 None
@@ -953,6 +964,42 @@ True
             
 }
 )
+        
+profile
+.
+set_preferences
+(
+{
+"
+fission
+.
+autostart
+"
+:
+True
+}
+)
+        
+if
+self
+.
+disable_fission
+:
+            
+profile
+.
+set_preferences
+(
+{
+"
+fission
+.
+autostart
+"
+:
+False
+}
+)
 class
 FirefoxAndroidBrowser
 (
@@ -1059,6 +1106,9 @@ adb_binary
 None
                  
 debug_test
+=
+False
+disable_fission
 =
 False
 *
@@ -1216,6 +1266,12 @@ adb_binary
         
 self
 .
+disable_fission
+=
+disable_fission
+        
+self
+.
 profile_creator
 =
 ProfileCreator
@@ -1230,7 +1286,7 @@ test_type
                                               
 extra_prefs
                                               
-False
+disable_fission
                                               
 debug_test
                                               
@@ -2157,7 +2213,7 @@ e10s
 =
 False
                  
-enable_fission
+disable_fission
 =
 False
 stackfix_dir
@@ -2249,9 +2305,9 @@ e10s
 =
 e10s
                          
-enable_fission
+disable_fission
 =
-enable_fission
+disable_fission
 stackfix_dir
 =
 stackfix_dir

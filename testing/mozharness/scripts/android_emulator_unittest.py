@@ -693,7 +693,7 @@ e10s
 "
 -
 -
-enable
+disable
 -
 fission
 "
@@ -714,7 +714,7 @@ dest
 "
 :
 "
-enable_fission
+disable_fission
 "
                     
 "
@@ -729,7 +729,7 @@ help
 :
 "
 Run
-with
+without
 Fission
 enabled
 .
@@ -1172,14 +1172,14 @@ disable_e10s
         
 self
 .
-enable_fission
+disable_fission
 =
 c
 .
 get
 (
 "
-enable_fission
+disable_fission
 "
 )
         
@@ -2250,6 +2250,40 @@ level
 WARNING
 )
         
+if
+c
+[
+"
+disable_fission
+"
+]
+and
+category
+not
+in
+[
+"
+gtest
+"
+"
+cppunittest
+"
+]
+:
+            
+cmd
+.
+append
+(
+"
+-
+-
+disable
+-
+fission
+"
+)
+        
 cmd
 .
 extend
@@ -2425,27 +2459,6 @@ append
 -
 e10s
 "
-)
-        
-if
-self
-.
-enable_fission
-:
-            
-cmd
-.
-extend
-(
-[
-"
--
--
-enable
--
-fission
-"
-]
 )
         
 if
