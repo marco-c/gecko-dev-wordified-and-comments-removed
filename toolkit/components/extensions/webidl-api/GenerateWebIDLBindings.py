@@ -6698,9 +6698,13 @@ elif
 "
 unsupported
 "
-not
 in
 type_data
+:
+                        
+pass
+                    
+else
 :
                         
 logging
@@ -6812,6 +6816,9 @@ type_id
 )
                         
 continue
+                    
+assert
+type_id
                     
 type_entry
 =
