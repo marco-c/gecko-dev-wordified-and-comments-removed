@@ -456,6 +456,12 @@ chrome
 }
 browser
 -
+chromium
+:
+{
+}
+browser
+-
 servo
 :
 {
@@ -669,7 +675,7 @@ Chromium
 ToT
 browser
 :
-chrome
+chromium
 channel
 :
 nightly
@@ -1013,7 +1019,7 @@ Chromium
 ToT
 browser
 :
-chrome
+chromium
 channel
 :
 nightly

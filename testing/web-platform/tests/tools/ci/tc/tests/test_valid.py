@@ -1913,7 +1913,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -1925,7 +1925,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -1937,7 +1937,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -1949,7 +1949,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -1961,7 +1961,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -1973,7 +1973,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -1985,7 +1985,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -1997,7 +1997,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2009,7 +2009,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2021,7 +2021,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2033,7 +2033,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2045,7 +2045,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2057,7 +2057,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2069,7 +2069,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2081,7 +2081,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2093,7 +2093,7 @@ testharness
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2741,7 +2741,7 @@ reftest
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2753,7 +2753,7 @@ reftest
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2765,7 +2765,7 @@ reftest
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2777,7 +2777,7 @@ reftest
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -2789,7 +2789,7 @@ reftest
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -3005,7 +3005,7 @@ wdspec
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -3017,7 +3017,7 @@ wdspec
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -3113,7 +3113,7 @@ crashtest
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
@@ -3175,7 +3175,7 @@ reftest
 '
 wpt
 -
-chrome
+chromium
 -
 nightly
 -
