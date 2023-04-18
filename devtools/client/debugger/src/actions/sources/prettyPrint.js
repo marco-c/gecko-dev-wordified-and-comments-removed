@@ -401,12 +401,14 @@ dispatch
 type
 :
 "
-ADD_SOURCE
+ADD_SOURCES
 "
 cx
-source
+sources
 :
+[
 prettySource
+]
 }
 )
 ;
