@@ -5515,6 +5515,10 @@ if
 GetLoadingBrowsingContext
 (
 )
+&
+&
+!
+aContinueNavigating
 )
 {
 GetLoadingBrowsingContext
