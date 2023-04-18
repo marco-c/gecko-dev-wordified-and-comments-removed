@@ -1197,7 +1197,7 @@ querySelector
 "
 .
 promo
-a
+button
 "
 )
 .
@@ -1500,7 +1500,7 @@ querySelector
 "
 .
 promo
-a
+button
 "
 )
 ;

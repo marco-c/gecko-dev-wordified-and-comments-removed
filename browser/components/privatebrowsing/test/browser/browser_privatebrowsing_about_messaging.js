@@ -622,7 +622,7 @@ querySelector
 "
 .
 promo
-a
+button
 "
 )
 .
@@ -837,7 +837,7 @@ querySelector
 "
 .
 promo
-a
+button
 "
 )
 .
@@ -914,7 +914,7 @@ querySelector
 "
 .
 promo
-a
+button
 "
 )
 .
@@ -989,7 +989,7 @@ querySelector
 "
 .
 promo
-a
+button
 "
 )
 null
@@ -1207,7 +1207,7 @@ querySelector
 "
 .
 promo
-a
+button
 "
 )
 .
@@ -1300,7 +1300,7 @@ querySelector
 "
 .
 promo
-a
+button
 "
 )
 null
