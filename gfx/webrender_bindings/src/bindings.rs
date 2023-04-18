@@ -363,8 +363,8 @@ Shaders
 SharedShaders
 TextureCacheConfig
 UploadMethod
-ONE_TIME_USAGE_HINT
 WindowVisibility
+ONE_TIME_USAGE_HINT
 }
 ;
 use

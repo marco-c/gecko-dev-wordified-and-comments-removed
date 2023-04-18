@@ -4126,7 +4126,6 @@ stream_id
 }
 =
 >
-{
 Http3Event
 :
 :
@@ -4140,7 +4139,6 @@ as_u64
 (
 )
 }
-}
 Http3ClientEvent
 :
 :
@@ -4151,7 +4149,6 @@ error
 }
 =
 >
-{
 Http3Event
 :
 :
@@ -4165,7 +4162,6 @@ as_u64
 (
 )
 error
-}
 }
 Http3ClientEvent
 :
@@ -4234,7 +4230,6 @@ stream_id
 }
 =
 >
-{
 Http3Event
 :
 :
@@ -4247,7 +4242,6 @@ stream_id
 as_u64
 (
 )
-}
 }
 Http3ClientEvent
 :
