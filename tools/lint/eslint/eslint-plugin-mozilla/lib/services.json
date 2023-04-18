@@ -133,6 +133,13 @@ nsIEventListenerService
 els
 "
 "
+nsIFOG
+"
+:
+"
+fog
+"
+"
 nsIFocusManager
 "
 :
