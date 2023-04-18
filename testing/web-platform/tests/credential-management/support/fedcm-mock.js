@@ -1,6 +1,5 @@
 import
 {
-RequestMode
 RequestIdTokenStatus
 LogoutRpsStatus
 RevokeStatus
@@ -326,7 +325,6 @@ requestIdToken
 (
 provider
 idRequest
-mode
 )
 {
 if
