@@ -382,9 +382,9 @@ expectedAnswer
 )
 ;
 let
-[
-status
-]
+{
+inStatus
+}
 =
 await
 new
@@ -411,7 +411,7 @@ false
 ;
 equal
 (
-status
+inStatus
 Cr
 .
 NS_ERROR_UNKNOWN_HOST
@@ -561,9 +561,9 @@ expectedAnswer
 )
 ;
 let
-[
-status
-]
+{
+inStatus
+}
 =
 await
 new
@@ -590,7 +590,7 @@ false
 ;
 equal
 (
-status
+inStatus
 Cr
 .
 NS_ERROR_UNKNOWN_HOST
@@ -709,9 +709,9 @@ data
 )
 ;
 let
-[
-status
-]
+{
+inStatus
+}
 =
 await
 new
@@ -738,7 +738,7 @@ false
 ;
 equal
 (
-status
+inStatus
 Cr
 .
 NS_ERROR_UNKNOWN_HOST

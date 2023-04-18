@@ -585,9 +585,9 @@ data
 )
 ;
 let
-[
+{
 inRecord
-]
+}
 =
 await
 new

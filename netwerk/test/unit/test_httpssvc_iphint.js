@@ -524,9 +524,9 @@ fe80
 )
 ;
 let
-[
+{
 inRecord
-]
+}
 =
 await
 new
@@ -858,9 +858,9 @@ answer
 )
 {
 let
-[
+{
 inRecord
-]
+}
 =
 await
 new
@@ -1229,9 +1229,9 @@ httpssvc_use_iphint
 )
 ;
 let
-[
+{
 inStatus
-]
+}
 =
 await
 new
@@ -1612,9 +1612,9 @@ value
 )
 ;
 let
-[
+{
 inRecord
-]
+}
 =
 await
 new
