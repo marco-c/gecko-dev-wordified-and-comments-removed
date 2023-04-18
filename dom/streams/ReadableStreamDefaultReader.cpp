@@ -1746,9 +1746,6 @@ aRv
 void
 SetUpReadableStreamDefaultReader
 (
-JSContext
-*
-aCx
 ReadableStreamDefaultReader
 *
 aReader

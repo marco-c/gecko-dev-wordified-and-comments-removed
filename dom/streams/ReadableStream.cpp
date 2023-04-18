@@ -2210,7 +2210,6 @@ GetParentObject
 ;
 SetUpReadableStreamDefaultReader
 (
-aCx
 reader
 aStream
 aRv
