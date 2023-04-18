@@ -575,6 +575,11 @@ TestAvailableMemoryWatcherMac
 .
 cpp
 "
+"
+TestMacNSURLEscaping
+.
+mm
+"
 ]
 if
 (
