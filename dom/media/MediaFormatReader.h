@@ -569,6 +569,13 @@ NotifyDataArrived
 (
 )
 ;
+void
+UpdateMediaEngineId
+(
+uint64_t
+aMediaEngineId
+)
+;
 protected
 :
 void
@@ -3184,6 +3191,12 @@ MediaFormatReaderDebugInfo
 &
 aInfo
 )
+;
+Maybe
+<
+uint64_t
+>
+mMediaEngineId
 ;
 }
 ;
