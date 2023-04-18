@@ -1206,13 +1206,6 @@ Kind
 kind
 )
 {
-fr
-.
-loadTlsPtr
-(
-WasmTlsReg
-)
-;
 masm
 .
 nopPatchableToCall
