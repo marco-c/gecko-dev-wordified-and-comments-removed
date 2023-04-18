@@ -5001,6 +5001,16 @@ session
 =
 =
 null
+|
+|
+environmentType
+=
+=
+WebExtension
+.
+MessageSender
+.
+ENV_TYPE_EXTENSION
 )
 {
 isTopLevel
