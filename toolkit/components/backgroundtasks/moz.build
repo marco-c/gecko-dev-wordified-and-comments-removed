@@ -299,6 +299,13 @@ jsm
 "
 tests
 /
+BackgroundTask_file_exists
+.
+jsm
+"
+"
+tests
+/
 BackgroundTask_policies
 .
 jsm
