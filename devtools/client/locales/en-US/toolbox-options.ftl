@@ -433,6 +433,17 @@ color
 -
 unit
 -
+hwb
+=
+HWB
+options
+-
+default
+-
+color
+-
+unit
+-
 name
 =
 Color

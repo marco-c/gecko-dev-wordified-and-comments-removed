@@ -57,6 +57,7 @@ name
 hex
 hsl
 rgb
+hwb
 cycle
 }
 )
@@ -104,6 +105,15 @@ rgb
 cycle
 )
 ;
+const
+hwbCycled
+=
+runCycle
+(
+hwb
+cycle
+)
+;
 ok
 (
 nameCycled
@@ -116,6 +126,9 @@ hslCycled
 &
 &
 rgbCycled
+&
+&
+hwbCycled
 {
 authored
 }

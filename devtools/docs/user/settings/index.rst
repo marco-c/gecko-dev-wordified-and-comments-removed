@@ -941,6 +941,8 @@ RGB
 A
 )
 -
+HWB
+-
 color
 name
 -
