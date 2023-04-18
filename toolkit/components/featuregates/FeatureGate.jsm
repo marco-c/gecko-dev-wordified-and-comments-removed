@@ -78,18 +78,6 @@ jsm
 "
 )
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-fetch
-"
-]
-)
-;
 var
 EXPORTED_SYMBOLS
 =
@@ -148,8 +136,6 @@ const
 res
 =
 await
-lazy
-.
 fetch
 (
 url

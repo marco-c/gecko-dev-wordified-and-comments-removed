@@ -244,18 +244,6 @@ getFxAccountsSingleton
 }
 )
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-fetch
-"
-]
-)
-;
 const
 AUTOCONFIG_PREF
 =
@@ -1136,8 +1124,6 @@ let
 resp
 =
 await
-lazy
-.
 fetch
 (
 restmailURI

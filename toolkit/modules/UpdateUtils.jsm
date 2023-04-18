@@ -148,18 +148,6 @@ jsm
 }
 )
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-fetch
-"
-]
-)
-;
 const
 PER_INSTALLATION_PREFS_PLATFORMS
 =
@@ -614,8 +602,6 @@ try
 data
 =
 await
-lazy
-.
 fetch
 (
 url

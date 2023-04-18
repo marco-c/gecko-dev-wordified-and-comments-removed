@@ -96,18 +96,6 @@ MARIONETTE
 )
 )
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-crypto
-"
-]
-)
-;
 const
 CONTEXT_2D
 =
@@ -623,8 +611,6 @@ u
 )
 ;
 return
-lazy
-.
 crypto
 .
 subtle

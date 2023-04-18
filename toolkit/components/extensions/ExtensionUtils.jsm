@@ -91,18 +91,6 @@ jsm
 ;
 XPCOMUtils
 .
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-fetch
-"
-]
-)
-;
-XPCOMUtils
-.
 defineLazyGetter
 (
 lazy
@@ -1141,8 +1129,6 @@ try
 response
 =
 await
-lazy
-.
 fetch
 (
 iconUrl

@@ -83,18 +83,6 @@ lazy
 ;
 XPCOMUtils
 .
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-fetch
-"
-]
-)
-;
-XPCOMUtils
-.
 defineLazyModuleGetters
 (
 lazy
@@ -1110,8 +1098,6 @@ try
 response
 =
 await
-lazy
-.
 fetch
 (
 provider
