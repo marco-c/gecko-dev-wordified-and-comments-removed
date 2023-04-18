@@ -326,12 +326,6 @@ kOutputFormatNative
 ;
 const
 short
-kOutputFormatPS
-=
-1
-;
-const
-short
 kOutputFormatPDF
 =
 2
