@@ -1,5 +1,5 @@
 use
-super
+crate
 :
 :
 metrics
@@ -12,6 +12,7 @@ PingType
 derive
 (
 Debug
+Clone
 )
 ]
 pub

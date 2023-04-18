@@ -283,7 +283,7 @@ extra
 :
 HashMap
 <
-i32
+String
 String
 >
 )
@@ -305,6 +305,7 @@ record_with_time
 now
 extra
 )
+;
 }
 pub
 (
@@ -322,7 +323,7 @@ extra
 :
 HashMap
 <
-i32
+String
 String
 >
 )
@@ -435,9 +436,6 @@ v
 #
 [
 inherent
-(
-pub
-)
 ]
 impl
 <
@@ -464,6 +462,7 @@ Extra
 =
 K
 ;
+pub
 fn
 record
 <
@@ -573,6 +572,7 @@ extra
 }
 }
 }
+pub
 fn
 test_get_value
 <
@@ -660,6 +660,7 @@ process
 }
 }
 }
+pub
 fn
 test_get_num_recorded_errors
 <

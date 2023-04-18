@@ -1,9 +1,12 @@
 #
 [
-macro_use
+cfg
+(
+test
+)
 ]
 mod
-macros
+tests
 ;
 pub
 mod

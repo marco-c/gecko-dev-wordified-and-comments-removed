@@ -494,7 +494,7 @@ to_report
 ;
 metric
 .
-add
+add_sync
 (
 glean
 to_report
@@ -559,10 +559,13 @@ error
 ;
 metric
 .
-test_get_value
+get_value
 (
 glean
+Some
+(
 use_ping_name
+)
 )
 .
 ok_or_else

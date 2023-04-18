@@ -106,7 +106,6 @@ tempdir
 dir
 ;
 let
-mut
 metric
 =
 TimespanMetric
@@ -194,7 +193,7 @@ val
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -327,7 +326,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimespanMetric
@@ -420,7 +418,7 @@ val
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -476,7 +474,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimespanMetric
@@ -593,7 +590,7 @@ first_value
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -638,7 +635,7 @@ second_value
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -704,7 +701,6 @@ None
 )
 ;
 let
-mut
 ns_metric
 =
 TimespanMetric
@@ -770,7 +766,6 @@ Nanosecond
 )
 ;
 let
-mut
 minute_metric
 =
 TimespanMetric
@@ -863,7 +858,7 @@ ns_value
 =
 ns_metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -913,7 +908,7 @@ minute_value
 =
 minute_metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -955,7 +950,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimespanMetric
@@ -1041,7 +1035,7 @@ assert_eq
 None
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1073,7 +1067,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimespanMetric
@@ -1158,7 +1151,7 @@ assert_eq
 None
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1183,7 +1176,7 @@ assert_eq
 duration
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1296,7 +1289,7 @@ from_secs
 ;
 metric
 .
-set_raw
+set_raw_sync
 (
 &
 glean
@@ -1323,7 +1316,7 @@ time_in_ns
 )
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1355,7 +1348,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimespanMetric
@@ -1442,7 +1434,7 @@ glean
 ;
 metric
 .
-set_raw
+set_raw_sync
 (
 &
 glean
@@ -1467,7 +1459,7 @@ Some
 )
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1524,7 +1516,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimespanMetric
@@ -1645,7 +1636,7 @@ assert_eq
 None
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1701,7 +1692,6 @@ None
 )
 ;
 let
-mut
 metric
 :
 TimespanMetric
@@ -1782,7 +1772,7 @@ assert
 (
 metric
 .
-test_get_value
+get_value
 (
 &
 glean

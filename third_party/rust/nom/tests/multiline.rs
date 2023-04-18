@@ -1,7 +1,3 @@
-extern
-crate
-nom
-;
 use
 nom
 :

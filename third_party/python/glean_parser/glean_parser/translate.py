@@ -390,14 +390,28 @@ Any
 }
     
 for
+(
+category_name
 category_val
+)
 in
 objects
 .
-values
+items
 (
 )
 :
+        
+if
+category_name
+=
+=
+"
+tags
+"
+:
+            
+continue
         
 for
 metric
@@ -479,12 +493,12 @@ denominator_name
 .
 append
 (
-fqmn
+metric
 )
     
 for
 denominator_name
-numerator_names
+numerators
 in
 numerators_by_denominator
 .
@@ -500,7 +514,8 @@ in
 counters
 :
             
-print
+raise
+ValueError
 (
                 
 f
@@ -522,7 +537,7 @@ as
 denominator
 for
 {
-numerator_names
+numerators
 }
 "
                 
@@ -533,9 +548,17 @@ sys
 stderr
             
 )
-            
-return
-1
+        
+counters
+[
+denominator_name
+]
+.
+__class__
+=
+metrics
+.
+Denominator
         
 counters
 [
@@ -555,7 +578,7 @@ denominator_name
 .
 numerators
 =
-numerator_names
+numerators
 def
 translate_metrics
 (
@@ -1019,6 +1042,13 @@ pop
 tags
 "
 None
+)
+    
+transform_metrics
+(
+all_objects
+.
+value
 )
     
 with

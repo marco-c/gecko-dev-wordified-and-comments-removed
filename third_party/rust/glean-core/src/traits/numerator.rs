@@ -4,6 +4,12 @@ crate
 :
 ErrorType
 ;
+use
+crate
+:
+:
+Rate
+;
 pub
 trait
 Numerator
@@ -47,10 +53,7 @@ S
 >
 Option
 <
-(
-i32
-i32
-)
+Rate
 >
 ;
 fn

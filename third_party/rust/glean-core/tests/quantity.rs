@@ -154,7 +154,7 @@ default
 ;
 metric
 .
-set
+set_sync
 (
 &
 glean
@@ -377,7 +377,7 @@ default
 ;
 metric
 .
-set
+set_sync
 (
 &
 glean
@@ -520,7 +520,7 @@ default
 ;
 metric
 .
-set
+set_sync
 (
 &
 glean
@@ -533,7 +533,7 @@ assert
 (
 metric
 .
-test_get_value
+get_value
 (
 &
 glean

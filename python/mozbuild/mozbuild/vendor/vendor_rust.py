@@ -414,6 +414,12 @@ tokio
 "
 :
 2
+    
+"
+nom
+"
+:
+2
 }
 class
 VendorRust

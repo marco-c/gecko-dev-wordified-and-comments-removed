@@ -10,7 +10,9 @@ impl
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 not
 -
@@ -50,9 +52,10 @@ this
 error
 originates
 in
-an
+the
 attribute
 macro
+inherent
 (
 in
 Nightly

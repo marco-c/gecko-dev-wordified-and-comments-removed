@@ -120,7 +120,7 @@ default
 ;
 uuid
 .
-generate_and_set
+generate_and_set_sync
 (
 &
 glean
@@ -171,7 +171,7 @@ snapshot
 ;
 uuid
 .
-generate_and_set
+generate_and_set_sync
 (
 &
 glean
@@ -336,7 +336,7 @@ default
 ;
 metric
 .
-set
+set_from_uuid_sync
 (
 &
 glean
@@ -580,7 +580,7 @@ default
 ;
 metric
 .
-set
+set_from_uuid_sync
 (
 &
 glean

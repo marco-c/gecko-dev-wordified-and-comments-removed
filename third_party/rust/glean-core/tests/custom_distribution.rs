@@ -170,7 +170,7 @@ Linear
 ;
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -186,7 +186,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -393,7 +393,7 @@ Linear
 ;
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -583,7 +583,7 @@ Linear
 ;
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -603,7 +603,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -790,7 +790,7 @@ Linear
 ;
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -812,7 +812,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -999,7 +999,7 @@ Linear
 ;
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -1015,7 +1015,7 @@ snapshot
 =
 metric
 .
-test_get_value_as_json_string
+get_value
 (
 &
 glean
@@ -1154,7 +1154,7 @@ Exponential
 ;
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -1170,7 +1170,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1377,7 +1377,7 @@ Exponential
 ;
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -1567,7 +1567,7 @@ Exponential
 ;
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -1587,7 +1587,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1774,7 +1774,7 @@ Exponential
 ;
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -1796,7 +1796,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1983,7 +1983,7 @@ Exponential
 ;
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -1999,7 +1999,7 @@ snapshot
 =
 metric
 .
-test_get_value_as_json_string
+get_value
 (
 &
 glean

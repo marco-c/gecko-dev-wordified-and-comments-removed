@@ -75,13 +75,6 @@ delay_ping_lifetime_io
 :
 bool
 pub
-channel
-:
-Option
-<
-String
->
-pub
 server_endpoint
 :
 Option

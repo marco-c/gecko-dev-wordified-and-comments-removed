@@ -199,9 +199,6 @@ None
 delay_ping_lifetime_io
 :
 false
-channel
-:
-None
 server_endpoint
 :
 None
@@ -245,6 +242,9 @@ app_display_version
 into
 (
 )
+channel
+:
+None
 }
 ;
 glean

@@ -187,15 +187,13 @@ id
 #
 [
 inherent
-(
-pub
-)
 ]
 impl
 Counter
 for
 LabeledCounterMetric
 {
+pub
 fn
 add
 (
@@ -338,6 +336,7 @@ map
 }
 }
 }
+pub
 fn
 test_get_value
 <
@@ -425,6 +424,7 @@ id
 }
 }
 }
+pub
 fn
 test_get_num_recorded_errors
 <

@@ -1,7 +1,3 @@
-extern
-crate
-nom
-;
 use
 nom
 :
@@ -200,6 +196,9 @@ char
 )
 factor
 )
+move
+|
+|
 init
 |
 acc
@@ -290,6 +289,9 @@ char
 )
 term
 )
+move
+|
+|
 init
 |
 acc

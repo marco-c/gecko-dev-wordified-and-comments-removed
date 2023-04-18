@@ -552,7 +552,7 @@ telExtras
 impl
 :
 :
-fog_event_record_str
+fog_event_record
 (
 mEvent
 .

@@ -1,10 +1,3 @@
-#
-[
-macro_use
-]
-mod
-macros
-;
 pub
 mod
 complete
@@ -12,4 +5,14 @@ complete
 pub
 mod
 streaming
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+tests
 ;

@@ -110,9 +110,9 @@ glean
 version
 =
 "
-44
+50
 .
-1
+0
 .
 1
 "
@@ -268,9 +268,9 @@ core
 version
 =
 "
-44
+50
 .
-1
+0
 .
 1
 "
@@ -282,11 +282,7 @@ inherent
 version
 =
 "
-0
-.
 1
-.
-4
 "
 [
 dependencies

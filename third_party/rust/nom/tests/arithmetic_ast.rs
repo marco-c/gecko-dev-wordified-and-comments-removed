@@ -1,7 +1,3 @@
-extern
-crate
-nom
-;
 use
 std
 :
@@ -172,6 +168,10 @@ format
 &
 mut
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -338,6 +338,10 @@ format
 &
 mut
 Formatter
+<
+'
+_
+>
 )
 -
 >

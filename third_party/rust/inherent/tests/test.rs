@@ -38,15 +38,13 @@ Struct
 #
 [
 inherent
-(
-pub
-)
 ]
 impl
 Trait
 for
 Struct
 {
+pub
 fn
 f
 <
@@ -60,9 +58,7 @@ self
 )
 {
 }
-default
-!
-{
+pub
 fn
 g
 (
@@ -70,7 +66,6 @@ g
 self
 )
 ;
-}
 }
 }
 #

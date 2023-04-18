@@ -259,17 +259,6 @@ i
 +
 )
 {
-auto
-extraString
-=
-ExtraStringForKey
-(
-keys
-[
-i
-]
-)
-;
 extras
 .
 EmplaceBack
@@ -279,7 +268,10 @@ Telemetry
 :
 EventExtraEntry
 {
-extraString
+keys
+[
+i
+]
 values
 [
 i
@@ -360,7 +352,7 @@ else
 {
 nsTArray
 <
-uint32_t
+nsCString
 >
 keys
 ;
@@ -642,7 +634,7 @@ Tuple
 <
 nsTArray
 <
-uint32_t
+nsCString
 >
 nsTArray
 <
@@ -656,7 +648,7 @@ const
 {
 nsTArray
 <
-uint32_t
+nsCString
 >
 extraKeys
 ;

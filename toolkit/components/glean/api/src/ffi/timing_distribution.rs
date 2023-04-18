@@ -62,6 +62,8 @@ metric
 start
 (
 )
+.
+id
 )
 }
 #
@@ -95,6 +97,10 @@ metric
 stop_and_accumulate
 (
 timing_id
+.
+into
+(
+)
 )
 )
 ;
@@ -171,6 +177,10 @@ metric
 cancel
 (
 timing_id
+.
+into
+(
+)
 )
 )
 ;
@@ -278,6 +288,8 @@ sum
 val
 .
 sum
+as
+_
 ;
 for
 (
@@ -300,6 +312,8 @@ buckets
 push
 (
 bucket
+as
+_
 )
 ;
 counts
@@ -307,6 +321,8 @@ counts
 push
 (
 count
+as
+_
 )
 ;
 }

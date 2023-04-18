@@ -282,18 +282,6 @@ None
 delay_ping_lifetime_io
 :
 false
-channel
-:
-Some
-(
-"
-testing
-"
-.
-into
-(
-)
-)
 server_endpoint
 :
 Some
@@ -386,7 +374,7 @@ assert
 val
 >
 =
-1010
+10
 )
 ;
 glean

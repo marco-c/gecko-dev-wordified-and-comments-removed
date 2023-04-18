@@ -10,10 +10,6 @@ alloc
 "
 )
 ]
-extern
-crate
-nom
-;
 use
 nom
 :
@@ -567,8 +563,6 @@ String
 :
 :
 new
-(
-)
 |
 mut
 string
