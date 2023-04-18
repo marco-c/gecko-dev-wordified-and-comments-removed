@@ -78,6 +78,9 @@ mozilla
 intl
 {
 class
+DisplayNames
+;
+class
 DateTimePatternGenerator
 final
 {
@@ -368,9 +371,15 @@ length
 }
 ;
 }
+private
+:
+friend
+class
+DisplayNames
+;
 UDateTimePatternGenerator
 *
-UnsafeGetUDateTimePatternGenerator
+GetUDateTimePatternGenerator
 (
 )
 {
@@ -382,8 +391,6 @@ GetMut
 )
 ;
 }
-private
-:
 ICUPointer
 <
 UDateTimePatternGenerator

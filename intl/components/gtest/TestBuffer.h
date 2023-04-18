@@ -321,6 +321,11 @@ return
 result
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 verboseMatches
 (

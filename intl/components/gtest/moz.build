@@ -33,6 +33,11 @@ TestDateTimeFormat
 cpp
 "
 "
+TestDisplayNames
+.
+cpp
+"
+"
 TestIDNA
 .
 cpp
