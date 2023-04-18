@@ -507,6 +507,12 @@ NeedsToAssociateIMC
 )
 ;
 static
+bool
+NeedsSearchInputScope
+(
+)
+;
+static
 void
 ShowOnScreenKeyboard
 (

@@ -1419,6 +1419,12 @@ IsGoogleJapaneseInputActive
 ;
 static
 bool
+IsATOKActive
+(
+)
+;
+static
+bool
 ShouldSetInputScopeOfURLBarToDefault
 (
 )
