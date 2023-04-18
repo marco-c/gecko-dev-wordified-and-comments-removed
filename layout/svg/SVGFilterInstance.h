@@ -135,7 +135,10 @@ gfxRect
 &
 aTargetBBox
 const
-gfxSize
+gfx
+:
+:
+MatrixScalesDouble
 &
 aUserSpaceToFilterSpaceScale
 )
@@ -400,7 +403,10 @@ mTargetBBox
 nsIntRect
 mFilterSpaceBounds
 ;
-gfxSize
+gfx
+:
+:
+MatrixScalesDouble
 mUserSpaceToFilterSpaceScale
 ;
 uint16_t
