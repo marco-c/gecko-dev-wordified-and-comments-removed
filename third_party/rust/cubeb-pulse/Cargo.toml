@@ -117,10 +117,9 @@ rs
 semver
 =
 "
-^
-0
+1
 .
-9
+0
 "
 ringbuf
 =
