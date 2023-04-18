@@ -1560,13 +1560,13 @@ if
 (
 this
 .
-attach
+morphWorkerDescriptorIntoWorkerTarget
 )
 {
 await
 this
 .
-attach
+morphWorkerDescriptorIntoWorkerTarget
 (
 )
 ;

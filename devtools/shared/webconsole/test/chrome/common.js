@@ -461,7 +461,7 @@ null
 await
 target
 .
-attach
+morphWorkerDescriptorIntoWorkerTarget
 (
 )
 ;
