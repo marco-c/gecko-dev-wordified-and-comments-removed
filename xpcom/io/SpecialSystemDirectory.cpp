@@ -2687,6 +2687,8 @@ aFile
 )
 ;
 }
+break
+;
 }
 case
 Win_Programs

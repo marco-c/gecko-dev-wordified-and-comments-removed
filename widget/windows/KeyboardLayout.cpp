@@ -8927,6 +8927,12 @@ location
 "
 )
 ;
+[
+[
+fallthrough
+]
+]
+;
 default
 :
 return

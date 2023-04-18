@@ -927,6 +927,12 @@ hEvent
 )
 break
 ;
+[
+[
+fallthrough
+]
+]
+;
 default
 :
 ADD_FAILURE

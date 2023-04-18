@@ -3200,6 +3200,12 @@ lineOrPageDelta
 -
 1
 ;
+[
+[
+fallthrough
+]
+]
+;
 case
 SB_PAGEDOWN
 :
@@ -3231,6 +3237,12 @@ lineOrPageDelta
 =
 -
 1
+;
+[
+[
+fallthrough
+]
+]
 ;
 case
 SB_LINEDOWN

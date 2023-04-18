@@ -450,9 +450,6 @@ Wimplicit
 fallthrough
 "
 cxx_compiler
-when
-=
-not_clang_cl
 )
 with
 only_when
