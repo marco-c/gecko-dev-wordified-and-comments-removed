@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventDispatcher
 :
@@ -189,6 +195,8 @@ support
 }
 ;
 return
+lazy
+.
 EventDispatcher
 .
 instance
@@ -325,6 +333,8 @@ browser
 ownerGlobal
 ;
 await
+lazy
+.
 GeckoViewTabBridge
 .
 closeTab
@@ -352,6 +362,8 @@ const
 tab
 =
 await
+lazy
+.
 GeckoViewTabBridge
 .
 createNewTab
@@ -423,6 +435,8 @@ browser
 .
 ownerGlobal
 ;
+lazy
+.
 mobileWindowTracker
 .
 setTabActive
