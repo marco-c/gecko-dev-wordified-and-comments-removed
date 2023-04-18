@@ -32,12 +32,6 @@ conversion
 utils
 .
 h
-index
-c72c333f020a1
-.
-.
-6022132e2b495
-100644
 -
 -
 -
@@ -142,7 +136,6 @@ assert
 (
 condition
 )
-;
 +
 MOZ_ASSERT
 (

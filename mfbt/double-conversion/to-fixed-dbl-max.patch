@@ -40,12 +40,6 @@ to
 string
 .
 cc
-index
-9255bce1713e9
-.
-.
-30b15a829a25a
-100644
 -
 -
 -
@@ -100,8 +94,7 @@ bool
 DoubleToStringConverter
 :
 :
-ToShortestIeeeNumber
-(
+ToShortest
 }
 return
 true
@@ -274,12 +267,6 @@ to
 string
 .
 h
-index
-52d7986fe9048
-.
-.
-5e1c182b6b6a2
-100644
 -
 -
 -
@@ -387,7 +374,7 @@ const
 int
 kMaxFixedDigitsAfterPoint
 =
-60
+100
 ;
 /
 /
