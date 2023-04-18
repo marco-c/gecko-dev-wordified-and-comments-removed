@@ -231,6 +231,17 @@ MAPVK_VK_TO_VSC_EX
 )
 #
 endif
+mozilla
+:
+:
+LazyLogModule
+gKeyLog
+(
+"
+KeyboardHandler
+"
+)
+;
 namespace
 mozilla
 {
@@ -6017,14 +6028,6 @@ sLastKeyMSG
 {
 }
 ;
-LazyLogModule
-sNativeKeyLogger
-(
-"
-NativeKeyWidgets
-"
-)
-;
 NativeKey
 :
 :
@@ -6171,7 +6174,7 @@ nullptr
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -6354,7 +6357,7 @@ InitWithKeyOrChar
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -7173,7 +7176,7 @@ mReceivedMsg
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -7418,7 +7421,7 @@ continue
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -7731,7 +7734,7 @@ NativeKey
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -8684,7 +8687,7 @@ continue
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -9337,7 +9340,7 @@ NotifyIdleServiceOfUserActivity
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -9768,7 +9771,7 @@ default
 :
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -9818,7 +9821,7 @@ appCommandEvent
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -9879,7 +9882,7 @@ Destroyed
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -9956,7 +9959,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10064,7 +10067,7 @@ rv
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10099,7 +10102,7 @@ true
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10146,7 +10149,7 @@ mModKeyState
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10200,7 +10203,7 @@ this
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10241,7 +10244,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10291,7 +10294,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10494,7 +10497,7 @@ mWidget
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10536,7 +10539,7 @@ contentCommandEvent
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10580,7 +10583,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10622,7 +10625,7 @@ else
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10698,7 +10701,7 @@ rv
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10733,7 +10736,7 @@ true
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10780,7 +10783,7 @@ mModKeyState
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10828,7 +10831,7 @@ this
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10863,7 +10866,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -10948,7 +10951,7 @@ sDispatchedKeyOfAppCommand
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11016,7 +11019,7 @@ IsReservedBySystem
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11088,7 +11091,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11184,7 +11187,7 @@ rv
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11235,7 +11238,7 @@ GetInputContext
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11282,7 +11285,7 @@ mModKeyState
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11348,7 +11351,7 @@ dispatched
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11415,7 +11418,7 @@ IsFocusedWindowChanged
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11449,7 +11452,7 @@ true
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11613,7 +11616,7 @@ defaultPrevented
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11662,7 +11665,7 @@ keyinput
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11702,7 +11705,7 @@ else
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11790,7 +11793,7 @@ IsFollowedByPrintableCharOrSysCharMessage
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11845,7 +11848,7 @@ defaultPrevented
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11916,7 +11919,7 @@ IsFollowedByPrintableCharOrSysCharMessage
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -11966,7 +11969,7 @@ NeedsToHandleWithoutFollowingCharMessages
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12013,7 +12016,7 @@ VK_PACKET
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12087,7 +12090,7 @@ mIsPrintableKey
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12147,7 +12150,7 @@ mIsDeadKey
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12194,7 +12197,7 @@ false
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12338,7 +12341,7 @@ IsAnotherInstanceRemovingCharMessage
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12390,7 +12393,7 @@ IsReservedBySystem
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12443,7 +12446,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12494,7 +12497,7 @@ aCharMsg
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12597,7 +12600,7 @@ rv
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12632,7 +12635,7 @@ true
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12709,7 +12712,7 @@ modKeyState
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12778,7 +12781,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12820,7 +12823,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12904,7 +12907,7 @@ IsReservedBySystem
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -12957,7 +12960,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -13014,7 +13017,7 @@ rv
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -13049,7 +13052,7 @@ true
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -13094,7 +13097,7 @@ mModKeyState
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -13164,7 +13167,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -13206,7 +13209,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -13846,11 +13849,11 @@ nextKeyMsg
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
-Verbose
+Debug
 (
 "
 %
@@ -13986,7 +13989,7 @@ hwnd
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -14110,7 +14113,7 @@ lParam
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -14201,11 +14204,11 @@ else
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
-Verbose
+Debug
 (
 "
 %
@@ -14221,8 +14224,6 @@ to
 "
 "
 retrieve
-"
-"
 next
 char
 message
@@ -14290,7 +14291,7 @@ PM_NOYIELD
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -14377,7 +14378,7 @@ nextKeyMsgInAllWindows
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -14465,7 +14466,7 @@ nextKeyMsgInAllWindows
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -14575,7 +14576,7 @@ kFoundCharMsg
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -14691,7 +14692,7 @@ message
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -14807,7 +14808,7 @@ message
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -14883,7 +14884,7 @@ i
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -14941,7 +14942,7 @@ false
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -15234,7 +15235,7 @@ WM_NULL
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -15307,7 +15308,7 @@ PM_NOYIELD
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -15404,7 +15405,7 @@ newNextKeyMsg
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -15504,7 +15505,7 @@ false
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -15568,7 +15569,7 @@ wParam
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -15639,11 +15640,11 @@ removedMsg
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
-Verbose
+Debug
 (
 "
 %
@@ -15704,7 +15705,7 @@ removedMsg
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -15824,7 +15825,7 @@ removedMsg
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -15928,7 +15929,7 @@ true
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -16295,7 +16296,7 @@ message
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -16894,7 +16895,7 @@ rv
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -16937,7 +16938,7 @@ mWidget
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -17013,7 +17014,7 @@ modKeyState
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -17077,7 +17078,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -17122,7 +17123,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -17234,7 +17235,7 @@ rv
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -17309,7 +17310,7 @@ mDOMKeyCode
 }
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -17350,7 +17351,7 @@ mModKeyState
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -17415,7 +17416,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -17460,7 +17461,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -17586,7 +17587,7 @@ i
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -17700,7 +17701,7 @@ aKeyboardEvent
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -17817,7 +17818,7 @@ longestLength
 {
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -17972,7 +17973,7 @@ aKeyboardEvent
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -18035,7 +18036,7 @@ uniChar
 ;
 MOZ_LOG
 (
-sNativeKeyLogger
+gKeyLog
 LogLevel
 :
 :
@@ -18367,14 +18368,6 @@ KeyboardLayout
 sIdleService
 =
 nullptr
-;
-LazyLogModule
-sKeyboardLayoutLogger
-(
-"
-KeyboardLayoutWidgets
-"
-)
 ;
 KeyboardLayout
 *
@@ -20658,7 +20651,7 @@ false
 ;
 MOZ_LOG
 (
-sKeyboardLayoutLogger
+gKeyLog
 LogLevel
 :
 :
@@ -20943,11 +20936,11 @@ deadChar
 ;
 MOZ_LOG
 (
-sKeyboardLayoutLogger
+gKeyLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 %
@@ -21033,7 +21026,7 @@ ret
 ;
 MOZ_LOG
 (
-sKeyboardLayoutLogger
+gKeyLog
 LogLevel
 :
 :
@@ -21119,7 +21112,7 @@ true
 ;
 MOZ_LOG
 (
-sKeyboardLayoutLogger
+gKeyLog
 LogLevel
 :
 :
@@ -21379,7 +21372,7 @@ if
 (
 MOZ_LOG_TEST
 (
-sKeyboardLayoutLogger
+gKeyLog
 LogLevel
 :
 :
@@ -21408,7 +21401,7 @@ MAPVK_VSC_TO_VK_EX
 ;
 MOZ_LOG
 (
-sKeyboardLayoutLogger
+gKeyLog
 LogLevel
 :
 :
@@ -21494,7 +21487,7 @@ mKeyboardLayout
 ;
 MOZ_LOG
 (
-sKeyboardLayoutLogger
+gKeyLog
 LogLevel
 :
 :
@@ -21520,7 +21513,7 @@ virtualKeyCode
 }
 MOZ_LOG
 (
-sKeyboardLayoutLogger
+gKeyLog
 LogLevel
 :
 :
@@ -22780,7 +22773,7 @@ deadKeyActive
 {
 MOZ_LOG
 (
-sKeyboardLayoutLogger
+gKeyLog
 LogLevel
 :
 :
@@ -22919,11 +22912,11 @@ break
 }
 MOZ_LOG
 (
-sKeyboardLayoutLogger
+gKeyLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 %
@@ -23010,7 +23003,7 @@ false
 ;
 MOZ_LOG
 (
-sKeyboardLayoutLogger
+gKeyLog
 LogLevel
 :
 :

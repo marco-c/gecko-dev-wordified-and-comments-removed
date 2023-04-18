@@ -139,20 +139,23 @@ WritingModes
 .
 h
 "
+mozilla
+:
+:
+LazyLogModule
+gIMELog
+(
+"
+IMEHandler
+"
+)
+;
 namespace
 mozilla
 {
 namespace
 widget
 {
-LazyLogModule
-gGtkIMLog
-(
-"
-nsGtkIMModuleWidgets
-"
-)
-;
 static
 inline
 const
@@ -2581,7 +2584,7 @@ gdkWindow
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -2739,7 +2742,7 @@ nullptr
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -3048,7 +3051,7 @@ aWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -3269,7 +3272,7 @@ Clear
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -3349,7 +3352,7 @@ IIMContextType
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -3386,7 +3389,7 @@ else
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -3445,7 +3448,7 @@ return
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -3510,7 +3513,7 @@ return
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -3628,7 +3631,7 @@ eNotHandled
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -3657,7 +3660,7 @@ Info
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -3778,7 +3781,7 @@ aKeyboardEventWasDispatched
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -3861,7 +3864,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -3921,7 +3924,7 @@ currentContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -4081,7 +4084,7 @@ isHandlingAsyncEvent
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -4137,7 +4140,7 @@ isHandlingAsyncEvent
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -4361,7 +4364,7 @@ isHandlingAsyncEvent
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -4474,7 +4477,7 @@ isHandlingAsyncEvent
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -4757,7 +4760,7 @@ else
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -4818,7 +4821,7 @@ false
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -4935,7 +4938,7 @@ mKeyboardEventWasConsumed
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -5029,7 +5032,7 @@ aFocus
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -5113,7 +5116,7 @@ ResetIME
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -5165,7 +5168,7 @@ activeContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -5255,7 +5258,7 @@ compositionString
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -5366,7 +5369,7 @@ NS_OK
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -5409,7 +5412,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -5608,7 +5611,7 @@ return
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -5684,7 +5687,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -5729,7 +5732,7 @@ mContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -5772,7 +5775,7 @@ aContext
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -6356,7 +6359,7 @@ Focus
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -6425,7 +6428,7 @@ currentContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -6521,7 +6524,7 @@ Blur
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -6572,7 +6575,7 @@ currentContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -6695,7 +6698,7 @@ mSelectionChangeData
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -6782,7 +6785,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -6855,7 +6858,7 @@ IsValid
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -6895,7 +6898,7 @@ mOffset
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7081,7 +7084,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7134,7 +7137,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7177,7 +7180,7 @@ mComposingContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7275,7 +7278,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7316,7 +7319,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7359,7 +7362,7 @@ mComposingContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7467,7 +7470,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7510,7 +7513,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7556,7 +7559,7 @@ mComposingContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7613,7 +7616,7 @@ IsEmpty
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7701,7 +7704,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7748,7 +7751,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7916,7 +7919,7 @@ aNChars
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -7973,7 +7976,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -8039,7 +8042,7 @@ TRUE
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -8136,7 +8139,7 @@ commitString
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -8222,7 +8225,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -8270,7 +8273,7 @@ IsEmpty
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -8387,7 +8390,7 @@ keyval_utf8
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -8503,7 +8506,7 @@ rv
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -8576,7 +8579,7 @@ true
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -8638,7 +8641,7 @@ Destroyed
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -8683,7 +8686,7 @@ return
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -8722,7 +8725,7 @@ mProcessingKeyEvent
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -8833,7 +8836,7 @@ Truncate
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -8994,7 +8997,7 @@ GetFirstEvent
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9144,7 +9147,7 @@ mKeyboardEventWasConsumed
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9178,7 +9181,7 @@ mProcessingKeyEvent
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9343,7 +9346,7 @@ CODE_NAME_INDEX_UNKNOWN
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9388,7 +9391,7 @@ mKeyboardEventWasConsumed
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9433,7 +9436,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9481,7 +9484,7 @@ oldCurrentContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9544,7 +9547,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9577,7 +9580,7 @@ IsComposing
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9616,7 +9619,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9662,7 +9665,7 @@ EnsureToCacheSelection
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9743,7 +9746,7 @@ eCompositionStart
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9806,7 +9809,7 @@ rv
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -9943,7 +9946,7 @@ true
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10008,7 +10011,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10064,7 +10067,7 @@ aCompositionString
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10096,7 +10099,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10139,7 +10142,7 @@ IsComposing
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10196,7 +10199,7 @@ eCompositionChange
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10259,7 +10262,7 @@ rv
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10358,7 +10361,7 @@ rv
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10460,7 +10463,7 @@ rv
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10509,7 +10512,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10567,7 +10570,7 @@ aCommitString
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10629,7 +10632,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10710,7 +10713,7 @@ IsEmpty
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10757,7 +10760,7 @@ EnsureToCacheSelection
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10800,7 +10803,7 @@ eContentCommandInsertText
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10860,7 +10863,7 @@ mWritingMode
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10957,7 +10960,7 @@ IsEmpty
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -10992,7 +10995,7 @@ true
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -11053,7 +11056,7 @@ eCompositionCommitAsIs
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -11121,7 +11124,7 @@ rv
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -11275,7 +11278,7 @@ mSucceeded
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -11336,7 +11339,7 @@ rv
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -11386,7 +11389,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -11447,7 +11450,7 @@ aCompositionString
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -11558,7 +11561,7 @@ IsEmpty
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -11660,7 +11663,7 @@ charAfterCaret
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -11740,7 +11743,7 @@ caretOffset
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -11820,7 +11823,7 @@ compositionStringLength
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -11894,7 +11897,7 @@ iter
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -12078,7 +12081,7 @@ mEndOffset
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -12194,7 +12197,7 @@ dummyClause
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -12284,7 +12287,7 @@ range
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -12451,7 +12454,7 @@ utf8ClauseEnd
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -12521,7 +12524,7 @@ utf16PreviousClausesString
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -12604,7 +12607,7 @@ utf16CurrentClauseString
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -12648,7 +12651,7 @@ utf16CurrentClauseLength
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -12812,7 +12815,7 @@ default
 :
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -13101,7 +13104,7 @@ eConvertedClause
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -13181,7 +13184,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -13290,7 +13293,7 @@ IsValid
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -13332,7 +13335,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -13372,7 +13375,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -13505,7 +13508,7 @@ Failed
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -13633,7 +13636,7 @@ aCursorPos
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -13666,7 +13669,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -13737,7 +13740,7 @@ EnsureToCacheSelection
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -13785,7 +13788,7 @@ Length
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -13834,7 +13837,7 @@ INT32_MAX
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -13925,7 +13928,7 @@ DataLength
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14099,7 +14102,7 @@ parStart
 ;
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14171,7 +14174,7 @@ aNChars
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14222,7 +14225,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14263,7 +14266,7 @@ aNChars
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14342,7 +14345,7 @@ mSelectedStringRemovedByComposition
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14384,7 +14387,7 @@ EnsureToCacheSelection
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14478,7 +14481,7 @@ IsDataEmpty
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14551,7 +14554,7 @@ offsetInUTF8Characters
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14642,7 +14645,7 @@ endInUTF8Characters
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14825,7 +14828,7 @@ Destroyed
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14869,7 +14872,7 @@ eContentCommandDelete
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14941,7 +14944,7 @@ Destroyed
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -14996,7 +14999,7 @@ aContext
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -15053,7 +15056,7 @@ compositionString
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -15166,7 +15169,7 @@ mLastFocusedWindow
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -15236,7 +15239,7 @@ Failed
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -15287,7 +15290,7 @@ IsValid
 {
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :
@@ -15354,7 +15357,7 @@ DataRef
 }
 MOZ_LOG
 (
-gGtkIMLog
+gIMELog
 LogLevel
 :
 :

@@ -162,6 +162,17 @@ TS_SD_INPUTPANEMANUALDISPLAYENABLE
 0x40
 #
 endif
+mozilla
+:
+:
+LazyLogModule
+gIMELog
+(
+"
+IMEHandler
+"
+)
+;
 namespace
 mozilla
 {
@@ -181,14 +192,6 @@ tsf
 .
 enable
 "
-;
-LazyLogModule
-sTextStoreLog
-(
-"
-nsTextStoreWidgets
-"
-)
 ;
 enum
 class
@@ -3727,7 +3730,7 @@ Clone
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -4066,7 +4069,7 @@ threadMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -4123,7 +4126,7 @@ inputProcessorProfiles
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -4192,7 +4195,7 @@ Destroy
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -6196,7 +6199,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -6270,7 +6273,7 @@ TF_INVALID_COOKIE
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -6309,7 +6312,7 @@ false
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -6352,7 +6355,7 @@ Destroy
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -6420,7 +6423,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -6477,7 +6480,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -6752,7 +6755,7 @@ OnKeyboardLayoutChanged
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -6956,7 +6959,7 @@ profileMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -7021,7 +7024,7 @@ S_FALSE
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -7078,7 +7081,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -7119,7 +7122,7 @@ false
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -7250,7 +7253,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -7383,7 +7386,7 @@ enumLangProfiles
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -7964,7 +7967,7 @@ SetCapacity
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -7997,7 +8000,7 @@ TSFTextStore
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8034,7 +8037,7 @@ aContext
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8083,7 +8086,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8125,7 +8128,7 @@ mDocumentMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8170,7 +8173,7 @@ mWidget
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8223,7 +8226,7 @@ mDispatcher
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8314,7 +8317,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8361,7 +8364,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8451,7 +8454,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8499,7 +8502,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8568,7 +8571,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8614,7 +8617,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8676,7 +8679,7 @@ context
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8749,7 +8752,7 @@ return
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8859,7 +8862,7 @@ mSink
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8924,7 +8927,7 @@ ReleaseTSFObjects
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -8963,7 +8966,7 @@ mHandlingKeyMessage
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9038,7 +9041,7 @@ IsEmpty
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9077,7 +9080,7 @@ Clear
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9210,7 +9213,7 @@ S_OK
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9265,7 +9268,7 @@ dwMask
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9348,7 +9351,7 @@ punk
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9389,7 +9392,7 @@ riid
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9447,7 +9450,7 @@ mSink
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9526,7 +9529,7 @@ comparison2
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9586,7 +9589,7 @@ punk
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9631,7 +9634,7 @@ punk
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9670,7 +9673,7 @@ mSink
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9745,7 +9748,7 @@ comparison2
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9810,7 +9813,7 @@ phrSession
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9879,7 +9882,7 @@ mSink
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9936,7 +9939,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -9982,7 +9985,7 @@ phrSession
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -10031,7 +10034,7 @@ TS_LF_SYNC
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -10202,7 +10205,7 @@ mLock
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -10361,7 +10364,7 @@ mLockQueued
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -10491,7 +10494,7 @@ mLock
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -10648,7 +10651,7 @@ MaybeFlushPendingNotifications
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -10728,7 +10731,7 @@ TS_LF_SYNC
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -10767,7 +10770,7 @@ S_OK
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11006,7 +11009,7 @@ rv
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11091,7 +11094,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11202,7 +11205,7 @@ eCompositionStart
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11264,7 +11267,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11394,7 +11397,7 @@ mSucceeded
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11432,7 +11435,7 @@ true
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11499,7 +11502,7 @@ rv
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11581,7 +11584,7 @@ eCompositionUpdate
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11699,7 +11702,7 @@ rv
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11756,7 +11759,7 @@ else
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11823,7 +11826,7 @@ rv
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11889,7 +11892,7 @@ eCompositionEnd
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -11944,7 +11947,7 @@ true
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12015,7 +12018,7 @@ rv
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12080,7 +12083,7 @@ eSetSelection
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12154,7 +12157,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12271,7 +12274,7 @@ mSucceeded
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12336,7 +12339,7 @@ continue
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12392,7 +12395,7 @@ IsReadLocked
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12441,7 +12444,7 @@ mDeferCommittingComposition
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12495,7 +12498,7 @@ mDeferCancellingComposition
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12548,7 +12551,7 @@ mDeferNotifyingTSF
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12608,7 +12611,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12666,7 +12669,7 @@ reset
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12728,7 +12731,7 @@ IsValid
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12777,7 +12780,7 @@ IsValid
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12823,7 +12826,7 @@ mHasReturnedNoLayoutError
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12877,7 +12880,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12923,7 +12926,7 @@ sIsKeyboardEventDispatched
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -12971,7 +12974,7 @@ IsReadLocked
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13048,7 +13051,7 @@ return
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13156,7 +13159,7 @@ WM_KEYDOWN
 :
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13199,7 +13202,7 @@ WM_KEYUP
 :
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13241,7 +13244,7 @@ default
 :
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13289,7 +13292,7 @@ pdcs
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13324,7 +13327,7 @@ pdcs
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13394,7 +13397,7 @@ pacpResultEnd
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13456,7 +13459,7 @@ pacpResultEnd
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13503,7 +13506,7 @@ acpTestEnd
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13589,7 +13592,7 @@ IsMSPinyinOrMSWubiActive
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13647,7 +13650,7 @@ cch
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13711,7 +13714,7 @@ pcFetched
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13766,7 +13769,7 @@ IsReadLocked
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13812,7 +13815,7 @@ pcFetched
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13871,7 +13874,7 @@ ulIndex
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -13971,7 +13974,7 @@ pcFetched
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -14027,7 +14030,7 @@ S_OK
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -14078,7 +14081,7 @@ pcFetched
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -14177,7 +14180,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -14247,7 +14250,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -14313,7 +14316,7 @@ text
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -14363,7 +14366,7 @@ false
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -14531,7 +14534,7 @@ Destroyed
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -14606,7 +14609,7 @@ Failed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -14810,7 +14813,7 @@ WritingModeRef
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -14995,7 +14998,7 @@ if
 (
 MOZ_LOG_TEST
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15024,7 +15027,7 @@ length
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15122,7 +15125,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15171,7 +15174,7 @@ vt
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15281,7 +15284,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15376,7 +15379,7 @@ info
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15433,7 +15436,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15472,7 +15475,7 @@ hr
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15529,7 +15532,7 @@ aRangeNew
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15581,7 +15584,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15669,7 +15672,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15736,7 +15739,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15800,7 +15803,7 @@ S_OK
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15878,7 +15881,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -15914,7 +15917,7 @@ hr
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -16002,7 +16005,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -16046,7 +16049,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -16120,7 +16123,7 @@ S_OK
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -16306,7 +16309,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -16521,7 +16524,7 @@ oldSelection
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -16787,7 +16790,7 @@ RecordCompositionUpdateAction
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -16831,7 +16834,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -16899,7 +16902,7 @@ attrPropetry
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -16977,7 +16980,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -17057,7 +17060,7 @@ enumRanges
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -17123,7 +17126,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -17381,7 +17384,7 @@ length
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -17443,7 +17446,7 @@ length
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -17996,7 +17999,7 @@ false
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18040,7 +18043,7 @@ aDispatchCompositionChangeEvent
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18134,7 +18137,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18179,7 +18182,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18229,7 +18232,7 @@ pSelection
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18308,7 +18311,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18373,7 +18376,7 @@ EndOffset
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18442,7 +18445,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18611,7 +18614,7 @@ else
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18741,7 +18744,7 @@ pSelection
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18813,7 +18816,7 @@ IsReadWriteLocked
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18860,7 +18863,7 @@ ulCount
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18902,7 +18905,7 @@ pSelection
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18953,7 +18956,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -18988,7 +18991,7 @@ else
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -19048,7 +19051,7 @@ pacpNext
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -19145,7 +19148,7 @@ IsReadLocked
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -19214,7 +19217,7 @@ prgRunInfo
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -19275,7 +19278,7 @@ acpEnd
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -19387,7 +19390,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -19445,7 +19448,7 @@ acpStart
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -19515,7 +19518,7 @@ acpEnd
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -19716,7 +19719,7 @@ length
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -19837,7 +19840,7 @@ pChange
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -19950,7 +19953,7 @@ IsReadWriteLocked
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -20035,7 +20038,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -20085,7 +20088,7 @@ pChange
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -20121,7 +20124,7 @@ E_FAIL
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -20208,7 +20211,7 @@ ppDataObject
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -20262,7 +20265,7 @@ ppunk
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -20317,7 +20320,7 @@ pfInsertable
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -20382,7 +20385,7 @@ pChange
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -20745,7 +20748,7 @@ aFilterAttrs
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -20837,7 +20840,7 @@ i
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -20926,7 +20929,7 @@ paFilterAttrs
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -20995,7 +20998,7 @@ dwFlags
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -21071,7 +21074,7 @@ dwFlags
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -21174,7 +21177,7 @@ plFoundOffset
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -21208,7 +21211,7 @@ E_INVALIDARG
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -21283,7 +21286,7 @@ paAttrVals
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -21359,7 +21362,7 @@ expectedCount
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -21404,7 +21407,7 @@ E_INVALIDARG
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -21491,7 +21494,7 @@ i
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -21780,7 +21783,7 @@ S_OK
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -21852,7 +21855,7 @@ pacp
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -21889,7 +21892,7 @@ IsReadLocked
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -21932,7 +21935,7 @@ pacp
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -21986,7 +21989,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22057,7 +22060,7 @@ pvcView
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22092,7 +22095,7 @@ pvcView
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22131,7 +22134,7 @@ TEXTSTORE_DEFAULT_VIEW
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22186,7 +22189,7 @@ pacp
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22289,7 +22292,7 @@ IsReadLocked
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22334,7 +22337,7 @@ TEXTSTORE_DEFAULT_VIEW
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22376,7 +22379,7 @@ pt
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22416,7 +22419,7 @@ pacp
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22476,7 +22479,7 @@ IsLayoutChanged
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22580,7 +22583,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22617,7 +22620,7 @@ E_FAIL
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22672,7 +22675,7 @@ Failed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22723,7 +22726,7 @@ DidNotFindChar
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22862,7 +22865,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22942,7 +22945,7 @@ LONG_MAX
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -22991,7 +22994,7 @@ offset
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -23047,7 +23050,7 @@ pfClipped
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -23212,7 +23215,7 @@ IsReadLocked
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -23257,7 +23260,7 @@ TEXTSTORE_DEFAULT_VIEW
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -23303,7 +23306,7 @@ pfClipped
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -23349,7 +23352,7 @@ acpStart
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -23437,7 +23440,7 @@ LONG_MAX
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -23524,7 +23527,7 @@ acpEnd
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -23571,7 +23574,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -23789,7 +23792,7 @@ Failed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -23939,7 +23942,7 @@ refWindow
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -24002,7 +24005,7 @@ prc
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -24179,7 +24182,7 @@ CreateNativeCaret
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -25229,7 +25232,7 @@ lastUnmodifiedOffset
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -25295,7 +25298,7 @@ prc
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -25337,7 +25340,7 @@ TEXTSTORE_DEFAULT_VIEW
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -25379,7 +25382,7 @@ prc
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -25418,7 +25421,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -25486,7 +25489,7 @@ prc
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -25522,7 +25525,7 @@ E_FAIL
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -25601,7 +25604,7 @@ aScreenExt
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -25660,7 +25663,7 @@ Failed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -25750,7 +25753,7 @@ refWindow
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -25879,7 +25882,7 @@ aScreenExt
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -25955,7 +25958,7 @@ phwnd
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26009,7 +26012,7 @@ TEXTSTORE_DEFAULT_VIEW
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26051,7 +26054,7 @@ phwnd
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26099,7 +26102,7 @@ nullptr
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26168,7 +26171,7 @@ pChange
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26302,7 +26305,7 @@ pchText
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26352,7 +26355,7 @@ IsReadLocked
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26399,7 +26402,7 @@ pacpEnd
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26453,7 +26456,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26570,7 +26573,7 @@ IsReadWriteLocked
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26615,7 +26618,7 @@ pChange
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26667,7 +26670,7 @@ pacpEnd
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26715,7 +26718,7 @@ pChange
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26777,7 +26780,7 @@ acpNewEnd
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26889,7 +26892,7 @@ aTextChange
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -26968,7 +26971,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -27015,7 +27018,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -27168,7 +27171,7 @@ mSelectionStart
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -27324,7 +27327,7 @@ EndOffset
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -27451,7 +27454,7 @@ pChange
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -27503,7 +27506,7 @@ aPreserveSelection
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -27590,7 +27593,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -27653,7 +27656,7 @@ aPreserveSelection
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -27736,7 +27739,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -27781,7 +27784,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -27862,7 +27865,7 @@ RemoveLastElement
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -27983,7 +27986,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28100,7 +28103,7 @@ DataRef
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28164,7 +28167,7 @@ RecordCompositionEndAction
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28219,7 +28222,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28262,7 +28265,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28371,7 +28374,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28561,7 +28564,7 @@ j
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28600,7 +28603,7 @@ S_OK
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28642,7 +28645,7 @@ pfOk
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28711,7 +28714,7 @@ isSome
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28781,7 +28784,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28837,7 +28840,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28878,7 +28881,7 @@ TRUE
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28920,7 +28923,7 @@ pRangeNew
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -28985,7 +28988,7 @@ mContext
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29031,7 +29034,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29079,7 +29082,7 @@ pComposition
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29130,7 +29133,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29183,7 +29186,7 @@ true
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29232,7 +29235,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29282,7 +29285,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29320,7 +29323,7 @@ if
 (
 MOZ_LOG_TEST
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29350,7 +29353,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29386,7 +29389,7 @@ E_FAIL
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29455,7 +29458,7 @@ pComposition
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29513,7 +29516,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29561,7 +29564,7 @@ pComposition
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29612,7 +29615,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29648,7 +29651,7 @@ hr
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29693,7 +29696,7 @@ pdwCookie
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29742,7 +29745,7 @@ pdwCookie
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29792,7 +29795,7 @@ range
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29834,7 +29837,7 @@ pSink
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -29953,7 +29956,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30015,7 +30018,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30065,7 +30068,7 @@ Cookie
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30112,7 +30115,7 @@ dwCookie
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30151,7 +30154,7 @@ kInvalidCookie
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30206,7 +30209,7 @@ Length
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30263,7 +30266,7 @@ IsUsing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30306,7 +30309,7 @@ UnadviseSink
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30351,7 +30354,7 @@ aContext
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30560,7 +30563,7 @@ sThreadMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30609,7 +30612,7 @@ sEnabledTextStore
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30709,7 +30712,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30761,7 +30764,7 @@ aContext
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30885,7 +30888,7 @@ aContext
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -30945,7 +30948,7 @@ newDocMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -31076,7 +31079,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -31125,7 +31128,7 @@ sThreadMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -31182,7 +31185,7 @@ textStore
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -31267,7 +31270,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -31316,7 +31319,7 @@ sThreadMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -31373,7 +31376,7 @@ textStore
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -31429,7 +31432,7 @@ mSink
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -31501,7 +31504,7 @@ textStore
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -31631,7 +31634,7 @@ mTextChangeData
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -31857,7 +31860,7 @@ TS_AS_TEXT_CHANGE
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -31922,7 +31925,7 @@ IsInInt32Range
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -32027,7 +32030,7 @@ Clear
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -32128,7 +32131,7 @@ mSelectionChangeData
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -32381,7 +32384,7 @@ Clear
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -32439,7 +32442,7 @@ return
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -32528,7 +32531,7 @@ NS_OK
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -32576,7 +32579,7 @@ NS_ERROR_FAILURE
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -32698,7 +32701,7 @@ mSink
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -32753,7 +32756,7 @@ TEXTSTORE_DEFAULT_VIEW
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -32824,7 +32827,7 @@ service
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -32879,7 +32882,7 @@ hr
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -32927,7 +32930,7 @@ Destroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -32970,7 +32973,7 @@ mDestroyed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -33027,7 +33030,7 @@ mWaitingQueryLayout
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -33063,7 +33066,7 @@ ret
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -33155,7 +33158,7 @@ return
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -33204,7 +33207,7 @@ false
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -33249,7 +33252,7 @@ else
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -33288,7 +33291,7 @@ OnUpdateCompositionInternal
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -33436,7 +33439,7 @@ NS_OK
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -33910,7 +33913,7 @@ return
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -33965,7 +33968,7 @@ isNothing
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -34109,7 +34112,7 @@ Failed
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -34178,7 +34181,7 @@ mRect
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -34227,7 +34230,7 @@ aDiscard
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -34307,7 +34310,7 @@ mDeferCancellingComposition
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -34363,7 +34366,7 @@ true
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -34486,7 +34489,7 @@ StartOffset
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -34605,7 +34608,7 @@ services
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -34776,7 +34779,7 @@ aState
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -34831,7 +34834,7 @@ comp
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -34900,7 +34903,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -34940,7 +34943,7 @@ return
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35049,7 +35052,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35117,7 +35120,7 @@ VT_I4
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35190,7 +35193,7 @@ aAction
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35402,7 +35405,7 @@ IsEditable
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35455,7 +35458,7 @@ IsEditable
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35537,7 +35540,7 @@ comp
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35571,7 +35574,7 @@ return
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35660,7 +35663,7 @@ comp
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35694,7 +35697,7 @@ return
 }
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35746,7 +35749,7 @@ Initialize
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35775,7 +35778,7 @@ sThreadMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35814,7 +35817,7 @@ false
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35890,7 +35893,7 @@ threadMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -35945,7 +35948,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -36007,7 +36010,7 @@ disabledDocumentMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -36087,7 +36090,7 @@ disabledContext
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -36147,7 +36150,7 @@ disabledContext
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -36331,7 +36334,7 @@ messagePump
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -36452,7 +36455,7 @@ displayAttributeMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -36572,7 +36575,7 @@ categoryMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -36703,7 +36706,7 @@ compartmentMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -36779,7 +36782,7 @@ compartment
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -36901,7 +36904,7 @@ inputProcessorProfiles
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -36958,7 +36961,7 @@ Terminate
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -37128,7 +37131,7 @@ keystrokeMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -38237,7 +38240,7 @@ CreateStartAndEndOffsets
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -38815,7 +38818,7 @@ aTextStore
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -38883,7 +38886,7 @@ this
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -38940,7 +38943,7 @@ kInvalidCookie
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -39046,7 +39049,7 @@ aMouseSink
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -39129,7 +39132,7 @@ mSink
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -39206,7 +39209,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -39269,7 +39272,7 @@ LONG_MAX
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -39343,7 +39346,7 @@ textContent
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -39421,7 +39424,7 @@ length
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -39498,7 +39501,7 @@ aMouseSink
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -39567,7 +39570,7 @@ UnadviseSink
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -39696,7 +39699,7 @@ eaten
 ;
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -39796,7 +39799,7 @@ inputProcessorProfiles
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -39864,7 +39867,7 @@ profileMgr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :
@@ -39928,7 +39931,7 @@ hr
 {
 MOZ_LOG
 (
-sTextStoreLog
+gIMELog
 LogLevel
 :
 :

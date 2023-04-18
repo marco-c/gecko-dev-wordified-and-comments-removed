@@ -214,20 +214,23 @@ h
 "
 #
 endif
+mozilla
+:
+:
+LazyLogModule
+gKeyLog
+(
+"
+KeyboardHandler
+"
+)
+;
 namespace
 mozilla
 {
 namespace
 widget
 {
-LazyLogModule
-gKeymapWrapperLog
-(
-"
-KeymapWrapperWidgets
-"
-)
-;
 #
 define
 IS_ASCII_ALPHABETICAL
@@ -1810,7 +1813,7 @@ mOnDirectionChangedSignalHandle
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -1874,7 +1877,7 @@ true
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -1943,7 +1946,7 @@ this
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -2100,7 +2103,7 @@ xkbMinorVer
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -2172,7 +2175,7 @@ xkbMinorVer
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -2221,7 +2224,7 @@ XkbModifierStateMask
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -2272,7 +2275,7 @@ XkbPerKeyRepeatMask
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -2321,7 +2324,7 @@ mKeyboardState
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -2357,7 +2360,7 @@ return
 }
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -2384,7 +2387,7 @@ InitBySystemSettingsX11
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -2512,7 +2515,7 @@ xkeymap
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -2554,7 +2557,7 @@ xmodmap
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -2586,7 +2589,7 @@ return
 }
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -2712,7 +2715,7 @@ i
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -2871,7 +2874,7 @@ j
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -3376,7 +3379,7 @@ Level5
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -4143,7 +4146,7 @@ mGdkKeymap
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -4247,7 +4250,7 @@ FIRST_PRESS
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -4374,7 +4377,7 @@ GetWaitingSynthesizedKeyPressHardwareKeyCode
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -4475,7 +4478,7 @@ REPEATING
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -4570,7 +4573,7 @@ FIRST_PRESS
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -4704,7 +4707,7 @@ NOT_PRESSED
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -4897,7 +4900,7 @@ mKeyboardState
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -5018,7 +5021,7 @@ aKeymapWrapper
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -5078,7 +5081,7 @@ aKeymapWrapper
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -5752,7 +5755,7 @@ doLog
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -6021,7 +6024,7 @@ doLog
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -6872,7 +6875,7 @@ state
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -7019,7 +7022,7 @@ rv
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -7279,7 +7282,7 @@ aGdkKeyEvent
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -7450,7 +7453,7 @@ eHandled
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -7501,7 +7504,7 @@ state
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -7581,7 +7584,7 @@ isKeyDownCancelled
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -7634,7 +7637,7 @@ return
 }
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -7718,7 +7721,7 @@ eHandled
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -7778,7 +7781,7 @@ Back
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -7818,7 +7821,7 @@ Forward
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -7879,7 +7882,7 @@ Stop
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -7919,7 +7922,7 @@ Search
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -7959,7 +7962,7 @@ Bookmarks
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8017,7 +8020,7 @@ eContentCommandCopy
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8060,7 +8063,7 @@ eContentCommandCut
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8103,7 +8106,7 @@ eContentCommandPaste
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8159,7 +8162,7 @@ eContentCommandUndo
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8202,7 +8205,7 @@ aGdkKeyEvent
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8266,7 +8269,7 @@ rv
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8355,7 +8358,7 @@ aGdkKeyEvent
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8389,7 +8392,7 @@ else
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8455,7 +8458,7 @@ eventTime
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8495,7 +8498,7 @@ aGdkKeyEvent
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8645,7 +8648,7 @@ eNotHandled
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8695,7 +8698,7 @@ isCancelled
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -8721,7 +8724,7 @@ false
 }
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -9333,7 +9336,7 @@ sLastRepeatableHardwareKeyCode
 ;
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -11073,7 +11076,7 @@ charCode
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -11140,7 +11143,7 @@ level
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -11350,7 +11353,7 @@ needLatinKeyCodes
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -11429,7 +11432,7 @@ minGroup
 {
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :
@@ -11654,7 +11657,7 @@ ch
 }
 MOZ_LOG
 (
-gKeymapWrapperLog
+gKeyLog
 LogLevel
 :
 :

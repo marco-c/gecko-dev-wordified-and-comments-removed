@@ -162,14 +162,50 @@ mozilla
 :
 widget
 ;
+mozilla
+:
+:
 LazyLogModule
-gLog
+gIMELog
 (
 "
-TextInputHandlerWidgets
+IMEHandler
 "
 )
 ;
+mozilla
+:
+:
+LazyLogModule
+gKeyLog
+(
+"
+KeyboardHandler
+"
+)
+;
+#
+define
+MOZ_LOG_KEY_OR_IME
+(
+aLogLevel
+aArgs
+)
+\
+MOZ_LOG
+(
+MOZ_LOG_TEST
+(
+gIMELog
+aLogLevel
+)
+?
+gIMELog
+:
+gKeyLog
+aLogLevel
+aArgs
+)
 static
 const
 char
@@ -2001,7 +2037,7 @@ GetUCKeyboardLayout
 ;
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -2175,7 +2211,7 @@ chars
 ;
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -2290,7 +2326,7 @@ char16_t
 ;
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -2655,7 +2691,7 @@ GetUCKeyboardLayout
 ;
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -2836,7 +2872,7 @@ chars
 ;
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -4952,7 +4988,7 @@ IME
 ;
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -5248,7 +5284,7 @@ false
 ;
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -5768,7 +5804,7 @@ if
 (
 MOZ_LOG_TEST
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -5812,7 +5848,7 @@ mCharCode
 ;
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -5998,7 +6034,7 @@ charCode
 ;
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -6117,7 +6153,7 @@ kEventKeyModifierNumLockMask
 }
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -6343,7 +6379,7 @@ altCharCodes
 }
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -6545,7 +6581,7 @@ altCharCodes
 }
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -6632,7 +6668,7 @@ altCharCodes
 }
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -6685,7 +6721,7 @@ aCmdIsPressed
 {
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -7592,7 +7628,7 @@ if
 (
 MOZ_LOG_TEST
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -7609,7 +7645,7 @@ CreateAllKeyboardLayoutList
 ;
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -7704,7 +7740,7 @@ isid
 ;
 MOZ_LOG
 (
-gLog
+gKeyLog
 LogLevel
 :
 :
@@ -7875,9 +7911,8 @@ Destroyed
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -7906,9 +7941,8 @@ return
 false
 ;
 }
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -7919,9 +7953,8 @@ Info
 )
 )
 ;
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8088,9 +8121,8 @@ true
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8099,7 +8131,7 @@ Info
 "
 %
 p
-IMEInputHandler
+TextInputHandler
 :
 :
 HandleKeyDownEvent
@@ -8148,9 +8180,8 @@ IsASCIICapableOnly
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8186,9 +8217,8 @@ interpretKeyEventsCalled
 =
 true
 ;
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8216,9 +8246,8 @@ Destroyed
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8248,9 +8277,8 @@ IsDefaultPrevented
 )
 ;
 }
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8300,9 +8328,8 @@ CanDispatchKeyDownEvent
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8349,9 +8376,8 @@ return
 true
 ;
 }
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8418,9 +8444,8 @@ rv
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8429,7 +8454,7 @@ Error
 "
 %
 p
-IMEInputHandler
+TextInputHandler
 :
 :
 HandleKeyDownEvent
@@ -8488,9 +8513,8 @@ aNativeEvent
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8561,9 +8585,8 @@ mKeyPressDispatched
 =
 true
 ;
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8590,9 +8613,8 @@ this
 ;
 }
 }
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8660,9 +8682,8 @@ mCompositionDispatched
 )
 )
 ;
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8700,9 +8721,8 @@ aNativeEvent
 {
 NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8821,9 +8841,8 @@ Destroyed
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8872,9 +8891,8 @@ rv
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -8883,7 +8901,7 @@ Error
 "
 %
 p
-IMEInputHandler
+TextInputHandler
 :
 :
 HandleKeyUpEvent
@@ -8965,9 +8983,8 @@ Destroyed
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -9012,9 +9029,8 @@ Unused
 <
 kungFuDeathGrip
 ;
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -10192,9 +10208,8 @@ Destroyed
 return
 ;
 }
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -10302,9 +10317,8 @@ rv
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -10313,7 +10327,7 @@ Error
 "
 %
 p
-IMEInputHandler
+TextInputHandler
 :
 :
 DispatchKeyEventForFlagsChanged
@@ -10418,9 +10432,8 @@ GetCurrentKeyEvent
 (
 )
 ;
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -10845,9 +10858,8 @@ false
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -10856,7 +10868,7 @@ Info
 "
 %
 p
-IMEInputHandler
+TextInputHandler
 :
 :
 InsertText
@@ -11037,9 +11049,8 @@ false
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -11048,7 +11059,7 @@ Info
 "
 %
 p
-IMEInputHandler
+TextInputHandler
 :
 :
 InsertText
@@ -11102,9 +11113,8 @@ rv
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -11113,7 +11123,7 @@ Error
 "
 %
 p
-IMEInputHandler
+TextInputHandler
 :
 :
 InsertText
@@ -11134,9 +11144,8 @@ this
 return
 ;
 }
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -11145,7 +11154,7 @@ Info
 "
 %
 p
-IMEInputHandler
+TextInputHandler
 :
 :
 InsertText
@@ -11303,9 +11312,8 @@ GetCurrentKeyEvent
 (
 )
 ;
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -11479,9 +11487,8 @@ false
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -11490,7 +11497,7 @@ Info
 "
 %
 p
-IMEInputHandler
+TextInputHandler
 :
 :
 SetMarkedText
@@ -11839,9 +11846,8 @@ rv
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -11850,7 +11856,7 @@ Error
 "
 %
 p
-IMEInputHandler
+TextInputHandler
 :
 :
 HandleCommand
@@ -13402,9 +13408,8 @@ GetCurrentKeyEvent
 (
 )
 ;
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -13583,9 +13588,8 @@ false
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -13594,7 +13598,7 @@ Info
 "
 %
 p
-IMEInputHandler
+TextInputHandler
 :
 :
 SetMarkedText
@@ -13650,9 +13654,8 @@ rv
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -13661,7 +13664,7 @@ Error
 "
 %
 p
-IMEInputHandler
+TextInputHandler
 :
 :
 DoCommandBySelector
@@ -13740,9 +13743,8 @@ status
 nsEventStatus_eConsumeNoDefault
 )
 ;
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -14100,7 +14102,7 @@ if
 (
 MOZ_LOG_TEST
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -14279,7 +14281,7 @@ bundleID0
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -14622,7 +14624,7 @@ if
 (
 MOZ_LOG_TEST
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -14639,7 +14641,7 @@ CreateAllIMEModeList
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -14742,7 +14744,7 @@ bundleID
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -15250,7 +15252,7 @@ NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -15376,7 +15378,7 @@ NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -15726,7 +15728,7 @@ aSelectedRange
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -15948,7 +15950,7 @@ count
 }
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -16162,7 +16164,7 @@ range
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -16272,7 +16274,7 @@ range
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -16343,7 +16345,7 @@ DispatchCompositionStartEvent
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -16473,7 +16475,7 @@ rv
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -16581,7 +16583,7 @@ rv
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -16621,7 +16623,7 @@ Destroyed
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -16693,7 +16695,7 @@ NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -16876,7 +16878,7 @@ rv
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -16943,7 +16945,7 @@ rv
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -17039,7 +17041,7 @@ rv
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -17079,7 +17081,7 @@ Destroyed
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -17132,7 +17134,7 @@ NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -17337,7 +17339,7 @@ rv
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -17394,7 +17396,7 @@ rv
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -17458,7 +17460,7 @@ Destroyed
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -17583,7 +17585,7 @@ true
 }
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -17717,7 +17719,7 @@ rv
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -17837,7 +17839,7 @@ Destroyed
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -17883,7 +17885,7 @@ firstResponder
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -17944,7 +17946,7 @@ NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -18150,7 +18152,7 @@ false
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -18223,7 +18225,7 @@ DispatchCompositionCommitEvent
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -18369,7 +18371,7 @@ DispatchCompositionStartEvent
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -18411,7 +18413,7 @@ str
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -18478,7 +18480,7 @@ GetCurrentKeyEvent
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -18803,7 +18805,7 @@ true
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -18900,7 +18902,7 @@ DispatchCompositionCommitEvent
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -19046,7 +19048,7 @@ DispatchCompositionStartEvent
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -19100,7 +19102,7 @@ aSelectedRange
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -19145,7 +19147,7 @@ EmptyString
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -19192,7 +19194,7 @@ NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -19415,7 +19417,7 @@ if
 (
 MOZ_LOG_TEST
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -19437,7 +19439,7 @@ str
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -19551,7 +19553,7 @@ queryTextContentEvent
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -19672,7 +19674,7 @@ HasMarkedText
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -19755,7 +19757,7 @@ MarkedRange
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -19839,7 +19841,7 @@ NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -19957,7 +19959,7 @@ querySelectedTextEvent
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -20169,7 +20171,7 @@ NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -20660,7 +20662,7 @@ actualRange
 }
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -20800,7 +20802,7 @@ NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -21025,7 +21027,7 @@ NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -21221,7 +21223,7 @@ aFocus
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -21323,7 +21325,7 @@ aDestroyingWidget
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -21442,7 +21444,7 @@ NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -21574,7 +21576,7 @@ mIsIMEComposing
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -21650,7 +21652,7 @@ NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -21784,7 +21786,7 @@ NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -21852,7 +21854,7 @@ return
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -22163,7 +22165,7 @@ OpenSystemPreferredLanguageIME
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -22198,7 +22200,7 @@ langList
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -22340,7 +22342,7 @@ if
 (
 MOZ_LOG_TEST
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -22360,7 +22362,7 @@ foundTIS
 ;
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -22447,7 +22449,7 @@ aIMENotification
 {
 MOZ_LOG
 (
-gLog
+gIMELog
 LogLevel
 :
 :
@@ -22789,9 +22791,8 @@ nsChildView
 aDestroyingWidget
 )
 {
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -23164,9 +23165,8 @@ GetWindowLevel
 {
 NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -23238,9 +23238,8 @@ window
 level
 ]
 ;
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -23318,9 +23317,8 @@ return
 NS_OK
 ;
 }
-MOZ_LOG
+MOZ_LOG_KEY_OR_IME
 (
-gLog
 LogLevel
 :
 :
@@ -24285,3 +24283,6 @@ nullptr
 ;
 }
 }
+#
+undef
+MOZ_LOG_KEY_OR_IME
