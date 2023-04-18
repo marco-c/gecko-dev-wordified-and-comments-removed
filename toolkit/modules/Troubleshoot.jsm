@@ -4650,7 +4650,7 @@ addonStudies
 prefRollouts
 prefStudies
 nimbusExperiments
-remoteConfigs
+nimbusRollouts
 ]
 =
 await
@@ -4714,7 +4714,7 @@ ExperimentManager
 .
 store
 .
-getAllRemoteConfigs
+getAllRollouts
 (
 )
 )
@@ -4784,7 +4784,7 @@ addonStudies
 prefRollouts
 prefStudies
 nimbusExperiments
-remoteConfigs
+nimbusRollouts
 }
 )
 ;

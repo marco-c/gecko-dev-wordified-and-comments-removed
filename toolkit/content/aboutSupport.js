@@ -7571,7 +7571,7 @@ prefStudies
 addonStudies
 prefRollouts
 nimbusExperiments
-remoteConfigs
+nimbusRollouts
 }
 =
 data
@@ -7654,14 +7654,14 @@ features
 tbody
 "
 )
-remoteConfigs
+nimbusRollouts
 .
 map
 (
 (
 {
-featureId
-slug
+userFacingName
+branch
 }
 )
 =
@@ -7684,7 +7684,7 @@ document
 .
 createTextNode
 (
-featureId
+userFacingName
 )
 ]
 )
@@ -7701,6 +7701,8 @@ createTextNode
 (
 (
 {
+branch
+.
 slug
 }
 )

@@ -202,9 +202,6 @@ Expected
 an
 .
 experiment
-or
-.
-activeRemoteDefaults
 /
 "
 should
