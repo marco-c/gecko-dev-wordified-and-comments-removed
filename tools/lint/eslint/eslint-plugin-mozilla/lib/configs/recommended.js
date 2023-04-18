@@ -83,9 +83,6 @@ false
 sizeToContent
 :
 false
-structuredClone
-:
-false
 uneval
 :
 false

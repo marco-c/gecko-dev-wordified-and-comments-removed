@@ -135,6 +135,16 @@ writable
 :
 false
 }
+{
+name
+:
+"
+structuredClone
+"
+writable
+:
+false
+}
 ]
 ;
 const
