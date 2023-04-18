@@ -6948,6 +6948,7 @@ DemoteThreadFromRealTime
 )
 ;
 }
+PUSH_IGNORE_THREAD_SAFETY
 MOZ_DIAGNOSTIC_ASSERT
 (
 mLifecycleState
@@ -6956,6 +6957,7 @@ mLifecycleState
 LIFECYCLE_RUNNING
 )
 ;
+POP_THREAD_SAFETY
 MOZ_ASSERT
 (
 OnGraphThread
@@ -12945,6 +12947,15 @@ TrackTime
 aCurrentTime
 TrackTime
 aDesiredUpToTime
+)
+REQUIRES
+(
+aTrack
+-
+>
+GetMutex
+(
+)
 )
 {
 MOZ_ASSERT

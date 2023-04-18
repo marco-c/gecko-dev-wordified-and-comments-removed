@@ -227,7 +227,6 @@ mMixer
 ;
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 MediaTrackGraphImpl
 *
@@ -239,9 +238,17 @@ Maybe
 IterationState
 >
 mIterationState
+GUARDED_BY
+(
+mMonitor
+)
 ;
 IterationResult
 mIterationResult
+GUARDED_BY
+(
+mMonitor
+)
 ;
 enum
 class
@@ -254,6 +261,10 @@ Shutdown
 ;
 ThreadState
 mThreadState
+GUARDED_BY
+(
+mMonitor
+)
 ;
 const
 nsCOMPtr
