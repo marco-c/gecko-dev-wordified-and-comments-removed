@@ -37,6 +37,9 @@ gdk
 h
 >
 #
+ifdef
+MOZ_X11
+#
 include
 <
 X11
@@ -45,6 +48,8 @@ XKBlib
 .
 h
 >
+#
+endif
 #
 ifdef
 MOZ_WAYLAND
@@ -396,6 +401,9 @@ Init
 (
 )
 ;
+#
+ifdef
+MOZ_X11
 void
 InitXKBExtension
 (
@@ -406,6 +414,8 @@ InitBySystemSettingsX11
 (
 )
 ;
+#
+endif
 #
 ifdef
 MOZ_WAYLAND
@@ -521,9 +531,14 @@ mGdkKeymap
 int
 mXKBBaseEventCode
 ;
+#
+ifdef
+MOZ_X11
 XKeyboardState
 mKeyboardState
 ;
+#
+endif
 static
 KeymapWrapper
 *
@@ -533,10 +548,15 @@ static
 guint
 sLastRepeatableHardwareKeyCode
 ;
+#
+ifdef
+MOZ_X11
 static
 Time
 sLastRepeatableKeyTime
 ;
+#
+endif
 enum
 RepeatState
 {
@@ -685,6 +705,9 @@ guint
 aGdkKeyval
 )
 ;
+#
+ifdef
+MOZ_X11
 static
 GdkFilterReturn
 FilterEvents
@@ -699,6 +722,8 @@ gpointer
 aData
 )
 ;
+#
+endif
 static
 bool
 MaybeDispatchContextMenuEvent

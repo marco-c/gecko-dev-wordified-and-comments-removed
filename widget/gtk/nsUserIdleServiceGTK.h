@@ -12,6 +12,9 @@ nsUserIdleService
 h
 "
 #
+ifdef
+MOZ_X11
+#
 include
 <
 X11
@@ -38,6 +41,11 @@ gdkx
 .
 h
 >
+#
+endif
+#
+ifdef
+MOZ_X11
 typedef
 struct
 {
@@ -65,6 +73,8 @@ event_mask
 }
 XScreenSaverInfo
 ;
+#
+endif
 class
 nsUserIdleServiceGTK
 :
@@ -146,10 +156,15 @@ nsUserIdleServiceGTK
 (
 )
 ;
+#
+ifdef
+MOZ_X11
 XScreenSaverInfo
 *
 mXssInfo
 ;
+#
+endif
 protected
 :
 nsUserIdleServiceGTK
