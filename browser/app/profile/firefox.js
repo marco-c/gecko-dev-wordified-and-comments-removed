@@ -5445,7 +5445,7 @@ preferences
 .
 moreFromMozilla
 "
-false
+true
 )
 ;
 pref
