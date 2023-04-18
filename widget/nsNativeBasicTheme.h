@@ -990,7 +990,7 @@ UniquePtr
 <
 ScrollbarDrawing
 >
-DetermineScrollbarStyleSetByPrefs
+DefaultPlatformScrollbarStyle
 (
 )
 ;
@@ -1002,7 +1002,7 @@ UniquePtr
 <
 ScrollbarDrawing
 >
-DetermineScrollbarStyle
+ScrollbarStyle
 (
 )
 ;
