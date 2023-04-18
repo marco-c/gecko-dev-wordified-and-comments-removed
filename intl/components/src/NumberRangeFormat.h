@@ -681,11 +681,6 @@ mFormatForUnit
 =
 false
 ;
-bool
-mFormatWithApprox
-=
-false
-;
 Result
 <
 Ok
