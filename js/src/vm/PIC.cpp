@@ -218,7 +218,11 @@ MOZ_ASSERT
 initialized_
 )
 ;
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 arrayProto
 (
 cx
@@ -247,7 +251,11 @@ return
 false
 ;
 }
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 arrayIteratorProto
 (
 cx

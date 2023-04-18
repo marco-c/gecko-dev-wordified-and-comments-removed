@@ -2615,7 +2615,11 @@ return
 true
 ;
 }
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 setProto
 (
 cx

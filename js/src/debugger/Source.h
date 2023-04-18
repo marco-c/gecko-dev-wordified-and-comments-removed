@@ -102,7 +102,11 @@ Handle
 DebuggerSourceReferent
 >
 referent
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 debugger
 )
 ;

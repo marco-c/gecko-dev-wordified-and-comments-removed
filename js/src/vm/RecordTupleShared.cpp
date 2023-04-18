@@ -723,7 +723,11 @@ return
 false
 ;
 }
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 rootedProto
 (
 cx

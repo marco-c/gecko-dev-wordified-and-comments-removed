@@ -3256,7 +3256,11 @@ NativeObject
 )
 )
 ;
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 nativeObj
 (
 cx

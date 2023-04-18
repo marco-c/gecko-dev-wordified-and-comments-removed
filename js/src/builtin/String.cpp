@@ -19628,7 +19628,11 @@ HandleObject
 proto
 )
 {
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 nativeProto
 =
 proto

@@ -7210,7 +7210,11 @@ return
 true
 ;
 }
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 nobj
 =
 obj

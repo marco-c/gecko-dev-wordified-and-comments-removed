@@ -948,7 +948,11 @@ EnumerateNativeProperties
 JSContext
 *
 cx
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 pobj
 unsigned
 flags
@@ -1934,7 +1938,11 @@ EnumerateNativeProperties
 JSContext
 *
 cx
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 pobj
 unsigned
 flags

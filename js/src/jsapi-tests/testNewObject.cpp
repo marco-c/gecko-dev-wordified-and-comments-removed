@@ -1415,7 +1415,11 @@ BEGIN_TEST
 testNewObject_elements
 )
 {
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 obj
 (
 cx

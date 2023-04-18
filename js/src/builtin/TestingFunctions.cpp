@@ -22902,7 +22902,11 @@ return
 false
 ;
 }
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 list
 (
 cx

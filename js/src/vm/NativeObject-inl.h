@@ -3411,7 +3411,11 @@ CallResolveOp
 JSContext
 *
 cx
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 obj
 HandleId
 id

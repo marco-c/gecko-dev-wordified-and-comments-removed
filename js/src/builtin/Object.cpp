@@ -7631,7 +7631,11 @@ optimized
 }
 #
 endif
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 nobj
 =
 obj
@@ -9615,7 +9619,11 @@ NativeObject
 )
 )
 {
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 nobj
 =
 obj

@@ -19058,7 +19058,11 @@ MutableHandleValue
 vp
 )
 {
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 computedIntrinsicsHolder
 (
 cx

@@ -43888,7 +43888,11 @@ return
 false
 ;
 }
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 obj
 (
 cx
