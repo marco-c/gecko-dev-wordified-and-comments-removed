@@ -6049,6 +6049,12 @@ resources
 {
 if
 (
+!
+this
+.
+resourceCommand
+|
+|
 resource
 .
 resourceType
