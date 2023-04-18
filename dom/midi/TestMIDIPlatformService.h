@@ -59,6 +59,13 @@ override
 ;
 virtual
 void
+Refresh
+(
+)
+override
+;
+virtual
+void
 Open
 (
 MIDIPortParent
@@ -138,6 +145,9 @@ nsCOMPtr
 nsIThread
 >
 mClientThread
+;
+bool
+mDoRefresh
 ;
 bool
 mIsInitialized
