@@ -1110,12 +1110,6 @@ MediaInputPort
 >
 mSendPort
 ;
-RefPtr
-<
-ProcessedMediaTrack
->
-mSendPortSource
-;
 bool
 mDescriptionInvalidated
 =
