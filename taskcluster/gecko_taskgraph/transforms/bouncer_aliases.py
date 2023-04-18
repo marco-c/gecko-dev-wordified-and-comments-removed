@@ -48,6 +48,14 @@ gecko_taskgraph
 .
 util
 .
+attributes
+import
+release_level
+from
+gecko_taskgraph
+.
+util
+.
 partners
 import
 get_partners_to_be_published
@@ -126,12 +134,16 @@ release
 level
 "
 :
+release_level
+(
 config
 .
 params
-.
-release_level
-(
+[
+"
+project
+"
+]
 )
 }
         
@@ -164,12 +176,16 @@ release
 level
 "
 :
+release_level
+(
 config
 .
 params
-.
-release_level
-(
+[
+"
+project
+"
+]
 )
 }
         

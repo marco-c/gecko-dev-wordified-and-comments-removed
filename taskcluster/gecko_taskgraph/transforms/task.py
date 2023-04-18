@@ -83,6 +83,7 @@ attributes
 import
 TRUNK_PROJECTS
 is_try
+release_level
 from
 gecko_taskgraph
 .
@@ -7226,12 +7227,16 @@ release
 level
 "
 :
+release_level
+(
 config
 .
 params
-.
-release_level
-(
+[
+"
+project
+"
+]
 )
                         
 "
@@ -12439,12 +12444,16 @@ level
                 
 release_level
 =
+release_level
+(
 config
 .
 params
-.
-release_level
-(
+[
+"
+project
+"
+]
 )
             
 )

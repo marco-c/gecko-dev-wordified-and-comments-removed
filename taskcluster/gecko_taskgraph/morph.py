@@ -85,6 +85,13 @@ from
 .
 util
 .
+attributes
+import
+release_level
+from
+.
+util
+.
 workertypes
 import
 get_worker_type
@@ -334,10 +341,14 @@ parameters
 level
 "
 ]
-parameters
-.
 release_level
 (
+parameters
+[
+"
+project
+"
+]
 )
     
 )
