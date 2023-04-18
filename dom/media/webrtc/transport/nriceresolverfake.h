@@ -17,14 +17,7 @@ string
 #
 include
 "
-nspr
-.
-h
-"
-#
-include
-"
-prnetdb
+csi_platform
 .
 h
 "

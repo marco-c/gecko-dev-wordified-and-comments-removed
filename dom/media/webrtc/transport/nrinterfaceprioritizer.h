@@ -12,13 +12,6 @@ C
 #
 include
 "
-nr_api
-.
-h
-"
-#
-include
-"
 nr_interface_prioritizer
 .
 h

@@ -33,14 +33,14 @@ h
 #
 include
 "
-nrinterfaceprioritizer
+nr_api
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nrinterfaceprioritizer
 .
 h
 "

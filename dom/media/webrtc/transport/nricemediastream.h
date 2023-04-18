@@ -42,7 +42,7 @@ h
 #
 include
 "
-nsCOMPtr
+nscore
 .
 h
 "

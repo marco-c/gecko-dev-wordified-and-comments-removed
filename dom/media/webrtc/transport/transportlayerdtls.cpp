@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h
@@ -107,13 +100,6 @@ h
 include
 "
 sslproto
-.
-h
-"
-#
-include
-"
-transportflow
 .
 h
 "
