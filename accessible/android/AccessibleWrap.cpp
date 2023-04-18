@@ -3613,7 +3613,7 @@ const
 uint64_t
 aState
 const
-LayoutDeviceIntRect
+nsIntRect
 &
 aBounds
 const

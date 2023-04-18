@@ -112,14 +112,14 @@ aIndex
 const
 override
 ;
-LayoutDeviceIntPoint
+nsIntPoint
 Position
 (
 uint32_t
 aCoordType
 )
 ;
-LayoutDeviceIntSize
+nsIntSize
 Size
 (
 )

@@ -564,7 +564,7 @@ nsIAccessibleCoordinateType
 :
 COORDTYPE_PARENT_RELATIVE
 ;
-LayoutDeviceIntRect
+nsIntRect
 rect
 ;
 auto

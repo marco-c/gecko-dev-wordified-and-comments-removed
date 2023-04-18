@@ -2840,7 +2840,7 @@ fallbackAnswer
 =
 nullptr
 ;
-LayoutDeviceIntRect
+nsIntRect
 rect
 =
 Bounds
@@ -3391,7 +3391,7 @@ LocalChildAt
 childIdx
 )
 ;
-LayoutDeviceIntRect
+nsIntRect
 childRect
 =
 child
@@ -4152,7 +4152,7 @@ return
 unionRectTwips
 ;
 }
-LayoutDeviceIntRect
+nsIntRect
 LocalAccessible
 :
 :
@@ -4162,14 +4162,12 @@ Bounds
 const
 {
 return
-LayoutDeviceIntRect
-:
-:
-FromAppUnitsToNearest
-(
 BoundsInAppUnits
 (
 )
+.
+ToNearestPixels
+(
 mDoc
 -
 >
@@ -12325,7 +12323,7 @@ frame
 )
 return
 ;
-LayoutDeviceIntPoint
+nsIntPoint
 coords
 =
 nsAccUtils

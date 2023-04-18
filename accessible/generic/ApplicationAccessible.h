@@ -49,7 +49,7 @@ Shutdown
 override
 ;
 virtual
-LayoutDeviceIntRect
+nsIntRect
 Bounds
 (
 )

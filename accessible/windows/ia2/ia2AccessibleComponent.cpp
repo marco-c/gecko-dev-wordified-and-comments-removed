@@ -218,7 +218,7 @@ INVISIBLE
 return
 S_OK
 ;
-LayoutDeviceIntRect
+nsIntRect
 rect
 =
 acc
@@ -261,7 +261,7 @@ return
 S_OK
 ;
 }
-LayoutDeviceIntRect
+nsIntRect
 parentRect
 =
 acc

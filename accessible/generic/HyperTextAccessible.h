@@ -554,7 +554,7 @@ uint32_t
 aCoordType
 )
 ;
-LayoutDeviceIntRect
+nsIntRect
 TextBounds
 (
 int32_t
@@ -570,7 +570,7 @@ nsIAccessibleCoordinateType
 COORDTYPE_SCREEN_RELATIVE
 )
 ;
-LayoutDeviceIntRect
+nsIntRect
 CharBounds
 (
 int32_t
@@ -976,7 +976,7 @@ aWordMovementType
 eDefaultBehavior
 )
 ;
-LayoutDeviceIntRect
+nsIntRect
 GetBoundsInFrame
 (
 nsIFrame

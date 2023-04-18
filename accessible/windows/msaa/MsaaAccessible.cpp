@@ -6897,7 +6897,7 @@ kVarChildIdSelf
 )
 ;
 }
-LayoutDeviceIntRect
+nsIntRect
 rect
 =
 Acc
@@ -7498,7 +7498,7 @@ mAcc
 )
 )
 {
-LayoutDeviceIntRect
+nsIntRect
 docRect
 =
 mAcc

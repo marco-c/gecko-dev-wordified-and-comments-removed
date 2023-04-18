@@ -1362,7 +1362,7 @@ mCurrentEndOffset
 ;
 }
 }
-LayoutDeviceIntRect
+nsIntRect
 HyperTextAccessibleWrap
 :
 :
@@ -1377,7 +1377,7 @@ int32_t
 aEndOffset
 )
 {
-LayoutDeviceIntRect
+nsIntRect
 rect
 ;
 HyperTextIterator
@@ -1398,7 +1398,7 @@ Next
 )
 )
 {
-LayoutDeviceIntRect
+nsIntRect
 stringRect
 =
 iter

@@ -1099,7 +1099,7 @@ BoundsInAppUnits
 const
 ;
 virtual
-LayoutDeviceIntRect
+nsIntRect
 Bounds
 (
 )

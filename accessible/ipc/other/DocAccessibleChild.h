@@ -820,7 +820,7 @@ const
 uint32_t
 &
 aCoordType
-LayoutDeviceIntRect
+nsIntRect
 *
 aRetVal
 )
@@ -848,7 +848,7 @@ const
 uint32_t
 &
 aCoordType
-LayoutDeviceIntRect
+nsIntRect
 *
 aRetVal
 )
@@ -1265,7 +1265,7 @@ const
 uint32_t
 &
 aCoordType
-LayoutDeviceIntPoint
+nsIntPoint
 *
 aRetVal
 )
@@ -1285,7 +1285,7 @@ const
 uint64_t
 &
 aID
-LayoutDeviceIntSize
+nsIntSize
 *
 aRetVal
 )
