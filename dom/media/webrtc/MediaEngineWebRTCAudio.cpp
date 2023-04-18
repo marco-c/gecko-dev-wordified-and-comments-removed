@@ -3386,13 +3386,12 @@ OnGraphThread
 )
 )
 ;
-MOZ_ASSERT
-(
-mEnabled
-)
-;
 if
 (
+!
+mEnabled
+|
+|
 PassThrough
 (
 aGraph
