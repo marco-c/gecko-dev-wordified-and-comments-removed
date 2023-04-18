@@ -504,6 +504,14 @@ UpdateCaretForCaretBrowsingMode
 (
 )
 ;
+uint32_t
+GetLastFocusMethod
+(
+nsPIDOMWindowOuter
+*
+)
+const
+;
 enum
 SearchRange
 {
