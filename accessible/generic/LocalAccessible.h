@@ -1125,6 +1125,7 @@ BoundsInAppUnits
 (
 )
 const
+override
 ;
 virtual
 LayoutDeviceIntRect
@@ -1133,13 +1134,6 @@ Bounds
 )
 const
 override
-;
-virtual
-nsIntRect
-BoundsInCSSPixels
-(
-)
-const
 ;
 virtual
 nsRect

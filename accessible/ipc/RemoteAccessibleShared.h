@@ -830,10 +830,13 @@ Bounds
 const
 override
 ;
+virtual
 nsIntRect
 BoundsInCSSPixels
 (
 )
+const
+override
 ;
 void
 Language

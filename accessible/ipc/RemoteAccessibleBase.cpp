@@ -2355,7 +2355,7 @@ Derived
 >
 :
 :
-GetBoundsInAppUnits
+BoundsInAppUnits
 (
 )
 const
