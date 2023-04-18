@@ -272,6 +272,9 @@ global
 aboutUrlClassifier
 .
 css
+#
+ifndef
+ANDROID
 content
 /
 global
@@ -293,6 +296,8 @@ global
 plugins
 .
 js
+#
+endif
 *
 content
 /
