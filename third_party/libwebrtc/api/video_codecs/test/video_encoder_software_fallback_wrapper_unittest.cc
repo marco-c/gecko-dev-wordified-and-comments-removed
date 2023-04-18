@@ -5508,7 +5508,7 @@ SetFecControllerOverride
 .
 Times
 (
-0
+1
 )
 ;
 wrapper_
@@ -5677,10 +5677,11 @@ EXPECT_CALL
 *
 sw_
 SetFecControllerOverride
-(
-&
-fec_controller_override1
 )
+.
+Times
+(
+0
 )
 ;
 EXPECT_CALL
@@ -5905,7 +5906,7 @@ SetFecControllerOverride
 .
 Times
 (
-0
+1
 )
 ;
 wrapper_
@@ -6074,10 +6075,11 @@ EXPECT_CALL
 *
 hw_
 SetFecControllerOverride
-(
-&
-fec_controller_override2
 )
+.
+Times
+(
+0
 )
 ;
 EXPECT_CALL
