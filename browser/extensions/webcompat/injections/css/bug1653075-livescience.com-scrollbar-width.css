@@ -80,17 +80,6 @@ issue
 .
 *
 /
-media
-screen
-and
-(
-max
--
-width
-:
-900px
-)
-{
 .
 trending__wrapper
 .
@@ -119,5 +108,4 @@ f9ae3b
 #
 f5f5f5
 ;
-}
 }
