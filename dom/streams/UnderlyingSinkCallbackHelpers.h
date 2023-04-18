@@ -7,17 +7,6 @@ mozilla_dom_UnderlyingSinkCallbackHelpers_h
 #
 include
 "
-js
-/
-loader
-/
-ModuleMapKey
-.
-h
-"
-#
-include
-"
 mozilla
 /
 HoldDropJSObjects

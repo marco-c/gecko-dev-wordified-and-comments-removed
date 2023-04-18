@@ -116,13 +116,6 @@ MozPromise
 .
 h
 "
-#
-include
-"
-ModuleMapKey
-.
-h
-"
 class
 nsIURI
 ;
@@ -355,7 +348,7 @@ GenericPromise
 ;
 nsRefPtrHashtable
 <
-ModuleMapKey
+nsURIHashKey
 GenericNonExclusivePromise
 :
 :
@@ -365,7 +358,7 @@ mFetchingModules
 ;
 nsRefPtrHashtable
 <
-ModuleMapKey
+nsURIHashKey
 ModuleScript
 >
 mFetchedModules
@@ -974,9 +967,6 @@ ModuleMapContainsURL
 nsIURI
 *
 aURL
-nsIGlobalObject
-*
-aGlobal
 )
 const
 ;
@@ -986,9 +976,6 @@ IsModuleFetching
 nsIURI
 *
 aURL
-nsIGlobalObject
-*
-aGlobal
 )
 const
 ;
@@ -1001,9 +988,6 @@ WaitForModuleFetch
 nsIURI
 *
 aURL
-nsIGlobalObject
-*
-aGlobal
 )
 ;
 void
@@ -1021,9 +1005,6 @@ GetFetchedModule
 nsIURI
 *
 aURL
-nsIGlobalObject
-*
-aGlobal
 )
 const
 ;
