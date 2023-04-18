@@ -1,9 +1,3 @@
-from
-wptserve
-.
-utils
-import
-isomorphic_encode
 def
 handle_headers
 (
