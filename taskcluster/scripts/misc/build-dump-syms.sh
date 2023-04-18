@@ -380,14 +380,6 @@ verbose
 -
 -
 release
--
--
-features
-"
-vendored
--
-openssl
-"
 ;
 ;
 esac
