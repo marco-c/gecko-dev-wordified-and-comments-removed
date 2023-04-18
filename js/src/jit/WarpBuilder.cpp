@@ -16442,6 +16442,11 @@ callInfo
 )
 ;
 }
+bool
+needsThisCheck
+=
+false
+;
 MInstruction
 *
 call
@@ -16449,6 +16454,7 @@ call
 makeSpreadCall
 (
 callInfo
+needsThisCheck
 )
 ;
 if
@@ -16537,6 +16543,11 @@ buildCreateThis
 callInfo
 )
 ;
+bool
+needsThisCheck
+=
+true
+;
 MInstruction
 *
 call
@@ -16544,6 +16555,7 @@ call
 makeSpreadCall
 (
 callInfo
+needsThisCheck
 )
 ;
 if

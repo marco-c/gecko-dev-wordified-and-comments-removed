@@ -7633,7 +7633,12 @@ undefinedVal_
 bool
 needsThisCheck
 =
-true
+ins
+-
+>
+needsThisCheck
+(
+)
 ;
 bool
 isDOMCall
