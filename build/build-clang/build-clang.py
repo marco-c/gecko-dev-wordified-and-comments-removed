@@ -1802,21 +1802,6 @@ and
 is_final_stage
 :
             
-cmake_args
-+
-=
-[
-"
--
-DLLVM_BINUTILS_INCDIR
-=
-/
-usr
-/
-include
-"
-]
-            
 sysroot
 =
 os
@@ -1852,6 +1837,21 @@ exists
 sysroot
 )
 :
+                
+cmake_args
++
+=
+[
+"
+-
+DLLVM_BINUTILS_INCDIR
+=
+/
+usr
+/
+include
+"
+]
                 
 cmake_args
 +
