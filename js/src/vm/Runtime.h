@@ -3636,14 +3636,6 @@ ref
 )
 ;
 }
-bool
-initMainAtomsTables
-(
-JSContext
-*
-cx
-)
-;
 void
 tracePermanentThingsDuringInit
 (
