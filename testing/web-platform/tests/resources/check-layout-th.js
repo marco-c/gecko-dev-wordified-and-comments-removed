@@ -115,6 +115,12 @@ expected
 )
 |
 |
+isNaN
+(
+actual
+)
+|
+|
 Math
 .
 abs
