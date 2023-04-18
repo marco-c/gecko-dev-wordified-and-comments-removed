@@ -140,6 +140,10 @@ System
 env
 .
 MOZILLABUILD
+.
+toLowerCase
+(
+)
 if
 (
 mozillabuild
@@ -158,7 +162,7 @@ mozillabuild
 /
 python3
 /
-python
+python3
 .
 exe
 "
