@@ -863,6 +863,14 @@ hosting
 "
 gitlab
 "
+                            
+"
+tracking
+"
+:
+"
+commit
+"
                         
 }
                         
@@ -893,14 +901,6 @@ a
 example
 .
 com
-"
-                            
-"
-tracking
-"
-:
-"
-commit
 "
                             
 "
@@ -1201,6 +1201,14 @@ hosting
 "
 gitlab
 "
+                            
+"
+tracking
+"
+:
+"
+commit
+"
                         
 }
                         
@@ -1231,14 +1239,6 @@ a
 example
 .
 com
-"
-                            
-"
-tracking
-"
-:
-"
-commit
 "
                             
 "
@@ -1419,6 +1419,10 @@ example
 .
 com
   
+tracking
+:
+commit
+  
 source
 -
 hosting
@@ -1451,10 +1455,6 @@ a
 example
 .
 com
-  
-tracking
-:
-commit
   
 tasks
 :
@@ -1661,6 +1661,14 @@ com
 "
                             
 "
+tracking
+"
+:
+"
+commit
+"
+                            
+"
 source
 -
 hosting
@@ -1699,14 +1707,6 @@ a
 example
 .
 com
-"
-                            
-"
-tracking
-"
-:
-"
-commit
 "
                             
 "

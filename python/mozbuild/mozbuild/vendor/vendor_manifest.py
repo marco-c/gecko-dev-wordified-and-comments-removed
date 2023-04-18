@@ -138,7 +138,7 @@ get_source_host
         
 if
 "
-updatebot
+vendoring
 "
 in
 self
@@ -153,7 +153,7 @@ self
 manifest
 [
 "
-updatebot
+vendoring
 "
 ]
 [
