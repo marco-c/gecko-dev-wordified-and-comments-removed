@@ -1,0 +1,14 @@
+test
+(
+(
+)
+=
+>
+testReferrerPolicy
+(
+"
+origin
+"
+)
+)
+;
