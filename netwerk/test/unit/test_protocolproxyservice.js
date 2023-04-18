@@ -167,12 +167,6 @@ iid
 )
 ;
 }
-lockFactory
-(
-lock
-)
-{
-}
 }
 ;
 function

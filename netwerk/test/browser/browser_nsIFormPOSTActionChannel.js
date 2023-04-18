@@ -221,11 +221,6 @@ aIID
 )
 ;
 }
-lockFactory
-(
-)
-{
-}
 QueryInterface
 :
 ChromeUtils
