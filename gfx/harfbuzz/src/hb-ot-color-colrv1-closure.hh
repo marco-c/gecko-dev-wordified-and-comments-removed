@@ -108,7 +108,10 @@ Paint
 &
 paint
 =
-hb_addressof
+std
+:
+:
+addressof
 (
 paint_offset_lists
 )

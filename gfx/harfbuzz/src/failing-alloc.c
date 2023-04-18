@@ -12,6 +12,16 @@ stdio
 .
 h
 >
+#
+ifdef
+__cplusplus
+extern
+"
+C
+"
+{
+#
+endif
 int
 alloc_state
 =
@@ -160,3 +170,9 @@ ptr
 )
 ;
 }
+#
+ifdef
+__cplusplus
+}
+#
+endif

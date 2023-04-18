@@ -3929,7 +3929,14 @@ buffer
 buffer
 -
 >
-unsafe_to_break_all
+clear_glyph_flags
+(
+)
+;
+buffer
+-
+>
+unsafe_to_break
 (
 )
 ;

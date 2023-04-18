@@ -1173,7 +1173,6 @@ axisCount
 sub_array
 (
 0
-*
 coords_length
 )
 ;

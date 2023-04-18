@@ -2303,7 +2303,7 @@ print
 buffer
 -
 >
-swap_buffers
+sync
 (
 )
 ;

@@ -336,7 +336,7 @@ buffer
 buffer
 -
 >
-safe_to_break_all
+clear_glyph_flags
 (
 )
 ;

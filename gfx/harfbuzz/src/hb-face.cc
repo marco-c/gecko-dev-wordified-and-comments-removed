@@ -280,8 +280,7 @@ hb_blob_t
 *
 blob
 ;
-unsigned
-int
+uint16_t
 index
 ;
 }
@@ -342,7 +341,14 @@ closure
 >
 index
 =
+(
+uint16_t
+)
+(
 index
+&
+0xFFFFu
+)
 ;
 return
 closure

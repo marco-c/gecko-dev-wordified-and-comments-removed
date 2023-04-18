@@ -1383,7 +1383,7 @@ end
 buffer
 -
 >
-swap_buffers
+sync
 (
 )
 ;

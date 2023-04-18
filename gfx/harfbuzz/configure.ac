@@ -14,7 +14,7 @@ HarfBuzz
 [
 3
 .
-1
+3
 .
 2
 ]
@@ -419,6 +419,8 @@ sysconf
 getpagesize
 mmap
 isatty
+newlocale
+uselocale
 )
 AC_CHECK_HEADERS
 (
@@ -431,6 +433,9 @@ mman
 .
 h
 stdbool
+.
+h
+xlocale
 .
 h
 )
