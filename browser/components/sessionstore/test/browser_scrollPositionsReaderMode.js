@@ -105,16 +105,6 @@ restore_on_demand
 "
 true
 ]
-[
-"
-dom
-.
-visualviewport
-.
-enabled
-"
-true
-]
 )
 ;
 let

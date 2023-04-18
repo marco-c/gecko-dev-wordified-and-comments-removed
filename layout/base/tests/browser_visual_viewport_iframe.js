@@ -87,16 +87,6 @@ enabled
 "
 true
 ]
-[
-"
-dom
-.
-visualviewport
-.
-enabled
-"
-true
-]
 ]
 }
 )
