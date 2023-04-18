@@ -4039,7 +4039,7 @@ OffscreenCanvas
 insecureContext
 :
 true
-nightly
+disabled
 :
 true
 }
