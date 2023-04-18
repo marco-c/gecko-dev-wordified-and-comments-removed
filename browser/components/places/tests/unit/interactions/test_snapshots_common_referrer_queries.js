@@ -79,8 +79,7 @@ com
 "
 referrer
 =
-"
-"
+null
 }
 =
 {
