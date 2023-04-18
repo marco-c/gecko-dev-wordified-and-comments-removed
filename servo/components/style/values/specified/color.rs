@@ -1758,8 +1758,6 @@ MozMacMenutextdisable
 MozMacMenutextselect
 MozMacDisabledtoolbartext
 MozMacSecondaryhighlight
-MozMacVibrantTitlebarLight
-MozMacVibrantTitlebarDark
 MozMacMenupopup
 MozMacMenuitem
 MozMacActiveMenuitem
