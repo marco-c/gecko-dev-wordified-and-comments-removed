@@ -224,7 +224,7 @@ font
 )
 ;
 const
-iframeFontMetadata
+iframeFontData
 =
 iframeFonts
 [
@@ -246,7 +246,7 @@ remove
 (
 )
 ;
-iframeFontMetadata
+iframeFontData
 .
 blob
 (
@@ -254,7 +254,7 @@ blob
 ;
 }
 '
-FontMetadata
+FontData
 .
 blob
 (

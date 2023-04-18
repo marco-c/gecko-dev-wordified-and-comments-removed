@@ -29,10 +29,10 @@ fonts
 .
 map
 (
-fontMetadata
+fontData
 =
 >
-fontMetadata
+fontData
 .
 postscriptName
 )

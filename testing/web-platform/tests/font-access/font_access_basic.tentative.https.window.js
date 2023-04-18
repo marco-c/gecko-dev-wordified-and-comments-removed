@@ -77,12 +77,12 @@ assert_true
 (
 font
 instanceof
-FontMetadata
+FontData
 '
 Results
 should
 be
-FontMetadata
+FontData
 instances
 '
 )
@@ -227,7 +227,7 @@ query
 (
 )
 :
-FontMetadata
+FontData
 property
 types
 and
