@@ -21,6 +21,17 @@ pathlib
 import
 Path
 from
+typing
+import
+Optional
+Union
+from
+mach
+.
+util
+import
+to_optional_path
+from
 mozfile
 import
 which
@@ -253,8 +264,21 @@ def
 get_tool_path
 (
 tool
+:
+Union
+[
+str
+Path
+]
 )
 :
+    
+tool
+=
+Path
+(
+tool
+)
     
 "
 "
@@ -270,33 +294,36 @@ tool
 "
     
 if
-os
-.
-path
-.
-isabs
-(
 tool
+.
+is_absolute
+(
 )
 and
-os
-.
-path
+tool
 .
 exists
 (
-tool
 )
 :
         
 return
+str
+(
 tool
+)
     
 path
 =
+to_optional_path
+(
 which
 (
+str
+(
 tool
+)
+)
 )
     
 if
@@ -308,12 +335,14 @@ raise
 MissingVCSTool
 (
             
+f
 "
 Unable
 to
 obtain
-%
-s
+{
+tool
+}
 path
 .
 Try
@@ -338,78 +367,13 @@ to
 date
 .
 "
-%
-tool
         
 )
     
 return
-path
-def
-_paths_equal
+str
 (
-a
-b
-)
-:
-    
-"
-"
-"
-Return
-True
-iff
-the
-two
-paths
-refer
-to
-the
-"
-same
-"
-file
-on
-disk
-.
-"
-"
-"
-    
-return
-os
-.
 path
-.
-normpath
-(
-os
-.
-path
-.
-realpath
-(
-a
-)
-)
-=
-=
-os
-.
-path
-.
-normpath
-(
-        
-os
-.
-path
-.
-realpath
-(
-b
-)
-    
 )
 class
 Repository
@@ -491,7 +455,11 @@ __init__
 (
 self
 path
+:
+Path
 tool
+:
+str
 )
 :
         
@@ -499,22 +467,25 @@ self
 .
 path
 =
-os
-.
-path
-.
-abspath
+str
 (
 path
+.
+resolve
+(
+)
 )
         
 self
 .
 _tool
 =
+Path
+(
 get_tool_path
 (
 tool
+)
 )
         
 self
@@ -601,9 +572,12 @@ return_codes
 cmd
 =
 (
+str
+(
 self
 .
 _tool
+)
 )
 +
 args
@@ -1331,6 +1305,12 @@ add_remove_files
 self
 *
 paths
+:
+Union
+[
+str
+Path
+]
 )
 :
         
@@ -1365,6 +1345,12 @@ forget_add_remove_files
 self
 *
 paths
+:
+Union
+[
+str
+Path
+]
 )
 :
         
@@ -1557,6 +1543,12 @@ clean_directory
 (
 self
 path
+:
+Union
+[
+str
+Path
+]
 )
 :
         
@@ -1929,6 +1921,8 @@ __init__
 (
 self
 path
+:
+Path
 hg
 =
 "
@@ -1973,9 +1967,12 @@ hglib
 .
 HGPATH
 =
+str
+(
 self
 .
 _tool
+)
         
 self
 .
@@ -2124,34 +2121,29 @@ self
         
 bookmarks_fn
 =
-os
-.
-path
-.
-join
+Path
 (
 self
 .
 path
+)
+/
 "
 .
 hg
 "
+/
 "
 bookmarks
 .
 current
 "
-)
         
 if
-os
-.
-path
+bookmarks_fn
 .
 exists
 (
-bookmarks_fn
 )
 :
             
@@ -2199,9 +2191,9 @@ None
             
 old_cwd
 =
-os
+Path
 .
-getcwd
+cwd
 (
 )
             
@@ -2488,34 +2480,31 @@ self
         
 sparse
 =
-os
-.
-path
-.
-join
+Path
 (
 self
 .
 path
+)
+/
 "
 .
 hg
 "
+/
 "
 sparse
 "
-)
         
 try
 :
             
 st
 =
-os
+sparse
 .
 stat
 (
-sparse
 )
             
 return
@@ -3006,6 +2995,12 @@ add_remove_files
 self
 *
 paths
+:
+Union
+[
+str
+Path
+]
 )
 :
         
@@ -3016,6 +3011,19 @@ paths
             
 return
         
+paths
+=
+[
+str
+(
+path
+)
+for
+path
+in
+paths
+]
+        
 args
 =
 [
@@ -3024,10 +3032,7 @@ addremove
 "
 ]
 +
-list
-(
 paths
-)
         
 m
 =
@@ -3108,6 +3113,12 @@ forget_add_remove_files
 self
 *
 paths
+:
+Union
+[
+str
+Path
+]
 )
 :
         
@@ -3117,6 +3128,19 @@ paths
 :
             
 return
+        
+paths
+=
+[
+str
+(
+path
+)
+for
+path
+in
+paths
+]
         
 self
 .
@@ -3280,15 +3304,25 @@ clean_directory
 (
 self
 path
+:
+Union
+[
+str
+Path
+]
 )
 :
         
 if
-_paths_equal
+Path
 (
 self
 .
 path
+)
+.
+samefile
+(
 path
 )
 :
@@ -3305,11 +3339,14 @@ _run
 "
 revert
 "
+str
+(
 path
+)
 )
         
 for
-f
+single_path
 in
 self
 .
@@ -3322,7 +3359,10 @@ st
 -
 un
 "
+str
+(
 path
+)
 )
 .
 splitlines
@@ -3330,22 +3370,25 @@ splitlines
 )
 :
             
-if
-os
-.
-path
-.
-isfile
+single_path
+=
+Path
 (
-f
+single_path
+)
+            
+if
+single_path
+.
+is_file
+(
 )
 :
                 
-os
+single_path
 .
-remove
+unlink
 (
-f
 )
             
 else
@@ -3355,7 +3398,10 @@ shutil
 .
 rmtree
 (
-f
+str
+(
+single_path
+)
 )
     
 def
@@ -3399,9 +3445,12 @@ check_call
 (
                 
 (
+str
+(
 self
 .
 _tool
+)
 "
 push
 -
@@ -3415,11 +3464,13 @@ m
 "
 message
 )
+                
 cwd
 =
 self
 .
 path
+                
 env
 =
 self
@@ -3517,6 +3568,8 @@ __init__
 (
 self
 path
+:
+Path
 git
 =
 "
@@ -4234,6 +4287,12 @@ add_remove_files
 self
 *
 paths
+:
+Union
+[
+str
+Path
+]
 )
 :
         
@@ -4243,6 +4302,19 @@ paths
 :
             
 return
+        
+paths
+=
+[
+str
+(
+path
+)
+for
+path
+in
+paths
+]
         
 self
 .
@@ -4261,6 +4333,12 @@ forget_add_remove_files
 self
 *
 paths
+:
+Union
+[
+str
+Path
+]
 )
 :
         
@@ -4270,6 +4348,19 @@ paths
 :
             
 return
+        
+paths
+=
+[
+str
+(
+path
+)
+for
+path
+in
+paths
+]
         
 self
 .
@@ -4428,15 +4519,25 @@ clean_directory
 (
 self
 path
+:
+Union
+[
+str
+Path
+]
 )
 :
         
 if
-_paths_equal
+Path
 (
 self
 .
 path
+)
+.
+samefile
+(
 path
 )
 :
@@ -4457,7 +4558,10 @@ checkout
 -
 -
 "
+str
+(
 path
+)
 )
         
 self
@@ -4471,7 +4575,10 @@ clean
 -
 df
 "
+str
+(
 path
+)
 )
     
 def
@@ -4559,9 +4666,12 @@ check_call
                 
 (
                     
+str
+(
 self
 .
 _tool
+)
                     
 "
 push
@@ -4648,6 +4758,15 @@ def
 get_repository_object
 (
 path
+:
+Optional
+[
+Union
+[
+str
+Path
+]
+]
 hg
 =
 "
@@ -4694,8 +4813,6 @@ exception
     
 path
 =
-str
-(
 Path
 (
 path
@@ -4704,27 +4821,19 @@ path
 resolve
 (
 )
-)
     
 if
-os
-.
-path
-.
-isdir
-(
-os
-.
-path
-.
-join
 (
 path
+/
 "
 .
 hg
 "
 )
+.
+is_dir
+(
 )
 :
         
@@ -4738,24 +4847,17 @@ hg
 )
     
 elif
-os
-.
-path
-.
-exists
-(
-os
-.
-path
-.
-join
 (
 path
+/
 "
 .
 git
 "
 )
+.
+exists
+(
 )
 :
         
@@ -4774,6 +4876,7 @@ else
 raise
 InvalidRepoPath
 (
+f
 "
 Unknown
 VCS
@@ -4783,11 +4886,10 @@ a
 source
 checkout
 :
-%
-s
-"
-%
+{
 path
+}
+"
 )
 def
 get_repository_from_build_config
@@ -4891,9 +4993,12 @@ hg
 return
 HgRepository
 (
+Path
+(
 config
 .
 topsrcdir
+)
 hg
 =
 config
@@ -4918,9 +5023,12 @@ git
 return
 GitRepository
 (
+Path
+(
 config
 .
 topsrcdir
+)
 git
 =
 config
@@ -5041,53 +5149,28 @@ ImportError
         
 pass
     
-def
-ancestors
-(
-path
-)
-:
-        
-while
-path
-:
-            
-yield
-path
-            
-path
-child
+paths_to_check
 =
-os
+[
+Path
 .
-path
-.
-split
+cwd
 (
-path
 )
-            
-if
-child
-=
-=
-"
-"
-:
-                
-break
+*
+Path
+.
+cwd
+(
+)
+.
+parents
+]
     
 for
 path
 in
-ancestors
-(
-os
-.
-getcwd
-(
-)
-)
+paths_to_check
 :
         
 try
@@ -5108,7 +5191,7 @@ continue
 raise
 MissingVCSInfo
 (
-        
+f
 "
 Could
 not
@@ -5118,14 +5201,12 @@ or
 Git
 checkout
 for
-%
-s
-"
-%
-os
+{
+Path
 .
-getcwd
+cwd
 (
 )
-    
+}
+"
 )

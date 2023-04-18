@@ -3,8 +3,14 @@ __future__
 import
 absolute_import
 unicode_literals
+from
+pathlib
 import
-os
+Path
+from
+typing
+import
+Union
 import
 subprocess
 def
@@ -12,16 +18,29 @@ update_mercurial_repo
 (
     
 hg
+:
+str
+    
 repo
+    
 path
+:
+Union
+[
+str
+Path
+]
+    
 revision
 =
 "
 default
 "
+    
 hostfingerprints
 =
 None
+    
 global_args
 =
 None
@@ -55,6 +74,13 @@ hostfingerprints
 or
 {
 }
+    
+path
+=
+Path
+(
+path
+)
     
 args
 =
@@ -115,13 +141,10 @@ fingerprint
 )
     
 if
-os
-.
 path
 .
 exists
 (
-path
 )
 :
         
@@ -139,7 +162,10 @@ repo
 ]
 cwd
 =
+str
+(
 path
+)
 )
     
 else
@@ -156,7 +182,10 @@ args
 clone
 "
 repo
+str
+(
 path
+)
 ]
 )
     
@@ -177,5 +206,8 @@ revision
 ]
 cwd
 =
+str
+(
 path
+)
 )
