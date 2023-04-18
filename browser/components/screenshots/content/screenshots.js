@@ -343,7 +343,7 @@ click
 &
 event
 .
-target
+currentTarget
 =
 =
 this
@@ -373,7 +373,7 @@ click
 &
 event
 .
-target
+currentTarget
 =
 =
 this
@@ -417,7 +417,7 @@ click
 &
 event
 .
-target
+currentTarget
 =
 =
 this
@@ -462,7 +462,7 @@ click
 &
 event
 .
-target
+currentTarget
 =
 =
 this
