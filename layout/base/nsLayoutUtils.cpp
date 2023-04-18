@@ -11668,7 +11668,7 @@ return
 ctm
 ;
 }
-gfxSize
+MatrixScalesDouble
 nsLayoutUtils
 :
 :
@@ -11717,17 +11717,11 @@ transform2D
 ScaleFactors
 (
 )
-.
-ToSize
-(
-)
 ;
 }
 return
-gfxSize
+MatrixScalesDouble
 (
-1
-1
 )
 ;
 }

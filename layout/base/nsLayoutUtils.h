@@ -2161,7 +2161,7 @@ aFrame
 )
 ;
 static
-gfxSize
+MatrixScalesDouble
 GetTransformToAncestorScaleExcludingAnimated
 (
 nsIFrame
