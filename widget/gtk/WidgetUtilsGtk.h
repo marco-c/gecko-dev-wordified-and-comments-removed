@@ -142,6 +142,7 @@ FilePicker
 MimeHandler
 Settings
 Location
+OpenUri
 }
 ;
 bool
