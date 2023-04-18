@@ -316,6 +316,7 @@ eUnknown
 eInline
 eEval
 eSelf
+eWasmEval
 }
 ;
 nsresult
