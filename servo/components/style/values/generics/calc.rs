@@ -105,6 +105,7 @@ SortKey
 {
 Number
 Percentage
+Cap
 Ch
 Deg
 Em
