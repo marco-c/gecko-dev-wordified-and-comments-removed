@@ -2045,6 +2045,8 @@ bool
 set_client_config
 bool
 set_server_config
+int
+max_name_len
 )
 {
 EXPECT_TRUE
@@ -2095,7 +2097,7 @@ public
 .
 name
 "
-100
+max_name_len
 record
 pub
 priv

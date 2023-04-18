@@ -1,9 +1,9 @@
 #
 ifndef
-GOOGLETEST_INCLUDE_GTEST_GTEST_MESSAGE_H_
+GTEST_INCLUDE_GTEST_GTEST_MESSAGE_H_
 #
 define
-GOOGLETEST_INCLUDE_GTEST_GTEST_MESSAGE_H_
+GTEST_INCLUDE_GTEST_GTEST_MESSAGE_H_
 #
 include
 <
@@ -13,11 +13,6 @@ limits
 include
 <
 memory
->
-#
-include
-<
-sstream
 >
 #
 include
@@ -35,7 +30,6 @@ h
 GTEST_DISABLE_MSC_WARNINGS_PUSH_
 (
 4251
-\
 )
 void
 operator

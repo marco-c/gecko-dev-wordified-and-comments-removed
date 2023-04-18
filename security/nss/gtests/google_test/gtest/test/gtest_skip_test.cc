@@ -24,13 +24,6 @@ DoesSkip
 GTEST_SKIP
 (
 )
-<
-<
-"
-skipping
-single
-test
-"
 ;
 EXPECT_EQ
 (

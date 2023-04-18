@@ -367,27 +367,6 @@ auto
 '
 )
     
-SetEnvVar
-(
-'
-TESTBRIDGE_TEST_RUNNER_FAIL_FAST
-'
-None
-)
-    
-TestFlag
-(
-'
-fail_fast
-'
-'
-1
-'
-'
-0
-'
-)
-    
 TestFlag
 (
 '
@@ -426,19 +405,6 @@ foo
 xml
 '
 '
-'
-)
-    
-TestFlag
-(
-'
-brief
-'
-'
-1
-'
-'
-0
 '
 )
     
