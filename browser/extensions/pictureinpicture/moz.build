@@ -223,6 +223,15 @@ video
 -
 wrappers
 /
+hulu
+.
+js
+"
+"
+video
+-
+wrappers
+/
 mock
 -
 wrapper

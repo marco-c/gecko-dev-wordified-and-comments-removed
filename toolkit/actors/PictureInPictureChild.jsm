@@ -5831,9 +5831,14 @@ return
 }
 if
 (
-video
+this
 .
-muted
+constructor
+.
+videoIsMuted
+(
+video
+)
 )
 {
 this
@@ -9156,6 +9161,7 @@ sandbox
 .
 PictureInPictureVideoWrapper
 (
+video
 )
 .
 wrappedJSObject
