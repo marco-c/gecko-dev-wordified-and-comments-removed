@@ -2950,14 +2950,8 @@ NS_ASSERTION
 child
 -
 >
-GetParent
+ComputeIndexInParentContent
 (
-)
--
->
-ComputeIndexOf
-(
-child
 )
 .
 isSome
