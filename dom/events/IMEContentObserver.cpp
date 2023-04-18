@@ -5137,6 +5137,10 @@ mNeedsToNotifyIMEOfTextChange
 =
 true
 ;
+mNeedsToNotifyIMEOfSelectionChange
+=
+true
+;
 }
 void
 IMEContentObserver
@@ -6963,13 +6967,6 @@ false
 SendTextChange
 (
 )
-;
-observer
--
->
-mNeedsToNotifyIMEOfSelectionChange
-=
-true
 ;
 }
 if
