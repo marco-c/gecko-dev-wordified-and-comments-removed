@@ -11,6 +11,14 @@ derive
 )
 ]
 #
+!
+[
+allow
+(
+dead_code
+)
+]
+#
 [
 derive
 (
