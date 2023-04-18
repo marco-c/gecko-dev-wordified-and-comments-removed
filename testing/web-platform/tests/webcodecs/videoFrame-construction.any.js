@@ -1944,6 +1944,9 @@ displayWidth
 displayHeight
 :
 20
+timestamp
+:
+0
 }
 )
 ;
@@ -2070,6 +2073,9 @@ displayWidth
 displayHeight
 :
 20
+timestamp
+:
+0
 }
 )
 ;
@@ -4195,6 +4201,11 @@ new
 VideoFrame
 (
 canvas
+{
+timestamp
+:
+0
+}
 )
 ;
 assert_equals
@@ -4738,6 +4749,11 @@ new
 VideoFrame
 (
 canvas
+{
+timestamp
+:
+0
+}
 )
 ;
 assert_true
@@ -4802,6 +4818,9 @@ alpha
 '
 discard
 '
+timestamp
+:
+0
 }
 )
 ;

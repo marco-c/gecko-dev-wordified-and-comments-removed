@@ -485,6 +485,11 @@ new
 VideoFrame
 (
 canvas
+{
+timestamp
+:
+0
+}
 )
 ;
 let

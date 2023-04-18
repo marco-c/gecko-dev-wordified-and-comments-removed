@@ -25,6 +25,11 @@ new
 VideoFrame
 (
 canvas
+{
+timestamp
+:
+0
+}
 )
 ;
 }
