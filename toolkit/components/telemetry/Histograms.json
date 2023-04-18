@@ -3510,7 +3510,7 @@ expires_in_version
 "
 :
 "
-98
+104
 "
 "
 bug_numbers
@@ -3518,6 +3518,7 @@ bug_numbers
 :
 [
 1688078
+1745268
 ]
 "
 kind
@@ -3594,7 +3595,7 @@ alert_emails
 :
 [
 "
-kmadan
+barret
 mozilla
 .
 com
@@ -3615,7 +3616,7 @@ expires_in_version
 "
 :
 "
-98
+104
 "
 "
 bug_numbers
@@ -3623,6 +3624,7 @@ bug_numbers
 :
 [
 1722103
+1745268
 ]
 "
 kind
@@ -3716,7 +3718,7 @@ expires_in_version
 "
 :
 "
-98
+104
 "
 "
 bug_numbers
@@ -3724,6 +3726,7 @@ bug_numbers
 :
 [
 1688082
+1745268
 ]
 "
 kind
