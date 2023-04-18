@@ -505,6 +505,8 @@ export
 DEPOT_TOOLS_WIN_TOOLCHAIN
 =
 0
+unset
+ANSICON
 CONFIGS
 =
 "
