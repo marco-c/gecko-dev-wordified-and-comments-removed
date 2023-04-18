@@ -56,7 +56,7 @@ StartupCache
 cache
 nsACString
 &
-uri
+cachePath
 JSContext
 *
 cx
@@ -90,7 +90,7 @@ StartupCache
 cache
 nsACString
 &
-uri
+cachePath
 JSContext
 *
 cx
