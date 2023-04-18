@@ -63,13 +63,6 @@ namespace
 mozilla
 {
 namespace
-dom
-{
-class
-BrowsingContext
-;
-}
-namespace
 a11y
 {
 class
@@ -1476,8 +1469,7 @@ mUniqueID
 dom
 :
 :
-BrowsingContext
-*
+MaybeDiscardedBrowsingContext
 mBrowsingContext
 ;
 uint32_t
