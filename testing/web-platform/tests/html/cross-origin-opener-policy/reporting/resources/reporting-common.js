@@ -1466,7 +1466,7 @@ const
 openee_headers
 =
 [
-getReportToHeader
+getReportingEndpointsHeader
 (
 host
 .
