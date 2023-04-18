@@ -583,17 +583,6 @@ gecko_e10s
 ]
             
 "
-enable_webrender
-"
-:
-kwargs
-[
-"
-enable_webrender
-"
-]
-            
-"
 enable_fission
 "
 :
@@ -1227,13 +1216,6 @@ headless
 kwargs
 [
 "
-enable_webrender
-"
-]
-                                  
-kwargs
-[
-"
 chaos_mode_flags
 "
 ]
@@ -1847,9 +1829,6 @@ os
 debug
 "
 "
-webrender
-"
-"
 fission
 "
 "
@@ -1892,7 +1871,6 @@ binary
 debug_info
 stylo_threads
 headless
-enable_webrender
                 
 chaos_mode_flags
 =
@@ -1993,46 +1971,6 @@ MOZ_HEADLESS
 =
 "
 1
-"
-    
-if
-enable_webrender
-:
-        
-env
-[
-"
-MOZ_WEBRENDER
-"
-]
-=
-"
-1
-"
-        
-env
-[
-"
-MOZ_ACCELERATED
-"
-]
-=
-"
-1
-"
-    
-else
-:
-        
-env
-[
-"
-MOZ_WEBRENDER
-"
-]
-=
-"
-0
 "
     
 return
@@ -2159,7 +2097,6 @@ debug_info
                  
 chaos_mode_flags
 headless
-enable_webrender
 stylo_threads
                  
 leak_check
@@ -2231,12 +2168,6 @@ self
 headless
 =
 headless
-        
-self
-.
-enable_webrender
-=
-enable_webrender
         
 self
 .
@@ -2492,9 +2423,6 @@ stylo_threads
 self
 .
 headless
-self
-.
-enable_webrender
 self
 .
 chaos_mode_flags
@@ -5516,9 +5444,6 @@ None
 e10s
 =
 False
-enable_webrender
-=
-False
 enable_fission
 =
 True
@@ -5707,8 +5632,6 @@ debug_info
 chaos_mode_flags
                                                      
 headless
-                                                     
-enable_webrender
                                                      
 stylo_threads
                                                      

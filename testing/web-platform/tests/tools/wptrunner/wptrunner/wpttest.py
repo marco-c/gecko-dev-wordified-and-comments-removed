@@ -604,10 +604,6 @@ None
 extras
 =
 None
-                 
-enable_webrender
-=
-False
 )
 :
         
@@ -827,15 +823,6 @@ headless
 ]
 =
 False
-        
-self
-[
-"
-webrender
-"
-]
-=
-enable_webrender
     
 def
 _update_mozinfo
