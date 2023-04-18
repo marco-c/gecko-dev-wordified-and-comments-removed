@@ -18601,6 +18601,8 @@ nsDOMWindowUtils
 :
 ExitFullscreen
 (
+bool
+aDontRestoreViewSize
 )
 {
 PROFILER_MARKER_UNTYPED
@@ -18658,6 +18660,12 @@ PrepareForFullscreenChange
 GetDocShell
 (
 )
+aDontRestoreViewSize
+?
+nsSize
+(
+)
+:
 oldSize
 )
 ;
