@@ -435,9 +435,3 @@ wrappedJSObject
 ;
 }
 ;
-this
-.
-ChannelEventSinkFactory
-=
-ChannelEventSinkFactory
-;

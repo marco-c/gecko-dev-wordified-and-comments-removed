@@ -3200,9 +3200,3 @@ NetworkObserver
 "
 ]
 ;
-this
-.
-NetworkObserver
-=
-NetworkObserver
-;
