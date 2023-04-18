@@ -136,7 +136,10 @@ aCallerType
 ;
 KeepAliveIfHasListenersFor
 (
-ONCHANGE_STRING
+nsGkAtoms
+:
+:
+onchange
 )
 ;
 }
@@ -443,7 +446,10 @@ DisconnectFromOwner
 ;
 IgnoreKeepAliveIfHasListenersFor
 (
-ONCHANGE_STRING
+nsGkAtoms
+:
+:
+onchange
 )
 ;
 }
