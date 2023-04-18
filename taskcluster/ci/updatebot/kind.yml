@@ -597,6 +597,11 @@ runtime
 .
 manifest
 "
+MSYSTEM
+:
+"
+MINGW64
+"
 run
 :
 using
