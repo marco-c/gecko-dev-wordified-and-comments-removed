@@ -48,6 +48,8 @@ webpack
 :
 webpack
 -
+cli
+-
 -
 config
 webpack
@@ -79,6 +81,8 @@ map
 welcomeBundle
 :
 webpack
+-
+cli
 -
 -
 config
