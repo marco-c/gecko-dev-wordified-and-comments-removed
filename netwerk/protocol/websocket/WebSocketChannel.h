@@ -401,11 +401,6 @@ Shutdown
 (
 )
 ;
-bool
-IsOnTargetThread
-(
-)
-;
 void
 GetEffectiveURL
 (

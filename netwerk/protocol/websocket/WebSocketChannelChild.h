@@ -419,11 +419,6 @@ AsyncOpenFailed
 (
 )
 ;
-bool
-IsOnTargetThread
-(
-)
-;
 void
 MaybeReleaseIPCObject
 (
