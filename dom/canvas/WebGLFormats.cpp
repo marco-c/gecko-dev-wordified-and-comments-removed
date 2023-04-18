@@ -8495,7 +8495,7 @@ FOO
 DEPTH_COMPONENT16
 )
 true
-true
+false
 )
 ;
 fnAllowES3TexFormat
@@ -8505,7 +8505,7 @@ FOO
 DEPTH_COMPONENT24
 )
 true
-true
+false
 )
 ;
 fnAllowES3TexFormat
@@ -8515,7 +8515,7 @@ FOO
 DEPTH_COMPONENT32F
 )
 true
-true
+false
 )
 ;
 fnAllowES3TexFormat
@@ -8525,7 +8525,7 @@ FOO
 DEPTH24_STENCIL8
 )
 true
-true
+false
 )
 ;
 fnAllowES3TexFormat
@@ -8535,7 +8535,7 @@ FOO
 DEPTH32F_STENCIL8
 )
 true
-true
+false
 )
 ;
 #
