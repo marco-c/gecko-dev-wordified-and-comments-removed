@@ -498,6 +498,7 @@ pic_index
 assign_surface
 (
 frame_context
+parent_surface_index
 tile_caches
 surfaces
 )

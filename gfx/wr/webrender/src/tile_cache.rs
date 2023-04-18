@@ -6,6 +6,7 @@ api
 ColorF
 PrimitiveFlags
 QualitySettings
+RasterSpace
 }
 ;
 use
@@ -2181,6 +2182,10 @@ PrimitiveFlags
 IS_BACKFACE_VISIBLE
 prim_list
 scroll_root
+RasterSpace
+:
+:
+Screen
 )
 )
 ;

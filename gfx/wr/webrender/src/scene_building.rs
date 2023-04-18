@@ -1029,6 +1029,9 @@ SpatialNodeIndex
 flags
 :
 PrimitiveFlags
+raster_space
+:
+RasterSpace
 }
 impl
 PictureChainBuilder
@@ -1045,6 +1048,9 @@ PrimitiveFlags
 spatial_node_index
 :
 SpatialNodeIndex
+raster_space
+:
+RasterSpace
 )
 -
 >
@@ -1063,6 +1069,7 @@ prim_list
 }
 spatial_node_index
 flags
+raster_space
 }
 }
 fn
@@ -1077,6 +1084,9 @@ PrimitiveFlags
 spatial_node_index
 :
 SpatialNodeIndex
+raster_space
+:
+RasterSpace
 )
 -
 >
@@ -1095,6 +1105,7 @@ instance
 }
 flags
 spatial_node_index
+raster_space
 }
 }
 #
@@ -1239,6 +1250,9 @@ prim_list
 self
 .
 spatial_node_index
+self
+.
+raster_space
 )
 )
 )
@@ -1285,6 +1299,11 @@ flags
 self
 .
 flags
+raster_space
+:
+self
+.
+raster_space
 }
 }
 fn
@@ -1378,6 +1397,9 @@ prim_list
 self
 .
 spatial_node_index
+self
+.
+raster_space
 )
 )
 )
@@ -7962,6 +7984,9 @@ StackingContextFlags
 IS_BACKDROP_ROOT
 )
 flags
+raster_space
+:
+new_space
 }
 )
 ;
@@ -8299,6 +8324,9 @@ prim_list
 stacking_context
 .
 spatial_node_index
+stacking_context
+.
+raster_space
 )
 )
 )
@@ -8337,6 +8365,9 @@ prim_flags
 stacking_context
 .
 spatial_node_index
+stacking_context
+.
+raster_space
 )
 }
 Picture3DContext
@@ -8369,6 +8400,9 @@ prim_flags
 stacking_context
 .
 spatial_node_index
+stacking_context
+.
+raster_space
 )
 }
 else
@@ -8430,6 +8464,9 @@ prim_list
 stacking_context
 .
 spatial_node_index
+stacking_context
+.
+raster_space
 )
 )
 )
@@ -8468,6 +8505,9 @@ prim_flags
 stacking_context
 .
 spatial_node_index
+stacking_context
+.
+raster_space
 )
 }
 }
@@ -8717,6 +8757,9 @@ prim_list
 stacking_context
 .
 spatial_node_index
+stacking_context
+.
+raster_space
 )
 )
 )
@@ -8756,6 +8799,9 @@ prim_flags
 stacking_context
 .
 spatial_node_index
+stacking_context
+.
+raster_space
 )
 ;
 }
@@ -10363,6 +10409,10 @@ prim_list
 pending_shadow
 .
 spatial_node_index
+RasterSpace
+:
+:
+Screen
 )
 )
 )
@@ -12965,6 +13015,9 @@ true
 prim_flags
 prim_list
 backdrop_spatial_node_index
+stacking_context
+.
+raster_space
 )
 )
 )
@@ -13002,6 +13055,10 @@ info
 .
 flags
 backdrop_spatial_node_index
+RasterSpace
+:
+:
+Screen
 )
 ;
 source
@@ -14006,6 +14063,9 @@ bool
 flags
 :
 StackingContextFlags
+raster_space
+:
+RasterSpace
 }
 impl
 FlattenedStackingContext
@@ -14290,6 +14350,9 @@ empty
 self
 .
 spatial_node_index
+self
+.
+raster_space
 )
 )
 )
