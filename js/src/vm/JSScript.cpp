@@ -12882,7 +12882,11 @@ scriptIndex
 MutableScriptFlags
 lazyMutableFlags
 ;
-RootedScope
+Rooted
+<
+Scope
+*
+>
 lazyEnclosingScope
 (
 cx

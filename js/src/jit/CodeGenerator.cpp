@@ -23596,7 +23596,11 @@ VarEnvironmentObject
 (
 JSContext
 *
-HandleScope
+Handle
+<
+Scope
+*
+>
 HandleObject
 )
 ;

@@ -2739,7 +2739,11 @@ pushVarEnvironment
 JSContext
 *
 cx
-HandleScope
+Handle
+<
+Scope
+*
+>
 scope
 )
 {

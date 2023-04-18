@@ -4951,9 +4951,6 @@ class
 PropertyName
 ;
 class
-Scope
-;
-class
 ScriptSourceObject
 ;
 class

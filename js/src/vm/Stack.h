@@ -802,7 +802,11 @@ pushVarEnvironment
 JSContext
 *
 cx
-HandleScope
+Handle
+<
+Scope
+*
+>
 scope
 )
 ;
@@ -1834,7 +1838,11 @@ pushVarEnvironment
 JSContext
 *
 cx
-HandleScope
+Handle
+<
+Scope
+*
+>
 scope
 )
 ;

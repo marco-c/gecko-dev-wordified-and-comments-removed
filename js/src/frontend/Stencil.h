@@ -1436,7 +1436,11 @@ cx
 CompilationAtomCache
 &
 atomCache
-HandleScope
+Handle
+<
+Scope
+*
+>
 enclosingScope
 BaseParserScopeData
 *
@@ -1574,7 +1578,11 @@ cx
 CompilationAtomCache
 &
 atomCache
-HandleScope
+Handle
+<
+Scope
+*
+>
 enclosingScope
 BaseParserScopeData
 *

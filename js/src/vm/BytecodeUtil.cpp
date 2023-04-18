@@ -6216,7 +6216,11 @@ ToDisassemblySource
 JSContext
 *
 cx
-HandleScope
+Handle
+<
+Scope
+*
+>
 scope
 UniqueChars
 *
@@ -7781,7 +7785,11 @@ case
 JOF_SCOPE
 :
 {
-RootedScope
+Rooted
+<
+Scope
+*
+>
 scope
 (
 cx
