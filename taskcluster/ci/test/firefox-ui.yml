@@ -90,6 +90,13 @@ tests
 in
 the
 taskgraph
+variants
+:
+[
+"
+fission
+"
+]
 mozharness
 :
 script
