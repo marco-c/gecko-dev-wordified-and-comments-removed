@@ -523,6 +523,17 @@ const
 override
 ;
 virtual
+bool
+IsSVGGraphicsElement
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 void
 NodeInfoChanged
 (

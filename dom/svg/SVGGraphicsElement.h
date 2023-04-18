@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -119,6 +119,17 @@ aWithMouse
 )
 override
 ;
+bool
+IsSVGGraphicsElement
+(
+)
+const
+final
+{
+return
+true
+;
+}
 nsresult
 BindToTree
 (
@@ -204,7 +215,6 @@ false
 }
 }
 ;
-}
 }
 #
 endif
