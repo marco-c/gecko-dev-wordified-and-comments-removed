@@ -375,16 +375,6 @@ html
 "
 )
 ;
-if
-(
-!
-Services
-.
-appinfo
-.
-sessionHistoryInParent
-)
-{
 await
 waitUntil
 (
@@ -416,7 +406,6 @@ highlighted
 "
 )
 ;
-}
 dbg
 .
 toolbox
