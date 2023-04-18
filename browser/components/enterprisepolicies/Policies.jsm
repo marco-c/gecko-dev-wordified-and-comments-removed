@@ -4509,10 +4509,6 @@ ID
 }
 }
 }
-ExemptDomainFileTypePairsFromFileTypeDownloadWarnings
-:
-{
-}
 ExtensionSettings
 :
 {
