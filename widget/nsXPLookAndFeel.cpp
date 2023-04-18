@@ -653,7 +653,7 @@ sIntPrefs
 [
 ]
 [
-45
+43
 ]
 =
 {
@@ -986,16 +986,6 @@ titlebarRadius
 ui
 .
 GtkMenuRadius
-"
-"
-ui
-.
-dynamicRange
-"
-"
-ui
-.
-videoDynamicRange
 "
 }
 ;
