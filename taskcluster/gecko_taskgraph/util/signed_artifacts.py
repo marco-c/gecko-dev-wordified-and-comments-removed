@@ -12,7 +12,7 @@ repackage
 "
 "
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .
