@@ -318,7 +318,7 @@ URLExtraData
 aDocument
 -
 >
-GetDocumentURI
+GetBaseURI
 (
 )
 referrerInfo
