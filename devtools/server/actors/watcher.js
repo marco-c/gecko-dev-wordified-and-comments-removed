@@ -965,9 +965,6 @@ WEBSOCKET
 :
 shouldEnableAllWatchers
 }
-blackboxing
-:
-true
 }
 }
 ;

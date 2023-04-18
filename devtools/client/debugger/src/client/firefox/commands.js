@@ -1530,9 +1530,6 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
-"
-blackboxing
-"
 )
 ;
 if
