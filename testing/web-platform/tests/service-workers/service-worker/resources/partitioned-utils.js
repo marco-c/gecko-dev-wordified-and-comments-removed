@@ -243,7 +243,7 @@ message_promise
 }
 async
 function
-setup3pIframe
+setupServiceWorker
 (
 )
 {
