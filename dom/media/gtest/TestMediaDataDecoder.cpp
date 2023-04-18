@@ -313,6 +313,12 @@ defined
 (
 MOZ_WAYLAND
 )
+&
+&
+defined
+(
+MOZ_FFVPX
+)
 TEST
 (
 MediaDataDecoder
