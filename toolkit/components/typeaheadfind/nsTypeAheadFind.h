@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsUnicharUtils
-.
-h
-"
-#
-include
-"
 nsIFind
 .
 h
