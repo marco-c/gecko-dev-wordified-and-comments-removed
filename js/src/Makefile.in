@@ -317,9 +317,7 @@ DIST
 /
 bin
 /
-(
-JS_SHELL_NAME
-)
+js
 (
 BIN_SUFFIX
 )
@@ -384,9 +382,7 @@ DIST
 /
 bin
 /
-(
-JS_SHELL_NAME
-)
+js
 (
 BIN_SUFFIX
 )
