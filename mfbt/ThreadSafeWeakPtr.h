@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+RefCountType
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefCounted
 .
 h
@@ -222,7 +231,7 @@ SupportsThreadSafeWeakPtr
 }
 public
 :
-void
+MozExternalRefCountType
 AddRef
 (
 )
@@ -275,8 +284,11 @@ this
 cnt
 )
 ;
+return
+cnt
+;
 }
-void
+MozExternalRefCountType
 Release
 (
 )
@@ -355,6 +367,9 @@ this
 )
 ;
 }
+return
+cnt
+;
 }
 void
 ref
