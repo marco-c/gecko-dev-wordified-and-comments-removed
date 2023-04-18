@@ -342,7 +342,7 @@ ok
 !
 storage
 .
-hasActiveSnapshot
+hasSnapshot
 "
 Snapshot
 successfully

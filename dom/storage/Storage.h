@@ -528,7 +528,7 @@ aRv
 }
 virtual
 bool
-GetHasActiveSnapshot
+GetHasSnapshot
 (
 nsIPrincipal
 &
