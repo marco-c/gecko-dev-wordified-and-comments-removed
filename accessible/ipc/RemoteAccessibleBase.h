@@ -1375,15 +1375,6 @@ aBounds
 )
 const
 ;
-void
-ApplyScrollOffset
-(
-nsRect
-&
-aBounds
-)
-const
-;
 virtual
 void
 ARIAGroupPosition
@@ -1450,10 +1441,6 @@ Derived
 ;
 friend
 DocAccessibleParent
-;
-friend
-class
-xpcAccessible
 ;
 nsTArray
 <
