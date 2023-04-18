@@ -2723,7 +2723,7 @@ crate
 TextureUses
 :
 :
-STORAGE_WRITE
+STORAGE_READ_WRITE
 )
 {
 auxil
@@ -3208,7 +3208,7 @@ crate
 TextureUses
 :
 :
-STORAGE_WRITE
+STORAGE_READ_WRITE
 )
 {
 let

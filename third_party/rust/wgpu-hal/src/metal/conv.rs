@@ -97,6 +97,11 @@ Tu
 :
 :
 STORAGE_READ
+|
+Tu
+:
+:
+STORAGE_READ_WRITE
 )
 )
 ;
@@ -118,7 +123,7 @@ intersects
 Tu
 :
 :
-STORAGE_WRITE
+STORAGE_READ_WRITE
 )
 )
 ;

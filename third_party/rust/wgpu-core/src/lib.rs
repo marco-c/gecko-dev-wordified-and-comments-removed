@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+bool_assert_comparison
+clippy
+:
+:
 never_loop
 clippy
 :
@@ -27,6 +31,10 @@ clippy
 :
 :
 needless_update
+clippy
+:
+:
+too_many_arguments
 unused_braces
 )
 ]

@@ -2033,7 +2033,7 @@ crate
 BufferUses
 :
 :
-STORAGE_WRITE
+STORAGE_READ_WRITE
 {
 let
 mut
@@ -2724,7 +2724,7 @@ crate
 TextureUses
 :
 :
-STORAGE_WRITE
+STORAGE_READ_WRITE
 {
 let
 mut

@@ -1004,8 +1004,10 @@ ScalarValue
 :
 Uint
 (
-!
-0
+u64
+:
+:
+MAX
 )
 width
 :

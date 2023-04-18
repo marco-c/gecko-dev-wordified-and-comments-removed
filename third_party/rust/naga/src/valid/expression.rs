@@ -2318,8 +2318,10 @@ BindingArray
 }
 =
 >
-!
-0
+u32
+:
+:
+MAX
 Ti
 :
 :

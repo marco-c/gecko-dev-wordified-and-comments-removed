@@ -2663,6 +2663,11 @@ ClearStencil
 (
 u32
 )
+ClearDepthAndStencil
+(
+f32
+u32
+)
 BufferBarrier
 (
 glow

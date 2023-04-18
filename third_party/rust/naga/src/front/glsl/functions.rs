@@ -4544,7 +4544,7 @@ function
 {
 ctx
 .
-emit_flush
+emit_end
 (
 body
 )
@@ -4632,15 +4632,9 @@ body
 ;
 ctx
 .
-emit_flush
+emit_restart
 (
 body
-)
-;
-ctx
-.
-emit_start
-(
 )
 ;
 body

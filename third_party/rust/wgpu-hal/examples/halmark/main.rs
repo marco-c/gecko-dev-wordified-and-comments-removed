@@ -4528,9 +4528,7 @@ hal
 TextureUses
 :
 :
-empty
-(
-)
+PRESENT
 }
 ;
 unsafe

@@ -677,7 +677,7 @@ samplers
 const
 SAMPLER_NON_UNIFORM_INDEXING
 =
-0x11
+0x20
 ;
 }
 }

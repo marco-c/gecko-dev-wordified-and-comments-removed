@@ -285,6 +285,9 @@ Entry
 has_nv_optimus
 :
 bool
+driver_api_version
+:
+u32
 }
 pub
 struct

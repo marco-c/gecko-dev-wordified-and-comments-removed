@@ -229,6 +229,15 @@ bitflags
 .
 0
 "
+bit
+-
+vec
+=
+"
+0
+.
+6
+"
 codespan
 -
 reporting
@@ -387,7 +396,7 @@ naga
 rev
 =
 "
-1aa91549
+571302e
 "
 #
 version
