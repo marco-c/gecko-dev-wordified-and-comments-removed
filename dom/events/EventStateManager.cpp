@@ -19498,16 +19498,6 @@ mPressure
 newEvent
 -
 >
-mPluginEvent
-=
-aMouseEvent
--
->
-mPluginEvent
-;
-newEvent
--
->
 mInputSource
 =
 aMouseEvent

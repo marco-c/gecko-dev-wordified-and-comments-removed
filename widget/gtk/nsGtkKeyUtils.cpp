@@ -9358,16 +9358,6 @@ break
 }
 aKeyEvent
 .
-mPluginEvent
-.
-Copy
-(
-*
-aGdkKeyEvent
-)
-;
-aKeyEvent
-.
 mTime
 =
 aGdkKeyEvent

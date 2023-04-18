@@ -1313,9 +1313,6 @@ EventFlags
 class
 WidgetEventTime
 ;
-class
-NativeEventData
-;
 enum
 class
 AccessKeyType
