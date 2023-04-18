@@ -28,6 +28,13 @@ h
 #
 include
 "
+DeviceInputTrack
+.
+h
+"
+#
+include
+"
 MediaEngineWebRTC
 .
 h
@@ -655,6 +662,12 @@ RefPtr
 MediaInputPort
 >
 mPort
+;
+RefPtr
+<
+NativeInputTrack
+>
+mDeviceInputTrack
 ;
 RefPtr
 <
