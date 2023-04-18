@@ -489,8 +489,11 @@ nsIEditor
 )
 NS_DECL_NSIEDITOR
 NS_DECL_NSISELECTIONLISTENER
+explicit
 EditorBase
 (
+EditorType
+aEditorType
 )
 ;
 bool

@@ -473,6 +473,17 @@ TextEditor
 TextEditor
 (
 )
+:
+EditorBase
+(
+EditorBase
+:
+:
+EditorType
+:
+:
+Text
+)
 {
 static_assert
 (

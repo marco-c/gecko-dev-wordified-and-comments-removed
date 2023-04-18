@@ -1234,6 +1234,8 @@ EditorBase
 :
 EditorBase
 (
+EditorType
+aEditorType
 )
 :
 mEditActionData
@@ -1325,7 +1327,13 @@ true
 )
 mIsHTMLEditorClass
 (
-false
+aEditorType
+=
+=
+EditorType
+:
+:
+HTML
 )
 {
 #
@@ -1335,6 +1343,12 @@ if
 (
 !
 mCaretStyle
+&
+&
+!
+IsTextEditor
+(
+)
 )
 {
 mCaretStyle
