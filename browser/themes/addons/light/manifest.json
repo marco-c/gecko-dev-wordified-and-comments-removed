@@ -197,15 +197,7 @@ tab_line
 "
 :
 "
-rgba
-(
-128
-128
-142
-0
-.
-4
-)
+transparent
 "
 "
 toolbar
