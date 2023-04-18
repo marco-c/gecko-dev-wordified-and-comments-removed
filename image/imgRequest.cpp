@@ -353,6 +353,10 @@ mHadInsecureRedirect
 (
 false
 )
+mInnerWindowId
+(
+0
+)
 {
 LOG_FUNC
 (
@@ -474,6 +478,7 @@ nsIReferrerInfo
 *
 aReferrerInfo
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 MOZ_ASSERT
 (

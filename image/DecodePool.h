@@ -197,13 +197,16 @@ false
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <
 nsIThread
 >
 mIOThread
+GUARDED_BY
+(
+mMutex
+)
 ;
 }
 ;

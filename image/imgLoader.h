@@ -1579,10 +1579,13 @@ mChromeCacheQueue
 ;
 imgSet
 mUncachedImages
+GUARDED_BY
+(
+mUncachedImagesMutex
+)
 ;
 Mutex
 mUncachedImagesMutex
-MOZ_UNANNOTATED
 ;
 static
 double
