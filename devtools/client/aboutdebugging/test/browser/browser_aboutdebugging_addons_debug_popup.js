@@ -968,7 +968,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 return
