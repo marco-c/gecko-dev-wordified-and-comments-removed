@@ -604,6 +604,14 @@ seenRestarts
 ]
 [
 "
+quicksuggest
+.
+allowPositionInSuggestions
+"
+true
+]
+[
+"
 switchTabs
 .
 adoptIntoActiveWindow

@@ -3632,6 +3632,13 @@ i
 )
 ;
 }
+if
+(
+expected
+.
+payload
+)
+{
 Assert
 .
 deepEqual
@@ -3655,6 +3662,7 @@ i
 }
 )
 ;
+}
 }
 }
 async
