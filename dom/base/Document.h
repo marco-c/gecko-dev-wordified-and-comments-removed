@@ -11540,6 +11540,11 @@ ModuleScriptsEnabled
 (
 )
 ;
+bool
+ImportMapsEnabled
+(
+)
+;
 nsIContent
 *
 GetContentInThisDocument
