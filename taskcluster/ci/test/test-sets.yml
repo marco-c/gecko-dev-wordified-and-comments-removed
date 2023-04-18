@@ -2479,6 +2479,10 @@ mochitest
 -
 plain
 -
+mochitest
+-
+webgpu
+-
 reftest
 -
 web
