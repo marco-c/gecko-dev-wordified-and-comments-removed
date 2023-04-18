@@ -1217,6 +1217,12 @@ readRequest
 rv
 )
 ;
+rv
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 NS_WARN_IF
