@@ -1,33 +1,14 @@
 import
+codecs
+import
 os
 import
 sys
-import
-codecs
 from
 .
 _compat
 import
 PY2
-click
-=
-sys
-.
-modules
-[
-__name__
-.
-rsplit
-(
-'
-.
-'
-1
-)
-[
-0
-]
-]
 def
 _find_unicode_literals_frame
 (
@@ -42,9 +23,9 @@ not
 hasattr
 (
 sys
-'
+"
 _getframe
-'
+"
 )
 :
         
@@ -78,19 +59,19 @@ f_globals
 .
 get
 (
-'
+"
 __name__
-'
-'
-'
+"
+"
+"
 )
 .
 startswith
 (
-'
+"
 click
 .
-'
+"
 )
 :
             
@@ -142,12 +123,15 @@ __debug__
         
 return
     
+from
+.
+import
+disable_unicode_literals_warning
+    
 if
 not
 PY2
 or
-click
-.
 disable_unicode_literals_warning
 :
         
@@ -175,9 +159,11 @@ warn
     
 warn
 (
+        
 Warning
 (
-'
+            
+"
 Click
 detected
 the
@@ -185,56 +171,56 @@ use
 of
 the
 unicode_literals
-'
-                 
-'
 __future__
+"
+            
+"
 import
 .
 This
 is
 heavily
 discouraged
-'
-                 
-'
 because
 it
 can
+"
+            
+"
 introduce
 subtle
 bugs
 in
 your
-'
-                 
-'
 code
 .
 You
 should
 instead
+"
+            
+'
 use
 explicit
 u
 "
 "
 literals
-'
-                 
-'
 for
 your
 unicode
 strings
 .
 For
+'
+            
+"
 more
 information
 see
-'
-                 
-'
+"
+            
+"
 https
 :
 /
@@ -247,12 +233,14 @@ com
 /
 python3
 /
-'
+"
+        
 )
-         
+        
 stacklevel
 =
 bad_frame
+    
 )
 def
 _verify_python3_env
@@ -312,25 +300,25 @@ Exception
         
 fs_enc
 =
-'
+"
 ascii
-'
+"
     
 if
 fs_enc
 !
 =
-'
+"
 ascii
-'
+"
 :
         
 return
     
 extra
 =
-'
-'
+"
+"
     
 if
 os
@@ -338,9 +326,9 @@ os
 name
 =
 =
-'
+"
 posix
-'
+"
 :
         
 import
@@ -355,26 +343,27 @@ subprocess
 .
 Popen
 (
+                
 [
-'
+"
 locale
-'
-'
+"
+"
 -
 a
-'
+"
 ]
 stdout
 =
 subprocess
 .
 PIPE
-                                  
 stderr
 =
 subprocess
 .
 PIPE
+            
 )
 .
 communicate
@@ -391,8 +380,8 @@ OSError
 rv
 =
 b
-'
-'
+"
+"
         
 good_locales
 =
@@ -418,12 +407,12 @@ rv
 .
 decode
 (
-'
+"
 ascii
-'
-'
+"
+"
 replace
-'
+"
 )
         
 for
@@ -454,16 +443,16 @@ lower
 endswith
 (
 (
-'
+"
 .
 utf
 -
 8
-'
-'
+"
+"
 .
 utf8
-'
+"
 )
 )
 :
@@ -483,18 +472,18 @@ lower
 )
 in
 (
-'
+"
 c
 .
 utf8
-'
-'
+"
+"
 c
 .
 utf
 -
 8
-'
+"
 )
 :
                     
@@ -505,12 +494,12 @@ True
 extra
 +
 =
-'
+"
 \
 n
 \
 n
-'
+"
         
 if
 not
@@ -522,7 +511,7 @@ extra
 =
 (
                 
-'
+"
 Additional
 information
 :
@@ -531,14 +520,12 @@ this
 system
 no
 suitable
+"
+                
+"
 UTF
 -
 8
-\
-n
-'
-                
-'
 locales
 were
 discovered
@@ -546,20 +533,21 @@ discovered
 This
 most
 likely
+"
+                
+"
 requires
 resolving
-\
-n
-'
-                
-'
 by
 reconfiguring
 the
 locale
+"
+                
+"
 system
 .
-'
+"
             
 )
         
@@ -572,7 +560,7 @@ extra
 =
 (
                 
-'
+"
 This
 system
 supports
@@ -585,13 +573,11 @@ UTF
 locale
 which
 is
+"
+                
+"
 recommended
 .
-\
-n
-'
-                
-'
 You
 might
 be
@@ -600,14 +586,12 @@ to
 resolve
 your
 issue
+"
+                
+"
 by
 exporting
 the
-\
-n
-'
-                
-'
 following
 environment
 variables
@@ -616,9 +600,9 @@ variables
 n
 \
 n
-'
+"
                 
-'
+"
 export
 LC_ALL
 =
@@ -629,9 +613,9 @@ UTF
 8
 \
 n
-'
+"
                 
-'
+"
 export
 LANG
 =
@@ -640,7 +624,7 @@ C
 UTF
 -
 8
-'
+"
             
 )
         
@@ -652,7 +636,7 @@ extra
 =
 (
                 
-'
+"
 This
 system
 lists
@@ -664,12 +648,10 @@ UTF
 8
 supporting
 locales
-that
-\
-n
-'
+"
                 
-'
+"
+that
 you
 can
 pick
@@ -678,23 +660,21 @@ from
 The
 following
 suitable
+"
+                
+"
 locales
 were
-\
-n
-'
-                
-'
 discovered
 :
-%
-s
-'
-            
-)
-%
-'
-'
+{
+}
+"
+.
+format
+(
+"
+"
 .
 join
 (
@@ -702,6 +682,9 @@ sorted
 (
 good_locales
 )
+)
+)
+            
 )
         
 bad_locale
@@ -717,9 +700,9 @@ environ
 .
 get
 (
-'
+"
 LC_ALL
-'
+"
 )
 os
 .
@@ -727,9 +710,9 @@ environ
 .
 get
 (
-'
+"
 LANG
-'
+"
 )
 :
             
@@ -745,16 +728,16 @@ lower
 endswith
 (
 (
-'
+"
 .
 utf
 -
 8
-'
-'
+"
+"
 .
 utf8
-'
+"
 )
 )
 :
@@ -784,7 +767,7 @@ extra
 =
 (
                 
-'
+"
 \
 n
 \
@@ -798,11 +781,9 @@ UTF
 -
 8
 locale
-\
-n
-'
+"
                 
-'
+"
 but
 the
 locale
@@ -813,12 +794,10 @@ pick
 up
 from
 it
-because
-\
-n
-'
+"
                 
-'
+"
+because
 it
 does
 not
@@ -829,30 +808,31 @@ exported
 locale
 is
 "
-%
-s
+                
 "
+'
+{
+}
+'
 but
 it
-\
-n
-'
-                
-'
 is
 not
 supported
-'
+"
+.
+format
+(
+bad_locale
+)
             
 )
-%
-bad_locale
     
 raise
 RuntimeError
 (
         
-'
+"
 Click
 will
 abort
@@ -862,9 +842,9 @@ because
 Python
 3
 was
-'
+"
         
-'
+"
 configured
 to
 use
@@ -875,9 +855,9 @@ for
 the
 environment
 .
-'
+"
         
-'
+"
 Consult
 https
 :
@@ -889,23 +869,22 @@ palletsprojects
 .
 com
 /
-en
-/
-7
-.
-x
-/
 python3
 /
 for
-'
+"
         
-'
+"
 mitigation
 steps
 .
-'
-+
+{
+}
+"
+.
+format
+(
 extra
+)
     
 )
