@@ -126,6 +126,9 @@ xpath
 nsString
 innerHTML
 ;
+nsCString
+uri
+;
 }
 ;
 struct

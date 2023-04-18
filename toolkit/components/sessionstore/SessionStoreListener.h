@@ -245,7 +245,7 @@ return
 mSessionStore
 ;
 }
-bool
+void
 ForceFlushFromParent
 (
 )
@@ -338,7 +338,7 @@ RemoveEventListeners
 (
 )
 ;
-bool
+void
 UpdateSessionStore
 (
 bool

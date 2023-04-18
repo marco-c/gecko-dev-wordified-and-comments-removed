@@ -4,6 +4,10 @@ PExtensions
 ;
 include
 protocol
+PSessionStore
+;
+include
+protocol
 PWindowGlobal
 ;
 include
@@ -21,6 +25,9 @@ PInProcess
 {
 manages
 PExtensions
+;
+manages
+PSessionStore
 ;
 manages
 PWindowGlobal

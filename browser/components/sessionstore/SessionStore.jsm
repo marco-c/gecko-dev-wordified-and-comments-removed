@@ -5444,6 +5444,16 @@ data
 isFinal
 )
 {
+if
+(
+!
+Services
+.
+appinfo
+.
+sessionHistoryInParent
+)
+{
 this
 .
 onFinalTabStateUpdateComplete
@@ -5451,6 +5461,7 @@ onFinalTabStateUpdateComplete
 browser
 )
 ;
+}
 }
 else
 if
