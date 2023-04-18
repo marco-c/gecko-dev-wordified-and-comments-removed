@@ -592,7 +592,8 @@ quicksuggest
 .
 onboardingDialogVersion
 "
-0
+"
+"
 ]
 [
 "
