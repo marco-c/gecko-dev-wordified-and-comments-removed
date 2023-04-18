@@ -1014,7 +1014,7 @@ bool
 AddChildWorker
 (
 WorkerPrivate
-*
+&
 aChildWorker
 )
 ;
@@ -1022,7 +1022,7 @@ void
 RemoveChildWorker
 (
 WorkerPrivate
-*
+&
 aChildWorker
 )
 ;
@@ -4285,6 +4285,7 @@ mozilla
 CondVar
 mCondVar
 ;
+MOZ_NON_OWNING_REF
 WorkerPrivate
 *
 const
@@ -4762,6 +4763,7 @@ AutoPushEventLoopGlobal
 ;
 private
 :
+MOZ_NON_OWNING_REF
 WorkerPrivate
 *
 mWorkerPrivate
@@ -4922,8 +4924,10 @@ mWorkerFinishedRunnableCount
 class
 AutoSyncLoopHolder
 {
+CheckedUnsafePtr
+<
 WorkerPrivate
-*
+>
 mWorkerPrivate
 ;
 nsCOMPtr
@@ -5026,9 +5030,11 @@ Run
 (
 )
 {
+CheckedUnsafePtr
+<
 WorkerPrivate
-*
-workerPrivate
+>
+keepAliveWP
 =
 mWorkerPrivate
 ;
@@ -5036,7 +5042,7 @@ mWorkerPrivate
 =
 nullptr
 ;
-workerPrivate
+keepAliveWP
 -
 >
 AssertIsOnWorkerThread
@@ -5044,7 +5050,7 @@ AssertIsOnWorkerThread
 )
 ;
 return
-workerPrivate
+keepAliveWP
 -
 >
 RunCurrentSyncLoop
