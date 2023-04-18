@@ -2931,7 +2931,7 @@ void
 )
 ;
 void
-GetParentPosition
+WaylandGetParentPosition
 (
 int
 *
