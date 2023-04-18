@@ -38,11 +38,6 @@ bin
 gcc
 "
 "
-build_wasm
-"
-:
-false
-"
 patches
 "
 :
