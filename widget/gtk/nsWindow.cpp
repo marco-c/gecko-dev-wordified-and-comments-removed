@@ -2140,10 +2140,6 @@ mDrawToContainer
 (
 false
 )
-mDrawInTitlebar
-(
-false
-)
 mTitlebarBackdropState
 (
 false
