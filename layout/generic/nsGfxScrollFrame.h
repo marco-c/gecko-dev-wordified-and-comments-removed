@@ -2906,15 +2906,15 @@ bool
 TryLayout
 (
 ScrollReflowInput
-*
+&
 aState
 ReflowOutput
 *
 aKidMetrics
 bool
-aAssumeVScroll
-bool
 aAssumeHScroll
+bool
+aAssumeVScroll
 bool
 aForce
 )
@@ -2922,8 +2922,9 @@ aForce
 bool
 ScrolledContentDependsOnBSize
 (
+const
 ScrollReflowInput
-*
+&
 aState
 )
 const
@@ -2932,7 +2933,7 @@ void
 ReflowScrolledFrame
 (
 ScrollReflowInput
-*
+&
 aState
 bool
 aAssumeHScroll
@@ -2947,7 +2948,7 @@ void
 ReflowContents
 (
 ScrollReflowInput
-*
+&
 aState
 const
 ReflowOutput
