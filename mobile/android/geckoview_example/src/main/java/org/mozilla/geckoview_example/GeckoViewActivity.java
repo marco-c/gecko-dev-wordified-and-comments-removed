@@ -7296,10 +7296,6 @@ uri
 null
 )
 {
-createNewTab
-(
-)
-;
 mTabSessionManager
 .
 getCurrentSession
