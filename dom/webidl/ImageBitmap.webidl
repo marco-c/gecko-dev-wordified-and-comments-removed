@@ -4046,8 +4046,6 @@ default
 "
 }
 ;
-/
-/
 enum
 ColorSpaceConversion
 {
@@ -4104,8 +4102,6 @@ added
 bugs
 :
 1363861
-/
-/
 ColorSpaceConversion
 colorSpaceConversion
 =
