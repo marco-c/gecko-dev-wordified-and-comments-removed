@@ -20,6 +20,13 @@ _MSC_VER
 #
 include
 <
+stdlib
+.
+h
+>
+#
+include
+<
 intrin
 .
 h
