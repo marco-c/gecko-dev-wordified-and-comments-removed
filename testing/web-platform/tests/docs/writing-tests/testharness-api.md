@@ -1596,7 +1596,7 @@ Note
 Unlike
 asynchronous
 tests
-teatharness
+testharness
 .
 js
 queues
