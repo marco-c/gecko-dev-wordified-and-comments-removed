@@ -1658,15 +1658,6 @@ ScrollDirection
 aDirection
 )
 ;
-bool
-HasResizer
-(
-)
-{
-return
-mResizerBox
-;
-}
 void
 LayoutScrollbars
 (
