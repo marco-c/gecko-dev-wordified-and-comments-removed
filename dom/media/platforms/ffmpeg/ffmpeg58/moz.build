@@ -44,6 +44,12 @@ LOCAL_INCLUDES
 .
 '
 '
+/
+media
+/
+ffvpx
+'
+'
 include
 '
 ]
@@ -163,6 +169,14 @@ UNIFIED_SOURCES
 FFmpegVideoFramePool
 .
 cpp
+'
+]
+USE_LIBS
++
+=
+[
+'
+mozva
 '
 ]
 FINAL_LIBRARY
