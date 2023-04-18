@@ -10291,8 +10291,10 @@ nsEventStatus_eIgnore
 ;
 if
 (
+RefPtr
+<
 nsPIDOMWindowOuter
-*
+>
 window
 =
 mDocument
@@ -40996,9 +40998,11 @@ content
 ;
 }
 }
+RefPtr
+<
 nsPresContext
-*
-context
+>
+presContext
 =
 doc
 -
@@ -41010,7 +41014,7 @@ GetPresContext
 if
 (
 !
-context
+presContext
 )
 {
 if
@@ -41039,7 +41043,7 @@ EventDispatcher
 Dispatch
 (
 targetPtr
-context
+presContext
 &
 newEvent
 nullptr

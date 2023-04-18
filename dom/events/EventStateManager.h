@@ -2308,7 +2308,7 @@ sLastRefPoint
 LayoutDeviceIntPoint
 mGestureDownPoint
 ;
-nsCOMPtr
+RefPtr
 <
 nsIContent
 >
