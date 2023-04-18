@@ -225,14 +225,6 @@ PrincipalInfo
 namespace
 dom
 {
-extern
-uint32_t
-gServiceWorkersRegistered
-;
-extern
-uint32_t
-gServiceWorkersRegisteredFetch
-;
 class
 ContentParent
 ;
@@ -340,10 +332,6 @@ final
 public
 nsIServiceWorkerManager
 public
-nsITimerCallback
-public
-nsINamed
-public
 nsIObserver
 {
 friend
@@ -383,8 +371,6 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSISERVICEWORKERMANAGER
 NS_DECL_NSIOBSERVER
-NS_DECL_NSITIMERCALLBACK
-NS_DECL_NSINAMED
 bool
 IsAvailable
 (
@@ -1527,12 +1513,6 @@ PendingReadyData
 >
 >
 mPendingReadyList
-;
-nsCOMPtr
-<
-nsITimer
->
-mTelemetryTimer
 ;
 }
 ;
