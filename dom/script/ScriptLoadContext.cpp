@@ -767,7 +767,7 @@ return
 root
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -

@@ -464,7 +464,7 @@ HasLoadContext
 )
 )
 {
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -504,7 +504,7 @@ ScriptLoadContext
 ScriptLoadRequest
 :
 :
-GetLoadContext
+GetScriptLoadContext
 (
 )
 {
@@ -714,7 +714,7 @@ HasLoadContext
 )
 &
 &
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -725,7 +725,7 @@ mIsInline
 nsAutoString
 inlineData
 ;
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -

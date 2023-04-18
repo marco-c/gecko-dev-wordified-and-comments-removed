@@ -1130,7 +1130,7 @@ dom
 :
 ScriptLoadContext
 *
-GetLoadContext
+GetScriptLoadContext
 (
 )
 ;

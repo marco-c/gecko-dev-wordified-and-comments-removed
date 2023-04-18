@@ -1554,7 +1554,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1875,7 +1875,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -2565,7 +2565,7 @@ TRACE_FOR_TEST
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -2581,7 +2581,7 @@ scriptloader_fallback
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -2979,7 +2979,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -2996,7 +2996,7 @@ do_QueryInterface
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -3369,7 +3369,7 @@ unsigned
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -3379,7 +3379,7 @@ mScriptMode
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -3395,7 +3395,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -3442,7 +3442,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -3453,7 +3453,7 @@ mScriptFromHead
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -3481,7 +3481,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -3530,7 +3530,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -3744,7 +3744,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -3921,7 +3921,7 @@ mKind
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -3934,7 +3934,7 @@ mDocument
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -3965,7 +3965,7 @@ rv
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -3978,7 +3978,7 @@ channel
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -4311,10 +4311,7 @@ aURI
 fetchOptions
 aIntegrity
 referrer
-new
-ScriptLoadContext
-(
-)
+context
 )
 ;
 return
@@ -4870,7 +4867,7 @@ get
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -4897,7 +4894,7 @@ if
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -4915,7 +4912,7 @@ request
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -4999,7 +4996,7 @@ referrerPolicy
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -5011,7 +5008,7 @@ false
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -5147,7 +5144,7 @@ SpeculativeOMTParsingEnabled
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -5181,7 +5178,7 @@ if
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -5229,7 +5226,7 @@ GetParserCreated
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -5269,7 +5266,7 @@ if
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -5365,7 +5362,7 @@ doc
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -5651,7 +5648,7 @@ referrerPolicy
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -5663,7 +5660,7 @@ true
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -5696,7 +5693,7 @@ TRACE_FOR_TEST_BOOL
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -5746,7 +5743,7 @@ GetScriptAsync
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -6205,7 +6202,7 @@ mRequest
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -6220,7 +6217,7 @@ if
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -6349,7 +6346,7 @@ if
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -6379,7 +6376,7 @@ request
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -6391,7 +6388,7 @@ NotifyUsage
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7011,7 +7008,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7036,7 +7033,7 @@ NS_OK
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7050,7 +7047,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7068,7 +7065,7 @@ aRequest
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7093,7 +7090,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7130,7 +7127,7 @@ SpeculativeOMTParsingEnabled
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7146,7 +7143,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7159,7 +7156,7 @@ GetScriptElement
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7232,7 +7229,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7245,7 +7242,7 @@ IsAsyncScript
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7372,7 +7369,7 @@ MOZ_ASSERT
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7432,7 +7429,7 @@ profilerLabelString
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7454,7 +7451,7 @@ Interval
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7463,7 +7460,7 @@ mOffThreadParseStartTime
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7494,7 +7491,7 @@ if
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7566,7 +7563,7 @@ GetScriptLoadRequest
 )
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7582,7 +7579,7 @@ GetScriptLoadRequest
 )
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7624,7 +7621,7 @@ GetScriptLoadRequest
 )
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7696,7 +7693,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7719,7 +7716,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7860,7 +7857,7 @@ TRACE_FOR_TEST
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7959,7 +7956,7 @@ runnable
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -7976,7 +7973,7 @@ Now
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8007,7 +8004,7 @@ aRequest
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8041,7 +8038,7 @@ options
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8080,7 +8077,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8139,7 +8136,7 @@ rv
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8222,7 +8219,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8393,7 +8390,7 @@ TRACE_FOR_TEST
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8422,7 +8419,7 @@ TRACE_FOR_TEST
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8451,7 +8448,7 @@ TRACE_FOR_TEST
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8471,7 +8468,7 @@ break
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8554,7 +8551,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8576,7 +8573,7 @@ release
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8628,7 +8625,7 @@ aRequest
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8693,7 +8690,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8705,7 +8702,7 @@ mOffThreadToken
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8852,7 +8849,7 @@ MakeScopeExit
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8964,7 +8961,7 @@ do_QueryInterface
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -8986,7 +8983,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9024,7 +9021,7 @@ parserCreated
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9047,7 +9044,7 @@ mCurrentParserInsertedScript
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9060,7 +9057,7 @@ GetScriptElement
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9238,7 +9235,7 @@ aRequest
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9267,7 +9264,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9289,7 +9286,7 @@ IsModuleRequest
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9383,7 +9380,7 @@ aResult
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9394,7 +9391,7 @@ GetScriptElement
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9407,7 +9404,7 @@ mURI
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9422,7 +9419,7 @@ isInlineClassicScript
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9447,7 +9444,7 @@ scriptElement
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9471,7 +9468,7 @@ mURI
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9534,7 +9531,7 @@ scriptElement
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9553,7 +9550,7 @@ scriptElement
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9571,7 +9568,7 @@ scriptElement
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9590,7 +9587,7 @@ scriptElement
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9843,7 +9840,7 @@ mURL
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9897,7 +9894,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9918,7 +9915,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -9973,7 +9970,7 @@ get
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -10699,7 +10696,7 @@ do_QueryInterface
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -10843,7 +10840,7 @@ nullptr
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -10933,7 +10930,7 @@ profilerLabelString
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -10961,7 +10958,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -11000,7 +10997,7 @@ JoinDecode
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -11103,7 +11100,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -11157,7 +11154,7 @@ JoinCompile
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -11417,7 +11414,7 @@ TRACE_FOR_TEST
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -11500,7 +11497,7 @@ TRACE_FOR_TEST_NONE
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -11753,7 +11750,7 @@ profilerLabelString
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -11846,7 +11843,7 @@ TRACE_FOR_TEST
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -12639,7 +12636,7 @@ TRACE_FOR_TEST_NONE
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -13092,7 +13089,7 @@ TRACE_FOR_TEST_NONE
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -13226,7 +13223,7 @@ TRACE_FOR_TEST_NONE
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15250,7 +15247,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15263,7 +15260,7 @@ IsPreload
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15422,7 +15419,7 @@ element
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15508,7 +15505,7 @@ NS_FAILED
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15523,7 +15520,7 @@ aRequest
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15534,7 +15531,7 @@ mUnreportedPreloadError
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15618,7 +15615,7 @@ do_QueryInterface
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15651,7 +15648,7 @@ IsModuleRequest
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15684,7 +15681,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15750,7 +15747,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15816,7 +15813,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15861,7 +15858,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -15906,7 +15903,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -16107,7 +16104,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -16135,7 +16132,7 @@ mCurrentParserInsertedScript
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -16175,7 +16172,7 @@ IsCanceled
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -16212,7 +16209,7 @@ aParserBlockingRequest
 aParserBlockingRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -16241,7 +16238,7 @@ aParserBlockingRequest
 aParserBlockingRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -16779,7 +16776,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -16805,7 +16802,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -16833,7 +16830,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -17078,7 +17075,7 @@ IsThirdPartyTrackingResource
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -17646,7 +17643,7 @@ i
 mRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -17875,7 +17872,7 @@ aReferrerPolicy
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -17887,7 +17884,7 @@ false
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -17899,7 +17896,7 @@ aScriptFromHead
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -17914,7 +17911,7 @@ aLinkPreload
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -18032,7 +18029,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -18048,7 +18045,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -18060,7 +18057,7 @@ mInDeferList
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -18074,7 +18071,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -18085,7 +18082,7 @@ mInCompilingList
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -18168,7 +18165,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -18184,7 +18181,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -18196,7 +18193,7 @@ mInDeferList
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -18210,7 +18207,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -18221,7 +18218,7 @@ mInCompilingList
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -18285,7 +18282,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -

@@ -736,7 +736,7 @@ true
 mRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1202,7 +1202,7 @@ if
 mRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1215,7 +1215,7 @@ IsPreload
 mRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1601,7 +1601,7 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1674,7 +1674,7 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1713,7 +1713,7 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1862,7 +1862,7 @@ true
 mRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1885,7 +1885,7 @@ MakeScopeExit
 mRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
