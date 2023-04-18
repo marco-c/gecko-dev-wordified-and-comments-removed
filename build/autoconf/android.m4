@@ -126,9 +126,11 @@ extra_opts
 =
 "
 -
+-
 gcc
 -
 toolchain
+=
 (
 dirname
 (
