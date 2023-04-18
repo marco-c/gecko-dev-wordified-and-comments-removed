@@ -964,7 +964,7 @@ web
 browser
 "
 (
-SNAP_INSTANCE_NAME
+MOZ_APP_NAME
 "
 .
 desktop
@@ -1371,7 +1371,7 @@ web
 browser
 "
 (
-SNAP_INSTANCE_NAME
+MOZ_APP_NAME
 "
 .
 desktop
