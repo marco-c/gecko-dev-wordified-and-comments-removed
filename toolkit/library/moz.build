@@ -241,6 +241,11 @@ wininet
 dll
 "
 "
+winmm
+.
+dll
+"
+"
 winspool
 .
 drv

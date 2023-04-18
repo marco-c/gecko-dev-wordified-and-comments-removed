@@ -1145,6 +1145,12 @@ softokn3
 .
 dll
 "
+u
+"
+winmm
+.
+dll
+"
 }
 ;
 constexpr

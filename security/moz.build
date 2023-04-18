@@ -725,6 +725,16 @@ ASFLAGS
 safeseh
 "
 ]
+DELAYLOAD_DLLS
++
+=
+[
+"
+winmm
+.
+dll
+"
+]
 if
 CONFIG
 [
