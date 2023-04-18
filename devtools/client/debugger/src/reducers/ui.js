@@ -380,9 +380,6 @@ location
 ;
 let
 lineRange
-=
-{
-}
 ;
 if
 (
@@ -433,8 +430,7 @@ return
 state
 highlightedLineRange
 :
-{
-}
+undefined
 }
 ;
 case
