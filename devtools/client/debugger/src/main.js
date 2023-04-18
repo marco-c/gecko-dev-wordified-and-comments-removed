@@ -289,12 +289,12 @@ asyncStore
 xhrBreakpoints
 ;
 const
-tabsBlackBoxed
+blackboxedRanges
 =
 await
 asyncStore
 .
-tabsBlackBoxed
+blackboxedRanges
 ;
 const
 eventListenerBreakpoints
@@ -318,7 +318,7 @@ sources
 initialSourcesState
 (
 {
-tabsBlackBoxed
+blackboxedRanges
 }
 )
 ;
