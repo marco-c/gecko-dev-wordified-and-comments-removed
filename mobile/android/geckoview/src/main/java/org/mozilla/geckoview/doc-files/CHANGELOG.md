@@ -149,18 +149,6 @@ is
 not
 running
 .
--
-Removed
-deprecated
-GeckoRuntime
-.
-EXTRA_CRASH_FATAL
--
-Removed
-deprecated
-MediaSource
-.
-rawId
 [
 100
 .
@@ -18193,4 +18181,4 @@ api
 version
 ]
 :
-c9f91f7e909c6c71adca2ea333f92af6ff3af054
+68503adf56bf73da9de696e2d9d725368e27008d
