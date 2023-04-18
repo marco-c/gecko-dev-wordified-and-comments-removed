@@ -674,7 +674,9 @@ void
 SetBufferTransformFlipped
 (
 bool
-aFlipped
+aFlippedX
+bool
+aFlippedY
 )
 ;
 void
@@ -897,7 +899,12 @@ mViewport
 nullptr
 ;
 bool
-mBufferTransformFlipped
+mBufferTransformFlippedX
+=
+false
+;
+bool
+mBufferTransformFlippedY
 =
 false
 ;
