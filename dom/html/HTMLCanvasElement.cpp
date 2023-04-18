@@ -1304,6 +1304,13 @@ return
 mOwningElement
 -
 >
+MarkContextCleanForFrameCapture
+(
+)
+;
+mOwningElement
+-
+>
 ProcessDestroyedFrameListeners
 (
 )
@@ -1565,13 +1572,6 @@ forget
 (
 )
 aTime
-)
-;
-mOwningElement
--
->
-MarkContextCleanForFrameCapture
-(
 )
 ;
 }
