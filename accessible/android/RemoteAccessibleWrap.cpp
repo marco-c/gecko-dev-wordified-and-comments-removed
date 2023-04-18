@@ -564,7 +564,7 @@ GetPlatformExtension
 )
 -
 >
-SendPivot
+SendPivotTo
 (
 Proxy
 (
