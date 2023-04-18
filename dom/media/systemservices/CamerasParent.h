@@ -251,6 +251,9 @@ mParent
 }
 ;
 class
+DeliverFrameRunnable
+;
+class
 CamerasParent
 final
 :
@@ -262,6 +265,9 @@ nsIAsyncShutdownBlocker
 NS_DECL_THREADSAFE_ISUPPORTS
 public
 :
+friend
+DeliverFrameRunnable
+;
 static
 already_AddRefed
 <
@@ -514,6 +520,16 @@ IsShuttingDown
 (
 )
 {
+MOZ_ASSERT
+(
+GetCurrentSerialEventTarget
+(
+)
+=
+=
+mPBackgroundEventTarget
+)
+;
 return
 !
 mChildIsAlive

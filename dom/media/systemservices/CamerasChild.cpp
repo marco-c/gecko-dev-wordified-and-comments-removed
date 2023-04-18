@@ -964,6 +964,12 @@ AssertCurrentThreadOwns
 (
 )
 ;
+mReplyMonitor
+.
+AssertCurrentThreadOwns
+(
+)
+;
 CamerasSingleton
 :
 :
