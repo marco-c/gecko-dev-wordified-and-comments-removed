@@ -7658,7 +7658,7 @@ float
 )
 mBounds
 .
-Height
+Width
 (
 )
 /
@@ -7667,7 +7667,7 @@ float
 )
 mBounds
 .
-Width
+Height
 (
 )
 ;
@@ -24396,7 +24396,7 @@ left
 newHeight
 =
 newWidth
-*
+/
 mAspectRatio
 ;
 if
@@ -24421,7 +24421,7 @@ height
 newWidth
 =
 newHeight
-/
+*
 mAspectRatio
 ;
 }
@@ -24448,7 +24448,7 @@ height
 newWidth
 =
 newHeight
-/
+*
 mAspectRatio
 ;
 }
@@ -24470,7 +24470,7 @@ top
 newWidth
 =
 newHeight
-/
+*
 mAspectRatio
 ;
 if
@@ -24495,7 +24495,7 @@ width
 newHeight
 =
 newWidth
-*
+/
 mAspectRatio
 ;
 }
@@ -24522,7 +24522,7 @@ width
 newHeight
 =
 newWidth
-*
+/
 mAspectRatio
 ;
 }
@@ -29123,9 +29123,9 @@ newAspectRatio
 (
 float
 )
-newHeight
-/
 newWidth
+/
+newHeight
 ;
 if
 (
@@ -29177,7 +29177,7 @@ Resize
 (
 newWidth
 newWidth
-*
+/
 mAspectRatio
 true
 )
