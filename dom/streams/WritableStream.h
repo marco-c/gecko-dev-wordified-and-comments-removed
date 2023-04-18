@@ -712,7 +712,6 @@ Promise
 >
 mCloseRequest
 ;
-MOZ_KNOWN_LIVE
 RefPtr
 <
 WritableStreamDefaultController
