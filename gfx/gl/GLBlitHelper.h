@@ -1061,6 +1061,10 @@ GLenum
 srcTarget
 =
 LOCAL_GL_TEXTURE_2D
+bool
+srcIsBGRA
+=
+false
 )
 const
 ;

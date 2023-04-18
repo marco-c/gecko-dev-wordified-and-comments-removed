@@ -2762,6 +2762,17 @@ height
 }
 ;
 struct
+SwapChainOptions
+final
+{
+bool
+bgra
+=
+false
+;
+}
+;
+struct
 ActiveInfo
 {
 GLenum
