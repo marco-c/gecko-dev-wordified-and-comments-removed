@@ -143,10 +143,6 @@ mForcedGC
 =
 false
 ;
-mSuspectedAtCCStart
-=
-0
-;
 mMergedZones
 =
 false
@@ -188,9 +184,6 @@ mMergedZones
 ;
 bool
 mAnyManual
-;
-uint32_t
-mSuspectedAtCCStart
 ;
 uint32_t
 mVisitedRefCounted
