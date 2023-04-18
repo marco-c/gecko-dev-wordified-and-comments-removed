@@ -35,7 +35,7 @@ version
 "
 102
 .
-5
+6
 .
 0
 "
@@ -649,6 +649,13 @@ js
 shims
 /
 bmauth
+.
+js
+"
+"
+shims
+/
+branch
 .
 js
 "
