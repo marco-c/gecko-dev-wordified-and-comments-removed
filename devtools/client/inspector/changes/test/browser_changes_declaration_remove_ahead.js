@@ -139,7 +139,7 @@ block
 let
 onTrackChange
 =
-waitUntilAction
+waitForDispatch
 (
 store
 "
@@ -172,7 +172,7 @@ onTrackChange
 ;
 onTrackChange
 =
-waitUntilAction
+waitForDispatch
 (
 store
 "
@@ -202,7 +202,7 @@ onTrackChange
 ;
 onTrackChange
 =
-waitUntilAction
+waitForDispatch
 (
 store
 "

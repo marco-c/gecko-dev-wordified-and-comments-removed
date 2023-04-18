@@ -119,7 +119,7 @@ red
 let
 onTrackChange
 =
-waitUntilAction
+waitForDispatch
 (
 store
 "
@@ -186,7 +186,7 @@ removed
 ;
 onTrackChange
 =
-waitUntilAction
+waitForDispatch
 (
 store
 "
