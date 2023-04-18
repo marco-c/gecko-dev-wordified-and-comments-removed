@@ -476,6 +476,11 @@ rollout
 branch
 :
 {
+slug
+:
+"
+slug
+"
 features
 :
 [
