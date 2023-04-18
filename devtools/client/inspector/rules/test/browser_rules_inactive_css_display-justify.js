@@ -187,6 +187,7 @@ view
 displayFlex
 )
 ;
+await
 checkDeclarationIsActive
 (
 view
@@ -262,6 +263,7 @@ displayFlex
 displayGrid
 )
 ;
+await
 checkDeclarationIsActive
 (
 view

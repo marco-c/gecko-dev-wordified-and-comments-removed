@@ -108,13 +108,17 @@ checked
 const
 ruleViewHasColor
 =
+async
 color
 =
 >
+(
+await
 getPropertiesForRuleIndex
 (
 view
 1
+)
 )
 .
 has
@@ -156,6 +160,7 @@ inspector
 ;
 ok
 (
+await
 ruleViewHasColor
 (
 "
@@ -335,6 +340,7 @@ inspector
 ;
 ok
 (
+await
 ruleViewHasColor
 (
 "
