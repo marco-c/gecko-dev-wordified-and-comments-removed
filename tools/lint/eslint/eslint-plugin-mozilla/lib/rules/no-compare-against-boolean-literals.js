@@ -7,7 +7,8 @@ module
 .
 exports
 =
-function
+{
+create
 (
 context
 )
@@ -103,5 +104,6 @@ literals
 }
 }
 ;
+}
 }
 ;

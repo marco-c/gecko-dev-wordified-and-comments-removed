@@ -33,7 +33,8 @@ module
 .
 exports
 =
-function
+{
+create
 (
 context
 )
@@ -136,5 +137,6 @@ name
 }
 }
 ;
+}
 }
 ;

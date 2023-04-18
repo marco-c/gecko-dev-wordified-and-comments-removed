@@ -7,7 +7,8 @@ module
 .
 exports
 =
-function
+{
+create
 (
 context
 )
@@ -109,5 +110,6 @@ defaultView
 }
 }
 ;
+}
 }
 ;

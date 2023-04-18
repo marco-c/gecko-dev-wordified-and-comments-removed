@@ -20,7 +20,8 @@ module
 .
 exports
 =
-function
+{
+create
 (
 context
 )
@@ -298,5 +299,6 @@ firstChild
 }
 }
 ;
+}
 }
 ;

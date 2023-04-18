@@ -25,7 +25,8 @@ module
 .
 exports
 =
-function
+{
+create
 (
 context
 )
@@ -176,5 +177,6 @@ necessary
 }
 }
 ;
+}
 }
 ;

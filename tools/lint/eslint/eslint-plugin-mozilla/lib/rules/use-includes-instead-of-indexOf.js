@@ -7,7 +7,8 @@ module
 .
 exports
 =
-function
+{
+create
 (
 context
 )
@@ -227,5 +228,6 @@ indexOf
 }
 }
 ;
+}
 }
 ;

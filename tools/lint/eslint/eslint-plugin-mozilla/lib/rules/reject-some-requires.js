@@ -20,7 +20,8 @@ module
 .
 exports
 =
-function
+{
+create
 (
 context
 )
@@ -123,5 +124,6 @@ allowed
 }
 }
 ;
+}
 }
 ;
