@@ -239,6 +239,12 @@ Websockets
 *
 Access
 logging
+*
+Gzip
+Deflate
+and
+Brotli
+compression
 Since
 it
 builds

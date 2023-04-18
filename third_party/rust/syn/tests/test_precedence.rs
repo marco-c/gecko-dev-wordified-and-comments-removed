@@ -12,6 +12,17 @@ syn_disable_nightly_tests
 #
 !
 [
+cfg
+(
+not
+(
+miri
+)
+)
+]
+#
+!
+[
 recursion_limit
 =
 "
@@ -769,7 +780,7 @@ l_passed
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 let
@@ -783,7 +794,7 @@ l_failed
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 if
@@ -816,7 +827,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 let
@@ -829,7 +840,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 errorf

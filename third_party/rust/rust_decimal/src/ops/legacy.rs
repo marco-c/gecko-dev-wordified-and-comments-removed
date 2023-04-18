@@ -3213,6 +3213,12 @@ working_scale
 {
 fn
 div_by_10
+<
+const
+N
+:
+usize
+>
 (
 target
 :
@@ -3227,6 +3233,8 @@ temp
 mut
 [
 u32
+;
+N
 ]
 scale
 :
@@ -3455,6 +3463,12 @@ working_scale
 {
 fn
 div_by_10_lossy
+<
+const
+N
+:
+usize
+>
 (
 target
 :
@@ -3469,6 +3483,8 @@ temp
 mut
 [
 u32
+;
+N
 ]
 scale
 :

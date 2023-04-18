@@ -2228,6 +2228,8 @@ Crate
 attrs
 items
 span
+id
+is_placeholder
 )
 ;
 spanless_eq_struct

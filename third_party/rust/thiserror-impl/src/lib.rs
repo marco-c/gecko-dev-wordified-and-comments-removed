@@ -58,6 +58,9 @@ mod
 fmt
 ;
 mod
+generics
+;
+mod
 prop
 ;
 mod

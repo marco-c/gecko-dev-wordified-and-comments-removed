@@ -28,7 +28,9 @@ variant
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 unexpected
 -

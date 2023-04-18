@@ -97,6 +97,15 @@ contents
 [
 package
 ]
+rust
+-
+version
+=
+"
+1
+.
+31
+"
 name
 =
 "
@@ -109,7 +118,7 @@ version
 .
 0
 .
-130
+133
 "
 authors
 =

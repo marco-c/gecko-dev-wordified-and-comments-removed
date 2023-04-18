@@ -12,6 +12,17 @@ syn_disable_nightly_tests
 #
 !
 [
+cfg
+(
+not
+(
+miri
+)
+)
+]
+#
+!
+[
 recursion_limit
 =
 "
@@ -412,7 +423,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 if
@@ -553,7 +564,7 @@ fetch_add
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 if
@@ -1034,7 +1045,7 @@ fetch_add
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 if

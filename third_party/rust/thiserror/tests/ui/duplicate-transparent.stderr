@@ -12,7 +12,9 @@ attribute
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 duplicate
 -

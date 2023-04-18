@@ -18,7 +18,7 @@ span
 let
 x
 =
-0
+0i32
 ;
 quote_spanned
 !

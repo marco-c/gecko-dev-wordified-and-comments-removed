@@ -124,7 +124,7 @@ version
 .
 2
 .
-11
+13
 "
 authors
 =
@@ -186,7 +186,7 @@ timer
 .
 2
 .
-11
+13
 /
 tokio_timer
 "
@@ -231,7 +231,7 @@ version
 "
 0
 .
-6
+7
 .
 0
 "
@@ -291,7 +291,7 @@ version
 "
 0
 .
-6
+7
 "
 [
 dev

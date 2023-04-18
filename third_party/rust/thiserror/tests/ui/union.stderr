@@ -9,7 +9,9 @@ supported
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 union
 .

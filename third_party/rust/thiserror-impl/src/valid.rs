@@ -1325,7 +1325,6 @@ from_field
 if
 contains_non_static_lifetime
 (
-&
 source_field
 .
 ty

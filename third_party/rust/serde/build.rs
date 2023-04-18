@@ -465,6 +465,16 @@ starts_with
 mips64el
 "
 )
+|
+|
+target
+.
+starts_with
+(
+"
+riscv64
+"
+)
 ;
 let
 has_atomic32

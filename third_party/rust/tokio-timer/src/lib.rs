@@ -22,7 +22,7 @@ timer
 .
 2
 .
-11
+13
 "
 )
 ]
@@ -32,7 +32,6 @@ timer
 deny
 (
 missing_docs
-warnings
 missing_debug_implementations
 )
 ]

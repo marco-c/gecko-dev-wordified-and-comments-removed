@@ -14,7 +14,9 @@ field
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 transparent
 -

@@ -17,7 +17,9 @@ attribute
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 transparent
 -

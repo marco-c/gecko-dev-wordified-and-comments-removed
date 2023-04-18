@@ -1421,7 +1421,7 @@ tokio
 .
 1
 .
-11
+14
 "
 "
 tokio
@@ -1522,7 +1522,7 @@ tokio
 .
 1
 .
-11
+14
 "
 ]
 [
@@ -1613,7 +1613,7 @@ tokio
 .
 1
 .
-11
+14
 "
 ]
 [
@@ -5401,7 +5401,7 @@ lexicon
 .
 12
 .
-0
+2
 "
 ]
 [
@@ -5642,7 +5642,7 @@ lexicon
 .
 12
 .
-0
+2
 "
 ]
 [
@@ -23235,7 +23235,7 @@ version
 .
 0
 .
-10
+14
 "
 source
 =
@@ -23263,7 +23263,7 @@ index
 checksum
 =
 "
-38bc8cc6a5f2e3655e0899c1b848643b2562f853f114bfec7be120678e3ace05
+47aa80447ce4daf1717500037052af176af5d38cc3e571d9ec1c7353fc10c87d
 "
 dependencies
 =
@@ -25007,7 +25007,7 @@ version
 "
 1
 .
-18
+20
 .
 0
 "
@@ -25037,7 +25037,7 @@ index
 checksum
 =
 "
-71b5a9625a7e6060b23db692facf49082cc78889a7e6ac94a735356ae49db4b0
+e0593ce4677e3800ddafb3de917e8397b1348e06e688128ade722d88fbe11ebf
 "
 dependencies
 =
@@ -25046,7 +25046,7 @@ dependencies
 arrayvec
 0
 .
-5
+7
 .
 2
 "
@@ -25263,7 +25263,7 @@ version
 .
 0
 .
-6
+9
 "
 source
 =
@@ -25291,7 +25291,7 @@ index
 checksum
 =
 "
-3c9613b5a66ab9ba26415184cfc41156594925a9cf3a2057e57f31ff145f6568
+73b4b750c782965c211b42f022f59af1fbceabdd026623714f104152f1ec149f
 "
 [
 [
@@ -25843,7 +25843,7 @@ version
 .
 0
 .
-130
+133
 "
 source
 =
@@ -25871,7 +25871,7 @@ index
 checksum
 =
 "
-f12d06de37cf59146fbdecab66aa99f9fe4f78722e3607577a5375d66bd0c913
+97565067517b60e2d1ea8b268e59ce036de907ac523ad83a0475da04e818989a
 "
 dependencies
 =
@@ -25951,7 +25951,7 @@ version
 .
 0
 .
-130
+133
 "
 source
 =
@@ -25979,7 +25979,7 @@ index
 checksum
 =
 "
-d7bc1a1ab1961464eae040d96713baa5a724a8152c1222492465b54322ec508b
+ed201699328568d8d08208fdd080e3ff594e6c422e438b6705905da01005d537
 "
 dependencies
 =
@@ -26320,7 +26320,7 @@ version
 .
 8
 .
-21
+23
 "
 source
 =
@@ -26348,16 +26348,16 @@ index
 checksum
 =
 "
-d8c608a35705a5d3cdc9fbe403147647ff34b921f8e833e49306df898f9b20af
+a4a521f2940385c165a24ee286aa8599633d162077a54bdcae2a6fd5a7bfa7a0
 "
 dependencies
 =
 [
 "
-dtoa
-"
-"
 indexmap
+"
+"
+ryu
 "
 "
 serde
@@ -26722,7 +26722,7 @@ version
 .
 3
 .
-7
+8
 "
 source
 =
@@ -26750,7 +26750,7 @@ index
 checksum
 =
 "
-533494a8f9b724d33625ab53c6c4800f7cc445895924a8ef649222dcb76e938b
+ba1eead9e94aa5a2e02de9e7839f96a007f686ae7a1d57c7797774810d24908a
 "
 [
 [
@@ -26899,7 +26899,7 @@ version
 "
 1
 .
-7
+8
 .
 0
 "
@@ -26929,7 +26929,7 @@ index
 checksum
 =
 "
-1ecab6c735a6bb4139c0caafd0cc3635748bbb3acf4550e8138122099251f309
+f2dd574626839106c320a323308629dcb1acfc96e32a8cba364ddc61ac23ee83
 "
 dependencies
 =
@@ -27879,7 +27879,7 @@ version
 .
 0
 .
-82
+85
 "
 source
 =
@@ -27907,7 +27907,7 @@ index
 checksum
 =
 "
-8daf5dd0bb60cbd4137b1b587d2fc0ae729bc07cf01cd70b36a1ed5ade3b9d59
+a684ac3dcd8913827e18cd09a68384ee66c1de24157e3c556c9ab16d85695fb7
 "
 dependencies
 =
@@ -28203,7 +28203,7 @@ version
 .
 12
 .
-0
+2
 "
 source
 =
@@ -28231,7 +28231,7 @@ index
 checksum
 =
 "
-64ae3b39281e4b14b8123bdbaddd472b7dfe215e444181f2f9d2443c2444f834
+d9bffcddbc2458fa3e6058414599e3c838a022abae82e5c67b4f7f80298d5bff
 "
 [
 [
@@ -28500,7 +28500,7 @@ version
 .
 2
 .
-2
+4
 "
 source
 =
@@ -28528,7 +28528,7 @@ index
 checksum
 =
 "
-3a33c69726da418b3ee54fedf0adf26ae4bf2174539025b1df0819420b5a8417
+0579a04d7334e62fa087222544f379bbe99d4c9b2f13f2b4737f717a1ea627ea
 "
 [
 [
@@ -28547,7 +28547,7 @@ version
 .
 0
 .
-25
+30
 "
 source
 =
@@ -28575,7 +28575,7 @@ index
 checksum
 =
 "
-fa6f76457f59514c7eeb4e59d891395fab0b2fd1d40723ae737d64153392e9c6
+854babe52e4df1653706b98fcfc05843010039b406875930a70e4d9644e5c417
 "
 dependencies
 =
@@ -28605,7 +28605,7 @@ version
 .
 0
 .
-25
+30
 "
 source
 =
@@ -28633,7 +28633,7 @@ index
 checksum
 =
 "
-8a36768c0fbf1bb15eca10defa29526bda730a2376c2ab4393ccfa16fb1a318d
+aa32fd3f627f367fe16f893e2597ae3c05020f8bba2666a4e6ea73d377e5714b
 "
 dependencies
 =
@@ -28896,7 +28896,7 @@ version
 .
 1
 .
-11
+14
 "
 source
 =
@@ -28924,7 +28924,7 @@ index
 checksum
 =
 "
-6e93c78d23cc61aa245a8acd2c4a79c4d7fa7fb5c3ca90d5737029f043a84895
+4790d0be6f4ba6ae4f48190efa2ed7780c9e3567796abdb285003cf39840d9c5
 "
 dependencies
 =
@@ -28952,6 +28952,9 @@ mio
 6
 .
 23
+"
+"
+num_cpus
 "
 "
 tokio
@@ -29763,7 +29766,7 @@ version
 .
 2
 .
-11
+13
 "
 source
 =
@@ -29791,7 +29794,7 @@ index
 checksum
 =
 "
-f2106812d500ed25a4f38235b9cae8f78a09edf43203e16e59c3b769a342a60e
+93044f2d313c95ff1cb7809ce9a7a05735b012288a888b62d4434fd58c94f296
 "
 dependencies
 =
@@ -29802,9 +29805,9 @@ crossbeam
 utils
 0
 .
-6
+7
 .
-6
+2
 "
 "
 futures
@@ -30448,7 +30451,7 @@ version
 "
 1
 .
-14
+15
 .
 0
 "
@@ -30478,7 +30481,7 @@ index
 checksum
 =
 "
-b63708a265f51345575b27fe43f9500ad611579e764c79edbc2037b1121959ec
+dcf81ac59edc17cc8697ff311e8f5ef2d99fcbd9817b34cec66f90b6c3dfd987
 "
 [
 [
@@ -30825,7 +30828,7 @@ version
 .
 1
 .
-5
+7
 "
 source
 =
@@ -30853,7 +30856,7 @@ index
 checksum
 =
 "
-51ccda9ef9efa3f7ef5d91e8f9b83bbe6955f9bf86aec89d5cce2c874625920f
+6a0180bc61fc5a987082bfa111f4cc95c4caff7f9799f3e46df09163a937aa25
 "
 [
 [
@@ -31308,7 +31311,7 @@ version
 .
 9
 .
-3
+4
 "
 source
 =
@@ -31336,7 +31339,7 @@ index
 checksum
 =
 "
-5fecdca9a5291cc2b8dcf7dc02453fee791a280f3743cb0905f8822ae463b3fe
+49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f
 "
 [
 [
@@ -31604,7 +31607,7 @@ version
 .
 2
 .
-2
+3
 "
 source
 =
@@ -31632,7 +31635,7 @@ index
 checksum
 =
 "
-54cd1e2b3eb3539284d88b76a9afcf5e20f2ef2fab74db5b21a1c30d7d945e82
+0e95175b7a927258ecbb816bdada3cc469cb68593e7940b96a60f4af366a9970
 "
 dependencies
 =
@@ -31964,11 +31967,11 @@ wast
 version
 =
 "
-38
+39
 .
 0
 .
-1
+0
 "
 source
 =
@@ -31996,13 +31999,21 @@ index
 checksum
 =
 "
-ae0d7b256bef26c898fa7344a2d627e8499f5a749432ce0a05eae1a64ff0c271
+e9bbbd53432b267421186feee3e52436531fa69a7cfee9403f5204352df3dd05
 "
 dependencies
 =
 [
 "
 leb128
+"
+"
+memchr
+"
+"
+unicode
+-
+width
 "
 ]
 [
@@ -32022,7 +32033,7 @@ version
 .
 0
 .
-40
+41
 "
 source
 =
@@ -32050,7 +32061,7 @@ index
 checksum
 =
 "
-adcfaeb27e2578d2c6271a45609f4a055e6d7ba3a12eff35b1fd5ba147bdf046
+ab98ed25494f97c69f28758617f27c3e92e5336040b5c3a14634f2dd3fe61830
 "
 dependencies
 =

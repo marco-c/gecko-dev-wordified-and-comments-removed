@@ -33,7 +33,9 @@ static
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 lifetime
 .
@@ -108,7 +110,9 @@ static
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 lifetime
 .

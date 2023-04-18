@@ -156,6 +156,7 @@ serde
 "
 )
 ]
+pub
 mod
 serde
 ;
@@ -247,6 +248,7 @@ num_traits
 {
 FromPrimitive
 One
+Signed
 ToPrimitive
 Zero
 }

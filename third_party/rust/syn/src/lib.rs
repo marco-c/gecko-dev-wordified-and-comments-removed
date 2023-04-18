@@ -20,7 +20,7 @@ syn
 .
 0
 .
-82
+85
 "
 )
 ]
@@ -52,6 +52,10 @@ allow
 clippy
 :
 :
+cast_lossless
+clippy
+:
+:
 collapsible_match
 clippy
 :
@@ -69,6 +73,10 @@ clippy
 :
 :
 large_enum_variant
+clippy
+:
+:
+let_underscore_drop
 clippy
 :
 :
@@ -97,6 +105,10 @@ clippy
 :
 :
 never_loop
+clippy
+:
+:
+return_self_not_must_use
 clippy
 :
 :

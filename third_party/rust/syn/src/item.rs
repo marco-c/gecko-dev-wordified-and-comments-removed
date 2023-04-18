@@ -18008,7 +18008,14 @@ Type
 :
 Path
 (
-_
+TypePath
+{
+qself
+:
+None
+.
+.
+}
 )
 =
 first_ty_ref

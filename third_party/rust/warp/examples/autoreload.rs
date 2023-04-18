@@ -101,6 +101,16 @@ _
 :
 _
 |
+{
+let
+svc
+=
+svc
+.
+clone
+(
+)
+;
 async
 move
 {
@@ -114,6 +124,7 @@ Infallible
 (
 svc
 )
+}
 }
 )
 ;

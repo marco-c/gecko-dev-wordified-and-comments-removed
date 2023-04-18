@@ -359,6 +359,7 @@ parse
 :
 {
 Parse
+ParseBuffer
 ParseStream
 Result
 }
@@ -1130,6 +1131,15 @@ Stmt
 >
 {
 let
+begin
+=
+input
+.
+fork
+(
+)
+;
+let
 mut
 attrs
 =
@@ -1283,6 +1293,7 @@ stmt_local
 (
 input
 attrs
+begin
 )
 }
 else
@@ -1847,6 +1858,9 @@ Vec
 <
 Attribute
 >
+begin
+:
+ParseBuffer
 )
 -
 >
@@ -1855,15 +1869,6 @@ Result
 Stmt
 >
 {
-let
-begin
-=
-input
-.
-fork
-(
-)
-;
 let
 let_token
 :

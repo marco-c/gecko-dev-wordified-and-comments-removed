@@ -20,7 +20,7 @@ serde_yaml
 .
 8
 .
-21
+23
 "
 )
 ]
@@ -40,6 +40,10 @@ allow
 clippy
 :
 :
+question_mark
+clippy
+:
+:
 should_implement_trait
 clippy
 :
@@ -49,6 +53,10 @@ clippy
 :
 :
 if_not_else
+clippy
+:
+:
+manual_assert
 clippy
 :
 :
@@ -73,6 +81,10 @@ clippy
 :
 :
 single_match_else
+clippy
+:
+:
+blocks_in_if_conditions
 clippy
 :
 :

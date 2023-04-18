@@ -18,7 +18,9 @@ field
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 unexpected
 -

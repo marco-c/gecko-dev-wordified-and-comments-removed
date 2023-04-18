@@ -6,7 +6,9 @@ literal
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 concat
 -

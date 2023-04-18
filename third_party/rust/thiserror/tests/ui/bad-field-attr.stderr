@@ -23,7 +23,9 @@ field
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 bad
 -
