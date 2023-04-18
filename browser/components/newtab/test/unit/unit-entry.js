@@ -2554,6 +2554,11 @@ removeExpirationFilter
 }
 }
 Logger
+getFxAccountsSingleton
+(
+)
+{
+}
 }
 ;
 overrider

@@ -59,7 +59,7 @@ js
 ;
 const
 {
-fxAccounts
+getFxAccountsSingleton
 FxAccounts
 }
 =
@@ -80,6 +80,13 @@ FxAccounts
 .
 jsm
 "
+)
+;
+const
+fxAccounts
+=
+getFxAccountsSingleton
+(
 )
 ;
 const
