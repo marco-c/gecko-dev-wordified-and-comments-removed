@@ -3565,11 +3565,6 @@ win32kLockdownState
 ;
 if
 (
-!
-aIsFileProcess
-&
-&
-(
 win32kLockdownState
 =
 =
@@ -3577,7 +3572,6 @@ ContentWin32kLockdownState
 :
 :
 LockdownEnabled
-)
 )
 {
 result
