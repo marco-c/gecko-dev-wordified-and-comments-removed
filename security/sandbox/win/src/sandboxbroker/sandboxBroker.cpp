@@ -7384,6 +7384,13 @@ rules
 )
 ;
 }
+if
+(
+IsWin10FallCreatorsUpdateOrLater
+(
+)
+)
+{
 result
 =
 AddWin32kLockdownPolicy
@@ -7406,6 +7413,7 @@ policy
 "
 )
 ;
+}
 mitigations
 =
 sandbox
