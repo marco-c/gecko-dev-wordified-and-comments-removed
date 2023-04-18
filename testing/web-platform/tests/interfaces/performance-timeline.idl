@@ -93,10 +93,7 @@ PerformanceEntryList
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 PerformanceEntry
@@ -151,10 +148,7 @@ options
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 PerformanceObserver
@@ -230,10 +224,7 @@ buffered
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 PerformanceObserverEntryList

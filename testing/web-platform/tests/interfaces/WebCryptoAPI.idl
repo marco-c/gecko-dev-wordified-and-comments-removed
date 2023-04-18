@@ -93,6 +93,14 @@ ArrayBufferView
 array
 )
 ;
+[
+SecureContext
+]
+DOMString
+randomUUID
+(
+)
+;
 }
 ;
 typedef
