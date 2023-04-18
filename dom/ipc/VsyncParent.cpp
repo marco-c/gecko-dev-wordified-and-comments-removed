@@ -166,7 +166,7 @@ this
 ;
 }
 }
-bool
+void
 VsyncParent
 :
 :
@@ -191,7 +191,6 @@ aVsync
 )
 ;
 return
-true
 ;
 }
 nsCOMPtr
@@ -239,9 +238,6 @@ EventQueuePriority
 Vsync
 )
 )
-;
-return
-true
 ;
 }
 void

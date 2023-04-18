@@ -62,7 +62,7 @@ NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 public
 :
 virtual
-bool
+void
 NotifyVsync
 (
 const

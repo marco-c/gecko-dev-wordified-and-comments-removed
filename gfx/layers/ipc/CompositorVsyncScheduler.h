@@ -151,7 +151,7 @@ CompositorWidget
 aWidget
 )
 ;
-bool
+void
 NotifyVsync
 (
 const
@@ -343,7 +343,7 @@ CompositorVsyncScheduler
 aOwner
 )
 ;
-bool
+void
 NotifyVsync
 (
 const

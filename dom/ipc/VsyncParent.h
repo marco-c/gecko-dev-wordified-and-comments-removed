@@ -105,8 +105,7 @@ VsyncParent
 =
 default
 ;
-virtual
-bool
+void
 NotifyVsync
 (
 const

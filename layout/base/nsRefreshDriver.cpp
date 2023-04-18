@@ -2495,7 +2495,7 @@ NS_IsMainThread
 )
 ;
 }
-bool
+void
 NotifyVsync
 (
 const
@@ -2539,7 +2539,6 @@ hadPendingVsync
 )
 {
 return
-true
 ;
 }
 }
@@ -2555,7 +2554,6 @@ NotifyVsyncOnMainThread
 )
 ;
 return
-true
 ;
 }
 bool
@@ -2622,9 +2620,6 @@ NS_DispatchToMainThread
 (
 vsyncEvent
 )
-;
-return
-true
 ;
 }
 bool

@@ -73,7 +73,7 @@ LayersId
 aRootLayerTreeId
 )
 ;
-bool
+void
 NotifyVsync
 (
 const
