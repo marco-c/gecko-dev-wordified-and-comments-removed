@@ -5,9 +5,6 @@ getInScopeLines
 from
 "
 .
-.
-/
-reducers
 /
 ast
 "
