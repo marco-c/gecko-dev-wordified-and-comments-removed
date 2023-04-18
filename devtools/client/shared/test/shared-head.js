@@ -3299,13 +3299,6 @@ targetCommand
 .
 targetFront
 ;
-await
-target
-.
-attach
-(
-)
-;
 return
 target
 ;

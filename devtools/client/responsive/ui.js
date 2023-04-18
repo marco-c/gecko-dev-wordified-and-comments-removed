@@ -3506,15 +3506,6 @@ enterResponsiveMode
 (
 )
 ;
-await
-this
-.
-currentTarget
-.
-attach
-(
-)
-;
 if
 (
 isTargetSwitching

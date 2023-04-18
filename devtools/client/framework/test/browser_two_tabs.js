@@ -558,13 +558,6 @@ checkSelectedTargetActor
 targetFront2
 )
 {
-await
-targetFront2
-.
-attach
-(
-)
-;
 const
 consoleFront
 =
@@ -620,13 +613,6 @@ checkFirstTargetActor
 targetFront1
 )
 {
-await
-targetFront1
-.
-attach
-(
-)
-;
 const
 consoleFront
 =

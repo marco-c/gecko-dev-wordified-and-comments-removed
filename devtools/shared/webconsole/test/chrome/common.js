@@ -361,13 +361,6 @@ waitForMessage
 worker
 )
 ;
-await
-target
-.
-attach
-(
-)
-;
 const
 {
 workers
@@ -429,8 +422,6 @@ return
 null
 ;
 }
-}
-}
 await
 target
 .
@@ -438,6 +429,8 @@ attach
 (
 )
 ;
+}
+}
 await
 target
 .

@@ -898,13 +898,6 @@ _createTabTarget
 targetForm
 )
 ;
-await
-newTargetFront
-.
-attach
-(
-)
-;
 this
 .
 setTarget

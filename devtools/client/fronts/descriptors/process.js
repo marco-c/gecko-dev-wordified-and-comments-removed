@@ -414,13 +414,6 @@ _createProcessTargetFront
 targetForm
 )
 ;
-await
-targetFront
-.
-attach
-(
-)
-;
 }
 catch
 (
