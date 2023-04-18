@@ -95,6 +95,11 @@ ScriptKind
 h
 "
 "
+ScriptLoadContext
+.
+h
+"
+"
 ScriptLoader
 .
 h
@@ -151,6 +156,11 @@ cpp
 "
 "
 ScriptElement
+.
+cpp
+"
+"
+ScriptLoadContext
 .
 cpp
 "
