@@ -62,7 +62,7 @@ namespace
 gc
 {
 class
-FinalizationRegistryZone
+FinalizationObservers
 {
 Zone
 *
@@ -123,7 +123,7 @@ crossZoneWrappers
 public
 :
 explicit
-FinalizationRegistryZone
+FinalizationObservers
 (
 Zone
 *
@@ -131,7 +131,7 @@ zone
 )
 ;
 ~
-FinalizationRegistryZone
+FinalizationObservers
 (
 )
 ;
