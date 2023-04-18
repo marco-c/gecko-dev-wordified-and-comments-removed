@@ -2313,6 +2313,10 @@ return
 if
 (
 mActiveWorker
+&
+&
+!
+mUnregistered
 )
 {
 uint32_t
