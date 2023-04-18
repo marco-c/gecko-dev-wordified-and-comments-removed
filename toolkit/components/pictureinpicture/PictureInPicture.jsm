@@ -252,6 +252,11 @@ TOGGLE_POSITION_LEFT
 left
 "
 ;
+const
+RESIZE_MARGIN_PX
+=
+16
+;
 let
 gCloseReasons
 =
@@ -1493,6 +1498,15 @@ PLAYER_URI
 null
 features
 null
+)
+;
+pipWindow
+.
+windowUtils
+.
+setResizeMargin
+(
+RESIZE_MARGIN_PX
 )
 ;
 if
