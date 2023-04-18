@@ -267,7 +267,7 @@ hasProfilingInstrumentation_
 false
 ;
 uint32_t
-frameSlotsSize_
+localSlotsSize_
 =
 0
 ;
@@ -900,7 +900,7 @@ IonScript
 IonCompilationId
 compilationId
 uint32_t
-frameSlotsSize
+localSlotsSize
 uint32_t
 argumentSlotsSize
 uint32_t
@@ -920,7 +920,7 @@ cx
 IonCompilationId
 compilationId
 uint32_t
-frameSlotsSize
+localSlotsSize
 uint32_t
 argumentSlotsSize
 uint32_t
@@ -1451,13 +1451,13 @@ index
 ;
 }
 uint32_t
-frameSlotsSize
+localSlotsSize
 (
 )
 const
 {
 return
-frameSlotsSize_
+localSlotsSize_
 ;
 }
 uint32_t
