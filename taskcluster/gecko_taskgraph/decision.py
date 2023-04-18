@@ -227,17 +227,7 @@ target_tasks_method
 "
 :
 "
-cedar_tasks
-"
-        
-"
-release_type
-"
-:
-"
-nightly
--
-cedar
+default
 "
     
 }

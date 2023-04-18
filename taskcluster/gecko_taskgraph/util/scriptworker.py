@@ -394,10 +394,6 @@ central
 "
 oak
 "
-            
-"
-cedar
-"
         
 }
     

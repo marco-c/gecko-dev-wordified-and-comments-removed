@@ -263,9 +263,6 @@ central
 "
 oak
 "
-"
-cedar
-"
 ]
 :
         
