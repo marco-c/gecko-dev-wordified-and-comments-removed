@@ -111,7 +111,7 @@ fetch
 -
 clang
 -
-13
+14
 toolchain
 :
 -
@@ -119,7 +119,7 @@ linux64
 -
 clang
 -
-13
+14
 -
 stage1
 linux64
@@ -168,7 +168,7 @@ clang
 /
 clang
 -
-13
+14
 .
 json
 resources
@@ -182,7 +182,7 @@ clang
 /
 clang
 -
-13
+14
 .
 json
 -
@@ -254,7 +254,7 @@ clang
 /
 clang
 -
-13
+14
 .
 json
 resources
@@ -268,7 +268,7 @@ clang
 /
 clang
 -
-13
+14
 .
 json
 -
@@ -343,7 +343,7 @@ clang
 /
 clang
 -
-13
+14
 .
 json
 resources
@@ -357,7 +357,7 @@ clang
 /
 clang
 -
-13
+14
 .
 json
 -
@@ -385,4 +385,4 @@ liblowercase
 -
 win64
 -
-vs2017
+vs2019
