@@ -236,10 +236,6 @@ mForceBreakFrame
 (
 nullptr
 )
-mBlockRI
-(
-nullptr
-)
 mLastOptionalBreakPriority
 (
 gfxBreakPriority
@@ -5001,7 +4997,7 @@ GetOutermostLineLayout
 )
 -
 >
-mBlockRI
+mBlockRS
 -
 >
 mFlags
@@ -7798,7 +7794,7 @@ GetOutermostLineLayout
 )
 -
 >
-mBlockRI
+mBlockRS
 -
 >
 mNoWrapFloats
@@ -7826,7 +7822,7 @@ GetOutermostLineLayout
 )
 -
 >
-mBlockRI
+mBlockRS
 -
 >
 mNoWrapFloats

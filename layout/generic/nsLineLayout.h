@@ -126,7 +126,7 @@ int32_t
 aLineNumber
 )
 {
-mBlockRI
+mBlockRS
 =
 aState
 ;
@@ -424,7 +424,7 @@ aAvailableISize
 {
 MOZ_ASSERT
 (
-mBlockRI
+mBlockRS
 "
 Should
 not
@@ -437,7 +437,7 @@ is
 no
 block
 reflow
-input
+state
 "
 "
 available
@@ -445,7 +445,7 @@ available
 )
 ;
 return
-mBlockRI
+mBlockRS
 -
 >
 AddFloat
@@ -942,7 +942,9 @@ nsInlineFrame
 ;
 BlockReflowState
 *
-mBlockRI
+mBlockRS
+=
+nullptr
 ;
 nsLineList
 :

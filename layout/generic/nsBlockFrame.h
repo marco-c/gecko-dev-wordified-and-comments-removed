@@ -984,7 +984,7 @@ ComputeFinalBSize
 (
 BlockReflowState
 &
-aBri
+aState
 nscoord
 aBEndEdgeOfChildren
 )

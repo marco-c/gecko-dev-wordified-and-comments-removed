@@ -37528,7 +37528,7 @@ ComputeFinalBSize
 (
 BlockReflowState
 &
-aBri
+aState
 nscoord
 aBEndEdgeOfChildren
 )
@@ -37537,7 +37537,7 @@ const
 WritingMode
 wm
 =
-aBri
+aState
 .
 mReflowInput
 .
@@ -37551,10 +37551,10 @@ effectiveContentBoxBSize
 =
 GetEffectiveComputedBSize
 (
-aBri
+aState
 .
 mReflowInput
-aBri
+aState
 .
 mConsumedBSize
 )
@@ -37563,7 +37563,7 @@ const
 nscoord
 blockStartBP
 =
-aBri
+aState
 .
 BorderPadding
 (
@@ -37578,7 +37578,7 @@ const
 nscoord
 blockEndBP
 =
-aBri
+aState
 .
 BorderPadding
 (
@@ -37714,7 +37714,7 @@ const
 nscoord
 availBSize
 =
-aBri
+aState
 .
 mReflowInput
 .
@@ -37738,7 +37738,7 @@ const
 bool
 isChildStatusComplete
 =
-aBri
+aState
 .
 mReflowStatus
 .
@@ -37763,13 +37763,13 @@ availBSize
 &
 ShouldAvoidBreakInside
 (
-aBri
+aState
 .
 mReflowInput
 )
 )
 {
-aBri
+aState
 .
 mReflowStatus
 .
@@ -37785,7 +37785,7 @@ const
 bool
 isBDBClone
 =
-aBri
+aState
 .
 mReflowInput
 .
@@ -37804,7 +37804,7 @@ const
 nscoord
 maxContentBoxBSize
 =
-aBri
+aState
 .
 ContentBSize
 (
@@ -37814,7 +37814,7 @@ const
 nscoord
 maxContentBoxBEnd
 =
-aBri
+aState
 .
 ContentBEnd
 (
@@ -37921,7 +37921,7 @@ if
 (
 MOZ_UNLIKELY
 (
-aBri
+aState
 .
 mReflowInput
 .
@@ -38047,7 +38047,7 @@ isChildStatusComplete
 }
 else
 {
-aBri
+aState
 .
 mReflowStatus
 .
@@ -38103,7 +38103,7 @@ blockEndBP
 )
 ;
 }
-aBri
+aState
 .
 mReflowStatus
 .
@@ -38119,7 +38119,7 @@ GetNextInFlow
 )
 )
 {
-aBri
+aState
 .
 mReflowStatus
 .
