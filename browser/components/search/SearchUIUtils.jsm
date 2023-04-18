@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 SearchUIUtilsL10n
 "
@@ -244,6 +250,8 @@ text
 ]
 =
 await
+lazy
+.
 SearchUIUtilsL10n
 .
 formatValues

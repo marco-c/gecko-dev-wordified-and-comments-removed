@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserSearchTelemetry
 :
@@ -213,7 +219,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -235,6 +241,8 @@ SearchTelemetry
 "
 maxLogLevel
 :
+lazy
+.
 SearchUtils
 .
 loggingEnabled
@@ -382,6 +390,8 @@ this
 .
 _telemetrySettings
 =
+lazy
+.
 RemoteSettings
 (
 TELEMETRY_SETTINGS_KEY
@@ -412,6 +422,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -753,6 +765,8 @@ loadType
 if
 (
 !
+lazy
+.
 BrowserSearchTelemetry
 .
 shouldRecordSearchCount
@@ -2068,6 +2082,8 @@ add
 payload
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -2585,6 +2601,8 @@ wrappedChannel
 _adClickRecorded
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2621,6 +2639,8 @@ statusCode
 204
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2703,6 +2723,8 @@ return
 }
 try
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2823,6 +2845,8 @@ if
 item
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -2876,6 +2900,8 @@ reported
 "
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2898,6 +2924,8 @@ url
 return
 ;
 }
+lazy
+.
 logConsole
 .
 debug
