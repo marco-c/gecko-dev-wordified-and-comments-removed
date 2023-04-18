@@ -923,16 +923,28 @@ silence
 try
 :
             
+subprocess
+.
+check_call
+(
+                
+[
 virtualenv_manager
 .
-_run_pip
-(
-[
+python_path
+"
+-
+m
+"
+"
+pip
+"
 "
 install
 "
 package
 ]
+            
 )
             
 return
