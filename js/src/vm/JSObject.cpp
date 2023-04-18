@@ -15579,9 +15579,10 @@ p
 void
 *
 )
-JSID_BITS
-(
 id
+.
+asRawBits
+(
 )
 )
 ;
@@ -15734,9 +15735,10 @@ void
 *
 >
 (
-JSID_BITS
-(
 id
+.
+asRawBits
+(
 )
 )
 )
