@@ -727,9 +727,6 @@ V
 void
 visitReferences
 (
-JSContext
-*
-cx
 V
 &
 visitor
