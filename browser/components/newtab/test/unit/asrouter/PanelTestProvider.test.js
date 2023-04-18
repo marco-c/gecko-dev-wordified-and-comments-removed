@@ -148,7 +148,7 @@ assert
 lengthOf
 (
 messages
-13
+15
 )
 ;
 }
