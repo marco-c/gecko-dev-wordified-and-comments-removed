@@ -461,7 +461,7 @@ this
 )
 ;
 }
-componentWillMount
+UNSAFE_componentWillMount
 (
 )
 {

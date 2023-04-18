@@ -282,7 +282,7 @@ dbgL10n
 }
 ;
 }
-componentWillMount
+UNSAFE_componentWillMount
 (
 )
 {

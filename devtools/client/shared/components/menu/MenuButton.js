@@ -534,7 +534,7 @@ true
 }
 }
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )

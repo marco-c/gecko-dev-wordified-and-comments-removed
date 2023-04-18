@@ -354,7 +354,7 @@ this
 )
 ;
 }
-componentWillMount
+UNSAFE_componentWillMount
 (
 )
 {
@@ -389,7 +389,7 @@ props
 activeItem
 ;
 }
-componentWillUpdate
+UNSAFE_componentWillUpdate
 (
 nextProps
 )

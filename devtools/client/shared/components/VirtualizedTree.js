@@ -591,7 +591,7 @@ _scrollItemIntoView
 )
 ;
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )
