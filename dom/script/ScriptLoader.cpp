@@ -16490,13 +16490,6 @@ cx
 profilerLabelString
 )
 ;
-AutoCurrentScriptUpdater
-scriptUpdater
-(
-this
-nullptr
-)
-;
 ModuleLoadRequest
 *
 request
