@@ -98,12 +98,12 @@ values
 Defaults
 to
 3
-in
-Nightly
-builds
+(
+WebDriver
+BiDi
 and
-2
-otherwise
+CDP
+)
 .
 #
 #
