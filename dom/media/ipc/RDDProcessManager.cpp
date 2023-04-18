@@ -499,8 +499,7 @@ aData
 ;
 if
 (
-!
-ShouldSyncPreference
+ShouldSanitizePreference
 (
 strData
 .

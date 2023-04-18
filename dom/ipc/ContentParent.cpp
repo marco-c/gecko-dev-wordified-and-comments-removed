@@ -13012,7 +13012,7 @@ ipc
 SharedPreferenceSerializer
 >
 (
-ShouldSyncPreference
+ShouldSanitizePreference
 )
 ;
 if
@@ -18526,8 +18526,7 @@ aData
 ;
 if
 (
-!
-ShouldSyncPreference
+ShouldSanitizePreference
 (
 strData
 .
