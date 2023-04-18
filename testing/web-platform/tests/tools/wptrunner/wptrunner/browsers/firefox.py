@@ -5970,6 +5970,9 @@ self
 is_alive
 (
 )
+and
+not
+force
 :
             
 end_time
