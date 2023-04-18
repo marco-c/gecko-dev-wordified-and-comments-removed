@@ -77,14 +77,6 @@ final
 :
 public
 PSocketProcessChild
-public
-mozilla
-:
-:
-ipc
-:
-:
-ChildToParentStreamActorManager
 {
 public
 :
