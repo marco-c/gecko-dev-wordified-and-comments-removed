@@ -414,7 +414,12 @@ artifact
 in
 job
 .
+attributes
+[
+"
 release_artifacts
+"
+]
 :
         
 basename

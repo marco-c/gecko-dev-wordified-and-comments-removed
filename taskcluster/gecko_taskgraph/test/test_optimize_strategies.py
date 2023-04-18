@@ -288,10 +288,6 @@ dependencies
 "
 soft_dependencies
 "
-            
-"
-release_artifacts
-"
         
 )
 :

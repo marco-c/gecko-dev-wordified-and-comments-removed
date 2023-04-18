@@ -758,7 +758,14 @@ sorted
 (
 dep_job
 .
+attributes
+.
+get
+(
+"
 release_artifacts
+"
+)
 )
 :
             

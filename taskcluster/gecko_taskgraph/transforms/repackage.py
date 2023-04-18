@@ -3077,6 +3077,33 @@ locale
         
 )
         
+attributes
+[
+"
+release_artifacts
+"
+]
+=
+[
+            
+artifact
+[
+"
+name
+"
+]
+for
+artifact
+in
+worker
+[
+"
+artifacts
+"
+]
+        
+]
+        
 task
 =
 {
@@ -3261,30 +3288,6 @@ fetches
 )
             
 )
-            
-"
-release
--
-artifacts
-"
-:
-[
-artifact
-[
-"
-name
-"
-]
-for
-artifact
-in
-worker
-[
-"
-artifacts
-"
-]
-]
         
 }
         

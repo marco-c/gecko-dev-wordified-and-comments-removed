@@ -388,7 +388,16 @@ dependency
 "
 ]
 .
+attributes
+.
+get
+(
+            
+"
 release_artifacts
+"
+        
+)
         
 attribution_task_ref
 =
