@@ -1,4 +1,13 @@
-use
+extern
+crate
+idna
+;
+extern
+crate
+serde_json
+;
+extern
+crate
 rustc_test
 as
 test
