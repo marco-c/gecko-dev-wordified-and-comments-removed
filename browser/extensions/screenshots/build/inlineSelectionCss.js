@@ -39,6 +39,12 @@ content
 :
 center
 ;
+column
+-
+gap
+:
+8px
+;
 border
 :
 0
