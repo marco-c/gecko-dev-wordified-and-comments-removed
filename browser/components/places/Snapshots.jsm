@@ -1985,6 +1985,7 @@ AS
 title
 created_at
 removed_at
+removed_reason
 document_type
 first_interaction_at
 last_interaction_at
@@ -2456,6 +2457,7 @@ AS
 title
 created_at
 removed_at
+removed_reason
 document_type
 first_interaction_at
 last_interaction_at
@@ -2736,6 +2738,7 @@ o
 overlappingVisitScore
 created_at
 removed_at
+removed_reason
 document_type
 first_interaction_at
 last_interaction_at
@@ -3126,6 +3129,7 @@ s
 .
 created_at
 removed_at
+removed_reason
 s
 .
 document_type
@@ -3356,6 +3360,7 @@ s
 .
 created_at
 removed_at
+removed_reason
 s
 .
 document_type
@@ -3988,6 +3993,16 @@ getResultByName
 removed_at
 "
 )
+)
+removedReason
+:
+row
+.
+getResultByName
+(
+"
+removed_reason
+"
 )
 firstInteractionAt
 :
