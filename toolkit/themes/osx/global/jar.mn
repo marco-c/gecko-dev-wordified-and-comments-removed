@@ -147,16 +147,6 @@ global
 popup
 .
 css
-*
-skin
-/
-classic
-/
-global
-/
-popupnotification
-.
-css
 skin
 /
 classic
