@@ -52,7 +52,7 @@ fileName
 "
 inner
 -
-00
+03
 .
 js
 "
@@ -62,7 +62,7 @@ lineNumber
 eagerDelazificationStrategy
 :
 "
-OnDemandOnly
+ParseEverythingEagerly
 "
 newContext
 :
