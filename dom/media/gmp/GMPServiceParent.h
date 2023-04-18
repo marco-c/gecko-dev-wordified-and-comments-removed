@@ -887,6 +887,16 @@ GMPServiceParent
 >
 mServiceParents
 ;
+uint32_t
+mDirectoriesAdded
+=
+0
+;
+uint32_t
+mDirectoriesInProgress
+=
+0
+;
 }
 ;
 nsresult
