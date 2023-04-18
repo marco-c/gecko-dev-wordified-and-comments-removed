@@ -2039,9 +2039,12 @@ Heap
 }
 extern
 JS_PUBLIC_API
-void
+bool
 JS_UpdateWeakPointerAfterGC
 (
+JSTracer
+*
+trc
 JS
 :
 :
@@ -2056,9 +2059,12 @@ objp
 ;
 extern
 JS_PUBLIC_API
-void
+bool
 JS_UpdateWeakPointerAfterGCUnbarriered
 (
+JSTracer
+*
+trc
 JSObject
 *
 *
