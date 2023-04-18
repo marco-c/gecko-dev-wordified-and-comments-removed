@@ -57,8 +57,6 @@ nsIPrincipal
 aPrincipal
 int32_t
 aDelay
-bool
-aMetaRefresh
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -93,9 +91,6 @@ mPrincipal
 ;
 int32_t
 mDelay
-;
-bool
-mMetaRefresh
 ;
 private
 :
