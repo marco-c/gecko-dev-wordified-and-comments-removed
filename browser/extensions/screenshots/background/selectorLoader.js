@@ -85,11 +85,6 @@ clipboard
 js
 "
 "
-makeUuid
-.
-js
-"
-"
 build
 /
 selection

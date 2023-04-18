@@ -317,7 +317,9 @@ now
 const
 id
 =
-makeUuid
+crypto
+.
+randomUUID
 (
 )
 ;

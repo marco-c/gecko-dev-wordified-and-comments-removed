@@ -121,7 +121,9 @@ info
 {
 secret
 :
-makeUuid
+crypto
+.
+randomUUID
 (
 )
 registered
