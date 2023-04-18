@@ -1141,9 +1141,7 @@ aCharArray
 .
 append
 (
-&
 filterString
-0
 )
 )
 ;
