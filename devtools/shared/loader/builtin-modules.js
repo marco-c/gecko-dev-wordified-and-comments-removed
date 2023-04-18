@@ -82,6 +82,7 @@ DOMQuad
 DOMRect
 HeapSnapshot
 L10nRegistry
+Localization
 NamedNodeMap
 NodeFilter
 StructuredCloneHolder
@@ -708,6 +709,7 @@ id
 :
 null
 }
+Localization
 Node
 reportError
 :
