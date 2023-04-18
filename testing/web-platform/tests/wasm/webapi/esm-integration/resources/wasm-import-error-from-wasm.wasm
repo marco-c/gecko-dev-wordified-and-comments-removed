@@ -1,0 +1,13 @@
+asm
+.
+/
+wasm
+-
+export
+-
+i64
+-
+global
+.
+wasm
+g

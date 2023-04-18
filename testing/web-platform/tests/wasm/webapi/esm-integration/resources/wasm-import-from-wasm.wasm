@@ -1,0 +1,15 @@
+asm
+"
+.
+/
+wasm
+-
+export
+-
+to
+-
+wasm
+.
+wasm
+log
+logExec
