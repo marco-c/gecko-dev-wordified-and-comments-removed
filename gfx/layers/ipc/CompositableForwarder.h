@@ -95,9 +95,6 @@ class
 TextureClient
 ;
 class
-ThebesBufferData
-;
-class
 CompositableForwarder
 :
 public
