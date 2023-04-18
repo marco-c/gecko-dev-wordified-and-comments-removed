@@ -4729,7 +4729,7 @@ bool
 ModuleLoaderBase
 :
 :
-InstantiateModuleTree
+InstantiateModuleGraph
 (
 ModuleLoadRequest
 *
@@ -4774,7 +4774,7 @@ p
 :
 Instantiate
 module
-tree
+graph
 "
 aRequest
 )
@@ -4786,7 +4786,7 @@ AUTO_PROFILER_LABEL
 ModuleLoaderBase
 :
 :
-InstantiateModuleTree
+InstantiateModuleGraph
 "
 JS
 )
@@ -5037,7 +5037,7 @@ nsresult
 ModuleLoaderBase
 :
 :
-InitDebuggerDataForModuleTree
+InitDebuggerDataForModuleGraph
 (
 JSContext
 *
@@ -5090,7 +5090,7 @@ mImports
 nsresult
 rv
 =
-InitDebuggerDataForModuleTree
+InitDebuggerDataForModuleGraph
 (
 aCx
 childRequest
@@ -5200,7 +5200,7 @@ mModuleScript
 if
 (
 !
-InstantiateModuleTree
+InstantiateModuleGraph
 (
 aRequest
 )
@@ -5552,7 +5552,7 @@ NS_OK
 nsresult
 rv
 =
-InitDebuggerDataForModuleTree
+InitDebuggerDataForModuleGraph
 (
 cx
 request

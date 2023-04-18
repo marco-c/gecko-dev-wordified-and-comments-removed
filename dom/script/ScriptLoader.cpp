@@ -8856,7 +8856,7 @@ if
 request
 -
 >
-InstantiateModuleTree
+InstantiateModuleGraph
 (
 )
 )

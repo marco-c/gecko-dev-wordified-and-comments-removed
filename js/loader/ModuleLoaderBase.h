@@ -682,7 +682,7 @@ aRv
 )
 ;
 bool
-InstantiateModuleTree
+InstantiateModuleGraph
 (
 ModuleLoadRequest
 *
@@ -1016,7 +1016,7 @@ aRequest
 ;
 static
 nsresult
-InitDebuggerDataForModuleTree
+InitDebuggerDataForModuleGraph
 (
 JSContext
 *

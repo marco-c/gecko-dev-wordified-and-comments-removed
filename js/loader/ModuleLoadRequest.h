@@ -442,7 +442,7 @@ aRv
 ;
 }
 bool
-InstantiateModuleTree
+InstantiateModuleGraph
 (
 )
 {
@@ -450,7 +450,7 @@ return
 mLoader
 -
 >
-InstantiateModuleTree
+InstantiateModuleGraph
 (
 this
 )
