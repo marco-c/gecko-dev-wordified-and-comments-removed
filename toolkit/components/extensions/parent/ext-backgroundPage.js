@@ -403,7 +403,7 @@ emit
 "
 background
 -
-page
+script
 -
 aborted
 "
@@ -471,7 +471,7 @@ emit
 "
 background
 -
-page
+script
 -
 started
 "
@@ -763,7 +763,7 @@ emit
 "
 background
 -
-page
+script
 -
 aborted
 "
@@ -821,7 +821,7 @@ emit
 "
 background
 -
-page
+script
 -
 started
 "
@@ -1148,7 +1148,7 @@ off
 "
 background
 -
-page
+script
 -
 started
 "
@@ -1162,7 +1162,7 @@ off
 "
 background
 -
-page
+script
 -
 aborted
 "
@@ -1192,7 +1192,7 @@ on
 "
 background
 -
-page
+script
 -
 started
 "
@@ -1206,7 +1206,7 @@ on
 "
 background
 -
-page
+script
 -
 aborted
 "
@@ -1242,7 +1242,7 @@ emit
 "
 background
 -
-page
+script
 -
 event
 "
@@ -1304,7 +1304,7 @@ start
 -
 background
 -
-page
+script
 "
 async
 (
@@ -1340,7 +1340,7 @@ once
 "
 background
 -
-page
+script
 -
 event
 "
@@ -1364,7 +1364,7 @@ start
 -
 background
 -
-page
+script
 "
 )
 ;
@@ -1391,7 +1391,7 @@ start
 -
 background
 -
-page
+script
 "
 )
 ;

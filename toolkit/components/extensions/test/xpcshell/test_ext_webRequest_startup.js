@@ -174,7 +174,7 @@ of
 "
 background
 -
-page
+script
 -
 event
 "
@@ -183,7 +183,7 @@ start
 -
 background
 -
-page
+script
 "
 ]
 )
@@ -239,7 +239,7 @@ get
 "
 background
 -
-page
+script
 -
 event
 "
@@ -253,7 +253,7 @@ have
 gotten
 a
 background
-page
+script
 event
 "
 )
@@ -269,13 +269,13 @@ start
 -
 background
 -
-page
+script
 "
 )
 false
 "
 Background
-page
+script
 should
 not
 be
@@ -317,7 +317,7 @@ start
 -
 background
 -
-page
+script
 "
 )
 expect
@@ -331,7 +331,7 @@ start
 -
 background
 -
-page
+script
 event
 "
 )
