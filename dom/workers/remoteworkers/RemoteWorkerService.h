@@ -76,7 +76,7 @@ InitializeOnTargetThread
 )
 ;
 void
-ShutdownOnTargetThread
+CloseActorOnTargetThread
 (
 )
 ;
