@@ -1,4 +1,4 @@
-offThreadCompileModule
+offThreadCompileModuleToStencil
 (
 "
 export
