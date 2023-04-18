@@ -116,7 +116,7 @@ mSize
 using
 QueueWithSizes
 =
-LinkedList
+AutoCleanLinkedList
 <
 ValueWithSize
 >
