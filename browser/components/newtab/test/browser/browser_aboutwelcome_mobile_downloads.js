@@ -83,8 +83,14 @@ link
 }
 marketplace_buttons
 :
-{
-}
+[
+"
+ios
+"
+"
+android
+"
+]
 }
 }
 }
