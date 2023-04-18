@@ -710,7 +710,7 @@ aSelection
 nsINode
 *
 aNode
-int32_t
+uint32_t
 aOffset
 nsRange
 *
