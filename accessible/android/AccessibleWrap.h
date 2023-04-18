@@ -36,17 +36,6 @@ h
 #
 include
 "
-mozilla
-/
-java
-/
-SessionAccessibilityWrappers
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

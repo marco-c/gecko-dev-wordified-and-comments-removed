@@ -70,6 +70,9 @@ class
 Accessible
 ;
 class
+RemoteAccessible
+;
+class
 RootAccessibleWrap
 ;
 class
