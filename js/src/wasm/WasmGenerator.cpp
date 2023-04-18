@@ -3089,7 +3089,8 @@ auto
 codeRangeOp
 =
 [
-=
+offsetInModule
+this
 ]
 (
 uint32_t
