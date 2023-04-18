@@ -2,7 +2,6 @@ import
 {
 nodeHasChildren
 isPathDirectory
-isInvalidUrl
 partIsFile
 createSourceNode
 createDirectoryNode
@@ -481,18 +480,6 @@ source
 .
 displayURL
 ;
-if
-(
-isInvalidUrl
-(
-url
-source
-)
-)
-{
-return
-;
-}
 const
 finalNode
 =
