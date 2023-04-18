@@ -827,6 +827,16 @@ AV_FUNC_58
 )
 AV_FUNC_OPTION_SILENT
 (
+av_codec_iterate
+AV_FUNC_58
+)
+AV_FUNC_OPTION_SILENT
+(
+av_codec_is_decoder
+AV_FUNC_58
+)
+AV_FUNC_OPTION_SILENT
+(
 av_hwdevice_ctx_init
 AV_FUNC_58
 )
