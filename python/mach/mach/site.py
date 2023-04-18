@@ -27,6 +27,10 @@ collections
 import
 OrderedDict
 from
+distutils
+import
+dist
+from
 pathlib
 import
 Path
@@ -4149,11 +4153,6 @@ site_packages_dir
 self
 )
 :
-        
-from
-distutils
-import
-dist
         
 normalized_venv_root
 =
