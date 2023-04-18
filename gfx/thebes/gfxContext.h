@@ -827,6 +827,8 @@ int
 ndash
 Float
 offset
+Float
+devPxScale
 )
 ;
 bool
