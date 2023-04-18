@@ -357,7 +357,7 @@ DisableScreenConfigurationNotifications
 (
 )
 ;
-async
+sync
 LockScreenOrientation
 (
 ScreenOrientation
