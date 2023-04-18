@@ -71,6 +71,8 @@ dependencies
 :
 -
 fetch
+-
+toolchain
 transforms
 :
 -
@@ -512,6 +514,14 @@ mozilla
 com
 "
 ]
+fetches
+:
+toolchain
+:
+-
+linux64
+-
+rust
 cron
 -
 win

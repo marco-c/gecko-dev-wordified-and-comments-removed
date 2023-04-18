@@ -128,6 +128,17 @@ go
 /
 bin
 :
+/
+builds
+/
+worker
+/
+fetches
+/
+rustc
+/
+bin
+:
 {
 PATH
 }
