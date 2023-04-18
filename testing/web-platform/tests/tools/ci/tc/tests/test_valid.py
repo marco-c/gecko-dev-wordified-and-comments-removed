@@ -7,11 +7,11 @@ unittest
 import
 mock
 import
+httpx
+import
 jsone
 import
 pytest
-import
-requests
 import
 yaml
 from
@@ -488,7 +488,7 @@ decide
     
 r
 =
-requests
+httpx
 .
 get
 (
@@ -539,7 +539,7 @@ json
     
 r
 =
-requests
+httpx
 .
 get
 (
