@@ -147,7 +147,7 @@ object
 }
 ;
 }
-componentWillUpdate
+UNSAFE_componentWillUpdate
 (
 nextProps
 )

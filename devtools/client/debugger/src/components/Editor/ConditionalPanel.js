@@ -580,7 +580,7 @@ px
 }
 }
 ;
-componentWillMount
+UNSAFE_componentWillMount
 (
 )
 {
@@ -595,7 +595,7 @@ props
 )
 ;
 }
-componentWillUpdate
+UNSAFE_componentWillUpdate
 (
 )
 {

@@ -87,7 +87,7 @@ highlightLineRange
 )
 ;
 }
-componentWillUpdate
+UNSAFE_componentWillUpdate
 (
 )
 {

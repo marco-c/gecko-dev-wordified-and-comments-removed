@@ -309,7 +309,7 @@ isRequired
 }
 ;
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )
