@@ -708,17 +708,6 @@ inIncognitoContext
 )
 ;
 }
-callBackground
-(
-"
-sendEvent
-"
-.
-.
-.
-args
-)
-;
 }
 ;
 catcher
