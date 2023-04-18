@@ -462,7 +462,7 @@ addCrash
 (
 Ci
 .
-nsICrashService
+nsIXULRuntime
 .
 PROCESS_TYPE_CONTENT
 type
