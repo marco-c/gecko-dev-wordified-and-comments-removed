@@ -1933,7 +1933,11 @@ return
 false
 ;
 }
-RootedLinearString
+Rooted
+<
+JSLinearString
+*
+>
 valstr
 (
 cx
@@ -11805,7 +11809,11 @@ NewNativeConstructor
 cx
 obj_construct
 1
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 (
 cx
 -

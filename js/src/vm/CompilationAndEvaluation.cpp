@@ -1330,7 +1330,11 @@ JSContext
 const
 cx_
 ;
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 nameAtom_
 ;
 StringBuffer

@@ -3800,7 +3800,11 @@ StackFormat
 V8
 )
 {
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 =
 cx

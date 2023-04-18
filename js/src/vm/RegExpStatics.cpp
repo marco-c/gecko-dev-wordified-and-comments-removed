@@ -100,7 +100,11 @@ size_t
 )
 )
 ;
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 source
 (
 cx
@@ -141,7 +145,11 @@ return
 false
 ;
 }
-RootedLinearString
+Rooted
+<
+JSLinearString
+*
+>
 input
 (
 cx

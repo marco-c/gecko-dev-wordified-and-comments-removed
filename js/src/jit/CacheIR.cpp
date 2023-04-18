@@ -13820,7 +13820,11 @@ ICState
 state
 HandleObject
 env
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 )
 :
@@ -15297,7 +15301,11 @@ ICState
 state
 HandleObject
 env
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 )
 :

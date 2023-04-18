@@ -3610,7 +3610,11 @@ setExecuting
 (
 )
 ;
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 funName
 =
 completionKind
@@ -3862,7 +3866,11 @@ return
 nullptr
 ;
 }
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 =
 cx

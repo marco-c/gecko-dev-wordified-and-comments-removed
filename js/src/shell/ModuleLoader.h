@@ -316,7 +316,11 @@ normalizePath
 JSContext
 *
 cx
-HandleLinearString
+Handle
+<
+JSLinearString
+*
+>
 path
 )
 ;
@@ -336,7 +340,11 @@ fetchSource
 JSContext
 *
 cx
-HandleLinearString
+Handle
+<
+JSLinearString
+*
+>
 path
 )
 ;

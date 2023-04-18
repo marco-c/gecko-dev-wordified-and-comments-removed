@@ -560,7 +560,11 @@ nullptr
 PRLibSpec
 libSpec
 ;
-RootedLinearString
+Rooted
+<
+JSLinearString
+*
+>
 pathStr
 (
 cx

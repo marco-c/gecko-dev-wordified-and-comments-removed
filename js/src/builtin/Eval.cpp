@@ -453,7 +453,11 @@ EvalCache
 >
 p_
 ;
-RootedLinearString
+Rooted
+<
+JSLinearString
+*
+>
 lookupStr_
 ;
 public
@@ -1311,7 +1315,11 @@ global
 )
 )
 ;
-RootedLinearString
+Rooted
+<
+JSLinearString
+*
+>
 linearStr
 (
 cx

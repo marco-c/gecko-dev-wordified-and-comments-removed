@@ -7817,7 +7817,11 @@ asyncCause
 (
 )
 ;
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 causeAtom
 (
 cx

@@ -2064,7 +2064,11 @@ nullptr
 ;
 }
 }
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 source
 (
 cx

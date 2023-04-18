@@ -208,7 +208,11 @@ JSAtomState
 name
 )
 inline
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 AtomStateOffsetToName
 (
 const

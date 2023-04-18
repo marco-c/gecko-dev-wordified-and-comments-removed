@@ -175,7 +175,11 @@ return
 nullptr
 ;
 }
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 =
 cx
@@ -570,7 +574,11 @@ function
 "
 )
 ;
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 funName
 =
 kind

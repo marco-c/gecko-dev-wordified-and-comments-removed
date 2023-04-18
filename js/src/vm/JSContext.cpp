@@ -2912,7 +2912,11 @@ ReportIsNotDefined
 JSContext
 *
 cx
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 )
 {
