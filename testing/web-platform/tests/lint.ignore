@@ -1270,6 +1270,17 @@ audit
 js
 :
 41
+CONSOLE
+:
+webusb
+/
+resources
+/
+usb
+-
+helpers
+.
+js
 #
 use
 of
