@@ -5147,7 +5147,7 @@ valType
 (
 )
 .
-isReference
+isRefType
 (
 )
 )

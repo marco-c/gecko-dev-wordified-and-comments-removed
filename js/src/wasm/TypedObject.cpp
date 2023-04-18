@@ -1090,7 +1090,7 @@ field
 .
 type
 .
-isReference
+isRefRepr
 (
 )
 )
@@ -1144,7 +1144,7 @@ arrayType
 .
 elementType_
 .
-isReference
+isRefRepr
 (
 )
 )

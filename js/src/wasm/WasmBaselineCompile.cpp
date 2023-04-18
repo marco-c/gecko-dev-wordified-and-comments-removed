@@ -14781,7 +14781,7 @@ if
 (
 operandType
 .
-isReference
+isRefRepr
 (
 )
 )
@@ -28978,7 +28978,7 @@ field
 .
 type
 .
-isReference
+isRefRepr
 (
 )
 )
@@ -29195,7 +29195,7 @@ arrayType
 .
 elementType_
 .
-isReference
+isRefRepr
 (
 )
 )
@@ -29499,7 +29499,7 @@ structField
 .
 type
 .
-isReference
+isRefRepr
 (
 )
 )
@@ -29526,7 +29526,7 @@ structField
 .
 type
 .
-isReference
+isRefRepr
 (
 )
 )
@@ -29951,7 +29951,7 @@ structField
 .
 type
 .
-isReference
+isRefRepr
 (
 )
 )
@@ -29992,7 +29992,7 @@ structField
 .
 type
 .
-isReference
+isRefRepr
 (
 )
 )
@@ -30242,7 +30242,7 @@ arrayType
 .
 elementType_
 .
-isReference
+isRefRepr
 (
 )
 )
@@ -30293,7 +30293,7 @@ arrayType
 .
 elementType_
 .
-isReference
+isRefRepr
 (
 )
 )
@@ -30727,7 +30727,7 @@ arrayType
 .
 elementType_
 .
-isReference
+isRefRepr
 (
 )
 )
@@ -30795,7 +30795,7 @@ arrayType
 .
 elementType_
 .
-isReference
+isRefRepr
 (
 )
 )
