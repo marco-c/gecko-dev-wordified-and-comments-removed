@@ -101,7 +101,7 @@ mozilla
 /
 dom
 /
-WorkerScope
+WorkerPrivate
 .
 h
 "
