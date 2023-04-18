@@ -680,8 +680,6 @@ querySelector
 (
 "
 .
-new
--
 consoletable
 "
 )

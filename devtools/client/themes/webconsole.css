@@ -6326,8 +6326,6 @@ table
 .
 message
 .
-new
--
 consoletable
 {
 width
@@ -6442,8 +6440,6 @@ none
 ;
 }
 .
-new
--
 consoletable
 >
 div
@@ -6465,8 +6461,6 @@ border
 ;
 }
 .
-new
--
 consoletable
 -
 header
@@ -6551,8 +6545,6 @@ ellipsis
 ;
 }
 .
-new
--
 consoletable
 >
 [
@@ -6604,8 +6596,6 @@ ellipsis
 ;
 }
 .
-new
--
 consoletable
 >
 [

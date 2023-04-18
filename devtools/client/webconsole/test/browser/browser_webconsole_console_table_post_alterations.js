@@ -156,8 +156,6 @@ querySelectorAll
 .
 message
 .
-new
--
 consoletable
 "
 )
