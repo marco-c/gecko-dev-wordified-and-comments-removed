@@ -1173,12 +1173,6 @@ isTargetSwitching
 }
 )
 {
-targetFront
-.
-resourceCommand
-=
-this
-;
 const
 resources
 =
@@ -1594,11 +1588,6 @@ targetFront
 }
 )
 {
-delete
-targetFront
-.
-resourceCommand
-;
 this
 .
 _existingLegacyListeners

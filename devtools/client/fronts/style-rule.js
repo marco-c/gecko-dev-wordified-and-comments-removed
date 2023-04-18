@@ -459,6 +459,8 @@ this
 .
 targetFront
 .
+commands
+.
 resourceCommand
 ;
 if
