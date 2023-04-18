@@ -239,12 +239,14 @@ mMutex
 ;
 RefPtr
 <
+const
 AudioDeviceSet
 >
 mInputDevices
 ;
 RefPtr
 <
+const
 AudioDeviceSet
 >
 mOutputDevices
