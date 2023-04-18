@@ -30,8 +30,8 @@ nsIContent
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -40,7 +40,6 @@ Element
 class
 MouseEvent
 ;
-}
 }
 class
 nsXULPopupListener

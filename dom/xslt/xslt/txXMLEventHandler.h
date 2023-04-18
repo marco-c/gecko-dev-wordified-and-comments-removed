@@ -48,14 +48,13 @@ txOutputFormat
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 Document
 ;
-}
 }
 class
 txAXMLEventHandler

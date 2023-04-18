@@ -110,8 +110,8 @@ UTF8StringOrArrayBufferOrArrayBufferView
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1112,7 +1112,6 @@ mInFontFaceSet
 ;
 }
 ;
-}
 }
 #
 endif

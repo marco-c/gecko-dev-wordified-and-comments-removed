@@ -16,8 +16,8 @@ nsIWidget
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -105,7 +105,6 @@ mDocument
 ;
 }
 ;
-}
 }
 #
 endif

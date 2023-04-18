@@ -97,8 +97,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -501,6 +501,5 @@ GetParent
 return
 false
 ;
-}
 }
 }

@@ -91,8 +91,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsXULElement
@@ -630,6 +630,5 @@ PreventDefault
 return
 NS_OK
 ;
-}
 }
 }

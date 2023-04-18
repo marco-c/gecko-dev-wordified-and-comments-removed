@@ -83,8 +83,8 @@ txAExprResult
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -685,7 +685,6 @@ mStringResult
 ;
 }
 ;
-}
 }
 #
 endif

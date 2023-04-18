@@ -108,8 +108,8 @@ Promise
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1220,7 +1220,6 @@ mPrivateBrowsing
 ;
 }
 ;
-}
 }
 #
 endif

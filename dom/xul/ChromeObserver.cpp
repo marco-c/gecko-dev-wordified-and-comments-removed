@@ -100,8 +100,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ISUPPORTS
@@ -1234,6 +1234,5 @@ aShouldHide
 return
 NS_OK
 ;
-}
 }
 }

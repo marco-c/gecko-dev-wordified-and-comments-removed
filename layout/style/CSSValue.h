@@ -32,8 +32,8 @@ ErrorResult
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -102,7 +102,6 @@ AsPrimitiveValue
 ;
 }
 ;
-}
 }
 #
 endif

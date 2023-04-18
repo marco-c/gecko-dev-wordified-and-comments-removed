@@ -79,8 +79,8 @@ nsINode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -92,7 +92,6 @@ DocumentFragment
 class
 Element
 ;
-}
 }
 class
 txTransformNotifier

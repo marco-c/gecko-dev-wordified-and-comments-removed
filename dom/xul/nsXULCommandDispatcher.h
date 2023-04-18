@@ -63,8 +63,8 @@ nsPIWindowRoot
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -73,7 +73,6 @@ Document
 class
 Element
 ;
-}
 }
 class
 nsXULCommandDispatcher

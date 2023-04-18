@@ -40,8 +40,8 @@ nsIContent
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -53,7 +53,6 @@ DocumentFragment
 class
 Element
 ;
-}
 }
 class
 txMozillaTextOutput

@@ -325,8 +325,8 @@ true
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -2952,6 +2952,5 @@ aElement
 eHookupRemove
 )
 ;
-}
 }
 }
