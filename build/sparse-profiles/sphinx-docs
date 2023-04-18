@@ -19,9 +19,11 @@ the
 command
 path
 :
-build
+python
 /
-docs_virtualenv_packages
+sites
+/
+docs
 .
 txt
 #

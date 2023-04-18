@@ -126,9 +126,11 @@ glean
 -
 sdk
 in
-build
+python
 /
-mach_virtualenv_packages
+sites
+/
+mach
 .
 txt
 .
