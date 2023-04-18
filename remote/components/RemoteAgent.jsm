@@ -63,11 +63,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CDP
 :
@@ -163,7 +169,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -171,6 +177,8 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
@@ -182,7 +190,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 activeProtocols
 "
@@ -350,6 +358,8 @@ this
 #
 browserStartupFinished
 =
+lazy
+.
 Deferred
 (
 )
@@ -937,6 +947,8 @@ this
 server
 =
 new
+lazy
+.
 HttpServer
 (
 )
@@ -1005,6 +1017,8 @@ stop
 (
 )
 ;
+lazy
+.
 logger
 .
 error
@@ -1100,6 +1114,8 @@ catch
 e
 )
 {
+lazy
+.
 logger
 .
 error
@@ -1312,6 +1328,8 @@ this
 enabled
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -1492,6 +1510,8 @@ application
 if
 (
 (
+lazy
+.
 activeProtocols
 &
 WEBDRIVER_BIDI_ACTIVE
@@ -1508,6 +1528,8 @@ this
 webDriverBiDi
 =
 new
+lazy
+.
 WebDriverBiDi
 (
 this
@@ -1520,6 +1542,8 @@ this
 enabled
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -1536,6 +1560,8 @@ enabled
 if
 (
 (
+lazy
+.
 activeProtocols
 &
 CDP_ACTIVE
@@ -1552,6 +1578,8 @@ this
 cdp
 =
 new
+lazy
+.
 CDP
 (
 this
@@ -1564,6 +1592,8 @@ this
 enabled
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -1824,6 +1854,8 @@ running
 ;
 default
 :
+lazy
+.
 logger
 .
 warn
@@ -2090,6 +2122,8 @@ length
 0
 )
 {
+lazy
+.
 logger
 .
 warn
