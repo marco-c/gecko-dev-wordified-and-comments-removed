@@ -377,7 +377,7 @@ if
 (
 FormAutofillUtils
 .
-isFieldEligibleForAutofill
+isCreditCardOrAddressFieldType
 (
 nodeList
 [
