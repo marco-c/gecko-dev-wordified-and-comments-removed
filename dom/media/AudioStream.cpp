@@ -2586,7 +2586,8 @@ aChunk
 Channels
 (
 )
->
+<
+=
 8
 ;
 }
