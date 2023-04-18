@@ -73,6 +73,9 @@ interface
 nsIPrincipal
 ;
 interface
+nsIReferrerInfo
+;
+interface
 nsIURI
 ;
 /
@@ -200,8 +203,8 @@ LoadCommand
 .
 *
 param
-nsIURI
-referrer
+nsIReferrerInfo
+referrerInfo
 *
 The
 referrer
@@ -321,8 +324,8 @@ unsigned
 long
 loadType
 in
-nsIURI
-referrer
+nsIReferrerInfo
+referrerInfo
 in
 boolean
 hasPostData
