@@ -467,7 +467,7 @@ aData
 )
 ;
 uint32_t
-AudioQueuedInRingBufferMS
+AudioQueuedInRingBufferUs
 (
 )
 const
@@ -558,10 +558,6 @@ AudioData
 >
 &
 mAudioQueue
-;
-const
-float
-mProcessedQueueThresholdMS
 ;
 }
 ;
