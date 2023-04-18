@@ -217,12 +217,6 @@ return
 !
 !
 mGPUChild
-&
-&
-mChildProcessHandle
-!
-=
-0
 ;
 }
 TimeStamp
