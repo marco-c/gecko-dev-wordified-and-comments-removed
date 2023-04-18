@@ -2758,6 +2758,17 @@ LoadHasAppliedConversion
 )
 ;
 }
+bool
+HasRedirectTaintedOrigin
+(
+)
+{
+return
+LoadTaintedOriginFlag
+(
+)
+;
+}
 protected
 :
 nsresult
