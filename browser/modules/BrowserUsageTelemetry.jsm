@@ -592,6 +592,9 @@ paneContainers
 "
 paneExperimental
 "
+"
+paneMoreFromMozilla
+"
 ]
 ;
 const
