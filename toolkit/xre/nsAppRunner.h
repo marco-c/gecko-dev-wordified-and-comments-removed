@@ -406,6 +406,11 @@ extern
 GeckoProcessType
 sChildProcessType
 ;
+void
+IncreaseDescriptorLimits
+(
+)
+;
 }
 const
 char
