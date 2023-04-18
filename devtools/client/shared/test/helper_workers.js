@@ -30,7 +30,9 @@ test
 /
 mochitest
 /
-helpers
+shared
+-
+head
 .
 js
 "
