@@ -230,6 +230,16 @@ exclude
 =
 __pycache__
 "
+                
+"
+-
+-
+strip
+-
+trailing
+-
+cr
+"
             
 ]
         
