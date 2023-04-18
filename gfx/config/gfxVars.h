@@ -610,6 +610,13 @@ UseVP9HwDecode
 bool
 false
 )
+\
+_
+(
+HwDecodedVideoNoCopy
+bool
+false
+)
 class
 gfxVars
 final

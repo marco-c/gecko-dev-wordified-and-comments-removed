@@ -1845,10 +1845,10 @@ Mode
 }
 if
 (
-StaticPrefs
+gfxVars
 :
 :
-media_wmf_no_copy_nv12_textures
+HwDecodedVideoNoCopy
 (
 )
 &
