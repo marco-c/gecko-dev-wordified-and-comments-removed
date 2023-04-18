@@ -2790,7 +2790,7 @@ aUnicode
 WORD
 glyph
 ;
-DWORD
+HRESULT
 ret
 =
 ScriptGetCMap
@@ -2866,6 +2866,7 @@ ret
 S_OK
 )
 {
+DWORD
 ret
 =
 GetGlyphIndicesW
