@@ -42,6 +42,15 @@ h
 #
 include
 "
+builtin
+/
+TestingUtility
+.
+h
+"
+#
+include
+"
 js
 /
 MapAndSet
@@ -2091,6 +2100,9 @@ RootedObject
 info
 (
 cx
+js
+:
+:
 CreateScriptPrivate
 (
 cx
