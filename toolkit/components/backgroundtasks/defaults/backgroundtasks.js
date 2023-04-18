@@ -130,3 +130,15 @@ noPersistentStorage
 true
 )
 ;
+pref
+(
+"
+toolkit
+.
+shutdown
+.
+fastShutdownStage
+"
+0
+)
+;
