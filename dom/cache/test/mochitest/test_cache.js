@@ -7,7 +7,7 @@ var
 request
 =
 "
-http
+https
 :
 /
 /
@@ -1101,7 +1101,7 @@ new
 Request
 (
 "
-http
+https
 :
 /
 /

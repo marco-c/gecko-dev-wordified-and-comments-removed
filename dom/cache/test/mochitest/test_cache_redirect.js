@@ -14,7 +14,7 @@ let
 redirectURL
 =
 "
-http
+https
 :
 /
 /
