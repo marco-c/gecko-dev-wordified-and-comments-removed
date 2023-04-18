@@ -280,9 +280,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -291,7 +291,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mWidth
@@ -299,7 +299,7 @@ mWidth
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mHeight
@@ -307,7 +307,7 @@ mHeight
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mNumberOfTemporalLayers
@@ -315,7 +315,7 @@ mNumberOfTemporalLayers
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mMaxBitrate
@@ -323,7 +323,7 @@ mMaxBitrate
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mTargetBitrate
@@ -331,7 +331,7 @@ mTargetBitrate
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mMinBitrate
@@ -339,7 +339,7 @@ mMinBitrate
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mQPMax
@@ -350,13 +350,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -366,8 +362,7 @@ if
 (
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -380,8 +375,7 @@ mWidth
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -394,8 +388,7 @@ mHeight
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -408,8 +401,7 @@ mNumberOfTemporalLayers
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -422,8 +414,7 @@ mMaxBitrate
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -436,8 +427,7 @@ mTargetBitrate
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -450,8 +440,7 @@ mMinBitrate
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -556,9 +545,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -567,7 +556,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mGMPApiVersion
@@ -575,7 +564,7 @@ mGMPApiVersion
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mCodecType
@@ -583,7 +572,7 @@ mCodecType
 ;
 WriteParam
 (
-aMsg
+aWriter
 static_cast
 <
 const
@@ -602,7 +591,7 @@ mPLName
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mPLType
@@ -610,7 +599,7 @@ mPLType
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mWidth
@@ -618,7 +607,7 @@ mWidth
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mHeight
@@ -626,7 +615,7 @@ mHeight
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mStartBitrate
@@ -634,7 +623,7 @@ mStartBitrate
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mMaxBitrate
@@ -642,7 +631,7 @@ mMaxBitrate
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mMinBitrate
@@ -650,7 +639,7 @@ mMinBitrate
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mMaxFramerate
@@ -658,7 +647,7 @@ mMaxFramerate
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mFrameDroppingOn
@@ -666,7 +655,7 @@ mFrameDroppingOn
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mKeyFrameInterval
@@ -674,7 +663,7 @@ mKeyFrameInterval
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mQPMax
@@ -682,7 +671,7 @@ mQPMax
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mNumberOfSimulcastStreams
@@ -708,7 +697,7 @@ i
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mSimulcastStream
@@ -720,7 +709,7 @@ i
 }
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mMode
@@ -731,13 +720,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -748,8 +733,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -778,8 +762,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -802,8 +785,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 plName
 )
@@ -869,8 +851,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -884,8 +865,7 @@ mPLType
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -899,8 +879,7 @@ mWidth
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -914,8 +893,7 @@ mHeight
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -929,8 +907,7 @@ mStartBitrate
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -944,8 +921,7 @@ mMaxBitrate
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -959,8 +935,7 @@ mMinBitrate
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -974,8 +949,7 @@ mMaxFramerate
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -989,8 +963,7 @@ mFrameDroppingOn
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -1010,8 +983,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -1025,8 +997,7 @@ mQPMax
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -1079,8 +1050,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -1104,8 +1074,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult

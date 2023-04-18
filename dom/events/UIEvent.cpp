@@ -1150,9 +1150,9 @@ Serialize
 IPC
 :
 :
-Message
+MessageWriter
 *
-aMsg
+aWriter
 bool
 aSerializeInterfaceType
 )
@@ -1167,7 +1167,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 u
 "
 uievent
@@ -1181,7 +1181,7 @@ Event
 :
 Serialize
 (
-aMsg
+aWriter
 false
 )
 ;
@@ -1190,7 +1190,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 Detail
 (
 )
@@ -1203,16 +1203,12 @@ UIEvent
 :
 Deserialize
 (
-const
 IPC
 :
 :
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 )
 {
 NS_ENSURE_TRUE
@@ -1222,8 +1218,7 @@ Event
 :
 Deserialize
 (
-aMsg
-aIter
+aReader
 )
 false
 )
@@ -1235,8 +1230,7 @@ IPC
 :
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 mDetail
 )

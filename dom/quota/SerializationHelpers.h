@@ -231,9 +231,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 ParamType
 &
@@ -242,7 +242,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mSuffix
@@ -250,7 +250,7 @@ mSuffix
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mGroup
@@ -258,7 +258,7 @@ mGroup
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mOrigin
@@ -266,7 +266,7 @@ mOrigin
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mPersistenceType
@@ -274,7 +274,7 @@ mPersistenceType
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mPersisted
@@ -282,7 +282,7 @@ mPersisted
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mLastAccessTime
@@ -293,13 +293,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 ParamType
 *
 aResult
@@ -308,8 +304,7 @@ aResult
 return
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -320,8 +315,7 @@ mSuffix
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -332,8 +326,7 @@ mGroup
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -344,8 +337,7 @@ mOrigin
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -356,8 +348,7 @@ mPersistenceType
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -368,8 +359,7 @@ mPersisted
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -403,9 +393,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -414,7 +404,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mFirstPartyDomain
@@ -422,7 +412,7 @@ mFirstPartyDomain
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mInIsolatedMozBrowser
@@ -430,7 +420,7 @@ mInIsolatedMozBrowser
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mPrivateBrowsingId
@@ -438,7 +428,7 @@ mPrivateBrowsingId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mUserContextId
@@ -446,7 +436,7 @@ mUserContextId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mGeckoViewSessionContextId
@@ -457,13 +447,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -472,8 +458,7 @@ aResult
 return
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -484,8 +469,7 @@ mFirstPartyDomain
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -496,8 +480,7 @@ mInIsolatedMozBrowser
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -508,8 +491,7 @@ mPrivateBrowsingId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -520,8 +502,7 @@ mUserContextId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -

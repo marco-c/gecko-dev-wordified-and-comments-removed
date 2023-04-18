@@ -313,9 +313,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -324,7 +324,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 flags
@@ -332,7 +332,7 @@ flags
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 orientation
@@ -343,7 +343,7 @@ orientation
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 orientation
@@ -354,7 +354,7 @@ orientation
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 orientation
@@ -365,7 +365,7 @@ orientation
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 orientation
@@ -376,7 +376,7 @@ orientation
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 position
@@ -387,7 +387,7 @@ position
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 position
@@ -398,7 +398,7 @@ position
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 position
@@ -409,7 +409,7 @@ position
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 angularVelocity
@@ -420,7 +420,7 @@ angularVelocity
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 angularVelocity
@@ -431,7 +431,7 @@ angularVelocity
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 angularVelocity
@@ -442,7 +442,7 @@ angularVelocity
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 angularAcceleration
@@ -453,7 +453,7 @@ angularAcceleration
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 angularAcceleration
@@ -464,7 +464,7 @@ angularAcceleration
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 angularAcceleration
@@ -475,7 +475,7 @@ angularAcceleration
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 linearVelocity
@@ -486,7 +486,7 @@ linearVelocity
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 linearVelocity
@@ -497,7 +497,7 @@ linearVelocity
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 linearVelocity
@@ -508,7 +508,7 @@ linearVelocity
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 linearAcceleration
@@ -519,7 +519,7 @@ linearAcceleration
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 linearAcceleration
@@ -530,7 +530,7 @@ linearAcceleration
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 linearAcceleration
@@ -541,7 +541,7 @@ linearAcceleration
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 isPositionValid
@@ -549,7 +549,7 @@ isPositionValid
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 isOrientationValid
@@ -560,13 +560,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -577,8 +573,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -592,8 +587,7 @@ flags
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -610,8 +604,7 @@ orientation
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -628,8 +621,7 @@ orientation
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -646,8 +638,7 @@ orientation
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -664,8 +655,7 @@ orientation
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -682,8 +672,7 @@ position
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -700,8 +689,7 @@ position
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -718,8 +706,7 @@ position
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -736,8 +723,7 @@ angularVelocity
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -754,8 +740,7 @@ angularVelocity
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -772,8 +757,7 @@ angularVelocity
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -790,8 +774,7 @@ angularAcceleration
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -808,8 +791,7 @@ angularAcceleration
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -826,8 +808,7 @@ angularAcceleration
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -844,8 +825,7 @@ linearVelocity
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -862,8 +842,7 @@ linearVelocity
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -880,8 +859,7 @@ linearVelocity
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -898,8 +876,7 @@ linearAcceleration
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -916,8 +893,7 @@ linearAcceleration
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -934,8 +910,7 @@ linearAcceleration
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -949,8 +924,7 @@ isPositionValid
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -1000,9 +974,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -1011,7 +985,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 touchId
@@ -1019,7 +993,7 @@ touchId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 surfaceId
@@ -1027,7 +1001,7 @@ surfaceId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 position
@@ -1038,7 +1012,7 @@ position
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 position
@@ -1049,7 +1023,7 @@ position
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 surfaceDimensions
@@ -1060,7 +1034,7 @@ surfaceDimensions
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 surfaceDimensions
@@ -1071,7 +1045,7 @@ surfaceDimensions
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 isSurfaceDimensionsValid
@@ -1082,13 +1056,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -1099,8 +1069,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -1114,8 +1083,7 @@ touchId
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -1129,8 +1097,7 @@ surfaceId
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -1147,8 +1114,7 @@ position
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -1165,8 +1131,7 @@ position
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -1183,8 +1148,7 @@ surfaceDimensions
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -1201,8 +1165,7 @@ surfaceDimensions
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -1301,9 +1264,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -1312,7 +1275,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mValue
@@ -1320,7 +1283,7 @@ mValue
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mKind
@@ -1331,13 +1294,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aParam
@@ -1346,8 +1305,7 @@ aParam
 return
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aParam
 -
@@ -1358,8 +1316,7 @@ mValue
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aParam
 -

@@ -474,9 +474,9 @@ Bad
 :
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -487,7 +487,7 @@ int32_t
 *
 ptr
 =
-aMsg
+aWriter
 -
 >
 GetInt32PtrForTest
@@ -565,13 +565,9 @@ Bad
 :
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult

@@ -48,9 +48,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 nsIDOMGeoPositionCoords
 *
 aParam
@@ -64,7 +64,7 @@ aParam
 ;
 WriteParam
 (
-aMsg
+aWriter
 isNull
 )
 ;
@@ -88,7 +88,7 @@ coordData
 ;
 WriteParam
 (
-aMsg
+aWriter
 coordData
 )
 ;
@@ -103,7 +103,7 @@ coordData
 ;
 WriteParam
 (
-aMsg
+aWriter
 coordData
 )
 ;
@@ -118,7 +118,7 @@ coordData
 ;
 WriteParam
 (
-aMsg
+aWriter
 coordData
 )
 ;
@@ -133,7 +133,7 @@ coordData
 ;
 WriteParam
 (
-aMsg
+aWriter
 coordData
 )
 ;
@@ -148,7 +148,7 @@ coordData
 ;
 WriteParam
 (
-aMsg
+aWriter
 coordData
 )
 ;
@@ -163,7 +163,7 @@ coordData
 ;
 WriteParam
 (
-aMsg
+aWriter
 coordData
 )
 ;
@@ -178,7 +178,7 @@ coordData
 ;
 WriteParam
 (
-aMsg
+aWriter
 coordData
 )
 ;
@@ -187,13 +187,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 RefPtr
 <
 nsIDOMGeoPositionCoords
@@ -210,8 +206,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 isNull
 )
@@ -260,8 +255,7 @@ if
 (
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 latitude
 )
@@ -269,8 +263,7 @@ latitude
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 longitude
 )
@@ -278,8 +271,7 @@ longitude
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 altitude
 )
@@ -287,8 +279,7 @@ altitude
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 accuracy
 )
@@ -296,8 +287,7 @@ accuracy
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 altitudeAccuracy
 )
@@ -305,8 +295,7 @@ altitudeAccuracy
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 heading
 )
@@ -314,8 +303,7 @@ heading
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 speed
 )
@@ -359,9 +347,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 nsIDOMGeoPosition
 *
 aParam
@@ -375,7 +363,7 @@ aParam
 ;
 WriteParam
 (
-aMsg
+aWriter
 isNull
 )
 ;
@@ -399,7 +387,7 @@ timeStamp
 ;
 WriteParam
 (
-aMsg
+aWriter
 timeStamp
 )
 ;
@@ -422,7 +410,7 @@ coords
 ;
 WriteParam
 (
-aMsg
+aWriter
 coords
 )
 ;
@@ -431,13 +419,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 RefPtr
 <
 nsIDOMGeoPosition
@@ -454,8 +438,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 isNull
 )
@@ -491,8 +474,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 timeStamp
 )
@@ -501,8 +483,7 @@ timeStamp
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 coords
 )

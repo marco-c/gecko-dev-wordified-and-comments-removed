@@ -59,9 +59,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -72,13 +72,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult

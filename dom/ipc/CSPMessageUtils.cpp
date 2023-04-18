@@ -58,9 +58,9 @@ nsIContentSecurityPolicy
 :
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 nsIContentSecurityPolicy
 *
 aParam
@@ -74,7 +74,7 @@ aParam
 ;
 WriteParam
 (
-aMsg
+aWriter
 isNull
 )
 ;
@@ -116,7 +116,7 @@ CSPInfo
 :
 Write
 (
-aMsg
+aWriter
 nullptr
 csp
 )
@@ -132,13 +132,9 @@ nsIContentSecurityPolicy
 :
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 RefPtr
 <
 nsIContentSecurityPolicy
@@ -155,8 +151,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 isNull
 )
@@ -194,8 +189,7 @@ CSPInfo
 :
 Read
 (
-aMsg
-aIter
+aReader
 nullptr
 &
 csp

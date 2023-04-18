@@ -44,9 +44,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 nsIContentSecurityPolicy
 *
 aParam
@@ -56,13 +56,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 RefPtr
 <
 nsIContentSecurityPolicy

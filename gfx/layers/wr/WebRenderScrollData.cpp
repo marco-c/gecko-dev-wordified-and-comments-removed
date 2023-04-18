@@ -2079,9 +2079,9 @@ WebRenderLayerScrollData
 :
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -2090,7 +2090,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mDescendantCount
@@ -2098,7 +2098,7 @@ mDescendantCount
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mScrollIds
@@ -2106,7 +2106,7 @@ mScrollIds
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mAncestorTransform
@@ -2114,7 +2114,7 @@ mAncestorTransform
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mAncestorTransformId
@@ -2122,7 +2122,7 @@ mAncestorTransformId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mTransform
@@ -2130,7 +2130,7 @@ mTransform
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mTransformIsPerspective
@@ -2138,7 +2138,7 @@ mTransformIsPerspective
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mResolution
@@ -2146,7 +2146,7 @@ mResolution
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mVisibleRegion
@@ -2154,7 +2154,7 @@ mVisibleRegion
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mRemoteDocumentSize
@@ -2162,7 +2162,7 @@ mRemoteDocumentSize
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mReferentId
@@ -2170,7 +2170,7 @@ mReferentId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mEventRegionsOverride
@@ -2178,7 +2178,7 @@ mEventRegionsOverride
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mScrollbarData
@@ -2186,7 +2186,7 @@ mScrollbarData
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mScrollbarAnimationId
@@ -2194,7 +2194,7 @@ mScrollbarAnimationId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mFixedPositionAnimationId
@@ -2202,7 +2202,7 @@ mFixedPositionAnimationId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mFixedPositionSides
@@ -2210,7 +2210,7 @@ mFixedPositionSides
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mFixedPosScrollContainerId
@@ -2218,7 +2218,7 @@ mFixedPosScrollContainerId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mStickyPosScrollContainerId
@@ -2226,7 +2226,7 @@ mStickyPosScrollContainerId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mStickyScrollRangeOuter
@@ -2234,7 +2234,7 @@ mStickyScrollRangeOuter
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mStickyScrollRangeInner
@@ -2242,7 +2242,7 @@ mStickyScrollRangeInner
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mStickyPositionAnimationId
@@ -2250,7 +2250,7 @@ mStickyPositionAnimationId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mZoomAnimationId
@@ -2258,7 +2258,7 @@ mZoomAnimationId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mAsyncZoomContainerId
@@ -2280,13 +2280,9 @@ WebRenderLayerScrollData
 :
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -2295,8 +2291,7 @@ aResult
 return
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2307,8 +2302,7 @@ mDescendantCount
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2319,8 +2313,7 @@ mScrollIds
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2331,8 +2324,7 @@ mAncestorTransform
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2343,8 +2335,7 @@ mAncestorTransformId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2355,8 +2346,7 @@ mTransform
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2367,8 +2357,7 @@ mTransformIsPerspective
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2379,8 +2368,7 @@ mResolution
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2391,8 +2379,7 @@ mVisibleRegion
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2403,8 +2390,7 @@ mRemoteDocumentSize
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2415,8 +2401,7 @@ mReferentId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2427,8 +2412,7 @@ mEventRegionsOverride
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2439,8 +2423,7 @@ mScrollbarData
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2451,8 +2434,7 @@ mScrollbarAnimationId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2463,8 +2445,7 @@ mFixedPositionAnimationId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2475,8 +2456,7 @@ mFixedPositionSides
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2487,8 +2467,7 @@ mFixedPosScrollContainerId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2499,8 +2478,7 @@ mStickyPosScrollContainerId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2511,8 +2489,7 @@ mStickyScrollRangeOuter
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2523,8 +2500,7 @@ mStickyScrollRangeInner
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2535,8 +2511,7 @@ mStickyPositionAnimationId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2547,8 +2522,7 @@ mZoomAnimationId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2572,9 +2546,9 @@ WebRenderScrollData
 :
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -2583,7 +2557,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mScrollMetadatas
@@ -2591,7 +2565,7 @@ mScrollMetadatas
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mLayerScrollData
@@ -2599,7 +2573,7 @@ mLayerScrollData
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mIsFirstPaint
@@ -2607,7 +2581,7 @@ mIsFirstPaint
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mPaintSequenceNumber
@@ -2629,13 +2603,9 @@ WebRenderScrollData
 :
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -2644,8 +2614,7 @@ aResult
 return
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2656,8 +2625,7 @@ mScrollMetadatas
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2668,8 +2636,7 @@ mLayerScrollData
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -2680,8 +2647,7 @@ mIsFirstPaint
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -

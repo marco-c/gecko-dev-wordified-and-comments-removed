@@ -136,9 +136,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -147,7 +147,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mUniformities
@@ -158,13 +158,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -186,8 +182,7 @@ float
 :
 Read
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -

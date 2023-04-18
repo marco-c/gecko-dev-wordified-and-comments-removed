@@ -301,9 +301,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -312,7 +312,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mModules
@@ -320,7 +320,7 @@ mModules
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mStacks
@@ -328,7 +328,7 @@ mStacks
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mNextIndex
@@ -336,7 +336,7 @@ mNextIndex
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mMaxStacksCount
@@ -347,13 +347,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -364,8 +360,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -383,8 +378,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -402,8 +396,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -421,8 +414,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -

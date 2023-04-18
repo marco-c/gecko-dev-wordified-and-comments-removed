@@ -130,9 +130,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 paramType
 &
 &
@@ -141,7 +141,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mName
@@ -149,7 +149,7 @@ mName
 ;
 WriteParam
 (
-aMsg
+aWriter
 std
 :
 :
@@ -163,7 +163,7 @@ mHandle
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mMode
@@ -171,7 +171,7 @@ mMode
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mMyPid
@@ -179,7 +179,7 @@ mMyPid
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mOtherPid
@@ -190,13 +190,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -205,8 +201,7 @@ aResult
 return
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -217,8 +212,7 @@ mName
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -229,8 +223,7 @@ mHandle
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -241,8 +234,7 @@ mMode
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -253,8 +245,7 @@ mMyPid
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -

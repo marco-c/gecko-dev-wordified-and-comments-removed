@@ -187,9 +187,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -210,7 +210,7 @@ suffix
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mIsNotNull
@@ -218,7 +218,7 @@ mIsNotNull
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mIsContent
@@ -226,7 +226,7 @@ mIsContent
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mIsPrivateBitValid
@@ -234,7 +234,7 @@ mIsPrivateBitValid
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mUseRemoteTabs
@@ -242,7 +242,7 @@ mUseRemoteTabs
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mUseRemoteSubframes
@@ -250,7 +250,7 @@ mUseRemoteSubframes
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mUseTrackingProtection
@@ -258,7 +258,7 @@ mUseTrackingProtection
 ;
 WriteParam
 (
-aMsg
+aWriter
 suffix
 )
 ;
@@ -267,13 +267,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -287,8 +283,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -300,8 +295,7 @@ mIsNotNull
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -313,8 +307,7 @@ mIsContent
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -326,8 +319,7 @@ mIsPrivateBitValid
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -339,8 +331,7 @@ mUseRemoteTabs
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -352,8 +343,7 @@ mUseRemoteSubframes
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -365,8 +355,7 @@ mUseTrackingProtection
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 suffix
 )

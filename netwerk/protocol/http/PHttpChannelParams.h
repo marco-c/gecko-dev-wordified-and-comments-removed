@@ -185,9 +185,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -196,7 +196,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mHeader
@@ -204,7 +204,7 @@ mHeader
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mValue
@@ -212,7 +212,7 @@ mValue
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mMerge
@@ -220,7 +220,7 @@ mMerge
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mEmpty
@@ -231,13 +231,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -248,8 +244,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -261,8 +256,7 @@ mHeader
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -274,8 +268,7 @@ mValue
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -287,8 +280,7 @@ mMerge
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -334,9 +326,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -369,7 +361,7 @@ get
 ;
 WriteParam
 (
-aMsg
+aWriter
 value
 )
 ;
@@ -378,13 +370,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -398,8 +386,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 value
 )
@@ -481,9 +468,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -503,7 +490,7 @@ IsEmpty
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 header
@@ -514,7 +501,7 @@ else
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 headerNameOriginal
@@ -523,7 +510,7 @@ headerNameOriginal
 }
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 value
@@ -550,7 +537,7 @@ eVarietyUnknown
 :
 WriteParam
 (
-aMsg
+aWriter
 (
 uint8_t
 )
@@ -573,7 +560,7 @@ eVarietyRequestOverride
 :
 WriteParam
 (
-aMsg
+aWriter
 (
 uint8_t
 )
@@ -596,7 +583,7 @@ eVarietyRequestDefault
 :
 WriteParam
 (
-aMsg
+aWriter
 (
 uint8_t
 )
@@ -619,7 +606,7 @@ eVarietyResponseNetOriginalAndResponse
 :
 WriteParam
 (
-aMsg
+aWriter
 (
 uint8_t
 )
@@ -642,7 +629,7 @@ eVarietyResponseNetOriginal
 :
 WriteParam
 (
-aMsg
+aWriter
 (
 uint8_t
 )
@@ -665,7 +652,7 @@ eVarietyResponse
 :
 WriteParam
 (
-aMsg
+aWriter
 (
 uint8_t
 )
@@ -678,13 +665,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -701,8 +684,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 header
 )
@@ -711,8 +693,7 @@ header
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -724,8 +705,7 @@ value
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 variety
 )
@@ -958,9 +938,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -982,7 +962,7 @@ aParam
 ;
 WriteParam
 (
-aMsg
+aWriter
 p
 .
 mHeaders
@@ -993,13 +973,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -1010,8 +986,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1057,9 +1032,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -1074,7 +1049,7 @@ Enter
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mHeaders
@@ -1082,7 +1057,7 @@ mHeaders
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mMethod
@@ -1090,7 +1065,7 @@ mMethod
 ;
 WriteParam
 (
-aMsg
+aWriter
 static_cast
 <
 uint32_t
@@ -1104,7 +1079,7 @@ mVersion
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mRequestURI
@@ -1112,7 +1087,7 @@ mRequestURI
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mPath
@@ -1120,7 +1095,7 @@ mPath
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mOrigin
@@ -1128,7 +1103,7 @@ mOrigin
 ;
 WriteParam
 (
-aMsg
+aWriter
 static_cast
 <
 uint8_t
@@ -1142,7 +1117,7 @@ mParsedMethod
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mHTTPS
@@ -1159,13 +1134,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -1189,8 +1160,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1202,8 +1172,7 @@ mHeaders
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1215,8 +1184,7 @@ mMethod
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 version
 )
@@ -1225,8 +1193,7 @@ version
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1238,8 +1205,7 @@ mRequestURI
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1251,8 +1217,7 @@ mPath
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1264,8 +1229,7 @@ mOrigin
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 method
 )
@@ -1274,8 +1238,7 @@ method
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1378,9 +1341,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -1395,7 +1358,7 @@ Enter
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mHeaders
@@ -1403,7 +1366,7 @@ mHeaders
 ;
 WriteParam
 (
-aMsg
+aWriter
 static_cast
 <
 uint32_t
@@ -1417,7 +1380,7 @@ mVersion
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mStatus
@@ -1425,7 +1388,7 @@ mStatus
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mStatusText
@@ -1433,7 +1396,7 @@ mStatusText
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mContentLength
@@ -1441,7 +1404,7 @@ mContentLength
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mContentType
@@ -1449,7 +1412,7 @@ mContentType
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mContentCharset
@@ -1457,7 +1420,7 @@ mContentCharset
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mHasCacheControl
@@ -1465,7 +1428,7 @@ mHasCacheControl
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mCacheControlPublic
@@ -1473,7 +1436,7 @@ mCacheControlPublic
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mCacheControlPrivate
@@ -1481,7 +1444,7 @@ mCacheControlPrivate
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mCacheControlNoStore
@@ -1489,7 +1452,7 @@ mCacheControlNoStore
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mCacheControlNoCache
@@ -1497,7 +1460,7 @@ mCacheControlNoCache
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mCacheControlImmutable
@@ -1505,7 +1468,7 @@ mCacheControlImmutable
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mCacheControlStaleWhileRevalidateSet
@@ -1513,7 +1476,7 @@ mCacheControlStaleWhileRevalidateSet
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mCacheControlStaleWhileRevalidate
@@ -1521,7 +1484,7 @@ mCacheControlStaleWhileRevalidate
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mCacheControlMaxAgeSet
@@ -1529,7 +1492,7 @@ mCacheControlMaxAgeSet
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mCacheControlMaxAge
@@ -1537,7 +1500,7 @@ mCacheControlMaxAge
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mPragmaNoCache
@@ -1554,13 +1517,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -1581,8 +1540,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1594,8 +1552,7 @@ mHeaders
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 version
 )
@@ -1604,8 +1561,7 @@ version
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1617,8 +1573,7 @@ mStatus
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1630,8 +1585,7 @@ mStatusText
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1643,8 +1597,7 @@ mContentLength
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1656,8 +1609,7 @@ mContentType
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1669,8 +1621,7 @@ mContentCharset
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1682,8 +1633,7 @@ mHasCacheControl
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1695,8 +1645,7 @@ mCacheControlPublic
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1708,8 +1657,7 @@ mCacheControlPrivate
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1721,8 +1669,7 @@ mCacheControlNoStore
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1734,8 +1681,7 @@ mCacheControlNoCache
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1747,8 +1693,7 @@ mCacheControlImmutable
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1760,8 +1705,7 @@ mCacheControlStaleWhileRevalidateSet
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1773,8 +1717,7 @@ mCacheControlStaleWhileRevalidate
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1786,8 +1729,7 @@ mCacheControlMaxAgeSet
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -1799,8 +1741,7 @@ mCacheControlMaxAge
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -

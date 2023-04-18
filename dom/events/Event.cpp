@@ -4033,9 +4033,9 @@ Serialize
 IPC
 :
 :
-Message
+MessageWriter
 *
-aMsg
+aWriter
 bool
 aSerializeInterfaceType
 )
@@ -4050,7 +4050,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 u
 "
 event
@@ -4072,7 +4072,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 type
 )
 ;
@@ -4081,7 +4081,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 Bubbles
 (
 )
@@ -4092,7 +4092,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 Cancelable
 (
 )
@@ -4103,7 +4103,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 IsTrusted
 (
 )
@@ -4114,7 +4114,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 Composed
 (
 )
@@ -4127,16 +4127,12 @@ Event
 :
 Deserialize
 (
-const
 IPC
 :
 :
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 )
 {
 nsString
@@ -4149,8 +4145,7 @@ IPC
 :
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 type
 )
@@ -4169,8 +4164,7 @@ IPC
 :
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 bubbles
 )
@@ -4189,8 +4183,7 @@ IPC
 :
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 cancelable
 )
@@ -4209,8 +4202,7 @@ IPC
 :
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 trusted
 )
@@ -4229,8 +4221,7 @@ IPC
 :
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 composed
 )

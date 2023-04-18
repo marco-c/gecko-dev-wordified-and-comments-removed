@@ -292,9 +292,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -303,7 +303,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mBuffer
@@ -311,7 +311,7 @@ mBuffer
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mUTF16Length
@@ -319,7 +319,7 @@ mUTF16Length
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mConversionType
@@ -327,7 +327,7 @@ mConversionType
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mCompressionType
@@ -338,13 +338,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -353,8 +349,7 @@ aResult
 return
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -365,8 +360,7 @@ mBuffer
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -377,8 +371,7 @@ mUTF16Length
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -389,8 +382,7 @@ mConversionType
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
