@@ -269,6 +269,17 @@ selected
 "
 )
 ;
+EventUtils
+.
+sendMouseEvent
+(
+{
+type
+:
+"
+click
+"
+}
 messageNode
 .
 querySelector
@@ -282,9 +293,6 @@ link
 filename
 "
 )
-.
-click
-(
 )
 ;
 const
