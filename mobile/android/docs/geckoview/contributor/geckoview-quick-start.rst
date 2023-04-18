@@ -1725,9 +1725,9 @@ Builder
 html
 #
 aboutConfigEnabled
--
+(
 boolean
--
+)
 Submitting
 to
 the
