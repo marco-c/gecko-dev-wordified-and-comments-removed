@@ -1775,6 +1775,12 @@ if
 (
 !
 path
+|
+|
+!
+this
+.
+_rs
 )
 {
 return
