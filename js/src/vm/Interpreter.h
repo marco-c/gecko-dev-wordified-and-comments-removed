@@ -1160,7 +1160,7 @@ v
 ;
 extern
 bool
-HasInstance
+InstanceofOperator
 (
 JSContext
 *

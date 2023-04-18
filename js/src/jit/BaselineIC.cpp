@@ -10824,7 +10824,7 @@ false
 if
 (
 !
-HasInstance
+InstanceofOperator
 (
 cx
 obj
