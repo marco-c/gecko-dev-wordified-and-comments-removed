@@ -1480,6 +1480,12 @@ file
 -
 move
 -
+file
+  
+#
+-
+move
+-
 dir
   
 #
@@ -1532,6 +1538,9 @@ the
 action
 is
 copy
+-
+file
+move
 -
 file
 or
@@ -3161,6 +3170,12 @@ file
 "
 move
 -
+file
+"
+                                    
+"
+move
+-
 dir
 "
                                     
@@ -4166,6 +4181,11 @@ file
 "
 "
 move
+-
+file
+"
+"
+movie
 -
 dir
 "
