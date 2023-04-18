@@ -223,7 +223,6 @@ nsPluginArray
 (
 )
 ;
-static
 bool
 ForceNoPlugins
 (
