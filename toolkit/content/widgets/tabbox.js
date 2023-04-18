@@ -533,6 +533,16 @@ defaultCancelled
 return
 ;
 }
+if
+(
+event
+.
+defaultPreventedByChrome
+)
+{
+return
+;
+}
 const
 {
 ShortcutUtils
