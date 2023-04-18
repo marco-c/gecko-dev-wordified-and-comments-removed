@@ -492,11 +492,6 @@ model
 )
 ;
 }
-const
-EXPECTED_NUM_OF_CONFIDENCE
-=
-1
-;
 for
 (
 let
@@ -530,7 +525,7 @@ i
 length
 !
 =
-EXPECTED_NUM_OF_CONFIDENCE
+6
 )
 {
 ok
@@ -566,7 +561,7 @@ i
 length
 !
 =
-EXPECTED_NUM_OF_CONFIDENCE
+6
 )
 {
 ok
