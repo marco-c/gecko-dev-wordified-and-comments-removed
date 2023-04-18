@@ -36,7 +36,7 @@ class
 IPCWorkerRef
 ;
 class
-ServiceWorker
+RemoteServiceWorkerImpl
 ;
 class
 ServiceWorkerChild
@@ -51,7 +51,7 @@ IPCWorkerRef
 >
 mIPCWorkerRef
 ;
-ServiceWorker
+RemoteServiceWorkerImpl
 *
 mOwner
 ;
@@ -97,7 +97,7 @@ Create
 void
 SetOwner
 (
-ServiceWorker
+RemoteServiceWorkerImpl
 *
 aOwner
 )
@@ -105,7 +105,7 @@ aOwner
 void
 RevokeOwner
 (
-ServiceWorker
+RemoteServiceWorkerImpl
 *
 aOwner
 )
