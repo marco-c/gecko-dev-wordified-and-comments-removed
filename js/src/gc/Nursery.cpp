@@ -1100,6 +1100,7 @@ tenuredChunk
 init
 (
 gc
+false
 )
 ;
 AutoLockGC

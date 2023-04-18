@@ -932,9 +932,16 @@ bytesOut
 class
 GCSchedulingState
 {
-MainThreadOrGCTaskData
+mozilla
+:
+:
+Atomic
 <
 bool
+mozilla
+:
+:
+ReleaseAcquire
 >
 inHighFrequencyGCMode_
 ;

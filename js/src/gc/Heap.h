@@ -2933,6 +2933,8 @@ init
 GCRuntime
 *
 gc
+bool
+allMemoryCommitted
 )
 ;
 Arena
@@ -2955,11 +2957,6 @@ const
 ;
 #
 else
-void
-initAsDecommitted
-(
-)
-;
 void
 verify
 (
