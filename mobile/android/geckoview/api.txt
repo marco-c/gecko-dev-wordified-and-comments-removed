@@ -18340,6 +18340,8 @@ String
 public
 class
 WebNotification
+implements
+Parcelable
 {
 method
 UiThread
@@ -18356,6 +18358,18 @@ void
 dismiss
 (
 )
+;
+field
+public
+static
+final
+Parcelable
+.
+Creator
+<
+WebNotification
+>
+CREATOR
 ;
 field
 Nullable
