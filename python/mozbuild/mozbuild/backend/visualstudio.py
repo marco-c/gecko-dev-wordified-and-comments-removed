@@ -888,8 +888,7 @@ SolutionDir
 mach
 .
 bat
-build
-clean
+clobber
 "
             
 )
