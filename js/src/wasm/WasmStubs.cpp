@@ -4865,7 +4865,7 @@ offsetOfExtendedSlot
 FunctionExtended
 :
 :
-WASM_TLSDATA_SLOT
+WASM_INSTANCE_SLOT
 )
 ;
 masm
