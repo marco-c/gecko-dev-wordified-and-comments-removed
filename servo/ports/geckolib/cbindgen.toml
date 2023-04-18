@@ -988,6 +988,9 @@ DProperty
 "
 ImageRendering
 "
+"
+ScrollbarGutter
+"
 ]
 item_types
 =

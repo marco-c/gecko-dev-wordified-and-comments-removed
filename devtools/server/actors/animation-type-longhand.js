@@ -772,6 +772,11 @@ rendering
 "
 scrollbar
 -
+gutter
+"
+"
+scrollbar
+-
 width
 "
 "

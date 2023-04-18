@@ -417,6 +417,7 @@ OverflowClipBox
 OverscrollBehavior
 Perspective
 Resize
+ScrollbarGutter
 }
 ;
 pub
