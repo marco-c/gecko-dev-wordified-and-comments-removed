@@ -1050,7 +1050,7 @@ name
 :
 initial
 .
-colour
+color
 desc
 :
 Initial
@@ -1063,7 +1063,7 @@ testing
 -
 initial
 .
-colour
+color
 code
 :
 |

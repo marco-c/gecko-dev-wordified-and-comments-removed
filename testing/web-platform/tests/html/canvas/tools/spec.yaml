@@ -380,7 +380,7 @@ id
 :
 initial
 .
-colour
+color
 text
 :
 "
@@ -2703,7 +2703,7 @@ id
 :
 2d
 .
-colours
+colors
 .
 parse
 text
@@ -2793,7 +2793,7 @@ id
 :
 2d
 .
-colours
+colors
 .
 invalidstring
 text
@@ -2843,7 +2843,7 @@ id
 :
 2d
 .
-colours
+colors
 .
 invalidtype
 text
@@ -2888,9 +2888,9 @@ id
 :
 2d
 .
-colours
+colors
 .
-getcolour
+getcolor
 text
 :
 "
@@ -2986,7 +2986,7 @@ id
 :
 2d
 .
-serializecolour
+serializecolor
 .
 solid
 text
@@ -3018,7 +3018,7 @@ id
 :
 2d
 .
-serializecolour
+serializecolor
 .
 transparent
 text
@@ -3059,7 +3059,7 @@ id
 :
 2d
 .
-colours
+colors
 .
 default
 text
@@ -3312,7 +3312,7 @@ id
 .
 gradient
 .
-invalidcolour
+invalidcolor
 text
 :
 "

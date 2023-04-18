@@ -250,7 +250,7 @@ g
 b
 a
 pos
-colour
+color
 )
 {
 var
@@ -391,7 +391,7 @@ g
 b
 a
 pos
-colour
+color
 tolerance
 )
 {

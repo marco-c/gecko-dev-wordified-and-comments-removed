@@ -38,7 +38,7 @@ getImageData
 (
 )
 clamps
-colours
+colors
 to
 the
 range

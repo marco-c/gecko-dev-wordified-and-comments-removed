@@ -3729,7 +3729,7 @@ meta
 :
 |
 #
-Colour
+Color
 parsing
 tests
 #
@@ -3917,7 +3917,7 @@ rgb
 255
 '
 Assumes
-colours
+colors
 are
 clamped
 to
@@ -3955,7 +3955,7 @@ rgb
 255
 '
 Assumes
-colours
+colors
 are
 clamped
 to
@@ -3990,7 +3990,7 @@ rgb
 255
 '
 Assumes
-colours
+colors
 are
 clamped
 to
@@ -4037,7 +4037,7 @@ big_float
 255
 '
 Assumes
-colours
+colors
 are
 clamped
 to
@@ -4084,7 +4084,7 @@ big_double
 255
 '
 Assumes
-colours
+colors
 are
 clamped
 to
@@ -6088,7 +6088,7 @@ testing
 '
 2d
 .
-colours
+colors
 .
 parse
 '
@@ -6230,7 +6230,7 @@ Also
 test
 that
 invalid
-colours
+colors
 are
 ignored
 for
@@ -7072,7 +7072,7 @@ testing
 '
 2d
 .
-colours
+colors
 .
 parse
 '
@@ -7186,7 +7186,7 @@ don
 t
 know
 what
-colour
+color
 they
 '
 re
@@ -7251,7 +7251,7 @@ testing
 '
 2d
 .
-colours
+colors
 .
 parse
 '

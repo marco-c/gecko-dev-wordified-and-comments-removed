@@ -2546,7 +2546,7 @@ returns
 non
 -
 premultiplied
-colours
+colors
 testing
 :
 -
@@ -2806,7 +2806,7 @@ getImageData
 (
 )
 clamps
-colours
+colors
 to
 the
 range

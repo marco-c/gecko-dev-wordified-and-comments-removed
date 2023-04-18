@@ -35,7 +35,7 @@ async_test
 (
 "
 Shadow
-colour
+color
 alpha
 components
 are
