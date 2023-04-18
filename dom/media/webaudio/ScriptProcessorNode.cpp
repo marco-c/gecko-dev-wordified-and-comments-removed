@@ -2219,6 +2219,15 @@ MarkInactive
 )
 ;
 }
+if
+(
+!
+mTrack
+)
+{
+return
+;
+}
 auto
 engine
 =
