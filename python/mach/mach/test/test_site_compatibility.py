@@ -166,6 +166,7 @@ from_requirements_definition
         
 topsrcdir
 False
+not
 is_mach_or_build_env
 requirements_path
     
