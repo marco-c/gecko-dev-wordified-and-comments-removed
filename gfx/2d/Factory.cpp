@@ -41,13 +41,6 @@ h
 #
 include
 "
-PathSkia
-.
-h
-"
-#
-include
-"
 ScaledFontBase
 .
 h
@@ -2552,12 +2545,6 @@ BackendType
 :
 :
 WEBRENDER_TEXT
-:
-case
-BackendType
-:
-:
-WEBGL
 :
 return
 false
