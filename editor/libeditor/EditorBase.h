@@ -443,6 +443,10 @@ TypeInState
 class
 WhiteSpaceVisibilityKeeper
 ;
+enum
+class
+SplitNodeDirection
+;
 template
 <
 typename
@@ -2180,10 +2184,12 @@ EditorBase
 aEditorBase
 nsIContent
 &
-aExistingRightContent
+aSplitContent
 nsIContent
 &
-aNewLeftContent
+aNewContent
+SplitNodeDirection
+aSplitNodeDirection
 )
 ;
 void
