@@ -637,8 +637,10 @@ std
 unordered_map
 <
 RawId
+WeakPtr
+<
 Device
-*
+>
 >
 mDeviceMap
 ;

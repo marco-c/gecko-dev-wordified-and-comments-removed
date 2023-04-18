@@ -41,6 +41,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webgpu
 /
 WebGPUTypes
@@ -263,6 +272,8 @@ final
 :
 public
 DOMEventTargetHelper
+public
+SupportsWeakPtr
 {
 public
 :
