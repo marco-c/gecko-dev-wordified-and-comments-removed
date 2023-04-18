@@ -105,6 +105,8 @@ toolkit
 components
 /
 telemetry
+/
+index
 document
 .
 .
