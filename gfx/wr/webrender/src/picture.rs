@@ -13032,6 +13032,14 @@ pic_index
 =
 >
 {
+if
+!
+pic_coverage_rect
+.
+is_empty
+(
+)
+{
 scratch
 .
 required_sub_graphs
@@ -13225,6 +13233,7 @@ pic_coverage_rect
 }
 )
 ;
+}
 }
 PrimitiveInstanceKind
 :
