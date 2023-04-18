@@ -1153,7 +1153,6 @@ properties
 {
 SourcePropertyDeclaration
 StyleBuilder
-UnparsedValue
 }
 ;
 use
@@ -40404,7 +40403,6 @@ mut
 RawServoSharedMemoryBuilder
 {
 let
-mut
 builder
 =
 Box
@@ -40420,17 +40418,6 @@ new
 buffer
 len
 )
-)
-;
-builder
-.
-add_allowed_duplication_type
-:
-:
-<
-UnparsedValue
->
-(
 )
 ;
 Box

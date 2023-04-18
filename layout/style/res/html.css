@@ -4330,7 +4330,7 @@ element
 won
 '
 t
-inheirt
+inherit
 CSS
 styles
 from
@@ -4342,7 +4342,7 @@ parent
 cue
 *
 would
-acutally
+actually
 inherit
 styles
 from
@@ -4368,10 +4368,10 @@ some
 styles
 which
 are
-aleady
+already
 defined
-in
 *
+in
 its
 parent
 element
@@ -4420,6 +4420,15 @@ rgba
 ;
 font
 :
+10px
+sans
+-
+serif
+;
+font
+-
+size
+:
 var
 (
 -
@@ -4430,9 +4439,6 @@ font
 -
 size
 )
-sans
--
-serif
 ;
 writing
 -
