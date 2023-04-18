@@ -985,9 +985,12 @@ block
 :
 :
 JavaScript
-Components
-.
-utils
+const
+{
+console
+}
+=
+ChromeUtils
 .
 import
 (

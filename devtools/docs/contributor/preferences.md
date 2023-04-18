@@ -407,9 +407,7 @@ const
 Services
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
