@@ -220,7 +220,7 @@ t0
 static
 constexpr
 Register
-WasmTlsReg
+InstanceReg
 =
 s5
 ;

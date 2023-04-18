@@ -2408,7 +2408,7 @@ availGPR
 .
 take
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 #

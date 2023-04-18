@@ -805,7 +805,7 @@ movePtr
 (
 RegPtr
 (
-WasmTlsReg
+InstanceReg
 )
 heapBase
 )
@@ -1815,7 +1815,7 @@ RABALDR_PIN_INSTANCE
 return
 RegPtr
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 #
@@ -1881,7 +1881,7 @@ movePtr
 (
 RegPtr
 (
-WasmTlsReg
+InstanceReg
 )
 specific
 )

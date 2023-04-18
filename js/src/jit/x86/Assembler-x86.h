@@ -674,7 +674,7 @@ ecx
 static
 constexpr
 Register
-WasmTlsReg
+InstanceReg
 =
 esi
 ;

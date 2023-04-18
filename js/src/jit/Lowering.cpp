@@ -14635,7 +14635,7 @@ ins
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 )
 ;
@@ -38997,7 +38997,7 @@ ReturnReg64
 useFixed
 (
 tlsParam
-WasmTlsReg
+InstanceReg
 )
 )
 )
@@ -39158,7 +39158,7 @@ LWasmReturn
 useFixed
 (
 tlsParam
-WasmTlsReg
+InstanceReg
 )
 returnReg
 )
@@ -39207,7 +39207,7 @@ LWasmReturnVoid
 useFixed
 (
 tlsParam
-WasmTlsReg
+InstanceReg
 )
 )
 ;

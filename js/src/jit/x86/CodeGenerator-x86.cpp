@@ -6294,7 +6294,7 @@ masm
 .
 Push
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 }
@@ -6456,7 +6456,7 @@ masm
 .
 Pop
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 }
@@ -6859,7 +6859,7 @@ masm
 .
 Push
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 }
@@ -7051,7 +7051,7 @@ masm
 .
 Pop
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 }
@@ -7593,14 +7593,14 @@ Tls
 )
 =
 =
-WasmTlsReg
+InstanceReg
 )
 ;
 masm
 .
 Push
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 int32_t
@@ -7688,7 +7688,7 @@ Assembler
 NonZero
 rhs
 rhs
-WasmTlsReg
+InstanceReg
 &
 nonZero
 )
@@ -7989,7 +7989,7 @@ masm
 .
 Pop
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 }
@@ -8031,14 +8031,14 @@ Tls
 )
 =
 =
-WasmTlsReg
+InstanceReg
 )
 ;
 masm
 .
 Push
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 int32_t
@@ -8123,7 +8123,7 @@ Assembler
 NonZero
 rhs
 rhs
-WasmTlsReg
+InstanceReg
 &
 nonZero
 )
@@ -8310,7 +8310,7 @@ masm
 .
 Pop
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 }

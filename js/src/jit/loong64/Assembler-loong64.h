@@ -1451,7 +1451,7 @@ Double
 static
 constexpr
 Register
-WasmTlsReg
+InstanceReg
 =
 s4
 ;

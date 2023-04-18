@@ -712,7 +712,7 @@ invalid_reg
 static
 constexpr
 Register
-WasmTlsReg
+InstanceReg
 {
 Registers
 :

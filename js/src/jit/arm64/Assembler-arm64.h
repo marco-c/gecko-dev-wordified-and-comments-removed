@@ -2520,7 +2520,7 @@ lr
 static
 constexpr
 Register
-WasmTlsReg
+InstanceReg
 {
 Registers
 :

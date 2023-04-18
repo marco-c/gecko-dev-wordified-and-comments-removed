@@ -18395,7 +18395,7 @@ gpr
 )
 =
 =
-WasmTlsReg
+InstanceReg
 ;
 }
 bool

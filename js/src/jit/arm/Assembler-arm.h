@@ -889,7 +889,7 @@ lr
 static
 constexpr
 Register
-WasmTlsReg
+InstanceReg
 =
 r9
 ;

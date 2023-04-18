@@ -4277,7 +4277,7 @@ arg
 gpr
 (
 )
-WasmTlsReg
+InstanceReg
 )
 ;
 }
@@ -4302,14 +4302,14 @@ offsetFromArgBase
 (
 )
 )
-WasmTlsReg
+InstanceReg
 )
 ;
 }
 WasmPush
 (
 masm
-WasmTlsReg
+InstanceReg
 )
 ;
 WasmPush
@@ -4453,7 +4453,7 @@ masm
 .
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 masm
@@ -4547,7 +4547,7 @@ argv
 WasmPop
 (
 masm
-WasmTlsReg
+InstanceReg
 )
 ;
 StoreRegisterResult
@@ -4872,7 +4872,7 @@ Address
 ScratchIonEntry
 offset
 )
-WasmTlsReg
+InstanceReg
 )
 ;
 }
@@ -4928,7 +4928,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :
@@ -4957,7 +4957,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :
@@ -6733,7 +6733,7 @@ masm
 .
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 masm
@@ -7187,7 +7187,7 @@ masm
 UnboxAnyrefIntoValueReg
 (
 masm
-WasmTlsReg
+InstanceReg
 ReturnReg
 JSReturnOperand
 WasmJitEntryReturnScratch
@@ -7424,7 +7424,7 @@ masm
 .
 movePtr
 (
-WasmTlsReg
+InstanceReg
 argsIter
 -
 >
@@ -7440,7 +7440,7 @@ masm
 .
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 sp
@@ -8674,14 +8674,14 @@ ImmPtr
 &
 inst
 )
-WasmTlsReg
+InstanceReg
 )
 ;
 masm
 .
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 masm
@@ -9100,7 +9100,7 @@ Extern
 UnboxAnyrefIntoValueReg
 (
 masm
-WasmTlsReg
+InstanceReg
 ReturnReg
 JSReturnOperand
 WasmJitEntryReturnScratch
@@ -11255,7 +11255,7 @@ masm
 .
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 masm
@@ -11453,7 +11453,7 @@ framePushed
 -
 sizeOfTlsSlot
 )
-WasmTlsReg
+InstanceReg
 )
 ;
 masm
@@ -11853,7 +11853,7 @@ masm
 .
 movePtr
 (
-WasmTlsReg
+InstanceReg
 i
 -
 >
@@ -11869,7 +11869,7 @@ masm
 .
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 masm
@@ -12639,7 +12639,7 @@ NonVolatileRegs
 .
 has
 (
-WasmTlsReg
+InstanceReg
 )
 )
 ;
@@ -13052,7 +13052,7 @@ ABINonArgReturnReg0
 FillArgumentArrayForJitExit
 (
 masm
-WasmTlsReg
+InstanceReg
 funcImportIndex
 fi
 .
@@ -13109,7 +13109,7 @@ masm
 .
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 masm
@@ -13333,7 +13333,7 @@ getStackPointer
 )
 savedTlsOffset
 )
-WasmTlsReg
+InstanceReg
 )
 ;
 masm
@@ -13811,7 +13811,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :
@@ -15778,7 +15778,7 @@ gprs
 .
 take
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 gprs
@@ -16269,7 +16269,7 @@ ResumeFromException
 tlsData
 )
 )
-WasmTlsReg
+InstanceReg
 )
 ;
 masm

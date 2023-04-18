@@ -1313,7 +1313,7 @@ r10
 static
 constexpr
 Register
-WasmTlsReg
+InstanceReg
 =
 r14
 ;
