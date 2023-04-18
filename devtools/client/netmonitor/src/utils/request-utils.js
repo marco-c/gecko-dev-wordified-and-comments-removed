@@ -216,6 +216,10 @@ section
 of
 text
 .
+trim
+(
+)
+.
 split
 (
 /
@@ -1226,7 +1230,8 @@ sections
 )
 {
 return
-null
+[
+]
 ;
 }
 return
