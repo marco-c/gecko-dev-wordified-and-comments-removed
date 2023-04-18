@@ -66,11 +66,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 env
 "
@@ -428,6 +434,8 @@ key
 if
 (
 !
+lazy
+.
 env
 .
 exists
@@ -450,6 +458,8 @@ JSON
 .
 parse
 (
+lazy
+.
 env
 .
 get

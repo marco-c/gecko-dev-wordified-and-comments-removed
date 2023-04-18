@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventEmitter
 :
@@ -151,7 +157,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ScriptableInputStream
 "
@@ -239,6 +245,8 @@ input
 output
 )
 {
+lazy
+.
 EventEmitter
 .
 decorate
@@ -257,6 +265,8 @@ this
 _scriptableInput
 =
 new
+lazy
+.
 ScriptableInputStream
 (
 input
@@ -350,6 +360,8 @@ let
 packet
 =
 new
+lazy
+.
 JSONPacket
 (
 this
@@ -396,6 +408,8 @@ let
 packet
 =
 new
+lazy
+.
 BulkPacket
 (
 this
@@ -1063,6 +1077,8 @@ this
 .
 _incoming
 =
+lazy
+.
 Packet
 .
 fromHeader
@@ -1229,6 +1245,8 @@ this
 _incomingHeader
 +
 =
+lazy
+.
 StreamUtils
 .
 delimitedRead
@@ -1384,6 +1402,8 @@ _onJSONObjectReady
 object
 )
 {
+lazy
+.
 executeSoon
 (
 (
@@ -1430,6 +1450,8 @@ _onBulkReadReady
 args
 )
 {
+lazy
+.
 executeSoon
 (
 (

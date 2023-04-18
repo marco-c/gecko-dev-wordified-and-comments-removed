@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 E10SUtils
 :
@@ -209,7 +215,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -217,10 +223,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -433,6 +443,8 @@ this
 .
 useRemoteTabs
 =
+lazy
+.
 AppInfo
 .
 browserTabsRemoteAutostart
@@ -441,6 +453,8 @@ this
 .
 useRemoteSubframes
 =
+lazy
+.
 AppInfo
 .
 fissionAutostart
@@ -461,6 +475,8 @@ isPrint
 =
 isPrint
 ;
+lazy
+.
 assert
 .
 open
@@ -664,6 +680,8 @@ width
 height
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -736,6 +754,8 @@ this
 reftestWin
 ;
 }
+lazy
+.
 logger
 .
 debug
@@ -761,11 +781,15 @@ reftestWin
 ;
 if
 (
+lazy
+.
 AppInfo
 .
 isAndroid
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -784,6 +808,8 @@ this
 parentWindow
 ;
 await
+lazy
+.
 navigate
 .
 waitForNavigationCompleted
@@ -807,6 +833,8 @@ getBrowsingContext
 (
 )
 ;
+lazy
+.
 navigate
 .
 navigateTo
@@ -825,6 +853,8 @@ blank
 }
 else
 {
+lazy
+.
 logger
 .
 debug
@@ -898,6 +928,8 @@ reftestWin
 let
 windowHandle
 =
+lazy
+.
 windowManager
 .
 getWindowProperties
@@ -936,6 +968,8 @@ url
 .
 href
 ;
+lazy
+.
 logger
 .
 debug
@@ -962,6 +996,8 @@ getBoundingClientRect
 (
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -992,6 +1028,8 @@ width
 height
 )
 {
+lazy
+.
 assert
 .
 positiveInteger
@@ -999,6 +1037,8 @@ positiveInteger
 width
 )
 ;
+lazy
+.
 assert
 .
 positiveInteger
@@ -1088,6 +1128,8 @@ browser
 ;
 if
 (
+lazy
+.
 AppInfo
 .
 isAndroid
@@ -1287,6 +1329,8 @@ windowStyle
 if
 (
 !
+lazy
+.
 AppInfo
 .
 isAndroid
@@ -1382,6 +1426,8 @@ closeChromeWindow
 let
 parentHandle
 =
+lazy
+.
 windowManager
 .
 getWindowProperties
@@ -2214,6 +2260,8 @@ canvas
 }
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -2280,6 +2328,8 @@ pageRanges
 extras
 )
 {
+lazy
+.
 logger
 .
 info
@@ -2514,6 +2564,8 @@ rhs
 =
 null
 ;
+lazy
+.
 logger
 .
 debug
@@ -2576,6 +2628,8 @@ next
 .
 value
 ;
+lazy
+.
 logger
 .
 debug
@@ -2600,6 +2654,8 @@ height
 }
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -2676,6 +2732,8 @@ extras
 fuzzy
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -2701,6 +2759,8 @@ pixelsDifferent
 }
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -2862,6 +2922,8 @@ if
 allowed
 )
 {
+lazy
+.
 logger
 .
 info
@@ -2887,6 +2949,8 @@ allowedPixels
 =
 allowed
 ;
+lazy
+.
 logger
 .
 info
@@ -3050,6 +3114,8 @@ url
 {
 if
 (
+lazy
+.
 AppInfo
 .
 isAndroid
@@ -3061,6 +3127,8 @@ return
 let
 oa
 =
+lazy
+.
 E10SUtils
 .
 predictOriginAttributes
@@ -3073,6 +3141,8 @@ browser
 let
 remoteType
 =
+lazy
+.
 E10SUtils
 .
 getRemoteTypeForURI
@@ -3084,6 +3154,8 @@ useRemoteTabs
 this
 .
 useRemoteSubframes
+lazy
+.
 E10SUtils
 .
 DEFAULT_REMOTE_TYPE
@@ -3108,6 +3180,8 @@ remoteType
 =
 =
 =
+lazy
+.
 E10SUtils
 .
 NOT_REMOTE
@@ -3198,6 +3272,8 @@ true
 }
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -3221,6 +3297,8 @@ lastURL
 url
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -3230,6 +3308,8 @@ page
 )
 ;
 await
+lazy
+.
 navigate
 .
 waitForNavigationCompleted
@@ -3242,6 +3322,8 @@ driver
 =
 >
 {
+lazy
+.
 navigate
 .
 refresh
@@ -3265,6 +3347,8 @@ gBrowser
 url
 )
 ;
+lazy
+.
 navigate
 .
 navigateTo
@@ -3388,6 +3472,8 @@ browserRect
 .
 height
 ;
+lazy
+.
 logger
 .
 debug
@@ -3441,6 +3527,8 @@ url
 )
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -3497,6 +3585,8 @@ canvasPool
 length
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -3521,6 +3611,8 @@ pop
 }
 else
 {
+lazy
+.
 logger
 .
 debug
@@ -3605,6 +3697,8 @@ height
 )
 )
 {
+lazy
+.
 logger
 .
 error
@@ -3705,6 +3799,8 @@ timeout
 canvas
 =
 await
+lazy
+.
 capture
 .
 canvas
@@ -3757,6 +3853,8 @@ browserRect
 height
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -3868,6 +3966,8 @@ DEFAULT_PAGE_MARGIN
 const
 settings
 =
+lazy
+.
 print
 .
 addDefaultSettings
@@ -3908,6 +4008,8 @@ const
 filePath
 =
 await
+lazy
+.
 print
 .
 printToFile
@@ -4176,6 +4278,8 @@ pageNumber
 )
 )
 {
+lazy
+.
 logger
 .
 info
@@ -4196,6 +4300,8 @@ numPages
 continue
 ;
 }
+lazy
+.
 logger
 .
 info

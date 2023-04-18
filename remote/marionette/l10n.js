@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 error
 :
@@ -92,7 +98,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 domParser
 "
@@ -240,6 +246,8 @@ elem
 let
 doc
 =
+lazy
+.
 domParser
 .
 parseFromString
@@ -284,6 +292,8 @@ null
 {
 throw
 new
+lazy
+.
 error
 .
 NoSuchElementError
@@ -379,6 +389,8 @@ null
 {
 throw
 new
+lazy
+.
 error
 .
 NoSuchElementError

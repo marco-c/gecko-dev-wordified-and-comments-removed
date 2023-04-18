@@ -50,11 +50,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 capture
 :
@@ -150,7 +156,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -158,10 +164,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -174,7 +184,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 elementIdCache
 "
@@ -185,6 +195,8 @@ elementIdCache
 {
 return
 new
+lazy
+.
 element
 .
 ReferenceStore
@@ -270,11 +282,15 @@ data
 const
 serializedData
 =
+lazy
+.
 evaluate
 .
 toJSON
 (
 data
+lazy
+.
 elementIdCache
 )
 ;
@@ -328,6 +344,8 @@ result
 )
 {
 throw
+lazy
+.
 error
 .
 WebDriverError
@@ -343,6 +361,8 @@ error
 else
 {
 return
+lazy
+.
 evaluate
 .
 fromJSON
@@ -355,6 +375,8 @@ result
 data
 seenEls
 :
+lazy
+.
 elementIdCache
 }
 )
@@ -1039,6 +1061,8 @@ let
 canvas
 =
 await
+lazy
+.
 capture
 .
 canvas
@@ -1067,6 +1091,8 @@ format
 )
 {
 case
+lazy
+.
 capture
 .
 Format
@@ -1074,6 +1100,8 @@ Format
 Hash
 :
 return
+lazy
+.
 capture
 .
 toHash
@@ -1082,6 +1110,8 @@ canvas
 )
 ;
 case
+lazy
+.
 capture
 .
 Format
@@ -1089,6 +1119,8 @@ Format
 Base64
 :
 return
+lazy
+.
 capture
 .
 toBase64
@@ -1119,6 +1151,8 @@ clearElementIdCache
 (
 )
 {
+lazy
+.
 elementIdCache
 .
 clear
@@ -1132,6 +1166,8 @@ _onTabClose
 event
 )
 {
+lazy
+.
 elementIdCache
 .
 clear
@@ -1340,6 +1376,8 @@ browsingContextFn
 .
 id
 ;
+lazy
+.
 logger
 .
 trace
@@ -1373,6 +1411,8 @@ throw
 e
 ;
 }
+lazy
+.
 logger
 .
 trace
@@ -1493,6 +1533,8 @@ NotSupportedError
 "
 )
 {
+lazy
+.
 logger
 .
 warn

@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AppInfo
 :
@@ -107,7 +113,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -115,10 +121,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -213,6 +223,8 @@ context
 window
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -244,6 +256,8 @@ win
 }
 if
 (
+lazy
+.
 AppInfo
 .
 isAndroid
@@ -269,6 +283,8 @@ length
 0
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -340,6 +356,8 @@ dialogs
 length
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -402,6 +420,8 @@ frameContentWindow
 Dialog
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -461,6 +481,8 @@ prompts
 length
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -736,6 +758,8 @@ handleEvent
 event
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -819,6 +843,8 @@ subject
 topic
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -1284,6 +1310,8 @@ args
 {
 if
 (
+lazy
+.
 AppInfo
 .
 isAndroid
@@ -1334,6 +1362,8 @@ isOpen
 {
 if
 (
+lazy
+.
 AppInfo
 .
 isAndroid
@@ -1434,6 +1464,8 @@ text
 {
 if
 (
+lazy
+.
 AppInfo
 .
 isAndroid
@@ -1510,6 +1542,8 @@ win
 &
 &
 (
+lazy
+.
 AppInfo
 .
 isAndroid
@@ -1538,6 +1572,8 @@ inputText
 {
 if
 (
+lazy
+.
 AppInfo
 .
 isAndroid
@@ -1578,6 +1614,8 @@ accept
 {
 if
 (
+lazy
+.
 AppInfo
 .
 isAndroid
@@ -1617,6 +1655,8 @@ dismiss
 {
 if
 (
+lazy
+.
 AppInfo
 .
 isAndroid

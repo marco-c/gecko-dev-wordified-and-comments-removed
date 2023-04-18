@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Addon
 :
@@ -811,7 +817,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -819,10 +825,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -865,41 +875,57 @@ new
 Set
 (
 [
+lazy
+.
 element
 .
 Strategy
 .
 ClassName
+lazy
+.
 element
 .
 Strategy
 .
 Selector
+lazy
+.
 element
 .
 Strategy
 .
 ID
+lazy
+.
 element
 .
 Strategy
 .
 Name
+lazy
+.
 element
 .
 Strategy
 .
 LinkText
+lazy
+.
 element
 .
 Strategy
 .
 PartialLinkText
+lazy
+.
 element
 .
 Strategy
 .
 TagName
+lazy
+.
 element
 .
 Strategy
@@ -954,6 +980,8 @@ this
 .
 context
 =
+lazy
+.
 Context
 .
 Content
@@ -1001,6 +1029,8 @@ this
 .
 _context
 =
+lazy
+.
 Context
 .
 fromString
@@ -1029,12 +1059,16 @@ get
 {
 if
 (
+lazy
+.
 RemoteAgent
 .
 webDriverBiDi
 )
 {
 return
+lazy
+.
 RemoteAgent
 .
 webDriverBiDi
@@ -1223,6 +1257,8 @@ action
 =
 =
 =
+lazy
+.
 modal
 .
 ACTION_OPENED
@@ -1233,6 +1269,8 @@ this
 dialog
 =
 new
+lazy
+.
 modal
 .
 Dialog
@@ -1265,6 +1303,8 @@ action
 =
 =
 =
+lazy
+.
 modal
 .
 ACTION_CLOSED
@@ -1331,6 +1371,8 @@ options
 )
 {
 return
+lazy
+.
 getMarionetteCommandsActorProxy
 (
 (
@@ -1389,6 +1431,8 @@ context
 =
 =
 =
+lazy
+.
 Context
 .
 Chrome
@@ -1487,6 +1531,8 @@ context
 )
 {
 case
+lazy
+.
 Context
 .
 Chrome
@@ -1510,6 +1556,8 @@ window
 break
 ;
 case
+lazy
+.
 Context
 .
 Content
@@ -1614,6 +1662,8 @@ let
 context
 =
 new
+lazy
+.
 browser
 .
 Context
@@ -1625,6 +1675,8 @@ this
 let
 winId
 =
+lazy
+.
 windowManager
 .
 getIdForWindow
@@ -1670,6 +1722,8 @@ try
 {
 if
 (
+lazy
+.
 atom
 .
 isElementDisplayed
@@ -1771,6 +1825,8 @@ browserElement
 if
 (
 !
+lazy
+.
 AppInfo
 .
 isFirefox
@@ -1834,6 +1890,8 @@ currentSession
 {
 throw
 new
+lazy
+.
 error
 .
 SessionNotCreatedError
@@ -1861,12 +1919,16 @@ try
 {
 if
 (
+lazy
+.
 RemoteAgent
 .
 webDriverBiDi
 )
 {
 await
+lazy
+.
 RemoteAgent
 .
 webDriverBiDi
@@ -1884,6 +1946,8 @@ this
 _currentSession
 =
 new
+lazy
+.
 WebDriverSession
 (
 capabilities
@@ -1922,6 +1986,8 @@ windowless
 )
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -1934,6 +2000,8 @@ window
 )
 ;
 await
+lazy
+.
 Marionette
 .
 browserStartupFinished
@@ -1942,6 +2010,8 @@ const
 appWin
 =
 await
+lazy
+.
 windowManager
 .
 waitForInitialApplicationWindowLoaded
@@ -1950,6 +2020,8 @@ waitForInitialApplicationWindowLoaded
 ;
 if
 (
+lazy
+.
 MarionettePrefs
 .
 clickToStart
@@ -1994,6 +2066,8 @@ this
 dialogObserver
 =
 new
+lazy
+.
 modal
 .
 DialogObserver
@@ -2028,6 +2102,8 @@ for
 let
 win
 of
+lazy
+.
 windowManager
 .
 windows
@@ -2036,6 +2112,8 @@ windows
 const
 tabBrowser
 =
+lazy
+.
 TabManager
 .
 getTabBrowser
@@ -2061,6 +2139,8 @@ tabs
 const
 contentBrowser
 =
+lazy
+.
 TabManager
 .
 getBrowserForTab
@@ -2142,6 +2222,8 @@ contentBrowsingContext
 browsingContext
 ;
 await
+lazy
+.
 waitForInitialNavigationCompleted
 (
 browsingContext
@@ -2164,6 +2246,8 @@ this
 .
 dialog
 =
+lazy
+.
 modal
 .
 findModalDialogs
@@ -2174,10 +2258,14 @@ curBrowser
 )
 ;
 }
+lazy
+.
 registerCommandsActor
 (
 )
 ;
+lazy
+.
 enableEventsActor
 (
 )
@@ -2208,6 +2296,8 @@ e
 {
 throw
 new
+lazy
+.
 error
 .
 SessionNotCreatedError
@@ -2250,6 +2340,8 @@ win
 const
 tabBrowser
 =
+lazy
+.
 TabManager
 .
 getTabBrowser
@@ -2284,6 +2376,8 @@ win
 const
 tabBrowser
 =
+lazy
+.
 TabManager
 .
 getTabBrowser
@@ -2341,6 +2435,8 @@ curBrowser
 contentBrowser
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -2463,6 +2559,8 @@ cmd
 let
 value
 =
+lazy
+.
 assert
 .
 string
@@ -2713,6 +2811,8 @@ false
 }
 )
 {
+lazy
+.
 assert
 .
 open
@@ -2731,11 +2831,15 @@ _handleUserPrompts
 (
 )
 ;
+lazy
+.
 assert
 .
 string
 (
 script
+lazy
+.
 pprint
 Expected
 "
@@ -2751,11 +2855,15 @@ script
 }
 )
 ;
+lazy
+.
 assert
 .
 array
 (
 args
+lazy
+.
 pprint
 Expected
 script
@@ -2779,11 +2887,15 @@ sandboxName
 null
 )
 {
+lazy
+.
 assert
 .
 string
 (
 sandboxName
+lazy
+.
 pprint
 Expected
 sandbox
@@ -2799,11 +2911,15 @@ sandboxName
 )
 ;
 }
+lazy
+.
 assert
 .
 boolean
 (
 newSandbox
+lazy
+.
 pprint
 Expected
 newSandbox
@@ -2816,11 +2932,15 @@ newSandbox
 }
 )
 ;
+lazy
+.
 assert
 .
 string
 (
 file
+lazy
+.
 pprint
 Expected
 file
@@ -2834,11 +2954,15 @@ file
 }
 )
 ;
+lazy
+.
 assert
 .
 number
 (
 line
+lazy
+.
 pprint
 Expected
 line
@@ -2900,6 +3024,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 content
@@ -2912,6 +3038,8 @@ context
 const
 browsingContext
 =
+lazy
+.
 assert
 .
 open
@@ -2960,6 +3088,8 @@ e
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -2986,6 +3116,8 @@ browsingContext
 const
 loadEventExpected
 =
+lazy
+.
 navigate
 .
 isLoadEventExpected
@@ -3003,6 +3135,8 @@ validURL
 )
 ;
 await
+lazy
+.
 navigate
 .
 waitForNavigationCompleted
@@ -3013,6 +3147,8 @@ this
 =
 >
 {
+lazy
+.
 navigate
 .
 navigateTo
@@ -3050,6 +3186,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 open
@@ -3095,6 +3233,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 open
@@ -3135,6 +3275,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 open
@@ -3169,6 +3311,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 open
@@ -3211,6 +3355,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 content
@@ -3223,6 +3369,8 @@ context
 const
 browsingContext
 =
+lazy
+.
 assert
 .
 open
@@ -3261,6 +3409,8 @@ return
 ;
 }
 await
+lazy
+.
 navigate
 .
 waitForNavigationCompleted
@@ -3293,6 +3443,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 content
@@ -3305,6 +3457,8 @@ context
 const
 browsingContext
 =
+lazy
+.
 assert
 .
 open
@@ -3343,6 +3497,8 @@ return
 ;
 }
 await
+lazy
+.
 navigate
 .
 waitForNavigationCompleted
@@ -3375,6 +3531,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 content
@@ -3387,6 +3545,8 @@ context
 const
 browsingContext
 =
+lazy
+.
 assert
 .
 open
@@ -3419,6 +3579,8 @@ contentBrowsingContext
 browsingContext
 ;
 await
+lazy
+.
 navigate
 .
 waitForNavigationCompleted
@@ -3429,6 +3591,8 @@ this
 =
 >
 {
+lazy
+.
 navigate
 .
 refresh
@@ -3451,6 +3615,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 open
@@ -3474,12 +3640,16 @@ this
 context
 =
 =
+lazy
+.
 Context
 .
 Chrome
 )
 {
 return
+lazy
+.
 windowManager
 .
 getIdForWindow
@@ -3493,6 +3663,8 @@ window
 ;
 }
 return
+lazy
+.
 TabManager
 .
 getIdForBrowser
@@ -3523,12 +3695,16 @@ this
 context
 =
 =
+lazy
+.
 Context
 .
 Chrome
 )
 {
 return
+lazy
+.
 windowManager
 .
 chromeWindowHandles
@@ -3540,6 +3716,8 @@ String
 ;
 }
 return
+lazy
+.
 TabManager
 .
 allBrowserUniqueIds
@@ -3562,6 +3740,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 open
@@ -3606,12 +3786,16 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 desktop
 (
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -3658,6 +3842,8 @@ getCurrentWindow
 ;
 switch
 (
+lazy
+.
 WindowState
 .
 from
@@ -3669,6 +3855,8 @@ windowState
 )
 {
 case
+lazy
+.
 WindowState
 .
 Fullscreen
@@ -3682,11 +3870,15 @@ win
 break
 ;
 case
+lazy
+.
 WindowState
 .
 Maximized
 :
 case
+lazy
+.
 WindowState
 .
 Minimized
@@ -3714,6 +3906,8 @@ height
 null
 )
 {
+lazy
+.
 assert
 .
 positiveInteger
@@ -3721,6 +3915,8 @@ positiveInteger
 height
 )
 ;
+lazy
+.
 assert
 .
 positiveInteger
@@ -3756,6 +3952,8 @@ height
 ;
 await
 new
+lazy
+.
 IdlePromise
 (
 win
@@ -3777,6 +3975,8 @@ y
 null
 )
 {
+lazy
+.
 assert
 .
 integer
@@ -3784,6 +3984,8 @@ integer
 x
 )
 ;
+lazy
+.
 assert
 .
 integer
@@ -3819,6 +4021,8 @@ y
 ;
 await
 new
+lazy
+.
 IdlePromise
 (
 win
@@ -3859,11 +4063,15 @@ cmd
 .
 parameters
 ;
+lazy
+.
 assert
 .
 string
 (
 handle
+lazy
+.
 pprint
 Expected
 "
@@ -3879,11 +4087,15 @@ handle
 }
 )
 ;
+lazy
+.
 assert
 .
 boolean
 (
 focus
+lazy
+.
 pprint
 Expected
 "
@@ -3902,6 +4114,8 @@ focus
 const
 found
 =
+lazy
+.
 windowManager
 .
 findWindowByHandle
@@ -3940,6 +4154,8 @@ catch
 e
 )
 {
+lazy
+.
 logger
 .
 error
@@ -3957,6 +4173,8 @@ selected
 {
 throw
 new
+lazy
+.
 error
 .
 NoSuchWindowError
@@ -4054,6 +4272,8 @@ else
 const
 tabBrowser
 =
+lazy
+.
 TabManager
 .
 getTabBrowser
@@ -4181,6 +4401,8 @@ this
 .
 dialog
 =
+lazy
+.
 modal
 .
 findModalDialogs
@@ -4252,6 +4474,8 @@ return
 }
 browsingContext
 =
+lazy
+.
 assert
 .
 open
@@ -4307,6 +4531,8 @@ number
 "
 )
 {
+lazy
+.
 assert
 .
 unsignedShort
@@ -4339,6 +4565,8 @@ el
 =
 null
 ;
+lazy
+.
 assert
 .
 open
@@ -4376,6 +4604,8 @@ string
 {
 byFrame
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -4395,6 +4625,8 @@ el
 {
 byFrame
 =
+lazy
+.
 WebElement
 .
 fromJSON
@@ -4493,6 +4725,8 @@ currentSession
 .
 timeouts
 =
+lazy
+.
 Timeouts
 .
 fromJSON
@@ -4514,6 +4748,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -4539,6 +4775,8 @@ parameters
 let
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -4582,6 +4820,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -4639,6 +4879,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 open
@@ -4708,6 +4950,8 @@ using
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidSelectorError
@@ -4722,6 +4966,8 @@ using
 )
 ;
 }
+lazy
+.
 assert
 .
 open
@@ -4756,6 +5002,8 @@ undefined
 {
 startNode
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -4840,6 +5088,8 @@ using
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidSelectorError
@@ -4854,6 +5104,8 @@ using
 )
 ;
 }
+lazy
+.
 assert
 .
 open
@@ -4888,6 +5140,8 @@ undefined
 {
 startNode
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -4946,6 +5200,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 content
@@ -4955,6 +5211,8 @@ this
 context
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -4976,6 +5234,8 @@ _handleUserPrompts
 let
 id
 =
+lazy
+.
 assert
 .
 string
@@ -4985,6 +5245,8 @@ cmd
 parameters
 .
 id
+lazy
+.
 pprint
 Expected
 "
@@ -5007,6 +5269,8 @@ id
 let
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -5042,6 +5306,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 content
@@ -5051,6 +5317,8 @@ this
 context
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -5097,6 +5365,8 @@ cmd
 const
 browsingContext
 =
+lazy
+.
 assert
 .
 open
@@ -5118,6 +5388,8 @@ _handleUserPrompts
 let
 id
 =
+lazy
+.
 assert
 .
 string
@@ -5132,6 +5404,8 @@ id
 let
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -5154,6 +5428,8 @@ getActor
 const
 loadEventExpected
 =
+lazy
+.
 navigate
 .
 isLoadEventExpected
@@ -5181,6 +5457,8 @@ target
 )
 ;
 await
+lazy
+.
 navigate
 .
 waitForNavigationCompleted
@@ -5223,6 +5501,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -5244,6 +5524,8 @@ _handleUserPrompts
 const
 id
 =
+lazy
+.
 assert
 .
 string
@@ -5258,6 +5540,8 @@ id
 const
 name
 =
+lazy
+.
 assert
 .
 string
@@ -5272,6 +5556,8 @@ name
 const
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -5309,6 +5595,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -5330,6 +5618,8 @@ _handleUserPrompts
 const
 id
 =
+lazy
+.
 assert
 .
 string
@@ -5344,6 +5634,8 @@ id
 const
 name
 =
+lazy
+.
 assert
 .
 string
@@ -5358,6 +5650,8 @@ name
 const
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -5395,6 +5689,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -5416,6 +5712,8 @@ _handleUserPrompts
 let
 id
 =
+lazy
+.
 assert
 .
 string
@@ -5430,6 +5728,8 @@ id
 let
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -5466,6 +5766,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -5487,6 +5789,8 @@ _handleUserPrompts
 let
 id
 =
+lazy
+.
 assert
 .
 string
@@ -5501,6 +5805,8 @@ id
 let
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -5537,6 +5843,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -5558,6 +5866,8 @@ _handleUserPrompts
 let
 id
 =
+lazy
+.
 assert
 .
 string
@@ -5572,6 +5882,8 @@ id
 let
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -5613,6 +5925,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -5634,6 +5948,8 @@ _handleUserPrompts
 let
 id
 =
+lazy
+.
 assert
 .
 string
@@ -5648,6 +5964,8 @@ id
 let
 prop
 =
+lazy
+.
 assert
 .
 string
@@ -5662,6 +5980,8 @@ propertyName
 let
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -5699,6 +6019,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -5720,6 +6042,8 @@ _handleUserPrompts
 let
 id
 =
+lazy
+.
 assert
 .
 string
@@ -5734,6 +6058,8 @@ id
 let
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -5775,6 +6101,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -5796,6 +6124,8 @@ _handleUserPrompts
 let
 id
 =
+lazy
+.
 assert
 .
 string
@@ -5810,6 +6140,8 @@ id
 let
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -5851,6 +6183,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -5872,6 +6206,8 @@ _handleUserPrompts
 let
 id
 =
+lazy
+.
 assert
 .
 string
@@ -5886,6 +6222,8 @@ id
 let
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -5922,6 +6260,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -5943,6 +6283,8 @@ _handleUserPrompts
 let
 id
 =
+lazy
+.
 assert
 .
 string
@@ -5957,6 +6299,8 @@ id
 let
 text
 =
+lazy
+.
 assert
 .
 string
@@ -5971,6 +6315,8 @@ text
 let
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -6013,6 +6359,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -6034,6 +6382,8 @@ _handleUserPrompts
 let
 id
 =
+lazy
+.
 assert
 .
 string
@@ -6048,6 +6398,8 @@ id
 let
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -6084,6 +6436,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 content
@@ -6093,6 +6447,8 @@ this
 context
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -6150,6 +6506,8 @@ protocol
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidCookieDomainError
@@ -6167,6 +6525,8 @@ averse
 let
 newCookie
 =
+lazy
+.
 cookie
 .
 fromJSON
@@ -6178,6 +6538,8 @@ parameters
 cookie
 )
 ;
+lazy
+.
 cookie
 .
 add
@@ -6204,6 +6566,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 content
@@ -6213,6 +6577,8 @@ this
 context
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -6248,6 +6614,8 @@ return
 .
 .
 .
+lazy
+.
 cookie
 .
 iter
@@ -6270,6 +6638,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 content
@@ -6279,6 +6649,8 @@ this
 context
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -6314,6 +6686,8 @@ for
 let
 toDelete
 of
+lazy
+.
 cookie
 .
 iter
@@ -6323,6 +6697,8 @@ pathname
 )
 )
 {
+lazy
+.
 cookie
 .
 remove
@@ -6345,6 +6721,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 content
@@ -6354,6 +6732,8 @@ this
 context
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -6387,6 +6767,8 @@ _getCurrentURL
 let
 name
 =
+lazy
+.
 assert
 .
 string
@@ -6403,6 +6785,8 @@ for
 let
 c
 of
+lazy
+.
 cookie
 .
 iter
@@ -6423,6 +6807,8 @@ name
 name
 )
 {
+lazy
+.
 cookie
 .
 remove
@@ -6446,6 +6832,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -6491,6 +6879,8 @@ undefined
 {
 focus
 =
+lazy
+.
 assert
 .
 boolean
@@ -6500,6 +6890,8 @@ cmd
 parameters
 .
 focus
+lazy
+.
 pprint
 Expected
 "
@@ -6542,6 +6934,8 @@ undefined
 {
 isPrivate
 =
+lazy
+.
 assert
 .
 boolean
@@ -6551,6 +6945,8 @@ cmd
 parameters
 .
 private
+lazy
+.
 pprint
 Expected
 "
@@ -6591,6 +6987,8 @@ undefined
 {
 type
 =
+lazy
+.
 assert
 .
 string
@@ -6600,6 +6998,8 @@ cmd
 parameters
 .
 type
+lazy
+.
 pprint
 Expected
 "
@@ -6683,6 +7083,8 @@ isPrivate
 ;
 contentBrowser
 =
+lazy
+.
 TabManager
 .
 getTabBrowser
@@ -6711,6 +7113,8 @@ focus
 ;
 contentBrowser
 =
+lazy
+.
 TabManager
 .
 getBrowserForTab
@@ -6720,6 +7124,8 @@ tab
 ;
 }
 await
+lazy
+.
 waitForInitialNavigationCompleted
 (
 contentBrowser
@@ -6732,6 +7138,8 @@ webProgress
 const
 id
 =
+lazy
+.
 TabManager
 .
 getIdForBrowser
@@ -6764,6 +7172,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 open
@@ -6775,6 +7185,8 @@ getBrowsingContext
 {
 context
 :
+lazy
+.
 Context
 .
 Content
@@ -6794,6 +7206,8 @@ _handleUserPrompts
 ;
 if
 (
+lazy
+.
 TabManager
 .
 getTabCount
@@ -6845,6 +7259,8 @@ contentBrowsingContext
 null
 ;
 return
+lazy
+.
 TabManager
 .
 allBrowserUniqueIds
@@ -6867,12 +7283,16 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 desktop
 (
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -6884,6 +7304,8 @@ getBrowsingContext
 {
 context
 :
+lazy
+.
 Context
 .
 Chrome
@@ -6904,6 +7326,8 @@ for
 let
 _
 of
+lazy
+.
 windowManager
 .
 windows
@@ -6970,6 +7394,8 @@ contentBrowsingContext
 null
 ;
 return
+lazy
+.
 windowManager
 .
 chromeWindowHandles
@@ -7007,6 +7433,8 @@ for
 let
 win
 of
+lazy
+.
 windowManager
 .
 windows
@@ -7066,29 +7494,41 @@ finished
 "
 )
 ;
+lazy
+.
 clearActionInputState
 (
 )
 ;
+lazy
+.
 clearElementIdCache
 (
 )
 ;
+lazy
+.
 unregisterCommandsActor
 (
 )
 ;
+lazy
+.
 disableEventsActor
 (
 )
 ;
 if
 (
+lazy
+.
 RemoteAgent
 .
 webDriverBiDi
 )
 {
+lazy
+.
 RemoteAgent
 .
 webDriverBiDi
@@ -7129,6 +7569,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -7169,12 +7611,16 @@ format
 =
 hash
 ?
+lazy
+.
 capture
 .
 Format
 .
 Hash
 :
+lazy
+.
 capture
 .
 Format
@@ -7214,6 +7660,8 @@ webEl
 =
 id
 ?
+lazy
+.
 WebElement
 .
 fromUUID
@@ -7261,12 +7709,16 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 mobile
 (
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -7312,12 +7764,16 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 mobile
 (
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -7378,6 +7834,8 @@ parameters
 orientation
 )
 ;
+lazy
+.
 assert
 .
 string
@@ -7407,6 +7865,8 @@ mozOr
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -7445,6 +7905,8 @@ mozOr
 {
 throw
 new
+lazy
+.
 error
 .
 WebDriverError
@@ -7474,12 +7936,16 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 desktop
 (
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -7514,6 +7980,8 @@ getCurrentWindow
 ;
 switch
 (
+lazy
+.
 WindowState
 .
 from
@@ -7525,6 +7993,8 @@ windowState
 )
 {
 case
+lazy
+.
 WindowState
 .
 Fullscreen
@@ -7538,6 +8008,8 @@ win
 break
 ;
 case
+lazy
+.
 WindowState
 .
 Maximized
@@ -7553,6 +8025,8 @@ break
 }
 if
 (
+lazy
+.
 WindowState
 .
 from
@@ -7563,6 +8037,8 @@ windowState
 )
 !
 =
+lazy
+.
 WindowState
 .
 Minimized
@@ -7575,6 +8051,8 @@ let
 observer
 =
 new
+lazy
+.
 WebElementEventTarget
 (
 this
@@ -7586,6 +8064,8 @@ messageManager
 ;
 await
 new
+lazy
+.
 TimedPromise
 (
 resolve
@@ -7595,6 +8075,8 @@ resolve
 cb
 =
 new
+lazy
+.
 DebounceCallback
 (
 resolve
@@ -7639,6 +8121,8 @@ cb
 ;
 await
 new
+lazy
+.
 IdlePromise
 (
 win
@@ -7665,12 +8149,16 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 desktop
 (
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -7705,6 +8193,8 @@ getCurrentWindow
 ;
 switch
 (
+lazy
+.
 WindowState
 .
 from
@@ -7716,6 +8206,8 @@ windowState
 )
 {
 case
+lazy
+.
 WindowState
 .
 Fullscreen
@@ -7729,6 +8221,8 @@ win
 break
 ;
 case
+lazy
+.
 WindowState
 .
 Minimized
@@ -7744,6 +8238,8 @@ break
 }
 if
 (
+lazy
+.
 WindowState
 .
 from
@@ -7754,6 +8250,8 @@ windowState
 )
 !
 =
+lazy
+.
 WindowState
 .
 Maximized
@@ -7764,6 +8262,8 @@ cb
 ;
 await
 new
+lazy
+.
 TimedPromise
 (
 resolve
@@ -7773,6 +8273,8 @@ resolve
 cb
 =
 new
+lazy
+.
 DebounceCallback
 (
 resolve
@@ -7817,6 +8319,8 @@ cb
 ;
 await
 new
+lazy
+.
 IdlePromise
 (
 win
@@ -7843,12 +8347,16 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 desktop
 (
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -7883,6 +8391,8 @@ getCurrentWindow
 ;
 switch
 (
+lazy
+.
 WindowState
 .
 from
@@ -7894,11 +8404,15 @@ windowState
 )
 {
 case
+lazy
+.
 WindowState
 .
 Maximized
 :
 case
+lazy
+.
 WindowState
 .
 Minimized
@@ -7914,6 +8428,8 @@ break
 }
 if
 (
+lazy
+.
 WindowState
 .
 from
@@ -7924,6 +8440,8 @@ windowState
 )
 !
 =
+lazy
+.
 WindowState
 .
 Fullscreen
@@ -7934,6 +8452,8 @@ cb
 ;
 await
 new
+lazy
+.
 TimedPromise
 (
 resolve
@@ -7943,6 +8463,8 @@ resolve
 cb
 =
 new
+lazy
+.
 DebounceCallback
 (
 resolve
@@ -7988,6 +8510,8 @@ cb
 }
 await
 new
+lazy
+.
 IdlePromise
 (
 win
@@ -8013,6 +8537,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 open
@@ -8068,6 +8594,8 @@ getCurrentWindow
 ;
 await
 new
+lazy
+.
 IdlePromise
 (
 win
@@ -8086,6 +8614,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 open
@@ -8141,6 +8671,8 @@ getCurrentWindow
 ;
 await
 new
+lazy
+.
 IdlePromise
 (
 win
@@ -8158,6 +8690,8 @@ function
 (
 )
 {
+lazy
+.
 assert
 .
 open
@@ -8201,6 +8735,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 open
@@ -8226,6 +8762,8 @@ _checkIfAlertIsPresent
 let
 text
 =
+lazy
+.
 assert
 .
 string
@@ -8265,6 +8803,8 @@ confirm
 :
 throw
 new
+lazy
+.
 error
 .
 ElementNotInteractableError
@@ -8299,6 +8839,8 @@ dismissDialog
 ;
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -8354,6 +8896,8 @@ isOpen
 {
 throw
 new
+lazy
+.
 error
 .
 NoSuchAlertError
@@ -8417,6 +8961,8 @@ behavior
 )
 {
 case
+lazy
+.
 UnhandledPromptBehavior
 .
 Accept
@@ -8431,6 +8977,8 @@ acceptDialog
 break
 ;
 case
+lazy
+.
 UnhandledPromptBehavior
 .
 AcceptAndNotify
@@ -8444,6 +8992,8 @@ acceptDialog
 ;
 throw
 new
+lazy
+.
 error
 .
 UnexpectedAlertOpenError
@@ -8459,6 +9009,8 @@ textContent
 )
 ;
 case
+lazy
+.
 UnhandledPromptBehavior
 .
 Dismiss
@@ -8473,6 +9025,8 @@ dismissDialog
 break
 ;
 case
+lazy
+.
 UnhandledPromptBehavior
 .
 DismissAndNotify
@@ -8486,6 +9040,8 @@ dismissDialog
 ;
 throw
 new
+lazy
+.
 error
 .
 UnexpectedAlertOpenError
@@ -8501,12 +9057,16 @@ textContent
 )
 ;
 case
+lazy
+.
 UnhandledPromptBehavior
 .
 Ignore
 :
 throw
 new
+lazy
+.
 error
 .
 UnexpectedAlertOpenError
@@ -8549,6 +9109,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 boolean
@@ -8616,6 +9178,8 @@ eForceQuit
 "
 ]
 ;
+lazy
+.
 assert
 .
 array
@@ -8631,6 +9195,8 @@ an
 array
 )
 ;
+lazy
+.
 assert
 .
 boolean
@@ -8664,6 +9230,8 @@ eRestart
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -8712,6 +9280,8 @@ windowless
 {
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -8746,6 +9316,8 @@ eRestart
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -8787,6 +9359,8 @@ of
 flags
 )
 {
+lazy
+.
 assert
 .
 in
@@ -8814,6 +9388,8 @@ quitSeen
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -8939,6 +9515,8 @@ eForceQuit
 let
 quitApplication
 =
+lazy
+.
 waitForObserverTopic
 (
 "
@@ -9005,6 +9583,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 desktop
@@ -9063,6 +9643,8 @@ boolean
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -9071,6 +9653,8 @@ InvalidArgumentError
 ;
 }
 return
+lazy
+.
 Addon
 .
 install
@@ -9092,6 +9676,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 desktop
@@ -9129,6 +9715,8 @@ string
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -9137,6 +9725,8 @@ InvalidArgumentError
 ;
 }
 return
+lazy
+.
 Addon
 .
 uninstall
@@ -9180,6 +9770,8 @@ urls
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -9212,6 +9804,8 @@ string
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -9232,6 +9826,8 @@ string
 ;
 }
 return
+lazy
+.
 l10n
 .
 localizeEntity
@@ -9276,6 +9872,8 @@ urls
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -9308,6 +9906,8 @@ string
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -9328,6 +9928,8 @@ string
 ;
 }
 return
+lazy
+.
 l10n
 .
 localizeProperty
@@ -9359,6 +9961,8 @@ _reftest
 {
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -9421,6 +10025,8 @@ screenshot
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -9450,6 +10056,8 @@ this
 _reftest
 =
 new
+lazy
+.
 reftest
 .
 Runner
@@ -9507,6 +10115,8 @@ _reftest
 {
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -9524,6 +10134,8 @@ start
 )
 ;
 }
+lazy
+.
 assert
 .
 string
@@ -9531,6 +10143,8 @@ string
 test
 )
 ;
+lazy
+.
 assert
 .
 string
@@ -9538,6 +10152,8 @@ string
 expected
 )
 ;
+lazy
+.
 assert
 .
 array
@@ -9588,6 +10204,8 @@ _reftest
 {
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -9633,6 +10251,8 @@ function
 cmd
 )
 {
+lazy
+.
 assert
 .
 content
@@ -9642,6 +10262,8 @@ this
 context
 )
 ;
+lazy
+.
 assert
 .
 open
@@ -9668,6 +10290,8 @@ _handleUserPrompts
 const
 settings
 =
+lazy
+.
 print
 .
 addDefaultSettings
@@ -9698,6 +10322,8 @@ right
 ]
 )
 {
+lazy
+.
 assert
 .
 positiveNumber
@@ -9708,6 +10334,8 @@ margin
 [
 prop
 ]
+lazy
+.
 pprint
 margin
 .
@@ -9737,6 +10365,8 @@ height
 ]
 )
 {
+lazy
+.
 assert
 .
 positiveNumber
@@ -9747,6 +10377,8 @@ page
 [
 prop
 ]
+lazy
+.
 pprint
 page
 .
@@ -9761,6 +10393,8 @@ number
 )
 ;
 }
+lazy
+.
 assert
 .
 positiveNumber
@@ -9781,6 +10415,8 @@ positive
 number
 )
 ;
+lazy
+.
 assert
 .
 that
@@ -9791,6 +10427,8 @@ s
 s
 >
 =
+lazy
+.
 print
 .
 minScaleValue
@@ -9801,6 +10439,8 @@ settings
 scale
 <
 =
+lazy
+.
 print
 .
 maxScaleValue
@@ -9815,12 +10455,16 @@ outside
 the
 range
 {
+lazy
+.
 print
 .
 minScaleValue
 }
 -
 {
+lazy
+.
 print
 .
 maxScaleValue
@@ -9832,6 +10476,8 @@ settings
 scale
 )
 ;
+lazy
+.
 assert
 .
 boolean
@@ -9841,6 +10487,8 @@ settings
 shrinkToFit
 )
 ;
+lazy
+.
 assert
 .
 boolean
@@ -9850,6 +10498,8 @@ settings
 landscape
 )
 ;
+lazy
+.
 assert
 .
 boolean
@@ -9859,6 +10509,8 @@ settings
 printBackground
 )
 ;
+lazy
+.
 assert
 .
 array
@@ -9883,6 +10535,8 @@ const
 filePath
 =
 await
+lazy
+.
 print
 .
 printToFile
@@ -10020,6 +10674,8 @@ cmd
 .
 parameters
 ;
+lazy
+.
 assert
 .
 boolean
@@ -10027,6 +10683,8 @@ boolean
 oneRealm
 )
 ;
+lazy
+.
 assert
 .
 that
@@ -10071,6 +10729,8 @@ prompt
 state
 )
 ;
+lazy
+.
 permissions
 .
 set
@@ -10895,6 +11555,8 @@ cb
 ;
 await
 new
+lazy
+.
 TimedPromise
 (
 resolve
@@ -10904,6 +11566,8 @@ resolve
 cb
 =
 new
+lazy
+.
 DebounceCallback
 (
 resolve
@@ -10962,6 +11626,8 @@ restore
 ;
 await
 new
+lazy
+.
 PollPromise
 (
 (
@@ -10973,6 +11639,8 @@ reject
 {
 if
 (
+lazy
+.
 WindowState
 .
 from
@@ -10983,6 +11651,8 @@ windowState
 )
 =
 =
+lazy
+.
 WindowState
 .
 Normal

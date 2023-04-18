@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 error
 :
@@ -125,6 +131,8 @@ oneRealm
 if
 (
 !
+lazy
+.
 MarionettePrefs
 .
 setPermissionEnabled
@@ -132,6 +140,8 @@ setPermissionEnabled
 {
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -179,6 +189,8 @@ name
 {
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -212,6 +224,8 @@ prompt
 {
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -254,6 +268,8 @@ false
 {
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError

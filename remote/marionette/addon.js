@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -196,6 +202,8 @@ let
 install
 =
 await
+lazy
+.
 AddonManager
 .
 getInstallForFile
@@ -220,6 +228,8 @@ error
 {
 throw
 new
+lazy
+.
 error
 .
 UnknownError
@@ -248,6 +258,8 @@ err
 {
 throw
 new
+lazy
+.
 error
 .
 UnknownError
@@ -288,6 +300,8 @@ try
 file
 =
 new
+lazy
+.
 FileUtils
 .
 File
@@ -303,6 +317,8 @@ e
 {
 throw
 new
+lazy
+.
 error
 .
 UnknownError
@@ -330,6 +346,8 @@ exists
 {
 throw
 new
+lazy
+.
 error
 .
 UnknownError
@@ -356,6 +374,8 @@ temporary
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 installTemporaryAddon
@@ -383,6 +403,8 @@ e
 {
 throw
 new
+lazy
+.
 error
 .
 UnknownError
@@ -424,6 +446,8 @@ let
 candidate
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -442,6 +466,8 @@ null
 {
 throw
 new
+lazy
+.
 error
 .
 UnknownError
@@ -487,6 +513,8 @@ candidate
 id
 )
 {
+lazy
+.
 AddonManager
 .
 removeAddonListener
@@ -496,6 +524,8 @@ listener
 ;
 throw
 new
+lazy
+.
 error
 .
 UnknownError
@@ -533,6 +563,8 @@ candidate
 id
 )
 {
+lazy
+.
 AddonManager
 .
 removeAddonListener
@@ -548,6 +580,8 @@ resolve
 }
 }
 ;
+lazy
+.
 AddonManager
 .
 addAddonListener

@@ -42,11 +42,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 assert
 :
@@ -118,6 +124,8 @@ this
 .
 id
 =
+lazy
+.
 assert
 .
 integer
@@ -145,6 +153,8 @@ toPacket
 )
 ;
 return
+lazy
+.
 truncate
 {
 content
@@ -258,6 +268,8 @@ this
 .
 name
 =
+lazy
+.
 assert
 .
 string
@@ -269,6 +281,8 @@ this
 .
 parameters
 =
+lazy
+.
 assert
 .
 object
@@ -393,6 +407,8 @@ params
 =
 payload
 ;
+lazy
+.
 assert
 .
 that
@@ -470,6 +486,8 @@ this
 .
 respHandler_
 =
+lazy
+.
 assert
 .
 callable
@@ -582,6 +600,8 @@ this
 .
 error
 =
+lazy
+.
 error
 .
 wrap
@@ -608,6 +628,8 @@ send
 if
 (
 !
+lazy
+.
 error
 .
 isWebDriverError
@@ -658,6 +680,8 @@ body
 =
 payload
 ;
+lazy
+.
 assert
 .
 that
@@ -690,6 +714,8 @@ resp
 .
 error
 =
+lazy
+.
 assert
 .
 string

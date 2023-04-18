@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventEmitter
 :
@@ -88,7 +94,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 IOUtil
 "
@@ -112,7 +118,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ScriptableInputStream
 "
@@ -186,6 +192,8 @@ output
 length
 )
 {
+lazy
+.
 EventEmitter
 .
 decorate
@@ -217,6 +225,8 @@ output
 ;
 if
 (
+lazy
+.
 IOUtil
 .
 outputStreamIsBuffered
@@ -918,6 +928,8 @@ else
 scriptableStream
 =
 new
+lazy
+.
 ScriptableInputStream
 (
 stream
