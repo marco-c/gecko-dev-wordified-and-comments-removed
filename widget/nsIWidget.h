@@ -3509,10 +3509,11 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 virtual
-nsRect
+LayoutDeviceIntRect
 GetPreferredPopupRect
 (
 )
+const
 {
 NS_WARNING
 (
@@ -3526,12 +3527,8 @@ wayland
 )
 ;
 return
-nsRect
+LayoutDeviceIntRect
 (
-0
-0
-0
-0
 )
 ;
 }
