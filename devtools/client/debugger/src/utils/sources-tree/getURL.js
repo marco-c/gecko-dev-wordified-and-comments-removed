@@ -127,10 +127,6 @@ function
 getURL
 (
 source
-defaultDomain
-=
-"
-"
 )
 {
 const
@@ -154,7 +150,6 @@ return
 getURLInternal
 (
 url
-defaultDomain
 )
 ;
 }
