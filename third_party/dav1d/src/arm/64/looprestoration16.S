@@ -452,6 +452,7 @@ w8
 [
 sp
 ]
+AARCH64_SIGN_LINK_REGISTER
 stp
 x29
 x30
@@ -1048,6 +1049,7 @@ sp
 ]
 #
 32
+AARCH64_VALIDATE_LINK_REGISTER
 ret
 L
 (
@@ -5241,6 +5243,7 @@ w8
 [
 sp
 ]
+AARCH64_SIGN_LINK_REGISTER
 stp
 x29
 x30
@@ -5755,6 +5758,7 @@ sp
 ]
 #
 32
+AARCH64_VALIDATE_LINK_REGISTER
 ret
 L
 (

@@ -8057,7 +8057,7 @@ dav1d_filter_intra_taps
 [
 64
 ]
-16
+64
 )
 =
 {

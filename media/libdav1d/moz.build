@@ -863,7 +863,7 @@ dav1d
 /
 src
 /
-film_grain
+filmgrain
 .
 h
 '
@@ -1175,7 +1175,7 @@ fg_apply_tmpl
 c
 '
 '
-film_grain_tmpl
+filmgrain_tmpl
 .
 c
 '

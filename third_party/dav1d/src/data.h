@@ -124,5 +124,13 @@ Dav1dData
 buf
 )
 ;
+void
+dav1d_data_props_unref_internal
+(
+Dav1dDataProps
+*
+props
+)
+;
 #
 endif

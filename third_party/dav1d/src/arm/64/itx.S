@@ -1216,13 +1216,13 @@ endif
 endm
 .
 macro
-rshrn_sz
+sqrshrn_sz
 d0
 s0
 s1
 shift
 sz
-rshrn
+sqrshrn
 \
 d0
 \
@@ -1245,7 +1245,7 @@ ifc
 sz
 .
 8h
-rshrn2
+sqrshrn2
 \
 d0
 \
@@ -4139,7 +4139,7 @@ h
 ]
 \
 sz
-rshrn_sz
+sqrshrn_sz
 v6
 v6
 v7
@@ -4147,7 +4147,7 @@ v7
 12
 \
 sz
-rshrn_sz
+sqrshrn_sz
 v7
 v4
 v5
@@ -4176,7 +4176,7 @@ h
 ]
 \
 sz
-rshrn_sz
+sqrshrn_sz
 v2
 v2
 v3
@@ -4184,7 +4184,7 @@ v3
 12
 \
 sz
-rshrn_sz
+sqrshrn_sz
 v3
 v4
 v5
@@ -6158,7 +6158,7 @@ sz
 -
 >
 t5a
-rshrn_sz
+sqrshrn_sz
 \
 r1
 v2
@@ -6170,7 +6170,7 @@ sz
 /
 /
 t4a
-rshrn_sz
+sqrshrn_sz
 \
 r7
 v4
@@ -6208,7 +6208,7 @@ sz
 -
 >
 t6a
-rshrn_sz
+sqrshrn_sz
 \
 r3
 v6
@@ -6220,7 +6220,7 @@ sz
 /
 /
 t5a
-rshrn_sz
+sqrshrn_sz
 \
 r5
 v2
@@ -6346,7 +6346,7 @@ sz
 -
 >
 t6
-rshrn_sz
+sqrshrn_sz
 v4
 v4
 v5
@@ -6357,7 +6357,7 @@ sz
 /
 /
 t5
-rshrn_sz
+sqrshrn_sz
 v5
 v6
 v7
@@ -6648,7 +6648,7 @@ h
 ]
 \
 sz
-rshrn_sz
+sqrshrn_sz
 v16
 v2
 v3
@@ -6659,7 +6659,7 @@ sz
 /
 /
 t0a
-rshrn_sz
+sqrshrn_sz
 v23
 v4
 v5
@@ -6708,7 +6708,7 @@ h
 ]
 \
 sz
-rshrn_sz
+sqrshrn_sz
 v18
 v6
 v7
@@ -6719,7 +6719,7 @@ sz
 /
 /
 t2a
-rshrn_sz
+sqrshrn_sz
 v21
 v2
 v3
@@ -6768,7 +6768,7 @@ h
 ]
 \
 sz
-rshrn_sz
+sqrshrn_sz
 v20
 v4
 v5
@@ -6779,7 +6779,7 @@ sz
 /
 /
 t4a
-rshrn_sz
+sqrshrn_sz
 v19
 v6
 v7
@@ -6809,7 +6809,7 @@ h
 ]
 \
 sz
-rshrn_sz
+sqrshrn_sz
 v22
 v2
 v3
@@ -6820,7 +6820,7 @@ sz
 /
 /
 t6a
-rshrn_sz
+sqrshrn_sz
 v17
 v4
 v5
@@ -6992,7 +6992,7 @@ h
 ]
 \
 sz
-rshrn_sz
+sqrshrn_sz
 v3
 v16
 v17
@@ -7003,7 +7003,7 @@ sz
 /
 /
 t4a
-rshrn_sz
+sqrshrn_sz
 v5
 v20
 v21
@@ -7033,7 +7033,7 @@ h
 ]
 \
 sz
-rshrn_sz
+sqrshrn_sz
 v7
 v22
 v23
@@ -7044,7 +7044,7 @@ sz
 /
 /
 t6a
-rshrn_sz
+sqrshrn_sz
 v19
 v16
 v17
@@ -7298,7 +7298,7 @@ v21
 or
 v18
 )
-rshrn_sz
+sqrshrn_sz
 v2
 v18
 v19
@@ -7338,7 +7338,7 @@ v18
 or
 v21
 )
-rshrn_sz
+sqrshrn_sz
 v3
 v20
 v21
@@ -7349,7 +7349,7 @@ sz
 /
 /
 out5
-rshrn_sz
+sqrshrn_sz
 \
 o2
 v18
@@ -7366,7 +7366,7 @@ v18
 or
 v21
 )
-rshrn_sz
+sqrshrn_sz
 \
 o4
 v6
@@ -8671,7 +8671,7 @@ sz
 -
 >
 t9a
-rshrn_sz
+sqrshrn_sz
 v17
 v2
 v3
@@ -8682,7 +8682,7 @@ sz
 /
 /
 t8a
-rshrn_sz
+sqrshrn_sz
 v31
 v4
 v5
@@ -8741,7 +8741,7 @@ sz
 -
 >
 t10a
-rshrn_sz
+sqrshrn_sz
 v23
 v6
 v7
@@ -8752,7 +8752,7 @@ sz
 /
 /
 t9a
-rshrn_sz
+sqrshrn_sz
 v25
 v2
 v3
@@ -8811,7 +8811,7 @@ sz
 -
 >
 t11a
-rshrn_sz
+sqrshrn_sz
 v21
 v4
 v5
@@ -8822,7 +8822,7 @@ sz
 /
 /
 t10a
-rshrn_sz
+sqrshrn_sz
 v27
 v6
 v7
@@ -8857,7 +8857,7 @@ sz
 -
 >
 t12a
-rshrn_sz
+sqrshrn_sz
 v19
 v2
 v3
@@ -8868,7 +8868,7 @@ sz
 /
 /
 t11a
-rshrn_sz
+sqrshrn_sz
 v29
 v4
 v5
@@ -9031,7 +9031,7 @@ sz
 -
 >
 t14a
-rshrn_sz
+sqrshrn_sz
 v21
 v4
 v5
@@ -9042,7 +9042,7 @@ sz
 /
 /
 t9a
-rshrn_sz
+sqrshrn_sz
 v27
 v6
 v7
@@ -9101,7 +9101,7 @@ sz
 -
 >
 t10a
-rshrn_sz
+sqrshrn_sz
 v29
 v4
 v5
@@ -9134,7 +9134,7 @@ v7
 4s
 .
 endif
-rshrn_sz
+sqrshrn_sz
 v23
 v6
 v7
@@ -9321,7 +9321,7 @@ sz
 -
 >
 t10a
-rshrn_sz
+sqrshrn_sz
 v4
 v4
 v5
@@ -9332,7 +9332,7 @@ sz
 /
 /
 t11
-rshrn_sz
+sqrshrn_sz
 v5
 v6
 v7
@@ -9367,7 +9367,7 @@ sz
 -
 >
 t13a
-rshrn_sz
+sqrshrn_sz
 v2
 v2
 v3
@@ -9378,7 +9378,7 @@ sz
 /
 /
 t10a
-rshrn_sz
+sqrshrn_sz
 v3
 v6
 v7
@@ -9785,7 +9785,7 @@ sz
 -
 >
 t2
-rshrn_sz
+sqrshrn_sz
 v16
 v2
 v3
@@ -9796,7 +9796,7 @@ sz
 /
 /
 t0
-rshrn_sz
+sqrshrn_sz
 v31
 v4
 v5
@@ -9855,7 +9855,7 @@ sz
 -
 >
 t4
-rshrn_sz
+sqrshrn_sz
 v18
 v6
 v7
@@ -9866,7 +9866,7 @@ sz
 /
 /
 t2
-rshrn_sz
+sqrshrn_sz
 v29
 v2
 v3
@@ -9925,7 +9925,7 @@ sz
 -
 >
 t6
-rshrn_sz
+sqrshrn_sz
 v20
 v4
 v5
@@ -9936,7 +9936,7 @@ sz
 /
 /
 t4
-rshrn_sz
+sqrshrn_sz
 v27
 v6
 v7
@@ -9995,7 +9995,7 @@ sz
 -
 >
 t8
-rshrn_sz
+sqrshrn_sz
 v22
 v2
 v3
@@ -10006,7 +10006,7 @@ sz
 /
 /
 t6
-rshrn_sz
+sqrshrn_sz
 v25
 v4
 v5
@@ -10065,7 +10065,7 @@ sz
 -
 >
 t10
-rshrn_sz
+sqrshrn_sz
 v23
 v6
 v7
@@ -10076,7 +10076,7 @@ sz
 /
 /
 t8
-rshrn_sz
+sqrshrn_sz
 v24
 v2
 v3
@@ -10135,7 +10135,7 @@ sz
 -
 >
 t12
-rshrn_sz
+sqrshrn_sz
 v21
 v4
 v5
@@ -10146,7 +10146,7 @@ sz
 /
 /
 t10
-rshrn_sz
+sqrshrn_sz
 v26
 v6
 v7
@@ -10205,7 +10205,7 @@ sz
 -
 >
 t14
-rshrn_sz
+sqrshrn_sz
 v19
 v2
 v3
@@ -10216,7 +10216,7 @@ sz
 /
 /
 t12
-rshrn_sz
+sqrshrn_sz
 v28
 v4
 v5
@@ -10251,7 +10251,7 @@ sz
 -
 >
 t15
-rshrn_sz
+sqrshrn_sz
 v17
 v6
 v7
@@ -10262,7 +10262,7 @@ sz
 /
 /
 t14
-rshrn_sz
+sqrshrn_sz
 v30
 v2
 v3
@@ -10562,7 +10562,7 @@ sz
 -
 >
 t10
-rshrn_sz
+sqrshrn_sz
 v17
 v4
 v5
@@ -10573,7 +10573,7 @@ sz
 /
 /
 t8
-rshrn_sz
+sqrshrn_sz
 v30
 v6
 v7
@@ -10632,7 +10632,7 @@ sz
 -
 >
 t12
-rshrn_sz
+sqrshrn_sz
 v18
 v2
 v3
@@ -10643,7 +10643,7 @@ sz
 /
 /
 t10
-rshrn_sz
+sqrshrn_sz
 v29
 v4
 v5
@@ -10702,7 +10702,7 @@ sz
 -
 >
 t14
-rshrn_sz
+sqrshrn_sz
 v27
 v6
 v7
@@ -10713,7 +10713,7 @@ sz
 /
 /
 t12
-rshrn_sz
+sqrshrn_sz
 v20
 v2
 v3
@@ -10748,7 +10748,7 @@ sz
 -
 >
 t15
-rshrn_sz
+sqrshrn_sz
 v25
 v4
 v5
@@ -10759,7 +10759,7 @@ sz
 /
 /
 t14
-rshrn_sz
+sqrshrn_sz
 v22
 v6
 v7
@@ -11050,7 +11050,7 @@ sz
 -
 >
 t6a
-rshrn_sz
+sqrshrn_sz
 v22
 v4
 v5
@@ -11061,7 +11061,7 @@ sz
 /
 /
 t4a
-rshrn_sz
+sqrshrn_sz
 v25
 v6
 v7
@@ -11120,7 +11120,7 @@ sz
 -
 >
 t12
-rshrn_sz
+sqrshrn_sz
 v24
 v2
 v3
@@ -11131,7 +11131,7 @@ sz
 /
 /
 t6a
-rshrn_sz
+sqrshrn_sz
 v23
 v4
 v5
@@ -11190,7 +11190,7 @@ sz
 -
 >
 t14
-rshrn_sz
+sqrshrn_sz
 v17
 v6
 v7
@@ -11225,7 +11225,7 @@ sz
 -
 >
 t15
-rshrn_sz
+sqrshrn_sz
 v29
 v2
 v3
@@ -11236,7 +11236,7 @@ sz
 /
 /
 t13
-rshrn_sz
+sqrshrn_sz
 v30
 v4
 v5
@@ -11247,7 +11247,7 @@ sz
 /
 /
 t14
-rshrn_sz
+sqrshrn_sz
 v18
 v6
 v7
@@ -11666,7 +11666,7 @@ v21
 or
 v26
 )
-rshrn_sz
+sqrshrn_sz
 v24
 v24
 v25
@@ -11677,7 +11677,7 @@ sz
 /
 /
 out8
-rshrn_sz
+sqrshrn_sz
 v4
 v4
 v5
@@ -11688,7 +11688,7 @@ sz
 /
 /
 out7
-rshrn_sz
+sqrshrn_sz
 v5
 v6
 v7
@@ -11757,7 +11757,7 @@ v20
 or
 v27
 )
-rshrn_sz
+sqrshrn_sz
 v26
 v6
 v7
@@ -11855,7 +11855,7 @@ v25
 or
 v22
 )
-rshrn_sz
+sqrshrn_sz
 \
 o4
 v2
@@ -11867,7 +11867,7 @@ sz
 /
 /
 out4
-rshrn_sz
+sqrshrn_sz
 v6
 v6
 v7
@@ -11878,7 +11878,7 @@ sz
 /
 /
 out11
-rshrn_sz
+sqrshrn_sz
 v7
 v21
 v25
@@ -11889,7 +11889,7 @@ sz
 /
 /
 out9
-rshrn_sz
+sqrshrn_sz
 \
 o6
 v22
@@ -15855,7 +15855,7 @@ h
 -
 >
 t17a
-rshrn_sz
+sqrshrn_sz
 v16
 v2
 v3
@@ -15866,7 +15866,7 @@ v3
 /
 /
 t16a
-rshrn_sz
+sqrshrn_sz
 v31
 v4
 v5
@@ -15925,7 +15925,7 @@ h
 -
 >
 t18a
-rshrn_sz
+sqrshrn_sz
 v24
 v6
 v7
@@ -15936,7 +15936,7 @@ v7
 /
 /
 t17a
-rshrn_sz
+sqrshrn_sz
 v23
 v2
 v3
@@ -15995,7 +15995,7 @@ h
 -
 >
 t19a
-rshrn_sz
+sqrshrn_sz
 v20
 v4
 v5
@@ -16006,7 +16006,7 @@ v5
 /
 /
 t18a
-rshrn_sz
+sqrshrn_sz
 v27
 v6
 v7
@@ -16065,7 +16065,7 @@ h
 -
 >
 t20a
-rshrn_sz
+sqrshrn_sz
 v28
 v2
 v3
@@ -16076,7 +16076,7 @@ v3
 /
 /
 t19a
-rshrn_sz
+sqrshrn_sz
 v19
 v4
 v5
@@ -16135,7 +16135,7 @@ h
 -
 >
 t21a
-rshrn_sz
+sqrshrn_sz
 v18
 v6
 v7
@@ -16146,7 +16146,7 @@ v7
 /
 /
 t20a
-rshrn_sz
+sqrshrn_sz
 v29
 v2
 v3
@@ -16205,7 +16205,7 @@ h
 -
 >
 t22a
-rshrn_sz
+sqrshrn_sz
 v26
 v4
 v5
@@ -16216,7 +16216,7 @@ v5
 /
 /
 t21a
-rshrn_sz
+sqrshrn_sz
 v21
 v6
 v7
@@ -16275,7 +16275,7 @@ h
 -
 >
 t23a
-rshrn_sz
+sqrshrn_sz
 v22
 v2
 v3
@@ -16286,7 +16286,7 @@ v3
 /
 /
 t22a
-rshrn_sz
+sqrshrn_sz
 v25
 v4
 v5
@@ -16321,7 +16321,7 @@ h
 -
 >
 t24a
-rshrn_sz
+sqrshrn_sz
 v30
 v6
 v7
@@ -16332,7 +16332,7 @@ v7
 /
 /
 t23a
-rshrn_sz
+sqrshrn_sz
 v17
 v2
 v3
@@ -16632,7 +16632,7 @@ h
 -
 >
 t18a
-rshrn_sz
+sqrshrn_sz
 v21
 v4
 v5
@@ -16643,7 +16643,7 @@ v5
 /
 /
 t17a
-rshrn_sz
+sqrshrn_sz
 v27
 v6
 v7
@@ -16726,7 +16726,7 @@ h
 -
 >
 t21a
-rshrn_sz
+sqrshrn_sz
 v19
 v2
 v3
@@ -16737,7 +16737,7 @@ v3
 /
 /
 t18a
-rshrn_sz
+sqrshrn_sz
 v24
 v4
 v5
@@ -16796,7 +16796,7 @@ h
 -
 >
 t22a
-rshrn_sz
+sqrshrn_sz
 v22
 v6
 v7
@@ -16807,7 +16807,7 @@ v7
 /
 /
 t21a
-rshrn_sz
+sqrshrn_sz
 v18
 v2
 v3
@@ -16866,7 +16866,7 @@ h
 -
 >
 t25a
-rshrn_sz
+sqrshrn_sz
 v17
 v4
 v5
@@ -16877,7 +16877,7 @@ v5
 /
 /
 t22a
-rshrn_sz
+sqrshrn_sz
 v20
 v6
 v7
@@ -17168,7 +17168,7 @@ h
 -
 >
 t19
-rshrn_sz
+sqrshrn_sz
 v18
 v4
 v5
@@ -17179,7 +17179,7 @@ v5
 /
 /
 t18a
-rshrn_sz
+sqrshrn_sz
 v25
 v6
 v7
@@ -17238,7 +17238,7 @@ h
 -
 >
 t20
-rshrn_sz
+sqrshrn_sz
 v29
 v2
 v3
@@ -17249,7 +17249,7 @@ v3
 /
 /
 t19
-rshrn_sz
+sqrshrn_sz
 v24
 v4
 v5
@@ -17332,7 +17332,7 @@ h
 -
 >
 t21a
-rshrn_sz
+sqrshrn_sz
 v26
 v6
 v7
@@ -17343,7 +17343,7 @@ v7
 /
 /
 t20
-rshrn_sz
+sqrshrn_sz
 v19
 v2
 v3
@@ -17402,7 +17402,7 @@ h
 -
 >
 t26a
-rshrn_sz
+sqrshrn_sz
 v20
 v4
 v5
@@ -17413,7 +17413,7 @@ v5
 /
 /
 t21a
-rshrn_sz
+sqrshrn_sz
 v28
 v6
 v7
@@ -17706,7 +17706,7 @@ h
 -
 >
 t27
-rshrn_sz
+sqrshrn_sz
 v20
 v4
 v5
@@ -17717,7 +17717,7 @@ v5
 /
 /
 t20
-rshrn_sz
+sqrshrn_sz
 v22
 v6
 v7
@@ -17786,7 +17786,7 @@ v22
 /
 /
 t27
-rshrn_sz
+sqrshrn_sz
 v26
 v4
 v5
@@ -17845,7 +17845,7 @@ h
 -
 >
 t25
-rshrn_sz
+sqrshrn_sz
 v21
 v6
 v7
@@ -17856,7 +17856,7 @@ v7
 /
 /
 t21a
-rshrn_sz
+sqrshrn_sz
 v22
 v24
 v25
@@ -17867,7 +17867,7 @@ v25
 /
 /
 t22
-rshrn_sz
+sqrshrn_sz
 v25
 v4
 v5
@@ -17926,7 +17926,7 @@ h
 -
 >
 t24a
-rshrn_sz
+sqrshrn_sz
 v23
 v4
 v5
@@ -17937,7 +17937,7 @@ v5
 /
 /
 t23a
-rshrn_sz
+sqrshrn_sz
 v24
 v6
 v7
@@ -21441,7 +21441,7 @@ h
 -
 >
 t33a
-rshrn_sz
+sqrshrn_sz
 v26
 v2
 v3
@@ -21476,7 +21476,7 @@ h
 -
 >
 t62a
-rshrn_sz
+sqrshrn_sz
 v29
 v4
 v5
@@ -21487,7 +21487,7 @@ v5
 /
 /
 t61a
-rshrn_sz
+sqrshrn_sz
 v25
 v6
 v7
@@ -21498,7 +21498,7 @@ v7
 /
 /
 t33a
-rshrn_sz
+sqrshrn_sz
 v30
 v2
 v3
@@ -21685,7 +21685,7 @@ h
 -
 >
 t60
-rshrn_sz
+sqrshrn_sz
 v21
 v2
 v3
@@ -21696,7 +21696,7 @@ v3
 /
 /
 t61a
-rshrn_sz
+sqrshrn_sz
 v18
 v4
 v5
@@ -21731,7 +21731,7 @@ h
 -
 >
 t35
-rshrn_sz
+sqrshrn_sz
 v20
 v6
 v7
@@ -21742,7 +21742,7 @@ v7
 /
 /
 t60
-rshrn_sz
+sqrshrn_sz
 v19
 v2
 v3
@@ -22167,7 +22167,7 @@ h
 -
 >
 t40a
-rshrn_sz
+sqrshrn_sz
 v25
 v2
 v3
@@ -22178,7 +22178,7 @@ v3
 /
 /
 t56a
-rshrn_sz
+sqrshrn_sz
 v27
 v4
 v5
@@ -22233,7 +22233,7 @@ h
 -
 >
 t55a
-rshrn_sz
+sqrshrn_sz
 v31
 v6
 v7
@@ -22244,7 +22244,7 @@ v7
 /
 /
 t40a
-rshrn_sz
+sqrshrn_sz
 v28
 v2
 v3
@@ -22431,7 +22431,7 @@ h
 -
 >
 t47
-rshrn_sz
+sqrshrn_sz
 v18
 v2
 v3
@@ -22442,7 +22442,7 @@ v3
 /
 /
 t40a
-rshrn_sz
+sqrshrn_sz
 v21
 v4
 v5
@@ -22477,7 +22477,7 @@ h
 -
 >
 t48
-rshrn_sz
+sqrshrn_sz
 v19
 v6
 v7
@@ -22488,7 +22488,7 @@ v7
 /
 /
 t47
-rshrn_sz
+sqrshrn_sz
 v20
 v2
 v3

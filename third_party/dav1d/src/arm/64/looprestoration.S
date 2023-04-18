@@ -442,6 +442,7 @@ wiener_filter7_8bpc_neon
 export
 =
 1
+AARCH64_SIGN_LINK_REGISTER
 stp
 x29
 x30
@@ -903,6 +904,7 @@ sp
 ]
 #
 16
+AARCH64_VALIDATE_LINK_REGISTER
 ret
 L
 (
@@ -4438,6 +4440,7 @@ wiener_filter5_8bpc_neon
 export
 =
 1
+AARCH64_SIGN_LINK_REGISTER
 stp
 x29
 x30
@@ -4817,6 +4820,7 @@ sp
 ]
 #
 16
+AARCH64_VALIDATE_LINK_REGISTER
 ret
 L
 (
