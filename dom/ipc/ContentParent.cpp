@@ -17176,7 +17176,6 @@ aRequestingPrincipal
 aContentPolicyType
 trans
 this
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS

@@ -10783,7 +10783,6 @@ aIsPrivateData
 aRequestingPrincipal
 aContentPolicyType
 trans
-nullptr
 this
 )
 ;
