@@ -5,9 +5,6 @@ Commonly
 useful
 filters
 for
-:
-func
-:
 attr
 .
 asdict
@@ -103,7 +100,7 @@ what
 "
 "
     
-Whitelist
+Include
 *
 what
 *
@@ -115,27 +112,18 @@ what
 :
 What
 to
-whitelist
+include
 .
     
 :
 type
 what
 :
-:
-class
-:
 list
 of
-:
-class
-:
 type
 or
-:
-class
-:
-attr
+attrs
 .
 Attribute
 \
@@ -144,9 +132,6 @@ s
     
 :
 rtype
-:
-:
-class
 :
 callable
     
@@ -195,7 +180,7 @@ what
 "
 "
     
-Blacklist
+Exclude
 *
 what
 *
@@ -207,24 +192,18 @@ what
 :
 What
 to
-blacklist
+exclude
 .
     
 :
 type
 what
 :
-:
-class
-:
 list
 of
 classes
 or
-:
-class
-:
-attr
+attrs
 .
 Attribute
 \
@@ -234,9 +213,6 @@ s
     
 :
 rtype
-:
-:
-class
 :
 callable
     

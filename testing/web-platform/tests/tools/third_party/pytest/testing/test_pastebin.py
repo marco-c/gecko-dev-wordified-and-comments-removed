@@ -1,3 +1,5 @@
+import
+io
 from
 typing
 import
@@ -8,6 +10,18 @@ import
 Union
 import
 pytest
+from
+_pytest
+.
+monkeypatch
+import
+MonkeyPatch
+from
+_pytest
+.
+pytester
+import
+Pytester
 class
 TestPasteCapture
 :
@@ -36,6 +50,15 @@ bytes
 :
         
 pastebinlist
+:
+List
+[
+Union
+[
+str
+bytes
+]
+]
 =
 [
 ]
@@ -75,14 +98,19 @@ def
 test_failed
 (
 self
-testdir
+pytester
+:
+Pytester
 pastebinlist
 )
+-
+>
+None
 :
         
 testpath
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -98,6 +126,9 @@ def
 test_pass
 (
 )
+-
+>
+None
 :
                 
 pass
@@ -133,7 +164,7 @@ skip
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -196,9 +227,14 @@ def
 test_all
 (
 self
-testdir
+pytester
+:
+Pytester
 pastebinlist
 )
+-
+>
+None
 :
         
 from
@@ -210,7 +246,7 @@ LineMatcher
         
 testpath
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -261,7 +297,7 @@ skip
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -379,9 +415,14 @@ def
 test_non_ascii_paste_text
 (
 self
-testdir
+pytester
+:
+Pytester
 pastebinlist
 )
+-
+>
+None
 :
         
 "
@@ -411,7 +452,7 @@ See
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -444,7 +485,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -552,6 +593,8 @@ mocked_urlopen_fail
 (
 self
 monkeypatch
+:
+MonkeyPatch
 )
 :
         
@@ -620,8 +663,13 @@ url
 Bad
 request
 "
-None
-None
+{
+}
+io
+.
+BytesIO
+(
+)
 )
         
 monkeypatch
@@ -649,6 +697,8 @@ mocked_urlopen_invalid
 (
 self
 monkeypatch
+:
+MonkeyPatch
 )
 :
         
@@ -778,6 +828,8 @@ mocked_urlopen
 (
 self
 monkeypatch
+:
+MonkeyPatch
 )
 :
         
@@ -896,6 +948,9 @@ self
 pastebin
 mocked_urlopen_invalid
 )
+-
+>
+None
 :
         
 result
@@ -971,6 +1026,9 @@ self
 pastebin
 mocked_urlopen_fail
 )
+-
+>
+None
 :
         
 result
@@ -1021,6 +1079,9 @@ self
 pastebin
 mocked_urlopen
 )
+-
+>
+None
 :
         
 result
@@ -1048,9 +1109,9 @@ https
 :
 /
 /
-bpaste
+bpa
 .
-net
+st
 /
 show
 /
@@ -1097,9 +1158,9 @@ https
 :
 /
 /
-bpaste
+bpa
 .
-net
+st
 "
         
 assert
@@ -1154,7 +1215,12 @@ test_create_new_paste_failure
 self
 pastebin
 monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
         
 import

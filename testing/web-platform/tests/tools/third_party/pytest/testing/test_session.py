@@ -6,6 +6,18 @@ _pytest
 config
 import
 ExitCode
+from
+_pytest
+.
+monkeypatch
+import
+MonkeyPatch
+from
+_pytest
+.
+pytester
+import
+Pytester
 class
 SessionTests
 :
@@ -14,13 +26,18 @@ def
 test_basic_testitem_events
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 tfile
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -83,7 +100,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -203,13 +220,18 @@ def
 test_nested_import_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 tfile
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -260,7 +282,7 @@ a
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -314,13 +336,18 @@ def
 test_raises_output
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -400,13 +427,18 @@ def
 test_syntax_error_module
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -467,13 +499,18 @@ def
 test_exit_first_problem
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -539,13 +576,18 @@ def
 test_maxfail
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -621,13 +663,18 @@ def
 test_broken_repr
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -760,7 +807,7 @@ foo
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -842,13 +889,18 @@ def
 test_broken_repr_with_showlocals_verbose
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -899,7 +951,7 @@ value
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1029,11 +1081,16 @@ def
 test_skip_file_by_conftest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1090,13 +1147,13 @@ try
             
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
         
 except
@@ -1156,13 +1213,18 @@ def
 test_order_of_execution
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -1332,13 +1394,18 @@ def
 test_collect_only_with_various_situations
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1404,7 +1471,7 @@ __init__
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1417,9 +1484,7 @@ only
 "
 p
 .
-dirpath
-(
-)
+parent
 )
         
 itemstarted
@@ -1494,7 +1559,7 @@ started
 )
 =
 =
-8
+6
         
 colfail
 =
@@ -1523,11 +1588,16 @@ def
 test_minus_x_import_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1537,7 +1607,7 @@ __init__
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1555,7 +1625,7 @@ yyyy
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1563,9 +1633,9 @@ inline_run
 -
 x
 "
-testdir
+pytester
 .
-tmpdir
+path
 )
         
 finished
@@ -1606,11 +1676,16 @@ def
 test_minus_x_overridden_by_maxfail
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1620,7 +1695,7 @@ __init__
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1643,7 +1718,7 @@ zzz
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1658,9 +1733,9 @@ maxfail
 =
 2
 "
-testdir
+pytester
 .
-tmpdir
+path
 )
         
 finished
@@ -1699,8 +1774,13 @@ colfail
 def
 test_plugin_specify
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 with
@@ -1712,7 +1792,7 @@ ImportError
 )
 :
         
-testdir
+pytester
 .
 parseconfig
 (
@@ -1727,13 +1807,18 @@ nqweotexistent
 def
 test_plugin_already_exists
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -1774,13 +1859,18 @@ _ensure_unconfigure
 def
 test_exclude
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 hellodir
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -1791,7 +1881,7 @@ hello
     
 hellodir
 .
-join
+joinpath
 (
 "
 test_hello
@@ -1800,7 +1890,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 x
@@ -1811,7 +1901,7 @@ syntaxerror
     
 hello2dir
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -1822,7 +1912,7 @@ hello2
     
 hello2dir
 .
-join
+joinpath
 (
 "
 test_hello2
@@ -1831,7 +1921,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 x
@@ -1840,7 +1930,7 @@ syntaxerror
 "
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1858,7 +1948,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1904,13 +1994,18 @@ passed
 def
 test_exclude_glob
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 hellodir
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -1921,7 +2016,7 @@ hello
     
 hellodir
 .
-join
+joinpath
 (
 "
 test_hello
@@ -1930,7 +2025,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 x
@@ -1941,7 +2036,7 @@ syntaxerror
     
 hello2dir
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -1952,7 +2047,7 @@ hello2
     
 hello2dir
 .
-join
+joinpath
 (
 "
 test_hello2
@@ -1961,7 +2056,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 x
@@ -1972,7 +2067,7 @@ syntaxerror
     
 hello3dir
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -1983,7 +2078,7 @@ hallo3
     
 hello3dir
 .
-join
+joinpath
 (
 "
 test_hello3
@@ -1992,7 +2087,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 x
@@ -2003,7 +2098,7 @@ syntaxerror
     
 subdir
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -2014,7 +2109,7 @@ sub
     
 subdir
 .
-join
+joinpath
 (
 "
 test_hello4
@@ -2023,7 +2118,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 x
@@ -2032,7 +2127,7 @@ syntaxerror
 "
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2050,7 +2145,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2097,11 +2192,16 @@ passed
 def
 test_deselect
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2173,7 +2273,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2303,11 +2403,16 @@ test_a2
 def
 test_sessionfinish_with_start
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -2378,7 +2483,7 @@ getcwd
     
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2432,10 +2537,20 @@ root
 def
 test_rootdir_option_arg
 (
-testdir
+    
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 path
+:
+str
 )
+-
+>
+None
 :
     
 monkeypatch
@@ -2447,9 +2562,9 @@ PY_ROOTDIR_PATH
 "
 str
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
 )
     
@@ -2463,9 +2578,9 @@ relative
 =
 str
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
 environment
 =
@@ -2476,25 +2591,28 @@ PY_ROOTDIR_PATH
     
 rootdir
 =
-testdir
+pytester
 .
-mkdir
-(
+path
+/
 "
 root
 "
-)
+/
+"
+tests
+"
     
 rootdir
 .
 mkdir
 (
-"
-tests
-"
+parents
+=
+True
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2523,23 +2641,20 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
+f
 "
 -
 -
 rootdir
 =
 {
+path
 }
 "
-.
-format
-(
-path
-)
 )
     
 result
@@ -2551,22 +2666,19 @@ fnmatch_lines
         
 [
             
+f
 "
 *
 rootdir
 :
 {
+pytester
+.
+path
 }
 /
 root
 "
-.
-format
-(
-testdir
-.
-tmpdir
-)
             
 "
 root
@@ -2590,13 +2702,18 @@ passed
 def
 test_rootdir_wrong_option_arg
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (

@@ -1,7 +1,13 @@
 import
 inspect
 import
+sys
+import
 textwrap
+from
+pathlib
+import
+Path
 from
 typing
 import
@@ -15,15 +21,15 @@ pytest
 from
 _pytest
 .
-compat
+doctest
 import
-MODULE_NOT_FOUND_ERROR
+_get_checker
 from
 _pytest
 .
 doctest
 import
-_get_checker
+_is_main_py
 from
 _pytest
 .
@@ -60,6 +66,12 @@ _pytest
 doctest
 import
 DoctestTextfile
+from
+_pytest
+.
+pytester
+import
+Pytester
 class
 TestDoctests
 :
@@ -68,13 +80,15 @@ def
 test_collect_testtextfile
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 w
 =
-testdir
+pytester
 .
 maketxtfile
 (
@@ -86,7 +100,7 @@ whatever
         
 checkfile
 =
-testdir
+pytester
 .
 maketxtfile
 (
@@ -125,9 +139,9 @@ for
 x
 in
 (
-testdir
+pytester
 .
-tmpdir
+path
 checkfile
 )
 :
@@ -135,7 +149,7 @@ checkfile
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -176,7 +190,7 @@ DoctestTextfile
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -196,13 +210,15 @@ def
 test_collect_module_empty
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 path
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -218,16 +234,16 @@ p
 in
 (
 path
-testdir
+pytester
 .
-tmpdir
+path
 )
 :
             
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -254,13 +270,15 @@ def
 test_collect_module_single_modulelevel_doctest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 path
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -285,16 +303,16 @@ p
 in
 (
 path
-testdir
+pytester
 .
-tmpdir
+path
 )
 :
             
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -343,13 +361,15 @@ def
 test_collect_module_two_doctest_one_modulelevel
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 path
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -395,16 +415,16 @@ p
 in
 (
 path
-testdir
+pytester
 .
-tmpdir
+path
 )
 :
             
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -474,23 +494,58 @@ items
 .
 parent
     
+pytest
+.
+mark
+.
+parametrize
+(
+"
+filename
+"
+[
+"
+__init__
+"
+"
+whatever
+"
+]
+)
+    
 def
 test_collect_module_two_doctest_no_modulelevel
 (
+        
 self
-testdir
+        
+pytester
+:
+Pytester
+        
+filename
+:
+str
+    
 )
+-
+>
+None
 :
         
 path
 =
-testdir
+pytester
 .
 makepyfile
 (
             
-whatever
-=
+*
+*
+{
+                
+filename
+:
 "
 "
 "
@@ -516,7 +571,7 @@ magic
 "
             
 def
-unuseful
+useless
 (
 )
 :
@@ -580,10 +635,12 @@ doctest
 '
 '
 '
-        
+            
 "
 "
 "
+            
+}
         
 )
         
@@ -592,16 +649,16 @@ p
 in
 (
 path
-testdir
+pytester
 .
-tmpdir
+path
 )
 :
             
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -675,13 +732,15 @@ def
 test_simple_doctestfile
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 p
 =
-testdir
+pytester
 .
 maketxtfile
 (
@@ -717,7 +776,7 @@ False
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -737,13 +796,15 @@ def
 test_new_pattern
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 p
 =
-testdir
+pytester
 .
 maketxtfile
 (
@@ -779,7 +840,7 @@ False
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -811,7 +872,9 @@ def
 test_multiple_patterns
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -837,7 +900,7 @@ arguments
 "
 "
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -861,7 +924,7 @@ xdoc
         
 )
         
-testdir
+pytester
 .
 makefile
 (
@@ -890,7 +953,7 @@ test
         
 )
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -938,15 +1001,15 @@ assert
 {
 x
 .
-basename
+name
 for
 x
 in
-testdir
+pytester
 .
-tmpdir
+path
 .
-listdir
+iterdir
 (
 )
 }
@@ -984,7 +1047,7 @@ foo
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1024,7 +1087,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1098,7 +1161,7 @@ def
 test_encoding
 (
 self
-testdir
+pytester
 test_string
 encoding
 )
@@ -1118,7 +1181,7 @@ option
 "
 "
         
-testdir
+pytester
 .
 makeini
 (
@@ -1181,19 +1244,23 @@ test_string
         
 )
         
-testdir
+fn
+=
+pytester
 .
-_makefile
-(
+path
+/
 "
+test_encoding
 .
 txt
 "
-[
+        
+fn
+.
+write_text
+(
 doctest
-]
-{
-}
 encoding
 =
 encoding
@@ -1201,7 +1268,7 @@ encoding
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1227,11 +1294,13 @@ def
 test_doctest_unexpected_exception
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -1264,7 +1333,7 @@ i
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1380,6 +1449,33 @@ __run
 *
 "
                 
+*
+(
+(
+"
+*
+^
+^
+^
+^
+*
+"
+)
+if
+sys
+.
+version_info
+>
+=
+(
+3
+11
+)
+else
+(
+)
+)
+                
 '
 File
 "
@@ -1433,11 +1529,13 @@ def
 test_doctest_outcomes
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -1557,7 +1655,7 @@ bar
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1634,7 +1732,9 @@ def
 test_docstring_partial_context_around_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -1662,7 +1762,7 @@ doctest
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1774,7 +1874,7 @@ after
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1903,7 +2003,9 @@ def
 test_docstring_full_context_around_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -1942,7 +2044,7 @@ long
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1994,7 +2096,7 @@ line
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2079,15 +2181,17 @@ def
 test_doctest_linedata_missing
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 hello
@@ -2096,7 +2200,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -2157,7 +2261,7 @@ a
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2215,11 +2319,13 @@ def
 test_doctest_linedata_on_property
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2279,7 +2385,7 @@ something
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2399,11 +2505,13 @@ def
 test_doctest_no_linedata_on_overriden_property
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2477,7 +2585,7 @@ __doc__
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2614,11 +2722,13 @@ def
 test_doctest_unex_importerror_only_txt
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -2645,7 +2755,7 @@ asdalsdkjaslkdjasd
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2674,23 +2784,12 @@ asdals
 *
 UNEXPECTED
 *
-{
-e
-}
+ModuleNotFoundError
 *
 "
-.
-format
-(
-e
-=
-MODULE_NOT_FOUND_ERROR
-)
                 
 "
-{
-e
-}
+ModuleNotFoundError
 :
 No
 module
@@ -2699,13 +2798,6 @@ named
 asdal
 *
 "
-.
-format
-(
-e
-=
-MODULE_NOT_FOUND_ERROR
-)
             
 ]
         
@@ -2715,15 +2807,17 @@ def
 test_doctest_unex_importerror_with_module
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 hello
@@ -2732,7 +2826,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -2756,7 +2850,7 @@ asdalsdkjaslkdjasd
         
 )
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -2783,7 +2877,7 @@ hello
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2817,9 +2911,7 @@ py
                 
 "
 *
-{
-e
-}
+ModuleNotFoundError
 :
 No
 module
@@ -2828,13 +2920,6 @@ named
 asdals
 *
 "
-.
-format
-(
-e
-=
-MODULE_NOT_FOUND_ERROR
-)
                 
 "
 *
@@ -2855,13 +2940,15 @@ def
 test_doctestmodule
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2903,7 +2990,7 @@ False
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -2930,13 +3017,15 @@ def
 test_doctestmodule_external_and_issue116
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 p
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -2947,7 +3036,7 @@ hello
         
 p
 .
-join
+joinpath
 (
 "
 __init__
@@ -2956,7 +3045,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -3009,7 +3098,7 @@ i
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3092,13 +3181,15 @@ def
 test_txtfile_failing
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 p
 =
-testdir
+pytester
 .
 maketxtfile
 (
@@ -3131,7 +3222,7 @@ i
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3208,13 +3299,15 @@ def
 test_txtfile_with_fixtures
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 p
 =
-testdir
+pytester
 .
 maketxtfile
 (
@@ -3226,28 +3319,25 @@ maketxtfile
 >
 >
 >
-dir
+p
 =
 getfixture
 (
 '
-tmpdir
+tmp_path
 '
 )
             
 >
 >
 >
-type
-(
-dir
-)
+p
 .
-__name__
+is_dir
+(
+)
             
-'
-LocalPath
-'
+True
         
 "
 "
@@ -3257,7 +3347,7 @@ LocalPath
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -3277,11 +3367,13 @@ def
 test_txtfile_with_usefixtures_in_ini
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -3304,7 +3396,7 @@ myfixture
         
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -3347,7 +3439,7 @@ WORLD
         
 p
 =
-testdir
+pytester
 .
 maketxtfile
 (
@@ -3386,7 +3478,7 @@ WORLD
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -3406,13 +3498,15 @@ def
 test_doctestmodule_with_fixtures
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3428,28 +3522,25 @@ makepyfile
 >
 >
 >
-dir
+p
 =
 getfixture
 (
 '
-tmpdir
+tmp_path
 '
 )
                 
 >
 >
 >
-type
-(
-dir
-)
+p
 .
-__name__
+is_dir
+(
+)
                 
-'
-LocalPath
-'
+True
             
 '
 '
@@ -3463,7 +3554,7 @@ LocalPath
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -3490,13 +3581,15 @@ def
 test_doctestmodule_three_tests
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3512,28 +3605,25 @@ makepyfile
 >
 >
 >
-dir
+p
 =
 getfixture
 (
 '
-tmpdir
+tmp_path
 '
 )
             
 >
 >
 >
-type
-(
-dir
-)
+p
 .
-__name__
+is_dir
+(
+)
             
-'
-LocalPath
-'
+True
             
 '
 '
@@ -3570,7 +3660,7 @@ magic
 '
             
 def
-unuseful
+useless
 (
 )
 :
@@ -3614,7 +3704,7 @@ True
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -3641,13 +3731,15 @@ def
 test_doctestmodule_two_tests_one_fail
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3731,7 +3823,7 @@ magic
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -3761,11 +3853,13 @@ def
 test_ignored_whitespace
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -3791,7 +3885,7 @@ NORMALIZE_WHITESPACE
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3844,7 +3938,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -3871,11 +3965,13 @@ def
 test_non_ignored_whitespace
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -3900,7 +3996,7 @@ ELLIPSIS
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3953,7 +4049,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -3983,11 +4079,13 @@ def
 test_ignored_whitespace_glob
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -4013,7 +4111,7 @@ NORMALIZE_WHITESPACE
         
 p
 =
-testdir
+pytester
 .
 maketxtfile
 (
@@ -4051,7 +4149,7 @@ foo
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -4083,11 +4181,13 @@ def
 test_non_ignored_whitespace_glob
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -4112,7 +4212,7 @@ ELLIPSIS
         
 p
 =
-testdir
+pytester
 .
 maketxtfile
 (
@@ -4150,7 +4250,7 @@ foo
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -4185,7 +4285,9 @@ def
 test_contains_unicode
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -4207,7 +4309,7 @@ characters
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4264,7 +4366,7 @@ anything
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4302,13 +4404,15 @@ def
 test_ignore_import_errors_on_doctest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4358,7 +4462,7 @@ x
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -4404,7 +4508,9 @@ def
 test_junit_report_for_doctest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -4436,7 +4542,7 @@ modules
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4478,7 +4584,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -4516,7 +4622,9 @@ def
 test_unicode_doctest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -4550,7 +4658,7 @@ characters
         
 p
 =
-testdir
+pytester
 .
 maketxtfile
 (
@@ -4572,10 +4680,6 @@ doctest
 >
 print
 (
-                
-.
-.
-.
 "
 Hi
 \
@@ -4614,7 +4718,7 @@ By
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4651,7 +4755,9 @@ def
 test_unicode_doctest_module
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -4686,7 +4792,7 @@ characters
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4740,7 +4846,7 @@ nico
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4774,7 +4880,9 @@ def
 test_print_unicode_value
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -4809,7 +4917,7 @@ work
         
 p
 =
-testdir
+pytester
 .
 maketxtfile
 (
@@ -4856,7 +4964,7 @@ xFC
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4883,7 +4991,9 @@ def
 test_reportinfo
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -4907,7 +5017,7 @@ lineno
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4961,7 +5071,7 @@ c
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -4999,7 +5109,9 @@ def
 test_valid_setup_py
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -5035,7 +5147,7 @@ modules
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5052,6 +5164,15 @@ import
 setup
 find_packages
             
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+                
 setup
 (
 name
@@ -5059,7 +5180,7 @@ name
 '
 sample
 '
-                  
+                      
 version
 =
 '
@@ -5067,19 +5188,19 @@ version
 .
 0
 '
-                  
+                      
 description
 =
 '
 description
 '
-                  
+                      
 packages
 =
 find_packages
 (
 )
-            
+                
 )
         
 "
@@ -5090,7 +5211,7 @@ find_packages
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5122,10 +5243,76 @@ items
 )
     
 def
+test_main_py_does_not_cause_import_errors
+(
+self
+pytester
+:
+Pytester
+)
+:
+        
+p
+=
+pytester
+.
+copy_example
+(
+"
+doctest
+/
+main_py
+"
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+p
+"
+-
+-
+doctest
+-
+modules
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+[
+"
+*
+collected
+2
+items
+*
+"
+"
+*
+1
+failed
+1
+passed
+*
+"
+]
+)
+    
+def
 test_invalid_setup_py
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -5167,7 +5354,7 @@ modules
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5197,7 +5384,7 @@ bar
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5254,7 +5441,7 @@ def
 test_allow_unicode
 (
 self
-testdir
+pytester
 config_mode
 )
 :
@@ -5311,7 +5498,7 @@ ini
 "
 :
             
-testdir
+pytester
 .
 makeini
 (
@@ -5352,7 +5539,7 @@ doctest
 ALLOW_UNICODE
 "
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -5400,7 +5587,7 @@ comment
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5464,7 +5651,7 @@ comment
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -5509,7 +5696,7 @@ def
 test_allow_bytes
 (
 self
-testdir
+pytester
 config_mode
 )
 :
@@ -5570,7 +5757,7 @@ ini
 "
 :
             
-testdir
+pytester
 .
 makeini
 (
@@ -5611,7 +5798,7 @@ doctest
 ALLOW_BYTES
 "
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -5652,7 +5839,7 @@ comment
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5709,7 +5896,7 @@ comment
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -5735,7 +5922,9 @@ def
 test_unicode_string
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -5776,7 +5965,7 @@ Python
 "
 "
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -5814,7 +6003,7 @@ ascii
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -5833,7 +6022,9 @@ def
 test_bytes_literal
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -5869,7 +6060,7 @@ used
 "
 "
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -5900,7 +6091,7 @@ foo
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6144,7 +6335,7 @@ def
 test_number_precision
 (
 self
-testdir
+pytester
 config_mode
 )
 :
@@ -6170,7 +6361,7 @@ ini
 "
 :
             
-testdir
+pytester
 .
 makeini
 (
@@ -6211,7 +6402,7 @@ doctest
 NUMBER
 "
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -6602,7 +6793,7 @@ comment
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6780,13 +6971,13 @@ def
 test_number_non_matches
 (
 self
-testdir
+pytester
 expression
 output
 )
 :
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -6833,7 +7024,7 @@ output
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6855,11 +7046,13 @@ def
 test_number_and_allow_unicode
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -6956,7 +7149,7 @@ bytes
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -7031,7 +7224,7 @@ def
 makedoctest
 (
 self
-testdir
+pytester
 request
 )
 :
@@ -7058,7 +7251,7 @@ text
 "
 :
                 
-testdir
+pytester
 .
 maketxtfile
 (
@@ -7076,7 +7269,7 @@ mode
 module
 "
                 
-testdir
+pytester
 .
 makepyfile
 (
@@ -7103,7 +7296,7 @@ def
 test_one_skipped
 (
 self
-testdir
+pytester
 makedoctest
 )
 :
@@ -7146,7 +7339,7 @@ SKIP
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -7172,7 +7365,7 @@ def
 test_one_skipped_failed
 (
 self
-testdir
+pytester
 makedoctest
 )
 :
@@ -7215,7 +7408,7 @@ SKIP
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -7241,7 +7434,7 @@ def
 test_all_skipped
 (
 self
-testdir
+pytester
 makedoctest
 )
 :
@@ -7289,7 +7482,7 @@ SKIP
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -7315,7 +7508,7 @@ def
 test_vacuous_all_skipped
 (
 self
-testdir
+pytester
 makedoctest
 )
 :
@@ -7328,7 +7521,7 @@ makedoctest
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -7357,11 +7550,13 @@ def
 test_continue_on_failure
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -7435,10 +7630,11 @@ i
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
+            
 "
 -
 -
@@ -7457,6 +7653,7 @@ on
 -
 failure
 "
+        
 )
         
 result
@@ -7503,6 +7700,181 @@ DocTestFailure
 ]
         
 )
+    
+def
+test_skipping_wrapped_test
+(
+self
+pytester
+)
+:
+        
+"
+"
+"
+        
+Issue
+8796
+:
+INTERNALERROR
+raised
+when
+skipping
+a
+decorated
+DocTest
+        
+through
+pytest_collection_modifyitems
+.
+        
+"
+"
+"
+        
+pytester
+.
+makeconftest
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+from
+_pytest
+.
+doctest
+import
+DoctestItem
+            
+def
+pytest_collection_modifyitems
+(
+config
+items
+)
+:
+                
+skip_marker
+=
+pytest
+.
+mark
+.
+skip
+(
+)
+                
+for
+item
+in
+items
+:
+                    
+if
+isinstance
+(
+item
+DoctestItem
+)
+:
+                        
+item
+.
+add_marker
+(
+skip_marker
+)
+            
+"
+"
+"
+        
+)
+        
+pytester
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+from
+contextlib
+import
+contextmanager
+            
+contextmanager
+            
+def
+my_config_context
+(
+)
+:
+                
+'
+'
+'
+                
+>
+>
+>
+import
+os
+                
+'
+'
+'
+            
+"
+"
+"
+        
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+doctest
+-
+modules
+"
+)
+        
+assert
+"
+INTERNALERROR
+"
+not
+in
+result
+.
+stdout
+.
+str
+(
+)
+        
+result
+.
+assert_outcomes
+(
+skipped
+=
+1
+)
 class
 TestDoctestAutoUseFixtures
 :
@@ -7528,7 +7900,9 @@ def
 test_doctest_module_session_fixture
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -7553,7 +7927,7 @@ modules
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -7617,7 +7991,7 @@ pytest_session_data
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7689,7 +8063,7 @@ pytest_session_data
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7749,7 +8123,7 @@ def
 test_fixture_scopes
 (
 self
-testdir
+pytester
 scope
 enable_doctest
 )
@@ -7783,7 +8157,7 @@ and
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -7836,7 +8210,7 @@ scope
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7917,7 +8291,7 @@ else
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7995,7 +8369,7 @@ test_fixture_module_doctest_scopes
 (
         
 self
-testdir
+pytester
 scope
 autouse
 use_fixture_in_doctest
@@ -8031,7 +8405,7 @@ and
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -8093,7 +8467,7 @@ if
 use_fixture_in_doctest
 :
             
-testdir
+pytester
 .
 maketxtfile
 (
@@ -8125,7 +8499,7 @@ auto
 else
 :
             
-testdir
+pytester
 .
 maketxtfile
 (
@@ -8153,7 +8527,7 @@ test_doc
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8215,7 +8589,7 @@ def
 test_auto_use_request_attributes
 (
 self
-testdir
+pytester
 scope
 )
 :
@@ -8250,7 +8624,7 @@ item
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -8363,7 +8737,7 @@ scope
         
 )
         
-testdir
+pytester
 .
 maketxtfile
 (
@@ -8391,7 +8765,7 @@ test_doc
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8476,7 +8850,7 @@ def
 test_namespace_doctestfile
 (
 self
-testdir
+pytester
 scope
 )
 :
@@ -8505,7 +8879,7 @@ doctest
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -8569,7 +8943,7 @@ scope
         
 p
 =
-testdir
+pytester
 .
 maketxtfile
 (
@@ -8598,7 +8972,7 @@ contextlib
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -8630,7 +9004,7 @@ def
 test_namespace_pyfile
 (
 self
-testdir
+pytester
 scope
 )
 :
@@ -8660,7 +9034,7 @@ doctest
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -8724,7 +9098,7 @@ scope
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8767,7 +9141,7 @@ contextlib
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -8797,12 +9171,12 @@ def
 _run_doctest_report
 (
 self
-testdir
+pytester
 format
 )
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8889,7 +9263,7 @@ n
 )
         
 return
-testdir
+pytester
 .
 runpytest
 (
@@ -8936,7 +9310,7 @@ def
 test_doctest_report_udiff
 (
 self
-testdir
+pytester
 format
 )
 :
@@ -8947,7 +9321,7 @@ self
 .
 _run_doctest_report
 (
-testdir
+pytester
 format
 )
         
@@ -8989,7 +9363,9 @@ def
 test_doctest_report_cdiff
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -8999,7 +9375,7 @@ self
 .
 _run_doctest_report
 (
-testdir
+pytester
 "
 cdiff
 "
@@ -9082,7 +9458,9 @@ def
 test_doctest_report_ndiff
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -9092,7 +9470,7 @@ self
 .
 _run_doctest_report
 (
-testdir
+pytester
 "
 ndiff
 "
@@ -9175,7 +9553,7 @@ def
 test_doctest_report_none_or_only_first_failure
 (
 self
-testdir
+pytester
 format
 )
 :
@@ -9186,7 +9564,7 @@ self
 .
 _run_doctest_report
 (
-testdir
+pytester
 format
 )
         
@@ -9263,7 +9641,9 @@ def
 test_doctest_report_invalid
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -9273,7 +9653,7 @@ self
 .
 _run_doctest_report
 (
-testdir
+pytester
 "
 obviously_invalid_format
 "
@@ -9338,7 +9718,9 @@ def
 test_doctest_mock_objects_dont_recurse_missbehaved
 (
 mock_module
-testdir
+pytester
+:
+Pytester
 )
 :
     
@@ -9349,7 +9731,7 @@ importorskip
 mock_module
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9406,7 +9788,7 @@ mock_module
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9599,15 +9981,20 @@ inspect
 def
 test_is_setup_py_not_named_setup_py
 (
-tmpdir
+tmp_path
+:
+Path
 )
+-
+>
+None
 :
     
 not_setup_py
 =
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 "
 not_setup
@@ -9618,7 +10005,7 @@ py
     
 not_setup_py
 .
-write
+write_text
 (
 '
 from
@@ -9666,16 +10053,23 @@ core
 def
 test_is_setup_py_is_a_setup_py
 (
-tmpdir
+tmp_path
+:
+Path
 mod
+:
+str
 )
+-
+>
+None
 :
     
 setup_py
 =
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 "
 setup
@@ -9686,11 +10080,13 @@ py
     
 setup_py
 .
-write
+write_text
 (
+f
 '
 from
 {
+mod
 }
 import
 setup
@@ -9704,11 +10100,11 @@ foo
 "
 )
 '
-.
-format
-(
-mod
-)
+"
+utf
+-
+8
+"
 )
     
 assert
@@ -9739,16 +10135,23 @@ core
 def
 test_is_setup_py_different_encoding
 (
-tmpdir
+tmp_path
+:
+Path
 mod
+:
+str
 )
+-
+>
+None
 :
     
 setup_py
 =
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 "
 setup
@@ -9808,7 +10211,7 @@ mod
     
 setup_py
 .
-write_binary
+write_bytes
 (
 contents
 .
@@ -9825,3 +10228,68 @@ _is_setup_py
 (
 setup_py
 )
+pytest
+.
+mark
+.
+parametrize
+(
+    
+"
+name
+expected
+"
+[
+(
+"
+__main__
+.
+py
+"
+True
+)
+(
+"
+__init__
+.
+py
+"
+False
+)
+]
+)
+def
+test_is_main_py
+(
+tmp_path
+:
+Path
+name
+:
+str
+expected
+:
+bool
+)
+-
+>
+None
+:
+    
+dunder_main
+=
+tmp_path
+.
+joinpath
+(
+name
+)
+    
+assert
+_is_main_py
+(
+dunder_main
+)
+=
+=
+expected

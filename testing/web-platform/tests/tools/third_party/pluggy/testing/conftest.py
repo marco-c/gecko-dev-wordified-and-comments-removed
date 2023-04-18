@@ -63,9 +63,6 @@ example
     
 class
 Hooks
-(
-object
-)
 :
         
 hookspec

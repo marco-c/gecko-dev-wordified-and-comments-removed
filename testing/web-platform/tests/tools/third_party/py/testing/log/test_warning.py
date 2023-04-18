@@ -30,18 +30,6 @@ ext
 py
 "
 )
-win
-=
-sys
-.
-platform
-.
-startswith
-(
-'
-win
-'
-)
 pytestmark
 =
 pytest
@@ -50,8 +38,6 @@ mark
 .
 skipif
 (
-win
-and
 LooseVersion
 (
 pytest

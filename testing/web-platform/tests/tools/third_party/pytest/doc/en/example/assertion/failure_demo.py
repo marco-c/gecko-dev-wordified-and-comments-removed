@@ -966,19 +966,16 @@ items
         
 print
 (
+f
 "
 items
 is
 {
+items
 !
 r
 }
 "
-.
-format
-(
-items
-)
 )
         
 a

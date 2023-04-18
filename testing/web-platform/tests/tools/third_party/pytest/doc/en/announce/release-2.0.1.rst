@@ -655,6 +655,10 @@ en
 /
 stable
 /
+how
+-
+to
+/
 plugins
 .
 html

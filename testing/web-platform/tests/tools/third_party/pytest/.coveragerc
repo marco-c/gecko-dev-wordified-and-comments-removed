@@ -173,6 +173,13 @@ False
 \
 s
 *
+assert_never
+\
+(
+^
+\
+s
+*
 if
 TYPE_CHECKING
 :

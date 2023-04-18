@@ -71,6 +71,7 @@ paras
 )
 )
 print
+(
 unicode
 (
 doc
@@ -81,4 +82,5 @@ encode
 '
 latin1
 '
+)
 )

@@ -6,6 +6,9 @@ tox
 /
 __pycache__
 /
+.
+mypy_cache
+/
 *
 .
 pyc
@@ -23,3 +26,12 @@ eggs
 dist
 /
 *
+/
+py
+/
+_version
+.
+py
+.
+pytest_cache
+/

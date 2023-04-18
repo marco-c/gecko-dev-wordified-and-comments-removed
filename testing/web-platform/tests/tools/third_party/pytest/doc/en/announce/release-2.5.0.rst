@@ -202,7 +202,7 @@ have
 many
 remaining
 "
-enhacement
+enhancement
 "
 issues
 which

@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-division
-print_function
 import
 pytest
 from
@@ -17,15 +11,10 @@ packaging
 .
 requirements
 import
+URL
+URL_AND_MARKER
 InvalidRequirement
 Requirement
-URL
-from
-packaging
-.
-requirements
-import
-URL_AND_MARKER
 from
 packaging
 .
@@ -1259,7 +1248,7 @@ marker
 )
     
 def
-test_multiple_comparsion_markers
+test_multiple_comparison_markers
 (
 self
 )
@@ -1768,4 +1757,20 @@ str
 e
 .
 value
+)
+or
+(
+            
+"
+Expected
+string_end
+"
+in
+str
+(
+e
+.
+value
+)
+        
 )

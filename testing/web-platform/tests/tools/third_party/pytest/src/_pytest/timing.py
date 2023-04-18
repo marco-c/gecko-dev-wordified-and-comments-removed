@@ -35,7 +35,7 @@ issue
 .
 Fixture
 "
-mock_timinig
+mock_timing
 "
 also
 interacts

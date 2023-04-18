@@ -1,11 +1,17 @@
 import
 inspect
 import
+pytest
+from
+_pytest
+import
+warning_types
+from
 _pytest
 .
-warning_types
+pytester
 import
-pytest
+Pytester
 pytest
 .
 mark
@@ -27,8 +33,6 @@ w
 in
 vars
 (
-_pytest
-.
 warning_types
 )
 .
@@ -56,7 +60,12 @@ def
 test_warning_types
 (
 warning_class
+:
+UserWarning
 )
+-
+>
+None
 :
     
 "
@@ -122,8 +131,13 @@ PytestWarning
 def
 test_pytest_warnings_repr_integration_test
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -158,7 +172,7 @@ works
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -202,7 +216,7 @@ warning
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (

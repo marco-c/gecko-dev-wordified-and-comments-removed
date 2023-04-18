@@ -68,7 +68,7 @@ pytest
 /
 blob
 /
-master
+main
 /
 doc
 /

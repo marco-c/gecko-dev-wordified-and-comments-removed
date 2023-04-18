@@ -413,6 +413,9 @@ class
 SpecifierSet
 (
 specifiers
+=
+"
+"
 prereleases
 =
 None

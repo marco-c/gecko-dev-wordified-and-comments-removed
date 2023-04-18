@@ -80,6 +80,11 @@ w
 |
 \
 ]
+|
+\
+\
+|
+/
 )
 +
 The
@@ -152,14 +157,12 @@ from
 typing
 import
 Sequence
-import
-attr
 from
-_pytest
-.
-compat
+typing
 import
 TYPE_CHECKING
+import
+attr
 if
 TYPE_CHECKING
 :
@@ -244,43 +247,25 @@ True
 slots
 =
 True
+auto_attribs
+=
+True
 )
 class
 Token
 :
     
 type
-=
-attr
-.
-ib
-(
-type
-=
+:
 TokenType
-)
     
 value
-=
-attr
-.
-ib
-(
-type
-=
+:
 str
-)
     
 pos
-=
-attr
-.
-ib
-(
-type
-=
+:
 int
-)
 class
 ParseError
 (
@@ -372,25 +357,22 @@ str
 :
         
 return
+f
 "
 at
 column
 {
-}
-:
-{
-}
-"
-.
-format
-(
 self
 .
 column
+}
+:
+{
 self
 .
 message
-)
+}
+"
 class
 Scanner
 :
@@ -581,6 +563,11 @@ w
 |
 \
 ]
+|
+\
+\
+|
+/
 )
 +
 "
@@ -692,22 +679,20 @@ ParseError
 pos
 +
 1
+                        
+f
 '
 unexpected
 character
 "
 {
-}
-"
-'
-.
-format
-(
 input
 [
 pos
 ]
-)
+}
+"
+'
                     
 )
         
@@ -858,6 +843,7 @@ type
 in
 expected
 )
+                
 self
 .
 current
@@ -899,6 +885,10 @@ EOF
 :
         
 ret
+:
+ast
+.
+expr
 =
 ast
 .
@@ -1322,7 +1312,7 @@ The
 expression
 can
 be
-evaulated
+evaluated
 against
 different
 matchers
@@ -1414,11 +1404,16 @@ input
 )
         
 code
+:
+types
+.
+CodeType
 =
 compile
 (
             
 astexpr
+            
 filename
 =
 "
@@ -1428,6 +1423,7 @@ match
 expression
 >
 "
+            
 mode
 =
 "
@@ -1514,10 +1510,11 @@ not
 "
         
 ret
+:
+bool
 =
 eval
 (
-            
 self
 .
 code
@@ -1533,7 +1530,6 @@ MatcherAdapter
 (
 matcher
 )
-        
 )
         
 return

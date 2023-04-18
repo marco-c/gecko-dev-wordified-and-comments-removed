@@ -238,9 +238,8 @@ name
 Build
 run
 :
-python
+pyproject
 -
-m
 build
 -
 name

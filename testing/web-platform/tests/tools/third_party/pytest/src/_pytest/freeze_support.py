@@ -68,23 +68,9 @@ cx_freeze
 "
     
 import
-py
-    
-import
 _pytest
     
 result
-=
-list
-(
-_iter_all_modules
-(
-py
-)
-)
-    
-result
-+
 =
 list
 (
@@ -109,6 +95,7 @@ types
 .
 ModuleType
 ]
+    
 prefix
 :
 str

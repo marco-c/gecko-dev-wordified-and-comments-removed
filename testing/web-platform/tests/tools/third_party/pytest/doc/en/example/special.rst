@@ -285,7 +285,7 @@ self
 print
 (
 "
-test_method1
+test_method2
 called
 "
 )
@@ -406,7 +406,7 @@ called
 test_method1
 called
 .
-test_method1
+test_method2
 called
 .
 test

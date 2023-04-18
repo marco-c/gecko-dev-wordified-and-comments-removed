@@ -13,14 +13,10 @@ testing
 "
 import
 pytest
-import
-types
 from
 pluggy
 import
 (
-    
-PluginManager
     
 PluginValidationError
     
@@ -33,7 +29,7 @@ HookspecMarker
 from
 pluggy
 .
-manager
+_manager
 import
 importlib_metadata
 hookspec
@@ -150,9 +146,6 @@ objects
     
 class
 A
-(
-object
-)
 :
         
 pass
@@ -289,9 +282,6 @@ pm
     
 class
 A
-(
-object
-)
 :
         
 pass
@@ -338,9 +328,6 @@ he_pm
     
 class
 A
-(
-object
-)
 :
         
 def
@@ -401,9 +388,6 @@ pm
     
 class
 A
-(
-object
-)
 :
         
 pass
@@ -536,9 +520,6 @@ pm
     
 class
 A
-(
-object
-)
 :
         
 pass
@@ -661,9 +642,6 @@ he_pm
     
 class
 hello
-(
-object
-)
 :
         
 hookimpl
@@ -724,9 +702,6 @@ he_pm
     
 class
 hello
-(
-object
-)
 :
         
 hookimpl
@@ -774,6 +749,71 @@ plugin
 is
 plugin
 def
+test_register_hookwrapper_not_a_generator_function
+(
+he_pm
+)
+:
+    
+class
+hello
+:
+        
+hookimpl
+(
+hookwrapper
+=
+True
+)
+        
+def
+he_method1
+(
+self
+)
+:
+            
+pass
+    
+plugin
+=
+hello
+(
+)
+    
+with
+pytest
+.
+raises
+(
+PluginValidationError
+match
+=
+"
+generator
+function
+"
+)
+as
+excinfo
+:
+        
+he_pm
+.
+register
+(
+plugin
+)
+    
+assert
+excinfo
+.
+value
+.
+plugin
+is
+plugin
+def
 test_register
 (
 pm
@@ -782,9 +822,6 @@ pm
     
 class
 MyPlugin
-(
-object
-)
 :
         
 pass
@@ -825,13 +862,10 @@ my2
 )
     
 assert
-set
-(
-[
+{
 my
 my2
-]
-)
+}
 .
 issubset
 (
@@ -892,9 +926,6 @@ pm
     
 class
 Plugin1
-(
-object
-)
 :
         
 hookimpl
@@ -925,9 +956,6 @@ Plugin1
     
 class
 Hooks
-(
-object
-)
 :
         
 hookspec
@@ -993,9 +1021,6 @@ pm
     
 class
 Hooks
-(
-object
-)
 :
         
 hookspec
@@ -1047,9 +1072,6 @@ out
     
 class
 Plugin
-(
-object
-)
 :
         
 hookimpl
@@ -1088,9 +1110,6 @@ out
     
 class
 Plugin2
-(
-object
-)
 :
         
 hookimpl
@@ -1246,9 +1265,6 @@ None
     
 class
 Hooks
-(
-object
-)
 :
         
 hookspec
@@ -1277,9 +1293,6 @@ Hooks
     
 class
 Plugin1
-(
-object
-)
 :
         
 hookimpl
@@ -1333,9 +1346,6 @@ arg
     
 class
 Plugin2
-(
-object
-)
 :
         
 hookimpl
@@ -1393,9 +1403,6 @@ pm
     
 class
 Hooks
-(
-object
-)
 :
         
 hookspec
@@ -1424,9 +1431,6 @@ Hooks
     
 class
 Plugin1
-(
-object
-)
 :
         
 hookimpl
@@ -1446,9 +1450,6 @@ arg
     
 class
 Plugin2
-(
-object
-)
 :
         
 hookimpl
@@ -1468,9 +1469,6 @@ arg
     
 class
 Plugin3
-(
-object
-)
 :
         
 hookimpl
@@ -1576,9 +1574,6 @@ pm
     
 class
 Hooks
-(
-object
-)
 :
         
 hookspec
@@ -1612,9 +1607,6 @@ out
     
 class
 Plugin
-(
-object
-)
 :
         
 hookimpl
@@ -1665,9 +1657,6 @@ pm
     
 class
 Hooks
-(
-object
-)
 :
         
 hookspec
@@ -1738,9 +1727,6 @@ pm
     
 class
 Hooks
-(
-object
-)
 :
         
 hookspec
@@ -1764,9 +1750,6 @@ Hooks
     
 class
 Plugin1
-(
-object
-)
 :
         
 hookimpl
@@ -1826,9 +1809,6 @@ pm
     
 class
 Hooks
-(
-object
-)
 :
         
 hookspec
@@ -1857,9 +1837,6 @@ out
     
 class
 Plugin1
-(
-object
-)
 :
         
 hookimpl
@@ -1881,9 +1858,6 @@ arg
     
 class
 Plugin2
-(
-object
-)
 :
         
 hookimpl
@@ -1907,9 +1881,6 @@ arg
     
 class
 PluginNo
-(
-object
-)
 :
         
 pass
@@ -2107,9 +2078,6 @@ pm
     
 class
 Hooks
-(
-object
-)
 :
         
 hookspec
@@ -2148,9 +2116,6 @@ get_hookimpls
     
 class
 Plugin1
-(
-object
-)
 :
         
 hookimpl
@@ -2167,9 +2132,6 @@ pass
     
 class
 Plugin2
-(
-object
-)
 :
         
 hookimpl
@@ -2186,9 +2148,6 @@ pass
     
 class
 PluginNo
-(
-object
-)
 :
         
 pass
@@ -2283,201 +2242,6 @@ add_hookspecs
 10
 )
 def
-test_reject_prefixed_module
-(
-pm
-)
-:
-    
-"
-"
-"
-Verify
-that
-a
-module
-type
-attribute
-that
-contains
-the
-project
-    
-prefix
-in
-its
-name
-(
-in
-this
-case
-'
-example_
-*
-'
-isn
-'
-t
-collected
-    
-when
-registering
-a
-module
-which
-imports
-it
-.
-    
-"
-"
-"
-    
-pm
-.
-_implprefix
-=
-"
-example
-"
-    
-conftest
-=
-types
-.
-ModuleType
-(
-"
-conftest
-"
-)
-    
-src
-=
-"
-"
-"
-def
-example_hook
-(
-)
-:
-    
-pass
-"
-"
-"
-    
-exec
-(
-src
-conftest
-.
-__dict__
-)
-    
-conftest
-.
-example_blah
-=
-types
-.
-ModuleType
-(
-"
-example_blah
-"
-)
-    
-with
-pytest
-.
-deprecated_call
-(
-)
-:
-        
-name
-=
-pm
-.
-register
-(
-conftest
-)
-    
-assert
-name
-=
-=
-"
-conftest
-"
-    
-assert
-getattr
-(
-pm
-.
-hook
-"
-example_blah
-"
-None
-)
-is
-None
-    
-assert
-getattr
-(
-        
-pm
-.
-hook
-"
-example_hook
-"
-None
-    
-)
-    
-with
-pytest
-.
-deprecated_call
-(
-)
-:
-        
-assert
-pm
-.
-parse_hookimpl_opts
-(
-conftest
-"
-example_blah
-"
-)
-is
-None
-        
-assert
-pm
-.
-parse_hookimpl_opts
-(
-conftest
-"
-example_hook
-"
-)
-=
-=
-{
-}
-def
 test_load_setuptools_instantiation
 (
 monkeypatch
@@ -2487,9 +2251,6 @@ pm
     
 class
 EntryPoint
-(
-object
-)
 :
         
 name
@@ -2521,9 +2282,6 @@ self
             
 class
 PseudoPlugin
-(
-object
-)
 :
                 
 x
@@ -2537,9 +2295,6 @@ PseudoPlugin
     
 class
 Distribution
-(
-object
-)
 :
         
 entry_points
@@ -2699,9 +2454,6 @@ out
     
 class
 api1
-(
-object
-)
 :
         
 hookimpl
@@ -2726,9 +2478,6 @@ api1
     
 class
 api2
-(
-object
-)
 :
         
 hookimpl
@@ -2984,9 +2733,6 @@ saveindent
     
 class
 api1
-(
-object
-)
 :
         
 hookimpl
@@ -3013,9 +2759,6 @@ indent
     
 class
 api2
-(
-object
-)
 :
         
 hookimpl
@@ -3206,243 +2949,5 @@ finally
 :
         
 undo
-(
-)
-def
-test_implprefix_warning
-(
-recwarn
-)
-:
-    
-PluginManager
-(
-hookspec
-.
-project_name
-"
-hello_
-"
-)
-    
-w
-=
-recwarn
-.
-pop
-(
-DeprecationWarning
-)
-    
-assert
-"
-test_pluginmanager
-.
-py
-"
-in
-w
-.
-filename
-pytest
-.
-mark
-.
-parametrize
-(
-"
-include_hookspec
-"
-[
-True
-False
-]
-)
-def
-test_prefix_hookimpl
-(
-include_hookspec
-)
-:
-    
-with
-pytest
-.
-deprecated_call
-(
-)
-:
-        
-pm
-=
-PluginManager
-(
-hookspec
-.
-project_name
-"
-hello_
-"
-)
-    
-if
-include_hookspec
-:
-        
-class
-HookSpec
-(
-object
-)
-:
-            
-hookspec
-            
-def
-hello_myhook
-(
-self
-arg1
-)
-:
-                
-"
-"
-"
-add
-to
-arg1
-"
-"
-"
-        
-pm
-.
-add_hookspecs
-(
-HookSpec
-)
-    
-class
-Plugin
-(
-object
-)
-:
-        
-def
-hello_myhook
-(
-self
-arg1
-)
-:
-            
-return
-arg1
-+
-1
-    
-with
-pytest
-.
-deprecated_call
-(
-)
-:
-        
-pm
-.
-register
-(
-Plugin
-(
-)
-)
-        
-pm
-.
-register
-(
-Plugin
-(
-)
-)
-    
-results
-=
-pm
-.
-hook
-.
-hello_myhook
-(
-arg1
-=
-17
-)
-    
-assert
-results
-=
-=
-[
-18
-18
-]
-def
-test_prefix_hookimpl_dontmatch_module
-(
-)
-:
-    
-with
-pytest
-.
-deprecated_call
-(
-)
-:
-        
-pm
-=
-PluginManager
-(
-hookspec
-.
-project_name
-"
-hello_
-"
-)
-    
-class
-BadPlugin
-(
-object
-)
-:
-        
-hello_module
-=
-__import__
-(
-"
-email
-"
-)
-    
-pm
-.
-register
-(
-BadPlugin
-(
-)
-)
-    
-pm
-.
-check_pending
 (
 )

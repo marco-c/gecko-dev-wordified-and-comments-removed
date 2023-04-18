@@ -89,6 +89,7 @@ N
     
 )
 print
+(
 doc
 .
 unicode
@@ -103,4 +104,5 @@ encode
 '
 utf8
 '
+)
 )

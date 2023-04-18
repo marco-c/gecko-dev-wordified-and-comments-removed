@@ -149,34 +149,26 @@ x
 y
 pytest
 -
-6
-.
-x
-.
-y
-py
--
-1
+7
 .
 x
 .
 y
 pluggy
 -
-0
+1
 .
 x
 .
 y
-cachedir
-:
-PYTHON_PREFIX
-/
-.
-pytest_cache
 rootdir
 :
-REGENDOC_TMPDIR
+/
+home
+/
+sweet
+/
+project
 /
 assertion
 collected
@@ -331,7 +323,7 @@ failure_demo
 TestFailing
 object
 at
-0xdeadbeef
+0xdeadbeef0001
 >
 def
 test_simple
@@ -386,7 +378,7 @@ locals
 .
 f
 at
-0xdeadbeef
+0xdeadbeef0002
 >
 (
 )
@@ -407,7 +399,7 @@ locals
 .
 g
 at
-0xdeadbeef
+0xdeadbeef0003
 >
 (
 )
@@ -431,7 +423,7 @@ failure_demo
 TestFailing
 object
 at
-0xdeadbeef
+0xdeadbeef0004
 >
 def
 test_simple_multiline
@@ -536,7 +528,7 @@ failure_demo
 TestFailing
 object
 at
-0xdeadbeef
+0xdeadbeef0005
 >
 def
 test_not
@@ -578,7 +570,7 @@ locals
 .
 f
 at
-0xdeadbeef
+0xdeadbeef0006
 >
 (
 )
@@ -602,7 +594,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef0007
 >
 def
 test_eq_text
@@ -658,7 +650,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef0008
 >
 def
 test_eq_similar_text
@@ -732,7 +724,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef0009
 >
 def
 test_eq_multiline_text
@@ -808,7 +800,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef000a
 >
 def
 test_eq_long_text
@@ -934,7 +926,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef000b
 >
 def
 test_eq_long_text_multiline
@@ -1121,7 +1113,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef000c
 >
 def
 test_eq_list
@@ -1196,7 +1188,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef000d
 >
 def
 test_eq_list_long
@@ -1309,7 +1301,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef000e
 >
 def
 test_eq_dict
@@ -1499,7 +1491,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef000f
 >
 def
 test_eq_set
@@ -1608,7 +1600,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef0010
 >
 def
 test_eq_longer_list
@@ -1679,7 +1671,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef0011
 >
 def
 test_in_list
@@ -1729,7 +1721,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef0012
 >
 def
 test_not_in_text_multiline
@@ -1852,7 +1844,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef0013
 >
 def
 test_not_in_text_single
@@ -1926,7 +1918,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef0014
 >
 def
 test_not_in_text_single_long
@@ -2036,7 +2028,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef0015
 >
 def
 test_not_in_text_single_long_term
@@ -2224,7 +2216,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef0016
 >
 def
 test_eq_dataclass
@@ -2390,7 +2382,7 @@ failure_demo
 TestSpecialisedExplanations
 object
 at
-0xdeadbeef
+0xdeadbeef0017
 >
 def
 test_eq_attrs
@@ -2593,7 +2585,7 @@ locals
 Foo
 object
 at
-0xdeadbeef
+0xdeadbeef0018
 >
 .
 b
@@ -2653,7 +2645,7 @@ locals
 Foo
 object
 at
-0xdeadbeef
+0xdeadbeef0019
 >
 .
 b
@@ -2672,7 +2664,7 @@ locals
 Foo
 object
 at
-0xdeadbeef
+0xdeadbeef0019
 >
 =
 <
@@ -2802,7 +2794,7 @@ locals
 Foo
 object
 at
-0xdeadbeef
+0xdeadbeef001a
 >
 def
 _get_b
@@ -2894,7 +2886,7 @@ locals
 Foo
 object
 at
-0xdeadbeef
+0xdeadbeef001b
 >
 .
 b
@@ -2913,7 +2905,7 @@ locals
 Foo
 object
 at
-0xdeadbeef
+0xdeadbeef001b
 >
 =
 <
@@ -2949,7 +2941,7 @@ locals
 Bar
 object
 at
-0xdeadbeef
+0xdeadbeef001c
 >
 .
 b
@@ -2968,7 +2960,7 @@ locals
 Bar
 object
 at
-0xdeadbeef
+0xdeadbeef001c
 >
 =
 <
@@ -3007,7 +2999,7 @@ failure_demo
 TestRaises
 object
 at
-0xdeadbeef
+0xdeadbeef001d
 >
 def
 test_raises
@@ -3063,7 +3055,7 @@ failure_demo
 TestRaises
 object
 at
-0xdeadbeef
+0xdeadbeef001e
 >
 def
 test_raises_doesnt
@@ -3112,7 +3104,7 @@ failure_demo
 TestRaises
 object
 at
-0xdeadbeef
+0xdeadbeef001f
 >
 def
 test_raise
@@ -3154,7 +3146,7 @@ failure_demo
 TestRaises
 object
 at
-0xdeadbeef
+0xdeadbeef0020
 >
 def
 test_tupleerror
@@ -3205,7 +3197,7 @@ failure_demo
 TestRaises
 object
 at
-0xdeadbeef
+0xdeadbeef0021
 >
 def
 test_reinterpret_fails_with_print_for_the_fun_of_it
@@ -3222,19 +3214,16 @@ items
 ]
 print
 (
+f
 "
 items
 is
 {
+items
 !
 r
 }
 "
-.
-format
-(
-items
-)
 )
 >
 a
@@ -3339,7 +3328,7 @@ failure_demo
 TestRaises
 object
 at
-0xdeadbeef
+0xdeadbeef0022
 >
 def
 test_some_error
@@ -3533,7 +3522,7 @@ failure_demo
 TestMoreErrors
 object
 at
-0xdeadbeef
+0xdeadbeef0023
 >
 def
 test_complex_error
@@ -3705,7 +3694,7 @@ failure_demo
 TestMoreErrors
 object
 at
-0xdeadbeef
+0xdeadbeef0024
 >
 def
 test_z1_unpack_error
@@ -3756,7 +3745,7 @@ failure_demo
 TestMoreErrors
 object
 at
-0xdeadbeef
+0xdeadbeef0025
 >
 def
 test_z2_type_error
@@ -3802,7 +3791,7 @@ failure_demo
 TestMoreErrors
 object
 at
-0xdeadbeef
+0xdeadbeef0026
 >
 def
 test_startswith
@@ -3848,7 +3837,7 @@ of
 str
 object
 at
-0xdeadbeef
+0xdeadbeef0027
 >
 (
 '
@@ -3868,7 +3857,7 @@ of
 str
 object
 at
-0xdeadbeef
+0xdeadbeef0027
 >
 =
 '
@@ -3896,7 +3885,7 @@ failure_demo
 TestMoreErrors
 object
 at
-0xdeadbeef
+0xdeadbeef0028
 >
 def
 test_startswith_nested
@@ -3954,7 +3943,7 @@ of
 str
 object
 at
-0xdeadbeef
+0xdeadbeef0027
 >
 (
 '
@@ -3974,7 +3963,7 @@ of
 str
 object
 at
-0xdeadbeef
+0xdeadbeef0027
 >
 =
 '
@@ -4001,7 +3990,7 @@ locals
 .
 f
 at
-0xdeadbeef
+0xdeadbeef0029
 >
 (
 )
@@ -4024,7 +4013,7 @@ locals
 .
 g
 at
-0xdeadbeef
+0xdeadbeef002a
 >
 (
 )
@@ -4048,7 +4037,7 @@ failure_demo
 TestMoreErrors
 object
 at
-0xdeadbeef
+0xdeadbeef002b
 >
 def
 test_global_func
@@ -4108,7 +4097,7 @@ failure_demo
 TestMoreErrors
 object
 at
-0xdeadbeef
+0xdeadbeef002c
 >
 def
 test_instance
@@ -4148,7 +4137,7 @@ failure_demo
 TestMoreErrors
 object
 at
-0xdeadbeef
+0xdeadbeef002c
 >
 .
 x
@@ -4172,7 +4161,7 @@ failure_demo
 TestMoreErrors
 object
 at
-0xdeadbeef
+0xdeadbeef002d
 >
 def
 test_compare
@@ -4222,7 +4211,7 @@ failure_demo
 TestMoreErrors
 object
 at
-0xdeadbeef
+0xdeadbeef002e
 >
 def
 test_try_finally
@@ -4267,7 +4256,7 @@ failure_demo
 TestCustomAssertMsg
 object
 at
-0xdeadbeef
+0xdeadbeef002f
 >
 def
 test_single_line
@@ -4362,7 +4351,7 @@ failure_demo
 TestCustomAssertMsg
 object
 at
-0xdeadbeef
+0xdeadbeef0030
 >
 def
 test_multiline
@@ -4483,7 +4472,7 @@ failure_demo
 TestCustomAssertMsg
 object
 at
-0xdeadbeef
+0xdeadbeef0031
 >
 def
 test_custom_repr

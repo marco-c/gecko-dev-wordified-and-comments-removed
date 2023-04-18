@@ -22,16 +22,27 @@ import
 List
 import
 pytest
+from
+_pytest
+.
+pytester
+import
+Pytester
 def
 test_module_and_function_setup
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -199,13 +210,18 @@ passed
 def
 test_module_setup_failure_no_teardown
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -304,13 +320,18 @@ values
 def
 test_setup_function_failure_no_teardown
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -400,13 +421,18 @@ modlevel
 def
 test_class_setup
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -539,13 +565,18 @@ passed
 def
 test_class_setup_failure_no_teardown
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -634,13 +665,18 @@ passed
 def
 test_method_setup
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -734,13 +770,18 @@ passed
 def
 test_method_setup_failure_no_teardown
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -844,13 +885,18 @@ passed
 def
 test_method_setup_uses_fresh_instances
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -925,13 +971,18 @@ failed
 def
 test_setup_that_skips_calledagain
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -983,7 +1034,7 @@ pass
     
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1001,13 +1052,18 @@ skipped
 def
 test_setup_fails_again_on_all_tests
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1056,7 +1112,7 @@ pass
     
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1074,13 +1130,18 @@ failed
 def
 test_setup_funcarg_setup_when_outer_scope_fails
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1150,7 +1211,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1238,8 +1299,12 @@ def
 test_setup_teardown_function_level_with_optional_argument
 (
     
-testdir
+pytester
+:
+Pytester
+    
 monkeypatch
+    
 arg
 :
 str
@@ -1278,6 +1343,11 @@ import
 sys
     
 trace_setups_teardowns
+:
+List
+[
+str
+]
 =
 [
 ]
@@ -1300,7 +1370,7 @@ False
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1469,7 +1539,7 @@ arg
     
 result
 =
-testdir
+pytester
 .
 inline_run
 (

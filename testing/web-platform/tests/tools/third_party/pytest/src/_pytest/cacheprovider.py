@@ -15,6 +15,10 @@ json
 import
 os
 from
+pathlib
+import
+Path
+from
 typing
 import
 Dict
@@ -44,15 +48,6 @@ import
 Union
 import
 attr
-import
-py
-import
-pytest
-from
-.
-pathlib
-import
-Path
 from
 .
 pathlib
@@ -87,12 +82,6 @@ final
 from
 _pytest
 .
-compat
-import
-order_preserving_dict
-from
-_pytest
-.
 config
 import
 Config
@@ -106,10 +95,28 @@ from
 _pytest
 .
 config
+import
+hookimpl
+from
+_pytest
+.
+config
 .
 argparsing
 import
 Parser
+from
+_pytest
+.
+deprecated
+import
+check_ispytest
+from
+_pytest
+.
+fixtures
+import
+fixture
 from
 _pytest
 .
@@ -128,6 +135,12 @@ _pytest
 python
 import
 Module
+from
+_pytest
+.
+python
+import
+Package
 from
 _pytest
 .
@@ -206,6 +219,10 @@ en
 /
 stable
 /
+how
+-
+to
+/
 cache
 .
 html
@@ -249,12 +266,10 @@ tags
 see
 :
 #
-http
+https
 :
 /
 /
-www
-.
 bford
 .
 info
@@ -271,33 +286,39 @@ final
 attr
 .
 s
+(
+init
+=
+False
+auto_attribs
+=
+True
+)
 class
 Cache
 :
     
 _cachedir
+:
+Path
 =
 attr
 .
 ib
 (
-type
-=
-Path
 repr
 =
 False
 )
     
 _config
+:
+Config
 =
 attr
 .
 ib
 (
-type
-=
-Config
 repr
 =
 False
@@ -315,6 +336,47 @@ _CACHE_PREFIX_VALUES
 v
 "
     
+def
+__init__
+(
+        
+self
+cachedir
+:
+Path
+config
+:
+Config
+*
+_ispytest
+:
+bool
+=
+False
+    
+)
+-
+>
+None
+:
+        
+check_ispytest
+(
+_ispytest
+)
+        
+self
+.
+_cachedir
+=
+cachedir
+        
+self
+.
+_config
+=
+config
+    
 classmethod
     
 def
@@ -324,6 +386,12 @@ cls
 config
 :
 Config
+*
+_ispytest
+:
+bool
+=
+False
 )
 -
 >
@@ -332,6 +400,32 @@ Cache
 "
 :
         
+"
+"
+"
+Create
+the
+Cache
+instance
+for
+a
+Config
+.
+        
+:
+meta
+private
+:
+        
+"
+"
+"
+        
+check_ispytest
+(
+_ispytest
+)
+        
 cachedir
 =
 cls
@@ -339,6 +433,9 @@ cls
 cache_dir_from_config
 (
 config
+_ispytest
+=
+True
 )
         
 if
@@ -363,6 +460,9 @@ cls
 clear_cache
 (
 cachedir
+_ispytest
+=
+True
 )
         
 return
@@ -370,6 +470,9 @@ cls
 (
 cachedir
 config
+_ispytest
+=
+True
 )
     
 classmethod
@@ -381,6 +484,11 @@ cls
 cachedir
 :
 Path
+_ispytest
+:
+bool
+=
+False
 )
 -
 >
@@ -403,9 +511,20 @@ directories
 and
 values
 .
+        
+:
+meta
+private
+:
+        
 "
 "
 "
+        
+check_ispytest
+(
+_ispytest
+)
         
 for
 prefix
@@ -447,11 +566,46 @@ cache_dir_from_config
 config
 :
 Config
+*
+_ispytest
+:
+bool
+=
+False
 )
 -
 >
 Path
 :
+        
+"
+"
+"
+Get
+the
+path
+to
+the
+cache
+directory
+for
+a
+Config
+.
+        
+:
+meta
+private
+:
+        
+"
+"
+"
+        
+check_ispytest
+(
+_ispytest
+)
         
 return
 resolve_from_str
@@ -477,6 +631,12 @@ fmt
 :
 str
 *
+_ispytest
+:
+bool
+=
+False
+*
 *
 args
 :
@@ -486,6 +646,29 @@ object
 >
 None
 :
+        
+"
+"
+"
+Issue
+a
+cache
+warning
+.
+        
+:
+meta
+private
+:
+        
+"
+"
+"
+        
+check_ispytest
+(
+_ispytest
+)
         
 import
 warnings
@@ -531,7 +714,7 @@ stacklevel
 )
     
 def
-makedir
+mkdir
 (
 self
 name
@@ -540,11 +723,7 @@ str
 )
 -
 >
-py
-.
-path
-.
-local
+Path
 :
         
 "
@@ -596,6 +775,15 @@ test
         
 sessions
 .
+        
+.
+.
+versionadded
+:
+:
+7
+.
+0
         
 :
 param
@@ -697,14 +885,7 @@ True
 )
         
 return
-py
-.
-path
-.
-local
-(
 res
-)
     
 def
 _getvaluepath
@@ -1033,6 +1214,9 @@ path
 path
 =
 path
+_ispytest
+=
+True
 )
             
 return
@@ -1058,9 +1242,6 @@ value
 indent
 =
 2
-sort_keys
-=
-True
 )
         
 try
@@ -1098,6 +1279,9 @@ path
 path
 =
 path
+_ispytest
+=
+True
 )
         
 else
@@ -1262,8 +1446,6 @@ _collected_at_least_one_failure
 =
 False
     
-pytest
-.
 hookimpl
 (
 hookwrapper
@@ -1296,6 +1478,8 @@ out
 yield
             
 res
+:
+CollectReport
 =
 out
 .
@@ -1321,26 +1505,21 @@ sorted
 res
 .
 result
+                
 key
 =
 lambda
 x
 :
-0
-if
-Path
-(
-str
-(
 x
 .
-fspath
-)
-)
+path
 in
 lf_paths
-else
-1
+                
+reverse
+=
+True
             
 )
             
@@ -1355,15 +1534,9 @@ Module
 :
             
 if
-Path
-(
-str
-(
 collector
 .
-fspath
-)
-)
+path
 in
 self
 .
@@ -1488,7 +1661,7 @@ isinitpath
 (
 x
 .
-fspath
+path
 )
                     
 or
@@ -1530,8 +1703,6 @@ lfplugin
 =
 lfplugin
     
-pytest
-.
 hookimpl
     
 def
@@ -1560,18 +1731,19 @@ isinstance
 collector
 Module
 )
+and
+not
+isinstance
+(
+collector
+Package
+)
 :
             
 if
-Path
-(
-str
-(
 collector
 .
-fspath
-)
-)
+path
 not
 in
 self
@@ -1692,6 +1864,12 @@ cache
 self
 .
 lastfailed
+:
+Dict
+[
+str
+bool
+]
 =
 config
 .
@@ -1699,7 +1877,6 @@ cache
 .
 get
 (
-            
 "
 cache
 /
@@ -1707,18 +1884,27 @@ lastfailed
 "
 {
 }
-        
 )
         
 self
 .
 _previously_failed_count
+:
+Optional
+[
+int
+]
 =
 None
         
 self
 .
 _report_status
+:
+Optional
+[
+str
+]
 =
 None
         
@@ -2053,8 +2239,6 @@ nodeid
 =
 True
     
-pytest
-.
 hookimpl
 (
 hookwrapper
@@ -2622,8 +2806,6 @@ nodeids
 )
 )
     
-pytest
-.
 hookimpl
 (
 hookwrapper
@@ -2668,16 +2850,30 @@ active
 :
             
 new_items
+:
+Dict
+[
+str
+nodes
+.
+Item
+]
 =
-order_preserving_dict
-(
-)
+{
+}
             
 other_items
+:
+Dict
+[
+str
+nodes
+.
+Item
+]
 =
-order_preserving_dict
-(
-)
+{
+}
             
 for
 item
@@ -2807,11 +3003,13 @@ item
 :
 item
 .
-fspath
+path
 .
-mtime
+stat
 (
 )
+.
+st_mtime
 reverse
 =
 True
@@ -3382,8 +3580,6 @@ cacheshow
     
 return
 None
-pytest
-.
 hookimpl
 (
 tryfirst
@@ -3411,6 +3607,9 @@ Cache
 for_config
 (
 config
+_ispytest
+=
+True
 )
     
 config
@@ -3442,8 +3641,6 @@ config
 nfplugin
 "
 )
-pytest
-.
 fixture
 def
 cache
@@ -3651,17 +3848,14 @@ displaypath
 cachedir
         
 return
+f
 "
 cachedir
 :
 {
+displaypath
 }
 "
-.
-format
-(
-displaypath
-)
     
 return
 None
@@ -3996,8 +4190,10 @@ tw
 .
 line
 (
+f
 "
 {
+key
 }
 is
 a
@@ -4005,14 +4201,6 @@ file
 of
 length
 {
-:
-d
-}
-"
-.
-format
-(
-key
 p
 .
 stat
@@ -4020,7 +4208,10 @@ stat
 )
 .
 st_size
-)
+:
+d
+}
+"
 )
     
 return

@@ -8,8 +8,10 @@ import
 subprocess
 import
 sys
+from
+pathlib
 import
-py
+Path
 import
 pytest
 from
@@ -28,6 +30,18 @@ config
 exceptions
 import
 UsageError
+from
+_pytest
+.
+monkeypatch
+import
+MonkeyPatch
+from
+_pytest
+.
+pytester
+import
+Pytester
 pytest
 .
 fixture
@@ -47,6 +61,9 @@ parseopt
 .
 Parser
 (
+_ispytest
+=
+True
 )
 class
 TestParser
@@ -73,6 +90,9 @@ usage
 "
 xyz
 "
+_ispytest
+=
+True
 )
         
 pytest
@@ -829,6 +849,9 @@ OptionGroup
 "
 hello
 "
+_ispytest
+=
+True
 )
         
 group
@@ -892,6 +915,9 @@ OptionGroup
 hello
 again
 "
+_ispytest
+=
+True
 )
         
 group
@@ -1218,12 +1244,11 @@ parser
 parse
 (
 [
-py
-.
-path
-.
-local
+Path
 (
+"
+.
+"
 )
 ]
 )
@@ -1241,13 +1266,9 @@ FILE_OR_DIR
 ]
 =
 =
-py
+"
 .
-path
-.
-local
-(
-)
+"
     
 def
 test_parse_known_args
@@ -1269,12 +1290,11 @@ parser
 parse_known_args
 (
 [
-py
-.
-path
-.
-local
+Path
 (
+"
+.
+"
 )
 ]
 )
@@ -1953,6 +1973,9 @@ Parser
 processopt
 =
 defaultget
+_ispytest
+=
+True
 )
         
 parser
@@ -3106,8 +3129,12 @@ help
 def
 test_argcomplete
 (
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 )
 -
 >
@@ -3206,11 +3233,11 @@ script
 =
 str
 (
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 test_argcomplete
@@ -3374,7 +3401,7 @@ arg
     
 result
 =
-testdir
+pytester
 .
 run
 (
@@ -3536,7 +3563,7 @@ arg
     
 result
 =
-testdir
+pytester
 .
 run
 (

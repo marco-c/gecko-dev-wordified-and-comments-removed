@@ -286,6 +286,10 @@ stable
 /
 example
 /
+how
+-
+to
+/
 parametrize
 .
 html

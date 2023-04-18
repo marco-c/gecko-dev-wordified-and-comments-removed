@@ -42,7 +42,7 @@ branch
 from
 upstream
 /
-master
+main
 "
 "
 "
@@ -72,7 +72,6 @@ True
 raise
 RuntimeError
 (
-f
 "
 Repository
 is
@@ -114,7 +113,7 @@ branch_name
 branch
 from
 upstream
-master
+main
 "
 )
     
@@ -142,7 +141,7 @@ upstream
 .
 refs
 .
-master
+main
 force
 =
 True

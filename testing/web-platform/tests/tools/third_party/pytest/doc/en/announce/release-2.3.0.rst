@@ -216,7 +216,9 @@ en
 /
 stable
 /
-fixture
+explanation
+/
+fixtures
 .
 html
 Moreover
@@ -251,6 +253,10 @@ org
 en
 /
 stable
+/
+how
+-
+to
 /
 unittest
 .

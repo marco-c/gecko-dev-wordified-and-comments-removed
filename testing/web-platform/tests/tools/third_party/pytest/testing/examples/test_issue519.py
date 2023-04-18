@@ -1,11 +1,22 @@
+from
+_pytest
+.
+pytester
+import
+Pytester
 def
-test_510
+test_519
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 copy_example
 (
@@ -16,7 +27,9 @@ py
 "
 )
     
-testdir
+res
+=
+pytester
 .
 runpytest
 (
@@ -25,4 +38,13 @@ issue_519
 .
 py
 "
+)
+    
+res
+.
+assert_outcomes
+(
+passed
+=
+8
 )

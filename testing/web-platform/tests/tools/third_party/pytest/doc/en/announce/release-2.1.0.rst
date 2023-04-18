@@ -222,6 +222,10 @@ en
 /
 stable
 /
+how
+-
+to
+/
 assert
 .
 html
@@ -282,13 +286,14 @@ best
 holger
 krekel
 /
-http
+https
 :
 /
 /
 merlinux
 .
 eu
+/
 Changes
 between
 2

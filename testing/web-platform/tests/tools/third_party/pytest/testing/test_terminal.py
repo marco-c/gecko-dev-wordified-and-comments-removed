@@ -25,6 +25,14 @@ io
 import
 StringIO
 from
+pathlib
+import
+Path
+from
+types
+import
+SimpleNamespace
+from
 typing
 import
 cast
@@ -42,8 +50,6 @@ import
 Tuple
 import
 pluggy
-import
-py
 import
 _pytest
 .
@@ -83,15 +89,9 @@ MonkeyPatch
 from
 _pytest
 .
-pathlib
-import
-Path
-from
-_pytest
-.
 pytester
 import
-Testdir
+Pytester
 from
 _pytest
 .
@@ -107,6 +107,12 @@ CollectReport
 from
 _pytest
 .
+reports
+import
+TestReport
+from
+_pytest
+.
 terminal
 import
 _folded_skips
@@ -115,7 +121,19 @@ _pytest
 .
 terminal
 import
+_format_trimmed
+from
+_pytest
+.
+terminal
+import
 _get_line_with_reprcrash_message
+from
+_pytest
+.
+terminal
+import
+_get_raw_skip_reason
 from
 _pytest
 .
@@ -448,12 +466,17 @@ def
 test_pass_skip_fail
 (
 self
-testdir
+pytester
+:
+Pytester
 option
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -505,7 +528,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -651,14 +674,19 @@ def
 test_internalerror
 (
 self
-testdir
+pytester
+:
+Pytester
 linecomp
 )
+-
+>
+None
 :
         
 modcol
 =
-testdir
+pytester
 .
 getmodulecol
 (
@@ -737,14 +765,19 @@ def
 test_writeline
 (
 self
-testdir
+pytester
+:
+Pytester
 linecomp
 )
+-
+>
+None
 :
         
 modcol
 =
-testdir
+pytester
 .
 getmodulecol
 (
@@ -852,14 +885,19 @@ def
 test_show_runtest_logstart
 (
 self
-testdir
+pytester
+:
+Pytester
 linecomp
 )
+-
+>
+None
 :
         
 item
 =
-testdir
+pytester
 .
 getitem
 (
@@ -929,7 +967,7 @@ str
 (
 item
 .
-fspath
+path
 )
         
 )
@@ -952,12 +990,19 @@ py
 def
 test_runtest_location_shown_before_test_starts
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -990,7 +1035,7 @@ sleep
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -1028,9 +1073,19 @@ kill
 def
 test_report_collect_after_half_a_second
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+monkeypatch
+:
+MonkeyPatch
+    
 )
+-
+>
+None
 :
         
 "
@@ -1051,7 +1106,7 @@ after
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1114,8 +1169,6 @@ pass
         
 )
         
-testdir
-.
 monkeypatch
 .
 setenv
@@ -1130,7 +1183,7 @@ PY_COLORS
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -1241,12 +1294,19 @@ rest
 def
 test_itemreport_subclasses_show_subclassed_file
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1363,7 +1423,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1412,7 +1472,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1502,7 +1562,7 @@ test_p1
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1656,14 +1716,21 @@ in
 def
 test_itemreport_directclasses_not_shown_as_subclasses
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 a
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -1674,7 +1741,7 @@ a123
         
 a
 .
-join
+joinpath
 (
 "
 test_hello123
@@ -1683,7 +1750,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -1722,7 +1789,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1799,12 +1866,17 @@ def
 test_keyboard_interrupt
 (
 self
-testdir
+pytester
+:
+Pytester
 fulltrace
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1864,7 +1936,7 @@ user
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1996,11 +2068,16 @@ def
 test_keyboard_in_sessionstart
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2024,7 +2101,7 @@ KeyboardInterrupt
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2049,7 +2126,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2085,8 +2162,13 @@ def
 test_collect_single_item
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -2107,7 +2189,7 @@ item
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2132,7 +2214,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2157,14 +2239,19 @@ def
 test_rewrite
 (
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
 )
+-
+>
+None
 :
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -2261,9 +2348,12 @@ test_report_teststatus_explicit_markup
 (
         
 self
-testdir
+monkeypatch
 :
-Testdir
+MonkeyPatch
+pytester
+:
+Pytester
 color_mapping
     
 )
@@ -2292,8 +2382,6 @@ hook
 "
 "
         
-testdir
-.
 monkeypatch
 .
 setenv
@@ -2306,7 +2394,7 @@ PY_COLORS
 "
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2348,7 +2436,7 @@ True
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2373,7 +2461,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2410,6 +2498,372 @@ reset
 )
         
 )
+    
+def
+test_verbose_skip_reason
+(
+self
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+        
+pytester
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+pytest
+.
+mark
+.
+skip
+(
+reason
+=
+"
+123
+"
+)
+            
+def
+test_1
+(
+)
+:
+                
+pass
+            
+pytest
+.
+mark
+.
+xfail
+(
+reason
+=
+"
+456
+"
+)
+            
+def
+test_2
+(
+)
+:
+                
+pass
+            
+pytest
+.
+mark
+.
+xfail
+(
+reason
+=
+"
+789
+"
+)
+            
+def
+test_3
+(
+)
+:
+                
+assert
+False
+            
+pytest
+.
+mark
+.
+xfail
+(
+reason
+=
+"
+"
+)
+            
+def
+test_4
+(
+)
+:
+                
+assert
+False
+            
+pytest
+.
+mark
+.
+skip
+            
+def
+test_5
+(
+)
+:
+                
+pass
+            
+pytest
+.
+mark
+.
+xfail
+            
+def
+test_6
+(
+)
+:
+                
+pass
+            
+def
+test_7
+(
+)
+:
+                
+pytest
+.
+skip
+(
+)
+            
+def
+test_8
+(
+)
+:
+                
+pytest
+.
+skip
+(
+"
+888
+is
+great
+"
+)
+            
+def
+test_9
+(
+)
+:
+                
+pytest
+.
+xfail
+(
+)
+            
+def
+test_10
+(
+)
+:
+                
+pytest
+.
+xfail
+(
+"
+It
+'
+s
+o
+'
+clock
+"
+)
+        
+"
+"
+"
+        
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+v
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+            
+[
+                
+"
+test_verbose_skip_reason
+.
+py
+:
+:
+test_1
+SKIPPED
+(
+123
+)
+*
+"
+                
+"
+test_verbose_skip_reason
+.
+py
+:
+:
+test_2
+XPASS
+(
+456
+)
+*
+"
+                
+"
+test_verbose_skip_reason
+.
+py
+:
+:
+test_3
+XFAIL
+(
+789
+)
+*
+"
+                
+"
+test_verbose_skip_reason
+.
+py
+:
+:
+test_4
+XFAIL
+*
+"
+                
+"
+test_verbose_skip_reason
+.
+py
+:
+:
+test_5
+SKIPPED
+(
+unconditional
+skip
+)
+*
+"
+                
+"
+test_verbose_skip_reason
+.
+py
+:
+:
+test_6
+XPASS
+*
+"
+                
+"
+test_verbose_skip_reason
+.
+py
+:
+:
+test_7
+SKIPPED
+*
+"
+                
+"
+test_verbose_skip_reason
+.
+py
+:
+:
+test_8
+SKIPPED
+(
+888
+is
+great
+)
+*
+"
+                
+"
+test_verbose_skip_reason
+.
+py
+:
+:
+test_9
+XFAIL
+*
+"
+                
+"
+test_verbose_skip_reason
+.
+py
+:
+:
+test_10
+XFAIL
+(
+It
+'
+s
+o
+'
+clock
+)
+*
+"
+            
+]
+        
+)
 class
 TestCollectonly
 :
@@ -2418,11 +2872,16 @@ def
 test_collectonly_basic
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2447,7 +2906,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2490,11 +2949,16 @@ def
 test_collectonly_skipped_module
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2523,7 +2987,7 @@ hello
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2561,9 +3025,9 @@ test_collectonly_displays_test_description
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 dummy_yaml_custom_test
     
 )
@@ -2587,7 +3051,7 @@ obj
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2629,7 +3093,7 @@ more2
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2724,11 +3188,16 @@ def
 test_collectonly_failed_module
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2747,7 +3216,7 @@ ValueError
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2786,11 +3255,16 @@ def
 test_collectonly_fatal
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2820,7 +3294,7 @@ urgs
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2862,13 +3336,18 @@ def
 test_collectonly_simple
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2909,7 +3388,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2982,13 +3461,18 @@ def
 test_collectonly_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3000,7 +3484,7 @@ Errlkjqweqwe
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3076,8 +3560,13 @@ def
 test_collectonly_missing_path
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -3106,7 +3595,7 @@ attribute
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3158,11 +3647,16 @@ def
 test_collectonly_quiet
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3178,7 +3672,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3214,11 +3708,16 @@ def
 test_collectonly_more_quiet
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3236,7 +3735,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3271,6 +3770,471 @@ py
 "
 ]
 )
+    
+def
+test_collect_only_summary_status
+(
+self
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+        
+"
+"
+"
+Custom
+status
+depending
+on
+test
+selection
+using
+-
+k
+or
+-
+m
+.
+#
+7701
+.
+"
+"
+"
+        
+pytester
+.
+makepyfile
+(
+            
+test_collect_foo
+=
+"
+"
+"
+            
+def
+test_foo
+(
+)
+:
+pass
+            
+"
+"
+"
+            
+test_collect_bar
+=
+"
+"
+"
+            
+def
+test_foobar
+(
+)
+:
+pass
+            
+def
+test_bar
+(
+)
+:
+pass
+            
+"
+"
+"
+        
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+collect
+-
+only
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+"
+*
+=
+=
+3
+tests
+collected
+in
+*
+=
+=
+*
+"
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+collect
+-
+only
+"
+"
+test_collect_foo
+.
+py
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+"
+*
+=
+=
+1
+test
+collected
+in
+*
+=
+=
+*
+"
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+collect
+-
+only
+"
+"
+-
+k
+"
+"
+foo
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+"
+*
+=
+=
+2
+/
+3
+tests
+collected
+(
+1
+deselected
+)
+in
+*
+=
+=
+*
+"
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+collect
+-
+only
+"
+"
+-
+k
+"
+"
+test_bar
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+"
+*
+=
+=
+1
+/
+3
+tests
+collected
+(
+2
+deselected
+)
+in
+*
+=
+=
+*
+"
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+collect
+-
+only
+"
+"
+-
+k
+"
+"
+invalid
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+"
+*
+=
+=
+no
+tests
+collected
+(
+3
+deselected
+)
+in
+*
+=
+=
+*
+"
+)
+        
+pytester
+.
+mkdir
+(
+"
+no_tests_here
+"
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+collect
+-
+only
+"
+"
+no_tests_here
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+"
+*
+=
+=
+no
+tests
+collected
+in
+*
+=
+=
+*
+"
+)
+        
+pytester
+.
+makepyfile
+(
+            
+test_contains_error
+=
+"
+"
+"
+            
+raise
+RuntimeError
+            
+"
+"
+"
+        
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+collect
+-
+only
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+"
+*
+=
+=
+3
+tests
+collected
+1
+error
+in
+*
+=
+=
+*
+"
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+collect
+-
+only
+"
+"
+-
+k
+"
+"
+foo
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+            
+"
+*
+=
+=
+2
+/
+3
+tests
+collected
+(
+1
+deselected
+)
+1
+error
+in
+*
+=
+=
+*
+"
+        
+)
 class
 TestFixtureReporting
 :
@@ -3279,11 +4243,16 @@ def
 test_setup_fixture_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3326,7 +4295,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3398,11 +4367,16 @@ def
 test_teardown_fixture_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3445,7 +4419,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3517,11 +4491,16 @@ def
 test_teardown_fixture_error_and_test_failure
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3568,7 +4547,7 @@ False
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3663,8 +4642,13 @@ def
 test_setup_teardown_output_and_test_failure
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -3680,7 +4664,7 @@ issue
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3739,7 +4723,7 @@ func
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3823,13 +4807,18 @@ def
 test_deselected
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 testpath
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3870,10 +4859,20 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
+            
+"
+-
+Wignore
+:
+:
+pytest
+.
+PytestRemovedIn7Warning
+"
 "
 -
 k
@@ -3883,6 +4882,7 @@ test_two
 :
 "
 testpath
+        
 )
         
 result
@@ -3929,13 +4929,16 @@ def
 test_deselected_with_hookwrapper
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testpath
-=
-testdir
+pytester
 .
 makeconftest
 (
@@ -3995,7 +4998,7 @@ deselected
         
 testpath
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4036,7 +5039,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4090,12 +5093,19 @@ ret
 def
 test_show_deselected_items_using_markexpr_before_test_execution
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4153,7 +5163,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4243,11 +5253,16 @@ def
 test_no_skip_summary_if_failure
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4299,7 +5314,7 @@ dontshow
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4339,13 +5354,18 @@ def
 test_passes
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4388,9 +5408,9 @@ old
 =
 p1
 .
-dirpath
-(
-)
+parent
+        
+pytester
 .
 chdir
 (
@@ -4401,7 +5421,7 @@ try
             
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4410,10 +5430,11 @@ runpytest
 finally
 :
             
-old
+os
 .
 chdir
 (
+old
 )
         
 result
@@ -4451,14 +5472,22 @@ ret
 def
 test_header_trailer_info
 (
+        
 self
-testdir
+monkeypatch
+:
+MonkeyPatch
+pytester
+:
+Pytester
 request
+    
 )
+-
+>
+None
 :
         
-testdir
-.
 monkeypatch
 .
 delenv
@@ -4468,7 +5497,7 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4493,7 +5522,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4561,10 +5590,6 @@ pytest
 %
 s
 *
-py
--
-%
-s
 *
 pluggy
 -
@@ -4582,10 +5607,6 @@ platform
 verinfo
                     
 pytest
-.
-__version__
-                    
-py
 .
 __version__
                     
@@ -4662,14 +5683,22 @@ plugins
 def
 test_no_header_trailer_info
 (
+        
 self
-testdir
+monkeypatch
+:
+MonkeyPatch
+pytester
+:
+Pytester
 request
+    
 )
+-
+>
+None
 :
         
-testdir
-.
 monkeypatch
 .
 delenv
@@ -4679,7 +5708,7 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4704,7 +5733,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4760,10 +5789,6 @@ pytest
 %
 s
 *
-py
--
-%
-s
 *
 pluggy
 -
@@ -4781,10 +5806,6 @@ platform
 verinfo
                 
 pytest
-.
-__version__
-                
-py
 .
 __version__
                 
@@ -4825,43 +5846,48 @@ def
 test_header
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 tests
 "
 )
 .
-ensure_dir
+mkdir
 (
 )
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 gui
 "
 )
 .
-ensure_dir
+mkdir
 (
 )
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4883,7 +5909,7 @@ test_header0
 ]
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -4900,7 +5926,7 @@ pytest
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4927,7 +5953,7 @@ ini
 ]
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -4953,7 +5979,7 @@ gui
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4988,7 +6014,7 @@ gui
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5023,9 +6049,9 @@ test_header_absolute_testpath
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 monkeypatch
 :
 MonkeyPatch
@@ -5051,11 +6077,11 @@ for
         
 tests
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 tests
@@ -5064,11 +6090,11 @@ tests
         
 tests
 .
-ensure_dir
+mkdir
 (
 )
         
-testdir
+pytester
 .
 makepyprojecttoml
 (
@@ -5109,7 +6135,7 @@ tests
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5155,41 +6181,46 @@ def
 test_no_header
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 tests
 "
 )
 .
-ensure_dir
+mkdir
 (
 )
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 gui
 "
 )
 .
-ensure_dir
+mkdir
 (
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -5215,7 +6246,7 @@ gui
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5255,7 +6286,7 @@ gui
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5294,13 +6325,18 @@ def
 test_no_summary
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5326,7 +6362,7 @@ false
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5359,13 +6395,18 @@ def
 test_showlocals
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5403,7 +6444,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5447,13 +6488,18 @@ def
 test_showlocals_short
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5489,7 +6535,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5561,12 +6607,17 @@ def
 verbose_testfile
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+Path
 :
         
 return
-testdir
+pytester
 .
 makepyfile
 (
@@ -5654,13 +6705,18 @@ test_verbose_reporting
 (
 self
 verbose_testfile
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5761,11 +6817,25 @@ ret
 def
 test_verbose_reporting_xdist
 (
+        
 self
+        
 verbose_testfile
-testdir
+        
+monkeypatch
+:
+MonkeyPatch
+        
+pytester
+:
+Pytester
+        
 pytestconfig
+    
 )
+-
+>
+None
 :
         
 if
@@ -5794,8 +6864,6 @@ installed
 "
 )
         
-testdir
-.
 monkeypatch
 .
 delenv
@@ -5807,7 +6875,7 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5870,13 +6938,18 @@ def
 test_quiet_reporting
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5892,7 +6965,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5926,7 +6999,7 @@ s
 assert
 p1
 .
-basename
+name
 not
 in
 s
@@ -5952,13 +7025,18 @@ def
 test_more_quiet_reporting
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5974,7 +7052,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6008,7 +7086,7 @@ s
 assert
 p1
 .
-basename
+name
 not
 in
 s
@@ -6075,12 +7153,17 @@ def
 test_report_collectionfinish_hook
 (
 self
-testdir
+pytester
+:
+Pytester
 params
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -6093,31 +7176,27 @@ def
 pytest_report_collectionfinish
 (
 config
-startdir
+start_path
 items
 )
 :
                 
 return
 [
+f
 '
 hello
 from
 hook
 :
 {
-0
-}
-items
-'
-.
-format
-(
 len
 (
 items
 )
-)
+}
+items
+'
 ]
         
 "
@@ -6126,7 +7205,7 @@ items
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6170,7 +7249,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6205,8 +7284,13 @@ def
 test_summary_f_alias
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -6243,7 +7327,7 @@ summary
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6269,7 +7353,7 @@ False
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6324,8 +7408,13 @@ def
 test_summary_s_alias
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -6358,7 +7447,7 @@ summary
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6392,7 +7481,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6447,9 +7536,14 @@ expected
 def
 test_fail_extra_reporting
 (
-testdir
+pytester
+:
+Pytester
 monkeypatch
 )
+-
+>
+None
 :
     
 monkeypatch
@@ -6464,7 +7558,7 @@ COLUMNS
 "
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6486,7 +7580,7 @@ this_failed
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6513,7 +7607,7 @@ summary
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6558,11 +7652,16 @@ this_failedt
 def
 test_fail_reporting_on_pass
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6579,7 +7678,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6606,11 +7705,16 @@ summary
 def
 test_pass_extra_reporting
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6627,7 +7731,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6650,7 +7754,7 @@ summary
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6684,11 +7788,16 @@ test_pass_extra_reporting
 def
 test_pass_reporting_on_fail
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6705,7 +7814,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6732,11 +7841,16 @@ summary
 def
 test_pass_output_reporting
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6808,7 +7922,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6858,7 +7972,7 @@ s
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6989,14 +8103,19 @@ in
 def
 test_color_yes
 (
-testdir
+pytester
+:
+Pytester
 color_mapping
 )
+-
+>
+None
 :
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -7032,7 +8151,7 @@ fail
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7047,13 +8166,6 @@ str
 (
 p1
 )
-)
-    
-color_mapping
-.
-requires_ordered_markup
-(
-result
 )
     
 result
@@ -7349,7 +8461,7 @@ reset
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7598,11 +8710,16 @@ reset
 def
 test_color_no
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7619,7 +8736,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7679,9 +8796,14 @@ False
 def
 test_color_yes_collection_on_non_atty
 (
-testdir
+pytester
+:
+Pytester
 verbose
 )
+-
+>
+None
 :
     
 "
@@ -7705,7 +8827,7 @@ terminals
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7776,7 +8898,7 @@ vv
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8213,11 +9335,16 @@ fE
 def
 test_terminalreporter_reportopt_addopts
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeini
 (
@@ -8233,7 +9360,7 @@ rs
 "
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8310,7 +9437,7 @@ qwe
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8334,13 +9461,18 @@ passed
 def
 test_tbstyle_short
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8388,7 +9520,7 @@ x
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8449,7 +9581,7 @@ s
 %
 p
 .
-basename
+name
 "
 assert
 x
@@ -8464,7 +9596,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8499,13 +9631,18 @@ s
 def
 test_traceconfig
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8577,12 +9714,17 @@ def
 test_collect_fail
 (
 self
-testdir
+pytester
+:
+Pytester
 option
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8596,7 +9738,7 @@ n
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8643,12 +9785,17 @@ def
 test_maxfailures
 (
 self
-testdir
+pytester
+:
+Pytester
 option
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8692,7 +9839,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8764,11 +9911,16 @@ def
 test_maxfailures_with_interrupted
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8805,7 +9957,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8883,12 +10035,17 @@ def
 test_tb_option
 (
 self
-testdir
+pytester
+:
+Pytester
 option
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8974,7 +10131,7 @@ tbopt
             
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9103,14 +10260,19 @@ def
 test_tb_crashline
 (
 self
-testdir
+pytester
+:
+Pytester
 option
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -9174,7 +10336,7 @@ hello
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9191,7 +10353,7 @@ bn
 =
 p
 .
-basename
+name
         
 result
 .
@@ -9254,12 +10416,17 @@ def
 test_pytest_report_header
 (
 self
-testdir
+pytester
+:
+Pytester
 option
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -9308,7 +10475,7 @@ _somevalue
         
 )
         
-testdir
+pytester
 .
 mkdir
 (
@@ -9317,7 +10484,7 @@ a
 "
 )
 .
-join
+joinpath
 (
 "
 conftest
@@ -9326,7 +10493,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 "
@@ -9336,7 +10503,7 @@ def
 pytest_report_header
 (
 config
-startdir
+start_path
 )
 :
     
@@ -9347,7 +10514,7 @@ line1
 "
 str
 (
-startdir
+start_path
 )
 ]
 "
@@ -9358,7 +10525,7 @@ startdir
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9386,9 +10553,9 @@ line1
 "
 str
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
 ]
 )
@@ -9397,11 +10564,16 @@ def
 test_show_capture
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -9483,7 +10655,7 @@ failed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9541,7 +10713,7 @@ msg
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9608,7 +10780,7 @@ msg
         
 stdout
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9676,7 +10848,7 @@ stdout
         
 stdout
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9744,7 +10916,7 @@ stdout
         
 stdout
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9812,7 +10984,7 @@ stdout
         
 stdout
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9883,8 +11055,13 @@ def
 test_show_capture_with_teardown_logs
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -9908,7 +11085,7 @@ setting
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10005,7 +11182,7 @@ False
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10064,7 +11241,7 @@ result
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10123,7 +11300,7 @@ result
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10182,7 +11359,7 @@ result
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10259,11 +11436,16 @@ dup
 def
 test_fdopen_kept_alive_issue124
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10336,7 +11518,7 @@ close
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10360,11 +11542,16 @@ passed
 def
 test_tbstyle_native_setup_error
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10413,7 +11600,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10454,11 +11641,16 @@ setup_error_fixture
 def
 test_terminal_summary
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -10523,7 +11715,7 @@ exitstatus
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10571,13 +11763,21 @@ filterwarnings
 (
 "
 default
+:
+:
+UserWarning
 "
 )
 def
 test_terminal_summary_warnings_are_displayed
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -10603,7 +11803,7 @@ displayed
 "
 "
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -10641,7 +11841,7 @@ warning
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10683,7 +11883,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10829,16 +12029,24 @@ filterwarnings
 (
 "
 default
+:
+:
+UserWarning
 "
 )
 def
 test_terminal_summary_warnings_header_once
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10880,7 +12088,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11006,11 +12214,16 @@ default
 def
 test_terminal_no_summary_warnings_header_once
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11052,7 +12265,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -12461,12 +13674,14 @@ stats_arg
     
 print
 (
+f
 '
 Expect
 summary
 :
 "
 {
+exp_line
 }
 "
 ;
@@ -12474,15 +13689,10 @@ with
 color
 "
 {
+exp_color
 }
 "
 '
-.
-format
-(
-exp_line
-exp_color
-)
 )
     
 (
@@ -12498,12 +13708,14 @@ build_summary_stats_line
     
 print
 (
+f
 '
 Actually
 got
 :
 "
 {
+line
 }
 "
 ;
@@ -12511,15 +13723,10 @@ with
 color
 "
 {
+color
 }
 "
 '
-.
-format
-(
-line
-color
-)
 )
     
 assert
@@ -12716,11 +13923,16 @@ def
 test_files
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -12806,14 +14018,19 @@ def
 test_normal_verbosity
 (
 self
-testdir
+pytester
+:
+Pytester
 test_files
 )
+-
+>
+None
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -12851,9 +14068,13 @@ py
 F
 "
                 
+f
 "
 sub
 {
+os
+.
+sep
 }
 test_three
 .
@@ -12862,13 +14083,6 @@ py
 F
 .
 "
-.
-format
-(
-os
-.
-sep
-)
                 
 "
 *
@@ -12888,14 +14102,19 @@ def
 test_verbose
 (
 self
-testdir
+pytester
+:
+Pytester
 test_files
 )
+-
+>
+None
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -12943,9 +14162,13 @@ test_two
 FAILED
 "
                 
+f
 "
 sub
 {
+os
+.
+sep
 }
 test_three
 .
@@ -12955,17 +14178,14 @@ py
 test_three_1
 PASSED
 "
-.
-format
-(
-os
-.
-sep
-)
                 
+f
 "
 sub
 {
+os
+.
+sep
 }
 test_three
 .
@@ -12975,17 +14195,14 @@ py
 test_three_2
 FAILED
 "
-.
-format
-(
-os
-.
-sep
-)
                 
+f
 "
 sub
 {
+os
+.
+sep
 }
 test_three
 .
@@ -12995,13 +14212,6 @@ py
 test_three_3
 PASSED
 "
-.
-format
-(
-os
-.
-sep
-)
                 
 "
 *
@@ -13021,14 +14231,19 @@ def
 test_quiet
 (
 self
-testdir
+pytester
+:
+Pytester
 test_files
 )
+-
+>
+None
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -13084,11 +14299,16 @@ def
 many_tests_files
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13207,8 +14427,13 @@ def
 test_zero_tests_collected
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -13240,7 +14465,7 @@ collected
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -13324,7 +14549,7 @@ rep
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -13367,13 +14592,18 @@ test_normal
 (
 self
 many_tests_files
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -13458,11 +14688,18 @@ s
 def
 test_colored_progress
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
 color_mapping
+    
 )
+-
+>
+None
 :
         
 monkeypatch
@@ -13477,7 +14714,7 @@ PY_COLORS
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13640,7 +14877,7 @@ ValueError
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -13807,7 +15044,7 @@ reset
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -13906,11 +15143,16 @@ test_count
 (
 self
 many_tests_files
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -13935,7 +15177,7 @@ count
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -14025,13 +15267,18 @@ test_verbose
 (
 self
 many_tests_files
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -14134,11 +15381,16 @@ test_verbose_count
 (
 self
 many_tests_files
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -14163,7 +15415,7 @@ count
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -14267,11 +15519,18 @@ s
 def
 test_xdist_normal
 (
+        
 self
 many_tests_files
-testdir
+pytester
+:
+Pytester
 monkeypatch
+    
 )
+-
+>
+None
 :
         
 pytest
@@ -14297,7 +15556,7 @@ False
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -14337,11 +15596,18 @@ s
 def
 test_xdist_normal_count
 (
+        
 self
 many_tests_files
-testdir
+pytester
+:
+Pytester
 monkeypatch
+    
 )
+-
+>
+None
 :
         
 pytest
@@ -14365,7 +15631,7 @@ raising
 False
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -14390,7 +15656,7 @@ count
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -14431,11 +15697,18 @@ s
 def
 test_xdist_verbose
 (
+        
 self
 many_tests_files
-testdir
+pytester
+:
+Pytester
 monkeypatch
+    
 )
+-
+>
+None
 :
         
 pytest
@@ -14461,7 +15734,7 @@ False
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -14760,13 +16033,18 @@ test_capture_no
 (
 self
 many_tests_files
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -14823,7 +16101,7 @@ py
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -14884,11 +16162,16 @@ def
 contest_with_teardown_fixture
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -14929,12 +16212,17 @@ def
 many_files
 (
 self
-testdir
+pytester
+:
+Pytester
 contest_with_teardown_fixture
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -15020,13 +16308,20 @@ pass
 def
 test_teardown_simple
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 contest_with_teardown_fixture
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -15052,7 +16347,7 @@ pass
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -15091,13 +16386,18 @@ test_teardown_with_test_also_failing
 (
         
 self
-testdir
+pytester
+:
+Pytester
 contest_with_teardown_fixture
     
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -15124,7 +16424,7 @@ assert
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -15194,14 +16494,19 @@ def
 test_teardown_many
 (
 self
-testdir
+pytester
+:
+Pytester
 many_files
 )
+-
+>
+None
 :
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -15270,9 +16575,9 @@ test_teardown_many_verbose
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 many_files
 color_mapping
     
@@ -15284,7 +16589,7 @@ None
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -15420,9 +16725,14 @@ test_xdist_normal
 (
 self
 many_files
-testdir
+pytester
+:
+Pytester
 monkeypatch
 )
+-
+>
+None
 :
         
 pytest
@@ -15448,7 +16758,7 @@ False
         
 output
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -15678,7 +16988,12 @@ def
 test_line_with_reprcrash
 (
 monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
     
 mocked_verbose_word
@@ -15800,18 +17115,15 @@ if
 actual
 !
 =
+f
 "
 {
-}
-{
-}
-"
-.
-format
-(
 mocked_verbose_word
+}
+{
 mocked_pos
-)
+}
+"
 :
             
 assert
@@ -16384,13 +17696,18 @@ expected
 def
 test_collecterror
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -16404,7 +17721,7 @@ SyntaxError
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -16509,13 +17826,18 @@ in
 def
 test_no_summary_collecterror
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -16529,7 +17851,7 @@ SyntaxError
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -16567,9 +17889,9 @@ ERRORS
 def
 test_via_exec
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -16578,7 +17900,7 @@ None
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -16599,7 +17921,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -16655,9 +17977,9 @@ def
 test_code_highlight_simple
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 color_mapping
 )
 -
@@ -16665,7 +17987,7 @@ color_mapping
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -16694,7 +18016,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -16705,13 +18027,6 @@ color
 =
 yes
 "
-)
-        
-color_mapping
-.
-requires_ordered_markup
-(
-result
 )
         
 result
@@ -16812,18 +18127,20 @@ reset
 def
 test_code_highlight_continuation
 (
+        
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 color_mapping
+    
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -16860,7 +18177,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -16871,13 +18188,6 @@ color
 =
 yes
 "
-)
-        
-color_mapping
-.
-requires_ordered_markup
-(
-result
 )
         
 result
@@ -17013,3 +18323,588 @@ reset
 )
         
 )
+    
+def
+test_code_highlight_custom_theme
+(
+        
+self
+pytester
+:
+Pytester
+color_mapping
+monkeypatch
+:
+MonkeyPatch
+    
+)
+-
+>
+None
+:
+        
+pytester
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+def
+test_foo
+(
+)
+:
+                
+assert
+1
+=
+=
+10
+        
+"
+"
+"
+        
+)
+        
+monkeypatch
+.
+setenv
+(
+"
+PYTEST_THEME
+"
+"
+solarized
+-
+dark
+"
+)
+        
+monkeypatch
+.
+setenv
+(
+"
+PYTEST_THEME_MODE
+"
+"
+dark
+"
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+color
+=
+yes
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+            
+color_mapping
+.
+format_for_fnmatch
+(
+                
+[
+                    
+"
+{
+kw
+}
+def
+{
+hl
+-
+reset
+}
+{
+function
+}
+test_foo
+{
+hl
+-
+reset
+}
+(
+)
+:
+"
+                    
+"
+>
+{
+kw
+}
+assert
+{
+hl
+-
+reset
+}
+{
+number
+}
+1
+{
+hl
+-
+reset
+}
+=
+=
+{
+number
+}
+10
+{
+hl
+-
+reset
+}
+"
+                    
+"
+{
+bold
+}
+{
+red
+}
+E
+assert
+1
+=
+=
+10
+{
+reset
+}
+"
+                
+]
+            
+)
+        
+)
+    
+def
+test_code_highlight_invalid_theme
+(
+        
+self
+pytester
+:
+Pytester
+color_mapping
+monkeypatch
+:
+MonkeyPatch
+    
+)
+-
+>
+None
+:
+        
+pytester
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+def
+test_foo
+(
+)
+:
+                
+assert
+1
+=
+=
+10
+        
+"
+"
+"
+        
+)
+        
+monkeypatch
+.
+setenv
+(
+"
+PYTEST_THEME
+"
+"
+invalid
+"
+)
+        
+result
+=
+pytester
+.
+runpytest_subprocess
+(
+"
+-
+-
+color
+=
+yes
+"
+)
+        
+result
+.
+stderr
+.
+fnmatch_lines
+(
+            
+"
+ERROR
+:
+PYTEST_THEME
+environment
+variable
+had
+an
+invalid
+value
+:
+'
+invalid
+'
+.
+"
+            
+"
+Only
+valid
+pygment
+styles
+are
+allowed
+.
+"
+        
+)
+    
+def
+test_code_highlight_invalid_theme_mode
+(
+        
+self
+pytester
+:
+Pytester
+color_mapping
+monkeypatch
+:
+MonkeyPatch
+    
+)
+-
+>
+None
+:
+        
+pytester
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+def
+test_foo
+(
+)
+:
+                
+assert
+1
+=
+=
+10
+        
+"
+"
+"
+        
+)
+        
+monkeypatch
+.
+setenv
+(
+"
+PYTEST_THEME_MODE
+"
+"
+invalid
+"
+)
+        
+result
+=
+pytester
+.
+runpytest_subprocess
+(
+"
+-
+-
+color
+=
+yes
+"
+)
+        
+result
+.
+stderr
+.
+fnmatch_lines
+(
+            
+"
+ERROR
+:
+PYTEST_THEME_MODE
+environment
+variable
+had
+an
+invalid
+value
+:
+'
+invalid
+'
+.
+"
+            
+"
+The
+only
+allowed
+values
+are
+'
+dark
+'
+and
+'
+light
+'
+.
+"
+        
+)
+def
+test_raw_skip_reason_skipped
+(
+)
+-
+>
+None
+:
+    
+report
+=
+SimpleNamespace
+(
+)
+    
+report
+.
+skipped
+=
+True
+    
+report
+.
+longrepr
+=
+(
+"
+xyz
+"
+3
+"
+Skipped
+:
+Just
+so
+"
+)
+    
+reason
+=
+_get_raw_skip_reason
+(
+cast
+(
+TestReport
+report
+)
+)
+    
+assert
+reason
+=
+=
+"
+Just
+so
+"
+def
+test_raw_skip_reason_xfail
+(
+)
+-
+>
+None
+:
+    
+report
+=
+SimpleNamespace
+(
+)
+    
+report
+.
+wasxfail
+=
+"
+reason
+:
+To
+everything
+there
+is
+a
+season
+"
+    
+reason
+=
+_get_raw_skip_reason
+(
+cast
+(
+TestReport
+report
+)
+)
+    
+assert
+reason
+=
+=
+"
+To
+everything
+there
+is
+a
+season
+"
+def
+test_format_trimmed
+(
+)
+-
+>
+None
+:
+    
+msg
+=
+"
+unconditional
+skip
+"
+    
+assert
+_format_trimmed
+(
+"
+(
+{
+}
+)
+"
+msg
+len
+(
+msg
+)
++
+4
+)
+=
+=
+"
+(
+unconditional
+skip
+)
+"
+    
+assert
+_format_trimmed
+(
+"
+(
+{
+}
+)
+"
+msg
+len
+(
+msg
+)
++
+3
+)
+=
+=
+"
+(
+unconditional
+.
+.
+.
+)
+"

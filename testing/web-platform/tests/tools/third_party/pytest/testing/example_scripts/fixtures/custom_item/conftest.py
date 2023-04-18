@@ -50,7 +50,7 @@ self
 def
 pytest_collect_file
 (
-path
+file_path
 parent
 )
 :
@@ -60,9 +60,9 @@ CustomFile
 .
 from_parent
 (
-fspath
-=
 path
+=
+file_path
 parent
 =
 parent

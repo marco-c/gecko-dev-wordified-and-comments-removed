@@ -375,6 +375,10 @@ en
 /
 stable
 /
+how
+-
+to
+/
 usage
 .
 html
@@ -409,6 +413,10 @@ org
 en
 /
 stable
+/
+how
+-
+to
 /
 assert
 .
@@ -481,6 +489,8 @@ org
 en
 /
 stable
+/
+reference
 /
 customize
 .

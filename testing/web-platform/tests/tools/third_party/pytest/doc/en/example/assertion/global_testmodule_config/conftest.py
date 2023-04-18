@@ -70,20 +70,17 @@ hello
             
 print
 (
+f
 "
 mod
 .
 hello
 {
+mod
+.
+hello
 !
 r
 }
 "
-.
-format
-(
-mod
-.
-hello
-)
 )

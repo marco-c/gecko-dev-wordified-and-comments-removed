@@ -8,6 +8,12 @@ _pytest
 config
 import
 ExitCode
+from
+_pytest
+.
+pytester
+import
+Pytester
 pytest
 .
 fixture
@@ -57,13 +63,19 @@ param
 def
 test_show_only_active_fixtures
 (
-testdir
+    
+pytester
+:
+Pytester
 mode
 dummy_yaml_custom_test
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -131,7 +143,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -198,14 +210,19 @@ _arg0
 def
 test_show_different_scopes
 (
-testdir
+pytester
+:
+Pytester
 mode
 )
+-
+>
+None
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -282,7 +299,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -356,12 +373,17 @@ arg_session
 def
 test_show_nested_fixtures
 (
-testdir
+pytester
+:
+Pytester
 mode
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -408,7 +430,7 @@ fixture
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -465,7 +487,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -544,14 +566,19 @@ arg_same
 def
 test_show_fixtures_with_autouse
 (
-testdir
+pytester
+:
+Pytester
 mode
 )
+-
+>
+None
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -630,7 +657,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -689,12 +716,17 @@ arg_session
 def
 test_show_fixtures_with_parameters
 (
-testdir
+pytester
+:
+Pytester
 mode
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -751,7 +783,7 @@ fixture
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -808,7 +840,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -883,12 +915,17 @@ bar
 def
 test_show_fixtures_with_parameter_ids
 (
-testdir
+pytester
+:
+Pytester
 mode
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -956,7 +993,7 @@ fixture
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1013,7 +1050,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1063,14 +1100,19 @@ ham
 def
 test_show_fixtures_with_parameter_ids_function
 (
-testdir
+pytester
+:
+Pytester
 mode
 )
+-
+>
+None
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1133,7 +1175,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1185,13 +1227,18 @@ BAR
 def
 test_dynamic_fixture_request
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1256,7 +1303,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1307,13 +1354,18 @@ dynamically_requested_fixture
 def
 test_capturing
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1400,7 +1452,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1441,8 +1493,13 @@ captured
 def
 test_show_fixtures_and_execute_test
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -1464,7 +1521,7 @@ executed
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1507,7 +1564,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1569,13 +1626,18 @@ arg
 def
 test_setup_show_with_KeyboardInterrupt_in_test
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1619,7 +1681,7 @@ KeyboardInterrupt
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1707,13 +1769,18 @@ INTERRUPTED
 def
 test_show_fixture_action_with_bytes
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 test_file
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1760,7 +1827,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 run
 (

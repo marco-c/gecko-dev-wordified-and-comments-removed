@@ -32,8 +32,6 @@ typing
 import
 Union
 import
-py
-import
 pytest
 from
 _pytest
@@ -495,7 +493,21 @@ debug
 action
 =
 "
-store_true
+store
+"
+        
+nargs
+=
+"
+?
+"
+        
+const
+=
+"
+pytestdebug
+.
+log
 "
         
 dest
@@ -504,9 +516,11 @@ dest
 debug
 "
         
-default
+metavar
 =
-False
+"
+DEBUG_FILE_NAME
+"
         
 help
 =
@@ -517,6 +531,38 @@ tracing
 debug
 information
 in
+this
+log
+file
+.
+\
+n
+"
+        
+"
+This
+file
+is
+opened
+with
+'
+w
+'
+and
+truncated
+as
+a
+result
+care
+advised
+.
+\
+n
+"
+        
+"
+Defaults
+to
 '
 pytestdebug
 .
@@ -607,6 +653,8 @@ outcome
 yield
     
 config
+:
+Config
 =
 outcome
 .
@@ -624,18 +672,11 @@ debug
         
 path
 =
-os
+config
 .
-path
+option
 .
-abspath
-(
-"
-pytestdebug
-.
-log
-"
-)
+debug
         
 debugfile
 =
@@ -655,10 +696,6 @@ write
 "
 versions
 pytest
--
-%
-s
-py
 -
 %
 s
@@ -689,10 +726,6 @@ n
 (
                 
 pytest
-.
-__version__
-                
-py
 .
 __version__
                 
@@ -758,7 +791,8 @@ write
 (
 "
 writing
-pytestdebug
+pytest
+debug
 information
 to
 %
@@ -793,7 +827,8 @@ write
 (
 "
 wrote
-pytestdebug
+pytest
+debug
 information
 to
 %
@@ -852,7 +887,7 @@ version
         
 sys
 .
-stderr
+stdout
 .
 write
 (
@@ -905,7 +940,7 @@ plugininfo
                 
 sys
 .
-stderr
+stdout
 .
 write
 (
@@ -922,24 +957,21 @@ else
         
 sys
 .
-stderr
+stdout
 .
 write
 (
+f
 "
 pytest
 {
+pytest
+.
+__version__
 }
 \
 n
 "
-.
-format
-(
-pytest
-.
-__version__
-)
 )
 def
 pytest_cmdline_main
@@ -1163,6 +1195,7 @@ None
 raise
 TypeError
 (
+f
 "
 help
 argument
@@ -1171,32 +1204,25 @@ be
 None
 for
 {
+name
 }
 "
-.
-format
-(
-name
-)
 )
         
 spec
 =
+f
 "
 {
+name
 }
 (
 {
+type
 }
 )
 :
 "
-.
-format
-(
-name
-type
-)
         
 tw
 .
@@ -1433,21 +1459,18 @@ tw
 .
 line
 (
+f
 "
 {
+name
 :
 <
 24
 }
 {
+help
 }
 "
-.
-format
-(
-name
-help
-)
 )
     
 tw
@@ -1664,27 +1687,24 @@ plugin
             
 content
 =
+f
 "
 {
-}
--
-{
-}
-at
-{
-}
-"
-.
-format
-(
 dist
 .
 project_name
+}
+-
+{
 dist
 .
 version
+}
+at
+{
 loc
-)
+}
+"
             
 lines
 .
@@ -1736,30 +1756,18 @@ lines
 .
 append
 (
-            
+f
 "
 using
 :
 pytest
 -
 {
-}
-pylib
--
-{
-}
-"
-.
-format
-(
 pytest
 .
 __version__
-py
-.
-__version__
-)
-        
+}
+"
 )
         
 verinfo
@@ -1846,22 +1854,19 @@ lines
 .
 append
 (
+f
 "
 {
+name
 :
 <
 20
 }
 :
 {
+r
 }
 "
-.
-format
-(
-name
-r
-)
 )
     
 return

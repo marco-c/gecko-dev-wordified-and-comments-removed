@@ -22,9 +22,6 @@ myproject
 )
 class
 MySpec
-(
-object
-)
 :
     
 "
@@ -67,9 +64,6 @@ customize
 "
 class
 Plugin_1
-(
-object
-)
 :
     
 "
@@ -113,9 +107,6 @@ arg1
 arg2
 class
 Plugin_2
-(
-object
-)
 :
     
 "

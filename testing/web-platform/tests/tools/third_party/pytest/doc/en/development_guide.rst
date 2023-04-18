@@ -75,7 +75,7 @@ pytest
 /
 blob
 /
-master
+main
 /
 RELEASING
 .

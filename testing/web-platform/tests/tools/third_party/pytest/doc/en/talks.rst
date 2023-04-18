@@ -1012,7 +1012,7 @@ Laugher
 (
 video
 <
-http
+https
 :
 /
 /
@@ -1080,7 +1080,7 @@ from
 Holger
 Krekel
 <
-http
+https
 :
 /
 /
@@ -1343,7 +1343,7 @@ on
 all
 platforms
 :
-http
+https
 :
 /
 /
@@ -1352,6 +1352,7 @@ tetamap
 wordpress
 .
 com
+/
 /
 2009
 /
@@ -1383,7 +1384,7 @@ patching
 done
 right
 :
-http
+https
 :
 /
 /
@@ -1392,6 +1393,7 @@ tetamap
 wordpress
 .
 com
+/
 /
 2009
 /
@@ -1424,7 +1426,7 @@ or
 global
 plugins
 :
-http
+https
 :
 /
 /
@@ -1463,7 +1465,7 @@ parametrizing
 tests
 generalized
 :
-http
+https
 :
 /
 /

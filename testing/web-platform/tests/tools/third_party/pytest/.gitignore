@@ -114,6 +114,10 @@ env
 .
 venv
 /
+/
+pythonenv
+*
+/
 3rdparty
 /
 .
@@ -157,3 +161,15 @@ wheel
 -
 metadata
 /
+#
+pytest
+debug
+logs
+generated
+via
+-
+-
+debug
+pytestdebug
+.
+log

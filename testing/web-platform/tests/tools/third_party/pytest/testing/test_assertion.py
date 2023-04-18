@@ -1,7 +1,5 @@
 import
 collections
-.
-abc
 import
 sys
 import
@@ -14,6 +12,10 @@ from
 typing
 import
 List
+from
+typing
+import
+MutableSequence
 from
 typing
 import
@@ -47,9 +49,15 @@ util
 from
 _pytest
 .
-compat
+monkeypatch
 import
-ATTRS_EQ_FIELD
+MonkeyPatch
+from
+_pytest
+.
+pytester
+import
+Pytester
 def
 mock_config
 (
@@ -143,11 +151,18 @@ rewrite
 def
 test_conftest_assertion_rewrite
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 initial_conftest
 mode
+    
 )
+-
+>
+None
 :
         
 "
@@ -172,24 +187,24 @@ import
 "
 "
         
-testdir
+pytester
 .
-tmpdir
+mkdir
+(
+"
+foo
+"
+)
+        
+pytester
 .
-join
+mkdir
 (
 "
 foo
 /
 tests
 "
-)
-.
-ensure
-(
-dir
-=
-1
 )
         
 conftest_path
@@ -295,7 +310,7 @@ check_first
         
 }
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -306,7 +321,7 @@ contents
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -380,8 +395,13 @@ def
 test_rewrite_assertions_pytester_plugin
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -410,7 +430,7 @@ rewriting
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -430,7 +450,7 @@ pytester
 def
 test_dummy_failure
 (
-testdir
+pytester
 )
 :
 #
@@ -438,7 +458,7 @@ how
 meta
 !
                 
-testdir
+pytester
 .
 makepyfile
 (
@@ -455,7 +475,7 @@ assert
                 
 r
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -478,7 +498,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -685,9 +705,14 @@ def
 test_pytest_plugins_rewrite
 (
 self
-testdir
+pytester
+:
+Pytester
 mode
 )
+-
+>
+None
 :
         
 contents
@@ -797,7 +822,7 @@ check_first
         
 }
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -808,7 +833,7 @@ contents
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -900,10 +925,17 @@ list
 def
 test_pytest_plugins_rewrite_module_names
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 mode
+    
 )
+-
+>
+None
 :
         
 "
@@ -1051,7 +1083,7 @@ _must_rewrite
         
 }
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1062,7 +1094,7 @@ contents
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -1086,9 +1118,16 @@ ret
 def
 test_pytest_plugins_rewrite_module_names_correctly
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -1215,7 +1254,7 @@ None
         
 }
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1226,7 +1265,7 @@ contents
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -1269,11 +1308,18 @@ rewrite
 def
 test_installed_plugin_rewrite
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 mode
 monkeypatch
+    
 )
+-
+>
+None
 :
         
 monkeypatch
@@ -1288,22 +1334,13 @@ raising
 False
 )
         
-testdir
+pytester
 .
-tmpdir
-.
-join
+mkdir
 (
 "
 hampkg
 "
-)
-.
-ensure
-(
-dir
-=
-1
 )
         
 contents
@@ -1608,7 +1645,7 @@ check_first
         
 }
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1619,7 +1656,7 @@ contents
         
 result
 =
-testdir
+pytester
 .
 run
 (
@@ -1707,26 +1744,22 @@ def
 test_rewrite_ast
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
-tmpdir
-.
-join
+mkdir
 (
 "
 pkg
 "
-)
-.
-ensure
-(
-dir
-=
-1
 )
         
 contents
@@ -1945,7 +1978,7 @@ tool
         
 }
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1956,7 +1989,7 @@ contents
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -2076,11 +2109,16 @@ def
 test_pytest_assertrepr_compare_called
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2137,7 +2175,7 @@ values
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2188,7 +2226,7 @@ list
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2315,6 +2353,9 @@ test_different_types
 (
 self
 )
+-
+>
+None
 :
         
 assert
@@ -2381,6 +2422,9 @@ test_text_diff
 (
 self
 )
+-
+>
+None
 :
         
 assert
@@ -2628,6 +2672,9 @@ test_bytes_diff_normal
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -2716,6 +2763,9 @@ test_bytes_diff_verbose
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -3177,6 +3227,143 @@ strip
 )
     
 def
+test_iterable_full_diff_ci
+(
+        
+self
+monkeypatch
+:
+MonkeyPatch
+pytester
+:
+Pytester
+    
+)
+-
+>
+None
+:
+        
+pytester
+.
+makepyfile
+(
+            
+r
+"
+"
+"
+            
+def
+test_full_diff
+(
+)
+:
+                
+left
+=
+[
+0
+1
+]
+                
+right
+=
+[
+0
+2
+]
+                
+assert
+left
+=
+=
+right
+        
+"
+"
+"
+        
+)
+        
+monkeypatch
+.
+setenv
+(
+"
+CI
+"
+"
+true
+"
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+[
+"
+E
+Full
+diff
+:
+"
+]
+)
+        
+monkeypatch
+.
+delenv
+(
+"
+CI
+"
+raising
+=
+False
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+[
+"
+E
+Use
+-
+v
+to
+get
+the
+full
+diff
+"
+]
+)
+    
+def
 test_list_different_lengths
 (
 self
@@ -3249,6 +3436,9 @@ test_list_wrap_for_multiple_lines
 (
 self
 )
+-
+>
+None
 :
         
 long_d
@@ -3511,6 +3701,9 @@ test_list_wrap_for_width_rewrap_same_length
 (
 self
 )
+-
+>
+None
 :
         
 long_a
@@ -3656,6 +3849,9 @@ test_list_dont_wrap_strings
 (
 self
 )
+-
+>
+None
 :
         
 long_a
@@ -3863,6 +4059,9 @@ test_dict_wrap
 (
 self
 )
+-
+>
+None
 :
         
 d1
@@ -4702,6 +4901,9 @@ test_dict_different_items
 (
 self
 )
+-
+>
+None
 :
         
 lines
@@ -4981,6 +5183,9 @@ test_sequence_different_items
 (
 self
 )
+-
+>
+None
 :
         
 lines
@@ -5245,11 +5450,10 @@ None
 class
 TestSequence
 (
-collections
-.
-abc
-.
 MutableSequence
+[
+int
+]
 )
 :
             
@@ -5800,6 +6004,9 @@ test_one_repr_empty
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -5907,6 +6114,9 @@ test_unicode
 (
 self
 )
+-
+>
+None
 :
         
 assert
@@ -5945,6 +6155,9 @@ test_nonascii_text
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -6023,6 +6236,9 @@ test_format_nonascii_explanation
 (
 self
 )
+-
+>
+None
 :
         
 assert
@@ -6136,13 +6352,18 @@ def
 test_dataclasses
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -6157,7 +6378,7 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6310,13 +6531,18 @@ def
 test_recursive_dataclasses
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -6331,7 +6557,7 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6506,13 +6732,18 @@ def
 test_recursive_dataclasses_verbose
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -6527,7 +6758,7 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6796,13 +7027,18 @@ def
 test_dataclasses_verbose
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -6817,7 +7053,7 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6923,14 +7159,21 @@ Python3
 def
 test_dataclasses_with_attribute_comparison_off
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -6947,7 +7190,7 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7000,13 +7243,18 @@ def
 test_comparing_two_different_data_classes
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -7023,7 +7271,7 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7538,6 +7786,9 @@ test_attrs_with_attribute_comparison_off
 (
 self
 )
+-
+>
+None
 :
         
 attr
@@ -7562,13 +7813,9 @@ attr
 .
 ib
 (
-*
-*
-{
-ATTRS_EQ_FIELD
-:
+eq
+=
 False
-}
 )
         
 left
@@ -7677,6 +7924,9 @@ test_comparing_two_different_attrs_classes
 (
 self
 )
+-
+>
+None
 :
         
 attr
@@ -7760,6 +8010,311 @@ lines
 is
 None
 class
+TestAssert_reprcompare_namedtuple
+:
+    
+def
+test_namedtuple
+(
+self
+)
+-
+>
+None
+:
+        
+NT
+=
+collections
+.
+namedtuple
+(
+"
+NT
+"
+[
+"
+a
+"
+"
+b
+"
+]
+)
+        
+left
+=
+NT
+(
+1
+"
+b
+"
+)
+        
+right
+=
+NT
+(
+1
+"
+c
+"
+)
+        
+lines
+=
+callequal
+(
+left
+right
+)
+        
+assert
+lines
+=
+=
+[
+            
+"
+NT
+(
+a
+=
+1
+b
+=
+'
+b
+'
+)
+=
+=
+NT
+(
+a
+=
+1
+b
+=
+'
+c
+'
+)
+"
+            
+"
+"
+            
+"
+Omitting
+1
+identical
+items
+use
+-
+vv
+to
+show
+"
+            
+"
+Differing
+attributes
+:
+"
+            
+"
+[
+'
+b
+'
+]
+"
+            
+"
+"
+            
+"
+Drill
+down
+into
+differing
+attribute
+b
+:
+"
+            
+"
+b
+:
+'
+b
+'
+!
+=
+'
+c
+'
+"
+            
+"
+-
+c
+"
+            
+"
++
+b
+"
+            
+"
+Use
+-
+v
+to
+get
+the
+full
+diff
+"
+        
+]
+    
+def
+test_comparing_two_different_namedtuple
+(
+self
+)
+-
+>
+None
+:
+        
+NT1
+=
+collections
+.
+namedtuple
+(
+"
+NT1
+"
+[
+"
+a
+"
+"
+b
+"
+]
+)
+        
+NT2
+=
+collections
+.
+namedtuple
+(
+"
+NT2
+"
+[
+"
+a
+"
+"
+b
+"
+]
+)
+        
+left
+=
+NT1
+(
+1
+"
+b
+"
+)
+        
+right
+=
+NT2
+(
+2
+"
+b
+"
+)
+        
+lines
+=
+callequal
+(
+left
+right
+)
+        
+assert
+lines
+=
+=
+[
+            
+"
+NT1
+(
+a
+=
+1
+b
+=
+'
+b
+'
+)
+=
+=
+NT2
+(
+a
+=
+2
+b
+=
+'
+b
+'
+)
+"
+            
+"
+At
+index
+0
+diff
+:
+1
+!
+=
+2
+"
+            
+"
+Use
+-
+v
+to
+get
+the
+full
+diff
+"
+        
+]
+class
 TestFormatExplanation
 :
     
@@ -7767,11 +8322,16 @@ def
 test_special_chars_full
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7806,7 +8366,7 @@ n
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7840,6 +8400,9 @@ test_fmt_simple
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -7868,6 +8431,9 @@ test_fmt_where
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -7942,6 +8508,9 @@ test_fmt_and
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -8032,6 +8601,9 @@ test_fmt_where_nested
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -8122,6 +8694,9 @@ test_fmt_newline
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -8206,6 +8781,9 @@ test_fmt_newline_escaped
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -8260,6 +8838,9 @@ test_fmt_newline_before_where
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -8379,6 +8960,9 @@ test_fmt_multi_newline_before_where
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -8518,6 +9102,11 @@ None
 :
         
 expl
+:
+List
+[
+str
+]
 =
 [
 ]
@@ -8548,6 +9137,9 @@ test_doesnt_truncate_at_when_input_is_5_lines_and_LT_max_chars
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -8595,6 +9187,9 @@ test_truncates_at_8_lines_when_given_list_of_empty_strings
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -8700,6 +9295,9 @@ test_truncates_at_8_lines_when_first_8_lines_are_LT_max_chars
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -8808,6 +9406,9 @@ test_truncates_at_8_lines_when_first_8_lines_are_EQ_max_chars
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -8918,6 +9519,9 @@ test_truncates_at_4_lines_when_first_4_lines_are_GT_max_chars
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -9026,6 +9630,9 @@ test_truncates_at_1_line_when_first_line_is_GT_max_chars
 (
 self
 )
+-
+>
+None
 :
         
 expl
@@ -9134,8 +9741,13 @@ test_full_output_truncated
 (
 self
 monkeypatch
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -9165,7 +9777,7 @@ expected_truncated_lines
 =
 2
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -9280,7 +9892,7 @@ False
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9341,7 +9953,7 @@ expected_truncated_lines
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9380,7 +9992,7 @@ CI
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9403,11 +10015,16 @@ fnmatch_lines
 def
 test_python25_compile_issue257
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9440,7 +10057,7 @@ comment
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9488,11 +10105,16 @@ failed
 def
 test_rewritten
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9523,7 +10145,7 @@ globals
 )
     
 assert
-testdir
+pytester
 .
 runpytest
 (
@@ -9597,6 +10219,9 @@ def
 test_reprcompare_whitespaces
 (
 )
+-
+>
+None
 :
     
 assert
@@ -9678,11 +10303,16 @@ r
 def
 test_pytest_assertrepr_compare_integration
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9736,7 +10366,7 @@ y
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9805,11 +10435,16 @@ in
 def
 test_sequence_comparison_uses_repr
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9858,7 +10493,7 @@ y
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9941,11 +10576,16 @@ y
 def
 test_assertrepr_loaded_per_dir
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9969,7 +10609,7 @@ assert
     
 a
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -9978,11 +10618,9 @@ a
 "
 )
     
-a_test
-=
 a
 .
-join
+joinpath
 (
 "
 test_a
@@ -9990,10 +10628,8 @@ test_a
 py
 "
 )
-    
-a_test
 .
-write
+write_text
 (
 "
 def
@@ -10009,11 +10645,9 @@ assert
 "
 )
     
-a_conftest
-=
 a
 .
-join
+joinpath
 (
 "
 conftest
@@ -10021,11 +10655,10 @@ conftest
 py
 "
 )
-    
-a_conftest
 .
-write
+write_text
 (
+        
 '
 def
 pytest_assertrepr_compare
@@ -10040,11 +10673,12 @@ a
 "
 ]
 '
+    
 )
     
 b
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -10053,11 +10687,9 @@ b
 "
 )
     
-b_test
-=
 b
 .
-join
+joinpath
 (
 "
 test_b
@@ -10065,10 +10697,8 @@ test_b
 py
 "
 )
-    
-b_test
 .
-write
+write_text
 (
 "
 def
@@ -10084,11 +10714,9 @@ assert
 "
 )
     
-b_conftest
-=
 b
 .
-join
+joinpath
 (
 "
 conftest
@@ -10096,11 +10724,10 @@ conftest
 py
 "
 )
-    
-b_conftest
 .
-write
+write_text
 (
+        
 '
 def
 pytest_assertrepr_compare
@@ -10115,11 +10742,12 @@ b
 "
 ]
 '
+    
 )
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10202,11 +10830,16 @@ b
 def
 test_assertion_options
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10239,7 +10872,7 @@ x
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10263,7 +10896,7 @@ str
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -10294,11 +10927,16 @@ no_fnmatch_line
 def
 test_triple_quoted_string_issue113
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10333,7 +10971,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10375,13 +11013,18 @@ SyntaxError
 def
 test_traceback_failure
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -10433,7 +11076,7 @@ f
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10585,7 +11228,7 @@ AssertionError
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10726,8 +11369,13 @@ AssertionError
 def
 test_exception_handling_no_traceback
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -10754,7 +11402,7 @@ module
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -10828,7 +11476,7 @@ multitask_job
     
 )
     
-testdir
+pytester
 .
 syspathinsert
 (
@@ -10836,7 +11484,7 @@ syspathinsert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11116,13 +11764,18 @@ O
 def
 test_warn_missing
 (
-testdir
+pytester
+:
+Pytester
 cmdline_args
 warning_output
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11132,7 +11785,7 @@ makepyfile
     
 result
 =
-testdir
+pytester
 .
 run
 (
@@ -11154,11 +11807,16 @@ warning_output
 def
 test_recursion_source_decode
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11181,7 +11839,7 @@ pass
     
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -11208,7 +11866,7 @@ py
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11245,11 +11903,16 @@ Module
 def
 test_AssertionError_message
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11285,7 +11948,7 @@ y
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11333,11 +11996,16 @@ AssertionError
 def
 test_diff_newline_at_end
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11373,7 +12041,7 @@ n
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11434,8 +12102,13 @@ default
 def
 test_assert_tuple_warning
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 msg
@@ -11447,7 +12120,7 @@ always
 true
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11481,7 +12154,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11494,6 +12167,7 @@ stdout
 fnmatch_lines
 (
 [
+f
 "
 *
 test_assert_tuple_warning
@@ -11504,18 +12178,14 @@ py
 :
 *
 {
+msg
 }
 *
 "
-.
-format
-(
-msg
-)
 ]
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11542,7 +12212,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11562,11 +12232,16 @@ str
 def
 test_assert_indirect_tuple_no_warning
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11603,7 +12278,7 @@ tpl
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11635,11 +12310,16 @@ output
 def
 test_assert_with_unicode
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11672,7 +12352,7 @@ Unicode
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11695,11 +12375,16 @@ AssertionError
 def
 test_raise_unprintable_assertion_error
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11732,7 +12417,7 @@ xff
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11768,13 +12453,18 @@ AssertionError
     
 )
 def
-test_raise_assertion_error_raisin_repr
+test_raise_assertion_error_raising_repr
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11824,19 +12514,58 @@ RaisingRepr
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
 )
     
+if
+sys
+.
+version_info
+>
+=
+(
+3
+11
+)
+:
+        
 result
 .
 stdout
 .
 fnmatch_lines
 (
+            
+[
+"
+E
+AssertionError
+:
+<
+exception
+str
+(
+)
+failed
+>
+"
+]
         
+)
+    
+else
+:
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+            
 [
 "
 E
@@ -11849,16 +12578,21 @@ object
 >
 "
 ]
-    
+        
 )
 def
 test_issue_1944
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11891,7 +12625,7 @@ f
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11947,6 +12681,9 @@ test_exit_from_assertrepr_compare
 (
 monkeypatch
 )
+-
+>
+None
 :
     
 def
@@ -12002,8 +12739,13 @@ callequal
 def
 test_assertion_location_with_coverage
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -12031,7 +12773,7 @@ coverage
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -12062,7 +12804,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (

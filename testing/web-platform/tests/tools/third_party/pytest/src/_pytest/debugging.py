@@ -47,6 +47,14 @@ Tuple
 from
 typing
 import
+Type
+from
+typing
+import
+TYPE_CHECKING
+from
+typing
+import
 Union
 from
 _pytest
@@ -58,12 +66,6 @@ _pytest
 _code
 import
 ExceptionInfo
-from
-_pytest
-.
-compat
-import
-TYPE_CHECKING
 from
 _pytest
 .
@@ -119,11 +121,6 @@ BaseReport
 if
 TYPE_CHECKING
 :
-    
-from
-typing
-import
-Type
     
 from
 _pytest
@@ -196,8 +193,10 @@ argparse
 ArgumentTypeError
 (
             
+f
 "
 {
+value
 !
 r
 }
@@ -212,11 +211,6 @@ modname
 classname
 '
 "
-.
-format
-(
-value
-)
         
 )
 from
@@ -322,14 +316,18 @@ _validate_usepdb_cls
 help
 =
 "
-start
+specify
 a
 custom
 interactive
 Python
 debugger
-on
-errors
+for
+use
+with
+-
+-
+pdb
 .
 "
         
@@ -531,9 +529,7 @@ pop
     
 config
 .
-_cleanup
-.
-append
+add_cleanup
 (
 fin
 )
@@ -558,27 +554,72 @@ pdb
 "
     
 _pluginmanager
+:
+Optional
+[
+PytestPluginManager
+]
 =
 None
     
 _config
+:
+Optional
+[
+Config
+]
 =
 None
     
 _saved
-=
-(
-        
+:
+List
 [
+        
+Tuple
+[
+Callable
+[
+.
+.
+.
+None
+]
+Optional
+[
+PytestPluginManager
+]
+Optional
+[
+Config
+]
 ]
     
-)
+]
+=
+[
+]
     
 _recursive_debug
 =
 0
     
 _wrapped_pdb_cls
+:
+Optional
+[
+Tuple
+[
+Type
+[
+Any
+]
+Type
+[
+Any
+]
+]
+]
 =
 None
     
@@ -779,6 +820,7 @@ raise
 UsageError
 (
                     
+f
 "
 -
 -
@@ -788,19 +830,15 @@ could
 not
 import
 {
+value
 !
 r
 }
 :
 {
+exc
 }
 "
-.
-format
-(
-value
-exc
-)
                 
 )
 from
@@ -941,6 +979,14 @@ _recursive_debug
 =
 0
 :
+                    
+assert
+cls
+.
+_config
+is
+not
+None
                     
 tw
 =
@@ -1407,6 +1453,11 @@ None
 :
             
 capman
+:
+Optional
+[
+CaptureManager
+]
 =
 None
         
@@ -1530,9 +1581,11 @@ sep
 "
 >
 "
+f
 "
 PDB
 {
+method
 }
 (
 IO
@@ -1542,11 +1595,6 @@ turned
 off
 )
 "
-.
-format
-(
-method
-)
 )
                     
 elif
@@ -1596,16 +1644,13 @@ sep
 "
 >
 "
+f
 "
 PDB
 {
+method
 }
 "
-.
-format
-(
-method
-)
 )
         
 _pdb

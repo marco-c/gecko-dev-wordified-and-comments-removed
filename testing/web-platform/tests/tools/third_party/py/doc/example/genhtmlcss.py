@@ -129,6 +129,7 @@ can
 )
 )
 print
+(
 doc
 .
 unicode
@@ -136,4 +137,5 @@ unicode
 indent
 =
 2
+)
 )

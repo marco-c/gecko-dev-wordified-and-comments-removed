@@ -256,7 +256,7 @@ pytest
 /
 blob
 /
-master
+main
 /
 changelog
 /

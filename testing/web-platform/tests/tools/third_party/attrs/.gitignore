@@ -1,11 +1,11 @@
 *
 .
-pyc
-*
-.
 egg
 -
 info
+*
+.
+pyc
 .
 cache
 .
@@ -13,6 +13,8 @@ coverage
 *
 .
 hypothesis
+.
+mypy_cache
 .
 pytest_cache
 .
@@ -24,3 +26,8 @@ docs
 _build
 /
 htmlcov
+pip
+-
+wheel
+-
+metadata

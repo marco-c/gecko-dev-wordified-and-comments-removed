@@ -97,6 +97,16 @@ checked_order
 :
     
 order
+:
+List
+[
+Tuple
+[
+str
+str
+str
+]
+]
 =
 [
 ]
@@ -119,10 +129,6 @@ order
         
 (
 "
-testing
-/
-example_scripts
-/
 issue_519
 .
 py
@@ -205,10 +211,6 @@ arg2v2
         
 (
 "
-testing
-/
-example_scripts
-/
 issue_519
 .
 py

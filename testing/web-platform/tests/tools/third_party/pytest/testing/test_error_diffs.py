@@ -44,6 +44,12 @@ import
 sys
 import
 pytest
+from
+_pytest
+.
+pytester
+import
+Pytester
 TESTCASES
 =
 [
@@ -1863,12 +1869,21 @@ def
 test_error_diff
 (
 code
+:
+str
 expected
-testdir
+:
+str
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-expected
+expected_lines
 =
 [
 line
@@ -1888,7 +1903,7 @@ splitlines
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1897,7 +1912,7 @@ code
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1914,7 +1929,7 @@ stdout
 .
 fnmatch_lines
 (
-expected
+expected_lines
 )
     
 assert

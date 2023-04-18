@@ -35,7 +35,7 @@ self
 def
 pytest_collect_file
 (
-path
+file_path
 parent
 )
 :
@@ -45,9 +45,9 @@ MyFile
 .
 from_parent
 (
-fspath
-=
 path
+=
+file_path
 parent
 =
 parent

@@ -47,6 +47,12 @@ _pytest
 .
 capture
 import
+CaptureFixture
+from
+_pytest
+.
+capture
+import
 CaptureManager
 from
 _pytest
@@ -69,9 +75,15 @@ ExitCode
 from
 _pytest
 .
+monkeypatch
+import
+MonkeyPatch
+from
+_pytest
+.
 pytester
 import
-Testdir
+Pytester
 def
 StdCaptureFD
 (
@@ -335,6 +347,9 @@ test_capturing_basic_api
 self
 method
 )
+-
+>
+None
 :
         
 capouter
@@ -613,9 +628,16 @@ sys
 def
 test_capturing_unicode
 (
-testdir
+pytester
+:
+Pytester
 method
+:
+str
 )
+-
+>
+None
 :
     
 obj
@@ -628,7 +650,7 @@ u00f6y
 '
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -679,7 +701,7 @@ obj
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -731,12 +753,19 @@ sys
 def
 test_capturing_bytes_in_utf8_encoding
 (
-testdir
+pytester
+:
+Pytester
 method
+:
+str
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -770,7 +799,7 @@ u00f6y
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -804,13 +833,18 @@ passed
 def
 test_collect_capturing
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -861,7 +895,7 @@ xyz42123
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -914,13 +948,18 @@ def
 test_capture_and_fixtures
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1004,7 +1043,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1072,13 +1111,18 @@ def
 test_capture_scope_cache
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1162,7 +1206,7 @@ teardown
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1231,13 +1275,18 @@ def
 test_no_carry_over
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1285,7 +1334,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1323,13 +1372,18 @@ def
 test_teardown_capturing
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1395,7 +1449,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1450,13 +1504,18 @@ def
 test_teardown_capturing_final
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1499,7 +1558,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1555,13 +1614,18 @@ def
 test_capturing_outerr
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1631,7 +1695,7 @@ ValueError
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1731,13 +1795,18 @@ def
 test_logging_stream_ownership
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1797,7 +1866,7 @@ resources
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -1828,13 +1897,18 @@ def
 test_logging_and_immediate_setupteardown
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1938,7 +2012,7 @@ optargs
             
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -1999,13 +2073,18 @@ def
 test_logging_and_crossscope_fixtures
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2109,7 +2188,7 @@ optargs
             
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -2170,11 +2249,16 @@ def
 test_conftestlogging_is_shown
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2210,7 +2294,7 @@ hello435
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -2276,11 +2360,16 @@ def
 test_conftestlogging_and_test_logging
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2307,7 +2396,7 @@ basicConfig
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2346,7 +2435,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -2421,11 +2510,16 @@ def
 test_logging_after_cap_stopped
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2481,7 +2575,7 @@ teardown
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2526,7 +2620,7 @@ KeyboardInterrupt
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -2639,14 +2733,19 @@ def
 test_std_functional
 (
 self
-testdir
+pytester
+:
+Pytester
 opt
 )
+-
+>
+None
 :
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -2709,13 +2808,18 @@ def
 test_capsyscapfd
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2753,7 +2857,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2830,8 +2934,13 @@ def
 test_capturing_getfixturevalue
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -2866,7 +2975,7 @@ error
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2918,7 +3027,7 @@ capsys
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2989,13 +3098,18 @@ def
 test_capsyscapfdbinary
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3023,7 +3137,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3091,15 +3205,22 @@ fd
 def
 test_capture_is_represented_on_failure_issue128
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 method
+    
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3143,7 +3264,7 @@ method
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3167,13 +3288,18 @@ def
 test_stdfd_functional
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -3278,6 +3404,9 @@ self
 capfd
 nl
 )
+-
+>
+None
 :
         
 print
@@ -3311,13 +3440,18 @@ def
 test_capfdbinary
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -3417,13 +3551,18 @@ def
 test_capsysbinary
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3600,7 +3739,7 @@ stderr
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3670,13 +3809,18 @@ def
 test_partial_setup_failure
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3704,7 +3848,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3736,13 +3880,18 @@ def
 test_keyboardinterrupt_disables_capturing
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3786,7 +3935,7 @@ KeyboardInterrupt
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -3820,8 +3969,13 @@ def
 test_capture_and_logging
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -3835,7 +3989,7 @@ testdir
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3872,7 +4026,7 @@ x
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -3930,14 +4084,25 @@ False
 def
 test_disabled_capture_fixture
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 fixture
+:
+str
 no_capture
+:
+bool
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4063,7 +4228,7 @@ else
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -4164,9 +4329,9 @@ def
 test_disabled_capture_fixture_twice
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -4204,7 +4369,7 @@ Issue
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4318,7 +4483,7 @@ n
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -4392,9 +4557,14 @@ def
 test_fixture_use_by_other_fixtures
 (
 self
-testdir
+pytester
+:
+Pytester
 fixture
 )
+-
+>
+None
 :
         
 "
@@ -4421,7 +4591,7 @@ teardown
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4603,7 +4773,7 @@ fixture
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -4677,10 +4847,17 @@ capfd
 def
 test_fixture_use_by_other_fixtures_teardown
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 cap
+    
 )
+-
+>
+None
 :
         
 "
@@ -4710,7 +4887,7 @@ capfd
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4859,7 +5036,7 @@ cap
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -4876,13 +5053,18 @@ passed
 def
 test_setup_failure_does_not_kill_capturing
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 sub1
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -4893,7 +5075,7 @@ sub1
     
 sub1
 .
-join
+joinpath
 (
 "
 conftest
@@ -4902,7 +5084,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -4938,7 +5120,7 @@ ValueError
     
 sub1
 .
-join
+joinpath
 (
 "
 test_mod
@@ -4947,7 +5129,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -4961,13 +5143,13 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
-testdir
+pytester
 .
-tmpdir
+path
 "
 -
 -
@@ -5001,11 +5183,16 @@ error
 def
 test_capture_conftest_runtest_setup
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -5033,7 +5220,7 @@ hello19
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5049,7 +5236,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5078,11 +5265,16 @@ hello19
 def
 test_capture_badoutput_issue412
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5130,7 +5322,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5181,11 +5373,16 @@ failed
 def
 test_capture_early_option_parsing
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -5213,7 +5410,7 @@ hello19
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5229,7 +5426,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5262,11 +5459,16 @@ str
 def
 test_capture_binary_output
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5345,7 +5547,7 @@ test_foo
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5369,8 +5571,13 @@ passed
 def
 test_error_during_readouterr
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -5390,7 +5597,7 @@ readouterr
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5442,7 +5649,7 @@ bad_snap
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -5499,6 +5706,9 @@ test_text
 (
 self
 )
+-
+>
+None
 :
         
 f
@@ -5545,6 +5755,9 @@ test_unicode_and_str_mixture
 (
 self
 )
+-
+>
+None
 :
         
 f
@@ -5584,6 +5797,9 @@ test_write_bytes_to_buffer
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -5670,6 +5886,9 @@ test_text
 (
 self
 )
+-
+>
+None
 :
         
 sio
@@ -5745,6 +5964,9 @@ test_unicode_and_str_mixture
 (
 self
 )
+-
+>
+None
 :
         
 sio
@@ -5791,6 +6013,9 @@ def
 test_dontreadfrominput
 (
 )
+-
+>
+None
 :
     
 from
@@ -6221,7 +6446,9 @@ fixture
 def
 tmpfile
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -6235,7 +6462,7 @@ None
     
 f
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -6327,6 +6554,7 @@ pytest
 .
 skip
 (
+f
 "
 could
 not
@@ -6336,16 +6564,12 @@ lsof
 '
 (
 {
+exc
 !
 r
 }
 )
 "
-.
-format
-(
-exc
-)
 )
     
 yield
@@ -6445,7 +6669,12 @@ test_simple
 (
 self
 tmpfile
+:
+BinaryIO
 )
+-
+>
+None
 :
         
 fd
@@ -6546,7 +6775,12 @@ test_simple_many
 (
 self
 tmpfile
+:
+BinaryIO
 )
+-
+>
+None
 :
         
 for
@@ -6569,8 +6803,13 @@ def
 test_simple_many_check_open_files
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 with
@@ -6580,7 +6819,7 @@ lsof_check
 :
             
 with
-testdir
+pytester
 .
 makepyfile
 (
@@ -6611,7 +6850,12 @@ test_simple_fail_second_start
 (
 self
 tmpfile
+:
+BinaryIO
 )
+-
+>
+None
 :
         
 fd
@@ -6652,6 +6896,9 @@ test_stderr
 (
 self
 )
+-
+>
+None
 :
         
 cap
@@ -6710,6 +6957,9 @@ test_stdin
 (
 self
 )
+-
+>
+None
 :
         
 cap
@@ -6760,7 +7010,12 @@ test_writeorg
 (
 self
 tmpfile
+:
+BinaryIO
 )
+-
+>
+None
 :
         
 data1
@@ -6881,6 +7136,9 @@ test_simple_resume_suspend
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -7154,6 +7412,9 @@ test_capfd_sys_stdout_mode
 self
 capfd
 )
+-
+>
+None
 :
         
 assert
@@ -7272,6 +7533,9 @@ test_capturing_done_simple
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -7336,6 +7600,9 @@ test_capturing_reset_simple
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -7406,6 +7673,9 @@ test_capturing_readouterr
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -7504,6 +7774,9 @@ test_capture_results_accessible_by_attribute
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -7571,6 +7844,9 @@ test_capturing_readouterr_unicode
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -7614,6 +7890,9 @@ test_reset_twice_error
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -7671,6 +7950,9 @@ test_capturing_modify_sysouterr_in_between
 (
 self
 )
+-
+>
+None
 :
         
 oldout
@@ -7805,6 +8087,9 @@ test_capturing_error_recursive
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -7884,6 +8169,9 @@ test_just_out_capture
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -7950,6 +8238,9 @@ test_just_err_capture
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -8016,6 +8307,9 @@ test_stdin_restored
 (
 self
 )
+-
+>
+None
 :
         
 old
@@ -8061,6 +8355,9 @@ test_stdin_nulled_by_default
 (
 self
 )
+-
+>
+None
 :
         
 print
@@ -8139,6 +8436,9 @@ test_capturing_error_recursive
 (
 self
 )
+-
+>
+None
 :
         
 r
@@ -8265,11 +8565,16 @@ def
 test_simple_only_fd
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8313,7 +8618,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -8523,11 +8828,16 @@ def
 test_stdcapture_fd_invalid_fd
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8871,7 +9181,7 @@ stop_capturing
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -8911,8 +9221,13 @@ def
 test_fdcapture_invalid_fd_with_fd_reuse
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 with
@@ -9033,8 +9348,13 @@ def
 test_fdcapture_invalid_fd_without_fd_reuse
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 with
@@ -9165,6 +9485,9 @@ def
 test_capture_not_started_but_reset
 (
 )
+-
+>
+None
 :
     
 capsys
@@ -9181,8 +9504,17 @@ stop_capturing
 def
 test_using_capsys_fixture_works_with_sys_stdout_encoding
 (
+    
 capsys
+:
+CaptureFixture
+[
+str
+]
 )
+-
+>
+None
 :
     
 test_text
@@ -9233,7 +9565,15 @@ def
 test_capsys_results_accessible_by_attribute
 (
 capsys
+:
+CaptureFixture
+[
+str
+]
 )
+-
+>
+None
 :
     
 sys
@@ -9354,11 +9694,16 @@ capfile
 def
 test_close_and_capture_again
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9414,7 +9759,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -9490,7 +9835,9 @@ FDCapture
 def
 test_capturing_and_logging_fundamentals
 (
-testdir
+pytester
+:
+Pytester
 method
 :
 str
@@ -9502,7 +9849,7 @@ None
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -9514,9 +9861,6 @@ makepyfile
 import
 sys
 os
-        
-import
-py
 logging
         
 from
@@ -9648,7 +9992,7 @@ method
     
 result
 =
-testdir
+pytester
 .
 runpython
 (
@@ -9727,11 +10071,16 @@ str
 def
 test_error_attribute_issue555
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9781,7 +10130,7 @@ replace
     
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -9813,29 +10162,11 @@ startswith
 win
 "
 )
-and
-sys
-.
-version_info
-[
-:
-2
-]
->
-=
-(
-3
-6
-)
     
 reason
 =
 "
 only
-py3
-.
-6
-+
 on
 windows
 "
@@ -9923,11 +10254,16 @@ stream
 def
 test_dontreadfrominput_has_encoding
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9973,7 +10309,7 @@ encoding
     
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -9990,13 +10326,22 @@ passed
 def
 test_crash_on_closing_tmpfile_py27
 (
-testdir
+    
+pytester
+:
+Pytester
+monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -10114,8 +10459,6 @@ wait
     
 )
     
-testdir
-.
 monkeypatch
 .
 setenv
@@ -10130,7 +10473,7 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -10176,11 +10519,16 @@ OSError
 def
 test_global_capture_with_live_logging
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -10269,7 +10617,7 @@ capstdout
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10386,7 +10734,7 @@ test
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -10526,12 +10874,23 @@ capfd
 def
 test_capture_with_live_logging
 (
-testdir
+    
+pytester
+:
+Pytester
 capture_fixture
+:
+CaptureFixture
+[
+str
+]
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10684,7 +11043,7 @@ capture_fixture
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -10711,8 +11070,13 @@ ret
 def
 test_typeerror_encodedfile_write
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -10739,7 +11103,7 @@ capturing
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -10777,7 +11141,7 @@ foo
     
 result_without_capture
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10793,7 +11157,7 @@ p
     
 result_with_capture
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10863,7 +11227,15 @@ def
 test_stderr_write_returns_len
 (
 capsys
+:
+CaptureFixture
+[
+str
+]
 )
+-
+>
+None
 :
     
 "
@@ -11068,8 +11440,13 @@ unknown
 def
 test_logging_while_collecting
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -11103,7 +11480,7 @@ stderr
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -11153,7 +11530,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (

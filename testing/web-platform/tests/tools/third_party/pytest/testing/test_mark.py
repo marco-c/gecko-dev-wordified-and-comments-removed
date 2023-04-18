@@ -3,6 +3,14 @@ os
 import
 sys
 from
+typing
+import
+List
+from
+typing
+import
+Optional
+from
 unittest
 import
 mock
@@ -20,8 +28,6 @@ _pytest
 mark
 import
 MarkGenerator
-as
-Mark
 from
 _pytest
 .
@@ -42,6 +48,12 @@ _pytest
 nodes
 import
 Node
+from
+_pytest
+.
+pytester
+import
+Pytester
 class
 TestMark
 :
@@ -65,35 +77,11 @@ param
 ]
 )
     
-pytest
-.
-mark
-.
-parametrize
-(
-"
-modulename
-"
-[
-"
-py
-.
-test
-"
-"
-pytest
-"
-]
-)
-    
 def
 test_pytest_exists_in_namespace_all
 (
 self
 attr
-:
-str
-modulename
 :
 str
 )
@@ -108,7 +96,9 @@ sys
 .
 modules
 [
-modulename
+"
+pytest
+"
 ]
         
 assert
@@ -130,8 +120,11 @@ None
         
 mark
 =
-Mark
+MarkGenerator
 (
+_ispytest
+=
+True
 )
         
 with
@@ -232,12 +225,18 @@ test_pytest_mark_name_starts_with_underscore
 (
 self
 )
+-
+>
+None
 :
         
 mark
 =
-Mark
+MarkGenerator
 (
+_ispytest
+=
+True
 )
         
 with
@@ -255,8 +254,13 @@ _some_name
 def
 test_marked_class_run_twice
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -286,7 +290,7 @@ issue
     
 py_file
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -353,13 +357,11 @@ path
 basename
 (
 py_file
-.
-strpath
 )
     
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -378,11 +380,16 @@ passed
 def
 test_ini_markers
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeini
 (
@@ -420,7 +427,7 @@ marker
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -497,7 +504,7 @@ a2
     
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -514,11 +521,16 @@ passed
 def
 test_markers_option
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeini
 (
@@ -557,7 +569,7 @@ nodescription
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -604,11 +616,16 @@ nodescription
 def
 test_ini_markers_whitespace
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeini
 (
@@ -638,7 +655,7 @@ marker
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -673,7 +690,7 @@ True
     
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -704,11 +721,16 @@ passed
 def
 test_marker_without_description
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makefile
 (
@@ -740,7 +762,7 @@ slow
     
 )
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -771,7 +793,7 @@ FAIL
     
 ftdir
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -780,11 +802,11 @@ ft1_dummy
 "
 )
     
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 conftest
@@ -793,11 +815,11 @@ py
 "
 )
 .
-move
+replace
 (
 ftdir
 .
-join
+joinpath
 (
 "
 conftest
@@ -809,7 +831,7 @@ py
     
 rec
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -830,11 +852,16 @@ assert_outcomes
 def
 test_markers_option_with_plugin_in_current_dir
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -847,7 +874,7 @@ flip_flop
 '
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -922,7 +949,7 @@ x
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -958,7 +985,7 @@ x
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -988,11 +1015,16 @@ flop
 def
 test_mark_on_pseudo_function
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1034,7 +1066,7 @@ pass
     
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1075,12 +1107,20 @@ strict
 def
 test_strict_prohibits_unregistered_markers
 (
-testdir
+    
+pytester
+:
+Pytester
 option_name
+:
+str
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1114,7 +1154,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1252,20 +1292,29 @@ test_two
 def
 test_mark_option
 (
+    
 expr
 :
 str
 expected_passed
 :
+List
+[
+Optional
+[
 str
-testdir
+]
+]
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1313,7 +1362,7 @@ pass
     
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1334,7 +1383,7 @@ listoutcomes
 (
 )
     
-passed
+passed_str
 =
 [
 x
@@ -1359,7 +1408,7 @@ passed
 ]
     
 assert
-passed
+passed_str
 =
 =
 expected_passed
@@ -1406,20 +1455,26 @@ test_nointer
 def
 test_mark_option_custom
 (
+    
 expr
 :
 str
 expected_passed
 :
+List
+[
 str
-testdir
+]
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -1471,7 +1526,7 @@ interface
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1504,7 +1559,7 @@ pass
     
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1525,7 +1580,7 @@ listoutcomes
 (
 )
     
-passed
+passed_str
 =
 [
 x
@@ -1550,7 +1605,7 @@ passed
 ]
     
 assert
-passed
+passed_str
 =
 =
 expected_passed
@@ -1704,20 +1759,26 @@ test_pass
 def
 test_keyword_option_custom
 (
+    
 expr
 :
 str
 expected_passed
 :
+List
+[
 str
-testdir
+]
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1774,7 +1835,7 @@ pass
     
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1795,7 +1856,7 @@ listoutcomes
 (
 )
     
-passed
+passed_str
 =
 [
 x
@@ -1820,18 +1881,23 @@ passed
 ]
     
 assert
-passed
+passed_str
 =
 =
 expected_passed
 def
 test_keyword_option_considers_mark
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 copy_example
 (
@@ -1844,7 +1910,7 @@ marks_considered_keywords
     
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1951,20 +2017,26 @@ test_func
 def
 test_keyword_option_parametrize
 (
+    
 expr
 :
 str
 expected_passed
 :
+List
+[
 str
-testdir
+]
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2015,7 +2087,7 @@ pass
     
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -2036,7 +2108,7 @@ listoutcomes
 (
 )
     
-passed
+passed_str
 =
 [
 x
@@ -2061,18 +2133,23 @@ passed
 ]
     
 assert
-passed
+passed_str
 =
 =
 expected_passed
 def
 test_parametrize_with_module
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2115,7 +2192,7 @@ pass
     
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -2242,10 +2319,12 @@ or
 )
         
 (
+            
 "
 (
 foo
 "
+            
 "
 at
 column
@@ -2260,13 +2339,16 @@ end
 of
 input
 "
+        
 )
         
 (
+            
 "
 foo
 bar
 "
+            
 "
 at
 column
@@ -2280,6 +2362,7 @@ input
 got
 identifier
 "
+        
 )
         
 (
@@ -2346,7 +2429,9 @@ str
 expected_error
 :
 str
-testdir
+pytester
+:
+Pytester
 capsys
 )
 -
@@ -2354,7 +2439,7 @@ capsys
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2378,7 +2463,7 @@ pass
     
 )
     
-testdir
+pytester
 .
 inline_run
 (
@@ -2406,8 +2491,13 @@ err
 def
 test_parametrized_collected_from_command_line
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -2435,7 +2525,7 @@ issue
     
 py_file
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2493,13 +2583,11 @@ path
 basename
 (
 py_file
-.
-strpath
 )
     
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -2526,8 +2614,13 @@ passed
 def
 test_parametrized_collect_with_wrong_args
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -2549,7 +2642,7 @@ args
     
 py_file
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2598,7 +2691,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2676,8 +2769,13 @@ values
 def
 test_parametrized_with_kwargs
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -2699,7 +2797,7 @@ args
     
 py_file
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2772,7 +2870,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2789,8 +2887,13 @@ ret
 def
 test_parametrize_iterator
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -2812,7 +2915,7 @@ generators
     
 py_file
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2875,7 +2978,7 @@ a
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2913,13 +3016,18 @@ def
 test_merging_markers_deep
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2991,7 +3099,7 @@ True
 items
 rec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -3037,14 +3145,21 @@ a
 def
 test_mark_decorator_subclass_does_not_propagate_to_base
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3115,7 +3230,7 @@ pass
 items
 rec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -3150,8 +3265,13 @@ def
 test_mark_should_not_pass_to_siebling_class
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -3165,7 +3285,7 @@ testdir
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3226,7 +3346,7 @@ pass
 items
 rec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -3304,13 +3424,18 @@ def
 test_mark_decorator_baseclasses_merged
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3401,7 +3526,7 @@ pass
 items
 rec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -3445,13 +3570,18 @@ def
 test_mark_closest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3520,7 +3650,7 @@ pass
 items
 rec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -3532,7 +3662,8 @@ has_inherited
 =
 items
         
-assert
+has_own_marker
+=
 has_own
 .
 get_closest_marker
@@ -3541,6 +3672,32 @@ get_closest_marker
 c
 "
 )
+        
+has_inherited_marker
+=
+has_inherited
+.
+get_closest_marker
+(
+"
+c
+"
+)
+        
+assert
+has_own_marker
+is
+not
+None
+        
+assert
+has_inherited_marker
+is
+not
+None
+        
+assert
+has_own_marker
 .
 kwargs
 =
@@ -3556,14 +3713,7 @@ function
 }
         
 assert
-has_inherited
-.
-get_closest_marker
-(
-"
-c
-"
-)
+has_inherited_marker
 .
 kwargs
 =
@@ -3594,13 +3744,18 @@ def
 test_mark_with_wrong_marker
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -3671,11 +3826,16 @@ def
 test_mark_dynamically_in_funcarg
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -3754,7 +3914,7 @@ keywords
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3780,7 +3940,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3807,13 +3967,18 @@ def
 test_no_marker_match_on_unmarked_names
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3857,7 +4022,7 @@ assert
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -3933,11 +4098,16 @@ def
 test_keywords_at_node_level
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4052,7 +4222,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -4071,11 +4241,16 @@ def
 test_keyword_added_for_session
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -4147,7 +4322,7 @@ add_marker
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4247,7 +4422,7 @@ kwargs
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -4278,6 +4453,9 @@ items
 *
 expected
 )
+-
+>
+None
 :
         
 "
@@ -4322,7 +4500,7 @@ could
 be
 moved
 to
-testdir
+pytester
 if
 proven
 to
@@ -4406,8 +4584,13 @@ def
 test_mark_from_parameters
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -4419,7 +4602,7 @@ testdir
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4517,7 +4700,7 @@ True
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -4536,8 +4719,13 @@ def
 test_reevaluate_dynamic_expr
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -4551,7 +4739,7 @@ testdir
         
 py_file1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4597,7 +4785,7 @@ True
         
 py_file2
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4650,8 +4838,6 @@ path
 basename
 (
 py_file1
-.
-strpath
 )
         
 file_name2
@@ -4663,13 +4849,11 @@ path
 basename
 (
 py_file2
-.
-strpath
 )
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -4696,13 +4880,18 @@ def
 test_select_simple
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 file_test
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4756,7 +4945,7 @@ name
             
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -4919,14 +5108,19 @@ def
 test_select_extra_keywords
 (
 self
-testdir
+pytester
+:
+Pytester
 keyword
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4967,7 +5161,7 @@ pass
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5037,15 +5231,13 @@ xxx
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
 p
 .
-dirpath
-(
-)
+parent
 "
 -
 s
@@ -5144,13 +5336,18 @@ def
 test_select_starton
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 threepass
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5193,10 +5390,20 @@ assert
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
+            
+"
+-
+Wignore
+:
+:
+pytest
+.
+PytestRemovedIn7Warning
+"
 "
 -
 k
@@ -5206,6 +5413,7 @@ test_two
 :
 "
 threepass
+        
 )
         
 passed
@@ -5277,13 +5485,18 @@ def
 test_keyword_extra
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5315,7 +5528,7 @@ True
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -5355,13 +5568,18 @@ def
 test_keyword_extra_dash
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5393,7 +5611,7 @@ True
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -5438,6 +5656,7 @@ parametrize
 "
 keyword
 "
+        
 [
 "
 __
@@ -5457,7 +5676,9 @@ def
 test_no_magic_values
 (
 self
-testdir
+pytester
+:
+Pytester
 keyword
 :
 str
@@ -5501,7 +5722,7 @@ and
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5526,7 +5747,7 @@ assert
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -5591,8 +5812,13 @@ def
 test_no_match_directories_outside_the_suite
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -5642,7 +5868,7 @@ pass
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5688,7 +5914,7 @@ args
 _
 rec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -5756,11 +5982,9 @@ get_collected_names
 -
 k
 "
-testdir
+pytester
 .
-tmpdir
-.
-basename
+_name
 )
 =
 =
@@ -5880,6 +6104,9 @@ lhs
 rhs
 expected
 )
+-
+>
+None
 :
         
 assert
@@ -5980,9 +6207,20 @@ xfail
 def
 test_parameterset_for_parametrize_marks
 (
-testdir
+    
+pytester
+:
+Pytester
 mark
+:
+Optional
+[
+str
+]
 )
+-
+>
+None
 :
     
 if
@@ -5992,7 +6230,7 @@ not
 None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -6027,7 +6265,7 @@ mark
     
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -6128,11 +6366,16 @@ False
 def
 test_parameterset_for_fail_at_collect
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeini
 (
@@ -6165,7 +6408,7 @@ EMPTY_PARAMETERSET_OPTION
     
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -6230,7 +6473,7 @@ pytest_configure
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -6271,7 +6514,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6347,8 +6590,13 @@ INTERRUPTED
 def
 test_parameterset_for_parametrize_bad_markname
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 with
@@ -6364,7 +6612,7 @@ UsageError
         
 test_parameterset_for_parametrize_marks
 (
-testdir
+pytester
 "
 bad
 "
@@ -6372,11 +6620,16 @@ bad
 def
 test_mark_expressions_no_smear
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6442,7 +6695,7 @@ pass
     
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6511,7 +6764,11 @@ deselected_tests
 def
 test_addmarker_order
 (
+pytester
 )
+-
+>
+None
 :
     
 session
@@ -6541,6 +6798,14 @@ nodeid
 =
 "
 "
+    
+session
+.
+path
+=
+pytester
+.
+path
     
 node
 =
@@ -6630,8 +6895,13 @@ ignore
 def
 test_markers_from_parametrize
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -6643,7 +6913,7 @@ testdir
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6842,7 +7112,7 @@ obj_type
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6938,6 +7208,9 @@ test_pytest_param_id_allows_none_or_string
 (
 s
 )
+-
+>
+None
 :
     
 assert
@@ -6971,21 +7244,26 @@ internal_err
 "
 "
 bogus
-/
+=
 "
 )
 )
 def
 test_marker_expr_eval_failure_handling
 (
-testdir
+pytester
+:
+Pytester
 expr
 )
+-
+>
+None
 :
     
 foo
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -7019,6 +7297,7 @@ pass
     
 expected
 =
+f
 "
 ERROR
 :
@@ -7032,19 +7311,15 @@ m
 '
 :
 {
+expr
 }
 :
 *
 "
-.
-format
-(
-expr
-)
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (

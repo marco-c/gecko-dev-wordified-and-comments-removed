@@ -84,9 +84,6 @@ opts
     
 class
 Plugin
-(
-object
-)
 :
         
 def
@@ -115,13 +112,10 @@ self
 )
 :
             
-pass
+yield
     
 class
 Spec
-(
-object
-)
 :
         
 hookspec
@@ -278,9 +272,6 @@ deprecated
     
 class
 Spec
-(
-object
-)
 :
         
 hookspec
@@ -301,9 +292,6 @@ pass
     
 class
 Plugin
-(
-object
-)
 :
         
 hookimpl
@@ -432,9 +420,6 @@ called
     
 class
 DontTouchMe
-(
-object
-)
 :
         
 def
@@ -457,9 +442,6 @@ me
     
 class
 Module
-(
-object
-)
 :
         
 pass
@@ -697,6 +679,7 @@ hookimpl
 def
 myhook
 (
+self
 )
 :
             
@@ -747,23 +730,25 @@ _nonwrappers
 =
 (
         
+f
 "
 <
 HookImpl
 plugin_name
 =
-%
+{
+pname
+!
 r
+}
 plugin
 =
-%
+{
+plugin
+!
 r
+}
 >
 "
-%
-(
-pname
-plugin
-)
     
 )

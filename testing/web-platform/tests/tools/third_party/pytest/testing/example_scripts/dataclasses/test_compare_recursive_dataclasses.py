@@ -76,6 +76,7 @@ S
 ten
 "
 )
+        
 C2
 (
 C
@@ -103,9 +104,11 @@ three
 "
 )
 )
+        
 "
 equal
 "
+        
 "
 left
 "
@@ -124,6 +127,7 @@ S
 xxx
 "
 )
+        
 C2
 (
 C
@@ -151,9 +155,11 @@ three
 "
 )
 )
+        
 "
 equal
 "
+        
 "
 right
 "

@@ -19,6 +19,8 @@ bdb
 import
 inspect
 import
+os
+import
 platform
 import
 sys
@@ -32,6 +34,10 @@ from
 contextlib
 import
 contextmanager
+from
+pathlib
+import
+Path
 from
 typing
 import
@@ -75,11 +81,15 @@ Tuple
 from
 typing
 import
-Union
+Type
+from
+typing
 import
-py
-.
-path
+TYPE_CHECKING
+from
+typing
+import
+Union
 import
 pytest
 from
@@ -125,12 +135,6 @@ safe_getattr
 from
 _pytest
 .
-compat
-import
-TYPE_CHECKING
-from
-_pytest
-.
 config
 import
 Config
@@ -165,6 +169,12 @@ _pytest
 .
 pathlib
 import
+fnmatch_ex
+from
+_pytest
+.
+pathlib
+import
 import_path
 from
 _pytest
@@ -184,11 +194,6 @@ TYPE_CHECKING
     
 import
 doctest
-    
-from
-typing
-import
-Type
 DOCTEST_REPORT_CHOICE_NONE
 =
 "
@@ -232,6 +237,18 @@ RUNNER_CLASS
 =
 None
 CHECKER_CLASS
+:
+Optional
+[
+Type
+[
+"
+doctest
+.
+OutputChecker
+"
+]
+]
 =
 None
 def
@@ -573,13 +590,10 @@ def
 pytest_collect_file
 (
     
-path
+file_path
 :
-py
-.
-path
-.
-local
+Path
+    
 parent
 :
 Collector
@@ -607,9 +621,9 @@ parent
 config
     
 if
-path
+file_path
 .
-ext
+suffix
 =
 =
 "
@@ -626,22 +640,35 @@ option
 doctestmodules
 and
 not
+any
+(
+            
+(
 _is_setup_py
 (
-path
+file_path
+)
+_is_main_py
+(
+file_path
+)
+)
+        
 )
 :
             
 mod
+:
+DoctestModule
 =
 DoctestModule
 .
 from_parent
 (
 parent
-fspath
-=
 path
+=
+file_path
 )
             
 return
@@ -651,21 +678,23 @@ elif
 _is_doctest
 (
 config
-path
+file_path
 parent
 )
 :
         
 txt
+:
+DoctestTextfile
 =
 DoctestTextfile
 .
 from_parent
 (
 parent
-fspath
-=
 path
+=
+file_path
 )
         
 return
@@ -678,11 +707,7 @@ _is_setup_py
 (
 path
 :
-py
-.
-path
-.
-local
+Path
 )
 -
 >
@@ -692,7 +717,7 @@ bool
 if
 path
 .
-basename
+name
 !
 =
 "
@@ -709,7 +734,7 @@ contents
 =
 path
 .
-read_binary
+read_bytes
 (
 )
     
@@ -735,12 +760,10 @@ config
 Config
 path
 :
-py
-.
-path
-.
-local
+Path
 parent
+:
+Collector
 )
 -
 >
@@ -750,7 +773,7 @@ bool
 if
 path
 .
-ext
+suffix
 in
 (
 "
@@ -796,28 +819,42 @@ txt
 "
 ]
     
+return
+any
+(
+fnmatch_ex
+(
+glob
+path
+)
 for
 glob
 in
 globs
-:
-        
-if
-path
-.
-check
-(
-fnmatch
-=
-glob
 )
+def
+_is_main_py
+(
+path
 :
-            
-return
-True
+Path
+)
+-
+>
+bool
+:
     
 return
-False
+path
+.
+name
+=
+=
+"
+__main__
+.
+py
+"
 class
 ReprFailDoctest
 (
@@ -910,14 +947,14 @@ __init__
 self
 failures
 :
-"
 Sequence
 [
+"
 doctest
 .
 DocTestFailure
-]
 "
+]
 )
 -
 >
@@ -943,14 +980,14 @@ _init_runner_class
 )
 -
 >
-"
 Type
 [
+"
 doctest
 .
 DocTestRunner
-]
 "
+]
 :
     
 import
@@ -1009,9 +1046,11 @@ checker
 :
 Optional
 [
+"
 doctest
 .
 OutputChecker
+"
 ]
 =
 None
@@ -1043,14 +1082,12 @@ True
 None
 :
             
-doctest
-.
-DebugRunner
+super
+(
+)
 .
 __init__
 (
-                
-self
 checker
 =
 checker
@@ -1060,7 +1097,6 @@ verbose
 optionflags
 =
 optionflags
-            
 )
             
 self
@@ -1074,7 +1110,9 @@ report_failure
 (
             
 self
+            
 out
+            
 test
 :
 "
@@ -1082,6 +1120,7 @@ doctest
 .
 DocTest
 "
+            
 example
 :
 "
@@ -1089,6 +1128,7 @@ doctest
 .
 Example
 "
+            
 got
 :
 str
@@ -1155,7 +1195,6 @@ Example
             
 exc_info
 :
-"
 Tuple
 [
 Type
@@ -1167,7 +1206,6 @@ types
 .
 TracebackType
 ]
-"
         
 )
 -
@@ -1422,6 +1460,11 @@ None
 self
 .
 fixture_request
+:
+Optional
+[
+FixtureRequest
+]
 =
 None
     
@@ -1622,6 +1665,15 @@ _disable_output_capturing_for_darwin
 )
         
 failures
+:
+List
+[
+"
+doctest
+.
+DocTestFailure
+"
+]
 =
 [
 ]
@@ -1757,6 +1809,7 @@ repr_failure
 (
         
 self
+        
 excinfo
 :
 ExceptionInfo
@@ -1778,12 +1831,26 @@ import
 doctest
         
 failures
-=
-(
+:
+Optional
+[
             
-None
+Sequence
+[
+Union
+[
+doctest
+.
+DocTestFailure
+doctest
+.
+UnexpectedException
+]
+]
         
-)
+]
+=
+None
         
 if
 isinstance
@@ -1833,39 +1900,48 @@ failures
 if
 failures
 is
-not
 None
 :
             
+return
+super
+(
+)
+.
+repr_failure
+(
+excinfo
+)
+        
 reprlocation_lines
 =
 [
 ]
-            
+        
 for
 failure
 in
 failures
 :
-                
+            
 example
 =
 failure
 .
 example
-                
+            
 test
 =
 failure
 .
 test
-                
+            
 filename
 =
 test
 .
 filename
-                
+            
 if
 test
 .
@@ -1873,14 +1949,14 @@ lineno
 is
 None
 :
-                    
+                
 lineno
 =
 None
-                
+            
 else
 :
-                    
+                
 lineno
 =
 test
@@ -1892,7 +1968,7 @@ example
 lineno
 +
 1
-                
+            
 message
 =
 type
@@ -1901,7 +1977,7 @@ failure
 )
 .
 __name__
-                
+            
 reprlocation
 =
 ReprFileLocation
@@ -1910,18 +1986,17 @@ filename
 lineno
 message
 )
-                
+            
 checker
 =
 _get_checker
 (
 )
-                
+            
 report_choice
 =
 _get_report_choice
 (
-                    
 self
 .
 config
@@ -1932,16 +2007,15 @@ getoption
 doctestreport
 "
 )
-                
 )
-                
+            
 if
 lineno
 is
 not
 None
 :
-                    
+                
 assert
 failure
 .
@@ -1951,7 +2025,7 @@ docstring
 is
 not
 None
-                    
+                
 lines
 =
 failure
@@ -1964,7 +2038,7 @@ splitlines
 (
 False
 )
-                    
+                
 assert
 test
 .
@@ -1972,11 +2046,11 @@ lineno
 is
 not
 None
-                    
+                
 lines
 =
 [
-                        
+                    
 "
 %
 03d
@@ -1994,7 +2068,6 @@ lineno
 1
 x
 )
-                        
 for
 (
 i
@@ -2005,9 +2078,9 @@ enumerate
 (
 lines
 )
-                    
+                
 ]
-                    
+                
 lines
 =
 lines
@@ -2028,14 +2101,14 @@ lineno
 +
 1
 ]
-                
+            
 else
 :
-                    
+                
 lines
 =
 [
-                        
+                    
 "
 EXAMPLE
 LOCATION
@@ -2048,9 +2121,9 @@ of
 that
 example
 "
-                    
+                
 ]
-                    
+                
 indent
 =
 "
@@ -2058,7 +2131,7 @@ indent
 >
 >
 "
-                    
+                
 for
 line
 in
@@ -2070,28 +2143,25 @@ splitlines
 (
 )
 :
-                        
+                    
 lines
 .
 append
 (
+f
 "
 ?
 ?
 ?
 {
-}
-{
-}
-"
-.
-format
-(
 indent
+}
+{
 line
+}
+"
 )
-)
-                        
+                    
 indent
 =
 "
@@ -2099,7 +2169,7 @@ indent
 .
 .
 "
-                
+            
 if
 isinstance
 (
@@ -2109,7 +2179,7 @@ doctest
 DocTestFailure
 )
 :
-                    
+                
 lines
 +
 =
@@ -2117,13 +2187,13 @@ checker
 .
 output_difference
 (
-                        
+                    
 example
 failure
 .
 got
 report_choice
-                    
+                
 )
 .
 split
@@ -2133,19 +2203,21 @@ split
 n
 "
 )
-                
+            
 else
 :
-                    
+                
 inner_excinfo
 =
 ExceptionInfo
+.
+from_exc_info
 (
 failure
 .
 exc_info
 )
-                    
+                
 lines
 +
 =
@@ -2165,12 +2237,12 @@ inner_excinfo
 value
 )
 ]
-                    
+                
 lines
 +
 =
 [
-                        
+                    
 x
 .
 strip
@@ -2180,7 +2252,6 @@ strip
 n
 "
 )
-                        
 for
 x
 in
@@ -2193,9 +2264,9 @@ failure
 .
 exc_info
 )
-                    
-]
                 
+]
+            
 reprlocation_lines
 .
 append
@@ -2205,24 +2276,11 @@ reprlocation
 lines
 )
 )
-            
+        
 return
 ReprFailDoctest
 (
 reprlocation_lines
-)
-        
-else
-:
-            
-return
-super
-(
-)
-.
-repr_failure
-(
-excinfo
 )
     
 def
@@ -2230,6 +2288,28 @@ reportinfo
 (
 self
 )
+-
+>
+Tuple
+[
+Union
+[
+"
+os
+.
+PathLike
+[
+str
+]
+"
+str
+]
+Optional
+[
+int
+]
+str
+]
 :
         
 assert
@@ -2243,7 +2323,7 @@ None
 return
 self
 .
-fspath
+path
 self
 .
 dtest
@@ -2466,7 +2546,7 @@ text
 =
 self
 .
-fspath
+path
 .
 read_text
 (
@@ -2479,16 +2559,16 @@ str
 (
 self
 .
-fspath
+path
 )
         
 name
 =
 self
 .
-fspath
+path
 .
-basename
+name
         
 globs
 =
@@ -3074,7 +3154,6 @@ to
 fix
 it
 .
-                
 https
 :
 /
@@ -3086,6 +3165,31 @@ python
 org
 /
 issue17446
+                
+Wrapped
+Doctests
+will
+need
+to
+be
+unwrapped
+so
+the
+correct
+                
+line
+number
+is
+returned
+.
+This
+will
+be
+reported
+upstream
+.
+#
+8796
                 
 "
 "
@@ -3110,16 +3214,35 @@ fget
 obj
 )
                 
-return
-doctest
+if
+hasattr
+(
+obj
+"
+__wrapped__
+"
+)
+:
+                    
+obj
+=
+inspect
 .
-DocTestFinder
+unwrap
+(
+obj
+)
+                
+return
+super
+(
+)
 .
 _find_lineno
 (
                     
-self
 obj
+                    
 source_lines
                 
 )
@@ -3158,14 +3281,13 @@ _patch_unwrap_mock_aware
 )
 :
                     
-doctest
-.
-DocTestFinder
+super
+(
+)
 .
 _find
 (
                         
-self
 tests
 obj
 name
@@ -3179,9 +3301,9 @@ seen
 if
 self
 .
-fspath
+path
 .
-basename
+name
 =
 =
 "
@@ -3204,7 +3326,8 @@ _importconftest
                 
 self
 .
-fspath
+path
+                
 self
 .
 config
@@ -3215,6 +3338,14 @@ getoption
 importmode
 "
 )
+                
+rootpath
+=
+self
+.
+config
+.
+rootpath
             
 )
         
@@ -3230,7 +3361,14 @@ import_path
 (
 self
 .
-fspath
+path
+root
+=
+self
+.
+config
+.
+rootpath
 )
             
 except
@@ -3265,7 +3403,7 @@ r
 %
 self
 .
-fspath
+path
 )
                 
 else
@@ -3440,6 +3578,9 @@ fixture_request
 FixtureRequest
 (
 doctest_item
+_ispytest
+=
+True
 )
     
 fixture_request
@@ -3456,14 +3597,14 @@ _init_checker_class
 )
 -
 >
-"
 Type
 [
+"
 doctest
 .
 OutputChecker
-]
 "
+]
 :
     
 import
@@ -3730,13 +3871,12 @@ bool
 :
             
 if
-doctest
-.
-OutputChecker
+super
+(
+)
 .
 check_output
 (
-self
 want
 got
 optionflags
@@ -3881,13 +4021,12 @@ got
 )
             
 return
-doctest
-.
-OutputChecker
+super
+(
+)
 .
 check_output
 (
-self
 want
 got
 optionflags
@@ -3969,6 +4108,11 @@ gots
 :
                 
 fraction
+:
+Optional
+[
+str
+]
 =
 w
 .
@@ -3980,6 +4124,11 @@ fraction
 )
                 
 exponent
+:
+Optional
+[
+str
+]
 =
 w
 .
@@ -4007,21 +4156,14 @@ exponent2
 "
 )
                 
+precision
+=
+0
 if
 fraction
 is
 None
-:
-                    
-precision
-=
-0
-                
 else
-:
-                    
-precision
-=
 len
 (
 fraction

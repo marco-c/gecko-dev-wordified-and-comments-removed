@@ -179,7 +179,7 @@ fullsource
 is
 None
 def
-test_code_with_class
+test_code_from_function_with_class
 (
 )
 -
@@ -193,12 +193,19 @@ A
         
 pass
     
+with
 pytest
 .
 raises
 (
 TypeError
+)
+:
+        
 Code
+.
+from_function
+(
 A
 )
 def
@@ -226,6 +233,8 @@ None
 code
 =
 Code
+.
+from_function
 (
 x
 )
@@ -259,6 +268,8 @@ None
 code
 =
 Code
+.
+from_function
 (
 x
 )
@@ -449,6 +460,8 @@ None
 co
 =
 Code
+.
+from_function
 (
 test_frame_getsourcelineno_myself
 )
@@ -533,6 +546,8 @@ NotImplementedError
 c1
 =
 Code
+.
+from_function
 (
 f1
 )
@@ -571,6 +586,8 @@ NotImplementedError
 c2
 =
 Code
+.
+from_function
 (
 f2
 )
@@ -613,6 +630,8 @@ NotImplementedError
 c3
 =
 Code
+.
+from_function
 (
 f3
 )
@@ -657,6 +676,8 @@ NotImplementedError
 c4
 =
 Code
+.
+from_function
 (
 f4
 )

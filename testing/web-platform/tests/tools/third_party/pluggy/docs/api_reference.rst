@@ -42,7 +42,7 @@ autoclass
 :
 pluggy
 .
-callers
+_callers
 .
 _Result
 .
@@ -52,7 +52,7 @@ automethod
 :
 pluggy
 .
-callers
+_callers
 .
 _Result
 .
@@ -64,7 +64,7 @@ automethod
 :
 pluggy
 .
-callers
+_callers
 .
 _Result
 .
@@ -76,7 +76,7 @@ autoclass
 :
 pluggy
 .
-hooks
+_hooks
 .
 _HookCaller
 .
@@ -86,7 +86,7 @@ automethod
 :
 pluggy
 .
-hooks
+_hooks
 .
 _HookCaller
 .
@@ -98,7 +98,7 @@ automethod
 :
 pluggy
 .
-hooks
+_hooks
 .
 _HookCaller
 .
@@ -110,6 +110,6 @@ autoclass
 :
 pluggy
 .
-hooks
+_hooks
 .
 _HookRelay

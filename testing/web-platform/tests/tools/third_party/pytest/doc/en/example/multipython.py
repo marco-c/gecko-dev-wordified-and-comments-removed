@@ -58,22 +58,19 @@ def
 python1
 (
 request
-tmpdir
+tmp_path
 )
 :
     
 picklefile
 =
-tmpdir
-.
-join
-(
+tmp_path
+/
 "
 data
 .
 pickle
 "
-)
     
 return
 Python
@@ -144,19 +141,16 @@ pytest
 .
 skip
 (
+f
 "
 {
+version
 !
 r
 }
 not
 found
 "
-.
-format
-(
-version
-)
 )
         
 self
@@ -179,7 +173,7 @@ self
 .
 picklefile
 .
-dirpath
+with_name
 (
 "
 dump
@@ -190,7 +184,7 @@ py
         
 dumpfile
 .
-write
+write_text
 (
             
 textwrap
@@ -291,7 +285,7 @@ self
 .
 picklefile
 .
-dirpath
+with_name
 (
 "
 load
@@ -302,7 +296,7 @@ py
         
 loadfile
 .
-write
+write_text
 (
             
 textwrap
@@ -447,16 +441,13 @@ python2
 .
 load_and_is_true
 (
+f
 "
 obj
 =
 =
 {
+obj
 }
 "
-.
-format
-(
-obj
-)
 )

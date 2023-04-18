@@ -36,17 +36,17 @@ pytester
 def
 test_failure_demo_fails_properly
 (
-testdir
+pytester
 )
 :
     
 target
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 os
 .
@@ -68,7 +68,7 @@ target
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (

@@ -46,8 +46,6 @@ Copyright
 c
 )
 2004
--
-2020
 Holger
 Krekel
 and
@@ -247,6 +245,6 @@ pytest
 /
 blob
 /
-master
+main
 /
 LICENSE

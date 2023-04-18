@@ -3,9 +3,19 @@ os
 import
 pprint
 import
+shutil
+import
 sys
 import
 textwrap
+from
+pathlib
+import
+Path
+from
+typing
+import
+List
 import
 pytest
 from
@@ -14,6 +24,12 @@ _pytest
 config
 import
 ExitCode
+from
+_pytest
+.
+fixtures
+import
+FixtureRequest
 from
 _pytest
 .
@@ -29,9 +45,15 @@ Session
 from
 _pytest
 .
-pathlib
+monkeypatch
 import
-Path
+MonkeyPatch
+from
+_pytest
+.
+nodes
+import
+Item
 from
 _pytest
 .
@@ -43,7 +65,61 @@ _pytest
 .
 pytester
 import
-Testdir
+HookRecorder
+from
+_pytest
+.
+pytester
+import
+Pytester
+def
+ensure_file
+(
+file_path
+:
+Path
+)
+-
+>
+Path
+:
+    
+"
+"
+"
+Ensure
+that
+file
+exists
+"
+"
+"
+    
+file_path
+.
+parent
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
+)
+    
+file_path
+.
+touch
+(
+exist_ok
+=
+True
+)
+    
+return
+file_path
 class
 TestCollector
 :
@@ -53,12 +129,19 @@ test_collect_versus_item
 (
 self
 )
+-
+>
+None
 :
         
 from
 pytest
 import
 Collector
+        
+from
+pytest
+import
 Item
         
 assert
@@ -81,9 +164,9 @@ def
 test_check_equality
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -92,7 +175,7 @@ None
         
 modcol
 =
-testdir
+pytester
 .
 getmodulecol
 (
@@ -124,7 +207,7 @@ assert
         
 fn1
 =
-testdir
+pytester
 .
 collect_by_name
 (
@@ -145,7 +228,7 @@ Function
         
 fn2
 =
-testdir
+pytester
 .
 collect_by_name
 (
@@ -190,7 +273,7 @@ fn2
         
 fn3
 =
-testdir
+pytester
 .
 collect_by_name
 (
@@ -280,7 +363,7 @@ modcol
 fn
         
 assert
-testdir
+pytester
 .
 collect_by_name
 (
@@ -293,16 +376,21 @@ is
 None
     
 def
-test_getparent
+test_getparent_and_accessors
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 modcol
 =
-testdir
+pytester
 .
 getmodulecol
 (
@@ -332,7 +420,7 @@ pass
         
 cls
 =
-testdir
+pytester
 .
 collect_by_name
 (
@@ -342,29 +430,37 @@ TestClass
 "
 )
         
+assert
+isinstance
+(
+cls
+pytest
+.
+Class
+)
+        
 fn
 =
-testdir
-.
-collect_by_name
-(
-testdir
+pytester
 .
 collect_by_name
 (
 cls
 "
-(
-)
-"
-)
-"
 test_foo
 "
 )
         
-parent
-=
+assert
+isinstance
+(
+fn
+pytest
+.
+Function
+)
+        
+assert
 fn
 .
 getparent
@@ -373,30 +469,32 @@ pytest
 .
 Module
 )
-        
-assert
-parent
 is
 modcol
         
-parent
-=
-fn
+assert
+modcol
 .
-getparent
-(
-pytest
-.
-Function
-)
+module
+is
+not
+None
         
 assert
-parent
+modcol
+.
+cls
 is
-fn
+None
         
-parent
-=
+assert
+modcol
+.
+instance
+is
+None
+        
+assert
 fn
 .
 getparent
@@ -405,23 +503,92 @@ pytest
 .
 Class
 )
-        
-assert
-parent
 is
 cls
+        
+assert
+cls
+.
+module
+is
+not
+None
+        
+assert
+cls
+.
+cls
+is
+not
+None
+        
+assert
+cls
+.
+instance
+is
+None
+        
+assert
+fn
+.
+getparent
+(
+pytest
+.
+Function
+)
+is
+fn
+        
+assert
+fn
+.
+module
+is
+not
+None
+        
+assert
+fn
+.
+cls
+is
+not
+None
+        
+assert
+fn
+.
+instance
+is
+not
+None
+        
+assert
+fn
+.
+function
+is
+not
+None
     
 def
 test_getcustomfile_roundtrip
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 hello
 =
-testdir
+pytester
 .
 makefile
 (
@@ -436,7 +603,7 @@ world
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -464,15 +631,15 @@ pass
 def
 pytest_collect_file
 (
-path
+file_path
 parent
 )
 :
                 
 if
-path
+file_path
 .
-ext
+suffix
 =
 =
 "
@@ -486,9 +653,9 @@ CustomFile
 .
 from_parent
 (
-fspath
-=
 path
+=
+file_path
 parent
 =
 parent
@@ -502,7 +669,7 @@ parent
         
 node
 =
-testdir
+pytester
 .
 getpathnode
 (
@@ -573,8 +740,13 @@ def
 test_can_skip_class_with_test_attr
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -600,7 +772,7 @@ See
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -646,7 +818,7 @@ True
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -682,23 +854,29 @@ def
 test_ignored_certain_directories
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-tmpdir
+tmp_path
 =
-testdir
+pytester
 .
-tmpdir
+path
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 build
 "
+/
 "
 test_notfound
 .
@@ -706,13 +884,14 @@ py
 "
 )
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 dist
 "
+/
 "
 test_notfound
 .
@@ -720,13 +899,14 @@ py
 "
 )
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 _darcs
 "
+/
 "
 test_notfound
 .
@@ -734,13 +914,14 @@ py
 "
 )
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 CVS
 "
+/
 "
 test_notfound
 .
@@ -748,15 +929,16 @@ py
 "
 )
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 {
 arch
 }
 "
+/
 "
 test_notfound
 .
@@ -764,14 +946,15 @@ py
 "
 )
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 .
 whatever
 "
+/
 "
 test_notfound
 .
@@ -779,14 +962,15 @@ py
 "
 )
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 .
 bzr
 "
+/
 "
 test_notfound
 .
@@ -794,13 +978,14 @@ py
 "
 )
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 normal
 "
+/
 "
 test_found
 .
@@ -811,13 +996,7 @@ py
 for
 x
 in
-Path
-(
-str
-(
-tmpdir
-)
-)
+tmp_path
 .
 rglob
 (
@@ -851,7 +1030,7 @@ utf
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -942,9 +1121,16 @@ def
 test_ignored_virtualenvs
 (
 self
-testdir
+pytester
+:
+Pytester
 fname
+:
+str
 )
+-
+>
+None
 :
         
 bindir
@@ -968,30 +1154,33 @@ else
 bin
 "
         
-testdir
-.
-tmpdir
-.
-ensure
+ensure_file
 (
+pytester
+.
+path
+/
 "
 virtual
 "
+/
 bindir
+/
 fname
 )
         
 testfile
 =
-testdir
-.
-tmpdir
-.
-ensure
+ensure_file
 (
+pytester
+.
+path
+/
 "
 virtual
 "
+/
 "
 test_invenv
 .
@@ -1001,7 +1190,7 @@ py
         
 testfile
 .
-write
+write_text
 (
 "
 def
@@ -1015,7 +1204,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1036,7 +1225,7 @@ test_invenv
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1066,7 +1255,7 @@ str
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1140,10 +1329,19 @@ ps1
 def
 test_ignored_virtualenvs_norecursedirs_precedence
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 fname
+:
+str
+    
 )
+-
+>
+None
 :
         
 bindir
@@ -1167,32 +1365,35 @@ else
 bin
 "
         
-testdir
-.
-tmpdir
-.
-ensure
+ensure_file
 (
+pytester
+.
+path
+/
 "
 .
 virtual
 "
+/
 bindir
+/
 fname
 )
         
 testfile
 =
-testdir
-.
-tmpdir
-.
-ensure
+ensure_file
 (
+pytester
+.
+path
+/
 "
 .
 virtual
 "
+/
 "
 test_invenv
 .
@@ -1202,7 +1403,7 @@ py
         
 testfile
 .
-write
+write_text
 (
 "
 def
@@ -1216,7 +1417,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1246,7 +1447,7 @@ test_invenv
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1331,9 +1532,16 @@ def
 test__in_venv
 (
 self
-testdir
+pytester
+:
+Pytester
 fname
+:
+str
 )
+-
+>
+None
 :
         
 "
@@ -1373,9 +1581,7 @@ bin
         
 base_path
 =
-testdir
-.
-tmpdir
+pytester
 .
 mkdir
 (
@@ -1392,12 +1598,30 @@ base_path
 is
 False
         
+bin_path
+=
 base_path
 .
-ensure
+joinpath
 (
 bindir
+)
+        
+bin_path
+.
+mkdir
+(
+)
+        
+bin_path
+.
+joinpath
+(
 fname
+)
+.
+touch
+(
 )
         
 assert
@@ -1412,11 +1636,16 @@ def
 test_custom_norecursedirs
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -1441,19 +1670,20 @@ xyz
         
 )
         
-tmpdir
+tmp_path
 =
-testdir
+pytester
 .
-tmpdir
+path
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 mydir
 "
+/
 "
 test_hello
 .
@@ -1461,8 +1691,9 @@ py
 "
 )
 .
-write
+write_text
 (
+            
 "
 def
 test_1
@@ -1471,15 +1702,17 @@ test_1
 :
 pass
 "
+        
 )
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 xyz123
 "
+/
 "
 test_2
 .
@@ -1487,7 +1720,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -1501,13 +1734,14 @@ test_2
 "
 )
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 xy
 "
+/
 "
 test_ok
 .
@@ -1515,7 +1749,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -1529,7 +1763,7 @@ pass
         
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1546,7 +1780,7 @@ passed
         
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1572,12 +1806,19 @@ def
 test_testpaths_ini
 (
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -1601,19 +1842,20 @@ uts
         
 )
         
-tmpdir
+tmp_path
 =
-testdir
+pytester
 .
-tmpdir
+path
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 env
 "
+/
 "
 test_1
 .
@@ -1621,7 +1863,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -1633,13 +1875,14 @@ pass
 "
 )
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 gui
 "
+/
 "
 test_2
 .
@@ -1647,7 +1890,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -1659,13 +1902,14 @@ pass
 "
 )
         
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 uts
 "
+/
 "
 test_3
 .
@@ -1673,7 +1917,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -1688,7 +1932,7 @@ pass
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -1738,13 +1982,13 @@ uts
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 dirname
 )
@@ -1792,11 +2036,11 @@ monkeypatch
 .
 chdir
 (
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 dirname
 )
@@ -1805,7 +2049,7 @@ dirname
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -1840,8 +2084,13 @@ def
 test_pytest_collect_file
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 wascalled
@@ -1857,15 +2106,20 @@ def
 pytest_collect_file
 (
 self
-path
+file_path
+:
+Path
 )
+-
+>
+None
 :
                 
 if
 not
-path
+file_path
 .
-basename
+name
 .
 startswith
 (
@@ -1879,10 +2133,10 @@ wascalled
 .
 append
 (
-path
+file_path
 )
         
-testdir
+pytester
 .
 makefile
 (
@@ -1899,11 +2153,9 @@ pytest
 .
 main
 (
-[
-testdir
+pytester
 .
-tmpdir
-]
+path
 plugins
 =
 [
@@ -1928,7 +2180,7 @@ wascalled
 0
 ]
 .
-ext
+suffix
 =
 =
 "
@@ -1943,13 +2195,18 @@ def
 test_custom_repr_failure
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1967,7 +2224,7 @@ not_exists
         
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1982,7 +2239,7 @@ pytest
 def
 pytest_collect_file
 (
-path
+file_path
 parent
 )
 :
@@ -1992,9 +2249,9 @@ MyFile
 .
 from_parent
 (
-fspath
-=
 path
+=
+file_path
 parent
 =
 parent
@@ -2039,10 +2296,11 @@ excinfo
 :
                     
 if
+isinstance
+(
 excinfo
 .
-errisinstance
-(
+value
 MyError
 )
 :
@@ -2072,7 +2330,7 @@ excinfo
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2124,13 +2382,18 @@ def
 test_collect_report_postprocessing
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2148,7 +2411,7 @@ not_exists
         
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2213,7 +2476,7 @@ rep
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2248,11 +2511,16 @@ def
 test_ignore_collect_path
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2264,15 +2532,15 @@ makeconftest
 def
 pytest_ignore_collect
 (
-path
+collection_path
 config
 )
 :
                 
 return
-path
+collection_path
 .
-basename
+name
 .
 startswith
 (
@@ -2281,11 +2549,9 @@ x
 "
 )
 or
-\
-                       
-path
+collection_path
 .
-basename
+name
 =
 =
 "
@@ -2302,7 +2568,7 @@ py
         
 sub
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -2311,10 +2577,10 @@ xy123
 "
 )
         
-sub
-.
-ensure
+ensure_file
 (
+sub
+/
 "
 test_hello
 .
@@ -2322,7 +2588,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 syntax
@@ -2332,7 +2598,7 @@ error
         
 sub
 .
-join
+joinpath
 (
 "
 conftest
@@ -2341,7 +2607,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 syntax
@@ -2349,7 +2615,7 @@ error
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2363,7 +2629,7 @@ pass
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2377,7 +2643,7 @@ error
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2416,11 +2682,16 @@ def
 test_ignore_collect_not_called_on_argument
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2432,7 +2703,7 @@ makeconftest
 def
 pytest_ignore_collect
 (
-path
+collection_path
 config
 )
 :
@@ -2448,7 +2719,7 @@ True
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2464,7 +2735,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2497,7 +2768,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2534,11 +2805,16 @@ def
 test_collectignore_exclude_on_option
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2547,17 +2823,61 @@ makeconftest
 "
 "
             
+from
+pathlib
+import
+Path
+            
+class
+MyPathLike
+:
+                
+def
+__init__
+(
+self
+path
+)
+:
+                    
+self
+.
+path
+=
+path
+                
+def
+__fspath__
+(
+self
+)
+:
+                    
+return
+"
+path
+"
+            
 collect_ignore
 =
 [
+MyPathLike
+(
 '
 hello
 '
+)
 '
 test_world
 .
 py
 '
+Path
+(
+'
+bye
+'
+)
 ]
             
 def
@@ -2618,7 +2938,7 @@ collect_ignore
         
 )
         
-testdir
+pytester
 .
 mkdir
 (
@@ -2627,7 +2947,7 @@ hello
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2645,7 +2965,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2676,7 +2996,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2712,11 +3032,16 @@ def
 test_collectignoreglob_exclude_on_option
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2798,7 +3123,7 @@ collect_ignore_glob
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2814,7 +3139,7 @@ pass
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2832,7 +3157,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2867,7 +3192,7 @@ items
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2906,11 +3231,16 @@ def
 test_pytest_fs_collect_hooks_are_seen
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2936,15 +3266,15 @@ pass
 def
 pytest_collect_file
 (
-path
+file_path
 parent
 )
 :
                 
 if
-path
+file_path
 .
-ext
+suffix
 =
 =
 "
@@ -2958,9 +3288,9 @@ MyModule
 .
 from_parent
 (
-fspath
-=
 path
+=
+file_path
 parent
 =
 parent
@@ -2972,7 +3302,7 @@ parent
         
 )
         
-testdir
+pytester
 .
 mkdir
 (
@@ -2981,7 +3311,7 @@ sub
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2997,7 +3327,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3032,13 +3362,18 @@ def
 test_pytest_collect_file_from_sister_dir
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 sub1
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -3049,7 +3384,7 @@ sub1
         
 sub2
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -3060,7 +3395,7 @@ sub2
         
 conf1
 =
-testdir
+pytester
 .
 makeconftest
 (
@@ -3086,15 +3421,15 @@ pass
 def
 pytest_collect_file
 (
-path
+file_path
 parent
 )
 :
                 
 if
-path
+file_path
 .
-ext
+suffix
 =
 =
 "
@@ -3108,9 +3443,9 @@ MyModule1
 .
 from_parent
 (
-fspath
-=
 path
+=
+file_path
 parent
 =
 parent
@@ -3124,21 +3459,21 @@ parent
         
 conf1
 .
-move
+replace
 (
 sub1
 .
-join
+joinpath
 (
 conf1
 .
-basename
+name
 )
 )
         
 conf2
 =
-testdir
+pytester
 .
 makeconftest
 (
@@ -3164,15 +3499,15 @@ pass
 def
 pytest_collect_file
 (
-path
+file_path
 parent
 )
 :
                 
 if
-path
+file_path
 .
-ext
+suffix
 =
 =
 "
@@ -3186,9 +3521,9 @@ MyModule2
 .
 from_parent
 (
-fspath
-=
 path
+=
+file_path
 parent
 =
 parent
@@ -3202,21 +3537,21 @@ parent
         
 conf2
 .
-move
+replace
 (
 sub2
 .
-join
+joinpath
 (
 conf2
 .
-basename
+name
 )
 )
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3230,37 +3565,39 @@ pass
 "
 )
         
-p
+shutil
 .
 copy
 (
+p
 sub1
 .
-join
+joinpath
 (
 p
 .
-basename
+name
 )
 )
         
-p
+shutil
 .
 copy
 (
+p
 sub2
 .
-join
+joinpath
 (
 p
 .
-basename
+name
 )
 )
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3303,13 +3640,18 @@ def
 test_collect_topdir
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3335,7 +3677,7 @@ join
 [
 p
 .
-basename
+name
 "
 test_func
 "
@@ -3344,7 +3686,7 @@ test_func
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -3353,9 +3695,9 @@ id
         
 topdir
 =
-testdir
+pytester
 .
-tmpdir
+path
         
 rcol
 =
@@ -3372,7 +3714,7 @@ topdir
 =
 rcol
 .
-fspath
+path
         
 colitems
 =
@@ -3405,7 +3747,7 @@ colitems
 0
 ]
 .
-fspath
+path
 =
 =
 p
@@ -3415,7 +3757,15 @@ get_reported_items
 (
 self
 hookrec
+:
+HookRecorder
 )
+-
+>
+List
+[
+Item
+]
 :
         
 "
@@ -3480,13 +3830,18 @@ def
 test_collect_protocol_single_function
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3512,7 +3867,7 @@ join
 [
 p
 .
-basename
+name
 "
 test_func
 "
@@ -3522,7 +3877,7 @@ test_func
 items
 hookrec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -3568,9 +3923,9 @@ calls
         
 topdir
 =
-testdir
+pytester
 .
-tmpdir
+path
         
 hookrec
 .
@@ -3586,7 +3941,7 @@ pytest_collectstart
 "
 collector
 .
-fspath
+path
 =
 =
 topdir
@@ -3600,7 +3955,7 @@ pytest_make_collect_report
 "
 collector
 .
-fspath
+path
 =
 =
 topdir
@@ -3614,7 +3969,7 @@ pytest_collectstart
 "
 collector
 .
-fspath
+path
 =
 =
 p
@@ -3628,7 +3983,7 @@ pytest_make_collect_report
 "
 collector
 .
-fspath
+path
 =
 =
 p
@@ -3701,13 +4056,18 @@ def
 test_collect_protocol_method
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3742,7 +4102,7 @@ normid
 =
 p
 .
-basename
+name
 +
 "
 :
@@ -3759,10 +4119,10 @@ in
 [
 p
 .
-basename
+name
 p
 .
-basename
+name
 +
 "
 :
@@ -3776,7 +4136,7 @@ normid
 items
 hookrec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -3847,13 +4207,18 @@ def
 test_collect_custom_nodes_multi_id
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3867,7 +4232,7 @@ pass
 "
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -3935,15 +4300,15 @@ self
 def
 pytest_collect_file
 (
-path
+file_path
 parent
 )
 :
                 
 if
-path
+file_path
 .
-basename
+name
 =
 =
 %
@@ -3955,9 +4320,9 @@ SpecialFile
 .
 from_parent
 (
-fspath
-=
 path
+=
+file_path
 parent
 =
 parent
@@ -3970,7 +4335,7 @@ parent
 %
 p
 .
-basename
+name
         
 )
         
@@ -3978,12 +4343,12 @@ id
 =
 p
 .
-basename
+name
         
 items
 hookrec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -4022,14 +4387,14 @@ pytest_collectstart
 "
 collector
 .
-fspath
+path
 =
 =
 collector
 .
 session
 .
-fspath
+path
 "
 )
                 
@@ -4099,7 +4464,7 @@ startswith
 (
 p
 .
-basename
+name
 )
 "
 )
@@ -4126,13 +4491,18 @@ def
 test_collect_subdir_event_ordering
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4148,7 +4518,7 @@ pass
         
 aaa
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -4161,7 +4531,7 @@ test_aaa
 =
 aaa
 .
-join
+joinpath
 (
 "
 test_aaa
@@ -4172,7 +4542,7 @@ py
         
 p
 .
-move
+replace
 (
 test_aaa
 )
@@ -4180,7 +4550,7 @@ test_aaa
 items
 hookrec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -4218,7 +4588,7 @@ pytest_collectstart
 "
 collector
 .
-fspath
+path
 =
 =
 test_aaa
@@ -4269,13 +4639,18 @@ def
 test_collect_two_commandline_args
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4291,7 +4666,7 @@ pass
         
 aaa
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -4302,7 +4677,7 @@ aaa
         
 bbb
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -4315,7 +4690,7 @@ test_aaa
 =
 aaa
 .
-join
+joinpath
 (
 "
 test_aaa
@@ -4324,10 +4699,11 @@ py
 "
 )
         
-p
+shutil
 .
 copy
 (
+p
 test_aaa
 )
         
@@ -4335,7 +4711,7 @@ test_bbb
 =
 bbb
 .
-join
+joinpath
 (
 "
 test_bbb
@@ -4346,7 +4722,7 @@ py
         
 p
 .
-move
+replace
 (
 test_bbb
 )
@@ -4360,7 +4736,7 @@ id
 items
 hookrec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -4399,7 +4775,7 @@ pytest_collectstart
 "
 collector
 .
-fspath
+path
 =
 =
 test_aaa
@@ -4447,7 +4823,7 @@ pytest_collectstart
 "
 collector
 .
-fspath
+path
 =
 =
 test_bbb
@@ -4496,11 +4872,16 @@ def
 test_serialization_byid
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4517,7 +4898,7 @@ pass
 items
 hookrec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -4541,7 +4922,7 @@ items
 items2
 hookrec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -4569,24 +4950,29 @@ name
 assert
 item2
 .
-fspath
+path
 =
 =
 item
 .
-fspath
+path
     
 def
 test_find_byid_without_instance_parents
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4621,7 +5007,7 @@ arg
 =
 p
 .
-basename
+name
 +
 "
 :
@@ -4635,7 +5021,7 @@ test_method
 items
 hookrec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -4702,20 +5088,27 @@ def
 test_global_file
 (
 self
-testdir
-tmpdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
         
+tmp_path
+=
+pytester
+.
+path
+        
 x
 =
-tmpdir
-.
-ensure
+ensure_file
 (
+tmp_path
+/
 "
 x
 .
@@ -4723,17 +5116,9 @@ py
 "
 )
         
-with
-tmpdir
-.
-as_cwd
-(
-)
-:
-            
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
@@ -4742,7 +5127,7 @@ x
         
 col
 =
-testdir
+pytester
 .
 getnode
 (
@@ -4789,7 +5174,7 @@ is
 None
         
 for
-col
+parent
 in
 col
 .
@@ -4799,7 +5184,7 @@ listchain
 :
             
 assert
-col
+parent
 .
 config
 is
@@ -4809,8 +5194,13 @@ def
 test_pkgfile
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -4864,17 +5254,17 @@ None
 "
 "
         
-tmpdir
+tmp_path
 =
-testdir
+pytester
 .
-tmpdir
+path
         
 subdir
 =
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 "
 subdir
@@ -4883,10 +5273,10 @@ subdir
         
 x
 =
-subdir
-.
-ensure
+ensure_file
 (
+subdir
+/
 "
 x
 .
@@ -4894,10 +5284,10 @@ py
 "
 )
         
-subdir
-.
-ensure
+ensure_file
 (
+subdir
+/
 "
 __init__
 .
@@ -4908,14 +5298,14 @@ py
 with
 subdir
 .
-as_cwd
+cwd
 (
 )
 :
             
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
@@ -4924,13 +5314,19 @@ x
         
 col
 =
-testdir
+pytester
 .
 getnode
 (
 config
 x
 )
+        
+assert
+col
+is
+not
+None
         
 assert
 col
@@ -4989,7 +5385,7 @@ is
 None
         
 for
-col
+parent
 in
 col
 .
@@ -4999,7 +5395,7 @@ listchain
 :
             
 assert
-col
+parent
 .
 config
 is
@@ -5012,13 +5408,18 @@ def
 test_check_collect_hashes
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5049,17 +5450,19 @@ pass
         
 )
         
-p
+shutil
 .
 copy
 (
 p
+p
 .
-dirpath
+parent
+/
 (
 p
 .
-purebasename
+stem
 +
 "
 2
@@ -5075,15 +5478,13 @@ py
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
 p
 .
-dirpath
-(
-)
+parent
 )
         
 assert
@@ -5144,13 +5545,18 @@ def
 test_example_items1
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5229,7 +5635,7 @@ pass
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -5406,8 +5812,13 @@ def
 test_class_and_functions_discovery_using_glob
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -5438,7 +5849,7 @@ patterns
 "
 "
         
-testdir
+pytester
 .
 makeini
 (
@@ -5471,7 +5882,7 @@ test
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5521,7 +5932,7 @@ pass
 items
 reprec
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -5561,11 +5972,16 @@ test_y
 def
 test_matchnodes_two_collections_same_file
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -5606,15 +6022,15 @@ def
 pytest_collect_file
 (
 self
-path
+file_path
 parent
 )
 :
                 
 if
-path
+file_path
 .
-ext
+suffix
 =
 =
 "
@@ -5628,9 +6044,9 @@ MyFile2
 .
 from_parent
 (
-fspath
-=
 path
+=
+file_path
 parent
 =
 parent
@@ -5639,15 +6055,15 @@ parent
 def
 pytest_collect_file
 (
-path
+file_path
 parent
 )
 :
             
 if
-path
+file_path
 .
-ext
+suffix
 =
 =
 "
@@ -5661,9 +6077,9 @@ MyFile1
 .
 from_parent
 (
-fspath
-=
 path
+=
+file_path
 parent
 =
 parent
@@ -5775,7 +6191,7 @@ pass
     
 p
 =
-testdir
+pytester
 .
 makefile
 (
@@ -5789,7 +6205,7 @@ abc
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5821,7 +6237,7 @@ passed
     
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5835,7 +6251,7 @@ item2
 %
 p
 .
-basename
+name
 )
     
 res
@@ -5854,20 +6270,25 @@ passed
 ]
 )
 class
-TestNodekeywords
+TestNodeKeywords
 :
     
 def
 test_no_under
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 modcol
 =
-testdir
+pytester
 .
 getmodulecol
 (
@@ -5946,11 +6367,16 @@ def
 test_issue345
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5994,7 +6420,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6020,9 +6446,16 @@ failed
 def
 test_keyword_matching_is_case_insensitive_by_default
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -6069,7 +6502,7 @@ sensitivity
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6182,7 +6615,7 @@ SpecificTopic
             
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6204,6 +6637,147 @@ num_matching_tests
 failed
 =
 0
+)
+    
+def
+test_duplicates_handled_correctly
+(
+self
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+        
+item
+=
+pytester
+.
+getitem
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+pytestmark
+=
+pytest
+.
+mark
+.
+kw
+            
+class
+TestClass
+:
+                
+pytestmark
+=
+pytest
+.
+mark
+.
+kw
+                
+def
+test_method
+(
+self
+)
+:
+pass
+                
+test_method
+.
+kw
+=
+'
+method
+'
+        
+"
+"
+"
+            
+"
+test_method
+"
+        
+)
+        
+assert
+item
+.
+parent
+is
+not
+None
+and
+item
+.
+parent
+.
+parent
+is
+not
+None
+        
+item
+.
+parent
+.
+parent
+.
+keywords
+[
+"
+kw
+"
+]
+=
+"
+class
+"
+        
+assert
+item
+.
+keywords
+[
+"
+kw
+"
+]
+=
+=
+"
+method
+"
+        
+assert
+len
+(
+item
+.
+keywords
+)
+=
+=
+len
+(
+set
+(
+item
+.
+keywords
+)
 )
 COLLECTION_ERROR_PY_FILES
 =
@@ -6295,8 +6869,13 @@ True
 def
 test_exit_on_collection_error
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -6317,7 +6896,7 @@ executed
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6328,7 +6907,7 @@ COLLECTION_ERROR_PY_FILES
     
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6406,8 +6985,14 @@ asdfa
 def
 test_exit_on_collection_with_maxfail_smaller_than_n_errors
 (
-testdir
+    
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -6439,7 +7024,7 @@ errors
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6450,7 +7035,7 @@ COLLECTION_ERROR_PY_FILES
     
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6548,8 +7133,14 @@ test_03
 def
 test_exit_on_collection_with_maxfail_bigger_than_n_errors
 (
-testdir
+    
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -6581,7 +7172,7 @@ reached
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6592,7 +7183,7 @@ COLLECTION_ERROR_PY_FILES
     
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6699,8 +7290,13 @@ in
 def
 test_continue_on_collection_errors
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -6736,7 +7332,7 @@ set
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6747,7 +7343,7 @@ COLLECTION_ERROR_PY_FILES
     
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6804,8 +7400,13 @@ errors
 def
 test_continue_on_collection_errors_maxfail
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -6884,7 +7485,7 @@ failure
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6895,7 +7496,7 @@ COLLECTION_ERROR_PY_FILES
     
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6955,8 +7556,13 @@ errors
 def
 test_fixture_scope_sibling_conftests
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -6989,7 +7595,7 @@ issues
     
 foo_path
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -7000,7 +7606,7 @@ foo
     
 foo_path
 .
-join
+joinpath
 (
 "
 conftest
@@ -7009,7 +7615,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -7048,7 +7654,7 @@ return
     
 foo_path
 .
-join
+joinpath
 (
 "
 test_foo
@@ -7057,7 +7663,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -7076,7 +7682,7 @@ fix
     
 food_path
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -7087,7 +7693,7 @@ food
     
 food_path
 .
-join
+joinpath
 (
 "
 test_food
@@ -7096,7 +7702,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -7115,7 +7721,7 @@ fix
     
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7174,8 +7780,13 @@ error
 def
 test_collect_init_tests
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7208,7 +7819,7 @@ python_files
     
 p
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -7221,7 +7832,7 @@ collect_init_tests
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7295,7 +7906,7 @@ test_foo
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7373,7 +7984,7 @@ test_foo
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7454,7 +8065,7 @@ test_foo
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7533,7 +8144,7 @@ test_foo
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7602,7 +8213,7 @@ test_init
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7671,8 +8282,13 @@ test_foo
 def
 test_collect_invalid_signature_message
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7708,7 +8324,7 @@ function
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7744,7 +8360,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7779,8 +8395,13 @@ signature
 def
 test_collect_handles_raising_on_dunder_class
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7810,7 +8431,7 @@ isinstance
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7874,7 +8495,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7907,15 +8528,18 @@ ret
 def
 test_collect_with_chdir_during_import
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 subdir
 =
-testdir
-.
-tmpdir
+pytester
 .
 mkdir
 (
@@ -7924,11 +8548,11 @@ sub
 "
 )
     
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 conftest
@@ -7937,7 +8561,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -7976,7 +8600,7 @@ subdir
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8020,18 +8644,18 @@ subdir
 )
     
 with
-testdir
+pytester
 .
-tmpdir
+path
 .
-as_cwd
+cwd
 (
 )
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8062,7 +8686,7 @@ ret
 =
 0
     
-testdir
+pytester
 .
 makeini
 (
@@ -8086,18 +8710,18 @@ testpaths
 )
     
 with
-testdir
+pytester
 .
-tmpdir
+path
 .
-as_cwd
+cwd
 (
 )
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8127,14 +8751,22 @@ item
 def
 test_collect_pyargs_with_testpaths
 (
-testdir
+    
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
     
 testmod
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -8145,7 +8777,7 @@ testmod
     
 testmod
 .
-ensure
+joinpath
 (
 "
 __init__
@@ -8154,7 +8786,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -8168,7 +8800,7 @@ pass
     
 testmod
 .
-ensure
+joinpath
 (
 "
 test_file
@@ -8177,7 +8809,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -8191,7 +8823,7 @@ pass
     
 root
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -8202,7 +8834,7 @@ root
     
 root
 .
-ensure
+joinpath
 (
 "
 pytest
@@ -8211,7 +8843,7 @@ ini
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -8254,9 +8886,9 @@ PYTHONPATH
 "
 str
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
 prepend
 =
@@ -8268,14 +8900,14 @@ pathsep
 with
 root
 .
-as_cwd
+cwd
 (
 )
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -8300,8 +8932,13 @@ in
 def
 test_collect_symlink_file_arg
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -8330,7 +8967,7 @@ python_files
     
 real
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8373,11 +9010,11 @@ test_nodeid
     
 symlink
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 symlink
@@ -8394,7 +9031,7 @@ symlink
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8442,8 +9079,13 @@ ret
 def
 test_collect_symlink_out_of_tree
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -8467,11 +9109,9 @@ rootdir
     
 sub
 =
-testdir
+pytester
 .
-tmpdir
-.
-join
+mkdir
 (
 "
 sub
@@ -8482,7 +9122,7 @@ real
 =
 sub
 .
-join
+joinpath
 (
 "
 test_real
@@ -8493,7 +9133,7 @@ py
     
 real
 .
-write
+write_text
 (
         
 textwrap
@@ -8543,38 +9183,25 @@ test_nodeid
 "
         
 )
-        
-ensure
-=
-True
     
 )
     
 out_of_tree
 =
-testdir
+pytester
 .
-tmpdir
-.
-join
+mkdir
 (
 "
 out_of_tree
 "
-)
-.
-ensure
-(
-dir
-=
-True
 )
     
 symlink_to_sub
 =
 out_of_tree
 .
-join
+joinpath
 (
 "
 symlink_to_sub
@@ -8587,15 +9214,16 @@ sub
 symlink_to_sub
 )
     
-sub
+os
 .
 chdir
 (
+sub
 )
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8647,10 +9275,110 @@ ret
 =
 0
 def
+test_collect_symlink_dir
+(
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+    
+"
+"
+"
+A
+symlinked
+directory
+is
+collected
+.
+"
+"
+"
+    
+dir
+=
+pytester
+.
+mkdir
+(
+"
+dir
+"
+)
+    
+dir
+.
+joinpath
+(
+"
+test_it
+.
+py
+"
+)
+.
+write_text
+(
+"
+def
+test_it
+(
+)
+:
+pass
+"
+"
+utf
+-
+8
+"
+)
+    
+symlink_or_skip
+(
+pytester
+.
+path
+.
+joinpath
+(
+"
+symlink_dir
+"
+)
+dir
+)
+    
+result
+=
+pytester
+.
+runpytest
+(
+)
+    
+result
+.
+assert_outcomes
+(
+passed
+=
+2
+)
+def
 test_collectignore_via_conftest
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -8675,7 +9403,7 @@ issue
     
 tests
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -8686,7 +9414,7 @@ tests
     
 tests
 .
-ensure
+joinpath
 (
 "
 conftest
@@ -8695,7 +9423,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 collect_ignore
@@ -8712,7 +9440,7 @@ ignore_me
 =
 tests
 .
-mkdir
+joinpath
 (
 "
 ignore_me
@@ -8721,7 +9449,13 @@ ignore_me
     
 ignore_me
 .
-ensure
+mkdir
+(
+)
+    
+ignore_me
+.
+joinpath
 (
 "
 __init__
@@ -8729,10 +9463,14 @@ __init__
 py
 "
 )
+.
+touch
+(
+)
     
 ignore_me
 .
-ensure
+joinpath
 (
 "
 conftest
@@ -8741,7 +9479,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 assert
@@ -8754,7 +9492,7 @@ should_not_be_called
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8772,13 +9510,18 @@ NO_TESTS_COLLECTED
 def
 test_collect_pkg_init_and_file_in_args
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 subdir
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -8791,7 +9534,7 @@ init
 =
 subdir
 .
-ensure
+joinpath
 (
 "
 __init__
@@ -8802,7 +9545,7 @@ py
     
 init
 .
-write
+write_text
 (
 "
 def
@@ -8818,7 +9561,7 @@ p
 =
 subdir
 .
-ensure
+joinpath
 (
 "
 test_file
@@ -8829,7 +9572,7 @@ py
     
 p
 .
-write
+write_text
 (
 "
 def
@@ -8843,7 +9586,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8910,7 +9653,7 @@ in
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8988,13 +9731,18 @@ in
 def
 test_collect_pkg_init_only
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 subdir
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -9007,7 +9755,7 @@ init
 =
 subdir
 .
-ensure
+joinpath
 (
 "
 __init__
@@ -9018,7 +9766,7 @@ py
     
 init
 .
-write
+write_text
 (
 "
 def
@@ -9032,7 +9780,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9062,7 +9810,7 @@ in
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9133,8 +9881,15 @@ def
 test_collect_sub_with_symlinks
 (
 use_pkg
-testdir
+:
+bool
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -9154,7 +9909,7 @@ symlinks
     
 sub
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -9169,7 +9924,7 @@ use_pkg
         
 sub
 .
-ensure
+joinpath
 (
 "
 __init__
@@ -9177,10 +9932,14 @@ __init__
 py
 "
 )
+.
+touch
+(
+)
     
 sub
 .
-join
+joinpath
 (
 "
 test_file
@@ -9189,7 +9948,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -9210,7 +9969,7 @@ py
 "
 sub
 .
-join
+joinpath
 (
 "
 test_broken
@@ -9229,7 +9988,7 @@ py
 "
 sub
 .
-join
+joinpath
 (
 "
 test_symlink
@@ -9241,7 +10000,7 @@ py
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9304,13 +10063,18 @@ in
 def
 test_collector_respects_tbstyle
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -9322,7 +10086,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9435,11 +10199,16 @@ in
 def
 test_does_not_eagerly_collect_packages
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9455,7 +10224,7 @@ pass
     
 pydir
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -9466,7 +10235,7 @@ foopkg
     
 pydir
 .
-join
+joinpath
 (
 "
 __init__
@@ -9475,7 +10244,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 assert
@@ -9485,7 +10254,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9503,16 +10272,21 @@ OK
 def
 test_does_not_put_src_on_path
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
-.
-tmpdir
-.
-join
+ensure_file
 (
+pytester
+.
+path
+/
 "
 src
 /
@@ -9523,12 +10297,8 @@ __init__
 py
 "
 )
-.
-ensure
-(
-)
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9574,7 +10344,7 @@ n
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9592,9 +10362,16 @@ OK
 def
 test_fscollector_from_parent
 (
-tmpdir
+pytester
+:
+Pytester
 request
+:
+FixtureRequest
 )
+-
+>
+None
 :
     
 "
@@ -9652,9 +10429,12 @@ def
 __init__
 (
 self
-fspath
-parent
+*
+k
 x
+*
+*
+kw
 )
 :
             
@@ -9664,8 +10444,11 @@ super
 .
 __init__
 (
-fspath
-parent
+*
+k
+*
+*
+kw
 )
             
 self
@@ -9673,37 +10456,6 @@ self
 x
 =
 x
-        
-classmethod
-        
-def
-from_parent
-(
-cls
-parent
-*
-fspath
-x
-)
-:
-            
-return
-super
-(
-)
-.
-from_parent
-(
-parent
-=
-parent
-fspath
-=
-fspath
-x
-=
-x
-)
     
 collector
 =
@@ -9717,9 +10469,11 @@ parent
 request
 .
 session
-fspath
+path
 =
-tmpdir
+pytester
+.
+path
 /
 "
 foo
@@ -9737,6 +10491,134 @@ x
 =
 =
 10
+def
+test_class_from_parent
+(
+pytester
+:
+Pytester
+request
+:
+FixtureRequest
+)
+-
+>
+None
+:
+    
+"
+"
+"
+Ensure
+Class
+.
+from_parent
+can
+forward
+custom
+arguments
+to
+the
+constructor
+.
+"
+"
+"
+    
+class
+MyCollector
+(
+pytest
+.
+Class
+)
+:
+        
+def
+__init__
+(
+self
+name
+parent
+x
+)
+:
+            
+super
+(
+)
+.
+__init__
+(
+name
+parent
+)
+            
+self
+.
+x
+=
+x
+        
+classmethod
+        
+def
+from_parent
+(
+cls
+parent
+*
+name
+x
+)
+:
+            
+return
+super
+(
+)
+.
+from_parent
+(
+parent
+=
+parent
+name
+=
+name
+x
+=
+x
+)
+    
+collector
+=
+MyCollector
+.
+from_parent
+(
+parent
+=
+request
+.
+session
+name
+=
+"
+foo
+"
+x
+=
+10
+)
+    
+assert
+collector
+.
+x
+=
+=
+10
 class
 TestImportModeImportlib
 :
@@ -9745,8 +10627,13 @@ def
 test_collect_duplicate_names
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -9775,7 +10662,7 @@ packages
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -9824,7 +10711,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9892,8 +10779,13 @@ def
 test_conftest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -9926,18 +10818,18 @@ them
         
 tests_dir
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 tests
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10010,7 +10902,7 @@ tests_dir
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10050,8 +10942,13 @@ def
 setup_conftest_and_foo
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -10093,7 +10990,7 @@ not
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10180,8 +11077,13 @@ def
 test_modules_importable_as_side_effect
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -10227,12 +11129,12 @@ self
 .
 setup_conftest_and_foo
 (
-testdir
+pytester
 )
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10272,8 +11174,13 @@ def
 test_modules_not_importable_as_side_effect
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -10328,12 +11235,12 @@ self
 .
 setup_conftest_and_foo
 (
-testdir
+pytester
 )
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10352,33 +11259,6 @@ importlib
 "
 )
         
-exc_name
-=
-(
-            
-"
-ModuleNotFoundError
-"
-if
-sys
-.
-version_info
-[
-:
-2
-]
->
-(
-3
-5
-)
-else
-"
-ImportError
-"
-        
-)
-        
 result
 .
 stdout
@@ -10390,8 +11270,7 @@ fnmatch_lines
                 
 "
 *
-{
-}
+ModuleNotFoundError
 :
 No
 module
@@ -10400,11 +11279,6 @@ named
 foo
 '
 "
-.
-format
-(
-exc_name
-)
                 
 "
 tests
@@ -10415,14 +11289,8 @@ py
 :
 2
 :
-{
-}
+ModuleNotFoundError
 "
-.
-format
-(
-exc_name
-)
                 
 "
 *
@@ -10438,9 +11306,9 @@ in
 def
 test_does_not_crash_on_error_from_decorated_function
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -10477,7 +11345,7 @@ s
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10506,7 +11374,7 @@ return
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10521,3 +11389,108 @@ ret
 ExitCode
 .
 INTERRUPTED
+def
+test_does_not_crash_on_recursive_symlink
+(
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+    
+"
+"
+"
+Regression
+test
+for
+an
+issue
+around
+recursive
+symlinks
+(
+#
+7951
+)
+.
+"
+"
+"
+    
+symlink_or_skip
+(
+"
+recursive
+"
+pytester
+.
+path
+.
+joinpath
+(
+"
+recursive
+"
+)
+)
+    
+pytester
+.
+makepyfile
+(
+        
+"
+"
+"
+        
+def
+test_foo
+(
+)
+:
+assert
+True
+        
+"
+"
+"
+    
+)
+    
+result
+=
+pytester
+.
+runpytest
+(
+)
+    
+assert
+result
+.
+ret
+=
+=
+ExitCode
+.
+OK
+    
+assert
+result
+.
+parseoutcomes
+(
+)
+=
+=
+{
+"
+passed
+"
+:
+1
+}

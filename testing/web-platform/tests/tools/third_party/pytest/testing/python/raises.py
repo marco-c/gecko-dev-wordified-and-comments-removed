@@ -10,6 +10,12 @@ _pytest
 outcomes
 import
 Failed
+from
+_pytest
+.
+pytester
+import
+Pytester
 class
 TestRaises
 :
@@ -298,11 +304,16 @@ def
 test_raises_as_contextmanager
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -441,7 +452,7 @@ ValueError
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -467,11 +478,16 @@ def
 test_does_not_raise
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -588,7 +604,7 @@ None
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -614,11 +630,16 @@ def
 test_does_not_raise_does_raise
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -721,7 +742,7 @@ None
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -884,21 +905,18 @@ e
 msg
 =
 =
+f
 "
 DID
 NOT
 RAISE
 {
-}
-"
-.
-format
-(
 repr
 (
 ValueError
 )
-)
+}
+"
         
 else
 :
@@ -944,21 +962,18 @@ e
 msg
 =
 =
+f
 "
 DID
 NOT
 RAISE
 {
-}
-"
-.
-format
-(
 repr
 (
 ValueError
 )
-)
+}
+"
         
 else
 :
@@ -1039,21 +1054,6 @@ __call__
 self
 )
 :
-                
-if
-sys
-.
-version_info
-<
-(
-3
-5
-2
-)
-:
-                    
-del
-self
                 
 raise
 ValueError
@@ -1394,17 +1394,14 @@ match
 raise
 ValueError
 (
+f
 "
 match
 =
 {
+match
 }
 "
-.
-format
-(
-match
-)
 )
         
 pytest

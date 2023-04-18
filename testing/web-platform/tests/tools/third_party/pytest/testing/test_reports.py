@@ -1,5 +1,3 @@
-import
-sys
 from
 typing
 import
@@ -35,15 +33,9 @@ Config
 from
 _pytest
 .
-pathlib
-import
-Path
-from
-_pytest
-.
 pytester
 import
-Testdir
+Pytester
 from
 _pytest
 .
@@ -64,9 +56,9 @@ def
 test_xdist_longrepr_to_str_issue_241
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -104,7 +96,7 @@ ca03269
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -136,7 +128,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -261,9 +253,9 @@ def
 test_xdist_report_longrepr_reprcrash_130
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -302,7 +294,7 @@ ca03269
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -631,9 +623,9 @@ def
 test_reprentries_serialization_170
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -681,7 +673,7 @@ ReprEntry
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -979,9 +971,9 @@ def
 test_reprentries_serialization_196
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -1029,7 +1021,7 @@ ReprEntryNative
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -1189,9 +1181,9 @@ def
 test_itemreport_outcomes
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -1200,7 +1192,7 @@ None
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -1460,9 +1452,9 @@ def
 test_collectreport_passed
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -1492,7 +1484,7 @@ ca03269
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -1574,9 +1566,9 @@ def
 test_collectreport_fail
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -1606,7 +1598,7 @@ ca03269
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -1706,9 +1698,9 @@ def
 test_extended_report_deserialization
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -1738,7 +1730,7 @@ ca03269
         
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -1849,9 +1841,9 @@ def
 test_paths_support
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -1865,12 +1857,9 @@ Report
 attributes
 which
 are
-py
-.
 path
-or
-pathlib
-objects
+-
+like
 should
 become
 strings
@@ -1879,7 +1868,7 @@ strings
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1903,9 +1892,47 @@ False
         
 )
         
+class
+MyPathLike
+:
+            
+def
+__init__
+(
+self
+path
+:
+str
+)
+-
+>
+None
+:
+                
+self
+.
+path
+=
+path
+            
+def
+__fspath__
+(
+self
+)
+-
+>
+str
+:
+                
+return
+self
+.
+path
+        
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1942,20 +1969,23 @@ test_a_call
 .
 path1
 =
-testdir
+MyPathLike
+(
+str
+(
+pytester
 .
-tmpdir
+path
+)
+)
         
 test_a_call
 .
 path2
 =
-Path
-(
-testdir
+pytester
 .
-tmpdir
-)
+path
         
 data
 =
@@ -1976,9 +2006,9 @@ path1
 =
 str
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
         
 assert
@@ -1992,18 +2022,18 @@ path2
 =
 str
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
     
 def
 test_deserialization_failure
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -2027,7 +2057,7 @@ types
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2053,7 +2083,7 @@ False
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -2188,12 +2218,14 @@ CollectReport
 def
 test_chained_exceptions
 (
+        
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 tw_mock
 report_class
+    
 )
 -
 >
@@ -2221,7 +2253,7 @@ exceptions
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2304,7 +2336,7 @@ CollectReport
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -2317,16 +2349,28 @@ TestReport
 :
             
 reports
+:
+Union
+[
+                
+Sequence
+[
+TestReport
+]
+Sequence
+[
+CollectReport
+]
+            
+]
 =
 reprec
 .
 getreports
 (
-                
 "
 pytest_runtest_logreport
 "
-            
 )
             
 assert
@@ -2646,9 +2690,9 @@ def
 test_chained_exceptions_no_reprcrash
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 tw_mock
 )
 -
@@ -2711,166 +2755,28 @@ from
 "
 "
         
-if
-sys
-.
-version_info
-[
-:
-2
-]
-<
-=
-(
-3
-5
-)
-and
-sys
-.
-platform
-.
-startswith
-(
-"
-win
-"
-)
-:
-            
-testdir
+pytester
 .
 makepyfile
 (
-                
-"
-"
-"
-                
-#
-equivalent
-of
-multiprocessing
-.
-pool
-.
-RemoteTraceback
-                
-class
-RemoteTraceback
-(
-Exception
-)
-:
-                    
-def
-__init__
-(
-self
-tb
-)
-:
-                        
-self
-.
-tb
-=
-tb
-                    
-def
-__str__
-(
-self
-)
-:
-                        
-return
-self
-.
-tb
-                
-def
-test_a
-(
-)
-:
-                    
-try
-:
-                        
-raise
-ValueError
-(
-'
-value
-error
-'
-)
-                    
-except
-ValueError
-as
-e
-:
-                        
-#
-equivalent
-to
-how
-multiprocessing
-.
-pool
-.
-rebuild_exc
-does
-it
-                        
-e
-.
-__cause__
-=
-RemoteTraceback
-(
-'
-runtime
-error
-'
-)
-                        
-raise
-e
             
 "
 "
 "
             
-)
-        
-else
-:
-            
-testdir
-.
-makepyfile
-(
-                
-"
-"
-"
-                
 from
 concurrent
 .
 futures
 import
 ProcessPoolExecutor
-                
+            
 def
 func
 (
 )
 :
-                    
+                
 raise
 ValueError
 (
@@ -2879,13 +2785,13 @@ value
 error
 '
 )
-                
+            
 def
 test_a
 (
 )
 :
-                    
+                
 with
 ProcessPoolExecutor
 (
@@ -2893,7 +2799,7 @@ ProcessPoolExecutor
 as
 p
 :
-                        
+                    
 p
 .
 submit
@@ -2904,14 +2810,14 @@ func
 result
 (
 )
-            
+        
 "
 "
 "
-            
+        
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
@@ -2919,7 +2825,7 @@ syspathinsert
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -3120,9 +3026,9 @@ test_report_prevent_ConftestImportFailure_hiding_exception
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
     
 )
 -
@@ -3132,41 +3038,35 @@ None
         
 sub_dir
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 ns
 "
 )
+        
+sub_dir
 .
-ensure_dir
+mkdir
 (
 )
         
 sub_dir
 .
-join
+joinpath
 (
 "
 conftest
-"
-)
-.
-new
-(
-ext
-=
-"
 .
 py
 "
 )
 .
-write
+write_text
 (
 "
 import
@@ -3176,7 +3076,7 @@ unknown
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -3245,9 +3145,9 @@ def
 test_test_report
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 pytestconfig
 :
 Config
@@ -3257,7 +3157,7 @@ Config
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3289,7 +3189,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -3404,9 +3304,9 @@ def
 test_collect_report
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 pytestconfig
 :
 Config
@@ -3416,7 +3316,7 @@ Config
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3448,7 +3348,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -3585,9 +3485,9 @@ test_invalid_report_types
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 pytestconfig
 :
 Config
@@ -3601,7 +3501,7 @@ str
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3625,7 +3525,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (

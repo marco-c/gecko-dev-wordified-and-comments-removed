@@ -2,6 +2,10 @@ import
 os
 import
 sys
+from
+typing
+import
+List
 import
 _pytest
 .
@@ -14,6 +18,18 @@ _pytest
 debugging
 import
 _validate_usepdb_cls
+from
+_pytest
+.
+monkeypatch
+import
+MonkeyPatch
+from
+_pytest
+.
+pytester
+import
+Pytester
 try
 :
     
@@ -62,7 +78,7 @@ request
     
 if
 "
-testdir
+pytester
 "
 in
 request
@@ -70,20 +86,20 @@ request
 fixturenames
 :
         
-testdir
+pytester
 =
 request
 .
 getfixturevalue
 (
 "
-testdir
+pytester
 "
 )
         
-testdir
+pytester
 .
-monkeypatch
+_monkeypatch
 .
 setenv
 (
@@ -97,14 +113,18 @@ PDBPP_HIJACK_PDB
 def
 runpdb_and_get_report
 (
-testdir
+pytester
+:
+Pytester
 source
+:
+str
 )
 :
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -113,7 +133,7 @@ source
     
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -160,6 +180,12 @@ def
 custom_pdb_calls
 (
 )
+-
+>
+List
+[
+str
+]
 :
     
 called
@@ -432,9 +458,14 @@ def
 test_pdb_on_fail
 (
 self
-testdir
+pytester
+:
+Pytester
 pdblist
 )
+-
+>
+None
 :
         
 rep
@@ -442,7 +473,7 @@ rep
 runpdb_and_get_report
 (
             
-testdir
+pytester
             
 "
 "
@@ -512,9 +543,14 @@ def
 test_pdb_on_xfail
 (
 self
-testdir
+pytester
+:
+Pytester
 pdblist
 )
+-
+>
+None
 :
         
 rep
@@ -522,7 +558,7 @@ rep
 runpdb_and_get_report
 (
             
-testdir
+pytester
             
 "
 "
@@ -569,9 +605,12 @@ def
 test_pdb_on_skip
 (
 self
-testdir
+pytester
 pdblist
 )
+-
+>
+None
 :
         
 rep
@@ -579,7 +618,7 @@ rep
 runpdb_and_get_report
 (
             
-testdir
+pytester
             
 "
 "
@@ -627,9 +666,12 @@ def
 test_pdb_on_BdbQuit
 (
 self
-testdir
+pytester
 pdblist
 )
+-
+>
+None
 :
         
 rep
@@ -637,7 +679,7 @@ rep
 runpdb_and_get_report
 (
             
-testdir
+pytester
             
 "
 "
@@ -681,9 +723,12 @@ def
 test_pdb_on_KeyboardInterrupt
 (
 self
-testdir
+pytester
 pdblist
 )
+-
+>
+None
 :
         
 rep
@@ -691,7 +736,7 @@ rep
 runpdb_and_get_report
 (
             
-testdir
+pytester
             
 "
 "
@@ -767,13 +812,18 @@ def
 test_pdb_unittest_postmortem
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -838,19 +888,19 @@ assert
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
+f
 "
 -
 -
 pdb
-%
-s
-"
-%
+{
 p1
+}
+"
 )
         
 child
@@ -915,8 +965,13 @@ def
 test_pdb_unittest_skip
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -933,7 +988,7 @@ issue
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -986,21 +1041,21 @@ assert
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
+f
 "
 -
 rs
 -
 -
 pdb
-%
-s
-"
-%
+{
 p1
+}
+"
 )
         
 child
@@ -1045,13 +1100,18 @@ def
 test_pdb_print_captured_stdout_and_stderr
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1112,7 +1172,7 @@ pass
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -1264,14 +1324,21 @@ child
 def
 test_pdb_dont_print_empty_captured_stdout_and_stderr
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1297,7 +1364,7 @@ False
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -1391,14 +1458,19 @@ def
 test_pdb_print_captured_logs
 (
 self
-testdir
+pytester
 showcapture
+:
+str
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1440,11 +1512,11 @@ False
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
-            
+f
 "
 -
 -
@@ -1453,20 +1525,15 @@ show
 capture
 =
 {
+showcapture
 }
 -
 -
 pdb
 {
+p1
 }
 "
-.
-format
-(
-showcapture
-p1
-)
-        
 )
         
 if
@@ -1551,13 +1618,18 @@ def
 test_pdb_print_captured_logs_nologging
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1599,7 +1671,7 @@ False
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -1707,13 +1779,18 @@ def
 test_pdb_interaction_exception
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1755,7 +1832,7 @@ globalfunc
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -1854,13 +1931,18 @@ def
 test_pdb_interaction_on_collection_issue181
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1882,7 +1964,7 @@ xxx
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -1936,11 +2018,16 @@ def
 test_pdb_interaction_on_internal_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1967,7 +2054,7 @@ pytest_runtest_protocol
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1983,7 +2070,7 @@ pass
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -2070,12 +2157,19 @@ child
 def
 test_pdb_prevent_ConftestImportFailure_hiding_exception
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2091,69 +2185,75 @@ pass
         
 sub_dir
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 ns
 "
 )
+        
+sub_dir
 .
-ensure_dir
+mkdir
 (
 )
         
 sub_dir
 .
-join
+joinpath
 (
 "
 conftest
 "
 )
 .
-new
+with_suffix
 (
-ext
-=
 "
 .
 py
 "
 )
 .
-write
+write_text
 (
+            
 "
 import
 unknown
 "
+"
+utf
+-
+8
+"
+        
 )
         
 sub_dir
 .
-join
+joinpath
 (
 "
 test_file
 "
 )
 .
-new
+with_suffix
 (
-ext
-=
 "
 .
 py
 "
 )
 .
-write
+write_text
 (
+            
 "
 def
 test_func
@@ -2162,11 +2262,17 @@ test_func
 :
 pass
 "
+"
+utf
+-
+8
+"
+        
 )
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -2200,13 +2306,18 @@ def
 test_pdb_interaction_capturing_simple
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2257,7 +2368,7 @@ assert
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -2369,13 +2480,18 @@ def
 test_pdb_set_trace_kwargs
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2434,7 +2550,7 @@ assert
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -2541,13 +2657,18 @@ def
 test_pdb_set_trace_interception
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2579,7 +2700,7 @@ set_trace
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -2671,13 +2792,18 @@ def
 test_pdb_and_capsys
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2717,7 +2843,7 @@ set_trace
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -2783,13 +2909,18 @@ def
 test_pdb_with_caplog_on_pdb_invocation
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2834,7 +2965,7 @@ assert
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -2909,13 +3040,18 @@ def
 test_set_trace_capturing_afterwards
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2963,7 +3099,7 @@ assert
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -3043,13 +3179,18 @@ def
 test_pdb_interaction_doctest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3096,7 +3237,7 @@ i
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -3265,13 +3406,18 @@ def
 test_doctest_set_trace_quit
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3316,7 +3462,7 @@ set_trace
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -3419,13 +3565,18 @@ def
 test_pdb_interaction_capturing_twice
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3492,7 +3643,7 @@ assert
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -3706,8 +3857,13 @@ def
 test_pdb_with_injected_do_debug
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -3736,7 +3892,7 @@ do_continue
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3967,7 +4123,7 @@ expected_failure
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -4264,13 +4420,18 @@ def
 test_pdb_without_capture
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4302,7 +4463,7 @@ set_trace
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -4414,10 +4575,17 @@ capture
 def
 test_pdb_continue_with_recursive_debug
 (
+        
 self
 capture_arg
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -4458,7 +4626,7 @@ coverage
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4799,10 +4967,11 @@ set_trace
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
+f
 "
 -
 -
@@ -4810,16 +4979,12 @@ tb
 =
 short
 {
+p1
 }
 {
+capture_arg
 }
 "
-.
-format
-(
-p1
-capture_arg
-)
 )
         
 child
@@ -5123,13 +5288,18 @@ def
 test_pdb_used_outside_test
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5159,24 +5329,21 @@ x
         
 child
 =
-testdir
+pytester
 .
 spawn
 (
+f
 "
 {
-}
-{
-}
-"
-.
-format
-(
 sys
 .
 executable
+}
+{
 p1
-)
+}
+"
 )
         
 child
@@ -5216,13 +5383,18 @@ def
 test_pdb_used_in_generate_tests
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5268,7 +5440,7 @@ pass
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -5315,13 +5487,18 @@ def
 test_pdb_collection_failure_is_shown
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5332,7 +5509,7 @@ xxx
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -5393,13 +5570,20 @@ True
 def
 test_enter_leave_pdb_hooks_are_called
 (
+        
 self
 post_mortem
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -5518,7 +5702,7 @@ bar
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5566,7 +5750,7 @@ post_mortem
             
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -5592,7 +5776,7 @@ else
             
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -5714,15 +5898,27 @@ child
 def
 test_pdb_custom_cls
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 custom_pdb_calls
+:
+List
+[
+str
+]
+    
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5737,10 +5933,11 @@ xxx
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
+            
 "
 -
 -
@@ -5756,6 +5953,7 @@ _pytest
 _CustomPdb
 "
 p1
+        
 )
         
 result
@@ -5801,13 +5999,18 @@ def
 test_pdb_custom_cls_invalid
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -5919,15 +6122,27 @@ DoesNotExist
 def
 test_pdb_custom_cls_without_pdb
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 custom_pdb_calls
+:
+List
+[
+str
+]
+    
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5942,7 +6157,7 @@ xxx
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -5991,13 +6206,24 @@ custom_pdb_calls
 def
 test_pdb_custom_cls_with_set_trace
 (
+        
 self
-testdir
+        
+pytester
+:
+Pytester
+        
 monkeypatch
+:
+MonkeyPatch
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6100,7 +6326,7 @@ set_trace
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -6148,15 +6374,15 @@ PYTHONPATH
 "
 str
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
 )
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -6213,12 +6439,14 @@ test_supports_breakpoint_module_global
 (
 self
 )
+-
+>
+None
 :
         
 "
 "
 "
-        
 Test
 that
 supports
@@ -6231,18 +6459,7 @@ Python
 .
 7
 +
-and
-not
-on
-        
-CPython
-3
 .
-5
-2
-.
-7
-        
 "
 "
 "
@@ -6263,31 +6480,6 @@ assert
 SUPPORTS_BREAKPOINT_BUILTIN
 is
 True
-        
-if
-sys
-.
-version_info
-.
-major
-=
-=
-3
-and
-sys
-.
-version_info
-.
-minor
-=
-=
-5
-:
-            
-assert
-SUPPORTS_BREAKPOINT_BUILTIN
-is
-False
     
 pytest
 .
@@ -6333,10 +6525,19 @@ pdb
 def
 test_sys_breakpointhook_configure_and_unconfigure
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 arg
+:
+str
+    
 )
+-
+>
+None
 :
         
 "
@@ -6376,7 +6577,7 @@ unconfigured
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -6409,9 +6610,7 @@ config
                 
 config
 .
-_cleanup
-.
-append
+add_cleanup
 (
 check_restored
 )
@@ -6454,7 +6653,7 @@ set_trace
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6489,7 +6688,7 @@ else
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -6539,14 +6738,19 @@ def
 test_pdb_custom_cls
 (
 self
-testdir
+pytester
+:
+Pytester
 custom_debugger_hook
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -6573,7 +6777,7 @@ breakpoint
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -6674,14 +6878,23 @@ builtin
 def
 test_environ_custom_class
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 custom_debugger_hook
 arg
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -6722,9 +6935,7 @@ config
                 
 config
 .
-_cleanup
-.
-append
+add_cleanup
 (
 check_restored
 )
@@ -6771,7 +6982,7 @@ set_trace
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6806,7 +7017,7 @@ else
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -6883,13 +7094,18 @@ def
 test_sys_breakpoint_interception
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -6916,7 +7132,7 @@ breakpoint
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -7020,13 +7236,18 @@ def
 test_pdb_not_altered
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -7061,7 +7282,7 @@ assert
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -7147,13 +7368,18 @@ def
 test_trace_sets_breakpoint
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -7195,7 +7421,7 @@ pass
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -7371,14 +7597,21 @@ child
 def
 test_trace_with_parametrize_handles_shared_fixtureinfo
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -7540,7 +7773,7 @@ test_func_kw
         
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -7640,8 +7873,10 @@ child
 .
 expect_exact
 (
+f
 "
 {
+argname
 }
 =
 1
@@ -7650,11 +7885,6 @@ r
 \
 n
 "
-.
-format
-(
-argname
-)
 )
             
 child
@@ -7697,8 +7927,10 @@ child
 .
 expect_exact
 (
+f
 "
 {
+argname
 }
 =
 2
@@ -7707,11 +7939,6 @@ r
 \
 n
 "
-.
-format
-(
-argname
-)
 )
             
 child
@@ -7816,8 +8043,13 @@ child
 def
 test_trace_after_runpytest
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7840,7 +8072,7 @@ entrant
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -7859,8 +8091,11 @@ pytestPDB
 def
 test_outer
 (
-testdir
+pytester
 )
+-
+>
+None
 :
             
 assert
@@ -7874,7 +8109,7 @@ _saved
 =
 1
             
-testdir
+pytester
 .
 makepyfile
 (
@@ -7932,7 +8167,7 @@ end
             
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7976,7 +8211,7 @@ _saved
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -8020,8 +8255,13 @@ ret
 def
 test_quit_with_swallowed_SystemExit
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -8044,7 +8284,7 @@ entrant
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8105,7 +8345,7 @@ pass
     
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -8196,9 +8436,16 @@ capsys
 def
 test_pdb_suspends_fixture_capturing
 (
-testdir
+pytester
+:
+Pytester
 fixture
+:
+str
 )
+-
+>
+None
 :
     
 "
@@ -8224,7 +8471,7 @@ capturing
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8354,7 +8601,7 @@ fixture
     
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -8556,8 +8803,13 @@ rest
 def
 test_pdbcls_via_local_module
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -8579,7 +8831,7 @@ only
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8676,7 +8928,7 @@ kwds
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8759,7 +9011,7 @@ ret
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8817,7 +9069,7 @@ in
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8880,8 +9132,13 @@ in
 def
 test_raises_bdbquit_with_eoferror
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -8905,7 +9162,7 @@ called
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8970,7 +9227,7 @@ set_trace
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9013,13 +9270,18 @@ ret
 def
 test_pdb_wrapper_class_is_reused
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -9152,7 +9414,7 @@ args
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (

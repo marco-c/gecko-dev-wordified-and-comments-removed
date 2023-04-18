@@ -2,6 +2,10 @@ import
 py
 import
 errno
+import
+sys
+import
+subprocess
 def
 test_error_classes
 (
@@ -184,7 +188,7 @@ cls
 is
 cls2
 def
-test_error_conversion_ENOTDIR
+test_error_conversion_enotdir
 (
 testdir
 )
@@ -282,6 +286,47 @@ str
 tmpdir
 )
 )
+def
+test_error_importable
+(
+)
+:
+    
+"
+"
+"
+Regression
+test
+for
+#
+179
+"
+"
+"
+    
+subprocess
+.
+check_call
+(
+        
+[
+sys
+.
+executable
+'
+-
+c
+'
+'
+from
+py
+.
+error
+import
+ENOENT
+'
+]
+)
 try
 :
     
@@ -320,7 +365,7 @@ TestCase
 :
         
 def
-test_assertWarns
+test_assert_warns
 (
 self
 )
@@ -372,8 +417,12 @@ modules
 mod
 ]
             
-import
+__import__
+(
+'
 py
+'
+)
             
 with
 self

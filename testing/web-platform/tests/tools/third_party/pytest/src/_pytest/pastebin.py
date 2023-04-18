@@ -54,9 +54,9 @@ Parser
 from
 _pytest
 .
-store
+stash
 import
-StoreKey
+StashKey
 from
 _pytest
 .
@@ -65,7 +65,7 @@ import
 TerminalReporter
 pastebinfile_key
 =
-StoreKey
+StashKey
 [
 IO
 [
@@ -215,7 +215,7 @@ None
             
 config
 .
-_store
+stash
 [
 pastebinfile_key
 ]
@@ -280,7 +280,7 @@ utf
                 
 config
 .
-_store
+stash
 [
 pastebinfile_key
 ]
@@ -314,14 +314,14 @@ pastebinfile_key
 in
 config
 .
-_store
+stash
 :
         
 pastebinfile
 =
 config
 .
-_store
+stash
 [
 pastebinfile_key
 ]
@@ -350,7 +350,7 @@ close
 del
 config
 .
-_store
+stash
 [
 pastebinfile_key
 ]
@@ -526,15 +526,17 @@ https
 :
 /
 /
-bpaste
+bpa
 .
-net
+st
 "
     
 try
 :
         
 response
+:
+str
 =
 (
             
@@ -617,26 +619,23 @@ m
 :
         
 return
+f
 "
 {
+url
 }
 /
 show
 /
 {
-}
-"
-.
-format
-(
-url
 m
 .
 group
 (
 1
 )
-)
+}
+"
     
 else
 :
@@ -806,19 +805,16 @@ terminalreporter
 .
 write_line
 (
+f
 "
 {
+msg
 }
 -
 -
 >
 {
+pastebinurl
 }
 "
-.
-format
-(
-msg
-pastebinurl
-)
 )

@@ -179,6 +179,10 @@ stable
 /
 example
 /
+how
+-
+to
+/
 parametrize
 .
 html
@@ -826,6 +830,10 @@ org
 en
 /
 stable
+/
+how
+-
+to
 /
 mark
 .

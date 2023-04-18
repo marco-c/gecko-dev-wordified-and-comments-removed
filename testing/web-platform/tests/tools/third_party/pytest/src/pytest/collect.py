@@ -39,10 +39,6 @@ Function
 "
     
 "
-Instance
-"
-    
-"
 Session
 "
     

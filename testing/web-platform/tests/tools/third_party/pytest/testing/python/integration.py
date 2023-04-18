@@ -14,6 +14,24 @@ _pytest
 _code
 import
 getfslineno
+from
+_pytest
+.
+fixtures
+import
+getfixturemarker
+from
+_pytest
+.
+pytester
+import
+Pytester
+from
+_pytest
+.
+python
+import
+Function
 class
 TestOEJSKITSpecials
 :
@@ -23,7 +41,9 @@ test_funcarg_non_pycollectobj
 (
         
 self
-testdir
+pytester
+:
+Pytester
 recwarn
     
 )
@@ -32,7 +52,7 @@ recwarn
 None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -92,7 +112,7 @@ self
 return
 self
 .
-fspath
+path
 3
 "
 xyz
@@ -106,7 +126,7 @@ xyz
         
 modcol
 =
-testdir
+pytester
 .
 getmodulecol
 (
@@ -159,6 +179,8 @@ modcol
 )
         
 clscol
+:
+Any
 =
 rep
 .
@@ -206,16 +228,20 @@ arg1
 def
 test_autouse_fixture
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 recwarn
+    
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -275,7 +301,7 @@ self
 return
 self
 .
-fspath
+path
 3
 "
 xyz
@@ -289,7 +315,7 @@ xyz
         
 modcol
 =
-testdir
+pytester
 .
 getmodulecol
 (
@@ -357,6 +383,8 @@ modcol
 )
         
 clscol
+:
+Any
 =
 rep
 .
@@ -630,11 +658,16 @@ def
 test_unittest_mock
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -711,7 +744,7 @@ hello
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -730,11 +763,16 @@ def
 test_unittest_mock_and_fixture
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -821,7 +859,7 @@ hello
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -840,8 +878,13 @@ def
 test_unittest_mock_and_pypi_mock
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 pytest
@@ -860,7 +903,7 @@ mock
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -982,7 +1025,7 @@ hello
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1001,8 +1044,13 @@ def
 test_mock_sentinel_check_against_numpy_like
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -1053,7 +1101,7 @@ arrays
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1118,7 +1166,7 @@ NumpyLike
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1186,7 +1234,7 @@ value
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1205,8 +1253,13 @@ def
 test_mock
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 pytest
@@ -1225,7 +1278,7 @@ mock
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1352,7 +1405,7 @@ test_someting
 (
 normpath
 abspath
-tmpdir
+tmp_path
 )
 :
                 
@@ -1416,7 +1469,7 @@ mock_basename
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1491,8 +1544,13 @@ def
 test_mock_sorting
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 pytest
@@ -1511,7 +1569,7 @@ mock
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1600,7 +1658,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1680,8 +1738,13 @@ def
 test_mock_double_patch_issue473
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 pytest
@@ -1700,7 +1763,7 @@ mock
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1767,7 +1830,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1789,11 +1852,16 @@ def
 test_rerun
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1845,7 +1913,7 @@ nextitem
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1924,7 +1992,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2002,9 +2070,16 @@ pytestconfig
     
 marker
 =
+getfixturemarker
+(
 pytestconfig
-.
-_pytestfixturefunction
+)
+    
+assert
+marker
+is
+not
+None
     
 assert
 marker
@@ -2023,11 +2098,16 @@ def
 test_module_with_global_test
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2056,7 +2136,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -2089,11 +2169,16 @@ def
 test_class_and_method
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2148,7 +2233,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -2181,11 +2266,16 @@ def
 test_unittest_class
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2245,7 +2335,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -2305,8 +2395,13 @@ def
 test_class_with_nasty_getattr
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -2363,7 +2458,7 @@ True
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2433,7 +2528,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -2483,11 +2578,16 @@ def
 test_idfn_marker
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2579,7 +2679,7 @@ pass
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2620,11 +2720,16 @@ def
 test_idfn_fixture
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2745,7 +2850,7 @@ pass
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2781,3 +2886,195 @@ ham
 "
 ]
 )
+def
+test_function_instance
+(
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+    
+items
+=
+pytester
+.
+getitems
+(
+        
+"
+"
+"
+        
+def
+test_func
+(
+)
+:
+pass
+        
+class
+TestIt
+:
+            
+def
+test_method
+(
+self
+)
+:
+pass
+            
+classmethod
+            
+def
+test_class
+(
+cls
+)
+:
+pass
+            
+staticmethod
+            
+def
+test_static
+(
+)
+:
+pass
+        
+"
+"
+"
+    
+)
+    
+assert
+len
+(
+items
+)
+=
+=
+3
+    
+assert
+isinstance
+(
+items
+[
+0
+]
+Function
+)
+    
+assert
+items
+[
+0
+]
+.
+name
+=
+=
+"
+test_func
+"
+    
+assert
+items
+[
+0
+]
+.
+instance
+is
+None
+    
+assert
+isinstance
+(
+items
+[
+1
+]
+Function
+)
+    
+assert
+items
+[
+1
+]
+.
+name
+=
+=
+"
+test_method
+"
+    
+assert
+items
+[
+1
+]
+.
+instance
+is
+not
+None
+    
+assert
+items
+[
+1
+]
+.
+instance
+.
+__class__
+.
+__name__
+=
+=
+"
+TestIt
+"
+    
+assert
+isinstance
+(
+items
+[
+2
+]
+Function
+)
+    
+assert
+items
+[
+2
+]
+.
+name
+=
+=
+"
+test_static
+"
+    
+assert
+items
+[
+2
+]
+.
+instance
+is
+None

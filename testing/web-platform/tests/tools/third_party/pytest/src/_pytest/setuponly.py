@@ -52,6 +52,12 @@ _pytest
 fixtures
 import
 SubRequest
+from
+_pytest
+.
+scope
+import
+Scope
 def
 pytest_addoption
 (
@@ -395,6 +401,23 @@ line
 (
 )
     
+scope_indent
+=
+list
+(
+reversed
+(
+Scope
+)
+)
+.
+index
+(
+fixturedef
+.
+_scope
+)
+    
 tw
 .
 write
@@ -404,9 +427,7 @@ write
 *
 2
 *
-fixturedef
-.
-scopenum
+scope_indent
 )
     
 tw
@@ -534,15 +555,10 @@ tw
 .
 write
 (
+f
 "
 [
 {
-}
-]
-"
-.
-format
-(
 saferepr
 (
 fixturedef
@@ -552,7 +568,9 @@ maxsize
 =
 42
 )
-)
+}
+]
+"
 )
     
 tw
