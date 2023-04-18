@@ -3522,7 +3522,7 @@ MacroAssembler
 &
 masm
 Register
-tls
+instance
 Register
 src
 const
@@ -3616,7 +3616,7 @@ Equal
 src
 Address
 (
-tls
+instance
 Instance
 :
 :
@@ -3680,7 +3680,7 @@ MacroAssembler
 &
 masm
 Register
-tls
+instance
 Register
 src
 ValueOperand
@@ -3827,7 +3827,7 @@ Equal
 src
 Address
 (
-tls
+instance
 Instance
 :
 :
@@ -4813,7 +4813,7 @@ sym
 }
 static
 void
-GenerateJitEntryLoadTls
+GenerateJitEntryLoadInstance
 (
 MacroAssembler
 &
@@ -4909,7 +4909,7 @@ framePushed
 frameSize
 )
 ;
-GenerateJitEntryLoadTls
+GenerateJitEntryLoadInstance
 (
 masm
 frameSize
@@ -5330,7 +5330,7 @@ reserveStack
 frameSize
 )
 ;
-GenerateJitEntryLoadTls
+GenerateJitEntryLoadInstance
 (
 masm
 frameSize
@@ -7183,7 +7183,7 @@ RefType
 :
 Extern
 :
-GenerateJitEntryLoadTls
+GenerateJitEntryLoadInstance
 (
 masm
 0
@@ -10314,7 +10314,7 @@ MacroAssembler
 &
 masm
 Register
-tls
+instance
 unsigned
 funcImportIndex
 const
@@ -10559,7 +10559,7 @@ scratch2
 UnboxAnyrefIntoValue
 (
 masm
-tls
+instance
 scratch2
 dst
 scratch
@@ -10949,7 +10949,7 @@ scratch
 UnboxAnyrefIntoValue
 (
 masm
-tls
+instance
 scratch
 dst
 scratch2
@@ -11203,7 +11203,7 @@ framePushed
 ;
 const
 unsigned
-sizeOfTlsSlot
+sizeOfInstanceSlot
 =
 sizeof
 (
@@ -11230,7 +11230,7 @@ funcType
 )
 )
 +
-sizeOfTlsSlot
+sizeOfInstanceSlot
 )
 ;
 masm
@@ -11270,7 +11270,7 @@ getStackPointer
 )
 framePushed
 -
-sizeOfTlsSlot
+sizeOfInstanceSlot
 )
 )
 ;
@@ -11437,7 +11437,7 @@ import
 (
 fi
 .
-tlsDataOffset
+instanceOffset
 (
 )
 )
@@ -11456,7 +11456,7 @@ getStackPointer
 )
 framePushed
 -
-sizeOfTlsSlot
+sizeOfInstanceSlot
 )
 InstanceReg
 )
@@ -12769,7 +12769,7 @@ subsumes
 ;
 const
 unsigned
-sizeOfTlsSlot
+sizeOfInstanceSlot
 =
 sizeof
 (
@@ -12837,7 +12837,7 @@ sizeOfPreFrame
 +
 sizeOfThisAndArgs
 +
-sizeOfTlsSlot
+sizeOfInstanceSlot
 ;
 const
 unsigned
@@ -13106,7 +13106,7 @@ frameAlignExtra
 ;
 const
 size_t
-savedTlsOffset
+savedInstanceOffset
 =
 argOffset
 ;
@@ -13122,7 +13122,7 @@ masm
 getStackPointer
 (
 )
-savedTlsOffset
+savedInstanceOffset
 )
 )
 ;
@@ -13137,7 +13137,7 @@ loadWasmGlobalPtr
 (
 fi
 .
-tlsDataOffset
+instanceOffset
 (
 )
 +
@@ -13313,7 +13313,7 @@ masm
 getStackPointer
 (
 )
-savedTlsOffset
+savedInstanceOffset
 )
 InstanceReg
 )

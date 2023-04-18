@@ -766,7 +766,7 @@ globalData
 +
 fi
 .
-tlsDataOffset
+instanceOffset
 (
 )
 )

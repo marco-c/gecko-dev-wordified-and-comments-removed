@@ -1331,7 +1331,7 @@ struct
 CacheablePod
 {
 uint32_t
-tlsDataOffset_
+instanceOffset_
 ;
 uint32_t
 interpExitCodeOffset_
@@ -1341,7 +1341,7 @@ jitExitCodeOffset_
 ;
 WASM_CHECK_CACHEABLE_POD
 (
-tlsDataOffset_
+instanceOffset_
 interpExitCodeOffset_
 jitExitCodeOffset_
 )
@@ -1381,7 +1381,7 @@ FuncType
 &
 funcType
 uint32_t
-tlsDataOffset
+instanceOffset
 )
 :
 funcType_
@@ -1397,9 +1397,9 @@ funcType
 {
 pod
 .
-tlsDataOffset_
+instanceOffset_
 =
-tlsDataOffset
+instanceOffset
 ;
 pod
 .
@@ -1471,7 +1471,7 @@ funcType_
 ;
 }
 uint32_t
-tlsDataOffset
+instanceOffset
 (
 )
 const
@@ -1479,7 +1479,7 @@ const
 return
 pod
 .
-tlsDataOffset_
+instanceOffset_
 ;
 }
 uint32_t
