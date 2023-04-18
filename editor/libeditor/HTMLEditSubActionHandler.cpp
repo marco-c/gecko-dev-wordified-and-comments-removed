@@ -7016,6 +7016,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -7662,6 +7663,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -14205,6 +14207,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -17288,6 +17291,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -18888,6 +18892,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -22165,6 +22170,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -26248,6 +26254,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -47237,6 +47244,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -49189,6 +49197,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -49628,6 +49637,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult

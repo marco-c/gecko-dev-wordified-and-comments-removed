@@ -1654,6 +1654,7 @@ SelectionBatcher
 selectionBatcher
 (
 selection
+__FUNCTION__
 )
 ;
 static

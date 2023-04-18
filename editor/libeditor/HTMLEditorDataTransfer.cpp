@@ -970,6 +970,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -2474,6 +2475,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -7526,6 +7528,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 EditorDOMPoint
@@ -8731,6 +8734,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -9173,6 +9177,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 if
@@ -9355,6 +9360,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 if
@@ -11394,6 +11400,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -12573,6 +12580,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -13322,6 +13330,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -13828,6 +13837,7 @@ bundleAllTransactions
 (
 *
 this
+__FUNCTION__
 )
 ;
 AutoPlaceholderBatch
@@ -13839,6 +13849,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -14322,6 +14333,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -14421,6 +14433,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 nsAutoString
@@ -15492,6 +15505,7 @@ bundleAllTransactions
 (
 *
 this
+__FUNCTION__
 )
 ;
 AutoPlaceholderBatch
@@ -15503,6 +15517,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -15663,6 +15678,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -15762,6 +15778,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv

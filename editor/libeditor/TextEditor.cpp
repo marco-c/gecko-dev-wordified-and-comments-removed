@@ -1381,6 +1381,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -1505,6 +1506,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -1653,6 +1655,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -1881,6 +1884,7 @@ preventSelectionChangeEvent
 (
 *
 this
+__FUNCTION__
 )
 ;
 if
@@ -2804,6 +2808,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv

@@ -3036,6 +3036,7 @@ selectionBatcher
 SelectionRef
 (
 )
+__FUNCTION__
 )
 ;
 AutoHideSelectionChanges

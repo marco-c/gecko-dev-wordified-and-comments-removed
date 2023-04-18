@@ -1228,6 +1228,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 AutoEditSubActionNotifier
@@ -2537,6 +2538,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 AutoEditSubActionNotifier
@@ -3646,6 +3648,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 AutoEditSubActionNotifier
@@ -4961,6 +4964,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -5238,6 +5242,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -6497,6 +6502,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -7027,6 +7033,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -8285,6 +8292,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -9904,6 +9912,7 @@ selectionBatcher
 SelectionRef
 (
 )
+__FUNCTION__
 )
 ;
 nsresult
@@ -10500,6 +10509,7 @@ selectionBatcher
 SelectionRef
 (
 )
+__FUNCTION__
 )
 ;
 rv
@@ -11073,6 +11083,7 @@ selectionBatcher
 SelectionRef
 (
 )
+__FUNCTION__
 )
 ;
 rv
@@ -11651,6 +11662,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -12918,6 +12930,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -13272,6 +13285,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 AutoTransactionsConserveSelection
@@ -16647,6 +16661,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult

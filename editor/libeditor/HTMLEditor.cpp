@@ -6697,6 +6697,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 RefPtr
@@ -7218,6 +7219,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 nsReadingIterator
@@ -8330,6 +8332,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -12287,6 +12290,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
@@ -15717,6 +15721,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 RefPtr
@@ -26901,6 +26906,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 IgnoredErrorResult
