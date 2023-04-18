@@ -594,7 +594,7 @@ EventDispatcher
 {
 public
 :
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 Dispatch
