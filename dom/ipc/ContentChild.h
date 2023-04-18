@@ -2544,17 +2544,6 @@ return
 mNetworkLinkType
 ;
 }
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
-RecvSocketProcessCrashed
-(
-)
-;
 nsString
 &
 GetIndexedDBPath

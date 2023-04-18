@@ -372,13 +372,6 @@ attribute
 boolean
 socketProcessLaunched
 ;
-readonly
-attribute
-unsigned
-long
-long
-socketProcessId
-;
 }
 ;
 %
