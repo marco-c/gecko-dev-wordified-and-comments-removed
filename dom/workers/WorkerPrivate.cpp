@@ -19838,6 +19838,9 @@ else
 MOZ_ASSERT
 (
 aReport
+&
+&
+aReport
 -
 >
 isWarning
