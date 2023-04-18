@@ -53,7 +53,6 @@ crate
 :
 {
 ConnectionEvent
-StreamId
 StreamType
 }
 ;
@@ -116,7 +115,7 @@ mut
 Connection
 id
 :
-StreamId
+u64
 )
 {
 loop

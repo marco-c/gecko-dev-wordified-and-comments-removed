@@ -399,7 +399,7 @@ aFin
 ;
 }
 void
-CancelFetch
+ResetStream
 (
 uint64_t
 aStreamId
@@ -407,7 +407,7 @@ uint64_t
 aError
 )
 {
-neqo_http3conn_cancel_fetch
+neqo_http3conn_reset_stream
 (
 this
 aStreamId

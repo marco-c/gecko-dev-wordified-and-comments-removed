@@ -103,7 +103,6 @@ ConnectionIdDecoder
 ConnectionIdGenerator
 ConnectionParameters
 Error
-StreamId
 StreamType
 }
 ;
@@ -1831,7 +1830,7 @@ mut
 Connection
 stream
 :
-StreamId
+u64
 )
 {
 const
@@ -1896,7 +1895,7 @@ mut
 Connection
 stream
 :
-StreamId
+u64
 mut
 now
 :
@@ -2132,7 +2131,7 @@ mut
 Connection
 stream
 :
-StreamId
+u64
 mut
 now
 :
@@ -2280,7 +2279,7 @@ mut
 Connection
 stream
 :
-StreamId
+u64
 in_dgrams
 :
 D
@@ -2501,7 +2500,7 @@ mut
 Connection
 stream
 :
-StreamId
+u64
 mut
 now
 :

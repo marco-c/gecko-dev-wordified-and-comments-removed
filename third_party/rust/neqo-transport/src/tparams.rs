@@ -233,7 +233,6 @@ derive
 (
 Clone
 Debug
-Copy
 )
 ]
 pub
@@ -4769,16 +4768,6 @@ preferred_address_neither
 (
 )
 {
-#
-[
-allow
-(
-clippy
-:
-:
-drop_copy
-)
-]
 mem
 :
 :

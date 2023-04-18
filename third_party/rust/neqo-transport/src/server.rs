@@ -2705,6 +2705,10 @@ self
 .
 conn_params
 .
+clone
+(
+)
+.
 quic_version
 (
 initial

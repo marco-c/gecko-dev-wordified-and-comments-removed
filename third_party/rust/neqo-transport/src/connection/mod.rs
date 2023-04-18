@@ -15945,7 +15945,7 @@ StreamType
 >
 Res
 <
-StreamId
+u64
 >
 {
 match
@@ -16061,7 +16061,7 @@ mut
 self
 stream_id
 :
-StreamId
+u64
 transmission
 :
 TransmissionPriority
@@ -16084,6 +16084,10 @@ streams
 get_send_stream_mut
 (
 stream_id
+.
+into
+(
+)
 )
 ?
 .
@@ -16108,7 +16112,7 @@ mut
 self
 stream_id
 :
-StreamId
+u64
 data
 :
 &
@@ -16130,6 +16134,10 @@ streams
 get_send_stream_mut
 (
 stream_id
+.
+into
+(
+)
 )
 ?
 .
@@ -16147,7 +16155,7 @@ mut
 self
 stream_id
 :
-StreamId
+u64
 data
 :
 &
@@ -16172,6 +16180,10 @@ streams
 get_send_stream_mut
 (
 stream_id
+.
+into
+(
+)
 )
 ?
 .
@@ -16254,7 +16266,7 @@ stream_avail_send_space
 self
 stream_id
 :
-StreamId
+u64
 )
 -
 >
@@ -16272,6 +16284,10 @@ streams
 get_send_stream
 (
 stream_id
+.
+into
+(
+)
 )
 ?
 .
@@ -16289,7 +16305,7 @@ mut
 self
 stream_id
 :
-StreamId
+u64
 )
 -
 >
@@ -16306,6 +16322,10 @@ streams
 get_send_stream_mut
 (
 stream_id
+.
+into
+(
+)
 )
 ?
 .
@@ -16328,7 +16348,7 @@ mut
 self
 stream_id
 :
-StreamId
+u64
 err
 :
 AppError
@@ -16348,6 +16368,10 @@ streams
 get_send_stream_mut
 (
 stream_id
+.
+into
+(
+)
 )
 ?
 .
@@ -16371,7 +16395,7 @@ mut
 self
 stream_id
 :
-StreamId
+u64
 data
 :
 &
@@ -16400,6 +16424,10 @@ streams
 get_recv_stream_mut
 (
 stream_id
+.
+into
+(
+)
 )
 ?
 ;
@@ -16437,7 +16465,7 @@ mut
 self
 stream_id
 :
-StreamId
+u64
 err
 :
 AppError
@@ -16460,6 +16488,10 @@ streams
 get_recv_stream_mut
 (
 stream_id
+.
+into
+(
+)
 )
 ?
 ;
@@ -16485,7 +16517,7 @@ mut
 self
 stream_id
 :
-StreamId
+u64
 max_data
 :
 u64
@@ -16508,6 +16540,10 @@ streams
 get_recv_stream_mut
 (
 stream_id
+.
+into
+(
+)
 )
 ?
 ;
@@ -16533,7 +16569,7 @@ mut
 self
 stream_id
 :
-StreamId
+u64
 keep
 :
 bool
@@ -16553,6 +16589,10 @@ streams
 keep_alive
 (
 stream_id
+.
+into
+(
+)
 keep
 )
 }

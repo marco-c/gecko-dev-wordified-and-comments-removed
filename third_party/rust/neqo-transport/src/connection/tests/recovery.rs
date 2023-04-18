@@ -2356,9 +2356,9 @@ Ok
 now
 )
 ;
-let
-stream
-=
+assert_eq
+!
+(
 client
 .
 stream_create
@@ -2372,11 +2372,6 @@ UniDi
 unwrap
 (
 )
-;
-assert_eq
-!
-(
-stream
 2
 )
 ;
@@ -2387,7 +2382,7 @@ client
 .
 stream_send
 (
-stream
+2
 b
 "
 zero
