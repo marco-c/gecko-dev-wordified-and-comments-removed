@@ -201,9 +201,9 @@ dom
 .
 streams
 .
-expose
+readable_stream_default_reader
 .
-ReadableStreamDefaultReader
+enabled
 "
 ]
 interface

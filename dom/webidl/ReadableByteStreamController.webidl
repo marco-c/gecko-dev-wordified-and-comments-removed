@@ -136,9 +136,9 @@ dom
 .
 streams
 .
-expose
+readable_byte_stream_controller
 .
-ReadableByteStreamController
+enabled
 "
 ]
 interface

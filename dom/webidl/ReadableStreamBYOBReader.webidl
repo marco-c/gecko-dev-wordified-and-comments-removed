@@ -13,9 +13,9 @@ dom
 .
 streams
 .
-expose
+readable_stream_byob_reader
 .
-ReadableStreamBYOBReader
+enabled
 "
 ]
 interface
