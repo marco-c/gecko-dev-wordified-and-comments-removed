@@ -2184,7 +2184,7 @@ wr
 FontInstanceFlags
 :
 :
-MULTISTRIKE_BOLD
+SYNTHETIC_BOLD
 ;
 }
 if
@@ -2323,7 +2323,7 @@ wr
 FontInstanceFlags
 :
 :
-MULTISTRIKE_BOLD
+SYNTHETIC_BOLD
 )
 {
 mApplySyntheticBold
