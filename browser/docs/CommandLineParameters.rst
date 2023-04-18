@@ -157,6 +157,17 @@ osint
 -
 url
 URL
+or
+firefox
+.
+exe
+-
+osint
+-
+private
+-
+window
+URL
 :
 refer
 to
