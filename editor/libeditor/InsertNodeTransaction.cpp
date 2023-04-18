@@ -260,6 +260,14 @@ aContentToInsert
 mPointToInsert
 (
 aPointToInsert
+.
+template
+To
+<
+EditorDOMPoint
+>
+(
+)
 )
 mEditorBase
 (

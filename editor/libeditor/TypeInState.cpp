@@ -280,6 +280,13 @@ GetStartPoint
 (
 aSelection
 )
+.
+To
+<
+EditorDOMPoint
+>
+(
+)
 ;
 if
 (
@@ -1134,6 +1141,13 @@ return
 mLastSelectionPoint
 =
 selectionStartPoint
+.
+To
+<
+EditorDOMPoint
+>
+(
+)
 ;
 AutoEditorDOMPointChildInvalidator
 saveOnlyOffset

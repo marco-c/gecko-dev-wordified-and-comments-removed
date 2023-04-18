@@ -1591,6 +1591,13 @@ aEditorBase
 FindBetterInsertionPoint
 (
 atStartOfSelection
+.
+To
+<
+EditorRawDOMPoint
+>
+(
+)
 )
 ;
 if
