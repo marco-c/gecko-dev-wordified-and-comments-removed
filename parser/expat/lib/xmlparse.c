@@ -8839,7 +8839,7 @@ XML_StopParser
 (
 XML_Parser
 parser
-XML_Bool
+int
 resumable
 )
 {
