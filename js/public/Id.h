@@ -1025,7 +1025,7 @@ char
 name
 )
 {
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 idp

@@ -326,7 +326,7 @@ char
 name
 )
 {
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 vp

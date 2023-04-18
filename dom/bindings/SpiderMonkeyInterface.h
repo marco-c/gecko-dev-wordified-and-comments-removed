@@ -110,7 +110,7 @@ trc
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 &
@@ -125,7 +125,7 @@ mImplObj
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 &

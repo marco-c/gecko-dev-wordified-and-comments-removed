@@ -1891,7 +1891,7 @@ T
 >
 static
 void
-UnsafeTraceRootHelper
+TraceRootHelper
 (
 JSTracer
 *
@@ -1994,7 +1994,7 @@ void
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 JSTracer
 *
@@ -2010,7 +2010,7 @@ name
 )
 {
 \
-UnsafeTraceRootHelper
+TraceRootHelper
 (
 trc
 thingp

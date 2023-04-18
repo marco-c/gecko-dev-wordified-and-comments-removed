@@ -495,7 +495,7 @@ trc
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 &
@@ -559,7 +559,7 @@ trc
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 &
@@ -581,7 +581,7 @@ exception
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 &
@@ -649,7 +649,7 @@ trc
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 &
@@ -713,7 +713,7 @@ trc
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 &
@@ -735,7 +735,7 @@ generatorObject
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 &
@@ -799,7 +799,7 @@ trc
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 &
@@ -821,7 +821,7 @@ generatorObject
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 &

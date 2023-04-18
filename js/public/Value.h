@@ -4914,7 +4914,7 @@ char
 name
 )
 {
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 v
