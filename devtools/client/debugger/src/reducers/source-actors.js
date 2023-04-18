@@ -398,17 +398,6 @@ sourceActor
 }
 export
 function
-stringToSourceActorId
-(
-s
-)
-{
-return
-s
-;
-}
-export
-function
 hasSourceActor
 (
 state
