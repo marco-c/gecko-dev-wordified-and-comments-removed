@@ -3483,9 +3483,6 @@ aLists
 ;
 nsDisplayList
 content
-(
-aBuilder
-)
 ;
 {
 DisplayListClipState

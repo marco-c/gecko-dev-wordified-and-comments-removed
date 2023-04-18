@@ -2656,9 +2656,6 @@ false
 ;
 nsDisplayList
 layerItems
-(
-aBuilder
-)
 ;
 const
 nsStyleImageLayers
@@ -2750,9 +2747,6 @@ asr
 ;
 nsDisplayList
 thisItemList
-(
-aBuilder
-)
 ;
 nsDisplayBackgroundImage
 :
