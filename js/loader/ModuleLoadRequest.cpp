@@ -246,6 +246,11 @@ mVisitedSet
 aVisitedSet
 )
 {
+MOZ_ASSERT
+(
+mLoader
+)
+;
 }
 void
 ModuleLoadRequest
@@ -794,10 +799,6 @@ ProcessLoadedModuleTree
 (
 request
 )
-;
-mLoader
-=
-nullptr
 ;
 }
 void

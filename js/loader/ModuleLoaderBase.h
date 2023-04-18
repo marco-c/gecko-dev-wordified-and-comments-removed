@@ -614,6 +614,17 @@ aModuleScript
 ;
 public
 :
+ScriptLoaderInterface
+*
+GetScriptLoaderInterface
+(
+)
+const
+{
+return
+mLoader
+;
+}
 bool
 HasPendingDynamicImports
 (
@@ -636,6 +647,7 @@ DEBUG
 bool
 HasDynamicImport
 (
+const
 ModuleLoadRequest
 *
 aRequest
@@ -692,7 +704,7 @@ EvaluateModule
 nsIGlobalObject
 *
 aGlobalObject
-ScriptLoadRequest
+ModuleLoadRequest
 *
 aRequest
 )
@@ -1018,7 +1030,7 @@ const
 nsresult
 EvaluateModule
 (
-ScriptLoadRequest
+ModuleLoadRequest
 *
 aRequest
 )
