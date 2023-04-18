@@ -1154,6 +1154,11 @@ nsHTMLFormatConverter
 cpp
 "
 "
+nsIDeviceContextSpec
+.
+cpp
+"
+"
 nsIWidgetListener
 .
 cpp
