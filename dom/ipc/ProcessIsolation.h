@@ -163,6 +163,8 @@ nsACString
 aCurrentRemoteType
 bool
 aHasCOOPMismatch
+bool
+aForNewTab
 uint32_t
 aLoadStateLoadType
 const

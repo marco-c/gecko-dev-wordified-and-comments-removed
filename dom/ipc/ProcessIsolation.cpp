@@ -2036,6 +2036,8 @@ nsACString
 aCurrentRemoteType
 bool
 aHasCOOPMismatch
+bool
+aForNewTab
 uint32_t
 aLoadStateLoadType
 const
@@ -3067,6 +3069,10 @@ GetMaxTotalViewers
 &
 &
 !
+aForNewTab
+&
+&
+!
 aParentWindow
 &
 &
@@ -3608,6 +3614,10 @@ if
 options
 .
 mReplaceBrowsingContext
+&
+&
+!
+aForNewTab
 )
 {
 auto

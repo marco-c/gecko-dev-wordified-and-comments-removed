@@ -166,6 +166,9 @@ nsISecureBrowserUI
 h
 "
 class
+nsIBrowserDOMWindow
+;
+class
 nsISHistory
 ;
 class
@@ -485,6 +488,14 @@ already_AddRefed
 nsIWidget
 >
 GetParentProcessWidgetContaining
+(
+)
+;
+already_AddRefed
+<
+nsIBrowserDOMWindow
+>
+GetBrowserDOMWindow
 (
 )
 ;

@@ -1163,6 +1163,10 @@ dom
 NavigationIsolationOptions
 &
 aOptions
+bool
+aIsNewTab
+=
+false
 )
 ;
 using
