@@ -29,7 +29,6 @@ PushBroadcastService
 .
 jsm
 "
-null
 )
 ;
 const

@@ -26,7 +26,6 @@ PushCrypto
 .
 jsm
 "
-null
 )
 ;
 const

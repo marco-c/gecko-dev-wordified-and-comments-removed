@@ -81,6 +81,9 @@ EXPORTED_SYMBOLS
 "
 pushBroadcastService
 "
+"
+BroadcastService
+"
 ]
 ;
 const

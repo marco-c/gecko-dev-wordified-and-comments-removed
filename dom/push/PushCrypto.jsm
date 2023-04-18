@@ -106,6 +106,9 @@ EXPORTED_SYMBOLS
 "
 PushCrypto
 "
+"
+getCryptoParamsFromHeaders
+"
 ]
 ;
 const
