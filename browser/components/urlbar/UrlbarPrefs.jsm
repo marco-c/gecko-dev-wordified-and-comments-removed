@@ -341,6 +341,14 @@ suggest
 ]
 [
 "
+merino
+.
+timeoutMs
+"
+200
+]
+[
+"
 openintab
 "
 false
