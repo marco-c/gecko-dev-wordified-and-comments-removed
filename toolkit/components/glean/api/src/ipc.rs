@@ -589,14 +589,6 @@ FOG_RegisterContentChildShutdown
 nsIXULRuntime
 :
 :
-PROCESS_TYPE_GMPLUGIN
-=
->
-{
-}
-nsIXULRuntime
-:
-:
 PROCESS_TYPE_GPU
 =
 >
