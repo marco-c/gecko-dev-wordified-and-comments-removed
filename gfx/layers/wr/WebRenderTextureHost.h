@@ -131,6 +131,16 @@ override
 gfx
 :
 :
+ColorDepth
+GetColorDepth
+(
+)
+const
+override
+;
+gfx
+:
+:
 YUVColorSpace
 GetYUVColorSpace
 (
