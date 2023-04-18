@@ -1336,13 +1336,6 @@ HandleValue
 value
 )
 {
-generator
--
->
-setSuspendedYield
-(
-)
-;
 if
 (
 !
@@ -1369,6 +1362,13 @@ isQueueEmpty
 )
 )
 {
+generator
+-
+>
+setSuspendedYield
+(
+)
+;
 return
 true
 ;
