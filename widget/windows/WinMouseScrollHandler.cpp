@@ -6731,7 +6731,7 @@ HandleKeyMessage
 sZoomUntil
 =
 %
-d
+lu
 "
 sZoomUntil
 )

@@ -1238,7 +1238,7 @@ p
 bytes
 =
 %
-d
+lu
 "
 obs
 .

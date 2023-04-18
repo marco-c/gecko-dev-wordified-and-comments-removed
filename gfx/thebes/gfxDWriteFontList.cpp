@@ -2788,7 +2788,7 @@ s
 size
 :
 %
-d
+zu
 hash
 :
 %

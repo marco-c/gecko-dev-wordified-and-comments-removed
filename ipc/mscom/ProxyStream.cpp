@@ -495,8 +495,8 @@ AppendPrintf
 "
 0x
 %
-p
 "
+PRIxPTR
 curActCtx
 .
 unwrap

@@ -11631,7 +11631,7 @@ Length
 )
 =
 %
-d
+zu
 }
 "
 this
@@ -21378,11 +21378,11 @@ count
 ulCount
 =
 %
-u
+lu
 expectedCount
 =
 %
-u
+lu
 "
 this
 ulCount
@@ -21418,7 +21418,7 @@ called
 ulCount
 =
 %
-d
+lu
 mRequestedAttrValues
 =
 %
@@ -34275,7 +34275,7 @@ failure
 offset
 =
 %
-d
+lld
 )
 "
 this
@@ -39007,9 +39007,10 @@ Length
 )
 =
 %
-d
+zu
 "
 this
+aTextStore
 aTextStore
 -
 >
@@ -39621,7 +39622,7 @@ Length
 )
 =
 %
-d
+zu
 "
 this
 start
@@ -39687,7 +39688,7 @@ Length
 )
 =
 %
-d
+zu
 "
 this
 ToString
