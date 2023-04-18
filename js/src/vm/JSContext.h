@@ -3714,6 +3714,16 @@ runningWithTrustedPrincipals
 (
 )
 ;
+bool
+isRuntimeCodeGenEnabled
+(
+js
+:
+:
+HandleString
+code
+)
+;
 size_t
 sizeOfExcludingThis
 (
