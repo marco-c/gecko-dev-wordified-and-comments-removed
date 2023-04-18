@@ -113,6 +113,7 @@ private
 TemporaryIPCBlobChild
 (
 )
+override
 ;
 mozilla
 :

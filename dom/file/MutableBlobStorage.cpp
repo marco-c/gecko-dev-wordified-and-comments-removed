@@ -262,6 +262,7 @@ private
 BlobCreationDoneRunnable
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -650,6 +651,7 @@ aData
 WriteRunnable
 (
 )
+override
 {
 free
 (
@@ -737,6 +739,7 @@ private
 CloseFileRunnable
 (
 )
+override
 {
 if
 (
@@ -926,6 +929,7 @@ private
 CreateBlobRunnable
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -1093,6 +1097,7 @@ private
 LastRunnable
 (
 )
+override
 {
 MOZ_ASSERT
 (

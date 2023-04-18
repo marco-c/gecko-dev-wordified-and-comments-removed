@@ -218,6 +218,7 @@ private
 RemoteLazyInputStreamChild
 (
 )
+override
 ;
 nsTArray
 <

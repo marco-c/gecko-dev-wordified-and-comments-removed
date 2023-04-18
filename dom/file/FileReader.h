@@ -180,7 +180,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 FileReader
 DOMEventTargetHelper
 )
-virtual
 JSObject
 *
 WrapObject
@@ -448,11 +447,11 @@ InitialAsyncWait
 ;
 private
 :
-virtual
 ~
 FileReader
 (
 )
+override
 ;
 enum
 eReadyState

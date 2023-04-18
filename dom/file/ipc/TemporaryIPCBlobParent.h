@@ -70,6 +70,7 @@ private
 TemporaryIPCBlobParent
 (
 )
+override
 ;
 mozilla
 :

@@ -143,7 +143,6 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSISERIALIZABLE
-virtual
 nsresult
 CloneInternal
 (
@@ -160,7 +159,6 @@ aClone
 )
 override
 ;
-virtual
 nsresult
 EqualsInternal
 (
@@ -193,7 +191,6 @@ aParams
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -255,11 +252,11 @@ override
 ;
 private
 :
-virtual
 ~
 BlobURL
 (
 )
+override
 =
 default
 ;

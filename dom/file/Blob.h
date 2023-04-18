@@ -327,7 +327,6 @@ ErrorResult
 aRv
 )
 ;
-virtual
 JSObject
 *
 WrapObject

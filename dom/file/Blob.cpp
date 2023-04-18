@@ -1717,11 +1717,11 @@ mStream
 ;
 protected
 :
-virtual
 ~
 BlobBodyStreamHolder
 (
 )
+override
 {
 NullifyStream
 (

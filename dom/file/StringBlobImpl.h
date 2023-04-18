@@ -163,6 +163,7 @@ aContentType
 StringBlobImpl
 (
 )
+override
 ;
 nsCString
 mData
