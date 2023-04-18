@@ -266,13 +266,9 @@ test
 "
 )
 ;
-is
-(
-isPaused
+assertNotPaused
 (
 dbg
-)
-false
 )
 ;
 info
