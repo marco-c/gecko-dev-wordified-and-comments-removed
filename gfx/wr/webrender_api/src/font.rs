@@ -572,6 +572,7 @@ key
 [
 derive
 (
+Debug
 Clone
 Hash
 Eq

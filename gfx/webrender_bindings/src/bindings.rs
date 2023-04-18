@@ -8260,6 +8260,14 @@ precache_flags
 namespace_alloc_by_client
 :
 true
+shared_font_namespace
+:
+Some
+(
+next_namespace_id
+(
+)
+)
 clear_caches_with_quads
 :
 !
