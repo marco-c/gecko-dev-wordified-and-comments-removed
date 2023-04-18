@@ -6056,7 +6056,7 @@ length
 ;
 }
 function
-TypedArrayWithReversed
+TypedArrayToReversed
 (
 )
 {
@@ -6082,7 +6082,7 @@ callFunction
 CallTypedArrayMethodIfWrapped
 this
 "
-TypedArrayWithReversed
+TypedArrayToReversed
 "
 )
 ;
@@ -6204,7 +6204,7 @@ a
 ;
 }
 function
-TypedArrayWithAt
+TypedArrayWith
 (
 index
 value
@@ -6232,7 +6232,7 @@ callFunction
 CallTypedArrayMethodIfWrapped
 this
 "
-TypedArrayWithAt
+TypedArrayWith
 "
 index
 value
@@ -6357,7 +6357,7 @@ A
 ;
 }
 function
-TypedArrayWithSorted
+TypedArrayToSorted
 (
 comparefn
 )
@@ -6384,7 +6384,7 @@ callFunction
 CallTypedArrayMethodIfWrapped
 this
 "
-TypedArrayWithSorted
+TypedArrayToSorted
 "
 comparefn
 )
@@ -6482,7 +6482,7 @@ TypedArraySort
 ;
 }
 function
-TypedArrayWithSpliced
+TypedArrayToSpliced
 (
 start
 deleteCount
@@ -6514,7 +6514,7 @@ callFunction
 CallTypedArrayMethodIfWrapped
 this
 "
-TypedArrayWithSpliced
+TypedArrayToSpliced
 "
 start
 deleteCount

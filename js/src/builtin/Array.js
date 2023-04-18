@@ -4124,7 +4124,7 @@ ArrayAt
 ifdef
 ENABLE_CHANGE_ARRAY_BY_COPY
 function
-ArrayWithReversed
+ArrayToReversed
 (
 )
 {
@@ -4200,7 +4200,7 @@ A
 ;
 }
 function
-ArrayWithSorted
+ArrayToSorted
 (
 comparefn
 )
@@ -4223,7 +4223,7 @@ comparefn
 {
 ThrowTypeError
 (
-JSMSG_BAD_WITHSORTED_ARG
+JSMSG_BAD_TOSORTED_ARG
 )
 ;
 }

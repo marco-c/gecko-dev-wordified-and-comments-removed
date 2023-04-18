@@ -12289,7 +12289,7 @@ names
 (
 )
 .
-withAt
+with
 )
 |
 |
@@ -12305,7 +12305,7 @@ names
 (
 )
 .
-withReversed
+toReversed
 )
 |
 |
@@ -12321,7 +12321,7 @@ names
 (
 )
 .
-withSorted
+toSorted
 )
 |
 |
@@ -12337,7 +12337,7 @@ names
 (
 )
 .
-withSpliced
+toSpliced
 )
 )
 )
