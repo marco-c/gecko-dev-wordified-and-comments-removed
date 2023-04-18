@@ -299,8 +299,8 @@ closed2
 tooltiptext
 =
 Open
-Application
-Menu
+application
+menu
 .
 label
 =
@@ -324,8 +324,8 @@ opened2
 tooltiptext
 =
 Close
-Application
-Menu
+application
+menu
 .
 label
 =
