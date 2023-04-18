@@ -4098,12 +4098,6 @@ AutoTransportDescriptor
 :
 Create
 (
-peerA
--
->
-OtherPid
-(
-)
 )
 ;
 if

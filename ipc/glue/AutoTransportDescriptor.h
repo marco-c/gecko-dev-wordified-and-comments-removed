@@ -105,8 +105,6 @@ nsresult
 >
 Create
 (
-int32_t
-aProcIdOne
 )
 ;
 AutoTransportDescriptor

@@ -154,8 +154,6 @@ AutoTransportDescriptor
 :
 Create
 (
-int32_t
-aProcIdOne
 )
 {
 TransportDescriptor
@@ -166,7 +164,6 @@ MOZ_TRY
 (
 CreateTransport
 (
-aProcIdOne
 &
 one
 &
