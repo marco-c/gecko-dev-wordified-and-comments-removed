@@ -2766,11 +2766,6 @@ nsIStreamListener
 aDocListener
 bool
 aReset
-nsIContentSink
-*
-aSink
-=
-nullptr
 )
 =
 0
