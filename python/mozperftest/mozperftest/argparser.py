@@ -108,6 +108,9 @@ doc
 "
 xpcshell
 "
+"
+webpagetest
+"
 class
 Options
 :
