@@ -132,12 +132,6 @@ metrics
 :
 __glean_metric_maps
 ;
-use
-super
-:
-:
-HashState
-;
 type
 EventRecord
 =
@@ -171,7 +165,6 @@ HashMap
 <
 MetricId
 i32
-HashState
 >
 pub
 custom_samples
@@ -183,7 +176,6 @@ Vec
 <
 i64
 >
-HashState
 >
 pub
 denominators
@@ -192,7 +184,6 @@ HashMap
 <
 MetricId
 i32
-HashState
 >
 pub
 events
@@ -204,7 +195,6 @@ Vec
 <
 EventRecord
 >
-HashState
 >
 pub
 labeled_counters
@@ -217,7 +207,6 @@ HashMap
 String
 i32
 >
-HashState
 >
 pub
 memory_samples
@@ -229,7 +218,6 @@ Vec
 <
 u64
 >
-HashState
 >
 pub
 numerators
@@ -238,7 +226,6 @@ HashMap
 <
 MetricId
 i32
-HashState
 >
 pub
 rates
@@ -250,7 +237,6 @@ MetricId
 i32
 i32
 )
-HashState
 >
 pub
 string_lists
@@ -262,7 +248,6 @@ Vec
 <
 String
 >
-HashState
 >
 pub
 timing_samples
@@ -274,7 +259,6 @@ Vec
 <
 u64
 >
-HashState
 >
 }
 static
