@@ -267,17 +267,6 @@ false
 activity
 android
 :
-configChanges
-=
-"
-keyboardHidden
-|
-orientation
-|
-screenSize
-"
-android
-:
 name
 =
 "

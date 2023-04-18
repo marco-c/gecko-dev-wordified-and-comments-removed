@@ -2379,12 +2379,11 @@ clear
 )
 ;
 }
-public
+private
 void
 completeFrom
 (
 final
-Nullable
 GeckoResult
 <
 T
