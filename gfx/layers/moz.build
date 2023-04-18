@@ -1494,11 +1494,6 @@ SurfacePoolCA
 .
 h
 "
-"
-TextureSync
-.
-h
-"
 ]
 EXPORTS
 +
@@ -1528,11 +1523,6 @@ mm
 SurfacePoolCA
 .
 mm
-"
-"
-TextureSync
-.
-cpp
 "
 ]
 SOURCES

@@ -552,14 +552,6 @@ GetTextureForwarder
 IPCOpen
 (
 )
-|
-|
-aKnowsCompositor
--
->
-SupportsTextureDirectMapping
-(
-)
 )
 {
 return
