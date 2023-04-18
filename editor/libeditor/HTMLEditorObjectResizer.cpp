@@ -1742,9 +1742,9 @@ RefPtr
 <
 Element
 >
-editorRoot
+editingHost
 =
-GetEditorRoot
+GetActiveEditingHost
 (
 )
 ;
@@ -1753,7 +1753,7 @@ if
 NS_WARN_IF
 (
 !
-editorRoot
+editingHost
 )
 |
 |
@@ -1764,7 +1764,7 @@ aResizedElement
 .
 IsInclusiveDescendantOf
 (
-editorRoot
+editingHost
 )
 )
 )

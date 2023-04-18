@@ -5408,14 +5408,6 @@ nullptr
 )
 ;
 virtual
-Element
-*
-GetEditorRoot
-(
-)
-const
-;
-virtual
 bool
 IsActiveInDOMWindow
 (

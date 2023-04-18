@@ -191,9 +191,9 @@ RefPtr
 <
 Element
 >
-editorRoot
+editingHost
 =
-GetEditorRoot
+GetActiveEditingHost
 (
 )
 ;
@@ -202,7 +202,7 @@ if
 NS_WARN_IF
 (
 !
-editorRoot
+editingHost
 )
 |
 |
@@ -213,7 +213,7 @@ aCellElement
 .
 IsInclusiveDescendantOf
 (
-editorRoot
+editingHost
 )
 )
 )
