@@ -17,6 +17,10 @@ shutil
 import
 subprocess
 from
+pathlib
+import
+Path
+from
 mozfile
 import
 which
@@ -4687,6 +4691,20 @@ exception
 "
 "
 "
+    
+path
+=
+str
+(
+Path
+(
+path
+)
+.
+resolve
+(
+)
+)
     
 if
 os
