@@ -1216,7 +1216,7 @@ mSwapChainFormat
 DXGI_FORMAT_B8G8R8A8_UNORM
 ;
 bool
-mFailedToCreateYuvSwapChain
+mFailedYuvSwapChain
 =
 false
 ;
