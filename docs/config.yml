@@ -151,10 +151,6 @@ testing
 /
 geckodriver
 -
-web
--
-platform
--
 gtest
 -
 tools
