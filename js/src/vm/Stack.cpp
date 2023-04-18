@@ -3006,7 +3006,7 @@ wasmIter
 (
 )
 .
-unwoundIonCallerFP
+unwoundJitCallerFP
 (
 )
 )
@@ -3019,7 +3019,7 @@ wasmIter
 (
 )
 .
-unwoundIonCallerFP
+unwoundJitCallerFP
 (
 )
 ;

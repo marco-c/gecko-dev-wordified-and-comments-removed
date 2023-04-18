@@ -949,7 +949,7 @@ if
 !
 wasmFrame
 .
-unwoundIonCallerFP
+unwoundJitCallerFP
 (
 )
 )
@@ -972,7 +972,7 @@ prevFP
 =
 wasmFrame
 .
-unwoundIonCallerFP
+unwoundJitCallerFP
 (
 )
 ;
@@ -984,7 +984,7 @@ prevFrameType
 =
 wasmFrame
 .
-unwoundIonFrameType
+unwoundJitFrameType
 (
 )
 ;
