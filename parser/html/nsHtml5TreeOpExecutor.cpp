@@ -1913,7 +1913,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+void
 nsHtml5TreeOpExecutor
 :
 :
@@ -1936,9 +1936,6 @@ only
 .
 "
 )
-;
-return
-NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP

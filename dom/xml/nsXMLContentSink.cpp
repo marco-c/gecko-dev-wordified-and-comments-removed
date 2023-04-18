@@ -1819,16 +1819,14 @@ WillInterruptImpl
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsXMLContentSink
 :
 :
 WillResume
 (
-void
 )
 {
-return
 WillResumeImpl
 (
 )

@@ -152,10 +152,10 @@ void
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 WillResume
 (
-void
 )
 =
 0

@@ -335,7 +335,7 @@ WillInterrupt
 )
 override
 ;
-NS_IMETHOD
+void
 WillResume
 (
 )
