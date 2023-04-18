@@ -77,6 +77,9 @@ const
 char
 *
 aCategory
+nsISupports
+*
+aSubject
 )
 {
 NS_ENSURE_ARG
@@ -259,7 +262,7 @@ startupObserver
 >
 Observe
 (
-nullptr
+aSubject
 aCategory
 nullptr
 )
