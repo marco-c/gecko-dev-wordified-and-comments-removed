@@ -431,7 +431,7 @@ ParentToParentServiceWorkerFetchEventOpArgs
 ServiceWorkerFetchEventOpArgsCommon
 common
 ;
-ParentToParentInternalResponse
+ParentToParentResponseWithTiming
 ?
 preloadResponse
 ;
@@ -443,7 +443,7 @@ ParentToChildServiceWorkerFetchEventOpArgs
 ServiceWorkerFetchEventOpArgsCommon
 common
 ;
-ParentToChildInternalResponse
+ParentToChildResponseWithTiming
 ?
 preloadResponse
 ;
