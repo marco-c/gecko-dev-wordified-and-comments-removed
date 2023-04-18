@@ -70,11 +70,6 @@ long
 long
 u64
 ;
-          
-attribute
-DOMTimeStamp
-ts
-;
         
 }
 ;
@@ -232,7 +227,7 @@ len
 (
 members
 )
-10
+9
 "
 Should
 be
@@ -327,7 +322,7 @@ i
 in
 range
 (
-10
+9
 )
 :
         
