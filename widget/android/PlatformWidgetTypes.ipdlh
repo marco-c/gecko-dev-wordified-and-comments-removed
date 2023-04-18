@@ -1,15 +1,6 @@
 include
 HeadlessWidgetTypes
 ;
-include
-"
-mozilla
-/
-GfxMessageUtils
-.
-h
-"
-;
 using
 mozilla
 :

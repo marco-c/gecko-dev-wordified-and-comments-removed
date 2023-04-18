@@ -1183,6 +1183,11 @@ mIsOpen
 Open
 (
 mParent
+-
+>
+GetIPCChannel
+(
+)
 mozilla
 :
 :

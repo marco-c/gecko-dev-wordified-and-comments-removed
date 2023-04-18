@@ -57,7 +57,7 @@ MPL
 *
 /
 include
-IPCChannelInfo
+ChannelInfo
 ;
 include
 ClientIPCTypes

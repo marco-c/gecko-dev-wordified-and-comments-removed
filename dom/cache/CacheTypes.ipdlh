@@ -72,7 +72,7 @@ include
 IPCStream
 ;
 include
-IPCChannelInfo
+ChannelInfo
 ;
 include
 PBackgroundSharedTypes

@@ -89,7 +89,7 @@ mozilla
 /
 ipc
 /
-IPCChannelInfo
+ChannelInfo
 .
 h
 "

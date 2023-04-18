@@ -193,12 +193,12 @@ IPDL_SOURCES
 =
 [
 "
-FetchTypes
+ChannelInfo
 .
 ipdlh
 "
 "
-IPCChannelInfo
+FetchTypes
 .
 ipdlh
 "

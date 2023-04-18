@@ -296,6 +296,11 @@ child
 OpenOnSameThread
 (
 parent
+-
+>
+GetIPCChannel
+(
+)
 ChildSide
 )
 )

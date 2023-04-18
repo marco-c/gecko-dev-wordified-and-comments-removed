@@ -147,7 +147,7 @@ IPDLUnitTest
 "
         
 "
-Self
+PluginContainer
 "
         
 "

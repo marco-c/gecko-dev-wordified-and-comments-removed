@@ -1,12 +1,3 @@
-include
-"
-mozilla
-/
-GfxMessageUtils
-.
-h
-"
-;
 using
 mozilla
 :

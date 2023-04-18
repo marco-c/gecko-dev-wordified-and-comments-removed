@@ -26,6 +26,8 @@ ComputedFlags
     
 Sources
     
+GeneratedSources
+    
 DirectoryTraversal
     
 PerSourceFlag
@@ -264,7 +266,10 @@ elif
 isinstance
 (
 obj
+(
 Sources
+GeneratedSources
+)
 )
 :
             
@@ -934,11 +939,36 @@ sorted_ipdl_sources
 sorted_nonstatic_ipdl_sources
         
 sorted_static_ipdl_sources
+        
+unified_ipdl_cppsrcs_mapping
     
 )
 :
         
-pass
+for
+f
+in
+unified_ipdl_cppsrcs_mapping
+:
+            
+self
+.
+_build_db_line
+(
+ipdl_dir
+None
+self
+.
+environment
+f
+[
+0
+]
+"
+.
+cpp
+"
+)
     
 def
 _handle_webidl_build

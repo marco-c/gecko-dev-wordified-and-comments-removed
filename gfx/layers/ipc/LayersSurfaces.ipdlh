@@ -65,15 +65,6 @@ ShadowLayerUtils
 h
 "
 ;
-include
-"
-mozilla
-/
-GfxMessageUtils
-.
-h
-"
-;
 using
 gfxPoint
 from

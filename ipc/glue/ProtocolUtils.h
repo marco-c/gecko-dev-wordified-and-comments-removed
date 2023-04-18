@@ -1721,9 +1721,9 @@ aOtherPid
 bool
 Open
 (
-IToplevelProtocol
+MessageChannel
 *
-aTarget
+aChannel
 nsISerialEventTarget
 *
 aEventTarget
@@ -1748,9 +1748,9 @@ UnknownSide
 bool
 OpenOnSameThread
 (
-IToplevelProtocol
+MessageChannel
 *
-aTarget
+aChannel
 mozilla
 :
 :
