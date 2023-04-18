@@ -49,6 +49,8 @@ Strip
 nsIURI
 *
 aURI
+bool
+aIsPBM
 nsCOMPtr
 <
 nsIURI

@@ -3067,6 +3067,12 @@ Strip
 URI
 (
 )
+aContext
+-
+>
+UsePrivateBrowsing
+(
+)
 strippedURI
 )
 )
@@ -3135,6 +3141,12 @@ URLQueryStringStripper
 Strip
 (
 mUnstrippedURI
+aContext
+-
+>
+UsePrivateBrowsing
+(
+)
 uri
 )
 ;
