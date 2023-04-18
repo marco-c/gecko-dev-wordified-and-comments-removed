@@ -877,6 +877,16 @@ setAndBorrowTier2
 \
 n
 "
+"
+thread
+:
+glean
+:
+:
+initialize
+\
+n
+"
 ;
 }
 #
