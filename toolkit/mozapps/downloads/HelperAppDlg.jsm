@@ -70,11 +70,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 EnableDelayHelper
 "
@@ -97,7 +103,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gReputationService
 "
@@ -151,7 +157,7 @@ downloads
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DownloadIntegration
 "
@@ -2155,6 +2161,8 @@ targetFileIsExecutable
 isPlain
 &
 &
+lazy
+.
 gReputationService
 .
 isBinary
@@ -2434,6 +2442,8 @@ this
 delayHelper
 =
 new
+lazy
+.
 EnableDelayHelper
 (
 {
@@ -5771,6 +5781,8 @@ false
 )
 &
 &
+lazy
+.
 DownloadIntegration
 .
 shouldViewDownloadInternally
