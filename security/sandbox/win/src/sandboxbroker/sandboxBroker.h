@@ -248,6 +248,14 @@ aHandle
 =
 0
 ;
+virtual
+bool
+IsWin32kLockedDown
+(
+)
+=
+0
+;
 protected
 :
 virtual
@@ -423,6 +431,12 @@ HANDLE
 aHandle
 )
 override
+;
+bool
+IsWin32kLockedDown
+(
+)
+final
 ;
 void
 ApplyLoggingPolicy
