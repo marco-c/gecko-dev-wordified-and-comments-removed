@@ -413,7 +413,12 @@ reg
 )
 const
 ;
-double
+template
+<
+typename
+T
+>
+T
 read
 (
 FloatRegister
