@@ -814,6 +814,15 @@ false
 )
 ;
 const
+NIMBUS_DEFAULTS
+=
+{
+isBestMatchExperiment
+:
+false
+}
+;
+const
 SUGGEST_PREF_TO_BEHAVIOR
 =
 {
@@ -3082,6 +3091,11 @@ urlbar
 .
 getAllVariables
 (
+{
+defaultValues
+:
+NIMBUS_DEFAULTS
+}
 )
 ;
 }
