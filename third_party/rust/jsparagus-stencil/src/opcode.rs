@@ -67,7 +67,9 @@ JOF_BYTE
 (
 Null
 null
-js_null_str
+"
+null
+"
 1
 0
 1
@@ -76,7 +78,9 @@ JOF_BYTE
 (
 False
 false_
-js_false_str
+"
+false
+"
 1
 0
 1
@@ -85,7 +89,9 @@ JOF_BYTE
 (
 True
 true_
-js_true_str
+"
+true
+"
 1
 0
 1
@@ -422,7 +428,9 @@ JOF_IC
 (
 Instanceof
 instanceof
-js_instanceof_str
+"
+instanceof
+"
 1
 2
 1
@@ -433,7 +441,9 @@ JOF_IC
 (
 In
 in_
-js_in_str
+"
+in
+"
 1
 2
 1
@@ -1454,7 +1464,7 @@ optimize_spread_call
 NULL
 1
 1
-2
+1
 JOF_BYTE
 |
 JOF_IC
