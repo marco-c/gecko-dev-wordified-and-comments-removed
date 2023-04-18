@@ -101,7 +101,6 @@ CustomElementsListener
 .
 jsm
 "
-null
 )
 ;
 ChromeUtils
