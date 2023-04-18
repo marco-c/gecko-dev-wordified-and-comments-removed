@@ -119,7 +119,7 @@ new
 (
 )
 .
-with_decimal_floats
+decimal_floats
 (
 false
 )
@@ -159,7 +159,7 @@ new
 (
 )
 .
-with_decimal_floats
+decimal_floats
 (
 false
 )
@@ -201,7 +201,7 @@ new
 (
 )
 .
-with_decimal_floats
+decimal_floats
 (
 true
 )
@@ -243,7 +243,7 @@ new
 (
 )
 .
-with_decimal_floats
+decimal_floats
 (
 true
 )

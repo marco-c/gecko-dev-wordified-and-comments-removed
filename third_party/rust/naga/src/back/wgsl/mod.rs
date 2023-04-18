@@ -17,6 +17,16 @@ writer
 :
 Writer
 ;
+const
+BAKE_PREFIX
+:
+&
+str
+=
+"
+e
+"
+;
 #
 [
 derive

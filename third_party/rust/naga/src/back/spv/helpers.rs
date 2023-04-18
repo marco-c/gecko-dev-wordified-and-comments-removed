@@ -3,8 +3,8 @@ crate
 :
 :
 {
-Arena
 Handle
+UniqueArena
 }
 ;
 use
@@ -311,7 +311,7 @@ Type
 arena
 :
 &
-Arena
+UniqueArena
 <
 crate
 :

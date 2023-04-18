@@ -24,10 +24,7 @@ use
 token
 :
 :
-{
-SourceMetadata
 TokenValue
-}
 ;
 use
 crate
@@ -39,6 +36,7 @@ FastHashSet
 Handle
 Module
 ShaderStage
+Span
 Type
 }
 ;

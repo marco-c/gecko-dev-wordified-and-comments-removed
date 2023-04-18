@@ -8,6 +8,7 @@ arena
 {
 Arena
 Handle
+UniqueArena
 }
 ;
 use
@@ -439,7 +440,7 @@ self
 types
 :
 &
-Arena
+UniqueArena
 <
 crate
 :
