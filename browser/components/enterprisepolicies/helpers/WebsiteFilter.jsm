@@ -67,11 +67,17 @@ policies
 loglevel
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -206,6 +212,8 @@ push
 pattern
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -231,6 +239,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -310,6 +320,8 @@ push
 pattern
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -335,6 +347,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
