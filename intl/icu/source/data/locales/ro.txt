@@ -1497,9 +1497,6 @@ case
 genitive
 {
 "
-.
-.
-.
 ale
 (
 celor
@@ -1507,9 +1504,6 @@ celor
 {
 0
 }
-.
-.
-.
 "
 }
 nominative
@@ -1519,9 +1513,8 @@ nominative
 0
 }
 este
-.
-.
-.
+/
+sunt
 "
 }
 }

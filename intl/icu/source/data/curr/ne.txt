@@ -1902,11 +1902,6 @@ Currencies
 %
 variant
 {
-GEL
-{
-"
-"
-}
 NPR
 {
 "

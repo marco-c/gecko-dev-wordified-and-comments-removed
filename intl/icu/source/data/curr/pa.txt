@@ -2058,12 +2058,6 @@ RUB
 "
 "
 }
-RUR
-{
-"
-.
-"
-}
 RWF
 {
 "
@@ -2187,11 +2181,6 @@ Currencies
 %
 variant
 {
-GEL
-{
-"
-"
-}
 TRY
 {
 "

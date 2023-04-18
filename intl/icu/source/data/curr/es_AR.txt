@@ -85,15 +85,4 @@ estadounidense
 "
 }
 }
-Currencies
-%
-variant
-{
-GEL
-{
-"
-GEL
-"
-}
-}
 }

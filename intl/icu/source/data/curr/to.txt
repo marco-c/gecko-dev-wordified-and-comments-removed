@@ -208,16 +208,6 @@ T
 "
 }
 }
-Currencies
-%
-variant
-{
-GEL
-{
-"
-"
-}
-}
 CurrencyPlurals
 {
 AUD
