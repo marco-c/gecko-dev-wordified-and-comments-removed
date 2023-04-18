@@ -83,6 +83,7 @@ getPrettySource
 getIsCurrentThreadPaused
 getThreadContext
 isSourceWithMap
+getBlackBoxRanges
 }
 from
 "
@@ -153,6 +154,7 @@ const
 cx
 editor
 selectedSource
+blackboxedRanges
 editorActions
 hasMappedLocation
 isPaused
@@ -183,6 +185,7 @@ editorMenuItems
 cx
 editorActions
 selectedSource
+blackboxedRanges
 hasMappedLocation
 location
 isPaused
@@ -209,6 +212,7 @@ codeMirror
 somethingSelected
 (
 )
+editor
 }
 )
 )
@@ -237,6 +241,12 @@ props
 cx
 :
 getThreadContext
+(
+state
+)
+blackboxedRanges
+:
+getBlackBoxRanges
 (
 state
 )
