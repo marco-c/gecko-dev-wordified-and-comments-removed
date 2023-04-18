@@ -72,11 +72,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 HandlerService
 "
@@ -102,7 +108,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 MIMEService
 "
@@ -124,7 +130,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Integration
 "
@@ -299,6 +305,8 @@ _updateAllHandlers
 (
 )
 ;
+lazy
+.
 Integration
 .
 downloads
@@ -845,6 +853,8 @@ getIntPref
 prevActionPref
 )
 ;
+lazy
+.
 HandlerService
 .
 store
@@ -855,6 +865,8 @@ handlerInfo
 }
 else
 {
+lazy
+.
 HandlerService
 .
 remove
@@ -1027,6 +1039,8 @@ extension
 if
 (
 !
+lazy
+.
 HandlerService
 .
 exists
@@ -1035,6 +1049,8 @@ fakeHandlerInfo
 )
 )
 {
+lazy
+.
 HandlerService
 .
 store
@@ -1048,6 +1064,8 @@ else
 const
 handlerInfo
 =
+lazy
+.
 MIMEService
 .
 getFromTypeAndExtension
@@ -1140,6 +1158,8 @@ alwaysAskBeforeHandling
 =
 false
 ;
+lazy
+.
 HandlerService
 .
 store
@@ -1176,6 +1196,8 @@ try
 {
 handlerInfo
 =
+lazy
+.
 MIMEService
 .
 getFromTypeAndExtension

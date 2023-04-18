@@ -61,11 +61,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -148,6 +154,8 @@ this
 .
 _browserWin
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -158,6 +166,8 @@ this
 .
 _indicator
 =
+lazy
+.
 DownloadsCommon
 .
 getIndicatorData
@@ -172,6 +182,8 @@ this
 list
 =
 new
+lazy
+.
 DownloadList
 (
 )
@@ -285,6 +297,8 @@ downloadSpam
 let
 hasActiveDownloads
 =
+lazy
+.
 DownloadsCommon
 .
 summarizeDownloads
@@ -425,6 +439,8 @@ becauseBlockedByReputationCheck
 true
 reputationCheckVerdict
 :
+lazy
+.
 Downloads
 .
 Error
