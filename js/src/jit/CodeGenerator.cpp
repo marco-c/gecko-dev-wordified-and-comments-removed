@@ -8560,9 +8560,9 @@ ValueOperand
 &
 value
 Register
-scratch1
+tempToUnbox
 Register
-scratch2
+temp
 FloatRegister
 floatTemp
 Label
@@ -8746,7 +8746,7 @@ masm
 extractObject
 (
 value
-scratch1
+tempToUnbox
 )
 ;
 testObjectEmulatesUndefined
@@ -8754,7 +8754,7 @@ testObjectEmulatesUndefined
 objreg
 ifFalsy
 ifTruthy
-scratch2
+temp
 ool
 )
 ;
@@ -8944,9 +8944,9 @@ ValueOperand
 &
 value
 Register
-scratch1
+tempToUnbox
 Register
-scratch2
+temp
 FloatRegister
 floatTemp
 const
@@ -9042,8 +9042,8 @@ testValueTruthyForType
 type
 tag
 value
-scratch1
-scratch2
+tempToUnbox
+temp
 floatTemp
 ifTruthy
 ifFalsy
@@ -9093,8 +9093,8 @@ testValueTruthyForType
 type
 tag
 value
-scratch1
-scratch2
+tempToUnbox
+temp
 floatTemp
 ifTruthy
 ifFalsy
@@ -9414,9 +9414,9 @@ Input
 )
 ;
 Register
-temp1
+tempToUnbox
 =
-ToRegister
+ToTempUnboxRegister
 (
 lir
 -
@@ -9427,7 +9427,7 @@ temp1
 )
 ;
 Register
-temp2
+temp
 =
 ToRegister
 (
@@ -9472,8 +9472,8 @@ observedTypes
 testValueTruthy
 (
 input
-temp1
-temp2
+tempToUnbox
+temp
 floatTemp
 observedTypes
 truthy
@@ -66387,9 +66387,9 @@ InputIndex
 )
 ;
 Register
-temp1
+tempToUnbox
 =
-ToRegister
+ToTempUnboxRegister
 (
 lir
 -
@@ -66445,7 +66445,7 @@ observedTypes
 testValueTruthy
 (
 input
-temp1
+tempToUnbox
 output
 floatTemp
 observedTypes

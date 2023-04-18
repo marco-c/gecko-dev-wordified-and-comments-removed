@@ -1398,9 +1398,9 @@ ValueOperand
 &
 value
 Register
-scratch1
+tempToUnbox
 Register
-scratch2
+temp
 FloatRegister
 floatTemp
 Label
@@ -1424,9 +1424,9 @@ ValueOperand
 &
 value
 Register
-scratch1
+tempToUnbox
 Register
-scratch2
+temp
 FloatRegister
 floatTemp
 const
