@@ -329,6 +329,17 @@ nsAppRunner
 h
 "
 #
+include
+"
+mozilla
+/
+widget
+/
+CompositorWidget
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_SUPPORTS_OOP_COMPOSITING
 #
