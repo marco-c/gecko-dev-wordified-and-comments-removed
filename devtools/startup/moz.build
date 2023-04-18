@@ -46,9 +46,6 @@ DIRS
 =
 [
 "
-aboutdevtools
-"
-"
 locales
 "
 ]
