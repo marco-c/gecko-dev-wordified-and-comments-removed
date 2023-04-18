@@ -3601,13 +3601,11 @@ mTaskbarPreview
 =
 nullptr
 ;
-bool
-mHasTaskbarIconBeenCreated
-=
-false
+InputRegion
+mInputRegion
 ;
 bool
-mMouseTransparent
+mHasTaskbarIconBeenCreated
 =
 false
 ;
