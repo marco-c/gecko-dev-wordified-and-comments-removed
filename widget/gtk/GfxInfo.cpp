@@ -3522,7 +3522,6 @@ Find
 "
 ;
 "
-PR_FALSE
 start
 )
 ;
@@ -3577,7 +3576,6 @@ Find
 "
 ;
 "
-PR_FALSE
 start
 )
 ;

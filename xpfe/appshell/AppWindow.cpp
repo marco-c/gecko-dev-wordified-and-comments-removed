@@ -9522,6 +9522,7 @@ persistString
 .
 Find
 (
+u
 "
 screenX
 "
@@ -9590,6 +9591,7 @@ persistString
 .
 Find
 (
+u
 "
 screenY
 "
@@ -9681,6 +9683,7 @@ persistString
 .
 Find
 (
+u
 "
 width
 "
@@ -9749,6 +9752,7 @@ persistString
 .
 Find
 (
+u
 "
 height
 "
@@ -9901,6 +9905,7 @@ persistString
 .
 Find
 (
+u
 "
 sizemode
 "
@@ -9981,6 +9986,7 @@ persistString
 .
 Find
 (
+u
 "
 zlevel
 "

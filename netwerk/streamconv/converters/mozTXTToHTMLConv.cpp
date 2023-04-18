@@ -6658,7 +6658,7 @@ i
 =
 aInString
 .
-Find
+LowerCaseFindASCII
 (
 "
 <
@@ -6666,7 +6666,6 @@ Find
 a
 >
 "
-true
 i
 )
 ;
@@ -6720,12 +6719,12 @@ aInString
 .
 Find
 (
+u
 "
 -
 -
 >
 "
-false
 i
 )
 ;
@@ -6798,7 +6797,7 @@ i
 =
 aInString
 .
-Find
+LowerCaseFindASCII
 (
 "
 <
@@ -6806,7 +6805,6 @@ Find
 style
 >
 "
-true
 i
 )
 ;
@@ -6879,7 +6877,7 @@ i
 =
 aInString
 .
-Find
+LowerCaseFindASCII
 (
 "
 <
@@ -6887,7 +6885,6 @@ Find
 script
 >
 "
-true
 i
 )
 ;
@@ -6960,7 +6957,7 @@ i
 =
 aInString
 .
-Find
+LowerCaseFindASCII
 (
 "
 <
@@ -6968,7 +6965,6 @@ Find
 head
 >
 "
-true
 i
 )
 ;
