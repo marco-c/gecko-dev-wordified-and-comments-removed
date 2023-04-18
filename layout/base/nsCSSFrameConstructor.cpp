@@ -2207,6 +2207,14 @@ NS_BLOCK_FLOAT_MGR
 |
 NS_FRAME_OUT_OF_FLOW
 )
+|
+|
+aFrame
+-
+>
+IsFixedPosContainingBlock
+(
+)
 )
 {
 return
