@@ -3939,17 +3939,6 @@ asyncVisualTransform
 .
 mTranslation
 )
-*
-apzc
--
->
-GetOverscrollTransform
-(
-AsyncPanZoomController
-:
-:
-eForCompositing
-)
 )
 )
 ;
