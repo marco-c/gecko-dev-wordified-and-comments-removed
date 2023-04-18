@@ -907,6 +907,9 @@ vscode
 tasks
 .
 json
+*
+.
+user
 #
 Ignore
 various
