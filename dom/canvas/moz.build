@@ -469,6 +469,11 @@ OffscreenCanvas
 cpp
 "
 "
+OffscreenCanvasDisplayHelper
+.
+cpp
+"
+"
 XRWebGLLayer
 .
 cpp
@@ -485,11 +490,6 @@ cpp
 "
 "
 ImageUtils
-.
-cpp
-"
-"
-OffscreenCanvasDisplayHelper
 .
 cpp
 "
