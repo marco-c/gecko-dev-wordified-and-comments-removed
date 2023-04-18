@@ -4437,6 +4437,13 @@ Debug
 struct
 Scope
 {
+#
+[
+allow
+(
+dead_code
+)
+]
 name
 :
 String
