@@ -167,10 +167,14 @@ AssertCurrentThreadOwns
 if
 (
 mIsShutdown
+&
+&
+!
+mIsRunning
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_UNEXPECTED
 ;
 }
 AbstractThread
