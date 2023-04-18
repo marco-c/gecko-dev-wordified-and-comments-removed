@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsCOMArray
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

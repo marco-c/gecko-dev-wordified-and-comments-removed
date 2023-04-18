@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsCOMArray
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h
