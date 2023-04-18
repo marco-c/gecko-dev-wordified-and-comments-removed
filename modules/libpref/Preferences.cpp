@@ -16710,6 +16710,8 @@ bool
 >
 &
 aShouldSanitizeFn
+bool
+aIsDestinationContentProcess
 )
 {
 MOZ_RELEASE_ASSERT
@@ -16800,7 +16802,7 @@ pref
 Name
 (
 )
-false
+aIsDestinationContentProcess
 )
 )
 ;
