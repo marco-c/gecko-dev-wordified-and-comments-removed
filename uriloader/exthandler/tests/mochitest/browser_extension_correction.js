@@ -904,7 +904,10 @@ BrowserTestUtils
 .
 openNewForegroundTab
 (
+{
 gBrowser
+opening
+:
 TEST_PATH
 +
 "
@@ -916,6 +919,13 @@ foo
 =
 bar
 "
+waitForLoad
+:
+false
+waitForStateStop
+:
+true
+}
 )
 .
 then

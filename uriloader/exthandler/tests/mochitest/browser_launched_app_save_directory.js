@@ -232,7 +232,10 @@ BrowserTestUtils
 .
 openNewForegroundTab
 (
+{
 gBrowser
+opening
+:
 TEST_PATH
 +
 "
@@ -240,6 +243,13 @@ file_image_svgxml
 .
 svg
 "
+waitForLoad
+:
+false
+waitForStateStop
+:
+true
+}
 )
 ;
 let
