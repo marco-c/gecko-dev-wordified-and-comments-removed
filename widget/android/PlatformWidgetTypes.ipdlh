@@ -25,6 +25,9 @@ AndroidCompositorWidgetInitData
 int32_t
 widgetId
 ;
+LayoutDeviceIntSize
+clientSize
+;
 }
 ;
 union
