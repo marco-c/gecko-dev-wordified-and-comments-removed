@@ -311,6 +311,7 @@ function
 saveURL
 (
 aURL
+aOriginalURL
 aFileName
 aFilePickerTitleKey
 aShouldBypassCache
@@ -325,6 +326,7 @@ aPrincipal
 internalSave
 (
 aURL
+aOriginalURL
 null
 aFileName
 null
@@ -481,6 +483,7 @@ internalSave
 document
 .
 documentURI
+null
 document
 null
 document
@@ -745,6 +748,7 @@ function
 internalSave
 (
 aURL
+aOriginalURL
 aDocument
 aDefaultFileName
 aContentDisposition
@@ -1090,11 +1094,24 @@ aInitiatingDocument
 nodePrincipal
 )
 ;
+let
+sourceOriginalURI
+=
+aOriginalURL
+?
+makeURI
+(
+aOriginalURL
+)
+:
+null
+;
 var
 persistArgs
 =
 {
 sourceURI
+sourceOriginalURI
 sourcePrincipal
 sourceReferrerInfo
 :
@@ -1260,6 +1277,9 @@ init
 persistArgs
 .
 sourceURI
+persistArgs
+.
+sourceOriginalURI
 targetFileURL
 "
 "

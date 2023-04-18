@@ -1603,6 +1603,13 @@ download
 .
 source
 .
+originalUrl
+|
+|
+download
+.
+source
+.
 url
 )
 ;

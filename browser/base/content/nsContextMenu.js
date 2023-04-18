@@ -7841,6 +7841,7 @@ internalSave
 (
 dataURL
 null
+null
 name
 null
 "
@@ -8509,6 +8510,7 @@ NS_ERROR_SAVE_LINK_AS_TIMEOUT
 saveURL
 (
 linkURL
+null
 linkText
 dialogTitle
 bypassCache
@@ -9076,6 +9078,7 @@ internalSave
 (
 blobURL
 null
+null
 "
 canvas
 .
@@ -9133,6 +9136,7 @@ internalSave
 this
 .
 mediaURL
+null
 null
 null
 this

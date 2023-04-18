@@ -1710,6 +1710,7 @@ saveURL
 "
 {
 blobUrl
+originalUrl
 filename
 }
 )

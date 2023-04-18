@@ -78,6 +78,9 @@ nsIURI
 aSource
 in
 nsIURI
+aSourceOriginalURI
+in
+nsIURI
 aTarget
 in
 AString
