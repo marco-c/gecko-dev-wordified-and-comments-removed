@@ -571,6 +571,13 @@ Default
 off
 .
 "
+"
+format
+"
+:
+"
+uri
+"
 }
 "
 promoImageSmall
@@ -609,6 +616,13 @@ logo
 Default
 off
 .
+"
+"
+format
+"
+:
+"
+uri
 "
 }
 }
