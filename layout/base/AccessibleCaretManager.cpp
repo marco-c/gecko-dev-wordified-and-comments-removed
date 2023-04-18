@@ -5669,7 +5669,7 @@ cmpToInactiveCaretPos
 nsContentUtils
 :
 :
-ComparePoints_FixBothOffsets
+ComparePoints_AllowNegativeOffsets
 (
 aOffsets
 .
@@ -5776,7 +5776,7 @@ cmpToLimit
 nsContentUtils
 :
 :
-ComparePoints_FixBothOffsets
+ComparePoints_AllowNegativeOffsets
 (
 aOffsets
 .
