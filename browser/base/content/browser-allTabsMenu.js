@@ -407,10 +407,6 @@ ViewShown
 e
 =
 >
-{
-let
-selectedRow
-=
 this
 .
 allTabsView
@@ -429,8 +425,7 @@ selected
 ]
 "
 )
-;
-selectedRow
+?
 .
 scrollIntoView
 (
@@ -442,8 +437,6 @@ center
 "
 }
 )
-;
-}
 )
 ;
 let
