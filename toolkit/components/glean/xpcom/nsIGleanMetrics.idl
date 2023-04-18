@@ -195,14 +195,6 @@ ACString
 aPingName
 )
 ;
-void
-testAccumulateRawMillis
-(
-in
-uint64_t
-aSample
-)
-;
 }
 ;
 [
