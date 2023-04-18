@@ -635,6 +635,7 @@ Debug
 Clone
 Copy
 MallocSizeOf
+PartialEq
 )
 ]
 #
