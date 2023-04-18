@@ -34906,16 +34906,6 @@ pref
 "
 dom
 .
-maxHardwareConcurrency
-"
-128
-)
-;
-pref
-(
-"
-dom
-.
 storageManager
 .
 prompt
