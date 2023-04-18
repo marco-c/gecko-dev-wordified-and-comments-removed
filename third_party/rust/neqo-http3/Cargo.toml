@@ -15,7 +15,7 @@ version
 .
 5
 .
-6
+7
 "
 authors
 =
@@ -184,6 +184,15 @@ lazy_static
 3
 .
 0
+"
+enumset
+=
+"
+1
+.
+0
+.
+8
 "
 [
 dev

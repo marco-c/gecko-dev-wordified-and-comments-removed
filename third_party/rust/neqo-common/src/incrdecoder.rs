@@ -520,6 +520,13 @@ usize
 >
 Self
 {
+assert_ne
+!
+(
+n
+0
+)
+;
 Self
 {
 remaining

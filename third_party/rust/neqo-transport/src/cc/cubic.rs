@@ -247,9 +247,6 @@ Option
 <
 Instant
 >
-last_phase_was_tcp
-:
-bool
 tcp_acked_bytes
 :
 f64
@@ -292,9 +289,6 @@ w_max
 ca_epoch_start
 :
 None
-last_phase_was_tcp
-:
-false
 tcp_acked_bytes
 :
 0

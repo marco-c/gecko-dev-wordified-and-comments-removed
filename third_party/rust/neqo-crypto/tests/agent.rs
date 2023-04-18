@@ -3723,7 +3723,7 @@ cfg
 [
 3
 ]
-0x0a
+0x0d
 )
 ;
 assert_eq

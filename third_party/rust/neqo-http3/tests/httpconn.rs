@@ -15,7 +15,6 @@ event
 :
 :
 Provider
-qtrace
 Datagram
 }
 ;

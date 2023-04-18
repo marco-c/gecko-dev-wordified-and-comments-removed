@@ -368,7 +368,6 @@ update
 &
 mut
 self
-mut
 qlog
 :
 &
@@ -579,8 +578,6 @@ qlog
 :
 metrics_updated
 (
-&
-mut
 qlog
 &
 [

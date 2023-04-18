@@ -21,6 +21,7 @@ extended_connect
 {
 ExtendedConnectEvents
 ExtendedConnectType
+SessionCloseReason
 }
 CloseType
 Http3StreamInfo
@@ -170,12 +171,9 @@ ExtendedConnectType
 stream_id
 :
 StreamId
-error
+reason
 :
-Option
-<
-AppError
->
+SessionCloseReason
 }
 ExtendedConnectNewStream
 (
@@ -465,6 +463,9 @@ ExtendedConnectType
 _stream_id
 :
 StreamId
+_status
+:
+u16
 )
 {
 }
@@ -479,12 +480,9 @@ ExtendedConnectType
 stream_id
 :
 StreamId
-error
+reason
 :
-Option
-<
-AppError
->
+SessionCloseReason
 )
 {
 self
@@ -498,7 +496,7 @@ ExtendedConnectClosed
 {
 connect_type
 stream_id
-error
+reason
 }
 )
 ;

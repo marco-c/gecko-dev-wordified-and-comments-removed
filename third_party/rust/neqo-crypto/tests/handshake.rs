@@ -259,8 +259,6 @@ r
 forward_records
 (
 now
-&
-mut
 b
 records
 )

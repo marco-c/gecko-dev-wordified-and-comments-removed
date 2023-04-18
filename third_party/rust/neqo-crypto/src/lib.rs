@@ -768,7 +768,7 @@ as_int
 ;
 let
 mut
-_v
+v
 :
 :
 :
@@ -797,7 +797,7 @@ SSL_OptionGetDefault
 opt
 &
 mut
-_v
+v
 )
 }
 )
