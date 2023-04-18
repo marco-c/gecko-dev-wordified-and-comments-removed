@@ -601,6 +601,7 @@ new
 {
 result
 =
+await
 RemoteAgent
 .
 webDriverBiDi
