@@ -397,6 +397,7 @@ inline
 bool
 MaybeForwardedObjectIs
 (
+const
 JSObject
 *
 obj

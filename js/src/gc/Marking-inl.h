@@ -143,7 +143,7 @@ ifdef
 ENABLE_RECORD_TUPLE
 if
 (
-IsExtendedPrimitive
+MaybeForwardedIsExtendedPrimitive
 (
 *
 obj
@@ -704,6 +704,7 @@ inline
 bool
 MaybeForwardedObjectIs
 (
+const
 JSObject
 *
 obj
