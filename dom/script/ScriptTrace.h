@@ -7,13 +7,6 @@ mozilla_dom_ScriptTrace_h
 #
 include
 "
-ScriptLoader
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AsyncEventDispatcher
