@@ -189,7 +189,6 @@ IMEConvertedTextUnderlineStyle
 IMESelectedConvertedTextUnderline
 SpellCheckerUnderlineStyle
 MenuBarDrag
-OperatingSystemVersionIdentifier
 ScrollbarButtonAutoRepeatBehavior
 TooltipDelay
 SwipeAnimationEnabled
@@ -234,18 +233,6 @@ UseOverlayScrollbars
 )
 ;
 }
-enum
-class
-OperatingSystemVersion
-{
-Windows7
-=
-2
-Windows8
-Windows10
-Unknown
-}
-;
 enum
 {
 eScrollArrow_None

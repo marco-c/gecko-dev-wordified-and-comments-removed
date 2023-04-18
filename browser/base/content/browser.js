@@ -8072,9 +8072,7 @@ matchMedia
 -
 moz
 -
-os
--
-version
+platform
 :
 windows
 -
