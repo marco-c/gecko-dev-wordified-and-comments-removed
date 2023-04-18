@@ -6722,8 +6722,7 @@ aFilter
 )
 ;
 }
-this
-.
+const
 XPIDatabase
 =
 {
@@ -10887,8 +10886,7 @@ creator
 }
 }
 ;
-this
-.
+const
 XPIDatabaseReconcile
 =
 {
