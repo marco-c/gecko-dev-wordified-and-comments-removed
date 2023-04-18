@@ -270,13 +270,16 @@ nsTArray
 nsWifiListener
 >
 mListeners
+GUARDED_BY
+(
+mReentrantMonitor
+)
 ;
 mozilla
 :
 :
 ReentrantMonitor
 mReentrantMonitor
-MOZ_UNANNOTATED
 ;
 #
 ifdef
