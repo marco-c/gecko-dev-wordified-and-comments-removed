@@ -2392,6 +2392,16 @@ GetWritingMode
 (
 )
 ;
+aEvent
+-
+>
+mReply
+-
+>
+mIsEditableContent
+=
+true
+;
 MOZ_LOG
 (
 sIMECOLog
