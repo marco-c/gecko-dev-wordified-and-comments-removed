@@ -1201,6 +1201,8 @@ querySelector
 .
 urlbarView
 -
+button
+-
 help
 "
 )

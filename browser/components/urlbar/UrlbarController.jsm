@@ -3487,6 +3487,8 @@ contains
 "
 urlbarView
 -
+button
+-
 help
 "
 )

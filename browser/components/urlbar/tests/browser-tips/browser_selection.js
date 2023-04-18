@@ -333,6 +333,8 @@ contains
 "
 urlbarView
 -
+button
+-
 help
 "
 )
@@ -543,6 +545,8 @@ contains
 (
 "
 urlbarView
+-
+button
 -
 help
 "
@@ -858,6 +862,8 @@ contains
 "
 urlbarView
 -
+button
+-
 help
 "
 )
@@ -954,6 +960,8 @@ contains
 (
 "
 urlbarView
+-
+button
 -
 help
 "
