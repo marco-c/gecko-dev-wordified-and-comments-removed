@@ -819,6 +819,11 @@ MOZ_UPDATE_CHANNEL
 "
 release
 "
+|
+|
+AppConstants
+.
+IS_ESR
 ]
 [
 "
