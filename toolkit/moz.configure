@@ -7025,6 +7025,9 @@ True
 paths
 =
 sdk_bin_path
+allow_spaces
+=
+True
 )
 option
 (
@@ -8351,6 +8354,9 @@ WINNT
 paths
 =
 sdk_bin_path
+allow_spaces
+=
+True
 )
 with
 only_when
