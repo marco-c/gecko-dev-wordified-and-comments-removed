@@ -823,6 +823,10 @@ aPresContext
 aEvent
 mRefPoint
 )
+.
+extract
+(
+)
 ;
 mPointsInitialized
 =

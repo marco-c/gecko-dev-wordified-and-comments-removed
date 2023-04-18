@@ -1222,6 +1222,10 @@ mEvent
 >
 mRefPoint
 )
+.
+extract
+(
+)
 ;
 }
 LayoutDeviceIntPoint

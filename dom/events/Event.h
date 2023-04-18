@@ -75,6 +75,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BindingDeclarations
@@ -729,7 +738,10 @@ aDefaultPoint
 )
 ;
 static
+Maybe
+<
 CSSIntPoint
+>
 GetScreenCoords
 (
 nsPresContext

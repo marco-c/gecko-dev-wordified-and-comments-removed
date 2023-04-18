@@ -3168,6 +3168,10 @@ aEvent
 >
 mRefPoint
 )
+.
+extract
+(
+)
 ;
 sLastClientPoint
 =
@@ -17059,6 +17063,10 @@ aEvent
 -
 >
 mRefPoint
+)
+.
+extract
+(
 )
 ;
 dragSession
