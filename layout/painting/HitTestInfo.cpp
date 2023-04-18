@@ -80,6 +80,7 @@ Empty
 {
 if
 (
+!
 gEmptyHitTestInfo
 )
 {
