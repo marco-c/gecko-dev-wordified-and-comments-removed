@@ -1470,6 +1470,7 @@ Kind
 Func
 Import
 Indirect
+IndirectFast
 Symbolic
 EnterFrame
 LeaveFrame

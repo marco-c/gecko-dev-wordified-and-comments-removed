@@ -415,7 +415,7 @@ System
 ;
 enum
 class
-InterModule
+RestoreRegisterStateAndRealm
 {
 False
 =

@@ -304,7 +304,7 @@ lineOrBytecode
 (
 lineOrBytecode
 )
-isInterModule
+restoreRegisterStateAndRealm
 (
 false
 )
@@ -338,7 +338,7 @@ WasmABIArgGenerator
 abi
 ;
 bool
-isInterModule
+restoreRegisterStateAndRealm
 ;
 bool
 usesSystemAbi
@@ -2775,8 +2775,8 @@ FunctionCall
 call
 UseABI
 useABI
-InterModule
-interModule
+RestoreRegisterStateAndRealm
+restoreRegisterStateAndRealm
 )
 ;
 void
@@ -2843,7 +2843,7 @@ FunctionCall
 call
 )
 ;
-CodeOffset
+void
 callIndirect
 (
 uint32_t
@@ -2858,6 +2858,12 @@ const
 FunctionCall
 &
 call
+CodeOffset
+*
+fastCallOffset
+CodeOffset
+*
+slowCallOffset
 )
 ;
 CodeOffset

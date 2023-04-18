@@ -1521,9 +1521,6 @@ assignWasmSafepoint
 LInstruction
 *
 ins
-MInstruction
-*
-mir
 )
 ;
 inline

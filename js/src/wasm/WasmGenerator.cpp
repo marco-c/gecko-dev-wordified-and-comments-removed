@@ -2305,6 +2305,12 @@ case
 CallSiteDesc
 :
 :
+IndirectFast
+:
+case
+CallSiteDesc
+:
+:
 Symbolic
 :
 break
