@@ -19987,6 +19987,12 @@ WindowInfo
 >
 {
 }
+nsTArray
+<
+UtilityInfo
+>
+{
+}
 0
 #
 ifdef

@@ -648,13 +648,13 @@ SetAlreadyDead
 if
 defined
 (
-XP_MACOSX
+MOZ_SANDBOX
 )
 &
 &
 defined
 (
-MOZ_SANDBOX
+XP_MACOSX
 )
 static
 bool
