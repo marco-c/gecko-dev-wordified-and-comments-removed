@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ContextualIdentityService
 :
@@ -183,6 +189,8 @@ browserContextIds
 class
 Target
 extends
+lazy
+.
 Domain
 {
 constructor
@@ -242,6 +250,8 @@ createBrowserContext
 const
 identity
 =
+lazy
+.
 ContextualIdentityService
 .
 create
@@ -283,6 +293,8 @@ browserContextId
 =
 options
 ;
+lazy
+.
 ContextualIdentityService
 .
 remove
@@ -290,6 +302,8 @@ remove
 browserContextId
 )
 ;
+lazy
+.
 ContextualIdentityService
 .
 closeContainerTabs
@@ -331,6 +345,8 @@ if
 (
 target
 instanceof
+lazy
+.
 MainProcessTarget
 )
 {
@@ -515,6 +531,8 @@ const
 tab
 =
 await
+lazy
+.
 TabManager
 .
 addTab
@@ -639,6 +657,8 @@ targetId
 )
 ;
 }
+lazy
+.
 TabManager
 .
 removeTab
@@ -712,6 +732,8 @@ targetId
 ;
 }
 await
+lazy
+.
 windowManager
 .
 focusWindow
@@ -720,6 +742,8 @@ window
 )
 ;
 await
+lazy
+.
 TabManager
 .
 selectTab
@@ -794,6 +818,8 @@ const
 tabSession
 =
 new
+lazy
+.
 TabSession
 (
 this

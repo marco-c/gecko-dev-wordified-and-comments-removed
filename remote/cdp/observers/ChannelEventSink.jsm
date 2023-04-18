@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ComponentUtils
 :
@@ -307,6 +313,8 @@ NS_OK
 const
 ChannelEventSinkFactory
 =
+lazy
+.
 ComponentUtils
 .
 generateSingletonFactory

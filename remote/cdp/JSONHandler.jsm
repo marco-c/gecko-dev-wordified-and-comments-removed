@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 HTTP_404
 :
@@ -345,6 +351,8 @@ getProtocol
 )
 {
 return
+lazy
+.
 Protocol
 .
 Description
@@ -386,6 +394,8 @@ GET
 )
 {
 throw
+lazy
+.
 HTTP_404
 ;
 }
@@ -404,6 +414,8 @@ routes
 )
 {
 throw
+lazy
+.
 HTTP_404
 ;
 }
@@ -432,6 +444,8 @@ stringify
 (
 body
 null
+lazy
+.
 Log
 .
 verbose
@@ -487,6 +501,8 @@ e
 )
 {
 new
+lazy
+.
 RemoteAgentError
 (
 e
@@ -497,6 +513,8 @@ notify
 )
 ;
 throw
+lazy
+.
 HTTP_505
 ;
 }

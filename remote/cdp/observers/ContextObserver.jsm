@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventEmitter
 :
@@ -115,6 +121,8 @@ chromeEventHandler
 =
 chromeEventHandler
 ;
+lazy
+.
 EventEmitter
 .
 decorate
@@ -642,6 +650,8 @@ window
 }
 )
 ;
+lazy
+.
 executeSoon
 (
 (

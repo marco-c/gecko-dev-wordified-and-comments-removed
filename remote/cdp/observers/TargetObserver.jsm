@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventEmitter
 :
@@ -116,6 +122,8 @@ false
 }
 )
 {
+lazy
+.
 EventEmitter
 .
 decorate
@@ -446,6 +454,8 @@ domWindow
 ;
 await
 new
+lazy
+.
 EventPromise
 (
 win

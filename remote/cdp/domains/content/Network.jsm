@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ContentProcessDomain
 :
@@ -67,6 +73,8 @@ jsm
 class
 Network
 extends
+lazy
+.
 ContentProcessDomain
 {
 _updateLoadFlags

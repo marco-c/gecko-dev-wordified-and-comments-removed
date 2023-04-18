@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Domain
 :
@@ -67,6 +73,8 @@ jsm
 class
 Fetch
 extends
+lazy
+.
 Domain
 {
 constructor

@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AsyncShutdown
 :
@@ -132,6 +138,8 @@ Map
 (
 )
 ;
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange
@@ -213,6 +221,8 @@ if
 (
 stream
 instanceof
+lazy
+.
 OS
 .
 File
@@ -239,6 +249,8 @@ close
 )
 ;
 await
+lazy
+.
 OS
 .
 File
@@ -297,6 +309,8 @@ if
 (
 stream
 instanceof
+lazy
+.
 OS
 .
 File
@@ -328,6 +342,8 @@ else
 {
 throw
 new
+lazy
+.
 UnsupportedError
 (
 Unknown

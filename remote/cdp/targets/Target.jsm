@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CDPConnection
 :
@@ -190,6 +196,8 @@ const
 webSocket
 =
 await
+lazy
+.
 WebSocketHandshake
 .
 upgrade
@@ -202,6 +210,8 @@ const
 conn
 =
 new
+lazy
+.
 CDPConnection
 (
 webSocket

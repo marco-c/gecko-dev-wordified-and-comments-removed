@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Domain
 :
@@ -91,6 +97,8 @@ jsm
 class
 Input
 extends
+lazy
+.
 Domain
 {
 async

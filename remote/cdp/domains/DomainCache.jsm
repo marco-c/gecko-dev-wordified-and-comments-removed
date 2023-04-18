@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Domain
 :
@@ -187,6 +193,8 @@ Cls
 {
 throw
 new
+lazy
+.
 UnknownMethodError
 (
 name
@@ -231,6 +239,8 @@ if
 (
 inst
 instanceof
+lazy
+.
 Domain
 )
 )
@@ -319,6 +329,8 @@ command
 {
 throw
 new
+lazy
+.
 UnknownMethodError
 (
 domain

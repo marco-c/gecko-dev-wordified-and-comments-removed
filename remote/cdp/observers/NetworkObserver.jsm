@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CommonUtils
 :
@@ -128,7 +134,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gActivityDistributor
 "
@@ -163,7 +169,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 BinaryInputStream
 "
@@ -199,7 +205,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 BinaryOutputStream
 "
@@ -235,7 +241,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 StorageStream
 "
@@ -283,6 +289,8 @@ constructor
 (
 )
 {
+lazy
+.
 EventEmitter
 .
 decorate
@@ -299,6 +307,8 @@ Map
 (
 )
 ;
+lazy
+.
 gActivityDistributor
 .
 addObserver
@@ -306,6 +316,8 @@ addObserver
 this
 )
 ;
+lazy
+.
 ChannelEventSinkFactory
 .
 getService
@@ -399,6 +411,8 @@ dispose
 (
 )
 {
+lazy
+.
 gActivityDistributor
 .
 removeObserver
@@ -406,6 +420,8 @@ removeObserver
 this
 )
 ;
+lazy
+.
 ChannelEventSinkFactory
 .
 getService
@@ -2061,6 +2077,8 @@ try
 {
 text
 =
+lazy
+.
 NetUtil
 .
 readInputStreamToString
@@ -2691,6 +2709,8 @@ encodings
 {
 result
 =
+lazy
+.
 CommonUtils
 .
 convertString
@@ -2799,6 +2819,8 @@ const
 iStream
 =
 new
+lazy
+.
 BinaryInputStream
 (
 aInputStream
@@ -2808,6 +2830,8 @@ const
 sStream
 =
 new
+lazy
+.
 StorageStream
 (
 8192
@@ -2819,6 +2843,8 @@ const
 oStream
 =
 new
+lazy
+.
 BinaryOutputStream
 (
 sStream
