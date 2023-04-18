@@ -7866,16 +7866,6 @@ ChildListID
 nsIFrame
 :
 :
-kSelectPopupList
-;
-const
-nsIFrame
-:
-:
-ChildListID
-nsIFrame
-:
-:
 kNoReflowPrincipalList
 ;
 #
@@ -47827,10 +47817,6 @@ nsIFrame
 :
 :
 kPopupList
-nsIFrame
-:
-:
-kSelectPopupList
 nsIFrame
 :
 :

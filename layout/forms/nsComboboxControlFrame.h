@@ -733,9 +733,6 @@ aText
 )
 const
 ;
-nsFrameList
-mPopupFrames
-;
 RefPtr
 <
 nsTextNode

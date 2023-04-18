@@ -107,7 +107,6 @@ kPrincipalList
 kPopupList
 kCaptionList
 kColGroupList
-kSelectPopupList
 kAbsoluteList
 kFixedList
 kOverflowList

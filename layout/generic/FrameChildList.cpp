@@ -71,14 +71,6 @@ ColGroupList
 "
 ;
 case
-kSelectPopupList
-:
-return
-"
-SelectPopupList
-"
-;
-case
 kAbsoluteList
 :
 return
