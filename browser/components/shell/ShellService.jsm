@@ -1636,6 +1636,7 @@ false
 }
 try
 {
+await
 this
 .
 shellService
@@ -1647,7 +1648,7 @@ Ci
 nsIWindowsShellService
 )
 .
-checkPinCurrentAppToTaskbar
+checkPinCurrentAppToTaskbarAsync
 (
 privateBrowsing
 )
@@ -1769,11 +1770,12 @@ win
 "
 )
 {
+await
 this
 .
 shellService
 .
-pinCurrentAppToTaskbar
+pinCurrentAppToTaskbarAsync
 (
 privateBrowsing
 )

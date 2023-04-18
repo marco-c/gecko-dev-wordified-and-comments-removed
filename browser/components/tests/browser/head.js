@@ -180,6 +180,11 @@ sinon
 stub
 (
 )
+.
+resolves
+(
+undefined
+)
 ;
 let
 mock
@@ -194,7 +199,8 @@ false
 isPinned
 :
 false
-checkPinCurrentAppToTaskbar
+async
+checkPinCurrentAppToTaskbarAsync
 (
 privateBrowsing
 =
@@ -282,7 +288,7 @@ this
 ensureAppIsPinnedToDock
 :
 sharedPinStub
-pinCurrentAppToTaskbar
+pinCurrentAppToTaskbarAsync
 :
 sharedPinStub
 setAsDefault

@@ -482,7 +482,7 @@ equal
 (
 mock
 .
-pinCurrentAppToTaskbar
+pinCurrentAppToTaskbarAsync
 .
 callCount
 0
@@ -606,7 +606,7 @@ equal
 (
 mock
 .
-pinCurrentAppToTaskbar
+pinCurrentAppToTaskbarAsync
 .
 callCount
 1
