@@ -12,6 +12,9 @@ test
 let
 tempScope
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -29,6 +32,7 @@ InlineSpellChecker
 .
 jsm
 "
+tempScope
 )
 ;
 InlineSpellChecker

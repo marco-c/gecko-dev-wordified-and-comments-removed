@@ -74,10 +74,11 @@ function
 )
 {
 let
-{
-TelemetryController
-}
+scope
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -95,8 +96,11 @@ TelemetryController
 .
 jsm
 "
+scope
 )
 ;
+scope
+.
 TelemetryController
 .
 testSetup

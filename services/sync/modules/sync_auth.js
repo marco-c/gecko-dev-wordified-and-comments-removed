@@ -402,6 +402,9 @@ ignoreCachedAuthCredentials
 var
 fxAccountsCommon
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -419,6 +422,7 @@ FxAccountsCommon
 .
 js
 "
+fxAccountsCommon
 )
 ;
 const

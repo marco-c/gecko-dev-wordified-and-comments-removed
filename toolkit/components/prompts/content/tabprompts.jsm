@@ -1475,10 +1475,11 @@ this
 ;
 }
 let
-{
-CommonDialog
-}
+tmp
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -1496,6 +1497,7 @@ CommonDialog
 .
 jsm
 "
+tmp
 )
 ;
 this
@@ -1503,6 +1505,8 @@ this
 Dialog
 =
 new
+tmp
+.
 CommonDialog
 (
 args

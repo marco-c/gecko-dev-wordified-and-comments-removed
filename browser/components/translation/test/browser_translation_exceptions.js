@@ -1,8 +1,9 @@
-const
-{
-Translation
-}
+var
+tmp
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -21,6 +22,7 @@ TranslationParent
 .
 jsm
 "
+tmp
 )
 ;
 const
@@ -46,6 +48,13 @@ PermissionTestUtils
 jsm
 "
 )
+;
+var
+{
+Translation
+}
+=
+tmp
 ;
 const
 kLanguagesPref

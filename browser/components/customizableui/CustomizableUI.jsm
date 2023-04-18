@@ -723,10 +723,11 @@ log
 >
 {
 let
-{
-ConsoleAPI
-}
+scope
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -744,6 +745,7 @@ Console
 .
 jsm
 "
+scope
 )
 ;
 let
@@ -770,6 +772,8 @@ CustomizableUI
 ;
 return
 new
+scope
+.
 ConsoleAPI
 (
 consoleOptions

@@ -759,6 +759,12 @@ function
 testName
 )
 {
+let
+ccov_scope
+=
+{
+}
+;
 const
 {
 OS
@@ -781,6 +787,7 @@ osfile
 .
 jsm
 "
+ccov_scope
 )
 ;
 dump

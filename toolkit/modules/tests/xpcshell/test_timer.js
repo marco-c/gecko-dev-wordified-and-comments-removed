@@ -6,6 +6,9 @@ strict
 var
 imported
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -23,6 +26,7 @@ Timer
 .
 jsm
 "
+imported
 )
 ;
 add_task

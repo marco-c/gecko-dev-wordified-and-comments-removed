@@ -454,10 +454,11 @@ log
 >
 {
 let
-{
-ConsoleAPI
-}
+scope
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -475,6 +476,7 @@ Console
 .
 jsm
 "
+scope
 )
 ;
 gDebug
@@ -513,6 +515,8 @@ CustomizeMode
 ;
 return
 new
+scope
+.
 ConsoleAPI
 (
 consoleOptions

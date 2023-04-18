@@ -250,10 +250,11 @@ log
 >
 {
 let
-{
-ConsoleAPI
-}
+scope
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -271,6 +272,7 @@ Console
 .
 jsm
 "
+scope
 )
 ;
 let
@@ -310,6 +312,8 @@ CustomizableWidgets
 ;
 return
 new
+scope
+.
 ConsoleAPI
 (
 consoleOptions

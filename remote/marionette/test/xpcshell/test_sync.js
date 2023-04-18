@@ -380,6 +380,9 @@ test_executeSoon_callback
 let
 sync
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -399,6 +402,7 @@ sync
 .
 js
 "
+sync
 )
 ;
 for

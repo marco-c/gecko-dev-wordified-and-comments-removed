@@ -4,10 +4,11 @@ strict
 "
 ;
 let
-{
-Service
-}
+syncService
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -25,7 +26,15 @@ service
 .
 js
 "
+syncService
 )
+;
+const
+service
+=
+syncService
+.
+Service
 ;
 const
 {
@@ -397,7 +406,7 @@ com
 }
 )
 ;
-Service
+service
 .
 sync
 =
@@ -425,7 +434,7 @@ get
 =
 getState
 ;
-Service
+service
 .
 sync
 =
@@ -445,7 +454,7 @@ get
 ;
 originalSync
 =
-Service
+service
 .
 sync
 ;
