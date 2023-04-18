@@ -147,7 +147,7 @@ recordMap
 (
 zone
 )
-crossZoneWrappers
+crossZoneRecords
 (
 zone
 )
@@ -185,7 +185,7 @@ empty
 ;
 MOZ_ASSERT
 (
-crossZoneWrappers
+crossZoneRecords
 .
 empty
 (
@@ -461,6 +461,7 @@ crossZone
 !
 addCrossZoneWrapper
 (
+crossZoneRecords
 record
 )
 )
@@ -488,6 +489,7 @@ crossZone
 {
 removeCrossZoneWrapper
 (
+crossZoneRecords
 record
 )
 ;
@@ -645,6 +647,9 @@ FinalizationObservers
 :
 addCrossZoneWrapper
 (
+WrapperWeakSet
+&
+weakSet
 JSObject
 *
 wrapper
@@ -677,7 +682,7 @@ zone
 auto
 ptr
 =
-crossZoneWrappers
+weakSet
 .
 lookupForAdd
 (
@@ -691,7 +696,7 @@ ptr
 )
 ;
 return
-crossZoneWrappers
+weakSet
 .
 add
 (
@@ -709,6 +714,9 @@ FinalizationObservers
 :
 removeCrossZoneWrapper
 (
+WrapperWeakSet
+&
+weakSet
 JSObject
 *
 wrapper
@@ -741,7 +749,7 @@ zone
 auto
 ptr
 =
-crossZoneWrappers
+weakSet
 .
 lookupForAdd
 (
@@ -753,7 +761,7 @@ MOZ_ASSERT
 ptr
 )
 ;
-crossZoneWrappers
+weakSet
 .
 remove
 (
@@ -840,7 +848,7 @@ clear
 (
 )
 ;
-crossZoneWrappers
+crossZoneRecords
 .
 clear
 (
@@ -911,7 +919,7 @@ JSTracer
 trc
 )
 {
-crossZoneWrappers
+crossZoneRecords
 .
 trace
 (
@@ -1402,6 +1410,7 @@ zone
 {
 removeCrossZoneWrapper
 (
+crossZoneRecords
 wrapper
 )
 ;
@@ -2240,7 +2249,7 @@ zone
 {
 MOZ_ASSERT
 (
-crossZoneWrappers
+crossZoneRecords
 .
 has
 (
@@ -2257,7 +2266,7 @@ count
 }
 MOZ_ASSERT
 (
-crossZoneWrappers
+crossZoneRecords
 .
 count
 (
