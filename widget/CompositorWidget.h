@@ -186,6 +186,13 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+|
+|
+\
+defined
+(
+MOZ_WAYLAND
+)
 class
 CompositorWidgetParent
 ;
