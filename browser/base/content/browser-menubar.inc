@@ -1603,16 +1603,6 @@ id
 "
 viewFullZoomMenu
 "
-onpopupshowing
-=
-"
-FullZoom
-.
-updateMenu
-(
-)
-;
-"
 data
 -
 l10n
