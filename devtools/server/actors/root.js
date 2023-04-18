@@ -899,7 +899,6 @@ function
 (
 {
 browserId
-tabId
 }
 )
 {
@@ -982,7 +981,6 @@ getTab
 (
 {
 browserId
-tabId
 }
 )
 ;
