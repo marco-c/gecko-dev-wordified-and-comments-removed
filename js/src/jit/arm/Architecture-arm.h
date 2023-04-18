@@ -850,9 +850,6 @@ Encoding
 union
 RegisterContent
 {
-float
-s
-;
 double
 d
 ;
