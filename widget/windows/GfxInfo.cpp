@@ -6211,12 +6211,6 @@ nsIGfxInfo
 :
 FEATURE_DIRECT3D_11_ANGLE
 :
-case
-nsIGfxInfo
-:
-:
-FEATURE_ALLOW_WEBGL_OUT_OF_PROCESS
-:
 return
 false
 ;
