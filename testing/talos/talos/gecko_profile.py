@@ -220,13 +220,25 @@ format
 test_config
 [
 "
-name
+suite
 "
 ]
 )
         
 )
         
+if
+test_config
+.
+get
+(
+"
+is_first_test
+"
+False
+)
+:
+            
 LOG
 .
 info
@@ -246,7 +258,7 @@ self
 profile_arcname
 )
 )
-        
+            
 mozfile
 .
 remove
