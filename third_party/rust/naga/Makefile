@@ -93,6 +93,17 @@ comp
 *
 .
 spv
+bench
+:
+#
+rm
+-
+Rf
+target
+/
+criterion
+cargo
+bench
 %
 .
 metal

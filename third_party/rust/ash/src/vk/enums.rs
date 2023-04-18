@@ -49,7 +49,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -447,7 +447,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -591,7 +591,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -724,7 +724,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -868,7 +868,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -1001,7 +1001,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -1189,7 +1189,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -1322,7 +1322,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -1510,7 +1510,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -1742,7 +1742,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -1894,7 +1894,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -2071,7 +2071,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -2204,7 +2204,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -2326,7 +2326,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -2558,7 +2558,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -2691,7 +2691,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -2824,7 +2824,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -2957,7 +2957,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -3113,7 +3113,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -3268,7 +3268,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -3467,7 +3467,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -3611,7 +3611,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -3744,7 +3744,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -4064,7 +4064,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -4230,7 +4230,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -4429,7 +4429,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -4716,7 +4716,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -4838,7 +4838,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -5004,7 +5004,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -5170,7 +5170,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -5303,7 +5303,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -7449,7 +7449,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -8133,7 +8133,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -8266,7 +8266,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -9345,7 +9345,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -9555,7 +9555,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -9692,7 +9692,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -10089,7 +10089,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -10222,7 +10222,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -10377,7 +10377,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -10499,7 +10499,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -10654,7 +10654,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -11117,7 +11117,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -11283,7 +11283,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -11416,7 +11416,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -11549,7 +11549,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -11715,7 +11715,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -11914,7 +11914,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -12113,7 +12113,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -12257,7 +12257,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -12379,7 +12379,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -12501,7 +12501,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -12700,7 +12700,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -12833,7 +12833,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -12966,7 +12966,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -13110,7 +13110,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -13243,7 +13243,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -13449,7 +13449,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -13651,7 +13651,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -13784,7 +13784,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -13928,7 +13928,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -14083,7 +14083,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -14216,7 +14216,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -14338,7 +14338,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -14482,7 +14482,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -14490,7 +14490,7 @@ man
 /
 html
 /
-VkQueueGlobalPriorityEXT
+VkQueueGlobalPriorityKHR
 .
 html
 >
@@ -14498,7 +14498,7 @@ html
 ]
 pub
 struct
-QueueGlobalPriorityEXT
+QueueGlobalPriorityKHR
 (
 pub
 (
@@ -14508,7 +14508,7 @@ i32
 )
 ;
 impl
-QueueGlobalPriorityEXT
+QueueGlobalPriorityKHR
 {
 pub
 const
@@ -14545,7 +14545,7 @@ self
 }
 }
 impl
-QueueGlobalPriorityEXT
+QueueGlobalPriorityKHR
 {
 pub
 const
@@ -14590,6 +14590,50 @@ Self
 (
 1_024
 )
+;
+pub
+const
+LOW_EXT
+:
+Self
+=
+Self
+:
+:
+LOW
+;
+pub
+const
+MEDIUM_EXT
+:
+Self
+=
+Self
+:
+:
+MEDIUM
+;
+pub
+const
+HIGH_EXT
+:
+Self
+=
+Self
+:
+:
+HIGH
+;
+pub
+const
+REALTIME_EXT
+:
+Self
+=
+Self
+:
+:
+REALTIME
 ;
 }
 #
@@ -14637,7 +14681,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -14781,7 +14825,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -15021,7 +15065,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -15532,6 +15576,28 @@ Self
 21
 )
 ;
+#
+[
+doc
+=
+"
+Mesa
+open
+source
+project
+"
+]
+pub
+const
+MESA_VENUS
+:
+Self
+=
+Self
+(
+22
+)
+;
 }
 #
 [
@@ -15578,7 +15644,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -15821,7 +15887,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -15976,7 +16042,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -16131,7 +16197,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -16264,7 +16330,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -16408,7 +16474,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -16552,7 +16618,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -16696,7 +16762,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -16840,7 +16906,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -16984,7 +17050,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -17117,7 +17183,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -17272,7 +17338,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -17416,7 +17482,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -17571,7 +17637,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -17803,7 +17869,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -17958,7 +18024,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -18102,7 +18168,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -18334,7 +18400,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -18511,7 +18577,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -18633,7 +18699,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -18755,7 +18821,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -18888,7 +18954,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -19021,7 +19087,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -19187,7 +19253,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -19331,7 +19397,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -19486,7 +19552,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -19641,7 +19707,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -19807,7 +19873,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -20050,7 +20116,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -20183,7 +20249,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -20316,7 +20382,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -20460,7 +20526,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -21103,18 +21169,6 @@ INDIRECT_COMMANDS_LAYOUT_NV
 Self
 :
 :
-PRIVATE_DATA_SLOT_EXT
-=
->
-Some
-(
-"
-PRIVATE_DATA_SLOT_EXT
-"
-)
-Self
-:
-:
 BUFFER_COLLECTION_FUCHSIA
 =
 >
@@ -21146,6 +21200,18 @@ Some
 (
 "
 DESCRIPTOR_UPDATE_TEMPLATE
+"
+)
+Self
+:
+:
+PRIVATE_DATA_SLOT
+=
+>
+Some
+(
+"
+PRIVATE_DATA_SLOT
 "
 )
 _
@@ -21548,13 +21614,13 @@ ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT
 Self
 :
 :
-ERROR_NOT_PERMITTED_EXT
+ERROR_NOT_PERMITTED_KHR
 =
 >
 Some
 (
 "
-ERROR_NOT_PERMITTED_EXT
+ERROR_NOT_PERMITTED_KHR
 "
 )
 Self
@@ -21622,18 +21688,6 @@ OPERATION_NOT_DEFERRED_KHR
 Self
 :
 :
-PIPELINE_COMPILE_REQUIRED_EXT
-=
->
-Some
-(
-"
-PIPELINE_COMPILE_REQUIRED_EXT
-"
-)
-Self
-:
-:
 ERROR_OUT_OF_POOL_MEMORY
 =
 >
@@ -21681,6 +21735,18 @@ ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS
 "
 )
 }
+Self
+:
+:
+PIPELINE_COMPILE_REQUIRED
+=
+>
+Some
+(
+"
+PIPELINE_COMPILE_REQUIRED
+"
+)
 _
 =
 >

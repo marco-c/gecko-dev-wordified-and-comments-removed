@@ -924,7 +924,7 @@ base
 .
 inner
 .
-span
+size
 (
 &
 module
@@ -2110,7 +2110,7 @@ base
 .
 inner
 .
-span
+size
 (
 &
 module
