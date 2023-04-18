@@ -28030,6 +28030,13 @@ offsetOfMethodHomeObjectSlot
 )
 )
 ;
+masm
+.
+assertFunctionIsExtended
+(
+scratch
+)
+;
 #
 ifdef
 DEBUG
@@ -32202,6 +32209,13 @@ addressOfStackValue
 -
 1
 )
+func
+)
+;
+masm
+.
+assertFunctionIsExtended
+(
 func
 )
 ;

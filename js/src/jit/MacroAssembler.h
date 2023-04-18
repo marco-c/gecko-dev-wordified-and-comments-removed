@@ -6425,6 +6425,13 @@ Label
 slowPath
 )
 ;
+void
+assertFunctionIsExtended
+(
+Register
+func
+)
+;
 inline
 void
 branchFunctionKind
