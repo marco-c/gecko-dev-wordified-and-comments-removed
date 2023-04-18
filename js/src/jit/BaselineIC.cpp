@@ -3557,7 +3557,7 @@ true
 ;
 framePushedAtEnterStubFrame_
 =
-STUB_FRAME_SIZE
+StubFrameSize
 ;
 #
 endif
@@ -9708,7 +9708,7 @@ argPtr
 size_t
 valueOffset
 =
-STUB_FRAME_SIZE
+StubFrameSize
 ;
 size_t
 numNonArgValues
@@ -9925,7 +9925,7 @@ pushValue
 Address
 (
 FramePointer
-STUB_FRAME_SIZE
+StubFrameSizeFromFP
 )
 )
 ;
@@ -9948,7 +9948,7 @@ sizeof
 Value
 )
 +
-STUB_FRAME_SIZE
+StubFrameSizeFromFP
 )
 )
 ;
@@ -9970,7 +9970,7 @@ sizeof
 Value
 )
 +
-STUB_FRAME_SIZE
+StubFrameSizeFromFP
 )
 )
 ;
@@ -9992,7 +9992,7 @@ sizeof
 Value
 )
 +
-STUB_FRAME_SIZE
+StubFrameSizeFromFP
 )
 )
 ;

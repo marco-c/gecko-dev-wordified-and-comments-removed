@@ -12575,7 +12575,7 @@ masm
 getStackPointer
 (
 )
-STUB_FRAME_SIZE
+StubFrameSize
 )
 ;
 masm
@@ -12722,7 +12722,7 @@ Value
 )
 )
 +
-STUB_FRAME_SIZE
+StubFrameSize
 )
 startReg
 )
@@ -12797,7 +12797,7 @@ pushValue
 Address
 (
 FramePointer
-STUB_FRAME_SIZE
+StubFrameSizeFromFP
 )
 )
 ;
@@ -12898,7 +12898,7 @@ pushValue
 Address
 (
 FramePointer
-STUB_FRAME_SIZE
+StubFrameSizeFromFP
 +
 (
 1
@@ -12926,7 +12926,7 @@ pushValue
 Address
 (
 FramePointer
-STUB_FRAME_SIZE
+StubFrameSizeFromFP
 +
 (
 2
@@ -13104,7 +13104,7 @@ masm
 getStackPointer
 (
 )
-STUB_FRAME_SIZE
+StubFrameSize
 )
 argsReg
 )
@@ -13300,7 +13300,7 @@ pushValue
 Address
 (
 FramePointer
-STUB_FRAME_SIZE
+StubFrameSizeFromFP
 +
 sizeof
 (
@@ -14247,7 +14247,7 @@ sizeof
 Value
 )
 +
-STUB_FRAME_SIZE
+StubFrameSize
 )
 ;
 masm
@@ -14283,7 +14283,7 @@ sizeof
 Value
 )
 +
-STUB_FRAME_SIZE
+StubFrameSize
 )
 ;
 masm
@@ -14363,7 +14363,7 @@ return
 size_t
 depth
 =
-STUB_FRAME_SIZE
+StubFrameSize
 ;
 LiveGeneralRegisterSet
 liveNonGCRegs
@@ -14566,7 +14566,7 @@ flags
 ;
 depth
 =
-STUB_FRAME_SIZE
+StubFrameSize
 ;
 loadStackObject
 (

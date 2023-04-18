@@ -246,12 +246,10 @@ addPtr
 (
 Imm32
 (
-sizeof
-(
-intptr_t
-)
-*
-2
+BaselineStubFrameLayout
+:
+:
+FramePointerOffset
 )
 reg
 )
