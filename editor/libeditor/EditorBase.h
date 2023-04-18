@@ -1737,9 +1737,9 @@ IsMailEditor
 ;
 }
 virtual
-nsIContent
+Element
 *
-GetFocusedContent
+GetFocusedElement
 (
 )
 const
