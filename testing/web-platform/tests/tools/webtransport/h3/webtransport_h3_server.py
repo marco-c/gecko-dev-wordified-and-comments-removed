@@ -245,6 +245,10 @@ H3_DATAGRAM_04
 =
 0xffd277
     
+ENABLE_CONNECT_PROTOCOL
+=
+0x08
+    
 def
 __init__
 (
@@ -378,6 +382,15 @@ _get_local_settings
 settings
 [
 H3_DATAGRAM_04
+]
+=
+1
+        
+settings
+[
+H3ConnectionWithDatagram04
+.
+ENABLE_CONNECT_PROTOCOL
 ]
 =
 1
