@@ -51,8 +51,6 @@ settings
 .
 js
 "
-{
-}
 )
 ;
 const

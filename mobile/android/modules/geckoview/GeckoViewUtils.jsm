@@ -356,8 +356,6 @@ ChromeUtils
 import
 (
 module
-{
-}
 )
 [
 name

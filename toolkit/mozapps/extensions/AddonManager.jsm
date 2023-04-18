@@ -2813,8 +2813,6 @@ ChromeUtils
 import
 (
 url
-{
-}
 )
 ;
 logger

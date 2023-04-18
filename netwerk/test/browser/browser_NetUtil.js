@@ -29,8 +29,6 @@ httpd
 .
 js
 "
-{
-}
 )
 ;
 nextTest

@@ -26,8 +26,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 ;
 var
