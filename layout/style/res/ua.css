@@ -1333,6 +1333,12 @@ bidi
 :
 inherit
 ;
+user
+-
+select
+:
+inherit
+;
 text
 -
 overflow
