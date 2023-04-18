@@ -51,8 +51,8 @@ nsIWebVTTParserWrapper
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -168,7 +168,6 @@ false
 ;
 }
 ;
-}
 }
 #
 endif

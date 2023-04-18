@@ -52,8 +52,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -118,7 +118,6 @@ sSingleton
 ;
 }
 ;
-}
 }
 #
 endif

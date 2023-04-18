@@ -45,8 +45,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -138,7 +138,6 @@ mParent
 ;
 }
 ;
-}
 }
 #
 endif

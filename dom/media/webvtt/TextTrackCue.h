@@ -91,8 +91,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1345,7 +1345,6 @@ mWatchManager
 ;
 }
 ;
-}
 }
 #
 endif

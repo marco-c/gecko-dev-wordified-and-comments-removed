@@ -39,8 +39,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -245,7 +245,6 @@ mCanSendData
 ;
 }
 ;
-}
 }
 #
 endif

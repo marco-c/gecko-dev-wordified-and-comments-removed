@@ -74,8 +74,8 @@ nsIDOMWindow
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -274,7 +274,6 @@ mInnerID
 ;
 }
 ;
-}
 }
 #
 endif

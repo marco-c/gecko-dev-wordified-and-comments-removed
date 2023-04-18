@@ -30,8 +30,8 @@ nsISpeechService
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -365,7 +365,6 @@ mIsSpeaking
 ;
 }
 ;
-}
 }
 #
 endif

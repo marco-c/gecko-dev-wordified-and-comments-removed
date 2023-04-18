@@ -93,8 +93,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 StaticRefPtr
@@ -1985,6 +1985,5 @@ forget
 (
 )
 ;
-}
 }
 }

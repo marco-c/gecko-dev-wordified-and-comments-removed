@@ -6,11 +6,11 @@ define
 mozilla_dom_network_Constants_h__
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 network
 {
 static
@@ -34,8 +34,6 @@ kDefaultDHCPGateway
 =
 0
 ;
-}
-}
 }
 #
 endif

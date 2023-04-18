@@ -31,11 +31,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 network
 {
 class
@@ -105,8 +105,6 @@ aNotify
 ;
 }
 ;
-}
-}
 }
 #
 endif

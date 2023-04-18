@@ -13,11 +13,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 network
 {
 class
@@ -80,8 +80,6 @@ mProxy
 ;
 }
 ;
-}
-}
 }
 #
 endif

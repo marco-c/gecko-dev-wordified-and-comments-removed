@@ -62,8 +62,8 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -691,7 +691,6 @@ mHasBeenTransferredOrClosed
 ;
 }
 ;
-}
 }
 #
 endif
