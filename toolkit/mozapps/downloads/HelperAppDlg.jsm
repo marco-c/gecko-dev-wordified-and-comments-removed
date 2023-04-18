@@ -1508,6 +1508,7 @@ aLauncher
 saveDestinationAvailable
 (
 result
+true
 )
 ;
 }
