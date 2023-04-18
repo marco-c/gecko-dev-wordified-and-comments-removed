@@ -9625,16 +9625,6 @@ and
 not
 asan
 :
-if
-target
-.
-os
-!
-=
-"
-Android
-"
-:
 flags
 .
 append
