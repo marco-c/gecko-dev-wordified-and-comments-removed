@@ -124,6 +124,8 @@ devtools
 /
 shared
 /
+loader
+/
 Loader
 .
 jsm

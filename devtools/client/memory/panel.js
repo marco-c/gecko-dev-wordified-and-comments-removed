@@ -89,9 +89,9 @@ resource
 /
 devtools
 /
-client
-/
 shared
+/
+loader
 /
 browser
 -

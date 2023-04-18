@@ -19,6 +19,8 @@ devtools
 /
 shared
 /
+loader
+/
 base
 -
 loader
@@ -47,6 +49,8 @@ resource
 devtools
 /
 shared
+/
+loader
 /
 Loader
 .

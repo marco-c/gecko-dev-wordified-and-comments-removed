@@ -50,6 +50,8 @@ devtools
 /
 shared
 /
+loader
+/
 Loader
 .
 jsm
@@ -89,6 +91,8 @@ resource
 devtools
 /
 shared
+/
+loader
 /
 Loader
 .

@@ -1034,9 +1034,9 @@ require
 "
 devtools
 /
-client
-/
 shared
+/
+loader
 /
 browser
 -

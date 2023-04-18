@@ -19,9 +19,9 @@ require
 "
 devtools
 /
-client
-/
 shared
+/
+loader
 /
 browser
 -
@@ -67,9 +67,9 @@ require
 "
 devtools
 /
-client
-/
 shared
+/
+loader
 /
 browser
 -
@@ -449,9 +449,9 @@ require
 "
 devtools
 /
-client
-/
 shared
+/
+loader
 /
 browser
 -
@@ -499,9 +499,9 @@ require
 "
 devtools
 /
-client
-/
 shared
+/
+loader
 /
 browser
 -

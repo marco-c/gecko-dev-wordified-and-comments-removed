@@ -124,9 +124,9 @@ resource
 /
 devtools
 /
-client
-/
 shared
+/
+loader
 /
 browser
 -
@@ -318,9 +318,9 @@ mockedRequire
 "
 devtools
 /
-client
-/
 shared
+/
+loader
 /
 browser
 -

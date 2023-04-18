@@ -48,6 +48,8 @@ devtools
 /
 shared
 /
+loader
+/
 base
 -
 loader
@@ -73,6 +75,8 @@ resource
 devtools
 /
 shared
+/
+loader
 /
 loader
 -
@@ -368,6 +372,8 @@ require
 devtools
 /
 shared
+/
+loader
 /
 builtin
 -
