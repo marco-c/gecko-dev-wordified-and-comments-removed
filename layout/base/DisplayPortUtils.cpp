@@ -2801,12 +2801,12 @@ Flags
 (
 frame
 )
-|
++
 =
 RetainedDisplayListData
 :
 :
-FrameFlags
+FrameFlag
 :
 :
 HasProps
