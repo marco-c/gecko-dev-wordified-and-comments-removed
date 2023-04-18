@@ -210,8 +210,6 @@ scale
 =
 0
 ;
-public
-:
 explicit
 MonitorConfig
 (
@@ -325,7 +323,10 @@ mRegistry
 ;
 AutoTArray
 <
+UniquePtr
+<
 MonitorConfig
+>
 4
 >
 mMonitors
