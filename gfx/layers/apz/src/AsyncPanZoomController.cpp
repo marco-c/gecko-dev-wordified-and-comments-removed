@@ -20293,6 +20293,10 @@ mPotentialCheckerboardTracker
 InTransform
 (
 inTransformingState
+recordTrace
+|
+|
+forTelemetry
 )
 ;
 if
@@ -20422,6 +20426,7 @@ mPotentialCheckerboardTracker
 .
 CheckerboardDone
 (
+true
 )
 ;
 if
