@@ -8,6 +8,9 @@ EXPORTED_SYMBOLS
 =
 [
 "
+ProgressListener
+"
+"
 waitForInitialNavigationCompleted
 "
 ]
@@ -254,6 +257,9 @@ resolveWhenStarted
 unloadTimeout
 ;
 #
+waitForExplicitStart
+;
+#
 webProgress
 ;
 #
@@ -285,6 +291,9 @@ false
 unloadTimeout
 =
 200
+waitForExplicitStart
+=
+false
 }
 =
 options
@@ -302,6 +311,13 @@ this
 unloadTimeout
 =
 unloadTimeout
+;
+this
+.
+#
+waitForExplicitStart
+=
+waitForExplicitStart
 ;
 this
 .
@@ -765,6 +781,13 @@ this
 webProgress
 .
 isLoadingDocument
+&
+&
+!
+this
+.
+#
+waitForExplicitStart
 )
 {
 this
