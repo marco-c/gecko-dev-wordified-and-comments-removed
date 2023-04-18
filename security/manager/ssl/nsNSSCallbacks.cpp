@@ -5197,8 +5197,10 @@ nsNSSCertificate
 >
 nssc
 (
-new
 nsNSSCertificate
+:
+:
+Create
 (
 cert
 .

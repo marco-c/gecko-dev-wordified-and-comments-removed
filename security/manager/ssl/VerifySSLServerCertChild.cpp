@@ -176,8 +176,10 @@ nsNSSCertificate
 >
 nsc
 =
-new
 nsNSSCertificate
+:
+:
+Create
 (
 mCert
 .
@@ -325,8 +327,10 @@ nsNSSCertificate
 >
 nsc
 =
-new
 nsNSSCertificate
+:
+:
+Create
 (
 mCert
 .
