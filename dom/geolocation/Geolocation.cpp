@@ -1236,16 +1236,6 @@ NS_OK
 ;
 }
 }
-nsCOMPtr
-<
-nsIPrincipal
->
-principal
-=
-GetPrincipal
-(
-)
-;
 nsresult
 rv
 =
@@ -1254,7 +1244,6 @@ gs
 >
 StartDevice
 (
-principal
 )
 ;
 if
@@ -2587,9 +2576,6 @@ nsGeolocationService
 :
 StartDevice
 (
-nsIPrincipal
-*
-aPrincipal
 )
 {
 if

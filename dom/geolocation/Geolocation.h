@@ -234,12 +234,9 @@ NS_DECL_NSIOBSERVER
 nsGeolocationService
 (
 )
-{
-mHigherAccuracy
 =
-false
+default
 ;
-}
 nsresult
 Init
 (
@@ -290,9 +287,6 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 StartDevice
 (
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 void
@@ -356,6 +350,8 @@ mLastPosition
 ;
 bool
 mHigherAccuracy
+=
+false
 ;
 }
 ;
