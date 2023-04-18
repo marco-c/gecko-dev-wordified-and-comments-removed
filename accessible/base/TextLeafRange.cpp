@@ -1031,7 +1031,11 @@ GetLine
 )
 ;
 }
-nsAutoLineIterator
+AutoAssertNoDomMutations
+guard
+;
+nsILineIterator
+*
 it
 =
 prevBlock

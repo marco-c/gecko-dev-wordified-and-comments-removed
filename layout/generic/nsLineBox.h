@@ -7310,13 +7310,6 @@ mIndex
 ;
 }
 }
-void
-DisposeLineIterator
-(
-)
-final
-{
-}
 int32_t
 GetNumLines
 (

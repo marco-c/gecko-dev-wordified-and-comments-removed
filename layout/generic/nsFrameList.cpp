@@ -1810,7 +1810,11 @@ ParagraphDirection
 mFirstChild
 )
 ;
-nsAutoLineIterator
+AutoAssertNoDomMutations
+guard
+;
+nsILineIterator
+*
 iter
 =
 parent
@@ -2199,7 +2203,11 @@ ParagraphDirection
 mFirstChild
 )
 ;
-nsAutoLineIterator
+AutoAssertNoDomMutations
+guard
+;
+nsILineIterator
+*
 iter
 =
 parent
