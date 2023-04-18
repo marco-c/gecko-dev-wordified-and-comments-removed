@@ -47,17 +47,9 @@ ImageTracker
 ImageTracker
 (
 )
-:
-mLocking
-(
-false
-)
-mAnimating
-(
-true
-)
-{
-}
+=
+default
+;
 ImageTracker
 :
 :
@@ -386,7 +378,7 @@ return
 rv
 ;
 }
-nsresult
+void
 ImageTracker
 :
 :
@@ -405,7 +397,6 @@ aLocked
 )
 {
 return
-NS_OK
 ;
 }
 for
@@ -448,9 +439,6 @@ UnlockImage
 mLocking
 =
 aLocked
-;
-return
-NS_OK
 ;
 }
 void
