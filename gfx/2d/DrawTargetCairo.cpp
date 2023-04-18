@@ -1154,17 +1154,6 @@ Y
 )
 *
 aStride
-+
-aRect
-.
-X
-(
-)
-*
-BytesPerPixel
-(
-aFormat
-)
 ;
 cairo_surface_t
 *
