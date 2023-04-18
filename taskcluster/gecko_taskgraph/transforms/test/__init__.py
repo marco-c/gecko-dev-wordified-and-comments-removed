@@ -2392,24 +2392,9 @@ variants
 "
 )
 :
-Any
-(
-list
-(
-TEST_VARIANTS
-)
-)
-        
-Optional
-(
-"
-variant
--
-suffix
-"
-)
-:
+[
 str
+]
         
 Required
 (
@@ -2644,6 +2629,9 @@ optionally_keyed_by
 test
 -
 platform
+"
+"
+subtest
 "
 int
 )
@@ -3085,6 +3073,9 @@ optionally_keyed_by
 "
 app
 "
+"
+subtest
+"
 [
 str
 ]
@@ -3252,6 +3243,10 @@ optionally_keyed_by
 (
             
 "
+app
+"
+            
+"
 test
 -
 platform
@@ -3294,21 +3289,7 @@ fetches
 "
 )
 :
-{
-str
-:
-optionally_keyed_by
-(
-"
-test
--
-platform
-"
-[
-str
-]
-)
-}
+object
         
 Optional
 (
@@ -4043,6 +4024,12 @@ False
         
 yield
 task
+transforms
+.
+add_validate
+(
+test_description_schema
+)
 variant_description_schema
 =
 Schema
@@ -4735,12 +4722,6 @@ platform
             
 yield
 task
-transforms
-.
-add_validate
-(
-test_description_schema
-)
 transforms
 .
 add
