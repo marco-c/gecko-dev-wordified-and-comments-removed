@@ -2256,6 +2256,12 @@ sizeof
 uint32_t
 )
 ;
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 MOZ_RELEASE_ASSERT
 (
 mTotalPrefixes
