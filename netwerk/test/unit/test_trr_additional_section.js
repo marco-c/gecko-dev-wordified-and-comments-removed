@@ -83,6 +83,9 @@ return
 chan
 ;
 }
+let
+processId
+;
 function
 channelOpenPromise
 (
@@ -1259,9 +1262,9 @@ data
 )
 ;
 let
-{
+[
 inRecord
-}
+]
 =
 await
 new
@@ -1359,10 +1362,9 @@ IPs
 [
 ]
 ;
-(
-{
+[
 inRecord
-}
+]
 =
 await
 new
@@ -1378,7 +1380,6 @@ expectedSuccess
 :
 false
 }
-)
 )
 ;
 inRecord

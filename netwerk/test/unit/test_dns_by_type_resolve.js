@@ -217,9 +217,9 @@ doh
 )
 ;
 let
-{
+[
 inRecord
-}
+]
 =
 await
 new
@@ -320,9 +320,9 @@ push
 )
 ;
 let
-{
+[
 inRecord
-}
+]
 =
 await
 new
@@ -432,9 +432,9 @@ h2Port
 )
 ;
 let
-{
+[
 inRecord
-}
+]
 =
 await
 new

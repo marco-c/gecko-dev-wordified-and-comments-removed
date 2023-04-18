@@ -83,6 +83,9 @@ return
 chan
 ;
 }
+let
+processId
+;
 function
 channelOpenPromise
 (
@@ -433,9 +436,9 @@ data
 )
 ;
 let
-{
+[
 inRecord
-}
+]
 =
 await
 new

@@ -451,9 +451,9 @@ value
 )
 ;
 let
-{
+[
 inRecord
-}
+]
 =
 await
 new
@@ -654,10 +654,9 @@ clearCache
 true
 )
 ;
-(
-{
+[
 inRecord
-}
+]
 =
 await
 new
@@ -679,7 +678,6 @@ nsIDNSService
 .
 RESOLVE_TYPE_HTTPSSVC
 }
-)
 )
 ;
 answer

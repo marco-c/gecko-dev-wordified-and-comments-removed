@@ -60,10 +60,10 @@ testTXTResolve
 )
 {
 let
-{
+[
 inRecord
 inStatus
-}
+]
 =
 await
 new
