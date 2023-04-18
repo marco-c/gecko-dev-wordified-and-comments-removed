@@ -1285,7 +1285,7 @@ the
 layout
 viewport
 .
-sessionRule
+mainSession
 .
 setResolutionAndScaleTo
 (

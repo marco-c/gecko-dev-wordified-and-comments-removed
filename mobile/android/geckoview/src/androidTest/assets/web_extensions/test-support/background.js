@@ -275,6 +275,7 @@ newPrefs
 SetResolutionAndScaleTo
 (
 {
+tab
 resolution
 }
 )
@@ -286,6 +287,9 @@ test
 .
 setResolutionAndScaleTo
 (
+tab
+.
+id
 resolution
 )
 ;
