@@ -983,6 +983,16 @@ ByteBuf
 buf
 )
 ;
+async
+TestTriggerMetrics
+(
+)
+returns
+(
+bool
+unused
+)
+;
 both
 :
 async
