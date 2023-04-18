@@ -5068,7 +5068,7 @@ false
 const
 POPUP_SIZE
 =
-32
+40
 ;
 if
 (
