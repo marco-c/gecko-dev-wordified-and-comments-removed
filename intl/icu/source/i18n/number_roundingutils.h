@@ -412,6 +412,16 @@ true
 ;
 }
 }
+digits_t
+doubleFractionLength
+(
+double
+input
+int8_t
+*
+singleDigit
+)
+;
 }
 class
 RoundingImpl

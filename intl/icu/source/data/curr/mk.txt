@@ -2503,6 +2503,11 @@ Currencies
 %
 variant
 {
+GEL
+{
+"
+"
+}
 TRY
 {
 "

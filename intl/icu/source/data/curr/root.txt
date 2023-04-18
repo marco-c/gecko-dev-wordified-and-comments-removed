@@ -819,7 +819,7 @@ other
 Version
 {
 "
-41
+40
 "
 }
 currencySpacing

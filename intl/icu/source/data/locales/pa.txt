@@ -3394,7 +3394,6 @@ GyMMMd
 "
 d
 MMM
-G
 y
 "
 }

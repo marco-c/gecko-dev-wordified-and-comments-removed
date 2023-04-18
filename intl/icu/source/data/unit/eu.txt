@@ -9359,8 +9359,7 @@ one
 {
 0
 }
-hamark
-.
+hamarkada
 "
 }
 other
@@ -9369,8 +9368,7 @@ other
 {
 0
 }
-hamark
-.
+hamarkada
 "
 }
 }

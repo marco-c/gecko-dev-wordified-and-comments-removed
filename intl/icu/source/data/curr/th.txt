@@ -3108,6 +3108,11 @@ Currencies
 %
 variant
 {
+GEL
+{
+"
+"
+}
 RUB
 {
 "

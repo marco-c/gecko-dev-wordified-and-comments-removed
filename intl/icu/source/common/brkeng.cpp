@@ -288,7 +288,6 @@ int32_t
 endPos
 UVector32
 &
-UBool
 UErrorCode
 &
 status

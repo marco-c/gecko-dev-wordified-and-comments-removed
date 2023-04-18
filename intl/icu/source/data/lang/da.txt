@@ -731,7 +731,9 @@ cree
 crh
 {
 "
-krimtatarisk
+krim
+-
+tyrkisk
 "
 }
 crs

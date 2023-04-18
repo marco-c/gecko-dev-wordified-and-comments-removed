@@ -105,7 +105,6 @@ UVector32
 &
 other
 )
-const
 ;
 inline
 bool
@@ -118,7 +117,6 @@ UVector32
 &
 other
 )
-const
 ;
 inline
 void
@@ -731,7 +729,6 @@ UVector32
 &
 other
 )
-const
 {
 return
 !

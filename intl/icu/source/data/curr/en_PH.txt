@@ -62,7 +62,7 @@ PHP
 "
 "
 Philippine
-Peso
+Piso
 "
 }
 }

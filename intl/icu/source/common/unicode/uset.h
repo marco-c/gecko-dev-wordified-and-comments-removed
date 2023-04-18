@@ -473,6 +473,9 @@ int32_t
 strLen
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 U_CAPI
 void
 U_EXPORT2
@@ -489,6 +492,8 @@ int32_t
 length
 )
 ;
+#
+endif
 U_CAPI
 void
 U_EXPORT2
@@ -517,6 +522,9 @@ UChar32
 end
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 U_CAPI
 void
 U_EXPORT2
@@ -549,6 +557,8 @@ int32_t
 length
 )
 ;
+#
+endif
 U_CAPI
 void
 U_EXPORT2
@@ -583,6 +593,9 @@ USet
 set
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 U_CAPI
 void
 U_EXPORT2
@@ -629,6 +642,8 @@ int32_t
 length
 )
 ;
+#
+endif
 U_CAPI
 void
 U_EXPORT2

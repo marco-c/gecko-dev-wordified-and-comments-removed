@@ -979,6 +979,9 @@ UChar32
 c
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 UnicodeSet
 &
 retain
@@ -989,6 +992,8 @@ UnicodeString
 s
 )
 ;
+#
+endif
 virtual
 UnicodeSet
 &

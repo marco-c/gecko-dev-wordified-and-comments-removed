@@ -46,7 +46,7 @@ RegionNameEnumeration
 (
 UVector
 *
-nameList
+fNameList
 UErrorCode
 &
 status

@@ -706,7 +706,7 @@ OutputFile
 IcuBinOutputDir
 )
 \
-icutest71d
+icutest70d
 .
 exe
 <
@@ -867,7 +867,7 @@ OutputFile
 IcuBinOutputDir
 )
 \
-icutest71
+icutest70
 .
 exe
 <
