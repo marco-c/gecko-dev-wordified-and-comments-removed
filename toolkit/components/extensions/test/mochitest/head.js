@@ -10,7 +10,7 @@ AppConstants
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -36,7 +36,7 @@ AppTestDelegate
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
