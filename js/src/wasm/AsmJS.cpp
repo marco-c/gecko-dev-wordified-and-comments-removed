@@ -11488,9 +11488,6 @@ nullptr
 FeatureOptions
 options
 ;
-CompileArgsError
-error
-;
 SharedCompileArgs
 args
 =
@@ -11508,8 +11505,6 @@ move
 scriptedCaller
 )
 options
-&
-error
 )
 ;
 if
@@ -11518,17 +11513,6 @@ if
 args
 )
 {
-MOZ_RELEASE_ASSERT
-(
-error
-=
-=
-CompileArgsError
-:
-:
-OutOfMemory
-)
-;
 return
 nullptr
 ;

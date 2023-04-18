@@ -477,7 +477,7 @@ compileArgs
 CompileArgs
 :
 :
-buildAndReport
+build
 (
 cx
 ScriptedCaller
