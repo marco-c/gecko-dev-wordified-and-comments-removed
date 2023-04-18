@@ -28,3 +28,15 @@ https
 ]
 }
 }
+;
+connect
+-
+src
+'
+unsafe
+-
+inline
+'
+'
+self
+'
