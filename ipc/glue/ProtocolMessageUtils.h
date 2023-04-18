@@ -87,17 +87,6 @@ ProtocolUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ipc
-/
-Transport
-.
-h
-"
 class
 PickleIterator
 ;

@@ -23,6 +23,15 @@ h
 #
 include
 "
+ipc
+/
+IPCMessageUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 GfxMessageUtils
