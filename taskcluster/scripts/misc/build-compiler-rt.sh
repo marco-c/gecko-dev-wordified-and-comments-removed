@@ -429,6 +429,11 @@ exe_linker_flags
 =
 "
 -
+-
+rtlib
+=
+libgcc
+-
 L
 MOZ_FETCHES_DIR
 /
