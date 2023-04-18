@@ -1193,6 +1193,8 @@ ifdef
 MOZ_NORMANDY
 ifndef
 CROSS_COMPILE
+ifndef
+FUZZING_SNAPSHOT
 #
 Generate
 a
@@ -1253,6 +1255,7 @@ js
 (
 MOZ_NORMANDY_JSON
 )
+endif
 endif
 endif
 (
