@@ -29,5 +29,13 @@ nsISessionStorageService
 :
 nsISupports
 {
+void
+clearStoragesForOrigin
+(
+in
+nsIPrincipal
+aPrincipal
+)
+;
 }
 ;

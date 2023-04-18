@@ -150,6 +150,15 @@ __delete__
 (
 )
 ;
+async
+ClearStoragesForOrigin
+(
+nsCString
+aOriginAttrs
+nsCString
+aOriginKey
+)
+;
 }
 ;
 }
