@@ -35,8 +35,11 @@ providers
 def
 __init__
 (
+        
 self
 cwd
+:
+str
 settings
 =
 None
@@ -49,6 +52,7 @@ None
 *
 *
 kwargs
+    
 )
 :
         

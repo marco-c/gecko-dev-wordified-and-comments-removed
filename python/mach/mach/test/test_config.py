@@ -11,6 +11,10 @@ sys
 import
 unittest
 from
+pathlib
+import
+Path
+from
 mozfile
 .
 mozfile
@@ -1311,9 +1315,12 @@ s
 .
 load_file
 (
+Path
+(
 temp
 .
 name
+)
 )
         
 self
@@ -1418,12 +1425,18 @@ s
 load_files
 (
 [
+Path
+(
 temp1
 .
 name
+)
+Path
+(
 temp2
 .
 name
+)
 ]
 )
         
