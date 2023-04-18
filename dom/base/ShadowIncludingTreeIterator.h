@@ -42,8 +42,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -395,7 +395,6 @@ mMutationGuard
 endif
 }
 ;
-}
 }
 #
 endif

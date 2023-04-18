@@ -15,8 +15,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -63,7 +63,6 @@ SCTAG_DOM_BROWSING_CONTEXT
 SCTAG_DOM_CLONED_ERROR_OBJECT
 }
 ;
-}
 }
 #
 endif

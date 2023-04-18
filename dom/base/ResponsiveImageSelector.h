@@ -67,8 +67,8 @@ nsCSSValue
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -547,7 +547,6 @@ mValue
 ;
 }
 ;
-}
 }
 #
 endif

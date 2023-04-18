@@ -40,8 +40,8 @@ nsAttrValue
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -324,7 +324,6 @@ aMutatedType
 ;
 }
 ;
-}
 }
 #
 endif

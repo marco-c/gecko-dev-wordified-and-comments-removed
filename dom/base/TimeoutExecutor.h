@@ -43,8 +43,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -205,7 +205,6 @@ NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSINAMED
 }
 ;
-}
 }
 #
 endif

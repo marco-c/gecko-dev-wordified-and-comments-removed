@@ -66,14 +66,13 @@ nsPIDOMWindowOuter
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
 WindowGlobalParent
 ;
-}
 }
 class
 ThirdPartyUtil

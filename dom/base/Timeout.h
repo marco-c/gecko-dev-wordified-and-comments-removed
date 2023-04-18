@@ -74,8 +74,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -643,7 +643,6 @@ Timeout
 ;
 }
 ;
-}
 }
 #
 endif

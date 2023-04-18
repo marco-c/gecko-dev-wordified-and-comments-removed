@@ -17,8 +17,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -145,7 +145,6 @@ ParentProcessMessageManager
 ;
 }
 ;
-}
 }
 #
 endif

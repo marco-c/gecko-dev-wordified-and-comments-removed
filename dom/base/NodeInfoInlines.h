@@ -34,8 +34,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 inline
@@ -336,7 +336,6 @@ Equals
 mQualifiedName
 )
 ;
-}
 }
 }
 inline

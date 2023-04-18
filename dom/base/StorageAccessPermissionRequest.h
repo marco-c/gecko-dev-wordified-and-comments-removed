@@ -30,8 +30,8 @@ nsPIDOMWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -203,7 +203,6 @@ mCallbackCalled
 ;
 }
 ;
-}
 }
 #
 endif

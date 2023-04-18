@@ -58,8 +58,8 @@ nsScreen
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -332,7 +332,6 @@ false
 ;
 }
 ;
-}
 }
 #
 endif

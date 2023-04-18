@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -171,7 +171,6 @@ nsAString
 aStackJSON
 )
 ;
-}
 }
 #
 endif

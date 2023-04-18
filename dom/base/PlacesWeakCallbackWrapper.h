@@ -40,8 +40,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -138,7 +138,6 @@ mCallback
 ;
 }
 ;
-}
 }
 #
 endif

@@ -50,8 +50,8 @@ h
 "
 namespace
 JS
-{
-namespace
+:
+:
 ubi
 {
 template
@@ -492,7 +492,6 @@ concreteTypeName
 ;
 }
 ;
-}
 }
 #
 endif

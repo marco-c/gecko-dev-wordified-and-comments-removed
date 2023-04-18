@@ -30,8 +30,8 @@ nsScreen
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -169,7 +169,6 @@ mMaxAverage
 ;
 }
 ;
-}
 }
 #
 endif

@@ -30,8 +30,8 @@ nsINode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -342,7 +342,6 @@ mWorkingPointer
 ;
 }
 ;
-}
 }
 #
 endif
