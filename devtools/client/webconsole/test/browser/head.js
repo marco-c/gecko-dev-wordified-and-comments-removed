@@ -3547,7 +3547,7 @@ waitFor
 )
 =
 >
-findMessage
+findMessageByType
 (
 hud
 urlInConsole
