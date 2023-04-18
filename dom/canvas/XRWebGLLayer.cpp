@@ -563,7 +563,7 @@ document
 gl
 -
 >
-GetParentObject
+GetCanvas
 (
 )
 -
@@ -1458,7 +1458,7 @@ return
 mWebGL
 -
 >
-GetParentObject
+GetCanvas
 (
 )
 ;
