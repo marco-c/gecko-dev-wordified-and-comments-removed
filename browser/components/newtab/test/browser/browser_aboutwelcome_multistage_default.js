@@ -89,6 +89,9 @@ test
 }
 }
 }
+has_noodles
+:
+true
 help_text
 :
 {
@@ -149,6 +152,9 @@ label
 link
 "
 }
+has_noodles
+:
+true
 }
 }
 {
@@ -271,6 +277,9 @@ chrome
 }
 }
 }
+has_noodles
+:
+true
 }
 }
 {
@@ -319,6 +328,9 @@ label
 link
 "
 }
+has_noodles
+:
+true
 }
 }
 ]

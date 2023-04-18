@@ -65,6 +65,9 @@ navigate
 true
 }
 }
+has_noodles
+:
+true
 }
 }
 {
@@ -118,6 +121,9 @@ navigate
 true
 }
 }
+has_noodles
+:
+true
 }
 }
 ]
