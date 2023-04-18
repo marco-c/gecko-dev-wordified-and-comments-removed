@@ -542,10 +542,12 @@ BUG_COMPONENT
 =
 (
 "
-Firefox
+Toolkit
 "
 "
-Installer
+Default
+Browser
+Agent
 "
 )
 REQUIRES_UNIFIED_BUILD
