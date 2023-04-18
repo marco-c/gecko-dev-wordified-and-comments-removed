@@ -318,15 +318,6 @@ img
 mPictureRect
 )
 ;
-img
-.
-mTextureHost
--
->
-Updated
-(
-)
-;
 }
 SetImages
 (

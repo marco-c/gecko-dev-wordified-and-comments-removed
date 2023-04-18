@@ -245,17 +245,10 @@ return
 (
 aFlags
 &
-(
-TextureFlags
-:
-:
-IMMEDIATE_UPLOAD
-|
 TextureFlags
 :
 :
 IMMUTABLE
-)
 )
 ;
 }
