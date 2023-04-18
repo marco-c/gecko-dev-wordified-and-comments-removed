@@ -4244,6 +4244,12 @@ return
 false
 ;
 }
+finallyControl
+.
+setHasNonLocalJumps
+(
+)
+;
 }
 break
 ;

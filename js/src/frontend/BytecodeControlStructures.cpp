@@ -535,10 +535,6 @@ NestableControl
 bce
 kind
 )
-emittingSubroutine_
-(
-false
-)
 {
 MOZ_ASSERT
 (
