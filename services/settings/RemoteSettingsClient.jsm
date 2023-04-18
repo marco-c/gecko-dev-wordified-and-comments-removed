@@ -1603,6 +1603,9 @@ sync
 loadDump
 :
 false
+sendEvents
+:
+false
 }
 )
 ;
@@ -2091,6 +2094,9 @@ sync
 loadDump
 :
 false
+sendEvents
+:
+false
 }
 )
 ;
@@ -2263,6 +2269,9 @@ trigger
 "
 manual
 "
+sendEvents
+=
+true
 }
 =
 options
@@ -2754,6 +2763,9 @@ duration
 }
 if
 (
+sendEvents
+&
+&
 this
 .
 hasListeners
@@ -2996,6 +3008,11 @@ e
 ;
 }
 }
+if
+(
+sendEvents
+)
+{
 const
 filteredSyncResult
 =
@@ -3069,6 +3086,7 @@ identifier
 }
 )
 ;
+}
 }
 }
 catch
