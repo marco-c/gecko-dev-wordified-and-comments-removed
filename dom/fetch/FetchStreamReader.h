@@ -27,6 +27,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 FetchBinding
@@ -151,6 +160,7 @@ aValue
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 CloseAndRelease
 (

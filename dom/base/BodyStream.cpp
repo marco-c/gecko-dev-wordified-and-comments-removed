@@ -2282,8 +2282,10 @@ IsByte
 )
 )
 ;
+RefPtr
+<
 ReadableByteStreamController
-*
+>
 byteStreamController
 =
 aStream

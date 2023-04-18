@@ -7,6 +7,15 @@ mozilla_dom_Fetch_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -546,6 +555,7 @@ const
 #
 ifdef
 MOZ_DOM_STREAMS
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 MaybeTeeReadableStreamBody
 (

@@ -8548,7 +8548,10 @@ ReadableStream
 >
 branches
 ;
+MOZ_KnownLive
+(
 mReadableStreamBody
+)
 -
 >
 Tee
