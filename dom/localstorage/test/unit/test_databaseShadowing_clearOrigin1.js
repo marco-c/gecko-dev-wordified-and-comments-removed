@@ -86,7 +86,9 @@ request
 exportShadowDatabase
 (
 "
-shadowdb_clearedOrigin
+shadowdb
+-
+clearedOrigin
 .
 sqlite
 "

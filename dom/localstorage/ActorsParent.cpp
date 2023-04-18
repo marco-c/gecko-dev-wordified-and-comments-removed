@@ -1517,10 +1517,10 @@ exited
 "
 ;
 const
-uint32_t
+bool
 kDefaultShadowWrites
 =
-true
+false
 ;
 const
 uint32_t
@@ -1535,7 +1535,7 @@ kDefaultSnapshotGradualPrefill
 4096
 ;
 const
-uint32_t
+bool
 kDefaultClientValidation
 =
 true
