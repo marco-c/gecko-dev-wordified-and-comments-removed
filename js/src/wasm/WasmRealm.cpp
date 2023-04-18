@@ -396,6 +396,9 @@ instance
 size_t
 index
 ;
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 MOZ_ALWAYS_FALSE
 (
 BinarySearchIf
