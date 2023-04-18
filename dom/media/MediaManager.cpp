@@ -3567,10 +3567,6 @@ const
 nsString
 &
 aGroupID
-const
-nsString
-&
-aRawID
 )
 :
 mSource
@@ -3657,10 +3653,6 @@ mGroupID
 (
 aGroupID
 )
-mRawID
-(
-aRawID
-)
 mRawName
 (
 aName
@@ -3692,10 +3684,6 @@ const
 nsString
 &
 aGroupID
-const
-nsString
-&
-aRawID
 )
 :
 mSource
@@ -3771,10 +3759,6 @@ aID
 mGroupID
 (
 aGroupID
-)
-mRawID
-(
-aRawID
 )
 mRawName
 (

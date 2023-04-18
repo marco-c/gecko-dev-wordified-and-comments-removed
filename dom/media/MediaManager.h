@@ -337,10 +337,6 @@ const
 nsString
 &
 aGroupID
-const
-nsString
-&
-aRawID
 )
 ;
 MediaDevice
@@ -360,15 +356,6 @@ const
 nsString
 &
 aGroupID
-const
-nsString
-&
-aRawID
-=
-u
-"
-"
-_ns
 )
 ;
 MediaDevice
