@@ -589,6 +589,13 @@ nsCString
 (
 )
 )
+\
+_
+(
+AllowWebGPU
+bool
+false
+)
 class
 gfxVars
 final
