@@ -303,7 +303,7 @@ CharT
 MOZ_ALWAYS_INLINE
 JSAtom
 *
-atomizeAndCopyCharsNonStaticValidLength
+atomizeAndCopyChars
 (
 JSContext
 *

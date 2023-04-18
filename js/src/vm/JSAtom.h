@@ -180,7 +180,7 @@ CharT
 extern
 JSAtom
 *
-AtomizeCharsNonStaticValidLength
+AtomizeChars
 (
 JSContext
 *
@@ -198,10 +198,15 @@ size_t
 length
 )
 ;
+template
+<
+typename
+CharT
+>
 extern
 JSAtom
 *
-PermanentlyAtomizeCharsNonStaticValidLength
+PermanentlyAtomizeChars
 (
 JSContext
 *
@@ -215,7 +220,7 @@ mozilla
 HashNumber
 hash
 const
-Latin1Char
+CharT
 *
 chars
 size_t
