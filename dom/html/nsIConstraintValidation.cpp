@@ -188,6 +188,7 @@ bool
 *
 aEventDefaultAction
 )
+const
 {
 if
 (

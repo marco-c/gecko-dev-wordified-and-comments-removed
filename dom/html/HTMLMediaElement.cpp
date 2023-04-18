@@ -31957,6 +31957,7 @@ HTMLMediaElement
 ContainsRestrictedContent
 (
 )
+const
 {
 return
 GetMediaKeys

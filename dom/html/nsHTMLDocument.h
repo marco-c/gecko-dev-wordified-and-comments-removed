@@ -359,6 +359,7 @@ int32_t
 GetNumFormsSynchronous
 (
 )
+const
 ;
 void
 SetIsXHTML

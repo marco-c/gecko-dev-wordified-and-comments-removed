@@ -736,6 +736,7 @@ Remove
 int32_t
 aIndex
 )
+const
 ;
 void
 IndexedSetter
@@ -812,6 +813,7 @@ DOMString
 &
 aValue
 )
+const
 ;
 void
 SetValue
@@ -1363,6 +1365,7 @@ IsOptionSelectedByIndex
 int32_t
 aIndex
 )
+const
 ;
 void
 FindSelectedIndex

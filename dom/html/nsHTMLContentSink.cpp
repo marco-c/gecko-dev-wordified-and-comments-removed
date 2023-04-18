@@ -754,8 +754,9 @@ bool
 IsCurrentContainer
 (
 nsHTMLTag
-mType
+aTag
 )
+const
 ;
 void
 DidAddContent
@@ -1207,9 +1208,9 @@ IsCurrentContainer
 nsHTMLTag
 aTag
 )
+const
 {
-if
-(
+return
 aTag
 =
 =
@@ -1221,14 +1222,6 @@ mStackPos
 ]
 .
 mType
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 void

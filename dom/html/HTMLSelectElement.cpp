@@ -2413,6 +2413,7 @@ Remove
 int32_t
 aIndex
 )
+const
 {
 if
 (
@@ -2866,6 +2867,7 @@ IsOptionSelectedByIndex
 int32_t
 aIndex
 )
+const
 {
 HTMLOptionElement
 *
@@ -3981,6 +3983,7 @@ DOMString
 &
 aValue
 )
+const
 {
 int32_t
 selectedIndex
