@@ -219,6 +219,12 @@ mInputProcessing
 >
 Start
 (
+mTrack
+-
+>
+GraphImpl
+(
+)
 )
 ;
 }
@@ -240,6 +246,9 @@ mInputProcessing
 explicit
 StopInputProcessing
 (
+AudioInputTrack
+*
+aTrack
 AudioInputProcessing
 *
 aInputProcessing
@@ -247,7 +256,7 @@ aInputProcessing
 :
 ControlMessage
 (
-nullptr
+aTrack
 )
 mInputProcessing
 (
@@ -266,6 +275,12 @@ mInputProcessing
 >
 Stop
 (
+mTrack
+-
+>
+GraphImpl
+(
+)
 )
 ;
 }
@@ -1432,6 +1447,7 @@ MakeUnique
 StopInputProcessing
 >
 (
+inputTrack
 listener
 )
 )
@@ -1875,6 +1891,7 @@ MakeUnique
 StopInputProcessing
 >
 (
+inputTrack
 listener
 )
 )
@@ -2662,6 +2679,7 @@ MakeUnique
 StopInputProcessing
 >
 (
+inputTrack
 listener
 )
 )
@@ -3361,6 +3379,7 @@ MakeUnique
 StopInputProcessing
 >
 (
+inputTrack
 listener
 )
 )
@@ -3748,6 +3767,7 @@ MakeUnique
 StopInputProcessing
 >
 (
+mInputTrack
 mListener
 )
 )
@@ -5634,6 +5654,7 @@ MakeUnique
 StopInputProcessing
 >
 (
+inputTrack
 listener
 )
 )

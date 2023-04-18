@@ -53,6 +53,10 @@ AudioSegment
 (
 )
 )
+mIsBufferingAppended
+(
+false
+)
 {
 }
 public
@@ -179,8 +183,11 @@ mDataUsers
 ;
 private
 :
-AudioInputSamples
-mInputData
+bool
+mIsBufferingAppended
+;
+AudioSegment
+mPendingData
 ;
 uint32_t
 mInputChannels
