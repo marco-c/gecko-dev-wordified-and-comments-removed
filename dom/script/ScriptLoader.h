@@ -1495,15 +1495,6 @@ aRequest
 JS
 :
 :
-Handle
-<
-JSObject
-*
->
-aScopeChain
-JS
-:
-:
 CompileOptions
 *
 aOptions
