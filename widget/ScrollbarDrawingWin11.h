@@ -107,6 +107,14 @@ Colors
 )
 override
 ;
+static
+bool
+UseOverlayStyle
+(
+nsPresContext
+*
+)
+;
 std
 :
 :
@@ -161,6 +169,9 @@ EventStates
 aDocumentState
 const
 Colors
+&
+const
+DPIRatio
 &
 )
 override

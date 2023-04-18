@@ -6764,6 +6764,7 @@ aFrame
 eventState
 docState
 colors
+dpiRatio
 )
 ;
 }

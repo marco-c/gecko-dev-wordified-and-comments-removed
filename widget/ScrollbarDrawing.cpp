@@ -2187,6 +2187,9 @@ const
 Colors
 &
 aColors
+const
+DPIRatio
+&
 )
 {
 auto
