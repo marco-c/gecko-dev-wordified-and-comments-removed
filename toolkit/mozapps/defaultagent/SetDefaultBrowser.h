@@ -11,14 +11,6 @@ const
 wchar_t
 *
 aAumi
-const
-wchar_t
-*
-const
-*
-aExtraFileExtensions
-=
-nullptr
 )
 ;
 const
