@@ -4707,9 +4707,11 @@ if
 (
 LocalizeString
 (
+u
 "
 stateRequired
 "
+_ns
 requiredString
 )
 )
@@ -5926,9 +5928,11 @@ if
 (
 LocalizeString
 (
+u
 "
 stateRequired
 "
+_ns
 requiredString
 )
 )
