@@ -2647,9 +2647,6 @@ forget
 )
 ;
 }
-#
-ifdef
-MOZ_XUL
 already_AddRefed
 <
 ComputedStyle
@@ -2721,8 +2718,6 @@ Consume
 )
 ;
 }
-#
-endif
 void
 ServoStyleSet
 :

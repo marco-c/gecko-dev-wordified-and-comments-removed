@@ -6954,9 +6954,6 @@ return
 true
 ;
 }
-#
-ifdef
-MOZ_XUL
 return
 DisplayOutside
 (
@@ -6971,13 +6968,6 @@ StyleDisplayOutside
 :
 XUL
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 bool
 IsFloatingStyle

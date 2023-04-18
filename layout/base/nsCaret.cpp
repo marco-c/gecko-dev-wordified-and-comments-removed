@@ -4037,9 +4037,6 @@ IsMenuPopupHidingCaret
 (
 )
 {
-#
-ifdef
-MOZ_XUL
 nsXULPopupManager
 *
 popMgr
@@ -4206,8 +4203,6 @@ true
 ;
 }
 }
-#
-endif
 return
 false
 ;

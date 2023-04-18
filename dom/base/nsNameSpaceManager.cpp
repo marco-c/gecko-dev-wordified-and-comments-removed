@@ -1017,9 +1017,6 @@ isAtom
 )
 ;
 }
-#
-ifdef
-MOZ_XUL
 if
 (
 ns
@@ -1042,8 +1039,6 @@ isAtom
 )
 ;
 }
-#
-endif
 if
 (
 ns
@@ -1266,17 +1261,12 @@ aNameSpaceID
 kNameSpaceID_XHTML
 |
 |
-#
-ifdef
-MOZ_XUL
 aNameSpaceID
 =
 =
 kNameSpaceID_XUL
 |
 |
-#
-endif
 aNameSpaceID
 =
 =

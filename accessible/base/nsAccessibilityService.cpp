@@ -468,9 +468,6 @@ nsDeckFrame
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 XULAlertAccessible
@@ -526,8 +523,6 @@ XULTreeGridAccessibleWrap
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
@@ -860,9 +855,6 @@ return
 false
 ;
 }
-#
-ifdef
-MOZ_XUL
 LocalAccessible
 *
 CreateMenupopupAccessible
@@ -924,8 +916,6 @@ Document
 )
 ;
 }
-#
-endif
 static
 LocalAccessible
 *
@@ -1178,9 +1168,6 @@ h
 undef
 MARKUPMAP
 #
-ifdef
-MOZ_XUL
-#
 define
 XULMAP
 (
@@ -1265,8 +1252,6 @@ XULMAP_TYPE
 undef
 XULMAP
 #
-endif
-#
 undef
 Attr
 #
@@ -1337,9 +1322,6 @@ ArrayLength
 sMathMLMarkupMapList
 )
 )
-#
-ifdef
-MOZ_XUL
 mXULMarkupMap
 (
 ArrayLength
@@ -1347,8 +1329,6 @@ ArrayLength
 sXULMarkupMapList
 )
 )
-#
-endif
 {
 }
 nsAccessibilityService
@@ -6142,9 +6122,6 @@ nullptr
 ;
 }
 }
-#
-ifdef
-MOZ_XUL
 const
 XULMarkupMapInfo
 *
@@ -6195,8 +6172,6 @@ aContext
 )
 ;
 }
-#
-endif
 if
 (
 !
@@ -6865,9 +6840,6 @@ info
 )
 ;
 }
-#
-ifdef
-MOZ_XUL
 for
 (
 uint32_t
@@ -6905,8 +6877,6 @@ i
 )
 ;
 }
-#
-endif
 #
 ifdef
 A11Y_LOG

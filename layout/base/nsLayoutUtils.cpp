@@ -1266,17 +1266,12 @@ ViewportFrame
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsXULPopupManager
 .
 h
 "
-#
-endif
 #
 ifdef
 XP_WIN
@@ -9441,9 +9436,6 @@ WidgetEvent
 aEvent
 )
 {
-#
-ifdef
-MOZ_XUL
 nsXULPopupManager
 *
 pm
@@ -9554,8 +9546,6 @@ popup
 ;
 }
 }
-#
-endif
 return
 nullptr
 ;

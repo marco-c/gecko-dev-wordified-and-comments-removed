@@ -240,9 +240,6 @@ attrs
 ;
 }
 ;
-#
-ifdef
-MOZ_XUL
 struct
 XULMarkupMapInfo
 {
@@ -258,8 +255,6 @@ new_func
 ;
 }
 ;
-#
-endif
 void
 PrefChanged
 (
@@ -1117,9 +1112,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-MOZ_XUL
 nsTHashMap
 <
 nsPtrHashKey
@@ -1139,8 +1131,6 @@ XULMarkupMapInfo
 >
 mXULMarkupMap
 ;
-#
-endif
 friend
 nsAccessibilityService
 *

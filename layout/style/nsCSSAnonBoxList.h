@@ -673,9 +673,6 @@ text
 container
 "
 )
-#
-ifdef
-MOZ_XUL
 CSS_ANON_BOX
 (
 mozTreeColumn
@@ -823,8 +820,6 @@ drop
 feedback
 "
 )
-#
-endif
 CSS_ANON_BOX
 (
 mozSVGMarkerAnonChild

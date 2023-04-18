@@ -34,13 +34,6 @@ if
 CONFIG
 [
 "
-MOZ_XUL
-"
-]
-and
-CONFIG
-[
-"
 MOZ_BUILD_APP
 "
 ]

@@ -153,17 +153,12 @@ nsMenuPopupFrame
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsTreeBodyFrame
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1690,9 +1685,6 @@ Nothing
 (
 )
 ;
-#
-ifdef
-MOZ_XUL
 if
 (
 aDOMNode
@@ -1766,8 +1758,6 @@ GetSelectionRegion
 }
 }
 }
-#
-endif
 nsresult
 rv
 =

@@ -140,17 +140,12 @@ nsServiceManagerUtils
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsXULPrototypeCache
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
@@ -3360,9 +3355,6 @@ aData
 aAnonymize
 )
 ;
-#
-ifdef
-MOZ_XUL
 nsXULPrototypeCache
 :
 :
@@ -3372,8 +3364,6 @@ aHandleReport
 aData
 )
 ;
-#
-endif
 #
 define
 REPORT

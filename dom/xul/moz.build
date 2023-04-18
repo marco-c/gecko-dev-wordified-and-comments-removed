@@ -62,14 +62,6 @@ mochitest
 ini
 "
 ]
-if
-CONFIG
-[
-"
-MOZ_XUL
-"
-]
-:
 EXPORTS
 +
 =

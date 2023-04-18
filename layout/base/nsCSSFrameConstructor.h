@@ -1465,14 +1465,9 @@ define
 FCDATA_MAY_NEED_SCROLLFRAME
 0x80
 #
-ifdef
-MOZ_XUL
-#
 define
 FCDATA_IS_POPUP
 0x100
-#
-endif
 #
 define
 FCDATA_SKIP_ABSPOS_PUSH
@@ -3990,9 +3985,6 @@ ComputedStyle
 &
 )
 ;
-#
-ifdef
-MOZ_XUL
 static
 const
 FrameConstructionData
@@ -4048,8 +4040,6 @@ ComputedStyle
 &
 )
 ;
-#
-endif
 #
 endif
 nsContainerFrame

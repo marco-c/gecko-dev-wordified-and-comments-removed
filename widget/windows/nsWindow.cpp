@@ -2823,9 +2823,6 @@ mCachedHitTestResult
 =
 0
 ;
-#
-ifdef
-MOZ_XUL
 mTransparencyMode
 =
 eTransparencyOpaque
@@ -2839,8 +2836,6 @@ sizeof
 mGlassMargins
 )
 ;
-#
-endif
 DWORD
 background
 =
@@ -6829,9 +6824,6 @@ SWP_NOACTIVATE
 }
 }
 }
-#
-ifdef
-MOZ_XUL
 if
 (
 !
@@ -6867,8 +6859,6 @@ mWnd
 ;
 }
 }
-#
-endif
 if
 (
 mOpeningAnimationSuppressed
@@ -13756,9 +13746,6 @@ cursor
 )
 ;
 }
-#
-ifdef
-MOZ_XUL
 nsTransparencyMode
 nsWindow
 :
@@ -14243,8 +14230,6 @@ policy
 ;
 }
 }
-#
-endif
 void
 nsWindow
 :
@@ -32177,9 +32162,6 @@ GetRootAccessible
 }
 #
 endif
-#
-ifdef
-MOZ_XUL
 void
 nsWindow
 :
@@ -32594,8 +32576,6 @@ ResetCompositors
 ;
 }
 }
-#
-endif
 void
 nsWindow
 :

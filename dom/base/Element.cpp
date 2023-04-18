@@ -1424,17 +1424,12 @@ nsWindowSizes
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsXULElement
 .
 h
 "
-#
-endif
 #
 ifdef
 DEBUG

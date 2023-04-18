@@ -169,9 +169,6 @@ nsINode
 aNode
 )
 ;
-#
-ifdef
-MOZ_XUL
 void
 HandleTreeRowCountChangedEvent
 (
@@ -206,8 +203,6 @@ GetChromeFlags
 )
 const
 ;
-#
-endif
 }
 ;
 inline

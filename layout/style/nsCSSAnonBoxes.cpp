@@ -32,9 +32,6 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-MOZ_XUL
 bool
 nsCSSAnonBoxes
 :
@@ -66,8 +63,6 @@ _ns
 )
 ;
 }
-#
-endif
 #
 ifdef
 DEBUG

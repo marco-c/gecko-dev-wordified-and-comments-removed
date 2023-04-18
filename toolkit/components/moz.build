@@ -327,14 +327,6 @@ DIRS
 ctypes
 "
 ]
-if
-CONFIG
-[
-"
-MOZ_XUL
-"
-]
-:
 DIRS
 +
 =
@@ -348,11 +340,6 @@ printingui
 "
 satchel
 "
-]
-DIRS
-+
-=
-[
 "
 captivedetect
 "

@@ -715,9 +715,6 @@ ResolveNonInheritingAnonymousBoxStyle
 PseudoStyleType
 )
 ;
-#
-ifdef
-MOZ_XUL
 already_AddRefed
 <
 ComputedStyle
@@ -742,8 +739,6 @@ AtomArray
 aInputWord
 )
 ;
-#
-endif
 size_t
 SheetCount
 (

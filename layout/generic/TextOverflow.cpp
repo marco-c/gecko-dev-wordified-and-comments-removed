@@ -1694,9 +1694,6 @@ mAdjustForPixelSnapping
 false
 )
 {
-#
-ifdef
-MOZ_XUL
 if
 (
 !
@@ -1754,8 +1751,6 @@ IsBidiRTL
 ;
 }
 }
-#
-endif
 mCanHaveInlineAxisScrollbar
 =
 false

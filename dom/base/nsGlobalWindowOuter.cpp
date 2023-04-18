@@ -17916,9 +17916,6 @@ CallerType
 aCallerType
 )
 {
-#
-ifdef
-MOZ_XUL
 if
 (
 aCallerType
@@ -17939,8 +17936,6 @@ mDoc
 )
 ;
 }
-#
-endif
 if
 (
 (
@@ -18165,9 +18160,6 @@ CallerType
 System
 )
 {
-#
-ifdef
-MOZ_XUL
 nsContentUtils
 :
 :
@@ -18176,8 +18168,6 @@ HidePopupsInDocument
 mDoc
 )
 ;
-#
-endif
 if
 (
 nsGlobalWindowOuter

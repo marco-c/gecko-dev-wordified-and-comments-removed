@@ -927,17 +927,12 @@ ContentPrincipal
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsXULPopupManager
 .
 h
 "
-#
-endif
 #
 ifdef
 NS_PRINTING
@@ -14920,9 +14915,6 @@ _true
 eIgnoreCase
 )
 ;
-#
-ifdef
-MOZ_XUL
 if
 (
 !
@@ -14957,8 +14949,6 @@ GetDocShell
 ;
 }
 }
-#
-endif
 parentTreeOwner
 -
 >

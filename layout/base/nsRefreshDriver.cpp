@@ -579,17 +579,12 @@ h
 #
 endif
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsXULPopupManager
 .
 h
 "
-#
-endif
 #
 include
 <
@@ -10864,9 +10859,6 @@ ScheduleApproximateFrameVisibilityUpdateNow
 )
 ;
 }
-#
-ifdef
-MOZ_XUL
 if
 (
 nsXULPopupManager
@@ -10890,8 +10882,6 @@ this
 )
 ;
 }
-#
-endif
 UpdateIntersectionObservations
 (
 aNowTime
