@@ -107,7 +107,7 @@ code
 ctx_save
 )
 ;
-offThreadDecodeScript
+offThreadDecodeStencil
 (
 code
 ctx
@@ -119,9 +119,17 @@ global
 .
 eval
 (
-runOffThreadDecodedScript
+stencil
+=
+finishOffThreadDecodeStencil
 (
 )
+;
+evalStencil
+(
+stencil
+)
+;
 )
 ;
 }
