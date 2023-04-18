@@ -271,6 +271,7 @@ int64_t
 GetFileId
 (
 )
+const
 ;
 static
 void

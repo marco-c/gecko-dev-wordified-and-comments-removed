@@ -255,6 +255,7 @@ BaseBlobImpl
 GetFileId
 (
 )
+const
 {
 return
 -
