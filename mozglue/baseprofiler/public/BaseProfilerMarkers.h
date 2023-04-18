@@ -327,15 +327,10 @@ baseprofiler
 :
 AddMarkerToBuffer
 (
+base_profiler_markers_detail
 :
 :
-mozilla
-:
-:
-baseprofiler
-:
-:
-profiler_get_core_buffer
+CachedBaseCoreBuffer
 (
 )
 aName

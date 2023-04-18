@@ -25451,6 +25451,11 @@ asString
 =
 "
 GeckoMain
+(
+pre
+-
+xul
+)
 "
 )
 {
