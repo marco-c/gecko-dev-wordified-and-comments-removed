@@ -256,7 +256,7 @@ protected
 :
 static
 StaticMutex
-sMonitor
+sMutex
 ;
 const
 RefPtr
