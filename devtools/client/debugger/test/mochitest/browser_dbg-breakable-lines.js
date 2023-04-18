@@ -313,6 +313,17 @@ file
 )
 ;
 await
+waitForSource
+(
+dbg
+"
+original
+.
+js
+"
+)
+;
+await
 assertBreakableLines
 (
 dbg
