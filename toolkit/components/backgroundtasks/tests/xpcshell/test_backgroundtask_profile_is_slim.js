@@ -419,15 +419,6 @@ ini
 relPath
 :
 "
-cookies
-.
-sqlite
-"
-}
-{
-relPath
-:
-"
 crashes
 "
 isDirectory

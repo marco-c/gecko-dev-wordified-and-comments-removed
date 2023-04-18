@@ -118,3 +118,15 @@ connection
 false
 )
 ;
+pref
+(
+"
+network
+.
+cookie
+.
+noPersistentStorage
+"
+true
+)
+;
