@@ -105,7 +105,7 @@ style
 overflow
 =
 '
-scroll
+hidden
 '
 ;
 elements
