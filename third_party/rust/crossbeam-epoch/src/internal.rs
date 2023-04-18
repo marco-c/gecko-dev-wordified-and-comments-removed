@@ -348,7 +348,7 @@ SealedBag
 SealedBag
 {
 epoch
-bag
+_bag
 :
 self
 }
@@ -1026,7 +1026,7 @@ SealedBag
 epoch
 :
 Epoch
-bag
+_bag
 :
 Bag
 }
@@ -1400,7 +1400,6 @@ locals
 .
 iter
 (
-&
 guard
 )
 {

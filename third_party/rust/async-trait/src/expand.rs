@@ -876,6 +876,14 @@ let_unit_value
 clippy
 :
 :
+no_effect_underscore_binding
+clippy
+:
+:
+shadow_same
+clippy
+:
+:
 type_complexity
 clippy
 :

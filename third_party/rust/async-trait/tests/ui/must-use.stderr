@@ -15,7 +15,9 @@ used
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 must
 -
@@ -58,7 +60,9 @@ here
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 must
 -

@@ -519,6 +519,17 @@ crossbeam_loom
 mod
 tests
 {
+#
+!
+[
+allow
+(
+clippy
+:
+:
+drop_copy
+)
+]
 use
 super
 :

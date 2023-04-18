@@ -1080,7 +1080,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 {
 0
@@ -1170,7 +1170,7 @@ usize
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 enabled

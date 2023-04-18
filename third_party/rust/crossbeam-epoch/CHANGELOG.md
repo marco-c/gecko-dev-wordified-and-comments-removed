@@ -4,6 +4,24 @@ Version
 .
 9
 .
+6
+-
+Add
+Atomic
+:
+:
+fetch_update
+.
+(
+#
+706
+)
+#
+Version
+0
+.
+9
+.
 5
 -
 Fix
@@ -18,6 +36,7 @@ MaybeUninit
 T
 >
 ]
+.
 (
 #
 694
@@ -34,6 +53,7 @@ CAS
 on
 stable
 Rust
+.
 (
 #
 698
@@ -53,6 +73,7 @@ lang
 rust
 #
 84510
+.
 (
 #
 692
@@ -86,6 +107,7 @@ global
 allocator
 failed
 allocation
+.
 (
 #
 690

@@ -914,12 +914,7 @@ builder
 .
 spawn
 (
-move
-|
-|
 closure
-(
-)
 )
 ?
 }

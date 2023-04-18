@@ -15,7 +15,9 @@ structs
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 unsupported
 -

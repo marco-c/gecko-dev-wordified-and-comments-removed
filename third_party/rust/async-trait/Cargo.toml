@@ -102,6 +102,15 @@ edition
 "
 2018
 "
+rust
+-
+version
+=
+"
+1
+.
+39
+"
 name
 =
 "
@@ -116,7 +125,7 @@ version
 .
 1
 .
-51
+52
 "
 authors
 =
@@ -357,7 +366,7 @@ version
 .
 0
 .
-19
+49
 "
 features
 =

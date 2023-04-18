@@ -211,11 +211,9 @@ as_secs
 )
 dur
 .
-subsec_nanos
+subsec_millis
 (
 )
-/
-1_000_000
 )
 ;
 }
