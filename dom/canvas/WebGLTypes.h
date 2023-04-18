@@ -3973,6 +3973,9 @@ ImageBitmap
 class
 ImageData
 ;
+class
+OffscreenCanvas
+;
 }
 struct
 TexImageSource
@@ -4021,6 +4024,16 @@ dom
 ImageData
 *
 mImageData
+=
+nullptr
+;
+const
+dom
+:
+:
+OffscreenCanvas
+*
+mOffscreenCanvas
 =
 nullptr
 ;
