@@ -32622,6 +32622,8 @@ Args
 args
 uint32_t
 stackArgAreaSizeUnaligned
+bool
+inTry
 MDefinition
 *
 tableIndex
@@ -32640,6 +32642,7 @@ MWasmCall
 desc
 callee
 stackArgAreaSizeUnaligned
+inTry
 )
 ;
 if
@@ -32876,6 +32879,7 @@ desc
 callee
 args
 stackArgAreaSizeUnaligned
+false
 nullptr
 )
 ;

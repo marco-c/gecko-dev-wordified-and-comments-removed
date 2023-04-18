@@ -320,6 +320,12 @@ BaselineAvailable
 (
 cx
 )
+|
+|
+IonAvailable
+(
+cx
+)
 \
 /
 *
@@ -327,13 +333,6 @@ flag
 predicate
 *
 /
-!
-IsFuzzingIon
-(
-cx
-)
-&
-&
 !
 IsFuzzingCranelift
 (

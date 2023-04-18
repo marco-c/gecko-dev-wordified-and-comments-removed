@@ -8037,8 +8037,7 @@ forCompiledCode
 )
 ;
 }
-void
-*
+int32_t
 Instance
 :
 :
@@ -8062,7 +8061,7 @@ failureMode
 FailureMode
 :
 :
-FailOnNullPtr
+FailOnNegI32
 )
 ;
 JSContext
@@ -8105,7 +8104,8 @@ nullptr
 )
 ;
 return
-nullptr
+-
+1
 ;
 }
 uint32_t
