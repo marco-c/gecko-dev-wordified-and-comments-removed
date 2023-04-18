@@ -277,6 +277,14 @@ uint32_t
 aIndex
 )
 ;
+int32_t
+LinkIndexOf
+(
+Accessible
+*
+aLink
+)
+;
 virtual
 already_AddRefed
 <
