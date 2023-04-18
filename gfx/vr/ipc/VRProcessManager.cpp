@@ -1046,6 +1046,10 @@ GetPreference
 (
 &
 pref
+GeckoProcessType_VR
+"
+"
+_ns
 )
 ;
 if
