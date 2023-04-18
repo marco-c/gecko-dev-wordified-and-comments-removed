@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsIProfiler
 .
 h
@@ -99,8 +92,6 @@ final
 :
 public
 nsIProfiler
-public
-nsIObserver
 {
 public
 :
@@ -109,7 +100,6 @@ nsProfiler
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIOBSERVER
 NS_DECL_NSIPROFILER
 nsresult
 Init
@@ -249,9 +239,6 @@ nsACString
 &
 aBreakpadID
 )
-;
-bool
-mLockedForPrivateBrowsing
 ;
 struct
 ExitProfile

@@ -904,14 +904,6 @@ nsIPrefBranch
 profiler
 :
 {
-CanProfile
-:
-(
-)
-=
->
-boolean
-;
 StartProfiler
 :
 (

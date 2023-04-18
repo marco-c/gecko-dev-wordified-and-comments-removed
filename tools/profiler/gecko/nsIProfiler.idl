@@ -263,11 +263,6 @@ nsIProfiler
 :
 nsISupports
 {
-boolean
-CanProfile
-(
-)
-;
 void
 StartProfiler
 (
