@@ -244,6 +244,11 @@ mIsFrameNavigation
 =
 false
 ;
+bool
+mSaveLayoutState
+=
+true
+;
 protected
 :
 static
@@ -424,11 +429,6 @@ bool
 mExpired
 =
 false
-;
-bool
-mSaveLayoutState
-=
-true
 ;
 }
 ;
