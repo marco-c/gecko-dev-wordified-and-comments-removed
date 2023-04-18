@@ -996,6 +996,16 @@ area
 Atom
 (
 "
+aria
+"
+"
+aria
+"
+)
+    
+Atom
+(
+"
 aria_activedescendant
 "
 "
