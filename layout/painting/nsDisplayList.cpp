@@ -42863,6 +42863,15 @@ initialized
 )
 )
 {
+if
+(
+mStyle
+)
+{
+return
+true
+;
+}
 return
 false
 ;
