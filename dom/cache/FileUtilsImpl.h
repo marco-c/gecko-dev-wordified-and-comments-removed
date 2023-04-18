@@ -46,7 +46,10 @@ nsresult
 BodyTraverseFiles
 (
 const
+Maybe
+<
 ClientMetadata
+>
 &
 aClientMetadata
 nsIFile
@@ -64,6 +67,12 @@ bool
 aTrackQuota
 )
 {
+MOZ_DIAGNOSTIC_ASSERT_IF
+(
+aTrackQuota
+aClientMetadata
+)
+;
 #
 ifdef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
