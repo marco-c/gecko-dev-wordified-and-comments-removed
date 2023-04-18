@@ -191,6 +191,15 @@ foo
 "
                 
 "
+component
+"
+:
+"
+foo
+bar
+"
+                
+"
 merge
 "
 :
@@ -248,6 +257,15 @@ suffix
 "
 :
 "
+bar
+"
+                
+"
+component
+"
+:
+"
+foo
 bar
 "
                 
