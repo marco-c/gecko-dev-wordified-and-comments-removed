@@ -182,14 +182,6 @@ nsITransferable
 namespace
 mozilla
 {
-template
-<
-class
-T
->
-class
-OwningNonNull
-;
 class
 MOZ_STACK_CLASS
 EditActionResult
