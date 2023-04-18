@@ -65,6 +65,12 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 if
 (
 AppConstants
@@ -81,7 +87,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SubprocessImpl
 "
@@ -109,7 +115,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SubprocessImpl
 "
@@ -447,6 +453,8 @@ Promise
 .
 resolve
 (
+lazy
+.
 SubprocessImpl
 .
 isExecutableFile
@@ -518,6 +526,8 @@ command
 )
 ;
 return
+lazy
+.
 SubprocessImpl
 .
 call
@@ -551,6 +561,8 @@ k
 v
 ]
 of
+lazy
+.
 SubprocessImpl
 .
 getEnvironment
@@ -585,6 +597,8 @@ getEnvironment
 let
 path
 =
+lazy
+.
 SubprocessImpl
 .
 pathSearch
@@ -625,6 +639,8 @@ getSubprocessImplForTest
 )
 {
 return
+lazy
+.
 SubprocessImpl
 ;
 }
