@@ -1971,7 +1971,7 @@ MOZ_ASSERT
 aTrack
 -
 >
-AsAudioInputTrack
+AsAudioProcessingTrack
 (
 )
 )
@@ -1995,7 +1995,7 @@ mTrack
 aTrack
 -
 >
-AsAudioInputTrack
+AsAudioProcessingTrack
 (
 )
 ;

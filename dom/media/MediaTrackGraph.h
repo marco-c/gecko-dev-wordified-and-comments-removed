@@ -709,7 +709,7 @@ AudioNodeExternalInputTrack
 virtual
 AudioProcessingTrack
 *
-AsAudioInputTrack
+AsAudioProcessingTrack
 (
 )
 {

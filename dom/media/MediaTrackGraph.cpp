@@ -4048,7 +4048,7 @@ t
 track
 -
 >
-AsAudioInputTrack
+AsAudioProcessingTrack
 (
 )
 ;

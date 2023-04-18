@@ -845,7 +845,7 @@ aChannels
 ;
 AudioProcessingTrack
 *
-AsAudioInputTrack
+AsAudioProcessingTrack
 (
 )
 override
