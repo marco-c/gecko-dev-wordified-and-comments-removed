@@ -3184,6 +3184,17 @@ bool
 aCloaked
 )
 ;
+mozilla
+:
+:
+Maybe
+<
+UINT
+>
+GetHiddenTaskbarEdge
+(
+)
+;
 static
 bool
 sTouchInjectInitialized
