@@ -65,7 +65,7 @@ lockwise
 -
 card
 .
-mjs
+js
 (
 content
 /
@@ -73,7 +73,7 @@ lockwise
 -
 card
 .
-mjs
+js
 )
 content
 /
@@ -83,7 +83,7 @@ monitor
 -
 card
 .
-mjs
+js
 (
 content
 /
@@ -91,7 +91,7 @@ monitor
 -
 card
 .
-mjs
+js
 )
 content
 /
@@ -127,13 +127,13 @@ browser
 /
 protections
 .
-mjs
+js
 (
 content
 /
 protections
 .
-mjs
+js
 )
 content
 /
@@ -143,7 +143,7 @@ proxy
 -
 card
 .
-mjs
+js
 (
 content
 /
@@ -151,7 +151,7 @@ proxy
 -
 card
 .
-mjs
+js
 )
 content
 /
@@ -161,7 +161,7 @@ vpn
 -
 card
 .
-mjs
+js
 (
 content
 /
@@ -169,5 +169,5 @@ vpn
 -
 card
 .
-mjs
+js
 )
