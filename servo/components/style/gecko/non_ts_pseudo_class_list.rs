@@ -262,11 +262,9 @@ moz
 topmost
 -
 modal
--
-dialog
 "
-MozTopmostModalDialog
-IN_TOPMOST_MODAL_DIALOG_STATE
+MozTopmostModal
+IN_TOPMOST_MODAL_TOP_LAYER_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (

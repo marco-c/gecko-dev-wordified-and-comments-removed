@@ -5574,14 +5574,6 @@ bool
 applyFullScreenDirectly
 )
 ;
-static
-void
-ClearFullscreenStateOnElement
-(
-Element
-&
-)
-;
 void
 TopLayerPush
 (
@@ -5611,8 +5603,8 @@ CleanupFullscreenState
 (
 )
 ;
-void
-UnsetFullscreenElement
+bool
+PopFullscreenElement
 (
 )
 ;

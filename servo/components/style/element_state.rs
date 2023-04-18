@@ -1597,13 +1597,13 @@ State
 for
 the
 topmost
-dialog
+modal
 element
 in
 top
 layer
 const
-IN_TOPMOST_MODAL_DIALOG_STATE
+IN_TOPMOST_MODAL_TOP_LAYER_STATE
 =
 1
 <
