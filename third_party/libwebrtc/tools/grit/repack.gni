@@ -986,11 +986,6 @@ locale
 pak
 "
 }
-set_sources_assignment_filter
-(
-[
-]
-)
 sources
 =
 [

@@ -7176,11 +7176,6 @@ proguard
 "
 )
 {
-set_sources_assignment_filter
-(
-[
-]
-)
 forward_variables_from
 (
 invoker
@@ -13349,11 +13344,6 @@ action_with_pydeps
 target_name
 )
 {
-set_sources_assignment_filter
-(
-[
-]
-)
 forward_variables_from
 (
 invoker
@@ -14594,11 +14584,6 @@ compile_resources
 "
 )
 {
-set_sources_assignment_filter
-(
-[
-]
-)
 forward_variables_from
 (
 invoker
@@ -21875,11 +21860,6 @@ invoker
 "
 no_build_hooks
 "
-]
-)
-set_sources_assignment_filter
-(
-[
 ]
 )
 forward_variables_from
