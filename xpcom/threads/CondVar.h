@@ -56,7 +56,9 @@ DEBUG
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+ProfilerThreadSleep
 .
 h
 "

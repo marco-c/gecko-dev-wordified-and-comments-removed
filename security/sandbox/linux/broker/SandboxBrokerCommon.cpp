@@ -20,7 +20,9 @@ MOZILLA_INTERNAL_API
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+ProfilerThreadSleep
 .
 h
 "
