@@ -6597,6 +6597,15 @@ PlatformFontList
 (
 )
 ;
+pfl
+-
+>
+mLock
+.
+AssertCurrentThreadIn
+(
+)
+;
 if
 (
 header
