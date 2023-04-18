@@ -2688,6 +2688,17 @@ const
 out
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+WebGLContext
+:
+:
+Create
+"
+GRAPHICS
+)
+;
 nsCString
 failureId
 =
