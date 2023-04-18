@@ -306,13 +306,6 @@ fuzzy
 -
 20
 )
-fails
--
-if
-(
-!
-gtkWidget
-)
 =
 =
 clip
