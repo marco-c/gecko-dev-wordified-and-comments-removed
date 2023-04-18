@@ -267,12 +267,6 @@ placement
 moz
 -
 proton
-"
-"
--
-moz
--
-proton
 -
 places
 -
