@@ -198,6 +198,15 @@ windowDpr
 =
 window
 .
+browsingContext
+.
+top
+.
+overrideDPPX
+|
+|
+window
+.
 devicePixelRatio
 ;
 const

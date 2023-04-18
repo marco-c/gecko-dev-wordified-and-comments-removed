@@ -215,6 +215,13 @@ scale
 =
 win
 .
+browsingContext
+.
+overrideDPPX
+|
+|
+win
+.
 devicePixelRatio
 ;
 let

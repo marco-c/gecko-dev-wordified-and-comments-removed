@@ -961,9 +961,9 @@ windowUtils
 const
 deviceScale
 =
-utils
+win
 .
-screenPixelsPerCSSPixelNoOverride
+devicePixelRatio
 ;
 const
 pt

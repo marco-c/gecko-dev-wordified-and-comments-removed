@@ -247,15 +247,6 @@ window
 .
 devicePixelRatio
 ;
-const
-screenPixelsPerCSSPixelNoOverride
-=
-SpecialPowers
-.
-DOMWindowUtils
-.
-screenPixelsPerCSSPixelNoOverride
-;
 let
 rectOnScreen
 =
@@ -294,7 +285,7 @@ window
 .
 mozInnerScreenX
 *
-screenPixelsPerCSSPixelNoOverride
+screenPixelsPerCSSPixel
 0
 .
 01
@@ -318,7 +309,7 @@ window
 .
 mozInnerScreenY
 *
-screenPixelsPerCSSPixelNoOverride
+screenPixelsPerCSSPixel
 0
 .
 01

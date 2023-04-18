@@ -704,6 +704,15 @@ browserOrBrowsingContext
 >
 content
 .
+browsingContext
+.
+top
+.
+overrideDPPX
+|
+|
+content
+.
 devicePixelRatio
 )
 ;

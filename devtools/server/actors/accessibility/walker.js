@@ -3974,9 +3974,7 @@ this
 .
 rootWin
 .
-windowUtils
-.
-screenPixelsPerCSSPixelNoOverride
+devicePixelRatio
 ;
 }
 _findAndAttachAccessible
