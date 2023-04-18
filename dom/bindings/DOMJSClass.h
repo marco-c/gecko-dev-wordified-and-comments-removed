@@ -447,6 +447,16 @@ AudioWorkletGlobalScope
 <
 7
 ;
+static
+const
+uint32_t
+PaintWorkletGlobalScope
+=
+1u
+<
+<
+8
+;
 }
 struct
 PrefableDisablers
