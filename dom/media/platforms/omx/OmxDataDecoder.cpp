@@ -3243,6 +3243,8 @@ IsAudio
 {
 csc
 =
+ForceGetAudioCodecSpecificBlob
+(
 mTrackInfo
 -
 >
@@ -3252,6 +3254,7 @@ GetAsAudioInfo
 -
 >
 mCodecSpecificConfig
+)
 ;
 }
 else
