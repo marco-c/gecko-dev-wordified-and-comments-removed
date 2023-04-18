@@ -279,6 +279,17 @@ xml
 |
 |
 mimeType
+.
+endsWith
+(
+"
++
+json
+"
+)
+|
+|
+mimeType
 =
 =
 "
