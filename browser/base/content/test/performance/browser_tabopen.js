@@ -344,6 +344,11 @@ right
 ;
 }
 ;
+const
+kTabCloseIconWidth
+=
+13
+;
 let
 isExpectedChange
 =
@@ -411,6 +416,8 @@ firstTabRect
 .
 right
 -
+kTabCloseIconWidth
+-
 1
 firstTabRect
 .
@@ -454,7 +461,7 @@ r
 h
 =
 =
-13
+kTabCloseIconWidth
 &
 &
 r
@@ -464,7 +471,7 @@ w
 =
 2
 *
-13
+kTabCloseIconWidth
 +
 kMaxEmptyPixels
 )
