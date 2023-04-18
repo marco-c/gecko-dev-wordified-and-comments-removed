@@ -1911,7 +1911,7 @@ IPCResult
 GMPVideoDecoderParent
 :
 :
-AnswerNeedShmem
+RecvNeedShmem
 (
 const
 uint32_t

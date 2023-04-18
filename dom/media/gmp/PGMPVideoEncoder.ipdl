@@ -60,7 +60,7 @@ gmp
 [
 RefCounted
 ]
-intr
+sync
 protocol
 PGMPVideoEncoder
 {
@@ -173,7 +173,7 @@ Shmem
 aFrameBuffer
 )
 ;
-intr
+sync
 NeedShmem
 (
 uint32_t

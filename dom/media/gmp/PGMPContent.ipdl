@@ -44,7 +44,7 @@ gmp
 RefCounted
 NeedsOtherPid
 ]
-intr
+sync
 protocol
 PGMPContent
 {
