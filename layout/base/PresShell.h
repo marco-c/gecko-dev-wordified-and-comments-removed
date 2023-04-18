@@ -1154,6 +1154,11 @@ MaybeNotifyShowDynamicToolbar
 ;
 #
 endif
+void
+RefreshZoomConstraintsForScreenSizeChange
+(
+)
+;
 private
 :
 void
