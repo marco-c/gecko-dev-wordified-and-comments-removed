@@ -127,6 +127,8 @@ h
 ;
 [
 MoveOnly
+=
+data
 ]
 using
 struct
