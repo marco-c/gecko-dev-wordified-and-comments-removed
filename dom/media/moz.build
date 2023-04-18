@@ -812,6 +812,11 @@ MediaDecoderStateMachine
 h
 "
 "
+MediaDecoderStateMachineBase
+.
+h
+"
+"
 MediaEventSource
 .
 h
@@ -1383,6 +1388,11 @@ cpp
 "
 "
 MediaDecoderStateMachine
+.
+cpp
+"
+"
+MediaDecoderStateMachineBase
 .
 cpp
 "
