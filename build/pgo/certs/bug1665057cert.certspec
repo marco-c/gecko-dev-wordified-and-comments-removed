@@ -7,6 +7,17 @@ suggestion
 example
 .
 com
+extension
+:
+subjectAlternativeName
+:
+www
+.
+suggestion
+-
+example
+.
+com
 issuer
 :
 printableString
