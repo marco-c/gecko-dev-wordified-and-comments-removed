@@ -239,6 +239,14 @@ perfstats
 "
 "
 webpagetest
+-
+firefox
+:
+"
+"
+webpagetest
+-
+chrome
 :
 "
 "
