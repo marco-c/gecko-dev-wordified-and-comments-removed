@@ -6,12 +6,12 @@ repos
 name
 =
 '
-threads
+spec
 '
 commit
 =
 '
-dfdcb81a
+ffb5e3b4
 '
 [
 [
@@ -21,12 +21,12 @@ repos
 name
 =
 '
-spec
+threads
 '
 commit
 =
 '
-c9ed6580
+85b562cd
 '
 [
 [
@@ -41,7 +41,7 @@ simd
 commit
 =
 '
-1618b39a
+a78b98a6
 '
 [
 [
@@ -58,7 +58,7 @@ handling
 commit
 =
 '
-7fcfe173
+76419ef8
 '
 [
 [
