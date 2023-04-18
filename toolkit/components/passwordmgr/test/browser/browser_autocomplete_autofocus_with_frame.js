@@ -13,10 +13,11 @@ org
 +
 DIRECTORY_PATH
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

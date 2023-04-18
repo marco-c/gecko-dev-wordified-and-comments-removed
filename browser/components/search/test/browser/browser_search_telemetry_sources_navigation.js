@@ -382,10 +382,11 @@ this
 let
 tab
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

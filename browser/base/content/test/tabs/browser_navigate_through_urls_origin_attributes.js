@@ -149,10 +149,11 @@ gPrevRemoteTypeContainerTab
 var
 gPrevRemoteTypePrivateTab
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

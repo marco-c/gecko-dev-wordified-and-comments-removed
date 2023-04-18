@@ -89,10 +89,11 @@ devices
 let
 expectedBody
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

@@ -378,10 +378,11 @@ MOZ_DEV_EDITION
 :
 1
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

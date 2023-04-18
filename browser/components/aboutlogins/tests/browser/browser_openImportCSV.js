@@ -1162,10 +1162,11 @@ random
 100000001
 )
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

@@ -122,10 +122,11 @@ content
 TEST_URI
 )
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

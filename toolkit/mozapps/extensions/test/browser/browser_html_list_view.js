@@ -180,10 +180,11 @@ moveCount
 let
 mockProvider
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

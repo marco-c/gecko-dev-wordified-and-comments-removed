@@ -73,10 +73,11 @@ clear
 let
 bookmarks
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

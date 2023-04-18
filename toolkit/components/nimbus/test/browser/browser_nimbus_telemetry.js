@@ -130,10 +130,11 @@ category
 TELEMETRY_CATEGORY
 }
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

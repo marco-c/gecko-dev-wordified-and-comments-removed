@@ -97,10 +97,11 @@ NUM_PAGES_OPEN_FOR_EACH_TEST_CASE
 var
 remoteTypes
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

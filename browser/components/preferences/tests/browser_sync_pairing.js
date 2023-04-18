@@ -80,10 +80,11 @@ flowCounter
 =
 0
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

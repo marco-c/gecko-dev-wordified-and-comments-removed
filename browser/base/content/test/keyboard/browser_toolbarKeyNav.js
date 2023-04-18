@@ -416,10 +416,11 @@ BOOKMARKS_COUNT
 =
 100
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

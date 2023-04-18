@@ -17,10 +17,11 @@ loadBookmarksInTabs
 var
 gBms
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

@@ -103,10 +103,11 @@ cleanup
 let
 gTempDownloadDir
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

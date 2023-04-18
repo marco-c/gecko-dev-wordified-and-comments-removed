@@ -532,10 +532,11 @@ tlsServer
 let
 server
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

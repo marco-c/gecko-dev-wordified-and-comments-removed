@@ -39,10 +39,11 @@ PlacesOrganizer
 var
 ContentTree
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

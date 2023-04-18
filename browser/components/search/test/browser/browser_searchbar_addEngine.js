@@ -42,10 +42,11 @@ PopupSearchAutoComplete
 let
 searchbar
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

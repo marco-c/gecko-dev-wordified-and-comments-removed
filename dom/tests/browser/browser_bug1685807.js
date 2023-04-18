@@ -57,10 +57,11 @@ file_bug1685807
 html
 "
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

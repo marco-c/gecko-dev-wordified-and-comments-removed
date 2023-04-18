@@ -16,10 +16,11 @@ navigation
 about_home
 "
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

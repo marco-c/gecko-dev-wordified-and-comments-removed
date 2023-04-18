@@ -324,10 +324,11 @@ STATE_REMOTE_EXPLICIT
 )
 ;
 }
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

@@ -14,9 +14,10 @@ browser_formdata_xpath_sample
 html
 "
 ;
-add_setup
+add_task
 (
 function
+setup
 (
 )
 {

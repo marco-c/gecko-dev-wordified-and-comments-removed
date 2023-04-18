@@ -33,10 +33,11 @@ BASE_PROBE_NAME
 about_newtab
 "
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

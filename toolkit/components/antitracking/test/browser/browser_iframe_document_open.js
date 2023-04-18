@@ -11,10 +11,11 @@ file_iframe_document_open
 html
 "
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

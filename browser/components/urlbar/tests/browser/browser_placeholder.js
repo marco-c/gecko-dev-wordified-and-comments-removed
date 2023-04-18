@@ -18,10 +18,11 @@ tabs
 var
 noEngineString
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

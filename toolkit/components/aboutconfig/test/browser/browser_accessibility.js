@@ -3,10 +3,11 @@ MAX_PLACEABLE_LENGTH
 =
 2500
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

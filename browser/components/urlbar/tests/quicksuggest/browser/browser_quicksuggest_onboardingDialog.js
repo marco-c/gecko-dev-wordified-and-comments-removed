@@ -143,10 +143,11 @@ requestLongerTimeout
 let
 gCanTabMoveFocus
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {
