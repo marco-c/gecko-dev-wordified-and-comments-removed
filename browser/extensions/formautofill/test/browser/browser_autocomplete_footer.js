@@ -14,17 +14,6 @@ autocomplete_basic
 html
 "
 ;
-const
-PRIVACY_PREF_URL
-=
-"
-about
-:
-preferences
-#
-privacy
-"
-;
 add_task
 (
 async
