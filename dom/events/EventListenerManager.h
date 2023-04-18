@@ -541,6 +541,11 @@ mMayHaveSelectionChangeEventListener
 1
 ;
 uint16_t
+mMayHaveFormSelectEventListener
+:
+1
+;
+uint16_t
 mClearingListeners
 :
 1
@@ -1670,6 +1675,7 @@ bool
 MayHavePaintEventListener
 (
 )
+const
 {
 return
 mMayHavePaintEventListener
@@ -1679,6 +1685,7 @@ bool
 MayHaveTouchEventListener
 (
 )
+const
 {
 return
 mMayHaveTouchEventListener
@@ -1688,6 +1695,7 @@ bool
 MayHaveMouseEnterLeaveEventListener
 (
 )
+const
 {
 return
 mMayHaveMouseEnterLeaveEventListener
@@ -1697,6 +1705,7 @@ bool
 MayHavePointerEnterLeaveEventListener
 (
 )
+const
 {
 return
 mMayHavePointerEnterLeaveEventListener
@@ -1706,9 +1715,20 @@ bool
 MayHaveSelectionChangeEventListener
 (
 )
+const
 {
 return
 mMayHaveSelectionChangeEventListener
+;
+}
+bool
+MayHaveFormSelectEventListener
+(
+)
+const
+{
+return
+mMayHaveFormSelectEventListener
 ;
 }
 bool
@@ -1720,6 +1740,7 @@ bool
 MayHaveKeyEventListener
 (
 )
+const
 {
 return
 mMayHaveKeyEventListener
@@ -1729,6 +1750,7 @@ bool
 MayHaveInputOrCompositionEventListener
 (
 )
+const
 {
 return
 mMayHaveInputOrCompositionEventListener

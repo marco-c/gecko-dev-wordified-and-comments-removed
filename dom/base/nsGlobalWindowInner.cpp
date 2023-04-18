@@ -35868,6 +35868,10 @@ mMayHaveSelectionChangeEventListener
 (
 false
 )
+mMayHaveFormSelectEventListener
+(
+false
+)
 mMayHaveMouseEnterLeaveEventListener
 (
 false
