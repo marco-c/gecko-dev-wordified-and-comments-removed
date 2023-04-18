@@ -3830,6 +3830,11 @@ mForcedAutodetection
 :
 1
 ;
+bool
+mCheckingSessionHistory
+:
+1
+;
 }
 ;
 inline
