@@ -650,6 +650,10 @@ content
 window
 .
 mozInnerScreenX
+*
+content
+.
+devicePixelRatio
 screenY
 :
 content
@@ -657,6 +661,10 @@ content
 window
 .
 mozInnerScreenY
+*
+content
+.
+devicePixelRatio
 viewId
 :
 winUtils

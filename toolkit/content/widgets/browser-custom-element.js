@@ -5662,8 +5662,8 @@ browsingContext
 .
 startApzAutoscroll
 (
-screenX
-screenY
+screenXDevPx
+screenYDevPx
 scrollId
 presShellId
 )

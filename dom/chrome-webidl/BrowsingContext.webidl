@@ -2067,8 +2067,8 @@ the
 autoscroll
 anchor
 in
-CSS
 *
+device
 coordinates
 relative
 to
@@ -2117,8 +2117,8 @@ in
 another
 process
 )
-*
 may
+*
 still
 reject
 the
@@ -2131,10 +2131,10 @@ then
 APZ
 '
 s
-reponsibility
-*
+responsibility
 to
 notify
+*
 content
 via
 an
