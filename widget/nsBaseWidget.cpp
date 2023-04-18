@@ -4168,16 +4168,6 @@ AsTouchEvent
 (
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-layout_css_touch_action_enabled
-(
-)
-)
-{
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -4218,7 +4208,6 @@ inputBlockId
 allowedTouchBehaviors
 )
 ;
-}
 }
 postLayerization
 =
