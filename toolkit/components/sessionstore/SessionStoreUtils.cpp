@@ -7150,7 +7150,6 @@ rv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 SessionStoreUtils
 :
@@ -7927,7 +7926,6 @@ MOZ_ASSERT_UNREACHABLE
 ;
 }
 }
-MOZ_CAN_RUN_SCRIPT
 void
 SessionStoreUtils
 :
@@ -8913,7 +8911,6 @@ boolVal
 ;
 }
 }
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 nsISessionStoreRestoreData
@@ -8948,7 +8945,6 @@ forget
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
