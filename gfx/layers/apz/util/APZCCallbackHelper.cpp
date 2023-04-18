@@ -706,7 +706,7 @@ GetScrollGeneration
 )
 aRequest
 .
-IsAnimationInProgress
+GetScrollAnimationType
 (
 )
 )

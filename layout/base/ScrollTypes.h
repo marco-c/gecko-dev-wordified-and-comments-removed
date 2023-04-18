@@ -27,6 +27,15 @@ PAGES
 WHOLE
 }
 ;
+enum
+class
+APZScrollAnimationType
+{
+No
+TriggeredByScript
+TriggeredByUserInput
+}
+;
 }
 #
 endif

@@ -10445,6 +10445,13 @@ mAnchor
 (
 this
 )
+mCurrentAPZScrollAnimationType
+(
+APZScrollAnimationType
+:
+:
+No
+)
 mAllowScrollOriginDowngrade
 (
 false
@@ -10566,10 +10573,6 @@ mMinimumScaleSizeChanged
 false
 )
 mProcessingScrollEvent
-(
-false
-)
-mApzAnimationInProgress
 (
 false
 )
@@ -34094,8 +34097,8 @@ const
 ScrollGeneration
 &
 aGeneration
-bool
-aApzAnimationInProgress
+APZScrollAnimationType
+aAPZScrollAnimationType
 )
 {
 if
@@ -34118,9 +34121,9 @@ mApzAnimationRequested
 false
 ;
 }
-mApzAnimationInProgress
+mCurrentAPZScrollAnimationType
 =
-aApzAnimationInProgress
+aAPZScrollAnimationType
 ;
 }
 UniquePtr
