@@ -41505,7 +41505,7 @@ MDebugger
 ins
 )
 {
-LDebugger
+auto
 *
 lir
 =
@@ -41520,10 +41520,6 @@ LDebugger
 tempFixed
 (
 CallTempReg0
-)
-tempFixed
-(
-CallTempReg1
 )
 )
 ;
