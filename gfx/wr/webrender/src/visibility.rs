@@ -1746,7 +1746,7 @@ vis
 .
 clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 prim_instance
 .
 vis
@@ -2260,7 +2260,7 @@ vis
 .
 clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 &
 world_culling_rect
 &
@@ -2365,7 +2365,7 @@ vis
 .
 clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 &
 world_culling_rect
 &
@@ -2803,7 +2803,7 @@ vis
 .
 clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 )
 .
 and_then
@@ -2972,7 +2972,7 @@ intersection
 &
 clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 )
 {
 Some

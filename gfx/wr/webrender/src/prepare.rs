@@ -1754,7 +1754,7 @@ vis
 .
 clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 )
 }
 }
@@ -5109,7 +5109,7 @@ vis
 .
 clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 )
 ;
 }
@@ -5125,7 +5125,7 @@ vis
 .
 clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 &
 pic_state
 .
@@ -5572,7 +5572,7 @@ map
 &
 clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 )
 {
 Some

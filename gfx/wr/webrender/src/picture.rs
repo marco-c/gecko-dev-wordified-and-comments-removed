@@ -8313,7 +8313,7 @@ clip_chain_instance
 {
 clip_chain_instance
 .
-pic_clip_rect
+pic_coverage_rect
 }
 )
 ;
@@ -10236,7 +10236,7 @@ LayoutRect
 prim_spatial_node_index
 :
 SpatialNodeIndex
-pic_clip_rect
+pic_coverage_rect
 :
 PictureRect
 frame_context
@@ -10334,7 +10334,7 @@ prim_info
 flags
 local_prim_rect
 prim_spatial_node_index
-pic_clip_rect
+pic_coverage_rect
 frame_context
 ExternalSurfaceDependency
 :
@@ -10385,7 +10385,7 @@ LayoutRect
 prim_spatial_node_index
 :
 SpatialNodeIndex
-pic_clip_rect
+pic_coverage_rect
 :
 PictureRect
 frame_context
@@ -10494,7 +10494,7 @@ prim_info
 flags
 local_prim_rect
 prim_spatial_node_index
-pic_clip_rect
+pic_coverage_rect
 frame_context
 ExternalSurfaceDependency
 :
@@ -10534,7 +10534,7 @@ LayoutRect
 prim_spatial_node_index
 :
 SpatialNodeIndex
-pic_clip_rect
+pic_coverage_rect
 :
 PictureRect
 frame_context
@@ -11206,7 +11206,7 @@ CompositorSurface
 {
 prohibited_rect
 :
-pic_clip_rect
+pic_coverage_rect
 is_opaque
 descriptor
 :
@@ -11519,24 +11519,24 @@ self
 surface_index
 ;
 let
-pic_clip_rect
+pic_coverage_rect
 =
 if
 on_picture_surface
 {
 prim_clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 }
 else
 {
 let
 mut
-current_pic_clip_rect
+current_pic_coverage_rect
 =
 prim_clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 ;
 let
 mut
@@ -11599,7 +11599,7 @@ frame_context
 spatial_tree
 )
 ;
-current_pic_clip_rect
+current_pic_coverage_rect
 =
 match
 map_local_to_surface
@@ -11607,7 +11607,7 @@ map_local_to_surface
 map
 (
 &
-current_pic_clip_rect
+current_pic_coverage_rect
 )
 {
 Some
@@ -11645,7 +11645,7 @@ surface
 surface_spatial_node_index
 ;
 }
-current_pic_clip_rect
+current_pic_coverage_rect
 }
 ;
 let
@@ -11659,7 +11659,7 @@ self
 get_tile_coords_for_rect
 (
 &
-pic_clip_rect
+pic_coverage_rect
 )
 ;
 if
@@ -11699,7 +11699,7 @@ prim_instance
 uid
 (
 )
-pic_clip_rect
+pic_coverage_rect
 )
 ;
 let
@@ -11755,7 +11755,7 @@ sub_slice
 compositor_surfaces
 {
 if
-pic_clip_rect
+pic_coverage_rect
 .
 intersects
 (
@@ -11776,7 +11776,7 @@ prohibited_rect
 union
 (
 &
-pic_clip_rect
+pic_coverage_rect
 )
 ;
 intersects_prohibited_region
@@ -12057,7 +12057,7 @@ BackdropInfo
 {
 opaque_rect
 :
-pic_clip_rect
+pic_coverage_rect
 kind
 :
 Some
@@ -12262,7 +12262,7 @@ BackdropInfo
 {
 opaque_rect
 :
-pic_clip_rect
+pic_coverage_rect
 kind
 :
 None
@@ -12291,7 +12291,7 @@ common
 flags
 local_prim_rect
 prim_spatial_node_index
-pic_clip_rect
+pic_coverage_rect
 frame_context
 ImageDependency
 {
@@ -12516,7 +12516,7 @@ common
 flags
 local_prim_rect
 prim_spatial_node_index
-pic_clip_rect
+pic_coverage_rect
 frame_context
 &
 image_dependencies
@@ -12704,7 +12704,7 @@ BackdropInfo
 {
 opaque_rect
 :
-pic_clip_rect
+pic_coverage_rect
 kind
 :
 Some
@@ -12779,7 +12779,7 @@ BackdropInfo
 {
 opaque_rect
 :
-pic_clip_rect
+pic_coverage_rect
 kind
 :
 None
@@ -12839,7 +12839,7 @@ BackdropInfo
 {
 opaque_rect
 :
-pic_clip_rect
+pic_coverage_rect
 kind
 :
 None
@@ -12899,7 +12899,7 @@ BackdropInfo
 {
 opaque_rect
 :
-pic_clip_rect
+pic_coverage_rect
 kind
 :
 None
@@ -13352,7 +13352,7 @@ BatchFilter
 {
 rect_in_pic_space
 :
-pic_clip_rect
+pic_coverage_rect
 sub_slice_index
 :
 SubSliceIndex

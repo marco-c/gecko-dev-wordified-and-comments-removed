@@ -4597,7 +4597,7 @@ child_prim_info
 .
 clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 z_id
 prim_header_index
 child
@@ -4719,7 +4719,7 @@ prim_info
 .
 clip_chain
 .
-pic_clip_rect
+pic_coverage_rect
 ;
 if
 vis_flags
