@@ -77,11 +77,6 @@ iterator
 js
 "
 "
-stringifiers
-.
-js
-"
-"
 symbol
 -
 iterator
