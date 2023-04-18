@@ -1816,6 +1816,11 @@ aContent
 {
 if
 (
+IPCAccessibilityActive
+(
+)
+&
+&
 StaticPrefs
 :
 :
@@ -1890,6 +1895,12 @@ aContent
 {
 if
 (
+!
+IPCAccessibilityActive
+(
+)
+|
+|
 !
 StaticPrefs
 :

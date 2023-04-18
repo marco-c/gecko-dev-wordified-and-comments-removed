@@ -1229,6 +1229,11 @@ StaticPrefs
 accessibility_cache_enabled_AtStartup
 (
 )
+&
+&
+IPCAccessibilityActive
+(
+)
 )
 {
 dom

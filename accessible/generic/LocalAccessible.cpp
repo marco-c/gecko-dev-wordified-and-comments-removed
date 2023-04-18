@@ -19846,6 +19846,12 @@ MaybeQueueCacheUpdateForStyleChanges
 if
 (
 !
+IPCAccessibilityActive
+(
+)
+|
+|
+!
 StaticPrefs
 :
 :
