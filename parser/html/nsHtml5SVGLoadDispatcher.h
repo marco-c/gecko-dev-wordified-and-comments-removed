@@ -29,12 +29,14 @@ Runnable
 {
 private
 :
+const
 nsCOMPtr
 <
 nsIContent
 >
 mElement
 ;
+const
 RefPtr
 <
 mozilla
