@@ -3633,7 +3633,7 @@ scratch
 ;
 masm
 .
-branchTestPtr
+branchTest32
 (
 Assembler
 :
@@ -3705,7 +3705,7 @@ scratch
 ;
 masm
 .
-branchTestPtr
+branchTest32
 (
 Assembler
 :
@@ -3910,7 +3910,7 @@ scratch
 ;
 masm
 .
-branchTestPtr
+branchTest32
 (
 Assembler
 :
