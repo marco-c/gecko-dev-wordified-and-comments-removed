@@ -20387,12 +20387,6 @@ mTextRun
 ;
 RefPtr
 <
-nsPresContext
->
-mPresContext
-;
-RefPtr
-<
 DrawTarget
 >
 mDrawTarget
@@ -21010,12 +21004,6 @@ nullptr
 }
 CanvasBidiProcessor
 processor
-;
-processor
-.
-mPresContext
-=
-presContext
 ;
 processor
 .
