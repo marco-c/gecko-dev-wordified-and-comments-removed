@@ -798,6 +798,8 @@ vendor_command
 vendor
 (
         
+command_context
+        
 library
         
 manifest
