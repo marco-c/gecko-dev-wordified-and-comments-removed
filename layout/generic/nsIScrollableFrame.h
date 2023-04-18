@@ -783,9 +783,10 @@ enum
 class
 IncludeApzAnimation
 :
-bool
+uint8_t
 {
 No
+PendingAndRequestedOnly
 Yes
 }
 ;
