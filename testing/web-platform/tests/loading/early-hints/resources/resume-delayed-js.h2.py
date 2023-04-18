@@ -83,6 +83,21 @@ text
 plain
 "
 )
+        
+(
+"
+Access
+-
+Control
+-
+Allow
+-
+Origin
+"
+"
+*
+"
+)
     
 ]
     
