@@ -13369,9 +13369,12 @@ Instance
 :
 destroyBreakpointSite
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 uint32_t
 offset
 )
@@ -13390,7 +13393,7 @@ debug
 .
 destroyBreakpointSite
 (
-fop
+gcx
 this
 offset
 )

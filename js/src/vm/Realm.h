@@ -1588,9 +1588,12 @@ principals
 void
 destroy
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 ;
 void

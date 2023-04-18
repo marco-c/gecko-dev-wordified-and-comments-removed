@@ -1904,9 +1904,12 @@ static
 void
 OnZoneDestroyed
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-aFop
+aGcx
 JS
 :
 :

@@ -2674,9 +2674,12 @@ BaselineScript
 :
 Destroy
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 BaselineScript
 *
 script
@@ -2693,7 +2696,7 @@ hasPendingIonCompileTask
 )
 )
 ;
-fop
+gcx
 -
 >
 deleteUntracked
@@ -4987,9 +4990,12 @@ jit
 :
 FinishDiscardBaselineScript
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSScript
 *
 script
@@ -5035,7 +5041,7 @@ jitScript
 >
 clearBaselineScript
 (
-fop
+gcx
 script
 )
 ;
@@ -5044,7 +5050,7 @@ BaselineScript
 :
 Destroy
 (
-fop
+gcx
 baseline
 )
 ;

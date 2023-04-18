@@ -4726,9 +4726,12 @@ SharedPropMap
 :
 removeChild
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 SharedPropMap
 *
 child
@@ -4973,7 +4976,7 @@ clearHasChildrenSet
 (
 )
 ;
-fop
+gcx
 -
 >
 delete_
@@ -4994,9 +4997,12 @@ LinkedPropMap
 :
 purgeTable
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 {
 MOZ_ASSERT
@@ -5006,7 +5012,7 @@ hasTable
 )
 )
 ;
-fop
+gcx
 -
 >
 delete_

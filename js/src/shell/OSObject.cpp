@@ -2973,9 +2973,12 @@ static
 void
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj
@@ -3007,7 +3010,7 @@ rcFile
 (
 )
 ;
-fop
+gcx
 -
 >
 removeCellMemory
@@ -3034,7 +3037,7 @@ release
 )
 )
 {
-fop
+gcx
 -
 >
 deleteUntracked

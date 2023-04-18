@@ -393,9 +393,12 @@ JSObject
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 {
 js
@@ -498,7 +501,7 @@ clasp
 >
 doFinalize
 (
-fop
+gcx
 this
 )
 ;
@@ -555,7 +558,7 @@ capacity
 )
 )
 ;
-fop
+gcx
 -
 >
 free_
@@ -615,7 +618,7 @@ js
 HeapSlot
 )
 ;
-fop
+gcx
 -
 >
 free_

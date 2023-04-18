@@ -938,9 +938,12 @@ intl
 :
 RemoveICUCellMemory
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj
@@ -948,7 +951,7 @@ size_t
 nbytes
 )
 {
-fop
+gcx
 -
 >
 removeCellMemory

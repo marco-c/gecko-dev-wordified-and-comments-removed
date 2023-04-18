@@ -735,9 +735,12 @@ public
 void
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-aFop
+aGcx
 JSObject
 *
 aProxy

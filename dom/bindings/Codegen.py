@@ -12410,7 +12410,7 @@ finalizeHook
 (
 descriptor
 hookName
-freeOp
+gcx
 obj
 )
 :
@@ -12768,7 +12768,7 @@ n
 "
 %
 (
-freeOp
+gcx
 obj
 )
     
@@ -12899,11 +12899,14 @@ args
 Argument
 (
 "
-JSFreeOp
+JS
+:
+:
+GCContext
 *
 "
 "
-fop
+gcx
 "
 )
 Argument
@@ -93082,11 +93085,14 @@ args
 Argument
 (
 "
-JSFreeOp
+JS
+:
+:
+GCContext
 *
 "
 "
-fop
+gcx
 "
 )
 Argument

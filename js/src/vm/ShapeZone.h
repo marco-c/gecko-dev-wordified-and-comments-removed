@@ -940,9 +940,12 @@ zone
 void
 purgeShapeCaches
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 ;
 void

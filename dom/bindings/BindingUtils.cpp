@@ -15206,9 +15206,12 @@ true
 void
 FinalizeGlobal
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-aFreeOp
+aGcx
 JSObject
 *
 aObj

@@ -4269,9 +4269,12 @@ ArrayBufferObject
 :
 releaseData
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 {
 switch
@@ -4289,7 +4292,7 @@ break
 case
 MALLOCED
 :
-fop
+gcx
 -
 >
 free_
@@ -4345,7 +4348,7 @@ byteLength
 )
 )
 ;
-fop
+gcx
 -
 >
 removeCellMemory
@@ -4375,7 +4378,7 @@ dataPointer
 )
 )
 ;
-fop
+gcx
 -
 >
 removeCellMemory
@@ -7883,9 +7886,12 @@ ArrayBufferObject
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj
@@ -7903,7 +7909,7 @@ ArrayBufferObject
 .
 releaseData
 (
-fop
+gcx
 )
 ;
 }

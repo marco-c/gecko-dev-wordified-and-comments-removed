@@ -5951,9 +5951,12 @@ static
 void
 ExpandoObjectFinalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj

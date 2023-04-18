@@ -5160,9 +5160,12 @@ static
 void
 proxy_Finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj
@@ -5204,7 +5207,7 @@ handler
 >
 finalize
 (
-fop
+gcx
 obj
 )
 ;
@@ -5226,7 +5229,7 @@ usingInlineValueArray
 )
 )
 {
-fop
+gcx
 -
 >
 freeUntracked

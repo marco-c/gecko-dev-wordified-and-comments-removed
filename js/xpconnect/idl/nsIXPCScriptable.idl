@@ -80,9 +80,12 @@ Value
 ptr
 ]
 native
-JSFreeOpPtr
+JSGCContextPtr
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 )
 ;
 [
@@ -348,8 +351,8 @@ in
 nsIXPConnectWrappedNative
 wrapper
 in
-JSFreeOpPtr
-fop
+JSGCContextPtr
+gcx
 in
 JSObjectPtr
 obj

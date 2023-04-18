@@ -2354,9 +2354,12 @@ prepareForCompacting
 (
 )
 {
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 =
 runtimeFromMainThread
 (
@@ -2369,7 +2372,7 @@ defaultFreeOp
 ;
 discardJitCode
 (
-fop
+gcx
 )
 ;
 }

@@ -535,9 +535,12 @@ Finalize
 nsIXPConnectWrappedNative
 *
 wrapper
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj

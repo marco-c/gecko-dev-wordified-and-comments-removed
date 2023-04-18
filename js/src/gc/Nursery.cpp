@@ -9867,7 +9867,7 @@ sweepMapAndSetObjects
 )
 {
 auto
-fop
+gcx
 =
 runtime
 (
@@ -9891,7 +9891,7 @@ MapObject
 :
 sweepAfterMinorGC
 (
-fop
+gcx
 mapobj
 )
 ;
@@ -9915,7 +9915,7 @@ SetObject
 :
 sweepAfterMinorGC
 (
-fop
+gcx
 setobj
 )
 ;

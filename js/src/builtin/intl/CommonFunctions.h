@@ -380,9 +380,12 @@ nbytes
 void
 RemoveICUCellMemory
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj

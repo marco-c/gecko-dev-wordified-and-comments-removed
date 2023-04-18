@@ -303,9 +303,12 @@ toPrivate
 void
 Finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 objSelf

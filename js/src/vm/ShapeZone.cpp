@@ -667,9 +667,12 @@ ShapeZone
 :
 purgeShapeCaches
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 {
 for
@@ -689,7 +692,7 @@ shape
 >
 purgeCache
 (
-fop
+gcx
 )
 ;
 }

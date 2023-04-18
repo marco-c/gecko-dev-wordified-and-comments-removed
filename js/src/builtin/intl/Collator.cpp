@@ -723,9 +723,12 @@ CollatorObject
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj
@@ -733,7 +736,7 @@ obj
 {
 MOZ_ASSERT
 (
-fop
+gcx
 -
 >
 onMainThread
@@ -773,7 +776,7 @@ intl
 :
 RemoveICUCellMemory
 (
-fop
+gcx
 obj
 CollatorObject
 :

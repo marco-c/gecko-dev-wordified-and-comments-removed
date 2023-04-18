@@ -479,7 +479,6 @@ TraceKind
 :
 Symbol
 ;
-inline
 void
 traceChildren
 (
@@ -502,12 +501,15 @@ description
 )
 ;
 }
-inline
 void
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
+gcx
 )
 {
 }

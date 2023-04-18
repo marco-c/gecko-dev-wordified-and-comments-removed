@@ -5784,9 +5784,12 @@ ArgumentsObject
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj
@@ -5824,7 +5827,7 @@ data
 )
 )
 {
-fop
+gcx
 -
 >
 free_
@@ -5853,7 +5856,7 @@ MemoryUse
 RareArgumentsData
 )
 ;
-fop
+gcx
 -
 >
 free_

@@ -234,9 +234,12 @@ static
 void
 FinalizeCallback
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSFinalizeStatus
 status
 void
@@ -264,7 +267,7 @@ gc
 :
 IsMarkedUnbarriered
 (
-fop
+gcx
 -
 >
 runtime

@@ -9907,9 +9907,12 @@ CycleCollectedJSRuntime
 :
 OnZoneDestroyed
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-aFop
+aGcx
 JS
 :
 :

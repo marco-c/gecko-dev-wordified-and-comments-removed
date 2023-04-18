@@ -4462,9 +4462,12 @@ ProxyHandler
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 proxy
@@ -4494,7 +4497,7 @@ hasBindings
 )
 )
 {
-fop
+gcx
 -
 >
 delete_
@@ -4913,9 +4916,12 @@ ModuleObject
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj
@@ -4946,7 +4952,7 @@ hasImportBindings
 )
 )
 {
-fop
+gcx
 -
 >
 delete_
@@ -4981,7 +4987,7 @@ self
 )
 )
 {
-fop
+gcx
 -
 >
 deleteUntracked

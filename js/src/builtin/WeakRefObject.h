@@ -130,9 +130,12 @@ static
 void
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-op
+gcx
 JSObject
 *
 obj

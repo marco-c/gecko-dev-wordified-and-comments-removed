@@ -5994,9 +5994,12 @@ PropertyIteratorObject
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj
@@ -6023,7 +6026,7 @@ getNativeIterator
 )
 )
 {
-fop
+gcx
 -
 >
 free_

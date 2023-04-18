@@ -527,9 +527,12 @@ js
 :
 ReleaseAllJITCode
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 {
 js
@@ -537,7 +540,7 @@ js
 :
 CancelOffThreadIonCompile
 (
-fop
+gcx
 -
 >
 runtime
@@ -550,7 +553,7 @@ for
 ZonesIter
 zone
 (
-fop
+gcx
 -
 >
 runtime
@@ -586,7 +589,7 @@ zone
 >
 discardJitCode
 (
-fop
+gcx
 )
 ;
 }
@@ -595,7 +598,7 @@ for
 RealmsIter
 realm
 (
-fop
+gcx
 -
 >
 runtime
