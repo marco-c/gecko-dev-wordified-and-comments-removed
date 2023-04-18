@@ -69,11 +69,9 @@ waitFor
 )
 =
 >
-findMessages
+findAllMessages
 (
 hud
-"
-"
 )
 .
 length
@@ -88,11 +86,9 @@ first
 second
 ]
 =
-findMessages
+findAllMessages
 (
 hud
-"
-"
 )
 .
 map

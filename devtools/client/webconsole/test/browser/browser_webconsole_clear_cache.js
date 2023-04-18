@@ -192,11 +192,9 @@ waitFor
 )
 =
 >
-findMessages
+findAllMessages
 (
 hud
-"
-"
 )
 .
 length

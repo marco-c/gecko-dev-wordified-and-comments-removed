@@ -304,11 +304,9 @@ displayed
 const
 messages
 =
-findMessages
+findAllMessages
 (
 hud
-"
-"
 )
 ;
 is
