@@ -858,13 +858,6 @@ platform_dir
 )
 return
 platform_dir
-add_old_configure_assignment
-(
-"
-android_platform
-"
-android_platform
-)
 set_config
 (
 "
