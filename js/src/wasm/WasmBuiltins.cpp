@@ -7717,12 +7717,6 @@ case
 SymbolicAddress
 :
 :
-HandleDebugTrap
-:
-case
-SymbolicAddress
-:
-:
 HandleThrow
 :
 case
@@ -7734,6 +7728,12 @@ HandleTrap
 return
 false
 ;
+case
+SymbolicAddress
+:
+:
+HandleDebugTrap
+:
 case
 SymbolicAddress
 :
