@@ -6387,6 +6387,16 @@ Register
 dest
 )
 ;
+inline
+void
+loadFunctionArgCount
+(
+Register
+func
+Register
+output
+)
+;
 void
 loadFunctionLength
 (
