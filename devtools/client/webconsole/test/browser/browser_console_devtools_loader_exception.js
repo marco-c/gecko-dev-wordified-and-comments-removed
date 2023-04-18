@@ -404,6 +404,9 @@ targetCommand
 .
 unwatchTargets
 (
+{
+types
+:
 [
 targetCommand
 .
@@ -412,6 +415,7 @@ TYPES
 FRAME
 ]
 onAvailable
+}
 )
 ;
 resolve
@@ -425,6 +429,9 @@ targetCommand
 .
 watchTargets
 (
+{
+types
+:
 [
 targetCommand
 .
@@ -433,6 +440,7 @@ TYPES
 FRAME
 ]
 onAvailable
+}
 )
 ;
 }
