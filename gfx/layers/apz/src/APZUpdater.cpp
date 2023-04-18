@@ -2014,6 +2014,10 @@ move
 (
 task
 )
+nsIThread
+:
+:
+DISPATCH_NORMAL
 )
 )
 ;

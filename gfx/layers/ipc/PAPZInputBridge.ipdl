@@ -168,10 +168,6 @@ LayersTypes
 h
 "
 ;
-include
-protocol
-PGPU
-;
 namespace
 mozilla
 {
@@ -185,9 +181,6 @@ sync
 protocol
 PAPZInputBridge
 {
-manager
-PGPU
-;
 parent
 :
 sync
@@ -316,11 +309,6 @@ uint64_t
 aOutFocusSequenceNumber
 LayersId
 aOutLayersId
-)
-;
-async
-__delete__
-(
 )
 ;
 }

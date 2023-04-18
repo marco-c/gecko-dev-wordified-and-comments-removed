@@ -225,6 +225,8 @@ Runnable
 &
 &
 aTask
+uint32_t
+flags
 )
 {
 RefPtr
@@ -315,6 +317,7 @@ task
 forget
 (
 )
+flags
 )
 ;
 }

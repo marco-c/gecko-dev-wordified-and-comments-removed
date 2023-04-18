@@ -4709,7 +4709,7 @@ aTargets
 mApzUpdater
 -
 >
-RunOnControllerThread
+RunOnUpdaterThread
 (
 aLayersId
 task

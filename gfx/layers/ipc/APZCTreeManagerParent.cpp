@@ -217,7 +217,7 @@ aKeyboardMap
 mUpdater
 -
 >
-RunOnControllerThread
+RunOnUpdaterThread
 (
 mLayersId
 NewRunnableMethod
@@ -295,7 +295,7 @@ this
 mUpdater
 -
 >
-RunOnControllerThread
+RunOnUpdaterThread
 (
 aGuid
 .
@@ -359,7 +359,7 @@ aPreventDefault
 mUpdater
 -
 >
-RunOnControllerThread
+RunOnUpdaterThread
 (
 mLayersId
 NewRunnableMethod
@@ -422,7 +422,7 @@ aTargets
 mUpdater
 -
 >
-RunOnControllerThread
+RunOnUpdaterThread
 (
 mLayersId
 NewRunnableMethod
@@ -546,7 +546,7 @@ aDpiValue
 mUpdater
 -
 >
-RunOnControllerThread
+RunOnUpdaterThread
 (
 mLayersId
 NewRunnableMethod
@@ -607,7 +607,7 @@ aValues
 mUpdater
 -
 >
-RunOnControllerThread
+RunOnUpdaterThread
 (
 mLayersId
 NewRunnableMethod
@@ -695,7 +695,7 @@ this
 mUpdater
 -
 >
-RunOnControllerThread
+RunOnUpdaterThread
 (
 aGuid
 .
@@ -867,7 +867,7 @@ aLongTapEnabled
 mUpdater
 -
 >
-RunOnControllerThread
+RunOnUpdaterThread
 (
 mLayersId
 NewRunnableMethod
