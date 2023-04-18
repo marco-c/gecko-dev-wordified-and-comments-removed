@@ -445,16 +445,6 @@ mCodecSpecificConfig
 rhs
 .
 mCodecSpecificConfig
-&
-&
-*
-mExtraData
-=
-=
-*
-rhs
-.
-mExtraData
 )
 ;
 }
