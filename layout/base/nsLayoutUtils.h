@@ -2172,7 +2172,7 @@ nullptr
 )
 ;
 static
-MatrixScalesDouble
+MatrixScales
 GetTransformToAncestorScale
 (
 const
@@ -2182,7 +2182,7 @@ aFrame
 )
 ;
 static
-MatrixScalesDouble
+MatrixScales
 GetTransformToAncestorScaleExcludingAnimated
 (
 nsIFrame
