@@ -149,11 +149,6 @@ TimerThread
 (
 )
 ;
-nsresult
-InitLocks
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIRUNNABLE
 NS_DECL_NSIOBSERVER
