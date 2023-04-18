@@ -442,7 +442,7 @@ privacy
 .
 clearOnShutdown
 .
-session
+sessions
 "
 false
 )
