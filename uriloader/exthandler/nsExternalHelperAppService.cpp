@@ -8920,6 +8920,10 @@ nsIMIMEInfo
 :
 saveToDisk
 ;
+shouldAutomaticallyHandleInternally
+=
+false
+;
 }
 if
 (
