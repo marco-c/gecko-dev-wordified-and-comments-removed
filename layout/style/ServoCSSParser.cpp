@@ -255,9 +255,6 @@ float
 aSize
 )
 {
-float
-dummySize
-;
 return
 Servo_ParseFontShorthandForMatching
 (
@@ -273,11 +270,6 @@ aStretch
 &
 aWeight
 aSize
-?
-aSize
-:
-&
-dummySize
 )
 ;
 }
