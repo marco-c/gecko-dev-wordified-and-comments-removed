@@ -3980,6 +3980,9 @@ insecureContext
 :
 true
 }
+"
+NavigationPreloadManager
+"
 {
 name
 :
@@ -3999,9 +4002,9 @@ NetworkInformation
 insecureContext
 :
 true
-desktop
+disabled
 :
-false
+true
 }
 {
 name
