@@ -287,6 +287,20 @@ type
 string
 "
 }
+                        
+"
+owner
+"
+:
+{
+"
+type
+"
+:
+"
+string
+"
+}
                     
 }
                     
