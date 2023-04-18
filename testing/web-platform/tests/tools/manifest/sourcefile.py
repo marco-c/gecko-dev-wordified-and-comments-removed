@@ -585,6 +585,13 @@ module
 }
     
 "
+shadowrealm
+"
+:
+{
+}
+    
+"
 jsshell
 "
 :
