@@ -1451,6 +1451,10 @@ Derived
 friend
 DocAccessibleParent
 ;
+friend
+class
+xpcAccessible
+;
 nsTArray
 <
 Derived
