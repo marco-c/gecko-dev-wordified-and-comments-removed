@@ -186,7 +186,7 @@ APZUpdater
 &
 aUpdater
 const
-nsIntRegion
+LayerIntRegion
 *
 aVisibleRegions
 const
@@ -300,18 +300,12 @@ layer
 .
 SetVisibleRegion
 (
-LayerIntRegion
-:
-:
-FromUnknownRegion
-(
 aVisibleRegions
 [
 entry
 .
 mLayerIndex
 ]
-)
 )
 ;
 }
