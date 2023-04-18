@@ -135,6 +135,17 @@ test_xpcshell_flavor2
 js
 "
 )
+EXAMPLE_WPT_TEST
+=
+Path
+(
+EXAMPLE_TESTS_DIR
+"
+WPT_init_file
+.
+js
+"
+)
 BT_DATA
 =
 Path
