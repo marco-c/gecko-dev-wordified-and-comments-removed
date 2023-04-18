@@ -1016,6 +1016,12 @@ ConditionCmp_NLE
 ConditionCmp_ORD
 =
 0x7
+ConditionCmp_AVX_Enabled
+=
+0x8
+ConditionCmp_GE
+=
+0xD
 }
 ;
 enum
