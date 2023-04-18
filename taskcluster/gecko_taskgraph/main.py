@@ -2740,7 +2740,8 @@ params_name
 }
 "
             
-if
+base_missing
+=
 not
 os
 .
@@ -2750,6 +2751,24 @@ isfile
 (
 base_path
 )
+            
+cur_missing
+=
+not
+os
+.
+path
+.
+isfile
+(
+cur_path
+)
+            
+if
+base_missing
+!
+=
+cur_missing
 :
                 
 non_fatal_failures
