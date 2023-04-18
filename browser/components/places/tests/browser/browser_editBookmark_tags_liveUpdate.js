@@ -379,6 +379,7 @@ promiseNodeLikeFromFetchInfo
 bm
 )
 ;
+await
 gEditItemOverlay
 .
 initPanel
@@ -602,6 +603,7 @@ spec
 }
 )
 ;
+await
 gEditItemOverlay
 .
 initPanel
@@ -965,6 +967,7 @@ checkTagsSelector
 ]
 )
 ;
+await
 gEditItemOverlay
 .
 initPanel
@@ -1150,6 +1153,7 @@ checkTagsSelector
 ]
 )
 ;
+await
 gEditItemOverlay
 .
 initPanel

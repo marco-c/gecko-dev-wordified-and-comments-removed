@@ -1180,6 +1180,7 @@ true
 ;
 }
 ;
+await
 gEditItemOverlay
 .
 initPanel
