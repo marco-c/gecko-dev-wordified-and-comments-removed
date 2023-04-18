@@ -96,6 +96,11 @@ listeners
 js
 "
 "
+exceptions
+.
+js
+"
+"
 getCallStackFrames
 .
 js
