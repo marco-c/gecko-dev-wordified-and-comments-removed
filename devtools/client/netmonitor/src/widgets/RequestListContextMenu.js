@@ -1342,7 +1342,8 @@ const
 connector
 cloneRequest
 openDetailsPanelTab
-openDetailsHTTPCustomRequestTab
+openHTTPCustomRequestTab
+closeHTTPCustomRequestTab
 sendCustomRequest
 openStatistics
 openRequestInTab
@@ -1837,7 +1838,11 @@ openDetailsPanelTab
 }
 else
 {
-openDetailsHTTPCustomRequestTab
+closeHTTPCustomRequestTab
+(
+)
+;
+openHTTPCustomRequestTab
 (
 )
 ;

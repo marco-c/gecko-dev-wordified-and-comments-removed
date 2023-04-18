@@ -553,6 +553,9 @@ request
 }
 HTTPCustomRequestPanel
 (
+{
+connector
+}
 )
 )
 showSearchPanel
