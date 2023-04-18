@@ -2443,12 +2443,6 @@ rerun
 "
 ]
     
-all_skipped
-=
-test_status
-.
-all_skipped
-    
 logger
 .
 _state
@@ -2489,15 +2483,16 @@ slow
 process_results
 (
 log
-iterations
+test_status
+.
+repeated_runs
 )
     
 return
+test_status
 results
 inconsistent
 slow
-iterations
-all_skipped
 def
 get_steps
 (
@@ -3006,11 +3001,10 @@ info
 '
 )
         
+test_status
 results
 inconsistent
 slow
-iterations
-all_skipped
 =
 step_func
 (
@@ -3018,6 +3012,18 @@ step_func
 *
 kwargs
 )
+        
+iterations
+=
+test_status
+.
+repeated_runs
+        
+all_skipped
+=
+test_status
+.
+all_skipped
         
 logger
 .
