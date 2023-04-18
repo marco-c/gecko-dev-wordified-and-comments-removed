@@ -2291,11 +2291,6 @@ join
 (
 yaml
 )
-+
-"
-\
-n
-"
 )
 .
 encode
