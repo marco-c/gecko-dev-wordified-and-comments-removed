@@ -2934,7 +2934,7 @@ string
 extension
 "
 "
-service
+locale
 "
 .
 .
