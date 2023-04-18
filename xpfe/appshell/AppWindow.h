@@ -534,13 +534,13 @@ using
 nsIBaseWindow
 :
 :
-GetSize
+GetPositionAndSize
 ;
 using
 nsIBaseWindow
 :
 :
-GetPositionAndSize
+GetSize
 ;
 nsresult
 Initialize
