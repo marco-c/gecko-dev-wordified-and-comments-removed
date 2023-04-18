@@ -4443,24 +4443,6 @@ in
 variant
 :
                     
-context
-=
-{
-"
-task
-"
-:
-task
-"
-mobile
-"
-:
-get_mobile_project
-(
-task
-)
-}
-                    
 if
 not
 jsone
@@ -4473,7 +4455,13 @@ variant
 when
 "
 ]
-context
+{
+"
+task
+"
+:
+task
+}
 )
 :
                         
