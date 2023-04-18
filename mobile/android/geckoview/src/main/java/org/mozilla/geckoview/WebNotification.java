@@ -422,7 +422,8 @@ dest
 .
 writeString
 (
-null
+"
+"
 )
 ;
 }
