@@ -25,7 +25,7 @@ compile
 patch
 "
 "
-find_symbolizer_linux_clang_10
+find_symbolizer_linux_clang_15
 .
 patch
 "
