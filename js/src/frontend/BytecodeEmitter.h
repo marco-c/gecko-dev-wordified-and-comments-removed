@@ -4086,14 +4086,6 @@ ValueUsage
 WantValue
 )
 ;
-bool
-isOptimizableSpreadArgument
-(
-ParseNode
-*
-expr
-)
-;
 [
 [
 nodiscard
