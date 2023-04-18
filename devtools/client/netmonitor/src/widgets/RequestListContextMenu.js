@@ -41,6 +41,7 @@ formDataURI
 getUrlQuery
 getUrlBaseName
 parseQueryString
+getRequestHeadersRawText
 }
 =
 require
@@ -954,7 +955,7 @@ this
 copyRequestHeaders
 (
 id
-requestHeaders
+clickedRequest
 )
 }
 )
@@ -3395,7 +3396,12 @@ async
 copyRequestHeaders
 (
 id
+{
+method
+httpVersion
 requestHeaders
+urlDetails
+}
 )
 {
 requestHeaders
@@ -3423,12 +3429,12 @@ requestHeaders
 let
 rawHeaders
 =
-requestHeaders
-.
-rawHeaders
-.
-trim
+getRequestHeadersRawText
 (
+method
+httpVersion
+requestHeaders
+urlDetails
 )
 ;
 if
