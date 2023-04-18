@@ -8940,6 +8940,7 @@ atomsTable
 >
 startIncrementalSweep
 (
+maybeAtoms
 )
 )
 {
@@ -8958,17 +8959,7 @@ traceWeak
 trc
 )
 ;
-return
-;
 }
-maybeAtoms
-.
-emplace
-(
-*
-atomsTable
-)
-;
 }
 IncrementalProgress
 GCRuntime
