@@ -6912,7 +6912,7 @@ NS_SUCCEEDED
 rv
 )
 "
-HTMLEditor
+EditorBase
 :
 :
 CollapseSelectionTo
