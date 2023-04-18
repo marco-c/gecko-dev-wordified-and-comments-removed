@@ -237,6 +237,17 @@ mozilla
 /
 no
 -
+addtask
+-
+setup
+eslint
+-
+plugin
+-
+mozilla
+/
+no
+-
 compare
 -
 against
