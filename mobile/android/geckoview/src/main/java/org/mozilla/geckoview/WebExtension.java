@@ -8,13 +8,6 @@ geckoview
 import
 android
 .
-annotation
-.
-SuppressLint
-;
-import
-android
-.
 graphics
 .
 Color
@@ -4247,12 +4240,6 @@ null
 return
 ;
 }
-SuppressLint
-(
-"
-WrongThread
-"
-)
 final
 GeckoResult
 <
@@ -7364,6 +7351,7 @@ return
 }
 }
 NonNull
+UiThread
 static
 GeckoBundle
 downloadInfoToBundle

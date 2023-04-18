@@ -2930,7 +2930,6 @@ void
 dispatchDraw
 (
 final
-Nullable
 Canvas
 canvas
 )

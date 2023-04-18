@@ -4821,15 +4821,9 @@ mozbuild
 /
 jdk
 /
-jdk
+jdk8u312
 -
-17
-.
-0
-.
-1
-+
-12
+b07
 /
 bin
 "

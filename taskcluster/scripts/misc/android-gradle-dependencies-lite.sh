@@ -31,11 +31,7 @@ Nexus
 export
 PATH
 =
-MOZ_FETCHES_DIR
-/
-jdk
--
-8
+JAVA_HOME
 /
 bin
 :

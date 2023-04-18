@@ -429,9 +429,7 @@ BlockingData
 {
 category
 =
-Event
-.
-BLOCKED_TRACKING_CONTENT
+0
 ;
 blocked
 =
