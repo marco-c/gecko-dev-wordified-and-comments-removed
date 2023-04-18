@@ -1088,18 +1088,6 @@ xml
             
 "
 -
--
-symbols
--
-path
-"
-            
-self
-.
-symbols_path
-            
-"
--
 vv
 "
         
