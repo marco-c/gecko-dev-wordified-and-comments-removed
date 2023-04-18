@@ -264,12 +264,6 @@ MFTEncoder
 aEncoder
 )
 ;
-void
-FillConfigData
-(
-)
-{
-}
 RefPtr
 <
 EncodePromise
