@@ -579,6 +579,9 @@ nsIInputStream
 aBodyStream
 )
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 void
 RecordMayNotDeleteCSCP
 (
@@ -586,6 +589,15 @@ int32_t
 aCacheStreamControlParentId
 )
 ;
+void
+RecordHaveDeletedCSCP
+(
+int32_t
+aCacheStreamControlParentId
+)
+;
+#
+endif
 private
 :
 class
