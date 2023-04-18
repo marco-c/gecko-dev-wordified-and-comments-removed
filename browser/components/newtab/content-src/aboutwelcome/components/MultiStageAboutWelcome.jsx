@@ -1948,6 +1948,9 @@ event
 currentTarget
 .
 value
+event
+.
+name
 )
 ;
 let

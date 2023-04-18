@@ -182,6 +182,11 @@ value
 :
 autoAdvance
 }
+name
+:
+"
+AUTO_ADVANCE
+"
 }
 )
 ;
