@@ -209,8 +209,6 @@ PeerConnectionObserver
 observer
 Window
 window
-nsISupports
-thread
 )
 ;
 /

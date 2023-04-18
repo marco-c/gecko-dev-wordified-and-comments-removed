@@ -2572,10 +2572,7 @@ TransceiverImpl
 :
 SyncWithMatchingVideoConduits
 (
-std
-:
-:
-vector
+nsTArray
 <
 RefPtr
 <

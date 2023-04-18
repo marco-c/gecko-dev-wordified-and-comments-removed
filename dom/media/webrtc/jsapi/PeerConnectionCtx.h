@@ -225,9 +225,6 @@ static
 nsresult
 InitializeGlobal
 (
-nsIThread
-*
-mainThread
 )
 ;
 static
@@ -556,11 +553,6 @@ gInstance
 ;
 public
 :
-static
-nsIThread
-*
-gMainThread
-;
 static
 mozilla
 :
