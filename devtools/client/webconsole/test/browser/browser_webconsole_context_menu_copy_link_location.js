@@ -272,8 +272,6 @@ frame
 link
 -
 source
--
-inner
 "
 )
 ;
