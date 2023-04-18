@@ -286,16 +286,6 @@ usize
 }
 #
 [
-allow
-(
-clippy
-:
-:
-unnecessary_wraps
-)
-]
-#
-[
 inline
 ]
 pub

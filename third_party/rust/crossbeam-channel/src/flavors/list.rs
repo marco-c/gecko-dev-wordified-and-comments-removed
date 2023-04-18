@@ -487,6 +487,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 ListToken
 {

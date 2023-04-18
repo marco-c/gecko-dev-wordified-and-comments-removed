@@ -111,6 +111,9 @@ waker
 Waker
 ;
 pub
+(
+crate
+)
 struct
 ZeroToken
 (
@@ -1985,16 +1988,6 @@ usize
 {
 0
 }
-#
-[
-allow
-(
-clippy
-:
-:
-unnecessary_wraps
-)
-]
 pub
 (
 crate
