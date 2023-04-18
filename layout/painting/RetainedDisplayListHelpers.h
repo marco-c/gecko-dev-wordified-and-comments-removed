@@ -778,7 +778,7 @@ mDirectPredecessorList
 ;
 }
 ;
-struct
+class
 RetainedDisplayListBuilder
 ;
 class
