@@ -2222,12 +2222,12 @@ pcWM
 )
 ;
 LogicalMargin
-pcBorder
+pcBorderPadding
 =
 aPlaceholderContainer
 -
 >
-GetLogicalUsedBorder
+GetLogicalUsedBorderAndPadding
 (
 pcWM
 )
@@ -2235,7 +2235,7 @@ pcWM
 alignAreaSize
 -
 =
-pcBorder
+pcBorderPadding
 .
 Size
 (
