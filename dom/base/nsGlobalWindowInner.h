@@ -2014,6 +2014,7 @@ SetReadyForFocus
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 PageHidden

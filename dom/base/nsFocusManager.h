@@ -649,7 +649,7 @@ bool
 aNeedsFocus
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 WindowHidden
 (
