@@ -24332,6 +24332,7 @@ return
 }
 auto
 *
+const
 details
 =
 HTMLDetailsElement
@@ -24376,6 +24377,7 @@ aParentFrame
 const
 nsFieldSetFrame
 *
+const
 fs
 =
 GetFieldSetFrameFor
@@ -24450,6 +24452,7 @@ IsForRenderedLegend
 const
 FrameConstructionData
 *
+const
 data
 =
 FindDataForContent
@@ -24479,13 +24482,10 @@ FCDATA_SUPPRESS_FRAME
 return
 ;
 }
+const
 bool
 isPopup
 =
-false
-;
-if
-(
 (
 data
 -
@@ -24509,10 +24509,12 @@ IsMenuFrame
 (
 )
 )
-)
-{
+;
 if
 (
+isPopup
+&
+&
 !
 aState
 .
@@ -24530,11 +24532,7 @@ mHavePendingPopupgroup
 return
 ;
 }
-isPopup
-=
-true
-;
-}
+const
 uint32_t
 bits
 =
@@ -24580,6 +24578,7 @@ TableColumn
 return
 ;
 }
+const
 bool
 canHavePageBreak
 =
@@ -24673,8 +24672,10 @@ Open
 )
 )
 {
+const
 auto
 *
+const
 summary
 =
 HTMLSummaryElement
@@ -24903,6 +24904,7 @@ false
 }
 else
 {
+const
 bool
 isInline
 =
