@@ -1362,12 +1362,6 @@ NS_ERROR_FAILURE
 mozilla
 :
 :
-nsAutoMicroTask
-mt
-;
-mozilla
-:
-:
 dom
 :
 :
@@ -3778,12 +3772,6 @@ ModuleRecord
 (
 )
 )
-;
-mozilla
-:
-:
-nsAutoMicroTask
-mt
 ;
 mozilla
 :
