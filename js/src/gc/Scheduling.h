@@ -947,12 +947,6 @@ inHighFrequencyGCMode_
 ;
 public
 :
-MainThreadOrGCTaskData
-<
-bool
->
-inPageLoad
-;
 GCSchedulingState
 (
 )
