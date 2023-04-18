@@ -83,12 +83,6 @@ aMimeType
 nullptr
 )
 ;
-mozilla
-:
-:
-Mutex
-mMutex
-;
 }
 ;
 #
