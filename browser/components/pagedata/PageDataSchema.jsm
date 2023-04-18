@@ -12,17 +12,6 @@ PageDataSchema
 "
 ]
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 const
 {
 XPCOMUtils

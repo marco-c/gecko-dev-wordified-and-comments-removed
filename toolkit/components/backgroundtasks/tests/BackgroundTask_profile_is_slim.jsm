@@ -12,17 +12,6 @@ runBackgroundTask
 "
 ]
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 const
 {
 EXIT_CODE
