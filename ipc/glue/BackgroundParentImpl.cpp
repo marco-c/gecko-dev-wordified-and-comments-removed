@@ -1043,10 +1043,6 @@ AssertIsInMainOrSocketProcess
 (
 )
 ;
-AssertIsOnMainThread
-(
-)
-;
 MOZ_COUNT_CTOR
 (
 mozilla

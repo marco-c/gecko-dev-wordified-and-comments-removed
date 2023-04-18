@@ -1703,7 +1703,7 @@ RecvInitBackground
 (
 Endpoint
 <
-PBackgroundParent
+PBackgroundStarterParent
 >
 &
 &
@@ -1733,7 +1733,7 @@ ipc
 BackgroundParent
 :
 :
-Alloc
+AllocStarter
 (
 nullptr
 std

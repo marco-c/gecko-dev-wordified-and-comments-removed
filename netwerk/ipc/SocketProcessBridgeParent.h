@@ -70,7 +70,7 @@ RecvInitBackground
 (
 Endpoint
 <
-PBackgroundParent
+PBackgroundStarterParent
 >
 &
 &

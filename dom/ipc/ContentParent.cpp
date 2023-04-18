@@ -19544,7 +19544,7 @@ RecvInitBackground
 (
 Endpoint
 <
-PBackgroundParent
+PBackgroundStarterParent
 >
 &
 &
@@ -19557,7 +19557,7 @@ if
 BackgroundParent
 :
 :
-Alloc
+AllocStarter
 (
 this
 std
