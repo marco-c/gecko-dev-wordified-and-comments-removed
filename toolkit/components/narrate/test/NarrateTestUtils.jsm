@@ -434,6 +434,9 @@ title
 =
 "
 Start
+(
+N
+)
 "
 "
 Button
@@ -547,6 +550,9 @@ title
 =
 "
 Stop
+(
+N
+)
 "
 "
 Button
