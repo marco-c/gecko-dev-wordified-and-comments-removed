@@ -3247,13 +3247,6 @@ DSO_LDOPTS
 =
 '
 '
-LDFLAGS
-=
-"
-LDFLAGS
--
-lobjc
-"
 dnl
 DTrace
 and
