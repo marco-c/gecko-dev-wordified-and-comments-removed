@@ -6351,12 +6351,6 @@ mPaintSuppressionTimer
 ;
 nsCOMPtr
 <
-nsITimer
->
-mDelayedPaintTimer
-;
-nsCOMPtr
-<
 nsIContent
 >
 mPointerEventTarget
