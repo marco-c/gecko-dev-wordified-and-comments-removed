@@ -77,13 +77,18 @@ window_handle
     
 other_top_level_context_id
 =
-current_session
+await
+bidi_session
 .
-new_window
+browsing_context
+.
+create
 (
+        
 type_hint
 =
 type_hint
+    
 )
     
 contexts
@@ -260,13 +265,18 @@ complete
     
 other_top_level_context_id
 =
-current_session
+await
+bidi_session
 .
-new_window
+browsing_context
+.
+create
 (
+        
 type_hint
 =
 type_hint
+    
 )
     
 contexts

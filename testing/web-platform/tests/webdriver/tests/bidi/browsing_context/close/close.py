@@ -30,20 +30,24 @@ def
 test_top_level_context
 (
 bidi_session
-current_session
 type_hint
 )
 :
     
 top_level_context_id
 =
-current_session
+await
+bidi_session
 .
-new_window
+browsing_context
+.
+create
 (
+        
 type_hint
 =
 type_hint
+    
 )
     
 contexts
