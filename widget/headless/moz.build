@@ -114,11 +114,6 @@ HeadlessLookAndFeelGTK
 .
 cpp
 "
-"
-HeadlessThemeGTK
-.
-cpp
-"
 ]
 if
 CONFIG
