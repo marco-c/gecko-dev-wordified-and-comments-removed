@@ -7400,7 +7400,7 @@ MOZ_ASSERT
 (
 lazyStubs_
 .
-lock
+readLock
 (
 )
 -
@@ -7675,7 +7675,7 @@ data
 ;
 lazyStubs_
 .
-lock
+readLock
 (
 )
 -
@@ -8943,7 +8943,7 @@ lazyStubs
 (
 )
 .
-lock
+readLock
 (
 )
 ;

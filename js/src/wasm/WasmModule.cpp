@@ -839,7 +839,7 @@ lazyStubs
 (
 )
 .
-lock
+readLock
 (
 )
 ;
@@ -853,7 +853,7 @@ lazyStubs
 (
 )
 .
-lock
+writeLock
 (
 )
 ;
