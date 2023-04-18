@@ -2516,10 +2516,6 @@ format
 }
 "
 x
-.
-to_string
-(
-)
 server_address
 .
 port
