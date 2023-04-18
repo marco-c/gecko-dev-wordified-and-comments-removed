@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setTimeout
 "
@@ -231,6 +237,8 @@ Promise
 resolve
 =
 >
+lazy
+.
 setTimeout
 (
 resolve
