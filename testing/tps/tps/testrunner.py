@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-division
-print_function
 import
 json
 import
@@ -19,9 +13,9 @@ time
 import
 traceback
 from
-mozhttpd
+wptserve
 import
-MozHttpd
+server
 import
 mozinfo
 from
@@ -2334,6 +2328,15 @@ tmplogfile
 write
 (
 logdata
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
             
 tmplogfile
@@ -3204,21 +3207,23 @@ testfile
         
 self
 .
-mozhttpd
+server
 =
-MozHttpd
+server
+.
+WebTestHttpd
 (
 port
 =
 4567
-docroot
+doc_root
 =
 testdir
 )
         
 self
 .
-mozhttpd
+server
 .
 start
 (
@@ -3408,7 +3413,7 @@ break
         
 self
 .
-mozhttpd
+server
 .
 stop
 (
