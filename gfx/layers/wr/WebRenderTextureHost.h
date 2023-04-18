@@ -187,6 +187,12 @@ return
 this
 ;
 }
+bool
+IsWrappingBufferTextureHost
+(
+)
+override
+;
 virtual
 void
 PrepareForUse

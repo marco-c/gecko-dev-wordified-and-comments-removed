@@ -265,6 +265,12 @@ NotifyNotUsed
 )
 override
 ;
+bool
+IsWrappingBufferTextureHost
+(
+)
+override
+;
 protected
 :
 GPUVideoTextureHost
