@@ -23,7 +23,7 @@ str
 FromStr
 ;
 use
-futures
+futures_util
 :
 :
 future
@@ -309,7 +309,7 @@ route
 seg
 |
 {
-log
+tracing
 :
 :
 trace
@@ -467,7 +467,7 @@ filter_segment
 seg
 |
 {
-log
+tracing
 :
 :
 trace
@@ -567,7 +567,6 @@ path
 =
 path_and_query
 (
-&
 route
 )
 ;
@@ -685,6 +684,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -745,7 +748,6 @@ path
 =
 path_and_query
 (
-&
 route
 )
 ;
@@ -885,6 +887,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -950,7 +956,6 @@ FullPath
 (
 path_and_query
 (
-&
 route
 )
 )
@@ -980,7 +985,6 @@ self
 &
 str
 {
-&
 self
 .
 0
@@ -1011,6 +1015,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -1321,6 +1329,23 @@ macro_rules
 !
 __internal_path
 {
+(
+start
+)
+=
+>
+(
+crate
+:
+:
+path
+:
+:
+end
+(
+)
+)
+;
 (
 start
 .

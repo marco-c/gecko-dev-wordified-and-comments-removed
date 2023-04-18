@@ -22,13 +22,13 @@ packed
 )
 ]
 struct
-Foo
+S
 {
 #
 [
 pin
 ]
-field
+f
 :
 u32
 }

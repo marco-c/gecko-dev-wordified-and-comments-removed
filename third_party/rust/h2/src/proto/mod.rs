@@ -36,9 +36,6 @@ Connection
 }
 ;
 pub
-(
-crate
-)
 use
 self
 :
@@ -46,7 +43,10 @@ self
 error
 :
 :
+{
 Error
+Initiator
+}
 ;
 pub
 (
@@ -91,6 +91,7 @@ streams
 :
 :
 {
+DynStreams
 OpaqueStreamRef
 StreamRef
 Streams
@@ -222,4 +223,14 @@ DEFAULT_RESET_STREAM_SECS
 u64
 =
 30
+;
+pub
+const
+DEFAULT_MAX_SEND_BUFFER_SIZE
+:
+usize
+=
+1024
+*
+400
 ;

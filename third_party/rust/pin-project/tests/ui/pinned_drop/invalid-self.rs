@@ -8,11 +8,11 @@ pin
 Pin
 ;
 struct
-Struct
+S
 {
 }
 impl
-Struct
+S
 {
 fn
 take_ref_self
@@ -49,7 +49,7 @@ fn
 self_subpat
 (
 self
-Struct
+S
 {
 }
 :

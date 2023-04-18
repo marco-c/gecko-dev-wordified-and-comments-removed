@@ -102,6 +102,17 @@ edition
 "
 2018
 "
+rust
+-
+version
+=
+"
+1
+.
+49
+.
+0
+"
 name
 =
 "
@@ -114,7 +125,7 @@ version
 .
 2
 .
-5
+7
 "
 authors
 =
@@ -153,6 +164,8 @@ com
 description
 =
 "
+"
+"
 A
 set
 of
@@ -164,8 +177,8 @@ requests
 and
 responses
 .
-\
-n
+"
+"
 "
 documentation
 =
@@ -207,7 +220,7 @@ license
 =
 "
 MIT
-/
+OR
 Apache
 -
 2
@@ -358,10 +371,6 @@ itoa
 version
 =
 "
-0
-.
-4
-.
 1
 "
 [

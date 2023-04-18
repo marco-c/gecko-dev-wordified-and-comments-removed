@@ -41,7 +41,7 @@ client_connect_uri_argument
 let
 connector
 =
-tower_util
+tower
 :
 :
 service_fn

@@ -6,7 +6,7 @@ E0412
 cannot
 find
 type
-__Foo
+__S
 in
 this
 scope
@@ -32,7 +32,7 @@ rs
 impl
 Unpin
 for
-__Foo
+__S
 {
 }
 /
@@ -42,8 +42,6 @@ ERROR
 E0412
 E0321
 |
-^
-^
 ^
 ^
 ^
@@ -104,7 +102,7 @@ rs
 impl
 Unpin
 for
-__Foo
+__S
 {
 }
 /
@@ -114,8 +112,6 @@ ERROR
 E0412
 E0321
 |
-^
-^
 ^
 ^
 ^

@@ -36,10 +36,6 @@ warp
 :
 Filter
 ;
-extern
-crate
-listenfd
-;
 #
 [
 tokio

@@ -24,6 +24,8 @@ BufMut
 [
 derive
 (
+Copy
+Clone
 Debug
 Eq
 PartialEq
@@ -188,7 +190,7 @@ mut
 B
 )
 {
-log
+tracing
 :
 :
 trace

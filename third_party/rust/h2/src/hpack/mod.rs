@@ -11,6 +11,10 @@ crate
 mod
 header
 ;
+pub
+(
+crate
+)
 mod
 huffman
 ;
@@ -49,12 +53,7 @@ self
 encoder
 :
 :
-{
-Encode
-EncodeState
 Encoder
-EncoderError
-}
 ;
 pub
 use

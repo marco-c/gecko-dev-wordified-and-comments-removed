@@ -29,7 +29,7 @@ Poll
 }
 ;
 use
-futures
+futures_util
 :
 :
 {
@@ -41,10 +41,7 @@ use
 pin_project
 :
 :
-{
 pin_project
-project
-}
 ;
 use
 super
@@ -317,6 +314,11 @@ PathIndex
 #
 [
 pin_project
+(
+project
+=
+StateProj
+)
 ]
 enum
 State
@@ -468,10 +470,6 @@ Error
 >
 >
 ;
-#
-[
-project
-]
 fn
 poll
 (
@@ -489,6 +487,10 @@ cx
 &
 mut
 Context
+<
+'
+_
+>
 )
 -
 >
@@ -515,10 +517,6 @@ project
 (
 )
 ;
-#
-[
-project
-]
 let
 (
 err1
@@ -534,7 +532,7 @@ project
 (
 )
 {
-State
+StateProj
 :
 :
 First
@@ -610,7 +608,7 @@ Internal
 )
 }
 }
-State
+StateProj
 :
 :
 Second
@@ -728,7 +726,7 @@ ex2
 )
 ;
 }
-State
+StateProj
 :
 :
 Done
