@@ -3310,6 +3310,26 @@ args
 page_cycles
 =
 2
+        
+args
+.
+extra_prefs
+.
+append
+(
+"
+dom
+.
+script_loader
+.
+bytecode_cache
+.
+strategy
+=
+-
+1
+"
+)
     
 if
 args

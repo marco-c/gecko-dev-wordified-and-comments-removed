@@ -1749,7 +1749,7 @@ browser_cycles
 1
 )
 )
-            
+             
 "
 -
 -
@@ -1760,6 +1760,31 @@ androidVideoWaitTime
             
 "
 10000
+"
+            
+"
+-
+-
+browsertime
+.
+chimera
+"
+            
+"
+true
+"
+if
+self
+.
+config
+[
+"
+chimera
+"
+]
+else
+"
+false
 "
         
 ]
