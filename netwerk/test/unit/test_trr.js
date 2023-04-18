@@ -5020,6 +5020,11 @@ test_ipv6_trr_fallback
 ;
 add_task
 (
+test_ipv4_trr_fallback
+)
+;
+add_task
+(
 test_no_retry_without_doh
 )
 ;
