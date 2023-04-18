@@ -517,7 +517,7 @@ mFrames
 class
 AudioBufferWriter
 :
-private
+public
 AudioBufferCursor
 {
 public
@@ -753,12 +753,12 @@ DataSource
 public
 :
 virtual
-UniquePtr
-<
-Chunk
->
+uint32_t
 PopFrames
 (
+AudioDataValue
+*
+aAudio
 uint32_t
 aFrames
 )
