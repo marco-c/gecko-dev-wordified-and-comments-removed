@@ -665,12 +665,6 @@ nsIFile
 >
 mCachedTempFile
 ;
-RefPtr
-<
-nsDataObj
->
-mKeepAlive
-;
 BOOL
 mIsAsyncMode
 ;
