@@ -3673,6 +3673,15 @@ Sampler
 .
 .
 }
+|
+TypeInner
+:
+:
+BindingArray
+{
+.
+.
+}
 =
 >
 {

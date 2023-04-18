@@ -1195,7 +1195,7 @@ else
 Tfc
 :
 :
-STORAGE
+SAMPLED_LINEAR
 |
 Tfc
 :
@@ -2846,8 +2846,8 @@ version
 at_least
 (
 (
-10
-13
+11
+0
 )
 (
 9
@@ -3959,6 +3959,11 @@ F
 :
 :
 TEXTURE_FORMAT_16BIT_NORM
+|
+F
+:
+:
+SHADER_FLOAT16
 ;
 features
 .

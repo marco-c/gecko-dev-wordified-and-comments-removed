@@ -96,6 +96,13 @@ pub
 register
 :
 u32
+pub
+binding_array_size
+:
+Option
+<
+u32
+>
 }
 pub
 type
@@ -613,6 +620,9 @@ register
 res_binding
 .
 binding
+binding_array_size
+:
+None
 }
 )
 None
