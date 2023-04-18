@@ -1010,12 +1010,6 @@ CC
 )
 AC_CHECK_PROGS
 (
-STRIP
-strip
-:
-)
-AC_CHECK_PROGS
-(
 OTOOL
 otool
 :
@@ -4186,12 +4180,6 @@ else
 TARGET_COMPILER_ABI
 =
 msvc
-STRIP
-=
-'
-echo
-not_strip
-'
 #
 aarch64
 doesn

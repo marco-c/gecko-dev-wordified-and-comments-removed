@@ -565,17 +565,6 @@ lipo
 )
 AC_CHECK_PROGS
 (
-STRIP
-"
-{
-TOOLCHAIN_PREFIX
-}
-strip
-"
-:
-)
-AC_CHECK_PROGS
-(
 OTOOL
 "
 {
