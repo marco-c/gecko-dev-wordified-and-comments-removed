@@ -5906,12 +5906,12 @@ GetPrivate
 ;
 if
 (
-ci
+dnsAndSock
 -
 >
-GetLessThanTls13
-(
-)
+mCaps
+&
+NS_HTTP_DISALLOW_ECH
 )
 {
 tmpFlags

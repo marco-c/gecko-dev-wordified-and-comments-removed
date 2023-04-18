@@ -407,6 +407,15 @@ NS_HTTP_DISALLOW_HTTPS_RR
 )
 #
 define
+NS_HTTP_DISALLOW_ECH
+(
+1
+<
+<
+25
+)
+#
+define
 NS_HTTP_TRR_FLAGS_FROM_MODE
 (
 x
