@@ -4083,6 +4083,9 @@ mFrameManager
 (
 nullptr
 )
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 mAllocatedPointers
 (
 MakeUnique
@@ -4096,6 +4099,8 @@ void
 (
 )
 )
+#
+endif
 mAutoWeakFrames
 (
 nullptr
