@@ -10,9 +10,9 @@ github
 .
 io
 /
-app
+navigation
 -
-history
+api
 /
 suggested_reviewers
 :
