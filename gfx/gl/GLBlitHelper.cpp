@@ -1628,6 +1628,8 @@ class
 ScopedBindArrayBuffer
 final
 {
+public
+:
 GLContext
 &
 mGL
@@ -1636,8 +1638,6 @@ const
 GLuint
 mOldVBO
 ;
-public
-:
 ScopedBindArrayBuffer
 (
 GLContext
@@ -2957,6 +2957,9 @@ GLvoid
 *
 vaa0Pointer
 ;
+GLuint
+vaa0Buffer
+;
 if
 (
 mParent
@@ -3082,6 +3085,12 @@ mParent
 mQuadVBO
 )
 ;
+vaa0Buffer
+=
+bindVBO
+.
+mOldVBO
+;
 gl
 -
 >
@@ -3149,6 +3158,14 @@ fDisableVertexAttribArray
 )
 ;
 }
+const
+ScopedBindArrayBuffer
+bindVBO
+(
+gl
+vaa0Buffer
+)
+;
 gl
 -
 >
