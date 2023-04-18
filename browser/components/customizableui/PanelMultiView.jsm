@@ -606,6 +606,9 @@ static
 hidePopup
 (
 panelNode
+animate
+=
+false
 )
 {
 let
@@ -634,6 +637,7 @@ panelMultiViewNode
 .
 hidePopup
 (
+animate
 )
 ;
 }
@@ -643,6 +647,7 @@ panelNode
 .
 hidePopup
 (
+animate
 )
 ;
 }
@@ -1717,6 +1722,9 @@ ex
 }
 hidePopup
 (
+animate
+=
+false
 )
 {
 if
@@ -1763,6 +1771,7 @@ _panel
 .
 hidePopup
 (
+animate
 )
 ;
 }
