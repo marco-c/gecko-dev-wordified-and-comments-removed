@@ -3064,13 +3064,14 @@ tlsPtr
 (
 )
 )
-offsetof
-(
 wasm
 :
 :
 TlsData
-memoryBase
+:
+:
+offsetOfMemoryBase
+(
 )
 )
 ToRegister

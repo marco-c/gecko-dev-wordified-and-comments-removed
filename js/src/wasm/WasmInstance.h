@@ -405,7 +405,7 @@ uint8_t
 tlsData_
 -
 >
-globalArea
+globalArea_
 ;
 }
 const

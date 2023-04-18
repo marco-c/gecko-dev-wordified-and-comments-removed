@@ -111,6 +111,8 @@ fp
 -
 >
 instance
+(
+)
 -
 >
 code
@@ -157,6 +159,8 @@ fp
 -
 >
 instance
+(
+)
 =
 =
 df
@@ -270,6 +274,8 @@ frame_
 -
 >
 instance
+(
+)
 ;
 }
 GlobalObject

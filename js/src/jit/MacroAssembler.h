@@ -16233,11 +16233,6 @@ Register
 dest
 )
 ;
-void
-loadWasmPinnedRegsFromTls
-(
-)
-;
 CodeOffset
 wasmCallImport
 (
