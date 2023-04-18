@@ -814,6 +814,12 @@ wl_container
 -
 >
 ready_to_draw
+&
+&
+wl_container
+-
+>
+surface
 )
 {
 initial_draw_cb
