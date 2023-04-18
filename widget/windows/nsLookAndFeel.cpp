@@ -2553,6 +2553,13 @@ WinUtils
 SystemScaleFactor
 (
 )
+/
+LookAndFeel
+:
+:
+GetTextScaleFactor
+(
+)
 ;
 float
 pixelHeight

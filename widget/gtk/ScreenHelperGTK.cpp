@@ -919,13 +919,6 @@ CSSToLayoutDeviceScale
 defaultCssScale
 (
 gdkScaleFactor
-*
-gfxPlatformGtk
-:
-:
-GetFontScaleFactor
-(
-)
 )
 ;
 float
@@ -1957,13 +1950,6 @@ monitor
 -
 >
 scale
-*
-gfxPlatformGtk
-:
-:
-GetFontScaleFactor
-(
-)
 )
 ;
 float

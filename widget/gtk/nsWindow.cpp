@@ -3153,13 +3153,6 @@ return
 FractionalScaleFactor
 (
 )
-*
-gfxPlatformGtk
-:
-:
-GetFontScaleFactor
-(
-)
 ;
 }
 DesktopToLayoutDeviceScale
