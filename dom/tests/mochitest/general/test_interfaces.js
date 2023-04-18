@@ -2489,9 +2489,6 @@ HTMLDialogElement
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
