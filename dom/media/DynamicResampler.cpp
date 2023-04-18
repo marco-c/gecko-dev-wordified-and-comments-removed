@@ -460,6 +460,17 @@ mChannels
 aChannels
 )
 {
+if
+(
+mResampler
+)
+{
+speex_resampler_destroy
+(
+mResampler
+)
+;
+}
 mResampler
 =
 speex_resampler_init
