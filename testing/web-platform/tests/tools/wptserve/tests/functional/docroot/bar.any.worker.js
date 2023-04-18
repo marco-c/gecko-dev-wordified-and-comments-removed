@@ -23,6 +23,16 @@ return
 true
 ;
 }
+isShadowRealm
+:
+function
+(
+)
+{
+return
+false
+;
+}
 }
 ;
 importScripts

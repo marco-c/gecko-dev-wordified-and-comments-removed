@@ -2291,11 +2291,13 @@ DedicatedWorkerTestEnvironment
 }
 if
 (
-'
-AbortController
-'
-in
 global_scope
+.
+GLOBAL
+.
+isShadowRealm
+(
+)
 )
 {
 return
