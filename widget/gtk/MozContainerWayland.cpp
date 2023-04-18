@@ -1702,6 +1702,12 @@ widget
 )
 )
 ;
+gtk_widget_set_mapped
+(
+widget
+TRUE
+)
+;
 if
 (
 wl_container
