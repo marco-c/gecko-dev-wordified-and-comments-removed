@@ -752,6 +752,11 @@ DynamicResampler
 h
 "
 "
+ExternalEngineStateMachine
+.
+h
+"
+"
 FileBlockCache
 .
 h
@@ -953,6 +958,11 @@ h
 "
 "
 QueueObject
+.
+h
+"
+"
+ReaderProxy
 .
 h
 "
@@ -1328,6 +1338,11 @@ cpp
 "
 "
 DynamicResampler
+.
+cpp
+"
+"
+ExternalEngineStateMachine
 .
 cpp
 "
