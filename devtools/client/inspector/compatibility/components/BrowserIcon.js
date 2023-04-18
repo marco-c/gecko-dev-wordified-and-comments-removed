@@ -324,8 +324,11 @@ title
 PropTypes
 .
 string
+name
+:
+PropTypes
 .
-isRequired
+string
 }
 ;
 }
@@ -336,6 +339,7 @@ render
 const
 {
 id
+name
 title
 }
 =
@@ -403,6 +407,9 @@ icon__image
 "
 alt
 :
+name
+|
+|
 title
 title
 src
