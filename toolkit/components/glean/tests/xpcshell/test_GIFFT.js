@@ -191,7 +191,7 @@ aScalarName
 undefined
 ;
 }
-add_task
+add_setup
 (
 function
 test_setup
