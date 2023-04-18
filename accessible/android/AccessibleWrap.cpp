@@ -1692,7 +1692,7 @@ RootAccessible
 )
 )
 ;
-TraversalRule
+ExploreByTouchRule
 rule
 ;
 Accessible
