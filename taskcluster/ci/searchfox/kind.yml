@@ -145,6 +145,11 @@ on
 projects
 :
 [
+'
+mozilla
+-
+central
+'
 ]
 optimization
 :
