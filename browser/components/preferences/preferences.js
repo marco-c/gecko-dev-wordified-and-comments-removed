@@ -175,7 +175,7 @@ js
 var
 {
 FxAccounts
-getFxAccountsSingleton
+fxAccounts
 }
 =
 ChromeUtils
@@ -195,13 +195,6 @@ FxAccounts
 .
 jsm
 "
-)
-;
-var
-fxAccounts
-=
-getFxAccountsSingleton
-(
 )
 ;
 XPCOMUtils

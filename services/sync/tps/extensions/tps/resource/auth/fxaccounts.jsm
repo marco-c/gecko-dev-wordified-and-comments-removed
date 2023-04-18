@@ -63,7 +63,7 @@ jsm
 ;
 const
 {
-getFxAccountsSingleton
+fxAccounts
 }
 =
 ChromeUtils
@@ -83,13 +83,6 @@ FxAccounts
 .
 jsm
 "
-)
-;
-const
-fxAccounts
-=
-getFxAccountsSingleton
-(
 )
 ;
 const

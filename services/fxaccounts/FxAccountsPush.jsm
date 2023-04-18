@@ -271,9 +271,9 @@ fxai
 }
 else
 {
-const
+let
 {
-getFxAccountsSingleton
+fxAccounts
 }
 =
 ChromeUtils
@@ -293,13 +293,6 @@ FxAccounts
 .
 jsm
 "
-)
-;
-const
-fxAccounts
-=
-getFxAccountsSingleton
-(
 )
 ;
 this
