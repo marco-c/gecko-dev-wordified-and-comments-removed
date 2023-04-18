@@ -1975,6 +1975,10 @@ ExternalImageKeyPair
 >
 &
 aPairs
+const
+bool
+&
+aFromCheckpoint
 )
 ;
 bool
