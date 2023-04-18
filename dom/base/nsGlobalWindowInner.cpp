@@ -2697,13 +2697,6 @@ nsIPrintSettingsService
 h
 "
 #
-include
-"
-nsIWebBrowserPrint
-.
-h
-"
-#
 endif
 #
 ifdef

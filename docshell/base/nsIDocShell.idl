@@ -339,9 +339,6 @@ interface
 nsIPrincipal
 ;
 interface
-nsIWebBrowserPrint
-;
-interface
 nsIPrivacyTransitionObserver
 ;
 interface

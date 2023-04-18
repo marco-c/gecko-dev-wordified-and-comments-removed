@@ -416,13 +416,6 @@ PrintingParent
 h
 "
 #
-include
-"
-nsIWebBrowserPrint
-.
-h
-"
-#
 endif
 using
 namespace

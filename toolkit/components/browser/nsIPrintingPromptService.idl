@@ -8,13 +8,6 @@ idl
 #
 include
 "
-nsIWebBrowserPrint
-.
-idl
-"
-#
-include
-"
 nsIWebProgressListener
 .
 idl
@@ -33,6 +26,9 @@ nsIObserver
 .
 idl
 "
+interface
+mozIDOMWindowProxy
+;
 [
 scriptable
 uuid

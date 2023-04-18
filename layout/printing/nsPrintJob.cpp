@@ -362,13 +362,6 @@ h
 #
 include
 "
-nsIWebBrowserPrint
-.
-h
-"
-#
-include
-"
 nsIPrintingPromptService
 .
 h
