@@ -1,4 +1,7 @@
 #
+define
+UNICODE
+#
 include
 "
 nsWindowsShellService
