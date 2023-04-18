@@ -8,11 +8,6 @@ NOT_LEAF
 "
 NotLeaf
 "
-DYNAMIC_LEAF
-=
-"
-DynamicLeaf
-"
 class
 FrameClass
 :

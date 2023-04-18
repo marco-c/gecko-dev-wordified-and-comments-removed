@@ -582,14 +582,6 @@ aContent
 )
 ;
 void
-GenerateChildFrames
-(
-nsContainerFrame
-*
-aFrame
-)
-;
-void
 NotifyDestroyingFrame
 (
 nsIFrame
