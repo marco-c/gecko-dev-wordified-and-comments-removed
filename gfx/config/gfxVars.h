@@ -566,6 +566,13 @@ WebRenderRequiresHardwareDriver
 bool
 false
 )
+\
+_
+(
+SupportsThreadsafeGL
+bool
+false
+)
 class
 gfxVars
 final

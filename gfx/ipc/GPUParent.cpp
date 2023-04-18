@@ -3639,14 +3639,14 @@ ShutdownVideoBridge
 (
 )
 ;
-CompositorThreadHolder
+CanvasManagerParent
 :
 :
 Shutdown
 (
 )
 ;
-CanvasManagerParent
+CompositorThreadHolder
 :
 :
 Shutdown
