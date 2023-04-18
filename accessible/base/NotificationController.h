@@ -1149,6 +1149,14 @@ aEvs
 private
 :
 void
+CoalesceHideEvent
+(
+AccHideEvent
+*
+aHideEvent
+)
+;
+void
 DropMutationEvent
 (
 AccTreeMutationEvent
