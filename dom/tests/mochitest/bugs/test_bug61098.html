@@ -267,11 +267,13 @@ registerMockPromptService
 )
 {
 var
+{
 XPCOMUtils
+}
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -289,8 +291,6 @@ XPCOMUtils
 jsm
 "
 )
-.
-XPCOMUtils
 ;
 var
 Ci

@@ -93,11 +93,13 @@ supported
 }
 ;
 var
+{
 Services
+}
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -115,8 +117,6 @@ Services
 jsm
 "
 )
-.
-Services
 ;
 function
 EventManager

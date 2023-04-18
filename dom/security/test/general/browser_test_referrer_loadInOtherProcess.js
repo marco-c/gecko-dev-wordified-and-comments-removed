@@ -387,7 +387,7 @@ E10SUtils
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (

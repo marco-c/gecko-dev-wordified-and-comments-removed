@@ -121,15 +121,12 @@ fingerprint
 {
 const
 {
-Cu
+IdpSandbox
 }
 =
 SpecialPowers
-;
-const
-rtcid
-=
-Cu
+.
+ChromeUtils
 .
 import
 (
@@ -154,8 +151,6 @@ const
 sandbox
 =
 new
-rtcid
-.
 IdpSandbox
 (
 '
