@@ -31549,9 +31549,9 @@ perspectiveDisplay
 >
 mChildPerspective
 .
-length
-.
-_0
+AsLength
+(
+)
 .
 ToCSSPixels
 (
