@@ -149,7 +149,7 @@ proton
 -
 bkg
 .
-jpg
+avif
 "
 screens
 :
