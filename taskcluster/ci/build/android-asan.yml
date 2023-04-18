@@ -563,10 +563,6 @@ linux64
 -
 clang
 -
-android
--
-cross
--
 linux64
 -
 sccache

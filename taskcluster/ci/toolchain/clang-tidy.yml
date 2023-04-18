@@ -421,10 +421,6 @@ clang
 -
 13
 -
-macosx
--
-cross
--
 macosx64
 -
 sdk
@@ -550,10 +546,6 @@ linux64
 clang
 -
 13
--
-macosx
--
-cross
 -
 macosx64
 -

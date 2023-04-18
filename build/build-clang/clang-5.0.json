@@ -43,15 +43,6 @@ build_wasm
 :
 false
 "
-wasi
--
-compiler
--
-rt
-"
-:
-null
-"
 patches
 "
 :

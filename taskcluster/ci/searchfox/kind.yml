@@ -468,10 +468,6 @@ linux64
 -
 clang
 -
-macosx
--
-cross
--
 linux64
 -
 hfsplus
@@ -751,10 +747,6 @@ binutils
 linux64
 -
 clang
--
-win
--
-cross
 -
 linux64
 -
