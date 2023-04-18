@@ -58,6 +58,11 @@ ReadableStreamGenericReader
 h
 "
 "
+ReadableStreamTee
+.
+h
+"
+"
 ReadRequest
 .
 h
@@ -94,6 +99,11 @@ cpp
 "
 "
 ReadableStreamDefaultReader
+.
+cpp
+"
+"
+ReadableStreamTee
 .
 cpp
 "
