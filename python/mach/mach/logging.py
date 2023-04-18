@@ -747,6 +747,21 @@ else
         
 )
         
+rv
+=
+elapsed_time
++
+self
+.
+_colorize
+(
+formatted_msg
+)
++
+self
+.
+_sgr0
+        
 formatted_stack_trace_result
 =
 formatted_stack_trace
@@ -762,21 +777,6 @@ formatted_stack_trace_result
 "
 "
 :
-            
-rv
-=
-elapsed_time
-+
-self
-.
-_colorize
-(
-formatted_msg
-)
-+
-self
-.
-sgr0
             
 stack_trace
 =
@@ -815,7 +815,7 @@ rv
 +
 self
 .
-sgr0
+_sgr0
     
 def
 _colorize
