@@ -957,7 +957,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aResourceURI
 const
