@@ -2039,16 +2039,6 @@ return
 mIsInAutomation
 ;
 }
-bool
-IsPrivilegedAddonGlobal
-(
-)
-const
-{
-return
-mIsPrivilegedAddonGlobal
-;
-}
 TimeStamp
 CreationTimeStamp
 (
