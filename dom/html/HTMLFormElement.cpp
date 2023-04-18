@@ -5037,8 +5037,9 @@ nsIContent
 aForm
 )
 {
-return
-;
+#
+if
+0
 if
 (
 !
@@ -5100,6 +5101,8 @@ correctly
 ;
 }
 }
+#
+endif
 }
 void
 HTMLFormElement
@@ -5122,8 +5125,9 @@ nsIContent
 aForm
 )
 {
-return
-;
+#
+if
+0
 if
 (
 !
@@ -5185,6 +5189,8 @@ correctly
 ;
 }
 }
+#
+endif
 }
 #
 endif
