@@ -737,6 +737,11 @@ helperResult
 .
 rawOutput
 ;
+let
+networkFront
+=
+null
+;
 const
 hasNetworkResourceCommandSupport
 =
@@ -754,11 +759,6 @@ TYPES
 .
 NETWORK_EVENT
 )
-;
-let
-networkFront
-=
-null
 ;
 if
 (
@@ -1190,9 +1190,6 @@ url
 ;
 if
 (
-hasNetworkResourceCommandSupport
-&
-&
 networkFront
 )
 {
@@ -1290,9 +1287,6 @@ url
 ;
 if
 (
-hasNetworkResourceCommandSupport
-&
-&
 networkFront
 )
 {
