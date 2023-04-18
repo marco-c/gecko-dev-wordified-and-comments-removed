@@ -1239,7 +1239,6 @@ offset
 _handleMagnifier
 (
 aEvent
-aReason
 )
 {
 if
@@ -1255,7 +1254,9 @@ dragcaret
 .
 includes
 (
-aReason
+aEvent
+.
+reason
 )
 )
 {
@@ -1263,7 +1264,9 @@ debug
 _handleMagnifier
 :
 {
-aReason
+aEvent
+.
+reason
 }
 ;
 const
@@ -1323,7 +1326,9 @@ _accessiblecaretHeight
 else
 if
 (
-aReason
+aEvent
+.
+reason
 =
 =
 "
@@ -1335,7 +1340,9 @@ debug
 _handleMagnifier
 :
 {
-aReason
+aEvent
+.
+reason
 }
 ;
 this
@@ -1539,7 +1546,6 @@ this
 _handleMagnifier
 (
 aEvent
-reason
 )
 ;
 }
