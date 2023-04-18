@@ -1026,10 +1026,14 @@ MAX_STYLE_STACK_SIZE
 1024
 ;
 static
+Atomic
+<
 int64_t
+>
 gCanvasAzureMemoryUsed
-=
+(
 0
+)
 ;
 class
 MOZ_RAII
