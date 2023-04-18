@@ -168,6 +168,12 @@ ia64
 64
     
 "
+loongarch64
+"
+:
+64
+    
+"
 m68k
 "
 :
@@ -472,6 +478,15 @@ __riscv_xlen
 =
 =
 64
+"
+)
+        
+(
+"
+loongarch64
+"
+"
+__loongarch64
 "
 )
         
