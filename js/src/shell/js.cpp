@@ -37382,6 +37382,7 @@ wasm
 :
 CompileAndSerialize
 (
+cx
 *
 bytecode
 &
