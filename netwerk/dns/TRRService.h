@@ -798,6 +798,14 @@ mTrigger
 nsCString
 mFailedLookups
 ;
+void
+SetState
+(
+enum
+ConfirmationState
+aNewState
+)
+;
 public
 :
 void
