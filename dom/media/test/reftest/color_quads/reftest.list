@@ -1275,10 +1275,6 @@ skip
 -
 if
 (
-!
-webrender
-|
-|
 Android
 )
 =
@@ -1647,10 +1643,6 @@ skip
 -
 if
 (
-!
-webrender
-|
-|
 Android
 )
 =
@@ -1899,13 +1891,6 @@ not
 all
 !
 )
-#
-!
-webrender
-does
-not
-support
-gbr
 skip
 -
 if
