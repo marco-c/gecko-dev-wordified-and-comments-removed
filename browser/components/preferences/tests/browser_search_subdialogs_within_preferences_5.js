@@ -109,7 +109,7 @@ Link
 Colors
 "
 "
-fontsGroup
+colorsGroup
 "
 )
 ;
