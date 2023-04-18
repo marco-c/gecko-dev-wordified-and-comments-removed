@@ -207,7 +207,6 @@ the
 data
 type
 .
-json
 {
 "
 url

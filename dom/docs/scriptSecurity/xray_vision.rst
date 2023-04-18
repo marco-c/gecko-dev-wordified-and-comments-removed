@@ -381,8 +381,7 @@ true
 code
 :
 :
-brush
-:
+JavaScript
 window
 .
 confirm
@@ -647,8 +646,7 @@ vision
 code
 :
 :
-brush
-:
+JavaScript
 /
 /
 chrome
@@ -860,8 +858,7 @@ property
 code
 :
 :
-brush
-:
+JavaScript
 /
 /
 chrome
@@ -907,8 +904,7 @@ implementation
 code
 :
 :
-brush
-:
+JavaScript
 /
 /
 chrome
@@ -1005,8 +1001,7 @@ waivedObject
 code
 :
 :
-brush
-:
+JavaScript
 var
 unwaived
 =
@@ -1399,8 +1394,7 @@ Xray
 code
 :
 :
-brush
-:
+JavaScript
 /
 /
 content
@@ -1440,8 +1434,7 @@ Date
 code
 :
 :
-brush
-:
+JavaScript
 /
 /
 chrome
@@ -1520,8 +1513,7 @@ redefinition
 code
 :
 :
-brush
-:
+JavaScript
 /
 /
 chrome
@@ -1734,8 +1726,7 @@ defines
 code
 :
 :
-brush
-:
+JavaScript
 /
 /
 chrome
@@ -2348,8 +2339,7 @@ article
 code
 :
 :
-brush
-:
+JavaScript
 /
 *
 The

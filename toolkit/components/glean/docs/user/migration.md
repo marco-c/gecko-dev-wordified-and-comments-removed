@@ -1204,7 +1204,6 @@ samples
 like
 this
 :
-json
 "
 GC_MS
 "
@@ -1594,7 +1593,6 @@ samples
 like
 this
 :
-json
 "
 MEMORY_TOTAL
 "
@@ -2074,7 +2072,6 @@ artisinal
 samples
 like
 :
-json
 "
 CHECKERBOARD_SEVERITY
 "
@@ -2619,7 +2616,6 @@ kind
 categorical
 like
 :
-json
 "
 AVIF_DECODE_RESULT
 "

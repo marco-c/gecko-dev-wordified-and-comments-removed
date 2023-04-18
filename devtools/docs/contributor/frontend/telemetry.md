@@ -546,7 +546,6 @@ DEVTOOLS_
 For
 example
 :
-json
 "
 DEVTOOLS_DOM_OPENED_COUNT
 "

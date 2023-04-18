@@ -9563,7 +9563,6 @@ code
 block
 :
 :
-xpidl
 interface
 nsIFoo
 :

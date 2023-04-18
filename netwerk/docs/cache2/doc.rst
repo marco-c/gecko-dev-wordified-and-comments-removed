@@ -3013,7 +3013,6 @@ __
 code
 :
 :
-bz_comment_text
 a
 b
 i1009

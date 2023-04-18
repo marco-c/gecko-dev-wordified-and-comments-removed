@@ -228,7 +228,7 @@ component
 .
 html
 )
-jsx
+javascript
 class
 Application
 extends
@@ -299,7 +299,7 @@ optimized
 in
 React
 .
-jsx
+javascript
 function
 Application
 (
@@ -617,7 +617,7 @@ the
 same
 component
 .
-jsx
+javascript
 ReactDOM
 .
 render
@@ -3910,7 +3910,7 @@ as
 a
 prop
 :
-jsx
+javascript
 render
 (
 )
