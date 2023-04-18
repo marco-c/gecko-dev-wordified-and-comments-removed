@@ -4021,6 +4021,10 @@ uint32_t
 aLoadType
 uint32_t
 aUpdatedCacheKey
+bool
+aUpdateLength
+=
+true
 )
 ;
 void

@@ -948,6 +948,15 @@ LoadingSessionHistoryInfo
 aInfo
 )
 ;
+explicit
+LoadingSessionHistoryInfo
+(
+const
+SessionHistoryInfo
+&
+aInfo
+)
+;
 already_AddRefed
 <
 nsDocShellLoadState
