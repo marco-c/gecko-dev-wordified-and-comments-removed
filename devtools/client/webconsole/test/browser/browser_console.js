@@ -1002,7 +1002,8 @@ nsIScriptError
 .
 warningFlag
 "
-Test
+chrome
+javascript
 "
 gBrowser
 .
