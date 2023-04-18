@@ -24850,7 +24850,7 @@ type
 bool
 value
 :
-IS_NOT_ANDROID
+false
 mirror
 :
 always
