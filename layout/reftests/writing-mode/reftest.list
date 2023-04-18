@@ -4678,15 +4678,8 @@ ref
 .
 html
 #
-test
-font
-doesn
-'
-t
-load
-reliably
-on
-win7
+bug
+1770273
 #
 Suite
 of
