@@ -66,6 +66,10 @@ close
 button
 =
 .
+title
+=
+Close
+.
 aria
 -
 label
@@ -147,6 +151,7 @@ QR
 code
 to
 download
+.
 spotlight
 -
 focus
