@@ -135,8 +135,6 @@ toolchain
 linux64
 -
 clang
--
-toolchain
 macosx64
 -
 llvm
@@ -170,8 +168,6 @@ toolchain
 macosx64
 -
 clang
--
-toolchain
 win64
 -
 llvm
@@ -205,5 +201,3 @@ toolchain
 win64
 -
 clang
--
-toolchain
