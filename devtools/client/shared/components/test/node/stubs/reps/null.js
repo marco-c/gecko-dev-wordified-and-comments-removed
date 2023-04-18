@@ -15,9 +15,7 @@ stubs
 .
 set
 (
-"
 Null
-"
 {
 type
 :
