@@ -589,6 +589,7 @@ xpcshell
 -
 tests
 :
+console
 .
 /
 mach
@@ -619,6 +620,7 @@ sequentially
 for
 debugging
 .
+console
 .
 /
 mach
@@ -638,6 +640,7 @@ a
 single
 tests
 :
+console
 .
 /
 mach
@@ -659,6 +662,7 @@ socket
 process
 enabled
 :
+console
 .
 /
 mach
@@ -705,6 +709,7 @@ when
 running
 tests
 :
+console
 MOZ_LOG
 =
 nsHttp
@@ -814,6 +819,7 @@ unit
 on
 try
 .
+console
 .
 /
 mach
@@ -831,6 +837,7 @@ test
 on
 try
 :
+console
 .
 /
 mach
@@ -859,6 +866,7 @@ with
 logging
 enabled
 :
+console
 .
 /
 mach
@@ -1490,6 +1498,7 @@ simple
 HTTP
 server
 :
+js
 let
 server
 =
@@ -1579,6 +1588,7 @@ the
 server
 certification
 .
+js
 let
 certdb
 =
@@ -1660,6 +1670,7 @@ would
 be
 like
 :
+js
 function
 makeChan
 (
@@ -1762,6 +1773,7 @@ put
 everything
 together
 :
+js
 add_task
 (
 async
