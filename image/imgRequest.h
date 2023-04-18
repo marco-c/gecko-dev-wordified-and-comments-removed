@@ -511,14 +511,6 @@ get
 )
 ;
 }
-void
-GetFileName
-(
-nsACString
-&
-aFileName
-)
-;
 int32_t
 Priority
 (
