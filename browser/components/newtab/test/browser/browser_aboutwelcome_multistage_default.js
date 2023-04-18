@@ -296,9 +296,11 @@ AW_STEP4
 order
 :
 3
-autoClose
+auto_advance
 :
-true
+"
+primary_button
+"
 content
 :
 {

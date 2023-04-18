@@ -588,14 +588,14 @@ props
 .
 totalNumberOfScreens
 }
-autoClose
+autoAdvance
 =
 {
 this
 .
 props
 .
-autoClose
+auto_advance
 }
 iconURL
 =
