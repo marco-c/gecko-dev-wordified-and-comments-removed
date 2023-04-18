@@ -3073,6 +3073,13 @@ uint64_t
 aMaxMessageSize
 )
 {
+ASSERT_WEBRTC
+(
+NS_IsMainThread
+(
+)
+)
+;
 MutexAutoLock
 lock
 (
@@ -8329,6 +8336,12 @@ auto
 dataItem
 )
 {
+mLock
+.
+AssertCurrentThreadOwns
+(
+)
+;
 const
 bool
 match
