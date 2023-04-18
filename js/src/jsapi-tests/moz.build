@@ -460,6 +460,11 @@ testReadableStream
 cpp
 "
 "
+testRecordTupleToSource
+.
+cpp
+"
+"
 testRegExp
 .
 cpp
