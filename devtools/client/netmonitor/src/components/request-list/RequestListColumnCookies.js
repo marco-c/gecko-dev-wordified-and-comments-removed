@@ -149,7 +149,7 @@ requestCookies
 )
 ;
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )

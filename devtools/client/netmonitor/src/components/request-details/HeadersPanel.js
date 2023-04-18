@@ -1160,7 +1160,7 @@ requestPostData
 )
 ;
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )

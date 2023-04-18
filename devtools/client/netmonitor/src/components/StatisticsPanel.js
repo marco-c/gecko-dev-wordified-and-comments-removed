@@ -560,7 +560,7 @@ this
 )
 ;
 }
-componentWillMount
+UNSAFE_componentWillMount
 (
 )
 {
@@ -616,7 +616,7 @@ responseHeaders
 )
 ;
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )

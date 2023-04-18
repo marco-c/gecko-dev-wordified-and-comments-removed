@@ -909,7 +909,7 @@ this
 ;
 }
 async
-componentWillMount
+UNSAFE_componentWillMount
 (
 )
 {

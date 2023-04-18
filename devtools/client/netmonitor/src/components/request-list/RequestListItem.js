@@ -1512,7 +1512,7 @@ responseHeaders
 ;
 }
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )

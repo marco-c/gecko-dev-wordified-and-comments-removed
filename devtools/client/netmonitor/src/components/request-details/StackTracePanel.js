@@ -197,7 +197,7 @@ stackTrace
 ;
 }
 }
-componentWillReceiveProps
+UNSAFE_componentWillReceiveProps
 (
 nextProps
 )
