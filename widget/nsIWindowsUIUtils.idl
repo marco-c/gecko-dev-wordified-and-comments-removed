@@ -13,6 +13,7 @@ imgIContainer
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 aa8a0ecf
@@ -82,11 +83,6 @@ readonly
 attribute
 boolean
 inTabletMode
-;
-void
-updateTabletModeState
-(
-)
 ;
 void
 shareUrl
