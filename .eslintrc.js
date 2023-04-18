@@ -931,17 +931,6 @@ test_origin
 js
 "
 "
-caps
-/
-tests
-/
-unit
-/
-test_site_origin
-.
-js
-"
-"
 chrome
 /
 test
