@@ -213,9 +213,6 @@ focus
 (
 )
 ;
-}
-)
-;
 window
 .
 requestIdleCallback
@@ -229,6 +226,9 @@ this
 initializeCategories
 (
 )
+)
+;
+}
 )
 ;
 }
