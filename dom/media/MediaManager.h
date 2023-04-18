@@ -1580,6 +1580,11 @@ DeviceListChanged
 (
 )
 ;
+void
+HandleDeviceListChanged
+(
+)
+;
 size_t
 AddTaskAndGetCount
 (
