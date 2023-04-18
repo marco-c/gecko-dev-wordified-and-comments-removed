@@ -57,15 +57,6 @@ plus
 "
 )
 ;
-jest
-.
-unmock
-(
-"
-lodash
-"
-)
-;
 import
 {
 filter
