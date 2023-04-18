@@ -11536,16 +11536,6 @@ Name
 name
 MutableHandleId
 id
-js
-:
-:
-PinningBehavior
-pin
-=
-js
-:
-:
-DoNotPinAtom
 )
 ;
 JS_PUBLIC_API

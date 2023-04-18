@@ -241,7 +241,6 @@ v
 toString
 (
 )
-DoNotPinAtom
 )
 ;
 if
