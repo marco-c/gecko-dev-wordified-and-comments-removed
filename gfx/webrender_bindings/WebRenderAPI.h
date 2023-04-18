@@ -2189,6 +2189,16 @@ aScrollOffset
 wr
 :
 :
+APZScrollGeneration
+aScrollOffsetGeneration
+wr
+:
+:
+HasScrollLinkedEffect
+aHasScrollLinkedEffect
+wr
+:
+:
 SpatialTreeItemKey
 aKey
 )

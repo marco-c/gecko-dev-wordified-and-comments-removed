@@ -14322,6 +14322,12 @@ LayoutRect
 scroll_offset
 :
 LayoutVector2D
+scroll_offset_generation
+:
+APZScrollGeneration
+has_scroll_linked_effect
+:
+HasScrollLinkedEffect
 key
 :
 SpatialTreeItemKey
@@ -14370,6 +14376,8 @@ pipeline_id
 content_rect
 clip_rect
 scroll_offset
+scroll_offset_generation
+has_scroll_linked_effect
 key
 )
 ;

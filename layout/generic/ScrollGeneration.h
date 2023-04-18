@@ -94,6 +94,16 @@ ScrollGeneration
 (
 )
 ;
+uint64_t
+Raw
+(
+)
+const
+{
+return
+mValue
+;
+}
 bool
 operator
 <

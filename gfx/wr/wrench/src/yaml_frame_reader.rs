@@ -12259,6 +12259,16 @@ external_id
 content_rect
 clip_rect
 external_scroll_offset
+APZScrollGeneration
+:
+:
+default
+(
+)
+HasScrollLinkedEffect
+:
+:
+No
 self
 .
 next_spatial_key

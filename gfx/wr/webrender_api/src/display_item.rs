@@ -33,6 +33,8 @@ crate
 :
 :
 {
+APZScrollGeneration
+HasScrollLinkedEffect
 PipelineId
 PropertyBinding
 }
@@ -1154,6 +1156,14 @@ pub
 external_scroll_offset
 :
 LayoutVector2D
+pub
+scroll_offset_generation
+:
+APZScrollGeneration
+pub
+has_scroll_linked_effect
+:
+HasScrollLinkedEffect
 pub
 key
 :
