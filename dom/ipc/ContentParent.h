@@ -6145,6 +6145,10 @@ const
 bool
 &
 aChannelExpired
+const
+uint32_t
+&
+aCacheKey
 )
 ;
 mozilla

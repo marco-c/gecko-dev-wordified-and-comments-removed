@@ -3203,6 +3203,8 @@ bool
 aPersist
 bool
 aExpired
+uint32_t
+aCacheKey
 )
 ;
 void
