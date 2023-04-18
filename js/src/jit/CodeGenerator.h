@@ -1149,10 +1149,8 @@ emitInstanceOf
 LInstruction
 *
 ins
-const
-LAllocation
-*
-prototypeObject
+Register
+protoReg
 )
 ;
 void
