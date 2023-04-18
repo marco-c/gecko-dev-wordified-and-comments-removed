@@ -429,26 +429,6 @@ topsrcdir
         
 self
 .
-exe_info_path
-=
-os
-.
-path
-.
-join
-(
-self
-.
-virtualenv_root
-"
-python_exe
-.
-txt
-"
-)
-        
-self
-.
 _site_name
 =
 site_name
