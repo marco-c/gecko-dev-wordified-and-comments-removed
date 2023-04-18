@@ -25072,6 +25072,15 @@ DoStartup
 (
 )
 ;
+#
+ifdef
+XP_WIN
+EnsureWin32kInitialized
+(
+)
+;
+#
+endif
 mozilla
 :
 :
