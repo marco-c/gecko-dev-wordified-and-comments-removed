@@ -519,6 +519,15 @@ TryToFlushPendingNotificationsToIME
 (
 )
 ;
+static
+bool
+IsKeyboardEventUserActivity
+(
+WidgetEvent
+*
+aEvent
+)
+;
 void
 RegisterAccessKey
 (

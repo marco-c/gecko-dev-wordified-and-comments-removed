@@ -2217,8 +2217,10 @@ aMessage
 eGamepadAxisMove
 ;
 }
-static
 bool
+EventStateManager
+:
+:
 IsKeyboardEventUserActivity
 (
 WidgetEvent
@@ -2468,6 +2470,9 @@ aKeyEvent
 {
 if
 (
+EventStateManager
+:
+:
 IsKeyboardEventUserActivity
 (
 aKeyEvent
