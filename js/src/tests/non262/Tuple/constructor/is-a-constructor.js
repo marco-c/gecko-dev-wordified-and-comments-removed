@@ -1,0 +1,15 @@
+assertEq
+(
+isConstructor
+(
+Tuple
+)
+true
+)
+;
+reportCompare
+(
+0
+0
+)
+;
