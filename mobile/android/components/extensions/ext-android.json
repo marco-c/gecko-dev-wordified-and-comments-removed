@@ -59,6 +59,9 @@ manifest
 "
 browser_action
 "
+"
+action
+"
 ]
 "
 paths
@@ -68,6 +71,11 @@ paths
 [
 "
 browserAction
+"
+]
+[
+"
+action
 "
 ]
 ]
