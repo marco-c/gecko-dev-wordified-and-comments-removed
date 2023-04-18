@@ -928,7 +928,7 @@ NS_WARNING_ASSERTION
 (
 splitNodeResult
 .
-Succeeded
+isOk
 (
 )
 "
@@ -942,10 +942,16 @@ failed
 "
 )
 ;
+splitNodeResult
+.
+IgnoreCaretPointSuggestion
+(
+)
+;
 return
 splitNodeResult
 .
-Rv
+unwrapErr
 (
 )
 ;
