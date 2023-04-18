@@ -114,8 +114,9 @@ README
 .
 md
 [
+!
 -
-f
+d
 .
 /
 spec
@@ -124,8 +125,8 @@ tests
 .
 patch
 ]
-&
-&
+|
+|
 (
 cd
 .
