@@ -294,11 +294,17 @@ org
 xhtml
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 clipboardHelper
 "
@@ -2328,6 +2334,8 @@ getFocusedItem
 (
 )
 ;
+lazy
+.
 clipboardHelper
 .
 copyString
