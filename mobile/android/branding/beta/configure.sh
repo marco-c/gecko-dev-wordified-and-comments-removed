@@ -68,5 +68,3 @@ mozilla
 firefox_beta
 MOZ_UPDATER
 =
-MOZ_ANDROID_ANR_REPORTER
-=
