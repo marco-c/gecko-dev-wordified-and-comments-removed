@@ -3013,9 +3013,6 @@ LoadingSessionHistoryInfo
 aInfo
 nsIChannel
 *
-aOldChannel
-nsIChannel
-*
 aNewChannel
 )
 {
@@ -3034,7 +3031,6 @@ newInfo
 =
 SessionHistoryInfo
 (
-aOldChannel
 aNewChannel
 aInfo
 -
