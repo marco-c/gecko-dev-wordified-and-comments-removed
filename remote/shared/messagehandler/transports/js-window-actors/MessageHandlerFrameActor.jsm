@@ -190,11 +190,8 @@ registered
 :
 false
 register
-:
 (
 )
-=
->
 {
 if
 (
