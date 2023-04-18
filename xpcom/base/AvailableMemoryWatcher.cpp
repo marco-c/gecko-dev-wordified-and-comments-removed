@@ -691,13 +691,6 @@ TimeStamp
 }
 #
 if
-defined
-(
-ANDROID
-)
-|
-|
-\
 !
 defined
 (
@@ -709,13 +702,6 @@ XP_WIN
 defined
 (
 XP_MACOSX
-)
-&
-&
-!
-defined
-(
-XP_LINUX
 )
 already_AddRefed
 <
