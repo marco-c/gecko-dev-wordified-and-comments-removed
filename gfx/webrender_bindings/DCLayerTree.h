@@ -1226,6 +1226,8 @@ mDecodeSwapChain
 ;
 HANDLE
 mSwapChainSurfaceHandle
+=
+0
 ;
 gfx
 :
