@@ -1830,8 +1830,17 @@ Element
 aEditingHost
 )
 ;
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+EditorDOMPoint
 nsresult
+>
 RemoveBlockContainerWithTransaction
 (
 Element
