@@ -1180,6 +1180,11 @@ const
 {
 if
 (
+mCachedFields
+)
+{
+if
+(
 auto
 value
 =
@@ -1210,6 +1215,7 @@ return
 *
 value
 ;
+}
 }
 return
 UnspecifiedNaN
@@ -1239,6 +1245,11 @@ const
 {
 if
 (
+mCachedFields
+)
+{
+if
+(
 auto
 min
 =
@@ -1269,6 +1280,7 @@ return
 *
 min
 ;
+}
 }
 return
 UnspecifiedNaN
@@ -1298,6 +1310,11 @@ const
 {
 if
 (
+mCachedFields
+)
+{
+if
+(
 auto
 max
 =
@@ -1329,6 +1346,7 @@ return
 max
 ;
 }
+}
 return
 UnspecifiedNaN
 <
@@ -1354,6 +1372,11 @@ Step
 (
 )
 const
+{
+if
+(
+mCachedFields
+)
 {
 if
 (
@@ -1387,6 +1410,7 @@ return
 *
 step
 ;
+}
 }
 return
 UnspecifiedNaN
