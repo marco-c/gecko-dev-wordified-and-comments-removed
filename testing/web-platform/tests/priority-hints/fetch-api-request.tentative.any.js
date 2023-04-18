@@ -19,7 +19,7 @@ Request
 "
 "
 {
-importance
+priority
 :
 '
 invalid
@@ -42,7 +42,7 @@ if
 RequestInit
 '
 s
-importance
+priority
 is
 an
 invalid
