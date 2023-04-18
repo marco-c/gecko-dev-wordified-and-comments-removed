@@ -1836,14 +1836,12 @@ E_NOINTERFACE
 }
 if
 (
+!
 mCachedData
 .
-mDynamicData
+mStaticData
 .
-mIA2Role
-=
-=
-IA2_ROLE_INTERNAL_FRAME
+mIAHypertext
 &
 &
 mCachedData
