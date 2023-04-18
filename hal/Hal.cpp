@@ -1790,7 +1790,18 @@ BroadcastCachedInformation
 )
 ;
 }
+RefPtr
+<
+mozilla
+:
+:
+MozPromise
+<
 bool
+bool
+false
+>
+>
 LockScreenOrientation
 (
 const
@@ -1809,7 +1820,7 @@ LockScreenOrientation
 (
 aOrientation
 )
-false
+nullptr
 )
 ;
 }
