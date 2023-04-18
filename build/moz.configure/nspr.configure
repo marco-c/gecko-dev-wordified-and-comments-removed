@@ -409,7 +409,7 @@ pkgconf_requires_private
 )
 depends
 (
-check_build_environment
+build_environment
 c_compiler
 fold_libs
 when

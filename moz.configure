@@ -2158,7 +2158,7 @@ build_backends
 )
 depends
 (
-check_build_environment
+build_environment
 build_backends
 )
 imports
@@ -2538,7 +2538,7 @@ icu4x
 depends
 (
 host_library_name_info
-check_build_environment
+build_environment
 when
 =
 "
@@ -4863,7 +4863,7 @@ toolkit
 )
 depends
 (
-check_build_environment
+build_environment
 build_project
 )
 imports

@@ -1145,7 +1145,7 @@ base
 "
 MOZ_AUTOMATION
 "
-check_build_environment
+build_environment
 )
 imports
 (
@@ -4576,7 +4576,7 @@ depends
 (
 freetype2_combined_info
 tree_freetype
-check_build_environment
+build_environment
 )
 def
 ft2_info
@@ -5545,7 +5545,7 @@ True
 )
 depends
 (
-check_build_environment
+build_environment
 )
 def
 idl_roots

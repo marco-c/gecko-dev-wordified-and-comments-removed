@@ -292,7 +292,7 @@ profile
 use
 "
 llvm_profdata
-check_build_environment
+build_environment
 )
 imports
 (

@@ -112,7 +112,7 @@ with
 -
 gradle
 "
-check_build_environment
+build_environment
 )
 imports
 (

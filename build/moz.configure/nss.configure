@@ -92,7 +92,7 @@ nss
 depends
 (
 nss_pkg
-check_build_environment
+build_environment
 )
 def
 nss_config

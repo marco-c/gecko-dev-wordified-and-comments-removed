@@ -518,7 +518,7 @@ bootstrap
 toolchains_base_dir
 bootstrap_toolchain_tasks
 shell
-check_build_environment
+build_environment
 dependable
 (
 path

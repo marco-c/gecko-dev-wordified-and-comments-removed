@@ -733,7 +733,7 @@ prepare_configure
 prepare_configure_options
 altered_path
 extra_env
-check_build_environment
+build_environment
 old_configure_path
 "
 MOZILLABUILD
