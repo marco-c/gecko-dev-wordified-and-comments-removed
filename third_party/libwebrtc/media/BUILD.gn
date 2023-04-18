@@ -1643,7 +1643,6 @@ video_coding
 :
 webrtc_vp9
 "
-#
 "
 .
 .
@@ -1658,7 +1657,6 @@ av1
 :
 libaom_av1_decoder
 "
-#
 "
 .
 .
