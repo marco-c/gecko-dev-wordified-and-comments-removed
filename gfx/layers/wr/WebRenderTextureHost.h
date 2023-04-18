@@ -319,13 +319,6 @@ aBackend
 )
 override
 ;
-bool
-NeedsYFlip
-(
-)
-const
-override
-;
 void
 SetAcquireFence
 (

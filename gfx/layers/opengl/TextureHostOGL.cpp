@@ -2972,6 +2972,7 @@ mSurfTex
 mSize
 mFormat
 mContinuousUpdate
+mIgnoreTransform
 )
 ;
 wr
