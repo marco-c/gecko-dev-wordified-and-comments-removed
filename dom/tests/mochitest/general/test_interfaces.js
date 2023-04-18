@@ -6408,9 +6408,6 @@ TransformStream
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -6419,9 +6416,6 @@ name
 TransformStreamDefaultController
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
