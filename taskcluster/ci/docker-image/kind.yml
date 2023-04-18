@@ -684,7 +684,7 @@ lnt
 )
 parent
 :
-debian11
+ubuntu1804
 -
 base
 #
