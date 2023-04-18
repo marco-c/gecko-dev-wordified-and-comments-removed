@@ -6,8 +6,8 @@ define
 MacRunFromDmgUtils_h_
 namespace
 mozilla
-{
-namespace
+:
+:
 MacRunFromDmgUtils
 {
 bool
@@ -16,11 +16,10 @@ IsAppRunningFromDmg
 )
 ;
 bool
-MaybeInstallFromDmgAndRelaunch
+MaybeInstallAndRelaunch
 (
 )
 ;
-}
 }
 #
 endif

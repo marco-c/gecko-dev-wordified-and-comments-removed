@@ -25620,7 +25620,7 @@ if
 MacRunFromDmgUtils
 :
 :
-MaybeInstallFromDmgAndRelaunch
+MaybeInstallAndRelaunch
 (
 )
 )
