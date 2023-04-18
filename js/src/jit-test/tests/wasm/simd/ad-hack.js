@@ -1,3 +1,17 @@
+load
+(
+scriptdir
++
+"
+ad
+-
+hack
+-
+preamble
+.
+js
+"
+)
 for
 (
 let
