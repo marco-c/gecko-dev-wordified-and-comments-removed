@@ -556,7 +556,16 @@ PushSubscriptionOptions
 "
 }
 "
+ReadableByteStreamController
+"
+"
 ReadableStream
+"
+"
+ReadableStreamBYOBReader
+"
+"
+ReadableStreamBYOBRequest
 "
 "
 ReadableStreamDefaultController
