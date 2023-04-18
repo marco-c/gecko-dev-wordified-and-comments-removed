@@ -185,6 +185,17 @@ version
 -
 list
 "
+        
+b
+"
+sec
+-
+ch
+-
+ua
+-
+wow64
+"
     
 ]
     
