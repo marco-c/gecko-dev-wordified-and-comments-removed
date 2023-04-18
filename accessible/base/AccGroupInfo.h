@@ -311,6 +311,16 @@ role
 aParentRole
 )
 ;
+static
+int32_t
+GetARIAOrDefaultLevel
+(
+const
+LocalAccessible
+*
+aAccessible
+)
+;
 uint32_t
 mPosInSet
 ;

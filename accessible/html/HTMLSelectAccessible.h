@@ -202,13 +202,6 @@ const
 override
 ;
 virtual
-int32_t
-GetLevelInternal
-(
-)
-override
-;
-virtual
 nsRect
 RelativeBounds
 (

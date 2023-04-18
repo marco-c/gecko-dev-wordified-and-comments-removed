@@ -738,12 +738,6 @@ FocusedChild
 )
 ;
 virtual
-int32_t
-GetLevelInternal
-(
-)
-;
-virtual
 void
 GetPositionAndSizeInternal
 (

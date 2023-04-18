@@ -1064,6 +1064,15 @@ const
 =
 0
 ;
+virtual
+int32_t
+GetLevel
+(
+bool
+aFast
+)
+const
+;
 private
 :
 static
