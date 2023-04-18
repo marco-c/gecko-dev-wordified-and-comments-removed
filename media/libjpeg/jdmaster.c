@@ -2380,7 +2380,7 @@ sample_range_limit
 =
 table
 ;
-MEMZERO
+memset
 (
 table
 -
@@ -2389,6 +2389,7 @@ MAXJSAMPLE
 +
 1
 )
+0
 (
 MAXJSAMPLE
 +
@@ -2458,7 +2459,7 @@ i
 =
 MAXJSAMPLE
 ;
-MEMZERO
+memset
 (
 table
 +
@@ -2471,6 +2472,7 @@ MAXJSAMPLE
 1
 )
 )
+0
 (
 2
 *
@@ -2489,7 +2491,7 @@ JSAMPLE
 )
 )
 ;
-MEMCOPY
+memcpy
 (
 table
 +

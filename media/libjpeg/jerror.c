@@ -479,9 +479,10 @@ if
 (
 isstring
 )
-sprintf
+snprintf
 (
 buffer
+JMSG_LENGTH_MAX
 msgtext
 err
 -
@@ -492,9 +493,10 @@ s
 )
 ;
 else
-sprintf
+snprintf
 (
 buffer
+JMSG_LENGTH_MAX
 msgtext
 err
 -

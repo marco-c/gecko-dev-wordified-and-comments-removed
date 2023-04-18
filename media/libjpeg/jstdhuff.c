@@ -43,7 +43,7 @@ cinfo
 else
 return
 ;
-MEMCOPY
+memcpy
 (
 (
 *
@@ -109,7 +109,7 @@ cinfo
 JERR_BAD_HUFF_TABLE
 )
 ;
-MEMCOPY
+memcpy
 (
 (
 *
@@ -127,7 +127,7 @@ UINT8
 )
 )
 ;
-MEMZERO
+memset
 (
 &
 (
@@ -142,6 +142,7 @@ huffval
 nsymbols
 ]
 )
+0
 (
 256
 -

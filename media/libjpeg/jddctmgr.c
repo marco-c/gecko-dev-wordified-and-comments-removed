@@ -1126,12 +1126,13 @@ multiplier_table
 )
 )
 ;
-MEMZERO
+memset
 (
 compptr
 -
 >
 dct_table
+0
 sizeof
 (
 multiplier_table

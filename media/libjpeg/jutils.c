@@ -323,7 +323,7 @@ output_array
 +
 +
 ;
-MEMCOPY
+memcpy
 (
 outptr
 inptr
@@ -346,7 +346,7 @@ JDIMENSION
 num_blocks
 )
 {
-MEMCOPY
+memcpy
 (
 output_row
 input_row
@@ -376,9 +376,10 @@ size_t
 bytestozero
 )
 {
-MEMZERO
+memset
 (
 target
+0
 bytestozero
 )
 ;

@@ -374,7 +374,7 @@ j_common_ptr
 dstinfo
 )
 ;
-MEMCOPY
+memcpy
 (
 (
 *

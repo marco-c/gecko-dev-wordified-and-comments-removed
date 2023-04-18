@@ -103,9 +103,10 @@ cinfo
 >
 client_data
 ;
-MEMZERO
+memset
 (
 cinfo
+0
 sizeof
 (
 struct

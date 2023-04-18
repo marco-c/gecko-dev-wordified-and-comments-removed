@@ -1226,7 +1226,7 @@ JQUANT_TBL
 )
 )
 ;
-MEMCOPY
+memcpy
 (
 qtbl
 cinfo

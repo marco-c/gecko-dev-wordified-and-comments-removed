@@ -1124,7 +1124,7 @@ long
 )
 )
 ;
-MEMZERO
+memset
 (
 entropy
 -
@@ -1133,6 +1133,7 @@ count_ptrs
 [
 tbl
 ]
+0
 257
 *
 sizeof
@@ -2456,6 +2457,9 @@ values
 k
 ]
 =
+(
+JCOEF
+)
 temp
 ;
 \
@@ -2466,6 +2470,9 @@ k
 DCTSIZE2
 ]
 =
+(
+JCOEF
+)
 temp2
 ;
 \
@@ -5098,9 +5105,10 @@ Ss
 0
 )
 ;
-MEMZERO
+memset
 (
 did
+0
 sizeof
 (
 did

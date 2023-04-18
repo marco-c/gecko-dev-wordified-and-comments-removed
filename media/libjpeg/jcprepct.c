@@ -1147,7 +1147,7 @@ rgroup_height
 )
 )
 ;
-MEMCOPY
+memcpy
 (
 fake_buffer
 +
