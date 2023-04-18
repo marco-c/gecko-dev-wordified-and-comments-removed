@@ -4284,7 +4284,7 @@ version
 .
 22
 .
-2
+3
 "
 source
 =
@@ -4312,7 +4312,7 @@ index
 checksum
 =
 "
-269f35f69b542b80e736a20a89a05215c0ce80c2c03c514abb2e318b78379d86
+2581bbab3b8ffc6fcbd550bf46c355135d16e9ff2a6ea032ad6b9bf1d7efe4fb
 "
 dependencies
 =
@@ -31947,11 +31947,6 @@ etagere
 "
 "
 euclid
-"
-"
-foreign
--
-types
 "
 "
 freetype

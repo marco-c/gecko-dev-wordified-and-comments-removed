@@ -671,6 +671,8 @@ graphics
 0
 .
 22
+.
+3
 "
 core
 -
@@ -681,6 +683,8 @@ version
 =
 "
 19
+.
+2
 "
 default
 -
@@ -694,15 +698,4 @@ objc
 0
 .
 2
-"
-foreign
--
-types
-=
-"
-0
-.
-3
-.
-0
 "

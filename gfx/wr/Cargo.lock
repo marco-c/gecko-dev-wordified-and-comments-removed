@@ -2219,7 +2219,7 @@ version
 .
 22
 .
-0
+3
 "
 source
 =
@@ -2247,7 +2247,7 @@ index
 checksum
 =
 "
-f6082396a349fa49674ba1bda4077332a18bf150e8fa75745ece07085e29a113
+2581bbab3b8ffc6fcbd550bf46c355135d16e9ff2a6ea032ad6b9bf1d7efe4fb
 "
 dependencies
 =
@@ -2374,7 +2374,7 @@ version
 "
 19
 .
-0
+2
 .
 0
 "
@@ -2404,7 +2404,7 @@ index
 checksum
 =
 "
-04dfae50af11e72657fe7174cddb1ecddc5398037f7f6f39533ad69207c9a4e2
+99d74ada66e07c1cefa18f8abfba765b486f250de2e4a999e5727fc0dd4b4a25
 "
 dependencies
 =
@@ -2427,7 +2427,7 @@ graphics
 .
 22
 .
-0
+3
 "
 "
 foreign
@@ -10495,7 +10495,7 @@ graphics
 .
 22
 .
-0
+3
 "
 "
 core
@@ -10513,11 +10513,6 @@ etagere
 "
 "
 euclid
-"
-"
-foreign
--
-types
 "
 "
 freetype
@@ -10724,7 +10719,7 @@ graphics
 .
 22
 .
-0
+3
 "
 "
 crossbeam
@@ -11289,7 +11284,7 @@ graphics
 .
 22
 .
-0
+3
 "
 "
 crossbeam
