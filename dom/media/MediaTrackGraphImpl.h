@@ -1752,12 +1752,6 @@ CubebUtils
 :
 :
 AudioDeviceID
-mInputDeviceID
-;
-CubebUtils
-:
-:
-AudioDeviceID
 mOutputDeviceID
 ;
 class
