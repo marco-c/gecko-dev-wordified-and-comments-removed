@@ -662,6 +662,12 @@ bool
 aTrusted
 )
 ;
+bool
+ShouldIgnoreChromeEventTargetListener
+(
+)
+const
+;
 void
 InitPresContextData
 (
