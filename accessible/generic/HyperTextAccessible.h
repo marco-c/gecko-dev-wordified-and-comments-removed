@@ -594,12 +594,14 @@ CaretOffset
 const
 override
 ;
+virtual
 void
 SetCaretOffset
 (
 int32_t
 aOffset
 )
+override
 ;
 int32_t
 CaretLineNumber

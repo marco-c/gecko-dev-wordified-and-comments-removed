@@ -184,6 +184,16 @@ CaretOffset
 )
 const
 ;
+virtual
+void
+SetCaretOffset
+(
+int32_t
+aOffset
+)
+=
+0
+;
 index_t
 ConvertMagicOffset
 (

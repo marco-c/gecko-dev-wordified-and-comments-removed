@@ -571,6 +571,15 @@ aIndex
 )
 ;
 async
+SetCaretOffset
+(
+uint64_t
+aID
+int32_t
+aOffset
+)
+;
+async
 __delete__
 (
 )
