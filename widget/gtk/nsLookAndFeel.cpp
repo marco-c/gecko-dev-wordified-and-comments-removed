@@ -76,6 +76,13 @@ h
 #
 include
 "
+GUniquePtr
+.
+h
+"
+#
+include
+"
 nsGtkUtils
 .
 h
