@@ -914,6 +914,12 @@ DownloadsView
 contextMenuOpen
 &
 &
+!
+DownloadsView
+.
+subViewOpen
+&
+&
 this
 .
 panel
