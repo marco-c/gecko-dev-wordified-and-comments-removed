@@ -607,6 +607,11 @@ mTotalTextureMemory
 =
 0
 ;
+size_t
+mEmptyTextureMemory
+=
+0
+;
 const
 Matrix
 &
