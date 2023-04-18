@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 nsIGIOService
 .
 h
