@@ -16,12 +16,15 @@ content
 ;
 }
 }
-body
+html
 {
 font
 :
 menu
 ;
+}
+body
+{
 &
 .
 theme_dark
@@ -72,7 +75,7 @@ size
 :
 1
 .
-15em
+25rem
 ;
 line
 -
@@ -80,7 +83,7 @@ height
 :
 1
 .
-53em
+65rem
 ;
 .
 stp_button
@@ -104,7 +107,9 @@ font
 -
 size
 :
-1em
+1
+.
+1rem
 ;
 line
 -
@@ -112,7 +117,7 @@ height
 :
 1
 .
-23em
+35rem
 ;
 }
 .
@@ -130,7 +135,7 @@ size
 :
 0
 .
-84em
+95rem
 ;
 line
 -
@@ -138,7 +143,7 @@ height
 :
 1
 .
-07em
+16rem
 ;
 }
 .
@@ -186,7 +191,7 @@ size
 :
 0
 .
-84em
+95rem
 ;
 line
 -
@@ -194,6 +199,6 @@ height
 :
 1
 .
-07em
+16rem
 ;
 }
