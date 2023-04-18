@@ -701,10 +701,8 @@ uint32_t
 aActivityGeneration
 double
 aIntervalMilliseconds
-bool
-aStackWalkEnabled
-bool
-aNoTimerResolutionChange
+uint32_t
+aFeatures
 )
 :
 mSampler
