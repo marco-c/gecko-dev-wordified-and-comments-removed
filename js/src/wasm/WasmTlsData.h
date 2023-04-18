@@ -77,7 +77,7 @@ Instance
 )
 ;
 struct
-FuncImportTls
+FuncImportInstanceData
 {
 void
 *
@@ -85,7 +85,7 @@ code
 ;
 Instance
 *
-tls
+instance
 ;
 JS
 :
@@ -120,7 +120,7 @@ access
 }
 ;
 struct
-TableTls
+TableInstanceData
 {
 uint32_t
 length
@@ -140,7 +140,7 @@ code
 ;
 Instance
 *
-tls
+instance
 ;
 }
 ;

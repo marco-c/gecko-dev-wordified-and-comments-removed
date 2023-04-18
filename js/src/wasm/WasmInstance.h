@@ -128,10 +128,10 @@ class
 WasmFrameIter
 ;
 struct
-FuncImportTls
+FuncImportInstanceData
 ;
 struct
-TableTls
+TableInstanceData
 ;
 struct
 TableDesc
@@ -321,9 +321,9 @@ typeId
 )
 const
 ;
-FuncImportTls
+FuncImportInstanceData
 &
-funcImportTls
+funcImportInstanceData
 (
 const
 FuncImport
@@ -331,9 +331,9 @@ FuncImport
 fi
 )
 ;
-TableTls
+TableInstanceData
 &
-tableTls
+tableInstanceData
 (
 const
 TableDesc

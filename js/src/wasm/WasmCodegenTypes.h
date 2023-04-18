@@ -2196,7 +2196,7 @@ globalDataOffset_
 +
 offsetof
 (
-TableTls
+TableInstanceData
 length
 )
 ;
@@ -2223,7 +2223,7 @@ globalDataOffset_
 +
 offsetof
 (
-TableTls
+TableInstanceData
 functionBase
 )
 ;

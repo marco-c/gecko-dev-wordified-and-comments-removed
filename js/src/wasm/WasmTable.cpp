@@ -492,7 +492,7 @@ functions_
 i
 ]
 .
-tls
+instance
 )
 ;
 }
@@ -524,7 +524,7 @@ functions_
 i
 ]
 .
-tls
+instance
 )
 {
 functions_
@@ -532,7 +532,7 @@ functions_
 i
 ]
 .
-tls
+instance
 -
 >
 trace
@@ -741,7 +741,7 @@ instance
 *
 elem
 .
-tls
+instance
 ;
 const
 CodeRange
@@ -826,7 +826,7 @@ if
 (
 elem
 .
-tls
+instance
 )
 {
 gc
@@ -836,7 +836,7 @@ PreWriteBarrier
 (
 elem
 .
-tls
+instance
 -
 >
 objectUnbarriered
@@ -859,7 +859,7 @@ code
 ;
 elem
 .
-tls
+instance
 =
 instance
 ;
@@ -867,7 +867,7 @@ MOZ_ASSERT
 (
 elem
 .
-tls
+instance
 -
 >
 objectUnbarriered
@@ -901,7 +901,7 @@ code
 ;
 elem
 .
-tls
+instance
 =
 nullptr
 ;
@@ -1280,7 +1280,7 @@ if
 (
 elem
 .
-tls
+instance
 )
 {
 gc
@@ -1290,7 +1290,7 @@ PreWriteBarrier
 (
 elem
 .
-tls
+instance
 -
 >
 objectUnbarriered
@@ -1307,7 +1307,7 @@ nullptr
 ;
 elem
 .
-tls
+instance
 =
 nullptr
 ;
@@ -1414,7 +1414,7 @@ if
 (
 dst
 .
-tls
+instance
 )
 {
 gc
@@ -1424,7 +1424,7 @@ PreWriteBarrier
 (
 dst
 .
-tls
+instance
 -
 >
 objectUnbarriered
@@ -1454,17 +1454,17 @@ code
 ;
 dst
 .
-tls
+instance
 =
 src
 .
-tls
+instance
 ;
 if
 (
 dst
 .
-tls
+instance
 )
 {
 MOZ_ASSERT
@@ -1478,7 +1478,7 @@ MOZ_ASSERT
 (
 dst
 .
-tls
+instance
 -
 >
 objectUnbarriered

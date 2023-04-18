@@ -1915,7 +1915,7 @@ realm_func_import_tls_offset
 (
 offsetof
 (
-FuncImportTls
+FuncImportInstanceData
 realm
 )
 )
@@ -3545,7 +3545,7 @@ offsetof
 wasm
 :
 :
-FuncImportTls
+FuncImportInstanceData
 code
 )
 =
@@ -3566,8 +3566,8 @@ offsetof
 wasm
 :
 :
-FuncImportTls
-tls
+FuncImportInstanceData
+instance
 )
 =
 =

@@ -13138,7 +13138,7 @@ tlsDataOffset
 +
 offsetof
 (
-FuncImportTls
+FuncImportInstanceData
 fun
 )
 callee
