@@ -201,13 +201,6 @@ nullable
 :
 string
 "
-paintFlashing
-:
-"
-nullable
-:
-boolean
-"
 printSimulationEnabled
 :
 "

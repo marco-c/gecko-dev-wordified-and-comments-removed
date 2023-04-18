@@ -120,9 +120,6 @@ true
 overrideDPPX
 :
 true
-paintFlashing
-:
-true
 printSimulationEnabled
 :
 true

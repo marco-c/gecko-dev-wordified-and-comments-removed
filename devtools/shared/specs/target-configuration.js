@@ -76,13 +76,6 @@ nullable
 :
 number
 "
-paintFlashing
-:
-"
-nullable
-:
-boolean
-"
 printSimulationEnabled
 :
 "
