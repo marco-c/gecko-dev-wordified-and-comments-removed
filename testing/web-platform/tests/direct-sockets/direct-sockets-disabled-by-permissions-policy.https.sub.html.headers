@@ -20,3 +20,13 @@ Policy
 require
 -
 corp
+Permissions
+-
+Policy
+:
+direct
+-
+sockets
+=
+(
+)
