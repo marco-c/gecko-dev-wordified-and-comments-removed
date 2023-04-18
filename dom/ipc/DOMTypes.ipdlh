@@ -625,6 +625,9 @@ pixelDepth
 int32_t
 colorDepth
 ;
+uint32_t
+refreshRate
+;
 DesktopToLayoutDeviceScale
 contentsScaleFactor
 ;
@@ -639,6 +642,9 @@ orientation
 ;
 uint16_t
 orientationAngle
+;
+bool
+isPseudoDisplay
 ;
 }
 ;

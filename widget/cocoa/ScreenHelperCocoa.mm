@@ -584,9 +584,17 @@ rect
 availRect
 pixelDepth
 pixelDepth
+0
 contentsScaleFactor
 defaultCssScaleFactor
 dpi
+Screen
+:
+:
+IsPseudoDisplay
+:
+:
+No
 )
 ;
 return
