@@ -91,14 +91,15 @@ lazy
 {
 }
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
-defineModuleGetter
+import
 (
-lazy
-"
-Services
-"
 "
 resource
 :
@@ -385,8 +386,6 @@ false
 val
 =
 >
-lazy
-.
 Services
 .
 io
@@ -708,8 +707,6 @@ this
 .
 _webChannelOrigin
 =
-lazy
-.
 Services
 .
 io
@@ -869,8 +866,6 @@ command
 case
 COMMAND_PROFILE_CHANGE
 :
-lazy
-.
 Services
 .
 obs
@@ -1053,8 +1048,6 @@ sync
 {
 triggeringPrincipal
 :
-lazy
-.
 Services
 .
 scriptSecurityManager
@@ -1815,8 +1808,6 @@ engine
 )
 )
 {
-lazy
-.
 Services
 .
 prefs
@@ -1872,8 +1863,6 @@ engine
 =
 >
 {
-lazy
-.
 Services
 .
 prefs
@@ -2242,8 +2231,6 @@ engineName
 try
 {
 return
-lazy
-.
 Services
 .
 prefs
@@ -2393,8 +2380,6 @@ getPreviousAccountNameHashPref
 try
 {
 return
-lazy
-.
 Services
 .
 prefs
@@ -2421,8 +2406,6 @@ setPreviousAccountNameHashPref
 acctName
 )
 {
-lazy
-.
 Services
 .
 prefs
@@ -2492,8 +2475,6 @@ uri
 {
 triggeringPrincipal
 :
-lazy
-.
 Services
 .
 scriptSecurityManager
@@ -2546,8 +2527,6 @@ acctName
 let
 sb
 =
-lazy
-.
 Services
 .
 strings
@@ -2640,8 +2619,6 @@ description
 let
 ps
 =
-lazy
-.
 Services
 .
 prompt
@@ -2672,8 +2649,6 @@ BUTTON_POS_1_DEFAULT
 let
 pressed
 =
-lazy
-.
 Services
 .
 prompt
@@ -2716,8 +2691,6 @@ EnsureFxAccountsWebChannel
 let
 contentUri
 =
-lazy
-.
 Services
 .
 urlFormatter
