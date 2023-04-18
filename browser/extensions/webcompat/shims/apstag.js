@@ -117,6 +117,13 @@ slots
 return
 ;
 }
+setTimeout
+(
+(
+)
+=
+>
+{
 cb
 (
 cfg
@@ -133,6 +140,10 @@ newBid
 s
 )
 )
+)
+;
+}
+1
 )
 ;
 }
