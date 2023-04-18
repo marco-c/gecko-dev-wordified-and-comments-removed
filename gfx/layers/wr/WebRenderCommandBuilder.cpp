@@ -10650,7 +10650,17 @@ ActiveScrolledRoot
 *
 stopAtAsrForChildren
 =
+ActiveScrolledRoot
+:
+:
+PickDescendant
+(
 asr
+newLayerData
+-
+>
+mStopAtAsr
+)
 ;
 if
 (
@@ -10667,7 +10677,7 @@ ActiveScrolledRoot
 :
 PickDescendant
 (
-asr
+stopAtAsrForChildren
 newLayerData
 -
 >
