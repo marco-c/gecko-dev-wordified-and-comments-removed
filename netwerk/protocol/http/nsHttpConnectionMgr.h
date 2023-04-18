@@ -1073,7 +1073,7 @@ ARefBase
 void
 OnMsgUpdateClassOfServiceOnTransaction
 (
-int32_t
+ClassOfServiceStruct
 ARefBase
 *
 )

@@ -160,7 +160,7 @@ PHttpTransactionChild
 *
 aTrans
 const
-uint32_t
+ClassOfServiceStruct
 &
 aClassOfService
 )

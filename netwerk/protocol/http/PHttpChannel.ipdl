@@ -61,6 +61,16 @@ BackgroundUtils
 h
 "
 ;
+using
+struct
+ClassOfServiceStruct
+from
+"
+nsIClassOfService
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -86,7 +96,7 @@ parent
 async
 SetClassOfService
 (
-uint32_t
+ClassOfServiceStruct
 cos
 )
 ;
