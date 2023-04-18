@@ -658,15 +658,6 @@ WorkerLocation
 "
 WorkerNavigator
 "
-"
-WritableStream
-"
-"
-WritableStreamDefaultController
-"
-"
-WritableStreamDefaultWriter
-"
 ]
 ;
 function
