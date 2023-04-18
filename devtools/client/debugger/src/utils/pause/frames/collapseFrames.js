@@ -1,14 +1,5 @@
 import
 {
-findIndex
-}
-from
-"
-lodash
-"
-;
-import
-{
 getFrameUrl
 }
 from
@@ -27,9 +18,10 @@ frames
 const
 index
 =
+frames
+.
 findIndex
 (
-frames
 frame
 =
 >
