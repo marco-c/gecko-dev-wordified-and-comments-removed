@@ -410,6 +410,13 @@ this
 )
 )
 ;
+mEventQ
+-
+>
+NotifyReleasingOwner
+(
+)
+;
 }
 nsresult
 HttpTransactionParent

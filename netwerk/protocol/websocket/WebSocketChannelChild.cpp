@@ -362,6 +362,13 @@ this
 )
 )
 ;
+mEventQ
+-
+>
+NotifyReleasingOwner
+(
+)
+;
 }
 void
 WebSocketChannelChild
