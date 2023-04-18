@@ -240,10 +240,6 @@ MediaEngineWebRTC
 public
 MediaEngine
 {
-typedef
-MediaEngine
-Super
-;
 public
 :
 MediaEngineWebRTC
@@ -263,11 +259,6 @@ Shutdown
 (
 )
 override
-;
-bool
-SupportsDuplex
-(
-)
 ;
 void
 EnumerateDevices
@@ -378,9 +369,6 @@ void
 *
 aClosure
 )
-;
-bool
-mHasTabVideoSource
 ;
 MediaEventListener
 mCameraListChangeListener
