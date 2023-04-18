@@ -863,7 +863,7 @@ TYPES
 NETWORK_EVENT
 ]
 :
-shouldEnableAllWatchers
+true
 [
 Resources
 .
@@ -872,7 +872,7 @@ TYPES
 NETWORK_EVENT_STACKTRACE
 ]
 :
-shouldEnableAllWatchers
+true
 [
 Resources
 .
