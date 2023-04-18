@@ -283,7 +283,7 @@ tip
 "
 :
                 
-ref
+new_revision
 timestamp
 =
 self
@@ -306,7 +306,7 @@ tag
 "
 :
                 
-ref
+new_revision
 timestamp
 =
 self
@@ -321,7 +321,7 @@ revision
 else
 :
                 
-ref
+new_revision
 timestamp
 =
 self
@@ -342,7 +342,7 @@ ref_type
 commit
 "
             
-ref
+new_revision
 timestamp
 =
 self
@@ -369,7 +369,7 @@ ref_type
 ref
 "
 :
-ref
+new_revision
 "
 timestamp
 "
@@ -485,7 +485,7 @@ revision
 ]
 =
 =
-ref
+new_revision
 :
             
 self
@@ -521,7 +521,7 @@ s
 "
 %
 (
-ref
+new_revision
 timestamp
 )
 )
@@ -543,7 +543,7 @@ self
 .
 fetch_and_unpack
 (
-ref
+new_revision
 )
         
 else
@@ -593,7 +593,7 @@ self
 .
 update_files
 (
-ref
+new_revision
 )
         
 else
@@ -730,7 +730,7 @@ self
 .
 spurious_check
 (
-revision
+new_revision
 ignore_modified
 )
         
@@ -787,7 +787,7 @@ self
 .
 update_yaml
 (
-ref
+new_revision
 timestamp
 )
         
@@ -907,7 +907,7 @@ logInfo
 rev
 "
 :
-revision
+new_revision
 }
 "
 Updated
