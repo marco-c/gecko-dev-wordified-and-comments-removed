@@ -10322,7 +10322,7 @@ pattern
 aPattern
 -
 >
-Clone
+CloneWeak
 (
 )
 ;
