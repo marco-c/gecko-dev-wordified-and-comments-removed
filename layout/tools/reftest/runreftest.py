@@ -3863,6 +3863,23 @@ self
 .
 leakLogFile
         
+if
+options
+.
+enable_webrender
+:
+            
+browserEnv
+[
+"
+MOZ_WEBRENDER
+"
+]
+=
+"
+1
+"
+            
 browserEnv
 [
 "
@@ -3872,6 +3889,20 @@ MOZ_ACCELERATED
 =
 "
 1
+"
+        
+else
+:
+            
+browserEnv
+[
+"
+MOZ_WEBRENDER
+"
+]
+=
+"
+0
 "
         
 if
