@@ -547,15 +547,6 @@ _mach_context
 .
 state_dir
 )
-                
-Path
-(
-command_context
-.
-_mach_context
-.
-topdir
-)
             
 )
         
