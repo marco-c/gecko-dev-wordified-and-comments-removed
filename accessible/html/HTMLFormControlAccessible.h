@@ -1274,6 +1274,10 @@ aContent
 aDoc
 )
 {
+mType
+=
+eHTMLDateTimeFieldType
+;
 }
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
