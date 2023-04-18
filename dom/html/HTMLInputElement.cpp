@@ -5613,6 +5613,13 @@ false
 it
 -
 >
+mIndeterminate
+=
+mIndeterminate
+;
+it
+-
+>
 DoneCreatingElement
 (
 )
@@ -7285,6 +7292,8 @@ if
 aShouldInvalidate
 )
 {
+if
+(
 nsIFrame
 *
 frame
@@ -7292,11 +7301,8 @@ frame
 GetPrimaryFrame
 (
 )
-;
-if
-(
-frame
 )
+{
 frame
 -
 >
@@ -7304,6 +7310,7 @@ InvalidateFrameSubtree
 (
 )
 ;
+}
 }
 UpdateState
 (
