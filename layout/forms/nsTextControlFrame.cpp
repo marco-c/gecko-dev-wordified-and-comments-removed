@@ -650,9 +650,6 @@ TextControlInitializer
 )
 ;
 RefPtr
-<
-TextControlElement
->
 textControlElement
 =
 TextControlElement
@@ -670,6 +667,11 @@ MOZ_ASSERT
 textControlElement
 )
 ;
+if
+(
+mMutationObserver
+)
+{
 textControlElement
 -
 >
@@ -678,11 +680,6 @@ UnbindFromFrame
 this
 )
 ;
-if
-(
-mMutationObserver
-)
-{
 mRootNode
 -
 >
