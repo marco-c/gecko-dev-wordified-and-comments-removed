@@ -1492,9 +1492,6 @@ form
 traits
 :
 {
-clearPickerSupport
-:
-true
 }
 }
 ;
