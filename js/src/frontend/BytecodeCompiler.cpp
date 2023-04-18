@@ -6540,6 +6540,16 @@ setSelfHostingMode
 (
 false
 )
+.
+setEagerDelazificationStrategy
+(
+lazy
+-
+>
+delazificationMode
+(
+)
+)
 ;
 Rooted
 <
