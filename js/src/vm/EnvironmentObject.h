@@ -981,14 +981,6 @@ PropertyInfo
 propOut
 )
 ;
-void
-fixEnclosingEnvironmentAfterRealmMerge
-(
-GlobalObject
-&
-global
-)
-;
 private
 :
 static

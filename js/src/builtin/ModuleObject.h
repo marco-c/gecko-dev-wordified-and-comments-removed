@@ -1575,11 +1575,6 @@ self
 ;
 #
 endif
-void
-fixEnvironmentsAfterRealmMerge
-(
-)
-;
 JSScript
 *
 maybeScript
