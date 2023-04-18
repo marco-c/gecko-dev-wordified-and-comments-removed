@@ -147,6 +147,9 @@ mHandlerServiceChild
 =
 nullptr
 ;
+return
+NS_ERROR_UNEXPECTED
+;
 }
 return
 NS_OK
