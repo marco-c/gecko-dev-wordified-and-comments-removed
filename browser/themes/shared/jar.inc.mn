@@ -5471,8 +5471,6 @@ places
 /
 sidebar
 .
-inc
-.
 css
 )
 skin
@@ -5664,8 +5662,6 @@ shared
 syncedtabs
 /
 sidebar
-.
-inc
 .
 css
 )
