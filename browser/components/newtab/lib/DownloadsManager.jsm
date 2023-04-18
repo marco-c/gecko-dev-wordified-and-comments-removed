@@ -134,10 +134,6 @@ DOWNLOAD_CHANGED_DELAY_TIME
 =
 1000
 ;
-this
-.
-DownloadsManager
-=
 class
 DownloadsManager
 {
@@ -975,9 +971,7 @@ break
 }
 }
 }
-;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [

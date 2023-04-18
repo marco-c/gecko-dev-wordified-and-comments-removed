@@ -380,10 +380,6 @@ discoverystream
 config
 "
 ;
-this
-.
-TopStoriesFeed
-=
 class
 TopStoriesFeed
 {
@@ -3891,7 +3887,6 @@ break
 }
 }
 }
-;
 this
 .
 STORIES_UPDATE_TIME

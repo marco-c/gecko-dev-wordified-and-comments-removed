@@ -2926,8 +2926,7 @@ _ToolbarPanelHub
 =
 _ToolbarPanelHub
 ;
-this
-.
+const
 ToolbarPanelHub
 =
 new

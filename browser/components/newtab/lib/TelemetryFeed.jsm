@@ -722,10 +722,6 @@ _contextId
 }
 )
 ;
-this
-.
-TelemetryFeed
-=
 class
 TelemetryFeed
 {
@@ -4718,7 +4714,6 @@ uninit
 }
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

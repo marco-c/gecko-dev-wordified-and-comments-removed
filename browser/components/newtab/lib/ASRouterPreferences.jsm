@@ -1067,8 +1067,7 @@ _ASRouterPreferences
 =
 _ASRouterPreferences
 ;
-this
-.
+const
 ASRouterPreferences
 =
 new

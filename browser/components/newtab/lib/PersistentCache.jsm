@@ -3,10 +3,6 @@ use
 strict
 "
 ;
-this
-.
-PersistentCache
-=
 class
 PersistentCache
 {
@@ -290,7 +286,6 @@ tmp
 ;
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

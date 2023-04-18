@@ -178,10 +178,6 @@ ContentToMain
 "
 }
 ;
-this
-.
-ActivityStreamMessageChannel
-=
 class
 ActivityStreamMessageChannel
 {
@@ -1190,7 +1186,6 @@ portID
 ;
 }
 }
-;
 this
 .
 DEFAULT_OPTIONS

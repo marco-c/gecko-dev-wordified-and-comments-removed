@@ -387,10 +387,6 @@ SNIPPETS
 }
 ]
 ;
-this
-.
-AboutPreferences
-=
 class
 AboutPreferences
 {
@@ -1727,7 +1723,6 @@ toggleRestoreDefaultsBtn
 ;
 }
 }
-;
 this
 .
 PREFERENCES_LOADED_EVENT

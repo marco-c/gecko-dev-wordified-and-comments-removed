@@ -34,10 +34,6 @@ jsm
 "
 )
 ;
-this
-.
-NewTabInit
-=
 class
 NewTabInit
 {
@@ -218,7 +214,6 @@ break
 }
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

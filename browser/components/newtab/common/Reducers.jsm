@@ -4149,8 +4149,7 @@ TOP_SITES_MAX_SITES_PER_ROW
 =
 TOP_SITES_MAX_SITES_PER_ROW
 ;
-this
-.
+const
 reducers
 =
 {

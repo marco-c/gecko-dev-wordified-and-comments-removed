@@ -157,10 +157,6 @@ provider
 models
 "
 ;
-this
-.
-PersonalityProvider
-=
 class
 PersonalityProvider
 {
@@ -1216,7 +1212,6 @@ interestVector
 ;
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

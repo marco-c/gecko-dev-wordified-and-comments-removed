@@ -145,8 +145,7 @@ SEARCH_SHORTCUTS
 =
 SEARCH_SHORTCUTS
 ;
-this
-.
+const
 CUSTOM_SEARCH_SHORTCUTS
 =
 [
@@ -271,8 +270,7 @@ org
 }
 ]
 ;
-this
-.
+const
 SEARCH_SHORTCUTS_EXPERIMENT
 =
 "
@@ -281,8 +279,7 @@ improvesearch
 topSiteSearchShortcuts
 "
 ;
-this
-.
+const
 SEARCH_SHORTCUTS_SEARCH_ENGINES_PREF
 =
 "
@@ -293,8 +290,7 @@ topSiteSearchShortcuts
 searchEngines
 "
 ;
-this
-.
+const
 SEARCH_SHORTCUTS_HAVE_PINNED_PREF
 =
 "

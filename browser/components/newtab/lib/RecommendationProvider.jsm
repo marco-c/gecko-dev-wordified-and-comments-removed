@@ -83,10 +83,6 @@ personalization
 enabled
 "
 ;
-this
-.
-RecommendationProvider
-=
 class
 RecommendationProvider
 {
@@ -439,7 +435,6 @@ break
 }
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

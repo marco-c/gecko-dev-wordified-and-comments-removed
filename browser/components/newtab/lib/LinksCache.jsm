@@ -23,10 +23,6 @@ EXPIRATION_TIME
 *
 1000
 ;
-this
-.
-LinksCache
-=
 class
 LinksCache
 {
@@ -444,4 +440,3 @@ link
 ;
 }
 }
-;

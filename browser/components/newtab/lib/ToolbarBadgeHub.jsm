@@ -1506,8 +1506,7 @@ _ToolbarBadgeHub
 =
 _ToolbarBadgeHub
 ;
-this
-.
+const
 ToolbarBadgeHub
 =
 new

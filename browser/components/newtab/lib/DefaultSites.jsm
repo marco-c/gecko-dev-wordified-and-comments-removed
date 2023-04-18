@@ -605,8 +605,7 @@ com
 ]
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -615,8 +614,7 @@ DEFAULT_SITES
 "
 ]
 ;
-this
-.
+const
 DEFAULT_SITES
 =
 Object

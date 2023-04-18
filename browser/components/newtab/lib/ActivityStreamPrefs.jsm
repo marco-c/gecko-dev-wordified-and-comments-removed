@@ -65,10 +65,6 @@ stream
 .
 "
 ;
-this
-.
-Prefs
-=
 class
 Prefs
 extends
@@ -190,11 +186,6 @@ observer
 ;
 }
 }
-;
-this
-.
-DefaultPrefs
-=
 class
 DefaultPrefs
 extends
@@ -340,7 +331,6 @@ ex
 }
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

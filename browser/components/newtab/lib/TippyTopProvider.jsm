@@ -204,10 +204,6 @@ return
 domain
 ;
 }
-this
-.
-TippyTopProvider
-=
 class
 TippyTopProvider
 {
@@ -378,7 +374,6 @@ site
 ;
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

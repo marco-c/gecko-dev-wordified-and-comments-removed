@@ -8239,8 +8239,7 @@ _ASRouter
 =
 _ASRouter
 ;
-this
-.
+const
 ASRouter
 =
 new

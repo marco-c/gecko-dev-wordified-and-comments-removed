@@ -350,8 +350,7 @@ MatchPatternSet
 )
 ;
 }
-this
-.
+const
 ASRouterTriggerListeners
 =
 new

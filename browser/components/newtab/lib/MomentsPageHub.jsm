@@ -675,8 +675,7 @@ _MomentsPageHub
 =
 _MomentsPageHub
 ;
-this
-.
+const
 MomentsPageHub
 =
 new
