@@ -8281,10 +8281,8 @@ mTarget
 ;
 const
 auto
-&
 curForTarget
 =
-*
 MaybeFind
 (
 state
@@ -8295,6 +8293,10 @@ slotTarget
 ;
 if
 (
+curForTarget
+&
+&
+*
 curForTarget
 =
 =
