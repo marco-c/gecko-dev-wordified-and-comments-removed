@@ -168,7 +168,13 @@ mTransformType
 gfxPoint
 mTranslation
 ;
-gfxSize
+mozilla
+:
+:
+gfx
+:
+:
+MatrixScalesDouble
 mScale
 ;
 XFORM
