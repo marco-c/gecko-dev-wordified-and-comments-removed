@@ -2318,7 +2318,7 @@ ProcessStableStateQueue
 (
 )
 ;
-MaybePokeGC
+IsIdleGCTaskNeeded
 (
 )
 ;
@@ -2390,9 +2390,10 @@ void
 CycleCollectedJSContext
 :
 :
-MaybePokeGC
+IsIdleGCTaskNeeded
 (
 )
+const
 {
 class
 IdleTimeGCTaskRunnable
