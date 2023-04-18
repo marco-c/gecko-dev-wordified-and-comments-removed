@@ -355,9 +355,9 @@ endif
 endif
 ifeq
 (
-bundle
+Darwin
 (
-MOZ_FS_LAYOUT
+OS_TARGET
 )
 )
 BINPATH

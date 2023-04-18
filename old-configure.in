@@ -1997,9 +1997,6 @@ prefix
 /
 lib
 "
-MOZ_FS_LAYOUT
-=
-unix
 dnl
 Configure
 platform
@@ -10528,9 +10525,6 @@ MOZ_USER_DIR
 "
 Mozilla
 "
-MOZ_FS_LAYOUT
-=
-bundle
 ;
 ;
 uikit
@@ -10618,9 +10612,6 @@ MOZ_USER_DIR
 "
 Mozilla
 "
-MOZ_FS_LAYOUT
-=
-bundle
 ;
 ;
 esac
@@ -10814,10 +10805,6 @@ fi
 fi
 #
 COMPILE_ENVIRONMENT
-AC_SUBST
-(
-MOZ_FS_LAYOUT
-)
 AC_SUBST_LIST
 (
 TK_CFLAGS
