@@ -1609,7 +1609,7 @@ win32kLockdownState
 win32kLockdownState
 <
 =
-15
+17
 )
 ;
 }
