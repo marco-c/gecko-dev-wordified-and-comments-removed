@@ -141,13 +141,6 @@ kInitSavePaperSize
 const
 unsigned
 long
-kInitSaveResolution
-=
-0x00000400
-;
-const
-unsigned
-long
 kInitSaveDuplex
 =
 0x00000800
