@@ -621,6 +621,11 @@ attribute
 double
 nativeProjectionScaleFactor
 ;
+readonly
+attribute
+boolean
+usesDepthValues
+;
 XRProjectionLayer
 createProjectionLayer
 (

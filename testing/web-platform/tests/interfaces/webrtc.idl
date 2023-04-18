@@ -1056,7 +1056,7 @@ RTCCertificateExpiration
 [
 EnforceRange
 ]
-DOMTimeStamp
+EpochTimeStamp
 expires
 ;
 }
@@ -1072,7 +1072,7 @@ RTCCertificate
 {
 readonly
 attribute
-DOMTimeStamp
+EpochTimeStamp
 expires
 ;
 sequence

@@ -177,7 +177,7 @@ vibrate
 ;
 readonly
 attribute
-DOMTimeStamp
+EpochTimeStamp
 timestamp
 ;
 readonly
@@ -261,7 +261,7 @@ badge
 VibratePattern
 vibrate
 ;
-DOMTimeStamp
+EpochTimeStamp
 timestamp
 ;
 boolean

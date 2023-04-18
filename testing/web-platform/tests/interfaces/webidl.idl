@@ -319,12 +319,6 @@ DATA_CLONE_ERR
 ;
 }
 ;
-typedef
-unsigned
-long
-long
-DOMTimeStamp
-;
 callback
 Function
 =
@@ -343,4 +337,10 @@ VoidFunction
 undefined
 (
 )
+;
+typedef
+unsigned
+long
+long
+DOMTimeStamp
 ;

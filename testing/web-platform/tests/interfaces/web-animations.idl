@@ -446,6 +446,10 @@ ComputedEffectTiming
 :
 EffectTiming
 {
+double
+?
+progress
+;
 unrestricted
 double
 ?

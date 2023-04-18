@@ -418,7 +418,7 @@ close
 static
 Promise
 <
-boolean
+VideoEncoderSupport
 >
 isConfigSupported
 (

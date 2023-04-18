@@ -227,10 +227,6 @@ CSSNumberish
 ?
 localTime
 ;
-CSSNumberish
-?
-progress
-;
 }
 ;
 [

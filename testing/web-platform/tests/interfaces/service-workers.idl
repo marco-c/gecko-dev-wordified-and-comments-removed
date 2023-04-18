@@ -600,7 +600,7 @@ Client
 {
 readonly
 attribute
-VisibilityState
+DocumentVisibilityState
 visibilityState
 ;
 readonly

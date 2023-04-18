@@ -174,3 +174,17 @@ icon
 ;
 }
 ;
+enum
+TransactionAutomationMode
+{
+"
+none
+"
+"
+autoaccept
+"
+"
+autoreject
+"
+}
+;
