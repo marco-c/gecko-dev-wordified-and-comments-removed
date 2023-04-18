@@ -62,6 +62,16 @@ util
 .
 h
 >
+#
+include
+<
+event2
+/
+visibility
+.
+h
+>
+EVENT2_EXPORT_SYMBOL
 int
 evdns_init
 (
@@ -71,6 +81,7 @@ void
 struct
 evdns_base
 ;
+EVENT2_EXPORT_SYMBOL
 struct
 evdns_base
 *
@@ -79,6 +90,7 @@ evdns_get_global_base
 void
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_shutdown
 (
@@ -86,6 +98,7 @@ int
 fail_requests
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_nameserver_add
 (
@@ -95,24 +108,28 @@ int
 address
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_count_nameservers
 (
 void
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_clear_nameservers_and_suspend
 (
 void
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_resume
 (
 void
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_nameserver_ip_add
 (
@@ -122,6 +139,7 @@ char
 ip_as_string
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_resolve_ipv4
 (
@@ -138,6 +156,7 @@ void
 ptr
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_resolve_ipv6
 (
@@ -160,6 +179,7 @@ in_addr
 struct
 in6_addr
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_resolve_reverse
 (
@@ -177,6 +197,7 @@ void
 ptr
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_resolve_reverse_ipv6
 (
@@ -194,6 +215,7 @@ void
 ptr
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_set_option
 (
@@ -209,6 +231,7 @@ int
 flags
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_resolv_conf_parse
 (
@@ -221,12 +244,14 @@ const
 filename
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_search_clear
 (
 void
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_search_add
 (
@@ -236,6 +261,7 @@ char
 domain
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_search_ndots_set
 (
@@ -244,6 +270,7 @@ int
 ndots
 )
 ;
+EVENT2_EXPORT_SYMBOL
 struct
 evdns_server_port
 *
@@ -263,6 +290,7 @@ user_data
 #
 ifdef
 _WIN32
+EVENT2_EXPORT_SYMBOL
 int
 evdns_config_windows_nameservers
 (

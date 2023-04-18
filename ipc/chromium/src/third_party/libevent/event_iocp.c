@@ -636,7 +636,7 @@ if
 s
 =
 =
-INVALID_SOCKET
+EVUTIL_INVALID_SOCKET
 )
 return
 ;

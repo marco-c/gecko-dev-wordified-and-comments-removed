@@ -224,8 +224,13 @@ h
 ifndef
 _WIN32
 #
+ifndef
+__cdecl
+#
 define
 __cdecl
+#
+endif
 #
 endif
 static

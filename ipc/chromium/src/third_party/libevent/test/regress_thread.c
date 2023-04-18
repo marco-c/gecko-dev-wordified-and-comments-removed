@@ -2863,6 +2863,7 @@ define
 TEST
 (
 name
+f
 )
 \
 {
@@ -2877,6 +2878,10 @@ TT_FORK
 TT_NEED_THREADS
 |
 TT_NEED_BASE
+|
+(
+f
+)
 \
 &
 basic_setup
@@ -2931,6 +2936,7 @@ endif
 TEST
 (
 conditions_simple
+TT_RETRIABLE
 )
 {
 "
@@ -2952,6 +2958,7 @@ _WIN32
 TEST
 (
 no_events
+TT_RETRIABLE
 )
 #
 endif

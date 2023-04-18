@@ -394,7 +394,7 @@ dumpevents
 :
 "
 if
-python2
+python
 -
 c
 '
@@ -441,7 +441,6 @@ test
 -
 dumpevents
 |
-python2
 TEST_SRC_DIR
 /
 check

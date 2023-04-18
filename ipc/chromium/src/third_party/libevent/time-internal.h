@@ -114,6 +114,7 @@ timeval
 tv
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evutil_usleep_
 (
@@ -199,6 +200,7 @@ last_time
 ;
 }
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evutil_configure_monotonic_time_
 (
@@ -210,6 +212,7 @@ int
 flags
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evutil_gettime_monotonic_
 (

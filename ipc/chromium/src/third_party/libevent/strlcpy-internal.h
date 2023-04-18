@@ -28,6 +28,15 @@ h
 #
 include
 "
+event2
+/
+visibility
+.
+h
+"
+#
+include
+"
 evconfig
 -
 private
@@ -44,6 +53,7 @@ string
 .
 h
 >
+EVENT2_EXPORT_SYMBOL
 size_t
 event_strlcpy_
 (

@@ -55,6 +55,13 @@ windows
 h
 >
 #
+include
+<
+getopt
+.
+h
+>
+#
 else
 #
 include
@@ -127,13 +134,6 @@ endif
 include
 <
 errno
-.
-h
->
-#
-include
-<
-getopt
 .
 h
 >
@@ -599,7 +599,7 @@ argv
 {
 #
 ifdef
-HAVE_SETRLIMIT
+EVENT__HAVE_SETRLIMIT
 struct
 rlimit
 rl
@@ -704,7 +704,7 @@ exit
 }
 #
 ifdef
-HAVE_SETRLIMIT
+EVENT__HAVE_SETRLIMIT
 rl
 .
 rlim_cur

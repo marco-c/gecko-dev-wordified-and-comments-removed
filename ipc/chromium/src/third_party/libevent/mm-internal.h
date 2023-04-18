@@ -26,6 +26,7 @@ endif
 #
 ifndef
 EVENT__DISABLE_MM_REPLACEMENT
+EVENT2_EXPORT_SYMBOL
 void
 *
 event_mm_malloc_
@@ -34,6 +35,7 @@ size_t
 sz
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 *
 event_mm_calloc_
@@ -44,6 +46,7 @@ size_t
 size
 )
 ;
+EVENT2_EXPORT_SYMBOL
 char
 *
 event_mm_strdup_
@@ -54,6 +57,7 @@ char
 str
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 *
 event_mm_realloc_
@@ -65,6 +69,7 @@ size_t
 sz
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_mm_free_
 (

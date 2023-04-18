@@ -65,4 +65,17 @@ _POSIX_SOURCE
 #
 endif
 #
+ifdef
+__QNX__
+#
+ifndef
+__EXT_POSIX2
+#
+define
+__EXT_POSIX2
+#
+endif
+#
+endif
+#
 endif

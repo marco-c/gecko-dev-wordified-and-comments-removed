@@ -62,6 +62,7 @@ util
 .
 h
 >
+EVENT2_EXPORT_SYMBOL
 struct
 evhttp
 *
@@ -75,6 +76,7 @@ ev_uint16_t
 port
 )
 ;
+EVENT2_EXPORT_SYMBOL
 struct
 evhttp_connection
 *
@@ -88,6 +90,7 @@ ev_uint16_t
 port
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evhttp_connection_set_base
 (

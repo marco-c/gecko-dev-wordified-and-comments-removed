@@ -237,6 +237,12 @@ size_t
 ;
 CHECK_EVENT_SIZEOF
 (
+TIME_T
+time_t
+)
+;
+CHECK_EVENT_SIZEOF
+(
 VOID_P
 void
 *

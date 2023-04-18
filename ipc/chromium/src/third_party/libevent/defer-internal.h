@@ -60,6 +60,7 @@ void
 *
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_deferred_cb_init_
 (
@@ -81,6 +82,7 @@ event_callback
 ev_uint8_t
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_deferred_cb_cancel_
 (
@@ -92,6 +94,7 @@ event_callback
 *
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 event_deferred_cb_schedule_
 (

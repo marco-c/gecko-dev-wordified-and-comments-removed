@@ -156,6 +156,7 @@ shutdownSemaphore
 ;
 }
 ;
+EVENT2_EXPORT_SYMBOL
 const
 struct
 win32_extension_fns
@@ -177,6 +178,7 @@ cb
 ;
 #
 endif
+EVENT2_EXPORT_SYMBOL
 void
 event_overlapped_init_
 (
@@ -187,6 +189,7 @@ iocp_callback
 cb
 )
 ;
+EVENT2_EXPORT_SYMBOL
 struct
 evbuffer
 *
@@ -216,6 +219,7 @@ evutil_socket_t
 fd
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evbuffer_launch_read_
 (
@@ -231,6 +235,7 @@ event_overlapped
 ol
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evbuffer_launch_write_
 (
@@ -246,6 +251,7 @@ event_overlapped
 ol
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evbuffer_commit_read_
 (
@@ -255,6 +261,7 @@ evbuffer
 ev_ssize_t
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evbuffer_commit_write_
 (
@@ -264,6 +271,7 @@ evbuffer
 ev_ssize_t
 )
 ;
+EVENT2_EXPORT_SYMBOL
 struct
 event_iocp_port
 *
@@ -273,6 +281,7 @@ int
 n_cpus
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 event_iocp_port_associate_
 (
@@ -286,6 +295,7 @@ ev_uintptr_t
 key
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 event_iocp_shutdown_
 (
@@ -297,6 +307,7 @@ long
 waitMsec
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 event_iocp_activate_overlapped_
 (
@@ -317,6 +328,7 @@ n_bytes
 struct
 event_base
 ;
+EVENT2_EXPORT_SYMBOL
 struct
 event_iocp_port
 *
@@ -328,6 +340,7 @@ event_base
 base
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 event_base_start_iocp_
 (
@@ -348,6 +361,7 @@ event_base
 base
 )
 ;
+EVENT2_EXPORT_SYMBOL
 struct
 bufferevent
 *

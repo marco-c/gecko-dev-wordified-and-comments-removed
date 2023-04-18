@@ -144,6 +144,15 @@ LEV_OPT_REUSEABLE_PORT
 <
 7
 )
+#
+define
+LEV_OPT_BIND_IPV6ONLY
+(
+1u
+<
+<
+8
+)
 EVENT2_EXPORT_SYMBOL
 struct
 evconnlistener

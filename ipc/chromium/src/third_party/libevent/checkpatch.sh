@@ -177,7 +177,7 @@ as
 regular
 file
 -
-f
+d
 -
 treat
 as
@@ -894,7 +894,6 @@ clang
 -
 format
 -
--
 style
 =
 "
@@ -911,12 +910,17 @@ clang_format_diff
 (
 )
 {
+cat
+"
+"
+|
 clang
 -
 format
 -
 diff
 -
+p1
 -
 style
 =
@@ -924,8 +928,6 @@ style
 (
 clang_style
 )
-"
-"
 "
 ;
 }

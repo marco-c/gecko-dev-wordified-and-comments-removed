@@ -712,11 +712,13 @@ has_equal
 ;
 int
 i
-current_argv_len
 match
 =
 -
 1
+;
+size_t
+current_argv_len
 ;
 if
 (
@@ -821,9 +823,6 @@ name
 )
 =
 =
-(
-unsigned
-)
 current_argv_len
 )
 {

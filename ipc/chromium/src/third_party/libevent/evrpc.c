@@ -1506,6 +1506,10 @@ return
 ;
 error
 :
+if
+(
+rpc_state
+)
 evrpc_reqstate_free_
 (
 rpc_state
@@ -3945,13 +3949,6 @@ break
 case
 EVRPC_PAUSE
 :
-if
-(
-req
-!
-=
-NULL
-)
 evhttp_request_own
 (
 req

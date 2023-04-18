@@ -398,6 +398,11 @@ event_base_dispatch
 base
 )
 ;
+event_free
+(
+ev
+)
+;
 event_base_free
 (
 base

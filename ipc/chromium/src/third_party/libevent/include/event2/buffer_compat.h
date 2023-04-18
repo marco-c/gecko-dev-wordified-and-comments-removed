@@ -45,7 +45,7 @@ arg
 )
 ;
 EVENT2_EXPORT_SYMBOL
-void
+int
 evbuffer_setcb
 (
 struct

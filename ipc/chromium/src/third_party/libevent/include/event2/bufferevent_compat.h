@@ -5,6 +5,15 @@ EVENT2_BUFFEREVENT_COMPAT_H_INCLUDED_
 define
 EVENT2_BUFFEREVENT_COMPAT_H_INCLUDED_
 #
+include
+<
+event2
+/
+visibility
+.
+h
+>
+#
 define
 evbuffercb
 bufferevent_data_cb
@@ -12,6 +21,7 @@ bufferevent_data_cb
 define
 everrorcb
 bufferevent_event_cb
+EVENT2_EXPORT_SYMBOL
 struct
 bufferevent
 *
@@ -30,6 +40,7 @@ void
 cbarg
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 bufferevent_settimeout
 (

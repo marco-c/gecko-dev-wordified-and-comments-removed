@@ -462,7 +462,7 @@ sock
 {
 #
 ifdef
-HAVE_SO_LINGER
+EVENT__HAVE_STRUCT_LINGER
 struct
 linger
 l
@@ -507,7 +507,7 @@ SO_REUSEADDR
 ;
 #
 ifdef
-HAVE_SO_LINGER
+EVENT__HAVE_STRUCT_LINGER
 l
 .
 l_onoff

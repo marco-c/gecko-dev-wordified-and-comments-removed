@@ -349,7 +349,7 @@ select_add
 select_del
 select_dispatch
 select_dealloc
-0
+1
 EV_FEATURE_FDS
 0
 }

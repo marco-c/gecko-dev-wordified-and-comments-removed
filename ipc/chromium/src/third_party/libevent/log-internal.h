@@ -15,6 +15,16 @@ h
 "
 #
 ifdef
+__cplusplus
+extern
+"
+C
+"
+{
+#
+endif
+#
+ifdef
 __GNUC__
 #
 define
@@ -67,9 +77,6 @@ int
 0xdeaddead
 )
 #
-define
-USE_GLOBAL_FOR_DEBUG_LOGGING
-#
 if
 !
 defined
@@ -90,9 +97,7 @@ endif
 #
 ifdef
 EVENT_DEBUG_LOGGING_ENABLED
-#
-ifdef
-USE_GLOBAL_FOR_DEBUG_LOGGING
+EVENT2_CORE_EXPORT_SYMBOL
 extern
 ev_uint32_t
 event_debug_logging_mask_
@@ -107,16 +112,6 @@ event_debug_logging_mask_
 )
 #
 else
-ev_uint32_t
-event_debug_get_logging_mask_
-(
-void
-)
-;
-#
-endif
-#
-else
 #
 define
 event_debug_get_logging_mask_
@@ -127,6 +122,7 @@ event_debug_get_logging_mask_
 )
 #
 endif
+EVENT2_EXPORT_SYMBOL
 void
 event_err
 (
@@ -147,6 +143,7 @@ EV_CHECK_FMT
 )
 EV_NORETURN
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_warn
 (
@@ -164,6 +161,7 @@ EV_CHECK_FMT
 2
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_sock_err
 (
@@ -186,6 +184,7 @@ EV_CHECK_FMT
 )
 EV_NORETURN
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_sock_warn
 (
@@ -205,6 +204,7 @@ EV_CHECK_FMT
 3
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_errx
 (
@@ -225,6 +225,7 @@ EV_CHECK_FMT
 )
 EV_NORETURN
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_warnx
 (
@@ -242,6 +243,7 @@ EV_CHECK_FMT
 2
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_msgx
 (
@@ -259,6 +261,7 @@ EV_CHECK_FMT
 2
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_debugx_
 (
@@ -276,6 +279,7 @@ EV_CHECK_FMT
 2
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_logv_
 (
@@ -348,5 +352,11 @@ endif
 #
 undef
 EV_CHECK_FMT
+#
+ifdef
+__cplusplus
+}
+#
+endif
 #
 endif
