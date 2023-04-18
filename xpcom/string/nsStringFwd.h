@@ -143,8 +143,8 @@ T
 const
 T
 *
-uint32_t
-uint32_t
+size_t
+size_t
 )
 ;
 template
@@ -161,8 +161,8 @@ T
 const
 T
 *
-uint32_t
-uint32_t
+size_t
+size_t
 )
 ;
 template

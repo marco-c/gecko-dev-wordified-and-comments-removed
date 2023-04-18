@@ -302,7 +302,7 @@ aIn
 char16_t
 *
 aOut
-uint32_t
+size_t
 aLen
 )
 ;
@@ -316,7 +316,7 @@ aIn
 char16_t
 *
 aOut
-uint32_t
+size_t
 aLen
 )
 ;
@@ -330,7 +330,7 @@ aIn
 char16_t
 *
 aOut
-uint32_t
+size_t
 aLen
 )
 ;
@@ -446,7 +446,7 @@ aIn
 char16_t
 *
 aOut
-uint32_t
+size_t
 aLen
 )
 ;
@@ -474,8 +474,8 @@ char16_t
 const
 char16_t
 *
-uint32_t
-uint32_t
+size_t
+size_t
 )
 ;
 int32_t
@@ -487,8 +487,8 @@ char
 const
 char
 *
-uint32_t
-uint32_t
+size_t
+size_t
 )
 ;
 class
@@ -538,8 +538,8 @@ char16_t
 const
 char16_t
 *
-uint32_t
-uint32_t
+size_t
+size_t
 )
 ;
 inline
@@ -628,7 +628,7 @@ const
 char16_t
 *
 b
-uint32_t
+size_t
 len
 )
 ;
@@ -643,9 +643,9 @@ const
 char
 *
 aRight
-uint32_t
+size_t
 aLeftBytes
-uint32_t
+size_t
 aRightBytes
 )
 ;
@@ -715,7 +715,7 @@ const
 char
 *
 aUTF8
-uint32_t
+size_t
 aLength
 bool
 *

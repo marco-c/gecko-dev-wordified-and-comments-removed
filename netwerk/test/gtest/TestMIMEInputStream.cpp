@@ -554,10 +554,13 @@ rv
 ;
 ASSERT_EQ
 (
+int64_t
+(
 buf
 .
 Length
 (
+)
 )
 size
 )
@@ -909,10 +912,13 @@ Called
 ;
 ASSERT_EQ
 (
+int64_t
+(
 buf
 .
 Length
 (
+)
 )
 callback
 -

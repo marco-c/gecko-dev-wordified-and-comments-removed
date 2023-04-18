@@ -18,6 +18,13 @@ MemoryReporting
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 template
 <
 class

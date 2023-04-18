@@ -322,7 +322,7 @@ bytes
 Len
 =
 %
-u
+zu
 "
 this
 mFlatHttpRequestHeaders

@@ -4882,7 +4882,7 @@ s
 length
 =
 %
-u
+zu
 range
 =
 %

@@ -2221,7 +2221,7 @@ difference_type
 difference_type
 ;
 static
-uint32_t
+difference_type
 readable_distance
 (
 const
@@ -2235,8 +2235,6 @@ aLast
 )
 {
 return
-uint32_t
-(
 aLast
 .
 get
@@ -2247,7 +2245,6 @@ aFirst
 .
 get
 (
-)
 )
 ;
 }
@@ -2313,7 +2310,7 @@ ptrdiff_t
 difference_type
 ;
 static
-uint32_t
+difference_type
 readable_distance
 (
 CharT
@@ -2322,8 +2319,6 @@ aStr
 )
 {
 return
-uint32_t
-(
 nsCharTraits
 <
 CharT
@@ -2334,11 +2329,10 @@ length
 (
 aStr
 )
-)
 ;
 }
 static
-uint32_t
+difference_type
 readable_distance
 (
 CharT
@@ -2350,12 +2344,9 @@ aLast
 )
 {
 return
-uint32_t
-(
 aLast
 -
 aFirst
-)
 ;
 }
 static
@@ -2416,7 +2407,7 @@ OutputIterator
 value_type
 *
 aStr
-uint32_t
+size_t
 aN
 )
 {
@@ -2455,7 +2446,7 @@ const
 CharT
 *
 aStr
-uint32_t
+size_t
 aN
 )
 {

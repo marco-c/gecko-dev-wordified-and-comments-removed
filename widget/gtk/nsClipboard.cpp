@@ -2197,7 +2197,7 @@ unicode
 data
 length
 %
-d
+zd
 \
 n
 "
@@ -3728,7 +3728,7 @@ LOGCLIP
 "
 sent
 %
-d
+zd
 bytes
 of
 utf
@@ -4228,7 +4228,7 @@ LOGCLIP
 "
 Setting
 %
-d
+zd
 bytest
 of
 %

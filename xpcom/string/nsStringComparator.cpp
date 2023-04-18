@@ -37,9 +37,9 @@ const
 char
 *
 aRhs
-uint32_t
+size_t
 aLhsLength
-uint32_t
+size_t
 aRhsLength
 )
 {

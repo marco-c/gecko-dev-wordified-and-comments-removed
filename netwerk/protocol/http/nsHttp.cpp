@@ -3076,7 +3076,10 @@ mName
 nsDependentCSubstring
 (
 nullptr
-0u
+size_t
+(
+0
+)
 )
 )
 mValue
@@ -3084,7 +3087,10 @@ mValue
 nsDependentCSubstring
 (
 nullptr
-0u
+size_t
+(
+0
+)
 )
 )
 mIsQuotedValue

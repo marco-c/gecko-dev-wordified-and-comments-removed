@@ -762,7 +762,7 @@ LOG
 -
 -
 %
-u
+zu
 fixed
 -
 length

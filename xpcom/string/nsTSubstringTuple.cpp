@@ -125,7 +125,7 @@ WriteTo
 char_type
 *
 aBuf
-uint32_t
+size_type
 aBufLen
 )
 const
@@ -148,7 +148,7 @@ small
 "
 )
 ;
-uint32_t
+size_type
 headLen
 =
 aBufLen

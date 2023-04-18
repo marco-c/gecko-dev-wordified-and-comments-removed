@@ -1601,7 +1601,7 @@ nsAString
 aString
 )
 {
-uint32_t
+size_t
 upTo
 =
 mozilla
@@ -1612,7 +1612,7 @@ Utf16ValidUpTo
 aString
 )
 ;
-uint32_t
+size_t
 len
 =
 aString

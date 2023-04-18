@@ -5507,7 +5507,7 @@ nsPrintfCString
 (
 "
 %
-u
+zu
 "
 mLastLine
 .

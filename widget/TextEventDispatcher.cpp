@@ -2360,6 +2360,9 @@ std
 :
 :
 max
+<
+size_t
+>
 (
 keyEvent
 .
@@ -2368,7 +2371,7 @@ mKeyValue
 Length
 (
 )
-1u
+1
 )
 )
 ;

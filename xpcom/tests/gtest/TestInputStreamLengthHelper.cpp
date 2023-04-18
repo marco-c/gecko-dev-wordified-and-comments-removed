@@ -140,10 +140,13 @@ aLength
 {
 ASSERT_EQ
 (
+int64_t
+(
 buf
 .
 Length
 (
+)
 )
 aLength
 )

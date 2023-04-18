@@ -814,6 +814,9 @@ WebAuthNClientData
 =
 {
 WEBAUTHN_CLIENT_DATA_CURRENT_VERSION
+(
+DWORD
+)
 aInfo
 .
 ClientDataJSON
@@ -2451,6 +2454,9 @@ WebAuthNClientData
 =
 {
 WEBAUTHN_CLIENT_DATA_CURRENT_VERSION
+(
+DWORD
+)
 aInfo
 .
 ClientDataJSON

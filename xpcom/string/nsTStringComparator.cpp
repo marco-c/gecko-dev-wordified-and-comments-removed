@@ -288,9 +288,9 @@ const
 T
 *
 aRhs
-uint32_t
+size_t
 aLLength
-uint32_t
+size_t
 aRLength
 )
 {
@@ -335,8 +335,8 @@ char
 const
 char
 *
-uint32_t
-uint32_t
+size_t
+size_t
 )
 ;
 template
@@ -349,7 +349,7 @@ char16_t
 const
 char16_t
 *
-uint32_t
-uint32_t
+size_t
+size_t
 )
 ;

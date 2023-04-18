@@ -268,14 +268,14 @@ data
 )
 {
 const
-uint32_t
+size_t
 kChunkSize
 =
 128
 *
 1024
 ;
-uint32_t
+size_t
 next
 =
 std
@@ -293,7 +293,7 @@ kChunkSize
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0

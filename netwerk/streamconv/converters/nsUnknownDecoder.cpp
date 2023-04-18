@@ -1702,6 +1702,9 @@ std
 :
 :
 min
+<
+uint32_t
+>
 (
 decodedData
 .
@@ -2186,6 +2189,9 @@ std
 :
 :
 min
+<
+uint32_t
+>
 (
 mDecodedData
 .
@@ -2919,6 +2925,9 @@ std
 :
 :
 min
+<
+uint32_t
+>
 (
 mDecodedData
 .
