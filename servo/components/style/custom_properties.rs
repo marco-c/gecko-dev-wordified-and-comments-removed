@@ -4976,13 +4976,11 @@ nothing
 |
 t
 |
-{
 t
 .
 serialization_type
 (
 )
-}
 )
 ;
 input

@@ -154,12 +154,10 @@ enabled
 )
 =
 >
-{
 Self
 :
 :
 Normal
-}
 other
 =
 >

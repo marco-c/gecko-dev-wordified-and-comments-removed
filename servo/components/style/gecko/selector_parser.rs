@@ -1222,6 +1222,7 @@ dir
 )
 =
 >
+{
 match
 dir
 .
@@ -1264,6 +1265,7 @@ DocumentState
 empty
 (
 )
+}
 }
 NonTSPseudoClass
 :

@@ -743,7 +743,6 @@ sort_unstable_by_key
 |
 block
 |
-{
 (
 block
 .
@@ -757,7 +756,6 @@ source_order
 (
 )
 )
-}
 )
 ;
 }
