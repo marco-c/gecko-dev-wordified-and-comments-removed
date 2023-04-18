@@ -71,6 +71,13 @@ info
 }
 ;
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 Error
@@ -340,6 +347,7 @@ derive
 (
 Copy
 Clone
+Debug
 )
 ]
 pub
