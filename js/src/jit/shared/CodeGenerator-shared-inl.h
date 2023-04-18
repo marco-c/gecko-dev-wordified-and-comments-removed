@@ -1311,7 +1311,7 @@ int32_t
 (
 graph
 .
-localSlotCount
+localSlotsSize
 (
 )
 )

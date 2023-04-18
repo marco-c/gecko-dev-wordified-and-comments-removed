@@ -134,7 +134,7 @@ numInstructions_
 (
 1
 )
-localSlotCount_
+localSlotsSize_
 (
 0
 )

@@ -81,15 +81,15 @@ SafepointWriter
 SafepointWriter
 (
 uint32_t
-slotCount
+slotsSize
 uint32_t
-argumentCount
+argumentsSize
 )
 :
 frameSlots_
 (
 (
-slotCount
+slotsSize
 /
 sizeof
 (
@@ -101,7 +101,7 @@ intptr_t
 )
 argumentSlots_
 (
-argumentCount
+argumentsSize
 /
 sizeof
 (
@@ -2272,7 +2272,7 @@ frameSlots_
 script
 -
 >
-frameSlots
+frameSlotsSize
 (
 )
 /
@@ -2289,7 +2289,7 @@ argumentSlots_
 script
 -
 >
-argumentSlots
+argumentSlotsSize
 (
 )
 /
