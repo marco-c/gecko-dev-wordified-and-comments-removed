@@ -506,11 +506,7 @@ format
 "
 :
 "
-moz
--
-url
--
-format
+uri
 "
 }
 "

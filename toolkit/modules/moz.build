@@ -1234,11 +1234,6 @@ JSONFile
 jsm
 "
 "
-JsonSchema
-.
-jsm
-"
-"
 KeywordUtils
 .
 jsm
