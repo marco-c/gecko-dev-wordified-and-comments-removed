@@ -921,10 +921,6 @@ from
 (
 &
 db
-.
-as_ref
-(
-)
 [
 0
 .
@@ -1035,10 +1031,6 @@ from
 (
 &
 db
-.
-as_ref
-(
-)
 [
 split
 .
@@ -1289,11 +1281,8 @@ Decoder
 :
 new
 (
+&
 enc
-.
-as_ref
-(
-)
 )
 ;
 let
@@ -1413,10 +1402,6 @@ from
 (
 &
 db
-.
-as_ref
-(
-)
 [
 0
 .
@@ -1524,10 +1509,6 @@ from
 (
 &
 db
-.
-as_ref
-(
-)
 [
 split
 .

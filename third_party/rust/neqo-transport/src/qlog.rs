@@ -145,7 +145,7 @@ use
 crate
 :
 :
-Version
+QuicVersion
 ;
 pub
 fn
@@ -611,14 +611,14 @@ format
 x
 }
 "
-Version
+QuicVersion
 :
 :
 default
 (
 )
 .
-wire_version
+as_u32
 (
 )
 )
@@ -718,11 +718,6 @@ ConnectionState
 :
 :
 Attempted
-State
-:
-:
-WaitVersion
-|
 State
 :
 :
