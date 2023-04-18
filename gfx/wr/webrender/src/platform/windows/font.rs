@@ -3816,7 +3816,13 @@ padding
 )
 as
 usize
+(
 height
++
+padding
+*
+2
+)
 as
 usize
 is_subpixel
