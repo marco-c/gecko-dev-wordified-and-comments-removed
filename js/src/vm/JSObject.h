@@ -2983,13 +2983,6 @@ JSObject
 obj
 )
 ;
-enum
-DefineAsIntrinsic
-{
-NotIntrinsic
-AsIntrinsic
-}
-;
 extern
 bool
 DefineFunctions
@@ -3003,8 +2996,6 @@ const
 JSFunctionSpec
 *
 fs
-DefineAsIntrinsic
-intrinsic
 )
 ;
 extern

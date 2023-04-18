@@ -9910,10 +9910,6 @@ DefineFunctions
 cx
 proto
 changeArrayByCopyProtoFunctions
-js
-:
-:
-NotIntrinsic
 )
 )
 {
