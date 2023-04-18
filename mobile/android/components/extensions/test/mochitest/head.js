@@ -10,7 +10,7 @@ AppConstants
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -27,8 +27,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 var
