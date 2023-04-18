@@ -223,7 +223,7 @@ text
 )
 ;
 const
-frameLinkNode
+messageLocationNode
 =
 messageNode
 .
@@ -234,16 +234,12 @@ querySelector
 message
 -
 location
-.
-frame
--
-link
 "
 )
 ;
 ok
 (
-frameLinkNode
+messageLocationNode
 "
 The
 message
@@ -338,7 +334,7 @@ focused
 const
 href
 =
-frameLinkNode
+messageLocationNode
 .
 getAttribute
 (
@@ -352,7 +348,7 @@ url
 const
 line
 =
-frameLinkNode
+messageLocationNode
 .
 getAttribute
 (
@@ -366,7 +362,7 @@ line
 const
 column
 =
-frameLinkNode
+messageLocationNode
 .
 getAttribute
 (

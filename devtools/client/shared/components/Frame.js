@@ -236,6 +236,11 @@ propTypes
 {
 return
 {
+className
+:
+PropTypes
+.
+string
 frame
 :
 PropTypes
@@ -500,6 +505,7 @@ showHost
 showEmptyPathAsHost
 showFullSourceUrl
 messageSource
+className
 }
 =
 this
@@ -709,6 +715,17 @@ frame
 -
 link
 "
++
+(
+className
+?
+{
+className
+}
+:
+"
+"
+)
 }
 ;
 if

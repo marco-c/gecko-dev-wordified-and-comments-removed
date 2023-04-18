@@ -1760,7 +1760,7 @@ text
 )
 ;
 const
-frameLinkNode
+locationNode
 =
 messageNode
 .
@@ -1771,16 +1771,12 @@ querySelector
 message
 -
 location
-.
-frame
--
-link
 "
 )
 ;
 ok
 (
-frameLinkNode
+locationNode
 "
 The
 message
@@ -1797,7 +1793,7 @@ checkClickOnNode
 (
 hud
 toolbox
-frameLinkNode
+locationNode
 expectUrl
 expectLine
 expectColumn

@@ -1616,9 +1616,9 @@ onViewSource
 const
 location
 =
-dom
-.
-span
+frame
+?
+FrameView
 (
 {
 className
@@ -1631,12 +1631,6 @@ devtools
 -
 monospace
 "
-}
-frame
-?
-FrameView
-(
-{
 frame
 onClick
 :
@@ -1660,7 +1654,6 @@ source
 )
 :
 null
-)
 ;
 let
 learnMore
