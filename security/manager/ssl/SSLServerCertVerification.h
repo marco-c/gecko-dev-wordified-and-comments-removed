@@ -425,8 +425,6 @@ uint32_t
 providerFlags
 Time
 time
-PRTime
-prtime
 uint32_t
 certVerifierFlags
 BaseSSLServerCertVerificationResult
@@ -496,8 +494,6 @@ uint32_t
 providerFlags
 Time
 time
-PRTime
-prtime
 uint32_t
 certVerifierFlags
 BaseSSLServerCertVerificationResult
@@ -566,10 +562,6 @@ certVerifierFlags
 mTime
 (
 time
-)
-mPRTime
-(
-prtime
 )
 mStapledOCSPResponse
 (
@@ -647,10 +639,6 @@ mCertVerifierFlags
 const
 Time
 mTime
-;
-const
-PRTime
-mPRTime
 ;
 Maybe
 <

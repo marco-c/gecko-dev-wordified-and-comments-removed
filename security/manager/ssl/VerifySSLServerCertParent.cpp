@@ -883,9 +883,6 @@ aProviderFlags
 Now
 (
 )
-PR_Now
-(
-)
 aCertVerifierFlags
 resultTask
 )
