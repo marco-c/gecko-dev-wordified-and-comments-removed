@@ -433,6 +433,7 @@ in
 nsIURI
 aRefreshURI
 in
+unsigned
 long
 aMillis
 in

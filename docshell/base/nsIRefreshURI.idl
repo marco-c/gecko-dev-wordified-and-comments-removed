@@ -230,6 +230,7 @@ in
 nsIPrincipal
 aPrincipal
 in
+unsigned
 long
 aMillis
 )
@@ -319,6 +320,7 @@ in
 nsIPrincipal
 aPrincipal
 in
+unsigned
 long
 aMillis
 )
