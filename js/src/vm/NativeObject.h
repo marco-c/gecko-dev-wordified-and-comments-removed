@@ -4041,6 +4041,14 @@ uint32_t
 nfixed
 )
 ;
+void
+freeDynamicSlotsAfterSwap
+(
+NativeObject
+*
+old
+)
+;
 [
 [
 nodiscard
@@ -4055,9 +4063,6 @@ JSContext
 cx
 HandleNativeObject
 obj
-NativeObject
-*
-old
 HandleValueVector
 values
 )
