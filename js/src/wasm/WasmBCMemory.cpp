@@ -4231,6 +4231,9 @@ r
 }
 #
 ifdef
+ENABLE_WASM_MEMORY64
+#
+ifdef
 JS_PUNBOX64
 static
 inline
@@ -4264,6 +4267,8 @@ r
 low
 ;
 }
+#
+endif
 #
 endif
 #
