@@ -43,8 +43,6 @@ test
 /
 shared
 -
-redux
--
 head
 .
 js
