@@ -1412,11 +1412,6 @@ ID
 mConstructorID
 ;
 const
-NativePropertyHooks
-*
-mProtoHooks
-;
-const
 JSClass
 *
 mXrayExpandoClass
