@@ -21,6 +21,12 @@ parameters_loader
 from
 taskgraph
 .
+task
+import
+Task
+from
+taskgraph
+.
 util
 .
 yaml
@@ -45,11 +51,6 @@ from
 optimize
 import
 optimize_task_graph
-from
-.
-task
-import
-Task
 from
 .
 taskgraph

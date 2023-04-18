@@ -7,6 +7,12 @@ parameters
 import
 Parameters
 from
+taskgraph
+.
+task
+import
+Task
+from
 gecko_taskgraph
 import
 morph
@@ -22,12 +28,6 @@ gecko_taskgraph
 taskgraph
 import
 TaskGraph
-from
-gecko_taskgraph
-.
-task
-import
-Task
 from
 mozunit
 import

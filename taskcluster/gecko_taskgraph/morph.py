@@ -67,6 +67,7 @@ nice
 as
 slugid
 from
+taskgraph
 .
 task
 import

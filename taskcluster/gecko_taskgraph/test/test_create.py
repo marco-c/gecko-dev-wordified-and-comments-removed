@@ -7,6 +7,12 @@ config
 import
 GraphConfig
 from
+taskgraph
+.
+task
+import
+Task
+from
 unittest
 import
 mock
@@ -26,12 +32,6 @@ gecko_taskgraph
 taskgraph
 import
 TaskGraph
-from
-gecko_taskgraph
-.
-task
-import
-Task
 from
 mozunit
 import
