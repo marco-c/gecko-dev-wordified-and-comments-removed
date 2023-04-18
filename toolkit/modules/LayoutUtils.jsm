@@ -56,10 +56,7 @@ parentFrame
 =
 win
 .
-browsingContext
-?
-.
-embedderElement
+frameElement
 ;
 while
 (
@@ -137,10 +134,7 @@ parentFrame
 =
 win
 .
-browsingContext
-?
-.
-embedderElement
+frameElement
 ;
 }
 return
