@@ -58,6 +58,17 @@ BROWSER_CHROME_MANIFESTS
 =
 [
 "
+listeners
+/
+test
+/
+browser
+/
+browser
+.
+ini
+"
+"
 messagehandler
 /
 test
