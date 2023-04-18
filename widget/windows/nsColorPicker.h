@@ -149,6 +149,7 @@ nsAString
 &
 aInitialColor
 )
+override
 ;
 NS_IMETHOD
 Open
