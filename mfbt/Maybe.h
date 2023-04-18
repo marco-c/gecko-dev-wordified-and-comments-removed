@@ -87,15 +87,6 @@ Poison
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ThreadSafety
-.
-h
-"
 class
 nsCycleCollectionTraversalCallback
 ;
@@ -2913,7 +2904,6 @@ T
 >
 )
 {
-PUSH_IGNORE_THREAD_SAFETY
 ref
 (
 )
@@ -2926,7 +2916,6 @@ T
 (
 )
 ;
-POP_THREAD_SAFETY
 poisonData
 (
 )
