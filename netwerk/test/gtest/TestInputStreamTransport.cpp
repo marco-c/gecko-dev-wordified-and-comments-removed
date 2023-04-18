@@ -671,6 +671,16 @@ aEventTarget
 )
 override
 {
+if
+(
+!
+aCallback
+)
+{
+return
+NS_OK
+;
+}
 RefPtr
 <
 BlockingAsyncStream
