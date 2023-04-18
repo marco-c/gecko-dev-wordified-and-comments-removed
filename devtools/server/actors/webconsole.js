@@ -4888,6 +4888,10 @@ if
 isWorker
 )
 {
+clearConsoleEvents
+(
+)
+;
 return
 ;
 }
