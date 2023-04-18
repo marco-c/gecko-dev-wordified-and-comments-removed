@@ -951,16 +951,6 @@ if
 mozinfo
 .
 socketprocess_networking
-&
-&
-mozinfo
-.
-os
-!
-=
-"
-win
-"
 )
 {
 info

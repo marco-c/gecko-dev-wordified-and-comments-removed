@@ -5977,16 +5977,6 @@ socketprocess_networking
 &
 &
 again
-&
-&
-mozinfo
-.
-os
-!
-=
-"
-win
-"
 )
 {
 info

@@ -3791,6 +3791,13 @@ if
 sInitializedJS
 )
 {
+JS
+:
+:
+DisableJitBackend
+(
+)
+;
 const
 char
 *
