@@ -4558,27 +4558,20 @@ relative_to
 data_path
 )
         
-normalized_venv_root
-=
+return
 os
 .
 path
 .
 normpath
 (
+Path
+(
 self
 .
 prefix
 )
-        
-return
-os
-.
-path
-.
-join
-(
-normalized_venv_root
+/
 relative_path
 )
     
@@ -4611,9 +4604,16 @@ dirs
 .
 append
 (
+os
+.
+path
+.
+normpath
+(
 self
 .
 prefix
+)
 )
         
 purelib
