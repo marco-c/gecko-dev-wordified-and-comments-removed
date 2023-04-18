@@ -13,11 +13,6 @@ OBJECT_URL
 object
 url
 "
-HANDLE
-:
-"
-handle
-"
 STARTED_BUFFERING
 :
 "
