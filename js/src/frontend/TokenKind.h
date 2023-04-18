@@ -726,6 +726,16 @@ As
 \
 MACRO
 (
+Assert
+"
+'
+assert
+'
+"
+)
+\
+MACRO
+(
 Async
 "
 '

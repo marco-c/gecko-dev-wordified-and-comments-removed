@@ -179,6 +179,15 @@ as
 \
 MACRO_
 (
+assert
+assert_
+"
+assert
+"
+)
+\
+MACRO_
+(
 Async
 Async
 "

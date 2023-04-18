@@ -485,6 +485,16 @@ As
 \
 MACRO
 (
+assert
+assert_
+TokenKind
+:
+:
+Assert
+)
+\
+MACRO
+(
 async
 async
 TokenKind

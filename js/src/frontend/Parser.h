@@ -3473,6 +3473,13 @@ moduleExportName
 (
 )
 ;
+bool
+assertClause
+(
+ListNodeType
+assertionsSet
+)
+;
 BinaryNodeType
 importDeclaration
 (
