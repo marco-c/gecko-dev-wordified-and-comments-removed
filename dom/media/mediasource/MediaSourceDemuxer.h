@@ -229,7 +229,10 @@ NotifyInitDataArrived
 (
 )
 ;
-void
+RefPtr
+<
+GenericPromise
+>
 GetDebugInfo
 (
 dom
@@ -239,6 +242,7 @@ MediaSourceDemuxerDebugInfo
 &
 aInfo
 )
+const
 ;
 void
 AddSizeOfResources
