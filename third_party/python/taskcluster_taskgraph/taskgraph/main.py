@@ -1966,6 +1966,7 @@ taskgraph
 parameters
 import
 Parameters
+parameters_loader
     
 from
 taskgraph
@@ -2193,7 +2194,7 @@ not
 parameters
 :
         
-kwargs
+overrides
 =
 {
             
@@ -2217,15 +2218,18 @@ target_kind
 parameters
 =
 [
-Parameters
+            
+parameters_loader
 (
+None
 strict
 =
 False
-*
-*
-kwargs
+overrides
+=
+overrides
 )
+        
 ]
     
 for

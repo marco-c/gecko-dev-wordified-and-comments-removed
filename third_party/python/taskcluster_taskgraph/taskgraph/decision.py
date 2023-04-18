@@ -743,6 +743,9 @@ getcwd
 )
 )
     
+try
+:
+        
 commit_message
 =
 repo
@@ -750,6 +753,15 @@ repo
 get_commit_message
 (
 )
+    
+except
+UnicodeDecodeError
+:
+        
+commit_message
+=
+"
+"
     
 parameters
 [

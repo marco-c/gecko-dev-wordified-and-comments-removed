@@ -129,6 +129,9 @@ self
 args
 :
 str
+*
+*
+kwargs
 )
 :
         
@@ -159,9 +162,16 @@ env
 self
 .
 _env
-universal_newlines
+encoding
 =
-True
+"
+utf
+-
+8
+"
+*
+*
+kwargs
         
 )
     

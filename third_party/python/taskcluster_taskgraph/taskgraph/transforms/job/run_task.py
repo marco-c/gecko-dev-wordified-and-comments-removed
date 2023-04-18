@@ -44,6 +44,7 @@ taskgraph
 util
 import
 path
+taskcluster
 from
 taskgraph
 .
@@ -737,6 +738,11 @@ in
 os
 .
 environ
+and
+not
+taskcluster
+.
+testing
 :
         
 if
