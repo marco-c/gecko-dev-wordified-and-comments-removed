@@ -144,6 +144,7 @@ waitForExplicitFinish
 let
 objectCompare
 =
+async
 (
 type
 props
@@ -162,6 +163,7 @@ props
 {
 is
 (
+await
 props
 [
 prop
@@ -297,6 +299,7 @@ failOnCall
 var
 input_id
 =
+await
 MIDITestUtils
 .
 inputInfo
@@ -306,6 +309,7 @@ id
 var
 output_id
 =
+await
 MIDITestUtils
 .
 outputInfo
@@ -414,6 +418,7 @@ get
 output_id
 )
 ;
+await
 objectCompare
 (
 "
@@ -425,6 +430,7 @@ inputInfo
 input
 )
 ;
+await
 objectCompare
 (
 "

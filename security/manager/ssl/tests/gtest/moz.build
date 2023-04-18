@@ -23,6 +23,11 @@ DeserializeCertTest
 cpp
 "
 "
+HMACTest
+.
+cpp
+"
+"
 MD4Test
 .
 cpp

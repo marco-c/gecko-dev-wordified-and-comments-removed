@@ -189,13 +189,11 @@ NS_NSSCOMPONENT_CID
 }
 \
 }
-extern
 bool
 EnsureNSSInitializedChromeOrContent
 (
 )
 ;
-extern
 bool
 HandleTLSPrefChange
 (
@@ -205,13 +203,11 @@ nsCString
 aPref
 )
 ;
-extern
 void
 SetValidationOptionsCommon
 (
 )
 ;
-extern
 void
 NSSShutdownForSocketProcess
 (
