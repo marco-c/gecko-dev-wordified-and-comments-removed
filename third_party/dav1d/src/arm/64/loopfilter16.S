@@ -4340,7 +4340,7 @@ the
 inner
 6
 pixels
-br
+ret
 x13
 .
 endif
@@ -4366,7 +4366,7 @@ the
 inner
 4
 pixels
-br
+ret
 x14
 .
 endif
@@ -4381,7 +4381,7 @@ writing
 back
 any
 pixels
-br
+ret
 x15
 endfunc
 .
@@ -4569,7 +4569,7 @@ x1
 lsl
 #
 1
-br
+ret
 x15
 endfunc
 function
@@ -4845,7 +4845,7 @@ x0
 x0
 #
 4
-br
+ret
 x15
 endfunc
 function
@@ -5020,7 +5020,7 @@ x1
 lsl
 #
 1
-br
+ret
 x15
 endfunc
 function
@@ -5274,7 +5274,7 @@ x0
 x0
 #
 4
-br
+ret
 x15
 endfunc
 function
@@ -5501,7 +5501,7 @@ sub
 x0
 x0
 x1
-br
+ret
 x15
 8
 :
@@ -5571,7 +5571,7 @@ x1
 lsl
 #
 1
-br
+ret
 x15
 endfunc
 function
@@ -5803,7 +5803,7 @@ x0
 x0
 #
 8
-br
+ret
 x15
 8
 :
@@ -5944,7 +5944,7 @@ x0
 x0
 #
 4
-br
+ret
 x15
 endfunc
 function
@@ -6341,7 +6341,7 @@ x1
 lsl
 #
 1
-br
+ret
 x15
 7
 :
@@ -6445,7 +6445,7 @@ sub
 x0
 x0
 x1
-br
+ret
 x15
 8
 :
@@ -6515,7 +6515,7 @@ x1
 lsl
 #
 1
-br
+ret
 x15
 endfunc
 function
@@ -6905,7 +6905,7 @@ v31
 x0
 ]
 x1
-br
+ret
 x15
 7
 :
@@ -7024,7 +7024,7 @@ x0
 x0
 #
 8
-br
+ret
 x15
 8
 :
@@ -7165,7 +7165,7 @@ x0
 x0
 #
 4
-br
+ret
 x15
 endfunc
 /
@@ -8315,7 +8315,7 @@ d9
 sp
 ]
 0x40
-br
+ret
 x11
 endfunc
 .

@@ -576,14 +576,14 @@ dw
 -
 3784
 1567
-clip_min
+clip_18b_min
 :
 times
 4
 dd
 -
 0x20000
-clip_max
+clip_18b_max
 :
 times
 4
@@ -8177,7 +8177,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -8185,7 +8185,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -8920,7 +8920,7 @@ m3
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -8938,7 +8938,7 @@ m3
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -9090,7 +9090,7 @@ m6
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -9108,7 +9108,7 @@ m6
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -9291,7 +9291,7 @@ m1
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -9309,7 +9309,7 @@ m1
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -10254,7 +10254,7 @@ m3
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -10284,7 +10284,7 @@ m7
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 pmaxsd
@@ -10482,7 +10482,7 @@ m4
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -10500,7 +10500,7 @@ m4
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -11237,7 +11237,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -11245,7 +11245,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -13364,7 +13364,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -13372,7 +13372,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -15456,7 +15456,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -15464,7 +15464,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -16655,7 +16655,7 @@ m3
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -16694,7 +16694,7 @@ m3
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -16894,7 +16894,7 @@ m5
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -16933,7 +16933,7 @@ m5
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -18032,7 +18032,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -18040,7 +18040,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -19524,7 +19524,7 @@ m3
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -19563,7 +19563,7 @@ m3
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -19744,7 +19744,7 @@ m3
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -19783,7 +19783,7 @@ m3
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -20177,7 +20177,7 @@ m1
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -20216,7 +20216,7 @@ m1
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -20997,7 +20997,7 @@ m3
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -21036,7 +21036,7 @@ m3
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -21217,7 +21217,7 @@ m0
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -21256,7 +21256,7 @@ m0
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -22811,7 +22811,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -22819,7 +22819,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -23387,7 +23387,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -23395,7 +23395,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -25822,7 +25822,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -25830,7 +25830,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -27423,7 +27423,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -27431,7 +27431,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -32312,7 +32312,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -32320,7 +32320,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -33797,7 +33797,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -33805,7 +33805,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -34989,7 +34989,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -34997,7 +34997,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -37097,7 +37097,7 @@ m3
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -37136,7 +37136,7 @@ m3
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -37324,7 +37324,7 @@ m2
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -37363,7 +37363,7 @@ m2
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -38731,7 +38731,7 @@ m3
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -38770,7 +38770,7 @@ m3
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -38958,7 +38958,7 @@ m2
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -38997,7 +38997,7 @@ m2
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -39106,7 +39106,7 @@ m0
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -39114,7 +39114,7 @@ m2
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -40343,7 +40343,7 @@ m2
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -40351,7 +40351,7 @@ m3
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mov
@@ -40772,7 +40772,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -40780,7 +40780,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -42684,7 +42684,7 @@ m2
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -42692,7 +42692,7 @@ m3
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mov
@@ -43480,7 +43480,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -43488,7 +43488,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -45623,7 +45623,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -45631,7 +45631,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -47834,7 +47834,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -47842,7 +47842,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -49684,7 +49684,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -49692,7 +49692,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -51377,7 +51377,7 @@ m0
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -51416,7 +51416,7 @@ m0
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -51667,7 +51667,7 @@ m5
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -51706,7 +51706,7 @@ m5
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -52485,7 +52485,7 @@ m6
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -52524,7 +52524,7 @@ m6
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -52712,7 +52712,7 @@ m3
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 REPX
@@ -52751,7 +52751,7 @@ m3
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -53354,7 +53354,7 @@ m5
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -53362,7 +53362,7 @@ m6
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 REPX
@@ -54401,7 +54401,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -54409,7 +54409,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova
@@ -56272,7 +56272,7 @@ m12
 [
 o
 (
-clip_min
+clip_18b_min
 )
 ]
 mova
@@ -56280,7 +56280,7 @@ m13
 [
 o
 (
-clip_max
+clip_18b_max
 )
 ]
 mova

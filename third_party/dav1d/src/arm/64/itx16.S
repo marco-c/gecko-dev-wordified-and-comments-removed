@@ -4091,6 +4091,7 @@ v7
 endm
 function
 inv_dct_4s_x4_neon
+AARCH64_VALID_CALL_TARGET
 movrel
 x16
 idct_coeffs
@@ -4389,6 +4390,7 @@ o3
 endm
 function
 inv_adst_4s_x4_neon
+AARCH64_VALID_CALL_TARGET
 iadst_4x4
 v16
 v17
@@ -4398,6 +4400,7 @@ ret
 endfunc
 function
 inv_flipadst_4s_x4_neon
+AARCH64_VALID_CALL_TARGET
 iadst_4x4
 v19
 v18
@@ -4407,6 +4410,7 @@ ret
 endfunc
 function
 inv_identity_4s_x4_neon
+AARCH64_VALID_CALL_TARGET
 movz
 w16
 #
@@ -5025,7 +5029,7 @@ d
 x0
 ]
 x1
-br
+ret
 x15
 endfunc
 .
@@ -5814,6 +5818,7 @@ out6
 endm
 function
 inv_dct_4s_x8_neon
+AARCH64_VALID_CALL_TARGET
 movrel
 x16
 idct_coeffs
@@ -6675,6 +6680,7 @@ out5
 endm
 function
 inv_adst_4s_x8_neon
+AARCH64_VALID_CALL_TARGET
 iadst_8
 v16
 v17
@@ -6688,6 +6694,7 @@ ret
 endfunc
 function
 inv_flipadst_4s_x8_neon
+AARCH64_VALID_CALL_TARGET
 iadst_8
 v23
 v22
@@ -6701,6 +6708,7 @@ ret
 endfunc
 function
 inv_identity_4s_x8_neon
+AARCH64_VALID_CALL_TARGET
 sqshl
 v16
 .
@@ -7120,7 +7128,7 @@ x5
 load_add_store_8x8
 x0
 x7
-br
+ret
 x15
 endfunc
 .
@@ -7525,7 +7533,7 @@ x5
 load_add_store_8x4
 x0
 x7
-br
+ret
 x15
 endfunc
 function
@@ -7770,7 +7778,7 @@ x5
 load_add_store_4x8
 x0
 x7
-br
+ret
 x15
 endfunc
 .
@@ -8045,6 +8053,7 @@ def_fns_48
 4
 function
 inv_dct_4s_x16_neon
+AARCH64_VALID_CALL_TARGET
 movrel
 x16
 idct_coeffs
@@ -11382,6 +11391,7 @@ out9
 endm
 function
 inv_adst_4s_x16_neon
+AARCH64_VALID_CALL_TARGET
 iadst_16
 v16
 v17
@@ -11403,6 +11413,7 @@ ret
 endfunc
 function
 inv_flipadst_4s_x16_neon
+AARCH64_VALID_CALL_TARGET
 iadst_16
 v31
 v30
@@ -11424,6 +11435,7 @@ ret
 endfunc
 function
 inv_identity_4s_x16_neon
+AARCH64_VALID_CALL_TARGET
 movz
 w16
 #
@@ -12073,7 +12085,7 @@ x6
 16
 .
 endr
-br
+ret
 x14
 endfunc
 .
@@ -12141,7 +12153,7 @@ x5
 load_add_store_8x16
 x6
 x7
-br
+ret
 x14
 endfunc
 function
@@ -12343,7 +12355,7 @@ sp
 sp
 #
 512
-br
+ret
 x15
 endfunc
 const
@@ -12769,7 +12781,7 @@ x0
 load_add_store_8x4
 x6
 x7
-br
+ret
 x15
 endfunc
 function
@@ -13279,7 +13291,7 @@ x5
 load_add_store_4x16
 x0
 x6
-br
+ret
 x15
 endfunc
 const
@@ -14428,7 +14440,7 @@ d9
 sp
 ]
 0x40
-br
+ret
 x15
 endfunc
 function
@@ -15315,7 +15327,7 @@ d9
 sp
 ]
 0x20
-br
+ret
 x15
 endfunc
 const
@@ -18499,7 +18511,7 @@ shift
 .
 purgem
 store2
-br
+ret
 x14
 endfunc
 .
@@ -19108,7 +19120,7 @@ x9
 .
 purgem
 combine
-br
+ret
 x14
 endfunc
 const
@@ -21132,7 +21144,7 @@ sp
 sp
 #
 2048
-br
+ret
 x15
 endfunc
 function
@@ -21353,7 +21365,7 @@ sp
 sp
 #
 1024
-br
+ret
 x15
 endfunc
 function
@@ -21575,7 +21587,7 @@ sp
 sp
 #
 1024
-br
+ret
 x15
 endfunc
 function
@@ -21868,7 +21880,7 @@ sp
 sp
 #
 512
-br
+ret
 x15
 endfunc
 function
@@ -22085,7 +22097,7 @@ sp
 sp
 #
 512
-br
+ret
 x15
 endfunc
 function
@@ -25117,7 +25129,7 @@ x6
 7
 bl
 inv_dct64_step2_neon
-br
+ret
 x14
 endfunc
 .
@@ -25521,7 +25533,7 @@ b
 .
 lt
 1b
-br
+ret
 x14
 endfunc
 function
@@ -25950,7 +25962,7 @@ b
 .
 lt
 1b
-br
+ret
 x14
 endfunc
 function
@@ -26214,7 +26226,7 @@ x5
 32
 *
 2
-br
+ret
 x15
 endfunc
 function
@@ -26473,7 +26485,7 @@ x5
 32
 *
 2
-br
+ret
 x15
 endfunc
 function
@@ -26710,7 +26722,7 @@ x5
 32
 *
 2
-br
+ret
 x15
 endfunc
 function
@@ -26971,7 +26983,7 @@ x4
 16
 *
 2
-br
+ret
 x15
 endfunc
 function
@@ -27217,6 +27229,6 @@ x5
 32
 *
 2
-br
+ret
 x15
 endfunc
