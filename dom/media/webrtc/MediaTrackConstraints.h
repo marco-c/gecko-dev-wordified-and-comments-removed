@@ -54,7 +54,7 @@ namespace
 mozilla
 {
 class
-MediaDevice
+LocalMediaDevice
 ;
 class
 MediaEngineSource
@@ -1964,7 +1964,7 @@ nsTArray
 <
 RefPtr
 <
-MediaDevice
+LocalMediaDevice
 >
 >
 &
@@ -2005,7 +2005,7 @@ nsTArray
 <
 RefPtr
 <
-MediaDevice
+LocalMediaDevice
 >
 >
 &
@@ -2032,7 +2032,7 @@ nsTArray
 <
 RefPtr
 <
-MediaDevice
+LocalMediaDevice
 >
 >
 &
