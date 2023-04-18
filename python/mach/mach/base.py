@@ -35,11 +35,8 @@ providers
 def
 __init__
 (
-        
 self
 cwd
-=
-None
 settings
 =
 None
@@ -52,7 +49,6 @@ None
 *
 *
 kwargs
-    
 )
 :
         
