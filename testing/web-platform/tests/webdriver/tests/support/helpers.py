@@ -333,6 +333,19 @@ state
 "
 "
         
+if
+session
+.
+capabilities
+.
+get
+(
+"
+setWindowRect
+"
+)
+:
+            
 session
 .
 window
