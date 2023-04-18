@@ -2596,6 +2596,8 @@ dom
 Document
 *
 aNewDocument
+bool
+aReportBFCacheComboTelemetry
 )
 ;
 static

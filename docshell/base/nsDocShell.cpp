@@ -30030,6 +30030,7 @@ CanSavePresentation
 LOAD_NORMAL
 nullptr
 nullptr
+true
 )
 ;
 mLoadingURI
@@ -30567,6 +30568,8 @@ aNewRequest
 Document
 *
 aNewDocument
+bool
+aReportBFCacheComboTelemetry
 )
 {
 if
@@ -30905,11 +30908,17 @@ break
 }
 }
 }
+if
+(
+aReportBFCacheComboTelemetry
+)
+{
 ReportBFCacheComboTelemetry
 (
 bfCacheCombo
 )
 ;
+}
 return
 doc
 &
@@ -33028,6 +33037,7 @@ CanSavePresentation
 mLoadType
 request
 doc
+false
 )
 ;
 }
@@ -34842,6 +34852,7 @@ CanSavePresentation
 mLoadType
 aRequest
 doc
+false
 )
 ;
 }
@@ -41733,6 +41744,7 @@ LoadType
 )
 nullptr
 nullptr
+true
 )
 ;
 if
