@@ -14231,6 +14231,7 @@ r
 BackfaceIsHidden
 (
 )
+false
 wr
 :
 :
@@ -14560,6 +14561,7 @@ r
 BackfaceIsHidden
 (
 )
+false
 wr
 :
 :
@@ -20017,6 +20019,7 @@ r
 BackfaceIsHidden
 (
 )
+false
 wr
 :
 :
@@ -21762,6 +21765,7 @@ caret
 BackfaceIsHidden
 (
 )
+false
 wr
 :
 :
@@ -21791,6 +21795,7 @@ hook
 BackfaceIsHidden
 (
 )
+false
 wr
 :
 :

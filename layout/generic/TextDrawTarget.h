@@ -1258,6 +1258,7 @@ ClipRect
 (
 )
 mBackfaceVisible
+false
 color
 )
 ;
@@ -1818,6 +1819,7 @@ ToLayoutRect
 aClip
 )
 true
+false
 aFilter
 aKey
 true
@@ -2342,6 +2344,7 @@ ClipRect
 (
 )
 mBackfaceVisible
+false
 color
 )
 ;

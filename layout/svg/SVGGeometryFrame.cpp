@@ -4411,6 +4411,7 @@ aItem
 BackfaceIsHidden
 (
 )
+true
 color
 )
 ;

@@ -6453,6 +6453,8 @@ LayoutRect
 aClip
 bool
 aIsBackfaceVisible
+bool
+aForceAntiAliasing
 const
 wr
 :
@@ -6525,6 +6527,7 @@ mWrState
 aBounds
 clip
 aIsBackfaceVisible
+aForceAntiAliasing
 &
 mCurrentSpaceAndClipChain
 aColor
@@ -7507,6 +7510,8 @@ LayoutRect
 aClip
 bool
 aIsBackfaceVisible
+bool
+aForceAntiAliasing
 wr
 :
 :
@@ -7583,6 +7588,7 @@ mWrState
 aBounds
 clip
 aIsBackfaceVisible
+aForceAntiAliasing
 &
 mCurrentSpaceAndClipChain
 aFilter

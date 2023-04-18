@@ -34964,6 +34964,7 @@ r
 aBorderParams
 .
 mBackfaceIsVisible
+false
 color
 )
 ;

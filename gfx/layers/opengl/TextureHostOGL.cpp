@@ -3394,6 +3394,7 @@ PushImage
 aBounds
 aClip
 true
+false
 aFilter
 aImageKeys
 [
@@ -4286,6 +4287,7 @@ PushImage
 aBounds
 aClip
 true
+false
 aFilter
 aImageKeys
 [
@@ -5046,6 +5048,7 @@ PushImage
 aBounds
 aClip
 true
+false
 aFilter
 aImageKeys
 [
