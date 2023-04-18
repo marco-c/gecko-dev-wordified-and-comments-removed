@@ -284,6 +284,17 @@ JSTracer
 trc
 )
 ;
+#
+ifdef
+DEBUG
+void
+checkTables
+(
+)
+const
+;
+#
+endif
 private
 :
 bool
