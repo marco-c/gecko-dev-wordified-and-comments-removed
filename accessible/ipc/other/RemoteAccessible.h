@@ -183,6 +183,13 @@ StartOffset
 override
 ;
 virtual
+uint32_t
+EndOffset
+(
+)
+override
+;
+virtual
 int32_t
 LinkIndexAtOffset
 (

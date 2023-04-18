@@ -483,6 +483,12 @@ StartOffset
 )
 ;
 virtual
+uint32_t
+EndOffset
+(
+)
+;
+virtual
 already_AddRefed
 <
 AccAttributes
