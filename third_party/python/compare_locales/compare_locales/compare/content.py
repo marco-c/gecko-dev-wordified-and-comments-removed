@@ -163,23 +163,14 @@ dirname
 merge_file
 )
         
-if
-not
-os
-.
-path
-.
-isdir
-(
-outdir
-)
-:
-            
 os
 .
 makedirs
 (
 outdir
+exist_ok
+=
+True
 )
     
 def
