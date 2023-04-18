@@ -32,6 +32,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -86,6 +95,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 =
 0
@@ -109,6 +121,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 =
 0
@@ -198,6 +213,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 ;
@@ -218,6 +236,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 ;

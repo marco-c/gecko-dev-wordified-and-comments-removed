@@ -487,6 +487,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 ;
@@ -507,6 +510,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 ;

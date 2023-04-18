@@ -5981,6 +5981,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 if
@@ -6127,6 +6130,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 if
