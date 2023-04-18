@@ -4998,16 +4998,6 @@ inNode
 const
 ;
 bool
-IsDescendantOfEditorRoot
-(
-const
-nsINode
-*
-aNode
-)
-const
-;
-bool
 ShouldHandleIMEComposition
 (
 )
