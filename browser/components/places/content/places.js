@@ -2737,11 +2737,9 @@ setAttribute
 "
 value
 "
-OS
+PathUtils
 .
-Path
-.
-basename
+filename
 (
 backupFiles
 [
@@ -2835,11 +2833,9 @@ backupFilePaths
 {
 if
 (
-OS
+PathUtils
 .
-Path
-.
-basename
+filename
 (
 backupFilePath
 )
