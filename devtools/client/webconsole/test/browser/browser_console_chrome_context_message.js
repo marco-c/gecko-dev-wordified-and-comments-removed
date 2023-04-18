@@ -151,7 +151,7 @@ every
 expectedMessage
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 expectedMessage
@@ -166,7 +166,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -232,7 +232,7 @@ waitFor
 =
 >
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -270,7 +270,7 @@ expectedMessages
 {
 ok
 (
-findMessage
+findErrorMessage
 (
 hud
 expectedMessage

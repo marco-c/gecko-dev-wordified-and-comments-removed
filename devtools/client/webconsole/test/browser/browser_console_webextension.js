@@ -264,6 +264,12 @@ console
 API
 message
 "
+"
+.
+console
+-
+api
+"
 )
 ;
 await
@@ -275,6 +281,12 @@ background
 console
 API
 message
+"
+"
+.
+console
+-
+api
 "
 )
 ;
@@ -653,7 +665,7 @@ waitFor
 const
 msgs
 =
-findMessages
+findMessagesByType
 (
 hud
 msg

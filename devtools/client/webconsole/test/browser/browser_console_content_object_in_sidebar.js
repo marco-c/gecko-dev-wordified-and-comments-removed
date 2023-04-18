@@ -133,7 +133,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
