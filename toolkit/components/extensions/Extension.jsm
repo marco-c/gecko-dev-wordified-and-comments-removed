@@ -8643,6 +8643,11 @@ resourceURI
 data
 .
 resourceURI
+isPrivileged
+:
+data
+.
+isPrivileged
 }
 )
 ;
