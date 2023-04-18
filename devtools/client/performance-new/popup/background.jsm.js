@@ -823,6 +823,9 @@ cpu
 "
 audiocallbacktracing
 "
+"
+ipcmessages
+"
 ]
 threads
 :
