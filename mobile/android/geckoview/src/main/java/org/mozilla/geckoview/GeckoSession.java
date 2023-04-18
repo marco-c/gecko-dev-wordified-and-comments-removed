@@ -7253,7 +7253,7 @@ if
 (
 BuildConfig
 .
-DEBUG_BUILD
+DEBUG
 &
 &
 handlersCount

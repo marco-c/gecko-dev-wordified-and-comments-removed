@@ -2846,7 +2846,7 @@ if
 (
 BuildConfig
 .
-DEBUG_BUILD
+DEBUG
 )
 {
 throw

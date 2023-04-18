@@ -2595,7 +2595,7 @@ if
 (
 BuildConfig
 .
-DEBUG_BUILD
+DEBUG
 )
 {
 Log
