@@ -53,6 +53,9 @@ namespace
 a11y
 {
 class
+AccAttributes
+;
+class
 HyperTextAccessibleBase
 ;
 class
@@ -406,6 +409,17 @@ uint32_t
 StartOffset
 (
 )
+;
+virtual
+already_AddRefed
+<
+AccAttributes
+>
+Attributes
+(
+)
+=
+0
 ;
 virtual
 void
