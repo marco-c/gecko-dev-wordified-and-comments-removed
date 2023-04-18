@@ -1522,12 +1522,6 @@ override
 ;
 virtual
 uint32_t
-StartOffset
-(
-)
-;
-virtual
-uint32_t
 EndOffset
 (
 )

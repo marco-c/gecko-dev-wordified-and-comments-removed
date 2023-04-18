@@ -444,14 +444,6 @@ ImageSize
 )
 ;
 uint32_t
-StartOffset
-(
-bool
-*
-aOk
-)
-;
-uint32_t
 EndOffset
 (
 bool

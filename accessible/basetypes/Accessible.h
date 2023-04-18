@@ -391,6 +391,12 @@ State
 0
 ;
 virtual
+uint32_t
+StartOffset
+(
+)
+;
+virtual
 void
 TakeFocus
 (
