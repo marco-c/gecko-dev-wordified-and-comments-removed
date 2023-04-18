@@ -1830,7 +1830,13 @@ AudioQueuedInRingBufferMS
 (
 )
 <
+static_cast
+<
+uint32_t
+>
+(
 mProcessedQueueThresholdMS
+)
 )
 {
 if
