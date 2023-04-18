@@ -57,12 +57,6 @@ onAvailable
 }
 )
 {
-targetActor
-.
-attach
-(
-)
-;
 const
 {
 threadActor
