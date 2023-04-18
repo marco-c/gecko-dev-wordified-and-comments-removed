@@ -5250,6 +5250,11 @@ item
 .
 _id
 url
+title
+:
+item
+.
+title
 itemType
 :
 item
@@ -13776,6 +13781,11 @@ item
 .
 _id
 url
+title
+:
+item
+.
+title
 parentId
 :
 item

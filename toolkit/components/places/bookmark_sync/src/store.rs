@@ -5931,6 +5931,7 @@ itemId
 parentId
 position
 type
+title
 placeId
 guid
 parentGuid
@@ -5949,6 +5950,9 @@ position
 b
 .
 type
+b
+.
+title
 b
 .
 fk
