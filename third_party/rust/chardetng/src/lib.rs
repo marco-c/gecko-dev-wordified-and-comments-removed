@@ -2524,12 +2524,10 @@ Copyright
 >
 {
 if
-b
+caseless_class
 =
 =
-b
-'
-'
+0
 {
 score
 +
