@@ -308,15 +308,6 @@ PerformanceStorageWorker
 (
 )
 ;
-MutexAutoLock
-lock
-(
-storage
--
->
-mMutex
-)
-;
 storage
 -
 >
