@@ -515,6 +515,12 @@ true
 ;
 SET_DEFAULT
 (
+disableJitBackend
+false
+)
+;
+SET_DEFAULT
+(
 runExtraChecks
 false
 )

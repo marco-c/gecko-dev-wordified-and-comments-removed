@@ -277,6 +277,12 @@ writer
 nullptr
 )
 ;
+JS_PUBLIC_API
+void
+DisableJitBackend
+(
+)
+;
 }
 extern
 JS_PUBLIC_API
