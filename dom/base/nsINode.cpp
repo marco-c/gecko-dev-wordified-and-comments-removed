@@ -14282,6 +14282,12 @@ Servo_SelectorList_Parse
 (
 &
 aSelectorString
+doc
+-
+>
+IsDocumentURISchemeChrome
+(
+)
 )
 .
 Consume
