@@ -203,6 +203,14 @@ AnyCallback
 handler
 )
 ;
+[
+Throws
+]
+void
+clearConsoleEvents
+(
+)
+;
 /
 /
 base64
