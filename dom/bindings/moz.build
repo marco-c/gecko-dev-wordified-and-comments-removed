@@ -676,6 +676,13 @@ h
 "
 test
 /
+TestTrialInterface
+.
+h
+"
+"
+test
+/
 WrapperCachedNonISupportsTestInterface
 .
 h
@@ -745,6 +752,13 @@ cpp
 test
 /
 TestInterfaceSetlikeNode
+.
+cpp
+"
+"
+test
+/
+TestTrialInterface
 .
 cpp
 "
