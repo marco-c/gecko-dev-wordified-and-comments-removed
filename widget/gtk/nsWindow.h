@@ -3301,6 +3301,15 @@ WaylandPopupGetPositionFromLayout
 (
 )
 ;
+void
+WaylandPopupPropagateChangesToLayout
+(
+bool
+aMove
+bool
+aResize
+)
+;
 nsWindow
 *
 WaylandPopupFindLast
