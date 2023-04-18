@@ -15,15 +15,14 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 extern
 LazyLogModule
 webrtcTCPSocketLog
 ;
-}
 }
 #
 undef

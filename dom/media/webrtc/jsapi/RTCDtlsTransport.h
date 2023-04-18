@@ -45,8 +45,8 @@ nsPIDOMWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -135,7 +135,6 @@ mState
 ;
 }
 ;
-}
 }
 #
 endif

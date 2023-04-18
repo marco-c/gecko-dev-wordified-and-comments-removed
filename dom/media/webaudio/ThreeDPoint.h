@@ -16,8 +16,8 @@ algorithm
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -366,7 +366,6 @@ ThreeDPoint
 rhs
 )
 ;
-}
 }
 #
 endif

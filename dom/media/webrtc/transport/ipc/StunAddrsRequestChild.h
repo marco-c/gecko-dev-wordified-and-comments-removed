@@ -20,8 +20,8 @@ nsISerialEventTarget
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -217,7 +217,6 @@ mRefCnt
 NS_DECL_OWNINGTHREAD
 }
 ;
-}
 }
 #
 endif

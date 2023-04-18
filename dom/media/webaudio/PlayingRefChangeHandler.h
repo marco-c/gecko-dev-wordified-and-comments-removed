@@ -20,8 +20,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -148,7 +148,6 @@ mChange
 ;
 }
 ;
-}
 }
 #
 endif

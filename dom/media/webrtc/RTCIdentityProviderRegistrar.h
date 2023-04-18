@@ -85,8 +85,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -229,7 +229,6 @@ mValidateAssertionCallback
 ;
 }
 ;
-}
 }
 #
 endif

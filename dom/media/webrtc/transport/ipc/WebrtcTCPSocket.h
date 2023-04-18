@@ -95,8 +95,8 @@ nsISocketTransport
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -399,7 +399,6 @@ mProxyRequest
 ;
 }
 ;
-}
 }
 #
 endif

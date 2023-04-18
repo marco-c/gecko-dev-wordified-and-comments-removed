@@ -34,8 +34,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -446,7 +446,6 @@ mInputTrack
 ;
 }
 ;
-}
 }
 #
 endif

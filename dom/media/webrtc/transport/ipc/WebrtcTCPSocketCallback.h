@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -72,7 +72,6 @@ default
 ;
 }
 ;
-}
 }
 #
 endif

@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -194,7 +194,6 @@ mDOMStream
 ;
 }
 ;
-}
 }
 #
 endif

@@ -39,8 +39,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -186,7 +186,6 @@ mProxyCallbacks
 ;
 }
 ;
-}
 }
 #
 endif

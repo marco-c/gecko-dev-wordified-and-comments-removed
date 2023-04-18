@@ -20,8 +20,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 sdp
 {
 enum
@@ -279,7 +279,6 @@ kOffer
 kAnswer
 }
 ;
-}
 }
 #
 endif
