@@ -944,8 +944,8 @@ r_addend
 }
 static
 const
-Elf32_Shdr
-null32_section
+Elf64_Shdr
+null64_section
 =
 {
 0
@@ -963,7 +963,7 @@ SHN_UNDEF
 Elf_Shdr
 null_section
 (
-null32_section
+null64_section
 )
 ;
 Elf_Ehdr
@@ -4673,7 +4673,7 @@ sh_addr
 !
 =
 (
-Elf32_Word
+Elf64_Addr
 )
 -
 1
@@ -4792,7 +4792,7 @@ sh_offset
 !
 =
 (
-Elf32_Word
+Elf64_Off
 )
 -
 1
@@ -5234,7 +5234,7 @@ sh_link
 =
 =
 (
-Elf32_Word
+Elf64_Word
 )
 -
 1
@@ -5266,7 +5266,7 @@ sh_info
 =
 =
 (
-Elf32_Word
+Elf64_Word
 )
 -
 1
