@@ -1127,6 +1127,15 @@ fallthrough
 case
 ERROR_CANNOT_MAKE
 :
+[
+[
+fallthrough
+]
+]
+;
+case
+ERROR_CONTENT_BLOCKED
+:
 rv
 =
 NS_ERROR_FILE_ACCESS_DENIED
