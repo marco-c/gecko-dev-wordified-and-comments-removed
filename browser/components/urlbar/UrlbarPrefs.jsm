@@ -1472,6 +1472,15 @@ init
 (
 )
 ;
+await
+NimbusFeatures
+.
+urlbar
+.
+ready
+(
+)
+;
 this
 .
 _updateFirefoxSuggestScenarioHelper
