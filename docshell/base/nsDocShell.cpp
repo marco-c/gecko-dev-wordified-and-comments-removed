@@ -39461,6 +39461,7 @@ SessionHistoryCommit
 *
 mLoadingEntry
 mLoadType
+mCurrentURI
 hadActiveEntry
 true
 true
@@ -58896,6 +58897,7 @@ SessionHistoryCommit
 *
 loadingEntry
 loadType
+mCurrentURI
 hadActiveEntry
 aPersist
 false
