@@ -462,15 +462,6 @@ GetFrameColorSpace
 )
 const
 ;
-gfx
-:
-:
-ColorRange
-GetFrameColorRange
-(
-)
-const
-;
 MediaResult
 CreateImage
 (
