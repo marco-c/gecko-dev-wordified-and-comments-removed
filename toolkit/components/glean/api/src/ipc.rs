@@ -523,6 +523,14 @@ PROCESS_TYPE_GPU
 >
 {
 }
+nsIXULRuntime
+:
+:
+PROCESS_TYPE_RDD
+=
+>
+{
+}
 _
 =
 >

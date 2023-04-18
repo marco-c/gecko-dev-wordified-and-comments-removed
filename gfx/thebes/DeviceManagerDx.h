@@ -408,7 +408,7 @@ D3D11DeviceStatus
 aDeviceStatus
 )
 ;
-void
+bool
 ExportDeviceInfo
 (
 D3D11DeviceStatus

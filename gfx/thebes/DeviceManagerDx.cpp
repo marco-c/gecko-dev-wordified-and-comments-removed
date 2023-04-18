@@ -2105,7 +2105,7 @@ aDeviceStatus
 )
 ;
 }
-void
+bool
 DeviceManagerDx
 :
 :
@@ -2130,7 +2130,13 @@ value
 (
 )
 ;
+return
+true
+;
 }
+return
+false
+;
 }
 void
 DeviceManagerDx
