@@ -117,15 +117,9 @@ cpuTimeForProcess
 p
 =
 >
-(
 p
 .
-cpuUser
-+
-p
-.
-cpuKernel
-)
+cpuTime
 /
 NS_PER_MS
 ;
