@@ -91,11 +91,10 @@ margin
 2em
 ;
 }
-body
->
-header
->
-h1
+#
+collection
+-
+title
 {
 display
 :
