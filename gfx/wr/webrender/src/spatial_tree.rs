@@ -356,7 +356,6 @@ pub
 struct
 SpatialNodeIndex
 (
-pub
 u32
 )
 ;
