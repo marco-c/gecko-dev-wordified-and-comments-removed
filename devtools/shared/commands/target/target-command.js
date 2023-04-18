@@ -1732,6 +1732,16 @@ if
 (
 !
 isTargetSwitching
+&
+&
+!
+this
+.
+watcherFront
+.
+isDestroyed
+(
+)
 )
 {
 this
