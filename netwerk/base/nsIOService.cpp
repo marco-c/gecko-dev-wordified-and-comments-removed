@@ -3058,6 +3058,17 @@ Clear
 (
 )
 ;
+if
+(
+!
+UseSocketProcess
+(
+)
+)
+{
+return
+;
+}
 sSocketProcessCrashedCount
 +
 +
