@@ -121,6 +121,9 @@ class
 JsepTransceiver
 ;
 class
+TransceiverImpl
+;
+class
 PeerConnectionImpl
 ;
 namespace
@@ -140,9 +143,6 @@ RTCRtpContributingSource
 ;
 struct
 RTCRtpSynchronizationSource
-;
-class
-RTCRtpTransceiver
 ;
 class
 RTCRtpReceiver
@@ -179,9 +179,9 @@ aStsThread
 MediaSessionConduit
 *
 aConduit
-RTCRtpTransceiver
+TransceiverImpl
 *
-aTransceiver
+aTransceiverImpl
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -654,9 +654,9 @@ mTransportHandler
 ;
 RefPtr
 <
-RTCRtpTransceiver
+TransceiverImpl
 >
-mTransceiver
+mTransceiverImpl
 ;
 std
 :

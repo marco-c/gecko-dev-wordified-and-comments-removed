@@ -109,7 +109,7 @@ h
 #
 include
 "
-RTCRtpTransceiver
+TransceiverImpl
 .
 h
 "
@@ -146,7 +146,7 @@ RTCRtpSender
 mWindow
 mPc
 mSenderTrack
-mTransceiver
+mTransceiverImpl
 mStreams
 mDtmf
 )
@@ -238,9 +238,9 @@ dom
 MediaStreamTrack
 *
 aTrack
-RTCRtpTransceiver
+TransceiverImpl
 *
-aTransceiver
+aTransceiverImpl
 )
 :
 mWindow
@@ -259,9 +259,9 @@ mSenderTrack
 (
 aTrack
 )
-mTransceiver
+mTransceiverImpl
 (
-aTransceiver
+aTransceiverImpl
 )
 INIT_CANONICAL
 (
@@ -383,7 +383,7 @@ new
 RTCDTMFSender
 (
 aWindow
-mTransceiver
+mTransceiverImpl
 )
 ;
 }
@@ -455,7 +455,7 @@ const
 if
 (
 !
-mTransceiver
+mTransceiverImpl
 )
 {
 return
@@ -463,7 +463,7 @@ nullptr
 ;
 }
 return
-mTransceiver
+mTransceiverImpl
 -
 >
 GetDtlsTransport
@@ -578,7 +578,7 @@ forget
 )
 ;
 }
-mTransceiver
+mTransceiverImpl
 -
 >
 ChainToDomPromiseWithCodecStats
@@ -2328,7 +2328,7 @@ forget
 }
 if
 (
-mTransceiver
+mTransceiverImpl
 -
 >
 Stopped
@@ -3070,7 +3070,7 @@ aPc
 const
 RefPtr
 <
-RTCRtpTransceiver
+TransceiverImpl
 >
 &
 aTransceiver
@@ -3122,7 +3122,7 @@ default
 ;
 RefPtr
 <
-RTCRtpTransceiver
+TransceiverImpl
 >
 mTransceiver
 ;
@@ -3182,7 +3182,7 @@ aPc
 const
 RefPtr
 <
-RTCRtpTransceiver
+TransceiverImpl
 >
 &
 aTransceiver
@@ -3500,7 +3500,7 @@ newKind
 nsString
 oldKind
 ;
-mTransceiver
+mTransceiverImpl
 -
 >
 GetKind
@@ -3634,7 +3634,7 @@ new
 ReplaceTrackOperation
 (
 mPc
-mTransceiver
+mTransceiverImpl
 aWithTrack
 aError
 )
@@ -3728,7 +3728,7 @@ aWithTrack
 bool
 sending
 =
-mTransceiver
+mTransceiverImpl
 -
 >
 IsSending
@@ -3767,7 +3767,7 @@ aWithTrack
 {
 if
 (
-mTransceiver
+mTransceiverImpl
 -
 >
 IsVideo
@@ -4437,7 +4437,7 @@ VideoCodecConfig
 >
 configs
 ;
-RTCRtpTransceiver
+TransceiverImpl
 :
 :
 NegotiatedDetailsToVideoCodecConfigs
@@ -4586,7 +4586,7 @@ AudioCodecConfig
 >
 configs
 ;
-RTCRtpTransceiver
+TransceiverImpl
 :
 :
 NegotiatedDetailsToAudioCodecConfigs
