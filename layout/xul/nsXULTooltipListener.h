@@ -294,7 +294,7 @@ aListener
 mozilla
 :
 :
-CSSIntPoint
+LayoutDeviceIntPoint
 mMouseScreenPoint
 ;
 static
@@ -302,7 +302,7 @@ constexpr
 mozilla
 :
 :
-CSSIntCoord
+LayoutDeviceIntCoord
 kTooltipMouseMoveTolerance
 =
 7

@@ -1603,10 +1603,12 @@ aPopup
 nsIContent
 *
 aTriggerContent
-int32_t
-aXPos
-int32_t
-aYPos
+const
+mozilla
+:
+:
+LayoutDeviceIntPoint
+&
 )
 ;
 void
