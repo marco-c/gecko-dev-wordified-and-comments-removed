@@ -16300,6 +16300,15 @@ array_indexOf
 1
 0
 )
+JS_FN
+(
+"
+std_Array_lastIndexOf
+"
+array_lastIndexOf
+1
+0
+)
 JS_INLINABLE_FN
 (
 "

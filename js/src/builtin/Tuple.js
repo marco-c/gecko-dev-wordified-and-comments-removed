@@ -951,9 +951,9 @@ length
 )
 {
 return
-callContentFunction
+callFunction
 (
-ArrayLastIndexOf
+std_Array_lastIndexOf
 ThisTupleValue
 (
 this
@@ -963,9 +963,9 @@ valueToFind
 ;
 }
 return
-callContentFunction
+callFunction
 (
-ArrayLastIndexOf
+std_Array_lastIndexOf
 ThisTupleValue
 (
 this
