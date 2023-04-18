@@ -719,9 +719,8 @@ aData
 mCloneData
 -
 >
-BuildClonedMessageDataForBackgroundChild
+BuildClonedMessageData
 (
-aManager
 clonedData
 )
 ;
@@ -938,7 +937,7 @@ data
 mCloneData
 -
 >
-StealFromClonedMessageDataForBackgroundChild
+StealFromClonedMessageData
 (
 aMessage
 .
@@ -1089,7 +1088,7 @@ data
 mCloneData
 -
 >
-BorrowFromClonedMessageDataForBackgroundChild
+BorrowFromClonedMessageData
 (
 aMessage
 .
@@ -1382,9 +1381,8 @@ data
 mCloneData
 -
 >
-BuildClonedMessageDataForBackgroundParent
+BuildClonedMessageData
 (
-aManager
 clonedData
 )
 ;
@@ -1526,7 +1524,7 @@ data
 mCloneData
 -
 >
-StealFromClonedMessageDataForBackgroundParent
+StealFromClonedMessageData
 (
 aMessage
 .

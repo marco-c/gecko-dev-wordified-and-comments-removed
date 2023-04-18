@@ -158,7 +158,7 @@ ServiceWorkerCloneData
 data
 -
 >
-CopyFromClonedMessageDataForBackgroundParent
+CopyFromClonedMessageData
 (
 aClonedData
 )

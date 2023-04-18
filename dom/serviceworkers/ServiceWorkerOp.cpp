@@ -4569,7 +4569,7 @@ ServiceWorkerCloneData
 mData
 -
 >
-CopyFromClonedMessageDataForBackgroundChild
+CopyFromClonedMessageData
 (
 mArgs
 .

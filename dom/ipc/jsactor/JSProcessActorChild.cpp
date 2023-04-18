@@ -370,9 +370,8 @@ NS_WARN_IF
 aData
 -
 >
-BuildClonedMessageDataForChild
+BuildClonedMessageData
 (
-contentChild
 *
 msgData
 )
@@ -443,9 +442,8 @@ if
 aStack
 -
 >
-BuildClonedMessageDataForChild
+BuildClonedMessageData
 (
-contentChild
 *
 stackData
 )

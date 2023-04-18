@@ -830,7 +830,7 @@ serviceWorker
 {
 mClonedData
 .
-CopyFromClonedMessageDataForBackgroundChild
+CopyFromClonedMessageData
 (
 aArgs
 .

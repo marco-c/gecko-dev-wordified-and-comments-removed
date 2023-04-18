@@ -11438,7 +11438,7 @@ GetWrapper
 StructuredCloneData
 data
 ;
-UnpackClonedMessageDataForChild
+UnpackClonedMessageData
 (
 aData
 data
@@ -14484,11 +14484,8 @@ data
 if
 (
 !
-BuildClonedMessageDataForChild
+BuildClonedMessageData
 (
-Manager
-(
-)
 aData
 data
 )
@@ -14531,11 +14528,8 @@ data
 if
 (
 !
-BuildClonedMessageDataForChild
+BuildClonedMessageData
 (
-Manager
-(
-)
 aData
 data
 )

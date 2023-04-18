@@ -3249,7 +3249,7 @@ emplace
 data
 -
 >
-BorrowFromClonedMessageDataForChild
+BorrowFromClonedMessageData
 (
 *
 aData
@@ -3276,7 +3276,7 @@ emplace
 stack
 -
 >
-BorrowFromClonedMessageDataForChild
+BorrowFromClonedMessageData
 (
 *
 aStack

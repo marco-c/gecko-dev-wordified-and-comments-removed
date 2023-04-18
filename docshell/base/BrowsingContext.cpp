@@ -12420,9 +12420,8 @@ if
 !
 message
 .
-BuildClonedMessageDataForChild
+BuildClonedMessageData
 (
-cc
 clonedMessageData
 )
 )
@@ -12562,9 +12561,8 @@ if
 !
 message
 .
-BuildClonedMessageDataForParent
+BuildClonedMessageData
 (
-cp
 clonedMessageData
 )
 )

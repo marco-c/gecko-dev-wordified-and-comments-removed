@@ -3484,9 +3484,8 @@ if
 !
 data
 .
-BuildClonedMessageDataForChild
+BuildClonedMessageData
 (
-mChild
 cloned
 )
 )
@@ -12718,7 +12717,7 @@ data
 ipc
 :
 :
-UnpackClonedMessageDataForChild
+UnpackClonedMessageData
 (
 aData
 data
@@ -26026,7 +26025,7 @@ emplace
 data
 -
 >
-BorrowFromClonedMessageDataForChild
+BorrowFromClonedMessageData
 (
 *
 aData
@@ -26053,7 +26052,7 @@ emplace
 stack
 -
 >
-BorrowFromClonedMessageDataForChild
+BorrowFromClonedMessageData
 (
 *
 aStack
