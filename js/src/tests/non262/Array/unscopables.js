@@ -120,6 +120,12 @@ find
 findIndex
 "
 "
+findLast
+"
+"
+findLastIndex
+"
+"
 flat
 "
 "
