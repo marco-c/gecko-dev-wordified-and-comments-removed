@@ -9,7 +9,7 @@ taskcluster
 import
 get_artifact_url
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .
