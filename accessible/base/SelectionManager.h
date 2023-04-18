@@ -170,7 +170,7 @@ nullptr
 ;
 }
 void
-SpellCheckRangeAdded
+SpellCheckRangeChanged
 (
 const
 nsRange
