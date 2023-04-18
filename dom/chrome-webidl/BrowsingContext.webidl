@@ -1731,6 +1731,11 @@ finished
 /
 [
 NewObject
+BinaryName
+=
+"
+printJS
+"
 ]
 Promise
 <
