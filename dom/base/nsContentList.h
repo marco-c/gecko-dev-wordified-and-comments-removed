@@ -152,7 +152,6 @@ nsINodeList
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-virtual
 int32_t
 IndexOf
 (
@@ -162,7 +161,6 @@ aContent
 )
 override
 ;
-virtual
 nsIContent
 *
 Item
@@ -303,7 +301,6 @@ bool
 aDoFlush
 )
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -416,7 +413,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsSimpleContentList
 nsBaseContentList
 )
-virtual
 nsINode
 *
 GetParentObject
@@ -428,7 +424,6 @@ return
 mRoot
 ;
 }
-virtual
 JSObject
 *
 WrapObject
@@ -502,7 +497,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsEmptyContentList
 nsBaseContentList
 )
-virtual
 nsINode
 *
 GetParentObject
@@ -514,7 +508,6 @@ return
 mRoot
 ;
 }
-virtual
 JSObject
 *
 WrapObject
@@ -534,7 +527,6 @@ aGivenProto
 )
 override
 ;
-virtual
 JSObject
 *
 GetWrapperPreserveColorInternal
@@ -551,7 +543,6 @@ GetWrapperPreserveColor
 )
 ;
 }
-virtual
 void
 PreserveWrapperInternal
 (
@@ -580,7 +571,6 @@ return
 0
 ;
 }
-virtual
 nsIContent
 *
 Item
@@ -590,7 +580,6 @@ aIndex
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -606,7 +595,6 @@ index
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -627,7 +615,6 @@ aFound
 )
 override
 ;
-virtual
 void
 GetSupportedNames
 (
@@ -858,7 +845,6 @@ nsWrapperCache
 :
 PreserveWrapper
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -886,7 +872,6 @@ nsContentList
 (
 )
 ;
-virtual
 JSObject
 *
 GetWrapperPreserveColorInternal
@@ -903,7 +888,6 @@ GetWrapperPreserveColor
 )
 ;
 }
-virtual
 void
 PreserveWrapperInternal
 (
@@ -924,7 +908,6 @@ aScriptObjectHolder
 }
 public
 :
-virtual
 int32_t
 IndexOf
 (
@@ -936,7 +919,6 @@ aDoFlush
 )
 override
 ;
-virtual
 int32_t
 IndexOf
 (
@@ -946,7 +928,6 @@ aContent
 )
 override
 ;
-virtual
 nsINode
 *
 GetParentObject
@@ -980,7 +961,6 @@ aIndex
 )
 final
 ;
-virtual
 mozilla
 :
 :
@@ -996,7 +976,6 @@ index
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1043,7 +1022,6 @@ return
 item
 ;
 }
-virtual
 void
 GetSupportedNames
 (
@@ -1246,7 +1224,6 @@ Reset
 )
 ;
 }
-virtual
 void
 LastRelease
 (
@@ -1320,7 +1297,6 @@ bool
 aDoFlush
 )
 ;
-virtual
 void
 RemoveFromCaches
 (
@@ -1627,7 +1603,6 @@ mData
 )
 ;
 }
-virtual
 void
 RemoveFromCaches
 (
@@ -1686,7 +1661,6 @@ eNodeList
 {
 }
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
-virtual
 JSObject
 *
 WrapObject
@@ -1754,7 +1728,6 @@ eHTMLCollection
 )
 {
 }
-virtual
 JSObject
 *
 WrapObject
@@ -1822,7 +1795,6 @@ NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
-virtual
 JSObject
 *
 WrapObject
