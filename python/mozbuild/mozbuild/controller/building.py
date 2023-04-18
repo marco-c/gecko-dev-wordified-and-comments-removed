@@ -10281,6 +10281,8 @@ self
 .
 topsrcdir
             
+lambda
+:
 get_state_dir
 (
 specific_to_topsrcdir
