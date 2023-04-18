@@ -300,17 +300,6 @@ getBase64DERString
 [
 must_use
 ]
-boolean
-equals
-(
-in
-nsIX509Cert
-other
-)
-;
-[
-must_use
-]
 readonly
 attribute
 ACString
