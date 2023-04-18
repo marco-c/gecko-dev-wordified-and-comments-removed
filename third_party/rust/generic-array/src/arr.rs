@@ -201,11 +201,16 @@ x
 )
 *
 ;
+#
+[
+inline
+(
+always
+)
+]
 fn
 __do_transmute
 <
-'
-a
 T
 N
 :
@@ -289,6 +294,8 @@ N
 [
 (
 x
+as
+T
 )
 *
 ]
@@ -597,6 +604,9 @@ expr
 =
 >
 (
+crate
+:
+:
 arr_impl
 !
 (
@@ -637,7 +647,7 @@ arr
 (
 x
 )
-*
++
 ]
 )
 ;

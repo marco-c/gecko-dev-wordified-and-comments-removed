@@ -1,5 +1,5 @@
-blobby1
 abc
+(
 >
 6G
 j
@@ -7,7 +7,8 @@ j
 %
 qxP
 l
-8abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
+pabcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
+(
 >
 D
 ;
@@ -16,8 +17,7 @@ J
 Q
 )
 Fp
-+
-The
+VThe
 quick
 brown
 fox
@@ -26,14 +26,14 @@ over
 the
 lazy
 dog
+(
 /
 z
 -
 (
 v
 9
-+
-The
+VThe
 quick
 brown
 fox
@@ -42,6 +42,7 @@ over
 the
 lazy
 cog
+(
 ^
 :
 Z

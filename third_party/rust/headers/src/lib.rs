@@ -68,7 +68,7 @@ headers
 .
 3
 .
-3
+7
 "
 )
 ]
@@ -98,6 +98,10 @@ http
 ;
 extern
 crate
+httpdate
+;
+extern
+crate
 mime
 ;
 extern
@@ -122,10 +126,6 @@ nightly
 extern
 crate
 test
-;
-extern
-crate
-time
 ;
 pub
 use

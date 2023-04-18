@@ -2126,7 +2126,7 @@ default
 ;
 digest
 .
-input
+update
 (
 pub_key
 )
@@ -2136,7 +2136,7 @@ pub_key_hash
 =
 digest
 .
-result
+finalize
 (
 )
 ;
@@ -2364,14 +2364,14 @@ default
 ;
 digest
 .
-input
+update
 (
 subject
 )
 ;
 digest
 .
-input
+update
 (
 pub_key
 )
@@ -2381,7 +2381,7 @@ issuer_id
 =
 digest
 .
-result
+finalize
 (
 )
 ;
@@ -3497,7 +3497,6 @@ filter_bytes
 let
 crlite_filter
 =
-*
 Cascade
 :
 :
@@ -4442,7 +4441,7 @@ default
 ;
 digest
 .
-input
+update
 (
 issuer_spki
 )
@@ -4452,11 +4451,7 @@ lookup_key
 =
 digest
 .
-result
-(
-)
-.
-as_slice
+finalize
 (
 )
 .
@@ -4604,7 +4599,7 @@ default
 ;
 digest
 .
-input
+update
 (
 issuer_spki
 )
@@ -4615,11 +4610,7 @@ lookup_key
 =
 digest
 .
-result
-(
-)
-.
-as_slice
+finalize
 (
 )
 .
@@ -4669,7 +4660,6 @@ crlite_filter
 .
 has
 (
-&
 lookup_key
 )
 None
@@ -4938,7 +4928,7 @@ default
 ;
 digest
 .
-input
+update
 (
 &
 cert_der
@@ -4949,7 +4939,7 @@ cert_hash
 =
 digest
 .
-result
+finalize
 (
 )
 ;
