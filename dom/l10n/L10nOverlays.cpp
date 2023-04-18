@@ -181,6 +181,15 @@ nsGkAtoms
 :
 :
 aria_valuetext
+|
+|
+aAttrName
+=
+=
+nsGkAtoms
+:
+:
+aria_description
 )
 {
 return

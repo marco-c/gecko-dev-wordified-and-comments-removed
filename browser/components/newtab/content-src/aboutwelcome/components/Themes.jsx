@@ -265,17 +265,6 @@ props
 .
 handleAction
 }
-data
--
-l10n
--
-attrs
-=
-"
-aria
--
-description
-"
 /
 >
 <
