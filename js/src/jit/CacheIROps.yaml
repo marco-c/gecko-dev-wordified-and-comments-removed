@@ -4958,7 +4958,7 @@ BaselineInspector
 -
 name
 :
-MetaTwoByte
+MetaScriptedThisShape
 shared
 :
 true
@@ -4973,9 +4973,6 @@ custom_writer
 true
 args
 :
-functionObject
-:
-ObjectField
 thisShape
 :
 ShapeField

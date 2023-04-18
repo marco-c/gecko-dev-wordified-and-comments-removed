@@ -48166,9 +48166,8 @@ numFixedSlots
 }
 writer
 .
-metaScriptedTemplateObject
+metaScriptedThisShape
 (
-calleeFunc
 thisShape
 )
 ;

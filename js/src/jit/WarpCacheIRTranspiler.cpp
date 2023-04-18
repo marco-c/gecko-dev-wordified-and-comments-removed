@@ -26310,10 +26310,8 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitMetaTwoByte
+emitMetaScriptedThisShape
 (
-uint32_t
-functionObjectOffset
 uint32_t
 thisShapeOffset
 )
