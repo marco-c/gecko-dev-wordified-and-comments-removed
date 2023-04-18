@@ -563,7 +563,6 @@ returned
 /
 [
 Throws
-NeedsCallerType
 ChromeOnly
 ]
 DOMStringList
@@ -693,7 +692,6 @@ modified
 /
 [
 Throws
-NeedsSubjectPrincipal
 ChromeOnly
 ]
 void
@@ -891,7 +889,6 @@ modified
 /
 [
 Throws
-NeedsSubjectPrincipal
 ChromeOnly
 ]
 void
@@ -993,7 +990,6 @@ itemCount
 /
 [
 Throws
-NeedsSubjectPrincipal
 ChromeOnly
 ]
 any

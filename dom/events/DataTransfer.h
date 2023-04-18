@@ -707,8 +707,6 @@ MozTypesAt
 (
 uint32_t
 aIndex
-CallerType
-aCallerType
 mozilla
 :
 :
@@ -727,9 +725,6 @@ nsAString
 aFormat
 uint32_t
 aIndex
-nsIPrincipal
-&
-aSubjectPrincipal
 mozilla
 :
 :
@@ -761,9 +756,6 @@ Value
 aData
 uint32_t
 aIndex
-nsIPrincipal
-&
-aSubjectPrincipal
 mozilla
 :
 :
@@ -795,9 +787,6 @@ JS
 Value
 >
 aRetval
-nsIPrincipal
-&
-aSubjectPrincipal
 mozilla
 :
 :

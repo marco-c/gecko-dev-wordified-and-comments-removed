@@ -9672,10 +9672,6 @@ aDataTransfer
 MozTypesAt
 (
 aIndex
-CallerType
-:
-:
-System
 error
 )
 ;
