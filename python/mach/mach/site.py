@@ -223,16 +223,9 @@ cls
 .
 from_path
 (
-os
-.
-path
-.
-normcase
-(
 sys
 .
 prefix
-)
 )
     
 classmethod
@@ -511,28 +504,6 @@ site_packages_source
     
 )
 :
-        
-topsrcdir
-=
-os
-.
-path
-.
-normcase
-(
-topsrcdir
-)
-        
-state_dir
-=
-os
-.
-path
-.
-normcase
-(
-state_dir
-)
         
 self
 .
@@ -1496,17 +1467,6 @@ site_name
 )
 :
         
-topsrcdir
-=
-os
-.
-path
-.
-normcase
-(
-topsrcdir
-)
-        
 self
 .
 topsrcdir
@@ -1529,17 +1489,8 @@ path
 .
 join
 (
-            
-os
-.
-path
-.
-normcase
-(
 virtualenvs_dir
-)
 site_name
-        
 )
         
 self
@@ -1852,9 +1803,16 @@ executable
 .
 startswith
 (
+os
+.
+path
+.
+normcase
+(
 self
 .
 bin_path
+)
 )
 :
             
