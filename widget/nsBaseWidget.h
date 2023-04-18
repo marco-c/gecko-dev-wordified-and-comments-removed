@@ -608,6 +608,13 @@ nsBaseWidget
 (
 )
 ;
+explicit
+nsBaseWidget
+(
+nsBorderStyle
+aBorderStyle
+)
+;
 NS_DECL_THREADSAFE_ISUPPORTS
 void
 CaptureMouse
