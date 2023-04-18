@@ -1206,6 +1206,15 @@ YUVColorSpace
 >
 mColorSpace
 ;
+Maybe
+<
+gfx
+:
+:
+TransferFunction
+>
+mTransferFunction
+;
 gfx
 :
 :
