@@ -43,6 +43,12 @@ reftest
 .
 list
 include
+crash
+/
+reftest
+.
+list
+include
 filters
 /
 reftest

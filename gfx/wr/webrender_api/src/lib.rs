@@ -1034,14 +1034,6 @@ pub
 tag
 :
 ItemTag
-pub
-point_in_viewport
-:
-LayoutPoint
-pub
-point_relative_to_item
-:
-LayoutPoint
 }
 #
 [

@@ -35,6 +35,15 @@ use
 crate
 :
 :
+internal_types
+:
+:
+PipelineInstanceId
+;
+use
+crate
+:
+:
 spatial_tree
 :
 :
@@ -198,6 +207,10 @@ pub
 pipeline_id
 :
 PipelineId
+pub
+instance_id
+:
+PipelineInstanceId
 }
 impl
 SpatialNodeUid
@@ -227,6 +240,15 @@ PipelineId
 dummy
 (
 )
+instance_id
+:
+PipelineInstanceId
+:
+:
+new
+(
+0
+)
 }
 }
 pub
@@ -236,6 +258,9 @@ root_scroll_frame
 pipeline_id
 :
 PipelineId
+instance_id
+:
+PipelineInstanceId
 )
 -
 >
@@ -250,6 +275,7 @@ SpatialNodeUidKind
 :
 InternalScrollFrame
 pipeline_id
+instance_id
 }
 }
 pub
@@ -259,6 +285,9 @@ root_reference_frame
 pipeline_id
 :
 PipelineId
+instance_id
+:
+PipelineInstanceId
 )
 -
 >
@@ -273,6 +302,7 @@ SpatialNodeUidKind
 :
 InternalReferenceFrame
 pipeline_id
+instance_id
 }
 }
 pub
@@ -285,6 +315,9 @@ SpatialTreeItemKey
 pipeline_id
 :
 PipelineId
+instance_id
+:
+PipelineInstanceId
 )
 -
 >
@@ -302,6 +335,7 @@ External
 key
 }
 pipeline_id
+instance_id
 }
 }
 }
@@ -3926,6 +3960,17 @@ degrees
 )
 ;
 let
+pid
+=
+PipelineInstanceId
+:
+:
+new
+(
+0
+)
+;
+let
 root
 =
 cst
@@ -3991,6 +4036,7 @@ PipelineId
 dummy
 (
 )
+pid
 )
 )
 ;
@@ -4065,6 +4111,7 @@ PipelineId
 dummy
 (
 )
+pid
 )
 )
 ;
@@ -4149,6 +4196,7 @@ PipelineId
 dummy
 (
 )
+pid
 )
 )
 ;
@@ -4209,6 +4257,7 @@ PipelineId
 dummy
 (
 )
+pid
 )
 )
 ;
