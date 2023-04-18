@@ -811,6 +811,9 @@ path_to
 ignore
 =
 ignore
+ignore_dangling_symlinks
+=
+True
 )
         
 c
