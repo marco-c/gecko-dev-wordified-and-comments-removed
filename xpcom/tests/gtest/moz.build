@@ -317,11 +317,6 @@ TestUTF
 .
 cpp
 "
-"
-TestVariant
-.
-cpp
-"
 ]
 if
 CONFIG
