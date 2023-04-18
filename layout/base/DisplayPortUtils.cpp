@@ -470,14 +470,6 @@ aScrollFrame
 IsRootScrollFrameOfDocument
 (
 )
-&
-&
-presShell
--
->
-IsVisualViewportOffsetSet
-(
-)
 )
 {
 visualOffset
