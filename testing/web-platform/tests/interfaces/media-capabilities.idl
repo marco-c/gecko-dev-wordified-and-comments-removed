@@ -158,6 +158,9 @@ transferFunction
 DOMString
 scalabilityMode
 ;
+boolean
+spatialScalability
+;
 }
 ;
 enum

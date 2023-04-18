@@ -3660,7 +3660,7 @@ pipeline
 )
 ;
 undefined
-dispatch
+dispatchWorkgroups
 (
 GPUSize32
 workgroupCountX
@@ -3677,7 +3677,7 @@ workgroupCountZ
 )
 ;
 undefined
-dispatchIndirect
+dispatchWorkgroupsIndirect
 (
 GPUBuffer
 indirectBuffer

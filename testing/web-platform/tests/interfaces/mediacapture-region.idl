@@ -60,6 +60,7 @@ Exposed
 Window
 Worker
 )
+Serializable
 ]
 interface
 CropTarget
@@ -86,7 +87,7 @@ CropTarget
 >
 produceCropTarget
 (
-HTMLElement
+Element
 element
 )
 ;
