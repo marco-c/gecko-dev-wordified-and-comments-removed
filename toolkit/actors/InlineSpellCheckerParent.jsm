@@ -17,10 +17,10 @@ InlineSpellCheckerParent
 extends
 JSWindowActorParent
 {
-selectDictionary
+selectDictionaries
 (
 {
-localeCode
+localeCodes
 }
 )
 {
@@ -31,10 +31,10 @@ sendAsyncMessage
 "
 InlineSpellChecker
 :
-selectDictionary
+selectDictionaries
 "
 {
-localeCode
+localeCodes
 }
 )
 ;
