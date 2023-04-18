@@ -7,29 +7,6 @@ Services
 .
 prefs
 .
-setCharPref
-(
-"
-dom
-.
-securecontext
-.
-allowlist
-"
-"
-example
-.
-com
-example
-.
-net
-"
-)
-;
-Services
-.
-prefs
-.
 setBoolPref
 (
 "
@@ -85,7 +62,7 @@ test_hint_preload_internal
 103_two_preload_responses
 "
 "
-http
+https
 :
 /
 /
@@ -96,7 +73,7 @@ com
 [
 [
 "
-http
+https
 :
 /
 /
@@ -137,7 +114,7 @@ new_response
 ]
 [
 "
-http
+https
 :
 /
 /
@@ -198,7 +175,7 @@ test_hint_preload_internal
 103_two_link_header
 "
 "
-http
+https
 :
 /
 /
@@ -209,7 +186,7 @@ com
 [
 [
 "
-http
+https
 :
 /
 /
@@ -249,7 +226,7 @@ toString
 ]
 [
 "
-http
+https
 :
 /
 /
@@ -310,7 +287,7 @@ test_hint_preload_internal
 103_two_links
 "
 "
-http
+https
 :
 /
 /
@@ -321,7 +298,7 @@ com
 [
 [
 "
-http
+https
 :
 /
 /
@@ -355,7 +332,7 @@ toString
 ]
 [
 "
-http
+https
 :
 /
 /
@@ -427,7 +404,7 @@ test_hint_preload
 test_103_preload_twice_1
 "
 "
-http
+https
 :
 /
 /
@@ -436,7 +413,7 @@ example
 com
 "
 "
-http
+https
 :
 /
 /
@@ -474,7 +451,7 @@ test_hint_preload
 test_103_preload_twice_2
 "
 "
-http
+https
 :
 /
 /
@@ -483,7 +460,7 @@ example
 com
 "
 "
-http
+https
 :
 /
 /
@@ -550,7 +527,7 @@ test_hint_preload
 test_103_preload_disabled
 "
 "
-http
+https
 :
 /
 /
@@ -559,7 +536,7 @@ example
 com
 "
 "
-http
+https
 :
 /
 /
@@ -675,7 +652,7 @@ test_hint_preload
 test_103_preload
 "
 "
-http
+https
 :
 /
 /
@@ -684,7 +661,7 @@ example
 com
 "
 "
-http
+https
 :
 /
 /
@@ -732,7 +709,7 @@ test_hint_preload
 test_103_preload_cor
 "
 "
-http
+https
 :
 /
 /
@@ -741,7 +718,7 @@ example
 com
 "
 "
-http
+https
 :
 /
 /
@@ -764,10 +741,10 @@ sjs
 {
 hinted
 :
-0
+1
 normal
 :
-1
+0
 }
 )
 ;
@@ -789,7 +766,7 @@ test_hint_preload
 test_103_preload_insecure_cor
 "
 "
-http
+https
 :
 /
 /
@@ -848,7 +825,7 @@ test_hint_preload
 test_103_relative_preload
 "
 "
-http
+https
 :
 /
 /
@@ -950,7 +927,7 @@ test_hint_preload
 test_103_redirect_same_origin
 "
 "
-http
+https
 :
 /
 /
@@ -959,7 +936,7 @@ example
 com
 "
 "
-http
+https
 :
 /
 /
@@ -979,7 +956,7 @@ early_hint_redirect
 .
 sjs
 ?
-http
+https
 :
 /
 /
@@ -1027,7 +1004,7 @@ test_hint_preload
 test_103_redirect_cross_origin
 "
 "
-http
+https
 :
 /
 /
@@ -1036,7 +1013,7 @@ example
 com
 "
 "
-http
+https
 :
 /
 /
@@ -1056,7 +1033,7 @@ early_hint_redirect
 .
 sjs
 ?
-http
+https
 :
 /
 /
@@ -1079,10 +1056,10 @@ sjs
 {
 hinted
 :
-1
+2
 normal
 :
-1
+0
 }
 )
 ;
@@ -1104,7 +1081,7 @@ test_hint_preload
 test_103_redirect_insecure_cross_origin
 "
 "
-http
+https
 :
 /
 /
@@ -1113,7 +1090,7 @@ example
 com
 "
 "
-http
+https
 :
 /
 /
@@ -1317,7 +1294,7 @@ test_hint_preload
 test_103_preload_only_file
 "
 "
-http
+https
 :
 /
 /
@@ -1382,7 +1359,7 @@ await
 fetch
 (
 "
-http
+https
 :
 /
 /
@@ -1411,7 +1388,7 @@ let
 requestUrl
 =
 "
-http
+https
 :
 /
 /
@@ -1477,7 +1454,7 @@ performance
 getEntriesByName
 (
 "
-http
+https
 :
 /
 /
@@ -1554,7 +1531,7 @@ await
 fetch
 (
 "
-http
+https
 :
 /
 /
@@ -1660,7 +1637,7 @@ await
 fetch
 (
 "
-http
+https
 :
 /
 /
@@ -1689,7 +1666,7 @@ let
 iframeUri
 =
 "
-http
+https
 :
 /
 /
@@ -1739,7 +1716,7 @@ await
 fetch
 (
 "
-http
+https
 :
 /
 /
@@ -1845,7 +1822,7 @@ await
 fetch
 (
 "
-http
+https
 :
 /
 /
@@ -1874,7 +1851,7 @@ let
 anchorUri
 =
 "
-http
+https
 :
 /
 /
@@ -1924,7 +1901,7 @@ await
 fetch
 (
 "
-http
+https
 :
 /
 /
