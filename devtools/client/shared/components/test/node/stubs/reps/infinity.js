@@ -15,9 +15,7 @@ stubs
 .
 set
 (
-"
 Infinity
-"
 {
 type
 :
@@ -31,9 +29,7 @@ stubs
 .
 set
 (
-"
 NegativeInfinity
-"
 {
 type
 :
