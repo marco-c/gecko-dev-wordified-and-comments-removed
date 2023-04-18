@@ -78,7 +78,7 @@ buffer
 {
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 snappyInputStream
 Read

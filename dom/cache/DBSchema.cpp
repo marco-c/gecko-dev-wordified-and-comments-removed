@@ -2414,7 +2414,7 @@ const
 int32_t
 &
 mode
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -2593,7 +2593,7 @@ const
 auto
 &
 result
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 *
@@ -3178,7 +3178,7 @@ const
 int32_t
 &
 mode
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -3296,7 +3296,7 @@ const
 CacheId
 &
 id
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 state
 GetInt64
@@ -3378,7 +3378,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -3468,7 +3468,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -3526,7 +3526,7 @@ stmt
 {
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt64
@@ -3558,7 +3558,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -3621,7 +3621,7 @@ const
 int64_t
 &
 padding_size
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt64
@@ -3694,7 +3694,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -3769,7 +3769,7 @@ const
 bool
 &
 isNull
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetIsNull
@@ -4540,7 +4540,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -4618,7 +4618,7 @@ stmt
 {
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt64
@@ -4772,7 +4772,7 @@ const
 bool
 &
 hasMoreData
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -4797,7 +4797,7 @@ CacheId
 }
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -4845,7 +4845,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -5073,7 +5073,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -5137,7 +5137,7 @@ stmt
 {
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 stmt
@@ -5181,7 +5181,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -5249,7 +5249,7 @@ stmt
 {
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt32
@@ -5500,7 +5500,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -5730,7 +5730,7 @@ false
 }
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 state
 ExecuteStep
@@ -5771,7 +5771,7 @@ const
 EntryId
 &
 entryId
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 state
 GetInt32
@@ -5785,7 +5785,7 @@ const
 int32_t
 &
 varyCount
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 state
 GetInt32
@@ -5909,7 +5909,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -5990,7 +5990,7 @@ stmt
 {
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 stmt
@@ -6026,7 +6026,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -6118,7 +6118,7 @@ const
 auto
 &
 name
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 stmt
@@ -6133,7 +6133,7 @@ const
 auto
 &
 value
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 stmt
@@ -6619,7 +6619,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -6703,7 +6703,7 @@ const
 bool
 &
 isNull
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetIsNull
@@ -6746,7 +6746,7 @@ const
 bool
 &
 isNull
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetIsNull
@@ -6766,7 +6766,7 @@ const
 int32_t
 &
 securityId
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt32
@@ -6856,7 +6856,7 @@ const
 bool
 &
 isNull
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetIsNull
@@ -6876,7 +6876,7 @@ const
 int64_t
 &
 paddingSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt64
@@ -6960,7 +6960,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -7276,7 +7276,7 @@ const
 int32_t
 &
 id
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 selectStmt
 GetInt32
@@ -7290,7 +7290,7 @@ const
 int32_t
 &
 refcount
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 selectStmt
 GetInt32
@@ -7304,7 +7304,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -7392,7 +7392,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -7499,7 +7499,7 @@ _ns
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -7613,7 +7613,7 @@ Ok
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -7657,7 +7657,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -7721,7 +7721,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -7954,7 +7954,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -9049,7 +9049,7 @@ _ns
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -9071,7 +9071,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -9208,7 +9208,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -9345,7 +9345,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -9470,7 +9470,7 @@ header
 name
 (
 )
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 aStmt
@@ -9486,7 +9486,7 @@ header
 value
 (
 )
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 aStmt
@@ -9658,7 +9658,7 @@ const
 int32_t
 &
 type
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -9689,7 +9689,7 @@ const
 int32_t
 &
 status
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -9741,7 +9741,7 @@ const
 int32_t
 &
 guard
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -9772,7 +9772,7 @@ const
 bool
 &
 nullBody
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -9815,7 +9815,7 @@ const
 auto
 &
 serializedInfo
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoCString
 *
@@ -10030,7 +10030,7 @@ const
 bool
 &
 nullPadding
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -10100,7 +10100,7 @@ const
 int64_t
 &
 paddingSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -10160,7 +10160,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -10239,7 +10239,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -10320,7 +10320,7 @@ nsresult
 {
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 stmt
@@ -10607,7 +10607,7 @@ const
 int32_t
 &
 referrerPolicy
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 state
 GetInt32
@@ -10637,7 +10637,7 @@ const
 int32_t
 &
 guard
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 state
 GetInt32
@@ -10667,7 +10667,7 @@ const
 int32_t
 &
 mode
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 state
 GetInt32
@@ -10697,7 +10697,7 @@ const
 int32_t
 &
 credentials
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 state
 GetInt32
@@ -10727,7 +10727,7 @@ const
 int32_t
 &
 requestContentPolicyType
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 state
 GetInt32
@@ -10757,7 +10757,7 @@ const
 int32_t
 &
 requestCache
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 state
 GetInt32
@@ -10787,7 +10787,7 @@ const
 int32_t
 &
 requestRedirect
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 state
 GetInt32
@@ -10838,7 +10838,7 @@ const
 bool
 &
 nullBody
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 state
 GetIsNull
@@ -10881,7 +10881,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -11239,7 +11239,7 @@ const
 auto
 &
 idString
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoCString
 aState
@@ -11312,7 +11312,7 @@ QM_TRY_UNWRAP
 (
 auto
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -11522,7 +11522,7 @@ const
 int32_t
 &
 freePages
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -11607,7 +11607,7 @@ const
 int32_t
 &
 freePages
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 state
@@ -11651,7 +11651,7 @@ const
 int32_t
 &
 schemaVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aConn
 GetSchemaVersion
@@ -11978,7 +11978,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -12031,7 +12031,7 @@ const
 auto
 &
 name
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoCString
 stmt
@@ -12046,7 +12046,7 @@ const
 auto
 &
 type
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoCString
 stmt
@@ -12061,7 +12061,7 @@ const
 auto
 &
 sql
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoCString
 stmt
@@ -12527,7 +12527,7 @@ const
 auto
 &
 state
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <

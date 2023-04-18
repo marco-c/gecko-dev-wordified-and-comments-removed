@@ -1652,7 +1652,7 @@ const
 int32_t
 &
 columnType
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aSource
 GetTypeOfIndex
@@ -2367,7 +2367,7 @@ const
 int32_t
 &
 columnType
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aSource
 GetTypeOfIndex
@@ -2381,7 +2381,7 @@ const
 bool
 &
 isNull
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aSource
 GetIsNull
@@ -2416,7 +2416,7 @@ VoidString
 )
 }
 :
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 aSource
@@ -2448,7 +2448,7 @@ const
 int64_t
 &
 intData
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aSource
 GetInt64

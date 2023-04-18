@@ -288,7 +288,7 @@ const
 uint32_t
 &
 intPermission
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 permMan
 TestExactPermissionFromPrincipal

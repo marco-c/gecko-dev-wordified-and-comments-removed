@@ -626,7 +626,7 @@ __VA_ARGS__
 )
 #
 define
-QM_TO_RESULT_INVOKE
+QM_TO_RESULT_INVOKE_MEMBER
 (
 obj
 methodname
@@ -640,7 +640,7 @@ methodname
 mozilla
 :
 :
-ToResultInvoke
+ToResultInvokeMember
 <
 QMResult
 >
@@ -675,7 +675,7 @@ __VA_ARGS__
 )
 #
 define
-QM_TO_RESULT_INVOKE_TYPED
+QM_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 resultType
 obj

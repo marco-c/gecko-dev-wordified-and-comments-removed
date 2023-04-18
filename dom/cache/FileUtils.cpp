@@ -687,7 +687,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 finalFile
@@ -2140,7 +2140,7 @@ false
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 marker
 Exists
@@ -2334,7 +2334,7 @@ auto
 maybeFileSize
 QM_OR_ELSE_WARN_IF
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aFile
 GetFileSize
@@ -2515,7 +2515,7 @@ false
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 file
 Exists
@@ -2606,7 +2606,7 @@ bufferedStream
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 objectStream
 Read64
