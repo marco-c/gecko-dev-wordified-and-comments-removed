@@ -12,11 +12,17 @@ PrivacyFilter
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivacyLevel
 "
@@ -71,6 +77,8 @@ data
 {
 if
 (
+lazy
+.
 PrivacyLevel
 .
 check
@@ -124,6 +132,8 @@ url
 &
 &
 !
+lazy
+.
 PrivacyLevel
 .
 check

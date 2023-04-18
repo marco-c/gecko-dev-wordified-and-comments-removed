@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 E10SUtils
 "
@@ -553,6 +559,8 @@ url
 uri
 triggeringPrincipal_base64
 :
+lazy
+.
 E10SUtils
 .
 SERIALIZED_SYSTEMPRINCIPAL
@@ -653,6 +661,8 @@ entry
 .
 referrerInfo
 =
+lazy
+.
 E10SUtils
 .
 serializeReferrerInfo
@@ -949,6 +959,8 @@ entry
 .
 principalToInherit_base64
 =
+lazy
+.
 E10SUtils
 .
 serializePrincipal
@@ -970,6 +982,8 @@ entry
 .
 partitionedPrincipalToInherit_base64
 =
+lazy
+.
 E10SUtils
 .
 serializePrincipal
@@ -999,6 +1013,8 @@ entry
 .
 triggeringPrincipal_base64
 =
+lazy
+.
 E10SUtils
 .
 serializePrincipal
@@ -1020,6 +1036,8 @@ entry
 .
 csp
 =
+lazy
+.
 E10SUtils
 .
 serializeCSP
@@ -1594,6 +1612,8 @@ shEntry
 .
 referrerInfo
 =
+lazy
+.
 E10SUtils
 .
 deserializeReferrerInfo
@@ -2176,6 +2196,8 @@ shEntry
 .
 triggeringPrincipal
 =
+lazy
+.
 E10SUtils
 .
 deserializePrincipal
@@ -2229,6 +2251,8 @@ shEntry
 .
 partitionedPrincipalToInherit
 =
+lazy
+.
 E10SUtils
 .
 deserializePrincipal
@@ -2250,6 +2274,8 @@ shEntry
 .
 principalToInherit
 =
+lazy
+.
 E10SUtils
 .
 deserializePrincipal
@@ -2271,6 +2297,8 @@ shEntry
 .
 csp
 =
+lazy
+.
 E10SUtils
 .
 deserializeCSP
