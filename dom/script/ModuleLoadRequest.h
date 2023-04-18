@@ -171,6 +171,9 @@ aURI
 ScriptFetchOptions
 *
 aFetchOptions
+Element
+*
+aElement
 const
 SRIMetadata
 &
@@ -210,6 +213,9 @@ aFetchOptions
 nsIURI
 *
 aBaseURL
+Element
+*
+aElement
 ScriptLoader
 *
 aLoader
