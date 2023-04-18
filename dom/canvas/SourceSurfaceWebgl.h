@@ -26,8 +26,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 class
@@ -133,6 +133,18 @@ Unmap
 )
 override
 ;
+bool
+HasReadData
+(
+)
+const
+{
+return
+!
+!
+mData
+;
+}
 private
 :
 friend
@@ -227,7 +239,6 @@ mHandle
 ;
 }
 ;
-}
 }
 #
 endif
