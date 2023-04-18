@@ -1770,6 +1770,7 @@ function
 cmpSel32vs64
 (
 cmpTy
+cmpOp
 selTy
 )
 {
@@ -1837,7 +1838,9 @@ p4
 cmpTy
 }
 .
-eq
+{
+cmpOp
+}
 (
 local
 .
@@ -1869,6 +1872,7 @@ for
 (
 [
 cmpTy
+cmpOp
 selTy
 insn1
 insn2
@@ -1881,6 +1885,9 @@ of
 i32
 '
 '
+le_s
+'
+'
 i32
 '
 '
@@ -1904,9 +1911,9 @@ ecx
 '
 41
 0f
-45
+4f
 c1
-cmovnz
+cmovnle
 %
 r9d
 %
@@ -1916,6 +1923,9 @@ eax
 [
 '
 i32
+'
+'
+lt_u
 '
 '
 i64
@@ -1942,9 +1952,9 @@ ecx
 '
 49
 0f
-45
+43
 c1
-cmovnz
+cmovnb
 %
 r9
 %
@@ -1956,6 +1966,9 @@ rax
 i64
 '
 '
+le_s
+'
+'
 i32
 '
 '
@@ -1980,9 +1993,9 @@ rcx
 '
 41
 0f
-45
+4f
 c1
-cmovnz
+cmovnle
 %
 r9d
 %
@@ -1992,6 +2005,9 @@ eax
 [
 '
 i64
+'
+'
+lt_u
 '
 '
 i64
@@ -2019,9 +2035,9 @@ rcx
 '
 49
 0f
-45
+43
 c1
-cmovnz
+cmovnb
 %
 r9
 %
@@ -2036,6 +2052,7 @@ codegenTestX64_adhoc
 cmpSel32vs64
 (
 cmpTy
+cmpOp
 selTy
 )
 '
@@ -2072,6 +2089,7 @@ for
 (
 [
 cmpTy
+cmpOp
 selTy
 insn1
 insn2
@@ -2084,6 +2102,9 @@ of
 i32
 '
 '
+le_s
+'
+'
 i32
 '
 '
@@ -2106,9 +2127,9 @@ edi
 '
 '
 0f
-45
+4f
 c1
-cmovnz
+cmovnle
 %
 ecx
 %
@@ -2118,6 +2139,9 @@ eax
 [
 '
 i32
+'
+'
+lt_u
 '
 '
 i64
@@ -2144,9 +2168,9 @@ edi
 '
 48
 0f
-45
+43
 c1
-cmovnz
+cmovnb
 %
 rcx
 %
@@ -2158,6 +2182,9 @@ rax
 i64
 '
 '
+le_s
+'
+'
 i32
 '
 '
@@ -2181,9 +2208,9 @@ rdi
 '
 '
 0f
-45
+4f
 c1
-cmovnz
+cmovnle
 %
 ecx
 %
@@ -2193,6 +2220,9 @@ eax
 [
 '
 i64
+'
+'
+lt_u
 '
 '
 i64
@@ -2220,9 +2250,9 @@ rdi
 '
 48
 0f
-45
+43
 c1
-cmovnz
+cmovnb
 %
 rcx
 %
@@ -2237,6 +2267,7 @@ codegenTestX64_adhoc
 cmpSel32vs64
 (
 cmpTy
+cmpOp
 selTy
 )
 '
