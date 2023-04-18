@@ -1577,6 +1577,15 @@ TL
 nsis
 )
 run
+-
+on
+-
+projects
+:
+[
+trunk
+]
+run
 :
 script
 :
