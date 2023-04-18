@@ -52,9 +52,6 @@ n
 &
 &
 \
-PYTHONPATH
-=
-PWD
 python3
 "
 {
