@@ -50,9 +50,6 @@ nsRefreshDriver
 .
 h
 "
-#
-ifdef
-MOZ_GECKO_PROFILER
 namespace
 geckoprofiler
 :
@@ -701,8 +698,6 @@ schema
 }
 ;
 }
-#
-endif
 namespace
 mozilla
 {
