@@ -20066,6 +20066,9 @@ dependencies
 =
 [
 "
+mozbuild
+"
+"
 nsstring
 "
 ]
