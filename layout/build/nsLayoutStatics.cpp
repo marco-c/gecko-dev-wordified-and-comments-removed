@@ -1481,13 +1481,6 @@ Init
 (
 )
 ;
-PermissionManager
-:
-:
-Startup
-(
-)
-;
 UIDirectionManager
 :
 :

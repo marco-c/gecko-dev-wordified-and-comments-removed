@@ -768,12 +768,6 @@ uint32_t
 aPermission
 )
 ;
-static
-void
-Startup
-(
-)
-;
 nsresult
 RemovePermissionsWithAttributes
 (
@@ -1433,7 +1427,7 @@ nsCOMPtr
 <
 nsIAsyncShutdownClient
 >
-GetShutdownPhase
+GetAsyncShutdownBarrier
 (
 )
 const
@@ -1668,9 +1662,6 @@ CompleteMigrations
 ;
 bool
 mMemoryOnlyDB
-;
-bool
-mBlockerAdded
 ;
 nsTHashtable
 <
