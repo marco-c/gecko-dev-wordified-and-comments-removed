@@ -172,6 +172,11 @@ PartitioningExceptionList
 h
 "
 "
+RejectForeignAllowList
+.
+h
+"
+"
 StorageAccess
 .
 h
