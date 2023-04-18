@@ -241,6 +241,15 @@ length
 isValid
 (
 )
+|
+|
+length
+.
+value
+(
+)
+>
+INT32_MAX
 )
 {
 aRv
