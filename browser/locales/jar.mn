@@ -179,6 +179,9 @@ firefoxSuggest
 .
 ftl
 )
+#
+ifdef
+NIGHTLY_BUILD
 preview
 /
 myFirefox
@@ -196,6 +199,8 @@ myFirefox
 .
 ftl
 )
+#
+endif
 browser
 (
 %
