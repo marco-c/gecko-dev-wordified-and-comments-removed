@@ -9950,6 +9950,8 @@ bug_numbers
 :
 -
 1733722
+-
+1754657
 description
 :
 >
@@ -9982,7 +9984,7 @@ vp9
 expires
 :
 "
-100
+112
 "
 kind
 :
@@ -10029,6 +10031,8 @@ bug_numbers
 :
 -
 1741286
+-
+1754657
 description
 :
 >
@@ -10075,7 +10079,7 @@ vp9
 expires
 :
 "
-100
+112
 "
 kind
 :
