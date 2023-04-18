@@ -97,11 +97,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ASRouterPreferences
 :
@@ -319,7 +325,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -359,7 +365,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 cfrFeaturesUserPref
 "
@@ -387,7 +393,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 cfrAddonsUserPref
 "
@@ -415,7 +421,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 isWhatsNewPanelEnabled
 "
@@ -437,7 +443,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 hasAccessedFxAPanel
 "
@@ -457,7 +463,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 clientsDevicesDesktop
 "
@@ -479,7 +485,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 clientsDevicesMobile
 "
@@ -501,7 +507,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 syncNumClients
 "
@@ -519,7 +525,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 devtoolsSelfXSSCount
 "
@@ -537,7 +543,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 isFxAEnabled
 "
@@ -549,7 +555,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 isXPIInstallEnabled
 "
@@ -565,7 +571,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 snippetsUserPref
 "
@@ -589,7 +595,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 BrowserHandler
 :
@@ -650,6 +656,8 @@ activityStreamProvider
 asProvider
 }
 =
+lazy
+.
 NewTabUtils
 ;
 const
@@ -867,6 +875,8 @@ resolve
 =
 >
 {
+lazy
+.
 fxAccounts
 .
 listAttachedOAuthClients
@@ -1303,6 +1313,8 @@ doesAppNeedPin
 "
 null
 FRECENT_SITES_UPDATE_INTERVAL
+lazy
+.
 ShellService
 )
 }
@@ -1871,6 +1883,8 @@ const
 settings
 }
 =
+lazy
+.
 TelemetryEnvironment
 .
 currentEnvironment
@@ -1891,6 +1905,8 @@ attributionData
 )
 {
 return
+lazy
+.
 AttributionCode
 .
 getCachedAttributionData
@@ -1916,6 +1932,8 @@ profileAgeCreated
 )
 {
 return
+lazy
+.
 ProfileAge
 (
 )
@@ -1937,6 +1955,8 @@ profileAgeReset
 )
 {
 return
+lazy
+.
 ProfileAge
 (
 )
@@ -1974,6 +1994,8 @@ isFxAEnabled
 )
 {
 return
+lazy
+.
 isFxAEnabled
 ;
 }
@@ -1986,12 +2008,18 @@ return
 {
 desktopDevices
 :
+lazy
+.
 clientsDevicesDesktop
 mobileDevices
 :
+lazy
+.
 clientsDevicesMobile
 totalDevices
 :
+lazy
+.
 syncNumClients
 }
 ;
@@ -2002,6 +2030,8 @@ xpinstallEnabled
 )
 {
 return
+lazy
+.
 isXPIInstallEnabled
 ;
 }
@@ -2011,6 +2041,8 @@ addonsInfo
 )
 {
 return
+lazy
+.
 AddonManager
 .
 getActiveAddons
@@ -2221,6 +2253,8 @@ isDefaultBrowser
 try
 {
 return
+lazy
+.
 ShellService
 .
 isDefaultBrowser
@@ -2244,6 +2278,8 @@ devToolsOpenedCount
 )
 {
 return
+lazy
+.
 devtoolsSelfXSSCount
 ;
 }
@@ -2332,6 +2368,8 @@ pinnedSites
 )
 {
 return
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -2380,6 +2418,8 @@ providerCohorts
 )
 {
 return
+lazy
+.
 ASRouterPreferences
 .
 providers
@@ -2464,6 +2504,8 @@ region
 )
 {
 return
+lazy
+.
 Region
 .
 home
@@ -2570,6 +2612,8 @@ hasAccessedFxAPanel
 )
 {
 return
+lazy
+.
 hasAccessedFxAPanel
 ;
 }
@@ -2579,6 +2623,8 @@ isWhatsNewPanelEnabled
 )
 {
 return
+lazy
+.
 isWhatsNewPanelEnabled
 ;
 }
@@ -2591,12 +2637,18 @@ return
 {
 cfrFeatures
 :
+lazy
+.
 cfrFeaturesUserPref
 cfrAddons
 :
+lazy
+.
 cfrAddonsUserPref
 snippets
 :
+lazy
+.
 snippetsUserPref
 }
 ;
@@ -2607,6 +2659,8 @@ totalBlockedCount
 )
 {
 return
+lazy
+.
 TrackingDBService
 .
 sumAllEvents
@@ -2711,6 +2765,8 @@ getTime
 )
 ;
 return
+lazy
+.
 TrackingDBService
 .
 getEventsByDateRange
@@ -2891,6 +2947,8 @@ userId
 )
 {
 return
+lazy
+.
 ClientEnvironment
 .
 userId
@@ -2903,6 +2961,8 @@ profileRestartCount
 {
 return
 (
+lazy
+.
 TelemetrySession
 .
 getMetadata
@@ -2926,6 +2986,8 @@ homePageSettings
 const
 url
 =
+lazy
+.
 HomePage
 .
 get
@@ -2951,11 +3013,15 @@ isCustomUrl
 urls
 isDefault
 :
+lazy
+.
 HomePage
 .
 isDefault
 isLocked
 :
+lazy
+.
 HomePage
 .
 locked
@@ -2970,6 +3036,8 @@ newtabSettings
 const
 url
 =
+lazy
+.
 AboutNewTab
 .
 newTabURL
@@ -2992,6 +3060,8 @@ isWebExt
 isCustomUrl
 isDefault
 :
+lazy
+.
 AboutNewTab
 .
 activityStreamEnabled
@@ -3045,6 +3115,8 @@ activeNotifications
 let
 window
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -3107,6 +3179,8 @@ isMajorUpgrade
 )
 {
 return
+lazy
+.
 BrowserHandler
 .
 majorUpgrade
@@ -3672,8 +3746,12 @@ const
 targetingContext
 =
 new
+lazy
+.
 TargetingContext
 (
+lazy
+.
 TargetingContext
 .
 combineContexts

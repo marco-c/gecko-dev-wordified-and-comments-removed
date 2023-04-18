@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 DEFAULT_SITES
 :
@@ -145,7 +151,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -196,7 +202,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 tippyTopProvider
 "
@@ -215,6 +221,8 @@ const
 provider
 =
 new
+lazy
+.
 TippyTopProvider
 (
 )
@@ -250,7 +258,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 searchRegion
 "
@@ -288,6 +296,8 @@ const
 tippyTop
 =
 await
+lazy
+.
 tippyTopProvider
 ;
 return
@@ -350,6 +360,8 @@ site
 tippyTopIcon
 label
 :
+lazy
+.
 shortURL
 (
 site
@@ -382,17 +394,25 @@ child
 let
 sites
 =
+lazy
+.
 DEFAULT_SITES
 .
 get
 (
+lazy
+.
 DEFAULT_SITES
 .
 has
 (
+lazy
+.
 searchRegion
 )
 ?
+lazy
+.
 searchRegion
 :
 "
@@ -403,6 +423,8 @@ const
 tippyTop
 =
 await
+lazy
+.
 tippyTopProvider
 ;
 let
@@ -447,6 +469,8 @@ site
 tippyTopIcon
 title
 :
+lazy
+.
 shortURL
 (
 site
@@ -515,6 +539,8 @@ sendToPage
 action
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1045,6 +1071,8 @@ attributionData
 template
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1082,6 +1110,8 @@ attributionData
 ua
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1101,6 +1131,8 @@ attribution
 let
 experimentMetadata
 =
+lazy
+.
 ExperimentAPI
 .
 getExperimentMetaData
@@ -1118,6 +1150,8 @@ aboutwelcome
 {
 }
 ;
+lazy
+.
 log
 .
 debug
@@ -1144,6 +1178,8 @@ experiment
 let
 featureConfig
 =
+lazy
+.
 NimbusFeatures
 .
 aboutwelcome
@@ -1211,6 +1247,8 @@ GET_APP_AND_SYSTEM_LOCALE_INFO
 let
 defaults
 =
+lazy
+.
 AboutWelcomeDefaults
 .
 getDefaults
@@ -1223,6 +1261,8 @@ Cu
 cloneInto
 (
 await
+lazy
+.
 AboutWelcomeDefaults
 .
 prepareContentForReact
@@ -1546,6 +1586,8 @@ handleEvent
 event
 )
 {
+lazy
+.
 log
 .
 debug

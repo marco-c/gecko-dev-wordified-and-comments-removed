@@ -75,11 +75,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Downloader
 "
@@ -102,7 +108,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 KintoHttpClient
 "
@@ -975,6 +981,8 @@ const
 client
 =
 new
+lazy
+.
 KintoHttpClient
 (
 Services
@@ -1012,6 +1020,8 @@ const
 downloader
 =
 new
+lazy
+.
 Downloader
 (
 RS_MAIN_BUCKET

@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AboutWelcomeTelemetry
 :
@@ -93,7 +99,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 AWTelemetry
 "
@@ -102,6 +108,8 @@ AWTelemetry
 =
 >
 new
+lazy
+.
 AboutWelcomeTelemetry
 (
 )
@@ -202,6 +210,8 @@ message
 .
 data
 ;
+lazy
+.
 AWTelemetry
 .
 sendTelemetry
@@ -329,6 +339,8 @@ const
 unload
 =
 await
+lazy
+.
 RemoteImages
 .
 patchMessage
@@ -473,6 +485,8 @@ message
 dispatchCFRAction
 )
 ;
+lazy
+.
 SpecialMessageActions
 .
 handleAction
@@ -508,6 +522,8 @@ message
 dispatchCFRAction
 )
 ;
+lazy
+.
 SpecialMessageActions
 .
 handleAction

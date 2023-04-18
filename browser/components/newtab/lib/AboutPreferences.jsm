@@ -112,11 +112,17 @@ pane
 loaded
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NimbusFeatures
 :
@@ -702,6 +708,8 @@ sections
 const
 featureConfig
 =
+lazy
+.
 NimbusFeatures
 .
 newtab

@@ -3,11 +3,17 @@ use
 strict
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 RemoteSettings
 "
@@ -32,7 +38,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NewTabUtils
 "
@@ -103,7 +109,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -332,6 +338,8 @@ serverInfo
 await
 (
 await
+lazy
+.
 fetch
 (
 {
@@ -438,6 +446,8 @@ setupSyncAttachment
 collection
 )
 {
+lazy
+.
 RemoteSettings
 (
 collection
@@ -459,6 +469,8 @@ teardownSyncAttachment
 collection
 )
 {
+lazy
+.
 RemoteSettings
 (
 collection
@@ -541,6 +553,8 @@ const
 result
 =
 await
+lazy
+.
 RemoteSettings
 (
 RECIPE_NAME
@@ -680,6 +694,8 @@ const
 activityStreamProvider
 }
 =
+lazy
+.
 NewTabUtils
 ;
 const
@@ -883,6 +899,8 @@ const
 models
 =
 await
+lazy
+.
 RemoteSettings
 (
 MODELS_NAME

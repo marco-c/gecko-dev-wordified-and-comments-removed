@@ -87,11 +87,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonRepository
 :
@@ -1124,6 +1130,8 @@ addonInfo
 ]
 =
 await
+lazy
+.
 AddonRepository
 .
 getAddonsByIDs
@@ -1350,6 +1358,8 @@ let
 attribution
 =
 await
+lazy
+.
 AttributionCode
 .
 getAttrDataAsync

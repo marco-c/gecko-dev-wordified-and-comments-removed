@@ -1,8 +1,14 @@
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 IndexedDB
 "
@@ -298,6 +304,8 @@ _openDatabase
 )
 {
 return
+lazy
+.
 IndexedDB
 .
 open
@@ -413,6 +421,8 @@ INDEXEDDB_OPEN_FAILED
 ;
 }
 await
+lazy
+.
 IndexedDB
 .
 deleteDatabase

@@ -3,11 +3,17 @@ use
 strict
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AboutNewTab
 "
@@ -29,7 +35,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AboutHomeStartupCache
 "
@@ -418,6 +424,8 @@ broadcast
 action
 )
 {
+lazy
+.
 AboutHomeStartupCache
 .
 onPreloadedNewTabMessage
@@ -578,6 +586,8 @@ sendToPreloaded
 action
 )
 {
+lazy
+.
 AboutHomeStartupCache
 .
 onPreloadedNewTabMessage
@@ -724,6 +734,8 @@ pageURL
 ABOUT_NEW_TAB_URL
 &
 &
+lazy
+.
 AboutNewTab
 .
 overridePageListener
@@ -946,6 +958,8 @@ pageURL
 ABOUT_NEW_TAB_URL
 )
 {
+lazy
+.
 AboutNewTab
 .
 reset

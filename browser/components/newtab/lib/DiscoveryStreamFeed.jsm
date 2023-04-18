@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NewTabUtils
 "
@@ -54,7 +60,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 RemoteSettings
 "
@@ -128,7 +134,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -171,7 +177,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Region
 "
@@ -194,7 +200,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PersistentCache
 "
@@ -533,6 +539,8 @@ this
 cache
 =
 new
+lazy
+.
 PersistentCache
 (
 CACHE_KEY
@@ -899,6 +907,8 @@ region
 )
 {
 return
+lazy
+.
 Region
 .
 home
@@ -1408,6 +1418,8 @@ controller
 const
 fetchPromise
 =
+lazy
+.
 fetch
 (
 endpoint
@@ -4701,6 +4713,8 @@ item
 const
 blocked
 =
+lazy
+.
 NewTabUtils
 .
 blockedLinks
@@ -7421,6 +7435,8 @@ at
 .
 DISCOVERY_STREAM_DEV_SYNC_RS
 :
+lazy
+.
 RemoteSettings
 .
 pollChanges

@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ShellService
 :
@@ -2064,6 +2070,8 @@ const
 needPin
 =
 await
+lazy
+.
 ShellService
 .
 doesAppNeedPin
@@ -2102,6 +2110,8 @@ let
 isDefault
 =
 await
+lazy
+.
 ShellService
 .
 isDefaultBrowser

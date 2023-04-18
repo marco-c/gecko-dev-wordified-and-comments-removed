@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gFilterAdultEnabled
 "
@@ -180,6 +186,8 @@ links
 if
 (
 !
+lazy
+.
 gFilterAdultEnabled
 )
 {
@@ -255,6 +263,8 @@ url
 if
 (
 !
+lazy
+.
 gFilterAdultEnabled
 )
 {

@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -52,7 +58,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BackgroundPageThumbs
 "
@@ -75,7 +81,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PageThumbs
 "
@@ -98,7 +104,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -153,7 +159,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gPrivilegedAboutProcessEnabled
 "
@@ -182,6 +188,8 @@ url
 try
 {
 await
+lazy
+.
 BackgroundPageThumbs
 .
 captureIfMissing
@@ -196,10 +204,14 @@ GREY_10
 ;
 if
 (
+lazy
+.
 gPrivilegedAboutProcessEnabled
 )
 {
 return
+lazy
+.
 PageThumbs
 .
 getThumbnailURL
@@ -211,6 +223,8 @@ url
 const
 imgPath
 =
+lazy
+.
 PageThumbs
 .
 getThumbnailPath
@@ -222,6 +236,8 @@ const
 filePathResponse
 =
 await
+lazy
+.
 fetch
 (
 file
@@ -295,6 +311,8 @@ err
 try
 {
 await
+lazy
+.
 PageThumbs
 .
 _store
@@ -342,6 +360,8 @@ browser
 if
 (
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate

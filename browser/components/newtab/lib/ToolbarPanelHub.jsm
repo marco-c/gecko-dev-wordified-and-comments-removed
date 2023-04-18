@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EveryWindow
 :
@@ -142,7 +148,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PanelMultiView
 "
@@ -164,7 +170,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 TrackingDBService
 "
@@ -493,6 +499,8 @@ _initialized
 =
 false
 ;
+lazy
+.
 EveryWindow
 .
 unregisterCallback
@@ -500,6 +508,8 @@ unregisterCallback
 TOOLBAR_BUTTON_ID
 )
 ;
+lazy
+.
 EveryWindow
 .
 unregisterCallback
@@ -551,6 +561,8 @@ target
 .
 checked
 ;
+lazy
+.
 Preferences
 .
 set
@@ -720,6 +732,8 @@ messages
 length
 )
 {
+lazy
+.
 EveryWindow
 .
 registerCallback
@@ -739,6 +753,8 @@ disableAppmenuButton
 (
 )
 {
+lazy
+.
 EveryWindow
 .
 unregisterCallback
@@ -764,6 +780,8 @@ messages
 length
 )
 {
+lazy
+.
 EveryWindow
 .
 registerCallback
@@ -810,6 +828,8 @@ removeToolbarButton
 =
 >
 {
+lazy
+.
 EveryWindow
 .
 unregisterCallback
@@ -916,6 +936,8 @@ options
 let
 value
 =
+lazy
+.
 Preferences
 .
 get
@@ -984,6 +1006,8 @@ _sortWhatsNewMessages
 const
 container
 =
+lazy
+.
 PanelMultiView
 .
 getViewNode
@@ -1155,6 +1179,8 @@ document
 const
 messageNodes
 =
+lazy
+.
 PanelMultiView
 .
 getViewNode
@@ -1237,6 +1263,8 @@ content
 cta_url
 ;
 }
+lazy
+.
 SpecialMessageActions
 .
 handleAction
@@ -1381,6 +1409,8 @@ message
 const
 messageEl
 =
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -1419,6 +1449,8 @@ messageEl
 .
 appendChild
 (
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -1478,6 +1510,8 @@ numeric
 const
 wrapperEl
 =
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -1549,6 +1583,8 @@ icon
 const
 iconEl
 =
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -1658,6 +1694,8 @@ link_text
 const
 anchorEl
 =
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -1740,6 +1778,8 @@ wrapperEl
 .
 appendChild
 (
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -1778,6 +1818,8 @@ wrapperEl
 .
 appendChild
 (
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -1833,6 +1875,8 @@ win
 const
 messageEl
 =
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -1877,6 +1921,8 @@ message
 const
 wrapperEl
 =
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -1913,6 +1959,8 @@ wrapperEl
 .
 appendChild
 (
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -1946,6 +1994,8 @@ wrapperEl
 .
 appendChild
 (
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -1987,6 +2037,8 @@ link_text
 let
 linkEl
 =
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -2101,6 +2153,8 @@ const
 eventsByDate
 =
 await
+lazy
+.
 TrackingDBService
 .
 getEventsByDateRange
@@ -2228,6 +2282,8 @@ new
 Date
 (
 await
+lazy
+.
 TrackingDBService
 .
 getEarliestRecordedDate
@@ -2368,6 +2424,8 @@ string_id
 const
 el
 =
+lazy
+.
 PanelMultiView
 .
 getViewNode
@@ -2402,6 +2460,8 @@ id
 const
 el
 =
+lazy
+.
 PanelMultiView
 .
 getViewNode
@@ -2476,6 +2536,8 @@ win
 &
 &
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate

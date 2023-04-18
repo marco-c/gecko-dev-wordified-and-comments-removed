@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PrivateBrowsingUtils
 :
@@ -334,6 +340,8 @@ docFragment
 .
 appendChild
 (
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -746,6 +754,8 @@ ownerGlobal
 ;
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate

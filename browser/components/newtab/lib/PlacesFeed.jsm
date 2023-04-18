@@ -108,11 +108,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NewTabUtils
 "
@@ -135,7 +141,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PartnerLinkAttribution
 "
@@ -157,7 +163,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -180,7 +186,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -203,7 +209,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 pktApi
 "
@@ -226,7 +232,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExperimentAPI
 "
@@ -247,7 +253,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NimbusFeatures
 :
@@ -486,6 +492,8 @@ itemType
 !
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -497,6 +505,8 @@ source
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -510,6 +520,8 @@ source
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -523,6 +535,8 @@ source
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -536,6 +550,8 @@ source
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -639,6 +655,8 @@ itemType
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -650,6 +668,8 @@ source
 !
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -663,6 +683,8 @@ source
 !
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -676,6 +698,8 @@ source
 !
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -689,6 +713,8 @@ source
 !
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -884,6 +910,8 @@ bookmarksObserver
 true
 )
 ;
+lazy
+.
 PlacesUtils
 .
 observers
@@ -1095,6 +1123,8 @@ placesChangedTimer
 null
 ;
 }
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1106,6 +1136,8 @@ this
 bookmarksObserver
 )
 ;
+lazy
+.
 PlacesUtils
 .
 observers
@@ -1401,6 +1433,8 @@ if
 typedBonus
 )
 {
+lazy
+.
 PlacesUtils
 .
 history
@@ -1455,6 +1489,8 @@ data
 original_url
 )
 {
+lazy
+.
 PlacesUtils
 .
 history
@@ -1475,6 +1511,8 @@ visits
 {
 transition
 :
+lazy
+.
 PlacesUtils
 .
 history
@@ -1497,6 +1535,8 @@ browser
 const
 sendToPocket
 =
+lazy
+.
 NimbusFeatures
 .
 pocketNewtab
@@ -1514,6 +1554,8 @@ sendToPocket
 &
 &
 !
+lazy
+.
 pktApi
 .
 isUserLoggedIn
@@ -1524,6 +1566,8 @@ isUserLoggedIn
 const
 pocketNewtabExperiment
 =
+lazy
+.
 ExperimentAPI
 .
 getExperiment
@@ -1679,6 +1723,8 @@ let
 data
 =
 await
+lazy
+.
 NewTabUtils
 .
 activityStreamLinks
@@ -1760,6 +1806,8 @@ itemID
 try
 {
 await
+lazy
+.
 NewTabUtils
 .
 activityStreamLinks
@@ -1808,6 +1856,8 @@ itemID
 try
 {
 await
+lazy
+.
 NewTabUtils
 .
 activityStreamLinks
@@ -1882,6 +1932,8 @@ topsites
 data
 )
 ;
+lazy
+.
 PartnerLinkAttribution
 .
 makeRequest
@@ -1976,6 +2028,8 @@ this
 .
 _getDefaultSearchEngine
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -2550,6 +2604,8 @@ isSponsoredTopSite
 =
 site
 ;
+lazy
+.
 NewTabUtils
 .
 activityStreamLinks
@@ -2604,6 +2660,8 @@ at
 .
 BOOKMARK_URL
 :
+lazy
+.
 NewTabUtils
 .
 activityStreamLinks
@@ -2629,6 +2687,8 @@ at
 .
 DELETE_BOOKMARK_BY_ID
 :
+lazy
+.
 NewTabUtils
 .
 activityStreamLinks
@@ -2659,6 +2719,8 @@ action
 .
 data
 ;
+lazy
+.
 NewTabUtils
 .
 activityStreamLinks
@@ -2673,6 +2735,8 @@ if
 forceBlock
 )
 {
+lazy
+.
 NewTabUtils
 .
 activityStreamLinks

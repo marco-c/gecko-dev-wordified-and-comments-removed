@@ -83,11 +83,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -134,7 +140,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NewTabUtils
 "
@@ -171,6 +177,8 @@ Promise
 resolve
 =
 >
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -198,6 +206,8 @@ faviconSize
 :
 null
 )
+lazy
+.
 NewTabUtils
 .
 activityStreamProvider
@@ -284,6 +294,8 @@ visit_type
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 history
@@ -293,6 +305,8 @@ TRANSITIONS
 REDIRECT_PERMANENT
 }
 {
+lazy
+.
 PlacesUtils
 .
 history
@@ -333,6 +347,8 @@ const
 visits
 =
 await
+lazy
+.
 NewTabUtils
 .
 activityStreamProvider
@@ -433,6 +449,8 @@ faviconSize
 MIN_FAVICON_SIZE
 )
 {
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -451,6 +469,8 @@ iconInfo
 .
 iconUri
 false
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -598,6 +618,8 @@ finalize
 (
 )
 ;
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -614,6 +636,8 @@ url
 )
 iconUri
 false
+lazy
+.
 PlacesUtils
 .
 favicons

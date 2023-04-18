@@ -46,11 +46,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -239,6 +245,8 @@ of
 await
 (
 await
+lazy
+.
 fetch
 (
 TIPPYTOP_JSON_PATH

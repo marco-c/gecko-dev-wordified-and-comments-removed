@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -260,7 +266,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -311,7 +317,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 Telemetry
 "
@@ -320,6 +326,8 @@ Telemetry
 =
 >
 new
+lazy
+.
 AboutWelcomeTelemetry
 (
 )
@@ -752,6 +760,8 @@ const
 migrator
 =
 await
+lazy
+.
 MigrationUtils
 .
 getMigrator
@@ -847,6 +857,8 @@ const
 row
 of
 await
+lazy
+.
 MigrationUtils
 .
 getRowsFromDBWithoutLocks
@@ -1084,6 +1096,8 @@ stop
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1175,6 +1189,8 @@ aTopic
 )
 {
 case
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -1186,6 +1202,8 @@ obs
 removeObserver
 (
 this
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -1197,6 +1215,8 @@ regionHomeDeferred
 .
 resolve
 (
+lazy
+.
 Region
 .
 home
@@ -1231,6 +1251,8 @@ obs
 addObserver
 (
 this
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -1240,6 +1262,8 @@ this
 .
 regionHomeDeferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -1273,6 +1297,8 @@ obs
 removeObserver
 (
 this
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -1335,6 +1361,8 @@ doesAppNeedPin
 )
 {
 return
+lazy
+.
 ShellService
 .
 doesAppNeedPin
@@ -1348,6 +1376,8 @@ isDefaultBrowser
 )
 {
 return
+lazy
+.
 ShellService
 .
 isDefaultBrowser
@@ -1384,6 +1414,8 @@ stop
 (
 )
 ;
+lazy
+.
 Telemetry
 .
 sendTelemetry
@@ -1429,6 +1461,8 @@ data
 browser
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1478,6 +1512,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1501,6 +1537,8 @@ AWPage
 SPECIAL_ACTION
 "
 :
+lazy
+.
 SpecialMessageActions
 .
 handleAction
@@ -1519,6 +1557,8 @@ FXA_METRICS_FLOW_URI
 "
 :
 return
+lazy
+.
 FxAccounts
 .
 config
@@ -1549,6 +1589,8 @@ AWPage
 TELEMETRY_EVENT
 "
 :
+lazy
+.
 Telemetry
 .
 sendTelemetry
@@ -1569,6 +1611,8 @@ let
 attributionData
 =
 await
+lazy
+.
 AboutWelcomeDefaults
 .
 getAttributionContent
@@ -1586,6 +1630,8 @@ SELECT_THEME
 "
 :
 await
+lazy
+.
 BuiltInThemes
 .
 ensureBuiltInThemes
@@ -1593,6 +1639,8 @@ ensureBuiltInThemes
 )
 ;
 return
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -1626,6 +1674,8 @@ let
 themes
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonsByTypes
@@ -1697,6 +1747,8 @@ GET_REGION
 :
 if
 (
+lazy
+.
 Region
 .
 home
@@ -1707,6 +1759,8 @@ null
 )
 {
 return
+lazy
+.
 Region
 .
 home
@@ -1876,6 +1930,8 @@ GET_APP_AND_SYSTEM_LOCALE_INFO
 "
 :
 return
+lazy
+.
 LangPackMatcher
 .
 getAppAndSystemLocaleInfo
@@ -1890,6 +1946,8 @@ NEGOTIATE_LANGPACK
 "
 :
 return
+lazy
+.
 LangPackMatcher
 .
 negotiateLangPackForLanguageMismatch
@@ -1905,6 +1963,8 @@ ENSURE_LANG_PACK_INSTALLED
 "
 :
 return
+lazy
+.
 LangPackMatcher
 .
 ensureLangPackInstalled
@@ -1920,6 +1980,8 @@ SET_REQUESTED_LOCALES
 "
 :
 return
+lazy
+.
 LangPackMatcher
 .
 setRequestedAppLocales
@@ -1936,6 +1998,8 @@ SEND_TO_DEVICE_EMAILS_SUPPORTED
 :
 {
 return
+lazy
+.
 BrowserUtils
 .
 sendToDeviceEmailsSupported
@@ -1945,6 +2009,8 @@ sendToDeviceEmailsSupported
 }
 default
 :
+lazy
+.
 log
 .
 debug
@@ -2011,6 +2077,8 @@ browser
 )
 ;
 }
+lazy
+.
 log
 .
 warn

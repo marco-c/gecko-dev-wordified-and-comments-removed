@@ -111,11 +111,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NimbusFeatures
 :
@@ -171,7 +177,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BasePromiseWorker
 "
@@ -363,6 +369,8 @@ processes
 if
 (
 !
+lazy
+.
 NimbusFeatures
 .
 abouthomecache
@@ -1164,6 +1172,8 @@ this
 _cacheWorker
 =
 new
+lazy
+.
 BasePromiseWorker
 (
 CACHE_WORKER_URL
@@ -1490,6 +1500,8 @@ welcomeURL
 (
 )
 {
+lazy
+.
 NimbusFeatures
 .
 aboutwelcome
@@ -1505,6 +1517,8 @@ true
 ;
 if
 (
+lazy
+.
 NimbusFeatures
 .
 aboutwelcome
