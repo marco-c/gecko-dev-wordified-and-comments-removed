@@ -649,7 +649,10 @@ SurfaceType
 mSurfaceType
 ;
 uint64_t
-mBufferModifier
+mBufferModifiers
+[
+DMABUF_BUFFER_PLANES
+]
 ;
 int
 mBufferPlaneCount

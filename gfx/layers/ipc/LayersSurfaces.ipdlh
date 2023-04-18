@@ -387,6 +387,8 @@ uint32_t
 bufferType
 ;
 uint64_t
+[
+]
 modifier
 ;
 uint32_t
