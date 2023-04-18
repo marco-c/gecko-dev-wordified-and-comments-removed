@@ -76,5 +76,9 @@ MOZ_FETCHES_DIR
 compiler
 -
 rt
+-
+wasm32
+-
+wasi
 "
 }
