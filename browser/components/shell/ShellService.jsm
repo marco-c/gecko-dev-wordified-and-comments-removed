@@ -1075,7 +1075,7 @@ push
 pdf
 "
 "
-FirefoxHTML
+FirefoxPDF
 "
 )
 ;
