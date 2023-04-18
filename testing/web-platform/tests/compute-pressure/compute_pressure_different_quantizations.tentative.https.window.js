@@ -62,7 +62,7 @@ add_cleanup
 >
 observer1
 .
-stop
+disconnect
 (
 )
 )
@@ -72,6 +72,9 @@ observer1
 .
 observe
 (
+'
+cpu
+'
 )
 ;
 const
@@ -141,7 +144,7 @@ add_cleanup
 >
 observer2
 .
-stop
+disconnect
 (
 )
 )
@@ -150,6 +153,9 @@ observer2
 .
 observe
 (
+'
+cpu
+'
 )
 .
 catch
@@ -321,7 +327,7 @@ add_cleanup
 >
 observer3
 .
-stop
+disconnect
 (
 )
 )
@@ -330,6 +336,9 @@ observer3
 .
 observe
 (
+'
+cpu
+'
 )
 .
 catch

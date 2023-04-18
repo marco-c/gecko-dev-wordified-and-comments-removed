@@ -58,7 +58,7 @@ add_cleanup
 >
 observer
 .
-stop
+disconnect
 (
 )
 )
@@ -67,6 +67,9 @@ observer
 .
 observe
 (
+'
+cpu
+'
 )
 .
 catch
@@ -150,7 +153,7 @@ add_cleanup
 >
 observer
 .
-stop
+disconnect
 (
 )
 )
@@ -159,6 +162,9 @@ observer
 .
 observe
 (
+'
+cpu
+'
 )
 .
 catch
@@ -242,7 +248,7 @@ add_cleanup
 >
 observer
 .
-stop
+disconnect
 (
 )
 )
@@ -251,6 +257,9 @@ observer
 .
 observe
 (
+'
+cpu
+'
 )
 .
 catch

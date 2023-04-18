@@ -241,6 +241,9 @@ observer
 .
 observe
 (
+'
+cpu
+'
 )
 )
 ;
@@ -330,6 +333,9 @@ observer
 .
 observe
 (
+'
+cpu
+'
 )
 ;
 iframe
@@ -341,7 +347,7 @@ remove
 /
 /
 Calling
-stop
+disconnect
 (
 )
 from
@@ -354,7 +360,7 @@ crash
 .
 observer
 .
-stop
+disconnect
 (
 )
 ;
@@ -476,6 +482,9 @@ observer
 .
 observe
 (
+'
+cpu
+'
 )
 ;
 iframe
@@ -578,7 +587,7 @@ add_cleanup
 >
 observer
 .
-stop
+disconnect
 (
 )
 )
@@ -587,6 +596,9 @@ observer
 .
 observe
 (
+'
+cpu
+'
 )
 .
 catch
