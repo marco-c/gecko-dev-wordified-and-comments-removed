@@ -670,11 +670,6 @@ mSystemThemeOverridden
 =
 false
 ;
-bool
-mIsWayland
-=
-false
-;
 int32_t
 mCSDMaximizeButtonPosition
 =

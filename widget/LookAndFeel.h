@@ -198,7 +198,6 @@ ScrollbarFadeBeginDelay
 ScrollbarFadeDuration
 ContextMenuOffsetVertical
 ContextMenuOffsetHorizontal
-GTKWayland
 GTKCSDAvailable
 GTKCSDMinimizeButton
 GTKCSDMaximizeButton
