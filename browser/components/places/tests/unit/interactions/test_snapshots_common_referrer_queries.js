@@ -1876,11 +1876,11 @@ snapshot
 await
 Snapshots
 .
-queryCommonReferrer
+recommendationSources
+.
+CommonReferrer
 (
 context
-.
-url
 )
 ;
 Assert
