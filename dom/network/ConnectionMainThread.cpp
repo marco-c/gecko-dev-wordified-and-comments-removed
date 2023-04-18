@@ -36,11 +36,14 @@ ConnectionMainThread
 nsPIDOMWindowInner
 *
 aWindow
+bool
+aShouldResistFingerprinting
 )
 :
 Connection
 (
 aWindow
+aShouldResistFingerprinting
 )
 {
 hal

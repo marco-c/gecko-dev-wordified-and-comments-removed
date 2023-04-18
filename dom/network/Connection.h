@@ -74,6 +74,8 @@ CreateForWindow
 nsPIDOMWindowInner
 *
 aWindow
+bool
+aShouldResistFingerprinting
 )
 ;
 static
@@ -183,6 +185,8 @@ Connection
 nsPIDOMWindowInner
 *
 aWindow
+bool
+aShouldResistFingerprinting
 )
 ;
 virtual
@@ -214,6 +218,9 @@ ShutdownInternal
 ;
 private
 :
+bool
+mShouldResistFingerprinting
+;
 ConnectionType
 mType
 ;

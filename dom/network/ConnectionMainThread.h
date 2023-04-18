@@ -58,6 +58,8 @@ ConnectionMainThread
 nsPIDOMWindowInner
 *
 aWindow
+bool
+aShouldResistFingerprinting
 )
 ;
 void
