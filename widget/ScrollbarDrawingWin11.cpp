@@ -55,6 +55,15 @@ nsNativeTheme
 .
 h
 "
+using
+mozilla
+:
+:
+gfx
+:
+:
+sRGBColor
+;
 namespace
 mozilla
 :
@@ -711,6 +720,9 @@ aRect
 ToUnknownRect
 (
 )
+gfx
+:
+:
 ColorPattern
 (
 ToDeviceColor

@@ -5,6 +5,12 @@ ThemeDrawing
 .
 h
 "
+namespace
+mozilla
+:
+:
+widget
+{
 void
 ThemeDrawing
 :
@@ -33,6 +39,9 @@ aRect
 ToUnknownRect
 (
 )
+gfx
+:
+:
 ColorPattern
 (
 ToDeviceColor
@@ -212,6 +221,9 @@ ToUnknownPoint
 ;
 RefPtr
 <
+gfx
+:
+:
 PathBuilder
 >
 builder
@@ -222,11 +234,17 @@ CreatePathBuilder
 (
 )
 ;
+gfx
+:
+:
 Point
 p
 =
 center
 +
+gfx
+:
+:
 Point
 (
 aArrowPolygonX
@@ -271,6 +289,9 @@ p
 =
 center
 +
+gfx
+:
+:
 Point
 (
 aArrowPolygonX
@@ -298,6 +319,9 @@ p
 }
 RefPtr
 <
+gfx
+:
+:
 Path
 >
 path
@@ -314,6 +338,9 @@ aDrawTarget
 Fill
 (
 path
+gfx
+:
+:
 ColorPattern
 (
 ToDeviceColor
@@ -913,6 +940,9 @@ min
 }
 Maybe
 <
+gfx
+:
+:
 ColorPattern
 >
 backgroundPattern
@@ -942,6 +972,9 @@ aBackgroundColor
 }
 Maybe
 <
+gfx
+:
+:
 ColorPattern
 >
 borderPattern
@@ -995,6 +1028,9 @@ radius
 0f
 )
 {
+gfx
+:
+:
 RectCornerRadii
 radii
 (
@@ -1006,6 +1042,9 @@ radius
 ;
 RefPtr
 <
+gfx
+:
+:
 Path
 >
 roundedRect
@@ -1048,6 +1087,9 @@ Stroke
 roundedRect
 *
 borderPattern
+gfx
+:
+:
 StrokeOptions
 (
 borderWidth
@@ -1093,6 +1135,9 @@ ToUnknownRect
 )
 *
 borderPattern
+gfx
+:
+:
 StrokeOptions
 (
 borderWidth
@@ -1113,5 +1158,6 @@ PopClip
 (
 )
 ;
+}
 }
 }
