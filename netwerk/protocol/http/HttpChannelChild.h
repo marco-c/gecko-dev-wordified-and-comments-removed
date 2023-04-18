@@ -979,16 +979,6 @@ aIsThirdParty
 )
 ;
 void
-ProcessNotifyFlashPluginStateChanged
-(
-nsIHttpChannel
-:
-:
-FlashPluginState
-aState
-)
-;
-void
 ProcessSetClassifierMatchedInfo
 (
 const

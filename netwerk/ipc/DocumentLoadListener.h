@@ -1385,10 +1385,6 @@ mozilla
 :
 Variant
 <
-nsIHttpChannel
-:
-:
-FlashPluginState
 ClassifierMatchedInfoParams
 ClassifierMatchedTrackingInfoParams
 ClassificationFlagsParams

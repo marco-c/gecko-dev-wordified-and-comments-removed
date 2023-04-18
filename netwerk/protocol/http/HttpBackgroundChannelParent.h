@@ -231,16 +231,6 @@ aIsThirdParty
 )
 ;
 bool
-OnNotifyFlashPluginStateChanged
-(
-nsIHttpChannel
-:
-:
-FlashPluginState
-aState
-)
-;
-bool
 OnSetClassifierMatchedInfo
 (
 const
