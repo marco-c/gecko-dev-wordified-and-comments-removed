@@ -892,6 +892,9 @@ root
 exclude
 =
 None
+setupargs
+=
+None
 *
 *
 lintargs
@@ -952,6 +955,15 @@ root
 ]
 =
 root
+        
+self
+.
+_setupargs
+=
+setupargs
+or
+{
+}
         
 self
 .
@@ -1232,6 +1244,15 @@ lintargs
 )
                 
 setupargs
+.
+update
+(
+self
+.
+_setupargs
+)
+                
+setupargs
 [
 "
 name
@@ -1311,9 +1332,11 @@ setup
 ]
 )
 (
+                    
 *
 *
 setupargs
+                
 )
                 
 self

@@ -1795,7 +1795,7 @@ enable_unstructured
 rc
 clang_paths
 =
-_get_clang_tools
+get_clang_tools
 (
 command_context
 verbose
@@ -3718,7 +3718,7 @@ else
 rc
 clang_paths
 =
-_get_clang_tools
+get_clang_tools
 (
             
 command_context
@@ -5568,7 +5568,7 @@ verbose
 rc
 _
 =
-_get_clang_tools
+get_clang_tools
 (
         
 command_context
@@ -5641,7 +5641,7 @@ verbose
 rc
 _
 =
-_get_clang_tools
+get_clang_tools
 (
         
 command_context
@@ -5735,7 +5735,7 @@ verbose
 rc
 clang_paths
 =
-_get_clang_tools
+get_clang_tools
 (
 command_context
 verbose
@@ -6792,7 +6792,7 @@ else
 rc
 clang_paths
 =
-_get_clang_tools
+get_clang_tools
 (
 command_context
 verbose
@@ -8454,7 +8454,7 @@ _run_clang_tidy_path
     
 )
 def
-_get_clang_tools
+get_clang_tools
 (
     
 command_context
@@ -8554,7 +8554,7 @@ _clang_tools_path
 )
         
 return
-_get_clang_tools
+get_clang_tools
 (
             
 command_context

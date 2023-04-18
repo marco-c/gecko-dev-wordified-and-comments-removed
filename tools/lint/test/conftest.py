@@ -688,6 +688,24 @@ config
         
 return
     
+if
+config
+[
+"
+name
+"
+]
+=
+=
+"
+clang
+-
+format
+"
+:
+        
+return
+    
 log
 =
 logging

@@ -2125,6 +2125,10 @@ virtualenv_manager
 =
 None
     
+setupargs
+=
+None
+    
 *
 *
 lintargs
@@ -2304,6 +2308,12 @@ lint
 =
 LintRoller
 (
+setupargs
+=
+setupargs
+or
+{
+}
 *
 *
 lintargs

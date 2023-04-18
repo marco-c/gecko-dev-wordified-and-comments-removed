@@ -71,3 +71,10 @@ lint
 code_review_warnings
 :
 false
+setup
+:
+clang
+-
+format
+:
+setup
