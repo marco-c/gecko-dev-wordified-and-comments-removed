@@ -487,12 +487,15 @@ SetCounterResetListItem
 (
 int32_t
 aValue
+bool
+aIsReversed
 )
 {
 Servo_DeclarationBlock_SetCounterResetListItem
 (
 mDecl
 aValue
+aIsReversed
 )
 ;
 }

@@ -196,7 +196,7 @@ counter
 reset
 "
 "
-CounterSetOrReset
+CounterReset
 "
 engines
 =
@@ -265,7 +265,7 @@ counter
 set
 "
 "
-CounterSetOrReset
+CounterSet
 "
 engines
 =

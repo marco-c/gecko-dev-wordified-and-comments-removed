@@ -893,7 +893,10 @@ SVGPaintOrder
 ClipRectOrAuto
 "
 "
-CounterSetOrReset
+CounterReset
+"
+"
+CounterSet
 "
 "
 CounterIncrement

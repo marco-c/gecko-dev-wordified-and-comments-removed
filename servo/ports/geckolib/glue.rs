@@ -28222,6 +28222,9 @@ RawServoDeclarationBlock
 counter_value
 :
 i32
+is_reversed
+:
+bool
 )
 {
 use
@@ -28248,7 +28251,7 @@ counters
 :
 {
 CounterPair
-CounterSetOrReset
+CounterReset
 }
 ;
 let
@@ -28259,7 +28262,7 @@ PropertyDeclaration
 :
 CounterReset
 (
-CounterSetOrReset
+CounterReset
 :
 :
 new
@@ -28301,6 +28304,7 @@ new
 (
 counter_value
 )
+is_reversed
 }
 ]
 )
@@ -28376,7 +28380,7 @@ counters
 :
 {
 CounterPair
-CounterSetOrReset
+CounterSet
 }
 ;
 let
@@ -28387,7 +28391,7 @@ PropertyDeclaration
 :
 CounterSet
 (
-CounterSetOrReset
+CounterSet
 :
 :
 new
@@ -28429,6 +28433,9 @@ new
 (
 counter_value
 )
+is_reversed
+:
+false
 }
 ]
 )

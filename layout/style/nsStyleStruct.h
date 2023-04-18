@@ -8083,13 +8083,13 @@ mCounterIncrement
 mozilla
 :
 :
-StyleCounterSetOrReset
+StyleCounterReset
 mCounterReset
 ;
 mozilla
 :
 :
-StyleCounterSetOrReset
+StyleCounterSet
 mCounterSet
 ;
 }
