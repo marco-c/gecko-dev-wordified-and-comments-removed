@@ -2182,7 +2182,7 @@ aState
 mReflowedContentsWithHScrollbar
 &
 &
-ScrolledContentDependsOnHeight
+ScrolledContentDependsOnBSize
 (
 aState
 )
@@ -3368,12 +3368,13 @@ bool
 nsHTMLScrollFrame
 :
 :
-ScrolledContentDependsOnHeight
+ScrolledContentDependsOnBSize
 (
 ScrollReflowInput
 *
 aState
 )
+const
 {
 return
 mHelper

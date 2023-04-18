@@ -2927,12 +2927,13 @@ aForce
 )
 ;
 bool
-ScrolledContentDependsOnHeight
+ScrolledContentDependsOnBSize
 (
 ScrollReflowInput
 *
 aState
 )
+const
 ;
 void
 ReflowScrolledFrame
