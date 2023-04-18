@@ -383,12 +383,6 @@ specifications
 "
 "
     
-command_context
-.
-activate_virtualenv
-(
-)
-    
 import
 pycert
     

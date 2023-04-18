@@ -532,12 +532,6 @@ Incremental_builds_with_filesystem_watching
 return
 1
     
-command_context
-.
-activate_virtualenv
-(
-)
-    
 from
 mozbuild
 .
@@ -1171,12 +1165,6 @@ problems
 "
 "
 "
-    
-command_context
-.
-activate_virtualenv
-(
-)
     
 from
 mozbuild

@@ -2886,18 +2886,6 @@ JSON
     
 return
 parser
-def
-setup
-(
-command_context
-)
-:
-    
-command_context
-.
-activate_virtualenv
-(
-)
 Command
 (
     
@@ -2938,6 +2926,12 @@ tests
 parser
 =
 create_parser_wpt
+    
+virtualenv_name
+=
+"
+wpt
+"
 )
 def
 run_web_platform_tests
@@ -2948,11 +2942,6 @@ command_context
 params
 )
 :
-    
-setup
-(
-command_context
-)
     
 if
 params
@@ -3343,11 +3332,6 @@ params
 )
 :
     
-setup
-(
-command_context
-)
-    
 wpt_updater
 =
 command_context
@@ -3461,6 +3445,12 @@ manifests
 parser
 =
 create_parser_manifest_update
+    
+virtualenv_name
+=
+"
+wpt
+"
 )
 def
 wpt_manifest_update
@@ -3471,11 +3461,6 @@ command_context
 params
 )
 :
-    
-setup
-(
-command_context
-)
     
 wpt_setup
 =
@@ -3572,6 +3557,12 @@ server
 parser
 =
 create_parser_serve
+    
+virtualenv_name
+=
+"
+wpt
+"
 )
 def
 wpt_serve
@@ -3582,11 +3573,6 @@ command_context
 params
 )
 :
-    
-setup
-(
-command_context
-)
     
 import
 logging
@@ -3821,11 +3807,6 @@ command_context
 params
 )
 :
-    
-setup
-(
-command_context
-)
     
 runner
 =

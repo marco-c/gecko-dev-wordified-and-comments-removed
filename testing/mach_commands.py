@@ -4383,12 +4383,6 @@ kwargs
 )
 :
     
-command_context
-.
-activate_virtualenv
-(
-)
-    
 from
 jsshell
 import

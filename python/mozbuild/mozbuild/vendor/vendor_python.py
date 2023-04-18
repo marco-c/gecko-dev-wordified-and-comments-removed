@@ -10,6 +10,8 @@ import
 shutil
 import
 subprocess
+import
+sys
 from
 pathlib
 import
@@ -91,12 +93,6 @@ third_party
 python
 "
 )
-)
-        
-self
-.
-activate_virtualenv
-(
 )
         
 spec
@@ -211,11 +207,9 @@ check_output
                 
 [
                     
-self
+sys
 .
-virtualenv_manager
-.
-python_path
+executable
                     
 "
 -
@@ -301,11 +295,9 @@ check_call
                     
 [
                         
-self
+sys
 .
-virtualenv_manager
-.
-python_path
+executable
                         
 "
 -

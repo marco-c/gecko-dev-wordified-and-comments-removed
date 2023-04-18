@@ -1225,12 +1225,6 @@ params
 )
 :
     
-command_context
-.
-activate_virtualenv
-(
-)
-    
 intervention_test
 =
 command_context
