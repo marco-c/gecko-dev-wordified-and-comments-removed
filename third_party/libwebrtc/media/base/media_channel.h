@@ -2382,6 +2382,11 @@ fec_packets_discarded
 =
 0
 ;
+uint64_t
+packets_discarded
+=
+0
+;
 float
 expand_rate
 =

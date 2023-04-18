@@ -162,9 +162,6 @@ uint64_t
 jitterBufferEmittedCount
 ;
 uint64_t
-jitterBufferTargetDelayMs
-;
-uint64_t
 insertedSamplesForDeceleration
 ;
 uint64_t
@@ -175,6 +172,12 @@ fecPacketsReceived
 ;
 uint64_t
 fecPacketsDiscarded
+;
+uint64_t
+packetsDiscarded
+;
+uint64_t
+jitterBufferTargetDelayMs
 ;
 uint16_t
 currentExpandRate

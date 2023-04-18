@@ -1914,12 +1914,6 @@ RTCStatsMember
 <
 uint32_t
 >
-packets_discarded
-;
-RTCStatsMember
-<
-uint32_t
->
 packets_repaired
 ;
 RTCStatsMember
@@ -2366,6 +2360,12 @@ RTCStatsMember
 double
 >
 jitter
+;
+RTCStatsMember
+<
+uint64_t
+>
+packets_discarded
 ;
 RTCStatsMember
 <

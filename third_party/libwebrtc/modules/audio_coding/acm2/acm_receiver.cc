@@ -1738,6 +1738,15 @@ neteq_operations_and_state
 .
 packet_buffer_flushes
 ;
+acm_stat
+-
+>
+packetsDiscarded
+=
+neteq_operations_and_state
+.
+discarded_primary_packets
+;
 }
 int
 AcmReceiver
