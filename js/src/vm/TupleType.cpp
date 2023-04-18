@@ -235,6 +235,17 @@ tuple_is_tuple
 1
 0
 )
+JS_SELF_HOSTED_FN
+(
+"
+from
+"
+"
+TupleFrom
+"
+1
+0
+)
 JS_FS_END
 }
 ;
