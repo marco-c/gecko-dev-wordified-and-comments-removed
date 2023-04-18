@@ -713,7 +713,7 @@ ErrorResult
 aRv
 )
 ;
-inline
+extern
 bool
 ReadableStreamHasBYOBReader
 (
@@ -721,11 +721,7 @@ ReadableStream
 *
 aStream
 )
-{
-return
-false
 ;
-}
 extern
 bool
 ReadableStreamHasDefaultReader
