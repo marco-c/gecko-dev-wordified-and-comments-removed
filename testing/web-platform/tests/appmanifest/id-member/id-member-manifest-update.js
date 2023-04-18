@@ -53,8 +53,6 @@ update
 -
 manual
 .
-tentative
-.
 html
 "
 >
@@ -67,8 +65,6 @@ manifest
 update
 -
 manual
-.
-tentative
 .
 html
 <
