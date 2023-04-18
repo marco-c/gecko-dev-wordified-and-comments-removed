@@ -1461,6 +1461,10 @@ fromFractionToSingleDigitValue
 :
 NumberScaler
 ;
+steps
+:
+number
+;
 }
 export
 type
