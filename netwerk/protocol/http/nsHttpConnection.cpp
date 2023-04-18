@@ -3678,10 +3678,10 @@ _ns
 ;
 if
 (
-gHttpHandler
--
->
-IsSpdyEnabled
+StaticPrefs
+:
+:
+network_http_http2_enabled
 (
 )
 &

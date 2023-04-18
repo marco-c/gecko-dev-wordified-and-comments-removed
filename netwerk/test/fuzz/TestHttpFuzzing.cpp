@@ -267,7 +267,7 @@ network
 .
 http
 .
-spdy
+http2
 .
 default
 -

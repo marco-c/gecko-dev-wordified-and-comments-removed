@@ -395,7 +395,7 @@ network
 .
 http
 .
-spdy
+http2
 .
 push
 -
@@ -411,7 +411,7 @@ network
 .
 http
 .
-spdy
+http2
 .
 default
 -
