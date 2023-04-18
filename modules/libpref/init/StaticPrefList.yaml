@@ -14728,7 +14728,7 @@ test
 enabled
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
