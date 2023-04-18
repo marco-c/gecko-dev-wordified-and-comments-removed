@@ -525,7 +525,6 @@ sse4
 "
 )
 ]
-pub
 unsafe
 fn
 calculate

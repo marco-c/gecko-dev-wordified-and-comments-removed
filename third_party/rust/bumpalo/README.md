@@ -1190,7 +1190,7 @@ The
 Bump
 is
 !
-Send
+Sync
 which
 makes
 it

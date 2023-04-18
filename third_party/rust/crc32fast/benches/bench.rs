@@ -146,6 +146,7 @@ Hasher
 internal_new_baseline
 (
 0
+0
 )
 )
 }
@@ -168,6 +169,7 @@ Hasher
 :
 internal_new_specialized
 (
+0
 0
 )
 .
@@ -198,6 +200,7 @@ Hasher
 internal_new_baseline
 (
 0
+0
 )
 )
 }
@@ -222,6 +225,7 @@ Hasher
 :
 internal_new_specialized
 (
+0
 0
 )
 .
