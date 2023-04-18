@@ -388,6 +388,10 @@ event
 *
 wakeup_event_
 ;
+static
+bool
+awake_
+;
 DISALLOW_COPY_AND_ASSIGN
 (
 MessagePumpLibevent

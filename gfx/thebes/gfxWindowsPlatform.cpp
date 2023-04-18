@@ -8332,6 +8332,9 @@ Now
 (
 )
 ;
+{
+AUTO_PROFILER_THREAD_SLEEP
+;
 hr
 =
 mWaitVBlankOutput
@@ -8341,6 +8344,7 @@ WaitForVBlank
 (
 )
 ;
+}
 if
 (
 SUCCEEDED

@@ -4164,6 +4164,8 @@ remaining
 0
 )
 {
+AUTO_PROFILER_THREAD_SLEEP
+;
 PlatformThread
 :
 :

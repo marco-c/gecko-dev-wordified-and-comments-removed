@@ -1965,6 +1965,9 @@ while
 true
 )
 {
+{
+AUTO_PROFILER_THREAD_SLEEP
+;
 MOZ_ALWAYS_TRUE
 (
 :
@@ -1979,6 +1982,7 @@ INFINITE
 WAIT_OBJECT_0
 )
 ;
+}
 if
 (
 mStopServiceThread
