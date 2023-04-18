@@ -649,6 +649,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 if
 (

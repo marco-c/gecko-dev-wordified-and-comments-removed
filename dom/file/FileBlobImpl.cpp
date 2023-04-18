@@ -1316,6 +1316,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 nsCOMPtr
 <

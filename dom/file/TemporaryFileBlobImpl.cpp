@@ -503,6 +503,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 #
 ifdef

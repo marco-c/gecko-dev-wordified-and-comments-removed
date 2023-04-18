@@ -303,6 +303,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 *
 aStream
