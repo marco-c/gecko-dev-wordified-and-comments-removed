@@ -61,6 +61,9 @@ string
 aField
 )
 ;
+[
+noscript
+]
 readonly
 attribute
 AString
