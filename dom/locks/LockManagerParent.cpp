@@ -1069,11 +1069,13 @@ Unused
 NS_WARN_IF
 (
 !
-aHeld
--
->
-SendAbort
+PLockRequestParent
+:
+:
+Send__delete__
 (
+aHeld
+true
 )
 )
 ;

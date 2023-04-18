@@ -121,12 +121,7 @@ bool
 aIsAvailable
 )
 ;
-async
-Abort
-(
-)
-;
-parent
+both
 :
 async
 __delete__
