@@ -1841,7 +1841,7 @@ NS_ERROR_FILE_CORRUPTED
 AutoTArray
 <
 uint8_t
-512
+4096
 >
 uncompressed
 ;
