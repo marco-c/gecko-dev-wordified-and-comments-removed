@@ -4662,13 +4662,15 @@ aSide
 )
 ;
 static
-LayoutDeviceIntSize
+mozilla
+:
+:
+LayoutDeviceSize
 GetBorderRadiusForMenuDropShadow
 (
 const
 nsIFrame
 *
-aFrame
 )
 ;
 static
