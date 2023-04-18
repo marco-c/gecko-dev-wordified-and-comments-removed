@@ -2523,6 +2523,13 @@ browser
 .
 find_binary
 (
+venv_path
+=
+self
+.
+venv
+.
+path
 channel
 =
 browser_channel
