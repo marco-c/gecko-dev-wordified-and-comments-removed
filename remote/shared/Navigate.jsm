@@ -650,6 +650,14 @@ isSuccessCode
 (
 status
 )
+&
+&
+status
+!
+=
+Cr
+.
+NS_ERROR_PARSED_DATA_CACHED
 )
 {
 if
