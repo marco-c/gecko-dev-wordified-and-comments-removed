@@ -5743,7 +5743,12 @@ rect
 new
 DOMRect
 (
-this
+ToSupports
+(
+OwnerDoc
+(
+)
+)
 )
 ;
 nsIFrame

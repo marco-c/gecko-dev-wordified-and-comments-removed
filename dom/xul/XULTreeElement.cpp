@@ -1706,7 +1706,12 @@ domRect
 new
 DOMRect
 (
-this
+ToSupports
+(
+OwnerDoc
+(
+)
+)
 rect
 .
 x

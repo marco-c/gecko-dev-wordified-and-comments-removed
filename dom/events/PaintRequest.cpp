@@ -124,7 +124,7 @@ clientRect
 new
 DOMRect
 (
-this
+mParent
 )
 ;
 clientRect

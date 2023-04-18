@@ -1428,7 +1428,7 @@ entry
 new
 ResizeObserverEntry
 (
-this
+mOwner
 *
 target
 borderBoxSize
@@ -1746,7 +1746,7 @@ mBorderBoxSize
 new
 ResizeObserverSize
 (
-this
+mOwner
 aSize
 wm
 )
@@ -1830,7 +1830,7 @@ contentRect
 new
 DOMRect
 (
-this
+mOwner
 )
 ;
 contentRect
@@ -1873,7 +1873,7 @@ mContentBoxSize
 new
 ResizeObserverSize
 (
-this
+mOwner
 aSize
 wm
 )
@@ -1927,7 +1927,7 @@ mDevicePixelContentBoxSize
 new
 ResizeObserverSize
 (
-this
+mOwner
 aSize
 wm
 )
