@@ -152,9 +152,14 @@ waitForPaused
 dbg
 )
 ;
-assertPausedLocation
+assertPausedAtSourceAndLine
 (
 dbg
+sortedSrc
+.
+id
+9
+4
 )
 ;
 is
