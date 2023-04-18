@@ -876,6 +876,11 @@ experimentType
 isBestMatchExperiment
 :
 false
+quickSuggestRemoteSettingsDataType
+:
+"
+data
+"
 }
 ;
 const
