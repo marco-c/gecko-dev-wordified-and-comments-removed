@@ -530,7 +530,7 @@ formats
 :
 [
 "
-autograph_authenticode
+autograph_authenticode_sha2
 "
 ]
             
@@ -567,7 +567,7 @@ formats
 [
                     
 "
-autograph_authenticode
+autograph_authenticode_sha2
 "
                     
 "

@@ -145,7 +145,7 @@ exe
 :
 [
 "
-autograph_authenticode_stub
+autograph_authenticode_sha2_stub
 "
 ]
     
@@ -161,7 +161,7 @@ exe
 :
 [
 "
-autograph_authenticode_stub
+autograph_authenticode_sha2_stub
 "
 ]
     
@@ -175,7 +175,7 @@ msi
 :
 [
 "
-autograph_authenticode
+autograph_authenticode_sha2
 "
 ]
     

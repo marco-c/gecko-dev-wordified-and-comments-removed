@@ -513,7 +513,7 @@ formats
 :
 [
 "
-autograph_authenticode
+autograph_authenticode_sha2
 "
 "
 autograph_gpg
@@ -648,7 +648,7 @@ formats
 :
 [
 "
-autograph_authenticode
+autograph_authenticode_sha2
 "
 "
 autograph_gpg
