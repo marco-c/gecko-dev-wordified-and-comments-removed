@@ -975,6 +975,16 @@ version
 .
 1
 "
+default_features
+=
+false
+features
+=
+[
+"
+winapi
+"
+]
 }
 mdns_service
 =
