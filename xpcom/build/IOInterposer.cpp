@@ -1735,6 +1735,10 @@ RefPtr
 ObserverLists
 >
 mObserverLists
+GUARDED_BY
+(
+mLock
+)
 ;
 mozilla
 :
@@ -1744,7 +1748,6 @@ IOInterposer
 :
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 mozilla
 :
