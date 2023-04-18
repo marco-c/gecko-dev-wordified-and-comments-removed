@@ -545,13 +545,6 @@ props
 .
 backdrop
 }
-appAndSystemLocaleInfo
-=
-{
-props
-.
-appAndSystemLocaleInfo
-}
 /
 >
 )

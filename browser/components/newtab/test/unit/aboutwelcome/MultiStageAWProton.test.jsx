@@ -767,8 +767,6 @@ getData
 screens
 .
 length
--
-1
 )
 ;
 }
@@ -861,7 +859,7 @@ screens
 .
 length
 -
-2
+1
 )
 ;
 }
@@ -950,7 +948,7 @@ screens
 .
 length
 -
-2
+1
 )
 ;
 }
@@ -1036,7 +1034,7 @@ screens
 .
 length
 -
-2
+1
 )
 ;
 }
