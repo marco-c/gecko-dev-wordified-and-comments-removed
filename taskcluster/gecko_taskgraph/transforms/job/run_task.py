@@ -1424,22 +1424,15 @@ task
 )
     
 if
-worker
+job
 .
 get
 (
 "
-env
+fetches
 "
 {
 }
-)
-.
-get
-(
-"
-MOZ_FETCHES
-"
 )
 :
         
