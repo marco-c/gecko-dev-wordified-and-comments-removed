@@ -1968,6 +1968,7 @@ WebExtensionAndroid
 "
 geckoview
 "
+        
 "
 org
 .
@@ -1975,9 +1976,15 @@ mozilla
 .
 geckoview_example
 "
+        
 host
 =
 host
+        
+extra_prefs
+=
+{
+}
     
 )
     
@@ -2123,6 +2130,7 @@ WebExtensionAndroid
 "
 geckoview
 "
+        
 "
 org
 .
@@ -2130,6 +2138,7 @@ mozilla
 .
 geckoview_example
 "
+        
 host
 =
 "
@@ -2141,6 +2150,11 @@ host
 .
 10
 "
+        
+extra_prefs
+=
+{
+}
     
 )
     

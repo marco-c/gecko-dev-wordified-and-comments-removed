@@ -147,6 +147,10 @@ chimera
 =
 False
         
+fission
+=
+True
+        
 *
 *
 kwargs
@@ -227,15 +231,7 @@ self
 .
 fission_enabled
 =
-kwargs
-.
-get
-(
-"
 fission
-"
-True
-)
         
 self
 .
@@ -498,6 +494,14 @@ chromium
 )
 :
             
+if
+"
+webrender
+"
+in
+extra_options
+:
+                
 extra_options
 .
 remove
@@ -507,6 +511,14 @@ webrender
 "
 )
             
+if
+"
+fission
+"
+in
+extra_options
+:
+                
 extra_options
 .
 remove

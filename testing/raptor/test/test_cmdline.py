@@ -135,6 +135,19 @@ False
 browsertime_visualmetrics
 =
 False
+        
+fission
+=
+True
+        
+fission_mobile
+=
+False
+        
+extra_prefs
+=
+[
+]
     
 )
     
@@ -267,6 +280,19 @@ False
 browsertime_visualmetrics
 =
 False
+        
+fission
+=
+True
+        
+fission_mobile
+=
+False
+        
+extra_prefs
+=
+[
+]
     
 )
     
@@ -364,6 +390,19 @@ False
 browsertime_visualmetrics
 =
 False
+        
+fission
+=
+True
+        
+fission_mobile
+=
+False
+        
+extra_prefs
+=
+[
+]
     
 )
     
@@ -461,6 +500,19 @@ False
 browsertime_visualmetrics
 =
 False
+        
+fission
+=
+True
+        
+fission_mobile
+=
+False
+        
+extra_prefs
+=
+[
+]
     
 )
     
@@ -554,6 +606,19 @@ False
 browsertime_visualmetrics
 =
 False
+        
+fission
+=
+True
+        
+fission_mobile
+=
+False
+        
+extra_prefs
+=
+[
+]
     
 )
     
@@ -641,6 +706,19 @@ False
 browsertime_visualmetrics
 =
 False
+        
+fission
+=
+True
+        
+fission_mobile
+=
+False
+        
+extra_prefs
+=
+[
+]
     
 )
     
