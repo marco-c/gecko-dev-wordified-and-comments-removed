@@ -261,6 +261,12 @@ aBackend
 override
 ;
 void
+UnbindTextureSource
+(
+)
+override
+;
+void
 NotifyNotUsed
 (
 )

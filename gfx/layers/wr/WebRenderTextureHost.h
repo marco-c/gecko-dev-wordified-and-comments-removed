@@ -75,6 +75,12 @@ DeallocateDeviceData
 override
 {
 }
+void
+UnbindTextureSource
+(
+)
+override
+;
 gfx
 :
 :

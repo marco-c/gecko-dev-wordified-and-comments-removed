@@ -1340,6 +1340,12 @@ LIMITED
 ;
 }
 virtual
+void
+UnbindTextureSource
+(
+)
+;
+virtual
 bool
 IsValid
 (
@@ -1634,6 +1640,10 @@ mCompositableCount
 0
 )
 {
+UnbindTextureSource
+(
+)
+;
 NotifyNotUsed
 (
 )
@@ -2246,6 +2256,12 @@ GetBufferSize
 )
 =
 0
+;
+void
+UnbindTextureSource
+(
+)
+override
 ;
 void
 DeallocateDeviceData
