@@ -1037,11 +1037,6 @@ arrow
 up
 "
 "
-button
--
-focus
-"
-"
 checkbox
 "
 "
@@ -6014,11 +6009,6 @@ button
 arrow
 -
 up
-"
-"
-button
--
-focus
 "
 "
 checkbox
@@ -14375,11 +14365,6 @@ button
 arrow
 -
 up
-"
-"
-button
--
-focus
 "
 "
 checkbox
