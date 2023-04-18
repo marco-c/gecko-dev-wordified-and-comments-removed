@@ -936,6 +936,12 @@ mResultPrincipalURI
 ;
 nsCOMPtr
 <
+nsIURI
+>
+mChannelCreationOriginalURI
+;
+nsCOMPtr
+<
 nsICSPEventListener
 >
 mCSPEventListener

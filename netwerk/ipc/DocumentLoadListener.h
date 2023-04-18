@@ -1540,11 +1540,12 @@ ParentChannelListener
 >
 mParentChannelListener
 ;
-nsCOMPtr
-<
 nsIURI
->
-mChannelCreationURI
+*
+GetChannelCreationURI
+(
+)
+const
 ;
 RefPtr
 <

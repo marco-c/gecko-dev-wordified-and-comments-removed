@@ -1776,6 +1776,10 @@ attribute
 nsIURI
 resultPrincipalURI
 ;
+attribute
+nsIURI
+channelCreationOriginalURI
+;
 [
 noscript
 nostdcall
