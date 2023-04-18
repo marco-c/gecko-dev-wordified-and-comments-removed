@@ -778,6 +778,8 @@ CR
 if
 (
 src
++
+1
 <
 srcEnd
 &
@@ -910,6 +912,8 @@ CR
 if
 (
 src
++
+1
 <
 srcEnd
 &
