@@ -124,9 +124,6 @@ log2_chroma_h
 }
 #
 endif
-#
-if
-FF_API_AVCODEC_PIX_FMT
 int
 avcodec_get_pix_fmt_loss
 (
@@ -201,7 +198,7 @@ loss_ptr
 )
 {
 return
-av_find_best_pix_fmt_of_2
+avcodec_find_best_pix_fmt_of_2
 (
 dst_pix_fmt1
 dst_pix_fmt2
@@ -211,8 +208,6 @@ loss_ptr
 )
 ;
 }
-#
-endif
 enum
 AVPixelFormat
 avcodec_find_best_pix_fmt_of_list
@@ -274,7 +269,7 @@ loss_ptr
 ;
 best
 =
-av_find_best_pix_fmt_of_2
+avcodec_find_best_pix_fmt_of_2
 (
 best
 pix_fmt_list

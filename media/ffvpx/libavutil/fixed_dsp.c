@@ -668,7 +668,7 @@ butterflies_fixed_c
 (
 int
 *
-v1s
+v1
 int
 *
 v2
@@ -678,13 +678,6 @@ len
 {
 int
 i
-;
-unsigned
-int
-*
-v1
-=
-v1s
 ;
 for
 (

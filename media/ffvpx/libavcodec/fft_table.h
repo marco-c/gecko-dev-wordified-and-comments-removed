@@ -51,7 +51,16 @@ ff_fft_offsets_lut
 void
 ff_fft_lut_init
 (
-void
+uint16_t
+*
+table
+int
+off
+int
+size
+int
+*
+index
 )
 ;
 #

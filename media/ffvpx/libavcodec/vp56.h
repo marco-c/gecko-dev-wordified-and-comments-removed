@@ -7,15 +7,6 @@ AVCODEC_VP56_H
 #
 include
 "
-libavutil
-/
-mem_internal
-.
-h
-"
-#
-include
-"
 avcodec
 .
 h

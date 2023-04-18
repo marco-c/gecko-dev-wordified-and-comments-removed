@@ -252,7 +252,6 @@ qpel_avg
 16
 ]
 ;
-const
 uint8_t
 (
 *
@@ -266,7 +265,6 @@ MAX_DMV
 1
 ]
 ;
-const
 uint8_t
 *
 current_mv_penalty
@@ -492,8 +490,6 @@ struct
 MpegEncContext
 *
 s
-int
-type
 )
 ;
 void

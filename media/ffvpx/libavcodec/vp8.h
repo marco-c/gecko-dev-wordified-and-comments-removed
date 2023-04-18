@@ -25,15 +25,6 @@ include
 "
 libavutil
 /
-mem_internal
-.
-h
-"
-#
-include
-"
-libavutil
-/
 thread
 .
 h

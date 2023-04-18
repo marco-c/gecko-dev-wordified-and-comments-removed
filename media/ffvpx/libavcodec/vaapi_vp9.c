@@ -10,7 +10,7 @@ h
 #
 include
 "
-hwconfig
+hwaccel
 .
 h
 "
