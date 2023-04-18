@@ -252,7 +252,7 @@ atkObject
 acc
 -
 >
-ActionDescriptionAt
+ActionNameAt
 (
 aActionIndex
 autoStr
