@@ -4937,6 +4937,9 @@ operands
 specifier
 :
 BoxedValue
+options
+:
+BoxedValue
 call_instruction
 :
 true

@@ -33115,11 +33115,16 @@ frame
 .
 popRegsAndSync
 (
-1
+2
 )
 ;
 prepareVMCall
 (
+)
+;
+pushArg
+(
+R1
 )
 ;
 pushArg
@@ -33143,6 +33148,7 @@ JSObject
 JSContext
 *
 HandleScript
+HandleValue
 HandleValue
 )
 ;
