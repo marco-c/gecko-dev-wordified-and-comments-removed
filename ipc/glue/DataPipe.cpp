@@ -3366,6 +3366,8 @@ aTarget
 {
 AsyncWaitInternal
 (
+aCallback
+?
 NS_NewRunnableFunction
 (
 "
@@ -3430,6 +3432,8 @@ self
 ;
 }
 )
+:
+nullptr
 do_AddRef
 (
 aTarget
@@ -3693,6 +3697,8 @@ aTarget
 {
 AsyncWaitInternal
 (
+aCallback
+?
 NS_NewRunnableFunction
 (
 "
@@ -3757,6 +3763,8 @@ self
 ;
 }
 )
+:
+nullptr
 do_AddRef
 (
 aTarget
