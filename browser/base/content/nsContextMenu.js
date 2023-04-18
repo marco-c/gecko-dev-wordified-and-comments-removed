@@ -6858,6 +6858,9 @@ this
 contentData
 .
 frameID
+hasValidUserGestureActivation
+:
+true
 }
 ;
 for

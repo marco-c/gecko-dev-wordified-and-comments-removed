@@ -401,6 +401,9 @@ frameID
 openerBrowser
 :
 browser
+hasValidUserGestureActivation
+:
+true
 }
 ;
 if
