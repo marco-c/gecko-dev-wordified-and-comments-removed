@@ -86,7 +86,6 @@ Length
 =
 _Length
 ;
-constexpr
 Array
 (
 )
