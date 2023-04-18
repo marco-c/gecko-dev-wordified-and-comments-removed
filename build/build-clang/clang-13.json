@@ -5,15 +5,6 @@ patches
 :
 [
 "
-static
--
-llvm
--
-symbolizer_clang_12
-.
-patch
-"
-"
 compiler
 -
 rt
