@@ -1256,7 +1256,7 @@ def
 _activate_python_environment
 (
 topsrcdir
-state_dir
+get_state_dir
 )
 :
     
@@ -1276,14 +1276,7 @@ from_environment
         
 topsrcdir
         
-os
-.
-path
-.
-normpath
-(
-state_dir
-)
+get_state_dir
     
 )
     
@@ -1543,7 +1536,16 @@ _create_state_dir
     
 _activate_python_environment
 (
+        
 topsrcdir
+lambda
+:
+os
+.
+path
+.
+normpath
+(
 get_state_dir
 (
 True
@@ -1551,6 +1553,8 @@ topsrcdir
 =
 topsrcdir
 )
+)
+    
 )
     
 import
