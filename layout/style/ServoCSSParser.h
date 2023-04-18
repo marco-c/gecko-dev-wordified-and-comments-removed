@@ -242,6 +242,11 @@ aStretch
 float
 &
 aWeight
+float
+*
+aSize
+=
+nullptr
 )
 ;
 static
