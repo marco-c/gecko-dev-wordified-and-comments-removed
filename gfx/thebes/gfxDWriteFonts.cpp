@@ -400,6 +400,13 @@ UpdateSystemTextVars
 )
 ;
 }
+else
+{
+UpdateClearTypeVars
+(
+)
+;
+}
 DWriteSettings
 :
 :
