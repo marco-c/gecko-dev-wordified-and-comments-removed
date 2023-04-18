@@ -5880,12 +5880,6 @@ nullptr
 const
 ;
 bool
-FormsBackdropRoot
-(
-)
-const
-;
-bool
 Extend3DContext
 (
 const
