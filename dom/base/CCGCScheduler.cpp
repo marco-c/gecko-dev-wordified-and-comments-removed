@@ -8,6 +8,15 @@ h
 #
 include
 "
+js
+/
+GCAPI
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_javascript
@@ -1143,7 +1152,7 @@ MinorGC
 JS
 :
 :
-RunIdleTimeGCTask
+MaybeRunNurseryCollection
 (
 CycleCollectedJSRuntime
 :
@@ -1156,6 +1165,9 @@ Get
 Runtime
 (
 )
+step
+.
+mReason
 )
 ;
 NoteMinorGCEnd
@@ -3680,6 +3692,7 @@ CCRunnerAction
 :
 MinorGC
 Continue
+mEagerMinorGCReason
 }
 ;
 }
@@ -3961,6 +3974,8 @@ Yield
 }
 ;
 step
+.
+mParam
 .
 mCCReason
 =

@@ -532,7 +532,7 @@ SHARED_MEMORY_LIMIT
 \
 D
 (
-IDLE_TIME_COLLECTION
+EAGER_NURSERY_COLLECTION
 14
 )
 \
@@ -2295,11 +2295,16 @@ rt
 extern
 JS_PUBLIC_API
 void
-RunIdleTimeGCTask
+MaybeRunNurseryCollection
 (
 JSRuntime
 *
 rt
+JS
+:
+:
+GCReason
+reason
 )
 ;
 extern

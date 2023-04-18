@@ -618,6 +618,8 @@ ForgetSkippable
 |
 step
 .
+mParam
+.
 mRemoveChildless
 !
 =
@@ -689,6 +691,8 @@ ForgetSkippable
 EXPECT_EQ
 (
 step
+.
+mParam
 .
 mRemoveChildless
 RemoveChildless
