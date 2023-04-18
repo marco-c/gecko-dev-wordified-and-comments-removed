@@ -332,6 +332,18 @@ char
 *
 NumberToCString
 (
+ToCStringBuf
+*
+cbuf
+double
+d
+)
+;
+extern
+char
+*
+NumberToCStringWithBase
+(
 JSContext
 *
 cx
@@ -342,8 +354,6 @@ double
 d
 int
 base
-=
-10
 )
 ;
 constexpr

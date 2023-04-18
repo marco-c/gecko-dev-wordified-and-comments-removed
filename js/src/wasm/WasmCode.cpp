@@ -4454,7 +4454,6 @@ funcIndexStr
 =
 NumberToCString
 (
-nullptr
 &
 cbuf
 funcIndex
@@ -6372,7 +6371,6 @@ bytecodeStr
 =
 NumberToCString
 (
-nullptr
 &
 cbuf
 codeRange

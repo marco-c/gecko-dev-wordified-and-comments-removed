@@ -1186,7 +1186,6 @@ str
 =
 NumberToCString
 (
-nullptr
 &
 cbuf
 value
