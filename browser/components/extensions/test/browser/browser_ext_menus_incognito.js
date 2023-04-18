@@ -723,6 +723,7 @@ openContextMenu
 (
 "
 body
+div
 "
 privateWindow
 )
