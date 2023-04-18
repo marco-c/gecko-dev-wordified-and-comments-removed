@@ -313,6 +313,10 @@ blob
 )
 HB_DEFINE_OBJECT_TYPE
 (
+draw_funcs
+)
+HB_DEFINE_OBJECT_TYPE
+(
 face
 )
 HB_DEFINE_OBJECT_TYPE

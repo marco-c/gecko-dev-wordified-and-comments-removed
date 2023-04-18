@@ -2554,9 +2554,6 @@ extents
 )
 const
 ;
-#
-ifdef
-HB_EXPERIMENTAL_API
 HB_INTERNAL
 bool
 get_path
@@ -2566,14 +2563,12 @@ hb_font_t
 font
 hb_codepoint_t
 glyph
-draw_helper_t
+hb_draw_session_t
 &
-draw_helper
+draw_session
 )
 const
 ;
-#
-endif
 }
 ;
 typedef

@@ -345,7 +345,7 @@ parse_glyph
 *
 TODO
 Unescape
-delimeters
+delimiters
 .
 *
 /

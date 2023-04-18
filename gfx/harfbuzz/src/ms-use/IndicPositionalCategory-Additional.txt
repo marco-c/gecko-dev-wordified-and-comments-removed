@@ -39,7 +39,7 @@ Glass
 -
 25
 #
-Amended
+Ammended
 for
 Unicode
 10
@@ -1053,7 +1053,7 @@ ABBREVIATION
 MARK
 ABOVE
 #
-Overridden
+Overriden
 ccc
 controls
 order
@@ -1110,7 +1110,7 @@ COMBINING
 CURVE
 ABOVE
 #
-Overridden
+Overriden
 ccc
 controls
 order
@@ -1133,7 +1133,7 @@ COMBINING
 HOOK
 ABOVE
 #
-Overridden
+Overriden
 ccc
 controls
 order
@@ -1169,7 +1169,7 @@ COMBINING
 DOT
 ABOVE
 #
-Overridden
+Overriden
 ccc
 controls
 order
@@ -1195,7 +1195,7 @@ TWO
 DOTS
 ABOVE
 #
-Overridden
+Overriden
 ccc
 controls
 order

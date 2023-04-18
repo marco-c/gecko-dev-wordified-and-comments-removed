@@ -1739,6 +1739,16 @@ false
 ;
 if
 (
+(
+flags
+&
+HB_BUFFER_FLAG_PRODUCE_UNSAFE_TO_CONCAT
+)
+!
+=
+0
+&
+&
 !
 buffer_verify_unsafe_to_concat
 (

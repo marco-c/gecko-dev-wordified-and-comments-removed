@@ -681,9 +681,6 @@ return
 true
 ;
 }
-#
-ifdef
-HB_EXPERIMENTAL_API
 struct
 cff2_path_param_t
 {
@@ -692,15 +689,15 @@ cff2_path_param_t
 hb_font_t
 *
 font_
-draw_helper_t
+hb_draw_session_t
 &
-draw_helper_
+draw_session_
 )
 {
-draw_helper
+draw_session
 =
 &
-draw_helper_
+draw_session_
 ;
 font
 =
@@ -716,7 +713,7 @@ point_t
 p
 )
 {
-draw_helper
+draw_session
 -
 >
 move_to
@@ -724,7 +721,7 @@ move_to
 font
 -
 >
-em_scalef_x
+em_fscalef_x
 (
 p
 .
@@ -737,7 +734,7 @@ to_real
 font
 -
 >
-em_scalef_y
+em_fscalef_y
 (
 p
 .
@@ -759,7 +756,7 @@ point_t
 p
 )
 {
-draw_helper
+draw_session
 -
 >
 line_to
@@ -767,7 +764,7 @@ line_to
 font
 -
 >
-em_scalef_x
+em_fscalef_x
 (
 p
 .
@@ -780,7 +777,7 @@ to_real
 font
 -
 >
-em_scalef_y
+em_fscalef_y
 (
 p
 .
@@ -810,7 +807,7 @@ point_t
 p3
 )
 {
-draw_helper
+draw_session
 -
 >
 cubic_to
@@ -818,7 +815,7 @@ cubic_to
 font
 -
 >
-em_scalef_x
+em_fscalef_x
 (
 p1
 .
@@ -831,7 +828,7 @@ to_real
 font
 -
 >
-em_scalef_y
+em_fscalef_y
 (
 p1
 .
@@ -844,7 +841,7 @@ to_real
 font
 -
 >
-em_scalef_x
+em_fscalef_x
 (
 p2
 .
@@ -857,7 +854,7 @@ to_real
 font
 -
 >
-em_scalef_y
+em_fscalef_y
 (
 p2
 .
@@ -870,7 +867,7 @@ to_real
 font
 -
 >
-em_scalef_x
+em_fscalef_x
 (
 p3
 .
@@ -883,7 +880,7 @@ to_real
 font
 -
 >
-em_scalef_y
+em_fscalef_y
 (
 p3
 .
@@ -898,9 +895,9 @@ to_real
 }
 protected
 :
-draw_helper_t
+hb_draw_session_t
 *
-draw_helper
+draw_session
 ;
 hb_font_t
 *
@@ -1052,9 +1049,9 @@ hb_font_t
 font
 hb_codepoint_t
 glyph
-draw_helper_t
+hb_draw_session_t
 &
-draw_helper
+draw_session
 )
 const
 {
@@ -1142,7 +1139,7 @@ cff2_path_param_t
 param
 (
 font
-draw_helper
+draw_session
 )
 ;
 if
@@ -1165,7 +1162,5 @@ return
 true
 ;
 }
-#
-endif
 #
 endif

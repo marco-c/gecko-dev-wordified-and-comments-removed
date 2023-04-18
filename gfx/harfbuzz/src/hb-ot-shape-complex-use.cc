@@ -1032,8 +1032,6 @@ info
 [
 i
 ]
-.
-codepoint
 )
 ;
 }
@@ -1360,9 +1358,6 @@ syllable_type
 )
 {
 case
-use_symbol_cluster
-:
-case
 use_hieroglyph_cluster
 :
 case
@@ -1388,6 +1383,9 @@ use_number_joiner_terminated_cluster
 :
 case
 use_numeral_cluster
+:
+case
+use_symbol_cluster
 :
 case
 use_broken_cluster
@@ -1806,7 +1804,7 @@ use_category
 =
 USE
 (
-HVM
+IS
 )
 )
 &
@@ -1881,6 +1879,11 @@ use_sakot_terminated_cluster
 FLAG
 (
 use_standard_cluster
+)
+|
+FLAG
+(
+use_symbol_cluster
 )
 |
 FLAG

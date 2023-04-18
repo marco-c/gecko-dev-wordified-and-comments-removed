@@ -117,6 +117,7 @@ a
 *
 float
 (
+-
 M_PI
 /
 180
@@ -142,6 +143,7 @@ r
 *
 float
 (
+-
 180
 .
 /
@@ -178,11 +180,6 @@ font
 HB_STYLE_TAG_SLANT_ANGLE
 )
 )
-+
-font
--
->
-slant
 ;
 hb_face_t
 *

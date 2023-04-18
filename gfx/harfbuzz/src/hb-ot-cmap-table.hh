@@ -3379,7 +3379,11 @@ out
 add_range
 (
 start
+hb_min
+(
 end
+0x10FFFFu
+)
 )
 ;
 }
@@ -4244,7 +4248,11 @@ out
 add_range
 (
 first
+hb_min
+(
 last
+0x10FFFFu
+)
 )
 ;
 }

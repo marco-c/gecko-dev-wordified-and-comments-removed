@@ -50,9 +50,9 @@ exit
 1
 VERSION
 =
-3
-.
 4
+.
+1
 .
 0
 git
