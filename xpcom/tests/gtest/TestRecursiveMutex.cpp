@@ -40,6 +40,7 @@ TEST
 RecursiveMutex
 SmokeTest
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 RecursiveMutex
 mutex
