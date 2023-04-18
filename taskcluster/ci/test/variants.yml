@@ -637,6 +637,9 @@ socket
 process
 enabled
 "
+contact
+:
+kershaw
 suffix
 :
 "
@@ -693,6 +696,9 @@ socket
 process
 enabled
 "
+contact
+:
+kershaw
 suffix
 :
 "
