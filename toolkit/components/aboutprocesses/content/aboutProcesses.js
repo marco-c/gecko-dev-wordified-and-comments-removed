@@ -1848,16 +1848,6 @@ totalCpu
 =
 =
 0
-&
-&
-AppConstants
-.
-platform
-=
-=
-"
-win
-"
 )
 {
 unit
