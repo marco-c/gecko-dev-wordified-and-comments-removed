@@ -213,6 +213,9 @@ bluetooth_test
 test_function
 name
 properties
+validate_response_consumed
+=
+true
 )
 {
 return
@@ -266,6 +269,11 @@ test_function
 t
 )
 ;
+if
+(
+validate_response_consumed
+)
+{
 let
 consumed
 =
@@ -285,6 +293,7 @@ assert_true
 consumed
 )
 ;
+}
 }
 name
 properties
