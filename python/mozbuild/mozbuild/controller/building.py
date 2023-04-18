@@ -7790,6 +7790,10 @@ None
 append_env
 =
 None
+        
+virtualenv_topobjdir
+=
+None
     
 )
 :
@@ -8223,6 +8227,10 @@ on_line
 append_env
 =
 append_env
+                    
+virtualenv_topobjdir
+=
+virtualenv_topobjdir
                 
 )
                 
@@ -10145,6 +10153,10 @@ None
 append_env
 =
 None
+        
+virtualenv_topobjdir
+=
+None
     
 )
 :
@@ -10283,6 +10295,14 @@ k
 =
 v
         
+virtualenv_topobjdir
+=
+virtualenv_topobjdir
+or
+self
+.
+topobjdir
+        
 build_site
 =
 CommandSiteManager
@@ -10318,9 +10338,7 @@ path
 .
 join
 (
-self
-.
-topobjdir
+virtualenv_topobjdir
 "
 _virtualenvs
 "
