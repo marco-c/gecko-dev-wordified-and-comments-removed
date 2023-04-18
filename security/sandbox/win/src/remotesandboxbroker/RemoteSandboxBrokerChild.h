@@ -72,7 +72,7 @@ ipc
 :
 :
 IPCResult
-AnswerLaunchApp
+RecvLaunchApp
 (
 LaunchParameters
 &

@@ -208,7 +208,7 @@ IPCResult
 RemoteSandboxBrokerChild
 :
 :
-AnswerLaunchApp
+RecvLaunchApp
 (
 LaunchParameters
 &
