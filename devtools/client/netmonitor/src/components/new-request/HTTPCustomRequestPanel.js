@@ -466,9 +466,6 @@ DELETE
 PUT
 "
 "
-CONNECT
-"
-"
 OPTIONS
 "
 "
