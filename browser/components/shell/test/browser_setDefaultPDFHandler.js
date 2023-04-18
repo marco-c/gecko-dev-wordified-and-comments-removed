@@ -410,6 +410,9 @@ aumi
 .
 pdf
 "
+"
+FirefoxHTML
+"
 ]
 }
 ]
@@ -601,6 +604,9 @@ aumi
 "
 .
 pdf
+"
+"
+FirefoxHTML
 "
 ]
 }

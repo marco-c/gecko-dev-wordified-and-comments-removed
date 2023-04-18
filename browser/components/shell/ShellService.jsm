@@ -1074,6 +1074,9 @@ push
 .
 pdf
 "
+"
+FirefoxHTML
+"
 )
 ;
 }
