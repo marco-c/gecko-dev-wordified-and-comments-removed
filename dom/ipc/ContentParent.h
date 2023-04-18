@@ -4387,6 +4387,9 @@ uri
 nsIPrincipal
 *
 triggeringPrincipal
+nsIPrincipal
+*
+redirectPrincipal
 const
 MaybeDiscarded
 <
