@@ -251,7 +251,7 @@ mLoadContext
 tmp
 -
 >
-mScript
+mScriptForBytecodeEncoding
 =
 nullptr
 ;
@@ -280,7 +280,7 @@ ScriptLoadRequest
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_JS_MEMBER_CALLBACK
 (
-mScript
+mScriptForBytecodeEncoding
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 ScriptLoadRequest
@@ -398,7 +398,9 @@ ScriptLoadRequest
 {
 if
 (
-mScript
+IsMarkedForBytecodeEncoding
+(
+)
 )
 {
 DropBytecodeCacheReferences
@@ -566,7 +568,7 @@ void
 ScriptLoadRequest
 :
 :
-SetScript
+MarkForBytecodeEncoding
 (
 JSScript
 *
@@ -576,10 +578,12 @@ aScript
 MOZ_ASSERT
 (
 !
-mScript
+IsMarkedForBytecodeEncoding
+(
+)
 )
 ;
-mScript
+mScriptForBytecodeEncoding
 =
 aScript
 ;
