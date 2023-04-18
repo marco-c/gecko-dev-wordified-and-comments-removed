@@ -3733,7 +3733,7 @@ failType
 )
 {
 case
-Type_Object
+Type_Cell
 :
 masm
 .
