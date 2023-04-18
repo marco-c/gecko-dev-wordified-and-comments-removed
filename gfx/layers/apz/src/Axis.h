@@ -258,6 +258,8 @@ const
 TimeDuration
 &
 aDelta
+SideBits
+aOverscrollSideBits
 )
 ;
 void
