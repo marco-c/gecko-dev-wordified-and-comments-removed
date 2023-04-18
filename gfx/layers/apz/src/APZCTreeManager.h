@@ -241,13 +241,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsTArray
-.
-h
-"
 namespace
 mozilla
 {
@@ -923,12 +916,6 @@ TimeStamp
 >
 >
 mTestSampleTime
-;
-CopyableTArray
-<
-MatrixMessage
->
-mLastMessages
 ;
 public
 :
