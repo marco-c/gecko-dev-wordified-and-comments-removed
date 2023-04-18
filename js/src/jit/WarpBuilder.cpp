@@ -8975,6 +8975,16 @@ argv
 )
 )
 ;
+if
+(
+!
+argsObj
+)
+{
+return
+false
+;
+}
 }
 else
 {
