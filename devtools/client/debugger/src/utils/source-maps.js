@@ -247,7 +247,7 @@ generatedLocation
 export
 async
 function
-mapLocation
+getRelatedMapLocation
 (
 state
 sourceMaps

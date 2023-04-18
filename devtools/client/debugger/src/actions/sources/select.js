@@ -156,7 +156,7 @@ location
 ;
 import
 {
-mapLocation
+getRelatedMapLocation
 }
 from
 "
@@ -365,7 +365,7 @@ selectSource
 (
 cx
 sourceId
-options
+location
 =
 {
 }
@@ -381,7 +381,6 @@ dispatch
 =
 >
 {
-const
 location
 =
 createLocation
@@ -390,7 +389,7 @@ createLocation
 .
 .
 .
-options
+location
 sourceId
 }
 )
@@ -551,7 +550,7 @@ sourceId
 location
 =
 await
-mapLocation
+getRelatedMapLocation
 (
 getState
 (
@@ -857,7 +856,7 @@ const
 pairedLocation
 =
 await
-mapLocation
+getRelatedMapLocation
 (
 getState
 (
@@ -872,12 +871,7 @@ dispatch
 selectSpecificLocation
 (
 cx
-{
-.
-.
-.
 pairedLocation
-}
 )
 )
 ;
