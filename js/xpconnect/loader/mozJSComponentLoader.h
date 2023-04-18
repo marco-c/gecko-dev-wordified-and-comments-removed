@@ -367,6 +367,15 @@ mLoaderGlobal
 aObj
 ;
 }
+static
+bool
+IsTrustedScheme
+(
+nsIURI
+*
+aURI
+)
+;
 size_t
 SizeOfIncludingThis
 (
