@@ -2075,7 +2075,6 @@ br
 x7
 40
 :
-AARCH64_VALID_JUMP_TARGET
 add
 x7
 x0
@@ -2160,7 +2159,6 @@ b
 4b
 80
 :
-AARCH64_VALID_JUMP_TARGET
 add
 x7
 x0
@@ -2213,7 +2211,6 @@ b
 8b
 16
 :
-AARCH64_VALID_JUMP_TARGET
 \
 type
 v6
@@ -2269,7 +2266,6 @@ b
 16b
 32
 :
-AARCH64_VALID_JUMP_TARGET
 \
 type
 v6
@@ -2318,7 +2314,6 @@ b
 32b
 640
 :
-AARCH64_VALID_JUMP_TARGET
 add
 x7
 x0
@@ -2409,7 +2404,6 @@ b
 64b
 1280
 :
-AARCH64_VALID_JUMP_TARGET
 add
 x7
 x0
@@ -2914,7 +2908,6 @@ br
 x10
 4
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v4
@@ -3771,7 +3764,6 @@ gt
 ret
 8
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v4
@@ -4570,7 +4562,6 @@ ret
 :
 160
 :
-AARCH64_VALID_JUMP_TARGET
 mov
 w11
 w4
@@ -6213,7 +6204,6 @@ br
 x6
 40
 :
-AARCH64_VALID_JUMP_TARGET
 lsl
 x1
 x1
@@ -6391,7 +6381,6 @@ gt
 ret
 80
 :
-AARCH64_VALID_JUMP_TARGET
 lsl
 x1
 x1
@@ -6606,7 +6595,6 @@ gt
 ret
 160
 :
-AARCH64_VALID_JUMP_TARGET
 lsl
 x1
 x1
@@ -6941,7 +6929,6 @@ gt
 ret
 32
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v16
@@ -7356,7 +7343,6 @@ br
 x6
 2
 :
-AARCH64_VALID_JUMP_TARGET
 ld2r
 {
 v2
@@ -7542,7 +7528,6 @@ gt
 ret
 4
 :
-AARCH64_VALID_JUMP_TARGET
 ld2r
 {
 v2
@@ -7728,7 +7713,6 @@ gt
 ret
 8
 :
-AARCH64_VALID_JUMP_TARGET
 ld2r
 {
 v4
@@ -7946,7 +7930,6 @@ gt
 ret
 16
 :
-AARCH64_VALID_JUMP_TARGET
 ld2r
 {
 v16
@@ -8246,7 +8229,6 @@ ret
 :
 320
 :
-AARCH64_VALID_JUMP_TARGET
 sub
 x1
 x1
@@ -8899,7 +8881,6 @@ br
 x6
 20
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v2
@@ -9090,7 +9071,6 @@ gt
 ret
 40
 :
-AARCH64_VALID_JUMP_TARGET
 ld1r
 {
 v2
@@ -9294,7 +9274,6 @@ gt
 ret
 80
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v4
@@ -9525,7 +9504,6 @@ gt
 ret
 160
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v16
@@ -9832,7 +9810,6 @@ gt
 ret
 320
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v24
@@ -10336,7 +10313,6 @@ br
 x10
 2
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -10401,7 +10377,6 @@ gt
 ret
 4
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -10454,7 +10429,6 @@ gt
 ret
 80
 :
-AARCH64_VALID_JUMP_TARGET
 add
 x8
 x0
@@ -10527,7 +10501,6 @@ gt
 ret
 16
 :
-AARCH64_VALID_JUMP_TARGET
 ldp
 x6
 x7
@@ -10576,7 +10549,6 @@ gt
 ret
 32
 :
-AARCH64_VALID_JUMP_TARGET
 ldp
 x6
 x7
@@ -10657,7 +10629,6 @@ gt
 ret
 64
 :
-AARCH64_VALID_JUMP_TARGET
 ldp
 q0
 q1
@@ -10738,7 +10709,6 @@ gt
 ret
 128
 :
-AARCH64_VALID_JUMP_TARGET
 ldp
 q0
 q1
@@ -11032,7 +11002,6 @@ br
 x10
 40
 :
-AARCH64_VALID_JUMP_TARGET
 add
 x9
 x1
@@ -11113,7 +11082,6 @@ gt
 ret
 80
 :
-AARCH64_VALID_JUMP_TARGET
 add
 x9
 x1
@@ -11211,7 +11179,6 @@ gt
 ret
 16
 :
-AARCH64_VALID_JUMP_TARGET
 ldp
 q0
 q1
@@ -11344,7 +11311,6 @@ gt
 ret
 32
 :
-AARCH64_VALID_JUMP_TARGET
 ldp
 q0
 q1
@@ -11475,7 +11441,6 @@ gt
 ret
 64
 :
-AARCH64_VALID_JUMP_TARGET
 ldp
 q0
 q1
@@ -11716,7 +11681,6 @@ gt
 ret
 128
 :
-AARCH64_VALID_JUMP_TARGET
 ldp
 q0
 q1
@@ -15037,7 +15001,6 @@ x10
 /
 2xN
 h
-AARCH64_VALID_JUMP_TARGET
 .
 ifc
 \
@@ -15346,7 +15309,6 @@ endif
 /
 4xN
 h
-AARCH64_VALID_JUMP_TARGET
 add
 \
 xmx
@@ -15782,7 +15744,6 @@ ret
 .
 .
 h
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -16623,7 +16584,6 @@ x10
 /
 2xN
 v
-AARCH64_VALID_JUMP_TARGET
 .
 ifc
 \
@@ -17045,7 +17005,6 @@ ret
 endif
 40
 :
-AARCH64_VALID_JUMP_TARGET
 b
 .
 gt
@@ -17393,7 +17352,6 @@ b
 ret
 80
 :
-AARCH64_VALID_JUMP_TARGET
 b
 .
 gt
@@ -17595,7 +17553,6 @@ v
 :
 1280
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -17951,7 +17908,6 @@ b
 ret
 160
 :
-AARCH64_VALID_JUMP_TARGET
 b
 .
 gt
@@ -18373,7 +18329,6 @@ br
 x10
 20
 :
-AARCH64_VALID_JUMP_TARGET
 .
 ifc
 \
@@ -19398,7 +19353,7 @@ b
 28b
 0
 :
-ret
+br
 x15
 L
 (
@@ -19580,7 +19535,6 @@ ret
 endif
 40
 :
-AARCH64_VALID_JUMP_TARGET
 add
 \
 xmx
@@ -20932,7 +20886,7 @@ b
 48b
 0
 :
-ret
+br
 x15
 L
 (
@@ -21201,7 +21155,6 @@ ret
 :
 320
 :
-AARCH64_VALID_JUMP_TARGET
 b
 .
 gt
@@ -22124,7 +22077,6 @@ hv
 :
 1280
 :
-AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -23298,7 +23250,7 @@ b
 168b
 0
 :
-ret
+br
 x15
 L
 (
@@ -23991,7 +23943,6 @@ x10
 /
 2xN
 h
-AARCH64_VALID_JUMP_TARGET
 .
 ifc
 \
@@ -24185,7 +24136,6 @@ endif
 /
 4xN
 h
-AARCH64_VALID_JUMP_TARGET
 add
 \
 ds2
@@ -24391,7 +24341,6 @@ ret
 /
 8xN
 h
-AARCH64_VALID_JUMP_TARGET
 add
 \
 ds2
@@ -24647,7 +24596,6 @@ ret
 .
 .
 h
-AARCH64_VALID_JUMP_TARGET
 add
 \
 ds2
@@ -25334,7 +25282,6 @@ x10
 /
 2xN
 v
-AARCH64_VALID_JUMP_TARGET
 .
 ifc
 \
@@ -25752,7 +25699,6 @@ endif
 /
 4xN
 v
-AARCH64_VALID_JUMP_TARGET
 add
 \
 ds2
@@ -25956,7 +25902,6 @@ ret
 /
 8xN
 v
-AARCH64_VALID_JUMP_TARGET
 add
 \
 ds2
@@ -26192,7 +26137,6 @@ ret
 :
 1280
 :
-AARCH64_VALID_JUMP_TARGET
 mov
 \
 my
@@ -26843,7 +26787,6 @@ x10
 /
 2xN
 hv
-AARCH64_VALID_JUMP_TARGET
 .
 ifc
 \
@@ -27142,7 +27085,6 @@ endif
 /
 4xN
 hv
-AARCH64_VALID_JUMP_TARGET
 add
 \
 sr2
@@ -27520,7 +27462,6 @@ hv
 :
 1280
 :
-AARCH64_VALID_JUMP_TARGET
 mov
 \
 my
@@ -29668,7 +29609,7 @@ d9
 sp
 ]
 0x40
-ret
+br
 x15
 endfunc
 .
