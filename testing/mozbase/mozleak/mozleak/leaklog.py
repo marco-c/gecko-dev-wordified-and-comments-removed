@@ -252,6 +252,11 @@ recordLeakedObjects
 =
 False
     
+header
+=
+[
+]
+    
 log
 .
 info
@@ -329,10 +334,8 @@ rstrip
 (
 )
                 
-log
-.
-info
-(
+logLine
+=
 stackFixer
 (
 strippedLine
@@ -341,6 +344,26 @@ if
 stackFixer
 else
 strippedLine
+                
+if
+recordLeakedObjects
+:
+                    
+log
+.
+info
+(
+logLine
+)
+                
+else
+:
+                    
+header
+.
+append
+(
+logLine
 )
                 
 continue
@@ -407,7 +430,9 @@ numLeaked
 !
 =
 0
-or
+:
+                
+if
 name
 =
 =
@@ -415,6 +440,19 @@ name
 TOTAL
 "
 :
+                    
+for
+logLine
+in
+header
+:
+                        
+log
+.
+info
+(
+logLine
+)
                 
 log
 .
@@ -426,6 +464,20 @@ rstrip
 (
 )
 )
+            
+if
+name
+=
+=
+"
+TOTAL
+"
+:
+                
+header
+=
+[
+]
             
 if
 name
