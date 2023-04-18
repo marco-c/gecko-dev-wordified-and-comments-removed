@@ -403,16 +403,12 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 "
 "
 "
-.
-message
-.
-error
 :
 not
 (

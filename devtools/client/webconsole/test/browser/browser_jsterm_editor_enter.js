@@ -404,7 +404,7 @@ waitFor
 )
 =
 >
-findMessage
+findEvaluationResultMessage
 (
 hud
 "
@@ -435,7 +435,7 @@ waitFor
 )
 =
 >
-findMessage
+findEvaluationResultMessage
 (
 hud
 "
