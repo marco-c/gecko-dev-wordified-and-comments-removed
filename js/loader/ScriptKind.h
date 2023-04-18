@@ -17,7 +17,6 @@ ScriptKind
 eClassic
 eModule
 eEvent
-eImportMap
 }
 ;
 }
