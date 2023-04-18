@@ -4543,16 +4543,6 @@ shadow
 )
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-dom_webcomponents_formAssociatedCustomElement_enabled
-(
-)
-)
-{
 JS
 :
 :
@@ -4621,7 +4611,6 @@ aCx
 ;
 return
 ;
-}
 }
 }
 RefPtr
