@@ -8,6 +8,6 @@ cookie
 ;
 SameSite
 =
-None
+Strict
 ;
 Secure
