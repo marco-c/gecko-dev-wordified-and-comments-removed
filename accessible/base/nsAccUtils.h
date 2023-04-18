@@ -260,6 +260,16 @@ aNode
 )
 ;
 static
+Accessible
+*
+TableFor
+(
+Accessible
+*
+aRow
+)
+;
+static
 LocalAccessible
 *
 TableFor
