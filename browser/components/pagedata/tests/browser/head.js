@@ -28,7 +28,7 @@ defineLazyModuleGetters
 (
 this
 {
-PageDataCollector
+PageDataSchema
 :
 "
 resource
@@ -40,7 +40,7 @@ modules
 /
 pagedata
 /
-PageDataCollector
+PageDataSchema
 .
 jsm
 "
