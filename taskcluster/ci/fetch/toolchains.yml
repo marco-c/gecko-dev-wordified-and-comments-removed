@@ -2507,14 +2507,9 @@ clang
 .
 0
 .
-0
+1
 source
 code
-+
-libc
-+
-+
-fixes
 fetch
 :
 type
@@ -2537,7 +2532,7 @@ llvm
 project
 revision
 :
-3f43d803382d57e3fc010ca19833077d1023e9c9
+c62053979489ccb002efe411c3af059addcb5d7d
 clang
 -
 trunk
