@@ -4272,7 +4272,6 @@ ScriptFetchOptions
 aCORSMode
 aReferrerPolicy
 aTriggeringPrincipal
-domElement
 )
 ;
 RefPtr
@@ -4284,6 +4283,7 @@ context
 new
 ScriptLoadContext
 (
+domElement
 )
 ;
 if
@@ -4311,10 +4311,7 @@ aURI
 fetchOptions
 aIntegrity
 referrer
-new
-ScriptLoadContext
-(
-)
+context
 )
 ;
 return
@@ -11780,6 +11777,15 @@ aRequest
 -
 >
 mBaseURL
+aRequest
+-
+>
+GetLoadContext
+(
+)
+-
+>
+mElement
 )
 ;
 JS
