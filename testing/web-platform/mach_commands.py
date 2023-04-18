@@ -3166,6 +3166,22 @@ params
 )
     
 if
+"
+log
+"
+in
+params
+:
+        
+del
+params
+[
+"
+log
+"
+]
+    
+if
 (
         
 conditions
