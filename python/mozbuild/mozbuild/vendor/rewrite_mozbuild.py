@@ -6069,6 +6069,13 @@ must
 be
 "
     
+if
+moz_yaml_dir
+is
+not
+None
+:
+        
 moz_yaml_dir
 +
 =
@@ -6089,7 +6096,7 @@ moz_yaml_dir
 else
 "
 "
-    
+        
 vendoring_dir
 +
 =
