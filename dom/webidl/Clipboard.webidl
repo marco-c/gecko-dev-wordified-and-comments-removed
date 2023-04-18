@@ -167,7 +167,7 @@ events
 .
 asyncClipboard
 .
-read
+clipboardItem
 "
 NewObject
 NeedsSubjectPrincipal
