@@ -1,9 +1,16 @@
 #
 include
 <
+winerror
+.
+h
+>
+#
+include
+<
 cstdint
 >
-void
+HRESULT
 RunOnTemporaryStack
 (
 void
