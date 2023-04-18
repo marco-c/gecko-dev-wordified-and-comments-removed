@@ -3,9 +3,9 @@ pylint
 =
 2
 .
-10
+11
 .
-2
+1
 typed
 -
 ast
