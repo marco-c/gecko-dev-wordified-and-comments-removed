@@ -51,9 +51,6 @@ deletion
 -
 request
 "
-"
-default
-"
 ]
 class
 Ping
@@ -86,15 +83,6 @@ List
 [
 str
 ]
-        
-metadata
-:
-Optional
-[
-Dict
-]
-=
-None
         
 data_reviews
 :
@@ -188,23 +176,6 @@ self
 notification_emails
 =
 notification_emails
-        
-if
-metadata
-is
-None
-:
-            
-metadata
-=
-{
-}
-        
-self
-.
-metadata
-=
-metadata
         
 if
 data_reviews

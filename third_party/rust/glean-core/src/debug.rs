@@ -1102,7 +1102,13 @@ iter
 .
 all
 (
+|
+x
+|
 validate_tag
+(
+x
+)
 )
 }
 #

@@ -50,10 +50,6 @@ pings
 from
 .
 import
-tags
-from
-.
-import
 util
 SWIFT_RESERVED_NAMES
 =
@@ -847,9 +843,6 @@ Metric
 pings
 .
 Ping
-tags
-.
-Tag
 ]
 ]
     
