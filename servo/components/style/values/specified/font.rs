@@ -3066,6 +3066,9 @@ clone
 is_system_font
 :
 false
+is_initial
+:
+false
 }
 FontFamily
 :
@@ -3270,15 +3273,6 @@ into_iter
 (
 )
 )
-fallback
-:
-computed
-:
-:
-GenericFontFamily
-:
-:
-None
 }
 )
 )

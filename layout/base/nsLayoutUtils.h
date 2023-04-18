@@ -6335,7 +6335,7 @@ StyleSystemFont
 aFontID
 const
 nsFont
-*
+&
 aDefaultVariableFont
 const
 mozilla

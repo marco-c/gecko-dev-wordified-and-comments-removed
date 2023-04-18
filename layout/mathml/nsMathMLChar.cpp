@@ -301,16 +301,6 @@ float
 aFontSizeInflation
 )
 {
-Servo_FontFamilyList_Normalize
-(
-&
-aFont
-.
-family
-.
-families
-)
-;
 aFont
 .
 size

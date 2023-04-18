@@ -49508,7 +49508,7 @@ FontID
 aFontID
 const
 nsFont
-*
+&
 aDefaultVariableFont
 const
 Document
@@ -49853,8 +49853,7 @@ auto
 newSize
 =
 aDefaultVariableFont
--
->
+.
 size
 .
 ToCSSPixels
