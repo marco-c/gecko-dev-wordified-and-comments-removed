@@ -96,7 +96,7 @@ resolve
 )
 ;
 await
-appHistory
+navigation
 .
 navigate
 (
@@ -110,7 +110,7 @@ committed
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -121,7 +121,7 @@ length
 )
 ;
 let
-oncurrentchange_back_called
+oncurrententrychange_back_called
 =
 false
 ;
@@ -130,9 +130,9 @@ back_committed
 =
 false
 ;
-appHistory
+navigation
 .
-oncurrentchange
+oncurrententrychange
 =
 t
 .
@@ -142,7 +142,7 @@ e
 =
 >
 {
-oncurrentchange_back_called
+oncurrententrychange_back_called
 =
 true
 ;
@@ -151,7 +151,7 @@ assert_equals
 e
 .
 from
-appHistory
+navigation
 .
 entries
 (
@@ -173,9 +173,9 @@ traverse
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 0
@@ -192,7 +192,7 @@ back_committed
 let
 back_result
 =
-appHistory
+navigation
 .
 back
 (
@@ -200,7 +200,7 @@ back
 ;
 assert_false
 (
-oncurrentchange_back_called
+oncurrententrychange_back_called
 )
 ;
 await
@@ -221,11 +221,11 @@ true
 ;
 assert_true
 (
-oncurrentchange_back_called
+oncurrententrychange_back_called
 )
 ;
 let
-oncurrentchange_forward_called
+oncurrententrychange_forward_called
 =
 false
 ;
@@ -234,9 +234,9 @@ forward_committed
 =
 false
 ;
-appHistory
+navigation
 .
-oncurrentchange
+oncurrententrychange
 =
 t
 .
@@ -246,7 +246,7 @@ e
 =
 >
 {
-oncurrentchange_forward_called
+oncurrententrychange_forward_called
 =
 true
 ;
@@ -255,7 +255,7 @@ assert_equals
 e
 .
 from
-appHistory
+navigation
 .
 entries
 (
@@ -277,9 +277,9 @@ traverse
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 1
@@ -296,7 +296,7 @@ forward_committed
 let
 forward_result
 =
-appHistory
+navigation
 .
 forward
 (
@@ -304,7 +304,7 @@ forward
 ;
 assert_false
 (
-oncurrentchange_forward_called
+oncurrententrychange_forward_called
 )
 ;
 await
@@ -325,7 +325,7 @@ true
 ;
 assert_true
 (
-oncurrentchange_forward_called
+oncurrententrychange_forward_called
 )
 ;
 }
@@ -333,13 +333,13 @@ oncurrentchange_forward_called
 AppHistoryCurrentChangeEvent
 fires
 for
-appHistory
+navigation
 .
 back
 (
 )
 and
-appHistory
+navigation
 .
 forward
 (

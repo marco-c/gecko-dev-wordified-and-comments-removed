@@ -96,13 +96,13 @@ resolve
 )
 ;
 let
-oncurrentchange_called
+oncurrententrychange_called
 =
 false
 ;
-appHistory
+navigation
 .
-oncurrentchange
+oncurrententrychange
 =
 t
 .
@@ -112,7 +112,7 @@ e
 =
 >
 {
-oncurrentchange_called
+oncurrententrychange_called
 =
 true
 ;
@@ -121,7 +121,7 @@ assert_equals
 e
 .
 from
-appHistory
+navigation
 .
 entries
 (
@@ -143,9 +143,9 @@ push
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 1
@@ -157,7 +157,7 @@ index
 let
 result
 =
-appHistory
+navigation
 .
 navigate
 (
@@ -169,7 +169,7 @@ foo
 ;
 assert_true
 (
-oncurrentchange_called
+oncurrententrychange_called
 )
 ;
 await
@@ -182,7 +182,7 @@ committed
 AppHistoryCurrentChangeEvent
 fires
 for
-appHistory
+navigation
 .
 navigate
 (

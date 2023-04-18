@@ -96,7 +96,7 @@ r
 )
 ;
 await
-appHistory
+navigation
 .
 navigate
 (
@@ -108,7 +108,7 @@ navigate
 .
 finished
 ;
-appHistory
+navigation
 .
 onnavigate
 =
@@ -126,9 +126,9 @@ resolve
 )
 )
 ;
-appHistory
+navigation
 .
-oncurrentchange
+oncurrententrychange
 =
 e
 =
@@ -157,9 +157,9 @@ hash
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 0
@@ -167,7 +167,7 @@ index
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -177,7 +177,7 @@ length
 2
 )
 ;
-appHistory
+navigation
 .
 navigate
 (
@@ -193,7 +193,7 @@ navigate
 let
 back_result
 =
-appHistory
+navigation
 .
 back
 (
@@ -229,9 +229,9 @@ finished
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 1
@@ -239,7 +239,7 @@ index
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -262,7 +262,7 @@ navigate
 in
 the
 ensuing
-currentchange
+currententrychange
 should
 abort
 the

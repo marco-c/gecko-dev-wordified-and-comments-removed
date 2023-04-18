@@ -144,7 +144,7 @@ setUpAppHistoryListeners
 (
 )
 {
-appHistory
+navigation
 .
 addEventListener
 (
@@ -199,7 +199,7 @@ reason
 }
 )
 ;
-appHistory
+navigation
 .
 addEventListener
 (
@@ -222,7 +222,7 @@ e
 error
 )
 ;
-appHistory
+navigation
 .
 transition
 ?
@@ -266,7 +266,7 @@ err
 }
 )
 ;
-appHistory
+navigation
 .
 addEventListener
 (
@@ -287,7 +287,7 @@ navigatesuccess
 "
 )
 ;
-appHistory
+navigation
 .
 transition
 ?
@@ -340,12 +340,12 @@ this
 skipCurrentChange
 )
 {
-appHistory
+navigation
 .
 addEventListener
 (
 "
-currentchange
+currententrychange
 "
 (
 )
@@ -356,7 +356,7 @@ this
 record
 (
 "
-currentchange
+currententrychange
 "
 )
 )
@@ -453,7 +453,7 @@ name
 const
 transitionProps
 =
-appHistory
+navigation
 .
 transition
 =
@@ -466,14 +466,14 @@ null
 {
 from
 :
-appHistory
+navigation
 .
 transition
 .
 from
 navigationType
 :
-appHistory
+navigation
 .
 transition
 .
@@ -594,7 +594,7 @@ location
 .
 hash
 value
-appHistory
+navigation
 .
 transition
 properties
@@ -604,7 +604,7 @@ properties
 /
 [
 "
-currentchange
+currententrychange
 "
 "
 "
@@ -731,7 +731,7 @@ expected
 =
 =
 "
-currentchange
+currententrychange
 "
 )
 ;
@@ -887,7 +887,7 @@ name
 }
 )
 :
-appHistory
+navigation
 .
 transition
 expected
@@ -917,7 +917,7 @@ name
 }
 )
 :
-appHistory
+navigation
 .
 transition
 expected
@@ -952,7 +952,7 @@ name
 }
 )
 :
-appHistory
+navigation
 .
 transition
 .
@@ -984,7 +984,7 @@ name
 }
 )
 :
-appHistory
+navigation
 .
 transition
 .

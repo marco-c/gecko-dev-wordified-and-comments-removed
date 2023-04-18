@@ -121,7 +121,7 @@ href
 "
 ;
 await
-appHistory
+navigation
 .
 back
 (
@@ -131,7 +131,7 @@ committed
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -147,7 +147,7 @@ entry0
 entry1
 ]
 =
-appHistory
+navigation
 .
 entries
 (
@@ -192,7 +192,7 @@ hash
 const
 result
 =
-appHistory
+navigation
 .
 forward
 (
@@ -208,9 +208,9 @@ entry1
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 entry1
 )
 ;

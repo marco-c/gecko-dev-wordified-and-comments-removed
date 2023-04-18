@@ -111,7 +111,7 @@ step_timeout
 {
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -127,7 +127,7 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
 entries
 (
@@ -137,7 +137,7 @@ length
 1
 )
 ;
-appHistory
+navigation
 .
 navigate
 (
@@ -149,7 +149,7 @@ top
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -165,7 +165,7 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
 entries
 (
@@ -182,9 +182,9 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
-current
+currentEntry
 .
 key
 ;
@@ -192,7 +192,7 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
 navigate
 (
@@ -206,7 +206,7 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
 navigate
 (
@@ -218,7 +218,7 @@ navigate
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -234,7 +234,7 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
 entries
 (
@@ -246,9 +246,9 @@ length
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 1
@@ -260,9 +260,9 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 2
@@ -270,7 +270,7 @@ index
 ;
 assert_true
 (
-appHistory
+navigation
 .
 canGoBack
 )
@@ -281,7 +281,7 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
 canGoBack
 )
@@ -328,9 +328,9 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
-goTo
+traverseTo
 (
 iframe_initial_key
 )
@@ -350,9 +350,9 @@ step_func_done
 {
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 1
@@ -364,9 +364,9 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 0
@@ -382,9 +382,9 @@ index
 ;
 }
 "
-appHistory
+navigation
 .
-goTo
+traverseTo
 (
 )
 goes

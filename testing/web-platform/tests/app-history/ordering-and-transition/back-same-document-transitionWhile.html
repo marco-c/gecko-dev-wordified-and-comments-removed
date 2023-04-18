@@ -60,7 +60,7 @@ content
 =
 "
 ?
-currentchange
+currententrychange
 "
 >
 <
@@ -143,7 +143,7 @@ resolve
 )
 ;
 await
-appHistory
+navigation
 .
 navigate
 (
@@ -158,9 +158,9 @@ finished
 const
 from
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 const
 recorder
@@ -175,7 +175,7 @@ skipCurrentChange
 hasVariant
 (
 "
-currentchange
+currententrychange
 "
 )
 finalExpectedEvent
@@ -195,7 +195,7 @@ setUpAppHistoryListeners
 (
 )
 ;
-appHistory
+navigation
 .
 addEventListener
 (
@@ -223,7 +223,7 @@ resolve
 const
 result
 =
-appHistory
+navigation
 .
 back
 (
@@ -277,7 +277,7 @@ location
 .
 hash
 value
-appHistory
+navigation
 .
 transition
 properties
@@ -306,7 +306,7 @@ null
 ]
 [
 "
-currentchange
+currententrychange
 "
 "
 "
@@ -383,7 +383,7 @@ for
 same
 -
 document
-appHistory
+navigation
 .
 back
 (

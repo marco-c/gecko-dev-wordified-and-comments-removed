@@ -67,9 +67,9 @@ await
 assertBothRejectDOM
 (
 t
-appHistory
+navigation
 .
-goTo
+traverseTo
 (
 "
 not
@@ -85,7 +85,7 @@ InvalidStateError
 ;
 }
 "
-goTo
+traverseTo
 (
 )
 with

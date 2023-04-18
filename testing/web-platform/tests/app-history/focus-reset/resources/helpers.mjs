@@ -139,7 +139,7 @@ committed
 finished
 }
 =
-appHistory
+navigation
 .
 navigate
 (
@@ -315,7 +315,7 @@ committed
 finished
 }
 =
-appHistory
+navigation
 .
 navigate
 (

@@ -114,7 +114,7 @@ resolve
 let
 result2
 ;
-appHistory
+navigation
 .
 onnavigate
 =
@@ -138,7 +138,7 @@ info
 {
 result2
 =
-appHistory
+navigation
 .
 navigate
 (
@@ -167,7 +167,7 @@ defaultPrevented
 const
 result1
 =
-appHistory
+navigation
 .
 navigate
 (
@@ -184,7 +184,7 @@ info
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -196,7 +196,7 @@ length
 ;
 assert_array_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -244,9 +244,9 @@ assertBothFulfill
 (
 t
 result2
-appHistory
+navigation
 .
-current
+currentEntry
 )
 ;
 }

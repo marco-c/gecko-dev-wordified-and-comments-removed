@@ -96,7 +96,7 @@ resolve
 )
 ;
 await
-appHistory
+navigation
 .
 navigate
 (
@@ -108,7 +108,7 @@ foo
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -119,13 +119,13 @@ length
 )
 ;
 let
-oncurrentchange_called
+oncurrententrychange_called
 =
 false
 ;
-appHistory
+navigation
 .
-oncurrentchange
+oncurrententrychange
 =
 t
 .
@@ -135,7 +135,7 @@ e
 =
 >
 {
-oncurrentchange_called
+oncurrententrychange_called
 =
 true
 ;
@@ -144,7 +144,7 @@ assert_equals
 e
 .
 from
-appHistory
+navigation
 .
 entries
 (
@@ -166,9 +166,9 @@ traverse
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 0
@@ -185,7 +185,7 @@ back
 ;
 assert_false
 (
-oncurrentchange_called
+oncurrententrychange_called
 )
 ;
 await
@@ -204,7 +204,7 @@ resolve
 ;
 assert_true
 (
-oncurrentchange_called
+oncurrententrychange_called
 )
 ;
 }

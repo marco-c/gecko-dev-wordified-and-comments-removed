@@ -66,7 +66,7 @@ t
 const
 result
 =
-appHistory
+navigation
 .
 navigate
 (
@@ -81,9 +81,9 @@ assertBothFulfill
 (
 t
 result
-appHistory
+navigation
 .
-current
+currentEntry
 )
 ;
 assert_equals
@@ -92,9 +92,9 @@ assert_equals
 new
 URL
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 url
 )

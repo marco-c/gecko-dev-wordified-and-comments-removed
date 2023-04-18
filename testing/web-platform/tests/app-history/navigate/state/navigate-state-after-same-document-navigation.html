@@ -91,9 +91,9 @@ async
 let
 entry0
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 let
 navState
@@ -107,7 +107,7 @@ state
 }
 ;
 await
-appHistory
+navigation
 .
 navigate
 (
@@ -127,9 +127,9 @@ committed
 let
 entry1
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 navState
 .
@@ -140,7 +140,7 @@ otherstate
 "
 ;
 await
-appHistory
+navigation
 .
 navigate
 (
@@ -160,9 +160,9 @@ committed
 let
 entry2
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 t
 .
@@ -175,7 +175,7 @@ step_func
 {
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -188,7 +188,7 @@ length
 assert_equals
 (
 entry0
-appHistory
+navigation
 .
 entries
 (
@@ -201,7 +201,7 @@ entries
 assert_equals
 (
 entry1
-appHistory
+navigation
 .
 entries
 (
@@ -214,7 +214,7 @@ entries
 assert_equals
 (
 entry2
-appHistory
+navigation
 .
 entries
 (
@@ -335,7 +335,7 @@ step_func_done
 {
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -348,14 +348,14 @@ length
 let
 back_entry
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_equals
 (
 back_entry
-appHistory
+navigation
 .
 entries
 (

@@ -47,7 +47,7 @@ t
 =
 >
 {
-appHistory
+navigation
 .
 onnavigate
 =
@@ -68,7 +68,7 @@ resolve
 let
 result1
 =
-appHistory
+navigation
 .
 navigate
 (
@@ -89,9 +89,9 @@ foo
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (
@@ -142,7 +142,7 @@ catch
 let
 result2
 =
-appHistory
+navigation
 .
 navigate
 (
@@ -163,9 +163,9 @@ foo
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (

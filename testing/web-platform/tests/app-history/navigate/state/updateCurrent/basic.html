@@ -46,7 +46,7 @@ t
 =
 >
 {
-appHistory
+navigation
 .
 onnavigate
 =
@@ -62,7 +62,7 @@ fire
 "
 )
 ;
-appHistory
+navigation
 .
 onnavigatesuccess
 =
@@ -78,7 +78,7 @@ fire
 "
 )
 ;
-appHistory
+navigation
 .
 onnavigateerror
 =
@@ -96,9 +96,9 @@ fire
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (
@@ -143,9 +143,9 @@ value
 "
 }
 ;
-appHistory
+navigation
 .
-updateCurrent
+updateCurrentEntry
 (
 {
 state
@@ -156,9 +156,9 @@ newState
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (
@@ -172,9 +172,9 @@ value
 ;
 assert_not_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (
@@ -221,7 +221,7 @@ done
 ;
 }
 "
-updateCurrent
+updateCurrentEntry
 (
 )
 works

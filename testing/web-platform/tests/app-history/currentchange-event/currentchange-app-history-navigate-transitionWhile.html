@@ -84,7 +84,7 @@ resolve
 )
 ;
 let
-oncurrentchange_called
+oncurrententrychange_called
 =
 false
 ;
@@ -92,9 +92,9 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
-oncurrentchange
+oncurrententrychange
 =
 t
 .
@@ -104,7 +104,7 @@ e
 =
 >
 {
-oncurrentchange_called
+oncurrententrychange_called
 =
 true
 ;
@@ -117,7 +117,7 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
 entries
 (
@@ -143,9 +143,9 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
-current
+currentEntry
 .
 index
 1
@@ -158,7 +158,7 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
 onnavigate
 =
@@ -183,7 +183,7 @@ i
 .
 contentWindow
 .
-appHistory
+navigation
 .
 navigate
 (
@@ -201,7 +201,7 @@ html
 ;
 assert_true
 (
-oncurrentchange_called
+oncurrententrychange_called
 )
 ;
 await
@@ -214,7 +214,7 @@ committed
 AppHistoryCurrentChangeEvent
 fires
 for
-appHistory
+navigation
 .
 navigate
 (

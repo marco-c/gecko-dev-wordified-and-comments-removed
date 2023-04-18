@@ -111,7 +111,7 @@ resolve
 )
 )
 ;
-appHistory
+navigation
 .
 addEventListener
 (
@@ -136,7 +136,7 @@ resolve
 const
 result1
 =
-appHistory
+navigation
 .
 navigate
 (
@@ -149,7 +149,7 @@ navigate
 const
 result2
 =
-appHistory
+navigation
 .
 navigate
 (
@@ -161,7 +161,7 @@ navigate
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -173,7 +173,7 @@ length
 ;
 assert_array_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -215,7 +215,7 @@ assertCommittedFulfillsFinishedRejectsDOM
 (
 t
 result1
-appHistory
+navigation
 .
 entries
 (
@@ -233,9 +233,9 @@ assertBothFulfill
 (
 t
 result2
-appHistory
+navigation
 .
-current
+currentEntry
 )
 ;
 }

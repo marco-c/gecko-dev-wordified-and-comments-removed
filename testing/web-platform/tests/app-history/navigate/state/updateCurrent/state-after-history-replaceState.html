@@ -47,9 +47,9 @@ test
 =
 >
 {
-appHistory
+navigation
 .
-updateCurrent
+updateCurrentEntry
 (
 {
 state
@@ -66,9 +66,9 @@ value
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (
@@ -95,9 +95,9 @@ replace
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (

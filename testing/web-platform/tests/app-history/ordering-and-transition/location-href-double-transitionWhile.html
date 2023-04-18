@@ -60,7 +60,7 @@ content
 =
 "
 ?
-currentchange
+currententrychange
 "
 >
 <
@@ -145,9 +145,9 @@ resolve
 const
 fromStart
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 let
 fromHash1
@@ -165,7 +165,7 @@ skipCurrentChange
 hasVariant
 (
 "
-currentchange
+currententrychange
 "
 )
 finalExpectedEvent
@@ -185,7 +185,7 @@ setUpAppHistoryListeners
 (
 )
 ;
-appHistory
+navigation
 .
 addEventListener
 (
@@ -232,9 +232,9 @@ hash
 {
 fromHash1
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 }
 }
@@ -311,7 +311,7 @@ location
 .
 hash
 value
-appHistory
+navigation
 .
 transition
 properties
@@ -327,7 +327,7 @@ null
 ]
 [
 "
-currentchange
+currententrychange
 "
 "
 #
@@ -395,7 +395,7 @@ null
 ]
 [
 "
-currentchange
+currententrychange
 "
 "
 #

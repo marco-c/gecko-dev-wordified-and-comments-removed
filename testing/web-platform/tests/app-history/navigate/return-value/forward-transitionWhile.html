@@ -122,7 +122,7 @@ href
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -138,7 +138,7 @@ entry0
 entry1
 ]
 =
-appHistory
+navigation
 .
 entries
 (
@@ -181,7 +181,7 @@ hash
 )
 ;
 await
-appHistory
+navigation
 .
 back
 (
@@ -205,7 +205,7 @@ def
 }
 )
 ;
-appHistory
+navigation
 .
 onnavigate
 =
@@ -222,7 +222,7 @@ promise
 const
 result
 =
-appHistory
+navigation
 .
 forward
 (
@@ -238,9 +238,9 @@ entry1
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 entry1
 )
 ;

@@ -94,9 +94,9 @@ step_func_done
 let
 entry1
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_true
 (
@@ -115,9 +115,9 @@ hash
 let
 entry2
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_not_equals
 (
@@ -150,9 +150,9 @@ push
 let
 entry3
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 assert_not_equals
 (
@@ -182,7 +182,7 @@ sameDocument
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -194,7 +194,7 @@ length
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -207,7 +207,7 @@ entry1
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -220,7 +220,7 @@ entry2
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (

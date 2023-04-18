@@ -106,9 +106,9 @@ iframe
 .
 contentWindow
 .
-appHistory
+navigation
 .
-updateCurrent
+updateCurrentEntry
 (
 {
 state
@@ -125,9 +125,9 @@ WritableStream
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (
@@ -137,7 +137,7 @@ undefined
 ;
 }
 "
-updateCurrent
+updateCurrentEntry
 (
 )
 must
@@ -226,9 +226,9 @@ iframe
 .
 contentWindow
 .
-appHistory
+navigation
 .
-updateCurrent
+updateCurrentEntry
 (
 {
 state
@@ -242,9 +242,9 @@ buffer
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 .
 getState
 (
@@ -254,7 +254,7 @@ undefined
 ;
 }
 "
-updateCurrent
+updateCurrentEntry
 (
 )
 must

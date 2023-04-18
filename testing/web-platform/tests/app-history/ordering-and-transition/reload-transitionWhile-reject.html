@@ -60,7 +60,7 @@ content
 =
 "
 ?
-currentchange
+currententrychange
 "
 >
 <
@@ -145,9 +145,9 @@ resolve
 const
 from
 =
-appHistory
+navigation
 .
-current
+currentEntry
 ;
 const
 expectedError
@@ -173,7 +173,7 @@ skipCurrentChange
 hasVariant
 (
 "
-currentchange
+currententrychange
 "
 )
 finalExpectedEvent
@@ -193,7 +193,7 @@ setUpAppHistoryListeners
 (
 )
 ;
-appHistory
+navigation
 .
 addEventListener
 (
@@ -222,7 +222,7 @@ expectedError
 const
 result
 =
-appHistory
+navigation
 .
 reload
 (
@@ -276,7 +276,7 @@ location
 .
 hash
 value
-appHistory
+navigation
 .
 transition
 properties
@@ -292,7 +292,7 @@ null
 ]
 [
 "
-currentchange
+currententrychange
 "
 "
 "
@@ -389,7 +389,7 @@ and
 promise
 ordering
 for
-appHistory
+navigation
 .
 reload
 (

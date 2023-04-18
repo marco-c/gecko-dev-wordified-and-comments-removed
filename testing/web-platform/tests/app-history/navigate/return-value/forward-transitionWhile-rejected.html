@@ -121,7 +121,7 @@ href
 "
 ;
 await
-appHistory
+navigation
 .
 back
 (
@@ -131,7 +131,7 @@ committed
 ;
 assert_equals
 (
-appHistory
+navigation
 .
 entries
 (
@@ -147,7 +147,7 @@ entry0
 entry1
 ]
 =
-appHistory
+navigation
 .
 entries
 (
@@ -232,7 +232,7 @@ testharness
 .
 js
 errors
-appHistory
+navigation
 .
 onnavigate
 =
@@ -249,7 +249,7 @@ promise
 const
 result
 =
-appHistory
+navigation
 .
 forward
 (
@@ -266,9 +266,9 @@ err
 ;
 assert_equals
 (
-appHistory
+navigation
 .
-current
+currentEntry
 entry1
 )
 ;
