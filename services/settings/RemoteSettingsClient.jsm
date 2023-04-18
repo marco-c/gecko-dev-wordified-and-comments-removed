@@ -1482,7 +1482,7 @@ dumpFallback
 true
 loadDumpIfNewer
 =
-true
+false
 syncIfEmpty
 =
 true
