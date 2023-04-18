@@ -1554,3 +1554,11 @@ clangd
 /
 index
 /
+#
+Ignore
+mypy
+files
+\
+.
+mypy_cache
+/
