@@ -942,6 +942,16 @@ PProxyAutoConfigChild
 endpoint
 )
 ;
+async
+RecheckIPConnectivity
+(
+)
+;
+async
+RecheckDNS
+(
+)
+;
 both
 :
 async
