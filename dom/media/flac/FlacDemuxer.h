@@ -342,7 +342,7 @@ Frame
 aFrame
 )
 ;
-int32_t
+uint32_t
 Read
 (
 uint8_t
