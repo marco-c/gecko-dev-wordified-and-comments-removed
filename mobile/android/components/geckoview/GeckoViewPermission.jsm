@@ -539,7 +539,7 @@ id
 :
 device
 .
-id
+rawId
 rawId
 :
 device
@@ -798,7 +798,7 @@ video
 =
 device
 .
-id
+rawId
 )
 ;
 if
@@ -878,7 +878,7 @@ audio
 =
 device
 .
-id
+rawId
 )
 ;
 if
