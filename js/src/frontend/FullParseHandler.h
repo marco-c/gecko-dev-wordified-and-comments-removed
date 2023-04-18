@@ -2031,7 +2031,7 @@ NullaryNodeType
 newHolder
 NullaryNodeType
 targetHolder
-Node
+NameNodeType
 newTargetName
 )
 {

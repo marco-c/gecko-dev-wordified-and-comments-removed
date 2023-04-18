@@ -9010,7 +9010,7 @@ newHolder
 NullaryNode
 *
 targetHolder
-ParseNode
+NameNode
 *
 newTargetName
 )
@@ -9119,7 +9119,16 @@ newTargetName
 const
 {
 return
+&
 kid3
+(
+)
+-
+>
+as
+<
+NameNode
+>
 (
 )
 ;
