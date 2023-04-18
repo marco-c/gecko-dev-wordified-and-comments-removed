@@ -2391,6 +2391,10 @@ LogLevel
 :
 Error
 (
+"
+%
+s
+"
 utf8
 )
 )
@@ -2549,6 +2553,10 @@ LogLevel
 :
 Error
 (
+"
+%
+s
+"
 buffer
 )
 )

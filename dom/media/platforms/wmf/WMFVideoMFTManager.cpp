@@ -1901,8 +1901,6 @@ IsEmpty
 {
 LOG
 (
-nsPrintfCString
-(
 "
 DXVA
 failure
@@ -1911,11 +1909,6 @@ failure
 s
 "
 mDXVAFailureReason
-.
-get
-(
-)
-)
 .
 get
 (

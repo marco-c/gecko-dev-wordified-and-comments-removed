@@ -820,8 +820,6 @@ guid
 02X
 %
 02X
-%
-lX
 "
 nwGUID
 .

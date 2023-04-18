@@ -4441,6 +4441,12 @@ top
 level
 window
 "
+aWindow
+-
+>
+GetWindowHandle
+(
+)
 )
 )
 ;

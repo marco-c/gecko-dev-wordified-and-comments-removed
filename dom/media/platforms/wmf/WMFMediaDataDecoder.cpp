@@ -347,6 +347,10 @@ aReason
 ;
 LOG
 (
+"
+%
+s
+"
 markerString
 .
 get

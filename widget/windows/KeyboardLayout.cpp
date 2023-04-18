@@ -10880,8 +10880,7 @@ NativeKey
 HandleAppCommandMessage
 (
 )
-%
-s
+keyup
 event
 caused
 "
