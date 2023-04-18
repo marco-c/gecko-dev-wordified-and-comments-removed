@@ -363,6 +363,11 @@ mIsHardwareAccelerated
 =
 false
 ;
+bool
+mRemoteDecoderCrashed
+=
+false
+;
 MediaDataDecoder
 :
 :
