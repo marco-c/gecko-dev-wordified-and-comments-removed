@@ -2107,6 +2107,8 @@ await
 waitForInitialNavigationCompleted
 (
 browsingContext
+.
+webProgress
 )
 ;
 this
@@ -6676,6 +6678,8 @@ waitForInitialNavigationCompleted
 contentBrowser
 .
 browsingContext
+.
+webProgress
 )
 ;
 const
