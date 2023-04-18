@@ -2428,9 +2428,13 @@ b
 >
 a
 .
+name
+.
 localeCompare
 (
 b
+.
+name
 )
 )
 ;
