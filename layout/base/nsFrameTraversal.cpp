@@ -1067,8 +1067,6 @@ parent
 break
 ;
 }
-else
-{
 result
 =
 GetParentFrameNotPopup
@@ -1115,13 +1113,14 @@ mType
 =
 ePostOrder
 )
+{
 break
 ;
+}
 parent
 =
 result
 ;
-}
 }
 }
 setCurrent
@@ -1348,8 +1347,10 @@ mType
 =
 ePreOrder
 )
+{
 break
 ;
+}
 parent
 =
 result
