@@ -2500,6 +2500,9 @@ java
 sdk
 :
 :
+MediaCodec
+:
+:
 CryptoInfo
 :
 :
@@ -3038,6 +3041,9 @@ java
 :
 :
 sdk
+:
+:
+MediaCodec
 :
 :
 BufferInfo
@@ -3726,6 +3732,9 @@ java
 :
 :
 sdk
+:
+:
+MediaCodec
 :
 :
 BufferInfo

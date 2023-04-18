@@ -783,7 +783,7 @@ java
 sdk
 :
 :
-KeyStatus
+MediaDrm
 ;
 switch
 (
@@ -791,6 +791,9 @@ aStatusCode
 )
 {
 case
+MediaDrm
+:
+:
 KeyStatus
 :
 :
@@ -806,6 +809,9 @@ MediaKeyStatus
 Usable
 ;
 case
+MediaDrm
+:
+:
 KeyStatus
 :
 :
@@ -821,6 +827,9 @@ MediaKeyStatus
 Expired
 ;
 case
+MediaDrm
+:
+:
 KeyStatus
 :
 :
@@ -836,6 +845,9 @@ MediaKeyStatus
 Output_restricted
 ;
 case
+MediaDrm
+:
+:
 KeyStatus
 :
 :
@@ -851,6 +863,9 @@ MediaKeyStatus
 Internal_error
 ;
 case
+MediaDrm
+:
+:
 KeyStatus
 :
 :

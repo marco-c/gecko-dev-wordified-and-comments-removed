@@ -538,6 +538,9 @@ java
 sdk
 :
 :
+MediaCodec
+:
+:
 CryptoInfo
 :
 :

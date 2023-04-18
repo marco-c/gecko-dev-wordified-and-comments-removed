@@ -451,6 +451,9 @@ java
 sdk
 :
 :
+MediaCodec
+:
+:
 BufferInfo
 :
 :

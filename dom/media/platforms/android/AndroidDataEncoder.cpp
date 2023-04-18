@@ -748,6 +748,9 @@ java
 sdk
 :
 :
+MediaCodec
+:
+:
 BufferInfo
 :
 :
@@ -762,6 +765,9 @@ java
 :
 :
 sdk
+:
+:
+MediaCodec
 :
 :
 BufferInfo
@@ -1994,6 +2000,9 @@ java
 :
 :
 sdk
+:
+:
+MediaCodec
 :
 :
 BufferInfo
