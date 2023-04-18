@@ -200,6 +200,15 @@ include
 "
 wasm
 /
+WasmDebug
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmDebugFrame
 .
 h
