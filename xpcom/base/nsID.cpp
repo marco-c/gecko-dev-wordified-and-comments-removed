@@ -113,12 +113,6 @@ aLength
 if
 (
 !
-NS_IsMainThread
-(
-)
-|
-|
-!
 NSS_IsInitialized
 (
 )
