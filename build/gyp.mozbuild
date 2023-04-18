@@ -371,12 +371,6 @@ arm_neon_optional
 :
 1
 '
-multi_monitor_screenshare
-%
-'
-:
-0
-'
 use_temporal_layers
 '
 :

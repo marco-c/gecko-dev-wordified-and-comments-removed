@@ -1573,14 +1573,6 @@ if
 build_with_mozilla
 )
 {
-defines
-+
-=
-[
-"
-MULTI_MONITOR_SCREENSHARE
-"
-]
 include_dirs
 +
 =
