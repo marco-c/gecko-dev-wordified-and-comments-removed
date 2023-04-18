@@ -6597,14 +6597,6 @@ for
 geckodriver
 binary
 .
-iris
--
--
--
--
-Iris
-testing
-suite
 maybe
 -
 release
