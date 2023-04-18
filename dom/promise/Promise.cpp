@@ -1301,6 +1301,15 @@ aRv
 {
 if
 (
+!
+aSettlingPromise
+)
+{
+return
+;
+}
+if
+(
 aRv
 .
 Failed
