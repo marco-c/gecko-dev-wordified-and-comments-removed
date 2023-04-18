@@ -480,6 +480,10 @@ mServiceWorkersTestingInWindow
 (
 false
 )
+mIsThirdPartyContextToTopWindow
+(
+true
+)
 mSecureContext
 (
 eNotSet
