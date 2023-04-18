@@ -1676,6 +1676,13 @@ Init
 (
 )
 ;
+storage
+-
+>
+Activate
+(
+)
+;
 return
 storage
 .
@@ -7724,7 +7731,7 @@ void
 CookiePersistentStorage
 :
 :
-EnsureReadComplete
+EnsureInitialized
 (
 )
 {

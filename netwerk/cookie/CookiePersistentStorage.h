@@ -172,9 +172,10 @@ Close
 override
 ;
 void
-EnsureReadComplete
+EnsureInitialized
 (
 )
+override
 ;
 void
 CleanupCachedStatements
@@ -208,6 +209,7 @@ nsICookieTransactionCallback
 *
 aCallback
 )
+override
 ;
 enum
 CorruptFlag
