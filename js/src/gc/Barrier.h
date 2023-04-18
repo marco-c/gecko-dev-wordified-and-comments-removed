@@ -4938,9 +4938,6 @@ T
 namespace
 js
 {
-class
-DebugEnvironmentProxy
-;
 namespace
 jit
 {
@@ -4948,15 +4945,6 @@ class
 JitCode
 ;
 }
-using
-WeakHeapPtrDebugEnvironmentProxy
-=
-WeakHeapPtr
-<
-DebugEnvironmentProxy
-*
->
-;
 using
 WeakHeapPtrJitCode
 =
