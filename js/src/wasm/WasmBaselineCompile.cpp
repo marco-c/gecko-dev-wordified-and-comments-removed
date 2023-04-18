@@ -6979,7 +6979,7 @@ lineOrBytecode
 CallSiteDesc
 :
 :
-Dynamic
+Indirect
 )
 ;
 CalleeDesc
@@ -7031,7 +7031,7 @@ lineOrBytecode
 CallSiteDesc
 :
 :
-Dynamic
+Import
 )
 ;
 CalleeDesc

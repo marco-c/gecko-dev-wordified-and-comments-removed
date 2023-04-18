@@ -11193,7 +11193,7 @@ desc
 CallSiteDesc
 :
 :
-Dynamic
+Import
 )
 ;
 MoveSPForJitABI
