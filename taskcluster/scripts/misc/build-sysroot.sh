@@ -102,6 +102,9 @@ linux
 libc
 -
 dev
+libasound2
+-
+dev
 libstdc
 +
 +

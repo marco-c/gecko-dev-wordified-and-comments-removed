@@ -472,6 +472,14 @@ FINAL_LIBRARY
 '
 gkmedias
 '
+if
+CONFIG
+[
+'
+MOZ_ALSA
+'
+]
+:
 CFLAGS
 +
 =
