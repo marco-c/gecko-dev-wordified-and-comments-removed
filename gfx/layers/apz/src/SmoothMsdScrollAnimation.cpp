@@ -42,6 +42,8 @@ double
 aSpringConstant
 double
 aDampingRatio
+ScrollTriggeredByScript
+aTriggeredByScript
 )
 :
 mApzc
@@ -75,6 +77,10 @@ aInitialVelocity
 y
 aSpringConstant
 aDampingRatio
+)
+mTriggeredByScript
+(
+aTriggeredByScript
 )
 {
 }
@@ -486,6 +492,8 @@ const
 CSSPoint
 &
 aNewDestination
+ScrollTriggeredByScript
+aTriggeredByScript
 )
 {
 mXAxisModel
@@ -505,6 +513,10 @@ aNewDestination
 .
 y
 )
+;
+mTriggeredByScript
+=
+aTriggeredByScript
 ;
 }
 CSSPoint

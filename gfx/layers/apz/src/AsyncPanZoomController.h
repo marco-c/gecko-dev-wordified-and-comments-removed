@@ -2670,6 +2670,8 @@ const
 CSSPoint
 &
 aDestination
+ScrollTriggeredByScript
+aTriggeredByScript
 )
 ;
 bool

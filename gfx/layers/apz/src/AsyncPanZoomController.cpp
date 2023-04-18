@@ -7243,6 +7243,10 @@ c_str
 SmoothMsdScrollTo
 (
 destination
+ScrollTriggeredByScript
+:
+:
+No
 )
 ;
 return
@@ -9127,6 +9131,10 @@ c_str
 SmoothMsdScrollTo
 (
 startPosition
+ScrollTriggeredByScript
+:
+:
+No
 )
 ;
 break
@@ -15183,6 +15191,8 @@ const
 CSSPoint
 &
 aDestination
+ScrollTriggeredByScript
+aTriggeredByScript
 )
 {
 if
@@ -15238,6 +15248,7 @@ animation
 SetDestination
 (
 aDestination
+aTriggeredByScript
 )
 ;
 }
@@ -15333,6 +15344,7 @@ StaticPrefs
 layout_css_scroll_behavior_damping_ratio
 (
 )
+aTriggeredByScript
 )
 )
 ;
@@ -21843,6 +21855,11 @@ SmoothMsd
 SmoothMsdScrollTo
 (
 destination
+scrollUpdate
+.
+GetScrollTriggeredByScript
+(
+)
 )
 ;
 }
@@ -21861,6 +21878,16 @@ ScrollMode
 :
 :
 Smooth
+)
+;
+MOZ_ASSERT
+(
+!
+scrollUpdate
+.
+WasTriggeredByScript
+(
+)
 )
 ;
 SmoothScrollTo
@@ -25596,6 +25623,10 @@ SmoothMsdScrollTo
 (
 *
 snapPoint
+ScrollTriggeredByScript
+:
+:
+No
 )
 ;
 }
@@ -25924,6 +25955,10 @@ y
 SmoothMsdScrollTo
 (
 startPosition
+ScrollTriggeredByScript
+:
+:
+No
 )
 ;
 }
