@@ -19,13 +19,8 @@ nsAHtml5TreeOpSink
 {
 public
 :
-[
-[
-nodiscard
-]
-]
 virtual
-bool
+void
 MoveOpsFrom
 (
 nsTArray

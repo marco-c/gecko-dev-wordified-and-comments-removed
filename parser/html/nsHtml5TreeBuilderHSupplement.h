@@ -284,14 +284,7 @@ Clear
 )
 ;
 }
-mozilla
-:
-:
-Result
-<
 bool
-nsresult
->
 Flush
 (
 bool
