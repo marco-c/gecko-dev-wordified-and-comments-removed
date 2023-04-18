@@ -717,48 +717,6 @@ IPDLCollection
             
 self
 .
-_handle_generated_sources
-(
-                
-mozpath
-.
-join
-(
-obj
-.
-objdir
-f
-)
-for
-f
-in
-obj
-.
-all_generated_sources
-(
-)
-            
-)
-            
-self
-.
-_write_unified_files
-(
-                
-obj
-.
-unified_source_mapping
-obj
-.
-objdir
-poison_windows_h
-=
-False
-            
-)
-            
-self
-.
 _handle_ipdl_sources
 (
                 
@@ -801,10 +759,6 @@ all_regular_sources
 )
 )
 )
-                
-obj
-.
-unified_source_mapping
             
 )
         
