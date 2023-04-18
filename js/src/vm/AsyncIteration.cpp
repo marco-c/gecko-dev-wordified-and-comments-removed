@@ -990,7 +990,7 @@ nodiscard
 ]
 static
 bool
-AsyncGeneratorEnqueue
+AsyncGeneratorMethodCommon
 (
 JSContext
 *
@@ -1031,7 +1031,7 @@ vp
 )
 ;
 return
-AsyncGeneratorEnqueue
+AsyncGeneratorMethodCommon
 (
 cx
 args
@@ -1083,7 +1083,7 @@ vp
 )
 ;
 return
-AsyncGeneratorEnqueue
+AsyncGeneratorMethodCommon
 (
 cx
 args
@@ -1135,7 +1135,7 @@ vp
 )
 ;
 return
-AsyncGeneratorEnqueue
+AsyncGeneratorMethodCommon
 (
 cx
 args
@@ -3062,7 +3062,7 @@ nodiscard
 ]
 static
 bool
-AsyncGeneratorEnqueue
+AsyncGeneratorMethodCommon
 (
 JSContext
 *
