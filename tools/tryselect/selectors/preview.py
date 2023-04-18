@@ -461,7 +461,7 @@ durations
 get
 (
 "
-quantile
+percentile
 "
 )
 :
@@ -486,12 +486,16 @@ n
 .
 format
 (
+            
+100
+-
 durations
 [
 "
-quantile
+percentile
 "
 ]
+        
 )
     
 output
