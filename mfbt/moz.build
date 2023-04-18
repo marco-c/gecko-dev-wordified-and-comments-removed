@@ -520,6 +520,11 @@ ThreadLocal
 h
 "
 "
+ThreadSafety
+.
+h
+"
+"
 ThreadSafeWeakPtr
 .
 h

@@ -2328,6 +2328,7 @@ RecursiveMutex
 AssertCurrentThreadIn
 (
 )
+const
 {
 MOZ_ASSERT
 (
