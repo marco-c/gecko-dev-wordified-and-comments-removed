@@ -63,6 +63,9 @@ class
 DrawTargetWebgl
 ;
 class
+PathSkia
+;
+class
 SourceSurfaceSkia
 ;
 class
@@ -78,10 +81,10 @@ class
 StandaloneTexture
 ;
 class
-GlyphCacheEntry
+GlyphCache
 ;
 class
-GlyphCache
+PathCache
 ;
 class
 DrawTargetWebgl
@@ -254,6 +257,12 @@ LinkedList
 GlyphCache
 >
 mGlyphCaches
+;
+UniquePtr
+<
+PathCache
+>
+mPathCache
 ;
 std
 :
