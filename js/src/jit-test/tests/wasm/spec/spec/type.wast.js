@@ -425,9 +425,8 @@ i32
 )
 )
 )
-result
-before
-parameter
+unexpected
+token
 )
 ;
 assert_malformed
