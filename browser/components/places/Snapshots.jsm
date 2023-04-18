@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BackgroundPageThumbs
 :
@@ -206,7 +212,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -262,7 +268,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 snapshot_overlap_limit
 "
@@ -282,7 +288,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 snapshot_timeofday_interval_seconds
 "
@@ -302,7 +308,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 snapshot_timeofday_limit_days
 "
@@ -322,7 +328,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 snapshot_timeofday_expected_interactions
 "
@@ -399,7 +405,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 snapshotCriteria
 "
@@ -466,11 +472,15 @@ constructor
 if
 (
 !
+lazy
+.
 PlacesPreviews
 .
 enabled
 )
 {
+lazy
+.
 PageThumbs
 .
 addExpirationFilter
@@ -645,6 +655,8 @@ urls
 let
 pageData
 =
+lazy
+.
 PageDataService
 .
 getCached
@@ -752,6 +764,8 @@ pageData
 let
 pageInfo
 =
+lazy
+.
 PlacesUtils
 .
 validateItemProperties
@@ -759,6 +773,8 @@ validateItemProperties
 "
 PageInfo
 "
+lazy
+.
 PlacesUtils
 .
 PAGEINFO_VALIDATORS
@@ -864,6 +880,8 @@ placesIndex
 }
 else
 {
+lazy
+.
 PageDataService
 .
 queueFetch
@@ -885,6 +903,8 @@ image
 )
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -931,6 +951,8 @@ return
 ;
 }
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -1075,11 +1097,15 @@ metaDataImageURL
 {
 if
 (
+lazy
+.
 PlacesPreviews
 .
 enabled
 )
 {
+lazy
+.
 PlacesPreviews
 .
 update
@@ -1097,6 +1123,8 @@ error
 }
 else
 {
+lazy
+.
 BackgroundPageThumbs
 .
 captureIfMissing
@@ -1186,6 +1214,8 @@ url
 if
 (
 !
+lazy
+.
 InteractionsBlocklist
 .
 canRecordUrl
@@ -1214,6 +1244,8 @@ let
 placeId
 =
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -1454,6 +1486,8 @@ url
 userPersisted
 documentFallback
 :
+lazy
+.
 Interactions
 .
 DOCUMENT_TYPE
@@ -1670,6 +1704,8 @@ url_hash
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -1690,6 +1726,8 @@ url
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -1776,6 +1814,8 @@ urls
 ]
 ;
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -1834,6 +1874,8 @@ place_id
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -1886,6 +1928,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -2105,6 +2149,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -2536,6 +2582,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -2623,6 +2671,8 @@ current_id
 1
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2648,6 +2698,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -2933,6 +2985,10 @@ DESC
 {
 current_id
 snapshot_overlap_limit
+:
+lazy
+.
+snapshot_overlap_limit
 }
 )
 ;
@@ -2944,6 +3000,8 @@ rows
 length
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -3001,6 +3059,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -3185,6 +3245,8 @@ rows
 length
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -3238,6 +3300,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -3534,9 +3598,13 @@ time
 )
 interval_s
 :
+lazy
+.
 snapshot_timeofday_interval_seconds
 days_limit
 :
+lazy
+.
 snapshot_timeofday_limit_days
 }
 )
@@ -3549,6 +3617,8 @@ rows
 length
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -3722,6 +3792,8 @@ if
 (
 interactions
 <
+lazy
+.
 snapshot_timeofday_expected_interactions
 )
 {
@@ -3742,6 +3814,8 @@ interactions
 )
 /
 (
+lazy
+.
 snapshot_timeofday_expected_interactions
 -
 1
@@ -3818,6 +3892,8 @@ catch
 e
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -3990,6 +4066,8 @@ snapshot
 .
 commonName
 =
+lazy
+.
 CommonNames
 .
 getName
@@ -4029,6 +4107,8 @@ url
 ;
 if
 (
+lazy
+.
 PlacesPreviews
 .
 enabled
@@ -4037,6 +4117,8 @@ enabled
 if
 (
 await
+lazy
+.
 PlacesPreviews
 .
 update
@@ -4053,6 +4135,8 @@ error
 )
 {
 return
+lazy
+.
 PlacesPreviews
 .
 getPageThumbURL
@@ -4065,6 +4149,8 @@ url
 else
 {
 await
+lazy
+.
 BackgroundPageThumbs
 .
 captureIfMissing
@@ -4082,6 +4168,8 @@ error
 if
 (
 await
+lazy
+.
 PageThumbsStorage
 .
 fileExistsForURL
@@ -4091,6 +4179,8 @@ url
 )
 {
 return
+lazy
+.
 PageThumbs
 .
 getThumbnailURL
@@ -4153,6 +4243,8 @@ length
 return
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -4184,6 +4276,8 @@ JSON
 .
 parse
 (
+lazy
+.
 snapshotCriteria
 )
 ;
@@ -4195,6 +4289,8 @@ model
 length
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -4220,6 +4316,8 @@ catch
 e
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -4246,6 +4344,8 @@ let
 insertedUrls
 =
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -4294,6 +4394,8 @@ for
 let
 protocol
 of
+lazy
+.
 InteractionsBlocklist
 .
 urlRequirements
@@ -4375,6 +4477,8 @@ idx
 if
 (
 !
+lazy
+.
 InteractionsBlocklist
 .
 canRecordUrl
@@ -4383,6 +4487,8 @@ url
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -4782,6 +4888,8 @@ now
 }
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -4867,6 +4975,8 @@ insertedUrls
 length
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -4937,6 +5047,8 @@ reset
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -5042,6 +5154,8 @@ url
 href
 rev_host
 :
+lazy
+.
 PlacesUtils
 .
 getReversedHost

@@ -55,11 +55,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventEmitter
 :
@@ -157,7 +163,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -212,6 +218,8 @@ Warn
 class
 SnapshotSelector
 extends
+lazy
+.
 EventEmitter
 {
 static
@@ -318,6 +326,8 @@ this
 task
 =
 new
+lazy
+.
 DeferredTask
 (
 (
@@ -571,6 +581,8 @@ task
 return
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -657,6 +669,8 @@ this
 context
 }
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -672,6 +686,8 @@ let
 snapshots
 =
 await
+lazy
+.
 Snapshots
 .
 query
@@ -726,6 +742,8 @@ filterAdult
 |
 |
 !
+lazy
+.
 FilterAdult
 .
 isAdultUrl
@@ -740,6 +758,8 @@ url
 ;
 snapshots
 =
+lazy
+.
 SnapshotScorer
 .
 dedupeSnapshots
@@ -783,6 +803,8 @@ slice
 (
 )
 ;
+lazy
+.
 PlacesUIUtils
 .
 insertTitleStartDiffs
@@ -830,6 +852,8 @@ this
 context
 }
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -854,6 +878,8 @@ Object
 .
 entries
 (
+lazy
+.
 Snapshots
 .
 recommendationSources
@@ -913,6 +939,8 @@ source
 context
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -951,6 +979,8 @@ weight
 let
 recommendations
 =
+lazy
+.
 SnapshotScorer
 .
 combineAndScore
@@ -985,6 +1015,8 @@ r
 snapshot
 )
 ;
+lazy
+.
 PlacesUIUtils
 .
 insertTitleStartDiffs
@@ -1029,6 +1061,8 @@ undefined
 {
 url
 =
+lazy
+.
 Snapshots
 .
 stripFragments

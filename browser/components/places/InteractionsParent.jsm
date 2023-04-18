@@ -12,11 +12,17 @@ InteractionsParent
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Interactions
 "
@@ -58,6 +64,8 @@ Interactions
 PageLoaded
 "
 :
+lazy
+.
 Interactions
 .
 registerNewInteraction
@@ -81,6 +89,8 @@ Interactions
 PageHide
 "
 :
+lazy
+.
 Interactions
 .
 registerEndOfInteraction

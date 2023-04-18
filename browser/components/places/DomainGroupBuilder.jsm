@@ -31,11 +31,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CommonNames
 :
@@ -287,6 +293,8 @@ domain
 )
 ;
 await
+lazy
+.
 SnapshotGroups
 .
 delete
@@ -610,6 +618,8 @@ id
 )
 {
 await
+lazy
+.
 SnapshotGroups
 .
 updateUrls
@@ -638,6 +648,8 @@ let
 id
 =
 await
+lazy
+.
 SnapshotGroups
 .
 add
@@ -668,6 +680,8 @@ id
 else
 {
 await
+lazy
+.
 SnapshotGroups
 .
 delete
@@ -720,6 +734,8 @@ let
 groups
 =
 await
+lazy
+.
 SnapshotGroups
 .
 query
@@ -771,6 +787,8 @@ new
 Set
 (
 await
+lazy
+.
 SnapshotGroups
 .
 getUrls
@@ -801,6 +819,8 @@ return
 {
 title
 :
+lazy
+.
 CommonNames
 .
 getURLName

@@ -55,11 +55,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 clearTimeout
 :
@@ -140,7 +146,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 SNAPSHOT_ADDED_TIMER_DELAY
 "
@@ -160,7 +166,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 SNAPSHOT_REMOVED_TIMER_DELAY
 "
@@ -180,7 +186,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 SNAPSHOT_EXPIRE_DAYS
 "
@@ -202,7 +208,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 SNAPSHOT_USERMANAGED_EXPIRE_DAYS
 "
@@ -252,11 +258,15 @@ SnapshotMonitor
 #
 addedTimerDelay
 =
+lazy
+.
 SNAPSHOT_ADDED_TIMER_DELAY
 ;
 #
 removedTimerDelay
 =
+lazy
+.
 SNAPSHOT_REMOVED_TIMER_DELAY
 ;
 #
@@ -320,7 +330,11 @@ testGroupBuilders
 }
 return
 [
+lazy
+.
 DomainGroupBuilder
+lazy
+.
 PinnedGroupBuilder
 ]
 ;
@@ -455,9 +469,13 @@ setTimerDelaysForTests
 {
 added
 =
+lazy
+.
 SNAPSHOT_ADDED_TIMER_DELAY
 removed
 =
+lazy
+.
 SNAPSHOT_REMOVED_TIMER_DELAY
 }
 =
@@ -497,6 +515,8 @@ this
 timer
 )
 {
+lazy
+.
 clearTimeout
 (
 this
@@ -529,6 +549,8 @@ let
 snapshots
 =
 await
+lazy
+.
 Snapshots
 .
 query
@@ -740,6 +762,8 @@ urls
 =
 (
 await
+lazy
+.
 Snapshots
 .
 query
@@ -758,6 +782,8 @@ lastInteractionBefore
 :
 now
 -
+lazy
+.
 SNAPSHOT_EXPIRE_DAYS
 *
 86400000
@@ -815,6 +841,8 @@ push
 .
 (
 await
+lazy
+.
 Snapshots
 .
 query
@@ -830,6 +858,8 @@ lastInteractionBefore
 :
 now
 -
+lazy
+.
 SNAPSHOT_USERMANAGED_EXPIRE_DAYS
 *
 86400000
@@ -873,6 +903,8 @@ return
 ;
 }
 await
+lazy
+.
 Snapshots
 .
 delete
@@ -887,6 +919,8 @@ Set
 urls
 )
 ]
+lazy
+.
 Snapshots
 .
 REMOVED_REASON
@@ -940,6 +974,8 @@ this
 timer
 )
 {
+lazy
+.
 clearTimeout
 (
 this
@@ -961,6 +997,8 @@ this
 #
 timer
 =
+lazy
+.
 setTimeout
 (
 (

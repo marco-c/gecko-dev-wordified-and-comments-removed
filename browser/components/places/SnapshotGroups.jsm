@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BackgroundPageThumbs
 :
@@ -175,7 +181,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 MIN_GROUP_SIZE
 "
@@ -261,6 +267,8 @@ title
 ;
 }
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -522,6 +530,8 @@ return
 ;
 }
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -593,6 +603,8 @@ urls
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -838,6 +850,8 @@ hidden
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -944,6 +958,8 @@ id
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -1030,6 +1046,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -1084,6 +1102,8 @@ params
 .
 minGroupSize
 =
+lazy
+.
 MIN_GROUP_SIZE
 ;
 for
@@ -1094,6 +1114,8 @@ i
 name
 ]
 of
+lazy
+.
 SnapshotMonitor
 .
 skipMinimumSizeBuilders
@@ -1477,6 +1499,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -1646,6 +1670,8 @@ let
 snapshots
 =
 await
+lazy
+.
 Snapshots
 .
 query
@@ -1692,6 +1718,8 @@ start
 end
 )
 ;
+lazy
+.
 PlacesUIUtils
 .
 insertTitleStartDiffs
@@ -1897,6 +1925,8 @@ imageUrls
 ;
 if
 (
+lazy
+.
 PlacesPreviews
 .
 enabled
@@ -1904,6 +1934,8 @@ enabled
 {
 imageUrl
 =
+lazy
+.
 PlacesPreviews
 .
 getPageThumbURL
@@ -1916,6 +1948,8 @@ else
 {
 imageUrl
 =
+lazy
+.
 PageThumbs
 .
 getThumbnailURL
@@ -1970,6 +2004,8 @@ resolve
 =
 >
 {
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -2208,12 +2244,16 @@ url
 ;
 if
 (
+lazy
+.
 PlacesPreviews
 .
 enabled
 )
 {
 await
+lazy
+.
 PlacesPreviews
 .
 update
@@ -2225,6 +2265,8 @@ url
 else
 {
 await
+lazy
+.
 BackgroundPageThumbs
 .
 captureIfMissing
