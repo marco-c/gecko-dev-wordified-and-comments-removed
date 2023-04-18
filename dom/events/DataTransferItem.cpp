@@ -811,7 +811,7 @@ rv
 clipboard
 -
 >
-GetSomeData
+GetData
 (
 trans
 mDataTransfer

@@ -2310,7 +2310,7 @@ NS_IMETHODIMP
 nsClipboard
 :
 :
-GetSomeData
+GetData
 (
 nsITransferable
 *
@@ -2325,7 +2325,7 @@ LOGCLIP
 nsClipboard
 :
 :
-GetSomeData
+GetData
 (
 %
 s

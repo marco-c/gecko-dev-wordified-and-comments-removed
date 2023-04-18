@@ -17074,7 +17074,7 @@ get
 clipboard
 -
 >
-GetSomeData
+GetData
 (
 trans
 aWhichClipboard
