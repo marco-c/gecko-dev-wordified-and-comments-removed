@@ -1845,7 +1845,7 @@ experiment
 *
 /
 const
-int32_t
+uint32_t
 E10S_MULTI_EXPERIMENT
 =
 1
