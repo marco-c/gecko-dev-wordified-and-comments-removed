@@ -227,6 +227,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 uint64_t

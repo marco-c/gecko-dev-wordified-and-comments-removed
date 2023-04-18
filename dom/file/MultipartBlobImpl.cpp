@@ -578,6 +578,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 nsTArray
 <

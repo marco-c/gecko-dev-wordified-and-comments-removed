@@ -622,6 +622,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 RefPtr
 <

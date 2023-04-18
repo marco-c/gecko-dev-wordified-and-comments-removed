@@ -90,6 +90,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 size_t
