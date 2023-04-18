@@ -381,7 +381,11 @@ self
 page_rule
 :
 :
+{
 PageRule
+PageSelector
+PageSelectors
+}
 ;
 pub
 use
