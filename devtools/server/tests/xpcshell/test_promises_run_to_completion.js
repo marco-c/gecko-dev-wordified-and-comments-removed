@@ -21,7 +21,7 @@ test_promises_run_to_completion
 const
 g
 =
-testGlobal
+createTestGlobal
 (
 "
 test

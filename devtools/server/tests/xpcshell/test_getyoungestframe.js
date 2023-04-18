@@ -95,7 +95,7 @@ nsIJSInspector
 const
 g
 =
-testGlobal
+createTestGlobal
 (
 "
 test1

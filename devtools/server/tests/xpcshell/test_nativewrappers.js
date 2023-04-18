@@ -72,7 +72,7 @@ this
 const
 g
 =
-testGlobal
+createTestGlobal
 (
 "
 test1
@@ -159,7 +159,7 @@ debugger
 const
 g2
 =
-testGlobal
+createTestGlobal
 (
 "
 test2
