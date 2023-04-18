@@ -3749,6 +3749,16 @@ createActor
 :
 false
 }
+load
+:
+{
+mozSystemGroup
+:
+true
+capture
+:
+true
+}
 }
 }
 }
