@@ -378,16 +378,6 @@ mState
 =
 newState
 ;
-if
-(
-aVisited
-)
-{
-mRegistered
-=
-false
-;
-}
 MOZ_ASSERT
 (
 LinkState
