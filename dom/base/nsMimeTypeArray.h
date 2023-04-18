@@ -113,12 +113,6 @@ aGivenProto
 )
 override
 ;
-void
-Refresh
-(
-)
-{
-}
 nsMimeType
 *
 Item
