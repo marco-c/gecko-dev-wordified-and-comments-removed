@@ -1337,6 +1337,10 @@ if
 mSaveComplete
 &
 &
+!
+mSaveThread
+&
+&
 mChildCache
 )
 {
