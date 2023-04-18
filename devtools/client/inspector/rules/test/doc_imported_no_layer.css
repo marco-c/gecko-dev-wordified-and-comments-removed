@@ -6,7 +6,7 @@ hint
 =
 imported
 -
-anonymous
+no
 -
 layer
 -
@@ -20,12 +20,6 @@ layer
 {
 color
 :
-cyan
-;
-outline
-:
-10px
-solid
-cyan
+gold
 ;
 }
