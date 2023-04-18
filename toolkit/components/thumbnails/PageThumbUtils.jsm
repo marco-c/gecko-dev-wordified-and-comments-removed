@@ -31,11 +31,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserUtils
 "
@@ -1281,6 +1287,8 @@ aDocShell
 {
 if
 (
+lazy
+.
 BrowserUtils
 .
 isFindbarVisible
