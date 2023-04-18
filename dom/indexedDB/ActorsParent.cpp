@@ -69922,7 +69922,7 @@ Id
 (
 )
 ;
-QM_TRY
+QM_WARNONLY_TRY
 (
 MOZ_TO_RESULT
 (
@@ -69930,7 +69930,6 @@ DirectoryOpen
 (
 )
 )
-QM_VOID
 [
 this
 ]
