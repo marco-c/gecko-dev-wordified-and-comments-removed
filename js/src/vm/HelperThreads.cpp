@@ -9544,7 +9544,6 @@ std
 :
 move
 (
-*
 parseTask
 -
 >
