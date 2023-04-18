@@ -610,6 +610,11 @@ breakpoint
 =
 {
 id
+thread
+:
+generatedSource
+.
+thread
 disabled
 options
 location

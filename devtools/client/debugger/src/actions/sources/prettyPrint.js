@@ -390,6 +390,9 @@ createPrettyPrintOriginalSource
 (
 id
 url
+source
+.
+thread
 )
 ;
 dispatch
