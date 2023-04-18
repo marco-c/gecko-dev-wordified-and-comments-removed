@@ -2754,11 +2754,12 @@ test_fixture
 :
 :
 {
-configure_server
 default_client
 default_server
 handshake
+new_server
 now
+DEFAULT_ALPN
 }
 ;
 struct
@@ -3144,8 +3145,9 @@ default_server
 max
 |
 {
-configure_server
+new_server
 (
+DEFAULT_ALPN
 ConnectionParameters
 :
 :

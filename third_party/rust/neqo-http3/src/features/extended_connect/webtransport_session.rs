@@ -1976,8 +1976,11 @@ control_stream_send
 send_data_atomic
 (
 conn
-&
 encoder
+.
+as_ref
+(
+)
 )
 ?
 ;

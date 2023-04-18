@@ -19,7 +19,6 @@ CERTCertListNode
 CERT_GetCertificateDer
 CertList
 Item
-PRCList
 SECItem
 SECItemArray
 }
@@ -60,7 +59,10 @@ std
 ptr
 :
 :
+{
+addr_of
 NonNull
+}
 ;
 use
 std
@@ -598,8 +600,9 @@ CERTCertListNode
 {
 unsafe
 {
+addr_of
+!
 (
-&
 (
 *
 *
@@ -608,10 +611,6 @@ certs
 )
 .
 list
-as
-*
-const
-PRCList
 )
 .
 cast

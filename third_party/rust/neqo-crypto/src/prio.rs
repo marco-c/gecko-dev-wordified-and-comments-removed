@@ -38,6 +38,11 @@ clippy
 :
 :
 too_many_lines
+unknown_lints
+clippy
+:
+:
+borrow_as_ptr
 )
 ]
 include

@@ -109,6 +109,9 @@ Connection
 pkt
 :
 Datagram
+response
+:
+bool
 dropped
 :
 usize
@@ -157,7 +160,7 @@ now
 )
 )
 ;
-assert
+assert_eq
 !
 (
 out
@@ -166,9 +169,10 @@ as_dgram_ref
 (
 )
 .
-is_none
+is_some
 (
 )
+response
 )
 ;
 let
@@ -462,6 +466,7 @@ init_pkt_s
 unwrap
 (
 )
+true
 2
 1
 )
@@ -491,6 +496,7 @@ clone
 unwrap
 (
 )
+false
 1
 1
 )
@@ -579,6 +585,7 @@ init_pkt_c
 unwrap
 (
 )
+false
 1
 0
 )
@@ -1370,6 +1377,7 @@ check_discarded
 mut
 client
 dgram
+false
 1
 0
 )
