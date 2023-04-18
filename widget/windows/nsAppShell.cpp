@@ -2586,6 +2586,11 @@ lpszClassName
 =
 kWindowClass
 ;
+[
+[
+maybe_unused
+]
+]
 ATOM
 wcA
 =
