@@ -3142,6 +3142,9 @@ aBounds
 height
 }
 ;
+bool
+success
+=
 mWebgl
 -
 >
@@ -3173,7 +3176,7 @@ mFramebuffer
 ;
 }
 return
-true
+success
 ;
 }
 already_AddRefed

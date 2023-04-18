@@ -4677,7 +4677,12 @@ BackBufferSnapshot
 (
 )
 ;
-void
+[
+[
+nodiscard
+]
+]
+bool
 DoReadPixels
 (
 const
