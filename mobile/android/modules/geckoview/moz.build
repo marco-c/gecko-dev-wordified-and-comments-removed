@@ -68,11 +68,6 @@ GeckoViewContentBlocking
 jsm
 "
 "
-GeckoViewMedia
-.
-jsm
-"
-"
 GeckoViewMediaControl
 .
 jsm
