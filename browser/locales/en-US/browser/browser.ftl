@@ -5013,7 +5013,7 @@ It
 #
 should
 use
-title
+sentence
 case
 .
 #
@@ -5047,7 +5047,7 @@ label
 {
 engine
 }
-Suggestions
+suggestions
 #
 #
 Full

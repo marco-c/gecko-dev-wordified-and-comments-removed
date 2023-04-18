@@ -113,7 +113,7 @@ ENGINE_SUGGESTIONS_LABEL
 "
 %
 s
-Suggestions
+suggestions
 "
 ;
 if
