@@ -4699,7 +4699,7 @@ let
 yearChars
 =
 "
-ya
+yaj
 "
 ;
 let
