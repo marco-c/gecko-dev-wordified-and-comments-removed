@@ -46,13 +46,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -146,13 +139,6 @@ nsPrintObject
 mSelectionRoot
 =
 nullptr
-;
-nsTArray
-<
-nsPrintObject
-*
->
-mPrintDocList
 ;
 bool
 mOnStartSent

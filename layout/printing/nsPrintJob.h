@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h
@@ -741,6 +748,13 @@ RefPtr
 RemotePrintJobChild
 >
 mRemotePrintJob
+;
+nsTArray
+<
+nsPrintObject
+*
+>
+mPrintDocList
 ;
 PrintPreviewResolver
 mPrintPreviewCallback
