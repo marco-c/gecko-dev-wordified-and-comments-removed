@@ -134,6 +134,8 @@ certificates
 \
 curl
 \
+ed
+\
 golang
 -
 go
