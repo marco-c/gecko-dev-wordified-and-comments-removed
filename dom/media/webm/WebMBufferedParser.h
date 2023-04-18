@@ -316,9 +316,6 @@ WebMTimeDataOffset
 >
 &
 aMapping
-ReentrantMonitor
-&
-aReentrantMonitor
 )
 ;
 bool
