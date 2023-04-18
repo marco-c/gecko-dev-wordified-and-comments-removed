@@ -116,8 +116,15 @@ child
 async
 PreloadResponse
 (
-ParentToChildResponseWithTiming
+ParentToChildInternalResponse
 aResponse
+)
+;
+async
+PreloadResponseEnd
+(
+ResponseEndArgs
+aArgs
 )
 ;
 }
