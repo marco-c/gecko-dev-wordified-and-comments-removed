@@ -444,7 +444,7 @@ SandboxingKind
 :
 GENERIC_UTILITY
 :
-RunTestsGenericUtility
+RunTestsUtility
 (
 this
 )

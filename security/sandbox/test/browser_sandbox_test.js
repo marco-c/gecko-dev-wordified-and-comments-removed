@@ -54,8 +54,6 @@ gmplugin
 "
 "
 utility
-:
-0
 "
 "
 gpu

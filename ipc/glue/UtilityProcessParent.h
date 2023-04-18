@@ -111,6 +111,13 @@ UtilityProcessHost
 aHost
 )
 ;
+static
+UtilityProcessParent
+*
+GetSingleton
+(
+)
+;
 mozilla
 :
 :

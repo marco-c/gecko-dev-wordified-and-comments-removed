@@ -105,13 +105,12 @@ threads
 0
 ]
 .
-processName
+processType
 =
 =
 =
 "
-Utility
-Process
+utility
 "
 )
 .
