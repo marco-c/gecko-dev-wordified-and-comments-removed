@@ -775,9 +775,10 @@ message
 ;
 if
 (
-JSID_IS_VOID
-(
 id
+.
+isVoid
+(
 )
 )
 {

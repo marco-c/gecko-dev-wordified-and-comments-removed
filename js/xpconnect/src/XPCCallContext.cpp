@@ -359,9 +359,10 @@ GetScriptable
 if
 (
 !
-JSID_IS_VOID
-(
 name
+.
+isVoid
+(
 )
 )
 {
