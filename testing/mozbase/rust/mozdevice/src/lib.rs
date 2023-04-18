@@ -23,6 +23,8 @@ log
 :
 {
 debug
+info
+trace
 warn
 }
 ;
@@ -1474,7 +1476,7 @@ len
 )
 ;
 }
-debug
+trace
 !
 (
 "
@@ -2576,7 +2578,7 @@ device
 .
 is_rooted
 {
-debug
+info
 !
 (
 "
@@ -2600,7 +2602,7 @@ permissive
 }
 else
 {
-debug
+info
 !
 (
 "
@@ -2889,7 +2891,7 @@ self
 serial
 )
 ;
-debug
+trace
 !
 (
 "
@@ -2936,7 +2938,7 @@ false
 )
 ?
 ;
-debug
+trace
 !
 (
 "
@@ -2952,7 +2954,7 @@ execute_host_command
 _bytes
 )
 ;
-debug
+trace
 !
 (
 "
@@ -3014,7 +3016,7 @@ bytes
 )
 ?
 ;
-debug
+trace
 !
 (
 "
@@ -4930,7 +4932,7 @@ is_err
 (
 )
 {
-debug
+warn
 !
 (
 "
@@ -4989,7 +4991,7 @@ is_err
 (
 )
 {
-debug
+warn
 !
 (
 "
@@ -5128,7 +5130,7 @@ is_err
 (
 )
 {
-debug
+warn
 !
 (
 "
