@@ -582,6 +582,13 @@ radius
 0px
 ;
 }
+body
+:
+not
+(
+:
+fullscreen
+)
 #
 controls
 :
