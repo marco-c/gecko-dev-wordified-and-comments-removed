@@ -351,13 +351,6 @@ nsISupports
 .
 h
 "
-#
-include
-<
-unistd
-.
-h
->
 inline
 void
 ImplCycleCollectionTraverse
