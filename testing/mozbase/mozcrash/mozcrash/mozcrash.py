@@ -2062,6 +2062,11 @@ command
 self
 .
 stackwalk_binary
+"
+-
+-
+human
+"
 path
 self
 .
@@ -2083,6 +2088,12 @@ command
 append
 (
 "
+-
+-
+symbols
+-
+url
+=
 https
 :
 /
