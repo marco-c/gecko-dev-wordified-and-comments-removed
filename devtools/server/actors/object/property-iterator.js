@@ -845,7 +845,6 @@ objectActor
 _findSafeGetterValues
 (
 names
-0
 )
 ;
 const
