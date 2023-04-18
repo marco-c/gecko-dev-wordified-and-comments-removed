@@ -19,9 +19,7 @@ h
 #
 include
 "
-gc
-/
-Rooting
+NamespaceImports
 .
 h
 "
@@ -31,6 +29,15 @@ include
 jit
 /
 CacheIR
+.
+h
+"
+#
+include
+"
+js
+/
+TypeDecls
 .
 h
 "

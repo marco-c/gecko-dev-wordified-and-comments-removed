@@ -75,15 +75,6 @@ h
 #
 include
 "
-gc
-/
-Rooting
-.
-h
-"
-#
-include
-"
 vm
 /
 FrameIter

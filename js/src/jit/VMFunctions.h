@@ -55,7 +55,7 @@ include
 "
 gc
 /
-Rooting
+AllocKind
 .
 h
 "
@@ -109,6 +109,9 @@ MapObject
 ;
 class
 NativeObject
+;
+class
+PlainObject
 ;
 class
 PropertyName

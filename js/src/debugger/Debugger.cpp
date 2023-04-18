@@ -339,15 +339,6 @@ include
 "
 gc
 /
-Rooting
-.
-h
-"
-#
-include
-"
-gc
-/
 Statistics
 .
 h

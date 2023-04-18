@@ -25,9 +25,7 @@ h
 #
 include
 "
-gc
-/
-MaybeRooted
+NamespaceImports
 .
 h
 "
@@ -36,7 +34,7 @@ include
 "
 gc
 /
-Rooting
+MaybeRooted
 .
 h
 "
