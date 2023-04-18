@@ -48,10 +48,10 @@ BodyTraverseFiles
 const
 Maybe
 <
-ClientMetadata
+CacheDirectoryMetadata
 >
 &
-aClientMetadata
+aDirectoryMetadata
 nsIFile
 &
 aBodyDir
@@ -70,7 +70,7 @@ aTrackQuota
 MOZ_DIAGNOSTIC_ASSERT_IF
 (
 aTrackQuota
-aClientMetadata
+aDirectoryMetadata
 )
 ;
 #
@@ -163,7 +163,7 @@ aBodyDir
 &
 isEmpty
 &
-aClientMetadata
+aDirectoryMetadata
 aTrackQuota
 &
 aHandleFileFunc
@@ -225,7 +225,7 @@ result
 =
 RemoveNsIFileRecursively
 (
-aClientMetadata
+aDirectoryMetadata
 *
 file
 false
@@ -295,7 +295,7 @@ result
 =
 RemoveNsIFile
 (
-aClientMetadata
+aDirectoryMetadata
 *
 file
 aTrackQuota
@@ -351,7 +351,7 @@ result
 =
 RemoveNsIFile
 (
-aClientMetadata
+aDirectoryMetadata
 *
 file
 false
@@ -443,7 +443,7 @@ result
 =
 RemoveNsIFileRecursively
 (
-aClientMetadata
+aDirectoryMetadata
 aBodyDir
 false
 )

@@ -81,9 +81,9 @@ nsresult
 WipePaddingFile
 (
 const
-ClientMetadata
+CacheDirectoryMetadata
 &
-aClientMetadata
+aDirectoryMetadata
 nsIFile
 *
 aBaseDir

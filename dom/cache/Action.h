@@ -172,10 +172,10 @@ aResolver
 const
 Maybe
 <
-ClientMetadata
+CacheDirectoryMetadata
 >
 &
-aClientMetadata
+aDirectoryMetadata
 Data
 *
 aOptionalData

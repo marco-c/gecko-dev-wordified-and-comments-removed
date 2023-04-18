@@ -95,7 +95,7 @@ INVALID_CACHE_ID
 1
 ;
 struct
-ClientMetadata
+CacheDirectoryMetadata
 :
 quota
 :
@@ -115,7 +115,7 @@ mDirectoryLockId
 1
 ;
 explicit
-ClientMetadata
+CacheDirectoryMetadata
 (
 quota
 :
@@ -160,7 +160,7 @@ DOMCACHE
 {
 }
 explicit
-ClientMetadata
+CacheDirectoryMetadata
 (
 quota
 :

@@ -230,9 +230,9 @@ nsresult
 WipeDatabase
 (
 const
-ClientMetadata
+CacheDirectoryMetadata
 &
-aClientMetadata
+aDirectoryMetadata
 nsIFile
 &
 aDBFile
@@ -261,7 +261,7 @@ MOZ_TO_RESULT
 (
 RemoveNsIFile
 (
-aClientMetadata
+aDirectoryMetadata
 aDBFile
 )
 )
@@ -273,7 +273,7 @@ MOZ_TO_RESULT
 (
 BodyDeleteDir
 (
-aClientMetadata
+aDirectoryMetadata
 *
 dbDir
 )
@@ -286,7 +286,7 @@ MOZ_TO_RESULT
 (
 WipePaddingFile
 (
-aClientMetadata
+aDirectoryMetadata
 dbDir
 )
 )
@@ -336,10 +336,10 @@ aResolver
 const
 Maybe
 <
-ClientMetadata
+CacheDirectoryMetadata
 >
 &
-aClientMetadata
+aDirectoryMetadata
 Data
 *
 aOptionalData
@@ -360,12 +360,12 @@ aResolver
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-aClientMetadata
+aDirectoryMetadata
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-aClientMetadata
+aDirectoryMetadata
 -
 >
 mDir
@@ -423,7 +423,7 @@ CloneFileAndAppend
 (
 *
 (
-aClientMetadata
+aDirectoryMetadata
 -
 >
 mDir
@@ -471,7 +471,7 @@ conn
 OpenConnection
 (
 *
-aClientMetadata
+aDirectoryMetadata
 *
 dbDir
 )
@@ -521,7 +521,7 @@ move
 aResolver
 )
 *
-aClientMetadata
+aDirectoryMetadata
 dbDir
 conn
 )
@@ -541,9 +541,9 @@ DBAction
 OpenConnection
 (
 const
-ClientMetadata
+CacheDirectoryMetadata
 &
-aClientMetadata
+aDirectoryMetadata
 nsIFile
 &
 aDBDir
@@ -559,7 +559,7 @@ NS_IsMainThread
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-aClientMetadata
+aDirectoryMetadata
 .
 mDirectoryLockId
 >
@@ -636,7 +636,7 @@ QM_TRY_RETURN
 (
 OpenDBConnection
 (
-aClientMetadata
+aDirectoryMetadata
 *
 dbFile
 )
@@ -680,9 +680,9 @@ Resolver
 >
 aResolver
 const
-ClientMetadata
+CacheDirectoryMetadata
 &
-aClientMetadata
+aDirectoryMetadata
 nsIFile
 *
 aDBDir
@@ -719,7 +719,7 @@ rv
 =
 RunSyncWithDBOnTarget
 (
-aClientMetadata
+aDirectoryMetadata
 aDBDir
 aConn
 )
@@ -744,9 +744,9 @@ nsresult
 OpenDBConnection
 (
 const
-ClientMetadata
+CacheDirectoryMetadata
 &
-aClientMetadata
+aDirectoryMetadata
 nsIFile
 &
 aDBFile
@@ -762,7 +762,7 @@ NS_IsMainThread
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-aClientMetadata
+aDirectoryMetadata
 .
 mDirectoryLockId
 >
@@ -817,7 +817,7 @@ const
 nsCString
 directoryLockIdClause
 =
-aClientMetadata
+aDirectoryMetadata
 .
 mDirectoryLockId
 >
@@ -833,7 +833,7 @@ _ns
 +
 IntToCString
 (
-aClientMetadata
+aDirectoryMetadata
 .
 mDirectoryLockId
 )
@@ -923,7 +923,7 @@ IsDatabaseCorruptionError
 (
 [
 &
-aClientMetadata
+aDirectoryMetadata
 &
 aDBFile
 &
@@ -967,7 +967,7 @@ MOZ_TO_RESULT
 (
 WipeDatabase
 (
-aClientMetadata
+aDirectoryMetadata
 aDBFile
 )
 )
@@ -1033,7 +1033,7 @@ MOZ_TO_RESULT
 (
 WipeDatabase
 (
-aClientMetadata
+aDirectoryMetadata
 aDBFile
 )
 )
