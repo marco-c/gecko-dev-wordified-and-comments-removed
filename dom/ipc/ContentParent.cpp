@@ -19580,7 +19580,7 @@ aPref
 {
 #
 define
-PARENT_ONLY_PREF_LIST_ENTRY
+PREF_LIST_ENTRY
 (
 s
 )
@@ -19602,7 +19602,7 @@ char
 1
 }
 struct
-ParentOnlyPrefListEntry
+PrefListEntry
 {
 const
 char
@@ -19616,13 +19616,13 @@ mLen
 ;
 static
 const
-ParentOnlyPrefListEntry
+PrefListEntry
 sParentOnlyPrefBranchList
 [
 ]
 =
 {
-PARENT_ONLY_PREF_LIST_ENTRY
+PREF_LIST_ENTRY
 (
 "
 app
@@ -19633,7 +19633,7 @@ lastUpdateTime
 .
 "
 )
-PARENT_ONLY_PREF_LIST_ENTRY
+PREF_LIST_ENTRY
 (
 "
 datareporting
@@ -19642,7 +19642,7 @@ policy
 .
 "
 )
-PARENT_ONLY_PREF_LIST_ENTRY
+PREF_LIST_ENTRY
 (
 "
 browser
@@ -19653,7 +19653,7 @@ provider
 .
 "
 )
-PARENT_ONLY_PREF_LIST_ENTRY
+PREF_LIST_ENTRY
 (
 "
 browser
@@ -19662,7 +19662,7 @@ shell
 .
 "
 )
-PARENT_ONLY_PREF_LIST_ENTRY
+PREF_LIST_ENTRY
 (
 "
 browser
@@ -19671,7 +19671,7 @@ slowStartup
 .
 "
 )
-PARENT_ONLY_PREF_LIST_ENTRY
+PREF_LIST_ENTRY
 (
 "
 browser
@@ -19680,7 +19680,7 @@ startup
 .
 "
 )
-PARENT_ONLY_PREF_LIST_ENTRY
+PREF_LIST_ENTRY
 (
 "
 extensions
@@ -19691,7 +19691,7 @@ cache
 .
 "
 )
-PARENT_ONLY_PREF_LIST_ENTRY
+PREF_LIST_ENTRY
 (
 "
 media
@@ -19702,7 +19702,7 @@ manager
 .
 "
 )
-PARENT_ONLY_PREF_LIST_ENTRY
+PREF_LIST_ENTRY
 (
 "
 media
@@ -19713,7 +19713,7 @@ gmpopenh264
 .
 "
 )
-PARENT_ONLY_PREF_LIST_ENTRY
+PREF_LIST_ENTRY
 (
 "
 privacy
@@ -19726,7 +19726,7 @@ sanitize
 ;
 #
 undef
-PARENT_ONLY_PREF_LIST_ENTRY
+PREF_LIST_ENTRY
 for
 (
 const
