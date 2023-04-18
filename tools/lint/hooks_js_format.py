@@ -49,13 +49,19 @@ EXTRA_PATHS
 "
 python
 /
-mozversioncontrol
+mach
 "
     
 "
 python
 /
 mozbuild
+"
+    
+"
+python
+/
+mozversioncontrol
 "
     
 "
@@ -166,10 +172,6 @@ changedFiles
         
 if
 filename
-.
-decode
-(
-)
 .
 endswith
 (
@@ -380,6 +382,10 @@ only
 HEAD
 "
 ]
+            
+text
+=
+True
         
 )
 .
