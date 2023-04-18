@@ -114,7 +114,7 @@ version
 .
 2
 .
-7
+6
 "
 authors
 =
@@ -163,13 +163,6 @@ docs
 rs
 /
 getrandom
-"
-readme
-=
-"
-README
-.
-md
 "
 categories
 =
@@ -533,7 +526,7 @@ version
 "
 0
 .
-11
+10
 "
 [
 target
