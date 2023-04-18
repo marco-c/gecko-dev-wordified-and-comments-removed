@@ -58,9 +58,9 @@ mIPCOpen
 (
 true
 )
-mVRDisplayID
+mDestroyed
 (
-aVRDisplayID
+false
 )
 mGroup
 (
@@ -76,6 +76,10 @@ VRLayerParent
 (
 )
 {
+Destroy
+(
+)
+;
 MOZ_COUNT_DTOR
 (
 VRLayerParent
@@ -131,7 +135,8 @@ Destroy
 {
 if
 (
-mVRDisplayID
+!
+mDestroyed
 )
 {
 VRManager
@@ -153,9 +158,9 @@ RemoveLayer
 this
 )
 ;
-mVRDisplayID
+mDestroyed
 =
-0
+true
 ;
 }
 if
@@ -217,7 +222,8 @@ aRightEyeRect
 {
 if
 (
-mVRDisplayID
+!
+mDestroyed
 )
 {
 VRManager

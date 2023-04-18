@@ -110,16 +110,6 @@ RecvDestroy
 override
 ;
 uint32_t
-GetDisplayID
-(
-)
-const
-{
-return
-mVRDisplayID
-;
-}
-uint32_t
 GetGroup
 (
 )
@@ -154,8 +144,8 @@ Destroy
 bool
 mIPCOpen
 ;
-uint32_t
-mVRDisplayID
+bool
+mDestroyed
 ;
 gfx
 :
