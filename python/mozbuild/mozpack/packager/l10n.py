@@ -1564,6 +1564,7 @@ log
 def
 repack
 (
+    
 source
 l10n
 extra_l10n
@@ -1579,6 +1580,9 @@ non_chrome
 set
 (
 )
+minify
+=
+False
 )
 :
     
@@ -1763,6 +1767,15 @@ chrome
 manifest
 .
     
+If
+minify
+.
+properties
+files
+are
+minified
+.
+    
 "
 "
 "
@@ -1772,6 +1785,9 @@ app_finder
 UnpackFinder
 (
 source
+minify
+=
+minify
 )
     
 l10n_finder
@@ -1779,6 +1795,9 @@ l10n_finder
 UnpackFinder
 (
 l10n
+minify
+=
+minify
 )
     
 if
@@ -1816,6 +1835,9 @@ base
 UnpackFinder
 (
 path
+minify
+=
+minify
 )
         
 l10n_finder

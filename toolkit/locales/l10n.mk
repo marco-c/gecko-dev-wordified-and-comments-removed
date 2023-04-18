@@ -911,6 +911,16 @@ MOZ_PKG_EXTRAL10N
 (
 if
 (
+MOZ_PACKAGER_MINIFY
+)
+-
+-
+minify
+)
+\
+(
+if
+(
 filter
 omni
 (
