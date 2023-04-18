@@ -648,13 +648,16 @@ if
 child
 .
 name
-=
-=
+.
+endswith
+(
 "
-PKG
+.
+egg
 -
-INFO
+info
 "
+)
 :
                     
 raise
@@ -678,9 +681,10 @@ path
 has
 a
 "
-PKG
+.
+egg
 -
-INFO
+info
 "
 file
 .
