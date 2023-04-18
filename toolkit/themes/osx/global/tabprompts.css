@@ -491,10 +491,10 @@ buttonContainer
 button
 :
 focus
-{
-box
 -
-shadow
+visible
+{
+outline
 :
 var
 (
@@ -502,10 +502,7 @@ var
 -
 focus
 -
-ring
--
-box
--
-shadow
+outline
 )
+;
 }
