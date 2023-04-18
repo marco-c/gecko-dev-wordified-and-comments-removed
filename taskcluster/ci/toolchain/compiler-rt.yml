@@ -700,10 +700,6 @@ cctools
 -
 port
 -
-clang
--
-13
--
 linux64
 -
 clang
@@ -807,10 +803,6 @@ linux64
 cctools
 -
 port
--
-clang
--
-13
 -
 linux64
 -

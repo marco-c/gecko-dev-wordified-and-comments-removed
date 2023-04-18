@@ -214,10 +214,6 @@ cctools
 -
 port
 -
-clang
--
-13
--
 macosx64
 -
 sdk
@@ -270,10 +266,6 @@ linux64
 cctools
 -
 port
--
-clang
--
-13
 -
 macosx64
 -

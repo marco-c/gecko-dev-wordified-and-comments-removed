@@ -1559,10 +1559,6 @@ cctools
 -
 port
 -
-clang
--
-13
--
 linux64
 -
 clang
@@ -1933,10 +1929,6 @@ cctools
 -
 port
 -
-clang
--
-13
--
 linux64
 -
 clang
@@ -2120,10 +2112,6 @@ linux64
 cctools
 -
 port
--
-clang
--
-13
 -
 macosx64
 -
@@ -2328,10 +2316,6 @@ cctools
 -
 port
 -
-clang
--
-13
--
 linux64
 -
 clang
@@ -2514,10 +2498,6 @@ linux64
 cctools
 -
 port
--
-clang
--
-13
 -
 macosx64
 -

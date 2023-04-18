@@ -152,12 +152,6 @@ cbindgen
 .
 yml
 -
-cctools
--
-port
-.
-yml
--
 clang
 -
 tidy
