@@ -48011,7 +48011,7 @@ InstanceReg
 ;
 masm
 .
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 )
 ;
@@ -48022,7 +48022,7 @@ switchRealm
 {
 masm
 .
-switchToWasmTlsRealm
+switchToWasmInstanceRealm
 (
 ABINonArgReturnReg0
 ABINonArgReturnReg1

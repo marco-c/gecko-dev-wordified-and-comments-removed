@@ -9968,7 +9968,7 @@ void
 MacroAssembler
 :
 :
-switchToWasmTlsRealm
+switchToWasmInstanceRealm
 (
 Register
 scratch1
@@ -20391,7 +20391,7 @@ WasmCalleeInstanceOffsetBeforeCall
 )
 )
 ;
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 )
 ;
@@ -21290,7 +21290,7 @@ WasmCalleeInstanceOffsetBeforeCall
 #
 ifdef
 WASM_HAS_HEAPREG
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 mozilla
 :
@@ -21336,13 +21336,13 @@ bind
 nonNull
 )
 ;
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 )
 ;
 #
 endif
-switchToWasmTlsRealm
+switchToWasmInstanceRealm
 (
 index
 WasmTableCallScratchReg1
@@ -21386,11 +21386,11 @@ WasmCallerInstanceOffsetBeforeCall
 InstanceReg
 )
 ;
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 )
 ;
-switchToWasmTlsRealm
+switchToWasmInstanceRealm
 (
 ABINonArgReturnReg0
 ABINonArgReturnReg1
@@ -22547,7 +22547,7 @@ void
 MacroAssembler
 :
 :
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 mozilla
 :

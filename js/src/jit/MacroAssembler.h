@@ -15181,7 +15181,7 @@ tryNoteIndex
 #
 endif
 void
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 mozilla
 :
@@ -19256,7 +19256,7 @@ scratch
 )
 ;
 void
-switchToWasmTlsRealm
+switchToWasmInstanceRealm
 (
 Register
 scratch1
