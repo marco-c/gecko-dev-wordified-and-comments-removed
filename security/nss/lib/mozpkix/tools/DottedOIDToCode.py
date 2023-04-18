@@ -129,8 +129,10 @@ value
 ]
     
 value
-/
 =
+value
+/
+/
 0x80
     
 while
@@ -155,8 +157,10 @@ value
 result
         
 value
-/
 =
+value
+/
+/
 0x80
     
 return
