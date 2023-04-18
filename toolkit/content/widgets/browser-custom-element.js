@@ -5203,7 +5203,15 @@ screenManager
 screenForRect
 (
 screenX
+*
+window
+.
+devicePixelRatio
 screenY
+*
+window
+.
+devicePixelRatio
 1
 1
 )
