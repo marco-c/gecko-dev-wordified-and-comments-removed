@@ -1185,6 +1185,13 @@ unregisterProvider
 provider
 )
 ;
+await
+PlacesTestUtils
+.
+clearInputHistory
+(
+)
+;
 }
 )
 ;
