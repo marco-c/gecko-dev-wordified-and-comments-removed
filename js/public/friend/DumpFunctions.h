@@ -70,7 +70,7 @@ class
 JS_PUBLIC_API
 BigInt
 ;
-struct
+class
 JS_PUBLIC_API
 PropertyKey
 ;

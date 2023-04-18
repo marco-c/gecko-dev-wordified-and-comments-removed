@@ -123,7 +123,9 @@ HashGeneric
 (
 key
 .
-asBits
+asRawBits
+(
+)
 )
 ;
 }

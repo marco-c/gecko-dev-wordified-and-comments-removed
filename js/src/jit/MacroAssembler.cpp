@@ -15545,7 +15545,9 @@ ImmWord
 (
 key
 .
-asBits
+asRawBits
+(
+)
 )
 )
 ;
@@ -15698,7 +15700,9 @@ ImmWord
 (
 key
 .
-asBits
+asRawBits
+(
+)
 )
 dest
 )
