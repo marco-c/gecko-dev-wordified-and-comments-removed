@@ -37,11 +37,10 @@ C3
 B7
 "
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

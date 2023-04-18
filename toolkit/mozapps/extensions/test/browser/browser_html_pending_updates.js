@@ -53,11 +53,10 @@ test
 let
 gProvider
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

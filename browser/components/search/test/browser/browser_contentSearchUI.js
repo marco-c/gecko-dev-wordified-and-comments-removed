@@ -1152,11 +1152,10 @@ extension2
 let
 currentEngineName
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

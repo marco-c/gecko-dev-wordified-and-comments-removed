@@ -27,11 +27,10 @@ BOOKMARKS_COUNT
 =
 250
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

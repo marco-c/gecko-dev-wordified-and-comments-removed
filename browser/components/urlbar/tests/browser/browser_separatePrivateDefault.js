@@ -22,11 +22,10 @@ port
 20709
 }
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

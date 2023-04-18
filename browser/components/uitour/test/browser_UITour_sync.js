@@ -74,11 +74,10 @@ add_task
 setup_UITourTest
 )
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

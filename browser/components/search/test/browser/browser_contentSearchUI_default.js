@@ -31,11 +31,10 @@ defaultEngine
 let
 addedEngine
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

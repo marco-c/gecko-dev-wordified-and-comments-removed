@@ -59,11 +59,10 @@ _blank
 script
 >
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

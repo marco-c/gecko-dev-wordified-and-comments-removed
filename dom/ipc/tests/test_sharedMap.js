@@ -768,11 +768,10 @@ return
 page
 ;
 }
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

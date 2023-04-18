@@ -28,11 +28,10 @@ TRACKING_PREF
 }
 )
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {
