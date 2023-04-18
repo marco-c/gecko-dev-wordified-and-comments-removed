@@ -1361,10 +1361,6 @@ this
 )
 )
 ;
-EnsureModuleHooksInitialized
-(
-)
-;
 mSpeculativeOMTParsingEnabled
 =
 StaticPrefs
@@ -6811,6 +6807,13 @@ mLoader
 aLoader
 )
 {
+aLoader
+-
+>
+EnsureModuleHooksInitialized
+(
+)
+;
 }
 ModuleLoader
 :
