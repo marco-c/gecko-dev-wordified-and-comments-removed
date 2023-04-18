@@ -893,9 +893,7 @@ aSegment
 >
 AppendNullData
 (
-aTo
--
-aFrom
+ticks
 )
 ;
 }
