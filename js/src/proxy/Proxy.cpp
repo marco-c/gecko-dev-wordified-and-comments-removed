@@ -5344,10 +5344,7 @@ nullptr
 nullptr
 proxy_Finalize
 nullptr
-Proxy
-:
-:
-hasInstance
+nullptr
 nullptr
 ProxyObject
 :
