@@ -425,6 +425,12 @@ TimeStamp
 )
 0
 aUniqueStacks
+mozilla
+:
+:
+ProgressLogger
+{
+}
 )
 ;
 }
@@ -476,6 +482,12 @@ TimeStamp
 )
 0
 aUniqueStacks
+mozilla
+:
+:
+ProgressLogger
+{
+}
 )
 ;
 }

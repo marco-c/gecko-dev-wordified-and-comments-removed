@@ -707,6 +707,11 @@ const
 JITFrameInfo
 &
 aOther
+mozilla
+:
+:
+ProgressLogger
+aProgressLogger
 )
 ;
 void

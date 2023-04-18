@@ -36,6 +36,15 @@ include
 "
 mozilla
 /
+ProgressLogger
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -2034,6 +2043,8 @@ const
 UniqueJSONStrings
 &
 aOther
+ProgressLogger
+aProgressLogger
 JSONWriter
 :
 :

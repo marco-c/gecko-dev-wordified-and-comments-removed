@@ -34387,6 +34387,12 @@ ujs
 mozilla
 :
 :
+ProgressLogger
+{
+}
+mozilla
+:
+:
 JSONWriter
 :
 :

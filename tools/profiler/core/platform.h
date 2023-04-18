@@ -61,6 +61,15 @@ include
 "
 mozilla
 /
+ProgressLogger
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -322,6 +331,11 @@ double
 aSinceTime
 bool
 aIsShuttingDown
+mozilla
+:
+:
+ProgressLogger
+aProgressLogger
 )
 ;
 enum
