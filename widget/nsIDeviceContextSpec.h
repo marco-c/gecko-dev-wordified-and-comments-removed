@@ -95,9 +95,6 @@ NS_IDEVICE_CONTEXT_SPEC_IID
 NS_IMETHOD
 Init
 (
-nsIWidget
-*
-aWidget
 nsIPrintSettings
 *
 aPrintSettings

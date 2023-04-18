@@ -87,9 +87,6 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 Init
 (
-nsIWidget
-*
-aWidget
 nsIPrintSettings
 *
 aPrintSettings

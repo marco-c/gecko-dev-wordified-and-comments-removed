@@ -140,9 +140,6 @@ NS_OK
 NS_IMETHOD
 Init
 (
-nsIWidget
-*
-aWidget
 nsIPrintSettings
 *
 aPS

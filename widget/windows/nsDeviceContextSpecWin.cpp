@@ -500,9 +500,6 @@ nsDeviceContextSpecWin
 :
 Init
 (
-nsIWidget
-*
-aWidget
 nsIPrintSettings
 *
 aPrintSettings

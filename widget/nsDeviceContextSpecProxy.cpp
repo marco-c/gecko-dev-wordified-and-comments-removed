@@ -161,9 +161,6 @@ nsDeviceContextSpecProxy
 :
 Init
 (
-nsIWidget
-*
-aWidget
 nsIPrintSettings
 *
 aPrintSettings

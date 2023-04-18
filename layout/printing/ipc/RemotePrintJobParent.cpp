@@ -361,7 +361,6 @@ deviceContextSpec
 >
 Init
 (
-nullptr
 mPrintSettings
 false
 )

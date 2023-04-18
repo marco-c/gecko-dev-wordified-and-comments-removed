@@ -1004,9 +1004,6 @@ nsDeviceContextSpecGTK
 :
 Init
 (
-nsIWidget
-*
-aWidget
 nsIPrintSettings
 *
 aPS

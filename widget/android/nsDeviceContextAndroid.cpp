@@ -305,9 +305,6 @@ nsDeviceContextSpecAndroid
 :
 Init
 (
-nsIWidget
-*
-aWidget
 nsIPrintSettings
 *
 aPS
