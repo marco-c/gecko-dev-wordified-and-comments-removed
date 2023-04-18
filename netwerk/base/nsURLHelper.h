@@ -619,6 +619,8 @@ Serialize
 nsAString
 &
 aValue
+bool
+aEncode
 )
 const
 ;
