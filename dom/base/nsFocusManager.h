@@ -1426,6 +1426,7 @@ int32_t
 *
 aCurrentTabIndex
 bool
+*
 aIgnoreTabIndex
 bool
 aForDocumentNavigation
