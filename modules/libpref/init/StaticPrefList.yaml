@@ -69968,14 +69968,10 @@ type
 uint32_t
 value
 :
-2592000
+900
 #
-30
-days
-(
-in
-seconds
-)
+15
+minutes
 mirror
 :
 always
