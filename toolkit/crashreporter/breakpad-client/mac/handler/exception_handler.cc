@@ -2556,8 +2556,7 @@ message
 id
 :
 %
-#
-10x
+d
 crash
 reported
 =
