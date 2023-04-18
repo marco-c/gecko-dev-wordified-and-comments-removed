@@ -90,6 +90,11 @@ testAtomizeWithoutActiveZone
 cpp
 "
 "
+testAvlTree
+.
+cpp
+"
+"
 testBigInt
 .
 cpp
