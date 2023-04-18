@@ -57,14 +57,14 @@ block_active_content
 "
 ;
 const
-PREF_ONION_WHITELIST
+PREF_ONION_ALLOWLIST
 =
 "
 dom
 .
 securecontext
 .
-whitelist_onions
+allowlist_onions
 "
 ;
 add_task
@@ -134,7 +134,7 @@ set
 :
 [
 [
-PREF_ONION_WHITELIST
+PREF_ONION_ALLOWLIST
 true
 ]
 ]

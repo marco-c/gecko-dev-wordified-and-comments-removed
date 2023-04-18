@@ -19256,7 +19256,7 @@ dom
 .
 securecontext
 .
-whitelist_onions
+allowlist_onions
 type
 :
 bool

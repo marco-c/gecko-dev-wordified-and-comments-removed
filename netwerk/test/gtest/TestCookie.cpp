@@ -1032,7 +1032,7 @@ dom
 .
 securecontext
 .
-whitelist_onions
+allowlist_onions
 "
 false
 )
@@ -8887,7 +8887,7 @@ dom
 .
 securecontext
 .
-whitelist_onions
+allowlist_onions
 "
 true
 )
