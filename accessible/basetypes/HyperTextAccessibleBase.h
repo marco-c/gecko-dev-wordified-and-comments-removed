@@ -132,6 +132,8 @@ uint32_t
 aOffset
 )
 const
+=
+0
 ;
 virtual
 Accessible
@@ -169,6 +171,8 @@ aInvalidateAfter
 false
 )
 const
+=
+0
 ;
 virtual
 uint32_t
