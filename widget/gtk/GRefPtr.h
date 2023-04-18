@@ -32,6 +32,9 @@ RefPtr
 h
 "
 #
+ifdef
+MOZ_ENABLE_DBUS
+#
 include
 <
 dbus
@@ -42,6 +45,8 @@ glib
 .
 h
 >
+#
+endif
 namespace
 mozilla
 {
@@ -150,10 +155,15 @@ GOBJECT_TRAITS
 (
 GdkPixbuf
 )
+#
+ifdef
+MOZ_ENABLE_DBUS
 GOBJECT_TRAITS
 (
 DBusGProxy
 )
+#
+endif
 #
 undef
 GOBJECT_TRAITS
@@ -280,6 +290,9 @@ aObject
 }
 }
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 template
 <
 >
@@ -321,6 +334,8 @@ aObject
 }
 }
 ;
+#
+endif
 }
 #
 endif
