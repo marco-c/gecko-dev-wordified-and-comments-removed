@@ -253,6 +253,11 @@ mEnabled
 =
 true
 ;
+bool
+mLoadFailed
+=
+false
+;
 mozilla
 :
 :
@@ -302,6 +307,11 @@ std
 string
 &
 aDst
+)
+;
+nsresult
+LoadIfNecessary
+(
 )
 ;
 }
