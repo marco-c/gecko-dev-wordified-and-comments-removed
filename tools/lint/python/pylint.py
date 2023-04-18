@@ -20,6 +20,12 @@ mozlint
 pathutils
 import
 expand_exclusions
+from
+mach
+.
+site
+import
+InstallPipRequirementsException
 here
 =
 os
@@ -280,9 +286,12 @@ True
 )
     
 except
+(
 subprocess
 .
 CalledProcessError
+InstallPipRequirementsException
+)
 :
         
 print
