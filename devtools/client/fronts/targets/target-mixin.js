@@ -1070,6 +1070,7 @@ isBrowsingContext
 )
 {
 return
+(
 this
 .
 typeName
@@ -1079,6 +1080,17 @@ typeName
 "
 windowGlobalTarget
 "
+|
+|
+this
+.
+typeName
+=
+=
+"
+browsingContextTarget
+"
+)
 ;
 }
 get

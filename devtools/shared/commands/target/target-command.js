@@ -1906,6 +1906,14 @@ typeName
 "
 windowGlobalTarget
 "
+|
+|
+typeName
+=
+=
+"
+browsingContextTarget
+"
 )
 {
 return

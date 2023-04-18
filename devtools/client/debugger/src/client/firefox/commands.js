@@ -1603,6 +1603,11 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
+"
+event
+-
+breakpoints
+"
 )
 ;
 if

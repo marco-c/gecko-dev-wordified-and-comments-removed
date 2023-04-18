@@ -361,6 +361,13 @@ this
 _form
 .
 useChildTargetToFetchChildren
+|
+|
+this
+.
+_form
+.
+remoteFrame
 ;
 }
 get

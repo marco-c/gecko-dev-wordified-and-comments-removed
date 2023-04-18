@@ -928,6 +928,13 @@ WEBSOCKET
 :
 shouldEnableAllWatchers
 }
+"
+event
+-
+breakpoints
+"
+:
+true
 }
 }
 ;

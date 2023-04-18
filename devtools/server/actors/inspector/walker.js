@@ -1492,6 +1492,9 @@ form
 traits
 :
 {
+clearPickerSupport
+:
+true
 }
 }
 ;
