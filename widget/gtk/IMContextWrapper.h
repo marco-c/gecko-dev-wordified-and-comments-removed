@@ -531,6 +531,11 @@ IMContextWrapper
 (
 )
 ;
+void
+SetInputPurposeAndInputHints
+(
+)
+;
 nsWindow
 *
 mOwnerWindow
@@ -1272,6 +1277,9 @@ mIsIMInAsyncKeyHandlingMode
 ;
 bool
 mIsKeySnooped
+;
+bool
+mSetInputPurposeAndInputHints
 ;
 static
 IMContextWrapper
