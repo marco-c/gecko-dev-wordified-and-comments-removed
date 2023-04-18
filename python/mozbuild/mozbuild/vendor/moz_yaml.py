@@ -3597,9 +3597,11 @@ vendor_directory
 ]
         
 if
-not
 (
             
+not
+(
+                
 "
 license
 -
@@ -3612,7 +3614,7 @@ manifest
 origin
 "
 ]
-            
+                
 and
 manifest
 [
@@ -3633,18 +3635,19 @@ lower
 )
 in
 files
-        
+            
 )
+            
 and
 not
 (
-            
+                
 "
 license
 "
 in
 files
-            
+                
 or
 "
 license
@@ -3653,7 +3656,7 @@ txt
 "
 in
 files
-            
+                
 or
 "
 license
@@ -3662,7 +3665,7 @@ rst
 "
 in
 files
-            
+                
 or
 "
 license
@@ -3671,7 +3674,7 @@ html
 "
 in
 files
-            
+                
 or
 "
 license
@@ -3680,19 +3683,20 @@ md
 "
 in
 files
-        
+            
 )
+            
 and
 not
 (
-            
+                
 "
 vendoring
 "
 in
 manifest
+                
 and
-            
 manifest
 [
 "
@@ -3714,6 +3718,8 @@ regular
 "
 rust
 "
+            
+)
         
 )
 :
