@@ -3029,6 +3029,16 @@ nsIURI
 aDomain
 )
 ;
+[
+Priority
+=
+control
+]
+async
+ShutdownConfirmedHP
+(
+)
+;
 async
 Shutdown
 (

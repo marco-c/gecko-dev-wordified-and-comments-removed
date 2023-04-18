@@ -9652,6 +9652,13 @@ SetInputPriorityEventEnabled
 false
 )
 ;
+Unused
+<
+<
+SendShutdownConfirmedHP
+(
+)
+;
 if
 (
 SendShutdown
