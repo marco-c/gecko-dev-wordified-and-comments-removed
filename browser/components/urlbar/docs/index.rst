@@ -221,6 +221,7 @@ nontechnical
 -
 overview
 overview
+lifetime
 utilities
 telemetry
 firefox
