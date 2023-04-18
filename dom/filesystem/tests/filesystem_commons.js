@@ -105,16 +105,6 @@ set
 "
 dom
 .
-input
-.
-dirpicker
-"
-true
-]
-[
-"
-dom
-.
 filesystem
 .
 pathcheck
