@@ -102,15 +102,6 @@ browser
 .
 ini
 "
-"
-browser
-/
-previews
-/
-browser
-.
-ini
-"
 ]
 MOCHITEST_CHROME_MANIFESTS
 +
