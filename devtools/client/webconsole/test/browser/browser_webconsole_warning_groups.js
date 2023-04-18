@@ -283,14 +283,6 @@ is
 (
 node
 .
-querySelector
-(
-"
-.
-indent
-"
-)
-.
 getAttribute
 (
 "
