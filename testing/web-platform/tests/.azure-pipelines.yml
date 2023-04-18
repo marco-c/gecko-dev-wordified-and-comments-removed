@@ -3390,7 +3390,7 @@ heads
 /
 epochs
 /
-three_hourly
+weekly
 '
 )
 eq
