@@ -871,6 +871,7 @@ spec
 .
 StripChars
 (
+u
 "
 \
 n

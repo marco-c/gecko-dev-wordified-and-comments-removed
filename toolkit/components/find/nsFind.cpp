@@ -2892,16 +2892,13 @@ patAutoStr
 }
 static
 const
-char
+char16_t
 kShy
 [
 ]
 =
 {
-char
-(
 CH_SHY
-)
 0
 }
 ;
