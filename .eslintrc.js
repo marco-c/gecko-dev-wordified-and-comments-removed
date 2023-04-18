@@ -1113,17 +1113,6 @@ test_hidden_files
 js
 "
 "
-xpcom
-/
-tests
-/
-unit
-/
-test_localfile
-.
-js
-"
-"
 browser
 /
 components
