@@ -121,9 +121,6 @@ printSilent
 bool
 shrinkToFit
 ;
-bool
-showPrintProgress
-;
 nsString
 paperId
 ;

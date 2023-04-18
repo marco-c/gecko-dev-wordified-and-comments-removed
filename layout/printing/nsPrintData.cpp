@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIPrintProgressParams
-.
-h
-"
-#
-include
-"
 nsIStringBundle
 .
 h
