@@ -715,14 +715,6 @@ IsScrollingActive
 ;
 virtual
 bool
-IsScrollingActiveNotMinimalDisplayPort
-(
-)
-=
-0
-;
-virtual
-bool
 IsMaybeAsynchronouslyScrolled
 (
 )
