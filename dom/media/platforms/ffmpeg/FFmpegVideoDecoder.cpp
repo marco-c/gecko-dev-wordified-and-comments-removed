@@ -6010,13 +6010,6 @@ client
 }
 else
 {
-texture
--
->
-Unlock
-(
-)
-;
 FFMPEG_LOGV
 (
 "
@@ -6037,6 +6030,13 @@ wrapper
 get
 (
 )
+)
+;
+texture
+-
+>
+Unlock
+(
 )
 ;
 v
