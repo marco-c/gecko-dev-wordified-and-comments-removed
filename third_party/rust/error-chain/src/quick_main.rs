@@ -20,8 +20,6 @@ main
 )
 {
 use
-:
-:
 std
 :
 :

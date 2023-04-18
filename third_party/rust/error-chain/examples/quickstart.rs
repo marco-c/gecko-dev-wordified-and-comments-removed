@@ -208,6 +208,12 @@ run
 )
 {
 use
+error_chain
+:
+:
+ChainedError
+;
+use
 std
 :
 :
@@ -215,12 +221,6 @@ io
 :
 :
 Write
-;
-use
-error_chain
-:
-:
-ChainedError
 ;
 let
 stderr
