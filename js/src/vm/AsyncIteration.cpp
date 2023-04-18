@@ -196,15 +196,6 @@ HandleValue
 argument
 )
 ;
-enum
-class
-ResumeNextKind
-{
-Enqueue
-Reject
-Resolve
-}
-;
 [
 [
 nodiscard
