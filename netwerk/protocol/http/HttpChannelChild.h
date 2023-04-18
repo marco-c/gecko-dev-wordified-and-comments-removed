@@ -400,6 +400,15 @@ aIsAuthChannel
 override
 ;
 NS_IMETHOD
+SetEarlyHintObserver
+(
+nsIEarlyHintObserver
+*
+aObserver
+)
+override
+;
+NS_IMETHOD
 SetPriority
 (
 int32_t

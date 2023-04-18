@@ -29,6 +29,11 @@ nsIBackgroundChannelRegistrar
 idl
 "
 "
+nsIEarlyHintObserver
+.
+idl
+"
+"
 nsIHttpActivityObserver
 .
 idl
