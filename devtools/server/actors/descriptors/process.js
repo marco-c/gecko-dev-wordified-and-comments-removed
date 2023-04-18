@@ -428,6 +428,9 @@ isBackgroundTaskMode
 }
 _parentProcessConnect
 (
+{
+isBrowserToolboxFission
+}
 )
 {
 let
@@ -479,6 +482,9 @@ sessionContext
 :
 createBrowserSessionContext
 (
+{
+isBrowserToolboxFission
+}
 )
 }
 )
@@ -645,6 +651,9 @@ null
 async
 getTarget
 (
+{
+isBrowserToolboxFission
+}
 )
 {
 if
@@ -689,6 +698,9 @@ this
 .
 _parentProcessConnect
 (
+{
+isBrowserToolboxFission
+}
 )
 ;
 }
@@ -702,6 +714,9 @@ _childProcessConnect
 }
 getWatcher
 (
+{
+isBrowserToolboxFission
+}
 )
 {
 if
@@ -724,6 +739,9 @@ this
 conn
 createBrowserSessionContext
 (
+{
+isBrowserToolboxFission
+}
 )
 )
 ;
