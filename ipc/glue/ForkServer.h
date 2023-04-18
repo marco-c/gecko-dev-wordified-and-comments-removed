@@ -83,12 +83,13 @@ HandleMessages
 void
 OnMessageReceived
 (
+UniquePtr
+<
 IPC
 :
 :
 Message
-&
-&
+>
 message
 )
 ;
