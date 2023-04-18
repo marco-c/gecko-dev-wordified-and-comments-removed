@@ -8725,6 +8725,9 @@ fireEvent
 async
 :
 fireEvent
+raw
+:
+fireEvent
 }
 ;
 try
