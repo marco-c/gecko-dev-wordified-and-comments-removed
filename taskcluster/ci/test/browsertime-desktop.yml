@@ -400,6 +400,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 default
 :
@@ -436,6 +439,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 default
 :
@@ -925,6 +931,9 @@ trunk
 mozilla
 -
 beta
+mozilla
+-
+release
 ]
 default
 :
@@ -958,6 +967,9 @@ qr
 :
 [
 trunk
+mozilla
+-
+release
 ]
 default
 :
