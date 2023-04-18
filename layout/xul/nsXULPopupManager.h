@@ -1431,8 +1431,6 @@ nsIContent
 aMenu
 bool
 aSelectFirstItem
-bool
-aAsynchronous
 )
 ;
 void
