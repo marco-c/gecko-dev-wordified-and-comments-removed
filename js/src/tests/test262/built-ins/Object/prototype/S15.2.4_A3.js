@@ -14,17 +14,6 @@ prototype
 )
 ;
 }
-'
-Object
-.
-prototype
-(
-)
-throws
-a
-TypeError
-exception
-'
 )
 ;
 reportCompare

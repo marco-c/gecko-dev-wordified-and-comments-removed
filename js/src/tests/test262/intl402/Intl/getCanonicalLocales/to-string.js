@@ -39,7 +39,7 @@ length
 }
 ;
 assert
-.
+(
 compareArray
 (
 Intl
@@ -60,6 +60,7 @@ pt
 BR
 "
 ]
+)
 )
 ;
 reportCompare

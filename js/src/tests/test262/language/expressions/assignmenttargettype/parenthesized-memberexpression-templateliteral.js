@@ -2,6 +2,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 o
 .
@@ -12,3 +17,4 @@ f
 =
 1
 ;
+}

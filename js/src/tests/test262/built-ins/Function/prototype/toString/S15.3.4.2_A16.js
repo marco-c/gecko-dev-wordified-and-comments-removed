@@ -26,16 +26,6 @@ obj
 )
 ;
 }
-'
-String
-(
-obj
-)
-throws
-a
-TypeError
-exception
-'
 )
 ;
 reportCompare

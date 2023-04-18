@@ -33,7 +33,7 @@ s
 )
 ;
 assert
-.
+(
 compareArray
 (
 Object
@@ -56,6 +56,7 @@ enumerable
 configurable
 '
 ]
+)
 )
 ;
 assert

@@ -2,9 +2,15 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 class
 {
 }
 =
 1
 ;
+}

@@ -116,11 +116,12 @@ value
 >
 {
 assert
-.
+(
 compareArray
 (
 value
 arr
+)
 )
 ;
 assert

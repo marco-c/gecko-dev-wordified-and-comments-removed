@@ -6,6 +6,7 @@ fn
 }
 {
 }
+;
 reportCompare
 (
 0

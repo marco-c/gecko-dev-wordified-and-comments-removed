@@ -7,7 +7,13 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 arguments
 =
 1
 ;
+}

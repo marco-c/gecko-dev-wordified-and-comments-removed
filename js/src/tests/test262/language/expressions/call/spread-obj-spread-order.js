@@ -114,7 +114,7 @@ obj
 )
 {
 assert
-.
+(
 compareArray
 (
 calls
@@ -133,6 +133,7 @@ foo
 )
 "
 ]
+)
 )
 ;
 assert

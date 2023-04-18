@@ -76,12 +76,6 @@ info
 "
         
 "
-Intl
-.
-DurationFormat
-"
-        
-"
 Atomics
 .
 waitAsync
@@ -110,7 +104,11 @@ Temporal
 "
         
 "
-ShadowRealm
+callable
+-
+boundary
+-
+realms
 "
         
 "
@@ -121,20 +119,6 @@ find
 from
 -
 last
-"
-        
-"
-array
--
-grouping
-"
-        
-"
-regexp
--
-v
--
-flag
 "
     
 ]
@@ -211,17 +195,7 @@ RELEASE_OR_BETA
 =
 set
 (
-    
 [
-        
-"
-Intl
-.
-NumberFormat
--
-v3
-"
-    
 ]
 )
 SHELL_OPTIONS
@@ -5024,7 +4998,7 @@ url
 default
 =
 "
-https
+git
 :
 /
 /

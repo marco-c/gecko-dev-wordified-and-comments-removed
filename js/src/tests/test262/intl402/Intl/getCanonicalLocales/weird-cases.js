@@ -66,7 +66,7 @@ weird
 )
 {
 assert
-.
+(
 compareArray
 (
 Intl
@@ -78,6 +78,7 @@ weird
 [
 weird
 ]
+)
 )
 ;
 }

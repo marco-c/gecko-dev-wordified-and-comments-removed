@@ -108,7 +108,10 @@ array
 .
 copyWithin
 (
-0
+new
+TA
+(
+)
 0
 )
 ;
@@ -134,7 +137,10 @@ array
 .
 copyWithin
 (
-0
+new
+TA
+(
+)
 0
 )
 ;
@@ -181,7 +187,10 @@ array
 .
 copyWithin
 (
-0
+new
+TA
+(
+)
 0
 )
 ;

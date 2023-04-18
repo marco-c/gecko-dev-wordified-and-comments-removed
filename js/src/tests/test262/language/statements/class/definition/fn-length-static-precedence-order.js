@@ -47,7 +47,7 @@ definition
 }
 }
 assert
-.
+(
 compareArray
 (
 Object
@@ -70,6 +70,7 @@ prototype
 method
 '
 ]
+)
 )
 var
 attr
@@ -114,7 +115,7 @@ definition
 }
 }
 assert
-.
+(
 compareArray
 (
 Object
@@ -134,6 +135,7 @@ name
 prototype
 '
 ]
+)
 )
 class
 C
@@ -164,7 +166,7 @@ definition
 }
 }
 assert
-.
+(
 compareArray
 (
 Object
@@ -184,6 +186,7 @@ name
 prototype
 '
 ]
+)
 )
 class
 D
@@ -215,7 +218,7 @@ definition
 }
 }
 assert
-.
+(
 compareArray
 (
 Object
@@ -235,6 +238,7 @@ name
 prototype
 '
 ]
+)
 )
 class
 E
@@ -264,7 +268,7 @@ definition
 }
 }
 assert
-.
+(
 compareArray
 (
 Object
@@ -284,6 +288,7 @@ name
 prototype
 '
 ]
+)
 )
 reportCompare
 (

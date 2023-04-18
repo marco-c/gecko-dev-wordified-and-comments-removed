@@ -65,7 +65,11 @@ reduce
 call
 (
 obj
-callbackfn
+function
+(
+)
+{
+}
 "
 initialValue
 "

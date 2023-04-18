@@ -114,7 +114,7 @@ twice
 )
 ;
 assert
-.
+(
 compareArray
 (
 results
@@ -126,9 +126,10 @@ iterable
 0
 ]
 )
+)
 ;
 assert
-.
+(
 compareArray
 (
 results
@@ -139,6 +140,7 @@ iterable
 [
 1
 ]
+)
 )
 ;
 assert

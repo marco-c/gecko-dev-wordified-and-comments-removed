@@ -1,9 +1,0 @@
-throw
-new
-Error
-(
-'
-foobar
-'
-)
-;

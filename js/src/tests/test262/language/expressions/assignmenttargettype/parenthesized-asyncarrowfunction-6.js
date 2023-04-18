@@ -2,6 +2,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 (
 async
@@ -15,3 +20,4 @@ async
 =
 1
 ;
+}

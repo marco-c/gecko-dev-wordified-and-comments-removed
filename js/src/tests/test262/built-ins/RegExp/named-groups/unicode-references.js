@@ -1,5 +1,5 @@
 assert
-.
+(
 compareArray
 (
 [
@@ -32,6 +32,7 @@ b
 >
 /
 u
+)
 )
 )
 ;
@@ -66,7 +67,7 @@ u
 )
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -101,6 +102,7 @@ w
 .
 /
 u
+)
 )
 )
 ;
@@ -143,7 +145,7 @@ a
 )
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -182,6 +184,7 @@ a
 >
 /
 u
+)
 )
 )
 ;
@@ -228,7 +231,7 @@ a
 )
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -275,6 +278,7 @@ b
 >
 /
 u
+)
 )
 )
 ;
@@ -342,7 +346,7 @@ b
 )
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -382,9 +386,10 @@ a
 /
 )
 )
+)
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -430,6 +435,7 @@ k
 b
 >
 /
+)
 )
 )
 ;

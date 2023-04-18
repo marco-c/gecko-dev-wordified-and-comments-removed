@@ -1,3 +1,9 @@
+function
+Target
+(
+)
+{
+}
 var
 P
 =

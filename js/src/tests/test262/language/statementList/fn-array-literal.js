@@ -7,6 +7,7 @@ fn
 [
 ]
 ;
+;
 reportCompare
 (
 0

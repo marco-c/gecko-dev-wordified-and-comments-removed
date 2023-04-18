@@ -187,8 +187,6 @@ result
 =
 >
 {
-assert
-.
 compareArray
 (
 result

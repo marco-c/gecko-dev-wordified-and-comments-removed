@@ -2,6 +2,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 delete
 x
@@ -11,3 +16,4 @@ y
 =
 1
 ;
+}

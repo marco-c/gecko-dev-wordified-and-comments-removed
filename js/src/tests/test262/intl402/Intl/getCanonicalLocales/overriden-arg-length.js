@@ -113,7 +113,7 @@ return
 )
 ;
 assert
-.
+(
 compareArray
 (
 Intl
@@ -129,6 +129,7 @@ en
 US
 '
 ]
+)
 "
 should
 return
@@ -193,7 +194,7 @@ return
 )
 ;
 assert
-.
+(
 compareArray
 (
 Intl
@@ -209,6 +210,7 @@ en
 US
 '
 ]
+)
 "
 should
 return
@@ -354,7 +356,7 @@ Infinity
 )
 ;
 assert
-.
+(
 compareArray
 (
 Intl
@@ -365,6 +367,7 @@ locales
 )
 [
 ]
+)
 "
 should
 return
@@ -430,7 +433,7 @@ gotten
 }
 )
 assert
-.
+(
 compareArray
 (
 Intl
@@ -441,6 +444,7 @@ locales
 )
 [
 ]
+)
 "
 should
 return

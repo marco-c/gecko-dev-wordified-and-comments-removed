@@ -73,6 +73,14 @@ indexC
 +
 )
 {
+var
+hex
+=
+decimalToHexString
+(
+index
+)
+;
 try
 {
 encodeURIComponent

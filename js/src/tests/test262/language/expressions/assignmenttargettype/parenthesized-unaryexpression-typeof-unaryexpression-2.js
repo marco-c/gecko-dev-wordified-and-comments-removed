@@ -2,6 +2,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 typeof
 true
@@ -9,3 +14,4 @@ true
 =
 1
 ;
+}

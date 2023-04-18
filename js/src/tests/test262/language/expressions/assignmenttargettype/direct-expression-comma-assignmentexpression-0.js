@@ -2,6 +2,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 x
 y
@@ -11,3 +16,4 @@ z
 =
 1
 ;
+}

@@ -2,8 +2,14 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 new
 f
 =
 1
 ;
+}

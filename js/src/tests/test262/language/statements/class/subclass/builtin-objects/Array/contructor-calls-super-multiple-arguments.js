@@ -30,7 +30,7 @@ foo
 )
 ;
 assert
-.
+(
 compareArray
 (
 sub
@@ -40,6 +40,7 @@ sub
 foo
 '
 ]
+)
 )
 ;
 reportCompare

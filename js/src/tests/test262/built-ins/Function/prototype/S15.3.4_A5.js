@@ -13,16 +13,6 @@ Function
 prototype
 ;
 }
-'
-new
-Function
-.
-prototype
-throws
-a
-TypeError
-exception
-'
 )
 ;
 reportCompare

@@ -1,5 +1,5 @@
 assert
-.
+(
 compareArray
 (
 [
@@ -41,6 +41,7 @@ abcd
 )
 .
 groups
+)
 )
 )
 ;

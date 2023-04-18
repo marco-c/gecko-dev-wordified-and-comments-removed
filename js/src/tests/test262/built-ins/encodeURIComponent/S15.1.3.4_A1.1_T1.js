@@ -37,6 +37,14 @@ count
 +
 +
 ;
+var
+hex
+=
+decimalToHexString
+(
+index
+)
+;
 try
 {
 encodeURIComponent
