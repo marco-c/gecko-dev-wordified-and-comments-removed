@@ -981,6 +981,14 @@ state
 DownloadsCommon
 .
 DOWNLOAD_PAUSED
+deleted
+:
+item
+.
+deleted
+?
+?
+false
 error
 :
 item
