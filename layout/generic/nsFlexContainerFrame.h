@@ -761,6 +761,9 @@ const
 nscoord
 aTentativeContentBoxMainSize
 const
+nscoord
+aTentativeContentBoxCrossSize
+const
 FlexboxAxisTracker
 &
 aAxisTracker
@@ -862,6 +865,9 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
+const
+nscoord
+aTentativeContentBoxCrossSize
 bool
 aHasLineClampEllipsis
 )
@@ -929,8 +935,12 @@ const
 ReflowInput
 &
 aReflowInput
+const
 nscoord
-aContentBoxMainSize
+aTentativeContentBoxMainSize
+const
+nscoord
+aTentativeContentBoxCrossSize
 const
 nsTArray
 <
@@ -987,8 +997,9 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
+const
 nscoord
-aTentativeMainSize
+aTentativeContentBoxMainSize
 nsTArray
 <
 FlexLine
@@ -1009,6 +1020,9 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
+const
+nscoord
+aTentativeContentBoxCrossSize
 nscoord
 aSumLineCrossSizes
 bool
