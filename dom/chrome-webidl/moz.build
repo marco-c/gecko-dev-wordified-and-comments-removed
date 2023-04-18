@@ -275,6 +275,11 @@ HeapSnapshot
 webidl
 "
 "
+ImageText
+.
+webidl
+"
+"
 InspectorUtils
 .
 webidl
