@@ -73,6 +73,10 @@ no
 unused
 -
 vars
+const
+cache
+=
+await
 caches
 .
 open
@@ -81,13 +85,7 @@ open
 lorem
 "
 )
-.
-then
-(
-cache
-=
->
-{
+;
 for
 (
 let
@@ -104,6 +102,7 @@ i
 +
 )
 {
+await
 cache
 .
 add
@@ -120,9 +119,6 @@ i
 )
 ;
 }
-}
-)
-;
 }
 function
 clear
