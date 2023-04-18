@@ -151,6 +151,14 @@ attribute
 any
 reason
 ;
+[
+Throws
+]
+void
+throwIfAborted
+(
+)
+;
 attribute
 EventHandler
 onabort

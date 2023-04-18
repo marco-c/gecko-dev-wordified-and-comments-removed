@@ -120,6 +120,17 @@ aRv
 )
 ;
 void
+ThrowIfAborted
+(
+JSContext
+*
+aCx
+ErrorResult
+&
+aRv
+)
+;
+void
 SignalAbort
 (
 JS
