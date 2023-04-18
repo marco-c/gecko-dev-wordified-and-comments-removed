@@ -52,7 +52,7 @@ jsm
 const
 global
 =
-this
+globalThis
 ;
 const
 WASM_MODULE_URL
