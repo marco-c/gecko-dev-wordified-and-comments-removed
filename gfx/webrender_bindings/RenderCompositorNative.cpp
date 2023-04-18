@@ -529,13 +529,6 @@ Pause
 (
 )
 {
-mNativeLayerRoot
--
->
-PauseCompositor
-(
-)
-;
 }
 bool
 RenderCompositorNative
@@ -546,12 +539,7 @@ Resume
 )
 {
 return
-mNativeLayerRoot
--
->
-ResumeCompositor
-(
-)
+true
 ;
 }
 inline

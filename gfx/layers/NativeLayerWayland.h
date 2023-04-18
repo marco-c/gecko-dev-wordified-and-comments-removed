@@ -279,12 +279,6 @@ CommitToScreen
 override
 ;
 void
-PauseCompositor
-(
-)
-override
-;
-void
 UpdateLayersOnMainThread
 (
 )
