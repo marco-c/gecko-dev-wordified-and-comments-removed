@@ -183,7 +183,7 @@ ERROR_INVALID_DOMAIN
 [
 96
 .
-2
+3
 ]
 to
 WebExtension
@@ -277,7 +277,7 @@ Runnable
 [
 96
 .
-2
+3
 ]
 :
 {
