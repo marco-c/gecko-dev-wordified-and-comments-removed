@@ -61,12 +61,6 @@ workerReply
 port
 )
 ;
-self
-.
-close
-(
-)
-;
 }
 )
 ;
