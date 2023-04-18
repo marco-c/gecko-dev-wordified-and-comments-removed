@@ -44,6 +44,11 @@ workerinternals
 =
 [
 "
+CacheLoadHandler
+.
+h
+"
+"
 ScriptResponseHeaderProcessor
 .
 h
@@ -53,6 +58,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+CacheLoadHandler
+.
+cpp
+"
 "
 ScriptResponseHeaderProcessor
 .
