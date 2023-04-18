@@ -691,7 +691,11 @@ InitJSActor
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aMaybeActor
 const
 nsACString
@@ -988,7 +992,11 @@ InitJSActor
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aMaybeActor
 const
 nsACString

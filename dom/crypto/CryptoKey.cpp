@@ -1016,7 +1016,13 @@ false
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 val
 (
 cx
