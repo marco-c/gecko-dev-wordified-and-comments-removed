@@ -254,6 +254,11 @@ OnDetach
 (
 )
 ;
+void
+EvictFromBFCache
+(
+)
+;
 NS_INLINE_DECL_REFCOUNTING
 (
 ClientHandle

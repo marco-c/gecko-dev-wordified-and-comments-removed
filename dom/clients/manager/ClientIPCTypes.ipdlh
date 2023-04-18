@@ -409,6 +409,11 @@ baseURL
 ;
 }
 ;
+struct
+ClientEvictBFCacheArgs
+{
+}
+;
 union
 ClientOpConstructorArgs
 {
@@ -427,6 +432,8 @@ ClientClaimArgs
 ClientGetInfoAndStateArgs
 ;
 ClientOpenWindowArgs
+;
+ClientEvictBFCacheArgs
 ;
 }
 ;

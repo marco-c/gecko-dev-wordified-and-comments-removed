@@ -949,6 +949,14 @@ uint32_t
 aFetch
 )
 ;
+void
+EvictFromBFCache
+(
+ServiceWorkerRegistrationInfo
+*
+aRegistration
+)
+;
 private
 :
 struct

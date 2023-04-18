@@ -89,6 +89,9 @@ template
 typename
 Method
 typename
+.
+.
+.
 Args
 >
 void
@@ -96,9 +99,12 @@ DoSourceOp
 (
 Method
 aMethod
-const
 Args
 &
+&
+.
+.
+.
 aArgs
 )
 ;

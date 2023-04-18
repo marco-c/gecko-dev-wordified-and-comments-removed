@@ -412,6 +412,14 @@ mScope
 swm
 -
 >
+EvictFromBFCache
+(
+registration
+)
+;
+swm
+-
+>
 RemoveRegistration
 (
 registration

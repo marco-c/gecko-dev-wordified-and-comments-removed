@@ -143,6 +143,11 @@ aArgs
 )
 ;
 async
+EvictFromBFCache
+(
+)
+;
+async
 __delete__
 (
 )
