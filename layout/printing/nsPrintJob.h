@@ -759,6 +759,11 @@ mScreenDPI
 .
 0f
 ;
+int32_t
+mNumPrintablePages
+=
+0
+;
 bool
 mCreatedForPrintPreview
 =

@@ -163,9 +163,6 @@ mIsAborted
 bool
 mPreparingForPrint
 ;
-int32_t
-mNumPrintablePages
-;
 private
 :
 nsPrintData

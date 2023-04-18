@@ -106,10 +106,6 @@ mPreparingForPrint
 (
 false
 )
-mNumPrintablePages
-(
-0
-)
 {
 }
 nsPrintData
