@@ -2467,8 +2467,7 @@ image
 :
 img
 /
-=
-Symbol
+symbol
 -
 server
 -
