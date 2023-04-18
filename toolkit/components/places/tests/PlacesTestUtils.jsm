@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -63,7 +69,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TestUtils
 "
@@ -422,6 +428,8 @@ _micro_seconds
 }
 visitDate
 =
+lazy
+.
 PlacesUtils
 .
 toDate
@@ -479,6 +487,8 @@ place
 transition
 !
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -495,6 +505,8 @@ info
 }
 }
 await
+lazy
+.
 PlacesUtils
 .
 history
@@ -510,6 +522,8 @@ lastStoredVisit
 )
 {
 await
+lazy
+.
 TestUtils
 .
 waitForCondition
@@ -518,6 +532,8 @@ waitForCondition
 )
 =
 >
+lazy
+.
 PlacesUtils
 .
 history
@@ -649,6 +665,8 @@ val
 ;
 try
 {
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -658,6 +676,8 @@ setAndFetchFaviconForPage
 uri
 faviconURI
 false
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -753,6 +773,8 @@ expired
 "
 )
 ;
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -772,6 +794,8 @@ aBookmarkObj
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -781,6 +805,8 @@ insert
 {
 parentGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -813,6 +839,8 @@ keyword
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -886,6 +914,8 @@ aBookmarkObj
 uri
 )
 ;
+lazy
+.
 PlacesUtils
 .
 tagging
@@ -905,6 +935,8 @@ promiseAsyncUpdates
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -977,6 +1009,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -1048,6 +1082,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -1141,6 +1177,8 @@ aURI
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -1213,6 +1251,8 @@ markBookmarksAsSynced
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -1314,6 +1354,8 @@ syncedItems
 {
 syncStatus
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1352,6 +1394,8 @@ aFieldInfos
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -1387,6 +1431,8 @@ aFieldInfos
 if
 (
 !
+lazy
+.
 PlacesUtils
 .
 isValidGuid
@@ -1489,6 +1535,8 @@ lastModified
 in
 info
 ?
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -1507,6 +1555,8 @@ dateAdded
 in
 info
 ?
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -1541,6 +1591,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -1642,6 +1694,8 @@ syncChangeCounter
 )
 lastModified
 :
+lazy
+.
 PlacesUtils
 .
 toDate
@@ -1660,6 +1714,8 @@ lastModified
 )
 dateAdded
 :
+lazy
+.
 PlacesUtils
 .
 toDate
@@ -1693,6 +1749,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -1739,6 +1797,8 @@ guid
 )
 dateRemoved
 :
+lazy
+.
 PlacesUtils
 .
 toDate
@@ -1917,6 +1977,8 @@ args
 )
 )
 {
+lazy
+.
 PlacesUtils
 [
 type
@@ -1960,6 +2022,8 @@ false
 }
 )
 ;
+lazy
+.
 PlacesUtils
 [
 type
@@ -2267,6 +2331,8 @@ clearMetadata
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -2291,6 +2357,8 @@ FROM
 moz_meta
 )
 ;
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -2311,6 +2379,8 @@ clearInputHistory
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper

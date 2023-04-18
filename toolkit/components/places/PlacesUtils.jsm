@@ -79,11 +79,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NetUtil
 :
@@ -182,7 +188,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 MOZ_ACTION_REGEX
 "
@@ -217,7 +223,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gCryptoHash
 "
@@ -1366,6 +1372,8 @@ string
 &
 &
 (
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -1417,6 +1425,8 @@ Object
 .
 values
 (
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -1622,6 +1632,8 @@ number
 &
 v
 >
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -2289,6 +2301,8 @@ inVisit
 transition
 |
 |
+lazy
+.
 History
 .
 TRANSITIONS
@@ -2832,6 +2846,8 @@ href
 url
 ;
 return
+lazy
+.
 NetUtil
 .
 newURI
@@ -2984,6 +3000,8 @@ params
 )
 {
 return
+lazy
+.
 bundle
 .
 formatStringFromName
@@ -3002,6 +3020,8 @@ key
 )
 {
 return
+lazy
+.
 bundle
 .
 GetStringFromName
@@ -3081,6 +3101,8 @@ url
 .
 match
 (
+lazy
+.
 MOZ_ACTION_REGEX
 )
 ;
@@ -6447,6 +6469,8 @@ promiseDBConnection
 )
 =
 >
+lazy
+.
 gAsyncDBConnPromised
 promiseLargeCacheDBConnection
 :
@@ -6454,6 +6478,8 @@ promiseLargeCacheDBConnection
 )
 =
 >
+lazy
+.
 gAsyncDBLargeCacheConnPromised
 get
 largeCacheDBConnDeferred
@@ -6470,6 +6496,8 @@ promiseUnsafeWritableDBConnection
 )
 =
 >
+lazy
+.
 gAsyncDBWrapperPromised
 async
 withConnectionWrapper
@@ -6503,6 +6531,8 @@ let
 db
 =
 await
+lazy
+.
 gAsyncDBWrapperPromised
 ;
 return
@@ -6935,6 +6965,8 @@ item
 .
 uri
 =
+lazy
+.
 NetUtil
 .
 newURI
@@ -8130,15 +8162,21 @@ ascii
 }
 )
 {
+lazy
+.
 gCryptoHash
 .
 init
 (
+lazy
+.
 gCryptoHash
 .
 MD5
 )
 ;
+lazy
+.
 gCryptoHash
 .
 update
@@ -8181,6 +8219,8 @@ hex
 let
 hash
 =
+lazy
+.
 gCryptoHash
 .
 finish
@@ -8235,6 +8275,8 @@ ascii
 default
 :
 return
+lazy
+.
 gCryptoHash
 .
 finish
@@ -8330,6 +8372,8 @@ else
 {
 property
 =
+lazy
+.
 History
 [
 name
@@ -8337,6 +8381,8 @@ name
 ;
 object
 =
+lazy
+.
 History
 ;
 }
@@ -8401,7 +8447,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 bmsvc
 "
@@ -8446,6 +8492,8 @@ freeze
 new
 Proxy
 (
+lazy
+.
 Bookmarks
 {
 get
@@ -8456,6 +8504,8 @@ name
 )
 =
 >
+lazy
+.
 Bookmarks
 .
 hasOwnProperty
@@ -8463,11 +8513,15 @@ hasOwnProperty
 name
 )
 ?
+lazy
+.
 Bookmarks
 [
 name
 ]
 :
+lazy
+.
 bmsvc
 [
 name
@@ -8509,7 +8563,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 bundle
 "
@@ -8733,6 +8787,8 @@ Cu
 reportError
 )
 ;
+lazy
+.
 Sqlite
 .
 shutdown
@@ -8782,7 +8838,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gAsyncDBConnPromised
 "
@@ -8790,6 +8846,8 @@ gAsyncDBConnPromised
 )
 =
 >
+lazy
+.
 Sqlite
 .
 cloneStorageConnection
@@ -8844,7 +8902,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gAsyncDBWrapperPromised
 "
@@ -8852,6 +8910,8 @@ gAsyncDBWrapperPromised
 )
 =
 >
+lazy
+.
 Sqlite
 .
 wrapStorageConnection
@@ -8900,6 +8960,8 @@ reportError
 var
 gAsyncDBLargeCacheConnDeferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -8910,7 +8972,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gAsyncDBLargeCacheConnPromised
 "
@@ -8918,6 +8980,8 @@ gAsyncDBLargeCacheConnPromised
 )
 =
 >
+lazy
+.
 Sqlite
 .
 cloneStorageConnection
@@ -10852,6 +10916,8 @@ postData
 )
 ;
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -10860,6 +10926,8 @@ addSyncChangesForBookmarksWithURL
 (
 db
 url
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -11098,6 +11166,8 @@ keyword
 )
 ;
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -11106,6 +11176,8 @@ addSyncChangesForBookmarksWithURL
 (
 db
 url
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks

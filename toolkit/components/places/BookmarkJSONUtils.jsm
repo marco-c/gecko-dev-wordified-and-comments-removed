@@ -66,11 +66,17 @@ fetch
 ]
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesBackups
 "
@@ -554,6 +560,8 @@ count
 ]
 =
 await
+lazy
+.
 PlacesBackups
 .
 getBookmarksTree

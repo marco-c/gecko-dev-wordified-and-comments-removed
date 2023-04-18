@@ -92,11 +92,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PlacesPreviews
 :
@@ -517,6 +523,8 @@ logs
 ]
 ;
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -584,6 +592,8 @@ NULL
 {
 bookmark_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -612,6 +622,8 @@ id
 "
 )
 ;
+lazy
+.
 PlacesUtils
 .
 invalidateCachedGuidFor
@@ -694,6 +706,8 @@ coherenceCheck
 true
 ;
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -823,6 +837,8 @@ logs
 ]
 ;
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -1024,6 +1040,8 @@ let
 deleted
 =
 await
+lazy
+.
 PlacesPreviews
 .
 deleteOrphans
@@ -1928,11 +1946,15 @@ params
 {
 tags_folder
 :
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
 bookmark_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1940,6 +1962,8 @@ bookmarks
 TYPE_BOOKMARK
 rootGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1947,6 +1971,8 @@ bookmarks
 rootGuid
 menuGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1954,6 +1980,8 @@ bookmarks
 menuGuid
 toolbarGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1961,6 +1989,8 @@ bookmarks
 toolbarGuid
 unfiledGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1968,6 +1998,8 @@ bookmarks
 unfiledGuid
 tagsGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2053,11 +2085,15 @@ params
 {
 tags_folder
 :
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
 rootGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2065,6 +2101,8 @@ bookmarks
 rootGuid
 menuGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2072,6 +2110,8 @@ bookmarks
 menuGuid
 toolbarGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2079,6 +2119,8 @@ bookmarks
 toolbarGuid
 unfiledGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2086,6 +2128,8 @@ bookmarks
 unfiledGuid
 tagsGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2168,6 +2212,8 @@ params
 {
 rootGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2175,6 +2221,8 @@ bookmarks
 rootGuid
 menuGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2182,6 +2230,8 @@ bookmarks
 menuGuid
 toolbarGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2189,6 +2239,8 @@ bookmarks
 toolbarGuid
 unfiledGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2196,6 +2248,8 @@ bookmarks
 unfiledGuid
 tagsGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2263,6 +2317,8 @@ params
 {
 dateRemoved
 :
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -2274,6 +2330,8 @@ Date
 )
 syncStatus
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2283,6 +2341,8 @@ SYNC_STATUS
 NEW
 bookmark_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2290,6 +2350,8 @@ bookmarks
 TYPE_BOOKMARK
 folder_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2297,6 +2359,8 @@ bookmarks
 TYPE_FOLDER
 separator_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2368,6 +2432,8 @@ params
 {
 bookmark_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2375,6 +2441,8 @@ bookmarks
 TYPE_BOOKMARK
 folder_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2382,6 +2450,8 @@ bookmarks
 TYPE_FOLDER
 separator_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2389,6 +2459,8 @@ bookmarks
 TYPE_SEPARATOR
 rootGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2396,6 +2468,8 @@ bookmarks
 rootGuid
 menuGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2403,6 +2477,8 @@ bookmarks
 menuGuid
 toolbarGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2410,6 +2486,8 @@ bookmarks
 toolbarGuid
 unfiledGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2417,6 +2495,8 @@ bookmarks
 unfiledGuid
 tagsGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2485,6 +2565,8 @@ params
 {
 bookmark_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2492,6 +2574,8 @@ bookmarks
 TYPE_BOOKMARK
 folder_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2499,6 +2583,8 @@ bookmarks
 TYPE_FOLDER
 rootGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2506,6 +2592,8 @@ bookmarks
 rootGuid
 menuGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2513,6 +2601,8 @@ bookmarks
 menuGuid
 toolbarGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2520,6 +2610,8 @@ bookmarks
 toolbarGuid
 unfiledGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2527,6 +2619,8 @@ bookmarks
 unfiledGuid
 tagsGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2590,6 +2684,8 @@ params
 {
 bookmark_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2597,6 +2693,8 @@ bookmarks
 TYPE_BOOKMARK
 folder_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2604,6 +2702,8 @@ bookmarks
 TYPE_FOLDER
 rootGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2611,6 +2711,8 @@ bookmarks
 rootGuid
 menuGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2618,6 +2720,8 @@ bookmarks
 menuGuid
 toolbarGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2625,6 +2729,8 @@ bookmarks
 toolbarGuid
 unfiledGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2632,6 +2738,8 @@ bookmarks
 unfiledGuid
 tagsGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2720,6 +2828,8 @@ params
 {
 bookmark_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2727,6 +2837,8 @@ bookmarks
 TYPE_BOOKMARK
 separator_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2734,6 +2846,8 @@ bookmarks
 TYPE_SEPARATOR
 rootGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2741,6 +2855,8 @@ bookmarks
 rootGuid
 menuGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2748,6 +2864,8 @@ bookmarks
 menuGuid
 toolbarGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2755,6 +2873,8 @@ bookmarks
 toolbarGuid
 unfiledGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2762,6 +2882,8 @@ bookmarks
 unfiledGuid
 tagsGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2837,6 +2959,8 @@ params
 {
 bookmark_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2844,6 +2968,8 @@ bookmarks
 TYPE_BOOKMARK
 rootGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2851,6 +2977,8 @@ bookmarks
 rootGuid
 menuGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2858,6 +2986,8 @@ bookmarks
 menuGuid
 toolbarGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2865,6 +2995,8 @@ bookmarks
 toolbarGuid
 unfiledGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2872,6 +3004,8 @@ bookmarks
 unfiledGuid
 tagsGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3136,6 +3270,8 @@ params
 {
 folder_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3143,6 +3279,8 @@ bookmarks
 TYPE_FOLDER
 tags_folder
 :
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -3187,6 +3325,8 @@ notitle
 "
 folder_type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3194,6 +3334,8 @@ bookmarks
 TYPE_FOLDER
 tags_folder
 :
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -3797,6 +3939,8 @@ params
 {
 dateRemoved
 :
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -3808,6 +3952,8 @@ Date
 )
 syncStatus
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3847,6 +3993,8 @@ params
 {
 syncStatus
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -4241,6 +4389,8 @@ KiB
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -4436,6 +4586,8 @@ obs
 addObserver
 (
 observer
+lazy
+.
 PlacesUtils
 .
 TOPIC_EXPIRATION_FINISHED
@@ -4624,6 +4776,8 @@ join
 }
 ;
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -4820,6 +4974,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -4884,6 +5040,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -5076,6 +5234,8 @@ resolve
 =
 >
 {
+lazy
+.
 PlacesUtils
 .
 history
@@ -5183,11 +5343,15 @@ params
 {
 tags_folder
 :
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
 type_bookmark
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -5220,6 +5384,8 @@ params
 {
 tags_folder
 :
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -5346,16 +5512,22 @@ params
 {
 places_root
 :
+lazy
+.
 PlacesUtils
 .
 placesRootId
 tags_folder
 :
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
 type_bookmark
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -5451,11 +5623,15 @@ params
 {
 tags_folder
 :
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
 type_bookmark
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -5763,6 +5939,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -6071,6 +6249,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -6344,6 +6524,8 @@ _registeredShutdownObserver
 =
 true
 ;
+lazy
+.
 PlacesUtils
 .
 registerShutdownFunction
@@ -6614,6 +6796,8 @@ let
 db
 =
 await
+lazy
+.
 Sqlite
 .
 openConnection

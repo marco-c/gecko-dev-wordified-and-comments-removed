@@ -87,11 +87,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 clearTimeout
 :
@@ -190,7 +196,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -244,7 +250,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 previewsEnabled
 "
@@ -414,6 +420,8 @@ this
 timeoutId
 )
 {
+lazy
+.
 clearTimeout
 (
 this
@@ -448,6 +456,8 @@ constructor
 (
 )
 {
+lazy
+.
 PlacesUtils
 .
 history
@@ -481,6 +491,8 @@ shuttingDown
 =
 true
 ;
+lazy
+.
 clearTimeout
 (
 this
@@ -540,6 +552,8 @@ this
 #
 timeoutId
 =
+lazy
+.
 setTimeout
 (
 (
@@ -575,6 +589,8 @@ catch
 ex
 =
 >
+lazy
+.
 logConsole
 .
 error
@@ -624,6 +640,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -805,6 +823,8 @@ hash
 }
 else
 {
+lazy
+.
 logConsole
 .
 error
@@ -871,6 +891,8 @@ p
 )
 ;
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -955,6 +977,8 @@ new
 (
 class
 extends
+lazy
+.
 EventEmitter
 {
 #
@@ -1124,6 +1148,8 @@ enabled
 )
 {
 return
+lazy
+.
 previewsEnabled
 ;
 }
@@ -1170,6 +1196,8 @@ this
 getPath
 (
 )
+lazy
+.
 PlacesUtils
 .
 md5
@@ -1255,6 +1283,8 @@ revision
 =
 "
 +
+lazy
+.
 PageThumbsStorage
 .
 getRevision
@@ -1319,6 +1349,8 @@ filePath
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -1376,6 +1408,8 @@ add
 filePath
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -1421,6 +1455,8 @@ NotFoundError
 "
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -1499,6 +1535,8 @@ error
 "
 )
 ;
+lazy
+.
 BackgroundPageThumbs
 .
 capture
@@ -1560,6 +1598,8 @@ if
 buffer
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -1627,10 +1667,14 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 error
 (
+lazy
+.
 logConsole
 .
 error
@@ -1760,6 +1804,8 @@ lastIndexOf
 )
 ;
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
