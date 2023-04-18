@@ -670,6 +670,10 @@ LoadState
 :
 Initial
 )
+mHasOtherProcessDatabases
+(
+false
+)
 mHasOtherProcessObservers
 (
 false
@@ -1071,6 +1075,14 @@ mLoadState
 aInitInfo
 .
 loadState
+(
+)
+;
+mHasOtherProcessDatabases
+=
+aInitInfo
+.
+hasOtherProcessDatabases
 (
 )
 ;
@@ -4787,6 +4799,9 @@ Checkpoint
 if
 (
 mDirty
+|
+|
+mHasOtherProcessDatabases
 |
 |
 !
