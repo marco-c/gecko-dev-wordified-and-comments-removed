@@ -1,0 +1,17 @@
+UNIFIED_SOURCES
++
+=
+[
+"
+ExternalHelperAppServiceTest
+.
+cpp
+"
+]
+FINAL_LIBRARY
+=
+"
+xul
+-
+gtest
+"
