@@ -206,6 +206,15 @@ uint16_t
 >
 region_index_count
 ;
+std
+:
+:
+vector
+<
+int32_t
+>
+vsindex_per_font
+;
 protected
 :
 bool

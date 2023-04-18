@@ -1180,8 +1180,9 @@ OTS_WARNING_MSG_HDR
 (
 "
 bad
-search
-range
+table
+directory
+searchRange
 "
 )
 ;
@@ -1207,11 +1208,10 @@ max_pow2
 OTS_WARNING_MSG_HDR
 (
 "
-incorrect
-entrySelector
-for
+bad
 table
 directory
+entrySelector
 "
 )
 ;
@@ -1254,8 +1254,9 @@ OTS_WARNING_MSG_HDR
 (
 "
 bad
-range
-shift
+table
+directory
+rangeShift
 "
 )
 ;
