@@ -2413,17 +2413,6 @@ StaticPrefs
 pdfjs_disabled
 (
 )
-|
-|
-nsContentUtils
-:
-:
-ShouldResistFingerprinting
-(
-GetDocShell
-(
-)
-)
 ;
 }
 Permissions
