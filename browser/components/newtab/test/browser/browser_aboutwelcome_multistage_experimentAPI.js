@@ -1585,8 +1585,6 @@ transition
 -
 .
 screen
--
-0
 "
 ]
 [
@@ -1648,8 +1646,6 @@ transition
 out
 .
 screen
--
-0
 "
 "
 div
@@ -1829,8 +1825,6 @@ transition
 -
 .
 screen
--
-0
 "
 ]
 [

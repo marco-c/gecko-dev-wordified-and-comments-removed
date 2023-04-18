@@ -213,6 +213,13 @@ noodles
 main
 .
 TEST_NOODLE_STEP
+[
+pos
+=
+'
+center
+'
+]
 "
 "
 div
@@ -451,6 +458,13 @@ logo
 main
 .
 TEST_LOGO_STEP
+[
+pos
+=
+'
+center
+'
+]
 "
 div
 .

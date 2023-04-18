@@ -178,6 +178,11 @@ order
 content
 :
 {
+position
+:
+"
+corner
+"
 title
 :
 {
