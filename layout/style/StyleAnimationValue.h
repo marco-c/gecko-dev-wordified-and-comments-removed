@@ -379,7 +379,7 @@ mozilla
 gfx
 :
 :
-Size
+MatrixScales
 GetScaleValue
 (
 const
