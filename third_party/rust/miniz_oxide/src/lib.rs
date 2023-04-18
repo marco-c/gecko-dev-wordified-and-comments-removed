@@ -1,14 +1,6 @@
 #
 !
 [
-allow
-(
-warnings
-)
-]
-#
-!
-[
 forbid
 (
 unsafe_code

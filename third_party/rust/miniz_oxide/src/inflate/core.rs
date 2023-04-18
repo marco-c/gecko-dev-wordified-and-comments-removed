@@ -3960,7 +3960,6 @@ r
 &
 mut
 DecompressorOxide
-mut
 in_iter
 :
 &
@@ -4065,8 +4064,6 @@ fill_bit_buffer
 &
 mut
 l
-&
-mut
 in_iter
 )
 ;
@@ -4153,8 +4150,6 @@ fill_bit_buffer
 &
 mut
 l
-&
-mut
 in_iter
 )
 ;
@@ -4394,8 +4389,6 @@ fill_bit_buffer
 &
 mut
 l
-&
-mut
 in_iter
 )
 ;
@@ -4475,8 +4468,6 @@ fill_bit_buffer
 &
 mut
 l
-&
-mut
 in_iter
 )
 ;
@@ -4613,8 +4604,6 @@ fill_bit_buffer
 &
 mut
 l
-&
-mut
 in_iter
 )
 ;
@@ -8638,6 +8627,15 @@ bytes_left
 =
 =
 0
+&
+&
+state
+!
+=
+State
+:
+:
+ReadAdler32
 {
 status
 =
