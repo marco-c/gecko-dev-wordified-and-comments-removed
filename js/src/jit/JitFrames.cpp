@@ -10023,9 +10023,7 @@ readable
 ;
 }
 return
-fallback
-.
-unreadablePlaceholder
+UndefinedValue
 (
 )
 ;
@@ -11299,11 +11297,6 @@ nogc
 ;
 MaybeReadFallback
 fallback
-(
-UndefinedValue
-(
-)
-)
 ;
 s
 =
@@ -13073,11 +13066,6 @@ const
 {
 MaybeReadFallback
 fallback
-(
-UndefinedValue
-(
-)
-)
 ;
 if
 (
