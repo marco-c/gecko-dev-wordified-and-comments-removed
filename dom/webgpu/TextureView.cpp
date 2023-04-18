@@ -19,7 +19,7 @@ mozilla
 /
 dom
 /
-WebGPUBinding
+HTMLCanvasElement
 .
 h
 "
@@ -28,9 +28,9 @@ include
 "
 mozilla
 /
-webgpu
+dom
 /
-CanvasContext
+WebGPUBinding
 .
 h
 "
@@ -94,12 +94,15 @@ Cleanup
 )
 ;
 }
-CanvasContext
+dom
+:
+:
+HTMLCanvasElement
 *
 TextureView
 :
 :
-GetTargetContext
+GetTargetCanvasElement
 (
 )
 const
@@ -108,7 +111,7 @@ return
 mParent
 -
 >
-mTargetContext
+mTargetCanvasElement
 ;
 }
 void

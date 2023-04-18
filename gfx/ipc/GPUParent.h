@@ -161,8 +161,6 @@ GfxInfoFeatureStatus
 &
 &
 features
-uint32_t
-wrNamespace
 )
 ;
 mozilla

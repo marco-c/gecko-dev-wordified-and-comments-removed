@@ -2022,9 +2022,9 @@ CompositableHandle
 &
 aHandle
 const
-CompositableHandleOwner
+bool
 &
-aOwner
+aAsync
 wr
 :
 :

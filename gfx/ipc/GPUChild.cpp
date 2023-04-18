@@ -542,17 +542,6 @@ updates
 devicePrefs
 mappings
 features
-GPUProcessManager
-:
-:
-Get
-(
-)
--
->
-AllocateNamespace
-(
-)
 )
 ;
 gfxVars

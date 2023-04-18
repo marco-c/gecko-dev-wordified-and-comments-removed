@@ -339,8 +339,6 @@ GfxInfoFeatureStatus
 [
 ]
 features
-uint32_t
-wrNamespace
 )
 ;
 async
