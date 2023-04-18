@@ -2401,7 +2401,7 @@ LookAndFeel
 ColorID
 :
 :
-TextSelectBackgroundAttention
+TextSelectAttentionBackground
 ;
 }
 else
@@ -2414,7 +2414,7 @@ LookAndFeel
 ColorID
 :
 :
-TextSelectBackgroundDisabled
+TextSelectDisabledBackground
 ;
 }
 return
