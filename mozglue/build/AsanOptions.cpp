@@ -96,6 +96,12 @@ allocator_may_return_null
 "
 "
 :
+detect_stack_use_after_return
+=
+0
+"
+"
+:
 intercept_tls_get_addr
 =
 0
