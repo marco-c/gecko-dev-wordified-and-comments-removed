@@ -298,7 +298,6 @@ FxAccounts
 .
 jsm
 "
-null
 )
 ;
 function

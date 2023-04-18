@@ -20,6 +20,9 @@ CollectionKeyManager
 "
 Collection
 "
+"
+PostQueue
+"
 ]
 ;
 const

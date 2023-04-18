@@ -10,6 +10,12 @@ EXPORTED_SYMBOLS
 "
 EnsureFxAccountsWebChannel
 "
+"
+FxAccountsWebChannel
+"
+"
+FxAccountsWebChannelHelpers
+"
 ]
 ;
 const

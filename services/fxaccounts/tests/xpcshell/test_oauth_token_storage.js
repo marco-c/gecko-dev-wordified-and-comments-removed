@@ -73,7 +73,6 @@ FxAccounts
 .
 jsm
 "
-null
 )
 ;
 function

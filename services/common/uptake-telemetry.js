@@ -10,6 +10,9 @@ EXPORTED_SYMBOLS
 "
 UptakeTelemetry
 "
+"
+Policy
+"
 ]
 ;
 const

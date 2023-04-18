@@ -13,6 +13,9 @@ FxAccountsStorageManagerCanStoreField
 "
 FxAccountsStorageManager
 "
+"
+LoginManagerStorage
+"
 ]
 ;
 const
