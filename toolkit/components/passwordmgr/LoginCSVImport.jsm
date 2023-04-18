@@ -66,11 +66,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 LoginHelper
 :
@@ -124,7 +130,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 d3
 "
@@ -575,6 +581,8 @@ let
 responsivenessMonitor
 =
 new
+lazy
+.
 ResponsivenessMonitor
 (
 )
@@ -604,6 +612,8 @@ try
 csvString
 =
 await
+lazy
+.
 OS
 .
 File
@@ -675,6 +685,8 @@ csv
 {
 headerLine
 =
+lazy
+.
 d3
 .
 csv
@@ -689,6 +701,8 @@ csvString
 ;
 parsedLines
 =
+lazy
+.
 d3
 .
 csv
@@ -715,6 +729,8 @@ tsv
 {
 headerLine
 =
+lazy
+.
 d3
 .
 tsv
@@ -729,6 +745,8 @@ csvString
 ;
 parsedLines
 =
+lazy
+.
 d3
 .
 tsv
@@ -937,6 +955,8 @@ let
 report
 =
 await
+lazy
+.
 LoginHelper
 .
 maybeImportLogins

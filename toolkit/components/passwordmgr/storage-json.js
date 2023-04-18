@@ -75,11 +75,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -102,7 +108,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginStore
 "
@@ -125,7 +131,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 FXA_PWDMGR_HOST
 :
@@ -458,6 +464,8 @@ this
 _store
 =
 new
+lazy
+.
 LoginStore
 (
 jsonPath
@@ -908,6 +916,8 @@ ensureDataReady
 (
 )
 ;
+lazy
+.
 LoginHelper
 .
 checkLoginValues
@@ -1297,6 +1307,8 @@ saveSoon
 (
 )
 ;
+lazy
+.
 LoginHelper
 .
 notifyStorageChanged
@@ -1411,6 +1423,8 @@ saveSoon
 )
 ;
 }
+lazy
+.
 LoginHelper
 .
 notifyStorageChanged
@@ -1470,6 +1484,8 @@ logins
 let
 newLogin
 =
+lazy
+.
 LoginHelper
 .
 buildModifiedLogin
@@ -1569,6 +1585,8 @@ matchingLogin
 )
 {
 throw
+lazy
+.
 LoginHelper
 .
 createLoginAlreadyExistsError
@@ -1728,6 +1746,8 @@ break
 ;
 }
 }
+lazy
+.
 LoginHelper
 .
 notifyStorageChanged
@@ -2231,6 +2251,8 @@ this
 .
 searchLogins
 (
+lazy
+.
 LoginHelper
 .
 newPropertyBag
@@ -2593,6 +2615,8 @@ break
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 isOriginMatching
@@ -2629,6 +2653,8 @@ null
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 isOriginMatching
@@ -3003,6 +3029,8 @@ saveSoon
 (
 )
 ;
+lazy
+.
 LoginHelper
 .
 notifyStorageChanged
@@ -3073,6 +3101,8 @@ login
 hostname
 =
 =
+lazy
+.
 FXA_PWDMGR_HOST
 &
 &
@@ -3081,6 +3111,8 @@ login
 httpRealm
 =
 =
+lazy
+.
 FXA_PWDMGR_REALM
 )
 ;
@@ -3167,6 +3199,8 @@ saveSoon
 (
 )
 ;
+lazy
+.
 LoginHelper
 .
 notifyStorageChanged
@@ -3922,6 +3956,8 @@ log
 let
 logger
 =
+lazy
+.
 LoginHelper
 .
 createLogger

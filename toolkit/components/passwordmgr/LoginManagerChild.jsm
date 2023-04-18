@@ -188,11 +188,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DeferredTask
 "
@@ -215,7 +221,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormLikeFactory
 "
@@ -238,7 +244,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginFormFactory
 "
@@ -261,7 +267,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginRecipesContent
 "
@@ -284,7 +290,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -307,7 +313,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 InsecurePasswordUtils
 "
@@ -330,7 +336,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ContentDOMReference
 "
@@ -353,7 +359,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gFormFillService
 "
@@ -381,7 +387,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -393,6 +399,8 @@ log
 let
 logger
 =
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -429,6 +437,8 @@ clearRecipeCache
 =
 >
 {
+lazy
+.
 LoginRecipesContent
 .
 _clearRecipeCache
@@ -603,6 +613,8 @@ field
 value
 &
 &
+lazy
+.
 LoginHelper
 .
 captureInputChanges
@@ -610,6 +622,8 @@ captureInputChanges
 {
 if
 (
+lazy
+.
 LoginHelper
 .
 isPasswordFieldType
@@ -633,6 +647,8 @@ value
 else
 if
 (
+lazy
+.
 LoginHelper
 .
 isUsernameFieldType
@@ -724,6 +740,8 @@ aWebProgress
 .
 DOMWindow
 ;
+lazy
+.
 log
 (
 "
@@ -895,6 +913,8 @@ LOAD_CMD_NORMAL
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -915,6 +935,8 @@ loadType
 return
 ;
 }
+lazy
+.
 log
 (
 "
@@ -997,6 +1019,8 @@ let
 focusedInput
 }
 =
+lazy
+.
 gFormFillService
 ;
 if
@@ -1129,6 +1153,8 @@ return
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 enabled
@@ -1231,6 +1257,8 @@ change
 let
 formLikeRoot
 =
+lazy
+.
 FormLikeFactory
 .
 findRootForField
@@ -1251,6 +1279,8 @@ formLikeRoot
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -1383,6 +1413,8 @@ input
 let
 isPasswordType
 =
+lazy
+.
 LoginHelper
 .
 isPasswordFieldType
@@ -1425,6 +1457,8 @@ isPasswordType
 &
 &
 !
+lazy
+.
 LoginHelper
 .
 isUsernameFieldType
@@ -1439,6 +1473,8 @@ break
 let
 formLikeRoot
 =
+lazy
+.
 FormLikeFactory
 .
 findRootForField
@@ -1528,6 +1564,8 @@ field
 value
 )
 {
+lazy
+.
 log
 (
 "
@@ -1569,6 +1607,8 @@ field
 value
 )
 {
+lazy
+.
 log
 (
 "
@@ -1646,6 +1686,8 @@ field
 }
 if
 (
+lazy
+.
 LoginHelper
 .
 formRemovalCaptureEnabled
@@ -1709,6 +1751,8 @@ formLikeRoot
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 passwordEditCaptureEnabled
@@ -1727,6 +1771,8 @@ hasBeenTypePassword
 let
 form
 =
+lazy
+.
 LoginFormFactory
 .
 createFromField
@@ -1862,6 +1908,8 @@ DOM_VK_RETURN
 const
 autofillForm
 =
+lazy
+.
 LoginHelper
 .
 autofillForms
@@ -2156,6 +2204,8 @@ triggeredByFillingGenerated
 triggeredByFillingGenerated
 )
 {
+lazy
+.
 log
 (
 "
@@ -2193,6 +2243,8 @@ triggeredByFillingGenerated
 }
 )
 ;
+lazy
+.
 log
 (
 "
@@ -2244,6 +2296,8 @@ data
 loginFormOrigin
 loginsFound
 :
+lazy
+.
 LoginHelper
 .
 vanillaObjectsToLogins
@@ -2299,6 +2353,8 @@ useGeneratedPassword
 let
 inputElement
 =
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -2316,6 +2372,8 @@ if
 inputElement
 )
 {
+lazy
+.
 log
 (
 "
@@ -2339,11 +2397,15 @@ if
 inputElement
 !
 =
+lazy
+.
 gFormFillService
 .
 focusedInput
 )
 {
+lazy
+.
 log
 (
 "
@@ -2454,6 +2516,8 @@ repopulateAutocompletePopup
 (
 )
 {
+lazy
+.
 gFormFillService
 .
 QueryInterface
@@ -2463,6 +2527,8 @@ Ci
 nsIAutoCompleteInput
 )
 ;
+lazy
+.
 gFormFillService
 .
 controller
@@ -2471,6 +2537,8 @@ resetInternalState
 (
 )
 ;
+lazy
+.
 gFormFillService
 .
 showPopup
@@ -2621,6 +2689,8 @@ event
 let
 formLike
 =
+lazy
+.
 LoginFormFactory
 .
 createFromForm
@@ -2630,6 +2700,8 @@ event
 originalTarget
 )
 ;
+lazy
+.
 InsecurePasswordUtils
 .
 reportInsecurePasswords
@@ -2701,6 +2773,8 @@ defaultView
 let
 formLike
 =
+lazy
+.
 LoginFormFactory
 .
 createFromField
@@ -2710,6 +2784,8 @@ event
 originalTarget
 )
 ;
+lazy
+.
 InsecurePasswordUtils
 .
 reportInsecurePasswords
@@ -2754,6 +2830,8 @@ options
 let
 actionOrigin
 =
+lazy
+.
 LoginHelper
 .
 getFormActionOrigin
@@ -2803,6 +2881,8 @@ result
 importable
 loginsFound
 :
+lazy
+.
 LoginHelper
 .
 vanillaObjectsToLogins
@@ -2830,6 +2910,8 @@ window
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 formlessCaptureEnabled
@@ -2954,6 +3036,8 @@ docState
 fieldModificationsByRootElement
 )
 ;
+lazy
+.
 log
 (
 "
@@ -3032,6 +3116,8 @@ rootElement
 let
 formLike
 =
+lazy
+.
 LoginFormFactory
 .
 createFromForm
@@ -3063,6 +3149,8 @@ docState
 formlessModifiedPasswordFields
 )
 ;
+lazy
+.
 log
 (
 "
@@ -3094,6 +3182,8 @@ weakFormlessModifiedPasswordFields
 let
 formLike
 =
+lazy
+.
 LoginFormFactory
 .
 createFromField
@@ -3178,6 +3268,8 @@ formLike
 return
 ;
 }
+lazy
+.
 log
 (
 "
@@ -3280,6 +3372,8 @@ isTrusted
 return
 ;
 }
+lazy
+.
 log
 (
 "
@@ -3293,6 +3387,8 @@ submission
 let
 formLike
 =
+lazy
+.
 LoginFormFactory
 .
 createFromForm
@@ -3364,6 +3460,8 @@ of
 onVisibleTasks
 )
 {
+lazy
+.
 log
 (
 "
@@ -3397,6 +3495,8 @@ document
 fn
 )
 {
+lazy
+.
 log
 (
 document
@@ -3436,6 +3536,8 @@ if
 onVisibleTasks
 )
 {
+lazy
+.
 log
 (
 deferHandling
@@ -3555,6 +3657,8 @@ target
 .
 ownerDocument
 ;
+lazy
+.
 log
 (
 "
@@ -3635,6 +3739,8 @@ target
 let
 formLike
 =
+lazy
+.
 LoginFormFactory
 .
 createFromForm
@@ -3642,6 +3748,8 @@ createFromForm
 form
 )
 ;
+lazy
+.
 log
 (
 "
@@ -3696,6 +3804,8 @@ target
 .
 ownerDocument
 ;
+lazy
+.
 log
 (
 "
@@ -3749,6 +3859,8 @@ docState
 .
 numFormHasPossibleUsernameEvent
 >
+lazy
+.
 LoginHelper
 .
 usernameOnlyFormLookupThreshold
@@ -3820,6 +3932,8 @@ target
 let
 formLike
 =
+lazy
+.
 LoginFormFactory
 .
 createFromForm
@@ -3827,6 +3941,8 @@ createFromForm
 form
 )
 ;
+lazy
+.
 log
 (
 "
@@ -3854,6 +3970,8 @@ if
 usernameField
 )
 {
+lazy
+.
 log
 (
 "
@@ -3955,6 +4073,8 @@ getIsPrimaryPasswordSet
 (
 )
 ;
+lazy
+.
 log
 (
 "
@@ -4035,6 +4155,8 @@ originalTarget
 let
 formLike
 =
+lazy
+.
 LoginFormFactory
 .
 createFromField
@@ -4042,6 +4164,8 @@ createFromField
 pwField
 )
 ;
+lazy
+.
 log
 (
 "
@@ -4073,6 +4197,8 @@ if
 deferredTask
 )
 {
+lazy
+.
 log
 (
 "
@@ -4086,6 +4212,8 @@ soon
 "
 )
 ;
+lazy
+.
 LoginFormFactory
 .
 setForRootElement
@@ -4099,6 +4227,8 @@ formLike
 deferredTask
 =
 new
+lazy
+.
 DeferredTask
 (
 (
@@ -4109,6 +4239,8 @@ DeferredTask
 let
 formLike2
 =
+lazy
+.
 LoginFormFactory
 .
 getForRootElement
@@ -4118,6 +4250,8 @@ formLike
 rootElement
 )
 ;
+lazy
+.
 log
 (
 "
@@ -4182,6 +4316,8 @@ deferredTask
 isArmed
 )
 {
+lazy
+.
 log
 (
 "
@@ -4197,6 +4333,8 @@ LoginForm
 "
 )
 ;
+lazy
+.
 LoginFormFactory
 .
 setForRootElement
@@ -4230,6 +4368,8 @@ readyState
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -4275,6 +4415,8 @@ function
 (
 )
 {
+lazy
+.
 log
 (
 "
@@ -4312,6 +4454,8 @@ form
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 enabled
@@ -4474,6 +4618,8 @@ if
 inputElementIdentifier
 )
 {
+lazy
+.
 log
 (
 "
@@ -4492,6 +4638,8 @@ return
 let
 inputElement
 =
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -4505,6 +4653,8 @@ if
 inputElement
 )
 {
+lazy
+.
 log
 (
 "
@@ -4533,6 +4683,8 @@ originMatches
 {
 if
 (
+lazy
+.
 LoginHelper
 .
 getLoginOrigin
@@ -4548,6 +4700,8 @@ documentURI
 loginFormOrigin
 )
 {
+lazy
+.
 log
 (
 "
@@ -4613,6 +4767,8 @@ true
 let
 form
 =
+lazy
+.
 LoginFormFactory
 .
 createFromField
@@ -4676,6 +4832,8 @@ ownerDocument
 let
 autofillForm
 =
+lazy
+.
 LoginHelper
 .
 autofillForms
@@ -4694,6 +4852,8 @@ defaultView
 let
 formOrigin
 =
+lazy
+.
 LoginHelper
 .
 getLoginOrigin
@@ -4703,6 +4863,8 @@ doc
 documentURI
 )
 ;
+lazy
+.
 LoginRecipesContent
 .
 cacheRecipes
@@ -4774,6 +4936,8 @@ focusedField
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -4805,6 +4969,8 @@ timeDiff
 AUTOCOMPLETE_AFTER_RIGHT_CLICK_THRESHOLD_MS
 )
 {
+lazy
+.
 log
 (
 "
@@ -4830,6 +4996,8 @@ ms
 return
 ;
 }
+lazy
+.
 log
 (
 "
@@ -4842,6 +5010,8 @@ popup
 "
 )
 ;
+lazy
+.
 gFormFillService
 .
 showPopup
@@ -4858,6 +5028,8 @@ loginGUID
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 enabled
@@ -4885,6 +5057,8 @@ return
 if
 (
 !
+lazy
+.
 LoginFormFactory
 .
 createFromField
@@ -4898,6 +5072,8 @@ return
 }
 if
 (
+lazy
+.
 LoginHelper
 .
 isUsernameFieldType
@@ -4947,6 +5123,8 @@ loginGUID
 null
 )
 {
+lazy
+.
 log
 (
 "
@@ -4959,6 +5137,8 @@ acInputField
 let
 acForm
 =
+lazy
+.
 LoginFormFactory
 .
 createFromField
@@ -4976,6 +5156,8 @@ ownerDocument
 let
 formOrigin
 =
+lazy
+.
 LoginHelper
 .
 getLoginOrigin
@@ -4988,6 +5170,8 @@ documentURI
 let
 recipes
 =
+lazy
+.
 LoginRecipesContent
 .
 getRecipes
@@ -5263,6 +5447,8 @@ notPasswordSelector
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -5316,6 +5502,8 @@ length
 minPasswordLength
 )
 {
+lazy
+.
 log
 (
 "
@@ -5384,6 +5572,8 @@ pwFields
 length
 )
 {
+lazy
+.
 log
 (
 "
@@ -5414,6 +5604,8 @@ length
 5
 )
 {
+lazy
+.
 log
 (
 "
@@ -5508,6 +5700,8 @@ null
 let
 fieldOverrideRecipe
 =
+lazy
+.
 LoginRecipesContent
 .
 getFieldOverrides
@@ -5521,6 +5715,8 @@ if
 fieldOverrideRecipe
 )
 {
+lazy
+.
 log
 (
 "
@@ -5533,6 +5729,8 @@ fieldOverrideRecipe
 let
 pwOverrideField
 =
+lazy
+.
 LoginRecipesContent
 .
 queryLoginField
@@ -5548,6 +5746,8 @@ if
 pwOverrideField
 )
 {
+lazy
+.
 log
 (
 "
@@ -5560,6 +5760,8 @@ pwOverrideField
 let
 formLike
 =
+lazy
+.
 LoginFormFactory
 .
 createFromField
@@ -5596,6 +5798,8 @@ pwOverrideField
 let
 usernameOverrideField
 =
+lazy
+.
 LoginRecipesContent
 .
 queryLoginField
@@ -5658,6 +5862,8 @@ pwFields
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 usernameOnlyFormEnabled
@@ -5695,6 +5901,8 @@ getAutocompleteInfo
 .
 fieldName
 ;
+lazy
+.
 log
 (
 "
@@ -5780,6 +5988,8 @@ i
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 isUsernameFieldType
@@ -5867,6 +6077,8 @@ if
 usernameField
 )
 {
+lazy
+.
 log
 (
 "
@@ -5896,6 +6108,8 @@ getAutocompleteInfo
 .
 fieldName
 ;
+lazy
+.
 log
 (
 "
@@ -6071,6 +6285,8 @@ pwFields
 .
 element
 ;
+lazy
+.
 log
 (
 "
@@ -6278,6 +6494,8 @@ element
 }
 else
 {
+lazy
+.
 log
 (
 "
@@ -6344,6 +6562,8 @@ pwFields
 element
 ;
 }
+lazy
+.
 log
 (
 "
@@ -6374,6 +6594,8 @@ if
 oldPasswordField
 )
 {
+lazy
+.
 log
 (
 "
@@ -6402,6 +6624,8 @@ name
 }
 else
 {
+lazy
+.
 log
 (
 "
@@ -6453,6 +6677,8 @@ aDocument
 let
 rootElsWeakSet
 =
+lazy
+.
 LoginFormFactory
 .
 getRootElementsWeakSetForDocument
@@ -6470,6 +6696,8 @@ nondeterministicGetWeakSetKeys
 rootElsWeakSet
 )
 ;
+lazy
+.
 log
 (
 "
@@ -6512,6 +6740,8 @@ continue
 let
 formLike
 =
+lazy
+.
 LoginFormFactory
 .
 getForRootElement
@@ -6536,6 +6766,8 @@ aDocument
 let
 rootElsWeakSet
 =
+lazy
+.
 LoginFormFactory
 .
 getRootElementsWeakSetForDocument
@@ -6553,6 +6785,8 @@ nondeterministicGetWeakSetKeys
 rootElsWeakSet
 )
 ;
+lazy
+.
 log
 (
 "
@@ -6596,6 +6830,8 @@ continue
 let
 formLike
 =
+lazy
+.
 LoginFormFactory
 .
 getForRootElement
@@ -6619,6 +6855,8 @@ form
 reason
 )
 {
+lazy
+.
 log
 (
 "
@@ -6716,6 +6954,8 @@ targetField
 let
 origin
 =
+lazy
+.
 LoginHelper
 .
 getLoginOrigin
@@ -6731,6 +6971,8 @@ if
 origin
 )
 {
+lazy
+.
 log
 (
 (
@@ -6751,6 +6993,8 @@ return
 let
 recipes
 =
+lazy
+.
 LoginRecipesContent
 .
 getRecipes
@@ -6836,6 +7080,8 @@ fields
 usernameField
 )
 {
+lazy
+.
 log
 (
 "
@@ -6998,11 +7244,15 @@ win
 &
 &
 !
+lazy
+.
 LoginHelper
 .
 privateBrowsingCaptureEnabled
 )
 {
+lazy
+.
 log
 (
 (
@@ -7023,6 +7273,8 @@ return
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 enabled
@@ -7065,6 +7317,8 @@ fullyMungedPattern
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -7142,6 +7396,8 @@ match
 )
 )
 {
+lazy
+.
 log
 (
 usernameField
@@ -7203,11 +7459,15 @@ oldPasswordField
 &
 &
 !
+lazy
+.
 LoginHelper
 .
 storeWhenAutocompleteOff
 )
 {
+lazy
+.
 log
 (
 (
@@ -7389,6 +7649,8 @@ if
 fieldsModified
 &
 &
+lazy
+.
 LoginHelper
 .
 userInputRequiredToCapture
@@ -7413,6 +7675,8 @@ targetField
 )
 ;
 }
+lazy
+.
 log
 (
 (
@@ -7455,6 +7719,8 @@ triggeredByFillingGenerated
 )
 )
 {
+lazy
+.
 log
 (
 (
@@ -7514,6 +7780,8 @@ id
 let
 formActionOrigin
 =
+lazy
+.
 LoginHelper
 .
 getFormActionOrigin
@@ -7766,6 +8034,8 @@ _stopTreatingAsGeneratedPasswordField
 passwordField
 )
 {
+lazy
+.
 log
 (
 "
@@ -7906,6 +8176,8 @@ false
 }
 )
 {
+lazy
+.
 log
 (
 "
@@ -7917,6 +8189,8 @@ passwordField
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 enabled
@@ -7949,6 +8223,8 @@ disabled
 let
 loginForm
 =
+lazy
+.
 LoginFormFactory
 .
 createFromField
@@ -8016,6 +8292,8 @@ passwordField
 let
 form
 =
+lazy
+.
 LoginFormFactory
 .
 createFromField
@@ -8120,6 +8398,8 @@ if
 previousGeneratedPasswordField
 )
 {
+lazy
+.
 log
 (
 "
@@ -8201,6 +8481,8 @@ findIndex
 elem
 =
 >
+lazy
+.
 LoginHelper
 .
 isPasswordFieldType
@@ -8287,6 +8569,8 @@ idx
 {
 if
 (
+lazy
+.
 LoginHelper
 .
 isPasswordFieldType
@@ -8389,6 +8673,8 @@ password
 "
 )
 {
+lazy
+.
 log
 (
 "
@@ -8531,6 +8817,8 @@ form
 let
 loginOrigin
 =
+lazy
+.
 LoginHelper
 .
 getLoginOrigin
@@ -8545,6 +8833,8 @@ documentURI
 let
 formActionOrigin
 =
+lazy
+.
 LoginHelper
 .
 getFormActionOrigin
@@ -8565,6 +8855,8 @@ l
 let
 formActionMatches
 =
+lazy
+.
 LoginHelper
 .
 isOriginMatching
@@ -8576,6 +8868,8 @@ formActionOrigin
 {
 schemeUpgrades
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -8591,6 +8885,8 @@ true
 let
 formOriginMatches
 =
+lazy
+.
 LoginHelper
 .
 isOriginMatching
@@ -8602,6 +8898,8 @@ loginOrigin
 {
 schemeUpgrades
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -8625,6 +8923,8 @@ formOriginMatches
 ;
 logins
 =
+lazy
+.
 LoginHelper
 .
 dedupeLogins
@@ -8711,6 +9011,8 @@ objects
 )
 ;
 }
+lazy
+.
 log
 (
 "
@@ -8827,6 +9129,8 @@ browsers
 &
 &
 (
+lazy
+.
 InsecurePasswordUtils
 .
 isFormSecure
@@ -8836,6 +9140,8 @@ form
 |
 |
 !
+lazy
+.
 LoginHelper
 .
 showInsecureFieldWarning
@@ -8882,6 +9188,8 @@ null
 else
 if
 (
+lazy
+.
 LoginHelper
 .
 isUsernameFieldType
@@ -8926,6 +9234,8 @@ usernameField
 null
 )
 {
+lazy
+.
 log
 (
 "
@@ -8964,6 +9274,8 @@ passwordField
 readOnly
 )
 {
+lazy
+.
 log
 (
 "
@@ -8994,6 +9306,8 @@ if
 usernameField
 )
 {
+lazy
+.
 gFormFillService
 .
 markAsLoginManagerField
@@ -9030,6 +9344,8 @@ windowGlobalChild
 sameOriginWithTop
 )
 {
+lazy
+.
 log
 (
 "
@@ -9098,12 +9414,16 @@ userTriggered
 &
 &
 !
+lazy
+.
 LoginHelper
 .
 insecureAutofill
 &
 &
 !
+lazy
+.
 InsecurePasswordUtils
 .
 isFormSecure
@@ -9112,6 +9432,8 @@ form
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -9225,6 +9547,8 @@ if
 fit
 )
 {
+lazy
+.
 log
 (
 "
@@ -9259,6 +9583,8 @@ logins
 length
 )
 {
+lazy
+.
 log
 (
 "
@@ -9318,6 +9644,8 @@ password
 "
 )
 {
+lazy
+.
 log
 (
 "
@@ -9360,6 +9688,8 @@ password
 "
 )
 {
+lazy
+.
 log
 (
 "
@@ -9398,6 +9728,8 @@ value
 clobberPassword
 )
 {
+lazy
+.
 log
 (
 "
@@ -9493,6 +9825,8 @@ matchingLogins
 length
 )
 {
+lazy
+.
 log
 (
 "
@@ -9636,6 +9970,8 @@ length
 1
 )
 {
+lazy
+.
 log
 (
 "
@@ -9674,6 +10010,8 @@ if
 autofillForm
 )
 {
+lazy
+.
 log
 (
 "
@@ -9712,11 +10050,15 @@ off
 &
 &
 !
+lazy
+.
 LoginHelper
 .
 autofillAutocompleteOff
 )
 {
+lazy
+.
 log
 (
 "
@@ -9823,6 +10165,8 @@ passwordField
 null
 }
 ;
+lazy
+.
 log
 (
 "
@@ -10018,6 +10362,8 @@ passwordField
 )
 ;
 }
+lazy
+.
 log
 (
 "
@@ -10124,6 +10470,8 @@ usernameField
 let
 focusedElement
 =
+lazy
+.
 gFormFillService
 .
 focusedInput
@@ -10152,6 +10500,8 @@ autofillResult
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -10171,6 +10521,8 @@ autofilled
 "
 )
 ;
+lazy
+.
 gFormFillService
 .
 showPopup
@@ -10185,6 +10537,8 @@ if
 usernameField
 )
 {
+lazy
+.
 log
 (
 "
@@ -10271,6 +10625,8 @@ userHasInteracted
 let
 testOnlyUserHasInteracted
 =
+lazy
+.
 LoginHelper
 .
 testOnlyUserHasInteractedWithDocument
@@ -10299,6 +10655,8 @@ else
 userHasInteracted
 =
 !
+lazy
+.
 LoginHelper
 .
 userInputRequiredToCapture
@@ -10314,6 +10672,8 @@ doc
 lastUserGestureTimeStamp
 ;
 }
+lazy
+.
 log
 (
 "
@@ -10403,6 +10763,8 @@ aUsernameField
 let
 formLikeRoot
 =
+lazy
+.
 FormLikeFactory
 .
 findRootForField
@@ -10413,6 +10775,8 @@ aUsernameField
 let
 existingLoginForm
 =
+lazy
+.
 LoginFormFactory
 .
 getForRootElement
@@ -10448,6 +10812,8 @@ LoginForm
 )
 ;
 }
+lazy
+.
 log
 (
 "
@@ -10631,6 +10997,8 @@ hasBeenTypePassword
 &
 &
 !
+lazy
+.
 LoginHelper
 .
 isUsernameFieldType
@@ -10646,6 +11014,8 @@ noResult
 let
 form
 =
+lazy
+.
 LoginFormFactory
 .
 createFromField
@@ -10663,6 +11033,8 @@ ownerDocument
 let
 formOrigin
 =
+lazy
+.
 LoginHelper
 .
 getLoginOrigin
@@ -10675,6 +11047,8 @@ documentURI
 let
 recipes
 =
+lazy
+.
 LoginRecipesContent
 .
 getRecipes
@@ -10733,6 +11107,8 @@ hasBeenTypePassword
 &
 &
 !
+lazy
+.
 LoginHelper
 .
 isUsernameFieldType
@@ -10957,6 +11333,8 @@ null
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 isUsernameFieldType
@@ -11065,6 +11443,8 @@ undefined
 {
 result
 =
+lazy
+.
 LoginHelper
 .
 isInferredUsernameField
@@ -11127,6 +11507,8 @@ undefined
 {
 result
 =
+lazy
+.
 LoginHelper
 .
 isInferredEmailField
@@ -11202,6 +11584,8 @@ inputElement
 )
 |
 |
+lazy
+.
 LoginHelper
 .
 isInferredLoginForm
@@ -11213,6 +11597,8 @@ formElement
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 isInferredNonUsernameField

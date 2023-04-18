@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 RemoteSettings
 :
@@ -2570,6 +2576,8 @@ uk
 let
 db
 =
+lazy
+.
 RemoteSettings
 (
 this
@@ -2630,6 +2638,8 @@ cleanWebsitesWithSharedCredentials
 let
 db
 =
+lazy
+.
 RemoteSettings
 (
 this
@@ -2737,6 +2747,8 @@ consecutive
 let
 db
 =
+lazy
+.
 RemoteSettings
 (
 this
@@ -2834,6 +2846,8 @@ cleanImprovedPasswordRules
 let
 db
 =
+lazy
+.
 RemoteSettings
 (
 this

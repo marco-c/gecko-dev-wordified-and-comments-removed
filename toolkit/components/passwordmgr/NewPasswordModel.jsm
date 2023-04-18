@@ -7,11 +7,17 @@ NewPasswordModel
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 fathom
 "
@@ -58,6 +64,8 @@ euclidean
 }
 }
 =
+lazy
+.
 fathom
 ;
 const

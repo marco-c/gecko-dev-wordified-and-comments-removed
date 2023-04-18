@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gPrompterService
 "
@@ -124,7 +130,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -147,7 +153,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginManagerPrompter
 "
@@ -852,6 +858,8 @@ if
 hasLogins
 &
 &
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -1210,6 +1218,8 @@ log
 let
 logger
 =
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -1492,6 +1502,8 @@ true
 ;
 }
 return
+lazy
+.
 LoginHelper
 .
 privateBrowsingCaptureEnabled
@@ -2455,6 +2467,8 @@ origin
 httpRealm
 schemeUpgrades
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -2492,6 +2506,8 @@ timePasswordChanged
 ;
 foundLogins
 =
+lazy
+.
 LoginHelper
 .
 dedupeLogins
@@ -2968,6 +2984,8 @@ httpRealm
 let
 promptBrowser
 =
+lazy
+.
 LoginHelper
 .
 getBrowserForPrompt
@@ -2978,6 +2996,8 @@ browser
 let
 savePrompt
 =
+lazy
+.
 gPrompterService
 .
 promptToSavePassword
@@ -3039,6 +3059,8 @@ httpRealm
 let
 promptBrowser
 =
+lazy
+.
 LoginHelper
 .
 getBrowserForPrompt
@@ -3049,6 +3071,8 @@ browser
 let
 savePrompt
 =
+lazy
+.
 gPrompterService
 .
 promptToChangePassword
@@ -4504,6 +4528,8 @@ log
 let
 logger
 =
+lazy
+.
 LoginHelper
 .
 createLogger

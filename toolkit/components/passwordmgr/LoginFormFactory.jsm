@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormLikeFactory
 "
@@ -63,7 +69,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -86,7 +92,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -96,6 +102,8 @@ log
 >
 {
 return
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -132,6 +140,8 @@ aForm
 let
 formLike
 =
+lazy
+.
 FormLikeFactory
 .
 createFromForm
@@ -143,6 +153,8 @@ formLike
 .
 action
 =
+lazy
+.
 LoginHelper
 .
 getFormActionOrigin
@@ -171,6 +183,8 @@ formLike
 rootElement
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -232,6 +246,8 @@ hasBeenTypePassword
 &
 &
 !
+lazy
+.
 LoginHelper
 .
 isUsernameFieldType
@@ -274,6 +290,8 @@ aField
 form
 |
 |
+lazy
+.
 FormLikeFactory
 .
 closestFormIgnoringShadowRoots
@@ -308,6 +326,8 @@ form
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -338,6 +358,8 @@ form
 let
 formLike
 =
+lazy
+.
 FormLikeFactory
 .
 createFromField
@@ -349,6 +371,8 @@ formLike
 .
 action
 =
+lazy
+.
 LoginHelper
 .
 getLoginOrigin
@@ -360,6 +384,8 @@ ownerDocument
 baseURI
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -402,6 +428,8 @@ formLike
 rootElement
 )
 ;
+lazy
+.
 log
 .
 debug

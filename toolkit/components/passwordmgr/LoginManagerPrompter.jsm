@@ -70,11 +70,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -97,7 +103,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 usernameAutocompleteSearch
 "
@@ -129,7 +135,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 strBundle
 "
@@ -474,6 +480,8 @@ possibleValues
 undefined
 )
 {
+lazy
+.
 log
 .
 debug
@@ -608,6 +616,8 @@ autoFilledLoginGuid
 }
 )
 {
+lazy
+.
 log
 .
 debug
@@ -621,6 +631,8 @@ autoSavedLoginGuid
 }
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1012,6 +1024,8 @@ currentNotification
 let
 foundLogins
 =
+lazy
+.
 LoginHelper
 .
 searchLoginsWithObject
@@ -1034,6 +1048,8 @@ login
 httpRealm
 schemeUpgrades
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -1618,6 +1634,8 @@ persistData
 let
 foundLogins
 =
+lazy
+.
 LoginHelper
 .
 searchLoginsWithObject
@@ -1640,6 +1658,8 @@ login
 httpRealm
 schemeUpgrades
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -1672,6 +1692,8 @@ timePasswordChanged
 ;
 logins
 =
+lazy
+.
 LoginHelper
 .
 dedupeLogins
@@ -1712,6 +1734,8 @@ username
 )
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1773,6 +1797,8 @@ logins
 length
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1883,6 +1909,8 @@ login
 username
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1931,6 +1959,8 @@ autoFilledLoginGuid
 }
 else
 {
+lazy
+.
 log
 .
 debug
@@ -1993,6 +2023,8 @@ if
 loginToRemove
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2083,6 +2115,8 @@ removeMasterPassword
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 isPrimaryPasswordSet
@@ -2124,6 +2158,8 @@ titlebar
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 isPrimaryPasswordSet
@@ -2618,6 +2654,8 @@ icon
 "
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -2764,6 +2802,8 @@ case
 showing
 "
 :
+lazy
+.
 log
 .
 debug
@@ -3123,6 +3163,8 @@ togglePasswordAccessKey
 let
 hideToggle
 =
+lazy
+.
 LoginHelper
 .
 isPrimaryPasswordSet
@@ -3219,6 +3261,8 @@ shown
 "
 :
 {
+lazy
+.
 log
 .
 debug
@@ -3293,6 +3337,8 @@ removed
 "
 :
 {
+lazy
+.
 log
 .
 debug
@@ -3455,6 +3501,8 @@ notification
 .
 anchorElement
 ;
+lazy
+.
 log
 .
 debug
@@ -3694,6 +3742,8 @@ logins
 aNewLogin
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3800,6 +3850,8 @@ selectedIndex
 value
 ]
 ;
+lazy
+.
 log
 .
 debug
@@ -4024,6 +4076,8 @@ formatArgs
 )
 {
 return
+lazy
+.
 strBundle
 .
 formatStringFromName
@@ -4034,6 +4088,8 @@ formatArgs
 ;
 }
 return
+lazy
+.
 strBundle
 .
 GetStringFromName
@@ -4121,6 +4177,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 warn
@@ -4345,6 +4403,8 @@ RESULT_NOMATCH
 )
 ;
 }
+lazy
+.
 usernameAutocompleteSearch
 .
 overrideNextResult
@@ -4425,6 +4485,8 @@ login
 origin
 schemeUpgrades
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -4637,7 +4699,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -4647,6 +4709,8 @@ log
 >
 {
 return
+lazy
+.
 LoginHelper
 .
 createLogger

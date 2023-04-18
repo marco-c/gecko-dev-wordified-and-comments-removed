@@ -46,11 +46,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -307,6 +313,8 @@ ignorePassword
 )
 {
 return
+lazy
+.
 LoginHelper
 .
 doLoginsMatch
