@@ -75226,6 +75226,17 @@ EnableCodeCoverage
 (
 )
 ;
+}
+if
+(
+coverage
+:
+:
+IsLCovEnabled
+(
+)
+)
+{
 defaultDelazificationMode
 =
 JS
