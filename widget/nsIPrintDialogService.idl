@@ -61,9 +61,6 @@ in
 mozIDOMWindowProxy
 aParent
 in
-boolean
-aHaveSelection
-in
 nsIPrintSettings
 aPrintSettings
 )

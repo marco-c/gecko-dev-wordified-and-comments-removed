@@ -779,8 +779,6 @@ nsPrintDialogWidgetGTK
 nsPIDOMWindowOuter
 *
 aParent
-bool
-aHaveSelection
 nsIPrintSettings
 *
 aPrintSettings
@@ -910,8 +908,6 @@ nsPrintDialogWidgetGTK
 nsPIDOMWindowOuter
 *
 aParent
-bool
-aHaveSelection
 nsIPrintSettings
 *
 aSettings
@@ -1120,6 +1116,16 @@ FALSE
 0
 )
 ;
+bool
+canSelectText
+=
+aSettings
+-
+>
+GetIsPrintSelectionRBEnabled
+(
+)
+;
 if
 (
 gtk_major_version
@@ -1159,7 +1165,7 @@ has
 -
 selection
 "
-aHaveSelection
+canSelectText
 "
 embed
 -
@@ -1197,7 +1203,7 @@ get
 gtk_widget_set_sensitive
 (
 selection_only_toggle
-aHaveSelection
+canSelectText
 )
 ;
 gtk_box_pack_start
@@ -2861,8 +2867,6 @@ ShowPrintDialog
 mozIDOMWindowProxy
 *
 aParent
-bool
-aHaveSelection
 nsIPrintSettings
 *
 aSettings
@@ -2902,7 +2906,6 @@ From
 (
 aParent
 )
-aHaveSelection
 aSettings
 )
 ;
