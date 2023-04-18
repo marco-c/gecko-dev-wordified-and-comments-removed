@@ -922,6 +922,9 @@ send_in_pings
 test
 -
 ping
+telemetry_mirror
+:
+TELEMETRY_TEST_MIRROR_FOR_TIMING
 mabels_kitchen_counters
 :
 type
