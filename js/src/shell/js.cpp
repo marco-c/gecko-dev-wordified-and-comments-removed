@@ -35218,7 +35218,7 @@ stencil
 JS
 :
 :
-FinishOffThreadCompileToStencil
+FinishCompileToStencilOffThread
 (
 cx
 token
