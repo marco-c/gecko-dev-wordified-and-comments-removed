@@ -118,6 +118,15 @@ include
 "
 jit
 /
+JitScript
+.
+h
+"
+#
+include
+"
+jit
+/
 MoveEmitter
 .
 h
