@@ -2693,6 +2693,7 @@ panelId
 checkActiveUpdate
 continueFile
 downloadInfo
+forceApply
 }
 =
 step
@@ -3301,6 +3302,9 @@ panelId
 "
 apply
 "
+|
+|
+forceApply
 )
 {
 buttonEl
@@ -3645,6 +3649,7 @@ panelId
 checkActiveUpdate
 continueFile
 downloadInfo
+forceApply
 }
 =
 step
@@ -4179,6 +4184,7 @@ linkedBrowser
 {
 panelId
 gDetailsURL
+forceApply
 }
 ]
 async
@@ -4186,6 +4192,7 @@ async
 {
 panelId
 gDetailsURL
+forceApply
 }
 )
 =
@@ -4357,6 +4364,9 @@ id
 "
 apply
 "
+|
+|
+forceApply
 )
 {
 buttonEl
