@@ -917,8 +917,7 @@ manual
 )
 or
 [
-ref
-tests
+reftests
 ]
 (
 .
