@@ -342,7 +342,6 @@ aProofOfLock
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 static
 const
@@ -358,6 +357,10 @@ Entry
 256
 >
 mEntries
+GUARDED_BY
+(
+mMutex
+)
 ;
 }
 ;

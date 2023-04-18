@@ -652,6 +652,12 @@ MutexAutoLock
 &
 )
 {
+mMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 if
 (
 mEntries
@@ -820,6 +826,12 @@ MutexAutoLock
 &
 )
 {
+mMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 Entry
 *
 entry
