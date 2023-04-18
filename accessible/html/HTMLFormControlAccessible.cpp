@@ -574,7 +574,7 @@ void
 HTMLRadioButtonAccessible
 :
 :
-GetPositionAndSizeInternal
+GetPositionAndSetSize
 (
 int32_t
 *

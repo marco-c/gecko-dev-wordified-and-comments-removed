@@ -1556,7 +1556,7 @@ void
 XULToolbarButtonAccessible
 :
 :
-GetPositionAndSizeInternal
+GetPositionAndSetSize
 (
 int32_t
 *
