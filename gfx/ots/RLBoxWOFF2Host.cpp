@@ -776,9 +776,7 @@ static_cast
 uint64_t
 >
 (
-1
-.
-33
+2
 *
 (
 aLength
