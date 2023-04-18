@@ -298,7 +298,7 @@ width
 "
 popup
 :
-false
+true
 }
 {
 features
@@ -314,7 +314,7 @@ innerWidth
 "
 popup
 :
-false
+true
 }
 {
 features

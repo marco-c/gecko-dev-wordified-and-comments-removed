@@ -5499,6 +5499,8 @@ uint32_t
 aChromeFlags
 bool
 aCalledFromJS
+bool
+aWidthSpecified
 nsIURI
 *
 aURI
@@ -5514,8 +5516,6 @@ bool
 aForceNoOpener
 bool
 aForceNoReferrer
-bool
-aIsPopupRequested
 nsDocShellLoadState
 *
 aLoadState
@@ -5815,6 +5815,7 @@ aTabOpener
 parent
 aChromeFlags
 aCalledFromJS
+aWidthSpecified
 aURI
 features
 fullZoom
@@ -5885,7 +5886,6 @@ Type
 :
 :
 Content
-aIsPopupRequested
 )
 ;
 MOZ_ALWAYS_SUCCEEDS
@@ -6760,6 +6760,7 @@ parent
 newChild
 aChromeFlags
 aCalledFromJS
+aWidthSpecified
 aOpenWindowInfo
 -
 >

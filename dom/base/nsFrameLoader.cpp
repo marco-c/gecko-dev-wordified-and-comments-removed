@@ -1763,7 +1763,6 @@ Type
 :
 :
 Content
-false
 )
 ;
 }
@@ -1819,7 +1818,6 @@ parentBC
 GetType
 (
 )
-false
 !
 aNetworkCreated
 )

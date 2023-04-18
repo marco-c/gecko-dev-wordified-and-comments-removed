@@ -1755,8 +1755,6 @@ aName
 Type
 aType
 bool
-aIsPopupRequested
-bool
 aCreatedDynamically
 )
 {
@@ -2454,12 +2452,6 @@ GetAllowJavascript
 :
 true
 ;
-fields
-.
-mIsPopupRequested
-=
-aIsPopupRequested
-;
 if
 (
 !
@@ -2724,7 +2716,6 @@ u
 "
 _ns
 aType
-false
 )
 )
 ;

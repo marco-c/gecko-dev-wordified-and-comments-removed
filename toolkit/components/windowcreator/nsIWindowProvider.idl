@@ -71,6 +71,9 @@ in
 boolean
 aCalledFromJS
 in
+boolean
+aWidthSpecified
+in
 nsIURI
 aURI
 in
@@ -85,9 +88,6 @@ aForceNoOpener
 in
 boolean
 aForceNoReferrer
-in
-boolean
-aIsPopupRequested
 in
 nsDocShellLoadStatePtr
 aLoadState

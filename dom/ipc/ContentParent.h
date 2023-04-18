@@ -2093,6 +2093,10 @@ aCalledFromJS
 const
 bool
 &
+aWidthSpecified
+const
+bool
+&
 aForPrinting
 const
 bool
@@ -2159,6 +2163,10 @@ const
 bool
 &
 aCalledFromJS
+const
+bool
+&
+aWidthSpecified
 nsIURI
 *
 aURIToLoad
@@ -3212,6 +3220,10 @@ const
 bool
 &
 aCalledFromJS
+const
+bool
+&
+aWidthSpecified
 const
 bool
 &

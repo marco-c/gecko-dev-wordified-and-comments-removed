@@ -2383,6 +2383,8 @@ uint32_t
 aChromeFlags
 bool
 aCalledFromJS
+bool
+aWidthSpecified
 nsIURI
 *
 aURI
@@ -2398,8 +2400,6 @@ bool
 aForceNoOpener
 bool
 aForceNoReferrer
-bool
-aIsPopupRequested
 nsDocShellLoadState
 *
 aLoadState
@@ -2520,6 +2520,7 @@ GetDOMWindow
 )
 aChromeFlags
 aCalledFromJS
+aWidthSpecified
 aOpenWindowInfo
 -
 >
