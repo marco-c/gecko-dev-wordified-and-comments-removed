@@ -2575,6 +2575,8 @@ JSContext
 cx
 HandleObject
 iter
+CompletionKind
+kind
 )
 ;
 }

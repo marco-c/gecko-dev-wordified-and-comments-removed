@@ -10,6 +10,8 @@ js
 enum
 class
 CompletionKind
+:
+uint8_t
 {
 Normal
 Return

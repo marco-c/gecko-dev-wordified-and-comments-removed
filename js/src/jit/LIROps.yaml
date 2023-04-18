@@ -7366,6 +7366,9 @@ WordSized
 num_temps
 :
 1
+mir_op
+:
+true
 #
 Read
 the

@@ -2893,6 +2893,16 @@ ionScript
 (
 )
 ;
+CompletionKind
+kind
+=
+ic
+-
+>
+completionKind
+(
+)
+;
 TryAttachIonStub
 <
 CloseIterIRGenerator
@@ -2902,6 +2912,7 @@ cx
 ic
 ionScript
 iter
+kind
 )
 ;
 return
@@ -2909,6 +2920,7 @@ CloseIterOperation
 (
 cx
 iter
+kind
 )
 ;
 }

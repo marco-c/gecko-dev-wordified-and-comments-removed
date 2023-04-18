@@ -6801,6 +6801,11 @@ operands
 iter
 :
 Object
+arguments
+:
+completionKind
+:
+uint8_t
 possibly_calls
 :
 true

@@ -2912,6 +2912,9 @@ iter_
 Register
 temp_
 ;
+CompletionKind
+completionKind_
+;
 public
 :
 IonCloseIterIC
@@ -2922,6 +2925,8 @@ Register
 iter
 Register
 temp
+CompletionKind
+completionKind
 )
 :
 IonIC
@@ -2943,6 +2948,10 @@ temp_
 (
 temp
 )
+completionKind_
+(
+completionKind
+)
 {
 }
 LiveRegisterSet
@@ -2973,6 +2982,16 @@ const
 {
 return
 iter_
+;
+}
+CompletionKind
+completionKind
+(
+)
+const
+{
+return
+completionKind_
 ;
 }
 [

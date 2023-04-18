@@ -10747,6 +10747,8 @@ ObjOperandId
 iterId
 ObjOperandId
 calleeId
+CompletionKind
+kind
 )
 {
 JitSpew
@@ -10948,6 +10950,17 @@ callJit
 callee
 )
 ;
+if
+(
+kind
+!
+=
+CompletionKind
+:
+:
+Throw
+)
+{
 Label
 success
 ;
@@ -11039,6 +11052,7 @@ setFramePushed
 framePushedAfterCall
 )
 ;
+}
 masm
 .
 freeStack

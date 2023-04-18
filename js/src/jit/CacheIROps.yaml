@@ -8099,6 +8099,9 @@ ObjId
 callee
 :
 ObjId
+kind
+:
+CompletionKindImm
 -
 name
 :

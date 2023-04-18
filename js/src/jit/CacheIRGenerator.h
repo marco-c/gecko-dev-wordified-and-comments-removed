@@ -3655,6 +3655,9 @@ IRGenerator
 HandleObject
 iter_
 ;
+CompletionKind
+kind_
+;
 void
 trackAttached
 (
@@ -3679,6 +3682,8 @@ ICState
 state
 HandleObject
 iter
+CompletionKind
+kind
 )
 ;
 AttachDecision
