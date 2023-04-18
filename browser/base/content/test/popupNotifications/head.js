@@ -1865,8 +1865,6 @@ secondaryButton
 .
 nextElementSibling
 .
-nextElementSibling
-.
 focus
 (
 )

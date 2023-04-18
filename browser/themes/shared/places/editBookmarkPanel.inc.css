@@ -554,14 +554,6 @@ bgcolor
 ;
 }
 #
-editBookmarkPanelBottomButtons
-{
-display
-:
-flex
-;
-}
-#
 editBookmarkPanel
 >
 #
@@ -771,7 +763,7 @@ button
 {
 margin
 -
-block
+top
 :
 0
 ;
