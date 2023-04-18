@@ -773,6 +773,11 @@ mDidLoadDataForPrinting
 false
 ;
 bool
+mShrinkToFit
+=
+false
+;
+bool
 mDoingInitialReflow
 =
 false

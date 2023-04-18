@@ -2043,9 +2043,6 @@ mPrintSettings
 GetShrinkToFit
 (
 &
-printData
--
->
 mShrinkToFit
 )
 ;
@@ -3741,9 +3738,6 @@ true
 }
 if
 (
-printData
--
->
 mShrinkToFit
 )
 {
@@ -5394,9 +5388,6 @@ mParent
 {
 if
 (
-mPrt
--
->
 mShrinkToFit
 )
 {
@@ -5623,9 +5614,6 @@ IgnoreErrors
 }
 if
 (
-mPrt
--
->
 mShrinkToFit
 &
 &

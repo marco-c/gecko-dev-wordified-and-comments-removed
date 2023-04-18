@@ -163,9 +163,6 @@ mIsAborted
 bool
 mPreparingForPrint
 ;
-bool
-mShrinkToFit
-;
 int32_t
 mNumPrintablePages
 ;
