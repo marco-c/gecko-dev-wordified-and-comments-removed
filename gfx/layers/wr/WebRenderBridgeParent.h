@@ -770,13 +770,6 @@ ipc
 IPCResult
 RecvClearCachedResources
 (
-nsTArray
-<
-WebRenderParentCommand
->
-&
-&
-aCommands
 )
 override
 ;
