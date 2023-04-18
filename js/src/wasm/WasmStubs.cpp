@@ -14150,7 +14150,7 @@ BoxValue_Anyref
 ;
 masm
 .
-branchTest32
+branchTestPtr
 (
 Assembler
 :
