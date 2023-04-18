@@ -112,7 +112,7 @@ waitForEvents
 waitForNetworkEvents
 (
 monitor
-4
+2
 {
 expectedEventTimings
 :
@@ -158,12 +158,12 @@ is
 requests
 .
 length
-4
+2
 "
 There
 should
 be
-4
+2
 requests
 "
 )
