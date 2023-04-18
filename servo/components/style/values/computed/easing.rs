@@ -11,6 +11,7 @@ computed
 {
 Integer
 Number
+Percentage
 }
 ;
 use
@@ -36,6 +37,7 @@ TimingFunction
 <
 Integer
 Number
+Percentage
 >
 ;
 pub
@@ -43,4 +45,17 @@ type
 TimingFunction
 =
 ComputedTimingFunction
+;
+pub
+type
+ComputedLinearStop
+=
+easing
+:
+:
+LinearStop
+<
+Number
+Percentage
+>
 ;

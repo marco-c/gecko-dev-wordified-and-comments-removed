@@ -35281,6 +35281,10 @@ inherited_timing_function
 )
 .
 mTiming
+.
+clone
+(
+)
 }
 }
 ;

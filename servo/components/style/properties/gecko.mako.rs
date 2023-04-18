@@ -7519,6 +7519,10 @@ gecko_ffi_name
 {
 member
 }
+.
+clone
+(
+)
 ;
 %
 else
@@ -8214,6 +8218,10 @@ index
 mTimingFunction
 .
 mTiming
+.
+clone
+(
+)
 }
 <
 /
