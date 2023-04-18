@@ -959,6 +959,15 @@ newtab
 /
 node_modules
 /
+^
+browser
+/
+components
+/
+storybook
+/
+node_modules
+/
 #
 Ignore
 talos
