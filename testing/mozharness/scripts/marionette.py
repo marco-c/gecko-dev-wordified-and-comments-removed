@@ -2706,6 +2706,17 @@ MOZ_UPLOAD_DIR
 )
         
 env
+[
+"
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+"
+]
+=
+"
+1
+"
+        
+env
 =
 self
 .
