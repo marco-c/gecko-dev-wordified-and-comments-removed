@@ -155,6 +155,17 @@ used
 error
 "
 "
+mozilla
+/
+use
+-
+isInstance
+"
+:
+"
+error
+"
+"
 no
 -
 redeclare
