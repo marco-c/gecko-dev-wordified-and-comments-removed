@@ -1710,6 +1710,9 @@ filteredEntries
 if
 (
 datalistItems
+?
+.
+length
 )
 {
 filteredEntries
