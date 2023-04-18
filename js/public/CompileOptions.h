@@ -387,16 +387,6 @@ nonSyntacticScope
 false
 ;
 bool
-privateClassFields
-=
-false
-;
-bool
-privateClassMethods
-=
-false
-;
-bool
 topLevelAwait
 =
 true

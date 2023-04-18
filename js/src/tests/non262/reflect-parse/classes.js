@@ -2607,15 +2607,6 @@ foo
 )
 )
 ;
-if
-(
-getRealmConfiguration
-(
-)
-.
-privateMethods
-)
-{
 assertClassError
 (
 "
@@ -2955,7 +2946,6 @@ getter
 SyntaxError
 )
 ;
-}
 function
 assertValidSuperProps
 (
