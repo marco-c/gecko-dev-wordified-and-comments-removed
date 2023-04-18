@@ -18896,9 +18896,6 @@ nsstring
 qlog
 "
 "
-static_prefs
-"
-"
 thin
 -
 vec

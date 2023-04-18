@@ -1784,11 +1784,6 @@ xulstore
 libfuzzer
 =
 [
-"
-neqo_glue
-/
-fuzzing
-"
 ]
 webrtc
 =
