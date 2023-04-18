@@ -138,9 +138,9 @@ dom
 .
 streams
 .
-readable_stream_byob_request
+expose
 .
-enabled
+ReadableStreamBYOBRequest
 "
 ]
 interface

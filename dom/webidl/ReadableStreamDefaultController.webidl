@@ -138,9 +138,9 @@ dom
 .
 streams
 .
-readable_stream_default_controller
+expose
 .
-enabled
+ReadableStreamDefaultController
 "
 ]
 interface
