@@ -35,9 +35,6 @@ html
 >
 "
 ;
-let
-redirect
-;
 if
 (
 request
@@ -51,6 +48,7 @@ script
 "
 )
 {
+var
 redirect
 =
 "
@@ -111,6 +109,7 @@ image_http
 "
 )
 {
+var
 redirect
 =
 "
@@ -169,6 +168,7 @@ image_redirect_http_sjs
 "
 )
 {
+var
 redirect
 =
 "
@@ -233,6 +233,7 @@ image_redirect_https
 "
 )
 {
+var
 redirect
 =
 "

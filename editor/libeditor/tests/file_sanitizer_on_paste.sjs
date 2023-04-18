@@ -11,12 +11,16 @@ request
 .
 queryString
 .
-includes
+indexOf
 (
 "
 report
 "
 )
+!
+=
+-
+1
 )
 {
 response

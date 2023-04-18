@@ -1516,7 +1516,7 @@ resetState
 "
 )
 {
-let
+var
 state
 =
 getSharedState
@@ -1580,7 +1580,7 @@ name
 content
 =
 content
-let
+var
 policy
 =
 params
@@ -1598,7 +1598,7 @@ split
 1
 ]
 ;
-let
+var
 name
 =
 params
@@ -1616,7 +1616,7 @@ split
 1
 ]
 ;
-let
+var
 content
 =
 params
@@ -1634,7 +1634,7 @@ split
 1
 ]
 ;
-let
+var
 result
 =
 getSharedState
@@ -1950,7 +1950,7 @@ b64
 encoded
 -
 string
-let
+var
 imgPolicy
 =
 unescape
@@ -1971,7 +1971,7 @@ split
 ]
 )
 ;
-let
+var
 name
 =
 unescape
@@ -1992,7 +1992,7 @@ split
 ]
 )
 ;
-let
+var
 metaPolicy
 =
 "
@@ -2080,7 +2080,7 @@ string
 name
 =
 name
-let
+var
 imgPolicy
 =
 unescape
@@ -2101,7 +2101,7 @@ split
 ]
 )
 ;
-let
+var
 name
 =
 unescape
@@ -2193,7 +2193,7 @@ string
 name
 =
 name
-let
+var
 imgPolicy1
 =
 unescape
@@ -2214,7 +2214,7 @@ split
 ]
 )
 ;
-let
+var
 imgPolicy2
 =
 unescape
@@ -2235,7 +2235,7 @@ split
 ]
 )
 ;
-let
+var
 imgPolicy3
 =
 unescape
@@ -2256,7 +2256,7 @@ split
 ]
 )
 ;
-let
+var
 name
 =
 unescape
@@ -2334,7 +2334,7 @@ string
 name
 =
 name
-let
+var
 policy
 =
 unescape
@@ -2355,7 +2355,7 @@ split
 ]
 )
 ;
-let
+var
 name
 =
 unescape
@@ -2431,7 +2431,7 @@ string
 name
 =
 name
-let
+var
 policy
 =
 unescape
@@ -2452,7 +2452,7 @@ split
 ]
 )
 ;
-let
+var
 name
 =
 unescape
@@ -2524,7 +2524,7 @@ string
 name
 =
 name
-let
+var
 imgPolicy
 =
 unescape
@@ -2545,7 +2545,7 @@ split
 ]
 )
 ;
-let
+var
 policy
 =
 unescape
@@ -2566,7 +2566,7 @@ split
 ]
 )
 ;
-let
+var
 name
 =
 unescape
@@ -2639,7 +2639,7 @@ string
 name
 =
 name
-let
+var
 imgPolicy
 =
 unescape
@@ -2660,7 +2660,7 @@ split
 ]
 )
 ;
-let
+var
 policy
 =
 unescape
@@ -2681,7 +2681,7 @@ split
 ]
 )
 ;
-let
+var
 name
 =
 unescape

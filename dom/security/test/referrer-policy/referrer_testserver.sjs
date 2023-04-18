@@ -2168,16 +2168,6 @@ onChildComplete
 >
 ;
 }
-/
-/
-eslint
--
-disable
--
-next
--
-line
-complexity
 function
 handleRequest
 (
@@ -2684,7 +2674,7 @@ origin
 name
 =
 name
-let
+var
 policy
 =
 params
@@ -2696,7 +2686,7 @@ policy
 "
 )
 ;
-let
+var
 name
 =
 params
@@ -2708,7 +2698,7 @@ NAME
 "
 )
 ;
-let
+var
 type
 =
 params
@@ -2720,7 +2710,7 @@ type
 "
 )
 ;
-let
+var
 result
 =
 getSharedState
@@ -3691,6 +3681,7 @@ schemeTo
 return
 ;
 }
+var
 _getPage
 =
 createLinkPageUsingRefferer

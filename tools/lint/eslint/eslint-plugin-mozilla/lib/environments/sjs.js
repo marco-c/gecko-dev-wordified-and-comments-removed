@@ -44,9 +44,6 @@ false
 registerPathHandler
 :
 false
-Services
-:
-false
 importScripts
 :
 false
