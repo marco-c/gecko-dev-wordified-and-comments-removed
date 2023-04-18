@@ -1850,6 +1850,15 @@ this
 uint32_t
 )
 {
+PROFILER_MARKER_UNTYPED
+(
+"
+GC
+Interrupt
+"
+GCCC
+)
+;
 mInterruptRequested
 =
 true
