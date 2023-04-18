@@ -432,7 +432,7 @@ Bookmark
 .
 accesskey
 =
-i
+E
 places
 -
 edit
@@ -446,7 +446,7 @@ Edit
 .
 accesskey
 =
-i
+E
 places
 -
 edit
@@ -461,7 +461,7 @@ Folder
 .
 accesskey
 =
-i
+E
 places
 -
 delete
