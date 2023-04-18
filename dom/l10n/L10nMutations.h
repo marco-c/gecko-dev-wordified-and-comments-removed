@@ -39,17 +39,6 @@ nsTHashSet
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-DOMLocalization
-.
-h
-"
 class
 nsRefreshDriver
 ;
@@ -59,6 +48,9 @@ mozilla
 namespace
 dom
 {
+class
+DOMLocalization
+;
 class
 L10nMutations
 final
