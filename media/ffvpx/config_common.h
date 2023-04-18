@@ -74,6 +74,9 @@ undef
 CONFIG_VAAPI
 #
 undef
+CONFIG_VAAPI_1
+#
+undef
 CONFIG_VP8_VAAPI_HWACCEL
 #
 undef
@@ -90,6 +93,10 @@ CONFIG_AV1_DECODER
 #
 define
 CONFIG_VAAPI
+1
+#
+define
+CONFIG_VAAPI_1
 1
 #
 define
