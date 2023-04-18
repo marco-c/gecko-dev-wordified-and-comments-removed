@@ -353,6 +353,8 @@ linux64
 -
 clang
 -
+toolchain
+-
 linux64
 -
 rust
@@ -423,6 +425,8 @@ port
 linux64
 -
 clang
+-
+toolchain
 -
 linux64
 -
@@ -538,6 +542,8 @@ linux64
 -
 clang
 -
+toolchain
+-
 linux64
 -
 liblowercase
@@ -647,6 +653,8 @@ toolchain
 linux64
 -
 clang
+-
+toolchain
 -
 linux64
 -

@@ -235,11 +235,7 @@ linux64
 -
 clang
 -
-13
--
-macosx
--
-cross
+toolchain
 -
 macosx64
 -
@@ -325,11 +321,7 @@ linux64
 -
 clang
 -
-13
--
-macosx
--
-cross
+toolchain
 -
 macosx64
 -
@@ -399,7 +391,7 @@ linux64
 -
 clang
 -
-13
+toolchain
 -
 sysroot
 -
@@ -477,7 +469,7 @@ linux64
 -
 clang
 -
-13
+toolchain
 -
 sysroot
 -
