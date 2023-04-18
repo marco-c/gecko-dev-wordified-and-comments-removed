@@ -7760,6 +7760,8 @@ bug_numbers
 1685213
 -
 1725298
+-
+1754656
 description
 :
 >
@@ -7798,9 +7800,7 @@ Other
 "
 expires
 :
-"
-100
-"
+never
 kind
 :
 string
@@ -7814,6 +7814,11 @@ update
 telemetry
 -
 alerts
+mozilla
+.
+com
+-
+rtestard
 mozilla
 .
 com
