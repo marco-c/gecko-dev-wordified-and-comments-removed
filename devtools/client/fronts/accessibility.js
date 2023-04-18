@@ -1491,6 +1491,9 @@ audit
 {
 types
 onProgress
+retrieveAncestries
+=
+true
 }
 )
 {
@@ -1641,6 +1644,10 @@ length
 =
 =
 0
+|
+|
+!
+retrieveAncestries
 )
 {
 return
