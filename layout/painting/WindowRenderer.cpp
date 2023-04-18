@@ -877,7 +877,7 @@ GetContentBackendFor
 LayersBackend
 :
 :
-LAYERS_BASIC
+LAYERS_NONE
 )
 ;
 RefPtr

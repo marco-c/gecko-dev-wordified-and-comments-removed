@@ -213,17 +213,6 @@ return
 webrender
 "
 ;
-case
-LayersBackend
-:
-:
-LAYERS_BASIC
-:
-return
-"
-basic
-"
-;
 default
 :
 MOZ_ASSERT_UNREACHABLE
