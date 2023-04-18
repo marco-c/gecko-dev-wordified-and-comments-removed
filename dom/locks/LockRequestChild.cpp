@@ -59,7 +59,7 @@ NS_IMPL_ISUPPORTS
 LockRequestChild
 nsISupports
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 static
 void
 RunCallbackAndSettlePromise
@@ -442,10 +442,13 @@ mPromise
 }
 RunCallbackAndSettlePromise
 (
+MOZ_KnownLive
+(
 *
 mRequest
 .
 mCallback
+)
 lock
 *
 promise
