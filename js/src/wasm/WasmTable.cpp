@@ -1476,6 +1476,9 @@ Table
 :
 copy
 (
+JSContext
+*
+cx
 const
 Table
 &
@@ -1707,16 +1710,6 @@ elemType
 isFunc
 (
 )
-)
-;
-JSContext
-*
-cx
-=
-TlsContext
-.
-get
-(
 )
 ;
 RootedFunction
