@@ -673,6 +673,7 @@ IsInComposedDoc
 )
 )
 {
+return
 aError
 .
 ThrowInvalidStateError
@@ -686,8 +687,6 @@ connected
 "
 )
 ;
-return
-;
 }
 if
 (
@@ -696,6 +695,7 @@ Open
 )
 )
 {
+return
 aError
 .
 ThrowInvalidStateError
@@ -712,8 +712,6 @@ open
 attribute
 "
 )
-;
-return
 ;
 }
 AddToTopLayerIfNeeded
@@ -963,6 +961,13 @@ return
 else
 if
 (
+IsInTopLayer
+(
+)
+)
+{
+if
+(
 nsFocusManager
 *
 fm
@@ -990,6 +995,7 @@ GetWindow
 )
 )
 ;
+}
 }
 BrowsingContext
 *
