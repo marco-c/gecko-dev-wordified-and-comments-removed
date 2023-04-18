@@ -224,11 +224,11 @@ createData
 sessionData
 =
 {
-context
+sessionContext
 :
 watcher
 .
-context
+sessionContext
 connectionPrefix
 :
 watcher
@@ -336,7 +336,7 @@ if
 (
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -350,7 +350,7 @@ element
 &
 watcherActor
 .
-context
+sessionContext
 .
 browserId
 =

@@ -2711,7 +2711,7 @@ getTargetActors
 (
 sessionData
 .
-context
+sessionContext
 sessionData
 .
 connectionPrefix

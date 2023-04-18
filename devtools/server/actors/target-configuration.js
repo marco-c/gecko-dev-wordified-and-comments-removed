@@ -262,7 +262,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -308,7 +308,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -329,7 +329,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 browserId
 )

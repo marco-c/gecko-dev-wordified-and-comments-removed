@@ -319,7 +319,7 @@ initialize
 function
 (
 conn
-context
+sessionContext
 config
 =
 {
@@ -342,13 +342,13 @@ conn
 ;
 this
 .
-_context
+_sessionContext
 =
-context
+sessionContext
 ;
 if
 (
-context
+sessionContext
 .
 type
 =
@@ -367,7 +367,7 @@ BrowsingContext
 .
 getCurrentTopByBrowserId
 (
-context
+sessionContext
 .
 browserId
 )
@@ -396,7 +396,7 @@ browserId
 =
 "
 +
-context
+sessionContext
 .
 browserId
 )
@@ -474,14 +474,14 @@ this
 ;
 }
 get
-context
+sessionContext
 (
 )
 {
 return
 this
 .
-_context
+_sessionContext
 ;
 }
 get
@@ -503,7 +503,7 @@ if
 (
 this
 .
-context
+sessionContext
 .
 type
 =
@@ -529,7 +529,7 @@ if
 (
 this
 .
-context
+sessionContext
 .
 type
 =
@@ -547,7 +547,7 @@ get
 (
 this
 .
-context
+sessionContext
 .
 addonBrowsingContextID
 )
@@ -558,7 +558,7 @@ if
 (
 this
 .
-context
+sessionContext
 .
 type
 =
@@ -578,6 +578,7 @@ Error
 (
 "
 Unsupported
+session
 context
 type
 :
@@ -585,7 +586,7 @@ type
 +
 this
 .
-context
+sessionContext
 .
 type
 )
@@ -693,7 +694,7 @@ shouldEnableAllWatchers
 =
 this
 .
-context
+sessionContext
 .
 type
 =
@@ -707,7 +708,7 @@ element
 |
 this
 .
-context
+sessionContext
 .
 type
 =
@@ -1109,7 +1110,7 @@ if
 (
 this
 .
-context
+sessionContext
 .
 type
 =
@@ -1512,7 +1513,7 @@ if
 (
 this
 .
-context
+sessionContext
 .
 type
 =
@@ -1554,7 +1555,7 @@ if
 (
 this
 .
-context
+sessionContext
 .
 type
 =
@@ -1596,7 +1597,7 @@ if
 (
 this
 .
-context
+sessionContext
 .
 type
 =
@@ -1677,7 +1678,7 @@ browsingContextID
 =
 this
 .
-context
+sessionContext
 .
 addonBrowsingContextID
 ;
@@ -1696,7 +1697,7 @@ getTopLevelTargetActorForContext
 (
 this
 .
-context
+sessionContext
 this
 .
 conn

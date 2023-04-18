@@ -326,7 +326,7 @@ if
 (
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -367,7 +367,7 @@ if
 (
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -385,7 +385,7 @@ addonInnerWindowId
 =
 watcherActor
 .
-context
+sessionContext
 ;
 await
 this
@@ -405,6 +405,7 @@ Error
 (
 "
 Unsupported
+session
 context
 type
 =
@@ -412,7 +413,7 @@ type
 +
 watcherActor
 .
-context
+sessionContext
 .
 type
 )
@@ -886,7 +887,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -909,7 +910,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 browserId
 )
@@ -1508,7 +1509,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -1558,7 +1559,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -1578,7 +1579,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 addonBrowsingContextID
 )
@@ -1591,6 +1592,7 @@ Error
 (
 "
 Unsupported
+session
 context
 type
 =
@@ -1600,7 +1602,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 )
@@ -1694,7 +1696,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -1718,7 +1720,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -1741,7 +1743,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 browserId
 )
