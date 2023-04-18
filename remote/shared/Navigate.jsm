@@ -146,6 +146,14 @@ nsIWebProgress
 NOTIFY_STATE_DOCUMENT
 )
 ;
+const
+isInitial
+=
+!
+browsingContext
+.
+currentWindowGlobal
+;
 if
 (
 !
@@ -154,6 +162,10 @@ browsingContext
 webProgress
 .
 isLoadingDocument
+&
+&
+!
+isInitial
 )
 {
 logger
