@@ -42,17 +42,6 @@ mozilla
 /
 dom
 /
-ReadableStreamDefaultController
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 UnderlyingSourceBinding
 .
 h
@@ -79,6 +68,9 @@ dom
 {
 class
 BodyStreamHolder
+;
+class
+ReadableStreamController
 ;
 class
 UnderlyingSourceStartCallbackHelper

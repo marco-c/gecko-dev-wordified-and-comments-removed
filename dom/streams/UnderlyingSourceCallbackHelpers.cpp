@@ -16,6 +16,17 @@ mozilla
 /
 dom
 /
+ReadableStreamDefaultController
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 UnderlyingSourceCallbackHelpers
 .
 h

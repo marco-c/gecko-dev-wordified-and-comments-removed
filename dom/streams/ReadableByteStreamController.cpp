@@ -1956,8 +1956,7 @@ IsNull
 )
 )
 ;
-if
-(
+return
 desiredSize
 .
 Value
@@ -1965,14 +1964,6 @@ Value
 )
 >
 0
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 class

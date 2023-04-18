@@ -136,17 +136,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-UnderlyingSourceCallbackHelpers
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
