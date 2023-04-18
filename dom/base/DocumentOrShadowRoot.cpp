@@ -1800,7 +1800,7 @@ OwnerDoc
 )
 -
 >
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 ;

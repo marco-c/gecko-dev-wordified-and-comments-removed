@@ -1918,7 +1918,7 @@ mUserInputOrChromeCaller
 document
 -
 >
-GetUnretargetedFullScreenElement
+Fullscreen
 (
 )
 )

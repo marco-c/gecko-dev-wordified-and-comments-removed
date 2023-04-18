@@ -9772,7 +9772,7 @@ GetTopLayerTop
 ;
 Element
 *
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 const
@@ -9786,7 +9786,7 @@ const
 return
 !
 !
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 ;

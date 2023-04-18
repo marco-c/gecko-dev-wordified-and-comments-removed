@@ -56304,7 +56304,7 @@ this
 ;
 if
 (
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 )
@@ -67595,7 +67595,7 @@ if
 (
 aSubDoc
 .
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 )
@@ -67635,7 +67635,7 @@ IsFullscreenLeaf
 if
 (
 !
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 )
@@ -67684,7 +67684,7 @@ if
 !
 aDoc
 .
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 )
@@ -67809,7 +67809,7 @@ fsElement
 =
 aDocument
 .
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 )
@@ -67846,7 +67846,7 @@ NS_ASSERTION
 !
 aDocument
 .
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 "
@@ -68088,7 +68088,7 @@ root
 root
 -
 >
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 )
@@ -68117,7 +68117,7 @@ NS_ASSERTION
 root
 -
 >
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 "
@@ -68218,7 +68218,7 @@ aExit
 NS_ASSERTION
 (
 !
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 |
@@ -68270,7 +68270,7 @@ return
 if
 (
 !
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 |
@@ -68349,7 +68349,7 @@ fsElement
 doc
 -
 >
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 ;
@@ -68417,7 +68417,7 @@ fsElement
 doc
 -
 >
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 ;
@@ -70580,7 +70580,7 @@ Element
 Document
 :
 :
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 const
@@ -71143,7 +71143,7 @@ Element
 *
 fullscreenElement
 =
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 ;
@@ -71731,7 +71731,7 @@ this
 )
 -
 >
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 )
@@ -72497,7 +72497,7 @@ d
 d
 -
 >
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 )
