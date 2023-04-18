@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -328,7 +328,6 @@ ideographicBaseline
 ;
 }
 ;
-}
 }
 #
 endif

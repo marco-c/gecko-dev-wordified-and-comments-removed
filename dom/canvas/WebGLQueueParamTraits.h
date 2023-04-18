@@ -41,8 +41,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgl
 {
 template
@@ -1610,7 +1610,6 @@ NonPremult
 {
 }
 ;
-}
 }
 #
 endif

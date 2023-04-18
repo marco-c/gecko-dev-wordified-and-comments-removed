@@ -53,11 +53,11 @@ nsIInputStream
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -294,8 +294,6 @@ StreamList
 )
 }
 ;
-}
-}
 }
 #
 endif

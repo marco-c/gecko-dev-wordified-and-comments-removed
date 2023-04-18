@@ -85,8 +85,8 @@ AutoIPCStream
 }
 namespace
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -333,7 +333,6 @@ ReadStream
 NS_DOM_CACHE_READSTREAM_IID
 )
 ;
-}
 }
 }
 #

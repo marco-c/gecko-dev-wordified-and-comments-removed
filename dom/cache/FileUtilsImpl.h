@@ -43,11 +43,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 template
@@ -473,8 +473,6 @@ result
 return
 NS_OK
 ;
-}
-}
 }
 }
 #

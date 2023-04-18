@@ -48,11 +48,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 already_AddRefed
@@ -94,8 +94,6 @@ const
 nsLiteralString
 kCachesSQLiteFilename
 ;
-}
-}
 }
 #
 endif

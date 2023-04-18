@@ -46,11 +46,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 struct
@@ -199,8 +199,6 @@ mCacheId
 ;
 }
 ;
-}
-}
 }
 #
 endif

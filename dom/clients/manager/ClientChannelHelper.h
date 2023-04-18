@@ -28,8 +28,8 @@ nsISerialEventTarget
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -97,7 +97,6 @@ nsISerialEventTarget
 aEventTarget
 )
 ;
-}
 }
 #
 endif

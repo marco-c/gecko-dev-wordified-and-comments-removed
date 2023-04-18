@@ -61,8 +61,8 @@ AutoIPCStream
 }
 namespace
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -249,7 +249,6 @@ mReadStreamList
 ;
 }
 ;
-}
 }
 }
 #

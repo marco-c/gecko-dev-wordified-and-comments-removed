@@ -24,8 +24,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -135,7 +135,6 @@ MaybeStartTeardown
 ;
 }
 ;
-}
 }
 #
 endif

@@ -44,8 +44,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgl
 {
 class
@@ -282,7 +282,6 @@ const
 ;
 }
 ;
-}
 }
 #
 endif

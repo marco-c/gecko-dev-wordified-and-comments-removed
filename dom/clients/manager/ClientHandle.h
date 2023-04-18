@@ -56,8 +56,8 @@ PostMessage
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -261,7 +261,6 @@ ClientHandle
 ;
 }
 ;
-}
 }
 #
 endif

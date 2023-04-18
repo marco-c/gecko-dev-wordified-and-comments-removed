@@ -70,11 +70,11 @@ nsIPrincipal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -198,8 +198,6 @@ ManagerId
 )
 }
 ;
-}
-}
 }
 #
 endif

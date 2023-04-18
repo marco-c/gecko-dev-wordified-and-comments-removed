@@ -59,11 +59,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 enum
@@ -255,8 +255,6 @@ Lazy
 NumTypes
 }
 ;
-}
-}
 }
 #
 endif

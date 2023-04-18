@@ -40,8 +40,8 @@ RANDOM_BYTES_TO_SAMPLE
 32
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 inline
@@ -253,7 +253,6 @@ size
 buffer
 )
 ;
-}
 }
 }
 #

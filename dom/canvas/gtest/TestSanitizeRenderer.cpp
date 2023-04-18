@@ -9,8 +9,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgl
 {
 std
@@ -27,7 +27,6 @@ string
 &
 )
 ;
-}
 }
 TEST
 (

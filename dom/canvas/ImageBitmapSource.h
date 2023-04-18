@@ -6,8 +6,8 @@ define
 mozilla_dom_ImageBitmapSource_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -17,7 +17,6 @@ typedef
 HTMLImageElementOrSVGImageElementOrHTMLCanvasElementOrHTMLVideoElementOrOffscreenCanvasOrImageBitmapOrBlobOrCanvasRenderingContext2DOrImageData
 ImageBitmapSource
 ;
-}
 }
 #
 endif

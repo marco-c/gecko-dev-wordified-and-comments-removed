@@ -53,8 +53,8 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -190,7 +190,6 @@ Track
 holder
 )
 ;
-}
 }
 }
 #
