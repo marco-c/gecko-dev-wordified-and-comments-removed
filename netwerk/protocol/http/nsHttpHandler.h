@@ -1179,6 +1179,10 @@ callbacks
 caps
 nullptr
 aFetchHTTPSRR
+|
+EchConfigEnabled
+(
+)
 )
 ;
 }
@@ -1844,12 +1848,6 @@ const
 ;
 bool
 FallbackToOriginIfConfigsAreECHAndAllFailed
-(
-)
-const
-;
-bool
-UseHTTPSRRForSpeculativeConnection
 (
 )
 const
