@@ -1347,6 +1347,9 @@ focusable
 .
 *
 /
+[
+can_run_script
+]
 boolean
 elementIsFocusable
 (

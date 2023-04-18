@@ -451,6 +451,7 @@ nsIContent
 aContent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FlushBeforeEventHandlingIfNeeded
 (
@@ -996,6 +997,7 @@ nsIContent
 aContent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 mozilla
 :
 :
@@ -1381,6 +1383,7 @@ nsIContent
 aEndContent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsIContent
 *
 GetNextTabbableContentInScope
@@ -1408,6 +1411,7 @@ bool
 aSkipOwner
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsIContent
 *
 GetNextTabbableContentInAncestorScopes
@@ -1415,9 +1419,11 @@ GetNextTabbableContentInAncestorScopes
 nsIContent
 *
 aStartOwner
+nsCOMPtr
+<
 nsIContent
-*
-*
+>
+&
 aStartContent
 nsIContent
 *
@@ -1436,6 +1442,7 @@ bool
 aNavigateByKey
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetNextTabbableContent
 (
@@ -1504,6 +1511,7 @@ bool
 aForward
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 FocusFirst
 (
@@ -1623,6 +1631,7 @@ aSyncBrowsingContext
 true
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 TryDocumentNavigation
 (
@@ -1638,6 +1647,7 @@ nsIContent
 aResultContent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 TryToMoveFocusToSubDocument
 (
