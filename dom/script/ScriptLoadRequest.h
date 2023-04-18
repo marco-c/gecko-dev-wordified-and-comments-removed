@@ -1068,9 +1068,6 @@ mOriginPrincipal
 nsAutoCString
 mURL
 ;
-int32_t
-mLineNo
-;
 nsCOMPtr
 <
 nsIURI
@@ -1191,9 +1188,6 @@ mRequest
 -
 >
 mURI
-mRequest
--
->
 mLineNo
 )
 ;
@@ -1549,6 +1543,9 @@ Runnable
 *
 >
 mRunnable
+;
+int32_t
+mLineNo
 ;
 bool
 mIsPreload
