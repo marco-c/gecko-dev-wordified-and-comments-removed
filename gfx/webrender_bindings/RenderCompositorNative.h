@@ -145,6 +145,15 @@ ShouldUseNativeCompositor
 )
 override
 ;
+void
+GetCompositorCapabilities
+(
+CompositorCapabilities
+*
+aCaps
+)
+override
+;
 bool
 SurfaceOriginIsTopLeft
 (
