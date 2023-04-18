@@ -217,6 +217,9 @@ t
 .
 unreached_func
 (
+"
+onerror
+"
 )
 ;
 }
@@ -240,6 +243,9 @@ t
 .
 unreached_func
 (
+"
+onload
+"
 )
 ;
 }
