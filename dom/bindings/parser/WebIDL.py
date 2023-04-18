@@ -13660,16 +13660,6 @@ return
 False
     
 def
-isReadableStream
-(
-self
-)
-:
-        
-return
-False
-    
-def
 isArrayBuffer
 (
 self
@@ -13855,18 +13845,10 @@ isInterface
 (
 )
 and
-(
 self
 .
 isBufferSource
 (
-)
-or
-self
-.
-isReadableStream
-(
-)
 )
     
 def
@@ -15057,22 +15039,6 @@ self
 inner
 .
 isRecord
-(
-)
-    
-def
-isReadableStream
-(
-self
-)
-:
-        
-return
-self
-.
-inner
-.
-isReadableStream
 (
 )
     
@@ -18210,22 +18176,6 @@ isRecord
 )
     
 def
-isReadableStream
-(
-self
-)
-:
-        
-return
-self
-.
-inner
-.
-isReadableStream
-(
-)
-    
-def
 isDictionary
 (
 self
@@ -20003,10 +19953,6 @@ Float32Array
 "
 Float64Array
 "
-        
-"
-ReadableStream
-"
     
 )
     
@@ -20333,16 +20279,6 @@ IDLType
 Tags
 .
 interface
-        
-Types
-.
-ReadableStream
-:
-IDLType
-.
-Tags
-.
-interface
     
 }
     
@@ -20611,14 +20547,6 @@ Float64Array
 :
 "
 Float64Array
-"
-        
-Types
-.
-ReadableStream
-:
-"
-ReadableStream
 "
     
 }
@@ -21574,25 +21502,6 @@ Float64Array
 )
     
 def
-isReadableStream
-(
-self
-)
-:
-        
-return
-self
-.
-_typeTag
-=
-=
-IDLBuiltinType
-.
-Types
-.
-ReadableStream
-    
-def
 isInterface
 (
 self
@@ -21600,35 +21509,22 @@ self
 :
         
 return
-(
-            
 self
 .
 isArrayBuffer
 (
 )
-            
 or
 self
 .
 isArrayBufferView
 (
 )
-            
 or
 self
 .
 isTypedArray
 (
-)
-            
-or
-self
-.
-isReadableStream
-(
-)
-        
 )
     
 def
@@ -22191,22 +22087,6 @@ not
 other
 .
 isArrayBuffer
-(
-)
-)
-                    
-or
-(
-self
-.
-isReadableStream
-(
-)
-and
-not
-other
-.
-isReadableStream
 (
 )
 )
@@ -23694,37 +23574,6 @@ IDLBuiltinType
 Types
 .
 Float64Array
-    
-)
-    
-IDLBuiltinType
-.
-Types
-.
-ReadableStream
-:
-IDLBuiltinType
-(
-        
-BuiltinLocation
-(
-"
-<
-builtin
-type
->
-"
-)
-        
-"
-ReadableStream
-"
-        
-IDLBuiltinType
-.
-Types
-.
-ReadableStream
     
 )
 }
@@ -40207,30 +40056,6 @@ IDENTIFIER
 "
 )
         
-if
-t
-.
-type
-=
-=
-"
-READABLESTREAM
-"
-and
-not
-self
-.
-_use_builtin_readable_streams
-:
-            
-t
-.
-type
-=
-"
-IDENTIFIER
-"
-        
 return
 t
     
@@ -40971,14 +40796,6 @@ NAMESPACE
 "
         
 "
-ReadableStream
-"
-:
-"
-READABLESTREAM
-"
-        
-"
 constructor
 "
 :
@@ -41079,17 +40896,8 @@ outputdir
 lexer
 =
 None
-use_builtin_readable_streams
-=
-True
 )
 :
-        
-self
-.
-_use_builtin_readable_streams
-=
-use_builtin_readable_streams
         
 if
 lexer
@@ -49171,10 +48979,6 @@ ARRAYBUFFER
 Null
                             
 |
-READABLESTREAM
-Null
-                            
-|
 OBJECT
 Null
         
@@ -49226,29 +49030,6 @@ IDLBuiltinType
 Types
 .
 ArrayBuffer
-]
-        
-elif
-p
-[
-1
-]
-=
-=
-"
-ReadableStream
-"
-:
-            
-type
-=
-BuiltinTypes
-[
-IDLBuiltinType
-.
-Types
-.
-ReadableStream
 ]
         
 else
@@ -51278,9 +51059,6 @@ outputdir
 lexer
 =
 None
-use_builtin_readable_stream
-=
-True
 )
 :
         
@@ -51291,7 +51069,6 @@ __init__
 self
 outputdir
 lexer
-use_builtin_readable_stream
 )
         
 logger

@@ -987,10 +987,6 @@ None
 make_deps_target
 =
 None
-        
-use_builtin_readable_stream
-=
-True
     
 )
 :
@@ -1259,12 +1255,6 @@ self
 _make_deps_target
 =
 make_deps_target
-        
-self
-.
-_use_builtin_readable_stream
-=
-use_builtin_readable_stream
         
 if
 (
@@ -2269,21 +2259,12 @@ WebIDL
 .
 Parser
 (
-            
 self
 .
 _cache_dir
-            
 lexer
 =
 None
-            
-use_builtin_readable_stream
-=
-self
-.
-_use_builtin_readable_stream
-        
 )
         
 for
@@ -3838,7 +3819,6 @@ path
 def
 create_build_system_manager
 (
-    
 topsrcdir
 =
 None
@@ -3846,9 +3826,6 @@ topobjdir
 =
 None
 dist_dir
-=
-None
-use_builtin_readable_stream
 =
 None
 )
@@ -3878,23 +3855,13 @@ None
 :
         
 assert
-(
-            
 topobjdir
 is
 None
-            
 and
 dist_dir
 is
 None
-            
-and
-use_builtin_readable_stream
-is
-None
-        
-)
         
 import
 buildconfig
@@ -3921,20 +3888,6 @@ substs
 DIST
 "
 ]
-        
-use_builtin_readable_stream
-=
-not
-buildconfig
-.
-substs
-.
-get
-(
-"
-MOZ_DOM_STREAMS
-"
-)
     
 src_dir
 =
@@ -4184,9 +4137,5 @@ webidl
 .
 stub
 "
-        
-use_builtin_readable_stream
-=
-use_builtin_readable_stream
     
 )
