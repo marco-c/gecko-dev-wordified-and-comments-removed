@@ -2349,10 +2349,6 @@ mVsyncRate
 mVsyncSource
 -
 >
-GetGlobalDisplay
-(
-)
-.
 GetVsyncRate
 (
 )
