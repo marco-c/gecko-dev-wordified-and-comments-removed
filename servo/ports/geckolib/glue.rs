@@ -23086,6 +23086,16 @@ XLang
 ;
 differing_properties
 .
+remove
+(
+LonghandId
+:
+:
+FontFamily
+)
+;
+differing_properties
+.
 remove_all
 (
 &
