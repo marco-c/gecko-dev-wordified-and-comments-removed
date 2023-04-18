@@ -530,6 +530,9 @@ NSMakeSize
 kIconHeight
 kIconHeight
 )
+presContext
+:
+nullptr
 computedStyle
 :
 nullptr

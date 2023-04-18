@@ -945,6 +945,10 @@ aImage
 uint32_t
 aWhichFrame
 const
+nsPresContext
+*
+aPresContext
+const
 mozilla
 :
 :
@@ -973,6 +977,10 @@ imgIContainer
 aImage
 uint32_t
 aWhichFrame
+const
+nsPresContext
+*
+aPresContext
 const
 mozilla
 :

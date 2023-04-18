@@ -23,6 +23,9 @@ h
 class
 imgIContainer
 ;
+class
+nsPresContext
+;
 namespace
 mozilla
 {
@@ -64,6 +67,14 @@ withSize
 NSSize
 )
 aSize
+presContext
+:
+(
+const
+nsPresContext
+*
+)
+aPresContext
 computedStyle
 :
 (

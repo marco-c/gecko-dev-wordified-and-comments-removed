@@ -42,6 +42,9 @@ imgRequestProxy
 class
 nsMenuParentX
 ;
+class
+nsPresContext
+;
 namespace
 mozilla
 {
@@ -144,12 +147,6 @@ nsIContent
 aContent
 )
 ;
-nsCOMPtr
-<
-nsIContent
->
-mContent
-;
 Listener
 *
 mListener
@@ -165,6 +162,12 @@ mozilla
 ComputedStyle
 >
 mComputedStyle
+;
+RefPtr
+<
+nsPresContext
+>
+mPresContext
 ;
 NSImage
 *
