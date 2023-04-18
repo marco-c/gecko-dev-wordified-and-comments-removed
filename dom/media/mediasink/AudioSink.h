@@ -235,6 +235,15 @@ HasUnplayedFrames
 (
 )
 ;
+media
+:
+:
+TimeUnit
+UnplayedDuration
+(
+)
+const
+;
 void
 Shutdown
 (
