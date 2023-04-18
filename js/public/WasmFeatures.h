@@ -282,7 +282,7 @@ extended_const
 "
 )
 \
-EXPERIMENTAL
+TENTATIVE
 (
 \
 /
