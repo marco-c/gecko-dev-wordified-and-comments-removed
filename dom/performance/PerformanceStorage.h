@@ -19,8 +19,8 @@ nsITimedChannel
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -81,7 +81,6 @@ default
 ;
 }
 ;
-}
 }
 #
 endif

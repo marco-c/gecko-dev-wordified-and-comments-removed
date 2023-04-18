@@ -60,14 +60,13 @@ nsIURI
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
 FakePluginTagInit
 ;
-}
 }
 #
 define

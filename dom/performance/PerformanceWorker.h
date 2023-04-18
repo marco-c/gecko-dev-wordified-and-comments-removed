@@ -24,8 +24,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -427,7 +427,6 @@ mWorkerPrivate
 ;
 }
 ;
-}
 }
 #
 endif

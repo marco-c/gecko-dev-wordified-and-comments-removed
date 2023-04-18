@@ -40,8 +40,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -170,7 +170,6 @@ mPerformance
 ;
 }
 ;
-}
 }
 #
 endif

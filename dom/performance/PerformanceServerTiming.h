@@ -49,8 +49,8 @@ nsISupports
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -171,7 +171,6 @@ mServerTiming
 ;
 }
 ;
-}
 }
 #
 endif

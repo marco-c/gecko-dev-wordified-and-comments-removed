@@ -43,8 +43,8 @@ SECKEYPublicKey
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -178,7 +178,6 @@ LazyInitSingleton
 ;
 }
 ;
-}
 }
 #
 endif

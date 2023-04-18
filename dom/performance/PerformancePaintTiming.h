@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -129,7 +129,6 @@ mCachedStartTime
 ;
 }
 ;
-}
 }
 #
 endif

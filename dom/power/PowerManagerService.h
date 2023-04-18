@@ -70,8 +70,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -189,7 +189,6 @@ mWakeLockListeners
 ;
 }
 ;
-}
 }
 }
 #

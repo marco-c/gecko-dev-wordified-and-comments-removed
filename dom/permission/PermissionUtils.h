@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 const
@@ -69,7 +69,6 @@ uint32_t
 aAction
 )
 ;
-}
 }
 #
 endif

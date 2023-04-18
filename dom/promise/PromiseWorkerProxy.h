@@ -100,8 +100,8 @@ CloneDataPolicy
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -461,7 +461,6 @@ mCleanUpLock
 ;
 }
 ;
-}
 }
 #
 endif

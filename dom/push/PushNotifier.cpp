@@ -129,8 +129,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 PushNotifier
@@ -2097,6 +2097,5 @@ nsContentUtils
 eOMIT_LOCATION
 )
 ;
-}
 }
 }

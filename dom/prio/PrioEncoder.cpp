@@ -52,8 +52,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 StaticRefPtr
@@ -1006,6 +1006,5 @@ sSingleton
 return
 NS_OK
 ;
-}
 }
 }

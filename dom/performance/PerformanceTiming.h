@@ -129,8 +129,8 @@ nsIHttpChannel
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1656,11 +1656,10 @@ mTimingData
 }
 ;
 }
-}
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 template
@@ -2768,7 +2767,6 @@ true
 }
 }
 ;
-}
 }
 #
 endif

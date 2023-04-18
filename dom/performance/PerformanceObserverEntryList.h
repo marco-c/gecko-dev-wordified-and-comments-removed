@@ -45,8 +45,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -226,7 +226,6 @@ mEntries
 ;
 }
 ;
-}
 }
 #
 endif

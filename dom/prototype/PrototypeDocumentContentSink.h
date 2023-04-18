@@ -159,8 +159,8 @@ nsXULPrototypeScript
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -175,7 +175,6 @@ Document
 class
 XMLStylesheetProcessingInstruction
 ;
-}
 }
 nsresult
 NS_NewPrototypeDocumentContentSink
@@ -206,8 +205,8 @@ aChannel
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -763,7 +762,6 @@ aHadChildren
 ;
 }
 ;
-}
 }
 #
 endif

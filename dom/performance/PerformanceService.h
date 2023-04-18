@@ -29,8 +29,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -80,7 +80,6 @@ mCreationEpochTime
 ;
 }
 ;
-}
 }
 #
 endif

@@ -22,8 +22,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -137,7 +137,6 @@ mMutex
 ;
 }
 ;
-}
 }
 #
 endif

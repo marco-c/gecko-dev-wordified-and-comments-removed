@@ -206,8 +206,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -2727,6 +2727,5 @@ NS_ERROR_DOM_PUSH_INVALID_KEY_ERR
 return
 NS_OK
 ;
-}
 }
 }
