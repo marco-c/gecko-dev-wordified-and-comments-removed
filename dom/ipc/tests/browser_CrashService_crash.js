@@ -190,7 +190,14 @@ isOfType
 (
 crashMan
 .
+processTypes
+[
+Ci
+.
+nsIXULRuntime
+.
 PROCESS_TYPE_CONTENT
+]
 crashMan
 .
 CRASH_TYPE_CRASH

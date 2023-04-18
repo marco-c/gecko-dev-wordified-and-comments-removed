@@ -758,6 +758,8 @@ processType
 Services
 .
 crashmanager
+.
+processTypes
 [
 processType
 ]
