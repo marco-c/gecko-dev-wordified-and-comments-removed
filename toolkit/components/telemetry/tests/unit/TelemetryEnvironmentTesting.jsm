@@ -132,7 +132,7 @@ osfile
 .
 jsm
 "
-Preferences
+Services
 :
 "
 resource
@@ -143,7 +143,7 @@ gre
 /
 modules
 /
-Preferences
+Services
 .
 jsm
 "
@@ -796,9 +796,16 @@ in
 prefsToSpoof
 )
 {
-Preferences
+Services
 .
-set
+prefs
+.
+getDefaultBranch
+(
+null
+)
+.
+setStringPref
 (
 pref
 prefsToSpoof
