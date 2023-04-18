@@ -81,6 +81,8 @@ debug
 -
 xpcshell
 -
+fis
+-
 e10s
 -
 "
@@ -147,6 +149,8 @@ qr
 debug
 -
 xpcshell
+-
+fis
 -
 e10s
 -
