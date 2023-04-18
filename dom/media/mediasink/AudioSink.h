@@ -124,6 +124,14 @@ DataSource
 {
 public
 :
+enum
+class
+InitializationType
+{
+INITIAL
+UNMUTING
+}
+;
 struct
 PlaybackParams
 {
@@ -194,6 +202,8 @@ const
 PlaybackParams
 &
 aParams
+InitializationType
+aInitializationType
 )
 ;
 nsresult
