@@ -38,13 +38,6 @@ InitTRRConnectionInfo
 (
 )
 ;
-async
-SetConfirmationState
-(
-uint32_t
-aNewState
-)
-;
 child
 :
 async

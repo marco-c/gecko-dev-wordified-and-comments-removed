@@ -200,8 +200,6 @@ nsACString
 aOriginSuffix
 bool
 aPB
-bool
-aUseFreshConnection
 )
 ;
 NS_IMETHOD
@@ -633,11 +631,6 @@ reason
 const
 nsCString
 mOriginSuffix
-;
-bool
-mUseFreshConnection
-=
-false
 ;
 }
 ;
