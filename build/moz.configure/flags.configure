@@ -1,4 +1,4 @@
-check_and_add_gcc_flag
+check_and_add_flag
 (
 "
 -
@@ -12,7 +12,7 @@ compiler
 =
 cxx_compiler
 )
-check_and_add_gcc_flag
+check_and_add_flag
 (
 "
 -

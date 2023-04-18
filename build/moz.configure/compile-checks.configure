@@ -784,7 +784,7 @@ host_cxxflags
 )
 template
 def
-check_and_add_gcc_warning
+check_and_add_warning
 (
 warning
 compiler
@@ -888,7 +888,7 @@ check
 )
 template
 def
-add_gcc_warning
+add_warning
 (
 warning
 compiler
@@ -899,7 +899,7 @@ when
 None
 )
 :
-check_and_add_gcc_warning
+check_and_add_warning
 (
 warning
 compiler
@@ -936,7 +936,7 @@ host_cxxflags
 )
 template
 def
-check_and_add_gcc_flag
+check_and_add_flag
 (
 flag
 compiler
@@ -977,7 +977,7 @@ check
 )
 template
 def
-add_gcc_flag
+add_flag
 (
 warning
 compiler
@@ -988,7 +988,7 @@ when
 None
 )
 :
-check_and_add_gcc_flag
+check_and_add_flag
 (
 warning
 compiler

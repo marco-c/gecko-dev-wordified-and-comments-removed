@@ -731,7 +731,7 @@ float
 return
 [
 ]
-check_and_add_gcc_flag
+check_and_add_flag
 (
 "
 -

@@ -12953,7 +12953,7 @@ when
 =
 stdcxx_compat
 )
-add_gcc_flag
+add_flag
 (
 "
 -
@@ -12966,7 +12966,7 @@ when
 =
 stdcxx_compat
 )
-add_gcc_flag
+add_flag
 (
 "
 -
