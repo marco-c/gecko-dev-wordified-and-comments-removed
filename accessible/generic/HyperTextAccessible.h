@@ -692,6 +692,12 @@ nsIWidget
 aWidget
 )
 ;
+bool
+IsCaretAtEndOfLine
+(
+)
+const
+;
 int32_t
 SelectionCount
 (
@@ -927,12 +933,6 @@ AdjustCaretOffset
 (
 uint32_t
 aOffset
-)
-const
-;
-bool
-IsCaretAtEndOfLine
-(
 )
 const
 ;
