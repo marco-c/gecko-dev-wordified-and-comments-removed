@@ -2595,13 +2595,15 @@ init
 ;
 const
 auto
-currSeqNum
+newSeqNum
 =
 sSequenceNumber
 .
 get
 (
 )
++
+1
 ;
 const
 auto
@@ -2639,7 +2641,7 @@ threadId
 )
 |
 (
-currSeqNum
+newSeqNum
 &
 0xFFFFFFFF
 )
@@ -2665,9 +2667,7 @@ sSequenceNumber
 .
 set
 (
-currSeqNum
-+
-1
+newSeqNum
 )
 ;
 res
