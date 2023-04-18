@@ -118,6 +118,7 @@ _option
 getURL
 (
 url
+region
 option
 hasEmail
 )
@@ -154,8 +155,6 @@ utm_content
 default
 :
 "
-fxvt
--
 default
 "
 simple
@@ -166,8 +165,6 @@ fxvt
 113
 -
 a
--
-na
 "
 advanced
 :
@@ -177,8 +174,6 @@ fxvt
 113
 -
 b
--
-na
 "
 }
 ;
@@ -237,6 +232,10 @@ utm_content
 [
 option
 ]
+}
+-
+{
+region
 }
 {
 hasEmail
@@ -305,6 +304,11 @@ firefox
 mobile
 -
 description
+"
+region
+:
+"
+global
 "
 button
 :
@@ -573,6 +577,11 @@ vpn
 -
 description
 "
+region
+:
+"
+global
+"
 button
 :
 {
@@ -674,6 +683,11 @@ mozilla
 rally
 -
 description
+"
+region
+:
+"
+na
 "
 button
 :
@@ -1048,6 +1062,9 @@ product
 button
 .
 actionURL
+product
+.
+region
 this
 .
 option
@@ -1102,6 +1119,9 @@ product
 button
 .
 actionURL
+product
+.
+region
 gMoreFromMozillaPane
 .
 option
@@ -1342,6 +1362,9 @@ qrcode
 button
 .
 actionURL
+product
+.
+region
 this
 .
 option
