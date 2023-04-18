@@ -5938,6 +5938,16 @@ UpdateStylist
 (
 )
 {
+AUTO_PROFILER_LABEL_RELEVANT_FOR_JS
+(
+"
+Update
+stylesheet
+information
+"
+LAYOUT
+)
+;
 MOZ_ASSERT
 (
 StylistNeedsUpdate
