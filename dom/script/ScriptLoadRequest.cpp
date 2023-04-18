@@ -325,10 +325,6 @@ mURI
 (
 aURI
 )
-mLineNo
-(
-1
-)
 {
 MOZ_ASSERT
 (
@@ -478,6 +474,10 @@ nullptr
 mRunnable
 (
 nullptr
+)
+mLineNo
+(
+1
 )
 mIsPreload
 (
@@ -1875,9 +1875,6 @@ aOutString
 .
 AppendInt
 (
-mRequest
--
->
 mLineNo
 )
 ;
