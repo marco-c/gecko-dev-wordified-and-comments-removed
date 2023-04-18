@@ -621,13 +621,13 @@ ErrorBuffer
 aError
 )
 ;
-const
+UniquePtr
+<
 ffi
 :
 :
 WGPUGlobal
-*
-const
+>
 mContext
 ;
 base

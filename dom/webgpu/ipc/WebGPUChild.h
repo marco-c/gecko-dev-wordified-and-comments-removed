@@ -625,11 +625,13 @@ const
 aByteBuf
 )
 ;
+UniquePtr
+<
 ffi
 :
 :
 WGPUClient
-*
+>
 const
 mClient
 ;
