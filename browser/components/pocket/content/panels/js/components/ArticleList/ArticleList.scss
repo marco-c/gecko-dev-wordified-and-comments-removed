@@ -49,8 +49,6 @@ ECECEE
 }
 .
 stp_article_list_thumb
-.
-stp_article_list_thumb_placeholder
 {
 width
 :
@@ -73,13 +71,6 @@ inline
 end
 :
 8px
-;
-background
--
-color
-:
-#
-ECECEE
 ;
 }
 .
@@ -120,9 +111,8 @@ color
 ;
 margin
 :
-0
-0
 4px
+0px
 ;
 }
 .
@@ -164,8 +154,7 @@ color
 margin
 :
 4px
-0
-0
+0px
 ;
 }
 }
