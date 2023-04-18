@@ -14337,9 +14337,9 @@ version
 "
 1
 .
-6
+8
 .
-2
+1
 "
 source
 =
@@ -14367,7 +14367,7 @@ index
 checksum
 =
 "
-824845a0bf897a9042383849b02c1bc219c2383772efcd5c6f9766fa4b81aef3
+0f647032dfaa1f8b6dc29bd3edb7bbef4861b8b8007ebb118d6db284fd59f6ee
 "
 dependencies
 =
@@ -14379,9 +14379,9 @@ autocfg
 hashbrown
 0
 .
-9
+11
 .
-999
+2
 "
 "
 serde
