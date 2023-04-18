@@ -795,6 +795,17 @@ ModuleLoadRequest
 aRequest
 )
 ;
+nsresult
+EvaluateModuleInContext
+(
+JSContext
+*
+aCx
+ModuleLoadRequest
+*
+aRequest
+)
+;
 void
 StartDynamicImport
 (
