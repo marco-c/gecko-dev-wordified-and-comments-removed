@@ -3024,6 +3024,17 @@ failed
 )
 ;
 }
+if
+(
+isUsingHW
+)
+{
+CFRelease
+(
+isUsingHW
+)
+;
+}
 return
 NS_OK
 ;

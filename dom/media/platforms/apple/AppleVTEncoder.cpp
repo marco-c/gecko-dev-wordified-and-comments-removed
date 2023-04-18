@@ -908,6 +908,17 @@ isUsingHW
 =
 kCFBooleanTrue
 ;
+if
+(
+isUsingHW
+)
+{
+CFRelease
+(
+isUsingHW
+)
+;
+}
 mError
 =
 NS_OK
