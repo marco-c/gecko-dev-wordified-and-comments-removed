@@ -23,6 +23,15 @@ include
 "
 mozilla
 /
+Monitor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Result
 .
 h
@@ -106,9 +115,6 @@ MediaByteRangeSet
 ;
 class
 MediaResource
-;
-class
-MonitorAutoLock
 ;
 class
 MediaCache

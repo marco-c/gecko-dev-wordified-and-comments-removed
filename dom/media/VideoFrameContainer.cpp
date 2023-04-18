@@ -1011,6 +1011,12 @@ ClearCachedResources
 (
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 mImageContainer
 -
 >
@@ -1040,6 +1046,12 @@ GetFrameDelay
 (
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 return
 mImageContainer
 -

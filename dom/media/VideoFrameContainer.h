@@ -297,6 +297,12 @@ GetDroppedImageCount
 (
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 return
 mImageContainer
 -

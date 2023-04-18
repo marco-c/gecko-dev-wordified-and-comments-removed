@@ -3538,6 +3538,16 @@ UpdateBufferedRanges
 (
 )
 ;
+#
+ifdef
+DEBUG
+{
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 MOZ_ASSERT
 (
 mAudioBufferedRanges
@@ -3580,6 +3590,9 @@ everything
 "
 )
 ;
+}
+#
+endif
 mSizeSourceBuffer
 =
 mVideoTracks

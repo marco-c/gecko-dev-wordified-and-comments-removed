@@ -241,11 +241,11 @@ Reject
 (
 )
 ;
-}
 CancelTimerIfArmed
 (
 )
 ;
+}
 delete
 this
 ;
