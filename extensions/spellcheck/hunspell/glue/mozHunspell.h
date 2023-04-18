@@ -248,6 +248,11 @@ mDynamicDictionaries
 struct
 DictionaryData
 {
+bool
+mEnabled
+=
+true
+;
 mozilla
 :
 :
