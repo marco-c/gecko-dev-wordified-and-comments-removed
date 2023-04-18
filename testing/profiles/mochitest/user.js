@@ -34,3 +34,13 @@ unsuppress_with_no_background
 true
 )
 ;
+user_pref
+(
+"
+fission
+.
+autostart
+"
+false
+)
+;
