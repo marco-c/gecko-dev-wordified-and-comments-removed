@@ -1,8 +1,8 @@
 use
-crate
-:
-:
 alloc
+:
+:
+boxed
 :
 :
 Box

@@ -1,0 +1,12 @@
+[
+toolchain
+]
+components
+=
+[
+"
+rust
+-
+src
+"
+]

@@ -80,6 +80,7 @@ T
 >
 {
 pub
+const
 fn
 new
 (

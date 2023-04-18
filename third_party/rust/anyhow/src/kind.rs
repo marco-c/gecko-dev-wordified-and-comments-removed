@@ -89,6 +89,10 @@ static
 impl
 Adhoc
 {
+#
+[
+cold
+]
 pub
 fn
 new
@@ -177,6 +181,10 @@ Error
 impl
 Trait
 {
+#
+[
+cold
+]
 pub
 fn
 new
@@ -295,6 +303,10 @@ std
 impl
 Boxed
 {
+#
+[
+cold
+]
 pub
 fn
 new

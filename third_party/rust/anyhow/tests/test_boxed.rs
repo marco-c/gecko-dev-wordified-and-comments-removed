@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+nonstandard_macro_braces
+)
+]
 use
 anyhow
 :

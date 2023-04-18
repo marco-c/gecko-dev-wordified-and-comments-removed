@@ -164,6 +164,10 @@ Chain
 a
 >
 {
+#
+[
+cold
+]
 pub
 fn
 new

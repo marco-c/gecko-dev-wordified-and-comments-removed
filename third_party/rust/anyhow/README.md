@@ -394,7 +394,7 @@ requires
 rustc
 1
 .
-34
+38
 +
 *
 <
@@ -761,6 +761,16 @@ using
 the
 nightly
 channel
+or
+stable
+with
+features
+=
+[
+"
+backtrace
+"
+]
 a
 backtrace
 is
