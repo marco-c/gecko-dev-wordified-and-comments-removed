@@ -2714,6 +2714,11 @@ mainSession
 waitForPageStop
 (
 )
+mainSession
+.
+flushApzRepaints
+(
+)
 var
 downTime
 =
