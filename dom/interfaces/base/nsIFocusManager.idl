@@ -1117,6 +1117,9 @@ is
 null
 *
 /
+[
+can_run_script
+]
 void
 clearFocus
 (

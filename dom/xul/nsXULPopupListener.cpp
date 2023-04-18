@@ -977,8 +977,10 @@ if
 suppressBlur
 )
 {
+nsCOMPtr
+<
 nsPIDOMWindowOuter
-*
+>
 window
 =
 doc

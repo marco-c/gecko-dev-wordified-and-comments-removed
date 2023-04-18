@@ -403,6 +403,7 @@ return
 mActiveBrowsingContextInContent
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ContentRemoved
 (
@@ -546,6 +547,7 @@ nsPIDOMWindowOuter
 aFocusedWindow
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DetermineElementToMoveFocus
 (
@@ -935,6 +937,7 @@ BrowsingContext
 aContext
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 AdjustInProcessWindowFocus
 (
@@ -955,6 +958,7 @@ uint64_t
 aActionId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 AdjustWindowFocus
 (
@@ -1014,7 +1018,7 @@ uint32_t
 aFlags
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 bool
 Blur
 (
