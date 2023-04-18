@@ -116,7 +116,7 @@ public
 :
 static
 bool
-ValidateSameSite
+ValidateRawSame
 (
 const
 CookieStruct

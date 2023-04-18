@@ -8797,7 +8797,7 @@ SameSite
 nsICookie
 :
 :
-SAMESITE_LAX
+SAMESITE_NONE
 )
 ;
 }
