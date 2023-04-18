@@ -3325,7 +3325,7 @@ un
 path
 )
 .
-split
+splitlines
 (
 )
 :
