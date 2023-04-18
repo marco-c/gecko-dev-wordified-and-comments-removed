@@ -10430,7 +10430,7 @@ fission
 .
 autostart
 "
-False
+True
 )
         
 self

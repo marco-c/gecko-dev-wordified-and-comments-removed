@@ -1412,7 +1412,7 @@ e10s
 "
 -
 -
-enable
+disable
 -
 fission
 "
@@ -1425,7 +1425,7 @@ action
 "
 :
 "
-store_true
+store_false
 "
                     
 "
@@ -1433,21 +1433,21 @@ dest
 "
 :
 "
-enable_fission
+fission
 "
                     
 "
 default
 "
 :
-False
+True
                     
 "
 help
 "
 :
 "
-Enable
+Disable
 Fission
 (
 site
@@ -3815,35 +3815,35 @@ extra_prefs
         
 if
 (
-            
+not
 self
 .
 config
 [
 "
-enable_fission
+fission
 "
 ]
-            
+)
 or
 "
 fission
 .
 autostart
 =
-true
+false
 "
 in
 self
 .
 config
 [
+            
 "
 extra_prefs
 "
-]
         
-)
+]
 :
             
 options
@@ -3854,7 +3854,7 @@ extend
 "
 -
 -
-enable
+disable
 -
 fission
 "

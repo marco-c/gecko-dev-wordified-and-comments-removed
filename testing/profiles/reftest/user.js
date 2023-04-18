@@ -951,13 +951,3 @@ override
 1
 )
 ;
-user_pref
-(
-"
-fission
-.
-autostart
-"
-false
-)
-;

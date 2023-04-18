@@ -2222,7 +2222,7 @@ add_arg
 "
 -
 -
-enable
+disable
 -
 fission
 "
@@ -2230,17 +2230,23 @@ fission
 action
 =
 "
-store_true
+store_false
+"
+        
+dest
+=
+"
+fission
 "
         
 default
 =
-False
+True
         
 help
 =
 "
-Enable
+Disable
 Fission
 (
 site

@@ -3585,7 +3585,7 @@ disabled
 "
 -
 -
-enable
+disable
 -
 fission
 "
@@ -3598,14 +3598,22 @@ action
 "
 :
 "
-store_true
+store_false
 "
                 
 "
 default
 "
 :
-False
+True
+                
+"
+dest
+"
+:
+"
+fission
+"
                 
 "
 help
@@ -3620,7 +3628,7 @@ fission
 site
 isolation
 )
-enabled
+disabled
 .
 "
             
@@ -7713,16 +7721,21 @@ flavor
 )
         
 if
-options
-.
-enable_fission
-:
+(
             
+(
+not
 options
 .
-extraPrefs
+e10s
+)
+            
+and
+options
 .
-append
+fission
+            
+and
 (
 "
 fission
@@ -7731,7 +7744,37 @@ autostart
 =
 true
 "
+not
+in
+options
+.
+extraPrefs
 )
+            
+and
+(
+"
+fission
+.
+autostart
+=
+false
+"
+not
+in
+options
+.
+extraPrefs
+)
+        
+)
+:
+            
+options
+.
+fission
+=
+False
         
 options
 .

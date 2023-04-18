@@ -18628,6 +18628,34 @@ options
 extraPrefs
 )
         
+if
+"
+fission
+.
+autostart
+"
+not
+in
+self
+.
+extraPrefs
+:
+            
+self
+.
+extraPrefs
+[
+"
+fission
+.
+autostart
+"
+]
+=
+options
+.
+fission
+        
 mozinfo
 .
 update
@@ -18666,7 +18694,7 @@ fission
 .
 autostart
 "
-False
+True
 )
                 
 "
@@ -18715,7 +18743,7 @@ fission
 .
 autostart
 "
-False
+True
 )
                 
 "
