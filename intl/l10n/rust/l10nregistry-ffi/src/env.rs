@@ -273,7 +273,7 @@ L10nRegistryError
 :
 FluentError
 {
-path
+resource_id
 loc
 error
 }
@@ -304,7 +304,9 @@ nsString
 from
 (
 &
-path
+resource_id
+.
+value
 )
 )
 loc

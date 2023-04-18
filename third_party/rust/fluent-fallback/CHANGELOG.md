@@ -24,7 +24,6 @@ Separate
 out
 Bundles
 for
-iterator
 state
 management
 .

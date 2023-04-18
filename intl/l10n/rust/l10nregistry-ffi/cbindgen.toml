@@ -172,6 +172,11 @@ fluent
 bundle
 "
 "
+fluent
+-
+fallback
+"
+"
 l10nregistry
 "
 ]

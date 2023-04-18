@@ -33,6 +33,7 @@ types
 L10nAttribute
 L10nKey
 L10nMessage
+ResourceId
 }
 }
 ;
@@ -290,7 +291,7 @@ res_ids
 :
 Vec
 <
-String
+ResourceId
 >
 generator
 :

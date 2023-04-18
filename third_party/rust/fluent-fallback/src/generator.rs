@@ -29,6 +29,15 @@ unic_langid
 :
 LanguageIdentifier
 ;
+use
+crate
+:
+:
+types
+:
+:
+ResourceId
+;
 pub
 type
 FluentBundleResult
@@ -163,7 +172,7 @@ _res_ids
 :
 Vec
 <
-String
+ResourceId
 >
 )
 -
@@ -194,7 +203,7 @@ _res_ids
 :
 Vec
 <
-String
+ResourceId
 >
 )
 -

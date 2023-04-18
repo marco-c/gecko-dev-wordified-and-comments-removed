@@ -9456,7 +9456,7 @@ version
 "
 0
 .
-5
+6
 .
 0
 "
@@ -9486,7 +9486,7 @@ index
 checksum
 =
 "
-768feaf8a77beababd5cf3bb1154597b7161eb5a555013a3ac594fe3ed8b18ee
+e0ebe8c34b89a10c8a431de9c0c5c2005b79c438d9a498a028c4e05b88afb3d6
 "
 dependencies
 =
@@ -15685,12 +15685,14 @@ mozilla
 l10nregistry
 -
 rs
+.
+git
 ?
 rev
 =
-fd02134161505f978e132114cbabdac057ce3b71
+9da98c6e5325a5f2997191727eaa82c0ebc2004c
 #
-fd02134161505f978e132114cbabdac057ce3b71
+9da98c6e5325a5f2997191727eaa82c0ebc2004c
 "
 dependencies
 =

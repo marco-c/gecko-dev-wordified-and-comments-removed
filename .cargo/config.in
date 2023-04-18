@@ -239,6 +239,8 @@ mozilla
 l10nregistry
 -
 rs
+.
+git
 "
 ]
 git
@@ -257,6 +259,8 @@ mozilla
 l10nregistry
 -
 rs
+.
+git
 "
 replace
 -
@@ -270,7 +274,7 @@ sources
 rev
 =
 "
-fd02134161505f978e132114cbabdac057ce3b71
+9da98c6e5325a5f2997191727eaa82c0ebc2004c
 "
 [
 source

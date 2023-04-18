@@ -29,9 +29,9 @@ cfg
 feature
 =
 "
-fluent
+test
 -
-testing
+fluent
 "
 )
 ]

@@ -48,6 +48,8 @@ version
 0
 .
 16
+.
+0
 "
 features
 =
@@ -78,6 +80,8 @@ memoizer
 0
 .
 5
+.
+1
 "
 unic
 -
@@ -188,11 +192,13 @@ mozilla
 l10nregistry
 -
 rs
+.
+git
 "
 rev
 =
 "
-fd02134161505f978e132114cbabdac057ce3b71
+9da98c6e5325a5f2997191727eaa82c0ebc2004c
 "
 }
 fluent
@@ -202,7 +208,9 @@ fallback
 "
 0
 .
-5
+6
+.
+0
 "
 futures
 =

@@ -19,7 +19,10 @@ LocalesProvider
 types
 :
 :
+{
 L10nKey
+ResourceId
+}
 Localization
 }
 ;
@@ -461,7 +464,7 @@ res_ids
 :
 Vec
 <
-String
+ResourceId
 >
 )
 -
@@ -500,7 +503,7 @@ res_ids
 :
 Vec
 <
-String
+ResourceId
 >
 )
 -
