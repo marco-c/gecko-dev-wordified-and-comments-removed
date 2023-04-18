@@ -106,8 +106,8 @@ KEY_ALGORITHM_SC_VERSION
 0x00000001
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -482,7 +482,6 @@ aNamedCurve
 }
 }
 ;
-}
 }
 #
 endif

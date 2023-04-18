@@ -57,14 +57,13 @@ NS_NSICONSOLEREPORTCOLLECTOR_IID
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
 ConsoleReportCollected
 ;
-}
 }
 class
 NS_NO_VTABLE

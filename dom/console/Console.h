@@ -80,8 +80,8 @@ nsIStackFrame
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1594,7 +1594,6 @@ MainThreadConsoleData
 ;
 }
 ;
-}
 }
 #
 endif

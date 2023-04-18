@@ -17,8 +17,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -182,7 +182,6 @@ EnsureSource
 ;
 }
 ;
-}
 }
 #
 endif

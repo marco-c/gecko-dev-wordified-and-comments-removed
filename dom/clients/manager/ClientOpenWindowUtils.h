@@ -24,8 +24,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -58,7 +58,6 @@ ClientOpenWindowArgs
 aArgs
 )
 ;
-}
 }
 #
 endif

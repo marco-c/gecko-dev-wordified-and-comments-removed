@@ -20,11 +20,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 ConsoleCommon
 {
 class
@@ -66,8 +66,6 @@ mCx
 ;
 }
 ;
-}
-}
 }
 #
 endif

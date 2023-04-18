@@ -13,8 +13,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -378,7 +378,6 @@ OnShutdownThing
 }
 }
 ;
-}
 }
 #
 endif

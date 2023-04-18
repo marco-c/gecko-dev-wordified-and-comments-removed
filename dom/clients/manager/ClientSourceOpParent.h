@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -111,7 +111,6 @@ ClientSourceOpParent
 ;
 }
 ;
-}
 }
 #
 endif

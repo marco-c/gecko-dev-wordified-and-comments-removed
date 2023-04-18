@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -95,7 +95,6 @@ ClientNavigateOpParent
 ;
 }
 ;
-}
 }
 #
 endif

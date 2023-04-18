@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -116,7 +116,6 @@ ClientManagerOpChild
 ;
 }
 ;
-}
 }
 #
 endif
