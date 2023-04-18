@@ -6295,6 +6295,10 @@ IsJavaUiThread
 )
 )
 ;
+mCompositorPaused
+=
+true
+;
 if
 (
 RefPtr
@@ -6308,10 +6312,6 @@ GetUiCompositorControllerChild
 )
 )
 {
-mCompositorPaused
-=
-true
-;
 child
 -
 >

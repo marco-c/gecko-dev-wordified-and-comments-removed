@@ -406,11 +406,14 @@ true
 ;
 }
 virtual
-void
+bool
 OnResumeComposition
 (
 )
 {
+return
+true
+;
 }
 virtual
 LayoutDeviceIntSize
