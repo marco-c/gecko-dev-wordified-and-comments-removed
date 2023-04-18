@@ -925,6 +925,16 @@ VP9
 .
 flexibleMode
 ;
+aInfo
+.
+codecSpecific
+.
+VP9
+.
+first_frame_in_picture
+=
+true
+;
 break
 ;
 }
@@ -2152,6 +2162,7 @@ vp9
 .
 inter_pic_predicted
 =
+!
 aIsKeyframe
 ;
 vp9
@@ -2186,6 +2197,12 @@ vp9
 num_spatial_layers
 =
 1
+;
+vp9
+.
+end_of_picture
+=
+true
 ;
 vp9
 .
