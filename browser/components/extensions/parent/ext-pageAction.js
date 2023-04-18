@@ -557,6 +557,15 @@ selectedTab
 ;
 this
 .
+tabManager
+.
+addActiveTabPermission
+(
+tab
+)
+;
+this
+.
 action
 .
 dispatchClick
