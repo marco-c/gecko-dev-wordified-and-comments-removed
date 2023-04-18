@@ -114,16 +114,6 @@ GeckoViewPromptChild
 jsm
 "
 "
-GeckoViewPrompterChild
-.
-jsm
-"
-"
-GeckoViewPrompterParent
-.
-jsm
-"
-"
 GeckoViewSettingsChild
 .
 jsm
