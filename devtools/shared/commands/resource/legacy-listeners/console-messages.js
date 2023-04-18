@@ -44,7 +44,7 @@ targetCommand
 .
 descriptorFront
 .
-isLocalTab
+isTabDescriptor
 ;
 const
 listenForWorkers
