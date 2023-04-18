@@ -226,7 +226,7 @@ params
 :
 {
 category
-values
+added
 :
 [
 value
