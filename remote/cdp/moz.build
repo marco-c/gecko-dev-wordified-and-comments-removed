@@ -101,15 +101,6 @@ test
 /
 browser
 /
-browser_cdp_only
-.
-ini
-"
-"
-test
-/
-browser
-/
 dom
 /
 browser

@@ -646,31 +646,6 @@ BrowsingContext
 self
 )
     
-property
-    
-def
-event_loop
-(
-self
-)
-:
-        
-if
-self
-.
-transport
-:
-            
-return
-self
-.
-transport
-.
-loop
-        
-return
-None
-    
 classmethod
     
 def
@@ -820,8 +795,6 @@ str
 Any
 ]
 ]
-=
-None
 )
 -
 >
@@ -994,15 +967,6 @@ loop
 loop
 )
         
-await
-self
-.
-transport
-.
-start
-(
-)
-        
 if
 self
 .
@@ -1026,11 +990,18 @@ session
 new
 (
                 
-capabilities
-=
 self
 .
 requested_capabilities
+)
+        
+await
+self
+.
+transport
+.
+start
+(
 )
     
 async

@@ -26,9 +26,11 @@ assert
 current_browser
 .
 remote_agent_port
-!
 =
-0
+=
+"
+9222
+"
     
 assert
 current_browser
