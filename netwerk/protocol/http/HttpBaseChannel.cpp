@@ -21052,11 +21052,6 @@ rv
 )
 ;
 }
-StoreTimingEnabled
-(
-false
-)
-;
 return
 NS_OK
 ;
