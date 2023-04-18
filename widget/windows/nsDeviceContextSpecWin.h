@@ -271,11 +271,6 @@ nsIFile
 >
 mTempFile
 ;
-bool
-mPrintViaSkPDF
-=
-false
-;
 }
 ;
 class

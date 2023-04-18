@@ -254,6 +254,16 @@ nsIPrintSettings
 >
 mPrintSettings
 ;
+#
+ifdef
+MOZ_ENABLE_SKIA_PDF
+bool
+mPrintViaSkPDF
+=
+false
+;
+#
+endif
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

@@ -180,11 +180,6 @@ nsIFile
 >
 mTempFile
 ;
-bool
-mPrintViaSkPDF
-=
-false
-;
 #
 endif
 }
