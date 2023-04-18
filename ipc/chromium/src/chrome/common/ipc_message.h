@@ -275,12 +275,12 @@ REPLY
 1
 }
 ;
-enum
-{
+static
+constexpr
+size_t
 MAX_DESCRIPTORS_PER_MESSAGE
 =
-200
-}
+32767
 ;
 class
 HeaderFlags
