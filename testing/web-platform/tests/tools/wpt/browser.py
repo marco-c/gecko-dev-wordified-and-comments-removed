@@ -6045,6 +6045,14 @@ zip
 "
         
 if
+hasattr
+(
+self
+"
+last_url_used
+"
+)
+and
 self
 .
 last_url_used
