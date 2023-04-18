@@ -5034,6 +5034,16 @@ matchdiacritics
 pref
 (
 "
+findbar
+.
+modalHighlight
+"
+false
+)
+;
+pref
+(
+"
 gfx
 .
 use_text_smoothing_setting
