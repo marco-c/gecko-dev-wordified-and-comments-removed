@@ -690,6 +690,12 @@ prev_sid
 unset
 "
     
+prev_tid
+=
+"
+unset
+"
+    
 prev_ctx
 =
 "
@@ -734,6 +740,18 @@ session_id
 "
 ]
         
+tid
+=
+row
+[
+"
+seq
+"
+]
+>
+>
+32
+        
 ctx
 =
 row
@@ -751,6 +769,8 @@ row
 seq
 "
 ]
+&
+0x00000000FFFFFFFF
         
 sev
 =
@@ -771,6 +791,11 @@ sid
 !
 =
 prev_sid
+or
+tid
+!
+=
+prev_tid
 :
             
 if
@@ -805,25 +830,38 @@ session_complete
 :
             
 if
+(
+                
 seq
 =
 =
 1
+                
 or
 cid
 !
 =
 prev_cid
+                
 or
 sid
 !
 =
 prev_sid
+                
+or
+tid
+!
+=
+prev_tid
+                
 or
 ctx
 !
 =
 prev_ctx
+            
+)
 :
                 
 addTopmostFrame
@@ -900,6 +938,10 @@ cid
 prev_sid
 =
 sid
+        
+prev_tid
+=
+tid
         
 prev_ctx
 =
