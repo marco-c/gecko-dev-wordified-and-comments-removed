@@ -1879,13 +1879,7 @@ nodiscard
 MOZ_CAN_RUN_SCRIPT
 Result
 <
-RefPtr
-<
-dom
-:
-:
-HTMLBRElement
->
+EditorDOMPoint
 nsresult
 >
 CopyLastEditableChildStylesWithTransaction
