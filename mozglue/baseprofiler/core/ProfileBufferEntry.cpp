@@ -5782,7 +5782,9 @@ ThreadSafety
 :
 :
 WithoutMutex
-mWorkerChunkManager
+WorkerChunkManager
+(
+)
 )
 ;
 auto
@@ -5796,7 +5798,9 @@ MakeScopeExit
 (
 )
 {
-mWorkerChunkManager
+WorkerChunkManager
+(
+)
 .
 Reset
 (
