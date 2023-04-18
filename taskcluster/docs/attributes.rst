@@ -1074,7 +1074,7 @@ taskgraph
 .
 transforms
 .
-tests
+test
 .
 TEST_VARIANTS
 .

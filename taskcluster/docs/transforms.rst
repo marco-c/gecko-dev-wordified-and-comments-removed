@@ -837,7 +837,9 @@ gecko_taskgraph
 /
 transforms
 /
-tests
+test
+/
+__init__
 .
 py
 .

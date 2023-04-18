@@ -4614,6 +4614,8 @@ gecko_taskgraph
 .
 transforms
 .
+test
+.
 raptor
 import
 transforms

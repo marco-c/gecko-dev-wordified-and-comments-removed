@@ -426,7 +426,7 @@ gecko_taskgraph
 .
 transforms
 .
-tests
+test
 .
 variant_description_schema
 :
@@ -1058,7 +1058,7 @@ gecko_taskgraph
 .
 transforms
 .
-tests
+test
 .
 set_test_setting
 transform
@@ -1081,7 +1081,7 @@ gecko_taskgraph
 .
 transforms
 .
-tests
+test
 .
 test_setting_description_schema
 .

@@ -88,7 +88,7 @@ gecko_taskgraph
 .
 transforms
 .
-tests
+test
 :
 transforms
 -
@@ -159,7 +159,9 @@ gecko_taskgraph
 /
 transforms
 /
-tests
+test
+/
+__init__
 .
 py
 for

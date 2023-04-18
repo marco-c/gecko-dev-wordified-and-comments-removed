@@ -30,7 +30,7 @@ gecko_taskgraph
 .
 transforms
 import
-tests
+test
 as
 test_transforms
 pytest

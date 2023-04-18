@@ -722,7 +722,9 @@ gecko_taskgraph
 /
 transforms
 /
-tests
+test
+/
+__init__
 .
 py
 .
@@ -877,7 +879,9 @@ gecko_taskgraph
 /
 transforms
 /
-tests
+test
+/
+__init__
 .
 py
 should
