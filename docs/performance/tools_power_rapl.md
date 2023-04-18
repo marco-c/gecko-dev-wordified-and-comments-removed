@@ -121,14 +121,12 @@ of
 Firefox
 ]
 (
-.
-.
 /
 setup
 /
 index
 .
-html
+rst
 )
 .
 #

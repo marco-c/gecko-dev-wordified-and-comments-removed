@@ -156,7 +156,7 @@ setup
 /
 configuring_build_options
 .
-html
+rst
 )
 :
 A
