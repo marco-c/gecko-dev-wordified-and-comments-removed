@@ -540,6 +540,11 @@ int
 aFd
 )
 ;
+int
+GlobalRefCountExport
+(
+)
+;
 void
 GlobalRefCountDelete
 (
