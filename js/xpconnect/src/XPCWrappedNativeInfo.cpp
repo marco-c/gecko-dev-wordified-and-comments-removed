@@ -1854,10 +1854,6 @@ depth
 #
 ifdef
 DEBUG
-depth
--
--
-;
 XPC_LOG_ALWAYS
 (
 (
