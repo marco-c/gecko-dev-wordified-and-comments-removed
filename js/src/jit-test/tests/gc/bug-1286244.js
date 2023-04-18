@@ -11,7 +11,7 @@ newGlobal
 ;
 lfGlobal
 .
-offThreadCompileScript
+offThreadCompileToStencil
 (
 version
 (

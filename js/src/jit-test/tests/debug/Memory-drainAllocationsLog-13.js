@@ -45,7 +45,7 @@ trackingAllocationSites
 =
 true
 ;
-offThreadCompileScript
+offThreadCompileToStencil
 (
 "
 function

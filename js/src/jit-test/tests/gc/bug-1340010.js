@@ -131,7 +131,7 @@ shrinking
 "
 )
 ;
-offThreadCompileScript
+offThreadCompileToStencil
 (
 "
 "

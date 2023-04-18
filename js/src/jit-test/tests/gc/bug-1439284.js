@@ -17,7 +17,7 @@ majorGC
 }
 )
 ;
-offThreadCompileScript
+offThreadCompileToStencil
 (
 (
 '
@@ -83,8 +83,16 @@ j
 }
 try
 {
-runOffThreadScript
+var
+stencil
+=
+finishOffThreadCompileToStencil
 (
+)
+;
+evalStencil
+(
+stencil
 )
 ;
 }

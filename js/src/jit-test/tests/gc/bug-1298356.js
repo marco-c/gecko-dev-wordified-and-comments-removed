@@ -8,7 +8,7 @@ function
 (
 )
 {
-offThreadCompileScript
+offThreadCompileToStencil
 (
 '
 '
