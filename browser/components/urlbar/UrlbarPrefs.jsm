@@ -452,6 +452,14 @@ true
 "
 suggest
 .
+bestmatch
+"
+true
+]
+[
+"
+suggest
+.
 bookmark
 "
 true
