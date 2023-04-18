@@ -20,11 +20,6 @@ AddonUpdateChecker
 jsm
 "
 "
-Content
-.
-js
-"
-"
 ProductAddonChecker
 .
 jsm
