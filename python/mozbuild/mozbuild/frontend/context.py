@@ -4379,7 +4379,7 @@ CFLAGS
 (
                 
 "
-NEWPM
+PASS_MANAGER
 "
                 
 context
@@ -4391,7 +4391,7 @@ substs
 get
 (
 "
-MOZ_NEW_PASS_MANAGER_FLAGS
+MOZ_PASS_MANAGER_FLAGS
 "
 )
                 
