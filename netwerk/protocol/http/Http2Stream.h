@@ -735,8 +735,10 @@ SetPushComplete
 {
 }
 ;
+already_AddRefed
+<
 Http2Session
-*
+>
 Session
 (
 )
