@@ -166,10 +166,12 @@ bool
 aBEndMarginRoot
 bool
 aBlockNeedsFloatManager
+const
 nscoord
 aConsumedBSize
-=
-NS_UNCONSTRAINEDSIZE
+const
+nscoord
+aEffectiveContentBoxBSize
 )
 ;
 nsFlowAreaRect
