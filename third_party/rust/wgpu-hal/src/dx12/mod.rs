@@ -675,12 +675,6 @@ destroy
 struct
 DeviceShared
 {
-features
-:
-wgt
-:
-:
-Features
 zero_buffer
 :
 native

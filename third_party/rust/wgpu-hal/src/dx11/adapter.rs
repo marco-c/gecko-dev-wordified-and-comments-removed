@@ -920,10 +920,6 @@ max_texture_dimension_1d
 :
 max_texture_dimension_2d
 max_texture_dimension_2d
-:
-max_texture_dimension_2d
-max_texture_dimension_3d
-:
 max_texture_dimension_3d
 max_texture_array_layers
 :
@@ -967,8 +963,6 @@ u32
 :
 :
 MAX
-max_vertex_buffers
-:
 max_vertex_buffers
 max_vertex_attributes
 :
