@@ -4109,8 +4109,6 @@ colorSpaceConversion
 default
 "
 ;
-/
-/
 [
 EnforceRange
 ]
@@ -4118,8 +4116,6 @@ unsigned
 long
 resizeWidth
 ;
-/
-/
 [
 EnforceRange
 ]
