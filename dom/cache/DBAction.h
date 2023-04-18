@@ -41,11 +41,11 @@ nsIFile
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 Result
@@ -231,8 +231,6 @@ override
 ;
 }
 ;
-}
-}
 }
 #
 endif

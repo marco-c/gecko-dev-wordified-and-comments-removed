@@ -36,8 +36,8 @@ JSLinearString
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -48,8 +48,8 @@ uint16_t
 ;
 namespace
 constructors
-{
-namespace
+:
+:
 id
 {
 enum
@@ -57,7 +57,6 @@ ID
 :
 uint16_t
 ;
-}
 }
 struct
 WebIDLNameTableEntry
@@ -297,7 +296,6 @@ sEntries
 ;
 }
 ;
-}
 }
 #
 endif

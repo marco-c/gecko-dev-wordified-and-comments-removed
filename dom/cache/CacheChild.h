@@ -38,8 +38,8 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -216,7 +216,6 @@ mLocked
 NS_DECL_OWNINGTHREAD
 }
 ;
-}
 }
 }
 #

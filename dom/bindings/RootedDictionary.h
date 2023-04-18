@@ -24,8 +24,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -184,7 +184,6 @@ trc
 }
 }
 ;
-}
 }
 #
 endif

@@ -48,8 +48,8 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -185,7 +185,6 @@ mDelayedDestroy
 NS_DECL_OWNINGTHREAD
 }
 ;
-}
 }
 }
 #

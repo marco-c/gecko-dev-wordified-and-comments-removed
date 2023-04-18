@@ -35,8 +35,8 @@ PostMessage
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -128,7 +128,6 @@ mAgents
 ;
 }
 ;
-}
 }
 #
 endif

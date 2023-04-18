@@ -62,8 +62,8 @@ AutoIPCStream
 }
 namespace
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -229,7 +229,6 @@ mDestroyDelayed
 ;
 }
 ;
-}
 }
 }
 #

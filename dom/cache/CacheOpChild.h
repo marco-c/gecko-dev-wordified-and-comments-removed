@@ -57,8 +57,8 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -243,7 +243,6 @@ mPromise
 NS_DECL_OWNINGTHREAD
 }
 ;
-}
 }
 }
 #

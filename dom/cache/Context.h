@@ -78,8 +78,8 @@ nsIThread
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -555,7 +555,6 @@ Context
 )
 }
 ;
-}
 }
 }
 #

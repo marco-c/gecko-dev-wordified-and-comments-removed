@@ -20,11 +20,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -65,8 +65,6 @@ NS_DECL_MOZISTORAGEASYNCCONNECTION
 NS_DECL_MOZISTORAGECONNECTION
 }
 ;
-}
-}
 }
 #
 endif

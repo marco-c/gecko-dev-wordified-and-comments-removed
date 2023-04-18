@@ -43,11 +43,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -161,8 +161,6 @@ mCacheId
 ;
 }
 ;
-}
-}
 }
 #
 endif

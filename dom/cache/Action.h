@@ -49,11 +49,11 @@ mozIStorageConnection
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -241,8 +241,6 @@ mCanceled
 ;
 }
 ;
-}
-}
 }
 #
 endif

@@ -62,11 +62,11 @@ nsIFile
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 #
@@ -541,8 +541,6 @@ DirPaddingFile
 aPaddingFileType
 )
 ;
-}
-}
 }
 #
 endif

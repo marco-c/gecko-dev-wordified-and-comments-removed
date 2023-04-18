@@ -121,8 +121,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -1216,7 +1216,6 @@ mArray
 ;
 }
 ;
-}
 }
 #
 endif

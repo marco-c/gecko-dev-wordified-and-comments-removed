@@ -24,8 +24,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -227,7 +227,6 @@ T
 }
 MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
 ;
-}
 }
 #
 endif

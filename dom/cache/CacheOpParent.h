@@ -62,8 +62,8 @@ PBackgroundParent
 }
 namespace
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -291,7 +291,6 @@ mVerifier
 NS_DECL_OWNINGTHREAD
 }
 ;
-}
 }
 }
 #

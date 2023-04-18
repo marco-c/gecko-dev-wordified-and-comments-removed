@@ -189,8 +189,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -2699,7 +2699,6 @@ Value
 aValue
 )
 ;
-}
 }
 }
 #

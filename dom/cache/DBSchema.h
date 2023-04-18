@@ -55,11 +55,11 @@ nsID
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -407,8 +407,6 @@ const
 int32_t
 kFirstShippedSchemaVersion
 ;
-}
-}
 }
 }
 #

@@ -47,8 +47,8 @@ XrayExpandoObjectClassOps
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 extern
@@ -56,7 +56,6 @@ const
 JSClass
 DefaultXrayExpandoObjectClass
 ;
-}
 }
 #
 endif

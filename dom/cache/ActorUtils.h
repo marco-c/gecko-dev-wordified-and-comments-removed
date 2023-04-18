@@ -32,8 +32,8 @@ PrincipalInfo
 }
 namespace
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -135,7 +135,6 @@ PCacheStorageParent
 aActor
 )
 ;
-}
 }
 }
 #
