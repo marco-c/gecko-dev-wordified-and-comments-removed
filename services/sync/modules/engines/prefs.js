@@ -352,11 +352,8 @@ PREFS_DOC_URL_TEMPLATE
 )
 )
 ;
-this
-.
-isAllowedPrefName
-=
 function
+isAllowedPrefName
 (
 prefName
 )
@@ -409,7 +406,6 @@ false
 ;
 }
 }
-;
 function
 PrefRec
 (

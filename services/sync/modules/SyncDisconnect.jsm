@@ -170,8 +170,7 @@ js
 }
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -183,8 +182,7 @@ SyncDisconnect
 "
 ]
 ;
-this
-.
+const
 SyncDisconnectInternal
 =
 {
@@ -1027,8 +1025,7 @@ shutdownBlocker
 }
 }
 ;
-this
-.
+const
 SyncDisconnect
 =
 {
