@@ -1034,8 +1034,6 @@ label
 string_id
 :
 "
-mr1
--
 onboarding
 -
 theme
