@@ -621,6 +621,8 @@ thread_rng
 gen_range
 (
 1024
+.
+.
 0x1_0000u32
 )
 as
