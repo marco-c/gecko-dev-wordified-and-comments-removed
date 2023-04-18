@@ -25418,6 +25418,10 @@ record_in_processes
 '
 main
 '
+-
+'
+socket
+'
 http_transactions_captive_portal
 :
 bug_numbers
@@ -25474,6 +25478,10 @@ record_in_processes
 '
 main
 '
+-
+'
+socket
+'
 http_connections_captive_portal
 :
 bug_numbers
@@ -25529,6 +25537,10 @@ record_in_processes
 -
 '
 main
+'
+-
+'
+socket
 '
 http3_enabled
 :
