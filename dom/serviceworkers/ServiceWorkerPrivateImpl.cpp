@@ -4536,6 +4536,12 @@ BodyStreamVariant
 >
 body
 ;
+int64_t
+bodySize
+=
+-
+1
+;
 nsCOMPtr
 <
 nsIUploadChannel2
@@ -4680,6 +4686,8 @@ get_ParentToParentStream
 uuid
 (
 )
+bodySize
+0
 )
 ;
 }

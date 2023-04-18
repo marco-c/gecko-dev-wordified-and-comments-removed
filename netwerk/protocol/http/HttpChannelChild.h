@@ -491,6 +491,14 @@ IsSuspended
 )
 ;
 void
+OnCopyComplete
+(
+nsresult
+aStatus
+)
+override
+;
+void
 OnBackgroundChildReady
 (
 HttpBackgroundChannelChild

@@ -49,6 +49,10 @@ PDNSRequest
 ;
 include
 protocol
+PFileDescriptorSet
+;
+include
+protocol
 PDataChannel
 ;
 include
@@ -58,6 +62,14 @@ PSimpleChannel
 include
 protocol
 PTransportProvider
+;
+include
+protocol
+PChildToParentStream
+;
+include
+protocol
+PParentToChildStream
 ;
 include
 protocol

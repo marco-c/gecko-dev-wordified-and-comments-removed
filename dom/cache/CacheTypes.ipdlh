@@ -65,6 +65,10 @@ protocol
 PCacheStreamControl
 ;
 include
+protocol
+PChildToParentStream
+;
+include
 IPCStream
 ;
 include
