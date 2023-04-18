@@ -210,9 +210,6 @@ return
 data
 :
 null
-timestamp
-:
-null
 }
 ;
 }
