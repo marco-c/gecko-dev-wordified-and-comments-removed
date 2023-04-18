@@ -1525,7 +1525,7 @@ return
 false
 ;
 }
-void
+bool
 AccessibleWrap
 :
 :
@@ -1759,7 +1759,13 @@ newPosition
 )
 ;
 }
+return
+true
+;
 }
+return
+false
+;
 }
 void
 AccessibleWrap

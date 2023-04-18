@@ -582,7 +582,7 @@ aEndOffset
 )
 ;
 }
-void
+bool
 RemoteAccessibleWrap
 :
 :
@@ -606,6 +606,7 @@ accessibility_cache_enabled_AtStartup
 )
 )
 {
+return
 AccessibleWrap
 :
 :
@@ -615,8 +616,6 @@ aGranularity
 aForward
 aInclusive
 )
-;
-return
 ;
 }
 Unused
@@ -651,6 +650,9 @@ aGranularity
 aForward
 aInclusive
 )
+;
+return
+true
 ;
 }
 void

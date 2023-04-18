@@ -152,7 +152,7 @@ aEndOffset
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
-void
+bool
 PivotTo
 (
 int32_t

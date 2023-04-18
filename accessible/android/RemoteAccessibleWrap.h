@@ -188,7 +188,7 @@ aEndOffset
 override
 ;
 virtual
-void
+bool
 PivotTo
 (
 int32_t
