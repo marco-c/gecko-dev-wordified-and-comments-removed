@@ -171,9 +171,6 @@ forget
 )
 ;
 }
-#
-ifdef
-MOZ_DOM_STREAMS
 already_AddRefed
 <
 Promise
@@ -238,8 +235,6 @@ forget
 )
 ;
 }
-#
-endif
 already_AddRefed
 <
 Promise

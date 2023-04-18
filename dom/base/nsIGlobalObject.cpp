@@ -719,9 +719,6 @@ Clear
 (
 )
 ;
-#
-ifdef
-MOZ_DOM_STREAMS
 mCountQueuingStrategySizeFunction
 =
 nullptr
@@ -730,8 +727,6 @@ mByteLengthQueuingStrategySizeFunction
 =
 nullptr
 ;
-#
-endif
 }
 void
 nsIGlobalObject
@@ -807,9 +802,6 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mReportingObservers
 )
-#
-ifdef
-MOZ_DOM_STREAMS
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mCountQueuingStrategySizeFunction
@@ -818,8 +810,6 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mByteLengthQueuingStrategySizeFunction
 )
-#
-endif
 }
 void
 nsIGlobalObject
@@ -1750,9 +1740,6 @@ ForgetReports
 ;
 }
 }
-#
-ifdef
-MOZ_DOM_STREAMS
 already_AddRefed
 <
 mozilla
@@ -1845,8 +1832,6 @@ mByteLengthQueuingStrategySizeFunction
 aFunction
 ;
 }
-#
-endif
 bool
 nsIGlobalObject
 :

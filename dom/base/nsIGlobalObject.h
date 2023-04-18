@@ -674,9 +674,6 @@ RemoveReportRecords
 (
 )
 ;
-#
-ifdef
-MOZ_DOM_STREAMS
 already_AddRefed
 <
 mozilla
@@ -733,8 +730,6 @@ Function
 aFunction
 )
 ;
-#
-endif
 virtual
 bool
 ShouldResistFingerprinting
@@ -859,9 +854,6 @@ Report
 >
 mReportRecords
 ;
-#
-ifdef
-MOZ_DOM_STREAMS
 RefPtr
 <
 mozilla
@@ -886,8 +878,6 @@ Function
 >
 mByteLengthQueuingStrategySizeFunction
 ;
-#
-endif
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

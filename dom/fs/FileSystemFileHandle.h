@@ -72,9 +72,6 @@ GetFile
 (
 )
 ;
-#
-ifdef
-MOZ_DOM_STREAMS
 already_AddRefed
 <
 Promise
@@ -87,8 +84,6 @@ FileSystemCreateWritableOptions
 aOptions
 )
 ;
-#
-endif
 already_AddRefed
 <
 Promise

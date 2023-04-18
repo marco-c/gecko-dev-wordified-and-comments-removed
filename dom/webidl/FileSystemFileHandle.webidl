@@ -91,9 +91,6 @@ MPL
 .
 *
 /
-#
-ifdef
-MOZ_DOM_STREAMS
 dictionary
 FileSystemCreateWritableOptions
 {
@@ -104,8 +101,6 @@ false
 ;
 }
 ;
-#
-endif
 /
 /
 TODO
@@ -143,9 +138,6 @@ getFile
 (
 )
 ;
-#
-ifdef
-MOZ_DOM_STREAMS
 Promise
 <
 FileSystemWritableFileStream
@@ -160,8 +152,6 @@ options
 }
 )
 ;
-#
-endif
 [
 Exposed
 =

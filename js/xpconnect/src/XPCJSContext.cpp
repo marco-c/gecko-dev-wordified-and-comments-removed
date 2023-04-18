@@ -3593,11 +3593,6 @@ browser_tabs_remote_useCrossOriginEmbedderPolicy
 )
 )
 .
-setStreamsEnabled
-(
-sStreamsEnabled
-)
-.
 setWritableStreamsEnabled
 (
 StaticPrefs
