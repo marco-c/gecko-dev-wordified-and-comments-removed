@@ -11707,3 +11707,15 @@ in
 records
 "
 )
+MSG_DEF
+(
+JSMSG_RECORD_INVALID_DESCRIPTOR
+0
+JSEXN_TYPEERR
+"
+Invalid
+record
+property
+descriptor
+"
+)
