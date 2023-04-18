@@ -88,3 +88,6 @@ patch
 broker_complex_line_breaks
 .
 patch
+allow_reparse_points
+.
+patch
