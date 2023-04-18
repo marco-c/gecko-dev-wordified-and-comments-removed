@@ -122,15 +122,6 @@ mozilla
 :
 Unused
 ;
-using
-mozilla
-:
-:
-ipc
-:
-:
-IPCStream
-;
 class
 ReadStream
 :
