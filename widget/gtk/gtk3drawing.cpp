@@ -2076,11 +2076,6 @@ decorationLayout
 )
 )
 ;
-bool
-right
-=
-false
-;
 size_t
 activeButtons
 =
@@ -2140,7 +2135,6 @@ activeButtons
 =
 {
 MOZ_GTK_HEADER_BAR_BUTTON_CLOSE
-right
 }
 ;
 }
@@ -2166,7 +2160,6 @@ activeButtons
 =
 {
 MOZ_GTK_HEADER_BAR_BUTTON_MINIMIZE
-right
 }
 ;
 }
@@ -2192,7 +2185,6 @@ activeButtons
 =
 {
 MOZ_GTK_HEADER_BAR_BUTTON_MAXIMIZE
-right
 }
 ;
 }
@@ -2213,10 +2205,6 @@ activeButtons
 ;
 }
 }
-right
-=
-true
-;
 }
 return
 activeButtons
@@ -2226,7 +2214,6 @@ static
 void
 EnsureToolbarMetrics
 (
-void
 )
 {
 if
@@ -2259,9 +2246,6 @@ activeButtonNums
 =
 GetGtkHeaderBarButtonLayout
 (
-mozilla
-:
-:
 Span
 (
 aButtonLayout
