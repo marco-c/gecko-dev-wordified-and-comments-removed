@@ -304,7 +304,11 @@ NativeObject
 (
 )
 ;
-ImmutablePropertyNamePtr
+ImmutableTenuredPtr
+<
+PropertyName
+*
+>
 *
 names
 =

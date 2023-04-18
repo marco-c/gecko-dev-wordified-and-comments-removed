@@ -37195,7 +37195,11 @@ cx
 HandleValue
 objVal
 const
-ImmutablePropertyNamePtr
+ImmutableTenuredPtr
+<
+PropertyName
+*
+>
 &
 field
 MutableHandleValue

@@ -4941,9 +4941,6 @@ js
 class
 DebugEnvironmentProxy
 ;
-class
-PropertyName
-;
 namespace
 jit
 {
@@ -4951,15 +4948,6 @@ class
 JitCode
 ;
 }
-using
-ImmutablePropertyNamePtr
-=
-ImmutableTenuredPtr
-<
-PropertyName
-*
->
-;
 using
 ImmutableSymbolPtr
 =

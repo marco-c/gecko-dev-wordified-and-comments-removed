@@ -291,7 +291,11 @@ FieldType
 js
 :
 :
-ImmutablePropertyNamePtr
+ImmutableTenuredPtr
+<
+PropertyName
+*
+>
 JSAtomState
 :
 :

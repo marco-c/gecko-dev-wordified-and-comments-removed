@@ -712,7 +712,11 @@ JSTYPE_LIMIT
 *
 sizeof
 (
-ImmutablePropertyNamePtr
+ImmutableTenuredPtr
+<
+PropertyName
+*
+>
 )
 <
 =
@@ -776,7 +780,11 @@ JSProto_LIMIT
 *
 sizeof
 (
-ImmutablePropertyNamePtr
+ImmutableTenuredPtr
+<
+PropertyName
+*
+>
 )
 <
 =
