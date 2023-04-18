@@ -310,11 +310,6 @@ softokn3
 chk
 #
 endif
-BINPATH
-/
-DLL_PREFIX
-ipcclientcerts
-DLL_SUFFIX
 #
 ifndef
 MOZ_FOLD_LIBS
