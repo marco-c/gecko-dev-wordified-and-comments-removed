@@ -1436,7 +1436,7 @@ dom
 [
 "
 !
-rust_generated
+GeneratedElementDocumentState
 .
 h
 "
@@ -1449,7 +1449,7 @@ h
 CbindgenHeader
 (
 "
-rust_generated
+GeneratedElementDocumentState
 .
 h
 "

@@ -92,7 +92,7 @@ endif
 include_guard
 =
 "
-mozilla_dom_rust_generated_h
+mozilla_dom_GeneratedElementDocumentState_h
 "
 include_version
 =
