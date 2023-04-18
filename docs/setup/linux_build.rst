@@ -1009,7 +1009,6 @@ the
 Firefox
 backend
 then
-then
 select
 one
 of
