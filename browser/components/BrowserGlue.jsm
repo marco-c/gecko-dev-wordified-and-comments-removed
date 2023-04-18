@@ -16041,7 +16041,7 @@ open
 let
 hashedId
 =
-PlacesUtils
+PlacesUIUtils
 .
 obfuscateUrlForXulStore
 (
