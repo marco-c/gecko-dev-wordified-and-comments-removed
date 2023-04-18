@@ -74,16 +74,6 @@ forward
 -
 moz
 -
-scrollbar
--
-thumb
--
-proportional
-"
-"
--
-moz
--
 overlay
 -
 scrollbars

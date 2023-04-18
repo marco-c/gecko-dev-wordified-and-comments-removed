@@ -162,7 +162,6 @@ DragThresholdX
 DragThresholdY
 UseAccessibilityTheme
 ScrollArrowStyle
-ScrollSliderStyle
 ScrollButtonLeftMouseButtonAction
 ScrollButtonMiddleMouseButtonAction
 ScrollButtonRightMouseButtonAction
@@ -280,12 +279,6 @@ eScrollArrowStyle_BothAtTop
 eScrollArrow_StartBackward
 |
 eScrollArrow_StartForward
-}
-;
-enum
-{
-eScrollThumbStyle_Normal
-eScrollThumbStyle_Proportional
 }
 ;
 enum
