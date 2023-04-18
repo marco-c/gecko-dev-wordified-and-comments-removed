@@ -3088,13 +3088,10 @@ EnsureWin32kInitialized
 (
 )
 ;
-gfx
+gfxPlatform
 :
 :
-gfxVars
-:
-:
-Initialize
+GetPlatform
 (
 )
 ;

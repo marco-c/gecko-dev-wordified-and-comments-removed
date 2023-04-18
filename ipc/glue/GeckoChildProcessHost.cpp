@@ -3061,6 +3061,10 @@ mProcessType
 GeckoProcessType_Content
 )
 {
+GetWin32kLockdownState
+(
+)
+;
 mSandboxLevel
 =
 GetEffectiveContentSandboxLevel
