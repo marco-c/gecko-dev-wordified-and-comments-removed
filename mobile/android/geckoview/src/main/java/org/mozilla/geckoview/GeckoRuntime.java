@@ -1007,6 +1007,12 @@ return
 sRuntime
 ;
 }
+SuppressLint
+(
+"
+WrongThread
+"
+)
 WrapForJNI
 (
 calledFrom

@@ -4296,6 +4296,12 @@ null
 )
 ;
 }
+SuppressLint
+(
+"
+WrongThread
+"
+)
 void
 newTab
 (
