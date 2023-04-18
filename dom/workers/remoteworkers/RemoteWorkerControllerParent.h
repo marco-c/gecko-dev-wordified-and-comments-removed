@@ -226,6 +226,15 @@ aValue
 override
 ;
 void
+LockNotified
+(
+bool
+aCreated
+)
+final
+{
+}
+void
 Terminated
 (
 )

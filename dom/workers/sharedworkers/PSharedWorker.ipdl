@@ -161,6 +161,13 @@ value
 )
 ;
 async
+NotifyLock
+(
+bool
+aCreated
+)
+;
+async
 Terminate
 (
 )
