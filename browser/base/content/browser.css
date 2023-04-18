@@ -1294,6 +1294,13 @@ tabbrowser
 arrowscrollbox
 >
 #
+tabbrowser
+-
+arrowscrollbox
+-
+periphery
+>
+#
 tabs
 -
 newtab
@@ -1315,6 +1322,13 @@ hasadjacentnewtabbutton
 tabbrowser
 -
 arrowscrollbox
+>
+#
+tabbrowser
+-
+arrowscrollbox
+-
+periphery
 >
 #
 tabs

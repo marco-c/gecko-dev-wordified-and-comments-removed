@@ -4832,12 +4832,6 @@ pop
 (
 )
 ;
-children
-.
-pop
-(
-)
-;
 return
 children
 ;
@@ -4907,8 +4901,6 @@ node
 arrowScrollbox
 .
 lastChild
-.
-previousSibling
 ;
 }
 return

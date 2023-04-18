@@ -1777,6 +1777,14 @@ focus
 styling
 *
 /
+.
+titlebar
+-
+button
+:
+focus
+-
+visible
 #
 PersonalToolbar
 .
@@ -1873,10 +1881,6 @@ badge
 -
 stack
 {
-color
-:
-inherit
-;
 outline
 :
 var
