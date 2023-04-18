@@ -792,8 +792,15 @@ processName
 Utility
 (
 pid
+:
 %
 u
+sandboxingKind
+:
+%
+"
+PRIu64
+"
 )
 "
 base
@@ -802,6 +809,7 @@ base
 GetCurrentProcId
 (
 )
+mSandbox
 )
 ;
 mozilla

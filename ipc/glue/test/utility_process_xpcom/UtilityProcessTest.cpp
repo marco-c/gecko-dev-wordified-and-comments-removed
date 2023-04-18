@@ -202,6 +202,10 @@ utilityProc
 >
 ProcessPid
 (
+SandboxingKind
+:
+:
+GENERIC_UTILITY
 )
 ;
 if
@@ -314,6 +318,10 @@ utilityProc
 >
 CleanShutdown
 (
+SandboxingKind
+:
+:
+GENERIC_UTILITY
 )
 ;
 Maybe
@@ -327,6 +335,10 @@ utilityProc
 >
 ProcessPid
 (
+SandboxingKind
+:
+:
+GENERIC_UTILITY
 )
 ;
 MOZ_RELEASE_ASSERT

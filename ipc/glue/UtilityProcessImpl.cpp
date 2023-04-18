@@ -221,10 +221,11 @@ GENERIC_UTILITY
 *
 sandboxingKind
 >
+=
 SandboxingKind
 :
 :
-GENERIC_UTILITY
+COUNT
 )
 {
 return
