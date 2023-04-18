@@ -235,7 +235,10 @@ udtitvfmt_open
 (
 IcuLocale
 (
+AssertNullTerminatedString
+(
 aLocale
+)
 )
 aSkeleton
 .

@@ -71,13 +71,6 @@ h
 "
 src
 /
-FormatBuffer
-.
-h
-"
-"
-src
-/
 ICU4CGlue
 .
 h
