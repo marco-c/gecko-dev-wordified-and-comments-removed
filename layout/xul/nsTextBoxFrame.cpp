@@ -242,13 +242,6 @@ h
 #
 include
 "
-nsUnicodeProperties
-.
-h
-"
-#
-include
-"
 TextDrawTarget
 .
 h
@@ -3288,10 +3281,10 @@ using
 mozilla
 :
 :
-unicode
+intl
 :
 :
-ClusterReverseIterator
+GraphemeClusterBreakReverseIteratorUtf16
 ;
 switch
 (
@@ -3468,7 +3461,7 @@ case
 CropLeft
 :
 {
-ClusterReverseIterator
+GraphemeClusterBreakReverseIteratorUtf16
 iter
 (
 mTitle
@@ -3682,7 +3675,7 @@ Length
 )
 )
 ;
-ClusterReverseIterator
+GraphemeClusterBreakReverseIteratorUtf16
 rightIter
 (
 mTitle
