@@ -74,13 +74,7 @@ true
 dump
 :
 true
-location
-:
-true
 openDialog
-:
-false
-sizeToContent
 :
 false
 uneval

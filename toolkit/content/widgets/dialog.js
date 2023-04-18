@@ -1263,6 +1263,8 @@ n
 "
 )
 ;
+window
+.
 sizeToContent
 (
 )

@@ -963,6 +963,8 @@ scrollHeight
 px
 "
 ;
+window
+.
 sizeToContent
 (
 )
