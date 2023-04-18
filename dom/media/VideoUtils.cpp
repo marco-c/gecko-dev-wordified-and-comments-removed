@@ -2836,9 +2836,17 @@ aProfile
 2
 |
 |
+(
 aLevel
 >
 23
+&
+&
+aLevel
+!
+=
+31
+)
 )
 {
 return
