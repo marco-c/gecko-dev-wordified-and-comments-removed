@@ -659,8 +659,13 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 size_t
 sizeOfExcludingThis
 =

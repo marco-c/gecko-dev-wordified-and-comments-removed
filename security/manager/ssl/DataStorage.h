@@ -239,7 +239,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 ;
 bool
 IsReady
