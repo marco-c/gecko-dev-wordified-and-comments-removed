@@ -2947,6 +2947,14 @@ const
 ;
 virtual
 void
+SwipeFinished
+(
+)
+=
+0
+;
+virtual
+void
 EnableDragDrop
 (
 bool

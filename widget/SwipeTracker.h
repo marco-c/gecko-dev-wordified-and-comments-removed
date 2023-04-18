@@ -55,9 +55,6 @@ Units
 h
 "
 class
-nsChildView
-;
-class
 nsIWidget
 ;
 class
@@ -85,7 +82,7 @@ override
 )
 SwipeTracker
 (
-nsChildView
+nsIWidget
 &
 aWidget
 const
@@ -226,7 +223,7 @@ TimeStamp
 aTimeStamp
 )
 ;
-nsChildView
+nsIWidget
 &
 mWidget
 ;

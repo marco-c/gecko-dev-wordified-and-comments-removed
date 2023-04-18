@@ -69,7 +69,7 @@ h
 #
 include
 "
-nsChildView
+nsIWidget
 .
 h
 "
@@ -226,7 +226,7 @@ SwipeTracker
 :
 SwipeTracker
 (
-nsChildView
+nsIWidget
 &
 aWidget
 const

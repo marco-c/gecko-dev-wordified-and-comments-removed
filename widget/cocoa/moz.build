@@ -368,11 +368,6 @@ ScreenHelperCocoa
 mm
 "
 "
-SwipeTracker
-.
-mm
-"
-"
 TextInputHandler
 .
 mm
