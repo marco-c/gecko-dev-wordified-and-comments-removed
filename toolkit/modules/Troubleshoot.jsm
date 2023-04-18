@@ -671,6 +671,17 @@ print
 "
 widget
 .
+gtk
+.
+overlay
+-
+scrollbars
+.
+enabled
+"
+"
+widget
+.
 wayland
 "
 ]
