@@ -1096,11 +1096,9 @@ string
 )
 ;
 await
-OS
+IOUtils
 .
-File
-.
-macSetXAttr
+setMacXAttr
 (
 MacAttribution
 .
