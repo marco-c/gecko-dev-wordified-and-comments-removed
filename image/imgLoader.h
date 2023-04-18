@@ -1278,15 +1278,6 @@ CreateImageLoader
 )
 ;
 bool
-PreferLoadFromCache
-(
-nsIURI
-*
-aURI
-)
-const
-;
-bool
 ValidateEntry
 (
 imgCacheEntry
