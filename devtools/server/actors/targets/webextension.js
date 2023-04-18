@@ -706,9 +706,12 @@ webProgress
 ;
 if
 (
+!
 this
 .
-attached
+isDestroyed
+(
+)
 &
 &
 docShell

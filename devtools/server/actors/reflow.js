@@ -491,11 +491,14 @@ false
 ;
 if
 (
+!
 this
 .
 targetActor
 .
-attached
+isDestroyed
+(
+)
 &
 &
 this
