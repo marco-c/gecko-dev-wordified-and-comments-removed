@@ -8,6 +8,10 @@ moz_can_run_script
 )
 ATTR
 (
+moz_can_run_script_for_definition
+)
+ATTR
+(
 moz_can_run_script_boundary
 )
 ATTR
