@@ -199,7 +199,9 @@ MozlintParser
 def
 get_global_excludes
 (
-topsrcdir
+*
+*
+lintargs
 )
 :
     
@@ -208,6 +210,15 @@ excludes
 GLOBAL_EXCLUDES
 [
 :
+]
+    
+topsrcdir
+=
+lintargs
+[
+"
+root
+"
 ]
     
 excludes
@@ -251,6 +262,20 @@ name
 ]
     
 )
+    
+if
+lintargs
+.
+get
+(
+"
+include_thirdparty
+"
+)
+:
+        
+return
+excludes
     
 for
 path
@@ -453,12 +478,9 @@ exclude
 =
 get_global_excludes
 (
+*
+*
 lintargs
-[
-"
-root
-"
-]
 )
     
 lintargs

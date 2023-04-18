@@ -299,6 +299,27 @@ show_warnings
 =
 True
     
+if
+config
+.
+get
+(
+"
+include_thirdparty
+"
+False
+)
+:
+        
+lintargs
+[
+"
+include_thirdparty
+"
+]
+=
+True
+    
 func
 =
 supported_types
