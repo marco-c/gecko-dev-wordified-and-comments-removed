@@ -13312,7 +13312,7 @@ cornerRadius
 (
 params
 .
-horizontal
+isHorizontal
 ?
 thumb
 .
@@ -13389,7 +13389,7 @@ strokeRadius
 (
 params
 .
-horizontal
+isHorizontal
 ?
 strokeRect
 .
@@ -14954,13 +14954,13 @@ if
 (
 params
 .
-overlay
+isOverlay
 &
 &
 !
 params
 .
-rolledOver
+isRolledOver
 )
 {
 return
