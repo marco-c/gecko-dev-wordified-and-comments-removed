@@ -2567,6 +2567,16 @@ MutableHandleValue
 result
 )
 ;
+bool
+CloseIterOperation
+(
+JSContext
+*
+cx
+HandleObject
+iter
+)
+;
 }
 #
 endif

@@ -8316,6 +8316,12 @@ case
 JSOp
 :
 :
+CloseIter
+:
+case
+JSOp
+:
+:
 IsNullOrUndefined
 :
 case
