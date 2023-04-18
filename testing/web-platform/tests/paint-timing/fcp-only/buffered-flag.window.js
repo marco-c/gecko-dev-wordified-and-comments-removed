@@ -180,6 +180,9 @@ img
 src
 =
 "
+.
+.
+/
 resources
 /
 circles
