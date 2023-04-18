@@ -19413,6 +19413,15 @@ public
 static
 final
 int
+ERROR_BAD_HSTS_CERT
+=
+179
+;
+field
+public
+static
+final
+int
 ERROR_CATEGORY_CONTENT
 =
 4
