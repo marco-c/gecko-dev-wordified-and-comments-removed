@@ -16,11 +16,6 @@ TestFog
 .
 cpp
 "
-"
-TestFogIPC
-.
-cpp
-"
 ]
 FINAL_LIBRARY
 =
