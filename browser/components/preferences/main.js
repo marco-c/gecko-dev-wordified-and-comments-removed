@@ -9021,7 +9021,6 @@ this
 .
 reportUpdatePrefWriteError
 (
-error
 )
 ]
 )
@@ -9345,7 +9344,6 @@ this
 .
 reportUpdatePrefWriteError
 (
-error
 )
 ;
 return
@@ -9362,7 +9360,6 @@ maybeDisableBackgroundUpdateControls
 async
 reportUpdatePrefWriteError
 (
-error
 )
 {
 let
@@ -9413,9 +9410,9 @@ args
 {
 path
 :
-error
+UpdateUtils
 .
-path
+configFilePath
 }
 }
 ]
