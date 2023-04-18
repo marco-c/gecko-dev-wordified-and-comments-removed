@@ -33,9 +33,6 @@ cxxConstructorDecl
 isExplicitMoveConstructor
 (
 )
-isFirstParty
-(
-)
 )
 .
 bind
