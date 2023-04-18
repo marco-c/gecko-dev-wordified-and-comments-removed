@@ -1884,6 +1884,9 @@ const
 uint64_t
 &
 const
+MaybeDiscardedBrowsingContext
+&
+const
 uint32_t
 &
 const
@@ -1918,6 +1921,10 @@ const
 uint64_t
 &
 aParentID
+const
+MaybeDiscardedBrowsingContext
+&
+aBrowsingContext
 const
 uint32_t
 &
