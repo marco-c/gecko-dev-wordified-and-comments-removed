@@ -759,8 +759,6 @@ nscoord
 aMainGapSize
 nscoord
 aCrossGapSize
-nscoord
-aConsumedBSize
 bool
 aHasLineClampEllipsis
 ComputedFlexContainerInfo
@@ -998,8 +996,6 @@ FlexboxAxisTracker
 aAxisTracker
 nscoord
 aSumLineCrossSizes
-nscoord
-aConsumedBSize
 bool
 *
 aIsDefinite
