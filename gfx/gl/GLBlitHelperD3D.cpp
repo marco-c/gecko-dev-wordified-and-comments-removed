@@ -1254,15 +1254,11 @@ mPictureRect
 srcImage
 -
 >
-YDataSize
-(
-)
+mYSize
 srcImage
 -
 >
-CbCrDataSize
-(
-)
+mCbCrSize
 srcImage
 -
 >

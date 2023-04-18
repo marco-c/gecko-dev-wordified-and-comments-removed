@@ -5575,11 +5575,6 @@ gfx
 :
 ColorRange
 aColorRange
-gfx
-:
-:
-ChromaSubsampling
-aSubsampling
 TextureFlags
 aTextureFlags
 )
@@ -5646,7 +5641,6 @@ aStereoMode
 aColorDepth
 aYUVColorSpace
 aColorRange
-aSubsampling
 aTextureFlags
 )
 ;
@@ -7653,9 +7647,7 @@ size
 =
 aData
 .
-YDataSize
-(
-)
+mYSize
 ;
 srcData
 .
@@ -7703,9 +7695,7 @@ size
 =
 aData
 .
-CbCrDataSize
-(
-)
+mCbCrSize
 ;
 srcData
 .
@@ -7753,9 +7743,7 @@ size
 =
 aData
 .
-CbCrDataSize
-(
-)
+mCbCrSize
 ;
 srcData
 .
