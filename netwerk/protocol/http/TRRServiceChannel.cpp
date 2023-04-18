@@ -824,7 +824,7 @@ NIGHTLY_BUILD
 MOZ_ASSERT
 (
 !
-LoadPendingUploadStreamNormalization
+LoadPendingInputStreamLengthOperation
 (
 )
 )
@@ -833,7 +833,7 @@ LoadPendingUploadStreamNormalization
 endif
 if
 (
-LoadPendingUploadStreamNormalization
+LoadPendingInputStreamLengthOperation
 (
 )
 )

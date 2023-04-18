@@ -49,6 +49,15 @@ include
 "
 mozilla
 /
+RemoteLazyInputStreamUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RemoteLazyInputStreamStorage
 .
 h
