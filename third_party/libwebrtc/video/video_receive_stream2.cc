@@ -1212,6 +1212,8 @@ get
 stats_proxy_
 &
 stats_proxy_
+&
+stats_proxy_
 process_thread
 this
 nullptr

@@ -387,6 +387,14 @@ frames_dropped
 override
 ;
 void
+OnDiscardedPackets
+(
+uint32_t
+packets_discarded
+)
+override
+;
+void
 OnFrameBufferTimingsUpdated
 (
 int

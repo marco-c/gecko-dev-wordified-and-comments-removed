@@ -447,6 +447,9 @@ rtcp_packet_type_counter_observer
 RtcpCnameCallback
 *
 rtcp_cname_callback
+VCMReceiveStatisticsCallback
+*
+vcm_receive_statistics
 ProcessThread
 *
 process_thread
@@ -1226,6 +1229,11 @@ unique_ptr
 LossNotificationController
 >
 loss_notification_controller_
+;
+VCMReceiveStatisticsCallback
+*
+const
+vcm_receive_statistics_
 ;
 video_coding
 :

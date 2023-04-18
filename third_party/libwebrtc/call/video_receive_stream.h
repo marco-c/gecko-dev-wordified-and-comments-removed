@@ -469,6 +469,11 @@ frames_decoded
 0
 ;
 uint64_t
+packets_discarded
+=
+0
+;
+uint64_t
 total_decode_time_ms
 =
 0

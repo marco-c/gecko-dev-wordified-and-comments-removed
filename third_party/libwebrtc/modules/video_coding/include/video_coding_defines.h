@@ -215,6 +215,16 @@ frames_dropped
 ;
 virtual
 void
+OnDiscardedPackets
+(
+uint32_t
+packets_discarded
+)
+=
+0
+;
+virtual
+void
 OnFrameBufferTimingsUpdated
 (
 int

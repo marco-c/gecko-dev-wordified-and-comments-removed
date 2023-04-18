@@ -399,7 +399,7 @@ RTC_LOCKS_EXCLUDED
 mutex_
 )
 ;
-void
+uint32_t
 ClearTo
 (
 uint16_t
