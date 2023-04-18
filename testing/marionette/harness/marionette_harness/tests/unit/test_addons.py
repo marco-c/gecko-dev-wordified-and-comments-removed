@@ -145,7 +145,7 @@ execute_async_script
 "
 "
               
-let
+const
 [
 resolve
 ]
@@ -175,21 +175,25 @@ jsm
 )
 ;
               
+async
+function
+getAllAddons
+(
+)
+{
+                
+const
+addons
+=
+await
 AddonManager
 .
 getAllAddons
 (
 )
-.
-then
-(
-function
-(
-addons
-)
-{
+;
                 
-let
+const
 ids
 =
 addons
@@ -212,6 +216,9 @@ ids
 ;
               
 }
+              
+getAllAddons
+(
 )
 ;
             
@@ -272,8 +279,9 @@ execute_async_script
 "
 "
                   
-let
+const
 [
+addonId
 resolve
 ]
 =
@@ -302,17 +310,14 @@ jsm
 )
 ;
                   
-return
-new
-Promise
+async
+function
+uninstall
 (
-await
-resolve
-=
->
+)
 {
                     
-let
+const
 addon
 =
 await
@@ -320,10 +325,7 @@ AddonManager
 .
 getAddonByID
 (
-arguments
-[
-0
-]
+addonId
 )
 ;
                     
@@ -343,6 +345,9 @@ id
 ;
                   
 }
+                  
+uninstall
+(
 )
 ;
                 
