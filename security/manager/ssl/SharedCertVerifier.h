@@ -85,8 +85,6 @@ TimeDuration
 ocspHardTimeout
 uint32_t
 certShortLifetimeInDays
-SHA1Mode
-sha1Mode
 NetscapeStepUpPolicy
 netscapeStepUpPolicy
 CertificateTransparencyMode
@@ -115,7 +113,6 @@ osc
 ocspSoftTimeout
 ocspHardTimeout
 certShortLifetimeInDays
-sha1Mode
 netscapeStepUpPolicy
 ctMode
 crliteMode
