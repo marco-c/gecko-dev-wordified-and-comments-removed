@@ -427,6 +427,17 @@ mNumPendingInputs
 0
 ;
 }
+virtual
+bool
+NeedsNewDecoder
+(
+)
+const
+{
+return
+false
+;
+}
 MozPromiseHolder
 <
 DecodePromise
