@@ -2783,6 +2783,12 @@ nullptr
 ;
 }
 }
+StaticMutex
+PermissionManager
+:
+:
+sCreationMutex
+;
 already_AddRefed
 <
 nsIPermissionManager
@@ -2794,6 +2800,12 @@ GetXPCOMSingleton
 (
 )
 {
+StaticMutexAutoLock
+lock
+(
+sCreationMutex
+)
+;
 if
 (
 gPermissionManager
