@@ -2454,7 +2454,7 @@ aResult
 nsCocoaFeatures
 :
 :
-OnHighSierraOrLater
+OnBigSurOrLater
 (
 )
 ;
