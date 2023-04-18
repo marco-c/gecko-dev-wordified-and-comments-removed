@@ -448,6 +448,9 @@ Addresses
 verify
 address2
 ]
+[
+Sync
+]
 ]
 )
 ;

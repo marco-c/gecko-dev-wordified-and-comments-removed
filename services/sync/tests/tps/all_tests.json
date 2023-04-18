@@ -235,6 +235,14 @@ js
 "
 :
 {
+"
+disabled
+"
+:
+"
+Bug
+1498974
+"
 }
 "
 test_existing_bookmarks
