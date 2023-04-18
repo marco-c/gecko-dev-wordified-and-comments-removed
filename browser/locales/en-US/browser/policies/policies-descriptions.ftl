@@ -1690,6 +1690,17 @@ to
 the
 user
 .
+policy
+-
+UseSystemPrintDialog
+=
+Print
+using
+the
+system
+print
+dialog
+.
 #
 format
 refers
