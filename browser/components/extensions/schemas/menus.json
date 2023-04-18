@@ -1984,11 +1984,6 @@ type
 function
 "
 "
-max_manifest_version
-"
-:
-2
-"
 optional
 "
 :
@@ -2922,11 +2917,6 @@ type
 "
 function
 "
-"
-max_manifest_version
-"
-:
-2
 "
 optional
 "

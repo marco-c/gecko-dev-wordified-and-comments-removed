@@ -6070,16 +6070,6 @@ name
 ;
 if
 (
-!
-module
-)
-{
-return
-false
-;
-}
-if
-(
 module
 .
 permissions

@@ -11086,11 +11086,6 @@ dependencies
 this
 .
 dependencies
-persistentBackground
-:
-this
-.
-persistentBackground
 schemaURLs
 :
 this
