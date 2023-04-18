@@ -755,6 +755,11 @@ MOZ_ASSERT
 isEntry
 (
 )
+|
+|
+isIndirectStub
+(
+)
 )
 ;
 MOZ_ASSERT
