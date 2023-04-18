@@ -169,6 +169,10 @@ hasAnyFlag
 ObjectFlag
 :
 :
+IsUsedAsPrototype
+ObjectFlag
+:
+:
 UseWatchtowerTestingCallback
 }
 )
@@ -190,6 +194,10 @@ obj
 hasAnyFlag
 (
 {
+ObjectFlag
+:
+:
+IsUsedAsPrototype
 ObjectFlag
 :
 :
@@ -280,6 +288,10 @@ obj
 hasAnyFlag
 (
 {
+ObjectFlag
+:
+:
+IsUsedAsPrototype
 ObjectFlag
 :
 :
