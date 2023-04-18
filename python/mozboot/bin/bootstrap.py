@@ -1941,14 +1941,9 @@ args
 sys
 .
 executable
-str
-(
-srcdir
-/
 "
 mach
 "
-)
 ]
     
 if
