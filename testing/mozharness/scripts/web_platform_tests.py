@@ -1931,19 +1931,6 @@ error_summary_file
 "
 -
 -
-binary
-=
-%
-s
-"
-%
-self
-.
-binary_path
-            
-"
--
--
 symbols
 -
 path
@@ -2234,6 +2221,27 @@ query_package_name
 )
             
 ]
+        
+else
+:
+            
+cmd
+.
+append
+(
+"
+-
+-
+binary
+=
+%
+s
+"
+%
+self
+.
+binary_path
+)
         
 if
 is_windows_7
