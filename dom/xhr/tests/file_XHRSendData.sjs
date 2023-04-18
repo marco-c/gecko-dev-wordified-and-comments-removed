@@ -185,15 +185,12 @@ if
 (
 data
 .
-indexOf
+includes
 (
 "
 TEST_REDIRECT_STR
 "
 )
->
-=
-0
 )
 {
 var
