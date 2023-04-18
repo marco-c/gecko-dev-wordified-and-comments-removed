@@ -3156,7 +3156,7 @@ completionValue
 if
 (
 !
-AsyncGeneratorUnwrapYieldResumptionAndResume
+AsyncGeneratorResume
 (
 cx
 asyncGenObj
@@ -3729,7 +3729,7 @@ isSuspendedYield
 if
 (
 !
-AsyncGeneratorUnwrapYieldResumptionAndResume
+AsyncGeneratorResume
 (
 cx
 asyncGenObj
