@@ -92,7 +92,8 @@ private
 to
 local
 :
-failure
+failed
+preflight
 .
 "
 )
