@@ -93,10 +93,6 @@ browser
 "
             
 "
-extensions
-"
-            
-"
 js
 "
             
