@@ -492,6 +492,11 @@ model
 )
 ;
 }
+const
+EXPECTED_NUM_OF_CONFIDENCE
+=
+1
+;
 for
 (
 let
@@ -525,7 +530,7 @@ i
 length
 !
 =
-6
+EXPECTED_NUM_OF_CONFIDENCE
 )
 {
 ok
@@ -561,7 +566,7 @@ i
 length
 !
 =
-6
+EXPECTED_NUM_OF_CONFIDENCE
 )
 {
 ok
