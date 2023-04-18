@@ -152,6 +152,12 @@ temporarilyUnsupportedReftypeForExit
 &
 &
 !
+hasInt64Arg
+(
+)
+&
+&
+!
 temporarilyUnsupportedResultCountForJitExit
 (
 )
