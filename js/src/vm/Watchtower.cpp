@@ -317,9 +317,10 @@ isUsedAsPrototype
 ;
 if
 (
-JSID_IS_INT
-(
 id
+.
+isInt
+(
 )
 )
 {
