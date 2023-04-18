@@ -726,11 +726,11 @@ this
 ;
 this
 .
-onWillNavigate
+hideAllHighlighters
 =
 this
 .
-onWillNavigate
+hideAllHighlighters
 .
 bind
 (
@@ -1801,6 +1801,13 @@ else
 if
 (
 skipShow
+|
+|
+nodeFront
+.
+isDestroyed
+(
+)
 )
 {
 this
@@ -5816,7 +5823,7 @@ promises
 ;
 }
 async
-onWillNavigate
+hideAllHighlighters
 (
 )
 {
