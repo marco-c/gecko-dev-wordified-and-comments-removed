@@ -538,12 +538,12 @@ props
 .
 transitions
 }
-background_url
+backdrop
 =
 {
 props
 .
-background_url
+backdrop
 }
 /
 >
