@@ -1,9 +1,9 @@
 #
 ifndef
-__nsClipboardWaylandAsync_h_
+__nsClipboardWayland_h_
 #
 define
-__nsClipboardWaylandAsync_h_
+__nsClipboardWayland_h_
 #
 include
 <
@@ -69,14 +69,14 @@ nsWaylandDisplay
 h
 "
 class
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 public
 nsRetrievalContext
 {
 public
 :
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 (
 )
 ;
@@ -134,7 +134,7 @@ aTargetNum
 override
 ;
 void
-TransferAsyncClipboardData
+TransferClipboardData
 (
 ClipboardDataType
 aDataType
