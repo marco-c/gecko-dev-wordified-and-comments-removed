@@ -106,7 +106,7 @@ eventPromise
 new
 Promise
 (
-r
+resolve
 =
 >
 {
@@ -117,7 +117,7 @@ chromeEventHandler
 addEventListener
 (
 eventName
-r
+resolve
 {
 mozSystemGroup
 :
