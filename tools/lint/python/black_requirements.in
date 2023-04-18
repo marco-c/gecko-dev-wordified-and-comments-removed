@@ -16,16 +16,6 @@ extensions
 0
 .
 2
-typed
--
-ast
-=
-=
-1
-.
-4
-.
-3
 dataclasses
 =
 =
