@@ -1139,9 +1139,7 @@ linux64
 -
 rust
 -
-1
-.
-47
+toolchain
 linux64
 -
 wine
@@ -1640,9 +1638,7 @@ linux64
 -
 rust
 -
-1
-.
-57
+toolchain
 win64
 -
 mozmake

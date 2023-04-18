@@ -146,9 +146,7 @@ linux64
 -
 rust
 -
-1
-.
-57
+toolchain
 win64
 -
 rust
@@ -198,9 +196,7 @@ win64
 -
 rust
 -
-1
-.
-57
+toolchain
 -
 win64
 -
