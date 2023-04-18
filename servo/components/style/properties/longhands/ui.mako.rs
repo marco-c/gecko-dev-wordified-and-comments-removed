@@ -302,10 +302,6 @@ shadow
 "
 default
 none
-menu
-tooltip
-sheet
-cliprounded
 "
 engines
 =
@@ -322,6 +318,9 @@ gecko_enum_prefix
 "
 StyleWindowShadow
 "
+gecko_inexhaustive
+=
+True
 animation_value_type
 =
 "

@@ -1580,8 +1580,6 @@ None
 Default
 Menu
 Tooltip
-Sheet
-Cliprounded
 }
 ;
 enum

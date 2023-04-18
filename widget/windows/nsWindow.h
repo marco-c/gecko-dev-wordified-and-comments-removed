@@ -2858,11 +2858,6 @@ ClearThemeRegion
 (
 )
 ;
-void
-SetThemeRegion
-(
-)
-;
 static
 void
 ScheduleHookTimer
