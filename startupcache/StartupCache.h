@@ -454,6 +454,11 @@ false
 )
 ;
 void
+CountAllowedInvalidation
+(
+)
+;
+void
 MaybeInitShutdownWrite
 (
 )
@@ -653,6 +658,9 @@ mTable
 )
 >
 mOldTables
+;
+size_t
+mAllowedInvalidationsCount
 ;
 nsCOMPtr
 <
