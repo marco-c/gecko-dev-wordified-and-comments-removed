@@ -6469,6 +6469,16 @@ mTimingFunction
 .
 emplace
 (
+)
+;
+keyframe
+-
+>
+mTimingFunction
+-
+>
+Init
+(
 *
 aTimingFunction
 )
