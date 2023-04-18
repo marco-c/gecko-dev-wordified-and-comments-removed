@@ -29406,6 +29406,13 @@ previousThreadWakeCount
 if
 (
 newWakeups
+>
+0
+)
+{
+if
+(
+newWakeups
 <
 std
 :
@@ -29488,6 +29495,7 @@ previousThreadWakeCount
 =
 newWakeups
 ;
+}
 }
 void
 profiler_mark_thread_awake
