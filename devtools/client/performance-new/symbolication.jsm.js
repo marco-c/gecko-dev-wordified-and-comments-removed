@@ -3,11 +3,17 @@ use
 strict
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setTimeout
 "
@@ -30,7 +36,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 clearTimeout
 "
@@ -189,6 +195,8 @@ request
 )
 ;
 }
+lazy
+.
 clearTimeout
 (
 gCachedWASMModuleExpiryTimer
@@ -196,6 +204,8 @@ gCachedWASMModuleExpiryTimer
 ;
 gCachedWASMModuleExpiryTimer
 =
+lazy
+.
 setTimeout
 (
 clearCachedWASMModule
