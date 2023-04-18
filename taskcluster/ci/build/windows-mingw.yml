@@ -235,6 +235,11 @@ mozilla
 -
 esr91
 '
+'
+mozilla
+-
+esr102
+'
 ]
 use
 -
@@ -424,6 +429,11 @@ mozilla
 -
 esr91
 '
+'
+mozilla
+-
+esr102
+'
 ]
 use
 -
@@ -610,6 +620,11 @@ central
 mozilla
 -
 esr91
+'
+'
+mozilla
+-
+esr102
 '
 ]
 use
@@ -799,6 +814,11 @@ central
 mozilla
 -
 esr91
+'
+'
+mozilla
+-
+esr102
 '
 ]
 use

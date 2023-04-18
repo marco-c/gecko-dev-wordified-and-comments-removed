@@ -780,6 +780,10 @@ mozilla
 -
 esr91
 -
+mozilla
+-
+esr102
+-
 elm
 #
 For
@@ -1383,6 +1387,10 @@ release
 mozilla
 -
 esr91
+-
+mozilla
+-
+esr102
 when
 :
 -

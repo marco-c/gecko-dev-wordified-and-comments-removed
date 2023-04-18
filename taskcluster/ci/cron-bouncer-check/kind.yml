@@ -288,6 +288,11 @@ mozilla
 esr91
 :
 FIREFOX_ESR
+mozilla
+-
+esr102
+:
+FIREFOX_ESR_NEXT
 default
 :
 LATEST_FIREFOX_DEVEL_VERSION
