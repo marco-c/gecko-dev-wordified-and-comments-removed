@@ -513,6 +513,15 @@ WebGLFramebufferJS
 >
 mScratchFramebuffer
 ;
+RefPtr
+<
+WebGLBufferJS
+>
+mZeroBuffer
+;
+IntSize
+mZeroSize
+;
 uint32_t
 mMaxTextureSize
 =
@@ -816,6 +825,10 @@ IntPoint
 aDstOffset
 bool
 aInit
+bool
+aZero
+=
+false
 )
 ;
 bool
