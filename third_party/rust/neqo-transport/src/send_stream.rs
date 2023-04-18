@@ -11948,6 +11948,10 @@ hex_with_len
 (
 &
 builder
+.
+as_ref
+(
+)
 [
 header_len
 .
