@@ -750,6 +750,12 @@ const
 Matrix4x4
 GetTransformToLastDispatchedPaint
 (
+const
+AsyncTransformComponents
+&
+aComponents
+=
+LayoutAndVisual
 )
 const
 ;

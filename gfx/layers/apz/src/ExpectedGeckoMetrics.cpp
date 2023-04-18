@@ -38,6 +38,14 @@ GetVisualScrollOffset
 (
 )
 ;
+mLayoutScrollOffset
+=
+aMetrics
+.
+GetLayoutScrollOffset
+(
+)
+;
 mZoom
 =
 aMetrics
