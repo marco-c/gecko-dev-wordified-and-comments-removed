@@ -1209,6 +1209,9 @@ ProgressListener
 (
 webProgress
 {
+expectNavigation
+:
+true
 resolveWhenStarted
 waitForExplicitStart
 :

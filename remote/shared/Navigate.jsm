@@ -281,6 +281,9 @@ class
 ProgressListener
 {
 #
+expectNavigation
+;
+#
 resolveWhenStarted
 ;
 #
@@ -315,6 +318,9 @@ options
 {
 const
 {
+expectNavigation
+=
+false
 resolveWhenStarted
 =
 false
@@ -327,6 +333,13 @@ false
 }
 =
 options
+;
+this
+.
+#
+expectNavigation
+=
+expectNavigation
 ;
 this
 .
@@ -724,6 +737,15 @@ setUnloadTimer
 (
 )
 {
+if
+(
+!
+this
+.
+#
+expectNavigation
+)
+{
 this
 .
 #
@@ -786,6 +808,7 @@ this
 unloadTimeout
 )
 ;
+}
 }
 onStateChange
 (
