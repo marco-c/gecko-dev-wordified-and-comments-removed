@@ -560,13 +560,6 @@ url
 this
 .
 url
-browsingContextId
-:
-this
-.
-browsingContext
-.
-id
 webSocketDebuggerUrl
 :
 this
