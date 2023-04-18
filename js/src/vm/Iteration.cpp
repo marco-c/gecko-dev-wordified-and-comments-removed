@@ -1247,7 +1247,11 @@ rec
 )
 )
 {
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 keys
 (
 cx

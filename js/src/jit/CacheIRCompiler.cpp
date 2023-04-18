@@ -25975,7 +25975,11 @@ ArrayObject
 (
 JSContext
 *
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 int32_t
 length
 )
@@ -44264,7 +44268,11 @@ bool
 JSContext
 *
 cx
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 obj
 int32_t
 int_id

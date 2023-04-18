@@ -5926,7 +5926,11 @@ ArrayObject
 )
 )
 {
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 arr
 (
 cx

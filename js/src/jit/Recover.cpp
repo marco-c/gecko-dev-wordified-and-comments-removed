@@ -11149,7 +11149,11 @@ result
 cx
 )
 ;
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 obj
 (
 cx

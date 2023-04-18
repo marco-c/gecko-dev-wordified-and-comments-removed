@@ -6692,7 +6692,11 @@ if
 optimized
 )
 {
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 array
 =
 other

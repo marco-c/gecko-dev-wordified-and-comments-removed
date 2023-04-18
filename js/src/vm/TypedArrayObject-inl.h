@@ -3095,7 +3095,11 @@ TypedArrayObject
 *
 >
 target
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 source
 )
 {

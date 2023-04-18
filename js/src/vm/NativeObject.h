@@ -7242,7 +7242,11 @@ GetSparseElementHelper
 JSContext
 *
 cx
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 obj
 int32_t
 int_id
@@ -7292,7 +7296,11 @@ AddOrUpdateSparseElementHelper
 JSContext
 *
 cx
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 obj
 int32_t
 int_id

@@ -15224,7 +15224,11 @@ length
 return
 ;
 }
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 snapshot
 (
 cx

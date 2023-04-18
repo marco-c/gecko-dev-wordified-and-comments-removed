@@ -4566,7 +4566,11 @@ kind
 ]
 )
 ;
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 templateObject
 (
 cx

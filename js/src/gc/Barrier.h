@@ -4939,9 +4939,6 @@ namespace
 js
 {
 class
-ArrayObject
-;
-class
 DebugEnvironmentProxy
 ;
 class
@@ -4986,15 +4983,6 @@ PreBarrieredValue
 PreBarriered
 <
 Value
->
-;
-using
-GCPtrArrayObject
-=
-GCPtr
-<
-ArrayObject
-*
 >
 ;
 using

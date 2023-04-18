@@ -540,7 +540,11 @@ tryOptimizeArray
 JSContext
 *
 cx
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 array
 bool
 *

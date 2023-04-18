@@ -2924,7 +2924,11 @@ CallArgs
 args
 )
 {
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 aObj
 (
 cx
@@ -3095,7 +3099,11 @@ createUnchecked
 JSContext
 *
 cx
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 aObj
 )
 {

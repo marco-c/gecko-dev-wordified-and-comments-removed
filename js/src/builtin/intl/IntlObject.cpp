@@ -624,7 +624,11 @@ return
 false
 ;
 }
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 weekendArray
 (
 cx
@@ -2809,7 +2813,11 @@ size
 list
 )
 ;
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 array
 (
 cx

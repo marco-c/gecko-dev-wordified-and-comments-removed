@@ -5063,7 +5063,11 @@ propVal
 cx
 )
 ;
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 partsArray
 (
 cx

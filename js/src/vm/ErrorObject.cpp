@@ -1757,7 +1757,11 @@ return
 nullptr
 ;
 }
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 array
 (
 cx
@@ -1970,7 +1974,11 @@ return
 false
 ;
 }
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 errorsList
 (
 cx

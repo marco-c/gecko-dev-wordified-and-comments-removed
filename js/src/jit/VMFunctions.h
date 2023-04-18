@@ -90,6 +90,9 @@ class
 AbstractGeneratorObject
 ;
 class
+ArrayObject
+;
+class
 GlobalObject
 ;
 class
@@ -991,7 +994,11 @@ ArrayPushDense
 JSContext
 *
 cx
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 arr
 HandleValue
 v

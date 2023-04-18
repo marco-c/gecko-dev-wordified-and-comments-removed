@@ -1085,7 +1085,11 @@ keyObject
 cx
 )
 ;
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 array
 (
 cx
