@@ -2174,6 +2174,17 @@ config
 .
 mMimeType
 )
+|
+|
+AOMDecoder
+:
+:
+IsAV1
+(
+config
+.
+mMimeType
+)
 )
 &
 &

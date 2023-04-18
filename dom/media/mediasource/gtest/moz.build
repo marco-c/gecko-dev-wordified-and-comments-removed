@@ -8,6 +8,11 @@ TestContainerParser
 cpp
 "
 "
+TestExtractAV1CodecDetails
+.
+cpp
+"
+"
 TestExtractVPXCodecDetails
 .
 cpp
