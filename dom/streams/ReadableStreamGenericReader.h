@@ -284,9 +284,6 @@ mStream
 bool
 ReadableStreamReaderGenericInitialize
 (
-JSContext
-*
-aCx
 ReadableStreamGenericReader
 *
 aReader
