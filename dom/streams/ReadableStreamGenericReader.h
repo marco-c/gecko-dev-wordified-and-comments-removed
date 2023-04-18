@@ -33,6 +33,9 @@ namespace
 dom
 {
 class
+ReadableStreamBYOBReader
+;
+class
 ReadableStreamGenericReader
 :
 public
@@ -97,7 +100,16 @@ IsBYOB
 virtual
 ReadableStreamDefaultReader
 *
-asDefault
+AsDefault
+(
+)
+=
+0
+;
+virtual
+ReadableStreamBYOBReader
+*
+AsBYOB
 (
 )
 =
