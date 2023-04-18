@@ -1380,6 +1380,13 @@ js
 "
 shims
 /
+nielsen
+.
+js
+"
+"
+shims
+/
 optimizely
 .
 js
