@@ -31,6 +31,14 @@ gecko_taskgraph
 .
 util
 .
+attributes
+import
+task_name
+from
+gecko_taskgraph
+.
+util
+.
 treeherder
 import
 add_suffix
@@ -103,9 +111,10 @@ kind
             
 config_tasks
 [
+task_name
+(
 dep
-.
-name
+)
 ]
 =
 dep
