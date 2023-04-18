@@ -38,13 +38,6 @@ ServiceAllocatorWrappers
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-hal
-;
 static
 mozilla
 :
