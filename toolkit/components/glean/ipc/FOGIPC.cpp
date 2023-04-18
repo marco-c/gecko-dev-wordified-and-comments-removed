@@ -565,6 +565,12 @@ newGpuTime
 ;
 if
 (
+!
+XRE_IsSocketProcess
+(
+)
+&
+&
 NS_SUCCEEDED
 (
 GetGpuTimeSinceProcessStartInMs

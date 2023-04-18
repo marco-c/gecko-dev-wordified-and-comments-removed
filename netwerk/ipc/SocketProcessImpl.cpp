@@ -310,16 +310,6 @@ LoadLibraryW
 (
 L
 "
-gdi32
-.
-dll
-"
-)
-;
-LoadLibraryW
-(
-L
-"
 winmm
 .
 dll
