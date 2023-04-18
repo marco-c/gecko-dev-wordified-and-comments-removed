@@ -132,6 +132,11 @@ FlushAndUseFOGData
 (
 )
 ;
+void
+TestTriggerGPUMetrics
+(
+)
+;
 }
 }
 #

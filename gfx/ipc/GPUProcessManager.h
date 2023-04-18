@@ -749,6 +749,11 @@ return
 mProcess
 ;
 }
+void
+TestTriggerMetrics
+(
+)
+;
 private
 :
 void

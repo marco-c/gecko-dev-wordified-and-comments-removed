@@ -639,6 +639,17 @@ FlushFOGDataResolver
 aResolver
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvTestTriggerMetrics
+(
+)
+;
 void
 ActorDestroy
 (

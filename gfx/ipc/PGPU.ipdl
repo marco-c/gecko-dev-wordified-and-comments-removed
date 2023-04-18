@@ -610,6 +610,11 @@ ByteBuf
 buf
 )
 ;
+async
+TestTriggerMetrics
+(
+)
+;
 child
 :
 async

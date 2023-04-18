@@ -135,5 +135,10 @@ AUTF8String
 aAppIdOverride
 )
 ;
+void
+testTriggerGPUMetrics
+(
+)
+;
 }
 ;
