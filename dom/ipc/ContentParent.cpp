@@ -7195,8 +7195,11 @@ platforms
 ;
 #
 else
-gdk_pointer_ungrab
+gdk_device_ungrab
 (
+GdkGetPointer
+(
+)
 aTime
 )
 ;
