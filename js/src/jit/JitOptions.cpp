@@ -871,6 +871,12 @@ false
 ;
 SET_DEFAULT
 (
+enableWatchtowerMegamorphic
+false
+)
+;
+SET_DEFAULT
+(
 enableWasmJitExit
 true
 )

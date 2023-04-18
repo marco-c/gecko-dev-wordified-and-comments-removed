@@ -2668,6 +2668,16 @@ calls
 \
 Register
 (
+WATCHTOWER_MEGAMORPHIC
+"
+watchtower
+.
+megamorphic
+"
+)
+\
+Register
+(
 WASM_FOLD_OFFSETS
 "
 wasm
