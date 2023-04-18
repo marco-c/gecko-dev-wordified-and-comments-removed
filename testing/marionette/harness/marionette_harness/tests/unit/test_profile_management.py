@@ -272,6 +272,25 @@ ignore_errors
 True
 )
         
+profile_args
+=
+self
+.
+marionette
+.
+instance
+.
+profile_args
+        
+profile_args
+[
+"
+profile
+"
+]
+=
+tmp_dir
+        
 self
 .
 external_profile
@@ -280,9 +299,9 @@ mozprofile
 .
 Profile
 (
-profile
-=
-tmp_dir
+*
+*
+profile_args
 )
         
 self
@@ -1369,6 +1388,26 @@ exists
 self
 .
 orig_profile_path
+)
+)
+        
+self
+.
+assertFalse
+(
+self
+.
+marionette
+.
+get_pref
+(
+"
+remote
+.
+prefs
+.
+recommended
+"
 )
 )
         
