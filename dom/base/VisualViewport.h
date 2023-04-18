@@ -349,11 +349,13 @@ GetPresContext
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireResizeEvent
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireScrollEvent
 (
