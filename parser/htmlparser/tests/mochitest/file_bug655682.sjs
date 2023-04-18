@@ -193,9 +193,7 @@ flush
 ;
 timer
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -210,9 +208,7 @@ timer
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 )
@@ -277,9 +273,7 @@ initWithCallback
 (
 callback
 10
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 .
@@ -295,9 +289,7 @@ initWithCallback
 (
 callback
 10
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 .

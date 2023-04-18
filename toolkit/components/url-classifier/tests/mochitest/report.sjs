@@ -66,9 +66,7 @@ mochitest
 +
 SJS
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

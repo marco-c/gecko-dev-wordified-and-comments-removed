@@ -347,9 +347,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -366,9 +364,7 @@ Exception
 (
 "
 "
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 )
@@ -454,9 +450,7 @@ sjs
 var
 pngFile
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -473,9 +467,7 @@ directory_service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProperties
 )
@@ -485,9 +477,7 @@ get
 "
 CurWorkD
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -585,9 +575,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileInputStream
 )

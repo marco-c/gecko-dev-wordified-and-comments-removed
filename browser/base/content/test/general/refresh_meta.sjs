@@ -106,9 +106,7 @@ request
 response
 )
 {
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

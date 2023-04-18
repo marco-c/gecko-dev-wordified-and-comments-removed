@@ -46,9 +46,7 @@ saveLink
 sjs
 "
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

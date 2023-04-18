@@ -5,9 +5,7 @@ request
 response
 )
 {
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (
@@ -157,9 +155,7 @@ UTF
 let
 fstream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -180,9 +176,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileInputStream
 )

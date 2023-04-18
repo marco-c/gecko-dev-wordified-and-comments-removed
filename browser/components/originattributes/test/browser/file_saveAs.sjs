@@ -110,9 +110,7 @@ image
 =
 1
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (
