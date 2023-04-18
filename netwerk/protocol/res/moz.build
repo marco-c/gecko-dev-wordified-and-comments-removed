@@ -37,6 +37,11 @@ PageThumbProtocolHandler
 h
 "
 "
+RemoteStreamGetter
+.
+h
+"
+"
 SubstitutingJARURI
 .
 h
@@ -78,6 +83,11 @@ cpp
 "
 "
 PageThumbProtocolHandler
+.
+cpp
+"
+"
+RemoteStreamGetter
 .
 cpp
 "
