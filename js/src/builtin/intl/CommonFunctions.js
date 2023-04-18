@@ -866,7 +866,7 @@ if
 (
 callFunction
 (
-ArrayIndexOf
+std_Array_indexOf
 seen
 tag
 )
@@ -1493,7 +1493,7 @@ if
 (
 callFunction
 (
-ArrayIndexOf
+std_Array_indexOf
 keyLocaleData
 requestedValue
 )
@@ -1530,7 +1530,7 @@ if
 (
 callFunction
 (
-ArrayIndexOf
+std_Array_indexOf
 keyLocaleData
 "
 true
@@ -1642,7 +1642,7 @@ if
 (
 callFunction
 (
-ArrayIndexOf
+std_Array_indexOf
 keyLocaleData
 optionsValue
 )
@@ -2244,7 +2244,7 @@ undefined
 &
 callFunction
 (
-ArrayIndexOf
+std_Array_indexOf
 values
 value
 )
@@ -2344,7 +2344,7 @@ if
 (
 callFunction
 (
-ArrayIndexOf
+std_Array_indexOf
 values
 value
 )
