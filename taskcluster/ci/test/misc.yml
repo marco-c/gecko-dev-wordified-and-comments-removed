@@ -154,6 +154,17 @@ variant
 :
 geckoview
 -
+e10s
+-
+single
+:
+[
+'
+trunk
+'
+]
+geckoview
+-
 fission
 :
 [
