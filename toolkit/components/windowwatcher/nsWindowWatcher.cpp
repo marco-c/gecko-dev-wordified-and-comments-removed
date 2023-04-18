@@ -1526,7 +1526,7 @@ isSome
 )
 |
 |
-mOuterHeight
+mInnerHeight
 .
 isSome
 (
