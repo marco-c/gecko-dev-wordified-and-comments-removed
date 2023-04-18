@@ -542,6 +542,15 @@ true
 ]
 [
 "
+quickSuggest
+.
+blockedDigests
+"
+"
+"
+]
+[
+"
 quicksuggest
 .
 enabled
