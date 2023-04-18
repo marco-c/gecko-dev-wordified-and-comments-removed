@@ -468,6 +468,10 @@ Process
 "
 )
 ;
+SendInitCompleted
+(
+)
+;
 return
 true
 ;

@@ -1078,10 +1078,6 @@ OtherPid
 )
 )
 ;
-ResolvePromise
-(
-)
-;
 }
 void
 UtilityProcessHost

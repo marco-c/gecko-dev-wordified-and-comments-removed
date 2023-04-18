@@ -97,6 +97,11 @@ ByteBuf
 buf
 )
 ;
+async
+InitCompleted
+(
+)
+;
 child
 :
 async
