@@ -5295,7 +5295,7 @@ and
 DOMInputPasswordAdded
 to
 detect
-whenver
+whenever
 a
 password
 element
