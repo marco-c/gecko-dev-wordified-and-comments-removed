@@ -121,13 +121,6 @@ byteorder
 .
 1
 "
-derive_more
-=
-"
-0
-.
-99
-"
 euclid
 =
 {

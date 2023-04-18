@@ -244,9 +244,6 @@ _
 panic
 !
 (
-format
-!
-(
 "
 Unit
 structs
@@ -260,15 +257,11 @@ derive
 "
 trait_name
 )
-)
 }
 _
 =
 >
 panic
-!
-(
-format
 !
 (
 "
@@ -283,7 +276,6 @@ derive
 )
 "
 trait_name
-)
 )
 }
 ;

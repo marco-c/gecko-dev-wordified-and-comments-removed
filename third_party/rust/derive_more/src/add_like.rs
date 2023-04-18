@@ -263,9 +263,6 @@ _
 panic
 !
 (
-format
-!
-(
 "
 Unit
 structs
@@ -278,7 +275,6 @@ derive
 )
 "
 trait_name
-)
 )
 }
 Data
@@ -329,9 +325,6 @@ _
 panic
 !
 (
-format
-!
-(
 "
 Only
 structs
@@ -346,7 +339,6 @@ derive
 )
 "
 trait_name
-)
 )
 }
 ;
@@ -908,10 +900,6 @@ unit
 variants
 "
 method_ident
-.
-to_string
-(
-)
 )
 ;
 matches
@@ -978,10 +966,6 @@ enum
 variants
 "
 method_ident
-.
-to_string
-(
-)
 )
 ;
 matches

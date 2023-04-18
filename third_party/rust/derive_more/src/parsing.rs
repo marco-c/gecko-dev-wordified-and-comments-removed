@@ -211,10 +211,6 @@ fmt
 :
 :
 Formatter
-<
-'
-_
->
 )
 -
 >
@@ -441,10 +437,6 @@ state
 &
 mut
 ParseState
-<
-'
-_
->
 pos
 :
 usize
@@ -552,10 +544,6 @@ state
 &
 mut
 ParseState
-<
-'
-_
->
 pos
 :
 usize
@@ -708,10 +696,6 @@ state
 &
 mut
 ParseState
-<
-'
-_
->
 pos
 :
 usize

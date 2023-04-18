@@ -263,9 +263,6 @@ str
 panic
 !
 (
-format
-!
-(
 "
 Only
 structs
@@ -280,6 +277,5 @@ derive
 )
 "
 trait_name
-)
 )
 }
