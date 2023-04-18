@@ -206,6 +206,7 @@ GetPresShell
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 bool
 HasListenersForKeyEvents
@@ -306,6 +307,7 @@ return
 false
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 bool
 HasListenersForNonPassiveKeyEvents
