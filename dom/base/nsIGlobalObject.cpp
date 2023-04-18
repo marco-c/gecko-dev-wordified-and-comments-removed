@@ -810,6 +810,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mCountQueuingStrategySizeFunction
 )
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mByteLengthQueuingStrategySizeFunction
+)
 #
 endif
 }
