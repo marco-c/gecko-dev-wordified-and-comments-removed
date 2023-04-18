@@ -551,15 +551,6 @@ const
 ;
 inline
 int32_t
-StackOffsetToSlot
-(
-int32_t
-offset
-)
-const
-;
-inline
-int32_t
 StackOffsetOfPassedArg
 (
 int32_t

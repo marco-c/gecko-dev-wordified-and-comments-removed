@@ -3713,16 +3713,16 @@ IonScript
 IonCompilationId
 compilationId
 uint32_t
-frameSlotsSize
+localSlotsSize
 uint32_t
 argumentSlotsSize
 uint32_t
 frameSize
 )
 :
-frameSlotsSize_
+localSlotsSize_
 (
-frameSlotsSize
+localSlotsSize
 )
 argumentSlotsSize_
 (
@@ -3751,7 +3751,7 @@ cx
 IonCompilationId
 compilationId
 uint32_t
-frameSlotsSize
+localSlotsSize
 uint32_t
 argumentSlotsSize
 uint32_t
@@ -4054,7 +4054,7 @@ raw
 IonScript
 (
 compilationId
-frameSlotsSize
+localSlotsSize
 argumentSlotsSize
 frameSize
 )
