@@ -565,10 +565,7 @@ aRv
 TransformStreamError
 (
 aCx
-MOZ_KnownLive
-(
 mStream
-)
 aError
 aRv
 )
