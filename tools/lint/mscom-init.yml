@@ -256,16 +256,6 @@ DecodePool
 .
 cpp
 -
-intl
-/
-locale
-/
-windows
-/
-OSPreferences_win
-.
-cpp
--
 ipc
 /
 glue
