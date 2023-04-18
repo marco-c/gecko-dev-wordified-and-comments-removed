@@ -137,6 +137,11 @@ script
 .
 js
 "
+thread
+:
+"
+foo
+"
 }
 ;
 const
@@ -174,6 +179,11 @@ js
 isExtension
 :
 true
+thread
+:
+"
+foo
+"
 }
 ;
 const
@@ -210,6 +220,11 @@ js
 content
 .
 js
+"
+thread
+:
+"
+foo
 "
 }
 ;
