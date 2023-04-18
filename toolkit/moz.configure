@@ -4821,7 +4821,7 @@ when
 =
 telemetry_on_by_default
 )
-option
+system_lib_option
 (
 "
 -
