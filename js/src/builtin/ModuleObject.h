@@ -1816,6 +1816,11 @@ HandleModuleObject
 parent
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
 bool
 topLevelCapabilityResolve
@@ -1827,6 +1832,11 @@ HandleModuleObject
 module
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
 bool
 topLevelCapabilityReject
