@@ -161,6 +161,15 @@ aRoleMapEntryIndex
 public
 :
 virtual
+uint64_t
+ID
+(
+)
+const
+=
+0
+;
+virtual
 Accessible
 *
 Parent

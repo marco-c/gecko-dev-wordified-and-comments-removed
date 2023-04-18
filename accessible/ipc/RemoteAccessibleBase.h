@@ -954,11 +954,13 @@ mWrapper
 aWrapper
 ;
 }
+virtual
 uint64_t
 ID
 (
 )
 const
+override
 {
 return
 mID
