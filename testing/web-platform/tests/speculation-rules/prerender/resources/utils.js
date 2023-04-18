@@ -244,6 +244,11 @@ this
 .
 #
 url
+{
+keepalive
+:
+true
+}
 )
 )
 .
@@ -389,6 +394,9 @@ data
 id
 }
 )
+keepalive
+:
+true
 }
 )
 ;
