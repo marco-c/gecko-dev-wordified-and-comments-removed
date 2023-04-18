@@ -5757,6 +5757,16 @@ device
 ;
 Assert
 .
+equal
+(
+null
+credentials
+.
+encryptedSendTabKeys
+)
+;
+Assert
+.
 ok
 (
 !
