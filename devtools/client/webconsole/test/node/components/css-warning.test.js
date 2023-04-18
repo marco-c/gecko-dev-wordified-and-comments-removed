@@ -637,7 +637,7 @@ message
 open
 :
 false
-payload
+cssMatchingElements
 :
 {
 }

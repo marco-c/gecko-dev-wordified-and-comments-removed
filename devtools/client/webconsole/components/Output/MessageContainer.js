@@ -358,7 +358,7 @@ PropTypes
 object
 .
 isRequired
-payload
+cssMatchingElements
 :
 PropTypes
 .
@@ -421,7 +421,7 @@ repeat
 open
 "
 "
-payload
+cssMatchingElements
 "
 "
 timestampsVisible

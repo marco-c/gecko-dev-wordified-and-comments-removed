@@ -191,7 +191,7 @@ open
 PropTypes
 .
 bool
-payload
+cssMatchingElements
 :
 PropTypes
 .
@@ -275,20 +275,13 @@ const
 {
 dispatch
 message
-payload
+cssMatchingElements
 open
 }
 =
 this
 .
 props
-;
-const
-{
-cssSelectors
-}
-=
-message
 ;
 if
 (
@@ -309,7 +302,7 @@ messageId
 else
 if
 (
-payload
+cssMatchingElements
 )
 {
 dispatch
@@ -331,8 +324,7 @@ actions
 .
 messageGetMatchingElements
 (
-messageId
-cssSelectors
+message
 )
 )
 ;
@@ -357,7 +349,7 @@ const
 dispatch
 message
 open
-payload
+cssMatchingElements
 repeat
 serviceContainer
 timestampsVisible
@@ -448,7 +440,7 @@ attachment
 open
 &
 &
-payload
+cssMatchingElements
 !
 =
 =
@@ -506,7 +498,7 @@ escapeWhitespace
 false
 grip
 :
-payload
+cssMatchingElements
 serviceContainer
 }
 )
