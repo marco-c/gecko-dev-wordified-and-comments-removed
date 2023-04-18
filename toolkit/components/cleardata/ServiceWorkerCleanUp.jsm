@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 serviceWorkerManager
 "
@@ -159,6 +165,8 @@ nsIServiceWorkerUnregisterCallback
 )
 }
 ;
+lazy
+.
 serviceWorkerManager
 .
 propagateUnregister
@@ -191,6 +199,8 @@ promises
 let
 serviceWorkers
 =
+lazy
+.
 serviceWorkerManager
 .
 getAllRegistrations
@@ -337,6 +347,8 @@ removeFromOriginAttributes
 aOriginAttributesString
 )
 {
+lazy
+.
 serviceWorkerManager
 .
 removeRegistrationsByOriginAttributes
