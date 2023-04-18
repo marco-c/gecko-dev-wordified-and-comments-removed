@@ -57,6 +57,16 @@ wgsl
 .
 wgsl
 '
+-
+'
+src
+/
+front
+/
+wgsl
+/
+*
+'
 jobs
 :
 validate

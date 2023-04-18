@@ -1131,6 +1131,7 @@ t
 texture_storage_3d
 <
 r32float
+read
 >
 ;
 "
@@ -2009,6 +2010,7 @@ t
 texture_storage_1d_array
 <
 r32float
+read
 >
 ;
 fn

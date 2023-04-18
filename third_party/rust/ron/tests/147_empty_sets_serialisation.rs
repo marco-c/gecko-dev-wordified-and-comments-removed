@@ -292,12 +292,12 @@ new
 (
 )
 .
-with_enumerate_arrays
+enumerate_arrays
 (
 true
 )
 .
-with_new_line
+new_line
 (
 "
 \

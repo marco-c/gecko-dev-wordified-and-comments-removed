@@ -5774,6 +5774,17 @@ MOZ_ASSERT
 target
 )
 ;
+if
+(
+target
+-
+>
+CheckNewWarning
+(
+aMessage
+)
+)
+{
 JsWarning
 (
 target
@@ -5844,6 +5855,7 @@ DispatchEvent
 event
 )
 ;
+}
 }
 return
 IPC_OK

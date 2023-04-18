@@ -2195,13 +2195,13 @@ COPY_DST
 ;
 const
 GPUTextureUsageFlags
-SAMPLED
+TEXTURE_BINDING
 =
 0x04
 ;
 const
 GPUTextureUsageFlags
-STORAGE
+STORAGE_BINDING
 =
 0x08
 ;

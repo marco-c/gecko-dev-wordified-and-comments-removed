@@ -99,9 +99,6 @@ _
 ref
 mut
 cases
-ref
-mut
-default
 }
 )
 =
@@ -133,11 +130,6 @@ body
 ;
 }
 }
-ensure_block_returns
-(
-default
-)
-;
 }
 Some
 (
