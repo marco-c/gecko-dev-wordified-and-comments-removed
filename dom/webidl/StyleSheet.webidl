@@ -430,5 +430,15 @@ attribute
 DOMString
 sourceURL
 ;
+[
+ChromeOnly
+Pure
+]
+readonly
+attribute
+Document
+?
+associatedDocument
+;
 }
 ;

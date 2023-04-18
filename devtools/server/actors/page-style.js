@@ -2381,6 +2381,8 @@ result
 rules
 )
 {
+try
+{
 await
 rule
 .
@@ -2388,6 +2390,13 @@ getAuthoredCssText
 (
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 }
 this
 .
