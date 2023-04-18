@@ -813,7 +813,11 @@ expected
 userPersisted
 ?
 ?
-false
+Snapshots
+.
+USER_PERSISTED
+.
+NO
 "
 Should
 have

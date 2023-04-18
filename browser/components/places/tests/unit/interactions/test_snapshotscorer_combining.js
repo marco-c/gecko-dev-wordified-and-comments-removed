@@ -76,7 +76,11 @@ url
 TEST_URL1
 userPersisted
 :
-true
+Snapshots
+.
+USER_PERSISTED
+.
+MANUAL
 }
 )
 ;
@@ -106,7 +110,11 @@ url
 TEST_URL2
 userPersisted
 :
-true
+Snapshots
+.
+USER_PERSISTED
+.
+MANUAL
 }
 )
 ;
