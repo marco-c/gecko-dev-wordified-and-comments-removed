@@ -5598,6 +5598,9 @@ LControlInstructionHelper
 0
 >
 {
+bool
+is64_
+;
 Assembler
 :
 :
@@ -5618,6 +5621,8 @@ ifTrue
 MBasicBlock
 *
 ifFalse
+bool
+is64
 Assembler
 :
 :
@@ -5633,6 +5638,10 @@ NonZero
 LControlInstructionHelper
 (
 classOpcode
+)
+is64_
+(
+is64
 )
 cond_
 (
@@ -5706,6 +5715,16 @@ getOperand
 (
 1
 )
+;
+}
+bool
+is64
+(
+)
+const
+{
+return
+is64_
 ;
 }
 Assembler
