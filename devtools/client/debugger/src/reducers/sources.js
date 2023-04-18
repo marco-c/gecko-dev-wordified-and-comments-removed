@@ -185,10 +185,6 @@ sourcesWithUrls
 :
 [
 ]
-content
-:
-{
-}
 actors
 :
 {
