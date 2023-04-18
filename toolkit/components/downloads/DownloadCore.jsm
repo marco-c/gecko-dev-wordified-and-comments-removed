@@ -126,11 +126,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 DownloadHistory
 :
@@ -244,7 +250,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gExternalAppLauncher
 "
@@ -274,7 +280,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gExternalHelperAppService
 "
@@ -306,7 +312,7 @@ downloads
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DownloadIntegration
 "
@@ -551,6 +557,8 @@ this
 .
 _deferSucceeded
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -838,6 +846,8 @@ Date
 let
 deferAttempt
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -1079,6 +1089,8 @@ true
 if
 (
 await
+lazy
+.
 DownloadIntegration
 .
 shouldBlockForParentalControls
@@ -1102,6 +1114,8 @@ true
 if
 (
 await
+lazy
+.
 DownloadIntegration
 .
 shouldBlockForRuntimePermissions
@@ -1469,6 +1483,8 @@ _succeed
 )
 {
 await
+lazy
+.
 DownloadIntegration
 .
 downloadDone
@@ -1513,11 +1529,15 @@ source
 isPrivate
 )
 {
+lazy
+.
 gExternalAppLauncher
 .
 deleteTemporaryPrivateFileWhenPossible
 (
 new
+lazy
+.
 FileUtils
 .
 File
@@ -1567,11 +1587,15 @@ false
 )
 )
 {
+lazy
+.
 gExternalAppLauncher
 .
 deleteTemporaryFileOnExit
 (
 new
+lazy
+.
 FileUtils
 .
 File
@@ -1734,11 +1758,15 @@ becauseTargetFailed
 let
 uniquePath
 =
+lazy
+.
 DownloadPaths
 .
 createNiceUniqueFile
 (
 new
+lazy
+.
 FileUtils
 .
 File
@@ -1811,6 +1839,8 @@ this
 .
 _promiseUnblock
 =
+lazy
+.
 DownloadIntegration
 .
 downloadDone
@@ -2170,6 +2200,8 @@ file_opened
 ;
 }
 return
+lazy
+.
 DownloadIntegration
 .
 launchDownload
@@ -2187,6 +2219,8 @@ D_showContainingDirectory
 )
 {
 return
+lazy
+.
 DownloadIntegration
 .
 showContainingDirectory
@@ -2478,6 +2512,8 @@ try
 let
 sourceUri
 =
+lazy
+.
 NetUtil
 .
 newURI
@@ -2492,11 +2528,15 @@ url
 let
 targetUri
 =
+lazy
+.
 NetUtil
 .
 newURI
 (
 new
+lazy
+.
 FileUtils
 .
 File
@@ -3904,6 +3944,8 @@ serializable
 .
 referrerInfo
 =
+lazy
+.
 E10SUtils
 .
 serializeReferrerInfo
@@ -3936,6 +3978,8 @@ this
 .
 loadingPrincipal
 :
+lazy
+.
 E10SUtils
 .
 serializePrincipal
@@ -3968,6 +4012,8 @@ this
 .
 cookieJarSettings
 :
+lazy
+.
 E10SUtils
 .
 serializeCookieJarSettings
@@ -4171,6 +4217,8 @@ source
 .
 referrerInfo
 =
+lazy
+.
 E10SUtils
 .
 deserializeReferrerInfo
@@ -4217,6 +4265,8 @@ source
 .
 loadingPrincipal
 =
+lazy
+.
 E10SUtils
 .
 deserializePrincipal
@@ -4299,6 +4349,8 @@ source
 .
 cookieJarSettings
 =
+lazy
+.
 E10SUtils
 .
 deserializeCookieJarSettings
@@ -5370,6 +5422,8 @@ AppConstants
 MOZ_PLACES
 )
 {
+lazy
+.
 DownloadHistory
 .
 addDownloadToHistory
@@ -5638,6 +5692,8 @@ let
 file
 =
 await
+lazy
+.
 OS
 .
 File
@@ -5671,6 +5727,8 @@ if
 (
 ex
 instanceof
+lazy
+.
 OS
 .
 File
@@ -5713,6 +5771,8 @@ error
 let
 deferSaveComplete
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -6144,6 +6204,8 @@ aRequest
 .
 applyConversion
 =
+lazy
+.
 gExternalHelperAppService
 .
 applyDecodingForExtension
@@ -6261,6 +6323,8 @@ backgroundFileSaver
 setTarget
 (
 new
+lazy
+.
 FileUtils
 .
 File
@@ -6278,6 +6342,8 @@ backgroundFileSaver
 setTarget
 (
 new
+lazy
+.
 FileUtils
 .
 File
@@ -6401,6 +6467,8 @@ loadingPrincipal
 {
 channel
 =
+lazy
+.
 NetUtil
 .
 newChannel
@@ -6451,6 +6519,8 @@ else
 {
 channel
 =
+lazy
+.
 NetUtil
 .
 newChannel
@@ -6898,6 +6968,8 @@ verdict
 }
 =
 await
+lazy
+.
 DownloadIntegration
 .
 shouldBlockForReputationCheck
@@ -6942,6 +7014,8 @@ false
 if
 (
 !
+lazy
+.
 DownloadIntegration
 .
 shouldKeepBlockedData
@@ -7030,11 +7104,15 @@ NotAllowedError
 let
 uniquePath
 =
+lazy
+.
 DownloadPaths
 .
 createNiceUniqueFile
 (
 new
+lazy
+.
 FileUtils
 .
 File
@@ -7420,6 +7498,8 @@ this
 .
 deferExecuted
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -7430,6 +7510,8 @@ this
 .
 deferCanceled
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -7897,6 +7979,8 @@ let
 file
 =
 await
+lazy
+.
 OS
 .
 File
@@ -7936,6 +8020,8 @@ if
 (
 ex
 instanceof
+lazy
+.
 OS
 .
 File
