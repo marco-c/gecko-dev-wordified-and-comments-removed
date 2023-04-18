@@ -297,13 +297,7 @@ OtherPid
 const
 ;
 bool
-Unsound_IsClosed
-(
-)
-const
-;
-uint32_t
-Unsound_NumQueuedMessages
+IsClosed
 (
 )
 const

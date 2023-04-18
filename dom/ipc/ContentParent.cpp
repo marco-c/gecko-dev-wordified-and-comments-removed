@@ -3164,7 +3164,7 @@ if
 channel
 -
 >
-Unsound_IsClosed
+IsClosed
 (
 )
 )
@@ -3189,12 +3189,7 @@ channel
 }
 numQueuedMessages
 =
-channel
--
->
-Unsound_NumQueuedMessages
-(
-)
+0
 ;
 }
 nsPrintfCString
