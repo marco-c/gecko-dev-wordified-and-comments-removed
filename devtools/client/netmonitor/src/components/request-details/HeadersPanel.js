@@ -179,7 +179,7 @@ src
 /
 utils
 /
-mdn
+doc
 -
 utils
 "
