@@ -81,7 +81,7 @@ public
 :
 typedef
 E
-elem_type
+value_type
 ;
 typedef
 typename
@@ -120,7 +120,7 @@ sExtra
 )
 {
 }
-elem_type
+value_type
 *
 Elements
 (
@@ -139,7 +139,7 @@ Elements
 ;
 }
 const
-elem_type
+value_type
 *
 Elements
 (
@@ -158,7 +158,7 @@ Elements
 )
 ;
 }
-elem_type
+value_type
 &
 operator
 [
@@ -178,7 +178,7 @@ i
 ;
 }
 const
-elem_type
+value_type
 &
 operator
 [
@@ -457,7 +457,7 @@ public
 :
 typedef
 E
-elem_type
+value_type
 ;
 typedef
 typename
@@ -496,7 +496,7 @@ sExtra
 )
 {
 }
-elem_type
+value_type
 *
 Elements
 (
@@ -515,7 +515,7 @@ Elements
 ;
 }
 const
-elem_type
+value_type
 *
 Elements
 (
@@ -534,7 +534,7 @@ Elements
 )
 ;
 }
-elem_type
+value_type
 &
 operator
 [
@@ -554,7 +554,7 @@ i
 ;
 }
 const
-elem_type
+value_type
 &
 operator
 [

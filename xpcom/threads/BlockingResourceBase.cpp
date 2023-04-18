@@ -375,7 +375,7 @@ DDT
 ResourceAcquisitionArray
 :
 :
-elem_type
+value_type
 res
 =
 aCycle
@@ -436,7 +436,7 @@ DDT
 ResourceAcquisitionArray
 :
 :
-elem_type
+value_type
 *
 it
 =

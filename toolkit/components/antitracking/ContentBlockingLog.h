@@ -276,14 +276,14 @@ const
 OriginDataTable
 :
 :
-elem_type
+value_type
 &
 aLeft
 const
 OriginDataTable
 :
 :
-elem_type
+value_type
 &
 aRight
 )
@@ -309,7 +309,7 @@ const
 OriginDataTable
 :
 :
-elem_type
+value_type
 &
 aLeft
 const

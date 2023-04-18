@@ -34,15 +34,15 @@ typename
 base_type
 :
 :
-elem_type
-elem_type
+value_type
+value_type
 ;
 ~
 txOwningArray
 (
 )
 {
-elem_type
+value_type
 *
 iter
 =
@@ -53,7 +53,7 @@ Elements
 (
 )
 ;
-elem_type
+value_type
 *
 end
 =

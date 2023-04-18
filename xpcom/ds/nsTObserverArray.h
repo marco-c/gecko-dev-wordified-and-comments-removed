@@ -170,7 +170,7 @@ public
 :
 typedef
 T
-elem_type
+value_type
 ;
 typedef
 nsTArray
@@ -214,7 +214,7 @@ IsEmpty
 ;
 }
 const
-elem_type
+value_type
 *
 Elements
 (
@@ -229,7 +229,7 @@ Elements
 )
 ;
 }
-elem_type
+value_type
 *
 Elements
 (
@@ -243,7 +243,7 @@ Elements
 )
 ;
 }
-elem_type
+value_type
 &
 ElementAt
 (
@@ -261,7 +261,7 @@ aIndex
 ;
 }
 const
-elem_type
+value_type
 &
 ElementAt
 (
@@ -279,13 +279,13 @@ aIndex
 )
 ;
 }
-elem_type
+value_type
 &
 SafeElementAt
 (
 index_type
 aIndex
-elem_type
+value_type
 &
 aDef
 )
@@ -301,14 +301,14 @@ aDef
 ;
 }
 const
-elem_type
+value_type
 &
 SafeElementAt
 (
 index_type
 aIndex
 const
-elem_type
+value_type
 &
 aDef
 )
@@ -412,7 +412,7 @@ aIndex
 )
 ;
 }
-elem_type
+value_type
 *
 InsertElementAt
 (
@@ -420,7 +420,7 @@ index_type
 aIndex
 )
 {
-elem_type
+value_type
 *
 item
 =
@@ -511,7 +511,7 @@ aItem
 )
 ;
 }
-elem_type
+value_type
 *
 AppendElement
 (
@@ -678,7 +678,7 @@ RemoveElementsBy
 ]
 (
 const
-elem_type
+value_type
 &
 aItem
 )
@@ -1013,7 +1013,7 @@ Length
 )
 ;
 }
-elem_type
+value_type
 &
 GetNext
 (
@@ -1133,7 +1133,7 @@ this
 mEnd
 ;
 }
-elem_type
+value_type
 &
 GetNext
 (
@@ -1256,7 +1256,7 @@ mPosition
 0
 ;
 }
-elem_type
+value_type
 &
 GetNext
 (
