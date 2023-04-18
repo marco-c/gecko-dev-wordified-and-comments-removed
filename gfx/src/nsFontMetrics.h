@@ -303,6 +303,11 @@ SpaceWidth
 (
 )
 ;
+nscoord
+IcWidth
+(
+)
+;
 const
 nsFont
 &
@@ -575,6 +580,12 @@ mPresContext
 ;
 int32_t
 mP2A
+;
+nscoord
+mIcWidth
+=
+-
+1
 ;
 FontOrientation
 mOrientation
