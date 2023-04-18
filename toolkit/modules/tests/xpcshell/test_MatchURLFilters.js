@@ -3979,7 +3979,7 @@ path
 queryEquals
 :
 "
-p
+p1
 =
 v
 "
@@ -4037,6 +4037,8 @@ https
 :
 /
 /
+www
+.
 moz
 "
 urlSuffix
@@ -4048,9 +4050,9 @@ ref
 urlMatches
 :
 "
+p1
+=
 v
-#
-ref
 "
 originAndPathMatches
 :
@@ -4060,6 +4062,8 @@ originAndPathMatches
 :
 /
 /
+www
+.
 moz
 .
 *

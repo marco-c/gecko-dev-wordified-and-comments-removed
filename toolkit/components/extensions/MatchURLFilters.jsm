@@ -327,7 +327,9 @@ defaultPort
 ;
 }
 }
-return
+const
+portMatch
+=
 filter
 .
 ports
@@ -379,6 +381,16 @@ filterPort
 }
 )
 ;
+if
+(
+!
+portMatch
+)
+{
+return
+false
+;
+}
 }
 for
 (
