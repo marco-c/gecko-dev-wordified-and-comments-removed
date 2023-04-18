@@ -406,9 +406,6 @@ FilterInvalidationListener
 >
 mInvalidationListeners
 ;
-Mutex
-mCacheMutex
-;
 IntRect
 mRequestedRect
 ;
