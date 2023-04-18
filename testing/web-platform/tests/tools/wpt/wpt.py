@@ -413,21 +413,6 @@ True
 )
                     
 "
-install
-"
-:
-props
-.
-get
-(
-"
-install
-"
-[
-]
-)
-                    
-"
 requirements
 "
 :
@@ -477,16 +462,6 @@ base_dir
 )
                 
 if
-rv
-[
-command
-]
-[
-"
-install
-"
-]
-or
 rv
 [
 command
@@ -1119,24 +1094,6 @@ venv
 .
 start
 (
-)
-        
-for
-name
-in
-props
-[
-"
-install
-"
-]
-:
-            
-venv
-.
-install
-(
-name
 )
         
 for
