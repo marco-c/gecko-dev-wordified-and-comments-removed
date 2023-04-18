@@ -156,11 +156,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -198,7 +204,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 ProtocolProxyService
 :
@@ -3042,6 +3048,8 @@ win
 )
 ;
 await
+lazy
+.
 ContentTask
 .
 spawn
@@ -3364,6 +3372,8 @@ now
 let
 currentWin
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -4758,6 +4768,8 @@ proxyFilter
 {
 proxyInfo
 :
+lazy
+.
 ProtocolProxyService
 .
 newProxyInfo
@@ -4809,6 +4821,8 @@ proxyInfo
 }
 }
 ;
+lazy
+.
 ProtocolProxyService
 .
 registerChannelFilter
@@ -4889,6 +4903,8 @@ if
 proxyFilter
 )
 {
+lazy
+.
 ProtocolProxyService
 .
 unregisterChannelFilter
