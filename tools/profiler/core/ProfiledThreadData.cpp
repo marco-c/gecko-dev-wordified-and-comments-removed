@@ -74,9 +74,6 @@ profiler
 ThreadRegistrationInfo
 &
 aThreadInfo
-nsIEventTarget
-*
-aEventTarget
 )
 :
 mThreadInfo

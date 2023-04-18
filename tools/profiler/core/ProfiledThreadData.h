@@ -122,6 +122,7 @@ final
 {
 public
 :
+explicit
 ProfiledThreadData
 (
 const
@@ -134,9 +135,6 @@ profiler
 ThreadRegistrationInfo
 &
 aThreadInfo
-nsIEventTarget
-*
-aEventTarget
 )
 ;
 ~
