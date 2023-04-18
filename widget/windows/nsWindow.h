@@ -2105,6 +2105,9 @@ mWindow
 ;
 }
 ;
+class
+TaskbarConcealer
+;
 enum
 {
 eFakeTrackPointScrollableID
