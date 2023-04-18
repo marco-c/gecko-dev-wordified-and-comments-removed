@@ -22,11 +22,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormHistory
 "
@@ -110,6 +116,8 @@ nsPref
 changed
 "
 :
+lazy
+.
 FormHistory
 .
 updatePrefs
@@ -134,6 +142,8 @@ expire
 now
 "
 :
+lazy
+.
 FormHistory
 .
 expireOldEntries
@@ -399,6 +409,8 @@ results
 ;
 query
 =
+lazy
+.
 FormHistory
 .
 getAutoCompleteResults
@@ -436,6 +448,8 @@ message
 .
 data
 ;
+lazy
+.
 FormHistory
 .
 update

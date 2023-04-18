@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 FormHistory
 :
@@ -186,6 +192,8 @@ reject
 =
 >
 {
+lazy
+.
 FormHistory
 .
 update
@@ -245,6 +253,8 @@ reject
 =
 >
 {
+lazy
+.
 FormHistory
 .
 count
@@ -343,6 +353,8 @@ reject
 =
 >
 {
+lazy
+.
 FormHistory
 .
 update
@@ -389,6 +401,8 @@ fieldname
 {
 }
 ;
+lazy
+.
 FormHistory
 .
 update
@@ -439,6 +453,8 @@ reject
 =
 >
 {
+lazy
+.
 FormHistory
 .
 search
@@ -487,6 +503,8 @@ reject
 =
 >
 {
+lazy
+.
 FormHistory
 .
 getAutoCompleteResults

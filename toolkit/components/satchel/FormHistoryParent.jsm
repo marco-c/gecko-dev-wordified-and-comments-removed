@@ -12,11 +12,17 @@ FormHistoryParent
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormHistory
 "
@@ -98,6 +104,8 @@ value
 )
 )
 ;
+lazy
+.
 FormHistory
 .
 update
@@ -222,6 +230,8 @@ reject
 }
 }
 ;
+lazy
+.
 FormHistory
 .
 getAutoCompleteResults
@@ -251,6 +261,8 @@ message
 .
 data
 ;
+lazy
+.
 FormHistory
 .
 update
