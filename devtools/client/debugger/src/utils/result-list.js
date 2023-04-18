@@ -50,6 +50,17 @@ setTimeout
 =
 >
 {
+if
+(
+!
+resultEl
+.
+scrollIntoView
+)
+{
+return
+;
+}
 resultEl
 .
 scrollIntoView
