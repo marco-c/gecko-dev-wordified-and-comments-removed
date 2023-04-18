@@ -99,7 +99,7 @@ lazyRequireGetter
 (
 this
 "
-setEventTooltip
+EventTooltip
 "
 "
 devtools
@@ -341,7 +341,11 @@ markup
 .
 toolbox
 ;
-setEventTooltip
+const
+eventTooltip
+=
+new
+EventTooltip
 (
 tooltip
 listenerInfo
@@ -368,6 +372,12 @@ hidden
 =
 >
 {
+eventTooltip
+.
+destroy
+(
+)
+;
 this
 .
 markup
