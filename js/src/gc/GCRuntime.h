@@ -1593,6 +1593,14 @@ maybeGC
 (
 )
 ;
+JS
+:
+:
+GCReason
+wantMajorGC
+(
+)
+;
 bool
 checkEagerAllocTrigger
 (
