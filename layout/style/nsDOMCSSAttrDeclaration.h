@@ -288,9 +288,9 @@ aClosureData
 aClosureData
 -
 >
-mClosure
+mShouldBeCalled
 =
-MutationClosureFunction
+true
 ;
 aClosureData
 -
