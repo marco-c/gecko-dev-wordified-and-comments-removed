@@ -995,6 +995,15 @@ childCrashAnnotationFd
 ;
 #
 endif
+void
+SetCurrentThreadName
+(
+const
+char
+*
+aName
+)
+;
 }
 #
 endif

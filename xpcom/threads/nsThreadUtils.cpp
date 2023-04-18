@@ -2162,6 +2162,14 @@ aName
 )
 ;
 }
+CrashReporter
+:
+:
+SetCurrentThreadName
+(
+aName
+)
+;
 }
 nsIThread
 *
