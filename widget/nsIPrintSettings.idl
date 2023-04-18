@@ -49,9 +49,6 @@ nsIntMargin
 )
 ;
 interface
-nsIPrintSession
-;
-interface
 nsIOutputStream
 ;
 [
@@ -427,13 +424,6 @@ in
 nsIPrintSettings
 aPrintSettings
 )
-;
-[
-noscript
-]
-attribute
-nsIPrintSession
-printSession
 ;
 attribute
 double

@@ -665,11 +665,6 @@ nsIPrinterList
 idl
 "
 "
-nsIPrintSession
-.
-idl
-"
-"
 nsIPrintSettings
 .
 idl
@@ -1382,11 +1377,6 @@ cpp
 "
 "
 nsPrinterListBase
-.
-cpp
-"
-"
-nsPrintSession
 .
 cpp
 "
