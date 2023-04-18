@@ -77,7 +77,7 @@ ClipboardTargets
 nsRetrievalContextWayland
 :
 :
-GetTargets
+GetTargetsImpl
 (
 int32_t
 aWhichClipboard
@@ -89,7 +89,7 @@ LOGCLIP
 nsRetrievalContextWayland
 :
 :
-GetTargets
+GetTargetsImpl
 (
 )
 \
