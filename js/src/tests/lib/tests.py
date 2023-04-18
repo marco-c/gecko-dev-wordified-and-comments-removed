@@ -1153,6 +1153,12 @@ False
         
 self
 .
+is_test262_raw
+=
+False
+        
+self
+.
 selfhosted_xdr_path
 =
 None
@@ -1266,6 +1272,20 @@ dirname
 (
 path
 )
+            
+if
+self
+.
+is_test262_raw
+and
+path
+!
+=
+"
+"
+:
+                
+continue
             
 shell_path
 =

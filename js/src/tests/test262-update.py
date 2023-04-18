@@ -2015,6 +2015,21 @@ testEpilogue
 "
 "
     
+if
+raw
+:
+        
+refTestOptions
+.
+append
+(
+"
+test262
+-
+raw
+"
+)
+    
 (
 terms
 comments
