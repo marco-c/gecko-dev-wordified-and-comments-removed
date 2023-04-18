@@ -945,8 +945,13 @@ menuItem
 const
 items
 =
+mainTarget
+?
 [
 mainTarget
+]
+:
+[
 ]
 ;
 for
