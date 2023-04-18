@@ -7,6 +7,14 @@ js_HelperThreadAPI_h
 namespace
 JS
 {
+enum
+class
+DispatchReason
+{
+NewTask
+FinishedTask
+}
+;
 using
 HelperThreadTaskCallback
 =
@@ -15,6 +23,8 @@ void
 *
 )
 (
+DispatchReason
+reason
 )
 ;
 extern
