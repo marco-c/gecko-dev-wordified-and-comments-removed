@@ -731,7 +731,6 @@ null
 ;
 }
 }
-async
 function
 ProfileAge
 (
@@ -746,12 +745,9 @@ profile
 {
 profile
 =
-await
 PathUtils
 .
-getProfileDir
-(
-)
+profileDir
 ;
 }
 if
