@@ -868,14 +868,6 @@ aTitle
 )
 ;
 void
-URL
-(
-nsString
-&
-aURL
-)
-;
-void
 MimeType
 (
 nsString
