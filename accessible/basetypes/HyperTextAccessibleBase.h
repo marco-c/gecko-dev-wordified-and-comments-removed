@@ -310,6 +310,11 @@ int32_t
 aEndOffset
 )
 ;
+uint32_t
+LinkCount
+(
+)
+;
 Accessible
 *
 LinkAt

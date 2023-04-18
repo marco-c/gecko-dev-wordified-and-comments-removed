@@ -267,17 +267,6 @@ aContentOffset
 )
 const
 ;
-uint32_t
-LinkCount
-(
-)
-{
-return
-EmbeddedChildCount
-(
-)
-;
-}
 LocalAccessible
 *
 LinkAt
