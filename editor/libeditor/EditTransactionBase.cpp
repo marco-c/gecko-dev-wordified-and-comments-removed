@@ -40,13 +40,6 @@ h
 #
 include
 "
-CreateElementTransaction
-.
-h
-"
-#
-include
-"
 DeleteNodeTransaction
 .
 h
@@ -379,10 +372,6 @@ ChangeStyleTransaction
 NS_IMPL_EDITTRANSACTIONBASE_GETASMETHODS
 (
 CompositionTransaction
-)
-NS_IMPL_EDITTRANSACTIONBASE_GETASMETHODS
-(
-CreateElementTransaction
 )
 NS_IMPL_EDITTRANSACTIONBASE_GETASMETHODS
 (

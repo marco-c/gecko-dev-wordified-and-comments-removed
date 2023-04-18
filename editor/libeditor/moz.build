@@ -155,11 +155,6 @@ CompositionTransaction
 cpp
 "
 "
-CreateElementTransaction
-.
-cpp
-"
-"
 CSSEditUtils
 .
 cpp
