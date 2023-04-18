@@ -37,15 +37,6 @@ vector
 #
 include
 "
-gtest
-/
-gtest
-.
-h
-"
-#
-include
-"
 lib
 /
 jxl

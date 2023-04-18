@@ -651,6 +651,7 @@ Main
 (
 )
 float_in
+0
 )
 )
 ;
@@ -1541,6 +1542,7 @@ data_type
 =
 =
 JXL_TYPE_FLOAT
+0
 )
 true
 )

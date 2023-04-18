@@ -57,9 +57,6 @@ h
 undef
 LoadFence
 #
-undef
-StoreFence
-#
 endif
 #
 if

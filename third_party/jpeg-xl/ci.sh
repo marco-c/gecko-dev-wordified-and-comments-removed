@@ -5617,6 +5617,17 @@ OFF
 DJPEGXL_WARNINGS_AS_ERRORS
 =
 OFF
+\
+-
+DCMAKE_REQUIRED_LINK_OPTIONS
+=
+"
+{
+msan_linker_flags
+[
+]
+}
+"
 cmake_build_and_test
 }
 #

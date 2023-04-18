@@ -315,17 +315,6 @@ uint32_t
 val
 )
 ;
-void
-SetDefaultOrder
-(
-AcStrategy
-acs
-coeff_order_t
-*
-JXL_RESTRICT
-order
-)
-;
 Status
 DecodeCoeffOrders
 (

@@ -146,7 +146,14 @@ h
 namespace
 jxl
 {
+std
+:
+:
+pair
+<
 uint32_t
+uint32_t
+>
 ComputeUsedOrders
 (
 SpeedTier
@@ -181,6 +188,8 @@ frame_dim
 uint32_t
 &
 used_orders
+uint16_t
+used_acs
 coeff_order_t
 *
 JXL_RESTRICT

@@ -61,6 +61,13 @@ pixbuf2
 0
 -
 dev
+libgflags
+-
+dev
+|
+libgflag
+-
+dev
 libgif
 -
 dev

@@ -264,7 +264,7 @@ jxl
 /
 splines
 .
-png
+pfm
 "
 )
 ;
@@ -701,7 +701,7 @@ blending
 /
 grayscale_patches_on_splines
 .
-png
+pfm
 "
 )
 ;

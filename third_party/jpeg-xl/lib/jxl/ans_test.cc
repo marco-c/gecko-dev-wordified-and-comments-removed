@@ -1521,6 +1521,8 @@ checkpoint
 ;
 size_t
 br_pos
+=
+0
 ;
 constexpr
 size_t

@@ -415,13 +415,6 @@ num_groups
 res
 -
 >
-num_passes_
-=
-num_passes_
-;
-res
--
->
 channel_shifts_
 .
 resize
