@@ -20,6 +20,8 @@ llvm
 -
 symbolizer
 /
+bin
+/
 llvm
 -
 symbolizer
