@@ -266,7 +266,7 @@ offset
 )
 ;
 void
-prepareVMCall
+enterStubFrame
 (
 MacroAssembler
 &
