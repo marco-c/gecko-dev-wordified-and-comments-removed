@@ -3384,13 +3384,19 @@ git
 download_args
 =
 [
-git
-"
-cinnabar
-"
+sys
+.
+executable
+str
+(
+cinnabar_dir
+/
 "
 download
+.
+py
 "
+)
 ]
     
 try
