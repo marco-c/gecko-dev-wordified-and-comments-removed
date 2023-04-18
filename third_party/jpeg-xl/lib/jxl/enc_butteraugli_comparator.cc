@@ -53,19 +53,11 @@ const
 ButteraugliParams
 &
 params
-const
-JxlCmsInterface
-&
-cms
 )
 :
 params_
 (
 params
-)
-cms_
-(
-cms
 )
 {
 }
@@ -120,7 +112,6 @@ IsGray
 (
 )
 )
-cms_
 nullptr
 &
 store
@@ -281,7 +272,6 @@ IsGray
 (
 )
 )
-cms_
 nullptr
 &
 store
@@ -406,10 +396,6 @@ const
 ButteraugliParams
 &
 params
-const
-JxlCmsInterface
-&
-cms
 ImageF
 *
 distmap
@@ -422,7 +408,6 @@ JxlButteraugliComparator
 comparator
 (
 params
-cms
 )
 ;
 return
@@ -432,7 +417,6 @@ rgb0
 rgb1
 &
 comparator
-cms
 distmap
 pool
 )
@@ -453,10 +437,6 @@ const
 ButteraugliParams
 &
 params
-const
-JxlCmsInterface
-&
-cms
 ImageF
 *
 distmap
@@ -469,7 +449,6 @@ JxlButteraugliComparator
 comparator
 (
 params
-cms
 )
 ;
 JXL_ASSERT
@@ -545,7 +524,6 @@ i
 ]
 &
 comparator
-cms
 distmap
 pool
 )

@@ -105,7 +105,6 @@ begin_c
 t
 .
 rct_type
-pool
 )
 ;
 case

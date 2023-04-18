@@ -4489,8 +4489,6 @@ frame_dim
 ysize_blocks
 )
 ;
-JXL_CHECK
-(
 RunOnPool
 (
 pool
@@ -4514,7 +4512,6 @@ kEncTileDimInBlocks
 &
 ]
 (
-const
 size_t
 num_threads
 )
@@ -4535,10 +4532,9 @@ true
 ]
 (
 const
-uint32_t
+int
 tid
-const
-size_t
+int
 thread
 )
 {
@@ -4651,7 +4647,6 @@ mask
 AQ
 DiffPrecompute
 "
-)
 )
 ;
 return
@@ -5563,10 +5558,6 @@ opsin
 PassesEncoderState
 *
 enc_state
-const
-JxlCmsInterface
-&
-cms
 ThreadPool
 *
 pool
@@ -5677,7 +5668,6 @@ JxlButteraugliComparator
 comparator
 (
 params
-cms
 )
 ;
 JXL_CHECK
@@ -5986,7 +5976,6 @@ RoundtripImage
 (
 opsin
 enc_state
-cms
 pool
 )
 ;
@@ -6933,10 +6922,6 @@ opsin
 PassesEncoderState
 *
 enc_state
-const
-JxlCmsInterface
-&
-cms
 ThreadPool
 *
 pool
@@ -7154,7 +7139,6 @@ RoundtripImage
 (
 opsin
 enc_state
-cms
 pool
 )
 ;
@@ -7970,10 +7954,6 @@ opsin
 PassesEncoderState
 *
 enc_state
-const
-JxlCmsInterface
-&
-cms
 ThreadPool
 *
 pool
@@ -8015,7 +7995,6 @@ FindBestQuantizationMaxError
 (
 opsin
 enc_state
-cms
 pool
 aux_out
 )
@@ -8050,7 +8029,6 @@ FindBestQuantization
 linear
 opsin
 enc_state
-cms
 pool
 aux_out
 )
@@ -8067,10 +8045,6 @@ opsin
 PassesEncoderState
 *
 enc_state
-const
-JxlCmsInterface
-&
-cms
 ThreadPool
 *
 pool
@@ -8245,12 +8219,9 @@ enc_state
 cparams
 )
 ;
-JXL_CHECK
-(
 InitializePassesEncoder
 (
 opsin
-cms
 pool
 enc_state
 modular_frame_encoder
@@ -8259,7 +8230,6 @@ get
 (
 )
 nullptr
-)
 )
 ;
 JXL_CHECK
@@ -8272,15 +8242,12 @@ Init
 )
 )
 ;
-JXL_CHECK
-(
 dec_state
 -
 >
 InitForAC
 (
 pool
-)
 )
 ;
 ImageBundle
@@ -8464,7 +8431,6 @@ allocate_storage
 &
 ]
 (
-const
 size_t
 num_threads
 )
@@ -8504,10 +8470,10 @@ process_group
 ]
 (
 const
-uint32_t
+int
 group_index
 const
-size_t
+int
 thread
 )
 {
@@ -8576,8 +8542,6 @@ nullptr
 ;
 }
 ;
-JXL_CHECK
-(
 RunOnPool
 (
 pool
@@ -8589,7 +8553,6 @@ process_group
 AQ
 loop
 "
-)
 )
 ;
 JXL_CHECK

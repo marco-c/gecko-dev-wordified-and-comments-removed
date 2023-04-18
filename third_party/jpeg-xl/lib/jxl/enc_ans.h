@@ -427,11 +427,6 @@ Token
 {
 Token
 (
-)
-{
-}
-Token
-(
 uint32_t
 c
 uint32_t

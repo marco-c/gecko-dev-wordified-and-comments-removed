@@ -193,10 +193,6 @@ PassesEncoderState
 *
 JXL_RESTRICT
 enc_state
-const
-JxlCmsInterface
-&
-cms
 ThreadPool
 *
 pool

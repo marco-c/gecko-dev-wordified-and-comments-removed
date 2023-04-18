@@ -311,6 +311,15 @@ GroupBorderAssigner
 kPaddingXRound
 )
 ;
+constexpr
+float
+kMinSigma
+=
+-
+3
+.
+90524291751269967465540850526868f
+;
 DF
 df
 ;

@@ -1057,14 +1057,11 @@ Init
 )
 )
 ;
-JXL_CHECK
-(
 state
 .
 InitForAC
 (
 nullptr
-)
 )
 ;
 JXL_CHECK

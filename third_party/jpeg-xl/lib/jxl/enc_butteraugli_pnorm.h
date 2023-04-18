@@ -64,10 +64,6 @@ const
 ImageBundle
 &
 ib2
-const
-JxlCmsInterface
-&
-cms
 )
 ;
 }

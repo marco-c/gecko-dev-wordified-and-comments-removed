@@ -128,10 +128,6 @@ original_pixels
 Image3F
 *
 opsin
-const
-JxlCmsInterface
-&
-cms
 ThreadPool
 *
 pool
@@ -203,10 +199,6 @@ original_pixels
 Image3F
 *
 opsin
-const
-JxlCmsInterface
-&
-cms
 ThreadPool
 *
 pool
@@ -256,10 +248,6 @@ linear
 Image3F
 *
 opsin
-const
-JxlCmsInterface
-&
-cms
 ThreadPool
 *
 pool

@@ -4979,10 +4979,6 @@ fuzzer
 no
 -
 link
--
-DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION
-=
-1
 "
 CMAKE_C_FLAGS
 +
@@ -4996,10 +4992,6 @@ fuzzer
 no
 -
 link
--
-DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION
-=
-1
 "
 cmd_asan
 -
@@ -5109,10 +5101,6 @@ fuzzer
 no
 -
 link
--
-DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION
-=
-1
 "
 CMAKE_C_FLAGS
 +
@@ -5126,10 +5114,6 @@ fuzzer
 no
 -
 link
--
-DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION
-=
-1
 "
 cmd_msan
 -
@@ -5611,10 +5595,6 @@ DRUN_HAVE_POSIX_REGEX
 \
 -
 DJPEGXL_ENABLE_TCMALLOC
-=
-OFF
--
-DJPEGXL_WARNINGS_AS_ERRORS
 =
 OFF
 cmake_build_and_test

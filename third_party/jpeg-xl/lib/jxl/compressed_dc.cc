@@ -1132,10 +1132,9 @@ process_row
 &
 ]
 (
-const
-uint32_t
+int
 y
-size_t
+int
 )
 {
 const
@@ -1452,8 +1451,6 @@ x
 }
 }
 ;
-JXL_CHECK
-(
 RunOnPool
 (
 pool
@@ -1464,12 +1461,13 @@ ysize
 ThreadPool
 :
 :
-NoInit
+SkipInit
+(
+)
 process_row
 "
 DCSmoothingRow
 "
-)
 )
 ;
 dc

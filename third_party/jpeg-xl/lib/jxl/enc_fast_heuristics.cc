@@ -456,8 +456,6 @@ ysize_blocks
 kColorTileDimInBlocks
 )
 ;
-JXL_RETURN_IF_ERROR
-(
 RunOnPool
 (
 pool
@@ -468,7 +466,9 @@ ycolortiles
 ThreadPool
 :
 :
-NoInit
+SkipInit
+(
+)
 [
 &
 ]
@@ -795,7 +795,6 @@ best
 CfL
 "
 )
-)
 ;
 Image3F
 pooled
@@ -827,8 +826,6 @@ ysize_padded
 4
 )
 ;
-JXL_RETURN_IF_ERROR
-(
 RunOnPool
 (
 pool
@@ -841,7 +838,9 @@ ysize_padded
 ThreadPool
 :
 :
-NoInit
+SkipInit
+(
+)
 [
 &
 ]
@@ -1087,7 +1086,6 @@ max
 "
 MaxPool
 "
-)
 )
 ;
 auto
@@ -2524,8 +2522,6 @@ butteraugli_distance
 5f
 )
 ;
-JXL_RETURN_IF_ERROR
-(
 RunOnPool
 (
 pool
@@ -2536,7 +2532,9 @@ ycolortiles
 ThreadPool
 :
 :
-NoInit
+SkipInit
+(
+)
 [
 &
 ]
@@ -3154,7 +3152,6 @@ ACS
 EPF
 "
 )
-)
 ;
 aux_out
 -
@@ -3252,10 +3249,6 @@ linear
 Image3F
 *
 opsin
-const
-JxlCmsInterface
-&
-cms
 ThreadPool
 *
 pool

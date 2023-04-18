@@ -530,7 +530,7 @@ constexpr
 size_t
 kReps
 =
-3
+10
 ;
 #
 else
@@ -538,7 +538,7 @@ constexpr
 size_t
 kReps
 =
-10
+100
 ;
 #
 endif

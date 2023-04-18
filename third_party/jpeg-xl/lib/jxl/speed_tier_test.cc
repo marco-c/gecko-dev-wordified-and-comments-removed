@@ -606,9 +606,6 @@ io2
 cparams
 .
 ba_params
-GetJxlCms
-(
-)
 nullptr
 nullptr
 )

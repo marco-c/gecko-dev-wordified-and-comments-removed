@@ -210,14 +210,6 @@ MakeBit
 EC
 :
 :
-kThermal
-)
-|
-MakeBit
-(
-EC
-:
-:
 kUnknown
 )
 |

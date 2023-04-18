@@ -436,9 +436,6 @@ io2
 cparams
 .
 ba_params
-GetJxlCms
-(
-)
 nullptr
 pool
 )
@@ -551,9 +548,6 @@ preview_frame
 cparams
 .
 ba_params
-GetJxlCms
-(
-)
 nullptr
 pool
 )
@@ -579,9 +573,6 @@ Main
 cparams
 .
 ba_params
-GetJxlCms
-(
-)
 nullptr
 pool
 )

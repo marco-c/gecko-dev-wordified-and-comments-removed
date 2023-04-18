@@ -36,17 +36,6 @@ lib
 /
 jxl
 /
-enc_color_management
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 testdata
 .
 h
@@ -162,9 +151,6 @@ image
 TransformTo
 (
 linear_rec2020
-GetJxlCms
-(
-)
 )
 )
 ;

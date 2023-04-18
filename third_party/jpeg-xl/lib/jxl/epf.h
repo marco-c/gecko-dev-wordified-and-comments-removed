@@ -83,15 +83,6 @@ kInvSigmaNum
 .
 1715728752538099024f
 ;
-constexpr
-float
-kMinSigma
-=
--
-3
-.
-90524291751269967465540850526868f
-;
 void
 ComputeSigma
 (

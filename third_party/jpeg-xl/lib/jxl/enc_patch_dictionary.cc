@@ -2078,10 +2078,10 @@ process_row
 &
 ]
 (
-const
-uint32_t
+uint64_t
 y
-size_t
+int
+_
 )
 {
 for
@@ -2380,8 +2380,6 @@ true
 }
 }
 ;
-JXL_CHECK
-(
 RunOnPool
 (
 pool
@@ -2396,12 +2394,13 @@ kPatchSide
 ThreadPool
 :
 :
-NoInit
+SkipInit
+(
+)
 process_row
 "
 IsScreenshotLike
 "
-)
 )
 ;
 if
@@ -4591,10 +4590,6 @@ PassesEncoderState
 *
 JXL_RESTRICT
 state
-const
-JxlCmsInterface
-&
-cms
 ThreadPool
 *
 pool
@@ -5674,7 +5669,6 @@ reference_frame
 state
 0
 cparams
-cms
 pool
 true
 )
@@ -5735,10 +5729,6 @@ idx
 CompressParams
 &
 cparams
-const
-JxlCmsInterface
-&
-cms
 ThreadPool
 *
 pool
@@ -6034,7 +6024,6 @@ metadata
 ib
 &
 roundtrip_state
-cms
 pool
 special_frame
 .
