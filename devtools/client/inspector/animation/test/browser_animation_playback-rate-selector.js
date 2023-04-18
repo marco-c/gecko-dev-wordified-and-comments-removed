@@ -161,7 +161,8 @@ animations
 "
 )
 ;
-clickOnPlaybackRateSelector
+await
+changePlaybackRateSelector
 (
 animationInspector
 panel
@@ -224,7 +225,8 @@ length
 1
 )
 ;
-clickOnPlaybackRateSelector
+await
+changePlaybackRateSelector
 (
 animationInspector
 panel
@@ -315,7 +317,8 @@ setting
 "
 )
 ;
-clickOnPlaybackRateSelector
+await
+changePlaybackRateSelector
 (
 animationInspector
 panel

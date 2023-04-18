@@ -792,15 +792,6 @@ HTMLComboboxListAccessible
 {
 }
 virtual
-nsIFrame
-*
-GetFrame
-(
-)
-const
-override
-;
-virtual
 a11y
 :
 :
