@@ -2321,14 +2321,6 @@ defined
 (
 JS_CODEGEN_X86
 )
-static_assert
-(
-BaselineFrameReg
-=
-=
-FramePointer
-)
-;
 priorOffset
 -
 =

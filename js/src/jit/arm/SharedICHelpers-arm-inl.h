@@ -68,7 +68,7 @@ masm
 .
 movePtr
 (
-BaselineFrameReg
+FramePointer
 r0
 )
 ;
@@ -122,7 +122,7 @@ scratch
 Address
 frameSizeAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -205,7 +205,7 @@ masm
 .
 mov
 (
-BaselineFrameReg
+FramePointer
 reg
 )
 ;
@@ -333,7 +333,7 @@ masm
 .
 mov
 (
-BaselineFrameReg
+FramePointer
 scratch
 )
 ;
@@ -366,7 +366,7 @@ DEBUG
 Address
 frameSizeAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -427,7 +427,7 @@ masm
 .
 Push
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 masm
@@ -435,7 +435,7 @@ masm
 mov
 (
 BaselineStackReg
-BaselineFrameReg
+FramePointer
 )
 ;
 masm

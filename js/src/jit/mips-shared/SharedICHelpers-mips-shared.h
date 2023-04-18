@@ -236,7 +236,7 @@ masm
 .
 movePtr
 (
-BaselineFrameReg
+FramePointer
 BaselineStackReg
 )
 ;
@@ -254,7 +254,7 @@ BaselineStubFrame
 savedFrame
 )
 )
-BaselineFrameReg
+FramePointer
 )
 ;
 masm

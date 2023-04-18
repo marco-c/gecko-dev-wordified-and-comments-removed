@@ -62,7 +62,7 @@ masm
 .
 movq
 (
-BaselineFrameReg
+FramePointer
 scratch
 )
 ;
@@ -113,7 +113,7 @@ rdx
 Address
 frameSizeAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -188,7 +188,7 @@ masm
 .
 movq
 (
-BaselineFrameReg
+FramePointer
 reg
 )
 ;
@@ -345,7 +345,7 @@ masm
 .
 movq
 (
-BaselineFrameReg
+FramePointer
 scratch
 )
 ;
@@ -363,7 +363,7 @@ DEBUG
 Address
 frameSizeAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -436,7 +436,7 @@ masm
 .
 Push
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 masm
@@ -444,7 +444,7 @@ masm
 mov
 (
 BaselineStackReg
-BaselineFrameReg
+FramePointer
 )
 ;
 }

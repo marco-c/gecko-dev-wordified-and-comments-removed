@@ -209,7 +209,7 @@ masm
 .
 mov
 (
-BaselineFrameReg
+FramePointer
 BaselineStackReg
 )
 ;
@@ -218,7 +218,7 @@ masm
 .
 Pop
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 masm

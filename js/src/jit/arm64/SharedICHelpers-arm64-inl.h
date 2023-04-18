@@ -68,7 +68,7 @@ masm
 Sub
 (
 x0
-BaselineFrameReg64
+FramePointer64
 masm
 .
 GetStackPointer64
@@ -134,7 +134,7 @@ argSize
 Address
 frameSizeAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -245,7 +245,7 @@ masm
 Sub
 (
 reg64
-BaselineFrameReg64
+FramePointer64
 reg64
 )
 ;
@@ -352,7 +352,7 @@ ARMRegister
 scratch
 64
 )
-BaselineFrameReg64
+FramePointer64
 Operand
 (
 BaselineFrame
@@ -389,7 +389,7 @@ DEBUG
 Address
 frameSizeAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -432,14 +432,14 @@ Push
 scratch
 ICTailCallReg
 ICStubReg
-BaselineFrameReg
+FramePointer
 )
 ;
 masm
 .
 Mov
 (
-BaselineFrameReg64
+FramePointer64
 masm
 .
 GetStackPointer64

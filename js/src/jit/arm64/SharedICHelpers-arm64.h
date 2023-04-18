@@ -240,7 +240,7 @@ masm
 GetStackPointer64
 (
 )
-BaselineFrameReg64
+FramePointer64
 )
 ;
 }
@@ -248,7 +248,7 @@ masm
 .
 pop
 (
-BaselineFrameReg
+FramePointer
 ICStubReg
 ICTailCallReg
 scratch64

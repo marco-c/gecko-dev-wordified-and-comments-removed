@@ -871,7 +871,7 @@ masm
 movePtr
 (
 StackPointer
-BaselineFrameReg
+FramePointer
 )
 ;
 masm
@@ -1169,7 +1169,7 @@ regs
 .
 has
 (
-BaselineFrameReg
+FramePointer
 )
 )
 ;
@@ -1198,7 +1198,7 @@ const
 Address
 slotNumStackValues
 (
-BaselineFrameReg
+FramePointer
 sizeof
 (
 EnterJITRegs
@@ -1215,7 +1215,7 @@ const
 Address
 slotScopeChain
 (
-BaselineFrameReg
+FramePointer
 sizeof
 (
 EnterJITRegs
@@ -1325,7 +1325,7 @@ masm
 .
 storePtr
 (
-BaselineFrameReg
+FramePointer
 Address
 (
 StackPointer
@@ -1336,7 +1336,7 @@ StackPointer
 Register
 framePtr
 =
-BaselineFrameReg
+FramePointer
 ;
 masm
 .
@@ -1546,7 +1546,7 @@ masm
 .
 passABIArg
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 masm

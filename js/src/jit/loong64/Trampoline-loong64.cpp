@@ -913,7 +913,7 @@ masm
 movePtr
 (
 StackPointer
-BaselineFrameReg
+FramePointer
 )
 ;
 masm
@@ -1243,7 +1243,7 @@ regs
 .
 has
 (
-BaselineFrameReg
+FramePointer
 )
 )
 ;
@@ -1360,7 +1360,7 @@ masm
 .
 storePtr
 (
-BaselineFrameReg
+FramePointer
 Address
 (
 StackPointer
@@ -1371,7 +1371,7 @@ StackPointer
 Register
 framePtr
 =
-BaselineFrameReg
+FramePointer
 ;
 masm
 .
@@ -1578,7 +1578,7 @@ masm
 .
 passABIArg
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 masm

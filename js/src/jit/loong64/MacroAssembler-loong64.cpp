@@ -28493,7 +28493,7 @@ offsetOfFramePointer
 (
 )
 )
-BaselineFrameReg
+FramePointer
 )
 ;
 loadPtr
@@ -28572,7 +28572,7 @@ offsetOfFramePointer
 (
 )
 )
-BaselineFrameReg
+FramePointer
 )
 ;
 loadPtr
@@ -28629,7 +28629,7 @@ offsetOfFramePointer
 (
 )
 )
-BaselineFrameReg
+FramePointer
 )
 ;
 loadPtr
@@ -28651,7 +28651,7 @@ loadValue
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -28665,13 +28665,13 @@ JSReturnOperand
 as_or
 (
 StackPointer
-BaselineFrameReg
+FramePointer
 zero
 )
 ;
 pop
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 jump

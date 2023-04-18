@@ -630,7 +630,7 @@ regs
 .
 has
 (
-BaselineFrameReg
+FramePointer
 )
 )
 ;
@@ -3633,7 +3633,7 @@ loadPtr
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 0
 )
 scratch
@@ -3654,7 +3654,7 @@ masm
 .
 pushBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 scratch
 )
 ;
@@ -4231,7 +4231,7 @@ masm
 .
 pushBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -4318,7 +4318,7 @@ masm
 .
 pushBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -7267,7 +7267,7 @@ masm
 .
 pushBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -7339,7 +7339,7 @@ masm
 .
 pushBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -9903,7 +9903,7 @@ pushValue
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 STUB_FRAME_SIZE
 )
 )
@@ -9919,7 +9919,7 @@ pushValue
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 valueOffset
 *
 sizeof
@@ -9941,7 +9941,7 @@ pushValue
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 valueOffset
 *
 sizeof
@@ -9963,7 +9963,7 @@ pushValue
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 valueOffset
 *
 sizeof
@@ -13023,7 +13023,7 @@ masm
 .
 pushBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg

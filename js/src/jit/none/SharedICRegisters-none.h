@@ -44,17 +44,6 @@ jit
 static
 constexpr
 Register
-BaselineFrameReg
-{
-Registers
-:
-:
-invalid_reg
-}
-;
-static
-constexpr
-Register
 BaselineStackReg
 {
 Registers
