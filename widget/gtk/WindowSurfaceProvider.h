@@ -117,6 +117,8 @@ WindowSurfaceProvider
 WindowSurfaceProvider
 (
 )
+=
+default
 ;
 #
 ifdef
@@ -213,6 +215,12 @@ RefPtr
 WindowSurface
 >
 mWindowSurface
+;
+mozilla
+:
+:
+Mutex
+mMutex
 ;
 mozilla
 :
