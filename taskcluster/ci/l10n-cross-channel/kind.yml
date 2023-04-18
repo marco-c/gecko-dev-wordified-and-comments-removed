@@ -278,6 +278,9 @@ create
 "
 push
 "
+"
+clean
+"
 ]
 default
 :
@@ -287,5 +290,8 @@ prep
 "
 "
 create
+"
+"
+clean
 "
 ]
