@@ -917,11 +917,6 @@ aMsg
 )
 ;
 void
-NotifyDisablingWebRender
-(
-)
-;
-void
 FallbackToSoftware
 (
 const

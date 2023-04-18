@@ -5712,15 +5712,6 @@ dom_webgpu_enabled
 #
 ifdef
 MOZ_WIDGET_ANDROID
-if
-(
-!
-GetNativeData
-(
-NS_JAVA_SURFACE
-)
-)
-{
 options
 .
 SetInitiallyPaused
@@ -5728,7 +5719,6 @@ SetInitiallyPaused
 true
 )
 ;
-}
 #
 else
 options

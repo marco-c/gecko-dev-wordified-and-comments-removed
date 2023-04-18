@@ -957,6 +957,7 @@ GetWindowRenderer
 )
 override
 ;
+virtual
 void
 NotifyCompositorSessionLost
 (

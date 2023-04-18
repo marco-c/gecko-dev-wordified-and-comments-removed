@@ -244,11 +244,6 @@ return
 mUiCompositorControllerChild
 ;
 }
-void
-NotifyDisablingWebRender
-(
-)
-;
 #
 endif
 protected
