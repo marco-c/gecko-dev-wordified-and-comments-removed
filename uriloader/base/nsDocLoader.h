@@ -470,6 +470,7 @@ Length
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 OOPChildrenLoadingIsEmpty
 (
@@ -758,6 +759,7 @@ aChild
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 ChildDoneWithOnload
 (
@@ -779,6 +781,7 @@ true
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 DocLoaderIsEmpty
 (

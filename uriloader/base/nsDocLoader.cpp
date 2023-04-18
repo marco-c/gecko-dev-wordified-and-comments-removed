@@ -1121,6 +1121,7 @@ aDocLoader
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 nsDocLoader
 :
@@ -2072,6 +2073,7 @@ return
 NS_OK
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 nsDocLoader
 :
