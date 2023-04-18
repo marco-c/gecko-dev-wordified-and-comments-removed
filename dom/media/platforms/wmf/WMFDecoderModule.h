@@ -127,6 +127,12 @@ HasVP9
 ;
 static
 bool
+HasAV1
+(
+)
+;
+static
+bool
 HasAAC
 (
 )
