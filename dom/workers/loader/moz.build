@@ -49,6 +49,11 @@ CacheLoadHandler
 h
 "
 "
+NetworkLoadHandler
+.
+h
+"
+"
 ScriptResponseHeaderProcessor
 .
 h
@@ -60,6 +65,11 @@ UNIFIED_SOURCES
 [
 "
 CacheLoadHandler
+.
+cpp
+"
+"
+NetworkLoadHandler
 .
 cpp
 "
