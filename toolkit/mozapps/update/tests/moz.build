@@ -192,12 +192,6 @@ OS_LIBS
 "
 shlwapi
 "
-"
-user32
-"
-"
-uuid
-"
 ]
 USE_LIBS
 +

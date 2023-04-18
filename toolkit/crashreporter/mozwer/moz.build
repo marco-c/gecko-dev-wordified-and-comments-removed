@@ -20,9 +20,6 @@ OS_LIBS
 =
 [
 "
-advapi32
-"
-"
 bcrypt
 "
 ]

@@ -136,16 +136,7 @@ OS_LIBS
 =
 [
 "
-advapi32
-"
-"
-gdi32
-"
-"
 gdiplus
-"
-"
-user32
 "
 ]
 NO_PGO

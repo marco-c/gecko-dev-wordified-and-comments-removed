@@ -192,9 +192,6 @@ OS_LIBS
 =
 [
 "
-advapi32
-"
-"
 dbghelp
 "
 ]

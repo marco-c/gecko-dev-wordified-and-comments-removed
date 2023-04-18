@@ -28,9 +28,6 @@ OS_LIBS
 "
 ole32
 "
-"
-uuid
-"
 ]
 SOURCES
 +
