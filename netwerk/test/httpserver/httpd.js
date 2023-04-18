@@ -112,16 +112,6 @@ DEBUG_TIMESTAMP
 =
 false
 ;
-var
-gGlobalObject
-=
-Cu
-.
-getGlobalForObject
-(
-this
-)
-;
 const
 {
 Services
@@ -11183,7 +11173,7 @@ Cu
 .
 Sandbox
 (
-gGlobalObject
+globalThis
 )
 ;
 s

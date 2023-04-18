@@ -175,12 +175,7 @@ nsIConsoleAPIStorage
 ;
 addDebuggerToGlobal
 (
-Cu
-.
-getGlobalForObject
-(
-this
-)
+globalThis
 )
 ;
 const
