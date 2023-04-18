@@ -12373,7 +12373,7 @@ unit
 if
 (
 !
-GetDecimalNonInteger
+GetDecimal
 (
 anyCharsAccess
 (
