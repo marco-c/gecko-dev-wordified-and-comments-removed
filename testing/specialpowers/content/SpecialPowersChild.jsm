@@ -2933,6 +2933,15 @@ Cr
 ;
 }
 get
+ChromeUtils
+(
+)
+{
+return
+ChromeUtils
+;
+}
+get
 isHeadless
 (
 )
