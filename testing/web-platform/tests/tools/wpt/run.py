@@ -2628,9 +2628,6 @@ MojoJS
 else
 :
             
-try
-:
-                
 path
 =
 self
@@ -2639,7 +2636,6 @@ browser
 .
 install_mojojs
 (
-                    
 dest
 =
 self
@@ -2647,11 +2643,7 @@ self
 venv
 .
 path
-                    
-channel
-=
-browser_channel
-                    
+                                               
 browser_binary
 =
 kwargs
@@ -2660,8 +2652,11 @@ kwargs
 binary
 "
 ]
-                
 )
+            
+if
+path
+:
                 
 kwargs
 [
@@ -2685,6 +2680,7 @@ logger
 .
 info
 (
+f
 "
 MojoJS
 enabled
@@ -2692,34 +2688,38 @@ automatically
 (
 mojojs_path
 :
-%
-s
+{
+path
+}
 )
 "
-%
-path
 )
             
-except
-Exception
-as
-e
+else
 :
+                
+kwargs
+[
+"
+enable_mojojs
+"
+]
+=
+False
                 
 logger
 .
-error
+info
 (
 "
-Cannot
-enable
 MojoJS
-:
-%
-s
+is
+disabled
+for
+this
+run
+.
 "
-%
-e
 )
         
 if
