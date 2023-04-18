@@ -4127,13 +4127,15 @@ RegExpStringIteratorNext
 {
 var
 obj
+=
+this
 ;
 if
 (
 !
 IsObject
 (
-this
+obj
 )
 |
 |
@@ -4142,7 +4144,7 @@ obj
 =
 GuardToRegExpStringIterator
 (
-this
+obj
 )
 )
 =

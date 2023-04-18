@@ -2299,13 +2299,15 @@ ArrayIteratorNext
 {
 var
 obj
+=
+this
 ;
 if
 (
 !
 IsObject
 (
-this
+obj
 )
 |
 |
@@ -2314,7 +2316,7 @@ obj
 =
 GuardToArrayIterator
 (
-this
+obj
 )
 )
 =
