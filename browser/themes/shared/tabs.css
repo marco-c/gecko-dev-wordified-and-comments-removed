@@ -6108,6 +6108,17 @@ button
 *
 /
 :
+root
+:
+not
+(
+[
+privatebrowsingmode
+=
+temporary
+]
+)
+:
 is
 (
 #
