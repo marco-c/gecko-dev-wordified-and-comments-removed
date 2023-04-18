@@ -2235,6 +2235,14 @@ VSYNC
 <
 16
 ;
+const
+SKIPPED_COMPOSITE
+=
+1
+<
+<
+17
+;
 }
 }
 impl
