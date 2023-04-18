@@ -1550,6 +1550,9 @@ mode
 MODE
 .
 LONG
+useBaseTreeViewExpand
+:
+true
 }
 ;
 hasFormattedDisplay
