@@ -4461,7 +4461,7 @@ masm
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeInstanceOffsetBeforeCall
 )
 )
 ;
@@ -6741,7 +6741,7 @@ masm
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeInstanceOffsetBeforeCall
 )
 )
 ;
@@ -8689,7 +8689,7 @@ masm
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeInstanceOffsetBeforeCall
 )
 )
 ;
@@ -9676,7 +9676,7 @@ offsetFromFPToCallerStackArgs
 =
 sizeof
 (
-FrameWithTls
+FrameWithInstances
 )
 ;
 GenPrintf
@@ -10341,7 +10341,7 @@ offsetFromFPToCallerStackArgs
 =
 sizeof
 (
-FrameWithTls
+FrameWithInstances
 )
 ;
 GenPrintf
@@ -14599,7 +14599,7 @@ offsetFromFPToCallerStackArgs
 =
 sizeof
 (
-FrameWithTls
+FrameWithInstances
 )
 ;
 Register

@@ -237,7 +237,7 @@ RegisterContent
 ;
 static_assert
 (
-FrameWithTls
+FrameWithInstances
 :
 :
 sizeOf

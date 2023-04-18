@@ -423,10 +423,10 @@ increaseStackOffset
 wasm
 :
 :
-FrameWithTls
+FrameWithInstances
 :
 :
-sizeOfTlsFields
+sizeOfInstanceFields
 (
 )
 )
