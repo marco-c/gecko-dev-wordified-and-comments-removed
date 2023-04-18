@@ -8709,11 +8709,8 @@ movePtr
 (
 ImmPtr
 (
+&
 inst
-.
-tlsData
-(
-)
 )
 WasmTlsReg
 )

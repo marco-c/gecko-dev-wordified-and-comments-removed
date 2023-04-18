@@ -724,11 +724,6 @@ get
 instance
 -
 >
-tlsData
-(
-)
--
->
 setInterrupt
 (
 )
@@ -777,11 +772,6 @@ get
 )
 {
 instance
--
->
-tlsData
-(
-)
 -
 >
 resetInterrupt
