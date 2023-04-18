@@ -65,6 +65,11 @@ LoadedScript
 h
 "
 "
+ModuleLoader
+.
+h
+"
+"
 ModuleLoaderBase
 .
 h
@@ -116,6 +121,11 @@ cpp
 "
 "
 LoadedScript
+.
+cpp
+"
+"
+ModuleLoader
 .
 cpp
 "
