@@ -151,9 +151,6 @@ outputFormat
 nsString
 printerName
 ;
-nsString
-toFileName
-;
 int32_t
 printPageDelay
 ;

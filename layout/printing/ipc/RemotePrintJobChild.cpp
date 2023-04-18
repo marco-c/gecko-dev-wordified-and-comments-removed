@@ -77,10 +77,6 @@ nsString
 &
 aDocumentTitle
 const
-nsString
-&
-aPrintToFile
-const
 int32_t
 &
 aStartPage
@@ -96,7 +92,6 @@ Unused
 SendInitializePrint
 (
 aDocumentTitle
-aPrintToFile
 aStartPage
 aEndPage
 )
