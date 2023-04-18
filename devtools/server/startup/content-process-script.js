@@ -528,7 +528,7 @@ entry
 :
 this
 .
-addSessionDataEntry
+removeSessionDataEntry
 (
 msg
 .
