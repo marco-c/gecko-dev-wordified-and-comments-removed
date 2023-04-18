@@ -522,10 +522,12 @@ t
 )
 {
 return
-promise_rejects_js
+promise_rejects_dom
 (
 t
-TypeError
+"
+NotSupportedError
+"
 navigator
 .
 mediaDevices
@@ -554,7 +556,7 @@ typed
 element
 with
 a
-TypeError
+NotSupportedError
 "
 )
 ;
