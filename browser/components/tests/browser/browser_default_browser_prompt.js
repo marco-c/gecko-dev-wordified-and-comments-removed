@@ -588,6 +588,18 @@ default
 "
 )
 ;
+if
+(
+AppConstants
+.
+platform
+=
+=
+"
+win
+"
+)
+{
 Assert
 .
 equal
@@ -606,6 +618,7 @@ pins
 "
 )
 ;
+}
 AssertHistogram
 (
 histogram

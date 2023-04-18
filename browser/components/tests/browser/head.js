@@ -263,6 +263,9 @@ isPinned
 false
 checkPinCurrentAppToTaskbar
 (
+privateBrowsing
+=
+false
 )
 {
 if
@@ -291,6 +294,9 @@ isPinned
 }
 isCurrentAppPinnedToTaskbarAsync
 (
+privateBrowsing
+=
+false
 )
 {
 return
