@@ -81,11 +81,6 @@ invalidVal
 anonymous
 "
 }
-nonce
-:
-"
-string
-"
 integrity
 :
 "
