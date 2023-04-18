@@ -314,41 +314,6 @@ resources
     
 )
     
-parser
-.
-add_argument
-(
-        
-"
--
--
-minify
-"
-        
-action
-=
-"
-store_true
-"
-        
-default
-=
-False
-        
-help
-=
-"
-Make
-some
-files
-more
-compact
-while
-packaging
-"
-    
-)
-    
 args
 =
 parser
@@ -410,12 +375,6 @@ non_resource
 non_chrome
 =
 NON_CHROME
-        
-minify
-=
-args
-.
-minify
     
 )
 if
