@@ -2,7 +2,7 @@ import
 {
 RequestMode
 RequestIdTokenStatus
-LogoutRpsStatus
+LogoutStatus
 RevokeStatus
 FederatedAuthRequest
 FederatedAuthRequestReceiver
@@ -125,9 +125,9 @@ kError
 ;
 this
 .
-logoutRpsStatus_
+logoutStatus_
 =
-LogoutRpsStatus
+LogoutStatus
 .
 kError
 ;
@@ -247,7 +247,7 @@ status
 let
 validated
 =
-LogoutRpsStatus
+LogoutStatus
 [
 status
 ]
@@ -275,7 +275,7 @@ status
 ;
 this
 .
-logoutRpsStatus_
+logoutStatus_
 =
 validated
 ;
@@ -417,7 +417,7 @@ null
 ;
 }
 async
-logoutRps
+logout
 (
 logout_endpoints
 )
@@ -432,7 +432,7 @@ status
 :
 this
 .
-logoutRpsStatus_
+logoutStatus_
 }
 )
 ;
@@ -481,9 +481,9 @@ kError
 ;
 this
 .
-logoutRpsStatus_
+logoutStatus_
 =
-LogoutRpsStatus
+LogoutStatus
 .
 kError
 ;
