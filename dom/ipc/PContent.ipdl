@@ -1337,7 +1337,7 @@ using
 mozilla
 :
 :
-StorageAccessAPIHelper
+ContentBlocking
 :
 :
 StorageAccessPromptChoices
@@ -1345,7 +1345,7 @@ from
 "
 mozilla
 /
-StorageAccessAPIHelper
+ContentBlocking
 .
 h
 "

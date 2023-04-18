@@ -1239,6 +1239,11 @@ Nothing
 )
 ;
 void
+MaybeClearStorageAccessFlag
+(
+)
+;
+void
 MaybeRestoreWindowName
 (
 )
