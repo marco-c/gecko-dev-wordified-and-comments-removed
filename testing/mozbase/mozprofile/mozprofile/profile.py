@@ -1384,6 +1384,9 @@ Permissions
 (
 self
 .
+profile
+self
+.
 _locations
 )
         
@@ -1634,6 +1637,28 @@ self
 addons
 .
 clean
+(
+)
+            
+if
+getattr
+(
+self
+"
+permissions
+"
+None
+)
+is
+not
+None
+:
+                
+self
+.
+permissions
+.
+clean_db
 (
 )
         
