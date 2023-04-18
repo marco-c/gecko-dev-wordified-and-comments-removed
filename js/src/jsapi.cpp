@@ -6584,6 +6584,7 @@ gc
 .
 wantMajorGC
 (
+true
 )
 ;
 }
