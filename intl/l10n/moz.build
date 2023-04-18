@@ -96,6 +96,11 @@ rust
 /
 gtest
 "
+"
+test
+/
+gtest
+"
 ]
 include
 (

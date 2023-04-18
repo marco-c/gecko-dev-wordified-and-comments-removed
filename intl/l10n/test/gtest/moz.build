@@ -1,0 +1,17 @@
+UNIFIED_SOURCES
++
+=
+[
+"
+TestLocalization
+.
+cpp
+"
+]
+FINAL_LIBRARY
+=
+"
+xul
+-
+gtest
+"
