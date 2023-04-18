@@ -576,7 +576,11 @@ isObject
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 chunk
 (
 aCx
