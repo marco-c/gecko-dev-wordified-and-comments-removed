@@ -83,6 +83,10 @@ essential
 \
 curl
 \
+clang
+-
+11
+\
 cmake
 \
 flex
