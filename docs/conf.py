@@ -312,6 +312,17 @@ uitour
 .
 .
 /
+browser
+/
+components
+/
+urlbar
+"
+    
+"
+.
+.
+/
 remote
 /
 marionette
