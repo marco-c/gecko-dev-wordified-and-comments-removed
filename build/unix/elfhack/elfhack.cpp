@@ -299,8 +299,10 @@ std
 ofstream
 &
 file
+unsigned
 char
 ei_class
+unsigned
 char
 ei_data
 )
@@ -1251,8 +1253,10 @@ std
 ofstream
 &
 file
+unsigned
 char
 ei_class
+unsigned
 char
 ei_data
 )
@@ -3808,6 +3812,7 @@ break
 }
 static
 const
+unsigned
 char
 DW_EH_PE_absptr
 =
@@ -3815,6 +3820,7 @@ DW_EH_PE_absptr
 ;
 static
 const
+unsigned
 char
 DW_EH_PE_omit
 =
@@ -3822,6 +3828,7 @@ DW_EH_PE_omit
 ;
 static
 const
+unsigned
 char
 DW_EH_PE_LEB128
 =
@@ -3829,6 +3836,7 @@ DW_EH_PE_LEB128
 ;
 static
 const
+unsigned
 char
 DW_EH_PE_data2
 =
@@ -3836,6 +3844,7 @@ DW_EH_PE_data2
 ;
 static
 const
+unsigned
 char
 DW_EH_PE_data4
 =
@@ -3843,6 +3852,7 @@ DW_EH_PE_data4
 ;
 static
 const
+unsigned
 char
 DW_EH_PE_data8
 =
@@ -3850,6 +3860,7 @@ DW_EH_PE_data8
 ;
 static
 const
+unsigned
 char
 DW_EH_PE_signed
 =
@@ -3857,15 +3868,18 @@ DW_EH_PE_signed
 ;
 static
 const
+unsigned
 char
 DW_EH_PE_pcrel
 =
 0x10
 ;
 static
+unsigned
 char
 encoding_data_size
 (
+unsigned
 char
 encoding
 )
@@ -3984,6 +3998,7 @@ data
 size_t
 *
 size
+unsigned
 char
 encoding
 )
@@ -4262,6 +4277,7 @@ data
 size_t
 *
 size
+unsigned
 char
 encoding
 ElfSection
@@ -4491,11 +4507,13 @@ getSize
 (
 )
 ;
+unsigned
 char
 LSDAencoding
 =
 DW_EH_PE_omit
 ;
+unsigned
 char
 FDEencoding
 =
@@ -4931,9 +4949,14 @@ P
 '
 :
 {
+unsigned
 char
 encoding
 =
+(
+unsigned
+char
+)
 *
 cursor
 +
