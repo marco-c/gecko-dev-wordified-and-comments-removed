@@ -121,10 +121,6 @@ mNoise
 (
 0
 )
-mFakeDeviceChangeEventOn
-(
-false
-)
 mChannels
 (
 0
@@ -172,9 +168,6 @@ mAgc
 ;
 int32_t
 mNoise
-;
-bool
-mFakeDeviceChangeEventOn
 ;
 int32_t
 mChannels
