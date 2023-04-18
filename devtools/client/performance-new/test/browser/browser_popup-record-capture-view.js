@@ -129,8 +129,7 @@ openPopupAndAssertUrlForPreset
 preset
 :
 "
-Firefox
-Platform
+Media
 "
 expectedUrl
 :
