@@ -245,6 +245,7 @@ ipdlh
 *
 /
 [
+ManualDealloc
 ChildImpl
 =
 virtual

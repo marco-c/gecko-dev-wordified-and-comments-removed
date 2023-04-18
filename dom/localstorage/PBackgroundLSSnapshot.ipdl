@@ -201,6 +201,7 @@ LSClearInfo
 }
 ;
 [
+ManualDealloc
 ChildImpl
 =
 virtual

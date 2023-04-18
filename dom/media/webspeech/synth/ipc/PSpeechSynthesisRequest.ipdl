@@ -9,6 +9,7 @@ namespace
 dom
 {
 [
+ManualDealloc
 ChildImpl
 =
 virtual

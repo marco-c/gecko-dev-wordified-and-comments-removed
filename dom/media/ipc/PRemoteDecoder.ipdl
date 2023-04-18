@@ -74,8 +74,10 @@ MediaResult
 h
 "
 ;
+[
+RefCounted
+]
 using
-refcounted
 class
 mozilla
 :
@@ -90,8 +92,10 @@ RemoteMediaData
 h
 "
 ;
+[
+RefCounted
+]
 using
-refcounted
 class
 mozilla
 :
@@ -106,8 +110,10 @@ RemoteMediaData
 h
 "
 ;
+[
+RefCounted
+]
 using
-refcounted
 class
 mozilla
 :
@@ -178,6 +184,9 @@ DecodedOutputIPDL
 ;
 }
 ;
+[
+ManualDealloc
+]
 async
 protocol
 PRemoteDecoder

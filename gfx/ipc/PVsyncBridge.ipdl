@@ -53,6 +53,7 @@ namespace
 gfx
 {
 [
+ManualDealloc
 NeedsOtherPid
 ]
 sync

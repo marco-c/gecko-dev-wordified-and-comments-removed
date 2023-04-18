@@ -313,6 +313,7 @@ ownerId
 }
 ;
 [
+ManualDealloc
 NeedsOtherPid
 ]
 sync

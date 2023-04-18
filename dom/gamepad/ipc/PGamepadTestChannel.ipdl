@@ -99,9 +99,6 @@ mozilla
 namespace
 dom
 {
-[
-RefCounted
-]
 protocol
 PGamepadTestChannel
 {

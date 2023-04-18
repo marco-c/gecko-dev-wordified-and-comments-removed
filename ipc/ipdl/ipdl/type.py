@@ -4616,7 +4616,7 @@ attributes
 {
                     
 "
-RefCounted
+ManualDealloc
 "
 :
 None
@@ -4717,8 +4717,9 @@ p
 sendSemantics
                     
 "
-RefCounted
+ManualDealloc
 "
+not
 in
 p
 .

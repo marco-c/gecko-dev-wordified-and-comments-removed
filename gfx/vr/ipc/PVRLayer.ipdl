@@ -38,6 +38,7 @@ namespace
 gfx
 {
 [
+ManualDealloc
 ChildImpl
 =
 "

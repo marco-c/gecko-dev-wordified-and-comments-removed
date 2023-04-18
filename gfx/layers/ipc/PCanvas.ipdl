@@ -90,7 +90,6 @@ namespace
 layers
 {
 [
-RefCounted
 NeedsOtherPid
 ParentImpl
 =

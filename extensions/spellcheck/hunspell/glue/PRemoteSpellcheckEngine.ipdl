@@ -82,6 +82,7 @@ namespace
 mozilla
 {
 [
+ManualDealloc
 ChildImpl
 =
 "

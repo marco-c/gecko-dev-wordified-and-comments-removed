@@ -99,9 +99,6 @@ MyOtherData
 ;
 }
 ;
-[
-RefCounted
-]
 sync
 protocol
 PMyManager

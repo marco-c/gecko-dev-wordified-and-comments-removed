@@ -357,9 +357,6 @@ mozilla
 namespace
 dom
 {
-[
-RefCounted
-]
 sync
 protocol
 PWebGL

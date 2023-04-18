@@ -96,6 +96,9 @@ dom
 namespace
 cache
 {
+[
+ManualDealloc
+]
 protocol
 PCacheStorage
 {

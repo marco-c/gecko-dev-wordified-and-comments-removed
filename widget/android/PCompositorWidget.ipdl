@@ -9,6 +9,7 @@ namespace
 widget
 {
 [
+ManualDealloc
 ChildImpl
 =
 virtual

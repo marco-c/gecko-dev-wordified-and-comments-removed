@@ -2122,6 +2122,7 @@ nsresult
 }
 ;
 [
+ManualDealloc
 NestedUpTo
 =
 inside_cpow

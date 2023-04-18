@@ -1,6 +1,9 @@
 namespace
 mozilla
 {
+[
+ManualDealloc
+]
 async
 protocol
 PSandboxTesting

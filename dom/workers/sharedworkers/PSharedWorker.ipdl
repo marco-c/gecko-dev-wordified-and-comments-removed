@@ -118,6 +118,9 @@ PBackground
 .
 *
 /
+[
+ManualDealloc
+]
 protocol
 PSharedWorker
 {

@@ -92,8 +92,10 @@ ErrorIPCUtils
 h
 "
 ;
+[
+MoveOnly
+]
 using
-moveonly
 mozilla
 :
 :
@@ -116,6 +118,9 @@ dom
 namespace
 cache
 {
+[
+ManualDealloc
+]
 protocol
 PCacheOp
 {

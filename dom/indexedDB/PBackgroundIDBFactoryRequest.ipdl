@@ -117,6 +117,7 @@ DeleteDatabaseRequestResponse
 }
 ;
 [
+ManualDealloc
 ChildImpl
 =
 "

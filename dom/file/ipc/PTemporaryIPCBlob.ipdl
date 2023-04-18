@@ -94,6 +94,9 @@ nsresult
 ;
 }
 ;
+[
+ManualDealloc
+]
 protocol
 PTemporaryIPCBlob
 {

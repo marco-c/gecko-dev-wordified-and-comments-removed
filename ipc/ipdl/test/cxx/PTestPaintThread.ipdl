@@ -27,6 +27,7 @@ to
 PPaintingBridge
 .
 [
+ManualDealloc
 ChildImpl
 =
 "

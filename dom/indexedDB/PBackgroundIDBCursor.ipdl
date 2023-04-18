@@ -313,7 +313,6 @@ IndexKeyCursorResponse
 }
 ;
 [
-RefCounted
 ChildImpl
 =
 "

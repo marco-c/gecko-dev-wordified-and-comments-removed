@@ -217,6 +217,7 @@ mechanism
 *
 /
 [
+ManualDealloc
 ChildImpl
 =
 virtual

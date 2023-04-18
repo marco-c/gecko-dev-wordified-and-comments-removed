@@ -1,9 +1,9 @@
 [
-RefCounted
+ManualDealloc
 ]
 async
 protocol
-PRefcounted
+PManualDealloc
 {
 child
 :

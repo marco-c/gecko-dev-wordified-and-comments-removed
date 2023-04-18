@@ -8,9 +8,6 @@ mozilla
 namespace
 myns
 {
-[
-RefCounted
-]
 protocol
 PMyManaged
 {

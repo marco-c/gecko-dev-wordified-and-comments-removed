@@ -395,7 +395,6 @@ namespace
 ipc
 {
 [
-RefCounted
 NeedsOtherPid
 ChildImpl
 =

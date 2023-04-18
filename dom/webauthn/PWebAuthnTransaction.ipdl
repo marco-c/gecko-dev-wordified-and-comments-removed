@@ -593,6 +593,9 @@ UserHandle
 ;
 }
 ;
+[
+ManualDealloc
+]
 async
 protocol
 PWebAuthnTransaction

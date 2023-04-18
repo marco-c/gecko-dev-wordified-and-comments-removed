@@ -198,6 +198,7 @@ event
 *
 /
 [
+ManualDealloc
 ChildImpl
 =
 virtual

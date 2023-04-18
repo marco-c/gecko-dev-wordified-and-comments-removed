@@ -120,6 +120,7 @@ writeContent
 method
 .
 [
+ManualDealloc
 ChildImpl
 =
 virtual

@@ -71,6 +71,7 @@ xdrData
 }
 ;
 [
+ManualDealloc
 ChildImpl
 =
 "

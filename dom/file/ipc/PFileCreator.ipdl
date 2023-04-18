@@ -110,6 +110,9 @@ FileCreationErrorResult
 ;
 }
 ;
+[
+ManualDealloc
+]
 protocol
 PFileCreator
 {

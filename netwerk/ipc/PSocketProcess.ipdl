@@ -523,6 +523,7 @@ mSandboxBroker
 }
 ;
 [
+ManualDealloc
 NeedsOtherPid
 ]
 sync

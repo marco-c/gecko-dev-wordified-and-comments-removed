@@ -15,9 +15,6 @@ mozilla
 namespace
 dom
 {
-[
-RefCounted
-]
 async
 protocol
 PInProcess

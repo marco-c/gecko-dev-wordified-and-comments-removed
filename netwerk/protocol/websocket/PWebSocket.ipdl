@@ -87,6 +87,7 @@ namespace
 net
 {
 [
+ManualDealloc
 ChildImpl
 =
 "

@@ -119,6 +119,7 @@ OriginUsageResponse
 }
 ;
 [
+ManualDealloc
 ChildImpl
 =
 virtual

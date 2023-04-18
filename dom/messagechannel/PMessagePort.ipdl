@@ -124,6 +124,9 @@ MessageChannel
 /
 MessagePort
 API
+[
+ManualDealloc
+]
 protocol
 PMessagePort
 {

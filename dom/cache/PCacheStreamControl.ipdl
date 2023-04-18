@@ -94,9 +94,6 @@ dom
 namespace
 cache
 {
-[
-RefCounted
-]
 protocol
 PCacheStreamControl
 {

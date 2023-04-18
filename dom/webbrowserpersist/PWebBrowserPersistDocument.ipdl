@@ -149,8 +149,10 @@ ReferrerInfoUtils
 h
 "
 ;
+[
+RefCounted
+]
 using
-refcounted
 class
 nsIReferrerInfo
 from
@@ -400,6 +402,9 @@ enclosing
 /
 PContent
 .
+[
+ManualDealloc
+]
 protocol
 PWebBrowserPersistDocument
 {

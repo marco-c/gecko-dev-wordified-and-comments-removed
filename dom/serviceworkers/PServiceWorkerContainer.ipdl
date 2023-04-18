@@ -84,7 +84,6 @@ namespace
 dom
 {
 [
-RefCounted
 ChildImpl
 =
 virtual

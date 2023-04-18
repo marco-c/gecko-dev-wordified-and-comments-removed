@@ -16,6 +16,7 @@ namespace
 _ipdltest
 {
 [
+ManualDealloc
 NestedUpTo
 =
 inside_sync

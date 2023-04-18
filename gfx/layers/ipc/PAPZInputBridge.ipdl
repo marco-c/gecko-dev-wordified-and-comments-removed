@@ -174,9 +174,6 @@ mozilla
 namespace
 layers
 {
-[
-RefCounted
-]
 sync
 protocol
 PAPZInputBridge

@@ -216,6 +216,7 @@ FileRequestFlushParams
 }
 ;
 [
+ManualDealloc
 ChildImpl
 =
 "

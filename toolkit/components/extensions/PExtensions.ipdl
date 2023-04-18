@@ -46,9 +46,6 @@ serverRedirect
 ;
 }
 ;
-[
-RefCounted
-]
 protocol
 PExtensions
 {

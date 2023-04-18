@@ -637,6 +637,7 @@ loading
 *
 /
 [
+ManualDealloc
 ChildImpl
 =
 virtual

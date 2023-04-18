@@ -74,6 +74,9 @@ mozilla
 namespace
 ipc
 {
+[
+ManualDealloc
+]
 protocol
 PFileDescriptorSet
 {

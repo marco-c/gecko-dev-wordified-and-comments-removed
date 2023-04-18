@@ -203,6 +203,7 @@ namespace
 hal_sandbox
 {
 [
+ManualDealloc
 NestedUpTo
 =
 inside_cpow

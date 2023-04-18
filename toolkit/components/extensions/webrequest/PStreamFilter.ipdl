@@ -66,6 +66,9 @@ mozilla
 namespace
 extensions
 {
+[
+ManualDealloc
+]
 async
 protocol
 PStreamFilter

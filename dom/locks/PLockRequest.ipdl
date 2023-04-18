@@ -101,9 +101,6 @@ dom
 namespace
 locks
 {
-[
-RefCounted
-]
 protocol
 PLockRequest
 {

@@ -7,10 +7,10 @@ value
 for
 valueless
 attribute
-RefCounted
+ManualDealloc
 '
 [
-RefCounted
+ManualDealloc
 =
 invalid
 ]

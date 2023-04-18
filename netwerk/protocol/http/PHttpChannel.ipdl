@@ -68,7 +68,6 @@ namespace
 net
 {
 [
-RefCounted
 ChildImpl
 =
 virtual

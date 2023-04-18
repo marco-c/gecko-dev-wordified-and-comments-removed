@@ -141,9 +141,6 @@ steal
 ;
 }
 ;
-[
-RefCounted
-]
 protocol
 PLockManager
 {

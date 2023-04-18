@@ -11,9 +11,6 @@ mozilla
 namespace
 psm
 {
-[
-RefCounted
-]
 protocol
 PVerifySSLServerCert
 {

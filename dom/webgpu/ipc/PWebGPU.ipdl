@@ -152,9 +152,6 @@ mozilla
 namespace
 webgpu
 {
-[
-RefCounted
-]
 async
 protocol
 PWebGPU

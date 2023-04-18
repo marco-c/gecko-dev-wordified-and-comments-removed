@@ -33,6 +33,7 @@ namespace
 _ipdltest
 {
 [
+ManualDealloc
 ChildImpl
 =
 virtual

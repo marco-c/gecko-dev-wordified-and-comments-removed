@@ -72,9 +72,6 @@ mozilla
 namespace
 dom
 {
-[
-RefCounted
-]
 protocol
 PFetchEventOpProxy
 {

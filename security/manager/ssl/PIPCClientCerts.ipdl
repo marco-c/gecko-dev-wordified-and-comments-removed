@@ -27,9 +27,6 @@ mozilla
 namespace
 psm
 {
-[
-RefCounted
-]
 sync
 protocol
 PIPCClientCerts

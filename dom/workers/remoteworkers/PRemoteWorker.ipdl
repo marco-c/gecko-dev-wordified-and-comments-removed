@@ -181,6 +181,9 @@ the
 PRemoteWorkerController
 protocol
 .
+[
+ManualDealloc
+]
 protocol
 PRemoteWorker
 {

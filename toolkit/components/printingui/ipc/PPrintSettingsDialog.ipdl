@@ -25,6 +25,7 @@ nsresult
 }
 ;
 [
+ManualDealloc
 ChildImpl
 =
 virtual

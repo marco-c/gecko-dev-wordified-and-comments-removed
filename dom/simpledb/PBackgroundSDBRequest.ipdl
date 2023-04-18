@@ -112,6 +112,7 @@ SDBRequestCloseResponse
 }
 ;
 [
+ManualDealloc
 ChildImpl
 =
 virtual

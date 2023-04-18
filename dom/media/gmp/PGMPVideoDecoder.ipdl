@@ -50,7 +50,6 @@ namespace
 gmp
 {
 [
-RefCounted
 ChildImpl
 =
 "

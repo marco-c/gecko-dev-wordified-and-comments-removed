@@ -54,6 +54,7 @@ namespace
 layers
 {
 [
+ManualDealloc
 NeedsOtherPid
 ]
 sync

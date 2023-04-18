@@ -28,6 +28,9 @@ mozilla
 namespace
 net
 {
+[
+ManualDealloc
+]
 async
 protocol
 PWebSocketEventListener

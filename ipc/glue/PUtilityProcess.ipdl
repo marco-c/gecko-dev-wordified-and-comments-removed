@@ -69,7 +69,6 @@ namespace
 ipc
 {
 [
-RefCounted
 NeedsOtherPid
 ]
 protocol

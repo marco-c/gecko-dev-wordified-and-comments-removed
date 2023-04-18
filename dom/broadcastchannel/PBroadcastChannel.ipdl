@@ -130,6 +130,7 @@ the
 BroadcastChannel
 API
 [
+ManualDealloc
 ChildImpl
 =
 virtual

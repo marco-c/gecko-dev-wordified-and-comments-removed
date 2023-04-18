@@ -293,6 +293,9 @@ mozilla
 namespace
 layers
 {
+[
+ManualDealloc
+]
 protocol
 PAPZCTreeManager
 {
