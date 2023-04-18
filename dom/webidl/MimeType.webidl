@@ -102,12 +102,13 @@ MimeType
 readonly
 attribute
 DOMString
-type
+description
 ;
 readonly
 attribute
-DOMString
-description
+Plugin
+?
+enabledPlugin
 ;
 readonly
 attribute
@@ -116,8 +117,8 @@ suffixes
 ;
 readonly
 attribute
-Plugin
-enabledPlugin
+DOMString
+type
 ;
 }
 ;

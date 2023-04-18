@@ -11306,6 +11306,16 @@ pref
 "
 pdfjs
 .
+disabled
+"
+false
+)
+;
+pref
+(
+"
+pdfjs
+.
 firstRun
 "
 true
