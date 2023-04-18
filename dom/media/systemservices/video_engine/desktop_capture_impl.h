@@ -986,6 +986,11 @@ process
 (
 )
 ;
+void
+ProcessIter
+(
+)
+;
 private
 :
 std
@@ -996,6 +1001,11 @@ unique_ptr
 DesktopCapturer
 >
 desktop_capturer_cursor_composer_
+;
+bool
+cursor_composer_started_
+=
+false
 ;
 std
 :
