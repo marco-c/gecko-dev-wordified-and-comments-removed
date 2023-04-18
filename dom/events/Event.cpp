@@ -3038,7 +3038,7 @@ DeviceContext
 )
 -
 >
-AppUnitsPerDevPixelAtUnitFullZoom
+AppUnitsPerDevPixel
 (
 )
 )
@@ -3068,7 +3068,7 @@ DeviceContext
 )
 -
 >
-AppUnitsPerDevPixelAtUnitFullZoom
+AppUnitsPerDevPixel
 (
 )
 )
