@@ -1790,16 +1790,6 @@ hasStorageAccessPermissionGranted
 ;
 info
 .
-mIsThirdPartyContextToTopWindow
-=
-aData
-.
-isThirdPartyContextToTopWindow
-(
-)
-;
-info
-.
 mOriginAttributes
 =
 BasePrincipal

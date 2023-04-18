@@ -361,9 +361,6 @@ referrerInfo
 StorageAccess
 storageAccess
 ;
-bool
-isThirdPartyContextToTopWindow
-;
 OptionalServiceWorkerData
 serviceWorkerData
 ;
