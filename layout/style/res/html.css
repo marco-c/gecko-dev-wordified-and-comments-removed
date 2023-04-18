@@ -4668,10 +4668,6 @@ end
 :
 0
 ;
-color
-:
-black
-;
 margin
 :
 auto
@@ -4705,8 +4701,14 @@ padding
 1em
 ;
 background
+-
+color
 :
-white
+Canvas
+;
+color
+:
+CanvasText
 ;
 width
 :
