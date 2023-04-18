@@ -99,6 +99,12 @@ firefox
 /
 aurora
 /
+?
+reason
+=
+manual
+-
+update
 "
 )
 ;
