@@ -143,6 +143,12 @@ Channel
 class
 Message
 ;
+class
+MessageReader
+;
+class
+MessageWriter
+;
 #
 ifdef
 FUZZING

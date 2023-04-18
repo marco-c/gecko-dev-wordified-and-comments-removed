@@ -109,6 +109,12 @@ IPC
 class
 Message
 ;
+class
+MessageReader
+;
+class
+MessageWriter
+;
 template
 <
 typename

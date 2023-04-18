@@ -80,6 +80,12 @@ IPC
 class
 Message
 ;
+class
+MessageReader
+;
+class
+MessageWriter
+;
 }
 namespace
 mozilla

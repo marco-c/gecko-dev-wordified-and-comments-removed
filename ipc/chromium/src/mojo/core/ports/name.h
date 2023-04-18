@@ -585,6 +585,12 @@ ParamTraits
 class
 Message
 ;
+class
+MessageReader
+;
+class
+MessageWriter
+;
 template
 <
 >
