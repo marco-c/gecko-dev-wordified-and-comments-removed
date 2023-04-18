@@ -296,13 +296,14 @@ target
 multiple
 )
 {
-return
 this
 .
 _handleSelect
 (
 target
 )
+;
+return
 ;
 }
 return
