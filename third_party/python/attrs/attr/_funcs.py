@@ -138,9 +138,6 @@ Is
 called
 with
 the
-:
-class
-:
 attr
 .
 Attribute
@@ -780,9 +777,6 @@ Is
 called
 with
 the
-:
-class
-:
 attr
 .
 Attribute
@@ -1256,9 +1250,6 @@ class
 :
 rtype
 :
-:
-class
-:
 bool
     
 "
@@ -1397,9 +1388,6 @@ deprecated
 0
         
 Use
-:
-func
-:
 evolve
 instead
 .
