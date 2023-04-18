@@ -334,10 +334,6 @@ length
 to_computed_value
 (
 context
-.
-viewport_size_for_viewport_unit_resolution
-(
-)
 )
 }
 specified

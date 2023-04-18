@@ -1052,6 +1052,16 @@ super
 specified
 :
 :
+ViewportVariant
+;
+pub
+use
+super
+:
+:
+specified
+:
+:
 {
 BorderStyle
 TextDecorationLine
@@ -1464,6 +1474,9 @@ viewport_size_for_viewport_unit_resolution
 (
 &
 self
+variant
+:
+ViewportVariant
 )
 -
 >
@@ -1483,6 +1496,7 @@ device
 .
 au_viewport_size_for_viewport_unit_resolution
 (
+variant
 )
 }
 pub
