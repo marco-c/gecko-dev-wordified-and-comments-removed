@@ -224,7 +224,7 @@ sum
 endif
 }
 opus_int64
-silk_inner_prod16_aligned_64_c
+silk_inner_prod16_c
 (
 const
 opus_int16

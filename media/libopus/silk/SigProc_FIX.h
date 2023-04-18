@@ -826,7 +826,7 @@ len
 )
 ;
 opus_int64
-silk_inner_prod16_aligned_64_c
+silk_inner_prod16_c
 (
 const
 opus_int16
@@ -3496,7 +3496,7 @@ arch
 )
 #
 define
-silk_inner_prod16_aligned_64
+silk_inner_prod16
 (
 inVec1
 inVec2
@@ -3511,7 +3511,7 @@ void
 (
 arch
 )
-silk_inner_prod16_aligned_64_c
+silk_inner_prod16_c
 (
 inVec1
 inVec2

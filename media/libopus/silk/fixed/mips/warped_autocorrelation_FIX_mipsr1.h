@@ -39,9 +39,9 @@ QS
 14
 #
 define
-OVERRIDE_silk_warped_autocorrelation_FIX
+OVERRIDE_silk_warped_autocorrelation_FIX_c
 void
-silk_warped_autocorrelation_FIX
+silk_warped_autocorrelation_FIX_c
 (
 opus_int32
 *
@@ -62,8 +62,6 @@ length
 const
 opus_int
 order
-int
-arch
 )
 {
 opus_int

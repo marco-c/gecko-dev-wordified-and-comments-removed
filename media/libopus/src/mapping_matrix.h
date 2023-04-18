@@ -69,7 +69,7 @@ mapping_matrix_init
 MappingMatrix
 *
 const
-st
+matrix
 int
 rows
 int
