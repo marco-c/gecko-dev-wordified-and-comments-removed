@@ -587,6 +587,9 @@ lines
 [
 ChromeOnly
 Throws
+BinaryName
+=
+interlinePositionJS
 ]
 attribute
 boolean
