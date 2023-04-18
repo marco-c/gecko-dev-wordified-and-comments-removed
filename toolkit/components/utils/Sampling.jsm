@@ -36,9 +36,6 @@ this
 "
 crypto
 "
-"
-TextEncoder
-"
 ]
 )
 ;

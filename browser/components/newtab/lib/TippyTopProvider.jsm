@@ -55,9 +55,6 @@ this
 "
 fetch
 "
-"
-URL
-"
 ]
 )
 ;

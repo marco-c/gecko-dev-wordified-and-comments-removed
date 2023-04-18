@@ -117,9 +117,6 @@ this
 "
 indexedDB
 "
-"
-Blob
-"
 ]
 )
 ;
