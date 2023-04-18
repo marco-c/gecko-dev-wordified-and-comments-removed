@@ -5656,6 +5656,16 @@ isPermanentAndMayBeShared
 {
 MOZ_ASSERT
 (
+target
+-
+>
+isMarkedBlack
+(
+)
+)
+;
+MOZ_ASSERT
+(
 !
 target
 -
