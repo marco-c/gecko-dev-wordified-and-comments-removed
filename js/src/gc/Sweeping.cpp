@@ -7487,6 +7487,10 @@ sweepDebuggerOnMainThread
 fop
 )
 ;
+sweepFinalizationRegistriesOnMainThread
+(
+)
+;
 sweepRealmGlobals
 (
 )
@@ -7715,10 +7719,6 @@ startSweepingAtomsTable
 )
 ;
 }
-sweepFinalizationRegistriesOnMainThread
-(
-)
-;
 for
 (
 SweepGroupZonesIter

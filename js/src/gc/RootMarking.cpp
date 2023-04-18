@@ -1475,11 +1475,6 @@ NonGrayEdges
 )
 ;
 }
-markFinalizationRegistryRoots
-(
-trc
-)
-;
 traceRuntimeCommon
 (
 trc
