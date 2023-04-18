@@ -11931,7 +11931,7 @@ m_formatter
 .
 oneByteOp
 (
-OP_GROUP1_EvIb
+OP_GROUP1_EbIb
 lhs
 GROUP1_OP_CMP
 )
