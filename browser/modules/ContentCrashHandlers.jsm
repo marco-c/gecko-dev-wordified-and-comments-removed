@@ -1600,9 +1600,6 @@ submitReports
 [
 dumpID
 ]
-CrashSubmit
-.
-SUBMITTED_FROM_CRASH_TAB
 )
 ;
 }
@@ -1874,9 +1871,6 @@ submitReports
 [
 dumpID
 ]
-CrashSubmit
-.
-SUBMITTED_FROM_AUTO
 )
 ;
 }
@@ -2346,9 +2340,6 @@ CrashSubmit
 submit
 (
 dumpID
-CrashSubmit
-.
-SUBMITTED_FROM_CRASH_TAB
 {
 recordSubmission
 :
@@ -3259,9 +3250,6 @@ this
 submitReports
 (
 reportIDs
-CrashSubmit
-.
-SUBMITTED_FROM_AUTO
 )
 ;
 }
@@ -3756,9 +3744,6 @@ this
 submitReports
 (
 reportIDs
-CrashSubmit
-.
-SUBMITTED_FROM_INFOBAR
 )
 ;
 if
@@ -3804,9 +3789,6 @@ this
 submitReports
 (
 reportIDs
-CrashSubmit
-.
-SUBMITTED_FROM_INFOBAR
 )
 ;
 if
@@ -3988,7 +3970,6 @@ val
 submitReports
 (
 reportIDs
-submittedFrom
 )
 {
 for
@@ -4004,7 +3985,17 @@ CrashSubmit
 submit
 (
 reportID
-submittedFrom
+{
+extraExtraKeyVals
+:
+{
+SubmittedFromInfobar
+:
+"
+1
+"
+}
+}
 )
 .
 catch
