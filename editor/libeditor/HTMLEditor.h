@@ -9221,6 +9221,10 @@ EditorBase
 ;
 friend
 class
+MoveNodeTransaction
+;
+friend
+class
 JoinNodesTransaction
 ;
 friend

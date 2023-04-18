@@ -3125,6 +3125,12 @@ case
 EditSubAction
 :
 :
+eMoveNode
+:
+case
+EditSubAction
+:
+:
 eCreateNode
 :
 case
@@ -7119,6 +7125,10 @@ ListElementSelectionState
 friend
 class
 ListItemElementSelectionState
+;
+friend
+class
+MoveNodeTransaction
 ;
 friend
 class

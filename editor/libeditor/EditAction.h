@@ -160,6 +160,7 @@ eRedo
 eInsertNode
 eCreateNode
 eDeleteNode
+eMoveNode
 eSplitNode
 eJoinNodes
 eDeleteText

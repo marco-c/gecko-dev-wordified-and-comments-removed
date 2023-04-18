@@ -264,6 +264,9 @@ class
 MoveNodeResult
 ;
 class
+MoveNodeTransaction
+;
+class
 PlaceholderTransaction
 ;
 class
