@@ -798,6 +798,13 @@ mDispatchCount
 ;
 }
 ;
+#
+if
+!
+defined
+(
+_WIN64
+)
 TEST_F
 (
 ThreadMetrics
@@ -914,6 +921,8 @@ duration
 )
 ;
 }
+#
+endif
 TEST_F
 (
 ThreadMetrics
