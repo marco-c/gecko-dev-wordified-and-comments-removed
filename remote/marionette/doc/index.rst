@@ -276,9 +276,6 @@ md
 Prefs
 .
 md
-internals
-/
-index
 Bugs
 =
 =
