@@ -247,6 +247,9 @@ all_urls
 >
 "
 ]
+granted_host_permissions
+:
+true
 content_scripts
 :
 [
@@ -283,6 +286,9 @@ js
 }
 ]
 }
+temporarilyInstalled
+:
+true
 background
 (
 )
