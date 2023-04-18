@@ -182,6 +182,7 @@ objectFront
 valid
 )
 ;
+await
 threadFront
 .
 resume

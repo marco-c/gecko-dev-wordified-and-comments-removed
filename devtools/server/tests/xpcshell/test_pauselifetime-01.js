@@ -99,6 +99,7 @@ unrecognizedPacketType
 )
 ;
 }
+await
 threadFront
 .
 resume

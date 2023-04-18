@@ -135,6 +135,7 @@ blackBox
 sourceFront
 )
 ;
+await
 threadFront
 .
 resume
@@ -201,17 +202,11 @@ the
 watchpoint
 )
 ;
-threadFront
-.
-resume
-(
-)
-;
 const
 pausePacket
 =
 await
-waitForPause
+resumeAndWaitForPause
 (
 threadFront
 )

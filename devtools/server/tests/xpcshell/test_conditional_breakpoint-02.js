@@ -114,17 +114,11 @@ a
 }
 )
 ;
-threadFront
-.
-resume
-(
-)
-;
 const
 packet2
 =
 await
-waitForPause
+resumeAndWaitForPause
 (
 threadFront
 )
@@ -165,6 +159,7 @@ removeBreakpoint
 location2
 )
 ;
+await
 threadFront
 .
 resume

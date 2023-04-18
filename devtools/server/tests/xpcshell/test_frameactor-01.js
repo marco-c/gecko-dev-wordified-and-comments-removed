@@ -72,6 +72,7 @@ stopMe
 "
 )
 ;
+await
 threadFront
 .
 resume

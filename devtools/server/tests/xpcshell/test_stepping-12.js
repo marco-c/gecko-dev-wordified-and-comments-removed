@@ -225,6 +225,7 @@ yay
 "
 )
 ;
+await
 resume
 (
 threadFront
@@ -434,6 +435,7 @@ yay
 "
 )
 ;
+await
 resume
 (
 threadFront
@@ -745,6 +747,7 @@ line
 7
 )
 ;
+await
 resume
 (
 threadFront

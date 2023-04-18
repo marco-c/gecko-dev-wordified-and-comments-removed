@@ -81,6 +81,7 @@ line
 }
 )
 ;
+await
 threadFront
 .
 resume
@@ -191,6 +192,7 @@ boxed
 "
 )
 ;
+await
 threadFront
 .
 resume

@@ -135,6 +135,7 @@ unrecognizedPacketType
 )
 ;
 }
+await
 threadFront
 .
 resume
