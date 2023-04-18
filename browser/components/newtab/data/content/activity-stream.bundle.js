@@ -445,7 +445,7 @@ NUMBER
 )
 ;
 ;
-var
+const
 MAIN_MESSAGE_TYPE
 =
 "
@@ -454,7 +454,7 @@ ActivityStream
 Main
 "
 ;
-var
+const
 CONTENT_MESSAGE_TYPE
 =
 "
@@ -463,7 +463,7 @@ ActivityStream
 Content
 "
 ;
-var
+const
 PRELOAD_MESSAGE_TYPE
 =
 "
@@ -472,12 +472,12 @@ ActivityStream
 PreloadedBrowser
 "
 ;
-var
+const
 UI_CODE
 =
 1
 ;
-var
+const
 BACKGROUND_PROCESS
 =
 2
@@ -1494,7 +1494,7 @@ action
 action
 ;
 }
-var
+const
 actionCreators
 =
 {
@@ -1513,7 +1513,7 @@ DiscoveryStreamImpressionStats
 DiscoveryStreamLoadedContent
 }
 ;
-var
+const
 actionUtils
 =
 {
@@ -56312,7 +56312,7 @@ prevState
 ;
 }
 }
-var
+const
 reducers
 =
 {
