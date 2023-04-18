@@ -116,7 +116,7 @@ getInstance
 Override
 public
 ISurfaceAllocator
-getSurfaceAllocatorFromGpuProcess
+getSurfaceAllocator
 (
 )
 {

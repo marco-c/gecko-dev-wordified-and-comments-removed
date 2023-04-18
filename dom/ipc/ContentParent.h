@@ -3086,11 +3086,6 @@ OnCompositorUnexpectedShutdown
 )
 override
 ;
-void
-InitSurfaceAllocator
-(
-)
-;
 private
 :
 static
