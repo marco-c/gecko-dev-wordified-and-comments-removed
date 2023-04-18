@@ -149,7 +149,6 @@ testFlushAllChildren
 ;
 is
 (
-45326
 Glean
 .
 testOnlyIpc
@@ -159,6 +158,11 @@ aCounter
 testGetValue
 (
 )
+Ci
+.
+nsIXULRuntime
+.
+PROCESS_TYPE_GPU
 "
 Ensure
 the

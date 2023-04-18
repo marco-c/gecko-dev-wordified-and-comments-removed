@@ -261,7 +261,6 @@ testFlushAllChildren
 ;
 is
 (
-45327
 Glean
 .
 testOnlyIpc
@@ -271,6 +270,11 @@ aCounter
 testGetValue
 (
 )
+Ci
+.
+nsIXULRuntime
+.
+PROCESS_TYPE_RDD
 "
 Ensure
 the
