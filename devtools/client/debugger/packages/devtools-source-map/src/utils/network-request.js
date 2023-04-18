@@ -232,5 +232,7 @@ module
 .
 exports
 =
+{
 networkRequest
+}
 ;

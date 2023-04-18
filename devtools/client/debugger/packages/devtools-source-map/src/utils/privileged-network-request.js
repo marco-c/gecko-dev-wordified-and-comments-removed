@@ -198,5 +198,7 @@ module
 .
 exports
 =
+{
 networkRequest
+}
 ;
