@@ -63,11 +63,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Log
 :
@@ -93,7 +99,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -101,6 +107,8 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
@@ -556,6 +564,8 @@ catch
 e
 )
 {
+lazy
+.
 logger
 .
 warn

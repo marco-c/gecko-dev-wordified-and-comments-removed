@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Preferences
 :
@@ -105,7 +111,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 useRecommendedPrefs
 "
@@ -123,7 +129,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -131,6 +137,8 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
@@ -980,6 +988,8 @@ preferences
 if
 (
 !
+lazy
+.
 useRecommendedPrefs
 )
 {
@@ -1046,6 +1056,8 @@ preferences
 if
 (
 !
+lazy
+.
 Preferences
 .
 isSet
@@ -1054,6 +1066,8 @@ k
 )
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -1070,6 +1084,8 @@ v
 }
 )
 ;
+lazy
+.
 Preferences
 .
 set
@@ -1168,6 +1184,8 @@ keys
 )
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -1180,6 +1198,8 @@ k
 }
 )
 ;
+lazy
+.
 Preferences
 .
 reset

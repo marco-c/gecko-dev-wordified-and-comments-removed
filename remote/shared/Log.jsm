@@ -108,11 +108,17 @@ log
 level
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 prefLogLevel
 "
@@ -283,6 +289,8 @@ logger
 .
 manageLevelFromPref
 (
+lazy
+.
 prefLogLevel
 )
 ;
@@ -313,6 +321,8 @@ Trace
 .
 includes
 (
+lazy
+.
 prefLogLevel
 )
 ;
