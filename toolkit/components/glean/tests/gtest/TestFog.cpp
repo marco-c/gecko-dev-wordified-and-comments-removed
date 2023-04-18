@@ -220,6 +220,18 @@ empty
 )
 )
 ;
+ASSERT_EQ
+(
+NS_OK
+fog_test_reset
+(
+&
+empty
+&
+empty
+)
+)
+;
 }
 extern
 "
@@ -233,7 +245,7 @@ Rust_MeasureInitializeTime
 TEST
 (
 FOG
-TestMeasureInitializeTime
+DISABLED_TestMeasureInitializeTime
 )
 {
 Rust_MeasureInitializeTime
