@@ -9136,6 +9136,13 @@ false
 -
 name
 :
+WasmCallLandingPrePad
+mir_op
+:
+true
+-
+name
+:
 WasmRegisterResult
 gen_boilerplate
 :
