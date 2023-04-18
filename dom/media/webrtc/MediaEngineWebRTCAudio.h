@@ -665,7 +665,7 @@ mPort
 ;
 RefPtr
 <
-NativeInputTrack
+DeviceInputTrack
 >
 mDeviceInputTrack
 ;

@@ -806,7 +806,7 @@ virtual
 void
 OpenAudioInput
 (
-NativeInputTrack
+DeviceInputTrack
 *
 aTrack
 )
@@ -826,7 +826,7 @@ virtual
 void
 CloseAudioInput
 (
-NativeInputTrack
+DeviceInputTrack
 *
 aTrack
 )
