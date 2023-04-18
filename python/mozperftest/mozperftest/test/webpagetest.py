@@ -856,6 +856,12 @@ values
 )
             
 ]
+            
+"
+shouldAlert
+"
+:
+True
         
 }
     
@@ -2261,8 +2267,9 @@ successfulRVRuns
 "
 "
             
-raise
-WPTErrorWithWebsite
+self
+.
+warning
 (
                 
 f
@@ -2434,7 +2441,6 @@ name
 :
 "
 mozperftest
-:
 "
 }
                 
@@ -2451,6 +2457,12 @@ webpagetest
 :
 WebPageTestData
 "
+                
+"
+shouldAlert
+"
+:
+True
                 
 "
 results
@@ -2476,6 +2488,12 @@ name
 "
 :
 metric_name
+                        
+"
+shouldAlert
+"
+:
+True
                     
 }
                     

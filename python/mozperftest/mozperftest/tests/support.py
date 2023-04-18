@@ -139,9 +139,15 @@ EXAMPLE_WPT_TEST
 =
 Path
 (
-EXAMPLE_TESTS_DIR
+ROOT
 "
-WPT_init_file
+testing
+"
+"
+performance
+"
+"
+perftest_WPT_init_file
 .
 js
 "
