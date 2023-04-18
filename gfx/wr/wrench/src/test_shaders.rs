@@ -101,7 +101,9 @@ Visit
 let
 is_scalar
 =
-match
+matches
+!
+(
 declaration
 .
 ty
@@ -109,7 +111,6 @@ ty
 ty
 .
 ty
-{
 TypeSpecifierNonArray
 :
 :
@@ -134,14 +135,7 @@ TypeSpecifierNonArray
 :
 :
 Double
-=
->
-true
-_
-=
->
-false
-}
+)
 ;
 let
 qualifiers
