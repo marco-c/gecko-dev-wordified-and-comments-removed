@@ -3699,11 +3699,6 @@ IsNull
 )
 )
 {
-bool
-error
-=
-false
-;
 procTime
 =
 TimeStamp
@@ -3711,8 +3706,6 @@ TimeStamp
 :
 ProcessCreation
 (
-&
-error
 )
 ;
 StartupTimeline
