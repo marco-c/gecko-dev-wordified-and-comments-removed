@@ -99,12 +99,6 @@ std
 :
 fmt
 ;
-use
-thin_slice
-:
-:
-ThinBoxedSlice
-;
 include
 !
 (

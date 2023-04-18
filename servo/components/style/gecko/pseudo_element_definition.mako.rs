@@ -37,9 +37,14 @@ capitalized_pseudo
 )
 }
 (
-ThinBoxedSlice
+Box
 <
+Box
+<
+[
 Atom
+]
+>
 >
 )
 %

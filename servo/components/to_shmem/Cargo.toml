@@ -123,14 +123,3 @@ optional
 =
 true
 }
-thin
--
-slice
-=
-"
-0
-.
-1
-.
-0
-"
