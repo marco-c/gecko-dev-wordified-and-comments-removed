@@ -520,6 +520,9 @@ kRootModuleName
 )
 )
 ;
+AutoSECMODListReadLock
+secmodLock
+;
 if
 (
 !
