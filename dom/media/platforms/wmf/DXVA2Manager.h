@@ -274,6 +274,13 @@ aOutputType
 =
 0
 ;
+virtual
+void
+BeforeShutdownVideoMFTDecoder
+(
+)
+{
+}
 static
 bool
 IsNV12Supported
