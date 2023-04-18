@@ -470,6 +470,12 @@ hr
 return
 ;
 }
+ReentrantMonitorAutoEnter
+lock
+(
+mMonitor
+)
+;
 mJumpListMgr
 =
 jumpListMgr
@@ -607,6 +613,12 @@ nsAString
 aAppUserModelId
 )
 {
+ReentrantMonitorAutoEnter
+lock
+(
+mMonitor
+)
+;
 if
 (
 !
