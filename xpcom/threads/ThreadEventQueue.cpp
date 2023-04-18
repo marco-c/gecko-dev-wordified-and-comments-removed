@@ -1257,6 +1257,7 @@ ThreadEventQueue
 GetObserverOnThread
 (
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 return
 do_AddRef
