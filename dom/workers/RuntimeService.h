@@ -665,8 +665,6 @@ MemoryPressureAllWorkers
 uint32_t
 ClampedHardwareConcurrency
 (
-bool
-aShouldResistFingerprinting
 )
 const
 ;
