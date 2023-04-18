@@ -711,12 +711,6 @@ mPrt
 ;
 RefPtr
 <
-nsPrintData
->
-mPrtPreview
-;
-RefPtr
-<
 nsPagePrintTimer
 >
 mPagePrintTimer
