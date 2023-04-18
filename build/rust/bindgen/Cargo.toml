@@ -59,6 +59,15 @@ false
 [
 features
 ]
+default
+=
+[
+"
+bindgen
+/
+default
+"
+]
 logging
 =
 [
