@@ -3631,7 +3631,7 @@ aExistingImage
 ProgressTracker
 *
 aProgressTracker
-uint32_t
+uint64_t
 aInnerWindowId
 )
 {
