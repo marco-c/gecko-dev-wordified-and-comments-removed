@@ -625,7 +625,7 @@ uint8_t
 Table
 :
 :
-functionBase
+tlsElements
 (
 )
 const
@@ -644,7 +644,15 @@ Ref
 )
 {
 return
-nullptr
+(
+uint8_t
+*
+)
+objects_
+.
+begin
+(
+)
 ;
 }
 return

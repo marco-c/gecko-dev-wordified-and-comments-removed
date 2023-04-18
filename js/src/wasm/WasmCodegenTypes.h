@@ -2221,7 +2221,7 @@ globalDataOffset_
 offsetof
 (
 TableTls
-functionBase
+elements
 )
 ;
 }
