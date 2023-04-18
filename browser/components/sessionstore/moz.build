@@ -95,12 +95,7 @@ SessionStore
 jsm
 "
 "
-SessionWorker
-.
-js
-"
-"
-SessionWorker
+SessionWriter
 .
 jsm
 "
