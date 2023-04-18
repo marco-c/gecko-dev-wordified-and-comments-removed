@@ -363,9 +363,10 @@ mLanguageOverride
 =
 aLanguageOverride
 ;
-mCharacterMap
-=
+SetUnicodeRangeMap
+(
 aUnicodeRanges
+)
 ;
 mRangeFlags
 =
@@ -480,9 +481,10 @@ mLanguageOverride
 =
 aLanguageOverride
 ;
-mCharacterMap
-=
+SetUnicodeRangeMap
+(
 aUnicodeRanges
+)
 ;
 mRangeFlags
 =
@@ -680,7 +682,9 @@ aUnicodeRanges
 mCharacterMap
 &
 &
-mCharacterMap
+GetCharacterMap
+(
+)
 -
 >
 Equals
