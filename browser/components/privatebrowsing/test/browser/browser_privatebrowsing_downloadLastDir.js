@@ -510,11 +510,9 @@ promptForSaveToFileAsync
 (
 launcher
 aWin
-"
-"
-"
-"
-false
+null
+null
+null
 )
 ;
 }

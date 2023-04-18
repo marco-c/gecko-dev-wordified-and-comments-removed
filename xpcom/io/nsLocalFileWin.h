@@ -159,15 +159,6 @@ nsString
 aResolvedPath
 )
 ;
-static
-void
-CheckForReservedFileName
-(
-nsString
-&
-aFileName
-)
-;
 private
 :
 enum
