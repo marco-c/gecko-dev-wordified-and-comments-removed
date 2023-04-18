@@ -32,7 +32,6 @@ dom
 {
 class
 AbortSignal
-final
 :
 public
 DOMEventTargetHelper
@@ -170,7 +169,18 @@ RunAbortAlgorithm
 )
 override
 ;
-private
+virtual
+bool
+IsTaskSignal
+(
+)
+const
+{
+return
+false
+;
+}
+protected
 :
 ~
 AbortSignal
