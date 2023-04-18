@@ -102,6 +102,12 @@ help
 within
 impl
 Future
+<
+Output
+=
+(
+)
+>
 the
 trait
 Send
@@ -349,6 +355,11 @@ help
 within
 impl
 Future
+<
+Output
+=
+bool
+>
 the
 trait
 Send

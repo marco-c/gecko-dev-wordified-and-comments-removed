@@ -1,3 +1,11 @@
+#
+!
+[
+allow
+(
+unused_macro_rules
+)
+]
 use
 async_trait
 :
