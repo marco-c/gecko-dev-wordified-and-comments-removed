@@ -4099,6 +4099,8 @@ InsertAnonymousContent
 Element
 &
 aElement
+bool
+aForce
 ErrorResult
 &
 aError
