@@ -3147,6 +3147,11 @@ content
 promoEnabled
 :
 true
+promoType
+:
+"
+VPN
+"
 infoEnabled
 :
 true

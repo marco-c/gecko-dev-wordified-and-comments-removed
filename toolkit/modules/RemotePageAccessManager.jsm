@@ -561,7 +561,7 @@ ShouldShowSearch
 ShouldShowSearchBanner
 "
 "
-ShouldShowVPNPromo
+ShouldShowPromo
 "
 "
 SpecialMessageActionDispatch
