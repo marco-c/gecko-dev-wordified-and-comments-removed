@@ -649,6 +649,7 @@ void
 Uninterrupt
 (
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 MOZ_ASSERT
 (
@@ -689,6 +690,11 @@ Encoding
 >
 aEncoding
 )
+REQUIRES
+(
+mTokenizerMutex
+)
+;
 ;
 size_t
 CountGts
@@ -705,6 +711,10 @@ ProcessLookingForMetaCharset
 (
 bool
 aEof
+)
+REQUIRES
+(
+mTokenizerMutex
 )
 ;
 void
@@ -731,6 +741,10 @@ uint8_t
 &
 aBuffer
 )
+REQUIRES
+(
+mTokenizerMutex
+)
 ;
 void
 DoDataAvailable
@@ -744,6 +758,10 @@ const
 uint8_t
 >
 aBuffer
+)
+REQUIRES
+(
+mTokenizerMutex
 )
 ;
 static
@@ -767,6 +785,10 @@ aCount
 uint32_t
 *
 aWriteCount
+)
+REQUIRES
+(
+mTokenizerMutex
 )
 ;
 bool
@@ -822,6 +844,10 @@ aFromSegment
 bool
 aEof
 )
+REQUIRES
+(
+mTokenizerMutex
+)
 ;
 nsresult
 WriteStreamBytes
@@ -835,6 +861,10 @@ const
 uint8_t
 >
 aFromSegment
+)
+REQUIRES
+(
+mTokenizerMutex
 )
 ;
 nsresult
@@ -858,6 +888,10 @@ const
 uint8_t
 >
 aFromSegment
+)
+REQUIRES
+(
+mTokenizerMutex
 )
 ;
 void
@@ -892,6 +926,10 @@ CommitLocalFileToEncoding
 void
 ReDecodeLocalFile
 (
+)
+REQUIRES
+(
+mTokenizerMutex
 )
 ;
 std
@@ -1132,7 +1170,6 @@ mozilla
 :
 Mutex
 mTokenizerMutex
-MOZ_UNANNOTATED
 ;
 nsHtml5AtomTable
 mAtomTable
@@ -1172,7 +1209,6 @@ mozilla
 :
 Mutex
 mSpeculationMutex
-MOZ_UNANNOTATED
 ;
 mozilla
 :
@@ -1284,7 +1320,6 @@ mozilla
 :
 Mutex
 mFlushTimerMutex
-MOZ_UNANNOTATED
 ;
 bool
 mFlushTimerArmed
