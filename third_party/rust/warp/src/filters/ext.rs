@@ -8,7 +8,7 @@ convert
 Infallible
 ;
 use
-futures
+futures_util
 :
 :
 future

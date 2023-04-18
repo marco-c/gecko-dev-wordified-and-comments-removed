@@ -30,11 +30,11 @@ call
 .
 rs
 :
-13
+14
 :
 9
 |
-13
+14
 |
 self
 .
@@ -42,7 +42,7 @@ project
 (
 )
 .
-field
+f
 .
 get_unchecked_mut
 (
@@ -68,10 +68,6 @@ block
 E0133
 ]
 |
-^
-^
-^
-^
 ^
 ^
 ^

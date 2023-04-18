@@ -423,12 +423,9 @@ is_empty
 )
 {
 return
-Err
+Ok
 (
-LinesCodecError
-:
-:
-MaxLineLengthExceeded
+None
 )
 ;
 }

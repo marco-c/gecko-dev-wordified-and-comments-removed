@@ -123,7 +123,7 @@ tokio
 time
 :
 :
-delay_for
+sleep
 (
 Duration
 :

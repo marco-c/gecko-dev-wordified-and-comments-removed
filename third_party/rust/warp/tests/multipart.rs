@@ -13,7 +13,7 @@ bytes
 BufMut
 ;
 use
-futures
+futures_util
 :
 :
 {

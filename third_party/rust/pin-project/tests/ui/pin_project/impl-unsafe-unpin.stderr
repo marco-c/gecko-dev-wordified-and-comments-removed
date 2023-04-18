@@ -7,7 +7,10 @@ conflicting
 implementations
 of
 trait
-pin_project
+_
+:
+:
+_pin_project
 :
 :
 UnsafeUnpin
@@ -203,7 +206,10 @@ conflicting
 implementations
 of
 trait
-pin_project
+_
+:
+:
+_pin_project
 :
 :
 UnsafeUnpin
@@ -380,7 +386,10 @@ conflicting
 implementations
 of
 trait
-pin_project
+_
+:
+:
+_pin_project
 :
 :
 UnsafeUnpin

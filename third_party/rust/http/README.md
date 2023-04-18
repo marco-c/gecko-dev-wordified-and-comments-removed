@@ -185,10 +185,6 @@ your
 crate
 :
 rust
-extern
-crate
-http
-;
 use
 http
 :
@@ -218,10 +214,6 @@ HTTP
 request
 :
 rust
-extern
-crate
-http
-;
 use
 http
 :
@@ -294,10 +286,6 @@ HTTP
 response
 :
 rust
-extern
-crate
-http
-;
 use
 http
 :
@@ -390,7 +378,7 @@ LICENSE
 APACHE
 )
 or
-http
+https
 :
 /
 /
@@ -421,7 +409,7 @@ LICENSE
 MIT
 )
 or
-http
+https
 :
 /
 /

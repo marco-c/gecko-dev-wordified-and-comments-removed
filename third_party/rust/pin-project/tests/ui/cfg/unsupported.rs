@@ -9,7 +9,7 @@ pin_project
 pin_project
 ]
 struct
-Struct
+S
 {
 #
 [
