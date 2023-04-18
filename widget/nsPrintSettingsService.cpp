@@ -12,7 +12,7 @@ mozilla
 /
 embedding
 /
-PPrinting
+PPrintingTypes
 .
 h
 "
@@ -47,13 +47,6 @@ h
 include
 "
 nsIPrinterList
-.
-h
-"
-#
-include
-"
-nsPrintingProxy
 .
 h
 "

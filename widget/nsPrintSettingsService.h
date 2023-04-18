@@ -7,17 +7,6 @@ nsPrintSettingsService_h
 #
 include
 "
-mozilla
-/
-embedding
-/
-PPrinting
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

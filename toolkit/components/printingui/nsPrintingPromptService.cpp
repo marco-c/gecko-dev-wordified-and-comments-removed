@@ -110,8 +110,12 @@ The
 content
 process
 must
-use
-nsPrintingProxy
+not
+try
+to
+open
+printing
+prompts
 "
 )
 ;
