@@ -739,6 +739,15 @@ initializer
 "
 print
 "
+"
+fetch
+"
+"
+crypto
+"
+"
+indexedDB
+"
 }
 ;
 class
