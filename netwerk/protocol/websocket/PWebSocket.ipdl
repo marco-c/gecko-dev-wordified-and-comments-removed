@@ -21,14 +21,6 @@ protocol
 PFileDescriptorSet
 ;
 include
-protocol
-PChildToParentStream
-;
-include
-protocol
-PParentToChildStream
-;
-include
 "
 mozilla
 /
