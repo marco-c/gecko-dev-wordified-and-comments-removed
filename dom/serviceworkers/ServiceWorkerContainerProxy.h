@@ -26,8 +26,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -135,7 +135,6 @@ ServiceWorkerContainerProxy
 ;
 }
 ;
-}
 }
 #
 endif

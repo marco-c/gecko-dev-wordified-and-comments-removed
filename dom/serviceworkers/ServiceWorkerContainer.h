@@ -38,8 +38,8 @@ nsIGlobalWindow
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -567,7 +567,6 @@ mPendingMessages
 ;
 }
 ;
-}
 }
 #
 endif

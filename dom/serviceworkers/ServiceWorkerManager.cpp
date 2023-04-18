@@ -765,8 +765,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 uint32_t
@@ -16319,6 +16319,5 @@ aShutdownStateId
 aProgress
 )
 ;
-}
 }
 }

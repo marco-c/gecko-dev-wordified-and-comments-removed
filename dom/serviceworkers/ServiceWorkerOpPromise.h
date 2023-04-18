@@ -51,8 +51,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -135,7 +135,6 @@ nsresult
 true
 >
 ;
-}
 }
 #
 endif

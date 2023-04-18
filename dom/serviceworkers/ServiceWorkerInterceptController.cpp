@@ -94,8 +94,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ISUPPORTS
@@ -521,6 +521,5 @@ StealNSResult
 return
 NS_OK
 ;
-}
 }
 }

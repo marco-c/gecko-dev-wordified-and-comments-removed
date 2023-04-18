@@ -64,8 +64,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ServiceWorkerCloneData
@@ -501,6 +501,5 @@ const
 return
 mIsErrorMessageData
 ;
-}
 }
 }

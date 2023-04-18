@@ -32,8 +32,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -59,8 +59,9 @@ mQueue
 Callback
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit
@@ -574,7 +575,6 @@ TruncateLength
 1
 )
 ;
-}
 }
 }
 }

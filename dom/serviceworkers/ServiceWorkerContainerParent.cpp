@@ -25,8 +25,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -574,6 +574,5 @@ ServiceWorkerContainerProxy
 this
 )
 ;
-}
 }
 }

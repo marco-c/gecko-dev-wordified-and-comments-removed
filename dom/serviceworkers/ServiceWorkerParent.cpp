@@ -56,8 +56,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -296,6 +296,5 @@ Send__delete__
 this
 )
 ;
-}
 }
 }

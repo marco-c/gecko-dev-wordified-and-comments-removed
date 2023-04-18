@@ -123,8 +123,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -631,7 +631,6 @@ mFetchHandlerFinish
 ;
 }
 ;
-}
 }
 #
 endif

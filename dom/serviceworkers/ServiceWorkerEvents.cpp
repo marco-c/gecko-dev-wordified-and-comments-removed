@@ -564,8 +564,8 @@ paramsList
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 CancelChannelRunnable
@@ -6461,5 +6461,4 @@ NS_IMPL_RELEASE_INHERITED
 ExtendableMessageEvent
 Event
 )
-}
 }

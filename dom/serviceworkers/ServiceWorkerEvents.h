@@ -120,8 +120,8 @@ nsIInterceptedChannel
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1429,7 +1429,6 @@ aPorts
 ;
 }
 ;
-}
 }
 #
 endif
