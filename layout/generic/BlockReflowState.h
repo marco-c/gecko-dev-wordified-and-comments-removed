@@ -1,9 +1,9 @@
 #
 ifndef
-BlockReflowInput_h
+BlockReflowState_h
 #
 define
-BlockReflowInput_h
+BlockReflowState_h
 #
 include
 <
@@ -45,7 +45,7 @@ namespace
 mozilla
 {
 class
-BlockReflowInput
+BlockReflowState
 {
 using
 BandInfoType
@@ -148,7 +148,7 @@ mCanHaveOverflowMarkers
 ;
 public
 :
-BlockReflowInput
+BlockReflowState
 (
 const
 ReflowInput
@@ -347,7 +347,7 @@ lifetime
 of
 "
 "
-BlockReflowInput
+BlockReflowState
 !
 "
 )

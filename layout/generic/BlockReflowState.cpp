@@ -111,10 +111,10 @@ mozilla
 :
 layout
 ;
-BlockReflowInput
+BlockReflowState
 :
 :
-BlockReflowInput
+BlockReflowState
 (
 const
 ReflowInput
@@ -401,7 +401,7 @@ be
 valid
 when
 creating
-BlockReflowInput
+BlockReflowState
 !
 "
 )
@@ -644,7 +644,7 @@ LinesEnd
 ;
 }
 void
-BlockReflowInput
+BlockReflowState
 :
 :
 ComputeReplacedBlockOffsetsForFloats
@@ -916,7 +916,7 @@ iEndOffset
 ;
 }
 LogicalRect
-BlockReflowInput
+BlockReflowState
 :
 :
 ComputeBlockAvailSpace
@@ -1279,7 +1279,7 @@ result
 ;
 }
 bool
-BlockReflowInput
+BlockReflowState
 :
 :
 ReplacedBlockFitsInAvailSpace
@@ -1394,7 +1394,7 @@ wm
 ;
 }
 nsFlowAreaRect
-BlockReflowInput
+BlockReflowState
 :
 :
 GetFloatAvailableSpaceWithState
@@ -1642,7 +1642,7 @@ result
 ;
 }
 nsFlowAreaRect
-BlockReflowInput
+BlockReflowState
 :
 :
 GetFloatAvailableSpaceForBSize
@@ -1860,7 +1860,7 @@ result
 ;
 }
 void
-BlockReflowInput
+BlockReflowState
 :
 :
 ReconstructMarginBefore
@@ -1972,7 +1972,7 @@ break
 }
 }
 void
-BlockReflowInput
+BlockReflowState
 :
 :
 SetupPushedFloatList
@@ -2021,7 +2021,7 @@ true
 }
 }
 void
-BlockReflowInput
+BlockReflowState
 :
 :
 AppendPushedFloatChain
@@ -2097,7 +2097,7 @@ aFloatCont
 }
 }
 void
-BlockReflowInput
+BlockReflowState
 :
 :
 RecoverFloats
@@ -2404,7 +2404,7 @@ ContainerSize
 }
 }
 void
-BlockReflowInput
+BlockReflowState
 :
 :
 RecoverStateFrom
@@ -2479,7 +2479,7 @@ endif
 }
 }
 bool
-BlockReflowInput
+BlockReflowState
 :
 :
 AddFloat
@@ -2952,7 +2952,7 @@ placed
 ;
 }
 bool
-BlockReflowInput
+BlockReflowState
 :
 :
 CanPlaceFloat
@@ -3286,7 +3286,7 @@ ShapeInvalidationDataProperty
 ShapeInvalidationData
 )
 bool
-BlockReflowInput
+BlockReflowState
 :
 :
 FlowAndPlaceFloat
@@ -4660,7 +4660,7 @@ true
 ;
 }
 void
-BlockReflowInput
+BlockReflowState
 :
 :
 PushFloatPastBreak
@@ -4754,7 +4754,7 @@ SetOverflowIncomplete
 ;
 }
 void
-BlockReflowInput
+BlockReflowState
 :
 :
 PlaceBelowCurrentLineFloats
@@ -4909,12 +4909,12 @@ std
 tuple
 <
 nscoord
-BlockReflowInput
+BlockReflowState
 :
 :
 ClearFloatsResult
 >
-BlockReflowInput
+BlockReflowState
 :
 :
 ClearFloats
@@ -4978,7 +4978,7 @@ NOISY_FLOAT_CLEARING
 printf
 (
 "
-BlockReflowInput
+BlockReflowState
 :
 :
 ClearFloats
