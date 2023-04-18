@@ -1188,6 +1188,9 @@ four
 js
 "
 true
+"
+FakeThread1
+"
 )
 ;
 const
@@ -2802,6 +2805,7 @@ url
 isBlackBoxed
 =
 false
+thread
 )
 {
 return
@@ -2813,6 +2817,7 @@ makeMockDisplaySource
 (
 url
 id
+thread
 )
 isBlackBoxed
 }

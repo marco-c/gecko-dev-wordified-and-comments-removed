@@ -25,6 +25,7 @@ equal
 ;
 import
 {
+getPathParts
 getFileExtension
 }
 from
@@ -1253,6 +1254,14 @@ entry
 .
 source
 displayURL
+parts
+:
+getPathParts
+(
+displayURL
+thread
+mainThreadHost
+)
 }
 ;
 if
