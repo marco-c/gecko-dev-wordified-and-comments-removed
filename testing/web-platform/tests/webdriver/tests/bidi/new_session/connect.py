@@ -75,18 +75,17 @@ def
 test_bidi_session_send
 (
 bidi_session
+send_blocking_command
 )
 :
     
 await
-bidi_session
-.
-send_command
+send_blocking_command
 (
 "
-test
+session
 .
-test
+status
 "
 {
 }
@@ -115,18 +114,18 @@ def
 test_bidi_session_with_different_capability
 (
 bidi_session
+                                                      
+send_blocking_command
 )
 :
     
 await
-bidi_session
-.
-send_command
+send_blocking_command
 (
 "
-test
+session
 .
-test
+status
 "
 {
 }
