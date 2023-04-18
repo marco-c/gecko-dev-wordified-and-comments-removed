@@ -16107,6 +16107,16 @@ public
 static
 final
 int
+ERROR_INVALID_DOMAIN
+=
+-
+8
+;
+field
+public
+static
+final
+int
 ERROR_NETWORK_FAILURE
 =
 -

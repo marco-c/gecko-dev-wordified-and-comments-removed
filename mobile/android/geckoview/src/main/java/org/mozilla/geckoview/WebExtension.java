@@ -4530,6 +4530,15 @@ public
 static
 final
 int
+ERROR_INVALID_DOMAIN
+=
+-
+8
+;
+public
+static
+final
+int
 ERROR_USER_CANCELED
 =
 -
@@ -4763,6 +4772,9 @@ ERROR_UNEXPECTED_ADDON_TYPE
 ErrorCodes
 .
 ERROR_INCORRECT_ID
+ErrorCodes
+.
+ERROR_INVALID_DOMAIN
 ErrorCodes
 .
 ERROR_USER_CANCELED
