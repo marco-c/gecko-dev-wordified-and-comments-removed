@@ -175,9 +175,6 @@ uint64_t
 aMicros
 )
 ;
-bool
-mIsInitialized
-;
 MidirWrapper
 *
 mImplementation

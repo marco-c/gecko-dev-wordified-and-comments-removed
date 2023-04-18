@@ -272,10 +272,6 @@ midirMIDIPlatformService
 (
 )
 :
-mIsInitialized
-(
-false
-)
 mImplementation
 (
 nullptr
@@ -406,7 +402,7 @@ Init
 {
 if
 (
-mIsInitialized
+mImplementation
 )
 {
 return
@@ -416,6 +412,7 @@ mImplementation
 =
 midir_impl_init
 (
+AddPort
 )
 ;
 if
@@ -423,16 +420,6 @@ if
 mImplementation
 )
 {
-mIsInitialized
-=
-true
-;
-midir_impl_enum_ports
-(
-mImplementation
-AddPort
-)
-;
 MIDIPlatformService
 :
 :
@@ -761,6 +748,7 @@ LOG
 MIDI
 port
 open
+failed
 :
 %
 s
