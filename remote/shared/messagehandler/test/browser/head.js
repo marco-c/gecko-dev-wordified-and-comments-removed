@@ -439,6 +439,13 @@ function
 (
 )
 {
+const
+{
+browser
+}
+=
+this
+;
 browser
 .
 test
@@ -514,6 +521,13 @@ function
 (
 )
 {
+const
+{
+browser
+}
+=
+this
+;
 browser
 .
 test
