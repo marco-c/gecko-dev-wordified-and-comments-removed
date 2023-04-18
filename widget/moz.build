@@ -1144,6 +1144,11 @@ nsHTMLFormatConverter
 cpp
 "
 "
+nsIBaseWindow
+.
+cpp
+"
+"
 nsIDeviceContextSpec
 .
 cpp
