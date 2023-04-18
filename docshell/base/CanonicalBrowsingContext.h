@@ -395,6 +395,17 @@ aOpenerId
 )
 ;
 void
+SetCrossGroupOpener
+(
+CanonicalBrowsingContext
+&
+aCrossGroupOpener
+ErrorResult
+&
+aRv
+)
+;
+void
 GetWindowGlobals
 (
 nsTArray
