@@ -7639,6 +7639,10 @@ GetOffsetToCrossDoc
 mReferenceFrame
 )
 ;
+MaybeApplyAdditionalOffset
+(
+)
+;
 }
 return
 mReferenceFrame
