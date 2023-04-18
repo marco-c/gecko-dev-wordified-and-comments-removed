@@ -311,6 +311,11 @@ CancelImports
 (
 )
 ;
+void
+CheckModuleDependenciesLoaded
+(
+)
+;
 public
 :
 const
