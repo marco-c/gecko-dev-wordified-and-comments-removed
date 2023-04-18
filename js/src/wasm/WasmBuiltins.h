@@ -143,6 +143,7 @@ RefTest
 RttSub
 PreBarrierFiltering
 PostBarrier
+PostBarrierPrecise
 PostBarrierFiltering
 StructNew
 #
@@ -504,6 +505,11 @@ extern
 const
 SymbolicAddressSignature
 SASigPostBarrier
+;
+extern
+const
+SymbolicAddressSignature
+SASigPostBarrierPrecise
 ;
 extern
 const
