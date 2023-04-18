@@ -281,10 +281,6 @@ href
 =
 helpUrl
 ;
-ensureScrollPadding
-(
-)
-;
 }
 async
 handleEvent
