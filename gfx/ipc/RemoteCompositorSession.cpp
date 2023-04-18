@@ -371,6 +371,11 @@ Destroy
 )
 ;
 }
+if
+(
+mCompositorBridgeChild
+)
+{
 mCompositorBridgeChild
 -
 >
@@ -382,6 +387,7 @@ mCompositorBridgeChild
 =
 nullptr
 ;
+}
 mCompositorWidgetDelegate
 =
 nullptr
