@@ -20,6 +20,9 @@ WeakPtr
 .
 h
 "
+class
+nsRange
+;
 namespace
 mozilla
 {
@@ -166,6 +169,15 @@ mAccWithCaret
 nullptr
 ;
 }
+void
+SpellCheckRangeAdded
+(
+const
+nsRange
+&
+aRange
+)
+;
 ~
 SelectionManager
 (
