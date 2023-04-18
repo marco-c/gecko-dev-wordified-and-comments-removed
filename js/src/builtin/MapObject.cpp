@@ -1334,7 +1334,11 @@ return
 false
 ;
 }
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 proto
 (
 cx
@@ -6250,7 +6254,11 @@ return
 false
 ;
 }
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 proto
 (
 cx

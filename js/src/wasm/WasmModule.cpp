@@ -1602,7 +1602,11 @@ vp
 )
 const
 {
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 result
 (
 cx

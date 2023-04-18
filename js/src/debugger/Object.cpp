@@ -7620,7 +7620,11 @@ result
 )
 override
 {
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 record
 (
 cx
@@ -7896,7 +7900,11 @@ setIfNotNull
 JSContext
 *
 cx
-HandlePlainObject
+Handle
+<
+PlainObject
+*
+>
 obj
 Handle
 <

@@ -3481,7 +3481,11 @@ report
 notes
 )
 {
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 noteObj
 (
 cx

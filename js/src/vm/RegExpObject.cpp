@@ -3810,7 +3810,11 @@ getDenseInitializedLength
 /
 2
 ;
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 templateObject
 (
 cx

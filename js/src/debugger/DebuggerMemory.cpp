@@ -1096,7 +1096,11 @@ i
 +
 )
 {
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 obj
 (
 cx

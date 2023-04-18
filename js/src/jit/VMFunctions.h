@@ -910,7 +910,11 @@ MutatePrototype
 JSContext
 *
 cx
-HandlePlainObject
+Handle
+<
+PlainObject
+*
+>
 obj
 HandleValue
 value

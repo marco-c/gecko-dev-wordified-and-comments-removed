@@ -4569,7 +4569,11 @@ AddDataPropertyToPlainObject
 JSContext
 *
 cx
-HandlePlainObject
+Handle
+<
+PlainObject
+*
+>
 obj
 HandleId
 id

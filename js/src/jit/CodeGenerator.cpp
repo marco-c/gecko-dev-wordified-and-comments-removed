@@ -41119,7 +41119,11 @@ PlainObject
 (
 JSContext
 *
-HandlePlainObject
+Handle
+<
+PlainObject
+*
+>
 )
 ;
 callVM
@@ -42953,7 +42957,11 @@ bool
 JSContext
 *
 cx
-HandlePlainObject
+Handle
+<
+PlainObject
+*
+>
 obj
 HandleValue
 value

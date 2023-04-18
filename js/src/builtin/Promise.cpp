@@ -14872,7 +14872,11 @@ return
 true
 ;
 }
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 obj
 (
 cx

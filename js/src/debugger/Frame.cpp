@@ -5272,7 +5272,11 @@ if
 bindings
 )
 {
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 nenv
 (
 cx
