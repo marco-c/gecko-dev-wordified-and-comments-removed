@@ -22,11 +22,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 gCertDB
 :
@@ -98,6 +104,8 @@ resolve
 =
 >
 {
+lazy
+.
 gCertDB
 .
 openSignedAppFileAsync
