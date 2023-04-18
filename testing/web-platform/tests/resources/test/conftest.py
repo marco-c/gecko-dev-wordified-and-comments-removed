@@ -220,15 +220,16 @@ mode
 def
 pytest_collect_file
 (
+file_path
 path
 parent
 )
 :
     
 if
-path
+file_path
 .
-ext
+suffix
 .
 lower
 (
@@ -253,7 +254,7 @@ relpath
 (
 str
 (
-path
+file_path
 )
 HERE
 )
@@ -314,7 +315,7 @@ filename
 =
 str
 (
-path
+file_path
 )
 test_type
 =
@@ -327,7 +328,7 @@ HTMLItem
 parent
 str
 (
-path
+file_path
 )
 test_type
 )

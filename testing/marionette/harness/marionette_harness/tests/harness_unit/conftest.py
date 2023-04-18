@@ -529,7 +529,7 @@ has_crashed
 in
 request
 .
-funcargnames
+fixturenames
 :
         
 marionette
