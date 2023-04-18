@@ -1556,9 +1556,9 @@ under
 [
 remote
 /
-marionette
-/
 doc
+/
+marionette
 ]
 and
 [
@@ -1720,9 +1720,9 @@ required
 [
 remote
 /
-marionette
-/
 doc
+/
+marionette
 ]
 :
 https

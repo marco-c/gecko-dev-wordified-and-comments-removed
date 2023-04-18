@@ -217,7 +217,7 @@ true
 -
 remote
 -
-debuggiing
+debugging
 -
 port
 Logging
