@@ -73,7 +73,10 @@ js
 class
 HashableValue
 {
-PreBarrieredValue
+PreBarriered
+<
+Value
+>
 value
 ;
 public

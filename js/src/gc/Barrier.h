@@ -4952,14 +4952,6 @@ JitCode
 ;
 }
 using
-PreBarrieredValue
-=
-PreBarriered
-<
-Value
->
-;
-using
 GCPtrAtom
 =
 GCPtr

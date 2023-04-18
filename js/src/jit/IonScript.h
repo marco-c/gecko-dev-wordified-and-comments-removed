@@ -448,7 +448,10 @@ uint32_t
 ;
 public
 :
-PreBarrieredValue
+PreBarriered
+<
+Value
+>
 *
 constants
 (
@@ -457,7 +460,10 @@ constants
 return
 offsetToPointer
 <
-PreBarrieredValue
+PreBarriered
+<
+Value
+>
 >
 (
 constantTableOffset
@@ -475,7 +481,10 @@ const
 return
 numElements
 <
-PreBarrieredValue
+PreBarriered
+<
+Value
+>
 >
 (
 constantTableOffset
@@ -1424,7 +1433,10 @@ this
 )
 ;
 }
-PreBarrieredValue
+PreBarriered
+<
+Value
+>
 &
 getConstant
 (
