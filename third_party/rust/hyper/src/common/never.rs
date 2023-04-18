@@ -21,6 +21,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 enum
 Never
 {

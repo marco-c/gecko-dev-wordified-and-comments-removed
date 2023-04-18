@@ -1,4 +1,13 @@
 use
+std
+:
+:
+pin
+:
+:
+Pin
+;
+use
 auxiliary_macro
 :
 :
@@ -13,15 +22,6 @@ pin_project
 pinned_drop
 UnsafeUnpin
 }
-;
-use
-std
-:
-:
-pin
-:
-:
-Pin
 ;
 #
 [
@@ -41,7 +41,7 @@ A
 [
 pin
 ]
-field
+f
 :
 u32
 }
@@ -66,7 +66,7 @@ C
 [
 pin
 ]
-field
+f
 :
 u32
 }
@@ -98,7 +98,7 @@ D
 [
 pin
 ]
-field
+f
 :
 u32
 }

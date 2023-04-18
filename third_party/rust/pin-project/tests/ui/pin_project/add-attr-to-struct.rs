@@ -1,4 +1,13 @@
 use
+std
+:
+:
+marker
+:
+:
+PhantomPinned
+;
+use
 auxiliary_macro
 :
 :
@@ -9,15 +18,6 @@ pin_project
 :
 :
 pin_project
-;
-use
-std
-:
-:
-marker
-:
-:
-PhantomPinned
 ;
 #
 [
@@ -37,7 +37,7 @@ Foo
 [
 pin
 ]
-field
+f
 :
 PhantomPinned
 }
@@ -59,7 +59,7 @@ Bar
 [
 pin
 ]
-field
+f
 :
 PhantomPinned
 }

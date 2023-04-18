@@ -1,5 +1,5 @@
 use
-futures
+futures_util
 :
 :
 future
@@ -94,7 +94,7 @@ unwrap_or_else
 |
 |
 {
-log
+tracing
 :
 :
 debug
@@ -136,7 +136,7 @@ map_err
 e
 |
 {
-log
+tracing
 :
 :
 debug

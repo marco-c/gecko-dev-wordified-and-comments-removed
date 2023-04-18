@@ -115,8 +115,13 @@ Ok
 (
 first
 .
-to_bytes
+copy_to_bytes
 (
+first
+.
+remaining
+(
+)
 )
 )
 ;

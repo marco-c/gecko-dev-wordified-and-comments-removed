@@ -1,10 +1,4 @@
 use
-pin_project
-:
-:
-pin_project
-;
-use
 std
 :
 :
@@ -12,6 +6,12 @@ pin
 :
 :
 Pin
+;
+use
+pin_project
+:
+:
+pin_project
 ;
 #
 [
@@ -42,7 +42,7 @@ any
 pin
 )
 ]
-inner
+f
 :
 T
 }
@@ -78,7 +78,7 @@ any
 pin
 )
 ]
-inner
+f
 :
 T
 }
@@ -93,7 +93,7 @@ x
 =
 Foo
 {
-inner
+f
 :
 0_u8
 }
@@ -127,7 +127,7 @@ u8
 =
 x
 .
-inner
+f
 ;
 let
 mut
@@ -135,7 +135,7 @@ x
 =
 Bar
 {
-inner
+f
 :
 0_u8
 }
@@ -166,6 +166,6 @@ u8
 =
 x
 .
-inner
+f
 ;
 }

@@ -7,12 +7,6 @@ marker_trait_attr
 )
 ]
 use
-pin_project
-:
-:
-pin_project
-;
-use
 std
 :
 :
@@ -20,6 +14,12 @@ marker
 :
 :
 PhantomPinned
+;
+use
+pin_project
+:
+:
+pin_project
 ;
 #
 [
@@ -35,7 +35,7 @@ T
 [
 pin
 ]
-x
+f
 :
 T
 }

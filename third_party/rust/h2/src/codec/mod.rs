@@ -16,7 +16,6 @@ error
 :
 :
 {
-RecvError
 SendError
 UserError
 }
@@ -51,6 +50,15 @@ self
 Data
 Frame
 }
+;
+use
+crate
+:
+:
+proto
+:
+:
+Error
 ;
 use
 bytes
@@ -757,7 +765,7 @@ Item
 Result
 <
 Frame
-RecvError
+Error
 >
 ;
 fn

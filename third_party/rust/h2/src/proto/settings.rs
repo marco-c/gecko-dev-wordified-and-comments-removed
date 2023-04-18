@@ -5,10 +5,7 @@ crate
 codec
 :
 :
-{
-RecvError
 UserError
-}
 ;
 use
 crate
@@ -183,7 +180,7 @@ Result
 <
 (
 )
-RecvError
+Error
 >
 where
 T
@@ -224,7 +221,7 @@ local
 =
 >
 {
-log
+tracing
 :
 :
 debug
@@ -344,10 +341,10 @@ ack
 ;
 Err
 (
-RecvError
+Error
 :
 :
-Connection
+library_go_away
 (
 Reason
 :
@@ -464,7 +461,7 @@ Synced
 =
 >
 {
-log
+tracing
 :
 :
 trace
@@ -553,7 +550,7 @@ Result
 <
 (
 )
-RecvError
+Error
 >
 >
 where
@@ -638,7 +635,7 @@ frame
 "
 )
 ;
-log
+tracing
 :
 :
 trace
@@ -652,6 +649,14 @@ applying
 settings
 "
 )
+;
+streams
+.
+apply_remote_settings
+(
+settings
+)
+?
 ;
 if
 let
@@ -699,14 +704,6 @@ usize
 )
 ;
 }
-streams
-.
-apply_remote_settings
-(
-settings
-)
-?
-;
 }
 self
 .
@@ -775,7 +772,7 @@ frame
 "
 )
 ;
-log
+tracing
 :
 :
 trace

@@ -79,6 +79,7 @@ streams
 :
 :
 {
+DynStreams
 OpaqueStreamRef
 StreamRef
 Streams
@@ -221,11 +222,19 @@ initial_max_send_streams
 :
 usize
 pub
+local_max_buffer_size
+:
+usize
+pub
 local_next_stream_id
 :
 StreamId
 pub
 local_push_enabled
+:
+bool
+pub
+extended_connect_protocol_enabled
 :
 bool
 pub

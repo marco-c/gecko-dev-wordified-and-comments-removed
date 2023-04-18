@@ -22,7 +22,7 @@ packed
 )
 ]
 struct
-Foo
+S
 {
 #
 [
@@ -40,7 +40,7 @@ any
 [
 pin
 ]
-field
+f
 :
 u32
 #
@@ -56,7 +56,7 @@ any
 [
 pin
 ]
-field
+f
 :
 u8
 }

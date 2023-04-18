@@ -56,6 +56,7 @@ io
 {
 AsyncRead
 AsyncWrite
+ReadBuf
 }
 ;
 pub
@@ -164,9 +165,11 @@ buf
 :
 &
 mut
-[
-u8
-]
+ReadBuf
+<
+'
+_
+>
 )
 -
 >
@@ -177,7 +180,8 @@ io
 :
 Result
 <
-usize
+(
+)
 >
 >
 {
