@@ -1,3 +1,9 @@
+from
+__future__
+import
+absolute_import
+division
+print_function
 import
 abc
 import
@@ -9,32 +15,16 @@ re
 import
 warnings
 from
-typing
+.
+_compat
 import
-(
-    
-Callable
-    
-Dict
-    
-Iterable
-    
-Iterator
-    
-List
-    
-Optional
-    
-Pattern
-    
-Set
-    
-Tuple
-    
-TypeVar
-    
-Union
-)
+string_types
+with_metaclass
+from
+.
+_typing
+import
+TYPE_CHECKING
 from
 .
 utils
@@ -47,6 +37,22 @@ import
 LegacyVersion
 Version
 parse
+if
+TYPE_CHECKING
+:
+    
+from
+typing
+import
+Callable
+Dict
+Iterable
+Iterator
+List
+Optional
+Tuple
+Union
+    
 ParsedVersion
 =
 Union
@@ -54,6 +60,7 @@ Union
 Version
 LegacyVersion
 ]
+    
 UnparsedVersion
 =
 Union
@@ -62,17 +69,7 @@ Version
 LegacyVersion
 str
 ]
-VersionTypeVar
-=
-TypeVar
-(
-"
-VersionTypeVar
-"
-bound
-=
-UnparsedVersion
-)
+    
 CallableOperator
 =
 Callable
@@ -113,11 +110,13 @@ PEP
 class
 BaseSpecifier
 (
-metaclass
-=
+with_metaclass
+(
 abc
 .
 ABCMeta
+object
+)
 )
 :
     
@@ -130,9 +129,6 @@ __str__
 (
 self
 )
--
->
-str
 :
         
 "
@@ -173,9 +169,6 @@ __hash__
 (
 self
 )
--
->
-int
 :
         
 "
@@ -206,12 +199,7 @@ __eq__
 (
 self
 other
-:
-object
 )
--
->
-bool
 :
         
 "
@@ -248,12 +236,7 @@ __ne__
 (
 self
 other
-:
-object
 )
--
->
-bool
 :
         
 "
@@ -291,12 +274,6 @@ prereleases
 (
 self
 )
--
->
-Optional
-[
-bool
-]
 :
         
 "
@@ -334,12 +311,7 @@ prereleases
 (
 self
 value
-:
-bool
 )
--
->
-None
 :
         
 "
@@ -377,20 +349,10 @@ contains
 (
 self
 item
-:
-str
 prereleases
-:
-Optional
-[
-bool
-]
 =
 None
 )
--
->
-bool
 :
         
 "
@@ -420,30 +382,12 @@ abstractmethod
 def
 filter
 (
-        
 self
 iterable
-:
-Iterable
-[
-VersionTypeVar
-]
 prereleases
-:
-Optional
-[
-bool
-]
 =
 None
-    
 )
--
->
-Iterable
-[
-VersionTypeVar
-]
 :
         
 "
@@ -486,45 +430,22 @@ BaseSpecifier
 :
     
 _operators
-:
-Dict
-[
-str
-str
-]
 =
 {
 }
-    
-_regex
-:
-Pattern
-[
-str
-]
     
 def
 __init__
 (
 self
 spec
-:
-str
 =
 "
 "
 prereleases
-:
-Optional
-[
-bool
-]
 =
 None
 )
--
->
-None
 :
         
 match
@@ -546,28 +467,26 @@ match
 raise
 InvalidSpecifier
 (
-f
 "
 Invalid
 specifier
 :
 '
 {
-spec
+0
 }
 '
 "
+.
+format
+(
+spec
+)
 )
         
 self
 .
 _spec
-:
-Tuple
-[
-str
-str
-]
 =
 (
             
@@ -610,27 +529,28 @@ __repr__
 (
 self
 )
--
->
-str
 :
         
 pre
 =
 (
             
-f
 "
 prereleases
 =
 {
-self
-.
-prereleases
+0
 !
 r
 }
 "
+.
+format
+(
+self
+.
+prereleases
+)
             
 if
 self
@@ -650,13 +570,16 @@ return
 "
 <
 {
+0
 }
 (
 {
+1
 !
 r
 }
 {
+2
 }
 )
 >
@@ -681,16 +604,15 @@ __str__
 (
 self
 )
--
->
-str
 :
         
 return
 "
 {
+0
 }
 {
+1
 }
 "
 .
@@ -709,13 +631,6 @@ _canonical_spec
 (
 self
 )
--
->
-Tuple
-[
-str
-str
-]
 :
         
 return
@@ -740,9 +655,6 @@ __hash__
 (
 self
 )
--
->
-int
 :
         
 return
@@ -758,19 +670,14 @@ __eq__
 (
 self
 other
-:
-object
 )
--
->
-bool
 :
         
 if
 isinstance
 (
 other
-str
+string_types
 )
 :
             
@@ -825,19 +732,14 @@ __ne__
 (
 self
 other
-:
-object
 )
--
->
-bool
 :
         
 if
 isinstance
 (
 other
-str
+string_types
 )
 :
             
@@ -892,34 +794,31 @@ _get_operator
 (
 self
 op
-:
-str
 )
--
->
-CallableOperator
 :
         
 operator_callable
-:
-CallableOperator
 =
 getattr
 (
             
 self
-f
 "
 _compare_
 {
+0
+}
+"
+.
+format
+(
 self
 .
 _operators
 [
 op
 ]
-}
-"
+)
         
 )
         
@@ -931,12 +830,7 @@ _coerce_version
 (
 self
 version
-:
-UnparsedVersion
 )
--
->
-ParsedVersion
 :
         
 if
@@ -968,9 +862,6 @@ operator
 (
 self
 )
--
->
-str
 :
         
 return
@@ -988,9 +879,6 @@ version
 (
 self
 )
--
->
-str
 :
         
 return
@@ -1008,12 +896,6 @@ prereleases
 (
 self
 )
--
->
-Optional
-[
-bool
-]
 :
         
 return
@@ -1030,12 +912,7 @@ prereleases
 (
 self
 value
-:
-bool
 )
--
->
-None
 :
         
 self
@@ -1049,12 +926,7 @@ __contains__
 (
 self
 item
-:
-str
 )
--
->
-bool
 :
         
 return
@@ -1068,24 +940,12 @@ item
 def
 contains
 (
-        
 self
 item
-:
-UnparsedVersion
 prereleases
-:
-Optional
-[
-bool
-]
 =
 None
-    
 )
--
->
-bool
 :
         
 if
@@ -1122,8 +982,6 @@ return
 False
         
 operator_callable
-:
-CallableOperator
 =
 self
 .
@@ -1146,30 +1004,12 @@ version
 def
 filter
 (
-        
 self
 iterable
-:
-Iterable
-[
-VersionTypeVar
-]
 prereleases
-:
-Optional
-[
-bool
-]
 =
 None
-    
 )
--
->
-Iterable
-[
-VersionTypeVar
-]
 :
         
 yielded
@@ -1493,27 +1333,19 @@ __init__
 (
 self
 spec
-:
-str
 =
 "
 "
 prereleases
-:
-Optional
-[
-bool
-]
 =
 None
 )
--
->
-None
 :
         
 super
 (
+LegacySpecifier
+self
 )
 .
 __init__
@@ -1557,12 +1389,7 @@ _coerce_version
 (
 self
 version
-:
-UnparsedVersion
 )
--
->
-LegacyVersion
 :
         
 if
@@ -1592,15 +1419,8 @@ _compare_equal
 (
 self
 prospective
-:
-LegacyVersion
 spec
-:
-str
 )
--
->
-bool
 :
         
 return
@@ -1619,15 +1439,8 @@ _compare_not_equal
 (
 self
 prospective
-:
-LegacyVersion
 spec
-:
-str
 )
--
->
-bool
 :
         
 return
@@ -1646,15 +1459,8 @@ _compare_less_than_equal
 (
 self
 prospective
-:
-LegacyVersion
 spec
-:
-str
 )
--
->
-bool
 :
         
 return
@@ -1671,19 +1477,10 @@ spec
 def
 _compare_greater_than_equal
 (
-        
 self
 prospective
-:
-LegacyVersion
 spec
-:
-str
-    
 )
--
->
-bool
 :
         
 return
@@ -1702,15 +1499,8 @@ _compare_less_than
 (
 self
 prospective
-:
-LegacyVersion
 spec
-:
-str
 )
--
->
-bool
 :
         
 return
@@ -1728,15 +1518,8 @@ _compare_greater_than
 (
 self
 prospective
-:
-LegacyVersion
 spec
-:
-str
 )
--
->
-bool
 :
         
 return
@@ -1753,32 +1536,7 @@ _require_version_compare
 (
     
 fn
-:
-Callable
-[
-[
-"
-Specifier
-"
-ParsedVersion
-str
-]
-bool
-]
 )
--
->
-Callable
-[
-[
-"
-Specifier
-"
-ParsedVersion
-str
-]
-bool
-]
 :
     
 functools
@@ -1792,20 +1550,9 @@ def
 wrapped
 (
 self
-:
-"
-Specifier
-"
 prospective
-:
-ParsedVersion
 spec
-:
-str
 )
--
->
-bool
 :
         
 if
@@ -2947,15 +2694,8 @@ _compare_compatible
 (
 self
 prospective
-:
-ParsedVersion
 spec
-:
-str
 )
--
->
-bool
 :
         
 prefix
@@ -2969,16 +2709,44 @@ join
             
 list
 (
+                
 itertools
 .
 takewhile
 (
-_is_not_suffix
+                    
+lambda
+x
+:
+(
+not
+x
+.
+startswith
+(
+"
+post
+"
+)
+and
+not
+x
+.
+startswith
+(
+"
+dev
+"
+)
+)
+                    
 _version_split
 (
 spec
 )
+                
 )
+            
 )
 [
 :
@@ -3034,15 +2802,8 @@ _compare_equal
 (
 self
 prospective
-:
-ParsedVersion
 spec
-:
-str
 )
--
->
-bool
 :
         
 if
@@ -3155,15 +2916,8 @@ _compare_not_equal
 (
 self
 prospective
-:
-ParsedVersion
 spec
-:
-str
 )
--
->
-bool
 :
         
 return
@@ -3183,15 +2937,8 @@ _compare_less_than_equal
 (
 self
 prospective
-:
-ParsedVersion
 spec
-:
-str
 )
--
->
-bool
 :
         
 return
@@ -3213,19 +2960,10 @@ _require_version_compare
 def
 _compare_greater_than_equal
 (
-        
 self
 prospective
-:
-ParsedVersion
 spec
-:
-str
-    
 )
--
->
-bool
 :
         
 return
@@ -3249,15 +2987,8 @@ _compare_less_than
 (
 self
 prospective
-:
-ParsedVersion
 spec_str
-:
-str
 )
--
->
-bool
 :
         
 spec
@@ -3318,15 +3049,8 @@ _compare_greater_than
 (
 self
 prospective
-:
-ParsedVersion
 spec_str
-:
-str
 )
--
->
-bool
 :
         
 spec
@@ -3414,15 +3138,8 @@ _compare_arbitrary
 (
 self
 prospective
-:
-Version
 spec
-:
-str
 )
--
->
-bool
 :
         
 return
@@ -3452,9 +3169,6 @@ prereleases
 (
 self
 )
--
->
-bool
 :
         
 if
@@ -3559,12 +3273,7 @@ prereleases
 (
 self
 value
-:
-bool
 )
--
->
-None
 :
         
 self
@@ -3614,23 +3323,10 @@ def
 _version_split
 (
 version
-:
-str
 )
--
->
-List
-[
-str
-]
 :
     
 result
-:
-List
-[
-str
-]
 =
 [
 ]
@@ -3685,79 +3381,11 @@ item
 return
 result
 def
-_is_not_suffix
-(
-segment
-:
-str
-)
--
->
-bool
-:
-    
-return
-not
-any
-(
-        
-segment
-.
-startswith
-(
-prefix
-)
-for
-prefix
-in
-(
-"
-dev
-"
-"
-a
-"
-"
-b
-"
-"
-rc
-"
-"
-post
-"
-)
-    
-)
-def
 _pad_version
 (
 left
-:
-List
-[
-str
-]
 right
-:
-List
-[
-str
-]
 )
--
->
-Tuple
-[
-List
-[
-str
-]
-List
-[
-str
-]
-]
 :
     
 left_split
@@ -3945,27 +3573,15 @@ BaseSpecifier
 def
 __init__
 (
-        
 self
 specifiers
-:
-str
 =
 "
 "
 prereleases
-:
-Optional
-[
-bool
-]
 =
 None
-    
 )
--
->
-None
 :
         
 split_specifiers
@@ -3995,11 +3611,6 @@ strip
 ]
         
 parsed
-:
-Set
-[
-_IndividualSpecifier
-]
 =
 set
 (
@@ -4058,27 +3669,28 @@ __repr__
 (
 self
 )
--
->
-str
 :
         
 pre
 =
 (
             
-f
 "
 prereleases
 =
 {
-self
-.
-prereleases
+0
 !
 r
 }
 "
+.
+format
+(
+self
+.
+prereleases
+)
             
 if
 self
@@ -4100,10 +3712,12 @@ return
 SpecifierSet
 (
 {
+0
 !
 r
 }
 {
+1
 }
 )
 >
@@ -4123,9 +3737,6 @@ __str__
 (
 self
 )
--
->
-str
 :
         
 return
@@ -4154,9 +3765,6 @@ __hash__
 (
 self
 )
--
->
-int
 :
         
 return
@@ -4172,27 +3780,14 @@ __and__
 (
 self
 other
-:
-Union
-[
-"
-SpecifierSet
-"
-str
-]
 )
--
->
-"
-SpecifierSet
-"
 :
         
 if
 isinstance
 (
 other
-str
+string_types
 )
 :
             
@@ -4334,12 +3929,7 @@ __eq__
 (
 self
 other
-:
-object
 )
--
->
-bool
 :
         
 if
@@ -4347,7 +3937,7 @@ isinstance
 (
 other
 (
-str
+string_types
 _IndividualSpecifier
 )
 )
@@ -4390,12 +3980,7 @@ __ne__
 (
 self
 other
-:
-object
 )
--
->
-bool
 :
         
 if
@@ -4403,7 +3988,7 @@ isinstance
 (
 other
 (
-str
+string_types
 _IndividualSpecifier
 )
 )
@@ -4446,9 +4031,6 @@ __len__
 (
 self
 )
--
->
-int
 :
         
 return
@@ -4464,12 +4046,6 @@ __iter__
 (
 self
 )
--
->
-Iterator
-[
-_IndividualSpecifier
-]
 :
         
 return
@@ -4487,12 +4063,6 @@ prereleases
 (
 self
 )
--
->
-Optional
-[
-bool
-]
 :
         
 if
@@ -4542,12 +4112,7 @@ prereleases
 (
 self
 value
-:
-bool
 )
--
->
-None
 :
         
 self
@@ -4561,12 +4126,7 @@ __contains__
 (
 self
 item
-:
-UnparsedVersion
 )
--
->
-bool
 :
         
 return
@@ -4580,24 +4140,12 @@ item
 def
 contains
 (
-        
 self
 item
-:
-UnparsedVersion
 prereleases
-:
-Optional
-[
-bool
-]
 =
 None
-    
 )
--
->
-bool
 :
         
 if
@@ -4668,28 +4216,14 @@ filter
 (
         
 self
+        
 iterable
-:
-Iterable
-[
-VersionTypeVar
-]
+        
 prereleases
-:
-Optional
-[
-bool
-]
 =
 None
     
 )
--
->
-Iterable
-[
-VersionTypeVar
-]
 :
         
 if
@@ -4740,35 +4274,13 @@ else
 :
             
 filtered
-:
-List
-[
-VersionTypeVar
-]
 =
 [
 ]
             
 found_prereleases
-:
-List
-[
-VersionTypeVar
-]
 =
 [
-]
-            
-item
-:
-UnparsedVersion
-            
-parsed_version
-:
-Union
-[
-Version
-LegacyVersion
 ]
             
 for

@@ -1,3 +1,9 @@
+from
+__future__
+import
+absolute_import
+division
+print_function
 import
 collections
 import
@@ -6,6 +12,21 @@ import
 re
 import
 warnings
+from
+.
+_structures
+import
+Infinity
+NegativeInfinity
+from
+.
+_typing
+import
+TYPE_CHECKING
+if
+TYPE_CHECKING
+:
+    
 from
 typing
 import
@@ -16,14 +37,134 @@ Optional
 SupportsInt
 Tuple
 Union
+    
 from
 .
 _structures
 import
-Infinity
 InfinityType
-NegativeInfinity
 NegativeInfinityType
+    
+InfiniteTypes
+=
+Union
+[
+InfinityType
+NegativeInfinityType
+]
+    
+PrePostDevType
+=
+Union
+[
+InfiniteTypes
+Tuple
+[
+str
+int
+]
+]
+    
+SubLocalType
+=
+Union
+[
+InfiniteTypes
+int
+str
+]
+    
+LocalType
+=
+Union
+[
+        
+NegativeInfinityType
+        
+Tuple
+[
+            
+Union
+[
+                
+SubLocalType
+                
+Tuple
+[
+SubLocalType
+str
+]
+                
+Tuple
+[
+NegativeInfinityType
+SubLocalType
+]
+            
+]
+            
+.
+.
+.
+        
+]
+    
+]
+    
+CmpKey
+=
+Tuple
+[
+        
+int
+Tuple
+[
+int
+.
+.
+.
+]
+PrePostDevType
+PrePostDevType
+PrePostDevType
+LocalType
+    
+]
+    
+LegacyCmpKey
+=
+Tuple
+[
+int
+Tuple
+[
+str
+.
+.
+.
+]
+]
+    
+VersionComparisonMethod
+=
+Callable
+[
+        
+[
+Union
+[
+CmpKey
+LegacyCmpKey
+]
+Union
+[
+CmpKey
+LegacyCmpKey
+]
+]
+bool
+    
+]
 __all__
 =
 [
@@ -42,117 +183,6 @@ InvalidVersion
 "
 VERSION_PATTERN
 "
-]
-InfiniteTypes
-=
-Union
-[
-InfinityType
-NegativeInfinityType
-]
-PrePostDevType
-=
-Union
-[
-InfiniteTypes
-Tuple
-[
-str
-int
-]
-]
-SubLocalType
-=
-Union
-[
-InfiniteTypes
-int
-str
-]
-LocalType
-=
-Union
-[
-    
-NegativeInfinityType
-    
-Tuple
-[
-        
-Union
-[
-            
-SubLocalType
-            
-Tuple
-[
-SubLocalType
-str
-]
-            
-Tuple
-[
-NegativeInfinityType
-SubLocalType
-]
-        
-]
-        
-.
-.
-.
-    
-]
-]
-CmpKey
-=
-Tuple
-[
-    
-int
-Tuple
-[
-int
-.
-.
-.
-]
-PrePostDevType
-PrePostDevType
-PrePostDevType
-LocalType
-]
-LegacyCmpKey
-=
-Tuple
-[
-int
-Tuple
-[
-str
-.
-.
-.
-]
-]
-VersionComparisonMethod
-=
-Callable
-[
-    
-[
-Union
-[
-CmpKey
-LegacyCmpKey
-]
-Union
-[
-CmpKey
-LegacyCmpKey
-]
-]
-bool
 ]
 _Version
 =
@@ -189,20 +219,7 @@ def
 parse
 (
 version
-:
-str
 )
--
->
-Union
-[
-"
-LegacyVersion
-"
-"
-Version
-"
-]
 :
     
 "
@@ -301,24 +318,20 @@ PEP
 "
 class
 _BaseVersion
+(
+object
+)
 :
     
 _key
-:
-Union
-[
-CmpKey
-LegacyCmpKey
-]
+=
+None
     
 def
 __hash__
 (
 self
 )
--
->
-int
 :
         
 return
@@ -334,14 +347,7 @@ __lt__
 (
 self
 other
-:
-"
-_BaseVersion
-"
 )
--
->
-bool
 :
         
 if
@@ -370,14 +376,7 @@ __le__
 (
 self
 other
-:
-"
-_BaseVersion
-"
 )
--
->
-bool
 :
         
 if
@@ -407,12 +406,7 @@ __eq__
 (
 self
 other
-:
-object
 )
--
->
-bool
 :
         
 if
@@ -442,14 +436,7 @@ __ge__
 (
 self
 other
-:
-"
-_BaseVersion
-"
 )
--
->
-bool
 :
         
 if
@@ -479,14 +466,7 @@ __gt__
 (
 self
 other
-:
-"
-_BaseVersion
-"
 )
--
->
-bool
 :
         
 if
@@ -515,12 +495,7 @@ __ne__
 (
 self
 other
-:
-object
 )
--
->
-bool
 :
         
 if
@@ -556,12 +531,7 @@ __init__
 (
 self
 version
-:
-str
 )
--
->
-None
 :
         
 self
@@ -619,9 +589,6 @@ __str__
 (
 self
 )
--
->
-str
 :
         
 return
@@ -634,25 +601,30 @@ __repr__
 (
 self
 )
--
->
-str
 :
         
 return
-f
 "
 <
 LegacyVersion
 (
-'
 {
-self
+0
 }
-'
 )
 >
 "
+.
+format
+(
+repr
+(
+str
+(
+self
+)
+)
+)
     
 property
     
@@ -661,9 +633,6 @@ public
 (
 self
 )
--
->
-str
 :
         
 return
@@ -678,9 +647,6 @@ base_version
 (
 self
 )
--
->
-str
 :
         
 return
@@ -695,9 +661,6 @@ epoch
 (
 self
 )
--
->
-int
 :
         
 return
@@ -711,9 +674,6 @@ release
 (
 self
 )
--
->
-None
 :
         
 return
@@ -726,9 +686,6 @@ pre
 (
 self
 )
--
->
-None
 :
         
 return
@@ -741,9 +698,6 @@ post
 (
 self
 )
--
->
-None
 :
         
 return
@@ -756,9 +710,6 @@ dev
 (
 self
 )
--
->
-None
 :
         
 return
@@ -771,9 +722,6 @@ local
 (
 self
 )
--
->
-None
 :
         
 return
@@ -786,9 +734,6 @@ is_prerelease
 (
 self
 )
--
->
-bool
 :
         
 return
@@ -801,9 +746,6 @@ is_postrelease
 (
 self
 )
--
->
-bool
 :
         
 return
@@ -816,9 +758,6 @@ is_devrelease
 (
 self
 )
--
->
-bool
 :
         
 return
@@ -901,15 +840,7 @@ def
 _parse_version_parts
 (
 s
-:
-str
 )
--
->
-Iterator
-[
-str
-]
 :
     
 for
@@ -986,12 +917,7 @@ def
 _legacy_cmpkey
 (
 version
-:
-str
 )
--
->
-LegacyCmpKey
 :
     
 epoch
@@ -1000,11 +926,6 @@ epoch
 1
     
 parts
-:
-List
-[
-str
-]
 =
 [
 ]
@@ -1464,12 +1385,7 @@ __init__
 (
 self
 version
-:
-str
 )
--
->
-None
 :
         
 match
@@ -1491,17 +1407,21 @@ match
 raise
 InvalidVersion
 (
-f
 "
 Invalid
 version
 :
 '
 {
-version
+0
 }
 '
 "
+.
+format
+(
+version
+)
 )
         
 self
@@ -1707,34 +1627,36 @@ __repr__
 (
 self
 )
--
->
-str
 :
         
 return
-f
 "
 <
 Version
 (
-'
 {
-self
+0
 }
-'
 )
 >
 "
+.
+format
+(
+repr
+(
+str
+(
+self
+)
+)
+)
     
 def
 __str__
 (
 self
 )
--
->
-str
 :
         
 parts
@@ -1755,15 +1677,19 @@ parts
 .
 append
 (
-f
 "
 {
-self
-.
-epoch
+0
 }
 !
 "
+.
+format
+(
+self
+.
+epoch
+)
 )
         
 parts
@@ -1833,16 +1759,20 @@ parts
 .
 append
 (
-f
 "
 .
 post
 {
+0
+}
+"
+.
+format
+(
 self
 .
 post
-}
-"
+)
 )
         
 if
@@ -1858,16 +1788,20 @@ parts
 .
 append
 (
-f
 "
 .
 dev
 {
+0
+}
+"
+.
+format
+(
 self
 .
 dev
-}
-"
+)
 )
         
 if
@@ -1883,15 +1817,19 @@ parts
 .
 append
 (
-f
 "
 +
 {
+0
+}
+"
+.
+format
+(
 self
 .
 local
-}
-"
+)
 )
         
 return
@@ -1910,14 +1848,9 @@ epoch
 (
 self
 )
--
->
-int
 :
         
 _epoch
-:
-int
 =
 self
 .
@@ -1935,26 +1868,9 @@ release
 (
 self
 )
--
->
-Tuple
-[
-int
-.
-.
-.
-]
 :
         
 _release
-:
-Tuple
-[
-int
-.
-.
-.
-]
 =
 self
 .
@@ -1972,28 +1888,9 @@ pre
 (
 self
 )
--
->
-Optional
-[
-Tuple
-[
-str
-int
-]
-]
 :
         
 _pre
-:
-Optional
-[
-Tuple
-[
-str
-int
-]
-]
 =
 self
 .
@@ -2011,12 +1908,6 @@ post
 (
 self
 )
--
->
-Optional
-[
-int
-]
 :
         
 return
@@ -2044,12 +1935,6 @@ dev
 (
 self
 )
--
->
-Optional
-[
-int
-]
 :
         
 return
@@ -2077,12 +1962,6 @@ local
 (
 self
 )
--
->
-Optional
-[
-str
-]
 :
         
 if
@@ -2127,9 +2006,6 @@ public
 (
 self
 )
--
->
-str
 :
         
 return
@@ -2156,9 +2032,6 @@ base_version
 (
 self
 )
--
->
-str
 :
         
 parts
@@ -2179,15 +2052,19 @@ parts
 .
 append
 (
-f
 "
 {
-self
-.
-epoch
+0
 }
 !
 "
+.
+format
+(
+self
+.
+epoch
+)
 )
         
 parts
@@ -2229,9 +2106,6 @@ is_prerelease
 (
 self
 )
--
->
-bool
 :
         
 return
@@ -2256,9 +2130,6 @@ is_postrelease
 (
 self
 )
--
->
-bool
 :
         
 return
@@ -2276,9 +2147,6 @@ is_devrelease
 (
 self
 )
--
->
-bool
 :
         
 return
@@ -2296,9 +2164,6 @@ major
 (
 self
 )
--
->
-int
 :
         
 return
@@ -2328,9 +2193,6 @@ minor
 (
 self
 )
--
->
-int
 :
         
 return
@@ -2360,9 +2222,6 @@ micro
 (
 self
 )
--
->
-int
 :
         
 return
@@ -2389,27 +2248,9 @@ _parse_letter_version
 (
     
 letter
-:
-str
+    
 number
-:
-Union
-[
-str
-bytes
-SupportsInt
-]
 )
--
->
-Optional
-[
-Tuple
-[
-str
-int
-]
-]
 :
     
 if
@@ -2554,15 +2395,7 @@ def
 _parse_local_version
 (
 local
-:
-str
 )
--
->
-Optional
-[
-LocalType
-]
 :
     
 "
@@ -2645,65 +2478,17 @@ _cmpkey
 (
     
 epoch
-:
-int
     
 release
-:
-Tuple
-[
-int
-.
-.
-.
-]
     
 pre
-:
-Optional
-[
-Tuple
-[
-str
-int
-]
-]
     
 post
-:
-Optional
-[
-Tuple
-[
-str
-int
-]
-]
     
 dev
-:
-Optional
-[
-Tuple
-[
-str
-int
-]
-]
     
 local
-:
-Optional
-[
-Tuple
-[
-SubLocalType
-]
-]
 )
--
->
-CmpKey
 :
     
 _release
@@ -2752,8 +2537,6 @@ None
 :
         
 _pre
-:
-PrePostDevType
 =
 NegativeInfinity
     
@@ -2781,8 +2564,6 @@ None
 :
         
 _post
-:
-PrePostDevType
 =
 NegativeInfinity
     
@@ -2800,8 +2581,6 @@ None
 :
         
 _dev
-:
-PrePostDevType
 =
 Infinity
     
@@ -2819,8 +2598,6 @@ None
 :
         
 _local
-:
-LocalType
 =
 NegativeInfinity
     
