@@ -173,6 +173,17 @@ symbolizer_clang_12
 patch
 "
 "
+compiler
+-
+rt
+-
+cross
+-
+compile
+.
+patch
+"
+"
 revert
 -
 llvmorg
