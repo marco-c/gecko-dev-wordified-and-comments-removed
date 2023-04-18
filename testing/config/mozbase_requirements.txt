@@ -7,6 +7,12 @@ mozterm
 .
 .
 /
+tools
+/
+geckoprocesstypes_generator
+.
+.
+/
 mozbase
 /
 manifestparser

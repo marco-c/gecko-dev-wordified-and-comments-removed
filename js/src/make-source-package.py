@@ -1356,6 +1356,14 @@ package
 name
 .
 mk
++
+/
+xpcom
+/
+geckoprocesstypes_generator
+/
+*
+*
 #
 SpiderMonkey
 itself
