@@ -12,7 +12,7 @@ certviewer
 /
 pvutils_bundle
 .
-js
+jsm
 "
 ;
 import
@@ -29,7 +29,7 @@ certviewer
 /
 asn1js_bundle
 .
-js
+jsm
 "
 ;
 import
@@ -46,7 +46,7 @@ certviewer
 /
 pkijs_bundle
 .
-js
+jsm
 "
 ;
 import
@@ -63,7 +63,7 @@ certviewer
 /
 certDecoder
 .
-js
+jsm
 "
 ;
 const

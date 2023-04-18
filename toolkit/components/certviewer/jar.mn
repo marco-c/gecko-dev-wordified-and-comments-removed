@@ -147,13 +147,13 @@ certviewer
 /
 certDecoder
 .
-js
+jsm
 (
 content
 /
 certDecoder
 .
-js
+jsm
 )
 content
 /
@@ -163,7 +163,7 @@ certviewer
 /
 pvutils_bundle
 .
-js
+jsm
 (
 content
 /
@@ -171,7 +171,7 @@ vendor
 /
 pvutils_bundle
 .
-js
+jsm
 )
 content
 /
@@ -181,7 +181,7 @@ certviewer
 /
 asn1js_bundle
 .
-js
+jsm
 (
 content
 /
@@ -189,7 +189,7 @@ vendor
 /
 asn1js_bundle
 .
-js
+jsm
 )
 content
 /
@@ -199,7 +199,7 @@ certviewer
 /
 pkijs_bundle
 .
-js
+jsm
 (
 content
 /
@@ -207,5 +207,5 @@ vendor
 /
 pkijs_bundle
 .
-js
+jsm
 )

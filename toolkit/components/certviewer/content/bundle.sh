@@ -123,7 +123,7 @@ WHICH
 "
 _bundle
 .
-js
+jsm
 #
 Amend
 '
@@ -169,7 +169,7 @@ WHICH
 "
 _bundle
 .
-js
+jsm
 #
 Append
 code
@@ -198,7 +198,7 @@ WHICH
 "
 _bundle
 .
-js
+jsm
 echo
 "
 var
@@ -224,4 +224,4 @@ WHICH
 "
 _bundle
 .
-js
+jsm
