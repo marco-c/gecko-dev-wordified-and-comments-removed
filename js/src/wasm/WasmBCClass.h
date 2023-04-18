@@ -2720,7 +2720,6 @@ uint32_t
 relativeDepth
 )
 ;
-inline
 void
 insertBreakablePoint
 (
@@ -2729,6 +2728,11 @@ CallSiteDesc
 :
 Kind
 kind
+)
+;
+void
+insertBreakpointStub
+(
 )
 ;
 void
