@@ -4783,12 +4783,6 @@ site
 tracking
 -
 cookies
--
-including
--
-social
--
-media
 "
 :
 "
@@ -4858,12 +4852,6 @@ cross
 site
 -
 cookies
--
-including
--
-social
--
-media
 "
 )
 ;
