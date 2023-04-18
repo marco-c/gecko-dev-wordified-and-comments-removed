@@ -3671,6 +3671,12 @@ case
 ColorID
 :
 :
+Threedface
+:
+case
+ColorID
+:
+:
 MozCombobox
 :
 case
