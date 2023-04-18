@@ -600,11 +600,12 @@ IPCDataTransferItem
 nsCString
 flavor
 ;
-IPCDataTransferImage
-imageDetails
-;
 IPCDataTransferData
 data
+;
+IPCDataTransferImage
+?
+imageDetails
 ;
 }
 ;

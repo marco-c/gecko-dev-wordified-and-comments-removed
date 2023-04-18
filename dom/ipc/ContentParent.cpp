@@ -17174,6 +17174,7 @@ aDataTransfer
 aIsPrivateData
 aRequestingPrincipal
 aContentPolicyType
+true
 trans
 this
 )
