@@ -36,7 +36,7 @@ googletest
 .
 git
 GIT_TAG
-43efa0a4efd40c78b9210d15373112081899a97c
+master
 SOURCE_DIR
 "
 {

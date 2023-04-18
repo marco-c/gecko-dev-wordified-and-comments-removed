@@ -16,15 +16,6 @@ include
 <
 memory
 >
-#
-include
-"
-hwy
-/
-highway_export
-.
-h
-"
 namespace
 hwy
 {
@@ -64,7 +55,6 @@ void
 memory
 )
 ;
-HWY_DLLEXPORT
 void
 *
 AllocateAlignedBytes
@@ -78,7 +68,6 @@ void
 opaque_ptr
 )
 ;
-HWY_DLLEXPORT
 void
 FreeAlignedBytes
 (
@@ -240,7 +229,6 @@ size_t
 t_size
 )
 ;
-HWY_DLLEXPORT
 static
 void
 DeleteAlignedArray

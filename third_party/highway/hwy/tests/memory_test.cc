@@ -133,15 +133,9 @@ hi
 Iota
 (
 d
-static_cast
-<
-T
->
-(
 1
 +
 N
-)
 )
 ;
 const
@@ -927,7 +921,7 @@ const
 ForExtendableVectors
 <
 TestStoreInterleaved3
-2
+4
 >
 test
 ;
@@ -1464,7 +1458,7 @@ const
 ForExtendableVectors
 <
 TestStoreInterleaved4
-2
+4
 >
 test
 ;
@@ -1659,9 +1653,8 @@ TestAllLoadDup128
 {
 ForAllTypes
 (
-ForGEVectors
+ForGE128Vectors
 <
-128
 TestLoadDup128
 >
 (
@@ -1791,7 +1784,7 @@ get
 )
 )
 ;
-FlushStream
+StoreFence
 (
 )
 ;
@@ -2888,7 +2881,7 @@ LoadFence
 (
 )
 ;
-FlushStream
+StoreFence
 (
 )
 ;

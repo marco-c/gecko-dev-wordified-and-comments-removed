@@ -717,15 +717,6 @@ INTERNAL
 "
 "
 )
-set
-(
-HWY_FORCE_STATIC_LIBS
-ON
-CACHE
-INTERNAL
-"
-"
-)
 if
 (
 (

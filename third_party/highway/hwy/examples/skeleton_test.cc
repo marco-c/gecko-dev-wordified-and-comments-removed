@@ -255,6 +255,12 @@ count
 i
 )
 {
+#
+if
+HWY_TARGET
+!
+=
+HWY_RVV
 HWY_ASSERT_EQ
 (
 expected
@@ -267,6 +273,8 @@ i
 ]
 )
 ;
+#
+endif
 sum
 +
 =

@@ -14,11 +14,6 @@ h
 #
 include
 <
-algorithm
->
-#
-include
-<
 cstddef
 >
 #
@@ -38,6 +33,11 @@ image
 .
 cc
 "
+#
+include
+<
+algorithm
+>
 #
 include
 "

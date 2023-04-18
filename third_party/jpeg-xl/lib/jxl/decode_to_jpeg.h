@@ -478,13 +478,6 @@ tmp_avail_size
 len
 )
 ;
-if
-(
-to_write
-!
-=
-0
-)
 memcpy
 (
 tmp_next_out

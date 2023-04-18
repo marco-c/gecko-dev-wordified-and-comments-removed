@@ -122,7 +122,7 @@ endif
 if
 defined
 (
-__APPLE__
+__MACH__
 )
 #
 include
@@ -430,7 +430,7 @@ QuadPart
 elif
 defined
 (
-__APPLE__
+__MACH__
 )
 t
 =
@@ -1846,7 +1846,6 @@ return
 #
 endif
 }
-HWY_DLLEXPORT
 double
 InvariantTicksPerSecond
 (
@@ -1913,7 +1912,7 @@ QuadPart
 elif
 defined
 (
-__APPLE__
+__MACH__
 )
 mach_timebase_info_data_t
 timebase
@@ -1949,7 +1948,6 @@ return
 #
 endif
 }
-HWY_DLLEXPORT
 double
 Now
 (
@@ -1985,7 +1983,6 @@ Start
 mul
 ;
 }
-HWY_DLLEXPORT
 uint64_t
 TimerResolution
 (
@@ -3503,7 +3500,6 @@ input
 ;
 }
 }
-HWY_DLLEXPORT
 int
 Unpredictable1
 (
@@ -3522,7 +3518,6 @@ Start
 0ULL
 ;
 }
-HWY_DLLEXPORT
 size_t
 Measure
 (

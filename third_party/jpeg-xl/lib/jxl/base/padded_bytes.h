@@ -932,15 +932,6 @@ uint8_t
 end
 )
 {
-if
-(
-end
--
-begin
->
-0
-)
-{
 size_t
 old_size
 =
@@ -974,7 +965,6 @@ end
 begin
 )
 ;
-}
 }
 private
 :
