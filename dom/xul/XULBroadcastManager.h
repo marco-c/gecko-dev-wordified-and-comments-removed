@@ -96,6 +96,7 @@ nsAtom
 aAttribute
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 MaybeBroadcast
 (
@@ -160,6 +161,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ExecuteOnBroadcastHandlerFor
 (
