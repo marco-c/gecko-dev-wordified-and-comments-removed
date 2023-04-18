@@ -458,6 +458,14 @@ IsCurrentThreadIn
 )
 ;
 }
+enum
+class
+AudioSinkStartPolicy
+{
+SYNC
+ASYNC
+}
+;
 nsresult
 StartAudioSink
 (
@@ -468,6 +476,8 @@ media
 TimeUnit
 &
 aStartTime
+AudioSinkStartPolicy
+aPolicy
 )
 ;
 media
