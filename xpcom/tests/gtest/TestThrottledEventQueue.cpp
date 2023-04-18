@@ -168,12 +168,6 @@ using
 std
 :
 :
-move
-;
-using
-std
-:
-:
 string
 ;
 namespace
@@ -245,6 +239,9 @@ empty
 auto
 runnable
 =
+std
+:
+:
 move
 (
 runnables
@@ -475,6 +472,9 @@ NS_NewRunnableFunction
 TEQ
 GTest
 "
+std
+:
+:
 move
 (
 aCallable
