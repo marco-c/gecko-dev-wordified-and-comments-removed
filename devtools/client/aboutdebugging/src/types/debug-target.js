@@ -63,6 +63,11 @@ PropTypes
 string
 .
 isRequired
+lastTerminateBackgroundScriptError
+:
+PropTypes
+.
+string
 manifestURL
 :
 PropTypes
