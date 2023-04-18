@@ -3794,7 +3794,7 @@ Element
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -3931,7 +3931,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 LimitInBodyElement
 :
@@ -9294,7 +9294,7 @@ Element
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 LimitInBodyElement
 :
@@ -10216,7 +10216,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -21634,7 +21634,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -31491,7 +31491,7 @@ Element
 HTMLEditor
 :
 :
-GetActiveEditingHost
+ComputeEditingHost
 (
 LimitInBodyElement
 aLimitInBodyElement
@@ -31786,7 +31786,7 @@ nsIContent
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -32578,7 +32578,7 @@ nsIContent
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -32785,7 +32785,7 @@ Element
 >
 target
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 LimitInBodyElement
 :

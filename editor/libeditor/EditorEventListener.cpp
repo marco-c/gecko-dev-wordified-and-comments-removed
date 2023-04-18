@@ -5392,7 +5392,7 @@ editingHost
 htmlEditor
 -
 >
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;

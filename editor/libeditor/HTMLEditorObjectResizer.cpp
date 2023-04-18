@@ -1744,7 +1744,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;

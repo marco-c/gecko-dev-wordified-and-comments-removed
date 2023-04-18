@@ -1332,7 +1332,7 @@ GetPrecedingBRElementUnlessVisibleContentFound
 (
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 EditorDOMPoint
@@ -2189,7 +2189,7 @@ GetPrecedingBRElementUnlessVisibleContentFound
 (
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 atLeftBlockChild
@@ -2499,7 +2499,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 HTMLEditor
 :
@@ -3034,7 +3034,7 @@ GetPrecedingBRElementUnlessVisibleContentFound
 (
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 EditorDOMPoint
@@ -4423,7 +4423,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -6084,7 +6084,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -6451,7 +6451,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -10712,7 +10712,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -11295,7 +11295,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 )
@@ -12157,7 +12157,7 @@ textFragmentDataAtSplitPoint
 aPointToSplit
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 )
@@ -15158,7 +15158,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -16919,7 +16919,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -19121,7 +19121,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;

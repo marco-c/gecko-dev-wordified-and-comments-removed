@@ -1310,7 +1310,7 @@ AsHTMLEditor
 )
 -
 >
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;

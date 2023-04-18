@@ -2025,7 +2025,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;

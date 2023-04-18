@@ -4016,7 +4016,7 @@ Element
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -5470,7 +5470,7 @@ Element
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 GetDocument
 (
@@ -6336,7 +6336,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 LimitInBodyElement
 :
@@ -7421,7 +7421,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -8204,7 +8204,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -12583,7 +12583,7 @@ GetPreviousEditableCharPoint
 EditorRawDOMPointInText
 >
 (
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 aPoint
@@ -12691,7 +12691,7 @@ GetInclusiveNextEditableCharPoint
 EditorRawDOMPointInText
 >
 (
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 aPoint
@@ -13179,7 +13179,7 @@ Element
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -14566,7 +14566,7 @@ Element
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -14922,7 +14922,7 @@ NS_OK
 WSRunScanner
 wsRunScanner
 (
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 aPointToInsert
@@ -15782,7 +15782,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -19505,7 +19505,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -21009,7 +21009,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -22213,7 +22213,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -23376,7 +23376,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -26221,7 +26221,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -30231,7 +30231,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -30568,7 +30568,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -32487,7 +32487,7 @@ endPoint
 WSRunScanner
 wsScannerAtEnd
 (
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 endPoint
@@ -34600,7 +34600,7 @@ Element
 const
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -35042,7 +35042,7 @@ Element
 const
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -37059,7 +37059,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -37236,7 +37236,7 @@ MOZ_UNLIKELY
 editingHost
 !
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 )
@@ -39829,7 +39829,7 @@ Element
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -42435,7 +42435,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -43610,7 +43610,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -44889,7 +44889,7 @@ Element
 >
 host
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -47731,7 +47731,7 @@ Element
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 )
@@ -48349,7 +48349,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -53296,7 +53296,7 @@ Element
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -54052,7 +54052,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
