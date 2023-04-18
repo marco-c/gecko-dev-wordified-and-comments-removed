@@ -1427,6 +1427,10 @@ FromMilliseconds
 hardTimeoutMillis
 )
 ;
+ClearSSLExternalAndInternalSessionCache
+(
+)
+;
 }
 nsNSSComponent
 :
@@ -3119,10 +3123,6 @@ setValidationOptions
 (
 false
 lock
-)
-;
-ClearSSLExternalAndInternalSessionCache
-(
 )
 ;
 }
