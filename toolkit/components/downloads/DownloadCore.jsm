@@ -4904,14 +4904,6 @@ Uncommon
 ;
 DownloadError
 .
-BLOCK_VERDICT_DOWNLOAD_SPAM
-=
-"
-DownloadSpam
-"
-;
-DownloadError
-.
 prototype
 =
 {
