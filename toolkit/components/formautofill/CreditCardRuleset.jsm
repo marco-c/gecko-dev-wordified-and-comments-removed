@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 fathom
 "
@@ -75,13 +81,15 @@ score
 type
 }
 =
+lazy
+.
 fathom
 ;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormLikeFactory
 "
@@ -104,7 +112,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillUtils
 "
@@ -125,7 +133,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CreditCard
 :
@@ -2353,6 +2361,8 @@ CREDIT_CARD_NETWORK_REGEXP
 new
 RegExp
 (
+lazy
+.
 CreditCard
 .
 getSupportedNetworks
@@ -2365,6 +2375,8 @@ Object
 .
 keys
 (
+lazy
+.
 NETWORK_NAMES
 )
 )
@@ -2582,6 +2594,8 @@ element
 const
 formLike
 =
+lazy
+.
 FormLikeFactory
 .
 createFromField
@@ -2604,6 +2618,8 @@ filter
 el
 =
 >
+lazy
+.
 FormAutofillUtils
 .
 isCreditCardOrAddressFieldType
@@ -2852,6 +2868,8 @@ iterator
 const
 labels
 =
+lazy
+.
 LabelUtils
 .
 findLabelElements
@@ -2869,6 +2887,8 @@ labels
 {
 yield
 *
+lazy
+.
 LabelUtils
 .
 extractLabelStrings
@@ -3376,6 +3396,8 @@ option
 {
 if
 (
+lazy
+.
 CreditCard
 .
 getNetworkFromName
@@ -3386,6 +3408,8 @@ value
 )
 |
 |
+lazy
+.
 CreditCard
 .
 getNetworkFromName

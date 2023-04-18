@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setTimeout
 "
@@ -63,7 +69,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofill
 "
@@ -84,7 +90,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillContent
 "
@@ -105,7 +111,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillUtils
 "
@@ -126,7 +132,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AutoCompleteChild
 "
@@ -188,6 +194,8 @@ testListener
 =
 null
 ;
+lazy
+.
 AutoCompleteChild
 .
 addPopupStateListener
@@ -200,6 +208,8 @@ didDestroy
 (
 )
 {
+lazy
+.
 AutoCompleteChild
 .
 removePopupStateListener
@@ -232,6 +242,8 @@ catch
 ex
 )
 {
+lazy
+.
 AutoCompleteChild
 .
 removePopupStateListener
@@ -245,6 +257,8 @@ return
 if
 (
 !
+lazy
+.
 FormAutofill
 .
 isAutofillEnabled
@@ -273,6 +287,8 @@ PopupClosed
 "
 :
 {
+lazy
+.
 FormAutofillContent
 .
 onPopupClosed
@@ -300,6 +316,8 @@ removeEventListener
 "
 keydown
 "
+lazy
+.
 FormAutofillContent
 .
 _onKeyDown
@@ -320,6 +338,8 @@ PopupOpened
 "
 :
 {
+lazy
+.
 FormAutofillContent
 .
 onPopupOpened
@@ -333,6 +353,8 @@ addEventListener
 "
 keydown
 "
+lazy
+.
 FormAutofillContent
 .
 _onKeyDown
@@ -364,6 +386,8 @@ _hasPendingTask
 =
 true
 ;
+lazy
+.
 setTimeout
 (
 (
@@ -371,6 +395,8 @@ setTimeout
 =
 >
 {
+lazy
+.
 FormAutofillContent
 .
 identifyAutofillFields
@@ -403,6 +429,8 @@ FieldsIdentified
 "
 )
 ;
+lazy
+.
 FormAutofillContent
 .
 updateActiveInput
@@ -494,6 +522,8 @@ focusin
 {
 if
 (
+lazy
+.
 FormAutofill
 .
 isAutofillEnabled
@@ -518,6 +548,8 @@ DOMFormBeforeSubmit
 {
 if
 (
+lazy
+.
 FormAutofill
 .
 isAutofillEnabled
@@ -556,6 +588,8 @@ onFocusIn
 evt
 )
 {
+lazy
+.
 FormAutofillContent
 .
 updateActiveInput
@@ -572,6 +606,8 @@ target
 if
 (
 !
+lazy
+.
 FormAutofillUtils
 .
 isCreditCardOrAddressFieldType
@@ -687,6 +723,8 @@ target
 if
 (
 !
+lazy
+.
 FormAutofill
 .
 isAutofillEnabled
@@ -695,6 +733,8 @@ isAutofillEnabled
 return
 ;
 }
+lazy
+.
 FormAutofillContent
 .
 formSubmitted
@@ -711,6 +751,8 @@ message
 if
 (
 !
+lazy
+.
 FormAutofill
 .
 isAutofillEnabled
@@ -741,6 +783,8 @@ PreviewProfile
 "
 :
 {
+lazy
+.
 FormAutofillContent
 .
 previewProfile
@@ -759,6 +803,8 @@ ClearForm
 "
 :
 {
+lazy
+.
 FormAutofillContent
 .
 clearForm
@@ -776,6 +822,8 @@ FillForm
 "
 :
 {
+lazy
+.
 FormAutofillContent
 .
 activeHandler

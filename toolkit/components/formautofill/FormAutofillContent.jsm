@@ -91,11 +91,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddressResult
 "
@@ -116,7 +122,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ComponentUtils
 "
@@ -139,7 +145,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CreditCardResult
 "
@@ -160,7 +166,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofill
 "
@@ -181,7 +187,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillHandler
 "
@@ -202,7 +208,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillUtils
 "
@@ -223,7 +229,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CreditCardTelemetry
 "
@@ -244,7 +250,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormLikeFactory
 "
@@ -267,7 +273,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 InsecurePasswordUtils
 "
@@ -290,7 +296,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -313,7 +319,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 DELEGATE_AUTOCOMPLETE
 "
@@ -385,7 +391,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ADDRESSES_COLLECTION_NAME
 "
@@ -393,6 +399,8 @@ ADDRESSES_COLLECTION_NAME
 )
 =
 >
+lazy
+.
 FormAutofillUtils
 .
 ADDRESSES_COLLECTION_NAME
@@ -402,7 +410,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 CREDITCARDS_COLLECTION_NAME
 "
@@ -410,6 +418,8 @@ CREDITCARDS_COLLECTION_NAME
 )
 =
 >
+lazy
+.
 FormAutofillUtils
 .
 CREDITCARDS_COLLECTION_NAME
@@ -419,7 +429,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 FIELD_STATES
 "
@@ -427,6 +437,8 @@ FIELD_STATES
 )
 =
 >
+lazy
+.
 FormAutofillUtils
 .
 FIELD_STATES
@@ -504,6 +516,8 @@ classID
 let
 factory
 =
+lazy
+.
 ComponentUtils
 .
 _getFactory
@@ -640,6 +654,8 @@ AutofillProfileAutoCompleteSearch
 (
 )
 {
+lazy
+.
 FormAutofill
 .
 defineLazyLogGetter
@@ -737,6 +753,8 @@ false
 let
 isAddressField
 =
+lazy
+.
 FormAutofillUtils
 .
 isAddressField
@@ -749,6 +767,8 @@ fieldName
 const
 isCreditCardField
 =
+lazy
+.
 FormAutofillUtils
 .
 isCreditCardField
@@ -766,6 +786,8 @@ activeFieldDetail
 state
 =
 =
+lazy
+.
 FIELD_STATES
 .
 AUTO_FILLED
@@ -787,12 +809,16 @@ filledRecordGUID
 let
 creditCardsEnabledAndVisible
 =
+lazy
+.
 FormAutofill
 .
 isAutofillCreditCardsEnabled
 &
 &
 !
+lazy
+.
 FormAutofill
 .
 isAutofillCreditCardsHideUI
@@ -802,6 +828,8 @@ searchPermitted
 =
 isAddressField
 ?
+lazy
+.
 FormAutofill
 .
 isAutofillAddressesEnabled
@@ -813,8 +841,12 @@ AutocompleteResult
 =
 isAddressField
 ?
+lazy
+.
 AddressResult
 :
+lazy
+.
 CreditCardResult
 ;
 let
@@ -896,6 +928,8 @@ field
 .
 length
 <
+lazy
+.
 FormAutofillUtils
 .
 AUTOFILL_FIELDS_THRESHOLD
@@ -1055,8 +1089,12 @@ collectionName
 :
 isAddressField
 ?
+lazy
+.
 ADDRESSES_COLLECTION_NAME
 :
+lazy
+.
 CREDITCARDS_COLLECTION_NAME
 info
 :
@@ -1130,6 +1168,8 @@ activeHandler
 let
 isSecure
 =
+lazy
+.
 InsecurePasswordUtils
 .
 isFormSecure
@@ -1335,6 +1375,8 @@ _registered
 return
 ;
 }
+lazy
+.
 FormAutofill
 .
 defineLazyLogGetter
@@ -1881,6 +1923,8 @@ init
 (
 )
 {
+lazy
+.
 FormAutofill
 .
 defineLazyLogGetter
@@ -1943,11 +1987,15 @@ undefined
 &
 &
 (
+lazy
+.
 FormAutofill
 .
 isAutofillAddressesEnabled
 |
 |
+lazy
+.
 FormAutofill
 .
 isAutofillCreditCardsEnabled
@@ -2027,6 +2075,8 @@ submission
 if
 (
 !
+lazy
+.
 FormAutofill
 .
 isAutofillEnabled
@@ -2052,6 +2102,8 @@ if
 domWin
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
@@ -2150,6 +2202,8 @@ length
 return
 ;
 }
+lazy
+.
 CreditCardTelemetry
 .
 recordFormSubmitted
@@ -2302,6 +2356,8 @@ null
 let
 rootElement
 =
+lazy
+.
 FormLikeFactory
 .
 findRootForField
@@ -2833,6 +2889,8 @@ hostname
 ;
 if
 (
+lazy
+.
 DELEGATE_AUTOCOMPLETE
 |
 |
@@ -2904,6 +2962,8 @@ formHandler
 let
 formLike
 =
+lazy
+.
 FormLikeFactory
 .
 createFromField
@@ -2914,6 +2974,8 @@ element
 formHandler
 =
 new
+lazy
+.
 FormAutofillHandler
 (
 formLike
@@ -3051,6 +3113,8 @@ fieldName
 ;
 if
 (
+lazy
+.
 FormAutofillUtils
 .
 isCreditCardField
@@ -3059,6 +3123,8 @@ fieldName
 )
 )
 {
+lazy
+.
 CreditCardTelemetry
 .
 recordFormCleared
@@ -3225,6 +3291,8 @@ fieldName
 let
 focusedCategory
 =
+lazy
+.
 FormAutofillUtils
 .
 getCategoryFromFieldName
@@ -3237,6 +3305,8 @@ fieldName
 let
 categories
 =
+lazy
+.
 FormAutofillUtils
 .
 getCategoriesFromFieldNames
@@ -3423,6 +3493,8 @@ fieldName
 ;
 if
 (
+lazy
+.
 FormAutofillUtils
 .
 isCreditCardField
@@ -3431,6 +3503,8 @@ fieldName
 )
 )
 {
+lazy
+.
 CreditCardTelemetry
 .
 recordPopupShown

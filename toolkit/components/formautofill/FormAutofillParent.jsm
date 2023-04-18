@@ -85,11 +85,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -208,6 +214,8 @@ ADDRESSES_COLLECTION_NAME
 CREDITCARDS_COLLECTION_NAME
 }
 =
+lazy
+.
 FormAutofillUtils
 ;
 let
@@ -400,6 +408,8 @@ uninit
 (
 )
 {
+lazy
+.
 gFormAutofillStorage
 .
 _saveImmediately
@@ -489,6 +499,8 @@ formAutofillStorage
 )
 {
 return
+lazy
+.
 gFormAutofillStorage
 ;
 }
@@ -668,6 +680,8 @@ const
 addressNames
 =
 await
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -687,6 +701,8 @@ const
 creditCardNames
 =
 await
+lazy
+.
 gFormAutofillStorage
 .
 creditCards
@@ -900,6 +916,8 @@ let
 formAutofillPreferences
 =
 new
+lazy
+.
 FormAutofillPreferences
 (
 )
@@ -1020,7 +1038,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gFormAutofillStorage
 "
@@ -1160,6 +1178,8 @@ InitStorage
 :
 {
 await
+lazy
+.
 gFormAutofillStorage
 .
 initialize
@@ -1233,6 +1253,8 @@ OpenPreferences
 const
 win
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -1274,6 +1296,8 @@ data
 if
 (
 !
+lazy
+.
 FormAutofillUtils
 .
 _reauthEnabledByUser
@@ -1303,6 +1327,8 @@ try
 string
 =
 await
+lazy
+.
 OSKeyStore
 .
 decrypt
@@ -1404,6 +1430,8 @@ guid
 )
 {
 await
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -1422,6 +1450,8 @@ address
 else
 {
 await
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -1450,6 +1480,8 @@ if
 !
 (
 await
+lazy
+.
 FormAutofillUtils
 .
 ensureLoggedIn
@@ -1477,6 +1509,8 @@ undefined
 ;
 }
 await
+lazy
+.
 gFormAutofillStorage
 .
 creditCards
@@ -1508,6 +1542,8 @@ forEach
 guid
 =
 >
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -1538,6 +1574,8 @@ forEach
 guid
 =
 >
+lazy
+.
 gFormAutofillStorage
 .
 creditCards
@@ -1625,6 +1663,8 @@ info
 let
 collection
 =
+lazy
+.
 gFormAutofillStorage
 [
 collectionName
@@ -1864,6 +1904,8 @@ let
 originalAddress
 =
 await
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -1922,6 +1964,8 @@ if
 !
 (
 await
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -1965,6 +2009,8 @@ async
 const
 description
 =
+lazy
+.
 FormAutofillUtils
 .
 getAddressLabel
@@ -1978,6 +2024,8 @@ const
 state
 =
 await
+lazy
+.
 FormAutofillPrompter
 .
 promptToSaveAddress
@@ -1993,6 +2041,8 @@ let
 changedGUIDs
 =
 await
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -2028,6 +2078,8 @@ changedGUIDs
 push
 (
 await
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -2057,6 +2109,8 @@ length
 )
 {
 await
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -2084,6 +2138,8 @@ guid
 }
 else
 {
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -2106,6 +2162,8 @@ forEach
 guid
 =
 >
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -2150,6 +2208,8 @@ autofill
 timeStartedFillingMS
 )
 ;
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -2185,6 +2245,8 @@ let
 changedGUIDs
 =
 await
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -2209,6 +2271,8 @@ changedGUIDs
 push
 (
 await
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -2229,6 +2293,8 @@ forEach
 guid
 =
 >
+lazy
+.
 gFormAutofillStorage
 .
 addresses
@@ -2282,6 +2348,8 @@ async
 const
 description
 =
+lazy
+.
 FormAutofillUtils
 .
 getAddressLabel
@@ -2295,6 +2363,8 @@ const
 state
 =
 await
+lazy
+.
 FormAutofillPrompter
 .
 promptToSaveAddress
@@ -2429,6 +2499,8 @@ type
 &
 &
 !
+lazy
+.
 CreditCard
 .
 isValidNetwork
@@ -2477,6 +2549,8 @@ let
 originalCCData
 =
 await
+lazy
+.
 gFormAutofillStorage
 .
 creditCards
@@ -2580,6 +2654,8 @@ if
 recordUnchanged
 )
 {
+lazy
+.
 gFormAutofillStorage
 .
 creditCards
@@ -2691,6 +2767,8 @@ let
 existingGuid
 =
 await
+lazy
+.
 gFormAutofillStorage
 .
 creditCards
@@ -2717,6 +2795,8 @@ let
 originalCCData
 =
 await
+lazy
+.
 gFormAutofillStorage
 .
 creditCards
@@ -2728,6 +2808,8 @@ creditCard
 guid
 )
 ;
+lazy
+.
 gFormAutofillStorage
 .
 creditCards
@@ -2803,6 +2885,8 @@ setUsedStatus
 1
 )
 ;
+lazy
+.
 gFormAutofillStorage
 .
 creditCards
@@ -2844,12 +2928,16 @@ return
 ;
 }
 await
+lazy
+.
 FormAutofillPrompter
 .
 promptToSaveCreditCard
 (
 browser
 creditCard
+lazy
+.
 gFormAutofillStorage
 )
 ;

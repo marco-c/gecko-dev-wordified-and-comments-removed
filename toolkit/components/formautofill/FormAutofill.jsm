@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Region
 :
@@ -279,7 +285,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 logLevel
 "
@@ -302,6 +308,8 @@ debug
 {
 if
 (
+lazy
+.
 logLevel
 .
 toLowerCase
@@ -346,6 +354,8 @@ DEFAULT_REGION
 )
 {
 return
+lazy
+.
 Region
 .
 home

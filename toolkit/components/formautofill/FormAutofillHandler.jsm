@@ -106,11 +106,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillUtils
 "
@@ -131,7 +137,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CreditCardTelemetry
 "
@@ -152,7 +158,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillHeuristics
 "
@@ -173,7 +179,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormLikeFactory
 "
@@ -225,7 +231,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 reauthPasswordPromptMessage
 "
@@ -237,6 +243,8 @@ reauthPasswordPromptMessage
 const
 brandShortName
 =
+lazy
+.
 FormAutofillUtils
 .
 brandBundle
@@ -266,6 +274,8 @@ macos
 )
 ;
 return
+lazy
+.
 FormAutofillUtils
 .
 stringBundle
@@ -289,7 +299,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CreditCard
 :
@@ -331,6 +341,8 @@ const
 FIELD_STATES
 }
 =
+lazy
+.
 FormAutofillUtils
 ;
 class
@@ -788,6 +800,8 @@ continue
 let
 option
 =
+lazy
+.
 FormAutofillUtils
 .
 findSelectOption
@@ -1313,6 +1327,8 @@ get
 if
 (
 !
+lazy
+.
 FormAutofillUtils
 .
 isFieldAutofillable
@@ -1680,6 +1696,8 @@ fieldName
 if
 (
 !
+lazy
+.
 FormAutofillUtils
 .
 isFieldAutofillable
@@ -2571,6 +2589,8 @@ value
 .
 length
 >
+lazy
+.
 FormAutofillUtils
 .
 MAX_FIELD_VALUE_LENGTH
@@ -2706,6 +2726,8 @@ target
 const
 isCreditCardField
 =
+lazy
+.
 FormAutofillUtils
 .
 isCreditCardField
@@ -2776,6 +2798,8 @@ if
 isCreditCardField
 )
 {
+lazy
+.
 CreditCardTelemetry
 .
 recordFilledModified
@@ -3059,6 +3083,8 @@ fieldDetails
 length
 >
 =
+lazy
+.
 FormAutofillUtils
 .
 AUTOFILL_FIELDS_THRESHOLD
@@ -3156,6 +3182,8 @@ continue
 }
 if
 (
+lazy
+.
 FormAutofillUtils
 .
 getCategoryFromFieldName
@@ -3187,6 +3215,8 @@ length
 hasName
 >
 =
+lazy
+.
 FormAutofillUtils
 .
 AUTOFILL_FIELDS_THRESHOLD
@@ -3239,6 +3269,8 @@ oneLineStreetAddress
 address
 ]
 =
+lazy
+.
 FormAutofillUtils
 .
 toOneLineAddress
@@ -3428,6 +3460,8 @@ profile
 f
 ]
 =
+lazy
+.
 FormAutofillUtils
 .
 toOneLineAddress
@@ -3824,6 +3858,8 @@ trim
 ;
 value
 =
+lazy
+.
 FormAutofillUtils
 .
 getAbbreviatedSubregionName
@@ -3893,6 +3929,8 @@ autocomplete
 let
 countryCode
 =
+lazy
+.
 FormAutofillUtils
 .
 identifyCountryCode
@@ -3920,6 +3958,8 @@ countryCode
 }
 }
 }
+lazy
+.
 FormAutofillUtils
 .
 compressTel
@@ -3955,6 +3995,8 @@ filter
 field
 =
 >
+lazy
+.
 FormAutofillUtils
 .
 getCategoryFromFieldName
@@ -4161,6 +4203,8 @@ isValidSection
 return
 ;
 }
+lazy
+.
 CreditCardTelemetry
 .
 recordFormDetected
@@ -4468,6 +4512,8 @@ number
 ]
 &
 &
+lazy
+.
 FormAutofillUtils
 .
 isCCNumber
@@ -5395,6 +5441,8 @@ value
 }
 if
 (
+lazy
+.
 CreditCard
 .
 isValidNetwork
@@ -5435,6 +5483,8 @@ selectedOptions
 let
 networkType
 =
+lazy
+.
 CreditCard
 .
 getNetworkFromName
@@ -5445,6 +5495,8 @@ text
 )
 ?
 ?
+lazy
+.
 CreditCard
 .
 getNetworkFromName
@@ -5597,6 +5649,8 @@ number
 encrypted
 "
 ]
+lazy
+.
 reauthPasswordPromptMessage
 )
 ;
@@ -5650,6 +5704,8 @@ return
 false
 ;
 }
+lazy
+.
 CreditCardTelemetry
 .
 recordFormFilled
@@ -5702,6 +5758,8 @@ number
 "
 ]
 =
+lazy
+.
 CreditCard
 .
 normalizeCardNumber
@@ -5724,6 +5782,8 @@ month
 year
 }
 =
+lazy
+.
 CreditCard
 .
 normalizeExpiration
@@ -5998,6 +6058,8 @@ _formLike
 {
 _formLike
 =
+lazy
+.
 FormLikeFactory
 .
 createFromField
@@ -6173,6 +6235,8 @@ false
 let
 sections
 =
+lazy
+.
 FormAutofillHeuristics
 .
 getFormInfo
@@ -6208,6 +6272,8 @@ if
 type
 =
 =
+lazy
+.
 FormAutofillUtils
 .
 SECTION_TYPES
@@ -6233,6 +6299,8 @@ if
 type
 =
 =
+lazy
+.
 FormAutofillUtils
 .
 SECTION_TYPES

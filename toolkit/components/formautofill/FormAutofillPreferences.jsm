@@ -155,11 +155,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OSKeyStore
 "
@@ -1229,6 +1235,8 @@ savedCreditCardsBtn
 ;
 if
 (
+lazy
+.
 OSKeyStore
 .
 canReauth
@@ -1683,6 +1691,8 @@ reauthCheckbox
 if
 (
 !
+lazy
+.
 OSKeyStore
 .
 canReauth
@@ -1804,6 +1814,8 @@ let
 loggedIn
 =
 await
+lazy
+.
 OSKeyStore
 .
 ensureLoggedIn

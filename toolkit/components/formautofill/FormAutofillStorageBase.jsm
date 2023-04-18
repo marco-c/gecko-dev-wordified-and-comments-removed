@@ -64,11 +64,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CreditCard
 "
@@ -91,7 +97,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillNameUtils
 "
@@ -112,7 +118,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillUtils
 "
@@ -133,7 +139,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OSKeyStore
 "
@@ -156,7 +162,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PhoneNumber
 "
@@ -4740,6 +4746,8 @@ address
 let
 name
 =
+lazy
+.
 FormAutofillNameUtils
 .
 joinNameParts
@@ -4912,6 +4920,8 @@ line3
 "
 ]
 =
+lazy
+.
 FormAutofillUtils
 .
 toOneLineAddress
@@ -5040,6 +5050,8 @@ tel
 let
 tel
 =
+lazy
+.
 PhoneNumber
 .
 Parse
@@ -5326,6 +5338,8 @@ name
 let
 nameParts
 =
+lazy
+.
 FormAutofillNameUtils
 .
 splitName
@@ -5644,6 +5658,8 @@ name
 {
 country
 =
+lazy
+.
 FormAutofillUtils
 .
 identifyCountryCode
@@ -5763,6 +5779,8 @@ c
 )
 )
 {
+lazy
+.
 FormAutofillUtils
 .
 compressTel
@@ -5785,6 +5803,8 @@ DEFAULT_REGION
 let
 tel
 =
+lazy
+.
 PhoneNumber
 .
 Parse
@@ -5999,6 +6019,8 @@ creditCard
 let
 type
 =
+lazy
+.
 CreditCard
 .
 getType
@@ -6050,6 +6072,8 @@ creditCard
 let
 nameParts
 =
+lazy
+.
 FormAutofillNameUtils
 .
 splitName
@@ -6443,6 +6467,8 @@ number
 ]
 =
 await
+lazy
+.
 OSKeyStore
 .
 decrypt
@@ -6584,6 +6610,8 @@ name
 "
 ]
 =
+lazy
+.
 FormAutofillNameUtils
 .
 joinNameParts
@@ -6692,6 +6720,8 @@ return
 if
 (
 !
+lazy
+.
 CreditCard
 .
 isValidNumber
@@ -6724,6 +6754,8 @@ let
 card
 =
 new
+lazy
+.
 CreditCard
 (
 {
@@ -6762,6 +6794,8 @@ creditCard
 let
 normalizedExpiration
 =
+lazy
+.
 CreditCard
 .
 normalizeExpiration
@@ -7149,6 +7183,8 @@ let
 decrypted
 =
 await
+lazy
+.
 OSKeyStore
 .
 decrypt

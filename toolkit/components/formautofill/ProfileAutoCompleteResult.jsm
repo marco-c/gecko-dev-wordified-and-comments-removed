@@ -61,11 +61,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillUtils
 "
@@ -86,7 +92,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CreditCard
 "
@@ -109,7 +115,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 insecureWarningEnabled
 "
@@ -1137,6 +1143,8 @@ secondary
 "
 categories
 :
+lazy
+.
 FormAutofillUtils
 .
 getCategoriesFromFieldNames
@@ -1147,6 +1155,8 @@ _allFieldNames
 )
 focusedCategory
 :
+lazy
+.
 FormAutofillUtils
 .
 getCategoryFromFieldName
@@ -1410,6 +1420,8 @@ affix
 label
 }
 =
+lazy
+.
 CreditCard
 .
 formatMaskedNumber
@@ -1457,6 +1469,8 @@ _isSecure
 if
 (
 !
+lazy
+.
 insecureWarningEnabled
 )
 {
@@ -1468,6 +1482,8 @@ return
 let
 brandName
 =
+lazy
+.
 FormAutofillUtils
 .
 brandBundle
@@ -1481,6 +1497,8 @@ brandShortName
 ;
 return
 [
+lazy
+.
 FormAutofillUtils
 .
 stringBundle
@@ -1586,6 +1604,8 @@ affix
 label
 }
 =
+lazy
+.
 CreditCard
 .
 formatMaskedNumber
@@ -1621,6 +1641,8 @@ try
 {
 ccTypeName
 =
+lazy
+.
 FormAutofillUtils
 .
 stringBundle
@@ -1801,6 +1823,8 @@ this
 _isSecure
 &
 &
+lazy
+.
 insecureWarningEnabled
 )
 {
@@ -1844,6 +1868,8 @@ index
 ]
 ;
 return
+lazy
+.
 CreditCard
 .
 getCreditCardLogo
