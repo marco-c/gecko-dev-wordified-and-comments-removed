@@ -423,6 +423,12 @@ mState
 nsString
 mValidationMessage
 ;
+RefPtr
+<
+nsGenericHTMLElement
+>
+mValidationAnchor
+;
 }
 ;
 }
