@@ -628,6 +628,12 @@ endOfDerivedClassConstructorBody
 {
 }
 ;
+JumpList
+finalYields
+=
+{
+}
+;
 private
 :
 BytecodeEmitter
