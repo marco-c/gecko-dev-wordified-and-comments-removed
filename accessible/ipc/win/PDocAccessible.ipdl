@@ -1,5 +1,9 @@
 include
 protocol
+PFileDescriptorSet
+;
+include
+protocol
 PBrowser
 ;
 include
