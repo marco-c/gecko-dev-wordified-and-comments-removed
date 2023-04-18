@@ -692,9 +692,6 @@ GMPParent
 >
 mPlugins
 ;
-bool
-mShuttingDown
-;
 Atomic
 <
 bool
@@ -747,6 +744,12 @@ T
 mValue
 ;
 }
+;
+MainThreadOnly
+<
+bool
+>
+mShuttingDown
 ;
 MainThreadOnly
 <
