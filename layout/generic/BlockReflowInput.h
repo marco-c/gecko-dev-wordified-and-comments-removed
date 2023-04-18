@@ -532,7 +532,10 @@ aIEndResult
 )
 const
 ;
-void
+mozilla
+:
+:
+LogicalRect
 ComputeBlockAvailSpace
 (
 nsIFrame
@@ -544,12 +547,6 @@ nsFlowAreaRect
 aFloatAvailableSpace
 bool
 aBlockAvoidsFloats
-mozilla
-:
-:
-LogicalRect
-&
-aResult
 )
 ;
 void
