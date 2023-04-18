@@ -1201,6 +1201,12 @@ aJustification
 )
 ;
 static
+bool
+UseStandinsForNativeColors
+(
+)
+;
+static
 void
 CalcRoundedWindowSizeForResistingFingerprinting
 (
