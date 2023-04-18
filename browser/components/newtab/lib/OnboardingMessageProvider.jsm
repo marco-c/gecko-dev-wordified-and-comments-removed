@@ -1096,7 +1096,7 @@ custom
 {
 cap
 :
-3
+1
 period
 :
 604800000
@@ -1104,7 +1104,7 @@ period
 ]
 lifetime
 :
-12
+3
 }
 targeting
 :
@@ -1675,7 +1675,7 @@ custom
 {
 cap
 :
-3
+1
 period
 :
 604800000
@@ -1683,7 +1683,7 @@ period
 ]
 lifetime
 :
-12
+3
 }
 targeting
 :
