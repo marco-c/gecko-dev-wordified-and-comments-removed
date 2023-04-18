@@ -416,6 +416,17 @@ mozilla
 /
 reject
 -
+globalThis
+-
+modification
+eslint
+-
+plugin
+-
+mozilla
+/
+reject
+-
 importGlobalProperties
 eslint
 -
