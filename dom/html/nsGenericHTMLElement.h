@@ -476,6 +476,7 @@ aError
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 Click
 (
@@ -2604,6 +2605,7 @@ aDefer
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 HandleKeyboardActivation
 (
@@ -2614,6 +2616,7 @@ EventChainPostVisitor
 &
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchSimulatedClick

@@ -845,8 +845,10 @@ NS_ERROR_ABORT
 )
 ;
 }
+RefPtr
+<
 nsPresContext
-*
+>
 presContext
 =
 GetPresContext
