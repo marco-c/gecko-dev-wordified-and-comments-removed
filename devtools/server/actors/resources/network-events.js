@@ -625,6 +625,16 @@ resource
 .
 resourceId
 {
+browsingContextID
+:
+resource
+.
+browsingContextID
+innerWindowId
+:
+resource
+.
+innerWindowId
 resourceId
 :
 resource
@@ -696,6 +706,8 @@ return
 }
 const
 {
+browsingContextID
+innerWindowId
 resourceId
 resourceType
 resourceUpdates
@@ -985,6 +997,8 @@ onNetworkEventUpdated
 resourceType
 resourceId
 resourceUpdates
+browsingContextID
+innerWindowId
 }
 ]
 )

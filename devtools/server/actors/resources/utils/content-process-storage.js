@@ -207,8 +207,6 @@ watch
 targetActor
 {
 onAvailable
-onUpdated
-onDestroyed
 }
 )
 {
