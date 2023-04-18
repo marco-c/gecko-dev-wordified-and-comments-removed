@@ -53,8 +53,11 @@ getContext
 ;
 ctx
 .
-mozCurrentTransformInverse
-=
+setTransform
+(
+new
+DOMMatrix
+(
 [
 32
 -
@@ -72,6 +75,12 @@ mozCurrentTransformInverse
 .
 9012573524148337
 ]
+)
+.
+invertSelf
+(
+)
+)
 ;
 ctx
 .
