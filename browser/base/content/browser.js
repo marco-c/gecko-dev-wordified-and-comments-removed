@@ -20503,7 +20503,7 @@ menu_savePage
 }
 PrintUtils
 .
-updatePrintPreviewMenuHiddenState
+updatePrintSetupMenuHiddenState
 (
 )
 ;
