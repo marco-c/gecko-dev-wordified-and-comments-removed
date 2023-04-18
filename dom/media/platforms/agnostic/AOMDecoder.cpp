@@ -3242,6 +3242,10 @@ if
 reducedStillPicture
 )
 {
+aDestInfo
+=
+tempInfo
+;
 return
 true
 ;
