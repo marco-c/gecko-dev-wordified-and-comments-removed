@@ -91,7 +91,6 @@ moz_task
 :
 {
 create_background_task_queue
-dispatch_background_task_with_options
 DispatchOptions
 TaskRunnable
 }
@@ -457,13 +456,6 @@ name
 )
 )
 ;
-dispatch_background_task_with_options
-(
-RefPtr
-:
-:
-new
-(
 TaskRunnable
 :
 :
@@ -479,10 +471,8 @@ task
 )
 ?
 .
-coerce
+dispatch_background_task_with_options
 (
-)
-)
 DispatchOptions
 :
 :
