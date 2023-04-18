@@ -71,8 +71,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -246,7 +246,6 @@ mUserHandleCachedObj
 ;
 }
 ;
-}
 }
 #
 endif

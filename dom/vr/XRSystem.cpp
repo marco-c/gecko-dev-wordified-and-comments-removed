@@ -132,8 +132,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -3488,5 +3488,4 @@ NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 RequestSessionRequest
 Release
 )
-}
 }

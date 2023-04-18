@@ -47,8 +47,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -736,7 +736,6 @@ mRequestSessionRequestsWaitingForEnumeration
 ;
 }
 ;
-}
 }
 #
 endif

@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -226,7 +226,6 @@ mTransform
 ;
 }
 ;
-}
 }
 #
 endif

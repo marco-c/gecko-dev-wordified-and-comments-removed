@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -318,7 +318,6 @@ mNeedsUpdate
 ;
 }
 ;
-}
 }
 #
 endif

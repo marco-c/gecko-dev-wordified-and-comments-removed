@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -244,7 +244,6 @@ mCompositionDisabled
 ;
 }
 ;
-}
 }
 #
 endif

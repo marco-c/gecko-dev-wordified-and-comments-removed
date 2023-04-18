@@ -44,8 +44,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -158,7 +158,6 @@ mEmulatedPosition
 ;
 }
 ;
-}
 }
 #
 endif

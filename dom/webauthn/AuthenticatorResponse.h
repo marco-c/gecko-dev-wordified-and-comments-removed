@@ -74,8 +74,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -175,7 +175,6 @@ mClientDataJSONCachedObj
 ;
 }
 ;
-}
 }
 #
 endif

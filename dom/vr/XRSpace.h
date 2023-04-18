@@ -40,8 +40,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -181,7 +181,6 @@ mOriginOffsetOrientation
 ;
 }
 ;
-}
 }
 #
 endif

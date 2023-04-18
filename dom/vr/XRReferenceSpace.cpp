@@ -29,8 +29,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRReferenceSpace
@@ -174,6 +174,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

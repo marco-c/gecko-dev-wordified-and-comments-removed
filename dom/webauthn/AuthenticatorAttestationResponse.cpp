@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_CLASS
@@ -241,6 +241,5 @@ NS_ERROR_OUT_OF_MEMORY
 return
 NS_OK
 ;
-}
 }
 }
