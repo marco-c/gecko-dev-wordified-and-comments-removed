@@ -318,14 +318,6 @@ IsDarkBackground
 aFrame
 )
 ;
-if
-(
-!
-params
-.
-isOverlay
-)
-{
 const
 nsStyleUI
 *
@@ -393,7 +385,6 @@ CalcColor
 aStyle
 )
 ;
-}
 }
 return
 params
