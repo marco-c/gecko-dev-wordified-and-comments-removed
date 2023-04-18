@@ -2834,7 +2834,7 @@ offsetAdjustment
 FrameWithTls
 :
 :
-sizeWithoutFrame
+sizeOfTlsFields
 (
 )
 +
