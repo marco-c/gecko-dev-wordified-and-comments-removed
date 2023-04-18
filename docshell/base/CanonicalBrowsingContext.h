@@ -1799,7 +1799,7 @@ Info
 (
 )
 .
-GetPostData
+HasPostData
 (
 )
 )
