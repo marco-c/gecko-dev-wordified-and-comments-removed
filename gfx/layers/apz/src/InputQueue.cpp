@@ -5436,6 +5436,16 @@ Clear
 (
 )
 {
+if
+(
+APZThreadUtils
+:
+:
+IsControllerThreadAlive
+(
+)
+)
+{
 APZThreadUtils
 :
 :
@@ -5443,6 +5453,7 @@ AssertOnControllerThread
 (
 )
 ;
+}
 mQueuedInputs
 .
 Clear
