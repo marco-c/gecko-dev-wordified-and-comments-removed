@@ -934,6 +934,11 @@ n
 name
 )
 ;
+fflush
+(
+stdout
+)
+;
 if
 (
 !
