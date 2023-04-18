@@ -68,9 +68,11 @@ VirtualAuthenticatorProtocolPart
                        
 WindowProtocolPart
                        
+DebugProtocolPart
+                       
 SPCTransactionsProtocolPart
                        
-DebugProtocolPart
+merge_dicts
 )
 from
 webdriver
@@ -2200,6 +2202,45 @@ self
 capabilities
 =
 capabilities
+        
+if
+hasattr
+(
+browser
+"
+capabilities
+"
+)
+:
+            
+if
+self
+.
+capabilities
+is
+None
+:
+                
+self
+.
+capabilities
+=
+browser
+.
+capabilities
+            
+else
+:
+                
+merge_dicts
+(
+self
+.
+capabilities
+browser
+.
+capabilities
+)
         
 self
 .

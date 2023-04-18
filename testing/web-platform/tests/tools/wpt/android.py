@@ -718,6 +718,9 @@ def
 get_emulator
 (
 sdk_path
+device_serial
+=
+None
 )
 :
     
@@ -782,6 +785,9 @@ AndroidEmulator
 substs
 =
 substs
+device_serial
+=
+device_serial
 )
     
 emulator
@@ -815,6 +821,9 @@ False
 no_prompt
 =
 False
+device_serial
+=
+None
 )
 :
     
@@ -872,6 +881,9 @@ emulator
 get_emulator
 (
 dest
+device_serial
+=
+device_serial
 )
     
 return
@@ -886,6 +898,9 @@ None
 reinstall
 =
 False
+device_serial
+=
+None
 )
 :
     
@@ -918,6 +933,9 @@ emulator
 get_emulator
 (
 sdk_path
+device_serial
+=
+device_serial
 )
     
 if
