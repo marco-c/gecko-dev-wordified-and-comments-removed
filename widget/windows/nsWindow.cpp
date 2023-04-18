@@ -2894,6 +2894,17 @@ if
 sInstanceCount
 )
 {
+if
+(
+!
+WinUtils
+:
+:
+HasPackageIdentity
+(
+)
+)
+{
 mozilla
 :
 :
@@ -2907,6 +2918,7 @@ RegisterAppUserModelID
 (
 )
 ;
+}
 KeyboardLayout
 :
 :
