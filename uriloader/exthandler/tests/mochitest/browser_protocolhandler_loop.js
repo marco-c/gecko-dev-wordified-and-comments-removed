@@ -278,6 +278,10 @@ gBrowser
 .
 addTab
 =
+gBrowser
+.
+loadOneTab
+=
 oldAddTab
 )
 )
@@ -295,6 +299,10 @@ resolve
 gBrowser
 .
 addTab
+=
+gBrowser
+.
+loadOneTab
 =
 function
 (
