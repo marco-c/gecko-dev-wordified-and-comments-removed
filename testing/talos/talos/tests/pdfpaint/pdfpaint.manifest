@@ -11,3 +11,16 @@ pdfpaint
 tracemonkey
 .
 pdf
+http
+:
+/
+/
+localhost
+/
+tests
+/
+pdfpaint
+/
+bug1722807_page2
+.
+pdf
