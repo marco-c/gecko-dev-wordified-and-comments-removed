@@ -373,7 +373,7 @@ DataSourceSurface
 MapType
 :
 :
-READ
+READ_WRITE
 &
 mMap
 )
@@ -603,7 +603,7 @@ DataSourceSurface
 MapType
 :
 :
-READ
+READ_WRITE
 &
 mYMap
 )
@@ -624,7 +624,7 @@ DataSourceSurface
 MapType
 :
 :
-READ
+READ_WRITE
 &
 mCbMap
 )
@@ -645,7 +645,7 @@ DataSourceSurface
 MapType
 :
 :
-READ
+READ_WRITE
 &
 mCrMap
 )

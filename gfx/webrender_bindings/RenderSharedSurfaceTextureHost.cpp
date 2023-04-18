@@ -145,7 +145,7 @@ DataSourceSurface
 MapType
 :
 :
-READ
+READ_WRITE
 &
 mMap
 )
