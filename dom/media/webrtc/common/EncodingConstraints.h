@@ -29,10 +29,6 @@ maxHeight
 (
 0
 )
-maxFps
-(
-0
-)
 maxFs
 (
 0
@@ -207,7 +203,10 @@ maxWidth
 uint32_t
 maxHeight
 ;
-uint32_t
+Maybe
+<
+double
+>
 maxFps
 ;
 uint32_t

@@ -4971,6 +4971,9 @@ fps
 "
 )
 {
+uint32_t
+maxFps
+;
 if
 (
 !
@@ -4983,8 +4986,6 @@ is
 0
 UINT32_MAX
 &
-constraints
-.
 maxFps
 error
 )
@@ -4994,6 +4995,15 @@ return
 false
 ;
 }
+constraints
+.
+maxFps
+=
+Some
+(
+maxFps
+)
+;
 }
 else
 if

@@ -14710,7 +14710,10 @@ mConstraints
 .
 maxFps
 =
+Some
+(
 15
+)
 ;
 }
 else
@@ -14828,7 +14831,10 @@ mConstraints
 .
 maxFps
 =
+Some
+(
 60
+)
 ;
 }
 else

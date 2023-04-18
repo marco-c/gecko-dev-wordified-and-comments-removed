@@ -3247,12 +3247,6 @@ true
 EncodingConstraints
 constraints
 ;
-constraints
-.
-maxFps
-=
-0
-;
 VideoCodecConfig
 codecConfig
 (
@@ -3377,7 +3371,10 @@ constraints
 .
 maxFps
 =
+Some
+(
 42
+)
 ;
 VideoCodecConfig
 codecConfig

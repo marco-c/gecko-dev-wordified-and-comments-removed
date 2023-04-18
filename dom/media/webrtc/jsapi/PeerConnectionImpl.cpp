@@ -3565,7 +3565,10 @@ mConstraints
 .
 maxFps
 =
+Some
+(
 mVP8MaxFr
+)
 ;
 }
 if
