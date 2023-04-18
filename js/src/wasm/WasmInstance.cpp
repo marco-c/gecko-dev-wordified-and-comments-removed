@@ -8012,10 +8012,6 @@ boundsCheckLimit_
 =
 limit
 ;
-instance_
-=
-this
-;
 cx_
 =
 cx
