@@ -64,6 +64,9 @@ UMEASURE_UNIT_COMPOUND
 UMEASURE_UNIT_MIXED
 }
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 typedef
 enum
 UMeasurePrefix
@@ -280,6 +283,8 @@ UMeasurePrefix
 unitPrefix
 )
 ;
+#
+endif
 class
 U_I18N_API
 MeasureUnit
@@ -427,6 +432,9 @@ status
 )
 const
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 MeasureUnit
 withPrefix
 (
@@ -447,6 +455,8 @@ status
 )
 const
 ;
+#
+endif
 MeasureUnit
 withDimensionality
 (
@@ -888,6 +898,9 @@ getKarat
 (
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 static
 MeasureUnit
 *
@@ -904,6 +917,8 @@ getMilligramOfglucosePerDeciliter
 (
 )
 ;
+#
+endif
 static
 MeasureUnit
 *

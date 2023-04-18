@@ -3052,6 +3052,16 @@ NT
 "
 }
 }
+Currencies
+%
+variant
+{
+GEL
+{
+"
+"
+}
+}
 CurrencyPlurals
 {
 ADP

@@ -2472,6 +2472,11 @@ Currencies
 %
 variant
 {
+GEL
+{
+"
+"
+}
 RUB
 {
 "

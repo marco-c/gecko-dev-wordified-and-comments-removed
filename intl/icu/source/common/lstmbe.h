@@ -135,8 +135,6 @@ rangeEnd
 UVector32
 &
 foundBreaks
-UBool
-isPhraseBreaking
 UErrorCode
 &
 status

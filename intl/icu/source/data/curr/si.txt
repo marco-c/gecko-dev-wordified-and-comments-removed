@@ -1919,6 +1919,11 @@ Currencies
 %
 variant
 {
+GEL
+{
+"
+"
+}
 RUB
 {
 "

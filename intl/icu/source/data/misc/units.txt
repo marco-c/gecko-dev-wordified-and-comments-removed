@@ -62,7 +62,7 @@ nofallback
 cldrVersion
 {
 "
-41
+40
 "
 }
 convertUnits

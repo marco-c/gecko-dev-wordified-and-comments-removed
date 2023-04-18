@@ -337,6 +337,9 @@ status
 const
 override
 ;
+#
+ifndef
+U_FORCE_HIDE_DRAFT_API
 virtual
 void
 getOffsetFromLocal
@@ -360,6 +363,8 @@ status
 const
 override
 ;
+#
+endif
 private
 :
 void

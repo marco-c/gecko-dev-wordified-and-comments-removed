@@ -191,6 +191,9 @@ status
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DRAFT_API
 virtual
 void
 getOffsetFromLocal
@@ -213,6 +216,8 @@ status
 )
 const
 ;
+#
+endif
 #
 ifndef
 U_HIDE_INTERNAL_API
