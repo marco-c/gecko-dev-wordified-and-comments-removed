@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 FormLikeFactory
 :
@@ -229,6 +235,8 @@ this
 .
 addElement
 (
+lazy
+.
 FormLikeFactory
 .
 createFromForm
@@ -267,6 +275,8 @@ this
 .
 addElement
 (
+lazy
+.
 FormLikeFactory
 .
 createFromField
@@ -522,6 +532,8 @@ const
 usernameField
 ]
 =
+lazy
+.
 LoginManagerChild
 .
 forWindow
@@ -1729,6 +1741,8 @@ this
 .
 addElement
 (
+lazy
+.
 FormLikeFactory
 .
 createFromForm
@@ -1758,6 +1772,8 @@ this
 .
 addElement
 (
+lazy
+.
 FormLikeFactory
 .
 createFromField

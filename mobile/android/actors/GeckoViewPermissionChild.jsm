@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 E10SUtils
 :
@@ -370,6 +376,8 @@ principal
 origin
 principal
 :
+lazy
+.
 E10SUtils
 .
 serializePrincipal

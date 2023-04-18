@@ -115,11 +115,17 @@ SCREEN_ORIENTATION_LANDSCAPE
 =
 1
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 E10SUtils
 :
@@ -445,6 +451,8 @@ this
 const
 history
 =
+lazy
+.
 SessionHistory
 .
 collect
@@ -565,6 +573,8 @@ displaySize
 ;
 formdata
 =
+lazy
+.
 PrivacyFilter
 .
 filterFormData
@@ -980,6 +990,8 @@ if
 history
 )
 {
+lazy
+.
 SessionHistory
 .
 restore
@@ -1286,6 +1298,8 @@ if
 formdata
 )
 {
+lazy
+.
 Utils
 .
 restoreFrameTreeData
@@ -1319,6 +1333,8 @@ if
 scrolldata
 )
 {
+lazy
+.
 Utils
 .
 restoreFrameTreeData

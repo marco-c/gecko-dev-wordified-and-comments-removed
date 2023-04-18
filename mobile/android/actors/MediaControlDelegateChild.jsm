@@ -51,11 +51,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 MediaUtils
 :
@@ -153,6 +159,8 @@ fullscreenElement
 const
 mediaElement
 =
+lazy
+.
 MediaUtils
 .
 findMediaElement
@@ -196,6 +204,8 @@ Fullscreen
 "
 metadata
 :
+lazy
+.
 MediaUtils
 .
 getMetadata
