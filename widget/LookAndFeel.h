@@ -349,6 +349,12 @@ ColorSchemeSettingForChrome
 ;
 static
 ColorScheme
+ThemeDerivedColorSchemeForContent
+(
+)
+;
+static
+ColorScheme
 ColorSchemeForChrome
 (
 )
