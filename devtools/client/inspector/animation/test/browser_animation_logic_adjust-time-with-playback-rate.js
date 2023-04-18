@@ -177,7 +177,8 @@ length
 1
 )
 ;
-clickOnPlaybackRateSelector
+await
+changePlaybackRateSelector
 (
 animationInspector
 panel
