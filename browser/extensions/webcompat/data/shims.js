@@ -8,6 +8,9 @@ AVAILABLE_SHIMS
 =
 [
 {
+hiddenInAboutCompat
+:
+true
 id
 :
 "
@@ -76,6 +79,9 @@ optIn
 ]
 }
 {
+hiddenInAboutCompat
+:
+true
 id
 :
 "
@@ -217,6 +223,9 @@ org
 ]
 }
 {
+hiddenInAboutCompat
+:
+true
 disabled
 :
 true
@@ -357,6 +366,9 @@ org
 ]
 }
 {
+hiddenInAboutCompat
+:
+true
 id
 :
 "
@@ -434,6 +446,9 @@ js
 ]
 }
 {
+hiddenInAboutCompat
+:
+true
 id
 :
 "
@@ -511,6 +526,9 @@ js
 ]
 }
 {
+hiddenInAboutCompat
+:
+true
 id
 :
 "
@@ -587,6 +605,9 @@ js
 ]
 }
 {
+hiddenInAboutCompat
+:
+true
 id
 :
 "
@@ -2195,9 +2216,12 @@ all
 name
 :
 "
-Legacy
 Google
 Analytics
+(
+legacy
+version
+)
 "
 bug
 :
@@ -2594,7 +2618,8 @@ all
 name
 :
 "
-GoogleTrends
+Google
+Trends
 "
 bug
 :
