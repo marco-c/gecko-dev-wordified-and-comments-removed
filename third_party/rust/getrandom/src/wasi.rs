@@ -55,7 +55,6 @@ len
 (
 )
 )
-}
 .
 map_err
 (
@@ -71,7 +70,7 @@ Error
 NonZeroU32
 :
 :
-new
+new_unchecked
 (
 e
 .
@@ -82,13 +81,10 @@ as
 u32
 )
 .
-unwrap
-(
-)
-.
 into
 (
 )
 }
 )
+}
 }
