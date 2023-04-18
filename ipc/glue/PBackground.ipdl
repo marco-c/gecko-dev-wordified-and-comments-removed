@@ -98,6 +98,10 @@ PBackgroundSessionStorageManager
 ;
 include
 protocol
+PBackgroundSessionStorageService
+;
+include
+protocol
 PBackgroundStorage
 ;
 include
@@ -436,6 +440,9 @@ PBackgroundLocalStorageCache
 ;
 manages
 PBackgroundSessionStorageManager
+;
+manages
+PBackgroundSessionStorageService
 ;
 manages
 PBackgroundStorage
@@ -835,6 +842,11 @@ PBackgroundSessionStorageManager
 (
 uint64_t
 aTopContextId
+)
+;
+async
+PBackgroundSessionStorageService
+(
 )
 ;
 async
