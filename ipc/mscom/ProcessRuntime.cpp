@@ -329,14 +329,6 @@ ProcessCategory
 :
 :
 GeckoBrowserParent
-&
-&
-ActCtxResource
-:
-:
-GetAccessibilityResourceId
-(
-)
 )
 {
 mActCtxRgn
