@@ -440,11 +440,6 @@ mAccentColorForeground
 kWhite
 ;
 nscolor
-mMozScrollbar
-=
-kWhite
-;
-nscolor
 mMozColHeaderText
 =
 kBlack

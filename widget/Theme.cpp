@@ -6596,6 +6596,7 @@ Colors
 colors
 (
 aFrame
+aAppearance
 )
 ;
 DPIRatio
