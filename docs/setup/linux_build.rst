@@ -362,6 +362,7 @@ apt
 -
 get
 install
+curl
 python3
 python3
 -
