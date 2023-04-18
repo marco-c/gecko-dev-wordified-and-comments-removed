@@ -4153,6 +4153,9 @@ ResumeAt
 InlinedStandardCall
 InlinedFunCall
 InlinedAccessor
+Last
+=
+InlinedAccessor
 }
 ;
 inline
