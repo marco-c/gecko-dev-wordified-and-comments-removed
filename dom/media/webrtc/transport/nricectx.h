@@ -1240,11 +1240,6 @@ bool
 online
 )
 ;
-nsresult
-Finalize
-(
-)
-;
 void
 AccumulateStats
 (
