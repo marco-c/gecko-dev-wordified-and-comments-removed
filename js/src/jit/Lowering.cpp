@@ -18130,6 +18130,9 @@ ins
 }
 else
 {
+#
+ifdef
+DEBUG
 auto
 *
 lir
@@ -18155,6 +18158,16 @@ ins
 0
 )
 ;
+#
+else
+redefine
+(
+ins
+input
+)
+;
+#
+endif
 }
 #
 else
