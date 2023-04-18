@@ -3824,10 +3824,7 @@ mInputDeviceID
 ;
 if
 (
-CubebUtils
-:
-:
-CubebStreamInit
+cubeb_stream_init
 (
 cubebContext
 &

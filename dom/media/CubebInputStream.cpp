@@ -513,10 +513,7 @@ if
 int
 r
 =
-CubebUtils
-:
-:
-CubebStreamInit
+cubeb_stream_init
 (
 context
 &

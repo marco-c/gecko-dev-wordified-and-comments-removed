@@ -1359,10 +1359,7 @@ DeviceID
 }
 if
 (
-CubebUtils
-:
-:
-CubebStreamInit
+cubeb_stream_init
 (
 aContext
 &
