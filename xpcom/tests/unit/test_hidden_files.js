@@ -6,6 +6,13 @@ TmpD
 "
 ;
 const
+CWD
+=
+do_get_cwd
+(
+)
+;
+const
 {
 Services
 }
