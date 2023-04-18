@@ -2324,6 +2324,10 @@ aDT
 {
 if
 (
+!
+mWebgl
+|
+|
 mWebgl
 -
 >
@@ -2583,6 +2587,10 @@ IsContextLost
 const
 {
 return
+!
+mWebgl
+|
+|
 mWebgl
 -
 >
