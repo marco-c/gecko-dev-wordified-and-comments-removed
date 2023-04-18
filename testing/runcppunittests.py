@@ -1925,10 +1925,9 @@ active_tests
         
 )
     
-final_tests
+errors
 =
-[
-]
+False
     
 log
 =
@@ -1945,6 +1944,7 @@ tests
 :
         
 if
+not
 os
 .
 path
@@ -1958,19 +1958,13 @@ test
 )
 :
             
-final_tests
-.
-append
-(
-test
-)
-        
-else
-:
+errors
+=
+True
             
 log
 .
-warning
+error
 (
 "
 test
@@ -1980,8 +1974,6 @@ found
 :
 %
 s
--
-skipped
 "
 %
 test
@@ -1990,8 +1982,28 @@ test
 ]
 )
     
+if
+errors
+:
+        
+raise
+RuntimeError
+(
+"
+One
+or
+more
+cppunittests
+not
+found
+;
+aborting
+.
+"
+)
+    
 return
-final_tests
+tests
 def
 update_mozinfo
 (
