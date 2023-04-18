@@ -1989,6 +1989,8 @@ SysOp_offset
 ;
 enum
 InstructionCacheOp
+:
+uint32_t
 {
 IVAU
 =
@@ -2006,6 +2008,8 @@ value
 ;
 enum
 DataCacheOp
+:
+uint32_t
 {
 CVAC
 =
@@ -2083,6 +2087,8 @@ value
 ;
 enum
 GenericInstrField
+:
+uint32_t
 {
 SixtyFourBits
 =
@@ -2106,6 +2112,8 @@ FP64
 ;
 enum
 NEONFormatField
+:
+uint32_t
 {
 NEONFormatFieldMask
 =
@@ -2149,6 +2157,8 @@ NEON_Q
 ;
 enum
 NEONFPFormatField
+:
+uint32_t
 {
 NEONFPFormatFieldMask
 =
@@ -2178,6 +2188,8 @@ NEON_Q
 ;
 enum
 NEONLSFormatField
+:
+uint32_t
 {
 NEONLSFormatFieldMask
 =
@@ -2218,6 +2230,8 @@ NEON_Q
 ;
 enum
 NEONScalarFormatField
+:
+uint32_t
 {
 NEONScalarFormatFieldMask
 =
@@ -2241,6 +2255,8 @@ NEON_D
 ;
 enum
 PCRelAddressingOp
+:
+uint32_t
 {
 PCRelAddressingFixed
 =
@@ -2271,6 +2287,8 @@ kSFOffset
 ;
 enum
 AddSubOp
+:
+uint32_t
 {
 AddSubOpMask
 =
@@ -2324,6 +2342,8 @@ SUBS
 )
 enum
 AddSubImmediateOp
+:
+uint32_t
 {
 AddSubImmediateFixed
 =
@@ -2371,6 +2391,8 @@ ADD_SUB_IMMEDIATE
 ;
 enum
 AddSubShiftedOp
+:
+uint32_t
 {
 AddSubShiftedFixed
 =
@@ -2418,6 +2440,8 @@ ADD_SUB_SHIFTED
 ;
 enum
 AddSubExtendedOp
+:
+uint32_t
 {
 AddSubExtendedFixed
 =
@@ -2465,6 +2489,8 @@ ADD_SUB_EXTENDED
 ;
 enum
 AddSubWithCarryOp
+:
+uint32_t
 {
 AddSubWithCarryFixed
 =
@@ -2533,6 +2559,8 @@ SixtyFourBits
 ;
 enum
 RotateRightIntoFlagsOp
+:
+uint32_t
 {
 RotateRightIntoFlagsFixed
 =
@@ -2552,6 +2580,8 @@ RotateRightIntoFlagsFixed
 ;
 enum
 EvaluateIntoFlagsOp
+:
+uint32_t
 {
 EvaluateIntoFlagsFixed
 =
@@ -2576,6 +2606,8 @@ EvaluateIntoFlagsFixed
 ;
 enum
 LogicalOp
+:
+uint32_t
 {
 LogicalOpMask
 =
@@ -2619,6 +2651,8 @@ NOT
 ;
 enum
 LogicalImmediateOp
+:
+uint32_t
 {
 LogicalImmediateFixed
 =
@@ -2681,6 +2715,8 @@ SixtyFourBits
 ;
 enum
 LogicalShiftedOp
+:
+uint32_t
 {
 LogicalShiftedFixed
 =
@@ -2815,6 +2851,8 @@ BICS_w
 ;
 enum
 MoveWideImmediateOp
+:
+uint32_t
 {
 MoveWideImmediateFixed
 =
@@ -2880,6 +2918,8 @@ kBitfieldNOffset
 ;
 enum
 BitfieldOp
+:
+uint32_t
 {
 BitfieldFixed
 =
@@ -2933,6 +2973,8 @@ UBFM_w
 ;
 enum
 ExtractOp
+:
+uint32_t
 {
 ExtractFixed
 =
@@ -2960,6 +3002,8 @@ EXTR_w
 ;
 enum
 UnconditionalBranchOp
+:
+uint32_t
 {
 UnconditionalBranchFixed
 =
@@ -2984,6 +3028,8 @@ UnconditionalBranchFixed
 ;
 enum
 UnconditionalBranchToRegisterOp
+:
+uint32_t
 {
 UnconditionalBranchToRegisterFixed
 =
@@ -3063,6 +3109,8 @@ UnconditionalBranchToRegisterFixed
 ;
 enum
 CompareBranchOp
+:
+uint32_t
 {
 CompareBranchFixed
 =
@@ -3103,6 +3151,8 @@ CBNZ_w
 ;
 enum
 TestBranchOp
+:
+uint32_t
 {
 TestBranchFixed
 =
@@ -3127,6 +3177,8 @@ TestBranchFixed
 ;
 enum
 ConditionalBranchOp
+:
+uint32_t
 {
 ConditionalBranchFixed
 =
@@ -3146,6 +3198,8 @@ ConditionalBranchFixed
 ;
 enum
 SystemOp
+:
+uint32_t
 {
 SystemFixed
 =
@@ -3157,6 +3211,8 @@ SystemFMask
 ;
 enum
 SystemSysRegOp
+:
+uint32_t
 {
 SystemSysRegFixed
 =
@@ -3181,6 +3237,8 @@ SystemSysRegFixed
 ;
 enum
 SystemPStateOp
+:
+uint32_t
 {
 SystemPStateFixed
 =
@@ -3210,6 +3268,8 @@ SystemPStateFixed
 ;
 enum
 SystemHintOp
+:
+uint32_t
 {
 SystemHintFixed
 =
@@ -3229,6 +3289,8 @@ SystemHintFixed
 ;
 enum
 SystemSysOp
+:
+uint32_t
 {
 SystemSysFixed
 =
@@ -3248,6 +3310,8 @@ SystemSysFixed
 ;
 enum
 ExceptionOp
+:
+uint32_t
 {
 ExceptionFixed
 =
@@ -3302,6 +3366,8 @@ ExceptionFixed
 ;
 enum
 MemBarrierOp
+:
+uint32_t
 {
 MemBarrierFixed
 =
@@ -3331,6 +3397,8 @@ MemBarrierFixed
 ;
 enum
 SystemExclusiveMonitorOp
+:
+uint32_t
 {
 SystemExclusiveMonitorFixed
 =
@@ -3348,6 +3416,8 @@ SystemExclusiveMonitorFixed
 ;
 enum
 SystemPAuthOp
+:
+uint32_t
 {
 SystemPAuthFixed
 =
@@ -3425,6 +3495,8 @@ XPACLRI
 ;
 enum
 LoadStoreAnyOp
+:
+uint32_t
 {
 LoadStoreAnyFMask
 =
@@ -3436,6 +3508,8 @@ LoadStoreAnyFixed
 ;
 enum
 LoadStorePairAnyOp
+:
+uint32_t
 {
 LoadStorePairAnyFMask
 =
@@ -3530,6 +3604,8 @@ q
 )
 enum
 LoadStorePairOp
+:
+uint32_t
 {
 LoadStorePairMask
 =
@@ -3569,6 +3645,8 @@ LOAD_STORE_PAIR
 ;
 enum
 LoadStorePairPostIndexOp
+:
+uint32_t
 {
 LoadStorePairPostIndexFixed
 =
@@ -3619,6 +3697,8 @@ LOAD_STORE_PAIR_POST_INDEX
 ;
 enum
 LoadStorePairPreIndexOp
+:
+uint32_t
 {
 LoadStorePairPreIndexFixed
 =
@@ -3669,6 +3749,8 @@ LOAD_STORE_PAIR_PRE_INDEX
 ;
 enum
 LoadStorePairOffsetOp
+:
+uint32_t
 {
 LoadStorePairOffsetFixed
 =
@@ -3719,6 +3801,8 @@ LOAD_STORE_PAIR_OFFSET
 ;
 enum
 LoadStorePairNonTemporalOp
+:
+uint32_t
 {
 LoadStorePairNonTemporalFixed
 =
@@ -3789,6 +3873,8 @@ LDP_q
 ;
 enum
 LoadStorePACOp
+:
+uint32_t
 {
 LoadStorePACFixed
 =
@@ -3826,6 +3912,8 @@ LDRAB
 ;
 enum
 LoadLiteralOp
+:
+uint32_t
 {
 LoadLiteralFixed
 =
@@ -4065,6 +4153,8 @@ q
 )
 enum
 LoadStoreOp
+:
+uint32_t
 {
 LoadStoreMask
 =
@@ -4108,6 +4198,8 @@ PRFM
 ;
 enum
 LoadStoreUnscaledOffsetOp
+:
+uint32_t
 {
 LoadStoreUnscaledOffsetFixed
 =
@@ -4161,6 +4253,8 @@ LOAD_STORE_UNSCALED
 ;
 enum
 LoadStorePostIndex
+:
+uint32_t
 {
 LoadStorePostIndexFixed
 =
@@ -4209,6 +4303,8 @@ LOAD_STORE_POST_INDEX
 ;
 enum
 LoadStorePreIndex
+:
+uint32_t
 {
 LoadStorePreIndexFixed
 =
@@ -4257,6 +4353,8 @@ LOAD_STORE_PRE_INDEX
 ;
 enum
 LoadStoreUnsignedOffset
+:
+uint32_t
 {
 LoadStoreUnsignedOffsetFixed
 =
@@ -4310,6 +4408,8 @@ LOAD_STORE_UNSIGNED_OFFSET
 ;
 enum
 LoadStoreRegisterOffset
+:
+uint32_t
 {
 LoadStoreRegisterOffsetFixed
 =
@@ -4363,6 +4463,8 @@ LOAD_STORE_REGISTER_OFFSET
 ;
 enum
 LoadStoreExclusive
+:
+uint32_t
 {
 LoadStoreExclusiveFixed
 =
@@ -4742,6 +4844,8 @@ LSEBit_sz
 ;
 enum
 LoadStoreRCpcUnscaledOffsetOp
+:
+uint32_t
 {
 LoadStoreRCpcUnscaledOffsetFixed
 =
@@ -4875,6 +4979,8 @@ LDUMIN
 )
 enum
 AtomicMemoryOp
+:
+uint32_t
 {
 AtomicMemoryFixed
 =
@@ -5190,6 +5296,8 @@ ATOMIC_MEMORY_SIMPLE
 ;
 enum
 ConditionalCompareOp
+:
+uint32_t
 {
 ConditionalCompareMask
 =
@@ -5204,6 +5312,8 @@ CCMP
 ;
 enum
 ConditionalCompareRegisterOp
+:
+uint32_t
 {
 ConditionalCompareRegisterFixed
 =
@@ -5242,6 +5352,8 @@ CCMP
 ;
 enum
 ConditionalCompareImmediateOp
+:
+uint32_t
 {
 ConditionalCompareImmediateFixed
 =
@@ -5280,6 +5392,8 @@ CCMP
 ;
 enum
 ConditionalSelectOp
+:
+uint32_t
 {
 ConditionalSelectFixed
 =
@@ -5346,6 +5460,8 @@ CSNEG_w
 ;
 enum
 DataProcessing1SourceOp
+:
+uint32_t
 {
 DataProcessing1SourceFixed
 =
@@ -5522,6 +5638,8 @@ DataProcessing1SourceFixed
 ;
 enum
 DataProcessing2SourceOp
+:
+uint32_t
 {
 DataProcessing2SourceFixed
 =
@@ -5665,6 +5783,8 @@ SixtyFourBits
 ;
 enum
 DataProcessing3SourceOp
+:
+uint32_t
 {
 DataProcessing3SourceFixed
 =
@@ -5735,6 +5855,8 @@ DataProcessing3SourceFixed
 ;
 enum
 FPCompareOp
+:
+uint32_t
 {
 FPCompareFixed
 =
@@ -5837,6 +5959,8 @@ FCMPE_s_zero
 ;
 enum
 FPConditionalCompareOp
+:
+uint32_t
 {
 FPConditionalCompareFixed
 =
@@ -5895,6 +6019,8 @@ FCCMPE_s
 ;
 enum
 FPConditionalSelectOp
+:
+uint32_t
 {
 FPConditionalSelectFixed
 =
@@ -5931,6 +6057,8 @@ FCSEL_s
 ;
 enum
 FPImmediateOp
+:
+uint32_t
 {
 FPImmediateFixed
 =
@@ -5964,6 +6092,8 @@ FP64
 ;
 enum
 FPDataProcessing1SourceOp
+:
+uint32_t
 {
 FPDataProcessing1SourceFixed
 =
@@ -6314,6 +6444,8 @@ FRINTI_s
 ;
 enum
 FPDataProcessing2SourceOp
+:
+uint32_t
 {
 FPDataProcessing2SourceFixed
 =
@@ -6490,6 +6622,8 @@ FP64
 ;
 enum
 FPDataProcessing3SourceOp
+:
+uint32_t
 {
 FPDataProcessing3SourceFixed
 =
@@ -6564,6 +6698,8 @@ FPDataProcessing3SourceFixed
 ;
 enum
 FPIntegerConvertOp
+:
+uint32_t
 {
 FPIntegerConvertFixed
 =
@@ -7091,6 +7227,8 @@ FP64
 ;
 enum
 FPFixedPointConvertOp
+:
+uint32_t
 {
 FPFixedPointConvertFixed
 =
@@ -7253,6 +7391,8 @@ FP64
 ;
 enum
 Crypto2RegSHAOp
+:
+uint32_t
 {
 Crypto2RegSHAFixed
 =
@@ -7264,6 +7404,8 @@ Crypto2RegSHAFMask
 ;
 enum
 Crypto3RegSHAOp
+:
+uint32_t
 {
 Crypto3RegSHAFixed
 =
@@ -7275,6 +7417,8 @@ Crypto3RegSHAFMask
 ;
 enum
 CryptoAESOp
+:
+uint32_t
 {
 CryptoAESFixed
 =
@@ -7286,6 +7430,8 @@ CryptoAESFMask
 ;
 enum
 NEON2RegMiscOp
+:
+uint32_t
 {
 NEON2RegMiscFixed
 =
@@ -7666,6 +7812,8 @@ NEON2RegMiscOpcode
 ;
 enum
 NEON2RegMiscFP16Op
+:
+uint32_t
 {
 NEON2RegMiscFP16Fixed
 =
@@ -7825,6 +7973,8 @@ NEON2RegMiscFP16Fixed
 ;
 enum
 NEON3SameOp
+:
+uint32_t
 {
 NEON3SameFixed
 =
@@ -8319,6 +8469,8 @@ NEON3SameFixed
 ;
 enum
 NEON3SameFP16
+:
+uint32_t
 {
 NEON3SameFP16Fixed
 =
@@ -8453,6 +8605,8 @@ NEON3SameFP16Fixed
 ;
 enum
 NEON3SameExtraOp
+:
+uint32_t
 {
 NEON3SameExtraFixed
 =
@@ -8518,6 +8672,8 @@ NEON3SameExtraFCFixed
 ;
 enum
 NEON3DifferentOp
+:
+uint32_t
 {
 NEON3DifferentFixed
 =
@@ -8792,6 +8948,8 @@ NEON_Q
 ;
 enum
 NEONAcrossLanesOp
+:
+uint32_t
 {
 NEONAcrossLanesFixed
 =
@@ -8911,6 +9069,8 @@ NEONAcrossLanesFPFixed
 ;
 enum
 NEONByIndexedElementOp
+:
+uint32_t
 {
 NEONByIndexedElementFixed
 =
@@ -9106,6 +9266,8 @@ NEONByIndexedElementFixed
 ;
 enum
 NEONCopyOp
+:
+uint32_t
 {
 NEONCopyFixed
 =
@@ -9178,6 +9340,8 @@ NEONCopyFixed
 ;
 enum
 NEONExtractOp
+:
+uint32_t
 {
 NEONExtractFixed
 =
@@ -9197,6 +9361,8 @@ NEONExtractFixed
 ;
 enum
 NEONLoadStoreMultiOp
+:
+uint32_t
 {
 NEONLoadStoreMultiL
 =
@@ -9226,6 +9392,8 @@ NEONLoadStoreMulti4
 ;
 enum
 NEONLoadStoreMultiStructOp
+:
+uint32_t
 {
 NEONLoadStoreMultiStructFixed
 =
@@ -9318,6 +9486,8 @@ NEONLoadStoreMulti4
 ;
 enum
 NEONLoadStoreMultiStructPostIndexOp
+:
+uint32_t
 {
 NEONLoadStoreMultiStructPostIndexFixed
 =
@@ -9405,6 +9575,8 @@ NEONLoadStoreMultiStructPostIndex
 ;
 enum
 NEONLoadStoreSingleOp
+:
+uint32_t
 {
 NEONLoadStoreSingle1
 =
@@ -9443,6 +9615,8 @@ NEONLoadStoreSingleLenMask
 ;
 enum
 NEONLoadStoreSingleStructOp
+:
+uint32_t
 {
 NEONLoadStoreSingleStructFixed
 =
@@ -9685,6 +9859,8 @@ NEONLoadStoreSingle_d
 ;
 enum
 NEONLoadStoreSingleStructPostIndexOp
+:
+uint32_t
 {
 NEONLoadStoreSingleStructPostIndexFixed
 =
@@ -9882,6 +10058,8 @@ NEONLoadStoreSingleStructPostIndex
 ;
 enum
 NEONModifiedImmediateOp
+:
+uint32_t
 {
 NEONModifiedImmediateFixed
 =
@@ -9921,6 +10099,8 @@ NEONModifiedImmediateFixed
 ;
 enum
 NEONShiftImmediateOp
+:
+uint32_t
 {
 NEONShiftImmediateFixed
 =
@@ -10078,6 +10258,8 @@ NEONShiftImmediateFixed
 ;
 enum
 NEONTableOp
+:
+uint32_t
 {
 NEONTableFixed
 =
@@ -10135,6 +10317,8 @@ NEONTableExt
 ;
 enum
 NEONPermOp
+:
+uint32_t
 {
 NEONPermFixed
 =
@@ -10179,6 +10363,8 @@ NEONPermFixed
 ;
 enum
 NEONScalar2RegMiscOp
+:
+uint32_t
 {
 NEONScalar2RegMiscFixed
 =
@@ -10453,6 +10639,8 @@ NEON_FCVTXN
 ;
 enum
 NEONScalar2RegMiscFP16Op
+:
+uint32_t
 {
 NEONScalar2RegMiscFP16Fixed
 =
@@ -10605,6 +10793,8 @@ NEON_FRSQRTE_H
 ;
 enum
 NEONScalar3SameOp
+:
+uint32_t
 {
 NEONScalar3SameFixed
 =
@@ -10851,6 +11041,8 @@ NEON_FABD
 ;
 enum
 NEONScalar3DiffOp
+:
+uint32_t
 {
 NEONScalar3DiffFixed
 =
@@ -10890,6 +11082,8 @@ NEON_SQDMULL
 ;
 enum
 NEONScalarByIndexedElementOp
+:
+uint32_t
 {
 NEONScalarByIndexedElementFixed
 =
@@ -11019,6 +11213,8 @@ NEON_FMULX_byelement
 ;
 enum
 NEONScalarCopyOp
+:
+uint32_t
 {
 NEONScalarCopyFixed
 =
@@ -11040,6 +11236,8 @@ NEON_DUP_ELEMENT
 ;
 enum
 NEONScalarPairwiseOp
+:
+uint32_t
 {
 NEONScalarPairwiseFixed
 =
@@ -11109,6 +11307,8 @@ NEONScalarPairwiseFixed
 ;
 enum
 NEONScalarShiftImmediateOp
+:
+uint32_t
 {
 NEONScalarShiftImmediateFixed
 =
@@ -11291,6 +11491,8 @@ NEON_FCVTZU_imm
 ;
 enum
 ReservedOp
+:
+uint32_t
 {
 ReservedFixed
 =
@@ -11310,6 +11512,8 @@ ReservedFixed
 ;
 enum
 UnimplementedOp
+:
+uint32_t
 {
 UnimplementedFixed
 =
@@ -11321,6 +11525,8 @@ UnimplementedFMask
 ;
 enum
 UnallocatedOp
+:
+uint32_t
 {
 UnallocatedFixed
 =
