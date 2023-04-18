@@ -2103,15 +2103,6 @@ UniquePtr
 frontend
 :
 :
-ExtensibleCompilationStencil
->
-extensibleStencil_
-;
-UniquePtr
-<
-frontend
-:
-:
 CompilationGCOutput
 >
 gcOutput_
