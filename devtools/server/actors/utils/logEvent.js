@@ -214,6 +214,11 @@ displayName
 .
 bindings
 }
+{
+hideFromDebugger
+:
+true
+}
 )
 ;
 let
