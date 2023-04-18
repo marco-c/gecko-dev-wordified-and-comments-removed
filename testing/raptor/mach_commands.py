@@ -1269,6 +1269,14 @@ browsertime_visualmetrics
 self
 .
 browsertime_visualmetrics
+            
+"
+mozbuild_path
+"
+:
+get_state_dir
+(
+)
         
 }
         
