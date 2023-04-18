@@ -321,6 +321,13 @@ mPreferredAlternativeDataType
 =
 mPreferredAlternativeDataType
 ;
+copy
+-
+>
+mSkipWasmCaching
+=
+mSkipWasmCaching
+;
 return
 copy
 ;
@@ -783,6 +790,12 @@ mSkipServiceWorker
 aOther
 .
 mSkipServiceWorker
+)
+mSkipWasmCaching
+(
+aOther
+.
+mSkipWasmCaching
 )
 mSynchronous
 (
