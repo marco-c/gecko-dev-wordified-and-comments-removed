@@ -115,13 +115,6 @@ initialize
 (
 )
 ;
-await
-this
-.
-takeVisibleScreenshot
-(
-)
-;
 }
 initialize
 (
