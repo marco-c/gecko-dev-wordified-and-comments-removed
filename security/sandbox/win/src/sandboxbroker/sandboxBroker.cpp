@@ -7269,6 +7269,11 @@ sandbox
 :
 :
 MITIGATION_IMAGE_LOAD_PREFER_SYS32
+|
+sandbox
+:
+:
+MITIGATION_CET_COMPAT_MODE
 ;
 const
 Maybe
