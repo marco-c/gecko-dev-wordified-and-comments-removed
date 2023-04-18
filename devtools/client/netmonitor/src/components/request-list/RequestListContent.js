@@ -163,6 +163,7 @@ const
 getDisplayedRequests
 getColumns
 getSelectedRequest
+getClickedRequest
 }
 =
 require
@@ -2241,11 +2242,10 @@ ui
 networkDetailsHeight
 clickedRequest
 :
+getClickedRequest
+(
 state
-.
-requests
-.
-clickedRequest
+)
 displayedRequests
 :
 getDisplayedRequests
