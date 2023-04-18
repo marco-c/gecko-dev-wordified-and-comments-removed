@@ -1145,7 +1145,7 @@ mWorkerRef
 #
 ifdef
 MOZ_DOM_STREAMS
-ErrorResult
+IgnoredErrorResult
 rv
 ;
 RefPtr
@@ -1215,12 +1215,6 @@ mReader
 )
 readRequest
 rv
-)
-;
-rv
-.
-WouldReportJSException
-(
 )
 ;
 if
