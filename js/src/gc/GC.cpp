@@ -21864,16 +21864,7 @@ target
 {
 MOZ_ASSERT
 (
-source
--
->
-creationOptions
-(
-)
-.
-mergeable
-(
-)
+false
 )
 ;
 MOZ_ASSERT
