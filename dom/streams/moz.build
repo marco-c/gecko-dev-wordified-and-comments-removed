@@ -93,11 +93,6 @@ ReadableStreamGenericReader
 h
 "
 "
-ReadableStreamPipeTo
-.
-h
-"
-"
 ReadableStreamTee
 .
 h
@@ -204,11 +199,6 @@ cpp
 "
 "
 ReadableStreamDefaultReader
-.
-cpp
-"
-"
-ReadableStreamPipeTo
 .
 cpp
 "
