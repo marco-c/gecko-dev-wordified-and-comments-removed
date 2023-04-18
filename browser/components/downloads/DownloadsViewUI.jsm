@@ -1090,6 +1090,15 @@ openInSystemViewerItemEnabled
 |
 !
 canViewInternally
+|
+|
+!
+download
+.
+target
+?
+.
+exists
 ;
 alwaysUseSystemViewerItem
 .
