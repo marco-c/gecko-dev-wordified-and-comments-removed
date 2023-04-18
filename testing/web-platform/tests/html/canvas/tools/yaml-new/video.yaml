@@ -18,6 +18,13 @@ with
 invalid
 video
 .
+canvasType
+:
+[
+'
+HTMLCanvas
+'
+]
 testing
 :
 -

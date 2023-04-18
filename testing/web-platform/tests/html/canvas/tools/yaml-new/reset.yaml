@@ -13,6 +13,13 @@ clears
 to
 transparent
 black
+canvasType
+:
+[
+'
+HTMLCanvas
+'
+]
 code
 :
 |
