@@ -1396,6 +1396,8 @@ nodes
 )
 mainSession
 .
+autofillSession
+.
 autofill
 (
 autofillValues
@@ -1587,6 +1589,8 @@ lobster
 "
 )
 mainSession
+.
+autofillSession
 .
 autofill
 (
