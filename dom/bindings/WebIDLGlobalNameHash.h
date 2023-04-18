@@ -40,6 +40,12 @@ mozilla
 namespace
 dom
 {
+enum
+class
+BindingNamesOffset
+:
+uint16_t
+;
 namespace
 constructors
 {
@@ -78,7 +84,7 @@ JSObject
 obj
 )
 ;
-uint16_t
+BindingNamesOffset
 mNameOffset
 ;
 uint16_t
@@ -286,13 +292,6 @@ static
 const
 WebIDLNameTableEntry
 sEntries
-[
-]
-;
-static
-const
-char
-sNames
 [
 ]
 ;
