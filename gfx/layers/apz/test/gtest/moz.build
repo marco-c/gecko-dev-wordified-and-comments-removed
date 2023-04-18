@@ -18,6 +18,11 @@ MockHitTester
 cpp
 "
 "
+TestAxisLock
+.
+cpp
+"
+"
 TestBasic
 .
 cpp

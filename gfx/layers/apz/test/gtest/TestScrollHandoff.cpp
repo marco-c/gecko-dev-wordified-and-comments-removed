@@ -1158,6 +1158,13 @@ ScrollDirection
 eVertical
 )
 ;
+childApzc
+-
+>
+AssertStateIsPanningLockedY
+(
+)
+;
 }
 }
 ;

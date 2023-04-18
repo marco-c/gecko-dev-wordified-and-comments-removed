@@ -1748,6 +1748,11 @@ EndTouch
 (
 TimeStamp
 aTimestamp
+Axis
+:
+:
+ClearAxisLock
+aClearAxisLock
 )
 ;
 void
@@ -1988,12 +1993,6 @@ UniquePtr
 PlatformSpecificStateBase
 >
 mPlatformSpecificState
-;
-AxisX
-mX
-;
-AxisY
-mY
 ;
 bool
 mPanDirRestricted
@@ -2448,6 +2447,12 @@ SCROLLBAR_DRAG
 ;
 PanZoomState
 mState
+;
+AxisX
+mX
+;
+AxisY
+mY
 ;
 static
 bool
