@@ -154,7 +154,6 @@ ENABLE_WASM_EXCEPTIONS
 )
 ExceptionNew
 ThrowException
-ConsumePendingException
 PushRefIntoExn
 #
 endif
@@ -535,11 +534,6 @@ extern
 const
 SymbolicAddressSignature
 SASigThrowException
-;
-extern
-const
-SymbolicAddressSignature
-SASigConsumePendingException
 ;
 extern
 const

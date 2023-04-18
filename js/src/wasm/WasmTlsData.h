@@ -93,6 +93,9 @@ ENABLE_WASM_EXCEPTIONS
 GCPtrObject
 pendingException
 ;
+uint32_t
+pendingExceptionTagIndex
+;
 #
 endif
 Atomic
