@@ -21,6 +21,15 @@ PTRRService
 manager
 PSocketProcess
 ;
+parent
+:
+async
+NotifyNetworkConnectivityServiceObservers
+(
+nsCString
+aTopic
+)
+;
 child
 :
 async

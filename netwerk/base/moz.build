@@ -1493,6 +1493,12 @@ base
 /
 netwerk
 /
+dns
+"
+"
+/
+netwerk
+/
 protocol
 /
 http
