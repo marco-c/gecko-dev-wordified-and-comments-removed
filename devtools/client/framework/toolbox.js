@@ -3417,6 +3417,15 @@ actorID
 }
 )
 ;
+this
+.
+selectTarget
+(
+targetFront
+.
+actorID
+)
+;
 }
 _onTargetDestroyed
 (
