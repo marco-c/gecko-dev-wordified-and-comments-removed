@@ -560,6 +560,13 @@ ClearCachedResources
 )
 ;
 async
+SetDefaultClearColor
+(
+uint32_t
+aColor
+)
+;
+async
 InvalidateRenderedFrame
 (
 )

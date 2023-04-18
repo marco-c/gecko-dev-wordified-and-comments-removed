@@ -1573,6 +1573,13 @@ GetPreviouslyAttachedWidgetListener
 0
 ;
 virtual
+void
+DidGetContentfulPaint
+(
+)
+{
+}
+virtual
 nsIWidgetListener
 *
 GetWidgetListener
