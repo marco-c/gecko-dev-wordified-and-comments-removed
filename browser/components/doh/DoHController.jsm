@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AsyncShutdown
 :
@@ -191,7 +197,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 kIsInAutomation
 "
@@ -209,7 +215,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 kNetworkDebounceTimeout
 "
@@ -231,7 +237,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 kHeuristicsThrottleTimeout
 "
@@ -253,7 +259,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 kHeuristicsRateLimit
 "
@@ -277,7 +283,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gCaptivePortalService
 "
@@ -305,7 +311,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gDNSService
 "
@@ -331,7 +337,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gNetworkLinkService
 "
@@ -553,6 +559,8 @@ getHashedNetworkID
 let
 currentNetworkID
 =
+lazy
+.
 gNetworkLinkService
 .
 networkID
@@ -607,6 +615,8 @@ SHA256
 let
 clientNetworkID
 =
+lazy
+.
 ClientID
 .
 getClientID
@@ -707,6 +717,8 @@ true
 )
 ;
 await
+lazy
+.
 DoHConfigController
 .
 initComplete
@@ -718,11 +730,15 @@ obs
 addObserver
 (
 this
+lazy
+.
 DoHConfigController
 .
 kConfigUpdateTopic
 )
 ;
+lazy
+.
 Preferences
 .
 observe
@@ -731,6 +747,8 @@ NETWORK_TRR_MODE_PREF
 this
 )
 ;
+lazy
+.
 Preferences
 .
 observe
@@ -741,6 +759,8 @@ this
 ;
 if
 (
+lazy
+.
 DoHConfigController
 .
 currentConfig
@@ -759,6 +779,8 @@ maybeEnableHeuristics
 else
 if
 (
+lazy
+.
 Preferences
 .
 get
@@ -798,6 +820,8 @@ shutdown
 ;
 }
 ;
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange
@@ -818,6 +842,8 @@ this
 _asyncShutdownBlocker
 )
 ;
+lazy
+.
 Preferences
 .
 set
@@ -839,11 +865,15 @@ obs
 removeObserver
 (
 this
+lazy
+.
 DoHConfigController
 .
 kConfigUpdateTopic
 )
 ;
+lazy
+.
 Preferences
 .
 ignore
@@ -852,6 +882,8 @@ NETWORK_TRR_MODE_PREF
 this
 )
 ;
+lazy
+.
 Preferences
 .
 ignore
@@ -860,6 +892,8 @@ NETWORK_TRR_URI_PREF
 this
 )
 ;
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange
@@ -984,6 +1018,8 @@ org
 const
 isMigrated
 =
+lazy
+.
 Preferences
 .
 get
@@ -1022,6 +1058,8 @@ return
 const
 storagePrincipal
 =
+lazy
+.
 ExtensionStorageIDB
 .
 getStoragePrincipal
@@ -1035,6 +1073,8 @@ const
 idbConn
 =
 await
+lazy
+.
 ExtensionStorageIDB
 .
 open
@@ -1123,6 +1163,8 @@ rollout
 item
 ;
 }
+lazy
+.
 Preferences
 .
 set
@@ -1147,6 +1189,8 @@ close
 (
 )
 ;
+lazy
+.
 Preferences
 .
 set
@@ -1178,6 +1222,8 @@ mode
 ;
 if
 (
+lazy
+.
 Preferences
 .
 get
@@ -1195,6 +1241,8 @@ return
 }
 if
 (
+lazy
+.
 Preferences
 .
 get
@@ -1207,6 +1255,8 @@ NETWORK_TRR_MODE_PREF
 5
 )
 {
+lazy
+.
 Preferences
 .
 reset
@@ -1215,6 +1265,8 @@ NETWORK_TRR_MODE_PREF
 )
 ;
 }
+lazy
+.
 Preferences
 .
 reset
@@ -1324,6 +1376,8 @@ prefsToMigrate
 if
 (
 !
+lazy
+.
 Preferences
 .
 isSet
@@ -1335,11 +1389,15 @@ pref
 continue
 ;
 }
+lazy
+.
 Preferences
 .
 set
 (
 pref
+lazy
+.
 Preferences
 .
 get
@@ -1363,6 +1421,8 @@ maybeEnableHeuristics
 {
 if
 (
+lazy
+.
 Preferences
 .
 get
@@ -1378,6 +1438,8 @@ let
 policyResult
 =
 await
+lazy
+.
 Heuristics
 .
 checkEnterprisePolicy
@@ -1411,6 +1473,8 @@ policyDisabled
 "
 )
 ;
+lazy
+.
 Preferences
 .
 set
@@ -1422,6 +1486,8 @@ true
 return
 ;
 }
+lazy
+.
 Preferences
 .
 reset
@@ -1431,6 +1497,8 @@ SKIP_HEURISTICS_PREF
 ;
 if
 (
+lazy
+.
 Preferences
 .
 isSet
@@ -1439,6 +1507,8 @@ NETWORK_TRR_MODE_PREF
 )
 |
 |
+lazy
+.
 Preferences
 .
 isSet
@@ -1457,6 +1527,8 @@ manuallyDisabled
 "
 )
 ;
+lazy
+.
 Preferences
 .
 set
@@ -1478,6 +1550,8 @@ runTRRSelection
 if
 (
 !
+lazy
+.
 Preferences
 .
 isSet
@@ -1486,11 +1560,15 @@ ROLLOUT_URI_PREF
 )
 )
 {
+lazy
+.
 Preferences
 .
 set
 (
 ROLLOUT_URI_PREF
+lazy
+.
 DoHConfigController
 .
 currentConfig
@@ -1547,6 +1625,8 @@ _throttleHeuristics
 {
 if
 (
+lazy
+.
 kHeuristicsThrottleTimeout
 <
 0
@@ -1583,6 +1663,8 @@ this
 .
 _throttleTimer
 =
+lazy
+.
 setTimeout
 (
 this
@@ -1593,6 +1675,8 @@ bind
 (
 this
 )
+lazy
+.
 kHeuristicsThrottleTimeout
 )
 ;
@@ -1615,6 +1699,8 @@ this
 .
 _runsWhileThrottling
 >
+lazy
+.
 kHeuristicsRateLimit
 )
 {
@@ -1632,6 +1718,8 @@ _throttleHeuristics
 ;
 if
 (
+lazy
+.
 kIsInAutomation
 )
 {
@@ -1689,6 +1777,8 @@ false
 ;
 if
 (
+lazy
+.
 kIsInAutomation
 )
 {
@@ -1756,6 +1846,8 @@ let
 results
 =
 await
+lazy
+.
 Heuristics
 .
 run
@@ -1765,6 +1857,8 @@ run
 if
 (
 !
+lazy
+.
 gNetworkLinkService
 .
 isLinkUp
@@ -1777,11 +1871,15 @@ _lastDebounceTimestamp
 start
 |
 |
+lazy
+.
 gCaptivePortalService
 .
 state
 =
 =
+lazy
+.
 gCaptivePortalService
 .
 LOCKED_PORTAL
@@ -1802,15 +1900,21 @@ results
 .
 includes
 (
+lazy
+.
 Heuristics
 .
 DISABLE_DOH
 )
 ?
+lazy
+.
 Heuristics
 .
 DISABLE_DOH
 :
+lazy
+.
 Heuristics
 .
 ENABLE_DOH
@@ -1825,12 +1929,16 @@ getCaptiveStateString
 {
 switch
 (
+lazy
+.
 gCaptivePortalService
 .
 state
 )
 {
 case
+lazy
+.
 gCaptivePortalService
 .
 NOT_CAPTIVE
@@ -1841,6 +1949,8 @@ not_captive
 "
 ;
 case
+lazy
+.
 gCaptivePortalService
 .
 UNLOCKED_PORTAL
@@ -1851,6 +1961,8 @@ unlocked
 "
 ;
 case
+lazy
+.
 gCaptivePortalService
 .
 LOCKED_PORTAL
@@ -1898,6 +2010,8 @@ results
 steeredProvider
 )
 {
+lazy
+.
 gDNSService
 .
 setDetectedTrrURI
@@ -1926,6 +2040,8 @@ decision
 =
 =
 =
+lazy
+.
 Heuristics
 .
 DISABLE_DOH
@@ -2001,6 +2117,8 @@ result
 !
 =
 =
+lazy
+.
 Heuristics
 .
 DISABLE_DOH
@@ -2204,6 +2322,8 @@ case
 disabled
 "
 :
+lazy
+.
 Preferences
 .
 set
@@ -2219,6 +2339,8 @@ case
 UIOk
 "
 :
+lazy
+.
 Preferences
 .
 set
@@ -2234,6 +2356,8 @@ case
 enabled
 "
 :
+lazy
+.
 Preferences
 .
 set
@@ -2242,6 +2366,8 @@ ROLLOUT_MODE_PREF
 2
 )
 ;
+lazy
+.
 Preferences
 .
 set
@@ -2267,6 +2393,8 @@ case
 UIDisabled
 "
 :
+lazy
+.
 Preferences
 .
 reset
@@ -2279,6 +2407,8 @@ case
 rollback
 "
 :
+lazy
+.
 Preferences
 .
 reset
@@ -2295,6 +2425,8 @@ shutdown
 :
 if
 (
+lazy
+.
 Preferences
 .
 get
@@ -2304,6 +2436,8 @@ true
 )
 )
 {
+lazy
+.
 Preferences
 .
 reset
@@ -2384,6 +2518,8 @@ this
 _debounceTimer
 )
 {
+lazy
+.
 clearTimeout
 (
 this
@@ -2404,6 +2540,8 @@ this
 _throttleTimer
 )
 {
+lazy
+.
 clearTimeout
 (
 this
@@ -2448,6 +2586,8 @@ runTRRSelection
 if
 (
 !
+lazy
+.
 DoHConfigController
 .
 currentConfig
@@ -2457,6 +2597,8 @@ trrSelection
 commitResult
 )
 {
+lazy
+.
 Preferences
 .
 reset
@@ -2468,6 +2610,8 @@ ROLLOUT_URI_PREF
 if
 (
 !
+lazy
+.
 DoHConfigController
 .
 currentConfig
@@ -2482,6 +2626,8 @@ return
 }
 if
 (
+lazy
+.
 Preferences
 .
 isSet
@@ -2490,6 +2636,8 @@ ROLLOUT_URI_PREF
 )
 &
 &
+lazy
+.
 Preferences
 .
 get
@@ -2498,6 +2646,8 @@ ROLLOUT_URI_PREF
 )
 =
 =
+lazy
+.
 Preferences
 .
 get
@@ -2519,6 +2669,8 @@ runTRRSelectionDryRun
 if
 (
 !
+lazy
+.
 DoHConfigController
 .
 currentConfig
@@ -2531,11 +2683,15 @@ commitResult
 return
 ;
 }
+lazy
+.
 Preferences
 .
 set
 (
 ROLLOUT_URI_PREF
+lazy
+.
 Preferences
 .
 get
@@ -2552,6 +2708,8 @@ runTRRSelectionDryRun
 {
 if
 (
+lazy
+.
 Preferences
 .
 isSet
@@ -2563,6 +2721,8 @@ TRR_SELECT_DRY_RUN_RESULT_PREF
 let
 dryRunResult
 =
+lazy
+.
 Preferences
 .
 get
@@ -2573,6 +2733,8 @@ TRR_SELECT_DRY_RUN_RESULT_PREF
 let
 dryRunResultIsValid
 =
+lazy
+.
 DoHConfigController
 .
 currentConfig
@@ -2608,6 +2770,8 @@ trrUri
 =
 >
 {
+lazy
+.
 Preferences
 .
 set
@@ -2642,6 +2806,8 @@ substring
 ;
 if
 (
+lazy
+.
 kIsInAutomation
 )
 {
@@ -2699,6 +2865,8 @@ resolve
 let
 trrList
 =
+lazy
+.
 DoHConfigController
 .
 currentConfig
@@ -2803,6 +2971,8 @@ data
 break
 ;
 case
+lazy
+.
 DoHConfigController
 .
 kConfigUpdateTopic
@@ -2834,6 +3004,8 @@ NETWORK_TRR_URI_PREF
 case
 NETWORK_TRR_MODE_PREF
 :
+lazy
+.
 Preferences
 .
 set
@@ -2874,6 +3046,8 @@ _debounceTimer
 return
 ;
 }
+lazy
+.
 clearTimeout
 (
 this
@@ -2898,6 +3072,8 @@ onConnectionChanged
 if
 (
 !
+lazy
+.
 gNetworkLinkService
 .
 isLinkUp
@@ -2924,6 +3100,8 @@ return
 }
 if
 (
+lazy
+.
 kNetworkDebounceTimeout
 <
 0
@@ -2952,6 +3130,8 @@ this
 .
 _debounceTimer
 =
+lazy
+.
 setTimeout
 (
 (
@@ -2972,6 +3152,8 @@ onConnectionChangedDebounced
 )
 ;
 }
+lazy
+.
 kNetworkDebounceTimeout
 )
 ;
@@ -2983,6 +3165,8 @@ onConnectionChangedDebounced
 if
 (
 !
+lazy
+.
 gNetworkLinkService
 .
 isLinkUp
@@ -2993,11 +3177,15 @@ return
 }
 if
 (
+lazy
+.
 gCaptivePortalService
 .
 state
 =
 =
+lazy
+.
 gCaptivePortalService
 .
 LOCKED_PORTAL

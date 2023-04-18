@@ -63,11 +63,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gDNSService
 "
@@ -93,7 +99,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gNetworkLinkService
 "
@@ -121,7 +127,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gParentalControlsService
 "
@@ -147,7 +153,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DoHConfigController
 "
@@ -169,7 +175,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Preferences
 "
@@ -593,6 +599,8 @@ try
 {
 request
 =
+lazy
+.
 gDNSService
 .
 asyncResolve
@@ -828,6 +836,8 @@ modifiedRoots
 let
 rootsEnabled
 =
+lazy
+.
 Preferences
 .
 get
@@ -867,6 +877,8 @@ parentalControls
 {
 if
 (
+lazy
+.
 gParentalControlsService
 .
 parentalControlsEnabled
@@ -1426,6 +1438,8 @@ try
 let
 linkService
 =
+lazy
+.
 gNetworkLinkService
 ;
 if
@@ -1548,6 +1562,8 @@ providerSteering
 if
 (
 !
+lazy
+.
 DoHConfigController
 .
 currentConfig
@@ -1574,6 +1590,8 @@ test
 let
 steeredProviders
 =
+lazy
+.
 DoHConfigController
 .
 currentConfig
