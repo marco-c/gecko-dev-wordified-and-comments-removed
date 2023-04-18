@@ -80,6 +80,15 @@ GetSingleton
 (
 )
 ;
+static
+RefPtr
+<
+UtilityProcessManager
+>
+GetIfExists
+(
+)
+;
 RefPtr
 <
 GenericNonExclusivePromise
