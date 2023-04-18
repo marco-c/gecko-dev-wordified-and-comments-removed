@@ -1,5 +1,17 @@
+import
+pktPanelMessaging
+from
+"
+.
+.
+/
+messages
+.
+js
+"
+;
 var
-PKT_PANEL_OVERLAY
+SignupOverlay
 =
 function
 (
@@ -26,7 +38,7 @@ function
 (
 )
 {
-thePKT_PANEL
+pktPanelMessaging
 .
 clickHelper
 (
@@ -44,7 +56,7 @@ learn_more
 }
 )
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 clickHelper
 (
@@ -66,7 +78,7 @@ sign_up_1
 }
 )
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 clickHelper
 (
@@ -88,7 +100,7 @@ sign_up_2
 }
 )
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 clickHelper
 (
@@ -298,4 +310,8 @@ PKT_show_signup
 }
 ;
 }
+;
+export
+default
+SignupOverlay
 ;
