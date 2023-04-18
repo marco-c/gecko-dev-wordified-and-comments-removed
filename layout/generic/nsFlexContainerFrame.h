@@ -740,12 +740,6 @@ FlexLine
 aLines
 nsTArray
 <
-StrutInfo
->
-&
-aStruts
-nsTArray
-<
 nsIFrame
 *
 >
@@ -761,6 +755,12 @@ nscoord
 aCrossGapSize
 bool
 aHasLineClampEllipsis
+nsTArray
+<
+StrutInfo
+>
+&
+aStruts
 ComputedFlexContainerInfo
 *
 const
