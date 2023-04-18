@@ -1482,8 +1482,7 @@ nsString
 aKey
 )
 true
-131072
-4096
+0
 &
 initInfo
 )

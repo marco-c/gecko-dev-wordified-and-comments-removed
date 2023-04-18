@@ -264,10 +264,6 @@ aIncreasePeakUsage
 const
 int64_t
 &
-aRequestedSize
-const
-int64_t
-&
 aMinSize
 LSSnapshotInitInfo
 *

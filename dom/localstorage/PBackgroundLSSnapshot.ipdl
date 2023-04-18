@@ -588,8 +588,6 @@ sync
 IncreasePeakUsage
 (
 int64_t
-requestedSize
-int64_t
 minSize
 )
 returns
