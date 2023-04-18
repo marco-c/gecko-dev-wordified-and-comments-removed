@@ -3957,6 +3957,8 @@ DeviceManagerDx
 :
 CreateDecoderDevice
 (
+bool
+aHardwareWebRender
 )
 {
 bool
@@ -4049,6 +4051,9 @@ reuseDevice
 {
 if
 (
+aHardwareWebRender
+&
+&
 mCompositorDevice
 &
 &

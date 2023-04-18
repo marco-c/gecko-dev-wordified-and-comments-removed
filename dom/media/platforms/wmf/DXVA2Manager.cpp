@@ -4776,6 +4776,19 @@ if
 mDevice
 )
 {
+bool
+useHardwareWebRender
+=
+aKnowsCompositor
+&
+&
+aKnowsCompositor
+-
+>
+UsingHardwareWebRender
+(
+)
+;
 mDevice
 =
 gfx
@@ -4791,6 +4804,7 @@ Get
 >
 CreateDecoderDevice
 (
+useHardwareWebRender
 )
 ;
 if
