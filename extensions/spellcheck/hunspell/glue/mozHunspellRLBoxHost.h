@@ -370,9 +370,11 @@ aFilename
 ;
 friend
 RLBoxHunspell
-:
-:
+*
 RLBoxHunspell
+:
+:
+Create
 (
 const
 nsAutoCString
