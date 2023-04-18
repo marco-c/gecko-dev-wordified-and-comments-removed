@@ -161,6 +161,13 @@ generateUUID
 toString
 (
 )
+.
+slice
+(
+1
+-
+1
+)
 ;
 this
 .
