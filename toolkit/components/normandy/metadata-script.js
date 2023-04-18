@@ -102,11 +102,9 @@ getCapabilities
 )
 ;
 await
-OS
+IOUtils
 .
-File
-.
-writeAtomic
+writeUTF8
 (
 outPath
 JSON
