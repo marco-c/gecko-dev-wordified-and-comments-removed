@@ -47,7 +47,7 @@ LOCAL_INCLUDES
 /
 media
 /
-ffvpx
+mozva
 '
 '
 include

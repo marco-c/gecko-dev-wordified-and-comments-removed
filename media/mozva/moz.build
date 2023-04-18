@@ -8,17 +8,6 @@ mozva
 c
 '
 ]
-LOCAL_INCLUDES
-+
-=
-[
-'
-/
-media
-/
-ffvpx
-'
-]
 Library
 (
 '

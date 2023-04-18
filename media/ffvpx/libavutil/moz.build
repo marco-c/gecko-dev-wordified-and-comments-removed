@@ -309,6 +309,17 @@ MOZ_WAYLAND
 "
 ]
 :
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+media
+/
+mozva
+'
+]
 SOURCES
 +
 =
