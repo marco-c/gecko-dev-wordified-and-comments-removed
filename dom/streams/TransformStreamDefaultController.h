@@ -248,7 +248,6 @@ nsIGlobalObject
 >
 mGlobal
 ;
-MOZ_KNOWN_LIVE
 RefPtr
 <
 TransformStream

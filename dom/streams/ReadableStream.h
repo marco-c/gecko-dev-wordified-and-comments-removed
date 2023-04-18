@@ -677,7 +677,6 @@ aRv
 ;
 private
 :
-MOZ_KNOWN_LIVE
 RefPtr
 <
 ReadableStreamController
