@@ -2957,6 +2957,11 @@ traceFn
 {
 MOZ_ASSERT
 (
+data
+)
+;
+MOZ_ASSERT
+(
 !
 CurrentThreadIsIonCompiling
 (
@@ -3057,6 +3062,11 @@ T
 data
 )
 {
+MOZ_ASSERT
+(
+data
+)
+;
 PreWriteBarrier
 (
 zone

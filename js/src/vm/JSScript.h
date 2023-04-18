@@ -5583,11 +5583,12 @@ mutableFlags_
 {
 }
 ;
+GCStructPtr
+<
 PrivateScriptData
 *
+>
 data_
-=
-nullptr
 ;
 RefPtr
 <
