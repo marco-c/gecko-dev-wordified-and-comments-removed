@@ -1047,6 +1047,16 @@ ActiveScrolledRoot
 >
 mAsrStack
 ;
+std
+:
+:
+vector
+<
+nsDisplayTransform
+*
+>
+mDeferredTransformStack
+;
 const
 ActiveScrolledRoot
 *
