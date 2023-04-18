@@ -5307,9 +5307,6 @@ result
 lcSearch
 attributeType
 targetDocument
-node
-.
-rawNode
 )
 ;
 this
@@ -5341,7 +5338,6 @@ result
 search
 attributeType
 targetDocument
-nodeRawNode
 )
 {
 const
@@ -5398,18 +5394,6 @@ of
 matchingElements
 )
 {
-if
-(
-element
-=
-=
-=
-nodeRawNode
-)
-{
-return
-;
-}
 if
 (
 attributeType
