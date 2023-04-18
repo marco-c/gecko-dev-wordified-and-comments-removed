@@ -108076,22 +108076,6 @@ config
                     
 )
             
-builder
-.
-add
-(
-d
-.
-nativeType
-+
-"
-Atoms
-"
-isStruct
-=
-True
-)
-            
 for
 m
 in
