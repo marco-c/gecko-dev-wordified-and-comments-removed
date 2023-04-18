@@ -16350,6 +16350,14 @@ c_str
 if
 (
 mWindow
+&
+&
+mWindow
+-
+>
+GetBrowsingContext
+(
+)
 )
 {
 report
