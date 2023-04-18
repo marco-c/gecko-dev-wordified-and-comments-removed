@@ -318,9 +318,8 @@ mShutdown
 )
 {
 return
-IPC_FAIL_NO_REASON
+IPC_OK
 (
-this
 )
 ;
 }
@@ -639,9 +638,8 @@ mShutdown
 )
 {
 return
-IPC_FAIL_NO_REASON
+IPC_OK
 (
-this
 )
 ;
 }
@@ -861,9 +859,8 @@ mShutdown
 )
 {
 return
-IPC_FAIL_NO_REASON
+IPC_OK
 (
-this
 )
 ;
 }
