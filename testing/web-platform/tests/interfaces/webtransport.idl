@@ -267,6 +267,11 @@ packetsSent
 ;
 unsigned
 long
+long
+packetsLost
+;
+unsigned
+long
 numOutgoingStreamsCreated
 ;
 unsigned
