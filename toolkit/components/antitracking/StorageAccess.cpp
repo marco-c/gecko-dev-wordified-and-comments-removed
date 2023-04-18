@@ -605,14 +605,6 @@ nullptr
 if
 (
 aWindow
-&
-&
-StaticPrefs
-:
-:
-privacy_antitracking_cacheStorageAllowedForWindow
-(
-)
 )
 {
 win
