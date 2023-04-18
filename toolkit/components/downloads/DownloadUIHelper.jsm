@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -111,7 +117,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -251,6 +257,8 @@ allowPrivate
 isPrivate
 |
 |
+lazy
+.
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
@@ -285,6 +293,8 @@ browser
 {
 browserWin
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -680,6 +690,8 @@ ex
 let
 leafName
 =
+lazy
+.
 OS
 .
 Path

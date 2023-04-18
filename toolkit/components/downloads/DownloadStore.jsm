@@ -45,11 +45,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Downloads
 "
@@ -72,7 +78,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gTextDecoder
 "
@@ -93,7 +99,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gTextEncoder
 "
@@ -230,6 +236,8 @@ JSON
 .
 parse
 (
+lazy
+.
 gTextDecoder
 .
 decode
@@ -254,6 +262,8 @@ let
 download
 =
 await
+lazy
+.
 Downloads
 .
 createDownload
@@ -555,6 +565,8 @@ atLeastOneDownload
 let
 bytes
 =
+lazy
+.
 gTextEncoder
 .
 encode

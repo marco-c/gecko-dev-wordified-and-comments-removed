@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Downloads
 :
@@ -239,6 +245,8 @@ getList
 {
 type
 =
+lazy
+.
 Downloads
 .
 PUBLIC
@@ -290,6 +298,8 @@ _listPromises
 key
 ]
 =
+lazy
+.
 Downloads
 .
 getList
@@ -364,12 +374,16 @@ isPrivate
 |
 |
 !
+lazy
+.
 PlacesUtils
 .
 history
 .
 canAddURI
 (
+lazy
+.
 PlacesUtils
 .
 toURI
@@ -708,6 +722,8 @@ let
 pageAnnos
 =
 await
+lazy
+.
 PlacesUtils
 .
 history
@@ -880,6 +896,8 @@ let
 targetFile
 =
 new
+lazy
+.
 FileUtils
 .
 File
@@ -927,6 +945,8 @@ let
 originalPageInfo
 =
 await
+lazy
+.
 PlacesUtils
 .
 history
@@ -944,6 +964,8 @@ let
 pageInfo
 =
 await
+lazy
+.
 PlacesUtils
 .
 history
@@ -984,6 +1006,8 @@ download
 startTime
 transition
 :
+lazy
+.
 PlacesUtils
 .
 history
@@ -1014,6 +1038,8 @@ null
 )
 ;
 await
+lazy
+.
 PlacesUtils
 .
 history
@@ -1118,6 +1144,8 @@ newData
 try
 {
 await
+lazy
+.
 PlacesUtils
 .
 history
@@ -1629,6 +1657,8 @@ size
 =
 (
 await
+lazy
+.
 OS
 .
 File
@@ -1896,6 +1926,8 @@ options
 {
 }
 ;
+lazy
+.
 PlacesUtils
 .
 history
@@ -1910,6 +1942,8 @@ options
 let
 result
 =
+lazy
+.
 PlacesUtils
 .
 history
