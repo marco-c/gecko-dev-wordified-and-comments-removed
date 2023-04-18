@@ -14907,7 +14907,7 @@ MOZ_ASSERT
 ins
 -
 >
-tlsPtr
+instance
 (
 )
 -

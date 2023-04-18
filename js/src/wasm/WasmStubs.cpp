@@ -16259,7 +16259,7 @@ ReturnReg
 ResumeFromException
 :
 :
-offsetOfTlsData
+offsetOfInstance
 (
 )
 )

@@ -2809,7 +2809,7 @@ frame
 rfe
 -
 >
-tlsData
+instance
 =
 iter
 .
@@ -3799,7 +3799,7 @@ int
 funcExportIndex
 Instance
 *
-tlsData
+instance
 Value
 *
 argv
@@ -3820,7 +3820,7 @@ Code
 &
 code
 =
-tlsData
+instance
 -
 >
 code

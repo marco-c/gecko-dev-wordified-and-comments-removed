@@ -13351,7 +13351,7 @@ InstanceReg
 ;
 }
 int32_t
-framePushedAfterTls
+framePushedAfterInstance
 =
 framePushed
 (
@@ -13495,13 +13495,13 @@ compilingWasm
 )
 {
 int32_t
-tlsOffset
+instanceOffset
 =
 framePushed
 (
 )
 -
-framePushedAfterTls
+framePushedAfterInstance
 ;
 setupWasmABICall
 (
@@ -13531,7 +13531,7 @@ mozilla
 :
 Some
 (
-tlsOffset
+instanceOffset
 )
 )
 ;
@@ -16951,7 +16951,7 @@ Maybe
 <
 int32_t
 >
-tlsOffset
+instanceOffset
 MoveOp
 :
 :
@@ -16982,7 +16982,7 @@ true
 ;
 if
 (
-tlsOffset
+instanceOffset
 )
 {
 loadPtr
@@ -16993,7 +16993,7 @@ getStackPointer
 (
 )
 *
-tlsOffset
+instanceOffset
 +
 stackAdjust
 )
@@ -17006,7 +17006,7 @@ else
 MOZ_CRASH
 (
 "
-tlsOffset
+instanceOffset
 is
 Nothing
 only
@@ -21177,7 +21177,7 @@ done
 ;
 const
 Register
-newTlsTemp
+newInstanceTemp
 =
 WasmTableCallScratchReg1
 ;
@@ -21195,7 +21195,7 @@ FunctionTableElem
 instance
 )
 )
-newTlsTemp
+newInstanceTemp
 )
 ;
 branchPtr
@@ -21205,7 +21205,7 @@ Assembler
 :
 Equal
 InstanceReg
-newTlsTemp
+newInstanceTemp
 &
 fastCall
 )
@@ -21224,7 +21224,7 @@ WasmCallerInstanceOffsetBeforeCall
 ;
 movePtr
 (
-newTlsTemp
+newInstanceTemp
 InstanceReg
 )
 ;

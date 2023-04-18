@@ -4892,7 +4892,7 @@ BytecodeOffset
 bytecodeOffset_
 ;
 bool
-preserveTls_
+preserveInstance_
 ;
 public
 :
@@ -4919,7 +4919,7 @@ BytecodeOffset
 (
 )
 bool
-preserveTls
+preserveInstance
 =
 false
 )
@@ -4940,9 +4940,9 @@ bytecodeOffset_
 (
 bytecodeOffset
 )
-preserveTls_
+preserveInstance_
 (
-preserveTls
+preserveInstance
 )
 {
 }
@@ -4995,13 +4995,13 @@ widenFloatToDouble_
 ;
 }
 bool
-preserveTls
+preserveInstance
 (
 )
 const
 {
 return
-preserveTls_
+preserveInstance_
 ;
 }
 wasm
@@ -5039,7 +5039,7 @@ wasm
 BytecodeOffset
 bytecodeOffset
 bool
-preserveTls
+preserveInstance
 )
 {
 MOZ_ASSERT_IF
@@ -5070,7 +5070,7 @@ src
 dest
 false
 bytecodeOffset
-preserveTls
+preserveInstance
 )
 ;
 addOutOfLineCode

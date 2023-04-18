@@ -400,7 +400,7 @@ wasm
 :
 Instance
 *
-tlsData
+instance
 ;
 JS
 :
@@ -481,7 +481,7 @@ kind
 }
 static
 size_t
-offsetOfTlsData
+offsetOfInstance
 (
 )
 {
@@ -489,7 +489,7 @@ return
 offsetof
 (
 ResumeFromException
-tlsData
+instance
 )
 ;
 }

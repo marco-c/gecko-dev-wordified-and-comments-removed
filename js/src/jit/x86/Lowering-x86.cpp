@@ -2466,7 +2466,7 @@ useRegisterAtStart
 ins
 -
 >
-tlsPtr
+instance
 (
 )
 )
@@ -4464,7 +4464,7 @@ useFixedAtStart
 div
 -
 >
-tls
+instance
 (
 )
 InstanceReg
@@ -4525,7 +4525,7 @@ useFixedAtStart
 div
 -
 >
-tls
+instance
 (
 )
 InstanceReg
@@ -4703,7 +4703,7 @@ useFixedAtStart
 mod
 -
 >
-tls
+instance
 (
 )
 InstanceReg
@@ -4754,7 +4754,7 @@ useFixedAtStart
 mod
 -
 >
-tls
+instance
 (
 )
 InstanceReg

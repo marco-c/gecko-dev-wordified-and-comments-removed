@@ -3060,7 +3060,7 @@ ToRegister
 ins
 -
 >
-tlsPtr
+instance
 (
 )
 )
@@ -6299,7 +6299,7 @@ InstanceReg
 ;
 }
 int32_t
-framePushedAfterTls
+framePushedAfterInstance
 =
 masm
 .
@@ -6340,7 +6340,7 @@ DOUBLE
 )
 ;
 int32_t
-tlsOffset
+instanceOffset
 =
 masm
 .
@@ -6348,7 +6348,7 @@ framePushed
 (
 )
 -
-framePushedAfterTls
+framePushedAfterInstance
 ;
 masm
 .
@@ -6372,7 +6372,7 @@ mozilla
 :
 Some
 (
-tlsOffset
+instanceOffset
 )
 )
 ;
@@ -6864,7 +6864,7 @@ InstanceReg
 ;
 }
 int32_t
-framePushedAfterTls
+framePushedAfterInstance
 =
 masm
 .
@@ -6946,7 +6946,7 @@ compilingWasm
 )
 {
 int32_t
-tlsOffset
+instanceOffset
 =
 masm
 .
@@ -6954,7 +6954,7 @@ framePushed
 (
 )
 -
-framePushedAfterTls
+framePushedAfterInstance
 ;
 masm
 .
@@ -6978,7 +6978,7 @@ mozilla
 :
 Some
 (
-tlsOffset
+instanceOffset
 )
 )
 ;
@@ -7588,7 +7588,7 @@ getOperand
 LDivOrModI64
 :
 :
-Tls
+Instance
 )
 )
 =
@@ -7604,7 +7604,7 @@ InstanceReg
 )
 ;
 int32_t
-framePushedAfterTls
+framePushedAfterInstance
 =
 masm
 .
@@ -7881,7 +7881,7 @@ low
 )
 ;
 int32_t
-tlsOffset
+instanceOffset
 =
 masm
 .
@@ -7889,7 +7889,7 @@ framePushed
 (
 )
 -
-framePushedAfterTls
+framePushedAfterInstance
 ;
 if
 (
@@ -7923,7 +7923,7 @@ mozilla
 :
 Some
 (
-tlsOffset
+instanceOffset
 )
 )
 ;
@@ -7952,7 +7952,7 @@ mozilla
 :
 Some
 (
-tlsOffset
+instanceOffset
 )
 )
 ;
@@ -8026,7 +8026,7 @@ getOperand
 LDivOrModI64
 :
 :
-Tls
+Instance
 )
 )
 =
@@ -8042,7 +8042,7 @@ InstanceReg
 )
 ;
 int32_t
-framePushedAfterTls
+framePushedAfterInstance
 =
 masm
 .
@@ -8210,7 +8210,7 @@ mir
 )
 ;
 int32_t
-tlsOffset
+instanceOffset
 =
 masm
 .
@@ -8218,7 +8218,7 @@ framePushed
 (
 )
 -
-framePushedAfterTls
+framePushedAfterInstance
 ;
 if
 (
@@ -8252,7 +8252,7 @@ mozilla
 :
 Some
 (
-tlsOffset
+instanceOffset
 )
 )
 ;
@@ -8281,7 +8281,7 @@ mozilla
 :
 Some
 (
-tlsOffset
+instanceOffset
 )
 )
 ;

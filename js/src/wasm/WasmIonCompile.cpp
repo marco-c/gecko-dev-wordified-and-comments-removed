@@ -471,7 +471,7 @@ blockPatches_
 ;
 MWasmParameter
 *
-tlsPointer_
+instancePointer_
 ;
 MWasmParameter
 *
@@ -573,7 +573,7 @@ blockDepth_
 (
 0
 )
-tlsPointer_
+instancePointer_
 (
 nullptr
 )
@@ -854,7 +854,7 @@ false
 ;
 }
 }
-tlsPointer_
+instancePointer_
 =
 MWasmParameter
 :
@@ -879,7 +879,7 @@ curBlock_
 >
 add
 (
-tlsPointer_
+instancePointer_
 )
 ;
 if
@@ -2503,7 +2503,7 @@ alloc
 )
 lhs
 rhs
-tlsPointer_
+instancePointer_
 unsignd
 trapOnError
 bytecodeOffset
@@ -2612,7 +2612,7 @@ alloc
 (
 )
 op
-tlsPointer_
+instancePointer_
 )
 ;
 }
@@ -2763,7 +2763,7 @@ alloc
 )
 lhs
 rhs
-tlsPointer_
+instancePointer_
 unsignd
 trapOnError
 bytecodeOffset
@@ -2810,7 +2810,7 @@ alloc
 )
 lhs
 rhs
-tlsPointer_
+instancePointer_
 type
 bytecodeOffset
 (
@@ -3265,7 +3265,7 @@ alloc
 (
 )
 op
-tlsPointer_
+instancePointer_
 type
 bytecodeOffset
 (
@@ -3432,7 +3432,7 @@ JS_CODEGEN_ARM
 )
 MDefinition
 *
-truncateWithTls
+truncateWithInstance
 (
 MDefinition
 *
@@ -3465,7 +3465,7 @@ alloc
 (
 )
 op
-tlsPointer_
+instancePointer_
 flags
 bytecodeOffset
 (
@@ -4296,13 +4296,13 @@ ins
 endif
 private
 :
-MWasmLoadTls
+MWasmLoadInstance
 *
 maybeLoadMemoryBase
 (
 )
 {
-MWasmLoadTls
+MWasmLoadInstance
 *
 load
 =
@@ -4344,7 +4344,7 @@ WasmHeapMeta
 ;
 load
 =
-MWasmLoadTls
+MWasmLoadInstance
 :
 :
 New
@@ -4352,7 +4352,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 wasm
 :
 :
@@ -4438,7 +4438,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 aliases
 )
 ;
@@ -4456,7 +4456,7 @@ base
 }
 private
 :
-MWasmLoadTls
+MWasmLoadInstance
 *
 maybeLoadBoundsCheckLimit
 (
@@ -4532,7 +4532,7 @@ auto
 *
 load
 =
-MWasmLoadTls
+MWasmLoadInstance
 :
 :
 New
@@ -4540,7 +4540,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 wasm
 :
 :
@@ -5006,7 +5006,7 @@ access
 ;
 }
 }
-MWasmLoadTls
+MWasmLoadInstance
 *
 needBoundsCheck
 (
@@ -5102,7 +5102,7 @@ MDefinition
 *
 *
 base
-MWasmLoadTls
+MWasmLoadInstance
 *
 boundsCheckLimit
 )
@@ -5343,7 +5343,7 @@ bytecodeOffset
 )
 ;
 }
-MWasmLoadTls
+MWasmLoadInstance
 *
 boundsCheckLimit
 =
@@ -5690,7 +5690,7 @@ return
 nullptr
 ;
 }
-MWasmLoadTls
+MWasmLoadInstance
 *
 memoryBase
 =
@@ -5726,7 +5726,7 @@ offset64
 0
 )
 ;
-MWasmLoadTls
+MWasmLoadInstance
 *
 boundsCheckLimit
 =
@@ -5857,7 +5857,7 @@ inDeadCode
 return
 ;
 }
-MWasmLoadTls
+MWasmLoadInstance
 *
 memoryBase
 =
@@ -5893,7 +5893,7 @@ offset64
 0
 )
 ;
-MWasmLoadTls
+MWasmLoadInstance
 *
 boundsCheckLimit
 =
@@ -6119,7 +6119,7 @@ newv
 cvtNewv
 ;
 }
-MWasmLoadTls
+MWasmLoadInstance
 *
 memoryBase
 =
@@ -6148,7 +6148,7 @@ base
 access
 oldv
 newv
-tlsPointer_
+instancePointer_
 )
 ;
 if
@@ -6299,7 +6299,7 @@ value
 cvtValue
 ;
 }
-MWasmLoadTls
+MWasmLoadInstance
 *
 memoryBase
 =
@@ -6327,7 +6327,7 @@ base
 *
 access
 value
-tlsPointer_
+instancePointer_
 )
 ;
 if
@@ -6480,7 +6480,7 @@ value
 cvtValue
 ;
 }
-MWasmLoadTls
+MWasmLoadInstance
 *
 memoryBase
 =
@@ -6509,7 +6509,7 @@ base
 *
 access
 value
-tlsPointer_
+instancePointer_
 )
 ;
 if
@@ -6973,7 +6973,7 @@ bytecodeIfNotAsmJS
 )
 )
 ;
-MWasmLoadTls
+MWasmLoadInstance
 *
 memoryBase
 =
@@ -7118,7 +7118,7 @@ bytecodeIfNotAsmJS
 )
 )
 ;
-MWasmLoadTls
+MWasmLoadInstance
 *
 memoryBase
 =
@@ -7265,7 +7265,7 @@ MIRType
 Pointer
 globalDataOffset
 true
-tlsPointer_
+instancePointer_
 )
 ;
 curBlock_
@@ -7306,7 +7306,7 @@ alloc
 type
 globalDataOffset
 isConst
-tlsPointer_
+instancePointer_
 )
 ;
 }
@@ -7370,7 +7370,7 @@ MIRType
 Pointer
 globalDataOffset
 true
-tlsPointer_
+instancePointer_
 )
 ;
 curBlock_
@@ -7436,7 +7436,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 valueAddr
 v
 AliasSet
@@ -7518,7 +7518,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 wasm
 :
 :
@@ -7579,7 +7579,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 valueAddr
 v
 AliasSet
@@ -7619,7 +7619,7 @@ alloc
 )
 globalDataOffset
 v
-tlsPointer_
+instancePointer_
 )
 ;
 curBlock_
@@ -7671,7 +7671,7 @@ auto
 *
 load
 =
-MWasmLoadTls
+MWasmLoadInstance
 :
 :
 New
@@ -7679,7 +7679,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 globalDataOffset
 type
 AliasSet
@@ -8004,7 +8004,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 loc
 value
 AliasSet
@@ -8058,7 +8058,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 bytecodeOffset
 (
 )
@@ -8914,7 +8914,7 @@ AnyRegister
 (
 InstanceReg
 )
-tlsPointer_
+instancePointer_
 )
 )
 )
@@ -10567,7 +10567,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 )
 )
 ;
@@ -10744,7 +10744,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 loc
 values
 [
@@ -10846,7 +10846,7 @@ values
 [
 i
 ]
-tlsPointer_
+instancePointer_
 )
 )
 ;
@@ -13236,7 +13236,7 @@ tagIndex
 .
 globalDataOffset
 true
-tlsPointer_
+instancePointer_
 )
 ;
 curBlock_
@@ -13267,7 +13267,7 @@ tag
 *
 exception
 =
-MWasmLoadTls
+MWasmLoadInstance
 :
 :
 New
@@ -13275,7 +13275,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 wasm
 :
 :
@@ -13313,7 +13313,7 @@ exception
 *
 tag
 =
-MWasmLoadTls
+MWasmLoadInstance
 :
 :
 New
@@ -13321,7 +13321,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 wasm
 :
 :
@@ -13380,7 +13380,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 Instance
 :
 :
@@ -13409,7 +13409,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 exceptionAddr
 exception
 AliasSet
@@ -13453,7 +13453,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 Instance
 :
 :
@@ -13482,7 +13482,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 exceptionTagAddr
 tag
 AliasSet
@@ -15348,7 +15348,7 @@ New
 alloc
 (
 )
-tlsPointer_
+instancePointer_
 exception
 fieldAddr
 argValues
@@ -16379,7 +16379,7 @@ alloc
 (
 )
 op
-tlsPointer_
+instancePointer_
 bytecodeOffset
 (
 )
@@ -20081,7 +20081,7 @@ setResult
 (
 f
 .
-truncateWithTls
+truncateWithInstance
 (
 input
 flags

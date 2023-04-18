@@ -483,7 +483,7 @@ INT64_PIECES
 static
 const
 size_t
-Tls
+Instance
 =
 2
 *
@@ -502,7 +502,7 @@ rhs
 const
 LAllocation
 &
-tls
+instance
 )
 :
 LCallInstructionHelper
@@ -524,8 +524,8 @@ rhs
 ;
 setOperand
 (
-Tls
-tls
+Instance
+instance
 )
 ;
 }
@@ -751,7 +751,7 @@ INT64_PIECES
 static
 const
 size_t
-Tls
+Instance
 =
 2
 *
@@ -770,7 +770,7 @@ rhs
 const
 LAllocation
 &
-tls
+instance
 )
 :
 LCallInstructionHelper
@@ -792,8 +792,8 @@ rhs
 ;
 setOperand
 (
-Tls
-tls
+Instance
+instance
 )
 ;
 }

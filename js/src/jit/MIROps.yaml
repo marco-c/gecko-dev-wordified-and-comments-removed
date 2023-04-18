@@ -9064,14 +9064,14 @@ false
 -
 name
 :
-WasmLoadTls
+WasmLoadInstance
 gen_boilerplate
 :
 false
 -
 name
 :
-WasmStoreTls
+WasmStoreInstance
 gen_boilerplate
 :
 false
