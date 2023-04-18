@@ -100,7 +100,7 @@ package
 edition
 =
 "
-2018
+2021
 "
 name
 =
@@ -110,7 +110,7 @@ wast
 version
 =
 "
-39
+41
 .
 0
 .
@@ -133,6 +133,8 @@ com
 description
 =
 "
+"
+"
 Customizable
 Rust
 parsers
@@ -144,8 +146,8 @@ formats
 WAT
 and
 WAST
-\
-n
+"
+"
 "
 homepage
 =
@@ -229,6 +231,11 @@ main
 crates
 /
 wast
+"
+resolver
+=
+"
+2
 "
 [
 [

@@ -105,11 +105,11 @@ i32
 )
 (
 call_indirect
+t
 (
 type
 ty
 )
-t
 (
 i32
 .

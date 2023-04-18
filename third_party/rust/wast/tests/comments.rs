@@ -339,6 +339,9 @@ Documented
 wast
 :
 :
+core
+:
+:
 Module
 >
 =
@@ -417,6 +420,9 @@ d
 Documented
 <
 wast
+:
+:
+core
 :
 :
 Func
