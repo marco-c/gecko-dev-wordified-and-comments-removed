@@ -2595,6 +2595,8 @@ cur_x
 Float
 clipDist
 =
+clamp
+(
 left
 .
 cur_x
@@ -2606,6 +2608,13 @@ leftClip
 recip
 (
 clipStep
+)
+0
+.
+0f
+1
+.
+0e6f
 )
 ;
 Float
