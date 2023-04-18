@@ -69,6 +69,8 @@ nsCString
 aUrl
 uint64_t
 aEmbedderInnerWindowID
+bool
+aIsPrivateBrowsing
 )
 ;
 size_t
@@ -148,6 +150,16 @@ return
 mEmbedderInnerWindowID
 ;
 }
+bool
+IsPrivateBrowsing
+(
+)
+const
+{
+return
+mIsPrivateBrowsing
+;
+}
 mozilla
 :
 :
@@ -199,6 +211,10 @@ mUrl
 const
 uint64_t
 mEmbedderInnerWindowID
+;
+const
+bool
+mIsPrivateBrowsing
 ;
 mozilla
 :

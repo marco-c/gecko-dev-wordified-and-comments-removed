@@ -271,6 +271,8 @@ nsCString
 aUrl
 uint64_t
 aEmbedderInnerWindowID
+bool
+aIsPrivateBrowsing
 )
 {
 }
@@ -840,6 +842,8 @@ nsCString
 aUrl
 uint64_t
 aEmbedderInnerWindowID
+bool
+aIsPrivateBrowsing
 )
 ;
 void
