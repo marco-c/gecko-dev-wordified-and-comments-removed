@@ -325,7 +325,7 @@ Decision
 task
 parameters
 see
-gecko_taskgraph
+taskgraph
 .
 parameters
 .
@@ -1741,7 +1741,7 @@ Parameters
     
 parameters
 :
-gecko_taskgraph
+taskgraph
 .
 parameters
 .
