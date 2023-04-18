@@ -1478,9 +1478,6 @@ CSSLayerBlockRule
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1489,9 +1486,6 @@ name
 CSSLayerStatementRule
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
