@@ -13398,7 +13398,7 @@ case
 WidgetWheelEvent
 :
 :
-SCROLL_ASYNCHRONOUSELY
+SCROLL_ASYNCHRONOUSLY
 :
 mode
 =
