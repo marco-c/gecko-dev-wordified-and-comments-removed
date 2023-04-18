@@ -7707,12 +7707,6 @@ level
 3
 )
 ;
-#
-if
-defined
-(
-NIGHTLY_BUILD
-)
 pref
 (
 "
@@ -7731,8 +7725,6 @@ windowserver
 true
 )
 ;
-#
-endif
 #
 endif
 #
