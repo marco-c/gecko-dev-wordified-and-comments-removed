@@ -108,6 +108,9 @@ ModuleLoader
 ScriptLoader
 *
 aLoader
+nsIGlobalObject
+*
+aGlobalObject
 Kind
 aKind
 )

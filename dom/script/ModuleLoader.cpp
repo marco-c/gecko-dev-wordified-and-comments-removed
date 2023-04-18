@@ -302,6 +302,9 @@ ModuleLoader
 ScriptLoader
 *
 aLoader
+nsIGlobalObject
+*
+aGlobalObject
 Kind
 aKind
 )
@@ -309,6 +312,7 @@ aKind
 ModuleLoaderBase
 (
 aLoader
+aGlobalObject
 )
 mKind
 (

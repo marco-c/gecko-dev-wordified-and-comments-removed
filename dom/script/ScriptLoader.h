@@ -475,6 +475,14 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 ScriptLoader
 )
 void
+SetGlobalObject
+(
+nsIGlobalObject
+*
+aGlobalObject
+)
+;
+void
 DropDocumentReference
 (
 )
@@ -831,6 +839,7 @@ bool
 HasPendingRequests
 (
 )
+const
 ;
 bool
 HasPendingDynamicImports
