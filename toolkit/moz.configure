@@ -5235,6 +5235,9 @@ xfixes
 "
 xi
 "
+"
+xtst
+"
 ]
 return
 libs
