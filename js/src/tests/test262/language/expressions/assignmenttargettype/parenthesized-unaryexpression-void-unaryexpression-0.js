@@ -2,11 +2,6 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 (
 void
 x
@@ -14,4 +9,3 @@ x
 =
 1
 ;
-}

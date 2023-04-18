@@ -5,7 +5,6 @@ length
 }
 {
 }
-;
 reportCompare
 (
 0

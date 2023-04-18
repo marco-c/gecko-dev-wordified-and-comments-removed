@@ -13,12 +13,11 @@ r
 )
 {
 assert
-(
+.
 compareArray
 (
 l
 r
-)
 r
 )
 ;

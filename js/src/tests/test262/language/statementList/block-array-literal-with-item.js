@@ -4,7 +4,6 @@
 42
 ]
 ;
-;
 reportCompare
 (
 0

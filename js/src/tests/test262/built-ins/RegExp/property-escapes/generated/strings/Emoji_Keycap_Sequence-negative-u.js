@@ -1,0 +1,13 @@
+DONOTEVALUATE
+(
+)
+;
+/
+\
+p
+{
+Emoji_Keycap_Sequence
+}
+/
+u
+;

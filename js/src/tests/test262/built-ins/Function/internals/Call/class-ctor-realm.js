@@ -32,12 +32,7 @@ realm
 .
 global
 .
-eval
-(
-'
 TypeError
-'
-)
 ;
 assert
 .

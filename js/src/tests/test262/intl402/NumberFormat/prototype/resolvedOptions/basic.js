@@ -131,7 +131,9 @@ sameValue
 actual
 .
 useGrouping
-true
+"
+auto
+"
 )
 ;
 var

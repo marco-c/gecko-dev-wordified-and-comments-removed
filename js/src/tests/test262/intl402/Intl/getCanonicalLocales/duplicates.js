@@ -1,5 +1,5 @@
 assert
-(
+.
 compareArray
 (
 Intl
@@ -43,7 +43,6 @@ RT
 '
 ]
 )
-)
 ;
 var
 locales
@@ -67,7 +66,7 @@ US
 )
 ;
 assert
-(
+.
 compareArray
 (
 locales
@@ -78,7 +77,6 @@ en
 US
 '
 ]
-)
 '
 en
 -

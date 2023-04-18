@@ -7,7 +7,6 @@
 1
 42
 ;
-;
 reportCompare
 (
 0

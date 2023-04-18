@@ -71,7 +71,7 @@ x
 ;
 }
 assert
-(
+.
 compareArray
 (
 forInResults
@@ -86,7 +86,6 @@ forInResults
 2
 "
 ]
-)
 )
 ;
 var
@@ -111,7 +110,7 @@ x
 ;
 }
 assert
-(
+.
 compareArray
 (
 forOfResults
@@ -120,7 +119,6 @@ forOfResults
 2
 3
 ]
-)
 )
 ;
 var

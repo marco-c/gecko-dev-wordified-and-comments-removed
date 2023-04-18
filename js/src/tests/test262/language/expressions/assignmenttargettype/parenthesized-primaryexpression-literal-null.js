@@ -2,15 +2,9 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 (
 null
 )
 =
 1
 ;
-}

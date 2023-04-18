@@ -2,11 +2,6 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 (
 x
 y
@@ -16,4 +11,3 @@ true
 =
 1
 ;
-}

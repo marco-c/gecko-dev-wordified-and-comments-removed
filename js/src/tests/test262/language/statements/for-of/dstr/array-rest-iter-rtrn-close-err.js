@@ -8,12 +8,6 @@ unreachable
 =
 0
 ;
-function
-ReturnError
-(
-)
-{
-}
 var
 iterable
 =

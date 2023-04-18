@@ -7,7 +7,6 @@ C
 /
 g
 ;
-;
 reportCompare
 (
 0

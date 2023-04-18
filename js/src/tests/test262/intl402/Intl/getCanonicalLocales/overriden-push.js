@@ -30,7 +30,7 @@ US
 )
 ;
 assert
-(
+.
 compareArray
 (
 arr
@@ -41,7 +41,6 @@ en
 US
 "
 ]
-)
 )
 ;
 reportCompare
