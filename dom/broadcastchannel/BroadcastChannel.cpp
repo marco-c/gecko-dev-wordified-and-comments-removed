@@ -918,7 +918,7 @@ aRv
 storagePrincipal
 -
 >
-GetOriginNoSuffix
+GetAsciiOrigin
 (
 originNoSuffix8
 )
@@ -1273,7 +1273,7 @@ bc
 bc
 -
 >
-mOriginNoSuffix
+mOriginForEvents
 =
 originNoSuffix
 ;
@@ -1921,7 +1921,7 @@ init
 .
 mOrigin
 =
-mOriginNoSuffix
+mOriginForEvents
 ;
 init
 .
@@ -2024,7 +2024,7 @@ init
 .
 mOrigin
 =
-mOriginNoSuffix
+mOriginForEvents
 ;
 RefPtr
 <
