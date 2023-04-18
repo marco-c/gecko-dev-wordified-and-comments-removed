@@ -369,6 +369,10 @@ _SC_NPROCESSORS_ONLN
 ;
 #
 endif
+if
+(
+c
+)
 dav1d_log
 (
 c

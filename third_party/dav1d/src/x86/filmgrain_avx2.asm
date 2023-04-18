@@ -7893,8 +7893,7 @@ wq
 %
 2
 jge
-%
-%
+.
 end
 mov
 srcq
@@ -8676,8 +8675,7 @@ wq
 %
 2
 jge
-%
-%
+.
 end
 mov
 srcq
@@ -9725,8 +9723,7 @@ wq
 %
 2
 jge
-%
-%
+.
 end
 mov
 srcq
@@ -10853,8 +10850,7 @@ wq
 %
 2
 jge
-%
-%
+.
 end
 mov
 srcq
@@ -10887,11 +10883,6 @@ jmp
 %
 loop_x_hv_overlap
 %
-%
-end
-:
-RET
-%
 endmacro
 %
 %
@@ -10912,6 +10903,10 @@ FGUV_32x32xN_LOOP
 2
 %
 3
+.
+end
+:
+RET
 %
 endmacro
 GEN_GRAIN_UV_FN

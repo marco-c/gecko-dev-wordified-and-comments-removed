@@ -89,6 +89,9 @@ p
 int
 visible
 ;
+int
+showable
+;
 enum
 PictureFlags
 flags

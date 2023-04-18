@@ -1386,6 +1386,13 @@ files
 '
 x86
 /
+filmgrain16_avx512
+.
+asm
+'
+'
+x86
+/
 ipred16_avx512
 .
 asm

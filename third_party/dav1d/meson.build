@@ -248,11 +248,11 @@ c
 version
 :
 '
+1
+.
 0
 .
-9
-.
-2
+0
 '
 default_options
 :
@@ -297,7 +297,7 @@ dav1d_soname_version
 '
 6
 .
-6
+7
 .
 0
 '

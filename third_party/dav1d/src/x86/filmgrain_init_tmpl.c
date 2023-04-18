@@ -409,12 +409,6 @@ avx2
 )
 ;
 }
-#
-if
-BITDEPTH
-=
-=
-8
 if
 (
 !
@@ -485,8 +479,6 @@ dav1d_fguv_32x32xn_i444
 avx512icl
 )
 ;
-#
-endif
 #
 endif
 }

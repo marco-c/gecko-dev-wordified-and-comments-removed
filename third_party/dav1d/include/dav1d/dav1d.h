@@ -331,6 +331,16 @@ Dav1dDataProps
 out
 )
 ;
+DAV1D_API
+int
+dav1d_get_frame_delay
+(
+const
+Dav1dSettings
+*
+s
+)
+;
 #
 ifdef
 __cplusplus

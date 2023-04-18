@@ -274,7 +274,7 @@ asm
 if
 ARCH_X86_64
 SECTION_RODATA
-32
+16
 pb_mask
 :
 db
@@ -6262,7 +6262,7 @@ FGData
 .
 scaling_shift
 ]
-movifnidn
+mov
 sbyd
 sbym
 vpbroadcastd
@@ -6357,7 +6357,6 @@ pd_16
 ]
 test
 r7b
-byte
 [
 fg_dataq
 +
@@ -6807,7 +6806,7 @@ left_offxy
 lea
 left_offxyd
 [
-offyd
+offyq
 +
 32
 ]
@@ -7156,10 +7155,6 @@ loop_x_hv_overlap
 jmp
 .
 loop_x_h_overlap
-.
-end
-:
-RET
 .
 vertical_overlap
 :
@@ -7798,7 +7793,7 @@ wq
 32
 jge
 .
-end_hv
+end
 lea
 srcq
 [
@@ -7931,14 +7926,14 @@ left_offxy
 top_offxy
 topleft_offxy
 lea
-topleft_offxyq
+topleft_offxyd
 [
 top_offxyq
 +
 32
 ]
 lea
-left_offxyq
+left_offxyd
 [
 offyq
 +
@@ -8223,7 +8218,7 @@ xm6
 5
 packssdw
 xm6
-xm4
+xm6
 pmaxsw
 xm6
 xm9
@@ -8317,9 +8312,6 @@ m15
 pmaddwd
 m6
 m15
-vpbroadcastd
-m7
-r9m
 paddd
 m5
 m14
@@ -8507,7 +8499,7 @@ jl
 .
 loop_x_hv_overlap
 .
-end_hv
+end
 :
 RET
 %
@@ -8567,7 +8559,7 @@ scaling_shift
 mov
 r11d
 is_idm
-movifnidn
+mov
 sbyd
 sbym
 vpbroadcastw
@@ -8801,7 +8793,6 @@ pd_16
 endif
 test
 r7b
-byte
 [
 fg_dataq
 +
@@ -9651,8 +9642,7 @@ wq
 %
 2
 jge
-%
-%
+.
 end
 mov
 srcq
@@ -9775,7 +9765,7 @@ lstride
 lea
 left_offxyd
 [
-offyd
+offyq
 +
 (
 32
@@ -10632,8 +10622,7 @@ wq
 %
 2
 jge
-%
-%
+.
 end
 mov
 srcq
@@ -10691,11 +10680,6 @@ jmp
 %
 %
 loop_x_h_overlap
-%
-%
-end
-:
-RET
 %
 %
 vertical_overlap
@@ -11908,9 +11892,8 @@ wq
 %
 2
 jge
-%
-%
-end_hv
+.
+end
 mov
 srcq
 r9mp
@@ -13353,9 +13336,8 @@ wq
 %
 2
 jge
-%
-%
-end_hv
+.
+end
 mov
 srcq
 r9mp
@@ -13403,11 +13385,6 @@ jmp
 %
 loop_x_hv_overlap
 %
-%
-end_hv
-:
-RET
-%
 endmacro
 %
 %
@@ -13428,6 +13405,10 @@ FGUV_32x32xN_LOOP
 2
 %
 3
+.
+end
+:
+RET
 %
 endmacro
 GEN_GRAIN_UV_FN
