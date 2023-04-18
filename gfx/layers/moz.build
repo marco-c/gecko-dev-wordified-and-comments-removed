@@ -146,6 +146,11 @@ D3D11ShareHandleImage
 cpp
 "
 "
+D3D11TextureIMFSampleImage
+.
+cpp
+"
+"
 D3D11YCbCrImage
 .
 cpp
@@ -737,6 +742,11 @@ h
 "
 "
 D3D11ShareHandleImage
+.
+h
+"
+"
+D3D11TextureIMFSampleImage
 .
 h
 "

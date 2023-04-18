@@ -456,6 +456,7 @@ WindowsHandle
 (
 mHandle
 )
+0
 mFormat
 GetSize
 (

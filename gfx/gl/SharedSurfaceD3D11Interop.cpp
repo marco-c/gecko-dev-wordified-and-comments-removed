@@ -1827,6 +1827,7 @@ mData
 .
 dxgiHandle
 )
+0
 format
 mDesc
 .

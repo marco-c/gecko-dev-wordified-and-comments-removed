@@ -759,6 +759,7 @@ SurfaceDescriptorD3D10
 WindowsHandle
 )
 mShareHandle
+0
 format
 mDesc
 .

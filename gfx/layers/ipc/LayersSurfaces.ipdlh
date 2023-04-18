@@ -319,6 +319,9 @@ SurfaceDescriptorD3D10
 WindowsHandle
 handle
 ;
+uint32_t
+arrayIndex
+;
 SurfaceFormat
 format
 ;
