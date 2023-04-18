@@ -242,6 +242,14 @@ aRv
 )
 const
 ;
+bool
+CheckValidity
+(
+ErrorResult
+&
+aRv
+)
+;
 already_AddRefed
 <
 nsINodeList
