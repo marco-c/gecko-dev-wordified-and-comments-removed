@@ -5,6 +5,9 @@ syn
 Generics
 ;
 use
+crate
+:
+:
 usage
 :
 :

@@ -1,7 +1,7 @@
 use
-syn
-;
-use
+crate
+:
+:
 {
 Error
 FromMeta
@@ -13,6 +13,9 @@ core
 ;
 mod
 forward_attrs
+;
+mod
+from_attributes
 ;
 mod
 from_derive
@@ -60,6 +63,16 @@ forward_attrs
 :
 :
 ForwardAttrs
+;
+pub
+use
+self
+:
+:
+from_attributes
+:
+:
+FromAttributesOptions
 ;
 pub
 use

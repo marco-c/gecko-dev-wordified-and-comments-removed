@@ -1,7 +1,8 @@
 use
-syn
-;
-use
+crate
+:
+:
+{
 usage
 :
 :
@@ -10,9 +11,6 @@ self
 UsesLifetimes
 UsesTypeParams
 }
-;
-use
-{
 FromDeriveInput
 FromField
 FromGenericParam

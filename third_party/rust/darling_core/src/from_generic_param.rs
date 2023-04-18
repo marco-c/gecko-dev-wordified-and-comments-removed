@@ -1,7 +1,7 @@
 use
-syn
-;
-use
+crate
+:
+:
 Result
 ;
 pub

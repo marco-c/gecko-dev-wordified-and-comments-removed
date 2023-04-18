@@ -5,6 +5,9 @@ syn
 DeriveInput
 ;
 use
+crate
+:
+:
 Result
 ;
 pub

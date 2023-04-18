@@ -27,6 +27,9 @@ Path
 }
 ;
 use
+crate
+:
+:
 {
 Error
 FromMeta
@@ -128,6 +131,7 @@ map
 |
 p
 |
+{
 p
 .
 segments
@@ -169,6 +173,7 @@ join
 :
 "
 )
+}
 )
 .
 collect
@@ -366,6 +371,12 @@ super
 PathList
 ;
 use
+crate
+:
+:
+FromMeta
+;
+use
 proc_macro2
 :
 :
@@ -379,9 +390,6 @@ syn
 Attribute
 Meta
 }
-;
-use
-FromMeta
 ;
 fn
 pm

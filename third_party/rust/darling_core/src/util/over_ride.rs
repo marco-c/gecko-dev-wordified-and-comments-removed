@@ -14,6 +14,9 @@ NestedMeta
 }
 ;
 use
+crate
+:
+:
 {
 FromMeta
 Result
@@ -63,14 +66,8 @@ T
 pub
 fn
 as_ref
-<
-'
-a
->
 (
 &
-'
-a
 self
 )
 -
@@ -78,8 +75,6 @@ self
 Override
 <
 &
-'
-a
 T
 >
 {
@@ -107,14 +102,8 @@ val
 pub
 fn
 as_mut
-<
-'
-a
->
 (
 &
-'
-a
 mut
 self
 )
@@ -123,8 +112,6 @@ self
 Override
 <
 &
-'
-a
 mut
 T
 >

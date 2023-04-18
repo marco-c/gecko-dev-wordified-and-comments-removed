@@ -11,9 +11,9 @@ quote
 ToTokens
 ;
 use
-syn
-;
-use
+crate
+:
+:
 ast
 :
 :
@@ -24,6 +24,9 @@ Style
 }
 ;
 use
+crate
+:
+:
 codegen
 :
 :
@@ -374,11 +377,11 @@ fallback_decl
 )
 ;
 let
-map
+post_transform
 =
 base
 .
-map_fn
+post_transform_call
 (
 )
 ;
@@ -445,7 +448,7 @@ inits
 }
 )
 #
-map
+post_transform
 }
 )
 }

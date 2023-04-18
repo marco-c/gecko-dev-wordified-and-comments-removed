@@ -2,12 +2,12 @@ use
 syn
 :
 :
-{
-self
 Variant
-}
 ;
 use
+crate
+:
+:
 Result
 ;
 pub

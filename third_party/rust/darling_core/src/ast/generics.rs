@@ -17,9 +17,9 @@ slice
 Iter
 ;
 use
-syn
-;
-use
+crate
+:
+:
 {
 FromGenericParam
 FromGenerics
@@ -726,14 +726,8 @@ W
 pub
 fn
 type_params
-<
-'
-a
->
 (
 &
-'
-a
 self
 )
 -
@@ -741,7 +735,7 @@ self
 TypeParams
 <
 '
-a
+_
 P
 >
 {
@@ -971,9 +965,6 @@ mod
 tests
 {
 use
-syn
-;
-use
 super
 :
 :
@@ -983,6 +974,9 @@ Generics
 }
 ;
 use
+crate
+:
+:
 FromGenerics
 ;
 #
