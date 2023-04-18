@@ -3376,7 +3376,7 @@ void
 stashI64
 (
 RegPtr
-regForTls
+regForInstance
 RegI64
 r
 )
@@ -3385,7 +3385,7 @@ void
 unstashI64
 (
 RegPtr
-regForTls
+regForInstance
 RegI64
 r
 )
@@ -3582,7 +3582,7 @@ table
 uint32_t
 fieldOffset
 RegPtr
-tls
+instance
 )
 ;
 void
@@ -3593,7 +3593,7 @@ TableDesc
 &
 table
 RegPtr
-tls
+instance
 RegI32
 length
 )
@@ -3606,7 +3606,7 @@ TableDesc
 &
 table
 RegPtr
-tls
+instance
 RegPtr
 elements
 )
@@ -3646,7 +3646,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegIndexType
 ptr
 )
@@ -3679,7 +3679,7 @@ void
 boundsCheck4GBOrLargerAccess
 (
 RegPtr
-tls
+instance
 RegI32
 ptr
 Label
@@ -3691,7 +3691,7 @@ void
 boundsCheckBelow4GBAccess
 (
 RegPtr
-tls
+instance
 RegI32
 ptr
 Label
@@ -3727,7 +3727,7 @@ void
 boundsCheck4GBOrLargerAccess
 (
 RegPtr
-tls
+instance
 RegI64
 ptr
 Label
@@ -3739,7 +3739,7 @@ void
 boundsCheckBelow4GBAccess
 (
 RegPtr
-tls
+instance
 RegI64
 ptr
 Label
@@ -3768,7 +3768,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegIndexType
 ptr
 )
@@ -3790,7 +3790,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegIndexType
 ptr
 )
@@ -3816,7 +3816,7 @@ nodiscard
 ]
 ]
 bool
-needTlsForAccess
+needInstanceForAccess
 (
 const
 AccessCheck
@@ -3834,7 +3834,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegI32
 ptr
 AnyReg
@@ -3853,7 +3853,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegI32
 ptr
 AnyReg
@@ -3875,7 +3875,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegI64
 ptr
 AnyReg
@@ -3925,7 +3925,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegI32
 ptr
 AnyReg
@@ -3944,7 +3944,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegI32
 ptr
 AnyReg
@@ -3966,7 +3966,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegI64
 ptr
 AnyReg
@@ -4346,7 +4346,7 @@ void
 loadTag
 (
 RegPtr
-tlsData
+instanceData
 uint32_t
 tagIndex
 RegRef
@@ -4882,7 +4882,7 @@ nodiscard
 ]
 ]
 RegPtr
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 const
 AccessCheck
@@ -4896,7 +4896,7 @@ nodiscard
 ]
 ]
 RegPtr
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 const
 AccessCheck
@@ -6296,7 +6296,7 @@ table
 RegI32
 index
 RegPtr
-tls
+instance
 )
 ;
 [

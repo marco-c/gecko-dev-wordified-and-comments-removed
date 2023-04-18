@@ -814,7 +814,7 @@ heapBase
 else
 fr
 .
-loadTlsPtr
+loadInstancePtr
 (
 heapBase
 )
@@ -1057,7 +1057,7 @@ BaseCompiler
 boundsCheck4GBOrLargerAccess
 (
 RegPtr
-tls
+instance
 RegI32
 ptr
 Label
@@ -1100,7 +1100,7 @@ ptr64
 endif
 boundsCheck4GBOrLargerAccess
 (
-tls
+instance
 ptr64
 ok
 )
@@ -1143,7 +1143,7 @@ BaseCompiler
 boundsCheckBelow4GBAccess
 (
 RegPtr
-tls
+instance
 RegI32
 ptr
 Label
@@ -1162,7 +1162,7 @@ Below
 ptr
 Address
 (
-tls
+instance
 Instance
 :
 :
@@ -1181,7 +1181,7 @@ BaseCompiler
 boundsCheck4GBOrLargerAccess
 (
 RegPtr
-tls
+instance
 RegI64
 ptr
 Label
@@ -1200,7 +1200,7 @@ Below
 ptr
 Address
 (
-tls
+instance
 Instance
 :
 :
@@ -1219,7 +1219,7 @@ BaseCompiler
 boundsCheckBelow4GBAccess
 (
 RegPtr
-tls
+instance
 RegI64
 ptr
 Label
@@ -1229,7 +1229,7 @@ ok
 {
 boundsCheck4GBOrLargerAccess
 (
-tls
+instance
 ptr
 ok
 )
@@ -1312,7 +1312,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegIndexType
 ptr
 )
@@ -1511,7 +1511,7 @@ check
 -
 >
 omitBoundsCheck
-tls
+instance
 .
 isInvalid
 (
@@ -1528,7 +1528,7 @@ check
 -
 >
 omitBoundsCheck
-tls
+instance
 .
 isInvalid
 (
@@ -1606,7 +1606,7 @@ PageSize
 {
 boundsCheck4GBOrLargerAccess
 (
-tls
+instance
 ptr
 &
 ok
@@ -1617,7 +1617,7 @@ else
 {
 boundsCheckBelow4GBAccess
 (
-tls
+instance
 ptr
 &
 ok
@@ -1628,7 +1628,7 @@ ok
 else
 boundsCheckBelow4GBAccess
 (
-tls
+instance
 ptr
 &
 ok
@@ -1756,7 +1756,7 @@ bool
 BaseCompiler
 :
 :
-needTlsForAccess
+needInstanceForAccess
 (
 const
 AccessCheck
@@ -1793,7 +1793,7 @@ RegPtr
 BaseCompiler
 :
 :
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 const
 AccessCheck
@@ -1803,7 +1803,7 @@ check
 {
 if
 (
-needTlsForAccess
+needInstanceForAccess
 (
 check
 )
@@ -1821,7 +1821,7 @@ InstanceReg
 #
 else
 RegPtr
-tls
+instance
 =
 need
 <
@@ -1832,13 +1832,13 @@ RegPtr
 ;
 fr
 .
-loadTlsPtr
+loadInstancePtr
 (
-tls
+instance
 )
 ;
 return
-tls
+instance
 ;
 #
 endif
@@ -1856,7 +1856,7 @@ RegPtr
 BaseCompiler
 :
 :
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 const
 AccessCheck
@@ -1868,7 +1868,7 @@ specific
 {
 if
 (
-needTlsForAccess
+needInstanceForAccess
 (
 check
 )
@@ -1890,7 +1890,7 @@ specific
 else
 fr
 .
-loadTlsPtr
+loadInstancePtr
 (
 specific
 )
@@ -1923,7 +1923,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegI32
 ptr
 AnyReg
@@ -2027,7 +2027,7 @@ addPtr
 (
 Address
 (
-tls
+instance
 Instance
 :
 :
@@ -2514,7 +2514,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegI32
 ptr
 AnyReg
@@ -2527,7 +2527,7 @@ prepareMemoryAccess
 (
 access
 check
-tls
+instance
 ptr
 )
 ;
@@ -2535,7 +2535,7 @@ executeLoad
 (
 access
 check
-tls
+instance
 ptr
 dest
 temp
@@ -2558,7 +2558,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegI64
 ptr
 AnyReg
@@ -2571,7 +2571,7 @@ prepareMemoryAccess
 (
 access
 check
-tls
+instance
 ptr
 )
 ;
@@ -2587,7 +2587,7 @@ executeLoad
 (
 access
 check
-tls
+instance
 RegI32
 (
 ptr
@@ -2618,7 +2618,7 @@ executeLoad
 (
 access
 check
-tls
+instance
 RegI32
 (
 ptr
@@ -2649,7 +2649,7 @@ executeLoad
 (
 access
 check
-tls
+instance
 RegI32
 (
 ptr
@@ -2692,7 +2692,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegI32
 ptr
 AnyReg
@@ -2765,7 +2765,7 @@ addPtr
 (
 Address
 (
-tls
+instance
 Instance
 :
 :
@@ -3430,7 +3430,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegI32
 ptr
 AnyReg
@@ -3443,7 +3443,7 @@ prepareMemoryAccess
 (
 access
 check
-tls
+instance
 ptr
 )
 ;
@@ -3451,7 +3451,7 @@ executeStore
 (
 access
 check
-tls
+instance
 ptr
 src
 temp
@@ -3474,7 +3474,7 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegI64
 ptr
 AnyReg
@@ -3487,7 +3487,7 @@ prepareMemoryAccess
 (
 access
 check
-tls
+instance
 ptr
 )
 ;
@@ -3503,7 +3503,7 @@ executeStore
 (
 access
 check
-tls
+instance
 RegI32
 (
 ptr
@@ -3547,7 +3547,7 @@ executeStore
 (
 access
 check
-tls
+instance
 RegI32
 (
 ptr
@@ -3598,7 +3598,7 @@ type
 )
 {
 RegPtr
-tls
+instance
 ;
 RegType
 temp
@@ -3656,9 +3656,9 @@ needI32
 (
 )
 ;
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -3668,7 +3668,7 @@ load
 access
 &
 check
-tls
+instance
 rp
 AnyReg
 (
@@ -3751,9 +3751,9 @@ needI64
 ;
 #
 endif
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -3763,7 +3763,7 @@ load
 access
 &
 check
-tls
+instance
 rp
 AnyReg
 (
@@ -3812,9 +3812,9 @@ needF32
 (
 )
 ;
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -3824,7 +3824,7 @@ load
 access
 &
 check
-tls
+instance
 rp
 AnyReg
 (
@@ -3873,9 +3873,9 @@ needF64
 (
 )
 ;
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -3885,7 +3885,7 @@ load
 access
 &
 check
-tls
+instance
 rp
 AnyReg
 (
@@ -3937,9 +3937,9 @@ needV128
 (
 )
 ;
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -3949,7 +3949,7 @@ load
 access
 &
 check
-tls
+instance
 rp
 AnyReg
 (
@@ -3991,7 +3991,7 @@ ifndef
 RABALDR_PIN_INSTANCE
 maybeFree
 (
-tls
+instance
 )
 ;
 #
@@ -4091,7 +4091,7 @@ resultType
 )
 {
 RegPtr
-tls
+instance
 ;
 RegType
 temp
@@ -4149,9 +4149,9 @@ access
 check
 )
 ;
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -4161,7 +4161,7 @@ store
 access
 &
 check
-tls
+instance
 rp
 AnyReg
 (
@@ -4210,9 +4210,9 @@ access
 check
 )
 ;
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -4222,7 +4222,7 @@ store
 access
 &
 check
-tls
+instance
 rp
 AnyReg
 (
@@ -4271,9 +4271,9 @@ access
 check
 )
 ;
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -4283,7 +4283,7 @@ store
 access
 &
 check
-tls
+instance
 rp
 AnyReg
 (
@@ -4332,9 +4332,9 @@ access
 check
 )
 ;
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -4344,7 +4344,7 @@ store
 access
 &
 check
-tls
+instance
 rp
 AnyReg
 (
@@ -4396,9 +4396,9 @@ access
 check
 )
 ;
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -4408,7 +4408,7 @@ store
 access
 &
 check
-tls
+instance
 rp
 AnyReg
 (
@@ -4450,7 +4450,7 @@ ifndef
 RABALDR_PIN_INSTANCE
 maybeFree
 (
-tls
+instance
 )
 ;
 #
@@ -4608,21 +4608,21 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegIndexType
 ptr
 )
 {
 MOZ_ASSERT
 (
-needTlsForAccess
+needInstanceForAccess
 (
 *
 check
 )
 =
 =
-tls
+instance
 .
 isValid
 (
@@ -4633,7 +4633,7 @@ prepareMemoryAccess
 (
 access
 check
-tls
+instance
 ptr
 )
 ;
@@ -4675,21 +4675,21 @@ AccessCheck
 *
 check
 RegPtr
-tls
+instance
 RegIndexType
 ptr
 )
 {
 MOZ_ASSERT
 (
-needTlsForAccess
+needInstanceForAccess
 (
 *
 check
 )
 =
 =
-tls
+instance
 .
 isValid
 (
@@ -4700,7 +4700,7 @@ prepareMemoryAccess
 (
 access
 check
-tls
+instance
 ptr
 )
 ;
@@ -4710,7 +4710,7 @@ addPtr
 (
 Address
 (
-tls
+instance
 Instance
 :
 :
@@ -5021,9 +5021,9 @@ check
 ifdef
 WASM_HAS_HEAPREG
 RegPtr
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -5036,7 +5036,7 @@ prepareAtomicMemoryAccess
 access
 &
 check
-tls
+instance
 rp
 )
 ;
@@ -5056,7 +5056,7 @@ ifndef
 RABALDR_PIN_INSTANCE
 maybeFree
 (
-tls
+instance
 )
 ;
 #
@@ -5071,9 +5071,9 @@ this
 )
 ;
 RegPtr
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 RegIntptrToRegPtr
@@ -5090,7 +5090,7 @@ prepareAtomicMemoryAccess
 access
 &
 check
-tls
+instance
 rp
 )
 ;
@@ -5107,7 +5107,7 @@ rd
 ;
 MOZ_ASSERT
 (
-tls
+instance
 =
 =
 scratch
@@ -6516,9 +6516,9 @@ check
 )
 ;
 RegPtr
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -6531,7 +6531,7 @@ prepareAtomicMemoryAccess
 access
 &
 check
-tls
+instance
 rp
 )
 ;
@@ -6555,7 +6555,7 @@ ifndef
 RABALDR_PIN_INSTANCE
 maybeFree
 (
-tls
+instance
 )
 ;
 #
@@ -7446,9 +7446,9 @@ defined
 WASM_HAS_HEAPREG
 )
 RegPtr
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -7461,7 +7461,7 @@ prepareAtomicMemoryAccess
 access
 &
 check
-tls
+instance
 rp
 )
 ;
@@ -7485,7 +7485,7 @@ ifndef
 RABALDR_PIN_INSTANCE
 maybeFree
 (
-tls
+instance
 )
 ;
 #
@@ -7500,9 +7500,9 @@ this
 )
 ;
 RegPtr
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 RegIntptrToRegPtr
@@ -7519,7 +7519,7 @@ prepareAtomicMemoryAccess
 access
 &
 check
-tls
+instance
 rp
 )
 ;
@@ -7551,7 +7551,7 @@ scratch
 ;
 MOZ_ASSERT
 (
-tls
+instance
 =
 =
 scratch
@@ -8570,9 +8570,9 @@ check
 )
 ;
 RegPtr
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -8585,7 +8585,7 @@ prepareAtomicMemoryAccess
 access
 &
 check
-tls
+instance
 rp
 )
 ;
@@ -8608,7 +8608,7 @@ ifndef
 RABALDR_PIN_INSTANCE
 maybeFree
 (
-tls
+instance
 )
 ;
 #
@@ -9204,9 +9204,9 @@ check
 ifdef
 WASM_HAS_HEAPREG
 RegPtr
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -9222,7 +9222,7 @@ RegIndexType
 access
 &
 check
-tls
+instance
 rp
 )
 ;
@@ -9242,7 +9242,7 @@ ifndef
 RABALDR_PIN_INSTANCE
 maybeFree
 (
-tls
+instance
 )
 ;
 #
@@ -9257,9 +9257,9 @@ this
 )
 ;
 RegPtr
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 RegIntptrToRegPtr
@@ -9276,7 +9276,7 @@ prepareAtomicMemoryAccess
 access
 &
 check
-tls
+instance
 rp
 )
 ;
@@ -9306,7 +9306,7 @@ rd
 ;
 MOZ_ASSERT
 (
-tls
+instance
 =
 =
 scratch
@@ -10402,9 +10402,9 @@ check
 )
 ;
 RegPtr
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -10417,7 +10417,7 @@ prepareAtomicMemoryAccess
 access
 &
 check
-tls
+instance
 rp
 )
 ;
@@ -10441,7 +10441,7 @@ ifndef
 RABALDR_PIN_INSTANCE
 maybeFree
 (
-tls
+instance
 )
 ;
 #
@@ -11026,7 +11026,7 @@ tmp
 ;
 {
 ScratchPtr
-tlsScratch
+instanceScratch
 (
 *
 bc
@@ -11037,7 +11037,7 @@ bc
 >
 stashI64
 (
-tlsScratch
+instanceScratch
 tmp
 )
 ;
@@ -11590,9 +11590,9 @@ check
 ifdef
 WASM_HAS_HEAPREG
 RegPtr
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 )
@@ -11605,7 +11605,7 @@ prepareAtomicMemoryAccess
 access
 &
 check
-tls
+instance
 rp
 )
 ;
@@ -11628,7 +11628,7 @@ ifndef
 RABALDR_PIN_INSTANCE
 maybeFree
 (
-tls
+instance
 )
 ;
 #
@@ -11643,9 +11643,9 @@ this
 )
 ;
 RegPtr
-tls
+instance
 =
-maybeLoadTlsForAccess
+maybeLoadInstanceForAccess
 (
 check
 RegIntptrToRegPtr
@@ -11662,7 +11662,7 @@ prepareAtomicMemoryAccess
 access
 &
 check
-tls
+instance
 rp
 )
 ;
@@ -11686,7 +11686,7 @@ scratch
 ;
 MOZ_ASSERT
 (
-tls
+instance
 =
 =
 scratch
