@@ -2042,6 +2042,11 @@ Revert
 CSSWideKeyword
 :
 :
+RevertLayer
+|
+CSSWideKeyword
+:
+:
 Unset
 |
 %
@@ -2078,6 +2083,11 @@ CSSWideKeyword
 :
 :
 Revert
+|
+CSSWideKeyword
+:
+:
+RevertLayer
 |
 CSSWideKeyword
 :

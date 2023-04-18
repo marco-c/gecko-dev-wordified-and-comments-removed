@@ -27,6 +27,8 @@ Eq
 MallocSizeOf
 PartialEq
 ToShmem
+PartialOrd
+Ord
 )
 ]
 #

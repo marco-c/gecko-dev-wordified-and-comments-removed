@@ -106,6 +106,7 @@ Clone
 Copy
 Debug
 Eq
+Hash
 MallocSizeOf
 PartialEq
 PartialOrd
@@ -116,7 +117,7 @@ pub
 struct
 LayerOrder
 (
-u32
+u16
 )
 ;
 impl
@@ -137,7 +138,7 @@ Self
 std
 :
 :
-u32
+u16
 :
 :
 MAX
@@ -171,6 +172,20 @@ mut
 self
 )
 {
+if
+self
+.
+0
+!
+=
+std
+:
+:
+u16
+:
+:
+MAX
+{
 self
 .
 0
@@ -178,6 +193,7 @@ self
 =
 1
 ;
+}
 }
 }
 #

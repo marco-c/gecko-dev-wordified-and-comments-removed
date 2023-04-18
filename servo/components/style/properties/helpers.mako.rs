@@ -2900,6 +2900,11 @@ endif
 CSSWideKeyword
 :
 :
+RevertLayer
+|
+CSSWideKeyword
+:
+:
 Revert
 =
 >
