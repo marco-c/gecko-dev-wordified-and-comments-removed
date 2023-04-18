@@ -5253,7 +5253,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 static
+Result
+<
+EditorDOMPoint
 nsresult
+>
 InsertText
 (
 HTMLEditor
@@ -5267,11 +5271,6 @@ const
 EditorDOMPointType
 &
 aPointToInsert
-EditorRawDOMPoint
-*
-aPointAfterInsertedString
-=
-nullptr
 )
 {
 return
@@ -5286,7 +5285,6 @@ EditorDOMRange
 (
 aPointToInsert
 )
-aPointAfterInsertedString
 )
 ;
 }
@@ -5297,7 +5295,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 static
+Result
+<
+EditorDOMPoint
 nsresult
+>
 ReplaceText
 (
 HTMLEditor
@@ -5311,11 +5313,6 @@ const
 EditorDOMRange
 &
 aRangeToBeReplaced
-EditorRawDOMPoint
-*
-aPointAfterInsertedString
-=
-nullptr
 )
 ;
 [
