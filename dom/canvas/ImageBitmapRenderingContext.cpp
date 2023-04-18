@@ -770,6 +770,16 @@ GetAsSourceSurface
 (
 )
 ;
+if
+(
+!
+surface
+)
+{
+return
+nullptr
+;
+}
 RefPtr
 <
 gfx
