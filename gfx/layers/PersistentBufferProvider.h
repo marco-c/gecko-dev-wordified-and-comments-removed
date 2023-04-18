@@ -261,6 +261,13 @@ nullptr
 }
 virtual
 void
+OnMemoryPressure
+(
+)
+{
+}
+virtual
+void
 OnShutdown
 (
 )
@@ -585,6 +592,12 @@ RequiresRefresh
 (
 )
 const
+override
+;
+void
+OnMemoryPressure
+(
+)
 override
 ;
 protected
