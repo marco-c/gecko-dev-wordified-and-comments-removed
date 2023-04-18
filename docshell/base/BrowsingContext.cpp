@@ -17742,7 +17742,7 @@ GetURI
 )
 aInfo
 .
-GetPostData
+HasPostData
 (
 )
 )
