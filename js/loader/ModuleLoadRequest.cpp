@@ -266,16 +266,6 @@ mModuleScript
 =
 nullptr
 ;
-mState
-=
-ScriptLoadRequest
-:
-:
-State
-:
-:
-Ready
-;
 CancelImports
 (
 )
