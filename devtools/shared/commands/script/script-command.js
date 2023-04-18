@@ -67,7 +67,7 @@ _commands
 .
 targetCommand
 .
-selectedTargetFront
+targetFront
 ;
 const
 selectedActor

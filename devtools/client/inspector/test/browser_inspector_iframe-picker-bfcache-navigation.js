@@ -767,11 +767,6 @@ isFissionEnabled
 isServerTargetSwitchingEnabled
 (
 )
-|
-|
-isEveryFrameTargetEnabled
-(
-)
 )
 {
 promises
