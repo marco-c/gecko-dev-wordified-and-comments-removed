@@ -1132,6 +1132,9 @@ return
 A
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 function
 ArrayGroupBy
 (
@@ -1484,6 +1487,8 @@ return
 map
 ;
 }
+#
+endif
 function
 ArrayReduce
 (
