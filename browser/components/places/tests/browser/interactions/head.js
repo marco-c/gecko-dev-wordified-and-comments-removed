@@ -65,7 +65,7 @@ pageViewIdleTime
 60
 )
 ;
-add_task
+add_setup
 (
 async
 function
