@@ -79,11 +79,10 @@ platformVersion
 )
 {
 let
-tmp
-=
 {
+newAppInfo
 }
-;
+=
 ChromeUtils
 .
 import
@@ -101,13 +100,10 @@ AppInfo
 .
 jsm
 "
-tmp
 )
 ;
 gAppInfo
 =
-tmp
-.
 newAppInfo
 (
 {

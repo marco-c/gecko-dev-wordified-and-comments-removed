@@ -113,9 +113,6 @@ test_executeSoon_callback
 let
 sync
 =
-{
-}
-;
 ChromeUtils
 .
 import
@@ -135,7 +132,6 @@ Sync
 .
 jsm
 "
-sync
 )
 ;
 for
