@@ -116,14 +116,6 @@ body
 <
 script
 >
-window
-.
-TEST_WEB_BUNDLE_ELEMENT_TYPE
-=
-"
-script
-"
-;
 setup
 (
 (
@@ -565,6 +557,7 @@ await
 assertResource1CanBeFetched
 (
 )
+;
 await
 assertResource2CanBeFetched
 (
@@ -1506,7 +1499,9 @@ await
 new
 Promise
 (
+(
 resolve
+)
 =
 >
 t
