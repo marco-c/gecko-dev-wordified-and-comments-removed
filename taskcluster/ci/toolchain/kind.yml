@@ -212,7 +212,9 @@ mingw
 .
 yml
 -
-minidump_stackwalk
+minidump
+-
+stackwalk
 .
 yml
 -

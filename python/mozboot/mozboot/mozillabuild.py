@@ -1130,7 +1130,9 @@ self
 install_toolchain_artifact
 (
 "
-minidump_stackwalk
+minidump
+-
+stackwalk
 "
 )
     

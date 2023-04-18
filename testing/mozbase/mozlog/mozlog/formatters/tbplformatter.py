@@ -959,7 +959,9 @@ append
 "
 stderr
 from
-minidump_stackwalk
+minidump
+-
+stackwalk
 :
 "
 )
@@ -1020,7 +1022,9 @@ append
 (
                     
 "
-minidump_stackwalk
+minidump
+-
+stackwalk
 exited
 with
 return

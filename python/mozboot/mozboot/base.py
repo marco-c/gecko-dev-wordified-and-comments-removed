@@ -2225,7 +2225,9 @@ self
 "
         
 Install
-minidump_stackwalk
+minidump
+-
+stackwalk
 .
         
 "

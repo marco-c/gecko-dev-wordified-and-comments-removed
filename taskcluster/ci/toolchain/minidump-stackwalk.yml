@@ -63,7 +63,9 @@ defaults
 description
 :
 "
-minidump_stackwalk
+minidump
+-
+stackwalk
 toolchain
 build
 "
@@ -109,7 +111,9 @@ public
 /
 build
 /
-minidump_stackwalk
+minidump
+-
+stackwalk
 .
 tar
 .

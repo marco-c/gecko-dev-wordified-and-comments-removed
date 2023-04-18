@@ -228,7 +228,9 @@ a
 path
 to
 the
-minidump_stackwalk
+minidump
+-
+stackwalk
 binary
 .
     
@@ -266,9 +268,13 @@ then
 .
 mozbuild
 /
-minidump_stackwalk
+minidump
+-
+stackwalk
 /
-minidump_stackwalk
+minidump
+-
+stackwalk
 will
 be
 used
@@ -635,7 +641,9 @@ append
 "
 stderr
 from
-minidump_stackwalk
+minidump
+-
+stackwalk
 :
 "
 )
@@ -689,7 +697,9 @@ append
 (
                     
 "
-minidump_stackwalk
+minidump
+-
+stackwalk
 exited
 with
 return
@@ -1242,7 +1252,9 @@ stackwalk_binary
 Path
 to
 the
-minidump_stackwalk
+minidump
+-
+stackwalk
 binary
 .
 If
@@ -1277,9 +1289,13 @@ then
 .
 mozbuild
 /
-minidump_stackwalk
+minidump
+-
+stackwalk
 /
-minidump_stackwalk
+minidump
+-
+stackwalk
                              
 will
 be
@@ -1321,6 +1337,12 @@ symbols_path
 self
 .
 remove_symbols
+=
+False
+        
+self
+.
+brief_output
 =
 False
         
@@ -1376,6 +1398,25 @@ is
 None
 :
             
+possible_names
+=
+[
+"
+minidump
+-
+stackwalk
+"
+"
+minidump_stackwalk
+"
+]
+            
+for
+possible_name
+in
+possible_names
+:
+                
 stackwalk_binary
 =
 os
@@ -1384,20 +1425,31 @@ path
 .
 expanduser
 (
-                
+                    
 "
 ~
 /
 .
 mozbuild
 /
-minidump_stackwalk
+{
+name
+}
 /
-minidump_stackwalk
+{
+name
+}
 "
-            
+.
+format
+(
+name
+=
+possible_name
 )
-            
+                
+)
+                
 if
 mozinfo
 .
@@ -1414,7 +1466,7 @@ exe
 "
 )
 :
-                
+                    
 stackwalk_binary
 +
 =
@@ -1422,6 +1474,25 @@ stackwalk_binary
 .
 exe
 "
+                
+if
+os
+.
+path
+.
+exists
+(
+stackwalk_binary
+)
+:
+                    
+self
+.
+brief_output
+=
+True
+                    
+break
         
 self
 .
@@ -2160,6 +2231,23 @@ append
 human
 "
 )
+                
+if
+self
+.
+brief_output
+:
+                    
+command
+.
+append
+(
+"
+-
+-
+brief
+"
+)
             
 command
 .
@@ -2479,7 +2567,9 @@ changes
 "
 to
 install
-minidump_stackwalk
+minidump
+-
+stackwalk
 .
 "
                 
@@ -2532,7 +2622,9 @@ system
 changes
 to
 install
-minidump_stackwalk
+minidump
+-
+stackwalk
 .
 "
                     

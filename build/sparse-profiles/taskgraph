@@ -536,7 +536,9 @@ updater
 #
 for
 the
-minidump_stackwalk
+minidump
+-
+stackwalk
 toolchain
 task
 path

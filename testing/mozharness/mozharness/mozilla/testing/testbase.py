@@ -1277,7 +1277,9 @@ symbols_url
 found
 .
 Let
-minidump_stackwalk
+minidump
+-
+stackwalk
 query
 for
 symbols
@@ -4274,11 +4276,15 @@ MOZ_FETCHES_DIR
 ]
                 
 "
-minidump_stackwalk
+minidump
+-
+stackwalk
 "
                 
 "
-minidump_stackwalk
+minidump
+-
+stackwalk
 "
             
 )
@@ -4328,7 +4334,9 @@ self
 error
 (
 "
-minidump_stackwalk
+minidump
+-
+stackwalk
 path
 was
 not
