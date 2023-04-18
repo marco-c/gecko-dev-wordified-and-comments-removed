@@ -387,13 +387,6 @@ height
 =
 0
 ;
-virtual
-void
-Initialize
-(
-)
-{
-}
 NS_IMETHOD
 InitializeWithDrawTarget
 (
