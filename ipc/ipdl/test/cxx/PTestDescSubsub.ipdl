@@ -17,6 +17,9 @@ PTestDescSub
 ;
 child
 :
+[
+LegacyIntr
+]
 intr
 __delete__
 (

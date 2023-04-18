@@ -17,6 +17,9 @@ PTestFailedCtorSub
 ;
 child
 :
+[
+LegacyIntr
+]
 intr
 PTestFailedCtorSub
 (

@@ -10,6 +10,9 @@ PTestHangs
 {
 both
 :
+[
+LegacyIntr
+]
 intr
 StackFrame
 (
@@ -29,6 +32,9 @@ Start
 (
 )
 ;
+[
+LegacyIntr
+]
 intr
 Hang
 (

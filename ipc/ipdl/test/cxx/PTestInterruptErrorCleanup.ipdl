@@ -10,11 +10,17 @@ PTestInterruptErrorCleanup
 {
 child
 :
+[
+LegacyIntr
+]
 intr
 Error
 (
 )
 ;
+[
+LegacyIntr
+]
 intr
 __delete__
 (

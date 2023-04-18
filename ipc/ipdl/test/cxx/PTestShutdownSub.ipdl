@@ -24,6 +24,9 @@ PTestShutdownSubsub
 ;
 both
 :
+[
+LegacyIntr
+]
 intr
 StackFrame
 (

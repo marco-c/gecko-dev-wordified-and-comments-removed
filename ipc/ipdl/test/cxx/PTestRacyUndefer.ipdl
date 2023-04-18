@@ -25,6 +25,9 @@ AwakenRaceWinTwice
 (
 )
 ;
+[
+LegacyIntr
+]
 intr
 Race
 (
@@ -37,11 +40,17 @@ __delete__
 ;
 parent
 :
+[
+LegacyIntr
+]
 intr
 Spam
 (
 )
 ;
+[
+LegacyIntr
+]
 intr
 RaceWinTwice
 (

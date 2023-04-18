@@ -29,6 +29,9 @@ __delete__
 (
 )
 ;
+[
+LegacyIntr
+]
 intr
 PTestDescSubsub
 (

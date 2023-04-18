@@ -21,6 +21,9 @@ PTestDescSub
 ;
 child
 :
+[
+LegacyIntr
+]
 intr
 PTestDescSub
 (

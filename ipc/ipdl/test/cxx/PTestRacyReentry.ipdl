@@ -10,6 +10,9 @@ PTestRacyReentry
 {
 parent
 :
+[
+LegacyIntr
+]
 intr
 E
 (
@@ -32,6 +35,9 @@ N
 (
 )
 ;
+[
+LegacyIntr
+]
 intr
 H
 (

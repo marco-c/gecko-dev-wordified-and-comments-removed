@@ -49,6 +49,9 @@ Sync
 (
 )
 ;
+[
+LegacyIntr
+]
 intr
 Rpc
 (
@@ -56,6 +59,9 @@ Rpc
 ;
 both
 :
+[
+LegacyIntr
+]
 intr
 StackFrame
 (

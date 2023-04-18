@@ -32,6 +32,9 @@ r
 ;
 both
 :
+[
+LegacyIntr
+]
 intr
 InterruptMsg
 (

@@ -38,6 +38,9 @@ Foo
 g
 )
 ;
+[
+LegacyIntr
+]
 intr
 InterruptMsg
 (

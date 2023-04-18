@@ -38,6 +38,9 @@ interrupt
 message
 parent
 :
+[
+LegacyIntr
+]
 intr
 Msg
 (

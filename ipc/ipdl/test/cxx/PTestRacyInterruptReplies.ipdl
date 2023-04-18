@@ -10,6 +10,9 @@ PTestRacyInterruptReplies
 {
 child
 :
+[
+LegacyIntr
+]
 intr
 R_
 (
@@ -37,6 +40,9 @@ __delete__
 ;
 parent
 :
+[
+LegacyIntr
+]
 intr
 _R
 (

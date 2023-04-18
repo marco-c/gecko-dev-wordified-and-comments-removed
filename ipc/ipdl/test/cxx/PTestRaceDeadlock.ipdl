@@ -17,6 +17,9 @@ StartRace
 ;
 parent
 :
+[
+LegacyIntr
+]
 intr
 Lose
 (
@@ -24,11 +27,17 @@ Lose
 ;
 child
 :
+[
+LegacyIntr
+]
 intr
 Win
 (
 )
 ;
+[
+LegacyIntr
+]
 intr
 Rpc
 (

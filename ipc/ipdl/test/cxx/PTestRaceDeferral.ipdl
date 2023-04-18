@@ -10,6 +10,9 @@ PTestRaceDeferral
 {
 parent
 :
+[
+LegacyIntr
+]
 intr
 Lose
 (
@@ -22,11 +25,17 @@ StartRace
 (
 )
 ;
+[
+LegacyIntr
+]
 intr
 Win
 (
 )
 ;
+[
+LegacyIntr
+]
 intr
 Rpc
 (

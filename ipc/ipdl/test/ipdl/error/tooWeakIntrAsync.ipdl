@@ -37,6 +37,9 @@ intr
 message
 parent
 :
+[
+LegacyIntr
+]
 intr
 Msg
 (

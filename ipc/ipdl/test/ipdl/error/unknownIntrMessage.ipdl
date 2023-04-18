@@ -16,6 +16,9 @@ unknownIntrMessage
 {
 parent
 :
+[
+LegacyIntr
+]
 intr
 Msg
 (
