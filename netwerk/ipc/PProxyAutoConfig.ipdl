@@ -39,11 +39,6 @@ nsCString
 aResult
 )
 ;
-async
-GC
-(
-)
-;
 }
 ;
 }
