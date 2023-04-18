@@ -7007,6 +7007,17 @@ lir
 setOperand
 (
 1
+willHaveDifferentLIRNodes
+(
+lhs
+rhs
+)
+?
+useRegister
+(
+rhs
+)
+:
 useRegisterAtStart
 (
 rhs
