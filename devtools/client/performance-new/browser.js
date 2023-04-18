@@ -192,7 +192,7 @@ UI_BASE_URL_PATH_DEFAULT
 /
 from
 -
-addon
+browser
 "
 ;
 function
