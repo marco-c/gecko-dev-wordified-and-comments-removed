@@ -18,6 +18,9 @@ Units
 .
 h
 "
+class
+nsPresContext
+;
 namespace
 mozilla
 {
@@ -59,11 +62,11 @@ virtual
 void
 ShowAsContextMenu
 (
+nsPresContext
+*
+aPc
 const
-mozilla
-:
-:
-DesktopPoint
+CSSIntPoint
 &
 aPosition
 )

@@ -80,8 +80,10 @@ aElement
 void
 ShowAsContextMenu
 (
+nsPresContext
+*
 const
-DesktopPoint
+CSSIntPoint
 &
 aPosition
 )

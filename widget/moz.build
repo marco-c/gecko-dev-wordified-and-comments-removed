@@ -986,6 +986,11 @@ NativeMenu
 h
 "
 "
+NativeMenuSupport
+.
+h
+"
+"
 nsAutoRollup
 .
 h
