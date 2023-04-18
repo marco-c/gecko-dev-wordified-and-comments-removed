@@ -16679,6 +16679,7 @@ bool
 const
 char
 *
+bool
 )
 >
 &
@@ -16774,6 +16775,7 @@ pref
 Name
 (
 )
+false
 )
 )
 ;
@@ -26369,6 +26371,8 @@ const
 char
 *
 aPref
+bool
+aIsDestWebContentProcess
 )
 {
 #
