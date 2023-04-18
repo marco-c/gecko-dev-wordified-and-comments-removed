@@ -289,9 +289,9 @@ optimized
 )
 ;
 extern
-PlainObject
+Shape
 *
-CreateThisForFunction
+ThisShapeForFunction
 (
 JSContext
 *
@@ -314,8 +314,6 @@ JSObject
 *
 >
 newTarget
-NewObjectKind
-newKind
 )
 ;
 extern
