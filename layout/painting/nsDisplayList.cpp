@@ -74,6 +74,17 @@ mozilla
 /
 dom
 /
+RemoteBrowser
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Selection
 .
 h
