@@ -2253,13 +2253,6 @@ MOZ_APPLEMEDIA
 "
 applemedia
 )
-add_old_configure_assignment
-(
-"
-MOZ_APPLEMEDIA
-"
-applemedia
-)
 option
 (
 "
