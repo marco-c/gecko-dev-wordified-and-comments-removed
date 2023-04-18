@@ -144,8 +144,6 @@ const
 nsString
 &
 aValue
-uint16_t
-aReason
 )
 ;
 void
