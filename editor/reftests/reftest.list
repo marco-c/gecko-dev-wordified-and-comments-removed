@@ -420,6 +420,12 @@ if
 (
 Android
 )
+skip
+-
+if
+(
+cocoaWidget
+)
 needs
 -
 focus
@@ -439,6 +445,9 @@ input
 ref
 .
 html
+#
+Bug
+1666056
 skip
 -
 if
