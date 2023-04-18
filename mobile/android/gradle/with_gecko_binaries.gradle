@@ -569,6 +569,10 @@ FileNameFinder
 getFileNames
 (
 ndkDirectory
+.
+toString
+(
+)
 "
 toolchains
 /
