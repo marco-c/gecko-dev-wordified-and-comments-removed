@@ -123,15 +123,6 @@ h
 #
 include
 "
-frontend
-/
-SourceNotes
-.
-h
-"
-#
-include
-"
 gc
 /
 Barrier
@@ -377,6 +368,9 @@ SourceCompressionTask
 ;
 class
 Shape
+;
+class
+SrcNote
 ;
 class
 DebugScript

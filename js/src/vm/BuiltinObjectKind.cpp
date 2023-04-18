@@ -17,6 +17,15 @@ h
 #
 include
 "
+frontend
+/
+ParserAtom
+.
+h
+"
+#
+include
+"
 vm
 /
 GlobalObject

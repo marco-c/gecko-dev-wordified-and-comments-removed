@@ -41,6 +41,15 @@ h
 #
 include
 "
+frontend
+/
+NameCollections
+.
+h
+"
+#
+include
+"
 gc
 /
 Memory

@@ -299,17 +299,11 @@ frontend
 struct
 CompilationAtomCache
 ;
-struct
-CompilationStencilMerger
-;
 class
 ScopeStencil
 ;
 struct
 ScopeStencilRef
-;
-class
-ParserAtom
 ;
 }
 template

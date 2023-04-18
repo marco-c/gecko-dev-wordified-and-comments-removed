@@ -167,15 +167,6 @@ h
 #
 include
 "
-frontend
-/
-BytecodeCompiler
-.
-h
-"
-#
-include
-"
 gc
 /
 Policy
