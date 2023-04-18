@@ -1061,7 +1061,6 @@ hb_set_t
 (
 hb_set_t
 &
-o
 )
 =
 default
@@ -1074,7 +1073,6 @@ operator
 const
 hb_set_t
 &
-other
 )
 =
 default
@@ -1087,7 +1085,6 @@ operator
 hb_set_t
 &
 &
-other
 )
 =
 default

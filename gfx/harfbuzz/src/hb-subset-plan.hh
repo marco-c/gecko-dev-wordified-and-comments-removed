@@ -138,12 +138,6 @@ hb_hashmap_t
 unsigned
 hb_set_t
 *
-(
-unsigned
-)
--
-1
-nullptr
 >
 *
 gsub_langsys
@@ -153,12 +147,6 @@ hb_hashmap_t
 unsigned
 hb_set_t
 *
-(
-unsigned
-)
--
-1
-nullptr
 >
 *
 gpos_langsys

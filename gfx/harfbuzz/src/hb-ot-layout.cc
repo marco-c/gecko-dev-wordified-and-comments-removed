@@ -4185,12 +4185,6 @@ hb_hashmap_t
 unsigned
 hb_set_t
 *
-(
-unsigned
-)
--
-1
-nullptr
 >
 done_lookups_glyph_set
 ;
@@ -4288,12 +4282,6 @@ hb_hashmap_t
 unsigned
 hb_set_t
 *
-(
-unsigned
-)
--
-1
-nullptr
 >
 done_lookups_glyph_set
 ;
