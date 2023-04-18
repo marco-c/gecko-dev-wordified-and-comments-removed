@@ -509,13 +509,6 @@ UptimeTS
 "
   
 "
-ThreadIdNameMapping
-"
-:
-"
-"
-  
-"
 ContentSandboxEnabled
 "
 :
