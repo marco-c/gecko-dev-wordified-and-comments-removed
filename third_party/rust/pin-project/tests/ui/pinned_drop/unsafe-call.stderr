@@ -18,7 +18,11 @@ block
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+pinned_drop
 /
 unsafe
 -

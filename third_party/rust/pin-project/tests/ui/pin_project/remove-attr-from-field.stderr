@@ -8,7 +8,11 @@ types
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+pin_project
 /
 remove
 -
@@ -118,7 +122,11 @@ types
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+pin_project
 /
 remove
 -

@@ -1,9 +1,7 @@
 FROM
 rust
 :
-1
-.
-40
+latest
 WORKDIR
 /
 usr

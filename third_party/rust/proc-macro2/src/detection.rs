@@ -67,7 +67,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 {
 1
@@ -114,7 +114,7 @@ store
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 }
@@ -169,7 +169,7 @@ usize
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 }
@@ -296,7 +296,7 @@ usize
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 let

@@ -8,7 +8,11 @@ types
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+cfg
 /
 cfg_attr
 -
@@ -105,7 +109,11 @@ types
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+cfg
 /
 cfg_attr
 -

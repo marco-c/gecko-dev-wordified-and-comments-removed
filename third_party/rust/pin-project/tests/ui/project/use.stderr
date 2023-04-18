@@ -15,7 +15,11 @@ imports
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+project
 /
 use
 .
@@ -75,7 +79,11 @@ imports
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+project
 /
 use
 .

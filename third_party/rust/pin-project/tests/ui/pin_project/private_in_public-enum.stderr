@@ -12,7 +12,11 @@ interface
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+pin_project
 /
 private_in_public
 -
@@ -99,7 +103,11 @@ interface
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+pin_project
 /
 private_in_public
 -

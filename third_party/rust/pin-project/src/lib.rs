@@ -46,11 +46,11 @@ warn
 clippy
 :
 :
-all
+default_trait_access
 clippy
 :
 :
-default_trait_access
+wildcard_imports
 )
 ]
 #

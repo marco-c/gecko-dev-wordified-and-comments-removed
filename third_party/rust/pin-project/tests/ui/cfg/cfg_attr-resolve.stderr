@@ -26,7 +26,11 @@ scope
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+cfg
 /
 cfg_attr
 -

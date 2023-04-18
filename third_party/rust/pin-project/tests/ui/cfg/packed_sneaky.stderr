@@ -21,7 +21,11 @@ types
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+cfg
 /
 packed_sneaky
 .
@@ -100,9 +104,10 @@ this
 error
 originates
 in
-an
+the
 attribute
 macro
+hidden_repr_cfg_not_any
 (
 in
 Nightly

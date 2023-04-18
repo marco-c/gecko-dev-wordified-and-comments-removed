@@ -24,7 +24,11 @@ ambiguity
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+project
 /
 ambiguous
 -

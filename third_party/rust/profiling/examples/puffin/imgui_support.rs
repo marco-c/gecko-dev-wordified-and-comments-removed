@@ -827,7 +827,6 @@ unwrap
 )
 ;
 let
-mut
 inner
 =
 &
@@ -869,8 +868,6 @@ ImguiManager
 :
 take_ui
 (
-&
-mut
 inner
 )
 ;

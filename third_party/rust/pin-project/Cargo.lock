@@ -16,6 +16,9 @@ for
 manual
 editing
 .
+version
+=
+3
 [
 [
 package
@@ -80,7 +83,7 @@ version
 .
 4
 .
-7
+8
 "
 source
 =
@@ -108,7 +111,7 @@ index
 checksum
 =
 "
-dd25036021b0de88a0aff6b850051563c6516d0bf53f8638938edbb9de732736
+b71991ff56294aa922b450139ee08b3bfc70982c6b2c7562771375cf73542dd4
 "
 [
 [
@@ -176,7 +179,7 @@ version
 .
 4
 .
-28
+29
 "
 dependencies
 =
@@ -190,6 +193,12 @@ internal
 "
 "
 rustversion
+"
+"
+ryu
+"
+"
+serde_json
 "
 "
 trybuild
@@ -216,7 +225,7 @@ version
 .
 4
 .
-28
+29
 "
 source
 =
@@ -244,7 +253,7 @@ index
 checksum
 =
 "
-3be26700300be6d9d23264c73211d8190e755b6b5ca7a1b28230025511b52a5e
+044964427019eed9d49d9d5bbce6047ef18f37100ea400912a9fa4a3523ab12a
 "
 dependencies
 =
@@ -280,7 +289,7 @@ version
 .
 0
 .
-24
+34
 "
 source
 =
@@ -308,7 +317,7 @@ index
 checksum
 =
 "
-1e0704ee1a7e00d7bb417d0770ea303c1bccbabf0ef1667dae92b5967f5f8a71
+2f84e92c0f7c9d58328b85a78557813e4bd845130db68d7184635344399423b1
 "
 dependencies
 =
@@ -336,7 +345,7 @@ version
 .
 0
 .
-9
+10
 "
 source
 =
@@ -364,7 +373,7 @@ index
 checksum
 =
 "
-c3d0b9745dc2debf507c8422de05d7226cc1f0644216dfdfead988f9b1ab32a7
+38bc8cc6a5f2e3655e0899c1b848643b2562f853f114bfec7be120678e3ace05
 "
 dependencies
 =
@@ -392,7 +401,7 @@ version
 .
 0
 .
-4
+6
 "
 source
 =
@@ -420,7 +429,7 @@ index
 checksum
 =
 "
-cb5d2a036dc6d2d8fd16fde3498b04306e29bd193bf306a57427019b823d5acd
+f2cc38e8fa666e2de3c4aba7edeb5ffc5246c1c2ed0e3d17e560aeeba736b23f
 "
 [
 [
@@ -439,7 +448,7 @@ version
 .
 0
 .
-5
+6
 "
 source
 =
@@ -467,7 +476,7 @@ index
 checksum
 =
 "
-71d301d4193d031abdd79ff7e3dd721168a9572ef3fe51a1517aba235bd8f86e
+3c9613b5a66ab9ba26415184cfc41156594925a9cf3a2057e57f31ff145f6568
 "
 [
 [
@@ -486,7 +495,7 @@ version
 .
 0
 .
-125
+132
 "
 source
 =
@@ -514,7 +523,7 @@ index
 checksum
 =
 "
-558dc50e1a5a5fa7112ca2ce4effcb321b0300c0d4ccf0776a9f60cd89031171
+8b9875c23cf305cd1fd7eb77234cbb705f21ea6a72c637a5c6db5fe4b8e7f008
 "
 dependencies
 =
@@ -540,7 +549,7 @@ version
 .
 0
 .
-125
+132
 "
 source
 =
@@ -568,7 +577,7 @@ index
 checksum
 =
 "
-b093b7a2bb58203b5da3056c05b4ec1fed827dcfdb37347a8841695263b3d06d
+ecc0db5cb2556c0e558887d9bbdcf6ac4471e83ff66cf696e5419024d1606276
 "
 dependencies
 =
@@ -602,7 +611,7 @@ version
 .
 0
 .
-64
+72
 "
 source
 =
@@ -630,7 +639,7 @@ index
 checksum
 =
 "
-799e97dc9fdae36a5c8b8f2cae9ce2ee9fdce2058c57a93e6099d919fd982f79
+d0ffa0837f2dfa6fb90868c2b5468cad482e175f7dad97e7421951e663f2b527
 "
 dependencies
 =
@@ -662,7 +671,7 @@ version
 .
 0
 .
-65
+84
 "
 source
 =
@@ -690,7 +699,7 @@ index
 checksum
 =
 "
-f3a1d708c221c5a612956ef9f75b37e454e88d1f7b899fbd3a18d4252012d663
+ecb2e6da8ee5eb9a61068762a32fa9619cc591ceb055b3687f4cd4051ec2e06b
 "
 dependencies
 =
@@ -836,7 +845,7 @@ version
 .
 0
 .
-41
+53
 "
 source
 =
@@ -864,7 +873,7 @@ index
 checksum
 =
 "
-99471a206425fba51842a9186315f32d91c56eadc21ea4c21f847b59cf778f8b
+9d664de8ea7e531ad4c0f5a834f20b8cb2b8e6dfe88d05796ee7887518ed67b9
 "
 dependencies
 =
@@ -907,7 +916,7 @@ version
 .
 2
 .
-1
+2
 "
 source
 =
@@ -935,7 +944,7 @@ index
 checksum
 =
 "
-f7fe0bb3479651439c9112f72b6c505038574c9fbb575ed1bf3b797fa39dd564
+8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3
 "
 [
 [

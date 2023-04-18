@@ -40,7 +40,7 @@ PhantomPinned
 struct
 A
 (
-Inner
+PhantomPinned
 )
 ;
 impl
@@ -48,6 +48,22 @@ Unpin
 for
 A
 where
+PhantomPinned
+:
+Unpin
+{
+}
+struct
+B
+(
+Inner
+)
+;
+impl
+Unpin
+for
+B
+where
 Inner
 :
 Unpin
@@ -79,7 +95,7 @@ Unpin
 {
 }
 struct
-B
+C
 (
 Inner
 )
@@ -87,7 +103,7 @@ Inner
 impl
 Unpin
 for
-B
+C
 where
 Wrapper
 <
@@ -135,7 +151,7 @@ Unpin
 {
 }
 struct
-C
+D
 (
 Inner
 )
@@ -147,7 +163,7 @@ a
 >
 Unpin
 for
-C
+D
 where
 WrapperWithLifetime
 <

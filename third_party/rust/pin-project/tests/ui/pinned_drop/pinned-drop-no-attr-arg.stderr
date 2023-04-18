@@ -17,11 +17,14 @@ PinnedDrop
 for
 type
 Foo
-:
 -
 -
 >
-DIR
+tests
+/
+ui
+/
+pinned_drop
 /
 pinned
 -
