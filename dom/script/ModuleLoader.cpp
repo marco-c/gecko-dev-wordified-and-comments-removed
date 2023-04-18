@@ -1468,6 +1468,7 @@ GetReferrerPolicy
 (
 )
 principal
+global
 )
 ;
 baseURL
@@ -1485,7 +1486,6 @@ new
 ScriptLoadContext
 (
 nullptr
-global
 )
 ;
 }
@@ -2670,15 +2670,6 @@ GetLoadContext
 -
 >
 mElement
-aParent
--
->
-GetLoadContext
-(
-)
--
->
-mWebExtGlobal
 )
 ;
 newContext

@@ -259,11 +259,6 @@ ScriptLoadContext
 Element
 *
 aElement
-nsIGlobalObject
-*
-aWebExtGlobal
-=
-nullptr
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -613,12 +608,6 @@ nsCOMPtr
 Element
 >
 mElement
-;
-nsCOMPtr
-<
-nsIGlobalObject
->
-mWebExtGlobal
 ;
 RefPtr
 <
