@@ -2543,6 +2543,16 @@ enabled
 "
 true
 ]
+[
+"
+privacy
+.
+partition
+.
+serviceWorkers
+"
+true
+]
 ]
 )
 ;
