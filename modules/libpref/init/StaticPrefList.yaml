@@ -51427,7 +51427,7 @@ MOZ_WIDGET_ANDROID
 )
 value
 :
-true
+false
 #
 elif
 defined
