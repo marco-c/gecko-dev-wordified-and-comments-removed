@@ -3181,6 +3181,7 @@ PushImageProvider
 (
 aItem
 provider
+drawResult
 aBuilder
 aResources
 destRect
