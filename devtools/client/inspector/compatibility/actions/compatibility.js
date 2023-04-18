@@ -258,7 +258,7 @@ all
 [
 UserSettings
 .
-getDefaultTargetBrowsers
+getBrowsersList
 (
 )
 UserSettings
