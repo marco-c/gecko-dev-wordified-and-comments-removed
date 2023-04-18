@@ -6145,6 +6145,7 @@ Negotiate
 (
 answer
 remote
+local
 )
 ;
 JsepTrack
@@ -6169,6 +6170,7 @@ Negotiate
 (
 answer
 remote
+local
 )
 ;
 if

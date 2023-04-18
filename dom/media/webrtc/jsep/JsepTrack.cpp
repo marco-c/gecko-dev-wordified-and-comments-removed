@@ -540,6 +540,9 @@ NegotiateCodecs
 (
 offer
 true
+Nothing
+(
+)
 )
 ;
 if
@@ -2369,7 +2372,14 @@ SdpMediaSection
 &
 remote
 bool
-isOffer
+remoteIsOffer
+Maybe
+<
+const
+SdpMediaSection
+&
+>
+local
 )
 {
 std
@@ -2472,7 +2482,8 @@ Negotiate
 (
 fmt
 remote
-isOffer
+remoteIsOffer
+local
 )
 )
 {
@@ -3073,6 +3084,10 @@ const
 SdpMediaSection
 &
 remote
+const
+SdpMediaSection
+&
+local
 )
 {
 std
@@ -3096,6 +3111,10 @@ answer
 =
 &
 remote
+SomeRef
+(
+local
+)
 )
 ;
 UniquePtr
