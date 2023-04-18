@@ -2397,11 +2397,6 @@ aRv
 )
 ;
 void
-RecordLongtermICEStatistics
-(
-)
-;
-void
 RecordIceRestartStatistics
 (
 JsepSdpType
