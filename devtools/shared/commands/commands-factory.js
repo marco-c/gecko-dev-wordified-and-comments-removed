@@ -218,7 +218,7 @@ async
 forRemoteTabInTest
 (
 {
-outerWindowID
+browserId
 client
 }
 )
@@ -248,7 +248,7 @@ mainRoot
 getTab
 (
 {
-outerWindowID
+browserId
 }
 )
 ;

@@ -128,15 +128,6 @@ Option
 number
 "
 )
-outerWindowID
-:
-Option
-(
-0
-"
-number
-"
-)
 tabId
 :
 Option

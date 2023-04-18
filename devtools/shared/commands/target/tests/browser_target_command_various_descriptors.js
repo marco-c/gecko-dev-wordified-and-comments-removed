@@ -562,7 +562,7 @@ via
 getTab
 (
 {
-outerWindowID
+browserId
 }
 )
 )
@@ -587,13 +587,13 @@ CommandsFactory
 forRemoteTabInTest
 (
 {
-outerWindowID
+browserId
 :
 tab
 .
 linkedBrowser
 .
-outerWindowID
+browserId
 }
 )
 ;
