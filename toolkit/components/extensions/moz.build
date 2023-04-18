@@ -534,6 +534,17 @@ xpcshell
 .
 ini
 "
+"
+test
+/
+xpcshell
+/
+xpcshell
+-
+serviceworker
+.
+ini
+"
 ]
 MOCHITEST_MANIFESTS
 +
