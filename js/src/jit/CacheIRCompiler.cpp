@@ -49598,6 +49598,8 @@ emitArrayFromArgumentsObjectResult
 (
 ObjOperandId
 objId
+uint32_t
+shapeOffset
 )
 {
 JitSpew

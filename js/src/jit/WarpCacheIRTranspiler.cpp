@@ -8655,6 +8655,8 @@ emitArrayFromArgumentsObjectResult
 (
 ObjOperandId
 objId
+uint32_t
+shapeOffset
 )
 {
 MDefinition
@@ -8664,6 +8666,20 @@ obj
 getOperand
 (
 objId
+)
+;
+Shape
+*
+shape
+=
+shapeStubField
+(
+shapeOffset
+)
+;
+MOZ_ASSERT
+(
+shape
 )
 ;
 auto
@@ -8679,6 +8695,7 @@ alloc
 (
 )
 obj
+shape
 )
 ;
 addEffectful
