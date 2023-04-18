@@ -213,11 +213,6 @@ GetRequestTimeout
 (
 )
 ;
-void
-StrictModeConfirm
-(
-)
-;
 LookupStatus
 CompleteLookup
 (
@@ -671,7 +666,6 @@ Init
 PrefChange
 Retry
 FailedLookups
-StrictMode
 URIChange
 CaptivePortalConnectivity
 NetworkUp
@@ -797,14 +791,6 @@ mTrigger
 ;
 nsCString
 mFailedLookups
-;
-void
-SetState
-(
-enum
-ConfirmationState
-aNewState
-)
 ;
 public
 :
