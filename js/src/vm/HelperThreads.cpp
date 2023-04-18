@@ -5123,6 +5123,16 @@ DelazifyTask
 break
 ;
 }
+if
+(
+!
+strategy
+)
+{
+return
+false
+;
+}
 BorrowingCompilationStencil
 borrow
 (
