@@ -68,6 +68,9 @@ mod
 ops
 ;
 mod
+rand
+;
+mod
 str
 ;
 mod
