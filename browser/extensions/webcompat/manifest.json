@@ -35,7 +35,7 @@ version
 "
 29
 .
-1
+2
 .
 0
 "
@@ -803,6 +803,13 @@ html
 shims
 /
 hamropatro
+.
+js
+"
+"
+shims
+/
+history
 .
 js
 "
