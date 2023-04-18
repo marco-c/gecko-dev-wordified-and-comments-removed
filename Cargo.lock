@@ -18442,6 +18442,13 @@ version
 .
 0
 "
+dependencies
+=
+[
+"
+mozbuild
+"
+]
 [
 [
 package
