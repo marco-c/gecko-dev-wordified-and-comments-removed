@@ -930,7 +930,7 @@ push
 (
 this
 .
-_fetchRemoteSettingsSuggestion
+_fetchRemoteSettingsSuggestions
 (
 queryContext
 searchString
@@ -2950,7 +2950,7 @@ maybeTimestamp
 ;
 }
 async
-_fetchRemoteSettingsSuggestion
+_fetchRemoteSettingsSuggestions
 (
 queryContext
 searchString
@@ -2964,7 +2964,7 @@ this
 queryInstance
 ;
 let
-suggestion
+suggestions
 ;
 TelemetryStopwatch
 .
@@ -2976,7 +2976,7 @@ queryContext
 ;
 try
 {
-suggestion
+suggestions
 =
 await
 UrlbarQuickSuggest
@@ -3005,7 +3005,8 @@ queryInstance
 )
 {
 return
-null
+[
+]
 ;
 }
 }
@@ -3029,12 +3030,13 @@ logger
 error
 (
 "
-Could
-not
+Couldn
+'
+t
 fetch
 remote
 settings
-suggestion
+suggestions
 :
 "
 +
@@ -3043,7 +3045,11 @@ error
 ;
 }
 return
-suggestion
+suggestions
+|
+|
+[
+]
 ;
 }
 async

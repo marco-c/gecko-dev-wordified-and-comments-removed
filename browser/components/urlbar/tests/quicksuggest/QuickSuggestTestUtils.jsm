@@ -833,6 +833,14 @@ results
 {
 UrlbarQuickSuggest
 .
+_resultsByKeyword
+.
+clear
+(
+)
+;
+UrlbarQuickSuggest
+.
 _addResults
 (
 results
