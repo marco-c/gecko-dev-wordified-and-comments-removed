@@ -1013,6 +1013,10 @@ MOZ_ASSERT_UNREACHABLE
 (
 )
 ;
+return
+"
+"
+;
 }
 ;
 aStream
