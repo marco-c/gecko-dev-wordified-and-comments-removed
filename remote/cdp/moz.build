@@ -101,17 +101,6 @@ test
 /
 browser
 /
-component
-/
-browser
-.
-ini
-"
-"
-test
-/
-browser
-/
 dom
 /
 browser
