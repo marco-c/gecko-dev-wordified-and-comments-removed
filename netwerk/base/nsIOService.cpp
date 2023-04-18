@@ -2722,10 +2722,10 @@ nsCString
 aName
 )
 false
-!
-ShouldSyncPreference
+ShouldSanitizePreference
 (
 aName
+false
 )
 Nothing
 (

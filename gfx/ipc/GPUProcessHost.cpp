@@ -239,7 +239,7 @@ ipc
 SharedPreferenceSerializer
 >
 (
-ShouldSyncPreference
+ShouldSanitizePreference
 )
 ;
 if
