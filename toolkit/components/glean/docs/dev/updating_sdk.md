@@ -57,7 +57,11 @@ version
 of
 the
 glean
-crate
+and
+glean
+-
+ffi
+crates
 in
 toolkit
 /
