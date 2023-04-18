@@ -5396,9 +5396,12 @@ IsInProcess
 )
 )
 {
-Unused
-<
-<
+if
+(
+ContentParent
+*
+cp
+=
 rootBC
 -
 >
@@ -5410,6 +5413,12 @@ Canonical
 GetContentParent
 (
 )
+)
+{
+Unused
+<
+<
+cp
 -
 >
 SendDispatchLocationChangeEvent
@@ -5417,6 +5426,7 @@ SendDispatchLocationChangeEvent
 rootBC
 )
 ;
+}
 }
 else
 if
