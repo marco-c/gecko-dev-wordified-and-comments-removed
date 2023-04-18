@@ -145,7 +145,7 @@ document
 getElementById
 (
 "
-cmd_printPreview
+cmd_print
 "
 )
 .
