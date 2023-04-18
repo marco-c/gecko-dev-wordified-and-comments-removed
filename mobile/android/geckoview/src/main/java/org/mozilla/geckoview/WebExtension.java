@@ -403,6 +403,7 @@ Flags
 ALLOW_CONTENT_MESSAGING
 }
 )
+public
 interface
 WebExtensionFlags
 {
@@ -583,6 +584,7 @@ flag
 =
 true
 )
+public
 interface
 BrowsingDataTypes
 {
@@ -3277,6 +3279,7 @@ ENV_TYPE_EXTENSION
 ENV_TYPE_CONTENT_SCRIPT
 }
 )
+public
 interface
 EnvType
 {
@@ -3537,6 +3540,7 @@ TYPE_BROWSER_ACTION
 TYPE_PAGE_ACTION
 }
 )
+public
 interface
 ActionType
 {
@@ -4768,6 +4772,7 @@ ErrorCodes
 ERROR_POSTPONED
 }
 )
+public
 interface
 Codes
 {
@@ -4981,6 +4986,7 @@ SignedStateFlags
 PRIVILEGED
 }
 )
+public
 interface
 SignedState
 {
@@ -5068,6 +5074,7 @@ BlocklistStateFlags
 VULNERABLE_NO_UPDATE
 }
 )
+public
 interface
 BlocklistState
 {
@@ -5136,6 +5143,7 @@ DisabledFlags
 APP
 }
 )
+public
 interface
 EnabledFlags
 {
@@ -5773,6 +5781,7 @@ Context
 TOOLS_MENU
 }
 )
+public
 interface
 ContextFlags
 {
@@ -6113,6 +6122,7 @@ MenuType
 SEPARATOR
 }
 )
+public
 interface
 Type
 {
@@ -7696,6 +7706,7 @@ CONFLICT_ACTION_OVERWRITE
 CONFLICT_ACTION_PROMPT
 }
 )
+public
 interface
 ConflictActionFlags
 {

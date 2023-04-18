@@ -3954,6 +3954,7 @@ AntiTracking
 NONE
 }
 )
+public
 interface
 CBAntiTracking
 {
@@ -4070,6 +4071,7 @@ SafeBrowsing
 NONE
 }
 )
+public
 interface
 CBSafeBrowsing
 {
@@ -4160,6 +4162,7 @@ CookieBehavior
 ACCEPT_NON_TRACKERS
 }
 )
+public
 interface
 CBCookieBehavior
 {
@@ -4220,6 +4223,7 @@ CookieLifetime
 DAYS
 }
 )
+public
 interface
 CBCookieLifetime
 {
@@ -4244,6 +4248,7 @@ EtpLevel
 STRICT
 }
 )
+public
 interface
 CBEtpLevel
 {

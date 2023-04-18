@@ -309,6 +309,7 @@ ClearFlags
 ALL
 }
 )
+public
 interface
 StorageControllerClearFlags
 {

@@ -1334,6 +1334,7 @@ BACKEND_SURFACE_VIEW
 BACKEND_TEXTURE_VIEW
 }
 )
+public
 interface
 ViewBackend
 {

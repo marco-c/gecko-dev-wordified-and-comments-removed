@@ -1618,6 +1618,7 @@ Feature
 PREVIOUS_TRACK
 }
 )
+public
 interface
 MSFeature
 {

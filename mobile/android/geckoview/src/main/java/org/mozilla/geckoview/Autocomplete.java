@@ -2499,6 +2499,7 @@ UsedField
 PASSWORD
 }
 )
+public
 interface
 LSUsedField
 {
@@ -2769,6 +2770,7 @@ Hint
 LOW_CONFIDENCE
 }
 )
+public
 interface
 SaveOptionHint
 {
@@ -2889,6 +2891,7 @@ Hint
 MATCHING_ORIGIN
 }
 )
+public
 interface
 SelectOptionHint
 {
@@ -3487,6 +3490,7 @@ Hint
 INSECURE_FORM
 }
 )
+public
 interface
 CreditCardSelectHint
 {
@@ -3677,6 +3681,7 @@ Hint
 INSECURE_FORM
 }
 )
+public
 interface
 AddressSelectHint
 {

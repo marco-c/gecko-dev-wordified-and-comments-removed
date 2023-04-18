@@ -210,6 +210,7 @@ FETCH_FLAGS_PRIVATE
 FETCH_FLAGS_STREAM_FAILURE_TEST
 }
 )
+public
 interface
 FetchFlags
 {

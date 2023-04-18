@@ -266,6 +266,7 @@ SCROLL_BEHAVIOR_SMOOTH
 SCROLL_BEHAVIOR_AUTO
 }
 )
+public
 interface
 ScrollBehaviorType
 {
@@ -301,6 +302,7 @@ INPUT_RESULT_HANDLED_CONTENT
 INPUT_RESULT_IGNORED
 }
 )
+public
 interface
 InputResult
 {
@@ -362,6 +364,7 @@ SCROLLABLE_FLAG_BOTTOM
 SCROLLABLE_FLAG_LEFT
 }
 )
+public
 interface
 ScrollableDirections
 {
@@ -442,6 +445,7 @@ OVERSCROLL_FLAG_HORIZONTAL
 OVERSCROLL_FLAG_VERTICAL
 }
 )
+public
 interface
 OverscrollDirections
 {

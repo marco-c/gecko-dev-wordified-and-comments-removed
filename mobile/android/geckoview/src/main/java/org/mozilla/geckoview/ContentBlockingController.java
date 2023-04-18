@@ -360,6 +360,7 @@ Event
 REPLACED_TRACKING_CONTENT
 }
 )
+public
 interface
 LogEvent
 {

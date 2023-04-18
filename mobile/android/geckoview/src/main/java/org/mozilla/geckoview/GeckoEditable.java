@@ -3681,6 +3681,7 @@ SEND_COMPOSITION_NOTIFY_GECKO
 SEND_COMPOSITION_KEEP_CURRENT
 }
 )
+public
 interface
 CompositionFlags
 {

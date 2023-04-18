@@ -64,6 +64,7 @@ DOCUMENT_WIDTH
 DOCUMENT_HEIGHT
 }
 )
+public
 interface
 ScreenLengthType
 {

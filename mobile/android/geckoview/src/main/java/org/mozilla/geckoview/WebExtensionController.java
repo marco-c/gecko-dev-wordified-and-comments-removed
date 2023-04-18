@@ -1971,6 +1971,7 @@ EnableSource
 APP
 }
 )
+public
 interface
 EnableSources
 {

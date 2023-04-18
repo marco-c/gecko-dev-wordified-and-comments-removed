@@ -419,6 +419,7 @@ Notify
 NODE_BLURRED
 }
 )
+public
 interface
 AutofillNotify
 {
@@ -586,6 +587,7 @@ Hint
 USERNAME
 }
 )
+public
 interface
 AutofillHint
 {
@@ -739,6 +741,7 @@ InputType
 PHONE
 }
 )
+public
 interface
 AutofillInputType
 {

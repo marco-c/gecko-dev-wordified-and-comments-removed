@@ -3077,6 +3077,7 @@ COLOR_SCHEME_DARK
 COLOR_SCHEME_SYSTEM
 }
 )
+public
 interface
 ColorScheme
 {
@@ -3400,6 +3401,7 @@ HTTPS_ONLY_PRIVATE
 HTTPS_ONLY
 }
 )
+public
 interface
 HttpsOnlyMode
 {

@@ -7383,6 +7383,7 @@ LOAD_FLAGS_FORCE_ALLOW_DATA_URI
 LOAD_FLAGS_REPLACE_HISTORY
 }
 )
+public
 interface
 LoadFlags
 {
@@ -7503,6 +7504,7 @@ HEADER_FILTER_CORS_SAFELISTED
 HEADER_FILTER_UNRESTRICTED_UNSAFE
 }
 )
+public
 interface
 HeaderFilter
 {
@@ -8946,6 +8948,7 @@ FINDER_FIND_MATCH_CASE
 FINDER_FIND_WHOLE_WORD
 }
 )
+public
 interface
 FinderFindFlags
 {
@@ -9010,6 +9013,7 @@ FINDER_DISPLAY_DIM_PAGE
 FINDER_DISPLAY_DRAW_LINK_OUTLINE
 }
 )
+public
 interface
 FinderDisplayFlags
 {
@@ -11562,6 +11566,7 @@ SECURITY_MODE_IDENTIFIED
 SECURITY_MODE_VERIFIED
 }
 )
+public
 interface
 SecurityMode
 {
@@ -11604,6 +11609,7 @@ CONTENT_BLOCKED
 CONTENT_LOADED
 }
 )
+public
 interface
 ContentType
 {
@@ -12239,6 +12245,7 @@ TYPE_VIDEO
 TYPE_AUDIO
 }
 )
+public
 interface
 Type
 {
@@ -13406,6 +13413,7 @@ SelectionActionDelegate
 ACTION_COLLAPSE_TO_END
 }
 )
+public
 interface
 SelectionActionDelegateAction
 {
@@ -13435,6 +13443,7 @@ SelectionActionDelegate
 FLAG_IS_PASSWORD
 }
 )
+public
 interface
 SelectionActionDelegateFlag
 {
@@ -13462,6 +13471,7 @@ SelectionActionDelegate
 HIDE_REASON_ACTIVE_SCROLL
 }
 )
+public
 interface
 SelectionActionDelegateHideReason
 {
@@ -13981,6 +13991,7 @@ NavigationDelegate
 TARGET_WINDOW_NEW
 }
 )
+public
 interface
 TargetWindow
 {
@@ -14617,6 +14628,7 @@ Type
 NEGATIVE
 }
 )
+public
 interface
 ButtonType
 {
@@ -14861,6 +14873,7 @@ Flags
 CROSS_ORIGIN_SUB_RESOURCE
 }
 )
+public
 interface
 AuthFlag
 {
@@ -14937,6 +14950,7 @@ Level
 SECURE
 }
 )
+public
 interface
 AuthLevel
 {
@@ -15498,6 +15512,7 @@ Type
 MULTIPLE
 }
 )
+public
 interface
 ChoiceType
 {
@@ -15999,6 +16014,7 @@ Type
 DATETIME_LOCAL
 }
 )
+public
 interface
 DatetimeType
 {
@@ -16200,6 +16216,7 @@ Type
 MULTIPLE
 }
 )
+public
 interface
 FileType
 {
@@ -16255,6 +16272,7 @@ Capture
 ENVIRONMENT
 }
 )
+public
 interface
 CaptureType
 {
@@ -16888,6 +16906,7 @@ Result
 ABORT
 }
 )
+public
 interface
 ShareResult
 {
@@ -18033,6 +18052,7 @@ VALUE_DENY
 VALUE_ALLOW
 }
 )
+public
 interface
 Value
 {
@@ -19009,6 +19029,7 @@ SOURCE_AUDIOCAPTURE
 SOURCE_OTHER
 }
 )
+public
 interface
 Source
 {
@@ -19066,6 +19087,7 @@ TYPE_VIDEO
 TYPE_AUDIO
 }
 )
+public
 interface
 Type
 {
@@ -19563,6 +19585,7 @@ PermissionDelegate
 PERMISSION_STORAGE_ACCESS
 }
 )
+public
 interface
 Permission
 {
@@ -19707,6 +19730,7 @@ TextInputDelegate
 RESTART_REASON_CONTENT_CHANGE
 }
 )
+public
 interface
 RestartReason
 {
@@ -20879,6 +20903,7 @@ Status
 INACTIVE
 }
 )
+public
 interface
 RecordingStatus
 {
@@ -20905,6 +20930,7 @@ Type
 MICROPHONE
 }
 )
+public
 interface
 DeviceType
 {
@@ -21377,6 +21403,7 @@ HistoryDelegate
 VISIT_UNRECOVERABLE_ERROR
 }
 )
+public
 interface
 VisitFlags
 {
