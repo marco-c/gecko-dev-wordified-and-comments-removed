@@ -812,6 +812,7 @@ DOMContentLoaded
 "
 function
 (
+e
 )
 {
 t
@@ -921,6 +922,7 @@ DOMContentLoaded
 "
 function
 (
+e
 )
 {
 t
@@ -1021,6 +1023,7 @@ step_func
 (
 function
 (
+e
 )
 {
 assert_true
@@ -1092,6 +1095,7 @@ step_func_done
 (
 function
 (
+e
 )
 {
 assert_true
