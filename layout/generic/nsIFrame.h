@@ -10903,17 +10903,6 @@ UpdatePaintCountForPaintedPresShells
 )
 ;
 bool
-DidPaintPresShell
-(
-mozilla
-:
-:
-PresShell
-*
-aPresShell
-)
-;
-bool
 IsAbsoluteContainer
 (
 )
