@@ -2771,12 +2771,6 @@ WrapUnique
 taskQueueFactory
 .
 CreateTaskQueueWrapper
-<
-DeletionPolicy
-:
-:
-NonBlocking
->
 (
 "
 CallWorker
