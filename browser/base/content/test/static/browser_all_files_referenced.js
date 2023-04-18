@@ -586,6 +586,9 @@ platforms
 :
 [
 "
+linux
+"
+"
 macosx
 "
 ]
