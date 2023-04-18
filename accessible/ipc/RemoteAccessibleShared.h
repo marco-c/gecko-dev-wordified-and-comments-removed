@@ -807,7 +807,6 @@ FocusedChild
 (
 )
 ;
-virtual
 Accessible
 *
 ChildAtPoint
