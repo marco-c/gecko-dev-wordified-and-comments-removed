@@ -530,7 +530,10 @@ aPluginID
 const
 override
 ;
-void
+RefPtr
+<
+GenericPromise
+>
 Shutdown
 (
 )
@@ -618,11 +621,6 @@ OnControlConfigChange
 ;
 MediaConduitErrorCode
 Init
-(
-)
-;
-void
-InitCall
 (
 )
 ;

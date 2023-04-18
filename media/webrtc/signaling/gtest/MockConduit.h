@@ -340,7 +340,10 @@ PacketType
 MOCK_METHOD0
 (
 Shutdown
-void
+RefPtr
+<
+GenericPromise
+>
 (
 )
 )
