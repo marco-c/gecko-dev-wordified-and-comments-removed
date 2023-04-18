@@ -429,7 +429,17 @@ Message
 aMessage
 )
 ;
+std
+:
+:
+tuple
+<
 ScopedPort
+RefPtr
+<
+NodeChannel
+>
+>
 InviteChildProcess
 (
 UniquePtr
