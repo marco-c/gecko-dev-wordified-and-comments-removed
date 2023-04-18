@@ -8,6 +8,11 @@ GeckoViewExternalAppService
 cpp
 "
 "
+GeckoViewOutputStream
+.
+cpp
+"
+"
 GeckoViewStreamListener
 .
 cpp
@@ -19,6 +24,11 @@ EXPORTS
 [
 "
 GeckoViewExternalAppService
+.
+h
+"
+"
+GeckoViewOutputStream
 .
 h
 "
