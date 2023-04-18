@@ -24,6 +24,9 @@ Get
 -
 Command
 py
+-
+ErrorAction
+SilentlyContinue
 )
 {
 python_executable
