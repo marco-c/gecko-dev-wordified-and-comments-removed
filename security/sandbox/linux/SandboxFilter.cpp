@@ -5488,6 +5488,14 @@ ENOSYS
 )
 ;
 case
+__NR_getcpu
+:
+return
+Allow
+(
+)
+;
+case
 __NR_getpid
 :
 case
