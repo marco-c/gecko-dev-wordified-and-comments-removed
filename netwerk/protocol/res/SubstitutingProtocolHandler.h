@@ -383,7 +383,6 @@ mFlags
 ;
 RWLock
 mSubstitutionsLock
-MOZ_UNANNOTATED
 ;
 nsTHashMap
 <
@@ -391,6 +390,10 @@ nsCStringHashKey
 SubstitutionEntry
 >
 mSubstitutions
+GUARDED_BY
+(
+mSubstitutionsLock
+)
 ;
 nsCOMPtr
 <
