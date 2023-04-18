@@ -183,6 +183,7 @@ _panelWin
 async
 open
 (
+options
 )
 {
 const
@@ -244,6 +245,7 @@ UI
 .
 initialize
 (
+options
 )
 ;
 return

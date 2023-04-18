@@ -10232,6 +10232,7 @@ loadTool
 function
 (
 id
+options
 )
 {
 let
@@ -10651,6 +10652,7 @@ panel
 .
 open
 (
+options
 )
 ;
 }
@@ -11167,6 +11169,7 @@ reason
 "
 unknown
 "
+options
 )
 {
 this
@@ -11453,6 +11456,7 @@ this
 loadTool
 (
 id
+options
 )
 .
 then
