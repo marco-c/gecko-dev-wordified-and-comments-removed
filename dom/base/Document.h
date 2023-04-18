@@ -13677,9 +13677,6 @@ uint32_t
 mOnloadBlockCount
 ;
 uint32_t
-mAsyncOnloadBlockCount
-;
-uint32_t
 mWriteLevel
 ;
 uint32_t
