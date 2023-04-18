@@ -63,8 +63,7 @@ const
 {
 MOZ_ASSERT
 (
-!
-isElementDeleted
+isElement
 (
 i
 )
@@ -143,8 +142,7 @@ v
 {
 MOZ_ASSERT
 (
-!
-isElementDeleted
+isElement
 (
 i
 )
