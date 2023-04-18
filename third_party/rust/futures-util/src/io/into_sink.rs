@@ -465,16 +465,6 @@ Ok
 )
 )
 }
-#
-[
-allow
-(
-clippy
-:
-:
-debug_assert_with_mut_call
-)
-]
 fn
 start_send
 (

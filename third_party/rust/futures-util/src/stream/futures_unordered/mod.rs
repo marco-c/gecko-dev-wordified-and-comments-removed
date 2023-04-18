@@ -2391,6 +2391,17 @@ clear_head_all
 (
 )
 ;
+unsafe
+{
+self
+.
+ready_to_run_queue
+.
+clear
+(
+)
+}
+;
 }
 }
 impl

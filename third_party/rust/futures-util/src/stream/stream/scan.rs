@@ -839,6 +839,7 @@ sink
 ]
 impl
 <
+St
 S
 Fut
 F
@@ -851,13 +852,13 @@ Item
 for
 Scan
 <
-S
+St
 S
 Fut
 F
 >
 where
-S
+St
 :
 Stream
 +
@@ -869,7 +870,7 @@ Item
 type
 Error
 =
-S
+St
 :
 :
 Error

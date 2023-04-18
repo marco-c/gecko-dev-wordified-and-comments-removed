@@ -100,9 +100,6 @@ cheddar_generated_encoding_rs_h
 /
 /
 Copyright
-2015
--
-2016
 Mozilla
 Foundation
 .

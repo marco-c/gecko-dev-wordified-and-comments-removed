@@ -418,16 +418,6 @@ Woken
 }
 }
 }
-#
-[
-allow
-(
-clippy
-:
-:
-identity_op
-)
-]
 const
 IS_LOCKED
 :

@@ -326,7 +326,7 @@ catch_unwind
 |
 |
 {
-init_panic_handling_once
+ensure_panic_hook_is_setup
 (
 )
 ;
@@ -671,8 +671,9 @@ log_panics
 "
 )
 ]
+pub
 fn
-init_panic_handling_once
+ensure_panic_hook_is_setup
 (
 )
 {
@@ -910,8 +911,9 @@ log_panics
 )
 )
 ]
+pub
 fn
-init_panic_handling_once
+ensure_panic_hook_is_setup
 (
 )
 {

@@ -127,7 +127,7 @@ version
 .
 2
 .
-5
+6
 "
 authors
 =
@@ -216,13 +216,13 @@ charset
 license
 =
 "
-MIT
-/
 Apache
 -
 2
 .
 0
+OR
+MIT
 "
 repository
 =

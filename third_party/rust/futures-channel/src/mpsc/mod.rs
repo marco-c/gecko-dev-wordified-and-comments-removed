@@ -1838,16 +1838,6 @@ do_send_b
 msg
 )
 }
-#
-[
-allow
-(
-clippy
-:
-:
-debug_assert_with_mut_call
-)
-]
 fn
 do_send_b
 (
