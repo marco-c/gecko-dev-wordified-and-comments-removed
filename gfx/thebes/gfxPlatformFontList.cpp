@@ -3038,6 +3038,10 @@ mFontlistInitCount
 +
 +
 ;
+InitializeCodepointsWithNoFonts
+(
+)
+;
 if
 (
 StaticPrefs
