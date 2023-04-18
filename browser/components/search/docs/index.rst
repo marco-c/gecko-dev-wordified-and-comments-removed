@@ -86,6 +86,7 @@ application
 search
 -
 engines
+Preferences
 telemetry
 .
 .
