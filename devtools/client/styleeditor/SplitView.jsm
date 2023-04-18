@@ -592,13 +592,9 @@ binding
 .
 onShow
 (
-summary
 binding
 .
 _details
-binding
-.
-data
 )
 ;
 }
