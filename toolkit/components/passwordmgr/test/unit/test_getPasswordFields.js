@@ -29,7 +29,7 @@ jsm
 ;
 const
 {
-LoginManagerChild
+LoginFormState
 }
 =
 ChromeUtils
@@ -1545,10 +1545,7 @@ formLikeIndex
 let
 pwFields
 =
-new
-LoginManagerChild
-(
-)
+LoginFormState
 .
 _getPasswordFields
 (
@@ -2002,10 +1999,7 @@ input
 let
 pwFields
 =
-new
-LoginManagerChild
-(
-)
+LoginFormState
 .
 _getPasswordFields
 (
