@@ -3180,7 +3180,7 @@ Test
 {
 }
 ;
-TYPED_TEST_CASE_P
+TYPED_TEST_SUITE_P
 (
 TArray_MoveOnlyTest
 )
@@ -4082,7 +4082,7 @@ Length
 )
 ;
 }
-REGISTER_TYPED_TEST_CASE_P
+REGISTER_TYPED_TEST_SUITE_P
 (
 TArray_MoveOnlyTest
 nsTArray_MoveConstruct
@@ -4116,7 +4116,7 @@ MoveOnly_RelocateUsingMemutils
 MoveOnly_RelocateUsingMoveConstructor
 >
 ;
-INSTANTIATE_TYPED_TEST_CASE_P
+INSTANTIATE_TYPED_TEST_SUITE_P
 (
 InstantiationOf
 TArray_MoveOnlyTest
