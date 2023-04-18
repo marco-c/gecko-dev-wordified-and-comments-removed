@@ -32377,11 +32377,7 @@ layout
 .
 forms
 .
-input
--
-type
--
-show
+reveal
 -
 password
 -

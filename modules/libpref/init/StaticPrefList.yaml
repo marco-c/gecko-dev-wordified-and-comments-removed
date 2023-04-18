@@ -47074,7 +47074,7 @@ always
 #
 Enables
 the
-Show
+Reveal
 Password
 button
 inside
@@ -47093,11 +47093,7 @@ layout
 .
 forms
 .
-input
--
-type
--
-show
+reveal
 -
 password
 -

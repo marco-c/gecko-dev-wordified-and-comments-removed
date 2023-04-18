@@ -840,13 +840,13 @@ mPlaceholderDiv
 }
 Element
 *
-GetShowPasswordButton
+GetRevealButton
 (
 )
 const
 {
 return
-mShowPasswordButton
+mRevealButton
 ;
 }
 nsresult
@@ -1373,7 +1373,7 @@ RefPtr
 <
 Element
 >
-mShowPasswordButton
+mRevealButton
 ;
 RefPtr
 <

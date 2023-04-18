@@ -25621,22 +25621,14 @@ preview
 PseudoElementAtom
 (
 "
-PseudoElement_mozTextControlShowPasswordButton
+PseudoElement_mozReveal
 "
 "
 :
 -
 moz
 -
-text
--
-control
--
-show
--
-password
--
-button
+reveal
 "
 )
     

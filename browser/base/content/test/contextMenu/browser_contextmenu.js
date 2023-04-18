@@ -338,11 +338,7 @@ layout
 .
 forms
 .
-input
--
-type
--
-show
+reveal
 -
 password
 -
@@ -350,7 +346,7 @@ button
 .
 enabled
 "
-false
+true
 ]
 ]
 }

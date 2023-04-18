@@ -979,9 +979,7 @@ ChromeOnly
 /
 /
 The
-show
-/
-hide
+reveal
 password
 state
 for
@@ -993,7 +991,7 @@ control
 .
 attribute
 boolean
-showPassword
+revealPassword
 ;
 }
 ;

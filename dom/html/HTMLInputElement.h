@@ -1014,14 +1014,14 @@ HasCachedSelection
 override
 ;
 void
-SetShowPassword
+SetRevealPassword
 (
 bool
 aValue
 )
 ;
 bool
-ShowPassword
+RevealPassword
 (
 )
 const

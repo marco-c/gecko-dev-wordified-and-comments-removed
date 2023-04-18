@@ -3706,9 +3706,7 @@ id
 "
 context
 -
-toggle
--
-show
+reveal
 -
 password
 "
@@ -3730,9 +3728,7 @@ context
 -
 menu
 -
-toggle
--
-show
+reveal
 -
 password
 "
@@ -3741,7 +3737,7 @@ oncommand
 "
 gContextMenu
 .
-toggleShowPassword
+toggleRevealPassword
 (
 )
 ;

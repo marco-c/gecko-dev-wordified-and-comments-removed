@@ -863,7 +863,7 @@ aPostDestroyData
 .
 AddAnonymousContent
 (
-mShowPasswordButton
+mRevealButton
 .
 forget
 (
@@ -2005,7 +2005,7 @@ if
 StaticPrefs
 :
 :
-layout_forms_input_type_show_password_button_enabled
+layout_forms_reveal_password_button_enabled
 (
 )
 &
@@ -2015,14 +2015,14 @@ IsPasswordTextControl
 )
 )
 {
-mShowPasswordButton
+mRevealButton
 =
 MakeAnonElement
 (
 PseudoStyleType
 :
 :
-mozTextControlShowPasswordButton
+mozReveal
 nullptr
 nsGkAtoms
 :
@@ -2030,7 +2030,7 @@ nsGkAtoms
 button
 )
 ;
-mShowPasswordButton
+mRevealButton
 -
 >
 SetAttr
@@ -2048,7 +2048,7 @@ _ns
 false
 )
 ;
-mShowPasswordButton
+mRevealButton
 -
 >
 SetAttr
@@ -2071,7 +2071,7 @@ aElements
 .
 AppendElement
 (
-mShowPasswordButton
+mRevealButton
 )
 ;
 }
@@ -2609,14 +2609,14 @@ mPreviewDiv
 }
 if
 (
-mShowPasswordButton
+mRevealButton
 )
 {
 aElements
 .
 AppendElement
 (
-mShowPasswordButton
+mRevealButton
 )
 ;
 }
@@ -3116,7 +3116,7 @@ pseudoType
 PseudoStyleType
 :
 :
-mozTextControlShowPasswordButton
+mozReveal
 ;
 }
 void
