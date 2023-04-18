@@ -350,13 +350,6 @@ AsBufferTextureData
 (
 )
 ;
-bufferData
--
->
-RestoreOriginalDescriptor
-(
-)
-;
 if
 (
 !
