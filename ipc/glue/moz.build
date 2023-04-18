@@ -1087,6 +1087,14 @@ cpp
 "
 "
 /
+tools
+/
+fuzzing
+/
+ipc
+"
+"
+/
 xpcom
 /
 build

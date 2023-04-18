@@ -57,6 +57,7 @@ parser
 IMAP
 IPC
 Launch
+IPCFuzzLoop
 IPDL
 Background
 IPDL

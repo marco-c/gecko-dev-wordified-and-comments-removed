@@ -181,6 +181,14 @@ queued_num_bytes
 size_t
 unacknowledged_message_count
 ;
+#
+ifdef
+FUZZING_SNAPSHOT
+NodeName
+peer_node_name
+;
+#
+endif
 }
 ;
 class

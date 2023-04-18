@@ -5493,6 +5493,16 @@ ByteBuf
 aData
 )
 ;
+#
+ifdef
+FUZZING_SNAPSHOT
+async
+SignalFuzzingReady
+(
+)
+;
+#
+endif
 }
 ;
 }
