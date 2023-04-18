@@ -156,6 +156,11 @@ SharedUtils
 jsm
 "
 "
+SyncHistory
+.
+jsm
+"
+"
 Utils
 .
 jsm

@@ -482,6 +482,11 @@ CLEANUP_ERROR
 "
 cleanup_error
 "
+SYNC_BROKEN_ERROR
+:
+"
+sync_broken_error
+"
 CUSTOM_1_ERROR
 :
 "
