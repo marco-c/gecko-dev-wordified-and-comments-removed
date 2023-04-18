@@ -1954,7 +1954,7 @@ JS
 ErrorReportBuilder
 :
 :
-WithSideEffects
+NoSideEffects
 )
 )
 {
