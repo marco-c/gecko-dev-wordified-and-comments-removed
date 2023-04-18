@@ -5470,6 +5470,12 @@ extensions
 "
 :
 extensions
+                                 
+"
+supports_devtools
+"
+:
+True
 }
     
 def
@@ -6423,6 +6429,15 @@ super
 executor_browser
 (
 )
+        
+args
+[
+"
+supports_devtools
+"
+]
+=
+False
         
 args
 [

@@ -6222,6 +6222,12 @@ if
 self
 .
 debug_test
+and
+self
+.
+browser
+.
+supports_devtools
 :
             
 self
