@@ -284,6 +284,17 @@ ipc
 :
 :
 IPCResult
+RecvPCamerasConstructor
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvAllocateCapture
 (
 const
