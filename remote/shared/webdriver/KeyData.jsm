@@ -2768,8 +2768,7 @@ shiftData
 }
 )
 ;
-this
-.
+const
 keyData
 =
 {

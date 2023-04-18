@@ -295,8 +295,7 @@ UnsupportedCommandError
 ]
 )
 ;
-this
-.
+const
 error
 =
 {

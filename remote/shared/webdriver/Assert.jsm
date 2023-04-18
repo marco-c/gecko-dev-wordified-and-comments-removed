@@ -98,8 +98,7 @@ jsm
 }
 )
 ;
-this
-.
+const
 assert
 =
 {

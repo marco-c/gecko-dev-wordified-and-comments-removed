@@ -187,8 +187,7 @@ URIError
 ]
 )
 ;
-this
-.
+const
 error
 =
 {

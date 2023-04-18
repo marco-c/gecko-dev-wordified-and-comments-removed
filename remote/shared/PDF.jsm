@@ -130,8 +130,7 @@ get
 )
 )
 ;
-this
-.
+const
 print
 =
 {
