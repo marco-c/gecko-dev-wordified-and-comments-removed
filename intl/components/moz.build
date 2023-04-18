@@ -155,6 +155,13 @@ h
 "
 src
 /
+NumberParser
+.
+h
+"
+"
+src
+/
 NumberPart
 .
 h
@@ -357,6 +364,13 @@ cpp
 src
 /
 NumberingSystem
+.
+cpp
+"
+"
+src
+/
+NumberParser
 .
 cpp
 "
