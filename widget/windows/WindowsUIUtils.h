@@ -82,6 +82,12 @@ GetInTabletMode
 (
 )
 ;
+static
+bool
+ComputeOverlayScrollbars
+(
+)
+;
 protected
 :
 ~

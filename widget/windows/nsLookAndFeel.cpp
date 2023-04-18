@@ -64,6 +64,13 @@ h
 #
 include
 "
+WindowsUIUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 FontPropertyTypes
@@ -2160,7 +2167,12 @@ UseOverlayScrollbars
 :
 aResult
 =
-false
+WindowsUIUtils
+:
+:
+ComputeOverlayScrollbars
+(
+)
 ;
 break
 ;
