@@ -7072,10 +7072,10 @@ NS_HTTP_DISALLOW_SPDY
 )
 (
 !
-StaticPrefs
-:
-:
-network_http_http3_enable
+gHttpHandler
+-
+>
+IsHttp3Enabled
 (
 )
 |
