@@ -17273,6 +17273,11 @@ dns
 parser
 "
 "
+gecko
+-
+profiler
+"
+"
 log
 "
 "
