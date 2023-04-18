@@ -58,11 +58,6 @@ TestInheritTypeAnnotationsFromTemplateArgs
 cpp
 "
 "
-TestJSHandleRootedTypedef
-.
-cpp
-"
-"
 TestKungFuDeathGrip
 .
 cpp
@@ -380,14 +375,6 @@ Wno
 invalid
 -
 noreturn
-"
-"
--
-Wno
--
-invalid
--
-offsetof
 "
 ]
 COMPILE_FLAGS

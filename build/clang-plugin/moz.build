@@ -67,11 +67,6 @@ ExplicitOperatorBoolChecker
 cpp
 "
 "
-JSHandleRootedTypedefChecker
-.
-cpp
-"
-"
 KungFuDeathGripChecker
 .
 cpp

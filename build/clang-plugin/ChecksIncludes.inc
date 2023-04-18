@@ -62,13 +62,6 @@ endif
 #
 include
 "
-JSHandleRootedTypedefChecker
-.
-h
-"
-#
-include
-"
 KungFuDeathGripChecker
 .
 h
