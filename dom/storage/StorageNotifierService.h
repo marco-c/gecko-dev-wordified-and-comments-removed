@@ -71,6 +71,16 @@ const
 virtual
 nsIPrincipal
 *
+GetEffectiveCookiePrincipal
+(
+)
+const
+=
+0
+;
+virtual
+nsIPrincipal
+*
 GetEffectiveStoragePrincipal
 (
 )
