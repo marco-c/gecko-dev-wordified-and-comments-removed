@@ -123,13 +123,6 @@ webrtc
 :
 videocapturemodule
 ;
-using
-namespace
-mozilla
-:
-:
-camera
-;
 namespace
 rtc
 {
