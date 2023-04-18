@@ -1148,12 +1148,6 @@ cairo
 /
 src
 "
-"
-/
-widget
-/
-gtk
-"
 ]
 if
 CONFIG
