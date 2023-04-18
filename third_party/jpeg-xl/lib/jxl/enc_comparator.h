@@ -132,6 +132,10 @@ rgb1
 Comparator
 *
 comparator
+const
+JxlCmsInterface
+&
+cms
 ImageF
 *
 diffmap

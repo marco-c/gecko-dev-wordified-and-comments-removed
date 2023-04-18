@@ -207,6 +207,9 @@ JXL_RESTRICT
 group_dec_cache
 size_t
 thread
+RenderPipelineInput
+*
+render_pipeline_input
 ImageBundle
 *
 JXL_RESTRICT

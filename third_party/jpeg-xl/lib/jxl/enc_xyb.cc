@@ -1150,7 +1150,7 @@ encoded
 )
 ;
 }
-void
+Status
 LinearSRGBToXYB
 (
 const
@@ -1188,6 +1188,7 @@ float
 )
 d
 ;
+return
 RunOnPool
 (
 pool
@@ -1206,18 +1207,15 @@ ysize
 ThreadPool
 :
 :
-SkipInit
-(
-)
+NoInit
 [
 &
 ]
 (
 const
-int
+uint32_t
 task
-const
-int
+size_t
 )
 {
 const
@@ -1397,7 +1395,7 @@ LinearToXYB
 )
 ;
 }
-void
+Status
 SRGBToXYB
 (
 const
@@ -1435,6 +1433,7 @@ float
 )
 d
 ;
+return
 RunOnPool
 (
 pool
@@ -1453,18 +1452,15 @@ ysize
 ThreadPool
 :
 :
-SkipInit
-(
-)
+NoInit
 [
 &
 ]
 (
 const
-int
+uint32_t
 task
-const
-int
+size_t
 )
 {
 const
@@ -1653,7 +1649,7 @@ SRGBToXYB
 )
 ;
 }
-void
+Status
 SRGBToXYBAndLinear
 (
 const
@@ -1695,6 +1691,7 @@ float
 )
 d
 ;
+return
 RunOnPool
 (
 pool
@@ -1713,18 +1710,15 @@ ysize
 ThreadPool
 :
 :
-SkipInit
-(
-)
+NoInit
 [
 &
 ]
 (
 const
-int
+uint32_t
 task
-const
-int
+size_t
 )
 {
 const
@@ -1998,6 +1992,10 @@ Image3F
 *
 JXL_RESTRICT
 xyb
+const
+JxlCmsInterface
+&
+cms
 ImageBundle
 *
 const
@@ -2212,6 +2210,8 @@ c_current
 )
 )
 {
+JXL_CHECK
+(
 LinearSRGBToXYB
 (
 in
@@ -2222,6 +2222,7 @@ color
 premul_absorb
 pool
 xyb
+)
 )
 ;
 if
@@ -2262,6 +2263,8 @@ if
 want_linear
 )
 {
+JXL_CHECK
+(
 SRGBToXYB
 (
 in
@@ -2272,6 +2275,7 @@ color
 premul_absorb
 pool
 xyb
+)
 )
 ;
 return
@@ -2292,6 +2296,8 @@ ysize
 c_linear_srgb
 )
 ;
+JXL_CHECK
+(
 SRGBToXYBAndLinear
 (
 in
@@ -2307,6 +2313,7 @@ linear
 >
 color
 (
+)
 )
 )
 ;
@@ -2368,6 +2375,7 @@ TransformIfNeeded
 (
 in
 c_linear_srgb
+cms
 pool
 linear_storage_ptr
 &
@@ -2383,6 +2391,8 @@ ptr
 linear_storage_ptr
 )
 ;
+JXL_CHECK
+(
 LinearSRGBToXYB
 (
 *
@@ -2396,6 +2406,7 @@ premul_absorb
 pool
 xyb
 )
+)
 ;
 return
 want_linear
@@ -2406,7 +2417,7 @@ linear
 in
 ;
 }
-void
+Status
 RgbToYcbcr
 (
 const
@@ -2489,6 +2500,7 @@ ysize
 )
 )
 return
+true
 ;
 const
 auto
@@ -2941,6 +2953,7 @@ x
 }
 }
 ;
+return
 RunOnPool
 (
 pool
@@ -2955,9 +2968,7 @@ num_stripes
 ThreadPool
 :
 :
-SkipInit
-(
-)
+NoInit
 transform
 "
 RgbToYcbCr
@@ -2998,6 +3009,10 @@ Image3F
 *
 JXL_RESTRICT
 xyb
+const
+JxlCmsInterface
+&
+cms
 ImageBundle
 *
 JXL_RESTRICT
@@ -3013,6 +3028,7 @@ ToXYB
 in
 pool
 xyb
+cms
 linear_storage
 )
 ;
@@ -3022,7 +3038,7 @@ HWY_EXPORT
 RgbToYcbcr
 )
 ;
-void
+Status
 RgbToYcbcr
 (
 const
@@ -3093,6 +3109,10 @@ const
 Image3B
 &
 srgb8
+const
+JxlCmsInterface
+&
+cms
 )
 {
 ImageMetadata
@@ -3153,6 +3173,7 @@ IsGray
 (
 )
 )
+cms
 )
 )
 ;
@@ -3193,6 +3214,7 @@ ib
 null_pool
 &
 xyb
+cms
 &
 linear_storage
 )

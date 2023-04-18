@@ -180,6 +180,10 @@ opsin
 PassesEncoderState
 *
 enc_state
+const
+JxlCmsInterface
+&
+cms
 ThreadPool
 *
 pool
@@ -245,6 +249,10 @@ opsin
 PassesEncoderState
 *
 enc_state
+const
+JxlCmsInterface
+&
+cms
 ThreadPool
 *
 pool

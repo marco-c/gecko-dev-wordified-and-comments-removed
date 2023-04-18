@@ -62,6 +62,17 @@ lib
 /
 jxl
 /
+enc_color_management
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 enc_xyb
 .
 h
@@ -2095,6 +2106,9 @@ ib
 nullptr
 &
 xyb
+GetJxlCms
+(
+)
 )
 ;
 jxl

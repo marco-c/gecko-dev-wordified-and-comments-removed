@@ -212,6 +212,17 @@ lib
 /
 jxl
 /
+enc_color_management
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 enc_file
 .
 h
@@ -469,6 +480,9 @@ io_out
 cparams
 .
 ba_params
+GetJxlCms
+(
+)
 nullptr
 pool
 )
@@ -664,6 +678,9 @@ io_out
 cparams
 .
 ba_params
+GetJxlCms
+(
+)
 nullptr
 pool
 )
@@ -811,6 +828,9 @@ io_out
 cparams
 .
 ba_params
+GetJxlCms
+(
+)
 nullptr
 pool
 )
@@ -975,6 +995,9 @@ io_out
 cparams
 .
 ba_params
+GetJxlCms
+(
+)
 nullptr
 pool
 )
@@ -1106,6 +1129,9 @@ io_out
 cparams
 .
 ba_params
+GetJxlCms
+(
+)
 nullptr
 pool
 )
@@ -1215,6 +1241,9 @@ ColorEncoding
 SRGB
 (
 )
+GetJxlCms
+(
+)
 pool
 )
 )
@@ -1272,6 +1301,9 @@ io_out
 cparams
 .
 ba_params
+GetJxlCms
+(
+)
 nullptr
 pool
 )
@@ -1921,6 +1953,9 @@ io2
 cparams
 .
 ba_params
+GetJxlCms
+(
+)
 nullptr
 pool
 )
@@ -2254,6 +2289,9 @@ io2
 cparams
 .
 ba_params
+GetJxlCms
+(
+)
 nullptr
 pool
 )
