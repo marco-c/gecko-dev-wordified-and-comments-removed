@@ -147,6 +147,17 @@ nsACString
 aMimeType
 )
 ;
+static
+void
+AppendCodecDelay
+(
+MediaByteBuffer
+*
+config
+uint64_t
+codecDelayUS
+)
+;
 private
 :
 nsresult
