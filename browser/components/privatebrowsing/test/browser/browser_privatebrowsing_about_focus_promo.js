@@ -344,7 +344,7 @@ testLocale
 "
 en
 -
-GB
+US
 "
 ;
 setLocale
