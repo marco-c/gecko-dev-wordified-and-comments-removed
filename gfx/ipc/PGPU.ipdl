@@ -614,6 +614,11 @@ async
 TestTriggerMetrics
 (
 )
+returns
+(
+bool
+unused
+)
 ;
 async
 CrashProcess
