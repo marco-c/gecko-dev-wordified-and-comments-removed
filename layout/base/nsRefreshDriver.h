@@ -991,6 +991,12 @@ DefaultInterval
 (
 )
 ;
+static
+bool
+IsInHighRateMode
+(
+)
+;
 bool
 IsInRefresh
 (
