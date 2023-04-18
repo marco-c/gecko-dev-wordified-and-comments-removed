@@ -3717,6 +3717,11 @@ runningWithTrustedPrincipals
 bool
 isRuntimeCodeGenEnabled
 (
+JS
+:
+:
+RuntimeCode
+kind
 js
 :
 :

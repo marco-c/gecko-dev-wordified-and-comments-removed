@@ -6172,6 +6172,11 @@ JSContext
 :
 isRuntimeCodeGenEnabled
 (
+JS
+:
+:
+RuntimeCode
+kind
 HandleString
 code
 )
@@ -6196,6 +6201,7 @@ return
 allows
 (
 this
+kind
 code
 )
 ;
