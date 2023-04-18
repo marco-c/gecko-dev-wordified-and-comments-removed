@@ -7113,6 +7113,9 @@ if
 aParentReused
 )
 {
+#
+ifdef
+DEBUG
 RDLUtils
 :
 :
@@ -7121,6 +7124,8 @@ AssertDisplayItemUnmodified
 item
 )
 ;
+#
+endif
 aList
 -
 >
