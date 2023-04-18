@@ -444,13 +444,6 @@ mMutex
 ;
 #
 endif
-nsCString
-mContentSigningRootHash
-GUARDED_BY
-(
-mMutex
-)
-;
 RefPtr
 <
 mozilla

@@ -119,7 +119,7 @@ array_names
 [
     
 "
-xpcshellRoot
+addonsPublicIntermediate
 "
     
 "
@@ -127,11 +127,27 @@ addonsPublicRoot
 "
     
 "
-addonsPublicIntermediate
+addonsStageRoot
 "
     
 "
-addonsStageRoot
+contentSignatureDevRoot
+"
+    
+"
+contentSignatureLocalRoot
+"
+    
+"
+contentSignatureProdRoot
+"
+    
+"
+contentSignatureStageRoot
+"
+    
+"
+xpcshellRoot
 "
 ]
 for

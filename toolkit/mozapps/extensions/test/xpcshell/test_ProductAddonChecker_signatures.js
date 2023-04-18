@@ -127,9 +127,6 @@ aus_ee
 "
 int
 "
-"
-root
-"
 ]
 )
 ;
@@ -191,9 +188,6 @@ content_signing
 [
 "
 aus_ee
-"
-"
-root
 "
 ]
 )
@@ -476,17 +470,6 @@ goodXml
 )
 ;
 }
-)
-;
-setCertRoot
-(
-testDataDir
-+
-"
-content_signing_root
-.
-pem
-"
 )
 ;
 add_task
