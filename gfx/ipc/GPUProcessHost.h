@@ -180,6 +180,10 @@ WaitForLaunch
 void
 Shutdown
 (
+bool
+aUnexpectedShutdown
+=
+false
 )
 ;
 GPUChild

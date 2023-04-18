@@ -133,6 +133,11 @@ GetChildProcessHandle
 )
 ;
 void
+OnUnexpectedShutdown
+(
+)
+;
+void
 OnVarChanged
 (
 const
@@ -537,6 +542,11 @@ mMemoryReportRequest
 ;
 bool
 mGPUReady
+;
+bool
+mUnexpectedShutdown
+=
+false
 ;
 }
 ;

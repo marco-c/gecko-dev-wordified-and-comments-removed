@@ -964,6 +964,10 @@ CleanShutdown
 void
 DestroyProcess
 (
+bool
+aUnexpectedShutdown
+=
+false
 )
 ;
 void

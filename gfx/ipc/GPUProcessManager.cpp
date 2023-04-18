@@ -3301,6 +3301,7 @@ GetProcessToken
 ;
 DestroyProcess
 (
+true
 )
 ;
 if
@@ -3702,6 +3703,8 @@ GPUProcessManager
 :
 DestroyProcess
 (
+bool
+aUnexpectedShutdown
 )
 {
 if
@@ -3718,6 +3721,7 @@ mProcess
 >
 Shutdown
 (
+aUnexpectedShutdown
 )
 ;
 mProcessToken
