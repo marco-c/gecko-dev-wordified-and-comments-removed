@@ -7,13 +7,6 @@ js_TypeDecls_h
 #
 include
 <
-stddef
-.
-h
->
-#
-include
-<
 stdint
 .
 h
