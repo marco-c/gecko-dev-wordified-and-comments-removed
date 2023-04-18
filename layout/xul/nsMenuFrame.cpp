@@ -383,6 +383,7 @@ aIsActivate
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -502,12 +503,14 @@ NS_OK
 }
 private
 :
+const
 RefPtr
 <
 Element
 >
 mMenu
 ;
+const
 RefPtr
 <
 nsPresContext
