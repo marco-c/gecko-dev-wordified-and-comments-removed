@@ -538,8 +538,6 @@ u32
 {
 match
 process_type
-as
-i64
 {
 nsIXULRuntime
 :

@@ -3251,7 +3251,11 @@ name
 )
 s
 :
-i64
+%
+(
+type
+)
+s
 =
 %
 (
@@ -3908,6 +3912,21 @@ doccomments
 member
 .
 doccomments
+)
+                    
+"
+type
+"
+:
+member
+.
+realtype
+.
+rustType
+(
+"
+in
+"
 )
                     
 "

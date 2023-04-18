@@ -460,7 +460,6 @@ etc
 readonly
 attribute
 long
-long
 type
 ;
 }

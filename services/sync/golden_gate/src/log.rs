@@ -202,8 +202,6 @@ succeeded
 {
 match
 raw_max_level
-as
-i64
 {
 mozIServicesLogSink
 :
