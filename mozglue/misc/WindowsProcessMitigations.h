@@ -23,6 +23,12 @@ IsWin32kLockedDown
 )
 ;
 MFBT_API
+void
+SetWin32kLockedDownInPolicy
+(
+)
+;
+MFBT_API
 bool
 IsDynamicCodeDisabled
 (
