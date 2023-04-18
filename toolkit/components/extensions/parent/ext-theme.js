@@ -161,7 +161,7 @@ if
 (
 extension
 .
-experimentsAllowed
+isPrivileged
 )
 {
 this

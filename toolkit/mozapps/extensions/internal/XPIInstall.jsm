@@ -2024,6 +2024,13 @@ aLocation
 let
 verifiedSignedState
 ;
+const
+temporarilyInstalled
+=
+aLocation
+.
+isTemporary
+;
 let
 extension
 =
@@ -2043,6 +2050,7 @@ aPackage
 .
 rootURI
 )
+temporarilyInstalled
 async
 checkPrivileged
 (
@@ -2079,10 +2087,6 @@ aLocation
 .
 isBuiltin
 temporarilyInstalled
-:
-aLocation
-.
-isTemporary
 }
 )
 ;
