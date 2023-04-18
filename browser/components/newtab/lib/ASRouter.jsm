@@ -6598,7 +6598,7 @@ newGroupImpressions
 )
 ;
 }
-_resetMessageState
+resetMessageState
 (
 )
 {
