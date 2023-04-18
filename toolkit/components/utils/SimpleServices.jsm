@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -78,7 +84,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 streamConv
 "
@@ -388,6 +394,8 @@ TextDecoder
 .
 decode
 (
+lazy
+.
 NetUtil
 .
 readInputStream
@@ -477,6 +485,8 @@ aCount
 let
 bytes
 =
+lazy
+.
 NetUtil
 .
 readInputStream
@@ -738,6 +748,8 @@ aDocListenerResult
 .
 value
 =
+lazy
+.
 streamConv
 .
 asyncConvertData

@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 crypto
@@ -272,6 +278,8 @@ data
 const
 hasher
 =
+lazy
+.
 crypto
 .
 subtle

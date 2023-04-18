@@ -27,11 +27,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -227,6 +233,8 @@ keyPath
 state
 )
 {
+lazy
+.
 log
 .
 debug
@@ -256,6 +264,8 @@ type
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -293,6 +303,8 @@ type
 }
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -627,6 +639,8 @@ param
 i
 ]
 ;
+lazy
+.
 log
 .
 debug
@@ -922,6 +936,8 @@ param
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -1349,6 +1365,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -1654,6 +1672,8 @@ pathQueryRef
 "
 )
 {
+lazy
+.
 log
 .
 error
@@ -1695,6 +1715,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -1803,6 +1825,8 @@ http
 )
 )
 {
+lazy
+.
 log
 .
 error
