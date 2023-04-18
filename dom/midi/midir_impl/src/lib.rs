@@ -804,12 +804,9 @@ id
 )
 )
 .
-ok_or
-(
+unwrap
 (
 )
-)
-?
 ;
 let
 connection_wrapper
