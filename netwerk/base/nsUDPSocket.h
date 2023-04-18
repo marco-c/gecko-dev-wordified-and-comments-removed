@@ -225,6 +225,7 @@ CloseSocket
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 {
 "
 nsUDPSocket

@@ -1003,6 +1003,7 @@ aTextureId
 static
 StaticMutex
 sImageBridgeSingletonLock
+MOZ_UNANNOTATED
 ;
 static
 StaticRefPtr

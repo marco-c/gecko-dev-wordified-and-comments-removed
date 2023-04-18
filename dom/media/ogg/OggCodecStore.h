@@ -98,6 +98,7 @@ mCodecStates
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 }
 ;

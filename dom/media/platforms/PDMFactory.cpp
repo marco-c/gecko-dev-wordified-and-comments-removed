@@ -657,6 +657,7 @@ sHasInitializedPDMs
 static
 StaticMutex
 sMonitor
+MOZ_UNANNOTATED
 ;
 }
 ;

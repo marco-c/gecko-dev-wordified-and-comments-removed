@@ -244,6 +244,7 @@ mDrawTarget
 ;
 Mutex
 mChangeMutex
+MOZ_UNANNOTATED
 ;
 bool
 mIsMapped

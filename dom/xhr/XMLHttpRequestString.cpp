@@ -352,6 +352,7 @@ mData
 }
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 nsString
 mData

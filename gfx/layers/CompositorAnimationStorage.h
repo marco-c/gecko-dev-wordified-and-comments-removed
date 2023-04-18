@@ -662,6 +662,7 @@ mNewAnimations
 mutable
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 CompositorBridgeParent
 *

@@ -222,6 +222,7 @@ mozilla
 :
 Mutex
 mSurfaceLock
+MOZ_UNANNOTATED
 ;
 RefPtr
 <

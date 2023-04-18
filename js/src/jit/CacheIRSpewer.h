@@ -99,6 +99,7 @@ CacheIRSpewer
 {
 Mutex
 outputLock_
+MOZ_UNANNOTATED
 ;
 Fprinter
 output_

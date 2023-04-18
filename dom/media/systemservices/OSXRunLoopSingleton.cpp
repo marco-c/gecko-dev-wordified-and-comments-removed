@@ -62,6 +62,7 @@ mozilla
 :
 StaticMutex
 gMutex
+MOZ_UNANNOTATED
 ;
 void
 mozilla_set_coreaudio_notification_runloop_if_needed

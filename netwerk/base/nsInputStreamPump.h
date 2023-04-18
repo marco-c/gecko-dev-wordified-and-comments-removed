@@ -408,6 +408,7 @@ mozilla
 :
 RecursiveMutex
 mMutex
+MOZ_UNANNOTATED
 {
 "
 nsInputStreamPump

@@ -1054,6 +1054,7 @@ DEBUG_DUMP_URLS_AT_SHUTDOWN
 static
 StaticMutex
 gAllURLsMutex
+MOZ_UNANNOTATED
 ;
 static
 LinkedList

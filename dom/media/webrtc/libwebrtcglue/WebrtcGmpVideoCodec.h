@@ -1169,6 +1169,7 @@ mCodecSpecificInfo
 ;
 Mutex
 mCallbackMutex
+MOZ_UNANNOTATED
 ;
 webrtc
 :
@@ -1850,6 +1851,7 @@ mHost
 ;
 Mutex
 mCallbackMutex
+MOZ_UNANNOTATED
 ;
 webrtc
 :

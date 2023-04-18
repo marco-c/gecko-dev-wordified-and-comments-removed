@@ -687,6 +687,7 @@ mozilla
 :
 Mutex
 mPendingLookupLock
+MOZ_UNANNOTATED
 ;
 class
 PendingLookup

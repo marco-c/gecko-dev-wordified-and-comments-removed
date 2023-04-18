@@ -305,6 +305,7 @@ mActivities
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 }
 ;

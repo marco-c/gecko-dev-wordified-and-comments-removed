@@ -792,6 +792,7 @@ default
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 nsTArray
 <
@@ -920,6 +921,7 @@ ImageContainerListener
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 ImageContainer
 *
@@ -1486,6 +1488,7 @@ EnsureImageClient
 ;
 RecursiveMutex
 mRecursiveMutex
+MOZ_UNANNOTATED
 ;
 RefPtr
 <

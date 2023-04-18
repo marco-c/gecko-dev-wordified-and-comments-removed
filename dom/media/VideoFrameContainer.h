@@ -369,6 +369,7 @@ mMainThreadState
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 gfx
 :

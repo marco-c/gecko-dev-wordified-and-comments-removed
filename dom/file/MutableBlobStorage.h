@@ -276,6 +276,7 @@ aRunnable
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 void
 *

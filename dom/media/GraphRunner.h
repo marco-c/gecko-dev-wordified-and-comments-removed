@@ -227,6 +227,7 @@ mMixer
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 MediaTrackGraphImpl
 *

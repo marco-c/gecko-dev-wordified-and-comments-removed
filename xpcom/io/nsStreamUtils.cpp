@@ -1700,6 +1700,7 @@ mTarget
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 nsAsyncCopyCallbackFun
 mCallback

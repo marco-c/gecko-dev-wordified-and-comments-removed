@@ -75,6 +75,7 @@ sControllerThread
 static
 StaticMutex
 sControllerThreadMutex
+MOZ_UNANNOTATED
 ;
 void
 APZThreadUtils

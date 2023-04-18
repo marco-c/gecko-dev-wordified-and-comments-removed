@@ -440,6 +440,7 @@ mChannelParents
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 std
 :

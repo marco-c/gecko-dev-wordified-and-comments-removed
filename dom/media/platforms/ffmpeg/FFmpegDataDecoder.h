@@ -274,6 +274,7 @@ protected
 static
 StaticMutex
 sMutex
+MOZ_UNANNOTATED
 ;
 const
 RefPtr

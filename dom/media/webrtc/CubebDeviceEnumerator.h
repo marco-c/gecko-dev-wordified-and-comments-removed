@@ -236,6 +236,7 @@ aSide
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 RefPtr
 <

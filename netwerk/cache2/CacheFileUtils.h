@@ -409,6 +409,7 @@ kHitRateBuckets
 static
 StaticMutex
 sLock
+MOZ_UNANNOTATED
 ;
 static
 uint32_t
@@ -594,6 +595,7 @@ mShortAvg
 static
 StaticMutex
 sLock
+MOZ_UNANNOTATED
 ;
 static
 PerfData
@@ -692,6 +694,7 @@ mozilla
 :
 Mutex
 mLock
+MOZ_UNANNOTATED
 {
 "
 CacheFile

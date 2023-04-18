@@ -1918,6 +1918,7 @@ lock
 ;
 Mutex
 mutex
+MOZ_UNANNOTATED
 ;
 GCMap
 gcMap

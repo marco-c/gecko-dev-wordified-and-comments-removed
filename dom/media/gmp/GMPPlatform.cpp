@@ -355,6 +355,7 @@ mMessageLoop
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 }
 ;
@@ -395,6 +396,7 @@ private
 :
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 base
 :
@@ -589,6 +591,7 @@ private
 :
 ReentrantMonitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 }
 ;

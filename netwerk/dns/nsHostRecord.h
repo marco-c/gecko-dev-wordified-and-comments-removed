@@ -737,6 +737,7 @@ ADDRHOSTRECORD_IID
 NS_DECL_ISUPPORTS_INHERITED
 Mutex
 addr_info_lock
+MOZ_UNANNOTATED
 {
 "
 AddrHostRecord
@@ -1207,6 +1208,7 @@ mozilla
 :
 Mutex
 mResultsLock
+MOZ_UNANNOTATED
 {
 "
 TypeHostRecord

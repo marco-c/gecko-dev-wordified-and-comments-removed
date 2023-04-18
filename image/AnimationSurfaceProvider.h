@@ -328,6 +328,7 @@ mImage
 mutable
 Mutex
 mDecodingMutex
+MOZ_UNANNOTATED
 ;
 RefPtr
 <
@@ -338,6 +339,7 @@ mDecoder
 mutable
 Mutex
 mFramesMutex
+MOZ_UNANNOTATED
 ;
 UniquePtr
 <

@@ -176,6 +176,7 @@ mIOThread
 ;
 ReentrantMonitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 nsString
 mAppUserModelId

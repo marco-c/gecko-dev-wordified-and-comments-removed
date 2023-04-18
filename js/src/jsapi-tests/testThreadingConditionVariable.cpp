@@ -44,6 +44,7 @@ js
 :
 Mutex
 mutex
+MOZ_UNANNOTATED
 ;
 js
 :

@@ -440,6 +440,7 @@ mozilla
 :
 Mutex
 mListLock
+MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <

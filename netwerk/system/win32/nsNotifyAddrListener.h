@@ -263,6 +263,7 @@ mozilla
 :
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 nsCString
 mNetworkId

@@ -2385,6 +2385,7 @@ js
 :
 Mutex
 scriptDataLock
+MOZ_UNANNOTATED
 ;
 #
 ifdef

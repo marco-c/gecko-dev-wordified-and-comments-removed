@@ -370,6 +370,7 @@ sDisabled
 ;
 Monitor
 mLock
+MOZ_UNANNOTATED
 ;
 TimeStamp
 mNow

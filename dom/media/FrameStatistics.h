@@ -474,6 +474,7 @@ default
 mutable
 ReentrantMonitor
 mReentrantMonitor
+MOZ_UNANNOTATED
 ;
 FrameStatisticsData
 mFrameStatisticsData
