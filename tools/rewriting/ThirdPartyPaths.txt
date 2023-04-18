@@ -100,15 +100,6 @@ client
 /
 shared
 /
-demangle
-.
-js
-devtools
-/
-client
-/
-shared
-/
 build
 /
 babel

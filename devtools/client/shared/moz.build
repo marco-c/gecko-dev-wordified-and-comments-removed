@@ -114,11 +114,6 @@ curl
 js
 "
 "
-demangle
-.
-js
-"
-"
 devices
 .
 js
