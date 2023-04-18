@@ -19,6 +19,21 @@ substs
 CPU_ARCH
 "
 ]
+is_gcc
+=
+buildconfig
+.
+substs
+[
+"
+CC_TYPE
+"
+]
+=
+=
+"
+gcc
+"
 def
 fmt_insn
 (
@@ -70,7 +85,7 @@ r
 "
 "
             
-inline
+INLINE_ATTR
 void
 %
 (
@@ -130,7 +145,7 @@ r
 "
 "
             
-inline
+INLINE_ATTR
 void
 %
 (
@@ -191,7 +206,7 @@ r
 "
 "
             
-inline
+INLINE_ATTR
 void
 %
 (
@@ -416,7 +431,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -684,7 +699,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -917,7 +932,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -1197,7 +1212,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 void
 %
 (
@@ -1453,7 +1468,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 void
 %
 (
@@ -1674,7 +1689,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 void
 %
 (
@@ -1913,7 +1928,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -2305,7 +2320,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -2673,7 +2688,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -2844,7 +2859,7 @@ r
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -3002,7 +3017,7 @@ r
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -3516,7 +3531,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -4142,7 +4157,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -4667,7 +4682,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -4983,7 +4998,7 @@ return
 "
 "
                 
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -5468,7 +5483,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -6039,7 +6054,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -6531,7 +6546,7 @@ return
 "
 "
             
-inline
+INLINE_ATTR
 %
 (
 cpp_type
@@ -7185,7 +7200,7 @@ return
 "
 "
         
-inline
+INLINE_ATTR
 void
 %
 (
@@ -8409,6 +8424,49 @@ wordsize
 n
 "
         
+)
+        
+if
+is_gcc
+and
+cpu_arch
+=
+=
+"
+x86
+"
+:
+            
+contents
+=
+contents
+.
+replace
+(
+"
+INLINE_ATTR
+"
+"
+MOZ_NEVER_INLINE
+inline
+"
+)
+        
+else
+:
+            
+contents
+=
+contents
+.
+replace
+(
+"
+INLINE_ATTR
+"
+"
+inline
+"
 )
     
 c_out
