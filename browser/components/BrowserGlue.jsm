@@ -19963,7 +19963,7 @@ _showUpgradeDialog
 )
 {
 const
-msg
+data
 =
 await
 OnboardingMessageProvider
@@ -20000,14 +20000,6 @@ type
 SHOW_SPOTLIGHT
 "
 data
-:
-{
-content
-:
-msg
-.
-content
-}
 }
 ;
 SpecialMessageActions
