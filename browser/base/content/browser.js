@@ -17774,7 +17774,11 @@ win
 =
 getTopWin
 (
+{
+skipPopups
+:
 true
+}
 )
 ;
 if

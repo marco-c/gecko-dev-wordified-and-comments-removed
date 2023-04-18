@@ -417,7 +417,12 @@ BROWSER_NEW_TAB_URL
 function
 getTopWin
 (
+{
 skipPopups
+}
+=
+{
+}
 )
 {
 if
@@ -1296,7 +1301,11 @@ w
 =
 getTopWin
 (
+{
+skipPopups
+:
 true
+}
 )
 ;
 aRelatedToCurrent
