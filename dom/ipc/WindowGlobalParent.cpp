@@ -5198,7 +5198,7 @@ gfx
 CrossProcessPaintFlags
 :
 :
-None
+UseHighQualityScaling
 ;
 if
 (
@@ -5207,6 +5207,7 @@ aRect
 )
 {
 flags
+|
 =
 gfx
 :
@@ -5224,6 +5225,7 @@ aResetScrollPosition
 )
 {
 flags
+|
 =
 gfx
 :
