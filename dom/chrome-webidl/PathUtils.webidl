@@ -698,7 +698,7 @@ Throws
 BinaryName
 =
 "
-GetProfileDirAsync
+GetLocalProfileDirAsync
 "
 ]
 Promise
