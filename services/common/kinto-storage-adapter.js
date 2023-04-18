@@ -2289,12 +2289,6 @@ undefined
 }
 ;
 }
-this
-.
-FirefoxAdapter
-=
-FirefoxAdapter
-;
 var
 EXPORTED_SYMBOLS
 =
