@@ -41,6 +41,9 @@ name
 bool
 isLocked
 ;
+bool
+isSanitized
+;
 PrefValue
 ?
 defaultValue
