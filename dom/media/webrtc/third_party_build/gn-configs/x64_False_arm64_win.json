@@ -241810,9 +241810,6 @@ defines
 :
 [
 "
-MULTI_MONITOR_SCREENSHARE
-"
-"
 USE_AURA
 =
 1
