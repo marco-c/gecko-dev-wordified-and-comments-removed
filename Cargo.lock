@@ -9916,6 +9916,9 @@ inherent
 log
 "
 "
+mozbuild
+"
+"
 nsstring
 "
 "
