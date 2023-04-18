@@ -11,9 +11,7 @@ name
 -
 -
 >
-tests
-/
-ui
+DIR
 /
 case
 -
@@ -21,11 +19,11 @@ warning
 .
 rs
 :
-8
+6
 :
 20
 |
-8
+6
 |
 pub
 fn
@@ -63,7 +61,7 @@ foo_bar
 .
 .
 .
-13
+11
 |
 m
 !
@@ -72,6 +70,7 @@ Bar
 )
 ;
 |
+-
 -
 -
 -
@@ -95,9 +94,7 @@ here
 -
 -
 >
-tests
-/
-ui
+DIR
 /
 case
 -
@@ -154,9 +151,8 @@ this
 error
 originates
 in
-the
+a
 macro
-m
 (
 in
 Nightly

@@ -7,7 +7,7 @@ warnings
 )
 ]
 use
-futures_util
+futures
 :
 :
 {

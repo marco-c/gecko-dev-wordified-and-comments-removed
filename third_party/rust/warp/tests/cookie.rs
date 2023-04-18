@@ -26,11 +26,6 @@ warp
 :
 :
 cookie
-:
-:
-<
-String
->
 (
 "
 foo
@@ -237,11 +232,6 @@ cookie
 :
 :
 optional
-:
-:
-<
-String
->
 (
 "
 foo
@@ -461,11 +451,6 @@ warp
 :
 :
 cookie
-:
-:
-<
-String
->
 (
 "
 foo

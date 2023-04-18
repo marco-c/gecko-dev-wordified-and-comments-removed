@@ -152,7 +152,7 @@ fn
 self_subpat
 (
 self
-S
+Struct
 {
 }
 :
@@ -210,7 +210,7 @@ fn
 self_subpat
 (
 self
-S
+Struct
 {
 }
 :

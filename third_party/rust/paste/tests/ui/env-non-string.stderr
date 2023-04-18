@@ -6,9 +6,7 @@ literal
 -
 -
 >
-tests
-/
-ui
+DIR
 /
 env
 -
@@ -18,11 +16,11 @@ string
 .
 rs
 :
-4
+2
 :
 15
 |
-4
+2
 |
 fn
 [

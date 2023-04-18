@@ -6,12 +6,6 @@ deny
 warnings
 )
 ]
-use
-paste
-:
-:
-paste
-;
 macro_rules
 !
 m
@@ -25,6 +19,9 @@ ident
 >
 {
 paste
+:
+:
+item
 !
 {
 pub

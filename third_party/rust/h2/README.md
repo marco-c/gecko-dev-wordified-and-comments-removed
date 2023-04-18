@@ -6,6 +6,8 @@ aware
 HTTP
 /
 2
+.
+0
 client
 &
 server
@@ -160,6 +162,8 @@ server
 HTTP
 /
 2
+.
+0
 implementation
 .
 *
@@ -169,6 +173,8 @@ full
 HTTP
 /
 2
+.
+0
 specification
 .
 *
@@ -231,6 +237,8 @@ the
 HTTP
 /
 2
+.
+0
 specification
 .
 It
@@ -260,12 +268,19 @@ the
 HTTP
 /
 2
+.
+0
 specification
 .
-This
-crate
+The
+intent
 is
-now
+that
+this
+crate
+will
+eventually
+be
 used
 by
 [
@@ -316,7 +331,7 @@ h2
 "
 0
 .
-3
+2
 "
 Next
 add
@@ -386,6 +401,8 @@ the
 HTTP
 /
 2
+.
+0
 specification
 than
 any

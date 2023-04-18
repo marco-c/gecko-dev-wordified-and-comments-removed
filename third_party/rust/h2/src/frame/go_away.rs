@@ -123,6 +123,17 @@ self
 .
 error_code
 }
+#
+[
+cfg
+(
+feature
+=
+"
+unstable
+"
+)
+]
 pub
 fn
 debug_data
@@ -133,7 +144,9 @@ self
 -
 >
 &
-Bytes
+[
+u8
+]
 {
 &
 self
@@ -260,7 +273,7 @@ mut
 B
 )
 {
-tracing
+log
 :
 :
 trace

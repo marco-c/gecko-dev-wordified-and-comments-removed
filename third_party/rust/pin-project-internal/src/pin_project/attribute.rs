@@ -265,7 +265,9 @@ enum
 ]
 )
 {
-bail
+Err
+(
+error
 !
 (
 input
@@ -295,7 +297,7 @@ or
 enums
 "
 )
-;
+)
 }
 else
 if
@@ -312,7 +314,9 @@ find
 PIN
 )
 {
-bail
+Err
+(
+error
 !
 (
 attr
@@ -334,7 +338,7 @@ or
 variants
 "
 )
-;
+)
 }
 else
 if
@@ -353,7 +357,9 @@ pin_project
 "
 )
 {
-bail
+Err
+(
+error
 !
 (
 attr
@@ -366,8 +372,10 @@ pin_project
 attribute
 "
 )
-;
+)
 }
+else
+{
 Ok
 (
 Self
@@ -383,5 +391,6 @@ parse
 ?
 }
 )
+}
 }
 }

@@ -5,9 +5,7 @@ modifier
 -
 -
 >
-tests
-/
-ui
+DIR
 /
 unsupported
 -
@@ -15,11 +13,11 @@ modifier
 .
 rs
 :
-4
+2
 :
 11
 |
-4
+2
 |
 fn
 [

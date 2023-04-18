@@ -18,7 +18,7 @@ Struct
 [
 pin
 ]
-f
+field
 :
 u8
 }

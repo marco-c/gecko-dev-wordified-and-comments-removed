@@ -5,9 +5,7 @@ punct
 -
 -
 >
-tests
-/
-ui
+DIR
 /
 unexpected
 -
@@ -15,11 +13,11 @@ punct
 .
 rs
 :
-4
+2
 :
 12
 |
-4
+2
 |
 fn
 [

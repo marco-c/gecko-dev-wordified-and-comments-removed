@@ -12,9 +12,7 @@ macro
 -
 -
 >
-tests
-/
-ui
+DIR
 /
 env
 -
@@ -22,11 +20,11 @@ empty
 .
 rs
 :
-4
+2
 :
 10
 |
-4
+2
 |
 fn
 [

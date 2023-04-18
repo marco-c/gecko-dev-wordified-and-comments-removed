@@ -9,9 +9,7 @@ macro
 -
 -
 >
-tests
-/
-ui
+DIR
 /
 env
 -
@@ -19,11 +17,11 @@ unexpected
 .
 rs
 :
-4
+2
 :
 21
 |
-4
+2
 |
 fn
 [

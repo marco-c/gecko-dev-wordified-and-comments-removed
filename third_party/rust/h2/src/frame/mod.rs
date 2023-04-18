@@ -16,6 +16,10 @@ std
 :
 fmt
 ;
+#
+[
+macro_escape
+]
 macro_rules
 !
 unpack_octets_4

@@ -13,7 +13,7 @@ bytes
 Buf
 ;
 use
-futures_util
+futures
 :
 :
 TryStreamExt
@@ -1684,7 +1684,7 @@ bufs
 0
 ]
 .
-chunk
+bytes
 (
 )
 b

@@ -5,9 +5,7 @@ token
 -
 -
 >
-tests
-/
-ui
+DIR
 /
 unexpected
 -
@@ -15,11 +13,11 @@ group
 .
 rs
 :
-4
+2
 :
 12
 |
-4
+2
 |
 fn
 [
