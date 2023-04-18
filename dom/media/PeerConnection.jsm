@@ -3242,14 +3242,6 @@ P
 )
 ;
 }
-if
-(
-!
-this
-.
-_closed
-)
-{
 this
 .
 _pc
@@ -3258,7 +3250,6 @@ certificate
 =
 certificate
 ;
-}
 }
 _resetPeerIdentityPromise
 (
