@@ -1121,6 +1121,12 @@ tmpArena
 ;
 if
 (
+rv
+!
+=
+SECSuccess
+|
+|
 HASH_GetHashTypeByOidTag
 (
 *

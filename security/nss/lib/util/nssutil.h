@@ -23,6 +23,7 @@ NSSUTIL_VERSION
 3
 .
 79
+Beta
 "
 #
 define
@@ -43,7 +44,7 @@ NSSUTIL_VBUILD
 #
 define
 NSSUTIL_BETA
-PR_FALSE
+PR_TRUE
 SEC_BEGIN_PROTOS
 extern
 const

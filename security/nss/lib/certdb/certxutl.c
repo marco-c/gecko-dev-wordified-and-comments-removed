@@ -1775,7 +1775,7 @@ unsigned
 char
 *
 )
-PORT_Alloc
+PORT_ZAlloc
 (
 (
 tmpItem
@@ -1804,6 +1804,15 @@ goto
 loser
 ;
 }
+if
+(
+tmpItem
+.
+len
+>
+0
+)
+{
 PORT_Memcpy
 (
 retItem
@@ -1825,6 +1834,7 @@ len
 3
 )
 ;
+}
 retItem
 -
 >

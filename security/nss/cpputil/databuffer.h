@@ -12,6 +12,11 @@ algorithm
 #
 include
 <
+cstdint
+>
+#
+include
+<
 cstring
 >
 #

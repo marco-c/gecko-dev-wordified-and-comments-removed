@@ -523,6 +523,7 @@ value
 >
 isCA
 )
+{
 value
 -
 >
@@ -530,6 +531,17 @@ pathLenConstraint
 =
 CERT_UNLIMITED_PATH_CONSTRAINT
 ;
+}
+else
+{
+value
+-
+>
+pathLenConstraint
+=
+0
+;
+}
 }
 else
 if

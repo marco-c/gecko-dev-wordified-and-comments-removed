@@ -802,6 +802,12 @@ data
 |
 |
 !
+keyUsage
+.
+len
+|
+|
+!
 (
 keyUsage
 .
