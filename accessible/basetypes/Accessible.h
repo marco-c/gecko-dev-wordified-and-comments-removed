@@ -430,6 +430,16 @@ const
 =
 0
 ;
+virtual
+nsAtom
+*
+TagName
+(
+)
+const
+=
+0
+;
 bool
 IsDoc
 (

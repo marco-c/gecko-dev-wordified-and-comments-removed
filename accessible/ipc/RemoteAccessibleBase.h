@@ -794,6 +794,15 @@ Attributes
 override
 ;
 virtual
+nsAtom
+*
+TagName
+(
+)
+const
+override
+;
+virtual
 void
 TakeFocus
 (
