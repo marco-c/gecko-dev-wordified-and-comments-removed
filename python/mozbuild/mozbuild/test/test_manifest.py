@@ -904,6 +904,17 @@ com
 "
                             
 "
+fuzzy
+-
+query
+"
+:
+"
+!
+linux64
+"
+                            
+"
 tasks
 "
 :
@@ -1020,6 +1031,15 @@ component
 Graphics
 updatebot
 :
+  
+fuzzy
+-
+query
+:
+"
+!
+linux64
+"
   
 maintainer
 -
