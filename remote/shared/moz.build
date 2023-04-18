@@ -92,6 +92,15 @@ browser
 .
 ini
 "
+"
+test
+/
+browser
+/
+browser
+.
+ini
+"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
