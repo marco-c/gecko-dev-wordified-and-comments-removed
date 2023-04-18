@@ -241,7 +241,7 @@ addon
 -
 install
 -
-origin
+policy
 -
 blocked
 "
@@ -381,7 +381,7 @@ addon
 -
 install
 -
-origin
+policy
 -
 blocked
 "
@@ -552,7 +552,7 @@ addon
 -
 install
 -
-origin
+policy
 -
 blocked
 "
@@ -687,7 +687,7 @@ addon
 -
 install
 -
-origin
+policy
 -
 blocked
 "

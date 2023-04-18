@@ -9353,11 +9353,9 @@ addon
 -
 install
 -
-webapi
+policy
 -
 blocked
--
-policy
 "
 )
 ;
@@ -12029,11 +12027,9 @@ addon
 -
 install
 -
-webapi
+policy
 -
 blocked
--
-policy
 "
 )
 ;

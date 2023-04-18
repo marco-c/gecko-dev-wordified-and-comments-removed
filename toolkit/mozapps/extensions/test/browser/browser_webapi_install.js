@@ -2051,11 +2051,9 @@ addon
 -
 install
 -
-webapi
+policy
 -
 blocked
--
-policy
 "
 )
 ;
