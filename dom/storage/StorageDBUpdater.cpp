@@ -78,8 +78,8 @@ CURRENT_SCHEMA_VERSION
 2
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -2032,7 +2032,6 @@ rv
 return
 NS_OK
 ;
-}
 }
 }
 }

@@ -159,8 +159,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -2454,6 +2454,5 @@ StorageObserver
 return
 NS_OK
 ;
-}
 }
 }

@@ -153,8 +153,8 @@ hours
 /
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -1534,5 +1534,4 @@ NS_IMPL_RELEASE
 (
 StorageActivityService
 )
-}
 }

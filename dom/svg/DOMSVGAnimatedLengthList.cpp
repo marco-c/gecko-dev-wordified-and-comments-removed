@@ -59,8 +59,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -517,6 +517,5 @@ GetAnimatedLengthList
 mAttrEnum
 )
 ;
-}
 }
 }

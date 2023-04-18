@@ -58,11 +58,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 StorageUtils
 {
 bool
@@ -410,7 +410,5 @@ aOriginNoSuffix
 return
 result
 ;
-}
-}
 }
 }

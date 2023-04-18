@@ -154,8 +154,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -7221,6 +7221,5 @@ SessionStorageManagerParent
 aTopContextId
 )
 ;
-}
 }
 }

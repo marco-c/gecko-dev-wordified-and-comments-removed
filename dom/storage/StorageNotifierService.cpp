@@ -50,8 +50,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -463,6 +463,5 @@ RemoveElement
 aObserver
 )
 ;
-}
 }
 }

@@ -6,11 +6,11 @@ define
 mozilla_dom_StorageDBUpdater_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 StorageDBUpdater
 {
 nsresult
@@ -29,8 +29,6 @@ mozIStorageConnection
 aWorkerConnection
 )
 ;
-}
-}
 }
 #
 endif

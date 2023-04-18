@@ -16,11 +16,11 @@ nsIPrincipal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 StorageUtils
 {
 bool
@@ -71,8 +71,6 @@ nsACString
 aOriginNoSuffix
 )
 ;
-}
-}
 }
 #
 endif

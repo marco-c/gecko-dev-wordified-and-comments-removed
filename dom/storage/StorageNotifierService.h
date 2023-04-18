@@ -29,8 +29,8 @@ nsPIDOMWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -162,7 +162,6 @@ mObservers
 ;
 }
 ;
-}
 }
 #
 endif

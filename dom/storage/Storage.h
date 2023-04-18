@@ -81,8 +81,8 @@ nsPIDOMWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -658,7 +658,6 @@ mSessionScopedOrLess
 ;
 }
 ;
-}
 }
 #
 endif
