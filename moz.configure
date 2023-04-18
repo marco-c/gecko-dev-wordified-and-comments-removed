@@ -1902,12 +1902,6 @@ dependable
 (
 False
 )
-dmd
-=
-dependable
-(
-False
-)
 include
 (
 include_project_configure

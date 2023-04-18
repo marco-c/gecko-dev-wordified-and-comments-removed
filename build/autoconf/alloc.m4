@@ -128,6 +128,16 @@ MALLOC_H
 break
 fi
 done
+AC_CHECK_FUNCS
+(
+strndup
+posix_memalign
+memalign
+)
+AC_CHECK_FUNCS
+(
+malloc_usable_size
+)
 MALLOC_USABLE_SIZE_CONST_PTR
 =
 const
