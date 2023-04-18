@@ -18,13 +18,6 @@ gtest
 .
 h
 "
-#
-include
-"
-gtest_utils
-.
-h
-"
 using
 mozilla
 :

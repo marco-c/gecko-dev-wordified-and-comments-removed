@@ -6,13 +6,9 @@ define
 mozilla_dom_ImageBitmapFormatUtils_h
 #
 include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
+<
+cstdint
+>
 #
 include
 "

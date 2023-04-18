@@ -27,13 +27,6 @@ h
 #
 include
 "
-nsXPCOM
-.
-h
-"
-#
-include
-"
 nsISocketTransportService
 .
 h

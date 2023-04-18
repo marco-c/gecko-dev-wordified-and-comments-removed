@@ -42,6 +42,13 @@ h
 #
 include
 "
+MediaEnginePrefs
+.
+h
+"
+#
+include
+"
 MediaTrackListener
 .
 h

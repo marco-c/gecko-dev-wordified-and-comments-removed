@@ -17,15 +17,8 @@ string
 #
 include
 <
-vector
+cstdint
 >
-#
-include
-"
-stddef
-.
-h
-"
 #
 include
 "

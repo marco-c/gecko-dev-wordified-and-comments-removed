@@ -17,13 +17,6 @@ string
 #
 include
 "
-prio
-.
-h
-"
-#
-include
-"
 nsError
 .
 h

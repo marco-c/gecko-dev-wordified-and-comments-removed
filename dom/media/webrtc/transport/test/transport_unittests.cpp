@@ -11,11 +11,6 @@ string
 #
 include
 <
-map
->
-#
-include
-<
 algorithm
 >
 #
@@ -94,13 +89,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-nsXPCOM
 .
 h
 "

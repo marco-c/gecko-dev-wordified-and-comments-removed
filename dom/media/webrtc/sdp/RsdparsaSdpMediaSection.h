@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h
@@ -58,11 +49,6 @@ RsdparsaSdpAttributeList
 .
 h
 "
-#
-include
-<
-map
->
 namespace
 mozilla
 {

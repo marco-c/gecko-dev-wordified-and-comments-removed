@@ -25,7 +25,7 @@ mozilla
 /
 dom
 /
-GeolocationPositionBinding
+GeolocationPosition
 .
 h
 "

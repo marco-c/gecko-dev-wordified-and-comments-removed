@@ -40,17 +40,6 @@ GeolocationPositionBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-GeolocationCoordinatesBinding
-.
-h
-"
 using
 mozilla
 :

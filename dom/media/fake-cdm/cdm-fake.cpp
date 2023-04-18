@@ -1,13 +1,6 @@
 #
 include
 "
-stddef
-.
-h
-"
-#
-include
-"
 cdm
 -
 test
