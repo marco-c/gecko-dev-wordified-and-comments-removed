@@ -6038,7 +6038,10 @@ lib
 gl
 :
 :
-DefaultEglLibrary
+GLLibraryEGL
+:
+:
+Get
 (
 &
 failureId
