@@ -2293,13 +2293,7 @@ case
 CallSiteDesc
 :
 :
-Import
-:
-case
-CallSiteDesc
-:
-:
-Indirect
+Dynamic
 :
 case
 CallSiteDesc

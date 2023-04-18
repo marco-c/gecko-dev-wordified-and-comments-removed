@@ -80,13 +80,6 @@ sizeof
 uintptr_t
 )
 ;
-static
-const
-uint32_t
-SizeOfReturnAddressAfterCall
-=
-0
-;
 #
 if
 MOZ_LITTLE_ENDIAN
