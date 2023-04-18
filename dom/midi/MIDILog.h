@@ -16,13 +16,6 @@ h
 #
 include
 <
-nsTArray
-.
-h
->
-#
-include
-<
 nsStringFwd
 .
 h
@@ -101,8 +94,7 @@ __VA_ARGS__
 void
 LogMIDIMessage
 (
-nsTArray
-<
+const
 mozilla
 :
 :
@@ -110,7 +102,6 @@ dom
 :
 :
 MIDIMessage
->
 &
 aMessage
 const

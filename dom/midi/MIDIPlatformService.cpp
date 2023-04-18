@@ -556,12 +556,12 @@ Add
 aMsgs
 )
 ;
+}
 ScheduleSend
 (
 aId
 )
 ;
-}
 }
 void
 MIDIPlatformService
