@@ -977,7 +977,7 @@ AppendPrintf
 "
 0x
 %
-X
+p
 "
 hwnd
 )

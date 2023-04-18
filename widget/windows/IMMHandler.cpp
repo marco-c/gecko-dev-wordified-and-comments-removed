@@ -1615,7 +1615,7 @@ InitKeyboardLayout
 aKeyboardLayout
 =
 %
-08x
+p
 (
 \
 "
@@ -1941,7 +1941,7 @@ p
 hWnd
 =
 %
-08x
+p
 "
 "
 mComposingWindow
@@ -2149,7 +2149,7 @@ p
 hWnd
 =
 %
-08x
+p
 "
 "
 mComposingWindow
@@ -2931,7 +2931,7 @@ OnInputLangChange
 hWnd
 =
 %
-08x
+p
 wParam
 =
 %
@@ -3018,7 +3018,7 @@ OnIMEStartComposition
 hWnd
 =
 %
-08x
+p
 mIsComposing
 =
 %
@@ -3115,7 +3115,7 @@ OnIMEComposition
 hWnd
 =
 %
-08x
+p
 lParam
 =
 %
@@ -3244,7 +3244,7 @@ OnIMEEndComposition
 hWnd
 =
 %
-08x
+p
 mIsComposing
 =
 %
@@ -3454,7 +3454,7 @@ OnIMEChar
 hWnd
 =
 %
-08x
+p
 char
 =
 %
@@ -3510,7 +3510,7 @@ OnIMECompositionFull
 hWnd
 =
 %
-08x
+p
 "
 aWindow
 -
@@ -3573,7 +3573,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_CHANGECANDIDATE
 "
 "
@@ -3613,7 +3613,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_CLOSECANDIDATE
 "
 "
@@ -3653,7 +3653,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_CLOSESTATUSWINDOW
 "
 aWindow
@@ -3686,7 +3686,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_GUIDELINE
 "
 aWindow
@@ -3719,7 +3719,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_OPENCANDIDATE
 lParam
 =
@@ -3757,7 +3757,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_OPENSTATUSWINDOW
 "
 aWindow
@@ -3790,7 +3790,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_SETCANDIDATEPOS
 "
 "
@@ -3830,7 +3830,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_SETCOMPOSITIONFONT
 "
 aWindow
@@ -3863,7 +3863,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_SETCOMPOSITIONWINDOW
 "
 aWindow
@@ -3896,7 +3896,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_SETCONVERSIONMODE
 "
 aWindow
@@ -3929,7 +3929,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_SETOPENSTATUS
 "
 aWindow
@@ -3962,7 +3962,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_SETSENTENCEMODE
 "
 aWindow
@@ -3995,7 +3995,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_SETSTATUSWINDOWPOS
 "
 aWindow
@@ -4028,7 +4028,7 @@ OnIMENotify
 hWnd
 =
 %
-08x
+p
 IMN_PRIVATE
 "
 aWindow
@@ -4095,7 +4095,7 @@ OnIMERequest
 hWnd
 =
 %
-08x
+p
 IMR_RECONVERTSTRING
 "
 aWindow
@@ -4143,7 +4143,7 @@ OnIMERequest
 hWnd
 =
 %
-08x
+p
 IMR_QUERYCHARPOSITION
 "
 aWindow
@@ -4191,7 +4191,7 @@ OnIMERequest
 hWnd
 =
 %
-08x
+p
 IMR_DOCUMENTFEED
 "
 aWindow
@@ -4238,7 +4238,7 @@ OnIMERequest
 hWnd
 =
 %
-08x
+p
 wParam
 =
 %
@@ -4299,7 +4299,7 @@ OnIMESelect
 hWnd
 =
 %
-08x
+p
 wParam
 =
 %
@@ -4364,7 +4364,7 @@ OnIMESetContext
 hWnd
 =
 %
-08x
+p
 %
 s
 lParam
@@ -4421,7 +4421,7 @@ OnIMESetContext
 hWnd
 =
 %
-08x
+p
 is
 top
 level
@@ -6817,13 +6817,13 @@ GetFocus
 )
 =
 %
-08x
+p
 "
 "
 OurWindowHandle
 =
 %
-08x
+p
 "
 :
 :
@@ -12350,7 +12350,7 @@ OnKeyDownEvent
 hWnd
 =
 %
-08x
+p
 wParam
 =
 %
