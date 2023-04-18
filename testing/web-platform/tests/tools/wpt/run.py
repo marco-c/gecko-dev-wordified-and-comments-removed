@@ -2625,12 +2625,7 @@ MojoJS
 "
 )
         
-elif
-browser_channel
-in
-self
-.
-experimental_channels
+else
 :
             
 try
