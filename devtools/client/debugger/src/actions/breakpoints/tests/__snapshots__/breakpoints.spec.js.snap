@@ -193,6 +193,11 @@ isExtension
 :
 false
 "
+isHTML
+"
+:
+false
+"
 isOriginal
 "
 :
@@ -650,6 +655,11 @@ isBlackBoxed
 false
 "
 isExtension
+"
+:
+false
+"
+isHTML
 "
 :
 false

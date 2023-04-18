@@ -779,6 +779,11 @@ source
 .
 sourceMapURL
 introductionType
+isInlineSource
+:
+this
+.
+_isInlineSource
 }
 ;
 }
