@@ -1056,7 +1056,6 @@ SearchEngineSelector
 const
 db
 =
-await
 RemoteSettings
 (
 SearchUtils
@@ -1073,7 +1072,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 {
 id
@@ -1310,7 +1313,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 {
 id
@@ -1496,7 +1503,6 @@ SearchEngineSelector
 const
 db
 =
-await
 RemoteSettings
 (
 SearchUtils
@@ -1513,7 +1519,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 {
 id

@@ -748,7 +748,6 @@ test_ignoreList_db_modification
 const
 db
 =
-await
 RemoteSettings
 (
 IGNORELIST_KEY
@@ -763,7 +762,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 IGNORELIST_TEST_DATA
 {
 clear
@@ -904,7 +907,6 @@ test_ignoreList_db_modification_never_succeeds
 const
 db
 =
-await
 RemoteSettings
 (
 IGNORELIST_KEY
@@ -919,7 +921,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 IGNORELIST_TEST_DATA
 {
 clear

@@ -201,7 +201,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 testMessage
 ]
@@ -596,7 +600,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 groupConfiguration
 ]

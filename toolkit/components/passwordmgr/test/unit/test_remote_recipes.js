@@ -49,7 +49,6 @@ test_init_remote_recipe
 const
 db
 =
-await
 RemoteSettings
 (
 REMOTE_SETTINGS_COLLECTION
@@ -110,7 +109,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 record1
 ]
@@ -299,7 +302,6 @@ test_add_recipe_sync
 const
 db
 =
-await
 RemoteSettings
 (
 REMOTE_SETTINGS_COLLECTION
@@ -353,7 +355,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 record1
 ]
@@ -526,7 +532,6 @@ test_remove_recipe_sync
 const
 db
 =
-await
 RemoteSettings
 (
 REMOTE_SETTINGS_COLLECTION
@@ -580,7 +585,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 record1
 ]
@@ -694,7 +703,6 @@ test_malformed_recipes_in_db
 const
 db
 =
-await
 RemoteSettings
 (
 REMOTE_SETTINGS_COLLECTION
@@ -751,7 +759,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 malformedRecord
 ]
@@ -864,7 +876,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 missingHostsRecord
 ]

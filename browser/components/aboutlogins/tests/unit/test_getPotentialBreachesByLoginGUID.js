@@ -1828,7 +1828,6 @@ handler
 const
 db
 =
-await
 RemoteSettings
 (
 LoginBreaches
@@ -1845,7 +1844,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 nowExampleIsInBreachedRecords
 [
