@@ -7679,7 +7679,7 @@ findbar
 wrapContainers
 >
 div
-#
+.
 findbarMessageContainer
 {
 height
@@ -8031,6 +8031,8 @@ findbar
 input
 :
 focus
+-
+visible
 +
 label
 {
@@ -8817,6 +8819,10 @@ rgba
 ;
 }
 #
+findResultsCount
+:
+empty
+#
 findMsg
 :
 empty
@@ -9185,6 +9191,8 @@ hover
 overlayButton
 :
 focus
+-
+visible
 {
 background
 -
@@ -9216,6 +9224,8 @@ span
 overlayButton
 :
 focus
+-
+visible
 >
 span
 {
@@ -9308,6 +9318,8 @@ splitToolbarButton
 toolbarButton
 :
 focus
+-
+visible
 .
 dropdownToolbarButton
 :
@@ -9324,6 +9336,8 @@ toolbarButton
 textButton
 :
 focus
+-
+visible
 {
 background
 -
@@ -9713,6 +9727,8 @@ hover
 toolbarButton
 :
 focus
+-
+visible
 {
 background
 -
@@ -9738,6 +9754,8 @@ hover
 secondaryToolbarButton
 :
 focus
+-
+visible
 {
 background
 -
@@ -10178,6 +10196,8 @@ dropdownToolbarButton
 select
 :
 focus
+-
+visible
 {
 background
 -
@@ -10386,6 +10406,8 @@ after
 dropdownToolbarButton
 :
 focus
+-
+visible
 :
 :
 after
@@ -10456,6 +10478,8 @@ before
 toolbarButton
 :
 focus
+-
+visible
 :
 :
 before
@@ -10470,6 +10494,8 @@ before
 secondaryToolbarButton
 :
 focus
+-
+visible
 :
 :
 before
