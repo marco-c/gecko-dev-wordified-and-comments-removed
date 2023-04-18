@@ -20172,7 +20172,6 @@ vp
 .
 setExtendedPrimitive
 (
-*
 obj
 -
 >

@@ -311,8 +311,11 @@ TupleToSource
 JSContext
 *
 cx
+Handle
+<
 TupleType
 *
+>
 tup
 )
 ;
