@@ -143,6 +143,10 @@ await
 fetchSMASchema
 )
 .
+definitions
+.
+SpecialMessageActionSchemas
+.
 anyOf
 .
 map
