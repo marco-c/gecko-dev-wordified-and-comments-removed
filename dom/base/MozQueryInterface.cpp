@@ -170,7 +170,13 @@ ifaces
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 iface
 (
 cx

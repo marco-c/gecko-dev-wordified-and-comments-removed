@@ -158,7 +158,13 @@ Allow
 JS
 :
 :
-HandleValue
+Handle
+<
+JS
+:
+:
+Value
+>
 aChoices
 )
 {

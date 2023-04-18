@@ -519,7 +519,11 @@ NS_ERROR_FAILURE
 JS
 :
 :
-RootedScript
+Rooted
+<
+JSScript
+*
+>
 script
 (
 cx
@@ -860,7 +864,13 @@ aScopeChain
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 val
 (
 aCx
