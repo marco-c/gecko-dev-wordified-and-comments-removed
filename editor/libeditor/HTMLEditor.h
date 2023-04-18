@@ -1778,14 +1778,7 @@ aStream
 ;
 }
 MOZ_CAN_RUN_SCRIPT
-Result
-<
-RefPtr
-<
-Element
->
-nsresult
->
+CreateElementResult
 InsertBRElement
 (
 WithTransaction
