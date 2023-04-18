@@ -6592,6 +6592,8 @@ nsDisplayListBuilder
 aDisplayListBuilder
 bool
 aSiblingActive
+bool
+aUniformlyScaled
 )
 ;
 static
@@ -6642,6 +6644,8 @@ aManager
 nsDisplayListBuilder
 *
 aDisplayListBuilder
+bool
+aUniformlyScaled
 )
 {
 ItemActivity
@@ -6673,6 +6677,7 @@ aSc
 aManager
 aDisplayListBuilder
 false
+aUniformlyScaled
 )
 ;
 activity
@@ -6752,6 +6757,8 @@ nsDisplayListBuilder
 aDisplayListBuilder
 bool
 aHasActivePrecedingSibling
+bool
+aUniformlyScaled
 )
 {
 switch
@@ -6840,6 +6847,7 @@ aResources
 aSc
 aManager
 aDisplayListBuilder
+aUniformlyScaled
 )
 ;
 if
@@ -6928,6 +6936,7 @@ aResources
 aSc
 aManager
 aDisplayListBuilder
+aUniformlyScaled
 )
 ;
 }
@@ -6973,6 +6982,9 @@ StaticPrefs
 gfx_webrender_svg_images
 (
 )
+&
+&
+aUniformlyScaled
 &
 &
 svgItem
@@ -7085,6 +7097,7 @@ aResources
 aSc
 aManager
 aDisplayListBuilder
+aUniformlyScaled
 )
 ;
 }
@@ -7122,6 +7135,7 @@ aResources
 aSc
 aManager
 aDisplayListBuilder
+aUniformlyScaled
 )
 ;
 if
@@ -7196,6 +7210,7 @@ aResources
 aSc
 aManager
 aDisplayListBuilder
+aUniformlyScaled
 )
 ;
 }
@@ -7428,6 +7443,30 @@ HasNext
 (
 )
 ;
+bool
+uniformlyScaled
+=
+fabs
+(
+aGroup
+-
+>
+mScale
+.
+width
+-
+aGroup
+-
+>
+mScale
+.
+height
+)
+<
+0
+.
+1
+;
 auto
 activity
 =
@@ -7440,6 +7479,7 @@ aSc
 manager
 mDisplayListBuilder
 encounteredActiveItem
+uniformlyScaled
 )
 ;
 auto
