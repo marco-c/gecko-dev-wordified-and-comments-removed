@@ -7,10 +7,9 @@ collections
 import
 defaultdict
 from
-collections
-.
-abc
+typing
 import
+Any
 Mapping
 from
 .
@@ -131,6 +130,10 @@ class
 Config
 (
 Mapping
+[
+str
+Any
+]
 )
 :
     

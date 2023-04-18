@@ -34,6 +34,10 @@ import
 Empty
 Queue
 from
+typing
+import
+Dict
+from
 h2
 .
 config
@@ -4173,7 +4177,11 @@ release
 class
 H2Headers
 (
-dict
+Dict
+[
+bytes
+bytes
+]
 )
 :
     

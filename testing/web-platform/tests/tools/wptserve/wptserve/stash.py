@@ -15,11 +15,20 @@ multiprocessing
 .
 managers
 import
-AcquirerProxy
 BaseManager
 BaseProxy
+from
+multiprocessing
+.
+managers
+import
+AcquirerProxy
 DictProxy
 public_methods
+from
+typing
+import
+Dict
 from
 .
 utils
@@ -33,6 +42,12 @@ BaseManager
 :
     
 shared_data
+:
+Dict
+[
+str
+object
+]
 =
 {
 }

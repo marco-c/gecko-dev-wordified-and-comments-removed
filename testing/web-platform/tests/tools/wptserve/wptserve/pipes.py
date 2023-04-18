@@ -26,6 +26,23 @@ from
 io
 import
 BytesIO
+from
+typing
+import
+Any
+Callable
+ClassVar
+Dict
+Optional
+TypeVar
+T
+=
+TypeVar
+(
+'
+T
+'
+)
 def
 resolve_content
 (
@@ -611,6 +628,14 @@ __init__
 self
 *
 arg_converters
+:
+Callable
+[
+[
+str
+]
+Any
+]
 )
 :
         
@@ -825,6 +850,14 @@ __init__
 (
 self
 f
+:
+Callable
+[
+[
+str
+]
+Any
+]
 )
 :
         
@@ -839,7 +872,12 @@ __call__
 (
 self
 arg
+:
+str
 )
+-
+>
+Any
 :
         
 return
@@ -853,14 +891,42 @@ def
 nullable
 (
 func
+:
+Callable
+[
+[
+str
+]
+T
+]
 )
+-
+>
+Callable
+[
+[
+str
+]
+Optional
+[
+T
+]
+]
 :
     
 def
 inner
 (
 arg
+:
+str
 )
+-
+>
+Optional
+[
+T
+]
 :
         
 if
@@ -894,7 +960,12 @@ def
 boolean
 (
 arg
+:
+str
 )
+-
+>
+bool
 :
     
 if
