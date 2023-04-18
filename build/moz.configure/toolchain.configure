@@ -11914,6 +11914,15 @@ select_linker
 is
 not
 None
+and
+target
+.
+kernel
+!
+=
+"
+Darwin
+"
 :
 return
 select_linker
