@@ -299,6 +299,10 @@ utilityProc
 >
 ProcessPid
 (
+SandboxingKind
+:
+:
+GENERIC_UTILITY
 )
 ;
 ASSERT_TRUE
@@ -398,6 +402,10 @@ utilityProc
 >
 ProcessPid
 (
+SandboxingKind
+:
+:
+GENERIC_UTILITY
 )
 ;
 EXPECT_TRUE
@@ -526,6 +534,10 @@ utilityProc
 >
 ProcessPid
 (
+SandboxingKind
+:
+:
+GENERIC_UTILITY
 )
 ;
 EXPECT_TRUE
@@ -549,6 +561,10 @@ utilityProc
 >
 CleanShutdown
 (
+SandboxingKind
+:
+:
+GENERIC_UTILITY
 )
 ;
 utilityPid
@@ -558,6 +574,10 @@ utilityProc
 >
 ProcessPid
 (
+SandboxingKind
+:
+:
+GENERIC_UTILITY
 )
 ;
 EXPECT_TRUE
