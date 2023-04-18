@@ -1839,6 +1839,15 @@ color
 context
 )
 ;
+if
+alpha
+=
+=
+0
+{
+return
+;
+}
 let
 mut
 color
