@@ -188,6 +188,12 @@ tests
 wdspec
 -
 headless
+|
+mochitest
+-
+plain
+-
+headless
 )
 )
 "
