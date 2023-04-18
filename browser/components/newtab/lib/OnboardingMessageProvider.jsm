@@ -340,7 +340,7 @@ assets
 /
 heart
 .
-gif
+webp
 "
 height
 :
