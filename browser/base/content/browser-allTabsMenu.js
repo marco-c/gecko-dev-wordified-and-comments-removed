@@ -46,7 +46,9 @@ allTabsViewTabs
 "
 allTabsMenu
 -
-allTabsViewTabs
+allTabsView
+-
+tabs
 "
 dropIndicator
 :
