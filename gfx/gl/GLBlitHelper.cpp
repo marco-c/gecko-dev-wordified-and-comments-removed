@@ -4128,7 +4128,6 @@ status
 LOCAL_GL_TRUE
 |
 |
-!
 mGL
 -
 >
@@ -4211,7 +4210,7 @@ loc
 -
 1
 )
-break
+continue
 ;
 mGL
 -
