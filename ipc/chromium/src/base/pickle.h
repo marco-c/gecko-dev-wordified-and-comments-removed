@@ -857,13 +857,6 @@ void
 data
 uint32_t
 data_len
-uint32_t
-alignment
-=
-sizeof
-(
-memberAlignmentType
-)
 )
 ;
 bool
@@ -1017,8 +1010,6 @@ BeginWrite
 (
 uint32_t
 length
-uint32_t
-alignment
 )
 ;
 void
