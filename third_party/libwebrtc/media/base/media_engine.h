@@ -66,9 +66,9 @@ include
 "
 api
 /
-transport
+video
 /
-webrtc_key_value_config
+video_bitrate_allocator_factory
 .
 h
 "
@@ -77,9 +77,7 @@ include
 "
 api
 /
-video
-/
-video_bitrate_allocator_factory
+webrtc_key_value_config
 .
 h
 "

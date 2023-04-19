@@ -643,6 +643,10 @@ fileutils
 frame_utils
 "
 "
+:
+scoped_key_value_config
+"
+"
 .
 .
 /
@@ -1064,6 +1068,10 @@ deps
 +
 =
 [
+"
+:
+scoped_key_value_config
+"
 "
 .
 .
@@ -2975,6 +2983,10 @@ rtc_expect_death
 "
 :
 rtp_test_utils
+"
+"
+:
+scoped_key_value_config
 "
 "
 :

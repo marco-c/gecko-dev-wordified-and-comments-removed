@@ -614,6 +614,8 @@ ContainsMatchingCodec
 (
 send_codecs
 rtx_codec
+&
+field_trials_
 )
 )
 ;
@@ -632,6 +634,8 @@ ContainsMatchingCodec
 (
 recv_codecs
 rtx_codec
+&
+field_trials_
 )
 )
 ;
@@ -672,6 +676,8 @@ ContainsMatchingCodec
 (
 send_codecs
 rtx_codec
+&
+field_trials_
 )
 )
 ;
@@ -690,6 +696,8 @@ ContainsMatchingCodec
 (
 recv_codecs
 rtx_codec
+&
+field_trials_
 )
 )
 ;
@@ -730,6 +738,8 @@ ContainsMatchingCodec
 (
 send_codecs
 rtx_codec
+&
+field_trials_
 )
 )
 ;
@@ -748,6 +758,8 @@ ContainsMatchingCodec
 (
 recv_codecs
 rtx_codec
+&
+field_trials_
 )
 )
 ;
