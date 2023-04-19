@@ -161,6 +161,11 @@ allowAsStatement
 true
 }
 ]
+eqeqeq
+:
+"
+error
+"
 }
 globals
 :
