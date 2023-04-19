@@ -212,15 +212,6 @@ optional
 <
 bool
 >
-residual_echo_detector
-;
-absl
-:
-:
-optional
-<
-bool
->
 combined_audio_video_bwe
 ;
 absl
