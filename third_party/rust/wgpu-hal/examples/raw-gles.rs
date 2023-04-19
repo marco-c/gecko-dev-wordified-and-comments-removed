@@ -998,6 +998,8 @@ color_attachments
 :
 &
 [
+Some
+(
 hal
 :
 :
@@ -1046,6 +1048,7 @@ Color
 :
 BLUE
 }
+)
 ]
 depth_stencil_attachment
 :

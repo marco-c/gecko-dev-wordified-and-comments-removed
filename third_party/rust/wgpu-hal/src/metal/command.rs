@@ -2096,6 +2096,19 @@ enumerate
 (
 )
 {
+if
+let
+Some
+(
+at
+)
+=
+at
+.
+as_ref
+(
+)
+{
 let
 at_descriptor
 =
@@ -2260,6 +2273,7 @@ set_store_action
 store_action
 )
 ;
+}
 }
 if
 let

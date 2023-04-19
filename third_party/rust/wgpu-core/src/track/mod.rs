@@ -3598,10 +3598,13 @@ mut
 scope
 .
 buffers
-&
 bind_group
 .
 buffers
+.
+used
+(
+)
 )
 ;
 self

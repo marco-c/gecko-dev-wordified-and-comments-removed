@@ -104,6 +104,7 @@ span
 :
 :
 {
+SourceLocation
 Span
 SpanContext
 WithSpan
@@ -3790,6 +3791,15 @@ Block
 continuing
 :
 Block
+break_if
+:
+Option
+<
+Handle
+<
+Expression
+>
+>
 }
 Break
 Continue

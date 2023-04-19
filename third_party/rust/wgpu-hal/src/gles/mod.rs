@@ -733,6 +733,9 @@ Version
 max_texture_size
 :
 u32
+is_ext_color_buffer_float_supported
+:
+bool
 }
 pub
 struct
@@ -1083,6 +1086,9 @@ crate
 :
 :
 CopyExtent
+is_cubemap
+:
+bool
 }
 impl
 Texture
@@ -1148,6 +1154,9 @@ depth
 :
 0
 }
+is_cubemap
+:
+false
 }
 }
 }
@@ -2289,7 +2298,7 @@ u32
 crate
 :
 :
-MAX_COLOR_TARGETS
+MAX_COLOR_ATTACHMENTS
 +
 2
 }
@@ -2468,6 +2477,9 @@ crate
 :
 :
 TextureCopy
+dst_is_cubemap
+:
+bool
 }
 CopyBufferToTexture
 {

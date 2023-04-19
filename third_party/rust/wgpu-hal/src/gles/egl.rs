@@ -7643,7 +7643,10 @@ mut
 self
 _timeout_ms
 :
-u32
+Option
+<
+Duration
+>
 )
 -
 >
@@ -7752,6 +7755,9 @@ depth
 :
 1
 }
+is_cubemap
+:
+false
 }
 ;
 Ok

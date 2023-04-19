@@ -752,9 +752,7 @@ limits
 .
 max_texture_dimension_1d
 1
-limits
-.
-max_texture_array_layers
+1
 ]
 1
 )
