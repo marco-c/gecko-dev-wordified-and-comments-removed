@@ -496,6 +496,16 @@ ssl
 :
 pkg
 #
+yamllint
+disable
+-
+line
+rule
+:
+comments
+-
+indentation
+#
 mozilla
 -
 esrXX
