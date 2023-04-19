@@ -205,8 +205,7 @@ GfxBlocklistRS
 _client
 expectHasDump
 :
-!
-IS_ANDROID
+true
 }
 ]
 ;
