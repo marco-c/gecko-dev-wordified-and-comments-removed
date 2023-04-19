@@ -1848,7 +1848,7 @@ Image
 .
 accesskey
 =
-T
+x
 main
 -
 context
