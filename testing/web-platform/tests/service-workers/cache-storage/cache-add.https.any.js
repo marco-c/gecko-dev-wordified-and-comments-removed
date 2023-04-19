@@ -1,57 +1,3 @@
-if
-(
-self
-.
-importScripts
-)
-{
-importScripts
-(
-'
-/
-resources
-/
-testharness
-.
-js
-'
-)
-;
-importScripts
-(
-'
-/
-common
-/
-get
--
-host
--
-info
-.
-sub
-.
-js
-'
-)
-;
-importScripts
-(
-'
-.
-.
-/
-resources
-/
-test
--
-helpers
-.
-js
-'
-)
-;
-}
 const
 {
 REMOTE_HOST
@@ -122,7 +68,6 @@ add
 (
 '
 .
-.
 /
 resources
 /
@@ -163,7 +108,6 @@ cache
 match
 (
 '
-.
 .
 /
 resources
@@ -348,7 +292,6 @@ Request
 (
 '
 .
-.
 /
 resources
 /
@@ -421,7 +364,6 @@ new
 Request
 (
 '
-.
 .
 /
 resources
@@ -502,7 +444,6 @@ new
 Request
 (
 '
-.
 .
 /
 resources
@@ -624,7 +565,6 @@ Request
 (
 '
 .
-.
 /
 resources
 /
@@ -710,7 +650,6 @@ add
 (
 '
 .
-.
 /
 resources
 /
@@ -762,7 +701,6 @@ urls
 [
 '
 .
-.
 /
 resources
 /
@@ -777,7 +715,6 @@ status
 206
 '
 '
-.
 .
 /
 resources
@@ -867,7 +804,6 @@ urls
 [
 '
 .
-.
 /
 resources
 /
@@ -882,7 +818,6 @@ status
 206
 '
 '
-.
 .
 /
 resources
@@ -1075,7 +1010,6 @@ add
 (
 '
 .
-.
 /
 resources
 /
@@ -1178,7 +1112,6 @@ urls
 [
 '
 .
-.
 /
 resources
 /
@@ -1188,7 +1121,6 @@ txt
 '
 undefined
 '
-.
 .
 /
 resources
@@ -1208,6 +1140,7 @@ cache
 .
 addAll
 (
+urls
 )
 '
 Cache
@@ -1348,7 +1281,6 @@ urls
 [
 '
 .
-.
 /
 resources
 /
@@ -1362,7 +1294,6 @@ location
 .
 href
 '
-.
 .
 /
 resources
@@ -1646,7 +1577,6 @@ urls
 [
 '
 .
-.
 /
 resources
 /
@@ -1660,7 +1590,6 @@ location
 .
 href
 '
-.
 .
 /
 resources
@@ -1966,7 +1895,6 @@ urls
 [
 '
 .
-.
 /
 resources
 /
@@ -1986,7 +1914,6 @@ not
 exist
 '
 '
-.
 .
 /
 resources
@@ -2222,7 +2149,6 @@ url
 =
 '
 .
-.
 /
 resources
 /
@@ -2338,7 +2264,6 @@ const
 url
 =
 '
-.
 .
 /
 resources
@@ -2461,7 +2386,6 @@ const
 base_url
 =
 '
-.
 .
 /
 resources
