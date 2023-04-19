@@ -7,6 +7,11 @@ MODULES_AUDIO_PROCESSING_AEC3_MULTI_CHANNEL_CONTENT_DETECTOR_H_
 #
 include
 <
+memory
+>
+#
+include
+<
 stddef
 .
 h
