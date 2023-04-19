@@ -7092,6 +7092,10 @@ FindImageText
 (
 ShmemImage
 image
+nsCString
+[
+]
+languages
 )
 returns
 (

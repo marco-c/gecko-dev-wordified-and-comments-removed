@@ -4689,6 +4689,12 @@ RecvFindImageText
 ShmemImage
 &
 &
+nsTArray
+<
+nsCString
+>
+&
+&
 FindImageTextResolver
 &
 &
