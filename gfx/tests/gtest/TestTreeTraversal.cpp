@@ -202,9 +202,6 @@ protected
 virtual
 ~
 TestNodeBase
-<
-T
->
 (
 )
 =
@@ -329,9 +326,6 @@ mLastChildNode
 ;
 ~
 TestNodeReverse
-<
-T
->
 (
 )
 =
@@ -484,9 +478,6 @@ nullptr
 ;
 ~
 TestNodeForward
-<
-T
->
 (
 )
 =

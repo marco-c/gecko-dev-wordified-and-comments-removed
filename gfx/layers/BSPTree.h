@@ -82,9 +82,6 @@ aData
 {
 }
 BSPPolygon
-<
-T
->
 (
 T
 *
