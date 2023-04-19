@@ -3254,6 +3254,13 @@ task_utils
 to_queued_task_unittests
 "
 "
+rtc_base
+/
+units
+:
+units_unittests
+"
+"
 sdk
 :
 sdk_tests
