@@ -317,6 +317,17 @@ rtc_base_approved
 .
 /
 rtc_base
+:
+safe_conversions
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
 /
 synchronization
 :
