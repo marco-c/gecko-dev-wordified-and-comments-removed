@@ -513,10 +513,7 @@ absl
 :
 optional
 <
-std
-:
-:
-string
+ScalabilityMode
 >
 scalability_mode
 =
