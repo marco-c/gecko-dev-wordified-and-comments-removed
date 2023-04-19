@@ -89,6 +89,17 @@ aOpenListener
 0
 ;
 virtual
+RefPtr
+<
+BoolPromise
+>
+Acquire
+(
+)
+=
+0
+;
+virtual
 void
 AcquireImmediately
 (
