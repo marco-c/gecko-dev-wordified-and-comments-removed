@@ -640,6 +640,13 @@ Zero
 )
 ;
 }
+TaskQueueBase
+:
+:
+DelayPrecision
+:
+:
+kHigh
 )
 ;
 }
