@@ -78,9 +78,6 @@ trials_init_string
 =
 NULL
 ;
-#
-ifndef
-WEBRTC_EXCLUDE_FIELD_TRIAL_DEFAULT
 namespace
 {
 constexpr
@@ -531,6 +528,9 @@ return
 merged
 ;
 }
+#
+ifndef
+WEBRTC_EXCLUDE_FIELD_TRIAL_DEFAULT
 std
 :
 :
@@ -746,9 +746,6 @@ string
 <
 trials_string
 ;
-#
-ifndef
-WEBRTC_EXCLUDE_FIELD_TRIAL_DEFAULT
 if
 (
 trials_string
@@ -776,8 +773,6 @@ trials_string
 ;
 }
 ;
-#
-endif
 trials_init_string
 =
 trials_string

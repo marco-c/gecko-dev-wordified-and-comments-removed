@@ -100,9 +100,6 @@ GetFieldTrialString
 (
 )
 ;
-#
-ifndef
-WEBRTC_EXCLUDE_FIELD_TRIAL_DEFAULT
 bool
 FieldTrialsStringIsValid
 (
@@ -128,8 +125,6 @@ char
 second
 )
 ;
-#
-endif
 }
 }
 #
