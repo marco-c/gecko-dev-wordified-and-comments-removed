@@ -5,6 +5,8 @@ httplib2
 import
 json
 import
+math
+import
 subprocess
 import
 time
@@ -1149,6 +1151,7 @@ running
 ]
 =
 [
+                
 _NoInf
 (
 value
@@ -1162,6 +1165,15 @@ d
 running
 '
 ]
+                
+if
+not
+math
+.
+isnan
+(
+value
+)
 ]
         
 if
