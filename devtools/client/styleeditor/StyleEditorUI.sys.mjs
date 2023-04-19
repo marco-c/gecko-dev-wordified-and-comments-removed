@@ -5291,7 +5291,7 @@ eventListenersConfig
 )
 ;
 const
-enabledToggle
+stylesheetToggle
 =
 summary
 .
@@ -5301,7 +5301,7 @@ querySelector
 .
 stylesheet
 -
-enabled
+toggle
 "
 )
 ;
@@ -5310,7 +5310,7 @@ if
 isSystem
 )
 {
-enabledToggle
+stylesheetToggle
 .
 disabled
 =
@@ -5327,7 +5327,7 @@ l10n
 .
 setAttributes
 (
-enabledToggle
+stylesheetToggle
 "
 styleeditor
 -
@@ -5342,7 +5342,7 @@ system
 }
 else
 {
-enabledToggle
+stylesheetToggle
 .
 addEventListener
 (

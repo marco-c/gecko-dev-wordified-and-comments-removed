@@ -839,7 +839,7 @@ hidden
 .
 stylesheet
 -
-enabled
+toggle
 {
 display
 :
@@ -952,7 +952,7 @@ disabled
 .
 stylesheet
 -
-enabled
+toggle
 {
 background
 -
@@ -978,7 +978,7 @@ system
 .
 stylesheet
 -
-enabled
+toggle
 {
 /
 *
@@ -1333,7 +1333,7 @@ auto
 .
 stylesheet
 -
-enabled
+toggle
 {
 padding
 :
