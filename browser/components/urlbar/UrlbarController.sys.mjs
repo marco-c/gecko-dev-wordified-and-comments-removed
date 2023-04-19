@@ -2394,11 +2394,6 @@ if
 (
 event
 .
-ctrlKey
-|
-|
-event
-.
 altKey
 )
 {
