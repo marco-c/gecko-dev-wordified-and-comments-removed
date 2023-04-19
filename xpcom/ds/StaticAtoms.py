@@ -20365,6 +20365,16 @@ svgContextPropertiesAllowed
 Atom
 (
 "
+theme
+"
+"
+theme
+"
+)
+    
+Atom
+(
+"
 decimal_leading_zero
 "
 "
