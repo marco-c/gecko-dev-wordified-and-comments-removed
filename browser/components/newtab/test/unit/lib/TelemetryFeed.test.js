@@ -9041,7 +9041,7 @@ event
 with
 the
 correct
-session_id
+visit_id
 when
 visibility
 event
@@ -9162,7 +9162,7 @@ args
 0
 ]
 {
-newtab_session_id
+newtab_visit_id
 :
 session_id
 source
@@ -13819,7 +13819,7 @@ impression
 .
 record
 {
-newtab_session_id
+newtab_visit_id
 :
 session_id
 is_sponsored
@@ -13971,7 +13971,7 @@ click
 .
 record
 {
-newtab_session_id
+newtab_visit_id
 :
 session_id
 is_sponsored

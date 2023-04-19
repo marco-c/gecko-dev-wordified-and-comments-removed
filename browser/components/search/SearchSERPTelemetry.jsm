@@ -2899,7 +2899,7 @@ click
 record
 (
 {
-newtab_session_id
+newtab_visit_id
 :
 item
 .
@@ -3185,7 +3185,7 @@ impression
 record
 (
 {
-newtab_session_id
+newtab_visit_id
 :
 item
 .
