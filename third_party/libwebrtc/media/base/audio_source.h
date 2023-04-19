@@ -69,6 +69,15 @@ OnClose
 =
 0
 ;
+virtual
+int
+NumPreferredChannels
+(
+)
+const
+=
+0
+;
 protected
 :
 virtual

@@ -2101,6 +2101,15 @@ number_of_frames
 absolute_capture_timestamp_ms
 )
 ;
+num_preferred_channels_
+=
+sink_
+-
+>
+NumPreferredChannels
+(
+)
+;
 }
 }
 void
