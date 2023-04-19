@@ -73,13 +73,13 @@ var
 AddressDataLoader
 FormAutofillUtils
 ;
-add_task
+add_setup
 (
 async
-function
-setup
 (
 )
+=
+>
 {
 (
 {
