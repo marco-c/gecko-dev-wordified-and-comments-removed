@@ -1024,6 +1024,13 @@ c
 "
 lz4
 /
+lz4file
+.
+c
+"
+"
+lz4
+/
 lz4frame
 .
 c
