@@ -35,7 +35,7 @@ version
 "
 102
 .
-15
+16
 .
 0
 "
@@ -736,6 +736,13 @@ shims
 facebook
 .
 svg
+"
+"
+shims
+/
+firebase
+.
+js
 "
 "
 shims
