@@ -325,7 +325,7 @@ assume
 rtc_source_set
 (
 "
-robo_caller
+callback_list
 "
 )
 {
@@ -333,12 +333,12 @@ sources
 =
 [
 "
-robo_caller
+callback_list
 .
 cc
 "
 "
-robo_caller
+callback_list
 .
 h
 "
@@ -5459,7 +5459,7 @@ mutex
 rtc_library
 (
 "
-robo_caller_unittests
+callback_list_unittests
 "
 )
 {
@@ -5470,7 +5470,7 @@ sources
 =
 [
 "
-robo_caller_unittest
+callback_list_unittest
 .
 cc
 "
@@ -5480,11 +5480,11 @@ deps
 [
 "
 :
-gunit_helpers
+callback_list
 "
 "
 :
-robo_caller
+gunit_helpers
 "
 "
 :
