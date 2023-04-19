@@ -1473,11 +1473,6 @@ nopFill_
 bool
 inhibitNops_
 ;
-public
-:
-int
-id
-;
 private
 :
 Slice
@@ -1611,11 +1606,6 @@ nopFill
 inhibitNops_
 (
 false
-)
-id
-(
--
-1
 )
 {
 }
@@ -1925,10 +1915,6 @@ JitSpew
 (
 JitSpew_Pools
 "
-[
-%
-d
-]
 Inserting
 pool
 entry
@@ -1936,7 +1922,6 @@ caused
 a
 spill
 "
-id
 )
 ;
 }
@@ -1946,10 +1931,6 @@ JitSpew
 (
 JitSpew_Pools
 "
-[
-%
-d
-]
 Inserting
 instruction
 (
@@ -1960,7 +1941,6 @@ caused
 a
 spill
 "
-id
 sizeExcludingCurrentPool
 (
 )
@@ -2075,10 +2055,6 @@ JitSpew
 (
 JitSpew_Pools
 "
-[
-%
-d
-]
 nextInstrOffset
 %
 d
@@ -2088,7 +2064,6 @@ constant
 pool
 spill
 "
-id
 this
 -
 >
@@ -2182,10 +2157,6 @@ JitSpew
 (
 JitSpew_Pools
 "
-[
-%
-d
-]
 Inserting
 %
 d
@@ -2193,7 +2164,6 @@ entries
 into
 pool
 "
-id
 numPoolEntries
 )
 ;
@@ -2201,16 +2171,11 @@ JitSpewStart
 (
 JitSpew_Pools
 "
-[
-%
-d
-]
 data
 is
 :
 0x
 "
-id
 )
 ;
 size_t
@@ -2337,10 +2302,6 @@ JitSpew
 (
 JitSpew_Pools
 "
-[
-%
-d
-]
 Entry
 has
 index
@@ -2350,7 +2311,6 @@ offset
 %
 zu
 "
-id
 index
 sizeExcludingCurrentPool
 (
@@ -2704,10 +2664,6 @@ JitSpew
 (
 JitSpew_Pools
 "
-[
-%
-d
-]
 Attempting
 to
 finish
@@ -2720,7 +2676,6 @@ u
 entries
 .
 "
-id
 poolInfo_
 .
 length
@@ -2757,10 +2712,6 @@ JitSpew
 (
 JitSpew_Pools
 "
-[
-%
-d
-]
 Aborting
 because
 the
@@ -2768,7 +2719,6 @@ pool
 is
 empty
 "
-id
 )
 ;
 return
@@ -3058,10 +3008,6 @@ JitSpew
 (
 JitSpew_Pools
 "
-[
-%
-d
-]
 Fixing
 entry
 %
@@ -3071,7 +3017,6 @@ to
 %
 zu
 "
-id
 idx
 codeOffset
 )
@@ -3159,16 +3104,11 @@ JitSpew
 (
 JitSpew_Pools
 "
-[
-%
-d
-]
 Requesting
 a
 pool
 flush
 "
-id
 )
 ;
 finishPool
@@ -3221,10 +3161,6 @@ JitSpew
 (
 JitSpew_Pools
 "
-[
-%
-d
-]
 No
 -
 Pool
@@ -3238,7 +3174,6 @@ a
 spill
 .
 "
-id
 sizeExcludingCurrentPool
 (
 )
@@ -3508,10 +3443,6 @@ JitSpew
 (
 JitSpew_Pools
 "
-[
-%
-d
-]
 Alignment
 of
 %
@@ -3524,7 +3455,6 @@ a
 spill
 .
 "
-id
 alignment
 sizeExcludingCurrentPool
 (
