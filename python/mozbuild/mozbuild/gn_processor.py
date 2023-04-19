@@ -4124,14 +4124,7 @@ output
 gen_args
 =
 [
-config
-.
-substs
-[
-"
-GN
-"
-]
+gn_binary
 "
 gen
 "
