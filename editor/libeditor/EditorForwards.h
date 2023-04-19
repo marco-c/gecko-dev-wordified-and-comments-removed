@@ -306,6 +306,9 @@ class
 WSScanResult
 ;
 struct
+EditorInlineStyle
+;
+struct
 PropItem
 ;
 struct
