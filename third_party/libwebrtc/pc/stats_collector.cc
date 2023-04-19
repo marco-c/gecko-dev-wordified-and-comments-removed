@@ -24,6 +24,11 @@ h
 #
 include
 <
+cmath
+>
+#
+include
+<
 memory
 >
 #
@@ -2391,9 +2396,12 @@ StatsReport
 :
 :
 kStatsValueNameFrameRateInput
+round
+(
 info
 .
 framerate_input
+)
 }
 {
 StatsReport

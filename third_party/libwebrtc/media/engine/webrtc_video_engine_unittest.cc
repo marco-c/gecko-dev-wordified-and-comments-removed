@@ -38309,6 +38309,8 @@ stats
 input_frame_rate
 =
 1
+.
+0
 ;
 stats
 .

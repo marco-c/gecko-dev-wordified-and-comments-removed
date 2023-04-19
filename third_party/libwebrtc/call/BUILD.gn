@@ -2509,6 +2509,14 @@ rtc_base
 :
 rtc_base_approved
 "
+"
+.
+.
+/
+rtc_base
+:
+stringutils
+"
 ]
 absl_deps
 =

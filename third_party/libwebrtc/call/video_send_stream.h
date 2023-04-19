@@ -413,7 +413,7 @@ encoder_implementation_name
 unknown
 "
 ;
-int
+double
 input_frame_rate
 =
 0

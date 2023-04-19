@@ -2899,7 +2899,7 @@ frames
 ;
 RTCStatsMember
 <
-uint32_t
+double
 >
 frames_per_second
 ;
