@@ -2233,11 +2233,13 @@ set
 [
 [
 "
+browser
+.
 places
 .
 sponsoredSession
 .
-timeOutSec
+timeoutSecs
 "
 1
 ]
