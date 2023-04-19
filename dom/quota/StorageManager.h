@@ -78,6 +78,9 @@ namespace
 dom
 {
 class
+FileSystemManager
+;
+class
 Promise
 ;
 struct
@@ -194,6 +197,12 @@ private
 StorageManager
 (
 )
+;
+RefPtr
+<
+FileSystemManager
+>
+mFileSystemManager
 ;
 }
 ;

@@ -106,7 +106,7 @@ ipc
 :
 :
 IPCResult
-RecvGetRoot
+RecvCreateFileSystemManagerParent
 (
 mozilla
 :
@@ -121,7 +121,7 @@ POriginPrivateFileSystemParent
 &
 &
 aParentEp
-GetRootResolver
+CreateFileSystemManagerParentResolver
 &
 &
 aResolver
