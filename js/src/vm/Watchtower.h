@@ -124,7 +124,7 @@ obj
 )
 ;
 static
-bool
+void
 watchObjectSwapSlow
 (
 JSContext
@@ -531,7 +531,7 @@ obj
 ;
 }
 static
-bool
+void
 watchObjectSwap
 (
 JSContext
@@ -557,10 +557,8 @@ b
 )
 {
 return
-true
 ;
 }
-return
 watchObjectSwapSlow
 (
 cx
