@@ -22190,7 +22190,7 @@ True
             
 indent
 =
-4
+2
             
 separators
 =
@@ -22250,6 +22250,22 @@ Proposal
         
 println
 (
+"
+/
+*
+eslint
+-
+disable
+prettier
+/
+prettier
+*
+/
+"
+)
+        
+println
+(
             
 "
 var
@@ -22265,6 +22281,22 @@ format
 sanctioned_units_object
 )
         
+)
+        
+println
+(
+"
+/
+*
+eslint
+-
+enable
+prettier
+/
+prettier
+*
+/
+"
 )
     
 sanctioned_h_file
