@@ -210,7 +210,11 @@ ctx
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 stack
 (
 ctx

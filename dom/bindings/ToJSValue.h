@@ -2467,7 +2467,11 @@ aValue
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 recordObj
 (
 aCx

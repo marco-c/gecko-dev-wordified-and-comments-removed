@@ -7907,7 +7907,13 @@ nullptr
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 val
 (
 aCx
