@@ -1422,12 +1422,10 @@ IsRunning
 ;
 if
 (
+!
 reply
 .
 length
-=
-=
-0
 )
 {
 lazy

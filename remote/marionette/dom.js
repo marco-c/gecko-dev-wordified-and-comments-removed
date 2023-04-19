@@ -304,12 +304,10 @@ i
 ;
 if
 (
+!
 stack
 .
 length
-=
-=
-0
 )
 {
 this

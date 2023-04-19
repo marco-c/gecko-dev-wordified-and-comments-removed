@@ -815,8 +815,6 @@ if
 res
 .
 length
->
-0
 )
 {
 resolve
@@ -864,12 +862,10 @@ all
 foundEls
 |
 |
+!
 foundEls
 .
 length
-=
-=
-0
 )
 )
 {
@@ -3278,8 +3274,6 @@ el
 cells
 .
 length
->
-0
 )
 {
 return
@@ -3669,12 +3663,10 @@ getClientRects
 ;
 if
 (
+!
 rects
 .
 length
-=
-=
-0
 )
 {
 return

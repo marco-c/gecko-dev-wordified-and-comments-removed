@@ -474,12 +474,10 @@ values
 ;
 if
 (
+!
 updatedValues
 .
 length
-=
-=
-0
 )
 {
 return

@@ -544,12 +544,11 @@ destination
 )
 ;
 return
+!
+!
 classes
 .
 length
-!
-=
-0
 ;
 }
 toString

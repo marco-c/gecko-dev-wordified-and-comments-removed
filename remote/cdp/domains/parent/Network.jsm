@@ -580,12 +580,10 @@ domain
 ;
 if
 (
+!
 hostname
 .
 length
-=
-=
-0
 )
 {
 const
@@ -1210,12 +1208,10 @@ SCHEME_UNSET
 ;
 if
 (
+!
 hostname
 .
 length
-=
-=
-0
 )
 {
 try

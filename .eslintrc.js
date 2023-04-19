@@ -3787,12 +3787,6 @@ netwerk
 *
 "
 "
-remote
-/
-*
-*
-"
-"
 storage
 /
 test
