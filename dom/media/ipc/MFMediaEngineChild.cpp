@@ -1383,7 +1383,7 @@ aPlaybackRate
 engine
 -
 >
-SendSetVolume
+SendSetPlaybackRate
 (
 aPlaybackRate
 )
