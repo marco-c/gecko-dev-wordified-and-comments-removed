@@ -3554,7 +3554,7 @@ RuntimeSetting
 setting
 )
 {
-size_t
+int
 remaining_attempts
 =
 10
@@ -3591,6 +3591,7 @@ Remove
 setting_to_discard
 )
 )
+{
 RTC_LOG
 (
 LS_ERROR
@@ -3612,6 +3613,7 @@ discarded
 "
 ;
 }
+}
 if
 (
 remaining_attempts
@@ -3619,6 +3621,19 @@ remaining_attempts
 =
 0
 )
+{
+RTC_HISTOGRAM_BOOLEAN
+(
+"
+WebRTC
+.
+Audio
+.
+ApmRuntimeSettingCannotEnqueue
+"
+1
+)
+;
 RTC_LOG
 (
 LS_ERROR
@@ -3635,6 +3650,7 @@ setting
 .
 "
 ;
+}
 }
 int
 AudioProcessingImpl
