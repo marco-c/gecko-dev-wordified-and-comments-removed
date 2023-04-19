@@ -90,7 +90,6 @@ Marking
 Generic
 Tenuring
 Moving
-GrayBuffering
 ClearEdges
 Sweeping
 MinorSweeping
@@ -509,12 +508,6 @@ return
 context_
 ;
 }
-uint32_t
-gcNumberForMarking
-(
-)
-const
-;
 protected
 :
 JSTracer
