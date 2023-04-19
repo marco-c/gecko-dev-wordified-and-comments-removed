@@ -7865,7 +7865,7 @@ ThemeChangeKind
 aKind
 )
 {
-PROFILER_MARKER_TEXT
+PROFILER_MARKER_UNTYPED
 (
 "
 ThemeChanged
@@ -7877,9 +7877,6 @@ MarkerStack
 Capture
 (
 )
-"
-"
-_ns
 )
 ;
 mPendingThemeChangeKind
