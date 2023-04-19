@@ -1861,12 +1861,7 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
-info
-.
-mPrincipal
-info
-.
-mOriginAttributes
+principal
 )
 ;
 net
