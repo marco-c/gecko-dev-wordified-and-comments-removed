@@ -2649,7 +2649,7 @@ audio_processing
 /
 agc2
 /
-rnn_vad_with_level_gn
+vad_wrapper_gn
 "
 "
 /
