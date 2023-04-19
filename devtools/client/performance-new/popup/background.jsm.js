@@ -524,9 +524,6 @@ screenshots
 js
 "
 "
-leaf
-"
-"
 stackwalk
 "
 "
@@ -639,9 +636,6 @@ interval
 features
 :
 [
-"
-leaf
-"
 "
 stackwalk
 "
@@ -768,9 +762,6 @@ features
 [
 "
 js
-"
-"
-leaf
 "
 "
 stackwalk
@@ -941,9 +932,6 @@ screenshots
 js
 "
 "
-leaf
-"
-"
 stackwalk
 "
 "
@@ -1076,9 +1064,6 @@ screenshots
 "
 "
 js
-"
-"
-leaf
 "
 "
 stackwalk

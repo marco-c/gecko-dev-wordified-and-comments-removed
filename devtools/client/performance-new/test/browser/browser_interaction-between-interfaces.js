@@ -1542,9 +1542,6 @@ GeckoMain
 Dummy
 JavaScript
 Native
-Leaf
-Stack
-Native
 Stacks
 CPU
 Utilization

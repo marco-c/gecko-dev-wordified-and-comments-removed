@@ -131,7 +131,7 @@ features
 :
 [
 "
-leaf
+js
 "
 "
 nativeallocations
@@ -384,7 +384,7 @@ features
 :
 [
 "
-leaf
+js
 "
 ]
 }
