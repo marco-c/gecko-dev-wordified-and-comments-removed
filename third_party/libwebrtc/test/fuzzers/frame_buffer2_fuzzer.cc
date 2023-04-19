@@ -396,10 +396,8 @@ int64_t
 frame
 -
 >
-id
-.
-spatial_layer
-=
+SetSpatialIndex
+(
 reader
 .
 GetNum
@@ -410,6 +408,7 @@ uint8_t
 )
 %
 5
+)
 ;
 frame
 -

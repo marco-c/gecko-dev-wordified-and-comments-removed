@@ -53,6 +53,14 @@ frame_id
 frame
 -
 >
+SetSpatialIndex
+(
+0
+)
+;
+frame
+-
+>
 id
 .
 picture_id
