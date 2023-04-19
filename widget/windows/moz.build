@@ -227,6 +227,11 @@ WindowsConsole
 h
 "
 "
+WindowsEventLog
+.
+h
+"
+"
 WinHeaderOnlyUtils
 .
 h
