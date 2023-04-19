@@ -1207,7 +1207,7 @@ name
 -
 si
 =
-Singhalese
+Sinhala
 language
 -
 name
