@@ -459,7 +459,7 @@ Canceled
 ;
 if
 (
-HasLoadContext
+HasScriptLoadContext
 (
 )
 )
@@ -761,7 +761,7 @@ aMaybeSource
 {
 if
 (
-HasLoadContext
+HasScriptLoadContext
 (
 )
 &

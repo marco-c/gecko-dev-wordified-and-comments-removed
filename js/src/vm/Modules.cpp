@@ -1453,6 +1453,15 @@ environment
 (
 )
 ;
+if
+(
+!
+env
+)
+{
+return
+;
+}
 const
 JSClass
 *
