@@ -123,7 +123,7 @@ version
 .
 0
 .
-10
+11
 "
 authors
 =
@@ -184,6 +184,13 @@ README
 .
 md
 "
+keywords
+=
+[
+"
+float
+"
+]
 categories
 =
 [
@@ -191,6 +198,11 @@ categories
 value
 -
 formatting
+"
+"
+no
+-
+std
 "
 ]
 license
