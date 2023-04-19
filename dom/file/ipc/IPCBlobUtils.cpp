@@ -734,11 +734,7 @@ stream
 )
 {
 return
-rv
-.
-StealNSResult
-(
-)
+NS_ERROR_FAILURE
 ;
 }
 aIPCBlob
