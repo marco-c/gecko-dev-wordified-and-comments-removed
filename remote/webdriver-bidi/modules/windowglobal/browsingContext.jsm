@@ -315,8 +315,6 @@ category
 =
 =
 "
-internal
--
 event
 "
 )

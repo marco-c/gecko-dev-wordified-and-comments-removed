@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-internaleventemitter
+eventemitter
 "
 ]
 ;
@@ -41,7 +41,7 @@ jsm
 )
 ;
 class
-InternalEventEmitterModule
+EventEmitterModule
 extends
 Module
 {
@@ -86,7 +86,6 @@ isSubscribed
 const
 text
 =
-internal
 event
 from
 {
@@ -102,7 +101,7 @@ this
 emitEvent
 (
 "
-internaleventemitter
+eventemitter
 .
 testEvent
 "
@@ -117,7 +116,7 @@ this
 emitEvent
 (
 "
-internaleventemitter
+eventemitter
 .
 monitoringEvent
 "
@@ -164,8 +163,6 @@ category
 =
 =
 "
-internal
--
 event
 "
 )
@@ -219,7 +216,7 @@ event
 =
 =
 "
-internaleventemitter
+eventemitter
 .
 testEvent
 "
@@ -241,7 +238,7 @@ Error
 Already
 subscribed
 to
-internaleventemitter
+eventemitter
 .
 testEvent
 "
@@ -270,7 +267,7 @@ event
 =
 =
 "
-internaleventemitter
+eventemitter
 .
 testEvent
 "
@@ -293,7 +290,7 @@ Error
 Not
 subscribed
 to
-internaleventemitter
+eventemitter
 .
 testEvent
 "
@@ -311,7 +308,7 @@ false
 }
 }
 const
-internaleventemitter
+eventemitter
 =
-InternalEventEmitterModule
+EventEmitterModule
 ;

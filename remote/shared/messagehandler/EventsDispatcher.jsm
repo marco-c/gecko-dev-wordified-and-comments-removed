@@ -372,8 +372,6 @@ moduleName
 category
 :
 "
-internal
--
 event
 "
 contextDescriptor

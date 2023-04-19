@@ -115,7 +115,6 @@ info
 (
 "
 Watch
-internal
 events
 emitted
 when
