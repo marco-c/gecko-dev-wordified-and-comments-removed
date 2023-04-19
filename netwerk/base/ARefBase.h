@@ -7,7 +7,7 @@ mozilla_net_ARefBase_h
 #
 include
 "
-nscore
+nsISupportsImpl
 .
 h
 "
