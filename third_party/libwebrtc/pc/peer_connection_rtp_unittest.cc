@@ -648,7 +648,7 @@ sdp_semantics
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 ;
 return
 CreatePeerConnectionInternal
@@ -876,7 +876,7 @@ PeerConnectionRtpBaseTest
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 }
@@ -1169,7 +1169,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 ASSERT_EQ
@@ -4115,7 +4115,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 ASSERT_EQ
@@ -14115,7 +14115,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 EXPECT_FALSE
@@ -14424,7 +14424,7 @@ Values
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 SdpSemantics
 :
 :
