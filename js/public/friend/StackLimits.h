@@ -303,9 +303,9 @@ MOZ_ALWAYS_INLINE
 bool
 check
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 uintptr_t
 limit
 )
@@ -703,9 +703,9 @@ AutoCheckRecursionLimit
 :
 check
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 uintptr_t
 limit
 )
@@ -725,7 +725,7 @@ limit
 {
 ReportOverRecursed
 (
-cx
+ec
 )
 ;
 return

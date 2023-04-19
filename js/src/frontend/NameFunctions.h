@@ -16,6 +16,9 @@ h
 namespace
 js
 {
+class
+ErrorContext
+;
 namespace
 frontend
 {
@@ -36,6 +39,9 @@ NameFunctions
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 ParserAtomsTable

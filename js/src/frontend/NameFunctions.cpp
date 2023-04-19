@@ -2207,6 +2207,9 @@ NameResolver
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 ParserAtomsTable
@@ -2217,6 +2220,7 @@ parserAtoms
 ParseNodeVisitor
 (
 cx
+ec
 stackLimit
 )
 parserAtoms_
@@ -2360,6 +2364,9 @@ NameFunctions
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 ParserAtomsTable
@@ -2374,6 +2381,7 @@ NameResolver
 nr
 (
 cx
+ec
 stackLimit
 parserAtoms
 )

@@ -173,6 +173,10 @@ JSContext
 *
 cx
 ;
+ErrorContext
+*
+ec
+;
 uintptr_t
 stackLimit
 ;
@@ -367,7 +371,7 @@ check
 (
 info
 .
-cx
+ec
 info
 .
 stackLimit
@@ -7007,6 +7011,7 @@ return
 FoldInfo
 {
 cx_
+ec_
 stackLimit_
 parserAtoms
 handler
@@ -7020,6 +7025,9 @@ FoldVisitor
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 ParserAtomsTable
@@ -7033,6 +7041,7 @@ handler
 RewritingParseNodeVisitor
 (
 cx
+ec
 stackLimit
 )
 parserAtoms
@@ -8498,6 +8507,9 @@ Fold
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 ParserAtomsTable
@@ -8516,6 +8528,7 @@ FoldVisitor
 visitor
 (
 cx
+ec
 stackLimit
 parserAtoms
 handler
@@ -8551,6 +8564,9 @@ info
 cx
 info
 .
+ec
+info
+.
 stackLimit
 info
 .
@@ -8571,6 +8587,9 @@ FoldConstants
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 ParserAtomsTable
@@ -8589,6 +8608,7 @@ return
 Fold
 (
 cx
+ec
 stackLimit
 parserAtoms
 handler
