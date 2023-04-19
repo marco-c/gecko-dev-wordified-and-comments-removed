@@ -3082,7 +3082,7 @@ open
 (
 CLANG_UPDATE_SCRIPT_LOCAL_PATH
 '
-rb
+r
 '
 )
 as
@@ -3095,15 +3095,6 @@ f
 .
 readlines
 (
-)
-.
-decode
-(
-'
-utf
--
-8
-'
 )
   
 current_rev
