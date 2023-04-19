@@ -269,7 +269,7 @@ NodeBuilder
 )
 override
 ;
-EmulatedEndpoint
+EmulatedEndpointImpl
 *
 CreateEndpoint
 (

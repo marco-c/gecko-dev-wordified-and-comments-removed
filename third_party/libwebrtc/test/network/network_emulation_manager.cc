@@ -424,7 +424,7 @@ this
 )
 ;
 }
-EmulatedEndpoint
+EmulatedEndpointImpl
 *
 NetworkEmulationManagerImpl
 :
@@ -609,7 +609,7 @@ task_queue_
 clock_
 )
 ;
-EmulatedEndpoint
+EmulatedEndpointImpl
 *
 out
 =
@@ -1450,7 +1450,7 @@ empty
 )
 )
 ;
-EmulatedEndpoint
+EmulatedEndpointImpl
 *
 endpoint
 =
