@@ -2337,16 +2337,6 @@ stringutils
 /
 rtc_base
 /
-memory
-:
-always_valid_pointer
-"
-"
-.
-.
-/
-rtc_base
-/
 third_party
 /
 base64
