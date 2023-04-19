@@ -367,13 +367,7 @@ Unregister
 ;
 }
 return
-std
-:
-:
-move
-(
 oldObject
-)
 ;
 }
 T
