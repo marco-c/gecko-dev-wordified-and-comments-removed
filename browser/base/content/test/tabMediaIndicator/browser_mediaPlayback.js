@@ -37,13 +37,13 @@ waitForEvent
 browser
 event
 false
-event
+e
 =
 >
 {
 is
 (
-event
+e
 .
 originalTarget
 browser
@@ -62,7 +62,7 @@ browser
 ok
 (
 !
-event
+e
 .
 cancelable
 "
