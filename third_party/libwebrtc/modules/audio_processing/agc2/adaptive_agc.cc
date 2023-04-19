@@ -178,7 +178,7 @@ kMaxGainChangePerSecondDb
 =
 3
 .
-f
+0f
 ;
 constexpr
 float
@@ -187,7 +187,7 @@ kMaxOutputNoiseLevelDbfs
 -
 50
 .
-f
+0f
 ;
 AvailableCpuFeatures
 GetAllowedCpuFeatures
@@ -350,6 +350,11 @@ config
 .
 adaptive_digital
 .
+vad_reset_period_ms
+config
+.
+adaptive_digital
+.
 vad_probability_attack
 GetAllowedCpuFeatures
 (
@@ -507,7 +512,7 @@ limiter_envelope
 -
 90
 .
-f
+0f
 ;
 info
 .
