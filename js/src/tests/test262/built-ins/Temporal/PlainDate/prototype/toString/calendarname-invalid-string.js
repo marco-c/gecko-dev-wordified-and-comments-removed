@@ -25,6 +25,11 @@ sometimes
 other
 string
 "
+"
+auto
+\
+0
+"
 ]
 ;
 for

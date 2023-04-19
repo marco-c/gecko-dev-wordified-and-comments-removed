@@ -11,6 +11,8 @@ Temporal
 .
 PlainMonthDay
 (
+1
+2
 )
 )
 ;

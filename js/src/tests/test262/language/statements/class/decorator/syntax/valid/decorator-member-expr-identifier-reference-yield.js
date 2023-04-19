@@ -1,0 +1,17 @@
+function
+yield
+(
+)
+{
+}
+yield
+class
+C
+{
+}
+reportCompare
+(
+0
+0
+)
+;

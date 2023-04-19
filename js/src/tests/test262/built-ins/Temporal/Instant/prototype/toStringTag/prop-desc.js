@@ -1,12 +1,7 @@
-const
-{
-Instant
-}
-=
-Temporal
-;
 verifyProperty
 (
+Temporal
+.
 Instant
 .
 prototype

@@ -34,7 +34,7 @@ sameValue
 resultHours
 .
 epochNanoseconds
-1_000_088_444_404_442_799n
+1_000_088_444_404_442_800n
 "
 negative
 fractional
@@ -64,7 +64,7 @@ sameValue
 resultMinutes
 .
 epochNanoseconds
-1_000_086_434_073_407_379n
+1_000_086_434_073_407_380n
 "
 negative
 fractional

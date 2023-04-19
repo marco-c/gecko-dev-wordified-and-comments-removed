@@ -485,6 +485,11 @@ string
 }
 }
 }
+const
+testExtendedCharacterClass
+=
+testPropertyOfStrings
+;
 function
 matchValidator
 (

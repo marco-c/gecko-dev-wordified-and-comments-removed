@@ -9,6 +9,17 @@ prototype
 .
 getPlainDateTimeFor
 ;
+assert
+.
+sameValue
+(
+typeof
+getPlainDateTimeFor
+"
+function
+"
+)
+;
 const
 args
 =
