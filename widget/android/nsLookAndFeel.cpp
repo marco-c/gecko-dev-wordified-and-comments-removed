@@ -530,7 +530,7 @@ Color
 ColorID
 :
 :
-MozAccentColor
+Accentcolor
 aColorScheme
 UseStandins
 :
@@ -882,7 +882,7 @@ case
 ColorID
 :
 :
-MozAccentColor
+Accentcolor
 :
 aColor
 =
@@ -921,7 +921,7 @@ case
 ColorID
 :
 :
-MozAccentColorForeground
+Accentcolortext
 :
 aColor
 =

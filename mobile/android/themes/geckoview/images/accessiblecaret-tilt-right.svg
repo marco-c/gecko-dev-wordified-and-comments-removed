@@ -144,12 +144,7 @@ translate
 fill
 =
 "
--
-moz
--
-accent
--
-color
+AccentColor
 "
 opacity
 =
