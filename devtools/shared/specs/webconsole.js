@@ -809,6 +809,14 @@ oneway
 :
 true
 }
+clearMessagesCacheAsync
+:
+{
+request
+:
+{
+}
+}
 getPreferences
 :
 {

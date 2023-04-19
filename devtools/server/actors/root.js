@@ -337,6 +337,9 @@ this
 traits
 =
 {
+hasWebConsoleClearMessagesCacheAsync
+:
+true
 networkMonitor
 :
 true

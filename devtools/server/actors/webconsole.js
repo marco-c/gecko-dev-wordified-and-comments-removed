@@ -4944,7 +4944,7 @@ true
 }
 ;
 }
-clearMessagesCache
+clearMessagesCacheAsync
 :
 function
 (

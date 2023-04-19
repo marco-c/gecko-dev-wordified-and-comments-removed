@@ -740,9 +740,6 @@ enableActorReleaser
 (
 webConsoleUI
 )
-enableBatching
-(
-)
 enableMessagesCacheClearing
 (
 webConsoleUI
@@ -750,6 +747,9 @@ webConsoleUI
 ensureCSSErrorReportingEnabled
 (
 webConsoleUI
+)
+enableBatching
+(
 )
 )
 )
