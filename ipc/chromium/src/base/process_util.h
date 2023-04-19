@@ -701,6 +701,16 @@ int
 exit_code
 )
 ;
+bool
+DidProcessCrash
+(
+bool
+*
+child_exited
+ProcessHandle
+handle
+)
+;
 }
 namespace
 mozilla
