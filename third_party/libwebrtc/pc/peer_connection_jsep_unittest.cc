@@ -829,6 +829,10 @@ result
 value
 (
 )
+.
+get
+(
+)
 )
 ;
 return
@@ -9711,6 +9715,10 @@ caller
 CreateAudioTrack
 (
 kTrackId
+)
+.
+get
+(
 )
 )
 ;

@@ -852,6 +852,10 @@ result
 value
 (
 )
+.
+get
+(
+)
 )
 ;
 auto

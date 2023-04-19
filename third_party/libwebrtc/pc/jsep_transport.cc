@@ -1129,6 +1129,10 @@ error
 VerifyCertificateFingerprint
 (
 local_certificate_
+.
+get
+(
+)
 local_fp
 )
 ;

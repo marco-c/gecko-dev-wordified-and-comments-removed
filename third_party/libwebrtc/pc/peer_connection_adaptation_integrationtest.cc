@@ -397,6 +397,10 @@ CreateVideoTrack
 PeriodicTrack
 "
 periodic_track_source
+.
+get
+(
+)
 )
 ;
 track_with_source

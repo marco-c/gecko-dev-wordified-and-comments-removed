@@ -1099,6 +1099,10 @@ sender
 SetTrack
 (
 track
+.
+get
+(
+)
 )
 ;
 transceiver
@@ -1528,6 +1532,10 @@ sender
 SetTrack
 (
 track
+.
+get
+(
+)
 )
 ;
 RTC_DCHECK
@@ -2699,6 +2707,10 @@ internal
 RemoveSender
 (
 sender
+.
+get
+(
+)
 )
 ;
 }
@@ -2971,6 +2983,10 @@ internal
 RemoveSender
 (
 sender
+.
+get
+(
+)
 )
 ;
 }
@@ -3406,6 +3422,10 @@ internal
 RemoveReceiver
 (
 receiver
+.
+get
+(
+)
 )
 ;
 }
@@ -3424,6 +3444,10 @@ internal
 RemoveReceiver
 (
 receiver
+.
+get
+(
+)
 )
 ;
 }
@@ -3682,6 +3706,10 @@ stream
 RemoveTrack
 (
 audio_track
+.
+get
+(
+)
 )
 ;
 }
@@ -3735,6 +3763,10 @@ stream
 RemoveTrack
 (
 video_track
+.
+get
+(
+)
 )
 ;
 }

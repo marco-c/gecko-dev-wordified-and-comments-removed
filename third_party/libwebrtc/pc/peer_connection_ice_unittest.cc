@@ -1237,6 +1237,10 @@ result
 value
 (
 )
+.
+get
+(
+)
 )
 ;
 auto
@@ -5753,6 +5757,10 @@ pc
 CreateAnswer
 (
 answer_observer
+.
+get
+(
+)
 RTCOfferAnswerOptions
 (
 )
@@ -6038,6 +6046,10 @@ pc
 CreateAnswer
 (
 answer_observer
+.
+get
+(
+)
 RTCOfferAnswerOptions
 (
 )

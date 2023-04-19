@@ -358,6 +358,10 @@ rtp_sender
 track
 (
 )
+.
+get
+(
+)
 ;
 if
 (
@@ -506,6 +510,10 @@ rtp_receiver
 -
 >
 track
+(
+)
+.
+get
 (
 )
 ;
@@ -883,6 +891,10 @@ sender
 track
 (
 )
+.
+get
+(
+)
 ]
 =
 sender
@@ -909,6 +921,10 @@ receiver
 -
 >
 track
+(
+)
+.
+get
 (
 )
 ]

@@ -682,6 +682,10 @@ MockCreateSessionDescriptionObserver
 fn
 (
 observer
+.
+get
+(
+)
 )
 ;
 EXPECT_EQ_WAIT
@@ -983,6 +987,10 @@ MockSetSessionDescriptionObserver
 fn
 (
 observer
+.
+get
+(
+)
 )
 ;
 EXPECT_EQ_WAIT
@@ -1631,6 +1639,10 @@ FakeVideoTrackSource
 Create
 (
 )
+.
+get
+(
+)
 )
 ;
 }
@@ -2000,6 +2012,10 @@ pc
 GetStats
 (
 callback
+.
+get
+(
+)
 )
 ;
 EXPECT_TRUE_WAIT

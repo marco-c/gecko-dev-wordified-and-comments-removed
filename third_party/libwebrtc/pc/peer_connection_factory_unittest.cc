@@ -3407,6 +3407,10 @@ CreateVideoTrack
 testlabel
 "
 source
+.
+get
+(
+)
 )
 )
 ;
@@ -3426,6 +3430,10 @@ FakeVideoTrackRenderer
 local_renderer
 (
 track
+.
+get
+(
+)
 )
 ;
 EXPECT_EQ

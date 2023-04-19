@@ -10718,6 +10718,10 @@ track_media_info_map
 GetAttachmentIdByTrack
 (
 audio_track
+.
+get
+(
+)
 )
 .
 value
@@ -10907,6 +10911,10 @@ track_media_info_map
 GetAttachmentIdByTrack
 (
 audio_track
+.
+get
+(
+)
 )
 .
 value
@@ -11243,6 +11251,10 @@ track_media_info_map
 GetAttachmentIdByTrack
 (
 video_track
+.
+get
+(
+)
 )
 .
 value
@@ -11384,6 +11396,10 @@ track_media_info_map
 GetAttachmentIdByTrack
 (
 video_track
+.
+get
+(
+)
 )
 .
 value

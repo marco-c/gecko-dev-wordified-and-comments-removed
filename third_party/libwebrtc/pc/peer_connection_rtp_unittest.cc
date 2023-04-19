@@ -803,6 +803,10 @@ result
 value
 (
 )
+.
+get
+(
+)
 )
 ;
 return
@@ -7051,6 +7055,10 @@ pc
 SetRemoteDescription
 (
 observer
+.
+get
+(
+)
 offer
 .
 release
@@ -14109,6 +14117,10 @@ sender1
 SetTrack
 (
 track
+.
+get
+(
+)
 )
 )
 ;

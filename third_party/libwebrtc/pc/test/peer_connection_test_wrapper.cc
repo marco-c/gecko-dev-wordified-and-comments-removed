@@ -626,7 +626,7 @@ if
 fake_audio_capture_module_
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1136,6 +1136,10 @@ data_channel
 SignalOnDataChannel
 (
 data_channel
+.
+get
+(
+)
 )
 ;
 }
@@ -1483,6 +1487,10 @@ peer_connection_
 SetLocalDescription
 (
 observer
+.
+get
+(
+)
 webrtc
 :
 :
@@ -1569,6 +1577,10 @@ peer_connection_
 SetRemoteDescription
 (
 observer
+.
+get
+(
+)
 webrtc
 :
 :
@@ -2122,6 +2134,10 @@ CreateAudioTrack
 (
 kAudioTrackLabelBase
 source
+.
+get
+(
+)
 )
 )
 ;
@@ -2131,6 +2147,10 @@ stream
 AddTrack
 (
 audio_track
+.
+get
+(
+)
 )
 ;
 }
@@ -2212,6 +2232,10 @@ CreateVideoTrack
 (
 videotrack_label
 source
+.
+get
+(
+)
 )
 )
 ;
@@ -2221,6 +2245,10 @@ stream
 AddTrack
 (
 video_track
+.
+get
+(
+)
 )
 ;
 }
