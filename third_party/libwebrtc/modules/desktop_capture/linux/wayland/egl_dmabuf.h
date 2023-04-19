@@ -185,11 +185,6 @@ egl_initialized_
 =
 false
 ;
-bool
-has_image_dma_buf_import_ext_
-=
-false
-;
 int32_t
 drm_fd_
 =
