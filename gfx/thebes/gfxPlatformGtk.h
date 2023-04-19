@@ -206,6 +206,11 @@ aPref
 )
 override
 ;
+uint32_t
+MaxGenericSubstitions
+(
+)
+;
 bool
 SupportsPluginDirectBitmapDrawing
 (
@@ -317,6 +322,9 @@ ContentDeviceData
 aOut
 )
 override
+;
+int8_t
+mMaxGenericSubstitutions
 ;
 private
 :
