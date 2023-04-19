@@ -116,6 +116,14 @@ payload_type
 )
 ;
 bool
+IsExternalDecoderRegistered
+(
+uint8_t
+payload_type
+)
+const
+;
+bool
 RegisterReceiveCodec
 (
 uint8_t
