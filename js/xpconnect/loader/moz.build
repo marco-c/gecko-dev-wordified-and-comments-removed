@@ -63,7 +63,7 @@ SOURCES
 =
 [
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 cpp
 "

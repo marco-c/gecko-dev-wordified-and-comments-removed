@@ -199,22 +199,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Module
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
@@ -222,7 +206,7 @@ h
 #
 include
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 h
 "
@@ -565,7 +549,7 @@ LazyLogModule
 gJSCLLog
 (
 "
-JSComponentLoader
+JSModuleLoader
 "
 )
 ;
@@ -1645,13 +1629,13 @@ NS_OK
 }
 NS_IMPL_ISUPPORTS
 (
-mozJSComponentLoader
+mozJSModuleLoader
 nsIMemoryReporter
 )
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
-mozJSComponentLoader
+mozJSModuleLoader
 (
 )
 :
@@ -1686,7 +1670,7 @@ MOZ_ASSERT
 !
 sSelf
 "
-mozJSComponentLoader
+mozJSModuleLoader
 should
 be
 a
@@ -1773,12 +1757,12 @@ __VA_ARGS__
 }
 class
 MOZ_STACK_CLASS
-ComponentLoaderInfo
+ModuleLoaderInfo
 {
 public
 :
 explicit
-ComponentLoaderInfo
+ModuleLoaderInfo
 (
 const
 nsACString
@@ -1798,7 +1782,7 @@ false
 {
 }
 explicit
-ComponentLoaderInfo
+ModuleLoaderInfo
 (
 nsIURI
 *
@@ -2130,7 +2114,7 @@ const
 char
 *
 format
-ComponentLoaderInfo
+ModuleLoaderInfo
 &
 info
 Args
@@ -2206,11 +2190,11 @@ ENSURE_DEPS
 #
 undef
 ENSURE_DEP
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 ~
-mozJSComponentLoader
+mozJSModuleLoader
 (
 )
 {
@@ -2231,7 +2215,7 @@ cleaning
 up
 "
 "
-mozJSComponentLoader
+mozJSModuleLoader
 "
 )
 ;
@@ -2252,15 +2236,15 @@ nullptr
 }
 StaticRefPtr
 <
-mozJSComponentLoader
+mozJSModuleLoader
 >
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 sSelf
 ;
 void
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 FindTargetObject
@@ -2348,7 +2332,7 @@ nullptr
 }
 }
 void
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 InitStatics
@@ -2364,7 +2348,7 @@ sSelf
 sSelf
 =
 new
-mozJSComponentLoader
+mozJSModuleLoader
 (
 )
 ;
@@ -2375,7 +2359,7 @@ sSelf
 ;
 }
 void
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Unload
@@ -2423,7 +2407,7 @@ nullptr
 }
 }
 void
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Shutdown
@@ -2529,7 +2513,7 @@ n
 ;
 }
 size_t
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 SizeOfIncludingThis
@@ -2818,7 +2802,7 @@ url
 ;
 }
 NS_IMETHODIMP
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 CollectReports
@@ -2853,7 +2837,7 @@ path
 "
 js
 -
-component
+module
 -
 loader
 /
@@ -2903,7 +2887,7 @@ NS_OK
 ;
 }
 void
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 CreateLoaderGlobal
@@ -3083,7 +3067,7 @@ global
 }
 JSObject
 *
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 GetSharedGlobal
@@ -3138,7 +3122,7 @@ aes
 (
 globalObj
 "
-component
+module
 loader
 report
 global
@@ -3161,7 +3145,7 @@ mLoaderGlobal
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 LoadSingleModuleScript
@@ -3176,7 +3160,7 @@ MutableHandleScript
 aScriptOut
 )
 {
-ComponentLoaderInfo
+ModuleLoaderInfo
 info
 (
 aURI
@@ -3251,7 +3235,7 @@ aScriptOut
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 GetSourceFile
@@ -3376,7 +3360,7 @@ aSourceFileOut
 ;
 }
 bool
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 LocationIsRealFile
@@ -3439,7 +3423,7 @@ testFile
 }
 JSObject
 *
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 PrepareObjectForLocation
@@ -3449,7 +3433,7 @@ JSContext
 aCx
 nsIFile
 *
-aComponentFile
+aModuleFile
 nsIURI
 *
 aURI
@@ -3532,7 +3516,7 @@ WrapNative
 (
 aCx
 thisObj
-aComponentFile
+aModuleFile
 NS_GET_IID
 (
 nsIFile
@@ -3652,7 +3636,7 @@ nsresult
 >
 ReadScript
 (
-ComponentLoaderInfo
+ModuleLoaderInfo
 &
 aInfo
 )
@@ -3800,17 +3784,17 @@ str
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 ObjectForLocation
 (
-ComponentLoaderInfo
+ModuleLoaderInfo
 &
 aInfo
 nsIFile
 *
-aComponentFile
+aModuleFile
 MutableHandleObject
 aObject
 MutableHandleScript
@@ -3896,7 +3880,7 @@ cx
 PrepareObjectForLocation
 (
 cx
-aComponentFile
+aModuleFile
 aInfo
 .
 URI
@@ -3940,7 +3924,7 @@ GetScriptForLocation
 (
 cx
 aInfo
-aComponentFile
+aModuleFile
 realFile
 &
 script
@@ -4016,7 +4000,7 @@ CurrentGlobalOrNull
 cx
 )
 "
-component
+module
 loader
 load
 module
@@ -4134,7 +4118,7 @@ rv
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 GetScriptForLocation
@@ -4142,12 +4126,12 @@ GetScriptForLocation
 JSContext
 *
 aCx
-ComponentLoaderInfo
+ModuleLoaderInfo
 &
 aInfo
 nsIFile
 *
-aComponentFile
+aModuleFile
 bool
 aUseMemMap
 MutableHandleScript
@@ -4522,7 +4506,7 @@ map
 .
 init
 (
-aComponentFile
+aModuleFile
 )
 )
 ;
@@ -4829,7 +4813,7 @@ NS_OK
 ;
 }
 void
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 UnloadModules
@@ -4909,7 +4893,7 @@ already_AddRefed
 <
 Stencil
 >
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 CompileStencil
@@ -4965,7 +4949,7 @@ aSource
 }
 JSScript
 *
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 InstantiateStencil
@@ -5045,7 +5029,7 @@ aStencil
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 ImportInto
@@ -5278,7 +5262,7 @@ rv
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 IsModuleLoaded
@@ -5306,7 +5290,7 @@ mInitialized
 =
 true
 ;
-ComponentLoaderInfo
+ModuleLoaderInfo
 info
 (
 aLocation
@@ -5362,7 +5346,7 @@ return
 NS_OK
 ;
 }
-ComponentLoaderInfo
+ModuleLoaderInfo
 mjsInfo
 (
 mjsLocation
@@ -5418,7 +5402,7 @@ NS_OK
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 IsJSModuleLoaded
@@ -5446,7 +5430,7 @@ mInitialized
 =
 true
 ;
-ComponentLoaderInfo
+ModuleLoaderInfo
 info
 (
 aLocation
@@ -5485,7 +5469,7 @@ NS_OK
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 IsESModuleLoaded
@@ -5513,7 +5497,7 @@ mInitialized
 =
 true
 ;
-ComponentLoaderInfo
+ModuleLoaderInfo
 info
 (
 aLocation
@@ -5568,7 +5552,7 @@ NS_OK
 ;
 }
 void
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 GetLoadedModules
@@ -5619,7 +5603,7 @@ location
 }
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 GetLoadedESModules
@@ -5643,7 +5627,7 @@ aLoadedModules
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 GetLoadedJSAndESModules
@@ -5722,7 +5706,7 @@ NS_OK
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 GetModuleImportStack
@@ -5754,7 +5738,7 @@ MOZ_ASSERT
 mInitialized
 )
 ;
-ComponentLoaderInfo
+ModuleLoaderInfo
 info
 (
 aLocation
@@ -5804,7 +5788,7 @@ NS_ERROR_NOT_IMPLEMENTED
 endif
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 ImportInto
@@ -5959,7 +5943,7 @@ NS_OK
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 ExtractExports
@@ -5967,7 +5951,7 @@ ExtractExports
 JSContext
 *
 aCx
-ComponentLoaderInfo
+ModuleLoaderInfo
 &
 aInfo
 ModuleEntry
@@ -6601,7 +6585,7 @@ NS_OK
 ;
 }
 bool
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 IsTrustedScheme
@@ -6635,7 +6619,7 @@ chrome
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Import
@@ -6689,7 +6673,7 @@ aCx
 aLocation
 )
 ;
-ComponentLoaderInfo
+ModuleLoaderInfo
 info
 (
 aLocation
@@ -7284,7 +7268,7 @@ NS_OK
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 TryFallbackToImportESModule
@@ -7482,7 +7466,7 @@ NS_OK
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 ImportESModule
@@ -7839,7 +7823,7 @@ NS_OK
 ;
 }
 nsresult
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Unload
@@ -7860,7 +7844,7 @@ return
 NS_OK
 ;
 }
-ComponentLoaderInfo
+ModuleLoaderInfo
 info
 (
 aLocation
@@ -7913,7 +7897,7 @@ NS_OK
 ;
 }
 size_t
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 ModuleEntry

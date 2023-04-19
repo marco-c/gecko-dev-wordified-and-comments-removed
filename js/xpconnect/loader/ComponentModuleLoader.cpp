@@ -26,7 +26,7 @@ h
 #
 include
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 h
 "
@@ -377,7 +377,7 @@ aRvOut
 )
 {
 return
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 IsTrustedScheme
@@ -462,7 +462,7 @@ cx
 nsresult
 rv
 =
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 LoadSingleModuleScript

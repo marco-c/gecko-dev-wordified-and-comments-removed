@@ -61,7 +61,7 @@ h
 #
 include
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 h
 "

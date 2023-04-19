@@ -347,7 +347,7 @@ h
 #
 include
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 h
 "
@@ -3746,11 +3746,11 @@ return
 rv
 ;
 }
-mozJSComponentLoader
+mozJSModuleLoader
 *
 loader
 =
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Get

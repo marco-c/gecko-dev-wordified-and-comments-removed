@@ -74,7 +74,7 @@ h
 #
 include
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 h
 "
@@ -354,12 +354,9 @@ PrivilegedJunkScope
 )
 ;
 RefPtr
-<
-mozJSComponentLoader
->
 loader
 =
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Get

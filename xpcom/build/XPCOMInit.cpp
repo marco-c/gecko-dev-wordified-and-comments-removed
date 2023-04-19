@@ -107,7 +107,7 @@ h
 #
 include
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 h
 "
@@ -2983,7 +2983,7 @@ gGREBinPath
 =
 nullptr
 ;
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Unload

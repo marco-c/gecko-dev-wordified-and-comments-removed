@@ -19,7 +19,7 @@ h
 #
 include
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 h
 "
@@ -922,7 +922,7 @@ targetObj
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Get
@@ -1624,11 +1624,11 @@ loadScope
 cx
 )
 ;
-mozJSComponentLoader
+mozJSModuleLoader
 *
 loader
 =
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Get

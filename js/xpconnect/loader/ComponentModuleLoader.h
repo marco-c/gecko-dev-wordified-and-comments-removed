@@ -27,7 +27,7 @@ ModuleLoaderBase
 h
 "
 class
-mozJSComponentLoader
+mozJSModuleLoader
 ;
 namespace
 mozilla

@@ -103,6 +103,13 @@ h
 #
 include
 "
+mozJSModuleLoader
+.
+h
+"
+#
+include
+"
 nsJSEnvironment
 .
 h
@@ -513,7 +520,7 @@ Runtime
 (
 )
 ;
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 InitStatics
@@ -771,7 +778,7 @@ cnt
 )
 ;
 }
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Shutdown

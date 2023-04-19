@@ -276,13 +276,6 @@ h
 #
 include
 "
-mozJSComponentLoader
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

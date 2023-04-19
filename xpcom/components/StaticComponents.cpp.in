@@ -78,7 +78,7 @@ h
 #
 include
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 h
 "
@@ -518,7 +518,7 @@ cx
 ;
 MOZ_TRY
 (
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Get
@@ -542,7 +542,7 @@ else
 {
 MOZ_TRY
 (
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Get
