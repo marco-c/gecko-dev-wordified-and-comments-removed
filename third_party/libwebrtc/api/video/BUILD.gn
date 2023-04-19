@@ -309,6 +309,16 @@ i420_buffer
 h
 "
 "
+i422_buffer
+.
+cc
+"
+"
+i422_buffer
+.
+h
+"
+"
 i444_buffer
 .
 cc

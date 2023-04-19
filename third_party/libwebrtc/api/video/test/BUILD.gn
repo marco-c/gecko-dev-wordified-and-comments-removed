@@ -117,6 +117,11 @@ color_space_unittest
 cc
 "
 "
+i422_buffer_unittest
+.
+cc
+"
+"
 i444_buffer_unittest
 .
 cc
