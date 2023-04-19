@@ -77,7 +77,7 @@ e
 in
 ci
 .
-error_definitions
+iter_error_definitions
 (
 )
 %
@@ -375,7 +375,7 @@ e
 in
 ci
 .
-error_definitions
+iter_error_definitions
 (
 )
 %
