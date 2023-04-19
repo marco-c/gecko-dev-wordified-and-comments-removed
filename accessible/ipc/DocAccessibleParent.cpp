@@ -3037,8 +3037,8 @@ newPosition
 )
 aNewStartOffset
 aNewEndOffset
-aBoundaryType
 aReason
+aBoundaryType
 )
 ;
 nsCoreUtils
