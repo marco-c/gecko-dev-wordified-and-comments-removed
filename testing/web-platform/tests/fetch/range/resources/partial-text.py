@@ -75,6 +75,26 @@ b
 )
 )
     
+content_type
+=
+request
+.
+GET
+.
+first
+(
+b
+'
+type
+'
+b
+'
+text
+/
+plain
+'
+)
+    
 range_header
 =
 request
@@ -119,12 +139,7 @@ Content
 -
 Type
 "
-b
-"
-text
-/
-plain
-"
+content_type
 )
         
 response
@@ -258,6 +273,22 @@ Satisfiable
         
 response
 .
+headers
+=
+[
+(
+b
+"
+Content
+-
+Type
+"
+content_type
+)
+]
+        
+response
+.
 write
 (
 )
@@ -286,12 +317,7 @@ Content
 -
 Type
 "
-b
-"
-text
-/
-plain
-"
+content_type
 )
     
 response
