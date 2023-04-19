@@ -34372,7 +34372,7 @@ MOZ_WIDGET_GTK
 &
 defined
 (
-_ARM64_
+MOZ_AARCH64
 )
 value
 :
