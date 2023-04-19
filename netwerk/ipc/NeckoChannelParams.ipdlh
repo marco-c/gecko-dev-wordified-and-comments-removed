@@ -557,9 +557,6 @@ isMetaRefresh
 CrossOriginEmbedderPolicy
 loadingEmbedderPolicy
 ;
-bool
-originTrialCoepCredentiallessEnabledForTopLevel
-;
 nsIURI
 unstrippedURI
 ;

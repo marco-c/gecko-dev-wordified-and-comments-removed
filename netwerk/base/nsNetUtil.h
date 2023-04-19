@@ -250,9 +250,6 @@ Encoding
 class
 OriginAttributes
 ;
-class
-OriginTrials
-;
 namespace
 dom
 {
@@ -3038,8 +3035,6 @@ const
 nsACString
 &
 aHeader
-bool
-aIsOriginTrialCoepCredentiallessEnabled
 )
 ;
 uint32_t
@@ -3630,13 +3625,6 @@ aLoadInfo
 nsIURI
 *
 aURI
-)
-;
-bool
-IsCoepCredentiallessEnabled
-(
-bool
-aIsOriginTrialCoepCredentiallessEnabled
 )
 ;
 #

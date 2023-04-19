@@ -14673,11 +14673,6 @@ resetMobileViewportManager
 (
 )
 ;
-bool
-isCoepCredentialless
-(
-)
-;
 /
 *
 *

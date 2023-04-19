@@ -800,9 +800,6 @@ noscript
 nsILoadInfo_CrossOriginEmbedderPolicy
 getResponseEmbedderPolicy
 (
-in
-boolean
-aIsOriginTrialCoepCredentiallessEnabled
 )
 ;
 [

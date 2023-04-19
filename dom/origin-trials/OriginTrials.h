@@ -118,7 +118,16 @@ OriginTrial
 aTrial
 )
 const
+{
+return
+mEnabledTrials
+.
+contains
+(
+aTrial
+)
 ;
+}
 static
 bool
 IsEnabled
