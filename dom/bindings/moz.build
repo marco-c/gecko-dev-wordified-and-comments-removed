@@ -218,6 +218,16 @@ RootedDictionary
 h
 "
 "
+RootedRecord
+.
+h
+"
+"
+RootedSequence
+.
+h
+"
+"
 SimpleGlobalObject
 .
 h

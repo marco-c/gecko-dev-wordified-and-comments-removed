@@ -9470,6 +9470,28 @@ BindingCallContext
 h
 "
 )
+                    
+if
+typeNeedsRooting
+(
+f
+)
+:
+                        
+headers
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+RootedSequence
+.
+h
+"
+)
                 
 f
 =
@@ -9875,6 +9897,28 @@ f
 .
 inner
 )
+                    
+if
+typeNeedsRooting
+(
+f
+)
+:
+                        
+headers
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+RootedRecord
+.
+h
+"
+)
             
 implheaders
 .
@@ -10143,6 +10187,28 @@ mozilla
 dom
 /
 BindingCallContext
+.
+h
+"
+)
+                    
+if
+typeNeedsRooting
+(
+f
+)
+:
+                        
+headers
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+RootedSequence
 .
 h
 "
@@ -10436,6 +10502,28 @@ addHeadersForType
 f
 .
 inner
+)
+                    
+if
+typeNeedsRooting
+(
+f
+)
+:
+                        
+headers
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+RootedRecord
+.
+h
+"
 )
             
 headers
@@ -32449,14 +32537,29 @@ name
     
 useFastCallback
 =
+(
+        
+(
 not
 isMember
+or
+isMember
+=
+=
+"
+Union
+"
+)
+        
 and
 not
 isCallbackReturnValue
+        
 and
 not
 isOptional
+    
+)
     
 if
 useFastCallback
@@ -34138,6 +34241,9 @@ Variadic
 "
 Sequence
 "
+"
+Union
+"
 or
 "
 OwningUnion
@@ -34147,8 +34253,8 @@ indicate
 that
 the
 conversion
-is
     
+is
 for
 something
 that
@@ -34162,11 +34268,39 @@ argument
 a
 sequence
     
+an
+union
 or
 an
 owning
 union
 respectively
+.
+    
+XXX
+Once
+we
+swtich
+*
+Rooter
+to
+Rooted
+*
+for
+Record
+and
+Sequence
+type
+entirely
+        
+we
+could
+remove
+"
+Union
+"
+from
+isMember
 .
     
 If
@@ -35163,6 +35297,13 @@ sourceDescription
 if
 not
 isMember
+or
+isMember
+=
+=
+"
+Union
+"
 :
             
 if
@@ -35622,13 +35763,29 @@ type
 inner
         
 if
+(
+            
+(
 isMember
+and
+isMember
+!
+=
+"
+Union
+"
+)
+            
 or
 isOptional
+            
 or
 nullable
+            
 or
 isCallbackReturnValue
+        
+)
 :
             
 sequenceClass
@@ -35758,6 +35915,41 @@ define
 )
         
 if
+isMember
+=
+=
+"
+Union
+"
+and
+typeNeedsRooting
+(
+type
+)
+:
+            
+assert
+not
+nullable
+            
+typeName
+=
+CGTemplatedType
+(
+                
+"
+binding_detail
+:
+:
+RootedAutoSequence
+"
+elementInfo
+.
+declType
+            
+)
+        
+elif
 nullable
 :
             
@@ -35770,6 +35962,10 @@ Nullable
 "
 typeName
 )
+        
+if
+nullable
+:
             
 arrayRef
 =
@@ -36280,16 +36476,30 @@ templateBody
 codeToSetEmpty
 )
         
+declArgs
+=
+None
+        
+holderType
+=
+None
+        
+holderArgs
+=
+None
+        
 if
-not
-isMember
-and
 typeNeedsRooting
 (
 elementType
 )
 :
             
+if
+not
+isMember
+:
+                
 holderType
 =
 CGTemplatedType
@@ -36301,7 +36511,7 @@ elementInfo
 .
 declType
 )
-            
+                
 holderArgs
 =
 "
@@ -36312,17 +36522,21 @@ s
 "
 %
 arrayRef
-        
-else
+            
+elif
+isMember
+=
+=
+"
+Union
+"
 :
-            
-holderType
+                
+declArgs
 =
-None
-            
-holderArgs
-=
-None
+"
+cx
+"
         
 return
 JSToNativeConversionInfo
@@ -36333,6 +36547,10 @@ templateBody
 declType
 =
 typeName
+            
+declArgs
+=
+declArgs
             
 holderType
 =
@@ -36564,6 +36782,44 @@ define
 )
         
 if
+isMember
+=
+=
+"
+Union
+"
+and
+typeNeedsRooting
+(
+type
+)
+:
+            
+assert
+not
+nullable
+            
+declType
+=
+CGTemplatedType
+(
+                
+"
+RootedRecord
+"
+[
+recordKeyDeclType
+(
+recordType
+)
+valueInfo
+.
+declType
+]
+            
+)
+        
+elif
 nullable
 :
             
@@ -36576,6 +36832,10 @@ Nullable
 "
 declType
 )
+        
+if
+nullable
+:
             
 recordRef
 =
@@ -37568,20 +37828,22 @@ aRetVal
 "
         
 elif
-not
-isMember
-and
 typeNeedsRooting
 (
 valueType
 )
 :
             
+if
+not
+isMember
+:
+                
 holderType
 =
 CGTemplatedType
 (
-                
+                    
 "
 RecordRooter
 "
@@ -37594,9 +37856,9 @@ valueInfo
 .
 declType
 ]
-            
+                
 )
-            
+                
 holderArgs
 =
 "
@@ -37607,6 +37869,21 @@ s
 "
 %
 recordRef
+            
+elif
+isMember
+=
+=
+"
+Union
+"
+:
+                
+declArgs
+=
+"
+cx
+"
         
 return
 JSToNativeConversionInfo
@@ -37664,7 +37941,16 @@ inner
         
 isOwningUnion
 =
+(
 isMember
+and
+isMember
+!
+=
+"
+Union
+"
+)
 or
 isCallbackReturnValue
         
@@ -38181,6 +38467,32 @@ else
 "
 )
                 
+if
+not
+isOwningUnion
+and
+typeNeedsRooting
+(
+defaultValue
+.
+type
+)
+:
+                    
+ctorArgs
+=
+"
+cx
+"
+                
+else
+:
+                    
+ctorArgs
+=
+"
+"
+                
 default
 =
 CGGeneric
@@ -38193,6 +38505,8 @@ RawSetAs
 %
 s
 (
+%
+s
 )
 ;
 \
@@ -38202,6 +38516,7 @@ n
 (
 value
 name
+ctorArgs
 )
 )
             
@@ -39597,7 +39912,16 @@ isCallback
         
 forceOwningType
 =
+(
 isMember
+and
+isMember
+!
+=
+"
+Union
+"
+)
 or
 isCallbackReturnValue
         
@@ -40417,6 +40741,13 @@ failureCode
 if
 not
 isMember
+or
+isMember
+=
+=
+"
+Union
+"
 :
             
 if
@@ -41120,6 +41451,13 @@ defaultCode
         
 if
 isMember
+and
+isMember
+!
+=
+"
+Union
+"
 :
             
 if
@@ -42789,8 +43127,17 @@ inner
 )
         
 if
+(
 not
 isMember
+or
+isMember
+=
+=
+"
+Union
+"
+)
 and
 not
 isCallbackReturnValue
@@ -43130,8 +43477,17 @@ define
 )
         
 if
+(
 not
 isMember
+or
+isMember
+=
+=
+"
+Union
+"
+)
 and
 isCallbackReturnValue
 :
@@ -43155,8 +43511,17 @@ aRetVal
 "
         
 elif
+(
 not
 isMember
+or
+isMember
+=
+=
+"
+Union
+"
+)
 and
 typeNeedsRooting
 (
@@ -72716,7 +73081,7 @@ getUnionTypeTemplateVars
 unionType
 type
 descriptorProvider
-ownsMembers
+isMember
 =
 False
 )
@@ -72729,6 +73094,30 @@ type
 isUndefined
 (
 )
+    
+assert
+not
+isMember
+or
+isMember
+in
+(
+"
+Union
+"
+"
+OwningUnion
+"
+)
+    
+ownsMembers
+=
+isMember
+=
+=
+"
+OwningUnion
+"
     
 name
 =
@@ -72858,15 +73247,7 @@ isDictionary
         
 isMember
 =
-(
-"
-OwningUnion
-"
-if
-ownsMembers
-else
-None
-)
+isMember
         
 sourceDescription
 =
@@ -76065,15 +76446,26 @@ getUnionTypeTemplateVars
 self
 .
 type
+                
 t
+                
 self
 .
 descriptorProvider
-ownsMembers
+                
+isMember
 =
+"
+OwningUnion
+"
+if
 self
 .
 ownsMembers
+else
+"
+Union
+"
             
 )
             
@@ -78790,6 +79182,7 @@ vars
 =
 getUnionTypeTemplateVars
 (
+                
 self
 .
 type
@@ -78797,6 +79190,12 @@ t
 self
 .
 descriptorProvider
+isMember
+=
+"
+Union
+"
+            
 )
             
 if
