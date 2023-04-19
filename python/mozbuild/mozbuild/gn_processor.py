@@ -1032,7 +1032,6 @@ def
 filter_gn_config
 (
 gn_result
-config
 sandbox_vars
 input_vars
 gn_target
@@ -1392,9 +1391,8 @@ process_gn_config
 (
     
 gn_config
+topsrcdir
 srcdir
-config
-output
 non_unified_sources
 sandbox_vars
 mozilla_flags
@@ -1441,8 +1439,6 @@ mozpath
 relpath
 (
 srcdir
-config
-.
 topsrcdir
 )
     
@@ -2006,8 +2002,6 @@ mozpath
 .
 join
 (
-config
-.
 topsrcdir
 include
 [
@@ -2975,11 +2969,9 @@ def
 write_mozbuild
 (
     
-config
+topsrcdir
     
 srcdir
-    
-output
     
 non_unified_sources
     
@@ -3033,11 +3025,9 @@ process_gn_config
                 
 gn_config
                 
+topsrcdir
+                
 srcdir
-                
-config
-                
-output
                 
 non_unified_sources
                 
@@ -3134,8 +3124,6 @@ mozpath
 .
 join
 (
-config
-.
 topsrcdir
 relsrcdir
 )
@@ -3834,13 +3822,9 @@ def
 generate_gn_config
 (
     
-config
-    
 srcdir
     
 output
-    
-non_unified_sources
     
 gn_binary
     
@@ -4219,7 +4203,6 @@ filter_gn_config
 (
             
 gn_out
-config
 sandbox_variables
 input_variables
 gn_target
@@ -4587,10 +4570,6 @@ vars_set
 generate_gn_config
 (
                     
-obj
-.
-config
-                    
 mozpath
 .
 join
@@ -4614,10 +4593,6 @@ obj
 .
 target_dir
 )
-                    
-obj
-.
-non_unified_sources
                     
 gn_binary
                     
@@ -4766,6 +4741,8 @@ write_mozbuild
 obj
 .
 config
+.
+topsrcdir
                     
 mozpath
 .
@@ -4774,18 +4751,6 @@ join
 obj
 .
 srcdir
-obj
-.
-target_dir
-)
-                    
-mozpath
-.
-join
-(
-obj
-.
-objdir
 obj
 .
 target_dir
