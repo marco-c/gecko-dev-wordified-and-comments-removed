@@ -367,7 +367,10 @@ InputSize
 ;
 mScale
 =
-gfxSize
+gfx
+:
+:
+MatrixScalesDouble
 (
 double
 (
@@ -677,10 +680,10 @@ ScaleRoundOut
 (
 mScale
 .
-width
+xScale
 mScale
 .
-height
+yScale
 )
 ;
 }
@@ -1297,7 +1300,10 @@ gfx
 IntSize
 mInputSize
 ;
-gfxSize
+gfx
+:
+:
+MatrixScalesDouble
 mScale
 ;
 UniquePtr
