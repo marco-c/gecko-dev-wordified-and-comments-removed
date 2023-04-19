@@ -17371,6 +17371,7 @@ showSearchTerms
 &
 &
 resultDetails
+?
 .
 searchTerm
 ?
