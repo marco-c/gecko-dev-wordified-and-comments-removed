@@ -419,9 +419,8 @@ GetPrimaryFrame
 )
 {
 return
-Some
+Nothing
 (
-0
 )
 ;
 }
