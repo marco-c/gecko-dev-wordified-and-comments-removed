@@ -1956,13 +1956,6 @@ cookie
 cookieBehavior
 "
 "
-network
-.
-cookie
-.
-lifetimePolicy
-"
-"
 privacy
 .
 annotate_channels

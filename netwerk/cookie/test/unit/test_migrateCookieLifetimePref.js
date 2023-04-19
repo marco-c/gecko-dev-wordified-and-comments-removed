@@ -167,6 +167,11 @@ cookie
 .
 lifetimePolicy
 "
+Ci
+.
+nsICookieService
+.
+ACCEPT_NORMALLY
 )
 Ci
 .
