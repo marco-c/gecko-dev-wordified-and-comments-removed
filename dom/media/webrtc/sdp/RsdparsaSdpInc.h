@@ -1085,7 +1085,7 @@ uint32_t
 aMediaType
 uint32_t
 aDirection
-uint32_t
+uint16_t
 aPort
 uint32_t
 aProtocol
