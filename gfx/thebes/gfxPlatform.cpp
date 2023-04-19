@@ -5577,6 +5577,13 @@ FontHintingEnabled
 ;
 #
 endif
+gfxGradientCache
+:
+:
+Init
+(
+)
+;
 InitLayersIPC
 (
 )
