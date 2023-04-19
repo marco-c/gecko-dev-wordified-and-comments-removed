@@ -512,6 +512,11 @@ scalability_structure_key_svc_unittest
 cc
 "
 "
+scalability_structure_l2t2_key_shift_unittest
+.
+cc
+"
+"
 scalability_structure_l3t3_unittest
 .
 cc
