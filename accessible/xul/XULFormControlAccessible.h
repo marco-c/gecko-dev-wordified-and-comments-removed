@@ -92,6 +92,16 @@ override
 ;
 virtual
 bool
+AttributeChangesState
+(
+nsAtom
+*
+aAttribute
+)
+override
+;
+virtual
+bool
 HasPrimaryAction
 (
 )
