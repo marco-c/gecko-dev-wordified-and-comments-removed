@@ -37,6 +37,17 @@ unreachable_pub
 #
 !
 [
+allow
+(
+clippy
+:
+:
+question_mark
+)
+]
+#
+!
+[
 cfg_attr
 (
 not
