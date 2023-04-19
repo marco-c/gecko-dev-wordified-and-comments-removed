@@ -5667,6 +5667,15 @@ text
 ;
 static
 bool
+IsSubDocumentTabbable
+(
+nsIContent
+*
+aContent
+)
+;
+static
+bool
 HasScrollgrab
 (
 nsIContent
