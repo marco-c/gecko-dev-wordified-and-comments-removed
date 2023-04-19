@@ -512,13 +512,6 @@ IsDone
 }
 )
 ;
-mOPFSChild
--
->
-ManualRelease
-(
-)
-;
 }
 TEST_F
 (
