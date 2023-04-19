@@ -91,13 +91,6 @@ desktop_capturer
 h
 "
 #
-if
-!
-defined
-(
-WEBRTC_MOZILLA_BUILD
-)
-#
 include
 "
 modules
@@ -112,8 +105,6 @@ egl_dmabuf
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -442,13 +433,6 @@ portal_init_failed_
 =
 false
 ;
-#
-if
-!
-defined
-(
-WEBRTC_MOZILLA_BUILD
-)
 std
 :
 :
@@ -458,8 +442,6 @@ EglDmaBuf
 >
 egl_dmabuf_
 ;
-#
-endif
 void
 Init
 (
