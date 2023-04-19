@@ -942,16 +942,6 @@ permissions
 *
 "
 "
-image
-/
-test
-/
-unit
-/
-*
-*
-"
-"
 modules
 /
 libjar
