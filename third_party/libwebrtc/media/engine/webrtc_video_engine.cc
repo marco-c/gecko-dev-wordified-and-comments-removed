@@ -18605,6 +18605,12 @@ stats
 rtp_stats
 .
 jitter
+/
+(
+kVideoCodecClockrate
+/
+1000
+)
 ;
 info
 .
