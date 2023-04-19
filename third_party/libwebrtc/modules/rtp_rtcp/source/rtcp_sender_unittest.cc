@@ -732,9 +732,6 @@ Sending
 )
 )
 ;
-EXPECT_EQ
-(
-0
 rtcp_sender
 -
 >
@@ -744,7 +741,6 @@ feedback_state
 (
 )
 true
-)
 )
 ;
 EXPECT_TRUE
@@ -2419,9 +2415,6 @@ RtcpMode
 kReducedSize
 )
 ;
-EXPECT_EQ
-(
-0
 rtcp_sender
 -
 >
@@ -2432,11 +2425,7 @@ feedback_state
 )
 true
 )
-)
 ;
-EXPECT_EQ
-(
-0
 rtcp_sender
 -
 >
@@ -2446,7 +2435,6 @@ feedback_state
 (
 )
 false
-)
 )
 ;
 EXPECT_EQ
@@ -4378,9 +4366,6 @@ RtcpMode
 kCompound
 )
 ;
-EXPECT_EQ
-(
-0
 rtcp_sender
 -
 >
@@ -4390,7 +4375,6 @@ feedback_state
 (
 )
 false
-)
 )
 ;
 NtpTime
@@ -4552,9 +4536,6 @@ RtcpMode
 kCompound
 )
 ;
-EXPECT_EQ
-(
-0
 rtcp_sender
 -
 >
@@ -4564,7 +4545,6 @@ feedback_state
 (
 )
 true
-)
 )
 ;
 EXPECT_EQ
@@ -4642,9 +4622,6 @@ RtcpMode
 kCompound
 )
 ;
-EXPECT_EQ
-(
-0
 rtcp_sender
 -
 >
@@ -4654,7 +4631,6 @@ feedback_state
 (
 )
 false
-)
 )
 ;
 EXPECT_EQ

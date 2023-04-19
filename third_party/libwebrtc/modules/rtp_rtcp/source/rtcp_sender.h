@@ -397,7 +397,7 @@ RTC_LOCKS_EXCLUDED
 mutex_rtcp_sender_
 )
 ;
-int32_t
+void
 SetSendingStatus
 (
 const
