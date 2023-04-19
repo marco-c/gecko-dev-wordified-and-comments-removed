@@ -29,11 +29,9 @@ vector
 #
 include
 "
-absl
+rtc_base
 /
-base
-/
-attributes
+checks
 .
 h
 "
@@ -42,7 +40,9 @@ include
 "
 rtc_base
 /
-checks
+system
+/
+unused
 .
 h
 "
@@ -294,7 +294,6 @@ size
 )
 ;
 }
-ABSL_MUST_USE_RESULT
 bool
 Insert
 (
@@ -302,6 +301,7 @@ T
 *
 input
 )
+RTC_WARN_UNUSED_RESULT
 {
 RTC_DCHECK
 (
@@ -426,7 +426,6 @@ return
 true
 ;
 }
-ABSL_MUST_USE_RESULT
 bool
 Remove
 (
@@ -434,6 +433,7 @@ T
 *
 output
 )
+RTC_WARN_UNUSED_RESULT
 {
 RTC_DCHECK
 (
