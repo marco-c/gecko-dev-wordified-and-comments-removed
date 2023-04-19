@@ -4381,7 +4381,7 @@ domFileThread
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ILLEGAL_DURING_SHUTDOWN
 ;
 }
 nsresult
