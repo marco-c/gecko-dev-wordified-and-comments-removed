@@ -167,7 +167,13 @@ Search
 Services
 owner
 :
-standard8
+search
+-
+and
+-
+suggest
+-
+program
 mozilla
 .
 com
@@ -2899,7 +2905,9 @@ default
 "
 owner
 :
-bhearsum
+desktop
+-
+integrations
 mozilla
 .
 com
@@ -3856,7 +3864,9 @@ change
 "
 owner
 :
-mhammond
+sync
+-
+team
 mozilla
 .
 com
@@ -4022,7 +4032,9 @@ Desktop
 "
 owner
 :
-chutten
+glean
+-
+team
 mozilla
 .
 com
