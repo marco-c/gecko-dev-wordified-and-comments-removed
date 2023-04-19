@@ -235,13 +235,6 @@ gc
 GCRuntime
 &
 gc
-const
-js
-:
-:
-AutoLockGC
-&
-lock
 )
 ;
 void

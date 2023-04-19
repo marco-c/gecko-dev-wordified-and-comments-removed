@@ -98,9 +98,6 @@ namespace
 js
 {
 class
-AutoLockGC
-;
-class
 ZoneAllocator
 ;
 namespace
@@ -1362,10 +1359,6 @@ GCSchedulingState
 state
 bool
 isAtomsZone
-const
-AutoLockGC
-&
-lock
 )
 ;
 private
@@ -1382,10 +1375,6 @@ const
 GCSchedulingTunables
 &
 tunables
-const
-AutoLockGC
-&
-lock
 )
 ;
 }
@@ -1411,10 +1400,6 @@ const
 GCSchedulingState
 &
 state
-const
-AutoLockGC
-&
-lock
 )
 ;
 private
@@ -1429,10 +1414,6 @@ size_t
 lastBytes
 size_t
 baseBytes
-const
-AutoLockGC
-&
-lock
 )
 ;
 }

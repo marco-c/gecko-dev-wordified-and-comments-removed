@@ -2271,10 +2271,6 @@ const
 GCSchedulingTunables
 &
 tunables
-const
-AutoLockGC
-&
-lock
 )
 {
 size_t
@@ -2353,10 +2349,6 @@ GCSchedulingState
 state
 bool
 isAtomsZone
-const
-AutoLockGC
-&
-lock
 )
 {
 double
@@ -2376,7 +2368,6 @@ computeZoneTriggerBytes
 growthFactor
 lastBytes
 tunables
-lock
 )
 ;
 setIncrementalLimitFromStartBytes
@@ -2398,10 +2389,6 @@ size_t
 lastBytes
 size_t
 baseBytes
-const
-AutoLockGC
-&
-lock
 )
 {
 return
@@ -2439,10 +2426,6 @@ const
 GCSchedulingState
 &
 state
-const
-AutoLockGC
-&
-lock
 )
 {
 double
@@ -2466,7 +2449,6 @@ tunables
 mallocThresholdBase
 (
 )
-lock
 )
 ;
 setIncrementalLimitFromStartBytes
