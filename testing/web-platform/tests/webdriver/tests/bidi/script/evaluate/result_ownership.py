@@ -78,23 +78,17 @@ bidi_session
 .
 script
 .
-call_function
+evaluate
 (
             
-function_declaration
+expression
 =
 '
-(
-)
-=
->
-{
 throw
 {
 a
 :
 1
-}
 }
 '
             
@@ -200,10 +194,10 @@ bidi_session
 .
 script
 .
-call_function
+evaluate
 (
             
-function_declaration
+expression
 =
 "
 )
@@ -324,18 +318,12 @@ bidi_session
 .
 script
 .
-call_function
+evaluate
 (
             
-function_declaration
+expression
 =
 "
-(
-)
-=
->
-{
-return
 Promise
 .
 reject
@@ -346,7 +334,6 @@ a
 1
 }
 )
-}
 "
             
 await_promise
@@ -457,24 +444,22 @@ bidi_session
 .
 script
 .
-call_function
+evaluate
 (
         
-function_declaration
+expression
 =
 "
-async
-function
+Promise
+.
+resolve
 (
-)
-{
-return
 {
 a
 :
 1
 }
-}
+)
 "
         
 await_promise
