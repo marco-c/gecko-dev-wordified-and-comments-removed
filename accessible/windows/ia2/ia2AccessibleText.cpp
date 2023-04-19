@@ -742,13 +742,11 @@ nsIAccessibleCoordinateType
 :
 COORDTYPE_PARENT_RELATIVE
 ;
-auto
-[
+HyperTextAccessibleBase
+*
 textAcc
-hr
-]
 =
-LocalTextAcc
+TextAcc
 (
 )
 ;
@@ -759,7 +757,7 @@ textAcc
 )
 {
 return
-hr
+CO_E_OBJNOTCONNECTED
 ;
 }
 *
