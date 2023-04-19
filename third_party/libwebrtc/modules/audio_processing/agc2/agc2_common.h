@@ -102,7 +102,7 @@ kVadConfidenceThreshold
 =
 0
 .
-9f
+95f
 ;
 constexpr
 int

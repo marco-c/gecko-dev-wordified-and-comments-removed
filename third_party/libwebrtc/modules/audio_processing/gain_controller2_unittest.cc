@@ -1961,9 +1961,9 @@ GainAfterProcessingFile
 &
 gain_controller2
 )
-2
+1
 .
-f
+9f
 )
 ;
 }
