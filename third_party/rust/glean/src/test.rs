@@ -5738,7 +5738,6 @@ ErrorType
 :
 :
 InvalidLabel
-None
 )
 ;
 assert_eq

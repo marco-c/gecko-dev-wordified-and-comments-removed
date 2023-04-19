@@ -374,7 +374,7 @@ version
 .
 11
 .
-0
+1
 "
 source
 =
@@ -402,7 +402,7 @@ index
 checksum
 =
 "
-b74b7ddf197de32e415d197aa21c1c0cb36e01e4794fd801302280ac7847ee02
+b5e9dd62f37dea550caf48c77591dc50bd1a378ce08855be1a0c42a97b7550fb
 "
 dependencies
 =
@@ -12543,11 +12543,11 @@ glean
 version
 =
 "
-50
+51
+.
+0
 .
 1
-.
-3
 "
 source
 =
@@ -12575,7 +12575,7 @@ index
 checksum
 =
 "
-fe54494f067655870956431d2a6942e56611da53d67101dd64847445b29367b0
+a20e782acaa1771ea4de48aa8bcf3421ae1e77c36dbae7595428fc2e333d0df5
 "
 dependencies
 =
@@ -12641,11 +12641,11 @@ core
 version
 =
 "
-50
+51
+.
+0
 .
 1
-.
-3
 "
 source
 =
@@ -12673,7 +12673,7 @@ index
 checksum
 =
 "
-f32fadcf37284fdaf70d1e9d0afd753b8a5c02348fd2e366e81e2b6f9ba84091
+127156f8df21363a476e37b7adf3fe89995cf48fda281563fe7ae1bdb1160760
 "
 dependencies
 =
@@ -12699,11 +12699,6 @@ env_logger
 9
 .
 0
-"
-"
-ffi
--
-support
 "
 "
 flate2

@@ -567,7 +567,6 @@ ErrorType
 :
 :
 InvalidValue
-None
 )
 )
 ;

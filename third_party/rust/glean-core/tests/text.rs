@@ -604,7 +604,6 @@ ErrorType
 :
 :
 InvalidOverflow
-None
 )
 )
 ;

@@ -156,8 +156,6 @@ fog_denominator_test_get_error
 (
 mId
 &
-aPingName
-&
 err
 )
 )

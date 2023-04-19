@@ -892,7 +892,6 @@ ErrorType
 :
 :
 InvalidOverflow
-None
 )
 )
 ;

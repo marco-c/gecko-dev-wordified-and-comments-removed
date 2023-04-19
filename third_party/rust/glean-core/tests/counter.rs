@@ -633,7 +633,6 @@ ErrorType
 :
 :
 InvalidValue
-None
 )
 )
 ;

@@ -598,7 +598,6 @@ ErrorType
 :
 :
 InvalidOverflow
-None
 )
 )
 ;
