@@ -973,7 +973,7 @@ cng_decoder
 Generate
 (
 cng_output
-0
+false
 )
 )
 {

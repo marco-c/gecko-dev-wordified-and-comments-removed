@@ -979,10 +979,10 @@ kVp9SegLvlMax
 ]
 =
 {
-1
-1
-0
-0
+true
+true
+false
+false
 }
 ;
 frame_info

@@ -3648,7 +3648,7 @@ RTC_DCHECK_NOTREACHED
 )
 ;
 return
-0
+false
 ;
 }
 void
