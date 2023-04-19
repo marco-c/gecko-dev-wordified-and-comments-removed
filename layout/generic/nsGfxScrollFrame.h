@@ -1284,6 +1284,17 @@ nsPoint
 aDestination
 )
 ;
+Maybe
+<
+mozilla
+:
+:
+SnapTarget
+>
+GetSnapPointForResnap
+(
+)
+;
 void
 SetLastSnapTargetIds
 (
