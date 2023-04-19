@@ -632,7 +632,7 @@ server_addr_
 SERVER_NOT_REACHABLE_ERROR
 "
 STUN
-allocate
+binding
 request
 timed
 out
