@@ -2058,7 +2058,7 @@ GPUChild
 RecvUpdateMediaCodecsSupported
 (
 const
-media
+PDMFactory
 :
 :
 MediaCodecsSupported

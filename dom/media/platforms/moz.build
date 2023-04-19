@@ -198,11 +198,6 @@ AllocationPolicy
 cpp
 "
 "
-MediaCodecsSupport
-.
-cpp
-"
-"
 PDMFactory
 .
 cpp

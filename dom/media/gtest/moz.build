@@ -225,11 +225,6 @@ TestKeyValueStorage
 cpp
 "
 "
-TestMediaCodecsSupport
-.
-cpp
-"
-"
 TestMediaDataDecoder
 .
 cpp

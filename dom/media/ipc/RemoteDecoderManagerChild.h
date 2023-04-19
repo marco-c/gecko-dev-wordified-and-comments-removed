@@ -132,7 +132,7 @@ SetSupported
 RemoteDecodeIn
 aLocation
 const
-media
+PDMFactory
 :
 :
 MediaCodecsSupported
