@@ -77,11 +77,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 var
 docShellThunks
 =

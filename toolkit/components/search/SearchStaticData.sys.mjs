@@ -136,11 +136,6 @@ here
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 To

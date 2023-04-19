@@ -27,11 +27,6 @@ zero
 /
 *
 /
-"
-use
-strict
-"
-;
 import
 {
 XPCOMUtils
