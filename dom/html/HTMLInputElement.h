@@ -3837,11 +3837,6 @@ aPresContext
 )
 ;
 void
-UpdateFileList
-(
-)
-;
-void
 AfterSetFilesOrDirectories
 (
 bool
