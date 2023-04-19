@@ -20485,7 +20485,7 @@ data
 uint8_t
 *
 )
-js_malloc
+js_calloc
 (
 tagType
 -
@@ -20503,16 +20503,6 @@ return
 nullptr
 ;
 }
-memset
-(
-data
-0
-tagType
--
->
-size_
-)
-;
 MOZ_ASSERT
 (
 obj
