@@ -50,14 +50,14 @@ h
 #
 include
 "
-SelectionState
+PendingStyles
 .
 h
 "
 #
 include
 "
-TypeInState
+SelectionState
 .
 h
 "
@@ -1164,7 +1164,7 @@ IsCollapsed
 )
 )
 {
-mTypeInState
+mPendingStylesToApplyToNewContent
 -
 >
 PreserveStyles
@@ -9602,7 +9602,7 @@ if
 aAttribute
 )
 {
-mTypeInState
+mPendingStylesToApplyToNewContent
 -
 >
 GetTypingState
@@ -9632,7 +9632,7 @@ tOutString
 }
 else
 {
-mTypeInState
+mPendingStylesToApplyToNewContent
 -
 >
 GetTypingState
@@ -11837,7 +11837,7 @@ IsCollapsed
 )
 )
 {
-mTypeInState
+mPendingStylesToApplyToNewContent
 -
 >
 ClearStyles
@@ -14121,7 +14121,7 @@ return
 NS_OK
 ;
 }
-mTypeInState
+mPendingStylesToApplyToNewContent
 -
 >
 PreserveStyle

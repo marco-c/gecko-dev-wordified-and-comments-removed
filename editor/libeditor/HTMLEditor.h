@@ -2518,9 +2518,9 @@ GetInlineStyles
 nsIContent
 &
 aContent
-AutoStyleCacheArray
+AutoPendingStyleCacheArray
 &
-aStyleCacheArray
+aPendingStyleCacheArray
 )
 ;
 [
@@ -8689,9 +8689,9 @@ mRequesterFuncName
 ;
 RefPtr
 <
-TypeInState
+PendingStyles
 >
-mTypeInState
+mPendingStylesToApplyToNewContent
 ;
 RefPtr
 <

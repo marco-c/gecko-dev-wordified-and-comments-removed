@@ -30386,7 +30386,7 @@ GetChangedRangeForTopLevelEditSubAction
 ;
 mTopLevelEditSubActionData
 .
-mCachedInlineStyles
+mCachedPendingStyles
 .
 emplace
 (
