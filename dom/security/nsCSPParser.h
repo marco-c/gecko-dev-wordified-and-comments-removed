@@ -665,6 +665,9 @@ bool
 mHasHashOrNonce
 ;
 bool
+mHasAnyUnsafeEval
+;
+bool
 mStrictDynamic
 ;
 nsCSPKeywordSrc
