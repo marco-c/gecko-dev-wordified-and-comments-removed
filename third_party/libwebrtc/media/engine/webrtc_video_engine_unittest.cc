@@ -34900,11 +34900,9 @@ kFlexfecSsrc
 stream
 -
 >
-rtp_config
+remote_ssrc
 (
 )
-.
-remote_ssrc
 )
 ;
 ASSERT_EQ
