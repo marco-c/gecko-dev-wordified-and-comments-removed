@@ -3701,6 +3701,13 @@ dead_connection_timeout_ms
 field_trials_
 .
 dead_connection_timeout_ms
+"
+stop_gather_on_strongly_connected
+"
+&
+field_trials_
+.
+stop_gather_on_strongly_connected
 )
 -
 >
@@ -10228,6 +10235,13 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
+if
+(
+field_trials_
+.
+stop_gather_on_strongly_connected
+)
+{
 bool
 strongly_connected
 =
@@ -10275,6 +10289,7 @@ MaybeStopPortAllocatorSessions
 (
 )
 ;
+}
 }
 RequestSortAndStateUpdate
 (
