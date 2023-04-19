@@ -242,6 +242,7 @@ InputObserver
 =
 default
 ;
+const
 RefPtr
 <
 CamerasParent
