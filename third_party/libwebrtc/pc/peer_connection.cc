@@ -3600,6 +3600,9 @@ cricket
 :
 :
 MEDIA_TYPE_AUDIO
+channel_manager
+(
+)
 )
 )
 )
@@ -3634,6 +3637,9 @@ cricket
 :
 :
 MEDIA_TYPE_VIDEO
+channel_manager
+(
+)
 )
 )
 )
