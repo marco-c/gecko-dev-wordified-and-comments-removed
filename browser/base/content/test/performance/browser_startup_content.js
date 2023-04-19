@@ -120,7 +120,9 @@ actors
 /
 BrowserTabChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource

@@ -2514,7 +2514,7 @@ BrowserTab
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2526,13 +2526,15 @@ actors
 /
 BrowserTabParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2544,7 +2546,9 @@ actors
 /
 BrowserTabChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
