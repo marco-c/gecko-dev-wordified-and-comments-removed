@@ -289,9 +289,6 @@ url
 traits
 :
 {
-doNotAttach
-:
-true
 }
 type
 :
