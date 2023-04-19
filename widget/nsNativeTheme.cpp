@@ -1803,11 +1803,9 @@ if
 !
 aFrame
 )
-{
 return
 false
 ;
-}
 if
 (
 aFrame
@@ -1823,14 +1821,12 @@ IsXULElement
 nsGkAtoms
 :
 :
-button
+treecolpicker
 )
 )
-{
 return
 true
 ;
-}
 nsIContent
 *
 parent
