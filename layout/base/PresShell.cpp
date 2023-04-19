@@ -20641,8 +20641,16 @@ FlushResampleRequests
 )
 ;
 }
+}
 if
 (
+MOZ_LIKELY
+(
+!
+mIsDestroying
+)
+&
+&
 aFlush
 .
 mFlushAnimations
@@ -20668,7 +20676,6 @@ PostRestyleForThrottledAnimations
 (
 )
 ;
-}
 }
 if
 (
