@@ -2900,11 +2900,7 @@ stun
 <
 stun_server_addr
 .
-ipaddr
-(
-)
-.
-ToString
+hostname
 (
 )
 <
