@@ -2333,7 +2333,13 @@ aOrigin
 JS
 :
 :
-HandleValue
+Handle
+<
+JS
+:
+:
+Value
+>
 aOriginAttributes
 uint64_t
 aInnerWindowID

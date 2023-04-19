@@ -6977,7 +6977,11 @@ idx
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 jsobj
 (
 aCx
