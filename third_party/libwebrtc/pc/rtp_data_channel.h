@@ -853,16 +853,6 @@ RTC_GUARDED_BY
 signaling_thread_
 )
 ;
-rtc
-:
-:
-AsyncInvoker
-invoker_
-RTC_GUARDED_BY
-(
-signaling_thread_
-)
-;
 }
 ;
 }
