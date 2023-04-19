@@ -1,0 +1,11 @@
+Permissions
+-
+Policy
+:
+shared
+-
+storage
+=
+(
+self
+)
