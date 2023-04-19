@@ -145,6 +145,11 @@ rx
 dcsctp_rx_unittests
 "
 "
+socket
+:
+dcsctp_socket_unittests
+"
+"
 timer
 :
 dcsctp_timer_unittests
