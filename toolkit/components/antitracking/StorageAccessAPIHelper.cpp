@@ -4166,6 +4166,11 @@ GetIsNullPrincipal
 )
 )
 {
+if
+(
+aRequestingStorageAccess
+)
+{
 nsContentUtils
 :
 :
@@ -4191,6 +4196,7 @@ RequestStorageAccessNullPrincipal
 "
 )
 ;
+}
 return
 Some
 (
@@ -4450,6 +4456,8 @@ dom
 Document
 *
 aDocument
+bool
+aRequestingStorageAccess
 )
 {
 MOZ_ASSERT
@@ -4465,6 +4473,11 @@ aDocument
 StorageAccessSandboxed
 (
 )
+)
+{
+if
+(
+aRequestingStorageAccess
 )
 {
 nsContentUtils
@@ -4492,6 +4505,7 @@ RequestStorageAccessSandboxed
 "
 )
 ;
+}
 return
 Some
 (
