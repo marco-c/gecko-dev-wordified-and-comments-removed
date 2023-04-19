@@ -14208,6 +14208,7 @@ nsDisplayListBuilder
 *
 builder
 ;
+const
 ComputedStyle
 *
 backgroundStyle
@@ -14254,6 +14255,7 @@ const
 nsRect
 &
 aBackgroundRect
+const
 ComputedStyle
 *
 aBackgroundStyle
@@ -14724,6 +14726,7 @@ aClipRect
 ;
 RefPtr
 <
+const
 ComputedStyle
 >
 mBackgroundStyle
