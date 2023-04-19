@@ -36,7 +36,6 @@ test_type
 (
 bidi_session
 current_session
-wait_for_event
 value
 )
 :
