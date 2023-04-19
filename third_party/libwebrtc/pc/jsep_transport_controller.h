@@ -1760,6 +1760,10 @@ string
 transport_name
 )
 const
+RTC_RUN_ON
+(
+network_thread_
+)
 ;
 cricket
 :
@@ -1775,6 +1779,10 @@ std
 string
 &
 transport_name
+)
+RTC_RUN_ON
+(
+network_thread_
 )
 ;
 RTCError
@@ -2281,6 +2289,10 @@ JsepTransport
 >
 >
 jsep_transports_by_name_
+RTC_GUARDED_BY
+(
+network_thread_
+)
 ;
 std
 :
