@@ -1320,6 +1320,15 @@ mutex_capture_
 )
 ;
 void
+InitializeLevelEstimator
+(
+)
+RTC_EXCLUSIVE_LOCKS_REQUIRED
+(
+mutex_capture_
+)
+;
+void
 InitializePreProcessor
 (
 )
