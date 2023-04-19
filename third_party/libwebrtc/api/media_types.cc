@@ -94,13 +94,10 @@ return
 "
 ;
 }
-FATAL
+RTC_CHECK
 (
+false
 )
-;
-return
-"
-"
 ;
 }
 }

@@ -448,8 +448,9 @@ kRtcpFbParamTransportCc
 )
 ;
 }
-FATAL
+RTC_CHECK
 (
+false
 )
 ;
 }

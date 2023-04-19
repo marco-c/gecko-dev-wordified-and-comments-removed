@@ -860,8 +860,9 @@ RtpCapabilities
 )
 ;
 }
-FATAL
+RTC_CHECK
 (
+false
 )
 ;
 }
@@ -992,8 +993,9 @@ RtpCapabilities
 )
 ;
 }
-FATAL
+RTC_CHECK
 (
+false
 )
 ;
 }
