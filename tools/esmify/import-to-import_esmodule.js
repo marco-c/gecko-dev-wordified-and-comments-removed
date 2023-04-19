@@ -489,6 +489,7 @@ jscodeshift
 inputFile
 path
 resourceURINode
+false
 )
 )
 {
@@ -2175,6 +2176,7 @@ replaceImportESModuleCall
 inputFile
 jscodeshift
 path
+false
 )
 ;
 }
