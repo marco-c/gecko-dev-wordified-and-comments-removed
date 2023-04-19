@@ -408,6 +408,17 @@ enable
 )
 ;
 [
+binaryname
+(
+ClearUndoRedoXPCOM
+)
+]
+void
+clearUndoRedo
+(
+)
+;
+[
 can_run_script
 ]
 void
