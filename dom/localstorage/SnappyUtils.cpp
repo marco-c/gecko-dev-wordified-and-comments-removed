@@ -68,6 +68,14 @@ mozilla
 :
 dom
 {
+static_assert
+(
+SNAPPY_VERSION
+=
+=
+0x010109
+)
+;
 bool
 SnappyCompress
 (

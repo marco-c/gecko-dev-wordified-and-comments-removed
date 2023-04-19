@@ -34,7 +34,7 @@ std
 string
 *
 s
-uint32
+uint32_t
 value
 )
 {
