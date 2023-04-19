@@ -141,7 +141,7 @@ temporal_up_switch
 0
 ]
 =
-false
+true
 ;
 num_ref_pics
 [
@@ -181,7 +181,7 @@ temporal_up_switch
 0
 ]
 =
-false
+true
 ;
 num_ref_pics
 [
@@ -252,7 +252,7 @@ temporal_up_switch
 0
 ]
 =
-false
+true
 ;
 num_ref_pics
 [
@@ -385,7 +385,7 @@ temporal_up_switch
 0
 ]
 =
-false
+true
 ;
 num_ref_pics
 [
@@ -447,7 +447,7 @@ temporal_up_switch
 2
 ]
 =
-true
+false
 ;
 num_ref_pics
 [
@@ -478,7 +478,7 @@ temporal_up_switch
 3
 ]
 =
-false
+true
 ;
 num_ref_pics
 [
@@ -550,7 +550,7 @@ temporal_up_switch
 5
 ]
 =
-false
+true
 ;
 num_ref_pics
 [
@@ -632,7 +632,7 @@ temporal_up_switch
 7
 ]
 =
-false
+true
 ;
 num_ref_pics
 [

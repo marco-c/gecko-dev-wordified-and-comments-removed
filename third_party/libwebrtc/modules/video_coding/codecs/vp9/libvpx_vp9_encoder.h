@@ -333,8 +333,6 @@ const
 vpx_codec_cx_pkt
 &
 pkt
-uint32_t
-timestamp
 )
 ;
 void
