@@ -604,6 +604,14 @@ attribute
 boolean
 isOriginPotentiallyTrustworthy
 ;
+[
+infallible
+]
+readonly
+attribute
+boolean
+isLoopbackHost
+;
 uint32_t
 getAboutModuleFlags
 (
