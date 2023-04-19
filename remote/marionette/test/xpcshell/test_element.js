@@ -1,10 +1,10 @@
 const
 {
 ChromeWebElement
-ContentWebElement
 ContentWebFrame
 ContentWebWindow
 element
+WebElement
 WebReference
 }
 =
@@ -2786,7 +2786,7 @@ from
 domEl
 )
 instanceof
-ContentWebElement
+WebElement
 )
 ;
 ok
@@ -2798,7 +2798,7 @@ from
 xulEl
 )
 instanceof
-ContentWebElement
+WebElement
 )
 ;
 ok
@@ -2879,7 +2879,7 @@ run_next_test
 add_test
 (
 function
-test_WebReference_fromJSON_ContentWebElement
+test_WebReference_fromJSON_WebElement
 (
 )
 {
@@ -2888,7 +2888,7 @@ const
 Identifier
 }
 =
-ContentWebElement
+WebElement
 ;
 let
 ref
@@ -2917,7 +2917,7 @@ ok
 (
 webEl
 instanceof
-ContentWebElement
+WebElement
 )
 ;
 equal
@@ -2959,7 +2959,7 @@ ok
 (
 precedenceEl
 instanceof
-ContentWebElement
+WebElement
 )
 ;
 equal
@@ -3260,7 +3260,7 @@ ok
 (
 domWebEl
 instanceof
-ContentWebElement
+WebElement
 )
 ;
 equal
@@ -3349,7 +3349,7 @@ isReference
 (
 {
 [
-ContentWebElement
+WebElement
 .
 Identifier
 ]
@@ -3458,7 +3458,7 @@ run_next_test
 add_test
 (
 function
-test_ContentWebElement_toJSON
+test_WebElement_toJSON
 (
 )
 {
@@ -3467,13 +3467,13 @@ const
 Identifier
 }
 =
-ContentWebElement
+WebElement
 ;
 let
 el
 =
 new
-ContentWebElement
+WebElement
 (
 "
 foo
@@ -3517,7 +3517,7 @@ run_next_test
 add_test
 (
 function
-test_ContentWebElement_fromJSON
+test_WebElement_fromJSON
 (
 )
 {
@@ -3526,12 +3526,12 @@ const
 Identifier
 }
 =
-ContentWebElement
+WebElement
 ;
 let
 el
 =
-ContentWebElement
+WebElement
 .
 fromJSON
 (
@@ -3550,7 +3550,7 @@ ok
 (
 el
 instanceof
-ContentWebElement
+WebElement
 )
 ;
 equal
@@ -3571,7 +3571,7 @@ throws
 )
 =
 >
-ContentWebElement
+WebElement
 .
 fromJSON
 (

@@ -11,9 +11,6 @@ EXPORTED_SYMBOLS
 ChromeWebElement
 "
 "
-ContentWebElement
-"
-"
 ContentShadowRoot
 "
 "
@@ -24,6 +21,9 @@ ContentWebWindow
 "
 "
 element
+"
+"
+WebElement
 "
 "
 WebReference
@@ -4558,7 +4558,7 @@ uuid
 }
 return
 new
-ContentWebElement
+WebElement
 (
 uuid
 )
@@ -4695,12 +4695,12 @@ json
 )
 ;
 case
-ContentWebElement
+WebElement
 .
 Identifier
 :
 return
-ContentWebElement
+WebElement
 .
 fromJSON
 (
@@ -4811,7 +4811,7 @@ content
 :
 return
 new
-ContentWebElement
+WebElement
 (
 uuid
 )
@@ -4878,7 +4878,7 @@ in
 obj
 |
 |
-ContentWebElement
+WebElement
 .
 Identifier
 in
@@ -4950,7 +4950,7 @@ length
 }
 }
 class
-ContentWebElement
+WebElement
 extends
 WebReference
 {
@@ -4961,7 +4961,7 @@ toJSON
 return
 {
 [
-ContentWebElement
+WebElement
 .
 Identifier
 ]
@@ -4983,7 +4983,7 @@ const
 Identifier
 }
 =
-ContentWebElement
+WebElement
 ;
 if
 (
@@ -5028,14 +5028,14 @@ Identifier
 ;
 return
 new
-ContentWebElement
+WebElement
 (
 uuid
 )
 ;
 }
 }
-ContentWebElement
+WebElement
 .
 Identifier
 =
