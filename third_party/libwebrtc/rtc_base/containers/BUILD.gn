@@ -248,6 +248,12 @@ checks
 "
 ]
 }
+if
+(
+!
+build_with_mozilla
+)
+{
 rtc_library
 (
 "
@@ -341,4 +347,5 @@ algorithm
 container
 "
 ]
+}
 }
