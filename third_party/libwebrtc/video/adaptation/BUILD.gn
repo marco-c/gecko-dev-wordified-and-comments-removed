@@ -116,6 +116,16 @@ balanced_constraint
 h
 "
 "
+bandwidth_quality_scaler_resource
+.
+cc
+"
+"
+bandwidth_quality_scaler_resource
+.
+h
+"
+"
 bitrate_constraint
 .
 cc
