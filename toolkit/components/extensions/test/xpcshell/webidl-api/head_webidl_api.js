@@ -898,7 +898,10 @@ async
 function
 runTestCaseInWorker
 (
+{
 page
+extension
+}
 )
 {
 info
@@ -1018,7 +1021,13 @@ worker
 await
 assertTestResult
 (
+{
+.
+.
+.
 result
+extension
+}
 )
 ;
 }
@@ -1318,7 +1327,10 @@ mockAPIRequestHandler
 await
 runTestCaseInWorker
 (
+{
 page
+extension
+}
 )
 ;
 await
