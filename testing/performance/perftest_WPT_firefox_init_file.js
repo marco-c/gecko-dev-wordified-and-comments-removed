@@ -317,11 +317,6 @@ instagram
 com
 "
 "
-panda
-.
-tv
-"
-"
 google
 .
 com
