@@ -99,7 +99,7 @@ size_t
 RtpPacketHistory
 :
 :
-kMaxPaddingtHistory
+kMaxPaddingHistory
 ;
 constexpr
 int64_t
@@ -966,7 +966,7 @@ size
 )
 >
 =
-kMaxPaddingtHistory
+kMaxPaddingHistory
 -
 1
 )

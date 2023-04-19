@@ -163,7 +163,7 @@ kMaxCapacity
 static
 constexpr
 size_t
-kMaxPaddingtHistory
+kMaxPaddingHistory
 =
 63
 ;
