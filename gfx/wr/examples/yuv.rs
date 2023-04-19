@@ -1181,7 +1181,7 @@ opts
 webrender
 :
 :
-RendererOptions
+WebRenderOptions
 {
 .
 .

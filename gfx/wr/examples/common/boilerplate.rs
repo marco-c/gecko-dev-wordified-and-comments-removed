@@ -561,15 +561,6 @@ example
 &
 mut
 E
-options
-:
-Option
-<
-webrender
-:
-:
-RendererOptions
->
 )
 {
 env_logger
@@ -1051,7 +1042,7 @@ opts
 webrender
 :
 :
-RendererOptions
+WebRenderOptions
 {
 resource_override_path
 :
@@ -1092,7 +1083,7 @@ unwrap_or
 webrender
 :
 :
-RendererOptions
+WebRenderOptions
 :
 :
 default
@@ -1167,10 +1158,7 @@ sender
 webrender
 :
 :
-Renderer
-:
-:
-new
+create_webrender_instance
 (
 gl
 .
