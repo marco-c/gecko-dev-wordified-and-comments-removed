@@ -170,6 +170,7 @@ Data
 Clone
 (
 )
+const
 {
 return
 Data
