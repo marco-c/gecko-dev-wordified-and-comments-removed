@@ -321,6 +321,10 @@ Clock
 const
 clock_
 ;
+const
+int64_t
+delta_internal_unix_epoch_ms_
+;
 RateStatistics
 incoming_bitrate_
 ;

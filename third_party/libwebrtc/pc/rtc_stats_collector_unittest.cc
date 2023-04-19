@@ -15422,7 +15422,7 @@ expected_video
 .
 last_packet_received_timestamp
 =
-1
+1000
 .
 0
 ;
