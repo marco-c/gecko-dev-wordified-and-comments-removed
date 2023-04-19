@@ -3904,16 +3904,13 @@ background
 -
 color
 :
--
-moz
--
-Dialog
+SelectedItem
 ;
 border
 :
 1px
 solid
-ButtonText
+SelectedItemText
 ;
 }
 .
@@ -3933,7 +3930,7 @@ background
 -
 color
 :
-SelectedItem
+SelectedItemText
 ;
 }
 }
