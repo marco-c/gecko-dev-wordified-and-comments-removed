@@ -8973,6 +8973,13 @@ recurse
 )
 ;
 }
+mDocument
+-
+>
+NotifyMediaFeatureValuesChanged
+(
+)
+;
 }
 bool
 nsPresContext
@@ -9087,13 +9094,6 @@ return
 changedStyle
 ;
 }
-mDocument
--
->
-NotifyMediaFeatureValuesChanged
-(
-)
-;
 if
 (
 mDocument
