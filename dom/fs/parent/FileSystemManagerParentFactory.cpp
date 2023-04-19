@@ -114,9 +114,13 @@ h
 namespace
 mozilla
 {
-extern
 LazyLogModule
 gOPFSLog
+(
+"
+OPFS
+"
+)
 ;
 }
 #
