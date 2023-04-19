@@ -36,15 +36,6 @@ include
 "
 js
 /
-SliceBudget
-.
-h
-"
-#
-include
-"
-js
-/
 TracingAPI
 .
 h
@@ -64,6 +55,9 @@ JSRope
 namespace
 js
 {
+class
+SliceBudget
+;
 class
 WeakMapBase
 ;

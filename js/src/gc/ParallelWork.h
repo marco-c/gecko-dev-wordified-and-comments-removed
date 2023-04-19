@@ -23,15 +23,6 @@ include
 "
 gc
 /
-GC
-.
-h
-"
-#
-include
-"
-gc
-/
 GCParallelTask
 .
 h
