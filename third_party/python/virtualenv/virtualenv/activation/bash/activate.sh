@@ -383,9 +383,7 @@ then
 PS1
 =
 "
-(
 __VIRTUAL_PROMPT__
-)
 {
 PS1
 -

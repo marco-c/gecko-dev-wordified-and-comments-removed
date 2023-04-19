@@ -162,9 +162,7 @@ set
 env_name
 =
 '
-(
 __VIRTUAL_PROMPT__
-)
 '
 else
 set
