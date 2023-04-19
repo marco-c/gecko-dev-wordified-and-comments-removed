@@ -1076,14 +1076,6 @@ rtcp_packets
 )
 override
 ;
-void
-SetRtcpXrRrtrStatus
-(
-bool
-enable
-)
-override
-;
 int32_t
 SendLossNotification
 (
@@ -1249,12 +1241,6 @@ PeriodicUpdate
 ;
 bool
 StorePackets
-(
-)
-const
-;
-bool
-RtcpXrRrtrStatus
 (
 )
 const
