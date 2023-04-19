@@ -4193,7 +4193,7 @@ type
 RelaxedAtomicInt32
 value
 :
-1
+2
 mirror
 :
 always
@@ -4214,13 +4214,13 @@ value
 .
 0f
 /
-32
+16
 .
 0f
 #
 1
 /
-32
+16
 inches
 mirror
 :
@@ -4294,7 +4294,7 @@ type
 int32_t
 value
 :
-50
+80
 #
 milliseconds
 mirror
