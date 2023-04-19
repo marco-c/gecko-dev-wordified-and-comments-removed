@@ -1264,9 +1264,6 @@ usedNames
 ;
 private
 :
-AutoFrontendTraceLog
-traceLog_
-;
 SharedContext
 *
 sc_
