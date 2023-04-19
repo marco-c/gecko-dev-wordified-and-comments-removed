@@ -6989,6 +6989,15 @@ packets_lost
 ;
 verifier
 .
+TestMemberIsDefined
+(
+remote_inbound_stream
+.
+fraction_lost
+)
+;
+verifier
+.
 TestMemberIsNonNegative
 <
 double

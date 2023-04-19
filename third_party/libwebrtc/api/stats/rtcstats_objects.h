@@ -2391,6 +2391,12 @@ double
 >
 round_trip_time
 ;
+RTCStatsMember
+<
+double
+>
+fraction_lost
+;
 }
 ;
 class
