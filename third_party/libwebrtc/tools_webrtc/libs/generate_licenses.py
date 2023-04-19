@@ -95,8 +95,6 @@ sys
 import
 argparse
 import
-cgi
-import
 json
 import
 logging
@@ -106,6 +104,21 @@ import
 re
 import
 subprocess
+try
+:
+    
+from
+html
+import
+escape
+except
+ImportError
+:
+    
+from
+cgi
+import
+escape
 LIB_TO_LICENSES_DICT
 =
 {
@@ -1366,6 +1379,15 @@ cwd
 =
 WEBRTC_ROOT
 )
+.
+decode
+(
+'
+UTF
+-
+8
+'
+)
         
 logging
 .
@@ -1552,7 +1574,10 @@ s
 .
 join
 (
+sorted
+(
 missing_licenses
+)
 )
             
 logging
@@ -1735,8 +1760,6 @@ license_file
                     
 license_text
 =
-cgi
-.
 escape
 (
 license_file

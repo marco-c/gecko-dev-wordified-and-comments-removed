@@ -1,7 +1,22 @@
 import
 unittest
-import
+try
+:
+    
+from
+unittest
+.
 mock
+import
+patch
+except
+ImportError
+:
+    
+from
+mock
+import
+patch
 from
 generate_licenses
 import
@@ -141,7 +156,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
             
 LicenseBuilder
@@ -170,7 +185,7 @@ libname1
         
 self
 .
-assertEquals
+assertEqual
 (
             
 LicenseBuilder
@@ -202,7 +217,7 @@ libname2
         
 self
 .
-assertEquals
+assertEqual
 (
             
 LicenseBuilder
@@ -236,7 +251,7 @@ libname3
         
 self
 .
-assertEquals
+assertEqual
 (
             
 LicenseBuilder
@@ -281,7 +296,7 @@ LicenseBuilder
         
 self
 .
-assertEquals
+assertEqual
 (
 builder
 .
@@ -353,7 +368,7 @@ lib_dict
         
 self
 .
-assertEquals
+assertEqual
 (
             
 builder
@@ -426,7 +441,7 @@ lib_regex_dict
         
 self
 .
-assertEquals
+assertEqual
 (
             
 builder
@@ -505,7 +520,7 @@ lib_regex_dict
         
 self
 .
-assertEquals
+assertEqual
 (
             
 builder
@@ -589,7 +604,7 @@ lib_regex_dict
         
 self
 .
-assertEquals
+assertEqual
 (
             
 builder
@@ -626,8 +641,6 @@ bar
 '
 )
     
-mock
-.
 patch
 (
 '
@@ -663,7 +676,7 @@ LicenseBuilder
         
 self
 .
-assertEquals
+assertEqual
 (
             
 builder
@@ -696,8 +709,6 @@ libname3
 )
 )
     
-mock
-.
 patch
 (
 '
@@ -756,7 +767,7 @@ lib_regex_dict
         
 self
 .
-assertEquals
+assertEqual
 (
             
 builder
@@ -793,8 +804,6 @@ libname3
 )
 )
     
-mock
-.
 patch
 (
 '
@@ -877,14 +886,17 @@ dir
         
 self
 .
-assertEquals
+assertEqual
 (
             
 context
 .
 exception
 .
-message
+args
+[
+0
+]
             
 '
 Missing
