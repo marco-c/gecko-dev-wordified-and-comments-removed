@@ -640,15 +640,6 @@ initialized_
 =
 false
 ;
-absl
-:
-:
-optional
-<
-bool
->
-experimental_ns_
-;
 size_t
 audio_jitter_buffer_max_packets_
 =
