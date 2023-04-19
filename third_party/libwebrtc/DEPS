@@ -76,7 +76,7 @@ chromium_revision
 '
 :
 '
-9b6726e34c417804d9d15ea6b1d7b7133336084c
+80fa7441909f0f703c2a151b872e308811c8e926
 '
 }
 deps
@@ -131,7 +131,7 @@ chromium
 src
 /
 base
-00a23b1fe577e1654d9b0411af3e68e4ed3e5d9e
+feea997427eb2df0e5b791d520f5d212b0c13a57
 '
 '
 src
@@ -275,7 +275,7 @@ chromium
 src
 /
 ios
-9982668cfe6246f481fbdb48feb0a1712d13a9a4
+2a33d984c20bda97825e2df71f5a8fb714d193c0
 '
 '
 condition
@@ -307,7 +307,7 @@ chromium
 src
 /
 testing
-d11938efb5aa11160dbcca04f6d7dfe97c0a465d
+43828a290e836c08f680a7cb8b4a2c4dcba3d2f0
 '
 '
 src
@@ -331,7 +331,7 @@ chromium
 src
 /
 third_party
-850e07ad43432c2d1be8b848bedb5dd825dbed2f
+e2b69a8996258bfd4738328f98816f374e7c5e08
 '
 '
 src
@@ -1094,7 +1094,7 @@ tools
 depot_tools
 .
 git
-4bedb9d8c81887f4fd36afa83a04d00daab83c90
+f7157ceea83b85f40700fb395fe68c096e879d36
 '
 '
 src
@@ -2428,7 +2428,7 @@ chromium
 src
 /
 tools
-55fb2020beba8c91741139649bc5649a4c88f877
+a0a7310fed256e3becf3562189b565fcc3d03361
 '
 '
 src
