@@ -870,12 +870,7 @@ nsDragService
 ;
 mCanDrop
 =
-widget
-:
-:
-GdkIsWaylandDisplay
-(
-)
+false
 ;
 mTargetDragDataReceived
 =
