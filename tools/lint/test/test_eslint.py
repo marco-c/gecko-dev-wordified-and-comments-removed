@@ -1,5 +1,7 @@
 import
 mozunit
+import
+pytest
 from
 conftest
 import
@@ -12,6 +14,56 @@ eslint
 fixed
 =
 0
+pytest
+.
+fixture
+def
+eslint
+(
+lint
+)
+:
+    
+def
+inner
+(
+*
+args
+*
+*
+kwargs
+)
+:
+        
+kwargs
+[
+"
+extra_args
+"
+]
+=
+[
+"
+-
+-
+no
+-
+ignore
+"
+]
+        
+return
+lint
+(
+*
+args
+*
+*
+kwargs
+)
+    
+return
+inner
 def
 test_lint_with_global_exclude
 (
@@ -65,7 +117,7 @@ results
 def
 test_no_files_to_lint
 (
-lint
+eslint
 config
 paths
 )
@@ -73,7 +125,7 @@ paths
     
 results
 =
-lint
+eslint
 (
 paths
 (
@@ -97,7 +149,7 @@ results
     
 results
 =
-lint
+eslint
 (
 paths
 (
@@ -130,7 +182,7 @@ results
 def
 test_bad_import
 (
-lint
+eslint
 config
 paths
 )
@@ -138,7 +190,7 @@ paths
     
 results
 =
-lint
+eslint
 (
 paths
 (
@@ -164,7 +216,7 @@ results
 def
 test_fix
 (
-lint
+eslint
 config
 create_temp_file
 )
@@ -271,7 +323,7 @@ js
 "
 )
     
-lint
+eslint
 (
 [
 path
