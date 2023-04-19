@@ -7,6 +7,13 @@ DOM_FS_PARENT_DATAMODEL_FILESYSTEMDATABASEMANAGER_H_
 #
 include
 "
+ResultConnection
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -32,13 +39,6 @@ h
 include
 "
 nsStringFwd
-.
-h
-"
-#
-include
-"
-ResultConnection
 .
 h
 "

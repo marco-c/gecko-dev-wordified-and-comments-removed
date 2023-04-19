@@ -64,14 +64,14 @@ h
 #
 include
 "
-nsStringFwd
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+nsStringFwd
 .
 h
 "
