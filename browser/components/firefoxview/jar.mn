@@ -70,7 +70,7 @@ browser
 /
 firefoxview
 .
-js
+mjs
 content
 /
 browser
@@ -84,7 +84,7 @@ browser
 /
 helpers
 .
-js
+mjs
 content
 /
 browser
@@ -93,7 +93,7 @@ tabs
 -
 pickup
 .
-js
+mjs
 content
 /
 browser
@@ -104,7 +104,7 @@ pickup
 -
 list
 .
-js
+mjs
 content
 /
 browser
@@ -115,7 +115,7 @@ closed
 -
 tabs
 .
-js
+mjs
 content
 /
 browser
