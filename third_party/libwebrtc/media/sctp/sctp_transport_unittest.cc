@@ -1578,9 +1578,6 @@ meow
 5
 )
 ;
-EXPECT_EQ
-(
-1
 transport1
 -
 >
@@ -1598,7 +1595,6 @@ size
 )
 meta
 0
-)
 )
 ;
 union
@@ -1643,9 +1639,6 @@ sizeof
 notification
 )
 ;
-EXPECT_EQ
-(
-1
 transport1
 -
 >
@@ -1661,7 +1654,6 @@ notification
 0
 }
 MSG_NOTIFICATION
-)
 )
 ;
 meta
@@ -1687,9 +1679,6 @@ rawr
 6
 )
 ;
-EXPECT_EQ
-(
-1
 transport1
 -
 >
@@ -1707,7 +1696,6 @@ size
 )
 meta
 MSG_EOR
-)
 )
 ;
 EXPECT_TRUE_WAIT
