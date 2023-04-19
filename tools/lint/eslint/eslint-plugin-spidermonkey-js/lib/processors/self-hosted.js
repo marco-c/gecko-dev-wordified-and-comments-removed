@@ -188,6 +188,16 @@ i
 "
 /
 /
+eslint
+-
+disable
+-
+line
+prettier
+/
+prettier
+-
+-
 "
 +
 lines
