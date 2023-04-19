@@ -330,6 +330,24 @@ repo
 version
     
 )
+    
+print
+(
+"
+Downloaded
+conditioned
+profile
+can
+be
+found
+at
+:
+%
+s
+"
+%
+target_dir
+)
 Command
 (
 "
