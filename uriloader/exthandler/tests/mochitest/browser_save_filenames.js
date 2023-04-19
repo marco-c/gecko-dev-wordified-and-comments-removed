@@ -1,6 +1,6 @@
 requestLongerTimeout
 (
-5
+8
 )
 ;
 let
@@ -1041,6 +1041,19 @@ registerPathHandler
 "
 /
 bellb
+"
+handleRequest
+)
+;
+httpServer
+.
+registerPathHandler
+(
+"
+/
+executable
+.
+exe
 "
 handleRequest
 )
