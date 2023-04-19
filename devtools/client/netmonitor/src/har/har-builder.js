@@ -2405,7 +2405,6 @@ c
 let
 s
 =
-new
 String
 (
 n
