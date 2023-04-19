@@ -2148,6 +2148,10 @@ absl
 :
 nullopt
 mock_decoder_factory
+.
+get
+(
+)
 )
 ;
 EXPECT_CALL
@@ -9536,6 +9540,10 @@ absl
 :
 nullopt
 mock_decoder_factory
+.
+get
+(
+)
 )
 ;
 EXPECT_CALL

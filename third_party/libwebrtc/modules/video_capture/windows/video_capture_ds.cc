@@ -147,6 +147,10 @@ _graphBuilder
 RemoveFilter
 (
 sink_filter_
+.
+get
+(
+)
 )
 ;
 if
@@ -517,6 +521,10 @@ _graphBuilder
 AddFilter
 (
 sink_filter_
+.
+get
+(
+)
 SINK_FILTER_NAME
 )
 ;
@@ -557,6 +565,10 @@ _inputSendPin
 GetInputPin
 (
 sink_filter_
+.
+get
+(
+)
 )
 ;
 if

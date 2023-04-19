@@ -3212,6 +3212,10 @@ decoded_frame
 scaled_frame
 =
 scaled_buffer
+.
+get
+(
+)
 ;
 }
 RTC_CHECK_EQ
