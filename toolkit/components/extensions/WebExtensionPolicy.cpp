@@ -3633,8 +3633,6 @@ const
 DocInfo
 &
 aDoc
-bool
-aIgnorePermissions
 )
 const
 {
@@ -3951,7 +3949,6 @@ return
 MatchesURI
 (
 urlinfo
-aIgnorePermissions
 )
 ;
 }
@@ -3965,8 +3962,6 @@ const
 URLInfo
 &
 aURL
-bool
-aIgnorePermissions
 )
 const
 {
@@ -4104,10 +4099,6 @@ mCheckPermissions
 &
 &
 !
-aIgnorePermissions
-&
-&
-!
 mExtension
 -
 >
@@ -4137,8 +4128,6 @@ MatchesWindowGlobal
 WindowGlobalChild
 &
 aWindow
-bool
-aIgnorePermissions
 )
 const
 {
@@ -4201,7 +4190,6 @@ inner
 GetOuterWindow
 (
 )
-aIgnorePermissions
 )
 ;
 }
