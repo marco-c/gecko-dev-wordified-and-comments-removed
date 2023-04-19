@@ -82,6 +82,17 @@ breakOnNext
 ;
 export
 {
+resetBreakpointsPaneState
+}
+from
+"
+.
+/
+resetBreakpointsPaneState
+"
+;
+export
+{
 mapFrames
 }
 from
