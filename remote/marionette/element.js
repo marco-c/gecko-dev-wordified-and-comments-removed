@@ -26,7 +26,7 @@ ContentWebWindow
 element
 "
 "
-WebElement
+WebReference
 "
 ]
 ;
@@ -548,7 +548,7 @@ id
 )
 {
 return
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -568,7 +568,7 @@ id
 const
 webEl
 =
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -618,7 +618,7 @@ if
 (
 webEl
 instanceof
-WebElement
+WebReference
 )
 )
 {
@@ -664,7 +664,7 @@ if
 (
 webEl
 instanceof
-WebElement
+WebReference
 )
 )
 {
@@ -1971,7 +1971,7 @@ refreshed
 const
 webEl
 =
-WebElement
+WebReference
 .
 from
 (
@@ -4418,7 +4418,7 @@ attr
 }
 ;
 class
-WebElement
+WebReference
 {
 constructor
 (
@@ -4447,7 +4447,7 @@ other
 return
 other
 instanceof
-WebElement
+WebReference
 &
 &
 this
@@ -4494,7 +4494,7 @@ node
 const
 uuid
 =
-WebElement
+WebReference
 .
 generateUUID
 (
@@ -4651,7 +4651,7 @@ if
 (
 json
 instanceof
-WebElement
+WebReference
 )
 {
 return
@@ -4952,7 +4952,7 @@ length
 class
 ContentWebElement
 extends
-WebElement
+WebReference
 {
 toJSON
 (
@@ -5054,7 +5054,7 @@ a52e
 class
 ContentShadowRoot
 extends
-WebElement
+WebReference
 {
 toJSON
 (
@@ -5156,7 +5156,7 @@ a52e
 class
 ContentWebWindow
 extends
-WebElement
+WebReference
 {
 toJSON
 (
@@ -5255,7 +5255,7 @@ b4f8
 class
 ContentWebFrame
 extends
-WebElement
+WebReference
 {
 toJSON
 (
@@ -5354,7 +5354,7 @@ e579c2d3230a
 class
 ChromeWebElement
 extends
-WebElement
+WebReference
 {
 toJSON
 (

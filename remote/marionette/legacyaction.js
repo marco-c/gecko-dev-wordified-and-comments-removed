@@ -167,7 +167,7 @@ Log
 .
 jsm
 "
-WebElement
+WebReference
 :
 "
 chrome
@@ -1308,7 +1308,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -1522,7 +1522,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -1655,7 +1655,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (

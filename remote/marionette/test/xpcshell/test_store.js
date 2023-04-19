@@ -1,7 +1,7 @@
 const
 {
 element
-WebElement
+WebReference
 }
 =
 ChromeUtils
@@ -427,7 +427,7 @@ inner
 const
 domWebEl
 =
-WebElement
+WebReference
 .
 from
 (
@@ -437,7 +437,7 @@ domEl
 const
 svgWebEl
 =
-WebElement
+WebReference
 .
 from
 (
@@ -447,7 +447,7 @@ svgEl
 const
 xulWebEl
 =
-WebElement
+WebReference
 .
 from
 (
@@ -457,7 +457,7 @@ xulEl
 const
 frameWebEl
 =
-WebElement
+WebReference
 .
 from
 (
@@ -467,7 +467,7 @@ frameEl
 const
 innerWebEl
 =
-WebElement
+WebReference
 .
 from
 (

@@ -749,7 +749,7 @@ Session
 .
 jsm
 "
-WebElement
+WebReference
 :
 "
 chrome
@@ -4792,7 +4792,7 @@ byFrame
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -4813,7 +4813,7 @@ byFrame
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -4963,7 +4963,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -5190,7 +5190,7 @@ startNode
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -5328,7 +5328,7 @@ startNode
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -5457,7 +5457,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -5592,7 +5592,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -5744,7 +5744,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -5838,7 +5838,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -5916,7 +5916,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -5993,7 +5993,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -6070,7 +6070,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -6168,7 +6168,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -6246,7 +6246,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -6328,7 +6328,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -6410,7 +6410,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -6503,7 +6503,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -6586,7 +6586,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -7842,7 +7842,7 @@ id
 ?
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (

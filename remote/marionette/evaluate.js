@@ -132,7 +132,7 @@ Log
 .
 jsm
 "
-WebElement
+WebReference
 :
 "
 chrome
@@ -757,7 +757,7 @@ if
 (
 lazy
 .
-WebElement
+WebReference
 .
 isReference
 (
@@ -1004,7 +1004,7 @@ if
 (
 lazy
 .
-WebElement
+WebReference
 .
 isReference
 (
@@ -1019,7 +1019,7 @@ get
 (
 lazy
 .
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -1033,7 +1033,7 @@ if
 (
 lazy
 .
-WebElement
+WebReference
 .
 isReference
 (

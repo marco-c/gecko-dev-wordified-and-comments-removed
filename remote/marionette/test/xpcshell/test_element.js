@@ -5,7 +5,7 @@ ContentWebElement
 ContentWebFrame
 ContentWebWindow
 element
-WebElement
+WebReference
 }
 =
 ChromeUtils
@@ -2609,7 +2609,7 @@ run_next_test
 add_test
 (
 function
-test_WebElement_ctor
+test_WebReference_ctor
 (
 )
 {
@@ -2617,7 +2617,7 @@ let
 el
 =
 new
-WebElement
+WebReference
 (
 "
 foo
@@ -2660,7 +2660,7 @@ throws
 =
 >
 new
-WebElement
+WebReference
 (
 t
 )
@@ -2691,7 +2691,7 @@ let
 a
 =
 new
-WebElement
+WebReference
 (
 "
 a
@@ -2702,7 +2702,7 @@ let
 b
 =
 new
-WebElement
+WebReference
 (
 "
 b
@@ -2773,13 +2773,13 @@ run_next_test
 add_test
 (
 function
-test_WebElement_from
+test_WebReference_from
 (
 )
 {
 ok
 (
-WebElement
+WebReference
 .
 from
 (
@@ -2791,7 +2791,7 @@ ContentWebElement
 ;
 ok
 (
-WebElement
+WebReference
 .
 from
 (
@@ -2803,7 +2803,7 @@ ContentWebElement
 ;
 ok
 (
-WebElement
+WebReference
 .
 from
 (
@@ -2815,7 +2815,7 @@ ContentWebWindow
 ;
 ok
 (
-WebElement
+WebReference
 .
 from
 (
@@ -2827,7 +2827,7 @@ ContentWebFrame
 ;
 ok
 (
-WebElement
+WebReference
 .
 from
 (
@@ -2839,7 +2839,7 @@ ChromeWebElement
 ;
 ok
 (
-WebElement
+WebReference
 .
 from
 (
@@ -2857,7 +2857,7 @@ throws
 )
 =
 >
-WebElement
+WebReference
 .
 from
 (
@@ -2879,7 +2879,7 @@ run_next_test
 add_test
 (
 function
-test_WebElement_fromJSON_ContentWebElement
+test_WebReference_fromJSON_ContentWebElement
 (
 )
 {
@@ -2906,7 +2906,7 @@ foo
 let
 webEl
 =
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -2948,7 +2948,7 @@ uuid
 let
 precedenceEl
 =
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -2984,7 +2984,7 @@ run_next_test
 add_test
 (
 function
-test_WebElement_fromJSON_ContentWebWindow
+test_WebReference_fromJSON_ContentWebWindow
 (
 )
 {
@@ -3006,7 +3006,7 @@ foo
 let
 win
 =
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -3040,7 +3040,7 @@ run_next_test
 add_test
 (
 function
-test_WebElement_fromJSON_ContentWebFrame
+test_WebReference_fromJSON_ContentWebFrame
 (
 )
 {
@@ -3062,7 +3062,7 @@ foo
 let
 frame
 =
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -3096,7 +3096,7 @@ run_next_test
 add_test
 (
 function
-test_WebElement_fromJSON_ChromeWebElement
+test_WebReference_fromJSON_ChromeWebReference
 (
 )
 {
@@ -3118,7 +3118,7 @@ foo
 let
 el
 =
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -3152,7 +3152,7 @@ run_next_test
 add_test
 (
 function
-test_WebElement_fromJSON_malformed
+test_WebReference_fromJSON_malformed
 (
 )
 {
@@ -3164,7 +3164,7 @@ throws
 )
 =
 >
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -3184,7 +3184,7 @@ throws
 )
 =
 >
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -3205,14 +3205,14 @@ run_next_test
 add_test
 (
 function
-test_WebElement_fromUUID
+test_WebReference_fromUUID
 (
 )
 {
 let
 xulWebEl
 =
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -3244,7 +3244,7 @@ foo
 let
 domWebEl
 =
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -3281,7 +3281,7 @@ throws
 )
 =
 >
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -3307,7 +3307,7 @@ run_next_test
 add_test
 (
 function
-test_WebElement_isReference
+test_WebReference_isReference
 (
 )
 {
@@ -3332,7 +3332,7 @@ foo
 ok
 (
 !
-WebElement
+WebReference
 .
 isReference
 (
@@ -3343,7 +3343,7 @@ t
 }
 ok
 (
-WebElement
+WebReference
 .
 isReference
 (
@@ -3363,7 +3363,7 @@ foo
 ;
 ok
 (
-WebElement
+WebReference
 .
 isReference
 (
@@ -3383,7 +3383,7 @@ foo
 ;
 ok
 (
-WebElement
+WebReference
 .
 isReference
 (
@@ -3403,7 +3403,7 @@ foo
 ;
 ok
 (
-WebElement
+WebReference
 .
 isReference
 (
@@ -3431,14 +3431,14 @@ run_next_test
 add_test
 (
 function
-test_WebElement_generateUUID
+test_WebReference_generateUUID
 (
 )
 {
 equal
 (
 typeof
-WebElement
+WebReference
 .
 generateUUID
 (
