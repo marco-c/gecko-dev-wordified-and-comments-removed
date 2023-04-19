@@ -6715,7 +6715,7 @@ PlatformChecksum
 2c9cb15d4ed55b5a0cadd04883bc73b0
 "
 "
-Mac_arm64_checksum_placeholder
+2c9cb15d4ed55b5a0cadd04883bc73b0
 "
 )
 AcmReceiverBitExactnessOldApi
@@ -6739,7 +6739,7 @@ d42cb5195463da26c8129bbfe73a22e6
 3c79f16f34218271f3dca4e2b1dfe1bb
 "
 "
-Mac_arm64_checksum_placeholder
+3c79f16f34218271f3dca4e2b1dfe1bb
 "
 )
 33
@@ -6797,7 +6797,7 @@ ef75e900e6f375e3061163c53fd09a63
 1ad29139a04782a33daad8c2b9b35875
 "
 "
-Mac_arm64_checksum_placeholder
+1ad29139a04782a33daad8c2b9b35875
 "
 )
 AcmReceiverBitExactnessOldApi
@@ -6821,7 +6821,7 @@ ebe04a819d3a9d83a83a17f271e1139a
 9e0a0ab743ad987b55b8e14802769c56
 "
 "
-Mac_arm64_checksum_placeholder
+9e0a0ab743ad987b55b8e14802769c56
 "
 )
 16
@@ -6905,7 +6905,7 @@ android_arm64_audio
 android_arm64_clang_audio
 "
 "
-Mac_arm64_checksum_placeholder
+5683b58da0fbf2063c7adc2e6bfb3fb8
 "
 )
 AcmReceiverBitExactnessOldApi
@@ -6929,7 +6929,7 @@ android_arm64_payload
 android_arm64_clang_payload
 "
 "
-Mac_arm64_checksum_placeholder
+ce86106a93419aefb063097108ec94ab
 "
 )
 33
@@ -7515,7 +7515,7 @@ android_arm64_audio
 android_arm64_clang_audio
 "
 "
-Mac_arm64_checksum_placeholder
+e99c89be49a46325d03c0d990c292d68
 "
 )
 AcmReceiverBitExactnessOldApi
@@ -7539,7 +7539,7 @@ android_arm64_payload
 android_arm64_clang_payload
 "
 "
-Mac_arm64_checksum_placeholder
+fc68a87e1380614e658087cb35d5ca10
 "
 )
 50
@@ -7615,7 +7615,7 @@ android_arm64_audio
 android_arm64_clang_audio
 "
 "
-Mac_arm64_checksum_placeholder
+e280aed283e499d37091b481ca094807
 "
 )
 AcmReceiverBitExactnessOldApi
@@ -7639,7 +7639,7 @@ android_arm64_payload
 android_arm64_clang_payload
 "
 "
-Mac_arm64_checksum_placeholder
+66516152eeaa1e650ad94ff85f668dac
 "
 )
 50

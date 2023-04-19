@@ -3556,12 +3556,6 @@ kEncodedBytes
 elif
 defined
 (
-WEBRTC_ANDROID
-)
-&
-&
-defined
-(
 WEBRTC_ARCH_ARM64
 )
 static
