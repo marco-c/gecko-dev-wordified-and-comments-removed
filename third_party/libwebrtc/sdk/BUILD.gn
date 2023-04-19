@@ -8605,6 +8605,10 @@ default_codec_factory_objc
 "
 "
 :
+metal_objc
+"
+"
+:
 native_api
 "
 "
