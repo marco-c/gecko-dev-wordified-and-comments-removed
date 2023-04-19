@@ -1068,8 +1068,11 @@ clock_
 )
 stats_proxy_
 (
-&
 config_
+.
+rtp
+.
+remote_ssrc
 clock_
 call
 -
@@ -2367,9 +2370,6 @@ webrtc_receive_stream_
 "
 <
 <
-this
--
->
 config_
 .
 rtp
