@@ -8244,6 +8244,19 @@ network_thread
 (
 )
 ;
+rtc
+:
+:
+SocketFactory
+*
+socket_factory
+=
+fss_
+.
+get
+(
+)
+;
 std
 :
 :
@@ -8278,6 +8291,7 @@ TestTurnServer
 RTC_FROM_HERE
 [
 thread
+socket_factory
 internal_address
 external_address
 type
@@ -8297,6 +8311,7 @@ TestTurnServer
 >
 (
 thread
+socket_factory
 internal_address
 external_address
 type
