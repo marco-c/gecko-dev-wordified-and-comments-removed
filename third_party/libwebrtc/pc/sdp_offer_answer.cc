@@ -5376,15 +5376,11 @@ if
 pc_
 -
 >
-context
+options
 (
 )
 -
 >
-options
-(
-)
-.
 disable_encryption
 )
 {
