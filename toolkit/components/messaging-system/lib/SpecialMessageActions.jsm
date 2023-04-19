@@ -750,6 +750,17 @@ windowSeparation
 .
 enabled
 "
+"
+browser
+.
+firefox
+-
+view
+.
+feature
+-
+tour
+"
 ]
 ;
 if
