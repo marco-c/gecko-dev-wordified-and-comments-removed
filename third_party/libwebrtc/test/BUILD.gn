@@ -1404,6 +1404,13 @@ scoped_key_value_config
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 sources
 =
 [
