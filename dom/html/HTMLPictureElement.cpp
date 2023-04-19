@@ -398,7 +398,7 @@ nsIContent
 >
 nextSibling
 =
-aKid
+source
 -
 >
 GetNextSibling
