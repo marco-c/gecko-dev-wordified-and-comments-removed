@@ -272,7 +272,9 @@ modules
 /
 SearchService
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
