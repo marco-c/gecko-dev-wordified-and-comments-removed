@@ -382,6 +382,11 @@ Text
 >
 ;
 using
+InsertParagraphResult
+=
+CreateElementResult
+;
+using
 EditorDOMRange
 =
 EditorDOMRangeBase

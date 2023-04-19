@@ -3247,7 +3247,11 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
-SplitNodeResult
+Result
+<
+InsertParagraphResult
+nsresult
+>
 HandleInsertParagraphInHeadingElement
 (
 Element
@@ -3267,7 +3271,7 @@ nodiscard
 MOZ_CAN_RUN_SCRIPT
 Result
 <
-EditorDOMPoint
+InsertParagraphResult
 nsresult
 >
 HandleInsertParagraphInListItemElement
