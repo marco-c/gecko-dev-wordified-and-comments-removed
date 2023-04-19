@@ -252,6 +252,8 @@ jobject
 j_caller
 int
 length
+int64_t
+capture_timestamp_ns
 )
 ;
 private
