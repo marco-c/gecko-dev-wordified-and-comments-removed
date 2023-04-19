@@ -43816,6 +43816,7 @@ if
 ast
 |
 |
+!
 Object
 .
 keys
@@ -43824,9 +43825,6 @@ ast
 )
 .
 length
-=
-=
-0
 )
 {
 return
@@ -258172,6 +258170,7 @@ if
 ast
 |
 |
+!
 Object
 .
 keys
@@ -258180,9 +258179,6 @@ ast
 )
 .
 length
-=
-=
-0
 )
 {
 return
@@ -259966,8 +259962,6 @@ node
 decorators
 .
 length
->
-0
 )
 {
 declStart
@@ -262590,14 +262584,12 @@ node
 )
 &
 &
+!
 parent
 .
 arguments
 .
 length
-=
-=
-0
 )
 {
 return
@@ -262667,6 +262659,8 @@ name
 ]
 &
 &
+!
+!
 rootScope
 .
 bindings
@@ -262677,8 +262671,6 @@ name
 refs
 .
 length
->
-0
 ;
 return
 hasRefs
@@ -263233,12 +263225,10 @@ locations
 {
 if
 (
+!
 locations
 .
 length
-=
-=
-0
 )
 {
 return
@@ -265089,12 +265079,10 @@ body
 ;
 if
 (
+!
 statements
 .
 length
-=
-=
-0
 )
 {
 return
