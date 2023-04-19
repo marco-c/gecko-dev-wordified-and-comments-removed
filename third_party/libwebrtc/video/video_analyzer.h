@@ -1479,7 +1479,6 @@ rtc
 :
 :
 PlatformThread
-*
 >
 comparison_thread_pool_
 ;

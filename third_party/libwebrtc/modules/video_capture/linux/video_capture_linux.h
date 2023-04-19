@@ -161,16 +161,10 @@ DeAllocateVideoBuffers
 (
 )
 ;
-std
-:
-:
-unique_ptr
-<
 rtc
 :
 :
 PlatformThread
->
 _captureThread
 ;
 Mutex

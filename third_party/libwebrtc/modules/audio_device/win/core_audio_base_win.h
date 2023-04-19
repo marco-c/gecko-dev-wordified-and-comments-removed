@@ -536,16 +536,10 @@ bool
 >
 is_restarting_
 ;
-std
-:
-:
-unique_ptr
-<
 rtc
 :
 :
 PlatformThread
->
 audio_thread_
 ;
 Microsoft
