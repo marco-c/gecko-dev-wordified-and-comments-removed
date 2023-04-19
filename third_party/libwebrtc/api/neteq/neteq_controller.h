@@ -367,6 +367,13 @@ fs_hz
 0
 ;
 virtual
+void
+NotifyMutedState
+(
+)
+{
+}
+virtual
 bool
 PeakFound
 (
