@@ -132,6 +132,9 @@ in
 int64_t
 aDataSize
 in
+int64_t
+aAltDataSize
+in
 uint32_t
 aFetchCount
 in

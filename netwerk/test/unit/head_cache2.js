@@ -1688,6 +1688,7 @@ onCacheEntryInfo
 aURI
 aIdEnhance
 aDataSize
+aAltDataSize
 aFetchCount
 aLastModifiedTime
 aExpirationTime

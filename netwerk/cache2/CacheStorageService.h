@@ -415,6 +415,8 @@ nsACString
 aIdEnhance
 int64_t
 aDataSize
+int64_t
+aAltDataSize
 uint32_t
 aFetchCount
 uint32_t
