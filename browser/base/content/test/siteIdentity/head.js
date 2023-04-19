@@ -118,7 +118,7 @@ ViewShown
 ;
 gPermissionPanel
 .
-_openPopup
+openPopup
 (
 )
 ;
