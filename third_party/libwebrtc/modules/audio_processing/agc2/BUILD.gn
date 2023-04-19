@@ -211,7 +211,7 @@ noise_level_estimator
 "
 "
 :
-rnn_vad_with_level
+vad_wrapper
 "
 "
 .
@@ -799,7 +799,7 @@ apm_debug_dump
 rtc_library
 (
 "
-rnn_vad_with_level
+vad_wrapper
 "
 )
 {
@@ -807,12 +807,12 @@ sources
 =
 [
 "
-vad_with_level
+vad_wrapper
 .
 cc
 "
 "
-vad_with_level
+vad_wrapper
 .
 h
 "
@@ -1532,7 +1532,7 @@ rtc_base_approved
 rtc_library
 (
 "
-rnn_vad_with_level_unittests
+vad_wrapper_unittests
 "
 )
 {
@@ -1543,7 +1543,7 @@ sources
 =
 [
 "
-vad_with_level_unittest
+vad_wrapper_unittest
 .
 cc
 "
@@ -1557,7 +1557,7 @@ common
 "
 "
 :
-rnn_vad_with_level
+vad_wrapper
 "
 "
 .

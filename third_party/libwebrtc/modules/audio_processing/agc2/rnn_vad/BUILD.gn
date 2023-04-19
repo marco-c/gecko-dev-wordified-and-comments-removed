@@ -409,7 +409,7 @@ visibility
 .
 .
 :
-rnn_vad_with_level
+vad_wrapper
 "
 ]
 sources

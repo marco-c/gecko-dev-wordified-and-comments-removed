@@ -70,7 +70,7 @@ audio_processing
 /
 agc2
 /
-vad_with_level
+vad_wrapper
 .
 h
 "

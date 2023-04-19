@@ -2196,12 +2196,12 @@ noise_estimator_unittests
 "
 agc2
 :
-rnn_vad_with_level_unittests
+test_utils
 "
 "
 agc2
 :
-test_utils
+vad_wrapper_unittests
 "
 "
 agc2

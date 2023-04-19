@@ -7,7 +7,7 @@ audio_processing
 /
 agc2
 /
-vad_with_level
+vad_wrapper
 .
 h
 "
@@ -20,6 +20,16 @@ limits
 include
 <
 memory
+>
+#
+include
+<
+tuple
+>
+#
+include
+<
+utility
 >
 #
 include
@@ -278,6 +288,7 @@ vad
 struct
 FrameWithView
 {
+explicit
 FrameWithView
 (
 float
