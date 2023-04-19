@@ -3846,6 +3846,8 @@ RtpExtension
 :
 kGenericFrameDescriptorUri00
 id
++
++
 IsEnabled
 (
 trials_
@@ -3885,6 +3887,8 @@ RtpExtension
 :
 kDependencyDescriptorUri
 id
++
++
 IsEnabled
 (
 trials_
