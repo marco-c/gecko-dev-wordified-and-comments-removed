@@ -388,14 +388,6 @@ isActive
 property
 (
 nonatomic
-readonly
-)
-BOOL
-isLocked
-;
-property
-(
-nonatomic
 assign
 )
 BOOL
