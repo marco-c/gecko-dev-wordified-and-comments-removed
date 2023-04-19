@@ -1991,7 +1991,7 @@ HandleObject
 module
 )
 ;
-JSObject
+ModuleObject
 *
 CallModuleResolveHook
 (
