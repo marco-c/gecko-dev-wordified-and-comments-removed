@@ -1675,7 +1675,7 @@ searchParams
 append
 (
 "
-utmSource
+utm_source
 "
 utmSource
 )
@@ -1695,7 +1695,7 @@ searchParams
 append
 (
 "
-utmCampaign
+utm_campaign
 "
 utmCampaign
 )
@@ -1707,7 +1707,7 @@ searchParams
 append
 (
 "
-utmContent
+utm_content
 "
 utmContent
 )
