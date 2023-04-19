@@ -165,7 +165,9 @@ jsm
 "
 XPCOMUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 FINAL_LIBRARY
