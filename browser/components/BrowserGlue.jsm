@@ -12699,7 +12699,6 @@ lnk
 appdir
 )
 ;
-}
 Services
 .
 prefs
@@ -12710,6 +12709,7 @@ PREF_PRIVATE_BROWSING_SHORTCUT_CREATED
 true
 )
 ;
+}
 }
 }
 {
