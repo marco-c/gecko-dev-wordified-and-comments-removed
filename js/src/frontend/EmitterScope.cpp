@@ -1035,7 +1035,7 @@ loc
 bce
 -
 >
-cx
+ec
 -
 >
 recoverFromOutOfMemory
