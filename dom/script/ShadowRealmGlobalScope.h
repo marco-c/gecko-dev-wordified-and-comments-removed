@@ -315,6 +315,14 @@ JSObject
 aGlobalObj
 )
 ;
+bool
+IsShadowRealmGlobal
+(
+JSObject
+*
+aObject
+)
+;
 }
 #
 endif
