@@ -209,6 +209,10 @@ optional
 <
 AudioCodecPairId
 >
+const
+WebRtcKeyValueConfig
+*
+field_trials
 )
 {
 if

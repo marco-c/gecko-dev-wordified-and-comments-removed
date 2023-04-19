@@ -10413,6 +10413,17 @@ fileutils
 /
 test
 :
+scoped_key_value_config
+"
+"
+.
+.
+/
+.
+.
+/
+test
+:
 test_support
 "
 ]

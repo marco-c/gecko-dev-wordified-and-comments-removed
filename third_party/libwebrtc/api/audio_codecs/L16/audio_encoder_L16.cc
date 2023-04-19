@@ -386,6 +386,10 @@ optional
 <
 AudioCodecPairId
 >
+const
+WebRtcKeyValueConfig
+*
+field_trials
 )
 {
 AudioEncoderPcm16B
