@@ -42,6 +42,14 @@ video
 avc
 "
 )
+AV1
+(
+"
+video
+/
+av01
+"
+)
 ;
 private
 final
