@@ -4504,11 +4504,10 @@ MozVirtualAlloc
 ;
 #
 else
-using
+#
+define
 MozVirtualAlloc
-=
 VirtualAlloc
-;
 #
 endif
 #
