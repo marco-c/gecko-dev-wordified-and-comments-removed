@@ -288,6 +288,13 @@ system
 :
 rtc_export
 "
+"
+/
+/
+third_party
+/
+libyuv
+"
 ]
 if
 (
