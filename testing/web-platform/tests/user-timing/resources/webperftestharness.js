@@ -664,10 +664,9 @@ function
 (
 )
 {
-assert_true
+assert_greater_than
 (
 value
->
 greater_than
 msg
 )
@@ -693,11 +692,9 @@ function
 (
 )
 {
-assert_true
+assert_greater_than_equal
 (
 value
->
-=
 greater_than
 msg
 )
