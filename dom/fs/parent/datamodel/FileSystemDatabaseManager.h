@@ -171,9 +171,9 @@ nsresult
 GetFile
 (
 const
-FileSystemEntryPair
+EntryId
 &
-aEndpoints
+aEntryId
 nsString
 &
 aType
