@@ -6434,6 +6434,16 @@ rtc_base
 /
 system
 :
+no_unique_address
+"
+"
+.
+.
+/
+rtc_base
+/
+system
+:
 rtc_export
 "
 ]

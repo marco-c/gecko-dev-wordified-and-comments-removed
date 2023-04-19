@@ -907,15 +907,6 @@ EnablesEncodedOutputOnChannelRestart
 InSequence
 s
 ;
-EXPECT_CALL
-(
-channel_
-ClearRecordableEncodedFrameCallback
-(
-0
-)
-)
-;
 MockVideoSink
 sink
 ;
