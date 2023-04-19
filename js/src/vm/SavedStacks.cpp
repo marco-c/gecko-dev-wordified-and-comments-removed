@@ -5163,7 +5163,7 @@ isWasm
 js
 :
 :
-ToCStringBuf
+Int32ToCStringBuf
 cbuf
 ;
 const
@@ -5171,7 +5171,7 @@ char
 *
 cstr
 =
-NumberToHexCString
+Uint32ToHexCString
 (
 &
 cbuf

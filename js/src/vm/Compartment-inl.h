@@ -1165,14 +1165,14 @@ methodName
 argIndex
 ]
 {
-ToCStringBuf
+Int32ToCStringBuf
 cbuf
 ;
 char
 *
 numStr
 =
-NumberToCString
+Int32ToCString
 (
 &
 cbuf
