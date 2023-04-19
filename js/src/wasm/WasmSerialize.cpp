@@ -4528,9 +4528,6 @@ codeStart
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 MOZ_TRY
 (
 CodePodVector
@@ -4544,8 +4541,6 @@ tryNotes
 )
 )
 ;
-#
-endif
 return
 Ok
 (
@@ -4737,9 +4732,6 @@ tables
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 MOZ_TRY
 (
 (
@@ -4764,8 +4756,6 @@ tags
 )
 )
 ;
-#
-endif
 MOZ_TRY
 (
 CodePod
