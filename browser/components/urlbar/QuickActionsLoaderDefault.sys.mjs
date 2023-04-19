@@ -1017,9 +1017,6 @@ quickactions
 -
 print
 "
-isActive
-:
-currentPageIsWebContentFilter
 onPick
 :
 (
