@@ -1,0 +1,17 @@
+#
+import
+<
+UIKit
+/
+UIKit
+.
+h
+>
+interface
+ARDAppDelegate
+:
+NSObject
+<
+UIApplicationDelegate
+>
+end

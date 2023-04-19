@@ -1,0 +1,17 @@
+#
+import
+<
+Cocoa
+/
+Cocoa
+.
+h
+>
+interface
+APPRTCAppDelegate
+:
+NSObject
+<
+NSApplicationDelegate
+>
+end

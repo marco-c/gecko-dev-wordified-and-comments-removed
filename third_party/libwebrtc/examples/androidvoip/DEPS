@@ -1,0 +1,12 @@
+include_rules
+=
+[
+"
++
+sdk
+/
+android
+/
+native_api
+"
+]
