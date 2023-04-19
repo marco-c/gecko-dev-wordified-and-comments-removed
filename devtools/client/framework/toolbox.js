@@ -13400,11 +13400,6 @@ ignoreSubFrames
 )
 {
 return
-Promise
-.
-resolve
-(
-)
 ;
 }
 try
@@ -13562,6 +13557,7 @@ rootFrameSelected
 )
 {
 return
+null
 ;
 }
 const
@@ -13583,6 +13579,7 @@ frameInfo
 )
 {
 return
+null
 ;
 }
 let
@@ -15493,7 +15490,7 @@ domNodeConstants
 ELEMENT_NODE
 )
 {
-return
+await
 this
 .
 viewElementInInspector
@@ -15501,6 +15498,8 @@ viewElementInInspector
 objectGrip
 inspectFromAnnotation
 )
+;
+return
 ;
 }
 if
@@ -15551,7 +15550,7 @@ objectGrip
 .
 location
 ;
-return
+await
 this
 .
 viewSourceInDebugger
@@ -15560,6 +15559,8 @@ url
 line
 column
 )
+;
+return
 ;
 }
 if
@@ -17055,6 +17056,7 @@ given
 )
 ;
 return
+false
 ;
 }
 return
@@ -17104,6 +17106,7 @@ given
 )
 ;
 return
+false
 ;
 }
 if
@@ -17206,6 +17209,7 @@ given
 )
 ;
 return
+false
 ;
 }
 if
@@ -17362,6 +17366,7 @@ given
 )
 ;
 return
+false
 ;
 }
 return
@@ -17429,6 +17434,7 @@ given
 )
 ;
 return
+false
 ;
 }
 if

@@ -1580,14 +1580,8 @@ if
 this
 .
 _prefValue
-)
-{
-return
-null
-;
-}
-if
-(
+|
+|
 this
 .
 _commands
@@ -1598,6 +1592,7 @@ isWorkerDescriptor
 )
 {
 return
+null
 ;
 }
 if

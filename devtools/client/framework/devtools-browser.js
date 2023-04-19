@@ -1541,6 +1541,9 @@ msg
 )
 ;
 }
+return
+null
+;
 }
 loadBrowserStyleSheet
 (
