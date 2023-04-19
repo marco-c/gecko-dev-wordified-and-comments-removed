@@ -113,6 +113,11 @@ CallConfig
 RtcEventLog
 *
 event_log
+TaskQueueBase
+*
+network_task_queue
+=
+nullptr
 )
 ;
 CallConfig
@@ -147,6 +152,7 @@ nullptr
 ;
 RtcEventLog
 *
+const
 event_log
 =
 nullptr
@@ -185,6 +191,13 @@ const
 WebRtcKeyValueConfig
 *
 trials
+=
+nullptr
+;
+TaskQueueBase
+*
+const
+network_task_queue_
 =
 nullptr
 ;
