@@ -71,7 +71,7 @@ FixedDigitalLevelEstimator
 :
 FixedDigitalLevelEstimator
 (
-size_t
+int
 sample_rate_hz
 ApmDataDumper
 *
@@ -236,7 +236,7 @@ channel_idx
 ;
 for
 (
-size_t
+int
 sub_frame
 =
 0
@@ -252,7 +252,7 @@ sub_frame
 {
 for
 (
-size_t
+int
 sample_in_sub_frame
 =
 0
@@ -301,7 +301,7 @@ sample_in_sub_frame
 }
 for
 (
-size_t
+int
 sub_frame
 =
 0
@@ -348,7 +348,7 @@ sub_frame
 }
 for
 (
-size_t
+int
 sub_frame
 =
 0
@@ -482,7 +482,7 @@ FixedDigitalLevelEstimator
 :
 SetSampleRate
 (
-size_t
+int
 sample_rate_hz
 )
 {
@@ -496,13 +496,7 @@ CheckedDivExact
 sample_rate_hz
 *
 kFrameDurationMs
-static_cast
-<
-size_t
->
-(
 1000
-)
 )
 ;
 samples_in_sub_frame_
