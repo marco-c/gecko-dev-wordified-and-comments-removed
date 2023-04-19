@@ -28048,6 +28048,13 @@ protocols
 PREF_LIST_ENTRY
 (
 "
+pdfjs
+.
+"
+)
+PREF_LIST_ENTRY
+(
+"
 print
 .
 printer_
