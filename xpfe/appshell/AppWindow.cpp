@@ -13962,7 +13962,7 @@ static
 bool
 sHiddenWindowLoadedNativeMenus
 =
-false
+true
 ;
 static
 nsTArray
