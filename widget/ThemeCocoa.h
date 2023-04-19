@@ -56,7 +56,7 @@ aScrollbarDrawing
 )
 {
 }
-NS_IMETHOD
+LayoutDeviceIntSize
 GetMinimumWidgetSize
 (
 nsPresContext
@@ -67,15 +67,6 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-mozilla
-:
-:
-LayoutDeviceIntSize
-*
-aResult
-bool
-*
-aIsOverridable
 )
 override
 ;

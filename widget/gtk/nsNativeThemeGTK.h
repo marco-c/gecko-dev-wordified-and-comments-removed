@@ -217,7 +217,10 @@ nsIFrame
 StyleAppearance
 )
 ;
-NS_IMETHOD
+mozilla
+:
+:
+LayoutDeviceIntSize
 GetMinimumWidgetSize
 (
 nsPresContext
@@ -228,15 +231,6 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-mozilla
-:
-:
-LayoutDeviceIntSize
-*
-aResult
-bool
-*
-aIsOverridable
 )
 override
 ;
