@@ -120,6 +120,9 @@ priority
 args
 .
 turn_customizer
+args
+.
+field_trials
 )
 ;
 if
@@ -250,6 +253,9 @@ config
 -
 >
 tls_cert_verifier
+args
+.
+field_trials
 )
 ;
 if

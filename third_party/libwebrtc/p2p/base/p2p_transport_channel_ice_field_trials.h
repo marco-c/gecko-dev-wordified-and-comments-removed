@@ -102,6 +102,16 @@ int
 >
 override_dscp
 ;
+bool
+piggyback_ice_check_acknowledgement
+=
+false
+;
+bool
+extra_ice_ping
+=
+false
+;
 }
 ;
 }

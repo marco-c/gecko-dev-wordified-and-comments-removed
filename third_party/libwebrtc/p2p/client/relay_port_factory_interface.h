@@ -56,6 +56,9 @@ webrtc
 class
 TurnCustomizer
 ;
+class
+WebRtcKeyValueConfig
+;
 }
 namespace
 cricket
@@ -125,6 +128,16 @@ webrtc
 TurnCustomizer
 *
 turn_customizer
+;
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
+=
+nullptr
 ;
 }
 ;
