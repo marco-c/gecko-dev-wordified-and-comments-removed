@@ -163,7 +163,7 @@ features
 :
 [
 "
-leaf
+js
 "
 "
 ipcmessages
@@ -403,7 +403,7 @@ features
 :
 [
 "
-leaf
+js
 "
 ]
 }
