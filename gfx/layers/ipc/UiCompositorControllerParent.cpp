@@ -365,6 +365,13 @@ parent
 parent
 -
 >
+ForceIsFirstPaint
+(
+)
+;
+parent
+-
+>
 ResumeComposition
 (
 )
