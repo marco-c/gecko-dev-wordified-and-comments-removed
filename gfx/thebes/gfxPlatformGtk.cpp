@@ -5206,7 +5206,7 @@ forget
 #
 else
 return
-CreateSoftwareVsyncSource
+GetSoftwareVsyncSource
 (
 )
 ;

@@ -43,11 +43,16 @@ mozilla
 :
 widget
 ;
+#
+ifdef
+MOZ_X11
 static
 class
 GLContextProviderGLX
 sGLContextProviderGLX
 ;
+#
+endif
 static
 class
 GLContextProviderEGL
@@ -91,6 +96,9 @@ aHardwareWebRender
 aForceAccelerated
 )
 ;
+#
+ifdef
+MOZ_X11
 }
 else
 {
@@ -104,6 +112,8 @@ aHardwareWebRender
 aForceAccelerated
 )
 ;
+#
+endif
 }
 }
 already_AddRefed
@@ -144,6 +154,9 @@ desc
 out_failureId
 )
 ;
+#
+ifdef
+MOZ_X11
 }
 else
 {
@@ -156,6 +169,8 @@ desc
 out_failureId
 )
 ;
+#
+endif
 }
 }
 GLContext
@@ -184,6 +199,9 @@ GetGlobalContext
 (
 )
 ;
+#
+ifdef
+MOZ_X11
 }
 else
 {
@@ -194,6 +212,8 @@ GetGlobalContext
 (
 )
 ;
+#
+endif
 }
 }
 void
@@ -220,6 +240,9 @@ Shutdown
 (
 )
 ;
+#
+ifdef
+MOZ_X11
 }
 else
 {
@@ -229,6 +252,8 @@ Shutdown
 (
 )
 ;
+#
+endif
 }
 }
 }
