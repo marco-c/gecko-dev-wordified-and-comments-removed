@@ -349,7 +349,7 @@ gni
 )
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -357,7 +357,7 @@ arm
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -382,7 +382,7 @@ gni
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -390,7 +390,7 @@ mipsel
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -398,7 +398,7 @@ mips64el
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -406,7 +406,7 @@ mips
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -431,7 +431,7 @@ gni
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1853,7 +1853,7 @@ is_chromeos_ash
 |
 !
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1861,7 +1861,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -3099,7 +3099,7 @@ if
 is_android
 &
 &
-current_cpu
+target_cpu
 =
 =
 "
@@ -3928,7 +3928,7 @@ use_lld
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -6162,7 +6162,7 @@ if
 is_android
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -6285,7 +6285,7 @@ pr36291
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -7499,7 +7499,7 @@ architecture
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -7539,7 +7539,7 @@ m64
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -7591,7 +7591,7 @@ msse3
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -7696,7 +7696,7 @@ arm_tune
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -7758,7 +7758,7 @@ gnu
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -8263,7 +8263,7 @@ float
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -8545,7 +8545,7 @@ float
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -8896,7 +8896,7 @@ loongson3a
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -9098,7 +9098,7 @@ mips64r2
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -9284,7 +9284,7 @@ gnueabihf
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -9346,7 +9346,7 @@ m64
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -9454,7 +9454,7 @@ compiler_codegen
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -10466,7 +10466,7 @@ compiler_arm_fpu
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -10522,7 +10522,7 @@ compiler_arm_thumb
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -10564,7 +10564,7 @@ compiler_arm
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -12473,7 +12473,7 @@ wd4577
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -12659,7 +12659,7 @@ warning
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -13757,7 +13757,7 @@ is_debug
 using_sanitizer
 &
 &
-current_cpu
+target_cpu
 !
 =
 "
@@ -13765,7 +13765,7 @@ s390x
 "
 &
 &
-current_cpu
+target_cpu
 !
 =
 "
@@ -13773,7 +13773,7 @@ s390
 "
 &
 &
-current_cpu
+target_cpu
 !
 =
 "
@@ -13781,7 +13781,7 @@ ppc64
 "
 &
 &
-current_cpu
+target_cpu
 !
 =
 "
@@ -13789,7 +13789,7 @@ mips
 "
 &
 &
-current_cpu
+target_cpu
 !
 =
 "
@@ -15891,7 +15891,7 @@ types
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -15899,7 +15899,7 @@ mipsel
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -15923,7 +15923,7 @@ if
 is_chromeos_ash
 &
 &
-current_cpu
+target_cpu
 =
 =
 "
@@ -16419,7 +16419,7 @@ com
 .
 if
 (
-current_cpu
+target_cpu
 !
 =
 "
@@ -16427,7 +16427,7 @@ mipsel
 "
 &
 &
-current_cpu
+target_cpu
 !
 =
 "
@@ -16745,7 +16745,7 @@ if
 is_clang
 &
 &
-current_cpu
+target_cpu
 =
 =
 "
@@ -19764,7 +19764,7 @@ is_apple
 is_nacl
 &
 &
-current_cpu
+target_cpu
 !
 =
 "

@@ -197,7 +197,7 @@ compiler
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -399,7 +399,7 @@ target
 use_custom_libcxx
 |
 |
-current_cpu
+target_cpu
 =
 =
 "

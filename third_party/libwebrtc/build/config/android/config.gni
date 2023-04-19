@@ -2142,7 +2142,7 @@ roots
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2170,7 +2170,7 @@ android
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2198,7 +2198,7 @@ androideabi
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2226,7 +2226,7 @@ android
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2254,7 +2254,7 @@ android
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2282,7 +2282,7 @@ android
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

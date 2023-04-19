@@ -447,7 +447,7 @@ compiler
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -810,7 +810,7 @@ dllexportInlines
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -831,7 +831,7 @@ m32
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -852,7 +852,7 @@ m64
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -882,10 +882,10 @@ assert
 false
 "
 unknown
-current_cpu
+target_cpu
 "
 +
-current_cpu
+target_cpu
 )
 }
 #
@@ -922,7 +922,7 @@ AVX
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -930,7 +930,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -2256,7 +2256,7 @@ sdk_link
 {
 assert
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2264,7 +2264,7 @@ x64
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -2272,7 +2272,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -2280,7 +2280,7 @@ arm
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -2299,7 +2299,7 @@ CPUs
 )
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2321,7 +2321,7 @@ X64
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2362,7 +2362,7 @@ largeaddressaware
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2384,7 +2384,7 @@ ARM
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2427,7 +2427,7 @@ visual_studio_path
 windows_sdk_path
 visual_studio_runtime_dirs
 current_os
-current_cpu
+target_cpu
 "
 none
 "
@@ -4261,7 +4261,7 @@ version
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -4302,7 +4302,7 @@ subsystem_version_suffix
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

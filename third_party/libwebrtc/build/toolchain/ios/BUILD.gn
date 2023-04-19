@@ -170,7 +170,7 @@ ios_clang_arm64
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm64
@@ -187,7 +187,7 @@ ios_clang_arm64_13_0
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm64
@@ -211,7 +211,7 @@ ios_clang_arm64_14_0
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm64
@@ -235,7 +235,7 @@ ios_clang_arm64_fat_arm
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm
@@ -268,7 +268,7 @@ ios_clang_arm
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm
@@ -285,7 +285,7 @@ ios_clang_x64
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x64
@@ -302,7 +302,7 @@ ios_clang_x64_fat_arm64
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm64
@@ -335,7 +335,7 @@ ios_clang_x64_13_0
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x64
@@ -359,7 +359,7 @@ ios_clang_x64_14_0
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x64
@@ -383,7 +383,7 @@ ios_clang_x64_14_0_fat_arm64
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm64
@@ -423,7 +423,7 @@ ios_clang_x64_fat_x86
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x86
@@ -456,7 +456,7 @@ ios_clang_x86
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x86

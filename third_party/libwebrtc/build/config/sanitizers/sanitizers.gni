@@ -1057,7 +1057,7 @@ false
 else
 if
 (
-current_cpu
+target_cpu
 !
 =
 "
@@ -1795,7 +1795,7 @@ is_chromeos
 )
 &
 &
-current_cpu
+target_cpu
 =
 =
 "

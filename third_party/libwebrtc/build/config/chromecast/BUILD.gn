@@ -446,7 +446,7 @@ if
 is_clang
 &
 &
-current_cpu
+target_cpu
 =
 =
 "
@@ -662,7 +662,7 @@ shared_library_config
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

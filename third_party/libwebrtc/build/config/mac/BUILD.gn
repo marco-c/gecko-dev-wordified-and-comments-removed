@@ -164,7 +164,7 @@ architecture
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -181,7 +181,7 @@ x86_64
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -198,7 +198,7 @@ i386
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -208,7 +208,7 @@ arm64
 {
 clang_arch
 =
-current_cpu
+target_cpu
 }
 else
 {
@@ -217,8 +217,8 @@ assert
 false
 "
 unknown
-current_cpu
-current_cpu
+target_cpu
+target_cpu
 "
 )
 }

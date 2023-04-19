@@ -186,7 +186,7 @@ x64
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x64
@@ -203,7 +203,7 @@ arm64
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm64

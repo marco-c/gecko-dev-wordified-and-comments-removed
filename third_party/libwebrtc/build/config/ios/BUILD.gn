@@ -272,7 +272,7 @@ architecture
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -289,7 +289,7 @@ x86_64
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -306,7 +306,7 @@ i386
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -314,7 +314,7 @@ arm
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -331,7 +331,7 @@ armv7
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -354,7 +354,7 @@ false
 unsupported
 cpu
 :
-current_cpu
+target_cpu
 "
 )
 }

@@ -294,7 +294,7 @@ dll
 ]
 if
 (
-current_cpu
+target_cpu
 !
 =
 "
@@ -1306,7 +1306,7 @@ cdb
 "
 root_out_dir
 )
-current_cpu
+target_cpu
 ]
 }
 group
@@ -1441,7 +1441,7 @@ dll
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1540,7 +1540,7 @@ dll
 }
 if
 (
-current_cpu
+target_cpu
 !
 =
 "

@@ -511,7 +511,7 @@ android
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x86
@@ -673,7 +673,7 @@ androideabi
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm
@@ -699,7 +699,7 @@ android
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 mipsel
@@ -725,7 +725,7 @@ android
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x64
@@ -887,7 +887,7 @@ android
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm64
@@ -913,7 +913,7 @@ android
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm64
@@ -945,7 +945,7 @@ android
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 mips64el

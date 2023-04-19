@@ -491,9 +491,9 @@ these
 set
 :
 #
-current_cpu
+target_cpu
 :
-current_cpu
+target_cpu
 to
 pass
 as
@@ -1883,7 +1883,7 @@ if
 (
 toolchain_args
 .
-current_cpu
+target_cpu
 =
 =
 "
@@ -2036,7 +2036,7 @@ if
 (
 toolchain_args
 .
-current_cpu
+target_cpu
 =
 =
 "
@@ -2115,7 +2115,7 @@ if
 (
 toolchain_args
 .
-current_cpu
+target_cpu
 !
 =
 "
@@ -2243,7 +2243,7 @@ if
 (
 toolchain_args
 .
-current_cpu
+target_cpu
 !
 =
 "
@@ -3796,7 +3796,7 @@ current_os
 "
 win
 "
-current_cpu
+target_cpu
 =
 "
 arm64
@@ -3977,7 +3977,7 @@ current_os
 "
 win
 "
-current_cpu
+target_cpu
 =
 "
 arm64
@@ -4285,7 +4285,7 @@ current_os
 "
 winuwp
 "
-current_cpu
+target_cpu
 =
 target_cpu
 is_clang

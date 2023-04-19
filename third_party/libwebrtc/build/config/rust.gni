@@ -481,7 +481,7 @@ is_android
 &
 &
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -489,7 +489,7 @@ arm
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -497,7 +497,7 @@ arm64
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -505,7 +505,7 @@ x64
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -520,7 +520,7 @@ x86
 is_linux
 &
 &
-current_cpu
+target_cpu
 =
 =
 "
@@ -913,7 +913,7 @@ is_fuchsia
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -932,7 +932,7 @@ fuchsia
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -969,7 +969,7 @@ is_ios
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -990,7 +990,7 @@ ios
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1070,7 +1070,7 @@ ios
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1091,7 +1091,7 @@ ios
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

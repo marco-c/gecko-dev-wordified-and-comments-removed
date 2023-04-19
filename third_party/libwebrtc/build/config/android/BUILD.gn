@@ -260,7 +260,7 @@ _1
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -405,7 +405,7 @@ libgcc
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -732,7 +732,7 @@ platforms
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -740,7 +740,7 @@ arm
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -774,7 +774,7 @@ unwind
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -793,7 +793,7 @@ unwind
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -818,7 +818,7 @@ atomic
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -864,7 +864,7 @@ com
 .
 if
 (
-current_cpu
+target_cpu
 !
 =
 "
@@ -872,7 +872,7 @@ mipsel
 "
 &
 &
-current_cpu
+target_cpu
 !
 =
 "

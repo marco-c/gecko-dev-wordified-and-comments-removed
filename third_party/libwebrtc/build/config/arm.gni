@@ -53,7 +53,7 @@ are
 primarily
 relevant
 in
-current_cpu
+target_cpu
 =
 =
 "
@@ -100,7 +100,7 @@ for
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -108,7 +108,7 @@ arm
 "
 |
 |
-v8_current_cpu
+v8_target_cpu
 =
 =
 "
@@ -767,7 +767,7 @@ d16
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -775,7 +775,7 @@ arm64
 "
 |
 |
-v8_current_cpu
+v8_target_cpu
 =
 =
 "

@@ -518,7 +518,7 @@ true
 clang_use_chrome_plugins
 =
 false
-current_cpu
+target_cpu
 =
 target_cpu
 current_os
@@ -670,7 +670,7 @@ true
 clang_use_chrome_plugins
 =
 false
-current_cpu
+target_cpu
 =
 target_cpu
 current_os
@@ -773,7 +773,7 @@ false
 is_clang
 =
 cros_host_is_clang
-current_cpu
+target_cpu
 =
 host_cpu
 current_os
@@ -896,7 +896,7 @@ mipsel
 "
 )
 {
-current_cpu
+target_cpu
 =
 "
 x86
@@ -904,13 +904,13 @@ x86
 }
 else
 {
-current_cpu
+target_cpu
 =
 "
 x64
 "
 }
-v8_current_cpu
+v8_target_cpu
 =
 v8_target_cpu
 current_os

@@ -250,7 +250,7 @@ clang_arm
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm
@@ -267,7 +267,7 @@ clang_arm64
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 arm64
@@ -284,7 +284,7 @@ clang_x64
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x64
@@ -301,7 +301,7 @@ clang_x86
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x86
@@ -318,7 +318,7 @@ clang_x86_v8_arm
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x86
@@ -327,11 +327,11 @@ if
 (
 defined
 (
-v8_current_cpu
+v8_target_cpu
 )
 )
 {
-v8_current_cpu
+v8_target_cpu
 =
 "
 arm
@@ -349,7 +349,7 @@ clang_x86_v8_mipsel
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x86
@@ -358,11 +358,11 @@ if
 (
 defined
 (
-v8_current_cpu
+v8_target_cpu
 )
 )
 {
-v8_current_cpu
+v8_target_cpu
 =
 "
 mipsel
@@ -380,7 +380,7 @@ clang_x64_v8_arm64
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x64
@@ -389,11 +389,11 @@ if
 (
 defined
 (
-v8_current_cpu
+v8_target_cpu
 )
 )
 {
-v8_current_cpu
+v8_target_cpu
 =
 "
 arm64
@@ -411,7 +411,7 @@ clang_x64_v8_mips64el
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 x64
@@ -420,11 +420,11 @@ if
 (
 defined
 (
-v8_current_cpu
+v8_target_cpu
 )
 )
 {
-v8_current_cpu
+v8_target_cpu
 =
 "
 mips64el
