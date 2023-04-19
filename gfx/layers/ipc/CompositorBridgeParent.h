@@ -3023,12 +3023,6 @@ sFramesComposited
 ;
 RefPtr
 <
-Compositor
->
-mCompositor
-;
-RefPtr
-<
 AsyncImagePipelineManager
 >
 mAsyncImageManager
