@@ -5198,6 +5198,14 @@ fieldType
 "
 number
 "
+|
+|
+fieldType
+=
+=
+"
+search
+"
 )
 )
 {

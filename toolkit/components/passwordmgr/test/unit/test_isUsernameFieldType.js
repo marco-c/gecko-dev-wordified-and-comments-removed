@@ -498,7 +498,7 @@ search
 >
 expected
 :
-false
+true
 }
 {
 description
