@@ -2066,7 +2066,13 @@ return
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 key
 (
 jsapi

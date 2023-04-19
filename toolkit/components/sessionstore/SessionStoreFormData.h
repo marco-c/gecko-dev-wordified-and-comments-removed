@@ -228,7 +228,11 @@ aCx
 JS
 :
 :
-MutableHandleObject
+MutableHandle
+<
+JSObject
+*
+>
 aRetval
 )
 ;
