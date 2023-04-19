@@ -535,10 +535,7 @@ of
 failures
 *
 /
-[
-implicit_jscontext
-]
-Promise
+AString
 createShortcut
 (
 in
@@ -1255,10 +1252,7 @@ AString
 aPath
 )
 ;
-[
-implicit_jscontext
-]
-Promise
+bool
 hasMatchingShortcut
 (
 in
