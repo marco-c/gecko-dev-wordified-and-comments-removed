@@ -123,7 +123,7 @@ rto_min
 =
 DurationMs
 (
-120
+220
 )
 ;
 DurationMs
