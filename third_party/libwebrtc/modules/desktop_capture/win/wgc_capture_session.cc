@@ -1426,7 +1426,7 @@ image_data
 ;
 image_data
 .
-reserve
+resize
 (
 image_height
 *
