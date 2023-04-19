@@ -2187,6 +2187,16 @@ type
 ;
 inline
 void
+loadNumActualArgs
+(
+Register
+framePtr
+Register
+dest
+)
+;
+inline
+void
 PushCalleeToken
 (
 Register
