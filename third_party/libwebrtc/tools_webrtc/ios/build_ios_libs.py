@@ -173,9 +173,6 @@ ENABLED_ARCHS
 arm64
 '
 '
-arm
-'
-'
 x64
 '
 '
