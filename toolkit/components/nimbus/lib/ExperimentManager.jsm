@@ -1010,6 +1010,9 @@ new
 Map
 (
 )
+validationEnabled
+=
+true
 }
 =
 {
@@ -1086,6 +1089,11 @@ invalidBranches
 invalidFeatures
 )
 ;
+if
+(
+validationEnabled
+)
+{
 for
 (
 const
@@ -1187,6 +1195,7 @@ featureId
 }
 )
 ;
+}
 }
 }
 this
