@@ -9928,6 +9928,13 @@ empty
 )
 )
 ;
+if
+(
+!
+encoder_
+)
+return
+;
 std
 :
 :

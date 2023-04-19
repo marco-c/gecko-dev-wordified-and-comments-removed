@@ -1174,13 +1174,6 @@ transport_queue_safety_
 this
 ]
 {
-transport_queue_safety_
--
->
-SetNotAlive
-(
-)
-;
 send_stream_
 .
 Stop
