@@ -171,9 +171,6 @@ aPc
 MediaTransportHandler
 *
 aTransportHandler
-JsepTransceiver
-*
-aJsepTransceiver
 AbstractThread
 *
 aCallThread
@@ -630,6 +627,12 @@ GetMid
 )
 const
 ;
+JsepTransceiver
+&
+GetJsepTransceiver
+(
+)
+;
 void
 ApplyParameters
 (
@@ -655,13 +658,6 @@ RefPtr
 PeerConnectionImpl
 >
 mPc
-;
-const
-RefPtr
-<
-JsepTransceiver
->
-mJsepTransceiver
 ;
 RefPtr
 <
