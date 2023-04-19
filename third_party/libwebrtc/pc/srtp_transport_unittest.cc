@@ -152,6 +152,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+scoped_key_value_config
+.
+h
+"
 using
 rtc
 :
@@ -331,6 +340,7 @@ SrtpTransport
 >
 (
 rtcp_mux_enabled
+field_trials_
 )
 ;
 srtp_transport2_
@@ -344,6 +354,7 @@ SrtpTransport
 >
 (
 rtcp_mux_enabled
+field_trials_
 )
 ;
 srtp_transport1_
@@ -2076,6 +2087,15 @@ int
 sequence_number_
 =
 0
+;
+webrtc
+:
+:
+test
+:
+:
+ScopedKeyValueConfig
+field_trials_
 ;
 }
 ;

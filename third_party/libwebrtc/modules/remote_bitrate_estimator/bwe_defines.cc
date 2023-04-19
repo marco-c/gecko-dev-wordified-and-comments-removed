@@ -11,17 +11,6 @@ bwe_defines
 .
 h
 "
-#
-include
-"
-system_wrappers
-/
-include
-/
-field_trial
-.
-h
-"
 namespace
 webrtc
 {

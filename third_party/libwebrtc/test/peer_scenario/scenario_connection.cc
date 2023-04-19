@@ -827,6 +827,13 @@ packet
 ;
 }
 ;
+config
+.
+field_trials
+=
+&
+field_trials
+;
 return
 config
 ;

@@ -707,6 +707,14 @@ SSLHandshakeError
 >
 on_dtls_handshake_error_
 ;
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
+;
 }
 ;
 JsepTransportController

@@ -30,8 +30,6 @@ include
 "
 api
 /
-transport
-/
 webrtc_key_value_config
 .
 h

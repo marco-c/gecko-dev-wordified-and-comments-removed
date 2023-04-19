@@ -12,8 +12,6 @@ include
 "
 api
 /
-transport
-/
 webrtc_key_value_config
 .
 h
@@ -24,17 +22,6 @@ include
 rtc_base
 /
 checks
-.
-h
-"
-#
-include
-"
-system_wrappers
-/
-include
-/
-field_trial
 .
 h
 "

@@ -864,6 +864,16 @@ channel
 )
 {
 }
+virtual
+const
+WebRtcKeyValueConfig
+&
+trials
+(
+)
+=
+0
+;
 }
 ;
 }

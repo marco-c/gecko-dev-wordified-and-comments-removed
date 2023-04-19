@@ -192,11 +192,19 @@ SrtpTransport
 (
 bool
 rtcp_mux_enabled
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 RtpTransport
 (
 rtcp_mux_enabled
+)
+field_trials_
+(
+field_trials
 )
 {
 }
@@ -2028,6 +2036,7 @@ cricket
 :
 SrtpSession
 (
+field_trials_
 )
 )
 ;
@@ -2060,6 +2069,7 @@ cricket
 :
 SrtpSession
 (
+field_trials_
 )
 )
 ;
@@ -2227,6 +2237,7 @@ cricket
 :
 SrtpSession
 (
+field_trials_
 )
 )
 ;
@@ -2240,6 +2251,7 @@ cricket
 :
 SrtpSession
 (
+field_trials_
 )
 )
 ;

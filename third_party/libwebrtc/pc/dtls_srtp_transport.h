@@ -121,11 +121,14 @@ SrtpTransport
 {
 public
 :
-explicit
 DtlsSrtpTransport
 (
 bool
 rtcp_mux_enabled
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 void
