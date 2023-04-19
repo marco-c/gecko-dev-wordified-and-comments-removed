@@ -109,9 +109,7 @@ STATE_INVISIBLE
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -328,5 +326,16 @@ li
 ul
 >
 runTest
+{
+chrome
+:
+true
+iframe
+:
+true
+remoteIframe
+:
+true
+}
 )
 ;
