@@ -3382,6 +3382,9 @@ foo
 .
 com
 "
+sponsored_tile_id
+:
+12345
 }
 ;
 const
@@ -3523,6 +3526,11 @@ typedBonus
 FAKE_SITE
 .
 typedBonus
+sponsored_tile_id
+:
+FAKE_SITE
+.
+sponsored_tile_id
 }
 "
 newtab
