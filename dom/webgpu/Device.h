@@ -376,9 +376,9 @@ RawId
 aId
 uint32_t
 aMode
-size_t
+uint64_t
 aOffset
-size_t
+uint64_t
 aSize
 ErrorResult
 &
