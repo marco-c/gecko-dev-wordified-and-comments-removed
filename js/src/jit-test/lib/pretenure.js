@@ -140,6 +140,14 @@ incrementalGCEnabled
 false
 )
 ;
+gcparam
+(
+"
+balancedHeapLimitsEnabled
+"
+false
+)
+;
 let
 o
 =

@@ -438,6 +438,16 @@ gcHeapSize
 retainedBytes
 (
 )
+smoothedAllocationRate
+.
+ref
+(
+)
+smoothedCollectionRate
+.
+ref
+(
+)
 gc
 .
 tunables
