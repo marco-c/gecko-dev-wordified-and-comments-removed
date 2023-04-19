@@ -92,6 +92,10 @@ PBackgroundFileSystemParent
 >
 AllocPBackgroundFileSystemParent
 (
+const
+PrincipalInfo
+&
+aPrincipalInfo
 )
 override
 ;
