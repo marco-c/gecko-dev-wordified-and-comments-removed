@@ -17,7 +17,9 @@ is
 a
 public_deps
 of
-rtc_base_approved
+rtc_base
+:
+refcount
 .
 Necessary
 because
