@@ -5309,13 +5309,5 @@ heuristics
 testConfidence
 "
 null
-null
-pref
-=
->
-parseFloat
-(
-pref
-)
 )
 ;
