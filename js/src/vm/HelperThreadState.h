@@ -2234,9 +2234,6 @@ CompilationGCOutput
 >
 gcOutput_
 ;
-OffThreadFrontendErrors
-errors
-;
 OffThreadErrorContext
 ec_
 ;
