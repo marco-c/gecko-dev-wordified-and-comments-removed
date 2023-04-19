@@ -505,7 +505,7 @@ webrtc
 StrongAlias
 <
 class
-TimeMsTag
+MaxRetransmitsTag
 uint16_t
 >
 {
@@ -527,7 +527,7 @@ webrtc
 StrongAlias
 <
 class
-TimeMsTag
+MaxRetransmitsTag
 uint16_t
 >
 (
