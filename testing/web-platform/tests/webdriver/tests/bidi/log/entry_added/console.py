@@ -1,8 +1,4 @@
 import
-math
-import
-time
-import
 pytest
 from
 webdriver
@@ -19,6 +15,14 @@ from
 import
 assert_console_entry
 create_console_api_message_for_primitive_value
+from
+.
+.
+.
+import
+any_string
+int_interval
+recursive_compare
 pytest
 .
 mark
@@ -69,12 +73,7 @@ PARAMETERS
 {
 }
 "
-"
-[
-object
-Object
-]
-"
+any_string
 )
         
 (
@@ -91,11 +90,7 @@ Object
 '
 ]
 "
-"
-1
-2
-3
-"
+any_string
 )
         
 (
@@ -465,6 +460,7 @@ entryAdded
     
 time_start
 =
+await
 current_time
 (
 )
@@ -555,26 +551,26 @@ on_entry_added
     
 time_end
 =
+await
 current_time
 (
 )
     
 assert_console_entry
 (
-        
 event_data
 text
 =
 "
 foo
 "
-time_start
+timestamp
 =
+int_interval
+(
 time_start
 time_end
-=
-time_end
-    
+)
 )
 pytest
 .

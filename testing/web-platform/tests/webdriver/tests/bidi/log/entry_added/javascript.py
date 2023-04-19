@@ -9,6 +9,12 @@ from
 import
 assert_javascript_entry
 create_log
+from
+.
+.
+.
+import
+int_interval
 pytest
 .
 mark
@@ -58,6 +64,7 @@ entryAdded
     
 time_start
 =
+await
 current_time
 (
 )
@@ -84,6 +91,7 @@ on_entry_added
     
 time_end
 =
+await
 current_time
 (
 )
@@ -103,13 +111,13 @@ text
 =
 expected_text
         
-time_start
+timestamp
 =
+int_interval
+(
 time_start
-        
 time_end
-=
-time_end
+)
         
 context
 =
