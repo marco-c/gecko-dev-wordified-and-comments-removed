@@ -2157,7 +2157,7 @@ network_info
 handle
 ;
 }
-SignalNetworksChanged
+InvokeNetworksChangedCallback
 (
 )
 ;
@@ -2599,7 +2599,7 @@ adapter_type
 =
 preference
 ;
-SignalNetworksChanged
+InvokeNetworksChangedCallback
 (
 )
 ;
@@ -3216,7 +3216,7 @@ change
 .
 "
 ;
-SignalNetworksChanged
+InvokeNetworksChangedCallback
 (
 )
 ;
