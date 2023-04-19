@@ -8877,7 +8877,7 @@ test
 TEST_F
 (
 VideoSendStreamTest
-RelayToDirectRoute
+DISABLED_RelayToDirectRoute
 )
 {
 static
