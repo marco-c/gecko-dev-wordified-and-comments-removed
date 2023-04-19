@@ -4979,6 +4979,16 @@ desktop_capture
 /
 primitives_gn
 "
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
+win32_gn
+"
 ]
 if
 CONFIG
