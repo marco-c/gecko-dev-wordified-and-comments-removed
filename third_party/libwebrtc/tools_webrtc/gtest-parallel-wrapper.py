@@ -1495,6 +1495,7 @@ test_artifacts_dir
 )
   
 print
+(
 '
 gtest
 -
@@ -1514,6 +1515,7 @@ s
 join
 (
 command
+)
 )
   
 sys
