@@ -959,7 +959,11 @@ back
 )
 ;
 }
-void
+PeerConnectionE2EQualityTest
+:
+:
+PeerHandle
+*
 PeerConnectionE2EQualityTest
 :
 :
@@ -991,6 +995,7 @@ PeerConfigurer
 configurer
 )
 {
+return
 AddAndReturnPeer
 (
 network_thread

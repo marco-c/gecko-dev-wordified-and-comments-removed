@@ -1508,7 +1508,8 @@ quality_metrics_reporter
 0
 ;
 virtual
-void
+PeerHandle
+*
 AddPeer
 (
 rtc
@@ -1537,6 +1538,9 @@ PeerConfigurer
 configurer
 )
 {
+return
+nullptr
+;
 }
 virtual
 PeerHandle

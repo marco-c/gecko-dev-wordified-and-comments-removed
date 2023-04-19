@@ -423,7 +423,8 @@ quality_metrics_reporter
 )
 override
 ;
-void
+PeerHandle
+*
 AddPeer
 (
 rtc
