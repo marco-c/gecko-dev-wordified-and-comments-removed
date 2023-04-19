@@ -165,6 +165,8 @@ inspector
 const
 container
 =
+(
+await
 getRuleViewProperty
 (
 view
@@ -175,6 +177,12 @@ turn
 "
 filter
 "
+{
+wait
+:
+true
+}
+)
 )
 .
 valueSpan
@@ -357,6 +365,8 @@ inspector
 let
 container
 =
+(
+await
 getRuleViewProperty
 (
 view
@@ -367,6 +377,12 @@ deg
 "
 filter
 "
+{
+wait
+:
+true
+}
+)
 )
 .
 valueSpan
@@ -465,6 +481,8 @@ inspector
 ;
 container
 =
+(
+await
 getRuleViewProperty
 (
 view
@@ -475,6 +493,12 @@ deg
 "
 filter
 "
+{
+wait
+:
+true
+}
+)
 )
 .
 valueSpan

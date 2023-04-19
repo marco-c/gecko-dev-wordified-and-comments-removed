@@ -216,6 +216,8 @@ false
 const
 value
 =
+(
+await
 getRuleViewProperty
 (
 view
@@ -223,6 +225,12 @@ view
 body
 "
 property
+{
+wait
+:
+true
+}
+)
 )
 .
 valueSpan

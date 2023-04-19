@@ -150,6 +150,8 @@ inspector
 const
 container
 =
+(
+await
 getRuleViewProperty
 (
 view
@@ -160,6 +162,12 @@ grid
 "
 display
 "
+{
+wait
+:
+true
+}
+)
 )
 .
 valueSpan

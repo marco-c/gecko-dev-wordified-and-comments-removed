@@ -102,12 +102,6 @@ const
 property
 =
 await
-waitFor
-(
-(
-)
-=
->
 getRuleViewProperty
 (
 view
@@ -117,7 +111,11 @@ body
 "
 background
 "
-)
+{
+wait
+:
+true
+}
 )
 ;
 const
