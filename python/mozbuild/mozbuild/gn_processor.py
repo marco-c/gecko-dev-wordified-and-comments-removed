@@ -4396,11 +4396,15 @@ arm64
             
 if
 target_os
-=
-=
+in
+(
 "
 android
 "
+"
+linux
+"
+)
 :
                 
 target_cpus
@@ -4434,6 +4438,24 @@ append
 (
 "
 x86
+"
+)
+            
+if
+target_os
+=
+=
+"
+linux
+"
+:
+                
+target_cpus
+.
+append
+(
+"
+ppc64
 "
 )
             
