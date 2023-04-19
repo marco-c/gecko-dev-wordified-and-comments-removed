@@ -620,11 +620,6 @@ Left
 Right
 Both
 Line
-=
-8
-Max
-=
-13
 }
 ;
 enum
