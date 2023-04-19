@@ -57,6 +57,7 @@ virtual
 bool
 WriteFrame
 (
+const
 uint8_t
 *
 frame_buffer
@@ -118,6 +119,7 @@ override
 bool
 WriteFrame
 (
+const
 uint8_t
 *
 frame_buffer
@@ -200,6 +202,7 @@ override
 bool
 WriteFrame
 (
+const
 uint8_t
 *
 frame_buffer

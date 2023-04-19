@@ -380,6 +380,11 @@ false
 }
 visualization_params
 ;
+bool
+analyze_quality_of_dropped_frames
+=
+false
+;
 }
 ;
 virtual
