@@ -7336,7 +7336,6 @@ nsBoxFrame
 aStyle
 aPresContext
 kClassID
-aIsRoot
 )
 mHelper
 (

@@ -4126,10 +4126,10 @@ NS_UNCONSTRAINEDSIZE
 ;
 if
 (
-rootElement
+rootFrame
 -
 >
-IsXULElement
+IsXULBoxFrame
 (
 )
 )
