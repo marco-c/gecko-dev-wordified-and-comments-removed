@@ -3451,15 +3451,6 @@ isIndexed
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-PrototypeMayHaveIndexedProperties
-(
-arr
-)
-)
-;
 uint32_t
 index
 =
