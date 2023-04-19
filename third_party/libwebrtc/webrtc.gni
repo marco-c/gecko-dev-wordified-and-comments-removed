@@ -3661,9 +3661,11 @@ native_test_java
 Build
 /
 /
+base
+/
 test
 :
-test_support
+google_test_runner
 when
 the
 test
@@ -3703,9 +3705,11 @@ xctest_module_target
 "
 /
 /
+base
+/
 test
 :
-test_support
+google_test_runner
 "
 }
 }
