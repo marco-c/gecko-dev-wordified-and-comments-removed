@@ -175,9 +175,6 @@ arm64
 '
 x64
 '
-'
-x86
-'
 ]
 IOS_DEPLOYMENT_TARGET
 =
