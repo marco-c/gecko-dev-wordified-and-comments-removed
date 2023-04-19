@@ -2408,7 +2408,7 @@ ReportSdpFormatReceived
 const
 SessionDescriptionInterface
 &
-remote_offer
+remote_description
 )
 ;
 bool
