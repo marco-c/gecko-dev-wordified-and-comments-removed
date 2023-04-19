@@ -61,7 +61,6 @@ BeginIterator
 const
 Field
 *
-data
 )
 const
 override
@@ -105,7 +104,6 @@ CopyIterator
 const
 Field
 *
-data
 const
 Iterator
 *
@@ -132,7 +130,6 @@ AdvanceIterator
 const
 Field
 *
-data
 Iterator
 *
 iterator
@@ -158,7 +155,6 @@ EqualsIterator
 const
 Field
 *
-data
 const
 Iterator
 *
@@ -184,10 +180,8 @@ DeleteIterator
 const
 Field
 *
-data
 Iterator
 *
-iterator
 )
 const
 override
@@ -1396,7 +1390,6 @@ Message
 value
 Value
 *
-scratch_space
 )
 const
 {
@@ -1534,7 +1527,6 @@ T
 value
 Value
 *
-scratch_space
 )
 const
 override
@@ -1835,7 +1827,6 @@ string
 value
 Value
 *
-scratch_space
 )
 const
 override
@@ -1997,7 +1988,6 @@ Message
 value
 Value
 *
-scratch_space
 )
 const
 override

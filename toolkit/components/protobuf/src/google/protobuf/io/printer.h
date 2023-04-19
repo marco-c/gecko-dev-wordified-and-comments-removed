@@ -117,7 +117,6 @@ AddAnnotationNew
 (
 Annotation
 &
-a
 )
 {
 }
@@ -157,7 +156,6 @@ annotation_proto
 )
 {
 }
-virtual
 void
 AddAnnotation
 (
@@ -183,6 +181,7 @@ int
 &
 path
 )
+override
 {
 typename
 AnnotationProto
@@ -256,7 +255,6 @@ end_offset
 )
 ;
 }
-virtual
 void
 AddAnnotationNew
 (
@@ -264,6 +262,7 @@ Annotation
 &
 a
 )
+override
 {
 auto
 *

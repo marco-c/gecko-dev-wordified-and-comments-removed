@@ -1,9 +1,14 @@
 #
 ifndef
-GOOGLE_PROTOBUF_UTIL_CONVERTER_OBJECT_WRITER_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_OBJECT_WRITER_H__
 #
 define
-GOOGLE_PROTOBUF_UTIL_CONVERTER_OBJECT_WRITER_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_OBJECT_WRITER_H__
+#
+include
+<
+cstdint
+>
 #
 include
 <
@@ -129,7 +134,7 @@ RenderInt32
 (
 StringPiece
 name
-int32
+int32_t
 value
 )
 =
@@ -142,7 +147,7 @@ RenderUint32
 (
 StringPiece
 name
-uint32
+uint32_t
 value
 )
 =
@@ -155,7 +160,7 @@ RenderInt64
 (
 StringPiece
 name
-int64
+int64_t
 value
 )
 =
@@ -168,7 +173,7 @@ RenderUint64
 (
 StringPiece
 name
-uint64
+uint64_t
 value
 )
 =

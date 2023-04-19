@@ -404,13 +404,13 @@ golang
 .
 org
 /
-genproto
-/
 protobuf
 /
-api
-;
-api
+types
+/
+known
+/
+apipb
 "
 ;
 /
@@ -1425,7 +1425,7 @@ Storage
 GetAcl
 method
 after
-inherting
+inheriting
 /
 /
 documentation

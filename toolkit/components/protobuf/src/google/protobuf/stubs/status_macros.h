@@ -171,7 +171,7 @@ lhs
 =
 result
 .
-ValueOrDie
+value
 (
 )
 ;

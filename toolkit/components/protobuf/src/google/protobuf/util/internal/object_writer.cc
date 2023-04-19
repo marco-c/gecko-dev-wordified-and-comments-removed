@@ -85,7 +85,7 @@ ToInt32
 (
 )
 .
-ValueOrDie
+value
 (
 )
 )
@@ -112,7 +112,7 @@ ToInt64
 (
 )
 .
-ValueOrDie
+value
 (
 )
 )
@@ -139,7 +139,7 @@ ToUint32
 (
 )
 .
-ValueOrDie
+value
 (
 )
 )
@@ -166,7 +166,7 @@ ToUint64
 (
 )
 .
-ValueOrDie
+value
 (
 )
 )
@@ -193,7 +193,7 @@ ToDouble
 (
 )
 .
-ValueOrDie
+value
 (
 )
 )
@@ -220,7 +220,7 @@ ToFloat
 (
 )
 .
-ValueOrDie
+value
 (
 )
 )
@@ -247,7 +247,7 @@ ToBool
 (
 )
 .
-ValueOrDie
+value
 (
 )
 )
@@ -274,7 +274,7 @@ ToString
 (
 )
 .
-ValueOrDie
+value
 (
 )
 )
@@ -301,7 +301,7 @@ ToBytes
 (
 )
 .
-ValueOrDie
+value
 (
 )
 )

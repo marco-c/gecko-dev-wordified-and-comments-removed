@@ -1,9 +1,9 @@
 #
 ifndef
-GOOGLE_PROTOBUF_UTIL_CONVERTER_TYPE_INFO_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_TYPE_INFO_H__
 #
 define
-GOOGLE_PROTOBUF_UTIL_CONVERTER_TYPE_INFO_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_TYPE_INFO_H__
 #
 include
 <
@@ -37,9 +37,9 @@ google
 /
 protobuf
 /
-util
+stubs
 /
-type_resolver
+statusor
 .
 h
 >
@@ -63,9 +63,9 @@ google
 /
 protobuf
 /
-stubs
+util
 /
-status
+type_resolver
 .
 h
 >
@@ -78,7 +78,7 @@ protobuf
 /
 stubs
 /
-statusor
+status
 .
 h
 >

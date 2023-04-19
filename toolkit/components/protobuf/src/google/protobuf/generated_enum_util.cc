@@ -305,7 +305,7 @@ enum_strings
 {
 for
 (
-int
+size_t
 i
 =
 0

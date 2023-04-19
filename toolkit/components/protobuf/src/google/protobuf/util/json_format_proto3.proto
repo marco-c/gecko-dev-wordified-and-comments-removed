@@ -676,6 +676,15 @@ oneof_message_value
 =
 5
 ;
+google
+.
+protobuf
+.
+NullValue
+oneof_null_value
+=
+6
+;
 }
 }
 message

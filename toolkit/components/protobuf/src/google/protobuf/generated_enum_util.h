@@ -16,7 +16,9 @@ google
 /
 protobuf
 /
-message_lite
+stubs
+/
+strutil
 .
 h
 >
@@ -27,9 +29,7 @@ google
 /
 protobuf
 /
-stubs
-/
-strutil
+message_lite
 .
 h
 >

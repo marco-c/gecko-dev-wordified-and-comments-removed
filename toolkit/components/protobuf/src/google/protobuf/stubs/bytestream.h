@@ -401,6 +401,9 @@ public
 explicit
 StringByteSink
 (
+std
+:
+:
 string
 *
 dest
@@ -426,6 +429,9 @@ n
 override
 ;
 private
+:
+std
+:
 :
 string
 *

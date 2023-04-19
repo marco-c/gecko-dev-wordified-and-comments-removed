@@ -1300,7 +1300,6 @@ char
 *
 path
 int
-_mode
 )
 {
 #
@@ -2042,11 +2041,14 @@ filename
 )
 )
 {
-return
+matched
+=
 ExpandWildcardsResult
 :
 :
 kErrorOutputPathConversion
+;
+break
 ;
 }
 if

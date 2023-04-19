@@ -108,10 +108,10 @@ FieldComparator
 )
 {
 }
-DefaultFieldComparator
+SimpleFieldComparator
 :
 :
-DefaultFieldComparator
+SimpleFieldComparator
 (
 )
 :
@@ -129,11 +129,11 @@ false
 )
 {
 }
-DefaultFieldComparator
+SimpleFieldComparator
 :
 :
 ~
-DefaultFieldComparator
+SimpleFieldComparator
 (
 )
 {
@@ -142,10 +142,10 @@ FieldComparator
 :
 :
 ComparisonResult
-DefaultFieldComparator
+SimpleFieldComparator
 :
 :
-Compare
+SimpleCompare
 (
 const
 Message
@@ -169,7 +169,6 @@ util
 :
 FieldContext
 *
-field_context
 )
 {
 const
@@ -572,10 +571,10 @@ DIFFERENT
 }
 }
 bool
-DefaultFieldComparator
+SimpleFieldComparator
 :
 :
-Compare
+CompareWithDifferencer
 (
 MessageDifferencer
 *
@@ -615,7 +614,7 @@ parent_fields
 ;
 }
 void
-DefaultFieldComparator
+SimpleFieldComparator
 :
 :
 SetDefaultFractionAndMargin
@@ -640,7 +639,7 @@ true
 ;
 }
 void
-DefaultFieldComparator
+SimpleFieldComparator
 :
 :
 SetFractionAndMargin
@@ -723,7 +722,7 @@ margin
 ;
 }
 bool
-DefaultFieldComparator
+SimpleFieldComparator
 :
 :
 CompareDouble
@@ -748,7 +747,7 @@ value_2
 ;
 }
 bool
-DefaultFieldComparator
+SimpleFieldComparator
 :
 :
 CompareEnum
@@ -756,7 +755,6 @@ CompareEnum
 const
 FieldDescriptor
 &
-field
 const
 EnumValueDescriptor
 *
@@ -785,7 +783,7 @@ number
 ;
 }
 bool
-DefaultFieldComparator
+SimpleFieldComparator
 :
 :
 CompareFloat
@@ -815,7 +813,7 @@ typename
 T
 >
 bool
-DefaultFieldComparator
+SimpleFieldComparator
 :
 :
 CompareDoubleOrFloat
@@ -997,7 +995,7 @@ FieldComparator
 :
 :
 ComparisonResult
-DefaultFieldComparator
+SimpleFieldComparator
 :
 :
 ResultFromBoolean

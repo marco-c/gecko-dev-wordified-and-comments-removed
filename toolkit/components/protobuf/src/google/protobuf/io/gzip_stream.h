@@ -43,11 +43,11 @@ h
 >
 #
 include
-<
+"
 zlib
 .
 h
->
+"
 #
 include
 <
@@ -71,6 +71,7 @@ io
 class
 PROTOBUF_EXPORT
 GzipInputStream
+PROTOBUF_FUTURE_FINAL
 :
 public
 ZeroCopyInputStream
@@ -152,6 +153,7 @@ int
 *
 size
 )
+override
 ;
 void
 BackUp
@@ -159,6 +161,7 @@ BackUp
 int
 count
 )
+override
 ;
 bool
 Skip
@@ -166,12 +169,14 @@ Skip
 int
 count
 )
+override
 ;
 int64_t
 ByteCount
 (
 )
 const
+override
 ;
 private
 :
@@ -199,7 +204,7 @@ output_position_
 size_t
 output_buffer_length_
 ;
-int64
+int64_t
 byte_count_
 ;
 int
@@ -232,6 +237,7 @@ GzipInputStream
 class
 PROTOBUF_EXPORT
 GzipOutputStream
+PROTOBUF_FUTURE_FINAL
 :
 public
 ZeroCopyOutputStream
@@ -343,6 +349,7 @@ int
 *
 size
 )
+override
 ;
 void
 BackUp
@@ -350,12 +357,14 @@ BackUp
 int
 count
 )
+override
 ;
 int64_t
 ByteCount
 (
 )
 const
+override
 ;
 private
 :

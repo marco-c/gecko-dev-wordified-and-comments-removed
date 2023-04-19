@@ -1,9 +1,9 @@
 #
 ifndef
-GOOGLE_PROTOBUF_UTIL_CONVERTER_STRUCTURED_OBJECTWRITER_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_STRUCTURED_OBJECTWRITER_H__
 #
 define
-GOOGLE_PROTOBUF_UTIL_CONVERTER_STRUCTURED_OBJECTWRITER_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_STRUCTURED_OBJECTWRITER_H__
 #
 include
 <
@@ -82,11 +82,11 @@ ObjectWriter
 {
 public
 :
-virtual
 ~
 StructuredObjectWriter
 (
 )
+override
 {
 }
 protected
@@ -114,7 +114,7 @@ level_
 parent
 =
 =
-NULL
+nullptr
 ?
 0
 :

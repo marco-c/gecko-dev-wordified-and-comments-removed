@@ -53,6 +53,9 @@ protobuf
 {
 PROTOBUF_EXPORT
 extern
+std
+:
+:
 string
 StringPrintf
 (
@@ -68,10 +71,16 @@ format
 PROTOBUF_EXPORT
 extern
 const
+std
+:
+:
 string
 &
 SStringPrintf
 (
+std
+:
+:
 string
 *
 dst
@@ -89,6 +98,9 @@ extern
 void
 StringAppendF
 (
+std
+:
+:
 string
 *
 dst
@@ -106,6 +118,9 @@ extern
 void
 StringAppendV
 (
+std
+:
+:
 string
 *
 dst
@@ -125,6 +140,9 @@ kStringPrintfVectorMaxArgs
 ;
 PROTOBUF_EXPORT
 extern
+std
+:
+:
 string
 StringPrintfVector
 (
@@ -138,6 +156,9 @@ std
 :
 vector
 <
+std
+:
+:
 string
 >
 &

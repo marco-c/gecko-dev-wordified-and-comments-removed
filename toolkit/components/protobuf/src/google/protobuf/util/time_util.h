@@ -7,6 +7,11 @@ GOOGLE_PROTOBUF_UTIL_TIME_UTIL_H__
 #
 include
 <
+cstdint
+>
+#
+include
+<
 ctime
 >
 #
@@ -28,10 +33,10 @@ _XBOX_ONE
 struct
 timeval
 {
-int64
+int64_t
 tv_sec
 ;
-int64
+int64_t
 tv_usec
 ;
 }
@@ -134,7 +139,7 @@ public
 :
 static
 const
-int64
+int64_t
 kTimestampMinSeconds
 =
 -
@@ -142,14 +147,14 @@ kTimestampMinSeconds
 ;
 static
 const
-int64
+int64_t
 kTimestampMaxSeconds
 =
 253402300799LL
 ;
 static
 const
-int64
+int64_t
 kDurationMinSeconds
 =
 -
@@ -157,7 +162,7 @@ kDurationMinSeconds
 ;
 static
 const
-int64
+int64_t
 kDurationMaxSeconds
 =
 315576000000LL
@@ -251,7 +256,7 @@ static
 Duration
 NanosecondsToDuration
 (
-int64
+int64_t
 nanos
 )
 ;
@@ -259,7 +264,7 @@ static
 Duration
 MicrosecondsToDuration
 (
-int64
+int64_t
 micros
 )
 ;
@@ -267,7 +272,7 @@ static
 Duration
 MillisecondsToDuration
 (
-int64
+int64_t
 millis
 )
 ;
@@ -275,7 +280,7 @@ static
 Duration
 SecondsToDuration
 (
-int64
+int64_t
 seconds
 )
 ;
@@ -283,7 +288,7 @@ static
 Duration
 MinutesToDuration
 (
-int64
+int64_t
 minutes
 )
 ;
@@ -291,12 +296,12 @@ static
 Duration
 HoursToDuration
 (
-int64
+int64_t
 hours
 )
 ;
 static
-int64
+int64_t
 DurationToNanoseconds
 (
 const
@@ -306,7 +311,7 @@ duration
 )
 ;
 static
-int64
+int64_t
 DurationToMicroseconds
 (
 const
@@ -316,7 +321,7 @@ duration
 )
 ;
 static
-int64
+int64_t
 DurationToMilliseconds
 (
 const
@@ -326,7 +331,7 @@ duration
 )
 ;
 static
-int64
+int64_t
 DurationToSeconds
 (
 const
@@ -336,7 +341,7 @@ duration
 )
 ;
 static
-int64
+int64_t
 DurationToMinutes
 (
 const
@@ -346,7 +351,7 @@ duration
 )
 ;
 static
-int64
+int64_t
 DurationToHours
 (
 const
@@ -359,7 +364,7 @@ static
 Timestamp
 NanosecondsToTimestamp
 (
-int64
+int64_t
 nanos
 )
 ;
@@ -367,7 +372,7 @@ static
 Timestamp
 MicrosecondsToTimestamp
 (
-int64
+int64_t
 micros
 )
 ;
@@ -375,7 +380,7 @@ static
 Timestamp
 MillisecondsToTimestamp
 (
-int64
+int64_t
 millis
 )
 ;
@@ -383,12 +388,12 @@ static
 Timestamp
 SecondsToTimestamp
 (
-int64
+int64_t
 seconds
 )
 ;
 static
-int64
+int64_t
 TimestampToNanoseconds
 (
 const
@@ -398,7 +403,7 @@ timestamp
 )
 ;
 static
-int64
+int64_t
 TimestampToMicroseconds
 (
 const
@@ -408,7 +413,7 @@ timestamp
 )
 ;
 static
-int64
+int64_t
 TimestampToMilliseconds
 (
 const
@@ -418,7 +423,7 @@ timestamp
 )
 ;
 static
-int64
+int64_t
 TimestampToSeconds
 (
 const
@@ -538,7 +543,7 @@ operator
 Duration
 &
 d
-int64
+int64_t
 r
 )
 ;
@@ -566,7 +571,7 @@ operator
 Duration
 &
 d
-int64
+int64_t
 r
 )
 ;
@@ -602,7 +607,7 @@ T
 r
 )
 {
-int64
+int64_t
 x
 =
 r
@@ -632,7 +637,7 @@ T
 r
 )
 {
-int64
+int64_t
 x
 =
 r
@@ -1027,7 +1032,7 @@ r
 ;
 }
 PROTOBUF_EXPORT
-int64
+int64_t
 operator
 /
 (

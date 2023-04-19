@@ -34,7 +34,7 @@ namespace
 util
 {
 namespace
-internal
+statusor_internal
 {
 void
 StatusOrHelper
