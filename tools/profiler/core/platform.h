@@ -565,6 +565,11 @@ profiler_mark_thread_asleep
 (
 )
 ;
+[
+[
+nodiscard
+]
+]
 bool
 profiler_get_profile_json
 (
