@@ -189,14 +189,10 @@ nsINetworkLinkService
 "
 )
 ;
-XPCOMUtils
-.
-defineLazyGetter
-(
-lazy
-"
+const
 log
-"
+=
+(
 (
 )
 =
@@ -256,6 +252,8 @@ settings
 )
 ;
 }
+)
+(
 )
 ;
 XPCOMUtils
@@ -505,10 +503,6 @@ changes
 /
 changeset
 "
-log
-:
-lazy
-.
 log
 get
 CERT_CHAIN_ROOT_IDENTIFIER
@@ -839,8 +833,6 @@ catch
 ex
 )
 {
-lazy
-.
 log
 .
 warn
@@ -1393,8 +1385,6 @@ catch
 e
 )
 {
-lazy
-.
 log
 .
 warn
