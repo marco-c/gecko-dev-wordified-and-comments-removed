@@ -484,7 +484,7 @@ tokens
 rtc
 :
 :
-tokenize_with_empty_tokens
+split
 (
 str
 kDelimiterSemicolonChar
@@ -570,7 +570,7 @@ rid_tokens
 rtc
 :
 :
-tokenize_with_empty_tokens
+split
 (
 token
 kDelimiterCommaChar

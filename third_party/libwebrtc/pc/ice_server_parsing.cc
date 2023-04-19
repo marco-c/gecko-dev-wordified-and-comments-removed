@@ -865,7 +865,7 @@ empty
 rtc
 :
 :
-tokenize_with_empty_tokens
+split
 (
 url
 '
@@ -912,7 +912,7 @@ tokens
 rtc
 :
 :
-tokenize_with_empty_tokens
+split
 (
 uri_transport_param
 '
