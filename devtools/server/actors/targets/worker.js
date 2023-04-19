@@ -218,6 +218,14 @@ null
 ;
 this
 .
+workerConsoleApiMessagesDispatchedToMainThread
+=
+workerDebuggerData
+.
+workerConsoleApiMessagesDispatchedToMainThread
+;
+this
+.
 makeDebugger
 =
 makeDebuggerUtil
