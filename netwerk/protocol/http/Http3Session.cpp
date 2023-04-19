@@ -676,6 +676,12 @@ StaticPrefs
 network_http_http3_max_stream_data
 (
 )
+StaticPrefs
+:
+:
+network_http_http3_version_negotiation_enabled
+(
+)
 gHttpHandler
 -
 >
