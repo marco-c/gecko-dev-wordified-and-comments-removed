@@ -221,7 +221,7 @@ envelope
 ;
 for
 (
-size_t
+int
 channel_idx
 =
 0

@@ -75,7 +75,7 @@ public
 :
 Limiter
 (
-size_t
+int
 sample_rate_hz
 ApmDataDumper
 *
@@ -139,7 +139,7 @@ const
 void
 SetSampleRate
 (
-size_t
+int
 sample_rate_hz
 )
 ;

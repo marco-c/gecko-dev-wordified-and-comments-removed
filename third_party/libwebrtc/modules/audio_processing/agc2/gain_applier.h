@@ -72,7 +72,7 @@ private
 void
 Initialize
 (
-size_t
+int
 samples_per_channel
 )
 ;

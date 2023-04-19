@@ -97,7 +97,7 @@ energy
 ;
 for
 (
-size_t
+int
 k
 =
 0
