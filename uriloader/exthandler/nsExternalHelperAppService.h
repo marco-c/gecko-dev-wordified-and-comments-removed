@@ -538,10 +538,6 @@ SanitizeFileName
 nsAString
 &
 aFileName
-const
-nsACString
-&
-aExtension
 uint32_t
 aFlags
 )
