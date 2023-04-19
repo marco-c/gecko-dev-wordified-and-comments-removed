@@ -472,6 +472,9 @@ testGenerator
 "
 next
 "
+"
+generator
+"
 ]
 )
 ;
@@ -541,6 +544,9 @@ readGeckoInterpProfilingStack
 [
 "
 AsyncFunctionNext
+"
+"
+testAsync
 "
 ]
 )
@@ -578,6 +584,9 @@ stacks
 [
 "
 AsyncFunctionNext
+"
+"
+asyncFun
 "
 ]
 )
