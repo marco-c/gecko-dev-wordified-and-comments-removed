@@ -2922,11 +2922,9 @@ rust
 minidump
 0
 .
-10
+14
 .
-4
--
-prerelease
+0
 source
 code
 (
@@ -2950,7 +2948,9 @@ github
 .
 com
 /
-luser
+rust
+-
+minidump
 /
 rust
 -
@@ -2958,7 +2958,7 @@ minidump
 /
 revision
 :
-7f83ad8f2cab043ed19a7f96718606e718d99488
+a6a486b8992008c6865ee70fc68421c38e45ef42
 fix
 -
 stacks

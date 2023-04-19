@@ -135,16 +135,6 @@ Linux
 Build
 EXE
 =
-FEATURES
-=
-"
--
--
-features
-vendored
--
-openssl
-"
 #
 {
 CC
@@ -291,8 +281,6 @@ on
 Linux
 .
 EXE
-=
-FEATURES
 =
 export
 PATH
@@ -454,8 +442,6 @@ EXE
 =
 .
 exe
-FEATURES
-=
 #
 Some
 magic
@@ -699,7 +685,6 @@ TARGET
 -
 bin
 PROJECT
-FEATURES
 cd
 .
 .
