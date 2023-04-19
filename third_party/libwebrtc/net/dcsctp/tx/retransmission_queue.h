@@ -749,11 +749,6 @@ absl
 :
 nullopt
 ;
-bool
-is_in_fast_retransmit_
-=
-false
-;
 SendQueue
 &
 send_queue_
