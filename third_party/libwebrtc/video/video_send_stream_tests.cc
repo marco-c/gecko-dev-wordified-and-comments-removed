@@ -17185,14 +17185,14 @@ const
 int
 kWidth
 =
-kMinVp9SpatialLayerWidth
+kMinVp9SpatialLayerLongSideLength
 ;
 static
 const
 int
 kHeight
 =
-kMinVp9SpatialLayerHeight
+kMinVp9SpatialLayerShortSideLength
 ;
 static
 const

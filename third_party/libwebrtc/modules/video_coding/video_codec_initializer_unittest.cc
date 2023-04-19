@@ -1806,7 +1806,7 @@ stream
 .
 width
 =
-kMinVp9SpatialLayerWidth
+kMinVp9SpatialLayerLongSideLength
 *
 2
 ;
@@ -1814,7 +1814,7 @@ stream
 .
 height
 =
-kMinVp9SpatialLayerHeight
+kMinVp9SpatialLayerShortSideLength
 *
 2
 ;
