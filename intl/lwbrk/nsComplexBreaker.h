@@ -6,11 +6,11 @@ define
 nsComplexBreaker_h__
 #
 include
-"
-nsString
+<
+stdint
 .
 h
-"
+>
 void
 NS_GetComplexLineBreaks
 (
