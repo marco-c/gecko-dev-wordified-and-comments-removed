@@ -1,12 +1,10 @@
 #
 include
-"
-libavutil
-/
-common
+<
+stdint
 .
 h
-"
+>
 const
 uint8_t
 ff_golomb_vlc_len

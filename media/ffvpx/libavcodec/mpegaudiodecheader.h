@@ -6,8 +6,15 @@ define
 AVCODEC_MPEGAUDIODECHEADER_H
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
-avcodec
+codec_id
 .
 h
 "

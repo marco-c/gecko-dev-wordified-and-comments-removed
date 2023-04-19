@@ -28,13 +28,6 @@ avcodec
 h
 "
 #
-include
-"
-version
-.
-h
-"
-#
 define
 FRAME_SKIPPED
 100
@@ -50,10 +43,6 @@ PICT_BOTTOM_FIELD
 define
 PICT_FRAME
 3
-#
-define
-DELAYED_PIC_REF
-4
 #
 define
 MAX_MB_BYTES
@@ -834,9 +823,6 @@ motion_val
 [
 2
 ]
-int
-*
-low_delay
 int
 mb_width
 int

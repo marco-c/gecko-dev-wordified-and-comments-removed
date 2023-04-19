@@ -5,6 +5,15 @@ bit_depth_template
 .
 c
 "
+#
+if
+BIT_DEPTH
+!
+=
+8
+static
+#
+endif
 void
 FUNC
 (

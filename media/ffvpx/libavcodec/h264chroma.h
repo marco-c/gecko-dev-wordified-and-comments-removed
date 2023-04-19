@@ -120,5 +120,15 @@ int
 bit_depth
 )
 ;
+void
+ff_h264chroma_init_loongarch
+(
+H264ChromaContext
+*
+c
+int
+bit_depth
+)
+;
 #
 endif

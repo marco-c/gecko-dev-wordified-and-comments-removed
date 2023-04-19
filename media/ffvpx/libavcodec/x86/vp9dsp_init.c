@@ -21,15 +21,6 @@ include
 "
 libavutil
 /
-mem
-.
-h
-"
-#
-include
-"
-libavutil
-/
 x86
 /
 cpu
