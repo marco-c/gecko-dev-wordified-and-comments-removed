@@ -434,7 +434,9 @@ getElementById
 "
 allTabsMenu
 -
-allTabsViewTabs
+allTabsView
+-
+tabs
 "
 )
 ;
@@ -691,7 +693,9 @@ getElementById
 "
 allTabsMenu
 -
-allTabsViewTabs
+allTabsView
+-
+tabs
 "
 )
 ;
@@ -895,7 +899,9 @@ getElementById
 "
 allTabsMenu
 -
-allTabsViewTabs
+allTabsView
+-
+tabs
 "
 )
 ;
