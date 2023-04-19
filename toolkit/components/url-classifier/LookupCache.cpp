@@ -915,6 +915,10 @@ mRootStoreDirectory
 (
 aRootStoreDir
 )
+mVLPrefixSet
+(
+nullptr
+)
 {
 UpdateRootDirHandle
 (
@@ -1001,6 +1005,12 @@ Init
 (
 )
 {
+MOZ_ASSERT
+(
+!
+mVLPrefixSet
+)
+;
 mVLPrefixSet
 =
 new
