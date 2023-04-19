@@ -4282,6 +4282,16 @@ apply_alignment_to_all_simulcast_layers
 }
 if
 (
+info
+-
+>
+resolution_bitrate_limits
+.
+empty
+(
+)
+&
+&
 !
 encoder_info_override_
 .
