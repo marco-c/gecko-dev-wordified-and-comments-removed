@@ -17,12 +17,7 @@ h
 #
 include
 <
-cstdint
->
-#
-include
-<
-memory
+string
 >
 #
 include

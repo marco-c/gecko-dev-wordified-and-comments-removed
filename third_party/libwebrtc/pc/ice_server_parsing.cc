@@ -17,17 +17,7 @@ h
 #
 include
 <
-algorithm
->
-#
-include
-<
 cctype
->
-#
-include
-<
-memory
 >
 #
 include

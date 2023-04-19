@@ -45,6 +45,15 @@ include
 "
 api
 /
+rtc_error
+.
+h
+"
+#
+include
+"
+api
+/
 scoped_refptr
 .
 h

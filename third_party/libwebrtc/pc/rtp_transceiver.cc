@@ -10,6 +10,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 iterator
 >
 #
@@ -111,6 +116,15 @@ include
 rtc_base
 /
 checks
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+location
 .
 h
 "

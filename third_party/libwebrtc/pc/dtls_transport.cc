@@ -82,7 +82,7 @@ include
 "
 rtc_base
 /
-ssl_certificate
+ssl_stream_adapter
 .
 h
 "

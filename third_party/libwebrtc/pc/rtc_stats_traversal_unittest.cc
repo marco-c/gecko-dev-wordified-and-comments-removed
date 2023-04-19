@@ -15,11 +15,6 @@ memory
 #
 include
 <
-string
->
-#
-include
-<
 vector
 >
 #

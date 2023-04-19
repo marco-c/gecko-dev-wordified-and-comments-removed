@@ -7,11 +7,6 @@ PC_RTP_PARAMETERS_CONVERSION_H_
 #
 include
 <
-iosfwd
->
-#
-include
-<
 vector
 >
 #

@@ -10,11 +10,6 @@ h
 #
 include
 <
-algorithm
->
-#
-include
-<
 cstdint
 >
 #
@@ -26,6 +21,11 @@ set
 include
 <
 string
+>
+#
+include
+<
+type_traits
 >
 #
 include

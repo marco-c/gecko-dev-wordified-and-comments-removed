@@ -6,6 +6,11 @@ define
 PC_RTP_MEDIA_UTILS_H_
 #
 include
+<
+ostream
+>
+#
+include
 "
 api
 /
