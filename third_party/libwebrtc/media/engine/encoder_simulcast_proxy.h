@@ -141,14 +141,6 @@ SdpVideoFormat
 format
 )
 ;
-explicit
-EncoderSimulcastProxy
-(
-VideoEncoderFactory
-*
-factory
-)
-;
 ~
 EncoderSimulcastProxy
 (
