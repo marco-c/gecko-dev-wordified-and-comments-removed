@@ -1074,10 +1074,7 @@ value
 default
 =
 false
-"
-nightly
 android
-"
 =
 true
 }
