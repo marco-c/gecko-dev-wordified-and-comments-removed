@@ -578,7 +578,10 @@ id
 const
 ensureValidScriptParams
 =
+(
+extension
 script
+)
 =
 >
 {
@@ -651,6 +654,13 @@ parseMatchPatterns
 script
 .
 matches
+{
+restrictSchemes
+:
+extension
+.
+restrictSchemes
+}
 )
 ;
 if
@@ -665,6 +675,13 @@ parseMatchPatterns
 script
 .
 excludeMatches
+{
+restrictSchemes
+:
+extension
+.
+restrictSchemes
+}
 )
 ;
 }
@@ -928,6 +945,7 @@ array
 }
 ensureValidScriptParams
 (
+extension
 script
 )
 ;
@@ -1617,6 +1635,7 @@ persistAcrossSessions
 ;
 ensureValidScriptParams
 (
+extension
 script
 )
 ;
