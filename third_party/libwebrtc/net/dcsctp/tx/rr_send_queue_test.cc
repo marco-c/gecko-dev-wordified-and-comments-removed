@@ -7,7 +7,7 @@ dcsctp
 /
 tx
 /
-fcfs_send_queue
+rr_send_queue
 .
 h
 "
@@ -151,7 +151,7 @@ kPPID
 )
 ;
 class
-FCFSSendQueueTest
+RRSendQueueTest
 :
 public
 testing
@@ -161,7 +161,7 @@ Test
 {
 protected
 :
-FCFSSendQueueTest
+RRSendQueueTest
 (
 )
 :
@@ -179,14 +179,14 @@ const
 DcSctpOptions
 options_
 ;
-FCFSSendQueue
+RRSendQueue
 buf_
 ;
 }
 ;
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 EmptyBuffer
 )
 {
@@ -226,7 +226,7 @@ IsFull
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 AddAndGetSingleChunk
 )
 {
@@ -319,7 +319,7 @@ is_end
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 CarveOutBeginningMiddleAndEnd
 )
 {
@@ -513,7 +513,7 @@ has_value
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 GetChunksFromTwoMessages
 )
 {
@@ -712,7 +712,7 @@ is_end
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 BufferBecomesFullAndEmptied
 )
 {
@@ -1028,7 +1028,7 @@ IsEmpty
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 WillNotSendTooSmallPacket
 )
 {
@@ -1041,7 +1041,7 @@ uint8_t
 >
 payload
 (
-FCFSSendQueue
+RRSendQueue
 :
 :
 kMinimumFragmentedPayload
@@ -1069,7 +1069,7 @@ buf_
 Produce
 (
 kNow
-FCFSSendQueue
+RRSendQueue
 :
 :
 kMinimumFragmentedPayload
@@ -1099,7 +1099,7 @@ buf_
 Produce
 (
 kNow
-FCFSSendQueue
+RRSendQueue
 :
 :
 kMinimumFragmentedPayload
@@ -1199,7 +1199,7 @@ IsEmpty
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 DefaultsToOrderedSend
 )
 {
@@ -1335,7 +1335,7 @@ is_unordered
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 ProduceWithLifetimeExpiry
 )
 {
@@ -1572,7 +1572,7 @@ now
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 DiscardPartialPackets
 )
 {
@@ -1845,7 +1845,7 @@ kNow
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 PrepareResetStreamsDiscardsStream
 )
 {
@@ -1972,7 +1972,7 @@ total_bytes
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 PrepareResetStreamsNotPartialPackets
 )
 {
@@ -2110,7 +2110,7 @@ size
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 EnqueuedItemsArePausedDuringStreamReset
 )
 {
@@ -2272,7 +2272,7 @@ total_bytes
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 CommittingResetsSSN
 )
 {
@@ -2493,7 +2493,7 @@ SSN
 }
 TEST_F
 (
-FCFSSendQueueTest
+RRSendQueueTest
 RollBackResumesSSN
 )
 {

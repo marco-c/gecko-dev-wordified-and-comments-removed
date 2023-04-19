@@ -1,9 +1,9 @@
 #
 ifndef
-NET_DCSCTP_TX_FCFS_SEND_QUEUE_H_
+NET_DCSCTP_TX_RR_SEND_QUEUE_H_
 #
 define
-NET_DCSCTP_TX_FCFS_SEND_QUEUE_H_
+NET_DCSCTP_TX_RR_SEND_QUEUE_H_
 #
 include
 <
@@ -145,7 +145,7 @@ namespace
 dcsctp
 {
 class
-FCFSSendQueue
+RRSendQueue
 :
 public
 SendQueue
@@ -159,7 +159,7 @@ kMinimumFragmentedPayload
 =
 10
 ;
-FCFSSendQueue
+RRSendQueue
 (
 absl
 :
