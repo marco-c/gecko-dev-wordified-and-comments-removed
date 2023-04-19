@@ -4776,11 +4776,6 @@ http_common
 .
 h
 "
-"
-keep_ref_until_done
-.
-h
-"
 #
 "
 mdns_responder_interface
@@ -5167,11 +5162,6 @@ sources
 +
 =
 [
-"
-callback
-.
-h
-"
 "
 log_sinks
 .
@@ -7177,11 +7167,6 @@ defines
 sources
 =
 [
-"
-callback_unittest
-.
-cc
-"
 "
 crc32_unittest
 .
