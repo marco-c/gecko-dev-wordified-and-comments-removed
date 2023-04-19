@@ -5047,6 +5047,9 @@ StreamCount
 ;
 enable_frame_dropping
 =
+enable_frame_dropping
+&
+&
 frame_buffer_controller_
 -
 >
