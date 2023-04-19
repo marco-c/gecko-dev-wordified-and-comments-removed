@@ -548,8 +548,6 @@ if
 data
 .
 length
->
-0
 )
 {
 const

@@ -21,12 +21,10 @@ clients
 {
 if
 (
+!
 clients
 .
 length
-=
-=
-0
 )
 {
 dump

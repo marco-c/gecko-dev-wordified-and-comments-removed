@@ -7139,8 +7139,6 @@ candidate
 sdpMid
 .
 length
->
-0
 "
 SDP
 mid
@@ -7158,8 +7156,6 @@ candidate
 usernameFragment
 .
 length
->
-0
 "
 usernameFragment
 not

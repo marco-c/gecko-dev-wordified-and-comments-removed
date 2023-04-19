@@ -313,8 +313,6 @@ while
 serverMsgs
 .
 length
->
-0
 )
 {
 let

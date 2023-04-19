@@ -130,8 +130,6 @@ aContextNode
 childNodes
 .
 length
->
-0
 )
 ;
 if

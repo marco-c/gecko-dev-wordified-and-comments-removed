@@ -214,8 +214,6 @@ ok
 notifications
 .
 length
->
-0
 "
 at
 least
@@ -302,8 +300,6 @@ ok
 notifications
 .
 length
->
-0
 "
 at
 least

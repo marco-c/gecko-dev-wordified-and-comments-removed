@@ -1295,8 +1295,6 @@ ok
 fallbackTitle
 .
 length
->
-0
 "
 l10n
 fallback

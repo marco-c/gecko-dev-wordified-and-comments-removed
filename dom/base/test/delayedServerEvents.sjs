@@ -81,12 +81,10 @@ sendNextString
 {
 if
 (
+!
 strings_to_send
 .
 length
-=
-=
-0
 )
 {
 timer

@@ -455,12 +455,10 @@ client
 {
 if
 (
+!
 client
 .
 length
-=
-=
-0
 )
 {
 dump

@@ -1157,8 +1157,6 @@ attStmt
 )
 .
 length
->
-0
 )
 {
 return

@@ -438,8 +438,6 @@ if
 data
 .
 length
->
-0
 )
 {
 this

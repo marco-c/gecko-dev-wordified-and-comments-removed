@@ -13249,8 +13249,6 @@ if
 resources
 .
 length
->
-0
 )
 {
 return
@@ -13370,8 +13368,6 @@ if
 resources
 .
 length
->
-0
 )
 {
 return
@@ -13972,8 +13968,6 @@ this
 tokens
 .
 length
->
-0
 )
 {
 info
@@ -14490,14 +14484,12 @@ length
 DEBUG_TEST_LOOP_FOREVER
 &
 &
+!
 this
 .
 tokens
 .
 length
-=
-=
-0
 &
 &
 !
