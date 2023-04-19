@@ -1430,11 +1430,6 @@ NS_ERROR_NOT_AVAILABLE
 mFontFaceSet
 -
 >
-GetUserFontSet
-(
-)
--
->
 RecordFontLoadDone
 (
 aStringLen
