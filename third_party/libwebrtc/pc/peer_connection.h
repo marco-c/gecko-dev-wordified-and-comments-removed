@@ -2276,6 +2276,17 @@ observer
 )
 ;
 void
+RemoveStoppedTransceivers
+(
+)
+RTC_RUN_ON
+(
+signaling_thread
+(
+)
+)
+;
+void
 CreateAudioReceiver
 (
 MediaStreamInterface
