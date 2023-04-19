@@ -1501,11 +1501,6 @@ ELT_FORM
 static
 nsHtml5ElementName
 *
-ELT_MENUITEM
-;
-static
-nsHtml5ElementName
-*
 ELT_PARAM
 ;
 static

@@ -3954,11 +3954,6 @@ HTMLMenuElement
 webidl
 "
 "
-HTMLMenuItemElement
-.
-webidl
-"
-"
 HTMLMetaElement
 .
 webidl

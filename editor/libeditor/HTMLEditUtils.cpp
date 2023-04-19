@@ -4461,14 +4461,6 @@ GROUP_FLOW_ELEMENT
 )
 ELEM
 (
-menuitem
-false
-false
-GROUP_NONE
-GROUP_NONE
-)
-ELEM
-(
 meta
 false
 false

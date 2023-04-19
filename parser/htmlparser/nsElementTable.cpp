@@ -551,12 +551,6 @@ true
 )
 ELEM
 (
-menuitem
-____
-true
-)
-ELEM
-(
 meta
 ____
 ____

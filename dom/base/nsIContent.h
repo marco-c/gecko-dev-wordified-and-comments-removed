@@ -1106,15 +1106,6 @@ aName
 nsGkAtoms
 :
 :
-menuitem
-|
-|
-aName
-=
-=
-nsGkAtoms
-:
-:
 audio
 |
 |

@@ -877,10 +877,6 @@ eVRDisplayPresentChange
 )
 NS_EVENT_MESSAGE
 (
-eShow
-)
-NS_EVENT_MESSAGE
-(
 eFullscreenChange
 )
 NS_EVENT_MESSAGE
