@@ -15,6 +15,17 @@ StaticPrefs_security
 h
 "
 #
+include
+"
+mozilla
+/
+ipc
+/
+UtilityProcessSandboxing
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #
