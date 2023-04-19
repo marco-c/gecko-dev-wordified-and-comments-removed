@@ -3188,11 +3188,9 @@ test_data_gen_params
 "
 "
 Slices
-|
 self
 .
 _scores_data_frame
-|
 to
 extract
 the

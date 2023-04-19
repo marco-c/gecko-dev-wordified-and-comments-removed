@@ -1159,12 +1159,10 @@ order
 in
 /
 /
-|
 ControllerManager
 :
 :
 controllers
-|
 .
 optional
 ScoringPoint
