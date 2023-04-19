@@ -590,8 +590,6 @@ Services
 .
 catMan
 .
-nsICategoryManager
-.
 addCategoryEntry
 (
 categoryName
@@ -622,8 +620,6 @@ else
 Services
 .
 catMan
-.
-nsICategoryManager
 .
 deleteCategoryEntry
 (

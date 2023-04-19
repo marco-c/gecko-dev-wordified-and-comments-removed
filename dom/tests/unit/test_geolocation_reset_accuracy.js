@@ -233,8 +233,6 @@ Services
 .
 catMan
 .
-nsICategoryManager
-.
 addCategoryEntry
 (
 categoryName
