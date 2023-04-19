@@ -2963,6 +2963,14 @@ call_stats
 report_block_datas
 )
 ;
+stats
+.
+nacks_rcvd
+=
+call_stats
+.
+nacks_rcvd
+;
 return
 stats
 ;

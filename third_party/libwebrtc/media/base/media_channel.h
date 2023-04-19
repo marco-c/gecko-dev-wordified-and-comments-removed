@@ -1748,6 +1748,11 @@ retransmitted_packets_sent
 =
 0
 ;
+uint32_t
+nacks_rcvd
+=
+0
+;
 int
 packets_lost
 =
@@ -2423,11 +2428,6 @@ firs_rcvd
 ;
 int
 plis_rcvd
-=
-0
-;
-int
-nacks_rcvd
 =
 0
 ;
