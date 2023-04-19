@@ -7131,7 +7131,11 @@ void
 *
 data
 =
-nullptr
+calloc
+(
+1
+size
+)
 ;
 mWebgl
 -
@@ -7149,6 +7153,11 @@ data
 size
 }
 LOCAL_GL_STATIC_DRAW
+)
+;
+free
+(
+data
 )
 ;
 }
