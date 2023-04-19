@@ -4746,6 +4746,17 @@ return
 Compact
 "
 ;
+case
+JS
+:
+:
+Zone
+:
+:
+Limit
+:
+break
+;
 }
 MOZ_CRASH
 (
