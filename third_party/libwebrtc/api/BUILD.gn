@@ -1069,6 +1069,14 @@ rtc_base
 refcount
 "
 "
+.
+.
+/
+rtc_base
+:
+stringutils
+"
+"
 adaptation
 :
 resource_adaptation_api

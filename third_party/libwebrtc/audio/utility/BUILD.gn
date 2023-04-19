@@ -365,6 +365,17 @@ rtc_base_approved
 .
 .
 /
+rtc_base
+:
+stringutils
+"
+"
+.
+.
+/
+.
+.
+/
 test
 :
 field_trial

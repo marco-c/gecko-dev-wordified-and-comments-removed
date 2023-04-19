@@ -530,6 +530,10 @@ safe_conversions
 "
 "
 :
+stringutils
+"
+"
+:
 type_traits
 "
 "
@@ -1047,10 +1051,6 @@ platform_thread
 "
 :
 platform_thread_types
-"
-"
-:
-stringutils
 "
 "
 :
@@ -4531,6 +4531,10 @@ macromagic
 :
 rtc_base_approved
 "
+"
+:
+stringutils
+"
 ]
 libs
 =
@@ -6119,6 +6123,10 @@ socket_factory
 "
 :
 socket_server
+"
+"
+:
+stringutils
 "
 "
 :

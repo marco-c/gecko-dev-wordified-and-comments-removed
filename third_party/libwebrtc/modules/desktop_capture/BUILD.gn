@@ -2682,6 +2682,17 @@ refcount
 .
 /
 rtc_base
+:
+stringutils
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
 /
 synchronization
 :
