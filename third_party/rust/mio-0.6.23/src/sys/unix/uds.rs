@@ -374,6 +374,13 @@ sun_path_offset
 >
 usize
 {
+#
+[
+allow
+(
+invalid_value
+)
+]
 unsafe
 {
 let
