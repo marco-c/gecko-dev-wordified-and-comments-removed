@@ -867,6 +867,17 @@ AddArgument
 '
 -
 -
+dump_json_test_results
+'
+)
+    
+gtest_group
+.
+AddArgument
+(
+'
+-
+-
 retry_failed
 '
 )
