@@ -29448,7 +29448,8 @@ compilationState
 .
 appendScriptStencilAndData
 (
-cx
+&
+ec
 )
 )
 {
@@ -31063,6 +31064,12 @@ tempLifoAlloc
 )
 )
 ;
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 frontend
 :
 :
@@ -31086,6 +31093,8 @@ compilationState
 init
 (
 cx
+&
+ec
 )
 )
 {
@@ -31548,6 +31557,12 @@ tempLifoAlloc
 )
 )
 ;
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 frontend
 :
 :
@@ -31571,6 +31586,8 @@ compilationState
 init
 (
 cx
+&
+ec
 )
 )
 {
@@ -31578,12 +31595,6 @@ return
 false
 ;
 }
-MainThreadErrorContext
-ec
-(
-cx
-)
-;
 Parser
 <
 frontend

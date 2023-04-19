@@ -5599,6 +5599,11 @@ initial
 cloneFrom
 (
 cx
+&
+task
+-
+>
+ec_
 stencil
 )
 )
@@ -5714,7 +5719,8 @@ merger
 .
 setInitial
 (
-cx
+&
+ec_
 std
 :
 :
@@ -6304,6 +6310,11 @@ merger
 addDelazification
 (
 cx
+&
+this
+-
+>
+ec_
 *
 innerStencil
 )

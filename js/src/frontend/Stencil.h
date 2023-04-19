@@ -610,9 +610,9 @@ nodiscard
 bool
 init
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 LifoAlloc
 &
 alloc

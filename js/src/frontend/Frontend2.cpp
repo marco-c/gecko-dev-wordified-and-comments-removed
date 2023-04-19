@@ -2047,6 +2047,9 @@ ConvertGCThings
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 SmooshResult
 &
@@ -2103,6 +2106,7 @@ compilationState
 allocateGCThingsUninitialized
 (
 cx
+ec
 scriptIndex
 ngcthings
 &
@@ -2309,6 +2313,9 @@ ConvertScriptStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 SmooshResult
 &
@@ -2770,6 +2777,7 @@ if
 ConvertGCThings
 (
 cx
+ec
 result
 smooshScript
 compilationState
@@ -3402,7 +3410,7 @@ compilationState
 .
 prepareSharedDataStorage
 (
-cx
+ec
 )
 )
 {
@@ -3432,6 +3440,7 @@ if
 ConvertScriptStencil
 (
 cx
+ec
 result
 result
 .

@@ -625,6 +625,7 @@ compilationState_
 init
 (
 cx
+ec
 inheritThis
 enclosingEnv
 )
@@ -3807,7 +3808,10 @@ compilationState_
 .
 appendScriptStencilAndData
 (
-cx
+sc
+-
+>
+ec_
 )
 )
 {
@@ -4026,7 +4030,7 @@ compilationState_
 .
 appendScriptStencilAndData
 (
-cx
+ec
 )
 )
 {
@@ -5694,6 +5698,9 @@ GetCachedLazyFunctionStencilMaybeInstantiate
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -5877,6 +5884,7 @@ extensible
 cloneFrom
 (
 cx
+ec
 *
 stencil
 )
@@ -6008,6 +6016,7 @@ res
 GetCachedLazyFunctionStencilMaybeInstantiate
 (
 cx
+ec
 input
 output
 )
@@ -6123,6 +6132,7 @@ compilationState
 init
 (
 cx
+ec
 inheritThis
 )
 )
@@ -6338,6 +6348,7 @@ res
 GetCachedLazyFunctionStencilMaybeInstantiate
 (
 cx
+ec
 input
 cached
 )
