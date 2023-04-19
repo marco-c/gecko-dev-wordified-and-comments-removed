@@ -260,6 +260,11 @@ sctp_transport_factory
 )
 const
 {
+RTC_DCHECK_RUN_ON
+(
+signaling_thread_
+)
+;
 return
 sctp_factory_
 .
@@ -622,6 +627,10 @@ SctpTransportFactoryInterface
 >
 const
 sctp_factory_
+RTC_GUARDED_BY
+(
+signaling_thread_
+)
 ;
 std
 :
