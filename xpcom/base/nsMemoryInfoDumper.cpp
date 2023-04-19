@@ -1610,7 +1610,6 @@ aSuffix
 }
 class
 GZWriterWrapper
-final
 :
 public
 JSONWriteFunc
@@ -1643,7 +1642,7 @@ char
 &
 aStr
 )
-final
+override
 {
 Unused
 <
@@ -1955,7 +1954,7 @@ rv
 static_cast
 <
 GZWriterWrapper
-&
+*
 >
 (
 mWriter
@@ -1965,7 +1964,8 @@ WriteFunc
 (
 )
 )
-.
+-
+>
 Finish
 (
 )

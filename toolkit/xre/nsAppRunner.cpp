@@ -13620,7 +13620,6 @@ ifdef
 MOZ_BLOCK_PROFILE_DOWNGRADE
 struct
 FileWriteFunc
-final
 :
 public
 JSONWriteFunc
@@ -13655,7 +13654,7 @@ char
 &
 aStr
 )
-final
+override
 {
 fprintf
 (
