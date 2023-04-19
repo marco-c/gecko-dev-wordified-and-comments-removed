@@ -3292,11 +3292,6 @@ MarkAsDead
 )
 ;
 void
-SignalImpendingShutdownToContentJS
-(
-)
-;
-void
 MaybeBeginShutDown
 (
 uint32_t
