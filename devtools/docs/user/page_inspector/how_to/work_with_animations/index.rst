@@ -2116,7 +2116,9 @@ https
 :
 /
 /
-mdn
+firefox
+-
+devtools
 .
 github
 .
@@ -2303,7 +2305,9 @@ https
 :
 /
 /
-mdn
+firefox
+-
+devtools
 .
 github
 .

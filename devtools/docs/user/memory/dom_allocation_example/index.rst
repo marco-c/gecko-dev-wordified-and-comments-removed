@@ -78,7 +78,9 @@ https
 :
 /
 /
-mdn
+firefox
+-
+devtools
 .
 github
 .
