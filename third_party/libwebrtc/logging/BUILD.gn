@@ -1797,6 +1797,14 @@ rtc_base
 :
 checks
 "
+"
+.
+.
+/
+rtc_base
+:
+threading
+"
 ]
 }
 }
