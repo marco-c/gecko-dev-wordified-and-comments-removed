@@ -3108,7 +3108,7 @@ if
 (
 LocalAccessible
 *
-accessible
+acc
 =
 document
 -
@@ -3119,6 +3119,18 @@ aContent
 )
 )
 {
+LocalAccessible
+*
+table
+=
+nsAccUtils
+:
+:
+TableFor
+(
+acc
+)
+;
 document
 -
 >
@@ -3128,7 +3140,7 @@ nsIAccessibleEvent
 :
 :
 EVENT_TABLE_STYLING_CHANGED
-accessible
+table
 )
 ;
 }
