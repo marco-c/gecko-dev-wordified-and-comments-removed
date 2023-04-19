@@ -41,7 +41,7 @@ requireRawId
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -60,7 +60,9 @@ plugin
 -
 raw
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
