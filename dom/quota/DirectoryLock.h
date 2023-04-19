@@ -98,6 +98,14 @@ AcquireImmediately
 ;
 virtual
 void
+AssertIsAcquiredExclusively
+(
+)
+=
+0
+;
+virtual
+void
 Log
 (
 )
