@@ -789,6 +789,9 @@ cubeb
 audio
 "
 "
+BackgroundThreadPool
+"
+"
 camera
 "
 "
