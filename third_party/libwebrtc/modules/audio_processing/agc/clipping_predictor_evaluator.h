@@ -94,6 +94,11 @@ clipping_predicted
 )
 ;
 void
+RemoveExpectations
+(
+)
+;
+void
 Reset
 (
 )
