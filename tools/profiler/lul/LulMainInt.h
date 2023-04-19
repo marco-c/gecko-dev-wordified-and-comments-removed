@@ -1686,6 +1686,7 @@ mDictIx
 dictIx
 ;
 }
+inline
 uint32_t
 offset
 (
@@ -1696,6 +1697,7 @@ return
 mOffset
 ;
 }
+inline
 uint32_t
 len
 (
@@ -1706,6 +1708,7 @@ return
 mLen
 ;
 }
+inline
 uint32_t
 dictIx
 (
