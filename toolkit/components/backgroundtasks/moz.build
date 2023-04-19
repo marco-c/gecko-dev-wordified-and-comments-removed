@@ -330,6 +330,13 @@ jsm
 "
 tests
 /
+BackgroundTask_localization
+.
+jsm
+"
+"
+tests
+/
 BackgroundTask_policies
 .
 jsm
