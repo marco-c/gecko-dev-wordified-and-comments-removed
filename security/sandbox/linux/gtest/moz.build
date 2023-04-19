@@ -25,6 +25,11 @@ TestBrokerPolicy
 .
 cpp
 "
+"
+TestLogging
+.
+cpp
+"
 ]
 LOCAL_INCLUDES
 +
