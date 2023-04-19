@@ -4572,6 +4572,12 @@ path
 .
 normpath
 (
+os
+.
+path
+.
+normcase
+(
 Path
 (
 self
@@ -4580,6 +4586,7 @@ prefix
 )
 /
 relative_path
+)
 )
     
 def
@@ -4617,9 +4624,16 @@ path
 .
 normpath
 (
+os
+.
+path
+.
+normcase
+(
 self
 .
 prefix
+)
 )
 )
         
