@@ -109,11 +109,9 @@ GetPayloadType
 (
 )
 const
-{
-return
-255
+=
+0
 ;
-}
 virtual
 uint32_t
 GetSsrc
