@@ -245,6 +245,16 @@ JsepSession
 {
 }
 virtual
+JsepSession
+*
+Clone
+(
+)
+const
+=
+0
+;
+virtual
 nsresult
 Init
 (
