@@ -774,12 +774,7 @@ ToolboxTask
 .
 spawn
 (
-JSON
-.
-stringify
-(
 contentElementSelector
-)
 async
 _selector
 =
