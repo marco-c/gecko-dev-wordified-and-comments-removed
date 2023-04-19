@@ -5269,6 +5269,10 @@ mac_geckodriver
 "
             
 "
+mac_notarize_geckodriver
+"
+            
+"
 mac_single_file
 "
             
