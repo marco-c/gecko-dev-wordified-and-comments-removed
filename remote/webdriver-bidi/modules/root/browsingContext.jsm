@@ -1956,6 +1956,11 @@ browsingContext
 .
 contextCreated
 "
+"
+browsingContext
+.
+load
+"
 ]
 ;
 }
