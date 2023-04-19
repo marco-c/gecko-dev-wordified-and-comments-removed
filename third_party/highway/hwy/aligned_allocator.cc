@@ -208,7 +208,6 @@ offset
 ;
 }
 }
-HWY_DLLEXPORT
 void
 *
 AllocateAlignedBytes
@@ -475,7 +474,6 @@ kAlignment
 )
 ;
 }
-HWY_DLLEXPORT
 void
 FreeAlignedBytes
 (
@@ -571,7 +569,6 @@ allocated
 ;
 }
 }
-HWY_DLLEXPORT
 void
 AlignedDeleter
 :

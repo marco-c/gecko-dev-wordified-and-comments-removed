@@ -325,10 +325,6 @@ private
 Status
 PrepareEncoding
 (
-const
-FrameHeader
-&
-frame_header
 ThreadPool
 *
 pool

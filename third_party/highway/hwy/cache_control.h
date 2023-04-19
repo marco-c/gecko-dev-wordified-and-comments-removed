@@ -217,6 +217,9 @@ _MM_HINT_T0
 #
 elif
 HWY_COMPILER_GCC
+|
+|
+HWY_COMPILER_CLANG
 __builtin_prefetch
 (
 p

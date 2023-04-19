@@ -676,8 +676,8 @@ JxlEncoderFrameSettings
 JXL_BOOL
 )
 ;
-JXL_DEPRECATED
 JXL_EXPORT
+JXL_DEPRECATED
 JxlEncoderStatus
 JxlEncoderOptionsSetEffort
 (
@@ -688,8 +688,8 @@ int
 effort
 )
 ;
-JXL_DEPRECATED
 JXL_EXPORT
+JXL_DEPRECATED
 JxlEncoderStatus
 JxlEncoderOptionsSetDecodingSpeed
 (
@@ -711,8 +711,8 @@ float
 distance
 )
 ;
-JXL_DEPRECATED
 JXL_EXPORT
+JXL_DEPRECATED
 JxlEncoderStatus
 JxlEncoderOptionsSetDistance
 (
@@ -735,8 +735,8 @@ JxlEncoderFrameSettings
 source
 )
 ;
-JXL_DEPRECATED
 JXL_EXPORT
+JXL_DEPRECATED
 JxlEncoderFrameSettings
 *
 JxlEncoderOptionsCreate

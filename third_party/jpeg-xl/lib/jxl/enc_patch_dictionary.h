@@ -602,7 +602,7 @@ blendings
 pdic
 -
 >
-ComputePatchTree
+ComputePatchCache
 (
 )
 ;

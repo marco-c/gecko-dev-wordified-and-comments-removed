@@ -1974,8 +1974,6 @@ path
 vcpkg
 key
 :
-release
--
 {
 {
 runner

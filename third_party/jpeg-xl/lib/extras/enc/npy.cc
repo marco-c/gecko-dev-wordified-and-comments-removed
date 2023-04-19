@@ -2002,16 +2002,6 @@ nullptr
 const
 override
 {
-JXL_RETURN_IF_ERROR
-(
-VerifyBasicInfo
-(
-ppf
-.
-info
-)
-)
-;
 GenerateMetadata
 (
 ppf

@@ -474,7 +474,10 @@ padding
 {
 #
 if
-HWY_IS_MSAN
+defined
+(
+MEMORY_SANITIZER
+)
 |
 |
 HWY_IDE

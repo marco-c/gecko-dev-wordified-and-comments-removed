@@ -73,7 +73,7 @@ testing
 :
 TestWithParam
 <
-int64_t
+uint32_t
 >
 {
 protected
@@ -114,11 +114,7 @@ HWY_TARGETS
 0
 EXPECT_TRUE
 (
-GetChosenTarget
-(
-)
-.
-IsInitialized
+SupportedTargetsCalledForTest
 (
 )
 )
@@ -174,7 +170,7 @@ testing
 :
 TestParamInfo
 <
-int64_t
+uint32_t
 >
 &
 info
@@ -248,7 +244,7 @@ std
 :
 tuple
 <
-int64_t
+uint32_t
 T
 >
 >
@@ -290,7 +286,7 @@ std
 :
 tuple
 <
-int64_t
+uint32_t
 T
 >
 >
@@ -325,11 +321,7 @@ HWY_TARGETS
 0
 EXPECT_TRUE
 (
-GetChosenTarget
-(
-)
-.
-IsInitialized
+SupportedTargetsCalledForTest
 (
 )
 )
@@ -395,7 +387,7 @@ std
 :
 tuple
 <
-int64_t
+uint32_t
 T
 >
 >
@@ -431,7 +423,7 @@ std
 :
 tuple
 <
-int64_t
+uint32_t
 T
 >
 >

@@ -283,6 +283,8 @@ Histogram
 &
 in
 size_t
+num_contexts
+size_t
 max_histograms
 std
 :

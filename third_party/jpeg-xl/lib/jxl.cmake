@@ -679,6 +679,11 @@ jxl
 /
 exif
 .
+cc
+jxl
+/
+exif
+.
 h
 jxl
 /
