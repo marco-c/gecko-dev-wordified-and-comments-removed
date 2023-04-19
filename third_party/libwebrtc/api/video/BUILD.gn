@@ -1888,8 +1888,10 @@ video_coding_utility
 modules
 /
 video_coding
+/
+svc
 :
-webrtc_vp9_helpers
+svc_rate_allocator
 "
 "
 .
