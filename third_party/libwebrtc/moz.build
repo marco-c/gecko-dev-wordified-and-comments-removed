@@ -3343,7 +3343,7 @@ modules
 /
 video_coding
 /
-nack_module_gn
+nack_requester_gn
 "
 "
 /
