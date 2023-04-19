@@ -1016,6 +1016,12 @@ mTriggeredGCDeadline
 IsNull
 (
 )
+&
+&
+*
+mTriggeredGCDeadline
+>
+aStart
 ;
 if
 (
