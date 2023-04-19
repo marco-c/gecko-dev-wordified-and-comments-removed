@@ -148,6 +148,13 @@ product
 "
 chrome
 "
+or
+product
+=
+=
+"
+chromium
+"
 :
         
 args
