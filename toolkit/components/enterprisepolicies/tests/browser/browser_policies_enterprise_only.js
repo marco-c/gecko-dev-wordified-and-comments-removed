@@ -31,7 +31,7 @@ Policies
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -45,9 +45,7 @@ policies
 /
 Policies
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

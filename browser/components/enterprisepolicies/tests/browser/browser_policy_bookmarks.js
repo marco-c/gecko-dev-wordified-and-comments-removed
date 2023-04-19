@@ -84,7 +84,7 @@ BookmarksPolicies
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -98,9 +98,7 @@ policies
 /
 BookmarksPolicies
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
