@@ -7694,6 +7694,7 @@ ValidateRtpExtensions
 params
 .
 extensions
+send_rtp_extensions_
 )
 )
 {
@@ -7951,6 +7952,7 @@ ValidateRtpExtensions
 params
 .
 extensions
+recv_rtp_extensions_
 )
 )
 {

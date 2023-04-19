@@ -2812,11 +2812,6 @@ RTC_GUARDED_BY
 thread_checker_
 )
 ;
-absl
-:
-:
-optional
-<
 std
 :
 :
@@ -2826,7 +2821,6 @@ webrtc
 :
 :
 RtpExtension
->
 >
 send_rtp_extensions_
 RTC_GUARDED_BY
