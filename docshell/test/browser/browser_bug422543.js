@@ -647,7 +647,7 @@ ACTOR
 child
 :
 {
-moduleURI
+esModuleURI
 :
 {
 base
@@ -655,7 +655,9 @@ base
 /
 Bug422543Child
 .
-jsm
+sys
+.
+mjs
 }
 }
 )

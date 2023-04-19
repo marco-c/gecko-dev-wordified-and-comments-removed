@@ -1,12 +1,3 @@
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-Bug422543Child
-"
-]
-;
 class
 SHistoryListener
 {
@@ -116,6 +107,7 @@ nsISupportsWeakReference
 let
 listeners
 ;
+export
 class
 Bug422543Child
 extends

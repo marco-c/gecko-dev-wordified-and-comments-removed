@@ -898,7 +898,9 @@ base
 /
 URIFixup
 .
-jsm
+sys
+.
+mjs
 -
 docshell
 /

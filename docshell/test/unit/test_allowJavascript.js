@@ -206,7 +206,7 @@ AllowJavascriptParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -217,7 +217,9 @@ test
 /
 AllowJavascriptParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -407,7 +409,7 @@ true
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -418,7 +420,9 @@ test
 /
 AllowJavascriptChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
@@ -435,7 +439,7 @@ true
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -446,7 +450,9 @@ test
 /
 AllowJavascriptParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 }

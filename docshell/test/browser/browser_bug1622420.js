@@ -40,7 +40,7 @@ true
 child
 :
 {
-moduleURI
+esModuleURI
 :
 {
 base
@@ -48,7 +48,9 @@ base
 /
 Bug1622420Child
 .
-jsm
+sys
+.
+mjs
 }
 }
 )

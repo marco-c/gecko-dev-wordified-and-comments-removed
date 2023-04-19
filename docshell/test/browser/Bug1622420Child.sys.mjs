@@ -1,12 +1,4 @@
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-Bug1622420Child
-"
-]
-;
+export
 class
 Bug1622420Child
 extends

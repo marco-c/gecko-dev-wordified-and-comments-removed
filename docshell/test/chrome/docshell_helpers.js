@@ -122,7 +122,9 @@ chrome
 /
 DocShellHelpers
 .
-jsm
+sys
+.
+mjs
 "
 ;
 const
@@ -132,7 +134,7 @@ DocShellHelpersParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 ACTOR_MODULE_URI
 )
@@ -830,14 +832,14 @@ DocShellHelpers
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 ACTOR_MODULE_URI
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 ACTOR_MODULE_URI
 events

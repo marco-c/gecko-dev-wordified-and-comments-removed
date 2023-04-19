@@ -1,17 +1,3 @@
-"
-use
-strict
-"
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-AllowJavascriptParent
-"
-]
-;
 let
 loadPromises
 =
@@ -20,6 +6,7 @@ WeakMap
 (
 )
 ;
+export
 class
 AllowJavascriptParent
 extends
