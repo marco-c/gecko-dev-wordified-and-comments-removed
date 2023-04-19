@@ -115,13 +115,15 @@ Aec3Optimization
 kNeon
 ;
 #
-endif
+else
 return
 Aec3Optimization
 :
 :
 kNone
 ;
+#
+endif
 }
 float
 FastApproxLog2f
