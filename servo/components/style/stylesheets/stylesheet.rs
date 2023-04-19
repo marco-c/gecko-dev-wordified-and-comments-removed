@@ -1870,15 +1870,6 @@ CounterStyle
 .
 .
 )
-|
-CssRule
-:
-:
-ScrollTimeline
-(
-.
-.
-)
 =
 >
 !

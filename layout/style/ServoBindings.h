@@ -266,10 +266,6 @@ BASIC_RULE_FUNCS
 (
 CounterStyle
 )
-BASIC_RULE_FUNCS
-(
-ScrollTimeline
-)
 GROUP_RULE_FUNCS
 (
 Container

@@ -3323,11 +3323,6 @@ CSSRuleList
 webidl
 "
 "
-CSSScrollTimelineRule
-.
-webidl
-"
-"
 CSSStyleDeclaration
 .
 webidl
