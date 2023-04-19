@@ -10151,7 +10151,7 @@ aHeight
 =
 size
 .
-width
+height
 ;
 return
 NS_OK
