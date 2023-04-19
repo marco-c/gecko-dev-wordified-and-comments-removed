@@ -1212,6 +1212,13 @@ entry
 "
 startTime
 "
+]
+)
+;
+assert_not_negative_
+(
+entry
+[
 "
 duration
 "
