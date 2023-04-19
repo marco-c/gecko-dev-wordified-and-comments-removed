@@ -3195,6 +3195,12 @@ NS_ERROR_EDITOR_DESTROYED
 )
 ;
 }
+convertListTypeResult
+.
+IgnoreCaretPointSuggestion
+(
+)
+;
 NS_WARNING_ASSERTION
 (
 convertListTypeResult
