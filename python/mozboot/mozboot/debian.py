@@ -192,10 +192,6 @@ uuid
 "
         
 "
-watchman
-"
-        
-"
 zip
 "
     
@@ -321,7 +317,10 @@ self
 .
 version
 =
+int
+(
 version
+)
         
 self
 .
@@ -345,6 +344,26 @@ self
 .
 COMMON_PACKAGES
 )
+        
+if
+self
+.
+version
+>
+=
+11
+:
+            
+self
+.
+packages
++
+=
+[
+"
+watchman
+"
+]
     
 def
 suggest_install_distutils
