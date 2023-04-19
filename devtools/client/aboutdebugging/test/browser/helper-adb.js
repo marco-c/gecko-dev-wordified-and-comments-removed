@@ -33,6 +33,10 @@ check
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -50,6 +54,8 @@ adb
 running
 -
 checker
+.
+js
 "
 )
 ;
@@ -121,6 +127,10 @@ adbProcess
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -136,6 +146,8 @@ adb
 adb
 -
 process
+.
+js
 "
 )
 ;
@@ -147,6 +159,10 @@ check
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -164,6 +180,8 @@ adb
 running
 -
 checker
+.
+js
 "
 )
 ;
@@ -225,6 +243,10 @@ adbProcess
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -240,6 +262,8 @@ adb
 adb
 -
 process
+.
+js
 "
 )
 ;
@@ -269,6 +293,10 @@ check
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -286,6 +314,8 @@ adb
 running
 -
 checker
+.
+js
 "
 )
 ;

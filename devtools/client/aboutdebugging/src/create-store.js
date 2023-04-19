@@ -12,6 +12,10 @@ createStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ thunk
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -56,6 +66,10 @@ waitUntilService
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +94,10 @@ rootReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -91,6 +109,8 @@ src
 reducers
 /
 index
+.
+js
 "
 )
 ;
@@ -102,6 +122,10 @@ DebugTargetsState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +141,8 @@ debug
 targets
 -
 state
+.
+js
 "
 )
 ;
@@ -128,6 +154,10 @@ RuntimesState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -141,6 +171,8 @@ reducers
 runtimes
 -
 state
+.
+js
 "
 )
 ;
@@ -152,6 +184,10 @@ UiState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +201,8 @@ reducers
 ui
 -
 state
+.
+js
 "
 )
 ;
@@ -174,6 +212,10 @@ debugTargetListenerMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -189,6 +231,8 @@ debug
 target
 -
 listener
+.
+js
 "
 )
 ;
@@ -198,6 +242,10 @@ errorLoggingMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -211,6 +259,8 @@ middleware
 error
 -
 logging
+.
+js
 "
 )
 ;
@@ -220,6 +270,10 @@ eventRecordingMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -233,6 +287,8 @@ middleware
 event
 -
 recording
+.
+js
 "
 )
 ;
@@ -242,6 +298,10 @@ extensionComponentDataMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -257,6 +317,8 @@ extension
 component
 -
 data
+.
+js
 "
 )
 ;
@@ -266,6 +328,10 @@ processComponentDataMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -281,6 +347,8 @@ process
 component
 -
 data
+.
+js
 "
 )
 ;
@@ -290,6 +358,10 @@ tabComponentDataMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -305,6 +377,8 @@ tab
 component
 -
 data
+.
+js
 "
 )
 ;
@@ -314,6 +388,10 @@ workerComponentDataMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -329,6 +407,8 @@ worker
 component
 -
 data
+.
+js
 "
 )
 ;
@@ -340,6 +420,10 @@ getDebugTargetCollapsibilities
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -355,6 +439,8 @@ debug
 target
 -
 collapsibilities
+.
+js
 "
 )
 ;
@@ -366,6 +452,10 @@ getNetworkLocations
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -379,6 +469,8 @@ modules
 network
 -
 locations
+.
+js
 "
 )
 ;
@@ -390,6 +482,10 @@ PREFERENCES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -399,6 +495,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

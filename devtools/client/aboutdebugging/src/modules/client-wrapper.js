@@ -11,6 +11,10 @@ checkVersionCompatibility
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -24,6 +28,8 @@ debugging
 version
 -
 checker
+.
+js
 "
 )
 ;
@@ -35,6 +41,10 @@ RUNTIME_PREFERENCE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -55,6 +67,10 @@ WorkersListener
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,6 +80,8 @@ shared
 workers
 -
 listener
+.
+js
 "
 )
 ;
@@ -73,6 +91,10 @@ RootResourceCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -88,6 +110,8 @@ root
 resource
 -
 command
+.
+js
 "
 )
 ;

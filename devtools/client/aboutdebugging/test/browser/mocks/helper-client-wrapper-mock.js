@@ -11,6 +11,10 @@ RUNTIME_PREFERENCE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -61,6 +67,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -68,6 +78,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -435,6 +447,10 @@ COMPATIBILITY_STATUS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -448,6 +464,8 @@ debugging
 version
 -
 checker
+.
+js
 "
 )
 ;

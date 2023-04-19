@@ -11,6 +11,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -34,6 +40,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -74,6 +92,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -96,6 +120,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -107,6 +135,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -126,6 +156,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -137,6 +171,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -146,6 +182,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -157,6 +197,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;
@@ -168,6 +210,10 @@ PROFILER_PAGE_CONTEXT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -177,6 +223,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

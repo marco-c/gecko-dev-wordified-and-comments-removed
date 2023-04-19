@@ -11,6 +11,10 @@ combineReducers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ debugTargetsReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +56,8 @@ debug
 targets
 -
 state
+.
+js
 "
 )
 ;
@@ -57,6 +69,10 @@ runtimesReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -70,6 +86,8 @@ reducers
 runtimes
 -
 state
+.
+js
 "
 )
 ;
@@ -81,6 +99,10 @@ uiReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -94,6 +116,8 @@ reducers
 ui
 -
 state
+.
+js
 "
 )
 ;

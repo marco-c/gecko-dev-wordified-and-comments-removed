@@ -87,6 +87,10 @@ RUNTIMES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +100,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -467,6 +473,10 @@ addNetworkLocation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -480,6 +490,8 @@ modules
 network
 -
 locations
+.
+js
 "
 )
 ;
@@ -573,6 +585,10 @@ removeNetworkLocation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -586,6 +602,8 @@ modules
 network
 -
 locations
+.
+js
 "
 )
 ;
@@ -1030,6 +1048,10 @@ setMockedModule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -1041,6 +1063,8 @@ browser
 loader
 -
 mocks
+.
+js
 "
 )
 ;
@@ -1145,6 +1169,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -1152,6 +1180,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -1163,6 +1193,10 @@ DevToolsClient
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1170,6 +1204,8 @@ client
 devtools
 -
 client
+.
+js
 "
 )
 ;
@@ -1181,6 +1217,10 @@ ClientWrapper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1194,6 +1234,8 @@ modules
 client
 -
 wrapper
+.
+js
 "
 )
 ;

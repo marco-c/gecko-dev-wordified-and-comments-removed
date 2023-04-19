@@ -9,6 +9,10 @@ networkLocationsModule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

@@ -12,6 +12,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -96,6 +120,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -107,6 +135,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -128,6 +158,10 @@ getCurrentRuntimeDetails
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -143,6 +177,8 @@ runtimes
 state
 -
 helper
+.
+js
 "
 )
 ;
@@ -154,6 +190,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -167,6 +207,8 @@ components
 debugtarget
 /
 InspectAction
+.
+js
 "
 )
 )
@@ -177,6 +219,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -188,6 +234,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;
@@ -199,6 +247,10 @@ SERVICE_WORKER_STATUSES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -208,6 +260,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

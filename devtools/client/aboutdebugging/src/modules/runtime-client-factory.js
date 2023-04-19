@@ -11,6 +11,10 @@ prepareTCPConnection
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -26,6 +30,8 @@ adb
 commands
 /
 index
+.
+js
 "
 )
 ;
@@ -37,6 +43,10 @@ DevToolsClient
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ client
 devtools
 -
 client
+.
+js
 "
 )
 ;
@@ -55,6 +67,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -62,6 +78,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -73,6 +91,10 @@ ClientWrapper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -86,6 +108,8 @@ modules
 client
 -
 wrapper
+.
+js
 "
 )
 ;
@@ -97,6 +121,10 @@ remoteClientManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +140,8 @@ remote
 client
 -
 manager
+.
+js
 "
 )
 ;
@@ -123,6 +153,10 @@ RUNTIMES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -132,6 +166,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

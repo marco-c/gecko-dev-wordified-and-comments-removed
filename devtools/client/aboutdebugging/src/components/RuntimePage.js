@@ -11,6 +11,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -34,6 +40,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -74,6 +92,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -96,6 +120,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -107,6 +135,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -128,6 +158,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -139,6 +173,8 @@ src
 components
 /
 CompatibilityWarning
+.
+js
 "
 )
 )
@@ -151,6 +187,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -164,6 +204,8 @@ components
 debugtarget
 /
 DebugTargetPane
+.
+js
 "
 )
 )
@@ -176,6 +218,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -189,6 +235,8 @@ components
 debugtarget
 /
 ExtensionDetail
+.
+js
 "
 )
 )
@@ -201,6 +249,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -214,6 +266,8 @@ components
 debugtarget
 /
 InspectAction
+.
+js
 "
 )
 )
@@ -226,6 +280,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -237,6 +295,8 @@ src
 components
 /
 ProfilerDialog
+.
+js
 "
 )
 )
@@ -249,6 +309,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -260,6 +324,8 @@ src
 components
 /
 RuntimeActions
+.
+js
 "
 )
 )
@@ -272,6 +338,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -283,6 +353,8 @@ src
 components
 /
 RuntimeInfo
+.
+js
 "
 )
 )
@@ -295,6 +367,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -308,6 +384,8 @@ components
 debugtarget
 /
 ServiceWorkerAction
+.
+js
 "
 )
 )
@@ -320,6 +398,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -333,6 +415,8 @@ components
 debugtarget
 /
 ServiceWorkerAdditionalActions
+.
+js
 "
 )
 )
@@ -345,6 +429,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -356,6 +444,8 @@ src
 components
 /
 ServiceWorkersWarning
+.
+js
 "
 )
 )
@@ -368,6 +458,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -381,6 +475,8 @@ components
 debugtarget
 /
 ProcessDetail
+.
+js
 "
 )
 )
@@ -393,6 +489,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -406,6 +506,8 @@ components
 debugtarget
 /
 TabAction
+.
+js
 "
 )
 )
@@ -418,6 +520,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -431,6 +537,8 @@ components
 debugtarget
 /
 TabDetail
+.
+js
 "
 )
 )
@@ -443,6 +551,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -456,6 +568,8 @@ components
 debugtarget
 /
 TemporaryExtensionAdditionalActions
+.
+js
 "
 )
 )
@@ -468,6 +582,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -481,6 +599,8 @@ components
 debugtarget
 /
 TemporaryExtensionDetail
+.
+js
 "
 )
 )
@@ -493,6 +613,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -506,6 +630,8 @@ components
 debugtarget
 /
 TemporaryExtensionInstallSection
+.
+js
 "
 )
 )
@@ -518,6 +644,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -531,6 +661,8 @@ components
 debugtarget
 /
 WorkerDetail
+.
+js
 "
 )
 )
@@ -541,6 +673,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -552,6 +688,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -565,6 +703,10 @@ PAGE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -574,6 +716,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -583,6 +727,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -594,6 +742,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;
@@ -605,6 +755,10 @@ getCurrentRuntimeDetails
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -620,6 +774,8 @@ runtimes
 state
 -
 helper
+.
+js
 "
 )
 ;
@@ -633,6 +789,10 @@ supportsTemporaryExtensionAdditionalActions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -648,6 +808,8 @@ debug
 target
 -
 support
+.
+js
 "
 )
 ;

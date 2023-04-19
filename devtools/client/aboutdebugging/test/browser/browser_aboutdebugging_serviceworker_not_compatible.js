@@ -195,6 +195,10 @@ remoteClientManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -210,6 +214,8 @@ remote
 client
 -
 manager
+.
+js
 "
 )
 ;

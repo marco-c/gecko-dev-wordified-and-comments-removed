@@ -60,6 +60,10 @@ window
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -67,6 +71,8 @@ client
 aboutdebugging
 /
 aboutdebugging
+.
+js
 "
 )
 ;

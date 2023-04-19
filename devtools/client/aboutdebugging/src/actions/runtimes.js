@@ -9,6 +9,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ findRuntimeById
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -48,6 +58,8 @@ runtimes
 state
 -
 helper
+.
+js
 "
 )
 ;
@@ -59,6 +71,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -70,6 +86,8 @@ src
 modules
 /
 l10n
+.
+js
 "
 )
 ;
@@ -82,6 +100,10 @@ DEFAULT_PREFERENCES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +119,8 @@ runtime
 default
 -
 preferences
+.
+js
 "
 )
 ;
@@ -108,6 +132,10 @@ createClientForRuntime
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +151,8 @@ runtime
 client
 -
 factory
+.
+js
 "
 )
 ;
@@ -134,6 +164,10 @@ isSupportedDebugTargetPane
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -149,6 +183,8 @@ debug
 target
 -
 support
+.
+js
 "
 )
 ;
@@ -160,6 +196,10 @@ remoteClientManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -175,6 +215,8 @@ remote
 client
 -
 manager
+.
+js
 "
 )
 ;
@@ -208,6 +250,10 @@ WATCH_RUNTIME_SUCCESS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -217,6 +263,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

@@ -9,6 +9,10 @@ debugTargetTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ types
 debug
 -
 target
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ runtimeTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +52,8 @@ src
 types
 /
 runtime
+.
+js
 "
 )
 ;
@@ -51,6 +63,10 @@ uiTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -62,6 +78,8 @@ src
 types
 /
 ui
+.
+js
 "
 )
 ;

@@ -23,6 +23,10 @@ USB_RUNTIMES_SCAN_SUCCESS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -32,6 +36,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

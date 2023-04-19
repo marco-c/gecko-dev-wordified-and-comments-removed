@@ -35,6 +35,10 @@ remoteClientManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -50,6 +54,8 @@ remote
 client
 -
 manager
+.
+js
 "
 )
 ;
@@ -61,6 +67,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -72,6 +82,8 @@ src
 modules
 /
 l10n
+.
+js
 "
 )
 ;
@@ -83,6 +95,10 @@ isSupportedDebugTargetPane
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +114,8 @@ debug
 target
 -
 support
+.
+js
 "
 )
 ;
@@ -110,6 +128,10 @@ uninstallAddon
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +145,8 @@ modules
 extensions
 -
 helper
+.
+js
 "
 )
 ;
@@ -135,6 +159,10 @@ getCurrentRuntime
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -150,6 +178,8 @@ runtimes
 state
 -
 helper
+.
+js
 "
 )
 ;
@@ -161,6 +191,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -168,6 +202,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;
@@ -202,6 +238,10 @@ RUNTIMES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -211,6 +251,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -220,6 +262,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -231,6 +277,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;

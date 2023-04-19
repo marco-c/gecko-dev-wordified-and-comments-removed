@@ -9,6 +9,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ ADB_ADDON_STATES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -48,6 +58,8 @@ adb
 adb
 -
 addon
+.
+js
 "
 )
 ;
@@ -60,6 +72,10 @@ PAGE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -69,6 +85,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

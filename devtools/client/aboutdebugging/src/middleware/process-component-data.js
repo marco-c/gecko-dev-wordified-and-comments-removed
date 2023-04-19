@@ -11,6 +11,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ src
 modules
 /
 l10n
+.
+js
 "
 )
 ;
@@ -35,6 +41,10 @@ REQUEST_PROCESSES_SUCCESS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

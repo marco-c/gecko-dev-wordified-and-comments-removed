@@ -20,6 +20,10 @@ UNWATCH_RUNTIME_SUCCESS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -29,6 +33,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

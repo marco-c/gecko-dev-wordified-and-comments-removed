@@ -9,6 +9,10 @@ debugTargets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ actions
 debug
 -
 targets
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ runtimes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +52,8 @@ src
 actions
 /
 runtimes
+.
+js
 "
 )
 ;
@@ -51,6 +63,10 @@ telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -62,6 +78,8 @@ src
 actions
 /
 telemetry
+.
+js
 "
 )
 ;
@@ -71,6 +89,10 @@ ui
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +104,8 @@ src
 actions
 /
 ui
+.
+js
 "
 )
 ;

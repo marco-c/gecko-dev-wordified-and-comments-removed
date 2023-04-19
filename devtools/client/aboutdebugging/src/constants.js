@@ -12,6 +12,10 @@ DEBUG_TARGET_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -23,6 +27,8 @@ remote
 debugging
 /
 constants
+.
+js
 "
 )
 ;

@@ -36,6 +36,10 @@ PREFERENCE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -51,6 +55,8 @@ runtime
 default
 -
 preferences
+.
+js
 "
 )
 ;

@@ -17,6 +17,10 @@ setMockedModule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -28,6 +32,8 @@ browser
 loader
 -
 mocks
+.
+js
 "
 )
 ;
@@ -74,6 +80,10 @@ setMockedModule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -85,6 +95,8 @@ browser
 loader
 -
 mocks
+.
+js
 "
 )
 ;
@@ -174,6 +186,10 @@ removeMockedModule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -185,6 +201,8 @@ browser
 loader
 -
 mocks
+.
+js
 "
 )
 ;
