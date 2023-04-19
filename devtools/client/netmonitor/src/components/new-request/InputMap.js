@@ -556,6 +556,11 @@ value
 item
 .
 name
+title
+:
+item
+.
+name
 }
 textarea
 (
@@ -643,6 +648,11 @@ replicated
 -
 value
 "
+:
+item
+.
+value
+title
 :
 item
 .
@@ -851,6 +861,9 @@ value
 "
 :
 name
+title
+:
+value
 }
 textarea
 (
@@ -946,6 +959,9 @@ replicated
 -
 value
 "
+:
+value
+title
 :
 value
 }
