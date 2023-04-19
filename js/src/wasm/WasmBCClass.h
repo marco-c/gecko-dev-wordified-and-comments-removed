@@ -6480,6 +6480,16 @@ nodiscard
 ]
 ]
 bool
+emitArrayNewData
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 emitArrayGet
 (
 FieldExtension

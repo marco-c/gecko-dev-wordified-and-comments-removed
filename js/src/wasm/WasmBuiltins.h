@@ -149,6 +149,7 @@ StructNew
 ExceptionNew
 ThrowException
 ArrayNew
+ArrayNewData
 InlineTypedObjectClass
 #
 define
@@ -532,6 +533,11 @@ extern
 const
 SymbolicAddressSignature
 SASigArrayNew
+;
+extern
+const
+SymbolicAddressSignature
+SASigArrayNewData
 ;
 extern
 const

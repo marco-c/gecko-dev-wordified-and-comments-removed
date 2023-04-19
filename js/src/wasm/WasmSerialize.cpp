@@ -3715,7 +3715,7 @@ LinkData
 :
 :
 SymbolicLinkArray
-6912
+6984
 )
 ;
 for
@@ -3789,7 +3789,7 @@ wasm
 :
 :
 LinkData
-6960
+7032
 )
 ;
 if
