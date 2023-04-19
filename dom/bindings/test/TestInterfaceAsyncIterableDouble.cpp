@@ -285,7 +285,7 @@ Promise
 TestInterfaceAsyncIterableDouble
 :
 :
-GetNextPromise
+GetNextIterationResult
 (
 Iterator
 *
@@ -349,7 +349,7 @@ Promise
 TestInterfaceAsyncIterableDouble
 :
 :
-GetNextPromise
+GetNextIterationResult
 "
 this
 &

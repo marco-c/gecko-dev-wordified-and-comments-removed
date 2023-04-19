@@ -305,7 +305,7 @@ Promise
 FileSystemDirectoryHandle
 :
 :
-GetNextPromise
+GetNextIterationResult
 (
 FileSystemDirectoryHandle
 :

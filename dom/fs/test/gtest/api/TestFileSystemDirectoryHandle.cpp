@@ -508,7 +508,7 @@ promise
 dirHandle
 -
 >
-GetNextPromise
+GetNextIterationResult
 (
 iterator
 .

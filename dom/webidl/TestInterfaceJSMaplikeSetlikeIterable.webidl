@@ -553,6 +553,9 @@ constructor
 (
 )
 ;
+[
+GenerateReturnMethod
+]
 async
 iterable
 <
@@ -566,6 +569,16 @@ options
 {
 }
 )
+;
+readonly
+attribute
+long
+returnCallCount
+;
+readonly
+attribute
+any
+returnLastCalledWith
 ;
 }
 ;

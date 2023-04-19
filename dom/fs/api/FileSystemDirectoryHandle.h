@@ -189,7 +189,7 @@ already_AddRefed
 <
 Promise
 >
-GetNextPromise
+GetNextIterationResult
 (
 iterator_t
 *
