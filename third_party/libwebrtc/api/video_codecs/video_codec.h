@@ -85,6 +85,10 @@ enum
 class
 VideoCodecComplexity
 {
+kComplexityLow
+=
+-
+1
 kComplexityNormal
 =
 0
