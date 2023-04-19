@@ -2461,6 +2461,8 @@ const
 AllocSiteInput
 &
 allocSite
+bool
+initContents
 )
 {
 MOZ_ASSERT
@@ -2563,6 +2565,11 @@ offsetOfElements
 )
 )
 ;
+if
+(
+initContents
+)
+{
 fillSlotsWithUndefined
 (
 Address
@@ -2581,6 +2588,7 @@ temp
 numFixedSlots
 )
 ;
+}
 if
 (
 numDynamicSlots
