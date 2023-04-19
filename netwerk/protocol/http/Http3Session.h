@@ -419,9 +419,9 @@ nodiscard
 ]
 ]
 nsresult
-GetTransactionTLSSocketControl
+GetTransactionSecurityInfo
 (
-nsISSLSocketControl
+nsISupports
 *
 *
 )
