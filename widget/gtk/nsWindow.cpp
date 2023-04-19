@@ -9664,11 +9664,16 @@ aFlippedY
 )
 {
 #
-ifdef
-NIGHTLY_BUILD
-MOZ_DIAGNOSTIC_ASSERT
+if
+MOZ_LOGGING
+if
 (
+!
 mWaitingForMoveToRectCallback
+)
+{
+LOG
+(
 "
 Bogus
 move
@@ -9685,6 +9690,7 @@ bug
 "
 )
 ;
+}
 #
 endif
 mWaitingForMoveToRectCallback
