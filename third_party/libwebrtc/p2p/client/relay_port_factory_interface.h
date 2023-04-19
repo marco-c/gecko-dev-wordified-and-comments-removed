@@ -119,6 +119,17 @@ std
 string
 password
 ;
+ABSL_DEPRECATED
+(
+"
+stun
+origin
+support
+is
+going
+away
+"
+)
 std
 :
 :
