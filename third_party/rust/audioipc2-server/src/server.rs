@@ -1435,10 +1435,6 @@ as
 usize
 }
 )
-.
-wait
-(
-)
 ;
 match
 r
@@ -1600,10 +1596,6 @@ into
 )
 )
 )
-.
-wait
-(
-)
 ;
 match
 r
@@ -1674,10 +1666,6 @@ CallbackReq
 :
 :
 DeviceChange
-)
-.
-wait
-(
 )
 ;
 match
@@ -1892,10 +1880,6 @@ DeviceChange
 (
 device_type
 )
-)
-.
-wait
-(
 )
 ;
 }

@@ -346,10 +346,6 @@ ident
 {
 match
 resp
-.
-wait
-(
-)
 {
 Ok
 (
@@ -489,10 +485,6 @@ __result
 {
 match
 resp
-.
-wait
-(
-)
 {
 Ok
 (
