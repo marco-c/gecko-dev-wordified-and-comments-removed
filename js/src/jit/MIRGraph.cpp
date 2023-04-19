@@ -2245,6 +2245,18 @@ trackedSite_
 (
 site
 )
+#
+if
+defined
+(
+JS_ION_PERF
+)
+|
+|
+defined
+(
+DEBUG
+)
 lineno_
 (
 0u
@@ -2253,6 +2265,8 @@ columnIndex_
 (
 0u
 )
+#
+endif
 {
 MOZ_ASSERT
 (
