@@ -1627,6 +1627,12 @@ NeedsScrollSnap
 )
 const
 ;
+nsSize
+GetSnapportSize
+(
+)
+const
+;
 void
 ScheduleScrollAnimations
 (
