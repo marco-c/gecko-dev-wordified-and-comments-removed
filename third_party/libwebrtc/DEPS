@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-7fc7e127cd14edd614a894a46b94926e9c6a5588
+176855dcc8b016411806e6b5380f39b061aba57f
 '
 #
 Keep
@@ -165,7 +165,7 @@ chromium
 src
 /
 base
-68127bb5f98da9dad19ee394187229391f369303
+ad8d9a01a5acc611e0fb335c5f180afc995f77c7
 '
 '
 src
@@ -189,7 +189,7 @@ chromium
 src
 /
 build
-3accbb4b4d6a8293b1e2214948955757e626ed2a
+0e41ee9abfdfe163bc93c4ce19d17c92f6b0e6e2
 '
 '
 src
@@ -213,7 +213,7 @@ chromium
 src
 /
 buildtools
-f0259e64a3c238824b3323ced30edb2f45c63c8d
+d8c375426d8f7f4147f7d4109bb63c12655fb8d6
 '
 #
 Gradle
@@ -309,7 +309,7 @@ chromium
 src
 /
 ios
-dbde37f9b8cb2f5e6ad9440955b7381e5a842b16
+332d8dee2dcb4742ab45458f380082c262c41428
 '
 '
 condition
@@ -341,7 +341,7 @@ chromium
 src
 /
 testing
-cb66ad83632584f17b24f113a0ec3a3d36d79976
+4c179bb28c6e90c45291f1225700ad34e18ebeb8
 '
 '
 src
@@ -365,7 +365,7 @@ chromium
 src
 /
 third_party
-a3813e6a9a285502ebb677ab29d0c3bdb6363c62
+fc55284d0c7a6878725513fb3b7ddccb02003f74
 '
 '
 src
@@ -897,9 +897,9 @@ version
 '
 :
 '
-yQIf5Ev_
+wicn5Ce1ay6ivbZ1GNFF0gRSS3NYv_7hJTPtVga3O
 -
-q9u6Pr_a0APd1dHcImJSmotVADw4Pj151QC
+QC
 '
 }
 ]
@@ -1048,7 +1048,7 @@ com
 catapult
 .
 git
-4cc26bd5a059cf275feff2c934f744617dd26e8c
+389f33bb40a3345b73a68613178c789476ceaecf
 '
 '
 src
@@ -1178,7 +1178,7 @@ tools
 depot_tools
 .
 git
-950a6b4225ed3280aa0fbca2de51bfbaecd7695a
+76979dae56c08d24b092347a1bdd2abe474555a3
 '
 '
 src
@@ -1374,7 +1374,7 @@ third_party
 freetype2
 .
 git
-1e2eb65048f75c64b68708efed6ce904c31f3b2f
+53dfdcd8198d2b3201a23c4bad9190519ba918db
 '
 '
 src
@@ -1619,7 +1619,7 @@ deps
 icu
 .
 git
-8a5b728e4f43b0eabdb9ea450f956d67cfb22719
+ea8c08d8783fceda86c19618694881149e23f305
 '
 }
 '
@@ -1961,7 +1961,7 @@ videolan
 dav1d
 .
 git
-b1a5189c9d37c837099ce50852b6ce9597b89b0c
+56e7ffc0dbe44970a4d55ec2241824c67add9dd5
 '
 '
 src
@@ -2060,7 +2060,7 @@ external
 perfetto
 .
 git
-a2dabf80a38b16846d9a3209d61f452a1bfc8f15
+9b8eaa21f16d10cffefdf758a8b900e014e4788d
 '
 '
 src
@@ -2586,7 +2586,7 @@ chromium
 src
 /
 tools
-91235624dec195f243cca3cedd3b8a4b3b4f02b8
+4b90fc63cc138bd63ed66f2dfdefae2e82dbf0fd
 '
 '
 src
