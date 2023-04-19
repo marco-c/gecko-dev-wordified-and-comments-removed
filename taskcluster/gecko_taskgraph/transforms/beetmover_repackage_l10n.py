@@ -23,7 +23,7 @@ base
 import
 TransformSequence
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .
