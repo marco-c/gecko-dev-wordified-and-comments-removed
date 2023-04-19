@@ -170,11 +170,15 @@ evaluate
 )
 =
 >
+{
+return
 !
 !
 navigator
 .
 sniffed
+;
+}
 )
 )
 )

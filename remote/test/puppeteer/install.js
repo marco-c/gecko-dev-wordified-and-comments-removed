@@ -11,6 +11,8 @@ typescript
 if
 -
 required
+.
+js
 '
 )
 ;
@@ -45,6 +47,8 @@ puppeteer
 node
 /
 install
+.
+js
 '
 )
 ;

@@ -38,6 +38,10 @@ headless
 ?
 :
 boolean
+|
+'
+chrome
+'
 ;
 userDataDir
 ?

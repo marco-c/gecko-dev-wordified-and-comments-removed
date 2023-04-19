@@ -58,11 +58,11 @@ await
 new
 Promise
 (
-(
 x
-)
 =
 >
+{
+return
 (
 frame
 .
@@ -70,6 +70,8 @@ onload
 =
 x
 )
+;
+}
 )
 ;
 return

@@ -53,6 +53,8 @@ evaluate
 )
 =
 >
+{
+return
 console
 .
 error
@@ -63,6 +65,8 @@ from
 dumpio
 '
 )
+;
+}
 )
 ;
 await

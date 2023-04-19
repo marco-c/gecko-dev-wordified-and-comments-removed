@@ -17,7 +17,7 @@ itself
 #
 #
 Example
-js
+ts
 const
 {
 TestServer

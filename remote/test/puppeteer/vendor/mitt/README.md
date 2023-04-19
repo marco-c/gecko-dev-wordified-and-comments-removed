@@ -597,7 +597,7 @@ mitt
 #
 #
 Usage
-js
+ts
 import
 mitt
 from

@@ -197,7 +197,7 @@ and
 run
 npm
 run
-tsc
+build
 to
 check
 everything
