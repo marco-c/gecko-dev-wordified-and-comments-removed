@@ -1036,6 +1036,13 @@ media_channel_
 )
 return
 ;
+worker_thread_safety_
+-
+>
+SetAlive
+(
+)
+;
 if
 (
 state
