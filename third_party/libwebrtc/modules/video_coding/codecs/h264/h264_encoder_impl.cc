@@ -3419,6 +3419,12 @@ key_frame_interval
 ;
 encoder_params
 .
+eSpsPpsIdStrategy
+=
+SPS_LISTING
+;
+encoder_params
+.
 uiMaxNalSize
 =
 0
