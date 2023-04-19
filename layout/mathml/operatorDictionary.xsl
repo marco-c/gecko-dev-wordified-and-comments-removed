@@ -453,6 +453,7 @@ largeop
 movablelimits
 stretchy
 separator
+accent
 fence
 symmetric
 -
