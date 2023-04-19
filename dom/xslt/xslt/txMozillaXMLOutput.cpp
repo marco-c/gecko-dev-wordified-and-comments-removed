@@ -336,6 +336,9 @@ txMozillaXMLOutput
 :
 txMozillaXMLOutput
 (
+Document
+*
+aSourceDocument
 txOutputFormat
 *
 aFormat
@@ -388,6 +391,7 @@ mNotifier
 new
 txTransformNotifier
 (
+aSourceDocument
 )
 ;
 if
@@ -4094,8 +4098,15 @@ txTransformNotifier
 :
 txTransformNotifier
 (
+Document
+*
+aSourceDocument
 )
 :
+mSourceDocument
+(
+aSourceDocument
+)
 mPendingStylesheetCount
 (
 0
@@ -4349,6 +4360,7 @@ mObserver
 >
 OnDocumentCreated
 (
+mSourceDocument
 mDocument
 )
 ;
@@ -4478,6 +4490,7 @@ mObserver
 >
 OnTransformDone
 (
+mSourceDocument
 aResult
 mDocument
 )
