@@ -28,9 +28,6 @@ h
 namespace
 cricket
 {
-struct
-PacketOptions
-;
 bool
 RTC_EXPORT
 UnwrapTurnPacket

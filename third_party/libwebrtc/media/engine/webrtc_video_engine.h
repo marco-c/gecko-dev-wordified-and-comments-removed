@@ -233,9 +233,6 @@ VideoDecoderFactory
 class
 VideoEncoderFactory
 ;
-struct
-MediaConfig
-;
 }
 namespace
 cricket
