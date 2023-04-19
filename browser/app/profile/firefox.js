@@ -11335,7 +11335,7 @@ aboutwelcome
 .
 templateMR
 "
-false
+true
 )
 ;
 pref
