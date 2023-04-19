@@ -37,7 +37,7 @@ StrongAlias
 <
 class
 PPIDTag
-uint16_t
+uint32_t
 >
 ;
 using
