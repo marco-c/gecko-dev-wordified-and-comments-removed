@@ -211,7 +211,7 @@ dictionary
 PressureObserverOptions
 {
 double
-frequency
+samplerate
 ;
 }
 ;

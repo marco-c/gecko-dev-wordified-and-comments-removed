@@ -1131,13 +1131,6 @@ attribute
 DOMString
 as
 ;
-/
-/
-(
-default
-"
-"
-)
 [
 SameObject
 PutForwards
@@ -10013,8 +10006,6 @@ colno
 ;
 any
 error
-=
-null
 ;
 }
 ;
@@ -10149,6 +10140,10 @@ onabort
 attribute
 EventHandler
 onauxclick
+;
+attribute
+EventHandler
+onbeforeinput
 ;
 attribute
 EventHandler

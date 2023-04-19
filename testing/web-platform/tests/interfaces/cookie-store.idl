@@ -207,7 +207,7 @@ required
 USVString
 value
 ;
-DOMTimeStamp
+EpochTimeStamp
 ?
 expires
 =
@@ -273,7 +273,7 @@ domain
 USVString
 path
 ;
-DOMTimeStamp
+EpochTimeStamp
 ?
 expires
 ;

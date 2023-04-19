@@ -2667,6 +2667,14 @@ attribute
 GLsizei
 drawingBufferHeight
 ;
+attribute
+PredefinedColorSpace
+drawingBufferColorSpace
+;
+attribute
+PredefinedColorSpace
+unpackColorSpace
+;
 [
 WebGLHandlesContextLoss
 ]

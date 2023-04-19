@@ -134,7 +134,7 @@ baseInstancesList
 GLuint
 baseInstancesOffset
 GLsizei
-drawCount
+drawcount
 )
 ;
 undefined
@@ -215,7 +215,7 @@ baseInstancesList
 GLuint
 baseInstancesOffset
 GLsizei
-drawCount
+drawcount
 )
 ;
 }

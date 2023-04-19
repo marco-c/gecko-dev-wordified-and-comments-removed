@@ -248,6 +248,13 @@ id
 StartInDirectory
 startIn
 ;
+FileSystemPermissionMode
+mode
+=
+"
+read
+"
+;
 }
 ;
 [

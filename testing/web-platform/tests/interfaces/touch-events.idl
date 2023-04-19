@@ -355,6 +355,14 @@ attribute
 boolean
 shiftKey
 ;
+getter
+boolean
+getModifierState
+(
+DOMString
+keyArg
+)
+;
 }
 ;
 partial

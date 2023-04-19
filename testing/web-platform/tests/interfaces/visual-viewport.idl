@@ -65,6 +65,7 @@ Replaceable
 readonly
 attribute
 VisualViewport
+?
 visualViewport
 ;
 }

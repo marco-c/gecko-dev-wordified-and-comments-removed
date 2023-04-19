@@ -121,7 +121,7 @@ Int32Array
 or
 sequence
 <
-GLint
+GLsizei
 >
 )
 countsList
@@ -211,7 +211,7 @@ Int32Array
 or
 sequence
 <
-GLint
+GLsizei
 >
 )
 countsList
