@@ -2896,15 +2896,6 @@ const
 bool
 needToSendAbort
 =
-mReadyState
-=
-=
-ReadyState
-:
-:
-Inactive
-&
-&
 !
 mStarted
 ;
