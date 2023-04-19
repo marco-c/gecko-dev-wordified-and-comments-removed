@@ -84,7 +84,7 @@ per_page
 "
 \
 |
-python
+python3
 -
 c
 '
@@ -137,7 +137,7 @@ COMMIT
 "
 \
 |
-python
+python3
 -
 c
 '
