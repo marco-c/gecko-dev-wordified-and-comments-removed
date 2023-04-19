@@ -2541,12 +2541,6 @@ position
 bottomright
 topright
 "
-x
-:
-2
-y
-:
-0
 }
 ;
 }
@@ -2774,12 +2768,6 @@ position
 bottomright
 topright
 "
-x
-:
-2
-y
-:
-0
 }
 ;
 }
