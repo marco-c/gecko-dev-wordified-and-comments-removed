@@ -360,9 +360,9 @@ creditCards
 .
 heuristics
 .
-numberOnly
+fathom
 .
-confidenceThreshold
+highConfidenceThreshold
 "
 "
 0
@@ -379,6 +379,8 @@ formautofill
 creditCards
 .
 heuristics
+.
+fathom
 .
 testConfidence
 "
@@ -455,9 +457,9 @@ creditCards
 .
 heuristics
 .
-numberOnly
+fathom
 .
-confidenceThreshold
+highConfidenceThreshold
 "
 "
 0
@@ -474,6 +476,8 @@ formautofill
 creditCards
 .
 heuristics
+.
+fathom
 .
 testConfidence
 "

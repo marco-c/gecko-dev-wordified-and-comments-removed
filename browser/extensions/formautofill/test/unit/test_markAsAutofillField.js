@@ -845,6 +845,8 @@ creditCards
 .
 heuristics
 .
+fathom
+.
 testConfidence
 "
 "
@@ -980,6 +982,8 @@ formautofill
 creditCards
 .
 heuristics
+.
+fathom
 .
 testConfidence
 "
@@ -1144,6 +1148,8 @@ formautofill
 creditCards
 .
 heuristics
+.
+fathom
 .
 testConfidence
 "
