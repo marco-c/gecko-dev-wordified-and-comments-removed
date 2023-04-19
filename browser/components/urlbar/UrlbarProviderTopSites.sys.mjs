@@ -76,6 +76,11 @@ Sites
 .
 *
 /
+"
+use
+strict
+"
+;
 import
 {
 XPCOMUtils

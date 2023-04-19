@@ -81,6 +81,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 These

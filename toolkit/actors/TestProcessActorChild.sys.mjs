@@ -77,6 +77,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 export
 class
 TestProcessActorChild

@@ -68,6 +68,11 @@ browser
 window
 *
 /
+"
+use
+strict
+"
+;
 import
 {
 XPCOMUtils
