@@ -1676,8 +1676,7 @@ org
 /
 mozilla
 -
-cen
-tral
+central
 /
 source
 /

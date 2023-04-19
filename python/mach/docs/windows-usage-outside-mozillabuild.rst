@@ -352,7 +352,7 @@ compatibility
 issues
 :
 *
-Cygin
+Cygwin
 /
 MSYS
 Python

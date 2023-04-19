@@ -628,7 +628,7 @@ PrivateBrowsingUtils
 .
 isContentWindowPrivate
 (
-widnow
+window
 )
 When
 WebExtensionPolicy
