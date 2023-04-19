@@ -162,7 +162,7 @@ C
 mem
 :
 :
-replace
+take
 (
 self
 .
@@ -171,12 +171,6 @@ project
 )
 .
 collection
-Default
-:
-:
-default
-(
-)
 )
 }
 pub

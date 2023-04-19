@@ -125,7 +125,7 @@ version
 .
 3
 .
-21
+23
 "
 description
 =
@@ -165,6 +165,13 @@ io
 futures
 -
 rs
+"
+readme
+=
+"
+README
+.
+md
 "
 license
 =
@@ -238,7 +245,7 @@ version
 .
 3
 .
-21
+23
 "
 features
 =
@@ -269,7 +276,7 @@ version
 .
 3
 .
-21
+23
 "
 default
 -
@@ -290,7 +297,7 @@ version
 .
 3
 .
-21
+23
 "
 features
 =
@@ -322,7 +329,7 @@ version
 .
 3
 .
-21
+23
 "
 optional
 =
@@ -346,7 +353,7 @@ version
 .
 3
 .
-21
+23
 "
 optional
 =
@@ -370,7 +377,7 @@ version
 .
 3
 .
-21
+23
 "
 default
 -
@@ -430,7 +437,7 @@ version
 .
 2
 .
-4
+6
 "
 [
 dependencies

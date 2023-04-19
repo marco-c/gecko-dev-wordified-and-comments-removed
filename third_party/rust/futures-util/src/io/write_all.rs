@@ -301,16 +301,13 @@ rest
 mem
 :
 :
-replace
+take
 (
 &
 mut
 this
 .
 buf
-&
-[
-]
 )
 .
 split_at

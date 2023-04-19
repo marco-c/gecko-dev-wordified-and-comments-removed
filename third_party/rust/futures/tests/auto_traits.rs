@@ -6326,6 +6326,8 @@ SendTryFuture
 <
 (
 )
+(
+)
 >
 >
 :
@@ -6361,6 +6363,8 @@ TryJoinAll
 <
 SyncTryFuture
 <
+(
+)
 (
 )
 >

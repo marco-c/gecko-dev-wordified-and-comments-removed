@@ -3385,13 +3385,6 @@ vec
 [
 test
 ]
-#
-[
-allow
-(
-deprecated
-)
-]
 fn
 concat
 (

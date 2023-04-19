@@ -107,6 +107,10 @@ WakerRef
 a
 >
 {
+#
+[
+inline
+]
 pub
 fn
 new
@@ -153,6 +157,10 @@ _marker
 PhantomData
 }
 }
+#
+[
+inline
+]
 pub
 fn
 new_unowned
@@ -191,6 +199,10 @@ Target
 =
 Waker
 ;
+#
+[
+inline
+]
 fn
 deref
 (

@@ -125,7 +125,7 @@ version
 .
 3
 .
-21
+23
 "
 description
 =
@@ -167,6 +167,13 @@ io
 futures
 -
 rs
+"
+readme
+=
+"
+README
+.
+md
 "
 license
 =

@@ -200,15 +200,9 @@ bytes
 mem
 :
 :
-replace
+take
 (
 buf
-String
-:
-:
-new
-(
-)
 )
 .
 into_bytes
