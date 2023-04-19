@@ -159,34 +159,6 @@ ANY
 classmethod
     
 def
-executables
-(
-cls
-interpreter
-)
-:
-        
-for
-src
-in
-super
-(
-PyPy
-cls
-)
-.
-sources
-(
-interpreter
-)
-:
-            
-yield
-src
-    
-classmethod
-    
-def
 exe_names
 (
 cls
@@ -252,18 +224,22 @@ interpreter
 :
         
 for
-exe
+src
 in
+super
+(
+PyPy
 cls
+)
 .
-executables
+sources
 (
 interpreter
 )
 :
             
 yield
-exe
+src
         
 for
 host
@@ -321,16 +297,29 @@ resolve
 parent
         
 for
-src
+libname
 in
 cls
 .
 _shared_libs
 (
-python_dir
 )
 :
             
+src
+=
+python_dir
+/
+libname
+            
+if
+src
+.
+exists
+(
+)
+:
+                
 yield
 src
     
@@ -340,7 +329,6 @@ def
 _shared_libs
 (
 cls
-python_dir
 )
 :
         

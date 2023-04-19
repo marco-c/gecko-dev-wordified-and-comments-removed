@@ -111,12 +111,7 @@ none
 -
 any
 embed
-3
--
->
-json
-format
-versioning
+1
 *
 .
 json
@@ -637,7 +632,7 @@ embed
 "
 /
 "
-3
+1
 "
 distribution
 )
