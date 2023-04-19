@@ -942,7 +942,9 @@ homepageResetContainer
 querySelector
 (
 "
-.
+#
+homepage
+-
 reset
 -
 prompt
@@ -1020,10 +1022,12 @@ homepageResetContainer
 querySelector
 (
 "
-.
-success
+#
+homepage
 -
-prompt
+reset
+-
+success
 >
 button
 "
