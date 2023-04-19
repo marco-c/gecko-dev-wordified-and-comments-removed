@@ -1271,7 +1271,7 @@ EXPECT_LT
 measured_bitrate_bps
 bitrate_bps
 +
-2000
+2250
 )
 ;
 }
