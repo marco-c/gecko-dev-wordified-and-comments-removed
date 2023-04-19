@@ -378,6 +378,12 @@ aRv
 void
 Destroy
 (
+JSContext
+*
+aCx
+ErrorResult
+&
+aRv
 )
 ;
 }
