@@ -404,9 +404,6 @@ subclass
 )
 ;
 }
-nsString
-mRegion
-;
 float
 mPressure
 ;

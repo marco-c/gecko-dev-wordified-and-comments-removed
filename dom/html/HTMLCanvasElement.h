@@ -868,15 +868,6 @@ HTMLCanvasElement
 aDest
 )
 ;
-void
-GetEventTargetParent
-(
-EventChainPreVisitor
-&
-aVisitor
-)
-override
-;
 static
 void
 MapAttributesIntoRule
