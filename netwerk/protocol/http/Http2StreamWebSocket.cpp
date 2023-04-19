@@ -506,11 +506,11 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 Http2StreamWebSocket
 :
 :
-Close
+CloseStream
 (
 nsresult
 reason
@@ -527,9 +527,6 @@ reason
 mSession
 =
 nullptr
-;
-return
-NS_OK
 ;
 }
 }

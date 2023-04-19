@@ -39,8 +39,8 @@ uint64_t
 bcId
 )
 ;
-nsresult
-Close
+void
+CloseStream
 (
 nsresult
 reason
