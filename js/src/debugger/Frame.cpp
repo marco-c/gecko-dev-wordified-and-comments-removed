@@ -4957,6 +4957,12 @@ ScopeKind
 NonSyntactic
 )
 ;
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 script
 =
 frontend
@@ -4965,6 +4971,8 @@ frontend
 CompileGlobalScript
 (
 cx
+&
+ec
 options
 srcBuf
 scopeKind

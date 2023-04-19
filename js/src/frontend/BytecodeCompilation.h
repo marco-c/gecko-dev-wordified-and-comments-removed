@@ -76,6 +76,9 @@ Scope
 class
 LifoAlloc
 ;
+class
+ErrorContext
+;
 namespace
 frontend
 {
@@ -101,6 +104,9 @@ CompileGlobalScriptToStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 js
 :
 :
@@ -133,6 +139,9 @@ CompileGlobalScriptToStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 js
 :
 :
@@ -168,6 +177,9 @@ CompileGlobalScriptToExtensibleStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -194,6 +206,9 @@ CompileGlobalScriptToExtensibleStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -269,6 +284,9 @@ CompileGlobalScript
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -297,6 +315,9 @@ CompileGlobalScript
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :

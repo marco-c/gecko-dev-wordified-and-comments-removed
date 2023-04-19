@@ -16037,6 +16037,12 @@ return
 false
 ;
 }
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 RefPtr
 <
 frontend
@@ -16052,6 +16058,8 @@ frontend
 CompileGlobalScriptToStencil
 (
 cx
+&
+ec
 cx
 -
 >

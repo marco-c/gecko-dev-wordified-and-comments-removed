@@ -25533,6 +25533,12 @@ ScopeKind
 :
 Global
 ;
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 Rooted
 <
 CompilationInput
@@ -25564,6 +25570,8 @@ frontend
 CompileGlobalScriptToStencil
 (
 cx
+&
+ec
 cx
 -
 >

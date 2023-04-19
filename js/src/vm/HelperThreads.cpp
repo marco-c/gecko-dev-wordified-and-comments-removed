@@ -4009,6 +4009,12 @@ stencilInput_
 return
 ;
 }
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 js
 :
 :
@@ -4029,6 +4035,8 @@ frontend
 CompileGlobalScriptToStencil
 (
 cx
+&
+ec
 tempLifoAlloc
 *
 stencilInput_
