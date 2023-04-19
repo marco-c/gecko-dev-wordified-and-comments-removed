@@ -6297,6 +6297,9 @@ createRegExpAndEnsureAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 &
 parserAtoms
