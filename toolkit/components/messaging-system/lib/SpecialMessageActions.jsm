@@ -730,7 +730,7 @@ allowedPrefs
 "
 browser
 .
-privacySegmentation
+dataFeatureRecommendations
 .
 enabled
 "

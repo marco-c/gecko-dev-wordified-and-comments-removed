@@ -3504,7 +3504,7 @@ pref
 "
 browser
 .
-privacySegmentation
+dataFeatureRecommendations
 .
 enabled
 "

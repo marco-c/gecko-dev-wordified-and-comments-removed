@@ -1503,7 +1503,7 @@ id
 "
 browser
 .
-privacySegmentation
+dataFeatureRecommendations
 .
 enabled
 "

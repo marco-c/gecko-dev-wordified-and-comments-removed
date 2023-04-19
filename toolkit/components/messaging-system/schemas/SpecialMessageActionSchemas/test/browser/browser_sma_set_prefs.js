@@ -20,7 +20,7 @@ PRIVACY_SEGMENTATION_PREF
 "
 browser
 .
-privacySegmentation
+dataFeatureRecommendations
 .
 enabled
 "
