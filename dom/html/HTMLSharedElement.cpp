@@ -851,7 +851,6 @@ nsIContentSecurityPolicy
 :
 BASE_URI_DIRECTIVE
 true
-true
 &
 cspPermitsBaseURI
 )
