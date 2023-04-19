@@ -403,7 +403,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "
@@ -424,7 +424,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "
@@ -435,7 +435,7 @@ is
 local
 remote
 "
-Services
+AppConstants
 .
 jsm
 should

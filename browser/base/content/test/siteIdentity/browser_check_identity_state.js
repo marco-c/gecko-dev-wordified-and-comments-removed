@@ -2431,7 +2431,7 @@ gre
 /
 modules
 /
-Services
+XPCOMUtils
 .
 jsm
 "
