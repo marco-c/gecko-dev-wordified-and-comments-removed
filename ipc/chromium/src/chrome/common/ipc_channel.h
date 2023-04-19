@@ -343,12 +343,6 @@ dest_fd
 )
 const
 ;
-int
-GetFileDescriptor
-(
-)
-const
-;
 void
 CloseClientFileDescriptor
 (

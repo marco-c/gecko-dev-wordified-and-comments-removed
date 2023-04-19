@@ -45,11 +45,11 @@ ForkServer
 public
 :
 static
-const
+constexpr
 int
-kHELLO_MESSAGE_TYPE
+kClientPipeFd
 =
-65535
+3
 ;
 ForkServer
 (
