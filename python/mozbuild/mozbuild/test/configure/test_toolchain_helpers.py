@@ -1418,13 +1418,18 @@ startswith
                 
 if
 arg
-=
-=
+in
+(
+"
+-
+isysroot
+"
 "
 -
 -
 sysroot
 "
+)
 :
                     
 next
