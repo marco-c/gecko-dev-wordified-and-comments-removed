@@ -115,9 +115,9 @@ SetLiveContainerAttributes
 AccAttributes
 *
 aAttributes
-nsIContent
+Accessible
 *
-aStartContent
+aStartAcc
 )
 ;
 static
