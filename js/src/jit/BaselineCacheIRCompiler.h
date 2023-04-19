@@ -256,8 +256,6 @@ ArgumentKind
 kind
 CallFlags
 flags
-size_t
-stackPushed
 Register
 argcReg
 Register
