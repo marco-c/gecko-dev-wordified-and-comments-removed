@@ -4139,9 +4139,6 @@ OffscreenCanvas
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -4150,9 +4147,6 @@ name
 OffscreenCanvasRenderingContext2D
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }

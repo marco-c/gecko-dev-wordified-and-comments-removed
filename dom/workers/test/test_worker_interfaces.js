@@ -720,9 +720,6 @@ CanvasGradient
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -731,9 +728,6 @@ name
 CanvasPattern
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }
@@ -986,9 +980,6 @@ FontFace
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -999,9 +990,6 @@ FontFaceSet
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -1010,9 +998,6 @@ name
 FontFaceSetLoadEvent
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }
@@ -1244,9 +1229,6 @@ OffscreenCanvas
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -1257,9 +1239,6 @@ OffscreenCanvasRenderingContext2D
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -1268,9 +1247,6 @@ name
 Path2D
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }
@@ -1671,9 +1647,6 @@ WebGL2RenderingContext
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -1682,9 +1655,6 @@ name
 WebGLActiveInfo
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }
@@ -1697,9 +1667,6 @@ WebGLBuffer
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -1708,9 +1675,6 @@ name
 WebGLContextEvent
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }
@@ -1723,9 +1687,6 @@ WebGLFramebuffer
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -1734,9 +1695,6 @@ name
 WebGLProgram
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }
@@ -1759,9 +1717,6 @@ WebGLRenderbuffer
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -1770,9 +1725,6 @@ name
 WebGLRenderingContext
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }
@@ -1785,9 +1737,6 @@ WebGLSampler
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -1796,9 +1745,6 @@ name
 WebGLShader
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }
@@ -1811,9 +1757,6 @@ WebGLShaderPrecisionFormat
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -1822,9 +1765,6 @@ name
 WebGLSync
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }
@@ -1837,9 +1777,6 @@ WebGLTexture
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -1848,9 +1785,6 @@ name
 WebGLTransformFeedback
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }
@@ -1863,9 +1797,6 @@ WebGLUniformLocation
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -1874,9 +1805,6 @@ name
 WebGLVertexArrayObject
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }
