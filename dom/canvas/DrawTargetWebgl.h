@@ -1935,14 +1935,6 @@ GetFrontBuffer
 (
 )
 ;
-bool
-CopySnapshotTo
-(
-DrawTarget
-*
-aDT
-)
-;
 void
 OnMemoryPressure
 (
