@@ -6505,7 +6505,7 @@ false
 -
 name
 :
-CallSetElement
+MegamorphicSetElement
 gen_boilerplate
 :
 false

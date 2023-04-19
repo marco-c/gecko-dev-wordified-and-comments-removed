@@ -3910,7 +3910,7 @@ auto
 *
 ins
 =
-MCallSetElement
+MMegamorphicSetElement
 :
 :
 New

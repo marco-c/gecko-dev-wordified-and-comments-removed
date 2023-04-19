@@ -38556,12 +38556,12 @@ strict_
 }
 ;
 class
-MCallSetElement
+MMegamorphicSetElement
 :
 public
 MTernaryInstruction
 public
-CallSetElementPolicy
+MegamorphicSetElementPolicy
 :
 :
 Data
@@ -38569,7 +38569,7 @@ Data
 bool
 strict_
 ;
-MCallSetElement
+MMegamorphicSetElement
 (
 MDefinition
 *
@@ -38601,7 +38601,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-CallSetElement
+MegamorphicSetElement
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
