@@ -67,7 +67,7 @@ content
 /
 marionette
 /
-test
+test2
 .
 xhtml
 "
