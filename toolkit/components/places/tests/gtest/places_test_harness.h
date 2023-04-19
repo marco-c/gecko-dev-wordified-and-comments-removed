@@ -1365,7 +1365,6 @@ IHistory
 :
 :
 TOP_LEVEL
-0
 )
 ;
 do_check_success

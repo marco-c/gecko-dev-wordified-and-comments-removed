@@ -3305,10 +3305,6 @@ const
 uint32_t
 &
 aFlags
-const
-uint64_t
-&
-aBrowserId
 )
 ;
 mozilla

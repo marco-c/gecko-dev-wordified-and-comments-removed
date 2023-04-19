@@ -6828,9 +6828,6 @@ aCsp
 var
 aSkipLoad
 ;
-var
-aGlobalHistoryOptions
-;
 if
 (
 arguments
@@ -7014,12 +7011,6 @@ params
 .
 skipLoad
 ;
-aGlobalHistoryOptions
-=
-params
-.
-globalHistoryOptions
-;
 }
 if
 (
@@ -7156,9 +7147,6 @@ aCsp
 skipLoad
 :
 aSkipLoad
-globalHistoryOptions
-:
-aGlobalHistoryOptions
 }
 )
 ;
@@ -10457,7 +10445,6 @@ userContextId
 csp
 skipLoad
 batchInsertingTabs
-globalHistoryOptions
 }
 =
 {
@@ -11625,7 +11612,6 @@ referrerInfo
 charset
 postData
 csp
-globalHistoryOptions
 }
 )
 ;
