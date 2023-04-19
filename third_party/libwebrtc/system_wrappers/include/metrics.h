@@ -1810,12 +1810,11 @@ webrtc
 namespace
 metrics
 {
-enum
-{
+constexpr
+int
 kMinRunTimeInSeconds
 =
 10
-}
 ;
 class
 Histogram

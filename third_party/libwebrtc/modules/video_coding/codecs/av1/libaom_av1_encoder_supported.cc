@@ -71,6 +71,7 @@ defined
 (
 RTC_USE_LIBAOM_AV1_ENCODER
 )
+ABSL_CONST_INIT
 const
 bool
 kIsLibaomAv1EncoderSupported

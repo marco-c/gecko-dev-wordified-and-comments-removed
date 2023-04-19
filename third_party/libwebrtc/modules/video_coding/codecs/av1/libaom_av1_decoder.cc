@@ -986,6 +986,7 @@ libaom
 ;
 }
 }
+ABSL_CONST_INIT
 const
 bool
 kIsLibaomAv1DecoderSupported

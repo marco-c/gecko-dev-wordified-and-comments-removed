@@ -75,6 +75,7 @@ InternalAPMConfig
 &
 other
 )
+const
 {
 return
 aec_enabled

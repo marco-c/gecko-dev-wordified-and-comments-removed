@@ -109,6 +109,7 @@ InternalAPMConfig
 &
 other
 )
+const
 ;
 bool
 aec_enabled
