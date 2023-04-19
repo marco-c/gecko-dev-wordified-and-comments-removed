@@ -880,7 +880,7 @@ StopSendingAndReceiving
 )
 ;
 void
-DeleteChannel
+PushNewMediaChannelAndDeleteChannel
 (
 cricket
 :
