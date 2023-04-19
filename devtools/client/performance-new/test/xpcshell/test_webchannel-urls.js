@@ -10,7 +10,7 @@ validateProfilerWebChannelUrl
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -22,7 +22,9 @@ modules
 /
 DevToolsStartup
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

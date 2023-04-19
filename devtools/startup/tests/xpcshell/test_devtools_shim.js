@@ -10,7 +10,7 @@ DevToolsShim
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -25,7 +25,9 @@ content
 /
 DevToolsShim
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
