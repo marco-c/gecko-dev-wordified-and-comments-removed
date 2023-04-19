@@ -154,10 +154,10 @@ audio
 )
 ;
 void
-SetCaptureMuted
+HandleCaptureOutputUsedChange
 (
 bool
-muted
+capture_output_used
 )
 ;
 float
@@ -331,7 +331,7 @@ stream_analog_level_
 0
 ;
 bool
-capture_muted_
+capture_output_used_
 ;
 int
 channel_controlling_gain_
@@ -422,10 +422,10 @@ Initialize
 )
 ;
 void
-SetCaptureMuted
+HandleCaptureOutputUsedChange
 (
 bool
-muted
+capture_output_used
 )
 ;
 void
@@ -614,9 +614,9 @@ float
 compression_accumulator_
 ;
 bool
-capture_muted_
+capture_output_used_
 =
-false
+true
 ;
 bool
 check_volume_on_next_process_
