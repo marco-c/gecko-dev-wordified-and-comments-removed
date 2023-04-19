@@ -978,6 +978,9 @@ appendScopeStencilAndData
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
@@ -1005,6 +1008,9 @@ createForFunctionScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
@@ -1042,6 +1048,9 @@ createForLexicalScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
@@ -1075,6 +1084,9 @@ createForClassBodyScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
@@ -1108,6 +1120,9 @@ createForVarScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
@@ -1143,6 +1158,9 @@ createForGlobalScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
@@ -1166,6 +1184,9 @@ createForEvalScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
@@ -1197,6 +1218,9 @@ createForModuleScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
@@ -1226,6 +1250,9 @@ createForWithScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
