@@ -154,6 +154,9 @@ IDBDatabase
 :
 EventTarget
 {
+[
+Constant
+]
 readonly
 attribute
 DOMString

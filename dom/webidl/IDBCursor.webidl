@@ -167,6 +167,7 @@ IDBCursorDirection
 direction
 ;
 [
+Pure
 Throws
 ]
 readonly
@@ -175,6 +176,7 @@ any
 key
 ;
 [
+Pure
 Throws
 ]
 readonly
@@ -271,6 +273,7 @@ IDBCursorWithValue
 IDBCursor
 {
 [
+Pure
 Throws
 ]
 readonly
