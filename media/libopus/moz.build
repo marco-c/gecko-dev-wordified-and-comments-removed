@@ -465,6 +465,14 @@ True
 DEFINES
 [
 "
+CPU_INFO_BY_ASM
+"
+]
+=
+True
+DEFINES
+[
+"
 OPUS_X86_MAY_HAVE_SSE
 "
 ]
@@ -497,6 +505,10 @@ True
 SOURCES
 +
 =
+celt_sources_x86_rtcd
+SOURCES
++
+=
 celt_sources_sse
 SOURCES
 +
@@ -506,6 +518,10 @@ SOURCES
 +
 =
 celt_sources_sse4_1
+SOURCES
++
+=
+silk_sources_x86_rtcd
 SOURCES
 +
 =
@@ -620,7 +636,7 @@ GNU_AS
 SOURCES
 +
 =
-celt_sources_arm
+celt_sources_arm_rtcd
 SOURCES
 +
 =

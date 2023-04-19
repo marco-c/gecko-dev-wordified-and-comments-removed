@@ -311,6 +311,10 @@ py
 patch
 "
 -
+Makefile
+.
+in
+-
 README_MOZILLA
 -
 sources
