@@ -1900,9 +1900,9 @@ QuickActions
 .
 [
 "
-quickactions
+suggest
 .
-enabled
+quickactions
 "
 false
 ]

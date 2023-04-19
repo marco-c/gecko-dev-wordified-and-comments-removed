@@ -309,6 +309,7 @@ currentPageIsWebContentFilter
 currentBrowser
 (
 )
+?
 .
 currentURI
 .
@@ -336,6 +337,7 @@ BrowserWindowTracker
 getTopWindow
 (
 )
+?
 .
 gBrowser
 .

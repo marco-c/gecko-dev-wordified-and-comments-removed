@@ -162,9 +162,9 @@ const
 ENABLED_PREF
 =
 "
-quickactions
+suggest
 .
-enabled
+quickactions
 "
 ;
 const
