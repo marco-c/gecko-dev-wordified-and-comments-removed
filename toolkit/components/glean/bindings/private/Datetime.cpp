@@ -651,7 +651,13 @@ aCx
 JS
 :
 :
-MutableHandleValue
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 aResult
 )
 {
@@ -762,7 +768,11 @@ PR_USEC_PER_MSEC
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 root
 (
 aCx
