@@ -18944,7 +18944,7 @@ else
 {
 RTC_LOG
 (
-LS_INFO
+LS_VERBOSE
 )
 <
 <
@@ -18965,7 +18965,7 @@ else
 {
 RTC_LOG
 (
-LS_INFO
+LS_VERBOSE
 )
 <
 <
