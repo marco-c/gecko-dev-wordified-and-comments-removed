@@ -7,13 +7,6 @@ MODULES_VIDEO_CODING_CODECS_VP9_INCLUDE_VP9_GLOBALS_H_
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 stdint
 .
 h

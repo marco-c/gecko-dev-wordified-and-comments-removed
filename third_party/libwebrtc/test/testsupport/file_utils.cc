@@ -10,13 +10,6 @@ file_utils
 h
 "
 #
-include
-<
-assert
-.
-h
->
-#
 if
 defined
 (

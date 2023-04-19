@@ -23,13 +23,6 @@ h
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 pthread
 .
 h

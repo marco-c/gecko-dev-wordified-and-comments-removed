@@ -13,13 +13,6 @@ h
 "
 #
 include
-<
-assert
-.
-h
->
-#
-include
 "
 api
 /
