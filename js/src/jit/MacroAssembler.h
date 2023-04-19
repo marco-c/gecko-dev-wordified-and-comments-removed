@@ -19100,7 +19100,9 @@ index
 Register
 output
 Register
-scratch
+scratch1
+Register
+scratch2
 Label
 *
 fail
