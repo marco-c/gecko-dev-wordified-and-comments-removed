@@ -895,6 +895,9 @@ bool
 aNoHttp3
 bool
 *
+aIsWildcard
+bool
+*
 aAvailableForDispatchNow
 =
 nullptr
