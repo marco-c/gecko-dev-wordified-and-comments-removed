@@ -4345,7 +4345,7 @@ buffer
 .
 AppendInt
 (
-gChildCounter
+mChildId
 )
 ;
 }
