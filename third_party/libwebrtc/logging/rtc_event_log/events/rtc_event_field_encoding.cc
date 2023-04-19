@@ -367,7 +367,7 @@ FieldType
 :
 kString
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -380,7 +380,7 @@ string
 )
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

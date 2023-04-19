@@ -3218,7 +3218,7 @@ return
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -3705,7 +3705,7 @@ errno
 case
 EBADF
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -7806,7 +7806,7 @@ WSAGetLastError
 (
 )
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

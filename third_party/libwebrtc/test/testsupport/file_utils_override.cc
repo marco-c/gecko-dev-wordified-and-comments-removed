@@ -409,7 +409,7 @@ count
 0
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

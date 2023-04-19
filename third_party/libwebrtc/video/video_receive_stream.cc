@@ -2445,7 +2445,7 @@ RtpExtension
 extensions
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -3031,7 +3031,7 @@ time_ms
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -3051,7 +3051,7 @@ int64_t
 time_ms
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

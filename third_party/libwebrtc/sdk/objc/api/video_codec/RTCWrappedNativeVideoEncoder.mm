@@ -142,7 +142,7 @@ RTCVideoEncoderCallback
 )
 callback
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -168,7 +168,7 @@ int
 )
 numberOfCores
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -182,7 +182,7 @@ NSInteger
 )
 releaseEncoder
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -229,7 +229,7 @@ NSNumber
 )
 frameTypes
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -254,7 +254,7 @@ uint32_t
 )
 framerate
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -269,7 +269,7 @@ NSString
 )
 implementationName
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -288,7 +288,7 @@ RTCVideoEncoderQpThresholds
 )
 scalingSettings
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -302,7 +302,7 @@ NSInteger
 )
 resolutionAlignment
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -316,7 +316,7 @@ BOOL
 )
 applyAlignmentToAllSimulcastLayers
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -330,7 +330,7 @@ BOOL
 )
 supportsNativeHandle
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

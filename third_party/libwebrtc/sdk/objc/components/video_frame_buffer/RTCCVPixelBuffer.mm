@@ -529,7 +529,7 @@ return
 ;
 }
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -697,7 +697,7 @@ break
 default
 :
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -1123,7 +1123,7 @@ break
 default
 :
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

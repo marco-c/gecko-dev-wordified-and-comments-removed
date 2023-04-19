@@ -312,7 +312,7 @@ return
 kScreenPrefix
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -5123,7 +5123,7 @@ kFlexfec
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

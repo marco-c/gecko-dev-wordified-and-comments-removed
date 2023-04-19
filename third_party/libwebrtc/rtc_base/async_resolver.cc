@@ -351,7 +351,7 @@ addresses
 #
 ifdef
 __native_client__
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

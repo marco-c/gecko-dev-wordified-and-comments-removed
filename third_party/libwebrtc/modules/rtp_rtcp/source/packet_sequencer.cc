@@ -293,7 +293,7 @@ rtx_sequence_number_
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

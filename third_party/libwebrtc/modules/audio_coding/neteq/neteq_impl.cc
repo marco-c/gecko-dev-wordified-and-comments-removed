@@ -1467,7 +1467,7 @@ break
 }
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -5227,7 +5227,7 @@ kUndefined
 .
 "
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -6060,7 +6060,7 @@ PacketBuffer
 kOK
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -10630,7 +10630,7 @@ packet
 here
 "
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -10831,7 +10831,7 @@ packet
 payload_type
 )
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

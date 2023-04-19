@@ -282,7 +282,7 @@ length
 kTheoreticalMaximumAttributeLength
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

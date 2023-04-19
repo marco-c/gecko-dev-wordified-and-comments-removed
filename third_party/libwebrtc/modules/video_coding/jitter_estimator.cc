@@ -1269,7 +1269,7 @@ hMh_sigma
 )
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1673,7 +1673,7 @@ _alphaCount
 0
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

@@ -617,7 +617,7 @@ size_t
 number_of_frames
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

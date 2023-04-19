@@ -6807,7 +6807,7 @@ cricket
 PRFLX_PORT_TYPE
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -7659,7 +7659,7 @@ kIceConnectionConnected
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -7893,7 +7893,7 @@ kConnected
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

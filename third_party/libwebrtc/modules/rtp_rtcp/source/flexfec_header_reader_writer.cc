@@ -1113,7 +1113,7 @@ kFlexfecPacketMaskSizes
 ]
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -1610,7 +1610,7 @@ written_packet_mask
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

@@ -348,7 +348,7 @@ return
 true
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -479,7 +479,7 @@ rate
 ;
 }
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -3517,7 +3517,7 @@ Type
 :
 kNotSpecified
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -3525,7 +3525,7 @@ return
 true
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -4377,7 +4377,7 @@ Type
 :
 kPlayoutAudioDeviceChange
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -4392,7 +4392,7 @@ Type
 :
 kCustomRenderProcessingRuntimeSetting
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -4407,7 +4407,7 @@ Type
 :
 kNotSpecified
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -4622,7 +4622,7 @@ Type
 :
 kNotSpecified
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -8019,7 +8019,7 @@ output
 available
 "
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

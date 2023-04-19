@@ -97,7 +97,7 @@ out_capacity_samples
 in_length
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

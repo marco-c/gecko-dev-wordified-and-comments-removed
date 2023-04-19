@@ -12140,7 +12140,7 @@ keepRecording
 =
 false
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -12186,7 +12186,7 @@ keepRecording
 =
 false
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -12300,7 +12300,7 @@ keepRecording
 =
 false
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

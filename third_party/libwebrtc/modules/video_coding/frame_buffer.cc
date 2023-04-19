@@ -1216,7 +1216,7 @@ break
 case
 kStateEmpty
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

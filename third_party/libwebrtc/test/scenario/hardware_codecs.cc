@@ -99,7 +99,7 @@ CreateObjCEncoderFactory
 ;
 #
 else
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -158,7 +158,7 @@ CreateObjCDecoderFactory
 ;
 #
 else
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

@@ -1685,7 +1685,7 @@ GetValueForEmptyInterval
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1803,7 +1803,7 @@ GetValueForEmptyInterval
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1921,7 +1921,7 @@ GetValueForEmptyInterval
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

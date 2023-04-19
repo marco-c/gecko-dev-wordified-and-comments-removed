@@ -10775,7 +10775,7 @@ kStopped
 :
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -15135,7 +15135,7 @@ kVideoContentName
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

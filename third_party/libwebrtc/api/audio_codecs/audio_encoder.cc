@@ -433,7 +433,7 @@ float
 uplink_recoverable_packet_loss_fraction
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

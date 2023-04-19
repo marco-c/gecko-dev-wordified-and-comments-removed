@@ -919,7 +919,7 @@ major
 6
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

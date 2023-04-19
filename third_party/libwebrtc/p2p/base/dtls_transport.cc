@@ -2255,7 +2255,7 @@ return
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -2753,7 +2753,7 @@ DtlsTransportState
 :
 kNumValues
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -3820,7 +3820,7 @@ StartSSL
 )
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

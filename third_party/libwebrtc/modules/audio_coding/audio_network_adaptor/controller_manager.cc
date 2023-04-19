@@ -1546,7 +1546,7 @@ Controller
 :
 kFecControllerRplrBased
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1688,7 +1688,7 @@ break
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1881,7 +1881,7 @@ scoring_points
 }
 #
 else
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

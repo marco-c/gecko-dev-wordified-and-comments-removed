@@ -107,7 +107,7 @@ StopStandard
 (
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -139,7 +139,7 @@ StopInternal
 (
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -170,7 +170,7 @@ RtpCodecCapability
 >
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -307,7 +307,7 @@ RtpTransceiverDirection
 new_direction
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

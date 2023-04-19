@@ -259,7 +259,7 @@ kPayloadTypeH264
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -332,7 +332,7 @@ kH264CodecName
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1492,7 +1492,7 @@ Codec
 :
 kVideoCodecMultiplex
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -2693,7 +2693,7 @@ clock_
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
