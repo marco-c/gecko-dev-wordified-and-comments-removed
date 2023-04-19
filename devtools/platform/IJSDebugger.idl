@@ -84,7 +84,7 @@ addDebuggerToGlobal
 =
 ChromeUtils
 .
-import
+importESModule
 (
 *
 "
@@ -98,7 +98,9 @@ modules
 /
 jsdebugger
 .
-jsm
+sys
+.
+mjs
 "
 *
 )

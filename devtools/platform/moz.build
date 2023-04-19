@@ -64,7 +64,9 @@ EXTRA_JS_MODULES
 "
 jsdebugger
 .
-jsm
+sys
+.
+mjs
 "
 ]
 DIST_SUBDIR

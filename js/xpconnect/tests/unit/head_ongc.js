@@ -6,7 +6,7 @@ addSandboxedDebuggerToGlobal
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -19,7 +19,9 @@ modules
 /
 jsdebugger
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
