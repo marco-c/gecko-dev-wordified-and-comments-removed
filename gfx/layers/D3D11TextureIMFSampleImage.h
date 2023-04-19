@@ -228,7 +228,7 @@ aRect
 gfx
 :
 :
-ColorSpace2
+YUVColorSpace
 aColorSpace
 gfx
 :
@@ -322,6 +322,19 @@ GetIMFSampleWrapper
 gfx
 :
 :
+YUVColorSpace
+GetYUVColorSpace
+(
+)
+const
+{
+return
+mYUVColorSpace
+;
+}
+gfx
+:
+:
 ColorRange
 GetColorRange
 (
@@ -384,8 +397,6 @@ ID3D11Texture2D
 >
 mTexture
 ;
-public
-:
 const
 uint32_t
 mArrayIndex
@@ -408,8 +419,8 @@ const
 gfx
 :
 :
-ColorSpace2
-mColorSpace
+YUVColorSpace
+mYUVColorSpace
 ;
 const
 gfx
@@ -418,8 +429,6 @@ gfx
 ColorRange
 mColorRange
 ;
-private
-:
 RefPtr
 <
 TextureClient
