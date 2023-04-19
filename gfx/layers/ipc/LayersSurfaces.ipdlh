@@ -419,8 +419,8 @@ format
 IntSize
 size
 ;
-ColorSpace2
-colorSpace
+YUVColorSpace
+yUVColorSpace
 ;
 ColorRange
 colorRange

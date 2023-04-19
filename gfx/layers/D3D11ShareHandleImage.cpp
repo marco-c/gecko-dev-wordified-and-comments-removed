@@ -141,7 +141,7 @@ aRect
 gfx
 :
 :
-ColorSpace2
+YUVColorSpace
 aColorSpace
 gfx
 :
@@ -166,7 +166,7 @@ mPictureRect
 (
 aRect
 )
-mColorSpace
+mYUVColorSpace
 (
 aColorSpace
 )
@@ -202,7 +202,7 @@ aAllocator
 >
 CreateOrRecycleClient
 (
-mColorSpace
+mYUVColorSpace
 mColorRange
 mSize
 )
@@ -434,7 +434,7 @@ aFormat
 gfx
 :
 :
-ColorSpace2
+YUVColorSpace
 aColorSpace
 gfx
 :
@@ -468,7 +468,7 @@ Content
 aTextureFlags
 aAllocFlags
 )
-mColorSpace
+mYUVColorSpace
 (
 aColorSpace
 )
@@ -597,10 +597,12 @@ P016
 textureData
 -
 >
-mColorSpace
+GetYUVColorSpace
+(
+)
 =
 =
-mColorSpace
+mYUVColorSpace
 &
 &
 textureData
@@ -666,9 +668,10 @@ nullptr
 data
 -
 >
-mColorSpace
-=
-mColorSpace
+SetYUVColorSpace
+(
+mYUVColorSpace
+)
 ;
 data
 -
@@ -701,8 +704,8 @@ const
 gfx
 :
 :
-ColorSpace2
-mColorSpace
+YUVColorSpace
+mYUVColorSpace
 ;
 const
 gfx
@@ -924,7 +927,7 @@ CreateOrRecycleClient
 gfx
 :
 :
-ColorSpace2
+YUVColorSpace
 aColorSpace
 gfx
 :
