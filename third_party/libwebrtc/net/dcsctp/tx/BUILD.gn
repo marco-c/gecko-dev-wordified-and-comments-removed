@@ -907,6 +907,14 @@ data_generator
 .
 .
 /
+testing
+:
+testing_macros
+"
+"
+.
+.
+/
 timer
 "
 ]
