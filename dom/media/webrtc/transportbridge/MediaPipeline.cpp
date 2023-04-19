@@ -1919,15 +1919,9 @@ mRtpHeaderExtensionMap
 >
 Deregister
 (
-mRtpHeaderExtensionMap
--
->
-GetType
-(
 extension
 .
-id
-)
+uri
 )
 ;
 }
