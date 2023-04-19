@@ -59,11 +59,7 @@ const
 profile
 =
 await
-Services
-.
-profiler
-.
-getProfileDataAsync
+stopNowAndGetProfile
 (
 )
 ;
@@ -225,6 +221,7 @@ called
 }
 )
 ;
+async
 function
 functionA
 (
@@ -236,6 +233,7 @@ functionB
 )
 ;
 }
+async
 function
 functionB
 (

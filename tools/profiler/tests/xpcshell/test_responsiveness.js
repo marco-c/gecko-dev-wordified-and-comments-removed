@@ -50,11 +50,7 @@ const
 profile
 =
 await
-Services
-.
-profiler
-.
-getProfileDataAsync
+stopNowAndGetProfile
 (
 )
 ;
@@ -227,6 +223,7 @@ return
 }
 }
 }
+async
 function
 functionA
 (
@@ -237,6 +234,7 @@ doSyncWork
 100
 )
 ;
+return
 captureAtLeastOneJsSample
 (
 )

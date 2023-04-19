@@ -201,7 +201,7 @@ const
 profile
 =
 await
-stopAndGetProfile
+waitSamplingAndStopAndGetProfile
 (
 )
 ;
@@ -419,7 +419,7 @@ waitOnePeriodicSampling
 ;
 }
 await
-stopAndGetProfile
+stopNowAndGetProfile
 (
 )
 ;
@@ -605,7 +605,7 @@ const
 profile
 =
 await
-stopAndGetProfile
+waitSamplingAndStopAndGetProfile
 (
 )
 ;
@@ -703,7 +703,7 @@ waitOnePeriodicSampling
 ;
 }
 await
-stopAndGetProfile
+stopNowAndGetProfile
 (
 )
 ;

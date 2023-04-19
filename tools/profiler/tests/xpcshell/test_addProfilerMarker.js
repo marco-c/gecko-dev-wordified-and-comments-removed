@@ -1146,7 +1146,7 @@ const
 profile
 =
 await
-stopAndGetProfile
+stopNowAndGetProfile
 (
 )
 ;
