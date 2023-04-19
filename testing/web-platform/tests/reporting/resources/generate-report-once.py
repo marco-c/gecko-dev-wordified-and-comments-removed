@@ -291,9 +291,15 @@ title
 script
 >
   
-window
-.
-webkitStorageInfo
+webkitRequestAnimationFrame
+(
+(
+)
+=
+>
+{
+}
+)
 ;
 <
 /
