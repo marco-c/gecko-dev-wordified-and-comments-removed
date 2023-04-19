@@ -76,7 +76,7 @@ chromium_revision
 '
 :
 '
-4ae118108ad42632ad5d794effa90b6a38564822
+c87d451712fceb7c224b7c5f1faeddbd48f0e11b
 '
 }
 deps
@@ -155,7 +155,7 @@ chromium
 src
 /
 build
-0673173e074b114642332765d2857ba9b988d3cd
+656d17b1d71732a6fc42c85962d699932847c7de
 '
 '
 src
@@ -275,7 +275,7 @@ chromium
 src
 /
 ios
-78513e47cacbca950e2223ff93c1c4e5918fdbe5
+0f85ceb84f55c3398ceb5425f5830512bbf59de4
 '
 '
 condition
@@ -307,7 +307,7 @@ chromium
 src
 /
 testing
-2f17932ea4427660115121b48024dcab7b93c339
+af3b7c2f1bca4861dbfc823d7effb99ec72a70c9
 '
 '
 src
@@ -331,7 +331,7 @@ chromium
 src
 /
 third_party
-2f7c00931b80c6d92e379254e5944fcccc9bd04e
+711835b5a0ea26eae3958cf635a5d2bd96f4681f
 '
 '
 src
@@ -958,7 +958,7 @@ com
 catapult
 .
 git
-3f5c581d3b045f00847989a9611912e022021343
+2c541cdf008959bc9813c641cc4ecd0194979486
 '
 '
 src
@@ -1054,7 +1054,7 @@ tools
 depot_tools
 .
 git
-364205c70ed16c00802b1c264e88d8e03a0b37ae
+81098e59adfcb81e94b0f8584f5bdbfdb0554573
 '
 '
 src
@@ -1210,7 +1210,7 @@ third_party
 freetype2
 .
 git
-c6ff2556c8e6f3bb8370cf3f6113bf73a6d5d9a3
+74f1b6be4a91ec9e105d9c2a11e5ba124b698755
 '
 '
 src
@@ -1830,7 +1830,7 @@ external
 perfetto
 .
 git
-fc1733482433d326e316c74a374cda64db8b36f8
+88ee6a6370c5ba5ecdb437636d9f3dd8824d1abe
 '
 '
 src
@@ -2354,7 +2354,7 @@ chromium
 src
 /
 tools
-e56739250031e06502eeb147c92d9561e39a948b
+bb2a7cbfcd37465359fb60fc6afd8417015a860e
 '
 '
 src
