@@ -288,7 +288,7 @@ constexpr
 int
 kUsageProfile
 =
-1
+AOM_USAGE_REALTIME
 ;
 constexpr
 int
@@ -1037,7 +1037,7 @@ aom_codec_av1_cx
 )
 &
 cfg_
-0
+kUsageProfile
 )
 ;
 if
