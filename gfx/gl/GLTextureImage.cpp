@@ -511,7 +511,7 @@ IsDestroyed
 ctx
 -
 >
-IsOwningThreadCurrent
+IsOwningThread
 (
 )
 )

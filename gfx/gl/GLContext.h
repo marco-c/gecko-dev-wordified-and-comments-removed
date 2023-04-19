@@ -12630,9 +12630,10 @@ mSharedContext
 ;
 }
 bool
-IsOwningThreadCurrent
+IsOwningThread
 (
 )
+const
 ;
 static
 void
@@ -13042,6 +13043,7 @@ GLContext
 >
 mSharedContext
 ;
+const
 PlatformThreadId
 mOwningThreadId
 ;
