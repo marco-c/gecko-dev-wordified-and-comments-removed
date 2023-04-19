@@ -391,12 +391,12 @@ NS_OK
 ;
 }
 NS_IMETHOD
-GetSecurityInfo
+GetTlsSocketControl
 (
-nsISupports
+nsISSLSocketControl
 *
 *
-aSecurityInfo
+aTLSSocketControl
 )
 override
 {

@@ -1394,9 +1394,9 @@ mEventSink
 ;
 nsCOMPtr
 <
-nsISupports
+nsISSLSocketControl
 >
-mSecInfo
+mTLSSocketControl
 ;
 nsSocketInputStream
 mInput

@@ -6002,8 +6002,8 @@ nsINetAddr
 ;
 FWD_TS_ADDREF
 (
-GetSecurityInfo
-nsISupports
+GetTlsSocketControl
+nsISSLSocketControl
 )
 ;
 FWD_TS_PTR
