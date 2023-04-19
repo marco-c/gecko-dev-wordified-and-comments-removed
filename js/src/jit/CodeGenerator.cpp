@@ -14203,7 +14203,7 @@ masm
 callWithABI
 <
 Fn
-AllocateString
+AllocateDependentString
 >
 (
 )

@@ -11642,7 +11642,7 @@ true
 }
 void
 *
-AllocateString
+AllocateDependentString
 (
 JSContext
 *
@@ -11658,7 +11658,7 @@ js
 :
 AllocateString
 <
-JSString
+JSDependentString
 NoGC
 >
 (
