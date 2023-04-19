@@ -113,15 +113,12 @@ if
 magic
 !
 =
-b
 "
 pbzx
 "
 :
         
 raise
-Exception
-(
 "
 Error
 :
@@ -130,7 +127,6 @@ a
 pbzx
 file
 "
-)
     
 flags
 =
@@ -245,7 +241,6 @@ if
 xzmagic
 !
 =
-b
 "
 \
 xfd7zXZ
@@ -413,7 +408,6 @@ if
 tail
 !
 =
-b
 "
 YZ
 "
@@ -426,8 +420,6 @@ close
 )
                 
 raise
-Exception
-(
 "
 Error
 :
@@ -438,7 +430,6 @@ xar
 file
 footer
 "
-)
     
 try
 :

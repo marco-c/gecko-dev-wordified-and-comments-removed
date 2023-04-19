@@ -39,12 +39,6 @@ worker
 /
 bin
 :
-{
-MOZ_FETCHES_DIR
-}
-/
-dmg
-:
 base
 "
 DUMP_SYMS_PATH
