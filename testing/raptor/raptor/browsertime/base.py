@@ -2737,6 +2737,7 @@ threads
 "
 GeckoMain
 Compositor
+Renderer
 "
                 
 )
