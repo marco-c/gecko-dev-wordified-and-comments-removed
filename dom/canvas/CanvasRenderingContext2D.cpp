@@ -11644,7 +11644,12 @@ CanvasPattern
 this
 srcSurf
 repeatMode
-nullptr
+srcCanvas
+-
+>
+PrincipalOrNull
+(
+)
 offscreenCanvas
 -
 >
