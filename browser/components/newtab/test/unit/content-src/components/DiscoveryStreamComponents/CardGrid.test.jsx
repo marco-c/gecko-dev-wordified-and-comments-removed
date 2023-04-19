@@ -223,13 +223,6 @@ shallow
 (
 <
 CardGrid
-DiscoveryStream
-=
-{
-INITIAL_STATE
-.
-DiscoveryStream
-}
 Prefs
 =
 {
@@ -591,11 +584,6 @@ recommendations
 }
 ]
 }
-DiscoveryStream
-:
-INITIAL_STATE
-.
-DiscoveryStream
 Prefs
 :
 INITIAL_STATE
