@@ -1931,14 +1931,6 @@ int64_t
 timestamp
 )
 ;
-void
-ScheduleEntryDestruction
-(
-TurnEntry
-*
-entry
-)
-;
 bool
 FailAndPruneConnection
 (

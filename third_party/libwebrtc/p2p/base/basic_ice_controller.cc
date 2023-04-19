@@ -406,6 +406,17 @@ connection
 )
 )
 ;
+if
+(
+selected_connection_
+=
+=
+connection
+)
+selected_connection_
+=
+nullptr
+;
 }
 bool
 BasicIceController

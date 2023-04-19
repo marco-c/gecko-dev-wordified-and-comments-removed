@@ -1951,6 +1951,11 @@ conn
 {
 }
 void
+DestroyAllConnections
+(
+)
+;
+void
 CopyPortInformationToPacketInfo
 (
 rtc
