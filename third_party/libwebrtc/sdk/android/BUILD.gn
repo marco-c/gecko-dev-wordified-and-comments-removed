@@ -3406,7 +3406,7 @@ org
 /
 webrtc
 /
-LibaomAv1Encoder
+LibaomAv1EncoderIfSupported
 .
 java
 "
@@ -6031,7 +6031,7 @@ webrtc_vp9
 rtc_library
 (
 "
-libaom_av1_jni
+libaom_av1_jni_if_supported
 "
 )
 {
@@ -6071,7 +6071,7 @@ base_jni
 "
 "
 :
-generated_libaom_av1_jni
+generated_libaom_av1_jni_if_supported
 "
 "
 :
@@ -6207,7 +6207,7 @@ deps
 [
 "
 :
-libaom_av1_jni
+libaom_av1_jni_if_supported
 "
 "
 :
@@ -9147,7 +9147,7 @@ h
 generate_jni
 (
 "
-generated_libaom_av1_jni
+generated_libaom_av1_jni_if_supported
 "
 )
 {
@@ -9172,7 +9172,7 @@ org
 /
 webrtc
 /
-LibaomAv1Encoder
+LibaomAv1EncoderIfSupported
 .
 java
 "

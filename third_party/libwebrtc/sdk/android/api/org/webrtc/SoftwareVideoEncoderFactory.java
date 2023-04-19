@@ -125,7 +125,7 @@ name
 )
 &
 &
-LibaomAv1Encoder
+LibaomAv1EncoderIfSupported
 .
 nativeIsSupported
 (
@@ -134,7 +134,7 @@ nativeIsSupported
 {
 return
 new
-LibaomAv1Encoder
+LibaomAv1EncoderIfSupported
 (
 )
 ;
@@ -238,7 +238,7 @@ HashMap
 }
 if
 (
-LibaomAv1Encoder
+LibaomAv1EncoderIfSupported
 .
 nativeIsSupported
 (
