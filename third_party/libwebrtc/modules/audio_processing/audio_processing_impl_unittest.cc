@@ -3579,14 +3579,6 @@ enabled
 =
 true
 ;
-apm_config
-.
-residual_echo_detector
-.
-enabled
-=
-true
-;
 apm
 -
 >

@@ -575,6 +575,13 @@ visibility
 *
 "
 ]
+allow_poison
+=
+[
+"
+default_echo_detector
+"
+]
 sources
 =
 [
@@ -627,7 +634,7 @@ modules
 /
 audio_processing
 :
-audio_processing
+residual_echo_detector
 "
 "
 .
