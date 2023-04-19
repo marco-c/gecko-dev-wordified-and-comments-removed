@@ -4157,6 +4157,16 @@ libwebrtc
 /
 rtc_base
 /
+one_time_event_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 platform_thread_gn
 "
 "
