@@ -17971,8 +17971,10 @@ isAsync
 )
 ;
 }
-static
 void
+js
+:
+:
 DumpImmutableScriptFlags
 (
 js
@@ -18535,8 +18537,10 @@ break
 }
 }
 }
-static
 void
+js
+:
+:
 DumpFunctionFlagsItems
 (
 js
