@@ -48,14 +48,6 @@ aTextMarker
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIACCESSIBLEMACNSOBJECTWRAPPER
-;
-id
-GetNativeObject
-(
-)
-const
-final
-;
 protected
 :
 virtual

@@ -190,7 +190,6 @@ IntSize
 &
 aNativeSizes
 )
-const
 {
 nsresult
 rv

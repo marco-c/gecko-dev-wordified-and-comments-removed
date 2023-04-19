@@ -95,7 +95,6 @@ IntSize
 &
 aNativeSizes
 )
-const
 override
 ;
 NS_IMETHOD

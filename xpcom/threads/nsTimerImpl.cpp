@@ -4173,7 +4173,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 {
 return
 aMallocSizeOf

@@ -39,18 +39,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIWEAKREFERENCE
-size_t
-SizeOfOnlyThis
-(
-mozilla
-:
-:
-MallocSizeOf
-aMallocSizeOf
-)
-const
-override
-;
 private
 :
 friend
@@ -487,7 +475,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 {
 return
 aMallocSizeOf

@@ -2036,7 +2036,6 @@ IntSize
 &
 aNativeSizes
 )
-const
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -2049,7 +2048,6 @@ VectorImage
 GetNativeSizesLength
 (
 )
-const
 {
 return
 0

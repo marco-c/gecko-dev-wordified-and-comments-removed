@@ -1524,7 +1524,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 {
 size_t
 n

@@ -136,7 +136,6 @@ xpcAccessibleMacNSObjectWrapper
 GetNativeObject
 (
 )
-const
 {
 return
 mNativeObject
