@@ -46,15 +46,6 @@ include
 "
 frontend
 /
-BCEParserHandle
-.
-h
-"
-#
-include
-"
-frontend
-/
 Parser
 .
 h
@@ -485,9 +476,7 @@ frontend
 {
 class
 EitherParser
-:
-public
-BCEParserHandle
+final
 {
 mozilla
 :
@@ -587,7 +576,6 @@ ErrorReporter
 errorReporter
 (
 )
-final
 {
 return
 parser
@@ -610,7 +598,6 @@ errorReporter
 (
 )
 const
-final
 {
 return
 parser
