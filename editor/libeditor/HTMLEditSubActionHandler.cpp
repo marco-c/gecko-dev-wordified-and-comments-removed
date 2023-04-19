@@ -30491,7 +30491,7 @@ mAttribute
 item
 -
 >
-specifiedStyle
+mSpecifiedStyle
 )
 ;
 if
@@ -30968,7 +30968,7 @@ mAttribute
 item
 -
 >
-value
+mAttributeValueOrCSSValue
 )
 ;
 if
@@ -45222,7 +45222,7 @@ GetAttribute
 &
 styleCacheBeforeEdit
 .
-Value
+AttributeValueOrCSSValueRef
 (
 )
 &
@@ -45313,7 +45313,7 @@ NoIndex
 |
 styleCacheBeforeEdit
 .
-Value
+AttributeValueOrCSSValueRef
 (
 )
 !
@@ -45325,7 +45325,7 @@ ElementAt
 index
 )
 .
-Value
+AttributeValueOrCSSValueRef
 (
 )
 )
@@ -45347,7 +45347,7 @@ GetAttribute
 )
 styleCacheBeforeEdit
 .
-Value
+AttributeValueOrCSSValueRef
 (
 )
 )
