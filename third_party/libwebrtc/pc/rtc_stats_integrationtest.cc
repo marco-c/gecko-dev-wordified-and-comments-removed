@@ -3857,6 +3857,15 @@ ip
 ;
 verifier
 .
+TestMemberIsDefined
+(
+candidate
+.
+address
+)
+;
+verifier
+.
 TestMemberIsNonNegative
 <
 int32_t

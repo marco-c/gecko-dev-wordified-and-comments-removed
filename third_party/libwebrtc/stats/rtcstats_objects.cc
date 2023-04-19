@@ -1484,6 +1484,8 @@ network_type
 &
 ip
 &
+address
+&
 port
 &
 protocol
@@ -1584,6 +1586,12 @@ ip
 ip
 "
 )
+address
+(
+"
+address
+"
+)
 port
 (
 "
@@ -1676,6 +1684,12 @@ ip
 other
 .
 ip
+)
+address
+(
+other
+.
+address
 )
 port
 (

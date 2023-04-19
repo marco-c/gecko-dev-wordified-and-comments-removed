@@ -902,6 +902,15 @@ ip
 ;
 RTCStatsMember
 <
+std
+:
+:
+string
+>
+address
+;
+RTCStatsMember
+<
 int32_t
 >
 port
