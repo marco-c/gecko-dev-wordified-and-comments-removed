@@ -168,6 +168,13 @@ npm
 install
 -
 -
+legacy
+-
+peer
+-
+deps
+-
+-
 ignore
 -
 scripts
