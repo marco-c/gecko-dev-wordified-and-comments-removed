@@ -476,6 +476,9 @@ Call
 CallIndirect
 =
 0x11
+CallRef
+=
+0x14
 Delegate
 =
 0x18
