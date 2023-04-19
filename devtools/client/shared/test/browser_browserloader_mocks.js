@@ -510,7 +510,7 @@ m1
 joinURI
 (
 "
-http
+https
 :
 /
 /
@@ -521,7 +521,7 @@ b
 "
 )
 "
-http
+https
 :
 /
 /
@@ -614,7 +614,7 @@ m2
 joinURI
 (
 "
-http
+https
 :
 /
 /
@@ -625,7 +625,7 @@ b
 "
 )
 "
-http
+https
 :
 /
 /
@@ -719,7 +719,7 @@ m3
 joinURI
 (
 "
-http
+https
 :
 /
 /
@@ -789,7 +789,7 @@ is
 joinURI
 (
 "
-http
+https
 :
 /
 /
@@ -851,7 +851,7 @@ m4
 joinURI
 (
 "
-http
+https
 :
 /
 /
@@ -862,7 +862,7 @@ b
 "
 )
 "
-http
+https
 :
 /
 /
