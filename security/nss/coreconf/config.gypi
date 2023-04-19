@@ -1124,6 +1124,12 @@ force_integrated_as
 '
 :
 0
+'
+disable_ckbi
+%
+'
+:
+0
 }
 '
 target_defaults
