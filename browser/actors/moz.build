@@ -87,7 +87,9 @@ Files
 "
 PageInfoChild
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -407,7 +409,9 @@ jsm
 "
 PageInfoChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 PageStyleChild

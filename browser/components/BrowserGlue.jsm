@@ -3381,7 +3381,7 @@ PageInfo
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3393,7 +3393,9 @@ actors
 /
 PageInfoChild
 .
-jsm
+sys
+.
+mjs
 "
 }
 allFrames
