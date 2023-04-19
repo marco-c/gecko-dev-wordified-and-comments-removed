@@ -9,7 +9,9 @@ include
 "
 mozilla
 /
-Result
+dom
+/
+FileSystemTypes
 .
 h
 "
@@ -18,9 +20,7 @@ include
 "
 mozilla
 /
-dom
-/
-FileSystemTypes
+Result
 .
 h
 "
