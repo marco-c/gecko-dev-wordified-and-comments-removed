@@ -1885,6 +1885,9 @@ BackgroundTasksUtils
 enableNimbus
 (
 commandLine
+defaultProfileTargetingSnapshot
+.
+environment
 )
 ;
 await
