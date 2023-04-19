@@ -465,7 +465,7 @@ CurrentTime
 )
 ;
 }
-bool
+void
 VideoReceiver2
 :
 :
@@ -496,7 +496,6 @@ IsDecoderThreadRunning
 )
 )
 ;
-return
 codecDataBase_
 .
 RegisterReceiveCodec

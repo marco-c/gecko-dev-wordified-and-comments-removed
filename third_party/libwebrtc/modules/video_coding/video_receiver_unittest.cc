@@ -281,15 +281,12 @@ set_codec_type
 kVideoCodecVP8
 )
 ;
-EXPECT_TRUE
-(
 receiver_
 .
 RegisterReceiveCodec
 (
 kUnusedPayloadType
 settings
-)
 )
 ;
 const

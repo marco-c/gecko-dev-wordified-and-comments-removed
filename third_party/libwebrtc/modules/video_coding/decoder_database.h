@@ -127,7 +127,7 @@ payload_type
 )
 const
 ;
-bool
+void
 RegisterReceiveCodec
 (
 uint8_t
