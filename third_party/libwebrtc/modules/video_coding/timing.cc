@@ -930,6 +930,8 @@ int64_t
 render_time_ms
 int64_t
 now_ms
+bool
+too_many_frames_queued
 )
 const
 {
@@ -958,6 +960,15 @@ us
 0
 )
 {
+if
+(
+too_many_frames_queued
+)
+{
+return
+0
+;
+}
 int64_t
 earliest_next_decode_start_time
 =

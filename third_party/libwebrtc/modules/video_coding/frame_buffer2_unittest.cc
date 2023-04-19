@@ -267,6 +267,8 @@ int64_t
 render_time_ms
 int64_t
 now_ms
+bool
+too_many_frames_queued
 )
 const
 override
