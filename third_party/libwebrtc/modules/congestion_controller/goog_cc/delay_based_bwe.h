@@ -265,6 +265,9 @@ recovered_from_overuse
 bool
 backoff_in_alr
 ;
+BandwidthUsage
+delay_detector_state
+;
 }
 ;
 explicit
