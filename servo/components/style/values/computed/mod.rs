@@ -415,6 +415,7 @@ BreakBetween
 BreakWithin
 Clear
 ContentVisibility
+ContainIntrinsicSize
 Float
 }
 ;
