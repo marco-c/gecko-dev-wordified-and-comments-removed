@@ -650,6 +650,19 @@ ECDSA
 "
 ECDH
 "
+"
+Ed25519
+"
+"
+Ed448
+"
+"
+X25519
+"
+         
+"
+X448
+"
 ]
 for
 filename_pattern
@@ -662,6 +675,8 @@ test_successes_
 %
 s
 .
+https
+.
 html
 "
 successes_html
@@ -673,6 +688,8 @@ test_failures_
 %
 s
 .
+https
+.
 html
 "
 failures_html
@@ -683,6 +700,8 @@ failures_html
 successes_
 %
 s
+.
+https
 .
 worker
 .
@@ -696,6 +715,8 @@ successes_worker
 failures_
 %
 s
+.
+https
 .
 worker
 .
