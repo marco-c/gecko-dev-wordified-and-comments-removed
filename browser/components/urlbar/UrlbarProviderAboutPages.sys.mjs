@@ -327,7 +327,6 @@ queryContext
 )
 {
 return
-(
 queryContext
 .
 trimmedSearchString
@@ -342,16 +341,6 @@ startsWith
 about
 :
 "
-)
-&
-&
-queryContext
-.
-trimmedSearchString
-.
-length
->
-6
 )
 ;
 }
