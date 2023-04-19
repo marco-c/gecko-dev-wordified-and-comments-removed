@@ -88,6 +88,7 @@ kSsrc
 )
 &
 encoder_
+nullptr
 )
 {
 }
