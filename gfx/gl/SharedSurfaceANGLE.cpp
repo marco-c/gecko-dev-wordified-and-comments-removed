@@ -767,13 +767,9 @@ format
 mDesc
 .
 size
-gfx
-:
-:
-YUVColorSpace
-:
-:
-Identity
+mDesc
+.
+colorSpace
 gfx
 :
 :
