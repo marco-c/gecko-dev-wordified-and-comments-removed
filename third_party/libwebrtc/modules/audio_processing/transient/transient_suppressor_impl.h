@@ -39,6 +39,19 @@ h
 #
 include
 "
+modules
+/
+audio_processing
+/
+transient
+/
+voice_probability_delay_unit
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 gtest_prod_util
@@ -89,7 +102,7 @@ num_channels
 )
 override
 ;
-void
+float
 Suppress
 (
 float
@@ -122,7 +135,7 @@ private
 :
 FRIEND_TEST_ALL_PREFIXES
 (
-TransientSuppressorImplTest
+TransientSuppressorVadModeParametrization
 TypingDetectionLogicWorksAsExpectedForMono
 )
 ;
@@ -181,6 +194,9 @@ spectral_mean
 const
 VadMode
 vad_mode_
+;
+VoiceProbabilityDelayUnit
+voice_probability_delay_unit_
 ;
 std
 :

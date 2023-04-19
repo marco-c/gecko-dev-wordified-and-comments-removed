@@ -50,7 +50,7 @@ num_channels
 0
 ;
 virtual
-void
+float
 Suppress
 (
 float

@@ -301,6 +301,11 @@ vad_mode_
 (
 vad_mode
 )
+voice_probability_delay_unit_
+(
+0
+sample_rate_hz
+)
 analyzed_audio_is_silent_
 (
 false
@@ -614,6 +619,14 @@ buffer_delay_
 analysis_length_
 -
 data_length_
+;
+voice_probability_delay_unit_
+.
+Initialize
+(
+buffer_delay_
+sample_rate_hz
+)
 ;
 complex_analysis_length_
 =
@@ -1071,7 +1084,7 @@ using_reference_
 false
 ;
 }
-void
+float
 TransientSuppressorImpl
 :
 :
@@ -1137,6 +1150,7 @@ voice_probability
 )
 {
 return
+voice_probability
 ;
 }
 UpdateKeypress
@@ -1196,6 +1210,7 @@ detector_result
 )
 {
 return
+voice_probability
 ;
 }
 using_reference_
@@ -1336,6 +1351,14 @@ data
 )
 ;
 }
+return
+voice_probability_delay_unit_
+.
+Delay
+(
+voice_probability
+)
+;
 }
 void
 TransientSuppressorImpl
