@@ -137,7 +137,7 @@ function
 (
 )
 {
-let
+const
 sandbox
 =
 sinon
