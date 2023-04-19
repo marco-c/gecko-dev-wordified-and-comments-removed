@@ -23,11 +23,6 @@ xpccomponents
 idl
 "
 "
-xpcIJSGetFactory
-.
-idl
-"
-"
 xpcIJSWeakReference
 .
 idl

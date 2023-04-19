@@ -372,11 +372,6 @@ name
 ]
 =
 {
-components
-:
-Cu
-.
-loadedComponents
 modules
 :
 Cu
