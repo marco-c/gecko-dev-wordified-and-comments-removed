@@ -177,12 +177,6 @@ kDefaultAdjacentSpeechFramesThreshold
 1
 ;
 constexpr
-bool
-kDefaultUseSaturationProtector
-=
-true
-;
-constexpr
 float
 kDefaultInitialSaturationMarginDb
 =

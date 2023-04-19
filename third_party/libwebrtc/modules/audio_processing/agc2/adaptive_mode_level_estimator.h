@@ -148,8 +148,6 @@ LevelEstimator
 level_estimator
 int
 adjacent_speech_frames_threshold
-bool
-use_saturation_protector
 float
 initial_saturation_margin_db
 float
@@ -310,10 +308,6 @@ level_estimator_type_
 const
 int
 adjacent_speech_frames_threshold_
-;
-const
-bool
-use_saturation_protector_
 ;
 const
 float
