@@ -1414,8 +1414,6 @@ lengthS
 )
 ;
 var
-n
-capN
 replacement
 ;
 if
@@ -1450,6 +1448,7 @@ else
 {
 for
 (
+var
 n
 =
 1
@@ -1464,6 +1463,7 @@ n
 +
 )
 {
+var
 capN
 =
 result
