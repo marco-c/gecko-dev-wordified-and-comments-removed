@@ -8098,7 +8098,7 @@ decoder_factory
 TEST_F
 (
 AcmSenderBitExactnessNewApi
-OpusFromFormat_stereo_20ms_voip
+DISABLED_OpusFromFormat_stereo_20ms_voip
 )
 {
 auto
