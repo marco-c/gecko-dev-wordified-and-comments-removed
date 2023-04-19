@@ -91,7 +91,7 @@ tab
 .
 linkedBrowser
 "
-http
+https
 :
 /
 /

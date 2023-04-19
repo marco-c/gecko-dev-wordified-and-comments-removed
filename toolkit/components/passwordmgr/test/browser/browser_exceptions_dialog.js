@@ -7,7 +7,7 @@ const
 LOGIN_HOST
 =
 "
-http
+https
 :
 /
 /

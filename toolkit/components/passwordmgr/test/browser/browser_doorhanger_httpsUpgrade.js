@@ -1197,7 +1197,7 @@ login1HTTPS
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -1431,7 +1431,7 @@ login
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
