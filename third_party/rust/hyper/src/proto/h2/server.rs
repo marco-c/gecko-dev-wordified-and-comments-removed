@@ -1577,7 +1577,7 @@ trace
 !
 (
 "
-interpretting
+interpreting
 NO_ERROR
 user
 error
