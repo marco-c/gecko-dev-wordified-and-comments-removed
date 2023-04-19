@@ -543,20 +543,6 @@ COPYING
 ]
     
 '
-usrsctp
-'
-:
-[
-'
-third_party
-/
-usrsctp
-/
-LICENSE
-'
-]
-    
-'
 webrtc
 '
 :

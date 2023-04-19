@@ -393,15 +393,6 @@ The
 SCTP
 association
 object
-(
-currently
-implemented
-by
-wrapping
-the
-usrsctp
-library
-)
 and
 the
 DTLS
@@ -423,7 +414,7 @@ or
 consumed
 by
 the
-usrsctp
+sctp
 library
 .
 It
