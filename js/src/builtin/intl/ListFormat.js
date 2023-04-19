@@ -192,9 +192,11 @@ if
 (
 internalProps
 )
+{
 return
 internalProps
 ;
+}
 internalProps
 =
 resolveListFormatInternals
@@ -288,6 +290,7 @@ options
 =
 undefined
 )
+{
 options
 =
 std_Object_create
@@ -295,6 +298,7 @@ std_Object_create
 null
 )
 ;
+}
 else
 if
 (
@@ -304,6 +308,7 @@ IsObject
 options
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -321,6 +326,7 @@ typeof
 options
 )
 ;
+}
 var
 opt
 =
