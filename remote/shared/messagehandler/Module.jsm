@@ -393,17 +393,6 @@ event
 )
 {
 return
-(
-this
-.
-supportsMethod
-(
-"
-_subscribeEvent
-"
-)
-&
-&
 this
 .
 supportedEvents
@@ -411,7 +400,6 @@ supportedEvents
 includes
 (
 event
-)
 )
 ;
 }
