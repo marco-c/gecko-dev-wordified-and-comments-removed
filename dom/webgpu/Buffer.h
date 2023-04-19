@@ -228,6 +228,17 @@ Buffer
 (
 )
 ;
+Device
+&
+GetDevice
+(
+)
+{
+return
+*
+mParent
+;
+}
 void
 Cleanup
 (
