@@ -1078,6 +1078,7 @@ groups
 propertyKey
 ]
 )
+;
 }
 return
 object
@@ -2070,11 +2071,9 @@ to
 &
 to
 <
-(
 from
 +
 count
-)
 )
 {
 from
@@ -3609,6 +3608,8 @@ var
 i
 =
 0
+;
+var
 argsLen
 =
 arguments
