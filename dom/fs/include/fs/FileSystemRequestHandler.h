@@ -105,10 +105,6 @@ virtual
 void
 GetRoot
 (
-const
-Origin
-&
-aOrigin
 RefPtr
 <
 Promise

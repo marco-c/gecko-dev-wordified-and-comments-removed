@@ -99,13 +99,6 @@ ipc
 IPCResult
 RecvGetRoot
 (
-const
-fs
-:
-:
-Origin
-&
-aOrigin
 GetRootResolver
 &
 &

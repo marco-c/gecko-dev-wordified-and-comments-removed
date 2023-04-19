@@ -39,13 +39,6 @@ BackgroundFileSystemParent
 :
 RecvGetRoot
 (
-const
-fs
-:
-:
-Origin
-&
-aOrigin
 GetRootResolver
 &
 &
