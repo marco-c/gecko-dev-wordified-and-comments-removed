@@ -453,6 +453,13 @@ Keyframe
 &
 &
 aKeyframes
+const
+dom
+:
+:
+AnimationTimeline
+*
+aTimeline
 )
 {
 aEffect
@@ -467,6 +474,7 @@ move
 aKeyframes
 )
 mComputedStyle
+aTimeline
 )
 ;
 }
@@ -799,6 +807,7 @@ move
 (
 aNewKeyframes
 )
+aTimeline
 )
 ;
 }
@@ -1488,6 +1497,7 @@ move
 (
 keyframes
 )
+timeline
 )
 ;
 RefPtr

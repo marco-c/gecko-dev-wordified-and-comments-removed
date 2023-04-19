@@ -861,6 +861,10 @@ const
 ComputedStyle
 *
 aStyle
+const
+AnimationTimeline
+*
+aTimeline
 )
 ;
 void
@@ -984,7 +988,13 @@ UpdateProperties
 const
 ComputedStyle
 *
-aComputedValues
+aStyle
+const
+AnimationTimeline
+*
+aTimeline
+=
+nullptr
 )
 ;
 void
@@ -1363,6 +1373,10 @@ AnimationProperty
 >
 &
 aProperties
+const
+AnimationTimeline
+*
+aTimeline
 bool
 *
 aBaseStylesChanged
@@ -1382,6 +1396,10 @@ const
 ComputedStyle
 *
 aComputedValues
+const
+AnimationTimeline
+*
+aTimeline
 RefPtr
 <
 const

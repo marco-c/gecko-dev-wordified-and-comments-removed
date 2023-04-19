@@ -2131,6 +2131,7 @@ endValue
 )
 &
 aNewStyle
+timeline
 )
 ;
 if
