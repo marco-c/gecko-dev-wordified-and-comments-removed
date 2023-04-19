@@ -39037,7 +39037,7 @@ pref
 ui
 .
 textScaleFactor
-150
+50
 )
 test
 -
@@ -39084,9 +39084,6 @@ skip
 if
 (
 Android
-|
-|
-cocoaWidget
 )
 test
 -
@@ -39095,7 +39092,7 @@ pref
 ui
 .
 textScaleFactor
-150
+50
 )
 test
 -
