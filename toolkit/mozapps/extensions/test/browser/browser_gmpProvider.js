@@ -10,7 +10,7 @@ PromiseUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 PromiseUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -58,7 +60,7 @@ GMPInstallManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +73,9 @@ modules
 /
 GMPInstallManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -84,7 +88,7 @@ WIDEVINE_ID
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -97,7 +101,9 @@ modules
 /
 GMPUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

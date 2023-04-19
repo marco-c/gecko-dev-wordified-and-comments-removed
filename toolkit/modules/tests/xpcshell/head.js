@@ -5,7 +5,7 @@ NewTabUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 NewTabUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

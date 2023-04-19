@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 WindowsRegistry
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ modules
 /
 WindowsRegistry
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 function

@@ -10,7 +10,7 @@ ServiceRequest
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 ServiceRequest
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

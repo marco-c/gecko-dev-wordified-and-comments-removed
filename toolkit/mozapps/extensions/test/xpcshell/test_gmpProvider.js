@@ -38,7 +38,7 @@ GMPInstallManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -51,7 +51,9 @@ modules
 /
 GMPInstallManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -65,7 +67,7 @@ WIDEVINE_ID
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -78,7 +80,9 @@ modules
 /
 GMPUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -89,7 +93,7 @@ UpdateUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -102,7 +106,9 @@ modules
 /
 UpdateUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

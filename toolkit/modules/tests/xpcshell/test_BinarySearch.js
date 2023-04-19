@@ -5,7 +5,7 @@ BinarySearch
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 BinarySearch
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

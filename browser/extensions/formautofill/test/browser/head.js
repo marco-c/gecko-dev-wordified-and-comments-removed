@@ -10,7 +10,7 @@ OSKeyStore
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 OSKeyStore
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -2141,7 +2143,7 @@ FormLikeFactory
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2154,7 +2156,9 @@ modules
 /
 FormLikeFactory
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -2355,7 +2359,7 @@ FormLikeFactory
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2368,7 +2372,9 @@ modules
 /
 FormLikeFactory
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

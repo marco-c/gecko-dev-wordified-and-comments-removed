@@ -10,7 +10,7 @@ JSONFile
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 JSONFile
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

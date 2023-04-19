@@ -36,7 +36,7 @@ Integration
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ modules
 /
 Integration
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

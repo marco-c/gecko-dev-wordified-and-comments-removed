@@ -10,7 +10,7 @@ PropertyListUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 PropertyListUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -10,7 +10,7 @@ CreditCard
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 CreditCard
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -34,7 +36,7 @@ OSKeyStore
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +49,9 @@ modules
 /
 OSKeyStore
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -85,7 +85,7 @@ Log
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -98,7 +98,9 @@ modules
 /
 Log
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -109,7 +111,7 @@ PromiseUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -122,7 +124,9 @@ modules
 /
 PromiseUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -133,7 +137,7 @@ ServiceRequest
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -146,7 +150,9 @@ modules
 /
 ServiceRequest
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

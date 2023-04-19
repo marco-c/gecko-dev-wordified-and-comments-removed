@@ -12,7 +12,7 @@ ResetProfile
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -25,7 +25,9 @@ modules
 /
 ResetProfile
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

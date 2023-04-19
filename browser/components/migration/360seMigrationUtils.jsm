@@ -106,15 +106,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 Sqlite
 :
 "
@@ -128,7 +119,9 @@ modules
 /
 Sqlite
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

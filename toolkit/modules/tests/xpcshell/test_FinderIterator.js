@@ -5,7 +5,7 @@ FinderIterator
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 FinderIterator
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

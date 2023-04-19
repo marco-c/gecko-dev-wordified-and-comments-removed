@@ -22,15 +22,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-this
-{
 PromiseUtils
 :
 "
@@ -44,7 +35,9 @@ modules
 /
 PromiseUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

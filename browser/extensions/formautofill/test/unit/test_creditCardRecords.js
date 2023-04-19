@@ -33,7 +33,7 @@ CreditCard
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -46,7 +46,9 @@ modules
 /
 CreditCard
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

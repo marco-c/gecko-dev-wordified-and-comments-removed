@@ -19,7 +19,7 @@ PromiseUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -32,7 +32,9 @@ modules
 /
 PromiseUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -43,7 +45,7 @@ FileUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -56,7 +58,9 @@ modules
 /
 FileUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -67,7 +71,7 @@ Sqlite
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -80,7 +84,9 @@ modules
 /
 Sqlite
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

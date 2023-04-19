@@ -78,7 +78,7 @@ Log
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -91,7 +91,9 @@ modules
 /
 Log
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -6656,7 +6658,7 @@ AppMenuNotifications
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -6669,7 +6671,9 @@ modules
 /
 AppMenuNotifications
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

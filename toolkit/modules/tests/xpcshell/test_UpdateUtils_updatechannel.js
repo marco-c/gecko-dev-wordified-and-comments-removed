@@ -29,7 +29,7 @@ UpdateUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -42,7 +42,9 @@ modules
 /
 UpdateUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

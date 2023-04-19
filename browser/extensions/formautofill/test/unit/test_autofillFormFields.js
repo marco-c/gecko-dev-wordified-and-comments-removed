@@ -70,7 +70,7 @@ OSKeyStore
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -83,7 +83,9 @@ modules
 /
 OSKeyStore
 .
-jsm
+sys
+.
+mjs
 "
 )
 )

@@ -5,7 +5,7 @@ httpRequest
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 Http
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

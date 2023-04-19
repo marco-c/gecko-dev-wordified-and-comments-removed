@@ -31,7 +31,7 @@ ShortcutUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -44,7 +44,9 @@ modules
 /
 ShortcutUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

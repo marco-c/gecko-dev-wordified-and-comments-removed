@@ -5,7 +5,7 @@ Log
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 Log
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

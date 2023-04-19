@@ -58,7 +58,7 @@ FileUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +71,9 @@ modules
 /
 FileUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -154,7 +156,7 @@ PromiseUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -167,7 +169,9 @@ modules
 /
 PromiseUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

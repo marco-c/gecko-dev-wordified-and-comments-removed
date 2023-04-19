@@ -116,7 +116,7 @@ Rect
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -129,7 +129,9 @@ modules
 /
 Geometry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

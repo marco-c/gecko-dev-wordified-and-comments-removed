@@ -10,7 +10,7 @@ FileUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 FileUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -652,7 +654,7 @@ BrowserUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -665,7 +667,9 @@ modules
 /
 BrowserUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -48,7 +48,7 @@ IndexedDB
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -61,7 +61,9 @@ modules
 /
 IndexedDB
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

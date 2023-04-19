@@ -55,7 +55,7 @@ JSONFile
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -68,7 +68,9 @@ modules
 /
 JSONFile
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -79,7 +81,7 @@ Log
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -92,7 +94,9 @@ modules
 /
 Log
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 PromiseUtils
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ modules
 /
 PromiseUtils
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 function

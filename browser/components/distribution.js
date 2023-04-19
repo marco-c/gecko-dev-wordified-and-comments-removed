@@ -1790,7 +1790,7 @@ ProfileAge
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1803,7 +1803,9 @@ modules
 /
 ProfileAge
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

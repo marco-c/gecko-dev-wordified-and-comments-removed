@@ -112,7 +112,7 @@ Integration
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -125,7 +125,9 @@ modules
 /
 Integration
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -456,7 +458,7 @@ FileUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -469,7 +471,9 @@ modules
 /
 FileUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

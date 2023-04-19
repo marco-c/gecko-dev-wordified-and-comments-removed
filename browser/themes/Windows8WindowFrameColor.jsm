@@ -21,7 +21,7 @@ Registry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -34,7 +34,9 @@ modules
 /
 WindowsRegistry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

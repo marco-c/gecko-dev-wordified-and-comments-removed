@@ -74,9 +74,9 @@ Teal
 png
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -93,7 +93,9 @@ modules
 /
 FileUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

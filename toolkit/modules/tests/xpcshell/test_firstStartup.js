@@ -34,7 +34,7 @@ FirstStartup
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ modules
 /
 FirstStartup
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

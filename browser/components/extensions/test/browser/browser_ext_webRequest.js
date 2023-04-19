@@ -19,7 +19,7 @@ HiddenFrame
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -32,7 +32,9 @@ modules
 /
 HiddenFrame
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

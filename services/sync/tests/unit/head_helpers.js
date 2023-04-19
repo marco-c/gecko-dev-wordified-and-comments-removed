@@ -366,7 +366,7 @@ FileUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -379,7 +379,9 @@ modules
 /
 FileUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -552,7 +554,7 @@ JsonSchema
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -565,7 +567,9 @@ modules
 /
 JsonSchema
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

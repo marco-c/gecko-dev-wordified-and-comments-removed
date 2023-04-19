@@ -1405,7 +1405,7 @@ InlineSpellChecker
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1418,7 +1418,9 @@ modules
 /
 InlineSpellChecker
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -60,7 +60,7 @@ JsonSchema
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -73,7 +73,9 @@ modules
 /
 JsonSchema
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

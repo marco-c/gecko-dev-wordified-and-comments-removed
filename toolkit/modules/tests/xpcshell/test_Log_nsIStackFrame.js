@@ -5,7 +5,7 @@ Log
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 Log
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -137,7 +139,7 @@ test_Log_nsIStackFrame
 .
 js
 :
-4
+6
 /
 )
 ;
@@ -156,7 +158,7 @@ test_Log_nsIStackFrame
 .
 js
 :
-8
+10
 /
 )
 ;
@@ -175,7 +177,7 @@ test_Log_nsIStackFrame
 .
 js
 :
-28
+30
 /
 )
 ;
@@ -259,7 +261,7 @@ test_Log_nsIStackFrame
 .
 js
 :
-16
+18
 /
 )
 ;
@@ -278,7 +280,7 @@ test_Log_nsIStackFrame
 .
 js
 :
-20
+22
 /
 )
 ;
@@ -297,7 +299,7 @@ test_Log_nsIStackFrame
 .
 js
 :
-24
+26
 /
 )
 ;
