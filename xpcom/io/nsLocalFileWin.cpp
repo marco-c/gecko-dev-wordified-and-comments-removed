@@ -1350,6 +1350,15 @@ break
 case
 ERROR_NOT_ENOUGH_MEMORY
 :
+[
+[
+fallthrough
+]
+]
+;
+case
+ERROR_NO_SYSTEM_RESOURCES
+:
 rv
 =
 NS_ERROR_OUT_OF_MEMORY
