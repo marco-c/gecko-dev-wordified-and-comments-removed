@@ -3539,6 +3539,7 @@ gcHeapSize
 .
 addGCArena
 (
+heapSize
 )
 ;
 if

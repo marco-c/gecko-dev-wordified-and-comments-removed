@@ -751,7 +751,7 @@ public
 gc
 :
 :
-HeapSize
+HeapSizeChild
 gcHeapSize
 ;
 gc

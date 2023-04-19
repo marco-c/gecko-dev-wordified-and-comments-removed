@@ -1417,6 +1417,7 @@ gcHeapSize
 .
 removeGCArena
 (
+heapSize
 )
 ;
 arena
@@ -1494,10 +1495,6 @@ rt
 sweepingTracer
 (
 rt
-)
-heapSize
-(
-nullptr
 )
 fullGCRequested
 (

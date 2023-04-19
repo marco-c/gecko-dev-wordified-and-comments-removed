@@ -4239,6 +4239,7 @@ removeBytes
 ArenaSize
 !
 allArenasRelocated
+heapSize
 )
 ;
 arena
