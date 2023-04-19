@@ -236,6 +236,7 @@ public
 :
 nsIFrame
 *
+const
 mFrame
 ;
 gfxContext
