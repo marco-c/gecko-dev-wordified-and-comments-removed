@@ -3555,6 +3555,9 @@ perf_cat
 )
 if
 ci_cat
+and
+not
+perf_cat
 :
 lkgr_builders
 .
