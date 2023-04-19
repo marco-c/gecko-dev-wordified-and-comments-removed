@@ -339,6 +339,12 @@ bool
 )
 >
 is_connection_established
+const
+DcSctpSocketHandoverState
+*
+handover_state
+=
+nullptr
 )
 :
 log_prefix_
@@ -491,6 +497,7 @@ get
 (
 )
 peer_initial_tsn
+handover_state
 )
 reassembly_queue_
 (
@@ -499,6 +506,7 @@ peer_initial_tsn
 options
 .
 max_receiver_window_buffer_size
+handover_state
 )
 retransmission_queue_
 (
@@ -540,6 +548,7 @@ partial_reliability
 capabilities
 .
 message_interleaving
+handover_state
 )
 stream_reset_handler_
 (
@@ -553,6 +562,7 @@ data_tracker_
 reassembly_queue_
 &
 retransmission_queue_
+handover_state
 )
 heartbeat_handler_
 (
@@ -951,6 +961,20 @@ ToString
 (
 )
 const
+;
+HandoverReadinessStatus
+GetHandoverReadiness
+(
+)
+const
+;
+void
+AddHandoverState
+(
+DcSctpSocketHandoverState
+&
+state
+)
 ;
 private
 :
