@@ -460,6 +460,10 @@ deps
 [
 "
 :
+transient_suppressor_api
+"
+"
+:
 transient_suppressor_impl
 "
 "
@@ -660,6 +664,10 @@ cc
 deps
 =
 [
+"
+:
+transient_suppressor_api
+"
 "
 :
 transient_suppressor_impl

@@ -31,6 +31,17 @@ TransientSuppressor
 {
 public
 :
+enum
+class
+VadMode
+{
+kDefault
+=
+0
+kRnnVad
+kNoVad
+}
+;
 virtual
 ~
 TransientSuppressor

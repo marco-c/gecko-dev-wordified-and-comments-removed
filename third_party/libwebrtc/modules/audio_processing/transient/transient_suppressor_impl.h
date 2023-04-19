@@ -59,8 +59,11 @@ TransientSuppressor
 {
 public
 :
+explicit
 TransientSuppressorImpl
 (
+VadMode
+vad_mode
 )
 ;
 ~
@@ -170,6 +173,10 @@ float
 spectral_mean
 )
 ;
+const
+VadMode
+vad_mode_
+;
 std
 :
 :
@@ -178,6 +185,9 @@ unique_ptr
 TransientDetector
 >
 detector_
+;
+bool
+analyzed_audio_is_silent_
 ;
 size_t
 data_length_
