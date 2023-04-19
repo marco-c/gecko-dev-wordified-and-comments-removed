@@ -4313,6 +4313,12 @@ li
 -
 time
 {
+white
+-
+space
+:
+nowrap
+;
 text
 -
 align
@@ -5093,7 +5099,7 @@ title
 domain
 domain
 domain
-time
+domain
 "
 "
 device
@@ -5440,6 +5446,12 @@ align
 self
 :
 end
+;
+white
+-
+space
+:
+nowrap
 ;
 }
 .
