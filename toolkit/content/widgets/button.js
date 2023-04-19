@@ -459,7 +459,13 @@ top
 .
 document
 .
-documentElement
+querySelector
+(
+"
+dialog
+"
+)
+?
 .
 buttonBox
 ;
