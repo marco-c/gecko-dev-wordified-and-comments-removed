@@ -3735,7 +3735,13 @@ packet_history
 .
 SetRtt
 (
+TimeDelta
+:
+:
+Millis
+(
 rtt_ms
+)
 )
 ;
 }

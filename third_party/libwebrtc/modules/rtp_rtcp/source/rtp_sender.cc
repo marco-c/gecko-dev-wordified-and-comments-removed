@@ -1716,9 +1716,15 @@ packet_history_
 >
 SetRtt
 (
+TimeDelta
+:
+:
+Millis
+(
 5
 +
 avg_rtt
+)
 )
 ;
 for
