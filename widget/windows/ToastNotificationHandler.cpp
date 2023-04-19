@@ -2107,9 +2107,6 @@ if
 IsWin10OrLater
 (
 )
-&
-&
-mIsSystemPrincipal
 )
 {
 ComPtr
