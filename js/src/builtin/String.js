@@ -67,6 +67,7 @@ RegExp
 )
 ;
 return
+(
 RegExpPrototypeOptimizable
 (
 RegExpProto
@@ -95,6 +96,7 @@ match
 =
 =
 RegExpMatch
+)
 ;
 }
 function
@@ -1516,6 +1518,7 @@ RegExp
 )
 ;
 return
+(
 RegExpPrototypeOptimizable
 (
 RegExpProto
@@ -1544,6 +1547,7 @@ search
 =
 =
 RegExpSearch
+)
 ;
 }
 function
