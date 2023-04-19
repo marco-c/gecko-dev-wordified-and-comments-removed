@@ -272,7 +272,7 @@ CachedTargetingGetter
 "
 doesAppNeedPin
 "
-undefined
+true
 undefined
 {
 doesAppNeedPin
@@ -314,6 +314,14 @@ assert
 calledOnce
 (
 doesAppNeedPinStub
+)
+;
+assert
+.
+calledWith
+(
+doesAppNeedPinStub
+true
 )
 ;
 clock
