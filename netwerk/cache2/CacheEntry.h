@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsITransportSecurityInfo
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -376,7 +383,7 @@ _retval
 nsresult
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo
@@ -385,7 +392,7 @@ aSecurityInfo
 nsresult
 SetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 aSecurityInfo
 )
@@ -1672,7 +1679,7 @@ mBackgroundOperations
 ;
 nsCOMPtr
 <
-nsISupports
+nsITransportSecurityInfo
 >
 mSecurityInfo
 ;
@@ -2055,7 +2062,7 @@ _retval
 NS_IMETHOD
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo
@@ -2075,7 +2082,7 @@ aSecurityInfo
 NS_IMETHOD
 SetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 aSecurityInfo
 )
