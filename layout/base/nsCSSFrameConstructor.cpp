@@ -6396,6 +6396,16 @@ StylePage
 mPage
 )
 ;
+aFrame
+-
+>
+SetAutoPageValue
+(
+aState
+.
+mAutoPageNameValue
+)
+;
 nsIFrame
 :
 :
