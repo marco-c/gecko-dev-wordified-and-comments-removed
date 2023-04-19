@@ -399,16 +399,6 @@ user_pref
 "
 dom
 .
-allow_XUL_XBL_for_file
-"
-true
-)
-;
-user_pref
-(
-"
-dom
-.
 ipc
 .
 tabs
