@@ -152,7 +152,7 @@ payload_type
 -
 1
 ;
-RtpConfig
+ReceiveStreamRtpConfig
 rtp
 ;
 std

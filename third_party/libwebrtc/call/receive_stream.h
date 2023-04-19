@@ -69,7 +69,7 @@ ReceiveStream
 public
 :
 struct
-RtpConfig
+ReceiveStreamRtpConfig
 {
 uint32_t
 remote_ssrc
@@ -131,10 +131,8 @@ const
 0
 ;
 virtual
-const
-RtpConfig
-&
-rtp_config
+bool
+transport_cc
 (
 )
 const

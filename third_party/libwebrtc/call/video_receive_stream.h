@@ -759,7 +759,7 @@ struct
 Rtp
 :
 public
-RtpConfig
+ReceiveStreamRtpConfig
 {
 Rtp
 (
