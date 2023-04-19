@@ -20,7 +20,7 @@ serde_derive
 .
 0
 .
-137
+143
 "
 )
 ]
@@ -50,6 +50,10 @@ clippy
 :
 :
 collapsible_match
+clippy
+:
+:
+derive_partial_eq_without_eq
 clippy
 :
 :

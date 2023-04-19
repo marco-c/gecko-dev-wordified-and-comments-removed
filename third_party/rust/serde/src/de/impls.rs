@@ -4995,13 +4995,6 @@ map
 Some
 )
 }
-#
-[
-doc
-(
-hidden
-)
-]
 fn
 __private_visit_untagged_option
 <
@@ -14129,6 +14122,7 @@ Error
 unknown_field
 (
 &
+*
 value
 FIELDS
 )
@@ -16348,6 +16342,7 @@ Error
 unknown_field
 (
 &
+*
 value
 FIELDS
 )

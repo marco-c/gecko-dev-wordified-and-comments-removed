@@ -20,7 +20,7 @@ serde
 .
 0
 .
-137
+143
 "
 )
 ]
@@ -112,9 +112,12 @@ single_match_else
 type_complexity
 use_self
 zero_prefixed_literal
+derive_partial_eq_without_eq
 enum_glob_use
+explicit_auto_deref
 let_underscore_drop
 map_err_ignore
+new_without_default
 result_unit_err
 wildcard_imports
 needless_pass_by_value

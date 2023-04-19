@@ -118,7 +118,7 @@ version
 .
 0
 .
-137
+143
 "
 authors
 =
@@ -259,6 +259,11 @@ categories
 "
 encoding
 "
+"
+no
+-
+std
+"
 ]
 license
 =
@@ -287,6 +292,11 @@ serde
 rs
 /
 serde
+"
+resolver
+=
+"
+1
 "
 [
 package
@@ -340,7 +350,7 @@ version
 .
 0
 .
-137
+143
 "
 optional
 =
