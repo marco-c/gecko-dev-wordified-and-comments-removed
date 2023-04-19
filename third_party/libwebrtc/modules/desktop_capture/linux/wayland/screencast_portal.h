@@ -14,10 +14,6 @@ gio
 h
 >
 #
-define
-typeof
-__typeof__
-#
 include
 <
 string
