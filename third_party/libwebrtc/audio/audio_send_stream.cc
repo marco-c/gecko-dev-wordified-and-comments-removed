@@ -882,7 +882,7 @@ clock_
 (
 clock
 )
-worker_queue_
+rtp_transport_queue_
 (
 rtp_transport
 -
@@ -1024,7 +1024,7 @@ ssrc
 ;
 RTC_DCHECK
 (
-worker_queue_
+rtp_transport_queue_
 )
 ;
 RTC_DCHECK
@@ -1127,7 +1127,7 @@ rtc
 Event
 thread_sync_event
 ;
-worker_queue_
+rtp_transport_queue_
 -
 >
 PostTask
@@ -3030,7 +3030,7 @@ update
 {
 RTC_DCHECK_RUN_ON
 (
-worker_queue_
+rtp_transport_queue_
 )
 ;
 RTC_DCHECK
@@ -4763,7 +4763,7 @@ allocation_settings_
 .
 priority_bitrate_raw
 ;
-worker_queue_
+rtp_transport_queue_
 -
 >
 PostTask
@@ -4781,7 +4781,7 @@ bitrate_priority
 {
 RTC_DCHECK_RUN_ON
 (
-worker_queue_
+rtp_transport_queue_
 )
 ;
 bitrate_allocator_
@@ -4858,7 +4858,7 @@ rtc
 Event
 thread_sync_event
 ;
-worker_queue_
+rtp_transport_queue_
 -
 >
 PostTask
@@ -4871,7 +4871,7 @@ thread_sync_event
 {
 RTC_DCHECK_RUN_ON
 (
-worker_queue_
+rtp_transport_queue_
 )
 ;
 bitrate_allocator_
@@ -5307,7 +5307,7 @@ has_value
 return
 ;
 }
-worker_queue_
+rtp_transport_queue_
 -
 >
 PostTask
@@ -5321,7 +5321,7 @@ new_constraints
 {
 RTC_DCHECK_RUN_ON
 (
-worker_queue_
+rtp_transport_queue_
 )
 ;
 cached_constraints_
