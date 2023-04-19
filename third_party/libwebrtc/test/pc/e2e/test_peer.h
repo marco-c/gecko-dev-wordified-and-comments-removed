@@ -148,14 +148,15 @@ final
 {
 public
 :
+const
 Params
-*
+&
 params
 (
 )
+const
 {
 return
-&
 params_
 ;
 }
