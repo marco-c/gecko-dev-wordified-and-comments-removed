@@ -8788,6 +8788,15 @@ ice_parameters_
 .
 ufrag
 ;
+ice_transport_stats
+-
+>
+ice_state
+=
+ComputeIceTransportState
+(
+)
+;
 return
 true
 ;
