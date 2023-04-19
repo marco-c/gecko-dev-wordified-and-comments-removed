@@ -603,7 +603,7 @@ isActive
 &
 BuiltInThemes
 .
-isMonochromaticTheme
+isColorwayFromCurrentCollection
 (
 theme
 .
