@@ -854,6 +854,13 @@ resultdb_version
 )
 }
 ]
+'
+dep_type
+'
+:
+'
+cipd
+'
 }
 '
 src
