@@ -756,7 +756,7 @@ this
 .
 dataProvider
 .
-destroy
+clear
 (
 )
 ;
