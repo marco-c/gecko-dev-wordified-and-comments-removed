@@ -1522,7 +1522,10 @@ c
 ranges
 -
 >
-get_uint16
+getTyped
+<
+uint16_t
+>
 (
 0
 )
@@ -1540,7 +1543,10 @@ c
 ranges
 -
 >
-get_uint16
+getTyped
+<
+uint16_t
+>
 (
 length
 -
@@ -1598,7 +1604,10 @@ elem
 ranges
 -
 >
-get_uint16
+getTyped
+<
+uint16_t
+>
 (
 mid
 )
@@ -1651,7 +1660,10 @@ c
 ranges
 -
 >
-get_uint16
+getTyped
+<
+uint16_t
+>
 (
 mid
 )
