@@ -1522,6 +1522,16 @@ type
 "
 mobile
 "
+|
+|
+device
+.
+type
+=
+=
+"
+tablet
+"
 )
 ;
 return
