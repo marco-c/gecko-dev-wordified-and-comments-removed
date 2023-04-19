@@ -989,6 +989,17 @@ else
 false
 #
 endif
+MOZ_SYSTEM_POLICIES
+:
+#
+ifdef
+MOZ_SYSTEM_POLICIES
+true
+#
+else
+false
+#
+endif
 isChinaRepack
 (
 )
