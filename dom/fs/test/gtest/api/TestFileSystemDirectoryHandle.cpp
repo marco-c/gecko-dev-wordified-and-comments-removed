@@ -107,6 +107,14 @@ nsIGlobalObject
 .
 h
 "
+using
+:
+:
+testing
+:
+:
+_
+;
 namespace
 mozilla
 :
