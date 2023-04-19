@@ -1229,9 +1229,6 @@ TenuredCell
 *
 refillFreeListAndAllocate
 (
-FreeLists
-&
-freeLists
 AllocKind
 thingKind
 ShouldCheckThresholds
