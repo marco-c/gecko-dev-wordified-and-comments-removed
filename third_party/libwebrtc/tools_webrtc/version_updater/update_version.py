@@ -732,7 +732,7 @@ nTBR
 %
 s
 \
-nBugs
+nBug
 :
 None
 '
