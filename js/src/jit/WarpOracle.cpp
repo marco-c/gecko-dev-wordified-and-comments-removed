@@ -1020,7 +1020,7 @@ oldHash
 cx_
 -
 >
-hadNondeterministicException
+hadResourceExhaustion
 (
 )
 )
