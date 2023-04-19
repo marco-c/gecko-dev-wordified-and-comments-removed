@@ -90,6 +90,11 @@ by
 generate_profiling_categories
 .
 py
+from
+   
+profiling_categories
+.
+yaml
 .
 DO
 NOT
@@ -357,6 +362,11 @@ by
 generate_profiling_categories
 .
 py
+from
+   
+profiling_categories
+.
+yaml
 .
 DO
 NOT
