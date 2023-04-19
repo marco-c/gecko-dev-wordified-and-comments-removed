@@ -5398,6 +5398,7 @@ VideoSendStream
 clock_
 num_cpu_cores_
 task_queue_factory_
+network_thread_
 call_stats_
 -
 >

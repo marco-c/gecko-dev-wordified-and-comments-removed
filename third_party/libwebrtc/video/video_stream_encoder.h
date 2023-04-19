@@ -396,6 +396,9 @@ overuse_detector
 TaskQueueFactory
 *
 task_queue_factory
+TaskQueueBase
+*
+network_queue
 BitrateAllocationCallbackType
 allocation_cb_type
 )
@@ -1014,7 +1017,12 @@ encoder_queue_
 TaskQueueBase
 *
 const
-main_queue_
+worker_queue_
+;
+TaskQueueBase
+*
+const
+network_queue_
 ;
 const
 uint32_t
@@ -1064,7 +1072,7 @@ VideoTrackSourceConstraints
 source_constraints_
 RTC_GUARDED_BY
 (
-main_queue_
+worker_queue_
 )
 ;
 bool
@@ -1731,7 +1739,7 @@ VideoSourceSinkController
 video_source_sink_controller_
 RTC_GUARDED_BY
 (
-main_queue_
+worker_queue_
 )
 ;
 const

@@ -2286,6 +2286,12 @@ stats_proxy
 )
 )
 task_queue_factory
+TaskQueueBase
+:
+:
+Current
+(
+)
 allocation_callback_type
 )
 time_controller_

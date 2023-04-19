@@ -3443,11 +3443,14 @@ overuse_detector
 TaskQueueFactory
 *
 task_queue_factory
+TaskQueueBase
+*
+network_queue
 BitrateAllocationCallbackType
 allocation_cb_type
 )
 :
-main_queue_
+worker_queue_
 (
 TaskQueueBase
 :
@@ -3455,6 +3458,10 @@ TaskQueueBase
 Current
 (
 )
+)
+network_queue_
+(
+network_queue
 )
 number_of_cores_
 (
@@ -3821,7 +3828,7 @@ VideoStreamEncoder
 ;
 RTC_DCHECK
 (
-main_queue_
+worker_queue_
 )
 ;
 RTC_DCHECK
@@ -3984,7 +3991,7 @@ VideoStreamEncoder
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 RTC_DCHECK
@@ -4022,7 +4029,7 @@ Stop
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 video_source_sink_controller_
@@ -4254,7 +4261,7 @@ resource
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 TRACE_EVENT0
@@ -4390,7 +4397,7 @@ GetAdaptationResources
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 return
@@ -4425,7 +4432,7 @@ degradation_preference
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 video_source_sink_controller_
@@ -4521,7 +4528,7 @@ rotation_applied
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 video_source_sink_controller_
@@ -4650,6 +4657,11 @@ size_t
 max_data_payload_length
 )
 {
+RTC_DCHECK_RUN_ON
+(
+worker_queue_
+)
+;
 encoder_queue_
 .
 PostTask
@@ -6323,7 +6335,7 @@ height
 )
 ;
 }
-main_queue_
+worker_queue_
 -
 >
 PostTask
@@ -6350,7 +6362,7 @@ encoder_resolutions
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 if
@@ -7851,6 +7863,11 @@ VideoTrackSourceConstraints
 constraints
 )
 {
+RTC_DCHECK_RUN_ON
+(
+network_queue_
+)
+;
 RTC_LOG
 (
 LS_INFO
@@ -7891,7 +7908,7 @@ value_or
 1
 )
 ;
-main_queue_
+worker_queue_
 -
 >
 PostTask
@@ -7906,7 +7923,7 @@ constraints
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 source_constraints_
@@ -10015,7 +10032,7 @@ encoder_failed_
 =
 true
 ;
-main_queue_
+worker_queue_
 -
 >
 PostTask
@@ -10031,7 +10048,7 @@ this
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 settings_
@@ -11898,7 +11915,7 @@ ToString
 (
 )
 ;
-main_queue_
+worker_queue_
 -
 >
 PostTask
@@ -11923,7 +11940,7 @@ restrictions
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 video_source_sink_controller_
@@ -12746,7 +12763,7 @@ detection
 "
 ;
 }
-main_queue_
+worker_queue_
 -
 >
 PostTask
@@ -12763,7 +12780,7 @@ should_cap_resolution
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 video_source_sink_controller_
@@ -12816,7 +12833,7 @@ Config
 conf
 )
 {
-main_queue_
+worker_queue_
 -
 >
 PostTask
@@ -12833,7 +12850,7 @@ conf
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 settings_
@@ -12866,7 +12883,7 @@ SdpVideoFormat
 format
 )
 {
-main_queue_
+worker_queue_
 -
 >
 PostTask
@@ -12883,7 +12900,7 @@ format
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 settings_
@@ -12942,7 +12959,7 @@ is_screenshare
 )
 return
 ;
-main_queue_
+worker_queue_
 -
 >
 PostTask
@@ -12956,7 +12973,7 @@ this
 {
 RTC_DCHECK_RUN_ON
 (
-main_queue_
+worker_queue_
 )
 ;
 RTC_HISTOGRAM_BOOLEAN
