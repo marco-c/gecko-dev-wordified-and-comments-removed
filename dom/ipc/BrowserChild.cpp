@@ -10850,7 +10850,6 @@ aRequestingPrincipal
 aContentPolicyType
 true
 trans
-this
 )
 ;
 NS_ENSURE_SUCCESS

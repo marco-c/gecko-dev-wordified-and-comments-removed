@@ -186,7 +186,13 @@ child
 >
 SendSetClipboard
 (
+std
+:
+:
+move
+(
 ipcDataTransfer
+)
 isPrivateData
 IPC
 :
@@ -258,12 +264,6 @@ IPCTransferableToTransferable
 dataTransfer
 false
 aTransferable
-ContentChild
-:
-:
-GetSingleton
-(
-)
 )
 ;
 }
