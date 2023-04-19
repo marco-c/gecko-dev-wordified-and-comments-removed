@@ -769,6 +769,16 @@ notifyAll
 Override
 public
 void
+onIceCandidateError
+(
+IceCandidateErrorEvent
+event
+)
+{
+}
+Override
+public
+void
 onIceCandidatesRemoved
 (
 IceCandidate
