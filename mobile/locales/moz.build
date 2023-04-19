@@ -17,13 +17,3 @@ GeckoView
 General
 "
 )
-JAR_MANIFESTS
-+
-=
-[
-"
-jar
-.
-mn
-"
-]
