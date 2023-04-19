@@ -390,9 +390,13 @@ and
 M1
 *
 Current
+major
+macOS
 release
 *
 Previous
+major
+macOS
 release
 *
 Windows
