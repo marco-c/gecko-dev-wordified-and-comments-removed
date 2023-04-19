@@ -1316,9 +1316,6 @@ pack
 [
 1
 ]
-"
-content
-"
 )
 ;
 el
@@ -1530,9 +1527,6 @@ pack
 [
 1
 ]
-"
-content
-"
 )
 ;
 el
@@ -1663,9 +1657,6 @@ pack
 [
 1
 ]
-"
-content
-"
 )
 ;
 el

@@ -19,8 +19,8 @@ marionette_driver
 .
 marionette
 import
-CHROME_ELEMENT_KEY
 HTMLElement
+WEB_ELEMENT_KEY
 from
 marionette_harness
 import
@@ -219,7 +219,7 @@ self
 .
 assertEqual
 (
-CHROME_ELEMENT_KEY
+WEB_ELEMENT_KEY
 found_el
 .
 kind
@@ -333,7 +333,7 @@ self
 .
 assertEqual
 (
-CHROME_ELEMENT_KEY
+WEB_ELEMENT_KEY
 found_el
 .
 kind
@@ -450,7 +450,7 @@ self
 .
 assertEqual
 (
-CHROME_ELEMENT_KEY
+WEB_ELEMENT_KEY
 found_el
 .
 kind
@@ -685,7 +685,7 @@ self
 .
 assertEqual
 (
-CHROME_ELEMENT_KEY
+WEB_ELEMENT_KEY
 found_el
 .
 kind
@@ -801,7 +801,7 @@ self
 .
 assertEqual
 (
-CHROME_ELEMENT_KEY
+WEB_ELEMENT_KEY
 found_el
 .
 kind
@@ -919,7 +919,7 @@ self
 .
 assertEqual
 (
-CHROME_ELEMENT_KEY
+WEB_ELEMENT_KEY
 found_el
 .
 kind
@@ -1225,7 +1225,7 @@ self
 .
 assertEqual
 (
-CHROME_ELEMENT_KEY
+WEB_ELEMENT_KEY
 found_el
 .
 kind
