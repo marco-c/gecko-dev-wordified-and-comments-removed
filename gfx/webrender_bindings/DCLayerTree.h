@@ -1368,6 +1368,10 @@ gfx
 :
 Matrix
 &
+wr
+:
+:
+ImageRendering
 )
 ;
 DCSurfaceSwapChain
@@ -1450,6 +1454,15 @@ struct
 PlanAndDest
 final
 {
+Maybe
+<
+wr
+:
+:
+ImageRendering
+>
+rendering
+;
 CspaceAndRange
 srcSpace
 ;
