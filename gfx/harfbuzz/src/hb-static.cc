@@ -443,11 +443,8 @@ this
 )
 ;
 num_glyphs
-.
-set_relaxed
-(
+=
 ret
-)
 ;
 return
 ret
@@ -477,11 +474,8 @@ get_upem
 )
 ;
 upem
-.
-set_relaxed
-(
+=
 ret
-)
 ;
 return
 ret

@@ -54,7 +54,7 @@ public
 Tag
 valueTag
 ;
-HBUINT32
+VarIdx
 varIdx
 ;
 public

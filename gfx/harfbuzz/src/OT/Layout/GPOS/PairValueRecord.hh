@@ -104,9 +104,17 @@ hb_map_t
 glyph_map
 ;
 const
-hb_map_t
+hb_hashmap_t
+<
+unsigned
+hb_pair_t
+<
+unsigned
+int
+>
+>
 *
-layout_variation_idx_map
+layout_variation_idx_delta_map
 ;
 }
 ;
@@ -214,7 +222,7 @@ values
 closure
 -
 >
-layout_variation_idx_map
+layout_variation_idx_delta_map
 )
 ;
 closure
@@ -250,7 +258,7 @@ len1
 closure
 -
 >
-layout_variation_idx_map
+layout_variation_idx_delta_map
 )
 ;
 return_trace

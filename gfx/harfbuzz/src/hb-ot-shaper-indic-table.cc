@@ -627,7 +627,7 @@ _OT_SM
 OT_SM
 /
 *
-55
+56
 chars
 ;
 SM
@@ -915,7 +915,7 @@ _POS_SM
 POS_SMVD
 /
 *
-129
+130
 chars
 ;
 SMVD
@@ -6362,8 +6362,8 @@ C
 )
 _
 (
-X
-X
+SM
+SM
 )
 _
 (

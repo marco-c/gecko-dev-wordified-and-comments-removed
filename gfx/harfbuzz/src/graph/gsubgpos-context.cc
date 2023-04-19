@@ -37,9 +37,6 @@ lookup_list_index
 lookups
 (
 )
-buffers
-(
-)
 {
 if
 (
@@ -130,9 +127,7 @@ return
 -
 1
 ;
-buffers
-.
-push
+add_buffer
 (
 buffer
 )

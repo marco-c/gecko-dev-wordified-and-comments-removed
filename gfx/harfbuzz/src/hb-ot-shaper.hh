@@ -939,6 +939,12 @@ HB_SCRIPT_TOTO
 case
 HB_SCRIPT_VITHKUQI
 :
+case
+HB_SCRIPT_KAWI
+:
+case
+HB_SCRIPT_NAG_MUNDARI
+:
 if
 (
 planner

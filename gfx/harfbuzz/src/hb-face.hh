@@ -195,10 +195,6 @@ int
 ret
 =
 upem
-.
-get_relaxed
-(
-)
 ;
 if
 (
@@ -231,10 +227,6 @@ int
 ret
 =
 num_glyphs
-.
-get_relaxed
-(
-)
 ;
 if
 (

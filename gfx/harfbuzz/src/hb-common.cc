@@ -277,13 +277,10 @@ p
 }
 }
 _hb_options
-.
-set_relaxed
-(
+=
 u
 .
 i
-)
 ;
 }
 hb_tag_t

@@ -20,7 +20,7 @@ friend
 struct
 MarkArray
 ;
-protected
+public
 :
 HBUINT16
 klass

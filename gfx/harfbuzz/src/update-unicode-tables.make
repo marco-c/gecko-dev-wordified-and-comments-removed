@@ -510,6 +510,9 @@ packtab
 ArabicShaping
 .
 txt
+Blocks
+.
+txt
 DerivedCoreProperties
 .
 txt

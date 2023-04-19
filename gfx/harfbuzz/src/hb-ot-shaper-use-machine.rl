@@ -890,6 +890,8 @@ main
 |
 *
 virama_terminated_cluster
+ZWNJ
+?
 =
 >
 {
@@ -901,6 +903,8 @@ use_virama_terminated_cluster
 }
 ;
 sakot_terminated_cluster
+ZWNJ
+?
 =
 >
 {
@@ -912,6 +916,8 @@ use_sakot_terminated_cluster
 }
 ;
 standard_cluster
+ZWNJ
+?
 =
 >
 {
@@ -923,6 +929,8 @@ use_standard_cluster
 }
 ;
 number_joiner_terminated_cluster
+ZWNJ
+?
 =
 >
 {
@@ -934,6 +942,8 @@ use_number_joiner_terminated_cluster
 }
 ;
 numeral_cluster
+ZWNJ
+?
 =
 >
 {
@@ -945,6 +955,8 @@ use_numeral_cluster
 }
 ;
 symbol_cluster
+ZWNJ
+?
 =
 >
 {
@@ -956,6 +968,8 @@ use_symbol_cluster
 }
 ;
 hieroglyph_cluster
+ZWNJ
+?
 =
 >
 {
@@ -967,6 +981,8 @@ use_hieroglyph_cluster
 }
 ;
 broken_cluster
+ZWNJ
+?
 =
 >
 {

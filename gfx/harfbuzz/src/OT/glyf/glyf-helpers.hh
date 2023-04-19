@@ -80,10 +80,14 @@ void
 _write_loca
 (
 IteratorIn
+&
+&
 it
 bool
 short_offsets
 IteratorOut
+&
+&
 dest
 )
 {

@@ -1020,6 +1020,7 @@ hb_set_t
 glyphs
 IterableOut
 &
+&
 intersect_glyphs
 )
 const

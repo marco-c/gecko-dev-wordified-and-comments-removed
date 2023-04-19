@@ -966,7 +966,7 @@ do_destroy
 (
 instance
 .
-get
+get_acquire
 (
 )
 )
@@ -989,7 +989,7 @@ p
 =
 instance
 .
-get
+get_acquire
 (
 )
 ;
@@ -1163,7 +1163,7 @@ this
 >
 instance
 .
-get
+get_acquire
 (
 )
 ;
