@@ -3495,11 +3495,13 @@ content
 /
 assets
 /
-focus
+private
 -
 promo
+-
+asset
 .
-png
+svg
 "
 promoLinkText
 :
