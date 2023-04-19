@@ -81,6 +81,11 @@ Conversions
 cpp
 "
 "
+GeckoBundleUtils
+.
+cpp
+"
+"
 Utils
 .
 cpp
