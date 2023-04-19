@@ -7983,15 +7983,6 @@ enabled
 "
 security
 .
-insecure_field_warning
-.
-contextual
-.
-enabled
-"
-"
-security
-.
 mixed_content
 .
 block_active_content
