@@ -222,6 +222,11 @@ controls
 button
 -
 label
+-
+verbose
 =
-Submit
-Settings
+Apply
+settings
+and
+submit
+ping
