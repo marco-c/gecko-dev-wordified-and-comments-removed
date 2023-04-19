@@ -1169,6 +1169,8 @@ gsubgpos_graph_context_t
 &
 c
 unsigned
+parent_index
+unsigned
 this_index
 )
 {
@@ -1495,7 +1497,15 @@ split_context
 {
 c
 this
+c
+.
+graph
+.
+duplicate_if_shared
+(
+parent_index
 this_index
+)
 std
 :
 :
@@ -2024,7 +2034,7 @@ c
 .
 graph
 .
-as_table
+as_mutable_table
 <
 Coverage
 >
@@ -2122,7 +2132,7 @@ c
 .
 graph
 .
-as_table
+as_mutable_table
 <
 AnchorMatrix
 >
@@ -2169,7 +2179,7 @@ c
 .
 graph
 .
-as_table
+as_mutable_table
 <
 MarkArray
 >
@@ -2651,6 +2661,8 @@ gsubgpos_graph_context_t
 &
 c
 unsigned
+parent_index
+unsigned
 this_index
 )
 {
@@ -2682,6 +2694,7 @@ format1
 split_subtables
 (
 c
+parent_index
 this_index
 )
 ;

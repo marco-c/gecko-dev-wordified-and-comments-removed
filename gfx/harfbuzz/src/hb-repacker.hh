@@ -1000,7 +1000,6 @@ is_shared
 {
 if
 (
-!
 sorted_graph
 .
 duplicate
@@ -1012,6 +1011,13 @@ r
 .
 child
 )
+=
+=
+(
+unsigned
+)
+-
+1
 )
 continue
 ;

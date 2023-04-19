@@ -34,9 +34,6 @@ struct
 SubsetGlyph
 {
 hb_codepoint_t
-new_gid
-;
-hb_codepoint_t
 old_gid
 ;
 Glyph

@@ -621,7 +621,7 @@ https
 :
 /
 /
-docs
+learn
 .
 microsoft
 .

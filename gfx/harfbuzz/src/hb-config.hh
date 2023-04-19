@@ -128,6 +128,9 @@ define
 HB_NO_LAYOUT_COLLECT_GLYPHS
 #
 define
+HB_NO_LAYOUT_RARELY_USED
+#
+define
 HB_NO_LAYOUT_UNUSED
 #
 define
