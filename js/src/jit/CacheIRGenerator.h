@@ -788,6 +788,8 @@ uint32_t
 index
 Int32OperandId
 indexId
+ValOperandId
+receiverId
 )
 ;
 AttachDecision
