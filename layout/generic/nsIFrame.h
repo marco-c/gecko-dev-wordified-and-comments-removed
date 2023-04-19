@@ -7978,6 +7978,12 @@ IsContentHidden
 const
 ;
 bool
+IsContentHiddenForLayout
+(
+)
+const
+;
+bool
 AncestorHidesContent
 (
 )
