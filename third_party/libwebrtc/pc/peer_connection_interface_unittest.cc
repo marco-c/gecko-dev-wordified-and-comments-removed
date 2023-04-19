@@ -16803,7 +16803,7 @@ state
 }
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 TEST_P
 (
 PeerConnectionInterfaceTest
@@ -17140,7 +17140,7 @@ rejected
 ;
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 content
 =
 cricket
@@ -24769,7 +24769,7 @@ rejected
 }
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 TEST_P
 (
 PeerConnectionInterfaceTest

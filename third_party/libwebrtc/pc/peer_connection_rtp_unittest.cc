@@ -13064,7 +13064,7 @@ PeerConnectionRtpTestUnifiedPlan
 ;
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 TEST_F
 (
 SdpFormatReceivedTest

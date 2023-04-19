@@ -807,7 +807,7 @@ n
 "
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 "
 m
 =

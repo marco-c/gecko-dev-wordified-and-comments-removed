@@ -167,7 +167,7 @@ defines
 =
 [
 "
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 "
 ]
 }
@@ -6306,7 +6306,7 @@ defines
 =
 [
 "
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 "
 ]
 }

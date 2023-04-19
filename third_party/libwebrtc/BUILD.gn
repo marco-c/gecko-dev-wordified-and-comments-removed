@@ -1648,7 +1648,7 @@ defines
 =
 [
 "
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 "
 ]
 }

@@ -20248,7 +20248,7 @@ kDefaultTimeout
 }
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 TEST_P
 (
 PeerConnectionIntegrationTest
@@ -29518,7 +29518,7 @@ AddAudioVideoTracks
 ;
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 caller
 (
 )
@@ -29607,7 +29607,7 @@ sent_packets_b
 }
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 TEST_P
 (
 PeerConnectionIntegrationTest
@@ -34399,7 +34399,7 @@ state
 }
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 TEST_F
 (
 PeerConnectionIntegrationTestUnifiedPlan
