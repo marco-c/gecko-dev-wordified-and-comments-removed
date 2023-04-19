@@ -221,7 +221,7 @@ aParams
 }
 static
 ResolveResult
-ParseURLLikeImportSpecifier
+ResolveURLLikeModuleSpecifier
 (
 const
 nsAString
@@ -403,7 +403,7 @@ return
 auto
 parseResult
 =
-ParseURLLikeImportSpecifier
+ResolveURLLikeModuleSpecifier
 (
 aSpecifierKey
 aBaseURL
@@ -668,7 +668,7 @@ nullptr
 auto
 parseResult
 =
-ParseURLLikeImportSpecifier
+ResolveURLLikeModuleSpecifier
 (
 value
 aBaseURL
@@ -2488,7 +2488,7 @@ GetBaseURI
 auto
 parseResult
 =
-ParseURLLikeImportSpecifier
+ResolveURLLikeModuleSpecifier
 (
 aSpecifier
 baseURL
