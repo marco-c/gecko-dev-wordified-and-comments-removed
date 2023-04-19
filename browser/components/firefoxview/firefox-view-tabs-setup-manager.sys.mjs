@@ -878,7 +878,7 @@ this
 lastTabFetch
 "
 RECENT_TABS_SYNC
-false
+0
 (
 )
 =
