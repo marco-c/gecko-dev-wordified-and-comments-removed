@@ -738,14 +738,6 @@ lazy
 .
 UrlbarQuickSuggest
 .
-init
-(
-)
-;
-lazy
-.
-UrlbarQuickSuggest
-.
 on
 (
 "
