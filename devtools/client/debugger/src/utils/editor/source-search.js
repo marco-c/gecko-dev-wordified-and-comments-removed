@@ -223,7 +223,6 @@ full
 "
 ;
 }
-else
 if
 (
 match
@@ -247,6 +246,9 @@ skipToEnd
 )
 ;
 }
+return
+null
+;
 }
 }
 ;
@@ -445,6 +447,7 @@ cm
 )
 {
 return
+null
 ;
 }
 const
@@ -489,6 +492,7 @@ query
 )
 ;
 return
+null
 ;
 }
 const
@@ -629,7 +633,6 @@ cm
 return
 ;
 }
-return
 cm
 .
 operation

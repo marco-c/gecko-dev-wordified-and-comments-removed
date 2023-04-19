@@ -205,13 +205,16 @@ column
 ;
 if
 (
-!
 isNaN
 (
 lineNumber
 )
 )
 {
+return
+null
+;
+}
 return
 {
 line
@@ -237,7 +240,6 @@ null
 )
 }
 ;
-}
 }
 export
 function

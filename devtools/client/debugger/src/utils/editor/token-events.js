@@ -294,13 +294,14 @@ relatedTarget
 )
 )
 {
-return
 addMouseLeave
 (
 event
 .
 target
 )
+;
+return
 ;
 }
 prevTokenPos
