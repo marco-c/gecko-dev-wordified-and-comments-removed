@@ -386,6 +386,17 @@ generated_jni
 /
 rtc_base
 :
+logging
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 socket_address
 "
 "

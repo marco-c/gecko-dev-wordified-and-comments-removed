@@ -675,6 +675,14 @@ checks
 /
 rtc_base
 :
+logging
+"
+"
+.
+.
+/
+rtc_base
+:
 rate_limiter
 "
 "

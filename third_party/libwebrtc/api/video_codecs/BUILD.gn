@@ -1214,6 +1214,17 @@ checks
 /
 rtc_base
 :
+logging
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 rtc_base_approved
 "
 "

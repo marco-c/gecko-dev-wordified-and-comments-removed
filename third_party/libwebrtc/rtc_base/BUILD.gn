@@ -502,6 +502,10 @@ checks
 "
 "
 :
+logging
+"
+"
+:
 rtc_task_queue
 "
 "
@@ -1020,10 +1024,6 @@ webrtc
 :
 8603
 )
-"
-:
-logging
-"
 "
 :
 macromagic
@@ -4513,6 +4513,10 @@ checks
 "
 "
 :
+logging
+"
+"
+:
 macromagic
 "
 "
@@ -4596,6 +4600,10 @@ checks
 "
 :
 ip_address
+"
+"
+:
+logging
 "
 "
 :
@@ -6058,6 +6066,10 @@ ip_address
 "
 "
 :
+logging
+"
+"
+:
 rtc_base
 "
 "
@@ -6489,6 +6501,10 @@ ip_address
 "
 "
 :
+logging
+"
+"
+:
 net_helpers
 "
 "
@@ -6893,6 +6909,10 @@ gunit_helpers
 "
 :
 ip_address
+"
+"
+:
+logging
 "
 "
 :
@@ -7566,6 +7586,10 @@ gunit_helpers
 "
 :
 ip_address
+"
+"
+:
+logging
 "
 "
 :
