@@ -220,7 +220,9 @@ modules
 /
 NewTabUtils
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -289,7 +291,9 @@ modules
 /
 Sqlite
 .
-jsm
+sys
+.
+mjs
 "
 ]
 )
@@ -527,7 +531,9 @@ modules
 /
 AsyncPrefs
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource

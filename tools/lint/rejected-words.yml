@@ -4168,7 +4168,9 @@ modules
 /
 PermissionsUtils
 .
-jsm
+sys
+.
+mjs
 -
 toolkit
 /
@@ -4236,7 +4238,9 @@ modules
 /
 Troubleshoot
 .
-jsm
+sys
+.
+mjs
 -
 toolkit
 /
