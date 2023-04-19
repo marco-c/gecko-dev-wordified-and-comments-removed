@@ -338,13 +338,10 @@ kStartTime
 )
 rtp_module_
 (
-std
-:
-:
-make_unique
-<
 ModuleRtpRtcpImpl2
->
+:
+:
+Create
 (
 [
 &
