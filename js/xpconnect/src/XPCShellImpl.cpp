@@ -3601,8 +3601,10 @@ false
 nsresult
 rv
 =
-xpcTestRegisterComponents
+XRE_AddStaticComponent
 (
+&
+kXPCTestModule
 )
 ;
 if
