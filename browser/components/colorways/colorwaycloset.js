@@ -924,9 +924,7 @@ collection
 -
 expiry
 -
-date
--
-span
+label
 "
 {
 expiryDate
