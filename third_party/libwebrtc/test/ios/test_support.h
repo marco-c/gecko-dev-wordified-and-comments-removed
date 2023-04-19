@@ -75,6 +75,11 @@ string
 metrics_to_plot
 )
 ;
+bool
+ShouldRunIOSUnittestsWithXCTest
+(
+)
+;
 }
 }
 #

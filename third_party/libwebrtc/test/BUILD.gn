@@ -1646,6 +1646,13 @@ mm
 "
 ios
 /
+google_test_runner_delegate
+.
+h
+"
+"
+ios
+/
 test_support
 .
 h
