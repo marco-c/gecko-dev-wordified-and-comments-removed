@@ -255,6 +255,12 @@ push
 "
 sort
 "
+"
+print
+"
+"
+print
+"
 ]
 )
 ;
