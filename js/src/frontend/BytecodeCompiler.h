@@ -56,15 +56,6 @@ UniquePtr
 .
 h
 "
-#
-include
-"
-vm
-/
-TraceLogging
-.
-h
-"
 class
 JSLinearString
 ;
