@@ -19262,7 +19262,7 @@ getString
 "
 tabHistory
 .
-current
+reloadCurrent
 "
 )
 ;
