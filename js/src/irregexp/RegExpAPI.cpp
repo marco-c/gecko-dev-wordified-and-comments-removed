@@ -3858,7 +3858,7 @@ data
 )
 )
 {
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

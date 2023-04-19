@@ -2235,7 +2235,7 @@ cx
 report
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -2462,7 +2462,7 @@ cx
 report
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

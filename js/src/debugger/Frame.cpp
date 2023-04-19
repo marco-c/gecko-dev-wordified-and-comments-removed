@@ -4966,7 +4966,7 @@ ScopeKind
 NonSyntactic
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

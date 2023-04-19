@@ -1713,7 +1713,7 @@ tempLifoAlloc
 )
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

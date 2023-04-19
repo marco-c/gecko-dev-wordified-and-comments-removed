@@ -24354,7 +24354,7 @@ false
 ;
 }
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

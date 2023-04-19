@@ -12984,7 +12984,7 @@ input
 options
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -13100,12 +13100,6 @@ false
 ;
 }
 }
-MainThreadErrorContext
-ec
-(
-cx
-)
-;
 if
 (
 !
@@ -13346,7 +13340,7 @@ isInitialStencil
 )
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -13921,7 +13915,7 @@ size
 )
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -14297,7 +14291,7 @@ CompilationGCOutput
 gcOutput
 )
 {
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -14385,7 +14379,7 @@ succeededOut
 false
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -28552,7 +28546,7 @@ ScopeKind
 :
 Global
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -28774,7 +28768,7 @@ setModule
 (
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -29240,7 +29234,7 @@ TranscodeBuffer
 buffer
 )
 {
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -29388,7 +29382,7 @@ TranscodeResult
 Throw
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

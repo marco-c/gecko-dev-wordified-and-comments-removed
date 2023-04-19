@@ -3507,7 +3507,7 @@ mutedErrors
 ;
 }
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

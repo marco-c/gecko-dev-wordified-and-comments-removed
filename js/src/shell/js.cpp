@@ -13018,7 +13018,7 @@ return
 false
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -26166,7 +26166,7 @@ return
 false
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -26866,7 +26866,7 @@ false
 ;
 }
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -27237,7 +27237,7 @@ false
 ;
 }
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -28885,7 +28885,7 @@ js
 :
 frontend
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -29169,7 +29169,7 @@ return
 false
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -30201,7 +30201,7 @@ return
 false
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -30495,7 +30495,7 @@ return
 true
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -31037,7 +31037,7 @@ length
 (
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

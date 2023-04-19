@@ -37614,7 +37614,7 @@ return
 false
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -38405,7 +38405,7 @@ false
 ;
 }
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

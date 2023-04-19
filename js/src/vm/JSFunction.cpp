@@ -7036,7 +7036,7 @@ return
 true
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

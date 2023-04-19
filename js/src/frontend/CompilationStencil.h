@@ -2704,7 +2704,7 @@ CompilationTarget
 :
 SelfHosting
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
