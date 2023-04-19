@@ -758,7 +758,7 @@ public
 rtc
 :
 :
-MessageHandlerAutoCleanup
+MessageHandler
 public
 sigslot
 :
@@ -951,6 +951,11 @@ KeepAliveUntilPruned
 ;
 void
 Prune
+(
+)
+;
+void
+CancelPendingTasks
 (
 )
 ;
@@ -1458,12 +1463,7 @@ set_timeout_delay
 int
 delay
 )
-{
-timeout_delay_
-=
-delay
 ;
-}
 bool
 ParseStunUsername
 (
@@ -1903,6 +1903,7 @@ rtc
 :
 Thread
 *
+const
 thread_
 ;
 rtc
