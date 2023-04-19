@@ -1,5 +1,6 @@
 const
 {
+EngineURL
 SearchEngine
 }
 =
@@ -82,21 +83,6 @@ defineLazyModuleGetters
 (
 lazy
 {
-EngineURL
-:
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-SearchEngine
-.
-jsm
-"
 SearchUtils
 :
 "
@@ -1267,8 +1253,6 @@ var
 url
 =
 new
-lazy
-.
 EngineURL
 (
 type
