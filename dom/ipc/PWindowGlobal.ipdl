@@ -428,9 +428,8 @@ GetSecurityInfo
 )
 returns
 (
-nsCString
-?
-serializedSecInfo
+nsITransportSecurityInfo
+securityInfo
 )
 ;
 async
