@@ -63,6 +63,14 @@ unsigned
 long
 providerId
 ;
+[
+infallible
+]
+readonly
+attribute
+nsIPrincipal
+triggeringPrincipal
+;
 const
 long
 STATUS_NONE
