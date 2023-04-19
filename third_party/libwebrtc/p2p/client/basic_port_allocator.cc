@@ -1007,6 +1007,14 @@ relay_port_factory_
 nullptr
 )
 ;
+RTC_DCHECK
+(
+network_manager_
+!
+=
+nullptr
+)
+;
 SetConfiguration
 (
 stun_servers
