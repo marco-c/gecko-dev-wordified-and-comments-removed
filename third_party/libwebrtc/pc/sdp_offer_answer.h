@@ -2017,7 +2017,7 @@ string
 content_name
 )
 ;
-void
+bool
 UpdatePayloadTypeDemuxingState
 (
 cricket

@@ -195,7 +195,7 @@ error_desc
 0
 ;
 virtual
-void
+bool
 SetPayloadTypeDemuxingEnabled
 (
 bool
