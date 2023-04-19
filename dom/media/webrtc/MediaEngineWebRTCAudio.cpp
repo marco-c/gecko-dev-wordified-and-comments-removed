@@ -3756,7 +3756,6 @@ inputConfig
 (
 aRate
 channelCountFarend
-false
 )
 ;
 StreamConfig
@@ -4408,7 +4407,6 @@ GraphRate
 (
 )
 channelCountInput
-false
 )
 ;
 StreamConfig
