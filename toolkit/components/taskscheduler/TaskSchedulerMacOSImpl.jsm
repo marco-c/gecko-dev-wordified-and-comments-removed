@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-_TaskSchedulerMacOSImpl
+MacOSImpl
 "
 ]
 ;
@@ -218,7 +218,7 @@ consoleOptions
 )
 ;
 var
-_TaskSchedulerMacOSImpl
+MacOSImpl
 =
 {
 async

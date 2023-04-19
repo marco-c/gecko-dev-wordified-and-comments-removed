@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-_TaskSchedulerWinImpl
+WinImpl
 "
 ]
 ;
@@ -142,7 +142,7 @@ nsIXREDirProvider
 )
 ;
 var
-_TaskSchedulerWinImpl
+WinImpl
 =
 {
 registerTask
