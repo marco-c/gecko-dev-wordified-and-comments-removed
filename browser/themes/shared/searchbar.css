@@ -749,6 +749,15 @@ color
 :
 inherit
 ;
+-
+moz
+-
+box
+-
+flex
+:
+0
+;
 }
 .
 search
