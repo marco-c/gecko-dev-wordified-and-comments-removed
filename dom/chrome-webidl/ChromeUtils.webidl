@@ -4329,6 +4329,9 @@ audioDecoder_AppleMedia
 "
 audioDecoder_WMF
 "
+"
+mfMediaEngineCDM
+"
 }
 ;
 dictionary
