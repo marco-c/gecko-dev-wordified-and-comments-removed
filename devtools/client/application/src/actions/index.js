@@ -9,6 +9,10 @@ workers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ src
 actions
 /
 workers
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ page
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ src
 actions
 /
 page
+.
+js
 "
 )
 ;
@@ -49,6 +61,10 @@ ui
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -60,6 +76,8 @@ src
 actions
 /
 ui
+.
+js
 "
 )
 ;
@@ -69,6 +87,10 @@ manifest
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +102,8 @@ src
 actions
 /
 manifest
+.
+js
 "
 )
 ;

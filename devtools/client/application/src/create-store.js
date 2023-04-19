@@ -11,6 +11,10 @@ thunk
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ redux
 middleware
 /
 thunk
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ eventTelemetryMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ middleware
 event
 -
 telemetry
+.
+js
 "
 )
 ;
@@ -56,6 +68,10 @@ createStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -74,6 +92,10 @@ rootReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -85,6 +107,8 @@ src
 reducers
 /
 index
+.
+js
 "
 )
 ;
@@ -96,6 +120,10 @@ ManifestState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +137,8 @@ reducers
 manifest
 -
 state
+.
+js
 "
 )
 ;
@@ -120,6 +150,10 @@ WorkersState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +167,8 @@ reducers
 workers
 -
 state
+.
+js
 "
 )
 ;
@@ -144,6 +180,10 @@ PageState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -157,6 +197,8 @@ reducers
 page
 -
 state
+.
+js
 "
 )
 ;
@@ -168,6 +210,10 @@ UiState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -181,6 +227,8 @@ reducers
 ui
 -
 state
+.
+js
 "
 )
 ;

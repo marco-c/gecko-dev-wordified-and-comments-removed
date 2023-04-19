@@ -35,6 +35,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +50,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -59,6 +65,10 @@ WORKER_WAITING
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +84,8 @@ fixtures
 data
 /
 constants
+.
+js
 "
 )
 ;
@@ -85,6 +97,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +116,8 @@ service
 workers
 /
 Worker
+.
+js
 "
 )
 )

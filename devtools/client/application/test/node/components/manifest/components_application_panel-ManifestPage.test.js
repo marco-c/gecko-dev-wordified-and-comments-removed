@@ -35,6 +35,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +50,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -57,6 +63,10 @@ MANIFEST_SIMPLE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -72,6 +82,8 @@ fixtures
 data
 /
 constants
+.
+js
 "
 )
 ;
@@ -83,6 +95,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +112,8 @@ components
 manifest
 /
 ManifestPage
+.
+js
 "
 )
 )

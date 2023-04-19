@@ -12,6 +12,10 @@ updateWorkers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -37,6 +41,10 @@ UNREGISTER_WORKER
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -60,6 +68,10 @@ WorkersState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

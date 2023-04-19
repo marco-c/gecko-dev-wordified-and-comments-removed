@@ -12,6 +12,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -83,6 +101,10 @@ ul
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +118,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -107,6 +131,10 @@ getUnicodeUrl
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +144,8 @@ shared
 unicode
 -
 url
+.
+js
 "
 )
 ;
@@ -125,6 +155,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -136,6 +170,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -155,6 +191,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -166,6 +206,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;
@@ -177,6 +219,10 @@ unregisterWorker
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -188,6 +234,8 @@ src
 actions
 /
 workers
+.
+js
 "
 )
 ;
@@ -199,6 +247,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -212,6 +264,8 @@ components
 ui
 /
 UIButton
+.
+js
 "
 )
 )
@@ -224,6 +278,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -239,6 +297,8 @@ service
 workers
 /
 Worker
+.
+js
 "
 )
 )

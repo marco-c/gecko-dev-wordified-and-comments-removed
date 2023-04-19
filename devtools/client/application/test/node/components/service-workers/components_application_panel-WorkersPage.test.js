@@ -39,6 +39,10 @@ MULTIPLE_WORKER_MIXED_DOMAINS_LIST
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -54,6 +58,8 @@ fixtures
 data
 /
 constants
+.
+js
 "
 )
 ;
@@ -65,6 +71,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +86,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -87,6 +99,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +118,8 @@ service
 workers
 /
 WorkersPage
+.
+js
 "
 )
 )

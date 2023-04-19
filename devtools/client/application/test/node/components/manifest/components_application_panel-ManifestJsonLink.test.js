@@ -35,6 +35,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -48,6 +52,8 @@ components
 manifest
 /
 ManifestJsonLink
+.
+js
 "
 )
 )

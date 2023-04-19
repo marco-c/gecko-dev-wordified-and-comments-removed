@@ -35,6 +35,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -50,6 +54,8 @@ service
 workers
 /
 RegistrationListEmpty
+.
+js
 "
 )
 )

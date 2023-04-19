@@ -11,6 +11,10 @@ combineReducers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ workersReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ reducers
 workers
 -
 state
+.
+js
 "
 )
 ;
@@ -55,6 +67,10 @@ pageReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +84,8 @@ reducers
 page
 -
 state
+.
+js
 "
 )
 ;
@@ -79,6 +97,10 @@ uiReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +114,8 @@ reducers
 ui
 -
 state
+.
+js
 "
 )
 ;
@@ -103,6 +127,10 @@ manifestReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +144,8 @@ reducers
 manifest
 -
 state
+.
+js
 "
 )
 ;

@@ -65,6 +65,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +78,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -86,6 +92,10 @@ unmountComponentAtNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +107,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -108,6 +120,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +135,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 .
@@ -133,6 +151,10 @@ bindActionCreators
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -142,6 +164,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -153,6 +177,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -164,6 +192,8 @@ src
 modules
 /
 l10n
+.
+js
 "
 )
 ;
@@ -175,6 +205,10 @@ configureStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -186,6 +220,8 @@ src
 create
 -
 store
+.
+js
 "
 )
 ;
@@ -195,6 +231,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -206,6 +246,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -217,6 +259,10 @@ WorkersListener
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -226,6 +272,8 @@ shared
 workers
 -
 listener
+.
+js
 "
 )
 ;
@@ -235,6 +283,10 @@ Telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -242,6 +294,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;
@@ -253,6 +307,10 @@ services
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -266,6 +324,8 @@ modules
 application
 -
 services
+.
+js
 "
 )
 ;
@@ -277,6 +337,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -288,6 +352,8 @@ src
 components
 /
 App
+.
+js
 "
 )
 )
@@ -300,6 +366,10 @@ safeAsyncMethod
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -307,6 +377,8 @@ shared
 async
 -
 utils
+.
+js
 "
 )
 ;

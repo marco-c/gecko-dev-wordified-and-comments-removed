@@ -11,6 +11,10 @@ MANIFEST_NO_ISSUES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -26,6 +30,8 @@ fixtures
 data
 /
 constants
+.
+js
 "
 )
 ;
@@ -37,6 +43,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -48,6 +58,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -60,6 +72,10 @@ services
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -73,6 +89,8 @@ modules
 application
 -
 services
+.
+js
 "
 )
 ;
@@ -86,6 +104,10 @@ FETCH_MANIFEST_SUCCESS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -95,6 +117,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -106,6 +130,10 @@ fetchManifest
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +145,8 @@ src
 actions
 /
 manifest
+.
+js
 "
 )
 ;

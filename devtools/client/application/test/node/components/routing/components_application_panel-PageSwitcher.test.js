@@ -35,6 +35,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +50,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -57,6 +63,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -70,6 +80,8 @@ components
 routing
 /
 PageSwitcher
+.
+js
 "
 )
 )
@@ -82,6 +94,10 @@ PAGE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -91,6 +107,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;

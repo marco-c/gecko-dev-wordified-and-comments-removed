@@ -13,6 +13,10 @@ UPDATE_SELECTED_PAGE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

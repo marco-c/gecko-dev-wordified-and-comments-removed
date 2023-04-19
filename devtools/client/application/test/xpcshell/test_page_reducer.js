@@ -11,6 +11,10 @@ updateDomain
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -36,6 +40,10 @@ PageState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

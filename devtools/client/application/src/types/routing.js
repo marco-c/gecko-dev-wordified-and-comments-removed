@@ -9,6 +9,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ PAGE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +52,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;

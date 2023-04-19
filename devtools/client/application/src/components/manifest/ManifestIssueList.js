@@ -12,6 +12,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ ul
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -45,6 +55,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -56,6 +68,10 @@ MANIFEST_ISSUE_LEVELS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -74,6 +92,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -85,6 +107,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;
@@ -96,6 +120,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +137,8 @@ components
 manifest
 /
 ManifestIssue
+.
+js
 "
 )
 )

@@ -17,6 +17,10 @@ RESET_MANIFEST
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -26,6 +30,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;

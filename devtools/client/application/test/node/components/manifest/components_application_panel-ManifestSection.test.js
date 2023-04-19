@@ -36,6 +36,10 @@ tr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -60,6 +66,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -73,6 +83,8 @@ components
 manifest
 /
 ManifestSection
+.
+js
 "
 )
 )

@@ -11,6 +11,10 @@ UPDATE_DOMAIN
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;

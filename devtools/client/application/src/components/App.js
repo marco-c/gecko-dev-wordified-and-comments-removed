@@ -9,6 +9,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -34,6 +40,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ main
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -67,6 +83,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -108,6 +132,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -121,6 +149,8 @@ components
 routing
 /
 PageSwitcher
+.
+js
 "
 )
 )
@@ -133,6 +163,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +180,8 @@ components
 routing
 /
 Sidebar
+.
+js
 "
 )
 )

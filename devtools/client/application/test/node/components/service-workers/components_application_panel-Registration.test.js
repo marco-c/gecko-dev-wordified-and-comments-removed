@@ -35,6 +35,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +50,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -58,6 +64,10 @@ REGISTRATION_MULTIPLE_WORKERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -73,6 +83,8 @@ fixtures
 data
 /
 constants
+.
+js
 "
 )
 ;
@@ -84,6 +96,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -99,6 +115,8 @@ service
 workers
 /
 Registration
+.
+js
 "
 )
 )

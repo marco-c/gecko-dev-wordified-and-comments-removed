@@ -35,6 +35,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +50,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -57,6 +63,10 @@ PAGE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -66,6 +76,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -77,6 +89,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +106,8 @@ components
 routing
 /
 Sidebar
+.
+js
 "
 )
 )
