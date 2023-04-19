@@ -1,16 +1,12 @@
-from
-__future__
-import
-absolute_import
-division
-print_function
 import
 re
 from
-.
-_typing
+typing
 import
-TYPE_CHECKING
+FrozenSet
+NewType
+Tuple
+Union
 cast
 from
 .
@@ -24,18 +20,6 @@ version
 import
 InvalidVersion
 Version
-if
-TYPE_CHECKING
-:
-    
-from
-typing
-import
-FrozenSet
-NewType
-Tuple
-Union
-    
 BuildTag
 =
 Union
@@ -51,7 +35,6 @@ int
 str
 ]
 ]
-    
 NormalizedName
 =
 NewType
@@ -61,16 +44,6 @@ NormalizedName
 "
 str
 )
-else
-:
-    
-BuildTag
-=
-tuple
-    
-NormalizedName
-=
-str
 class
 InvalidWheelFilename
 (
@@ -168,7 +141,12 @@ def
 canonicalize_name
 (
 name
+:
+str
 )
+-
+>
+NormalizedName
 :
     
 value
@@ -197,7 +175,16 @@ def
 canonicalize_version
 (
 version
+:
+Union
+[
+Version
+str
+]
 )
+-
+>
+str
 :
     
 "
@@ -233,18 +220,17 @@ segment
 "
     
 if
-not
 isinstance
 (
 version
-Version
+str
 )
 :
         
 try
 :
             
-version
+parsed
 =
 Version
 (
@@ -258,13 +244,20 @@ InvalidVersion
 return
 version
     
+else
+:
+        
+parsed
+=
+version
+    
 parts
 =
 [
 ]
     
 if
-version
+parsed
 .
 epoch
 !
@@ -276,19 +269,15 @@ parts
 .
 append
 (
+f
 "
 {
-0
+parsed
+.
+epoch
 }
 !
 "
-.
-format
-(
-version
-.
-epoch
-)
 )
     
 parts
@@ -323,7 +312,7 @@ x
 for
 x
 in
-version
+parsed
 .
 release
 )
@@ -331,7 +320,7 @@ release
 )
     
 if
-version
+parsed
 .
 pre
 is
@@ -355,14 +344,14 @@ x
 for
 x
 in
-version
+parsed
 .
 pre
 )
 )
     
 if
-version
+parsed
 .
 post
 is
@@ -374,24 +363,20 @@ parts
 .
 append
 (
+f
 "
 .
 post
 {
-0
-}
-"
-.
-format
-(
-version
+parsed
 .
 post
-)
+}
+"
 )
     
 if
-version
+parsed
 .
 dev
 is
@@ -403,24 +388,20 @@ parts
 .
 append
 (
+f
 "
 .
 dev
 {
-0
-}
-"
-.
-format
-(
-version
+parsed
 .
 dev
-)
+}
+"
 )
     
 if
-version
+parsed
 .
 local
 is
@@ -432,19 +413,15 @@ parts
 .
 append
 (
+f
 "
 +
 {
-0
-}
-"
-.
-format
-(
-version
+parsed
 .
 local
-)
+}
+"
 )
     
 return
@@ -458,8 +435,23 @@ parts
 def
 parse_wheel_filename
 (
+    
 filename
+:
+str
 )
+-
+>
+Tuple
+[
+NormalizedName
+Version
+BuildTag
+FrozenSet
+[
+Tag
+]
+]
 :
     
 if
@@ -479,6 +471,7 @@ raise
 InvalidWheelFilename
 (
             
+f
 "
 Invalid
 wheel
@@ -494,14 +487,9 @@ whl
 )
 :
 {
-0
+filename
 }
 "
-.
-format
-(
-filename
-)
         
 )
     
@@ -539,6 +527,7 @@ raise
 InvalidWheelFilename
 (
             
+f
 "
 Invalid
 wheel
@@ -551,14 +540,9 @@ parts
 )
 :
 {
-0
+filename
 }
 "
-.
-format
-(
-filename
-)
         
 )
     
@@ -619,20 +603,16 @@ None
 raise
 InvalidWheelFilename
 (
+f
 "
 Invalid
 project
 name
 :
 {
-0
+filename
 }
 "
-.
-format
-(
-filename
-)
 )
     
 name
@@ -685,27 +665,22 @@ raise
 InvalidWheelFilename
 (
                 
+f
 "
 Invalid
 build
 number
 :
 {
-0
+build_part
 }
 in
 '
 {
-1
+filename
 }
 '
 "
-.
-format
-(
-build_part
-filename
-)
             
 )
         
@@ -763,11 +738,19 @@ def
 parse_sdist_filename
 (
 filename
+:
+str
 )
+-
+>
+Tuple
+[
+NormalizedName
+Version
+]
 :
     
 if
-not
 filename
 .
 endswith
@@ -781,10 +764,58 @@ gz
 )
 :
         
+file_stem
+=
+filename
+[
+:
+-
+len
+(
+"
+.
+tar
+.
+gz
+"
+)
+]
+    
+elif
+filename
+.
+endswith
+(
+"
+.
+zip
+"
+)
+:
+        
+file_stem
+=
+filename
+[
+:
+-
+len
+(
+"
+.
+zip
+"
+)
+]
+    
+else
+:
+        
 raise
 InvalidSdistFilename
 (
             
+f
 "
 Invalid
 sdist
@@ -799,17 +830,21 @@ tar
 .
 gz
 '
+or
+'
+.
+zip
+'
 )
 :
+"
+            
+f
+"
 {
-0
+filename
 }
 "
-.
-format
-(
-filename
-)
         
 )
     
@@ -817,12 +852,7 @@ name_part
 sep
 version_part
 =
-filename
-[
-:
--
-7
-]
+file_stem
 .
 rpartition
 (
@@ -839,20 +869,16 @@ sep
 raise
 InvalidSdistFilename
 (
+f
 "
 Invalid
 sdist
 filename
 :
 {
-0
+filename
 }
 "
-.
-format
-(
-filename
-)
 )
     
 name

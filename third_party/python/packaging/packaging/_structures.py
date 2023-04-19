@@ -1,14 +1,5 @@
-from
-__future__
-import
-absolute_import
-division
-print_function
 class
 InfinityType
-(
-object
-)
 :
     
 def
@@ -16,6 +7,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -28,6 +22,9 @@ __hash__
 (
 self
 )
+-
+>
+int
 :
         
 return
@@ -44,7 +41,12 @@ __lt__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 return
@@ -55,7 +57,12 @@ __le__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 return
@@ -66,28 +73,15 @@ __eq__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 return
-isinstance
-(
-other
-self
-.
-__class__
-)
-    
-def
-__ne__
-(
-self
-other
-)
-:
-        
-return
-not
 isinstance
 (
 other
@@ -101,7 +95,12 @@ __gt__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 return
@@ -112,7 +111,12 @@ __ge__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 return
@@ -122,7 +126,14 @@ def
 __neg__
 (
 self
+:
+object
 )
+-
+>
+"
+NegativeInfinityType
+"
 :
         
 return
@@ -134,9 +145,6 @@ InfinityType
 )
 class
 NegativeInfinityType
-(
-object
-)
 :
     
 def
@@ -144,6 +152,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -157,6 +168,9 @@ __hash__
 (
 self
 )
+-
+>
+int
 :
         
 return
@@ -173,7 +187,12 @@ __lt__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 return
@@ -184,7 +203,12 @@ __le__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 return
@@ -195,28 +219,15 @@ __eq__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 return
-isinstance
-(
-other
-self
-.
-__class__
-)
-    
-def
-__ne__
-(
-self
-other
-)
-:
-        
-return
-not
 isinstance
 (
 other
@@ -230,7 +241,12 @@ __gt__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 return
@@ -241,7 +257,12 @@ __ge__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 return
@@ -251,7 +272,12 @@ def
 __neg__
 (
 self
+:
+object
 )
+-
+>
+InfinityType
 :
         
 return
