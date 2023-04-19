@@ -15368,6 +15368,12 @@ ec
 cx
 )
 ;
+frontend
+:
+:
+NoScopeBindingCache
+scopeCache
+;
 RefPtr
 <
 frontend
@@ -15399,6 +15405,8 @@ tempLifoAlloc
 )
 *
 input
+&
+scopeCache
 srcBuf
 ScopeKind
 :

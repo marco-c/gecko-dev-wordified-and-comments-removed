@@ -345,6 +345,9 @@ ScriptStencilIterable
 struct
 InputName
 ;
+class
+ScopeBindingCache
+;
 struct
 ScopeStencilRef
 {
@@ -1983,6 +1986,12 @@ atomIndex_
 struct
 ScopeContext
 {
+ScopeBindingCache
+*
+scopeCache
+=
+nullptr
+;
 mozilla
 :
 :
@@ -2161,6 +2170,9 @@ input
 ParserAtomsTable
 &
 parserAtoms
+ScopeBindingCache
+*
+scopeCache
 InheritThis
 inheritThis
 JSObject
@@ -6065,6 +6077,9 @@ cx
 ErrorContext
 *
 ec
+ScopeBindingCache
+*
+scopeCache
 InheritThis
 inheritThis
 =
@@ -6090,6 +6105,7 @@ cx
 ec
 input
 parserAtoms
+scopeCache
 inheritThis
 enclosingEnv
 )

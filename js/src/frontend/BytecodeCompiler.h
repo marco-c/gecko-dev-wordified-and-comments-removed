@@ -115,6 +115,9 @@ ParseNode
 class
 TaggedParserAtomIndex
 ;
+class
+ScopeBindingCache
+;
 ModuleObject
 *
 CompileModule
@@ -204,6 +207,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -235,6 +241,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -269,6 +278,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -300,6 +312,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :

@@ -250,6 +250,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+JSContext
+-
+inl
+.
+h
+"
 using
 namespace
 js
@@ -596,6 +607,9 @@ cx
 ErrorContext
 *
 ec
+ScopeBindingCache
+*
+scopeCache
 InheritThis
 inheritThis
 =
@@ -619,6 +633,7 @@ init
 (
 cx
 ec
+scopeCache
 inheritThis
 enclosingEnv
 )
@@ -1216,6 +1231,9 @@ tempLifoAlloc
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -1565,6 +1583,7 @@ init
 (
 cx
 ec
+scopeCache
 )
 )
 {
@@ -1992,6 +2011,9 @@ tempLifoAlloc
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -2033,6 +2055,7 @@ ec
 stackLimit
 tempLifoAlloc
 input
+scopeCache
 srcBuf
 scopeKind
 output
@@ -2087,6 +2110,9 @@ tempLifoAlloc
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -2108,6 +2134,7 @@ ec
 stackLimit
 tempLifoAlloc
 input
+scopeCache
 srcBuf
 scopeKind
 )
@@ -2142,6 +2169,9 @@ tempLifoAlloc
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -2163,6 +2193,7 @@ ec
 stackLimit
 tempLifoAlloc
 input
+scopeCache
 srcBuf
 scopeKind
 )
@@ -2194,6 +2225,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -2240,6 +2274,7 @@ tempLifoAlloc
 (
 )
 input
+scopeCache
 srcBuf
 scopeKind
 output
@@ -2290,6 +2325,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -2310,6 +2348,7 @@ cx
 ec
 stackLimit
 input
+scopeCache
 srcBuf
 scopeKind
 )
@@ -2338,6 +2377,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -2358,6 +2400,7 @@ cx
 ec
 stackLimit
 input
+scopeCache
 srcBuf
 scopeKind
 )
@@ -2627,6 +2670,9 @@ address
 )
 )
 ;
+NoScopeBindingCache
+scopeCache
+;
 if
 (
 !
@@ -2646,6 +2692,8 @@ input
 get
 (
 )
+&
+scopeCache
 srcBuf
 scopeKind
 output
@@ -2887,6 +2935,20 @@ stackLimitForCurrentPrincipal
 (
 )
 ;
+ScopeBindingCache
+*
+scopeCache
+=
+&
+cx
+-
+>
+caches
+(
+)
+.
+scopeCache
+;
 ScriptCompiler
 <
 Unit
@@ -2914,6 +2976,7 @@ init
 cx
 &
 ec
+scopeCache
 InheritThis
 :
 :
@@ -4634,6 +4697,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 SourceText
 <
 Unit
@@ -4711,6 +4777,7 @@ init
 (
 cx
 ec
+scopeCache
 )
 )
 {
@@ -5016,6 +5083,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 SourceText
 <
 Unit
@@ -5051,6 +5121,7 @@ cx
 ec
 stackLimit
 input
+scopeCache
 srcBuf
 output
 )
@@ -5098,6 +5169,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 SourceText
 <
 char16_t
@@ -5113,6 +5187,7 @@ cx
 ec
 stackLimit
 input
+scopeCache
 srcBuf
 )
 ;
@@ -5140,6 +5215,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 SourceText
 <
 Utf8Unit
@@ -5155,6 +5233,7 @@ cx
 ec
 stackLimit
 input
+scopeCache
 srcBuf
 )
 ;
@@ -5184,6 +5263,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 SourceText
 <
 Unit
@@ -5219,6 +5301,7 @@ cx
 ec
 stackLimit
 input
+scopeCache
 srcBuf
 output
 )
@@ -5268,6 +5351,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 SourceText
 <
 char16_t
@@ -5283,6 +5369,7 @@ cx
 ec
 stackLimit
 input
+scopeCache
 srcBuf
 )
 ;
@@ -5310,6 +5397,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 SourceText
 <
 Utf8Unit
@@ -5325,6 +5415,7 @@ cx
 ec
 stackLimit
 input
+scopeCache
 srcBuf
 )
 ;
@@ -5417,6 +5508,9 @@ address
 )
 )
 ;
+NoScopeBindingCache
+scopeCache
+;
 if
 (
 !
@@ -5430,6 +5524,8 @@ input
 get
 (
 )
+&
+scopeCache
 srcBuf
 output
 )
@@ -6037,6 +6133,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 const
 Unit
 *
@@ -6196,6 +6295,7 @@ init
 (
 cx
 ec
+scopeCache
 inheritThis
 )
 )
@@ -6848,6 +6948,9 @@ JS
 :
 NativeStackLimit
 stackLimit
+ScopeBindingCache
+*
+scopeCache
 HandleFunction
 fun
 Handle
@@ -7131,6 +7234,7 @@ input
 get
 (
 )
+scopeCache
 units
 .
 get
@@ -7219,6 +7323,20 @@ scriptSource
 (
 )
 ;
+ScopeBindingCache
+*
+scopeCache
+=
+&
+cx
+-
+>
+caches
+(
+)
+.
+scopeCache
+;
 if
 (
 ss
@@ -7241,6 +7359,7 @@ Utf8Unit
 cx
 ec
 stackLimit
+scopeCache
 fun
 lazy
 ss
@@ -7269,6 +7388,7 @@ char16_t
 cx
 ec
 stackLimit
+scopeCache
 fun
 lazy
 ss
@@ -7298,6 +7418,9 @@ JS
 :
 NativeStackLimit
 stackLimit
+ScopeBindingCache
+*
+scopeCache
 CompilationStencil
 &
 context
@@ -7613,6 +7736,7 @@ input
 get
 (
 )
+scopeCache
 units
 .
 get
@@ -7662,6 +7786,9 @@ JS
 :
 NativeStackLimit
 stackLimit
+ScopeBindingCache
+*
+scopeCache
 CompilationStencil
 &
 context
@@ -7730,6 +7857,7 @@ Utf8Unit
 cx
 ec
 stackLimit
+scopeCache
 context
 scriptIndex
 )
@@ -7757,6 +7885,7 @@ char16_t
 cx
 ec
 stackLimit
+scopeCache
 context
 scriptIndex
 )
@@ -7934,6 +8063,20 @@ stackLimitForCurrentPrincipal
 (
 )
 ;
+ScopeBindingCache
+*
+scopeCache
+=
+&
+cx
+-
+>
+caches
+(
+)
+.
+scopeCache
+;
 StandaloneFunctionCompiler
 <
 char16_t
@@ -7961,6 +8104,7 @@ init
 cx
 &
 ec
+scopeCache
 inheritThis
 )
 )

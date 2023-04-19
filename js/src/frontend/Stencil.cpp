@@ -138,6 +138,15 @@ include
 "
 frontend
 /
+ScopeBindingCache
+.
+h
+"
+#
+include
+"
+frontend
+/
 SharedContext
 .
 h
@@ -817,6 +826,9 @@ input
 ParserAtomsTable
 &
 parserAtoms
+ScopeBindingCache
+*
+scopeCache
 InheritThis
 inheritThis
 JSObject
@@ -824,6 +836,13 @@ JSObject
 enclosingEnv
 )
 {
+this
+-
+>
+scopeCache
+=
+scopeCache
+;
 InputScope
 maybeNonDefaultEnclosingScope
 (
@@ -25793,6 +25812,9 @@ ec
 cx
 )
 ;
+NoScopeBindingCache
+scopeCache
+;
 Rooted
 <
 CompilationInput
@@ -25843,6 +25865,8 @@ input
 get
 (
 )
+&
+scopeCache
 srcBuf
 scopeKind
 )
@@ -26010,6 +26034,9 @@ ec
 cx
 )
 ;
+NoScopeBindingCache
+scopeCache
+;
 Rooted
 <
 CompilationInput
@@ -26054,6 +26081,8 @@ input
 get
 (
 )
+&
+scopeCache
 srcBuf
 )
 ;
