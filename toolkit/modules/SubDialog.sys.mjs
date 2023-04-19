@@ -3239,7 +3239,11 @@ width
 px
 "
 :
-frameMinWidth
+scrollWidth
++
+"
+px
+"
 ;
 if
 (
