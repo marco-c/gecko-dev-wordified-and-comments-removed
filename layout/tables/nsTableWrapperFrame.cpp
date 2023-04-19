@@ -5550,13 +5550,6 @@ aOuterRI
 aStatus
 )
 ;
-NS_FRAME_SET_TRUNCATION
-(
-aStatus
-aOuterRI
-aDesiredSize
-)
-;
 }
 nsIContent
 *

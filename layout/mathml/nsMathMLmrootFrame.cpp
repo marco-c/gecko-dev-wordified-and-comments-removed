@@ -847,13 +847,6 @@ drawTarget
 aDesiredSize
 )
 ;
-NS_FRAME_SET_TRUNCATION
-(
-aStatus
-aReflowInput
-aDesiredSize
-)
-;
 DidReflowChildren
 (
 mFrames
@@ -1640,13 +1633,6 @@ aDesiredSize
 .
 BlockStartAscent
 (
-)
-;
-NS_FRAME_SET_TRUNCATION
-(
-aStatus
-aReflowInput
-aDesiredSize
 )
 ;
 }

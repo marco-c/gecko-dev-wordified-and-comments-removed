@@ -4178,13 +4178,6 @@ UnSet
 (
 )
 ;
-NS_FRAME_SET_TRUNCATION
-(
-aStatus
-aReflowInput
-aDesiredSize
-)
-;
 return
 ;
 }
@@ -5673,13 +5666,6 @@ SetOverflowAreasToDesiredBounds
 FinishAndStoreOverflow
 (
 &
-aDesiredSize
-)
-;
-NS_FRAME_SET_TRUNCATION
-(
-aStatus
-aReflowInput
 aDesiredSize
 )
 ;

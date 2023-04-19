@@ -1471,13 +1471,6 @@ true
 }
 }
 }
-NS_FRAME_SET_TRUNCATION
-(
-aReflowStatus
-aReflowInput
-aMetrics
-)
-;
 }
 bool
 nsFirstLetterFrame
