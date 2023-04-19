@@ -126,7 +126,7 @@ filter
 .
 SetTargetBufferLevel
 (
-1
+20
 )
 ;
 rtc
@@ -260,7 +260,7 @@ filter
 .
 SetTargetBufferLevel
 (
-3
+60
 )
 ;
 for
@@ -313,7 +313,7 @@ filter
 .
 SetTargetBufferLevel
 (
-7
+140
 )
 ;
 for
@@ -365,7 +365,7 @@ filter
 .
 SetTargetBufferLevel
 (
-8
+160
 )
 ;
 for
@@ -421,7 +421,7 @@ filter
 .
 SetTargetBufferLevel
 (
-1
+20
 )
 ;
 const
