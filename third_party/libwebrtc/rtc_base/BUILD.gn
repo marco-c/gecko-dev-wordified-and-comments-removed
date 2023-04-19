@@ -3449,6 +3449,15 @@ src
 196903
 )
 .
+sources
+=
+[
+"
+async_resolver
+.
+h
+"
+]
 }
 rtc_source_set
 (
