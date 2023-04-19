@@ -82,6 +82,17 @@ api
 /
 test
 /
+mock_media_stream_interface
+.
+h
+"
+#
+include
+"
+api
+/
+test
+/
 mock_peer_connection_factory_interface
 .
 h
