@@ -342,6 +342,17 @@ surface
 export
 "
 )
+\
+_
+(
+REUSE_DECODER_DEVICE
+Feature
+"
+Reuse
+decoder
+device
+"
+)
 enum
 class
 Feature

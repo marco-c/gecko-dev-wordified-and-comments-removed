@@ -624,6 +624,13 @@ UseDMABufSurfaceExport
 bool
 true
 )
+\
+_
+(
+ReuseDecoderDevice
+bool
+false
+)
 class
 gfxVars
 final
