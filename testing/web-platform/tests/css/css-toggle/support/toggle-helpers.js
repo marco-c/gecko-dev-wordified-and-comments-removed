@@ -1,0 +1,15 @@
+async
+function
+wait_for_toggle_creation
+(
+element
+)
+{
+getComputedStyle
+(
+element
+)
+.
+toggleRoot
+;
+}
