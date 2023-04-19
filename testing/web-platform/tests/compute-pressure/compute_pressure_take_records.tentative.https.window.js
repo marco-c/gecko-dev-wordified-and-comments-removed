@@ -86,7 +86,7 @@ let
 observer
 ;
 const
-update
+changes
 =
 await
 new
@@ -142,7 +142,7 @@ cpu
 ;
 assert_in_array
 (
-update
+changes
 [
 0
 ]
