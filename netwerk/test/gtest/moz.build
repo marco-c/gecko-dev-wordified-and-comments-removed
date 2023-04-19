@@ -98,6 +98,11 @@ TestSocketTransportService
 cpp
 "
 "
+TestSSLTokensCache
+.
+cpp
+"
+"
 TestStandardURL
 .
 cpp
