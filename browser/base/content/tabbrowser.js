@@ -2565,8 +2565,6 @@ this
 .
 selectedBrowser
 .
-parentNode
-.
 insertAdjacentElement
 (
 "
