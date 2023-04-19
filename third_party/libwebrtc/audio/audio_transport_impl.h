@@ -317,7 +317,11 @@ typing_noise_detected
 (
 )
 const
+{
+return
+false
 ;
+}
 private
 :
 void
@@ -384,15 +388,6 @@ capture_lock_
 )
 =
 1
-;
-bool
-typing_noise_detected_
-RTC_GUARDED_BY
-(
-capture_lock_
-)
-=
-false
 ;
 bool
 swap_stereo_channels_

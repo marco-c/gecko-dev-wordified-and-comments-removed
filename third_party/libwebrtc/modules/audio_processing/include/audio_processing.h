@@ -454,17 +454,6 @@ false
 transient_suppression
 ;
 struct
-VoiceDetection
-{
-bool
-enabled
-=
-false
-;
-}
-voice_detection
-;
-struct
 RTC_EXPORT
 GainController1
 {
