@@ -12465,6 +12465,8 @@ nsIWinTaskbar
 if
 (
 !
+(
+await
 shellService
 .
 hasMatchingShortcut
@@ -12473,6 +12475,7 @@ winTaskbar
 .
 defaultPrivateGroupId
 true
+)
 )
 )
 {
@@ -12557,6 +12560,7 @@ text
 ]
 )
 ;
+await
 shellService
 .
 createShortcut
@@ -12584,6 +12588,7 @@ lnk
 appdir
 )
 ;
+}
 Services
 .
 prefs
@@ -12594,7 +12599,6 @@ PREF_PRIVATE_BROWSING_SHORTCUT_CREATED
 true
 )
 ;
-}
 }
 }
 {
