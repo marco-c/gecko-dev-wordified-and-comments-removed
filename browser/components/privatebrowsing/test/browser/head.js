@@ -884,15 +884,6 @@ remote
 experiments
 "
 "
-messageGroups
-"
-:
-[
-"
-pbNewtab
-"
-]
-"
 updateCycleInMs
 "
 :

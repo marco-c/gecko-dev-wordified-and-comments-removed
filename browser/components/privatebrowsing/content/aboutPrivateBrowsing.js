@@ -145,11 +145,8 @@ info
 ;
 if
 (
+!
 infoEnabled
-=
-=
-=
-false
 )
 {
 container
