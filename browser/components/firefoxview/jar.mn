@@ -120,6 +120,15 @@ content
 /
 browser
 /
+colorways
+-
+card
+.
+mjs
+content
+/
+browser
+/
 colorway
 -
 background
