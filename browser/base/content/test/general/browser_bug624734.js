@@ -41,7 +41,7 @@ menu
 -
 bookmark
 -
-add
+page
 "
 "
 main
@@ -52,7 +52,7 @@ menu
 -
 bookmark
 -
-add
+page
 -
 with
 -
@@ -67,7 +67,7 @@ menu
 -
 bookmark
 -
-add
+page
 -
 mac
 "

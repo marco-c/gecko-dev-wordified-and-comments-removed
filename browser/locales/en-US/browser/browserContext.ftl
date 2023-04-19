@@ -598,7 +598,7 @@ menu
 -
 bookmark
 -
-add
+page
 =
 .
 aria
@@ -606,7 +606,6 @@ aria
 label
 =
 Bookmark
-This
 Page
 .
 accesskey
@@ -616,7 +615,6 @@ m
 tooltiptext
 =
 Bookmark
-this
 page
 #
 This
@@ -641,9 +639,9 @@ context
 -
 menu
 -
-bookmark
--
 edit
+-
+bookmark
 -
 mac
 #
@@ -666,7 +664,7 @@ menu
 -
 bookmark
 -
-add
+page
 -
 mac
 =
@@ -704,7 +702,7 @@ menu
 -
 bookmark
 -
-add
+page
 -
 mac
 #
@@ -725,9 +723,9 @@ context
 -
 menu
 -
-bookmark
--
 edit
+-
+bookmark
 -
 mac
 =
@@ -765,7 +763,7 @@ menu
 -
 bookmark
 -
-add
+page
 -
 with
 -
@@ -777,7 +775,6 @@ aria
 label
 =
 Bookmark
-This
 Page
 .
 accesskey
@@ -787,7 +784,6 @@ m
 tooltiptext
 =
 Bookmark
-this
 page
 (
 {
@@ -800,9 +796,9 @@ context
 -
 menu
 -
-bookmark
+edit
 -
-change
+bookmark
 =
 .
 aria
@@ -810,7 +806,6 @@ aria
 label
 =
 Edit
-This
 Bookmark
 .
 accesskey
@@ -820,7 +815,6 @@ m
 tooltiptext
 =
 Edit
-this
 bookmark
 #
 Variables
@@ -845,9 +839,9 @@ context
 -
 menu
 -
-bookmark
+edit
 -
-change
+bookmark
 -
 with
 -
@@ -859,7 +853,6 @@ aria
 label
 =
 Edit
-This
 Bookmark
 .
 accesskey
@@ -869,7 +862,6 @@ m
 tooltiptext
 =
 Edit
-this
 bookmark
 (
 {
@@ -1012,6 +1004,8 @@ menu
 bookmark
 -
 link
+-
+2
 =
 .
 label
@@ -2375,13 +2369,14 @@ menu
 -
 frame
 -
+add
+-
 bookmark
 =
 .
 label
 =
 Bookmark
-This
 Frame
 .
 accesskey
@@ -2481,6 +2476,8 @@ menu
 print
 -
 selection
+-
+2
 =
 .
 label

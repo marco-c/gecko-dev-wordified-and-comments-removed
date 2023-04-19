@@ -3100,8 +3100,6 @@ menu
 -
 bookmark
 -
-current
--
 tab
 "
 /

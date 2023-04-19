@@ -433,6 +433,10 @@ Tabs
 accesskey
 =
 B
+tab
+-
+context
+-
 bookmark
 -
 tab

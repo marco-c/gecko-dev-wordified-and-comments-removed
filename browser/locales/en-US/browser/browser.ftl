@@ -6143,11 +6143,11 @@ Bookmarking
 Tools
 bookmarks
 -
-bookmark
+subview
 -
 edit
 -
-panel
+bookmark
 =
 .
 label
@@ -6270,7 +6270,9 @@ bookmarks
 .
 bookmarks
 -
-current
+subview
+-
+bookmark
 -
 tab
 =

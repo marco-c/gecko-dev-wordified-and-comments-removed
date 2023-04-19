@@ -1308,8 +1308,6 @@ menu
 -
 bookmark
 -
-current
--
 tab
 =
 .
@@ -1320,9 +1318,9 @@ Current
 Tab
 menu
 -
-bookmark
--
 edit
+-
+bookmark
 =
 .
 label

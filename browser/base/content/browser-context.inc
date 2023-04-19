@@ -503,7 +503,7 @@ menu
 -
 bookmark
 -
-add
+page
 "
 oncommand
 =
@@ -1152,6 +1152,8 @@ menu
 bookmark
 -
 link
+-
+2
 "
 oncommand
 =
@@ -3204,7 +3206,7 @@ menu
 -
 bookmark
 -
-add
+page
 -
 mac
 "
@@ -3872,6 +3874,8 @@ menu
 print
 -
 selection
+-
+2
 "
 oncommand
 =
@@ -4594,6 +4598,8 @@ context
 menu
 -
 frame
+-
+add
 -
 bookmark
 "

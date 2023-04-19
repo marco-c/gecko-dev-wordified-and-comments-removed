@@ -480,8 +480,6 @@ tabs
 context
 -
 bookmark
--
-tab
 =
 .
 label
