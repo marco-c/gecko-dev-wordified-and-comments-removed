@@ -623,6 +623,7 @@ Run
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 PrintToPdf
 (

@@ -2724,6 +2724,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 PrintOuter
 (
@@ -2755,6 +2756,7 @@ No
 Yes
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 mozilla
 :
 :

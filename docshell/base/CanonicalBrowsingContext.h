@@ -601,6 +601,7 @@ nsresult
 false
 >
 ;
+MOZ_CAN_RUN_SCRIPT
 RefPtr
 <
 PrintPromise
@@ -611,6 +612,7 @@ nsIPrintSettings
 *
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
