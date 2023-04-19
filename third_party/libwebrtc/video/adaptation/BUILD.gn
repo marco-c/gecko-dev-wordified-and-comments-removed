@@ -641,6 +641,11 @@ sources
 =
 [
 "
+bitrate_constraint_unittest
+.
+cc
+"
+"
 overuse_frame_detector_unittest
 .
 cc
