@@ -144,6 +144,10 @@ fission_mobile
 =
 False
         
+test_bytecode_cache
+=
+False
+        
 webext
 =
 False
@@ -293,6 +297,10 @@ fission_mobile
 =
 False
         
+test_bytecode_cache
+=
+False
+        
 webext
 =
 False
@@ -404,6 +412,10 @@ fission
 True
         
 fission_mobile
+=
+False
+        
+test_bytecode_cache
 =
 False
         
@@ -521,6 +533,10 @@ fission_mobile
 =
 False
         
+test_bytecode_cache
+=
+False
+        
 webext
 =
 False
@@ -631,6 +647,10 @@ fission_mobile
 =
 False
         
+test_bytecode_cache
+=
+False
+        
 webext
 =
 False
@@ -732,6 +752,10 @@ fission
 True
         
 fission_mobile
+=
+False
+        
+test_bytecode_cache
 =
 False
         
