@@ -281,6 +281,7 @@ override
 ;
 private
 :
+const
 std
 :
 :
