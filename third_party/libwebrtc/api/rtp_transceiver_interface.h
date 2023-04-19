@@ -261,6 +261,8 @@ stopping
 (
 )
 const
+=
+0
 ;
 virtual
 RtpTransceiverDirection
@@ -362,6 +364,8 @@ RtpCodecCapability
 >
 codecs
 )
+=
+0
 ;
 virtual
 std
@@ -375,6 +379,8 @@ codec_preferences
 (
 )
 const
+=
+0
 ;
 virtual
 std
@@ -388,6 +394,8 @@ HeaderExtensionsToOffer
 (
 )
 const
+=
+0
 ;
 virtual
 std
@@ -401,6 +409,8 @@ HeaderExtensionsNegotiated
 (
 )
 const
+=
+0
 ;
 virtual
 webrtc
@@ -419,6 +429,8 @@ RtpHeaderExtensionCapability
 >
 header_extensions_to_offer
 )
+=
+0
 ;
 protected
 :
