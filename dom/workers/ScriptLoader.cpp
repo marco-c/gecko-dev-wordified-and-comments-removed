@@ -4444,7 +4444,7 @@ true
 ;
 if
 (
-loadContext
+aRequest
 -
 >
 mSourceMapURL
@@ -4454,7 +4454,7 @@ options
 .
 setSourceMapURL
 (
-loadContext
+aRequest
 -
 >
 mSourceMapURL
