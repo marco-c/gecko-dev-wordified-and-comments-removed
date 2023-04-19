@@ -107,9 +107,6 @@ JitSpewer
 h
 "
 #
-ifdef
-JS_ION_PERF
-#
 include
 "
 jit
@@ -118,8 +115,6 @@ PerfSpewer
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -771,12 +766,6 @@ bigIntsCanBeInNursery_
 uint64_t
 minWasmHeapLength_
 ;
-#
-if
-defined
-(
-JS_ION_PERF
-)
 IonPerfSpewer
 wasmPerfSpewer_
 ;
@@ -792,8 +781,6 @@ return
 wasmPerfSpewer_
 ;
 }
-#
-endif
 public
 :
 const
