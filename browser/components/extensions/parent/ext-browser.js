@@ -4624,12 +4624,9 @@ normal
 "
 state
 :
-this
-.
-getState
-(
-windowData
-)
+"
+normal
+"
 alwaysOnTop
 :
 false
