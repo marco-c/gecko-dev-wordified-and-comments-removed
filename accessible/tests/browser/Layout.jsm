@@ -92,8 +92,6 @@ defaultView
 ;
 bc
 .
-top
-.
 fullZoom
 =
 zoom

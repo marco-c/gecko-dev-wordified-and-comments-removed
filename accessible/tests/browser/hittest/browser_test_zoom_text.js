@@ -3,7 +3,6 @@ use
 strict
 "
 ;
-async
 function
 testOffsetAtPoint
 (
@@ -14,13 +13,8 @@ coordType
 expectedOffset
 )
 {
-await
-untilCacheIs
+is
 (
-(
-)
-=
->
 hyperText
 .
 getOffsetAtPoint
@@ -123,10 +117,6 @@ document
 )
 ;
 return
-Math
-.
-floor
-(
 hyperText
 .
 textContent
@@ -134,7 +124,6 @@ textContent
 length
 /
 2
-)
 ;
 }
 )
@@ -182,7 +171,6 @@ browser
 )
 )
 ;
-await
 testOffsetAtPoint
 (
 hyperText
@@ -285,7 +273,6 @@ browser
 )
 )
 ;
-await
 testOffsetAtPoint
 (
 hyperText
