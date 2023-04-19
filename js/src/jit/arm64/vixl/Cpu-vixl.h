@@ -528,14 +528,6 @@ void
 address
 size_t
 length
-bool
-codeIsThreadLocal
-)
-;
-static
-bool
-CanFlushICacheFromBackgroundThreads
-(
 )
 ;
 static

@@ -125,16 +125,7 @@ class
 MustFlushICache
 {
 No
-LocalThreadOnly
-AllThreads
-}
-;
-enum
-class
-FlushICacheSpec
-{
-LocalThreadOnly
-AllThreads
+Yes
 }
 ;
 [

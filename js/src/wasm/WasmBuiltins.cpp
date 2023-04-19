@@ -9664,10 +9664,6 @@ ExecutableAllocator
 :
 makeExecutableAndFlushICache
 (
-FlushICacheSpec
-:
-:
-LocalThreadOnly
 thunks
 -
 >
