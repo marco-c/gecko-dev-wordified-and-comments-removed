@@ -19302,6 +19302,11 @@ cv
 mContentViewer
 )
 ;
+NS_ENSURE_STATE
+(
+cv
+)
+;
 bool
 okToUnload
 =
