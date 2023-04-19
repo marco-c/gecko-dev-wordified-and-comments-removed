@@ -621,7 +621,10 @@ sizeof
 LargeNonTrivial
 )
 >
-16
+UntypedFunction
+:
+:
+kInlineStorageSize
 "
 "
 )
@@ -703,7 +706,10 @@ sizeof
 lt
 )
 >
-16
+UntypedFunction
+:
+:
+kInlineStorageSize
 "
 "
 )
