@@ -25,7 +25,7 @@ lazyRequireGetter
 (
 this
 "
-SessionData
+SessionDataProcessors
 "
 "
 devtools
@@ -39,6 +39,8 @@ targets
 session
 -
 data
+-
+processors
 /
 index
 "
@@ -98,7 +100,7 @@ false
 const
 processor
 =
-SessionData
+SessionDataProcessors
 [
 type
 ]
@@ -129,7 +131,7 @@ entries
 const
 processor
 =
-SessionData
+SessionDataProcessors
 [
 type
 ]
