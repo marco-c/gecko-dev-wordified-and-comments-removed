@@ -1332,6 +1332,13 @@ DetachAllSnapshots
 (
 )
 ;
+mSharedContext
+-
+>
+WaitForShmem
+(
+)
+;
 auto
 *
 child
