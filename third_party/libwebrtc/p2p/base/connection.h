@@ -1360,15 +1360,6 @@ last_send_data_
 =
 0
 ;
-bool
-pending_delete_
-RTC_GUARDED_BY
-(
-network_thread_
-)
-=
-false
-;
 private
 :
 void
