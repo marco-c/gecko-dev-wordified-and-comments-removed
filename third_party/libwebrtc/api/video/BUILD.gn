@@ -484,6 +484,17 @@ rtc_base_approved
 .
 /
 rtc_base
+:
+timeutils
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
 /
 memory
 :

@@ -534,6 +534,10 @@ stringutils
 "
 "
 :
+timeutils
+"
+"
+:
 type_traits
 "
 "
@@ -1051,10 +1055,6 @@ platform_thread
 "
 :
 platform_thread_types
-"
-"
-:
-timeutils
 "
 "
 .
@@ -4670,6 +4670,10 @@ stringutils
 threading
 "
 "
+:
+timeutils
+"
+"
 .
 .
 /
@@ -6133,6 +6137,10 @@ stringutils
 threading
 "
 "
+:
+timeutils
+"
+"
 .
 .
 /
@@ -6588,6 +6596,10 @@ testclient
 threading
 "
 "
+:
+timeutils
+"
+"
 .
 .
 /
@@ -7039,6 +7051,10 @@ testclient
 threading
 "
 "
+:
+timeutils
+"
+"
 .
 .
 /
@@ -7259,6 +7275,10 @@ rtc_task_queue
 "
 :
 task_queue_for_test
+"
+"
+:
+timeutils
 "
 "
 .
@@ -7710,6 +7730,10 @@ testclient
 "
 :
 threading
+"
+"
+:
+timeutils
 "
 "
 .

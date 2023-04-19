@@ -295,6 +295,14 @@ safe_conversions
 .
 /
 rtc_base
+:
+timeutils
+"
+"
+.
+.
+/
+rtc_base
 /
 synchronization
 :

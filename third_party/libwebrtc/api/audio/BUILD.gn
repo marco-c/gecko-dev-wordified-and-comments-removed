@@ -186,6 +186,17 @@ rtc_base
 :
 rtc_base_approved
 "
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
+timeutils
+"
 ]
 }
 rtc_source_set
