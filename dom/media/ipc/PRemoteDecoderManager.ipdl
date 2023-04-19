@@ -1,6 +1,6 @@
 #
 ifdef
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 include
 protocol
 PMFMediaEngine
@@ -150,7 +150,7 @@ PRemoteDecoder
 ;
 #
 ifdef
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 manages
 PMFMediaEngine
 ;
@@ -160,7 +160,7 @@ parent
 :
 #
 ifdef
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 async
 PMFMediaEngine
 (

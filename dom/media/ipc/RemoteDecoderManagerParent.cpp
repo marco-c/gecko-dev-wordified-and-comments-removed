@@ -138,7 +138,7 @@ h
 "
 #
 ifdef
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 #
 include
 "
@@ -1178,7 +1178,7 @@ AllocPMFMediaEngineParent
 {
 #
 ifdef
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 return
 new
 MFMediaEngineParent
@@ -1208,7 +1208,7 @@ actor
 {
 #
 ifdef
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 MFMediaEngineParent
 *
 parent
