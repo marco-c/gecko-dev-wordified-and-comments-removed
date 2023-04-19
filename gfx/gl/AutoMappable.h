@@ -600,7 +600,6 @@ T
 b
 )
 {
-\
 return
 !
 operator
@@ -611,7 +610,6 @@ a
 b
 )
 ;
-\
 }
 #
 define
