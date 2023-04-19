@@ -133,13 +133,7 @@ class
 PacketRouter
 ;
 class
-ProcessThread
-;
-class
 RtcEventLog
-;
-class
-RtpPacketReceived
 ;
 class
 RtpStreamReceiverControllerInterface

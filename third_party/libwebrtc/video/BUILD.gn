@@ -653,14 +653,6 @@ rtp_video_header
 /
 modules
 /
-utility
-"
-"
-.
-.
-/
-modules
-/
 video_coding
 "
 "
