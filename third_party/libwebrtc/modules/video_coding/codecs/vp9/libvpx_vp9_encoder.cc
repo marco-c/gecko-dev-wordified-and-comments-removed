@@ -11094,7 +11094,7 @@ flags
 .
 use_per_layer_speed
 =
-true
+false
 ;
 #
 if
@@ -11138,8 +11138,8 @@ settings_by_resolution
 =
 {
 5
-8
-1
+5
+0
 }
 ;
 flags
@@ -11153,7 +11153,7 @@ settings_by_resolution
 =
 {
 7
-8
+7
 0
 }
 ;
