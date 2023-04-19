@@ -562,6 +562,7 @@ derive
 (
 Clone
 Debug
+Eq
 PartialEq
 Error
 )
@@ -601,6 +602,7 @@ derive
 (
 Clone
 Debug
+Eq
 PartialEq
 Error
 )
@@ -651,6 +653,7 @@ derive
 (
 Clone
 Debug
+Eq
 PartialEq
 Error
 )
@@ -736,6 +739,7 @@ derive
 (
 Clone
 Debug
+Eq
 PartialEq
 Error
 )
@@ -817,6 +821,7 @@ derive
 (
 Clone
 Debug
+Eq
 PartialEq
 Error
 )
@@ -1087,14 +1092,18 @@ create_surface
 (
 &
 self
-rwh
+display_handle
 :
-&
-impl
 raw_window_handle
 :
 :
-HasRawWindowHandle
+RawDisplayHandle
+window_handle
+:
+raw_window_handle
+:
+:
+RawWindowHandle
 )
 -
 >
@@ -6055,6 +6064,7 @@ derive
 Debug
 Clone
 Copy
+Eq
 PartialEq
 )
 ]

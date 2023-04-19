@@ -718,8 +718,11 @@ SHELL
 :
 =
 /
+usr
+/
 bin
 /
+env
 bash
 #
 required
@@ -1145,8 +1148,11 @@ SHELL
 :
 =
 /
+usr
+/
 bin
 /
+env
 bash
 #
 required

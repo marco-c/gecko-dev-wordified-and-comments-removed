@@ -11,7 +11,7 @@ version
 "
 0
 .
-8
+9
 .
 0
 "
@@ -73,7 +73,7 @@ tree
 /
 v0
 .
-8
+9
 "
 keywords
 =
@@ -192,6 +192,10 @@ default
 =
 [
 ]
+clone
+=
+[
+]
 dot
 -
 out
@@ -292,6 +296,9 @@ hexf
 parse
 "
 "
+termcolor
+"
+"
 unicode
 -
 xid
@@ -316,6 +323,9 @@ span
 codespan
 -
 reporting
+"
+"
+termcolor
 "
 ]
 validate
@@ -381,6 +391,9 @@ set
 "
 termcolor
 =
+{
+version
+=
 "
 1
 .
@@ -388,6 +401,10 @@ termcolor
 .
 4
 "
+optional
+=
+true
+}
 #
 remove
 termcolor

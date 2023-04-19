@@ -1397,6 +1397,15 @@ Mf
 :
 Clamp
 "
+saturate
+"
+=
+>
+Mf
+:
+:
+Saturate
+"
 cos
 "
 =

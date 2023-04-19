@@ -10104,6 +10104,15 @@ clamp
 Mf
 :
 :
+Saturate
+=
+>
+"
+saturate
+"
+Mf
+:
+:
 Cos
 =
 >

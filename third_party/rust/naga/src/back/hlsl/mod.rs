@@ -510,6 +510,13 @@ Option
 <
 BindTarget
 >
+pub
+push_constants_target
+:
+Option
+<
+BindTarget
+>
 }
 impl
 Default
@@ -544,6 +551,9 @@ fake_missing_bindings
 :
 true
 special_constants_binding
+:
+None
+push_constants_target
 :
 None
 }

@@ -4138,6 +4138,11 @@ Clamp
 Mf
 :
 :
+Saturate
+|
+Mf
+:
+:
 Cos
 |
 Mf

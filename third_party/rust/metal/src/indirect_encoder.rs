@@ -141,7 +141,7 @@ types
 }
 pub
 fn
-inherit_buffer
+inherit_buffers
 (
 &
 self
@@ -157,7 +157,7 @@ msg_send
 !
 [
 self
-inheritBuffer
+inheritBuffers
 ]
 {
 YES
@@ -180,7 +180,7 @@ unreachable
 }
 pub
 fn
-set_inherit_buffer
+set_inherit_buffers
 (
 &
 self
@@ -195,7 +195,7 @@ msg_send
 !
 [
 self
-setInheritBuffer
+setInheritBuffers
 :
 inherit
 ]

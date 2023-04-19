@@ -1510,6 +1510,13 @@ Clamp
 Self
 :
 :
+Saturate
+=
+>
+1
+Self
+:
+:
 Cos
 =
 >

@@ -351,7 +351,7 @@ PhantomData
 }
 }
 fn
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 &
 self
@@ -364,7 +364,7 @@ self
 .
 metadata
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -508,7 +508,7 @@ index
 ;
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -642,7 +642,7 @@ index
 ;
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -768,14 +768,14 @@ owned
 {
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
 ;
 other
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -947,7 +947,7 @@ false
 }
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
