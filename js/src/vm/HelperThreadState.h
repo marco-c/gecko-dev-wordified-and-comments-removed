@@ -2237,6 +2237,9 @@ gcOutput_
 OffThreadFrontendErrors
 errors
 ;
+OffThreadErrorContext
+ec_
+;
 ParseTask
 (
 ParseTaskKind
@@ -2309,6 +2312,9 @@ parse
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 )
 =
 0

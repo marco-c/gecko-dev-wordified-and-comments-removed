@@ -193,14 +193,6 @@ errors_
 ;
 public
 :
-explicit
-OffThreadErrorContext
-(
-JSAllocator
-*
-alloc
-)
-;
 bool
 addPendingError
 (
