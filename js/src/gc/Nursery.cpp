@@ -6899,6 +6899,7 @@ TenuringTracer
 mover
 )
 {
+{
 AutoSuppressProfilerSampling
 suppressProfiler
 (
@@ -7065,6 +7066,7 @@ ProfileKey
 MarkRuntime
 )
 ;
+}
 startProfile
 (
 ProfileKey
