@@ -158,6 +158,14 @@ h
 "
 regexp
 -
+parser
+.
+h
+"
+        
+"
+regexp
+-
 stack
 .
 h
@@ -212,6 +220,16 @@ include
 src
 /
 regexp
+(
+?
+!
+/
+regexp
+-
+flags
+.
+h
+)
 '
 )
     
@@ -373,6 +391,14 @@ OWNERS
 regexp
 .
 cc
+"
+        
+"
+regexp
+-
+flags
+.
+h
 "
         
 "
