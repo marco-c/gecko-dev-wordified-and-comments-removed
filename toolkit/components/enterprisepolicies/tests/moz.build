@@ -17,7 +17,9 @@ TESTING_JS_MODULES
 "
 EnterprisePolicyTesting
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

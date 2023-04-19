@@ -138,18 +138,7 @@ jsm
 "
 )
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-EnterprisePolicyTesting
-"
-"
-PoliciesPrefTracker
-"
-]
-;
+export
 var
 EnterprisePolicyTesting
 =
@@ -604,6 +593,7 @@ engine
 .
 *
 /
+export
 var
 PoliciesPrefTracker
 =
