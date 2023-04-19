@@ -44,6 +44,15 @@ RegisterAllocator_Backtracking
 RegisterAllocator_Testbed
 }
 ;
+enum
+class
+BaseRegForAddress
+{
+Default
+FP
+SP
+}
+;
 static
 inline
 mozilla
@@ -371,6 +380,9 @@ spectreJitToCxxCalls
 ;
 bool
 supportsUnalignedAccesses
+;
+BaseRegForAddress
+baseRegForLocals
 ;
 DefaultJitOptions
 (
