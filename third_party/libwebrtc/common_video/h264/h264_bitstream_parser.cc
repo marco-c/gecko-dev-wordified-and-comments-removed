@@ -1419,6 +1419,15 @@ NaluType
 :
 kSei
 :
+case
+H264
+:
+:
+NaluType
+:
+:
+kPrefix
+:
 break
 ;
 default
