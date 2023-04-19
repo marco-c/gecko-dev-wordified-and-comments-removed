@@ -3,9 +3,9 @@ super
 :
 :
 {
-QueryFeatureExpression
-FeatureType
 FeatureFlags
+FeatureType
+QueryFeatureExpression
 }
 ;
 use

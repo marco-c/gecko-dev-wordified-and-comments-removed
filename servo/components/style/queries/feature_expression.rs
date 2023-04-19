@@ -18,8 +18,8 @@ feature
 :
 :
 {
-KeywordDiscriminant
 FeatureFlags
+KeywordDiscriminant
 }
 ;
 use
@@ -486,6 +486,7 @@ Self
 GreaterThanEqual
 =
 >
+{
 matches
 !
 (
@@ -500,6 +501,7 @@ Self
 :
 GreaterThanEqual
 )
+}
 Self
 :
 :
@@ -511,6 +513,7 @@ Self
 LessThanEqual
 =
 >
+{
 matches
 !
 (
@@ -525,6 +528,7 @@ Self
 :
 LessThanEqual
 )
+}
 }
 }
 fn
@@ -3231,7 +3235,6 @@ v
 |
 v
 |
-{
 expect
 !
 (
@@ -3243,7 +3246,6 @@ to_computed_value
 (
 context
 )
-}
 )
 }
 Evaluator

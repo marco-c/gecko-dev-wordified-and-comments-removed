@@ -49,8 +49,8 @@ color
 :
 {
 ColorInterpolationMethod
-GenericColorMix
 GenericCaretColor
+GenericColorMix
 GenericColorOrAuto
 }
 ;

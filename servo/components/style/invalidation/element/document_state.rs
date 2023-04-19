@@ -95,9 +95,9 @@ matching
 {
 MatchingContext
 MatchingMode
+NeedsSelectorFlags
 QuirksMode
 VisitedHandlingMode
-NeedsSelectorFlags
 }
 ;
 pub

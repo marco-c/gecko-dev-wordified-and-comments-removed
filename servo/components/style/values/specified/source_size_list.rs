@@ -57,8 +57,8 @@ queries
 :
 :
 {
-QueryCondition
 FeatureType
+QueryCondition
 }
 ;
 use

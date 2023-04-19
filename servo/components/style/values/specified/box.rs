@@ -60,8 +60,8 @@ box_
 :
 {
 GenericAnimationIterationCount
-GenericPerspective
 GenericLineClamp
+GenericPerspective
 }
 ;
 use
@@ -113,8 +113,8 @@ specified
 :
 {
 AllowQuirks
-Number
 Integer
+Number
 }
 ;
 use
@@ -8502,6 +8502,7 @@ i
 0
 )
 )
+;
 }
 input
 .
@@ -8953,6 +8954,7 @@ none
 (
 )
 )
+;
 }
 const
 DISALLOWED_CONTAINER_NAMES

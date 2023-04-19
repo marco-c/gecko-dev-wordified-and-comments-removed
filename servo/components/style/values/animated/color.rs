@@ -55,10 +55,10 @@ color
 :
 :
 {
-GenericColor
-GenericColorMix
 ColorInterpolationMethod
 ColorSpace
+GenericColor
+GenericColorMix
 HueInterpolationMethod
 }
 ;

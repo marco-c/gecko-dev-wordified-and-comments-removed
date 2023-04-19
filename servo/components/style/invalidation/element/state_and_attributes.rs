@@ -174,8 +174,8 @@ matching
 matches_selector
 MatchingContext
 MatchingMode
-VisitedHandlingMode
 NeedsSelectorFlags
+VisitedHandlingMode
 }
 ;
 use

@@ -771,8 +771,8 @@ hash
 :
 :
 {
-Hash
 BuildHasher
+Hash
 }
 ;
 #

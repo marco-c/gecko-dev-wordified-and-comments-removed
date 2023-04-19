@@ -1425,7 +1425,6 @@ and_then
 |
 a
 |
-{
 a
 .
 borrow_data
@@ -1449,7 +1448,6 @@ clone
 (
 )
 )
-}
 )
 ;
 }

@@ -2799,6 +2799,7 @@ true
 |
 hint
 |
+{
 hint
 =
 =
@@ -2821,6 +2822,7 @@ hint
 "
 woff
 "
+}
 )
 }
 else
