@@ -199,13 +199,13 @@ See
 :
 doc
 :
-remote
+about
 debugging
 <
 .
 .
 /
-remote_debugging
+about_colon_debugging
 /
 index
 >
