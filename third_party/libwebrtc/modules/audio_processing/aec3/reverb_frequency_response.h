@@ -55,8 +55,11 @@ ReverbFrequencyResponse
 {
 public
 :
+explicit
 ReverbFrequencyResponse
 (
+bool
+use_conservative_tail_frequency_response
 )
 ;
 ~
@@ -144,6 +147,10 @@ filter_delay_blocks
 float
 linear_filter_quality
 )
+;
+const
+bool
+use_conservative_tail_frequency_response_
 ;
 float
 average_decay_
