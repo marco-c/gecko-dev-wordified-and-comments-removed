@@ -248,6 +248,8 @@ status
 (
 )
 ;
+status
+=
 PopulateRtcEventTimestamp
 (
 result
@@ -262,6 +264,18 @@ LoggedStopEvent
 timestamp
 output_batch
 )
+;
+if
+(
+!
+status
+.
+ok
+(
+)
+)
+return
+status
 ;
 return
 RtcEventLogParseStatus
