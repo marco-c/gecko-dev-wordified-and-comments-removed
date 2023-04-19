@@ -51164,6 +51164,11 @@ alloc
 )
 override
 ;
+bool
+canPmaddubsw
+(
+)
+;
 #
 endif
 wasm

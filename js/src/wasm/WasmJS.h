@@ -467,14 +467,6 @@ JSContext
 cx
 )
 ;
-bool
-SimdWormholeAvailable
-(
-JSContext
-*
-cx
-)
-;
 #
 if
 defined
@@ -525,8 +517,6 @@ TypedArrayObject
 code
 HandleObject
 importObj
-HandleValue
-maybeOptions
 MutableHandle
 <
 WasmInstanceObject
