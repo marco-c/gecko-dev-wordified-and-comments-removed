@@ -1368,13 +1368,11 @@ eSourceType_URL
 if
 (
 mUseOriginPrincipal
-)
-{
-MOZ_ASSERT
-(
+&
+&
 mOriginPrincipal
 )
-;
+{
 return
 RefPtr
 {
