@@ -558,6 +558,24 @@ _VSPATH
 =
 VSPATH
 )
+        
+"
+CFLAGS
+"
+:
+(
+"
+-
+-
+target
+=
+aarch64
+-
+windows
+-
+msvc
+"
+)
     
 }
 }
