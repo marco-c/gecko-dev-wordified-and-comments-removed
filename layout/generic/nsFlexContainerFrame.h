@@ -838,6 +838,11 @@ nsIFrame
 >
 mPlaceholders
 ;
+bool
+mHasCollapsedItems
+=
+false
+;
 nscoord
 mContentBoxMainSize
 =
@@ -1055,6 +1060,9 @@ FlexLine
 >
 &
 aLines
+bool
+&
+aHasCollapsedItems
 )
 ;
 FlexLayoutResult
