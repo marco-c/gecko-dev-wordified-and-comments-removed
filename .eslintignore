@@ -75,6 +75,7 @@ ignore
 !
 .
 eslintrc
+*
 .
 js
 #

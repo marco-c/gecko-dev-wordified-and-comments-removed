@@ -72,6 +72,17 @@ js
 -
 '
 .
+eslintrc
+-
+test
+-
+paths
+.
+js
+'
+-
+'
+.
 eslintignore
 '
 -
