@@ -12811,16 +12811,8 @@ mScrollSnapAlign
 aNewData
 .
 mScrollSnapAlign
-)
-{
-hint
 |
-=
-nsChangeHint_NeutralChange
-;
-}
-if
-(
+|
 mScrollSnapType
 !
 =
