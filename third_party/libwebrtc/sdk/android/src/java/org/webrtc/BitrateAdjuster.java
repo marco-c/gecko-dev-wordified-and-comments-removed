@@ -11,7 +11,7 @@ setTargets
 (
 int
 targetBitrateBps
-int
+double
 targetFramerateFps
 )
 ;
@@ -27,7 +27,7 @@ getAdjustedBitrateBps
 (
 )
 ;
-int
+double
 getAdjustedFramerateFps
 (
 )

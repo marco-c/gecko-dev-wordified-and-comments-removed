@@ -1644,7 +1644,7 @@ assertThat
 (
 mediaFormat
 .
-getInteger
+getFloat
 (
 MediaFormat
 .
@@ -1655,6 +1655,8 @@ KEY_FRAME_RATE
 isEqualTo
 (
 30
+.
+0f
 )
 ;
 }
