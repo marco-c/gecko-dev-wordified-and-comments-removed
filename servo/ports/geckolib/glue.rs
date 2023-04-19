@@ -32285,6 +32285,13 @@ namespaces
 [
 no_mangle
 ]
+#
+[
+inline
+(
+never
+)
+]
 pub
 unsafe
 extern
