@@ -14602,6 +14602,16 @@ exposed
 to
 content
 .
+#
+Currently
+not
+supported
+by
+GeckoView
+see
+bug
+1776829
+.
 -
 name
 :
