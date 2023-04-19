@@ -18,15 +18,6 @@ include
 "
 frontend
 /
-BytecodeCompiler
-.
-h
-"
-#
-include
-"
-frontend
-/
 ErrorReporter
 .
 h
@@ -1643,6 +1634,8 @@ closedOverBindingsForLazy_
 enum
 class
 BreakStatementError
+:
+uint8_t
 {
 ToughBreak
 LabelNotFound
@@ -1671,6 +1664,8 @@ label
 enum
 class
 ContinueStatementError
+:
+uint8_t
 {
 NotInALoop
 LabelNotFound
