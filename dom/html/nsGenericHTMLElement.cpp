@@ -6776,7 +6776,12 @@ aDecls
 SetKeywordValue
 (
 eCSSProperty_text_emphasis_position
-NS_STYLE_TEXT_EMPHASIS_POSITION_DEFAULT_ZH
+StyleTextEmphasisPosition
+:
+:
+DEFAULT_ZH
+.
+bits
 )
 ;
 }
@@ -6814,7 +6819,12 @@ aDecls
 SetKeywordValue
 (
 eCSSProperty_text_emphasis_position
-NS_STYLE_TEXT_EMPHASIS_POSITION_DEFAULT
+StyleTextEmphasisPosition
+:
+:
+DEFAULT
+.
+bits
 )
 ;
 }
